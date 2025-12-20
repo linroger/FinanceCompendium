@@ -50,7 +50,7 @@ In this chapter, we will consider a model with the nominal layer for the first t
 Let  $P_{t}$  denote the price index in the home country, which measures the price of the home consumption bundle in the unit of the local currency. For example, if one unit of the U.S. home consumption bundle costs 100 dollars, then the U.S. price level  $P_{t} = 100$ . Inflation is defined as the change in the price level:
 
 $$
-\pi_ {t} \stackrel {\text {d e f}} {=} \Delta \log P _ {t}.
+\pi_{t} \stackrel {\text{de f}} {=} \Delta \log P_{t}.
 $$
 
 Recall that  $c_{t}$  is the real consumption. We use  $C_{t} = P_{t}c_{t}$  to denote the nominal consumption. In the same example, if the U.S. households consume 10 units of the home consumption bundle, then the real consumption is  $c_{t} = 10$  units of the consumption bundle and the nominal consumption is  $C_{t} = 10 \times 100 = 1000$  dollars. More generally, we use uppercase letters to denote nominal prices and quantities, and we use lowercase letters to denote real prices and quantities. The nominal interest rate  $i_{t}$  and the inflation rate  $\pi_{t}$  are the exceptions to this notation, as it is common to express them in lowercase. $^{1}$
@@ -58,7 +58,7 @@ Recall that  $c_{t}$  is the real consumption. We use  $C_{t} = P_{t}c_{t}$  to 
 Recall that the log real exchange rate  $e_t$  measures the conversion ratio between the home and foreign countries' consumption baskets, and a higher value means that the home consumption basket is more expensive. We similarly define the nominal exchange rate  $\exp(\mathcal{E}_t)$  as the conversion ratio between the home and foreign currencies. It is related to the real exchange rate  $e_t$  and the price levels  $P_t$  and  $P_t^*$  via
 
 $$
-\exp (e _ {t}) = \exp (\mathcal {E} _ {t}) \frac {P _ {t}}{P _ {t} ^ {*}}.
+\exp (e_{t}) = \exp (\mathcal {E}_{t}) \frac{P_{t}}{P_{t}^{*}}.
 $$
 
 If we fix the real exchange rate  $e_t$ , a higher home inflation  $P_t$  is associated with a lower nominal value of the home currency  $\mathcal{E}_t$ .
@@ -66,7 +66,7 @@ If we fix the real exchange rate  $e_t$ , a higher home inflation  $P_t$  is ass
 Finally, we use the nominal SDF to discount nominal returns and nominal cash flows. The home nominal SDF  $M_{t+1}$  is defined as
 
 $$
-M _ {t + 1} \stackrel {\text {d e f}} {=} m _ {t + 1} - \pi_ {t + 1}. \tag {6.1}
+M_{t + 1} \stackrel {\text{de f}} {=} m_{t + 1} - \pi_{t + 1}. \tag {6.1}
 $$
 
 In our derivation, we will also use the lower case  $p_t(h)$  to denote the price of a specific variety of goods, which helps to distinguish it from the aggregate price index  $P_t$ .
@@ -74,13 +74,13 @@ In our derivation, we will also use the lower case  $p_t(h)$  to denote the pric
 If an asset with real return  $\tilde{r}_{t+1}$ , its nominal return is  $\tilde{r}_{t+1} + \pi_{t+1}$ . We can price this asset either by
 
 $$
-1 = \mathbb {E} _ {t} [ \exp (m _ {t + 1} + \tilde {r} _ {t + 1}) ],
+1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + \tilde {r}_{t + 1}) ],
 $$
 
 or equivalently by
 
 $$
-1 = \mathbb {E} _ {t} [ \exp (M _ {t + 1} + \tilde {r} _ {t + 1} + \pi_ {t + 1}) ].
+1 = \mathbb {E}_{t} [ \exp (M_{t + 1} + \tilde {r}_{t + 1} + \pi_{t + 1}) ].
 $$
 
 # 6.A.1 Exchange Rate Accounting
@@ -88,25 +88,25 @@ $$
 Next, let us relate these concepts to the exchange rate accounting exercises in Section 1.B and 4.B. Starting from the Euler equation for the nominal bond return, we have
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1} + i _ {t}\right) \right],
+1 = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1} + i_{t}\right) \right],
 $$
 
 which implies
 
 $$
-\exp (- i _ {t}) = \mathbb {E} _ {t} \left[ \exp (M _ {t + 1}) \right] = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} - \pi_ {t + 1}\right) \right].
+\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \right] = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \pi_{t + 1}\right) \right].
 $$
 
 Assuming joint normality, we can express the nominal interest rate as
 
 $$
-\begin{array}{l} i _ {t} = - \mathbb {E} _ {t} \left[ m _ {t + 1} \right] - \frac {1}{2} v a r _ {t} \left(m _ {t + 1}\right) + \mathbb {E} _ {t} \left[ \pi_ {t + 1} \right] - \frac {1}{2} v a r _ {t} \left(\pi_ {t + 1}\right) + c o v _ {t} \left(m _ {t + 1}, \pi_ {t + 1}\right) \\ = r _ {t} + \mathbb {E} _ {t} \left[ \pi_ {t + 1} \right] + i r p _ {t}, \tag {6.2} \\ \end{array}
+\begin{array}{l} i_{t} = - \mathbb {E}_{t} \left[ m_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right) + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right) + c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) \\ = r_{t} + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] + i r p_{t}, \tag {6.2} \\ \end{array}
 $$
 
 where
 
 $$
-i r p _ {t} \stackrel {\text {d e f}} {=} c o v _ {t} \left(m _ {t + 1}, \pi_ {t + 1}\right) - \frac {1}{2} v a r _ {t} \left(\pi_ {t + 1}\right)
+i r p_{t} \stackrel {\text{de f}} {=} c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right)
 $$
 
 denotes the inflation risk premium. This expression shows that the nominal interest rate  $i_t$  can be decomposed into the real interest rate  $r_t$ , the expected inflation rate  $\mathbb{E}_t[\pi_{t+1}]$ , and the inflation risk premium  $irp_t$ .
@@ -114,7 +114,7 @@ denotes the inflation risk premium. This expression shows that the nominal inter
 Define the nominal currency excess return as
 
 $$
-R X _ {t + 1} = \Delta \mathcal {E} _ {t + 1} + i _ {t} - i _ {t} ^ {*}.
+R X_{t + 1} = \Delta \mathcal {E}_{t + 1} + i_{t} - i_{t}^{*}.
 $$
 
 Then, we obtain the nominal version of Proposition 1.1, which states that, in the absence of bond convenience yields, the home currency's expected nominal excess return is determined by its risk premium captured by its covariance with the SDF plus a Jensen's term.
@@ -122,13 +122,13 @@ Then, we obtain the nominal version of Proposition 1.1, which states that, in th
 Proposition 6.1. The home currency's expected log excess return is determined by the covariance between the log foreign SDF and log exchange rate movement minus a Jensen's term:
 
 $$
-R P _ {t} \stackrel {\text {d e f}} {=} \mathbb {E} _ {t} [ R X _ {t + 1} ] = - c o v _ {t} (M _ {t + 1} ^ {*}, \Delta \mathcal {E} _ {t + 1}) - \frac {1}{2} v a r _ {t} (\Delta \mathcal {E} _ {t + 1}).
+R P_{t} \stackrel {\text{de f}} {=} \mathbb {E}_{t} [ R X_{t + 1} ] = - c o v_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta \mathcal {E}_{t + 1}).
 $$
 
 However, I hesitate to generalize the real exchange rate decomposition in Proposition 1.2 to the nominal case, because it relies on exchange rate stationarity. Specifically, assuming that the nominal exchange rate is stationary, we can express its level as
 
 $$
-\mathcal {E} _ {t} = \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ i _ {t + j} - i _ {t + j} ^ {*} \right] - \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ R P _ {t + j} \right] + \bar {\mathcal {E}}. \tag {6.3}
+\mathcal {E}_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ i_{t + j} - i_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ R P_{t + j} \right] + \bar {\mathcal {E}}. \tag {6.3}
 $$
 
 What prevents this formula from describing a realistic situation is that the price level is usually considered to be non-stationary. For example, suppose the real exchange rate and the foreign inflation are fixed, and the U.S. experiences a persistent increase in inflation, which raises the price level  $P_{t}$  today and increases the expected future inflation. Holding the real rate constant, the latter effect also raises the U.S. nominal interest rate  $i_{t+j}$  in the future. Then, from  $\exp(e_{t}) = \exp(\mathcal{E}_{t})P_{t} / P_{t}^{*}$ , we should expect the home inflation to depreciate the home currency in nominal terms, i.e.,  $\mathcal{E}_{t}$  declines. On the other hand, Eq. (6.3) implies that a higher expected path of the home nominal interest rate  $i_{t+j}$  should imply a stronger home currency in nominal terms, i.e.,  $\mathcal{E}_{t}$  increases, which leads to a contradiction.
@@ -150,19 +150,19 @@ and foreign firms are indexed by  $f \in [0,1]$ . Each firm produces a unique va
 The lifetime expected utility of home household  $j$  is
 
 $$
-\mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} u _ {t} (j) \stackrel {{\mathrm {d e f}}} {{=}} \mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(\log c _ {t} (j) - \kappa \frac {\ell_ {t} (j) ^ {1 + \nu}}{1 + \nu}\right),
+\mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right),
 $$
 
 where  $\ell_t(j)$  is the labor effort, and  $\nu > 0$  is the labor curvature coefficient.  $c_t(j)$  is the consumption composed of a Cobb-Douglas basket of home and foreign bundles:
 
 $$
-c _ {t} (j) = c _ {H, t} (j) ^ {\alpha} c _ {F, t} (j) ^ {1 - \alpha},
+c_{t} (j) = c_{H, t} (j)^{\alpha} c_{F, t} (j)^{1 - \alpha},
 $$
 
 and  $c_{H,t}(j)$  and  $c_{F,t}(j)$  are constant-elasticity-of-substitution (CES) bundles of home and foreign varieties:
 
 $$
-c _ {H, t} (j) = \left(\int_ {0} ^ {1} c _ {t} (h, j) ^ {1 - 1 / \rho} d h\right) ^ {1 / (1 - 1 / \rho)}, \qquad c _ {F, t} (j) = \left(\int_ {0} ^ {1} c _ {t} (f, j) ^ {1 - 1 / \rho} d f\right) ^ {1 / (1 - 1 / \rho)}.
+c_{H, t} (j) = \left(\int_{0}^{1} c_{t} (h, j)^{1 - 1 / \rho} d h\right)^{1 / (1 - 1 / \rho)}, \qquad c_{F, t} (j) = \left(\int_{0}^{1} c_{t} (f, j)^{1 - 1 / \rho} d f\right)^{1 / (1 - 1 / \rho)}.
 $$
 
 The parameter  $\alpha > 1/2$  measures home bias in consumption, and the parameter  $\rho$  is the elasticity of substitution across varieties.
@@ -170,25 +170,25 @@ The parameter  $\alpha > 1/2$  measures home bias in consumption, and the parame
 Let  $p_t(h)$  and  $p_t(f)$  denote the home-currency prices of varieties  $h$  and  $f$ . Let  $P_{H,t}$  and  $P_{F,t}$  denote the home-currency prices of the home and foreign bundles  $c_{H,t}(j)$  and  $c_{F,t}(j)$ , which can be shown to be the CES indices with elasticity  $1 / \rho$ :
 
 $$
-P _ {H, t} = \left(\int_ {0} ^ {1} p _ {t} (h) ^ {1 - \rho} d h\right) ^ {1 / (1 - \rho)}, \quad P _ {F, t} = \left(\int_ {0} ^ {1} p _ {t} (f) ^ {1 - \rho} d f\right) ^ {1 / (1 - \rho)}.
+P_{H, t} = \left(\int_{0}^{1} p_{t} (h)^{1 - \rho} d h\right)^{1 / (1 - \rho)}, \quad P_{F, t} = \left(\int_{0}^{1} p_{t} (f)^{1 - \rho} d f\right)^{1 / (1 - \rho)}.
 $$
 
 Similarly, let  $P_{t}$  denote the home-currency price of the aggregate consumption basket in the home country. This utility-based CPI can be expressed as
 
 $$
-P _ {t} = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} P _ {H, t} ^ {\alpha} P _ {F, t} ^ {1 - \alpha}.
+P_{t} = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} P_{H, t}^{\alpha} P_{F, t}^{1 - \alpha}.
 $$
 
 Moreover, the solution of the within-period problem is similar to that in Section 1.A. The home household makes the following choices for different goods:
 
 $$
-c _ {t} (h, j) = \left(\frac {p _ {t} (h)}{P _ {H , t}}\right) ^ {- \rho} c _ {H, t}, \quad c _ {t} (f, j) = \left(\frac {p _ {t} (f)}{P _ {F , t}}\right) ^ {- \rho} c _ {F, t},
+c_{t} (h, j) = \left(\frac{p_{t} (h)}{P_{H , t}}\right)^{- \rho} c_{H, t}, \quad c_{t} (f, j) = \left(\frac{p_{t} (f)}{P_{F , t}}\right)^{- \rho} c_{F, t},
 $$
 
 and
 
 $$
-c _ {H, t} = \alpha \frac {P _ {t}}{P _ {H , t}} c _ {t}, \quad c _ {F, t} = (1 - \alpha) \frac {P _ {t}}{P _ {F , t}} c _ {t}.
+c_{H, t} = \alpha \frac{P_{t}}{P_{H , t}} c_{t}, \quad c_{F, t} = (1 - \alpha) \frac{P_{t}}{P_{F , t}} c_{t}.
 $$
 
 Having specified the household preferences and the within-period solution, we now turn to the households' budget constraint and their
@@ -200,55 +200,55 @@ The financial markets are complete. Let  $\sigma_{t}$  denote the state of the e
 Let  $\exp(\mathcal{E}_t)$  denote the nominal exchange rate, in the unit of foreign currency per home currency. A higher nominal exchange rate means a stronger foreign currency. Then, the individual household's budget constraint at time  $t$  and state  $\sigma_t$  is
 
 $$
-\begin{array}{l} \sum_ {\sigma_ {t + 1}} \Omega_ {t} (\sigma_ {t + 1}, j) \Theta (\sigma_ {t + 1} | \sigma_ {t}) + \exp (- \mathcal {E} _ {t}) \sum_ {\sigma_ {t + 1}} \Omega_ {t} ^ {*} (\sigma_ {t + 1}, j) \Theta^ {*} (\sigma_ {t + 1} | \sigma_ {t}) \\ \leq W _ {t} \ell_ {t} (j) + D _ {t} (j) - P _ {t} \tau_ {t} (j) - P _ {t} c _ {t} (j) + \Omega_ {t - 1} (\sigma_ {t}, j) + \exp (- \mathcal {E} _ {t}) \Omega_ {t - 1} ^ {*} (\sigma_ {t}, j). \\ \end{array}
+\begin{array}{l} \sum_{\sigma_{t + 1}} \Omega_{t} (\sigma_{t + 1}, j) \Theta (\sigma_{t + 1} | \sigma_{t}) + \exp (- \mathcal {E}_{t}) \sum_{\sigma_{t + 1}} \Omega_{t}^{*} (\sigma_{t + 1}, j) \Theta^{*} (\sigma_{t + 1} | \sigma_{t}) \\ \leq W_{t} \ell_{t} (j) + D_{t} (j) - P_{t} \tau_{t} (j) - P_{t} c_{t} (j) + \Omega_{t - 1} (\sigma_{t}, j) + \exp (- \mathcal {E}_{t}) \Omega_{t - 1}^{*} (\sigma_{t}, j). \\ \end{array}
 $$
 
 The home household's Lagrangian is
 
 $$
-\begin{array}{l} \mathcal {L} (j) = \max  \mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(\log c _ {t} (j) - \kappa \frac {\ell_ {t} (j) ^ {1 + \nu}}{1 + \nu}\right) \\ - \mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} \zeta_ {t} (j) \left\{\sum_ {\sigma_ {t + 1}} \Omega_ {t} \left(\sigma_ {t + 1}, j\right) \Theta \left(\sigma_ {t + 1} \mid \sigma_ {t}\right) + \exp \left(- \mathcal {E} _ {t}\right) \sum_ {\sigma_ {t + 1}} \Omega_ {t} ^ {*} \left(\sigma_ {t + 1}, j\right) \Theta^ {*} \left(\sigma_ {t + 1} \mid \sigma_ {t}\right) \right. \\ \left. - W _ {t} \ell_ {t} (j) - D _ {t} (j) + P _ {t} \tau_ {t} (j) + P _ {t} c _ {t} (j) - \Omega_ {t - 1} (\sigma_ {t}, j) - \exp \left(- \mathcal {E} _ {t}\right) \Omega_ {t - 1} ^ {*} (\sigma_ {t}, j) \right\} \\ \end{array}
+\begin{array}{l} \mathcal {L} (j) = \max  \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right) \\ - \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \zeta_{t} (j) \left\{\sum_{\sigma_{t + 1}} \Omega_{t} \left(\sigma_{t + 1}, j\right) \Theta \left(\sigma_{t + 1} \mid \sigma_{t}\right) + \exp \left(- \mathcal {E}_{t}\right) \sum_{\sigma_{t + 1}} \Omega_{t}^{*} \left(\sigma_{t + 1}, j\right) \Theta^{*} \left(\sigma_{t + 1} \mid \sigma_{t}\right) \right. \\ \left. - W_{t} \ell_{t} (j) - D_{t} (j) + P_{t} \tau_{t} (j) + P_{t} c_{t} (j) - \Omega_{t - 1} (\sigma_{t}, j) - \exp \left(- \mathcal {E}_{t}\right) \Omega_{t - 1}^{*} (\sigma_{t}, j) \right\} \\ \end{array}
 $$
 
 The first-order conditions imply
 
 $$
-\zeta_ {t} (j) = \frac {1}{P _ {t} c _ {t} (j)},
+\zeta_{t} (j) = \frac{1}{P_{t} c_{t} (j)},
 $$
 
 $$
-\Theta (\sigma_ {t + 1} | \sigma_ {t}) = \delta \mathbb {P} (\sigma_ {t + 1} | \sigma_ {t}) \frac {P _ {t} c _ {t} (j)}{P _ {t + 1} c _ {t + 1} (j)},
+\Theta (\sigma_{t + 1} | \sigma_{t}) = \delta \mathbb {P} (\sigma_{t + 1} | \sigma_{t}) \frac{P_{t} c_{t} (j)}{P_{t + 1} c_{t + 1} (j)},
 $$
 
 $$
-\kappa \ell_ {t} (j) ^ {\nu} P _ {t} c _ {t} (j) = W _ {t}.
+\kappa \ell_{t} (j)^{\nu} P_{t} c_{t} (j) = W_{t}.
 $$
 
 We define the home country's nominal SDF as
 
 $$
-\exp \left(M _ {t + 1}\right) \stackrel {\text {d e f}} {=} \delta \frac {P _ {t} c _ {t} (j)}{P _ {t + 1} c _ {t + 1} (j)},
+\exp \left(M_{t + 1}\right) \stackrel {\text{de f}} {=} \delta \frac{P_{t} c_{t} (j)}{P_{t + 1} c_{t + 1} (j)},
 $$
 
 which is related to its real SDF via
 
 $$
-\exp (m _ {t + 1}) \stackrel {\mathrm {d e f}} {=} \delta \frac {c _ {t}}{c _ {t + 1}} = \exp (M _ {t + 1} + \pi_ {t + 1}).
+\exp (m_{t + 1}) \stackrel {\mathrm{de f}} {=} \delta \frac{c_{t}}{c_{t + 1}} = \exp (M_{t + 1} + \pi_{t + 1}).
 $$
 
 Since the markets are complete, we can show that the nominal exchange rate movement equals the ratio between the two countries' nominal SDFs:
 
 $$
-\exp (M _ {t + 1}) = \exp \left(M _ {t + 1} ^ {*} - \mathcal {E} _ {t} + \mathcal {E} _ {t + 1}\right),
+\exp (M_{t + 1}) = \exp \left(M_{t + 1}^{*} - \mathcal {E}_{t} + \mathcal {E}_{t + 1}\right),
 $$
 
 $$
-\frac {P _ {t} c _ {t} (j)}{P _ {t + 1} c _ {t + 1} (j)} = \frac {\exp (- \mathcal {E} _ {t})}{\exp (- \mathcal {E} _ {t + 1})} \frac {P _ {t} ^ {*} c _ {t} ^ {*} (j ^ {*})}{P _ {t + 1} ^ {*} c _ {t + 1} ^ {*} (j ^ {*})}.
+\frac{P_{t} c_{t} (j)}{P_{t + 1} c_{t + 1} (j)} = \frac{\exp (- \mathcal {E}_{t})}{\exp (- \mathcal {E}_{t + 1})} \frac{P_{t}^{*} c_{t}^{*} (j^{*})}{P_{t + 1}^{*} c_{t + 1}^{*} (j^{*})}.
 $$
 
 To keep the algebra simple, we assume the initial nominal exchange rate level is pinned down by  $P_0c_0(j) = \exp(-\mathcal{E}_0)P_0^*c_0^*(j)$  at time 0. Since the market is complete, this assumption amounts to taking a stance on the two countries' wealth distribution at time 0. Then, the nominal exchange rate satisfies
 
 $$
-P _ {t} c _ {t} (j) = \exp (- \mathcal {E} _ {t}) P _ {t} ^ {*} c _ {t} ^ {*} (j ^ {*})
+P_{t} c_{t} (j) = \exp (- \mathcal {E}_{t}) P_{t}^{*} c_{t}^{*} (j^{*})
 $$
 
 for all time  $t$ .
@@ -256,7 +256,7 @@ for all time  $t$ .
 In this way, we recover the complete-market solution of the exchange rate movement in nominal terms:
 
 $$
-\Delta \mathcal {E} _ {t + 1} = M _ {t + 1} - M _ {t + 1} ^ {*}
+\Delta \mathcal {E}_{t + 1} = M_{t + 1} - M_{t + 1}^{*}
 $$
 
 By symmetry, all households in each country have the same consumption, saving, and labor decisions. Therefore, we can drop their indices  $j$  and  $j^*$ .
@@ -266,7 +266,7 @@ By symmetry, all households in each country have the same consumption, saving, a
 Each home firm produces a variety  $h$  using labor supplied by home households. The production technology is linear in labor input:
 
 $$
-y _ {t} (h) = z _ {t} \ell_ {t} (h),
+y_{t} (h) = z_{t} \ell_{t} (h),
 $$
 
 where  $y_{t}(h)$  is the output of firm  $h$ ,  $\ell_t(h)$  is the labor input, and  $z_{t}$  is a productivity process common to all home firms. To produce  $y_{t}(h)$  units of goods, firm  $h$  faces a wage cost of  $W_{t}\ell_{t}(h)$ . Similarly, the foreign firm has a production function linear in labor input with productivity  $z_{t}^{*}$ .
@@ -274,25 +274,25 @@ where  $y_{t}(h)$  is the output of firm  $h$ ,  $\ell_t(h)$  is the labor input
 Aggregating across home and foreign households, we obtain the total demand for variety  $h$ :
 
 $$
-y _ {t} (h) = \int_ {0} ^ {1} c _ {t} (h, j) d j + \int_ {0} ^ {1} c _ {t} ^ {*} (h, j) d j.
+y_{t} (h) = \int_{0}^{1} c_{t} (h, j) d j + \int_{0}^{1} c_{t}^{*} (h, j) d j.
 $$
 
 The firm's nominal dividend is
 
 $$
-D _ {t} (h) = p _ {t} (h) \int_ {0} ^ {1} c _ {t} (h, j) d j + \exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h) \int_ {0} ^ {1} c _ {t} ^ {*} (h, j) d j - W _ {t} \ell_ {t} (h).
+D_{t} (h) = p_{t} (h) \int_{0}^{1} c_{t} (h, j) d j + \exp (- \mathcal {E}_{t}) p_{t}^{*} (h) \int_{0}^{1} c_{t}^{*} (h, j) d j - W_{t} \ell_{t} (h).
 $$
 
 The firm's objective function is to maximize the present value of this dividend stream. Let  $MC_{t}$  denote the nominal marginal cost:
 
 $$
-M C _ {t} \stackrel {\text {d e f}} {=} \frac {W _ {t}}{z _ {t}}.
+M C_{t} \stackrel {\text{de f}} {=} \frac{W_{t}}{z_{t}}.
 $$
 
 Then, plugging in the solution from the households' within-period problem, we obtain
 
 $$
-\begin{array}{l} D _ {t} (h) = \left(p _ {t} (h) - M C _ {t}\right) \left(\frac {p _ {t} (h)}{P _ {H , t}}\right) ^ {- \rho} c _ {H, t} \tag {6.4} \\ + \left(\exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h) - M C _ {t}\right) \left(\frac {p _ {t} ^ {*} (h)}{P _ {H , t} ^ {*}}\right) ^ {- \rho} c _ {H, t} ^ {*}, \\ \end{array}
+\begin{array}{l} D_{t} (h) = \left(p_{t} (h) - M C_{t}\right) \left(\frac{p_{t} (h)}{P_{H , t}}\right)^{- \rho} c_{H, t} \tag {6.4} \\ + \left(\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}\right) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*}, \\ \end{array}
 $$
 
 which means that the firm's profit is equal to the profit margin times the quantity of goods sold in both countries. Since the firms produce unique goods varieties that are imperfect substitutes, the profit margin and the profit are nonzero.
@@ -306,7 +306,7 @@ Second, government spending is not remitted back to domestic households. As will
 Third, governments only issue one-period debt in local currency units. The government debt does not default on its notional value, but its real value can vary due to inflation. It is therefore equivalent to a claim that pays off one unit of local currency in every state. Let  $Q_{t+1}$  denote the quantity of outstanding home government debt that is issued at time  $t$  and due at time  $t+1$ . Let  $i_t$  denote the home nominal interest rate. The government budget condition in nominal terms is
 
 $$
-Q _ {t} + P _ {t} g _ {t} = P _ {t} \tau_ {t} + Q _ {t + 1} \exp (- i _ {t}). \tag {6.5}
+Q_{t} + P_{t} g_{t} = P_{t} \tau_{t} + Q_{t + 1} \exp (- i_{t}). \tag {6.5}
 $$
 
 Let  $s_t \stackrel{\mathrm{def}}{=} \tau_t - g_t$  denote the home real government surplus. Similarly, let  $s_t^* \stackrel{\mathrm{def}}{=} \tau_t^* - g_t^*$  denote the foreign real government surplus.
@@ -314,19 +314,19 @@ Let  $s_t \stackrel{\mathrm{def}}{=} \tau_t - g_t$  denote the home real governm
 Iterate forward the Home government's intertemporal budget condition,
 
 $$
-\frac {Q _ {t}}{P _ {t}} = \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right] + \lim  _ {T \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp (m _ {t, t + T}) \frac {Q _ {t + T}}{P _ {t + T}} \right].
+\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{T \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right].
 $$
 
 The transversality condition requires that the terminal value in the intertemporal budget condition vanishes:
 
 $$
-\lim  _ {T \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp (m _ {t, t + T}) \frac {Q _ {t + T}}{P _ {t + T}} \right] = 0,
+\lim_{T \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right] = 0,
 $$
 
 which is equivalent to requiring that the present value of government surpluses grows slower than the real discount rate:
 
 $$
-\lim _ {T \to \infty} \mathbb {E} _ {t} \left[ \exp (m _ {t, t + T}) \left(\sum_ {k = 0} ^ {\infty} \exp (m _ {t + T, t + T + k}) s _ {t + T + k}\right) \right] = 0.
+\lim_{T \to \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \left(\sum_{k = 0}^{\infty} \exp (m_{t + T, t + T + k}) s_{t + T + k}\right) \right] = 0.
 $$
 
 We will further discuss this transversality condition in Section 8.C.
@@ -334,7 +334,7 @@ We will further discuss this transversality condition in Section 8.C.
 Under this transversality condition, the government's intertemporal budget condition becomes
 
 $$
-\frac {Q _ {t}}{P _ {t}} = \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp \left(m _ {t, t + k}\right) s _ {t + k} \right]. \tag {6.6}
+\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(m_{t, t + k}\right) s_{t + k} \right]. \tag {6.6}
 $$
 
 This equation states that the real value of government debt is equal to the real present value of government surpluses. In particular, if  $Q_{t} / P_{t}$  is greater than or smaller than the present value of government surpluses, an arbitrage opportunity will exist.
@@ -346,7 +346,7 @@ We assume that each country's monetary authority controls its local one-period n
 From the intertemporal Euler equation,
 
 $$
-\begin{array}{l} 1 = \mathbb {E} _ {t} [ \exp (M _ {t + 1}) \exp (i _ {t}) ] = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1}) \frac {P _ {t}}{P _ {t + 1}} \exp (i _ {t}) \right] \\ \exp (- i _ {t}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1}) \frac {P _ {t}}{P _ {t + 1}} \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb {E}_{t} [ \exp (M_{t + 1}) \exp (i_{t}) ] = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \exp (i_{t}) \right] \\ \exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right], \\ \end{array}
 $$
 
 the nominal interest rate  $i_t$  pins down the expected inflation under the risk-neutral expectation. A higher nominal interest rate generates a higher expected inflation.
@@ -354,19 +354,19 @@ the nominal interest rate  $i_t$  pins down the expected inflation under the ris
 How does the monetary authority implement this interest rate target? Recall Eq. (6.5), reproduced below,
 
 $$
-Q _ {t} + P _ {t} g _ {t} = P _ {t} \tau_ {t} + Q _ {t + 1} \exp (- i _ {t}).
+Q_{t} + P_{t} g_{t} = P_{t} \tau_{t} + Q_{t + 1} \exp (- i_{t}).
 $$
 
 When the monetary authority raises the nominal interest rate  $i_{t}$ , if the fiscal policy  $(\tau_{t}, g_{t})$  and the current price level  $(P_{t})$  remain the same, then, the government has to issue a higher nominal amount of debt  $Q_{t+1}$ . This higher nominal amount of debt then raises the price level  $P_{t+1}$  in the next period via
 
 $$
-\frac {Q _ {t + 1}}{P _ {t + 1}} = \mathbb {E} _ {t + 1} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t + 1, t + 1 + k}) s _ {t + 1 + k} \right].
+\frac{Q_{t + 1}}{P_{t + 1}} = \mathbb {E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right].
 $$
 
 Equivalently, let  $q_{t} \stackrel{\mathrm{def}}{=} Q_{t} / P_{t}$  and recall  $\pi_{t} \stackrel{\mathrm{def}}{=} \Delta \log P_{t}$ . Then, we can express the government budget condition Eq. (6.5) in real terms as
 
 $$
-q _ {t} + g _ {t} = \tau_ {t} + q _ {t + 1} \exp \left(\pi_ {t + 1} - i _ {t}\right).
+q_{t} + g_{t} = \tau_{t} + q_{t + 1} \exp \left(\pi_{t + 1} - i_{t}\right).
 $$
 
 If the government commits to the same  $\tau_{t}, g_{t}$  and real quantity of debt  $q_{t+1}$ , then, a higher  $i_{t}$  triggers a higher inflation  $\pi_{t+1}$  in the next period.
@@ -378,13 +378,13 @@ When prices are sticky, the interest rate policy generates real effects, as we d
 The market clearing condition for the home consumption good is
 
 $$
-y _ {t} = \alpha \frac {P _ {t}}{P _ {H , t}} \left(c _ {t} + g _ {t}\right) + (1 - \alpha) \frac {P _ {t} ^ {*}}{P _ {H , t} ^ {*}} \left(c _ {t} ^ {*} + g _ {t} ^ {*}\right). \tag {6.7}
+y_{t} = \alpha \frac{P_{t}}{P_{H , t}} \left(c_{t} + g_{t}\right) + (1 - \alpha) \frac{P_{t}^{*}}{P_{H , t}^{*}} \left(c_{t}^{*} + g_{t}^{*}\right). \tag {6.7}
 $$
 
 The market clearing condition for the home government bond is
 
 $$
-\int_ {0} ^ {1} \Omega_ {t} \left(\sigma_ {t + 1}, j\right) d j + \int_ {0} ^ {1} \Omega_ {t} \left(\sigma_ {t + 1}, j ^ {*}\right) d j ^ {*} = Q _ {t + 1}, \quad \forall \sigma_ {t + 1}. \tag {6.8}
+\int_{0}^{1} \Omega_{t} \left(\sigma_{t + 1}, j\right) d j + \int_{0}^{1} \Omega_{t} \left(\sigma_{t + 1}, j^{*}\right) d j^{*} = Q_{t + 1}, \quad \forall \sigma_{t + 1}. \tag {6.8}
 $$
 
 Note that  $Q_{t + 1}$  denotes the quantity of the home government debt that is due at time  $t + 1$ . The market clearing condition (6.8) requires that the total amount of home currency that both countries' households receive from their holdings of Arrow-Debreu securities in state  $\sigma_{t + 1}$  is equal to the amount of nominal debt the home government pays back at time  $t + 1$ .
@@ -394,7 +394,7 @@ Note that  $Q_{t + 1}$  denotes the quantity of the home government debt that is
 The exogenous variables include the productivity levels, the interest rates, and the government surpluses:
 
 $$
-\left(z _ {t}, z _ {t} ^ {*}, i _ {t}, i _ {t} ^ {*}, s _ {t}, s _ {t} ^ {*}\right) _ {t = 0} ^ {\infty},
+\left(z_{t}, z_{t}^{*}, i_{t}, i_{t}^{*}, s_{t}, s_{t}^{*}\right)_{t = 0}^{\infty},
 $$
 
 which are assumed to be stochastic and i.i.d. For simplicity, we use  $\log \bar{z} = 0$  to denote the mean of the log productivity  $\log z_{t}$  and  $\log z_{t}^{*}$ .
@@ -402,67 +402,67 @@ which are assumed to be stochastic and i.i.d. For simplicity, we use  $\log \bar
 There are 17 endogenous variables in each period  $t$ :
 
 $$
-(c _ {H, t}, c _ {F, t}, c _ {t}, P _ {H, t}, P _ {F, t}, P _ {t}, W _ {t}, \ell_ {t}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}, c _ {t} ^ {*}, P _ {H, t} ^ {*}, P _ {F, t} ^ {*}, P _ {t} ^ {*}, W _ {t} ^ {*}, \ell_ {t} ^ {*}, \mathcal {E} _ {t}) _ {t = 0} ^ {\infty},
+(c_{H, t}, c_{F, t}, c_{t}, P_{H, t}, P_{F, t}, P_{t}, W_{t}, \ell_{t}, c_{H, t}^{*}, c_{F, t}^{*}, c_{t}^{*}, P_{H, t}^{*}, P_{F, t}^{*}, P_{t}^{*}, W_{t}^{*}, \ell_{t}^{*}, \mathcal {E}_{t})_{t = 0}^{\infty},
 $$
 
 and we have the following 17 equations, including 5 for the home country,
 
 $$
-\kappa P _ {t} c _ {t} \ell_ {t} ^ {\nu} = W _ {t},
+\kappa P_{t} c_{t} \ell_{t}^{\nu} = W_{t},
 $$
 
 $$
-P _ {t} = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} P _ {H, t} ^ {\alpha} P _ {F, t} ^ {1 - \alpha},
+P_{t} = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} P_{H, t}^{\alpha} P_{F, t}^{1 - \alpha},
 $$
 
 $$
-P _ {H, t} c _ {H, t} = \alpha P _ {t} c _ {t},
+P_{H, t} c_{H, t} = \alpha P_{t} c_{t},
 $$
 
 $$
-P _ {F, t} c _ {F, t} = (1 - \alpha) P _ {t} c _ {t},
+P_{F, t} c_{F, t} = (1 - \alpha) P_{t} c_{t},
 $$
 
 $$
-z _ {t} \ell_ {t} = \alpha \frac {P _ {t}}{P _ {H , t}} (c _ {t} + g _ {t}) + (1 - \alpha) \frac {P _ {t} ^ {*}}{P _ {H , t} ^ {*}} (c _ {t} ^ {*} + g _ {t} ^ {*}),
+z_{t} \ell_{t} = \alpha \frac{P_{t}}{P_{H , t}} (c_{t} + g_{t}) + (1 - \alpha) \frac{P_{t}^{*}}{P_{H , t}^{*}} (c_{t}^{*} + g_{t}^{*}),
 $$
 
 5 for the foreign country,
 
 $$
-\kappa P _ {t} ^ {*} c _ {t} ^ {*} \left(\ell_ {t} ^ {*}\right) ^ {\nu} = W _ {t} ^ {*},
+\kappa P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} = W_{t}^{*},
 $$
 
 $$
-P _ {t} ^ {*} = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} (P _ {F, t} ^ {*}) ^ {\alpha} (P _ {H, t} ^ {*}) ^ {1 - \alpha},
+P_{t}^{*} = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} (P_{F, t}^{*})^{\alpha} (P_{H, t}^{*})^{1 - \alpha},
 $$
 
 $$
-P _ {H, t} ^ {*} c _ {H, t} ^ {*} = (1 - \alpha) P _ {t} ^ {*} c _ {t} ^ {*},
+P_{H, t}^{*} c_{H, t}^{*} = (1 - \alpha) P_{t}^{*} c_{t}^{*},
 $$
 
 $$
-P _ {F, t} ^ {*} c _ {F, t} ^ {*} = \alpha P _ {t} ^ {*} c _ {t} ^ {*},
+P_{F, t}^{*} c_{F, t}^{*} = \alpha P_{t}^{*} c_{t}^{*},
 $$
 
 $$
-z _ {t} ^ {*} \ell_ {t} ^ {*} = (1 - \alpha) \frac {P _ {t}}{P _ {F , t}} (c _ {t} + g _ {t}) + \alpha \frac {P _ {t} ^ {*}}{P _ {F , t} ^ {*}} (c _ {t} ^ {*} + g _ {t} ^ {*}).
+z_{t}^{*} \ell_{t}^{*} = (1 - \alpha) \frac{P_{t}}{P_{F , t}} (c_{t} + g_{t}) + \alpha \frac{P_{t}^{*}}{P_{F , t}^{*}} (c_{t}^{*} + g_{t}^{*}).
 $$
 
 2 equations relating the price levels to the government surpluses
 
 $$
-\frac {1}{P _ {t}} = \frac {1}{Q _ {t}} \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \delta^ {k} \frac {c _ {t}}{c _ {t + k}} s _ {t + k} \right], \tag {6.9}
+\frac{1}{P_{t}} = \frac{1}{Q_{t}} \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}}{c_{t + k}} s_{t + k} \right], \tag {6.9}
 $$
 
 $$
-\frac {1}{P _ {t} ^ {*}} = \frac {1}{Q _ {t} ^ {*}} \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \delta^ {k} \frac {c _ {t} ^ {*}}{c _ {t + k} ^ {*}} s _ {t + k} ^ {*} \right], \tag {6.10}
+\frac{1}{P_{t}^{*}} = \frac{1}{Q_{t}^{*}} \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}^{*}}{c_{t + k}^{*}} s_{t + k}^{*} \right], \tag {6.10}
 $$
 
 and 1 equation for the nominal exchange rate,
 
 $$
-P _ {t} c _ {t} = \exp (- \mathcal {E} _ {t}) P _ {t} ^ {*} c _ {t} ^ {*}.
+P_{t} c_{t} = \exp (- \mathcal {E}_{t}) P_{t}^{*} c_{t}^{*}.
 $$
 
 There are 4 additional equations governing the law of motion for prices, which depend on the firms' price-setting strategies. They are Eq. (6.11) and Eq. (6.12) for the case of flexible prices that we will consider in Section 6.C, and Eq. (6.13) and Eq. (6.14) for the case of sticky prices that we will consider in Section 6.D.
@@ -482,7 +482,7 @@ $$
 where the firm dividend  $D_{t}(h)$  is given by Eq. (6.4). The solution is
 
 $$
-p _ {t} (h) = \exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h) = \frac {\rho}{\rho - 1} M C _ {t},
+p_{t} (h) = \exp (- \mathcal {E}_{t}) p_{t}^{*} (h) = \frac{\rho}{\rho - 1} M C_{t},
 $$
 
 which implies that the firm sets the same price in the home and foreign markets, and the price is equal to a constant  $\rho / (\rho - 1)$  times the marginal cost  $MC_{t}$ . If we define the mark-up as the ratio between the price and the marginal cost, the mark-up is a constant in this case. This is a standard result in the oligopoly problem whenever the substitution pattern is modeled by the CES aggregator.
@@ -490,17 +490,17 @@ which implies that the firm sets the same price in the home and foreign markets,
 Then, the model is closed by the following equations for prices:
 
 $$
-P _ {H, t} = \exp (- \mathcal {E} _ {t}) P _ {H, t} ^ {*} = \frac {\rho}{\rho - 1} M C _ {t}, \tag {6.11}
+P_{H, t} = \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} M C_{t}, \tag {6.11}
 $$
 
 $$
-P _ {F, t} ^ {*} = \exp (\mathcal {E} _ {t}) P _ {F, t} = \frac {\rho}{\rho - 1} M C _ {t} ^ {*}. \tag {6.12}
+P_{F, t}^{*} = \exp (\mathcal {E}_{t}) P_{F, t} = \frac{\rho}{\rho - 1} M C_{t}^{*}. \tag {6.12}
 $$
 
 Moreover, at the aggregate level, the price level satisfies
 
 $$
-P _ {t} = \frac {\rho}{\rho - 1} M C _ {t},
+P_{t} = \frac{\rho}{\rho - 1} M C_{t},
 $$
 
 which implies that the aggregate price level is always set at the markup multiplier times the nominal marginal cost.
@@ -510,7 +510,7 @@ which implies that the aggregate price level is always set at the markup multipl
 We first consider a simplification of the model by setting  $\nu = 0$ . In this case, the disutility from work is linear in the labor provided:
 
 $$
-\mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} u _ {t} (j) \stackrel {{\mathrm {d e f}}} {{=}} \mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(\log c _ {t} (j) - \kappa \ell_ {t} (j)\right).
+\mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \ell_{t} (j)\right).
 $$
 
 As we will see below, this simplifying assumption implies that labor adjusts fully in response to government spending shocks. Let  $\bar{\ell} \stackrel{\mathrm{def}}{=} (\rho - 1) / (\rho \kappa)$  denote the natural rate of employment, which prevails in an economy without nominal rigidities and government spending. The following result characterizes the equilibrium allocation and exchange rate in the model.
@@ -518,31 +518,31 @@ As we will see below, this simplifying assumption implies that labor adjusts ful
 Proposition 6.2. If  $\nu = 0$ , the equilibrium labor is
 
 $$
-\ell_ {t} = \bar {\ell} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right), \qquad \ell_ {t} ^ {*} = \bar {\ell} \left(1 + \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + (1 - \alpha) \frac {g _ {t}}{c _ {t}}\right),
+\ell_{t} = \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right), \qquad \ell_{t}^{*} = \bar {\ell} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right),
 $$
 
 the equilibrium consumption is
 
 $$
-\log c _ {t} - \log \bar {c} = \alpha \log z _ {t} + (1 - \alpha) \log z _ {t} ^ {*}, \quad \log c _ {t} ^ {*} - \log \bar {c} = \alpha \log z _ {t} ^ {*} + (1 - \alpha) \log z _ {t},
+\log c_{t} - \log \bar {c} = \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*}, \quad \log c_{t}^{*} - \log \bar {c} = \alpha \log z_{t}^{*} + (1 - \alpha) \log z_{t},
 $$
 
 the equilibrium real exchange rate is
 
 $$
-e _ {t} = - \log c _ {t} + \log c _ {t} ^ {*} = - (2 \alpha - 1) (\log z _ {t} - \log z _ {t} ^ {*}),
+e_{t} = - \log c_{t} + \log c_{t}^{*} = - (2 \alpha - 1) (\log z_{t} - \log z_{t}^{*}),
 $$
 
 the equilibrium price level is
 
 $$
-P _ {t} = \frac {Q _ {t}}{\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t , t + k}) s _ {t + k} \right]}, \qquad P _ {t} ^ {*} = \frac {Q _ {t} ^ {*}}{\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t , t + k} ^ {*}) s _ {t + k} ^ {*} \right]},
+P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]},
 $$
 
 and the (risk-neutral) expected inflation satisfies
 
 $$
-\exp (- i _ {t}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1}) \frac {P _ {t}}{P _ {t + 1}} \right].
+\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
 $$
 
 The proof is presented in Appendix A.24. This proposition shows that, if  $\nu = 0$  and prices are flexible, neither monetary nor fiscal policies affect the equilibrium consumption or the real exchange rate; the price level adjusts to fully absorb the monetary and fiscal shocks. To be more precise, consumption is only determined by the stochastic productivity levels  $z_{t}$  and  $z_{t}^{*}$ . Due to home bias (i.e.,  $\alpha > 1/2$ ), the home households' consumption is more sensitive to the home productivity level and the foreign households' consumption is more sensitive to the foreign productivity level. This result is similar to the result we obtained in the complete-market endowment economy in Section 1.C, which implies that consumption is a linear combination of home and foreign endowments.
@@ -550,13 +550,13 @@ The proof is presented in Appendix A.24. This proposition shows that, if  $\nu =
 In terms of the monetary policy, this proposition shows that a higher nominal interest rate  $i_{t}$  leads to a higher expected inflation  $\pi_{t+1}$ , but it does not affect the real rate  $r_{t}$ , since the real rate only depends on the consumption dynamics:
 
 $$
-\exp (- r _ {t}) = \mathbb {E} _ {t} [ \exp (m _ {t + 1}) ] = \mathbb {E} _ {t} \left[ \delta \frac {c _ {t}}{c _ {t + 1}} \right].
+\exp (- r_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1}) ] = \mathbb {E}_{t} \left[ \delta \frac{c_{t}}{c_{t + 1}} \right].
 $$
 
 In terms of the fiscal policy, this proposition shows that neither tax  $\tau_{t}$  nor spending  $g_{t}$  affect consumption. For given productivity levels, a higher real government spending  $g_{t}$  incentivizes the households to work more and produce just enough goods to fund the government spending, while keeping their consumption level constant. A higher real tax  $\tau_{t}$ , on the other hand, does not affect the equilibrium labor and output—that is, whether the government chooses to fund its spending by raising tax or issuing new debt is irrelevant to real allocations. Both tax and spending do affect the price level, via the intertemporal government budget condition Eq. (6.6):
 
 $$
-P _ {t} = \frac {Q _ {t}}{\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t , t + k}) s _ {t + k} \right]}.
+P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}.
 $$
 
 In particular, a higher tax or a lower spending leads to a higher government surplus, which lowers the price level.
@@ -570,35 +570,35 @@ Now, we consider the general case with  $\nu > 0$ . The following result charact
 Proposition 6.3. For a general  $\nu$ , the equilibrium labor is
 
 $$
-\ell_ {t} = \bar {\ell} ^ {\frac {1}{1 + \nu}} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) ^ {\frac {1}{1 + \nu}}, \qquad \ell_ {t} ^ {*} = \bar {\ell} ^ {\frac {1}{1 + \nu}} \left(1 + \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + (1 - \alpha) \frac {g _ {t}}{c _ {t}}\right) ^ {\frac {1}{1 + \nu}},
+\ell_{t} = \bar {\ell}^{\frac{1}{1 + \nu}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{\frac{1}{1 + \nu}}, \qquad \ell_{t}^{*} = \bar {\ell}^{\frac{1}{1 + \nu}} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right)^{\frac{1}{1 + \nu}},
 $$
 
 the equilibrium consumption is
 
 $$
-\log c _ {t} - \log \bar {c} = \alpha \log z _ {t} + (1 - \alpha) \log z _ {t} ^ {*} - \frac {\nu}{1 + \nu} \left((\alpha^ {2} + (1 - \alpha) ^ {2}) \frac {g _ {t}}{c _ {t}} + 2 (1 - \alpha) \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right),
+\log c_{t} - \log \bar {c} = \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*} - \frac{\nu}{1 + \nu} \left((\alpha^{2} + (1 - \alpha)^{2}) \frac{g_{t}}{c_{t}} + 2 (1 - \alpha) \alpha \frac{g_{t}^{*}}{c_{t}^{*}}\right),
 $$
 
 $$
-\log c _ {t} ^ {*} - \log \bar {c} = \alpha \log z _ {t} ^ {*} + (1 - \alpha) \log z _ {t} - \frac {\nu}{1 + \nu} \left((\alpha^ {2} + (1 - \alpha) ^ {2}) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + 2 (1 - \alpha) \alpha \frac {g _ {t}}{c _ {t}}\right),
+\log c_{t}^{*} - \log \bar {c} = \alpha \log z_{t}^{*} + (1 - \alpha) \log z_{t} - \frac{\nu}{1 + \nu} \left((\alpha^{2} + (1 - \alpha)^{2}) \frac{g_{t}^{*}}{c_{t}^{*}} + 2 (1 - \alpha) \alpha \frac{g_{t}}{c_{t}}\right),
 $$
 
 the equilibrium foreign real exchange rate is
 
 $$
-e _ {t} = - \log c _ {t} + \log c _ {t} ^ {*} = - (2 \alpha - 1) (\log z _ {t} - \log z _ {t} ^ {*}) + \frac {\nu}{1 + \nu} (2 \alpha - 1) ^ {2} \left(\frac {g _ {t}}{c _ {t}} - \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right),
+e_{t} = - \log c_{t} + \log c_{t}^{*} = - (2 \alpha - 1) (\log z_{t} - \log z_{t}^{*}) + \frac{\nu}{1 + \nu} (2 \alpha - 1)^{2} \left(\frac{g_{t}}{c_{t}} - \frac{g_{t}^{*}}{c_{t}^{*}}\right),
 $$
 
 the equilibrium price level is
 
 $$
-P _ {t} = \frac {Q _ {t}}{\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t , t + k}) s _ {t + k} \right]}, \qquad P _ {t} ^ {*} = \frac {Q _ {t} ^ {*}}{\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t , t + k} ^ {*}) s _ {t + k} ^ {*} \right]}
+P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]}
 $$
 
 and the (risk-neutral) expected inflation satisfies
 
 $$
-\exp (- i _ {t}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1}) \frac {P _ {t}}{P _ {t + 1}} \right].
+\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
 $$
 
 The proof is presented in Appendix A.24. This proposition shows that the real consumption and the real exchange rate depend on not only the productivity shocks  $z_{t}$  and  $z_{t}^{*}$ , but also government spending-to-consumption ratios  $g_{t} / c_{t}$  and  $g_{t}^{*} / c_{t}^{*}$ . As such, while the monetary shocks still have no effects on real variables, fiscal spending shocks do.
@@ -614,13 +614,13 @@ In this way, the flexible-price model predicts that a higher government spending
 If prices are sticky, some or all firms cannot adjust their prices after the shocks are realized in each period. In this section, we consider a simple form of nominal rigidities: firms have to set prices one period in advance. Under this assumption, the firms' profit maximization problem only concerns one period. Take the home firm  $h$  as an example,
 
 $$
-\max  _ {p _ {t} (h), p _ {t} ^ {*} (h)} \mathbb {E} _ {t - 1} [ \exp (M _ {t - 1, t}) D _ {t} (h) ].
+\max_{p_{t} (h), p_{t}^{*} (h)} \mathbb {E}_{t - 1} [ \exp (M_{t - 1, t}) D_{t} (h) ].
 $$
 
 Based on information available at time  $t - 1$ , the price at home  $p_t(h)$  is set to maximize the expected profit from the home market:
 
 $$
-\max _ {p _ {t} (h)} \mathbb {E} _ {t - 1} \left[ \exp (M _ {t - 1, t}) (p _ {t} (h) - M C _ {t}) \left(\frac {p _ {t} (h)}{P _ {H , t}}\right) ^ {- \rho} c _ {H, t} \right].
+\max_{p_{t} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (p_{t} (h) - M C_{t}) \left(\frac{p_{t} (h)}{P_{H , t}}\right)^{- \rho} c_{H, t} \right].
 $$
 
 The future profit is discounted by the domestic households' SDF  $\exp (M_{t - 1,t})$ , as they are the shareholders whose interests the firms maximize.
@@ -628,13 +628,13 @@ The future profit is discounted by the domestic households' SDF  $\exp (M_{t - 1
 The first-order condition is
 
 $$
-0 = \mathbb {E} _ {t - 1} \left[ \delta \frac {P _ {t - 1} c _ {t - 1}}{P _ {t} c _ {t}} \left((1 - \rho) p _ {t} (h) ^ {- \rho} + \rho M C _ {t} p _ {t} (h) ^ {- \rho - 1}\right) \left(\frac {1}{P _ {H , t}}\right) ^ {- \rho} \alpha \frac {P _ {t}}{P _ {H , t}} c _ {t} \right],
+0 = \mathbb {E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} \left((1 - \rho) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}\right) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}}{P_{H , t}} c_{t} \right],
 $$
 
 which, under symmetry  $p_t(h) = P_{H,t}$ , implies
 
 $$
-P _ {H, t} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ M C _ {t} \right].
+P_{H, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t} \right].
 $$
 
 If we compare this pricing strategy with Eq. (6.11) obtained under flexible prices, we can see that the optimal price is now set to match the expected marginal cost. This is because the firms cannot adjust their prices after the shocks are realized, and the best they can do is to be correct "on average."
@@ -642,23 +642,23 @@ If we compare this pricing strategy with Eq. (6.11) obtained under flexible pric
 The home firms also need to set their sale price in the foreign market. Our derivation below focuses on the case of Producer Currency Pricing, under which case exports are priced and invoiced in the domestic (producer's) currency. Then, the price of the home firms' production sold in the foreign country is set according to
 
 $$
-\max _ {\exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h)} \mathbb {E} _ {t - 1} \left[ \exp (M _ {t - 1, t}) (\exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h) - M C _ {t}) \left(\frac {p _ {t} ^ {*} (h)}{P _ {H , t} ^ {*}}\right) ^ {- \rho} c _ {H, t} ^ {*} \right],
+\max_{\exp (- \mathcal {E}_{t}) p_{t}^{*} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right],
 $$
 
 which implies
 
 $$
-\exp (- \mathcal {E} _ {t}) P _ {H, t} ^ {*} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} [ M C _ {t} ].
+\exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} [ M C_{t} ].
 $$
 
 So, the entire price block can be described as
 
 $$
-P _ {H, t} = \exp (- \mathcal {E} _ {t}) P _ {H, t} ^ {*} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} [ M C _ {t} ], \tag {6.13}
+P_{H, t} = \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} [ M C_{t} ], \tag {6.13}
 $$
 
 $$
-P _ {F, t} ^ {*} = \exp (\mathcal {E} _ {t}) P _ {F, t} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ M C _ {t} ^ {*} \right]. \tag {6.14}
+P_{F, t}^{*} = \exp (\mathcal {E}_{t}) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t}^{*} \right]. \tag {6.14}
 $$
 
 In other words, under Producer Currency Pricing, the local-currency price of the local consumption bundle (e.g.,  $P_{H,t}$ ) is fixed and the local-currency price of the foreign consumption bundle (e.g.,  $P_{F,t}$ ) comoves with the exchange rate.
@@ -666,19 +666,19 @@ In other words, under Producer Currency Pricing, the local-currency price of the
 Alternatively, some models assume Local Currency Pricing, under which case exports are priced and invoiced in the foreign (importers') currency. Then, the price of the home firms' production sold in the foreign country is set according to
 
 $$
-\max _ {p _ {t} ^ {*} (h)} \mathbb {E} _ {t - 1} \left[ \exp (M _ {t - 1, t}) (\exp (- \mathcal {E} _ {t}) p _ {t} ^ {*} (h) - M C _ {t}) \left(\frac {p _ {t} ^ {*} (h)}{P _ {H , t} ^ {*}}\right) ^ {- \rho} c _ {H, t} ^ {*} \right].
+\max_{p_{t}^{*} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right].
 $$
 
 The first order condition is
 
 $$
-0 = \mathbb {E} _ {t - 1} \left[ \delta \frac {P _ {t - 1} c _ {t - 1}}{P _ {t} c _ {t}} ((1 - \rho) \exp (- \mathcal {E} _ {t}) p _ {t} (h) ^ {- \rho} + \rho M C _ {t} p _ {t} (h) ^ {- \rho - 1}) \left(\frac {1}{P _ {H , t}}\right) ^ {- \rho} \alpha \frac {P _ {t} ^ {*}}{P _ {H , t} ^ {*}} c _ {t} ^ {*} \right].
+0 = \mathbb {E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} ((1 - \rho) \exp (- \mathcal {E}_{t}) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}^{*}}{P_{H , t}^{*}} c_{t}^{*} \right].
 $$
 
 Note that  $P_{t - 1}c_{t - 1} = \exp (-\mathcal{E}_t)P_{H,t}^* c_t^*$ . This implies
 
 $$
-P _ {H, t} ^ {*} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ M C _ {t} \exp (\mathcal {E} _ {t}) \right].
+P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t} \exp (\mathcal {E}_{t}) \right].
 $$
 
 Compared to the case of Producer Currency Pricing, in this case the exchange rate  $\mathcal{E}_t$  goes into the expectation operator, which is consistent with the assumption that the price is fixed at the consumers' (i.e.
@@ -692,13 +692,13 @@ The sticky prices imply slow adjustments in the price level. As a result, moveme
 Proposition 6.4. The equilibrium consumption can be solved by
 
 $$
-\begin{array}{l} c _ {t} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {\left(P _ {t} c _ {t}\right) ^ {\alpha} \left(P _ {t} ^ {*} c _ {t} ^ {*}\right) ^ {1 - \alpha}}{\left(\mathbb {E} _ {t - 1} \left[ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]\right) ^ {\alpha} \left(\mathbb {E} _ {t - 1} \left[ P _ {t} ^ {*} c _ {t} ^ {*} \left(\ell_ {t} ^ {*}\right) ^ {\nu} / z _ {t} ^ {*} \right]\right) ^ {1 - \alpha}}, \\ c _ {t} ^ {*} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {(P _ {t} c _ {t}) ^ {1 - \alpha} (P _ {t} ^ {*} c _ {t} ^ {*}) ^ {\alpha}}{(\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {1 - \alpha} (\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {\alpha}}, \\ \end{array}
+\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}, \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}, \\ \end{array}
 $$
 
 which implies
 
 $$
-\begin{array}{l} \log c _ {t} = \kappa_ {t - 1} ^ {c} + \alpha \log \left(P _ {t} c _ {t}\right) + (1 - \alpha) \log \left(P _ {t} ^ {*} c _ {t} ^ {*}\right), \\ \log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {c _ {t} ^ {*}} + \alpha \log (P _ {t} ^ {*} c _ {t} ^ {*}) + (1 - \alpha) \log (P _ {t} c _ {t}), \\ - e _ {t} = \kappa_ {t - 1} ^ {e} + (2 \alpha - 1) \log (P _ {t} c _ {t}) - (2 \alpha - 1) \log (P _ {t} ^ {*} c _ {t} ^ {*}), \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} + \alpha \log \left(P_{t} c_{t}\right) + (1 - \alpha) \log \left(P_{t}^{*} c_{t}^{*}\right), \\ \log c_{t}^{*} = \kappa_{t - 1}^{c_{t}^{*}} + \alpha \log (P_{t}^{*} c_{t}^{*}) + (1 - \alpha) \log (P_{t} c_{t}), \\ - e_{t} = \kappa_{t - 1}^{e} + (2 \alpha - 1) \log (P_{t} c_{t}) - (2 \alpha - 1) \log (P_{t}^{*} c_{t}^{*}), \\ \end{array}
 $$
 
 where the terms  $\kappa_{t - 1}^{c},\kappa_{t - 1}^{c^{*}},\kappa_{t - 1}^{e}$  are known in period  $t - 1$
@@ -716,7 +716,7 @@ Next, we consider monetary and fiscal policies separately and trace out exactly 
 Let us first consider the home country's monetary policy. Unlike the case of flexible prices, in which the nominal interest rate policy has no real effects, sticky prices transmit nominal interest rate shocks to real interest rates and affect the households' consumption and investment decisions. Given Eq. (6.2), reproduced below,
 
 $$
-i _ {t} = r _ {t} + \mathbb {E} _ {t} [ \pi_ {t + 1} ] + i r p _ {t},
+i_{t} = r_{t} + \mathbb {E}_{t} [ \pi_{t + 1} ] + i r p_{t},
 $$
 
 the nominal interest rate  $i_t$  is equal to the real interest rate plus the expected inflation plus the inflation risk premium. When the prices are sticky, expected inflation and inflation risk premium do not respond fully to an increase in the nominal interest rate. As a result, the real interest rate  $r_t$  responds as well.
@@ -724,13 +724,13 @@ the nominal interest rate  $i_t$  is equal to the real interest rate plus the ex
 Specifically in our setting, the Euler equation
 
 $$
-1 = \mathbb {E} _ {t} [ \exp (M _ {t + 1} + i _ {t}) ]
+1 = \mathbb {E}_{t} [ \exp (M_{t + 1} + i_{t}) ]
 $$
 
 implies the following intertemporal relationship between the nominal interest rate and the current and future aggregate demand:
 
 $$
-\frac {1}{P _ {t} c _ {t}} = \exp \left(i _ {t}\right) \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right]. \tag {6.15}
+\frac{1}{P_{t} c_{t}} = \exp \left(i_{t}\right) \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]. \tag {6.15}
 $$
 
 We consider the case in which the expected inverse future aggregate demand  $\mathbb{E}_t\left[\delta \frac{1}{P_{t + 1}c_{t + 1}}\right]$  is constant, which we will show is without loss of generality in this model. Then, Eq. (6.15) implies that the nominal interest rate  $i_t$  directly affects today's aggregate demand  $P_{t}c_{t}$ . If the monetary authority in the home country raises the nominal interest rate by  $1\%$ , today's aggregate demand  $P_{t}c_{t}$  will shrink by  $1\%$ . Similarly, a higher nominal interest rate in the foreign country lowers the foreign aggregate demand. Plugging in this relationship to Proposition 6.4, we obtain the following result [Corsetti and Pesenti, 2007]:
@@ -738,25 +738,25 @@ We consider the case in which the expected inverse future aggregate demand  $\ma
 Proposition 6.5. When the monetary authorities set the nominal interest rates in home and foreign countries, the equilibrium consumption is
 
 $$
-\begin{array}{l} \log c _ {t} = \tilde {\kappa} _ {t - 1} ^ {c} - \alpha i _ {t} - (1 - \alpha) i _ {t} ^ {*}, \\ \log c _ {t} ^ {*} = \tilde {\kappa} _ {t - 1} ^ {c ^ {*}} - \alpha i _ {t} ^ {*} - (1 - \alpha) i _ {t}, \\ \end{array}
+\begin{array}{l} \log c_{t} = \tilde {\kappa}_{t - 1}^{c} - \alpha i_{t} - (1 - \alpha) i_{t}^{*}, \\ \log c_{t}^{*} = \tilde {\kappa}_{t - 1}^{c^{*}} - \alpha i_{t}^{*} - (1 - \alpha) i_{t}, \\ \end{array}
 $$
 
 the equilibrium real interest rate is
 
 $$
-r _ {t} = \bar {r} + \alpha i _ {t} + (1 - \alpha) i _ {t} ^ {*},
+r_{t} = \bar {r} + \alpha i_{t} + (1 - \alpha) i_{t}^{*},
 $$
 
 the equilibrium real exchange rate is
 
 $$
-e _ {t} = - \tilde {\kappa} _ {t - 1} ^ {c} + \tilde {\kappa} _ {t - 1} ^ {c *} + (2 \alpha - 1) (i _ {t} - i _ {t} ^ {*}),
+e_{t} = - \tilde {\kappa}_{t - 1}^{c} + \tilde {\kappa}_{t - 1}^{c *} + (2 \alpha - 1) (i_{t} - i_{t}^{*}),
 $$
 
 and the equilibrium price levels are
 
 $$
-\log P _ {t} = - \tilde {\kappa} _ {t - 1} ^ {c} - \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right] + (1 - \alpha) \left(i _ {t} ^ {*} - i _ {t}\right).
+\log P_{t} = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) \left(i_{t}^{*} - i_{t}\right).
 $$
 
 The proof is presented in Appendix A.26. This proposition has an intuitive interpretation. When the home country's monetary authority raises the nominal interest rate, it depresses the aggregate demand and lowers the equilibrium consumption in the home country. Due to international risk-sharing through complete markets, the consumption loads on both home and foreign nominal interest rates. That said, the effect of the home nominal interest rate on home consumption is still stronger due to the home bias in the goods market (i.e.,  $\alpha > 1/2$ ).
@@ -764,7 +764,7 @@ The proof is presented in Appendix A.26. This proposition has an intuitive inter
 Moreover, since prices are sticky, a higher nominal interest rate also leads to a higher real interest rate. By the following Euler equation,
 
 $$
-r _ {t} = - \log \delta - \log \mathbb {E} _ {t} \left[ c _ {t} / c _ {t + 1} \right],
+r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right],
 $$
 
 the real interest rate is inversely related to the expected consumption growth. So, the increase in the real interest rate is also consistent with an increase in the expected consumption growth, which is made possible by a decline in today's consumption.
@@ -774,11 +774,11 @@ Finally, as the home consumption declines when the home country's monetary autho
 Some readers might wonder where the productivity shocks  $z_{t}$  and  $z_{t}^{*}$  go in the equilibrium consumption and the real exchange rate. In this specific model, monetary and fiscal policies are strong enough to fully counter the effects of productivity shocks. Specifically, there exist nominal interest rates
 
 $$
-i _ {t} = - \log \delta - \left(\log z _ {t} - \mathbb {E} _ {t - 1} \left[ \log z _ {t} \right]\right),
+i_{t} = - \log \delta - \left(\log z_{t} - \mathbb {E}_{t - 1} \left[ \log z_{t} \right]\right),
 $$
 
 $$
-i _ {t} ^ {*} = - \log \delta - (\log z _ {t} ^ {*} - \mathbb {E} _ {t - 1} [ \log z _ {t} ^ {*} ]),
+i_{t}^{*} = - \log \delta - (\log z_{t}^{*} - \mathbb {E}_{t - 1} [ \log z_{t}^{*} ]),
 $$
 
 such that our sticky-price model replicates the equilibrium consumption and real exchange rate under the flexible-price case. As such, we can think of these nominal interest rates as the natural nominal rates that would prevail in the absence of monetary and fiscal policies. If the monetary authority sets the nominal interest rate above the natural rate, then, they depress the aggregate demand and lower the equilibrium consumption below the flexible-price level, and vice versa.
@@ -790,13 +790,13 @@ A similar argument can be applied to the fiscal policy, which we study in the ne
 Next, let us shift our focus on the home country's fiscal policy. Given the definition of the real SDF, i.e.,  $\exp(m_{t,t+k}) = \delta^k c_t / c_{t+k}$ , it is useful to express the present value of government surpluses as the current surplus plus the sum of discounted expected future surpluses.
 
 $$
-\mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right] = s _ {t} + c _ {t} \cdot \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \delta^ {k} \frac {s _ {t + k}}{c _ {t + k}} \right].
+\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + c_{t} \cdot \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \delta^{k} \frac{s_{t + k}}{c_{t + k}} \right].
 $$
 
 Note that the  $k$ -period real rate is equal to
 
 $$
-r _ {t} (k) = - \log \mathbb {E} _ {t} \left[ \delta c _ {t} / c _ {t + k} \right] = - \log \left(c _ {t} \mathbb {E} _ {t} \left[ \delta / c _ {t + k} \right]\right).
+r_{t} (k) = - \log \mathbb {E}_{t} \left[ \delta c_{t} / c_{t + k} \right] = - \log \left(c_{t} \mathbb {E}_{t} \left[ \delta / c_{t + k} \right]\right).
 $$
 
 All else equal, a higher current consumption  $c_{t}$  implies a lower real discount rate and increases the present value of future government surpluses. As a result, the present value of current and future surpluses  $\mathbb{E}_t\left[\sum_{k = 0}^{\infty}\exp (m_{t,t + k})s_{t + k}\right]$  is increasing in the current consumption  $c_{t}$ .
@@ -804,19 +804,19 @@ All else equal, a higher current consumption  $c_{t}$  implies a lower real disc
 For tractability, we consider the simple case in which future consumption and surpluses are i.i.d. Then,  $\mathbb{E}_t\left[\sum_{k=1}^{\infty}\delta_k^{\frac{s_{t+k}}{c_{t+k}}}\right]$  is equal to a constant that we denote by  $A$ , which allows us to simplify Eq. (6.6) and express the home country's nominal aggregate demand as
 
 $$
-P _ {t} c _ {t} = \frac {Q _ {t} c _ {t}}{s _ {t} + c _ {t} A}. \tag {6.16}
+P_{t} c_{t} = \frac{Q_{t} c_{t}}{s_{t} + c_{t} A}. \tag {6.16}
 $$
 
 Likewise, we define  $A^{*} \stackrel{\mathrm{def}}{=} \mathbb{E}_{t}\left[\sum_{k=1}^{\infty} \delta^{k} \frac{s_{t+k}^{*}}{c_{t+k}^{*}}\right]$ , and express the foreign country's nominal aggregate demand as
 
 $$
-P _ {t} ^ {*} c _ {t} ^ {*} = \frac {Q _ {t} ^ {*} c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}. \tag {6.17}
+P_{t}^{*} c_{t}^{*} = \frac{Q_{t}^{*} c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}}. \tag {6.17}
 $$
 
 Plug the expressions (6.16) and (6.17) for the aggregate demand into Proposition 6.4, we obtain
 
 $$
-\begin{array}{l} \log c _ {t} = \kappa_ {t - 1} ^ {c} + \alpha \log \left(\frac {c _ {t}}{s _ {t} + c _ {t} A}\right) + (1 - \alpha) \log \left(\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}\right), \\ \log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {c ^ {*}} + (1 - \alpha) \log \left(\frac {c _ {t}}{s _ {t} + c _ {t} A}\right) + \alpha \log \left(\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}\right). \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} + \alpha \log \left(\frac{c_{t}}{s_{t} + c_{t} A}\right) + (1 - \alpha) \log \left(\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}}\right), \\ \log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} + (1 - \alpha) \log \left(\frac{c_{t}}{s_{t} + c_{t} A}\right) + \alpha \log \left(\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}}\right). \\ \end{array}
 $$
 
 These equations allow us to solve the equilibrium consumption  $c_{t}$  and  $c_{t}^{*}$  as functions of the government surpluses  $s_{t}$  and  $s_{t}^{*}$ . For expositional convenience, in the proposition below we consider a symmetric distribution for home and foreign variables. Let  $\bar{s}$  denote both countries' mean government surplus in this distribution and let  $\bar{c}$  denote both countries' mean equilibrium consumption. Symmetry also implies  $A = A^{*}$ .
@@ -826,35 +826,35 @@ If we take a first-order approximation around  $s_t = s_t^* = \bar{s}$  and  $c_
 Proposition 6.6. Under a first-order approximation, the equilibrium consumption is
 
 $$
-\log c _ {t} = \kappa_ {c} - \frac {\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} - \frac {(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} ^ {*},
+\log c_{t} = \kappa_{c} - \frac{\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t} - \frac{(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t}^{*},
 $$
 
 $$
-\log c _ {t} ^ {*} = \kappa_ {c} ^ {*} - \frac {(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} - \frac {\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} ^ {*},
+\log c_{t}^{*} = \kappa_{c}^{*} - \frac{(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t} - \frac{\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t}^{*},
 $$
 
 the equilibrium real interest rate is
 
 $$
-r _ {t} = - \log \delta - \log \mathbb {E} _ {t} \left[ 1 / c _ {t + 1} \right] - \kappa_ {c} + \frac {\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} + \frac {(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s _ {t} ^ {*},
+r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t} + \frac{(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t}^{*},
 $$
 
 the equilibrium real exchange rate is
 
 $$
-e _ {t} = - \kappa_ {c} + \kappa_ {c} ^ {*} + \frac {(2 \alpha - 1) \bar {c}}{A \bar {c} + (1 - \alpha) 2 \bar {s}} \left(s _ {t} - s _ {t} ^ {*}\right),
+e_{t} = - \kappa_{c} + \kappa_{c}^{*} + \frac{(2 \alpha - 1) \bar {c}}{A \bar {c} + (1 - \alpha) 2 \bar {s}} \left(s_{t} - s_{t}^{*}\right),
 $$
 
 and the equilibrium price levels are
 
 $$
-\log P _ {t} = \kappa^ {P} + \log Q _ {t} - \frac {1 - \alpha}{A \bar {c} + (1 - \alpha) \bar {s}} \left(s _ {t} - s _ {t} ^ {*}\right).
+\log P_{t} = \kappa^{P} + \log Q_{t} - \frac{1 - \alpha}{A \bar {c} + (1 - \alpha) \bar {s}} \left(s_{t} - s_{t}^{*}\right).
 $$
 
 The proof is presented in Appendix A.27. This proposition shows that the government surplus  $s_t$  also has real effects: by Eq. (6.6), reproduced below,
 
 $$
-\frac {Q _ {t}}{P _ {t}} = \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right] = s _ {t} + \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right], \tag {6.18}
+\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right], \tag {6.18}
 $$
 
 when the current surplus  $s_t$  increases, the present value of government surpluses on the right-hand side of this equation will increase.
@@ -866,13 +866,13 @@ In this way, a higher U.S. surplus increases the U.S. real interest rate and, by
 We can also think about the exchange rate response to the fiscal shock from the foreign households' perspective. Using the foreign numérique, we can rewrite Eq. (6.18) as
 
 $$
-\exp (e _ {t}) \frac {Q _ {t}}{P _ {t}} = \exp (e _ {t}) s _ {t} + \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (m _ {t, t + k} ^ {*}) \exp (e _ {t + k}) s _ {t + k} \right].
+\exp (e_{t}) \frac{Q_{t}}{P_{t}} = \exp (e_{t}) s_{t} + \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}^{*}) \exp (e_{t + k}) s_{t + k} \right].
 $$
 
 Rearranging terms, we obtain
 
 $$
-\exp (e _ {t}) \left(\frac {Q _ {t}}{P _ {t}} - s _ {t}\right) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(m _ {t, t + k} ^ {*}\right) \exp (e _ {t + k}) s _ {t + k} \right].
+\exp (e_{t}) \left(\frac{Q_{t}}{P_{t}} - s_{t}\right) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(m_{t, t + k}^{*}\right) \exp (e_{t + k}) s_{t + k} \right].
 $$
 
 For this thought experiment, let us assume that the home country is very small so that its fiscal shock does not affect the foreign SDF  $m_{t,t+k}^{*}$ , and that the shock is transitory so that the future surpluses  $s_{t+k}$  and the future real exchange rate  $e_{t+k}$  are unaffected. Then, to equilibrate this equation in response to an increase in the current surplus  $s_t$ , the current real exchange rate  $e_t$  has to appreciate. In this sense, the real exchange rate behaves like the asset price for the claim to government surpluses, which has to adjust when the fiscal cash flows change. We can also use this logic to show that the U.S. real exchange rate has to appreciate when the expected future surpluses  $\mathbb{E}_t[s_{t+k}]$  increase [Jiang, 2022].
@@ -892,13 +892,13 @@ Moreover, our model assumes that the government only issues one-period debt. If 
 Eq. (6.15) can be expressed as
 
 $$
-\frac {s _ {t} + c _ {t} A}{Q _ {t} c _ {t}} = \exp (i _ {t}) \mathbb {E} _ {t} \left[ \delta \frac {s _ {t + 1} + c _ {t + 1} A}{Q _ {t + 1} c _ {t + 1}} \right].
+\frac{s_{t} + c_{t} A}{Q_{t} c_{t}} = \exp (i_{t}) \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{Q_{t + 1} c_{t + 1}} \right].
 $$
 
 Note that the nominal quantity of government debt  $Q_{t + 1}$  is chosen by the government in period  $t$ , so it is known in period  $t$ . Then, we can express the home nominal interest rate as
 
 $$
-i _ {t} = \log \left(\frac {s _ {t} + c _ {t} A}{c _ {t}}\right) - \log \mathbb {E} _ {t} \left[ \delta \frac {s _ {t + 1} + c _ {t + 1} A}{c _ {t + 1}} \right] + \Delta \log Q _ {t + 1}. \tag {6.19}
+i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1}. \tag {6.19}
 $$
 
 Since the consumption and government surplus shocks are i.i.d. across periods,  $\mathbb{E}_t\left[\delta \frac{s_{t + 1} + c_{t + 1}A}{c_{t + 1}}\right]$  is a constant. Then, for any given nominal debt growth  $Q_{t + 1} / Q_t$ , the nominal interest rate  $i_t$  directly affects the real consumption  $c_t$ .
@@ -906,17 +906,17 @@ Since the consumption and government surplus shocks are i.i.d. across periods,  
 Similarly, we can express the foreign nominal interest rate as
 
 $$
-i _ {t} ^ {*} = \log \left(\frac {s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}{c _ {t} ^ {*}}\right) - \log \mathbb {E} _ {t} \left[ \delta \frac {s _ {t + 1} ^ {*} + c _ {t + 1} ^ {*} A ^ {*}}{c _ {t + 1} ^ {*}} \right] + \Delta \log Q _ {t + 1} ^ {*}.
+i_{t}^{*} = \log \left(\frac{s_{t}^{*} + c_{t}^{*} A^{*}}{c_{t}^{*}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1}^{*} + c_{t + 1}^{*} A^{*}}{c_{t + 1}^{*}} \right] + \Delta \log Q_{t + 1}^{*}.
 $$
 
 Along with
 
 $$
-\log c _ {t} = \kappa_ {t - 1} ^ {c} + \alpha \log \left(\frac {c _ {t}}{s _ {t} + c _ {t} A}\right) + (1 - \alpha) \log \left(\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}\right),
+\log c_{t} = \kappa_{t - 1}^{c} + \alpha \log \left(\frac{c_{t}}{s_{t} + c_{t} A}\right) + (1 - \alpha) \log \left(\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}}\right),
 $$
 
 $$
-\log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {c ^ {*}} + (1 - \alpha) \log \left(\frac {c _ {t}}{s _ {t} + c _ {t} A}\right) + \alpha \log \left(\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}}\right),
+\log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} + (1 - \alpha) \log \left(\frac{c_{t}}{s_{t} + c_{t} A}\right) + \alpha \log \left(\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}}\right),
 $$
 
 we obtain 4 equations with 6 unknowns: the nominal interest rates  $i_{t}$  and  $i_{t}^{*}$ , the government surpluses  $s_{t}$  and  $s_{t}^{*}$ , and the equilibrium consumption  $c_{t}$  and  $c_{t}^{*}$ . So, the monetary policies which set the nominal interest rates and the fiscal policies which set the government surpluses cannot both be exogenous. If they are, then we have 4 equations with only 2 endogenous variables, which makes the equation system overidentified and there might be no equilibrium.
@@ -932,13 +932,13 @@ Finally, throughout our discussion above, we have left out one degree of freedom
 has no real effects. Given Eq. (6.19), reproduced below,
 
 $$
-i _ {t} = \log \left(\frac {s _ {t} + c _ {t} A}{c _ {t}}\right) - \log \mathbb {E} _ {t} \left[ \delta \frac {s _ {t + 1} + c _ {t + 1} A}{c _ {t + 1}} \right] + \Delta \log Q _ {t + 1},
+i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1},
 $$
 
 and given
 
 $$
-\begin{array}{l} \pi_ {t + 1} = \log Q _ {t + 1} - \log \mathbb {E} _ {t + 1} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t + 1, t + 1 + k}) s _ {t + 1 + k} \right] + \log \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right] \\ = \log Q _ {t + 1} - \log \left(s _ {t + 1} + c _ {t + 1} A\right) + \log \left(s _ {t} + c _ {t} A\right), \\ \end{array}
+\begin{array}{l} \pi_{t + 1} = \log Q_{t + 1} - \log \mathbb {E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right] + \log \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] \\ = \log Q_{t + 1} - \log \left(s_{t + 1} + c_{t + 1} A\right) + \log \left(s_{t} + c_{t} A\right), \\ \end{array}
 $$
 
 we can see that a higher nominal government debt growth  $\Delta \log Q_{t + 1}$  leads to a higher nominal interest rate by the same magnitude. It does not affect the real consumption  $c_{t}$  and hence the real rate  $r_t$ . Rather, it moves one-to-one with the inflation  $\pi_{t + 1}$ . Since  $\Delta \log Q_{t + 1}$  is known in period  $t$ , a higher nominal debt growth creates expected inflation.

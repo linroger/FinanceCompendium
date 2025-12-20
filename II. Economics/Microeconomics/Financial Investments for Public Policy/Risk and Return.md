@@ -17,13 +17,13 @@ linter-yaml-title-alias: "RISK AND RETURN: PAST AND PROLOGUE"
 - Holding-period return (HPR)—the rate of return that is earned on an investment over a particular period of time.
 
 $$
-\mathrm {H P R} = \frac {\text {E n d i n g v a l u e - B e g i n n i n g v a l u e + C a s h r e c e i v e d}}{\text {B e g i n n i n g v a l u e}}
+\mathrm{HP R} = \frac{\text{En di ng va lu e -B eg in ni ng va lu e +C as hr ec ei ve d}}{\text{Be gi nn in gv al ue}}
 $$
 
 The equation provides the ex post (historical) return for an investment. If the investment is a stock, the return can be computed as follows:
 
 $$
-\mathrm {H P R} _ {\text {S t o c k}} = \frac {\left(\mathrm {P} _ {1} - \mathrm {P} _ {0}\right) + \mathrm {D} _ {1}}{\mathrm {P} _ {0}} = \frac {\left(\mathrm {P} _ {1} - \mathrm {P} _ {0}\right)}{\mathrm {P} _ {0}} + \frac {\mathrm {D} _ {1}}{\mathrm {P} _ {0}} = \binom {\text {C a p i t a l g a i n s}} {\text {y i e l d}} + \binom {\text {D i v i d e n d}} {\text {y i e l d}}
+\mathrm{HP R}_{\text{St oc k}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right) + \mathrm{D}_{1}}{\mathrm{P}_{0}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right)}{\mathrm{P}_{0}} + \frac{\mathrm{D}_{1}}{\mathrm{P}_{0}} = \binom {\text{Ca pi ta lg ai ns}} {\text{yi el d}} + \binom {\text{Di vi de nd}} {\text{yi el d}}
 $$
 
 where  $\mathrm{P_1}$  is the per share value of the stock at the end of the investment period,  $\mathrm{P_0}$  is the per share value of the stock at the beginning of the investment period, and  $\mathrm{D_1}$  is the total cash dividend paid per share during the investment period. Although the investment period over which HPR is measured can be any length (e.g., one month, one quarter, one year, five years, and so forth), often HPR is computed for one year.
@@ -33,7 +33,7 @@ where  $\mathrm{P_1}$  is the per share value of the stock at the end of the inv
 $\circ$  Arithmetic average (simple average)—computation of the arithmetic average does not consider the effects of interest/return compounding.
 
 $$
-\frac {\text {A r i t h m e t i c}}{\text {a v e r a g e r e t u r n}} = \mathrm {r} _ {\mathrm {a}} = \frac {\mathrm {r} _ {1} + \mathrm {r} _ {2} + \cdots + \mathrm {r} _ {\mathrm {n}}}{\mathrm {n}}
+\frac{\text{Ar it hm et ic}}{\text{av er ag er et ur n}} = \mathrm{r}_{\mathrm{a}} = \frac{\mathrm{r}_{1} + \mathrm{r}_{2} + \cdots + \mathrm{r}_{\mathrm{n}}}{\mathrm{n}}
 $$
 
 where  $\mathbf{r}_{\mathrm{t}} =$  the return that was earned in Period t and n is the total number of periods (months, quarters, years, etc.).
@@ -41,13 +41,13 @@ where  $\mathbf{r}_{\mathrm{t}} =$  the return that was earned in Period t and n
 $\circ$  Geometric average (time-weighted return)—considers compounding.
 
 $$
-\frac {\text {Geometric}}{\text {average return}} = \mathrm {r} _ {\mathrm {g}} = \sqrt [ n ]{(1 + \mathrm {r} _ {1}) (1 + \mathrm {r} _ {2}) \dots (1 + \mathrm {r} _ {\mathrm {n}})} = \left[ (1 + \mathrm {r} _ {1}) (1 + \mathrm {r} _ {2}) \dots (1 + \mathrm {r} _ {\mathrm {n}}) \right] ^ {\left(\frac {1}{n}\right)}
+\frac{\text{Geometric}}{\text{averagereturn}} = \mathrm{r}_{\mathrm{g}} = \sqrt [ n ]{(1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}})} = \left[ (1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}}) \right]^{\left(\frac{1}{n}\right)}
 $$
 
 - Dollar-weighted average (internal rate of return, IRR)—considers variations in cash flows throughout the investment period.
 
 $$
-\frac {\text {D o l l a r} - \text {w e i g h t e d}}{\text {a v e r a g e r e t u r n (I R R)}} = \text {I n i t i a l c a s h f l o w} = \frac {\mathrm {C F} _ {1}}{(1 + \mathrm {I R R}) ^ {1}} + \frac {\mathrm {C F} _ {2}}{(1 + \mathrm {I R R}) ^ {2}} + \dots + \frac {\mathrm {C F} _ {\mathrm {n}}}{(1 + \mathrm {I R R}) ^ {\mathrm {n}}}
+\frac{\text{Do ll ar} - \text{we ig ht ed}}{\text{av er ag er et ur n (IR R)}} = \text{In it ia lc as hf lo w} = \frac{\mathrm{CF}_{1}}{(1 + \mathrm{IR R})^{1}} + \frac{\mathrm{CF}_{2}}{(1 + \mathrm{IR R})^{2}} + \dots + \frac{\mathrm{CF}_{\mathrm{n}}}{(1 + \mathrm{IR R})^{\mathrm{n}}}
 $$
 
 where the Initial cash flow represents the amount originally invested and  $\mathrm{CF_t} =$  the cash flow that occurs in Period t;  $\mathrm{CF_t}$  can be positive (e.g., when a dividend is received and it is not reinvested in the stock) or it can be negative (e.g., when more funds are invested in the stock);  $\mathrm{CF_n}$  is the terminal value of the investment, which is the total value of the investment at the
@@ -63,7 +63,7 @@ APR = Rate per period × Number of periods in the year
 $\mathrm{O}$  Effective annual rate, or EAR—represents the compounded rate of return earned during the year.
 
 $$
-\mathrm {E A R} = \left(1 + \frac {\mathrm {A P R}}{\mathrm {n}}\right) ^ {\left(\frac {1}{\mathrm {n}}\right)} - 1. 0
+\mathrm{EA R} = \left(1 + \frac{\mathrm{AP R}}{\mathrm{n}}\right)^{\left(\frac{1}{\mathrm{n}}\right)} - 1. 0
 $$
 
 where  $n$  is the number of periods in the year (e.g.,  $n = 12$  if monthly returns are used).
@@ -77,7 +77,7 @@ R \approx R e a l r a t e + i
 $$
 
 $$
-\text {R e a l r a t e} \approx \mathrm {R} - \mathrm {i}
+\text{Re al ra te} \approx \mathrm{R} - \mathrm{i}
 $$
 
 where  $R$  is the nominal rate of return and  $i$  is the inflation rate during the investment period.
@@ -85,11 +85,11 @@ where  $R$  is the nominal rate of return and  $i$  is the inflation rate during
 More exactly,
 
 $$
-(1 + R) = (1 + \text {R e a l r a t e}) (1 + i)
+(1 + R) = (1 + \text{Re al ra te}) (1 + i)
 $$
 
 $$
-\text {R e a l r a t e} = (1 + \mathrm {R}) / (1 + \mathrm {i}) - 1 = (\mathrm {R} - \mathrm {i}) / (1 + \mathrm {i})
+\text{Re al ra te} = (1 + \mathrm{R}) / (1 + \mathrm{i}) - 1 = (\mathrm{R} - \mathrm{i}) / (1 + \mathrm{i})
 $$
 
 - The equilibrium nominal rate of interest; Fisher equation:
@@ -118,7 +118,7 @@ seeker—an investor requires lower returns for taking greater risk (will pay to
 Expected return—the average (mean) value of a probability distribution
 
 $$
-\underset {\text {r e t u r n}} {\text {E x p e c t e d}} = \mathrm {E} (\mathrm {r}) = \sum_ {\mathrm {s} = 1} ^ {\mathrm {n}} \mathrm {p} (\mathrm {s}) \mathrm {r} _ {\mathrm {s}}
+\underset {\text{re tu rn}} {\text{Ex pe ct ed}} = \mathrm{E} (\mathrm{r}) = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) \mathrm{r}_{\mathrm{s}}
 $$
 
 where  $\mathrm{p}(\mathrm{s})$  represents the probability that Scenario  $\mathrm{s}$  will occur and  $\mathbf{r}_{\mathrm{s}}$  is the return that will be earned when Scenario  $\mathrm{s}$  occurs.  $\mathrm{E}(\mathrm{r})$  is the expected return, which represents the weighted average of the possible payoffs (weighted by the probabilities).
@@ -126,20 +126,20 @@ where  $\mathrm{p}(\mathrm{s})$  represents the probability that Scenario  $\mat
 - Variance and standard deviation—provide an indication of the scatter, or variability, of the observations contained in a probability distribution; measure the total risk associated with an investment.
 
 $$
-\mathrm {V a r i a n c e} = \sigma_ {\mathrm {r}} ^ {2} = \sum_ {\mathrm {s} = 1} ^ {\mathrm {n}} \mathrm {p} (\mathrm {s}) [ \mathrm {r} _ {\mathrm {s}} - \mathrm {E} (\mathrm {R}) ] ^ {2}
+\mathrm{Va ri an ce} = \sigma_{\mathrm{r}}^{2} = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}
 $$
 
 $$
-\frac {\mathrm {S} \tan \mathrm {d a r d}}{\text {d e v i a t i o n}} = \sigma_ {\mathrm {r}} = \sqrt {\sigma_ {\mathrm {r}} ^ {2}} = \sqrt {\sum_ {\mathrm {s} = 1} ^ {\mathrm {n}} \mathrm {p} (\mathrm {s}) [ \mathrm {r} _ {\mathrm {s}} - \mathrm {E} (\mathrm {R}) ] ^ {2}}
+\frac{\mathrm{S} \tan \mathrm{da rd}}{\text{de vi at io n}} = \sigma_{\mathrm{r}} = \sqrt{\sigma_{\mathrm{r}}^{2}} = \sqrt{\sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}}
 $$
 
 - Normal distribution—stock returns generally exhibit kurtosis, which means the chances of large positive returns or large negative returns are greater than for returns that are normally distributed.  
-- Risk premium (RP)—the amount of the total return that is greater than the risk-free rate of return;  $\mathrm{RP} = \text{Total return} - \mathrm{r_f}$ , where  $\mathrm{r_f}$  is the risk-free rate of return
+- Risk premium (RP)—the amount of the total return that is greater than the risk-free rate of return;  $\mathrm{RP} = \text{Totalreturn} - \mathrm{r_f}$ , where  $\mathrm{r_f}$  is the risk-free rate of return
 
 Price of risk—the relationship between an investment's risk premium and its total risk
 
 $$
-\frac {\text {P r i c e o f}}{\text {r i s k}} = \frac {\mathrm {E} \left(\mathrm {r} _ {\mathrm {S}}\right) - \mathrm {r} _ {\mathrm {f}}}{\sigma_ {\mathrm {S}} ^ {2}} = \frac {\text {R i s k p r e m i u m}}{\text {R i s k m e a s u r e}} = \mathrm {A}
+\frac{\text{Pr ic eo f}}{\text{ri sk}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{S}}^{2}} = \frac{\text{Ri sk pr em iu m}}{\text{Ri sk me as ur e}} = \mathrm{A}
 $$
 
 $\mathrm{E}(\mathrm{r_s})$  is the expected return on Stock S and  $\sigma_{s}^{2}$  is the variance of returns on Stock S. The equation gives the amount of risk premium an investor requires for each "unit" of risk associated with an investment. For example, if the price of risk is 4.0, the investor demands a risk premium equal to at least 4 percent for every 1 unit of risk (measured as variance of returns) associated with any investment, which means an investment with a variance equal to  $0.04(\sigma = .2)$  must earn a risk premium equal to 16 percent for the investor to consider investing in it.
@@ -147,7 +147,7 @@ $\mathrm{E}(\mathrm{r_s})$  is the expected return on Stock S and  $\sigma_{s}^{
 Sharpe ratio-risk premium divided by standard deviation of returns
 
 $$
-\frac {\text {S h a r p e}}{\text {r a t i o}} = \frac {\mathrm {E} \left(\mathrm {r} _ {\mathrm {S}}\right) - \mathrm {r} _ {\mathrm {f}}}{\sigma_ {\mathrm {s}}} = \frac {\text {R i s k p r e m i u m}}{\text {R i s k m e a s u r e}}
+\frac{\text{Sh ar pe}}{\text{ra ti o}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{s}}} = \frac{\text{Ri sk pr em iu m}}{\text{Ri sk me as ur e}}
 $$
 
 Mean-variance analysis—evaluation of investments based on both their expected returns and risk; ranking stocks based on their Sharpe ratios would be mean-variance analysis.
@@ -175,15 +175,15 @@ $\bigcirc$  Following is information about the riskiness of the three portfolios
 ○ What would be your preferred allocation of funds in the situation described here? To answer this question, let's first suppose that you are comfortable investing in a portfolio that promises an expected risk premium  $\left[\mathrm{RP} = \mathrm{E}(\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right]$  equal to 16 percent and a variance of returns,  $\sigma^2$ , equal to  $0.04$  ( $\sigma = 20\%$ ). In this case, your price of risk is  $\mathrm{A} = 4.0$  as described earlier. Based on this information and the information given in the CAL, you can use the following equation to determine the proportion of your total funds that should be invested in the risky asset based on your risk preferences:
 
 $$
-\begin{array}{l} \frac {\text {P r o p o r t i o n t o i n v e s t}}{\text {i n r i s k y a s s e t}} = \frac {\text {A v a i l a b l e r i s k p r e m i u m t o v a r i a n c e r a t i o}}{\text {R e q u i r e d r i s k p r e m i u m t o v a r i a n c e r a t i o}} = \frac {\left\{\left[ \mathrm {E} (\mathrm {r}) - \mathrm {r} _ {\mathrm {f}}\right) / \sigma_ {\mathrm {p}} ^ {2} \right\}}{\mathrm {A}} \\ = \frac {\left\{\left[ 0 . 1 2 - 0 . 0 5 \right] / (0 . 1 8) ^ {2} \right\}}{4 . 0} = \frac {2 . 1 6}{4} = 0. 5 4 = 5 4. 0 \% \\ \end{array}
+\begin{array}{l} \frac{\text{Pr op or ti on to in ve st}}{\text{in ri sk ya ss et}} = \frac{\text{Av ai la bl er is kp re mi um to va ri an ce ra ti o}}{\text{Re qu ir ed ri sk pr em iu mt ov ar ia nc er at io}} = \frac{\left\{\left[ \mathrm{E} (\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right) / \sigma_{\mathrm{p}}^{2} \right\}}{\mathrm{A}} \\ = \frac{\left\{\left[ 0 . 1 2 - 0 . 0 5 \right] / (0 . 1 8)^{2} \right\}}{4 . 0} = \frac{2 . 1 6}{4} = 0. 5 4 = 5 4. 0 \% \\ \end{array}
 $$
 
 Thus, you should invest 54 percent of your funds in the risky asset and 46 percent  $(= 1 - 0.54)$  of your funds in the risk-free asset. This portfolio would yield the following results:
 
 $$
-\text {Expected return} = \mathrm {E} (\mathrm {r}) = 0.46 (5 \%) + 0.54 (12 \%) = 8.78 \%
+\text{Expectedreturn} = \mathrm{E} (\mathrm{r}) = 0.46 (5 \%) + 0.54 (12 \%) = 8.78 \%
 $$
 
 $$
-\text {Standard deviation} = \sigma = 0.54 (18 \%) = 9.72 \%
+\text{Standarddeviation} = \sigma = 0.54 (18 \%) = 9.72 \%
 $$

@@ -47,25 +47,25 @@ Ideally, if we had actual transaction prices, we could infer the actual returns 
 However, practitioners often lack such data and have to work with market prices that are averages of bid and ask prices. They might then attempt to take account of liquidity factors by working with the bid-ask spread, and the simplest way to incorporate liquidity risk into a VaR calculation is in terms of a spread that is assumed to be constant. If we make this assumption, the liquidity cost is then equal to half the spread times the size of the position liquidated. Using obvious notation, this means that we add the following liquidity cost (LC) to a "standard" VaR:
 
 $$
-L C = \frac {1}{2} s p r e a d ^ {*} P \tag {1}
+L C = \frac{1}{2} s p r e a d^{*} P \tag {1}
 $$ where spread is expressed as actual spread divided by the midpoint. For the sake of comparison and using obvious notation, let us compare
 
 
 this to a benchmark conventional lognormal VaR with no adjustment for liquidity risk:
 
 $$
-V a R = P \left[ 1 - \exp \left(\mu_ {R} - \sigma_ {R} z _ {\alpha}\right) \right] \tag {2}
+V a R = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right] \tag {2}
 $$ where the returns have been calculated using prices that are the midpoints of the bid-ask spread. The liquidity-adjusted VaR,  $LVaR$ , is then given by:
 
 
 $$
-\begin{array}{l} L V a R = V a R + L C = P [ 1 - \exp (\mu_ {R} - \sigma_ {R} z _ {\alpha}) \\ + \frac {1}{2} s p r e a d ] \tag {3} \\ \end{array}
+\begin{array}{l} L V a R = V a R + L C = P [ 1 - \exp (\mu_{R} - \sigma_{R} z_{\alpha}) \\ + \frac{1}{2} s p r e a d ] \tag {3} \\ \end{array}
 $$
 
 Setting  $\mu_{R} = 0$  to clarify matters, the ratio of  $LVaR$  to  $VaR$  is then
 
 $$
-\frac {L V a R}{V A R} = 1 + \frac {\text {s p r e a d}}{2 \left[ 1 - \exp \left(- \sigma_ {R} z _ {\alpha}\right) \right]} \tag {4}
+\frac{L V a R}{V A R} = 1 + \frac{\text{sp re ad}}{2 \left[ 1 - \exp \left(- \sigma_{R} z_{\alpha}\right) \right]} \tag {4}
 $$
 
 It is easy to show that the liquidity adjustment (a) rises in proportion with the assumed spread, (b) falls as the confidence level increases, and (c) falls as the holding periods each increase. The first and third of these are obviously correct, but the second implication is one that may or may not be compatible with one's prior expectations.
@@ -76,7 +76,7 @@ This approach is easy to implement and requires only minimal information, but th
 
 A superior alternative is to assume that traders face random spreads. If our position is sufficiently small relative to the market, we can also regard our spread risk as exogenous to us (i.e., independent of our own trading), for any given holding period. We could assume any process for the spread that we believe to be empirically plausible. For example, we might believe that the spread is normally distributed:
 
-$$ s p r e a d \sim N \left(\mu_ {s p r e a d}, \sigma_ {s p r e a d} ^ {2}\right) \tag {5}
+$$ s p r e a d \sim N \left(\mu_{s p r e a d}, \sigma_{s p r e a d}^{2}\right) \tag {5}
 $$ where  $\mu_{\text{spread}}$  is the mean spread and  $\sigma_{\text{spread}}$  is the spread volatility. Alternatively, we might use some heavy-tailed distribution to accommodate excess kurtosis in the spread.
 
 
@@ -85,18 +85,18 @@ We could now estimate the LVaR using Monte Carlo simulation: We could simulate b
 However, in practice, we might take a shortcut suggested by Bangia et al. (1999). They suggest that we specify the liquidity cost (LC) as:
 
 $$
-L C = \frac {P}{2} \left(\mu_ {\text {s p r e a d}} + k \sigma_ {\text {s p r e a d}}\right) \tag {6}
+L C = \frac{P}{2} \left(\mu_{\text{sp re ad}} + k \sigma_{\text{sp re ad}}\right) \tag {6}
 $$ where  $k$  is some parameter whose value is to be determined. The value of  $k$  could be determined by a suitably calibrated Monte Carlo exercise, but they suggest that a particular value  $(k = 3)$  is plausible (e.g., because it reflects the empirical facts that spreads appear to have excess kurtosis and are negatively correlated with returns, etc.). The liquidity-adjusted VaR, LVaR, is then equal to the conventional VaR plus the liquidity adjustment (6):
 
 
 $$
-\begin{array}{l} L V a R = V a R + L C = P \left[ 1 - \exp \left(\mu_ {R} - \sigma_ {R} z _ {\alpha}\right) \right. \\ + \frac {P}{2} \left(\mu_ {\text {s p r e a d}} + 3 \sigma_ {\text {s p r e a d}} \right] \tag {7} \\ \end{array}
+\begin{array}{l} L V a R = V a R + L C = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right. \\ + \frac{P}{2} \left(\mu_{\text{sp re ad}} + 3 \sigma_{\text{sp re ad}} \right] \tag {7} \\ \end{array}
 $$
 
 Observe that this LVaR incorporates (3) as a special case when  $\sigma_{\text{spread}} = 0$ . It therefore retains many of the properties of (3), but generalizes from (3) in allowing for the spread volatility as well. The ratio of LVaR to VaR is then:
 
 $$
-\frac {L V a R}{V a R} = 1 + \frac {L C}{V a R} = 1 + \frac {1}{2} \frac {\left(\mu_ {s p r e a d} + 3 \sigma_ {s p r e a d}\right)}{\left[ 1 - \exp \left(- \sigma_ {r} z _ {\alpha}\right) \right]} \tag {8}
+\frac{L V a R}{V a R} = 1 + \frac{L C}{V a R} = 1 + \frac{1}{2} \frac{\left(\mu_{s p r e a d} + 3 \sigma_{s p r e a d}\right)}{\left[ 1 - \exp \left(- \sigma_{r} z_{\alpha}\right) \right]} \tag {8}
 $$
 
 This immediately tells us that the spread volatility  $\sigma_{\text{spread}}$  serves to increase the liquidity adjustment relative to the earlier case. The Bangia et al. framework was also further developed by Erwan (2002), who presented empirical results that are similar to the illustrative ones presented here in suggesting that the liquidity adjustment can make a big difference to our VaR estimates.
@@ -108,23 +108,23 @@ The previous approaches assume that prices are exogenous and therefore ignore th
 We can estimate this extra loss in various ways, but the simplest is to make use of some elementary economic theory. We begin with the notion of the price elasticity of demand,  $\eta$ , defined as the ratio of the proportional change in price divided by the proportional change in quantity demanded:
 
 $$
-\eta = \frac {\Delta P / P}{\Delta N / N} <   0; \quad \Delta N / N > 0 \tag {9}
+\eta = \frac{\Delta P / P}{\Delta N / N} <   0; \quad \Delta N / N > 0 \tag {9}
 $$ where in this context  $N$  is the size of the market and  $\Delta N$  is the size of our trade.  $\Delta N / N$  is therefore the size of our trade relative to the size of the market. The impact of the trade on the price is therefore
 
 
 $$
-\frac {\Delta P}{P} = \eta \frac {\Delta N}{N} \tag {10}
+\frac{\Delta P}{P} = \eta \frac{\Delta N}{N} \tag {10}
 $$
 
 We can therefore estimate  $\Delta P / P$  on the basis of information about  $\eta$  and  $\Delta N / N$ , and both of these can be readily guessed at using a combination of economic and market judgement. The LVaR is then:
 
 $$
-L V a R = \operatorname {V a R} \left(1 - \frac {\Delta P}{P}\right) = \operatorname {V a R} \left(1 - \eta \frac {\Delta N}{N}\right) \tag {11}
+L V a R = \operatorname{Va R} \left(1 - \frac{\Delta P}{P}\right) = \operatorname{Va R} \left(1 - \eta \frac{\Delta N}{N}\right) \tag {11}
 $$ bearing in mind that the change in price is negative. The ratio of LVaR to VaR is therefore:
 
 
 $$
-\frac {L V a R}{V a R} = 1 - \eta \frac {\Delta N}{N} \tag {12}
+\frac{L V a R}{V a R} = 1 - \eta \frac{\Delta N}{N} \tag {12}
 $$
 
 This gives us a very simple liquidity adjustment that depends on only two easily calibrated parameters. It is even independent of the VaR itself: The adjustment is the same regardless of whether the VaR is normal, lognormal, etc.
@@ -136,7 +136,7 @@ This type of approach is easy to implement, and it is of considerable use in sit
 On the other hand, the fact that this approach focuses only on endogenous liquidity and the earlier ones focus on exogenous liquidity means that this last approach can easily be combined with one of the others; in effect, we can add one adjustment to the other. Thus, two very simple approaches can be added to produce an adjustment that addresses both exogenous and endogenous liquidity risk. This combined adjustment is given by
 
 $$
-\left. \frac {L V a R}{V a R} \right| _ {\text {c o m b i n e d}} = \left. \frac {L V a R}{V a R} \right| _ {\text {e x o g e n o u s}} + \left. \frac {L V a R}{V a R} \right| _ {\text {e n d o g e n o u s}} \tag {13}
+\left. \frac{L V a R}{V a R} \right|_{\text{co mb in ed}} = \left. \frac{L V a R}{V a R} \right|_{\text{ex og en ou s}} + \left. \frac{L V a R}{V a R} \right|_{\text{en do ge no us}} \tag {13}
 $$
 
 # The Liquidity Discount Approach
@@ -149,7 +149,7 @@ Their analysis suggests that we should modify the traditional VaR in three ways.
 To spell out their approach more formally, assume that prices between trades follow a geometric Brownian motion with parameters  $\mu$  and  $\sigma$ . The current time is 0 and the price at time  $t$  is  $p(t)$ , so that geometric returns  $\log(p(t) / p(0))$  are normally distributed. However, the prices actually obtained from trading are discounted from  $p(t)$ ; more specifically, the prices obtained are  $p(t)c(s)$ , where  $c(s)$  is a random quantity-dependent proportional discount factor,  $s$  is the amount traded,  $0 \leq c(s) \leq 1$  and, other things being equal,  $c(s)$  falls as  $s$  rises. Any order placed at time  $t$  will be also subject to a random execution lag  $\Delta(s)$ , and therefore take place at time  $t + \Delta(s)$ . Other things again being equal, the execution lag  $\Delta(s)$  rises with  $s$ : Bigger orders usually take longer to carry out. Our trader has  $S$  shares and wishes to maximize the present value of his or her current position, assuming that it is liquidated by the end of some horizon  $t$ , taking account of all relevant factors, including both the quantity discount  $c(s)$  and the execution lag  $\Delta(s)$ . After solving for this problem, they produce the following expression for the liquidity-adjusted VaR:
 
 $$
-\begin{array}{l} L V a R = P \left\{E [ \ln (p (\Delta (S)) c (S) / p (0) ] \right. \\ + \operatorname {s t d} \left[ \ln (p (\Delta (S)) c (S) / p (0) ] z _ {\alpha} \right\} \tag {14} \\ = P \left\{\left(\mu - \frac {\sigma^ {2}}{2}\right) \mu_ {\Delta (S)} + \mu_ {\ln c (S)} \right. \\ \left. + \left[ \sigma \sqrt {\mu_ {\Delta (S)}} + \left(\mu - \frac {\sigma^ {2}}{2}\right) \sigma_ {\Delta (S)} + \sigma_ {\ln c (S)} \right] z _ {\alpha} \right\} \\ \end{array}
+\begin{array}{l} L V a R = P \left\{E [ \ln (p (\Delta (S)) c (S) / p (0) ] \right. \\ + \operatorname{st d} \left[ \ln (p (\Delta (S)) c (S) / p (0) ] z_{\alpha} \right\} \tag {14} \\ = P \left\{\left(\mu - \frac{\sigma^{2}}{2}\right) \mu_{\Delta (S)} + \mu_{\ln c (S)} \right. \\ \left. + \left[ \sigma \sqrt{\mu_{\Delta (S)}} + \left(\mu - \frac{\sigma^{2}}{2}\right) \sigma_{\Delta (S)} + \sigma_{\ln c (S)} \right] z_{\alpha} \right\} \\ \end{array}
 $$ where all parameters have the obvious interpretations. This expression differs from the conventional VaR in three ways. First, the liquidation horizon  $t$  in the conventional VaR is replaced by the expected execution lag  $\mu_{\Delta(S)}$  in selling  $S$  shares. Clearly, the bigger is  $S$ , the longer the expected execution lag. Second, the LVaR takes account of the expected discount  $\mu_{\ln c(s)}$  on the shares to be sold. And, third, the volatility  $\sigma$  in the conventional VaR is supplemented by additional terms related to  $\sigma_{\Delta(s)}$  and  $\sigma_{\ln c(s)}$ , which reflect the volatilities of the execution time and the quantity discount. Note, too, that if our liquidity imperfections disappear, then  $\mu_{\Delta(S)} = t$ ,  $\sigma_{\Delta(S)} = 0$ , and  $c(S) = 1$  (which in turn implies  $\mu_{\ln c(s)} = \sigma_{\ln c(s)} = 0$ ) and our LVaR (14) collapses to a conventional VaR as a special case—which is exactly as it should be.
 
 
@@ -198,12 +198,12 @@ We now consider liquidity in crisis situations. As we all know, financial market
 One way to way to carry out such an exercise is by applying "crashmetrics" (Wilmott, 2000, Chapter 58). To give a simple example, we might have a position in a single derivatives instrument, and the profit/loss  $\Pi$  on this instrument is given by a delta-gamma approximation:
 
 $$
-\Pi = \delta \Delta S + \frac {\gamma}{2} (\Delta S) ^ {2} \tag {15}
+\Pi = \delta \Delta S + \frac{\gamma}{2} (\Delta S)^{2} \tag {15}
 $$ where  $\Delta S$  is the change in the stock price, and so forth. The maximum loss occurs when  $dS = -\delta /\gamma$  and is equal to:
 
 
 $$
-L ^ {\max } = - \Pi^ {\min } = \frac {\delta^ {2}}{2 \gamma} \tag {16}
+L^{\max } = - \Pi^{\min } = \frac{\delta^{2}}{2 \gamma} \tag {16}
 $$
 
 The worst-case cash outflow is therefore  $m\delta^2 /(2\gamma)$  , where  $m$  is the margin or collateral requirement. This approach can also be extended to handle the other Greek parameters (the vegas, thetas,rhos,etc.),multi option portfolios, counterparty risk, and so forth. The basic idea—of identifying worst-case outcomes and then evaluating their liquidity consequences—can also be implemented in other ways as well. For example, we might identify the worst-case outcome as the expected outcome at a chosen confidence level, and we could estimate this (e.g., using extreme-value methods) as the ES at that confidence level. The cash outflow would then be  $m$  times this ES.

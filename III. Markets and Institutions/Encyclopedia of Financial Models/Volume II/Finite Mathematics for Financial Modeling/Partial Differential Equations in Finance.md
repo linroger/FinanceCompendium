@@ -33,7 +33,7 @@ In this section, we present the main arguments to derive a PDE for the price of 
 The aim of this section is to recall the basic tools needed to derive a PDE in the context of option pricing, without providing all the detailed assumptions required on the data to perform this derivation. Karatzas and Shreve (1991) and Lamberton and Lapeyre (1997), for example, provide more details on the mathematical aspects. We adopt the standard Black and Scholes model (Black and Scholes, 1973; Merton, 1973) with a risky asset whose price at time  $t$  is  $S_{t}$  and a risk-free asset whose price at time  $t$  is  $S_{t}^{0}$ , such that:
 
 
-$$ d S _ {t} = S _ {t} (\mu d t + \sigma d B _ {t}), d S _ {t} ^ {0} = r S _ {t} ^ {0} d t
+$$ d S_{t} = S_{t} (\mu d t + \sigma d B_{t}), d S_{t}^{0} = r S_{t}^{0} d t
 $$
 
 The process  $B_{t}$  is a standard Brownian motion defined on a probability space  $(\Omega, \mathcal{F}, \mathcal{F}_{t}, \mathbb{Q})$  and  $\mu$  (the mean rate of return),  $r$  (the interest rate), and  $\sigma > 0$  (the volatility) are three constants. However, the following can be generalized to the case where  $\mu, r,$  and  $\sigma > 0$  are functions of  $t$  and  $S$  (under suitable smoothness assumptions).
@@ -41,23 +41,23 @@ The process  $B_{t}$  is a standard Brownian motion defined on a probability spa
 We introduce the stochastic process  $W_{t} = B_{t} + \frac{\mu - r}{\sigma} t$  Under the so-called risk-neutral probability  $\mathbb{P}$  defined by its Radon-Nikodym derivative with respect to  $\mathbb{Q}$  by
 
 $$
-\left. \frac {d \mathbb {P}}{d \mathbb {Q}} \right| _ {\mathcal {F} _ {t}} = \exp \left(\int_ {0} ^ {t} \frac {r - \mu}{\sigma} d B _ {s} - \frac {1}{2} \int_ {0} ^ {t} \left(\frac {r - \mu}{\sigma}\right) ^ {2} d s\right)
+\left. \frac{d \mathbb {P}}{d \mathbb {Q}} \right|_{\mathcal {F}_{t}} = \exp \left(\int_{0}^{t} \frac{r - \mu}{\sigma} d B_{s} - \frac{1}{2} \int_{0}^{t} \left(\frac{r - \mu}{\sigma}\right)^{2} d s\right)
 $$
 
 $W_{t}$  is a Brownian motion and  $S_{t} / S_{t}^{0}$  is a martingale. This is one of the fundamental properties of the stochastic process needed in the following. The process  $S_{t}$  satisfies the following stochastic differential equation (SDE) under  $\mathbb{P}$ :
 
-$$ d S _ {t} = S _ {t} \left(r d t + \sigma d W _ {t}\right) \tag {1}
+$$ d S_{t} = S_{t} \left(r d t + \sigma d W_{t}\right) \tag {1}
 $$
 
 Let us now consider a portfolio with  $H_{t}$  risky assets and  $H_{t}^{0}$  no-risk assets. Its value at time  $t$  is:
 
 $$
-P _ {t} = H _ {t} S _ {t} + H _ {t} ^ {0} S _ {t} ^ {0} \tag {2}
+P_{t} = H_{t} S_{t} + H_{t}^{0} S_{t}^{0} \tag {2}
 $$
 
 We suppose that this portfolio is self-financing (any manipulation on this portfolio, i.e., any change of the values of  $H_{t}$  or  $H_{t}^{0}$ , is done without any inflows or outflows of money), which translates into
 
-$$ d P _ {t} = H _ {t} d S _ {t} + H _ {t} ^ {0} d S _ {t} ^ {0} \tag {3}
+$$ d P_{t} = H_{t} d S_{t} + H_{t}^{0} d S_{t}^{0} \tag {3}
 $$
 
 The value of a self-financing portfolio changes if and only if the price of the risky asset changes.
@@ -67,31 +67,31 @@ Using (3), it is possible to show that  $P_{t} / S_{t}^{0}$  is also a martingal
 We consider the following problem: For a given function  $\phi$  (the payoff function) and a given time  $T > 0$  (the maturity), is it possible to build a self-financing portfolio such that  $P_{T} = \phi(S_{T})$ ? Classical examples of function  $\phi$  are  $\phi(S) = (S - K)_{+}$  (vanilla call) or  $\phi(S) = (S - K)_{-}$  (vanilla put), where, for any real  $x$ ,  $x_{+} = \max(x, 0)$  and  $x_{-} = \max(-x, 0)$ . The answer is positive (this is typically based on a martingale representation theorem, the fact that  $P_{t} / S_{t}^{0}$  is a martingale, and the fact that the payoff  $\phi(S_{T})$  is  $\mathcal{F}_{T}$ -measurable), and it is then possible to show that such a portfolio has the following value at time  $t$ :
 
 $$
-P _ {t} = \mathbb {E} \left(\exp \left(- \int_ {t} ^ {T} r d s\right) \phi \left(S _ {T}\right) \mid \mathcal {F} _ {t}\right) \tag {4}
+P_{t} = \mathbb {E} \left(\exp \left(- \int_{t}^{T} r d s\right) \phi \left(S_{T}\right) \mid \mathcal {F}_{t}\right) \tag {4}
 $$ where here and in the following,  $\mathbb{E}$  denotes an expectation with respect to the risk-neutral probability  $\mathbb{P}$ . By the so-called arbitrage-free principle,  $P_{t}$  is actually the "fair price" at time  $t$  of the option, which enables its owner to get the payoff  $\phi (S_T)$  at time  $T$ . In the particular context of vanilla options, the solution is analytically known, at least if  $r$  and  $\sigma$  are constant: This is the celebrated Black and Scholes formula. However, in the case when  $r$  and  $\sigma$  are functions of  $t$  and  $S$ , (4) cannot be estimated without a numerical method. We are interested in deterministic numerical methods, based on a PDE related to (4).
 
 
 The second fundamental property of the stochastic process  $S_{t}$  required to obtain a PDE formulation of this problem is a Markov property. Roughly speaking, it states that the expectation of any function of  $(S_{t})_{0\leq t\leq T}$  conditionally to  $\mathcal{F}_t$  is actually a function of the price  $S_{t}$  of the risky asset at time  $t$ . In our context, this property shows that  $P_{t}$  writes
 
 $$
-P _ {t} = p (t, S _ {t}) \tag {5}
+P_{t} = p (t, S_{t}) \tag {5}
 $$ where  $p$  is a function of  $t\in [0,T]$  and  $S\in [0,\infty)$ , called the pricing function of the option. Notice that even if (5) only involves the value of  $p$  at
 
 
 point  $(t, S_t)$ , the pricing function  $p$  is a deterministic function defined for all values of  $t \geq 0$  and  $S \geq 0$ . By the Markov property of  $S_t$ , we also have the following representation formula for  $p$ :
 
-$$ p (t, x) = \mathbb {E} \left(\exp \left(- \int_ {t} ^ {T} r d s\right) \phi \left(S _ {T} ^ {t, x}\right)\right) \tag {6}
+$$ p (t, x) = \mathbb {E} \left(\exp \left(- \int_{t}^{T} r d s\right) \phi \left(S_{T}^{t, x}\right)\right) \tag {6}
 $$ where  $(S_{\theta}^{t,x})_{t\leq \theta \leq T}$  denotes the process solution to (1) starting from  $x$  at time  $t$
 
 
 $$
-\left\{ \begin{array}{l} d S _ {\theta} ^ {t, x} = S _ {\theta} ^ {t, x} \left(r d \theta + \sigma d W _ {\theta}\right), \quad \theta \geq t, \\ S _ {t} ^ {t, x} = x \end{array} \right. \tag {7}
+\left\{ \begin{array}{l} d S_{\theta}^{t, x} = S_{\theta}^{t, x} \left(r d \theta + \sigma d W_{\theta}\right), \quad \theta \geq t, \\ S_{t}^{t, x} = x \end{array} \right. \tag {7}
 $$
 
 By using Ito's calculus and the fact that  $P_{t} / S_{t}^{0}$  is a martingale, we then obtain that  $p$  should satisfy the following backward-in-time PDE:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + r S \frac {\partial p}{\partial S} + \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial^ {2} p}{\partial S ^ {2}} - r p = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {8}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + r S \frac{\partial p}{\partial S} + \frac{\sigma^{2} S^{2}}{2} \frac{\partial^{2} p}{\partial S^{2}} - r p = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {8}
 $$
 
 Conversely, it is possible (using again a martingale representation theorem) to show that if  $p$  satisfies (8), then  $p(t, S_t)$  is the value of a self-financing portfolio with value  $\phi(S_T)$  at time  $T$ . Moreover, one can check that  $\frac{\partial p}{\partial S}(t, S_t) = H_t$ , which shows that obtaining an accurate approximation of  $\frac{\partial p}{\partial S}$  is important in order to estimate the quantity of risky asset  $H_t$  needed at time  $t$  to build the portfolio with value  $P_t$  (this is the hedging strategy). Collectively, equations (4)-(5) and (8) provide an example of so-called Feynman-Kac formulas, which are used in many other contexts (quantum chemistry or transport equations, for example) either to give a probabilistic interpretation to a PDE, or to recast the computation of an expectation into a PDE problem.
@@ -113,12 +113,12 @@ The argument presented for the Black-Scholes model is prototypical. In particula
 In many cases, the payoff of the option depends on the values of more than one asset, which typically do not evolve independently. Let us, for example, consider the case of two assets, which evolve following the following SDE under the neutral risk probability
 
 $$
-\left\{ \begin{array}{l} d S _ {t} ^ {1} = S _ {t} ^ {1} \left(r   d t + \sigma_ {1} d W _ {t} ^ {1}\right) \\ d S _ {t} ^ {2} = S _ {t} ^ {2} \left(r   d t + \sigma_ {2} d W _ {t} ^ {2}\right) \end{array} \right.
+\left\{ \begin{array}{l} d S_{t}^{1} = S_{t}^{1} \left(r   d t + \sigma_{1} d W_{t}^{1}\right) \\ d S_{t}^{2} = S_{t}^{2} \left(r   d t + \sigma_{2} d W_{t}^{2}\right) \end{array} \right.
 $$ where  $W_{t}^{1}$  and  $W_{t}^{2}$  are possibly correlated standard Brownian motions. We call  $\rho$  the correlation of  $W_{t}^{1}$  and  $W_{t}^{2}:d\langle W_{1},W_{2}\rangle_{t} = \rho dt$ . We suppose that the maturity is  $T > 0$  and the payoff is  $\phi (S_T^1,S_T^2)$ , where  $\phi$  is a given function. It is then possible to show that the price of the option at time  $t$  is  $p(t,S_t^1,S_t^2)$  where  $p$  satisfies
 
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + r S _ {1} \frac {\partial p}{\partial S _ {1}} + r S _ {2} \frac {\partial p}{\partial S _ {2}} + \frac {\sigma_ {1} ^ {2} S _ {1} ^ {2}}{2} \frac {\partial^ {2} p}{\partial S _ {1} ^ {2}} \\ \quad + \frac {\sigma_ {2} ^ {2} S _ {2} ^ {2}}{2} \frac {\partial^ {2} p}{\partial S _ {2} ^ {2}} + \rho \sigma_ {1} \sigma_ {2} S _ {1} S _ {2} \frac {\partial^ {2} p}{\partial S _ {1} \partial S _ {2}} - r p = 0, \\ p (T, S _ {1}, S _ {2}) = \phi (S _ {1}, S _ {2}) \end{array} \right. \tag {9}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + r S_{1} \frac{\partial p}{\partial S_{1}} + r S_{2} \frac{\partial p}{\partial S_{2}} + \frac{\sigma_{1}^{2} S_{1}^{2}}{2} \frac{\partial^{2} p}{\partial S_{1}^{2}} \\ \quad + \frac{\sigma_{2}^{2} S_{2}^{2}}{2} \frac{\partial^{2} p}{\partial S_{2}^{2}} + \rho \sigma_{1} \sigma_{2} S_{1} S_{2} \frac{\partial^{2} p}{\partial S_{1} \partial S_{2}} - r p = 0, \\ p (T, S_{1}, S_{2}) = \phi (S_{1}, S_{2}) \end{array} \right. \tag {9}
 $$
 
 Here again,  $r$ ,  $\sigma_{1}$ , and  $\sigma_{2}$  may be functions of  $t$  and  $(S_{1}, S_{2})$ . It is possible to solve such PDEs by standard numerical methods up to dimension 3 or 4. As discussed later, to derive appropriate discretization for higher dimensions is not an easy task and is still the subject of current research.
@@ -130,7 +130,7 @@ Again, let us consider an option on a single asset. For some options, the payoff
 $x\wedge y = \inf (x,y)$  .It can be checked that  $S_{t\wedge \tau}$  is a Markov process, and that  $S_{t\wedge \tau} / S_{t\wedge \tau}^{0}$  is a martingale. It is then possible to show that the price of the option at time  $t$  is  $p(t\wedge \tau ,S_{t\wedge \tau})$  where  $p$  is defined for  $t\in [0,T]$  and  $S\in [a,b]$  and satisfies:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + r S \frac {\partial p}{\partial S} + \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial^ {2} p}{\partial S ^ {2}} - r p = 0, \\ p (T, S) = \phi (S), \\ p (t, a) = p (t, b) = 0 \end{array} \right. \tag {10}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + r S \frac{\partial p}{\partial S} + \frac{\sigma^{2} S^{2}}{2} \frac{\partial^{2} p}{\partial S^{2}} - r p = 0, \\ p (T, S) = \phi (S), \\ p (t, a) = p (t, b) = 0 \end{array} \right. \tag {10}
 $$
 
 Here again,  $r$  and  $\sigma$  may be functions of  $t$  and  $S$ . Moreover, the generalization to basket options is straightforward, as explained above. In this case, it is possible to consider more general barriers, namely a payoff of the form  $1_{\forall t \in [0,T], (S_t^1, S_t^2, \dots, S_t^d) \in \mathcal{D}} \phi(S_T)$ , where  $d$  denotes the number of underlying assets and  $\mathcal{D}$  is any simple connected domain of  $\mathbb{R}^d$ . The appropriate discretization for general domains  $\mathcal{D}$  is the finite element method that will be discussed later on.
@@ -140,14 +140,14 @@ Here again,  $r$  and  $\sigma$  may be functions of  $t$  and  $S$ . Moreover, 
 For some options (the so-called lookback options), the payoff involves the maximum of the risky asset. For example, it writes  $\phi(S_T, M_T)$  where  $M_t = \max_{0 \leq r \leq t} S_r$  and  $S_t$  satisfies (1). One can check that  $(S_t, M_t)$  is a Markov process. It is then possible to show that the price of the option at time  $t$  is  $p(t, S_t, M_t)$  where  $p$  is defined for  $t \in [0, T]$  and  $(S, M) \in \{(S, M) \in \mathbb{R}^2, 0 \leq S \leq M\}$  and satisfies:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + \frac {\sigma^ {2}}{2} S ^ {2} \frac {\partial^ {2} p}{\partial S ^ {2}} + r S \frac {\partial p}{\partial S} - r p = 0, \\ p (T, S, M) = \phi (S, M), \\ \frac {\partial p}{\partial M} (t, S, S) = 0 \end{array} \right. \tag {11}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + \frac{\sigma^{2}}{2} S^{2} \frac{\partial^{2} p}{\partial S^{2}} + r S \frac{\partial p}{\partial S} - r p = 0, \\ p (T, S, M) = \phi (S, M), \\ \frac{\partial p}{\partial M} (t, S, S) = 0 \end{array} \right. \tag {11}
 $$
 
 If the payoff is of the form  $\phi (S,M) = M\tilde{\phi} (S / M)$  it is possible to reduce the problem to a two-dimensional one (including the time variable). Indeed, one can check by straightforward computations that  $p(t,S,M) = Mw(t,S / M)$  where  $w$  is a function of  $t\in [0,T]$  and  $\xi \in [0,1]$ , which satisfies:
 
 
 $$
-\left\{ \begin{array}{l} \frac {\partial w}{\partial t} + \frac {\sigma^ {2}}{2} \xi^ {2} \frac {\partial^ {2} w}{\partial \xi^ {2}} + r \xi \frac {\partial w}{\partial \xi} - r w = 0, \\ w (T, \xi) = \tilde {\phi} (\xi), \\ \frac {\partial w}{\partial \xi} (t, 1) = w (t, 1) \end{array} \right. \tag {12}
+\left\{ \begin{array}{l} \frac{\partial w}{\partial t} + \frac{\sigma^{2}}{2} \xi^{2} \frac{\partial^{2} w}{\partial \xi^{2}} + r \xi \frac{\partial w}{\partial \xi} - r w = 0, \\ w (T, \xi) = \tilde {\phi} (\xi), \\ \frac{\partial w}{\partial \xi} (t, 1) = w (t, 1) \end{array} \right. \tag {12}
 $$
 
 Notice that this reduction is not generally possible for  $(t, S, M)$ -dependent interest rate and volatility (except for very peculiar dependencies).
@@ -157,13 +157,13 @@ Notice that this reduction is not generally possible for  $(t, S, M)$ -dependent
 Some options (the so-called Asian options) involve the average of the risky asset. More precisely, the payoff writes  $\phi(S_T, A_T)$  where  $A_t = \frac{1}{t} \int_0^t S_r dr$  and  $S_t$  satisfies (1). One can check that  $(S_t, A_t)$  is a Markov process. Using this property, it is possible to show that the price of the option at time  $t$  is  $p(t, S_t, A_t)$  where  $p$  is defined for  $t \in [0, T]$  and  $(S, A) \in [0, \infty)^2$ , and  $p$  satisfies:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial^ {2} p}{\partial S ^ {2}} + r S \frac {\partial p}{\partial S} \\ \quad + \frac {1}{t} (S - A) \frac {\partial p}{\partial A} - r V = 0, \\ p (T, S, A) = \phi (S, A) \end{array} \right. \tag {13}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + \frac{\sigma^{2} S^{2}}{2} \frac{\partial^{2} p}{\partial S^{2}} + r S \frac{\partial p}{\partial S} \\ \quad + \frac{1}{t} (S - A) \frac{\partial p}{\partial A} - r V = 0, \\ p (T, S, A) = \phi (S, A) \end{array} \right. \tag {13}
 $$
 
 In some cases (see Rogers and Shi, 1995), it is possible to reduce this problem to a one-dimensional PDE. More precisely, for fixed strike call  $(\phi(S, A) = (A - K)_+)$  or fixed strike put  $(\phi(S, A) = (K - A)_+)$ , we have  $p(t, S, A) = Sf(t, \frac{K - tA / T}{S})$  where  $f$  satisfies
 
 $$
-\left\{ \begin{array}{l} \frac {\partial f}{\partial t} + \frac {\sigma^ {2} \xi^ {2}}{2} \frac {\partial^ {2} f}{\partial \xi^ {2}} - \left(\frac {1}{T} + r \xi\right) \frac {\partial f}{\partial \xi} = 0, \\ f (T, \xi) = \tilde {\phi} (\xi) \end{array} \right. \tag {14}
+\left\{ \begin{array}{l} \frac{\partial f}{\partial t} + \frac{\sigma^{2} \xi^{2}}{2} \frac{\partial^{2} f}{\partial \xi^{2}} - \left(\frac{1}{T} + r \xi\right) \frac{\partial f}{\partial \xi} = 0, \\ f (T, \xi) = \tilde {\phi} (\xi) \end{array} \right. \tag {14}
 $$ and  $\tilde{\phi} (\xi) = \xi_{-}$  (resp.  $\tilde{\phi} (\xi) = \xi_{+})$  . This reduction of (13) to (14) is also possible for floating strike call  $(\phi (S,A) = (S - A)_{+})$  (resp. for floating strike put  $(\phi (S,A) = (A - S)_{+}))$  by setting  $p(t,S,A) = Sf(t, - \frac{tA}{TS})$  and  $\tilde{\phi} (\xi) = (1 + \xi)_+$  (resp.  $\tilde{\phi} (\xi) = (1 + \xi)_{-})$  . However, this reduction
 
 
@@ -177,7 +177,7 @@ As a transition between European and American options, we would like to mention 
 
 We have so far presented so-called European options, that is, some options that enable their owners to get  $\phi(S_T)$  at a fixed time  $T$ . On the other hand, American options can be exercised at any time up to the maturity. Hence the price of an American option of payoff  $\phi$  and maturity  $T$  will be the maximum of all possible expectations such as (6) for stopping times  $\tau$  between  $t$  and  $T$ , that is, for  $t \in [0, T]$  and  $x \geq 0$ ,
 
-$$ p (t, x) = \sup  _ {\tau \in \mathcal {T} _ {[ t, T ]}} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d S} \phi \left(S _ {\tau} ^ {t, x}\right)\right) \tag {15}
+$$ p (t, x) = \sup_{\tau \in \mathcal {T}_{[ t, T ]}} \mathbb {E} \left(e^{- \int_{t}^{\tau} r d S} \phi \left(S_{\tau}^{t, x}\right)\right) \tag {15}
 $$ where  $\mathcal{T}_{[t,T]}$  denotes the set of stopping times  $\tau$  of the filtration  $\mathcal{F}_t$ , with values in  $[t,T]$ .
 
 
@@ -195,46 +195,46 @@ Moreover, we clearly have from (15)  $p(T,x) = \phi (x)$
 Let  $t$  and  $\delta t$  be such that  $0\leq t\leq t + \delta t\leq T$  From (15) we have:
 
 $$
-\begin{array}{l} e ^ {- \int_ {0} ^ {t + \delta t} r d s} p (t + \delta t, S _ {t + \delta t} ^ {t, x}) \\ = \sup  _ {\tau \in \mathcal {T} _ {[ t + \delta t, T ]}} \mathbb {E} \left(e ^ {- \int_ {0} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t + \delta t, S _ {t + \delta t} ^ {t, x}}\right)\right), \\ \leq \sup  _ {\tau \in \mathcal {T} _ {[ t, T ]} ^ {t}} \mathbb {E} \left(e ^ {- \int_ {0} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right)\right), \\ \leq e ^ {- \int_ {0} ^ {t} r d s} p (t, x) \\ \end{array}
+\begin{array}{l} e^{- \int_{0}^{t + \delta t} r d s} p (t + \delta t, S_{t + \delta t}^{t, x}) \\ = \sup_{\tau \in \mathcal {T}_{[ t + \delta t, T ]}} \mathbb {E} \left(e^{- \int_{0}^{\tau} r d s} \phi \left(S_{\tau}^{t + \delta t, S_{t + \delta t}^{t, x}}\right)\right), \\ \leq \sup_{\tau \in \mathcal {T}_{[ t, T ]}^{t}} \mathbb {E} \left(e^{- \int_{0}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right)\right), \\ \leq e^{- \int_{0}^{t} r d s} p (t, x) \\ \end{array}
 $$ where we have used the fact that:  $S_{\tau}^{t + \delta t, S_{t + \delta t}^{t,x}} = S_{\tau}^{t,x}$ . By Ito's calculus (taking the limit  $\delta t \rightarrow 0$ ), we thus obtain
 
 
 $$
-- \frac {\partial p}{\partial t} + \mathcal {A} p \geq 0 \tag {17}
+- \frac{\partial p}{\partial t} + \mathcal {A} p \geq 0 \tag {17}
 $$ where we have introduced the linear PDE operator
 
 
 $$
-\mathcal {A} p = - r S \frac {\partial p}{\partial S} - \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial^ {2} p}{\partial S ^ {2}} + r p \tag {18}
+\mathcal {A} p = - r S \frac{\partial p}{\partial S} - \frac{\sigma^{2} S^{2}}{2} \frac{\partial^{2} p}{\partial S^{2}} + r p \tag {18}
 $$
 
 Combined with (16), we then obtain
 
 $$
-\min  \left(- \frac {\partial p}{\partial t} + \mathcal {A} p, p - \phi\right) \geq 0 \tag {19}
+\min  \left(- \frac{\partial p}{\partial t} + \mathcal {A} p, p - \phi\right) \geq 0 \tag {19}
 $$
 
 Our aim is now to show that the inequality in (19) is actually an equality. This is done in several steps, and requires us to identify an optimal stopping time  $\tau^{*}$  for which the supremum in (15) is obtained. For a fixed  $(t,x)$ , let us introduce the stopping time  $\tau^{*} \in T_{[t,T]}$  defined by
 
 $$
-\tau^ {*} = \inf  \left\{\theta \geq t, p \left(\theta , S _ {\theta} ^ {t, x}\right) = \phi \left(S _ {\theta} ^ {t, x}\right) \right\}, a. s. \tag {20}
+\tau^{*} = \inf  \left\{\theta \geq t, p \left(\theta , S_{\theta}^{t, x}\right) = \phi \left(S_{\theta}^{t, x}\right) \right\}, a. s. \tag {20}
 $$
 
 (notice that  $\tau^{*}\leq T$  since  $p(T,x) = \phi (x)$ ). It can be shown (see Appendix) that
 
 $$
-\begin{array}{l} p (t, x) = \mathbb {E} \left(e ^ {- f _ {t} ^ {\tau^ {*}} r} d s \phi \left(S _ {\tau^ {*}} ^ {t, x}\right)\right) \\ = \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau^ {*}} r d s} p \left(\tau^ {*}, S _ {\tau^ {*}} ^ {t, x}\right)\right) \tag {21} \\ \end{array}
+\begin{array}{l} p (t, x) = \mathbb {E} \left(e^{- f_{t}^{\tau^{*}} r} d s \phi \left(S_{\tau^{*}}^{t, x}\right)\right) \\ = \mathbb {E} \left(e^{- \int_{t}^{\tau^{*}} r d s} p \left(\tau^{*}, S_{\tau^{*}}^{t, x}\right)\right) \tag {21} \\ \end{array}
 $$
 
 Using a decreasing property (65) proved in the Appendix, one then obtains that for any  $\delta t > 0$ ,
 
 $$
-\begin{array}{l} p (t, x) = \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau_ {\delta t} ^ {*}} r d s} p \left(\tau_ {\delta t} ^ {*}, S _ {\tau_ {\delta t} ^ {*}} ^ {t, x}\right)\right), \\ \text {w h e r e} \tau_ {\delta t} ^ {*} = (t + \delta t) \wedge \tau^ {*} \tag {22} \\ \end{array}
+\begin{array}{l} p (t, x) = \mathbb {E} \left(e^{- \int_{t}^{\tau_{\delta t}^{*}} r d s} p \left(\tau_{\delta t}^{*}, S_{\tau_{\delta t}^{*}}^{t, x}\right)\right), \\ \text{wh er e} \tau_{\delta t}^{*} = (t + \delta t) \wedge \tau^{*} \tag {22} \\ \end{array}
 $$
 
 This can be seen as a dynamic programming principle (or Bellman's principle). For a European option we would have more simply
 
-$$ p (t, x) = \mathbb {E} \left(e ^ {- \int_ {t} ^ {t + \delta t} r d s} p \left(t + \delta t, S _ {t + \delta t} ^ {t, x}\right)\right)
+$$ p (t, x) = \mathbb {E} \left(e^{- \int_{t}^{t + \delta t} r d s} p \left(t + \delta t, S_{t + \delta t}^{t, x}\right)\right)
 $$
 
 Now if we suppose that  $p(t,x) > \phi (x)$ , then for any  $\delta t > 0$  we have  $\mathbb{P}(\tau_{\delta t}^{*} > t) = 1$ . Considering Ito's formula in (22), and by (17), we obtain  $(-\frac{\partial p}{\partial t} +\mathcal{A}p)(\theta ,S_{\theta}^{t,x}) = 0$  for  $t\leq \theta \leq \tau_{\delta t}^{*}$ , thus leading to  $(-\frac{\partial p}{\partial t} +\mathcal{A}p)(t,x) = 0$ . This shows that the inequality in (19) is actually an equality.
@@ -242,7 +242,7 @@ Now if we suppose that  $p(t,x) > \phi (x)$ , then for any  $\delta t > 0$  we h
 Hence the PDE for the American option is
 
 $$
-\left\{ \begin{array}{l} \min  \left(- \frac {\partial p}{\partial t} + \mathcal {A} p, p - \phi\right) = 0, \\ t \in [ 0, T ], x \geq 0, \\ p (T, x) = \phi (x), \quad x \geq 0 \end{array} \right. \tag {23}
+\left\{ \begin{array}{l} \min  \left(- \frac{\partial p}{\partial t} + \mathcal {A} p, p - \phi\right) = 0, \\ t \in [ 0, T ], x \geq 0, \\ p (T, x) = \phi (x), \quad x \geq 0 \end{array} \right. \tag {23}
 $$ where  $\mathcal{A}$  is defined by (18). The major difference between the PDE (23) for American options and the PDE (8) for European options is that (23) is a nonlinear equation. This makes the theory of existence and uniqueness as well as the numerical approximation more difficult than for European options.
 
 
@@ -262,7 +262,7 @@ We first present the simplest approach to discretize a PDE: the finite differenc
 Let us introduce the finite difference method on the simple PDE (8). Let us first concentrate on the discretization of (8) with respect to the variable  $S$ . The principle is to divide the interval  $[0, S_{\max}]$  into  $I$  intervals of length  $\delta S = S_{\max} / I$  (where  $S_{\max}$  has to be chosen large enough, see below), and to approximate the derivatives by finite differences. A possible semidiscretization of (8) is: for  $i \in \{0, 1, \dots, I\}$ ,
 
 $$
-\left\{ \begin{array}{l} \frac {\partial P _ {i}}{\partial t} + r S _ {i} \frac {P _ {i + 1} - P _ {i - 1}}{2 \delta S} \\ + \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} - 2 P _ {i} + P _ {i - 1}}{\delta S ^ {2}} - r P _ {i} = 0, \\ P _ {i} (T) = \phi \left(S _ {i}\right) \end{array} \right. \tag {24}
+\left\{ \begin{array}{l} \frac{\partial P_{i}}{\partial t} + r S_{i} \frac{P_{i + 1} - P_{i - 1}}{2 \delta S} \\ + \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1} - 2 P_{i} + P_{i - 1}}{\delta S^{2}} - r P_{i} = 0, \\ P_{i} (T) = \phi \left(S_{i}\right) \end{array} \right. \tag {24}
 $$ where  $S_{i} = i\delta S$  denotes the  $i$ -th discretization point, and  $P_{i}(t)$  is intended to be an approximation of  $p(t,S_i)$ . Now, (24) is a system of coupled ordinary differential equations (ODEs). The generalization to the case of a time and spot dependent  $r$  or  $\sigma$  is straightforward.
 
 
@@ -273,12 +273,12 @@ $S = S_{\mathrm{max}}$ . Indeed, (24) taken at  $i = I$  involves  $P_{I + 1}$  
 Let us now consider the time discretization. Here again, the idea is to divide the time interval  $[0,T]$  into  $N$  intervals of length  $\delta t = T / N$  and to replace the time derivative by a finite difference. Three numerical methods are classically used:
 
 $$
-\begin{array}{l} \left\{ \begin{array}{l} \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + r S _ {i} \frac {P _ {i + 1} ^ {n + 1} - P _ {i - 1} ^ {n + 1}}{2 \delta S} \\ + \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} ^ {n + 1} - 2 P _ {i} ^ {n + 1} + P _ {i - 1} ^ {n + 1}}{\delta S ^ {2}} - r P _ {i} ^ {n + 1} = 0, \\ P _ {i} ^ {N} = \phi \left(S _ {i}\right) \end{array} \right. (25) \\ \left\{ \begin{array}{l} \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + r S _ {i} \frac {P _ {i + 1} ^ {n} - P _ {i - 1} ^ {n}}{2 \delta S} \\ + \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} ^ {n} - 2 P _ {i} ^ {n} + P _ {i - 1} ^ {n}}{\delta S ^ {2}} - r P _ {i} ^ {n} = 0, \\ P _ {i} ^ {N} = \phi \left(S _ {i}\right) \end{array} \right. (26) \\ \end{array}
+\begin{array}{l} \left\{ \begin{array}{l} \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + r S_{i} \frac{P_{i + 1}^{n + 1} - P_{i - 1}^{n + 1}}{2 \delta S} \\ + \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1}^{n + 1} - 2 P_{i}^{n + 1} + P_{i - 1}^{n + 1}}{\delta S^{2}} - r P_{i}^{n + 1} = 0, \\ P_{i}^{N} = \phi \left(S_{i}\right) \end{array} \right. (25) \\ \left\{ \begin{array}{l} \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + r S_{i} \frac{P_{i + 1}^{n} - P_{i - 1}^{n}}{2 \delta S} \\ + \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1}^{n} - 2 P_{i}^{n} + P_{i - 1}^{n}}{\delta S^{2}} - r P_{i}^{n} = 0, \\ P_{i}^{N} = \phi \left(S_{i}\right) \end{array} \right. (26) \\ \end{array}
 $$ or
 
 
 $$
-\left\{ \begin{array}{l} \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + \frac {1}{2} \left(r S _ {i} \frac {P _ {i + 1} ^ {n + 1} - P _ {i - 1} ^ {n + 1}}{2 \delta S} \right. \\ \left. + \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} ^ {n + 1} - 2 P _ {i} ^ {n + 1} + P _ {i - 1} ^ {n + 1}}{\delta S ^ {2}} - r P _ {i} ^ {n + 1} \right. \\ \left. + r S _ {i} \frac {P _ {i + 1} ^ {n} - P _ {i - 1} ^ {n}}{2 \delta S} + \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} ^ {n} - 2 P _ {i} ^ {n} + P _ {i - 1} ^ {n}}{\delta S ^ {2}} \right. \\ \left. - r P _ {i} ^ {n}\right) = 0, \\ P _ {i} ^ {N} = \phi (S _ {i}) \end{array} \right. \tag {27}
+\left\{ \begin{array}{l} \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + \frac{1}{2} \left(r S_{i} \frac{P_{i + 1}^{n + 1} - P_{i - 1}^{n + 1}}{2 \delta S} \right. \\ \left. + \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1}^{n + 1} - 2 P_{i}^{n + 1} + P_{i - 1}^{n + 1}}{\delta S^{2}} - r P_{i}^{n + 1} \right. \\ \left. + r S_{i} \frac{P_{i + 1}^{n} - P_{i - 1}^{n}}{2 \delta S} + \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1}^{n} - 2 P_{i}^{n} + P_{i - 1}^{n}}{\delta S^{2}} \right. \\ \left. - r P_{i}^{n}\right) = 0, \\ P_{i}^{N} = \phi (S_{i}) \end{array} \right. \tag {27}
 $$ where  $P_{i}^{n}$  is intended to be an approximation of  $p(t_{n},S_{i})$ , with  $t_n = n\delta t$ . Notice that using the discretization scheme (25) (the so-called explicit Euler scheme), the values of  $(P_i^n)_{0\leq i\leq I}$  are explicitly obtained from the values of  $(P_{i}^{n + 1})_{0\leq i\leq I}$ . On the contrary, in the two other schemes (26) (implicit Euler scheme) or (27) (Crank-Nicolson scheme), the values of  $(P_i^n)_{0\leq i\leq I}$  are obtained from the values of  $(P_i^{n + 1})_{0\leq i\leq I}$  through the resolution of a linear system, which is more demanding from the computational viewpoint. Various numerical methods can be used for solving this linear system; here, we cannot describe them in detail. Let us simply mention that basically, there exist two classes of methods: the direct methods, which are based on Gaussian elimination, and the iterative methods, which consist of computing the solution as the limit of a sequence of approximations and which only require matrix-vector multiplications. The method of choice depends on the characteristics of the problem.
 
 
@@ -312,7 +312,7 @@ Before presenting an extension of this discretization method to Asian options, w
 We now present a less easy implementation of a finite difference method for pricing Asian options (see Dubois and Lelièvre, 2005). More precisely, we focus on computing numerical solutions to (14) for a fixed strike call:
 
 $$
-\tilde {\phi} (\xi) = \xi_ {-} \tag {28}
+\tilde {\phi} (\xi) = \xi_{-} \tag {28}
 $$
 
 We have seen in the previous section that a simple finite difference scheme leads to very satisfactory results when computing the solution of the classical Black-Scholes equation (8). On the other hand, when one uses a simple finite difference scheme on (14), very bad results are obtained, especially when the volatility  $\sigma$  is small (see Table 1 in Dubois and Lelièvre, 2005). These bad results are due to the fact that when  $\xi$  is close to zero, the advection term  $(\frac{1}{T} + r\xi)$  is much larger than the diffusion term  $\sigma^2\xi^2 / 2$  in (14). This is known to deteriorate the stability of the numerical scheme, particularly with respect to the  $L^\infty$ -norm. In practice, the numerical solution exhibits some oscillations and does not satisfy the discrete maximum principle. Moreover, the finite difference method introduces numerical diffusion, which leads to unsatisfactory results for purely advective equations.
@@ -331,18 +331,18 @@ $$
 One can easily show that  $g$  is solution of:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial g}{\partial t} + \frac {\sigma^ {2} (x - t / T) ^ {2}}{2} \frac {\partial^ {2} g}{\partial x ^ {2}} - r (x - t / T) \frac {\partial g}{\partial x} = 0, \\ g (T, x) = \tilde {\phi} (x - 1) = (1 - x) _ {+} \end{array} \right. \tag {30}
+\left\{ \begin{array}{l} \frac{\partial g}{\partial t} + \frac{\sigma^{2} (x - t / T)^{2}}{2} \frac{\partial^{2} g}{\partial x^{2}} - r (x - t / T) \frac{\partial g}{\partial x} = 0, \\ g (T, x) = \tilde {\phi} (x - 1) = (1 - x)_{+} \end{array} \right. \tag {30}
 $$
 
 The PDE (30) satisfied by  $g$  is such that when the advection term  $r(x - t / T)$  is small, the diffusion term  $\frac{\sigma^2(x - t / T)^2}{2}$  is also small. As shown below, a finite difference scheme applied to (30) will indeed lead to satisfactory results.
 
 An important property of the solution to (30) for  $\tilde{\phi} (\xi) = \xi_{-}$  is that (see Rogers and Shi, 1995)  $\forall \xi \leq 0$
 
-$$ f (t, \xi) = \frac {1}{r T} \left(1 - e ^ {- r (T - t)}\right) - \xi e ^ {- r (T - t)} \tag {31}
+$$ f (t, \xi) = \frac{1}{r T} \left(1 - e^{- r (T - t)}\right) - \xi e^{- r (T - t)} \tag {31}
 $$ and therefore,  $\forall x\leq t / T$
 
 
-$$ g (t, x) = \frac {1}{r T} \left(1 - e ^ {- r (T - t)}\right) - (x - t / T) e ^ {- r (T - t)} \tag {32}
+$$ g (t, x) = \frac{1}{r T} \left(1 - e^{- r (T - t)}\right) - (x - t / T) e^{- r (T - t)} \tag {32}
 $$
 
 To prove (31), one can notice that  $f$  given by (31) is the solution to (14) with  $\phi(\xi) = -\xi$ , and that, due to the fact that the diffusion term is null for  $\xi = 0$  and that the advection term is negative, the solution to (14) for  $\phi(\xi) = \xi_{-}$  on  $\xi \leq 0$  is the same as the solution to (14) for  $\phi(\xi) = -\xi$  on  $\xi \leq 0$ .
@@ -380,28 +380,28 @@ To derive a variational formulation of (8), the principle is to multiply the equ
 
 
 $$
-\left\{ \begin{array}{l} \frac {d}{d t} \int_ {0} ^ {\infty} p q - \int_ {0} ^ {\infty} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial S} \\ + \int_ {0} ^ {\infty} \left(r - \sigma^ {2} - S \sigma \frac {\partial \sigma}{\partial S}\right) S \frac {\partial p}{\partial S} q \\ - r \int_ {0} ^ {\infty} p q = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {33}
+\left\{ \begin{array}{l} \frac{d}{d t} \int_{0}^{\infty} p q - \int_{0}^{\infty} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial S} \\ + \int_{0}^{\infty} \left(r - \sigma^{2} - S \sigma \frac{\partial \sigma}{\partial S}\right) S \frac{\partial p}{\partial S} q \\ - r \int_{0}^{\infty} p q = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {33}
 $$
 
 All the integrals are with respect to  $S \in [0, \infty)$ . This rewrites: Find  $p \in L^2((0, T), V) \cap \mathcal{C}^0([0, T], H)$  such that for all  $q \in V$ ,
 
 $$
-\left\{ \begin{array}{l} \frac {d}{d t} \int_ {0} ^ {\infty} p q - a (p, q) = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {34}
+\left\{ \begin{array}{l} \frac{d}{d t} \int_{0}^{\infty} p q - a (p, q) = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {34}
 $$ where  $a$  is the bilinear form
 
 
 $$
-\begin{array}{l} a (p, q) = \int_ {0} ^ {\infty} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial S} \\ - \int_ {0} ^ {\infty} \left(r - \sigma^ {2} - S \sigma \frac {\partial \sigma}{\partial S}\right) S \frac {\partial p}{\partial S} q \\ + r \int_ {0} ^ {\infty} p q \tag {35} \\ \end{array}
+\begin{array}{l} a (p, q) = \int_{0}^{\infty} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial S} \\ - \int_{0}^{\infty} \left(r - \sigma^{2} - S \sigma \frac{\partial \sigma}{\partial S}\right) S \frac{\partial p}{\partial S} q \\ + r \int_{0}^{\infty} p q \tag {35} \\ \end{array}
 $$
 
 Under suitable assumptions on the data  $(r,\sigma$  and  $\phi)$  , it is possible to prove that this variational problem is well posed (see Achdou and Pironneau, 2005).
 
-The second step is to introduce a sequence of meshes in the spot variable indexed by the maximal step  $h$  and related finite dimensional functional spaces  $V_{h} \subset V$ . In the case of (33), the problem is posed on an infinite domain, and one needs to first localize the PDE in a finite domain  $[0, S_{\max}]$  by using artificial boundary condition at  $S = S_{\max}$ , as already explained for finite difference discretizations. We consider, for example, a zero Neumann boundary condition on  $S = S_{\max}$ :  $\frac{\partial p}{\partial S}(t, S_{\max}) = 0$ . Then, a mesh of  $[0, S_{\max}]$  consists of a finite number of intervals  $(S_{i}, S_{i+1})$  with  $S_{0} = 0$  and  $S_{I} = S_{\max}$ . We set  $h = \max_{0 \leq i \leq I-1} (S_{i+1} - S_{i})$ . The intervals  $(S_{i}, S_{i+1})$  are called elements. We then need to define a functional space  $V_{h}$  associated with the mesh. A classical example is the  $P1$  finite element space, which contains continuous and piecewise affine functions, namely, continuous functions, which are affine on each interval  $(S_{i}, S_{i+1})$ , for  $0 \leq i \leq I-1$ . In this case, a basis of the vector space  $V_{h}$  is given by the so-called hat functions  $q_{i} \in V_{h}$  such that for  $0 \leq i, j \leq I$ ,  $q_{i}(S_{j}) = \delta_{i,j} = \begin{cases} 0 & \text{if } i \neq j \\ 1 & \text{if } i = j \end{cases} (\delta_{i,j} \text{ is the Kronecker symbol}).$  Notice that higher order finite element methods may be easily obtained by taking continuous and element-wise polynomial functions of degree  $k > 1$ .
+The second step is to introduce a sequence of meshes in the spot variable indexed by the maximal step  $h$  and related finite dimensional functional spaces  $V_{h} \subset V$ . In the case of (33), the problem is posed on an infinite domain, and one needs to first localize the PDE in a finite domain  $[0, S_{\max}]$  by using artificial boundary condition at  $S = S_{\max}$ , as already explained for finite difference discretizations. We consider, for example, a zero Neumann boundary condition on  $S = S_{\max}$ :  $\frac{\partial p}{\partial S}(t, S_{\max}) = 0$ . Then, a mesh of  $[0, S_{\max}]$  consists of a finite number of intervals  $(S_{i}, S_{i+1})$  with  $S_{0} = 0$  and  $S_{I} = S_{\max}$ . We set  $h = \max_{0 \leq i \leq I-1} (S_{i+1} - S_{i})$ . The intervals  $(S_{i}, S_{i+1})$  are called elements. We then need to define a functional space  $V_{h}$  associated with the mesh. A classical example is the  $P1$  finite element space, which contains continuous and piecewise affine functions, namely, continuous functions, which are affine on each interval  $(S_{i}, S_{i+1})$ , for  $0 \leq i \leq I-1$ . In this case, a basis of the vector space  $V_{h}$  is given by the so-called hat functions  $q_{i} \in V_{h}$  such that for  $0 \leq i, j \leq I$ ,  $q_{i}(S_{j}) = \delta_{i,j} = \begin{cases} 0 & \text{if } i \neq j \\ 1 & \text{if } i = j \end{cases} (\delta_{i,j} \text{ istheKroneckersymbol}).$  Notice that higher order finite element methods may be easily obtained by taking continuous and element-wise polynomial functions of degree  $k > 1$ .
 
 The discretization in the spot price variable now simply consists in replacing the functional space  $V$  by the finite dimensional space  $V_{h}$  in (33) or (34) (this is the principle of Galerkin methods): Find  $p_h\in \mathcal{C}^0 ([0,T],V_h)$  such that for all  $q_{h}\in V_{h}$ ,
 
 $$
-\left\{ \begin{array}{l} \frac {d}{d t} \int_ {0} ^ {S _ {\max }} p _ {h} q _ {h} - a \left(p _ {h}, q _ {h}\right) = 0, \\ p _ {h} (T, S) = \phi_ {h} (S) \end{array} \right. \tag {36}
+\left\{ \begin{array}{l} \frac{d}{d t} \int_{0}^{S_{\max }} p_{h} q_{h} - a \left(p_{h}, q_{h}\right) = 0, \\ p_{h} (T, S) = \phi_{h} (S) \end{array} \right. \tag {36}
 $$ where  $\phi_h$  is an approximation of  $\phi$  in the space  $V_h$ , and where the integrals in the bilinear form
 
 
@@ -410,12 +410,12 @@ $a$  are here for  $S \in [0, S_{\max}]$  (see (35)). One can take, for example,
 A fundamental result (the Cea's lemma) states that the norm of  $(p - p_h)$  (the discretization error) is bounded from above by a constant times the infimum of the norm of  $(p - q_h)$ , over all  $q_h \in V_h$  (the best fit error). Using this result, if  $V_h$  gets closer to  $V$  when  $h$  tends to 0, that is, if the best fit error tends to 0 when  $h$  tends to zero, so does the discretization error. In particular, the finite element discretization is thus naturally stable in this norm. A precise meaning for this statement requires us to define the norm and study the best fit error. Let us simply mention that the norms used in this context are related to the  $L^2$ -norm introduced for finite difference schemes. We refer to Achdou and Pironneau (2005) or Quarteroni and Valli (1997) for the details. In our specific example, it is possible to prove that, if the payoff function is regular enough, then
 
 $$
-\| p - p _ {h} \| _ {L ^ {\infty} ([ 0, T ], H)} + \| p - p _ {h} \| _ {L ^ {2} ([ 0, T ], V)} \leq C h
+\| p - p_{h} \|_{L^{\infty} ([ 0, T ], H)} + \| p - p_{h} \|_{L^{2} ([ 0, T ], V)} \leq C h
 $$ and that
 
 
 $$
-\| p - p _ {h} \| _ {L ^ {2} ([ 0, T ], H)} \leq C h ^ {2}
+\| p - p_{h} \|_{L^{2} ([ 0, T ], H)} \leq C h^{2}
 $$
 
 For the discretization in time, the situation is exactly the same as for the finite difference method: One can use the explicit Euler scheme, implicit Euler scheme, or Crank-Nicolson scheme, and the rate of convergence is  $O(\delta t)$  for the Euler schemes and  $O(\delta t^2)$  for the Crank-Nicolson scheme.
@@ -429,7 +429,7 @@ Let us first consider basket options, or basket options with barriers, in dimens
 Let us now consider the case of lookback options whose prices satisfy (11). This is a natural variational formulation of (11) (written here for a constant volatility  $\sigma$ ): Find  $p: \mathcal{D} \to \mathbb{R}$  such that, for all  $q: \mathcal{D} \to \mathbb{R}$ ,
 
 $$
-\begin{array}{l} \frac {d}{d t} \int_ {\mathcal {D}} p q - \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial S} - \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial M} \\ + \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial M} \frac {\partial q}{\partial S} + \int_ {\mathcal {D}} \sigma^ {2} S \frac {\partial p}{\partial M} q \\ + \int_ {\mathcal {D}} \left(r - \sigma^ {2}\right) S \frac {\partial p}{\partial S} q - r \int_ {\mathcal {D}} p q = 0, \\ \end{array}
+\begin{array}{l} \frac{d}{d t} \int_{\mathcal {D}} p q - \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial S} - \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial M} \\ + \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial M} \frac{\partial q}{\partial S} + \int_{\mathcal {D}} \sigma^{2} S \frac{\partial p}{\partial M} q \\ + \int_{\mathcal {D}} \left(r - \sigma^{2}\right) S \frac{\partial p}{\partial S} q - r \int_{\mathcal {D}} p q = 0, \\ \end{array}
 $$
 
 $$ p (T, S, M) = \phi (S, M) \tag {37}
@@ -437,7 +437,7 @@ $$ where  $\mathcal{D} = \{(S,M)\in \mathbb{R}^2,0\leq S\leq M\}$  The boundary 
 
 
 $$
-\begin{array}{l} - \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial S} - \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial S} \frac {\partial q}{\partial M} \\ + \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial M} \frac {\partial q}{\partial S} + \int_ {\mathcal {D}} \sigma^ {2} S \frac {\partial p}{\partial M} q \\ - \int_ {\mathcal {D}} \sigma^ {2} S \frac {\partial p}{\partial S} q = \int_ {\mathcal {D}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial^ {2} p}{\partial S ^ {2}} q \\ + \frac {1}{\sqrt {2}} \int_ {\{S = M \}} \frac {\sigma^ {2} S ^ {2}}{2} \frac {\partial p}{\partial M} q \\ \end{array}
+\begin{array}{l} - \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial S} - \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial S} \frac{\partial q}{\partial M} \\ + \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial M} \frac{\partial q}{\partial S} + \int_{\mathcal {D}} \sigma^{2} S \frac{\partial p}{\partial M} q \\ - \int_{\mathcal {D}} \sigma^{2} S \frac{\partial p}{\partial S} q = \int_{\mathcal {D}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial^{2} p}{\partial S^{2}} q \\ + \frac{1}{\sqrt{2}} \int_{\{S = M \}} \frac{\sigma^{2} S^{2}}{2} \frac{\partial p}{\partial M} q \\ \end{array}
 $$
 
 The first term corresponds to the diffusion term in (11). The second term is an integral over the boundary  $\{S = M\}$  of  $\mathcal{D}$  and naturally enforces the boundary condition  $\partial p / \partial M(t,S,S) = 0$  . In Figure 2, we represent the price of a fixed strike call obtained using the formulation (11), an implicit Euler scheme, and  $P1$  finite elements. The computations are made with FreeFem++. $^3$
@@ -466,7 +466,7 @@ One major interest of the PDE approach is that it can be applied for nonlinear m
 
 
 $$
-\left\{ \begin{array}{l} \frac {\partial p}{\partial t} + r S \frac {\partial p}{\partial S} + \\ \frac {1}{2} \left(\sigma_ {\max } ^ {2} 1 _ {\frac {\partial^ {2} p}{\partial S ^ {2}} \geq 0} + \sigma_ {\min } ^ {2} 1 _ {\frac {\partial^ {2} p}{\partial S ^ {2}} <   0}\right) S ^ {2} \frac {\partial^ {2} p}{\partial S ^ {2}} - r p = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {38}
+\left\{ \begin{array}{l} \frac{\partial p}{\partial t} + r S \frac{\partial p}{\partial S} + \\ \frac{1}{2} \left(\sigma_{\max }^{2} 1_{\frac{\partial^{2} p}{\partial S^{2}} \geq 0} + \sigma_{\min }^{2} 1_{\frac{\partial^{2} p}{\partial S^{2}} <   0}\right) S^{2} \frac{\partial^{2} p}{\partial S^{2}} - r p = 0, \\ p (T, S) = \phi (S) \end{array} \right. \tag {38}
 $$
 
 In other words,  $\sigma_{\mathrm{max}}$  (resp.  $\sigma_{\mathrm{min}}$ ) is used where the price is convex (resp. concave), as a function of the spot. This PDE can be solved using extensions of the discretization techniques presented above; see, for instance, section 2.4 in van der Pijl and Oosterlee (2011).
@@ -484,30 +484,30 @@ We first present the extension of the finite difference approach presented above
 We consider a regular mesh discretization  $S_{i} = i\delta S$  and a time discretization  $t_n = n\delta t$  with  $\delta t = \frac{T}{N}$ . As in the European case, it is natural to consider the following three iterative numerical schemes for  $P_{i}^{n}$ , an approximation of  $p(t_{n},S_{i})$ . In all cases, the scheme is initialized by  $P_{i}^{N} = \phi (S_{i})$ . Let  $A$  be the matrix such that
 
 $$
-\begin{array}{l} (A P ^ {n + 1}) _ {i} = - r S _ {i} \frac {P _ {i + 1} ^ {n + 1} - P _ {i - 1} ^ {n + 1}}{2 \delta S} \\ - \frac {\sigma^ {2} S _ {i} ^ {2}}{2} \frac {P _ {i + 1} ^ {n + 1} - 2 P _ {i} ^ {n + 1} + P _ {i - 1} ^ {n + 1}}{\delta S ^ {2}} + r P _ {i} ^ {n + 1} \tag {39} \\ \end{array}
+\begin{array}{l} (A P^{n + 1})_{i} = - r S_{i} \frac{P_{i + 1}^{n + 1} - P_{i - 1}^{n + 1}}{2 \delta S} \\ - \frac{\sigma^{2} S_{i}^{2}}{2} \frac{P_{i + 1}^{n + 1} - 2 P_{i}^{n + 1} + P_{i - 1}^{n + 1}}{\delta S^{2}} + r P_{i}^{n + 1} \tag {39} \\ \end{array}
 $$
 
 The explicit Euler (EE) scheme for (23) is, for  $n = N - 1, N - 2, \ldots, 0$ ,
 
 $$
-\min  \left(- \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + \left(A P ^ {n + 1}\right) _ {i}, P _ {i} ^ {n} - \phi \left(S _ {i}\right)\right) = 0 \tag {40}
+\min  \left(- \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + \left(A P^{n + 1}\right)_{i}, P_{i}^{n} - \phi \left(S_{i}\right)\right) = 0 \tag {40}
 $$
 
 The scheme computes  $P^n = (P_i^n)_{i=0,\dots,I-1}$  from the knowledge of  $P^{n+1} = (P_i^{n+1})_{i=0,\dots,I-1}$ . Similarly, we can propose an implicit Euler (IE) scheme:
 
 $$
-\min  \left(- \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + \left(A P ^ {n}\right) _ {i}, P _ {i} ^ {n} - \phi \left(S _ {i}\right)\right) = 0 \tag {41}
+\min  \left(- \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + \left(A P^{n}\right)_{i}, P_{i}^{n} - \phi \left(S_{i}\right)\right) = 0 \tag {41}
 $$ and an (implicit) Crank-Nicolson (CN) scheme
 
 
 $$
-\begin{array}{l} \min  \left(- \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n}}{\delta t} + \right. \\ \left. \frac {1}{2} \left((A P ^ {n}) _ {i} + (A P ^ {n + 1}) _ {i}\right), P _ {i} ^ {n} - \phi \left(S _ {i}\right)\right) = 0 \tag {42} \\ \end{array}
+\begin{array}{l} \min  \left(- \frac{P_{i}^{n + 1} - P_{i}^{n}}{\delta t} + \right. \\ \left. \frac{1}{2} \left((A P^{n})_{i} + (A P^{n + 1})_{i}\right), P_{i}^{n} - \phi \left(S_{i}\right)\right) = 0 \tag {42} \\ \end{array}
 $$
 
 In the case of the EE scheme, it is easy to see that we have the equivalent formulation
 
 $$
-P _ {i} ^ {n} = \max  \left(\left(\left(I _ {d} - \delta t A\right) P ^ {n + 1}\right) _ {i}, \phi \left(S _ {i}\right)\right) \tag {43}
+P_{i}^{n} = \max  \left(\left(\left(I_{d} - \delta t A\right) P^{n + 1}\right)_{i}, \phi \left(S_{i}\right)\right) \tag {43}
 $$ where  $I_{d}$  denotes the identity matrix.
 
 
@@ -516,7 +516,7 @@ We now have two new difficulties compared to the European case: First, the well-
 One way to circumvent the first difficulty is to introduce a splitting method (see Barles and Souganidis, 1991; Barles, Daher, and Romano, 1995; and Lions and Mercier, 1979). For (23), it writes (a similar modification of (42) could also be considered, yielding a Crank Nicolson-splitting (CN-S) scheme):
 
 $$
-\text {c o m p u t e} P ^ {n, 1} \text {s . t .} - \frac {P _ {i} ^ {n + 1} - P _ {i} ^ {n , 1}}{\delta t} + \left(A P ^ {n, 1}\right) _ {i} = 0 \tag {44a}
+\text{co mp ut e} P^{n, 1} \text{s .t .} - \frac{P_{i}^{n + 1} - P_{i}^{n , 1}}{\delta t} + \left(A P^{n, 1}\right)_{i} = 0 \tag {44a}
 $$ and then compute  $P_{i}^{n} = \max (P_{i}^{n,1},\phi (S_{i}))$  (44b)
 
 
@@ -529,18 +529,18 @@ Notice that as for European options, we set the equation on a truncated domain  
 Assuming for the moment that the schemes are well posed, it is possible to study the convergence in the general framework of finite different schemes for Hamilton-Jacobi equations. Possibly under some restrictions on the mesh sizes  $\delta t$  and  $\delta S$ , we can obtain convergence to the viscosity solution of the PDE (23). We refer to Barles (1994) or Barles, Daher, and Romano (1995) for a short introduction, and Crandall, Ishii, and Lions (1992) for a more detailed overview. To give a rough idea of the convergence results for such schemes, we consider a general Hamilton-Jacobi equation of the form
 
 $$
-H \left(t, S, p, \frac {\partial p}{\partial t}, \frac {\partial p}{\partial S}, \frac {\partial^ {2} p}{\partial S ^ {2}}\right) = 0 \tag {45}
+H \left(t, S, p, \frac{\partial p}{\partial t}, \frac{\partial p}{\partial S}, \frac{\partial^{2} p}{\partial S^{2}}\right) = 0 \tag {45}
 $$ with a terminal condition on  $p(T,\cdot)$ , where  $H$  is assumed to be Lipschitz continuous and
 
 
 "backward parabolic" in the sense that
 
 $$
-\begin{array}{l} i f \psi_ {1} \leq \psi_ {2} \text {t h e n} H (t, S, p, u, v, \psi_ {1}) \\ \geq H (t, S, p, u, v, \psi_ {2}) \tag {46a} \\ \end{array}
+\begin{array}{l} i f \psi_{1} \leq \psi_{2} \text{th en} H (t, S, p, u, v, \psi_{1}) \\ \geq H (t, S, p, u, v, \psi_{2}) \tag {46a} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {a n d i f} u _ {1} \leq u _ {2} \text {t h e n} H (t, S, p, u _ {1}, v, \psi) \\ \geq H (t, S, p, u _ {2}, v, \psi) \tag {46b} \\ \end{array}
+\begin{array}{l} \text{an di f} u_{1} \leq u_{2} \text{th en} H (t, S, p, u_{1}, v, \psi) \\ \geq H (t, S, p, u_{2}, v, \psi) \tag {46b} \\ \end{array}
 $$
 
 Equation (23) is indeed of the form of (45) with, for  $(t,S)\in (0,T)\times (0,S_{\max})$ $H(t,S,p,u,v,\psi) = \min (-u - rSv - \frac{1}{2}\sigma^2 S^2\psi +$ $rp,p - \phi (S))$  , which obviously satisfies (46).
@@ -552,14 +552,14 @@ An abstract and general convergence result is given by Barles and Souganidis (19
 We first assume that  $H$  satisfies a comparison principle, which can be seen as an extension of the maximum principle to some nonlinear equations. The comparison principle is roughly the following (see Crandall, Ishii, and Lions, 1992; Barles, 1994; or Pham, 1998): Assume that  $u$  (resp.  $v$ ) is a subsolution (resp. supersolution) of (45), that is,
 
 $$
-\begin{array}{l} H \left(t, x, u, \frac {\partial u}{\partial t}, \frac {\partial u}{\partial x}, \frac {\partial^ {2} u}{\partial x ^ {2}}\right) \leq 0 \\ \left(\operatorname {r e s p .} H \left(t, x, v, \frac {\partial v}{\partial t}, \frac {\partial v}{\partial x}, \frac {\partial^ {2} v}{\partial x ^ {2}}\right) \geq 0\right) \\ \end{array}
+\begin{array}{l} H \left(t, x, u, \frac{\partial u}{\partial t}, \frac{\partial u}{\partial x}, \frac{\partial^{2} u}{\partial x^{2}}\right) \leq 0 \\ \left(\operatorname{re sp .} H \left(t, x, v, \frac{\partial v}{\partial t}, \frac{\partial v}{\partial x}, \frac{\partial^{2} v}{\partial x^{2}}\right) \geq 0\right) \\ \end{array}
 $$ for  $(t,S)\in (0,T)\times (0,S_{\max})$  , and that  $u\leq v$  on the boundaries  $S = S_{\mathrm{max}}$  and  $t = T$  , then  $u\leq v$  everywhere.
 
 
 Now, suppose that we can write the scheme in the abstract form:  $\forall i\in \{0,\ldots ,I\}$ $\forall n\in$ $\{0,\dots ,N\}$
 
 $$
-\mathcal {S} _ {\rho} \left(t _ {n}, S _ {i}, P _ {i} ^ {n}, [ P ]\right) = 0 \tag {47}
+\mathcal {S}_{\rho} \left(t_{n}, S_{i}, P_{i}^{n}, [ P ]\right) = 0 \tag {47}
 $$ where  $\rho = (\delta t,\delta S)$  , and  $[P]$  stands for a continuous function that takes values  $(P_j^k)_{0\leq k\leq N,0\leq j\leq I}$  on the corresponding grid points  $(t_k,S_j)$  .4 We suppose that (47) admits at least one solution denoted  $P_{\rho}$  . Then, in the limit when  $\rho$  goes to
 
 
@@ -569,7 +569,7 @@ zero,  $P_{\rho}$  converges to  $p$  solution to (45) if the following conditio
 (ii) A consistency condition: for any regular function  $\psi$
 
 $$
-\begin{array}{l} \lim  _ {\xi \rightarrow 0, \rho \rightarrow 0, t _ {n} \rightarrow t, S _ {i} \rightarrow S} \mathcal {S} _ {\rho} \left(t _ {n}, S _ {i}, \psi \left(t _ {n}, S _ {i}\right) + \xi , \psi + \xi\right) \\ = H \left(t, S, \psi , \frac {\partial \psi}{\partial t}, \frac {\partial \psi}{\partial S}, \frac {\partial^ {2} \psi}{\partial S ^ {2}}\right) (t, S) \\ \end{array}
+\begin{array}{l} \lim_{\xi \rightarrow 0, \rho \rightarrow 0, t_{n} \rightarrow t, S_{i} \rightarrow S} \mathcal {S}_{\rho} \left(t_{n}, S_{i}, \psi \left(t_{n}, S_{i}\right) + \xi , \psi + \xi\right) \\ = H \left(t, S, \psi , \frac{\partial \psi}{\partial t}, \frac{\partial \psi}{\partial S}, \frac{\partial^{2} \psi}{\partial S^{2}}\right) (t, S) \\ \end{array}
 $$
 
 For a weaker statement see Barles and Souganidis (1991).
@@ -577,7 +577,7 @@ For a weaker statement see Barles and Souganidis (1991).
 (iii) A monotonicity condition, which reads
 
 $$
-\varphi \leq \psi \Rightarrow \mathcal {S} _ {\rho} ((t, S), P, \varphi) \geq \mathcal {S} _ {\rho} ((t, S), P, \psi)
+\varphi \leq \psi \Rightarrow \mathcal {S}_{\rho} ((t, S), P, \varphi) \geq \mathcal {S}_{\rho} ((t, S), P, \psi)
 $$
 
 For most standard financial options, a comparison principle holds. The stability and consistency conditions are close to the stability and consistency conditions already introduced in the case of the schemes for European options. Hence the new condition to check is the monotonicity assumption (which is related to the property (46a) satisfied by  $H$ ). It is actually related to a discrete maximum principle.
@@ -593,13 +593,13 @@ This property holds under a CFL condition of the form  $\delta t\leq C\delta S^2
 Now let us explain how to solve the implicit schemes (41) or (42) in practice. Let us consider the IE scheme (41). At each time step, setting  $b = P^{n + 1}$ ,  $B = I_d + \delta tA$  and  $g = (\phi(S_i))_i$ , the problem is equivalent to finding  $x = P^n$  such that
 
 $$
-\min  \left(\left(B x - b\right) _ {i}, (x - g) _ {i}\right) = 0, \quad \forall i \tag {48}
+\min  \left(\left(B x - b\right)_{i}, (x - g)_{i}\right) = 0, \quad \forall i \tag {48}
 $$
 
 The Howard algorithm (see Howard, 1960; also called the policy iteration algorithm) is the method of choice to solve (48). To present this algorithm, we rewrite (48) in the following form: Find  $x$  such that,
 
 $$
-\min  _ {\alpha \in \{0, 1 \} ^ {I}} \left(\left(B (\alpha) x - b (\alpha)\right) _ {i}\right) = 0, \quad \forall i \tag {49}
+\min_{\alpha \in \{0, 1 \}^{I}} \left(\left(B (\alpha) x - b (\alpha)\right)_{i}\right) = 0, \quad \forall i \tag {49}
 $$ where  $B_{i,j}(\alpha) = \left\{ \begin{array}{ll} B_{i,j} & \text{if } \alpha_i = 0 \\ \delta_{i,j} & \text{if } \alpha_i = 1 \end{array} \right.$  (where  $\delta_{i,j}$  is again the Kronecker symbol, i.e., the  $(i,j)$ -th component of  $I_d$ ) and  $b_i(\alpha) = \left\{ \begin{array}{ll} b_i & \text{if } \alpha_i = 0 \\ g_i & \text{if } \alpha_i = 1 \end{array} \right.$ . The  $i$ -th component of  $B(\alpha)x - b(\alpha)$  only depends on the  $i$ -th component of  $\alpha$ , so that the minimum for the  $i$ -th component in (49) is indeed taken with respect to the  $i$ -th component of  $\alpha$ . Thus, for a given  $x$  and  $\alpha$  realizing the minimum in (49), the component  $\alpha_i$  is equal to 0 (resp. to 1) if, at the  $i$ -th node, the minimum in (48) is  $(Bx - b)_i$  (resp.  $(x - g)_i$ ). For an initial value $^5$ $\alpha^0 \in \{0,1\}^I$ , the algorithm is written as follows: Iterate for  $k \geq 0$ ,
 
 
@@ -644,18 +644,18 @@ The techniques developed above for pricing American options can be used in the c
 
 
 $$
-\begin{array}{l} p (t, x) = \max  _ {\alpha \in L ^ {\infty} ([ t, T ], K)} \mathbb {E} \left(\int_ {t} ^ {T} e ^ {- \int_ {t} ^ {u} r (s) d s} \right. \\ \left. \times f (u, X _ {u} ^ {t, x, \alpha}, \alpha (u)) d u + e ^ {- \int_ {t} ^ {T} r (s) d s} \phi (X _ {T} ^ {t, x, \alpha})\right) \tag {50} \\ \end{array}
+\begin{array}{l} p (t, x) = \max_{\alpha \in L^{\infty} ([ t, T ], K)} \mathbb {E} \left(\int_{t}^{T} e^{- \int_{t}^{u} r (s) d s} \right. \\ \left. \times f (u, X_{u}^{t, x, \alpha}, \alpha (u)) d u + e^{- \int_{t}^{T} r (s) d s} \phi (X_{T}^{t, x, \alpha})\right) \tag {50} \\ \end{array}
 $$ where  $K$  is compact,  $\alpha$  is a progressively measurable function with values in  $K$ , and with
 
 
 $$
-\left\{ \begin{array}{l} d X _ {u} ^ {t, x, \alpha} = b (u, X _ {u} ^ {t, x, \alpha}, \alpha (u)) d u \\ \hskip 1 4. 2 2 6 3 7 8 p t + \sigma (u, X _ {u} ^ {t, x, \alpha}, \alpha (u)) d W _ {u}, \quad u \geq t, \\ X _ {t} ^ {t, x, \alpha} = x \end{array} \right.
+\left\{ \begin{array}{l} d X_{u}^{t, x, \alpha} = b (u, X_{u}^{t, x, \alpha}, \alpha (u)) d u \\ \hskip 1 4. 2 2 6 3 7 8 p t + \sigma (u, X_{u}^{t, x, \alpha}, \alpha (u)) d W_{u}, \quad u \geq t, \\ X_{t}^{t, x, \alpha} = x \end{array} \right.
 $$
 
 The corresponding PDE can be shown to be
 
 $$
-\begin{array}{l} \min  _ {\alpha \in K} \left(- \frac {\partial p}{\partial t} - \frac {1}{2} \sigma^ {2} (t, S, \alpha) \frac {\partial^ {2} p}{\partial S ^ {2}} - b (t, S, \alpha) \frac {\partial p}{\partial S} \right. \\ \left. + r p - f (t, S, \alpha)\right) = 0 \\ \end{array}
+\begin{array}{l} \min_{\alpha \in K} \left(- \frac{\partial p}{\partial t} - \frac{1}{2} \sigma^{2} (t, S, \alpha) \frac{\partial^{2} p}{\partial S^{2}} - b (t, S, \alpha) \frac{\partial p}{\partial S} \right. \\ \left. + r p - f (t, S, \alpha)\right) = 0 \\ \end{array}
 $$ in the viscosity sense (see Pham, 2006). Finite difference schemes similar to those presented above for American options can be applied. Implicit schemes, if considered, can be solved by the Howard algorithm. This can also be generalized to an optimal stopping time problem, adding in (50) a supremum over stopping times with values in  $[t,T]$  (as in (15)). For such general HJB equations, a discretization by a finite element approach is not always possible because an appropriate variational formulation cannot always be obtained; see Bensoussan and Lions (1978).
 
 
@@ -670,13 +670,13 @@ $$
 We first notice that (23) is equivalent to the set of inequalities $^7$  (together with  $p(T, S) = \phi(S)$ )
 
 $$
-\left\{ \begin{array}{l} p - \phi \geq 0, \\ - \frac {\partial p}{\partial t} + \mathcal {A} p \geq 0, \\ \left(- \frac {\partial p}{\partial t} + \mathcal {A} p\right) (p - \phi) = 0 \end{array} \right. \tag {51}
+\left\{ \begin{array}{l} p - \phi \geq 0, \\ - \frac{\partial p}{\partial t} + \mathcal {A} p \geq 0, \\ \left(- \frac{\partial p}{\partial t} + \mathcal {A} p\right) (p - \phi) = 0 \end{array} \right. \tag {51}
 $$
 
 We can check that this is equivalent (for sufficiently smooth function  $p$ ) to the following variational formulation for (23): find  $p \in L^2([0, T], K) \cap C^0([0, T], L^2(\mathbb{R}_+))$  such that for all  $t \in [0, T)$ ,
 
 $$
-\forall q \in K, - \int \frac {\partial p}{\partial t} (q - p) + a (p, q - p) \geq 0 \tag {52}
+\forall q \in K, - \int \frac{\partial p}{\partial t} (q - p) + a (p, q - p) \geq 0 \tag {52}
 $$ where  $a$  is the bilinear form (35) defined above (recall that for compactly supported functions  $p$  and  $q$ ,  $a(p,q) = \int \mathcal{A}p q$ ), with the final condition
 
 
@@ -691,19 +691,19 @@ Notice that if we take  $K = V$  in (52), we recover the variational formulation
 Now, as in the case of the finite element method for European options, we introduce a sequence of finite dimensional functional spaces  $V_{h}\subset V$  , such that the functions in  $V$  are better and better approximated by functions in  $V_{h}$  as  $h$  goes to 0. One can, for example, consider a P1 finite element space on a mesh  $(S_i)_{0\leq i\leq I}$  . Remember that a basis of  $V_{h}$  is given by a set of functions  $(q_{i})_{0\leq i\leq I}$  . The finite element approximation of (52) is obtained by replacing  $V$  by  $V_{h}$  : Find  $p_h\in \mathcal{C}^0 ([0,T],K\cap V_h)$  such that for all  $t\in [0,T)$
 
 $$
-\begin{array}{l} \forall q _ {h} \in K \cap V _ {h}, - \int \frac {\partial p _ {h}}{\partial t} (q _ {h} - p _ {h}) \\ + a \left(p _ {h}, q _ {h} - p _ {h}\right) \geq 0 \tag {53} \\ \end{array}
+\begin{array}{l} \forall q_{h} \in K \cap V_{h}, - \int \frac{\partial p_{h}}{\partial t} (q_{h} - p_{h}) \\ + a \left(p_{h}, q_{h} - p_{h}\right) \geq 0 \tag {53} \\ \end{array}
 $$ with the final condition  $p_h(T) = \phi_h$ , where  $\phi_h \in V_h$  is an approximation of  $\phi$ .
 
 
 For time discretization, one can again use the schemes we have introduced in the case of the discretization of European options. For example, the implicit Euler scheme applied to (53) is naturally defined as follows: Find  $p_h^N, p_h^{N-1}, \ldots, p_h^0$  in  $V_h \cap K$  such that  $p_h^N = \phi_h$  (initialization) and, for  $n = N-1, \ldots, 0$ :
 
 $$
-\begin{array}{l} \forall q _ {h} \in V _ {h} \cap K, - \int \frac {p _ {h} ^ {n + 1} - p _ {h} ^ {n}}{\delta t} \left(q _ {h} - p _ {h} ^ {n}\right) \\ + a \left(p _ {h} ^ {n}, q _ {h} - p _ {h} ^ {n}\right) \geq 0 \tag {54} \\ \end{array}
+\begin{array}{l} \forall q_{h} \in V_{h} \cap K, - \int \frac{p_{h}^{n + 1} - p_{h}^{n}}{\delta t} \left(q_{h} - p_{h}^{n}\right) \\ + a \left(p_{h}^{n}, q_{h} - p_{h}^{n}\right) \geq 0 \tag {54} \\ \end{array}
 $$
 
 One can easily check that
 
-$$ q _ {h} \in V _ {h} \cap K \Leftrightarrow q _ {h} \in V _ {h} \text {a n d} q _ {h} (S _ {i}) \geq \phi (S _ {i}), \forall i
+$$ q_{h} \in V_{h} \cap K \Leftrightarrow q_{h} \in V_{h} \text{an d} q_{h} (S_{i}) \geq \phi (S_{i}), \forall i
 $$
 
 Denoting  $A_{h}$  and  $M_{h}$  the mass and stiffness matrices as in the case of the finite element method for European options, and reasoning as for the equivalence between (23), (51), and (52), it can be checked that (54) is equivalent to solve in  $\mathbb{R}^I$ : min  $\left(\left(-M_h\frac{P^{n + 1} - P^n}{\delta t} +A_hP^n\right)_i,\left(P^n -g\right)_i\right)$
@@ -720,7 +720,7 @@ Figure 3 The Adapted Mesh and the Contours of  $P$  One Year to Maturity.  $\sig
 
 
 $$
-\begin{array}{l} \min  \left(\left(\left(M _ {h} + \delta t A _ {h}\right) P ^ {n} - M _ {h} P ^ {n + 1}\right) _ {i}, \left(P ^ {n} - g\right) _ {i}\right) \\ = 0, \quad \forall i \\ \end{array}
+\begin{array}{l} \min  \left(\left(\left(M_{h} + \delta t A_{h}\right) P^{n} - M_{h} P^{n + 1}\right)_{i}, \left(P^{n} - g\right)_{i}\right) \\ = 0, \quad \forall i \\ \end{array}
 $$
 
 This is a similar problem as for the IE finite difference scheme (see (48)) where the matrix  $(I_d + \delta tA)$  is now replaced by  $(M_h + \delta tA_h)$ . It can be solved by the Howard algorithm previously presented. For the particular American put problem under some assumptions on the mesh steps  $\delta t$  and  $h$ , it can also be solved by the Brennan and Schwartz algorithm or the front-tracking algorithm mentioned above.
@@ -755,13 +755,13 @@ Let us now discuss some of the possible enrichments of the Black-Scholes model:
 1. Hull-White model (see Hull and White, 1987):  $f(y) = \sqrt{y}$  and  $y_{t}$  is a lognormal process.
 2. Scott model:  $f(y) = \sqrt{y}$  and  $y_{t}$  is a mean-reverting Ornstein-Uhlenbeck process:
 
-$$ d y _ {t} = \alpha \left(m - y _ {t}\right) d t + \beta d Z _ {t} \tag {55}
+$$ d y_{t} = \alpha \left(m - y_{t}\right) d t + \beta d Z_{t} \tag {55}
 $$ where  $\alpha$  and  $\beta$  are positive constants,  $Z_{t}$  is a Brownian motion.
 
 
 3. Heston model (see Heston, 1993):  $f(y) = \sqrt{y}$  and  $y_{t}$  is a Cox-Ingersoll-Ross process,
 
-$$ d y _ {t} = \kappa \left(m - y _ {t}\right) d t + \lambda \sqrt {y _ {t}} d Z _ {t} \tag {56}
+$$ d y_{t} = \kappa \left(m - y_{t}\right) d t + \lambda \sqrt{y_{t}} d Z_{t} \tag {56}
 $$ where  $\kappa, m,$  and  $\lambda$  are positive constants.
 
 
@@ -772,17 +772,17 @@ There are two risk factors, one for the stock price and the other for the volati
 - Lévy-driven spot price: One may generalize the Black-Scholes model by assuming that the spot price is driven by a more general stochastic process, for example, a Lévy process (see Cont and Tankov, 2003; Merton, 1976; and Carr, Geman, and Yor, 2002). Lévy processes are processes with stationary and independent increments which are continuous in probability. For a Lévy process  $X_{\tau}$  on a filtered probability space with probability  $\mathbb{P}^*$ , the Lévy-Khintchine formula says that there exists a function  $\chi : \mathbb{R} \to \mathbb{C}$  such that
 
 $$
-\begin{array}{l} \mathbb {E} ^ {*} (e ^ {i u X _ {\tau}}) = e ^ {- \tau \chi (u)}, \\ \chi (u) = \frac {\sigma^ {2} u ^ {2}}{2} - i \beta u - \int_ {| z | <   1} \left(e ^ {i u z} - 1 - i u z\right) v (d z) \\ - \int_ {| z | > 1} (e ^ {i u z} - 1) v (d z) \\ \end{array}
+\begin{array}{l} \mathbb {E}^{*} (e^{i u X_{\tau}}) = e^{- \tau \chi (u)}, \\ \chi (u) = \frac{\sigma^{2} u^{2}}{2} - i \beta u - \int_{| z | <   1} \left(e^{i u z} - 1 - i u z\right) v (d z) \\ - \int_{| z | > 1} (e^{i u z} - 1) v (d z) \\ \end{array}
 $$ for  $\sigma \geq 0$ ,  $\beta \in \mathbb{R}$  and a positive measure  $\nu$  on  $\mathbb{R} \setminus \{0\}$  such that  $\int_{\mathbb{R}} \min(1, z^2) \nu(dz) < +\infty$ . The measure  $\nu$  is called the Lévy measure of  $X$ . We focus on the Lévy measure with a density,  $\nu(dz) = k(z) dz$ . It is assumed that the discounted price of the risky asset is a square integrable martingale under  $\mathbb{P}^*$ , and that it is represented as the exponential of a Lévy process:
 
 
-$$ e ^ {- r \tau} S _ {\tau} = S _ {0} e ^ {X _ {\tau}}
+$$ e^{- r \tau} S_{\tau} = S_{0} e^{X_{\tau}}
 $$
 
 The martingale property is that  $\mathbb{E}^* (e^{X_{\tau}}) = 1$  i.e.
 
 $$
-\begin{array}{l} \int_ {| z | > 1} e ^ {z} \nu (d z) <   \infty , \quad \text {a n d} \\ \beta = - \frac {\sigma^ {2}}{2} - \int_ {\mathbb {R}} (e ^ {z} - 1 - z 1 _ {| z | \leq 1}) k (z) (d z) \\ \end{array}
+\begin{array}{l} \int_{| z | > 1} e^{z} \nu (d z) <   \infty , \quad \text{an d} \\ \beta = - \frac{\sigma^{2}}{2} - \int_{\mathbb {R}} (e^{z} - 1 - z 1_{| z | \leq 1}) k (z) (d z) \\ \end{array}
 $$ and the square integrability comes from the condition  $\int_{|z| > 1}e^{2z}k(z)dz < \infty$ .
 
 
@@ -793,14 +793,14 @@ With such models, the pricing function for a European option is obtained by solv
 We consider a local volatility model and call  $(t,S)\mapsto C(t,S,\tau ,x)$  the pricing function for a vanilla European call with maturity  $\tau$  and strike  $x$ . It satisfies the final value problem: for  $t\in [0,\tau)$  and  $x\in \mathbb{R}_{+}$ ,
 
 $$
-\begin{array}{c} \frac {\partial C}{\partial t} + \frac {\sigma^ {2} (t , S) S ^ {2}}{2} \frac {\partial^ {2} C}{\partial S ^ {2}} + (r - q) S \frac {\partial C}{\partial S} - r C = 0 \\ C (\tau , S) = (S - x) _ {+} \end{array} \tag {57}
+\begin{array}{c} \frac{\partial C}{\partial t} + \frac{\sigma^{2} (t , S) S^{2}}{2} \frac{\partial^{2} C}{\partial S^{2}} + (r - q) S \frac{\partial C}{\partial S} - r C = 0 \\ C (\tau , S) = (S - x)_{+} \end{array} \tag {57}
 $$ where we have supposed that the underlying asset yields a distributed dividend,  $qS_{t}dt$ . By reasoning directly on (4) or by using PDE arguments, it can be proved that the function  $(\tau ,x)\mapsto C(t,S,\tau ,x)$  now  $t$  and  $S$  are fixed
 
 
 satisfies the forward parabolic PDE:
 
 $$
-\frac {\partial C}{\partial \tau} - \frac {1}{2} \sigma^ {2} (\tau , x) x ^ {2} \frac {\partial^ {2} C}{\partial x ^ {2}} + (r - q) x \frac {\partial C}{\partial x} + q C = 0 \tag {58}
+\frac{\partial C}{\partial \tau} - \frac{1}{2} \sigma^{2} (\tau , x) x^{2} \frac{\partial^{2} C}{\partial x^{2}} + (r - q) x \frac{\partial C}{\partial x} + q C = 0 \tag {58}
 $$ for  $\tau > t$  and  $x \in \mathbb{R}_+$ . This observation was first made by Dupire (1994), and the proof of (58) by PDE arguments can be found in Achdou and Pironneau (2005) or Pironneau (2007). We also mention that similar partial differential equations can be derived for other options, like binary options, barrier options, options on Lévy-driven assets, or basket options (see Pironneau, 2007).
 
 
@@ -809,7 +809,7 @@ Using (58) is useful for two reasons. First, consider a family of calls on the s
 Second, (58) may be used for local volatility calibration. Indeed, if all the possible vanilla options were on the market, the local volatility in (57) could be computed:
 
 $$
-\sigma^ {2} (\tau , x) = 2 \frac {\frac {\partial C}{\partial \tau} (\tau , x) + (r - q) x \frac {\partial C}{\partial x} (\tau , x) + q C (\tau , x)}{x ^ {2} \frac {\partial^ {2} C}{\partial x ^ {2}} (\tau , x)} \tag {59}
+\sigma^{2} (\tau , x) = 2 \frac{\frac{\partial C}{\partial \tau} (\tau , x) + (r - q) x \frac{\partial C}{\partial x} (\tau , x) + q C (\tau , x)}{x^{2} \frac{\partial^{2} C}{\partial x^{2}} (\tau , x)} \tag {59}
 $$
 
 This is known as Dupire's formula for the local volatility. In practice, (59) cannot be used directly because only a finite number of options are on the market.
@@ -835,34 +835,34 @@ Once the least square problem is chosen, we are left with proposing a strategy f
 Anyhow, gradient methods require the evaluation of the functional's gradient. Since  $J_{R}$  explicitly depends on  $\sigma$ , its gradient is easily computed. The gradient of  $J$  is more difficult to evaluate, because the prices  $C(\tau_i, x_i)$  depend on  $\sigma$  in an indirect way: One needs to evaluate the variations of  $C(\tau_i, x_i)$  caused by a small variation of  $\sigma$ ; calling  $\delta \sigma$  the variation of  $\sigma$  and  $\delta C$  the induced variation of  $C$ , one sees by differentiating (58) that  $\delta C(\tau = 0, \cdot) = 0$  and
 
 $$
-\begin{array}{l} \partial_ {\tau} \delta C - \frac {\sigma^ {2} (\tau , x) x ^ {2}}{2} \partial_ {x x} ^ {2} \delta C + (r - q) x \partial_ {x} \delta C + q \delta C \\ = \sigma \delta \sigma x ^ {2} \partial_ {x x} ^ {2} C \tag {60} \\ \end{array}
+\begin{array}{l} \partial_{\tau} \delta C - \frac{\sigma^{2} (\tau , x) x^{2}}{2} \partial_{x x}^{2} \delta C + (r - q) x \partial_{x} \delta C + q \delta C \\ = \sigma \delta \sigma x^{2} \partial_{x x}^{2} C \tag {60} \\ \end{array}
 $$
 
 To express  $\delta J$  in terms of  $\delta \sigma$ , an adjoint state function  $P$  is introduced as the solution to the adjoint problem: Find the function  $P$  such that  $P(\bar{\tau},\cdot) = 0$  and for  $\tau < \bar{\tau}$
 
 $$
-\begin{array}{l} \partial_ {\tau} P + \partial_ {x x} ^ {2} \left(\frac {\sigma^ {2} x ^ {2}}{2} P\right) - \partial_ {x} (P (r - q) x) - q P \\ = 2 \sum_ {i \in I} \omega_ {i} \left(C \left(\tau_ {i}, x _ {i}\right) - \bar {C} _ {i}\right) \delta_ {\tau_ {i}, x _ {i}} \tag {61} \\ \end{array}
+\begin{array}{l} \partial_{\tau} P + \partial_{x x}^{2} \left(\frac{\sigma^{2} x^{2}}{2} P\right) - \partial_{x} (P (r - q) x) - q P \\ = 2 \sum_{i \in I} \omega_{i} \left(C \left(\tau_{i}, x_{i}\right) - \bar {C}_{i}\right) \delta_{\tau_{i}, x_{i}} \tag {61} \\ \end{array}
 $$ where  $\bar{\tau}$  is an arbitrary time greater than  $\max_{i\in I}\tau_i$  and in the right-hand side, the  $\delta_{\tau_i,x_i}$  denote Dirac functions in time and strike at  $(\tau_{i},x_{i})$ . The meaning of (61) is the following:
 
 
 $$
-\begin{array}{l} - \int_ {Q} \left(\partial_ {\tau} v - \frac {\sigma^ {2} x ^ {2}}{2} \partial_ {x x} ^ {2} v + (r - q) x \partial_ {x} v + q v\right) P \\ = 2 \sum_ {i \in I} \omega_ {i} \left(C \left(\tau_ {i}, x _ {i}\right) - \bar {C} _ {i}\right) v \left(\tau_ {i}, x _ {i}\right) \tag {62} \\ \end{array}
+\begin{array}{l} - \int_{Q} \left(\partial_{\tau} v - \frac{\sigma^{2} x^{2}}{2} \partial_{x x}^{2} v + (r - q) x \partial_{x} v + q v\right) P \\ = 2 \sum_{i \in I} \omega_{i} \left(C \left(\tau_{i}, x_{i}\right) - \bar {C}_{i}\right) v \left(\tau_{i}, x_{i}\right) \tag {62} \\ \end{array}
 $$ where  $Q = (0,\bar{\tau})\times \mathbb{R}_{+}$  , and  $v$  is any function such that  $v\in L^{2}((0,\bar{\tau}),V)$  with  $\partial_{\tau}v\in L^{2}(Q)$  and  $x^{2}\partial_{xx}^{2}v\in L^{2}(Q)$  . Taking  $v = \delta C$  in (62) and using (60), one finds
 
 
 $$
-\begin{array}{l} 2 \sum_ {i \in I} \omega_ {i} \left(C \left(\tau_ {i}, x _ {i}\right) - \bar {C} _ {i}\right) \delta C \left(\tau_ {i}, x _ {i}\right) \\ = 2 \sum_ {i \in I} \omega_ {i} \left(C \left(\tau_ {i}, x _ {i}\right) - c _ {i}\right) \left\langle \delta_ {\tau_ {i}, x _ {i}}, \delta C \right\rangle \\ = - \int_ {Q} \left(\partial_ {\tau} \delta C - \frac {\sigma x ^ {2}}{2} \partial_ {x x} ^ {2} \delta C + (r - q) x \partial_ {x} \delta C + q \delta C\right) P \\ = - \int_ {Q} \sigma \delta \sigma x ^ {2} P \partial_ {x x} ^ {2} C \\ \end{array}
+\begin{array}{l} 2 \sum_{i \in I} \omega_{i} \left(C \left(\tau_{i}, x_{i}\right) - \bar {C}_{i}\right) \delta C \left(\tau_{i}, x_{i}\right) \\ = 2 \sum_{i \in I} \omega_{i} \left(C \left(\tau_{i}, x_{i}\right) - c_{i}\right) \left\langle \delta_{\tau_{i}, x_{i}}, \delta C \right\rangle \\ = - \int_{Q} \left(\partial_{\tau} \delta C - \frac{\sigma x^{2}}{2} \partial_{x x}^{2} \delta C + (r - q) x \partial_{x} \delta C + q \delta C\right) P \\ = - \int_{Q} \sigma \delta \sigma x^{2} P \partial_{x x}^{2} C \\ \end{array}
 $$
 
 We have worked in a formal way, but all the integrations above can be justified. This leads to the estimate
 
 $$
-\left| \delta J + \int_ {Q} \sigma \delta \sigma x ^ {2} P \partial_ {x x} ^ {2} C \right| \leq c \| \delta \sigma \| _ {L ^ {\infty} (Q)} ^ {2}
+\left| \delta J + \int_{Q} \sigma \delta \sigma x^{2} P \partial_{x x}^{2} C \right| \leq c \| \delta \sigma \|_{L^{\infty} (Q)}^{2}
 $$ which implies that  $J$  is differentiable, and that its differential at point  $\sigma$  is given by
 
 
 $$
-D J (\sigma): \eta \mapsto - \int_ {Q} \sigma \eta x ^ {2} P (\sigma) \partial_ {x x} ^ {2} C (\sigma)
+D J (\sigma): \eta \mapsto - \int_{Q} \sigma \eta x^{2} P (\sigma) \partial_{x x}^{2} C (\sigma)
 $$ where  $P(\sigma)$  satisfies (61), and  $C(\sigma)$  satisfies (58). We see that the gradient of  $J$  can be evaluated. When (58) is discretized with, for example, finite elements, all that has been done can be repeated with a discrete adjoint problem, and the gradient of the functional can be evaluated in the same way. Let us stress that the gradient
 
 
@@ -875,42 +875,42 @@ Local volatility can also be calibrated with American options, but it is not pos
 First, from the definition (15) of  $p$  we have, for any stopping time  $\rho \in \mathcal{T}_{[t,T]}$ ,
 
 $$
-\begin{array}{l} e ^ {- \int_ {t} ^ {\rho} r d s} p (\rho , S _ {\rho} ^ {t, x}) \\ = \operatorname {e s s} \sup  _ {\tau \in \mathcal {T} _ {[ \rho , T ]}} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right) \mid \mathcal {F} _ {\rho}\right), a. s. \tag {63} \\ \end{array}
+\begin{array}{l} e^{- \int_{t}^{\rho} r d s} p (\rho , S_{\rho}^{t, x}) \\ = \operatorname{es s} \sup_{\tau \in \mathcal {T}_{[ \rho , T ]}} \mathbb {E} \left(e^{- \int_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right) \mid \mathcal {F}_{\rho}\right), a. s. \tag {63} \\ \end{array}
 $$ where  $\mathcal{T}_{[\rho ,T]}$  denotes the set of stopping times  $\tau$  such that  $\rho \leq \tau \leq T$ . Then it is possible to show that (see, for instance, Karatzas and Shreve, 2010, Eq. (D.7)), for any stopping time  $\rho \in \mathcal{T}_{[t,T]}$ ,
 
 
 $$
-\begin{array}{l} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\rho} r d s} p (\rho , S _ {\rho} ^ {t, x})\right) \\ = \sup  _ {\tau \in \mathcal {T} _ {[ \rho , T ]}} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right)\right) \tag {64} \\ \end{array}
+\begin{array}{l} \mathbb {E} \left(e^{- \int_{t}^{\rho} r d s} p (\rho , S_{\rho}^{t, x})\right) \\ = \sup_{\tau \in \mathcal {T}_{[ \rho , T ]}} \mathbb {E} \left(e^{- \int_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right)\right) \tag {64} \\ \end{array}
 $$
 
 We obtain from (64) the decreasing property: For all stopping times  $\rho_{1},\rho_{2}\in T_{[t,T]}$ , such that  $\rho_{1}\geq \rho_{2}$
 
 $$
-\begin{array}{l} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\rho_ {1}} r d s} p \left(\rho_ {1}, S _ {\rho_ {1}} ^ {t, x}\right)\right) \\ \leq \mathbb {E} \left(e ^ {- \int_ {t} ^ {\rho_ {2}} r d s} p \left(\rho_ {2}, S _ {\rho_ {2}} ^ {t, x}\right)\right) \tag {65} \\ \end{array}
+\begin{array}{l} \mathbb {E} \left(e^{- \int_{t}^{\rho_{1}} r d s} p \left(\rho_{1}, S_{\rho_{1}}^{t, x}\right)\right) \\ \leq \mathbb {E} \left(e^{- \int_{t}^{\rho_{2}} r d s} p \left(\rho_{2}, S_{\rho_{2}}^{t, x}\right)\right) \tag {65} \\ \end{array}
 $$
 
 We deduce from (63) that, for any  $\tau \in T_{[\tau^{*},T]}$ ,
 
 $$
-\begin{array}{l} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right) \mid \mathcal {F} _ {\tau^ {*}}\right) \leq e ^ {- \int_ {t} ^ {\tau^ {*}} r d s} p \left(\tau^ {*}, S _ {\tau^ {*}} ^ {t, x}\right) \\ = e ^ {- \int_ {t} ^ {\tau^ {*}} r d s} \phi \left(S _ {\tau^ {*}} ^ {t, x}\right) \tag {66} \\ \end{array}
+\begin{array}{l} \mathbb {E} \left(e^{- \int_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right) \mid \mathcal {F}_{\tau^{*}}\right) \leq e^{- \int_{t}^{\tau^{*}} r d s} p \left(\tau^{*}, S_{\tau^{*}}^{t, x}\right) \\ = e^{- \int_{t}^{\tau^{*}} r d s} \phi \left(S_{\tau^{*}}^{t, x}\right) \tag {66} \\ \end{array}
 $$ where the last identity comes from the definition (20) of  $\tau^{*}$ . Then, for any stopping time
 
 
 $\tau \in \mathcal{T}_{[t,T]}$ , we have (by decomposing on the events  $\{\tau < \tau^{*}\}$  and  $\{\tau \geq \tau^{*}\}$ ), and using (66) for  $\tau \geq \tau^{*}$ ):
 
 $$
-\mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right)\right) \leq \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau \wedge \tau^ {*}} r d s} \phi \left(S _ {\tau \wedge \tau^ {*}} ^ {t, x}\right)\right)
+\mathbb {E} \left(e^{- \int_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right)\right) \leq \mathbb {E} \left(e^{- \int_{t}^{\tau \wedge \tau^{*}} r d s} \phi \left(S_{\tau \wedge \tau^{*}}^{t, x}\right)\right)
 $$
 
 Hence, by taking the supremum over all the stopping times  $\tau \in \mathcal{T}_{[t,T]}$
 
 $$
-\begin{array}{l} p (t, x) \leq \sup  _ {\tau \in T _ {[ t, T ]}} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau \wedge \tau^ {*}} r d s} \phi \left(S _ {\tau \wedge \tau^ {*}} ^ {t, x}\right)\right) \\ = \sup  _ {\tau \leq \tau^ {*}, \tau \in \mathcal {T} _ {[ t, T ]}} \mathbb {E} \left(e ^ {- f _ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right)\right) \tag {67} \\ \end{array}
+\begin{array}{l} p (t, x) \leq \sup_{\tau \in T_{[ t, T ]}} \mathbb {E} \left(e^{- \int_{t}^{\tau \wedge \tau^{*}} r d s} \phi \left(S_{\tau \wedge \tau^{*}}^{t, x}\right)\right) \\ = \sup_{\tau \leq \tau^{*}, \tau \in \mathcal {T}_{[ t, T ]}} \mathbb {E} \left(e^{- f_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right)\right) \tag {67} \\ \end{array}
 $$
 
 By (15), the right-hand side of (67) is bounded from above by  $p(t,x)$ , and thus we obtain the equality
 
-$$ p (t, x) = \sup  _ {\tau \leq \tau^ {*}, \tau \in \mathcal {T} _ {[ t, T ]}} \mathbb {E} \left(e ^ {- \int_ {t} ^ {\tau} r d s} \phi \left(S _ {\tau} ^ {t, x}\right)\right) \tag {68}
+$$ p (t, x) = \sup_{\tau \leq \tau^{*}, \tau \in \mathcal {T}_{[ t, T ]}} \mathbb {E} \left(e^{- \int_{t}^{\tau} r d s} \phi \left(S_{\tau}^{t, x}\right)\right) \tag {68}
 $$
 
 In fact the supremum in (68) is reached only for  $\tau = \tau^{*}$  a.s.. Indeed, for  $\tau \in \mathcal{T}_{[t,T]}$ , if  $\tau \leq \tau^{*}$  and  $\mathbb{P}(\tau < \tau^{*}) > 0$ , we have, by the definition of  $\tau^{*}$ ,  $\mathbb{E}(e^{-\int_t^\tau rds}\phi (S_\tau^{t,x})) < \mathbb{E}(e^{-\int_t^\tau rds}p(\tau ,S_\tau^{t,x}))\leq p(t,x)$ . This concludes the proof of (21).

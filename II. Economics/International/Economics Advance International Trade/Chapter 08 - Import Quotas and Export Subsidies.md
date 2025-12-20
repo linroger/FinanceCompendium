@@ -122,7 +122,7 @@ We turn now to a second reason for tariffs and quotas to differ, and that is due
 To develop this argument, we will suppose that there are  $i = 1,\dots,N$  varieties of a differentiated product, each of which have characteristics given by the vector  $z_{i}$ . As in our treatment of monopolistic competition in chapter 5, we will suppose that the demand for these product varieties arises from an aggregate utility function, now given by:
 
 $$
-\mathrm {U} \left[ f \left(\mathrm {z} _ {1}\right) \mathrm {c} _ {1}, \dots , f \left(\mathrm {z} _ {\mathrm {N}}\right) \mathrm {c} _ {\mathrm {N}} \right], \tag {8.1}
+\mathrm{U} \left[ f \left(\mathrm{z}_{1}\right) \mathrm{c}_{1}, \dots , f \left(\mathrm{z}_{\mathrm{N}}\right) \mathrm{c}_{\mathrm{N}} \right], \tag {8.1}
 $$
 
 where  $c_i$  denotes the consumption of each variety,  $i = 1, \dots, N$ , and the function  $f(z_i)$  converts the vector of characteristics into a scalar "quality," which then multiplies consumption. Several
@@ -134,7 +134,7 @@ First, if we recognize that the product varieties are actually bought by differe
 Specific functional forms can also be obtained. One case that we shall consider is the CES aggregate utility function:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left[ f \left(\mathrm {z} _ {\mathrm {i}}\right) \mathrm {c} _ {\mathrm {i}} \right] ^ {(\sigma - 1) / \sigma}, \tag {8.2}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left[ f \left(\mathrm{z}_{\mathrm{i}}\right) \mathrm{c}_{\mathrm{i}} \right]^{(\sigma - 1) / \sigma}, \tag {8.2}
 $$
 
 again defined over the consumption  $c_i$  of each good times its quality  $f(z_i)$ . The fact that the CES utility function can arise from a discrete choice problem by individuals is demonstrated by Anderson, de Palma and Thisse (1989; 1992, pp. 85-90), provided that individuals consume continuous amounts of the differentiated good. A more conventional assumption is that they must consume zero or one unit, and in that case, the aggregate demands obtained are the "logit" formulation. We shall use those alternative demand functions at the end of the chapter.
@@ -148,25 +148,25 @@ in the form  $\mathrm{f(z_i)c_i}$ , which we can interpret as "quality times qua
 We begin by analyzing the problem for consumers and firms in the absence of any quota restriction. Consumers are presented with a set of  $i = 1, \dots, N$  varieties, with fixed characteristics  $z_i$  and prices  $p_i$ , and then choose the optimal quantity of each variety. It will be convenient to work with the "quality adjusted" prices, which are defined by  $q_i \equiv p_i / f(z_i)$ . That is, the higher is overall product quality  $f(z_i)$ , the lower are the quality-adjusted prices  $q_i$ . The aggregate consumer maximizes utility in (8.1), subject to the budget constraint  $\sum_{i=1}^{N} p_i c_i \leq I$ . The Lagrangian for this problem is,
 
 $$
-\begin{array}{l} \mathrm {L} = \mathrm {U} [ \mathrm {f} (\mathrm {z} _ {1}) \mathrm {c} _ {1}, \dots , \mathrm {f} (\mathrm {z} _ {\mathrm {N}}) \mathrm {c} _ {\mathrm {N}} ] + \lambda (\mathrm {I} - \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {p} _ {\mathrm {i}} \mathrm {c} _ {\mathrm {i}}) \\ = \mathrm {U} \left(\mathrm {d} _ {1}, \dots , \mathrm {d} _ {\mathrm {N}}\right) + \lambda \left(\mathrm {I} - \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} \mathrm {d} _ {\mathrm {i}}\right), \tag {8.3} \\ \end{array}
+\begin{array}{l} \mathrm{L} = \mathrm{U} [ \mathrm{f} (\mathrm{z}_{1}) \mathrm{c}_{1}, \dots , \mathrm{f} (\mathrm{z}_{\mathrm{N}}) \mathrm{c}_{\mathrm{N}} ] + \lambda (\mathrm{I} - \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{p}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}) \\ = \mathrm{U} \left(\mathrm{d}_{1}, \dots , \mathrm{d}_{\mathrm{N}}\right) + \lambda \left(\mathrm{I} - \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}} \mathrm{d}_{\mathrm{i}}\right), \tag {8.3} \\ \end{array}
 $$
 
-where the second line of (8.3) follows by defining  $\mathrm{d_i} \equiv \mathrm{f(z_i)c_i}$  as the effective "quality-adjusted" demand, and also using the quality-adjusted prices  $\mathrm{q_i} \equiv \mathrm{p_i / f(z_i)}$ . This re-writing of the Lagrangian makes it clear that instead of choosing  $\mathrm{c_i}$  given prices  $\mathrm{p_i}$  and characteristics  $\mathrm{z_i}$ , we can instead think of the aggregate consumer as choosing  $\mathrm{d_i}$  given quality-adjusted prices  $\mathrm{q_i}$ ,  $\mathrm{i = 1,\ldots,N}$ . Let us denote the solution to problem (8.3) by  $\mathrm{d_i(q,I)}$ , where  $\mathbf{q}$  is the vector of quality-adjusted prices.
+where the second line of (8.3) follows by defining  $\mathrm{d_i} \equiv \mathrm{f(z_i)c_i}$  as the effective "quality-adjusted" demand, and also using the quality-adjusted prices  $\mathrm{q_i} \equiv \mathrm{p_i /f(z_i)}$ . This re-writing of the Lagrangian makes it clear that instead of choosing  $\mathrm{c_i}$  given prices  $\mathrm{p_i}$  and characteristics  $\mathrm{z_i}$ , we can instead think of the aggregate consumer as choosing  $\mathrm{d_i}$  given quality-adjusted prices  $\mathrm{q_i}$ ,  $\mathrm{i =1,\ldots,N}$ . Let us denote the solution to problem (8.3) by  $\mathrm{d_i(q,I)}$ , where  $\mathbf{q}$  is the vector of quality-adjusted prices.
 
 Varieties of the differentiated product can be sold by domestic and foreign firms, which we do not distinguish in the notation. Producing one unit of product  $i$  with characteristics  $z_i$  requires unit-costs of  $g_i(z_i)$ , where we are treating factor prices as constant and suppress them in this cost function. $^{10}$  For simplicity, we are assuming constant returns to scale, so that the costs  $g(z_i)$  do not depend on the level of output. Firms simultaneously choose prices  $p_i$  and characteristics  $z_i$ , for the  $i = 1,\dots,N$  varieties. Suppose that a given firm produces the first  $i = 1,\dots,M$  product varieties. Consumption of each of these is  $c_i = d_i(q, I)/f(z_i)$ . The profit-maximization problem for this firm is then:
 
 $$
-\max  _ {\mathrm {p} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \mathrm {p} _ {\mathrm {i}} - \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) \right] \mathrm {c} _ {\mathrm {i}} = \max  _ {\mathrm {q} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \mathrm {q} _ {\mathrm {i}} - \frac {\mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {i}}\right)} \right] \mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}). \tag {8.4}
+\max_{\mathrm{p}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \mathrm{p}_{\mathrm{i}} - \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) \right] \mathrm{c}_{\mathrm{i}} = \max_{\mathrm{q}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \mathrm{q}_{\mathrm{i}} - \frac{\mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{i}}\right)} \right] \mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}). \tag {8.4}
 $$
 
 Again, we have changed the variables from nominal prices  $p_i$  to quality-adjusted prices  $q_i$  when
 
 moving from the left to the right of (8.4). This transformation relies on our assumption that prices and characteristics are chosen simultaneously, as well as our special functional forms.
 
-It is immediate that to maximize profits in (8.4), the firms must minimize  $\mathrm{g_i(z_i) / f(z_i)}$ , which is interpreted as the costs per unit of quality for good i. Taking logs and minimizing this over the choice of characteristics  $z_{i}$  leads to the first-order conditions,
+It is immediate that to maximize profits in (8.4), the firms must minimize  $\mathrm{g_i(z_i) /f(z_i)}$ , which is interpreted as the costs per unit of quality for good i. Taking logs and minimizing this over the choice of characteristics  $z_{i}$  leads to the first-order conditions,
 
 $$
-\frac {1}{f \left(z _ {i}\right)} \frac {\partial f}{\partial z _ {i}} = \frac {1}{g _ {i} \left(z _ {i}\right)} \frac {\partial g _ {i}}{\partial z _ {i}}, \quad i = 1, \dots , M. \tag {8.5}
+\frac{1}{f \left(z_{i}\right)} \frac{\partial f}{\partial z_{i}} = \frac{1}{g_{i} \left(z_{i}\right)} \frac{\partial g_{i}}{\partial z_{i}}, \quad i = 1, \dots , M. \tag {8.5}
 $$
 
 Thus, we obtain equality between the relative marginal utility from each characteristic, on the left of (8.5), and its relative marginal cost, on the right. Notice that this condition holds despite the fact that the firm will be choosing its prices in a monopolistically competitive fashion, provided the prices and characteristics are chosen simultaneously.[11]
@@ -174,7 +174,7 @@ Thus, we obtain equality between the relative marginal utility from each charact
 Maximizing (8.5) over the choice of prices  $p_i$ , we obtain the first-order conditions,
 
 $$
-\mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}) + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ \mathrm {q} _ {\mathrm {j}} - \frac {\mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {j}}\right)} \right] \frac {\partial \mathrm {d} _ {\mathrm {j}}}{\partial \mathrm {q} _ {\mathrm {i}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.6}
+\mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}) + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ \mathrm{q}_{\mathrm{j}} - \frac{\mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{j}}\right)} \right] \frac{\partial \mathrm{d}_{\mathrm{j}}}{\partial \mathrm{q}_{\mathrm{i}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.6}
 $$
 
 This expression is slightly more complicated than usual because the firm is selling multiple products  $j = 1, \dots, M$ , and therefore must take into account the effect of a change in price  $q_i$  on all these products. To simplify this, let us consider the case of a CES utility function in (8.2). Then
@@ -182,19 +182,19 @@ This expression is slightly more complicated than usual because the firm is sell
 it can be confirmed that the demand derivatives are symmetric,  $\partial \mathrm{d_i} / \partial \mathrm{q_j} = \partial \mathrm{d_j} / \partial \mathrm{q_i}$ . Using this in (8.6) and dividing by effective demand  $\mathrm{d_i}$ , we can re-express it as:
 
 $$
-1 + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ 1 - \frac {\mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right)}{\mathrm {p} _ {\mathrm {j}}} \right] \frac {\partial \ln \mathrm {d} _ {\mathrm {i}}}{\partial \ln \mathrm {q} _ {\mathrm {j}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.7}
+1 + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ 1 - \frac{\mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right)}{\mathrm{p}_{\mathrm{j}}} \right] \frac{\partial \ln \mathrm{d}_{\mathrm{i}}}{\partial \ln \mathrm{q}_{\mathrm{j}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.7}
 $$
 
 Let us denote the ratio of price to marginal cost for each product by  $\mu_{\mathrm{j}} = \mathrm{p}_{\mathrm{j}} / \mathrm{g}_{\mathrm{j}}(\mathrm{z}_{\mathrm{j}}) \geq 1$ . We can see that the expression in brackets in (8.7) equals  $(\mu_{\mathrm{i}} - 1) / \mu_{\mathrm{i}} = [\mathrm{p}_{\mathrm{i}} - \mathrm{g}_{\mathrm{i}}(\mathrm{z}_{\mathrm{i}})] / \mathrm{p}_{\mathrm{i}} \geq 0$ , which is the difference between price and marginal cost measured relative to price. This is the Lerner index of monopoly power for a single-product firm, and with price chosen optimally will equal the inverse of its elasticity of demand. To see how this Lerner pricing rule is modified with multi-product firms, let us conjecture a solution where the price-cost ratios are constant across all product sold by the firm in question,  $\mu_{\mathrm{j}} = \mu$ . Then it is immediate that the solution to (8.7) is:
 
 $$
-\left(\frac {\mu - 1}{\mu}\right) = - \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {\partial \ln \mathrm {d} _ {\mathrm {i}}}{\partial \ln \mathrm {q} _ {\mathrm {j}}}\right) ^ {- 1}. \tag {8.8}
+\left(\frac{\mu - 1}{\mu}\right) = - \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{\partial \ln \mathrm{d}_{\mathrm{i}}}{\partial \ln \mathrm{q}_{\mathrm{j}}}\right)^{- 1}. \tag {8.8}
 $$
 
 Expression (8.8) says that the Lerner index for the firm equals the inverse of the sum of demand elasticities. In order for this solution to be valid, we need to have that the sum of elasticities on the right of (8.8) are independent of good  $i$ . That is, an equi-proportional increase in all prices charged by a firm needs to lead to the same percentage drop in demand for any product sold by that firm. It turns out that this condition is satisfied for CES demands, in which case the sum of elasticities are,
 
 $$
-- \left(\sum_ {j = 1} ^ {M} \frac {\partial \ln d _ {i}}{\partial \ln q _ {j}}\right) = \sigma + (1 - \sigma) \left(\sum_ {j = 1} ^ {M} \frac {p _ {j} c _ {j}}{I}\right), \tag {8.9}
+- \left(\sum_{j = 1}^{M} \frac{\partial \ln d_{i}}{\partial \ln q_{j}}\right) = \sigma + (1 - \sigma) \left(\sum_{j = 1}^{M} \frac{p_{j} c_{j}}{I}\right), \tag {8.9}
 $$
 
 where  $\sigma > 1$  is the elasticity of substitution between products. The expression on the right of (8.9) is the sum of sales over all products sold by the firm, measured relative to total expenditure I on the differentiated product. In other words, the expression on the right is the total market share of the firm. As the market share grows, the sum of elasticities falls, and the markup of the firm will rise in (8.8).
@@ -202,7 +202,7 @@ where  $\sigma > 1$  is the elasticity of substitution between products. The exp
 Using the solution for  $\mu$  from (8.8) and (8.9), the optimal prices of the firm are:
 
 $$
-p _ {i} = \mu g _ {i} \left(z _ {i}\right), \quad i = 1, \dots , M. \tag {8.10}
+p_{i} = \mu g_{i} \left(z_{i}\right), \quad i = 1, \dots , M. \tag {8.10}
 $$
 
 Thus, in this CES case the firm charges the same markups over all products that it sells. This is certainly special and would not carry over to other functional forms. Bresnahan (1981) was the first to estimate a discrete choice model for autos that allowed for differing markups over product sold, and found that higher-priced models tended to have higher percentage markups. Similarly, Berry, Levinsohn and Pakes (1995, 1999), Feenstra and Levinsohn (1995) and Goldberg (1995) use functional forms more general than CES that allow markups to differ across products. These papers go beyond the scope of this chapter, though the theory behind them is discussed in Appendix B, and we shall comment on their empirical findings below.
@@ -214,33 +214,33 @@ Suppose now that the exports of a foreign firm is restricted to not exceed the a
 International Trade and Industry (MITI). We do not introduce a subscript to denote the foreign firms, but analyze the profit maximization problem for any such firm. The Lagrangian is:
 
 $$
-\begin{array}{l} L = \max  _ {q _ {i}, z _ {i}} \sum_ {i = 1} ^ {M} \left[ q _ {i} - \frac {g _ {i} \left(z _ {i}\right)}{f \left(z _ {i}\right)} \right] d _ {i} \left(q _ {i}, I\right) + \lambda \left(\bar {X} - \sum_ {i = 1} ^ {M} \frac {d _ {i} (q , I)}{f _ {i} \left(z _ {i}\right)}\right) \tag {8.11} \\ = \max  _ {q _ {i}, z _ {i}} \sum_ {i = 1} ^ {M} \left[ q _ {i} - \frac {g _ {i} \left(z _ {i}\right) + \lambda}{f \left(z _ {i}\right)} \right] d _ {i} (q, I) + \lambda \overline {{X}}, \\ \end{array}
+\begin{array}{l} L = \max_{q_{i}, z_{i}} \sum_{i = 1}^{M} \left[ q_{i} - \frac{g_{i} \left(z_{i}\right)}{f \left(z_{i}\right)} \right] d_{i} \left(q_{i}, I\right) + \lambda \left(\bar {X} - \sum_{i = 1}^{M} \frac{d_{i} (q , I)}{f_{i} \left(z_{i}\right)}\right) \tag {8.11} \\ = \max_{q_{i}, z_{i}} \sum_{i = 1}^{M} \left[ q_{i} - \frac{g_{i} \left(z_{i}\right) + \lambda}{f \left(z_{i}\right)} \right] d_{i} (q, I) + \lambda \overline {{X}}, \\ \end{array}
 $$
 
 where the second line follows by simply combining terms. Thus, to maximize profits, it is now the case that the foreign firms will choose characteristics  $z_i$  to minimize  $[g_i(z_i) + \lambda] / f(z_i)$ . Taking logs, the first order condition for this minimization problem is:
 
 $$
-\frac {1}{f \left(z _ {i}\right)} \frac {\partial f}{\partial z _ {i}} = \frac {1}{\left[ g _ {i} \left(z _ {i}\right) + \lambda \right] \partial z _ {i}}, \quad i = 1, \dots , M. \tag {8.12}
+\frac{1}{f \left(z_{i}\right)} \frac{\partial f}{\partial z_{i}} = \frac{1}{\left[ g_{i} \left(z_{i}\right) + \lambda \right] \partial z_{i}}, \quad i = 1, \dots , M. \tag {8.12}
 $$
 
 Thus, in contrast to the first-order condition in (8.5), we no longer obtain an equality between relative marginal utility and marginal costs of characteristics. This equality is broken by the binding quota constraint, and higher value of  $\lambda$  will be associated with higher levels of characteristics chosen by the firm. To see this, totally differentiate (8.12) with respect to  $z_{i}$  and  $\lambda$  to obtain:
 
 $$
-\frac {\mathrm {d} \mathrm {z} _ {\mathrm {i}}}{\mathrm {d} \lambda} = \frac {1}{\left[ \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) + \lambda \right] ^ {2}} \left[ \frac {\partial^ {2} \ln \left(\mathrm {g} _ {\mathrm {i}} + \lambda\right)}{\partial \mathrm {z} _ {\mathrm {i}} ^ {2}} - \frac {\partial^ {2} \ln \mathrm {f}}{\partial \mathrm {z} _ {\mathrm {i}} ^ {2}} \right] ^ {- 1} \frac {\partial \mathrm {g} _ {\mathrm {i}}}{\partial \mathrm {z} _ {\mathrm {i}}} . \tag {8.13}
+\frac{\mathrm{d} \mathrm{z}_{\mathrm{i}}}{\mathrm{d} \lambda} = \frac{1}{\left[ \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) + \lambda \right]^{2}} \left[ \frac{\partial^{2} \ln \left(\mathrm{g}_{\mathrm{i}} + \lambda\right)}{\partial \mathrm{z}_{\mathrm{i}}^{2}} - \frac{\partial^{2} \ln \mathrm{f}}{\partial \mathrm{z}_{\mathrm{i}}^{2}} \right]^{- 1} \frac{\partial \mathrm{g}_{\mathrm{i}}}{\partial \mathrm{z}_{\mathrm{i}}} . \tag {8.13}
 $$
 
 The matrix of second derivatives shown in brackets on the right of (8.13) is positive definite from the second-order conditions for minimizing  $\left[\mathrm{g}_{\mathrm{i}}\left(\mathrm{z}_{\mathrm{i}}\right) + \lambda \right] / \mathrm{f}\left(\mathrm{z}_{\mathrm{i}}\right)$ . While this does not
 
-establish the sign of the vector  $\mathrm{dz_i / d\lambda}$ , notice that we can pre-multiply (8.13) by the row vector  $\partial \mathrm{f} / \partial \mathrm{z}_{\mathrm{i}}^{\prime}$ , which from (8.12) is proportional to the vector  $\partial \mathrm{g_i} / \partial \mathrm{z_i}'$ . Then we will obtain a positive definite matrix that is pre- and post-multiplied by vectors that are proportional, and is therefore positive:
+establish the sign of the vector  $\mathrm{dz_i /d\lambda}$ , notice that we can pre-multiply (8.13) by the row vector  $\partial \mathrm{f} / \partial \mathrm{z}_{\mathrm{i}}^{\prime}$ , which from (8.12) is proportional to the vector  $\partial \mathrm{g_i} / \partial \mathrm{z_i}'$ . Then we will obtain a positive definite matrix that is pre- and post-multiplied by vectors that are proportional, and is therefore positive:
 
 $$
-\frac {\mathrm {d f} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {d} \lambda} = \frac {\partial \mathrm {f} ^ {\prime}}{\partial \mathrm {z} _ {\mathrm {i}}} \frac {\mathrm {d z} _ {\mathrm {i}}}{\mathrm {d} \lambda} > 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.14}
+\frac{\mathrm{df} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{d} \lambda} = \frac{\partial \mathrm{f}^{\prime}}{\partial \mathrm{z}_{\mathrm{i}}} \frac{\mathrm{dz}_{\mathrm{i}}}{\mathrm{d} \lambda} > 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.14}
 $$
 
 Thus, overall product quality is increased for every product sold by foreign firms due to the export restraint. This is our first demonstration of the idea that quotas lead to an increase in product quality. $^{13}$  Notice that this would not occur under an ad valorem tariff, however. In that case the profit-maximization problem (8.4) would be re-written as:
 
 $$
-\max  _ {\mathrm {p} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \frac {\mathrm {p} _ {\mathrm {i}}}{(1 + \tau)} - \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) \right] \mathrm {c} _ {\mathrm {i}} = \max  _ {\mathrm {q} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \frac {\mathrm {q} _ {\mathrm {i}}}{(1 + \tau)} - \frac {\mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {i}}\right)} \right] \mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}), \tag {8.4'}
+\max_{\mathrm{p}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \frac{\mathrm{p}_{\mathrm{i}}}{(1 + \tau)} - \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) \right] \mathrm{c}_{\mathrm{i}} = \max_{\mathrm{q}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \frac{\mathrm{q}_{\mathrm{i}}}{(1 + \tau)} - \frac{\mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{i}}\right)} \right] \mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}), \tag {8.4'}
 $$
 
 where  $\tau$  is the ad valorem tariff. Changes in the tariff would have no effect at all on the optimal choice of characteristics in (8.5), which continues to hold.
@@ -250,7 +250,7 @@ There is also a second sense in which product quality is increased, and that com
 optimal prices are increased according to the Lagrange multiplier on the export restraint:  $^{14}$
 
 $$
-p _ {i} = \mu \left[ g _ {i} \left(z _ {i}\right) + \lambda \right], \quad i = 1, \dots , M, \tag {8.15}
+p_{i} = \mu \left[ g_{i} \left(z_{i}\right) + \lambda \right], \quad i = 1, \dots , M, \tag {8.15}
 $$
 
 where  $\mu$  is once again the markup charged on all product sold by the firm, as solved from (8.8) and (8.9). With  $\lambda$  and  $\mu$  both common across all products sold by a firm, we see that the effect of the VER is to introduce a dollar price increase of  $\mu \lambda$  to the price of every product sold. In other words, the VER acts in the same way as a specific price increase, and not like a proportional price increase across products.[15]
@@ -263,14 +263,14 @@ towards the higher-priced product so that  $\mathrm{d}_1 / \mathrm{d}_2$  increa
 
 The above description of quality upgrading due to shifts in demand is called the "Washington apples" effect, after the example given by Alchian and Allen (1964, pp. 74-75). They noted that while the state of Washington grows apples of many varieties, it appeared that the best apples were shipped the furthest distance, to east coast markets. This is explained by treating the transport costs as the same for each apple. Transport therefore acts like a specific price increase, which lowers the relative price of the higher-quality apples in more distance markets. Accordingly, we expect to see the best apples shipped to the east coast, which raises the average quality in those markets.
 
-In summary, there are two reasons to expect import quality to rise with a quota on the number of units sold: due to the increase in characteristics chosen by the exporting firms; and due to the shift in demand towards the higher-quality products. These two effects can certainly work together. In the model above, the demands  $\mathrm{d_i(q_i,I)}$  for quality-adjusted consumption  $\mathrm{f(z_i)c_i}$ , are determined by the quality-adjusted prices  $\mathrm{q_i\equiv p_i / f(z_i)}$ . So let us see how these prices are affected by the quota, even as characteristics change.
+In summary, there are two reasons to expect import quality to rise with a quota on the number of units sold: due to the increase in characteristics chosen by the exporting firms; and due to the shift in demand towards the higher-quality products. These two effects can certainly work together. In the model above, the demands  $\mathrm{d_i(q_i,I)}$  for quality-adjusted consumption  $\mathrm{f(z_i)c_i}$ , are determined by the quality-adjusted prices  $\mathrm{q_i\equivp_i /f(z_i)}$ . So let us see how these prices are affected by the quota, even as characteristics change.
 
 Using (8.15), the quality-adjusted prices are written as  $q_{i} = \mu [g_{i}(z_{i}) + \lambda] / f_{i}(z_{i})$ . From our discussion following (8.8), we know that  $[g_{i}(z_{i}) + \lambda] / f_{i}(z_{i})$  is minimized over the choice of characteristics  $z_{i}$ . Then by the envelope theorem, when differentiating this expression we can
 
 treat the characteristics as fixed. Accordingly, we can compute the change in quality-adjusted prices due to the quota as:
 
 $$
-\frac {\mathrm {d} \ln q _ {\mathrm {i}}}{\mathrm {d} \lambda} = \frac {\mathrm {d} \ln \mu}{\mathrm {d} \lambda} + \frac {1}{\left[ g _ {\mathrm {i}} \left(z _ {\mathrm {i}}\right) + \lambda \right]} = \frac {\mathrm {d} \ln \mu}{\mathrm {d} \lambda} + \frac {\mu}{p _ {\mathrm {i}}} . \tag {8.16}
+\frac{\mathrm{d} \ln q_{\mathrm{i}}}{\mathrm{d} \lambda} = \frac{\mathrm{d} \ln \mu}{\mathrm{d} \lambda} + \frac{1}{\left[ g_{\mathrm{i}} \left(z_{\mathrm{i}}\right) + \lambda \right]} = \frac{\mathrm{d} \ln \mu}{\mathrm{d} \lambda} + \frac{\mu}{p_{\mathrm{i}}} . \tag {8.16}
 $$
 
 The first term on the right of (8.16) is the change in markup due to the VER, which is common across products, while the second term is smallest for the highest-priced products. Therefore, we will observe the smallest relative increase in quality-adjusted price for those products with the highest prices. This can be expected to shift demand towards the highest-priced products, just as in the "Washington apples" effect.
@@ -286,7 +286,7 @@ automobiles in the U.S. market. For the period April 1981 – March 1982, this l
 Our interest, then, is in the effects of the VER during the early years. To estimate the change in product quality, initially consider the case where there is no VER. Assuming that marginal costs take the form  $\ln \mathrm{g_i(z_{it})} = \beta '\mathrm{z_{it}} + \xi_{it}$ , where  $\xi_{it}$  is a random error that reflects unmeasured characteristics, and we add the subscript  $t$  to denote years. Then the first order condition (8.10) is written in logs as:
 
 $$
-\ln p _ {i t} = \alpha_ {t} + \beta^ {\prime} z _ {i t} + \xi_ {i t}, \quad i = 1, \dots , M, \tag {8.17}
+\ln p_{i t} = \alpha_{t} + \beta^{\prime} z_{i t} + \xi_{i t}, \quad i = 1, \dots , M, \tag {8.17}
 $$
 
 where  $\alpha_{t} = \ln \mu_{t}$  reflects the markups. We should also be indexing  $\alpha_{t}$  by firms (since the markups differ across firms), but will omit this notation. Equation (8.17) is a log-linear regression of prices on characteristics and is called a "hedonic regression." Our derivation shows that this is a valid representation of the equilibrium under imperfect competition provided that markups are the same across products (as in the CES case). Furthermore, using the equality between relative marginal utility from each characteristic, on the left of (8.5), and relative marginal cost on the right, we can interpret the coefficients  $\beta$  in (8.17) in either way.
@@ -312,7 +312,7 @@ c Of the 2.506 million total, 2.30 million were cars sold to the U.S.
 Under the VER, the first order condition becomes (8.15). For the same specification of marginal costs,  $\ln \mathrm{g_i(z_{it})} = \beta '\mathrm{z_{it}} + \xi_{it}$ , this is re-written as:
 
 $$
-p _ {i t} = \exp \left(\alpha_ {t} + \beta^ {\prime} z _ {i t} + \xi_ {i t}\right) + s _ {t}, \quad i = 1, \dots , M, \tag {8.18}
+p_{i t} = \exp \left(\alpha_{t} + \beta^{\prime} z_{i t} + \xi_{i t}\right) + s_{t}, \quad i = 1, \dots , M, \tag {8.18}
 $$
 
 where  $\alpha_{\mathrm{t}} = \ln \mu_{\mathrm{t}}$  are the markups and  $s_t = \mu_t\lambda_t$  are the specific price increases due to the VER.
@@ -320,13 +320,13 @@ where  $\alpha_{\mathrm{t}} = \ln \mu_{\mathrm{t}}$  are the markups and  $s_t =
 To convert the random error to an additive form, define:
 
 $$
-\begin{array}{l} \varepsilon_ {\mathrm {i t}} = \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}} + \xi_ {\mathrm {i t}}\right) - \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}}\right) \tag {8.19} \\ = \left[ \exp \left(\xi_ {\mathrm {i t}}\right) - 1 \right] \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}}\right). \\ \end{array}
+\begin{array}{l} \varepsilon_{\mathrm{it}} = \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}} + \xi_{\mathrm{it}}\right) - \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}}\right) \tag {8.19} \\ = \left[ \exp \left(\xi_{\mathrm{it}}\right) - 1 \right] \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}}\right). \\ \end{array}
 $$
 
 Then (8.18) is re-written as:
 
 $$
-p _ {i t} = \exp \left(\alpha_ {t} + \beta^ {\prime} z _ {i t}\right) + s _ {t} + \varepsilon_ {i t}, \quad i = 1, \dots , M, \tag {8.20}
+p_{i t} = \exp \left(\alpha_{t} + \beta^{\prime} z_{i t}\right) + s_{t} + \varepsilon_{i t}, \quad i = 1, \dots , M, \tag {8.20}
 $$
 
 Thus, under the VER we need to allow for specific price increases  $s_t$  from year to year, as well as the proportional price changes captured by  $\alpha_t$ .
@@ -340,7 +340,7 @@ An initial estimate of (8.20) for 1979-85, using the base version of each Japane
 To address this multicollinearity, we consider pooling data for U.S. imports of Japanese cars and trucks. Denoting trucks with an asterisk, we re-write the hedonic regression (8.17) as,
 
 $$
-\ln p _ {i t} ^ {*} = \alpha_ {t} ^ {*} + \beta^ {*} z _ {i t} ^ {*} + \xi_ {i t} ^ {*}, \quad i = 1, \dots , M. \tag {8.21}
+\ln p_{i t}^{*} = \alpha_{t}^{*} + \beta^{*} z_{i t}^{*} + \xi_{i t}^{*}, \quad i = 1, \dots , M. \tag {8.21}
 $$
 
 Thus, we are allowing truck to have different coefficient on its characteristics than cars, and also differing proportional price increases  $\alpha_{\mathrm{t}}^{*}$ . Because trucks were not subject to the VER, we do
@@ -364,7 +364,7 @@ not include any specific price increases in this regression. Estimates of (8.21)
 We now consider testing the hypothesis that the year-to-year price changes in Japanese cars and truck exports to the U.S. would be the same, after correcting for the trade policies in each product. Cars were subject to the VER after April 1981, whereas trucks imported from Japan were subject to an increase in the tariff from  $4\%$  to  $25\%$  after August 1980, as discussed in the previous chapter. Feenstra (1988a) argues that the  $21\%$  increase in the wholesale price of trucks as they cross the border would be reflected by at most a  $16\%$  increase in the retail price.[18] Accordingly, we consider testing the hypothesis that the proportional year increase for trucks,  $\alpha_{t}^{*}$ , is 0.16 greater than the proportional year increase for cars,  $\alpha_{t}$ , for 1981 and later years:
 
 $$
-\alpha_ {t} ^ {*} = \alpha_ {t} + 0. 1 6 \quad \text {f o r} t = 1 9 8 1, 8 2, \dots , 8 5. \tag {8.22}
+\alpha_{t}^{*} = \alpha_{t} + 0. 1 6 \quad \text{fo r} t = 1 9 8 1, 8 2, \dots , 8 5. \tag {8.22}
 $$
 
 Feenstra (1988a) finds that this hypothesis is accepted in all years except 1985, and so it is imposed on the subsequent estimation except for that year.
@@ -419,7 +419,7 @@ subsidies must be counted against any increase in profits of the receiving indus
 
 # Perfect Competition
 
-We consider first the case of a small country, in Figure 8.6. In panel (a) we show the domestic demand D and supply S curves, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_{0}$  and supply at  $\mathrm{y_0}$ , so exports are  $\mathrm{x_0 = y_0 - c_0}$ . This is shown in panel (b), which graphs the domestic export supply curve  $\mathrm{X} = \mathrm{S} - \mathrm{D}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal import demand curve from the rest of the world, which intersects X at the equilibrium exports  $\mathrm{x_0}$ .
+We consider first the case of a small country, in Figure 8.6. In panel (a) we show the domestic demand D and supply S curves, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_{0}$  and supply at  $\mathrm{y_0}$ , so exports are  $\mathrm{x_0 =y_0 -c_0}$ . This is shown in panel (b), which graphs the domestic export supply curve  $\mathrm{X} = \mathrm{S} - \mathrm{D}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal import demand curve from the rest of the world, which intersects X at the equilibrium exports  $\mathrm{x_0}$ .
 
 Now suppose that firms in the home industry are given a subsidy of  $s$  dollars per unit exported. With this subsidy, the home industry would be able to earn  $p^* + s$  on all quantities that are exported. Accordingly, firms in this industry would be unwilling to sell at home for anything less than that amount, and the domestic price must also rise to  $p^* + s$ . At this price, domestic demand falls to  $c_1$  and supply rises to  $y_1$ , so exports rise to the amount  $x_1 = y_1 - c_1$ . This corresponds to a rightward shift of the domestic export supply curve in panel (b), because at the same international price of  $p^*$ , exports have increased from  $x_0$  to  $x_1$ . Equivalently, the export supply curve shifts downward, from  $X$  to  $X'$ , by the amount of the subsidy  $s$ .[23]
 
@@ -458,7 +458,7 @@ advantage in the goods of lowest index  $z$ . In equilibrium, the "borderline" g
 Itoh and Kiyono first consider a home export subsidy of  $s$  to all goods exported. This has the effect of expanding the range of exports from  $[0, z')$  to  $[0, z_1)$ , with  $z_1 > z'$ . The new borderline good satisfies  $[\mathrm{wa}(z_1) - s] = \mathrm{w}^* \mathrm{a}^*(z_1)$ , where  $\mathrm{wa}(z_1)$  is the home price for that good and  $[\mathrm{wa}(z_1) - s]$  is the subsidized export price. Simplifying this equation, relative wages are:
 
 $$
-\frac {\mathrm {w}}{\mathrm {w} ^ {*}} - \left(\frac {\mathrm {s}}{\mathrm {w} ^ {*} \mathrm {a} \left(\mathrm {z} _ {1}\right)}\right) = \frac {\mathrm {a} ^ {*} \left(\mathrm {z} _ {1}\right)}{\mathrm {a} \left(\mathrm {z} _ {1}\right)}. \tag {8.23}
+\frac{\mathrm{w}}{\mathrm{w}^{*}} - \left(\frac{\mathrm{s}}{\mathrm{w}^{*} \mathrm{a} \left(\mathrm{z}_{1}\right)}\right) = \frac{\mathrm{a}^{*} \left(\mathrm{z}_{1}\right)}{\mathrm{a} \left(\mathrm{z}_{1}\right)}. \tag {8.23}
 $$
 
 As suggested by this equation, the direct effect of an export subsidy is to raise relative home wage. There is also an indirect effect through the increase in  $z_1$ , which lowers  $a^*(z_1) / a(z_1)$ , but the net outcome is still an increase in  $w / w^*$  due to the subsidy  $s > 0$ .
@@ -480,13 +480,13 @@ are interested in whether the home government can give its own firm a "strategic
 We let  $x$  denote the sales of the home firm and  $x^*$  the sales of the foreign firm to the third market. We will treat  $x$  and  $x^*$  as differentiated products, so the home firm earns the price  $p(x, x^*)$  and the foreign firm earns  $p^*(x, x^*)$ . It will be sufficient for our purposes to study the profit maximization of the home firm, as the foreign firm's problem is similar. Home profits from exporting are,
 
 $$
-\pi = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) \mathrm {x} - \mathrm {C} (\mathrm {x}), \tag {8.24}
+\pi = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) \mathrm{x} - \mathrm{C} (\mathrm{x}), \tag {8.24}
 $$
 
 Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {x}} = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) + \mathrm {x p} _ {\mathrm {x}} - \mathrm {C} ^ {\prime} (\mathrm {x}) = 0, \tag {8.25}
+\pi_{\mathrm{x}} = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) + \mathrm{xp}_{\mathrm{x}} - \mathrm{C}^{\prime} (\mathrm{x}) = 0, \tag {8.25}
 $$
 
 and the second-order condition is  $\pi_{\mathrm{xx}} = 2\mathrm{p_x} + \mathrm{xp}_{\mathrm{xx}} - \mathrm{C}'' < 0$
@@ -498,19 +498,19 @@ reaction curve  $\mathbf{R}^{*}\mathbf{R}^{*}$  from above, as illustrated. $^{2
 Now consider the impact of an export subsidy. Letting  $\mathfrak{p}(\mathbf{x},\mathbf{x}^{*})$  denote the price paid by the buyer and  $s$  denote the specific subsidy, then  $\mathfrak{p}(\mathbf{x},\mathbf{x}^{*}) + s$  is the subsidized price received by the home firm. Home profits are therefore,
 
 $$
-\pi = [ p (x, x ^ {*}) + s ] x - C (x). \tag {8.26}
+\pi = [ p (x, x^{*}) + s ] x - C (x). \tag {8.26}
 $$
 
 Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {x}} = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) + \mathrm {s} + \mathrm {x p} _ {\mathrm {x}} - \mathrm {C} ^ {\prime} (\mathrm {x}) = 0, \tag {8.27}
+\pi_{\mathrm{x}} = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) + \mathrm{s} + \mathrm{xp}_{\mathrm{x}} - \mathrm{C}^{\prime} (\mathrm{x}) = 0, \tag {8.27}
 $$
 
 where (8.27) defines a new reaction curve  $\mathrm{x} = \mathrm{r}(\mathrm{x}^*,\mathrm{s})$ . To check how this reaction curve depends on the subsidy  $\mathrm{s}$ , totally differentiate (8.27) to obtain,
 
 $$
-\frac {\mathrm {d} \mathbf {x}}{\mathrm {d} s} = - \frac {1}{\pi_ {\mathrm {x x}}} > 0 ,
+\frac{\mathrm{d} \mathbf {x}}{\mathrm{d} s} = - \frac{1}{\pi_{\mathrm{xx}}} > 0 ,
 $$
 
 where this sign is obtained from the second-order condition for maximizing (8.26).
@@ -526,7 +526,7 @@ Figure 8.9
 cost of the subsidy.[27] Since the subsidy cost is the amount sx, welfare becomes,
 
 $$
-\mathrm {W} = \left[ \mathrm {p} \left(\mathrm {x}, \mathrm {x} ^ {*}\right) + \mathrm {s} \right] \mathrm {x} - \mathrm {C} (\mathrm {x}) - \mathrm {s x} = \mathrm {p} \left(\mathrm {x}, \mathrm {x} ^ {*}\right) \mathrm {x} - \mathrm {C} (\mathrm {x}). \tag {8.28}
+\mathrm{W} = \left[ \mathrm{p} \left(\mathrm{x}, \mathrm{x}^{*}\right) + \mathrm{s} \right] \mathrm{x} - \mathrm{C} (\mathrm{x}) - \mathrm{sx} = \mathrm{p} \left(\mathrm{x}, \mathrm{x}^{*}\right) \mathrm{x} - \mathrm{C} (\mathrm{x}). \tag {8.28}
 $$
 
 Notice that the expression on the right of (8.28) is identical to the original expression for home profits in (8.24). That is, by taking the subsidized profits in (8.26), and subtracting the amount of subsidy, we get back the initial profits. This means that the original iso-profit curves for the home firm, such as illustrated by  $\pi$  in Figure 8.8, now measure social welfare. We therefore re-label these iso-profit contours as W rather than  $\pi$ .
@@ -538,13 +538,13 @@ The difference between profits in (8.24) and social welfare in (8.28), however, 
 We now contrast the results obtained above to a Bertrand duopoly, when the home and foreign firms are each choosing prices as the strategic variable, rather than quantities. Denote exports of the home firms to the third market by  $\mathrm{x(p,p^*)}$ , where  $\mathfrak{p}$  is the price paid by the buyer. Letting  $s$  denote the specific subsidy, then  $(p + s)$  is the subsidized price received by the home firm. Home profits are therefore,
 
 $$
-\pi = (\mathrm {p} + \mathrm {s}) \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ]. \tag {8.29}
+\pi = (\mathrm{p} + \mathrm{s}) \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ]. \tag {8.29}
 $$
 
 Maximizing this over the choice of  $p$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {p}} = \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) + (\mathrm {p} + \mathrm {s}) \mathrm {x} _ {\mathrm {p}} - \mathrm {C} ^ {\prime} (\mathrm {x}) \mathrm {x} _ {\mathrm {p}} = 0. \tag {8.30}
+\pi_{\mathrm{p}} = \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) + (\mathrm{p} + \mathrm{s}) \mathrm{x}_{\mathrm{p}} - \mathrm{C}^{\prime} (\mathrm{x}) \mathrm{x}_{\mathrm{p}} = 0. \tag {8.30}
 $$
 
 Given the foreign price  $p^*$  and the subsidy, we can use (8.30) to solve for home export price  $p$ , obtaining the reaction curve  $p = r(p^*, s)$ . The analogous condition for the foreign exporter can be used to solve for foreign reaction curve  $p^* = r^*(p)$ . These are illustrated in Figure 8.10, with the typical properties that they are upward sloping and have a dampened response of each price to that of the competing good, so that  $\frac{dp}{dp^*} \frac{p^*}{p} = r_{p^*}(p^*, s) \frac{p^*}{p} < 1$ , and  $\frac{dp^*}{dp} \frac{p^*}{p^*} = r_p^*(p) \frac{p}{p^*} < 1$ . With a zero subsidy, the intersection of these determines the Bertrand equilibrium, at point B in Figure 8.10. The iso-profit curves of  $\pi$  have higher profits in the rightward direction (i.e. for higher  $p^*$ ), and similarly the iso-profit curve  $\pi^*$  have higher foreign profits in the upward direction (for higher  $p$ ), as illustrated.
@@ -552,7 +552,7 @@ Given the foreign price  $p^*$  and the subsidy, we can use (8.30) to solve for 
 Now consider how the application of an export subsidy shifts the home reaction curve. Totally differentiating (8.30), we obtain:
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d s}} = - \frac {\mathrm {x} _ {\mathrm {p}}}{\pi_ {\mathrm {p p}}} <   0, \tag {8.31}
+\frac{\mathrm{dp}}{\mathrm{ds}} = - \frac{\mathrm{x}_{\mathrm{p}}}{\pi_{\mathrm{pp}}} <   0, \tag {8.31}
 $$
 
 where the sign of (8.31) is obtained because  $x_p < 0$ , and  $\pi_{pp} < 0$  from the second-order condition for profit maximization. Thus, (8.31) shows that the export subsidy will unambiguously lower
@@ -568,7 +568,7 @@ the price charged by the home firm for its exports (given the foreign price). In
 To see how this affects home welfare, we again subtract the cost of the subsidy from (8.29) to obtain home welfare,
 
 $$
-\mathrm {W} = (\mathrm {p} + \mathrm {s}) \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ] - \mathrm {s x} (\mathrm {p}, \mathrm {p} ^ {*}) = \mathrm {p x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ]. \tag {8.32}
+\mathrm{W} = (\mathrm{p} + \mathrm{s}) \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ] - \mathrm{sx} (\mathrm{p}, \mathrm{p}^{*}) = \mathrm{px} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ]. \tag {8.32}
 $$
 
 In (8.32), we once again obtain a measure of welfare that is identical to home profits in the absence of the export subsidy. This is shown by the is-profit curve labeled  $\pi$  in Figure 8.10 and W in Figure 8.11, and increases in the rightward direction, i.e. when the foreign price  $p^*$  increases. It is clear from Figure 8.11 that the export subsidy, by leading to a fall in prices, has reduced home welfare. The reason is that any increase in home profits – measured inclusive of the subsidy – is more than offset by the revenue cost of the subsidy, so that profits measured without the subsidy – which equals welfare – has declined.
@@ -611,7 +611,7 @@ The goal of Irwin and Pavcnik (2001) is to estimate demand and markups for wide-
 Demand for a differentiated product depends on the quality-adjusted prices, which we wrote earlier as  $q_{i} = p_{i} / f(z_{i})$ . Suppose that we instead measure quality-adjusted prices  $q_{i}$  by the difference between nominal prices  $p_{i}$  and quality  $f(z_{i})$ . In addition, we assume that quality is a linear function of characteristics, so the quality-adjusted prices become  $q_{j} = \alpha p_{j} - \beta' z_{j} - \xi_{j}$ . In this notation,  $\xi_{j}$  reflects unmeasured characteristics of product  $j$ , which we treat as a random variable. Then the logit specification of demand is:
 
 $$
-s _ {i} = \frac {e ^ {- q _ {i}}}{\left[ \sum_ {j = 1} ^ {N} e ^ {- q _ {j}} \right]} = \frac {e ^ {\beta^ {\prime} z _ {i} - \alpha p _ {i} + \xi_ {i}}}{\left[ \sum_ {j = 1} ^ {N} e ^ {\beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}} \right]}, \tag {8.33}
+s_{i} = \frac{e^{- q_{i}}}{\left[ \sum_{j = 1}^{N} e^{- q_{j}} \right]} = \frac{e^{\beta^{\prime} z_{i} - \alpha p_{i} + \xi_{i}}}{\left[ \sum_{j = 1}^{N} e^{\beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}} \right]}, \tag {8.33}
 $$
 
 where  $s_i$  denotes the market share of product  $i$ , measured by quantity demanded of product  $i$  relative to total quantity of all products  $j = 1, \dots, N$ . As shown in Appendix B, the logit specification in (8.33) arises quite naturally from a discrete choice model, and can also be viewed as the demand from a representative consumer using McFadden's aggregation theorem.
@@ -619,7 +619,7 @@ where  $s_i$  denotes the market share of product  $i$ , measured by quantity de
 To estimate the parameters of (8.33), we take logs and difference with an "outside" good indexed by 0, to obtain:
 
 $$
-\ln \mathrm {s} _ {\mathrm {i}} - \ln \mathrm {s} _ {0} = \beta^ {\prime} \mathrm {z} _ {\mathrm {i}} - \alpha \mathrm {p} _ {\mathrm {i}} + \xi_ {\mathrm {i}}, \tag {8.34}
+\ln \mathrm{s}_{\mathrm{i}} - \ln \mathrm{s}_{0} = \beta^{\prime} \mathrm{z}_{\mathrm{i}} - \alpha \mathrm{p}_{\mathrm{i}} + \xi_{\mathrm{i}}, \tag {8.34}
 $$
 
 where the quality-adjusted price  $\mathrm{q}_0$  of the "outside" good is normalized to zero. Thus, in (8.34) we regress the difference in market shares on the prices and characteristics of product i, to estimate the parameters  $(\alpha, \beta)$ . The approach can be contrasted with the hedonic regression in (8.17), where we are regressing prices on characteristics, while in (8.34) we are regressing market shares on characteristics and price. In both cases, we interpret  $\beta$  as the consumer valuation of characteristics. We can think of (8.34) as an alternative procedure to the hedonic regression, as proposed by Berry (1994).
@@ -627,7 +627,7 @@ where the quality-adjusted price  $\mathrm{q}_0$  of the "outside" good is norma
 Irwin and Pavcnik treat wide-body aircraft as differentiated into two market segments: those for medium-range and those for long-range trips. Denoting the products in each of these two groups by  $\mathrm{J_g}$ , for  $\mathrm{g} = 1,2$ , it is shown by Berry (see Appendix B) that the quantity-share of demand for each type of aircraft is re-written as:
 
 $$
-\ln s _ {i} - \ln s _ {0} = \beta^ {\prime} z _ {i} - \alpha p _ {i} + \rho \ln s _ {i | g} + \xi_ {i}, \quad i \in J _ {g}, \tag {8.35}
+\ln s_{i} - \ln s_{0} = \beta^{\prime} z_{i} - \alpha p_{i} + \rho \ln s_{i | g} + \xi_{i}, \quad i \in J_{g}, \tag {8.35}
 $$
 
 where:  $s_i$  is the share of demand for wide-body aircraft i relative to all aircraft purchased annually;  $s_0$  is share of demand for narrow-body aircraft (treated as the "outside" good); and  $s_{\mathrm{ilg}}$  is the share of wide-body aircraft i within the medium range or long-range group  $g = 1,2$ . We expect that the parameter  $\rho$  is positive but less than unity, and Irwin and Pavcnik estimate  $\rho$  as 0.41 (standard error of 0.17) in their preferred specification.[32] This means that long-range wide-body aircraft are closer substitutes for each other than they are for medium-range aircraft. This means, for example, that the A-380 will compete more with the Boeing 747 than with the other medium-range aircraft sold by Airbus.
@@ -635,13 +635,13 @@ where:  $s_i$  is the share of demand for wide-body aircraft i relative to all a
 We can also use the demand equation (8.35) to obtain the optimal prices for multi-product firms. Irwin and Pavcnik consider both Bertrand and Cournot competition, but we focus here on the former case. Suppose that the total demand for aircraft (wide-body plus narrow-body) is given by  $H$  units per year. The demand for each model is then  $s_iH$ . If the firm in question sells products  $i = 1,\dots,M$ , then its profit maximization problem is:
 
 $$
-\max  _ {p _ {i}} \sum_ {i = 1} ^ {M} \left[ p _ {i} - g _ {i} \left(z _ {i}\right) \right] s _ {i} H, \tag {8.36}
+\max_{p_{i}} \sum_{i = 1}^{M} \left[ p_{i} - g_{i} \left(z_{i}\right) \right] s_{i} H, \tag {8.36}
 $$
 
 where  $\mathrm{g_i(z_i)}$  denotes marginal costs. Maximizing this over the choice of prices  $p_i$ , we obtain the first-order conditions,
 
 $$
-\mathrm {s} _ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ \mathrm {p} _ {\mathrm {j}} - \mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right) \right] \frac {\partial \mathrm {s} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {i}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.37}
+\mathrm{s}_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ \mathrm{p}_{\mathrm{j}} - \mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right) \right] \frac{\partial \mathrm{s}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{i}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.37}
 $$
 
 To simplify this expression, the derivatives of the market shares can be calculated from (8.35), and substituted into (8.37). In addition, we suppose that marginal costs are linear in characteristics, so  $g_{i}(z_{i}) = \gamma^{\prime}z_{i} + \omega_{i}$ , where  $\omega_{i}$  is a random error.
@@ -676,17 +676,17 @@ b) Suppose that the VER is negotiated at below the free trade quantity. Show the
 8.3 Building on problem 5.3 in chapter 5, consider the CES utility function written as in (8.2),
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {a} _ {\mathrm {i}} \mathrm {c} _ {\mathrm {i}} ^ {\theta}, \quad \theta = (\sigma - 1) / \sigma ,
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{a}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}^{\theta}, \quad \theta = (\sigma - 1) / \sigma ,
 $$
 
-where  $\mathrm{a_i = f(z_i)}^\theta$  is a transformation of the quality of each product, and can be treated as a parameter,  $i = 1,\dots ,N$ .
+where  $\mathrm{a_i =f(z_i)}^\theta$  is a transformation of the quality of each product, and can be treated as a parameter,  $i = 1,\dots ,N$ .
 
 (a) Maximize this subject to the budget constraint,  $\sum_{i=1}^{N} p_i c_i \leq I$ , to obtain an expression for the demands  $c_i$  as a function of prices and income.
 (b) Use these expressions to show that  $\partial c_{i} / \partial p_{j} = \partial c_{j} / \partial p_{i}, i\neq j.$
 (c) Also show that equation (8.9) holds, which we re-write as:
 
 $$
-- \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {\partial \ln c _ {\mathrm {i}}}{\partial \ln p _ {\mathrm {j}}}\right) = \sigma + (1 - \sigma) \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {p _ {\mathrm {j}} c _ {\mathrm {j}}}{\mathrm {I}}\right).
+- \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{\partial \ln c_{\mathrm{i}}}{\partial \ln p_{\mathrm{j}}}\right) = \sigma + (1 - \sigma) \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{p_{\mathrm{j}} c_{\mathrm{j}}}{\mathrm{I}}\right).
 $$
 
 8.4 Consider the problem of maximizing profits subject to the VER constraint in (8.11). Using the same steps as in (8.6) to (8.9), show that the solution for prices is as in equation (8.15).

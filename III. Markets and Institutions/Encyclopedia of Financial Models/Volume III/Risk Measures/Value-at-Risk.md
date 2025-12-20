@@ -23,14 +23,14 @@ VaR is defined as the minimum level of loss at a given, sufficiently high, confi
 
 
 $$
-V a R _ {\epsilon} (X) = - \inf  _ {x} \{x \mid P (X \leq x) \geq \epsilon \} = - F _ {X} ^ {- 1} (\epsilon) \tag {1}
+V a R_{\epsilon} (X) = - \inf_{x} \{x \mid P (X \leq x) \geq \epsilon \} = - F_{X}^{- 1} (\epsilon) \tag {1}
 $$ where  $\epsilon \in (0,1)$  and  $F_{X}^{-1}(\epsilon)$  is the inverse of the distribution function. If the random variable  $X$  describes random returns, then the VaR number is given in terms of a return figure. The definition of VaR is illustrated in Figure 1.
 
 
 If  $X$  describes random payoffs, then VaR is a threshold in dollar terms below which the portfolio value falls with probability  $\epsilon$ ,
 
 $$
-V a R _ {\epsilon} (X) = \inf  _ {x} \{x \mid P (X \leq x) \geq \epsilon \} = F _ {X} ^ {- 1} (\epsilon) \quad (2)
+V a R_{\epsilon} (X) = \inf_{x} \{x \mid P (X \leq x) \geq \epsilon \} = F_{X}^{- 1} (\epsilon) \quad (2)
 $$ where  $\epsilon \in (0,1)$  and  $F_{X}^{-1}(\epsilon)$  is the inverse of the distribution function of the random payoff. VaR
 
 
@@ -41,7 +41,7 @@ Note: The top plot shows the density of  $X$ , the marked area equals the tail p
 
 
 $$
-\begin{array}{l} V a R _ {\epsilon} (X - P _ {0}) = - \inf  _ {x} \{x \mid P (X - P _ {0} \leq x) \geq \epsilon \} \\ = P _ {0} - V a R _ {\epsilon} (X) \\ \end{array}
+\begin{array}{l} V a R_{\epsilon} (X - P_{0}) = - \inf_{x} \{x \mid P (X - P_{0} \leq x) \geq \epsilon \} \\ = P_{0} - V a R_{\epsilon} (X) \\ \end{array}
 $$ in which  $VaR_{\epsilon}(X)$  is defined according to (2) since  $X$  is interpreted as a random payoff. In this case, the definition of VaR is essentially given by equation (1).
 
 
@@ -50,13 +50,13 @@ According to the definition in equation (1), VaR may become a negative number. I
 We illustrate one aspect in which VaR differs from the deviation measures and all uncertainty measures. As a consequence of the definition, if we add to the random variable  $X$  a nonrandom profit  $C$ , the resulting VaR can be expressed by the VaR of the initial variable in the following way
 
 $$
-V a R _ {\epsilon} (X + C) = V a R _ {\epsilon} (X) - C \tag {3}
+V a R_{\epsilon} (X + C) = V a R_{\epsilon} (X) - C \tag {3}
 $$
 
 Thus, adding a nonrandom profit decreases the risk of the portfolio. Furthermore, scaling the return distribution by a positive constant  $\lambda$  scales the VaR by the same constant,
 
 $$
-V a R _ {\epsilon} (\lambda X) = \lambda V a R _ {\epsilon} (X) \tag {4}
+V a R_{\epsilon} (\lambda X) = \lambda V a R_{\epsilon} (X) \tag {4}
 $$
 
 It turns out that these properties characterize not only VaR. They are identified as key features of a risk measure.
@@ -64,7 +64,7 @@ It turns out that these properties characterize not only VaR. They are identifie
 To illustrate, let's use an example. Suppose initially we have a portfolio that consists of a common stock with random monthly return denoted by  $r_{X}$ . We rebalance the portfolio so that it becomes an equally weighted portfolio of the stock and a default-free government bond with a nonrandom monthly return of  $5.26\%$ ,  $r_B = 5.26\%$ . Thus, the portfolio return can be expressed as
 
 
-$$ r _ {p} = r _ {X} (1 / 2) + r _ {B} (1 / 2) = r _ {X} / 2 + 0. 0 5 2 6 / 2
+$$ r_{p} = r_{X} (1 / 2) + r_{B} (1 / 2) = r_{X} / 2 + 0. 0 5 2 6 / 2
 $$
 
 Using equations (3) and (4), we calculate that if  $VaR_{\epsilon}(r_X) = 12\%$ , then  $VaR_{\epsilon}(r_p) \approx 3.365\%$ , which is by far less than  $6\%$  half of the initial risk. Any deviation measure would indicate that the dispersion (or the uncertainty) of the portfolio return  $r_p$  would be twice as small as the uncertainty of  $r_X$ .
@@ -74,20 +74,20 @@ A very important remark has to be made with respect to the performance of VaR an
 Even though VaR has been largely adopted by financial institutions and approved by regulators, it turns out that VaR has important deficiencies. While it provides an intuitive description of how much a portfolio may lose, generally, it should be abandoned as a risk measure. The most important drawback is that, in some cases, the reasonable diversification effect that every portfolio manager should expect to see in a risk measure is not present; that is, the VaR of a portfolio may be greater than the sum of the VaRs of the constituents
 
 $$
-V a R _ {\epsilon} (X + Y) > V a R _ {\epsilon} (X) + V a R _ {\epsilon} (Y) \tag {5}
+V a R_{\epsilon} (X + Y) > V a R_{\epsilon} (X) + V a R_{\epsilon} (Y) \tag {5}
 $$ in which  $X$  and  $Y$  stand for the random payoff of the instruments in the portfolio. This shows that VaR cannot be a true risk measure.
 
 
 We give a simple example, which shows that VaR may satisfy (5). Suppose that  $X$  denotes a bond that either defaults with probability  $4.5\%$  and we lose \$50 or it does not default and in this case the loss is equal to zero. Let  $Y$  be the same bond but assume that the defaults of the two bonds are independent events. The VaR of the two bonds at  $95\%$  confidence level (5\% tail probability) is equal to zero,
 
 $$
-V a R _ {0. 0 5} (X) = V a R _ {0. 0 5} (Y) = 0
+V a R_{0. 0 5} (X) = V a R_{0. 0 5} (Y) = 0
 $$
 
 Being the  $5\%$  quantile of the payoff distribution in this case, VaR fails to recognize losses occurring with probability smaller than  $5\%$ . A portfolio of the two bonds has the following payoff profile: It loses  $\$ 100$  with probability of about  $0.2\%$ , loses  $\$ 50$  with probability of about  $8.6\%$ , and the loss is zero with probability  $91.2\%$ . Thus, the corresponding  $95\%$  VaR of the portfolio equals  $\$ 50$  and clearly,
 
 $$
-\begin{array}{l} \$ 50 = V a R _ {0. 0 5} (X + Y) > V a R _ {0. 0 5} (X) \\ + V a R _ {0. 0 5} (Y) = 0 \\ \end{array}
+\begin{array}{l} \$ 50 = V a R_{0. 0 5} (X + Y) > V a R_{0. 0 5} (X) \\ + V a R_{0. 0 5} (Y) = 0 \\ \end{array}
 $$
 
 What are the consequences of using a risk measure that may satisfy property (5)? It is going to mislead portfolio managers that there is no diversification effect in the portfolio and they may make the irrational decision to concentrate it only into a few positions. As a consequence, the portfolio risk actually increases.
@@ -103,7 +103,7 @@ In this section, we provide three approaches for portfolio VaR calculation that 
 
 Suppose that a portfolio contains  $n$  common stocks and we are interested in calculating the daily VaR at  $99\%$  confidence level. Denote the random daily returns of the stocks by  $X_{1}, \ldots, X_{n}$  and by  $w_{1}, \ldots, w_{n}$  the weight of each stock in the portfolio. Thus, the portfolio return  $r_{p}$  can be calculated as
 
-$$ r _ {p} = w _ {1} X _ {1} + w _ {2} X _ {2} + \dots + w _ {n} X _ {n}
+$$ r_{p} = w_{1} X_{1} + w_{2} X_{2} + \dots + w_{n} X_{n}
 $$
 
 The portfolio VaR is derived from the distribution of  $r_p$ . The three approaches vary in the assumptions they make.
@@ -115,37 +115,37 @@ The approach of RiskMetrics Group is centered on the assumption that asset retur
 The portfolio expected return can be directly expressed through the expected returns of the assets
 
 $$
-\begin{array}{l} E r _ {p} = w _ {1} E X _ {1} + w _ {2} E X _ {2} + \dots + w _ {n} E X _ {n} \\ = \sum_ {k = 1} ^ {n} w _ {k} E X _ {k} \tag {6} \\ \end{array}
+\begin{array}{l} E r_{p} = w_{1} E X_{1} + w_{2} E X_{2} + \dots + w_{n} E X_{n} \\ = \sum_{k = 1}^{n} w_{k} E X_{k} \tag {6} \\ \end{array}
 $$ where  $E$  denotes mathematical expectation. Similarly, the variance of the portfolio return
 
 
 $\sigma_{r_p}^2$  can be computed through the variances of the asset returns and their covariances,
 
 $$
-\begin{array}{l} \sigma_ {r _ {p}} ^ {2} = w _ {1} ^ {2} \sigma_ {X _ {1}} ^ {2} + w _ {2} ^ {2} \sigma_ {X _ {2}} ^ {2} + \dots + w _ {n} ^ {2} \sigma_ {X _ {n}} ^ {2} \\ + \sum_ {i \neq j} w _ {i} w _ {j} \operatorname {c o v} \left(X _ {i}, X _ {j}\right) \\ \end{array}
+\begin{array}{l} \sigma_{r_{p}}^{2} = w_{1}^{2} \sigma_{X_{1}}^{2} + w_{2}^{2} \sigma_{X_{2}}^{2} + \dots + w_{n}^{2} \sigma_{X_{n}}^{2} \\ + \sum_{i \neq j} w_{i} w_{j} \operatorname{co v} \left(X_{i}, X_{j}\right) \\ \end{array}
 $$ in which the last term appears because we have to sum up the covariances between all pairs of asset returns. There is a more compact way of writing down the expression for  $\sigma_{r_p}^2$  using matrix notation,
 
 
 $$
-\sigma_ {r _ {p}} ^ {2} = w ^ {\prime} \Sigma w \tag {7}
+\sigma_{r_{p}}^{2} = w^{\prime} \Sigma w \tag {7}
 $$ in which  $w = (w_{1},\dots ,w_{n})$  is the vector of portfolio weights and  $\Sigma$  is the covariance matrix of asset returns,
 
 
 $$
-\Sigma = \left( \begin{array}{c c c c} \sigma_ {X _ {1}} ^ {2} & \sigma_ {1 2} & \dots & \sigma_ {1 n} \\ \sigma_ {2 1} & \sigma_ {X _ {2}} ^ {2} & \dots & \sigma_ {2 n} \\ \vdots & \vdots & \ddots & \vdots \\ \sigma_ {n 1} & \sigma_ {n 2} & \dots & \sigma_ {X _ {n}} ^ {2} \end{array} \right)
+\Sigma = \left( \begin{array}{c c c c} \sigma_{X_{1}}^{2} & \sigma_{1 2} & \dots & \sigma_{1 n} \\ \sigma_{2 1} & \sigma_{X_{2}}^{2} & \dots & \sigma_{2 n} \\ \vdots & \vdots & \ddots & \vdots \\ \sigma_{n 1} & \sigma_{n 2} & \dots & \sigma_{X_{n}}^{2} \end{array} \right)
 $$ in which  $\sigma_{ij}$ ,  $i \neq j$ , is the covariance between  $X_i$  and  $X_j$ ,  $\sigma_{ij} = \operatorname{cov}(X_i, X_j)$ . As a result, we obtain that the portfolio return has a normal distribution with mean given by equation (6) and variance given by equation (7).
 
 
 The standard deviation is the scale parameter of the normal distribution and the mean is the location parameter. Due to the normal distribution properties, if  $r_p \in N(Er_p, \sigma_{r_p}^2)$ , then
 
 $$
-\frac {r _ {p} - E r _ {p}}{\sigma_ {r _ {p}}} \in N (0, 1)
+\frac{r_{p} - E r_{p}}{\sigma_{r_{p}}} \in N (0, 1)
 $$
 
 Thus, because of the properties (3) and (4) of the VaR, the  $99\%$  portfolio VaR can be represented as
 
 $$
-V a R _ {0. 0 1} \left(r _ {p}\right) = q _ {0. 9 9} \sigma_ {r _ {p}} - E r _ {p} \tag {8}
+V a R_{0. 0 1} \left(r_{p}\right) = q_{0. 9 9} \sigma_{r_{p}} - E r_{p} \tag {8}
 $$ where the standard deviation of the portfolio return  $\sigma_{r_p}$  is computed from equation (7), the expected portfolio return  $Er_{p}$  is given in (6), and  $q_{0.99}$  is the  $99\%$  quantile of the standard normal distribution.
 
 
@@ -174,7 +174,7 @@ The algorithm of the hybrid approach consists of the following steps.
 1. Exponentially declining weights are attached to historical returns, starting from the current time and going back in time. Let  $r_{t - k + 1},\ldots ,r_{t - 1},r_t$  be a sequence of  $k$  observed returns on a given asset, where  $t$  is the current time. The  $i$ -th observation is assigned a weight
 
 $$
-\theta_ {i} = c ^ {*} \lambda^ {t - i}
+\theta_{i} = c^{*} \lambda^{t - i}
 $$ where  $0 < \lambda < 1$ , and  $c = \frac{1 - \lambda}{1 - \lambda^k}$  is a constant chosen such that the sum of all weights is equal to one,  $\sum \theta_{i} = 1$ .
 
 
@@ -270,7 +270,7 @@ Monotonicity states that if investment A has random return (payoff)  $Y$ , which
 Suppose that  $X$  and  $Y$  describe the random percentage returns on two investments A and B and let  $Y = X + 3\%$ . Apparently,  $Y > X$  in all states of the world. The corresponding payoffs are obtained according to the equations
 
 $$
-\begin{array}{l} \operatorname {P a y o f f} (X) = I _ {A} (1 + X) \\ \operatorname {Payoff}(Y) = I _ {B} (1 + Y) = I _ {B} (1 + X + 3 \%) \\ \end{array}
+\begin{array}{l} \operatorname{Pa yo ff} (X) = I_{A} (1 + X) \\ \operatorname{Payoff}(Y) = I_{B} (1 + Y) = I_{B} (1 + X + 3 \%) \\ \end{array}
 $$ where  $I_A$  is the initial investment in opportunity A and  $I_B$  is the initial investment in opportunity B. If the initial investment  $I_A$  is much larger than  $I_B$ , then  $\mathrm{Payoff}(X) > \mathrm{Payoff}(Y)$  irrespective of the inequality  $Y > X$ . In effect, investment A may seem less risky than investment B in terms of payoff but in terms of return, the converse may hold.
 
 
@@ -285,7 +285,7 @@ The positive homogeneity property states that scaling the return (payoff) of the
 Suppose that today the value of a portfolio is  $I_0$  and we add a certain amount of cash  $C$ . The value of our portfolio becomes  $I_0 + C$ . The value tomorrow is random and equals  $I_1 + C$  in which  $I_1$  is the random payoff. The return of the portfolio equals
 
 $$
-\begin{array}{l} X = \frac {I _ {1} + C - I _ {0} - C}{I _ {0} + C} = \frac {I _ {1} - I _ {0}}{I _ {0}} \left(\frac {I _ {0}}{I _ {0} + C}\right) \\ = h \frac {I _ {1} - I _ {0}}{I _ {0}} = h Y \\ \end{array}
+\begin{array}{l} X = \frac{I_{1} + C - I_{0} - C}{I_{0} + C} = \frac{I_{1} - I_{0}}{I_{0}} \left(\frac{I_{0}}{I_{0} + C}\right) \\ = h \frac{I_{1} - I_{0}}{I_{0}} = h Y \\ \end{array}
 $$ where  $h = I_0 / (I_0 + C)$  is a positive constant. The axiom positive homogeneity property implies that  $\rho(X) = h\rho(Y)$ ; that is, the risk of the new portfolio will be the risk of the portfolio without the cash but scaled by  $h$ .
 
 
@@ -319,7 +319,7 @@ $$
 The invariance property has a different interpretation when  $X$  describes random return. Suppose that the random variable  $X$  describes the return of a common stock and we build a long-only portfolio by adding a government bond yielding a risk-free rate  $r_B$ . The portfolio return equals  $wX + (1 - w)r_B$ , where  $w \in [0,1]$  is the weight of the common stock in the portfolio. Note that the quantity  $(1 - w)r_B$  is nonrandom by assumption. The invariance property states that the risk of the portfolio can be decomposed as
 
 $$
-\begin{array}{l} \rho (w X + (1 - w) r _ {B}) = \rho (w X) - (1 - w) r _ {B} \\ = w \rho (X) - (1 - w) r _ {B} \tag {9} \\ \end{array}
+\begin{array}{l} \rho (w X + (1 - w) r_{B}) = \rho (w X) - (1 - w) r_{B} \\ = w \rho (X) - (1 - w) r_{B} \tag {9} \\ \end{array}
 $$ where the second equality appears because of the positive homogeneity property. In effect, the risk measure admits the following interpretation: Assume that the constructed portfolio is equally weighted, that is,  $w = 1 / 2$ , then the risk measure equals the level of the risk-free rate such that the risk of the equally weighted
 
 
@@ -328,12 +328,12 @@ portfolio consisting of the risky asset and the risk-free asset is zero. The inv
 Alternative interpretations are also possible. Suppose that the present value of the position with random percentage return  $X$  is  $I_0$ . Assume that we can find a government security earning return  $r_B^*$  at the horizon of interest. Then we can ask the question in the opposite direction: How much should we reallocate from  $I_0$  and invest in the government security in order to hedge the risk  $\rho(X)$ ? The needed capital  $C$  should satisfy the equation
 
 $$
-\frac {I _ {0} - C}{I _ {0}} \rho (X) - \frac {C}{I _ {0}} r _ {B} ^ {*} = 0
+\frac{I_{0} - C}{I_{0}} \rho (X) - \frac{C}{I_{0}} r_{B}^{*} = 0
 $$ which is merely a restatement of equation (9) with the additional requirement that the risk of the resulting portfolio should be zero. The solution is
 
 
 $$
-C = I _ {0} \frac {\rho (X)}{\rho (X) + r _ {B} ^ {*}}
+C = I_{0} \frac{\rho (X)}{\rho (X) + r_{B}^{*}}
 $$
 
 Note that if in the invariance property the constant is nonnegative,  $C \geq 0$ , then it follows that  $\rho(X + C) \leq \rho(X)$ . This result is in agreement with the monotonicity property as  $X + C \geq X$ . In fact, the invariance property can be regarded as an extension of the monotonicity property when the only difference between  $X$  and  $Y$  is in their means.

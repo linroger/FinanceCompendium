@@ -27,33 +27,33 @@ In this setting, where the independent variable is deterministic, the distributi
 Consider now the case where both  $X$  and  $Y$  are random variables. For example,  $Y$  might be the uncertain price of IBM stock tomorrow and  $X$  the uncertain level of the S&P 500 tomorrow. One way to express the link between these two variables is through their joint distribution  $F(x,y)$  and, if it exists, their joint density  $f(x,y)$ . We define the joint and marginal distributions as follows:
 
 $$
-\begin{array}{l} F _ {X Y} (x, y) = P (X \leq x, Y \leq y), F _ {X} (x) = P (X \leq x), \\ F _ {Y} (y) = P (Y \leq y) \\ \end{array}
+\begin{array}{l} F_{X Y} (x, y) = P (X \leq x, Y \leq y), F_{X} (x) = P (X \leq x), \\ F_{Y} (y) = P (Y \leq y) \\ \end{array}
 $$
 
 $$
-F _ {X Y} (x, y) = \int_ {- \infty} ^ {+ \infty} \int_ {- \infty} ^ {+ \infty} f (x, y) d x d y
+F_{X Y} (x, y) = \int_{- \infty}^{+ \infty} \int_{- \infty}^{+ \infty} f (x, y) d x d y
 $$
 
 $$
-\begin{array}{l} F _ {\mathrm {X}} (x) = \int_ {- \infty} ^ {x} \int_ {- \infty} ^ {- \infty} f (u, y) d u d y = \int_ {- \infty} ^ {x} \left(\int_ {- \infty} ^ {- \infty} f (u, y) d y\right) d u \\ = \int_ {- \infty} ^ {x} f _ {X} (u) d u \\ \end{array}
+\begin{array}{l} F_{\mathrm{X}} (x) = \int_{- \infty}^{x} \int_{- \infty}^{- \infty} f (u, y) d u d y = \int_{- \infty}^{x} \left(\int_{- \infty}^{- \infty} f (u, y) d y\right) d u \\ = \int_{- \infty}^{x} f_{X} (u) d u \\ \end{array}
 $$
 
 $$
-\begin{array}{l} F _ {\Upsilon} (x) = \int_ {- \infty} ^ {- \infty} \int_ {- \infty} ^ {y} f (x, v) d x d v = \int_ {- \infty} ^ {y} \left(\int_ {- \infty} ^ {- \infty} f (x, v) d x\right) d v \\ = \int_ {- \infty} ^ {x} f _ {Y} (v) d v \\ \end{array}
+\begin{array}{l} F_{\Upsilon} (x) = \int_{- \infty}^{- \infty} \int_{- \infty}^{y} f (x, v) d x d v = \int_{- \infty}^{y} \left(\int_{- \infty}^{- \infty} f (x, v) d x\right) d v \\ = \int_{- \infty}^{x} f_{Y} (v) d v \\ \end{array}
 $$
 
-$$ f (x \mid y) = \frac {f (x , y)}{f _ {Y} (y)}, f (y \mid x) = \frac {f (x , y)}{f _ {X} (x)}
+$$ f (x \mid y) = \frac{f (x , y)}{f_{Y} (y)}, f (y \mid x) = \frac{f (x , y)}{f_{X} (x)}
 $$
 
 We will also use the short notation:
 
 $$
-\begin{array}{l} f _ {X} (x) = f (x), f _ {Y} (y) = f (y), f _ {X \mid Y} (x \mid y) \\ = f (x | y), f _ {Y \mid X} (y \mid x) = f (y \mid x) \\ \end{array}
+\begin{array}{l} f_{X} (x) = f (x), f_{Y} (y) = f (y), f_{X \mid Y} (x \mid y) \\ = f (x | y), f_{Y \mid X} (y \mid x) = f (y \mid x) \\ \end{array}
 $$
 
 Given a joint density  $f(x,y)$ , we can also represent the functional link between the two variables as the dependence of the distribution of one variable on the value assumed by the other variable. In fact, we can write the joint density  $f(x,y)$  as the product of two factors, the conditional density  $f(y|x)$  and the marginal density  $f_{X}(x)$ :
 
-$$ f (x, y) = f (y | x) f _ {X} (x) \tag {1}
+$$ f (x, y) = f (y | x) f_{X} (x) \tag {1}
 $$
 
 This factorization—that is, expressing a joint density as a product of a marginal density and a conditional density—is the conceptual basis of financial econometrics. There are significant differences in cases where both variables  $X$  and  $Y$  are random variables, compared to the case where the variable  $X$  is deterministic. First, as both variables are uncertain, we cannot fix the value of one variable as if it were independent. We have to adopt a framework of conditioning where our knowledge of one variable influences our knowledge of the other variable.
@@ -66,7 +66,7 @@ Let's briefly see, at the heuristic level, how conditioning works. Suppose we le
 
 It can be demonstrated that the sets  $(\omega \in \Omega: X(\omega) = x)$  can be given a structure of probability space, that the variables  $(Y|X = x)$  are indeed random variables on these probability spaces, and that they have (if they exist) the conditional densities:
 
-$$ f (y | x) = \frac {f (x , y)}{f _ {X} (x)} \tag {2}
+$$ f (y | x) = \frac{f (x , y)}{f_{X} (x)} \tag {2}
 $$ for  $f_{\mathrm{X}}(x) > 0$ . In the discrete setting we can write
 
 
@@ -81,7 +81,7 @@ If we know the level of the S&P 500, we do not know the present state of the wor
 If we consider a discrete setting, that is, if we consider only a discrete set of possible IBM stock prices and S&P 500 values, then the computation of the conditional expectation can be performed using the standard definition of conditional probability. In particular, the conditional expectation of a random variable  $Y$  given the event  $B$  is equal to the unconditional expectation of the variable  $Y$  set to zero outside of  $B$  and divided by the probability of  $B$ :  $E[Y|B] = \mathrm{E}[1_{\mathrm{B}}Y] / \mathrm{P}(B)$ , where  $1_{B}$  is the indicator function of the set  $B$ , equal to 1 for all elements of  $B$ , zero elsewhere. Thus, in this example,
 
 $$
-\begin{array}{l} \mathrm {E} [ \text {I B M s t o c k p r i c e} | \text {S} \& \text {P} 5 0 0 \text {v a l u e} = \mathrm {s} ] \\ = E \left[ 1 _ {\left(\mathrm {S} \& \mathrm {P} 5 0 0 \text {v a l u e} = s\right)} (\text {I B M s t o c k p r i c e}) \right] / \\ P (\mathrm {S} \& \mathrm {P} 5 0 0 \text {v a l u e} = s) \\ \end{array}
+\begin{array}{l} \mathrm{E} [ \text{IB Ms to ck pr ic e} | \text{S} \& \text{P} 5 0 0 \text{va lu e} = \mathrm{s} ] \\ = E \left[ 1_{\left(\mathrm{S} \& \mathrm{P} 5 0 0 \text{va lu e} = s\right)} (\text{IB Ms to ck pr ic e}) \right] / \\ P (\mathrm{S} \& \mathrm{P} 5 0 0 \text{va lu e} = s) \\ \end{array}
 $$
 
 However, in a continuous-state setting there is a fundamental difficulty: The set of states of the world corresponding to any given value of the S&P 500 has probability zero; therefore we cannot normalize dividing by  $P(B)$ . As a consequence we cannot use the standard definition of conditional probability to compute directly the conditional expectation.
@@ -91,7 +91,7 @@ To overcome this difficulty, we define the conditional expectation indirectly, u
 If the conditional density exists, conditional expectation is computed as follows:
 
 $$
-E [ Y | X = x ] = \int_ {- \infty} ^ {+ \infty} y f (y | x) d y \tag {3}
+E [ Y | X = x ] = \int_{- \infty}^{+ \infty} y f (y | x) d y \tag {3}
 $$
 
 We know from probability theory that the law of iterated expectations holds
@@ -118,24 +118,24 @@ In this section we discuss regressions and, in particular, linear regressions.
 Let's start our discussion of regression with the case where all regressors are random variables. Given a set of random variables  $\mathbf{X} = (Y, X_1, \ldots, X_N)^\prime$ , with a joint probability density  $f(y, x_1, \ldots, x_N)$ , consider the conditional expectation of  $Y$  given the other variables  $(X_1, \ldots, X_N)^\prime$ :
 
 $$
-Y = E [ Y | X _ {1}, \ldots , X _ {N} ]
+Y = E [ Y | X_{1}, \ldots , X_{N} ]
 $$
 
 As we saw in the previous section, the conditional expectation is a random variable. We can therefore consider the residual:
 
 $$
-\varepsilon = Y - E [ Y | X _ {1}, \ldots , X _ {N} ]
+\varepsilon = Y - E [ Y | X_{1}, \ldots , X_{N} ]
 $$
 
 The residual is another random variable defined over the set  $\Omega$ . We can rewrite the above equation as a regression equation:
 
 $$
-Y = E \left[ Y \mid X _ {1}, \dots , X _ {N} \right] + \varepsilon \tag {6}
+Y = E \left[ Y \mid X_{1}, \dots , X_{N} \right] + \varepsilon \tag {6}
 $$
 
 The deterministic function  $y = \varphi (\mathbf{z})$  where
 
-$$ y = \varphi (z) = E [ Y | X _ {1} = z _ {1}, \dots , X _ {N} = z _ {N} ] \tag {7}
+$$ y = \varphi (z) = E [ Y | X_{1} = z_{1}, \dots , X_{N} = z_{N} ] \tag {7}
 $$ is called the regression function.
 
 
@@ -144,20 +144,20 @@ The following properties of regression equations hold.
 Property 1. The conditional mean of the residual is zero:  $E[\varepsilon |X_1,\ldots ,X_N] = 0$ . In fact, taking conditional expectations on both sides of equation (7), we can write
 
 $$
-\begin{array}{l} E [ Y | X _ {1}, \dots , X _ {N} ] = E [ E [ Y | X _ {1}, \dots , X _ {N} ] \\ \left| X _ {1}, \dots , X _ {N} \right] + E \left[ \varepsilon \mid X _ {1}, \dots , X _ {N} \right] \\ \end{array}
+\begin{array}{l} E [ Y | X_{1}, \dots , X_{N} ] = E [ E [ Y | X_{1}, \dots , X_{N} ] \\ \left| X_{1}, \dots , X_{N} \right] + E \left[ \varepsilon \mid X_{1}, \dots , X_{N} \right] \\ \end{array}
 $$
 
 Because
 
 $$
-\begin{array}{l} E [ E [ Y | X _ {1}, \dots , X _ {N} ] | X _ {1}, \dots , X _ {N} ] \\ = E \left[ Y \mid X _ {1}, \dots , X _ {N} \right] \\ \end{array}
+\begin{array}{l} E [ E [ Y | X_{1}, \dots , X_{N} ] | X_{1}, \dots , X_{N} ] \\ = E \left[ Y \mid X_{1}, \dots , X_{N} \right] \\ \end{array}
 $$ is a property that follows from the law of iterated expectations, we can conclude that  $E[\varepsilon |X_1,\ldots ,X_N] = 0$
 
 
 Property 2. The unconditional mean of the residual is zero:  $E[\varepsilon] = 0$ . This property follows immediately from the multivariate formulation of the law of iterated expectations (4):  $E[E[Y|X_1, \ldots, X_N]] = E[Y]$ . In fact, taking expectation of both sides of equation (7) we can write
 
 $$
-E [ Y ] = E \left[ E \left[ Y \mid X _ {1}, \dots , X _ {N} \right] \right] + E [ \varepsilon ]
+E [ Y ] = E \left[ E \left[ Y \mid X_{1}, \dots , X_{N} \right] \right] + E [ \varepsilon ]
 $$ hence  $E[\varepsilon] = 0$ .
 
 
@@ -167,52 +167,52 @@ Property 3: The residuals are uncorrelated with the variables  $X_{1},\ldots ,X_
 If the regression function is linear, we can write the following linear regression equation:
 
 $$
-Y = a + \sum_ {i = 1} ^ {N} b _ {i} X _ {i} + \varepsilon \tag {8}
+Y = a + \sum_{i = 1}^{N} b_{i} X_{i} + \varepsilon \tag {8}
 $$ and the following linear regression function:
 
 
-$$ y = a + \sum_ {i = 1} ^ {N} b _ {i} x _ {i} \tag {9}
+$$ y = a + \sum_{i = 1}^{N} b_{i} x_{i} \tag {9}
 $$
 
 The rest of this entry deals with linear regressions. If the vector  $\mathbf{Z} = (Y, X_1, \ldots, X_N)$  is jointly normally distributed, then the regression function is linear. To see this, partition  $\mathbf{z}$ , the vector of means  $\mu$ , and the covariance matrix  $\Sigma$  conformably in the following way:
 
 $$
-\begin{array}{l} \mathbf {Z} = \left( \begin{array}{c} Y \\ \mathbf {X} \end{array} \right),   \mathbf {z} = \left( \begin{array}{c} y \\ \mathbf {x} \end{array} \right),   \boldsymbol {\mu} = \left( \begin{array}{c} \mu_ {\mathrm {y}} \\ \boldsymbol {\mu} _ {x} \end{array} \right), \\ \boldsymbol {\Sigma} = \left( \begin{array}{c c} \sigma_ {y y} & \sigma_ {x y} \\ \sigma_ {y \mathbf {x}} & \boldsymbol {\Sigma} _ {\mathbf {x x}} \end{array} \right) \\ \end{array}
+\begin{array}{l} \mathbf {Z} = \left( \begin{array}{c} Y \\ \mathbf {X} \end{array} \right),   \mathbf {z} = \left( \begin{array}{c} y \\ \mathbf {x} \end{array} \right),   \boldsymbol {\mu} = \left( \begin{array}{c} \mu_{\mathrm{y}} \\ \boldsymbol {\mu}_{x} \end{array} \right), \\ \boldsymbol {\Sigma} = \left( \begin{array}{c c} \sigma_{y y} & \sigma_{x y} \\ \sigma_{y \mathbf {x}} & \boldsymbol {\Sigma}_{\mathbf {x x}} \end{array} \right) \\ \end{array}
 $$ where  $\mu$  is the vector of means and  $\Sigma$  is the covariance matrix. It can be demonstrated that the conditional density  $(Y|\mathbf{X} = \mathbf{x})$  has the following expression:
 
 
 $$
-(Y | \mathbf {X} = \mathbf {x}) \sim N \left(\alpha + \boldsymbol {\beta} ^ {\prime} \mathbf {x}, \sigma^ {2}\right) \tag {10}
+(Y | \mathbf {X} = \mathbf {x}) \sim N \left(\alpha + \boldsymbol {\beta}^{\prime} \mathbf {x}, \sigma^{2}\right) \tag {10}
 $$ where
 
 
 $$
-\begin{array}{l} \boldsymbol {\beta} = \Sigma_ {x x} ^ {- 1} \sigma_ {x y} \\ \alpha = \mu_ {y} - \beta^ {\prime} \mu_ {x} \tag {11} \\ \sigma^ {2} = \sigma_ {y y} ^ {2} - \sigma_ {y x} \Sigma_ {x x} ^ {- 1} \sigma_ {x y} \\ \end{array}
+\begin{array}{l} \boldsymbol {\beta} = \Sigma_{x x}^{- 1} \sigma_{x y} \\ \alpha = \mu_{y} - \beta^{\prime} \mu_{x} \tag {11} \\ \sigma^{2} = \sigma_{y y}^{2} - \sigma_{y x} \Sigma_{x x}^{- 1} \sigma_{x y} \\ \end{array}
 $$
 
 The regression function can be written as follows:
 
-$$ y = \alpha + \boldsymbol {\beta} ^ {\prime} \mathbf {x}, \text {o r e x p l i c i t l y :} y = \alpha + \sum_ {i = 1} ^ {N} \beta_ {i} x _ {i} \tag {12}
+$$ y = \alpha + \boldsymbol {\beta}^{\prime} \mathbf {x}, \text{or ex pl ic it ly :} y = \alpha + \sum_{i = 1}^{N} \beta_{i} x_{i} \tag {12}
 $$
 
 The normal distribution is not the only joint distribution that yields linear regressions. Spherical and elliptical distributions also yield linear regressions. Spherical distributions extend the multivariate normal distribution  $N(0,\mathbf{I})$
 
 (i.e., the joint distribution of independent normal variables). Spherical distributions are characterized by the property that their density is constant on a sphere, so that their joint density can be written as
 
-$$ f (x _ {1}, \ldots , x _ {N}) = g (x _ {1} ^ {2} + \dots + x _ {N} ^ {2})
+$$ f (x_{1}, \ldots , x_{N}) = g (x_{1}^{2} + \dots + x_{N}^{2})
 $$ for some function  $g$ .
 
 
 Spherical distributions have the property that their marginal distributions are uncorrelated but not independent, and can be viewed as multivariate normal random variables, with a random covariance matrix. An example of a spherical distribution used in financial econometrics is the multivariate  $t$ -distribution with  $m$  degrees of freedom, whose density has the following form:
 
-$$ f (x _ {1}, \ldots , x _ {N}) = c \left[ 1 + \frac {1}{m} (x _ {1} ^ {2} + \dots + x _ {N} ^ {2}) \right] ^ {- \frac {m + N}{2}}
+$$ f (x_{1}, \ldots , x_{N}) = c \left[ 1 + \frac{1}{m} (x_{1}^{2} + \dots + x_{N}^{2}) \right]^{- \frac{m + N}{2}}
 $$
 
 The multivariate  $t$ -distribution is important in econometrics for several reasons. First, some sampling distributions are actually a  $t$ -distribution entries. Second, the  $t$ -distribution proved to be an adequate description of fat-tailed error terms in some econometrics models (although not as good as the stable Paretian distribution).
 
 Elliptical distributions generalize the multivariate normal distribution  $N(0,\Sigma)$ . (See Bradley and Taqqu [2003].) Because they are constant on an ellipsoid, their joint density can be written as
 
-$$ f (\mathbf {x}) = g \left(\left(\mathbf {x} - \boldsymbol {\mu}\right) ^ {\prime} \boldsymbol {\Sigma} \left(\mathbf {x} - \boldsymbol {\mu}\right)\right), \mathbf {x} ^ {\prime} = \left(x _ {1}, \dots , x _ {N}\right)
+$$ f (\mathbf {x}) = g \left(\left(\mathbf {x} - \boldsymbol {\mu}\right)^{\prime} \boldsymbol {\Sigma} \left(\mathbf {x} - \boldsymbol {\mu}\right)\right), \mathbf {x}^{\prime} = \left(x_{1}, \dots , x_{N}\right)
 $$ where  $\mu$  is a vector of constants and  $\pmb{\Sigma}$  is a strictly positive-definite matrix. Spherical distributions are a subset of elliptical distributions. Conditional distributions and linear combinations of elliptical distributions are also elliptical.
 
 
@@ -224,13 +224,13 @@ The fact that elliptical distributions yield linear regressions is closely relat
 Let's now discuss the relationship between linear regressions and linear models. In applied work, we are given a set of multivariate data that we want to explain through a model of their dependence. Suppose we want to explain the data through a linear model of the type:
 
 $$
-Y = \alpha + \sum_ {i = 1} ^ {N} \beta_ {i} X _ {i} + \varepsilon
+Y = \alpha + \sum_{i = 1}^{N} \beta_{i} X_{i} + \varepsilon
 $$
 
 We might know from theoretical reasoning that linear models are appropriate or we might want to try a linear approximation to nonlinear models. A linear model such as the above is not, per se, a linear regression unless we apply appropriate constraints. In fact, linear regressions must satisfy the three properties mentioned above. We call linear regressions linear models of the above type that satisfy the following set of assumptions such that
 
 $$
-\alpha + \sum_ {i = 1} ^ {N} \beta_ {i} X _ {i}
+\alpha + \sum_{i = 1}^{N} \beta_{i} X_{i}
 $$ is the conditional expectation of  $Y$ .
 
 
@@ -248,11 +248,11 @@ The above set of assumptions is not the full set of assumptions used when estima
 In many applications of interest to the financial modeler, the regressors are deterministic variables. Conceptually, regressions with deterministic regressors are different from cases where regressors are random variables. In particular, as we have seen in a previous section, one cannot consider the regression as a conditional expectation. However, we can write a linear regression equation:
 
 $$
-Y = \alpha + \sum_ {i = 1} ^ {N} \beta_ {i} x _ {i} + \varepsilon \tag {13}
+Y = \alpha + \sum_{i = 1}^{N} \beta_{i} x_{i} + \varepsilon \tag {13}
 $$ and the following linear regression function:
 
 
-$$ y = \alpha + \sum_ {i = 1} ^ {N} \beta_ {i} x _ {i} \tag {14}
+$$ y = \alpha + \sum_{i = 1}^{N} \beta_{i} x_{i} \tag {14}
 $$ where the regressors are deterministic variables. As we will see in the following section, in both cases the least squares estimators are the same though the variances of the regression parameters as functions of the samples are different.
 
 
@@ -266,13 +266,13 @@ In this section, we discuss how to estimate the linear regression parameters. We
 Let's reformulate the regression problem in a matrix form that is standard in regression analysis and that we will use in the following sections. Let's start with the case of a dependent variable  $Y$  and one independent regressor  $X$ . This case is referred to as the bivariate case or the simple linear regression. Suppose that we are empirically given  $T$  pairs of observations of the regressor and the independent variable. In financial econometrics these observations could represent, for example, the returns  $Y$  of a stock and the returns  $X$  of a factor taken at fixed intervals of time  $t = 1,2,\dots,T$ . Using a notation that is standard in regression estimation, we place the given data in a vector  $\mathbf{Y}$  and a matrix  $\mathbf{X}$ :
 
 $$
-\mathbf {Y} = \left( \begin{array}{c} Y _ {1} \\ \vdots \\ Y _ {T} \end{array} \right), \mathbf {X} = \left( \begin{array}{c c} 1 & X _ {1} \\ \vdots & \vdots \\ 1 & X _ {T} \end{array} \right) \tag {15}
+\mathbf {Y} = \left( \begin{array}{c} Y_{1} \\ \vdots \\ Y_{T} \end{array} \right), \mathbf {X} = \left( \begin{array}{c c} 1 & X_{1} \\ \vdots & \vdots \\ 1 & X_{T} \end{array} \right) \tag {15}
 $$
 
 The column of 1s represents constant terms. The regression equation can be written as a set of  $T$  samples from the same regression equation, one for each moment:
 
 $$
-\begin{array}{l} Y _ {1} = \beta_ {0} + \beta_ {1} X _ {1} + \varepsilon_ {1} \\ \begin{array}{c} \vdots \\ \vdots \end{array} \\ Y _ {T} = \beta_ {0} + \beta_ {1} X _ {T} + \varepsilon_ {T} \\ \end{array}
+\begin{array}{l} Y_{1} = \beta_{0} + \beta_{1} X_{1} + \varepsilon_{1} \\ \begin{array}{c} \vdots \\ \vdots \end{array} \\ Y_{T} = \beta_{0} + \beta_{1} X_{T} + \varepsilon_{T} \\ \end{array}
 $$ that we can rewrite in matrix form,
 
 
@@ -282,7 +282,7 @@ $$ where  $\beta$  is the vector of regression coefficients,
 
 
 $$
-\boldsymbol {\beta} = \left( \begin{array}{c} \beta_ {0} \\ \beta_ {1} \end{array} \right)
+\boldsymbol {\beta} = \left( \begin{array}{c} \beta_{0} \\ \beta_{1} \end{array} \right)
 $$ and  $\varepsilon$  are the residuals.
 
 
@@ -297,60 +297,60 @@ We now make a set of assumptions that are standard in regression analysis and th
 The regression equation can then be written:  $E(\mathbf{Y}|\mathbf{X}) = \mathbf{X}\beta$ . The residuals form a sequence of independent variables. They can therefore be regarded as a strict white-noise sequence. As the residuals are independent draws from the same normal distribution, we can compute the log-likelihood function as follows:
 
 $$
-\begin{array}{l} \log L = - \frac {T}{2} \log (2 \pi) - \frac {T}{2} \log \left(\sigma_ {\varepsilon} ^ {2}\right) \\ - \sum_ {t = 1} ^ {T} \left[ \frac {\left(Y _ {t} - \beta_ {0} - \beta_ {1} X _ {t}\right) ^ {2}}{2 \sigma_ {\varepsilon} ^ {2}} \right] \tag {17} \\ \end{array}
+\begin{array}{l} \log L = - \frac{T}{2} \log (2 \pi) - \frac{T}{2} \log \left(\sigma_{\varepsilon}^{2}\right) \\ - \sum_{t = 1}^{T} \left[ \frac{\left(Y_{t} - \beta_{0} - \beta_{1} X_{t}\right)^{2}}{2 \sigma_{\varepsilon}^{2}} \right] \tag {17} \\ \end{array}
 $$
 
 The maximum likelihood (ML) principle requires maximization of the log-likelihood function. Maximizing the log-likelihood function entails first solving the equations:
 
 $$
-\frac {\partial \log L}{\partial \beta_ {0}} = 0, \frac {\partial \log L}{\partial \beta_ {1}} = 0, \frac {\partial \log L}{\partial \sigma_ {\varepsilon} ^ {2}} = 0
+\frac{\partial \log L}{\partial \beta_{0}} = 0, \frac{\partial \log L}{\partial \beta_{1}} = 0, \frac{\partial \log L}{\partial \sigma_{\varepsilon}^{2}} = 0
 $$
 
 These equations can be explicitly written as follows:
 
 $$
-\sum_ {t = 1} ^ {T} \left(Y _ {t} - \beta_ {0} - \beta_ {1} X _ {t}\right) = 0
+\sum_{t = 1}^{T} \left(Y_{t} - \beta_{0} - \beta_{1} X_{t}\right) = 0
 $$
 
 $$
-\sum_ {t = 1} ^ {T} X _ {t} \left(Y _ {t} - \beta_ {0} - \beta_ {1} X _ {t}\right) = 0
+\sum_{t = 1}^{T} X_{t} \left(Y_{t} - \beta_{0} - \beta_{1} X_{t}\right) = 0
 $$
 
 $$
-T \sigma_ {\varepsilon} ^ {2} - \sum_ {t = 1} ^ {T} [ (Y _ {t} - \beta_ {0} - \beta_ {1} X _ {t}) ^ {2} ] = 0
+T \sigma_{\varepsilon}^{2} - \sum_{t = 1}^{T} [ (Y_{t} - \beta_{0} - \beta_{1} X_{t})^{2} ] = 0
 $$
 
 A little algebra shows that solving the first two equations yields
 
 $$
-\begin{array}{l} \hat {\beta} _ {1} = \frac {\overline {{X Y}} - \overline {{X Y}}}{\sigma_ {\varepsilon} ^ {2}} \\ \hat {\beta} _ {0} = (\bar {Y} - \beta_ {1} \bar {X}) \tag {18} \\ \end{array}
+\begin{array}{l} \hat {\beta}_{1} = \frac{\overline {{X Y}} - \overline {{X Y}}}{\sigma_{\varepsilon}^{2}} \\ \hat {\beta}_{0} = (\bar {Y} - \beta_{1} \bar {X}) \tag {18} \\ \end{array}
 $$ where
 
 
 $$
-\overline {{X}} = \frac {1}{T} \sum_ {t = 1} ^ {T} X _ {t}, \overline {{X Y}} = \frac {1}{T} \sum_ {t = 1} ^ {T} X _ {t} Y _ {t}
+\overline {{X}} = \frac{1}{T} \sum_{t = 1}^{T} X_{t}, \overline {{X Y}} = \frac{1}{T} \sum_{t = 1}^{T} X_{t} Y_{t}
 $$ and where  $\bar{\sigma}_x,\bar{\sigma}_y$  are the empirical standard deviations of the sample variables  $X,Y$  respectively. Substituting these expressions in the third equation
 
 
 $$
-\frac {\partial \log L}{\partial \sigma_ {\varepsilon} ^ {2}} = 0
+\frac{\partial \log L}{\partial \sigma_{\varepsilon}^{2}} = 0
 $$ yields the variance of the residuals:
 
 
 $$
-\hat {\sigma} _ {\varepsilon} ^ {2} = \frac {1}{T} \sum_ {t = 1} ^ {T} \left[ \left(Y _ {t} - \hat {\beta} _ {0} - \hat {\beta} _ {1} X _ {t}\right) ^ {2} \right] \tag {19}
+\hat {\sigma}_{\varepsilon}^{2} = \frac{1}{T} \sum_{t = 1}^{T} \left[ \left(Y_{t} - \hat {\beta}_{0} - \hat {\beta}_{1} X_{t}\right)^{2} \right] \tag {19}
 $$
 
 In the matrix notation established above, we can write the estimators as follows:
 
 $$
-F o r \quad \hat {\boldsymbol {\beta}} = (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} \mathbf {X} ^ {\prime} \mathbf {Y} \tag {20}
+F o r \quad \hat {\boldsymbol {\beta}} = (\mathbf {X}^{\prime} \mathbf {X})^{- 1} \mathbf {X}^{\prime} \mathbf {Y} \tag {20}
 $$
 
 For the variance of the regression:
 
 $$
-\hat {\sigma} ^ {2} = \frac {1}{T} \left(\mathbf {Y} - X \hat {\boldsymbol {\beta}}\right) ^ {\prime} (\mathbf {Y} - X \hat {\boldsymbol {\beta}}) \tag {21}
+\hat {\sigma}^{2} = \frac{1}{T} \left(\mathbf {Y} - X \hat {\boldsymbol {\beta}}\right)^{\prime} (\mathbf {Y} - X \hat {\boldsymbol {\beta}}) \tag {21}
 $$
 
 A comment is in order. We started with  $T$  pairs of given data  $(X_{i},Y_{i})$ ,  $i = 1,\dots ,T$  and then attempted to explain these data as a linear regression  $Y = \beta_{1}X + \beta_{0} + \varepsilon$ . We estimated the coefficients  $(\beta_{1},\beta_{2})$  with maximum likelihood estimation (MLE) methods. Given this estimate of the regression coefficients, the estimated variance of the residuals is given by equation (22). Note that equation (22) is the empirical variance of residuals computed using the estimated regression parameters. A large variance of the residuals indicates that the level of noise in the process (i.e., the size of the unexplained fluctuations of the process) is high.
@@ -361,12 +361,12 @@ The above discussion of the MLE method generalizes to multiple independent varia
 
 
 $$
-\mathbf {Y} = \left( \begin{array}{c} Y _ {1} \\ \vdots \\ Y _ {T} \end{array} \right), \mathbf {X} = \left( \begin{array}{c c c} X _ {1 1} & \dots & X _ {N 1} \\ \vdots & \ddots & \vdots \\ X _ {1 T} & \dots & X _ {N T} \end{array} \right) \tag {22}
+\mathbf {Y} = \left( \begin{array}{c} Y_{1} \\ \vdots \\ Y_{T} \end{array} \right), \mathbf {X} = \left( \begin{array}{c c c} X_{1 1} & \dots & X_{N 1} \\ \vdots & \ddots & \vdots \\ X_{1 T} & \dots & X_{N T} \end{array} \right) \tag {22}
 $$ and the regression coefficients and error terms in the vectors,
 
 
 $$
-\beta = \left( \begin{array}{c} \beta_ {1} \\ \vdots \\ \beta_ {N} \end{array} \right), \varepsilon = \left( \begin{array}{c} \varepsilon_ {1} \\ \vdots \\ \varepsilon_ {T} \end{array} \right) \tag {23}
+\beta = \left( \begin{array}{c} \beta_{1} \\ \vdots \\ \beta_{N} \end{array} \right), \varepsilon = \left( \begin{array}{c} \varepsilon_{1} \\ \vdots \\ \varepsilon_{T} \end{array} \right) \tag {23}
 $$
 
 The matrix  $\mathbf{X}$  which contains all the regressors is called the design matrix. The regressors  $\mathbf{X}$  can be deterministic, the important condition being that the residuals are independent. One of the columns can be formed by 1s to allow for a constant term (intercept). Our objective is to explain the data as a linear regression:
@@ -378,26 +378,26 @@ $$
 We make the same set of assumptions given by equation (17) as we made in the case of a single regressor. Using the above notation, the loglikelihood function will have the form
 
 $$
-\begin{array}{l} \log L = - \frac {T}{2} \log (2 \pi) - \frac {T}{2} \log (\sigma_ {\varepsilon} ^ {2}) \\ - \frac {1}{2 \sigma_ {\varepsilon} ^ {2}} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta}) ^ {\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta}) \tag {24} \\ \end{array}
+\begin{array}{l} \log L = - \frac{T}{2} \log (2 \pi) - \frac{T}{2} \log (\sigma_{\varepsilon}^{2}) \\ - \frac{1}{2 \sigma_{\varepsilon}^{2}} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})^{\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta}) \tag {24} \\ \end{array}
 $$
 
 The maximum likelihood conditions are written as
 
 $$
-\frac {\partial \log L}{\partial \boldsymbol {\beta}} = 0, \quad \frac {\partial \log L}{\partial \sigma_ {\varepsilon} ^ {2}} = 0 \tag {25}
+\frac{\partial \log L}{\partial \boldsymbol {\beta}} = 0, \quad \frac{\partial \log L}{\partial \sigma_{\varepsilon}^{2}} = 0 \tag {25}
 $$
 
 These equations are called normal equations. Solving the system of normal equations gives the same form for the estimators as in the univariate case:
 
 $$
-\begin{array}{l} \hat {\boldsymbol {\beta}} = (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} \mathbf {X} ^ {\prime} \mathbf {Y} \\ \hat {\sigma} ^ {2} = \frac {1}{T} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) ^ {\prime} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) \tag {26} \\ \end{array}
+\begin{array}{l} \hat {\boldsymbol {\beta}} = (\mathbf {X}^{\prime} \mathbf {X})^{- 1} \mathbf {X}^{\prime} \mathbf {Y} \\ \hat {\sigma}^{2} = \frac{1}{T} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right)^{\prime} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) \tag {26} \\ \end{array}
 $$
 
 The variance estimator is not unbiased. It can be demonstrated that to obtain an unbiased estimator we have to apply a correction that takes into account the number of variables by replac ing  $T$  with  $T - N$ , assuming  $T > N$ :
 
 
 $$
-\hat {\sigma} ^ {2} = \frac {1}{T - N} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) ^ {\prime} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) \tag {27}
+\hat {\sigma}^{2} = \frac{1}{T - N} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right)^{\prime} \left(\mathbf {Y} - \mathbf {X} \hat {\boldsymbol {\beta}}\right) \tag {27}
 $$
 
 The MLE method requires that we know the functional form of the distribution. If the distribution is known but not normal, we can still apply the MLE method but the estimators will be different. We will not here discuss further MLE for nonnormal distributions.
@@ -420,25 +420,25 @@ In the general case of a multivariate regression, the OLS method requires minimi
 
 
 $$
-\varepsilon = \left[ \begin{array}{c} \varepsilon_ {1} \\ \vdots \\ \varepsilon_ {T} \end{array} \right]
+\varepsilon = \left[ \begin{array}{c} \varepsilon_{1} \\ \vdots \\ \varepsilon_{T} \end{array} \right]
 $$
 
 The sum of the squared residuals  $(\mathrm{SSR}) = (\varepsilon_1^2 + \ldots + \varepsilon_T^2)$  can be written as  $\mathrm{SSR} = \varepsilon' \varepsilon$ . As  $\varepsilon = \mathbf{Y} - \mathbf{X} \boldsymbol{\beta}$ , we can also write
 
 $$
-\operatorname {S S R} = (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta}) ^ {\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})
+\operatorname{SS R} = (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})^{\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})
 $$
 
 The OLS method requires that we minimize the SSR. To do so, we equate to zero the first derivatives of the SSR:
 
 $$
-\frac {\partial (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta}) ^ {\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})}{\partial \boldsymbol {\beta}} = 0
+\frac{\partial (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})^{\prime} (\mathbf {Y} - \mathbf {X} \boldsymbol {\beta})}{\partial \boldsymbol {\beta}} = 0
 $$
 
 This is a system of  $N$  equations. Solving this system, we obtain the estimators:
 
 $$
-\hat {\boldsymbol {\beta}} = (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} \mathbf {X} ^ {\prime} \mathbf {Y}
+\hat {\boldsymbol {\beta}} = (\mathbf {X}^{\prime} \mathbf {X})^{- 1} \mathbf {X}^{\prime} \mathbf {Y}
 $$
 
 These estimators are the same estimators obtained with the MLE method; they have an optimality property. In fact, the Gauss-Markov theorem states that the above OLS estimators are the best linear unbiased estimators (BLUE). "Best" means that no other linear unbiased estimator has a lower variance. It should be noted explicitly that OLS and MLE are conceptually different methodologies: MLE seeks the optimal parameters of the distribution of the error terms, while OLS seeks to minimize the variance of error terms. The fact that the two estimators coincide was an important discovery.
@@ -451,14 +451,14 @@ Estimated regression parameters depend on the sample. They are random variables 
 Let's first assume that the regressors are fixed deterministic variables. Thus only the error terms and the dependent variable change from sample to sample. The  $\hat{\beta}$  are unbiased estimators and  $E[\hat{\beta}] = \beta$  therefore holds. It can also be demonstrated that the following expression for the variance of  $\hat{\beta}$  holds
 
 $$
-E [ (\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}) (\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}) ^ {\prime} ] = \sigma^ {2} (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} \tag {29}
+E [ (\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}) (\boldsymbol {\beta} - \hat {\boldsymbol {\beta}})^{\prime} ] = \sigma^{2} (\mathbf {X}^{\prime} \mathbf {X})^{- 1} \tag {29}
 $$ where an estimate  $\hat{\sigma}^2$  of  $\sigma^2$  is given by (27).
 
 
 Under the additional assumption that the residuals are normally distributed, it can be demonstrated that the regression coefficients are jointly normally distributed as follows:
 
 $$
-\hat {\boldsymbol {\beta}} \sim N _ {N} [ \boldsymbol {\beta}, \sigma^ {2} (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} ] \tag {30}
+\hat {\boldsymbol {\beta}} \sim N_{N} [ \boldsymbol {\beta}, \sigma^{2} (\mathbf {X}^{\prime} \mathbf {X})^{- 1} ] \tag {30}
 $$
 
 These expressions are important because they allow us to compute confidence intervals for the regression parameters.
@@ -466,7 +466,7 @@ These expressions are important because they allow us to compute confidence inte
 Let's now suppose that the regressors are random variables. Under the assumptions set forth in (29), it can be demonstrated that the variance of the estimators  $\hat{\beta}$  can be written as follows:
 
 $$
-V (\hat {\boldsymbol {\beta}}) = E [ (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} ] V (\mathbf {X} ^ {\prime} \varepsilon) E [ (\mathbf {X} ^ {\prime} \mathbf {X}) ^ {- 1} ] \qquad (3 1)
+V (\hat {\boldsymbol {\beta}}) = E [ (\mathbf {X}^{\prime} \mathbf {X})^{- 1} ] V (\mathbf {X}^{\prime} \varepsilon) E [ (\mathbf {X}^{\prime} \mathbf {X})^{- 1} ] \qquad (3 1)
 $$ where the terms  $E[(\mathbf{X}'\mathbf{X})^{-1}]$  and  $V(\mathbf{X}'\varepsilon)$  are the empirical expectation of  $(\mathbf{X}'\mathbf{X})^{-1}$  and the empirical variance of  $(\mathbf{X}'\varepsilon)$ , respectively.
 
 
@@ -487,12 +487,12 @@ A widely used measure of the quality and usefulness of a regression model is giv
 The dependent variable  $Y$  has a total variation given by the following expression:
 
 $$
-\text {T o t a l v a r i a t i o n} = S _ {Y} ^ {2} = \frac {1}{T - 1} \sum_ {t = 1} ^ {T} \left(Y _ {t} - \bar {Y}\right) ^ {2} \tag {32}
+\text{To ta lv ar ia ti on} = S_{Y}^{2} = \frac{1}{T - 1} \sum_{t = 1}^{T} \left(Y_{t} - \bar {Y}\right)^{2} \tag {32}
 $$ where
 
 
 $$
-\overline {{Y}} = \frac {1}{T - 1} \sum_ {t = 1} ^ {T} Y _ {t}
+\overline {{Y}} = \frac{1}{T - 1} \sum_{t = 1}^{T} Y_{t}
 $$
 
 This total variation is the sum of the variation of the variable  $Y$  due to the variation of the regressors plus the variation of residuals  $S_{Y}^{2} = S_{R}^{2} + S_{\varepsilon}^{2}$ . We can therefore define the coefficient of determination:
@@ -500,7 +500,7 @@ This total variation is the sum of the variation of the variable  $Y$  due to th
 Coefficient of determination  $= R^{2} = \frac{S_{R}^{2}}{S_{Y}^{2}}$
 
 $$
-1 - R ^ {2} = \frac {S _ {\varepsilon} ^ {2}}{S _ {Y} ^ {2}} \tag {33}
+1 - R^{2} = \frac{S_{\varepsilon}^{2}}{S_{Y}^{2}} \tag {33}
 $$ as the portion of the total fluctuation of the dependent variable,  $Y$ , explained by the regression relation.  $R^2$  is a number between 0 and 1:  $R^2 = 0$  means that the regression has no explanatory power,  $R^2 = 1$  means that the regression has perfect explanatory power. The quantity  $R^2$  is computed by software packages that perform linear regressions.
 
 
@@ -512,14 +512,14 @@ The quantity  $R^2$  as a measure of the usefulness of a regression model suffer
 
 
 $$
-\text {A d j u s t e d} R ^ {2} = \frac {T - 1}{T - N - 1} \frac {S _ {R} ^ {2}}{S _ {Y} ^ {2}} \tag {34}
+\text{Ad ju st ed} R^{2} = \frac{T - 1}{T - N - 1} \frac{S_{R}^{2}}{S_{Y}^{2}} \tag {34}
 $$
 
 # Relation of  $R^2$  to Correlation Coefficient
 
 The  $R^2$  is the squared correlation coefficient. The correlation coefficient is a number between -1 and +1 that measures the strength of the dependence between two variables. If a linear relationship is assumed, the correlation coefficient has the usual product-moment expression:
 
-$$ r = \sqrt {\frac {\overline {{X Y}} - \overline {{X Y}}}{S _ {y} X _ {x}}} \tag {35}
+$$ r = \sqrt{\frac{\overline {{X Y}} - \overline {{X Y}}}{S_{y} X_{x}}} \tag {35}
 $$
 
 # USING REGRESSION ANALYSIS IN FINANCE
@@ -530,7 +530,7 @@ This section provides several illustrations of regression analysis in finance as
 
 The characteristic line of a security is the regression of the excess returns of that security on the market excess returns:
 
-$$ r _ {i} = \alpha_ {i} + \beta_ {i} r _ {M}
+$$ r_{i} = \alpha_{i} + \beta_{i} r_{M}
 $$ where
 
 
@@ -567,7 +567,7 @@ A commonly used measure of the interest-rate sensitivity of an asset's value is 
 
 A simple linear regression for computing empirical duration using monthly historical data (see Reilly, Wright, and Johnson, 2007) is
 
-$$ y _ {i t} = \alpha_ {i} + \beta_ {i} x _ {t} + e _ {i t}
+$$ y_{i t} = \alpha_{i} + \beta_{i} x_{t} + e_{i t}
 $$ where
 
 
@@ -585,7 +585,7 @@ The yield change  $(x_{t})$  is measured by the Lehman Treasury Index. The regre
 
 A multiple regression model to estimate the empirical duration that has been suggested is
 
-$$ y _ {i t} = \alpha_ {i} + \beta_ {1 i} x _ {1 t} + \beta_ {2 i} x _ {2 t} + e _ {i t}
+$$ y_{i t} = \alpha_{i} + \beta_{1 i} x_{1 t} + \beta_{2 i} x_{2 t} + e_{i t}
 $$ where  $y_{it}$  and  $x_{1t}$  are the same as for the simple linear regression and  $x_{2t}$  is the return on the S&P 500. The results for this model are also shown in Table 4.
 
 
@@ -670,7 +670,7 @@ $$
 Suppose that residuals are correlated. This means that in general  $E[\varepsilon_i\varepsilon_j] = \sigma_{ij} \neq 0$ . Thus the variance-covariance matrix of the residuals  $\{\sigma_{ij}\}$  will not be a diagonal matrix as in the case of uncorrelated residuals, but will exhibit nonzero off-diagonal terms. We assume that we can write
 
 $$
-\{\sigma_ {i j} \} = \sigma^ {2} \pmb {\Omega}
+\{\sigma_{i j} \} = \sigma^{2} \pmb {\Omega}
 $$ where  $\Omega$  is a positive definite symmetric matrix and  $\sigma$  is a parameter to be estimated.
 
 
@@ -678,35 +678,35 @@ If residuals are correlated, the regression parameters can still be estimated wi
 
 
 $$
-\hat {\beta} = \left(\mathbf {X} ^ {\prime} \boldsymbol {\Omega} ^ {- 1} \mathbf {X}\right) ^ {- 1} \mathbf {X} ^ {\prime} \boldsymbol {\Omega} ^ {- 1} \mathbf {Y} \tag {36}
+\hat {\beta} = \left(\mathbf {X}^{\prime} \boldsymbol {\Omega}^{- 1} \mathbf {X}\right)^{- 1} \mathbf {X}^{\prime} \boldsymbol {\Omega}^{- 1} \mathbf {Y} \tag {36}
 $$ where  $\Omega$  is the residual correlation matrix.
 
 
 The GLS estimators vary with the sampling distribution. It can also be demonstrated that the variance of the GLS estimator is also given by the following "sandwich" formula:
 
 $$
-V (\hat {\boldsymbol {\beta}}) = E \left(\left(\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}\right) \left(\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}\right) ^ {\prime}\right) = \sigma^ {2} \left(\mathbf {X} ^ {\prime} \boldsymbol {\Omega} ^ {- 1} \mathbf {X}\right) ^ {- 1} \tag {37}
+V (\hat {\boldsymbol {\beta}}) = E \left(\left(\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}\right) \left(\boldsymbol {\beta} - \hat {\boldsymbol {\beta}}\right)^{\prime}\right) = \sigma^{2} \left(\mathbf {X}^{\prime} \boldsymbol {\Omega}^{- 1} \mathbf {X}\right)^{- 1} \tag {37}
 $$
 
 This expression is similar to equation (28) with the exception of the sandwiched term  $\Omega^{-1}$ . Unfortunately, (37) cannot be estimated without first knowing the regression coefficients. For this reason, in the presence of correlation of residuals, it is common practice to replace static regression models with models that explicitly capture autocorrelations and produce uncorrelated residuals.
 
 The key idea here is that autocorrelated residuals signal that the modeling exercise has not been completed. If residuals are autocorrelated, this signifies that the residuals at a generic time  $t$  can be predicted from residuals at an earlier time. For example, suppose that we are linearly regressing a time series of returns  $r_t$  on  $N$  factors:
 
-$$ r _ {t} = \alpha_ {1} f _ {1, t - 1} + \dots + \alpha_ {N} f _ {N, t - 1} + \varepsilon_ {t}
+$$ r_{t} = \alpha_{1} f_{1, t - 1} + \dots + \alpha_{N} f_{N, t - 1} + \varepsilon_{t}
 $$
 
 Suppose that the residual terms  $\varepsilon_{t}$  are autocorrelated and that we can write regressions of the type
 
 $$
-\varepsilon_ {t} = \varphi \varepsilon_ {t - 1} + \eta_ {t}
+\varepsilon_{t} = \varphi \varepsilon_{t - 1} + \eta_{t}
 $$ where  $\eta_t$  are now uncorrelated variables. If we ignore this autocorrelation, valuable forecasting information is lost. Our initial model has to be replaced with the following model:
 
 
-$$ r _ {t} = \alpha_ {1} f _ {1, t - 1} + \dots + \alpha_ {N} f _ {N, t - 1} + \varepsilon_ {t}
+$$ r_{t} = \alpha_{1} f_{1, t - 1} + \dots + \alpha_{N} f_{N, t - 1} + \varepsilon_{t}
 $$
 
 $$
-\varepsilon_ {t} = \varphi \varepsilon_ {t - 1} + \eta_ {t}
+\varepsilon_{t} = \varphi \varepsilon_{t - 1} + \eta_{t}
 $$ with the initial conditions  $\varepsilon_0$
 
 
@@ -733,7 +733,7 @@ Testing for regressions implies testing for cointegration. Anticipating what wil
 Collinearity, also referred to as multicollinearity, occurs when two or more regressors have a linear deterministic relationship. For example, there is collinearity if the design matrix
 
 $$
-\mathbf {X} = \left( \begin{array}{c c c} X _ {1 1} & \dots & X _ {N 1} \\ \vdots & \ddots & \vdots \\ X _ {1 T} & \dots & X _ {N T} \end{array} \right)
+\mathbf {X} = \left( \begin{array}{c c c} X_{1 1} & \dots & X_{N 1} \\ \vdots & \ddots & \vdots \\ X_{1 T} & \dots & X_{N T} \end{array} \right)
 $$ exhibits two or more columns that are perfectly proportional. Collinearity is essentially a numerical problem. Intuitively, it is clear that it creates indeterminacy as we are regressing twice on the same variable. In particular, the standard estimators given by (26) and (27) cannot be used because the relative formulas become meaningless.
 
 

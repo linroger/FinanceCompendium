@@ -177,7 +177,7 @@ Small value
 
 Small growth
 
-The four cells shown in the above grid have different risk/return combinations. In addition to book value (B), style is often calculated as a ratio to earnings (E); that is, the style ratio is  $\mathrm{P / E}$ , the price-to-earnings ratio.
+The four cells shown in the above grid have different risk/return combinations. In addition to book value (B), style is often calculated as a ratio to earnings (E); that is, the style ratio is  $\mathrm{P /E}$ , the price-to-earnings ratio.
 
 # Stock Market Indexes
 
@@ -300,7 +300,7 @@ Efficient market hypothesis and the random walk hypothesis The efficient market 
 Expressed mathematically, the next period's price, denoted by  $P_{t+1}$ , can be expressed as the current period's price, denoted by  $P_t$ , plus a random error term denoted by  $e_{t+1}$ :
 
 $$
-P _ {t + 1} = P _ {t} + e _ {t + 1}.
+P_{t + 1} = P_{t} + e_{t + 1}.
 $$
 
 The serial correlation coefficient is the correlation coefficient between  $P_{t+1}$  and  $P_t$ . Statistically, the serial correlation coefficient (also called the "autocorrelation coefficient") is the extent to which the price in one period is related to the next period's price.

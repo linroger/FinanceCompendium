@@ -767,15 +767,15 @@ Effective in January 2023
 Do the Basel Accords matter?
 
 $$
-! " \# \S \% & , () \& ^ {*} (+++, ) - . \& ^ {*} / (- 0 1 () \# 2 0 1 0 ])
+! " \# \S \% & , () \&^{*} (+++, ) - . \&^{*} / (- 0 1 () \# 2 0 1 0 ])
 $$
 
 $$
-\begin{array}{l} ! \text {" $ $ % # & $ ' ("} ^ {\star} (+ ^ {\star} (\& , -, (. / \& 0 (1 2, 1, 3 / \\ \\ . 2 ^ {\#}; (2 ^ {\star} - ^ {\#} <   (/ 3 / / (2 ^ {\star}, 4 \\ \\ > 2 ^ {\star} / ^ {\#} ((3 4 6 6 / 2 5)) / ^ {\prime \prime} (\# & 9 \\ \\ > ^ {\star} (4) + ^ {\star} 3? \end{array}
+\begin{array}{l} ! \text{" $ $ % # & $ ' ("}^{\star} (+^{\star} (\& , -, (. / \& 0 (1 2, 1, 3 / \\ \\ . 2^{\#}; (2^{\star} -^{\#} <   (/ 3 / / (2^{\star}, 4 \\ \\ > 2^{\star} /^{\#} ((3 4 6 6 / 2 5)) /^{\prime \prime} (\# & 9 \\ \\ >^{\star} (4) +^{\star} 3? \end{array}
 $$
 
 $$
-\begin{array}{l} ! > / 1 \# ^ {\prime \prime} / \S (@ + ^ {*} A 4 / 9 5 \\ ! @ 3 3 ^ {*} \text {B} 4 / \# ^ {\#} 5 \\ ! \quad C \& 3 ^ {\prime \prime} 4 ^ {\prime \prime}, \& / S (D / \& / ^ {\prime \ast} 6 ^ {\ast} \& ^ {\prime \ast} \\ ! \quad E / 2 \& \# \& ' 3 \\ ! \quad F \# A 4 \# + \# ^ {\prime \prime} 5 \\ ! \quad D / 2 0 ^ {*} \prime \prime (G ^ {*} \& 3 _ {\#} ^ {\prime \prime} \# - \# ^ {\prime \prime} 5 \\ \end{array}
+\begin{array}{l} ! > / 1 \#^{\prime \prime} / \S (@ +^{*} A 4 / 9 5 \\ ! @ 3 3^{*} \text{B} 4 / \#^{\#} 5 \\ ! \quad C \& 3^{\prime \prime} 4^{\prime \prime}, \& / S (D / \& /^{\prime \ast} 6^{\ast} \&^{\prime \ast} \\ ! \quad E / 2 \& \# \& ' 3 \\ ! \quad F \# A 4 \# + \#^{\prime \prime} 5 \\ ! \quad D / 2 0^{*} \prime \prime (G^{*} \& 3_{\#}^{\prime \prime} \# - \#^{\prime \prime} 5 \\ \end{array}
 $$
 
 # US BANKING REGULATION PART I
@@ -1051,15 +1051,15 @@ Composite 4 - Financial institutions in this group generally exhibit unsafe and 
 Composite 5 - Financial institutions in this group exhibit extremely unsafe and unsound practices or conditions; exhibit a critically deficient performance; often contain inadequate risk management practices relative to the institution's size, complexity, and risk profile; and are of the greatest supervisory concern. The volume and severity of problems are beyond management's ability or willingness to control or correct. Immediate outside financial or other assistance is needed in order for the financial institution to be viable. Ongoing supervisory attention is necessary. Institutions in this group pose a significant risk to the deposit insurance fund and failure is highly probable.
 
 $$
-! " \# \S \% & , () \& ^ {*} (+++, ) - . \& ^ {*} / (- 0 1 () \# 2 0 1 0 ])
+! " \# \S \% & , () \&^{*} (+++, ) - . \&^{*} / (- 0 1 () \# 2 0 1 0 ])
 $$
 
 $$
-\begin{array}{l} ! \text {" $ $ % # & $ ' ("} ^ {\star} (+ ^ {\star} (\& , -, (. / \& 0 (1 2, 1, 3 / \\ \\ . 2 ^ {\#}; (2 ^ {\star} - ^ {\#} <   (/ 3 / / (2 ^ {\star}, 4 \\ \\ > 2 ^ {\star} / ^ {\#} ((3 4 6 6 / 2 5)) / ^ {\prime \prime} (\# & 9 \\ \\ > ^ {\star} (4) + ^ {\star} 3? \end{array}
+\begin{array}{l} ! \text{" $ $ % # & $ ' ("}^{\star} (+^{\star} (\& , -, (. / \& 0 (1 2, 1, 3 / \\ \\ . 2^{\#}; (2^{\star} -^{\#} <   (/ 3 / / (2^{\star}, 4 \\ \\ > 2^{\star} /^{\#} ((3 4 6 6 / 2 5)) /^{\prime \prime} (\# & 9 \\ \\ >^{\star} (4) +^{\star} 3? \end{array}
 $$
 
 $$
-\begin{array}{l} ! > / 1 \# ^ {\prime \prime} / \S (@ + ^ {*} A 4 / 9 5 \\ ! @ 3 3 ^ {*} \text {B} 4 / \# ^ {\#} 5 \\ ! \quad C \& 3 ^ {\prime \prime} 4 ^ {\prime \prime}, \& / S (D / \& / ^ {\prime \ast} 6 ^ {\ast} \& ^ {\prime \ast} \\ ! \quad E / 2 \& \# \& ' 3 \\ ! \quad F \# A 4 \# + \# ^ {\prime \prime} 5 \\ ! \quad D / 2 0 ^ {*} \prime \prime (G ^ {*} \& 3 _ {\#} ^ {\prime \prime} \# - \prime^ {\prime \prime} 5 \\ \end{array}
+\begin{array}{l} ! > / 1 \#^{\prime \prime} / \S (@ +^{*} A 4 / 9 5 \\ ! @ 3 3^{*} \text{B} 4 / \#^{\#} 5 \\ ! \quad C \& 3^{\prime \prime} 4^{\prime \prime}, \& / S (D / \& /^{\prime \ast} 6^{\ast} \&^{\prime \ast} \\ ! \quad E / 2 \& \# \& ' 3 \\ ! \quad F \# A 4 \# + \#^{\prime \prime} 5 \\ ! \quad D / 2 0^{*} \prime \prime (G^{*} \& 3_{\#}^{\prime \prime} \# - \prime^{\prime \prime} 5 \\ \end{array}
 $$
 
 # US BANKING REGULATION PART II

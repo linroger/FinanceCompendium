@@ -26,7 +26,7 @@ Portfolio optimization is a straightforward procedure, at least in principle. In
 More precisely, consider a simple mean-variance problem:
 
 $$
-\max  _ {w} \mu_ {p} - \frac {1}{2} \gamma \sigma_ {p} ^ {2}
+\max_{w} \mu_{p} - \frac{1}{2} \gamma \sigma_{p}^{2}
 $$
 
 Here, the control variable is a vector  $w$  of optimal weight allocated to various risky assets,  $\mu_p$  denotes the portfolio expected return, and  $\sigma_p$  denotes the portfolio volatility. We further assume that the investor is facing the following investment opportunity set: a riskless bond paying the risk-free rate  $r$ , and a set of  $N$  risky assets with expected return vector  $\mu$  (of size  $N$ ) and covariance matrix  $\Sigma$  (of size  $NxN$ ), all assumed constant so far.
@@ -35,11 +35,11 @@ Here, the control variable is a vector  $w$  of optimal weight allocated to vari
 With these notations, the portfolio expected return and volatility are respectively given by:
 
 $$
-\mu_ {p} = w ^ {\prime} (\mu - r e) + r
+\mu_{p} = w^{\prime} (\mu - r e) + r
 $$
 
 $$
-\sigma_ {p} ^ {2} = w ^ {\prime} \Sigma w
+\sigma_{p}^{2} = w^{\prime} \Sigma w
 $$
 
 In this context, it is straightforward to show by standard arguments that the only efficient portfolio composed with risky assets is the maximum Sharpe ratio portfolio, also known as the tangency portfolio.
@@ -47,20 +47,20 @@ In this context, it is straightforward to show by standard arguments that the on
 Finally, the Sharpe ratio reads (where we further denote by  $e$  vector of ones of size  $N$ ):
 
 $$
-S R = \frac {w ^ {\prime} (\mu - r e)}{(w ^ {\prime} \Sigma w) ^ {1 / 2}}
+S R = \frac{w^{\prime} (\mu - r e)}{(w^{\prime} \Sigma w)^{1 / 2}}
 $$
 
 And the optimal portfolio is given by:
 
 $$
-\begin{array}{l} \max  _ {w} \left(\mu_ {p} - \frac {1}{2} \gamma \sigma_ {p} ^ {2}\right) \Rightarrow w _ {0} ^ {*} = \frac {1}{\gamma} \Sigma^ {- 1} (\mu - r e) \\ = \frac {e ^ {\prime} \Sigma^ {- 1} (\mu - r e)}{\gamma} \underbrace {\frac {\Sigma^ {- 1} (\mu - r e)}{e ^ {\prime} \Sigma^ {- 1} (\mu - r e)}} _ {P S P} \tag {1} \\ \end{array}
+\begin{array}{l} \max_{w} \left(\mu_{p} - \frac{1}{2} \gamma \sigma_{p}^{2}\right) \Rightarrow w_{0}^{*} = \frac{1}{\gamma} \Sigma^{- 1} (\mu - r e) \\ = \frac{e^{\prime} \Sigma^{- 1} (\mu - r e)}{\gamma} \underbrace {\frac{\Sigma^{- 1} (\mu - r e)}{e^{\prime} \Sigma^{- 1} (\mu - r e)}}_{P S P} \tag {1} \\ \end{array}
 $$
 
 This is a two-fund separation theorem, which gives the allocation to the MSR performance-seeking portfolio (PSP), with the rest invested in cash, as well as the composition of the MSR performance-seeking portfolio.
 
 In practice, investors end up holding more or less imperfect proxies for the truly optimal performance-seeking portfolio, if only because of the presence of parameter uncertainty, which makes it impossible to obtain a perfect estimate for the maximum Sharpe ratio portfolio. Denoting by  $\lambda$  the Sharpe ratio of the (generally inefficient) PSP actually held by the investor, and by  $\sigma$  its volatility, we obtain the following optimal allocation strategy:
 
-$$ w _ {0} ^ {*} = \frac {\lambda}{\gamma \sigma} P S P \tag {2}
+$$ w_{0}^{*} = \frac{\lambda}{\gamma \sigma} P S P \tag {2}
 $$
 
 Hence the allocation to the performance-seeking portfolio is a function of two objective parameters, the PSP volatility and the PSP
@@ -95,16 +95,16 @@ The key problem in covariance matrix estimation is the curse of dimensionality; 
 
 Therefore, at the estimation stage, the challenge is to reduce the number of factors that come into play. In general, a multifactor model decomposes the (excess) return (in excess to the risk-free asset) of an asset into its expected rewards for exposition to the "true" risk factors as follows:
 
-$$ r _ {i t} = \alpha_ {i t} + \sum_ {j = 1} ^ {K} \beta_ {i, j t} \cdot F _ {j t} + \varepsilon_ {i t}
+$$ r_{i t} = \alpha_{i t} + \sum_{j = 1}^{K} \beta_{i, j t} \cdot F_{j t} + \varepsilon_{i t}
 $$ or in matrix form for all  $N$  assets:
 
 
-$$ r _ {t} = \alpha_ {t} + \beta_ {t} F _ {t} + \varepsilon_ {t}
+$$ r_{t} = \alpha_{t} + \beta_{t} F_{t} + \varepsilon_{t}
 $$ where  $\beta_{t}$  is an  $N\times K$  matrix containing the sensitivities of each asset  $i$  with respect to the corresponding  $j$ -th factor movements;  $r_t$  is the vector of the  $N$  assets' (excess) returns,  $F_{t}$  a vector containing the  $K$  risk factors' (excess) returns, and  $\varepsilon_{t}$  the  $N\times 1$  vector containing the zero mean uncorrelated residuals  $\varepsilon_{it}$ . The covariance matrix for the asset returns implied by a factor model is given by:
 
 
 $$
-\boldsymbol {\Omega} = \boldsymbol {\beta} \cdot \boldsymbol {\Sigma} _ {F} \cdot \boldsymbol {\beta} ^ {T} + \boldsymbol {\Sigma} _ {\varepsilon}
+\boldsymbol {\Omega} = \boldsymbol {\beta} \cdot \boldsymbol {\Sigma}_{F} \cdot \boldsymbol {\beta}^{T} + \boldsymbol {\Sigma}_{\varepsilon}
 $$ where  $\Sigma_F$  is the  $K\times K$  covariance matrix of the risk factors and  $\Sigma_{\varepsilon}$  an  $N\times N$  covariance matrix of the residuals corresponding to each asset.
 
 

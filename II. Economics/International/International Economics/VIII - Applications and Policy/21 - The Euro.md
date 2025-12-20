@@ -68,7 +68,7 @@ As we have just seen, arbitrage from Home to Foreign is profitable only if the F
 Thus, if  $q$  is below  $1 + c$ , there will be no arbitrage from Home to Foreign. And if  $q$  is above  $1 / (1 + c)$ , there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is
 
 $$
-\frac {1}{1 + c} \leq \underbrace {\frac {E P ^ {*}}{P}} _ {\leq 1 + c}
+\frac{1}{1 + c} \leq \underbrace {\frac{E P^{*}}{P}}_{\leq 1 + c}
 $$
 
 Real exchange rate  $q$
@@ -155,21 +155,21 @@ A Simple Model The model can be solved in three steps, with assumptions as follo
 
 1. The traded good has the same price in both countries. This is true because trade costs are zero. For simplicity, we assume that the traded good has a price of 1 when measured in Home currency (say, dollars). This is its price in Home and Foreign, so
 
-$$ p _ {T} = 1 \quad E p _ {T} ^ {*} = 1
+$$ p_{T} = 1 \quad E p_{T}^{*} = 1
 $$
 
 In our example, the DVD player sells for 1 everywhere.
 
 2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $A because each unit of the good sells for \$1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $A*. Thus, wage levels in each country are equal to productivity levels:
 
-$$ w = A \quad E w ^ {*} = A ^ {*}
+$$ w = A \quad E w^{*} = A^{*}
 $$
 
 In our example, if Home workers make ten \$1 DVD players per hour, their hourly wage is \$10 per hour. If Foreign workers make only five per hour, their hourly wage is 5.
 
 3. Wages determine the prices of nontraded goods. Crucially, we assume that the level of productivity in nontraded goods is a fixed constant, the same everywhere, equal to 1. In our example, it always takes one hour to get a haircut in Home and Foreign, but with the wages given previously, this means the cost of a haircut will equal exactly one hour of labor. In general, the dollar price of the nontraded good in each country equals the wage, so  $p_N = w$  and  $E p_N^* = E w^*$ . Because these wages are given by productivity (as we saw in the second step),
 
-$$ p _ {N} = A \quad E p _ {N} ^ {*} = A ^ {*}
+$$ p_{N} = A \quad E p_{N}^{*} = A^{*}
 $$
 
 To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  \$10 and\$ 5, respectively, and Home haircuts will cost \$10 and Foreign haircuts \$5.
@@ -179,13 +179,13 @@ The conclusion from these three assumptions? Countries with higher traded goods 
 Changes in Productivity Now suppose Home productivity  $A$  increases, with the proportional change given by  $\Delta A / A$ . What happens to the Home price level? The price of traded goods is unchanged and stays at 1, but the price of nontraded goods is equal to  $A$  and it rises. Taking the weighted average, we can compute the (percentage) change in the Home price level as
 
 $$
-\underbrace {\frac {\Delta P}{P}} _ {\text {C h a n g e i n} \quad \text {H o m e p r i c e l e v e l}} = \underbrace {(1 - n)} _ {\text {S h a r e o f}} \times \underbrace {\left(\frac {\Delta p _ {T}}{p _ {T}}\right)} _ {\text {C h a n g e i n} \quad \text {H o m e t r a d e d g o o d s p r i c e}} + \underbrace {n} _ {\text {S h a r e o f}} \times \underbrace {\left(\frac {\Delta p _ {N}}{p _ {N}}\right)} _ {\text {N o n t r a d e d g o o d s}} = n \frac {\Delta A}{A}
+\underbrace {\frac{\Delta P}{P}}_{\text{Ch an ge in} \quad \text{Ho me pr ic el ev el}} = \underbrace {(1 - n)}_{\text{Sh ar eo f}} \times \underbrace {\left(\frac{\Delta p_{T}}{p_{T}}\right)}_{\text{Ch an ge in} \quad \text{Ho me tr ad ed go od sp ri ce}} + \underbrace {n}_{\text{Sh ar eo f}} \times \underbrace {\left(\frac{\Delta p_{N}}{p_{N}}\right)}_{\text{No nt ra de dg oo ds}} = n \frac{\Delta A}{A}
 $$
 
 By the same logic, the same is true for Foreign: a change in its dollar price level will result from a change in foreign productivity:
 
 $$
-\underbrace {\frac {\Delta (E P ^ {*})}{(E P ^ {*})}} _ {\text {C h a n g e i n}} = \underbrace {(1 - n)} _ {\text {T r a d e d g o o s}} \times \underbrace {\left(\frac {\Delta (E p _ {T} ^ {*})}{(E p _ {T} ^ {*})}\right)} _ {\text {C h a n g e i n}} + \underbrace {n} _ {\text {S h a r e o f}} \times \underbrace {\frac {\Delta (E p _ {N} ^ {*})}{(E p _ {N} ^ {*})}} _ {\text {N o n t r a d e d g o o s}} = n \frac {\Delta A ^ {*}}{A ^ {*}}
+\underbrace {\frac{\Delta (E P^{*})}{(E P^{*})}}_{\text{Ch an ge in}} = \underbrace {(1 - n)}_{\text{Tr ad ed go os}} \times \underbrace {\left(\frac{\Delta (E p_{T}^{*})}{(E p_{T}^{*})}\right)}_{\text{Ch an ge in}} + \underbrace {n}_{\text{Sh ar eo f}} \times \underbrace {\frac{\Delta (E p_{N}^{*})}{(E p_{N}^{*})}}_{\text{No nt ra de dg oo s}} = n \frac{\Delta A^{*}}{A^{*}}
 $$
 
 The last two equations are intuitive. For our example, a  $1\%$  rise in Home DVD player productivity  $A$  will raise Home wages  $w$  by  $1\%$ ; therefore, Home haircut prices rise  $1\%$  and, because these haircuts have a weight  $n < 1$  in the overall basket, the overall price index rises by  $n\%$ .
@@ -193,7 +193,7 @@ The last two equations are intuitive. For our example, a  $1\%$  rise in Home DV
 By putting together these last two results, we can solve for the change in the real exchange rate  $q$ . Recall that  $q$  is equal to  $EP^{*} / P$ , so the percentage change in  $q$  is given by the percentage change in the numerator  $EP^{*}$  minus the percentage change in the denominator  $P$ . But we have just computed those changes in the last two equations. Hence, subtracting the first equation above from the second, the change in the real exchange rate is given by
 
 $$
-\underbrace {\frac {\Delta q}{q}} _ {\substack {\text {Change in} \\ \text {real exchange rate} \\ (\text {Foreign price level} E P ^ {*} \\ \text {relative to Home} P)}} = \underbrace {n} _ {\substack {\text {Share of} \\ \text {nontraded goods}}} \times \underbrace {\left(\frac {\Delta A ^ {*}}{A ^ {*}} - \frac {\Delta A}{A}\right)} _ {\substack {\text {Change in} \\ \text {Foreign traded} \\ \text {productivity level} \\ \text {relative to Home}}} \tag{22 - 1}
+\underbrace {\frac{\Delta q}{q}}_{\substack {\text{Changein} \\ \text{realexchangerate} \\ (\text{Foreignpricelevel} E P^{*} \\ \text{relativetoHome} P)}} = \underbrace {n}_{\substack {\text{Shareof} \\ \text{nontradedgoods}}} \times \underbrace {\left(\frac{\Delta A^{*}}{A^{*}} - \frac{\Delta A}{A}\right)}_{\substack {\text{Changein} \\ \text{Foreigntraded} \\ \text{productivitylevel} \\ \text{relativetoHome}}} \tag{22 - 1}
 $$
 
 Thus, relative productivities in the traded goods sector drive relative prices, through their effects on wages and prices in the nontraded sector.
@@ -239,7 +239,7 @@ By definition, the real exchange rate is  $q = EP^{*} / P$ ; by rearranging, we 
 When PPP doesn't bold, however, we have to worry about possible changes in  $q$ . Since  $E = qP / P^{*}$ , then taking rates of change, we find
 
 $$
-\underbrace {\frac {\Delta E}{E}} _ {\text {R a t e o f}} = \underbrace {\frac {\Delta q}{q}} _ {\text {R a t e o f}} + \underbrace {\left(\frac {\Delta P}{P} - \frac {\Delta P ^ {*}}{P ^ {*}}\right)} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \tag {22-2}
+\underbrace {\frac{\Delta E}{E}}_{\text{Ra te of}} = \underbrace {\frac{\Delta q}{q}}_{\text{Ra te of}} + \underbrace {\left(\frac{\Delta P}{P} - \frac{\Delta P^{*}}{P^{*}}\right)}_{\text{In fl at io nd if fe re nt ia l}} \tag {22-2}
 $$
 
 In the long-run exchange rates chapter, we saw a simpler version of this expression: PPP forced  $q$  to be constant and equal to 1, and the first term on the right vanished. We were left with a result, known as relative PPP, which says that changes in nominal exchange rates depend on inflation differentials alone. Taken literally, forecasters can then focus just on inflation forecasts.
@@ -293,7 +293,7 @@ For such an important foundation of exchange rate theory, however, UIP remains s
 Uncovered interest parity (UIP) implies that the home interest rate should equal the foreign interest rate plus the rate of depreciation of the home currency. If UIP holds, it would seem to rule out the naive strategy of borrowing in a low interest rate currency and investing in a high interest rate currency, an investment referred to as a carry trade. In other words, UIP implies that the expected profit from such a trade is zero:
 
 $$
-\text {E x p e c t e d} = \underbrace {i _ {F}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n f o r g i n c u r r e n c y}}} + \underbrace {\frac {\Delta E _ {H / F} ^ {e}}{E _ {H / F}}} _ {\substack {\text {E x p e c t e d r a t e o f d e p r e c i a t i o n} \\ \text {o f t h e h o m e c u r r e n c y}}} - \underbrace {i _ {H}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n h o m e c u r r e n c y} \\ \text {C o s t o f c a r r y}}} \tag{22-3}
+\text{Ex pe ct ed} = \underbrace {i_{F}}_{\substack {\text{In te rs tr at e} \\ \text{on fo rg in cu rr en cy}}} + \underbrace {\frac{\Delta E_{H / F}^{e}}{E_{H / F}}}_{\substack {\text{Ex pe ct ed ra te of de pr ec ia ti on} \\ \text{of th eh om ec ur re nc y}}} - \underbrace {i_{H}}_{\substack {\text{In te rs tr at e} \\ \text{on ho me cu rr en cy} \\ \text{Co st of ca rr y}}} \tag{22-3}
 $$
 
 From the home perspective, the return to an investment in the foreign currency (the foreign return) consists of the first two terms on the right-hand side of the preceding equation. Let's suppose the foreign currency (that of Australia, say) has a high interest rate of  $6\%$ . Now suppose the home country (Japan, say) has a low interest rate of  $1\%$ . The final term in the preceding equation is the cost of borrowing funds in local currency (Japanese yen) or, in financial jargon, the cost of carry. The interest rate differential,  $5\%$ , would be the profit on the carry trade if the exchange rate remained unchanged. If UIP is true, however, it would be pointless to engage in such arbitrage because the low-yield currency (the yen) would be expected to appreciate by  $5\%$  against the high-yield currency (the Australian dollar). The exchange rate term would be  $-5\%$ , leaving zero expected profit.
@@ -431,7 +431,7 @@ Peso problems: a man hammers on the door of a bank in a protest over frozen acco
 Do carry trade profits disprove UIP? To explore this question further, let us rewrite Equation (22-3), which calculates expected profits, by replacing expected or ex ante values of the exchange rate with actual or ex post realized values.
 
 $$
-\text {A c t u a l p r o f i t} = \underbrace {i _ {F}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n f o r g i n c u r r e n c y}}} + \underbrace {\frac {\Delta E _ {H / F}}{E _ {H / F}}} _ {\substack {\text {A c t u a l r a t e o f d e p r e c i a t i o n} \\ \text {o f t h e h o m e c u r r e n c y}}} - \underbrace {i _ {H}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n h o m e c u r r e n c y}}} (2 2 - 4)
+\text{Ac tu al pr of it} = \underbrace {i_{F}}_{\substack {\text{In te rs tr at e} \\ \text{on fo rg in cu rr en cy}}} + \underbrace {\frac{\Delta E_{H / F}}{E_{H / F}}}_{\substack {\text{Ac tu al ra te of de pr ec ia ti on} \\ \text{of th eh om ec ur re nc y}}} - \underbrace {i_{H}}_{\substack {\text{In te rs tr at e} \\ \text{on ho me cu rr en cy}}} (2 2 - 4)
 $$
 
 Note the one subtle difference: the disappearance of the superscript " $e,$ " which denoted expectations of future exchange rate depreciation. This expression can be computed only after the fact: although interest rates are known in advance, the future exchange rate is not. We know actual profits only after the investment strategy has run its course.
@@ -439,7 +439,7 @@ Note the one subtle difference: the disappearance of the superscript " $e,$ " wh
 Thus, the sole difference between actual and expected profits is a forecast error that corresponds to the difference between actual depreciation and expected depreciation. (Again, the importance of exchange rate forecasts is revealed!) This forecast error is the difference between Equation (22-3) and Equation (22-4), that is,
 
 $$
-\text {F o r e c a s t} = \binom {\text {A c t u a l}} {\text {p r o f i t}} - \binom {\text {E x p e c t e d}} {\text {p r o f i t}} = \frac {\Delta E _ {H / F}}{E _ {H / F}} - \frac {\Delta E _ {H / F} ^ {e}}{E _ {H / F}} \tag {22-5}
+\text{Fo re ca st} = \binom {\text{Ac tu al}} {\text{pr of it}} - \binom {\text{Ex pe ct ed}} {\text{pr of it}} = \frac{\Delta E_{H / F}}{E_{H / F}} - \frac{\Delta E_{H / F}^{e}}{E_{H / F}} \tag {22-5}
 $$
 
 Armed with this way of understanding unexpected profits, we can now confront an important and controversial puzzle in international macroeconomics: What can the behavior of this forecast error tell us about UIP and the workings of the forex market? One way to attack that question is to study expected and actual profits side by side to see the size of the forecast error and its pattern of behavior.
@@ -507,7 +507,7 @@ The Sharpe Ratio and Puzzles in Finance Carry trade profits are the difference b
 The Sharpe ratio is the ratio of an asset's average annualized excess return to the annualized standard deviation of its return:
 
 $$
-\text {S h a r p e} = \frac {\text {M e a n (a n n u a l e x c e s s r e t u r n)}}{\text {S t a n d a r d d e v i a t i o n (a n n u a l e x c e s s r e t u r n)}}
+\text{Sh ar pe} = \frac{\text{Me an (an nu al ex ce ss re tu rn)}}{\text{St an da rd de vi at io n (an nu al ex ce ss re tu rn)}}
 $$
 
 The ratio was invented by William Forsyth Sharpe, a Nobel laureate in economics. As a ratio of "rewards to variability," the Sharpe ratio tells us how much the returns on an asset compensate investors for the risks they take when investing in it.
@@ -617,7 +617,7 @@ The Borrower Chooses Default Versus Repayment We assume the sovereign borrower f
 Now that we have established some costs of defaulting, the choice facing the country becomes clearer. For simplicity, we assume two possible courses of action: repay or default.[23] If the government repays the debt, the country will be able to consume only output  $Y$  minus the principal and interest on the loan  $(1 + r_L)L$ . If the government defaults, the country can consume output  $Y$  minus the punishment  $cY$ . Thus, the government will act as follows:
 
 $$
-\text {R e p a y i f} \underbrace {Y - (1 + r _ {L}) L} _ {\text {C o n s u m p t i o n a f t e r}} \quad > \underbrace {Y - c Y} _ {\text {C o n s u m p t i o n a f t e r n o n r e p a y m e n t}}
+\text{Re pa yi f} \underbrace {Y - (1 + r_{L}) L}_{\text{Co ns um pt io na ft er}} \quad > \underbrace {Y - c Y}_{\text{Co ns um pt io na ft er no nr ep ay me nt}}
 $$
 
 Figure 22-8 plots both sides of this inequality against  $Y$  for the case in which both repayment and default will occur within the range of possible output levels between maximum output  $\overline{Y}$  and minimum output  $\overline{Y} - V$ . At some critical level of output, called the repayment threshold, the government will switch from repayment to default. At this critical level, the two sides of the preceding inequality have to be equal; that is, the debt payoff amount  $(1 + r_L)L$  must equal the punishment cost  $cY$ .
@@ -625,13 +625,13 @@ Figure 22-8 plots both sides of this inequality against  $Y$  for the case in wh
 By rearranging the preceding inequality, we can find the level of  $Y$  at the repayment threshold  $Y_{T}$  and can restate the government's choice as
 
 $$
-\text {R e p a y i f} \quad Y \geq \underbrace {(1 + r _ {L}) L} _ {c}
+\text{Re pa yi f} \quad Y \geq \underbrace {(1 + r_{L}) L}_{c}
 $$
 
 Repayment threshold
 
 $$
-\overline {{\bar {Y}}} _ {T}
+\overline {{\bar {Y}}}_{T}
 $$
 
 For the case shown in Figure 22-8, we assume that this repayment threshold,  $Y_{T} = (1 + r_{L})L / c$ , is within the range of possible outputs between the minimum  $\overline{Y} - V$  and the maximum  $\overline{Y}$ .
@@ -687,7 +687,7 @@ To sum up, a rise in volatility lowers the level of debt  $L$  at which default 
 The Lender Chooses the Lending Rate All of the preceding results assume a given interest rate on the loan. But now that we know how the likely probability of repayment  $p$  is determined, we can calculate the interest rate that a competitive lender must charge. Competition will mean that lenders can only just break even and make zero expected profit. Thus, the lender will set its lending rate so that the expected revenues from each dollar lent, given by the probability of repayment  $p$  times the amount repaid  $(1 + r_L)$ , equal the lender's cost for each dollar lent, which is given by  $(1 + r)$ , the principal plus the risk-free interest rate at which the lender can obtain funds.
 
 $$
-\text {B r e a k - e v e n c o n d i t i o n f o r l e n d e r :} \underbrace {p} _ {\substack {\text {P r o b a b i l i t y} \quad \text {L e n d e r s r e v e n u e} \\ \text {o f r e p a y m e n t} \quad \text {i f r e p a i d}}} \underbrace {(1 + r _ {L})} _ {\substack {\text {L e n d e r s c o s t s} \quad \text {L e n d e r s c o s t s}}} = \underbrace {(1 + r)} _ {\substack {\text {L e n d e r s c o s t s}}}
+\text{Br ea k -e ve nc on di ti on fo rl en de r :} \underbrace {p}_{\substack {\text{Pr ob ab il it y} \quad \text{Le nd er sr ev en ue} \\ \text{of re pa ym en t} \quad \text{if re pa id}}} \underbrace {(1 + r_{L})}_{\substack {\text{Le nd er sc os ts} \quad \text{Le nd er sc os ts}}} = \underbrace {(1 + r)}_{\substack {\text{Le nd er sc os ts}}}
 $$
 
 What do we learn from this expression? The right-hand side is a constant, determined by the world risk-free rate of interest  $r$ . Thus, the left-hand side must be constant, too. If  $p$  were 1 (100\% probability of repayment), the solution would be straightforward: with no risk of default and competitive lenders, the borrower will rightly obtain a lending rate equal to the risk-free rate  $r$ . But as the probability of repayment  $p$  falls, to keep the left-hand side constant, the lenders must raise the lending rate  $r_L$ . That is, to compensate for the default risk, the lenders charge a risk premium so that they still just break even.

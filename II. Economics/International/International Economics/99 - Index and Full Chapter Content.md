@@ -606,7 +606,7 @@ the marginal products of labor are constant. That is, regardless of how much whe
 Given this property, the slope of the PPF in Figure 2-1 can be calculated as the ratio of the quantity of cloth produced to the quantity of wheat produced at the corners, as follows:
 
 $$
-\text {S l o p e} = - \frac {5 0}{1 0 0} = - \frac {M P L _ {C} \cdot \bar {L}}{M P L _ {W} \cdot \bar {L}} = - \frac {M P L _ {C}}{M P L _ {W}} = - \frac {1}{2}
+\text{Sl op e} = - \frac{5 0}{1 0 0} = - \frac{M P L_{C} \cdot \bar {L}}{M P L_{W} \cdot \bar {L}} = - \frac{M P L_{C}}{M P L_{W}} = - \frac{1}{2}
 $$
 
 Ignoring the minus sign, the slope equals the ratio of marginal products of the two goods. The slope is also the opportunity cost of wheat, the amount of cloth that must be given up to obtain one more unit of wheat. To see this, suppose that  $Q_W$  is increased by 1 bushel. It takes one worker to produce 4 bushels of wheat, so increasing  $Q_W$  by 1 bushel means that one-quarter of a worker's time must be withdrawn from the cloth industry and shifted into wheat production. This shift would reduce cloth output by  $\frac{1}{2}$  yard, the amount of cloth that could have been produced by one-quarter of a worker's time. Thus, yard of cloth is the opportunity cost of obtaining 1 more bushel of wheat and is the slope of the PPF.
@@ -636,13 +636,13 @@ If we assume that labor is perfectly free to move between these two industries a
 We can use the equality of the wage across industries to obtain the following equation:
 
 $$
-P _ {W} \cdot M P L _ {W} = P _ {C} \cdot M P L _ {C}
+P_{W} \cdot M P L_{W} = P_{C} \cdot M P L_{C}
 $$
 
 By rearranging terms, we see that
 
 $$
-P _ {W} / P _ {C} = M P L _ {C} / M P L _ {W}
+P_{W} / P_{C} = M P L_{C} / M P L_{W}
 $$
 
 The right-hand side of this equation is the slope of the production possibilities frontier (the opportunity cost of obtaining one more bushel of wheat) and the left-hand side of the equation is the relative price of wheat, as we will explain in the next paragraph. This equation says that the relative price of wheat (on the left) and opportunity cost of wheat (on the right) must be equal in the no-trade equilibrium at point  $A$ .
@@ -714,7 +714,7 @@ Change in Production and Consumption The world relative price of wheat that we h
 Recall that Home wages paid in the wheat industry equal  $P_W \cdot MPL_W$ , and wages paid in the cloth industry equal  $P_C \cdot MPL_C$ . We know that the relative price of wheat in the trade equilibrium is  $P_W / P_C = \frac{2}{3}$ , that the marginal product of labor in the Home wheat industry is  $MPL_W = 4$ , and that the marginal product of labor in the Home cloth industry is  $MPL_C = 2$ . We can plug these numbers into the formulas for wages to compute the ratio of wages in the two industries as
 
 $$
-\frac {P _ {W} \cdot M P L _ {W}}{P _ {C} \cdot M P L _ {C}} = \left(\frac {2}{3}\right) \left(\frac {4}{2}\right) = \frac {8}{6} > 1, \text {s o t h a t} P _ {W} \cdot M P L _ {W} > P _ {C} \cdot M P L _ {C}
+\frac{P_{W} \cdot M P L_{W}}{P_{C} \cdot M P L_{C}} = \left(\frac{2}{3}\right) \left(\frac{4}{2}\right) = \frac{8}{6} > 1, \text{so th at} P_{W} \cdot M P L_{W} > P_{C} \cdot M P L_{C}
 $$
 
 This formula tells us that with the world relative price of wheat, wages paid in Home's wheat industry  $(P_W \cdot MPL_W)$  are greater than those paid in its cloth industry  $(P_C \cdot MPL_C)$ . Accordingly, all of Home's workers will want to work in the wheat industry, and no cloth will be produced. With trade, the Home economy
@@ -750,13 +750,13 @@ These two conclusions are often where the Ricardian model stops in its analysis 
 Solving for Wages Across Countries To understand how wages are determined, we go back to microeconomics. In competitive labor markets, firms will pay workers the value of their marginal product. Home produces and exports wheat, so we can think of Home workers being paid in terms of that good: their real wage is  $MPL_{W} = 4$  bushels of wheat. We refer to this payment as a "real" wage because it is measured in terms of a good that workers consume and not in terms of money. The workers can then sell the wheat they earn on the world market at the relative price of  $P_{W} / P_{C} = \frac{2}{3}$ . Thus, their real wage in terms of units of cloth is  $(P_{W} / P_{C}) \cdot MPL_{W} = \frac{2}{3} \cdot 4 = \frac{8}{3}$  yard. Summing up, the Home wage is
 
 $$
-\text {H o m e w a g e} = \left\{ \begin{array}{l} M P L _ {W} = 4 \text {b u s h e l s o f w h e a t} \\ \text {o r} \\ \left(P _ {W} / P _ {C}\right) \cdot M P L _ {W} = \frac {8}{3} \text {y a r d o f c l o t h} \end{array} \right.
+\text{Ho me wa ge} = \left\{ \begin{array}{l} M P L_{W} = 4 \text{bu sh el so fw he at} \\ \text{or} \\ \left(P_{W} / P_{C}\right) \cdot M P L_{W} = \frac{8}{3} \text{ya rd of cl ot h} \end{array} \right.
 $$
 
 What happens to Foreign wages? Foreign produces and exports cloth, and the real wage is  $MPL_{C}^{*} = 1$  yard of cloth. Because cloth workers can sell the cloth they earn for wheat on the world market at the price of  $\frac{3}{2}$ , their real wage in terms of units of wheat is  $(P_{C}^{*} / P_{W}^{*}) \cdot MPL_{C}^{*} = \frac{3}{2} \cdot 1 = \frac{3}{2}$  bushel. Thus, the Foreign wage is
 
 $$
-\text {F o r g i n w a g e} = \left\{ \begin{array}{l} \left(P _ {C} ^ {*} / P _ {W} ^ {*}\right) \cdot M P L _ {C} ^ {*} = \frac {3}{2} \text {b u s h e l s o f w h e a t} \\ \text {o r} \\ M P L _ {C} ^ {*} = 1 \text {y a r d o f c l o t h} \end{array} \right.
+\text{Fo rg in wa ge} = \left\{ \begin{array}{l} \left(P_{C}^{*} / P_{W}^{*}\right) \cdot M P L_{C}^{*} = \frac{3}{2} \text{bu sh el so fw he at} \\ \text{or} \\ M P L_{C}^{*} = 1 \text{ya rd of cl ot h} \end{array} \right.
 $$
 
 Foreign workers earn less than Home workers as measured by their ability to purchase either good. This fact reflects Home's absolute advantage in the production of both goods.
@@ -1141,19 +1141,19 @@ Frontier The production possibilities frontier shows the amount of agricultural 
 the value of one more hour of labor in terms of output. In turn, the value of one more hour of labor equals the amount of goods produced in that hour (the marginal product of labor) times the price of the good. In manufacturing, labor will be hired to the point at which the wage  $W$  equals the price of manufacturing  $P_M$  times the marginal product of labor in manufacturing  $MPL_M$ .
 
 $$
-W = P _ {M} \cdot M P L _ {M}
+W = P_{M} \cdot M P L_{M}
 $$
 
 Similarly, in agriculture, labor will be hired to the point at which the wage  $W$  equals the price of agriculture  $P_A$  times the marginal product of labor in agriculture  $MPL_A$ .
 
 $$
-W = P _ {A} \cdot M P L _ {A}
+W = P_{A} \cdot M P L_{A}
 $$
 
 Because we are assuming that labor is free to move between sectors, the wages in these two equations must be equal. If the wage were not the same in both sectors, labor would move to the sector with the higher wage. This movement would continue until the increase in the amount of labor in the high-wage sector drove down the wage, and the decrease in amount of labor in the low-wage sector drove up the wage, until the wages were equal. By setting the two wage equations equal, we obtain  $P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A}$ , and by rearranging terms, we get
 
 $$
-\left(P _ {M} / P _ {A}\right) = \left(M P L _ {A} / M P L _ {M}\right)
+\left(P_{M} / P_{A}\right) = \left(M P L_{A} / M P L_{M}\right)
 $$
 
 This equation shows that the relative price of manufacturing  $(P_M / P_A)$  equals the opportunity cost of manufacturing  $(MPL_A / MPL_M)$ , the slope of the production possibilities frontier. These relative prices also reflect the value that Home consumers put on manufacturing versus food. In the absence of international trade, the equilibrium for the Home economy is at point  $A$  in Figure 3-3, where the relative price of manufacturing  $(P_M / P_A)$  equals the slope of the PPF as well as the slope of the indifference curve for a representative consumer with utility of  $U_1$ . The intuition for the
@@ -1167,7 +1167,7 @@ Agriculture output,  $Q_{A}$
 Increase in the Relative Price of Manufactures In the absence of international trade, the economy produces and consumes at point  $A$ . The relative price of manufactures,  $P_{M} / P_{A}$ , is the slope of the line tangent to the PPF and indifference curve,  $U_{1}$ , at point  $A$ . With international trade, the economy is able to produce at point  $B$  and consume at point  $C$ . The world relative price of manufactures,  $(P_{M} / P_{A})^{W}$ , is the slope of the line  $BC$ . The rise in utility from  $U_{1}$  to  $U_{2}$  is a measure of the gains from trade for the economy.
 
 $$
-= \mathrm {t e r m s} \frac {\mathrm {t r a d e}}{\mathrm {p r e x p o r t}} = \frac {\mathrm {P _ {e x p o r t}}}{\mathrm {P _ {i m p o r t}}} = \mathrm {r e l a t i v e p r i c e m a n u o f a c t o r - y} = \frac {\mathrm {P _ {M}}}{\mathrm {P _ {A}}}
+= \mathrm{te rm s} \frac{\mathrm{tr ad e}}{\mathrm{pr ex po rt}} = \frac{\mathrm{P_{ex po rt}}}{\mathrm{P_{im po rt}}} = \mathrm{re la ti ve pr ic em an uo fa ct or -y} = \frac{\mathrm{P_{M}}}{\mathrm{P_{A}}}
 $$ no-trade equilibrium is exactly the same as for the Ricardian model in Chapter 2: equilibrium occurs at the tangency of the PPF and the consumer's indifference curve. This point on the PPF corresponds to the highest possible level of utility for the consumer.
 
 
@@ -1183,7 +1183,7 @@ Starting at the no-trade equilibrium point  $A$  in Figure 3-3, suppose that the
 
 $$
 
-\left(P _ {M} / P _ {A}\right) <   \left(P _ {M} / P _ {A}\right) ^ {W} <   \left(P _ {M} ^ {*} / P _ {A} ^ {*}\right)
+\left(P_{M} / P_{A}\right) <   \left(P_{M} / P_{A}\right)^{W} <   \left(P_{M}^{*} / P_{A}^{*}\right)
 
 $$
 
@@ -1221,7 +1221,7 @@ First, we add the amount of labor used in manufacturing  $L_{M}$  and the amount
 
 $$
 
-L _ {M} + L _ {A} = \overline {{L}}
+L_{M} + L_{A} = \overline {{L}}
 
 $$
 
@@ -1237,13 +1237,13 @@ which is the marginal product of labor times the price of the good. In each indu
 
 $$
 
-W = P _ {M} \cdot M P L _ {M} \text {i n m a n a f t u c t i n g}
+W = P_{M} \cdot M P L_{M} \text{in ma na ft uc ti ng}
 
 $$
 
 $$
 
-W = P _ {A} \cdot M P L _ {A} \text {i n a g r i c u t u r e}
+W = P_{A} \cdot M P L_{A} \text{in ag ri cu tu re}
 
 $$
 
@@ -1275,7 +1275,7 @@ The amount of the manufactured good that a worker can buy is measured by  $W / P
 
 $$
 
-\Delta W <   \Delta P _ {M} \cdot M P L _ {M}
+\Delta W <   \Delta P_{M} \cdot M P L_{M}
 
 $$
 
@@ -1283,7 +1283,7 @@ To see how  $W / P_{M}$  has changed, divide both sides of this equation by the 
 
 $$
 
-\frac {\Delta W}{W} <   \frac {\Delta P _ {M} \cdot M P L _ {M}}{P _ {M} \cdot M P L _ {M}} = \frac {\Delta P _ {M}}{P _ {M}}
+\frac{\Delta W}{W} <   \frac{\Delta P_{M} \cdot M P L_{M}}{P_{M} \cdot M P L_{M}} = \frac{\Delta P_{M}}{P_{M}}
 
 $$ where the final ratio is obtained because we canceled out  $MPL_{M}$  in the numerator and denominator of the middle ratio. The term  $\Delta W / W$  in this equation is the percentage change in wages. For example, suppose the initial wage is  $\8$  per hour and it rises to  $\$ 10  per hour. Then  $\Delta W / W = \2 / \$ 8 = 0.25 , which is a  $25\%$  increase in the wage. Similarly, the term  $\Delta P_{M} / P_{M}$  is the percentage change in the price of manufactured goods. When  $\Delta W / W < \Delta P_{M} / P_{M}$ , then the percentage increase in the wage is less than the percentage increase in the price of the manufactured good. This inequality means that the amount of the manufactured good that can be purchased with the wage has fallen, so the real wage in terms of the manufactured good  $W / P_{M}$  has decreased.[6]
 
@@ -1374,21 +1374,21 @@ Source: Excerpted from Progressive Policy Institute trade fact of the week, "Ser
 from the sales revenue earned in each industry, we end up with the payments to capital and to land. If  $Q_{M}$  is the output in manufacturing and  $Q_{A}$  is the output in agriculture, the revenue earned in each industry is  $P_{M} \cdot Q_{M}$  and  $P_{A} \cdot Q_{A}$ , and the payments to capital and to land are
 
 $$
-\text {P a y m e n t s} = P _ {M} \cdot Q _ {M} - W \cdot L _ {M}
+\text{Pa ym en ts} = P_{M} \cdot Q_{M} - W \cdot L_{M}
 $$
 
 $$
-\text {P a y m e n t s} = P _ {A} \cdot Q _ {A} - W \cdot L _ {A}
+\text{Pa ym en ts} = P_{A} \cdot Q_{A} - W \cdot L_{A}
 $$
 
 It will be useful to take these payments one step further and break them down into the earnings of each unit of capital and land. To do so, we need to know the quantity of capital and land. We denote the quantity of land used in agriculture as  $T$  acres and the quantity of capital (number of machines) used in manufacturing as  $K$ . Thus, the earnings of one unit of capital (a machine, for instance), which we call  $R_{K}$ , and the earnings of an acre of land, which we call  $R_{T}$ , are calculated as
 
 $$
-R _ {K} = \frac {\text {P a y m e n t s t o c a p i t a l}}{K} = \frac {P _ {M} \cdot Q _ {M} - W \cdot L _ {M}}{K}
+R_{K} = \frac{\text{Pa ym en ts to ca pi ta l}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
 $$
 
 $$
-R _ {T} = \frac {\text {P a y m e n t s t o l a n d}}{T} = \frac {P _ {A} \cdot Q _ {A} - W \cdot L _ {A}}{T}
+R_{T} = \frac{\text{Pa ym en ts to la nd}}{T} = \frac{P_{A} \cdot Q_{A} - W \cdot L_{A}}{T}
 $$
 
 Economists call  $R_{K}$  the rental on capital and  $R_{T}$  the rental on land. The use of the term "rental" does not mean that the factory owners or farmers rent their machines or land from someone else, although they could. Instead, the rental on machines and land reflects what these factors of production earn during a period when they are used in manufacturing and agriculture. Alternatively, the rental is the amount these factors could earn if they were rented to someone else over that same time.
@@ -1396,7 +1396,7 @@ Economists call  $R_{K}$  the rental on capital and  $R_{T}$  the rental on land
 There is a second way to calculate the rentals, which will look similar to the formula we have used for wages. In each industry, wages reflect the marginal product of labor times the price of the good,  $W = P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A}$ . Similarly, capital and land rentals can be calculated as
 
 $$
-R _ {K} = P _ {M} \cdot M P K _ {M} \text {a n d} R _ {T} = P _ {A} \cdot M P T _ {A}
+R_{K} = P_{M} \cdot M P K_{M} \text{an d} R_{T} = P_{A} \cdot M P T_{A}
 $$ where  $MPK_{M}$  is the marginal product of capital in manufacturing, and  $MPT_{A}$  is the marginal product of land in agriculture. These marginal product formulas give the same values for the rentals as first calculating the payments to capital and land, as we just did, and then dividing by the quantity of capital and land. We will use both approaches to obtain rental values, depending on which is easiest.
 
 
@@ -1407,7 +1407,7 @@ Using the preceding formulas for the rentals, we can summarize the results so fa
 
 $$
 
-\boxed {P ^ {M} \uparrow \Rightarrow \left\{ \begin{array}{l} L _ {M} \uparrow , \text {s o t h a t} M P K _ {M} = R _ {K} / P _ {M} \uparrow \\ L _ {A} \downarrow , \text {s o t h a t} M P T _ {A} = R _ {T} / P _ {A} \downarrow \end{array} \right.}
+\boxed {P^{M} \uparrow \Rightarrow \left\{ \begin{array}{l} L_{M} \uparrow , \text{so th at} M P K_{M} = R_{K} / P_{M} \uparrow \\ L_{A} \downarrow , \text{so th at} M P T_{A} = R_{T} / P_{A} \downarrow \end{array} \right.}
 
 $$
 
@@ -1436,19 +1436,19 @@ In agriculture, suppose that the payments to labor and land are as follows:
 
 $$
 
-A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P _ {A} \cdot Q _ {A} = \$ 1 0 0
+A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P_{A} \cdot Q_{A} = \$ 1 0 0
 
 $$
 
 $$
 
-\text {P a y m e n t s} = W \cdot L _ {A} = \$ 5 0
+\text{Pa ym en ts} = W \cdot L_{A} = \$ 5 0
 
 $$
 
 $$
 
-\text {P a y m e n t s} = R _ {T} \cdot T = \$ 5 0
+\text{Pa ym en ts} = R_{T} \cdot T = \$ 5 0
 
 $$
 
@@ -1458,19 +1458,19 @@ An increase in the relative price of manufactures  $P_{M} / P_{A}$  can be cause
 
 $$
 
-\text{Manufacturing:} \quad \text{Percentage increase in price} = \Delta P _ {M} / P _ {M} = 10 \%
+\text{Manufacturing:} \quad \text{Percentageincreaseinprice} = \Delta P_{M} / P_{M} = 10 \%
 
 $$
 
 $$
 
-Agriculture: \text{Percentage increase in price} = \Delta P _ {A} / P _ {A} = 0 \%
+Agriculture: \text{Percentageincreaseinprice} = \Delta P_{A} / P_{A} = 0 \%
 
 $$
 
 $$
 
-\text{Bothindustries:} \quad \text{Percentage increase in the wage} = \Delta W / W = 5 \%
+\text{Bothindustries:} \quad \text{Percentageincreaseinthewage} = \Delta W / W = 5 \%
 
 $$
 
@@ -1480,13 +1480,13 @@ Change in the Rental on Capital Our goal is to use the preceding data for manufa
 
 $$
 
-R _ {k} = \frac {P _ {M} Q _ {M} - W L _ {M}}{k}
+R_{k} = \frac{P_{M} Q_{M} - W L_{M}}{k}
 
 $$
 
 $$
 
-R _ {K} = \frac {\text {P a y m e n t s t o c a p i t a l}}{K} = \frac {P _ {M} \cdot Q _ {M} - W \cdot L _ {M}}{K}
+R_{K} = \frac{\text{Pa ym en ts to ca pi ta l}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
 
 $$
 
@@ -1494,13 +1494,13 @@ If the price of manufactured goods rises by  $\Delta P_{M} > 0$ , holding consta
 
 $$
 
-\frac {\Delta R _ {k}}{R _ {k}} = \frac {\left(\frac {\Delta P _ {m}}{P _ {m}}\right) \cdot P _ {m} - Q _ {m} - \left(\frac {\Delta W}{W}\right) \cdot W \cdot L _ {m}}{R _ {k} \cdot K} \quad \mathrm {w e w a n t} \quad \mathrm {a n d} \Delta R _ {K} / R _ {K}.
+\frac{\Delta R_{k}}{R_{k}} = \frac{\left(\frac{\Delta P_{m}}{P_{m}}\right) \cdot P_{m} - Q_{m} - \left(\frac{\Delta W}{W}\right) \cdot W \cdot L_{m}}{R_{k} \cdot K} \quad \mathrm{we wa nt} \quad \mathrm{an d} \Delta R_{K} / R_{K}.
 
 $$
 
 $$
 
-\Delta R _ {K} = \frac {\Delta P _ {M} \cdot Q _ {M} - \Delta W \cdot L _ {M}}{K}
+\Delta R_{K} = \frac{\Delta P_{M} \cdot Q_{M} - \Delta W \cdot L_{M}}{K}
 
 $$
 
@@ -1508,7 +1508,7 @@ We want to rewrite this equation using percentage changes, like  $\Delta P_{M} /
 
 $$
 
-\frac {\Delta R _ {K}}{R _ {K}} = \frac {\left(\Delta P _ {M} / P _ {M}\right) \cdot P _ {M} \cdot Q _ {M} - \left(\Delta W / W\right) \cdot W \cdot L _ {M}}{R _ {K} \cdot K}
+\frac{\Delta R_{K}}{R_{K}} = \frac{\left(\Delta P_{M} / P_{M}\right) \cdot P_{M} \cdot Q_{M} - \left(\Delta W / W\right) \cdot W \cdot L_{M}}{R_{K} \cdot K}
 
 $$
 
@@ -1518,7 +1518,7 @@ The term  $\Delta P_{M} / P_{M}$  in this equation is the percentage change in t
 
 $$
 
-\frac {\Delta R _ {K}}{R _ {K}} = \frac {(10 \% \cdot 100 - 5 \% \cdot 60)}{40} = 17.5 \%
+\frac{\Delta R_{K}}{R_{K}} = \frac{(10 \% \cdot 100 - 5 \% \cdot 60)}{40} = 17.5 \%
 
 $$
 
@@ -1528,7 +1528,7 @@ Change in the Rental on Land We can use the same approach to examine the change 
 
 $$
 
-\Delta R _ {T} = \frac {0 \cdot Q _ {A} - \Delta W \cdot L _ {A}}{T}
+\Delta R_{T} = \frac{0 \cdot Q_{A} - \Delta W \cdot L_{A}}{T}
 
 $$
 
@@ -1536,7 +1536,7 @@ Because the wage is increasing,  $\Delta W > 0$ , it follows immediately that th
 
 $$
 
-\frac {\Delta R _ {T}}{R _ {T}} = - \frac {\Delta W}{W} \left(\frac {W \cdot L _ {A}}{R _ {T} \cdot T}\right)
+\frac{\Delta R_{T}}{R_{T}} = - \frac{\Delta W}{W} \left(\frac{W \cdot L_{A}}{R_{T} \cdot T}\right)
 
 $$
 
@@ -1579,7 +1579,7 @@ What happens if the price of the agricultural good rises? You can probably guess
 
 $$
 
-\underbrace {\Delta R _ {K} / R _ {K} <   0} \underbrace {<   \Delta W / W <   \Delta P _ {A} / P _ {A} <   \Delta R _ {T} / R _ {T}} _ {\text {f o r a n i n c e s e t a i n}}
+\underbrace {\Delta R_{K} / R_{K} <   0} \underbrace {<   \Delta W / W <   \Delta P_{A} / P_{A} <   \Delta R_{T} / R_{T}}_{\text{fo ra ni nc es et ai n}}
 
 $$
 
@@ -1728,7 +1728,7 @@ c. If Kletzer and Litan's new plan for "wage insurance" had been adopted by the 
 
 $$
 
-\Delta R _ {T} / R _ {T} \quad \Delta R _ {K} / R _ {K} \quad \Delta P _ {A} / P _ {A} \quad \Delta P _ {M} / P _ {M} \quad \Delta W / W
+\Delta R_{T} / R_{T} \quad \Delta R_{K} / R_{K} \quad \Delta P_{A} / P_{A} \quad \Delta P_{M} / P_{M} \quad \Delta W / W
 
 $$
 
@@ -1832,7 +1832,7 @@ Foreign lao abondant
 
 $$
 
-\frac {l ^ {*}}{k ^ {*}} > \frac {l}{k}
+\frac{l^{*}}{k^{*}} > \frac{l}{k}
 
 $$
 
@@ -2175,7 +2175,7 @@ Economy-Wide Relative Demand for Labor To derive an economy-wide relative demand
 
 $$
 
-\underbrace{\frac{\overline{L}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)} _ {\substack{\text{Relative}\\ \text{demand}}}
+\underbrace{\frac{\overline{L}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)}_{\substack{\text{Relative}\\ \text{demand}}}
 
 $$
 
@@ -2224,7 +2224,7 @@ Change in the Real Rental Because the labor-capital ratio increases in both indu
 
 $$
 
-R = P _ {C} \cdot M P K _ {C} \text {a n d} R = P _ {S} \cdot M P K _ {S}
+R = P_{C} \cdot M P K_{C} \text{an d} R = P_{S} \cdot M P K_{S}
 
 $$
 
@@ -2232,7 +2232,7 @@ Because capital can move freely between industries in the long run, the rental o
 
 $$
 
-M P K _ {C} = R / P _ {C} \uparrow \text {a n d} M P K _ {S} = R / P _ {S} \uparrow
+M P K_{C} = R / P_{C} \uparrow \text{an d} M P K_{S} = R / P_{S} \uparrow
 
 $$
 
@@ -2242,7 +2242,7 @@ Change in the Real Wage To understand what happens to the real wage when the rel
 
 $$
 
-W = P _ {C} \cdot M P L _ {C} \text {a n d} W = P _ {S} \cdot M P L _ {S}
+W = P_{C} \cdot M P L_{C} \text{an d} W = P_{S} \cdot M P L_{S}
 
 $$
 
@@ -2250,7 +2250,7 @@ Using the result that the marginal product of labor falls in both industries, we
 
 $$
 
-M P L _ {C} = W / P _ {C} \downarrow \text {a n d} M P L _ {S} = W / P _ {S} \downarrow
+M P L_{C} = W / P_{C} \downarrow \text{an d} M P L_{S} = W / P_{S} \downarrow
 
 $$
 
@@ -2291,13 +2291,13 @@ Our goal is to see how the increase in the relative price of computers translate
 
 $$
 
-R = \frac {P _ {C} \cdot Q _ {C} - W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+R = \frac{P_{C} \cdot Q_{C} - W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-R = \frac {P _ {S} \cdot Q _ {S} - W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+R = \frac{P_{S} \cdot Q_{S} - W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $$
 
@@ -2305,13 +2305,13 @@ The price of computers has risen, so  $\Delta P_{C} > 0$ , holding fixed the pri
 
 $$
 
-\Delta R = \frac {\Delta P _ {C} \cdot Q _ {C} - \Delta W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+\Delta R = \frac{\Delta P_{C} \cdot Q_{C} - \Delta W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-\Delta R = \frac {0 \cdot Q _ {C} - \Delta W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+\Delta R = \frac{0 \cdot Q_{C} - \Delta W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $$
 
@@ -2319,13 +2319,13 @@ It is convenient to work with percentage changes in the variables. For computers
 
 $$
 
-\frac {\Delta R}{R} = \left(\frac {\Delta P _ {C}}{P _ {C}}\right) \left(\frac {P _ {C} \cdot Q _ {C}}{R \cdot K _ {C}}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {C}}{R \cdot K _ {C}}\right), \text {f o r c o m p u t e r s}
+\frac{\Delta R}{R} = \left(\frac{\Delta P_{C}}{P_{C}}\right) \left(\frac{P_{C} \cdot Q_{C}}{R \cdot K_{C}}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{C}}{R \cdot K_{C}}\right), \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {S}}{R \cdot K _ {S}}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{S}}{R \cdot K_{S}}\right), \text{fo rs ho es}
 
 $$
 
@@ -2333,13 +2333,13 @@ $$
 
 $$
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $$
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {6 0}{4 0}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{6 0}{4 0}\right), \text{fo rs ho es}
 
 $$
 
@@ -2347,7 +2347,7 @@ Our goal is to find out by how much rental and wage change given changes in the 
 
 $$
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $$
 
@@ -2355,7 +2355,7 @@ Minus:  $\frac{\Delta R}{R} = 0 - \left(\frac{\Delta W}{W}\right)\left(\frac{60}
 
 $$
 
-\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac {100}{50}\right) + \left(\frac {\Delta W}{W}\right) \left(\frac {20}{40}\right)
+\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac{100}{50}\right) + \left(\frac{\Delta W}{W}\right) \left(\frac{20}{40}\right)
 
 $$
 
@@ -2363,7 +2363,7 @@ Simplifying the last line, we get  $0 = 20\% + \left(\frac{\Delta W}{W}\right)\l
 
 $$
 
-\left(\frac {\Delta W}{W}\right) = \left(\frac {- 20 \%}{\frac {1}{2}}\right) = - 40 \%, \text {is the change in wages}
+\left(\frac{\Delta W}{W}\right) = \left(\frac{- 20 \%}{\frac{1}{2}}\right) = - 40 \%, \text{isthechangeinwages}
 
 $$
 
@@ -2373,7 +2373,7 @@ To find the change in the rental paid to capital  $(\Delta R / R)$ , we can take
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {60}{40}\right) = 40 \% \cdot \left(\frac {60}{40}\right) = 60 \%, \text {change in rental}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right) = 40 \% \cdot \left(\frac{60}{40}\right) = 60 \%, \text{changeinrental}
 
 $$
 
@@ -2383,7 +2383,7 @@ General Equation for the Long-Run Change in Factor Prices The long-run results o
 
 $$
 
-\underbrace {\Delta W / W <   0} _ {<   \Delta P _ {C} / P _ {C} <   \Delta R / R}, \text {f o r a n i n c r e a s e i n} P _ {C}
+\underbrace {\Delta W / W <   0}_{<   \Delta P_{C} / P_{C} <   \Delta R / R}, \text{fo ra ni nc re as ei n} P_{C}
 
 $$
 
@@ -2395,7 +2395,7 @@ That is, the increase in the price of computers (10\%) leads to an even larger i
 
 $$
 
-\underbrace {\Delta R / R <   \Delta P _ {C}} / \underbrace {P _ {C} <   0 <   \Delta W / W} _ {\text {f o r a n d e c r e a s e i n} P _ {C}}
+\underbrace {\Delta R / R <   \Delta P_{C}} / \underbrace {P_{C} <   0 <   \Delta W / W}_{\text{fo ra nd ec re as ei n} P_{C}}
 
 $$
 
@@ -2407,7 +2407,7 @@ What happens if the relative price of shoes increases? From the Stolper-Samuelso
 
 $$
 
-\underline {{\Delta R / R <   0}} \underline {{<   \Delta P _ {S} / P _ {S} <   \Delta W / W}}, \text {f o r a n i n c r e a s e i n} P _ {S}
+\underline {{\Delta R / R <   0}} \underline {{<   \Delta P_{S} / P_{S} <   \Delta W / W}}, \text{fo ra ni nc re as ei n} P_{S}
 
 $$
 
@@ -2596,7 +2596,7 @@ Determining the Wage Figure 5-1 shows a diagram that we used in Chapter 3 to det
 
 $$
 
-L _ {M} + L _ {A} = \overline {{L}}
+L_{M} + L_{A} = \overline {{L}}
 
 $$
 
@@ -3007,7 +3007,7 @@ But there is a second way to calculate a rental on capital besides using the mar
 
 $$
 
-\frac {R}{P} = \frac {P _ {K}}{P} \cdot (i + d)
+\frac{R}{P} = \frac{P_{K}}{P} \cdot (i + d)
 
 $$
 
@@ -3211,7 +3211,7 @@ Hint: The box diagram shown in Figure 5-7 means that the amount of labor and cap
 
 $$
 
-K _ {C} + K _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
+K_{C} + K_{S} = 1 0 0 \text{an d} L_{C} + L_{S} = 1 0 0
 
 $$
 
@@ -3219,7 +3219,7 @@ Use the facts that  $K_{C} = 2 \cdot L_{C}$  and  $K_{S} = 0.5 \cdot L_{S}$  to 
 
 $$
 
-2 \cdot L _ {C} + 0. 5 \cdot L _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
+2 \cdot L_{C} + 0. 5 \cdot L_{S} = 1 0 0 \text{an d} L_{C} + L_{S} = 1 0 0
 
 $$
 
@@ -3377,13 +3377,13 @@ Numerical Example As an example of the cost curves in Figure 6-3, suppose that t
 
 $$
 
-\text {F i x e d c o s t s} = \$ 1 0 0
+\text{Fi xe dc os ts} = \$ 1 0 0
 
 $$
 
 $$
 
-\text {M a r g i n a l} = \$ 10 \text {p e r u n i t}
+\text{Ma rg in al} = \$ 10 \text{pe ru ni t}
 
 $$
 
@@ -3625,7 +3625,7 @@ The formula for the index of intra-industry trade is
 
 $$
 
-(\text {I n d e x o f i n t r a - i n d u s t r y t r a d e}) = \frac {\text {M i n i m u m o f i m p o r t s a n d e x p o r t s}}{\frac {1}{2} (\text {I m p o r t s} + \text {e x p o r t s})}
+(\text{In de xo fi nt ra -i nd us tr yt ra de}) = \frac{\text{Mi ni mu mo fi mp or ts an de xp or ts}}{\frac{1}{2} (\text{Im po rt s} + \text{ex po rt s})}
 
 $$
 
@@ -3650,14 +3650,14 @@ Newton's Universal Law of Gravitation Suppose that two objects each have mass  $
 
 $$
 
-F _ {g} = G \cdot \frac {M _ {1} \cdot M _ {2}}{d ^ {2}}
+F_{g} = G \cdot \frac{M_{1} \cdot M_{2}}{d^{2}}
 
 $$ where  $G$  is a constant that tells us the magnitude of this relationship. The larger each object is, or the closer they are to each other, the greater is the force of gravity between them.
 
 The Gravity Equation in Trade The equation proposed by Tinbergen to explain trade between countries is similar to Newton's law of gravity, except that instead of the mass of two objects, we use the GDP of two countries, and instead of predicting the force of gravity, we are predicting the amount of trade between them. The gravity equation in trade is
 
 $$
-\text {T r a d e} = B \cdot \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {n}}
+\text{Tr ad e} = B \cdot \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{n}}
 $$ where Trade is the amount of trade (measured by imports, exports, or their average) between two countries,  $GDP_{1}$  and  $GDP_{2}$  are their gross domestic products, and  $dist$  is the distance between them. Notice that we use the exponent  $n$  on distance,  $dist^{n}$ , rather than  $dist^{2}$  as in Newton's law of gravity, because we are not sure of the precise relationship between distance and trade. The term  $B$  in front of the gravity equation is a constant that
 
 
@@ -3671,7 +3671,7 @@ To measure the relative size of each importing country, we use its share of worl
 
 $$
 
-\operatorname {T r a d e} = \frac {G D P _ {1} \cdot S h a r e _ {2}}{d i s t ^ {n}} = \left(\frac {1}{G D P _ {W}}\right) \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {n}}
+\operatorname{Tr ad e} = \frac{G D P_{1} \cdot S h a r e_{2}}{d i s t^{n}} = \left(\frac{1}{G D P_{W}}\right) \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{n}}
 
 $$
 
@@ -3685,7 +3685,7 @@ We can apply the gravity equation to trade between any pair of countries, or eve
 
 $$
 
-\text {G r a v i t y} = \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Gr av it y} = \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 
 $$ where  $GDP_{1}$  is the gross domestic product of a U.S. state (in billions of U.S. dollars),  $GDP_{2}$  is the gross domestic product of a Canadian province (in billions of U.S. dollars), and  $dist$  is the distance between them (in miles). We use the exponent 1.25 on the distance term because it has been shown in other research studies to describe the relationship between distance and trade value quite well. The horizontal axis is
 
@@ -3714,7 +3714,7 @@ The vertical axis in Figure 6-9 shows the 1993 value of exports (in millions of 
 We can see from the set of points in panel (a) that states and provinces with a higher gravity term between them (measured on the horizontal axis) also tend to have more trade (measured on the vertical axis). That strong, positive relationship shown by the set of points in panel (a) demonstrates that the gravity equation holds well empirically. Panel (a) also shows the "best fit" straight line through the set of points, which has the following equation:
 
 $$
-\text {T r a d e} = 9 3 \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Tr ad e} = 9 3 \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 $$
 
 The constant term  $B = 93$  gives the best fit to this gravity equation for Canadian provinces and U.S. states. When the gravity term equals 1, as illustrated in panel (a), then the predicted amount of trade between that state and province is  \$93 million. The closest example to this point is Alberta and New Jersey. In 1993 there were\$ 94 million in exports from Alberta to New Jersey and they had a gravity term of approximately 1.
@@ -3722,7 +3722,7 @@ The constant term  $B = 93$  gives the best fit to this gravity equation for Can
 Trade Within Canada Because the gravity equation works well at predicting international trade between provinces and states in different countries, it should also work well at predicting trade within a country, or intra-national trade. To explore this idea, panel (b) of Figure 6-9 graphs the value of exports (in millions of U.S. dollars) between any two Canadian provinces, along with the gravity term for those provinces. The scale of the axes in panel (b) is the same as in panel (a). From panel (b), we again see that there is a strong, positive relationship between the gravity term between two provinces (measured on the horizontal axis) and their trade (measured on the vertical axis). The "best fit" straight line through the set of points has the following equation:
 
 $$
-\text {T r a d e} = 1, 3 0 0 \cdot \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Tr ad e} = 1, 3 0 0 \cdot \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 $$
 
 That is, the constant term  $B = 1,300$  gives the best fit to this gravity equation for Canadian provinces. When the gravity term equals 1, as illustrated in panel (b), then the predicted amount of trade between two provinces is  \$1,300 million, or\$ 1.3 billion. The closest example to this combination is between British Columbia and Alberta: in 1993 their gravity term was approximately 1.3 and British Columbia exported 1.4 billion of goods to Alberta.
@@ -4440,13 +4440,13 @@ $0.5(\Delta P_{R}\bullet Q_{R}) = \Delta W_{H}\bullet H_{R} + \Delta W_{L}\bulle
 Dividing the equations by  $(\Delta P_{C} \cdot Q_{C})$  and  $(\Delta P_{R} \cdot Q_{R})$ , respectively, we can rewrite the equations as
 
 $$
-0. 5 \left[ \frac {\Delta P _ {C}}{P _ {C}} \right] = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {W _ {H} \cdot H _ {C}}{P _ {C} \cdot Q _ {C}}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {W _ {L} \cdot L _ {C}}{P _ {C} \cdot Q _ {C}}\right),
+0. 5 \left[ \frac{\Delta P_{C}}{P_{C}} \right] = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{W_{H} \cdot H_{C}}{P_{C} \cdot Q_{C}}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{W_{L} \cdot L_{C}}{P_{C} \cdot Q_{C}}\right),
 $$ for components
 
 
 $$
 
-\begin{array}{l} 0. 5 \Big [ \frac {\Delta P _ {R}}{P _ {R}} \Big ] = \Big (\frac {\Delta W _ {H}}{W _ {H}} \Big) \Big (\frac {W _ {H} \cdot H _ {R}}{P _ {R} \cdot Q _ {R}} \Big) + \Big (\frac {\Delta W _ {L}}{W _ {L}} \Big) \Big (\frac {W _ {L} \cdot L _ {R}}{P _ {R} \cdot Q _ {R}} \Big), \\ \text {f o r R \& D} \end{array}
+\begin{array}{l} 0. 5 \Big [ \frac{\Delta P_{R}}{P_{R}} \Big ] = \Big (\frac{\Delta W_{H}}{W_{H}} \Big) \Big (\frac{W_{H} \cdot H_{R}}{P_{R} \cdot Q_{R}} \Big) + \Big (\frac{\Delta W_{L}}{W_{L}} \Big) \Big (\frac{W_{L} \cdot L_{R}}{P_{R} \cdot Q_{R}} \Big), \\ \text{fo rR \&D} \end{array}
 
 $$
 
@@ -4459,7 +4459,7 @@ $$ for components
 
 $$
 
-0 = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {4 0}{1 0 0}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {1 0}{1 0 0}\right),
+0 = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{4 0}{1 0 0}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{1 0}{1 0 0}\right),
 
 $$ for R&D
 
@@ -4843,7 +4843,7 @@ Deadweight Loss Due to the Steel Tariff To measure the deadweight loss due to th
 
 $$
 
-D W L = \frac {1}{2} \cdot t \cdot \Delta M
+D W L = \frac{1}{2} \cdot t \cdot \Delta M
 
 $$
 
@@ -4851,7 +4851,7 @@ It is convenient to measure the deadweight loss relative to the value of imports
 
 $$
 
-\frac {D W L}{P ^ {W} \cdot M} = \frac {1}{2} \cdot \frac {t \cdot \Delta M}{P ^ {W} \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M
+\frac{D W L}{P^{W} \cdot M} = \frac{1}{2} \cdot \frac{t \cdot \Delta M}{P^{W} \cdot M} = \frac{1}{2} \cdot \left(\frac{t}{P^{W}}\right) \cdot \% \Delta M
 
 $$
 
@@ -4859,7 +4859,7 @@ For the tariffs on steel, the most commonly used products had a tariff of  $30\%
 
 $$
 
-\frac {D W L}{P ^ {W} \cdot M} = \frac {1}{2} (0.3 \cdot 0.3) = 0.045, \text {or} 4.5 \% \text {of the import value}
+\frac{D W L}{P^{W} \cdot M} = \frac{1}{2} (0.3 \cdot 0.3) = 0.045, \text{or} 4.5 \% \text{oftheimportvalue}
 
 $$
 
@@ -5016,7 +5016,7 @@ Using the elasticity of Foreign export supply, the optimal tariff equals
 
 $$
 
-\text {o p t i m a l} = \frac {1}{E _ {X} ^ {*}}
+\text{op ti ma l} = \frac{1}{E_{X}^{*}}
 
 $$
 
@@ -5641,7 +5641,7 @@ Equilibrium Condition We can now determine the profit-maximizing level of produc
 
 $$
 
-M R = M R ^ {*} = M C ^ {*}
+M R = M R^{*} = M C^{*}
 
 $$
 
@@ -5666,37 +5666,37 @@ Suppose the Foreign firm has the following cost and demand data:
 
 $$
 
-\text {F i x e d} \quad \text {c o s t s} \quad = \quad \$ 1 0 0
+\text{Fi xe d} \quad \text{co st s} \quad = \quad \$ 1 0 0
 
 $$
 
 $$
 
-\text {M a r g i n a l} = \$ 1 0 \text {p e r u n i t}
+\text{Ma rg in al} = \$ 1 0 \text{pe ru ni t}
 
 $$
 
 $$
 
-\text {L o c a l p r i c e} = \$ 2 5
+\text{Lo ca lp ri ce} = \$ 2 5
 
 $$
 
 $$
 
-\text {L o c a l} \quad \text {q u a n t i t y} \quad = \quad 1 0
+\text{Lo ca l} \quad \text{qu an ti ty} \quad = \quad 1 0
 
 $$
 
 $$
 
-\text {E x p o r t p r i c e} = \$ 1 5
+\text{Ex po rt pr ic e} = \$ 1 5
 
 $$
 
 $$
 
-\text {E x p o r t q u a n t i t y} = 1 0
+\text{Ex po rt qu an ti ty} = 1 0
 
 $$
 
@@ -5704,7 +5704,7 @@ The profits earned from selling in its local market are
 
 $$
 
-\underbrace {(\$ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\$ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\$ 1 0 0} _ {\text {F i x e d}} = \underbrace {\$ 5 0} _ {\text {P r o f i t s}}
+\underbrace {(\$ 25 \cdot 1 0)}_{\text{Re ve nu e}} - \underbrace {\$ 1 0 \cdot 1 0}_{\text{Va ri ab le}} - \underbrace {\$ 1 0 0}_{\text{Fi xe d}} = \underbrace {\$ 5 0}_{\text{Pr of it s}}
 
 $$
 
@@ -5712,7 +5712,7 @@ Notice that the average costs for the firms are
 
 $$
 
-\text {A v e r a g e} = \frac {\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
+\text{Av er ag e} = \frac{\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
 
 $$
 
@@ -5720,7 +5720,7 @@ Now suppose that this firm sells an additional 10 units abroad, at the price of 
 
 $$
 
-\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})} _ {\text {R e v e n u e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}} _ {\text {V a r i a b l e}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {F i x e d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {P r o f i t s}}
+\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})}_{\text{Re ve nu e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}}_{\text{Va ri ab le}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Fi xe d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Pr of it s}}
 
 $$
 
@@ -5897,7 +5897,7 @@ Calculation of Deadweight Loss Was the tariff on heavyweight motorcycles really 
 
 $$
 
-\frac {D W L}{P \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M = \frac {1}{2} (0.45 \cdot 0.17) = 0.038, \text {or} 3.8 \%
+\frac{D W L}{P \cdot M} = \frac{1}{2} \cdot \left(\frac{t}{P^{W}}\right) \cdot \% \Delta M = \frac{1}{2} (0.45 \cdot 0.17) = 0.038, \text{or} 3.8 \%
 
 $$
 
@@ -8157,13 +8157,13 @@ We write these exchange rates using mathematical symbols as follows, with care g
 
 $$
 
-E _ {\mathrm {S} / \epsilon} = 1. 3 1 8 = \mathrm {U . S .}
+E_{\mathrm{S} / \epsilon} = 1. 3 1 8 = \mathrm{U .S .}
 
 $$
 
 $$
 
-E _ {\epsilon / \mathbb {S}} = 0. 7 5 9 = \text {E u r o z o n e}
+E_{\epsilon / \mathbb {S}} = 0. 7 5 9 = \text{Eu ro zo ne}
 
 $$
 
@@ -8171,14 +8171,14 @@ Just as there is complete equivalence when we express the relative price of coff
 
 $$
 
-E _ {\S / \epsilon} = \frac {1}{E _ {\epsilon / \S}}
+E_{\S / \epsilon} = \frac{1}{E_{\epsilon / \S}}
 
 $$
 
 In our example,
 
 $$
-1. 3 1 8 = \frac {1}{0 . 7 5 9}
+1. 3 1 8 = \frac{1}{0 . 7 5 9}
 $$
 
 Similar calculations and notations apply to any pair of currencies.
@@ -8248,7 +8248,7 @@ In general, suppose there are  $N$  currencies in the basket, and Home's trade w
 
 $$
 
-\frac {\Delta E _ {\text {e f f e c t i v e}}}{E _ {\text {e f f e c t i v e}}} = \underbrace {\frac {\Delta E _ {1}}{E _ {1}} \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} + \frac {\Delta E _ {2}}{E _ {2}} \frac {\text {T r a d e} _ {2}}{\text {T r a d e}} + \dots + \frac {\Delta E _ {N}}{E _ {N}} \frac {\text {T r a d e} _ {N}}{\text {T r a d e}}}
+\frac{\Delta E_{\text{ef fe ct iv e}}}{E_{\text{ef fe ct iv e}}} = \underbrace {\frac{\Delta E_{1}}{E_{1}} \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} + \frac{\Delta E_{2}}{E_{2}} \frac{\text{Tr ad e}_{2}}{\text{Tr ad e}} + \dots + \frac{\Delta E_{N}}{E_{N}} \frac{\text{Tr ad e}_{N}}{\text{Tr ad e}}}
 
 $$
 
@@ -8258,7 +8258,7 @@ Many discussions among policy makers and within the financial press focus on the
 
 $$
 
-D = \left(\frac {1}{a} - \frac {1}{b}\right) / \left(\frac {1}{a}\right) = \left(1 - \frac {a}{b}\right) = \left(\frac {b - a}{b}\right).
+D = \left(\frac{1}{a} - \frac{1}{b}\right) / \left(\frac{1}{a}\right) = \left(1 - \frac{a}{b}\right) = \left(\frac{b - a}{b}\right).
 
 $$
 
@@ -8266,7 +8266,7 @@ Symmetrically, the foreign currency was initially worth  $a$  units of home curr
 
 $$
 
-A = \frac {(b - a)}{a} = \frac {b}{a} D
+A = \frac{(b - a)}{a} = \frac{b}{a} D
 
 $$
 
@@ -8518,7 +8518,7 @@ In general, one of the three outcomes can occur in the forex market. The spot ra
 
 $$
 
-E _ {\underline {{\mathcal {Y}}} / \underline {{S}}} ^ {\mathrm {N . Y .}} = E _ {\underline {{\mathcal {Y}}} / \underline {{S}}} ^ {\mathrm {L o n d o n}}
+E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{N .Y .}} = E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{Lo nd on}}
 
 $$
 
@@ -8547,7 +8547,7 @@ In general, three outcomes are again possible. The direct trade from dollars to 
 
 $$
 
-\underbrace{E_{\ell / \mathbb{S}}} _ {\substack{\text{Direct}\\ \text{exchange rate}}} = E_{\ell /\epsilon}E_{\epsilon /\mathbb{S}} = \underbrace{\frac{E_{\ell / \epsilon}}{E_{\mathbb{S} / \epsilon}}}_{\substack{\text{Cross rate}}}
+\underbrace{E_{\ell / \mathbb{S}}}_{\substack{\text{Direct}\\ \text{exchangerate}}} = E_{\ell /\epsilon}E_{\epsilon /\mathbb{S}} = \underbrace{\frac{E_{\ell / \epsilon}}{E_{\mathbb{S} / \epsilon}}}_{\substack{\text{Crossrate}}}
 
 $$
 
@@ -8597,7 +8597,7 @@ Three outcomes are possible when you compare the dollar returns from the two dep
 
 $$
 
-\text {C o v e r e d i n t h e s t r i p a r i t y (C I P) :} \underbrace {(1 + i _ {\S})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {F _ {\S / \epsilon}}{E _ {\S / \epsilon}}} _ {\text {D o l l a r r e t u r n o n}} \tag {13-1}
+\text{Co ve re di nt he st ri pa ri ty (CI P) :} \underbrace {(1 + i_{\S})}_{\text{Do ll ar re tu rn on}} = \underbrace {(1 + i_{\epsilon}) \frac{F_{\S / \epsilon}}{E_{\S / \epsilon}}}_{\text{Do ll ar re tu rn on}} \tag {13-1}
 
 $$
 
@@ -8607,7 +8607,7 @@ What Determines the Forward Rate? Covered interest parity is a no-arbitrage cond
 
 $$
 
-F _ {\S / \epsilon} = E _ {\S / \epsilon} \frac {1 + i _ {\S}}{1 + i _ {\epsilon}}
+F_{\S / \epsilon} = E_{\S / \epsilon} \frac{1 + i_{\S}}{1 + i_{\epsilon}}
 
 $$
 
@@ -8620,7 +8620,7 @@ This result raises a new question: How are the interest rates and the spot rate 
 FIGURE 13-8
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/20f4cb77921539cb52a75c4bbd0d2c09bba0e2a82f30b14158018709771f5605.jpg)
 Arbitrage and Covered Interest Parity Under CIP, returns to holding dollar deposits accruing interest going along the path AB must equal the returns from investing in euros going along the path ACDB with risk removed by use of a forward contract. Hence, at B, the riskless payoff must be the same on both paths, and  $(1 + i_{\delta}) = \frac{F_{\delta/\epsilon}}{E_{\delta/\epsilon}} (1 + i_{\epsilon})$ .
-Profit  $= \underbrace{(1 + i_{GER})\frac{F_{UK / GER}}{E_{UK / GER}}} - \underbrace{(1 + i_{UK})}_{\text{Pound return on German deposits}}$
+Profit  $= \underbrace{(1 + i_{GER})\frac{F_{UK / GER}}{E_{UK / GER}}} - \underbrace{(1 + i_{UK})}_{\text{PoundreturnonGermandeposits}}$
 
 # APPLICATION
 
@@ -8672,7 +8672,7 @@ We have assumed that traders like you are indifferent to risk and care only abou
 
 $$
 
-\text {U n c o v e r e d i n t h e s e r t p a r i t y (U I P) :} \underbrace {(1 + i _ {\$})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {E _ {\$ / \epsilon} ^ {e}}{E _ {\$ / \epsilon}}} _ {\text {E x p e c t e d d o l l a r r u t r u n}} \tag {13-2}
+\text{Un co ve re di nt he se rt pa ri ty (UI P) :} \underbrace {(1 + i_{\$})}_{\text{Do ll ar re tu rn on}} = \underbrace {(1 + i_{\epsilon}) \frac{E_{\$ / \epsilon}^{e}}{E_{\$ / \epsilon}}}_{\text{Ex pe ct ed do ll ar ru tr un}} \tag {13-2}
 
 $$
 
@@ -8687,7 +8687,7 @@ What Determines the Spot Rate? Uncovered interest parity is a no-arbitrage condi
 
 $$
 
-E _ {\mathbb {S} / \epsilon} = E _ {\mathbb {S} / \epsilon} ^ {e} \frac {1 + i _ {\mathbb {E}}}{1 + i _ {\mathbb {S}}}
+E_{\mathbb {S} / \epsilon} = E_{\mathbb {S} / \epsilon}^{e} \frac{1 + i_{\mathbb {E}}}{1 + i_{\mathbb {S}}}
 
 $$
 
@@ -8705,13 +8705,13 @@ Does uncovered interest parity hold? The two interest parity equations seen prev
 
 $$
 
-\mathrm {C I P :} (1 + i _ {\S}) = (1 + i _ {\epsilon}) \frac {F _ {\S / \epsilon}}{E _ {\S / \epsilon}}
+\mathrm{CI P :} (1 + i_{\S}) = (1 + i_{\epsilon}) \frac{F_{\S / \epsilon}}{E_{\S / \epsilon}}
 
 $$
 
 $$
 
-\mathrm {U I P :} (1 + i _ {\S}) = (1 + i _ {\epsilon}) \frac {E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}}
+\mathrm{UI P :} (1 + i_{\S}) = (1 + i_{\epsilon}) \frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}}
 
 $$
 
@@ -8719,13 +8719,13 @@ To allow us to see what this implies about the relationship between the expected
 
 $$
 
-1 = E _ {\S / \epsilon} ^ {e} / F _ {\S / \epsilon}, \text {o r}
+1 = E_{\S / \epsilon}^{e} / F_{\S / \epsilon}, \text{or}
 
 $$
 
 $$
 
-F _ {\mathbb {S} / \mathbb {E}} = E _ {\mathbb {S} / \mathbb {E}} ^ {e}
+F_{\mathbb {S} / \mathbb {E}} = E_{\mathbb {S} / \mathbb {E}}^{e}
 
 $$
 
@@ -8737,7 +8737,7 @@ With this result we can find an approach to testing UIP that is fairly easy to d
 
 $$
 
-\underbrace{\frac{F_{\S / \epsilon}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Forward}\\ \text{premium}}} = \underbrace{\frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Expected rate}\\ \text{of depreciation}}}
+\underbrace{\frac{F_{\S / \epsilon}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Forward}\\ \text{premium}}} = \underbrace{\frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Expectedrate}\\ \text{ofdepreciation}}}
 
 $$
 
@@ -8797,27 +8797,27 @@ Expected future spot rate
 
 $$
 
-E _ {\$ / \in} ^ {e}
+E_{\$ / \in}^{e}
 
 $$
 
 Interest rates
 
-$$ j _ {\S}, j _ {\epsilon}
+$$ j_{\S}, j_{\epsilon}
 $$
 
 $$
-E _ {\S / \epsilon} = E _ {\S / \epsilon} ^ {e} \frac {1 + i _ {\epsilon}}{1 + i _ {\S}}
+E_{\S / \epsilon} = E_{\S / \epsilon}^{e} \frac{1 + i_{\epsilon}}{1 + i_{\S}}
 $$
 
 $$
-F _ {\S / \epsilon} = E _ {\S / \epsilon} \frac {1 + i _ {\S}}{1 + i _ {\epsilon}}
+F_{\S / \epsilon} = E_{\S / \epsilon} \frac{1 + i_{\S}}{1 + i_{\epsilon}}
 $$
 
 Spot exchange rate
 
 $$
-E _ {\$ / \epsilon}
+E_{\$ / \epsilon}
 $$
 
 Forward exchange rate
@@ -9037,7 +9037,7 @@ We can mathematically state the law of one price as follows, for the case of any
 Using subscripts to indicate locations and currencies, the relative price can be written
 
 $$
-\underline {{q _ {U S / E U R} ^ {\mathrm {g}}}} = \underbrace {(E _ {\S / \epsilon} P _ {E U R} ^ {\mathrm {g}})} / \underbrace {P _ {U S} ^ {\mathrm {g}}}
+\underline {{q_{U S / E U R}^{\mathrm{g}}}} = \underbrace {(E_{\S / \epsilon} P_{E U R}^{\mathrm{g}})} / \underbrace {P_{U S}^{\mathrm{g}}}
 $$
 
 Relative price of good  $g$  in Europe versus U.S.
@@ -9053,7 +9053,7 @@ The law of one price may or may not hold. Recall from Chapter 13 that there are 
 How does the law of one price further our understanding of exchange rates? We can rearrange the equation for price equality,  $E_{\mathbb{S} / \mathbb{E}}P_{EUR}^{g} = P_{US}^{g}$ , to show that if the law of one price holds, then the exchange rate must equal the ratio of the goods' prices expressed in the two currencies:
 
 $$
-\underbrace{E_{\S/\ell}}_{\substack{\text{Exchange}\\ \text{rate}}} = \underbrace{P_{US}^{g} / P_{EUR}^{g}}_{\substack{\text{Ratio of}\\ \text{goods' prices}}}
+\underbrace{E_{\S/\ell}}_{\substack{\text{Exchange}\\ \text{rate}}} = \underbrace{P_{US}^{g} / P_{EUR}^{g}}_{\substack{\text{Ratioof}\\ \text{goods'prices}}}
 $$
 
 One final word of caution: given our concerns in the previous chapter about the right way to define the exchange rate, we must take care when using expressions that are ratios to ensure that the units on each side of the equation correspond. In the last equation, we know we have it right because the left-hand side is expressed in dollars per euro and the right-hand side is also a ratio of dollars to euros ( $per unit of goods divided by$  per unit of goods).
@@ -9067,7 +9067,7 @@ We can define a price level (denoted  $P$ ) in each location as a weighted avera
 To express PPP algebraically, we can compute the relative price of the two baskets of goods in each location, denoted  $q_{US/EUR}$ :
 
 $$
-\underbrace {q _ {U S / E U R}} _ {\text {R e l a t i v e p r i c e o f}} = \underbrace {(E _ {\S / \mathrm {e}} P _ {E U R})} _ {\text {E u r o p e a n}} / \underbrace {P _ {U S}} _ {\text {U . S . p r i c e o f b a s k e t}}
+\underbrace {q_{U S / E U R}}_{\text{Re la ti ve pr ic eo f}} = \underbrace {(E_{\S / \mathrm{e}} P_{E U R})}_{\text{Eu ro pe an}} / \underbrace {P_{U S}}_{\text{U .S .p ri ce of ba sk et}}
 $$
 
 Just as there were three possible outcomes for the law of one price, there are three possibilities for PPP: the basket is cheaper in United States; the basket is cheaper in Europe; or  $E_{\mathbb{S} / \mathbb{E}}P_{\mathbb{E}\mathbb{U}\mathbb{R}} = P_{\mathbb{U}\mathbb{S}}$ ; the basket is the same price in both locations, and  $q_{\mathrm{US} / \mathrm{EUR}} = 1$ . In the first two cases, the basket is cheaper in one location and profitable arbitrage on the baskets is possible. Only in the third case is there no arbitrage. PPP holds when price levels in two countries are equal when expressed in a common currency. This statement about equality of price levels is also called absolute PPP.
@@ -9105,7 +9105,7 @@ For example, if a European basket costs  $E_{\mathbb{S} / \mathbb{E}}P_{\text{EU
 Finally, just as we did with the law of one price, we can rearrange the no-arbitrage equation for the equality of price levels,  $E_{\mathbb{S} / \epsilon}P_{EUR} = P_{US}$ , to allow us to solve for the exchange rate that would be implied by absolute PPP:
 
 $$
-\text {A b s o l u t e P P P :} \underbrace {E _ {\mathbb {S} / \epsilon}} _ {\text {E x c h a n g e r a t e}} = \underbrace {P _ {U S} / P _ {E U R}} _ {\text {R a t i o o f p r i c e l e v e l s}} \tag {14-1}
+\text{Ab so lu te PP P :} \underbrace {E_{\mathbb {S} / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {P_{U S} / P_{E U R}}_{\text{Ra ti oo fp ri ce le ve ls}} \tag {14-1}
 $$
 
 This is one of the most important equations in our course of study because it shows how PPP (or absolute PPP) makes a clear prediction about exchange rates: Purchasing power parity implies that the exchange rate at which two currencies trade equals the relative price levels of the two countries.
@@ -9133,7 +9133,7 @@ Building Block: Price Levels and Exchange Rates in the Long Run According to the
 period  $t + 1$ . On the left-hand side, the rate of change of the exchange rate in Home is the rate of exchange rate depreciation in Home given by
 
 $$
-\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}} \qquad = \qquad \underbrace {E _ {\S / \epsilon , t + 1} - E _ {\S / \epsilon , t}} _ {E _ {\S / \epsilon , t}}
+\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}} \qquad = \qquad \underbrace {E_{\S / \epsilon , t + 1} - E_{\S / \epsilon , t}}_{E_{\S / \epsilon , t}}
 $$
 
 Rate of depreciation of the nominal exchange rate
@@ -9141,7 +9141,7 @@ Rate of depreciation of the nominal exchange rate
 On the right of Equation (14-1), the rate of change of the ratio of two price levels equals the rate of change of the numerator minus the rate of change of the denominator:
 
 $$
-\frac {\Delta \left(P _ {U S} / P _ {E U R}\right)}{\left(P _ {U S} / P _ {E U R}\right)} = \frac {\Delta P _ {U S , t}}{P _ {U S , t}} - \frac {\Delta P _ {E U R , t}}{P _ {E U R , t}} = \underbrace {\left(\frac {P _ {U S , t + 1} - P _ {U S , t}}{P _ {U S , t}}\right)} _ {\text {R a t e o f i n f l a t i o n i n}} - \underbrace {\left(\frac {P _ {E U R , t + 1} - P _ {E U R , t}}{P _ {E U R , t}}\right)} _ {\text {R a t e o f i n f l a t i o n i n}} = \pi_ {U S} - \pi_ {E U R}
+\frac{\Delta \left(P_{U S} / P_{E U R}\right)}{\left(P_{U S} / P_{E U R}\right)} = \frac{\Delta P_{U S , t}}{P_{U S , t}} - \frac{\Delta P_{E U R , t}}{P_{E U R , t}} = \underbrace {\left(\frac{P_{U S , t + 1} - P_{U S , t}}{P_{U S , t}}\right)}_{\text{Ra te of in fl at io ni n}} - \underbrace {\left(\frac{P_{E U R , t + 1} - P_{E U R , t}}{P_{E U R , t}}\right)}_{\text{Ra te of in fl at io ni n}} = \pi_{U S} - \pi_{E U R}
 $$ where the terms in brackets are the inflation rates in each location, denoted  $\pi_{US}$  and  $\pi_{EUR}$ , respectively.
 
 
@@ -9149,7 +9149,7 @@ If Equation (14-1) holds for levels of exchange rates and prices, then it must a
 
 $$
 
-\text {R e l a t i v e P P P :} \quad \underbrace {\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}}} = \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \tag {14-2}
+\text{Re la ti ve PP P :} \quad \underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \tag {14-2}
 
 $$
 
@@ -9217,7 +9217,7 @@ To see how, let's take an example. Start with the definition of the real exchang
 
 $$
 
-\begin{array}{c} \underbrace {\Delta E _ {\S / \epsilon , t}} _ {E _ {\S / \epsilon , t}} = \underbrace {\Delta q _ {U S / E U R , t}} _ {q _ {U S / E U R, t}} + \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \end{array}
+\begin{array}{c} \underbrace {\Delta E_{\S / \epsilon , t}}_{E_{\S / \epsilon , t}} = \underbrace {\Delta q_{U S / E U R , t}}_{q_{U S / E U R, t}} + \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \end{array}
 
 $$
 
@@ -9247,7 +9247,7 @@ For more than 25 years, The Economist newspaper has engaged in a whimsical attem
 
 $$
 
-\text {B i g M a c I n d e x} = q ^ {\text {B i g M a c}} - 1 = \left(\frac {E _ {\mathbb {S} / \text {l o c a l c u r r e n c y}} P _ {\text {l o c a l}} ^ {\text {B i g M a c}}}{P _ {\text {U S}} ^ {\text {B i g M a c}}}\right) - 1
+\text{Bi gM ac In de x} = q^{\text{Bi gM ac}} - 1 = \left(\frac{E_{\mathbb {S} / \text{lo ca lc ur re nc y}} P_{\text{lo ca l}}^{\text{Bi gM ac}}}{P_{\text{US}}^{\text{Bi gM ac}}}\right) - 1
 
 $$ less than the U.S. price. So the peso was  $4 \%$ undervalued against the U.S. dollar according to this measure, and Argentina's exchange rate would have had to appreciate to 4.39 pesos per dollar to attain the level implied by a burgerbased PPP theory. An example of overvaluation appears in Row 4, in the case of neighboring Brazil. There a Big Mac cost 10.08 reais, or 4.94 in U.S. currency at the prevailing exchange
 
@@ -9331,7 +9331,7 @@ Moving from the individual or household level up to the aggregate or macroeconom
 This insight suggests a simple model in which the demand for money is proportional to dollar income. This model is known as the quantity theory of money:
 
 $$
-\underbrace {M ^ {d}} _ {\substack {\text {Demand} \\ \text {for money (\$)}}} = \underbrace {\overline {L}} _ {\substack {\text {A constant} \\ \text {Nominal}}} \times \underbrace {P Y} _ {\substack {\text {income (\$)}}}
+\underbrace {M^{d}}_{\substack {\text{Demand} \\ \text{formoney (\$)}}} = \underbrace {\overline {L}}_{\substack {\text{Aconstant} \\ \text{Nominal}}} \times \underbrace {P Y}_{\substack {\text{income (\$)}}}
 $$
 
 Here,  $PY$  measures the total nominal dollar value of income in the economy, equal to the price level  $P$  times real income  $Y$ . The term  $\overline{L}$  is a constant that measures how much demand for liquidity is generated for each dollar of nominal income. To emphasize this point, we assume for now that every  \$1 of nominal income requires$ \overline{L}$ of money for transactions purposes and that this relationship is constant. (Later, we relax this assumption.)
@@ -9341,7 +9341,7 @@ The intuition behind the last equation is as follows: If the price level rises b
 Another way to look at the quantity theory is to convert all quantities into real quantities by dividing the previous equation by  $P$ , the price level (the price of a basket of goods). Quantities are then converted from nominal dollars to real units (specifically, into units of baskets of goods). These conversions allow us to derive the demand for real money balances:
 
 $$
-\underbrace{\frac{M^{d}}{P}}_{\substack{\text{Demand for}\\ \text{real money}}} = \underbrace{\overline{L}}_{\substack{\text{A constant}}} \times \underbrace{Y}_{\substack{\text{Real income}}}
+\underbrace{\frac{M^{d}}{P}}_{\substack{\text{Demandfor}\\ \text{realmoney}}} = \underbrace{\overline{L}}_{\substack{\text{Aconstant}}} \times \underbrace{Y}_{\substack{\text{Realincome}}}
 $$
 
 Real money balances measure the purchasing power of the stock of money in terms of goods and services. The expression just given says that the demand for real money balances is proportional to real income. The more real income we have, the more real transactions we have to perform, and the more real money we need.
@@ -9357,7 +9357,7 @@ $$ and, equivalently, that real money supply equals real money demand:
 
 $$
 
-\frac {M}{P} = \bar {L} Y
+\frac{M}{P} = \bar {L} Y
 
 $$
 
@@ -9371,7 +9371,7 @@ Let's consider the last equation given and apply it to the United States, adding
 
 $$
 
-P _ {U S} = \frac {M _ {U S}}{\overline {{L}} _ {U S} Y _ {U S}}
+P_{U S} = \frac{M_{U S}}{\overline {{L}}_{U S} Y_{U S}}
 
 $$
 
@@ -9381,7 +9381,7 @@ The analogous expression for the European price level is:
 
 $$
 
-P _ {E U R} = \frac {M _ {E U R}}{\bar {L} _ {E U R} Y _ {E U R}}
+P_{E U R} = \frac{M_{E U R}}{\bar {L}_{E U R} Y_{E U R}}
 
 $$
 
@@ -9401,7 +9401,7 @@ A long-run model of the exchange rate is close at hand. If we take the last two 
 
 $$
 
-\underbrace {E _ {\S / \epsilon}} _ {\text {E x c h a n g e r a t e}} = \underbrace {\frac {P _ {U S}}{P _ {E U R}}} _ {\text {R a t i o o f p r i c e l e v e l s}} = \underbrace {\frac {\left(\frac {M _ {U S}}{\bar {L} _ {U S} Y _ {U S}}\right)}{\left(\frac {M _ {E U R}}{\bar {L} _ {E U R} Y _ {E U R}}\right)}} _ {\text {R e l a t i v e m o n i n a l m o n e y}}} = \underbrace {\frac {(M _ {U S} / M _ {E U R})}{(\bar {L} _ {U S} Y _ {U S} / \bar {L} _ {E U R} Y _ {E U R})}} _ {\text {R e l a w m o n e y d e m a n d s}} \tag {14-3}
+\underbrace {E_{\S / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {\frac{P_{U S}}{P_{E U R}}}_{\text{Ra ti oo fp ri ce le ve ls}} = \underbrace {\frac{\left(\frac{M_{U S}}{\bar {L}_{U S} Y_{U S}}\right)}{\left(\frac{M_{E U R}}{\bar {L}_{E U R} Y_{E U R}}\right)}}_{\text{Re la ti ve mo ni na lm on ey}}} = \underbrace {\frac{(M_{U S} / M_{E U R})}{(\bar {L}_{U S} Y_{U S} / \bar {L}_{E U R} Y_{E U R})}}_{\text{Re la wm on ey de ma nd s}} \tag {14-3}
 
 $$
 
@@ -9425,7 +9425,7 @@ What is the rate of change of the third term in Equation (14-3)? The numerator r
 
 $$
 
-\mu_ {U S, t} = \underbrace {\frac {M _ {U S , t + 1} - M _ {U S , t}}{M _ {U S , t}}}
+\mu_{U S, t} = \underbrace {\frac{M_{U S , t + 1} - M_{U S , t}}{M_{U S , t}}}
 
 $$
 
@@ -9433,7 +9433,7 @@ Rate of money supply growth in U.S.
 
 The denominator is  $\overline{L}_{US}Y_{US}$ , which is a constant  $\overline{L}_{US}$  times real income  $Y_{US}$ . Thus,  $\overline{L}_{US}Y_{US}$  grows at a rate equal to the growth rate of real income  $g_{US}$ :
 
-$$ g _ {U S, t} = \underbrace {\frac {Y _ {U S , t + 1} - Y _ {U S , t}}{Y _ {U S , t}}}
+$$ g_{U S, t} = \underbrace {\frac{Y_{U S , t + 1} - Y_{U S , t}}{Y_{U S , t}}}
 $$
 
 Rate of real income growth in U.S.
@@ -9441,13 +9441,13 @@ Rate of real income growth in U.S.
 Putting all the pieces together, the growth rate of  $P_{US} = M_{US} / \bar{L}_{US}Y_{US}$  equals the money supply growth rate  $\mu_{US}$  minus the real income growth rate  $g_{US}$ . We have already seen that the growth rate of  $P_{US}$  on the left-hand side is the inflation rate  $\pi_{US}$ . Thus, we know that
 
 $$
-\pi_ {U S, t} = \mu_ {U S, t} - g _ {U S, t} \tag {14-4}
+\pi_{U S, t} = \mu_{U S, t} - g_{U S, t} \tag {14-4}
 $$
 
 The denominator of the third term of Equation (14-3) represents the European price level,  $P_{EUR} = M_{EUR} / \overline{L}_{EUR}Y_{EUR}$ , and its rate of change is calculated similarly:
 
 $$
-\pi_ {E U R, t} = \mu_ {E U R, t} - g _ {E U R, t} \tag {14-5}
+\pi_{E U R, t} = \mu_{E U R, t} - g_{E U R, t} \tag {14-5}
 $$
 
 The intuition for these last two expressions echoes what we said previously: when money growth is higher than real income growth, we have "more money chasing fewer goods" and this leads to inflation.
@@ -9455,13 +9455,13 @@ The intuition for these last two expressions echoes what we said previously: whe
 Combining Equation (14-4) and Equation (14-5), we can now solve for the inflation differential in terms of monetary fundamentals and finish our task of computing the rate of depreciation of the exchange rate:
 
 $$
-\underbrace {\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}}} = \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} = \left(\mu_ {U S, t} - g _ {U S, t}\right) - \left(\mu_ {E U R, t} - g _ {E U R, t}\right) \tag {14-6}
+\underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} = \left(\mu_{U S, t} - g_{U S, t}\right) - \left(\mu_{E U R, t} - g_{E U R, t}\right) \tag {14-6}
 $$
 
 Rate of depreciation of the nominal exchange rate
 
 $$
-= \underbrace {\left(\mu_ {U S , t} - \mu_ {E U R , t}\right)} _ {\text {D i f f e r e n t i a l}} - \underbrace {\left(g _ {U S , t} - g _ {E U R , t}\right)} _ {\text {D i f f e r e n t i a l i n}}
+= \underbrace {\left(\mu_{U S , t} - \mu_{E U R , t}\right)}_{\text{Di ff er en ti al}} - \underbrace {\left(g_{U S , t} - g_{E U R , t}\right)}_{\text{Di ff er en ti al in}}
 $$
 
 The last term here is the rate of change of the fourth term in Equation (14-3).
@@ -9683,13 +9683,13 @@ All else equal, a rise in the nominal interest rate will cause the aggregate dem
 Thus, we arrive at a general model in which money demand is proportional to nominal income, and is a decreasing function of the nominal interest rate:
 
 $$
-\underbrace {M ^ {d}} _ {\substack {\text {Demand for} \\ \text {money (\$)}}} = \underbrace {L (i)} _ {\substack {\text {A decreasing} \\ \text {function}}} \times \underbrace {P \times Y} _ {\substack {\text {Nominal} \\ \text {income (\$)}}}
+\underbrace {M^{d}}_{\substack {\text{Demandfor} \\ \text{money (\$)}}} = \underbrace {L (i)}_{\substack {\text{Adecreasing} \\ \text{function}}} \times \underbrace {P \times Y}_{\substack {\text{Nominal} \\ \text{income (\$)}}}
 $$
 
 Recall that, formerly, in the quantity theory, the parameter  $L$  (the liquidity ratio, the amount of money needed for transactions per dollar of nominal GDP) was a constant. In this general model, we assume that  $L$  is a decreasing function of the nominal interest rate  $i$ . Dividing by  $P$ , we can derive the demand for real money balances:
 
 $$
-\begin{array}{c c c c} \frac {M ^ {d}}{P} & = & \underbrace {L (i)} _ {\text {A d e c r e a s i n g}} & \times \\ \underset {\text {R e a l m o n e y}} {\text {D e m a n d f o r}} & & \text {f u n c t i o n} & \underset {\text {R e a l i n c o m e}} {\text {R e a l}} \end{array}
+\begin{array}{c c c c} \frac{M^{d}}{P} & = & \underbrace {L (i)}_{\text{Ad ec re as in g}} & \times \\ \underset {\text{Re al mo ne y}} {\text{De ma nd fo r}} & & \text{fu nc ti on} & \underset {\text{Re al in co me}} {\text{Re al}} \end{array}
 $$
 
 Figure 14-11(a) shows a typical real money demand function of this form, with the quantity of real money balances demanded on the horizontal axis and the nominal interest rate on the vertical axis. The downward slope of the demand curve reflects the inverse relationship between the demand for real money balances and the nominal interest rate at a given level of real income  $(Y)$ .
@@ -9701,7 +9701,7 @@ Figure 14-11(b) shows what happens when real income increases from  $Y_{1}$  to 
 The money market is in equilibrium when the real money supply (determined by the central bank) equals the demand for real money balances (determined by the nominal interest rate and real income):
 
 $$
-\underset {\text {R e a l m o n e y} \quad \text {s u p p l y}} {\frac {M}{P}} = \underbrace {L (i) Y} _ {\text {R e a l m o n e y} \quad \text {d e m a n d}} \tag {14-7}
+\underset {\text{Re al mo ne y} \quad \text{su pp ly}} {\frac{M}{P}} = \underbrace {L (i) Y}_{\text{Re al mo ne y} \quad \text{de ma nd}} \tag {14-7}
 $$
 
 # FIGURE 14-11
@@ -9727,7 +9727,7 @@ The tools we need to determine the nominal interest rate in an open economy are 
 Relative PPP, as indicated in Equation (14-2), states that the rate of depreciation equals the inflation differential at time  $t$ . When market actors use this equation to forecast future exchange rates, we use a superscript  $e$  to denote such expectations. Equation (14-2) is recast to show expected depreciation and inflation at time  $t$ :
 
 $$
-\underbrace {\frac {\Delta E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}}} _ {\text {E V I S T}} = \underbrace {\pi_ {U S} ^ {e} - \pi_ {E U R} ^ {e}} _ {\text {E x p e c t e d i n f l a t i o n d i f f e r e n t i a l}}
+\underbrace {\frac{\Delta E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}}}_{\text{EV IS T}} = \underbrace {\pi_{U S}^{e} - \pi_{E U R}^{e}}_{\text{Ex pe ct ed in fl at io nd if fe re nt ia l}}
 $$
 
 Expected rate of dollar depreciation
@@ -9735,7 +9735,7 @@ Expected rate of dollar depreciation
 Next we recall that UIP in the approximate form (Equation 13-3) can be rearranged to show that the expected rate of depreciation equals the interest differential at time  $t$ :
 
 $$
-\frac {\Delta E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}} \hskip 2 8. 4 5 2 7 5 6 p t = \hskip 2 8. 4 5 2 7 5 6 p t i _ {\S} \hskip 2 8. 4 5 2 7 5 6 p t - \hskip 2 8. 4 5 2 7 5 6 p t i _ {\epsilon} \hskip 2 8. 4 5 2 7 5 6 p t
+\frac{\Delta E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} \hskip 2 8. 4 5 2 7 5 6 p t = \hskip 2 8. 4 5 2 7 5 6 p t i_{\S} \hskip 2 8. 4 5 2 7 5 6 p t - \hskip 2 8. 4 5 2 7 5 6 p t i_{\epsilon} \hskip 2 8. 4 5 2 7 5 6 p t
 $$
 
 Expected rate of dollar depreciation
@@ -9749,7 +9749,7 @@ This way of writing the UIP equation says that traders will be indifferent to a 
 Because the left sides of the previous two equations are equal, the right sides must also be equal. Thus, the nominal interest differential equals the expected inflation differential:
 
 $$
-\underbrace {i _ {\S} - i _ {\epsilon}} = \underbrace {\pi_ {U S} ^ {e} - \pi_ {E U R} ^ {e}} \tag {14-8}
+\underbrace {i_{\S} - i_{\epsilon}} = \underbrace {\pi_{U S}^{e} - \pi_{E U R}^{e}} \tag {14-8}
 $$
 
 Nominal interest rate differential
@@ -9772,7 +9772,7 @@ In other words, the Fisher effect predicts that the change in the opportunity co
 
 As just described, the Fisher effect tells us something about nominal interest rates, but we can quickly derive the implications for real interest rates, too. Rearranging the last equation, we find
 
-$$ i _ {\$} - \pi_ {U S} ^ {e} = i _ {\epsilon} - \pi_ {E U R} ^ {e}
+$$ i_{\$} - \pi_{U S}^{e} = i_{\epsilon} - \pi_{E U R}^{e}
 
 $$
 
@@ -9780,7 +9780,7 @@ The expressions on either side of this equation might look familiar from previou
 
 Thus, using only two assumptions, PPP and UIP, we have shown that
 
-$$ r _ {U S} ^ {e} = r _ {E U R} ^ {e} \tag {14-9}
+$$ r_{U S}^{e} = r_{E U R}^{e} \tag {14-9}
 $$
 
 This remarkable result states the following: if PPP and UIP hold, then expected real interest rates are equalized across countries.
@@ -9791,17 +9791,17 @@ We have arrived at a strong conclusion about the potential for globalization to 
 
 We have considered two locations, but this argument applies to all countries integrated into the global capital market. In the long run, they will all share a common expected real interest rate, the long-run expected world real interest rate denoted  $r^{*}$ , so
 
-$$ r _ {U S} ^ {e} = r _ {E U R} ^ {e} = r ^ {*}
+$$ r_{U S}^{e} = r_{E U R}^{e} = r^{*}
 $$
 
 From now on, unless indicated otherwise, we treat  $r^*$  as a given, exogenous variable, something outside the control of a policy maker in any particular country.[11]
 
 Under these conditions, the Fisher effect is even clearer, because, by definition,
 
-$$ i _ {\S} = r _ {U S} ^ {e} + \pi_ {U S} ^ {e} = r ^ {*} + \pi_ {U S} ^ {e}
+$$ i_{\S} = r_{U S}^{e} + \pi_{U S}^{e} = r^{*} + \pi_{U S}^{e}
 $$
 
-$$ i _ {\epsilon} = r _ {E U R} ^ {e} + \pi_ {E U R} ^ {e} = r ^ {*} + \pi_ {E U R} ^ {e}
+$$ i_{\epsilon} = r_{E U R}^{e} + \pi_{E U R}^{e} = r^{*} + \pi_{E U R}^{e}
 $$
 
 Thus, in each country, the long-run expected nominal interest rate is the long-run world real interest rate plus that country's expected long-run inflation rate. For example, if the world real interest rate is  $r^* = 2\%$ , and the country's long-run expected inflation rate goes up by two percentage points from  $3\%$  to  $5\%$ , then its long-run nominal interest rate also goes up by two percentage points from the old level of  $2 + 3 = 5\%$  to a new level of  $2 + 5 = 7\%$ .
@@ -9849,7 +9849,7 @@ Now that we understand how the nominal interest rate is determined in the long r
 We can therefore update our fundamental equations to allow for this change in how we treat  $L$ . For example, the fundamental equation of the monetary approach to exchange rates, Equation (14-3), can now be suitably modified:
 
 $$
-\underbrace {E _ {\mathrm {S} / \mathrm {E}}} _ {\text {E x c h a n g e r a t e}} = \underbrace {\frac {P _ {U S}}{P _ {E U R}}} _ {\text {R a t i o o f}} = \underbrace {\frac {\left(\frac {M _ {U S}}{L _ {U S} (i _ {\mathrm {S}}) Y _ {U S}}\right)}{\left(\frac {M _ {E U R}}{L _ {E U R} (i _ {\mathrm {C}}) Y _ {E U R}}\right)}} _ {\text {p r i c e l e v e l s}} = \underbrace {\frac {(M _ {U S} / M _ {E U R})}{\left(L _ {U S} (i _ {\mathrm {S}}) Y _ {U S} / L _ {E U R} (i _ {\mathrm {C}}) Y _ {E U R}\right)}} _ {\text {R e l a t i v e n o m i n a l m o n e y s u p p l i e s}} \tag {14-10}
+\underbrace {E_{\mathrm{S} / \mathrm{E}}}_{\text{Ex ch an ge ra te}} = \underbrace {\frac{P_{U S}}{P_{E U R}}}_{\text{Ra ti oo f}} = \underbrace {\frac{\left(\frac{M_{U S}}{L_{U S} (i_{\mathrm{S}}) Y_{U S}}\right)}{\left(\frac{M_{E U R}}{L_{E U R} (i_{\mathrm{C}}) Y_{E U R}}\right)}}_{\text{pr ic el ev el s}} = \underbrace {\frac{(M_{U S} / M_{E U R})}{\left(L_{U S} (i_{\mathrm{S}}) Y_{U S} / L_{E U R} (i_{\mathrm{C}}) Y_{E U R}\right)}}_{\text{Re la ti ve no mi na lm on ey su pp li es}} \tag {14-10}
 $$
 
 What have we gained from this refinement? We know that the simple model will remain valid for cases in which nominal interest rates remain unchanged in the long run. It is only when nominal interest rates change that the general model has different implications, and we now have the right tools for that situation. To put those tools to work, we revisit the example of an exchange rate forecasting problem we encountered earlier in this chapter.
@@ -10026,7 +10026,7 @@ inflation target plus interest rate policy, p. 511 central bank independence, p.
 
 # PROBLEMS
 
-1. Suppose that two countries, Vietnam and Côte d'Ivoire, produce coffee. The currency unit used in Vietnam is the dong (VND). Côte d'Ivoire is a member of Communaute Financière Africaine (CFA), a currency union of West African countries that use the CFA franc (XOF). In Vietnam, coffee sells for 5,000 dong (VND) per pound. The exchange rate is 30 VND per 1 CFA franc,  $E_{\mathrm{VND / XOF}} = 30$ .
+1. Suppose that two countries, Vietnam and Côte d'Ivoire, produce coffee. The currency unit used in Vietnam is the dong (VND). Côte d'Ivoire is a member of Communaute Financière Africaine (CFA), a currency union of West African countries that use the CFA franc (XOF). In Vietnam, coffee sells for 5,000 dong (VND) per pound. The exchange rate is 30 VND per 1 CFA franc,  $E_{\mathrm{VND /XOF}} = 30$ .
 
 a. If the law of one price holds, what is the price of coffee in Côte d'Ivoire, measured in CFA francs?
 
@@ -10157,7 +10157,7 @@ To begin our study of exchange rates in the short run, let's recap the crucial e
 For the case of risky arbitrage, the forex market is in equilibrium when there is no expected difference in the rates of return on each type of currency investment in the two countries or locations. As before, we assume Home is the United States (U.S.); and Foreign is Europe (EUR, meaning the Eurozone). As we saw in the approximate uncovered interest parity condition—Equation (13-3), and repeated in this section as Equation (15-1)—this outcome requires that the dollar rate of return on the home investment (the dollar deposit) equal the expected dollar rate of return on the foreign investment (the euro deposit),
 
 $$
-\underbrace {i _ {\S}} _ {\substack {\text {Interest rate} \\ \text {on dollar deposits} \\ = \\ \text {Dollar rate of return} \\ \text {on dollar deposits}}} = \underbrace {i _ {\epsilon}} _ {\substack {\text {Interest rate} \\ \text {on euro deposits}}} + \underbrace {\frac {\left(E _ {\S / \epsilon} ^ {e} - E _ {\S / \epsilon}\right)}{E _ {\S / \epsilon}}} _ {\substack {\text {Expected rate of depreciation} \\ \text {of the dollar}}} \tag{15 - 1}
+\underbrace {i_{\S}}_{\substack {\text{Interestrate} \\ \text{ondollardeposits} \\ = \\ \text{Dollarrateofreturn} \\ \text{ondollardeposits}}} = \underbrace {i_{\epsilon}}_{\substack {\text{Interestrate} \\ \text{oneurodeposits}}} + \underbrace {\frac{\left(E_{\S / \epsilon}^{e} - E_{\S / \epsilon}\right)}{E_{\S / \epsilon}}}_{\substack {\text{Expectedrateofdepreciation} \\ \text{ofthedollar}}} \tag{15 - 1}
 $$ where each interest rate is an annual rate,  $E_{\mathbb{S} / \epsilon}$  is today's exchange rate (the spot rate), and  $E_{\mathbb{S} / \epsilon}^{\epsilon}$  is the expected future exchange rate that will prevail one year ahead.
 
 
@@ -10248,7 +10248,7 @@ FIGURE 15-3
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/e0217066e9098923012a3bedaa143dad32b5362726734e25afa7b318586a8a61.jpg)
 
-(b) A Change in the Foreign Interest Rate A fall in the euro interest rate from  $3 \%$  to  $1 \%$  lowers foreign expected dollar returns, shifting the FR curve down from  $F R _ {1}$  to  $F R _ {2}$ . At the initial equilibrium exchange rate of 1.20  $\mathbb{S} / \mathbb{E}$  on  $F R _ {2}$ , foreign returns are below domestic returns at point 6. Dollar deposits are more attractive and the dollar appreciates from 1.20  $\mathbb{S} / \mathbb{E}$  to 1.177  $\mathbb{S} / \mathbb{E}$ . The new equilibrium is at point 7.
+(b) A Change in the Foreign Interest Rate A fall in the euro interest rate from  $3 \%$  to  $1 \%$  lowers foreign expected dollar returns, shifting the FR curve down from  $F R_{1}$  to  $F R_{2}$ . At the initial equilibrium exchange rate of 1.20  $\mathbb{S} / \mathbb{E}$  on  $F R_{2}$ , foreign returns are below domestic returns at point 6. Dollar deposits are more attractive and the dollar appreciates from 1.20  $\mathbb{S} / \mathbb{E}$  to 1.177  $\mathbb{S} / \mathbb{E}$ . The new equilibrium is at point 7.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/3d9b770845796996ae2521ff5f9c57a5d815b8c93bee69c5cc3c69516d6454c2.jpg)
 
@@ -10295,13 +10295,13 @@ The Model With these explanations of our short-run assumptions in hand, we can n
 
 $$
 
-\underbrace {\frac {M _ {U S}}{\overline {{P}} _ {U S}}} _ {\text {U . S . s u p p l y o f} \quad \text {r e a l m o n e y b a l a n c e s}} = \underbrace {L (i _ {\S}) \times Y _ {U S}} _ {\text {U . S . d e m a n d f o r} \quad \text {r e a l m o n e y b a l a n c e s}} \tag {15-2}
+\underbrace {\frac{M_{U S}}{\overline {{P}}_{U S}}}_{\text{U .S .s up pl yo f} \quad \text{re al mo ne yb al an ce s}} = \underbrace {L (i_{\S}) \times Y_{U S}}_{\text{U .S .d em an df or} \quad \text{re al mo ne yb al an ce s}} \tag {15-2}
 
 $$
 
 $$
 
-\underbrace {\frac {M _ {E U R}}{\overline {{P}} _ {E U R}}} _ {\text {E u r o p e a n s u p p l y o f}} = \underbrace {L \left(i _ {\epsilon}\right) \times Y _ {E U R}} _ {\text {E u r o p e a n d m a n d f o r}} \tag {15-3}
+\underbrace {\frac{M_{E U R}}{\overline {{P}}_{E U R}}}_{\text{Eu ro pe an su pp ly of}} = \underbrace {L \left(i_{\epsilon}\right) \times Y_{E U R}}_{\text{Eu ro pe an dm an df or}} \tag {15-3}
 
 $$
 
@@ -10526,7 +10526,7 @@ We need the asset approach (this chapter)—short-run money market equilibrium a
 
 $$
 
-\left. \begin{array}{l} \overline {{P}} _ {U S} = M _ {U S} / \left[ L _ {U S} \left(i _ {\S}\right) Y _ {U S} \right] \\ \overline {{P}} _ {E U R} = M _ {E U R} / \left[ L _ {E U R} \left(i _ {\ell}\right) Y _ {E U R} \right] \\ i _ {\S} = i _ {\ell} + \frac {E _ {\S / \ell} ^ {e} - E _ {\S / \ell}}{E _ {\S / \ell}} \end{array} \right\} \text {T h e a s s e t a p p r o a c h .} \tag {15-4}
+\left. \begin{array}{l} \overline {{P}}_{U S} = M_{U S} / \left[ L_{U S} \left(i_{\S}\right) Y_{U S} \right] \\ \overline {{P}}_{E U R} = M_{E U R} / \left[ L_{E U R} \left(i_{\ell}\right) Y_{E U R} \right] \\ i_{\S} = i_{\ell} + \frac{E_{\S / \ell}^{e} - E_{\S / \ell}}{E_{\S / \ell}} \end{array} \right\} \text{Th ea ss et ap pr oa ch .} \tag {15-4}
 
 $$
 
@@ -10535,7 +10535,7 @@ $$
 
 $$
 
-\left. \begin{array}{l} P _ {U S} ^ {e} = M _ {U S} ^ {e} / \left[ L _ {U S} \left(i _ {\S} ^ {e}\right) Y _ {U S} ^ {e} \right] \\ P _ {E U R} ^ {e} = M _ {E U R} ^ {e} / \left[ L _ {E U R} \left(i _ {\epsilon} ^ {e}\right) Y _ {E U R} ^ {e} \right] \\ E _ {\S / \epsilon} ^ {e} = P _ {U S} ^ {e} / P _ {E U R} ^ {e} \end{array} \right\} \quad \text {T h e m o n e t a r y a p p r o a c h .} \tag {15-5}
+\left. \begin{array}{l} P_{U S}^{e} = M_{U S}^{e} / \left[ L_{U S} \left(i_{\S}^{e}\right) Y_{U S}^{e} \right] \\ P_{E U R}^{e} = M_{E U R}^{e} / \left[ L_{E U R} \left(i_{\epsilon}^{e}\right) Y_{E U R}^{e} \right] \\ E_{\S / \epsilon}^{e} = P_{U S}^{e} / P_{E U R}^{e} \end{array} \right\} \quad \text{Th em on et ar ya pp ro ac h .} \tag {15-5}
 
 $$
 
@@ -10618,9 +10618,9 @@ Look first at the FX market in panel (b). Because expectations about the future 
 
 Now consider the impact of the change in monetary policy in the short run. Look at the money market in panel (a). In the short run, if the money supply increases from  $M_{US}^{1}$  to  $M_{US}^{2}$  but prices are sticky at  $P_{US}^{1}$ , then real money balances rise from  $M_{US}^{1} / P_{US}^{1}$  to  $M_{US}^{2} / P_{US}^{1}$ . The real money supply shifts from  $MS_{1}$  to  $MS_{2}$  and the home interest rate falls from  $i_{\mathrm{S}}^{1}$  to  $i_{\mathrm{S}}^{2}$ , leading to a new short-run money market equilibrium at point 2.
 
-Now look back to the FX market in panel (b). If this were a temporary monetary policy shock, expectations would be unchanged, and the  $FR_{1}$  curve would still describe foreign returns, but domestic returns would fall from  $DR_{1}$  to  $DR_{2}$  as the interest rate fell and the home currency would depreciate to the level  $E_{\mathrm{S / E}}^{3}$ . The FX market equilibrium, after a temporary money supply shock, would be at point  $3'$ , as we have seen before.
+Now look back to the FX market in panel (b). If this were a temporary monetary policy shock, expectations would be unchanged, and the  $FR_{1}$  curve would still describe foreign returns, but domestic returns would fall from  $DR_{1}$  to  $DR_{2}$  as the interest rate fell and the home currency would depreciate to the level  $E_{\mathrm{S /E}}^{3}$ . The FX market equilibrium, after a temporary money supply shock, would be at point  $3'$ , as we have seen before.
 
-But this is not the case now. This time we are looking at a permanent shock to money supply. It has two effects on today's FX market. One impact of the money supply shock is to lower the home interest rate, decreasing domestic returns in today's FX market from  $DR_{1}$  to  $DR_{2}$ . The other impact of the money supply shock is to increase the future expected exchange rate, increasing foreign returns in today's FX market from  $FR_{1}$  to  $FR_{2}$ . Hence, the FX market equilibrium in the short run is where  $DR_{2}$  and  $FR_{2}$  intersect, now at point  $2'$ , and the exchange rate depreciates all the way to  $E_{\mathrm{S / E}}^{2}$ .
+But this is not the case now. This time we are looking at a permanent shock to money supply. It has two effects on today's FX market. One impact of the money supply shock is to lower the home interest rate, decreasing domestic returns in today's FX market from  $DR_{1}$  to  $DR_{2}$ . The other impact of the money supply shock is to increase the future expected exchange rate, increasing foreign returns in today's FX market from  $FR_{1}$  to  $FR_{2}$ . Hence, the FX market equilibrium in the short run is where  $DR_{2}$  and  $FR_{2}$  intersect, now at point  $2'$ , and the exchange rate depreciates all the way to  $E_{\mathrm{S /E}}^{2}$ .
 
 Note that the short-run equilibrium level of the exchange rate  $(E_{\mathbb{S} / \epsilon}^{2})$  is higher than the level that would be observed under a temporary shock  $(E_{\mathbb{S} / \epsilon}^{3})$  and also higher than the level that will be observed in the long run  $(E_{\mathbb{S} / \epsilon}^{4})$ . To sum up, in the short run, the permanent shock causes the exchange rate to depreciate more than it would under a temporary shock and more than it will end up depreciating in the long run.
 
@@ -10704,7 +10704,7 @@ By assumption, equilibrium in the krone-euro forex market requires that the Dani
 
 Here uncovered interest parity reduces to the simple condition that the Danish central bank must set its interest rate equal to  $i_{\epsilon}$ , the rate set by the ECB:
 
-$$ i_{DKr} = i_{\epsilon} + \underbrace{\frac{E^{e}_{DKr / \epsilon} - E_{DKr / \epsilon}}{E_{DKr / \epsilon}}} _ {\text{Equals zero for a credible fixed exchange rate}} = i_{\epsilon}
+$$ i_{DKr} = i_{\epsilon} + \underbrace{\frac{E^{e}_{DKr / \epsilon} - E_{DKr / \epsilon}}{E_{DKr / \epsilon}}}_{\text{Equalszerofora crediblefixedexchangerate}} = i_{\epsilon}
 $$
 
 Denmark has lost control of its monetary policy: it cannot independently change its interest rate under a peg.
@@ -10712,7 +10712,7 @@ Denmark has lost control of its monetary policy: it cannot independently change 
 The same is true of money supply policy. Short-run equilibrium in Denmark's money market requires that money supply equal money demand, but once Denmark's interest rate is set equal to the Eurozone interest rate  $i_{\epsilon}$ , there is only one feasible level for money supply, as we see by imposing  $i_{\epsilon}$  as the Danish interest rate in money market equilibrium:
 
 $$
-M _ {D E N} = \bar {P} _ {D E N} L _ {D E N} \left(i _ {D K r}\right) Y _ {D E N} = \bar {P} _ {D E N} L _ {D E N} \left(i _ {\epsilon}\right) Y _ {D E N}
+M_{D E N} = \bar {P}_{D E N} L_{D E N} \left(i_{D K r}\right) Y_{D E N} = \bar {P}_{D E N} L_{D E N} \left(i_{\epsilon}\right) Y_{D E N}
 $$
 
 The implications are striking. The final expression contains the euro interest rate (exogenous, as far as the Danes are concerned), the fixed price level (exogenous by assumption), and output (also exogenous by assumption). No variable in this expression is under the control of the Danish authorities in the short run, and this is the only level of the Danish money supply consistent with equilibrium in the money and forex markets at the pegged rate  $\overline{E}_{DKr/\epsilon}$ . If the Danish central bank is to maintain the peg, then in the short run it must choose the level of money supply implied by the last equation.
@@ -10742,7 +10742,7 @@ Following our discussion of the standard monetary model, we must first ask what 
 Next we turn to the price level in Denmark, which is determined in the long run by PPP. But if the exchange rate is pegged, we can write long-run PPP for Denmark as
 
 $$
-P _ {D E N} = \bar {E} _ {D K r / \epsilon} P _ {E U R}
+P_{D E N} = \bar {E}_{D K r / \epsilon} P_{E U R}
 $$
 
 Here we encounter another variable that is totally outside of Danish control in the long run. Under PPP, pegging to the euro means that the Danish price level is a fixed multiple of the Eurozone price level (which is exogenous, as far as the Danes are concerned).
@@ -10750,7 +10750,7 @@ Here we encounter another variable that is totally outside of Danish control in 
 With the long-run nominal interest and price level outside of Danish control, we can show, as before, that monetary policy autonomy is out of the question. We just substitute  $i_{DKr} = i_{\epsilon}$  and  $P_{DEN} = \overline{E}_{DKr / \epsilon}P_{EUR}$  into Denmark's long-run money market equilibrium to obtain
 
 $$
-M _ {D E N} = P _ {D E N} L _ {D E N} \left(i _ {D K r}\right) Y _ {D E N} = \overline {{E}} _ {D K r / \epsilon} P _ {E U R} L _ {D E N} \left(i _ {\epsilon}\right) Y _ {D E N}
+M_{D E N} = P_{D E N} L_{D E N} \left(i_{D K r}\right) Y_{D E N} = \overline {{E}}_{D K r / \epsilon} P_{E U R} L_{D E N} \left(i_{\epsilon}\right) Y_{D E N}
 $$
 
 The final expression contains the long-run euro interest rate and price levels (exogenous, as far as the Danes are concerned), the fixed exchange rate level (exogenous by assumption), and long-run Danish output (also exogenous by assumption). Again, no variable in the final expression is under the control of the Danish authorities in the long run, and this is the only level of the Danish money supply consistent with equilibrium in the money and foreign exchange market at the pegged rate of  $\overline{E}_{DKr / \ell}$ .
@@ -11104,7 +11104,7 @@ As for GDP, it is by definition the value of all goods and services produced as 
 To adjust GNE and find the contribution going into GDP, we subtract the value of final goods imported (home spending that goes to foreign firms) and add the value of final goods exported (foreign spending that goes to home firms). In addition, we can't forget about intermediate goods: we subtract the value of imported intermediates (in GDP they also count as home's purchased inputs) and add the value of exported intermediates (in GDP they also count as home's produced output). So, adding it all up, to get from GNE to GDP, we add the value of all exports denoted  $EX$  and subtract the value of all imports  $IM$ . Thus,
 
 $$
-\underbrace {G D P} _ {\text {G r o s s d o m e s t i c p r o d u c t}} = \underbrace {C + I + G} _ {\text {G r o s s n a t i o n a l e x p e n d i t u r e}} + \underbrace {\left(\underbrace {E X} _ {\text {A l l e x p o r t s , f i n a l & i n t e r m i d a t e}} - \underbrace {I M} _ {\text {A l l i m p o r t s , f i n a l & i n t e r m i d a t e}}\right)} _ {\text {T r a d e b a l a n c e} T B} \tag {16-1}
+\underbrace {G D P}_{\text{Gr os sd om es ti cp ro du ct}} = \underbrace {C + I + G}_{\text{Gr os sn at io na le xp en di tu re}} + \underbrace {\left(\underbrace {E X}_{\text{Al le xp or ts ,f in al &i nt er mi da te}} - \underbrace {I M}_{\text{Al li mp or ts ,f in al &i nt er mi da te}}\right)}_{\text{Tr ad eb al an ce} T B} \tag {16-1}
 $$
 
 This important formula for GDP says that gross domestic product is equal to gross national expenditure (GNE) plus the trade balance (TB).
@@ -11132,7 +11132,7 @@ After accounting for these income flows, we see that gross national income (GNI)
 With the help of the GDP expression in Equation (16-1), we obtain the key formula for GNI that says the gross national income equals gross domestic product (GDP) plus net factor income from abroad (NFIA).
 
 $$
-\begin{array}{r l} G N I & = \underbrace {C + I + G} _ {\text {G r o s s n a t i o n a l e x p e n d i t u r e}} + \underbrace {(E X - I M)} _ {\text {T r a d e b a l i n c e}} \\ & \underbrace {G N E} _ {G D P} \end{array} + \underbrace {(E X _ {F S} - I M _ {F S})} _ {\text {N e t f a c t o r i n c o m e f r o m a b r o a d}} \tag {16-2}
+\begin{array}{r l} G N I & = \underbrace {C + I + G}_{\text{Gr os sn at io na le xp en di tu re}} + \underbrace {(E X - I M)}_{\text{Tr ad eb al in ce}} \\ & \underbrace {G N E}_{G D P} \end{array} + \underbrace {(E X_{F S} - I M_{F S})}_{\text{Ne tf ac to ri nc om ef ro ma br oa d}} \tag {16-2}
 $$
 
 In 2012 the United States received income payments from foreigners  $EX_{FS}$  of \$782 billion and made income payments to foreigners  $IM_{FS}$  of \$539 billion, so the net factor income from abroad NFLA was +243 billion.
@@ -11170,7 +11170,7 @@ Measuring national generosity is highly controversial and a recurring theme of c
 To include the impact of aid and all other transfers in the overall calculation of a country's income resources, we add net unilateral transfers to gross national income. Using the definition of GNI in Equation (16-2), we obtain a full measure of national income in an open economy, known as gross national disposable income (GNDI), henceforth denoted  $Y$ :
 
 $$
-\underbrace {Y} = \underbrace {C + I + G} + \underbrace {(E X - I M)} + \underbrace {(E X _ {F S} - I M _ {F S})} + \underbrace {(U T _ {I N} - U T _ {O U T})} \tag {16-3}
+\underbrace {Y} = \underbrace {C + I + G} + \underbrace {(E X - I M)} + \underbrace {(E X_{F S} - I M_{F S})} + \underbrace {(U T_{I N} - U T_{O U T})} \tag {16-3}
 $$
 
 $$
@@ -11182,7 +11182,7 @@ G N E
 $$
 
 $$
-\text {T r a d e}
+\text{Tr ad e}
 $$
 
 $$
@@ -11190,11 +11190,11 @@ T B
 $$
 
 $$
-\begin{array}{l} \text {N e t f a c t o r i n c o m e} \\ \text {f r o m a b r o a d} \end{array}
+\begin{array}{l} \text{Ne tf ac to ri nc om e} \\ \text{fr om ab ro ad} \end{array}
 $$
 
 $$
-\begin{array}{c} \text {N e t u n i l a t e r} \\ \text {t r a n s f e r s} \end{array}
+\begin{array}{c} \text{Ne tu ni la te r} \\ \text{tr an sf er s} \end{array}
 $$
 
 $$
@@ -11258,7 +11258,7 @@ To get from GNI to GDNI, we add NUT (Equation 16-3).
 To go one step further, we can group the three cross-border terms into an umbrella term that is called the current account CA:
 
 $$
-\underbrace {Y} _ {G N D I} = \underbrace {C + I + G} _ {G N E} + \underbrace {\{\left(E X - I M\right)} _ {T B} + \underbrace {\left(E X _ {F S} - I M _ {F S}\right)} _ {N F I A} + \underbrace {\left(U T _ {I N} - U T _ {O U T}\right)} _ {N U T} \} \tag {16-4}
+\underbrace {Y}_{G N D I} = \underbrace {C + I + G}_{G N E} + \underbrace {\{\left(E X - I M\right)}_{T B} + \underbrace {\left(E X_{F S} - I M_{F S}\right)}_{N F I A} + \underbrace {\left(U T_{I N} - U T_{O U T}\right)}_{N U T} \} \tag {16-4}
 $$
 
 Current account
@@ -11325,7 +11325,7 @@ GNDI is less than GNE if and only if CA is negative, or in deficit.
 Subtracting  $C + G$  from both sides of the last identity, we can see that the current account is also the difference between national saving ( $S = Y - C - G$ ) and investment:
 
 $$
-\underbrace {S} _ {Y - C - G} = I + C A \tag {16-6}
+\underbrace {S}_{Y - C - G} = I + C A \tag {16-6}
 $$ where national saving is defined as income minus consumption minus government consumption. This equation is called the current account identity even though it is just a rearrangement of the national income identity. Thus,
 
 
@@ -11377,7 +11377,7 @@ To uncover the sources of the trends in total saving, Figure 16-8 examines two o
 
 $$
 
-S _ {p} = Y - T - C \tag {16-7}
+S_{p} = Y - T - C \tag {16-7}
 
 $$
 
@@ -11402,7 +11402,7 @@ Similarly, we define government saving or public saving as the difference betwee
 
 $$
 
-S _ {g} = T - G \tag {16-8}
+S_{g} = T - G \tag {16-8}
 
 $$
 
@@ -11412,7 +11412,7 @@ If we add these last two equations, we see that private saving plus government s
 
 $$
 
-S = Y - C - G = \underbrace {(Y - T - C)} _ {\text {}} + \underbrace {(T - G)} _ {\text {}} = S _ {p} + S _ {g} \tag {16-9}
+S = Y - C - G = \underbrace {(Y - T - C)}_{\text{}} + \underbrace {(T - G)}_{\text{}} = S_{p} + S_{g} \tag {16-9}
 
 $$
 
@@ -11429,7 +11429,7 @@ We can use the equation just given and the current account identity to write
 
 $$
 
-C A = S _ {p} + S _ {g} - I \tag {16-10}
+C A = S_{p} + S_{g} - I \tag {16-10}
 
 $$
 
@@ -11490,7 +11490,7 @@ If we use superscripts "H" and "F" to denote home and foreign assets, we can bre
 
 $$
 
-F A = \underbrace {\left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right)} _ {\text {N e t e x p o r t o f}} + \underbrace {\left(E X _ {A} ^ {F} - I M _ {A} ^ {F}\right)} _ {\text {N e t e x p o r t o f}} = \underbrace {\left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right)} _ {\text {N e t e x p o r t o f}} - \underbrace {\left(I M _ {A} ^ {F} - E X _ {A} ^ {F}\right)} _ {\text {N e t i m p o r t o f}} \tag {16-11}
+F A = \underbrace {\left(E X_{A}^{H} - I M_{A}^{H}\right)}_{\text{Ne te xp or to f}} + \underbrace {\left(E X_{A}^{F} - I M_{A}^{F}\right)}_{\text{Ne te xp or to f}} = \underbrace {\left(E X_{A}^{H} - I M_{A}^{H}\right)}_{\text{Ne te xp or to f}} - \underbrace {\left(I M_{A}^{F} - E X_{A}^{F}\right)}_{\text{Ne ti mp or to f}} \tag {16-11}
 
 $$
 
@@ -11506,7 +11506,7 @@ Recall from Equation (16-4) that gross national disposable income is
 
 $$
 
-Y = G N D I = G N E + T B + N F I A + N U T = \underbrace {G N E + C A} _ {\text {R e s o u r c e s a v a i l a b l e t o}}
+Y = G N D I = G N E + T B + N F I A + N U T = \underbrace {G N E + C A}_{\text{Re so ur ce sa va il ab le to}}
 
 $$
 
@@ -11514,7 +11514,7 @@ Does this expression represent all of the resources that are available to the ho
 
 $$
 
-\underbrace {\left[ \begin{array}{c} E X _ {A} - K A _ {O U T} \end{array} \right]} _ {\text {V a l u e o f}} - \underbrace {\left[ I M _ {A} - K A _ {I N} \right]} _ {\text {a l l a s s e t s}} = E X _ {A} - I M _ {A} + K A _ {I N} - K A _ {O U T} = \underbrace {F A + K A} _ {\text {E x t r a r e s o u r c e s}}
+\underbrace {\left[ \begin{array}{c} E X_{A} - K A_{O U T} \end{array} \right]}_{\text{Va lu eo f}} - \underbrace {\left[ I M_{A} - K A_{I N} \right]}_{\text{al la ss et s}} = E X_{A} - I M_{A} + K A_{I N} - K A_{O U T} = \underbrace {F A + K A}_{\text{Ex tr ar es ou rc es}}
 
 $$
 
@@ -11522,7 +11522,7 @@ Adding the last two expressions, we arrive at the value of the total resources a
 
 $$
 
-\underbrace {G N E + C A} _ {\text {R e s o u r c e s a v a i l a b l e}} + \underbrace {F A + K A} _ {\text {E x t r a r e s o u r c e s a v a i l a b l e}} = G N E
+\underbrace {G N E + C A}_{\text{Re so ur ce sa va il ab le}} + \underbrace {F A + K A}_{\text{Ex tr ar es ou rc es av ai la bl e}} = G N E
 
 $$
 
@@ -11530,7 +11530,7 @@ We can cancel GNE from both sides of this expression to obtain the important res
 
 $$
 
-\underbrace {C A} _ {\text {C u r r e n t a c c o u n t}} + \underbrace {K A} _ {\text {C a p i t a l a c c o u n t}} + \underbrace {F A} _ {\text {F i n a c i a l a c c o u n t}} = 0 \tag {16-12}
+\underbrace {C A}_{\text{Cu rr en ta cc ou nt}} + \underbrace {K A}_{\text{Ca pi ta la cc ou nt}} + \underbrace {F A}_{\text{Fi na ci al ac co un t}} = 0 \tag {16-12}
 
 $$
 
@@ -11546,19 +11546,19 @@ Another way to look at the BOP is to look behind these three variables to the sp
 
 $$
 
-C A = (E X - I M) + \left(E X _ {F S} - I M _ {F S}\right) + \left(U T _ {I N} - U T _ {O U T}\right)
+C A = (E X - I M) + \left(E X_{F S} - I M_{F S}\right) + \left(U T_{I N} - U T_{O U T}\right)
 
 $$
 
 $$
 
-K A = \left(K A _ {I N} - K A _ {O U T}\right) \tag {16-13}
+K A = \left(K A_{I N} - K A_{O U T}\right) \tag {16-13}
 
 $$
 
 $$
 
-F A = \left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right) + \left(E X _ {A} ^ {F} - I M _ {A} ^ {F}\right)
+F A = \left(E X_{A}^{H} - I M_{A}^{H}\right) + \left(E X_{A}^{F} - I M_{A}^{F}\right)
 
 $$
 
@@ -11584,7 +11584,7 @@ Exports of home and foreign assets
 
 $$
 
-\left(+ E X _ {A} ^ {H}, + E X _ {A} ^ {F}\right).
+\left(+ E X_{A}^{H}, + E X_{A}^{F}\right).
 
 $$
 
@@ -11608,7 +11608,7 @@ Imports of home and foreign assets
 
 $$
 
-\left(- I M _ {A} ^ {H}, - I M _ {A} ^ {F}\right).
+\left(- I M_{A}^{H}, - I M_{A}^{F}\right).
 
 $$
 
@@ -11728,7 +11728,7 @@ First, we give a definition of the level of a country's external wealth  $(W)$ :
 
 $$
 
-\underbrace {\text {E x t e r n a l w e a l t h}} _ {W} = \underbrace {\left[ \begin{array}{l} \text {R O W a s s e t s} \\ \text {o w n e d b y h o m e} \end{array} \right]} _ {A} - \underbrace {\left[ \begin{array}{l} \text {H o m e a s s e t s} \\ \text {o w n e d b y R O W} \end{array} \right]} _ {L} \tag {16-14}
+\underbrace {\text{Ex te rn al we al th}}_{W} = \underbrace {\left[ \begin{array}{l} \text{RO Wa ss et s} \\ \text{ow ne db yh om e} \end{array} \right]}_{A} - \underbrace {\left[ \begin{array}{l} \text{Ho me as se ts} \\ \text{ow ne db yR OW} \end{array} \right]}_{L} \tag {16-14}
 
 $$
 
@@ -11755,7 +11755,7 @@ Adding up these two contributions to the change in external wealth  $(\Delta W)$
 
 $$
 
-\underbrace {\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\Delta W} = - \underbrace {\left[ \begin{array}{c} \text {F i n a n c i a l} \\ \text {a c c o u n t} \end{array} \right]} _ {\text {N e t e x p o r t o f a s s e t s}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s o n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\text {E A}} \tag {16-15}
+\underbrace {\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{ex te rn al we al th} \end{array} \right]}_{\Delta W} = - \underbrace {\left[ \begin{array}{c} \text{Fi na nc ia l} \\ \text{ac co un t} \end{array} \right]}_{\text{Ne te xp or to fa ss et s}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns on} \\ \text{ex te rn al we al th} \end{array} \right]}_{\text{EA}} \tag {16-15}
 
 $$
 
@@ -11763,7 +11763,7 @@ We gain a deeper understanding of this expression if we recall the BOP identity:
 
 $$
 
-\underbrace {\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\Delta W} = \underbrace {\left[ \begin{array}{c} \text {C u r r e n t} \\ \text {a c c o u n t} \end{array} \right]} _ {CA} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l} \\ \text {a c c o u n t} \end{array} \right]} _ {K A} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s o n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s}} \tag {16-16}
+\underbrace {\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{ex te rn al we al th} \end{array} \right]}_{\Delta W} = \underbrace {\left[ \begin{array}{c} \text{Cu rr en t} \\ \text{ac co un t} \end{array} \right]}_{CA} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta l} \\ \text{ac co un t} \end{array} \right]}_{K A} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns on} \\ \text{ex te rn al we al th} \end{array} \right]}_{\text{Va lu at io ne ff ec ts}} \tag {16-16}
 
 $$
 
@@ -11996,7 +11996,7 @@ External wealth is only part of a country's total wealth, the sum of the home ca
 
 $$
 
-\text {T o t a l w e a l t h} = \underbrace {K} _ {\substack {\text {H o m e n o n f i n a n c i a l} \\ \text {a s s e t s}}} + \underbrace {(A - L)} _ {\substack {\text {E x t e r n a l w e a l t h}}}
+\text{To ta lw ea lt h} = \underbrace {K}_{\substack {\text{Ho me no nf in an ci al} \\ \text{as se ts}}} + \underbrace {(A - L)}_{\substack {\text{Ex te rn al we al th}}}
 
 $$
 
@@ -12006,7 +12006,7 @@ Changes in the value of total wealth can then be written as follows:
 
 $$
 
-\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = \underbrace {\left[ \begin{array}{c} \text {A d d i t i o n s} \\ \text {t o} K \end{array} \right]} _ {\text {A d d i t i o n s (a c q u i s i t i o n s m i n u s d i s p o s a l s)}} + \underbrace {\left[ \begin{array}{c} \text {A d d i t i o n s} \\ \text {t o} A - L \end{array} \right]} _ {\text {C a p i t a l g a i n s}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = \underbrace {\left[ \begin{array}{c} \text{Ad di ti on s} \\ \text{to} K \end{array} \right]}_{\text{Ad di ti on s (ac qu is it io ns mi nu sd is po sa ls)}} + \underbrace {\left[ \begin{array}{c} \text{Ad di ti on s} \\ \text{to} A - L \end{array} \right]}_{\text{Ca pi ta lg ai ns}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $$
 
@@ -12020,7 +12020,7 @@ Substituting, we can rewrite the last equations as
 
 $$
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = \underbrace {I} _ {\substack {\text {A d d i t i o n s t o} K \\ = \\ \text {A d d i t i o n s t o} \\ \text {a s s e t s i n t h e} \\ \text {h o m e e c o n o m y}}} + \underbrace {(- F A)} _ {\substack {\text {A d d i t i o n s t o} A - L \\ = \\ \text {N e t i m p o r t o f} \\ \text {a s s e t s i n t o t h e} \\ \text {h o m e e c o n o m y}}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = \underbrace {I}_{\substack {\text{Ad di ti on st o} K \\ = \\ \text{Ad di ti on st o} \\ \text{as se ts in th e} \\ \text{ho me ec on om y}}} + \underbrace {(- F A)}_{\substack {\text{Ad di ti on st o} A - L \\ = \\ \text{Ne ti mp or to f} \\ \text{as se ts in to th e} \\ \text{ho me ec on om y}}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $$
 
@@ -12028,7 +12028,7 @@ Now, using the BOP identity, we know that  $CA + KA + FA = 0$  so that minus the
 
 $$
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = I + C A + K A + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = I + C A + K A + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $$
 
@@ -12036,7 +12036,7 @@ Notice what has happened here. The BOP identity makes the connection between ext
 
 $$
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = S + K A + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = S + K A + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $$
 
@@ -12129,7 +12129,7 @@ Mathematically, we can write the change in external wealth from end of year  $N 
 
 $$
 
-\Delta W _ {N} = \underbrace {W _ {N} - W _ {N - 1}} _ {\text {C h a n g e i n e x t e r n a l}} = \underbrace {T B _ {N}} _ {\text {T r a d e b a n c e}} + \underbrace {r ^ {*} W _ {N - 1}} _ {\text {I n t e r s t p a i d / r e c e i v e d o n}}
+\Delta W_{N} = \underbrace {W_{N} - W_{N - 1}}_{\text{Ch an ge in ex te rn al}} = \underbrace {T B_{N}}_{\text{Tr ad eb an ce}} + \underbrace {r^{*} W_{N - 1}}_{\text{In te rs tp ai d /r ec ei ve do n}}
 
 $$
 
@@ -12141,7 +12141,7 @@ To find wealth at the end of year  $N$ , we rearrange the preceding equation:
 
 $$
 
-\underbrace {W _ {N}} _ {\substack {\text {External wealth at} \\ \text {the end of this period}}} = \underbrace {T B _ {N}} _ {\substack {\text {Trade balance} \\ \text {this period}}} + \underbrace {(1 + r ^ {*}) W _ {N - 1}} _ {\substack {\text {Last period's external wealth} \\ \text {plus interest paid/received}}}
+\underbrace {W_{N}}_{\substack {\text{Externalwealthat} \\ \text{theendofthisperiod}}} = \underbrace {T B_{N}}_{\substack {\text{Tradebalance} \\ \text{thisperiod}}} + \underbrace {(1 + r^{*}) W_{N - 1}}_{\substack {\text{Lastperiod'sexternalwealth} \\ \text{plusinterestpaid/received}}}
 
 $$
 
@@ -12158,7 +12158,7 @@ That's the end of year 0. But next, where do things stand at the end of year 1? 
 
 $$
 
-W _ {1} = 0 = \left(1 + r ^ {*}\right) ^ {2} W _ {- 1} + \left(1 + r ^ {*}\right) T B _ {0} + T B _ {1}
+W_{1} = 0 = \left(1 + r^{*}\right)^{2} W_{- 1} + \left(1 + r^{*}\right) T B_{0} + T B_{1}
 
 $$
 
@@ -12167,7 +12167,7 @@ This equation shows that two years later at the end of year 1 the country has ac
 Because we have stated that the final wealth level  $W_{1}$  must be zero, the right-hand side of the last equation must be zero, too. For that to be the case, the trade balances in year 0 ( $TB_{0}$ ) and in year 1 ( $TB_{1}$ ) (plus any accumulated interest) must be equal and opposite to initial wealth ( $W_{-1}$ ) (plus any accumulated interest):
 
 $$
-- \left(1 + r ^ {*}\right) ^ {2} W _ {- 1} = \left(1 + r ^ {*}\right) T B _ {0} + T B _ {1}
+- \left(1 + r^{*}\right)^{2} W_{- 1} = \left(1 + r^{*}\right) T B_{0} + T B_{1}
 $$
 
 This equation is the two-period budget constraint. It tells us that a creditor country with positive initial wealth (left-hand-side negative) can afford to run trade deficits "on average" in future; conversely, a debtor country (left-hand-side positive) is required to run trade surpluses "on average" in future.
@@ -12176,7 +12176,7 @@ Present Value Form By dividing the previous equation by  $(1 + r^{*})$ , we find
 
 $$
 
-\underbrace {- (1 + r ^ {*}) W _ {- 1}} _ {\text {M i n u s t h e p r e s e n t v a l u e}} = \underbrace {T B _ {0} + \frac {T B _ {1}}{(1 + r ^ {*})}} _ {\text {P r e s e n t v a l u e o f a l l p r e s e n t}}
+\underbrace {- (1 + r^{*}) W_{- 1}}_{\text{Mi nu st he pr es en tv al ue}} = \underbrace {T B_{0} + \frac{T B_{1}}{(1 + r^{*})}}_{\text{Pr es en tv al ue of al lp re se nt}}
 
 $$
 
@@ -12194,7 +12194,7 @@ Extending the Theory to the Long Run By extending the two-period model to  $N$  
 
 $$
 
-\underset {\text {M i n u s t h e p r e s e n t v a l u e o f}} {\text {L R B C :}} \underbrace {- (1 + r ^ {*}) W _ {- 1}} = \underbrace {T B _ {0} + \frac {T B _ {1}}{\left(1 + r ^ {*}\right)} + \frac {T B _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {T B _ {3}}{\left(1 + r ^ {*}\right) ^ {3}} + \frac {T B _ {4}}{\left(1 + r ^ {*}\right) ^ {4}} + \cdots} _ {\text {P r e s e n t v a l u e o f a l l p r e s e n t a n d f u t u r e t r a d e b a l a n c e s}} \tag {17-1}
+\underset {\text{Mi nu st he pr es en tv al ue of}} {\text{LR BC :}} \underbrace {- (1 + r^{*}) W_{- 1}} = \underbrace {T B_{0} + \frac{T B_{1}}{\left(1 + r^{*}\right)} + \frac{T B_{2}}{\left(1 + r^{*}\right)^{2}} + \frac{T B_{3}}{\left(1 + r^{*}\right)^{3}} + \frac{T B_{4}}{\left(1 + r^{*}\right)^{4}} + \cdots}_{\text{Pr es en tv al ue of al lp re se nt an df ut ur et ra de ba la nc es}} \tag {17-1}
 
 $$
 
@@ -12208,7 +12208,7 @@ Suppose that today is year 0 and a country is to pay (e.g., to its creditors) a 
 
 $$
 
-P V (X) = \frac {X}{\left(1 + r ^ {*}\right)} + \frac {X}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {X}{\left(1 + r ^ {*}\right) ^ {3}} + \dots
+P V (X) = \frac{X}{\left(1 + r^{*}\right)} + \frac{X}{\left(1 + r^{*}\right)^{2}} + \frac{X}{\left(1 + r^{*}\right)^{3}} + \dots
 
 $$
 
@@ -12216,7 +12216,7 @@ This expression for  $PV(X)$  is an infinite sum. If we multiply this equation b
 
 $$
 
-P V (X) (1 + r ^ {*}) = X + \frac {X}{(1 + r ^ {*})} + \frac {X}{(1 + r ^ {*}) ^ {2}} + \frac {X}{(1 + r ^ {*}) ^ {3}} + \dots
+P V (X) (1 + r^{*}) = X + \frac{X}{(1 + r^{*})} + \frac{X}{(1 + r^{*})^{2}} + \frac{X}{(1 + r^{*})^{3}} + \dots
 
 $$
 
@@ -12224,7 +12224,7 @@ To get this result, we can take the basic equation for the change in external we
 
 $$
 
-W _ {N} = \left(1 + r ^ {*}\right) ^ {N + 1} W _ {- 1} + \left(1 + r ^ {*}\right) ^ {N} T B _ {0} + \left(1 + r ^ {*}\right) ^ {N - 1} T B _ {1} + \left(1 + r ^ {*}\right) ^ {N - 2} T B _ {2} + \dots + \left(1 + r ^ {*}\right) T B _ {N - 1} + T B _ {N}
+W_{N} = \left(1 + r^{*}\right)^{N + 1} W_{- 1} + \left(1 + r^{*}\right)^{N} T B_{0} + \left(1 + r^{*}\right)^{N - 1} T B_{1} + \left(1 + r^{*}\right)^{N - 2} T B_{2} + \dots + \left(1 + r^{*}\right) T B_{N - 1} + T B_{N}
 
 $$
 
@@ -12232,7 +12232,7 @@ We can then get toward the LRBC in the text if we divide the previous equation b
 
 $$
 
-\frac {W _ {N}}{(1 + r ^ {*}) ^ {N}} = (1 + r ^ {*}) W _ {- 1} + T B _ {0} + \frac {T B _ {1}}{(1 + r ^ {*})} + \frac {T B _ {2}}{(1 + r ^ {*}) ^ {2}} + \dots + \frac {T B _ {N}}{(1 + r ^ {*}) ^ {N}}.
+\frac{W_{N}}{(1 + r^{*})^{N}} = (1 + r^{*}) W_{- 1} + T B_{0} + \frac{T B_{1}}{(1 + r^{*})} + \frac{T B_{2}}{(1 + r^{*})^{2}} + \dots + \frac{T B_{N}}{(1 + r^{*})^{N}}.
 
 $$
 
@@ -12242,7 +12242,7 @@ To find a simple expression for  $PV(X)$ , we subtract the first equation from t
 
 $$
 
-\underbrace {\frac {X}{\left(1 + r ^ {*}\right)} + \frac {X}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {X}{\left(1 + r ^ {*}\right) ^ {3}} + \cdots} _ {P V (X)} = \frac {X}{r ^ {*}} \tag {17-2}
+\underbrace {\frac{X}{\left(1 + r^{*}\right)} + \frac{X}{\left(1 + r^{*}\right)^{2}} + \frac{X}{\left(1 + r^{*}\right)^{3}} + \cdots}_{P V (X)} = \frac{X}{r^{*}} \tag {17-2}
 
 $$
 
@@ -12252,7 +12252,7 @@ For example, if the constant payment is  $X = 100$  and the interest rate is  $5
 
 $$
 
-\frac {1 0 0}{(1 + 0 . 0 5)} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {2}} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {3}} + \dots = \frac {1 0 0}{0 . 0 5} = 2, 0 0 0
+\frac{1 0 0}{(1 + 0 . 0 5)} + \frac{1 0 0}{(1 + 0 . 0 5)^{2}} + \frac{1 0 0}{(1 + 0 . 0 5)^{3}} + \dots = \frac{1 0 0}{0 . 0 5} = 2, 0 0 0
 
 $$
 
@@ -12266,7 +12266,7 @@ To see why this is true, recall from the previous chapter that the trade balance
 
 $$
 
-\underbrace {(1 + r ^ {*}) W _ {- 1}} _ {\text {P r e s e n t v a l u e o f}} + \underbrace {G D P _ {0} + \frac {G D P _ {1}}{\left(1 + r ^ {*}\right)} + \frac {G D P _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \cdots} \tag {17-3}
+\underbrace {(1 + r^{*}) W_{- 1}}_{\text{Pr es en tv al ue of}} + \underbrace {G D P_{0} + \frac{G D P_{1}}{\left(1 + r^{*}\right)} + \frac{G D P_{2}}{\left(1 + r^{*}\right)^{2}} + \cdots} \tag {17-3}
 
 $$
 
@@ -12276,7 +12276,7 @@ Present value of the country's resources
 
 $$
 
-= \underbrace {G N E _ {0} + \frac {G N E _ {1}}{\left(1 + r ^ {*}\right)} + \frac {G N E _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \cdots}
+= \underbrace {G N E_{0} + \frac{G N E_{1}}{\left(1 + r^{*}\right)} + \frac{G N E_{2}}{\left(1 + r^{*}\right)^{2}} + \cdots}
 
 $$
 
@@ -12322,7 +12322,7 @@ To include the effects of the total return differential in our model, we have to
 
 $$
 
-\Delta W _ {N} = \underbrace {W _ {N} - W _ {N - 1}} _ {\text {C h a n g e i n}} = \underbrace {\underbrace {T B _ {N}} _ {\text {T r a d e}}} _ {\text {b a l a n c e}} + \underbrace {r ^ {*} W _ {N - 1}} _ {\text {I n t e r e s t p a i d / r e c e i v e d}} + \underbrace {(r ^ {*} - r ^ {0}) L} _ {\text {o n l a s t p e r i o d /}} + \underbrace {K G} _ {\text {I n c o m e d u t o}}
+\Delta W_{N} = \underbrace {W_{N} - W_{N - 1}}_{\text{Ch an ge in}} = \underbrace {\underbrace {T B_{N}}_{\text{Tr ad e}}}_{\text{ba la nc e}} + \underbrace {r^{*} W_{N - 1}}_{\text{In te re st pa id /r ec ei ve d}} + \underbrace {(r^{*} - r^{0}) L}_{\text{on la st pe ri od /}} + \underbrace {K G}_{\text{In co me du to}}
 
 $$
 
@@ -12412,7 +12412,7 @@ Present value of GNE or equivalently,
 
 $$
 
-\underbrace {\text {P r e s e n t v a l u e o f} Q} _ {\text {P r e s e n t v a l u e o f} G D P} = \underbrace {\text {P r e s e n t v a l u e o f} C} _ {\text {P r e s e n t v a l u e o f} G N E} \tag {17-4}
+\underbrace {\text{Pr es en tv al ue of} Q}_{\text{Pr es en tv al ue of} G D P} = \underbrace {\text{Pr es en tv al ue of} C}_{\text{Pr es en tv al ue of} G N E} \tag {17-4}
 
 $$
 
@@ -12476,7 +12476,7 @@ To find out how big a cut in consumption is necessary, we rearrange and find tha
 
 $$
 
-\Delta C = \frac {r ^ {*}}{1 + r ^ {*}} \Delta Q
+\Delta C = \frac{r^{*}}{1 + r^{*}} \Delta Q
 
 $$
 
@@ -12601,7 +12601,7 @@ Equation (17-4) must be modified to include investment  $I$  as a component of G
 
 $$
 
-\begin{array}{c} 0 = \text {P r e s e n t v a l u e o f T B} \\ \swarrow \\ \text {I n i t i a l w e i l t h i s z e r o} \end{array}
+\begin{array}{c} 0 = \text{Pr es en tv al ue of TB} \\ \swarrow \\ \text{In it ia lw ei lt hi sz er o} \end{array}
 
 $$
 
@@ -12609,7 +12609,7 @@ Because the  $TB$  is output (Q) minus expenditure  $(C + I)$ , we can rewrite t
 
 $$
 
-\underbrace {\text {P r e s e n t v a l u e o f} Q} _ {\text {P r e s e n t v a l u e o f} G D P} = \underbrace {\text {P r e s e n t v a l u e o f} C + \text {P r e s e n t v a l u e o f} I} _ {\text {P r e s e n t v a l u e o f} G N E} \tag {17-5}
+\underbrace {\text{Pr es en tv al ue of} Q}_{\text{Pr es en tv al ue of} G D P} = \underbrace {\text{Pr es en tv al ue of} C + \text{Pr es en tv al ue of} I}_{\text{Pr es en tv al ue of} G N E} \tag {17-5}
 
 $$
 
@@ -12657,7 +12657,7 @@ The increase in the present value of output  $PV(Q)$  comes from extra output in
 
 $$
 
-\text {C h a n g e i n p r e s e n t v a l u e o f o u t p u t} = \frac {\Delta Q}{\left(1 + r ^ {*}\right)} + \frac {\Delta Q}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {\Delta Q}{\left(1 + r ^ {*}\right) ^ {3}} + \dots = \frac {\Delta Q}{r ^ {*}}
+\text{Ch an ge in pr es en tv al ue of ou tp ut} = \frac{\Delta Q}{\left(1 + r^{*}\right)} + \frac{\Delta Q}{\left(1 + r^{*}\right)^{2}} + \frac{\Delta Q}{\left(1 + r^{*}\right)^{3}} + \dots = \frac{\Delta Q}{r^{*}}
 
 $$
 
@@ -12673,7 +12673,7 @@ Putting it another way, dividing by  $\Delta K$ , investment is undertaken when
 
 $$
 
-\underbrace {\frac {\Delta Q}{\Delta K}} _ {M P K} \quad \geq \underbrace {r ^ {*}} _ {\text {W o r l d r e a l i n t e r e s t r a t e}} \tag {17-6}
+\underbrace {\frac{\Delta Q}{\Delta K}}_{M P K} \quad \geq \underbrace {r^{*}}_{\text{Wo rl dr ea li nt er es tr at e}} \tag {17-6}
 
 $$
 
@@ -12720,14 +12720,14 @@ A simple and widely used production function takes the form
 
 $$
 
-\underset { \begin{array}{c} \swarrow \\ \text {O u t p u t} \\ \text {p e r} \\ \text {w o r k e r} \end{array} } {q} = \underset { \begin{array}{c} \swarrow \\ \text {P r o d u c t i v i t y} \\ \text {l e v e l} \end{array} } {\mathcal {A}} \times \underset { \begin{array}{c} \swarrow \\ \text {C a p i t a l p e r} \\ \text {w o r k e r} \end{array} } {k ^ {\theta}}
+\underset { \begin{array}{c} \swarrow \\ \text{Ou tp ut} \\ \text{pe r} \\ \text{wo rk er} \end{array} } {q} = \underset { \begin{array}{c} \swarrow \\ \text{Pr od uc ti vi ty} \\ \text{le ve l} \end{array} } {\mathcal {A}} \times \underset { \begin{array}{c} \swarrow \\ \text{Ca pi ta lp er} \\ \text{wo rk er} \end{array} } {k^{\theta}}
 
 $$ where  $\theta$  is a number between 0 and 1 that measures the contribution of capital to production. $^{14}$  Specifically,  $\theta$  is the elasticity of output with respect to capital (i.e., a  $1\%$  increase in capital per worker generates a  $0\%$  increase in output per worker). In the real world,  $\theta$  has been estimated to be approximately one-third, and this is the value we employ here. $^{15}$  An illustration is given in the top part of Figure 17-7, panel (a), which graphs the production function for the case in which  $\theta = 1/3$  and the productivity level is set at a reference level of 1, so  $A = 1$ . Thus, for this case  $q = k^{1/3}$ .
 
 With this production function, what is the marginal product of capital, MPK? It is the slope of the production function, the incremental change in output per worker  $\Delta q$  divided by the incremental change in capital per worker  $\Delta k$ . As we can see from the figure, capital's marginal product MPK (the extra output we get by increasing capital per worker) decreases as  $k$  increases. Indeed, from the preceding formula, we can find that MPK, or the slope of the production function, is given by
 
 $$
-M P K = \frac {\Delta q}{\Delta k} = \underbrace {\theta A k ^ {\theta - 1}} _ {\substack {\text {Slope of the}\\ \text {production function}}} = \theta \times \frac {q}{k}
+M P K = \frac{\Delta q}{\Delta k} = \underbrace {\theta A k^{\theta - 1}}_{\substack {\text{Slopeofthe}\\ \text{productionfunction}}} = \theta \times \frac{q}{k}
 $$
 
 # FIGURE 17-7
@@ -12773,7 +12773,7 @@ What was drastically wrong was the assumption of identical productivity levels  
 An Augmented Model: Countries Have Different Productivity Levels To see why capital does not flow to poor countries, we now suppose that  $A$ , the productivity level, is different in the United States and Mexico, as denoted by country subscripts:
 
 $$
-\underline {{q _ {U S}}} \quad = \quad \underline {{A _ {U S} k _ {U S} ^ {\theta}}}
+\underline {{q_{U S}}} \quad = \quad \underline {{A_{U S} k_{U S}^{\theta}}}
 $$
 
 Output per worker in the United States
@@ -12781,7 +12781,7 @@ Output per worker in the United States
 U.S. production function
 
 $$
-\underbrace {q _ {M E X}} = \underbrace {A _ {M E X} k ^ {\theta} _ {M E X}}
+\underbrace {q_{M E X}} = \underbrace {A_{M E X} k^{\theta}_{M E X}}
 $$
 
 Output per worker Mexican production function in Mexico
@@ -12791,7 +12791,7 @@ Countries have potentially different production functions and different MPK curv
 The earlier MPK equation holds for each country, so we can compute the ratios of country MPKs as
 
 $$
-\frac {M P K _ {M E X}}{M P K _ {U S}} = \frac {\left[ \theta q _ {M E X} / k _ {M E X} \right]}{\left[ \theta q _ {U S} / k _ {U S} \right]} = \frac {q _ {M E X} / q _ {U S}}{k _ {M E X} / k _ {U S}}
+\frac{M P K_{M E X}}{M P K_{U S}} = \frac{\left[ \theta q_{M E X} / k_{M E X} \right]}{\left[ \theta q_{U S} / k_{U S} \right]} = \frac{q_{M E X} / q_{U S}}{k_{M E X} / k_{U S}}
 $$
 
 Using this equation, we can see the importance of allowing productivity levels to differ across countries. We know that  $q_{MEX} / q_{US} = 0.43$ , but we can also obtain data on capital per worker that show  $k_{MEX} / k_{US} = 0.33$ . If we plug these numbers into the last expression, we find that MPK in Mexico is not 5.4 times the U.S. level, as we had earlier determined, but only about 1.3 times (0.43/0.33) the U.S. level. The smaller multiple is due to the lower productivity level that our revised model reveals in Mexico.
@@ -13195,12 +13195,12 @@ We can define the A-specific shock as the shock  $a$  minus the average shock:  
 
 By doing this algebraic manipulation, the A shock can be written as the common shock plus the A-specific shock:
 
-$$ a = \underbrace {\frac {1}{2} (a + b)} _ {\text {C o m m o n s h o c k}} + \underbrace {\frac {1}{2} (a - b)} _ {\text {A - s p e c i f i c s h o c k}}
+$$ a = \underbrace {\frac{1}{2} (a + b)}_{\text{Co mm on sh oc k}} + \underbrace {\frac{1}{2} (a - b)}_{\text{A -s pe ci fi cs ho ck}}
 $$
 
 Similarly, the B shock can be written as the common shock plus the B-specific shock:
 
-$$ b = \underbrace {\frac {1}{2} (a + b)} _ {\text {C o m m o n s h o c k}} + \underbrace {\frac {1}{2} (b - a)} _ {\text {B - s p e c i f i c s h o c k}}
+$$ b = \underbrace {\frac{1}{2} (a + b)}_{\text{Co mm on sh oc k}} + \underbrace {\frac{1}{2} (b - a)}_{\text{B -s pe ci fi cs ho ck}}
 $$
 
 We see that the country-specific shocks are the exact opposites of each other:  $\frac{1}{2}(a - b)$  and  $\frac{1}{2}(b - a)$ . The good news is that country-specific shocks are a diversifiable risk and satisfy the conditions of the simple case examined in the chapter. So the income risk they generate can be eliminated by diversification: in the world portfolio, the country-specific shocks cancel out, as we can see by adding up the last two equations.
@@ -13290,7 +13290,7 @@ Our main objective is to understand how output (income) is determined in the hom
 The simplest model of aggregate private consumption relates household consumption  $C$  to disposable income  $Y^{d}$ . As we learned in Chapter 16, disposable income is the level of total pretax income  $Y$  received by households minus the taxes paid by households  $\overline{T}$ , so that  $Y^{d} = Y - \overline{T}$ . Consumers tend to consume more as their disposable income rises, a relationship that can be represented by an increasing function, called the consumption function:
 
 $$
-\text {C o n s u m p t i o n} = C = C (Y - \bar {T})
+\text{Co ns um pt io n} = C = C (Y - \bar {T})
 $$
 
 A typical consumption function of this form is graphed in Figure 18-1; it slopes upward because consumption increases when disposable income increases.
@@ -13318,7 +13318,7 @@ The simplest model of aggregate investment makes two key assumptions: firms can 
 When the expected real interest rate in the economy falls, we expect more investment projects to be undertaken. For example, at a real interest rate of  $10\%$ , there may be only  $\$1$  billion worth of profitable investment projects that firms wish to undertake; but if the real interest rate falls to  $5\%$ , there may now be  $\$2$  billion worth of profitable projects. Hence, our model assumes that investment  $I$  is a decreasing function of the real interest rate; that is, investment falls as the real interest rate rises.
 
 $$
-\text {I n v e s t m e n t} = I = I (i)
+\text{In ve st me nt} = I = I (i)
 $$
 
 Remember that this is true only because when expected inflation is zero, the real interest rate equals the nominal interest rate. Figure 18-2 shows a typical investment function of this type. It slopes downward because as the real interest rate falls, the quantity of investment rises.
@@ -13342,11 +13342,11 @@ In the unlikely event that  $G = T$  exactly, government spending exactly equals
 Fiscal policy is concerned with the levels of taxes  $T$  and spending  $G$  set by the government. In this chapter, we do not study in detail why or how governments make such policy choices; we make the simple assumption that in the short run the levels of taxes and spending are set exogenously at some fixed levels, denoted by an overbar:
 
 $$
-\text {G o v e n m e n t p u c h a s e s} = G = \bar {G}
+\text{Go ve nm en tp uc ha se s} = G = \bar {G}
 $$
 
 $$
-\mathrm {T a x e s} = T = \overline {{T}}
+\mathrm{Ta xe s} = T = \overline {{T}}
 $$
 
 Policy makers may change these levels of taxes and spending at any time. We analyze the impact of such changes on the economy later in this chapter.
@@ -13376,7 +13376,7 @@ We expect an increase in rest of the world income to be associated with an incre
 Combining the three insights above, we can write the trade balance as a function of three variables: the real exchange rate, home disposable income, and rest of the world disposable income:
 
 $$
-T B = T B (\underbrace {E \overline {{P}} ^ {*} / \overline {{P}}} _ {\text {I n c r e a s i n g f u n c t i o n}}, \underbrace {Y - \overline {{T}}} _ {\text {D e c r e a s i n g f u n c t i o n}}, \underbrace {Y ^ {*} - \overline {{T}} ^ {*}} _ {\text {I n c r e a s i n g f u n c t i o n}})
+T B = T B (\underbrace {E \overline {{P}}^{*} / \overline {{P}}}_{\text{In cr ea si ng fu nc ti on}}, \underbrace {Y - \overline {{T}}}_{\text{De cr ea si ng fu nc ti on}}, \underbrace {Y^{*} - \overline {{T}}^{*}}_{\text{In cr ea si ng fu nc ti on}})
 $$
 
 # HEADLINES
@@ -13462,7 +13462,7 @@ By considering the home country to be the United States and the foreign "country
 The most common weighting scheme uses a weight equal to that country's share in the home country's trade. If there are  $N$  foreign countries, we can write home's total trade as the sum of its trade with each foreign country:  $\text{Trade} = \text{Trade}_1 + \text{Trade}_2 + \dots + \text{Trade}_N$ . Applying a trade weight to each bilateral real exchange rate's percentage change, we obtain the percentage change in home's multilateral real exchange rate or real effective exchange rate:
 
 $$
-\frac {\Delta q _ {\text {effective}}}{q _ {\text {effective}}} = \underbrace {\left(\frac {\text {Trade} _ {1}}{\text {Trade}} \frac {\Delta q _ {1}}{q _ {1}}\right) + \left(\frac {\text {Trade} _ {2}}{\text {Trade}} \frac {\Delta q _ {2}}{q _ {2}}\right) + \cdots + \left(\frac {\text {Trade} _ {N}}{\text {Trade}} \frac {\Delta q _ {N}}{q _ {N}}\right)} _ {\text {Real effective exchange rate change (in \%)}}
+\frac{\Delta q_{\text{effective}}}{q_{\text{effective}}} = \underbrace {\left(\frac{\text{Trade}_{1}}{\text{Trade}} \frac{\Delta q_{1}}{q_{1}}\right) + \left(\frac{\text{Trade}_{2}}{\text{Trade}} \frac{\Delta q_{2}}{q_{2}}\right) + \cdots + \left(\frac{\text{Trade}_{N}}{\text{Trade}} \frac{\Delta q_{N}}{q_{N}}\right)}_{\text{Realeffectiveexchangeratechange (in \%)}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/482a83a122926df281e60277b86eb155ef5a55e4c71b922db1875cd5b72df998.jpg)
@@ -13488,16 +13488,16 @@ One assumption we made was that prices are sticky in local currency. But what if
 For example, let the foreign country be the United States and suppose a share  $d$  of the home-produced basket of goods is priced in U.S. dollars at a sticky dollar price  $\overline{P}_1$ . Suppose that the remaining share,  $1 - d$ , is priced, as before, in local currency at a sticky local currency price  $\overline{P}_2$ . Hence,
 
 $$
-\left. \begin{array}{l} \text {P r i c e o f f o r g i n g g o o d s} \\ \text {r e l a t i v e t o d o l l a r - p r i c e d} \\ \text {h o m e g o o d s} \end{array} \right\} = \frac {E \times \bar {P} ^ {*}}{E \times \bar {P} _ {1}} = \frac {\bar {P} ^ {*}}{\bar {P} _ {1}} \text {h a s a w e i g h t} = d
+\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to do ll ar -p ri ce d} \\ \text{ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{E \times \bar {P}_{1}} = \frac{\bar {P}^{*}}{\bar {P}_{1}} \text{ha sa we ig ht} = d
 $$
 
 $$
-\left. \begin{array}{l} \text {P r i c e o f f o r g i n g g o o d s} \\ \text {r e l a t i v e t o l o c a l - c u r r e n c y -} \\ \text {p r i c e d h o m e g o o d s} \end{array} \right\} = \frac {E \times \bar {P} ^ {*}}{\bar {P} _ {2}} \text {h a s a w e i g h t} = 1 - d
+\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to lo ca l -c ur re nc y -} \\ \text{pr ic ed ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{\bar {P}_{2}} \text{ha sa we ig ht} = 1 - d
 $$
 
 In this setup, what is the price of all foreign-produced goods relative to all home-produced goods (the real exchange rate)? It is the weighted sum of the relative prices of the two parts of the basket. Hence, we find
 
-$$ q = \text {H o m e r e a l} \quad \text {e x c h a n g e} \quad \text {r a t e} = d \frac {\bar {P} ^ {*}}{\bar {P} _ {1}} + (1 - d) \frac {E \bar {P} ^ {*}}{\bar {P} _ {2}}
+$$ q = \text{Ho me re al} \quad \text{ex ch an ge} \quad \text{ra te} = d \frac{\bar {P}^{*}}{\bar {P}_{1}} + (1 - d) \frac{E \bar {P}^{*}}{\bar {P}_{2}}
 $$
 
 The first term with a weight  $d$  does not contain  $E$  because both numerator and denominator are dollar prices (already expressed in a common currency). Only the second term with a weight  $(1 - d)$  contains  $E$ , since the prices are in different currencies. Thus, a  $1\%$  increase in  $E$  will lead to only a  $(1 - d)\%$  increase in the real exchange rate.
@@ -13581,7 +13581,7 @@ We have now studied the determinants of each component of demand. We next put al
 The total aggregate supply of final goods and services is equal to total national output measured by GDP. Given our assumption that the current account equals the trade balance, gross national income  $Y$  equals GDP:
 
 $$
-\mathrm {S u p p l y} = G D P = Y
+\mathrm{Su pp ly} = G D P = Y
 $$
 
 Aggregate demand, or just "demand," consists of all the possible sources of demand for this supply of output. In the balance of payments chapter, we studied the expenditure side of the national income accounts and saw that supply is absorbed into different uses according to the national income identity. This accounting identity always holds true. But an identity is not an economic model. A model must explain how, in equilibrium, the observed demands take on their desired or planned values and still satisfy the accounting identity. How can we construct such a model?
@@ -13589,19 +13589,19 @@ Aggregate demand, or just "demand," consists of all the possible sources of dema
 We may write total demand for GDP as
 
 $$
-\mathrm {D e m a n d} = D = C + I + G + T B
+\mathrm{De ma nd} = D = C + I + G + T B
 $$
 
 We can substitute the formulae for consumption, investment, and the trade balance presented in the first section of this chapter into this total demand equation to obtain
 
 $$
-D = C (Y - \bar {T}) + I (i) + \bar {G} + T B (E \bar {P} ^ {*} / \bar {P}, Y - \bar {T}, Y ^ {*} - \bar {T} ^ {*})
+D = C (Y - \bar {T}) + I (i) + \bar {G} + T B (E \bar {P}^{*} / \bar {P}, Y - \bar {T}, Y^{*} - \bar {T}^{*})
 $$
 
 Finally, in an equilibrium, demand  $D$  must equal supply  $Y$ , so from the preceding two equations we can see that the goods market equilibrium condition is
 
 $$
-Y = \underbrace {C (Y - \bar {T}) + I (i) + \bar {G} + T B \left(E \bar {P} ^ {*} / \bar {P} , Y - \bar {T} , Y ^ {*} - \bar {T} ^ {*}\right)} _ {D} \tag {18-1}
+Y = \underbrace {C (Y - \bar {T}) + I (i) + \bar {G} + T B \left(E \bar {P}^{*} / \bar {P} , Y - \bar {T} , Y^{*} - \bar {T}^{*}\right)}_{D} \tag {18-1}
 $$
 
 # Determinants of Demand
@@ -13783,7 +13783,7 @@ The lesson: an increase  $P^{*}$  or a decrease in  $P$  shifts the IS curve out
 These examples show that the position of the IS curve depends on various factors that we treat as given (or exogenous). We may write this observation using the notation
 
 $$
-I S = I S (G, T, i ^ {*}, E ^ {e}, P ^ {*}, P)
+I S = I S (G, T, i^{*}, E^{e}, P^{*}, P)
 $$
 
 There are many other exogenous shocks to the economy that can be analyzed in a similar fashion—for example, a sudden exogenous change in consumption, investment, or the trade balance. How will the IS curve react in each case? You may have detected a pattern from the preceding discussion.
@@ -13815,7 +13815,7 @@ In our earlier study of the money market, we assumed that the level of output or
 In the short-run, the price level is assumed to be sticky at a level  $\overline{P}$ , and the money market is in equilibrium when the demand for real money balances  $L(i)Y$  equals the real money supply  $M / \overline{P}$ :
 
 $$
-\frac {M}{\bar {P}} = \underbrace {L (i) Y} _ {\substack {\text {Real} \\ \text {money} \\ \text {supply}}} \tag{18 - 2}
+\frac{M}{\bar {P}} = \underbrace {L (i) Y}_{\substack {\text{Real} \\ \text{money} \\ \text{supply}}} \tag{18 - 2}
 $$
 
 Figure 18-10, panel (a), shows that real money demand  $MD$  varies inversely with the nominal interest rate. As a result of this relationship, the demand curve for real money balances slopes downward. The real money supply  $MS$  is assumed to be fixed for now. Initially, the level of output is at  $Y_{1}$  and the money market is in equilibrium at  $1'$ , where real money demand is on  $MD_{1}$  at  $M / \overline{P} = L(i_{1})Y_{1}$ .
@@ -14301,13 +14301,13 @@ e. Assume forex market equilibrium is given by  $i = ([1 / E] - 1) + 0.10$ , whe
 9. Assume that initially the IS curve is given by
 
 $$
-I S _ {1}: Y = 1 2 - 1. 5 T - 3 0 i + 2 G
+I S_{1}: Y = 1 2 - 1. 5 T - 3 0 i + 2 G
 $$ and that the price level  $P$  is 1, and the LM curve is given by
 
 
 $$
 
-L M _ {1}: M = Y (1 - i)
+L M_{1}: M = Y (1 - i)
 
 $$
 
@@ -14321,7 +14321,7 @@ e. There is now a foreign demand shock, such that the IS curve shifts left by 1.
 
 $$
 
-I S _ {2}: Y = 1 0. 5 - 1. 5 T - 3 0 i + 2 G
+I S_{2}: Y = 1 0. 5 - 1. 5 T - 3 0 i + 2 G
 
 $$
 
@@ -14350,7 +14350,7 @@ As we have argued, when home exports look cheaper to foreigners, the real value 
 
 $$
 
-\frac {\Delta E X}{E X} = \eta \times \frac {\Delta q}{q} = \eta \%
+\frac{\Delta E X}{E X} = \eta \times \frac{\Delta q}{q} = \eta \%
 
 $$
 
@@ -14360,21 +14360,21 @@ The same logic applies to the foreign country, with exports  $EX^{*}$ , real exc
 
 $$
 
-\frac {\Delta E X ^ {*}}{E X ^ {*}} = \eta^ {*} \times \frac {\Delta q ^ {*}}{q ^ {*}} = \eta^ {*} \%
+\frac{\Delta E X^{*}}{E X^{*}} = \eta^{*} \times \frac{\Delta q^{*}}{q^{*}} = \eta^{*} \%
 
 $$
 
 Now consider the trade link between the two countries. Foreign exports must equal home imports, measured in any consistent units. In home, real output units
 
-Home imports in units of home output  $= \underbrace{IM(q)}_{\substack{\text{Home imports}\\ (\text{real})}}$
+Home imports in units of home output  $= \underbrace{IM(q)}_{\substack{\text{Homeimports}\\ (\text{real})}}$
 
-Foreign exports in units of home output  $= \underbrace{(1 / P)}_{\substack{\text{Divide by home}\\ \text{price level to}\\ \text{convert to home}\\ \text{output units}}}\times \underbrace{E}_{\substack{\text{Exchange}\\ \text{rate converts}\\ \text{foreign to}\\ \text{domestic}\\ \text{currency}}} \times \underbrace{P^{*}}_{\substack{\text{Price of}\\ \text{foreign basket}\\ \text{in foreign}\\ \text{currency}}} \times \underbrace{EX^{*}(q^{*})}_{\substack{\text{Foreign exports}\\ \text{(real)}}}$  Value of foreign exports in foreign currency Value of foreign exports in home currency
+Foreign exports in units of home output  $= \underbrace{(1 / P)}_{\substack{\text{Dividebyhome}\\ \text{pricelevelto}\\ \text{converttohome}\\ \text{outputunits}}}\times \underbrace{E}_{\substack{\text{Exchange}\\ \text{rateconverts}\\ \text{foreignto}\\ \text{domestic}\\ \text{currency}}} \times \underbrace{P^{*}}_{\substack{\text{Priceof}\\ \text{foreignbasket}\\ \text{inforeign}\\ \text{currency}}} \times \underbrace{EX^{*}(q^{*})}_{\substack{\text{Foreignexports}\\ \text{(real)}}}$  Value of foreign exports in foreign currency Value of foreign exports in home currency
 
 Equating these two terms, we find that  $IM(q) = (EP^{*} / P)\times EX^{*}(q^{*})$ . Thus,
 
 $$
 
-I M (q) = q \times E X ^ {*} (q ^ {*})
+I M (q) = q \times E X^{*} (q^{*})
 
 $$
 
@@ -14384,7 +14384,7 @@ For a small change, we may write the percentage change in the previous equation 
 
 $$
 
-\frac {\Delta I M}{I M} = \frac {\Delta q}{q} + \frac {\Delta E X ^ {*}}{E X ^ {*}} = \frac {\Delta q}{q} + \left[ \eta^ {*} \times \frac {\Delta q ^ {*}}{q ^ {*}} \right] = 1 \% + \left[ \eta^ {*} \times (- 1 \%) \right] = (1 - \eta^ {*}) \%
+\frac{\Delta I M}{I M} = \frac{\Delta q}{q} + \frac{\Delta E X^{*}}{E X^{*}} = \frac{\Delta q}{q} + \left[ \eta^{*} \times \frac{\Delta q^{*}}{q^{*}} \right] = 1 \% + \left[ \eta^{*} \times (- 1 \%) \right] = (1 - \eta^{*}) \%
 
 $$
 
@@ -14394,7 +14394,7 @@ Starting from balanced trade with  $EX = IM$ , a  $1\%$  home real depreciation 
 
 $$
 
-\eta + \eta^ {*} > 1
+\eta + \eta^{*} > 1
 
 $$
 
@@ -14410,7 +14410,7 @@ Suppose that for trade with any foreign country (say, country 1), the fractional
 
 $$
 
-\frac {\Delta E X _ {1}}{E X _ {1}} = \varepsilon \times \frac {\Delta q _ {1}}{q _ {1}}; \quad \frac {\Delta I M _ {1}}{I M _ {1}} = - \varepsilon \times \frac {\Delta q _ {1}}{q _ {1}}
+\frac{\Delta E X_{1}}{E X_{1}} = \varepsilon \times \frac{\Delta q_{1}}{q_{1}}; \quad \frac{\Delta I M_{1}}{I M_{1}} = - \varepsilon \times \frac{\Delta q_{1}}{q_{1}}
 
 $$
 
@@ -14420,20 +14420,20 @@ From these relationships, we find the following by rearranging:
 
 $$
 
-\begin{array}{l} \Delta T B _ {1} = \Delta E X _ {1} - \Delta I M _ {1} = \varepsilon \frac {\Delta q _ {1}}{q _ {1}} E X _ {1} + \varepsilon \frac {\Delta q _ {1}}{q _ {1}} I M _ {1} \\ = \varepsilon \times \left(E X _ {1} + I M _ {1}\right) \times \frac {\Delta q _ {1}}{q _ {1}} \\ = \varepsilon \times \operatorname {T r a d e} _ {1} \times \frac {\Delta q _ {1}}{q _ {1}} \\ \end{array}
+\begin{array}{l} \Delta T B_{1} = \Delta E X_{1} - \Delta I M_{1} = \varepsilon \frac{\Delta q_{1}}{q_{1}} E X_{1} + \varepsilon \frac{\Delta q_{1}}{q_{1}} I M_{1} \\ = \varepsilon \times \left(E X_{1} + I M_{1}\right) \times \frac{\Delta q_{1}}{q_{1}} \\ = \varepsilon \times \operatorname{Tr ad e}_{1} \times \frac{\Delta q_{1}}{q_{1}} \\ \end{array}
 
 $$ where  $\mathrm{Trade}_i = [EX_i + IM_i]$  is the total trade of the home country with country  $i$ .
 
 Adding up this last equation across all countries, the change in the home trade balance is given by  $\Delta TB = \Delta TB_{1} + \Delta TB_{2} + \dots +\Delta TB_{N}$ , which we can write as
 
 $$
-\Delta T B = \varepsilon \times \left[ \operatorname {T r a d e} _ {1} \frac {\Delta q _ {1}}{q _ {1}} + \operatorname {T r a d e} _ {2} \frac {\Delta q _ {2}}{q _ {2}} + \dots + \operatorname {T r a d e} _ {N} \frac {\Delta q _ {N}}{q _ {N}} \right]
+\Delta T B = \varepsilon \times \left[ \operatorname{Tr ad e}_{1} \frac{\Delta q_{1}}{q_{1}} + \operatorname{Tr ad e}_{2} \frac{\Delta q_{2}}{q_{2}} + \dots + \operatorname{Tr ad e}_{N} \frac{\Delta q_{N}}{q_{N}} \right]
 $$
 
 We normalize by total trade, where  $\mathrm{Trade} = \mathrm{Trade}_1 + \mathrm{Trade}_2 + \dots + \mathrm{Trade}_N$ , to obtain
 
 $$
-\Delta T B = \varepsilon \times \text {T r a d e} \times \left[ \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {1}}{q _ {1}} + \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {2}}{q _ {2}} + \dots + \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {N}}{q _ {N}} \right]
+\Delta T B = \varepsilon \times \text{Tr ad e} \times \left[ \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{1}}{q_{1}} + \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{2}}{q_{2}} + \dots + \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{N}}{q_{N}} \right]
 $$
 
 Trade-weighted average of bilateral real exchange rate changes
@@ -14759,7 +14759,7 @@ What is the inflation tax worth to the government? It can spend the extra money 
 The amount that the inflation tax transfers from household to the government is called seigniorage, which can be written as
 
 $$
-\underbrace {\text {S e i g n i o r a g e}} _ {\text {I n f l a t i o n t a x}} = \underset {\text {T a x r a t e}} {\pi} \times \underset {\text {T a x b a s e}} {\frac {M}{P}} = \pi \times L (r ^ {*} + \pi) Y
+\underbrace {\text{Se ig ni or ag e}}_{\text{In fl at io nt ax}} = \underset {\text{Ta xr at e}} {\pi} \times \underset {\text{Ta xb as e}} {\frac{M}{P}} = \pi \times L (r^{*} + \pi) Y
 $$
 
 The two terms are often viewed as the tax rate (here, the inflation rate  $\pi$ ) and the tax base (the thing being taxed; here, real money balances  $M / P = L$ ). The first term rises as inflation  $\pi$  rises, but the second term goes to zero as  $\pi$  gets large because if inflation becomes very high, people try to hold almost no money, that is, real money demand given by  $L(i) = L(r^{*} + \pi)Y$  falls to zero.
@@ -14791,13 +14791,13 @@ Suppose there are just two countries and two currencies, Home and Foreign. Home 
 The value of Home's dollar external assets and liabilities can be expressed in pesos as  $EA_{F}$  and  $EL_{F}$ , respectively, using an exchange rate conversion. Hence, the Home country's total external wealth is the sum total of assets minus liabilities expressed in local currency:
 
 $$
-W = \underbrace {(A _ {H} + E A _ {F})} _ {\text {A s s e t s}} - \underbrace {(L _ {H} + E L _ {F})} _ {\text {L i a b i l i t i e s}}
+W = \underbrace {(A_{H} + E A_{F})}_{\text{As se ts}} - \underbrace {(L_{H} + E L_{F})}_{\text{Li ab il it ie s}}
 $$
 
 Now suppose there is a small change  $\Delta E$  in the exchange rate, all else equal. This does not affect the values of  $A_H$  and  $L_H$ , but it does change the values of  $EA_F$  and  $EL_F$  expressed in pesos. We can express the resulting change in national wealth as
 
 $$
-\Delta W = \underbrace {\Delta E} _ {\text {C h a n g e i n}} \times \underbrace {[ A _ {F} - L _ {F} ]} _ {\text {N e t i n t e r n a t i o n}} \tag {19-1}
+\Delta W = \underbrace {\Delta E}_{\text{Ch an ge in}} \times \underbrace {[ A_{F} - L_{F} ]}_{\text{Ne ti nt er na ti on}} \tag {19-1}
 $$
 
 The expression is intuitive and revealing. After a depreciation  $(\Delta E > 0)$ , the wealth effect is positive if Foreign currency assets exceed Foreign currency liabilities (the net dollar position in brackets is positive) and negative if Foreign currency liabilities exceed Foreign currency assets (the net dollar position in brackets is negative).
@@ -14812,9 +14812,9 @@ Destabilizing Wealth Shocks Why do these wealth effects have implications for st
 
 These effects matter because, in more complex short-run models of the economy, wealth affects the demand for goods. For example,
 
-Consumers might spend more when they have more wealth. In this case, the consumption function would become  $C(Y - T, \text{Total wealth})$ , and consumption would depend not just on after-tax income but also on wealth.
+Consumers might spend more when they have more wealth. In this case, the consumption function would become  $C(Y - T, \text{Totalwealth})$ , and consumption would depend not just on after-tax income but also on wealth.
 
-Firms might find it easier to borrow if their wealth increases (e.g., wealth increases the net worth of firms, increasing the collateral available for loans). The investment function would then become  $I(i, \text{Total wealth})$ , and investment would depend on both the interest rate and wealth.
+Firms might find it easier to borrow if their wealth increases (e.g., wealth increases the net worth of firms, increasing the collateral available for loans). The investment function would then become  $I(i, \text{Totalwealth})$ , and investment would depend on both the interest rate and wealth.
 
 We can now begin to understand the importance of the exchange rate valuation effects summarized in Equation (19-1). This equation says that countries have to satisfy a special condition to avoid changes in external wealth whenever the exchange rate moves: the value of their foreign currency external assets must exactly equal foreign currency liabilities. If foreign currency external assets do not equal foreign currency external liabilities, the country is said to have a currency mismatch on its external balance sheet, and exchange rate changes will affect national wealth.
 
@@ -15379,7 +15379,7 @@ Now suppose the central bank has also purchased a quantity  $R$  dollars of fore
 Because the central bank holds only two types of assets, the last two expressions add up to the total money supply in the home economy:
 
 $$
-\underbrace {M} _ {\text {M o n e y s u p p l y}} = \underbrace {B} _ {\text {D o m e s t i c c r e d i t}} + \underbrace {R} _ {\text {R e s e r v e s}} \tag {20-1}
+\underbrace {M}_{\text{Mo ne ys up pl y}} = \underbrace {B}_{\text{Do me st ic cr ed it}} + \underbrace {R}_{\text{Re se rv es}} \tag {20-1}
 $$
 
 This equation states that the money supply equals domestic credit plus reserves.
@@ -15387,7 +15387,7 @@ This equation states that the money supply equals domestic credit plus reserves.
 This expression is also useful when expressed not in levels but in changes:
 
 $$
-\underbrace {\Delta M} _ {\text {C h a n g e i n}} = \underbrace {\Delta B} _ {\text {C h a n g e i n}} + \underbrace {\Delta R} _ {\text {C h a n g e i n}} \tag {20-2}
+\underbrace {\Delta M}_{\text{Ch an ge in}} = \underbrace {\Delta B}_{\text{Ch an ge in}} + \underbrace {\Delta R}_{\text{Ch an ge in}} \tag {20-2}
 $$
 
 This expression says that changes in the money supply must result from either changes in domestic credit or changes in reserves.
@@ -15423,7 +15423,7 @@ We can rearrange Equation (20-1) to solve for the level of reserves, with  $R = 
 Because (in nominal terms) money supply equals money demand, given by  $M = \overline{P} L(i)Y$ , we can restate and rearrange Equation (20-1) to solve for the level of reserves:
 
 $$
-\underbrace {R} _ {\text {R e s e r v e s}} = \underbrace {\overline {{P}} L (i) Y} _ {\text {M o n e y D e m a n d D o m e s t i c C r e d i t}} - \underbrace {B} _ {\text {D o m e s t i c C r e d i t}} \tag {20-3}
+\underbrace {R}_{\text{Re se rv es}} = \underbrace {\overline {{P}} L (i) Y}_{\text{Mo ne yD em an dD om es ti cC re di t}} - \underbrace {B}_{\text{Do me st ic Cr ed it}} \tag {20-3}
 $$
 
 By substituting money demand for money supply, we can investigate how shocks to money demand (say, due to changes in output or the interest rate) or shocks to domestic credit affect the level of reserves.
@@ -15504,7 +15504,7 @@ However, we must also confront a new possibility—that the peg is not fully cre
 
 So far in the book, we have assumed that uncovered interest parity (UIP) requires that the domestic return (the interest rate on home bank deposits) equals the foreign interest rate plus the expected rate of depreciation of the home currency. However, an important extension of UIP needs to be made when additional risks affect home bank deposits: a risk premium is then added to the foreign interest rate to compensate investors for the perceived risk of holding a home domestic currency deposit. This perceived risk is due to an aversion to exchange rate risk or a concern about default risk:
 
-$$ i = i ^ {*} + \underbrace {\frac {\Delta E _ {\text {p e s o} / \mathbb {S}} ^ {e}}{E _ {\text {p e s o} / \mathbb {S}}} + \left[ \begin{array}{c} \text {E x c h a n g e r a t e} \\ \text {r i s k p r e m i u m} \end{array} \right] + \left[ \begin{array}{c} \text {D e f a u l t} \\ \text {r i s k p r e m i u m} \end{array} \right]} _ {\substack {\text {P e s o} \\ \text {i n t e r s t} \\ \text {r a t e}}} + \underbrace {\text {E x p e c t e d r a t e o f}} _ {\substack {\text {D o d d a r} \\ \text {i n t e r s t} \\ \text {r a t e}}}
+$$ i = i^{*} + \underbrace {\frac{\Delta E_{\text{pe so} / \mathbb {S}}^{e}}{E_{\text{pe so} / \mathbb {S}}} + \left[ \begin{array}{c} \text{Ex ch an ge ra te} \\ \text{ri sk pr em iu m} \end{array} \right] + \left[ \begin{array}{c} \text{De fa ul t} \\ \text{ri sk pr em iu m} \end{array} \right]}_{\substack {\text{Pe so} \\ \text{in te rs t} \\ \text{ra te}}} + \underbrace {\text{Ex pe ct ed ra te of}}_{\substack {\text{Do dd ar} \\ \text{in te rs t} \\ \text{ra te}}}
 $$
 
 The left-hand side is still the domestic return, but the right-hand side is now a risk-adjusted foreign return. The final three terms are the difference between home and foreign interest rates, and their sum total is known as the interest rate spread. What causes these spreads?
@@ -15512,7 +15512,7 @@ The left-hand side is still the domestic return, but the right-hand side is now 
 The first part of the interest rate spread is the currency premium:
 
 $$
-\text {C u r r e n c y p r e m i u m} = \frac {\Delta E _ {\text {p e s o / S}} ^ {e}}{E _ {\text {p e s o / S}}} + \left[ \begin{array}{c} \text {E x c h a n g e r a t e} \\ \text {r i s k p r e m i u m} \end{array} \right]
+\text{Cu rr en cy pr em iu m} = \frac{\Delta E_{\text{pe so /S}}^{e}}{E_{\text{pe so /S}}} + \left[ \begin{array}{c} \text{Ex ch an ge ra te} \\ \text{ri sk pr em iu m} \end{array} \right]
 $$
 
 The currency premium should be zero for a credibly pegged exchange rate: the peso is not expected to change in value relative to the dollar. But if a peg is not credible, and investors suspect that the peg may break, there could be a premium reflecting both the size of the expected depreciation and the currency's perceived riskiness. The currency premium therefore reflects the credibility of monetary policy.
@@ -15520,7 +15520,7 @@ The currency premium should be zero for a credibly pegged exchange rate: the pes
 The second part of the interest rate spread is known as the country premium:
 
 $$
-\text {C o u n t r y p r e m i u m} = \left[ \begin{array}{c} \text {D e f a u l t} \\ \text {r i s k p r e m i u m} \end{array} \right]
+\text{Co un tr yp re mi um} = \left[ \begin{array}{c} \text{De fa ul t} \\ \text{ri sk pr em iu m} \end{array} \right]
 $$
 
 The country premium is compensation for perceived default risk (settlement or counterparty risk). It will be greater than zero if investors suspect a risk of losses when they attempt to convert a home (peso) asset back to foreign currency (dollars) in the future. Such a loss might occur because of expropriation, bank failure, surprise taxation, delays, capital controls, other regulations, and so on. The country premium therefore reflects the credibility of property rights.
@@ -15904,7 +15904,7 @@ $\Delta i = \mu$ , so the proportional fall in money demand is given by  $\phi$ 
 But we also know that the change in the money supply at the moment of attack  $-\Delta M$  has to correspond exactly to the size of the reserve drain at the moment of attack, which equals the critical level of reserves  $R_{c}$  that are lost at that instant. Thus,
 
 $$
-\begin{array}{c c} \frac {R _ {c}}{M} = & \frac {- \Delta M}{M} \\ \text {C r i t i c a l b a c k i n g r a t i o} & \\ \text {w h e n a c t a c k o c c u r s} & \end{array} \qquad \begin{array}{c c} = & \underbrace {\phi} _ {\text {R e s p o n s i v e n e s s}} \times \\ & \text {o f m o n e y d e m a n d} \\ & \text {t o i n t e r i s t r a t e c h a n g e s} \end{array} \qquad \begin{array}{c c} \underset {\text {F u t u r e}} {\mu} \\ \text {r a t e o f g r o w t h o f} \\ \text {d o m e s t i c c r e d i t} \end{array}
+\begin{array}{c c} \frac{R_{c}}{M} = & \frac{- \Delta M}{M} \\ \text{Cr it ic al ba ck in gr at io} & \\ \text{wh en ac ta ck oc cu rs} & \end{array} \qquad \begin{array}{c c} = & \underbrace {\phi}_{\text{Re sp on si ve ne ss}} \times \\ & \text{of mo ne yd em an d} \\ & \text{to in te ri st ra te ch an ge s} \end{array} \qquad \begin{array}{c c} \underset {\text{Fu tu re}} {\mu} \\ \text{ra te of gr ow th of} \\ \text{do me st ic cr ed it} \end{array}
 $$
 
 This expression tells us the ratio of the critical level of reserves  $R_{c}$  to the money supply  $M$ . It depends on the sensitivity of money demand to the interest rate and on the expected future rate of growth of domestic credit  $\mu$  (remember, investors are forward-looking).
@@ -17043,7 +17043,7 @@ As we have just seen, arbitrage from Home to Foreign is profitable only if the F
 Thus, if  $q$  is below  $1 + c$ , there will be no arbitrage from Home to Foreign. And if  $q$  is above  $1 / (1 + c)$ , there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is
 
 $$
-\frac {1}{1 + c} \leq \underbrace {\frac {E P ^ {*}}{P}} _ {\leq 1 + c}
+\frac{1}{1 + c} \leq \underbrace {\frac{E P^{*}}{P}}_{\leq 1 + c}
 $$
 
 Real exchange rate  $q$
@@ -17130,21 +17130,21 @@ A Simple Model The model can be solved in three steps, with assumptions as follo
 
 1. The traded good has the same price in both countries. This is true because trade costs are zero. For simplicity, we assume that the traded good has a price of 1 when measured in Home currency (say, dollars). This is its price in Home and Foreign, so
 
-$$ p _ {T} = 1 \quad E p _ {T} ^ {*} = 1
+$$ p_{T} = 1 \quad E p_{T}^{*} = 1
 $$
 
 In our example, the DVD player sells for 1 everywhere.
 
 2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $A because each unit of the good sells for \$1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $A*. Thus, wage levels in each country are equal to productivity levels:
 
-$$ w = A \quad E w ^ {*} = A ^ {*}
+$$ w = A \quad E w^{*} = A^{*}
 $$
 
 In our example, if Home workers make ten \$1 DVD players per hour, their hourly wage is \$10 per hour. If Foreign workers make only five per hour, their hourly wage is 5.
 
 3. Wages determine the prices of nontraded goods. Crucially, we assume that the level of productivity in nontraded goods is a fixed constant, the same everywhere, equal to 1. In our example, it always takes one hour to get a haircut in Home and Foreign, but with the wages given previously, this means the cost of a haircut will equal exactly one hour of labor. In general, the dollar price of the nontraded good in each country equals the wage, so  $p_N = w$  and  $E p_N^* = E w^*$ . Because these wages are given by productivity (as we saw in the second step),
 
-$$ p _ {N} = A \quad E p _ {N} ^ {*} = A ^ {*}
+$$ p_{N} = A \quad E p_{N}^{*} = A^{*}
 $$
 
 To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  \$10 and\$ 5, respectively, and Home haircuts will cost \$10 and Foreign haircuts \$5.
@@ -17154,13 +17154,13 @@ The conclusion from these three assumptions? Countries with higher traded goods 
 Changes in Productivity Now suppose Home productivity  $A$  increases, with the proportional change given by  $\Delta A / A$ . What happens to the Home price level? The price of traded goods is unchanged and stays at 1, but the price of nontraded goods is equal to  $A$  and it rises. Taking the weighted average, we can compute the (percentage) change in the Home price level as
 
 $$
-\underbrace {\frac {\Delta P}{P}} _ {\text {C h a n g e i n} \quad \text {H o m e p r i c e l e v e l}} = \underbrace {(1 - n)} _ {\text {S h a r e o f}} \times \underbrace {\left(\frac {\Delta p _ {T}}{p _ {T}}\right)} _ {\text {C h a n g e i n} \quad \text {H o m e t r a d e d g o o d s p r i c e}} + \underbrace {n} _ {\text {S h a r e o f}} \times \underbrace {\left(\frac {\Delta p _ {N}}{p _ {N}}\right)} _ {\text {N o n t r a d e d g o o d s}} = n \frac {\Delta A}{A}
+\underbrace {\frac{\Delta P}{P}}_{\text{Ch an ge in} \quad \text{Ho me pr ic el ev el}} = \underbrace {(1 - n)}_{\text{Sh ar eo f}} \times \underbrace {\left(\frac{\Delta p_{T}}{p_{T}}\right)}_{\text{Ch an ge in} \quad \text{Ho me tr ad ed go od sp ri ce}} + \underbrace {n}_{\text{Sh ar eo f}} \times \underbrace {\left(\frac{\Delta p_{N}}{p_{N}}\right)}_{\text{No nt ra de dg oo ds}} = n \frac{\Delta A}{A}
 $$
 
 By the same logic, the same is true for Foreign: a change in its dollar price level will result from a change in foreign productivity:
 
 $$
-\underbrace {\frac {\Delta (E P ^ {*})}{(E P ^ {*})}} _ {\text {C h a n g e i n}} = \underbrace {(1 - n)} _ {\text {T r a d e d g o o s}} \times \underbrace {\left(\frac {\Delta (E p _ {T} ^ {*})}{(E p _ {T} ^ {*})}\right)} _ {\text {C h a n g e i n}} + \underbrace {n} _ {\text {S h a r e o f}} \times \underbrace {\frac {\Delta (E p _ {N} ^ {*})}{(E p _ {N} ^ {*})}} _ {\text {N o n t r a d e d g o o s}} = n \frac {\Delta A ^ {*}}{A ^ {*}}
+\underbrace {\frac{\Delta (E P^{*})}{(E P^{*})}}_{\text{Ch an ge in}} = \underbrace {(1 - n)}_{\text{Tr ad ed go os}} \times \underbrace {\left(\frac{\Delta (E p_{T}^{*})}{(E p_{T}^{*})}\right)}_{\text{Ch an ge in}} + \underbrace {n}_{\text{Sh ar eo f}} \times \underbrace {\frac{\Delta (E p_{N}^{*})}{(E p_{N}^{*})}}_{\text{No nt ra de dg oo s}} = n \frac{\Delta A^{*}}{A^{*}}
 $$
 
 The last two equations are intuitive. For our example, a  $1\%$  rise in Home DVD player productivity  $A$  will raise Home wages  $w$  by  $1\%$ ; therefore, Home haircut prices rise  $1\%$  and, because these haircuts have a weight  $n < 1$  in the overall basket, the overall price index rises by  $n\%$ .
@@ -17168,7 +17168,7 @@ The last two equations are intuitive. For our example, a  $1\%$  rise in Home DV
 By putting together these last two results, we can solve for the change in the real exchange rate  $q$ . Recall that  $q$  is equal to  $EP^{*} / P$ , so the percentage change in  $q$  is given by the percentage change in the numerator  $EP^{*}$  minus the percentage change in the denominator  $P$ . But we have just computed those changes in the last two equations. Hence, subtracting the first equation above from the second, the change in the real exchange rate is given by
 
 $$
-\underbrace {\frac {\Delta q}{q}} _ {\substack {\text {Change in} \\ \text {real exchange rate} \\ (\text {Foreign price level} E P ^ {*} \\ \text {relative to Home} P)}} = \underbrace {n} _ {\substack {\text {Share of} \\ \text {nontraded goods}}} \times \underbrace {\left(\frac {\Delta A ^ {*}}{A ^ {*}} - \frac {\Delta A}{A}\right)} _ {\substack {\text {Change in} \\ \text {Foreign traded} \\ \text {productivity level} \\ \text {relative to Home}}} \tag{22 - 1}
+\underbrace {\frac{\Delta q}{q}}_{\substack {\text{Changein} \\ \text{realexchangerate} \\ (\text{Foreignpricelevel} E P^{*} \\ \text{relativetoHome} P)}} = \underbrace {n}_{\substack {\text{Shareof} \\ \text{nontradedgoods}}} \times \underbrace {\left(\frac{\Delta A^{*}}{A^{*}} - \frac{\Delta A}{A}\right)}_{\substack {\text{Changein} \\ \text{Foreigntraded} \\ \text{productivitylevel} \\ \text{relativetoHome}}} \tag{22 - 1}
 $$
 
 Thus, relative productivities in the traded goods sector drive relative prices, through their effects on wages and prices in the nontraded sector.
@@ -17214,7 +17214,7 @@ By definition, the real exchange rate is  $q = EP^{*} / P$ ; by rearranging, we 
 When PPP doesn't bold, however, we have to worry about possible changes in  $q$ . Since  $E = qP / P^{*}$ , then taking rates of change, we find
 
 $$
-\underbrace {\frac {\Delta E}{E}} _ {\text {R a t e o f}} = \underbrace {\frac {\Delta q}{q}} _ {\text {R a t e o f}} + \underbrace {\left(\frac {\Delta P}{P} - \frac {\Delta P ^ {*}}{P ^ {*}}\right)} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \tag {22-2}
+\underbrace {\frac{\Delta E}{E}}_{\text{Ra te of}} = \underbrace {\frac{\Delta q}{q}}_{\text{Ra te of}} + \underbrace {\left(\frac{\Delta P}{P} - \frac{\Delta P^{*}}{P^{*}}\right)}_{\text{In fl at io nd if fe re nt ia l}} \tag {22-2}
 $$
 
 In the long-run exchange rates chapter, we saw a simpler version of this expression: PPP forced  $q$  to be constant and equal to 1, and the first term on the right vanished. We were left with a result, known as relative PPP, which says that changes in nominal exchange rates depend on inflation differentials alone. Taken literally, forecasters can then focus just on inflation forecasts.
@@ -17268,7 +17268,7 @@ For such an important foundation of exchange rate theory, however, UIP remains s
 Uncovered interest parity (UIP) implies that the home interest rate should equal the foreign interest rate plus the rate of depreciation of the home currency. If UIP holds, it would seem to rule out the naive strategy of borrowing in a low interest rate currency and investing in a high interest rate currency, an investment referred to as a carry trade. In other words, UIP implies that the expected profit from such a trade is zero:
 
 $$
-\text {E x p e c t e d} = \underbrace {i _ {F}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n f o r g i n c u r r e n c y}}} + \underbrace {\frac {\Delta E _ {H / F} ^ {e}}{E _ {H / F}}} _ {\substack {\text {E x p e c t e d r a t e o f d e p r e c i a t i o n} \\ \text {o f t h e h o m e c u r r e n c y}}} - \underbrace {i _ {H}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n h o m e c u r r e n c y} \\ \text {C o s t o f c a r r y}}} \tag{22-3}
+\text{Ex pe ct ed} = \underbrace {i_{F}}_{\substack {\text{In te rs tr at e} \\ \text{on fo rg in cu rr en cy}}} + \underbrace {\frac{\Delta E_{H / F}^{e}}{E_{H / F}}}_{\substack {\text{Ex pe ct ed ra te of de pr ec ia ti on} \\ \text{of th eh om ec ur re nc y}}} - \underbrace {i_{H}}_{\substack {\text{In te rs tr at e} \\ \text{on ho me cu rr en cy} \\ \text{Co st of ca rr y}}} \tag{22-3}
 $$
 
 From the home perspective, the return to an investment in the foreign currency (the foreign return) consists of the first two terms on the right-hand side of the preceding equation. Let's suppose the foreign currency (that of Australia, say) has a high interest rate of  $6\%$ . Now suppose the home country (Japan, say) has a low interest rate of  $1\%$ . The final term in the preceding equation is the cost of borrowing funds in local currency (Japanese yen) or, in financial jargon, the cost of carry. The interest rate differential,  $5\%$ , would be the profit on the carry trade if the exchange rate remained unchanged. If UIP is true, however, it would be pointless to engage in such arbitrage because the low-yield currency (the yen) would be expected to appreciate by  $5\%$  against the high-yield currency (the Australian dollar). The exchange rate term would be  $-5\%$ , leaving zero expected profit.
@@ -17406,7 +17406,7 @@ Peso problems: a man hammers on the door of a bank in a protest over frozen acco
 Do carry trade profits disprove UIP? To explore this question further, let us rewrite Equation (22-3), which calculates expected profits, by replacing expected or ex ante values of the exchange rate with actual or ex post realized values.
 
 $$
-\text {A c t u a l p r o f i t} = \underbrace {i _ {F}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n f o r g i n c u r r e n c y}}} + \underbrace {\frac {\Delta E _ {H / F}}{E _ {H / F}}} _ {\substack {\text {A c t u a l r a t e o f d e p r e c i a t i o n} \\ \text {o f t h e h o m e c u r r e n c y}}} - \underbrace {i _ {H}} _ {\substack {\text {I n t e r s t r a t e} \\ \text {o n h o m e c u r r e n c y}}} (2 2 - 4)
+\text{Ac tu al pr of it} = \underbrace {i_{F}}_{\substack {\text{In te rs tr at e} \\ \text{on fo rg in cu rr en cy}}} + \underbrace {\frac{\Delta E_{H / F}}{E_{H / F}}}_{\substack {\text{Ac tu al ra te of de pr ec ia ti on} \\ \text{of th eh om ec ur re nc y}}} - \underbrace {i_{H}}_{\substack {\text{In te rs tr at e} \\ \text{on ho me cu rr en cy}}} (2 2 - 4)
 $$
 
 Note the one subtle difference: the disappearance of the superscript " $e,$ " which denoted expectations of future exchange rate depreciation. This expression can be computed only after the fact: although interest rates are known in advance, the future exchange rate is not. We know actual profits only after the investment strategy has run its course.
@@ -17414,7 +17414,7 @@ Note the one subtle difference: the disappearance of the superscript " $e,$ " wh
 Thus, the sole difference between actual and expected profits is a forecast error that corresponds to the difference between actual depreciation and expected depreciation. (Again, the importance of exchange rate forecasts is revealed!) This forecast error is the difference between Equation (22-3) and Equation (22-4), that is,
 
 $$
-\text {F o r e c a s t} = \binom {\text {A c t u a l}} {\text {p r o f i t}} - \binom {\text {E x p e c t e d}} {\text {p r o f i t}} = \frac {\Delta E _ {H / F}}{E _ {H / F}} - \frac {\Delta E _ {H / F} ^ {e}}{E _ {H / F}} \tag {22-5}
+\text{Fo re ca st} = \binom {\text{Ac tu al}} {\text{pr of it}} - \binom {\text{Ex pe ct ed}} {\text{pr of it}} = \frac{\Delta E_{H / F}}{E_{H / F}} - \frac{\Delta E_{H / F}^{e}}{E_{H / F}} \tag {22-5}
 $$
 
 Armed with this way of understanding unexpected profits, we can now confront an important and controversial puzzle in international macroeconomics: What can the behavior of this forecast error tell us about UIP and the workings of the forex market? One way to attack that question is to study expected and actual profits side by side to see the size of the forecast error and its pattern of behavior.
@@ -17482,7 +17482,7 @@ The Sharpe Ratio and Puzzles in Finance Carry trade profits are the difference b
 The Sharpe ratio is the ratio of an asset's average annualized excess return to the annualized standard deviation of its return:
 
 $$
-\text {S h a r p e} = \frac {\text {M e a n (a n n u a l e x c e s s r e t u r n)}}{\text {S t a n d a r d d e v i a t i o n (a n n u a l e x c e s s r e t u r n)}}
+\text{Sh ar pe} = \frac{\text{Me an (an nu al ex ce ss re tu rn)}}{\text{St an da rd de vi at io n (an nu al ex ce ss re tu rn)}}
 $$
 
 The ratio was invented by William Forsyth Sharpe, a Nobel laureate in economics. As a ratio of "rewards to variability," the Sharpe ratio tells us how much the returns on an asset compensate investors for the risks they take when investing in it.
@@ -17592,7 +17592,7 @@ The Borrower Chooses Default Versus Repayment We assume the sovereign borrower f
 Now that we have established some costs of defaulting, the choice facing the country becomes clearer. For simplicity, we assume two possible courses of action: repay or default.[23] If the government repays the debt, the country will be able to consume only output  $Y$  minus the principal and interest on the loan  $(1 + r_L)L$ . If the government defaults, the country can consume output  $Y$  minus the punishment  $cY$ . Thus, the government will act as follows:
 
 $$
-\text {R e p a y i f} \underbrace {Y - (1 + r _ {L}) L} _ {\text {C o n s u m p t i o n a f t e r}} \quad > \underbrace {Y - c Y} _ {\text {C o n s u m p t i o n a f t e r n o n r e p a y m e n t}}
+\text{Re pa yi f} \underbrace {Y - (1 + r_{L}) L}_{\text{Co ns um pt io na ft er}} \quad > \underbrace {Y - c Y}_{\text{Co ns um pt io na ft er no nr ep ay me nt}}
 $$
 
 Figure 22-8 plots both sides of this inequality against  $Y$  for the case in which both repayment and default will occur within the range of possible output levels between maximum output  $\overline{Y}$  and minimum output  $\overline{Y} - V$ . At some critical level of output, called the repayment threshold, the government will switch from repayment to default. At this critical level, the two sides of the preceding inequality have to be equal; that is, the debt payoff amount  $(1 + r_L)L$  must equal the punishment cost  $cY$ .
@@ -17600,13 +17600,13 @@ Figure 22-8 plots both sides of this inequality against  $Y$  for the case in wh
 By rearranging the preceding inequality, we can find the level of  $Y$  at the repayment threshold  $Y_{T}$  and can restate the government's choice as
 
 $$
-\text {R e p a y i f} \quad Y \geq \underbrace {(1 + r _ {L}) L} _ {c}
+\text{Re pa yi f} \quad Y \geq \underbrace {(1 + r_{L}) L}_{c}
 $$
 
 Repayment threshold
 
 $$
-\overline {{\bar {Y}}} _ {T}
+\overline {{\bar {Y}}}_{T}
 $$
 
 For the case shown in Figure 22-8, we assume that this repayment threshold,  $Y_{T} = (1 + r_{L})L / c$ , is within the range of possible outputs between the minimum  $\overline{Y} - V$  and the maximum  $\overline{Y}$ .
@@ -17662,7 +17662,7 @@ To sum up, a rise in volatility lowers the level of debt  $L$  at which default 
 The Lender Chooses the Lending Rate All of the preceding results assume a given interest rate on the loan. But now that we know how the likely probability of repayment  $p$  is determined, we can calculate the interest rate that a competitive lender must charge. Competition will mean that lenders can only just break even and make zero expected profit. Thus, the lender will set its lending rate so that the expected revenues from each dollar lent, given by the probability of repayment  $p$  times the amount repaid  $(1 + r_L)$ , equal the lender's cost for each dollar lent, which is given by  $(1 + r)$ , the principal plus the risk-free interest rate at which the lender can obtain funds.
 
 $$
-\text {B r e a k - e v e n c o n d i t i o n f o r l e n d e r :} \underbrace {p} _ {\substack {\text {P r o b a b i l i t y} \quad \text {L e n d e r s r e v e n u e} \\ \text {o f r e p a y m e n t} \quad \text {i f r e p a i d}}} \underbrace {(1 + r _ {L})} _ {\substack {\text {L e n d e r s c o s t s} \quad \text {L e n d e r s c o s t s}}} = \underbrace {(1 + r)} _ {\substack {\text {L e n d e r s c o s t s}}}
+\text{Br ea k -e ve nc on di ti on fo rl en de r :} \underbrace {p}_{\substack {\text{Pr ob ab il it y} \quad \text{Le nd er sr ev en ue} \\ \text{of re pa ym en t} \quad \text{if re pa id}}} \underbrace {(1 + r_{L})}_{\substack {\text{Le nd er sc os ts} \quad \text{Le nd er sc os ts}}} = \underbrace {(1 + r)}_{\substack {\text{Le nd er sc os ts}}}
 $$
 
 What do we learn from this expression? The right-hand side is a constant, determined by the world risk-free rate of interest  $r$ . Thus, the left-hand side must be constant, too. If  $p$  were 1 (100\% probability of repayment), the solution would be straightforward: with no risk of default and competitive lenders, the borrower will rightly obtain a lending rate equal to the risk-free rate  $r$ . But as the probability of repayment  $p$  falls, to keep the left-hand side constant, the lenders must raise the lending rate  $r_L$ . That is, to compensate for the default risk, the lenders charge a risk premium so that they still just break even.

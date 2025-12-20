@@ -100,7 +100,7 @@ Labor Intensity of Each Industry The demand for labor relative to capital is ass
 Foreign lao abondant
 
 $$
-\frac {l ^ {*}}{k ^ {*}} > \frac {l}{k}
+\frac{l^{*}}{k^{*}} > \frac{l}{k}
 $$
 
 Assumption 3: Foreign is labor-abundant, by which we mean that the labor-capital ratio in Foreign exceeds that in Home,  $\overline{L}^{*} / \overline{K}^{*} > \overline{L} / \overline{K}$ . Equivalently, Home is capital-abundant, so that  $\overline{K} / \overline{L} > \overline{K}^{*} / \overline{L}^{*}$ .
@@ -443,7 +443,7 @@ Economy-Wide Relative Demand for Labor To derive an economy-wide relative demand
 
 $$
 
-\underbrace{\frac{\overline{L}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)} _ {\substack{\text{Relative}\\ \text{demand}}}
+\underbrace{\frac{\overline{L}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)}_{\substack{\text{Relative}\\ \text{demand}}}
 
 $$
 
@@ -492,7 +492,7 @@ Change in the Real Rental Because the labor-capital ratio increases in both indu
 
 $$
 
-R = P _ {C} \cdot M P K _ {C} \text {a n d} R = P _ {S} \cdot M P K _ {S}
+R = P_{C} \cdot M P K_{C} \text{an d} R = P_{S} \cdot M P K_{S}
 
 $$
 
@@ -500,7 +500,7 @@ Because capital can move freely between industries in the long run, the rental o
 
 $$
 
-M P K _ {C} = R / P _ {C} \uparrow \text {a n d} M P K _ {S} = R / P _ {S} \uparrow
+M P K_{C} = R / P_{C} \uparrow \text{an d} M P K_{S} = R / P_{S} \uparrow
 
 $$
 
@@ -510,7 +510,7 @@ Change in the Real Wage To understand what happens to the real wage when the rel
 
 $$
 
-W = P _ {C} \cdot M P L _ {C} \text {a n d} W = P _ {S} \cdot M P L _ {S}
+W = P_{C} \cdot M P L_{C} \text{an d} W = P_{S} \cdot M P L_{S}
 
 $$
 
@@ -518,7 +518,7 @@ Using the result that the marginal product of labor falls in both industries, we
 
 $$
 
-M P L _ {C} = W / P _ {C} \downarrow \text {a n d} M P L _ {S} = W / P _ {S} \downarrow
+M P L_{C} = W / P_{C} \downarrow \text{an d} M P L_{S} = W / P_{S} \downarrow
 
 $$
 
@@ -559,13 +559,13 @@ Our goal is to see how the increase in the relative price of computers translate
 
 $$
 
-R = \frac {P _ {C} \cdot Q _ {C} - W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+R = \frac{P_{C} \cdot Q_{C} - W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-R = \frac {P _ {S} \cdot Q _ {S} - W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+R = \frac{P_{S} \cdot Q_{S} - W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $$
 
@@ -573,13 +573,13 @@ The price of computers has risen, so  $\Delta P_{C} > 0$ , holding fixed the pri
 
 $$
 
-\Delta R = \frac {\Delta P _ {C} \cdot Q _ {C} - \Delta W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+\Delta R = \frac{\Delta P_{C} \cdot Q_{C} - \Delta W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-\Delta R = \frac {0 \cdot Q _ {C} - \Delta W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+\Delta R = \frac{0 \cdot Q_{C} - \Delta W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $$
 
@@ -587,13 +587,13 @@ It is convenient to work with percentage changes in the variables. For computers
 
 $$
 
-\frac {\Delta R}{R} = \left(\frac {\Delta P _ {C}}{P _ {C}}\right) \left(\frac {P _ {C} \cdot Q _ {C}}{R \cdot K _ {C}}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {C}}{R \cdot K _ {C}}\right), \text {f o r c o m p u t e r s}
+\frac{\Delta R}{R} = \left(\frac{\Delta P_{C}}{P_{C}}\right) \left(\frac{P_{C} \cdot Q_{C}}{R \cdot K_{C}}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{C}}{R \cdot K_{C}}\right), \text{fo rc om pu te rs}
 
 $$
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {S}}{R \cdot K _ {S}}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{S}}{R \cdot K_{S}}\right), \text{fo rs ho es}
 
 $$
 
@@ -601,13 +601,13 @@ $$
 
 $$
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $$
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {6 0}{4 0}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{6 0}{4 0}\right), \text{fo rs ho es}
 
 $$
 
@@ -615,7 +615,7 @@ Our goal is to find out by how much rental and wage change given changes in the 
 
 $$
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $$
 
@@ -623,7 +623,7 @@ Minus:  $\frac{\Delta R}{R} = 0 - \left(\frac{\Delta W}{W}\right)\left(\frac{60}
 
 $$
 
-\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac {100}{50}\right) + \left(\frac {\Delta W}{W}\right) \left(\frac {20}{40}\right)
+\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac{100}{50}\right) + \left(\frac{\Delta W}{W}\right) \left(\frac{20}{40}\right)
 
 $$
 
@@ -631,7 +631,7 @@ Simplifying the last line, we get  $0 = 20\% + \left(\frac{\Delta W}{W}\right)\l
 
 $$
 
-\left(\frac {\Delta W}{W}\right) = \left(\frac {- 20 \%}{\frac {1}{2}}\right) = - 40 \%, \text {is the change in wages}
+\left(\frac{\Delta W}{W}\right) = \left(\frac{- 20 \%}{\frac{1}{2}}\right) = - 40 \%, \text{isthechangeinwages}
 
 $$
 
@@ -641,7 +641,7 @@ To find the change in the rental paid to capital  $(\Delta R / R)$ , we can take
 
 $$
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {60}{40}\right) = 40 \% \cdot \left(\frac {60}{40}\right) = 60 \%, \text {change in rental}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right) = 40 \% \cdot \left(\frac{60}{40}\right) = 60 \%, \text{changeinrental}
 
 $$
 
@@ -651,7 +651,7 @@ General Equation for the Long-Run Change in Factor Prices The long-run results o
 
 $$
 
-\underbrace {\Delta W / W <   0} _ {<   \Delta P _ {C} / P _ {C} <   \Delta R / R}, \text {f o r a n i n c r e a s e i n} P _ {C}
+\underbrace {\Delta W / W <   0}_{<   \Delta P_{C} / P_{C} <   \Delta R / R}, \text{fo ra ni nc re as ei n} P_{C}
 
 $$
 
@@ -663,7 +663,7 @@ That is, the increase in the price of computers (10\%) leads to an even larger i
 
 $$
 
-\underbrace {\Delta R / R <   \Delta P _ {C}} / \underbrace {P _ {C} <   0 <   \Delta W / W} _ {\text {f o r a n d e c r e a s e i n} P _ {C}}
+\underbrace {\Delta R / R <   \Delta P_{C}} / \underbrace {P_{C} <   0 <   \Delta W / W}_{\text{fo ra nd ec re as ei n} P_{C}}
 
 $$
 
@@ -675,7 +675,7 @@ What happens if the relative price of shoes increases? From the Stolper-Samuelso
 
 $$
 
-\underline {{\Delta R / R <   0}} \underline {{<   \Delta P _ {S} / P _ {S} <   \Delta W / W}}, \text {f o r a n i n c r e a s e i n} P _ {S}
+\underline {{\Delta R / R <   0}} \underline {{<   \Delta P_{S} / P_{S} <   \Delta W / W}}, \text{fo ra ni nc re as ei n} P_{S}
 
 $$
 

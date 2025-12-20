@@ -30,7 +30,7 @@ Suppose that we have a sample of  $n$  daily VaR forecasts  $\mathrm{VaR}_t$  an
 
 Some common approaches to back-testing involve exceedance observations, where an exceedance observation (also called a tail loss) is a loss that exceeds the VaR. These exceedance observations  $h_t$  are obtained by putting our sample observations through the following transformation:
 
-$$ h _ {t} = \left\{ \begin{array}{l} 1 \\ 0 \end{array} \right\} \quad \text {i f} \quad \left\{ \begin{array}{l} L _ {t} > V a R _ {t} \\ L _ {t} \leq V a R _ {t} \end{array} \right. \tag {1}
+$$ h_{t} = \left\{ \begin{array}{l} 1 \\ 0 \end{array} \right\} \quad \text{if } \quad \left\{ \begin{array}{l} L_{t} > V a R_{t} \\ L_{t} \leq V a R_{t} \end{array} \right. \tag {1}
 $$
 
 This transformation gives a unit value to all observations where there is a loss exceeding VaR and a zero value to all other observations.
@@ -40,7 +40,7 @@ This transformation gives a unit value to all observations where there is a loss
 We can now apply the basic frequency (or binomial) test suggested by Kupiec (1995): We test whether the observed frequency of exceedances is consistent with the frequency predicted by the model. In particular, under the null hypothesis that the model is "good," the number of exceedances  $x$  follows a binomial distribution with probability  $p$ , where  $p$  is the tail probability or 1 minus the confidence level. The probability of  $x$  exceedances given  $n$  observations is therefore:
 
 $$
-\operatorname {P r o b} (x \mid n, p) = \binom {n} {x} p ^ {x} (1 - p) ^ {n - x} \tag {2}
+\operatorname{Pr ob} (x \mid n, p) = \binom {n} {x} p^{x} (1 - p)^{n - x} \tag {2}
 $$
 
 Equation (2) also tells us that the only information required to implement a binomial test is information about the values of  $n, p,$  and  $x$ . This probability is then calculated using a suitable calculation engine (e.g., using the "binomdist" function in Excel).
@@ -62,11 +62,11 @@ Besides predicting that  $x$  should be binomial or approximately normal with la
 One of the simplest independence tests is a runs test, in which we test whether the number of runs in a time series is consistent with what we would expect under independence. We can apply a runs test to any data that are time-ordered and expressed in binary form, as is the case with observations in our  $x$  series that either take the value 0 or the value 1. A run is then a sequence of consecutive identical numbers, and the number of runs  $R$  is equal to the number of sign changes plus 1. If  $u$  is the number of observations taking one value and  $v$  the number taking the other value, then under the independence null the mean and variance of the number of runs are, respectively:
 
 $$
-\mu_ {R} = 1 + \frac {2 u v}{u + v} \tag {3}
+\mu_{R} = 1 + \frac{2 u v}{u + v} \tag {3}
 $$
 
 $$
-\sigma_ {R} ^ {2} = \frac {2 u v (2 u v - u - v)}{(u + v) ^ {2} (u + v - 1)} \tag {4}
+\sigma_{R}^{2} = \frac{2 u v (2 u v - u - v)}{(u + v)^{2} (u + v - 1)} \tag {4}
 $$
 
 If the total number of observations is large, then  $R$  is approximately normal and  $z = (R - \mu_R) / \sigma_R$  approximately standard normal, and we can test accordingly.
@@ -80,25 +80,25 @@ We can also carry out tests of the distribution and independence of  $x$  within
 Given that the observed frequency of exceedances is  $x / n$ , then under the hypothesis/ prediction of correct unconditional coverage, the test statistic
 
 $$
-\begin{array}{l} L R _ {u c} = - 2 \ln [ (1 - p) ^ {n - x} p ^ {x} ] \tag {5} \\ + 2 \ln [ (1 - x / n) ^ {n - x} (x / n) ^ {x} ] \\ \end{array}
+\begin{array}{l} L R_{u c} = - 2 \ln [ (1 - p)^{n - x} p^{x} ] \tag {5} \\ + 2 \ln [ (1 - x / n)^{n - x} (x / n)^{x} ] \\ \end{array}
 $$ is distributed as a  $\chi^2 (1)$ , a chi-squared with 1 degree of freedom. As we can see from equation (5), this boils down to a test of whether the empirical frequency  $x / n$  is "close" to the predicted frequency  $p$ .
 
 
 Turning to the independence prediction, let  $n_{ij}$  be the number of days that state  $j$  occurred after state  $i$  occurred the previous day, where the states refer to the occurrence or not of an exceedance, and let  $\pi_{ij}$  be the probability of state  $j$  in any given day, given that the previous day's state was  $i$ . Under the hypothesis of independence, the test statistic
 
 $$
-\begin{array}{l} L R _ {i n d} = - 2 \ln \left[ (1 - \hat {\pi} _ {2}) ^ {n _ {0 0} + n _ {1 1}} \hat {\pi} _ {2} ^ {n _ {0 1} + n _ {1 1}} \right] \\ + 2 \ln \left[ (1 - \hat {\pi} _ {0 1}) ^ {n _ {0 0}} \hat {\pi} _ {0 1} ^ {n _ {0 1}} (1 - \hat {\pi} _ {1 1}) ^ {n _ {1 0}} \pi_ {1 1} ^ {n _ {1 1}} \right] \tag {6} \\ \end{array}
+\begin{array}{l} L R_{i n d} = - 2 \ln \left[ (1 - \hat {\pi}_{2})^{n_{0 0} + n_{1 1}} \hat {\pi}_{2}^{n_{0 1} + n_{1 1}} \right] \\ + 2 \ln \left[ (1 - \hat {\pi}_{0 1})^{n_{0 0}} \hat {\pi}_{0 1}^{n_{0 1}} (1 - \hat {\pi}_{1 1})^{n_{1 0}} \pi_{1 1}^{n_{1 1}} \right] \tag {6} \\ \end{array}
 $$ is also distributed as a  $\chi^2 (1)$ , and note that we can recover estimates of the probabilities from
 
 
 $$
-\begin{array}{l} \hat {\pi} _ {0 1} = \frac {n _ {0 1}}{n _ {0 0} + n _ {0 1}} \\ \hat {\pi} _ {1 1} = \frac {n _ {1 1}}{n _ {1 0} + n _ {1 1}} \tag {7} \\ \hat {\pi} _ {2} = \frac {n _ {0 1} + n _ {1 1}}{n _ {0 0} + n _ {1 0} + n _ {0 1} + n _ {1 1}} \\ \end{array}
+\begin{array}{l} \hat {\pi}_{0 1} = \frac{n_{0 1}}{n_{0 0} + n_{0 1}} \\ \hat {\pi}_{1 1} = \frac{n_{1 1}}{n_{1 0} + n_{1 1}} \tag {7} \\ \hat {\pi}_{2} = \frac{n_{0 1} + n_{1 1}}{n_{0 0} + n_{1 0} + n_{0 1} + n_{1 1}} \\ \end{array}
 $$
 
 It follows that under the combined hypothesis of correct coverage and independence the test statistic
 
 $$
-L R _ {c c} = L R _ {u c} + L R _ {i n d} \tag {8}
+L R_{c c} = L R_{u c} + L R_{i n d} \tag {8}
 $$ is distributed as  $\chi^2 (2)$ . The Christoffersen approach enables us to test both coverage and independence hypotheses at the same time. Moreover, if the model fails such a test, this approach enables us to test each hypothesis separately, and so establish whether the model fails because of incorrect coverage or because of lack of independence.
 
 
@@ -113,7 +113,7 @@ These exceedance tests have the advantages that they have a simple intuition, ar
 This line of reasoning suggests that we should consider back-testing the performance of a model's VaR forecasts over multiple confidence levels. Indeed, pushed to the limit, it suggests that we consider back-testing a model's VaR forecasts over all confidence levels at the same time. We would proceed by applying the following transformation:
 
 
-$$ p _ {t} = F _ {t} \left(X _ {t}\right) \tag {9}
+$$ p_{t} = F_{t} \left(X_{t}\right) \tag {9}
 $$ where  $F_{t}(.)$  is the (typically time-dependent) probability-integral transformation (PIT) that maps the realized one-day loss or profit,  $X_{t}$ , to its cumulative density value, where the forecast is made the previous day. So, for example, if our model specifies that losses are standard normal, then a value  $X_{t} = 1.645$  would give us  $p_{t} = F_{t}(1.645) = 0.95$ , and so forth.
 
 
@@ -127,7 +127,7 @@ As an aside, it is worth noting at this point that the independence assumption d
 Returning to the one-step-ahead case, we can now test our model by applying conventional uniformity tests. One of the best known of these is the Kolmogorov-Smirnov (KS) test. The KS test statistic  $D$  is then the maximum distance between the predicted cumulative density  $F(x)$ , which is a 45-degree line, and the empirical cumulative density  $\hat{F}(x)$ , evaluated over each data point  $X_{t}$ :
 
 $$
-D = \max  _ {t} | F (X _ {t}) - \hat {F} (X _ {t}) | \tag {10}
+D = \max_{t} | F (X_{t}) - \hat {F} (X_{t}) | \tag {10}
 $$
 
 The test value of the KS statistic is then compared to the relevant critical value and the null is accepted or rejected accordingly. This test is easy to implement because the test statistic is straightforward to calculate and its critical values are easily obtained using Monte Carlo simulation. However, the KS test tends to be more sensitive to the distributional differences near the center of the distribution, and is less sensitive at the tails. This is obviously a drawback when back-testing VaR models, where we are usually much more interested in the tail than in the central mass of a distribution.
@@ -135,7 +135,7 @@ The test value of the KS statistic is then compared to the relevant critical val
 A way around this latter problem is to replace the KS test with a Kuiper test. The Kuiper test statistic  $D^{*}$  is the sum of the maximum amount by which each distribution exceeds the other:
 
 $$
-\begin{array}{l} D ^ {*} = \max  _ {t} \left| F \left(X _ {t}\right) - \hat {F} \left(X _ {t}\right) \right| \\ + \max  _ {t} \left| \hat {F} \left(X _ {t}\right) - F \left(X _ {t}\right) \right| \tag {11} \\ \end{array}
+\begin{array}{l} D^{*} = \max_{t} \left| F \left(X_{t}\right) - \hat {F} \left(X_{t}\right) \right| \\ + \max_{t} \left| \hat {F} \left(X_{t}\right) - F \left(X_{t}\right) \right| \tag {11} \\ \end{array}
 $$
 
 The Kuiper test can be implemented in much the same way as the KS test: Its test statistic is straightforward to calculate and its critical values can be obtained by Monte Carlo simulation. The Kuiper test has the advantage over the KS test that it is more sensitive to deviations in the tail regions. It is also believed to be more robust to transformations in the data, and to be good at detecting cyclical and other features in the data. However, there is also evidence that it is very data intensive and needs large datasets to get reliable results.
@@ -144,7 +144,7 @@ The Kuiper test can be implemented in much the same way as the KS test: Its test
 We can also test uniformity by applying a textbook  $\chi^2$  test to binned (or classified) data). We divide the data into  $k$  classes and then compute the test statistic:
 
 $$
-\sum_ {i = 1} ^ {k} \frac {\left(O _ {i} - E _ {i}\right) ^ {2}}{E _ {i}} \tag {12}
+\sum_{i = 1}^{k} \frac{\left(O_{i} - E_{i}\right)^{2}}{E_{i}} \tag {12}
 $$ where  $O_{i}$  is the observed frequency of data in bin  $i$ , and  $E_{i}$  is the expected frequency of data in bin  $i$ . Under the null hypothesis, this test statistic is distributed as  $\chi^2 (k - c)$ , where  $c$  is the number of estimated parameters in the VaR model. The main disadvantage of the  $\chi^2$  test is that results are dependent on the way in which the data are binned and binning is (largely) arbitrary. In using it, we should be careful to check the sensitivity of results to alternative ways of binning the data.
 
 
@@ -152,7 +152,7 @@ $$ where  $O_{i}$  is the observed frequency of data in bin  $i$ , and  $E_{i}$ 
 
 It is often more convenient to put the  $p_t$  through a second (or Berkowitz) transformation to make them standard normal under the null of model adequacy; that is, we work with the transformed variable:
 
-$$ z _ {t} = \Phi^ {- 1} \left(p _ {t}\right) \tag {13}
+$$ z_{t} = \Phi^{- 1} \left(p_{t}\right) \tag {13}
 $$ where  $\Phi(.)$  is the standard normal distribution function (see Berkowitz, 2001). This second transformation is helpful because testing for standard normality is more convenient than testing for standard uniformity, and because a normal variable is more convenient when dealing with temporal dependence. Under the null,  $z_{t}$  will be distributed as IID standard normal [denoted by IID  $N(0,1)$ ].
 
 
@@ -199,13 +199,13 @@ The ranking process has four key ingredients for each model:
 We need to specify the loss function, and a number of different loss functions have been proposed. Perhaps the most straightforward is the binary loss function proposed by Lopez (1998, p. 121), which gives exceedance observations a value of 1 and other observations a value of  $0$ .  $C_t$  is then as follows:
 
 $$
-C _ {t} = \left\{ \begin{array}{l l} 1 & \text {i f} \quad L _ {t} > V a R _ {t} \\ 0 & \end{array} \right. \tag {14}
+C_{t} = \left\{ \begin{array}{l l} 1 & \text{if } \quad L_{t} > V a R_{t} \\ 0 & \end{array} \right. \tag {14}
 $$
 
 This loss function is intended for the user who is (exclusively) concerned with the frequency of exceedances. The natural benchmark for this loss function is  $p$ , the exceedance probability or expected value of  $E(C_t)$ . If we take our benchmark to be the expected value of  $C_t$  under the null hypothesis that the model is "good," then Lopez (1998) suggests that a good choice of score function is the following quadratic probability score (QPS) function:
 
 $$
-\mathrm {Q P S} = \frac {2}{n} \sum_ {t = 1} ^ {n} \left(C _ {t} - p\right) ^ {2} \tag {15}
+\mathrm{QP S} = \frac{2}{n} \sum_{t = 1}^{n} \left(C_{t} - p\right)^{2} \tag {15}
 $$
 
 The QPS takes a value in the range [0,2], and the closer the QPS-value to zero, the better the model. We can therefore use the QPS (or some similar score function) to rank our models, with the better models having the lower scores. In addition, the QPS criterion has the attractive property that it (usually) encourages truth-telling by VaR modelers: If VaR modelers wish to minimize their QPS score, they will (usually) report their VaRs "truthfully." This is a useful property in situations where the back-tester and the VaR modeler are different, and where the back-tester might be concerned about the VaR modeler reporting false VaR forecasts to alter the results of the back-test.
@@ -214,7 +214,7 @@ A drawback of this loss function is that it ignores the magnitude of tail losses
 
 
 $$
-C _ {t} = \left\{ \begin{array}{l l} 1 + \left(L _ {t} - V a R _ {t}\right) ^ {2} & \text {i f} \quad L _ {t} > V a R \\ 0 & \end{array} \right. \tag {16}
+C_{t} = \left\{ \begin{array}{l l} 1 + \left(L_{t} - V a R_{t}\right)^{2} & \text{if } \quad L_{t} > V a R \\ 0 & \end{array} \right. \tag {16}
 $$
 
 This loss function allows for the sizes of tail losses in a way that (15) does not: A model that generates higher tail losses would generate higher values of (16) than one that generates lower tail losses, other things being equal. However, with this loss function, there is no longer a straightforward condition for the benchmark, so we need to estimate the benchmark by some other means (e.g., Monte Carlo simulation). The size-adjusted loss function (17) also has the drawback that it loses some of its intuition, because squared monetary returns have no ready monetary interpretation.
@@ -222,7 +222,7 @@ This loss function allows for the sizes of tail losses in a way that (15) does n
 A way around this last problem is suggested by Blanco and Ihle (1998), who suggest the following loss function:
 
 $$
-C _ {t} = \left\{ \begin{array}{l l} \left(L _ {t} - V a R _ {t}\right) / V a R _ {t} & \text {i f} \quad L _ {t} > V a R _ {t} \\ 0 & \end{array} \right. \tag {17}
+C_{t} = \left\{ \begin{array}{l l} \left(L_{t} - V a R_{t}\right) / V a R_{t} & \text{if } \quad L_{t} > V a R_{t} \\ 0 & \end{array} \right. \tag {17}
 $$
 
 This loss function gives each tail-loss observation a weight equal to the tail loss divided by the VaR. This has a nice intuition and ensures that higher tail losses get awarded higher  $C_t$  values without the impaired intuition introduced by squaring the tail loss. The benchmark for this forecast evaluation procedure is also easy to derive: The benchmark is equal to the difference between the Expected Shortfall (ES) and the VaR, divided by the VaR. However, the Blanco-Ihle loss function also has a problem of its own: Because (17) has the VaR as its denominator, it is not defined if the VaR is zero, and can give awkward answers if VaR gets "close" to zero or becomes negative. We should therefore only use it if we can be confident of the VaR being sufficiently large and positive.
@@ -231,13 +231,13 @@ We therefore seek a size-based loss function that avoids the squared term in the
 
 
 $$
-C _ {t} = \left\{ \begin{array}{l l} L _ {t} & \text {i f} \quad L _ {t} > V a R \\ 0 & \end{array} \right. \tag {18}
+C_{t} = \left\{ \begin{array}{l l} L_{t} & \text{if } \quad L_{t} > V a R \\ 0 & \end{array} \right. \tag {18}
 $$
 
 The expected value of the tail loss is of course the ES, so we can choose the ES as our benchmark and use a quadratic score function such as:
 
 $$
-Q S = \frac {2}{n} \sum_ {t = 1} ^ {n} \left(C _ {t} - E S _ {t}\right) ^ {2} \tag {19}
+Q S = \frac{2}{n} \sum_{t = 1}^{n} \left(C_{t} - E S_{t}\right)^{2} \tag {19}
 $$
 
 This approach penalizes deviations of tail losses from their expected value, which makes intuitive sense. Moreover, because it is quadratic, it gives very high tail losses much greater weight than more common tail losses, and thereby comes down hard on large losses.

@@ -129,7 +129,7 @@ Class participation 20%
 Say we have estimated an OLS regression:
 
 $$
-X _ {t} = a + b Y _ {t} + \varepsilon_ {t}.
+X_{t} = a + b Y_{t} + \varepsilon_{t}.
 $$
 
 The coefficient  $b$  is estimated to be 1.00 with a standard error of 1.05. We can reject that  $b = 0$  at a significance level of
@@ -305,13 +305,13 @@ The Eurodollar contract is essentially a forward contract on the 3-month LIBOR r
 Both the SOFIR and Eurodollar contracts provide profits (or losses) proportional to the difference between the relevant short-term interest rate at contract maturity and the rate agreed to in the contract. However, the listing conventions for these contracts are a bit peculiar. Consider, for example, the first contract listed in Figure 23.7, which matures in October 2021. The settlement price is presented as  $F_{0} = 99.87$ . However, this value is not really a price. In effect, participants in the contract negotiate over the contract interest rate, and the so-called futures price is actually set equal to  $100 -$  Contract rate. Because the futures price is 99.87, the contract rate is  $100 - 99.87$ , or  $0.13\%$ . Similarly, the final futures price on the contract maturity date will be marked to  $F_{T} = 100 -$  LIBOR. Thus, profits to the buyer of the contract will be proportional to
 
 $$
-F _ {T} - F _ {0} = (1 0 0 - \operatorname {LIBOR} _ {T}) - (1 0 0 - \text{Contract rate}) = \text{Contract rate} - \operatorname {LIBOR} _ {T}
+F_{T} - F_{0} = (1 0 0 - \operatorname{LIBOR}_{T}) - (1 0 0 - \text{Contractrate}) = \text{Contractrate} - \operatorname{LIBOR}_{T}
 $$
 
 Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is \(1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only \(\frac{1}{4}\) of a basis point, and the profit to the buyer decreases by
 
 $$
-. 0 0 0 1 \times \frac {1}{4} \times \$ 1, 0 0 0, 0 0 0 = \$ 2 5
+. 0 0 0 1 \times \frac{1}{4} \times \$ 1, 0 0 0, 0 0 0 = \$ 2 5
 $$
 
 ## Equity Securities
@@ -387,13 +387,13 @@ Time & Inflation in Year Just Ended & Par Value & Coupon Payment & Principal Rep
 The nominal rate of return on the bond in the first year is
 
 $$
-\text{Nominal return} = \frac{\text{Interest} + \text{Price appreciation}}{\text{Initial price}} = \frac{40.80 + 20}{1,000} = 6.08\%
+\text{Nominalreturn} = \frac{\text{Interest} + \text{Priceappreciation}}{\text{Initialprice}} = \frac{40.80 + 20}{1,000} = 6.08\%
 $$
 
 The real rate of return is precisely the  $4\%$  real yield on the bond:
 
 $$
-\text{Real return} = \frac {1 + \text {Nominal return}}{1 + \text {Inflation}} - 1 = \frac {1.0608}{1.02} - 1 = .04, \text {or} 4 \%
+\text{Realreturn} = \frac{1 + \text{Nominalreturn}}{1 + \text{Inflation}} - 1 = \frac{1.0608}{1.02} - 1 = .04, \text{or} 4 \%
 $$
 
 One can show in a similar
@@ -508,7 +508,7 @@ Corporate debt and government guarantees
 - The payoff of the call option at expiration equals
 
 $$
-\text{Payoff t o c a l l h o l d e r} = \left\{ \begin{array}{c c c} S _ {T} - X & \text {i f} & S _ {T} > X \\ 0 & \text {i f} & S _ {T} \leq X \end{array} \right.
+\text{Payofft oc al lh ol de r} = \left\{ \begin{array}{c c c} S_{T} - X & \text{if } & S_{T} > X \\ 0 & \text{if } & S_{T} \leq X \end{array} \right.
 $$
 
 - Option property: Payoff cannot go negative
@@ -523,7 +523,7 @@ BKM Figure 20.2
 - The payoff of a put option at expiry is
 
 $$
-\text{Payoff t o p u t h o l d e r} = \left\{ \begin{array}{c c c} 0 & \text {i f} & S _ {T} > X \\ X - S _ {T} & \text {i f} & S _ {T} \leq X \end{array} \right.
+\text{Payofft op ut ho ld er} = \left\{ \begin{array}{c c c} 0 & \text{if } & S_{T} > X \\ X - S_{T} & \text{if } & S_{T} \leq X \end{array} \right.
 $$
 
 - Writing (naked) far out-of-the-money puts is a risky strategy, that generates steady fees income most of the time but can lead to large losses in market downturn (October 1987 crash)
@@ -535,14 +535,14 @@ BKM Figure 20.4
 Note that
 
 $$
-\text {p a y o f f} = S _ {T} - X
+\text{pa yo ff} = S_{T} - X
 $$
 
 - Obtain identical payoff by purchasing one unit of stock and borrowing  $X / (1 + r_f)^T$  T-bills at time 0
 - No-arbitrage: Strategies with the same payoff must have same initial price
 
 $$
-\operatorname {C a l l} (X) - \operatorname {P u t} (X) = S _ {0} - X / \left(1 + r _ {f}\right) ^ {T}
+\operatorname{Ca ll} (X) - \operatorname{Pu t} (X) = S_{0} - X / \left(1 + r_{f}\right)^{T}
 $$
 
 ## Learning Goals
@@ -605,15 +605,15 @@ No dividends
 ## Black-Scholes Formula for Call Option
 
 $$
-C _ {0} = S _ {0} N (d _ {1}) - X e ^ {- r T} N (d _ {2}),
+C_{0} = S_{0} N (d_{1}) - X e^{- r T} N (d_{2}),
 $$
 
 $$
-d _ {1} = \frac {\ln (S _ {0} / X) + (r + \sigma^ {2} / 2) T}{\sigma \sqrt {T}},
+d_{1} = \frac{\ln (S_{0} / X) + (r + \sigma^{2} / 2) T}{\sigma \sqrt{T}},
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {T}
+d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
 $C_0 =$  current call option value
@@ -643,7 +643,7 @@ Increases with risk-free rate  $r$
 From put-call parity:
 
 $$
-\begin{array}{l} P = C + X e ^ {- r T} - S _ {0}, \\ = X e ^ {- r T} [ 1 - N (d _ {2}) ] - S _ {0} [ 1 - N (d _ {1}) ] \\ \end{array}
+\begin{array}{l} P = C + X e^{- r T} - S_{0}, \\ = X e^{- r T} [ 1 - N (d_{2}) ] - S_{0} [ 1 - N (d_{1}) ] \\ \end{array}
 $$
 
 ## Learning Goals
@@ -777,7 +777,7 @@ The Fama-French 3-factor model (BKM, Chapter 10)
 ## Decomposing Fund Returns
 
 $$
-r _ {i, t} - r _ {f, t - 1} = \alpha_ {i} + \beta_ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t - 1}\right) + \varepsilon_ {i, t}
+r_{i, t} - r_{f, t - 1} = \alpha_{i} + \beta_{i}^{m} \times \left(r_{m, t} - r_{f, t - 1}\right) + \varepsilon_{i, t}
 $$
 
 - $r_{i,t}$ : return on an asset/investment/portfolio
@@ -790,7 +790,7 @@ $$
 ## Decomposing Fund Risks
 
 $$
-\underbrace {Var \left(r _ {i , t} - r _ {f , t}\right)} _ {\text {T o t a l R i s k} ^ {2}} = \underbrace {Var \left(\beta_ {i} ^ {m} \times \left(r _ {m , t} - r _ {f , t}\right)\right)} _ {\text {S y s t e m a t i c R i s k} ^ {2}} + \underbrace {Var \left(\varepsilon_ {i , t}\right)} _ {\text {I d i o s y n c r a t i c R i s k} ^ {2}}
+\underbrace {Var \left(r_{i , t} - r_{f , t}\right)}_{\text{To ta lR is k}^{2}} = \underbrace {Var \left(\beta_{i}^{m} \times \left(r_{m , t} - r_{f , t}\right)\right)}_{\text{Sy st em at ic Ri sk}^{2}} + \underbrace {Var \left(\varepsilon_{i , t}\right)}_{\text{Id io sy nc ra ti cR is k}^{2}}
 $$
 
 - Total fund risk is the sum of market risk and idiosyncratic risk (also called residual variance or tracking error)
@@ -798,25 +798,25 @@ $$
 ## Estimating Components of Risk
 
 $$
-r _ {i, t} - r _ {f, t} = a _ {i} + b _ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t}\right) + e _ {i, t}
+r_{i, t} - r_{f, t} = a_{i} + b_{i}^{m} \times \left(r_{m, t} - r_{f, t}\right) + e_{i, t}
 $$
 
 - The total risk can be estimated as
 
 $$
-\sigma \left(r _ {i, t} - r _ {f, t}\right)
+\sigma \left(r_{i, t} - r_{f, t}\right)
 $$
 
 - The systematic risk can be estimated as
 
 $$
-\sigma \left(b _ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t}\right)\right)
+\sigma \left(b_{i}^{m} \times \left(r_{m, t} - r_{f, t}\right)\right)
 $$
 
 - The idiosyncratic risk can be estimated as
 
 $$
-\begin{array}{l} \sigma \left(e _ {i, t}\right) = \sigma \left(r _ {i, t} - r _ {f, t} - a _ {i} - b _ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t}\right)\right) \\ = \sqrt {\sigma \left(r _ {i , t} - r _ {f , t}\right) ^ {2} - \sigma \left(b _ {i} ^ {m} \times \left(r _ {m , t} - r _ {f , t}\right)\right) ^ {2}} \\ \end{array}
+\begin{array}{l} \sigma \left(e_{i, t}\right) = \sigma \left(r_{i, t} - r_{f, t} - a_{i} - b_{i}^{m} \times \left(r_{m, t} - r_{f, t}\right)\right) \\ = \sqrt{\sigma \left(r_{i , t} - r_{f , t}\right)^{2} - \sigma \left(b_{i}^{m} \times \left(r_{m , t} - r_{f , t}\right)\right)^{2}} \\ \end{array}
 $$
 
 ## Estimating Performance Measures
@@ -824,19 +824,19 @@ $$
 - Sharpe ratio: Average excess return per unit of total risk
 
 $$
-\frac {\overline {{r _ {i , t} - r _ {f , t}}}}{\sigma \left(r _ {i , t} - r _ {f , t}\right)}
+\frac{\overline {{r_{i , t} - r_{f , t}}}}{\sigma \left(r_{i , t} - r_{f , t}\right)}
 $$
 
 - Treynor ratio: Average excess return per unit of systematic risk
 
 $$
-\frac {\overline {{r _ {i , t} - r _ {f , t}}}}{b _ {i} ^ {m}}
+\frac{\overline {{r_{i , t} - r_{f , t}}}}{b_{i}^{m}}
 $$
 
 - Information ratio: Measures abnormal return per unit of tracking error. Measures informativeness of fund's outperformance.
 
 $$
-\frac {\alpha_ {i}}{\sigma (e _ {i , t})}
+\frac{\alpha_{i}}{\sigma (e_{i , t})}
 $$
 
 ## Performance Measure Depends on Investor's Sophistication
@@ -900,7 +900,7 @@ CAPM is a special case with the market return as single factor.
 In a multi-factor model, expected returns are determined by
 
 $$
-E [ r _ {i} - r _ {f} ] = \sum_ {k = 1} ^ {K} \beta_ {i} ^ {k} \times R P _ {k}
+E [ r_{i} - r_{f} ] = \sum_{k = 1}^{K} \beta_{i}^{k} \times R P_{k}
 $$
 
 - There are  $K$  factors,  $k = 1,\ldots ,K$ . Examples of factors are market portfolio, interest rates, GNP growth, rate of inflation, …
@@ -979,7 +979,7 @@ CAPM  $\alpha$ s are decreasing in size and increasing in book-to-market equity 
 - SMB (Small Minus Big) is the average return on the three small portfolios minus average return on three big portfolios.
 
 $$
-\begin{array}{l} S M B = 1 / 3 \times (S m a l l V a l u e + S m a l l N e u t r a l + S m a l l G r o w t h) \\ - 1 / 3 \times (\text {B i g V a l u e} + \text {B i g N e u t r a l} + \text {B i g G r o w t h}) \\ \end{array}
+\begin{array}{l} S M B = 1 / 3 \times (S m a l l V a l u e + S m a l l N e u t r a l + S m a l l G r o w t h) \\ - 1 / 3 \times (\text{Bi gV al ue} + \text{Bi gN eu tr al} + \text{Bi gG ro wt h}) \\ \end{array}
 $$
 
 - HML (High Minus Low) is the average return on the two value portfolios minus the average return on the two growth portfolios
@@ -991,7 +991,7 @@ $$
 ## Fama-French 3-Factor Model
 
 $$
-E \left[ r _ {i, t} - r _ {f, t} \right] = \beta_ {i} ^ {m} \times E \left[ r _ {m, t} - r _ {f, t} \right] + \beta_ {i} ^ {s} \times E \left[ S M B _ {t} \right] + \beta_ {i} ^ {h} \times E \left[ H M L _ {t} \right]
+E \left[ r_{i, t} - r_{f, t} \right] = \beta_{i}^{m} \times E \left[ r_{m, t} - r_{f, t} \right] + \beta_{i}^{s} \times E \left[ S M B_{t} \right] + \beta_{i}^{h} \times E \left[ H M L_{t} \right]
 $$
 
 - Special case of a multi-factor model.
@@ -1002,7 +1002,7 @@ $$
 ## Application: Multi-Factor Analysis of Ariel Appreciation Fund (CAAPX)
 
 $$
-r _ {i, t} - r _ {f, t} = \alpha_ {i} + \beta_ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t}\right) + \beta_ {i} ^ {s} \times S M B _ {t} + \beta_ {i} ^ {h} \times H M L _ {t} + \varepsilon_ {i, t}
+r_{i, t} - r_{f, t} = \alpha_{i} + \beta_{i}^{m} \times \left(r_{m, t} - r_{f, t}\right) + \beta_{i}^{s} \times S M B_{t} + \beta_{i}^{h} \times H M L_{t} + \varepsilon_{i, t}
 $$
 
 Evaluate CAAPX using Fama-French 3-factor model
@@ -1114,13 +1114,13 @@ Application: Estimating the CAPM
 - How much does GE contribute to risk premium on market? If the weight on GE in the market portfolio is  $w_{GE}$ , this is
 
 $$
-w _ {G E} \mathbb {E} \left(r _ {G E} - r ^ {f}\right)
+w_{G E} \mathbb {E} \left(r_{G E} - r^{f}\right)
 $$
 
 - How much does GE contribute to the risk of the overall market portfolio? This depends on covariance
 
 $$
-w _ {G E} Cov \left(r _ {G E}, r _ {M}\right)
+w_{G E} Cov \left(r_{G E}, r_{M}\right)
 $$
 
 ## Expected Return-Beta Relationship
@@ -1128,13 +1128,13 @@ $$
 - Reward-to-risk ratio for GE and the market must be equal
 
 $$
-\frac {\mathbb {E} (r _ {G E} - r ^ {f})}{Cov (r _ {G E} , r _ {M})} = \frac {\mathbb {E} r _ {M} - r ^ {f}}{\sigma_ {M} ^ {2}}
+\frac{\mathbb {E} (r_{G E} - r^{f})}{Cov (r_{G E} , r_{M})} = \frac{\mathbb {E} r_{M} - r^{f}}{\sigma_{M}^{2}}
 $$
 
 - This leads to the most famous relationship of the CAPM:
 
 $$
-\mathbb {E} \left(r _ {i} - r ^ {f}\right) = \underbrace {\frac {Cov (r _ {i} , r _ {M})}{\sigma_ {M} ^ {2}}} _ {\mathbb {E} \left(r _ {M} - r ^ {f}\right)}
+\mathbb {E} \left(r_{i} - r^{f}\right) = \underbrace {\frac{Cov (r_{i} , r_{M})}{\sigma_{M}^{2}}}_{\mathbb {E} \left(r_{M} - r^{f}\right)}
 $$
 
 This is called the 'beta'  $\beta_{i}$
@@ -1148,23 +1148,23 @@ Here,  $i$  can now be any asset, such as  $GE$ ,  $Apple$ ,…
 - This is not possible because market=tangency.
 
 $$
-{ S h a r p e } { = } { \frac { \omega \mathbb { E } ( r _ { G E } - r ^ { f } ) + \mathbb { E } ( r _ { M } - r ^ { f } ) } { \sqrt { \omega ^ { 2 } \sigma _ { G E } ^ { 2 } + 2 \omega Cov ( r _ { G E } , r _ { M } ) + \sigma _ { M } ^ { 2 } } } }
+{ S h a r p e } { = } { \frac{ \omega \mathbb { E } ( r_{ G E } - r^{ f } ) + \mathbb { E } ( r_{ M } - r^{ f } ) } { \sqrt{ \omega^{ 2 } \sigma_{ G E }^{ 2 } + 2 \omega Cov ( r_{ G E } , r_{ M } ) + \sigma_{ M }^{ 2 } } } }
 $$
 
 $$
-\left. \frac {d S h a r p e}{d \omega} \right| _ {\omega = 0} = \frac {\mathbb {E} (r _ {G E} - r ^ {f})}{\sigma_ {M}} - Cov (r _ {G E}, r _ {M}) \frac {\mathbb {E} (r _ {M} - r ^ {f})}{\sigma_ {M} ^ {3}}
+\left. \frac{d S h a r p e}{d \omega} \right|_{\omega = 0} = \frac{\mathbb {E} (r_{G E} - r^{f})}{\sigma_{M}} - Cov (r_{G E}, r_{M}) \frac{\mathbb {E} (r_{M} - r^{f})}{\sigma_{M}^{3}}
 $$
 
 Setting  $\left.\frac{d\text{Sharpe}}{d\omega}\right|_{\omega = 0} = 0$  gives
 
 $$
-\frac {\mathbb {E} \left(r _ {G E} - r ^ {f}\right)}{Cov (r _ {G E} , r _ {M})} = \frac {\mathbb {E} \left(r _ {M} - r ^ {f}\right)}{\sigma_ {M} ^ {2}}
+\frac{\mathbb {E} \left(r_{G E} - r^{f}\right)}{Cov (r_{G E} , r_{M})} = \frac{\mathbb {E} \left(r_{M} - r^{f}\right)}{\sigma_{M}^{2}}
 $$
 
 ## Discussion
 
 $$
-\mathbb {E} \left(r _ {i} - r ^ {f}\right) = \beta_ {i} \mathbb {E} \left(r _ {M} - r ^ {f}\right)
+\mathbb {E} \left(r_{i} - r^{f}\right) = \beta_{i} \mathbb {E} \left(r_{M} - r^{f}\right)
 $$
 
 - Expected return on any asset increases with its comovement with the market.
@@ -1194,7 +1194,7 @@ Application: Estimating the CAPM
 ## How to estimate alpha and beta?
 
 $$
-r _ {i, t} - r _ {f, t - 1} = \alpha_ {i} + \beta_ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t - 1}\right) + \varepsilon_ {i, t}
+r_{i, t} - r_{f, t - 1} = \alpha_{i} + \beta_{i}^{m} \times \left(r_{m, t} - r_{f, t - 1}\right) + \varepsilon_{i, t}
 $$
 
 - $r_{i,t}$ : return on an asset/investment/portfolio
@@ -1208,7 +1208,7 @@ $$
 ## Empirical Predictions of the Capital Asset Pricing Model (CAPM)
 
 $$
-r _ {i, t} - r _ {f, t - 1} = \alpha_ {i} + \beta_ {i} ^ {m} \times \left(r _ {m, t} - r _ {f, t - 1}\right) + \varepsilon_ {i, t}
+r_{i, t} - r_{f, t - 1} = \alpha_{i} + \beta_{i}^{m} \times \left(r_{m, t} - r_{f, t - 1}\right) + \varepsilon_{i, t}
 $$
 
 - Assume that  $r_{m,t}$  is the return on the market portfolio.
@@ -1298,7 +1298,7 @@ In a year, you receive the following:
 
 $\begin{array}{lll}A & 110 & 0\\ Probability & 100\% & 0\% \end{array}$
 
-$\begin{array}{l l l} B & 300 & 0 \\ \text {Probability} & 50\% & 50\% \end{array}$
+$\begin{array}{l l l} B & 300 & 0 \\ \text{Probability} & 50\% & 50\% \end{array}$
 
 - Which one do you prefer?
 - Which strategy will a risk-averse (high  $\gamma$ ) investor prefer? Which one is a risk-loving investor (low  $\gamma$ )?
@@ -1311,7 +1311,7 @@ $\begin{array}{l l l} B & 300 & 0 \\ \text {Probability} & 50\% & 50\% \end{arra
 - Function used both by researchers and practitioners (such as CFA institute)
 
 $$
-U = E (r) - \frac {1}{2} \gamma \sigma^ {2}
+U = E (r) - \frac{1}{2} \gamma \sigma^{2}
 $$
 
 - The portfolio in question is the investor's overall or complete portfolio
@@ -1341,7 +1341,7 @@ Mutual fund theorem
 The return on the complete portfolio is
 
 $$
-r _ {C} = y r _ {P} + (1 - y) r _ {f}
+r_{C} = y r_{P} + (1 - y) r_{f}
 $$
 
 ## Portfolios of One Risky Asset and Risk-Free Asset
@@ -1349,19 +1349,19 @@ $$
 Expected return on portfolio:
 
 $$
-\begin{array}{l} \mathbb {E} \left(r _ {C}\right) = y \mathbb {E} \left(r _ {P}\right) + (1 - y) r _ {f} \\ = r _ {f} + y \left[ \mathbb {E} \left(r _ {P}\right) - r _ {f} \right] \\ \end{array}
+\begin{array}{l} \mathbb {E} \left(r_{C}\right) = y \mathbb {E} \left(r_{P}\right) + (1 - y) r_{f} \\ = r_{f} + y \left[ \mathbb {E} \left(r_{P}\right) - r_{f} \right] \\ \end{array}
 $$
 
 - Variance of portfolio return:
 
 $$
-\begin{array}{l} \operatorname {Var} \left(y r _ {P} + (1 - y) r _ {f}\right) = \operatorname {Var} \left(y \times r _ {P}\right) \\ = y ^ {2} \operatorname {Var} \left(r _ {P}\right) = y ^ {2} \sigma_ {P} ^ {2} \\ \end{array}
+\begin{array}{l} \operatorname{Var} \left(y r_{P} + (1 - y) r_{f}\right) = \operatorname{Var} \left(y \times r_{P}\right) \\ = y^{2} \operatorname{Var} \left(r_{P}\right) = y^{2} \sigma_{P}^{2} \\ \end{array}
 $$
 
 - Standard deviation of complete portfolio:
 
 $$
-\sigma_ {C} = y \sigma_ {P}
+\sigma_{C} = y \sigma_{P}
 $$
 
 - Which risky asset share,  $y$ , is optimal?
@@ -1371,19 +1371,19 @@ $$
 - Plug into utility:
 
 $$
-\begin{array}{l} U = E (r _ {C}) - \frac {1}{2} \gamma \sigma_ {C} ^ {2} \\ = r _ {f} + y \left[ \mathbb {E} \left(r _ {P}\right) - r _ {f} \right] - \frac {1}{2} \gamma y ^ {2} \sigma_ {P} ^ {2} \\ \end{array}
+\begin{array}{l} U = E (r_{C}) - \frac{1}{2} \gamma \sigma_{C}^{2} \\ = r_{f} + y \left[ \mathbb {E} \left(r_{P}\right) - r_{f} \right] - \frac{1}{2} \gamma y^{2} \sigma_{P}^{2} \\ \end{array}
 $$
 
 Take the first-order-condition and set it to zero
 
 $$
-0 = \left[ \mathbb {E} \left(r _ {P}\right) - r _ {f} \right] - \gamma y \sigma_ {P} ^ {2}
+0 = \left[ \mathbb {E} \left(r_{P}\right) - r_{f} \right] - \gamma y \sigma_{P}^{2}
 $$
 
 - This implies the optimal risky asset share
 
 $$
-y = \frac {1}{\gamma} \frac {\mathbb {E} (r _ {P}) - r _ {f}}{\sigma_ {P} ^ {2}}
+y = \frac{1}{\gamma} \frac{\mathbb {E} (r_{P}) - r_{f}}{\sigma_{P}^{2}}
 $$
 
 ## Capital Allocation Line (CAL)
@@ -1425,19 +1425,19 @@ Takeaway: It is beneficial to hold more than one stock. You can significantly re
 - Rate of return on portfolio equals
 
 $$
-r _ {P} = w _ {D} r _ {D} + w _ {E} r _ {E}
+r_{P} = w_{D} r_{D} + w_{E} r_{E}
 $$
 
 Expected rate of return on portfolio is weighted average:
 
 $$
-\mathbb {E} \left(r _ {P}\right) = w _ {D} \mathbb {E} \left(r _ {D}\right) + w _ {E} \mathbb {E} \left(r _ {E}\right)
+\mathbb {E} \left(r_{P}\right) = w_{D} \mathbb {E} \left(r_{D}\right) + w_{E} \mathbb {E} \left(r_{E}\right)
 $$
 
 - Variance equals:
 
 $$
-\begin{array}{l} \sigma_ {P} ^ {2} = w _ {D} ^ {2} \sigma_ {D} ^ {2} + w _ {E} ^ {2} \sigma_ {E} ^ {2} + 2 w _ {D} w _ {E} Cov (r _ {D}, r _ {E}), \\ = w _ {D} ^ {2} \sigma_ {D} ^ {2} + w _ {E} ^ {2} \sigma_ {E} ^ {2} + 2 w _ {D} w _ {E} \sigma_ {D} \sigma_ {E} C o r r (r _ {D}, r _ {E}) \\ \end{array}
+\begin{array}{l} \sigma_{P}^{2} = w_{D}^{2} \sigma_{D}^{2} + w_{E}^{2} \sigma_{E}^{2} + 2 w_{D} w_{E} Cov (r_{D}, r_{E}), \\ = w_{D}^{2} \sigma_{D}^{2} + w_{E}^{2} \sigma_{E}^{2} + 2 w_{D} w_{E} \sigma_{D} \sigma_{E} C o r r (r_{D}, r_{E}) \\ \end{array}
 $$
 
 - The set of combinations for  $\mathbb{E}(r_P)$  and  $\sigma_P$  available to investors is the investment opportunity set
@@ -1447,14 +1447,14 @@ $$
 - Substitute expressions for expectation and variance into utility
 
 $$
-\begin{array}{l} U = w _ {D} \mathbb {E} (r _ {D}) + (1 - w _ {D}) \mathbb {E} (r _ {E}) \\ - \frac {1}{2} \gamma \left(w _ {D} ^ {2} \sigma_ {D} ^ {2} + (1 - w _ {D}) ^ {2} \sigma_ {E} ^ {2} + 2 w _ {D} (1 - w _ {D}) Cov (r _ {D}, r _ {E})\right) \\ \end{array}
+\begin{array}{l} U = w_{D} \mathbb {E} (r_{D}) + (1 - w_{D}) \mathbb {E} (r_{E}) \\ - \frac{1}{2} \gamma \left(w_{D}^{2} \sigma_{D}^{2} + (1 - w_{D})^{2} \sigma_{E}^{2} + 2 w_{D} (1 - w_{D}) Cov (r_{D}, r_{E})\right) \\ \end{array}
 $$
 
 - Take the derivative with respect to  $w_{D}$  and setting it to zero  $\frac{dU}{dw_{D}} = 0$
 - This gives optimal portfolio shares:
 
 $$
-\begin{array}{l} {w _ {D} ^ {*}} = {\frac {\mathbb {E} (r _ {D}) - \mathbb {E} (r _ {E}) + \gamma (\sigma_ {E} ^ {2} - Cov (r _ {D} , r _ {E}))}{\gamma (\sigma_ {D} ^ {2} + \sigma_ {E} ^ {2} - 2 Cov (r _ {D} , r _ {E}))},} \\ {w _ {E} ^ {*}} = {1 - w _ {D} ^ {*}} \\ \end{array}
+\begin{array}{l} {w_{D}^{*}} = {\frac{\mathbb {E} (r_{D}) - \mathbb {E} (r_{E}) + \gamma (\sigma_{E}^{2} - Cov (r_{D} , r_{E}))}{\gamma (\sigma_{D}^{2} + \sigma_{E}^{2} - 2 Cov (r_{D} , r_{E}))},} \\ {w_{E}^{*}} = {1 - w_{D}^{*}} \\ \end{array}
 $$
 
 ## Learning Goals
@@ -1670,7 +1670,7 @@ Dividend discount model and predicting stocks from dividend yield
 - To see whether past stock returns forecast future stock returns estimate regression (AR(1) Model)
 
 $$
-\begin{array}{l} r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1} \\ = \mu (1 - \rho) + \rho r _ {t} + \varepsilon_ {t + 1} \\ \end{array}
+\begin{array}{l} r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1} \\ = \mu (1 - \rho) + \rho r_{t} + \varepsilon_{t + 1} \\ \end{array}
 $$
 
 - $\rho$ : first-order autocorrelation - this is the main coefficient of interest
@@ -1681,7 +1681,7 @@ $$
 - To see whether past stock returns forecast future stock returns estimate regression (AR(1) Model)
 
 $$
-\begin{array}{l} r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1} \\ = \mu (1 - \rho) + \rho r _ {t} + \varepsilon_ {t + 1} \\ \end{array}
+\begin{array}{l} r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1} \\ = \mu (1 - \rho) + \rho r_{t} + \varepsilon_{t + 1} \\ \end{array}
 $$
 
 - $\rho$ : first-order autocorrelation - this is the main coefficient of interest
@@ -1750,7 +1750,7 @@ $\mathsf{E}[r_{t + 1}|r_t] = (1 - \rho)\mu +\rho r_t$
 ## Interpreting the Autocorrelation Coefficient
 
 $$
-\bullet r _ {t + 1} - \mu = \rho (r _ {t} - \mu) + \varepsilon_ {t + 1}
+\bullet r_{t + 1} - \mu = \rho (r_{t} - \mu) + \varepsilon_{t + 1}
 $$
 
 ## Estimating Autocorrelations
@@ -1760,7 +1760,7 @@ $$
 $\bullet \rho$  equals regression coefficient  $\longrightarrow$  estimate in Excel
 
 $$
-r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1}
+r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1}
 $$
 
 ## Estimating Autocorrelations
@@ -1770,13 +1770,13 @@ $$
 $\bullet \rho$  equals regression coefficient  $\longrightarrow$  estimate in Excel
 
 $$
-r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1}
+r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1}
 $$
 
 - $\rho$  equals correlation of returns with previous period returns —— estimate in Excel =correl()
 
 $$
-\rho = \frac {Cov \left(r _ {t} , r _ {t + 1}\right)}{Var \left(r _ {t}\right)}
+\rho = \frac{Cov \left(r_{t} , r_{t + 1}\right)}{Var \left(r_{t}\right)}
 $$
 
 ## Estimating Autocorrelations
@@ -1786,19 +1786,19 @@ $$
 $\bullet \rho$  equals regression coefficient  $\longrightarrow$  estimate in Excel
 
 $$
-r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1}
+r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1}
 $$
 
 - $\rho$  equals correlation of returns with previous period returns —— estimate in Excel =correl()
 
 $$
-\rho = \frac {Cov (r _ {t} , r _ {t + 1})}{Var (r _ {t})}
+\rho = \frac{Cov (r_{t} , r_{t + 1})}{Var (r_{t})}
 $$
 
 - $k^{th}$ -order autocorrelation  $\longrightarrow$  estimate in Excel
 
 $$
-r _ {t + k} = a _ {k} + \rho_ {k} r _ {t} + \varepsilon_ {t + k}
+r_{t + k} = a_{k} + \rho_{k} r_{t} + \varepsilon_{t + k}
 $$
 
 ## Learning Goals
@@ -1818,7 +1818,7 @@ E.g. pension fund invests into  $20\%$  T-bills and  $80\%$  stocks
 - Common formula for the risky asset (stock) share is (Chapter 6.5 of BKM)
 
 $$
-{ w _ { T } } { = } { \frac { 1 } { \gamma } \frac { \mu _ { T } } { \sigma _ { T } ^ { 2 } } }
+{ w_{ T } } { = } { \frac{ 1 } { \gamma } \frac{ \mu_{ T } } { \sigma_{ T }^{ 2 } } }
 $$
 
 - $\mu_T =$  average stock returns expected over  $T$  year horizon
@@ -1830,7 +1830,7 @@ $$
 - For computing returns over time, it is sometimes useful to work with log returns
 
 $$
-r _ {t + 1} = \log (1 + R _ {t + 1})
+r_{t + 1} = \log (1 + R_{t + 1})
 $$
 
 here  $R_{t+1}$  is the level return (i.e. the return we have worked with so far)
@@ -1838,7 +1838,7 @@ here  $R_{t+1}$  is the level return (i.e. the return we have worked with so far
 - Log return has the desirable feature that
 
 $$
-\begin{array}{l} r _ {t \rightarrow t + 2} = \log \left(\left(1 + R _ {t + 1}\right)\left(1 + R _ {t + 2}\right)\right) \\ = r _ {t + 1} + r _ {t + 2} \\ \end{array}
+\begin{array}{l} r_{t \rightarrow t + 2} = \log \left(\left(1 + R_{t + 1}\right)\left(1 + R_{t + 2}\right)\right) \\ = r_{t + 1} + r_{t + 2} \\ \end{array}
 $$
 
 - Log return approximately equals level return  $r_{t+1} \approx R_{t+1}$  if  $R_{t+1}$  small
@@ -1848,19 +1848,19 @@ $$
 - Let's go back to our return predictability regression ( $r_{t+1} = \log \text{return}$ )
 
 $$
-r _ {t + 1} = a + \rho r _ {t} + \varepsilon_ {t + 1}
+r_{t + 1} = a + \rho r_{t} + \varepsilon_{t + 1}
 $$
 
 Average two-period return
 
 $$
-\mu_ {2} = E \left(r _ {t + 1} + r _ {t + 2}\right) = 2 \mu_ {1}
+\mu_{2} = E \left(r_{t + 1} + r_{t + 2}\right) = 2 \mu_{1}
 $$
 
 - Variance of two-period return
 
 $$
-\begin{array}{l} \sigma_ {2} ^ {2} = \operatorname {Var} \left(r _ {t + 1} + r _ {t + 2}\right), \\ = \operatorname {Var} \left(r _ {t + 1}\right) + 2 \operatorname {Cov} \left(r _ {t + 1}, r _ {t + 2}\right) + \operatorname {Var} \left(r _ {t + 2}\right) \\ = \sigma_ {1} ^ {2} + 2 \rho \sigma_ {1} ^ {2} + \sigma_ {1} ^ {2} \\ = 2 (1 + \rho) \sigma_ {1} ^ {2} \\ \end{array}
+\begin{array}{l} \sigma_{2}^{2} = \operatorname{Var} \left(r_{t + 1} + r_{t + 2}\right), \\ = \operatorname{Var} \left(r_{t + 1}\right) + 2 \operatorname{Cov} \left(r_{t + 1}, r_{t + 2}\right) + \operatorname{Var} \left(r_{t + 2}\right) \\ = \sigma_{1}^{2} + 2 \rho \sigma_{1}^{2} + \sigma_{1}^{2} \\ = 2 (1 + \rho) \sigma_{1}^{2} \\ \end{array}
 $$
 
 ## Long-Term Asset Allocation and the Autocorrelation
@@ -1868,13 +1868,13 @@ $$
 - Optimal risky asset share for one-period investor
 
 $$
-{w _ {1}} = {\frac {1}{\gamma} \frac {\mu_ {1}}{\sigma_ {1} ^ {2}}}
+{w_{1}} = {\frac{1}{\gamma} \frac{\mu_{1}}{\sigma_{1}^{2}}}
 $$
 
 - Optimal risky asset share for two-period investor
 
 $$
-\begin{array}{l} w _ {2} = \frac {1}{\gamma} \frac {\mu_ {2}}{\sigma_ {2} ^ {2}} \\ = \frac {1}{1 + \rho} \frac {1}{\gamma} \frac {\mu_ {1}}{\sigma_ {1} ^ {2}} \\ \end{array}
+\begin{array}{l} w_{2} = \frac{1}{\gamma} \frac{\mu_{2}}{\sigma_{2}^{2}} \\ = \frac{1}{1 + \rho} \frac{1}{\gamma} \frac{\mu_{1}}{\sigma_{1}^{2}} \\ \end{array}
 $$
 
 - Long-term investors should hold a higher risky asset share if autocorrelation is negative ("ride out the ups and downs of the market")
@@ -1907,7 +1907,7 @@ Dividend discount model and predicting stocks from dividend yield
 - Price =Present Value of Expected Future Cash Flows
 
 $$
-\begin{array}{l} {P _ {t}} = {\sum_ {i = 0} ^ {\infty} \mathsf {E} _ {t} D _ {t + 1} \frac {(1 + G) ^ {i}}{(1 + R) ^ {i + 1}}} \\ = \frac {\mathrm {E} _ {t} [ D _ {t + 1} ]}{R - G} \\ = \frac {(1 + G) D _ {t}}{R - G} \\ \end{array}
+\begin{array}{l} {P_{t}} = {\sum_{i = 0}^{\infty} \mathsf {E}_{t} D_{t + 1} \frac{(1 + G)^{i}}{(1 + R)^{i + 1}}} \\ = \frac{\mathrm{E}_{t} [ D_{t + 1} ]}{R - G} \\ = \frac{(1 + G) D_{t}}{R - G} \\ \end{array}
 $$
 
 ## Example 18.2 (BKM)
@@ -1921,7 +1921,7 @@ The constant growth rate is simply zero
 - This can be rewritten in terms of the dividend yield
 
 $$
-D Y _ {t} = \frac {D _ {t}}{P _ {t}} = \frac {R - G}{1 + G}
+D Y_{t} = \frac{D_{t}}{P_{t}} = \frac{R - G}{1 + G}
 $$
 
 - This implies that dividend yields are high if
@@ -1950,7 +1950,7 @@ Equity returns are predictable using dividend yields
 The ability of dividend yields to predict expected returns can be incorporated into a formal regression model
 
 $$
-r _ {t + 1} = \alpha + \beta D Y _ {t} + \varepsilon_ {t + 1}
+r_{t + 1} = \alpha + \beta D Y_{t} + \varepsilon_{t + 1}
 $$
 
 ## Application 
@@ -2046,18 +2046,18 @@ Reading: BKM Chapter 5 "Risk, Return, and the Historical
 ## Holding-Period Return
 
 $$
-\begin{array}{l} R _ {t + 1} = \frac {P _ {t + 1} + D _ {t + 1} - P _ {t}}{P _ {t}} \\ = \underbrace {\frac {P _ {t + 1} - P _ {t}}{P _ {t}}} _ {\text {C a p i t a l G a i n}} + \underbrace {\frac {D _ {t + 1}}{P _ {t}}} _ {\text {D i v i d e n d Y i e l d}} \\ \end{array}
+\begin{array}{l} R_{t + 1} = \frac{P_{t + 1} + D_{t + 1} - P_{t}}{P_{t}} \\ = \underbrace {\frac{P_{t + 1} - P_{t}}{P_{t}}}_{\text{Ca pi ta lG ai n}} + \underbrace {\frac{D_{t + 1}}{P_{t}}}_{\text{Di vi de nd Yi el d}} \\ \end{array}
 $$
 
 - $P_{t} =$  beginning price
-- $P_{t+1} = \text{end price}$
+- $P_{t+1} = \text{endprice}$
 $D_{t + 1} =$  cash dividend
 - This assumes that the dividend is paid at the end of the holding period
 
 ## Holding-Period Return
 
 $$
-\begin{array}{l} R _ {t + 1} = \frac {P _ {t + 1} + D _ {t + 1} - P _ {t}}{P _ {t}} \\ = \underbrace {\frac {P _ {t + 1} - P _ {t}}{P _ {t}}} _ {\text {C a p i t a l G a i n}} + \underbrace {\frac {D _ {t + 1}}{P _ {t}}} _ {\text {D i v i d e n d Y i e l d}} \\ \end{array}
+\begin{array}{l} R_{t + 1} = \frac{P_{t + 1} + D_{t + 1} - P_{t}}{P_{t}} \\ = \underbrace {\frac{P_{t + 1} - P_{t}}{P_{t}}}_{\text{Ca pi ta lG ai n}} + \underbrace {\frac{D_{t + 1}}{P_{t}}}_{\text{Di vi de nd Yi el d}} \\ \end{array}
 $$
 
 - $P_{t} =$  beginning price
@@ -2079,7 +2079,7 @@ Example:  $P_{t+1} = 110$ ,  $P_t = 100$ ,  $D_{t+1} = 4$
 - Excess return is the return on a risky asset above and beyond what could have been earned on the "safe" asset
 
 $$
-{X R _ {t + 1}} = {R _ {t + 1} - R _ {t + 1} ^ {r f}}
+{X R_{t + 1}} = {R_{t + 1} - R_{t + 1}^{r f}}
 $$
 
 - It measures how much investors have earned on average for bearing risk
@@ -2111,13 +2111,13 @@ $$
 - If we have  $T$  annual returns  $R_{t}$ , the expected return is then estimated by the average of the sample rates of return
 
 $$
-E \left(R _ {t}\right) = \frac {1}{T} \sum_ {t = 1} ^ {T} R _ {t}
+E \left(R_{t}\right) = \frac{1}{T} \sum_{t = 1}^{T} R_{t}
 $$
 
 - The standard deviation of returns is a measure of risk and is estimated as
 
 $$
-\sigma (R) = \sqrt {\frac {1}{T} \sum_ {t = 1} ^ {T} \left(R _ {t} - E \left(R _ {t}\right)\right) ^ {2}}
+\sigma (R) = \sqrt{\frac{1}{T} \sum_{t = 1}^{T} \left(R_{t} - E \left(R_{t}\right)\right)^{2}}
 $$
 
 ## Geometric (Time-Weighted) Average
@@ -2126,13 +2126,13 @@ $$
 - That is, we want the rate  $g$  such that
 
 $$
-\left(1 + g\right) ^ {T} = \left(1 + R _ {1}\right) \times \dots \times \left(1 + R _ {T}\right)
+\left(1 + g\right)^{T} = \left(1 + R_{1}\right) \times \dots \times \left(1 + R_{T}\right)
 $$
 
 - This is the geometric or (time-weighted) average return
 
 $$
-g = \left(\left(1 + R _ {1}\right) \times \dots \times \left(1 + R _ {T}\right)\right) ^ {1 / T} - 1
+g = \left(\left(1 + R_{1}\right) \times \dots \times \left(1 + R_{T}\right)\right)^{1 / T} - 1
 $$
 
 - Geometric and arithmetic average will be close if returns are small, but can be very different for large returns
@@ -2151,13 +2151,13 @@ What is the EAR?
 - Example 1: If  $R_{t}$  is a monthly return, the annualized effective return (EAR) is
 
 $$
-E A R = \left(1 + R _ {t}\right) ^ {1 2} - 1
+E A R = \left(1 + R_{t}\right)^{1 2} - 1
 $$
 
 - Example 2: If  $R_{t}$  is a 25-year return, the annualized effective return (EAR)
 
 $$
-E A R = \left(1 + R _ {t}\right) ^ {1 / 2 5} - 1
+E A R = \left(1 + R_{t}\right)^{1 / 2 5} - 1
 $$
 
 ## Historical returns on bonds and stocks
@@ -2195,7 +2195,7 @@ C: U.S. Equity Market Index
 Source: Robert Shiller's website
 
 $$
-\text {C A P E} = \frac {P _ {t}}{D _ {t}} = \text {i n v e r s e d i v i d e n d y i e l d}
+\text{CA PE} = \frac{P_{t}}{D_{t}} = \text{in ve rs ed iv id en dy ie ld}
 $$
 
 ## Bond Yields and Prices
@@ -2209,7 +2209,7 @@ $$
 The price is then given by the present value
 
 $$
-P _ {t} = E \left[ \frac {D _ {t + 1}}{1 + r} + \frac {D _ {t + 2}}{(1 + r) ^ {2}} + \frac {D _ {t + 3}}{(1 + r) ^ {3}} + \dots \right]
+P_{t} = E \left[ \frac{D_{t + 1}}{1 + r} + \frac{D_{t + 2}}{(1 + r)^{2}} + \frac{D_{t + 3}}{(1 + r)^{3}} + \dots \right]
 $$
 
 ## Bond Prices and Yields
@@ -2230,7 +2230,7 @@ $$
 - The yield to maturity  $Y_{nt}$  is defined by
 
 $$
-P _ {n t} = \frac {1}{(1 + Y _ {n t}) ^ {n}}
+P_{n t} = \frac{1}{(1 + Y_{n t})^{n}}
 $$
 
 - The yield is the annualized return if the bond is held to maturity.
@@ -2242,7 +2242,7 @@ $$
 - The term spread is the difference between a long-term yield and a short-term yield
 
 $$
-S _ {n t} = Y _ {n t} - Y _ {1 t}
+S_{n t} = Y_{n t} - Y_{1 t}
 $$
 
 - A negative term spread (or "inverted yield curve") is often thought to be a predictor of recessions
@@ -2263,7 +2263,7 @@ Source: St. Louis Fred
 - The yield to maturity on a coupon bond is defined implicitly by
 
 $$
-P _ {c n t} = \sum_ {i = 1} ^ {n} \frac {C}{(1 + Y _ {c n t}) ^ {i}} + \frac {1}{(1 + Y _ {c n t}) ^ {n}}.
+P_{c n t} = \sum_{i = 1}^{n} \frac{C}{(1 + Y_{c n t})^{i}} + \frac{1}{(1 + Y_{c n t})^{n}}.
 $$
 
 ## Macaulay's Duration
@@ -2272,7 +2272,7 @@ $$
 - Use present values of each payment to construct average.
 
 $$
-D _ {c n t} = \frac {\sum_ {i = 1} ^ {n} \frac {i C}{\left(1 + Y _ {c n t}\right) ^ {i}} + \frac {n}{\left(1 + Y _ {c n t}\right) ^ {n}}}{P _ {c n t}}.
+D_{c n t} = \frac{\sum_{i = 1}^{n} \frac{i C}{\left(1 + Y_{c n t}\right)^{i}} + \frac{n}{\left(1 + Y_{c n t}\right)^{n}}}{P_{c n t}}.
 $$
 
 Properties of Macaulay's duration:
@@ -2283,7 +2283,7 @@ Properties of Macaulay's duration:
 - Many bonds sell close to par (i.e.  $P_{cnt} \approx 1$ ). For such bonds, a useful approximation is
 
 $$
-D _ {c n t} \approx (1 - (1 + Y _ {c n t}) ^ {- n}) / (1 - (1 + Y _ {c n t}) ^ {- 1}).
+D_{c n t} \approx (1 - (1 + Y_{c n t})^{- n}) / (1 - (1 + Y_{c n t})^{- 1}).
 $$
 
 ## Example: Ceasar's Entertainment CZR 5.625 06/01/2015 Corp
@@ -2300,7 +2300,7 @@ Source: Bloomberg
 - Compute approximate return on coupon bond
 
 $$
-\frac {\Delta P}{P} \approx - D \times \Delta y.
+\frac{\Delta P}{P} \approx - D \times \Delta y.
 $$
 
 - To be more precise you can use "modified duration" (see BKM, equation (16.3)), but for rule-of-thumb calculations simple duration often gets you quite far

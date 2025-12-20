@@ -294,7 +294,7 @@ In the export market, however, the Foreign firm will face competition from other
 Equilibrium Condition We can now determine the profit-maximizing level of production for the Foreign monopolist, as well as its prices in each market. For the discriminating monopoly, profits are maximized when the following condition holds:
 
 $$
-M R = M R ^ {*} = M C ^ {*}
+M R = M R^{*} = M C^{*}
 $$
 
 # FIGURE 9-8
@@ -318,45 +318,45 @@ What about the comparison of its export price with average costs? At total produ
 Suppose the Foreign firm has the following cost and demand data:
 
 $$
-\text {F i x e d} \quad \text {c o s t s} \quad = \quad \$ 1 0 0
+\text{Fi xe d} \quad \text{co st s} \quad = \quad \$ 1 0 0
 $$
 
 $$
-\text {M a r g i n a l} = \$ 1 0 \text {p e r u n i t}
+\text{Ma rg in al} = \$ 1 0 \text{pe ru ni t}
 $$
 
 $$
-\text {L o c a l p r i c e} = \$ 2 5
+\text{Lo ca lp ri ce} = \$ 2 5
 $$
 
 $$
-\text {L o c a l} \quad \text {q u a n t i t y} \quad = \quad 1 0
+\text{Lo ca l} \quad \text{qu an ti ty} \quad = \quad 1 0
 $$
 
 $$
-\text {E x p o r t p r i c e} = \$ 1 5
+\text{Ex po rt pr ic e} = \$ 1 5
 $$
 
 $$
-\text {E x p o r t q u a n t i t y} = 1 0
+\text{Ex po rt qu an ti ty} = 1 0
 $$
 
 The profits earned from selling in its local market are
 
 $$
-\underbrace {(\$ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\$ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\$ 1 0 0} _ {\text {F i x e d}} = \underbrace {\$ 5 0} _ {\text {P r o f i t s}}
+\underbrace {(\$ 25 \cdot 1 0)}_{\text{Re ve nu e}} - \underbrace {\$ 1 0 \cdot 1 0}_{\text{Va ri ab le}} - \underbrace {\$ 1 0 0}_{\text{Fi xe d}} = \underbrace {\$ 5 0}_{\text{Pr of it s}}
 $$
 
 Notice that the average costs for the firms are
 
 $$
-\text {A v e r a g e} = \frac {\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
+\text{Av er ag e} = \frac{\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
 $$
 
 Now suppose that this firm sells an additional 10 units abroad, at the price of 15, which is less than its average cost of production. It is still worthwhile to sell these extra units because profits become
 
 $$
-\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})} _ {\text {R e v e n u e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}} _ {\text {V a r i a b l e}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {F i x e d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {P r o f i t s}}
+\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})}_{\text{Re ve nu e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}}_{\text{Va ri ab le}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Fi xe d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Pr of it s}}
 $$
 
 Profits have increased because the extra units are sold at  \$15 but produced at a marginal cost of\$ 10, which is less than the price received in the export market. Therefore, each unit exported will increase profits by the difference between the price and marginal costs. Thus, even though the export price is less than average costs, profits still rise from dumping in the export market.
@@ -529,7 +529,7 @@ President Ronald Reagan visits the Harley-Davidson plant.
 Calculation of Deadweight Loss Was the tariff on heavyweight motorcycles really successful? To answer this, we need to compare the deadweight loss of the tariff with the future gain in producer surplus. In our discussion of the steel tariff in the previous chapter, we derived a formula for the deadweight loss from using a tariff, measured relative to the import value:
 
 $$
-\frac {D W L}{P \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M = \frac {1}{2} (0.45 \cdot 0.17) = 0.038, \text {or} 3.8 \%
+\frac{D W L}{P \cdot M} = \frac{1}{2} \cdot \left(\frac{t}{P^{W}}\right) \cdot \% \Delta M = \frac{1}{2} (0.45 \cdot 0.17) = 0.038, \text{or} 3.8 \%
 $$
 
 We can calculate the average import sales from 1982 to 1983 as  $(452 + 410) / 2 = \ {431}$  million. Multiplying the percentage loss by average imports, we obtain the deadweight loss in 1983 of  ${0.038} \times  {431} = \$  {16.3}  million. That deadweight loss is reported in the last column of Table 9-2, along with the loss for each following year. Adding up these deadweight losses, we obtain a total loss of 112.5 million over the four years that the tariff was used.[16]

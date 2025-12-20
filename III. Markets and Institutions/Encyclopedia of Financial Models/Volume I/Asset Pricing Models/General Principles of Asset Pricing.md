@@ -26,21 +26,21 @@ $$ is a security in the states economy with values of  $3,$ 2, and 1, respective
 In general, we can consider an economy with an arbitrary number of  $s$  states and  $N$  securities. In this economy, the payoff of any security can be expressed as
 
 $$
-\tilde {x} = \left\{ \begin{array}{c c} v _ {1}, & \text {S t a t e 1} \\ v _ {2}, & \text {S t a t e 2} \\ \vdots & \vdots \\ v _ {s}, & \text {S t a t e s} \end{array} \right. \tag {1}
+\tilde {x} = \left\{ \begin{array}{c c} v_{1}, & \text{St at e1} \\ v_{2}, & \text{St at e2} \\ \vdots & \vdots \\ v_{s}, & \text{St at es} \end{array} \right. \tag {1}
 $$ where the  $v$ 's are the values of the security in the  $m$  states. For example, suppose state  $s = 4$ , then a security with payoff (1.10, 1.10, 1.10, 1.10)' is a well-defined security in our four-state economy. Suppose further that the price of this security is  \$1, then this security earns\$ 0.10 or 10\% ($0.1/$1) regardless of the state. Hence, this security is risk free with a rate of return of 10\% regardless of the state of the economy.
 
 
 Suppose now that there is a total of  $N$  securities,  $\tilde{x}_1,\dots ,\tilde{x}_N,$  in an economy of  $s$  states. We can summarize the payoffs next period of all the  $N$  securities by using the following matrix,
 
 $$
-X = \left( \begin{array}{c c c} v _ {1 1} & \dots & v _ {1 N} \\ \vdots & \ddots & \vdots \\ v _ {s 1} & \dots & v _ {s N} \end{array} \right) \tag {2}
+X = \left( \begin{array}{c c c} v_{1 1} & \dots & v_{1 N} \\ \vdots & \ddots & \vdots \\ v_{s 1} & \dots & v_{s N} \end{array} \right) \tag {2}
 $$ where each of the  $N$  columns represents the values of the securities. It is evident that matrix  $X$  summarizes payoffs of all the securities and determines their future values completely.
 
 
 The asset pricing question is how to determine the price for each of the securities. Mathematically, the pricing mechanism can be viewed as a mapping from the  $j$ -th security (or the  $s$ -vector, the payoff obtained from owning the security), to a price  $p$  that an investor is willing to pay today,
 
 $$
-\rho (\bar {x} _ {j}) = p _ {j} \tag {3}
+\rho (\bar {x}_{j}) = p_{j} \tag {3}
 $$
 
 As it turns out, simple economic principles imply many useful properties for the mapping, which comprises the general principles of asset pricing to be discussed below.
@@ -50,36 +50,36 @@ As it turns out, simple economic principles imply many useful properties for the
 In evaluating securities, a key principle is to evaluate them as a whole, and not in isolation. To do so, consider a portfolio of the  $N$  securities
 
 $$
-\tilde {x} _ {p} = \varphi_ {1} \tilde {x} _ {1} + \varphi_ {2} \tilde {x} _ {2} + \dots + \varphi_ {N} \tilde {x} _ {N} \tag {4}
+\tilde {x}_{p} = \varphi_{1} \tilde {x}_{1} + \varphi_{2} \tilde {x}_{2} + \dots + \varphi_{N} \tilde {x}_{N} \tag {4}
 $$ where the  $\varphi$ 's are portfolio weights that now represent the units of the securities we purchase in the portfolio, and  $\tilde{x}_p$  is the payoff of the portfolio, which simply adds up the individual values. Note that the weights can be either positive or negative. A negative weight on a security is a short position. In the case where no short sales are allowed, the weights are restricted to be positive.
 
 
 Note that the portfolio weights are often the percentages of money we invest in the securities, where prices are given and we are interested in the return on a portfolio. In contrast, we focus here on the weights in terms of units because we are interested in determining the prices from payoffs. However, once the prices are given, the weights in terms of either units or percentages are equivalent. To see this, if we express a portfolio in term of returns, denoted by  $R$ , rather than payoffs as above, then the portfolio return is
 
 $$
-R _ {p} = w _ {1} R _ {1} + w _ {2} R _ {2} + \dots + w _ {N} R _ {N} \tag {5}
+R_{p} = w_{1} R_{1} + w_{2} R_{2} + \dots + w_{N} R_{N} \tag {5}
 $$ where
 
 
 $$
-R _ {j} = \frac {\tilde {x} _ {j}}{p _ {j}}
+R_{j} = \frac{\tilde {x}_{j}}{p_{j}}
 $$ is the gross return on security  $j$ , which is one plus the usual percentage return. The relation between the  $\varphi$ 's and the  $w$ 's is
 
 
-$$ w _ {j} = \frac {\varphi_ {j} p _ {j}}{\varphi_ {1} p _ {1} + \cdots + \varphi_ {N} p _ {N}} \tag {6}
+$$ w_{j} = \frac{\varphi_{j} p_{j}}{\varphi_{1} p_{1} + \cdots + \varphi_{N} p_{N}} \tag {6}
 $$ where the numerator is the amount of money allocated to security  $j$ , and the denominator is the total amount of money invested in the securities, so that the  $w$ 's are the percentage weights as before.
 
 
 Consider the following two securities in a two-state economy:
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 0, & u p \\ 1, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{l l} 0, & u p \\ 1, & d o w n \end{array} \right.
 $$
 
 Suppose their prices today are  \$1. Then, with an investment of\$ 1 that buys 0.5 unit each of the securities, one obtains a portfolio
 
 $$
-\tilde {x} = \varphi_ {1} \tilde {x} _ {1} + \varphi_ {2} \tilde {x} _ {2} = 0. 5 \tilde {x} _ {1} + 0. 5 \tilde {x} _ {2}
+\tilde {x} = \varphi_{1} \tilde {x}_{1} + \varphi_{2} \tilde {x}_{2} = 0. 5 \tilde {x}_{1} + 0. 5 \tilde {x}_{2}
 $$ with payoff
 
 
@@ -90,7 +90,7 @@ $$
 One can also buy 2 units of the first security, and short one unit of the second security; then the resulting portfolio is
 
 $$
-\tilde {x} = 2 \tilde {x} _ {1} + (- 1) \tilde {x} _ {2}
+\tilde {x} = 2 \tilde {x}_{1} + (- 1) \tilde {x}_{2}
 $$ with payoff
 
 
@@ -105,13 +105,13 @@ Note that the payoff of the portfolio is negative, -\$ 1, in the down state. Thi
 A portfolio is uniquely determined by its portfolio weights, which can be summarized by the  $N$ -vector
 
 $$
-\varphi = \left(\varphi_ {1}, \varphi_ {2}, \dots , \varphi_ {N}\right) ^ {\prime}
+\varphi = \left(\varphi_{1}, \varphi_{2}, \dots , \varphi_{N}\right)^{\prime}
 $$
 
 The portfolio's payoffs are then uniquely determined by the  $s$ -vector,
 
 $$
-\text {P a y o f f} = X \varphi \tag {7}
+\text{Pa yo ff} = X \varphi \tag {7}
 $$
 
 For example, one can easily verify that this is true in our first illustration in which  $X$  is simply equal to the identity matrix.
@@ -127,18 +127,18 @@ In particular, if one of the  $x$ 's can be replicated by a portfolio of others,
 Consider the following two-state economy
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ 0, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{l l} 2, & u p \\ 0, & d o w n \end{array} \right.
 $$ with prices for both securities being \$1 and \$2 today. The portfolio with weight vector φ = (0.5, 0.5)' is
 
 
 $$
-\tilde {x} = 0. 5 \tilde {x} _ {1} + 0. 5 \tilde {x} _ {2}
+\tilde {x} = 0. 5 \tilde {x}_{1} + 0. 5 \tilde {x}_{2}
 $$
 
 This portfolio is replicable because it is also equal to
 
 $$
-\tilde {x} = 1. 5 \tilde {x} _ {1}
+\tilde {x} = 1. 5 \tilde {x}_{1}
 $$
 
 The primitive asset  $x_{2}$  is redundant here because its payoff is simply double the payoff of the first asset.
@@ -149,7 +149,7 @@ In an economy with  $N$  risky securities and  $s$  states, a security market is
 
 
 $$
-\varphi_ {1} \tilde {x} _ {1} + \varphi_ {2} \tilde {x} _ {2} + \dots + \varphi_ {N} \tilde {x} _ {N} = \tilde {x} \tag {9}
+\varphi_{1} \tilde {x}_{1} + \varphi_{2} \tilde {x}_{2} + \dots + \varphi_{N} \tilde {x}_{N} = \tilde {x} \tag {9}
 $$
 
 A complete market not only allows investors to obtain any desired payoff in any state (with a price), but also permits unique security pricing, as will be clear later.
@@ -161,7 +161,7 @@ $$
 $$ the portfolio
 
 
-$$ a \tilde {x} _ {1} + b \tilde {x} _ {2}
+$$ a \tilde {x}_{1} + b \tilde {x}_{2}
 $$ yields the payoff. To see why, if one investor wants to get a \$2 payoff in the up state and \$3 in the down state, buying 2 units of the first security and 3 units of the second security will provide what is exactly desired. However, the two securities in our second example above form an incomplete market. This is because for any possible portfolios consisting of the two securities, it will be impossible to create a payoff of 1 in the down state.
 
 
@@ -179,7 +179,7 @@ We can summarize our discussion in the following proposition:
 Market Completeness Proposition: The market is complete if and only if the rank of the  $s$  by  $N$  payoff matrix  $X$  is  $s$ , that is,
 
 $$
-\operatorname {r a n k} (X) = s \tag {11}
+\operatorname{ra nk} (X) = s \tag {11}
 $$
 
 Consequently, for  $s$  possible states, we should have at least  $N \geq s$  primitive assets for the market to be complete. One can verify that the rank condition holds for the two securities in our first example, but not in our second example.
@@ -224,7 +224,7 @@ Linear Pricing Rule: The law of one price is valid if and only if the linear pri
 
 In asset pricing, the concept of a state price is fundamental. In our states economy, there are  $s$  states. The state price in state  $i$  is the price investors are willing to pay today to obtain one unit of payoff in that state, and nothing in other states. The state price is also known as the Arrow-Debreu price, named in honor of the originators. A state price vector will then be an  $s$ -vector of all the prices in all the states. If there exists a state price vector  $q = (q_{1}, q_{2}, \ldots, q_{s})'$ , then we can write the asset price for each primitive security as
 
-$$ p _ {j} = q _ {1} v _ {1 j} + q _ {2} v _ {2 j} + \dots + q _ {s} v _ {s j} \tag {15}
+$$ p_{j} = q_{1} v_{1 j} + q_{2} v_{2 j} + \dots + q_{s} v_{s j} \tag {15}
 $$
 
 In words, this equation says that the price of the  $j$ -th security is equal to its payoffs in each of the states times the price per unit value in that state.
@@ -234,7 +234,7 @@ The state price is not only useful for linking the payoffs of the primitive secu
 
 The question is whether the state price vector always exists. We rewrite the state pricing relation (15) in matrix form as
 
-$$ p = X ^ {\prime} q \tag {16}
+$$ p = X^{\prime} q \tag {16}
 $$
 
 The existence of the state price vector  $q$  is the existence of solution  $q$  to the linear equation given by (16). In our states economy here, we can show that the LOP is necessary and sufficient for the existence of the state price, while in more complex economies, say those with an infinite number of assets and an infinite number of states, some auxiliary condition may be needed.
@@ -243,14 +243,14 @@ Existence of State Price Condition: The law of one price is valid if and only if
 
 The proof of the above follows from linear algebra. If the state price vector exists, then
 
-$$ p ^ {\prime} \varphi = q X ^ {\prime} \varphi = q X ^ {\prime} \omega = p ^ {\prime} \omega
+$$ p^{\prime} \varphi = q X^{\prime} \varphi = q X^{\prime} \omega = p^{\prime} \omega
 $$ which says that the price of the portfolio with weights  $\varphi$  is the same as the price of another portfolio as long as their payoffs are identical. Conversely, if the LOP is true, then for any portfolio weights  $w$  with zero payoff or satisfying  $X' \varphi = 0$ , we must have zero price or  $p' \varphi = 0$ . This means that  $p$  is orthogonal to every vector that is orthogonal to  $X$ . Now projecting  $p$  on the entire  $N$ -dimensional space,  $p$  must then be a linear combination of the columns of  $X$ . The combination coefficients are exactly equal to  $q$ , which is what we are looking for. The proof is therefore complete.
 
 
 As an example, consider the following two securities in a two-state economy,
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 2, & u p \\ 0, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{c c} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{c c} 2, & u p \\ 0, & d o w n \end{array} \right.
 $$ where the first security has a price of  \$1 and the second of\$ 2. Clearly the prices are consistent with the LOP. In this case, a state price of (1, 0)'
 
 
@@ -268,18 +268,18 @@ $$
 Another state price  $(1,2)^{\prime}$  can also do the same. A more subtle case is in an economy when
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 1, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 2, & u p \\ 2, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{c c} 1, & u p \\ 1, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{c c} 2, & u p \\ 2, & d o w n \end{array} \right.
 $$ with the same prices of  \$1 and\$ 2. Then (0.5, 0.5)' and (0.2, 0.8)' both, among others, price the two primitive securities and all their portfolios correctly.
 
 
 Under what conditions will the state price be unique? To find the conditions, recall the matrix form of the state pricing relation
 
-$$ p = X ^ {\prime} q
+$$ p = X^{\prime} q
 $$
 
 The LOP is equivalent to the existence of the state price vector  $q$ . If the market is in addition complete, then  $q$  in the above equation can be uniquely solved as
 
-$$ q = \left(X X ^ {\prime}\right) ^ {- 1} X p \tag {17}
+$$ q = \left(X X^{\prime}\right)^{- 1} X p \tag {17}
 $$
 
 Note that  $X$  is  $s$  by  $N$ , so its inverse is undefined unless  $s = N$ . But the inverse of the  $s$  by  $s$  matrix,  $XX'$ , is well defined. Equation (17) leads to our next proposition.
@@ -289,12 +289,12 @@ Uniqueness of State Price Proposition: If the law of one price holds, and if the
 For example, consider the following two securities in a two-state economy
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 3, & u p \\ 4, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{c c} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{c c} 3, & u p \\ 4, & d o w n \end{array} \right.
 $$ where the first security has a price of  \$4 and the second of\$ 10. We can check that both the rank and LOP conditions are true. The unique state price vector is then given by equation (17),
 
 
 $$
-\left[ \begin{array}{c} q _ {1} \\ q _ {2} \end{array} \right] = \left( \begin{array}{c c} 5 & - 3. 5 \\ - 3. 5 & 2. 5 \end{array} \right) \left( \begin{array}{c c} 1 & 3 \\ 2 & 4 \end{array} \right) \left[ \begin{array}{c} 4 \\ 1 0 \end{array} \right] = \left[ \begin{array}{c} 2 \\ 1 \end{array} \right]
+\left[ \begin{array}{c} q_{1} \\ q_{2} \end{array} \right] = \left( \begin{array}{c c} 5 & - 3. 5 \\ - 3. 5 & 2. 5 \end{array} \right) \left( \begin{array}{c c} 1 & 3 \\ 2 & 4 \end{array} \right) \left[ \begin{array}{c} 4 \\ 1 0 \end{array} \right] = \left[ \begin{array}{c} 2 \\ 1 \end{array} \right]
 $$
 
 It can be verified that these prices indeed work for pricing the two primitive securities.
@@ -308,7 +308,7 @@ In our states economy, the concept of arbitrage can be formally defined. There a
 $X\varphi \geq 0$  , and not equal to zero with
 
 
-$$ p _ {1} \varphi_ {1} + p _ {2} \varphi_ {2} + \dots + p _ {N} \varphi_ {N} \leq 0
+$$ p_{1} \varphi_{1} + p_{2} \varphi_{2} + \dots + p_{N} \varphi_{N} \leq 0
 $$
 
 The second type of arbitrage is one in which a portfolio strategy earns money today, and yet has no future obligations. We can express this mathematically as follows:
@@ -318,36 +318,36 @@ X \varphi \geq 0
 $$ with
 
 
-$$ p _ {1} \varphi_ {1} + p _ {2} \varphi_ {2} + \dots + p _ {N} \varphi_ {N} <   0
+$$ p_{1} \varphi_{1} + p_{2} \varphi_{2} + \dots + p_{N} \varphi_{N} <   0
 $$
 
 Consider as an example the following two securities in a two-state economy:
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ 4. 1, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{l l} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{l l} 2, & u p \\ 4. 1, & d o w n \end{array} \right.
 $$ with prices  \$1 and\$ 2. If we follow a strategy that involves shorting two units of the first security and buying one unit of the second security, then our net investment will be zero, but the payoffs will be
 
 
 $$
-- 2 \times \tilde {x} _ {1} + 1 \times \tilde {x} _ {2} = \left[ \begin{array}{c} 0 \\ 0. 1 \end{array} \right]
+- 2 \times \tilde {x}_{1} + 1 \times \tilde {x}_{2} = \left[ \begin{array}{c} 0 \\ 0. 1 \end{array} \right]
 $$
 
 This is an arbitrage of the first type. However, there is no arbitrage of the second type. This is because for any weights  $\varphi_{1}$  and  $\varphi_{2}$ , if the cost is negative, that is,
 
 $$
-\varphi_ {1} + 2 \varphi_ {2} <   0
+\varphi_{1} + 2 \varphi_{2} <   0
 $$ then the payoff in the up state of the portfolio,
 
 
 $$
-\varphi_ {1} + 2 \varphi_ {2}
+\varphi_{1} + 2 \varphi_{2}
 $$ will be negative too.
 
 
 To illustrate, consider the following two securities in a two-state economy,
 
 $$
-\tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ - 1, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ - 4, & d o w n \end{array} \right.
+\tilde {x}_{1} = \left\{ \begin{array}{l l} 1, & u p \\ - 1, & d o w n \end{array} \right., \qquad \tilde {x}_{2} = \left\{ \begin{array}{l l} 2, & u p \\ - 4, & d o w n \end{array} \right.
 $$ with prices  \$1 and\$ 1.9. If we short two units of the first security and buy one unit of the second security, then our net investment will be
 
 
@@ -357,18 +357,18 @@ $$ but the payoffs will be
 
 
 $$
-- 2 \times \tilde {x} _ {1} + 1 \times \tilde {x} _ {2} = \left[ \begin{array}{c} 0 \\ 0 \end{array} \right]
+- 2 \times \tilde {x}_{1} + 1 \times \tilde {x}_{2} = \left[ \begin{array}{c} 0 \\ 0 \end{array} \right]
 $$
 
 This is an arbitrage of the second type. However, there is no arbitrage of the first type. This is because for any weights  $\varphi_{1}$  and  $\varphi_{2}$ , the arbitrage requires the portfolio payoffs be nonnegative
 
 $$
-\varphi_ {1} + 2 \varphi_ {2} \geq 0
+\varphi_{1} + 2 \varphi_{2} \geq 0
 $$ and
 
 
 $$
-- \varphi_ {1} - 2 \varphi_ {2} \geq 0
+- \varphi_{1} - 2 \varphi_{2} \geq 0
 $$ in the two states, respectively. The only nonnegative payoffs for both the states is the zero payoff in this case. So, there cannot be an arbitrage of the first type.
 
 
@@ -382,12 +382,12 @@ Arbitrage is also related to the LOP. If there is no arbitrage, the LOP must be 
 Consider now an investor's utility maximization problem. Assume the investor prefers more to less, so that the utility function is monotonic in the consumption level. Given an initial wealth  $W_0$ , and given the trading opportunities, the investor's future consumption, as a vector in the  $s$  states, will be
 
 $$
-C _ {1} = W _ {1} + \left(W _ {0} - C _ {0}\right) \times R _ {p}
+C_{1} = W_{1} + \left(W_{0} - C_{0}\right) \times R_{p}
 $$ where
 
 
 $$
-\begin{array}{l} C _ {0} = \text {c o n s u m p t i o n (m e a s u r e d i n d o l l a r s)} \\ \text {t o d a y ,} \end{array}
+\begin{array}{l} C_{0} = \text{co ns um pt io n (me as ur ed in do ll ar s)} \\ \text{to da y ,} \end{array}
 $$
 
 $R_{p} =$  return on a portfolio of assets, which can be optimally chosen by the investor maximizing his or her utility, and
@@ -411,7 +411,7 @@ To see that the absence of arbitrage implies existence of a positive linear pric
 Mathematically, this can also be easily demonstrated. If  $\varphi$  is an arbitrage portfolio so that its price is zero or negative, then
 
 $$
-0 \geq p ^ {\prime} \varphi = (X ^ {\prime} q) ^ {\prime} \varphi = q ^ {\prime} (X \varphi)
+0 \geq p^{\prime} \varphi = (X^{\prime} q)^{\prime} \varphi = q^{\prime} (X \varphi)
 $$ where the first equality is the linear pricing rule, and the second equality holds by matrix multiplication rules. Because of positive state prices, all components of  $q$  are positive. If  $p' \varphi$  is zero,  $X \varphi$  must be all zeros, and if  $p' \varphi$  is negative,  $X \varphi$  must have strictly negative components. Both contradict the assumption that  $\varphi$  is an arbitrage portfolio. Hence, there are no arbitrage opportunities when the state prices are positive.
 
 
@@ -424,11 +424,11 @@ An important insight from the fundamental theorem is what we need for rational p
 Related to the fundamental theorem is the concept of the discount factor. As it turns out, this is the common feature of almost all asset pricing models, a point that will become evident in the next section. Let  $\theta_{i} > 0$  be the probability for state  $i$  to occur. The linear pricing rule given by equation (15) can be rewritten as
 
 $$
-\begin{array}{l} p _ {j} = \theta_ {1} \left(q _ {1} / \theta_ {1}\right) v _ {1 j} + \theta_ {2} \left(q _ {2} / \theta_ {2}\right) v _ {2 j} + \dots \\ + \theta_ {s} \left(q _ {s} / \theta_ {s}\right) v _ {s j} = E \left(m v _ {j}\right) \tag {18} \\ \end{array}
+\begin{array}{l} p_{j} = \theta_{1} \left(q_{1} / \theta_{1}\right) v_{1 j} + \theta_{2} \left(q_{2} / \theta_{2}\right) v_{2 j} + \dots \\ + \theta_{s} \left(q_{s} / \theta_{s}\right) v_{s j} = E \left(m v_{j}\right) \tag {18} \\ \end{array}
 $$ where  $m$  is a random variable whose value in state  $s$  is equal to
 
 
-$$ m _ {s} = \frac {q _ {i}}{\theta_ {s}} \tag {19}
+$$ m_{s} = \frac{q_{i}}{\theta_{s}} \tag {19}
 $$
 
 Equation (18) says that the price for asset  $j$  is given by the expected value of its payoff multiplied by a random variable  $m$ , where  $m$  is common for all assets.
@@ -441,7 +441,7 @@ $$ and therefore
 
 
 $$
-E [ m ] = \frac {1}{1 + r} \tag {20}
+E [ m ] = \frac{1}{1 + r} \tag {20}
 $$
 
 If there were no risks in the economy, and if there were no arbitrage, it is clear that all assets should earn the same risk-free rate of return. Hence, assets should be priced by their present values of the cash flows, or the prices are equal to the discounted cash flows with the discount factor  $1 / (1 + r)$ . When there is risk as is the case now, the payoffs are multiplied by the random variable  $m$  whose mean is  $1 / (1 + r)$ . This is why  $m$  is also known as a stochastic discount factor because (1) it is random, and (2) it extends the risk-free discounting to the risky asset case.
@@ -456,21 +456,21 @@ In this economy, the first asset is the risk-free asset since it has a constant 
 
 
 $$
-\begin{array}{l} 5 = p _ {1} = \frac {1}{3} \times (0. 3 \times 1 0) + \frac {1}{3} \times (0. 6 \times 1 0) \\ + \frac {1}{3} \times (0. 6 \times 1 0), \\ \end{array}
+\begin{array}{l} 5 = p_{1} = \frac{1}{3} \times (0. 3 \times 1 0) + \frac{1}{3} \times (0. 6 \times 1 0) \\ + \frac{1}{3} \times (0. 6 \times 1 0), \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 5 = p _ {2} = \frac {1}{3} \times (0. 3 \times 2 0) + \frac {1}{3} \times (0. 6 \times 1 0) \\ + \frac {1}{3} \times (0. 6 \times 5), \\ \end{array}
+\begin{array}{l} 5 = p_{2} = \frac{1}{3} \times (0. 3 \times 2 0) + \frac{1}{3} \times (0. 6 \times 1 0) \\ + \frac{1}{3} \times (0. 6 \times 5), \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 6 = p _ {3} = \frac {1}{3} \times (0. 3 \times 3 0) + \frac {1}{3} \times (0. 6 \times 1 0) \\ + \frac {1}{3} \times (0. 6 \times 5) \\ \end{array}
+\begin{array}{l} 6 = p_{3} = \frac{1}{3} \times (0. 3 \times 3 0) + \frac{1}{3} \times (0. 6 \times 1 0) \\ + \frac{1}{3} \times (0. 6 \times 5) \\ \end{array}
 $$
 
 Let  $m$  be a random variable that has values 0.3, 0.6, and 0.6 in the three possible states. Then the above says that, for each asset, the price is the expected value of the discounted payoff. The mean of the discount factor is
 
 $$
-\begin{array}{l} E [ m ] = \frac {1}{3} \times 0. 3 + \frac {1}{3} \times 0. 6 + \frac {1}{3} \times 0. 6 = 0. 5 \\ = \frac{1}{1 + 100\%} \\ \end{array}
+\begin{array}{l} E [ m ] = \frac{1}{3} \times 0. 3 + \frac{1}{3} \times 0. 6 + \frac{1}{3} \times 0. 6 = 0. 5 \\ = \frac{1}{1 + 100\%} \\ \end{array}
 $$
 
 This verifies equation (19).
@@ -478,7 +478,7 @@ This verifies equation (19).
 The state price vector, or equivalently the discount factor, is not only useful for pricing primitive assets, but also useful to price any portfolio consisting of them, as well as derivatives. For example, consider a call option that grants the owner of the option the right to buy one unit of the second asset at a price of  \$10. This option will have a value in state 1 equal to\$ 10 (the price of the second asset in state 1 reduced by the price that must be paid to acquire asset 1 as provided for by the option, \$10. The value of the option is therefore \$10, the difference between $20 – $10 in state 1). In the other two states, the value of the option is zero because the payoff (i.e., the price of the second asset) is no greater than 10. Hence, it would not be economic for the owner of the option to exercise. Then the price of this call option is
 
 $$
-\begin{array}{l} P r i c e o f C a l l = \frac {1}{3} \times (0. 3 \times 1 0) + \frac {1}{3} \times 0 \\ + \frac {1}{3} \times 0 = 1 \\ \end{array}
+\begin{array}{l} P r i c e o f C a l l = \frac{1}{3} \times (0. 3 \times 1 0) + \frac{1}{3} \times 0 \\ + \frac{1}{3} \times 0 = 1 \\ \end{array}
 $$
 
 The discount factor prices the assets by taking the expectation under the true probabilities.
@@ -490,18 +490,18 @@ Alternatively, one can also price the assets under a probability measure known a
 To see how the risk-neutral approach works here, we apply the linear pricing rule given by equation (18) to the risk-free asset. We have:
 
 $$
-1 = q _ {1} (1 + r) + q _ {2} (1 + r) + \dots + q _ {s} (1 + r)
+1 = q_{1} (1 + r) + q_{2} (1 + r) + \dots + q_{s} (1 + r)
 $$ so that
 
 
-$$ q _ {1} + q _ {2} + \dots + q _ {s} = \frac {1}{1 + r} = q
+$$ q_{1} + q_{2} + \dots + q_{s} = \frac{1}{1 + r} = q
 $$ which says the sum of state prices must be equal to the present value of 1 today. Denote by q the sum of the individual q's. Since now all the state prices are positive, the ratio of each to q can be considered a probability. Since the ratios sum to one, the probability is well defined. However, this is not the original true probability of the states, but rather some artificial probability, which will be useful in the future for pricing derivatives and other assets.
 
 
 Suppose now, without loss of generality, that the risk-free asset is the first one. Then the pricing relations for the other assets are
 
 $$
-\begin{array}{l} p _ {j} = q _ {1} v _ {1 j} + q _ {2} v _ {2 j} + \dots + q _ {s} v _ {s j} \\ = \frac {1}{1 + r} \left(\frac {q _ {1}}{q} v _ {1 j} + \frac {q _ {2}}{q} v _ {2 j} + \dots + \frac {q _ {2}}{q} v _ {s j}\right) \\ = \frac {1}{1 + r} E ^ {Q} \left[ v _ {j} \right] \tag {21} \\ \end{array}
+\begin{array}{l} p_{j} = q_{1} v_{1 j} + q_{2} v_{2 j} + \dots + q_{s} v_{s j} \\ = \frac{1}{1 + r} \left(\frac{q_{1}}{q} v_{1 j} + \frac{q_{2}}{q} v_{2 j} + \dots + \frac{q_{2}}{q} v_{s j}\right) \\ = \frac{1}{1 + r} E^{Q} \left[ v_{j} \right] \tag {21} \\ \end{array}
 $$ that is, the price is the present value discounted at the risk-free rate of the risk-adjusted expected payoff of the asset, where  $E^Q$  denotes the expectation taken under the artificial probability. In other words, for any risky asset, we compute
 
 
@@ -516,7 +516,7 @@ $$
 Moreover, the risk-neutral probabilities are 1/5, 2/5, and 2/5. So the expected payoff of the earlier call option is
 
 $$
-E ^ {Q} (c a l l) = \frac {1}{5} \times 1 0 + \frac {2}{5} \times 0 + \frac {1}{5} \times 0 = 2
+E^{Q} (c a l l) = \frac{1}{5} \times 1 0 + \frac{2}{5} \times 0 + \frac{1}{5} \times 0 = 2
 $$
 
 Discounting the  \$2 at the risk-free rate (100\% in our example), we get the price of\$ 1 (= 2/ (1 + 1)). This price is, of course, the same as computed above using the discount factor to price the call option.
@@ -530,7 +530,7 @@ In this section, we provide the discount factor models in a more general setup b
 Consider now a more general problem of an investor who is interested in maximizing utility over the current and future values of consumption,
 
 $$
-U \left(C _ {t}, C _ {t + 1}\right) = u \left(C _ {t}\right) + \delta E \left[ u \left(C _ {t + 1}\right) \right]
+U \left(C_{t}, C_{t + 1}\right) = u \left(C_{t}\right) + \delta E \left[ u \left(C_{t + 1}\right) \right]
 $$ where the first term is the utility of consumption today, the second term is the utility of fu
 
 
@@ -538,30 +538,30 @@ ture consumption, and  $\delta$  is the subjective time-discount factor of the i
 
 Besides the quadratic utility, another popular form of utility function is the power utility
 
-$$ u (C _ {t}) = \frac {C _ {t} ^ {1 - \gamma}}{1 - \gamma}
+$$ u (C_{t}) = \frac{C_{t}^{1 - \gamma}}{1 - \gamma}
 $$ where  $\gamma$  is the risk-aversion coefficient. The higher the  $\gamma$ , the more risk averse the investor. Typically, a value of  $\gamma$  of about 3 is believed to be reasonable.
 
 
 For notational brevity, we assume there is only one risky asset, which the pricing relation developed holds for an arbitrary number of assets by adding them into the model. Unlike earlier sections in this entry where finite payoffs were assumed, we now assume the payoff of the risky asset can have an arbitrary probability distribution, so long as the expectation is well defined. The budget constraints for maximizing the utility can be written as
 
 $$
-\begin{array}{l} C _ {t} = W _ {t} - p _ {t} w \\ C _ {t + 1} = W _ {t + 1} + X _ {t + 1} w \\ \end{array}
+\begin{array}{l} C_{t} = W_{t} - p_{t} w \\ C_{t + 1} = W_{t + 1} + X_{t + 1} w \\ \end{array}
 $$ where  $W_{t}$  and  $W_{t + 1}$  are the investor's wealth from other sources,  $w$  is the number of units of the risky asset the investor purchases today at time  $t$ ,  $p_t$  is the security price, and  $X_{t + 1}$  is the payoff.
 
 
 Plugging the budget constraints into the utility function, and taking the derivative with respect to  $w$ , we obtain the first-order condition (FOC):
 
-$$ p _ {t} u ^ {\prime} (C _ {t}) = E _ {t} [ \delta u ^ {\prime} (C _ {t + 1}) X _ {t + 1} ]
+$$ p_{t} u^{\prime} (C_{t}) = E_{t} [ \delta u^{\prime} (C_{t + 1}) X_{t + 1} ]
 $$ or
 
 
-$$ p _ {t} = E _ {t} \left[ m X _ {t + 1} \right], \quad m = \delta \frac {u ^ {\prime} \left(C _ {t + 1}\right)}{u ^ {\prime} \left(C _ {t}\right)} \tag {22}
+$$ p_{t} = E_{t} \left[ m X_{t + 1} \right], \quad m = \delta \frac{u^{\prime} \left(C_{t + 1}\right)}{u^{\prime} \left(C_{t}\right)} \tag {22}
 $$
 
 This equation says that the price today is the expected value of the discounted payoff, and  $m$ is the discount factor. In the case of the power utility,
 
 
-$$ m = \delta \left(\frac {C _ {t + 1}}{C _ {t}}\right) ^ {- \gamma} \tag {23}
+$$ m = \delta \left(\frac{C_{t + 1}}{C_{t}}\right)^{- \gamma} \tag {23}
 $$ which is a power function of the consumptions.
 
 
@@ -572,13 +572,13 @@ Intuitively, when the marginal rate of substitution is high, the value of future
 The discount factor representation of asset prices is often also expressed in terms of returns. Let  $R_{t}$  be the gross return on the asset where the gross return is equal to one plus the return. That is,  $R_{t} = X_{t + 1} / p_{t}$ . Then the pricing relation in equation (22) is equivalent to
 
 $$
-1 = E _ {t} \left[ m R _ {t + 1} \right] \tag {24}
+1 = E_{t} \left[ m R_{t + 1} \right] \tag {24}
 $$
 
 If an asset price is scaled to be equal to \$1, the payoff will be its return, and then the expected discounted return must be equal to \$1, its price today. When there are N risky assets, we can write the discount factor model as
 
 $$
-1 = E _ {t} \left[ m R _ {j, t + 1} \right] \tag {25}
+1 = E_{t} \left[ m R_{j, t + 1} \right] \tag {25}
 $$ where  $R_{j,t + 1}$  is the return on the asset  $j$
 
 
@@ -586,7 +586,7 @@ Note that the expectation in equation (25) is conditional on all available infor
 
 
 $$
-1 = E \left[ m R _ {j, t + 1} \right] \tag {26}
+1 = E \left[ m R_{j, t + 1} \right] \tag {26}
 $$ which is known as the unconditional form of the discount factor model. Since conditional implies unconditional, and the reverse is not necessarily true, equation (26) is a weaker form of the model.
 
 
@@ -595,7 +595,7 @@ $$ which is known as the unconditional form of the discount factor model. Since 
 To see the generality of the discount factor model, consider now its relation to the two dominant equilibrium asset pricing models: the CAPM and APT. As explained shortly, one can write these two asset pricing models as follows:
 
 $$
-E \left[ R _ {j} \right] = \tau + \lambda_ {1} \beta_ {j 1} + \dots + \lambda_ {K} \beta_ {j K} \tag {27}
+E \left[ R_{j} \right] = \tau + \lambda_{1} \beta_{j 1} + \dots + \lambda_{K} \beta_{j K} \tag {27}
 $$ where  $R_{j}$  is the gross return on asset  $j,\beta_{jk}$  is the beta or risk exposure on the  $k$  -th factor  $f_{k},\lambda_{k}$  is the factor risk premium, for  $k = 1,2,\ldots ,K,$  and  $\tau$  is a constant.
 
 
@@ -603,7 +603,7 @@ Although equation (27) is now written out in terms of the gross returns to confo
 
 We claim that if, and only if, the stochastic discount factor is a linear function of the factors
 
-$$ m = a + b _ {1} f _ {1} + \dots + b _ {K} f _ {K} \tag {28}
+$$ m = a + b_{1} f_{1} + \dots + b_{K} f_{K} \tag {28}
 $$ we will obtain equation (27). Conversely, if equation (27) is true, the discount factor must be a linear function of the factors. Therefore, the CAPM and APT are special cases of the discount factors models.
 
 
@@ -615,30 +615,30 @@ $$ and
 
 
 $$
-E \left[ R _ {j} \right] = \tau + \lambda \beta_ {j} \tag {30}
+E \left[ R_{j} \right] = \tau + \lambda \beta_{j} \tag {30}
 $$ are equivalent. The latter is often referred to as a beta pricing model. In the proof below, we can assume  $E[f] = 0$  since we can always move the mean of  $f$  into  $a$ . Recall the simple statistical formula that the covariance between any two random variables can be written as a sum of the expectation of their product and the product of their expectations
 
 
 $$
-\operatorname {C o v} (x, y) = E [ x y ] + E [ x ] E [ y ] \tag {31}
+\operatorname{Co v} (x, y) = E [ x y ] + E [ x ] E [ y ] \tag {31}
 $$
 
 Using this formula and  $E[f] = 0$ , we have, if equation (29) is true,
 
 $$
-\begin{array}{l} 1 = E [ m R _ {j} ] = a E [ R _ {j} ] + b E [ f R _ {j} ] \\ = a E \left[ R _ {j} \right] + b C o v \left(R _ {j}, f\right) - b E \left[ R _ {j} \right] E [ f ] \\ = a E \left[ R _ {j} \right] + b C o v \left(R _ {j}, f\right) \\ \end{array}
+\begin{array}{l} 1 = E [ m R_{j} ] = a E [ R_{j} ] + b E [ f R_{j} ] \\ = a E \left[ R_{j} \right] + b C o v \left(R_{j}, f\right) - b E \left[ R_{j} \right] E [ f ] \\ = a E \left[ R_{j} \right] + b C o v \left(R_{j}, f\right) \\ \end{array}
 $$
 
 Solving for  $E[R_{j}]$ , we obtain
 
 $$
-E \left[ R _ {j} \right] = \frac {1}{a} - \frac {b}{a} \operatorname {C o v} \left(R _ {j}, f\right) \tag {32}
+E \left[ R_{j} \right] = \frac{1}{a} - \frac{b}{a} \operatorname{Co v} \left(R_{j}, f\right) \tag {32}
 $$
 
 Comparing this equation with equation (30), it follows that
 
 $$
-\tau = \frac {1}{a}, \quad \lambda = - \frac {b}{a} \sigma^ {2} (f) \tag {33}
+\tau = \frac{1}{a}, \quad \lambda = - \frac{b}{a} \sigma^{2} (f) \tag {33}
 $$ where  $\sigma^2 (f)$  is the variance of the factor. Hence, if the discount factor model is true, it must imply the beta pricing model. Conversely, if the beta pricing model is true, we can solve  $a$  and  $b$  from equation (33) to get the discount factor model.
 
 
@@ -650,13 +650,13 @@ As we discussed, an asset pricing model is a specification of the discount facto
 The discount factor relation, equation (26), ties the return  $R_{t}$  of an asset to its price via the expectation of its product with  $m$ . It will be useful to separate  $R_{t}$  out to understand further the relation between  $m$  and  $R_{t}$ . Again using the covariance formula, equation (31), we have
 
 $$
-1 = \operatorname {C o v} [ m, R _ {t + 1} ] + E [ m ] E \left[ R _ {t + 1} \right] \tag {34}
+1 = \operatorname{Co v} [ m, R_{t + 1} ] + E [ m ] E \left[ R_{t + 1} \right] \tag {34}
 $$
 
 Suppose that a risk-free asset with gross return  $R_{f} = 1 + r$  is available, where  $r$  is the usual risk-free rate. Applying equation (34) to the risk-free asset, the first term will be zero, and hence
 
 $$
-E [ m ] = \frac {1}{1 + r} \tag {35}
+E [ m ] = \frac{1}{1 + r} \tag {35}
 $$
 
 Note that this equation is true for all possible discount factors and is an extension of earlier equation (20). In other words, for all possible stochastic discount factors, their mean must be equal to  $1 / (1 + r)$  to price the risk-free asset.
@@ -664,24 +664,24 @@ Note that this equation is true for all possible discount factors and is an exte
 Now we multiply equation (34) by  $R_{f}$  on both sides, and obtain
 
 $$
-E \left[ R _ {t + 1} \right] - R _ {f} = - R _ {f} \operatorname {C o v} [ m, R _ {t + 1} ]
+E \left[ R_{t + 1} \right] - R_{f} = - R_{f} \operatorname{Co v} [ m, R_{t + 1} ]
 $$
 
 This says that an asset's return in excess of the risk-free rate will be higher if it has a larger negative covariance with  $m$ . Recall that the covariance is related to correlation and standard deviations by
 
 $$
-\operatorname {C o v} [ x, y ] = \sigma (x) \times \sigma (y) \times \operatorname {C o r r} (x, y)
+\operatorname{Co v} [ x, y ] = \sigma (x) \times \sigma (y) \times \operatorname{Co rr} (x, y)
 $$ where  $\sigma (\cdot)$  denotes the standard deviation function. Since the correlation is always between  $-1$  and  $1$ , we have from the earlier equation that
 
 
 $$
-\begin{array}{l} \left| E \left[ R _ {t + 1} \right] - R _ {f} \right| = R _ {f} \left| C o v [ m, R _ {t + 1} ] \right| \\ \leq R _ {f} \times \sigma (m) \times \sigma \left(R _ {t + 1}\right) \\ \end{array}
+\begin{array}{l} \left| E \left[ R_{t + 1} \right] - R_{f} \right| = R_{f} \left| C o v [ m, R_{t + 1} ] \right| \\ \leq R_{f} \times \sigma (m) \times \sigma \left(R_{t + 1}\right) \\ \end{array}
 $$
 
 Separating terms on  $m$  from those on  $R_{t + 1}$  we have a lower bound on the standard deviation of  $m$  as denoted by  $\sigma (m)$
 
 $$
-\frac {\sigma (m)}{E [ m ]} \geq \frac {| E [ R _ {t + 1} ] - R _ {f} |}{\sigma \left(R _ {t + 1}\right)} \tag {36}
+\frac{\sigma (m)}{E [ m ]} \geq \frac{| E [ R_{t + 1} ] - R_{f} |}{\sigma \left(R_{t + 1}\right)} \tag {36}
 $$
 
 The right-hand side, the ratio of the expected return on a risky asset to its standard deviation, is the Sharpe ratio that measures the extra return beyond the risk-free rate per unit of asset risk. The relationship given by equation (36) says that, for any discount factor that prices the assets, it must have enough variability so that its standard deviation divided by its mean must be greater than the Sharpe ratio of any risky asset in the economy.

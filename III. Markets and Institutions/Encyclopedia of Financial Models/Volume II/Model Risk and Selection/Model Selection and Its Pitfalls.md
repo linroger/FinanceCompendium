@@ -44,7 +44,7 @@ As a result of the scarcity of economic data, many statistical models, even simp
 
 There is a fundamental distinction between (1) estimating parameters in a well-defined model and (2) estimating models through a process of learning. Models, as mentioned, are determined by human modelers using their creativity. For example, a modeler might decide that stock returns in a given market are influenced by a set of economic variables and then write a linear model as follows:
 
-$$ r _ {i, t} = \sum_ {k = 1} ^ {K} \beta_ {k} f _ {k, t}
+$$ r_{i, t} = \sum_{k = 1}^{K} \beta_{k} f_{k, t}
 $$ where the  $f$  are stochastic processes that represent a set of given economic variables. The modeler must then estimate the  $\beta_{k}$  and test the validity of his model.
 
 
@@ -120,7 +120,7 @@ The last two considerations are critical. To illustrate the quantitative trade-o
 It is well known from the theory of random matrices that the eigenvalues of the correlation matrix of independent random walks are distributed according to the following law:
 
 $$
-\rho (\lambda) = \frac {Q}{2 \pi \sigma^ {2}} \frac {\sqrt {(\lambda_ {\mathrm {m a x}} - \lambda) (\lambda_ {\mathrm {m i n}} - \lambda)}}{\lambda}
+\rho (\lambda) = \frac{Q}{2 \pi \sigma^{2}} \frac{\sqrt{(\lambda_{\mathrm{ma x}} - \lambda) (\lambda_{\mathrm{mi n}} - \lambda)}}{\lambda}
 $$ where  $Q$  is the ratio between the number  $N$  of sample points and the number  $M$  of time series. Figure 3 illustrates the theoretical distribution of eigenvalues for three values of  $Q$ :  $Q = 1.8$ ,  $Q = 4$ , and  $Q = 16$ .
 
 
@@ -128,15 +128,15 @@ As can be easily predicted by examining the above formula, the distribution of e
 
 
 $$
-\lambda_ {\max } = 3. 0 4 6 3 \text {f o r} Q = 1. 8
+\lambda_{\max } = 3. 0 4 6 3 \text{fo r} Q = 1. 8
 $$
 
 $$
-\lambda_ {\max } = 2. 2 5 0 0 \text {f o r} Q = 4
+\lambda_{\max } = 2. 2 5 0 0 \text{fo r} Q = 4
 $$
 
 $$
-\lambda_ {\max } = 1. 5 6 2 5 \text {f o r} Q = 1 6
+\lambda_{\max } = 1. 5 6 2 5 \text{fo r} Q = 1 6
 $$
 
 The eigenvalues of a random matrix do not carry any true correlation information. If we now compute the eigenvalues of an empirical correlation matrix of asset returns with a given  $Q$  (i.e., the ratio between number of samples and the number of series), we find that only a few eigenvalues carry information as they are outside the area of pure randomness corresponding to the  $Q$ . In fact, with good approximation,  $\lambda_{\mathrm{max}}$  is the cut-off point that separates meaningful correlation information from noise. (The application of random matrices to the estimation of correlation and covariance matrices is developed in Plerou, Gopikrishnan, Rosenow, Nunes Amaral, Guhr, and Stanley [2002].) Therefore, as the ratio of sample points to the number of asset prices grows (i.e., we have more points for each price process) the "noise area" gets smaller.
@@ -207,7 +207,7 @@ Now run the cointegration test at a  $99\%$  confidence level on each possible p
 
 
 $$
-\binom {5 0 0} {2} = \frac {5 0 0 \times 4 9 9}{2} = 1 2 4, 7 5 0 \text {d i s t i n c t p a i r s}
+\binom {5 0 0} {2} = \frac{5 0 0 \times 4 9 9}{2} = 1 2 4, 7 5 0 \text{di st in ct pa ir s}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/2e521f3d21cabbaf5f9878e24791e144a77ac9ed9e09046abbfe0e18ef61f592.jpg)

@@ -53,13 +53,13 @@ A portfolio manager considers creating an investment vehicle based on the instru
 The portfolio manager's decisions are based on prior beliefs and the data. The portfolio manager begins splitting capital among  $X, Y,$  and  $Z$  such that
 
 $$
-C = C _ {X} + C _ {Y} + C _ {Z}
+C = C_{X} + C_{Y} + C_{Z}
 $$
 
 The allocation of capital is determined by the optimization of the utility function given by:
 
 $$
-C _ {X}, C _ {Y}, C _ {Z} = \arg \max  (E (U (C (T) - C)))
+C_{X}, C_{Y}, C_{Z} = \arg \max  (E (U (C (T) - C)))
 $$
 
 Expectations of future returns depend on the model parameters. In the Bayesian decision framework, the distributions of these parameters are important:
@@ -74,7 +74,7 @@ In the list, the first risk can be understood as the true risk; the last three r
 
 Consider the model that links contemporaneous data  $y_{t}$  and  $x_{t}$  in a linear fashion:
 
-$$ y _ {1} = \beta x _ {t} + \epsilon_ {t}
+$$ y_{1} = \beta x_{t} + \epsilon_{t}
 $$
 
 This model is a simplification of the industry-standard factor risk model and is akin to that used in the capital asset pricing theory (Sharpe, 1964), where a similar relationship is defined implicitly, or Fama and French (1992), where several factors are used.
@@ -82,7 +82,7 @@ This model is a simplification of the industry-standard factor risk model and is
 The probability of observing the datum  $y_{t}$  given the unknown parameter of the model  $\beta$  is
 
 $$
-P (y _ {t} \mid \beta x _ {t}) = P (y _ {t} - \beta x _ {t}) = P (\epsilon_ {t})
+P (y_{t} \mid \beta x_{t}) = P (y_{t} - \beta x_{t}) = P (\epsilon_{t})
 $$
 
 It is customary to select a normal model of the idiosyncratic noise  $P(\epsilon_t) \propto N(\mu, \sigma)$  as it is a well-behaving distribution that falls off very fast and which for this reason has all its moments well defined. This, in turn, assists in obtaining clear analytical results with helpful illustrative properties.
@@ -96,13 +96,13 @@ Figure 1 Distribution of  $\beta$  of Daily Price Changes over Three Years for M
 Noise values being identically distributed and independent, which again is not a requirement for the probabilistic decision theory, the probability of observing the data set consisting of  $N$  points  $x_{1},y_{t},\ell = 1\dots N$  is
 
 $$
-\begin{array}{l} P (X \mid \beta X) = \prod p (\epsilon_ {1}) = \prod P (y _ {t} - \beta x _ {t}) \\ = \prod P (\epsilon_ {t}) \\ \end{array}
+\begin{array}{l} P (X \mid \beta X) = \prod p (\epsilon_{1}) = \prod P (y_{t} - \beta x_{t}) \\ = \prod P (\epsilon_{t}) \\ \end{array}
 $$
 
 It is easier to see the properties of the likelihood function by taking the logarithm:
 
 $$
-\begin{array}{l} \log P (Y \mid \beta X) = - \frac {\sum_ {t} \left(y _ {t} - \beta x _ {t} - \mu\right) ^ {2}}{2 \sigma^ {2}} \\ - \frac {1}{2} \log 2 \pi \sigma^ {2} \\ \end{array}
+\begin{array}{l} \log P (Y \mid \beta X) = - \frac{\sum_{t} \left(y_{t} - \beta x_{t} - \mu\right)^{2}}{2 \sigma^{2}} \\ - \frac{1}{2} \log 2 \pi \sigma^{2} \\ \end{array}
 $$
 
 As a function of  $\beta$ , the log-likelihood attains a maximum at the same point where the ordinary least squares (OLS) method finds its optimum value of  $\beta = \beta_{ols}$ . Contrary to the OLS, which boils down all the available data to one number, which is then taken as a real objective quan tity, the probabilistic framework retains more information about the relationship between  $Y$  and  $X$ , thereby preserving it in the distribution  $P(\beta \mid XY)$ .
@@ -117,15 +117,15 @@ Figure 2 Distribution of  $\beta$  of Daily Price Changes over Three Years for t
 
 
 $$
-\prod P (\epsilon_ {t}) \propto N (\tilde {\mu}, \tilde {\sigma})
+\prod P (\epsilon_{t}) \propto N (\tilde {\mu}, \tilde {\sigma})
 $$
 
 $$
-\tilde {\mu} = \frac {\frac {\mu_ {0}}{\sigma_ {0} ^ {2}} + \frac {\mu N}{\sigma^ {2}}}{\frac {1}{\sigma_ {0} ^ {2}} + \frac {N}{\sigma^ {2}}}
+\tilde {\mu} = \frac{\frac{\mu_{0}}{\sigma_{0}^{2}} + \frac{\mu N}{\sigma^{2}}}{\frac{1}{\sigma_{0}^{2}} + \frac{N}{\sigma^{2}}}
 $$
 
 $$
-\frac {1}{\tilde {\sigma} ^ {2}} = \frac {1}{\sigma_ {0} ^ {2}} + \frac {N}{\sigma^ {2}}
+\frac{1}{\tilde {\sigma}^{2}} = \frac{1}{\sigma_{0}^{2}} + \frac{N}{\sigma^{2}}
 $$
 
 In order to overcome the evidence extracted from the data and given by  $\mu$ , the portfolio manager's confidence must be greater than the confidence range of the data: The portfolio manager's confidence is high, that is, when  $\sigma_0 \ll \sigma / N$ , the posterior expectation of alpha is governed by the portfolio manager's prognosis. In the opposite case, the data are trusted more than the portfolio manager's judgment.
@@ -133,49 +133,49 @@ In order to overcome the evidence extracted from the data and given by  $\mu$ , 
 The portfolio manager sets risk preferences with the utility function
 
 $$
-U (C (T), C, \eta) = - \exp \left(- \frac {C (T) - C}{C _ {\eta}}\right)
+U (C (T), C, \eta) = - \exp \left(- \frac{C (T) - C}{C_{\eta}}\right)
 $$
 
 Taking the expectations over one period  $T = 1$  we obtain:
 
 $$
-\begin{array}{l} E (U) = - \int \alpha \beta \exp \left(- \frac {(\tilde {\mu} + \beta \mu_ {x}) w _ {y} + \mu_ {x} w _ {x} + \mu_ {2} w _ {z}}{\eta} \right. \\ \left. + 1 / 2 \eta^ {2} \left(w _ {y} ^ {2} \tilde {\sigma} ^ {2} + w _ {x} ^ {2} \sigma_ {x} ^ {2} + \sigma_ {x} ^ {z} \left(w _ {y} ^ {2} \beta^ {2} + 2 w _ {y} w _ {x} \beta\right)\right) P (\beta) \right. \\ \end{array}
+\begin{array}{l} E (U) = - \int \alpha \beta \exp \left(- \frac{(\tilde {\mu} + \beta \mu_{x}) w_{y} + \mu_{x} w_{x} + \mu_{2} w_{z}}{\eta} \right. \\ \left. + 1 / 2 \eta^{2} \left(w_{y}^{2} \tilde {\sigma}^{2} + w_{x}^{2} \sigma_{x}^{2} + \sigma_{x}^{z} \left(w_{y}^{2} \beta^{2} + 2 w_{y} w_{x} \beta\right)\right) P (\beta) \right. \\ \end{array}
 $$
 
 Here
 
-$$ w _ {x} = \frac {C _ {x}}{C}, w _ {z} = \frac {C _ {z}}{C}, w _ {y} = 1 - w _ {x} - w _ {z}
+$$ w_{x} = \frac{C_{x}}{C}, w_{z} = \frac{C_{z}}{C}, w_{y} = 1 - w_{x} - w_{z}
 $$
 
 First, we focus on the problem of optimum allocation when there is no hedging:  $w_{x} = 0$ ,  $\mu_{x} = 0$ . Define the certainty equivalent (CE) of the investment in  $Y$  and  $Z$  as such guaranteed change in  $C$  that results in the same utility as a risky investment in  $Y$  and  $Z$ . Mathematically, it is defined as the inverse of the utility function:
 
 $$
-C E (C (T), C) = U ^ {- 1} (E (U))
+C E (C (T), C) = U^{- 1} (E (U))
 $$
 
 For the exponential utility function we obtain
 
 $$
-C E (C (T), C) = - C _ {\eta} \log E (U (C (T), C, \eta))
+C E (C (T), C) = - C_{\eta} \log E (U (C (T), C, \eta))
 $$
 
 Adopting  $P(\beta) = N(\beta_0,\Gamma)$  and integrating expected utility over the model parameter  $\beta$ , we finally arrive at
 
 $$
-\begin{array}{l} C E (w _ {y}) = \tilde {\mu} w _ {y} + \mu_ {z} (1 - w _ {y}) - \frac {1}{2 \eta} \tilde {\sigma} ^ {2} w _ {y} ^ {2} - \frac {1}{2 \eta} \\ \frac {\beta_ {0} ^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2}}{1 - \frac {\Gamma^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2}}{\eta^ {2}}} + \frac {1}{2} \eta \log \left(1 - \frac {\Gamma^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2}}{\eta^ {2}}\right) \\ \end{array}
+\begin{array}{l} C E (w_{y}) = \tilde {\mu} w_{y} + \mu_{z} (1 - w_{y}) - \frac{1}{2 \eta} \tilde {\sigma}^{2} w_{y}^{2} - \frac{1}{2 \eta} \\ \frac{\beta_{0}^{2} \sigma_{x}^{2} w_{y}^{2}}{1 - \frac{\Gamma^{2} \sigma_{x}^{2} w_{y}^{2}}{\eta^{2}}} + \frac{1}{2} \eta \log \left(1 - \frac{\Gamma^{2} \sigma_{x}^{2} w_{y}^{2}}{\eta^{2}}\right) \\ \end{array}
 $$
 
 The first three terms in this equation represent the certainty equivalent of the investment without the risk model  $\beta_0 = 0$  and without the model risk  $\Gamma = 0$ . The optimal fraction of the capital invested in  $Y$  is a well-known expression (see, for example, Merton, 1969)
 
 
-$$ w _ {y} = \eta \frac {\tilde {\mu} - \mu_ {z}}{\tilde {\sigma} ^ {2}}
+$$ w_{y} = \eta \frac{\tilde {\mu} - \mu_{z}}{\tilde {\sigma}^{2}}
 $$
 
 In this case, the fraction invested in the risky instrument is proportional to the portfolio manager's risk tolerance and inversely proportional to the instrument's idiosyncratic risk, which, in the absence of any model, is the total risk of the instrument.
 
 Introduction of the risk model without uncertainty  $\beta_0\neq 0,\Gamma = 0$  results in the obvious extension:
 
-$$ w _ {y} = \eta \frac {\tilde {\mu} - \mu_ {z}}{\tilde {\sigma} ^ {2} + \beta_ {0} ^ {2} \sigma_ {x} ^ {2}}
+$$ w_{y} = \eta \frac{\tilde {\mu} - \mu_{z}}{\tilde {\sigma}^{2} + \beta_{0}^{2} \sigma_{x}^{2}}
 $$
 
 Here  $\tilde{\sigma}^2 +\beta_0^2\sigma_x^2$  is, again, the total risk of Y as given by the model, split into the idiosyncratic part and the part coming from the influence of X.
@@ -183,7 +183,7 @@ Here  $\tilde{\sigma}^2 +\beta_0^2\sigma_x^2$  is, again, the total risk of Y as
 When  $\Gamma \neq 0$ , the last two terms in the equation for  $CE(w_{y})$  represent the model risk. In some situations, the term  $\Gamma^2\sigma_x^2 w_y^2$  can be thought of as the contribution to the expected variance due to the model risk. Indeed, if  $\Gamma^2\sigma_x^2 w_y^2 \ll \eta^2$  (i.e., when the risk tolerance is much greater than possible risk associated with the factor  $X$ ) in the expression for the certainty equivalent, the model risk is simply added to the total risk:
 
 $$
-\begin{array}{l} C E (w _ {y}) \approx \tilde {\mu} w _ {y} + \mu_ {z} (1 - w _ {y}) \\ - \frac {1}{2 \eta} \left(\tilde {\sigma} ^ {2} + \left(\beta_ {0} ^ {2} + \Gamma^ {2}\right) \sigma_ {x} ^ {2}\right) w _ {y} ^ {2} + O \left(\sigma_ {x} ^ {1} w _ {y} ^ {1} / \eta^ {3}\right) \\ \end{array}
+\begin{array}{l} C E (w_{y}) \approx \tilde {\mu} w_{y} + \mu_{z} (1 - w_{y}) \\ - \frac{1}{2 \eta} \left(\tilde {\sigma}^{2} + \left(\beta_{0}^{2} + \Gamma^{2}\right) \sigma_{x}^{2}\right) w_{y}^{2} + O \left(\sigma_{x}^{1} w_{y}^{1} / \eta^{3}\right) \\ \end{array}
 $$
 
 In this expression, the last term is proportional to the magnitude of the expression in parentheses and is small in comparison with the preceding terms.
@@ -197,7 +197,7 @@ Now the portfolio manager aims to reduce the influence of the factor  $X$  on th
 The certainty equivalent of the portfolio is
 
 $$
-\begin{array}{l} E (w _ {y}) = \tilde {\mu} w _ {y} - \frac {1}{2 \eta} \tilde {\sigma} ^ {2} w _ {y} ^ {2} - \frac {1}{2 \eta} \frac {\sigma_ {x} ^ {2} (w _ {x} + \beta_ {0} w _ {y}) ^ {2}}{1 - \frac {\Gamma^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2}}{\eta^ {2}}} \\ + \frac {1}{2} \eta \log \left(1 - \frac {\Gamma^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2}}{\eta^ {2}}\right) \\ \end{array}
+\begin{array}{l} E (w_{y}) = \tilde {\mu} w_{y} - \frac{1}{2 \eta} \tilde {\sigma}^{2} w_{y}^{2} - \frac{1}{2 \eta} \frac{\sigma_{x}^{2} (w_{x} + \beta_{0} w_{y})^{2}}{1 - \frac{\Gamma^{2} \sigma_{x}^{2} w_{y}^{2}}{\eta^{2}}} \\ + \frac{1}{2} \eta \log \left(1 - \frac{\Gamma^{2} \sigma_{x}^{2} w_{y}^{2}}{\eta^{2}}\right) \\ \end{array}
 $$
 
 The first two terms in this expression are the idiosyncratic alpha and risk of the instrument  $Y$ .
@@ -207,7 +207,7 @@ The third term introduces the risk associated with the portfolio returns depende
 In the denominator, the portfolio manager's risk tolerance is augmented by a factor that depends on the uncertainty of  $\beta$ :
 
 $$
-1 - \frac {\Gamma \sigma_ {x} ^ {2} w _ {y} ^ {2}}{\eta^ {2}}
+1 - \frac{\Gamma \sigma_{x}^{2} w_{y}^{2}}{\eta^{2}}
 $$
 
 This term being less than unity, uncertainty effectively reduces the portfolio manager's risk tolerance.
@@ -216,15 +216,15 @@ The fourth term is the contribution to  $CE$  from the model risk. Terms associa
 
 In the absence of a risk model  $\beta_0 = 0, \Gamma = 0$  optimal allocations maximizing  $CE$  of the portfolio are
 
-$$ w _ {x} \sim 0
+$$ w_{x} \sim 0
 $$
 
-$$ w _ {y} \sim \frac {1}{\tilde {\sigma} ^ {2}}
+$$ w_{y} \sim \frac{1}{\tilde {\sigma}^{2}}
 $$
 
 When the risk model is present, but the uncertainty of the model is much bigger than its prediction  $\beta_0\ll \Gamma$  we obtain another useful result:
 
-$$ w _ {y} \sim \frac {1}{\tilde {\sigma} ^ {2} + \Gamma^ {2} \sigma \frac {2}{x}}
+$$ w_{y} \sim \frac{1}{\tilde {\sigma}^{2} + \Gamma^{2} \sigma \frac{2}{x}}
 $$
 
 In this case the optimal allocation in  $Y$  is determined by the total risk of the instrument composed of the idiosyncratic risk and the uncertainty of the model.
@@ -236,11 +236,11 @@ From the probabilistic point of view, however, an absolutely precise model is no
 Contribution from the risk model and from the uncertainty of the model become separated and especially simple when the portfolio manager's risk tolerance is sufficiently large,
 
 $$
-\Gamma^ {2} \sigma_ {x} ^ {2} w _ {y} ^ {2} \ll \eta^ {2}:
+\Gamma^{2} \sigma_{x}^{2} w_{y}^{2} \ll \eta^{2}:
 $$
 
 $$
-\begin{array}{l} C E (w _ {y}, w _ {x}) \approx \mu w _ {y} - \frac {1}{2 \eta} (\sigma^ {2} - \Gamma^ {2} \sigma_ {x} ^ {2}) w _ {y} ^ {2} \\ - \frac {1}{2 \eta} \sigma_ {x} ^ {2} (w _ {x} - \beta_ {\mu} w _ {y}) ^ {2} \\ \end{array}
+\begin{array}{l} C E (w_{y}, w_{x}) \approx \mu w_{y} - \frac{1}{2 \eta} (\sigma^{2} - \Gamma^{2} \sigma_{x}^{2}) w_{y}^{2} \\ - \frac{1}{2 \eta} \sigma_{x}^{2} (w_{x} - \beta_{\mu} w_{y})^{2} \\ \end{array}
 $$
 
 Note that there is no combination of the instruments  $Y$  and  $X$  that can eliminate the effect of  $X$ . That the effect of the instrument  $X$  may never be eliminated completely is a better depiction of the everyday experience of the portfolio manager. Probabilistic decision theory accounting for the model risk, however, gives a reasonable indication of what the portfolio manager can expect from such or another composition of the portfolio when its components are mutually dependent.
@@ -248,7 +248,7 @@ Note that there is no combination of the instruments  $Y$  and  $X$  that can el
 In more complicated settings, once the portfolio manager introduces the costs of hedging, the decision whether to hedge or not comes naturally as the consequence of the interplay between the value of hedging and the costs. Let  $y|w_{x}C| = y|\beta_{0}w_{y}C|$  be the cost associated with the hedge. Then one should hedge the position if
 
 $$
-- \frac {1}{2 \eta} (\tilde {\sigma} ^ {2} + \Gamma^ {2} \sigma_ {x} ^ {2}) w _ {y} ^ {2} - \gamma \left| \beta_ {0} w _ {y} C \right| > - \frac {1}{2 \eta} \sigma_ {y} ^ {2} w _ {y} ^ {2}
+- \frac{1}{2 \eta} (\tilde {\sigma}^{2} + \Gamma^{2} \sigma_{x}^{2}) w_{y}^{2} - \gamma \left| \beta_{0} w_{y} C \right| > - \frac{1}{2 \eta} \sigma_{y}^{2} w_{y}^{2}
 $$
 
 Hedging is justified if the model risk of the hedge plus the cost of implementing the model is smaller than the original risk that the hedge is meant to reduce.
@@ -265,20 +265,20 @@ In the next section we will address a problem of the model risk in an investment
 Let  $P$  be the face value of the zero-coupon bond,  $r$  the benchmark rate over the period of interest,  $\rho$  the multiplicative spread rate for the bond, so that
 
 $$
-\mathrm {V} = \frac {P}{(1 + r) (1 + \rho)}
+\mathrm{V} = \frac{P}{(1 + r) (1 + \rho)}
 $$ is the current fair or market price of the bond, possibly unknown. An alternative investment vehicle  $Z$  is available as in the previous section, the rate of return for this instrument being  $r_z$ .
 
 
 Let there be two possible states of the world. In the first state the bond is redeemed at the face value at the end of the period. In the second state of the world the bond is redeemed at  $P_{y}$ . The situation when  $P_{y} = 0$  is possible, in which case the investment is a total loss. If the investor purchases  $N$  units of the risky bond and the remainder of the capital is preserved in the alternative vehicle, then, at the end of the period, the investor's capital is
 
 $$
-C _ {1} = \left\{ \begin{array}{l} N P + (1 + r _ {z}) (C _ {0} - N V), \text {w i t h} (1 - p _ {d}) \\ N P _ {r} + (1 + r _ {z}) (C _ {0} - N V), \quad \text {w i t h} p _ {d} \end{array} \right.
+C_{1} = \left\{ \begin{array}{l} N P + (1 + r_{z}) (C_{0} - N V), \text{wi th} (1 - p_{d}) \\ N P_{r} + (1 + r_{z}) (C_{0} - N V), \quad \text{wi th} p_{d} \end{array} \right.
 $$
 
 In the traditional formulation the investment is justified if the expected return on capital when  $N > 0$  is greater than the expected return when  $N = 0$ . This translates into the following expression, which links all the input data of the problem and the unknown value of the bond:
 
 $$
-P \left(1 - p _ {d}\right) + P _ {r} p _ {d} > \left(1 + r _ {z}\right) V
+P \left(1 - p_{d}\right) + P_{r} p_{d} > \left(1 + r_{z}\right) V
 $$
 
 This traditional approach is a reasonably good approximation under certain conditions. A much richer view along with the set of quantitative tools is required in a general case.
@@ -295,16 +295,16 @@ Assume that the empirical data are the sample of  $n$  observations of the class
 
 
 $$
-\pi (p _ {d}, \alpha , \beta) = \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} P _ {d} ^ {d - 1} (1 - p _ {d}) ^ {\beta - 1}
+\pi (p_{d}, \alpha , \beta) = \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} P_{d}^{d - 1} (1 - p_{d})^{\beta - 1}
 $$ where
 
 
 $$
-\alpha = \alpha_ {0} + m
+\alpha = \alpha_{0} + m
 $$
 
 $$
-\beta = \beta_ {0} + n - m
+\beta = \beta_{0} + n - m
 $$ and  $\alpha_0, \beta_0$  are the parameters representing the investor's prior beliefs. In the prior distribution,  $\alpha_0$  can be interpreted as number of cases of default and  $\beta_0$  is the number of cases when the bond was repaid in full. The prior distribution's parameters can come from the investor's own experience, or from the consensus of experts, or be inferred from agency ratings. The magnitude of  $\alpha_0, \beta_0$  versus  $n, m$  determines the relative weight the investor assigns to prior beliefs. Prior beliefs dominate the data when  $\alpha_0 + \beta_0 \gg n$ .
 
 
@@ -327,20 +327,20 @@ First, we obtain an interesting estimate of the model risk contribution to the f
 We obtain formally:
 
 $$
-P \left(1 - E \left(p _ {d}\right)\right) + P _ {r} E \left(p _ {d}\right) > \left(1 + r _ {z}\right) V
+P \left(1 - E \left(p_{d}\right)\right) + P_{r} E \left(p_{d}\right) > \left(1 + r_{z}\right) V
 $$
 
 Assume that the sample size is  $n$  of which there are  $m$  defaults. A flat prior distribution  $\pi(p_d, \alpha_0, \beta_0) = \text{const}$  describes an investor who initially is ignorant. Expectation of the probability of default is then governed by the rule of succession (originally developed by Laplace):
 
 $$
-E (p _ {d}) = \frac {m + 1}{n + 2}
+E (p_{d}) = \frac{m + 1}{n + 2}
 $$
 
 The difference between this posterior expectation and the naive probability of default  $p_d = m / n$  is the contribution of the model risk to the fair price of the bond:
 
 
 $$
-\delta V = \frac {P - P _ {r}}{1 + Y _ {z}} \left\{E (p _ {\alpha}) - \frac {m}{n} \right\}
+\delta V = \frac{P - P_{r}}{1 + Y_{z}} \left\{E (p_{\alpha}) - \frac{m}{n} \right\}
 $$
 
 For example, if the naïve default rate estimate is 0.1 and it is based on 100 observations, the contribution of the model risk to the fair price of the bond can be as big as 78 basis points—not an insignificant amount: The model risk can be a substantial contributor to the overall risk of the investment. Thus, the sampling risk and the prior beliefs bias yield a substantial contribution to the overall risk of the investment.
@@ -365,20 +365,20 @@ Figure 4 Implied Distribution of the Probability of Default  $p_d$  According to
 
 
 $$
-U (p _ {d}) = - e ^ {\frac {p _ {d}}{\eta}}
+U (p_{d}) = - e^{\frac{p_{d}}{\eta}}
 $$
 
 This function describes an investor who is progressively reluctant to tolerate deviations from the expected probability of default when these deviations exceed  $\eta$ . Note that disutility of positive deviations from the expected value is growing exponentially, while the beta-distribution of  $p_d$  falls off around its mode much slower, approximately as a power function. Using a beta-distributed probability of default  $\pi(p_d, \alpha, \beta)$ , we find for the certainty equivalent
 
 $$
-\begin{array}{l} C E \left(p _ {d}\right) = U ^ {- 1} \left(E \left(U \left(p _ {d}\right)\right) \right. \\ = \eta \log \left(\Gamma (\alpha + \beta) F \left(\alpha , \alpha + \beta , \frac {1}{\eta}\right)\right) \\ \end{array}
+\begin{array}{l} C E \left(p_{d}\right) = U^{- 1} \left(E \left(U \left(p_{d}\right)\right) \right. \\ = \eta \log \left(\Gamma (\alpha + \beta) F \left(\alpha , \alpha + \beta , \frac{1}{\eta}\right)\right) \\ \end{array}
 $$ where  $F(a,b,z)$  is the regularized confluent hypergeometric function  $F_{1}(a,b,z) / \Gamma (b)$  (Weisstein, 2010). The certainty equivalent of  $CE(p_d)$  can be interpreted as an equivalent certain probability of default, which supplies the same value for the investor as the uncertain probability of default—given the investor's risk preferences.
 
 
 In the limit  $\eta \to \infty$
 
 $$
-C E (p _ {d}) \rightarrow \frac {\alpha}{\alpha + \beta} \left(1 + \frac {\frac {1 + \alpha}{\alpha + \beta + 1}}{\eta}\right) + 0 (\eta^ {- 2})
+C E (p_{d}) \rightarrow \frac{\alpha}{\alpha + \beta} \left(1 + \frac{\frac{1 + \alpha}{\alpha + \beta + 1}}{\eta}\right) + 0 (\eta^{- 2})
 $$
 
 At high tolerances  $CE(p_d)$  coincides with the mean naive probability of default. As the investor's risk tolerance decreases, however, the certainty equivalent grows more and more rapidly. A plot of the exact certainty equivalent probability of default as the function of the model risk tolerance is shown in Figure 5. The parameters of the distribution are  $\alpha = 1.45$  and  $\beta = 15$ , and the dashed line is the asymptote  $\alpha / (\alpha + \beta)$ .

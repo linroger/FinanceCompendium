@@ -24,7 +24,7 @@ We begin with the mathematics of fat-tailed processes, followed by a discussion 
 
 Consider a random variable  $X$ . By definition,  $X$  is a real-valued function from the set  $\Omega$  of the possible outcomes to the set  $R$  of real numbers, such that the set  $(X \leq x)$  is an event. If  $P(X \leq x)$  is the probability of the event  $(X \leq x)$ , the function  $F(x) = P(X \leq x)$  is a well-defined function for every real number  $x$ . The function  $F(x)$  is called the cumulative distribution function, or simply the distribution function, of the random variable  $X$ . Note that  $X$  denotes a function  $\Omega \to R$ ,  $x$  is a real variable, and  $F(x)$  is an ordinary real-valued function that assumes values in the interval [0,1]. If the function  $F(x)$  admits a derivative
 
-$$ f (x) = \frac {d F (x)}{d x}
+$$ f (x) = \frac{d F (x)}{d x}
 $$
 
 The function  $f(x)$  is called the probability density of the random variable  $X$ . The function  $\bar{F}(x) = 1 - F(x)$  is the tail of the distribution  $F(x)$ . The function  $\bar{F}(x)$  is called the survival function.
@@ -47,14 +47,14 @@ The notion of fat-tailedness can be made quantitative as different distributions
 Many important classes of fat-tailed distributions have been defined; each is characterized by special statistical properties that are important in given application domains. We will introduce a number of such classes in order of inclusion, starting from the class with the broadest membership: the class  $\mathfrak{L}$ , which is defined as follows. Suppose that  $F$  is a distribution function defined in the domain  $(0,\infty)$  with  $F < 1$  in the entire domain (i.e.,  $F$  is the distribution function of a positive random variable with a tail that never decays to zero). It is said that  $F \in \mathfrak{L}$  if, for any  $y > 0$ , the following property holds:
 
 $$
-\lim _ {x \to \infty} \frac {\bar {F} (x - y)}{\bar {F} (x)} = 1, \forall y > 0
+\lim_{x \to \infty} \frac{\bar {F} (x - y)}{\bar {F} (x)} = 1, \forall y > 0
 $$
 
 We can rewrite the above property in an equivalent (and perhaps more intuitive from the probabilistic point of view) way. Under the same assumptions as above, it is said that, given a positive random variable  $X$ , its distribution function  $F \in \mathfrak{L}$  if the following property holds for any  $y > 0$ :
 
 
 $$
-\begin{array}{l} \lim  _ {x \rightarrow \infty} P (X > x + y | X > x) \\ = \lim  _ {x \rightarrow \infty} \frac {\bar {F} (x + y)}{\bar {F} (x)} = 1, \forall y > 0 \\ \end{array}
+\begin{array}{l} \lim_{x \rightarrow \infty} P (X > x + y | X > x) \\ = \lim_{x \rightarrow \infty} \frac{\bar {F} (x + y)}{\bar {F} (x)} = 1, \forall y > 0 \\ \end{array}
 $$
 
 Intuitively, this second property means that if it is known that a random variable exceeds a given value  $x$ , then it will exceed any bigger value with certainty as the value  $x$  tends to infinity. Some authors define a distribution as being heavy-tailed if it satisfies this property.[2]
@@ -76,24 +76,24 @@ The convolution closure property of the tails prescribes that the shape of the t
 
 
 $$
-\lim  _ {x \rightarrow \infty} \frac {\bar {F} ^ {n ^ {*}} (x)}{\bar {F} (x)} = n
+\lim_{x \rightarrow \infty} \frac{\bar {F}^{n^{*}} (x)}{\bar {F} (x)} = n
 $$
 
 Note that Gaussian distributions do not have this property although the sum of independent Gaussian distributions is again a Gaussian distribution. Subexponential distributions can be characterized by another important (and perhaps more intuitive) property, which is equivalent to the convolution closure property: In a sum of  $n$  variables, the largest value will be of the same order of magnitude as the sum itself. For any  $n$ , define
 
 $$
-S _ {n} (x) = \sum_ {i = 1} ^ {n} X _ {i}
+S_{n} (x) = \sum_{i = 1}^{n} X_{i}
 $$ as a sum of independent and identical copies of a variable  $X$  and call  $M_{n}$  their maxima. In the limit of large  $x$ , the probability that the tail of the sum exceeds  $x$  equals the probability that the largest summand exceeds  $x$ :
 
 
 $$
-\lim  _ {x \rightarrow \infty} \frac {P (S _ {n} > x)}{P (M _ {n} > x)} = 1
+\lim_{x \rightarrow \infty} \frac{P (S_{n} > x)}{P (M_{n} > x)} = 1
 $$
 
 The class  $S$  of subexponential distributions is a proper subset of the class  $\mathfrak{L}$ . Every subexponential distribution belongs to the class  $\mathfrak{L}$  while it can be demonstrated (but this is not trivial) that there are distributions that belong to the class  $\mathfrak{L}$  but not to the class  $S$ . Distributions that have both properties are called subexponential as it can be demonstrated that, as all distributions in  $\mathfrak{L}$ , they satisfy the property:
 
 $$
-\lim  _ {x \rightarrow \infty} \bar {F} (x) e ^ {\lambda x} = \infty , \forall \lambda > 0
+\lim_{x \rightarrow \infty} \bar {F} (x) e^{\lambda x} = \infty , \forall \lambda > 0
 $$
 
 Note, however, that the class of distributions that satisfies the latter property is broader than the class of subexponential distributions; this is because the former includes, for instance, the class  $\mathfrak{L}$ .
@@ -112,7 +112,7 @@ Power-law distributions are a particularly important subset of subexponential di
 A positive function  $f$  is said to be regularly varying with index  $\alpha$  or  $f\in \Re (\alpha)$  if the following condition holds:
 
 $$
-\lim  _ {x \rightarrow \infty} \frac {f (t x)}{f (x)} = t ^ {\alpha}
+\lim_{x \rightarrow \infty} \frac{f (t x)}{f (x)} = t^{\alpha}
 $$
 
 A function  $f \in \Re(\alpha)$  is called slowly varying. It can be demonstrated that a regularly varying function  $f(x)$  of index  $\alpha$  admits the representation  $f(x) = x^{\alpha} l(x)$  where  $l(x)$  is a slowly varying function.
@@ -120,12 +120,12 @@ A function  $f \in \Re(\alpha)$  is called slowly varying. It can be demonstrate
 A distribution  $F$  is said to have a regularly varying tail if the following property holds:
 
 $$
-\bar {F} = x ^ {- \alpha} l (x)
+\bar {F} = x^{- \alpha} l (x)
 $$ where  $l$  is a slowly varying function. An example of a distribution with a regularly varying tail is Pareto's law. The latter can be written in various ways, including the following:
 
 
 $$
-\bar {F} (x) = P (X > x) = \frac {c}{c + x ^ {\alpha}} \text {f o r} x \geq 0
+\bar {F} (x) = P (X > x) = \frac{c}{c + x^{\alpha}} \text{fo r} x \geq 0
 $$
 
 Power-law distributions are thus distributions with regularly varying tails. It can be demonstrated that they satisfy the convolution closure property of the tail. The distribution of the sum of  $n$  independent variables of tail index  $\alpha$  is a power-law distribution of the same index  $\alpha$ . Note that this property holds in the limit for  $x \to \infty$ . Distributions with regularly varying tails are therefore a proper subset of subexponential distributions.
@@ -133,7 +133,7 @@ Power-law distributions are thus distributions with regularly varying tails. It 
 Being subexponential, power laws have all the general properties of fat-tailed distributions and some additional ones. One particularly important property of distributions with regularly varying tails, valid for every tail index, is the rank-size order property. Suppose that samples from a power law of tail index  $\alpha$  are ordered by size, and call  $S_{r}$  the size of the  $r$ th sample. One then finds that the law
 
 $$
-S _ {r} = a r ^ {- \frac {1}{\alpha}}
+S_{r} = a r^{- \frac{1}{\alpha}}
 $$ is approximately verified. The well-known Zipf's law is an example of this rank-size ordering. Zipf's law states that the size of an observation is inversely proportional to its rank. For example, the frequency of words in an English text is inversely proportional to their rank. The same is approximately valid for the size of U.S. cities.
 
 
@@ -149,13 +149,13 @@ The two versions of the WLLN are formulated as follows.
 1. Suppose that the variables  $X_{i}$  are IID with finite mean  $E[X_i] = E[X] = \mu$  Under this condition it can be demonstrated that the empirical average tends to the mean in probability:
 
 $$
-\bar {X} _ {n} = \frac {\sum_ {i = 1} ^ {n} X _ {i}}{n} \xrightarrow [ n \to \infty ]{P} E [ X ] = \mu
+\bar {X}_{n} = \frac{\sum_{i = 1}^{n} X_{i}}{n} \xrightarrow [ n \to \infty ]{P} E [ X ] = \mu
 $$
 
 2. If the variables are only independently distributed (ID) but have finite means and variances  $(\mu_{i},\sigma_{i})$ , then the following relationship holds:
 
 $$
-\bar {X} _ {n} = \frac {\sum_ {i = 1} ^ {n} X _ {i}}{n} \xrightarrow [ n \to \infty ]{P} \frac {\sum_ {i = 1} ^ {n} \bar {X} _ {i}}{n} = \frac {\sum_ {i = 1} ^ {n} \mu_ {i}}{n}
+\bar {X}_{n} = \frac{\sum_{i = 1}^{n} X_{i}}{n} \xrightarrow [ n \to \infty ]{P} \frac{\sum_{i = 1}^{n} \bar {X}_{i}}{n} = \frac{\sum_{i = 1}^{n} \mu_{i}}{n}
 $$
 
 In other words, the empirical average of a sequence of finite-mean finite-variance variables tends to the average of the means.
@@ -165,45 +165,45 @@ The two versions of the SLLN are formulated as follows.
 1. The empirical average of a sequence of IID variables  $X_{i}$  tends almost surely to a constant  $a$  if and only if the expected value of the variables is finite. In addition, the constant  $a$  is equal to  $\mu$ . Therefore, if and only if  $|E[X_i]| = |E[X]| = |\mu| < \infty$  the following relationship holds:
 
 $$
-\bar {X} _ {n} = \frac {\sum_ {i = 1} ^ {n} X _ {i}}{n} \xrightarrow [ n \to \infty ]{A . S.} E [ X ] = \mu
+\bar {X}_{n} = \frac{\sum_{i = 1}^{n} X_{i}}{n} \xrightarrow [ n \to \infty ]{A . S.} E [ X ] = \mu
 $$ where convergence is in the sense of almost sure convergence.
 
 
 2. If the variables  $X_{i}$  are only independently distributed (ID) but have finite means and variances  $(\mu_i,\sigma_i)$  and
 
 $$
-\lim  _ {n \rightarrow \infty} \frac {1}{n ^ {2}} \sum_ {i = 1} ^ {n} \sigma_ {i} ^ {2} <   \infty
+\lim_{n \rightarrow \infty} \frac{1}{n^{2}} \sum_{i = 1}^{n} \sigma_{i}^{2} <   \infty
 $$ then the following relationship holds:
 
 
 $$
-\bar {X} _ {n} = \frac {\sum_ {i = 1} ^ {n} X _ {i}}{n} \xrightarrow [ n \to \infty ]{A . S .} \frac {\sum_ {i = 1} ^ {n} \bar {X} _ {i}}{n} = \frac {\sum_ {i = 1} ^ {n} \mu_ {i}}{n}
+\bar {X}_{n} = \frac{\sum_{i = 1}^{n} X_{i}}{n} \xrightarrow [ n \to \infty ]{A . S .} \frac{\sum_{i = 1}^{n} \bar {X}_{i}}{n} = \frac{\sum_{i = 1}^{n} \mu_{i}}{n}
 $$
 
 Suppose the variables are IID. If the scaling factor  $n$  is replaced with  $\sqrt{n}$ , then the limit relation no longer holds as the normalized sum
 
 $$
-\frac {\sum_ {i = 1} ^ {n} X _ {i}}{\sqrt {n}}
+\frac{\sum_{i = 1}^{n} X_{i}}{\sqrt{n}}
 $$ diverges. However, if the variables have finite second-order moments, he classical version of the CLT can be demonstrated. In fact, under the assumption that both first- and second-order moments are finite, it can be shown that
 
 
 $$
-\frac {S _ {n} - n \mu}{\sigma \sqrt {n}} \stackrel {D} {\to} \Phi
+\frac{S_{n} - n \mu}{\sigma \sqrt{n}} \stackrel {D} {\to} \Phi
 $$
 
 $$
-S _ {n} = \sum_ {i = 1} ^ {n} X _ {i}
+S_{n} = \sum_{i = 1}^{n} X_{i}
 $$ where  $\mu, \sigma$  are respectively the expected value and standard deviation of  $X$ , and  $\Phi$  the standard normal distribution.
 
 
 If the tail index  $\alpha > 1$ , variables have finite expected value and the SLNN holds. If the tail index  $\alpha > 2$ , variables have finite variance and the CLT in the previous form holds. If the tail index  $\alpha \leq 2$ , then variables have infinite variance: The CLT in the previous form does not hold. In fact, variables with  $\alpha \leq 2$  belong to the domain of attraction of a stable law of index  $\alpha$ . This means that a sequence of properly normalized and centered sums tends to a stable distribution with infinite variance. In this case, the CLT takes the form
 
 $$
-\frac {S _ {n} - n \mu}{n ^ {\frac {1}{\alpha}}} \stackrel {D} {\rightarrow} G _ {\alpha}, \text {i f} 1 <   \alpha \leq 2
+\frac{S_{n} - n \mu}{n^{\frac{1}{\alpha}}} \stackrel {D} {\rightarrow} G_{\alpha}, \text{if } 1 <   \alpha \leq 2
 $$
 
 $$
-\frac {S _ {n}}{n ^ {\frac {1}{\alpha}}} \stackrel {D} {\to} G _ {\alpha}, \text {i f} 0 <   \alpha \leq 1
+\frac{S_{n}}{n^{\frac{1}{\alpha}}} \stackrel {D} {\to} G_{\alpha}, \text{if } 0 <   \alpha \leq 1
 $$ where  $G$  are stable distributions as defined below. Note that the case  $\alpha = 2$  is somewhat special: variables with this tail index have infinite variance but fall nevertheless in the domain of attraction of a normal variable, that is,  $G_{2}$ . Below the threshold 1, distributions have neither finite variance nor finite mean. There is a sharp change in the normalization behavior at this tail-index threshold.
 
 
@@ -214,12 +214,12 @@ Stable distributions are not, in their generality, a subset of fat-tailed distri
 The above can be formalized as follows: Stable distributions can be defined as those distributions for which the following identity in distribution holds for any number  $n \geq 2$ :
 
 $$
-\sum_ {i = 1} ^ {n} X _ {i} \stackrel {D} {=} C _ {n} X + D _ {n}
+\sum_{i = 1}^{n} X_{i} \stackrel {D} {=} C_{n} X + D_{n}
 $$ where  $X_{i}$  are identical independent copies of  $X$  and the  $C_n$ ,  $D_{n}$  are constants. Alternatively, the same property can be expressed stating that stable distributions are distributions for which the following identity in distribution holds:
 
 
 $$
-A X _ {1} + B X _ {2} \stackrel {D} {=} C X + D
+A X_{1} + B X_{2} \stackrel {D} {=} C X + D
 $$
 
 Stable distributions are also characterized by another property that might be used in defining them: a stable distribution has a domain of attraction (i.e., it is the limit in distribution of a normalized and centered sum of identical and independent variables). Stable distributions coincide with all variables that have a domain of attraction.
@@ -227,12 +227,12 @@ Stable distributions are also characterized by another property that might be us
 Except in the special cases of Gaussian  $(\alpha = 2)$ , symmetric Cauchy  $(\alpha = 1, \beta = 0)$ , and stable inverse Gaussian  $(\alpha = \frac{1}{2}, \beta = 0)$  distributions, stable distributions cannot be written as simple formulas; formulas have been discovered but are not simple. However, stable distributions can be characterized in a simple way through their characteristic function, the Fourier transform of the distribution function. In fact, this function can be written as
 
 $$
-\Phi_ {X} (t) = \exp [ i \gamma t - c | t | ^ {\alpha} [ 1 - i \beta \operatorname {s i g n} (t) z (t, \alpha) ] \}
+\Phi_{X} (t) = \exp [ i \gamma t - c | t |^{\alpha} [ 1 - i \beta \operatorname{si gn} (t) z (t, \alpha) ] \}
 $$ where  $t\in R,\gamma \in R,c > 0,\alpha \in (0,2),\beta \in [-1,1],$  and
 
 
 $$
-\begin{array}{l} z (t, \alpha) = \tan \frac {\pi \alpha}{2} \mathrm {i f} \alpha \neq 1 \\ z (t, \alpha) = - 2 \log | t | \text {i f} \alpha = 1 \\ \end{array}
+\begin{array}{l} z (t, \alpha) = \tan \frac{\pi \alpha}{2} \mathrm{if} \alpha \neq 1 \\ z (t, \alpha) = - 2 \log | t | \text{if } \alpha = 1 \\ \end{array}
 $$
 
 It can be shown that only distributions with this characteristic function are stable distributions (i.e., they are the only distributions closed under summation). A stable law is characterized by four parameters:  $\alpha, \beta, c,$  and  $\gamma$ . Normal distributions correspond to the parameters:  $\alpha = 2, \beta = 0, \gamma = 0$ .
@@ -259,7 +259,7 @@ Figure 1 The Distribution of the Maxima of a Normal Variable
 Consider a sequence of independent variables  $X_{i}$  with common, nondegenerate distribution  $F$  and the maxima of samples extracted from this sequence:
 
 $$
-M _ {1} = X _ {1}, M _ {n} = \max  (X _ {1}, \dots , X _ {n})
+M_{1} = X_{1}, M_{n} = \max  (X_{1}, \dots , X_{n})
 $$
 
 The maxima  $M_{n}$  form a new sequence of random variables, which are not, however, independent.
@@ -267,7 +267,7 @@ The maxima  $M_{n}$  form a new sequence of random variables, which are not, how
 As the variables of the sequence  $X_{i}$  are assumed to be independent, the distribution  $F_{n}$  of the maxima  $M_{n}$  can be immediately written down:
 
 $$
-F (x) _ {n} = P \left(X _ {1} \leq x \vee \dots \vee X _ {n} \leq x\right) = F ^ {n} (x)
+F (x)_{n} = P \left(X_{1} \leq x \vee \dots \vee X_{n} \leq x\right) = F^{n} (x)
 $$ where  $\vee$  is the logical symbol for and.
 
 
@@ -275,13 +275,13 @@ If the distribution  $F$ , which is a nondecreasing function, reaches 1 at a fin
 
 
 $$
-\lim  _ {n \rightarrow \infty} P \left(M _ {n} <   x\right) = \lim  _ {n \rightarrow \infty} F _ {n} (x) = 0, \text {f o r} x <   x _ {F}
+\lim_{n \rightarrow \infty} P \left(M_{n} <   x\right) = \lim_{n \rightarrow \infty} F_{n} (x) = 0, \text{fo r} x <   x_{F}
 $$
 
 If  $x_{F}$  is finite,
 
 $$
-P \left(M _ {n} <   x\right) = F _ {n} (x) = 1, \text {f o r} x > x _ {F}
+P \left(M_{n} <   x\right) = F_{n} (x) = 1, \text{fo r} x > x_{F}
 $$
 
 The point  $x_{F}$  is called the right endpoint of the distribution  $F$ .
@@ -296,7 +296,7 @@ A fundamental result on the behavior of maxima is the Fisher-Tippett theorem, wh
 Figure 2 The Distribution of Frechet, Gumbel, and Weibull
 
 
-$$ c _ {n} ^ {- 1} (M _ {n} - d _ {n}) \stackrel {D} {\to} H
+$$ c_{n}^{- 1} (M_{n} - d_{n}) \stackrel {D} {\to} H
 $$ then  $H$  is one of the following distributions:
 
 
@@ -316,13 +316,13 @@ We can now ask if there are conditions on the distribution  $F$  that ensure the
 
 A random variable  $X$  is said to belong to the  $\mathrm{MDA}(H)$  of the extreme value distribution  $H$  if there exist constants  $c_{n} > 0$ ,  $d_{n}\in R$  such that
 
-$$ c _ {n} ^ {- 1} \left(M _ {n} - d _ {n}\right) \stackrel {D} {\rightarrow} H
+$$ c_{n}^{- 1} \left(M_{n} - d_{n}\right) \stackrel {D} {\rightarrow} H
 $$
 
 Two distribution functions  $F, G$  are said to be tail equivalent if they have the same right endpoints and the following condition holds:
 
 $$
-\lim  _ {x \rightarrow \infty} \frac {\bar {F} (x)}{\bar {G} (x)} = c, 0 <   c <   \infty
+\lim_{x \rightarrow \infty} \frac{\bar {F} (x)}{\bar {G} (x)} = c, 0 <   c <   \infty
 $$
 
 Tail equivalence is an important concept for characterizing MDAs. In fact, it can be demonstrated that every  $\mathrm{MDA}(H)$  is closed with respect to tail equivalence (i.e., if two distribution functions  $F$  and  $G$  are tail equivalent  $F\in$ $\mathrm{MDA}(H)$  if and only if  $G\in \mathrm{MDA}(H)$ ). Tail equivalence allows for a powerful characterization of the three MDAs.
@@ -330,7 +330,7 @@ Tail equivalence is an important concept for characterizing MDAs. In fact, it ca
 Let's first define the quantile function. Given a distribution function  $F$ , the quantile function of  $F$ , written  $F^{\leftarrow}(x)$ , is defined as follows:
 
 $$
-F ^ {\leftarrow} (x) = \inf  [ s \in R: F (s) \geq x ], 0 <   x <   1
+F^{\leftarrow} (x) = \inf  [ s \in R: F (s) \geq x ], 0 <   x <   1
 $$
 
 # The MDA of the Frechet Distribution
@@ -339,13 +339,13 @@ The Frechet distribution is written as  $\Phi_{\alpha}(x) = \exp (-x^{-\alpha})$
 
 It can be demonstrated that a distribution function  $F$  belongs to the MDA of a Frechet distribution  $\Phi_{\alpha}(x), \alpha > 0$  if and only if there is a slowly varying function  $L$  such that  $\bar{F}(x) = x^{-\alpha} L(x)$ . In this case, the constants assume the values
 
-$$ c _ {n} = (1 / F ^ {\leftarrow}) (n), d _ {n} = 0
+$$ c_{n} = (1 / F^{\leftarrow}) (n), d_{n} = 0
 $$
 
 We can rewrite this condition more compactly as follows:
 
 $$
-F \in \operatorname {M D A} \left(\Phi_ {\alpha}\right) \Leftrightarrow \bar {F} \in R _ {- \alpha}
+F \in \operatorname{MD A} \left(\Phi_{\alpha}\right) \Leftrightarrow \bar {F} \in R_{- \alpha}
 $$
 
 From the above definitions it can be demonstrated that the following five distributions belong to the MDA of the Frechet distribution: (1) Pareto; (2) Cauchy; (3) Burr; (4) stable laws with exponent  $\alpha < 2$ ; or (5) log-gamma distribution.
@@ -355,34 +355,34 @@ From the above definitions it can be demonstrated that the following five distri
 The Weibull distribution is written as follows:
 
 $$
-\Psi_ {\alpha} = \exp [ - (- x ^ {- \alpha}) ]
+\Psi_{\alpha} = \exp [ - (- x^{- \alpha}) ]
 $$
 
 The Weibull and the Frechet distributions are closely related to each other. In fact, it is clear from the definition that the following relationship holds:
 
 $$
-\Psi_ {\alpha} (x) = \Phi_ {\alpha} (- x ^ {- 1}), x > 0
+\Psi_{\alpha} (x) = \Phi_{\alpha} (- x^{- 1}), x > 0
 $$
 
 One can therefore expect that the MDA of the two distributions are closely related. In fact, it can be demonstrated that a distribution function  $F$  belongs to the MDA of a Weibull distribution  $\alpha > 0$  if and only if
 
-$$ x _ {F} <   \infty
+$$ x_{F} <   \infty
 $$ and
 
 
 $$
-\bar {F} (x _ {F} - x ^ {- 1}) = x ^ {- \alpha} L (x)
+\bar {F} (x_{F} - x^{- 1}) = x^{- \alpha} L (x)
 $$ where  $L$  is a slowly varying function.
 
 
 If
 
 $$
-F \in M D A (\Psi_ {\alpha})
+F \in M D A (\Psi_{\alpha})
 $$ then
 
 
-$$ c _ {n} ^ {- 1} (M _ {n} - x _ {F}) \stackrel {D} {\to} \Psi_ {\alpha}
+$$ c_{n}^{- 1} (M_{n} - x_{F}) \stackrel {D} {\to} \Psi_{\alpha}
 $$
 
 The MDA of the Weibull distribution includes important distributions such as the distribution uniform in (0,1), power laws truncated to the right, and beta distributions.
@@ -399,7 +399,7 @@ The MDA of a Gumbel distribution encompasses a large class of distributions that
 Stable distributions remain unchanged after summation; max-stable distributions remain unchanged after taking maxima. A nondegenerate random variable  $X$  and the relative distribution is called max-stable if there are constants  $c_{n} > 0$ ,  $d_{n} \in R$  such that the following conditions are satisfied
 
 $$
-\max (X _ {1}, \ldots , X _ {n}) \stackrel {D} {=} c _ {n} X + d _ {n}
+\max (X_{1}, \ldots , X_{n}) \stackrel {D} {=} c_{n} X + d_{n}
 $$ where  $X, X_1, \ldots, X_n$  are IID variables.
 
 
@@ -410,7 +410,7 @@ It can be demonstrated that the class of max-stable distributions coincides with
 The three extreme value distributions, Frechet, Weibull, and Gumbel, can be represented as a one-parameter family of distributions through the standard generalized extreme value distribution (GEV) of Jenkinson and Von Mises. Define the distribution function  $H_{\xi}$  as follows:
 
 $$
-H _ {\xi} = \left\{ \begin{array}{l l} \exp [ - (1 + \xi x) ^ {- 1 / \xi} ] & \text {f o r} \xi \neq 0 \\ \exp (- \exp (- x)) & \text {f o r} \xi = 0 \end{array} \right.
+H_{\xi} = \left\{ \begin{array}{l l} \exp [ - (1 + \xi x)^{- 1 / \xi} ] & \text{fo r} \xi \neq 0 \\ \exp (- \exp (- x)) & \text{fo r} \xi = 0 \end{array} \right.
 $$ where  $1 + \xi x > 0$ . One can see from the definition that  $\xi = \alpha^{-1} > 0$  corresponds to the Frechet distribution,  $\xi = 0$  corresponds to the Gumbel distribution, and  $\xi = -\alpha^{-1} < 0$  corresponds to the Weibull distribution. We can now introduce the related location-scale dependent family  $H_{\xi ;\mu ,\psi}$  by replacing the argument  $x$  with  $(x - \mu) / \psi$ .
 
 
@@ -419,23 +419,23 @@ $$ where  $1 + \xi x > 0$ . One can see from the definition that  $\xi = \alpha^
 The behavior of order statistics is a useful tool for characterizing fat-tailed distributions. For instance, the famous Zipf's law is an example of the behavior of order statistics. Consider a sample  $X_{1},\ldots ,X_{n}$  made of  $n$  independent draws from the same distribution  $F$ . Let's arrange the sample in decreasing order:
 
 $$
-X _ {n, n} \leq \ldots \leq X _ {1, n}
+X_{n, n} \leq \ldots \leq X_{1, n}
 $$
 
 The random variable  $X_{k,n}$  is called the kth upper order statistic. It can be demonstrated that the distribution of the kth upper order statistic is
 
 $$
-F _ {k, n} = P \left(X _ {k, n} <   x\right) = \sum_ {r = 0} ^ {k - 1} \bar {F} ^ {r} (x) F ^ {n - r} (x)
+F_{k, n} = P \left(X_{k, n} <   x\right) = \sum_{r = 0}^{k - 1} \bar {F}^{r} (x) F^{n - r} (x)
 $$
 
 In addition, if  $F$  is continuous, it has a density with respect to  $F$  such that
 
 $$
-F _ {k, n} = \int_ {- \infty} ^ {x} f _ {k, n} (z) d F (z)
+F_{k, n} = \int_{- \infty}^{x} f_{k, n} (z) d F (z)
 $$ where
 
 
-$$ f _ {k, n} = \frac {n !}{(k - 1) ! (n - k) !} \bar {F} ^ {k - 1} (x) F ^ {n - k} (x)
+$$ f_{k, n} = \frac{n !}{(k - 1) ! (n - k) !} \bar {F}^{k - 1} (x) F^{n - k} (x)
 $$
 
 The differences between two consecutive variables in a sample  $X_{k,n} - X_{k+1,n}$  are random variables called spacings. In the case of variables with finite right endpoint  $x_F$  the zero-th spacing is defined as:  $X_{0,n} - X_{1,n} = x_F - X_{1,n}$ . The distribution of spacings depends on the distribution  $F$ . For instance, it can be demonstrated that the spacings of an exponential random variable are independent, exponential random variables with mean  $1/n$  for an  $n$ -sample. Spacings are a key concept for the definition of the Hill estimator, as explained later in this section.
@@ -444,7 +444,7 @@ Another key concept, which is related to spacings, is that of quantile transform
 
 
 $$
-F ^ {\leftarrow} (x) = \inf  \{s \in R: F (s) \geq x \}, 0 <   x <   1
+F^{\leftarrow} (x) = \inf  \{s \in R: F (s) \geq x \}, 0 <   x <   1
 $$
 
 It can be demonstrated that the following results hold:
@@ -456,20 +456,20 @@ $\cdot (X_{1,n},\ldots ,X_{n,n})\stackrel {D}{=}[F\leftarrow (U_{1,n}),\ldots ,F
 To appreciate the importance of the quantile transformation, let's introduce first the notion of empirical distribution function and second the Glivenko-Cantelli theorem. The empirical distribution function  $F_{n}$  of a sample  $X_{1},\ldots ,X_{n}$  is defined as follows:
 
 $$
-F _ {n} (x) = \frac {1}{n} \sum_ {i = 1} ^ {n} I \left(X _ {i} \leq x\right)
+F_{n} (x) = \frac{1}{n} \sum_{i = 1}^{n} I \left(X_{i} \leq x\right)
 $$ where  $I$  is the indicator function. In other words, for each  $x$ , the empirical distribution function counts the number of samples that are less than or equal to  $x$ .
 
 
 The Glivenko-Cantelli theorem provides the theoretical underpinning of nonparametric statistics. It states that, if the samples  $X_{1},\ldots ,X_{n}$  are independent draws from the distribution  $F$  the empirical distribution function  $F_{n}$  tends to  $F$  for large  $n$  in the sense that
 
 $$
-\Delta_ {n} = \sup  _ {x \in R} | F _ {n} (x) - F (x) | \stackrel {a. s.} {\rightarrow} 0, \text {f o r} n \rightarrow \infty
+\Delta_{n} = \sup_{x \in R} | F_{n} (x) - F (x) | \stackrel {a. s.} {\rightarrow} 0, \text{fo r} n \rightarrow \infty
 $$
 
 The quantile transformation tells us that in cases where  $F$  is a Pareto distribution, if we approximate  $n$  random draws from a uniformly distributed variable as the sequence  $1,2,\ldots ,n$ , then the corresponding values of the sample  $X_{1},\ldots ,X_{n}$  will be
 
 $$
-\frac {1}{1}, \frac {1}{2}, \dots \frac {1}{n}
+\frac{1}{1}, \frac{1}{2}, \dots \frac{1}{n}
 $$ which is a statement of Zipf's law.
 
 
@@ -477,7 +477,7 @@ From the quantile transformation, the limit law of the ratio between two success
 
 
 $$
-\frac {X _ {k , n}}{X _ {k + 1 , n}} = 1, \frac {k}{n} \rightarrow 0
+\frac{X_{k , n}}{X_{k + 1 , n}} = 1, \frac{k}{n} \rightarrow 0
 $$
 
 # Point Process of Exceedances or Peaks over Threshold
@@ -497,12 +497,12 @@ Figure 3 Distribution of a Poisson Variable
 Consider a subspace  $E$  of a finite dimensional Euclidean space of dimension  $n$ . Consider also the  $\sigma$ -algebra  $\mathfrak{B}$  of the Borel sets generated by open sets in  $E$ . The space  $E$  is called the state space. For each point  $x$  in  $E$  and for each set  $A \in \mathfrak{B}$ , define the Dirac measure  $\varepsilon_x$  as
 
 $$
-\varepsilon_ {x} = \left\{ \begin{array}{l l} 1 & \text {i f} \quad x \in \mathrm {A} \\ 0 & \text {i f} \quad x \notin \mathrm {A} \end{array} \right.
+\varepsilon_{x} = \left\{ \begin{array}{l l} 1 & \text{if } \quad x \in \mathrm{A} \\ 0 & \text{if } \quad x \notin \mathrm{A} \end{array} \right.
 $$
 
 For any given sequence  $x_{i}, i \geq 1$  of points in  $E$ , define the following set function:
 
-$$ m (A) = \sum_ {i = 1} ^ {\infty} \varepsilon_ {x _ {i}} (A) = \operatorname {c a r d} \{i: X _ {i} \in A \}, A \in \mathfrak {B}
+$$ m (A) = \sum_{i = 1}^{\infty} \varepsilon_{x_{i}} (A) = \operatorname{ca rd} \{i: X_{i} \in A \}, A \in \mathfrak {B}
 $$
 
 It can be verified that  $m(A)$  is a measure  $\mathfrak{B}$ , called a counting measure. If a counting mea sure is finite on each compact set, then it is called a point measure. In other words, any given countable sequence in  $E$  generates a counting measure on  $\mathfrak{V}$ .
@@ -511,7 +511,7 @@ It can be verified that  $m(A)$  is a measure  $\mathfrak{B}$ , called a countin
 A point process is obtained associating to each family of sets  $A_{i} \in \mathfrak{B}$  the joint probability distributions:
 
 $$
-\Pr \{m (A _ {i}) = n _ {i}; i = 1, 2, \dots , k; k = 1, 2, \dots \}
+\Pr \{m (A_{i}) = n_{i}; i = 1, 2, \dots , k; k = 1, 2, \dots \}
 $$
 
 To make this definition mathematically rigorous, a point process can be defined as a measurable map from some probability space to the set of all point measures equipped with an appropriate  $\sigma$ -algebra. Besides the mathematical details, it should be clear that point processes are defined by the probability distribution of the number of points that fall in each set  $A$  of some  $\sigma$ -algebra. The key ingredients of point processes are (1) counting measures that associate to each set  $A$  the number of points of each discrete sequence that falls in  $A$  with the additivity restrictions of measures and (2) probability distributions defined over the space of counting measures.
@@ -519,7 +519,7 @@ To make this definition mathematically rigorous, a point process can be defined 
 Equipped with the general concept of point processes, we can now define the point process of exceedances. Consider a threshold formed by any real number  $u$  and a sequence of random variables  $X_{i}, i = 1,2,\ldots$ . The point process of exceedances with state space  $E = (0,1)$  counts the number of instances where the random variables  $X_{i}$  exceed the threshold  $u$ :
 
 $$
-N _ {n} (A) = \sum_ {i = 1} ^ {\infty} \varepsilon_ {i / n} (A) = \operatorname {c a r d} \{i \leq n \text {a n d} X _ {i} > u \}
+N_{n} (A) = \sum_{i = 1}^{\infty} \varepsilon_{i / n} (A) = \operatorname{ca rd} \{i \leq n \text{an d} X_{i} > u \}
 $$
 
 Note that in this case the state space specifies the size of the sample.
@@ -538,7 +538,7 @@ It turns out that these three problems cannot be easily separated. In fact, ther
 The first fundamental tool is the graphical representation of data, in particular the quantile plot or QQ-plot defined as the following set:
 
 $$
-\left\{X _ {k, n}, F ^ {\leftarrow} \left(\frac {n - k + 1}{n + 1}\right): k = 1, 2, \dots , n \right\}
+\left\{X_{k, n}, F^{\leftarrow} \left(\frac{n - k + 1}{n + 1}\right): k = 1, 2, \dots , n \right\}
 $$
 
 The quantile transformation and the Glivenko-Cantelli theorem allow concluding that this plot must be approximately linear. Should  $F$  be a Pareto distribution, the linearity of the QQ-plot is another statement of Zipf's law. The quantile plot allows a quick verification of a statistical hypotheses by checking the approximate linearity of the plot. It also allows the modeler to form a preliminary opinion on where the tail begins and whether the model fails at the far end of the tail.
@@ -546,12 +546,12 @@ The quantile transformation and the Glivenko-Cantelli theorem allow concluding t
 Though invaluable as an exploratory tool, graphics rely on human judgment and intuition. Rigorous tests are needed. A starting point is parameter estimation for the generalized extreme value (GEV) distribution that we write as
 
 $$
-\begin{array}{l} H _ {\xi ; \mu , \Psi} (x) = \exp \left\{- \left(1 + \xi \frac {x - \mu}{\Psi}\right) ^ {- 1 / \xi} \right\}, \\ 1 + \xi \frac {x - \mu}{\Psi} > 0 \\ \end{array}
+\begin{array}{l} H_{\xi ; \mu , \Psi} (x) = \exp \left\{- \left(1 + \xi \frac{x - \mu}{\Psi}\right)^{- 1 / \xi} \right\}, \\ 1 + \xi \frac{x - \mu}{\Psi} > 0 \\ \end{array}
 $$ with the convention that the case  $\xi = 0$  corresponds to the Gumbel distribution:
 
 
 $$
-H _ {0; \mu , \Psi} (x) = \exp \left\{- e ^ {- \frac {x - \mu}{\Psi}} \right\}, x \in R
+H_{0; \mu , \Psi} (x) = \exp \left\{- e^{- \frac{x - \mu}{\Psi}} \right\}, x \in R
 $$
 
 We saw above that these distributions are the limit distributions, if they exist, of the normalized maxima of IID sequences. Suppose that the data to be estimated are independent draws from some EGV. This is a rather strong assumption that we will progressively relax. This assumption might be justified in domains where long series of data are available so that the sample data are the maxima of blocks of consecutive data. Though this assumption is probably too strong in the domain of finance, it is useful to elaborate its consequences.
@@ -563,7 +563,7 @@ An estimation method alternative to ML is the method of moments, which consists 
 Let's now release the assumption that the sequence of empirical data are independent draws from an exact GEV and replace this with the weaker assumption that empirical data are independent draws from  $F \in \mathrm{MDA}(H_{\xi})$ . If we assume that the limit distribution is a Frechet distribution, then data must be independent draws from some distribution  $F$  whose tail has the form:
 
 $$
-\bar {F} = x ^ {- \alpha} L (x)
+\bar {F} = x^{- \alpha} L (x)
 $$ where  $L$  is a slowly varying function as described earlier in this entry. For this reason, estimation under this weaker assumption is semiparametric in nature. We will now introduce a number of estimators of the shape parameter  $\xi$ .
 
 
@@ -572,7 +572,7 @@ $$ where  $L$  is a slowly varying function as described earlier in this entry. 
 The Pick and estimator  $\hat{\xi}_{k,n}^{(P)}$  for an  $n$ -sample of independent draws from a distribution  $F \in \mathrm{MDA}(H_{\xi})$  is defined as
 
 $$
-\hat {\xi} _ {k, n} ^ {(P)} = \frac {1}{\ln 2} \ln \frac {X _ {k , n} - X _ {2 k , n}}{X _ {2 k , n} - X _ {4 k , n}}
+\hat {\xi}_{k, n}^{(P)} = \frac{1}{\ln 2} \ln \frac{X_{k , n} - X_{2 k , n}}{X_{2 k , n} - X_{4 k , n}}
 $$ where the  $X_{k,n}$  are upper order statistics.
 
 
@@ -581,13 +581,13 @@ It can be demonstrated that the Pickand estimator has the following properties:
 - Weak consistency:
 
 $$
-\hat {\xi} _ {k, n} ^ {(P)} \stackrel {P} {\rightarrow} \xi , n \rightarrow \infty , k \rightarrow \infty , \frac {k}{n} \rightarrow 0
+\hat {\xi}_{k, n}^{(P)} \stackrel {P} {\rightarrow} \xi , n \rightarrow \infty , k \rightarrow \infty , \frac{k}{n} \rightarrow 0
 $$
 
 Strong consistency:
 
 $$
-\hat {\xi} _ {k, n} ^ {(P)} \stackrel {a. s.} {\rightarrow} \xi , n \rightarrow \infty , \frac {k}{\ln (\ln n)} \rightarrow \infty , \frac {k}{n} \rightarrow 0
+\hat {\xi}_{k, n}^{(P)} \stackrel {a. s.} {\rightarrow} \xi , n \rightarrow \infty , \frac{k}{\ln (\ln n)} \rightarrow \infty , \frac{k}{n} \rightarrow 0
 $$
 
 - Asymptotic normality under technical conditions.
@@ -599,7 +599,7 @@ The Pickand estimator is an estimator of the parameter  $\xi$  that does not req
 Suppose that  $X_{1},\ldots ,X_{n}$  are independent draws from a distribution  $F\in \mathrm{MDA}(\Phi_{\alpha}),\alpha >0$  so that  $\bar{F} = x^{-\alpha}L(x)$  where  $L$  is a slowly varying function. The Hill estimator can be obtained as an MLE based on the  $k$  upper order statistics. The Hill estimator takes the following form:
 
 $$
-\hat {\alpha} ^ {(H)} = \hat {\alpha} _ {k, n} ^ {(H)} = \left(\frac {1}{k} \sum_ {j = 1} ^ {k} \ln X _ {j, n} - \ln X _ {k, n}\right) ^ {- 1}
+\hat {\alpha}^{(H)} = \hat {\alpha}_{k, n}^{(H)} = \left(\frac{1}{k} \sum_{j = 1}^{k} \ln X_{j, n} - \ln X_{k, n}\right)^{- 1}
 $$
 
 The Hill estimator has the same weak and strong consistency property as well as asymptotic normality as the Pickard estimator. The Hill estimator is by far the most popular estimator of the tail index. It has the advantage of being robust to some dependency in the data but can perform very poorly in case of deviations from strict Pareto behavior. In addition, it is subject to a bias-variance trade-off in the following sense: The variance of the Hill estimator depends on the ratio  $k / n$ : It decreases for increasing  $k$ . However, using a large fraction of the data will introduce bias in the estimator.
@@ -610,13 +610,13 @@ As stated above, a critical tenet of EVT is the idea of fitting the tail rather 
 The moment ratio estimator is a generalization of the Hill estimator. Consider the following estimator of the second order moments of the  $k$  upper order statistic:
 
 $$
-\hat {M} _ {k, n} = \frac {1}{k} \left(\sum_ {j = 1} ^ {k} \ln X _ {j, n} - \ln X _ {k + 1, n}\right) ^ {2}
+\hat {M}_{k, n} = \frac{1}{k} \left(\sum_{j = 1}^{k} \ln X_{j, n} - \ln X_{k + 1, n}\right)^{2}
 $$
 
 The moment ratio estimator is defined as follows:
 
 $$
-\hat {\alpha} _ {k, n} ^ {(m)} = \frac {1}{2} \left(\frac {\hat {M} _ {k , n}}{\hat {\alpha} _ {k , n} ^ {(H)}}\right)
+\hat {\alpha}_{k, n}^{(m)} = \frac{1}{2} \left(\frac{\hat {M}_{k , n}}{\hat {\alpha}_{k , n}^{(H)}}\right)
 $$
 
 Wagner and Marsh (2000) did extensive simulation analysis of various estimators. Their finding is that the moment ratio estimator outperforms the Hill estimator in sequences with a dependence structure (this is discussed further in the next section).
@@ -662,31 +662,31 @@ From a practical standpoint, this question is quite important as one wants to es
 
 Let's first consider the infinite moving average representation of a univariate stationary series:
 
-$$ x _ {t} = \sum_ {i = 0} ^ {\infty} h _ {i} \varepsilon_ {t - i} + m
+$$ x_{t} = \sum_{i = 0}^{\infty} h_{i} \varepsilon_{t - i} + m
 $$ under the assumption that innovations are IID  $\alpha$ -stable laws of tail index  $\alpha$ . By the properties of stable distributions it can be demonstrated that the finite-dimensional distributions of the process  $x$  are  $\alpha$ -stable. However, restrictions on the coefficients need to be imposed. It can be demonstrated that a sufficient condition to ensure that the process  $x$  exists and is stationary is the following:
 
 
 $$
-\sum_ {i = 0} ^ {\infty} \left| h _ {i} \right| ^ {\alpha} <   \infty
+\sum_{i = 0}^{\infty} \left| h_{i} \right|^{\alpha} <   \infty
 $$
 
 A general univariate ARMA  $(p,q)$  model is written as follows:
 
 $$
-X _ {t} = \sum_ {i = 1} ^ {p} \alpha_ {i} X _ {t - i} + \sum_ {j = 1} ^ {q} \alpha_ {j} Z _ {t - j}
+X_{t} = \sum_{i = 1}^{p} \alpha_{i} X_{t - i} + \sum_{j = 1}^{q} \alpha_{j} Z_{t - j}
 $$ where the  $Z$  are IID variables.
 
 
 Using the lag operator— $L$ —notation,  $L^i$  represents the variable at  $i$  lags, the ARMA $(p,q)$  model is written as follows:
 
 $$
-X _ {t} = \sum_ {i = 1} ^ {p} L ^ {i} X _ {t} + \sum_ {j = 1} ^ {q} L ^ {j} Z _ {t}
+X_{t} = \sum_{i = 1}^{p} L^{i} X_{t} + \sum_{j = 1}^{q} L^{j} Z_{t}
 $$
 
 The theory of ARMA processes can be carried over at least partially to cover the case of fat-tailed innovations. In particular, an  $\mathrm{ARMA}(p,q)$  process with IID  $\alpha$ -stable innovations admits a stationary, infinite moving average representation under the same conditions as in the classical finite-variance case. The coefficients of the moving average satisfy the condition
 
 $$
-\sum_ {i = 0} ^ {\infty} \left| h _ {i} \right| ^ {\alpha} <   \infty
+\sum_{i = 0}^{\infty} \left| h_{i} \right|^{\alpha} <   \infty
 $$
 
 In the case of fat-tailed innovations, covariances and autocovariances lose their meaning. It can also be demonstrated, however, that the empirical autocorrelation function is meaningful and is asymptotically normal. It can be demonstrated that maximum likelihood estimates can be extended to the infinite variance case, though through a number of ad hoc processes.
@@ -697,21 +697,21 @@ In the case of fat-tailed innovations, covariances and autocovariances lose thei
 The simplest ARCH model can be written as follows. Suppose that  $X$  is the random variable to be modeled,  $Z$  is a sequence of independent standard normal variables, and  $\sigma$  is a hidden variable. The ARCH(1) model is written as
 
 $$
-X _ {t} = \sigma_ {t} Z _ {t}
+X_{t} = \sigma_{t} Z_{t}
 $$
 
 $$
-\sigma_ {t} ^ {2} = \beta + \delta X _ {t - 1} ^ {2}
+\sigma_{t}^{2} = \beta + \delta X_{t - 1}^{2}
 $$
 
 This basic model was extended by Bollerslev (1989), who proposed the GARCH(p,q) model written as
 
 $$
-X _ {t} = \sigma_ {t} Z _ {t}
+X_{t} = \sigma_{t} Z_{t}
 $$
 
 $$
-\sigma_ {t} ^ {2} = \beta + \sum_ {i = 1} ^ {p} \gamma_ {i} \sigma_ {t - i} ^ {2} + \sum_ {i = 1} ^ {q} \delta_ {i} X _ {t - i} ^ {2}
+\sigma_{t}^{2} = \beta + \sum_{i = 1}^{p} \gamma_{i} \sigma_{t - i}^{2} + \sum_{i = 1}^{q} \delta_{i} X_{t - i}^{2}
 $$
 
 The IID variables  $Z$  can be standard normal variables or other symmetrical, eventually fattailed, variables.
@@ -721,7 +721,7 @@ Let's first observe that model parameters must be constrained in order to guaran
 Due to the multiplicative nature of noise, GARCH models are able to generate fat-tailed distributions even if innovations have finite variance. This fact was established by Kesten (1973). The tail index can be theoretically computed at least in the case GARCH(1,1). Suppose a GARCH(1,1) stationary process with Gaussian innovation is given. It can be demonstrated that
 
 $$
-P (X > x) \approx \frac {c}{2} x ^ {- 2 \kappa}
+P (X > x) \approx \frac{c}{2} x^{- 2 \kappa}
 $$ where  $\kappa$  is the solution of an integral equation. In the generic  $p, q$  case, the return process is still fat-tailed but no practical way to compute the index from model parameter is known.
 
 
@@ -738,16 +738,16 @@ The GARCH family of models is not the only family of serially correlated models 
 In its simplest linear form, a state-space model is written as follows:
 
 $$
-\begin{array}{l} X _ {t} = \alpha Z _ {t} + \varepsilon_ {t} \\ Z _ {t} = \beta Z _ {t - 1} + \delta_ {t} \\ \end{array}
+\begin{array}{l} X_{t} = \alpha Z_{t} + \varepsilon_{t} \\ Z_{t} = \beta Z_{t - 1} + \delta_{t} \\ \end{array}
 $$ where  $\varepsilon_{t},\delta_{t}$  are normally distributed independent white noises. State-space models can also be written in a multiplicative form:
 
 
 $$
-X _ {t} = \alpha Z _ {t - 1} + \varepsilon_ {t}
+X_{t} = \alpha Z_{t - 1} + \varepsilon_{t}
 $$
 
 $$
-\alpha_ {t} = \beta \alpha_ {t - 1} + \delta_ {t}
+\alpha_{t} = \beta \alpha_{t - 1} + \delta_{t}
 $$
 
 If the second equation is a Markov chain, the model is called a Markov-switching model. A well-known example of Markov-switching models is the Hamilton model in which a two-state Markov chain drives the switch between two different regressions.
@@ -787,7 +787,7 @@ Self-similarity is another way of expressing the same concept. A process is self
 A stochastic process  $X(t)$  is said to be self-similar (ss) of index H (H-ss) if all its finite-dimensional distributions obey the scaling relationship:
 
 $$
-\begin{array}{l} \left(X _ {k t _ {1}}, X _ {k t _ {2}}, \dots , X _ {k t _ {m}}\right) \stackrel {{D}} {{=}} k ^ {- H} \left(X _ {t _ {1}}, X _ {t _ {2}}, \dots , X _ {t _ {m}}\right) \forall k > 0 \\ 0 <   H <   1, t _ {1}, t _ {2}, \dots , t _ {m} > 0 \\ \end{array}
+\begin{array}{l} \left(X_{k t_{1}}, X_{k t_{2}}, \dots , X_{k t_{m}}\right) \stackrel {{D}} {{=}} k^{- H} \left(X_{t_{1}}, X_{t_{2}}, \dots , X_{t_{m}}\right) \forall k > 0 \\ 0 <   H <   1, t_{1}, t_{2}, \dots , t_{m} > 0 \\ \end{array}
 $$
 
 The above expression means that the scaling of time by the factor  $k$  scales the variables  $X$  by the factor  $k^H$ . It gives precise meaning to the notion of self-similarity applied to stochastic processes.
@@ -800,13 +800,13 @@ Gaussian H-sssi processes might have independent increments or exhibit long-rang
 There is another definition of self-similarity for stochastic processes that makes use of the concept of aggregation; it is closer, at least in spirit, to the theory of renormalization groups. Consider a stationary infinite sequence of independent and identically distributed variables  $X_{i}$ ,  $i \geq 1$ . Create consecutive nonoverlapping blocks of  $m$  variables and define the corresponding aggregated sequence of level  $m$  averaging over each block as follows:
 
 $$
-X _ {k} ^ {(m)} = \frac {1}{m} \sum_ {i = (k - 1) m + 1} ^ {k m} X _ {i}
+X_{k}^{(m)} = \frac{1}{m} \sum_{i = (k - 1) m + 1}^{k m} X_{i}
 $$
 
 A sequence is called exactly self-similar if, for any integer  $m$  the following relationship holds:
 
 $$
-X \stackrel {D} {=} m ^ {1 - H} X ^ {(m)}
+X \stackrel {D} {=} m^{1 - H} X^{(m)}
 $$
 
 A stationary sequence is called asymptotically self-similar if the above relationship holds only for  $m\to \infty$

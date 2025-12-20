@@ -50,32 +50,32 @@ We mentioned earlier in this entry that although different debt issues of a part
 Merton's approach to estimating the probability of default of a firm builds on the limited liability rule that allows shareholders to default on their obligations while surrendering the firm's assets to the creditors. In this framework, the firm's liabilities are viewed as contingent claims on the assets of the firm, and default occurs at debt maturity when the firm's asset value falls below the debt value. Assuming that the firm is financed by means of equity  $S_{t}$  and a single zero-coupon debt maturing at time  $T$  with face value  $F$  and current market value  $B_{t}$ , the firm's assets at time  $t$  can be represented as
 
 $$
-A _ {t} = S _ {t} + B _ {t} \tag {1}
+A_{t} = S_{t} + B_{t} \tag {1}
 $$
 
 The probability of default in Merton's framework for the firm will be the probability that the firm's assets is less than the face value of the debt, which is given by,
 
 $$
-P D = \operatorname {p r o b} \left[ A _ {T} <   F \right] \tag {2}
+P D = \operatorname{pr ob} \left[ A_{T} <   F \right] \tag {2}
 $$
 
 In order to determine PD in Merton's framework, we need to select a suitable model for the process followed by  $A_{t}$ . Standard assumption is to postulate that  $A_{t}$  follows a log-normal process with growth rate  $\mu$  and asset volatility  $\sigma_{A}$  which is given below:
 
 
 $$
-A _ {t} = A _ {0} \exp [ (\mu - 0. 5 \sigma_ {A} ^ {2}) t + \sigma_ {A} \sqrt {t} z _ {t} ] \tag {3}
+A_{t} = A_{0} \exp [ (\mu - 0. 5 \sigma_{A}^{2}) t + \sigma_{A} \sqrt{t} z_{t} ] \tag {3}
 $$
 
 In equation (3)  $z_{t}$  is a normally distributed random variable with zero mean and unit variance. Using equation (3) in conjunction with equation (2) we can denote the PD as
 
 $$
-\begin{array}{l} P D = p r o b [ \ln A _ {0} + (\mu - 0. 5 \sigma_ {A} ^ {2}) T \\ \left. + \sigma_ {A} \sqrt {T} z _ {T} <   \ln F \right] \tag {4} \\ \end{array}
+\begin{array}{l} P D = p r o b [ \ln A_{0} + (\mu - 0. 5 \sigma_{A}^{2}) T \\ \left. + \sigma_{A} \sqrt{T} z_{T} <   \ln F \right] \tag {4} \\ \end{array}
 $$
 
 In equation (4) we have taken logarithm on both sides of the inequality, since doing so does not change the probabilities. Rearranging the terms in equation (4), the probability of default for the firm can be represented as
 
 $$
-P D = \operatorname {p r o b} \left[ z _ {T} <   - \frac {\ln \frac {A _ {0}}{F} + (\mu - 0 . 5 \sigma_ {A} ^ {2}) T}{\sigma_ {A} \sqrt {T}} \right] \tag {5}
+P D = \operatorname{pr ob} \left[ z_{T} <   - \frac{\ln \frac{A_{0}}{F} + (\mu - 0 . 5 \sigma_{A}^{2}) T}{\sigma_{A} \sqrt{T}} \right] \tag {5}
 $$
 
 Since  $z_{T}$  is a normally distributed random variable, PD can be represented as
@@ -86,11 +86,11 @@ $$ where
 
 
 $$
-D = \frac {\ln \frac {A _ {0}}{F} + (\mu - 0 . 5 \sigma_ {A} ^ {2}) T}{\sigma_ {A} \sqrt {T}} \tag {7}
+D = \frac{\ln \frac{A_{0}}{F} + (\mu - 0 . 5 \sigma_{A}^{2}) T}{\sigma_{A} \sqrt{T}} \tag {7}
 $$
 
 $$
-N (- D) = \frac {1}{\sqrt {2 \pi}} \int_ {- \infty} ^ {- D} \exp \left(- \frac {1}{2} x ^ {2}\right) d x \tag {8}
+N (- D) = \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{- D} \exp \left(- \frac{1}{2} x^{2}\right) d x \tag {8}
 $$
 
 In equation (7),  $D$  represents the distance to default, which is the distance between the logarithm of the expected asset value at maturity and the logarithm of the default point normalized by the asset volatility.
@@ -103,28 +103,28 @@ To resolve these difficulties Moody's KMV suggests some modifications to Merton'
 To illustrate the KMV approach, let  $DPT$  denote the default point, which is equal to the sum of the short-term liabilities due in less than one year and one-half of the long-term liabilities, and  $E(A_{T})$  the expected value of the firm's assets one year from now. Then the distance to default is given by,
 
 $$
-D = \frac {\ln \frac {E (A _ {T})}{D P T}}{\sigma_ {A}} = \frac {\ln \frac {A _ {0}}{D P T} + (\mu - 0 . 5 \sigma_ {A} ^ {2}) T}{\sigma_ {A} \sqrt {T}} \tag {9}
+D = \frac{\ln \frac{E (A_{T})}{D P T}}{\sigma_{A}} = \frac{\ln \frac{A_{0}}{D P T} + (\mu - 0 . 5 \sigma_{A}^{2}) T}{\sigma_{A} \sqrt{T}} \tag {9}
 $$
 
 In equation (9), the market value of the firm's assets is not observed since liabilities of the firm are not traded. What can be observed in the market is the equity value of the firm because it is traded. Since the value of the firm's equity at time  $T$  can be seen as the value of a call option on the assets of the firm with a strike price equal to the book value of the liabilities, we have the following equation:
 
 
 $$
-S _ {T} = A _ {T} \times N \left(d _ {1}\right) - e ^ {- r T} \times D P T \times N \left(d _ {2}\right) \tag {10}
+S_{T} = A_{T} \times N \left(d_{1}\right) - e^{- r T} \times D P T \times N \left(d_{2}\right) \tag {10}
 $$
 
 In equation (10),  $N(\cdot)$  is cumulative standard unit normal distribution,  $r$  is the risk-free interest rate, and the variables  $d_{1}$  and  $d_{2}$  are given by,
 
-$$ d _ {1} = \frac {\ln \left(A _ {T} / D P T\right) + \left(r + \frac {1}{2} \sigma_ {A} ^ {2}\right) T}{\sigma_ {A} \sqrt {T}} \tag {11}
+$$ d_{1} = \frac{\ln \left(A_{T} / D P T\right) + \left(r + \frac{1}{2} \sigma_{A}^{2}\right) T}{\sigma_{A} \sqrt{T}} \tag {11}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma_ {A} \sqrt {T} \tag {12}
+$$ d_{2} = d_{1} - \sigma_{A} \sqrt{T} \tag {12}
 $$
 
 It is possible to show that equity and asset volatility are related through the following relation:
 
 $$
-\sigma_ {S} = \frac {A _ {T}}{S _ {T}} \times N \left(d _ {1}\right) \times \sigma_ {A} \tag {13}
+\sigma_{S} = \frac{A_{T}}{S_{T}} \times N \left(d_{1}\right) \times \sigma_{A} \tag {13}
 $$
 
 From this relation it is possible to solve for the asset value and asset volatility, given the equity value and equity volatility using an iterative procedure. Knowing the asset volatility and asset value, it is possible to compute the distance to default using equation (9) from which probability of default can be inferred.
@@ -159,16 +159,16 @@ Empirical research on recovery rates suggests that industrial sector, seniority 
 
 In order to incorporate the variations in the observed recovery rates over time and between issuers when quantifying credit risk, the standard deviation of recovery rates, denoted  $\sigma_{RR}$ , is taken into account. Including the uncertainty in recovery rates will have the effect of increasing credit risk at the issuer level. Common practice is to use beta distribution to model the observed variations in recovery rates. The advantage of choosing beta distribution is that it has a simple functional form dependent on two parameters that allows for high recovery rate outliers observed in the empirical data to be modeled. The beta distribution has support on the interval 0 to 1, and its density function is given by,
 
-$$ f (x, \alpha , \beta) = \left\{ \begin{array}{c c} \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \cdot \Gamma (\beta)} x ^ {\alpha - 1} (1 - x) ^ {\beta - 1}, & 0 <   x <   1 \\ 0 & o t h e r w i s e \end{array} \right. \tag {14}
+$$ f (x, \alpha , \beta) = \left\{ \begin{array}{c c} \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \cdot \Gamma (\beta)} x^{\alpha - 1} (1 - x)^{\beta - 1}, & 0 <   x <   1 \\ 0 & o t h e r w i s e \end{array} \right. \tag {14}
 $$ where  $\alpha >0,\beta >0$  and  $\Gamma (\cdot)$  is the gamma function. The mean and variance of the beta distribution are given by,
 
 
 $$
-\mu = \frac {\alpha}{\alpha + \beta} \tag {15}
+\mu = \frac{\alpha}{\alpha + \beta} \tag {15}
 $$
 
 $$
-\sigma^ {2} = \frac {\alpha \cdot \beta}{(\alpha + \beta) ^ {2} \cdot (\alpha + \beta + 1)} \tag {16}
+\sigma^{2} = \frac{\alpha \cdot \beta}{(\alpha + \beta)^{2} \cdot (\alpha + \beta + 1)} \tag {16}
 $$ the period 1978 to 2001 based on prices at time of default. One can notice that senior secured debt recovers on average  $53\%$  of the face value of the debt whereas senior unsecured debt recovers only around  $42\%$  of face value. The standard deviation of the recovery rates for all seniority classes is roughly around  $25\%$ .
 
 Table 1 shows the empirical estimates of recovery rates on defaulted securities covering
@@ -227,31 +227,31 @@ Figure 2 Bond Price Distribution Under Default Mode
 
 
 $$
-\tilde {P} = P _ {\text {d i r t y}} \times I _ {[ \delta = 0 ]} + \psi \times I _ {[ \delta = 1 ]} \tag {17}
+\tilde {P} = P_{\text{di rt y}} \times I_{[ \delta = 0 ]} + \psi \times I_{[ \delta = 1 ]} \tag {17}
 $$
 
 In equation (17),  $I$  is the indicator function of the default process. For the purpose of quantifying credit risk, the variable of interest to us is the credit loss resulting from holding the corporate bond. This is a random variable, which we denote  $\tilde{\ell}$ , and is given by,
 
 $$
-\begin{array}{l} \tilde {\ell} = P _ {d i r t y} - \tilde {P} = P _ {d i r t y} - P _ {d i r t y} \\ \times I _ {[ \delta = 0 ]} - \psi \times I _ {[ \delta = 1 ]} \tag {18} \\ \end{array}
+\begin{array}{l} \tilde {\ell} = P_{d i r t y} - \tilde {P} = P_{d i r t y} - P_{d i r t y} \\ \times I_{[ \delta = 0 ]} - \psi \times I_{[ \delta = 1 ]} \tag {18} \\ \end{array}
 $$
 
 Taking expectations on both sides of equation (18) will allow us to compute the expected loss arising from credit risk. This is given by,
 
 $$
-\begin{array}{l} E L = E (\tilde {\ell}) = P _ {d i r t y} - P _ {d i r t y} \\ \times (1 - P D) - E \left(\psi \times I _ {[ \delta = 1 ]}\right) \tag {19} \\ \end{array}
+\begin{array}{l} E L = E (\tilde {\ell}) = P_{d i r t y} - P_{d i r t y} \\ \times (1 - P D) - E \left(\psi \times I_{[ \delta = 1 ]}\right) \tag {19} \\ \end{array}
 $$
 
 We note that computing expected loss requires taking the expectation of the product of two random variables, the recovery rate process and the default process. Knowledge of the joint distribution of these two random variables will be required to compute this expectation. Most credit risk models will make the simplifying assumption that these two random variables are independent. If we make this assumption, we get the equation for expected loss as given below:
 
 $$
-\begin{array}{l} E L = P _ {\text {d i r t y}} \times P D - R R \times P D \tag {20} \\ = P D \times \left(P _ {d i r t y} - R R\right) \\ \end{array}
+\begin{array}{l} E L = P_{\text{di rt y}} \times P D - R R \times P D \tag {20} \\ = P D \times \left(P_{d i r t y} - R R\right) \\ \end{array}
 $$
 
 We remind the reader that  $P_{\text{dirty}}$  is the dirty price of the bond for \$1 nominal and RR in equation (20) is the mean recovery rate, which is expressed as a fraction of the face value of the debt. It is important to draw attention to the fact that the quantity ( $P_{\text{dirty}} - RR$ ) is different from LGD, which is defined as one minus the recovery rate. We therefore introduce the term "loss on default" (LD) to capture this new quantity as given below:
 
 $$
-L D = P _ {d i r t y} - R R \tag {21}
+L D = P_{d i r t y} - R R \tag {21}
 $$
 
 We note that loss on default will be identical to the quantity loss given default if the dirty price of the bond is equal to one. In all other circumstances these two quantities will not be the same.
@@ -270,43 +270,43 @@ Let us consider the case of a bond portfolio manager who has the option to inves
 Unexpected Loss Under Default Mode We learned that the expected loss on the bond is the average loss that the investor can expect to incur over the course of a one-year period. However, the actual loss may well exceed this average loss over certain time periods. The potential deviation from the expected loss that the investor can expect to incur is quantified in terms of the standard deviation of the loss variable defined in equation (18). Credit market convention is to refer to the standard deviation of loss as unexpected loss. Hence, to derive the unexpected loss formula, we need to compute the standard deviation of the random variable  $\tilde{\ell}$ . To facilitate this computation, we will rewrite equation (18) as follows:
 
 $$
-\begin{array}{l} \tilde {\ell} = P _ {d i r t y} - P _ {d i r t y} \times (1 - I _ {[ \delta = 1 ]}) + \psi \times I _ {[ \delta = 1 ]} \\ = I _ {[ \delta = 1 ]} \times \left(P _ {d i r t y} - \psi\right) \tag {23} \\ \end{array}
+\begin{array}{l} \tilde {\ell} = P_{d i r t y} - P_{d i r t y} \times (1 - I_{[ \delta = 1 ]}) + \psi \times I_{[ \delta = 1 ]} \\ = I_{[ \delta = 1 ]} \times \left(P_{d i r t y} - \psi\right) \tag {23} \\ \end{array}
 $$
 
 Recalling a standard result from probability theory, the variance of any random variable  $z$  can be written as the difference between the expected value of the random variable squared minus the square of its expected value. In equation form this is given by,
 
 $$
-\sigma_ {z} ^ {2} = E \left(z ^ {2}\right) - \left[ E (z) \right] ^ {2} \tag {24}
+\sigma_{z}^{2} = E \left(z^{2}\right) - \left[ E (z) \right]^{2} \tag {24}
 $$
 
 We will again make the simplifying assumption that the default and recovery rate processes are independent in deriving the unexpected loss formula. Under this assumption the variance of the random variable  $\tilde{\ell}$  can be written as,
 
 $$
-\begin{array}{l} V a r (\tilde {\ell}) = E (I _ {[ \delta = 1 ]} ^ {2}) \times E [ (P _ {d i r t y} - \psi) ^ {2} ] \\ - \left[ E \left(I _ {[ \delta = 1 ]}\right) \right] ^ {2} \times \left[ E \left(P _ {d i r t y} - \psi\right) \right] ^ {2} (2 5) \\ \end{array}
+\begin{array}{l} V a r (\tilde {\ell}) = E (I_{[ \delta = 1 ]}^{2}) \times E [ (P_{d i r t y} - \psi)^{2} ] \\ - \left[ E \left(I_{[ \delta = 1 ]}\right) \right]^{2} \times \left[ E \left(P_{d i r t y} - \psi\right) \right]^{2} (2 5) \\ \end{array}
 $$
 
 Taking expected values and using the relation (24), equation (25) simplifies to,
 
 $$
-\operatorname {V a r} (\tilde {\ell}) = \left[ \sigma_ {P D} ^ {2} + P D ^ {2} \right] \times \left[ \sigma_ {R R} ^ {2} + L D ^ {2} \right] - P D ^ {2} \times L D ^ {2} \tag {26}
+\operatorname{Va r} (\tilde {\ell}) = \left[ \sigma_{P D}^{2} + P D^{2} \right] \times \left[ \sigma_{R R}^{2} + L D^{2} \right] - P D^{2} \times L D^{2} \tag {26}
 $$
 
 In the above equation,  $\sigma_{PD}^{2}$  is the variance of the Bernoulli random variable  $\delta$ , which is given by
 
 $$
-\sigma_ {P D} ^ {2} = P D \times (1 - P D) \tag {27}
+\sigma_{P D}^{2} = P D \times (1 - P D) \tag {27}
 $$
 
 Simplifying the terms in equation (26), it can be shown that unexpected loss, which is the standard deviation of the loss variable, is given by
 
 $$
-U L = \sqrt {P D \times \sigma_ {R R} ^ {2} + L D ^ {2} \times \sigma_ {P D} ^ {2}} \tag {28}
+U L = \sqrt{P D \times \sigma_{R R}^{2} + L D^{2} \times \sigma_{P D}^{2}} \tag {28}
 $$
 
 The above formula for unexpected loss assumes that the nominal exposure is equal to one dollar. For a nominal exposure equal to NE, the unexpected loss at the security level will be given by
 
 $$
-U L = N E \times \sqrt {P D \times \sigma_ {R R} ^ {2} + L D ^ {2} \times \sigma_ {P D} ^ {2}} \tag {29}
+U L = N E \times \sqrt{P D \times \sigma_{R R}^{2} + L D^{2} \times \sigma_{P D}^{2}} \tag {29}
 $$
 
 # On the Independence Assumption
@@ -342,13 +342,13 @@ These observations indicate that we cannot use generic yield curves for various 
 The technique we will adopt here to estimate the change in bond price due to a rating change makes use of the current modified duration and convexity of the bond. To determine the change in yield associated with a rating change, we will assume that there exists a fixed yield spread between each rating grade that is a function of the debt issue's seniority. These yield spreads will be taken relative to the government yield curve. If we denote modified duration of the bond by  $D$  and convexity by  $C$ , then the change in price of the bond due to a change  $\Delta y$  in the bond yield as a result of the rating change is given by,
 
 $$
-\begin{array}{l} P r i c e \quad c h a n g e = - P _ {d i r t y} \times D \times \Delta y + 0. 5 \\ \times P _ {d i r t y} \times C \times \Delta y ^ {2} \tag {30} \\ \end{array}
+\begin{array}{l} P r i c e \quad c h a n g e = - P_{d i r t y} \times D \times \Delta y + 0. 5 \\ \times P_{d i r t y} \times C \times \Delta y^{2} \tag {30} \\ \end{array}
 $$
 
 Considering that our interest is to estimate the loss resulting from the rating change to quantify credit risk, the following equation is the one that is relevant to us:
 
 $$
-\Delta P = P _ {\text {d i r t y}} \times D \times \Delta y - 0. 5 \times P _ {\text {d i r t y}} \times C \times \Delta y ^ {2} \tag {31}
+\Delta P = P_{\text{di rt y}} \times D \times \Delta y - 0. 5 \times P_{\text{di rt y}} \times C \times \Delta y^{2} \tag {31}
 $$
 
 The advantage of such a technique is that it will retain price differentials observed in the market between bonds with similar maturity
@@ -363,19 +363,19 @@ Table 3 Example Yield Spreads for Different Rating Grades and Debt Seniority
 Unlike in the case of the default mode, the issuer can migrate to one of several rating grades under the migration mode during the course of the year. Associated with these rating migrations are discrete transition probabilities that comprise the rows of the rating transition matrix given in Table 2. In the rating migration framework, the transition probabilities represent historical averages and can be treated as deterministic variables. The random variables here are the credit losses that the bondholder incurs when the issuer rating changes. The expected value of the credit loss for a rating change from the  $i$ th grade to the  $k$ th grade is given by,
 
 $$
-\begin{array}{l} \Delta P _ {i k} = P _ {d i r t y} \times D \times \Delta y _ {i k} - 0. 5 \times P _ {d i r t y} \\ \times C \times \Delta y _ {i k} ^ {2} \tag {32} \\ \end{array}
+\begin{array}{l} \Delta P_{i k} = P_{d i r t y} \times D \times \Delta y_{i k} - 0. 5 \times P_{d i r t y} \\ \times C \times \Delta y_{i k}^{2} \tag {32} \\ \end{array}
 $$
 
 In equation (32),  $\Delta y_{ik}$  denotes the yield change when the issuer rating changes from grade  $i$  to grade  $k$ . When the issuer migrates to the default state, the credit loss  $\Delta P_{ik}$  will be equal to the loss on default LD. Considering that there are 18 rating grades including the default state, the expected loss under the rating migration mode for an issuer whose current credit rating is  $i$  is given by,
 
 $$
-E L = \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \tag {33}
+E L = \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \tag {33}
 $$
 
 In equation (33),  $p_{ik}$  denotes the one-year transition probability to migrate from rating grade  $i$  to rating grade  $k$ . The above equation quantifies the expected loss over a one-year horizon for a nominal exposure of one dollar. For a nominal exposure NE, the expected loss under migration mode is given by,
 
 $$
-E L = N E \times \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \tag {34}
+E L = N E \times \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \tag {34}
 $$
 
 # Unexpected Loss Under Migration Mode
@@ -384,25 +384,25 @@ By definition, unexpected loss under migration mode is the standard deviation of
 
 
 $$
-\tilde {\ell} = \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta \tilde {P} _ {i k} \tag {35}
+\tilde {\ell} = \sum_{k = 1}^{1 8} p_{i k} \times \Delta \tilde {P}_{i k} \tag {35}
 $$
 
 In equation (35),  $\Delta \tilde{P}_{ik}$  denotes the credit loss when the credit rating changes from grade  $i$  to grade  $k$ , which is regarded as a random variable. The expected value of this random variable is  $\Delta P_{ik}$ , and we shall denote its variance by  $\sigma_{ik}^2$ . When  $k$  is equal to the default state,  $\sigma_{ik}$  will be equal to  $\sigma_{RR}$ , which is the standard deviation of the recovery rate. Recalling equation (24), we can write the variance of the loss variable as,
 
 $$
-\begin{array}{l} \operatorname {V a r} (\tilde {\ell}) = E \left(\sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta \tilde {P} _ {i k} ^ {2}\right) \\ - \left[ E \left(\sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta \tilde {P} _ {i k}\right) \right] ^ {2} \tag {36} \\ \end{array}
+\begin{array}{l} \operatorname{Va r} (\tilde {\ell}) = E \left(\sum_{k = 1}^{1 8} p_{i k} \times \Delta \tilde {P}_{i k}^{2}\right) \\ - \left[ E \left(\sum_{k = 1}^{1 8} p_{i k} \times \Delta \tilde {P}_{i k}\right) \right]^{2} \tag {36} \\ \end{array}
 $$
 
 Taking expectations and making use of the relation (24) once more, we get the following expression for the variance of the loss variable:
 
 $$
-\begin{array}{l} V a r (\tilde {\ell}) = \sum_ {k = 1} ^ {1 8} p _ {i k} \times \left(\Delta P _ {i k} ^ {2} + \sigma_ {i k} ^ {2}\right) \\ - \left[ \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \right] ^ {2} \tag {37} \\ \end{array}
+\begin{array}{l} V a r (\tilde {\ell}) = \sum_{k = 1}^{1 8} p_{i k} \times \left(\Delta P_{i k}^{2} + \sigma_{i k}^{2}\right) \\ - \left[ \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \right]^{2} \tag {37} \\ \end{array}
 $$
 
 If we assume that there is no uncertainty associated with the credit losses except in the default state, all  $\sigma_{ik}^{2}$  terms in equation (37) will drop out other than  $\sigma_{RR}^{2}$ . Making this assumption and noting that  $p_{ik}$  is equal to PD when  $k$  is the default state, the unexpected loss under migration mode for a nominal exposure NE is given by,
 
 $$
-\begin{array}{l} U L = N E \\ \times \sqrt {P D \times \sigma_ {R R} ^ {2} + \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} ^ {2} - \left[ \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \right] ^ {2}} \tag {38} \\ \end{array}
+\begin{array}{l} U L = N E \\ \times \sqrt{P D \times \sigma_{R R}^{2} + \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k}^{2} - \left[ \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \right]^{2}} \tag {38} \\ \end{array}
 $$
 
 # Numerical Example
@@ -421,7 +421,7 @@ $$
 $$
 
 $$
-\begin{array}{l} U L = N E \times \sqrt {P D \times \sigma_ {R R} ^ {2} + L D ^ {2} \times \sigma_ {P D} ^ {2}} \\ = 1, 0 0 0, 0 0 0 \\ \times \sqrt {0 . 0 0 1 \times 0 . 2 5 ^ {2} + 0 . 7 0 3 3 ^ {2} \times 0 . 0 0 1 \times (1 - 0 . 0 0 1)} \\ = \$ 22,369.3 \\ \end{array}
+\begin{array}{l} U L = N E \times \sqrt{P D \times \sigma_{R R}^{2} + L D^{2} \times \sigma_{P D}^{2}} \\ = 1, 0 0 0, 0 0 0 \\ \times \sqrt{0 . 0 0 1 \times 0 . 2 5^{2} + 0 . 7 0 3 3^{2} \times 0 . 0 0 1 \times (1 - 0 . 0 0 1)} \\ = \$ 22,369.3 \\ \end{array}
 $$
 
 Under the migration mode, the breakdown of the calculations involved in estimating expected and unexpected losses are given in Table 5.
@@ -429,13 +429,13 @@ Under the migration mode, the breakdown of the calculations involved in estimati
 The expected loss under migration mode is given by,
 
 $$
-\begin{array}{l} E L = N E \times \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \\ = 1, 0 0 0, 0 0 0 \times 0. 0 0 3 1 3 2 = \$ 3, 1 3 2 \\ \end{array}
+\begin{array}{l} E L = N E \times \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \\ = 1, 0 0 0, 0 0 0 \times 0. 0 0 3 1 3 2 = \$ 3, 1 3 2 \\ \end{array}
 $$
 
 The unexpected loss under migration mode is given by,
 
 $$
-\begin{array}{l} U L = N E \\ \times \sqrt {P D \times \sigma_ {R R} ^ {2} + \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} ^ {2} - \left[ \sum_ {k = 1} ^ {1 8} p _ {i k} \times \Delta P _ {i k} \right] ^ {2}} \\ = 1, 0 0 0, 0 0 0 \\ \times \sqrt {0 . 0 0 1 \times 0 . 2 5 ^ {2} + 6 . 8 0 3 \times 1 0 ^ {- 4} - 0 . 0 0 3 1 3 2 ^ {2}} \\ = \$ 2 7, 0 7 3. 8 \\ \end{array}
+\begin{array}{l} U L = N E \\ \times \sqrt{P D \times \sigma_{R R}^{2} + \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k}^{2} - \left[ \sum_{k = 1}^{1 8} p_{i k} \times \Delta P_{i k} \right]^{2}} \\ = 1, 0 0 0, 0 0 0 \\ \times \sqrt{0 . 0 0 1 \times 0 . 2 5^{2} + 6 . 8 0 3 \times 1 0^{- 4} - 0 . 0 0 3 1 3 2^{2}} \\ = \$ 2 7, 0 7 3. 8 \\ \end{array}
 $$
 
 Table 5 Calculation of EL and UL Under Migration Mode

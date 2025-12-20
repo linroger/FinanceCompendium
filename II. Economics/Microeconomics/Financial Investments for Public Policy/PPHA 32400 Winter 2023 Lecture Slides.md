@@ -142,17 +142,17 @@ $\square \pi_{A} + \pi_{U} = \$ 8,192$  (\$4,096 each)
 
 The marginal revenue function for American and United is:
 
-[ MR_{A} = \text{price} + \text{negative impact on price} \times \text{American's output} = MC ]  
-[ MR_{U} = \text{price} + \text{negative impact on price} \times \text{United's output} = MC ]
+[ MR_{A} = \text{price} + \text{negativeimpactonprice} \times \text{American'soutput} = MC ]  
+[ MR_{U} = \text{price} + \text{negativeimpactonprice} \times \text{United'soutput} = MC ]
 
 The marginal revenue function for the monopoly:
 
-[ MR = \text{price} + \text{negative impact on price} \times \text{total output} = MC ]
+[ MR = \text{price} + \text{negativeimpactonprice} \times \text{totaloutput} = MC ]
 
 In the American/United example
 
 $$
-\left\{ \begin{array}{l l} \square M R _ {A} = 3 3 9 - q _ {U} - q _ {A} - q _ {A} = M C = 1 4 7 \\ \square M R _ {U} = 3 3 9 - q _ {A} - q _ {U} - q _ {U} = M C = 1 4 7 \\ \square M R = 3 3 9 - q - q = M C = 1 4 7 \end{array} \right.
+\left\{ \begin{array}{l l} \square M R_{A} = 3 3 9 - q_{U} - q_{A} - q_{A} = M C = 1 4 7 \\ \square M R_{U} = 3 3 9 - q_{A} - q_{U} - q_{U} = M C = 1 4 7 \\ \square M R = 3 3 9 - q - q = M C = 1 4 7 \end{array} \right.
 $$
 
 Cournot: Each player cares about the price impact on its quantity only, not total output.
@@ -163,8 +163,8 @@ Monopoly/Cartel: it cares about the price impact on the total output.
 
 The marginal revenue function for American and United is:
 
-[ MR_{A} = \text{price} + \text{negative impact on price} \times \text{American's output} = MC ]  
-[ MR_{U} = \text{price} + \text{negative impact on price} \times \text{United's output} = MC ]
+[ MR_{A} = \text{price} + \text{negativeimpactonprice} \times \text{American'soutput} = MC ]  
+[ MR_{U} = \text{price} + \text{negativeimpactonprice} \times \text{United'soutput} = MC ]
 
 The same effect can be observed in the 2x2 game:  
 in the "prisoners' dilemma" players do not internalize each other's loss.
@@ -581,7 +581,7 @@ $\delta$  large: patient; value future profits more
 □ for example, if we receive \$1 from now, on the present value is
 
 $$
-1 + \delta + \delta^ {2} + \delta^ {3} + \dots = \frac {1}{1 - \delta}
+1 + \delta + \delta^{2} + \delta^{3} + \dots = \frac{1}{1 - \delta}
 $$
 
 Now, what is larger
@@ -612,13 +612,13 @@ Is this an equilibrium?
 □ If  $\delta > 0.5$ , then
 
 $$
-4. 6 + \delta \times 4. 6 + \delta^ {2} \times 4. 6 + \delta^ {3} \times 4. 6 + \dots = \frac {1}{1 - \delta} \times 4. 6
+4. 6 + \delta \times 4. 6 + \delta^{2} \times 4. 6 + \delta^{3} \times 4. 6 + \dots = \frac{1}{1 - \delta} \times 4. 6
 $$
 
 is more than
 
 $$
-5. 1 + \delta \times 4. 1 + \delta^ {2} \times 4. 1 + \delta^ {3} \times 4. 1 + \dots = 5. 1 + \delta \times \frac {1}{1 - \delta} \times 4. 1
+5. 1 + \delta \times 4. 1 + \delta^{2} \times 4. 1 + \delta^{3} \times 4. 1 + \dots = 5. 1 + \delta \times \frac{1}{1 - \delta} \times 4. 1
 $$
 
 so, if  $\delta > 0.5$  then grim trigger strategies support collusive equilibrium  
@@ -628,20 +628,20 @@ so, if  $\delta > 0.5$  then grim trigger strategies support collusive equilibri
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/f97794ba99e7585c7e4542a8a7ea152f43c706c0106137f3c11fbcc264ee582b.jpg)
 
-Using  $1 + \delta  + {\delta }^{2} + {\delta }^{3} + \cdots  = \frac{1}{1 - \delta }\left( {\operatorname{sum}\text{of infinite series}}\right)$  ,
+Using  $1 + \delta  + {\delta }^{2} + {\delta }^{3} + \cdots  = \frac{1}{1 - \delta }\left( {\operatorname{sum}\text{ofinfiniteseries}}\right)$  ,
 
 $$
-\begin{array}{l} p v = 4. 6 + 4. 6 \delta + 4. 6 \delta^ {2} + 4. 6 \delta^ {3} + \dots \\ = 4. 6 [ 1 + \delta + \delta^ {2} + \delta^ {3} + \dots ] \\ = 4. 6 \cdot \frac {1}{1 - \delta} \\ \end{array}
+\begin{array}{l} p v = 4. 6 + 4. 6 \delta + 4. 6 \delta^{2} + 4. 6 \delta^{3} + \dots \\ = 4. 6 [ 1 + \delta + \delta^{2} + \delta^{3} + \dots ] \\ = 4. 6 \cdot \frac{1}{1 - \delta} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/5da2267848f7825e35bd3066f1aa8a6d3f66b6d238045527f606c857cc8a9dc6.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/4bc27082eee8f8f54c191a838fd0b617fee7f5f114d2ecb875383118e9b29eee.jpg)
 
-Using  $1 + \delta  + {\delta }^{2} + {\delta }^{3} + \cdots  = \frac{1}{1 - \delta }\left( {\operatorname{sum}\text{of infinite series}}\right)$  ,
+Using  $1 + \delta  + {\delta }^{2} + {\delta }^{3} + \cdots  = \frac{1}{1 - \delta }\left( {\operatorname{sum}\text{ofinfiniteseries}}\right)$  ,
 
 $$
-\begin{array}{l} P V = 5. 1 + 4. 1 \delta + 4. 1 \delta^ {2} + 4. 1 \delta^ {3} + \dots \\ = 5. 1 + 4. 1 \delta [ 1 + \delta + \delta^ {2} + \dots ] \\ = 5. 1 + 4. 1 \delta \times \frac {1}{1 - \delta} \\ \end{array}
+\begin{array}{l} P V = 5. 1 + 4. 1 \delta + 4. 1 \delta^{2} + 4. 1 \delta^{3} + \dots \\ = 5. 1 + 4. 1 \delta [ 1 + \delta + \delta^{2} + \dots ] \\ = 5. 1 + 4. 1 \delta \times \frac{1}{1 - \delta} \\ \end{array}
 $$
 
 # Principles of Microeconomics and Public Policy II
@@ -692,19 +692,19 @@ At the time of lending, the value of the asset is  $V_{0} = A$ .
 After a year, the asset is worth  $A$  plus the interest payment  $Ar$ :
 
 $$
-V _ {1} = A + A r = A (1 + r).
+V_{1} = A + A r = A (1 + r).
 $$
 
 The year after that, the asset is worth  $A(1 + r)$  plus  $rA(1 + r)$ :
 
 $$
-V _ {2} = A (1 + r) + r A (1 + r) = A (1 + r) (1 + r) = A (1 + r) ^ {2}.
+V_{2} = A (1 + r) + r A (1 + r) = A (1 + r) (1 + r) = A (1 + r)^{2}.
 $$
 
 Each year, the value of the asset becomes  $(1 + r)$  times the amount it was worth in the previous year:
 
 $$
-V _ {t} = A (1 + r) ^ {t}.
+V_{t} = A (1 + r)^{t}.
 $$
 
 # Compounding
@@ -734,7 +734,7 @@ the bank pays you half a year's interest,  $r / 2 =$ $2 \%$ , after six months.
 At the end of the year, the bank owes you
 
 $$
-(1 + r / 2) \times (1 + r / 2) = (1 + r / 2) ^ {2} = (1. 0 2) ^ {2} = \$ 1. 0 4 0 4,
+(1 + r / 2) \times (1 + r / 2) = (1 + r / 2)^{2} = (1. 0 2)^{2} = \$ 1. 0 4 0 4,
 $$
 
 which is your original  $\$ 1 plus$ \phi 4.04$ in interest
@@ -747,26 +747,26 @@ In the U.S., lenders have to disclose noncompounded APR.
 ■ Compounded annually
 
 $$
-V _ {t} = P (1 + r) ^ {t}
+V_{t} = P (1 + r)^{t}
 $$
 
 Compounded twice a year
 
 $$
-V _ {t} = P \left(1 + \frac {r}{2}\right) ^ {2 t}
+V_{t} = P \left(1 + \frac{r}{2}\right)^{2 t}
 $$
 
 1  
 Compounded  $N$  times a year
 
 $$
-V _ {t} = P \left(1 + \frac {r}{N}\right) ^ {N t}
+V_{t} = P \left(1 + \frac{r}{N}\right)^{N t}
 $$
 
 Continuous compounding
 
 $$
-V _ {t} = P e ^ {r t}
+V_{t} = P e^{r t}
 $$
 
 # Interest and Frequency of Compounding
@@ -874,7 +874,7 @@ One year from now, a  \$100 deposit in a savings account will be worth\$ 105. Ca
 The present discounted value of this future payment is given by  $PDV(1 + r) = \$ 105\$, so
 
 $$
-P D V = \frac {\mathrm {\\( 1 0 5}}{1 + r} = \frac {\mathrm {\\) 1 0 5}}{1 + 0 . 0 5} = \mathrm {\\) 1 0 0.}$
+P D V = \frac{\mathrm{\\(1 05}}{1 + r} = \frac{\mathrm{\\)1 05}}{1 + 0 . 0 5} = \mathrm{\\)1 00.}$
 $$
 
 # Another Exercise
@@ -882,7 +882,7 @@ $$
 ■ Consider a payment of \$100 one year from now. The interest rate is  $i = 5\%$ . How much is this worth in today's dollars?
 
 $$
-\begin{array}{l} \$ 100 = P D V \times (1 + i) = P D V \times (1 + 0. 0 5) \\ P D V = \frac {\mathrm {s 1 0 0}}{1 + i} = \frac {\mathrm {s 1 0 0}}{1 . 0 5} = \mathrm {s 9 5 . 2 4} \\ \end{array}
+\begin{array}{l} \$ 100 = P D V \times (1 + i) = P D V \times (1 + 0. 0 5) \\ P D V = \frac{\mathrm{s1 00}}{1 + i} = \frac{\mathrm{s1 00}}{1 . 0 5} = \mathrm{s9 5 .2 4} \\ \end{array}
 $$
 
 We look for an original principal amount that makes us indifferent between payment today and payment in one year.
@@ -897,13 +897,13 @@ Thus,  $A = \frac{V_t}{(1 + r)^t}$ .
 Here,  $A$  is the PDV of  $V_{t}$ . The lender/saver is indifferent between paying  $A$  for the asset today and putting  $A$  in a savings account for  $t$  years
 
 $$
-S a y, t = 2, V _ {2} = 1 1 0, r = 5
+S a y, t = 2, V_{2} = 1 1 0, r = 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/c72ba589dd6b1335efa9cdd84cf110e755beccbe57f17d70960b4d5c0c9d096f.jpg)
 
 $$
-A = P D V = \frac {\$ 110}{(1 + 5 \%) ^ {2}} = \$ 100
+A = P D V = \frac{\$ 110}{(1 + 5 \%)^{2}} = \$ 100
 $$
 
 # Price and Interest Rate
@@ -918,7 +918,7 @@ Suppose the asset will pay (could be sold for)  $V_{t}$  after  $t$  periods.
 Then the price is inversely related to interest rate  $r$ :
 
 $$
-P D V = \frac {V _ {t}}{(1 + r) ^ {t}}.
+P D V = \frac{V_{t}}{(1 + r)^{t}}.
 $$
 
 Intuition: a higher interest rate means that you can invest less money today in order to have the value of a loan grow to  $V_{t}$  in the future
@@ -1048,7 +1048,7 @@ The third payment of  $1,000 two years from now is worth \frac{$ 1,000}{(1+r)2} 
 The PDV of this stream of payment is the sum of the PDV of each payment:
 
 $$
-\begin{array}{l} P D V = \\(1,000 + \frac{\)\\(1,000}{1+r} + \frac{\)\\)1,000}{(1+r)^2} + \frac{\$ 1,000}{(1+r)^3}$ \\ = \$ 1,000 + \frac {\$ 1 , 0 0 0}{1 . 0 5} + \frac {\$ 1 , 0 0 0}{(1 . 0 5) ^ {2}} + \frac {\$ 1 , 0 0 0}{(1 . 0 5) ^ {3}} \\ = \$ 1,000 + \$ 952 + \$ 907 + \$ 864 \\ = \$ 3,723. \\ \end{array}
+\begin{array}{l} P D V = \\(1,000 + \frac{\)\\(1,000}{1+r} + \frac{\)\\)1,000}{(1+r)^2} + \frac{\$ 1,000}{(1+r)^3}$ \\ = \$ 1,000 + \frac{\$ 1 , 0 0 0}{1 . 0 5} + \frac{\$ 1 , 0 0 0}{(1 . 0 5)^{2}} + \frac{\$ 1 , 0 0 0}{(1 . 0 5)^{3}} \\ = \$ 1,000 + \$ 952 + \$ 907 + \$ 864 \\ = \$ 3,723. \\ \end{array}
 $$
 
 # Present Discounted Value
@@ -1056,7 +1056,7 @@ $$
 If payments occur as a stream (for instance, a stream of dividends over  $T$  periods), the present discounted value can be computed as  $PDV = \frac{V_1}{(1 + i)} + \frac{V_2}{(1 + i)^2} + \frac{V_3}{(1 + i)^3} + \dots + \frac{V_T}{(1 + i)^T}$ .
 
 $$
-+ \widehat {V _ {0}} (I f t h e 1 ^ {s t} p a y m e n t s t a r t s + o d d)
++ \widehat {V_{0}} (I f t h e 1^{s t} p a y m e n t s t a r t s + o d d)
 $$
 
 # Example: Bond with Coupons
@@ -1071,7 +1071,7 @@ A special case involves identical payments that occur every period over an indef
 Let the fixed payment be  $M$ . The present discounted value of a never-ending stream of payments is given by (e.g. perpetuity, ongoing business)
 
 $$
-P D V = \frac {M}{(1 + r)} + \frac {M}{(1 + r) ^ {2}} + \frac {M}{(1 + r) ^ {3}} + \dots = \frac {M}{r}
+P D V = \frac{M}{(1 + r)} + \frac{M}{(1 + r)^{2}} + \frac{M}{(1 + r)^{3}} + \dots = \frac{M}{r}
 $$
 
 What is the present discounted value of an infinite stream of payments of \$20 if the interest rate is 2%? If the rate is 5%?
@@ -1108,11 +1108,11 @@ $\square \quad \mathbb {S} \delta \times (1 + r) = \mathbb {S} 1,$  which is equ
 □ the present value of receiving a stream of income of \(X each period from now on is
 
 $$
-X + \frac {1}{1 + r} X + \frac {1}{(1 + r) ^ {2}} X + \frac {1}{(1 + r) ^ {3}} X + \dots = \left(\frac {1}{r} + 1\right) X
+X + \frac{1}{1 + r} X + \frac{1}{(1 + r)^{2}} X + \frac{1}{(1 + r)^{3}} X + \dots = \left(\frac{1}{r} + 1\right) X
 $$
 
 $$
-(s a m e a s: x + \delta x + \delta^ {2} x + \delta^ {3} x + \dots = \frac {1}{1 - \delta} x)
+(s a m e a s: x + \delta x + \delta^{2} x + \delta^{3} x + \dots = \frac{1}{1 - \delta} x)
 $$
 
 # Intertemporal Choice
@@ -1149,13 +1149,13 @@ The initial year is  $t = 0$ , the firm's revenue in year  $t$  is  $R_{t}$ , an
 □ If the last year in which either revenue or cost is nonzero is  $T$ , the net present value rule holds that the firm should invest if
 
 $$
-\begin{array}{l} N P V = R - C \\ = \left[ R _ {0} + \frac {R _ {1}}{\left(1 + \dot {\boldsymbol {r}}\right) ^ {1}} + \frac {R _ {2}}{\left(1 + \dot {\boldsymbol {r}}\right) ^ {2}} + \dots + \frac {R _ {T}}{\left(1 + \dot {\boldsymbol {r}}\right) ^ {T}} \right] \\ - \left[ C _ {0} + \frac {C _ {1}}{(1 + \boldsymbol {r}) ^ {1}} + \frac {C _ {2}}{(1 + \boldsymbol {r}) ^ {2}} + \dots + \frac {C _ {T}}{(1 + \boldsymbol {r}) ^ {T}} \right] > 0. \\ \end{array}
+\begin{array}{l} N P V = R - C \\ = \left[ R_{0} + \frac{R_{1}}{\left(1 + \dot {\boldsymbol {r}}\right)^{1}} + \frac{R_{2}}{\left(1 + \dot {\boldsymbol {r}}\right)^{2}} + \dots + \frac{R_{T}}{\left(1 + \dot {\boldsymbol {r}}\right)^{T}} \right] \\ - \left[ C_{0} + \frac{C_{1}}{(1 + \boldsymbol {r})^{1}} + \frac{C_{2}}{(1 + \boldsymbol {r})^{2}} + \dots + \frac{C_{T}}{(1 + \boldsymbol {r})^{T}} \right] > 0. \\ \end{array}
 $$
 
 □ alternatively
 
 $$
-\begin{array}{l} N P V = \left(R _ {0} - C _ {0}\right) + \frac {R _ {1} - C _ {1}}{\left(1 + r\right) ^ {1}} + \frac {R _ {2} - C _ {2}}{\left(1 + r\right) ^ {2}} + \dots + \frac {R _ {T} - C _ {T}}{\left(1 + r\right) ^ {T}} \\ = \pi_ {0} + \frac {\pi_ {1}}{(1 + \boldsymbol {r}) ^ {1}} + \frac {\pi_ {2}}{(1 + \boldsymbol {r}) ^ {2}} + \dots + \frac {\pi_ {T}}{(1 + \boldsymbol {r}) ^ {T}} > 0. \\ \end{array}
+\begin{array}{l} N P V = \left(R_{0} - C_{0}\right) + \frac{R_{1} - C_{1}}{\left(1 + r\right)^{1}} + \frac{R_{2} - C_{2}}{\left(1 + r\right)^{2}} + \dots + \frac{R_{T} - C_{T}}{\left(1 + r\right)^{T}} \\ = \pi_{0} + \frac{\pi_{1}}{(1 + \boldsymbol {r})^{1}} + \frac{\pi_{2}}{(1 + \boldsymbol {r})^{2}} + \dots + \frac{\pi_{T}}{(1 + \boldsymbol {r})^{T}} > 0. \\ \end{array}
 $$
 
 # Exercise
@@ -1179,7 +1179,7 @@ $\square NPV = \$ 397 - \ $450 = -53 \text{ million} < 0.$
 ■ Internal rate of return (IRR) - the discount rate that results in a net present value of an investment of zero.
 
 $$
-N P V = \pi_ {0} + \frac {\pi_ {1}}{1 + i r r} + \frac {\pi_ {2}}{\left(1 + i r r\right) ^ {2}} + \ldots + \frac {\pi_ {T}}{\left(1 + i r r\right) ^ {T}} = 0
+N P V = \pi_{0} + \frac{\pi_{1}}{1 + i r r} + \frac{\pi_{2}}{\left(1 + i r r\right)^{2}} + \ldots + \frac{\pi_{T}}{\left(1 + i r r\right)^{T}} = 0
 $$
 
 # Internal Rate of Return Approach
@@ -1188,7 +1188,7 @@ $$
 The investment's rate of return is found by rearranging the previous equation and replacing  $i$  with  $irr$ :
 
 $$
-i r r = \frac {f}{P}
+i r r = \frac{f}{P}
 $$
 
 # Internal Rate of Return Approach
@@ -1210,23 +1210,23 @@ $$
 The internal rate of return from buying the Warriors is
 
 $$
-i r r = \frac {f}{P V} = \frac {\mathrm {\\( 11.9 million}}{\mathrm {\\) 450 million}} \approx 2.6 \%
+i r r = \frac{f}{P V} = \frac{\mathrm{\\(11.9million}}{\mathrm{\\)450million}} \approx 2.6 \%
 $$
 
 Because this internal rate of return,  $2.6 \%$ , is greater than the real interest rate,  $2 \%$ , buying the team was a good idea.
 
 $$
-\begin{array}{l} \begin{array}{c c c c c} (A = \\ r = 4 \text {‰}) & (\text {prin cip a l}) \\ & (\text {a n n u a l i n t e r e s t r a t e}) \\ \hline 0 & 1 y r \\ \mathrm {t o d a y} & \mathrm {f r o m n o w} \\ \hline V _ {0} = A = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2} = \\ & \frac {1}{2}. \end{array} \end{array}
+\begin{array}{l} \begin{array}{c c c c c} (A = \\ r = 4 \text{‰}) & (\text{principa l}) \\ & (\text{an nu al in te re st ra te}) \\ \hline 0 & 1 y r \\ \mathrm{to da y} & \mathrm{fr om no w} \\ \hline V_{0} = A = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2} = \\ & \frac{1}{2}. \end{array} \end{array}
 $$
 
 A bond is a debt security. Borrowers issue bonds to raise money from investors willing to lend them money for a certain amount of time.
 
 $$
-\begin{array}{l} \boxed {\mathbb {P} 1 0 0} \\ 5 \% \mathrm {a n n u a l r a t e} \\ \mathrm {m a t u r i t y l y r} \end{array} \dots \begin{array}{l} \mathrm {P r i n c i p a l ,} \\ \mathrm {F a c e v a l u e} \\ \dots \mathrm {m k t i n t . r a t e ,} \\ \mathrm {c o u p o n r a t e} \\ \dots \mathrm {l i f e o f t h i s b o n d} \end{array}
+\begin{array}{l} \boxed {\mathbb {P} 1 0 0} \\ 5 \% \mathrm{an nu al ra te} \\ \mathrm{ma tu ri ty ly r} \end{array} \dots \begin{array}{l} \mathrm{Pr in ci pa l ,} \\ \mathrm{Fa ce va lu e} \\ \dots \mathrm{mk ti nt .r at e ,} \\ \mathrm{co up on ra te} \\ \dots \mathrm{li fe of th is bo nd} \end{array}
 $$
 
 $$
-\begin{array}{l} \frac {1}{0} \\ \text {t o d a y} \\ \text {P D V} \end{array} \xrightarrow [ \mathrm {d i s c o u n t i n g} ]{\text {I y r}} > \$ 105
+\begin{array}{l} \frac{1}{0} \\ \text{to da y} \\ \text{PD V} \end{array} \xrightarrow [ \mathrm{di sc ou nt in g} ]{\text{Iy r}} > \$ 105
 $$
 
 Present (Discounted) Value: How much the amount of money is worth today, given the market
@@ -1238,11 +1238,11 @@ P D V (1 + 5 \%) = \$ 105
 $$
 
 $$
-\rightarrow P D V = \$ 1 0 5 \times \frac {1}{1 + r} = \$ 1 0 0
+\rightarrow P D V = \$ 1 0 5 \times \frac{1}{1 + r} = \$ 1 0 0
 $$
 
 $$
-k e y: \frac {1}{1 + r} = \delta (d i s c o u n t f a c t o r)
+k e y: \frac{1}{1 + r} = \delta (d i s c o u n t f a c t o r)
 $$
 
 PDV of 4-yr Scholarship
@@ -1252,7 +1252,7 @@ r = 5 \%
 $$
 
 $$
-\delta = \frac {1}{1 + r}
+\delta = \frac{1}{1 + r}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/7edd6aecc5fe4818b24aeffd8d364f571ae55c16c2f66e1d386bec696a3abb78.jpg)
@@ -1327,20 +1327,20 @@ $$
 
 A promoter schedules an outdoor concert for tomorrow. How much money she will make depends on the weather.
 
-If it does not rain, her profit from the concert is  $V_{\text {no rain}} = \mathbb{S}15.$  
-□ If it rains, she will have to cancel the concert and lose money,  $V _ {r a i n} = - \mathbb {S} 5$
+If it does not rain, her profit from the concert is  $V_{\text{norain}} = \mathbb{S}15.$  
+□ If it rains, she will have to cancel the concert and lose money,  $V_{r a i n} = - \mathbb {S} 5$
 
 The promoter knows that the weather department forecasts a  $50 \%$ chance of rain.
 
 Probability of rain:  $Pr(\text{rain}) = 0.5$  
-□ Probability of not rain:  $\Pr(\text{no rain}) = 1 - \Pr(\text{rain}) = 0.5$
+□ Probability of not rain:  $\Pr(\text{norain}) = 1 - \Pr(\text{rain}) = 0.5$
 
 # Expected Value
 
 The expected value,  $EV$ , is the sum of the value of each possible outcome times the probability of that outcome.
 
 $$
-\begin{array}{l} E V = P r (n o r a i n) \times V _ {n o r a i n} + P r (r a i n) \times V _ {r a i n} \\ = [ 0. 5 \times \$ 1 5 ] + [ 0. 5 \times (- \$ 5) ] = \$ 5 \\ \end{array}
+\begin{array}{l} E V = P r (n o r a i n) \times V_{n o r a i n} + P r (r a i n) \times V_{r a i n} \\ = [ 0. 5 \times \$ 1 5 ] + [ 0. 5 \times (- \$ 5) ] = \$ 5 \\ \end{array}
 $$
 
 # The Value of Information
@@ -1353,7 +1353,7 @@ How much does the promoter gain by having this perfect information?
 Suppose that the promoter knows the weather in time to cancel the concert at no cost.
 
 $$
-\begin{array}{l} E V = P r (n o r a i n) \times V _ {n o r a i n} + P r (r a i n) \times V _ {r a i n, c a n c e l} \\ = [ 0. 5 \times \$ 1 5 ] + [ 0. 5 \times \$ 0 ] = \$ 7. 5 \\ \end{array}
+\begin{array}{l} E V = P r (n o r a i n) \times V_{n o r a i n} + P r (r a i n) \times V_{r a i n, c a n c e l} \\ = [ 0. 5 \times \$ 1 5 ] + [ 0. 5 \times \$ 0 ] = \$ 7. 5 \\ \end{array}
 $$
 
 The expected value without perfect information was  \$5, so the value of information is\$ 2.5.
@@ -1368,13 +1368,13 @@ Since outcomes are exhaustive,  $p_{1} + p_{2} + \dots + p_{i} + \dots + p_{N} =
 Then the expected value is:
 
 $$
-E V = p _ {1} \times V _ {1} + p _ {2} \times V _ {2} + \dots + p _ {N} \times V _ {N}
+E V = p_{1} \times V_{1} + p_{2} \times V_{2} + \dots + p_{N} \times V_{N}
 $$
 
 # Variance Variance is the average squared deviation of  $V$  from its mean,  $E[V]$ .
 
 $$
-\operatorname {V a r} (V) = \sigma^ {2} = E \left[ (V - E (V)) ^ {2} \right]
+\operatorname{Va r} (V) = \sigma^{2} = E \left[ (V - E (V))^{2} \right]
 $$
 
 Variance  $(\sigma^2)$  measures the spread of the probability distribution.
@@ -1382,19 +1382,19 @@ Variance  $(\sigma^2)$  measures the spread of the probability distribution.
 $\square$ $\sigma$  is the standard deviation, the square root of the variance.
 
 $$
-= \sqrt {\sigma^ {2}}
+= \sqrt{\sigma^{2}}
 $$
 
 Recall the Expected Value:
 
 $$
-E V = p _ {1} \times V _ {1} + p _ {2} \times V _ {2} + \dots + p _ {N} \times V _ {N}
+E V = p_{1} \times V_{1} + p_{2} \times V_{2} + \dots + p_{N} \times V_{N}
 $$
 
 Variance:
 
 $$
-\sigma^ {2} = p _ {1} \times (V _ {1} - E V) ^ {2} + \dots + p _ {N} \times (V _ {N} - E V) ^ {2}.
+\sigma^{2} = p_{1} \times (V_{1} - E V)^{2} + \dots + p_{N} \times (V_{N} - E V)^{2}.
 $$
 
 # Variance in the Promoter Example
@@ -1429,7 +1429,7 @@ One measure of risk is the standard deviation. Holding the expected value consta
 Expected value of this asset is \(90 and the variance is
 
 $$
-0. 1 \times (0 - 9 0) ^ {2} + 0. 9 \times (1 0 0 - 9 0) ^ {2} = 9 0 0.
+0. 1 \times (0 - 9 0)^{2} + 0. 9 \times (1 0 0 - 9 0)^{2} = 9 0 0.
 $$
 
 Standard deviation is 30.  
@@ -1509,7 +1509,7 @@ Adam faces a \(50 \%\)probability of an income of \(100,000 (point B) and a \(50
 His expected income is \(68,000 and his expected utility is 8 (point C).
 
 $$
-\begin{array}{l} E I = \frac {1}{2} \times \$ 3 6, 0 0 0 + \frac {1}{2} \times \$ 1 0 0, 0 0 0 = \$ 6 8, 0 0 0. \\ E U = \frac {1}{2} \times \sqrt {3 6} + \frac {1}{2} \times \sqrt {1 0 0} = 8. \\ \end{array}
+\begin{array}{l} E I = \frac{1}{2} \times \$ 3 6, 0 0 0 + \frac{1}{2} \times \$ 1 0 0, 0 0 0 = \$ 6 8, 0 0 0. \\ E U = \frac{1}{2} \times \sqrt{3 6} + \frac{1}{2} \times \sqrt{1 0 0} = 8. \\ \end{array}
 $$
 
 # Risk Premium
@@ -1595,7 +1595,7 @@ For such a person, the utility of a certain value is lower than the expected uti
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/6190d4041aab2f8983a3371a6cd358e6a00d3384307625e77857e7c211b0cd49.jpg)
 
 $$
-= \frac {1}{2} (5) + \frac {1}{2} (1 0) = 7. 5
+= \frac{1}{2} (5) + \frac{1}{2} (1 0) = 7. 5
 $$
 
 # Kahneman-Tversky Prospect Theory
@@ -1661,7 +1661,7 @@ If a fire occurs, the store will be worth nothing.
 The variance of the value of her store is
 
 $$
-\sigma^ {2} = 0. 2 \times (0 - 4 0 0) ^ {2} + 0. 8 \times (5 0 0 - 4 0 0) ^ {2} = 1 0 0.
+\sigma^{2} = 0. 2 \times (0 - 4 0 0)^{2} + 0. 8 \times (5 0 0 - 4 0 0)^{2} = 1 0 0.
 $$
 
 # Insurance
@@ -1674,11 +1674,11 @@ $$
 $$
 
 $$
-\begin{array}{l l} \frac {b a d}{- 1} & \frac {g o o d}{- 1} \\ + 5 \end{array}
+\begin{array}{l l} \frac{b a d}{- 1} & \frac{g o o d}{- 1} \\ + 5 \end{array}
 $$
 
 $$
-\begin{array}{l} \mathrm {E x p e c t e d p r o f i t} \\ = 1 - 5 \cdot (20 \%) = 0 \\ \uparrow \\ \mathrm {i n s u r e r g e t s} & \mathrm {i n s u r e r n e u d s t o} \\ \mathrm {i t f o r s u r e} & \mathrm {p a y c l a r e i n t h e} \\ & \mathrm {b a d s t a t e} \end{array}
+\begin{array}{l} \mathrm{Ex pe ct ed pr of it} \\ = 1 - 5 \cdot (20 \%) = 0 \\ \uparrow \\ \mathrm{in su re rg et s} & \mathrm{in su re rn eu ds to} \\ \mathrm{it fo rs ur e} & \mathrm{pa yc la re in th e} \\ & \mathrm{ba ds ta te} \end{array}
 $$
 
 # Optimal Insurance
@@ -1695,7 +1695,7 @@ $$
 which solves for \(x = \\)100\(
 
 $$
-\frac {\begin{array}{l l} \mathrm {b a d} & \mathrm {g o o d} \\ 0 & 5 0 0 \\ - x & - x \\ + 5 x & \\ 4 x & 5 0 0 - x \end{array} }
+\frac{\begin{array}{l l} \mathrm{ba d} & \mathrm{go od} \\ 0 & 5 0 0 \\ - x & - x \\ + 5 x & \\ 4 x & 5 0 0 - x \end{array} }
 $$
 
 ■ With insurance, Claire gets \$400 with certainty.
@@ -1788,7 +1788,7 @@ $$
 and the variance is
 
 $$
-V a r = 0. 5 \times (\$ 8 0 - \$ 5 0) ^ {2} + 0. 5 \times (\$ 2 0 - \$ 5 0) ^ {2} = 9 0 0.
+V a r = 0. 5 \times (\$ 8 0 - \$ 5 0)^{2} + 0. 5 \times (\$ 2 0 - \$ 5 0)^{2} = 9 0 0.
 $$
 
 If you buy one share of each, your two shares will be worth \$50 no matter which firm wins.
@@ -1805,7 +1805,7 @@ they will value at \$10 if oil prices are low.
 The probability that oil prices will be high is  $50\%$ .
 
 $$
-\frac {G o o d \quad B a d}{\$ 40 \quad \$ 10}
+\frac{G o o d \quad B a d}{\$ 40 \quad \$ 10}
 $$
 
 What is the expected value and variance of an undiversified portfolio? Of a diversified one?
@@ -1858,7 +1858,7 @@ $$
 and the variance is
 
 $$
-V a r = 0. 5 \times (\$ 5 5 - \$ 4 5) ^ {2} + 0. 5 \times (\$ 3 5 - \$ 4 5) ^ {2} = 1 0 0.
+V a r = 0. 5 \times (\$ 5 5 - \$ 4 5)^{2} + 0. 5 \times (\$ 3 5 - \$ 4 5)^{2} = 1 0 0.
 $$
 
 # Comparing Three Portfolios
@@ -2006,11 +2006,11 @@ $$
 $$
 
 $$
-l e t v = \sqrt {I}, t h e n
+l e t v = \sqrt{I}, t h e n
 $$
 
 $$
-\begin{array}{l} E U = 25 \% (\sqrt {1}) + 75 \% (\sqrt {2}) \\ \div 1. 3 1 1 \\ \end{array}
+\begin{array}{l} E U = 25 \% (\sqrt{1}) + 75 \% (\sqrt{2}) \\ \div 1. 3 1 1 \\ \end{array}
 $$
 
 # Banks Provide Insurance: The Opportunity
@@ -2070,7 +2070,7 @@ Car Insurance (slides 1011)
 Scenario 1: Uninsured
 
 $$
-\frac {B a d (1 \%)}{0} \frac {G o o d (9 9 \%)}{1 0 0 0 0} \Rightarrow
+\frac{B a d (1 \%)}{0} \frac{G o o d (9 9 \%)}{1 0 0 0 0} \Rightarrow
 $$
 
 $$
@@ -2080,7 +2080,7 @@ $$
 Scenario 2: Fully insured
 
 $$
-\frac {B a d (1 \%)}{0} \quad \frac {G o o d (9 9 \%)}{1 0 0 0 0}
+\frac{B a d (1 \%)}{0} \quad \frac{G o o d (9 9 \%)}{1 0 0 0 0}
 $$
 
 $$
@@ -2096,7 +2096,7 @@ $$
 the amount firm needs to pay you (in the bad state) so that you'll be equally well off regardless of state (i.e. "fully insured")
 
 $$
-\frac {1 0 0 0 0 - x}{x} \cdot \frac {1 0 0 0 0 - x}{x}
+\frac{1 0 0 0 0 - x}{x} \cdot \frac{1 0 0 0 0 - x}{x}
 $$
 
 Then, how do we determine  $x$ ?
@@ -2110,7 +2110,7 @@ $$
 In this case, you'll have a guaranteed income of
 
 $$
-1 0 0 0 0 - 1 0 0 = 9 9 0 0. S o y o u r u t i l i t y = \sqrt {9 9 0 0} \div 9 9. 5
+1 0 0 0 0 - 1 0 0 = 9 9 0 0. S o y o u r u t i l i t y = \sqrt{9 9 0 0} \div 9 9. 5
 $$
 
 Since  ${99.5} > {99}$  ,you prefer being fully insured.
@@ -2124,7 +2124,7 @@ Would you still be willing to buy the full insurance plan?
 If  $x = {150}$  ,you'll have a guaranteed income of
 
 $$
-1 0 0 0 0 - 1 5 0 = 9 8 5 0. S o y o u r u t i l i t y = \sqrt {9 8 5 0} \div 9 9. 2 5
+1 0 0 0 0 - 1 5 0 = 9 8 5 0. S o y o u r u t i l i t y = \sqrt{9 8 5 0} \div 9 9. 2 5
 $$
 
 Note that even if your expected income has decreased from 9900 to 9850, you still prefer buying this
@@ -2321,7 +2321,7 @@ $$
 Market with both types of cars exist as long as
 
 $$
-p \geq \$ 1,250, \text {w h i c h i s e q u i v a l e n t t o} \theta \leq \frac {3}{4}.
+p \geq \$ 1,250, \text{wh ic hi se qu iv al en tt o} \theta \leq \frac{3}{4}.
 $$
 
 Otherwise, markets unravel.
@@ -2365,7 +2365,7 @@ This is known as a "death spiral" in insurance market.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/25239eddd704989c97d38944159e910e0e79fa90a7586f1a9d086f38e6021258.jpg)
 
 $$
-p r i c e = \frac {1}{3} (5 0 + 1 8 0 + 2 5 0) = 1 6 0 \rightarrow \text {L o w - r i s k e x i t !}
+p r i c e = \frac{1}{3} (5 0 + 1 8 0 + 2 5 0) = 1 6 0 \rightarrow \text{Lo w -r is ke xi t !}
 $$
 
 # US Health Insurance
@@ -2735,7 +2735,7 @@ WARNING: These are payoffs, not a 2x2 game
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/1c2654cc5d21d48ac80806c1929a90508fb992756d7d7a304305816257a69f6b.jpg)
 
 $$
-\begin{array}{l} E d e m a n d i n g = \frac {1}{2} \cdot 3 + \frac {1}{2} \cdot (- 1) = 1 \\ E u n d e m a n d i n g = \frac {1}{2} \cdot 1 + \frac {1}{2} \cdot 2 = 1. 5 \\ \end{array}
+\begin{array}{l} E d e m a n d i n g = \frac{1}{2} \cdot 3 + \frac{1}{2} \cdot (- 1) = 1 \\ E u n d e m a n d i n g = \frac{1}{2} \cdot 1 + \frac{1}{2} \cdot 2 = 1. 5 \\ \end{array}
 $$
 
 Job That Firm Gives to Cyndi
@@ -2811,7 +2811,7 @@ each produces is  $w_{l}$
 If firms cannot distinguish highand low-ability workers, they pay all workers the average wage
 
 $$
-w = \theta \times w _ {h} + (1 - \theta) \times w _ {l}.
+w = \theta \times w_{h} + (1 - \theta) \times w_{l}.
 $$
 
 # Education
@@ -2857,7 +2857,7 @@ $w_{l} = \$  20,000$
 For which  $c$  and  $\theta$  a separating equilibrium is possible?
 
 $$
-\begin{array}{l l} \binom {1 1} {5, 0 0 0} & \frac {1}{2} \\ 2 5, 0 0 0 \\ 1 5, 0 0 0 \end{array}
+\begin{array}{l l} \binom {1 1} {5, 0 0 0} & \frac{1}{2} \\ 2 5, 0 0 0 \\ 1 5, 0 0 0 \end{array}
 $$
 
 # Pooling and Separating Equilibria
@@ -2950,7 +2950,7 @@ To illustrate how such signaling works, we'll make the extreme assumptions that 
 Two types of equilibria are possible, depending on whether or not employers can distinguish high-ability workers from others. If employers have no way of telling workers apart, the outcome is a pooling equilibrium: Dissimilar people are treated (paid) alike. Employers pay all workers the average wage:
 
 $$
-w = \theta \times w _ {h} + (1 - \theta) \times w _ {l}
+w = \theta \times w_{h} + (1 - \theta) \times w_{l}
 $$
 
 We assume that high-ability individuals can get a degree by spending  $c$  to get a degree and that low-ability people cannot graduate from the school. If high-ability people graduate and low-ability people do not, a degree is a signal of ability to employers. Given such a clear signal, the outcome is a separating equilibrium. Here a successful signal causes high-ability workers to receive  $w_{h}$  and the others to receive  $w_{l}$ , so wages vary with ability.
@@ -2960,7 +2960,7 @@ We assume that high-ability individuals can get a degree by spending  $c$  to ge
 In a separating equilibrium, high-ability people pay  $c$  to get a degree and are employed at a wage of  $w_{h}$ , while low-ability individuals do not get a degree and work for a wage of  $w_{l}$ . The low-ability people have no choice, as they cannot get a degree. High-ability individuals have the option of not going to school. Without a degree, however, they are viewed as low ability once hired, and they receive  $w_{l}$ . If they go to school, their net earnings are  $w_{h} - c$ . Thus, it pays for a high-ability person to go to school if
 
 $$
-w _ {h} - c > w _ {l} \Leftrightarrow w _ {h} - w _ {l} > c.
+w_{h} - c > w_{l} \Leftrightarrow w_{h} - w_{l} > c.
 $$
 
 The inequality above says that the benefit from graduating, the extra pay  $w_{h} - w_{l}$ , exceeds the cost of schooling. Thus, if the inequality holds, no worker wants to change behavior, so a separating equilibrium is feasible.
@@ -2972,7 +2972,7 @@ In a pooling equilibrium, all workers are paid the average wage,  $w$ . Again, b
 is less than the cost of schooling:
 
 $$
-w _ {h} - w <   c.
+w_{h} - w <   c.
 $$
 
 Thus, if the inequality holds, no worker wants to change behavior, so a pooling equilibrium persists.
@@ -3415,7 +3415,7 @@ Principal, as a residual claimant, receives the residual payoff, which is the am
 Hence, Principal's expected payoff is
 
 $$
-\frac {1}{2} \times \$ 8 0 0 + \frac {1}{2} \times \$ 1, 3 0 0 = \$ 1, 0 5 0.
+\frac{1}{2} \times \$ 8 0 0 + \frac{1}{2} \times \$ 1, 3 0 0 = \$ 1, 0 5 0.
 $$
 
 The contract is efficient in risk bearing because Principal, the risk-neutral party, bears all the risk from the shop's uncertain earnings, whereas Agent received a guaranteed (i.e. risk-free) earnings. Note that the contract is also efficient in production because their combined earnings, \$1,150, are as high as possible since Agent works extra hard.
@@ -3436,7 +3436,7 @@ Principal, as a residual claimant, receives the residual payoff, which is the am
 Hence, Principal's expected payoff is
 
 $$
-\frac {1}{2} \times \$ 2 0 0 + \frac {1}{2} \times \$ 7 0 0 = \$ 4 5 0.
+\frac{1}{2} \times \$ 2 0 0 + \frac{1}{2} \times \$ 7 0 0 = \$ 4 5 0.
 $$
 
 The contract is efficient in risk bearing because Principal, the risk-neutral party, bears all the risk from the shop's uncertain earnings, whereas Agent received a guaranteed (i.e. risk-free) earnings. Note that the contract is not efficient in production because their combined earnings,  $\\(750$ , are less than those with symmetric information, \)1,150. Because the moral hazard substantially reduces the shop's expected earnings, having Principal pay Agent a fixed wage is not the best way to compensate her.
@@ -3470,13 +3470,13 @@ As the residual claimant, Agent has an incentive to provide high effort<sup>1</s
 Hence, Agent's net expected payoff is
 
 $$
-\frac {1}{2} \times \\( (7 0 0 - 1 0 0) + \frac {1}{2} \times \\) (1, 0 0 0 - 1 0 0) = \\) 7 5 0.
+\frac{1}{2} \times \\( (7 0 0 - 1 0 0) + \frac{1}{2} \times \\) (1, 0 0 0 - 1 0 0) = \\) 7 5 0.
 $$
 
 Principal's expected payoff is
 
 $$
-\frac {1}{2} \times \$ 3 0 0 + \frac {1}{2} \times \$ 6 0 0 = \$ 4 5 0.
+\frac{1}{2} \times \$ 3 0 0 + \frac{1}{2} \times \$ 6 0 0 = \$ 4 5 0.
 $$
 
 Although Agent paying Principal rather than the other way around increases their total payoffs, it makes both Agent and Principal bear some of the risk. Therefore, although this contract achieves efficiency in production, it does not provide for efficient risk bearing.
@@ -3488,13 +3488,13 @@ One common contingent contract is a profit-sharing contract, in which the payoff
 If Agent exerts low effort, the shop earns \$500 if the demand is low and Agent receives 50%, or \$250. If demand is high, the shop earns \$1,000, so Agent's share is $500 (= 50% × $1,000). Thus, Agent's expected payoff from low effort is
 
 $$
-\frac {1}{2} \times \$ 2 5 0 + \frac {1}{2} \times \$ 5 0 0 = \$ 3 7 5.
+\frac{1}{2} \times \$ 2 5 0 + \frac{1}{2} \times \$ 5 0 0 = \$ 3 7 5.
 $$
 
 If Agent provides extra effort, the shop earns \$1,000 if the demand is low, and Agent receives \$500, but she incurs a personal cost of \$100 for providing high effort, so her net return is \$400. If the demand is high, the shop's profit is \$1,500, so that Agent nets $650 (= 50% × $1,500 - \$100). Thus, Agent's net expected payoff from high effort is
 
 $$
-\frac {1}{2} \times \$ 4 0 0 + \frac {1}{2} \times \$ 6 5 0 = \$ 5 2 5.
+\frac{1}{2} \times \$ 4 0 0 + \frac{1}{2} \times \$ 6 5 0 = \$ 5 2 5.
 $$
 
 As you can verify, Agent's variance in earnings is  $0.5 \times (250 - 375)^2 + 0.5 \times (500 - 375)^2 = 15,625$  with low effort, which is the same as the variance with high effort,  $0.5 \times (400 - 525)^2 + 0.5 \times (650 - 525)^2$ . Thus, because her risk is the same with both levels of effort but her net expected payoffs are higher if
@@ -3504,7 +3504,7 @@ she puts forth high effort, it is in her best interest to work hard.
 Hence, Principal's expected payoff is
 
 $$
-\frac {1}{2} \times (50 \% \times \$ 1,000) + \frac {1}{2} \times (50 \% \times \$ 1,500) = \$ 625.
+\frac{1}{2} \times (50 \% \times \$ 1,000) + \frac{1}{2} \times (50 \% \times \$ 1,500) = \$ 625.
 $$
 
 In summary, although this profit-sharing contract increases their total payoffs, it makes both Agent and Principal bear some of the risk. Therefore, although this contract achieves efficiency in production, it does not provide for efficient risk bearing.
@@ -3518,7 +3518,7 @@ To induce an agent to work hard, a principal may offer the agent a bonus: an ext
 If Agent provides low effort, the shop does not earn enough to trigger the bonus, so Agent receives \$200 in both states of nature. If Agent provides extra effort but the demand is low, the shop earns \$1,000 (not enough to trigger the bonus), so Agent receives her wage of \$200 and incurs a cost of \$100, so her net payoff is \$100. However, if she works hard and the demand is high, the shop earns \$1,500, the bonus is triggered, and Agent gets her wage of \$200 plus the bonus of \$300. After subtracting her cost of extra effort, she nets $200 + $300 - $100 = $400. Thus, Agent's net expected payoff with extra effort is
 
 $$
-\frac {1}{2} \times \$ 1 0 0 + \frac {1}{2} \times \$ 4 0 0 = \$ 2 5 0,
+\frac{1}{2} \times \$ 1 0 0 + \frac{1}{2} \times \$ 4 0 0 = \$ 2 5 0,
 $$
 
 which exceeds the \$200 she earns with low effort. However, the variance in her net expected payoff with extra effort is  $0.5 \times (100 - 250)^2 + 0.5 \times (400 - 250)^2 = 22,500 > 0$ . Thus, whether Agent chooses to work extra hard depends on how risk averse she is. If she is not very risk averse, she may work extra hard. However, if she is very risk averse, she puts in only low effort, receives a modest but predictable wage, and avoids the risk of sometimes earning little.
@@ -3829,15 +3829,15 @@ If valuations are drawn from a uniform distribution, and there are 2 players, yo
 Prevents collusion but can result in inefficient allocation and
 
 $$
-\begin{array}{l} \mathrm {s c a r e o f f l e s s s a v y p l a y e r s} \\ \mathrm {e x p e c t e d p a y o f f = p r (w i n) \times (v - b)} \end{array}
+\begin{array}{l} \mathrm{sc ar eo ff le ss sa vy pl ay er s} \\ \mathrm{ex pe ct ed pa yo ff =p r (wi n) \times (v -b)} \end{array}
 $$
 
 $$
-\begin{array}{l l} \mathrm {I f} b \uparrow : & \uparrow \\ \mathrm {I f} b \downarrow : & \downarrow \end{array}
+\begin{array}{l l} \mathrm{If} b \uparrow : & \uparrow \\ \mathrm{If} b \downarrow : & \downarrow \end{array}
 $$
 
 $$
-\begin{array}{c} \downarrow \\ \uparrow \end{array} \begin{array}{c} \text {T r a d e - o f f !} \\ \text {P P H A 3 2 4 0 0 W i n t e r 2 0 2 3 | L e c t u r e 1 6} \end{array}
+\begin{array}{c} \downarrow \\ \uparrow \end{array} \begin{array}{c} \text{Tr ad e -o ff !} \\ \text{PP HA 32 40 0W in te r2 02 3 |L ec tu re 16} \end{array}
 $$
 
 # Dutch Auction
@@ -4150,7 +4150,7 @@ $\square v_{A} - b_{A}, \text{ if } b_{A} > b_{B}$
 Alice's expected payoff
 
 $$
-\pi_ {A} = \pi_ {A} (b _ {A}; v _ {A}) = (v _ {A} - b _ {A}) \times P (b _ {A} > b _ {B})
+\pi_{A} = \pi_{A} (b_{A}; v_{A}) = (v_{A} - b_{A}) \times P (b_{A} > b_{B})
 $$
 
 Alice's tradeoff
@@ -4244,7 +4244,7 @@ Two agents, A and B.
 The optimality condition for the consumption of private good by A and B:
 
 $$
-M B ^ {A} = M B ^ {B} = P
+M B^{A} = M B^{B} = P
 $$
 
 Equilibrium on the supply side requires  $MC = P$ . Therefore, in equilibrium,  $MB(= MRS) = MC$ , the marginal cost of production equals the marginal benefit.

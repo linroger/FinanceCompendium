@@ -101,7 +101,7 @@ Based on an analysis of 30 years' worth of cross-country panel data, Judson and 
 We can actually use the earlier "economists' estimates" of volatility in real GDP growth and CPI inflation, together with the implied volatility of short-term rates, to compute a rough estimate of the correlation between inflation and growth. Assuming that nominal rates are solely determined by growth and inflation, we have:
 
 $$
-\sigma_ {n o m} ^ {2} = \sigma_ {G D P} ^ {2} + \sigma_ {C P I} ^ {2} + 2 \rho \sigma_ {G D P} \sigma_ {C P I}
+\sigma_{n o m}^{2} = \sigma_{G D P}^{2} + \sigma_{C P I}^{2} + 2 \rho \sigma_{G D P} \sigma_{C P I}
 $$ where  $\sigma_{GDP}$ ,  $\sigma_{CPI}$  denote the volatility of growth and inflation respectively, and  $\rho$  is the correlation between growth and inflation.
 
 
@@ -180,7 +180,7 @@ $= \mathrm{tax}$  rate  $\times$  (pretax real yield
 + forecast inflation) - forecast inflation
 
 $$
-\begin{array}{l} = \text {t a x r a t e} \times \text {p r e t a x r e a l y i e l d} - \\ (1 - \text {t a x r a t e}) \cdot \text {f o r c e s t i n f l a t i o n} \\ \end{array}
+\begin{array}{l} = \text{ta xr at e} \times \text{pr et ax re al yi el d} - \\ (1 - \text{ta xr at e}) \cdot \text{fo rc es ti nf la ti on} \\ \end{array}
 $$
 
 For nominal bonds, the reasoning is similar: forecast after-tax real yield
@@ -191,7 +191,7 @@ For nominal bonds, the reasoning is similar: forecast after-tax real yield
 $= \mathrm{tax}$  rate  $\times$  forecast pretax nominal yield forecast inflation
 $= \mathrm{tax}$  rate  $\times$  (pretax real yield
 + market inflation) - forecast inflation
-$= \mathrm{tax rate} \times \mathrm{pretax}$  real yield
+$= \mathrm{taxrate} \times \mathrm{pretax}$  real yield
 - (forecast inflation
 -tax rate  $\cdot$  market inflation) where "forecast inflation" refers to the investor's inflation forecast and "market inflation" refers to the market's inflation forecast as reflected in the spread between market nominal yields and market real yields.
 

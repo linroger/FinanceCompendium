@@ -69,7 +69,7 @@ According to the literature on portfolio theory, two disjoint categories of risk
 
 In the following, we consider a portfolio of  $N$  assets whose individual returns are given by  $r_1,\ldots ,r_N$ . The relative weights of the portfolio are denoted as  $x_{1},\dots x_{n}$  and, therefore, the portfolio return  $r_p$  can be expressed as
 
-$$ r _ {p} = x _ {1} \cdot r _ {1} + \dots + x _ {N} \cdot r _ {N} = \sum_ {i = 1} ^ {N} x _ {i} \cdot r _ {i}
+$$ r_{p} = x_{1} \cdot r_{1} + \dots + x_{N} \cdot r_{N} = \sum_{i = 1}^{N} x_{i} \cdot r_{i}
 $$
 
 We also provide a sample version of the discussed risk measures. The sample version will be based on a sample of length  $T$  of independent and identically distributed observations  $r_p^{(k)}$ ,  $k - 1, \ldots, T$  of the portfolio return  $r_p$ . These observations can be obtained from a corresponding sample of the individual assets.
@@ -84,7 +84,7 @@ Several portfolio mean dispersion approaches have been proposed in the last few 
 In the mean standard deviation approach the dispersion measure is the standard deviation of the portfolio return  $r_p$  (see Markowitz, 1959, and Tobin, 1958):
 
 $$
-\sigma \left(r _ {p}\right) = \sqrt {E \left(r _ {p} - E \left(r _ {p}\right)\right) ^ {2}} \tag {1}
+\sigma \left(r_{p}\right) = \sqrt{E \left(r_{p} - E \left(r_{p}\right)\right)^{2}} \tag {1}
 $$
 
 The standard deviation is a special case of the mean absolute moment discussed below. The sample version can be obtained from the general case by setting  $p = 2$ .
@@ -94,7 +94,7 @@ The standard deviation is a special case of the mean absolute moment discussed b
 In the mean absolute deviation (MAD) approach, the dispersion measure is based on the absolution deviations from the mean rather than the squared deviations as in the case of the standard deviation. The MAD is more robust with respect to outliers. The MAD for the portfolio return  $r_p$  is defined as
 
 $$
-\operatorname {M A D} \left(r _ {p}\right) = E \left(\left| r _ {p} - E \left(r _ {p}\right) \right|\right) \tag {2}
+\operatorname{MA D} \left(r_{p}\right) = E \left(\left| r_{p} - E \left(r_{p}\right) \right|\right) \tag {2}
 $$
 
 # Mean Absolute Moment
@@ -102,7 +102,7 @@ $$
 The mean absolute moment (MAM(q)) approach is the logical generalization of the MQ approach. Under this approach the dispersion measure is defined as
 
 $$
-\operatorname {M A M} \left(r _ {q}, p\right) = \left(E \left(\left| r _ {p} - E \left(r _ {p}\right) \right| ^ {q}\right)\right) ^ {1 / q}, \quad q \geq 1 \tag {3}
+\operatorname{MA M} \left(r_{q}, p\right) = \left(E \left(\left| r_{p} - E \left(r_{p}\right) \right|^{q}\right)\right)^{1 / q}, \quad q \geq 1 \tag {3}
 $$
 
 Note that the mean absolute moment for  $q = 2$  coincides with the standard deviation and for
@@ -110,12 +110,12 @@ Note that the mean absolute moment for  $q = 2$  coincides with the standard dev
 $q = 1$  the mean absolute moment reduces to the mean absolute deviation. One possible sample version of (3) is given by
 
 $$
-\operatorname {M A M} \left(r _ {p}, q\right) = \sqrt [ q ]{\frac {1}{T} \sum_ {k = 1} ^ {T} \left| r _ {p} ^ {(k)} - \bar {r} _ {p} \right| ^ {q}}
+\operatorname{MA M} \left(r_{p}, q\right) = \sqrt [ q ]{\frac{1}{T} \sum_{k = 1}^{T} \left| r_{p}^{(k)} - \bar {r}_{p} \right|^{q}}
 $$ where
 
 
 $$
-\bar {r} = \frac {1}{T} \sum_ {k = 1} ^ {T} r _ {p} ^ {(k)}
+\bar {r} = \frac{1}{T} \sum_{k = 1}^{T} r_{p}^{(k)}
 $$ denotes the sample mean of the portfolio return.
 
 
@@ -126,12 +126,12 @@ The index of dissimilarity is based on the measure introduced by Gini (1912, 192
 While this measure has been used for the past 80 years as a measure of social and economic conditions, its interest as a measure of risk in the theory of portfolio selection is relatively recent. Interest in a Gini-type risk measure has been fostered by Rachev (1991) and Rachev and Gamrowski (1995). Mathematically, the Gini risk measure for the random portfolio return  $r_p$  is defined as
 
 $$
-\operatorname {G M} \left(r _ {p}, r _ {b}\right) = \operatorname {M i n} \left\{E \left| r _ {p} - r _ {b} \right| \right\} \tag {4}
+\operatorname{GM} \left(r_{p}, r_{b}\right) = \operatorname{Mi n} \left\{E \left| r_{p} - r_{b} \right| \right\} \tag {4}
 $$ where the minimum is taken over all joint distributions of  $(r_p, r_b)$  with fixed marginal distribution functions  $F$  and  $G$ :
 
 
 $$
-\begin{array}{l} F (x) = P \left(r _ {p} \leq x\right) \text {a n d} \\ G (x) = P \left(r _ {b} \leq x\right), \quad x \text {r e a l} \\ \end{array}
+\begin{array}{l} F (x) = P \left(r_{p} \leq x\right) \text{an d} \\ G (x) = P \left(r_{b} \leq x\right), \quad x \text{re al} \\ \end{array}
 $$
 
 Here  $r_b$  is the benchmark return, say, the return of a market index, or just the risk-free rate (U.S. Treasury rate or LIBOR, for example).
@@ -139,7 +139,7 @@ Here  $r_b$  is the benchmark return, say, the return of a market index, or just
 Expression (4) can be represented as the mean absolute deviation between the two distribution functions  $F$  and  $G$ :
 
 $$
-G M (r _ {p}, r _ {b}) = \int_ {- \infty} ^ {+ \infty} | F (x) - G (x) | d x
+G M (r_{p}, r_{b}) = \int_{- \infty}^{+ \infty} | F (x) - G (x) | d x
 $$
 
 Given a sample or a distributional assumption for the benchmark return  $r_b$ , the latter expression can be used for estimating the Gini index by calculating the area between the graphs of the empirical distribution function of  $r_p$  and the (empirical) distribution function of  $r_b$ .
@@ -151,12 +151,12 @@ In the mean entropy (M-entropy) approach, the dispersion measure is the exponent
 Probably its most important application in finance is to derive the probability density function of the asset underlying an option on the basis of the information that some option prices provide. Entropy was used also in portfolio theory by Philippatos and Wilson (1972) and Philippatos and Gressis (1975) and is defined as
 
 $$
-\text {E n t r o p y} = - E (\log f (r _ {p}))
+\text{En tr op y} = - E (\log f (r_{p}))
 $$ where  $f$  is the density of the portfolio return. Thus, the exponential entropy is given by
 
 
 $$
-E E \left(r _ {p}\right) = e ^ {- E \left(\log f \left(r _ {p}\right)\right)} \tag {5}
+E E \left(r_{p}\right) = e^{- E \left(\log f \left(r_{p}\right)\right)} \tag {5}
 $$
 
 The valuation of entropy can be done either by considering the empirical density of a portfolio or assuming that portfolio returns belong to a given family of continuous distributions and estimate their unknown parameters.
@@ -166,18 +166,18 @@ The valuation of entropy can be done either by considering the empirical density
 In the mean colog (M-colog) approach, the dispersion measure is the covariance between the random variable and its logarithm.7 That is, the colog of a portfolio return is defined as
 
 $$
-\begin{array}{l} \operatorname {C o l o g} \left(1 + r _ {p}\right) = E \left(r _ {p} \log \left(1 + r _ {p}\right)\right) \\ - E \left(r _ {p}\right) E \left(\log \left(1 + r _ {p}\right)\right) \tag {6} \\ \end{array}
+\begin{array}{l} \operatorname{Co lo g} \left(1 + r_{p}\right) = E \left(r_{p} \log \left(1 + r_{p}\right)\right) \\ - E \left(r_{p}\right) E \left(\log \left(1 + r_{p}\right)\right) \tag {6} \\ \end{array}
 $$
 
 Colog can easily be estimated based on a sample of the portfolio return distribution by:
 
 $$
-\begin{array}{l} \operatorname {C o l o g} (1 + r _ {p}) \approx \frac {1}{T} \sum_ {k = 1} ^ {T} \left(r _ {p} ^ {(k)} - \bar {r} _ {p}\right) \cdot \left(\log (1 + r _ {p} ^ {(k)}) \right. \\ - \overline {{\log (1 + r _ {p})}}) \\ \end{array}
+\begin{array}{l} \operatorname{Co lo g} (1 + r_{p}) \approx \frac{1}{T} \sum_{k = 1}^{T} \left(r_{p}^{(k)} - \bar {r}_{p}\right) \cdot \left(\log (1 + r_{p}^{(k)}) \right. \\ - \overline {{\log (1 + r_{p})}}) \\ \end{array}
 $$ where
 
 
 $$
-\overline {{\log (1 + r _ {p})}} = \frac {1}{T} \sum_ {k = 1} ^ {T} \log \left(1 + r _ {p} ^ {(k)}\right)
+\overline {{\log (1 + r_{p})}} = \frac{1}{T} \sum_{k = 1}^{T} \log \left(1 + r_{p}^{(k)}\right)
 $$ denotes the sample mean of the logarithm of one plus the portfolio return.
 
 
@@ -197,7 +197,7 @@ Some of the most well-known safety-first risk measures proposed in the literatur
 In the classical safety-first portfolio choice problem the risk measure is the probability of loss or, more generally, the probability  $P_{\lambda} = P(r_{p}\leq \lambda)$  of portfolio return less than  $\lambda$ . Generally, safety-first investors have to solve a complex, mixed integer linear programming problem to find the optimal portfolios. However, when short sales are allowed and return distributions are elliptical, depending on a dispersion matrix  $Q$  and a vector mean  $\mu$ , then there exists a closed-form solution to the investor's portfolio selection problem:
 
 $$
-\begin{array}{l} \text {M i n i m i z e :} P (r _ {p} \leq \lambda) \\ \text {S u b j e c t} \quad t o: \sum_ {i = 1} ^ {N} x _ {t} = 1, x _ {i} \geq 0 \\ \end{array}
+\begin{array}{l} \text{Mi ni mi ze :} P (r_{p} \leq \lambda) \\ \text{Su bj ec t} \quad t o: \sum_{i = 1}^{N} x_{t} = 1, x_{i} \geq 0 \\ \end{array}
 $$
 
 The interesting property of this optimization problem is that we are able to express the set of optimal portfolios explicitly as a function of the shortfall barrier  $\lambda$ , the mean vector  $\mu$ , and the dispersion matrix  $Q$ . The mean  $m$  and the dispersion  $\sigma^2$  of these optimal portfolios can again be expressed as a function of the threshold  $\lambda$ , the mean vector  $\mu$ , and the dispersion matrix  $Q$ . In the case where the elliptical family has finite variance (as, for example, the normal distribution), then the dispersion  $\sigma^2$  corresponds to the variance.
@@ -210,7 +210,7 @@ As the risk measure consists of the probability that the return falls below a gi
 Value at risk  $(\mathrm{VaR}_{1 - \alpha})$  is a closely related possible safety-first measure of risk defined by the following equality:
 
 $$
-\operatorname {V a R} _ {1 - \alpha} (r _ {p}) = - \min  \{z | (P (r _ {p} \leq z) > \alpha) \} \tag {7}
+\operatorname{Va R}_{1 - \alpha} (r_{p}) = - \min  \{z | (P (r_{p} \leq z) > \alpha) \} \tag {7}
 $$
 
 Here,  $1 - \alpha$  is denoted as the confidence level and  $\alpha$  usually takes values like  $1\%$  or  $5\%$ . Theoretically, the VaR figure defined by equation (7) can admit negative values. In reality, however, it is likely and often implicitly assumed that the VaR is positive, and it can be interpreted as the level at which the losses will not exceed with a probability of  $1 - \alpha\%$ . Sometimes VaR is, therefore, defined as the maximum of zero and the expression defined in equation (7) to guarantee a positive value for VaR.
@@ -222,7 +222,7 @@ VaR can be used as a risk measure to determine reward-risk optimal portfolios. M
 The conditional value at risk  $(\mathrm{CVaR}_{1 - \alpha})$  or expected tail loss (ETL) is defined as:
 
 $$
-\begin{array}{l} \mathrm {C V a R} _ {1 - \alpha} (r _ {p}) = E (\max  (- r _ {p}, 0) | - r _ {p} \\ \geq \operatorname {V a R} _ {1 - \alpha} \left(r _ {p}\right)) \tag {8} \\ \end{array}
+\begin{array}{l} \mathrm{CV aR}_{1 - \alpha} (r_{p}) = E (\max  (- r_{p}, 0) | - r_{p} \\ \geq \operatorname{Va R}_{1 - \alpha} \left(r_{p}\right)) \tag {8} \\ \end{array}
 $$ where  $\mathrm{VaR}_{1 - \alpha}(X)$  is defined in equation (7) and we assume that portfolio return distribution is continuous. From this definition we observe that the CVaR can be seen as the expected shortfall assuming the  $\mathrm{VaR}_{1 - \alpha}(X)$  as the benchmark.
 
 
@@ -233,7 +233,7 @@ A sophisticated estimation of CVaR depends strongly on the estimation of VaR. An
 An alternative way to derive some safety-first optimal portfolios is minimizing the MiniMax (MM) risk measure (see Young, 1998). The MiniMax of a portfolio return is given by:
 
 $$
-M M \left(r _ {p}\right) = - \sup  \left\{c \mid P \left(r _ {p} \leq c\right) = 0 \right\} \tag {9}
+M M \left(r_{p}\right) = - \sup  \left\{c \mid P \left(r_{p} \leq c\right) = 0 \right\} \tag {9}
 $$
 
 This risk measure can be seen as an extreme case of CVaR.
@@ -248,19 +248,19 @@ A natural extension of semivariance is the lower partial moment risk measure (se
 The lower partial moment of a portfolio  $r_p$  bounded from below is given by
 
 $$
-\operatorname {L P M} \left(r _ {p}, q\right) = \sqrt [ q ]{E \left(\max  \left(t - r _ {p} , 0\right) ^ {q}\right)} \tag {10}
+\operatorname{LP M} \left(r_{p}, q\right) = \sqrt [ q ]{E \left(\max  \left(t - r_{p} , 0\right)^{q}\right)} \tag {10}
 $$ where  $q$  is the power index and  $t$  is the target rare of return.
 
 
 Given a sample of return observations, we can approximate equation (10) as follows:
 
 $$
-\mathrm {L P M} (r _ {p}, q) = \sqrt [ q ]{\frac {1}{T} \sum_ {k = 1} ^ {T} \max \left(k _ {p} ^ {(k)} - \bar {r} _ {p} , 0\right) ^ {q}}
+\mathrm{LP M} (r_{p}, q) = \sqrt [ q ]{\frac{1}{T} \sum_{k = 1}^{T} \max \left(k_{p}^{(k)} - \bar {r}_{p} , 0\right)^{q}}
 $$ where as before
 
 
 $$
-\bar {r} = \frac {1}{T} \sum_ {k = 1} ^ {T} r _ {p} ^ {(k)}
+\bar {r} = \frac{1}{T} \sum_{k = 1}^{T} r_{p}^{(k)}
 $$ denotes the sample mean of the portfolio return.
 
 
@@ -269,7 +269,7 @@ $$ denotes the sample mean of the portfolio return.
 The power conditional value at risk measure, introduced in Rachev, Jasic, Biglova, and Fabozzi (2005), is the CVaR of the lower partial moment of the return. It depends on a power index that varies with respect to an investor's degree of risk aversion. Power CVaR generalizes the concept of CVaR and is defined as
 
 $$
-\begin{array}{l} \mathrm {C V a R} _ {q, 1 - \alpha} (r _ {p}) = E (\max (- r _ {p}, 0) ^ {q} | - r _ {p} \\ \geq \operatorname {V a R} _ {1 - \alpha} (r _ {p})) \tag {11} \\ \end{array}
+\begin{array}{l} \mathrm{CV aR}_{q, 1 - \alpha} (r_{p}) = E (\max (- r_{p}, 0)^{q} | - r_{p} \\ \geq \operatorname{Va R}_{1 - \alpha} (r_{p})) \tag {11} \\ \end{array}
 $$
 
 A sample version of power CVaR can be obtained in the same way as sample version for the regular CVaR, that is, one calculates the  $q$ -th sample moment of all observations in the sample that are smaller than the corresponding VaR estimate.

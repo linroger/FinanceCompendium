@@ -177,7 +177,7 @@ According to the Compustat manual, the following identity holds:
 Operating income before depreciation
 
 $$
-\begin{array}{l} = \text {S a l e s} - \text {C o s t o f g o o d s s o l d} - \text {S e l l i n g} \\ a n d \quad a n d g e n e r a l \quad a d v i s t r a t i v e \quad e x p e s s e s \\ \end{array}
+\begin{array}{l} = \text{Sa le s} - \text{Co st of go od ss ol d} - \text{Se ll in g} \\ a n d \quad a n d g e n e r a l \quad a d v i s t r a t i v e \quad e x p e s s e s \\ \end{array}
 $$
 
 However, while this mathematical identity is true, this is not what we discover in the data. After we calculate the two factors, we form quintile portfolios of each factor and compare the individual holding rankings between the portfolio. Figure 1 displays the percentage differences in rankings for individual companies between the two portfolios. We observe that the results are not identical. As a matter of fact, there are large differences, particularly in the early period. In other words, the two mathematically equivalent approaches do not deliver the same empirical results.
@@ -227,7 +227,7 @@ At first, factors consist of raw data from a database combined in an economicall
 
 Standardization rescales a variable while preserving its order. Typically, we choose the standardized variable to have a mean of zero and a standard deviation of one by using the transformation
 
-$$ x _ {i} ^ {\mathrm {n e w}} = \frac {x _ {i} - \bar {x}}{\sigma_ {x}}
+$$ x_{i}^{\mathrm{ne w}} = \frac{x_{i} - \bar {x}}{\sigma_{x}}
 $$ where  $x_{i}$  is the stock's factor score,  $\bar{x}$  is the universe average, and  $\sigma_{x}$  is the universe standard deviation. There are several reasons to scale a variable in this way. First, it allows one to determine a stock's position relative to the universe average. Second, it allows better comparison across a set of factors since means and standard
 
 
@@ -239,26 +239,26 @@ Sometimes the performance of our factor might be related to another factor. Orth
 
 To orthogonalize the factor using averages according to industries or sectors, we can proceed as follows. First, for each industry we calculate the industry scores
 
-$$ s _ {k} = \frac {\sum_ {i = 1} ^ {n} x _ {i} \cdot \operatorname {i n d} _ {i , k}}{\sum_ {i = 1} ^ {n} \operatorname {i n d} _ {i , k}}
+$$ s_{k} = \frac{\sum_{i = 1}^{n} x_{i} \cdot \operatorname{in d}_{i , k}}{\sum_{i = 1}^{n} \operatorname{in d}_{i , k}}
 $$ where  $x_{i}$  is a factor and  $\mathrm{ind}_{i,k}$  represent the weight of stock  $i$  in industry  $k$ . Next, we subtract the industry average of the industry scores,  $s_{k}$ , from each stock. We compute
 
 
-$$ x _ {i} ^ {\mathrm {n e w}} = x _ {i} - \sum_ {k \in \mathrm {I n d u s t r i e s}} \operatorname {i n d} _ {i, k} \cdot s _ {k}
+$$ x_{i}^{\mathrm{ne w}} = x_{i} - \sum_{k \in \mathrm{In du st ri es}} \operatorname{in d}_{i, k} \cdot s_{k}
 $$ where  $x_{i}^{\mathrm{new}}$  is the new industry neutral factor.
 
 
 We can use linear regression to orthogonalize a factor. We first determine the coefficients in the equation
 
-$$ x _ {i} = a + b \cdot f _ {i} + \varepsilon_ {i}
+$$ x_{i} = a + b \cdot f_{i} + \varepsilon_{i}
 $$ where  $f_{i}$  is the factor to orthogonalize the factor  $x_{i}$  by,  $b$  is the contribution of  $f_{i}$  to  $x_{i}$ , and  $\varepsilon_{i}$  is the component of the factor  $x_{i}$  not related to  $f_{i}$ .  $\varepsilon_{i}$  is orthogonal to  $f_{i}$  (that is,  $\varepsilon_{i}$  is independent of  $f_{i}$ ) and represents the neutralized factor
 
 
-$$ x _ {i} ^ {\mathrm {n e w}} = \varepsilon_ {i}
+$$ x_{i}^{\mathrm{ne w}} = \varepsilon_{i}
 $$
 
 In the same fashion, we can orthogonalize our variable relative to a set of factors by using the multivariate linear regression
 
-$$ x _ {i} = a + \sum_ {j} b _ {j} \cdot f _ {j} + \varepsilon_ {i}
+$$ x_{i} = a + \sum_{j} b_{j} \cdot f_{j} + \varepsilon_{i}
 $$ and then setting  $x_{i}^{\mathrm{new}} = \varepsilon_{i}$ .
 
 

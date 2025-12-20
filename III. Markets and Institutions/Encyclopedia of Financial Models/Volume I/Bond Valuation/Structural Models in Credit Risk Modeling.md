@@ -46,36 +46,36 @@ The rest of the assumptions Merton (1974) adopts are the inexistence of transact
 
 The firm's asset value is assumed to follow a diffusion process given by
 
-$$ d V _ {t} = r V _ {t} d t + \sigma_ {V} V _ {t} d W _ {t} \tag {1}
+$$ d V_{t} = r V_{t} d t + \sigma_{V} V_{t} d W_{t} \tag {1}
 $$ where  $\sigma_{V}$  is the (relative) asset volatility and  $W_{t}$  is a Brownian motion.10
 
 
 The payoffs to equityholders and bondholders at time  $T$  under the assumptions of this model are respectively,  $\max \{V_T - D,0\}$  and  $V_{T} - E_{T}$ , that is,
 
 $$
-E _ {T} = \max  \left\{V _ {T} - D, 0 \right\} \tag {2}
+E_{T} = \max  \left\{V_{T} - D, 0 \right\} \tag {2}
 $$
 
-$$ z (T, T) = V _ {T} - E _ {T} \tag {3}
+$$ z (T, T) = V_{T} - E_{T} \tag {3}
 $$
 
 Applying the Black-Scholes pricing formula, the value of equity at time  $t(0\leq t\leq T)$  is given by
 
 $$
-\begin{array}{l} E _ {t} \left(V _ {t}, \sigma_ {V}, T - t\right) \\ = e ^ {- r (T - t)} \left[ e ^ {r (T - t)} V _ {t} \Phi (d _ {1}) - D \Phi (d _ {2}) \right] (4) \\ \end{array}
+\begin{array}{l} E_{t} \left(V_{t}, \sigma_{V}, T - t\right) \\ = e^{- r (T - t)} \left[ e^{r (T - t)} V_{t} \Phi (d_{1}) - D \Phi (d_{2}) \right] (4) \\ \end{array}
 $$ where  $\Phi (.)$  is the distribution function of a standard normal random variable and  $d_{1}$  and  $d_{2}$  are given by
 
 
-$$ d _ {1} = \frac {\ln \left(\frac {e ^ {r (T - t)} V _ {t}}{D}\right) + \frac {1}{2} \sigma_ {V} ^ {2} (T - t)}{\sigma_ {V} \sqrt {T - t}} \tag {5}
+$$ d_{1} = \frac{\ln \left(\frac{e^{r (T - t)} V_{t}}{D}\right) + \frac{1}{2} \sigma_{V}^{2} (T - t)}{\sigma_{V} \sqrt{T - t}} \tag {5}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma_ {V} \sqrt {T - t} \tag {6}
+$$ d_{2} = d_{1} - \sigma_{V} \sqrt{T - t} \tag {6}
 $$
 
 The probability of default at time  $T$  is given by
 
 $$
-P \left[ V _ {T} <   D \right] = \Phi (- d _ {2}) \tag {7}
+P \left[ V_{T} <   D \right] = \Phi (- d_{2}) \tag {7}
 $$
 
 Therefore, the value of the debt at time  $t$  is  $z(t,T) = V_{t} - E_{t}$ .
@@ -107,23 +107,23 @@ First passage models were introduced by Black and Cox (1976) extending the Merto
 
 Consider, as in the previous section, that the dynamics of the firm's asset value under the risk-neutral probability measure  $\mathbf{P}$  are given by the diffusion process
 
-$$ d V _ {t} = r V _ {t} d t + \sigma_ {V} V _ {t} d W _ {t} \tag {8}
+$$ d V_{t} = r V_{t} d t + \sigma_{V} V_{t} d W_{t} \tag {8}
 $$ and that there exists a lower level of the asset value such that the firm defaults once it reaches this level. Although Black and Cox (1976) considered a time-dependent default threshold, let us assume first a constant default threshold  $K > 0$ . If we are at time  $t \geq 0$ , default has not been triggered yet and  $V_{t} > K$ , then the time of default  $\tau$  is given by
 
 
 $$
-\tau = \inf  \left\{s \geq t \mid V _ {s} \leq K \right\} \tag {9}
+\tau = \inf  \left\{s \geq t \mid V_{s} \leq K \right\} \tag {9}
 $$
 
 Using the properties of the Brownian motion  $W_{t}$ , in particular the reflection principle, we can infer the default probability from time  $t$  to time  $T$ :
 
 $$
-\begin{array}{l} P [ \tau \leq T \mid \tau > t ] = \Phi (h _ {1}) + \exp \left\{2 \left(r - \frac {\sigma_ {V} ^ {2}}{2}\right) \right. \\ \left. \ln \left(\frac {K}{V _ {t}}\right) \frac {1}{\sigma_ {V} ^ {2}} \right\} \Phi \left(h _ {2}\right) \tag {10} \\ \end{array}
+\begin{array}{l} P [ \tau \leq T \mid \tau > t ] = \Phi (h_{1}) + \exp \left\{2 \left(r - \frac{\sigma_{V}^{2}}{2}\right) \right. \\ \left. \ln \left(\frac{K}{V_{t}}\right) \frac{1}{\sigma_{V}^{2}} \right\} \Phi \left(h_{2}\right) \tag {10} \\ \end{array}
 $$ where
 
 
 $$
-\begin{array}{l} h _ {1} = \frac {\ln \left(\frac {K}{e ^ {r (T - t)} V _ {t}}\right) + \frac {\sigma_ {V} ^ {2}}{2} (T - t)}{\sigma_ {V} \sqrt {T - t}} (11) \\ h _ {2} = h _ {1} - \sigma_ {V} \sqrt {T - t} (12) \\ \end{array}
+\begin{array}{l} h_{1} = \frac{\ln \left(\frac{K}{e^{r (T - t)} V_{t}}\right) + \frac{\sigma_{V}^{2}}{2} (T - t)}{\sigma_{V} \sqrt{T - t}} (11) \\ h_{2} = h_{1} - \sigma_{V} \sqrt{T - t} (12) \\ \end{array}
 $$
 
 FPM have been extended to account for stochastic interest rates, bankruptcy costs, taxes, debt subordination, strategic default, time-dependent and stochastic default barriers, jumps in the asset value process, and so on. Although these extensions introduce more realism into the model, they increment its analytical complexity.[14]
@@ -142,21 +142,21 @@ Similar to the description of the choice of the face-value of the zero-coupon in
 
 Interest rates can be considered either as a constant or as a stochastic process. The stochasticity of interest rates allows the model to introduce correlation between asset value and interest rates, and to make the default threshold stochastic, in the cases when it is specified as the discounted value of the face value of the debt. Nielsen et al. (1993) and Longstaff and Schwartz (1995) consider a Vasicek process for the interest rate, correlated with the firm's asset value:
 
-$$ d V _ {t} = (c - d) V _ {t} d t + \sigma_ {V} V _ {t} d W _ {t} \tag {13}
+$$ d V_{t} = (c - d) V_{t} d t + \sigma_{V} V_{t} d W_{t} \tag {13}
 $$
 
-$$ d r _ {t} = \left(a - b r _ {t}\right) d t + \sigma_ {r} d \bar {W} _ {t} \tag {14}
+$$ d r_{t} = \left(a - b r_{t}\right) d t + \sigma_{r} d \bar {W}_{t} \tag {14}
 $$
 
-$$ d \bar {W} _ {t} d W _ {t} = \rho d t \tag {15}
+$$ d \bar {W}_{t} d W_{t} = \rho d t \tag {15}
 $$ where  $\bar{W}_t$  and  $W_{t}$  are correlated Brownian motions. Other specifications for the stochastic process of the short rate have been considered. For example Kim, Ramaswamy, and Sundaresan (1993) suggest a CIR process
 
 
-$$ d r _ {t} = \left(a - b r _ {t}\right) d t + \sigma_ {r} \sqrt {r _ {t}} d \bar {W} _ {t} \tag {16}
+$$ d r_{t} = \left(a - b r_{t}\right) d t + \sigma_{r} \sqrt{r_{t}} d \bar {W}_{t} \tag {16}
 $$ and Briys and de Varenne (1997) a generalized Vasicek process
 
 
-$$ d r _ {t} = \left(a (t) - b (t) r _ {t}\right) d t + \sigma_ {r} (t) d \bar {W} _ {t} \tag {17}
+$$ d r_{t} = \left(a (t) - b (t) r_{t}\right) d t + \sigma_{r} (t) d \bar {W}_{t} \tag {17}
 $$
 
 Hsu, Saá-Requejo, and Santa-Clara (2004) consider both the case of independence between risk-free interest rates and the default generating mechanism (given by the dynamics of the ratio  $\frac{V_i}{K}$ ) and the case of correlation between both processes, specifying the risk-free rate as a CIR process. They present an interesting empirical illustration of the model, covering the calibration of the risk-free rate process and the estimation of the model's parameter through the generalized method of moments.
@@ -198,31 +198,31 @@ Therefore, empirical evidence suggests that structural models need to be theoret
 
 The literature provides several ways of calibrating  $V_{t}$  and  $\sigma_{V}$ . The first method makes use of Ito's lemma to obtain a system of two equations in which the only two unknown variables are  $V_{t}$  and  $\sigma_{V}$ . Assume the firm's equity value follows a geometric Brownian motion under  $\mathbf{P}$ , with volatility  $\sigma_{E}$ :
 
-$$ d E _ {t} = r E _ {t} d t + \sigma_ {E} E _ {t} d W _ {t} \tag {18}
+$$ d E_{t} = r E_{t} d t + \sigma_{E} E_{t} d W_{t} \tag {18}
 $$
 
 Since the value of the equity is a function of time and of the value of the assets,  $E_{t} = f(V_{t},t)$ , we can apply Ito's lemma to get
 
 $$
-\begin{array}{l} d E _ {t} = \left[ \frac {\delta f (V _ {t} , t)}{\delta t} + \frac {\delta f (V _ {t} , t)}{\delta V _ {t}} V _ {t} r \right. \\ \left. + \frac {1}{2} \frac {\delta^ {2} f (V _ {t} , t)}{(\delta V _ {t}) ^ {2}} (V _ {t} \sigma_ {V}) ^ {2} \right] d t \\ + \frac {\delta f (V _ {t} , t)}{\delta V _ {t}} V _ {t} \sigma_ {V} d W _ {t} \tag {19} \\ \end{array}
+\begin{array}{l} d E_{t} = \left[ \frac{\delta f (V_{t} , t)}{\delta t} + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} r \right. \\ \left. + \frac{1}{2} \frac{\delta^{2} f (V_{t} , t)}{(\delta V_{t})^{2}} (V_{t} \sigma_{V})^{2} \right] d t \\ + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} \sigma_{V} d W_{t} \tag {19} \\ \end{array}
 $$
 
 Comparing the coefficients multiplying the Brownian motion in the two previous equations we obtain the following identity
 
 $$
-\sigma_ {E} E _ {t} = \frac {\delta f (V _ {t} , t)}{\delta V _ {t}} V _ {t} \sigma_ {V} \tag {20}
+\sigma_{E} E_{t} = \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} \sigma_{V} \tag {20}
 $$
 
 Noting that  $\frac{\delta f(V_t,t)}{\delta V_t} = \frac{\delta E_t}{\delta V_t} = \Phi (d_1)$  and rearranging we obtain the first equation of the system:23
 
 $$
-\sigma_ {V} = \frac {E _ {t}}{V _ {t}} \sigma_ {E} \Phi (d _ {1}) \tag {21}
+\sigma_{V} = \frac{E_{t}}{V_{t}} \sigma_{E} \Phi (d_{1}) \tag {21}
 $$
 
 The second equation results simply from matching the theoretical value of equity with the observed market price  $(\hat{E}_t)$ :
 
 $$
-E _ {t} \left(V _ {t}, \sigma_ {V}, T - t\right) = \hat {E} _ {t} \tag {22}
+E_{t} \left(V_{t}, \sigma_{V}, T - t\right) = \hat {E}_{t} \tag {22}
 $$
 
 As we mentioned before, the only two unknowns in the system formed by the last two equations are  $V_{t}$  and  $\sigma_V$ .24
@@ -309,7 +309,7 @@ After reviewing Giesecke (2004) and Giesecke and Goldberg (2004) we present fact
 
 The most natural way to introduce default dependencies between firms in structural models is by correlating the firms' asset processes. Suppose we have  $i = 1,\dots,I$  different firms with asset value processes given by
 
-$$ d V _ {i, t} = r V _ {i, t} d t + \sigma_ {V _ {i}} V _ {i, t} d W _ {i, t} \tag {23}
+$$ d V_{i, t} = r V_{i, t} d t + \sigma_{V_{i}} V_{i, t} d W_{i, t} \tag {23}
 $$ for  $i = 1, \dots, I$ , where  $W_{1,t}, \dots, W_{I,t}$  are correlated Brownian motions. As in the single firm case, these models imply predictable defaults. One way of getting rid of the default predictability would be to introduce jump components in the firms' asset processes. Those jump components could be either correlated or uncorrelated across firms. Correlated jump components, besides making defaults unpredictable, would also account for credit risk contagion effects. The main problem lies in the calibration of the jump components.
 
 
@@ -336,7 +336,7 @@ The major problem of this approach is to calibrate and estimate the default thre
 Factor models consider the firms' asset values as a function of a group of common factors, which introduce the default correlation in the model, plus a firm's specific factor:
 
 $$
-V _ {i, t} = \sum_ {j = 1} ^ {J} w _ {i, j} Z _ {j, t} + \epsilon_ {i, t} \tag {24}
+V_{i, t} = \sum_{j = 1}^{J} w_{i, j} Z_{j, t} + \epsilon_{i, t} \tag {24}
 $$ where  $Z_{1},\ldots Z_{J}$  represent the common factors,  $\epsilon_1,\dots ,\epsilon_I$  the firms' specific factors (independent of  $Z_{1},\ldots Z_{J})$  , and the correlation structure is given by the coefficient  $w$  .Once we know the realization of the common factors, the firms' asset value and thus the firms' default probabilities are independent.
 
 

@@ -178,7 +178,7 @@ An important feature of any asset is its tax status. Governmental regulations fo
 The fundamental principle of finance is that the true or correct price of an asset equals the present value of all cash flows that the owner of the asset expects to receive during its life. In general, the correct price for a financial asset can be expressed as follows:
 
 $$
-P = \frac {C F _ {1}}{(1 + r) ^ {1}} + \frac {C F _ {2}}{(1 + r) ^ {2}} + \frac {C F _ {3}}{(1 + r) ^ {3}} + \dots + \frac {C F _ {N}}{(1 + r) ^ {N}},
+P = \frac{C F_{1}}{(1 + r)^{1}} + \frac{C F_{2}}{(1 + r)^{2}} + \frac{C F_{3}}{(1 + r)^{3}} + \dots + \frac{C F_{N}}{(1 + r)^{N}},
 $$ where
 
 
@@ -220,7 +220,7 @@ Suppose a bond has a maturity of four years and pays annual interest of \$50 at 
 
 $$
 
-N = 4 C F _ {1} = \ 5 0 C F _ {2} = \ 5 0 C F _ {3} = \ 5 0 C F _ {N} = \ 1, 0 5 0.
+N = 4 C F_{1} = \ 5 0 C F_{2} = \ 5 0 C F_{3} = \ 5 0 C F_{N} = \ 1, 0 5 0.
 
 $$
 
@@ -234,13 +234,13 @@ $$
 
 Thus, we have the following value for the discount rate:
 
-$$ r = 2.5 \% + 3.0 \% + 2.0 \% + 0.5 \% + 1.0 \% + 0 \% = 9.0 \%, \text {or} 0.09.
+$$ r = 2.5 \% + 3.0 \% + 2.0 \% + 0.5 \% + 1.0 \% + 0 \% = 9.0 \%, \text{or} 0.09.
 $$
 
 Using the formula for price, the price of this bond is
 
 $$
-\begin{array}{l} P = \frac {\mathbb {S} 5 0}{(1 . 0 9) ^ {1}} + \frac {\mathbb {S} 5 0}{(1 . 0 9) ^ {2}} + \frac {\mathbb {S} 5 0}{(1 . 0 9) ^ {3}} + \frac {\mathbb {S} 1 , 0 5 0}{(1 . 0 9) ^ {4}}. \\ = \$ 870.41 \\ \end{array}
+\begin{array}{l} P = \frac{\mathbb {S} 5 0}{(1 . 0 9)^{1}} + \frac{\mathbb {S} 5 0}{(1 . 0 9)^{2}} + \frac{\mathbb {S} 5 0}{(1 . 0 9)^{3}} + \frac{\mathbb {S} 1 , 0 5 0}{(1 . 0 9)^{4}}. \\ = \$ 870.41 \\ \end{array}
 $$
 
 We can use this hypothetical financial asset to illustrate the effect of some of the properties of financial assets on price or asset value. First, it should be clear that the price of a financial asset changes as the appropriate discount rate,  $r$ , changes. More specifically, the price changes in the opposite direction to the change in the appropriate discount rate. An illustration of this principle appears in table 11.1, which shows the price of our hypothetical financial asset for various discount rates.
@@ -252,7 +252,7 @@ Table 11.1 Price of a four-year bond for various discount rates.
 Let's look at how reversibility affects an asset's value. Suppose a broker's commission of 35 is imposed by brokers to buy or sell the bond. The price of the four-year bond is then
 
 $$
-\begin{array}{l} P = - \$ 35 + \frac {\$ 50}{(1 . 0 9) ^ {1}} + \frac {\$ 50}{(1 . 0 9) ^ {2}} + \frac {\$ 50}{(1 . 0 9) ^ {3}} + \frac {\$ 1 , 0 5 0 - \$ 3 5}{(1 . 0 9) ^ {4}}. \\ = \$ 810.62 \\ \end{array}
+\begin{array}{l} P = - \$ 35 + \frac{\$ 50}{(1 . 0 9)^{1}} + \frac{\$ 50}{(1 . 0 9)^{2}} + \frac{\$ 50}{(1 . 0 9)^{3}} + \frac{\$ 1 , 0 5 0 - \$ 3 5}{(1 . 0 9)^{4}}. \\ = \$ 810.62 \\ \end{array}
 $$
 
 Notice that the initial commission of 35 is subtracted on an undiscounted basis, because that payment is made at the time of purchase.
@@ -260,7 +260,7 @@ Notice that the initial commission of 35 is subtracted on an undiscounted basis,
 Suppose also that a government entity imposes a transfer tax of 20 on each transaction. Because this rise in the cost of reversing an investment diminishes its reversibility to some extent, the present value of all cash flows associated with owning the bond now looks like:
 
 $$
-\begin{array}{l} P = - \$ 35 - \$ 20 + \frac {\$ 50}{(1 . 0 9) ^ {1}} + \frac {\$ 50}{(1 . 0 9) ^ {2}} + \frac {\$ 50}{(1 . 0 9) ^ {3}} + \frac {\$ 1 , 0 5 0 - \$ 3 5 - \$ 2 0}{(1 . 0 9) ^ {4}} \\ = \$ 7 7 6. 4 5. \\ \end{array}
+\begin{array}{l} P = - \$ 35 - \$ 20 + \frac{\$ 50}{(1 . 0 9)^{1}} + \frac{\$ 50}{(1 . 0 9)^{2}} + \frac{\$ 50}{(1 . 0 9)^{3}} + \frac{\$ 1 , 0 5 0 - \$ 3 5 - \$ 2 0}{(1 . 0 9)^{4}} \\ = \$ 7 7 6. 4 5. \\ \end{array}
 $$
 
 The change in price is significant and demonstrates why financial markets adjust so sharply (and rapidly) when governments impose restrictions on, or raise the cost of, capital market transactions.
@@ -288,7 +288,7 @@ Continuing with the importance of tax features to the price of a financial asset
 Although we have used a single discount rate to discount each cash flow, theoretical reasons suggest that this is inappropriate. Specifically, in chapter 18, we will look at the relationship between a bond's maturity and yield. In addition, a financial asset should be viewed as a package of cash flows. Each cash flow should be treated as if it were an individual asset with only one cash flow, and that cash flow has its own discount rate that depends on when it will be received. Consequently, a more general formula for pricing a financial asset is
 
 $$
-P = \frac {C F _ {1}}{(1 + r _ {1}) ^ {1}} + \frac {C F _ {2}}{(1 + r _ {2}) ^ {2}} + \frac {C F _ {3}}{(1 + r _ {3}) ^ {3}} + \dots + \frac {C F _ {N}}{(1 + r _ {N}) ^ {N}},
+P = \frac{C F_{1}}{(1 + r_{1})^{1}} + \frac{C F_{2}}{(1 + r_{2})^{2}} + \frac{C F_{3}}{(1 + r_{3})^{3}} + \dots + \frac{C F_{N}}{(1 + r_{N})^{N}},
 $$ where  $r_t$  is the discount rate appropriate for period  $t$ .
 
 
@@ -348,7 +348,7 @@ Then, for a small decrease in yield, the percentage price change is
 
 $$
 
-\frac {P _ {-} - P _ {0}}{P _ {0}}.
+\frac{P_{-} - P_{0}}{P_{0}}.
 
 $$
 
@@ -356,7 +356,7 @@ The percentage price change per basis point change is found by dividing the perc
 
 $$
 
-\frac {P _ {-} - P _ {0}}{P _ {0} (\Delta y) 1 0 0}.
+\frac{P_{-} - P_{0}}{P_{0} (\Delta y) 1 0 0}.
 
 $$
 
@@ -366,14 +366,14 @@ The percentage price change for an increase and decrease in interest rates will 
 
 $$
 
-\frac {1}{2} \left[ \frac {P _ {-} - P _ {0}}{P _ {0} (\Delta y) 1 0 0} + \frac {P _ {0} - P _ {+}}{P _ {0} (\Delta y) 1 0 0} \right],
+\frac{1}{2} \left[ \frac{P_{-} - P_{0}}{P_{0} (\Delta y) 1 0 0} + \frac{P_{0} - P_{+}}{P_{0} (\Delta y) 1 0 0} \right],
 
 $$ or equivalently,
 
 
 $$
 
-\frac {P _ {-} - P _ {+}}{2 P _ {0} (\Delta y) 1 0 0}.
+\frac{P_{-} - P_{+}}{2 P_{0} (\Delta y) 1 0 0}.
 
 $$
 
@@ -381,7 +381,7 @@ The approximate percentage price change for a 100-basis-point change in yield is
 
 $$
 
-\frac {P _ {-} - P _ {+}}{2 P _ {0} (\Delta y)}.
+\frac{P_{-} - P_{+}}{2 P_{0} (\Delta y)}.
 
 $$
 
@@ -395,19 +395,19 @@ $$
 
 $$
 
-P _ {0} = \$ 6 7 7. 5 7,
+P_{0} = \$ 6 7 7. 5 7,
 
 $$
 
 $$
 
-P _ {-} = \$ 709.35, a n d
+P_{-} = \$ 709.35, a n d
 
 $$
 
 $$
 
-P _ {+} = \$ 647.73.
+P_{+} = \$ 647.73.
 
 $$
 
@@ -415,7 +415,7 @@ The application of the foregoing formula provides this number:
 
 $$
 
-\frac {\mathbb {S} 7 0 9 . 3 5 - \mathbb {S} 6 4 7 . 7 3}{2 (\mathbb {S} 6 7 7 . 5 7) (0 . 0 0 5)} = 9. 0 9.
+\frac{\mathbb {S} 7 0 9 . 3 5 - \mathbb {S} 6 4 7 . 7 3}{2 (\mathbb {S} 6 7 7 . 5 7) (0 . 0 0 5)} = 9. 0 9.
 
 $$
 
@@ -436,7 +436,7 @@ Duration for various bonds by maturity, coupon rate, and yield level.
 
 Duration is related to the price sensitivity as follows:
 
-Approximate percentage change in a financial asset's price  $= -\text{Duration} \times (\text{Yield change in decimal form}) \times 100$ .
+Approximate percentage change in a financial asset's price  $= -\text{Duration} \times (\text{Yieldchangeindecimalform}) \times 100$ .
 
 For example, suppose that the required yield on the  $5\%$  coupon, 15-year bond increases from  $9\%$  to  $10\%$  (0.01 in decimal form). Then, because this bond's duration is 9.09:
 
@@ -461,19 +461,19 @@ $$
 
 $$
 
-P _ {0} = \$ 7 9 4. 3 1,
+P_{0} = \$ 7 9 4. 3 1,
 
 $$
 
 $$
 
-P _ {-} = \$ 812.82, a n d
+P_{-} = \$ 812.82, a n d
 
 $$
 
 $$
 
-P _ {+} = \$ 7 7 6. 3 6.
+P_{+} = \$ 7 7 6. 3 6.
 
 $$
 
@@ -481,7 +481,7 @@ The duration is then 4.59, calculated as follows:
 
 $$
 
-\frac {\mathbb {S} 8 1 2 . 8 2 - \mathbb {S} 7 7 6 . 3 6}{2 (\mathbb {S} 7 9 4 . 3 1) (0 . 0 0 5)} = 4. 5 9.
+\frac{\mathbb {S} 8 1 2 . 8 2 - \mathbb {S} 7 7 6 . 3 6}{2 (\mathbb {S} 7 9 4 . 3 1) (0 . 0 0 5)} = 4. 5 9.
 
 $$
 

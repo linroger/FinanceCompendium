@@ -95,15 +95,15 @@ Agriculture output,  $ Q_{A} $
 Frontier The production possibilities frontier shows the amount of agricultural and manufacturing outputs that can be produced in the economy with labor. Its slope equals  $ -MPL_{A} / MPL_{M} $ , the ratio of the marginal products of labor in the two industries. The slope of the PPF can be interpreted as the opportunity cost of the manufacturing output—it is the amount of the agricultural good that would need to be given up to obtain one more unit of output in the manufacturing sector.
 
 the value of one more hour of labor in terms of output. In turn, the value of one more hour of labor equals the amount of goods produced in that hour (the marginal product of labor) times the price of the good. In manufacturing, labor will be hired to the point at which the wage  $ W $ equals the price of manufacturing $ P_M $ times the marginal product of labor in manufacturing $ MPL_M $. $ $
-W = P _ {M} \cdot M P L _ {M}
+W = P_{M} \cdot M P L_{M}
 $ $
 
 Similarly, in agriculture, labor will be hired to the point at which the wage  $ W $ equals the price of agriculture $ P_A $ times the marginal product of labor in agriculture $ MPL_A $. $ $
-W = P _ {A} \cdot M P L _ {A}
+W = P_{A} \cdot M P L_{A}
 $ $
 
 Because we are assuming that labor is free to move between sectors, the wages in these two equations must be equal. If the wage were not the same in both sectors, labor would move to the sector with the higher wage. This movement would continue until the increase in the amount of labor in the high-wage sector drove down the wage, and the decrease in amount of labor in the low-wage sector drove up the wage, until the wages were equal. By setting the two wage equations equal, we obtain  $ P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A} $, and by rearranging terms, we get $ $
-\left(P _ {M} / P _ {A}\right) = \left(M P L _ {A} / M P L _ {M}\right)
+\left(P_{M} / P_{A}\right) = \left(M P L_{A} / M P L_{M}\right)
 $ $
 
 This equation shows that the relative price of manufacturing  $ (P_M / P_A) $ equals the opportunity cost of manufacturing $ (MPL_A / MPL_M) $, the slope of the production possibilities frontier. These relative prices also reflect the value that Home consumers put on manufacturing versus food. In the absence of international trade, the equilibrium for the Home economy is at point $ A $ in Figure 3-3, where the relative price of manufacturing $ (P_M / P_A) $ equals the slope of the PPF as well as the slope of the indifference curve for a representative consumer with utility of $ U_{1} $ . The intuition for the
@@ -111,7 +111,7 @@ This equation shows that the relative price of manufacturing  $ (P_M / P_A) $ eq
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/60502aa35b338e9038583c5eef27fd9903bbddb1064c5405fa80688a31191192.jpg)
 FIGURE 3-3
 Agriculture output,  $ Q_{A} $ Increase in the Relative Price of Manufactures In the absence of international trade, the economy produces and consumes at point $ A $. The relative price of manufactures, $ P_{M} / P_{A} $, is the slope of the line tangent to the PPF and indifference curve, $ U_{1} $, at point $ A $. With international trade, the economy is able to produce at point $ B $ and consume at point $ C $. The world relative price of manufactures, $ (P_{M} / P_{A})^{W} $, is the slope of the line $ BC $. The rise in utility from $ U_{1} $ to $ U_{2} $ is a measure of the gains from trade for the economy. $ $
-= \mathrm {t e r m s} \frac {\mathrm {t r a d e}}{\mathrm {p r e x p o r t}} = \frac {\mathrm {P _ {e x p o r t}}}{\mathrm {P _ {i m p o r t}}} = \mathrm {r e l a t i v e p r i c e m a n u o f a c t o r - y} = \frac {\mathrm {P _ {M}}}{\mathrm {P _ {A}}}
+= \mathrm{te rm s} \frac{\mathrm{tr ad e}}{\mathrm{pr ex po rt}} = \frac{\mathrm{P_{ex po rt}}}{\mathrm{P_{im po rt}}} = \mathrm{re la ti ve pr ic em an uo fa ct or -y} = \frac{\mathrm{P_{M}}}{\mathrm{P_{A}}}
 $ $
 
 no-trade equilibrium is exactly the same as for the Ricardian model in Chapter 2: equilibrium occurs at the tangency of the PPF and the consumer's indifference curve. This point on the PPF corresponds to the highest possible level of utility for the consumer.
@@ -125,7 +125,7 @@ For now, we will not explain why the no-trade relative prices differ across coun
 # Overall Gains from Trade
 
 Starting at the no-trade equilibrium point  $ A $ in Figure 3-3, suppose that the Home country opens up to international trade with Foreign. Once trade is opened, we expect that the world equilibrium relative price, that is, the relative price in all countries $ (P_M / P_A)^W $, will lie between the no-trade relative prices in the two countries, so $ $
-\left(P _ {M} / P _ {A}\right) <   \left(P _ {M} / P _ {A}\right) ^ {W} <   \left(P _ {M} ^ {*} / P _ {A} ^ {*}\right)
+\left(P_{M} / P_{A}\right) <   \left(P_{M} / P_{A}\right)^{W} <   \left(P_{M}^{*} / P_{A}^{*}\right)
 $ $
 
 This equation shows us that when Home opens to trade, the relative price of manufacturing will rise, from  $ (P_M / P_A) $ to $ (P_M / P_A)^W $; conversely, for Foreign, the relative price of manufacturing will fall, from $ (P_M^* / P_A^*) $ to $ (P_M / P_A)^W $. With trade, the world relative price $ (P_M / P_A)^W $ is represented by a line that is tangent to Home's PPF, line $ BC $ in Figure 3-3. The increase in the Home relative price of manufactured goods is shown by the steeper slope of the world relative price line as compared with the Home no-trade price line (through point $ A $ ).
@@ -159,7 +159,7 @@ Because there are overall gains from trade, someone in the economy must be bette
 To determine wages, it is convenient to take the marginal product of labor in manufacturing  $ (MPL_M) $, which was shown in Figure 3-1, panel (b), and the marginal product of labor in agriculture $ (MPL_A) $ , and put them in one diagram.
 
 First, we add the amount of labor used in manufacturing  $ L_{M} $ and the amount used in agriculture $ L_{A} $ to give us the total amount of labor in the economy $ \overline{L} $: $ $
-L _ {M} + L _ {A} = \overline {{L}}
+L_{M} + L_{A} = \overline {{L}}
 $ $
 
 Figure 3-4 shows the total amount of labor  $ \overline{L} $ on the horizontal axis. The amount of labor used in manufacturing $ L_{M} $ is measured from left $ (0_{M}) $ to right, while the amount of labor used in agriculture $ L_{A} $ is measured from right $ (0_{A}) $ to left. Each point on the horizontal axis indicates how much labor is used in manufacturing (measured from left to right) and how much labor is used in agriculture (measured from right to left). For example, point $ L $ indicates that $ 0_{M}L $ units of labor are used in manufacturing and $ 0_{A}L $ units of labor are used in agriculture, which adds up to $ \overline{L} $  units of labor in total.
@@ -173,11 +173,11 @@ Allocation of Labor Between Manufacturing and Agriculture The amount of labor us
 which is the marginal product of labor times the price of the good. In each industry, then, labor will be hired until
 
 $ $
-W = P _ {M} \cdot M P L _ {M} \text {i n m a n a f t u c t i n g}
+W = P_{M} \cdot M P L_{M} \text{in ma na ft uc ti ng}
 $ $
 
 $ $
-W = P _ {A} \cdot M P L _ {A} \text {i n a g r i c u t u r e}
+W = P_{A} \cdot M P L_{A} \text{in ag ri cu tu re}
 
 $ $
 In Figure 3-4, we draw the graph of  $ P_{M} \cdot MPL_{M} $ as downward-sloping. This curve is basically the same as the marginal product of labor $ MPL_{M} $ curve in Figure 3-1, panel (b), except that it is now multiplied by the price of the manufactured good. When we draw the graph of $ P_{A} \cdot MPL_{A} $ for agriculture, however, it slopes upward. This is because we are measuring the labor used in agriculture $ L_{A} $  from right to left in the diagram: the marginal product of labor in agriculture falls as the amount of labor increases (moving from right to left).
@@ -207,12 +207,12 @@ Effect on Real Wages The fact that the wage has risen does not really tell us wh
 
 The amount of the manufactured good that a worker can buy is measured by  $ W / P_{M} $. While $ W $ has increased, $ P_{M} $ has also increased, so at first glance we do not know whether $ W / P_{M} $ has increased or decreased. However, Figure 3-5 can help us figure this out. Notice that as we've drawn Figure 3-5, the increase in the wage from $ W $ to $ W' $ is less than the vertical increase $ \Delta P_{M} \cdot MPL_{M} $ that occurred in the $ P_{M} \cdot MPL_{M} $ curve. We can write this condition as $ $
 
-\Delta W <   \Delta P _ {M} \cdot M P L _ {M}
+\Delta W <   \Delta P_{M} \cdot M P L_{M}
 
 $ $
 To see how  $ W / P_{M} $ has changed, divide both sides of this equation by the initial wage $ W $ (which equals $ P_{M} \cdot MPL_{M} $) to obtain $ $
 
-\frac {\Delta W}{W} <   \frac {\Delta P _ {M} \cdot M P L _ {M}}{P _ {M} \cdot M P L _ {M}} = \frac {\Delta P _ {M}}{P _ {M}}
+\frac{\Delta W}{W} <   \frac{\Delta P_{M} \cdot M P L_{M}}{P_{M} \cdot M P L_{M}} = \frac{\Delta P_{M}}{P_{M}}
 
 $ $
 where the final ratio is obtained because we canceled out  $ MPL_{M} $ in the numerator and denominator of the middle ratio. The term $ \Delta W / W $ in this equation is the percentage change in wages. For example, suppose the initial wage is $ \\(8 $ per hour and it rises to $ \ $ 10 \) per hour. Then $ \Delta W / W = \\(2 / \ $ 8 = 0.25 \), which is a $ 25\% $ increase in the wage. Similarly, the term $ \Delta P_{M} / P_{M} $ is the percentage change in the price of manufactured goods. When $ \Delta W / W < \Delta P_{M} / P_{M} $, then the percentage increase in the wage is less than the percentage increase in the price of the manufactured good. This inequality means that the amount of the manufactured good that can be purchased with the wage has fallen, so the real wage in terms of the manufactured good $ W / P_{M} $  has decreased.[6]
@@ -310,33 +310,33 @@ Source: Excerpted from Progressive Policy Institute trade fact of the week, "Ser
 
 from the sales revenue earned in each industry, we end up with the payments to capital and to land. If  $ Q_{M} $ is the output in manufacturing and $ Q_{A} $ is the output in agriculture, the revenue earned in each industry is $ P_{M} \cdot Q_{M} $ and $ P_{A} \cdot Q_{A} $, and the payments to capital and to land are $ $
 
-\text {P a y m e n t s} = P _ {M} \cdot Q _ {M} - W \cdot L _ {M}
+\text{Pa ym en ts} = P_{M} \cdot Q_{M} - W \cdot L_{M}
 
 $ $
 
 $ $
 
-\text {P a y m e n t s} = P _ {A} \cdot Q _ {A} - W \cdot L _ {A}
+\text{Pa ym en ts} = P_{A} \cdot Q_{A} - W \cdot L_{A}
 
 $ $
 It will be useful to take these payments one step further and break them down into the earnings of each unit of capital and land. To do so, we need to know the quantity of capital and land. We denote the quantity of land used in agriculture as  $ T $ acres and the quantity of capital (number of machines) used in manufacturing as $ K $ . Thus, the
 
 earnings of one unit of capital (a machine, for instance), which we call  $ R_{K} $, and the earnings of an acre of land, which we call $ R_{T} $, are calculated as $ $
 
-R _ {K} = \frac {\text {P a y m e n t s t o c a p i t a l}}{K} = \frac {P _ {M} \cdot Q _ {M} - W \cdot L _ {M}}{K}
+R_{K} = \frac{\text{Pa ym en ts to ca pi ta l}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
 
 $ $
 
 $ $
 
-R _ {T} = \frac {\text {P a y m e n t s t o l a n d}}{T} = \frac {P _ {A} \cdot Q _ {A} - W \cdot L _ {A}}{T}
+R_{T} = \frac{\text{Pa ym en ts to la nd}}{T} = \frac{P_{A} \cdot Q_{A} - W \cdot L_{A}}{T}
 
 $ $
 Economists call  $ R_{K} $ the rental on capital and $ R_{T} $  the rental on land. The use of the term "rental" does not mean that the factory owners or farmers rent their machines or land from someone else, although they could. Instead, the rental on machines and land reflects what these factors of production earn during a period when they are used in manufacturing and agriculture. Alternatively, the rental is the amount these factors could earn if they were rented to someone else over that same time.
 
 There is a second way to calculate the rentals, which will look similar to the formula we have used for wages. In each industry, wages reflect the marginal product of labor times the price of the good,  $ W = P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A} $. Similarly, capital and land rentals can be calculated as $ $
 
-R _ {K} = P _ {M} \cdot M P K _ {M} \text {a n d} R _ {T} = P _ {A} \cdot M P T _ {A}
+R_{K} = P_{M} \cdot M P K_{M} \text{an d} R_{T} = P_{A} \cdot M P T_{A}
 
 $ $
 where  $ MPK_{M} $ is the marginal product of capital in manufacturing, and $ MPT_{A} $  is the marginal product of land in agriculture. These marginal product formulas give the same values for the rentals as first calculating the payments to capital and land, as we just did, and then dividing by the quantity of capital and land. We will use both approaches to obtain rental values, depending on which is easiest.
@@ -348,7 +348,7 @@ Using the preceding formulas for the rentals, we can summarize the results so fa
 with
 $ $
 
-\boxed {P ^ {M} \uparrow \Rightarrow \left\{ \begin{array}{l} L _ {M} \uparrow , \text {s o t h a t} M P K _ {M} = R _ {K} / P _ {M} \uparrow \\ L _ {A} \downarrow , \text {s o t h a t} M P T _ {A} = R _ {T} / P _ {A} \downarrow \end{array} \right.}
+\boxed {P^{M} \uparrow \Rightarrow \left\{ \begin{array}{l} L_{M} \uparrow , \text{so th at} M P K_{M} = R_{K} / P_{M} \uparrow \\ L_{A} \downarrow , \text{so th at} M P T_{A} = R_{T} / P_{A} \downarrow \end{array} \right.}
 
 $ $
 That is, the increase in the marginal product of capital in manufacturing means that  $ R_{K} / P_{M} $ also increases. Because $ R_{K} $ is the rental for capital, $ R_{K} / P_{M} $ is the amount of the manufactured good that can be purchased with this rent. Thus, the fact that $ R_{K} / P_{M} $ increases means that the real rental on capital in terms of the manufactured good has gone up. For the increase in the real rental on capital to occur even though the price of the manufactured good has gone up, too, the percentage increase in $ R_{K} $ must be greater than the percentage increase in $ P_{M} $ .<sup>12</sup>
@@ -372,32 +372,32 @@ Notice that  $ 60\% $ of sales revenue in manufacturing goes to labor, and $ 40\
 In agriculture, suppose that the payments to labor and land are as follows:
 $ $
 
-A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P _ {A} \cdot Q _ {A} = \$ 1 0 0 \$ $
+A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P_{A} \cdot Q_{A} = \$ 1 0 0 \$ $
 
 $ $
 
-\text {P a y m e n t s} = W \cdot L _ {A} = \$ 5 0 \$ $
+\text{Pa ym en ts} = W \cdot L_{A} = \$ 5 0 \$ $
 
 $ $
 
-\text {P a y m e n t s} = R _ {T} \cdot T = \$ 5 0 \$ $
+\text{Pa ym en ts} = R_{T} \cdot T = \$ 5 0 \$ $
 In the agriculture industry, we assume that land and labor each earn  $ 50\% $  of the sales revenue.
 
 An increase in the relative price of manufactures  $ P_{M} / P_{A} $ can be caused by an increase in $ P_{M} $ or a decrease in $ P_{A} $. To be specific, suppose that the price of manufactures $ P_{M} $ rises by $ 10\% $, whereas the price of agriculture $ P_{A} $ does not change at all. We have found in our earlier discussion that $ \Delta W / W $, the percentage change in the wage, will be between the percentage change in these two industry prices. So let us suppose that $ \Delta W / W $, is $ 5\% $. We summarize these output and factor price changes as follows: $ $
 
-\text{Manufacturing:} \quad \text{Percentage increase in price} = \Delta P _ {M} / P _ {M} = 10 \%
+\text{Manufacturing:} \quad \text{Percentageincreaseinprice} = \Delta P_{M} / P_{M} = 10 \%
 
 $ $
 
 $ $
 
-Agriculture: \text{Percentage increase in price} = \Delta P _ {A} / P _ {A} = 0 \%
+Agriculture: \text{Percentageincreaseinprice} = \Delta P_{A} / P_{A} = 0 \%
 
 $ $
 
 $ $
 
-\text{Bothindustries:} \quad \text{Percentage increase in the wage} = \Delta W / W = 5 \%
+\text{Bothindustries:} \quad \text{Percentageincreaseinthewage} = \Delta W / W = 5 \%
 
 $ $
 Notice that the increase in the wage applies in both industries because wages are always equalized across sectors.
@@ -405,48 +405,48 @@ Notice that the increase in the wage applies in both industries because wages ar
 Change in the Rental on Capital Our goal is to use the preceding data for manufacturing and agriculture to compute the change in the rental on capital and the change in the rental on land. Let's start with the equation for the rental on capital, which was computed by subtracting wage payments from sales revenue and then dividing by the amount of capital:
 $ $
 
-R _ {k} = \frac {P _ {M} Q _ {M} - W L _ {M}}{k}
+R_{k} = \frac{P_{M} Q_{M} - W L_{M}}{k}
 
 $ $
 
 $ $
 
-R _ {K} = \frac {\text {P a y m e n t s t o c a p i t a l}}{K} = \frac {P _ {M} \cdot Q _ {M} - W \cdot L _ {M}}{K}
+R_{K} = \frac{\text{Pa ym en ts to ca pi ta l}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
 
 $ $
 If the price of manufactured goods rises by  $ \Delta P_{M} > 0 $, holding constant the price in agriculture, then the change in the rental is $ $
 
-\frac {\Delta R _ {k}}{R _ {k}} = \frac {\left(\frac {\Delta P _ {m}}{P _ {m}}\right) \cdot P _ {m} - Q _ {m} - \left(\frac {\Delta W}{W}\right) \cdot W \cdot L _ {m}}{R _ {k} \cdot K} \quad \mathrm {w e w a n t} \quad \mathrm {a n d} \Delta R _ {K} / R _ {K}.
+\frac{\Delta R_{k}}{R_{k}} = \frac{\left(\frac{\Delta P_{m}}{P_{m}}\right) \cdot P_{m} - Q_{m} - \left(\frac{\Delta W}{W}\right) \cdot W \cdot L_{m}}{R_{k} \cdot K} \quad \mathrm{we wa nt} \quad \mathrm{an d} \Delta R_{K} / R_{K}.
 
 $ $
 
 $ $
 
-\Delta R _ {K} = \frac {\Delta P _ {M} \cdot Q _ {M} - \Delta W \cdot L _ {M}}{K}
+\Delta R_{K} = \frac{\Delta P_{M} \cdot Q_{M} - \Delta W \cdot L_{M}}{K}
 
 $ $
 We want to rewrite this equation using percentage changes, like  $ \Delta P_{M} / P_{M}, \Delta W / W, $ and $ \Delta R_{K} / R_{K} $. To achieve this, divide both sides by $ R_{K} $ and rewrite the equation as $ $
 
-\frac {\Delta R _ {K}}{R _ {K}} = \frac {\left(\Delta P _ {M} / P _ {M}\right) \cdot P _ {M} \cdot Q _ {M} - \left(\Delta W / W\right) \cdot W \cdot L _ {M}}{R _ {K} \cdot K}
+\frac{\Delta R_{K}}{R_{K}} = \frac{\left(\Delta P_{M} / P_{M}\right) \cdot P_{M} \cdot Q_{M} - \left(\Delta W / W\right) \cdot W \cdot L_{M}}{R_{K} \cdot K}
 
 $ $
 You can cancel terms in this equation to check that it is the same as before.
 
 The term  $ \Delta P_{M} / P_{M} $ in this equation is the percentage change in the price of manufacturing, whereas $ \Delta W / W $ is the percentage change in the wage. Given this information, along with the preceding data on the payments to labor, capital, and sales revenue, we can compute the percentage change in the rental on capital: $ $
 
-\frac {\Delta R _ {K}}{R _ {K}} = \frac {(10 \% \cdot 100 - 5 \% \cdot 60)}{40} = 17.5 \%
+\frac{\Delta R_{K}}{R_{K}} = \frac{(10 \% \cdot 100 - 5 \% \cdot 60)}{40} = 17.5 \%
 
 $ $
 We see that the percentage increase in the rental on capital,  $ 17.5\% $, exceeds the percentage increase in the relative price of manufacturing, $ 10\% $ (so $ \Delta R_{K} / R_{K} > \Delta P_{M} / P_{M} > 0 $ ). This outcome holds no matter what numbers are used in the preceding formula, provided that the percentage increase in the wage is less than the percentage increase in the price of the manufactured good (as proved in Figure 3-5).
 
 Change in the Rental on Land We can use the same approach to examine the change in the rental on land. Continuing to assume that the price of the manufactured good rises, while the price in agriculture stays the same  $ (\Delta P_A = 0) $, the change in the land rental is $ $
 
-\Delta R _ {T} = \frac {0 \cdot Q _ {A} - \Delta W \cdot L _ {A}}{T}
+\Delta R_{T} = \frac{0 \cdot Q_{A} - \Delta W \cdot L_{A}}{T}
 
 $ $
 Because the wage is increasing,  $ \Delta W > 0 $, it follows immediately that the rental on land is falling, $ \Delta R_{T} < 0 $. The percentage amount by which it falls can be calculated by rewriting the above equation as $ $
 
-\frac {\Delta R _ {T}}{R _ {T}} = - \frac {\Delta W}{W} \left(\frac {W \cdot L _ {A}}{R _ {T} \cdot T}\right)
+\frac{\Delta R_{T}}{R_{T}} = - \frac{\Delta W}{W} \left(\frac{W \cdot L_{A}}{R_{T} \cdot T}\right)
 
 $ $
 Using these earlier data for agriculture in this formula, we get
@@ -486,7 +486,7 @@ than the manufacturing price, so capital owners are worse off; and the rental on
 What happens if the price of the agricultural good rises? You can probably guess based on the previous example that this change will benefit land and harm capital. The equation summarizing the changes in all three factor earnings becomes
 $ $
 
-\underbrace {\Delta R _ {K} / R _ {K} <   0} \underbrace {<   \Delta W / W <   \Delta P _ {A} / P _ {A} <   \Delta R _ {T} / R _ {T}} _ {\text {f o r a n i n c e s e t a i n}}
+\underbrace {\Delta R_{K} / R_{K} <   0} \underbrace {<   \Delta W / W <   \Delta P_{A} / P_{A} <   \Delta R_{T} / R_{T}}_{\text{fo ra ni nc es et ai n}}
 
 $ $
 Real rental on capital falls
@@ -632,7 +632,7 @@ c. If Kletzer and Litan's new plan for "wage insurance" had been adopted by the 
 
 8. In the specific-factors model, assume that the price of agricultural goods decreases while the price of manufactured goods is unchanged  $ (\Delta P_A / P_A < 0 $ and $ \Delta P_M / P_M = 0) $. Arrange the following terms in ascending order: $ $
 
-\Delta R _ {T} / R _ {T} \quad \Delta R _ {K} / R _ {K} \quad \Delta P _ {A} / P _ {A} \quad \Delta P _ {M} / P _ {M} \quad \Delta W / W
+\Delta R_{T} / R_{T} \quad \Delta R_{K} / R_{K} \quad \Delta P_{A} / P_{A} \quad \Delta P_{M} / P_{M} \quad \Delta W / W
 
 $ $
 Hint: Try starting with a diagram like Figure 3-5, but change the price of agricultural goods instead.

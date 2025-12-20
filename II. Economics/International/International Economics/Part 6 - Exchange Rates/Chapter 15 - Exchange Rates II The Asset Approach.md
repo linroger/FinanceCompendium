@@ -72,7 +72,7 @@ For the case of risky arbitrage, the forex market is in equilibrium when there i
 return on the home investment (the dollar deposit) equal the expected dollar rate of return on the foreign investment (the euro deposit),
 $ $
 
-\underbrace {i _ {\S}} _ {\substack {\text {Interest rate} \\ \text {on dollar deposits} \\ = \\ \text {Dollar rate of return} \\ \text {on dollar deposits}}} = \underbrace {i _ {\epsilon}} _ {\substack {\text {Interest rate} \\ \text {on euro deposits}}} + \underbrace {\frac {\left(E _ {\S / \epsilon} ^ {e} - E _ {\S / \epsilon}\right)}{E _ {\S / \epsilon}}} _ {\substack {\text {Expected rate of depreciation} \\ \text {of the dollar}}} \tag{15 - 1}
+\underbrace {i_{\S}}_{\substack {\text{Interestrate} \\ \text{ondollardeposits} \\ = \\ \text{Dollarrateofreturn} \\ \text{ondollardeposits}}} = \underbrace {i_{\epsilon}}_{\substack {\text{Interestrate} \\ \text{oneurodeposits}}} + \underbrace {\frac{\left(E_{\S / \epsilon}^{e} - E_{\S / \epsilon}\right)}{E_{\S / \epsilon}}}_{\substack {\text{Expectedrateofdepreciation} \\ \text{ofthedollar}}} \tag{15 - 1}
 
 $ $
 where each interest rate is an annual rate,  $ E_{\mathbb{S} / \epsilon} $ is today's exchange rate (the spot rate), and $ E_{\mathbb{S} / \epsilon}^{\epsilon} $  is the expected future exchange rate that will prevail one year ahead.
@@ -159,7 +159,7 @@ FIGURE 15-3
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/e0217066e9098923012a3bedaa143dad32b5362726734e25afa7b318586a8a61.jpg)
 
-(b) A Change in the Foreign Interest Rate A fall in the euro interest rate from  $ 3 \% $ to $ 1 \% $ lowers foreign expected dollar returns, shifting the FR curve down from $ F R _ {1} $ to $ F R _ {2} $. At the initial equilibrium exchange rate of 1.20 $ \mathbb{S} / \mathbb{E} $ on $ F R _ {2} $, foreign returns are below domestic returns at point 6. Dollar deposits are more attractive and the dollar appreciates from 1.20 $ \mathbb{S} / \mathbb{E} $ to 1.177 $ \mathbb{S} / \mathbb{E} $ . The new equilibrium is at point 7.
+(b) A Change in the Foreign Interest Rate A fall in the euro interest rate from  $ 3 \% $ to $ 1 \% $ lowers foreign expected dollar returns, shifting the FR curve down from $ F R_{1} $ to $ F R_{2} $. At the initial equilibrium exchange rate of 1.20 $ \mathbb{S} / \mathbb{E} $ on $ F R_{2} $, foreign returns are below domestic returns at point 6. Dollar deposits are more attractive and the dollar appreciates from 1.20 $ \mathbb{S} / \mathbb{E} $ to 1.177 $ \mathbb{S} / \mathbb{E} $ . The new equilibrium is at point 7.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/3d9b770845796996ae2521ff5f9c57a5d815b8c93bee69c5cc3c69516d6454c2.jpg)
 
@@ -206,13 +206,13 @@ Second, why assume that interest rates are now flexible? In the previous chapter
 The Model With these explanations of our short-run assumptions in hand, we can now use the same general monetary model of the previous chapter and write down expressions for money market equilibrium in the two countries as follows:
 $ $
 
-\underbrace {\frac {M _ {U S}}{\overline {{P}} _ {U S}}} _ {\text {U . S . s u p p l y o f} \quad \text {r e a l m o n e y b a l a n c e s}} = \underbrace {L (i _ {\S}) \times Y _ {U S}} _ {\text {U . S . d e m a n d f o r} \quad \text {r e a l m o n e y b a l a n c e s}} \tag {15-2}
+\underbrace {\frac{M_{U S}}{\overline {{P}}_{U S}}}_{\text{U .S .s up pl yo f} \quad \text{re al mo ne yb al an ce s}} = \underbrace {L (i_{\S}) \times Y_{U S}}_{\text{U .S .d em an df or} \quad \text{re al mo ne yb al an ce s}} \tag {15-2}
 
 $ $
 
 $ $
 
-\underbrace {\frac {M _ {E U R}}{\overline {{P}} _ {E U R}}} _ {\text {E u r o p e a n s u p p l y o f}} = \underbrace {L \left(i _ {\epsilon}\right) \times Y _ {E U R}} _ {\text {E u r o p e a n d m a n d f o r}} \tag {15-3}
+\underbrace {\frac{M_{E U R}}{\overline {{P}}_{E U R}}}_{\text{Eu ro pe an su pp ly of}} = \underbrace {L \left(i_{\epsilon}\right) \times Y_{E U R}}_{\text{Eu ro pe an dm an df or}} \tag {15-3}
 
 $ $
 To recap: In the long run, prices adjust to clear the money market and bring money demand and money supply into line. In the short run, when prices are sticky, such adjustment is not possible. However, nominal interest rates are free to adjust. In the short run, the nominal interest rate in each country adjusts to bring money supply and money demand into equilibrium.
@@ -440,14 +440,14 @@ In this section, we extend our analysis from the short run to the long run, and 
 We need the asset approach (this chapter)—short-run money market equilibrium and uncovered interest parity:
 $ $
 
-\left. \begin{array}{l} \overline {{P}} _ {U S} = M _ {U S} / \left[ L _ {U S} \left(i _ {\S}\right) Y _ {U S} \right] \\ \overline {{P}} _ {E U R} = M _ {E U R} / \left[ L _ {E U R} \left(i _ {\ell}\right) Y _ {E U R} \right] \\ i _ {\S} = i _ {\ell} + \frac {E _ {\S / \ell} ^ {e} - E _ {\S / \ell}}{E _ {\S / \ell}} \end{array} \right\} \text {T h e a s s e t a p p r o a c h .} \tag {15-4}
+\left. \begin{array}{l} \overline {{P}}_{U S} = M_{U S} / \left[ L_{U S} \left(i_{\S}\right) Y_{U S} \right] \\ \overline {{P}}_{E U R} = M_{E U R} / \left[ L_{E U R} \left(i_{\ell}\right) Y_{E U R} \right] \\ i_{\S} = i_{\ell} + \frac{E_{\S / \ell}^{e} - E_{\S / \ell}}{E_{\S / \ell}} \end{array} \right\} \text{Th ea ss et ap pr oa ch .} \tag {15-4}
 
 $ $
 - There are three equations and three unknowns (two short-run nominal interest rates and the spot exchange rate). The future expected exchange rate must be known, as must the current levels of money and real income. (The price level is also treated as given.)
 - But to forecast the future expected exchange rate, we also need the long-run monetary approach from the previous chapter—a long-run monetary model and purchasing power parity:
 $ $
 
-\left. \begin{array}{l} P _ {U S} ^ {e} = M _ {U S} ^ {e} / \left[ L _ {U S} \left(i _ {\S} ^ {e}\right) Y _ {U S} ^ {e} \right] \\ P _ {E U R} ^ {e} = M _ {E U R} ^ {e} / \left[ L _ {E U R} \left(i _ {\epsilon} ^ {e}\right) Y _ {E U R} ^ {e} \right] \\ E _ {\S / \epsilon} ^ {e} = P _ {U S} ^ {e} / P _ {E U R} ^ {e} \end{array} \right\} \quad \text {T h e m o n e t a r y a p p r o a c h .} \tag {15-5}
+\left. \begin{array}{l} P_{U S}^{e} = M_{U S}^{e} / \left[ L_{U S} \left(i_{\S}^{e}\right) Y_{U S}^{e} \right] \\ P_{E U R}^{e} = M_{E U R}^{e} / \left[ L_{E U R} \left(i_{\epsilon}^{e}\right) Y_{E U R}^{e} \right] \\ E_{\S / \epsilon}^{e} = P_{U S}^{e} / P_{E U R}^{e} \end{array} \right\} \quad \text{Th em on et ar ya pp ro ac h .} \tag {15-5}
 
 $ $
 - There are three equations and three unknowns (two price levels and the exchange rate). Note that all variables here have a superscript  $ e $  to denote future expected values or forecasts. We assume that forecasts of future money, real income, and nominal interest rates are known. This model can then be applied to obtain price forecasts and, hence, a forecast of the future expected exchange rate.<sup>2</sup>
@@ -530,9 +530,9 @@ Look first at the FX market in panel (b). Because expectations about the future 
 
 Now consider the impact of the change in monetary policy in the short run. Look at the money market in panel (a). In the short run, if the money supply increases from  $ M_{US}^{1} $ to $ M_{US}^{2} $ but prices are sticky at $ P_{US}^{1} $, then real money balances rise from $ M_{US}^{1} / P_{US}^{1} $ to $ M_{US}^{2} / P_{US}^{1} $. The real money supply shifts from $ MS_{1} $ to $ MS_{2} $ and the home interest rate falls from $ i_{\mathrm{S}}^{1} $ to $ i_{\mathrm{S}}^{2} $ , leading to a new short-run money market equilibrium at point 2.
 
-Now look back to the FX market in panel (b). If this were a temporary monetary policy shock, expectations would be unchanged, and the  $ FR_{1} $ curve would still describe foreign returns, but domestic returns would fall from $ DR_{1} $ to $ DR_{2} $ as the interest rate fell and the home currency would depreciate to the level $ E_{\mathrm{S / E}}^{3} $. The FX market equilibrium, after a temporary money supply shock, would be at point $ 3' $ , as we have seen before.
+Now look back to the FX market in panel (b). If this were a temporary monetary policy shock, expectations would be unchanged, and the  $ FR_{1} $ curve would still describe foreign returns, but domestic returns would fall from $ DR_{1} $ to $ DR_{2} $ as the interest rate fell and the home currency would depreciate to the level $ E_{\mathrm{S /E}}^{3} $. The FX market equilibrium, after a temporary money supply shock, would be at point $ 3' $ , as we have seen before.
 
-But this is not the case now. This time we are looking at a permanent shock to money supply. It has two effects on today's FX market. One impact of the money supply shock is to lower the home interest rate, decreasing domestic returns in today's FX market from  $ DR_{1} $ to $ DR_{2} $. The other impact of the money supply shock is to increase the future expected exchange rate, increasing foreign returns in today's FX market from $ FR_{1} $ to $ FR_{2} $. Hence, the FX market equilibrium in the short run is where $ DR_{2} $ and $ FR_{2} $ intersect, now at point $ 2' $, and the exchange rate depreciates all the way to $ E_{\mathrm{S / E}}^{2} $ .
+But this is not the case now. This time we are looking at a permanent shock to money supply. It has two effects on today's FX market. One impact of the money supply shock is to lower the home interest rate, decreasing domestic returns in today's FX market from  $ DR_{1} $ to $ DR_{2} $. The other impact of the money supply shock is to increase the future expected exchange rate, increasing foreign returns in today's FX market from $ FR_{1} $ to $ FR_{2} $. Hence, the FX market equilibrium in the short run is where $ DR_{2} $ and $ FR_{2} $ intersect, now at point $ 2' $, and the exchange rate depreciates all the way to $ E_{\mathrm{S /E}}^{2} $ .
 
 Note that the short-run equilibrium level of the exchange rate  $ (E_{\mathbb{S} / \epsilon}^{2}) $ is higher than the level that would be observed under a temporary shock $ (E_{\mathbb{S} / \epsilon}^{3}) $ and also higher than the level that will be observed in the long run $ (E_{\mathbb{S} / \epsilon}^{4}) $ . To sum up, in the short run, the permanent shock causes the exchange rate to depreciate more than it would under a temporary shock and more than it will end up depreciating in the long run.
 
@@ -620,14 +620,14 @@ By assumption, equilibrium in the krone-euro forex market requires that the Dani
 
 Here uncovered interest parity reduces to the simple condition that the Danish central bank must set its interest rate equal to  $ i_{\epsilon} $, the rate set by the ECB: $ $
 
-i_{DKr} = i_{\epsilon} + \underbrace{\frac{E^{e}_{DKr / \epsilon} - E_{DKr / \epsilon}}{E_{DKr / \epsilon}}} _ {\text{Equals zero for a credible fixed exchange rate}} = i_{\epsilon}
+i_{DKr} = i_{\epsilon} + \underbrace{\frac{E^{e}_{DKr / \epsilon} - E_{DKr / \epsilon}}{E_{DKr / \epsilon}}}_{\text{Equalszerofora crediblefixedexchangerate}} = i_{\epsilon}
 
 $ $
 Denmark has lost control of its monetary policy: it cannot independently change its interest rate under a peg.
 
 The same is true of money supply policy. Short-run equilibrium in Denmark's money market requires that money supply equal money demand, but once Denmark's interest rate is set equal to the Eurozone interest rate  $ i_{\epsilon} $, there is only one feasible level for money supply, as we see by imposing $ i_{\epsilon} $ as the Danish interest rate in money market equilibrium: $ $
 
-M _ {D E N} = \bar {P} _ {D E N} L _ {D E N} \left(i _ {D K r}\right) Y _ {D E N} = \bar {P} _ {D E N} L _ {D E N} \left(i _ {\epsilon}\right) Y _ {D E N}
+M_{D E N} = \bar {P}_{D E N} L_{D E N} \left(i_{D K r}\right) Y_{D E N} = \bar {P}_{D E N} L_{D E N} \left(i_{\epsilon}\right) Y_{D E N}
 
 $ $
 The implications are striking. The final expression contains the euro interest rate (exogenous, as far as the Danes are concerned), the fixed price level (exogenous by assumption), and output (also exogenous by assumption). No variable in this expression is under the control of the Danish authorities in the short run, and this is the only level of the Danish money supply consistent with equilibrium in the money and forex markets at the pegged rate  $ \overline{E}_{DKr/\epsilon} $ . If the Danish central bank is to maintain the peg, then in the short run it must choose the level of money supply implied by the last equation.
@@ -656,14 +656,14 @@ already answered that question; it is going to be tied down the same way as in t
 Next we turn to the price level in Denmark, which is determined in the long run by PPP. But if the exchange rate is pegged, we can write long-run PPP for Denmark as
 $ $
 
-P _ {D E N} = \bar {E} _ {D K r / \epsilon} P _ {E U R}
+P_{D E N} = \bar {E}_{D K r / \epsilon} P_{E U R}
 
 $ $
 Here we encounter another variable that is totally outside of Danish control in the long run. Under PPP, pegging to the euro means that the Danish price level is a fixed multiple of the Eurozone price level (which is exogenous, as far as the Danes are concerned).
 
 With the long-run nominal interest and price level outside of Danish control, we can show, as before, that monetary policy autonomy is out of the question. We just substitute  $ i_{DKr} = i_{\epsilon} $ and $ P_{DEN} = \overline{E}_{DKr / \epsilon}P_{EUR} $ into Denmark's long-run money market equilibrium to obtain $ $
 
-M _ {D E N} = P _ {D E N} L _ {D E N} \left(i _ {D K r}\right) Y _ {D E N} = \overline {{E}} _ {D K r / \epsilon} P _ {E U R} L _ {D E N} \left(i _ {\epsilon}\right) Y _ {D E N}
+M_{D E N} = P_{D E N} L_{D E N} \left(i_{D K r}\right) Y_{D E N} = \overline {{E}}_{D K r / \epsilon} P_{E U R} L_{D E N} \left(i_{\epsilon}\right) Y_{D E N}
 
 $ $
 The final expression contains the long-run euro interest rate and price levels (exogenous, as far as the Danes are concerned), the fixed exchange rate level (exogenous by assumption), and long-run Danish output (also exogenous by assumption). Again, no variable in the final expression is under the control of the Danish authorities in the long run, and this is the only level of the Danish money supply consistent with equilibrium in the money and foreign exchange market at the pegged rate of  $ \overline{E}_{DKr / \ell} $ .

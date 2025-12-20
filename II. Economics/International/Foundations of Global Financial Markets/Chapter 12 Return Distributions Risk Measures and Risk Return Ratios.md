@@ -110,13 +110,13 @@ An asset's rate of return (or simply, "return") over a given time interval is eq
 An asset's return, designated by  $R$ , is given by:
 
 $$
-R = \frac {p _ {1} - p _ {0} + C}{p _ {0}},
+R = \frac{p_{1} - p_{0} + C}{p_{0}},
 $$ where
 
 
-$p_0 = \text{price at the beginning of the time interval},$
+$p_0 = \text{priceatthebeginningofthetimeinterval},$
 
-$p_{1} = \text{price at the end of the time interval, and}$
+$p_{1} = \text{priceattheendofthetimeinterval,and}$
 
 $C =$  cash distribution.
 
@@ -124,7 +124,7 @@ For example, if an asset's price increased from \$100 on January 1 to \$105 by D
 
 $$
 
-R = \frac {\mathrm {\ 105 - \ 100 + \$ 1}}{\mathrm {\ 100}} = 0.06 = 6 \%
+R = \frac{\mathrm{\105 - \100 + \$1}}{\mathrm{\100}} = 0.06 = 6 \%
 
 $$
 
@@ -148,14 +148,14 @@ The location of a probability distribution is a measure of its central value. Th
 
 $$
 
-\bar {x} = \left(\frac {1}{n}\right) \sum_ {i = 1} ^ {n} x _ {i}, \tag {12.1}
+\bar {x} = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} x_{i}, \tag {12.1}
 
 $$ where  $\overline{x}$  is equal to the mean of the sample, and  $x_{i}$  is the ith observation.
 
 Dispersion is a measure of how spread out the potential outcomes are that can be realized. Although there are various measures of dispersion—variance, mean absolute deviation, and range—the most commonly used measure in finance is the variance. The variance measures the dispersion of the outcomes that can be realized relative to the mean and is referred to as the second moment of a probability distribution. For a sample of size  $n$  ( $i = 1, 2, \ldots, n$ ) for random variable  $x$ , the variance, denoted by  $\operatorname{var}(x)$ , is computed as follows:
 
 $$
-\operatorname {v a r} (x) = \left(\frac {1}{n}\right) \sum_ {i = 1} ^ {n} x _ {i} \left(x _ {i} = \bar {x}\right) ^ {2}.
+\operatorname{va r} (x) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} x_{i} \left(x_{i} = \bar {x}\right)^{2}.
 $$
 
 Basically, the variance is the average of the squared deviations from the mean. Because the variance is in squared units, the standard root of the variance is typically used. The square root of the variance is called the standard deviation.
@@ -296,7 +296,7 @@ Although the field of statistics offers several ways to measure the dependence b
 The covariance of two random variables is a measure of the joint variation of the random variables, where the association is assumed to be a linear one. In the case of two random variables, the covariance is calculated with sample data as follows. Let  $x$  and  $y$  be two random variables, and denote their sample means by  $\overline{x}$  and  $\overline{y}$ , respectively. Assuming that there are  $n$  observations for the two random variables, then the covariance between the two random variables  $x$  and  $y$ , denoted by  $\operatorname{cov}(x, y)$ , is
 
 $$
-\operatorname {c o v} (x, y) = \left(\frac {1}{n}\right) \sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \left(y - \bar {y}\right). \tag {12.2}
+\operatorname{co v} (x, y) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} \left(x_{i} - \bar {x}\right) \left(y - \bar {y}\right). \tag {12.2}
 $$
 
 In words, the covariance is calculated by (1) calculating for all observations for each random variable the deviation from its respective mean, (2) multiplying for each observation the deviation for each random variable, (3) summing the product of the deviations, and (4) dividing by the number of observations. The sample covariance is then the average of all joint deviations.
@@ -306,7 +306,7 @@ A problem with the covariance is that it is affected by the scale of the random 
 To deal with this problem, an alternative but related measure can be developed by dividing the covariance by the variance of the two random variables. The resulting measure is called the Pearson correlation coefficient, or simply the correlation coefficient. That is, the correlation coefficient, denoted by  $\operatorname{cor}(x,y)$ , is
 
 $$
-\operatorname {c o r} (x, y) = \frac {\operatorname {c o v} (x , y)}{\operatorname {v a r} (x) \operatorname {v a r} (y)}, \tag {12.3}
+\operatorname{co r} (x, y) = \frac{\operatorname{co v} (x , y)}{\operatorname{va r} (x) \operatorname{va r} (y)}, \tag {12.3}
 $$ where  $\operatorname{var}(x)$  and  $\operatorname{var}(y)$  are the sample variances as computed using equation (12.2).
 
 
@@ -356,7 +356,7 @@ The arithmetic average return is an unweighted average of the returns achieved d
 
 $$
 
-R _ {A} = \left(R _ {P _ {1}} + R _ {P _ {2}} + \ldots + R _ {P T}\right) / T,
+R_{A} = \left(R_{P_{1}} + R_{P_{2}} + \ldots + R_{P T}\right) / T,
 
 $$ where
 
@@ -375,14 +375,14 @@ The geometric average return, also referred to as the time-weighted average retu
 
 $$
 
-R _ {G} = \left[ \left(1 + R _ {P _ {1}}\right) \left(1 + R _ {P _ {2}}\right) \dots \left(1 + R _ {P T}\right) \right] ^ {1 / T} - 1,
+R_{G} = \left[ \left(1 + R_{P_{1}}\right) \left(1 + R_{P_{2}}\right) \dots \left(1 + R_{P T}\right) \right]^{1 / T} - 1,
 
 $$ where  $R_{G}$  is the geometric average return and  $R_{Pk}$  and  $N$  are as defined for the arithmetic average return.
 
 For example, if the portfolio returns were  $-10\%$ ,  $20\%$ , and  $5\%$  in July, August, and September, as in the preceding example, then the geometric average return would be
 
 $$
-R _ {G} = [ (1 + (- 0. 1 0)) (1 + 0. 2 0) \dots (1 + 0. 0 5) ] ^ {1 / 3} - 1 = 0. 0 4 3.
+R_{G} = [ (1 + (- 0. 1 0)) (1 + 0. 2 0) \dots (1 + 0. 0 5) ]^{1 / 3} - 1 = 0. 0 4 3.
 $$
 
 As the geometric average return is  $4.3\%$  per month,  $\$ 1$ invested in the portfolio at the end of June would have grown at a rate of  $4.3\%$  per month during the three-month period.
@@ -396,13 +396,13 @@ Now that we know that the realized return should be computed using the geometric
 The most popular reward-risk ratio that measures the reward on an absolute basis is the Sharpe ratio.[20] The risk-free return is used to reduce the realized return in this reward-risk ratio:
 
 $$
-\text {S h a r p e} = \frac {\text {R e a l i z e d r e t u r n - R i s k - f r e e r a t e o f r e t u r n}}{\text {S t a n d a r d d e v i a t i o n o f t h e r e a l i z e d r e t u r n s}}.
+\text{Sh ar pe} = \frac{\text{Re al iz ed re tu rn -R is k -f re er at eo fr et ur n}}{\text{St an da rd de vi at io no ft he re al iz ed re tu rn s}}.
 $$
 
 Two well-known reward-risk ratios that measure reward on a relative return basis (i.e., a return in excess of the benchmark) are the Sortino ratio and the information ratio:
 
 $$
-\begin{array}{l} \text {S o r t i n o} = \frac {\text {R e a l i z e d r e t u r n - M i n i m u m a c c e p t a b l e r e t u r n}}{\text {S t a n d a r d d e v i a t i o n o f r e t u r n s b e l o w t h e m i n i m u m a c c e p t a b l e r e t u r n}}. \\ \text {I n f o r m a t i o n} = \frac {\text {R e a l i z e d r e t u r n - R e t u r n o n t h e b e n c h m a r k}}{\text {S t a n d a r d d e v i a t i o n o f t h e e x c e s s r e t u r n r e t u r n s}}. \\ \end{array}
+\begin{array}{l} \text{So rt in o} = \frac{\text{Re al iz ed re tu rn -M in im um ac ce pt ab le re tu rn}}{\text{St an da rd de vi at io no fr et ur ns be lo wt he mi ni mu ma cc ep ta bl er et ur n}}. \\ \text{In fo rm at io n} = \frac{\text{Re al iz ed re tu rn -R et ur no nt he be nc hm ar k}}{\text{St an da rd de vi at io no ft he ex ce ss re tu rn re tu rn s}}. \\ \end{array}
 $$
 
 # Risk Measure

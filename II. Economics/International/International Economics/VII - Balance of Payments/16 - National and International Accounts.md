@@ -126,7 +126,7 @@ Calculating the Change in Wealth Each Period In the previous balance of payments
 Mathematically, we can write the change in external wealth from end of year  $N - 1$  to end of year  $N$  as follows (where subscripts denote periods, here years):
 
 $$
-\Delta W _ {N} = \underbrace {W _ {N} - W _ {N - 1}} _ {\text {C h a n g e i n e x t e r n a l}} = \underbrace {T B _ {N}} _ {\text {T r a d e b a n c e}} + \underbrace {r ^ {*} W _ {N - 1}} _ {\text {I n t e r s t p a i d / r e c e i v e d o n}}
+\Delta W_{N} = \underbrace {W_{N} - W_{N - 1}}_{\text{Ch an ge in ex te rn al}} = \underbrace {T B_{N}}_{\text{Tr ad eb an ce}} + \underbrace {r^{*} W_{N - 1}}_{\text{In te rs tp ai d /r ec ei ve do n}}
 $$
 
 In this simplified world, external wealth can change for only two reasons: surpluses or deficits on the trade balance in the current period, or surpluses and deficits on net factor income arising from interest received or paid.
@@ -136,7 +136,7 @@ Calculating Future Wealth Levels Now that we have a formula for wealth changes, 
 To find wealth at the end of year  $N$ , we rearrange the preceding equation:
 
 $$
-\underbrace {W _ {N}} _ {\substack {\text {External wealth at} \\ \text {the end of this period}}} = \underbrace {T B _ {N}} _ {\substack {\text {Trade balance} \\ \text {this period}}} + \underbrace {(1 + r ^ {*}) W _ {N - 1}} _ {\substack {\text {Last period's external wealth} \\ \text {plus interest paid/received}}}
+\underbrace {W_{N}}_{\substack {\text{Externalwealthat} \\ \text{theendofthisperiod}}} = \underbrace {T B_{N}}_{\substack {\text{Tradebalance} \\ \text{thisperiod}}} + \underbrace {(1 + r^{*}) W_{N - 1}}_{\substack {\text{Lastperiod'sexternalwealth} \\ \text{plusinterestpaid/received}}}
 $$
 
 This equation presents an important and intuitive result: it shows that wealth at the end of a period is the sum of two terms. The trade balance this period captures the addition to wealth from net exports (exports minus imports). Wealth at the end of last period times  $(1 + r^{*})$  captures the wealth from last period plus the interest earned on that wealth. The examples in the following sections will help us understand the changes in a country's external wealth and the role that the trade balance plays here.
@@ -150,7 +150,7 @@ As we saw in the formula given earlier,  $W_0 = (1 + r^*)W_{-1} + TB_0$ . Wealth
 That's the end of year 0. But next, where do things stand at the end of year 1? We assume the country must have zero external wealth when the world ends at the end of year 1. Applying the preceding formula to year 1, we know that  $W_{1} = 0 = (1 + r^{*})W_{0} + TB_{1}$ . We can then substitute  $W_{0} = (1 + r^{*})W_{-1} + TB_{0}$  into this formula to find that
 
 $$
-W _ {1} = 0 = \left(1 + r ^ {*}\right) ^ {2} W _ {- 1} + \left(1 + r ^ {*}\right) T B _ {0} + T B _ {1}
+W_{1} = 0 = \left(1 + r^{*}\right)^{2} W_{- 1} + \left(1 + r^{*}\right) T B_{0} + T B_{1}
 $$
 
 This equation shows that two years later at the end of year 1 the country has accumulated wealth equal to the trade balance in years 0 and 1  $(TB_0 + TB_1)$ ; plus one year of interest earned (or paid) on the year 0 trade balance  $(r^{*}TB_{0})$ ; plus the two years of interest and principal earned (or paid) on its initial wealth  $(1 + r^{*})^{2}W_{-1}$ .
@@ -158,7 +158,7 @@ This equation shows that two years later at the end of year 1 the country has ac
 Because we have stated that the final wealth level  $W_{1}$  must be zero, the right-hand side of the last equation must be zero, too. For that to be the case, the trade balances in year 0 ( $TB_{0}$ ) and in year 1 ( $TB_{1}$ ) (plus any accumulated interest) must be equal and opposite to initial wealth ( $W_{-1}$ ) (plus any accumulated interest):
 
 $$
-- \left(1 + r ^ {*}\right) ^ {2} W _ {- 1} = \left(1 + r ^ {*}\right) T B _ {0} + T B _ {1}
+- \left(1 + r^{*}\right)^{2} W_{- 1} = \left(1 + r^{*}\right) T B_{0} + T B_{1}
 $$
 
 This equation is the two-period budget constraint. It tells us that a creditor country with positive initial wealth (left-hand-side negative) can afford to run trade deficits "on average" in future; conversely, a debtor country (left-hand-side positive) is required to run trade surpluses "on average" in future.
@@ -166,7 +166,7 @@ This equation is the two-period budget constraint. It tells us that a creditor c
 Present Value Form By dividing the previous equation by  $(1 + r^{*})$ , we find a more intuitive expression for the two-period budget constraint:
 
 $$
-\underbrace {- (1 + r ^ {*}) W _ {- 1}} _ {\text {M i n u s t h e p r e s e n t v a l u e}} = \underbrace {T B _ {0} + \frac {T B _ {1}}{(1 + r ^ {*})}} _ {\text {P r e s e n t v a l u e o f a l l p r e s e n t}}
+\underbrace {- (1 + r^{*}) W_{- 1}}_{\text{Mi nu st he pr es en tv al ue}} = \underbrace {T B_{0} + \frac{T B_{1}}{(1 + r^{*})}}_{\text{Pr es en tv al ue of al lp re se nt}}
 $$
 
 Every element in this statement of the two-period budget constraint represents a quantity expressed in so-called present value terms.
@@ -182,7 +182,7 @@ It could wait to pay off the debt until the end of period 1 by having balanced t
 Extending the Theory to the Long Run By extending the two-period model to  $N$  periods, and allowing  $N$  to run to infinity, we can transform the two-period budget constraint into the long-run budget constraint (LRBC). Repeating the two-period logic  $N$  times, external wealth after  $N$  periods is initial wealth and accumulated interest on that wealth (whether positive or negative) plus all intervening trade balances and accumulated interest on those positive or negative trade balances. If external wealth is to be zero at the end of  $N$  periods, then the sum of the present values of  $N$  present and future trade balances must equal minus the present value of external wealth. If  $N$  runs to infinity, we get an infinite sum and arrive at the equation of the LRBC: $^2$
 
 $$
-\underset {\text {M i n u s t h e p r e s e n t v a l u e o f}} {\text {L R B C :}} \underbrace {- (1 + r ^ {*}) W _ {- 1}} = \underbrace {T B _ {0} + \frac {T B _ {1}}{\left(1 + r ^ {*}\right)} + \frac {T B _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {T B _ {3}}{\left(1 + r ^ {*}\right) ^ {3}} + \frac {T B _ {4}}{\left(1 + r ^ {*}\right) ^ {4}} + \cdots} _ {\text {P r e s e n t v a l u e o f a l l p r e s e n t a n d f u t u r e t r a d e b a l a n c e s}} \tag {17-1}
+\underset {\text{Mi nu st he pr es en tv al ue of}} {\text{LR BC :}} \underbrace {- (1 + r^{*}) W_{- 1}} = \underbrace {T B_{0} + \frac{T B_{1}}{\left(1 + r^{*}\right)} + \frac{T B_{2}}{\left(1 + r^{*}\right)^{2}} + \frac{T B_{3}}{\left(1 + r^{*}\right)^{3}} + \frac{T B_{4}}{\left(1 + r^{*}\right)^{4}} + \cdots}_{\text{Pr es en tv al ue of al lp re se nt an df ut ur et ra de ba la nc es}} \tag {17-1}
 $$
 
 This expression for the LRBC says that a debtor country must have future trade balances that are positive in present value terms so that they offset the country's initially negative wealth. Conversely, a creditor country must have future trade balances that are negative in present value terms so that they offset the country's initially positive wealth. The LRBC plays an important role in our analysis of how countries can lend or borrow because it imposes a condition that rules out choices that would lead to exploding positive or negative external wealth.
@@ -194,25 +194,25 @@ The following example helps us understand the long-run budget constraint and we 
 Suppose that today is year 0 and a country is to pay (e.g., to its creditors) a constant amount  $X$  every year starting next year, year 1. What is the present value  $(PV)$  of that sequence of payments  $(X)$ ?
 
 $$
-P V (X) = \frac {X}{\left(1 + r ^ {*}\right)} + \frac {X}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {X}{\left(1 + r ^ {*}\right) ^ {3}} + \dots
+P V (X) = \frac{X}{\left(1 + r^{*}\right)} + \frac{X}{\left(1 + r^{*}\right)^{2}} + \frac{X}{\left(1 + r^{*}\right)^{3}} + \dots
 $$
 
 This expression for  $PV(X)$  is an infinite sum. If we multiply this equation by  $(1 + r^{*})$ , we obtain
 
 $$
-P V (X) (1 + r ^ {*}) = X + \frac {X}{(1 + r ^ {*})} + \frac {X}{(1 + r ^ {*}) ^ {2}} + \frac {X}{(1 + r ^ {*}) ^ {3}} + \dots
+P V (X) (1 + r^{*}) = X + \frac{X}{(1 + r^{*})} + \frac{X}{(1 + r^{*})^{2}} + \frac{X}{(1 + r^{*})^{3}} + \dots
 $$
 
 To get this result, we can take the basic equation for the change in external wealth,  $W_{0} = (1 + r^{*})W_{-1} + TB_{0}$  and apply it  $N$  times with repeated substitution to obtain wealth at the end of period  $N$ :
 
 $$
-W _ {N} = \left(1 + r ^ {*}\right) ^ {N + 1} W _ {- 1} + \left(1 + r ^ {*}\right) ^ {N} T B _ {0} + \left(1 + r ^ {*}\right) ^ {N - 1} T B _ {1} + \left(1 + r ^ {*}\right) ^ {N - 2} T B _ {2} + \dots + \left(1 + r ^ {*}\right) T B _ {N - 1} + T B _ {N}
+W_{N} = \left(1 + r^{*}\right)^{N + 1} W_{- 1} + \left(1 + r^{*}\right)^{N} T B_{0} + \left(1 + r^{*}\right)^{N - 1} T B_{1} + \left(1 + r^{*}\right)^{N - 2} T B_{2} + \dots + \left(1 + r^{*}\right) T B_{N - 1} + T B_{N}
 $$
 
 We can then get toward the LRBC in the text if we divide the previous equation by  $(1 + r^{*})^{N}$
 
 $$
-\frac {W _ {N}}{(1 + r ^ {*}) ^ {N}} = (1 + r ^ {*}) W _ {- 1} + T B _ {0} + \frac {T B _ {1}}{(1 + r ^ {*})} + \frac {T B _ {2}}{(1 + r ^ {*}) ^ {2}} + \dots + \frac {T B _ {N}}{(1 + r ^ {*}) ^ {N}}.
+\frac{W_{N}}{(1 + r^{*})^{N}} = (1 + r^{*}) W_{- 1} + T B_{0} + \frac{T B_{1}}{(1 + r^{*})} + \frac{T B_{2}}{(1 + r^{*})^{2}} + \dots + \frac{T B_{N}}{(1 + r^{*})^{N}}.
 $$
 
 As we saw earlier, in a Ponzi game, external wealth  $W_{N}$  explodes, growing by a factor  $(1 + r^{*})$  every period. To prevent this, external wealth  $W_{N}$  (whether positive or negative) must grow more slowly in the long run than the factor  $(1 + r^{*})^{\mathrm{N}}$ . In this case, as  $N$  approaches infinity, the left-hand side of the above equation will approach zero. When this is the case, the right-hand side must also approach zero. This tendency of the right-hand side to go to zero in the limit leads directly to the LRBC equation (17-1) in the text.
@@ -220,7 +220,7 @@ As we saw earlier, in a Ponzi game, external wealth  $W_{N}$  explodes, growing 
 To find a simple expression for  $PV(X)$ , we subtract the first equation from the second, cancel out all of the terms on the right except  $X$ , then rearrange the remaining equation  $r^{*}PV(X) = X$  to arrive at:
 
 $$
-\underbrace {\frac {X}{\left(1 + r ^ {*}\right)} + \frac {X}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {X}{\left(1 + r ^ {*}\right) ^ {3}} + \cdots} _ {P V (X)} = \frac {X}{r ^ {*}} \tag {17-2}
+\underbrace {\frac{X}{\left(1 + r^{*}\right)} + \frac{X}{\left(1 + r^{*}\right)^{2}} + \frac{X}{\left(1 + r^{*}\right)^{3}} + \cdots}_{P V (X)} = \frac{X}{r^{*}} \tag {17-2}
 $$
 
 This formula helps us compute  $PV(X)$  for any stream of constant payments, something we often need to do to verify the long-run budget constraint.
@@ -228,7 +228,7 @@ This formula helps us compute  $PV(X)$  for any stream of constant payments, som
 For example, if the constant payment is  $X = 100$  and the interest rate is  $5\%$  ( $r^{*} = 0.05$ ), Equation (17-2) says that the present value of a stream of payments of 100 starting in year 1 is  $100 / 0.05 = 2,000$ :
 
 $$
-\frac {1 0 0}{(1 + 0 . 0 5)} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {2}} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {3}} + \dots = \frac {1 0 0}{0 . 0 5} = 2, 0 0 0
+\frac{1 0 0}{(1 + 0 . 0 5)} + \frac{1 0 0}{(1 + 0 . 0 5)^{2}} + \frac{1 0 0}{(1 + 0 . 0 5)^{3}} + \dots = \frac{1 0 0}{0 . 0 5} = 2, 0 0 0
 $$
 
 This example, which we will often revisit later in this chapter, shows the stream of interest payments on a perpetual loan (i.e., an interest-only loan or, equivalently, a sequence of loans for which only the principal is refinanced or rolled over every year). If the amount loaned by the creditor is  \$2,000 in year 0, and this principal amount is outstanding forever, then the interest that must be paid each year to service the debt is 5\%$  of 2,000, or 100. Under these conditions, wherein the loan payments are always fully serviced, the present value of the future interest payments equals the value of the amount loaned in year 0 and the LRBC is satisfied.
@@ -240,7 +240,7 @@ In economics, a budget constraint always tells us something about the limits to 
 To see why this is true, recall from the previous chapter that the trade balance is the difference between gross domestic product and gross national expenditure,  $TB = GDP - GNE$ . If we insert this expression into the LRBC equation (17-1) and collect terms, we see that
 
 $$
-\underbrace {(1 + r ^ {*}) W _ {- 1}} _ {\text {P r e s e n t v a l u e o f}} + \underbrace {G D P _ {0} + \frac {G D P _ {1}}{\left(1 + r ^ {*}\right)} + \frac {G D P _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \cdots} \tag {17-3}
+\underbrace {(1 + r^{*}) W_{- 1}}_{\text{Pr es en tv al ue of}} + \underbrace {G D P_{0} + \frac{G D P_{1}}{\left(1 + r^{*}\right)} + \frac{G D P_{2}}{\left(1 + r^{*}\right)^{2}} + \cdots} \tag {17-3}
 $$
 
 Present value of wealth from last period Present value of present and future GDP
@@ -248,7 +248,7 @@ Present value of wealth from last period Present value of present and future GDP
 Present value of the country's resources
 
 $$
-= \underbrace {G N E _ {0} + \frac {G N E _ {1}}{\left(1 + r ^ {*}\right)} + \frac {G N E _ {2}}{\left(1 + r ^ {*}\right) ^ {2}} + \cdots}
+= \underbrace {G N E_{0} + \frac{G N E_{1}}{\left(1 + r^{*}\right)} + \frac{G N E_{2}}{\left(1 + r^{*}\right)^{2}} + \cdots}
 $$
 
 Present value of present and future GNE
@@ -290,7 +290,7 @@ Summary When we add the  $2\%$  capital gain differential to the  $1.5\%$  inter
 To include the effects of the total return differential in our model, we have to incorporate the effect of the extra "bonuses" on external wealth as well as the conventional terms that reflect the trade balance and interest payments:
 
 $$
-\Delta W _ {N} = \underbrace {W _ {N} - W _ {N - 1}} _ {\text {C h a n g e i n}} = \underbrace {\underbrace {T B _ {N}} _ {\text {T r a d e}}} _ {\text {b a l a n c e}} + \underbrace {r ^ {*} W _ {N - 1}} _ {\text {I n t e r e s t p a i d / r e c e i v e d}} + \underbrace {(r ^ {*} - r ^ {0}) L} _ {\text {o n l a s t p e r i o d /}} + \underbrace {K G} _ {\text {I n c o m e d u t o}}
+\Delta W_{N} = \underbrace {W_{N} - W_{N - 1}}_{\text{Ch an ge in}} = \underbrace {\underbrace {T B_{N}}_{\text{Tr ad e}}}_{\text{ba la nc e}} + \underbrace {r^{*} W_{N - 1}}_{\text{In te re st pa id /r ec ei ve d}} + \underbrace {(r^{*} - r^{0}) L}_{\text{on la st pe ri od /}} + \underbrace {K G}_{\text{In co me du to}}
 $$
 
 Too Good to Be True? With this equation, the implications of the final two terms become clearer for the U.S. economy. When positive, they offset wealth losses due to trade deficits. Thus, if these terms increase in value by  $1\%$  of GDP, for example, then the United States could run an additional  $1\%$  of GDP in trade deficit forever and still satisfy its LRBC.
@@ -387,7 +387,7 @@ Present value of GDP
 Present value of GNE or equivalently,
 
 $$
-\underbrace {\text {P r e s e n t v a l u e o f} Q} _ {\text {P r e s e n t v a l u e o f} G D P} = \underbrace {\text {P r e s e n t v a l u e o f} C} _ {\text {P r e s e n t v a l u e o f} G N E} \tag {17-4}
+\underbrace {\text{Pr es en tv al ue of} Q}_{\text{Pr es en tv al ue of} G D P} = \underbrace {\text{Pr es en tv al ue of} C}_{\text{Pr es en tv al ue of} G N E} \tag {17-4}
 $$
 
 Remember, this equation says that the LRBC will hold, and the present value of current and future  $TB$  will be zero, if and only if the present value of current and future  $Q$  equals the present value of current and future  $C$ .
@@ -449,7 +449,7 @@ Because the LRBC requires that these surpluses be large enough to service the de
 To find out how big a cut in consumption is necessary, we rearrange and find that
 
 $$
-\Delta C = \frac {r ^ {*}}{1 + r ^ {*}} \Delta Q
+\Delta C = \frac{r^{*}}{1 + r^{*}} \Delta Q
 $$
 
 Note that the fraction in the above equation is between zero and 1. Thus, the generalized lesson is that an open economy only needs to lower its steady consumption level by a fraction of the size of the temporary output loss. [For instance, in the previous numerical example,  $\Delta C = (0.05 / 1.05) \times (21) = 1$ , so consumption had to fall by 1 unit.]
@@ -571,13 +571,13 @@ Velasco's stimulus spending, including 40,000-peso (68.41) handouts to 1.7 milli
 Equation (17-4) must be modified to include investment  $I$  as a component of GNE. For simplicity, however, we still assume that government consumption  $G$  is zero. With this change, the LRBC becomes
 
 $$
-\begin{array}{c} 0 = \text {P r e s e n t v a l u e o f T B} \\ \swarrow \\ \text {I n i t i a l w e i l t h i s z e r o} \end{array}
+\begin{array}{c} 0 = \text{Pr es en tv al ue of TB} \\ \swarrow \\ \text{In it ia lw ei lt hi sz er o} \end{array}
 $$
 
 Because the  $TB$  is output (Q) minus expenditure  $(C + I)$ , we can rewrite this last equation in the following form:
 
 $$
-\underbrace {\text {P r e s e n t v a l u e o f} Q} _ {\text {P r e s e n t v a l u e o f} G D P} = \underbrace {\text {P r e s e n t v a l u e o f} C + \text {P r e s e n t v a l u e o f} I} _ {\text {P r e s e n t v a l u e o f} G N E} \tag {17-5}
+\underbrace {\text{Pr es en tv al ue of} Q}_{\text{Pr es en tv al ue of} G D P} = \underbrace {\text{Pr es en tv al ue of} C + \text{Pr es en tv al ue of} I}_{\text{Pr es en tv al ue of} G N E} \tag {17-5}
 $$
 
 The LRBC will hold if and only if the present value of output  $Q$  equals the present value of expenditure  $(C + I)$ .
@@ -623,7 +623,7 @@ Ultimately, consumers care about consumption. In an open economy, they can smoot
 The increase in the present value of output  $PV(Q)$  comes from extra output in every year but year 0, and the present value of these additions to output is, using Equation (17-2),
 
 $$
-\text {C h a n g e i n p r e s e n t v a l u e o f o u t p u t} = \frac {\Delta Q}{\left(1 + r ^ {*}\right)} + \frac {\Delta Q}{\left(1 + r ^ {*}\right) ^ {2}} + \frac {\Delta Q}{\left(1 + r ^ {*}\right) ^ {3}} + \dots = \frac {\Delta Q}{r ^ {*}}
+\text{Ch an ge in pr es en tv al ue of ou tp ut} = \frac{\Delta Q}{\left(1 + r^{*}\right)} + \frac{\Delta Q}{\left(1 + r^{*}\right)^{2}} + \frac{\Delta Q}{\left(1 + r^{*}\right)^{3}} + \dots = \frac{\Delta Q}{r^{*}}
 $$
 
 The change in the present value of investment  $PV(I)$  is simply  $\Delta K$ .
@@ -637,7 +637,7 @@ The intuition here is that investment occurs up to the point at which the annual
 Putting it another way, dividing by  $\Delta K$ , investment is undertaken when
 
 $$
-\underbrace {\frac {\Delta Q}{\Delta K}} _ {M P K} \quad \geq \underbrace {r ^ {*}} _ {\text {W o r l d r e a l i n t e r e s t r a t e}} \tag {17-6}
+\underbrace {\frac{\Delta Q}{\Delta K}}_{M P K} \quad \geq \underbrace {r^{*}}_{\text{Wo rl dr ea li nt er es tr at e}} \tag {17-6}
 $$
 
 Marginal product of capital
@@ -683,7 +683,7 @@ Production Function Approach To look at this question carefully, economists must
 A simple and widely used production function takes the form
 
 $$
-\underset { \begin{array}{c} \swarrow \\ \text {O u t p u t} \\ \text {p e r} \\ \text {w o r k e r} \end{array} } {q} = \underset { \begin{array}{c} \swarrow \\ \text {P r o d u c t i v i t y} \\ \text {l e v e l} \end{array} } {\mathcal {A}} \times \underset { \begin{array}{c} \swarrow \\ \text {C a p i t a l p e r} \\ \text {w o r k e r} \end{array} } {k ^ {\theta}}
+\underset { \begin{array}{c} \swarrow \\ \text{Ou tp ut} \\ \text{pe r} \\ \text{wo rk er} \end{array} } {q} = \underset { \begin{array}{c} \swarrow \\ \text{Pr od uc ti vi ty} \\ \text{le ve l} \end{array} } {\mathcal {A}} \times \underset { \begin{array}{c} \swarrow \\ \text{Ca pi ta lp er} \\ \text{wo rk er} \end{array} } {k^{\theta}}
 $$ where  $\theta$  is a number between 0 and 1 that measures the contribution of capital to production. $^{14}$  Specifically,  $\theta$  is the elasticity of output with respect to capital (i.e., a  $1\%$  increase in capital per worker generates a  $0\%$  increase in output per worker). In the real world,  $\theta$  has been estimated to be approximately one-third, and this is the value we employ here. $^{15}$  An illustration is given in the top part of Figure 17-7, panel (a), which graphs the production function for the case in which  $\theta = 1/3$  and the productivity level is set at a reference level of 1, so  $A = 1$ . Thus, for this case  $q = k^{1/3}$ .
 
 
@@ -691,7 +691,7 @@ With this production function, what is the marginal product of capital, MPK? It 
 
 $$
 
-M P K = \frac {\Delta q}{\Delta k} = \underbrace {\theta A k ^ {\theta - 1}} _ {\substack {\text {Slope of the}\\ \text {production function}}} = \theta \times \frac {q}{k}
+M P K = \frac{\Delta q}{\Delta k} = \underbrace {\theta A k^{\theta - 1}}_{\substack {\text{Slopeofthe}\\ \text{productionfunction}}} = \theta \times \frac{q}{k}
 
 $$
 
@@ -736,7 +736,7 @@ An Augmented Model: Countries Have Different Productivity Levels To see why capi
 
 $$
 
-\underline {{q _ {U S}}} \quad = \quad \underline {{A _ {U S} k _ {U S} ^ {\theta}}}
+\underline {{q_{U S}}} \quad = \quad \underline {{A_{U S} k_{U S}^{\theta}}}
 
 $$
 
@@ -746,7 +746,7 @@ U.S. production function
 
 $$
 
-\underbrace {q _ {M E X}} = \underbrace {A _ {M E X} k ^ {\theta} _ {M E X}}
+\underbrace {q_{M E X}} = \underbrace {A_{M E X} k^{\theta}_{M E X}}
 
 $$
 
@@ -758,7 +758,7 @@ The earlier MPK equation holds for each country, so we can compute the ratios of
 
 $$
 
-\frac {M P K _ {M E X}}{M P K _ {U S}} = \frac {\left[ \theta q _ {M E X} / k _ {M E X} \right]}{\left[ \theta q _ {U S} / k _ {U S} \right]} = \frac {q _ {M E X} / q _ {U S}}{k _ {M E X} / k _ {U S}}
+\frac{M P K_{M E X}}{M P K_{U S}} = \frac{\left[ \theta q_{M E X} / k_{M E X} \right]}{\left[ \theta q_{U S} / k_{U S} \right]} = \frac{q_{M E X} / q_{U S}}{k_{M E X} / k_{U S}}
 
 $$
 
@@ -1150,12 +1150,12 @@ We can define the A-specific shock as the shock  $a$  minus the average shock:  
 
 By doing this algebraic manipulation, the A shock can be written as the common shock plus the A-specific shock:
 
-$$ a = \underbrace {\frac {1}{2} (a + b)} _ {\text {C o m m o n s h o c k}} + \underbrace {\frac {1}{2} (a - b)} _ {\text {A - s p e c i f i c s h o c k}}
+$$ a = \underbrace {\frac{1}{2} (a + b)}_{\text{Co mm on sh oc k}} + \underbrace {\frac{1}{2} (a - b)}_{\text{A -s pe ci fi cs ho ck}}
 $$
 
 Similarly, the B shock can be written as the common shock plus the B-specific shock:
 
-$$ b = \underbrace {\frac {1}{2} (a + b)} _ {\text {C o m m o n s h o c k}} + \underbrace {\frac {1}{2} (b - a)} _ {\text {B - s p e c i f i c s h o c k}}
+$$ b = \underbrace {\frac{1}{2} (a + b)}_{\text{Co mm on sh oc k}} + \underbrace {\frac{1}{2} (b - a)}_{\text{B -s pe ci fi cs ho ck}}
 $$
 
 We see that the country-specific shocks are the exact opposites of each other:  $\frac{1}{2}(a - b)$  and  $\frac{1}{2}(b - a)$ . The good news is that country-specific shocks are a diversifiable risk and satisfy the conditions of the simple case examined in the chapter. So the income risk they generate can be eliminated by diversification: in the world portfolio, the country-specific shocks cancel out, as we can see by adding up the last two equations.

@@ -25,7 +25,7 @@ We begin with a discussion of how to measure productivity growth. This is quite 
 Growth in the output of a firm or industry can occur due to growth in inputs (labor, capital, and human capital), or due to an increase in output that is not explained by inputs: the latter is called productivity growth. Specifically, suppose that output  $y_{i}$  is produced using labor  $L_{i}$  and capital  $K_{i}$ , with the production function  $y_{i} = A_{i}f(L_{i},K_{i})$ , where  $A_{i}$  is a measure of Hick's neutral technological progress. Totally differentiating this, we have  $dy_{i} = dA_{i}f(L_{i},K_{i}) + A_{i}f_{iL}dL_{i} + A_{i}f_{iK}dK_{i}$ . Dividing this by  $y_{i} = A_{i}f(L_{i},K_{i})$ , and letting  $\hat{z} = dz / z$  denote the percentage change in any variable, we see that,
 
 $$
-\hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} (\mathbf {L} _ {\mathrm {i}} , \mathbf {K} _ {\mathrm {i}})}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}{\mathrm {f} (\mathbf {L} _ {\mathrm {i}} , \mathbf {K} _ {\mathrm {i}})}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right]. \tag {10.1}
+\hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f} (\mathbf {L}_{\mathrm{i}} , \mathbf {K}_{\mathrm{i}})}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}{\mathrm{f} (\mathbf {L}_{\mathrm{i}} , \mathbf {K}_{\mathrm{i}})}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right]. \tag {10.1}
 $$
 
 In general, then, productivity growth can be measured by the growth in output minus a weighted average of the growth in inputs, where the weights are the elasticities of output with respect to each factor. The difficulty is that these weights are not directly observable. With the added assumption of perfect competition, however, the marginal products equal  $A_{i}f_{iL} = w / p_{i}$  and  $A_{i}f_{iK} = r / p_{i}$ , so in that case the elasticities appearing in (10.1) are measured by  $\theta_{iL} = wL_{i} / p_{i}y_{i}$  and  $\theta_{iK} = rK_{i} / p_{i}y_{i}$ , which are the revenue shares of labor and capital. Under the further assumption of constant returns to scale, these shares sum to unity so that  $\theta_{iK} = 1 - \theta_{iL}$ . Then we see from (10.1) that technological progress  $\hat{A}_{i}$  can be measured by the difference between the growth of output and a share-weighted average of the growth in inputs, which is the
@@ -33,7 +33,7 @@ In general, then, productivity growth can be measured by the growth in output mi
 definition of total factor productivity (TFP) due to Solow (1957):
 
 $$
-\mathrm {T F P} _ {\mathrm {i}} \equiv \hat {\mathbf {y}} _ {\mathrm {i}} - [ \theta_ {\mathrm {i L}} \hat {\mathbf {L}} _ {\mathrm {i}} + (1 - \theta_ {\mathrm {i L}}) \hat {\mathbf {K}} _ {\mathrm {i}} ]. \tag {10.1'}
+\mathrm{TF P}_{\mathrm{i}} \equiv \hat {\mathbf {y}}_{\mathrm{i}} - [ \theta_{\mathrm{iL}} \hat {\mathbf {L}}_{\mathrm{i}} + (1 - \theta_{\mathrm{iL}}) \hat {\mathbf {K}}_{\mathrm{i}} ]. \tag {10.1'}
 $$
 
 Notice that this measure of productivity growth is indeed a "residual" – the portion of output growth that is not explained by inputs – or a "measure of our ignorance," in the memorable phrase of Robert Solow.
@@ -41,7 +41,7 @@ Notice that this measure of productivity growth is indeed a "residual" – the p
 Let us now weaken our assumptions, and allow for imperfect competition and increasing returns to scale. To introduce increasing returns to scale, we assume that the production function is homogeneous of degree  $\mu_{\mathrm{i}} > 1$ , so it follows that  $\mu_{\mathrm{i}}\mathrm{f}(\mathrm{L}_{\mathrm{i}},\mathrm{K}_{\mathrm{i}}) = (\mathrm{f}_{\mathrm{iL}}\mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}}\mathrm{K}_{\mathrm{i}})$ . Substituting this into (10.1), we obtain,
 
 $$
-\begin{array}{l} \hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \mu_ {\mathrm {i}} \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right]. \\ = \hat {\mathbf {A}} _ {\mathrm {i}} + \mu_ {\mathrm {i}} \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(1 - \frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right] \\ = \hat {\mathrm {A}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} (\mathrm {L} _ {\mathrm {i}} , \mathrm {K} _ {\mathrm {i}})}\right) \left(\hat {\mathrm {L}} _ {\mathrm {i}} - \hat {\mathrm {K}} _ {\mathrm {i}}\right) + \mu_ {\mathrm {i}} \hat {\mathrm {K}} _ {\mathrm {i}}, \tag {10.2} \\ \end{array}
+\begin{array}{l} \hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \mu_{\mathrm{i}} \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right]. \\ = \hat {\mathbf {A}}_{\mathrm{i}} + \mu_{\mathrm{i}} \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(1 - \frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right] \\ = \hat {\mathrm{A}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f} (\mathrm{L}_{\mathrm{i}} , \mathrm{K}_{\mathrm{i}})}\right) \left(\hat {\mathrm{L}}_{\mathrm{i}} - \hat {\mathrm{K}}_{\mathrm{i}}\right) + \mu_{\mathrm{i}} \hat {\mathrm{K}}_{\mathrm{i}}, \tag {10.2} \\ \end{array}
 $$
 
 where the last line follows from  $\mu_{\mathrm{i}}\mathrm{f}(\mathrm{L}_{\mathrm{i}},\mathrm{K}_{\mathrm{i}}) = (\mathrm{f}_{\mathrm{iL}}\mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}}\mathrm{K}_{\mathrm{i}})$  and simple arithmetic.
@@ -51,7 +51,7 @@ With imperfect competition in the product market, the equilibrium condition for 
 hiring of labor is,
 
 $$
-p _ {i} \left(1 - \frac {1}{\eta_ {i}}\right) A _ {i} f _ {i L} = w. \tag {10.3}
+p_{i} \left(1 - \frac{1}{\eta_{i}}\right) A_{i} f_{i L} = w. \tag {10.3}
 $$
 
 where  $\eta_{\mathrm{i}}$  is the (positive) elasticity of demand. It follows that the real wage equals
@@ -59,7 +59,7 @@ where  $\eta_{\mathrm{i}}$  is the (positive) elasticity of demand. It follows t
 $\left(\mathrm{w} / \mathrm{p}_{\mathrm{i}}\right) = \left[\left(\eta_{\mathrm{i}} - 1\right) / \eta_{\mathrm{i}}\right] \mathrm{A}_{\mathrm{i}} \mathrm{f}_{\mathrm{iL}}$ . The share of labor in total revenue is then,
 
 $$
-\theta_ {\mathrm {i L}} = \frac {\mathrm {w L} _ {\mathrm {i}}}{\mathrm {p} _ {\mathrm {i}} \mathrm {y} _ {\mathrm {i}}} = \frac {(\eta_ {\mathrm {i}} - 1) \mathrm {A} _ {\mathrm {i}} \mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\eta_ {\mathrm {i}} \mathrm {y} _ {\mathrm {i}}} = \left(\frac {\eta_ {\mathrm {i}} - 1}{\eta_ {\mathrm {i}}}\right) \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} (\mathrm {L} _ {\mathrm {i}} , \mathrm {K} _ {\mathrm {i}})}\right), \tag {10.4}
+\theta_{\mathrm{iL}} = \frac{\mathrm{wL}_{\mathrm{i}}}{\mathrm{p}_{\mathrm{i}} \mathrm{y}_{\mathrm{i}}} = \frac{(\eta_{\mathrm{i}} - 1) \mathrm{A}_{\mathrm{i}} \mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\eta_{\mathrm{i}} \mathrm{y}_{\mathrm{i}}} = \left(\frac{\eta_{\mathrm{i}} - 1}{\eta_{\mathrm{i}}}\right) \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f} (\mathrm{L}_{\mathrm{i}} , \mathrm{K}_{\mathrm{i}})}\right), \tag {10.4}
 $$
 
 where the final equality follows from  $y_{i} = A_{i}f(L_{i},K_{i})$ . Thus, the labor share understates the elasticity of output with respect to labor, since  $(\eta_{i} - 1) / \eta_{i} < 1$ .
@@ -67,7 +67,7 @@ where the final equality follows from  $y_{i} = A_{i}f(L_{i},K_{i})$ . Thus, the
 Substituting (10.4) into (10.2), we see that output growth is related to true productivity change by, $^{5}$
 
 $$
-\hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \left[ \eta_ {\mathrm {i}} / \left(\eta_ {\mathrm {i}} - 1\right) \right] \theta_ {\mathrm {i L}} \left(\hat {\mathbf {L}} _ {\mathrm {i}} - \hat {\mathbf {K}} _ {\mathrm {i}}\right) + \mu_ {\mathrm {i}} \mathbf {K} _ {\mathrm {i}}. \tag {10.5}
+\hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \left[ \eta_{\mathrm{i}} / \left(\eta_{\mathrm{i}} - 1\right) \right] \theta_{\mathrm{iL}} \left(\hat {\mathbf {L}}_{\mathrm{i}} - \hat {\mathbf {K}}_{\mathrm{i}}\right) + \mu_{\mathrm{i}} \mathbf {K}_{\mathrm{i}}. \tag {10.5}
 $$
 
 Thus, we see that output growth is composed of true productivity change  $\hat{\mathsf{A}}_{\mathrm{i}}$ , plus the change in labor/capital growth times the coefficient  $\eta_{\mathrm{i}} / (\eta_{\mathrm{i}} - 1)$ , plus capital growth times the returns to scale parameters  $\mu_{\mathrm{i}}$ . The coefficient  $\eta_{\mathrm{i}} / (\eta_{\mathrm{i}} - 1)$  equals the ratio of price to marginal cost, so any change in this coefficient are interpreted as evidence of changes in the price-cost markup. Running (10.5) as a regression therefore allows us to measure the impact of trade liberalization on the markups charged, as well as estimate the returns to scale.
@@ -75,7 +75,7 @@ Thus, we see that output growth is composed of true productivity change  $\hat{\
 Harrison (1994) applies this technique to firm-level data for the Ivory Coast, which had an import liberalization beginning in 1985. The estimating equation is (10.5) but written with discrete rather than infinitesimal changes:
 
 $$
-\begin{array}{l} \Delta \ln \mathrm {y} _ {\mathrm {i t}} = \Delta \ln \mathrm {A} _ {\mathrm {i t}} + \beta_ {\mathrm {t}} \theta_ {\mathrm {i L}} \left(\Delta \ln \mathrm {L} _ {\mathrm {i t}} - \Delta \ln \mathrm {K} _ {\mathrm {i t}}\right) + \mu \Delta \ln \mathrm {K} _ {\mathrm {i t}} \\ = \alpha_ {\mathrm {i}} + \beta_ {\mathrm {t}} \theta_ {\mathrm {i L}} \left(\Delta \ln \mathrm {L} _ {\mathrm {i t}} - \Delta \ln \mathrm {K} _ {\mathrm {i t}}\right) + \mu \Delta \ln \mathrm {K} _ {\mathrm {i t}} + \varepsilon_ {\mathrm {i t}}, \tag {10.5'} \\ \end{array}
+\begin{array}{l} \Delta \ln \mathrm{y}_{\mathrm{it}} = \Delta \ln \mathrm{A}_{\mathrm{it}} + \beta_{\mathrm{t}} \theta_{\mathrm{iL}} \left(\Delta \ln \mathrm{L}_{\mathrm{it}} - \Delta \ln \mathrm{K}_{\mathrm{it}}\right) + \mu \Delta \ln \mathrm{K}_{\mathrm{it}} \\ = \alpha_{\mathrm{i}} + \beta_{\mathrm{t}} \theta_{\mathrm{iL}} \left(\Delta \ln \mathrm{L}_{\mathrm{it}} - \Delta \ln \mathrm{K}_{\mathrm{it}}\right) + \mu \Delta \ln \mathrm{K}_{\mathrm{it}} + \varepsilon_{\mathrm{it}}, \tag {10.5'} \\ \end{array}
 $$
 
 where in the second line we replace the true productivity change  $\Delta \ln A_{it}$  by  $\alpha_{i} + \varepsilon_{it}$ , composed of a firm fixed-effect  $\alpha_{i}$  and a random component  $\varepsilon_{it}$ . The estimated ratio of price to marginal cost,  $\beta_{t} \equiv \eta_{t} / (\eta_{t} - 1)$ , is treated as common across firms  $i = 1,\dots,N$  within each industry but is allowed to change in the pre- and post-liberalization sample. Thus, by examining the change in  $\beta_{t}$  we can determine the effect of liberalization on markups.
@@ -84,10 +84,10 @@ Estimation is performed with both OLS and instrumental variables. $^6$  Initial 
 
 $\beta_{1}$  over the entire sample (standard error of 0.05). This indicates, for example, that an increase in import penetration from 0 to  $50\%$  would reduce the ratio of price to marginal cost by  $12\%$ . She also finds that reduced tariffs are associated with lower price-cost ratios, but that result is only significant at the  $15\%$  level. So the connection between import liberalization and reduced markups is weakly confirmed in her study.
 
-Notice that in our derivation of (10.5) we did not assume that the rental on capital is observable, but only used the labor share. If instead the rental is observable, then the capital share is  $\theta_{\mathrm{iK}} = \mathrm{rK_i / p_i y_i} = [(\eta_{\mathrm{i}} - 1) / \eta_{\mathrm{i}}][\mathrm{f_{iK}K_i / f(L_i,K_i)}]$ , analogous to (10.4). Substituting these two equations into (10.1), we obtain an alternative relationship between output growth and true productivity change, $^7$
+Notice that in our derivation of (10.5) we did not assume that the rental on capital is observable, but only used the labor share. If instead the rental is observable, then the capital share is  $\theta_{\mathrm{iK}} = \mathrm{rK_i /p_iy_i} = [(\eta_{\mathrm{i}} - 1) / \eta_{\mathrm{i}}][\mathrm{f_{iK}K_i / f(L_i,K_i)}]$ , analogous to (10.4). Substituting these two equations into (10.1), we obtain an alternative relationship between output growth and true productivity change, $^7$
 
 $$
-\hat {y} _ {\mathrm {i}} = \hat {A} _ {\mathrm {i}} + \left(\frac {\eta_ {\mathrm {i}}}{\eta_ {\mathrm {i}} - 1}\right) \left(\theta_ {\mathrm {i L}} \hat {L} _ {\mathrm {i}} + \theta_ {\mathrm {i K}} \hat {K} _ {\mathrm {i}}\right). \tag {10.6}
+\hat {y}_{\mathrm{i}} = \hat {A}_{\mathrm{i}} + \left(\frac{\eta_{\mathrm{i}}}{\eta_{\mathrm{i}} - 1}\right) \left(\theta_{\mathrm{iL}} \hat {L}_{\mathrm{i}} + \theta_{\mathrm{iK}} \hat {K}_{\mathrm{i}}\right). \tag {10.6}
 $$
 
 Levinsohn (1993) applies equation (10.6), written using discrete changes, to firm-level data for Turkey, which embarked on an ambitious liberalization program in 1980. He replaces the true productivity change  $\Delta \ln A_{it}$  by  $\alpha_{t} + \varepsilon_{it}$ , composed of a year fixed-effect  $\alpha_{t}$  that is common across firms and a random component  $\varepsilon_{it}$ . Once again, the estimated ratio of price to marginal cost,  $\beta_{t} \equiv \eta_{t} / (\eta_{t} - 1)$ , is treated as common across firms  $i = 1,\dots,N$  within each industry but is allowed to vary over time, as liberalization proceeds. In his results, Levinsohn finds a strong connection between the industries that experience liberalization, and those where the
@@ -106,7 +106,7 @@ Figure 10.1
 example,  $\alpha$  can represent a factor endowment or technological progress in some industry. The total change in GDP is measured by:
 
 $$
-\mathrm {d} G = \frac {\partial G}{\partial p} \mathrm {d} p + \frac {\partial G}{\partial \alpha} \mathrm {d} \alpha = y _ {1} \mathrm {d} p + \left(p \frac {\mathrm {d} y _ {1}}{\mathrm {d} \alpha} + \frac {\mathrm {d} y _ {2}}{\mathrm {d} \alpha}\right) \mathrm {d} \alpha . \tag {10.7}
+\mathrm{d} G = \frac{\partial G}{\partial p} \mathrm{d} p + \frac{\partial G}{\partial \alpha} \mathrm{d} \alpha = y_{1} \mathrm{d} p + \left(p \frac{\mathrm{d} y_{1}}{\mathrm{d} \alpha} + \frac{\mathrm{d} y_{2}}{\mathrm{d} \alpha}\right) \mathrm{d} \alpha . \tag {10.7}
 $$
 
 We presume that  $\frac{\partial G}{\partial \alpha} = \left(p \frac{dy_1}{d\alpha} + \frac{dy_2}{d\alpha}\right)$  and  $\frac{dy_1}{d\alpha}$  are both positive, meaning that growth at constant prices increases both GDP and production of the exportable.
@@ -114,37 +114,37 @@ We presume that  $\frac{\partial G}{\partial \alpha} = \left(p \frac{dy_1}{d\alp
 As in chapter 7, we will allow for different consumers but suppose that the numeraire good is additively separable in consumption, so that consumer utilities can be summed. Total social welfare is then  $\mathrm{W[p,G(p,\alpha)]}$ , which serves as an indirect utility function for the economy, where  $\partial \mathrm{W} / \partial \mathrm{p} = -\mathrm{c}_1$  is the (negative of) consumption of good 1 and  $\partial \mathrm{W} / \partial \mathrm{G} \equiv 1$ . Then social welfare is constant due to growth if and only if,
 
 $$
-\mathrm {d W} = \frac {\partial \mathrm {W}}{\partial \mathrm {p}} \mathrm {d p} + \left(\frac {\partial \mathrm {G}}{\partial \mathrm {p}} \mathrm {d p} + \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha\right) = \left(\mathrm {y} _ {1} - \mathrm {c} _ {1}\right) \mathrm {d p} + \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha = 0. \tag {10.8}
+\mathrm{dW} = \frac{\partial \mathrm{W}}{\partial \mathrm{p}} \mathrm{dp} + \left(\frac{\partial \mathrm{G}}{\partial \mathrm{p}} \mathrm{dp} + \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha\right) = \left(\mathrm{y}_{1} - \mathrm{c}_{1}\right) \mathrm{dp} + \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha = 0. \tag {10.8}
 $$
 
 Thus, the drop in the export price that will just keep welfare constant is,
 
 $$
-\mathrm {d p} = \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha / \left(\mathrm {c} _ {1} - \mathrm {y} _ {1}\right). \tag {10.9}
+\mathrm{dp} = \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha / \left(\mathrm{c}_{1} - \mathrm{y}_{1}\right). \tag {10.9}
 $$
 
 Next, we solve for the equilibrium change in the relative price of exports and compare that to (10.9). Equilibrium in the export market means that  $(y_{1} - c_{1}) = m_{1}^{*}$ , where  $m_{1}^{*}$  is import demand from the rest of the world. Totally differentiating this, we obtain,
 
 $$
-\frac {\mathrm {d} \mathbf {y} _ {1}}{\mathrm {d} \alpha} \mathrm {d} \alpha + \left(\frac {\partial \mathbf {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \mathrm {d p} = \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \mathrm {d p}.
+\frac{\mathrm{d} \mathbf {y}_{1}}{\mathrm{d} \alpha} \mathrm{d} \alpha + \left(\frac{\partial \mathbf {y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \mathrm{dp} = \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \mathrm{dp}.
 $$
 
 Thus, the equilibrium change in the price of exports is,
 
 $$
-\mathrm {d p} = \frac {\frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} \mathrm {d} \alpha}{\left[ \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} - \left(\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \right]} \quad . \tag {10.10}
+\mathrm{dp} = \frac{\frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} \mathrm{d} \alpha}{\left[ \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} - \left(\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \right]} \quad . \tag {10.10}
 $$
 
 The denominator of (10.10) is negative while the numerator is positive, so this expression indicates the drop in the export price due to growth. Welfare is constant if  $(10.9) = (10.10)$ , and welfare falls if  $(10.10) < (10.9)$ . This will occur if and only if,
 
 $$
-\frac {\mathrm {d} \mathbf {y} _ {1}}{\mathrm {d} \alpha} \left(\mathbf {y} _ {1} - \mathbf {c} _ {1}\right) / \frac {\partial \mathbf {G}}{\partial \alpha} > \left[ \left(\frac {\partial \mathbf {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathbf {c} _ {1}}{\partial \mathrm {p}}\right) - \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \right].
+\frac{\mathrm{d} \mathbf {y}_{1}}{\mathrm{d} \alpha} \left(\mathbf {y}_{1} - \mathbf {c}_{1}\right) / \frac{\partial \mathbf {G}}{\partial \alpha} > \left[ \left(\frac{\partial \mathbf {y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathbf {c}_{1}}{\partial \mathrm{p}}\right) - \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \right].
 $$
 
 Dividing this equation through by  $(\mathbf{y}_1 - \mathbf{c}_1) = \mathbf{m}_1^*$ , and making use of  $\frac{\partial G}{\partial \alpha} = \left(p \frac{\mathrm{d}y_1}{\mathrm{d}\alpha} + \frac{\mathrm{d}y_2}{\mathrm{d}\alpha}\right)$ , we can express this necessary and sufficient condition for immiserizing growth as,
 
 $$
-\left. \mathrm {p} \frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} / \left(\mathrm {p} \frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} + \frac {\mathrm {d y} _ {2}}{\mathrm {d} \alpha}\right) > \left[ \left(\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \frac {\mathrm {p}}{\mathrm {m} _ {1} ^ {*}} - \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {m} _ {1} ^ {*}} \right] \right.. \tag {10.11}
+\left. \mathrm{p} \frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} / \left(\mathrm{p} \frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} + \frac{\mathrm{dy}_{2}}{\mathrm{d} \alpha}\right) > \left[ \left(\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \frac{\mathrm{p}}{\mathrm{m}_{1}^{*}} - \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{m}_{1}^{*}} \right] \right.. \tag {10.11}
 $$
 
 To interpret this expression, note that the first term on the right is the elasticity of export supply and is positive. For immiserizing growth to occur, it is therefore necessary that the term on the left exceed the amount  $-\left(\frac{\mathrm{dm}_1^*}{\mathrm{dp}}\frac{\mathrm{p}}{\mathrm{m}_1^*}\right)$ , which is the elasticity of foreign demand for
@@ -160,7 +160,7 @@ Condition (a) is not surprising, since having inelastic demand for a product is 
 Findlay and Grubert (1959) answer this question in the affirmative. They considered Hick's neutral technological progress in good 1. To demonstrate the effects of this, we work with the GDP function, defined as:
 
 $$
-\mathrm {G} (\mathrm {A p}, \mathrm {V}) \equiv \max  _ {\mathrm {v} _ {\mathrm {i}} \geq 0} \mathrm {p A f} \left(\mathrm {v} _ {1}\right) + \mathrm {f} \left(\mathrm {v} _ {2}\right) \text {s u b j e c t t o v} _ {1} + \mathrm {v} _ {2} = \mathrm {V}. \tag {10.12}
+\mathrm{G} (\mathrm{Ap}, \mathrm{V}) \equiv \max_{\mathrm{v}_{\mathrm{i}} \geq 0} \mathrm{pA f} \left(\mathrm{v}_{1}\right) + \mathrm{f} \left(\mathrm{v}_{2}\right) \text{su bj ec tt ov}_{1} + \mathrm{v}_{2} = \mathrm{V}. \tag {10.12}
 $$
 
 That is, the parameter  $\alpha$  that appeared in the earlier GDP function now equals A, which is the Hick's neutral productivity parameter on good 1. Notice that Ap enters in a multiplicative form as an argument of the GDP function, since that is how it appears in the objective function.
@@ -168,25 +168,25 @@ That is, the parameter  $\alpha$  that appeared in the earlier GDP function now 
 We have demonstrated in chapter 1 that the derivative of the GDP function with respect to price equals the output of that good, or  $\partial G / \partial p = y_1$ . Letting  $G_{1}(Ap,V)$  denote the partial derivative of  $G$  with respect to its first argument, we therefore have:
 
 $$
-y _ {1} = \frac {\partial G}{\partial p} = \frac {\partial G}{\partial (A p)} \frac {d (A p)}{d p} = G _ {1} (A p, V) A. \tag {10.13}
+y_{1} = \frac{\partial G}{\partial p} = \frac{\partial G}{\partial (A p)} \frac{d (A p)}{d p} = G_{1} (A p, V) A. \tag {10.13}
 $$
 
 Differentiating this expression again, it follows that:
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} = \frac {\partial}{\partial \mathrm {p}} \left[ \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} \right] = \mathrm {G} _ {1 1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} ^ {2}, \tag {10.14a}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} = \frac{\partial}{\partial \mathrm{p}} \left[ \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A} \right] = \mathrm{G}_{1 1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A}^{2}, \tag {10.14a}
 $$
 
 and,
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {A}} = \frac {\partial}{\partial \mathrm {A}} [ \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} ] = \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) + \mathrm {G} _ {1 1} (\mathrm {A p}, \mathrm {V}) \mathrm {A p}. \tag {10.14b}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{A}} = \frac{\partial}{\partial \mathrm{A}} [ \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A} ] = \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) + \mathrm{G}_{1 1} (\mathrm{Ap}, \mathrm{V}) \mathrm{Ap}. \tag {10.14b}
 $$
 
 Converting these expressions into elasticity form, we readily obtain,
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {A}} \frac {\mathrm {A}}{\mathrm {y} _ {1}} = \frac {\mathrm {G} _ {1} (\mathrm {A p} , \mathrm {V}) \mathrm {A}}{\mathrm {y} _ {1}} + \frac {\mathrm {G} _ {1 1} \mathrm {A} ^ {2} \mathrm {p}}{\mathrm {y} _ {1}} = 1 + \frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} \frac {\mathrm {p}}{\mathrm {y} _ {1}}, \tag {10.15}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{A}} \frac{\mathrm{A}}{\mathrm{y}_{1}} = \frac{\mathrm{G}_{1} (\mathrm{Ap} , \mathrm{V}) \mathrm{A}}{\mathrm{y}_{1}} + \frac{\mathrm{G}_{1 1} \mathrm{A}^{2} \mathrm{p}}{\mathrm{y}_{1}} = 1 + \frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} \frac{\mathrm{p}}{\mathrm{y}_{1}}, \tag {10.15}
 $$
 
 where the first equality is obtained from (10.14b), and the second from (10.13) and (10.14a).
@@ -205,39 +205,39 @@ Our discussion in the previous section did not model growth in any meaningful wa
 Many of the "endogenous growth" models build upon the monopolistic competition framework we introduced in chapter 5, but rather than thinking of differentiated final products, we instead consider differentiated intermediate inputs. The idea is that an increase in the variety (N) of differentiated inputs will allow for an increase in output, much like an increase in variety of final goods allowed for higher consumer utility in chapter 5. To make this precise, suppose that there is a single final good, with output  $y$ , produced with the CES production function:
 
 $$
-y = \left[ \sum_ {i = 1} ^ {N} x _ {i} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)} \tag {10.16}
+y = \left[ \sum_{i = 1}^{N} x_{i}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)} \tag {10.16}
 $$
 
 where  $\mathrm{x_i}$  is the quantity of input variety  $\mathrm{i} = 1,\dots ,\mathrm{N}$ . As usual, we assume  $\sigma >1$ , so that it is
 
 meaningful to think of changes in the number of inputs. $^{10}$
 
-If inputs are all priced equally in equilibrium, then their quantities are also equal,  $\mathrm{x_i = x}$  and so (10.16) can be rewritten as,
+If inputs are all priced equally in equilibrium, then their quantities are also equal,  $\mathrm{x_i =x}$  and so (10.16) can be rewritten as,
 
 $$
-\mathrm {y} = \mathrm {N} ^ {\sigma / (\sigma - 1)} \mathrm {x} = \mathrm {N} ^ {1 / (\sigma - 1)} \mathrm {X}, \tag {10.17}
+\mathrm{y} = \mathrm{N}^{\sigma / (\sigma - 1)} \mathrm{x} = \mathrm{N}^{1 / (\sigma - 1)} \mathrm{X}, \tag {10.17}
 $$
 
 with  $\mathrm{X} \equiv \mathrm{Nx}$ . We can think of  $\mathrm{X}$  as the "aggregate" amount of the intermediate input, and holding this magnitude fixed, (10.17) shows that increases in  $N$  raise output  $y$  (since  $\sigma > 1$ ). This amounts to a productivity gain in the final good industry, due to the proliferation of differentiated intermediate inputs. Indeed, we could re-label  $\mathrm{N}^{1 / (\sigma - 1)}$  on the right of (10.17) as "A" to obtain the simple production function  $y = \mathrm{AX}$ , where technological progress A will depend on the number of new inputs.[11] By carefully modeling the dynamics of how  $\mathrm{N}$  evolves due to the entry of new firms, we therefore have a story of endogenous technological progress, or endogenous growth.
 
 # Autarky Equilibrium
 
-We begin by describing the autarky equilibrium. The price of the final good at each point in time is  $\mathrm{P(t)}$ . If the consumer spends  $\mathrm{E(t)}$  on this good, then the quantity  $\mathrm{Y(t)} = \mathrm{E(t) / P(t)}$  will be purchased, and we assume that this provides instantaneous utility of  $\ln \mathrm{Y(t)} = \ln \mathrm{E(t)} - \ln \mathrm{P(t)}$ . The consumer's problem is then:
+We begin by describing the autarky equilibrium. The price of the final good at each point in time is  $\mathrm{P(t)}$ . If the consumer spends  $\mathrm{E(t)}$  on this good, then the quantity  $\mathrm{Y(t)} = \mathrm{E(t) /P(t)}$  will be purchased, and we assume that this provides instantaneous utility of  $\ln \mathrm{Y(t)} = \ln \mathrm{E(t)} - \ln \mathrm{P(t)}$ . The consumer's problem is then:
 
 $$
-\max  _ {\mathrm {E} (\tau)} \int_ {\mathrm {t}} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - \mathrm {t})} [ \ln \mathrm {E} (\tau) - \ln \mathrm {P} (\tau) ] \mathrm {d} \tau , \tag {10.18}
+\max_{\mathrm{E} (\tau)} \int_{\mathrm{t}}^{\infty} \mathrm{e}^{- \rho (\tau - \mathrm{t})} [ \ln \mathrm{E} (\tau) - \ln \mathrm{P} (\tau) ] \mathrm{d} \tau , \tag {10.18}
 $$
 
 subject to the budget constraint:
 
 $$
-\int_ {t} ^ {\infty} \mathrm {e} ^ {- [ R (\tau) - R (t) ]} \mathrm {E} (\tau) \mathrm {d} \tau \leq \int_ {t} ^ {\infty} \mathrm {e} ^ {- [ R (\tau) - R (t) ]} \mathrm {w} (\tau) \mathrm {L d} \tau + \mathrm {B} (t), \tag {10.19}
+\int_{t}^{\infty} \mathrm{e}^{- [ R (\tau) - R (t) ]} \mathrm{E} (\tau) \mathrm{d} \tau \leq \int_{t}^{\infty} \mathrm{e}^{- [ R (\tau) - R (t) ]} \mathrm{w} (\tau) \mathrm{Ld} \tau + \mathrm{B} (t), \tag {10.19}
 $$
 
 where  $R(t)$  is the cumulative interest rate from time 0 to time  $t$ , so that  $\dot{R}(t) \equiv \frac{dR}{dt}$  is the instantaneous interest rate. This budget constraint states that the discounted value of labor income  $w(t)L$ , plus initial assets  $B(t)$ , cannot exceed the discounted value of expenditure. The solution to this optimization problem is, $^{12}$
 
 $$
-\frac {\dot {\mathrm {E}}}{\mathrm {E}} = \dot {\mathrm {R}} - \rho , \tag {10.20}
+\frac{\dot {\mathrm{E}}}{\mathrm{E}} = \dot {\mathrm{R}} - \rho , \tag {10.20}
 $$
 
 where we omit the time index on variables when this will not cause confusion.
@@ -249,7 +249,7 @@ On the production side, the final good  $y$  is manufactured under perfect compe
 input is,
 
 $$
-p _ {i} \left(1 - \frac {1}{\sigma}\right) = w, \text {o r} p _ {i} = w \left(\frac {\sigma}{\sigma - 1}\right), \tag {10.21}
+p_{i} \left(1 - \frac{1}{\sigma}\right) = w, \text{or} p_{i} = w \left(\frac{\sigma}{\sigma - 1}\right), \tag {10.21}
 $$
 
 where  $\mathbf{w}$  is the wage (which depends on  $t$ ).
@@ -259,27 +259,27 @@ Input-producing firms have a fixed cost only when they begin production. The key
 With fixed labor costs of  $\alpha / N(t)$ , the nominal fixed costs are  $\alpha w(t) / N(t)$ . These are financed by consumers purchasing equity in the firms, which provides both dividends and capital gains. The instantaneous profits of the firms are:
 
 $$
-\pi_ {\mathrm {i}} = \left(\mathrm {p} _ {\mathrm {i}} - \mathrm {w}\right) \mathrm {x} _ {\mathrm {i}} = \left(\frac {1}{\sigma - 1}\right) \mathrm {w x}, \tag {10.22}
+\pi_{\mathrm{i}} = \left(\mathrm{p}_{\mathrm{i}} - \mathrm{w}\right) \mathrm{x}_{\mathrm{i}} = \left(\frac{1}{\sigma - 1}\right) \mathrm{wx}, \tag {10.22}
 $$
 
-using (10.21) and symmetry of the equilibrium, so that  $\mathrm{x_i = x}$ . The zero profit conditions for the
+using (10.21) and symmetry of the equilibrium, so that  $\mathrm{x_i =x}$ . The zero profit conditions for the
 
 firms are that the present discounted value of instantaneous profits in (10.22) must equal the fixed costs  $\alpha w(t) / N(t)$ ,
 
 $$
-V (t) \equiv \int_ {t} ^ {\infty} e ^ {- p (\tau - t)} \left(\frac {1}{\sigma - 1}\right) w (\tau) x (\tau) d \tau = \frac {\alpha w (t)}{N (t)}, \quad f o r a l l t. \tag {10.23}
+V (t) \equiv \int_{t}^{\infty} e^{- p (\tau - t)} \left(\frac{1}{\sigma - 1}\right) w (\tau) x (\tau) d \tau = \frac{\alpha w (t)}{N (t)}, \quad f o r a l l t. \tag {10.23}
 $$
 
 Since (10.23) holds for all  $t$ , we can differentiate it with respect to  $t$ , obtaining,
 
 $$
-\dot {\mathrm {V}} = - \left(\frac {1}{\sigma - 1}\right) \mathrm {w} (t) \mathrm {x} (t) + \rho \int_ {t} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - t)} \left(\frac {1}{\sigma - 1}\right) \mathrm {w} (\tau) \mathrm {x} (\tau) \mathrm {d} \tau = \frac {\alpha \dot {\mathrm {w}}}{\mathrm {N}} - \frac {\alpha \mathrm {w} \dot {\mathrm {N}}}{\mathrm {N} ^ {2}}. \tag {10.24}
+\dot {\mathrm{V}} = - \left(\frac{1}{\sigma - 1}\right) \mathrm{w} (t) \mathrm{x} (t) + \rho \int_{t}^{\infty} \mathrm{e}^{- \rho (\tau - t)} \left(\frac{1}{\sigma - 1}\right) \mathrm{w} (\tau) \mathrm{x} (\tau) \mathrm{d} \tau = \frac{\alpha \dot {\mathrm{w}}}{\mathrm{N}} - \frac{\alpha \mathrm{w} \dot {\mathrm{N}}}{\mathrm{N}^{2}}. \tag {10.24}
 $$
 
 To simplify (10.24), we can divide by the fixed costs  $\alpha w / N$ , obtaining,
 
 $$
-\underbrace {\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N x}}{\alpha}} _ {\text {D i v i d e n d s}} + \underbrace {\left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {N}}}{\mathrm {N}}\right)} _ {\text {C a p i t a l g a i n s}} = \underset {\text {i n t e r e s t r a t e}} {\rho}. \tag {10.25}
+\underbrace {\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{Nx}}{\alpha}}_{\text{Di vi de nd s}} + \underbrace {\left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{N}}}{\mathrm{N}}\right)}_{\text{Ca pi ta lg ai ns}} = \underset {\text{in te re st ra te}} {\rho}. \tag {10.25}
 $$
 
 This is the key arbitrage condition of the endogenous growth model with expanding input variety, as derived by Grossman and Helpman (1990, 1991). The left-hand side of (10.25) is the sum of dividends plus capital gains, which should equal the discount rate on the right, that we interpret as the real interest rate.
@@ -287,7 +287,7 @@ This is the key arbitrage condition of the endogenous growth model with expandin
 With (10.25) in hand we can complete the model quite easily by using the full-employment condition for the economy. This can be written as,
 
 $$
-\mathrm {L} = \mathrm {N x} + \left(\frac {\alpha}{\mathrm {N}}\right) \dot {\mathrm {N}}. \tag {10.26}
+\mathrm{L} = \mathrm{Nx} + \left(\frac{\alpha}{\mathrm{N}}\right) \dot {\mathrm{N}}. \tag {10.26}
 $$
 
 The left-hand side of (10.26) is the fixed endowment of labor, and the right-hand side equals the sum of labor used in production,  $\mathrm{Nx} = \mathrm{X}$ , and labor used in R&D, which is the fixed cost  $(\alpha / \mathrm{N})$
@@ -295,13 +295,13 @@ The left-hand side of (10.26) is the fixed endowment of labor, and the right-han
 times the growth of new products. Let us define the growth rate of inputs as  $\mathrm{g} \equiv \dot{\mathrm{N}} / \mathrm{N}$ . Then we can re-write (10.26) as  $\mathrm{L} = \mathrm{X} + \alpha \mathrm{g}$ , or  $\mathrm{X} = \mathrm{L} - \alpha \mathrm{g}$ . Substituting this into (10.25) we obtain,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \binom {\mathrm {L} - \alpha \mathrm {g}} {\alpha} + \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \mathrm {g}\right) = \rho . \tag {10.27}
+\left(\frac{1}{\sigma - 1}\right) \binom {\mathrm{L} - \alpha \mathrm{g}} {\alpha} + \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \mathrm{g}\right) = \rho . \tag {10.27}
 $$
 
 Now consider a steady-state solution with  $\dot{\mathbf{w}} = 0$ . Substituting this into (10.27), we can readily solve for the autarky growth rate as,
 
 $$
-\mathrm {g} ^ {\mathrm {a}} = \left(\frac {1}{\sigma}\right) \left[ \frac {\mathrm {L}}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.28}
+\mathrm{g}^{\mathrm{a}} = \left(\frac{1}{\sigma}\right) \left[ \frac{\mathrm{L}}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.28}
 $$
 
 Thus, the economy achieves steady-state growth even with a fixed labor supply, provided that  $(\mathrm{L} / \alpha) > (\sigma - 1)\rho$ . Notice that with the growth rate fixed at  $\mathbf{g}^{\mathrm{a}}$ , the labor devoted to production is also fixed at  $\mathrm{X} = \mathrm{L} - \alpha \mathbf{g}^{\mathrm{a}}$ . Then from (10.17) we can solve for the growth rate of GDP as  $\dot{\mathbf{y}} / \mathbf{y} = \mathbf{g}^{\mathrm{a}} / (\sigma - 1)$ . So along with the continual growth of new products, there is also continual growth of GDP and utility. $^{13}$
@@ -311,7 +311,7 @@ Thus, the economy achieves steady-state growth even with a fixed labor supply, p
 Let us compare the autarky growth rate in (10.28) with that achieved under free trade between the two countries. Suppose that the foreign country has the same production function as at home and differs only in its labor endowment  $\mathrm{L}^*$ . We will suppose that the final goods produced in the two countries are imperfect substitutes, with the instantaneous utility function in each country,
 
 $$
-U (y, y ^ {*}) = \ln \left[ y ^ {(\eta - 1) / \eta} + (y ^ {*}) ^ {(\eta - 1) / \eta} \right] ^ {\eta / (\eta - 1)}. \tag {10.29}
+U (y, y^{*}) = \ln \left[ y^{(\eta - 1) / \eta} + (y^{*})^{(\eta - 1) / \eta} \right]^{\eta / (\eta - 1)}. \tag {10.29}
 $$
 
 This is the log of a CES function with elasticity of substitution  $\eta > 1$ . We suppose that the final goods from home and abroad are freely traded, at the prices  $p_y$  and  $p_y^*$ , respectively.
@@ -319,13 +319,13 @@ This is the log of a CES function with elasticity of substitution  $\eta > 1$ . 
 Given expenditure  $\mathrm{E}$  in the home country, it follows that the demand for the final goods of each country is, $^{14}$
 
 $$
-y = \left(p _ {y} / P\right) ^ {- \eta} (E / P), \text {a n d} y ^ {*} = \left(p _ {y} ^ {*} / P\right) ^ {- \eta} (E / P), \tag {10.30}
+y = \left(p_{y} / P\right)^{- \eta} (E / P), \text{an d} y^{*} = \left(p_{y}^{*} / P\right)^{- \eta} (E / P), \tag {10.30}
 $$
 
 where  $\mathrm{P}$  refers to the overall price index of the final goods, defined as:
 
 $$
-P \left(p _ {y}, p _ {y} ^ {*}\right) = \left[ p _ {y} ^ {1 - \eta} + \left(p _ {y} ^ {*}\right) ^ {1 - \eta} \right] ^ {1 / (1 - \eta)}. \tag {10.31}
+P \left(p_{y}, p_{y}^{*}\right) = \left[ p_{y}^{1 - \eta} + \left(p_{y}^{*}\right)^{1 - \eta} \right]^{1 / (1 - \eta)}. \tag {10.31}
 $$
 
 Demand for the final goods from the foreign county is similar, and is obtained by just replacing home expenditure E by foreign expenditure  $\mathrm{E}^*$  in (10.30)
@@ -337,7 +337,7 @@ With this setup, we want to contrast the effects of trade in two scenarios. In t
 The latter assumption means that the fixed costs of creating a new product in either country is  $\alpha / [N(t) + N^*(t)]$ . Under this set of assumptions, the integrated world equilibrium with the two countries is simply a "blown up" version of either country in autarky. The effect of this increase in size is to raise the growth rate from that shown in (10.28) to:
 
 $$
-\mathrm {g} ^ {\mathrm {w}} = \left(\frac {1}{\sigma}\right) \left[ \frac {\left(\mathrm {L} + \mathrm {L} ^ {*}\right)}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.32}
+\mathrm{g}^{\mathrm{w}} = \left(\frac{1}{\sigma}\right) \left[ \frac{\left(\mathrm{L} + \mathrm{L}^{*}\right)}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.32}
 $$
 
 The result that the growth rate increases in proportion to the size of the world economy is referred to as a "scale effect," and is the dynamic analogue to the static gains from trade that we saw in Krugman's model in the beginning of chapter 5. This result has come under some criticism in the growth literature, not so much because of the result that trade increases growth, but rather, because of another result that subsidies to R&D permanently raise the growth rate. Both of these propositions depend very strongly on our specification that fixed costs are inversely proportional to the number of products already developed. If this strict inversely proportionality does not hold, e.g. if we specified fixed costs as  $\alpha / N^{\beta}$ , with  $0 < \beta < 1$ , then new product development in the absence of population growth will eventually stop. Jones (1995a,b) has referred to models of this type as "semi-endogenous" growth, and they imply that free trade or subsidies to R&D have only temporary effects on the growth rate. It follows that there is an empirical question as to which class of models is most realistic, as we shall discuss later.
@@ -351,25 +351,25 @@ $\alpha / \mathrm{N}^{*}(\mathrm{t})$ , respectively. Initially, we suppose that
 With the countries growing at different rates, we cannot simultaneously use the normalizations  $\mathrm{E}(\mathrm{t}) \equiv 1$  and  $\mathrm{E}^* (\mathrm{t}) \equiv 1$ , so it is no longer the case that  $\dot{\mathbf{R}} (\mathbf{t}) = \boldsymbol {\rho}$ . Accordingly, the profits of input-producing firms in (10.23) are discounted using the cumulative interest rate  $\mathrm{R(t)}$  and the arbitrage condition in each country is re-written from (10.25) as,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N x}}{\alpha} + \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {N}}}{\mathrm {N}}\right) = \dot {\mathrm {R}}, \tag {10.33}
+\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{Nx}}{\alpha} + \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{N}}}{\mathrm{N}}\right) = \dot {\mathrm{R}}, \tag {10.33}
 $$
 
 and,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N} * \mathrm {x} ^ {*}}{\alpha} + \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}} - \frac {\dot {\mathrm {N}} ^ {*}}{\mathrm {N} ^ {*}}\right) = \dot {\mathrm {R}}. \tag {10.34}
+\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{N} * \mathrm{x}^{*}}{\alpha} + \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}} - \frac{\dot {\mathrm{N}}^{*}}{\mathrm{N}^{*}}\right) = \dot {\mathrm{R}}. \tag {10.34}
 $$
 
 As before, we will use the notation  $\mathrm{X} \equiv \mathrm{Nx}$  and  $\mathrm{X}^* \equiv \mathrm{N}^*\mathrm{x}^*$  to denote the amount of labor devoted to production of intermediate inputs in each country. In addition, let  $\mathrm{g} \equiv (\dot{\mathrm{N}} / \mathrm{N})$  and  $\mathrm{g}^* \equiv (\dot{\mathrm{N}}^*/\mathrm{N}^*)$  denote the home and foreign growth rates of new inputs. The full-employment condition in each country implies that  $\mathrm{X} = \mathrm{L} - \alpha \mathrm{g}$  and  $\mathrm{X}^* = \mathrm{L}^* - \alpha \mathrm{g}^*$ , and substituting these into (10.33) and (10.34), we can derive the growth rates:
 
 $$
-\mathrm {g} = \left(\frac {\mathrm {L}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}}\right) \right], \quad \text {a n d ,} \quad \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} ^ {*}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right) \right]. \tag {10.35}
+\mathrm{g} = \left(\frac{\mathrm{L}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}}\right) \right], \quad \text{an d ,} \quad \mathrm{g}^{*} = \left(\frac{\mathrm{L}^{*}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right) \right]. \tag {10.35}
 $$
 
 These equations show that the growth rates are inversely related to the real interest rates  $[\dot{\mathrm{R}} -(\dot{\mathrm{w}} /\mathrm{w})]$  and  $[\dot{\mathrm{R}} -(\dot{\mathrm{w}}^{*} / \mathrm{w}^{*})]$ : having a higher nominal interest rate  $\dot{\mathbf{R}}$  lowers the discounted value of profits and therefore expenditure on R&D; conversely, having a rising path of wages and prices leads to rising profits and a lower real interest rate, with higher R&D. Taking the difference between the two growth rates in (10.35), we obtain,
 
 $$
-\mathrm {g} - \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} - \mathrm {L} ^ {*}}{\alpha \sigma}\right) + \left(\frac {\sigma - 1}{\sigma}\right) \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right). \tag {10.36}
+\mathrm{g} - \mathrm{g}^{*} = \left(\frac{\mathrm{L} - \mathrm{L}^{*}}{\alpha \sigma}\right) + \left(\frac{\sigma - 1}{\sigma}\right) \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right). \tag {10.36}
 $$
 
 Let us assume henceforth that the home country is larger,  $\mathrm{L} > \mathrm{L}^*$ . From (10.36) we see that this difference in size will tend to be associated with a faster growth rate at home,  $\mathrm{g} > \mathrm{g}^*$ . The growth rates are also affected, however, by the change in wages on the right. In the autarky equilibrium discussed above, we had focused on the steady-state solution with  $\dot{\mathrm{w}} = 0$ . But now it is impossible to assume this for both countries: assuming  $\dot{\mathrm{w}} = \dot{\mathrm{w}}^* = 0$  implies that  $\mathrm{g} > \mathrm{g}^*$  from (10.36), and we will argue below that this implies rising relative wages for the home country,  $\dot{\mathrm{w}} / \mathrm{w} > \dot{\mathrm{w}}^* / \mathrm{w}^*$ , which is a contradiction. Thus, the assumption of a steady-state equilibrium is inconsistent with the dynamic equations for the two countries. Accordingly, we need to solve for the growth rates outside of the steady state.
@@ -377,27 +377,27 @@ Let us assume henceforth that the home country is larger,  $\mathrm{L} > \mathrm
 We begin by solving for the change in wages, from the production function  $y = N^{1 / (\sigma - 1)}X$  in (10.17), where  $X$  is the amount of intermediate inputs purchased at the price of  $p_i = w\sigma / (\sigma - 1)$ . It follows that the marginal cost of producing the final good is  $p_y = p_i / N^{1 / (\sigma - 1)} = w\sigma / [(\sigma - 1)N^{1 / (\sigma - 1)}]$  at home, and  $p_y^* = w^*\sigma / [((\sigma - 1)(N^*)^{1 / (\sigma - 1)}]$  abroad. Differentiating these and taking the difference, we obtain,
 
 $$
-\left(\frac {\dot {p} _ {y}}{\dot {p} _ {y}}\right) - \left(\frac {\dot {p} _ {y} ^ {*}}{p _ {y} ^ {*}}\right) = \left(\frac {\dot {w}}{w} - \frac {\dot {w} ^ {*}}{w ^ {*}}\right) - \left(\frac {g - g ^ {*}}{\sigma - 1}\right). \tag {10.37}
+\left(\frac{\dot {p}_{y}}{\dot {p}_{y}}\right) - \left(\frac{\dot {p}_{y}^{*}}{p_{y}^{*}}\right) = \left(\frac{\dot {w}}{w} - \frac{\dot {w}^{*}}{w^{*}}\right) - \left(\frac{g - g^{*}}{\sigma - 1}\right). \tag {10.37}
 $$
 
 This equation states that a higher growth rate at home will tend to be associated with rising relative wages, but this also depends on the changes in the prices of the final goods in each country.
 
-To determine these prices, we make use of the CES demands in (10.30), which imply that  $(\mathrm{p_y / p_y^*}) = (\mathrm{y / y^*})^{-1 / \eta}$ . Differentiating this using the production functions  $\mathbf{y} = \mathbf{N}^{1 / (\sigma -1)}\mathbf{X}$  and  $\mathbf{y}^{*} = (\mathbf{N}^{*})^{1 / (\sigma -1)}\mathbf{X}^{*}$ , we obtain,
+To determine these prices, we make use of the CES demands in (10.30), which imply that  $(\mathrm{p_y /p_y^*}) = (\mathrm{y /y^*})^{-1 / \eta}$ . Differentiating this using the production functions  $\mathbf{y} = \mathbf{N}^{1 / (\sigma -1)}\mathbf{X}$  and  $\mathbf{y}^{*} = (\mathbf{N}^{*})^{1 / (\sigma -1)}\mathbf{X}^{*}$ , we obtain,
 
 $$
-\left(\frac {\dot {p} _ {y}}{\dot {p} _ {y}}\right) - \left(\frac {\dot {p} _ {y} ^ {*}}{p _ {y} ^ {*}}\right) = - \frac {1}{\eta} \left[ \left(\frac {g - g ^ {*}}{\sigma - 1}\right) + \frac {\dot {X}}{X} - \frac {\dot {X} ^ {*}}{X ^ {*}} \right]. \tag {10.38}
+\left(\frac{\dot {p}_{y}}{\dot {p}_{y}}\right) - \left(\frac{\dot {p}_{y}^{*}}{p_{y}^{*}}\right) = - \frac{1}{\eta} \left[ \left(\frac{g - g^{*}}{\sigma - 1}\right) + \frac{\dot {X}}{X} - \frac{\dot {X}^{*}}{X^{*}} \right]. \tag {10.38}
 $$
 
 Then combining (10.36) - (10.38), we can derive the fundamental relation,
 
 $$
-\mathrm {g} - \mathrm {g} ^ {*} = \Delta \left(\frac {\mathrm {L} - \mathrm {L} ^ {*}}{\alpha \sigma}\right) - \Delta \left(\frac {\sigma - 1}{\eta \sigma}\right) \left(\frac {\dot {\mathrm {X}}}{\mathrm {X}} - \frac {\dot {\mathrm {X}} ^ {*}}{\mathrm {X} ^ {*}}\right), \tag {10.39}
+\mathrm{g} - \mathrm{g}^{*} = \Delta \left(\frac{\mathrm{L} - \mathrm{L}^{*}}{\alpha \sigma}\right) - \Delta \left(\frac{\sigma - 1}{\eta \sigma}\right) \left(\frac{\dot {\mathrm{X}}}{\mathrm{X}} - \frac{\dot {\mathrm{X}}^{*}}{\mathrm{X}^{*}}\right), \tag {10.39}
 $$
 
 where,
 
 $$
-\Delta \equiv \left[ 1 - \frac {(\eta - 1)}{\eta \sigma} \right] ^ {- 1} > 1. \tag {10.40}
+\Delta \equiv \left[ 1 - \frac{(\eta - 1)}{\eta \sigma} \right]^{- 1} > 1. \tag {10.40}
 $$
 
 Equation (10.39) shows that the difference in the growth of new inputs across the countries depends on the difference in their size. There is also another term on the right of (10.39), depending on  $\dot{\mathbf{X}}$  and  $\dot{\mathbf{X}}^*$ , but we can safely presume that this term approaches zero as  $t \to \infty$ . Notice that the difference in the autarky growth rates of the two countries is exactly
@@ -477,69 +477,69 @@ All of the empirical applications we have discussed so far have been indirect te
 Let us begin with the CES production function in (10.16). The problem with using this function is that it is symmetric: at equal prices, every input would have the same demand. That assumption is made for convenience in our theoretical models, but is unacceptable empirically: we need to let demand be whatever the data indicates. So instead we will work with the non-symmetric CES function,
 
 $$
-\mathrm {y} _ {\mathrm {t}} = \mathrm {f} \left(\mathrm {x} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) = \left[ \sum_ {\mathrm {i} \in \mathrm {I} _ {\mathrm {t}}} \mathrm {a} _ {\mathrm {i}} \mathrm {x} _ {\mathrm {i t}} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)}, \sigma > 1, \tag {10.41}
+\mathrm{y}_{\mathrm{t}} = \mathrm{f} \left(\mathrm{x}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) = \left[ \sum_{\mathrm{i} \in \mathrm{I}_{\mathrm{t}}} \mathrm{a}_{\mathrm{i}} \mathrm{x}_{\mathrm{it}}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)}, \sigma > 1, \tag {10.41}
 $$
 
 where  $a_i > 0$  are parameters and  $I_t$  denotes the set of inputs available in period  $t$ , at the prices  $p_{it}$ . The CES unit-cost function dual to (10.41) is, $^{21}$
 
 $$
-\mathrm {c} \left(\mathrm {p} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) = \left[ \sum_ {\mathrm {i} \in \mathrm {I} _ {\mathrm {t}}} \mathrm {b} _ {\mathrm {i}} \mathrm {p} _ {\mathrm {i t}} ^ {1 - \sigma} \right] ^ {1 / (1 - \sigma)}, \sigma > 1, \mathrm {b} _ {\mathrm {i}} \equiv \mathrm {a} _ {\mathrm {i}} ^ {\sigma}. \tag {10.42}
+\mathrm{c} \left(\mathrm{p}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) = \left[ \sum_{\mathrm{i} \in \mathrm{I}_{\mathrm{t}}} \mathrm{b}_{\mathrm{i}} \mathrm{p}_{\mathrm{it}}^{1 - \sigma} \right]^{1 / (1 - \sigma)}, \sigma > 1, \mathrm{b}_{\mathrm{i}} \equiv \mathrm{a}_{\mathrm{i}}^{\sigma}. \tag {10.42}
 $$
 
-We are interested in determining how much unit-costs are reduced when the set of product varieties expands. To this end, let us first consider the case where  $\mathrm{I}_{\mathrm{t - 1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$ , so there is
+We are interested in determining how much unit-costs are reduced when the set of product varieties expands. To this end, let us first consider the case where  $\mathrm{I}_{\mathrm{t -1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$ , so there is
 
 no change in the set of goods. Let us also assume that the observed input purchases  $\mathbf{x}_{\mathrm{it}}$  are cost minimizing for the prices and output, that is,  $\mathbf{x}_{\mathrm{it}} = \mathbf{y}_{\mathrm{t}}(\partial \mathbf{c} / \partial \mathbf{p}_{\mathrm{it}})$ . In that case, the ratio of unit-costs can be measured by the price index due to Sato (1976) and Vartia (1976):
 
 # Theorem (Sato, 1976; Vartia, 1976)
 
-If the set of inputs available is fixed at  $\mathrm{I}_{\mathrm{t - 1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$  and inputs are cost-minimizing, then:
+If the set of inputs available is fixed at  $\mathrm{I}_{\mathrm{t -1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$  and inputs are cost-minimizing, then:
 
 $$
-\frac {c \left(p _ {t} , I\right)}{c \left(p _ {t - 1} , I\right)} = P _ {\mathrm {S V}} \left(p _ {t - 1}, p _ {t}, x _ {t - 1}, x _ {t}, I\right) \equiv \prod_ {i \in I} \left(\frac {p _ {i t}}{p _ {i t - 1}}\right) ^ {\mathrm {w} _ {i} (\mathrm {I})}, \tag {10.43}
+\frac{c \left(p_{t} , I\right)}{c \left(p_{t - 1} , I\right)} = P_{\mathrm{SV}} \left(p_{t - 1}, p_{t}, x_{t - 1}, x_{t}, I\right) \equiv \prod_{i \in I} \left(\frac{p_{i t}}{p_{i t - 1}}\right)^{\mathrm{w}_{i} (\mathrm{I})}, \tag {10.43}
 $$
 
 where the weights  $\mathrm{w_i(I)}$  are constructed from the expenditure shares  $\mathrm{s_{it}(I)}\equiv \mathrm{p_{it}x_{it}} / \sum_{i\in I}\mathrm{p_{it}x_{it}}$  as,
 
 $$
-\mathrm {w} _ {\mathrm {i}} (\mathrm {I}) \equiv \left(\frac {\mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}{\ln \mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \ln \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}\right) / \sum_ {\mathrm {i} \in \mathrm {I}} \left(\frac {\mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}{\ln \mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \ln \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}\right). \tag {10.44}
+\mathrm{w}_{\mathrm{i}} (\mathrm{I}) \equiv \left(\frac{\mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}{\ln \mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \ln \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}\right) / \sum_{\mathrm{i} \in \mathrm{I}} \left(\frac{\mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}{\ln \mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \ln \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}\right). \tag {10.44}
 $$
 
-To interpret this result, the numerator on the right of (10.44) is a logarithmic mean of the expenditure shares  $s_{\mathrm{it}}(\mathrm{I})$  and  $s_{\mathrm{it - 1}}(\mathrm{I})$ , and lies between these two values. The denominator ensures that the weights  $w_i(I)$  sum to unity, so that the Sato-Vartia index  $P_{\mathrm{SV}}$  defined on the right of (10.43) is simply a geometric mean of the price ratios  $(p_{\mathrm{it}} / p_{\mathrm{it - 1}})$ . The theorem states that this index exactly equals the ratio of the CES unit-cost functions, provided that the observed input quantities used to construct the weight are cost minimizing.
+To interpret this result, the numerator on the right of (10.44) is a logarithmic mean of the expenditure shares  $s_{\mathrm{it}}(\mathrm{I})$  and  $s_{\mathrm{it -1}}(\mathrm{I})$ , and lies between these two values. The denominator ensures that the weights  $w_i(I)$  sum to unity, so that the Sato-Vartia index  $P_{\mathrm{SV}}$  defined on the right of (10.43) is simply a geometric mean of the price ratios  $(p_{\mathrm{it}} / p_{\mathrm{it -1}})$ . The theorem states that this index exactly equals the ratio of the CES unit-cost functions, provided that the observed input quantities used to construct the weight are cost minimizing.
 
-Now consider the case where the set of inputs is changing over time, but some of the inputs are available in both periods, so that  $\mathrm{I}_{\mathrm{t - 1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$ . We again let  $\mathbf{c}(\mathfrak{p},\mathbf{I})$  denote the unit-
+Now consider the case where the set of inputs is changing over time, but some of the inputs are available in both periods, so that  $\mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$ . We again let  $\mathbf{c}(\mathfrak{p},\mathbf{I})$  denote the unit-
 
 cost function defined over the inputs within the set I. Then the ratio  $c(\mathfrak{p}_{\mathrm{t}}, \mathbf{I}) / c(\mathfrak{p}_{\mathrm{t-1}}, \mathbf{I})$  is still measured by the Sato-Vartia index in the above theorem. Our interest is in the ratio  $c(\mathfrak{p}_{\mathrm{t}}, \mathbf{I}_{\mathrm{t}}) / c(\mathfrak{p}_{\mathrm{t-1}}, \mathbf{I}_{\mathrm{t-1}})$ , which can be measured as follows:
 
 # Theorem (Feenstra, 1994)
 
-Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t - 1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$  ..
+Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$  ..
 
 $$
-\frac {c \left(p _ {t} , I _ {t}\right)}{c \left(p _ {t - 1} , I _ {t - 1}\right)} = \left(\frac {\lambda_ {t} (I)}{\lambda_ {t - 1} (I)}\right) ^ {1 / (\sigma - 1)} \prod_ {i \in I} \left(\frac {p _ {i t}}{p _ {i t - 1}}\right) ^ {w _ {i} (I)} \tag {10.45}
+\frac{c \left(p_{t} , I_{t}\right)}{c \left(p_{t - 1} , I_{t - 1}\right)} = \left(\frac{\lambda_{t} (I)}{\lambda_{t - 1} (I)}\right)^{1 / (\sigma - 1)} \prod_{i \in I} \left(\frac{p_{i t}}{p_{i t - 1}}\right)^{w_{i} (I)} \tag {10.45}
 $$
 
 where the weights  $\mathbf{w}_{\mathrm{i}}(\mathbf{I})$  are constructed from the expenditure shares  $s_{it}(\mathbf{I}) \equiv p_{it}x_{it} / \sum_{i \in I}p_{it}x_{it}$  as in (10.44), and the values  $\lambda_{t}(\mathbf{I})$  and  $\lambda_{t-1}(\mathbf{I})$  are constructed as:
 
 $$
-\lambda_ {\tau} (\mathrm {I}) = \left(\frac {\sum_ {\mathrm {i} \in \mathrm {I}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}{\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}\right) = 1 - \left(\frac {\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau} , \mathrm {i} \notin \mathrm {I}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}{\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}\right), \quad \tau = \mathrm {t} - 1, \mathrm {t}. \tag {10.46}
+\lambda_{\tau} (\mathrm{I}) = \left(\frac{\sum_{\mathrm{i} \in \mathrm{I}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}{\sum_{\mathrm{i} \in \mathrm{I}_{\tau}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}\right) = 1 - \left(\frac{\sum_{\mathrm{i} \in \mathrm{I}_{\tau} , \mathrm{i} \notin \mathrm{I}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}{\sum_{\mathrm{i} \in \mathrm{I}_{\tau}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}\right), \quad \tau = \mathrm{t} - 1, \mathrm{t}. \tag {10.46}
 $$
 
-To interpret this result, the product on the far right of (10.45) is simply the Sato-Vartia index, constructed over the set of inputs I that are common to both periods. This measures the ratio of unit-costs  $\mathrm{c(p_t,I) / c(p_{t - 1},I)}$ , for the inputs available in both periods. The first ratio of the right of (10.45) shows how the Sato-Vartia index must be adjusted to account for the new inputs (in the set  $I_{t}$  but not I) or disappearing inputs (in the set  $I_{t - 1}$  but not I). From (10.46), each of the terms  $\lambda_{\tau}(\mathrm{I}) \leq 1$  can be interpreted as the period  $\tau$  expenditure on the inputs in the set I, relative to the period  $\tau$  total expenditure. Alternatively, this can be interpreted as one minus the period  $\tau$  expenditure on "new" inputs (not in the set I), relative to the period  $\tau$  total expenditure. When
+To interpret this result, the product on the far right of (10.45) is simply the Sato-Vartia index, constructed over the set of inputs I that are common to both periods. This measures the ratio of unit-costs  $\mathrm{c(p_t,I) /c(p_{t -1},I)}$ , for the inputs available in both periods. The first ratio of the right of (10.45) shows how the Sato-Vartia index must be adjusted to account for the new inputs (in the set  $I_{t}$  but not I) or disappearing inputs (in the set  $I_{t - 1}$  but not I). From (10.46), each of the terms  $\lambda_{\tau}(\mathrm{I}) \leq 1$  can be interpreted as the period  $\tau$  expenditure on the inputs in the set I, relative to the period  $\tau$  total expenditure. Alternatively, this can be interpreted as one minus the period  $\tau$  expenditure on "new" inputs (not in the set I), relative to the period  $\tau$  total expenditure. When
 
 there is a greater number of new inputs in period  $t$ , this will tend to lower the value of  $\lambda_{t}(\mathbf{I})$ .
 
-Notice that the ratio  $[\lambda_{\mathrm{t}}(\mathrm{I}) / \lambda_{\mathrm{t - 1}}(\mathrm{I})]$  on the right of (10.45) is raised to the power  $1 / (\sigma -1) > 0$  , so that a lower value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  due to new inputs will reduce the unit-cost ratio in (10.45) by more when the elasticity of substitution is lower.
+Notice that the ratio  $[\lambda_{\mathrm{t}}(\mathrm{I}) / \lambda_{\mathrm{t -1}}(\mathrm{I})]$  on the right of (10.45) is raised to the power  $1 / (\sigma -1) > 0$  , so that a lower value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  due to new inputs will reduce the unit-cost ratio in (10.45) by more when the elasticity of substitution is lower.
 
 To see the usefulness of this theorem, let us measure "dual" factor productivity as the log difference between the index of input prices and the ratio of unit-costs:
 
 $$
-\mathrm {T F P} \equiv \ln \mathrm {P} _ {\mathrm {S V}} \left(\mathrm {p} _ {\mathrm {t} - 1}, \mathrm {p} _ {\mathrm {t}}, \mathrm {x} _ {\mathrm {t} - 1}, \mathrm {x} _ {\mathrm {t}}, \mathrm {I}\right) - \ln \left[ \mathrm {c} \left(\mathrm {p} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) / \mathrm {c} \left(\mathrm {p} _ {\mathrm {t} - 1}, \mathrm {I} _ {\mathrm {t} - 1}\right) \right]. \tag {10.47}
+\mathrm{TF P} \equiv \ln \mathrm{P}_{\mathrm{SV}} \left(\mathrm{p}_{\mathrm{t} - 1}, \mathrm{p}_{\mathrm{t}}, \mathrm{x}_{\mathrm{t} - 1}, \mathrm{x}_{\mathrm{t}}, \mathrm{I}\right) - \ln \left[ \mathrm{c} \left(\mathrm{p}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) / \mathrm{c} \left(\mathrm{p}_{\mathrm{t} - 1}, \mathrm{I}_{\mathrm{t} - 1}\right) \right]. \tag {10.47}
 $$
 
 Then using the above theorems, we immediately have:
 
 $$
-\mathrm {T F P} = \frac {1}{(\sigma - 1)} \ln \left(\frac {\lambda_ {\mathrm {t} - 1} (\mathrm {I})}{\lambda_ {\mathrm {t}} (\mathrm {I})}\right), \tag {10.48}
+\mathrm{TF P} = \frac{1}{(\sigma - 1)} \ln \left(\frac{\lambda_{\mathrm{t} - 1} (\mathrm{I})}{\lambda_{\mathrm{t}} (\mathrm{I})}\right), \tag {10.48}
 $$
 
 where the terms  $\lambda_{\mathrm{t}}(\mathrm{I})$  are defined in (10.46). Thus, the growth in new inputs, as reflected in a falling value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  will be directly reflected in total factor productivity of the firm or industry using the inputs. This provides us with a direct test of the endogenous growth model with expanding input variety.
@@ -574,16 +574,16 @@ Note: Part (b) is rather tricky, so you may not get all of it. If you understand
 10.2 Let us adopt a translog functional form for the GDP function in (10.12), extended to include many outputs:
 
 $$
-\begin{array}{l} \ln G = \alpha_ {0} + \sum_ {i = 1} ^ {N} \alpha_ {i} \ln \left(A _ {i} p _ {i}\right) + \sum_ {k = 1} ^ {M} \beta_ {k} \ln V _ {k} + \frac {1}{2} \sum_ {i = 1} ^ {N} \sum_ {j = 1} ^ {N} \gamma_ {i j} \ln \left(A _ {i} p _ {i}\right) \ln \left(A _ {j} p _ {j}\right) \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} \ln \mathrm {V} _ {\mathrm {k}} \ln \mathrm {V} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} \ln \left(\mathrm {A} _ {\mathrm {i}} \mathrm {p} _ {\mathrm {i}}\right) \ln \mathrm {V} _ {\mathrm {k}}. \\ \end{array}
+\begin{array}{l} \ln G = \alpha_{0} + \sum_{i = 1}^{N} \alpha_{i} \ln \left(A_{i} p_{i}\right) + \sum_{k = 1}^{M} \beta_{k} \ln V_{k} + \frac{1}{2} \sum_{i = 1}^{N} \sum_{j = 1}^{N} \gamma_{i j} \ln \left(A_{i} p_{i}\right) \ln \left(A_{j} p_{j}\right) \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} \ln \mathrm{V}_{\mathrm{k}} \ln \mathrm{V}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \left(\mathrm{A}_{\mathrm{i}} \mathrm{p}_{\mathrm{i}}\right) \ln \mathrm{V}_{\mathrm{k}}. \\ \end{array}
 $$
 
 Differentiating this with respect to  $\ln p_i$ , we obtain the output share equations,
 
 $$
-\mathrm {s _ {i}} = \alpha_ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} \ln (\mathrm {A _ {j} p _ {j}}) + \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} \ln \mathrm {V _ {k}}, \quad \mathrm {i = 1 , . . . , N}.
+\mathrm{s_{i}} = \alpha_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}} \ln (\mathrm{A_{j} p_{j}}) + \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \mathrm{V_{k}}, \quad \mathrm{i =1 , . . . ,N}.
 $$
 
-where  $\mathrm{s_i = p_i y_i / G}$  is the share of each output in GDP.
+where  $\mathrm{s_i =p_iy_i /G}$  is the share of each output in GDP.
 
 (a) Write the quantity of each output as  $\ln y_{i} = \ln (s_{i}G / p_{i})$ . Differentiate this with respect to  $\ln p_{i}$  and obtain an expression for the output elasticity  $(\partial \ln y_{i} / \partial \ln p_{i})$ . What restriction on the translog parameters must hold for this elasticity to be positive?
 
@@ -592,7 +592,7 @@ where  $\mathrm{s_i = p_i y_i / G}$  is the share of each output in GDP.
 10.3 Consider the problem of maximizing (10.18) subject to (10.19), where for convenience we set  $t = 0$ . Write this as the Lagrangian,
 
 $$
-\begin{array}{l} \int_ {0} ^ {\infty} \mathrm {e} ^ {- \rho \tau} [ \ln \mathrm {E} (\tau) - \ln \mathrm {P} (\tau) ] \mathrm {d} \tau + \lambda \left\{\int_ {0} ^ {\infty} \mathrm {e} ^ {- \mathrm {R} (\tau)} \mathrm {w} (\tau) \mathrm {L d} \tau + \mathrm {A} (t) - \int_ {0} ^ {\infty} \mathrm {e} ^ {- \mathrm {R} (\tau)} \mathrm {E} (\tau) \mathrm {d} \tau \right\} \\ = \int_ {t} ^ {\infty} \left\{e ^ {- \rho \tau} [ \ln E (\tau) - \ln P (\tau) ] d \tau + e ^ {- R (\tau)} \lambda [ w (\tau) L - E (\tau) ] \right\} d \tau + \lambda B (t), \\ \end{array}
+\begin{array}{l} \int_{0}^{\infty} \mathrm{e}^{- \rho \tau} [ \ln \mathrm{E} (\tau) - \ln \mathrm{P} (\tau) ] \mathrm{d} \tau + \lambda \left\{\int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{w} (\tau) \mathrm{Ld} \tau + \mathrm{A} (t) - \int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{E} (\tau) \mathrm{d} \tau \right\} \\ = \int_{t}^{\infty} \left\{e^{- \rho \tau} [ \ln E (\tau) - \ln P (\tau) ] d \tau + e^{- R (\tau)} \lambda [ w (\tau) L - E (\tau) ] \right\} d \tau + \lambda B (t), \\ \end{array}
 $$
 
 where in the second line we bring the Lagrange multiplier inside the integral. The expression inside the integral must be maximized at every point in time. So differentiate this expression with respect to  $\mathrm{E}(\tau)$  to obtain the first-order condition (10.20).
@@ -600,13 +600,13 @@ where in the second line we bring the Lagrange multiplier inside the integral. T
 10.4 Consider a central planner who chooses the time-path of output to maximize utility. This problem can be written as,
 
 $$
-\max  _ {\mathrm {Y} (\tau)} \int_ {t} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - t)} \ln \mathrm {Y} (\tau) \mathrm {d} \tau ,
+\max_{\mathrm{Y} (\tau)} \int_{t}^{\infty} \mathrm{e}^{- \rho (\tau - t)} \ln \mathrm{Y} (\tau) \mathrm{d} \tau ,
 $$
 
 subject to,
 
 $$
-\mathrm {Y} = \mathrm {N} ^ {\sigma / (\sigma - 1)} \mathrm {x} = \mathrm {N} ^ {1 / (\sigma - 1)} \mathrm {X} \quad \text {a n d} \quad \mathrm {L} = \mathrm {X} + \alpha (\dot {\mathrm {N}} / \mathrm {N}),
+\mathrm{Y} = \mathrm{N}^{\sigma / (\sigma - 1)} \mathrm{x} = \mathrm{N}^{1 / (\sigma - 1)} \mathrm{X} \quad \text{an d} \quad \mathrm{L} = \mathrm{X} + \alpha (\dot {\mathrm{N}} / \mathrm{N}),
 $$
 
 where  $\mathrm{X} \equiv \mathrm{Nx}$  and the constraints are the production function (10.17) along with the full-employment condition (10.26). Let us restrict our attention to steady-state solutions where  $\mathrm{N}(\tau) = \mathrm{N}(t)\mathrm{e}^{\mathrm{g}(\tau - t)}$ . Substituting this equation along with the constraints into the
@@ -616,19 +616,19 @@ objective function, and differentiate it with respect to  $g$  to compute the so
 10.5 Let us solve for the limiting values of the growth rates in (10.35),
 
 $$
-\mathrm {g} = \left(\frac {\mathrm {L}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}}\right) \right], \quad \mathrm {a n d ,} \quad \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} ^ {*}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right) \right].
+\mathrm{g} = \left(\frac{\mathrm{L}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}}\right) \right], \quad \mathrm{an d ,} \quad \mathrm{g}^{*} = \left(\frac{\mathrm{L}^{*}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right) \right].
 $$
 
 To do so, we use the share of world expenditure devoted to the products of the home country, which is  $s = p_y y / (E + E^*)$ , and the share devoted to products of the foreign country, which is  $s^* = p_y^* y^* / (E + E^*)$ , with  $s + s^* = 1$ . In the absence of trade in intermediate inputs, each final good is assembled entirely from inputs produced in the same country. The price of home inputs is  $p_i = w\sigma / (\sigma - 1)$ , so it follows that  $p_y y = p_i X = w\sigma X / (\sigma - 1) = w\sigma (L - \alpha g) / (\sigma - 1)$ , where in the last equality we make use of the home full-employment condition,  $L = X + \alpha g$ . Therefore, the expenditure share on home products can be written as,  $s = w\sigma (L - \alpha g) / [(E + E^*)(\sigma - 1)]$ . Taking logs and differentiating, we obtain:
 
 $$
-\frac {\dot {\mathrm {s}}}{\mathrm {s}} = \frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {g}}}{(\mathrm {L} - \alpha \mathrm {g})} - \left[ \frac {\dot {\mathrm {E}}}{\mathrm {E}} \left(\frac {\mathrm {E}}{\mathrm {E} + \mathrm {E} ^ {*}}\right) + \frac {\dot {\mathrm {E}} ^ {*} \left(\frac {\mathrm {E} ^ {*}}{\mathrm {E} + \mathrm {E} ^ {*}}\right)}{\mathrm {E} ^ {*} \left(\frac {\mathrm {E} ^ {*}}{\mathrm {E} + \mathrm {E} ^ {*}}\right)} \right].
+\frac{\dot {\mathrm{s}}}{\mathrm{s}} = \frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{g}}}{(\mathrm{L} - \alpha \mathrm{g})} - \left[ \frac{\dot {\mathrm{E}}}{\mathrm{E}} \left(\frac{\mathrm{E}}{\mathrm{E} + \mathrm{E}^{*}}\right) + \frac{\dot {\mathrm{E}}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)}{\mathrm{E}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)} \right].
 $$
 
 Using (10.20), the expression in brackets on the right equals  $\dot{\mathbf{R}} -\boldsymbol {\rho}$ . It follows that the home and foreign real interest rates are,
 
 $$
-\dot {R} - \frac {\dot {w}}{w} = \rho - \frac {\dot {s}}{s} - \frac {\dot {g}}{(L - \alpha g)}, \quad \text {a n d ,} \quad \dot {R} - \frac {\dot {w} ^ {*}}{w ^ {*}} = \rho - \frac {\dot {s} ^ {*}}{s ^ {*}} - \frac {\dot {g} ^ {*}}{(L ^ {*} - \alpha g ^ {*})}.
+\dot {R} - \frac{\dot {w}}{w} = \rho - \frac{\dot {s}}{s} - \frac{\dot {g}}{(L - \alpha g)}, \quad \text{an d ,} \quad \dot {R} - \frac{\dot {w}^{*}}{w^{*}} = \rho - \frac{\dot {s}^{*}}{s^{*}} - \frac{\dot {g}^{*}}{(L^{*} - \alpha g^{*})}.
 $$
 
 (a) The fact that the home country is developing more products than abroad means that

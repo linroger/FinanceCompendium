@@ -89,7 +89,7 @@ After reviewing the Ricardian model, we turn to the two-good, two-factor model w
 
 Indexing goods by the subscript i, let  $a_i$  denote the labor needed per unit of production of each good at home, while  $a_i^*$  is the labor need per unit of production in the foreign country,  $i = 1,2$ . The total labor force at home is  $L$  and abroad is  $L^*$ . Labor is perfectly mobile between the industries in each country, but immobile across countries. This means that both goods are produced in the home country only if the wages earned in the two industries are the same. Since the marginal product of labor in each industry is  $1 / a_i$ , wages are equalized across industries if and only if  $p_1 / a_1 = p_2 / a_2$ , where  $p_i$  is the price in each industry. Letting  $p = p_1 / p_2$  denote the relative price of good 1 (using good 2 as the numeraire), this condition is  $p = a_1 / a_2$ .
 
-These results are illustrated in Figure 1.1(a) and (b), where we graph the production possibility frontiers (PPF's) for the home and foreign countries. With all labor devoted to good i at home, it can produce  $\mathrm{L / a_i}$  units,  $i = 1,2$ , so this establishes the intercepts of the PPF, and similarly for the foreign country. The slope of the PPF in each country is then  $\mathrm{a_1 / a_2}$  and  $\mathrm{a_1^* / a_2^*}$ . Under autarky (i.e. no international trade), the equilibrium relative prices  $\mathsf{p}^{\mathrm{a}}$  and  $\mathsf{p}^{\mathrm{a}^*}$  must equal these slopes in order to have both goods produced in both countries, as argued above. Thus, the autarky equilibrium at home and abroad might occur at points A and A*. Suppose that the home country has a comparative advantage in producing good 1, meaning that  $\mathrm{a_1 / a_2 < a_1^* / a_2^*}$ . This implies that the home autarky relative price of good 1 is lower than that abroad.
+These results are illustrated in Figure 1.1(a) and (b), where we graph the production possibility frontiers (PPF's) for the home and foreign countries. With all labor devoted to good i at home, it can produce  $\mathrm{L /a_i}$  units,  $i = 1,2$ , so this establishes the intercepts of the PPF, and similarly for the foreign country. The slope of the PPF in each country is then  $\mathrm{a_1 /a_2}$  and  $\mathrm{a_1^* /a_2^*}$ . Under autarky (i.e. no international trade), the equilibrium relative prices  $\mathsf{p}^{\mathrm{a}}$  and  $\mathsf{p}^{\mathrm{a}^*}$  must equal these slopes in order to have both goods produced in both countries, as argued above. Thus, the autarky equilibrium at home and abroad might occur at points A and A*. Suppose that the home country has a comparative advantage in producing good 1, meaning that  $\mathrm{a_1 /a_2 <a_1^* /a_2^*}$ . This implies that the home autarky relative price of good 1 is lower than that abroad.
 
 Now letting the two countries engage in international trade, then what is the equilibrium price  $p$  at which world demand equals world supply? To answer this, it is helpful to graph the
 
@@ -121,7 +121,7 @@ scale in the production of each good. This will be a maintained assumption for t
 We will assume that labor and capital are assumed to be fully mobile between the two industries, so we are taking a "long run" point of view. Of course, the amount of factors employed in each industry is constrained by the endowments found in the economy. These resource constraints are stated as:
 
 $$
-\begin{array}{l} \mathrm {L} _ {1} + \mathrm {L} _ {2} \leq \mathrm {L}, \tag {1.1} \\ \mathrm {K} _ {1} + \mathrm {K} _ {2} \leq \mathrm {K}, \\ \end{array}
+\begin{array}{l} \mathrm{L}_{1} + \mathrm{L}_{2} \leq \mathrm{L}, \tag {1.1} \\ \mathrm{K}_{1} + \mathrm{K}_{2} \leq \mathrm{K}, \\ \end{array}
 $$
 
 where the endowments  $\mathrm{L}$  and  $\mathrm{K}$  are fixed. Maximizing the amount of good 2,  $y_{2} = f_{2}(L_{2}, K_{2})$ , subject to a given amount of good 1,  $y_{1} = f_{1}(L_{1}, K_{1})$ , and the resource constraints in (1.1) gives us  $y_{2} = h(y_{1}, L, K)$ . The graph of  $y_{2}$  as a function of  $y_{1}$  is shown as the PPF in Figure 1.3. As drawn,  $y_{2}$  is a concave function of  $y_{1}$ ,  $\partial^{2}h(y_{1}, L, K) / \partial y_{1}^{2} < 0$ . This familiar result follows from the fact that the production functions  $f_{i}(L_{i}, K_{i})$  are assumed to be concave. Another way to express this is to consider all points  $S = (y_{1}, y_{2})$  that are feasible to produce given the resource constraints in (1.1). This production possibilities set  $S$  is convex, meaning that if  $y^{a} = (y_{1}^{a}, y_{2}^{a})$
@@ -141,13 +141,13 @@ The production possibilities frontier summarizes the technology of the economy, 
 With the assumption of perfect competition, the amounts produced in each industry will maximize gross domestic product (GDP) for the economy: this is Adam Smith's "invisible hand" in action. That is, the industry outputs of the competitive economy will be chosen to maximize GDP:
 
 $$
-\mathrm {G} \left(\mathrm {p} _ {1}, \mathrm {p} _ {2}, \mathrm {L}, \mathrm {K}\right) = \max  _ {\mathrm {y} _ {1}, \mathrm {y} _ {2}} \mathrm {p} _ {1} \mathrm {y} _ {1} + \mathrm {p} _ {2} \mathrm {y} _ {2} \quad \text {s . t .} \quad \mathrm {y} _ {2} = \mathrm {h} \left(\mathrm {y} _ {1}, \mathrm {L}, \mathrm {K}\right). \tag {1.2}
+\mathrm{G} \left(\mathrm{p}_{1}, \mathrm{p}_{2}, \mathrm{L}, \mathrm{K}\right) = \max_{\mathrm{y}_{1}, \mathrm{y}_{2}} \mathrm{p}_{1} \mathrm{y}_{1} + \mathrm{p}_{2} \mathrm{y}_{2} \quad \text{s .t .} \quad \mathrm{y}_{2} = \mathrm{h} \left(\mathrm{y}_{1}, \mathrm{L}, \mathrm{K}\right). \tag {1.2}
 $$
 
 To solve this problem, we can substitute the constraint into the objective function and write it as choosing  $y_1$  to maximize  $p_1y_1 + p_2h(y_1,L,K)$ . The first-order condition for this problem is  $p_1 + p_2(\partial h / \partial y_1) = 0$ , or,
 
 $$
-p = \frac {p _ {1}}{p _ {2}} = - \frac {\partial h}{\partial y _ {1}} = - \frac {\partial y _ {2}}{\partial y _ {1}}. \tag {1.3}
+p = \frac{p_{1}}{p_{2}} = - \frac{\partial h}{\partial y_{1}} = - \frac{\partial y_{2}}{\partial y_{1}}. \tag {1.3}
 $$
 
 Thus, the economy will produce where the relative price of good 1,  $p = p_1 / p_2$ , is equal to the slope of the production possibilities frontier. This is illustrated by the point A in Figure 1.4, where the line tangent through point A has the slope of (negative)  $p$ . An increase in this price will raise the slope of this line, leading to a new tangency at point B. As illustrated, then, the economy will produce more of good 1 and less of good 2.
@@ -155,7 +155,7 @@ Thus, the economy will produce where the relative price of good 1,  $p = p_1 / p
 The GDP function introduced in (1.2) has many convenient properties, and we will make use of it throughout this book. To show just one property, suppose that we differentiate the GDP function with respect to the price of good  $i$ , obtaining:
 
 $$
-\frac {\partial \mathbf {G}}{\partial p _ {i}} = \mathbf {y} _ {i} + \left(p _ {1} \frac {\partial \mathbf {y} _ {1}}{\partial p _ {i}} + p _ {2} \frac {\partial \mathbf {y} _ {1}}{\partial p _ {i}}\right). \tag {1.4}
+\frac{\partial \mathbf {G}}{\partial p_{i}} = \mathbf {y}_{i} + \left(p_{1} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}} + p_{2} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}}\right). \tag {1.4}
 $$
 
 It turns out that the terms in parentheses on the right of (1.4) sum to zero, so that  $\partial G / \partial p_i = y_i$ . In other words, the derivative of the GDP function with respect to prices equals the outputs of the economy. The fact that the terms in parentheses sum to zero is an application of the "envelope theorem," which states that when we differentiate a function that has been maximized (such as GDP) with respect to an exogenous variable (such as  $p_i$ ), then we can ignore the changes in the endogenous variables ( $y_1$  and  $y_2$ ) in this derivative. To prove that these terms sum to zero, totally differentiate  $y_2 = h(y_1, L, K)$  with respect to  $y_1$  and  $y_2$  and use (1.3) to obtain  $p_1 dy_1 = -p_2 dy_2$ , or  $p_1 dy_1 + p_2 dy_2 = 0$ . This equality must hold for any small movement in  $y_1$  and  $y_2$  around the PPF, and in particular, for the small movement in outputs induced by the
@@ -167,7 +167,7 @@ change in  $\mathfrak{p}_{\mathrm{i}}$ . In other words,  $\mathrm{p}_1(\partial
 We now want to state succinctly the equilibrium conditions to determine factor prices and outputs. It will be convenient to work with the unit-cost functions that are dual to the production functions  $\mathrm{f_i(L_i,K_i)}$ . These are defined by:
 
 $$
-c _ {i} (w, r) = \min  _ {L _ {i}, K _ {i} \geq 0} \left\{w L _ {i} + r K _ {i} \mid f _ {i} \left(L _ {i}, K _ {i}\right) \geq 1 \right\}. \tag {1.5}
+c_{i} (w, r) = \min_{L_{i}, K_{i} \geq 0} \left\{w L_{i} + r K_{i} \mid f_{i} \left(L_{i}, K_{i}\right) \geq 1 \right\}. \tag {1.5}
 $$
 
 In words,  $c_{i}(w,r)$  is the minimum cost to produce one unit of output. Because of our assumption of constant returns to scale, these unit-costs are equal to both marginal costs and average costs. It is easily demonstrated that the unit-cost functions  $c_{i}(w,r)$  are non-decreasing and concave in  $(w,r)$ . We will write the solution to the minimization in (1.5) as  $c_{i}(w,r) = w a_{iL} + r a_{iK}$ , where  $a_{iL}$  is optimal choice for  $L_{i}$ , and  $a_{iK}$  is optimal choice for  $K_{i}$ . It should be stressed that these optimal choices for labor and capital depend on the factor prices, so that they should be written in full as  $a_{iL}(w,r)$  and  $a_{iK}(w,r)$ . However, we will usually not make these arguments explicit.
@@ -175,7 +175,7 @@ In words,  $c_{i}(w,r)$  is the minimum cost to produce one unit of output. Beca
 Differentiating the unit-cost function with respect to the wage, we obtain:
 
 $$
-\frac {\partial c _ {i}}{\partial w} = a _ {i L} + \left(w \frac {\partial a _ {i L}}{\partial w} + r \frac {\partial a _ {i K}}{\partial w}\right). \tag {1.6}
+\frac{\partial c_{i}}{\partial w} = a_{i L} + \left(w \frac{\partial a_{i L}}{\partial w} + r \frac{\partial a_{i K}}{\partial w}\right). \tag {1.6}
 $$
 
 As we found with differentiating the GDP function, it turns out that the terms in parentheses on the right of (1.6) sum to zero, which is again an application of the “envelope theorem.” It follows that the derivative of the unit-costs with respect to the wage equals the labor needed for one unit of production,  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$ . Similarly,  $\partial c_{\mathrm{i}} / \partial \mathrm{r} = a_{\mathrm{iK}}$ .
@@ -185,19 +185,19 @@ To prove this result, notice that the constraint in the cost-minimization proble
 The first set of equilibrium conditions for the two-by-two economy is that profits equal zero. This follows from free entry under perfect competition. The zero-profit conditions are stated as:
 
 $$
-\begin{array}{l} p _ {1} = c _ {1} (\mathrm {w}, \mathrm {r}), \tag {1.7} \\ \mathrm {p} _ {2} = \mathrm {c} _ {2} (\mathrm {w}, \mathrm {r}). \\ \end{array}
+\begin{array}{l} p_{1} = c_{1} (\mathrm{w}, \mathrm{r}), \tag {1.7} \\ \mathrm{p}_{2} = \mathrm{c}_{2} (\mathrm{w}, \mathrm{r}). \\ \end{array}
 $$
 
 The second set of equilibrium conditions is full-employment of both resources. These are the same as the resource constraints (1.1), except that now we express them as equalities. In addition, we will re-write the labor and capital used in each industry in terms of the derivatives of the unit-cost function. Since  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$  is the labor used for one unit of production, it
 
-follows that the total labor used in  $\mathrm{L_i = y_i a_{iL}}$ , and similarly the total capital used is  $\mathrm{K_i = y_i a_{iK}}$ . Substituting these into (1.1), the full-employment conditions for the economy are written as:
+follows that the total labor used in  $\mathrm{L_i =y_ia_{iL}}$ , and similarly the total capital used is  $\mathrm{K_i =y_ia_{iK}}$ . Substituting these into (1.1), the full-employment conditions for the economy are written as:
 
 $$
-\underbrace {a _ {1 \mathrm {L}} y _ {1}} _ {\mathrm {L} _ {1}} + \underbrace {a _ {2 \mathrm {L}} y _ {2}} _ {\mathrm {L} _ {2}} = \mathrm {L}, \tag {1.8}
+\underbrace {a_{1 \mathrm{L}} y_{1}}_{\mathrm{L}_{1}} + \underbrace {a_{2 \mathrm{L}} y_{2}}_{\mathrm{L}_{2}} = \mathrm{L}, \tag {1.8}
 $$
 
 $$
-\underbrace {\mathrm {a} _ {1 \mathrm {K}} \mathrm {y} _ {1}} _ {\mathrm {K} _ {1}} + \underbrace {\mathrm {a} _ {2 \mathrm {K}} \mathrm {y} _ {2}} _ {\mathrm {K} _ {2}} = \mathrm {K}.
+\underbrace {\mathrm{a}_{1 \mathrm{K}} \mathrm{y}_{1}}_{\mathrm{K}_{1}} + \underbrace {\mathrm{a}_{2 \mathrm{K}} \mathrm{y}_{2}}_{\mathrm{K}_{2}} = \mathrm{K}.
 $$
 
 Notice that (1.7) and (1.8) together are four equations in four unknowns, namely,  $(\mathrm{w},\mathrm{r})$  and  $(\mathbf{y}_1,\mathbf{y}_2)$ . The parameters of these equation,  $\mathfrak{p}_1,\mathfrak{p}_2,\mathbb{L}$  and  $\mathbf{K}$ , are given exogenously. Because the unit-cost functions are nonlinear, however, it is not enough to just count equations and unknowns: we need to study these equations in detail to understand whether the solutions are unique and strictly positive, or not. Our task for the rest of this chapter will be to understand the properties of these equations and their solutions.
@@ -237,7 +237,7 @@ As suggested by this discussion, when there are two possible solutions for the f
 To establish this link between factor endowments and prices, we need to graph the full-employment conditions. We begin by re-writing these conditions in vector notation as:
 
 $$
-\binom {\mathrm {a} _ {\mathrm {I L}}} {\mathrm {a} _ {\mathrm {1 K}}} \mathrm {y} _ {1} + \binom {\mathrm {a} _ {2 \mathrm {L}}} {\mathrm {a} _ {2 \mathrm {K}}} \mathrm {y} _ {2} = \binom {\mathrm {L}} {\mathrm {K}}. \tag {1.8'}
+\binom {\mathrm{a}_{\mathrm{IL}}} {\mathrm{a}_{\mathrm{1K}}} \mathrm{y}_{1} + \binom {\mathrm{a}_{2 \mathrm{L}}} {\mathrm{a}_{2 \mathrm{K}}} \mathrm{y}_{2} = \binom {\mathrm{L}} {\mathrm{K}}. \tag {1.8'}
 $$
 
 We have already illustrated the gradient vectors  $(\mathbf{a}_{\mathrm{iL}},\mathbf{a}_{\mathrm{iK}})$  to the iso-cost curves in Figures 1.5 and 1.6. Now let us take these vectors and re-graph them, in Figures 1.7 and 1.8. In the simpler case of Figure 1.7, we have a single equilibrium for factor prices and a single set of labor and capital requirements  $(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$ . Multiplying each of these by the output of their respective industries, we obtain the total labor and capital demands  $\mathbf{y}_1(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $\mathbf{y}_2(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$ . Summing these as in (1.8') we obtain the labor and capital endowments  $(\mathrm{L},\mathrm{K})$ . But this exercise can also be performed in reverse: for any endowment vector  $(\mathrm{L},\mathrm{K})$ , there will be a unique value for the outputs  $(\mathbf{y}_1,\mathbf{y}_2)$  such that when  $(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$  are multiplied by these amounts, they will sum to the endowments.
@@ -284,25 +284,25 @@ prices: the labor abundant country would be paying a lower wage. Why does this o
 Let us move on now to the second of our key questions of the two-by-two model: if the product prices change, how will the factor prices change? To answer this, we perform comparative statics on the zero-profits conditions (1.7). Totally differentiating these conditions, we obtain:
 
 $$
-\mathrm {d p} _ {\mathrm {i}} = \mathrm {a} _ {\mathrm {i L}} \mathrm {d w} + \mathrm {a} _ {\mathrm {i K}} \mathrm {d r} \Rightarrow \frac {\mathrm {d p} _ {\mathrm {i}}}{\mathrm {p} _ {\mathrm {i}}} = \frac {\mathrm {w a} _ {\mathrm {i L}}}{\mathrm {c} _ {\mathrm {i}}} \frac {\mathrm {d w}}{\mathrm {w}} + \frac {\mathrm {r a} _ {\mathrm {i K}}}{\mathrm {c} _ {\mathrm {i}}} \frac {\mathrm {d r}}{\mathrm {r}}, \mathrm {i} = 1, 2. \tag {1.9}
+\mathrm{dp}_{\mathrm{i}} = \mathrm{a}_{\mathrm{iL}} \mathrm{dw} + \mathrm{a}_{\mathrm{iK}} \mathrm{dr} \Rightarrow \frac{\mathrm{dp}_{\mathrm{i}}}{\mathrm{p}_{\mathrm{i}}} = \frac{\mathrm{wa}_{\mathrm{iL}}}{\mathrm{c}_{\mathrm{i}}} \frac{\mathrm{dw}}{\mathrm{w}} + \frac{\mathrm{ra}_{\mathrm{iK}}}{\mathrm{c}_{\mathrm{i}}} \frac{\mathrm{dr}}{\mathrm{r}}, \mathrm{i} = 1, 2. \tag {1.9}
 $$
 
 The second equation is obtained by multiplying and dividing like terms, and noting that  $p_i = c_i(w, r)$ . The advantage of this approach is that it allows us to express the variables in terms of percentage changes, such as  $d\ln w = dw / w$ , as well as cost shares. Specifically, let  $\theta_{iL} = w a_{iL} / c_i$  denote the cost share of labor in industry  $i$ , while  $\theta_{iK} = r a_{iK} / c_i$  denotes the cost share of capital. The fact that costs equal  $c_i = w a_{iL} + r a_{iK}$  ensures that the shares sum to unity,  $\theta_{iL} + \theta_{iK} = 1$ . In addition, denote the percentage changes by  $dw / w = \hat{w}$  and  $dr / r = \hat{r}$ . Then (1.9) can be re-written as:
 
 $$
-\hat {\mathrm {p}} _ {\mathrm {i}} = \theta_ {\mathrm {i L}} \hat {\mathrm {w}} + \theta_ {\mathrm {i K}} \hat {\mathrm {r}}, \quad \mathrm {i} = 1, 2. \tag {1.9'}
+\hat {\mathrm{p}}_{\mathrm{i}} = \theta_{\mathrm{iL}} \hat {\mathrm{w}} + \theta_{\mathrm{iK}} \hat {\mathrm{r}}, \quad \mathrm{i} = 1, 2. \tag {1.9'}
 $$
 
 Expressing the equation using these cost shares and percentage changes follows Jones (1965), and is referred to as the "Jones' algebra." This system of equation can be written in matrix form and solved as:
 
 $$
-\binom {\hat {p} _ {1}} {\hat {p} _ {2}} = \binom {\theta_ {1 \mathrm {L}}} {\theta_ {2 \mathrm {L}}} \binom {\theta_ {1 \mathrm {K}}} {\theta_ {2 \mathrm {K}}} \binom {\hat {\mathbf {w}}} {\hat {\mathbf {r}}} \Rightarrow \binom {\hat {\mathbf {w}}} {\hat {\mathbf {r}}} = \frac {1}{| \theta |} \binom {\theta_ {2 \mathrm {K}}} {- \theta_ {2 \mathrm {L}}} \binom {- \theta_ {1 \mathrm {K}}} {\theta_ {1 \mathrm {L}}} \binom {\hat {p} _ {1}} {\hat {p} _ {2}}, \tag {1.10}
+\binom {\hat {p}_{1}} {\hat {p}_{2}} = \binom {\theta_{1 \mathrm{L}}} {\theta_{2 \mathrm{L}}} \binom {\theta_{1 \mathrm{K}}} {\theta_{2 \mathrm{K}}} \binom {\hat {\mathbf {w}}} {\hat {\mathbf {r}}} \Rightarrow \binom {\hat {\mathbf {w}}} {\hat {\mathbf {r}}} = \frac{1}{| \theta |} \binom {\theta_{2 \mathrm{K}}} {- \theta_{2 \mathrm{L}}} \binom {- \theta_{1 \mathrm{K}}} {\theta_{1 \mathrm{L}}} \binom {\hat {p}_{1}} {\hat {p}_{2}}, \tag {1.10}
 $$
 
 where  $|\theta|$  denotes the determinant of the 2x2 matrix on the left. This determinant can be expressed as:
 
 $$
-\begin{array}{l} \left| \boldsymbol {\theta} \right| = \theta_ {1 \mathrm {L}} \theta_ {2 \mathrm {K}} - \theta_ {1 \mathrm {K}} \theta_ {2 \mathrm {L}} \\ = \theta_ {1 \mathrm {L}} \left(1 - \theta_ {2 \mathrm {L}}\right) - \left(1 - \theta_ {1 \mathrm {L}}\right) \theta_ {2 \mathrm {L}} \tag {1.11} \\ = \theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}} = \theta_ {2 \mathrm {K}} - \theta_ {1 \mathrm {K}} \\ \end{array}
+\begin{array}{l} \left| \boldsymbol {\theta} \right| = \theta_{1 \mathrm{L}} \theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}} \theta_{2 \mathrm{L}} \\ = \theta_{1 \mathrm{L}} \left(1 - \theta_{2 \mathrm{L}}\right) - \left(1 - \theta_{1 \mathrm{L}}\right) \theta_{2 \mathrm{L}} \tag {1.11} \\ = \theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}} = \theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}} \\ \end{array}
 $$
 
 where we have repeatedly made use of the fact that  $\theta_{\mathrm{iL}} + \theta_{\mathrm{iK}} = 1$
@@ -312,11 +312,11 @@ In order to fix ideas, let us assume henceforth that industry 1 is labor intensi
 $\hat{\mathfrak{p}} = \hat{\mathfrak{p}}_1 - \hat{\mathfrak{p}}_2 > 0$  . Then we can solve for the change in factor prices from (1.10) and (1.11) as:
 
 $$
-\hat {\mathrm {w}} = \frac {\theta_ {2 \mathrm {K}} \hat {\mathrm {p}} _ {1} - \theta_ {1 \mathrm {K}} \hat {\mathrm {p}} _ {2}}{| \theta |} = \frac {\left(\theta_ {2 \mathrm {K}} - \theta_ {1 \mathrm {K}}\right) \hat {\mathrm {p}} _ {1} + \theta_ {1 \mathrm {K}} \left(\hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2}\right)}{\left(\theta_ {2 \mathrm {K}} - \theta_ {1 \mathrm {K}}\right)} > \hat {\mathrm {p}} _ {1}, \text {s i n c e} \hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2} > 0, \tag {1.12a}
+\hat {\mathrm{w}} = \frac{\theta_{2 \mathrm{K}} \hat {\mathrm{p}}_{1} - \theta_{1 \mathrm{K}} \hat {\mathrm{p}}_{2}}{| \theta |} = \frac{\left(\theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}}\right) \hat {\mathrm{p}}_{1} + \theta_{1 \mathrm{K}} \left(\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2}\right)}{\left(\theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}}\right)} > \hat {\mathrm{p}}_{1}, \text{si nc e} \hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} > 0, \tag {1.12a}
 $$
 
 $$
-\text {a n d ,} \quad \hat {\mathrm {r}} = \frac {\theta_ {1 \mathrm {L}} \hat {\mathrm {p}} _ {2} - \theta_ {2 \mathrm {L}} \hat {\mathrm {p}} _ {1}}{| \theta |} = \frac {(\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}}) \hat {\mathrm {p}} _ {2} - \theta_ {2 \mathrm {L}} (\hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2})}{(\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}})} <   \hat {\mathrm {p}} _ {2}, \quad \text {s i n c e} \hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2} > 0. \tag {1.12b}
+\text{an d ,} \quad \hat {\mathrm{r}} = \frac{\theta_{1 \mathrm{L}} \hat {\mathrm{p}}_{2} - \theta_{2 \mathrm{L}} \hat {\mathrm{p}}_{1}}{| \theta |} = \frac{(\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) \hat {\mathrm{p}}_{2} - \theta_{2 \mathrm{L}} (\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2})}{(\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}})} <   \hat {\mathrm{p}}_{2}, \quad \text{si nc e} \hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} > 0. \tag {1.12b}
 $$
 
 From the result in (1.12a), we see that the wage increases by more than the price of good 1,  $\hat{\mathbf{w}} >\hat{\mathbf{p}}_1 > \hat{\mathbf{p}}_2$ . This means that workers can afford to buy more of good 1 ( $w/p_1$  has gone up), as well as more of good 2 ( $w/p_2$  has gone up). When labor can buy more of both goods in this fashion, we say that the real wage has increased. Looking at the rental on capital in (1.12b), we see that the rental r changes by less than the price of good 2. It follows that capital-owner can afford less of good 2 ( $r/p_2$  has gone down), and also less of good 1 ( $r/p_1$  has gone down). Thus the real return to capital has fallen. We can summarize these results with the following:
@@ -328,7 +328,7 @@ An increase in the relative price of a good will increase the real return to the
 To develop the intuition for this result, let us go back to the differentiated zero-profit conditions in (1.9'). Since the cost shares add up to unity in each industry, we see from equation (1.9') that  $\hat{\mathbf{p}}_{\mathrm{i}}$  is a weighted average of the factor price changes  $\hat{\mathbf{w}}$  and  $\hat{\mathbf{r}}$ . This implies that  $\hat{\mathbf{p}}_{\mathrm{i}}$  necessarily lies in between  $\hat{\mathbf{w}}$  and  $\hat{\mathbf{r}}$ . Putting these together with our assumption that  $\hat{\mathbf{p}}_1 - \hat{\mathbf{p}}_2 > 0$ , it is therefore clear that:
 
 $$
-\hat {\mathrm {w}} > \hat {\mathrm {p}} _ {1} > \hat {\mathrm {p}} _ {2} > \hat {\mathrm {r}}. \tag {1.13}
+\hat {\mathrm{w}} > \hat {\mathrm{p}}_{1} > \hat {\mathrm{p}}_{2} > \hat {\mathrm{r}}. \tag {1.13}
 $$
 
 Jones (1965) has called this set of inequalities the "magnification effect": they show that any change in the product price has a magnified effect on the factor prices. This is an extremely important result. Whether we think of the product price change is due to export opportunities for a country (the export price goes up), or due to lowering import tariffs (so the import price goes
@@ -345,11 +345,11 @@ We turn now to the third key question: if endowments change, how do the industry
 Figure 1.10
 
 $$
-\mathrm {a} _ {1 \mathrm {L}} \mathrm {d y} _ {1} + \mathrm {a} _ {2 \mathrm {L}} \mathrm {d y} _ {2} = \mathrm {d L}, \tag {1.14}
+\mathrm{a}_{1 \mathrm{L}} \mathrm{dy}_{1} + \mathrm{a}_{2 \mathrm{L}} \mathrm{dy}_{2} = \mathrm{dL}, \tag {1.14}
 $$
 
 $$
-\mathrm {a _ {1 K} d y _ {1} + a _ {2 K} d y _ {2} = d K .}
+\mathrm{a_{1K} d y_{1} + a_{2 K} d y_{2} = d K .}
 $$
 
 Notice that the  $a_{ij}$  coefficients do not change, despite the fact that they are functions of the factor prices (w, r). These coefficients are fixed because  $p$  does not change, so from our earlier Lemma, the factor prices are also fixed.
@@ -357,16 +357,16 @@ Notice that the  $a_{ij}$  coefficients do not change, despite the fact that the
 By re-writing the equations in (1.14) using the "Jone's algebra", we obtain:
 
 $$
-\frac {\mathrm {y} _ {1} \mathrm {a} _ {1 \mathrm {L}}}{\mathrm {L}} \frac {\mathrm {d y} _ {1}}{\mathrm {y} _ {1}} + \frac {\mathrm {y} _ {2} \mathrm {a} _ {2 \mathrm {L}}}{\mathrm {L}} \frac {\mathrm {d y} _ {2}}{\mathrm {y} _ {2}} = \frac {\mathrm {d L}}{\mathrm {L}} \quad \Rightarrow \quad \lambda_ {1 \mathrm {L}} \hat {\mathrm {y}} _ {1} + \lambda_ {2 \mathrm {L}} \hat {\mathrm {y}} _ {2} = \hat {\mathrm {L}} \tag {1.14'}
+\frac{\mathrm{y}_{1} \mathrm{a}_{1 \mathrm{L}}}{\mathrm{L}} \frac{\mathrm{dy}_{1}}{\mathrm{y}_{1}} + \frac{\mathrm{y}_{2} \mathrm{a}_{2 \mathrm{L}}}{\mathrm{L}} \frac{\mathrm{dy}_{2}}{\mathrm{y}_{2}} = \frac{\mathrm{dL}}{\mathrm{L}} \quad \Rightarrow \quad \lambda_{1 \mathrm{L}} \hat {\mathrm{y}}_{1} + \lambda_{2 \mathrm{L}} \hat {\mathrm{y}}_{2} = \hat {\mathrm{L}} \tag {1.14'}
 $$
 
 $$
-\frac {\mathrm {y} _ {1} \mathrm {a} _ {1 \mathrm {K}}}{\mathrm {K}} \frac {\mathrm {d y} _ {1}}{\mathrm {y} _ {1}} + \frac {\mathrm {y} _ {2} \mathrm {a} _ {2 \mathrm {K}}}{\mathrm {K}} \frac {\mathrm {d y} _ {2}}{\mathrm {y} _ {2}} = \frac {\mathrm {d K}}{\mathrm {K}} \quad \lambda_ {1 \mathrm {K}} \hat {\mathrm {y}} _ {1} + \lambda_ {2 \mathrm {K}} \hat {\mathrm {y}} _ {2} = \hat {\mathrm {K}}
+\frac{\mathrm{y}_{1} \mathrm{a}_{1 \mathrm{K}}}{\mathrm{K}} \frac{\mathrm{dy}_{1}}{\mathrm{y}_{1}} + \frac{\mathrm{y}_{2} \mathrm{a}_{2 \mathrm{K}}}{\mathrm{K}} \frac{\mathrm{dy}_{2}}{\mathrm{y}_{2}} = \frac{\mathrm{dK}}{\mathrm{K}} \quad \lambda_{1 \mathrm{K}} \hat {\mathrm{y}}_{1} + \lambda_{2 \mathrm{K}} \hat {\mathrm{y}}_{2} = \hat {\mathrm{K}}
 $$
 
 To move from the first set of equations to the second, we denote the percentage changes
 
-$\mathrm{dy}_1 / \mathrm{y}_1 = \hat{\mathrm{y}}_1$  , and likewise for all the other variables. In addition, we define  $\lambda_{\mathrm{iL}}\equiv (\mathrm{y_i a_{iL} / L})$
+$\mathrm{dy}_1 / \mathrm{y}_1 = \hat{\mathrm{y}}_1$  , and likewise for all the other variables. In addition, we define  $\lambda_{\mathrm{iL}}\equiv (\mathrm{y_ia_{iL} / L})$
 
 $= (\mathrm{L_i} / \mathrm{L})$ , which measures the fraction of the labor force employed in industry  $i$ , where
 
@@ -375,13 +375,13 @@ $\lambda_{1\mathrm{L}} + \lambda_{2\mathrm{L}} = 1$ . We define  $\lambda_{\math
 This system of equations is written in matrix form and solved as:
 
 $$
-\left[ \begin{array}{l l} \lambda_ {1 \mathrm {L}} & \lambda_ {2 \mathrm {L}} \\ \lambda_ {1 \mathrm {K}} & \lambda_ {2 \mathrm {K}} \end{array} \right] \binom {\hat {\mathbf {y}} _ {1}} {\hat {\mathbf {y}} _ {2}} = \binom {\hat {\mathbf {L}}} {\hat {\mathbf {K}}} \Rightarrow \binom {\hat {\mathbf {y}} _ {1}} {\hat {\mathbf {y}} _ {2}} = \frac {1}{| \lambda |} \left[ \begin{array}{c c} \lambda_ {2 \mathrm {K}} & - \lambda_ {2 \mathrm {L}} \\ - \lambda_ {1 \mathrm {K}} & \lambda_ {1 \mathrm {L}} \end{array} \right] \binom {\hat {\mathbf {L}}} {\hat {\mathbf {K}}}, \tag {1.15}
+\left[ \begin{array}{l l} \lambda_{1 \mathrm{L}} & \lambda_{2 \mathrm{L}} \\ \lambda_{1 \mathrm{K}} & \lambda_{2 \mathrm{K}} \end{array} \right] \binom {\hat {\mathbf {y}}_{1}} {\hat {\mathbf {y}}_{2}} = \binom {\hat {\mathbf {L}}} {\hat {\mathbf {K}}} \Rightarrow \binom {\hat {\mathbf {y}}_{1}} {\hat {\mathbf {y}}_{2}} = \frac{1}{| \lambda |} \left[ \begin{array}{c c} \lambda_{2 \mathrm{K}} & - \lambda_{2 \mathrm{L}} \\ - \lambda_{1 \mathrm{K}} & \lambda_{1 \mathrm{L}} \end{array} \right] \binom {\hat {\mathbf {L}}} {\hat {\mathbf {K}}}, \tag {1.15}
 $$
 
 where  $|\lambda|$  denotes the determinant of the 2x2 matrix on the left, which is simplified as:
 
 $$
-\begin{array}{l} \left| \lambda \right| = \lambda_ {1 \mathrm {L}} \lambda_ {2 \mathrm {K}} - \lambda_ {2 \mathrm {L}} \lambda_ {1 \mathrm {K}} \\ = \lambda_ {\mathrm {1 L}} (1 - \lambda_ {\mathrm {1 K}}) - (1 - \lambda_ {\mathrm {1 L}}) \lambda_ {\mathrm {1 K}} \tag {1.16} \\ = \lambda_ {\mathrm {1 L}} - \lambda_ {\mathrm {1 K}} = \lambda_ {\mathrm {2 K}} - \lambda_ {\mathrm {2 L}} \\ \end{array}
+\begin{array}{l} \left| \lambda \right| = \lambda_{1 \mathrm{L}} \lambda_{2 \mathrm{K}} - \lambda_{2 \mathrm{L}} \lambda_{1 \mathrm{K}} \\ = \lambda_{\mathrm{1L}} (1 - \lambda_{\mathrm{1K}}) - (1 - \lambda_{\mathrm{1L}}) \lambda_{\mathrm{1K}} \tag {1.16} \\ = \lambda_{\mathrm{1L}} - \lambda_{\mathrm{1K}} = \lambda_{\mathrm{2K}} - \lambda_{\mathrm{2L}} \\ \end{array}
 $$
 
 where we have repeatedly made use of the fact that  $\lambda_{1\mathrm{L}} + \lambda_{2\mathrm{L}} = 1$  and  $\lambda_{1\mathrm{K}} + \lambda_{2\mathrm{K}} = 1$ .
@@ -389,7 +389,7 @@ where we have repeatedly made use of the fact that  $\lambda_{1\mathrm{L}} + \la
 Recall that we assumed industry 1 to be labor-intensive. This implies that the share of the labor force employed in industry 1 exceeds the share of the capital stock used there,  $\lambda_{\mathrm{1L}} - \lambda_{\mathrm{1K}} > 0$ , so that  $|\lambda| > 0$  in (1.16). Suppose further that the endowments of labor is increasing, while the endowments of capital remains fixed such that  $\hat{\mathbf{L}} > 0$ , and  $\hat{\mathbf{K}} = 0$ . Then we can solve for the change in outputs from (1.15)-(1.16) as,
 
 $$
-\hat {y} _ {1} = \frac {\lambda_ {2 K}}{(\lambda_ {2 K} - \lambda_ {2 L})} \hat {L} > \hat {L} > 0 \quad \text {a n d} \quad \hat {y} _ {2} = \frac {\lambda_ {1 K}}{| \lambda |} <   0. \tag {1.17}
+\hat {y}_{1} = \frac{\lambda_{2 K}}{(\lambda_{2 K} - \lambda_{2 L})} \hat {L} > \hat {L} > 0 \quad \text{an d} \quad \hat {y}_{2} = \frac{\lambda_{1 K}}{| \lambda |} <   0. \tag {1.17}
 $$
 
 From (1.17), we see that the output of the labor-intensive industry 1 expands, whereas the output of industry 2 contracts. We have therefore established:
@@ -417,7 +417,7 @@ Of course, there is also a Rybczynski line for  $\Delta \mathbf{K}$ , which indi
 change as the capital endowment grows: this would lead to an increase in the output of good 2, and reduction in the output of good 1. As drawn, we have illustrated both of the Rybczynski lines as straight lines: can we be sure that this is the case? The answer is yes: the fact that the product price is fixed along a Rybczynski line, implying that factor prices are also fixed, ensures that these are straight lines. To see this, we can easily calculated their slopes by differentiating the full-employment conditions (1.8). To compute the slope of the Rybczynski line for  $\Delta L$ , it is convenient to work with the full-employment condition for capital, since that endowment does not change. Total differentiating (1.8) for capital gives:
 
 $$
-\mathrm {a} _ {1 \mathrm {K}} \mathrm {y} _ {1} + \mathrm {a} _ {2 \mathrm {K}} \mathrm {y} _ {2} = \mathrm {K} \Rightarrow \mathrm {a} _ {1 \mathrm {K}} \mathrm {d y} _ {1} + \mathrm {a} _ {2 \mathrm {K}} \mathrm {d y} _ {2} = 0 \Rightarrow \frac {\mathrm {d y} _ {2}}{\mathrm {d y} _ {1}} = - \frac {\mathrm {a} _ {1 \mathrm {K}}}{\mathrm {a} _ {2 \mathrm {K}}}. \tag {1.18}
+\mathrm{a}_{1 \mathrm{K}} \mathrm{y}_{1} + \mathrm{a}_{2 \mathrm{K}} \mathrm{y}_{2} = \mathrm{K} \Rightarrow \mathrm{a}_{1 \mathrm{K}} \mathrm{dy}_{1} + \mathrm{a}_{2 \mathrm{K}} \mathrm{dy}_{2} = 0 \Rightarrow \frac{\mathrm{dy}_{2}}{\mathrm{dy}_{1}} = - \frac{\mathrm{a}_{1 \mathrm{K}}}{\mathrm{a}_{2 \mathrm{K}}}. \tag {1.18}
 $$
 
 Thus, the slope of the Rybczynski line for  $\Delta L$  is the negative of the ratio of capital/output in the two industries, which is constant for fixed prices. This proves that the Rybczynski lines are indeed straight.
@@ -450,7 +450,7 @@ Differentiating with respect to  $\alpha$  and evaluating at  $\alpha = 1$ , we 
 
 Consider the production function  $y = f(L, K)$ , which we assume is homogeneous of degree one, so that  $f(\lambda L, \lambda K) = \lambda f(L, K)$ . Now differentiate this expression with respect to  $L$ , and answer:
 
-Is the marginal product  $\mathrm{f_L(L,K)}$  homogeneous, and of what degree? Use the expression you have obtained to show that  $\mathrm{f_L(L / K,1)} = \mathrm{f_L(L,K)}$ .
+Is the marginal product  $\mathrm{f_L(L,K)}$  homogeneous, and of what degree? Use the expression you have obtained to show that  $\mathrm{f_L(L /K,1)} = \mathrm{f_L(L,K)}$ .
 
 1.3 Consider the problem of maximizing  $y_{1} = f_{1}(L_{1},K_{1})$ , subject to the full-employment
 
@@ -497,7 +497,7 @@ We begin with a discussion of how to measure productivity growth. This is quite 
 Growth in the output of a firm or industry can occur due to growth in inputs (labor, capital, and human capital), or due to an increase in output that is not explained by inputs: the latter is called productivity growth. Specifically, suppose that output  $y_{i}$  is produced using labor  $L_{i}$  and capital  $K_{i}$ , with the production function  $y_{i} = A_{i}f(L_{i},K_{i})$ , where  $A_{i}$  is a measure of Hick's neutral technological progress. Totally differentiating this, we have  $dy_{i} = dA_{i}f(L_{i},K_{i}) + A_{i}f_{iL}dL_{i} + A_{i}f_{iK}dK_{i}$ . Dividing this by  $y_{i} = A_{i}f(L_{i},K_{i})$ , and letting  $\hat{z} = dz / z$  denote the percentage change in any variable, we see that,
 
 $$
-\hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} (\mathbf {L} _ {\mathrm {i}} , \mathbf {K} _ {\mathrm {i}})}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}{\mathrm {f} (\mathbf {L} _ {\mathrm {i}} , \mathbf {K} _ {\mathrm {i}})}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right]. \tag {10.1}
+\hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f} (\mathbf {L}_{\mathrm{i}} , \mathbf {K}_{\mathrm{i}})}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}{\mathrm{f} (\mathbf {L}_{\mathrm{i}} , \mathbf {K}_{\mathrm{i}})}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right]. \tag {10.1}
 $$
 
 In general, then, productivity growth can be measured by the growth in output minus a weighted average of the growth in inputs, where the weights are the elasticities of output with respect to each factor. The difficulty is that these weights are not directly observable. With the added assumption of perfect competition, however, the marginal products equal  $A_{i}f_{iL} = w / p_{i}$  and  $A_{i}f_{iK} = r / p_{i}$ , so in that case the elasticities appearing in (10.1) are measured by  $\theta_{iL} = wL_{i} / p_{i}y_{i}$  and  $\theta_{iK} = rK_{i} / p_{i}y_{i}$ , which are the revenue shares of labor and capital. Under the further assumption of constant returns to scale, these shares sum to unity so that  $\theta_{iK} = 1 - \theta_{iL}$ . Then we see from (10.1) that technological progress  $\hat{A}_{i}$  can be measured by the difference between the growth of output and a share-weighted average of the growth in inputs, which is the
@@ -505,7 +505,7 @@ In general, then, productivity growth can be measured by the growth in output mi
 definition of total factor productivity (TFP) due to Solow (1957):
 
 $$
-\mathrm {T F P} _ {\mathrm {i}} \equiv \hat {\mathbf {y}} _ {\mathrm {i}} - [ \theta_ {\mathrm {i L}} \hat {\mathbf {L}} _ {\mathrm {i}} + (1 - \theta_ {\mathrm {i L}}) \hat {\mathbf {K}} _ {\mathrm {i}} ]. \tag {10.1'}
+\mathrm{TF P}_{\mathrm{i}} \equiv \hat {\mathbf {y}}_{\mathrm{i}} - [ \theta_{\mathrm{iL}} \hat {\mathbf {L}}_{\mathrm{i}} + (1 - \theta_{\mathrm{iL}}) \hat {\mathbf {K}}_{\mathrm{i}} ]. \tag {10.1'}
 $$
 
 Notice that this measure of productivity growth is indeed a "residual" – the portion of output growth that is not explained by inputs – or a "measure of our ignorance," in the memorable phrase of Robert Solow.
@@ -513,7 +513,7 @@ Notice that this measure of productivity growth is indeed a "residual" – the p
 Let us now weaken our assumptions, and allow for imperfect competition and increasing returns to scale. To introduce increasing returns to scale, we assume that the production function is homogeneous of degree  $\mu_{\mathrm{i}} > 1$ , so it follows that  $\mu_{\mathrm{i}}\mathrm{f}(\mathrm{L}_{\mathrm{i}},\mathrm{K}_{\mathrm{i}}) = (\mathrm{f}_{\mathrm{iL}}\mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}}\mathrm{K}_{\mathrm{i}})$ . Substituting this into (10.1), we obtain,
 
 $$
-\begin{array}{l} \hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \mu_ {\mathrm {i}} \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathrm {K} _ {\mathrm {i}}}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right]. \\ = \hat {\mathbf {A}} _ {\mathrm {i}} + \mu_ {\mathrm {i}} \left[ \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}\right) \hat {\mathbf {L}} _ {\mathrm {i}} + \left(1 - \frac {\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}}}{\mathrm {f} _ {\mathrm {i L}} \mathbf {L} _ {\mathrm {i}} + \mathrm {f} _ {\mathrm {i K}} \mathbf {K} _ {\mathrm {i}}}\right) \hat {\mathbf {K}} _ {\mathrm {i}} \right] \\ = \hat {\mathrm {A}} _ {\mathrm {i}} + \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} (\mathrm {L} _ {\mathrm {i}} , \mathrm {K} _ {\mathrm {i}})}\right) \left(\hat {\mathrm {L}} _ {\mathrm {i}} - \hat {\mathrm {K}} _ {\mathrm {i}}\right) + \mu_ {\mathrm {i}} \hat {\mathrm {K}} _ {\mathrm {i}}, \tag {10.2} \\ \end{array}
+\begin{array}{l} \hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \mu_{\mathrm{i}} \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathrm{K}_{\mathrm{i}}}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right]. \\ = \hat {\mathbf {A}}_{\mathrm{i}} + \mu_{\mathrm{i}} \left[ \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}\right) \hat {\mathbf {L}}_{\mathrm{i}} + \left(1 - \frac{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}}}{\mathrm{f}_{\mathrm{iL}} \mathbf {L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}} \mathbf {K}_{\mathrm{i}}}\right) \hat {\mathbf {K}}_{\mathrm{i}} \right] \\ = \hat {\mathrm{A}}_{\mathrm{i}} + \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f} (\mathrm{L}_{\mathrm{i}} , \mathrm{K}_{\mathrm{i}})}\right) \left(\hat {\mathrm{L}}_{\mathrm{i}} - \hat {\mathrm{K}}_{\mathrm{i}}\right) + \mu_{\mathrm{i}} \hat {\mathrm{K}}_{\mathrm{i}}, \tag {10.2} \\ \end{array}
 $$
 
 where the last line follows from  $\mu_{\mathrm{i}}\mathrm{f}(\mathrm{L}_{\mathrm{i}},\mathrm{K}_{\mathrm{i}}) = (\mathrm{f}_{\mathrm{iL}}\mathrm{L}_{\mathrm{i}} + \mathrm{f}_{\mathrm{iK}}\mathrm{K}_{\mathrm{i}})$  and simple arithmetic.
@@ -523,7 +523,7 @@ With imperfect competition in the product market, the equilibrium condition for 
 hiring of labor is,
 
 $$
-p _ {i} \left(1 - \frac {1}{\eta_ {i}}\right) A _ {i} f _ {i L} = w. \tag {10.3}
+p_{i} \left(1 - \frac{1}{\eta_{i}}\right) A_{i} f_{i L} = w. \tag {10.3}
 $$
 
 where  $\eta_{\mathrm{i}}$  is the (positive) elasticity of demand. It follows that the real wage equals
@@ -531,7 +531,7 @@ where  $\eta_{\mathrm{i}}$  is the (positive) elasticity of demand. It follows t
 $\left(\mathrm{w} / \mathrm{p}_{\mathrm{i}}\right) = \left[\left(\eta_{\mathrm{i}} - 1\right) / \eta_{\mathrm{i}}\right] \mathrm{A}_{\mathrm{i}} \mathrm{f}_{\mathrm{iL}}$ . The share of labor in total revenue is then,
 
 $$
-\theta_ {\mathrm {i L}} = \frac {\mathrm {w L} _ {\mathrm {i}}}{\mathrm {p} _ {\mathrm {i}} \mathrm {y} _ {\mathrm {i}}} = \frac {(\eta_ {\mathrm {i}} - 1) \mathrm {A} _ {\mathrm {i}} \mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\eta_ {\mathrm {i}} \mathrm {y} _ {\mathrm {i}}} = \left(\frac {\eta_ {\mathrm {i}} - 1}{\eta_ {\mathrm {i}}}\right) \left(\frac {\mathrm {f} _ {\mathrm {i L}} \mathrm {L} _ {\mathrm {i}}}{\mathrm {f} (\mathrm {L} _ {\mathrm {i}} , \mathrm {K} _ {\mathrm {i}})}\right), \tag {10.4}
+\theta_{\mathrm{iL}} = \frac{\mathrm{wL}_{\mathrm{i}}}{\mathrm{p}_{\mathrm{i}} \mathrm{y}_{\mathrm{i}}} = \frac{(\eta_{\mathrm{i}} - 1) \mathrm{A}_{\mathrm{i}} \mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\eta_{\mathrm{i}} \mathrm{y}_{\mathrm{i}}} = \left(\frac{\eta_{\mathrm{i}} - 1}{\eta_{\mathrm{i}}}\right) \left(\frac{\mathrm{f}_{\mathrm{iL}} \mathrm{L}_{\mathrm{i}}}{\mathrm{f} (\mathrm{L}_{\mathrm{i}} , \mathrm{K}_{\mathrm{i}})}\right), \tag {10.4}
 $$
 
 where the final equality follows from  $y_{i} = A_{i}f(L_{i},K_{i})$ . Thus, the labor share understates the elasticity of output with respect to labor, since  $(\eta_{i} - 1) / \eta_{i} < 1$ .
@@ -539,7 +539,7 @@ where the final equality follows from  $y_{i} = A_{i}f(L_{i},K_{i})$ . Thus, the
 Substituting (10.4) into (10.2), we see that output growth is related to true productivity change by, $^{5}$
 
 $$
-\hat {\mathbf {y}} _ {\mathrm {i}} = \hat {\mathbf {A}} _ {\mathrm {i}} + \left[ \eta_ {\mathrm {i}} / \left(\eta_ {\mathrm {i}} - 1\right) \right] \theta_ {\mathrm {i L}} \left(\hat {\mathbf {L}} _ {\mathrm {i}} - \hat {\mathbf {K}} _ {\mathrm {i}}\right) + \mu_ {\mathrm {i}} \mathbf {K} _ {\mathrm {i}}. \tag {10.5}
+\hat {\mathbf {y}}_{\mathrm{i}} = \hat {\mathbf {A}}_{\mathrm{i}} + \left[ \eta_{\mathrm{i}} / \left(\eta_{\mathrm{i}} - 1\right) \right] \theta_{\mathrm{iL}} \left(\hat {\mathbf {L}}_{\mathrm{i}} - \hat {\mathbf {K}}_{\mathrm{i}}\right) + \mu_{\mathrm{i}} \mathbf {K}_{\mathrm{i}}. \tag {10.5}
 $$
 
 Thus, we see that output growth is composed of true productivity change  $\hat{\mathsf{A}}_{\mathrm{i}}$ , plus the change in labor/capital growth times the coefficient  $\eta_{\mathrm{i}} / (\eta_{\mathrm{i}} - 1)$ , plus capital growth times the returns to scale parameters  $\mu_{\mathrm{i}}$ . The coefficient  $\eta_{\mathrm{i}} / (\eta_{\mathrm{i}} - 1)$  equals the ratio of price to marginal cost, so any change in this coefficient are interpreted as evidence of changes in the price-cost markup. Running (10.5) as a regression therefore allows us to measure the impact of trade liberalization on the markups charged, as well as estimate the returns to scale.
@@ -547,7 +547,7 @@ Thus, we see that output growth is composed of true productivity change  $\hat{\
 Harrison (1994) applies this technique to firm-level data for the Ivory Coast, which had an import liberalization beginning in 1985. The estimating equation is (10.5) but written with discrete rather than infinitesimal changes:
 
 $$
-\begin{array}{l} \Delta \ln \mathrm {y} _ {\mathrm {i t}} = \Delta \ln \mathrm {A} _ {\mathrm {i t}} + \beta_ {\mathrm {t}} \theta_ {\mathrm {i L}} \left(\Delta \ln \mathrm {L} _ {\mathrm {i t}} - \Delta \ln \mathrm {K} _ {\mathrm {i t}}\right) + \mu \Delta \ln \mathrm {K} _ {\mathrm {i t}} \\ = \alpha_ {\mathrm {i}} + \beta_ {\mathrm {t}} \theta_ {\mathrm {i L}} \left(\Delta \ln \mathrm {L} _ {\mathrm {i t}} - \Delta \ln \mathrm {K} _ {\mathrm {i t}}\right) + \mu \Delta \ln \mathrm {K} _ {\mathrm {i t}} + \varepsilon_ {\mathrm {i t}}, \tag {10.5'} \\ \end{array}
+\begin{array}{l} \Delta \ln \mathrm{y}_{\mathrm{it}} = \Delta \ln \mathrm{A}_{\mathrm{it}} + \beta_{\mathrm{t}} \theta_{\mathrm{iL}} \left(\Delta \ln \mathrm{L}_{\mathrm{it}} - \Delta \ln \mathrm{K}_{\mathrm{it}}\right) + \mu \Delta \ln \mathrm{K}_{\mathrm{it}} \\ = \alpha_{\mathrm{i}} + \beta_{\mathrm{t}} \theta_{\mathrm{iL}} \left(\Delta \ln \mathrm{L}_{\mathrm{it}} - \Delta \ln \mathrm{K}_{\mathrm{it}}\right) + \mu \Delta \ln \mathrm{K}_{\mathrm{it}} + \varepsilon_{\mathrm{it}}, \tag {10.5'} \\ \end{array}
 $$
 
 where in the second line we replace the true productivity change  $\Delta \ln A_{it}$  by  $\alpha_{i} + \varepsilon_{it}$ , composed of a firm fixed-effect  $\alpha_{i}$  and a random component  $\varepsilon_{it}$ . The estimated ratio of price to marginal cost,  $\beta_{t} \equiv \eta_{t} / (\eta_{t} - 1)$ , is treated as common across firms  $i = 1,\dots,N$  within each industry but is allowed to change in the pre- and post-liberalization sample. Thus, by examining the change in  $\beta_{t}$  we can determine the effect of liberalization on markups.
@@ -556,10 +556,10 @@ Estimation is performed with both OLS and instrumental variables. $^6$  Initial 
 
 $\beta_{1}$  over the entire sample (standard error of 0.05). This indicates, for example, that an increase in import penetration from 0 to  $50\%$  would reduce the ratio of price to marginal cost by  $12\%$ . She also finds that reduced tariffs are associated with lower price-cost ratios, but that result is only significant at the  $15\%$  level. So the connection between import liberalization and reduced markups is weakly confirmed in her study.
 
-Notice that in our derivation of (10.5) we did not assume that the rental on capital is observable, but only used the labor share. If instead the rental is observable, then the capital share is  $\theta_{\mathrm{iK}} = \mathrm{rK_i / p_i y_i} = [(\eta_{\mathrm{i}} - 1) / \eta_{\mathrm{i}}][\mathrm{f_{iK}K_i / f(L_i,K_i)}]$ , analogous to (10.4). Substituting these two equations into (10.1), we obtain an alternative relationship between output growth and true productivity change, $^7$
+Notice that in our derivation of (10.5) we did not assume that the rental on capital is observable, but only used the labor share. If instead the rental is observable, then the capital share is  $\theta_{\mathrm{iK}} = \mathrm{rK_i /p_iy_i} = [(\eta_{\mathrm{i}} - 1) / \eta_{\mathrm{i}}][\mathrm{f_{iK}K_i / f(L_i,K_i)}]$ , analogous to (10.4). Substituting these two equations into (10.1), we obtain an alternative relationship between output growth and true productivity change, $^7$
 
 $$
-\hat {y} _ {\mathrm {i}} = \hat {A} _ {\mathrm {i}} + \left(\frac {\eta_ {\mathrm {i}}}{\eta_ {\mathrm {i}} - 1}\right) \left(\theta_ {\mathrm {i L}} \hat {L} _ {\mathrm {i}} + \theta_ {\mathrm {i K}} \hat {K} _ {\mathrm {i}}\right). \tag {10.6}
+\hat {y}_{\mathrm{i}} = \hat {A}_{\mathrm{i}} + \left(\frac{\eta_{\mathrm{i}}}{\eta_{\mathrm{i}} - 1}\right) \left(\theta_{\mathrm{iL}} \hat {L}_{\mathrm{i}} + \theta_{\mathrm{iK}} \hat {K}_{\mathrm{i}}\right). \tag {10.6}
 $$
 
 Levinsohn (1993) applies equation (10.6), written using discrete changes, to firm-level data for Turkey, which embarked on an ambitious liberalization program in 1980. He replaces the true productivity change  $\Delta \ln A_{it}$  by  $\alpha_{t} + \varepsilon_{it}$ , composed of a year fixed-effect  $\alpha_{t}$  that is common across firms and a random component  $\varepsilon_{it}$ . Once again, the estimated ratio of price to marginal cost,  $\beta_{t} \equiv \eta_{t} / (\eta_{t} - 1)$ , is treated as common across firms  $i = 1,\dots,N$  within each industry but is allowed to vary over time, as liberalization proceeds. In his results, Levinsohn finds a strong connection between the industries that experience liberalization, and those where the
@@ -578,7 +578,7 @@ Figure 10.1
 example,  $\alpha$  can represent a factor endowment or technological progress in some industry. The total change in GDP is measured by:
 
 $$
-\mathrm {d} G = \frac {\partial G}{\partial p} \mathrm {d} p + \frac {\partial G}{\partial \alpha} \mathrm {d} \alpha = y _ {1} \mathrm {d} p + \left(p \frac {\mathrm {d} y _ {1}}{\mathrm {d} \alpha} + \frac {\mathrm {d} y _ {2}}{\mathrm {d} \alpha}\right) \mathrm {d} \alpha . \tag {10.7}
+\mathrm{d} G = \frac{\partial G}{\partial p} \mathrm{d} p + \frac{\partial G}{\partial \alpha} \mathrm{d} \alpha = y_{1} \mathrm{d} p + \left(p \frac{\mathrm{d} y_{1}}{\mathrm{d} \alpha} + \frac{\mathrm{d} y_{2}}{\mathrm{d} \alpha}\right) \mathrm{d} \alpha . \tag {10.7}
 $$
 
 We presume that  $\frac{\partial G}{\partial \alpha} = \left(p \frac{dy_1}{d\alpha} + \frac{dy_2}{d\alpha}\right)$  and  $\frac{dy_1}{d\alpha}$  are both positive, meaning that growth at constant prices increases both GDP and production of the exportable.
@@ -586,37 +586,37 @@ We presume that  $\frac{\partial G}{\partial \alpha} = \left(p \frac{dy_1}{d\alp
 As in chapter 7, we will allow for different consumers but suppose that the numeraire good is additively separable in consumption, so that consumer utilities can be summed. Total social welfare is then  $\mathrm{W[p,G(p,\alpha)]}$ , which serves as an indirect utility function for the economy, where  $\partial \mathrm{W} / \partial \mathrm{p} = -\mathrm{c}_1$  is the (negative of) consumption of good 1 and  $\partial \mathrm{W} / \partial \mathrm{G} \equiv 1$ . Then social welfare is constant due to growth if and only if,
 
 $$
-\mathrm {d W} = \frac {\partial \mathrm {W}}{\partial \mathrm {p}} \mathrm {d p} + \left(\frac {\partial \mathrm {G}}{\partial \mathrm {p}} \mathrm {d p} + \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha\right) = \left(\mathrm {y} _ {1} - \mathrm {c} _ {1}\right) \mathrm {d p} + \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha = 0. \tag {10.8}
+\mathrm{dW} = \frac{\partial \mathrm{W}}{\partial \mathrm{p}} \mathrm{dp} + \left(\frac{\partial \mathrm{G}}{\partial \mathrm{p}} \mathrm{dp} + \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha\right) = \left(\mathrm{y}_{1} - \mathrm{c}_{1}\right) \mathrm{dp} + \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha = 0. \tag {10.8}
 $$
 
 Thus, the drop in the export price that will just keep welfare constant is,
 
 $$
-\mathrm {d p} = \frac {\partial \mathrm {G}}{\partial \alpha} \mathrm {d} \alpha / \left(\mathrm {c} _ {1} - \mathrm {y} _ {1}\right). \tag {10.9}
+\mathrm{dp} = \frac{\partial \mathrm{G}}{\partial \alpha} \mathrm{d} \alpha / \left(\mathrm{c}_{1} - \mathrm{y}_{1}\right). \tag {10.9}
 $$
 
 Next, we solve for the equilibrium change in the relative price of exports and compare that to (10.9). Equilibrium in the export market means that  $(y_{1} - c_{1}) = m_{1}^{*}$ , where  $m_{1}^{*}$  is import demand from the rest of the world. Totally differentiating this, we obtain,
 
 $$
-\frac {\mathrm {d} \mathbf {y} _ {1}}{\mathrm {d} \alpha} \mathrm {d} \alpha + \left(\frac {\partial \mathbf {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \mathrm {d p} = \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \mathrm {d p}.
+\frac{\mathrm{d} \mathbf {y}_{1}}{\mathrm{d} \alpha} \mathrm{d} \alpha + \left(\frac{\partial \mathbf {y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \mathrm{dp} = \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \mathrm{dp}.
 $$
 
 Thus, the equilibrium change in the price of exports is,
 
 $$
-\mathrm {d p} = \frac {\frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} \mathrm {d} \alpha}{\left[ \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} - \left(\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \right]} \quad . \tag {10.10}
+\mathrm{dp} = \frac{\frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} \mathrm{d} \alpha}{\left[ \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} - \left(\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \right]} \quad . \tag {10.10}
 $$
 
 The denominator of (10.10) is negative while the numerator is positive, so this expression indicates the drop in the export price due to growth. Welfare is constant if  $(10.9) = (10.10)$ , and welfare falls if  $(10.10) < (10.9)$ . This will occur if and only if,
 
 $$
-\frac {\mathrm {d} \mathbf {y} _ {1}}{\mathrm {d} \alpha} \left(\mathbf {y} _ {1} - \mathbf {c} _ {1}\right) / \frac {\partial \mathbf {G}}{\partial \alpha} > \left[ \left(\frac {\partial \mathbf {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathbf {c} _ {1}}{\partial \mathrm {p}}\right) - \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \right].
+\frac{\mathrm{d} \mathbf {y}_{1}}{\mathrm{d} \alpha} \left(\mathbf {y}_{1} - \mathbf {c}_{1}\right) / \frac{\partial \mathbf {G}}{\partial \alpha} > \left[ \left(\frac{\partial \mathbf {y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathbf {c}_{1}}{\partial \mathrm{p}}\right) - \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \right].
 $$
 
 Dividing this equation through by  $(\mathbf{y}_1 - \mathbf{c}_1) = \mathbf{m}_1^*$ , and making use of  $\frac{\partial G}{\partial \alpha} = \left(p \frac{\mathrm{d}y_1}{\mathrm{d}\alpha} + \frac{\mathrm{d}y_2}{\mathrm{d}\alpha}\right)$ , we can express this necessary and sufficient condition for immiserizing growth as,
 
 $$
-\left. \mathrm {p} \frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} / \left(\mathrm {p} \frac {\mathrm {d y} _ {1}}{\mathrm {d} \alpha} + \frac {\mathrm {d y} _ {2}}{\mathrm {d} \alpha}\right) > \left[ \left(\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} - \frac {\partial \mathrm {c} _ {1}}{\partial \mathrm {p}}\right) \frac {\mathrm {p}}{\mathrm {m} _ {1} ^ {*}} - \frac {\mathrm {d m} _ {1} ^ {*}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {m} _ {1} ^ {*}} \right] \right.. \tag {10.11}
+\left. \mathrm{p} \frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} / \left(\mathrm{p} \frac{\mathrm{dy}_{1}}{\mathrm{d} \alpha} + \frac{\mathrm{dy}_{2}}{\mathrm{d} \alpha}\right) > \left[ \left(\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} - \frac{\partial \mathrm{c}_{1}}{\partial \mathrm{p}}\right) \frac{\mathrm{p}}{\mathrm{m}_{1}^{*}} - \frac{\mathrm{dm}_{1}^{*}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{m}_{1}^{*}} \right] \right.. \tag {10.11}
 $$
 
 To interpret this expression, note that the first term on the right is the elasticity of export supply and is positive. For immiserizing growth to occur, it is therefore necessary that the term on the left exceed the amount  $-\left(\frac{\mathrm{dm}_1^*}{\mathrm{dp}}\frac{\mathrm{p}}{\mathrm{m}_1^*}\right)$ , which is the elasticity of foreign demand for
@@ -632,7 +632,7 @@ Condition (a) is not surprising, since having inelastic demand for a product is 
 Findlay and Grubert (1959) answer this question in the affirmative. They considered Hick's neutral technological progress in good 1. To demonstrate the effects of this, we work with the GDP function, defined as:
 
 $$
-\mathrm {G} (\mathrm {A p}, \mathrm {V}) \equiv \max  _ {\mathrm {v} _ {\mathrm {i}} \geq 0} \mathrm {p A f} \left(\mathrm {v} _ {1}\right) + \mathrm {f} \left(\mathrm {v} _ {2}\right) \text {s u b j e c t t o v} _ {1} + \mathrm {v} _ {2} = \mathrm {V}. \tag {10.12}
+\mathrm{G} (\mathrm{Ap}, \mathrm{V}) \equiv \max_{\mathrm{v}_{\mathrm{i}} \geq 0} \mathrm{pA f} \left(\mathrm{v}_{1}\right) + \mathrm{f} \left(\mathrm{v}_{2}\right) \text{su bj ec tt ov}_{1} + \mathrm{v}_{2} = \mathrm{V}. \tag {10.12}
 $$
 
 That is, the parameter  $\alpha$  that appeared in the earlier GDP function now equals A, which is the Hick's neutral productivity parameter on good 1. Notice that Ap enters in a multiplicative form as an argument of the GDP function, since that is how it appears in the objective function.
@@ -640,25 +640,25 @@ That is, the parameter  $\alpha$  that appeared in the earlier GDP function now 
 We have demonstrated in chapter 1 that the derivative of the GDP function with respect to price equals the output of that good, or  $\partial G / \partial p = y_1$ . Letting  $G_{1}(Ap,V)$  denote the partial derivative of  $G$  with respect to its first argument, we therefore have:
 
 $$
-y _ {1} = \frac {\partial G}{\partial p} = \frac {\partial G}{\partial (A p)} \frac {d (A p)}{d p} = G _ {1} (A p, V) A. \tag {10.13}
+y_{1} = \frac{\partial G}{\partial p} = \frac{\partial G}{\partial (A p)} \frac{d (A p)}{d p} = G_{1} (A p, V) A. \tag {10.13}
 $$
 
 Differentiating this expression again, it follows that:
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} = \frac {\partial}{\partial \mathrm {p}} \left[ \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} \right] = \mathrm {G} _ {1 1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} ^ {2}, \tag {10.14a}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} = \frac{\partial}{\partial \mathrm{p}} \left[ \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A} \right] = \mathrm{G}_{1 1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A}^{2}, \tag {10.14a}
 $$
 
 and,
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {A}} = \frac {\partial}{\partial \mathrm {A}} [ \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) \mathrm {A} ] = \mathrm {G} _ {1} (\mathrm {A p}, \mathrm {V}) + \mathrm {G} _ {1 1} (\mathrm {A p}, \mathrm {V}) \mathrm {A p}. \tag {10.14b}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{A}} = \frac{\partial}{\partial \mathrm{A}} [ \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) \mathrm{A} ] = \mathrm{G}_{1} (\mathrm{Ap}, \mathrm{V}) + \mathrm{G}_{1 1} (\mathrm{Ap}, \mathrm{V}) \mathrm{Ap}. \tag {10.14b}
 $$
 
 Converting these expressions into elasticity form, we readily obtain,
 
 $$
-\frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {A}} \frac {\mathrm {A}}{\mathrm {y} _ {1}} = \frac {\mathrm {G} _ {1} (\mathrm {A p} , \mathrm {V}) \mathrm {A}}{\mathrm {y} _ {1}} + \frac {\mathrm {G} _ {1 1} \mathrm {A} ^ {2} \mathrm {p}}{\mathrm {y} _ {1}} = 1 + \frac {\partial \mathrm {y} _ {1}}{\partial \mathrm {p}} \frac {\mathrm {p}}{\mathrm {y} _ {1}}, \tag {10.15}
+\frac{\partial \mathrm{y}_{1}}{\partial \mathrm{A}} \frac{\mathrm{A}}{\mathrm{y}_{1}} = \frac{\mathrm{G}_{1} (\mathrm{Ap} , \mathrm{V}) \mathrm{A}}{\mathrm{y}_{1}} + \frac{\mathrm{G}_{1 1} \mathrm{A}^{2} \mathrm{p}}{\mathrm{y}_{1}} = 1 + \frac{\partial \mathrm{y}_{1}}{\partial \mathrm{p}} \frac{\mathrm{p}}{\mathrm{y}_{1}}, \tag {10.15}
 $$
 
 where the first equality is obtained from (10.14b), and the second from (10.13) and (10.14a).
@@ -677,39 +677,39 @@ Our discussion in the previous section did not model growth in any meaningful wa
 Many of the "endogenous growth" models build upon the monopolistic competition framework we introduced in chapter 5, but rather than thinking of differentiated final products, we instead consider differentiated intermediate inputs. The idea is that an increase in the variety (N) of differentiated inputs will allow for an increase in output, much like an increase in variety of final goods allowed for higher consumer utility in chapter 5. To make this precise, suppose that there is a single final good, with output  $y$ , produced with the CES production function:
 
 $$
-y = \left[ \sum_ {i = 1} ^ {N} x _ {i} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)} \tag {10.16}
+y = \left[ \sum_{i = 1}^{N} x_{i}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)} \tag {10.16}
 $$
 
 where  $\mathrm{x_i}$  is the quantity of input variety  $\mathrm{i} = 1,\dots ,\mathrm{N}$ . As usual, we assume  $\sigma >1$ , so that it is
 
 meaningful to think of changes in the number of inputs. $^{10}$
 
-If inputs are all priced equally in equilibrium, then their quantities are also equal,  $\mathrm{x_i = x}$  and so (10.16) can be rewritten as,
+If inputs are all priced equally in equilibrium, then their quantities are also equal,  $\mathrm{x_i =x}$  and so (10.16) can be rewritten as,
 
 $$
-\mathrm {y} = \mathrm {N} ^ {\sigma / (\sigma - 1)} \mathrm {x} = \mathrm {N} ^ {1 / (\sigma - 1)} \mathrm {X}, \tag {10.17}
+\mathrm{y} = \mathrm{N}^{\sigma / (\sigma - 1)} \mathrm{x} = \mathrm{N}^{1 / (\sigma - 1)} \mathrm{X}, \tag {10.17}
 $$
 
 with  $\mathrm{X} \equiv \mathrm{Nx}$ . We can think of  $\mathrm{X}$  as the "aggregate" amount of the intermediate input, and holding this magnitude fixed, (10.17) shows that increases in  $N$  raise output  $y$  (since  $\sigma > 1$ ). This amounts to a productivity gain in the final good industry, due to the proliferation of differentiated intermediate inputs. Indeed, we could re-label  $\mathrm{N}^{1 / (\sigma - 1)}$  on the right of (10.17) as "A" to obtain the simple production function  $y = \mathrm{AX}$ , where technological progress A will depend on the number of new inputs.[11] By carefully modeling the dynamics of how  $\mathrm{N}$  evolves due to the entry of new firms, we therefore have a story of endogenous technological progress, or endogenous growth.
 
 # Autarky Equilibrium
 
-We begin by describing the autarky equilibrium. The price of the final good at each point in time is  $\mathrm{P(t)}$ . If the consumer spends  $\mathrm{E(t)}$  on this good, then the quantity  $\mathrm{Y(t)} = \mathrm{E(t) / P(t)}$  will be purchased, and we assume that this provides instantaneous utility of  $\ln \mathrm{Y(t)} = \ln \mathrm{E(t)} - \ln \mathrm{P(t)}$ . The consumer's problem is then:
+We begin by describing the autarky equilibrium. The price of the final good at each point in time is  $\mathrm{P(t)}$ . If the consumer spends  $\mathrm{E(t)}$  on this good, then the quantity  $\mathrm{Y(t)} = \mathrm{E(t) /P(t)}$  will be purchased, and we assume that this provides instantaneous utility of  $\ln \mathrm{Y(t)} = \ln \mathrm{E(t)} - \ln \mathrm{P(t)}$ . The consumer's problem is then:
 
 $$
-\max  _ {\mathrm {E} (\tau)} \int_ {\mathrm {t}} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - \mathrm {t})} [ \ln \mathrm {E} (\tau) - \ln \mathrm {P} (\tau) ] \mathrm {d} \tau , \tag {10.18}
+\max_{\mathrm{E} (\tau)} \int_{\mathrm{t}}^{\infty} \mathrm{e}^{- \rho (\tau - \mathrm{t})} [ \ln \mathrm{E} (\tau) - \ln \mathrm{P} (\tau) ] \mathrm{d} \tau , \tag {10.18}
 $$
 
 subject to the budget constraint:
 
 $$
-\int_ {t} ^ {\infty} \mathrm {e} ^ {- [ R (\tau) - R (t) ]} \mathrm {E} (\tau) \mathrm {d} \tau \leq \int_ {t} ^ {\infty} \mathrm {e} ^ {- [ R (\tau) - R (t) ]} \mathrm {w} (\tau) \mathrm {L d} \tau + \mathrm {B} (t), \tag {10.19}
+\int_{t}^{\infty} \mathrm{e}^{- [ R (\tau) - R (t) ]} \mathrm{E} (\tau) \mathrm{d} \tau \leq \int_{t}^{\infty} \mathrm{e}^{- [ R (\tau) - R (t) ]} \mathrm{w} (\tau) \mathrm{Ld} \tau + \mathrm{B} (t), \tag {10.19}
 $$
 
 where  $R(t)$  is the cumulative interest rate from time 0 to time  $t$ , so that  $\dot{R}(t) \equiv \frac{dR}{dt}$  is the instantaneous interest rate. This budget constraint states that the discounted value of labor income  $w(t)L$ , plus initial assets  $B(t)$ , cannot exceed the discounted value of expenditure. The solution to this optimization problem is, $^{12}$
 
 $$
-\frac {\dot {\mathrm {E}}}{\mathrm {E}} = \dot {\mathrm {R}} - \rho , \tag {10.20}
+\frac{\dot {\mathrm{E}}}{\mathrm{E}} = \dot {\mathrm{R}} - \rho , \tag {10.20}
 $$
 
 where we omit the time index on variables when this will not cause confusion.
@@ -721,7 +721,7 @@ On the production side, the final good  $y$  is manufactured under perfect compe
 input is,
 
 $$
-p _ {i} \left(1 - \frac {1}{\sigma}\right) = w, \text {o r} p _ {i} = w \left(\frac {\sigma}{\sigma - 1}\right), \tag {10.21}
+p_{i} \left(1 - \frac{1}{\sigma}\right) = w, \text{or} p_{i} = w \left(\frac{\sigma}{\sigma - 1}\right), \tag {10.21}
 $$
 
 where  $\mathbf{w}$  is the wage (which depends on  $t$ ).
@@ -731,27 +731,27 @@ Input-producing firms have a fixed cost only when they begin production. The key
 With fixed labor costs of  $\alpha / N(t)$ , the nominal fixed costs are  $\alpha w(t) / N(t)$ . These are financed by consumers purchasing equity in the firms, which provides both dividends and capital gains. The instantaneous profits of the firms are:
 
 $$
-\pi_ {\mathrm {i}} = \left(\mathrm {p} _ {\mathrm {i}} - \mathrm {w}\right) \mathrm {x} _ {\mathrm {i}} = \left(\frac {1}{\sigma - 1}\right) \mathrm {w x}, \tag {10.22}
+\pi_{\mathrm{i}} = \left(\mathrm{p}_{\mathrm{i}} - \mathrm{w}\right) \mathrm{x}_{\mathrm{i}} = \left(\frac{1}{\sigma - 1}\right) \mathrm{wx}, \tag {10.22}
 $$
 
-using (10.21) and symmetry of the equilibrium, so that  $\mathrm{x_i = x}$ . The zero profit conditions for the
+using (10.21) and symmetry of the equilibrium, so that  $\mathrm{x_i =x}$ . The zero profit conditions for the
 
 firms are that the present discounted value of instantaneous profits in (10.22) must equal the fixed costs  $\alpha w(t) / N(t)$ ,
 
 $$
-V (t) \equiv \int_ {t} ^ {\infty} e ^ {- p (\tau - t)} \left(\frac {1}{\sigma - 1}\right) w (\tau) x (\tau) d \tau = \frac {\alpha w (t)}{N (t)}, \quad f o r a l l t. \tag {10.23}
+V (t) \equiv \int_{t}^{\infty} e^{- p (\tau - t)} \left(\frac{1}{\sigma - 1}\right) w (\tau) x (\tau) d \tau = \frac{\alpha w (t)}{N (t)}, \quad f o r a l l t. \tag {10.23}
 $$
 
 Since (10.23) holds for all  $t$ , we can differentiate it with respect to  $t$ , obtaining,
 
 $$
-\dot {\mathrm {V}} = - \left(\frac {1}{\sigma - 1}\right) \mathrm {w} (t) \mathrm {x} (t) + \rho \int_ {t} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - t)} \left(\frac {1}{\sigma - 1}\right) \mathrm {w} (\tau) \mathrm {x} (\tau) \mathrm {d} \tau = \frac {\alpha \dot {\mathrm {w}}}{\mathrm {N}} - \frac {\alpha \mathrm {w} \dot {\mathrm {N}}}{\mathrm {N} ^ {2}}. \tag {10.24}
+\dot {\mathrm{V}} = - \left(\frac{1}{\sigma - 1}\right) \mathrm{w} (t) \mathrm{x} (t) + \rho \int_{t}^{\infty} \mathrm{e}^{- \rho (\tau - t)} \left(\frac{1}{\sigma - 1}\right) \mathrm{w} (\tau) \mathrm{x} (\tau) \mathrm{d} \tau = \frac{\alpha \dot {\mathrm{w}}}{\mathrm{N}} - \frac{\alpha \mathrm{w} \dot {\mathrm{N}}}{\mathrm{N}^{2}}. \tag {10.24}
 $$
 
 To simplify (10.24), we can divide by the fixed costs  $\alpha w / N$ , obtaining,
 
 $$
-\underbrace {\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N x}}{\alpha}} _ {\text {D i v i d e n d s}} + \underbrace {\left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {N}}}{\mathrm {N}}\right)} _ {\text {C a p i t a l g a i n s}} = \underset {\text {i n t e r e s t r a t e}} {\rho}. \tag {10.25}
+\underbrace {\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{Nx}}{\alpha}}_{\text{Di vi de nd s}} + \underbrace {\left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{N}}}{\mathrm{N}}\right)}_{\text{Ca pi ta lg ai ns}} = \underset {\text{in te re st ra te}} {\rho}. \tag {10.25}
 $$
 
 This is the key arbitrage condition of the endogenous growth model with expanding input variety, as derived by Grossman and Helpman (1990, 1991). The left-hand side of (10.25) is the sum of dividends plus capital gains, which should equal the discount rate on the right, that we interpret as the real interest rate.
@@ -759,7 +759,7 @@ This is the key arbitrage condition of the endogenous growth model with expandin
 With (10.25) in hand we can complete the model quite easily by using the full-employment condition for the economy. This can be written as,
 
 $$
-\mathrm {L} = \mathrm {N x} + \left(\frac {\alpha}{\mathrm {N}}\right) \dot {\mathrm {N}}. \tag {10.26}
+\mathrm{L} = \mathrm{Nx} + \left(\frac{\alpha}{\mathrm{N}}\right) \dot {\mathrm{N}}. \tag {10.26}
 $$
 
 The left-hand side of (10.26) is the fixed endowment of labor, and the right-hand side equals the sum of labor used in production,  $\mathrm{Nx} = \mathrm{X}$ , and labor used in R&D, which is the fixed cost  $(\alpha / \mathrm{N})$
@@ -767,13 +767,13 @@ The left-hand side of (10.26) is the fixed endowment of labor, and the right-han
 times the growth of new products. Let us define the growth rate of inputs as  $\mathrm{g} \equiv \dot{\mathrm{N}} / \mathrm{N}$ . Then we can re-write (10.26) as  $\mathrm{L} = \mathrm{X} + \alpha \mathrm{g}$ , or  $\mathrm{X} = \mathrm{L} - \alpha \mathrm{g}$ . Substituting this into (10.25) we obtain,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \binom {\mathrm {L} - \alpha \mathrm {g}} {\alpha} + \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \mathrm {g}\right) = \rho . \tag {10.27}
+\left(\frac{1}{\sigma - 1}\right) \binom {\mathrm{L} - \alpha \mathrm{g}} {\alpha} + \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \mathrm{g}\right) = \rho . \tag {10.27}
 $$
 
 Now consider a steady-state solution with  $\dot{\mathbf{w}} = 0$ . Substituting this into (10.27), we can readily solve for the autarky growth rate as,
 
 $$
-\mathrm {g} ^ {\mathrm {a}} = \left(\frac {1}{\sigma}\right) \left[ \frac {\mathrm {L}}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.28}
+\mathrm{g}^{\mathrm{a}} = \left(\frac{1}{\sigma}\right) \left[ \frac{\mathrm{L}}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.28}
 $$
 
 Thus, the economy achieves steady-state growth even with a fixed labor supply, provided that  $(\mathrm{L} / \alpha) > (\sigma - 1)\rho$ . Notice that with the growth rate fixed at  $\mathbf{g}^{\mathrm{a}}$ , the labor devoted to production is also fixed at  $\mathrm{X} = \mathrm{L} - \alpha \mathbf{g}^{\mathrm{a}}$ . Then from (10.17) we can solve for the growth rate of GDP as  $\dot{\mathbf{y}} / \mathbf{y} = \mathbf{g}^{\mathrm{a}} / (\sigma - 1)$ . So along with the continual growth of new products, there is also continual growth of GDP and utility. $^{13}$
@@ -783,7 +783,7 @@ Thus, the economy achieves steady-state growth even with a fixed labor supply, p
 Let us compare the autarky growth rate in (10.28) with that achieved under free trade between the two countries. Suppose that the foreign country has the same production function as at home and differs only in its labor endowment  $\mathrm{L}^*$ . We will suppose that the final goods produced in the two countries are imperfect substitutes, with the instantaneous utility function in each country,
 
 $$
-U (y, y ^ {*}) = \ln \left[ y ^ {(\eta - 1) / \eta} + (y ^ {*}) ^ {(\eta - 1) / \eta} \right] ^ {\eta / (\eta - 1)}. \tag {10.29}
+U (y, y^{*}) = \ln \left[ y^{(\eta - 1) / \eta} + (y^{*})^{(\eta - 1) / \eta} \right]^{\eta / (\eta - 1)}. \tag {10.29}
 $$
 
 This is the log of a CES function with elasticity of substitution  $\eta > 1$ . We suppose that the final goods from home and abroad are freely traded, at the prices  $p_y$  and  $p_y^*$ , respectively.
@@ -791,13 +791,13 @@ This is the log of a CES function with elasticity of substitution  $\eta > 1$ . 
 Given expenditure  $\mathrm{E}$  in the home country, it follows that the demand for the final goods of each country is, $^{14}$
 
 $$
-y = \left(p _ {y} / P\right) ^ {- \eta} (E / P), \text {a n d} y ^ {*} = \left(p _ {y} ^ {*} / P\right) ^ {- \eta} (E / P), \tag {10.30}
+y = \left(p_{y} / P\right)^{- \eta} (E / P), \text{an d} y^{*} = \left(p_{y}^{*} / P\right)^{- \eta} (E / P), \tag {10.30}
 $$
 
 where  $\mathrm{P}$  refers to the overall price index of the final goods, defined as:
 
 $$
-P \left(p _ {y}, p _ {y} ^ {*}\right) = \left[ p _ {y} ^ {1 - \eta} + \left(p _ {y} ^ {*}\right) ^ {1 - \eta} \right] ^ {1 / (1 - \eta)}. \tag {10.31}
+P \left(p_{y}, p_{y}^{*}\right) = \left[ p_{y}^{1 - \eta} + \left(p_{y}^{*}\right)^{1 - \eta} \right]^{1 / (1 - \eta)}. \tag {10.31}
 $$
 
 Demand for the final goods from the foreign county is similar, and is obtained by just replacing home expenditure E by foreign expenditure  $\mathrm{E}^*$  in (10.30)
@@ -809,7 +809,7 @@ With this setup, we want to contrast the effects of trade in two scenarios. In t
 The latter assumption means that the fixed costs of creating a new product in either country is  $\alpha / [N(t) + N^*(t)]$ . Under this set of assumptions, the integrated world equilibrium with the two countries is simply a "blown up" version of either country in autarky. The effect of this increase in size is to raise the growth rate from that shown in (10.28) to:
 
 $$
-\mathrm {g} ^ {\mathrm {w}} = \left(\frac {1}{\sigma}\right) \left[ \frac {\left(\mathrm {L} + \mathrm {L} ^ {*}\right)}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.32}
+\mathrm{g}^{\mathrm{w}} = \left(\frac{1}{\sigma}\right) \left[ \frac{\left(\mathrm{L} + \mathrm{L}^{*}\right)}{\alpha} - (\sigma - 1) \rho \right]. \tag {10.32}
 $$
 
 The result that the growth rate increases in proportion to the size of the world economy is referred to as a "scale effect," and is the dynamic analogue to the static gains from trade that we saw in Krugman's model in the beginning of chapter 5. This result has come under some criticism in the growth literature, not so much because of the result that trade increases growth, but rather, because of another result that subsidies to R&D permanently raise the growth rate. Both of these propositions depend very strongly on our specification that fixed costs are inversely proportional to the number of products already developed. If this strict inversely proportionality does not hold, e.g. if we specified fixed costs as  $\alpha / N^{\beta}$ , with  $0 < \beta < 1$ , then new product development in the absence of population growth will eventually stop. Jones (1995a,b) has referred to models of this type as "semi-endogenous" growth, and they imply that free trade or subsidies to R&D have only temporary effects on the growth rate. It follows that there is an empirical question as to which class of models is most realistic, as we shall discuss later.
@@ -823,25 +823,25 @@ $\alpha / \mathrm{N}^{*}(\mathrm{t})$ , respectively. Initially, we suppose that
 With the countries growing at different rates, we cannot simultaneously use the normalizations  $\mathrm{E}(\mathrm{t}) \equiv 1$  and  $\mathrm{E}^* (\mathrm{t}) \equiv 1$ , so it is no longer the case that  $\dot{\mathbf{R}} (\mathbf{t}) = \boldsymbol {\rho}$ . Accordingly, the profits of input-producing firms in (10.23) are discounted using the cumulative interest rate  $\mathrm{R(t)}$  and the arbitrage condition in each country is re-written from (10.25) as,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N x}}{\alpha} + \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {N}}}{\mathrm {N}}\right) = \dot {\mathrm {R}}, \tag {10.33}
+\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{Nx}}{\alpha} + \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{N}}}{\mathrm{N}}\right) = \dot {\mathrm{R}}, \tag {10.33}
 $$
 
 and,
 
 $$
-\left(\frac {1}{\sigma - 1}\right) \frac {\mathrm {N} * \mathrm {x} ^ {*}}{\alpha} + \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}} - \frac {\dot {\mathrm {N}} ^ {*}}{\mathrm {N} ^ {*}}\right) = \dot {\mathrm {R}}. \tag {10.34}
+\left(\frac{1}{\sigma - 1}\right) \frac{\mathrm{N} * \mathrm{x}^{*}}{\alpha} + \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}} - \frac{\dot {\mathrm{N}}^{*}}{\mathrm{N}^{*}}\right) = \dot {\mathrm{R}}. \tag {10.34}
 $$
 
 As before, we will use the notation  $\mathrm{X} \equiv \mathrm{Nx}$  and  $\mathrm{X}^* \equiv \mathrm{N}^*\mathrm{x}^*$  to denote the amount of labor devoted to production of intermediate inputs in each country. In addition, let  $\mathrm{g} \equiv (\dot{\mathrm{N}} / \mathrm{N})$  and  $\mathrm{g}^* \equiv (\dot{\mathrm{N}}^*/\mathrm{N}^*)$  denote the home and foreign growth rates of new inputs. The full-employment condition in each country implies that  $\mathrm{X} = \mathrm{L} - \alpha \mathrm{g}$  and  $\mathrm{X}^* = \mathrm{L}^* - \alpha \mathrm{g}^*$ , and substituting these into (10.33) and (10.34), we can derive the growth rates:
 
 $$
-\mathrm {g} = \left(\frac {\mathrm {L}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}}\right) \right], \quad \text {a n d ,} \quad \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} ^ {*}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right) \right]. \tag {10.35}
+\mathrm{g} = \left(\frac{\mathrm{L}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}}\right) \right], \quad \text{an d ,} \quad \mathrm{g}^{*} = \left(\frac{\mathrm{L}^{*}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right) \right]. \tag {10.35}
 $$
 
 These equations show that the growth rates are inversely related to the real interest rates  $[\dot{\mathrm{R}} -(\dot{\mathrm{w}} /\mathrm{w})]$  and  $[\dot{\mathrm{R}} -(\dot{\mathrm{w}}^{*} / \mathrm{w}^{*})]$ : having a higher nominal interest rate  $\dot{\mathbf{R}}$  lowers the discounted value of profits and therefore expenditure on R&D; conversely, having a rising path of wages and prices leads to rising profits and a lower real interest rate, with higher R&D. Taking the difference between the two growth rates in (10.35), we obtain,
 
 $$
-\mathrm {g} - \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} - \mathrm {L} ^ {*}}{\alpha \sigma}\right) + \left(\frac {\sigma - 1}{\sigma}\right) \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right). \tag {10.36}
+\mathrm{g} - \mathrm{g}^{*} = \left(\frac{\mathrm{L} - \mathrm{L}^{*}}{\alpha \sigma}\right) + \left(\frac{\sigma - 1}{\sigma}\right) \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right). \tag {10.36}
 $$
 
 Let us assume henceforth that the home country is larger,  $\mathrm{L} > \mathrm{L}^*$ . From (10.36) we see that this difference in size will tend to be associated with a faster growth rate at home,  $\mathrm{g} > \mathrm{g}^*$ . The growth rates are also affected, however, by the change in wages on the right. In the autarky equilibrium discussed above, we had focused on the steady-state solution with  $\dot{\mathrm{w}} = 0$ . But now it is impossible to assume this for both countries: assuming  $\dot{\mathrm{w}} = \dot{\mathrm{w}}^* = 0$  implies that  $\mathrm{g} > \mathrm{g}^*$  from (10.36), and we will argue below that this implies rising relative wages for the home country,  $\dot{\mathrm{w}} / \mathrm{w} > \dot{\mathrm{w}}^* / \mathrm{w}^*$ , which is a contradiction. Thus, the assumption of a steady-state equilibrium is inconsistent with the dynamic equations for the two countries. Accordingly, we need to solve for the growth rates outside of the steady state.
@@ -849,27 +849,27 @@ Let us assume henceforth that the home country is larger,  $\mathrm{L} > \mathrm
 We begin by solving for the change in wages, from the production function  $y = N^{1 / (\sigma - 1)}X$  in (10.17), where  $X$  is the amount of intermediate inputs purchased at the price of  $p_i = w\sigma / (\sigma - 1)$ . It follows that the marginal cost of producing the final good is  $p_y = p_i / N^{1 / (\sigma - 1)} = w\sigma / [(\sigma - 1)N^{1 / (\sigma - 1)}]$  at home, and  $p_y^* = w^*\sigma / [((\sigma - 1)(N^*)^{1 / (\sigma - 1)}]$  abroad. Differentiating these and taking the difference, we obtain,
 
 $$
-\left(\frac {\dot {p} _ {y}}{\dot {p} _ {y}}\right) - \left(\frac {\dot {p} _ {y} ^ {*}}{p _ {y} ^ {*}}\right) = \left(\frac {\dot {w}}{w} - \frac {\dot {w} ^ {*}}{w ^ {*}}\right) - \left(\frac {g - g ^ {*}}{\sigma - 1}\right). \tag {10.37}
+\left(\frac{\dot {p}_{y}}{\dot {p}_{y}}\right) - \left(\frac{\dot {p}_{y}^{*}}{p_{y}^{*}}\right) = \left(\frac{\dot {w}}{w} - \frac{\dot {w}^{*}}{w^{*}}\right) - \left(\frac{g - g^{*}}{\sigma - 1}\right). \tag {10.37}
 $$
 
 This equation states that a higher growth rate at home will tend to be associated with rising relative wages, but this also depends on the changes in the prices of the final goods in each country.
 
-To determine these prices, we make use of the CES demands in (10.30), which imply that  $(\mathrm{p_y / p_y^*}) = (\mathrm{y / y^*})^{-1 / \eta}$ . Differentiating this using the production functions  $\mathbf{y} = \mathbf{N}^{1 / (\sigma -1)}\mathbf{X}$  and  $\mathbf{y}^{*} = (\mathbf{N}^{*})^{1 / (\sigma -1)}\mathbf{X}^{*}$ , we obtain,
+To determine these prices, we make use of the CES demands in (10.30), which imply that  $(\mathrm{p_y /p_y^*}) = (\mathrm{y /y^*})^{-1 / \eta}$ . Differentiating this using the production functions  $\mathbf{y} = \mathbf{N}^{1 / (\sigma -1)}\mathbf{X}$  and  $\mathbf{y}^{*} = (\mathbf{N}^{*})^{1 / (\sigma -1)}\mathbf{X}^{*}$ , we obtain,
 
 $$
-\left(\frac {\dot {p} _ {y}}{\dot {p} _ {y}}\right) - \left(\frac {\dot {p} _ {y} ^ {*}}{p _ {y} ^ {*}}\right) = - \frac {1}{\eta} \left[ \left(\frac {g - g ^ {*}}{\sigma - 1}\right) + \frac {\dot {X}}{X} - \frac {\dot {X} ^ {*}}{X ^ {*}} \right]. \tag {10.38}
+\left(\frac{\dot {p}_{y}}{\dot {p}_{y}}\right) - \left(\frac{\dot {p}_{y}^{*}}{p_{y}^{*}}\right) = - \frac{1}{\eta} \left[ \left(\frac{g - g^{*}}{\sigma - 1}\right) + \frac{\dot {X}}{X} - \frac{\dot {X}^{*}}{X^{*}} \right]. \tag {10.38}
 $$
 
 Then combining (10.36) - (10.38), we can derive the fundamental relation,
 
 $$
-\mathrm {g} - \mathrm {g} ^ {*} = \Delta \left(\frac {\mathrm {L} - \mathrm {L} ^ {*}}{\alpha \sigma}\right) - \Delta \left(\frac {\sigma - 1}{\eta \sigma}\right) \left(\frac {\dot {\mathrm {X}}}{\mathrm {X}} - \frac {\dot {\mathrm {X}} ^ {*}}{\mathrm {X} ^ {*}}\right), \tag {10.39}
+\mathrm{g} - \mathrm{g}^{*} = \Delta \left(\frac{\mathrm{L} - \mathrm{L}^{*}}{\alpha \sigma}\right) - \Delta \left(\frac{\sigma - 1}{\eta \sigma}\right) \left(\frac{\dot {\mathrm{X}}}{\mathrm{X}} - \frac{\dot {\mathrm{X}}^{*}}{\mathrm{X}^{*}}\right), \tag {10.39}
 $$
 
 where,
 
 $$
-\Delta \equiv \left[ 1 - \frac {(\eta - 1)}{\eta \sigma} \right] ^ {- 1} > 1. \tag {10.40}
+\Delta \equiv \left[ 1 - \frac{(\eta - 1)}{\eta \sigma} \right]^{- 1} > 1. \tag {10.40}
 $$
 
 Equation (10.39) shows that the difference in the growth of new inputs across the countries depends on the difference in their size. There is also another term on the right of (10.39), depending on  $\dot{\mathbf{X}}$  and  $\dot{\mathbf{X}}^*$ , but we can safely presume that this term approaches zero as  $t \to \infty$ . Notice that the difference in the autarky growth rates of the two countries is exactly
@@ -949,69 +949,69 @@ All of the empirical applications we have discussed so far have been indirect te
 Let us begin with the CES production function in (10.16). The problem with using this function is that it is symmetric: at equal prices, every input would have the same demand. That assumption is made for convenience in our theoretical models, but is unacceptable empirically: we need to let demand be whatever the data indicates. So instead we will work with the non-symmetric CES function,
 
 $$
-\mathrm {y} _ {\mathrm {t}} = \mathrm {f} \left(\mathrm {x} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) = \left[ \sum_ {\mathrm {i} \in \mathrm {I} _ {\mathrm {t}}} \mathrm {a} _ {\mathrm {i}} \mathrm {x} _ {\mathrm {i t}} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)}, \sigma > 1, \tag {10.41}
+\mathrm{y}_{\mathrm{t}} = \mathrm{f} \left(\mathrm{x}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) = \left[ \sum_{\mathrm{i} \in \mathrm{I}_{\mathrm{t}}} \mathrm{a}_{\mathrm{i}} \mathrm{x}_{\mathrm{it}}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)}, \sigma > 1, \tag {10.41}
 $$
 
 where  $a_i > 0$  are parameters and  $I_t$  denotes the set of inputs available in period  $t$ , at the prices  $p_{it}$ . The CES unit-cost function dual to (10.41) is, $^{21}$
 
 $$
-\mathrm {c} \left(\mathrm {p} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) = \left[ \sum_ {\mathrm {i} \in \mathrm {I} _ {\mathrm {t}}} \mathrm {b} _ {\mathrm {i}} \mathrm {p} _ {\mathrm {i t}} ^ {1 - \sigma} \right] ^ {1 / (1 - \sigma)}, \sigma > 1, \mathrm {b} _ {\mathrm {i}} \equiv \mathrm {a} _ {\mathrm {i}} ^ {\sigma}. \tag {10.42}
+\mathrm{c} \left(\mathrm{p}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) = \left[ \sum_{\mathrm{i} \in \mathrm{I}_{\mathrm{t}}} \mathrm{b}_{\mathrm{i}} \mathrm{p}_{\mathrm{it}}^{1 - \sigma} \right]^{1 / (1 - \sigma)}, \sigma > 1, \mathrm{b}_{\mathrm{i}} \equiv \mathrm{a}_{\mathrm{i}}^{\sigma}. \tag {10.42}
 $$
 
-We are interested in determining how much unit-costs are reduced when the set of product varieties expands. To this end, let us first consider the case where  $\mathrm{I}_{\mathrm{t - 1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$ , so there is
+We are interested in determining how much unit-costs are reduced when the set of product varieties expands. To this end, let us first consider the case where  $\mathrm{I}_{\mathrm{t -1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$ , so there is
 
 no change in the set of goods. Let us also assume that the observed input purchases  $\mathbf{x}_{\mathrm{it}}$  are cost minimizing for the prices and output, that is,  $\mathbf{x}_{\mathrm{it}} = \mathbf{y}_{\mathrm{t}}(\partial \mathbf{c} / \partial \mathbf{p}_{\mathrm{it}})$ . In that case, the ratio of unit-costs can be measured by the price index due to Sato (1976) and Vartia (1976):
 
 # Theorem (Sato, 1976; Vartia, 1976)
 
-If the set of inputs available is fixed at  $\mathrm{I}_{\mathrm{t - 1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$  and inputs are cost-minimizing, then:
+If the set of inputs available is fixed at  $\mathrm{I}_{\mathrm{t -1}} = \mathrm{I}_{\mathrm{t}} = \mathrm{I}$  and inputs are cost-minimizing, then:
 
 $$
-\frac {c \left(p _ {t} , I\right)}{c \left(p _ {t - 1} , I\right)} = P _ {\mathrm {S V}} \left(p _ {t - 1}, p _ {t}, x _ {t - 1}, x _ {t}, I\right) \equiv \prod_ {i \in I} \left(\frac {p _ {i t}}{p _ {i t - 1}}\right) ^ {\mathrm {w} _ {i} (\mathrm {I})}, \tag {10.43}
+\frac{c \left(p_{t} , I\right)}{c \left(p_{t - 1} , I\right)} = P_{\mathrm{SV}} \left(p_{t - 1}, p_{t}, x_{t - 1}, x_{t}, I\right) \equiv \prod_{i \in I} \left(\frac{p_{i t}}{p_{i t - 1}}\right)^{\mathrm{w}_{i} (\mathrm{I})}, \tag {10.43}
 $$
 
 where the weights  $\mathrm{w_i(I)}$  are constructed from the expenditure shares  $\mathrm{s_{it}(I)}\equiv \mathrm{p_{it}x_{it}} / \sum_{i\in I}\mathrm{p_{it}x_{it}}$  as,
 
 $$
-\mathrm {w} _ {\mathrm {i}} (\mathrm {I}) \equiv \left(\frac {\mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}{\ln \mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \ln \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}\right) / \sum_ {\mathrm {i} \in \mathrm {I}} \left(\frac {\mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}{\ln \mathrm {s} _ {\mathrm {i t}} (\mathrm {I}) - \ln \mathrm {s} _ {\mathrm {i t} - 1} (\mathrm {I})}\right). \tag {10.44}
+\mathrm{w}_{\mathrm{i}} (\mathrm{I}) \equiv \left(\frac{\mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}{\ln \mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \ln \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}\right) / \sum_{\mathrm{i} \in \mathrm{I}} \left(\frac{\mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}{\ln \mathrm{s}_{\mathrm{it}} (\mathrm{I}) - \ln \mathrm{s}_{\mathrm{it} - 1} (\mathrm{I})}\right). \tag {10.44}
 $$
 
-To interpret this result, the numerator on the right of (10.44) is a logarithmic mean of the expenditure shares  $s_{\mathrm{it}}(\mathrm{I})$  and  $s_{\mathrm{it - 1}}(\mathrm{I})$ , and lies between these two values. The denominator ensures that the weights  $w_i(I)$  sum to unity, so that the Sato-Vartia index  $P_{\mathrm{SV}}$  defined on the right of (10.43) is simply a geometric mean of the price ratios  $(p_{\mathrm{it}} / p_{\mathrm{it - 1}})$ . The theorem states that this index exactly equals the ratio of the CES unit-cost functions, provided that the observed input quantities used to construct the weight are cost minimizing.
+To interpret this result, the numerator on the right of (10.44) is a logarithmic mean of the expenditure shares  $s_{\mathrm{it}}(\mathrm{I})$  and  $s_{\mathrm{it -1}}(\mathrm{I})$ , and lies between these two values. The denominator ensures that the weights  $w_i(I)$  sum to unity, so that the Sato-Vartia index  $P_{\mathrm{SV}}$  defined on the right of (10.43) is simply a geometric mean of the price ratios  $(p_{\mathrm{it}} / p_{\mathrm{it -1}})$ . The theorem states that this index exactly equals the ratio of the CES unit-cost functions, provided that the observed input quantities used to construct the weight are cost minimizing.
 
-Now consider the case where the set of inputs is changing over time, but some of the inputs are available in both periods, so that  $\mathrm{I}_{\mathrm{t - 1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$ . We again let  $\mathbf{c}(\mathfrak{p},\mathbf{I})$  denote the unit-
+Now consider the case where the set of inputs is changing over time, but some of the inputs are available in both periods, so that  $\mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$ . We again let  $\mathbf{c}(\mathfrak{p},\mathbf{I})$  denote the unit-
 
 cost function defined over the inputs within the set I. Then the ratio  $c(\mathfrak{p}_{\mathrm{t}}, \mathbf{I}) / c(\mathfrak{p}_{\mathrm{t-1}}, \mathbf{I})$  is still measured by the Sato-Vartia index in the above theorem. Our interest is in the ratio  $c(\mathfrak{p}_{\mathrm{t}}, \mathbf{I}_{\mathrm{t}}) / c(\mathfrak{p}_{\mathrm{t-1}}, \mathbf{I}_{\mathrm{t-1}})$ , which can be measured as follows:
 
 # Theorem (Feenstra, 1994)
 
-Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t - 1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$  ..
+Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$  ..
 
 $$
-\frac {c \left(p _ {t} , I _ {t}\right)}{c \left(p _ {t - 1} , I _ {t - 1}\right)} = \left(\frac {\lambda_ {t} (I)}{\lambda_ {t - 1} (I)}\right) ^ {1 / (\sigma - 1)} \prod_ {i \in I} \left(\frac {p _ {i t}}{p _ {i t - 1}}\right) ^ {w _ {i} (I)} \tag {10.45}
+\frac{c \left(p_{t} , I_{t}\right)}{c \left(p_{t - 1} , I_{t - 1}\right)} = \left(\frac{\lambda_{t} (I)}{\lambda_{t - 1} (I)}\right)^{1 / (\sigma - 1)} \prod_{i \in I} \left(\frac{p_{i t}}{p_{i t - 1}}\right)^{w_{i} (I)} \tag {10.45}
 $$
 
 where the weights  $\mathbf{w}_{\mathrm{i}}(\mathbf{I})$  are constructed from the expenditure shares  $s_{it}(\mathbf{I}) \equiv p_{it}x_{it} / \sum_{i \in I}p_{it}x_{it}$  as in (10.44), and the values  $\lambda_{t}(\mathbf{I})$  and  $\lambda_{t-1}(\mathbf{I})$  are constructed as:
 
 $$
-\lambda_ {\tau} (\mathrm {I}) = \left(\frac {\sum_ {\mathrm {i} \in \mathrm {I}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}{\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}\right) = 1 - \left(\frac {\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau} , \mathrm {i} \notin \mathrm {I}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}{\sum_ {\mathrm {i} \in \mathrm {I} _ {\tau}} p _ {\mathrm {i} \tau} \mathrm {x} _ {\mathrm {i} \tau}}\right), \quad \tau = \mathrm {t} - 1, \mathrm {t}. \tag {10.46}
+\lambda_{\tau} (\mathrm{I}) = \left(\frac{\sum_{\mathrm{i} \in \mathrm{I}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}{\sum_{\mathrm{i} \in \mathrm{I}_{\tau}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}\right) = 1 - \left(\frac{\sum_{\mathrm{i} \in \mathrm{I}_{\tau} , \mathrm{i} \notin \mathrm{I}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}{\sum_{\mathrm{i} \in \mathrm{I}_{\tau}} p_{\mathrm{i} \tau} \mathrm{x}_{\mathrm{i} \tau}}\right), \quad \tau = \mathrm{t} - 1, \mathrm{t}. \tag {10.46}
 $$
 
-To interpret this result, the product on the far right of (10.45) is simply the Sato-Vartia index, constructed over the set of inputs I that are common to both periods. This measures the ratio of unit-costs  $\mathrm{c(p_t,I) / c(p_{t - 1},I)}$ , for the inputs available in both periods. The first ratio of the right of (10.45) shows how the Sato-Vartia index must be adjusted to account for the new inputs (in the set  $I_{t}$  but not I) or disappearing inputs (in the set  $I_{t - 1}$  but not I). From (10.46), each of the terms  $\lambda_{\tau}(\mathrm{I}) \leq 1$  can be interpreted as the period  $\tau$  expenditure on the inputs in the set I, relative to the period  $\tau$  total expenditure. Alternatively, this can be interpreted as one minus the period  $\tau$  expenditure on "new" inputs (not in the set I), relative to the period  $\tau$  total expenditure. When
+To interpret this result, the product on the far right of (10.45) is simply the Sato-Vartia index, constructed over the set of inputs I that are common to both periods. This measures the ratio of unit-costs  $\mathrm{c(p_t,I) /c(p_{t -1},I)}$ , for the inputs available in both periods. The first ratio of the right of (10.45) shows how the Sato-Vartia index must be adjusted to account for the new inputs (in the set  $I_{t}$  but not I) or disappearing inputs (in the set  $I_{t - 1}$  but not I). From (10.46), each of the terms  $\lambda_{\tau}(\mathrm{I}) \leq 1$  can be interpreted as the period  $\tau$  expenditure on the inputs in the set I, relative to the period  $\tau$  total expenditure. Alternatively, this can be interpreted as one minus the period  $\tau$  expenditure on "new" inputs (not in the set I), relative to the period  $\tau$  total expenditure. When
 
 there is a greater number of new inputs in period  $t$ , this will tend to lower the value of  $\lambda_{t}(\mathbf{I})$ .
 
-Notice that the ratio  $[\lambda_{\mathrm{t}}(\mathrm{I}) / \lambda_{\mathrm{t - 1}}(\mathrm{I})]$  on the right of (10.45) is raised to the power  $1 / (\sigma -1) > 0$  , so that a lower value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  due to new inputs will reduce the unit-cost ratio in (10.45) by more when the elasticity of substitution is lower.
+Notice that the ratio  $[\lambda_{\mathrm{t}}(\mathrm{I}) / \lambda_{\mathrm{t -1}}(\mathrm{I})]$  on the right of (10.45) is raised to the power  $1 / (\sigma -1) > 0$  , so that a lower value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  due to new inputs will reduce the unit-cost ratio in (10.45) by more when the elasticity of substitution is lower.
 
 To see the usefulness of this theorem, let us measure "dual" factor productivity as the log difference between the index of input prices and the ratio of unit-costs:
 
 $$
-\mathrm {T F P} \equiv \ln \mathrm {P} _ {\mathrm {S V}} \left(\mathrm {p} _ {\mathrm {t} - 1}, \mathrm {p} _ {\mathrm {t}}, \mathrm {x} _ {\mathrm {t} - 1}, \mathrm {x} _ {\mathrm {t}}, \mathrm {I}\right) - \ln \left[ \mathrm {c} \left(\mathrm {p} _ {\mathrm {t}}, \mathrm {I} _ {\mathrm {t}}\right) / \mathrm {c} \left(\mathrm {p} _ {\mathrm {t} - 1}, \mathrm {I} _ {\mathrm {t} - 1}\right) \right]. \tag {10.47}
+\mathrm{TF P} \equiv \ln \mathrm{P}_{\mathrm{SV}} \left(\mathrm{p}_{\mathrm{t} - 1}, \mathrm{p}_{\mathrm{t}}, \mathrm{x}_{\mathrm{t} - 1}, \mathrm{x}_{\mathrm{t}}, \mathrm{I}\right) - \ln \left[ \mathrm{c} \left(\mathrm{p}_{\mathrm{t}}, \mathrm{I}_{\mathrm{t}}\right) / \mathrm{c} \left(\mathrm{p}_{\mathrm{t} - 1}, \mathrm{I}_{\mathrm{t} - 1}\right) \right]. \tag {10.47}
 $$
 
 Then using the above theorems, we immediately have:
 
 $$
-\mathrm {T F P} = \frac {1}{(\sigma - 1)} \ln \left(\frac {\lambda_ {\mathrm {t} - 1} (\mathrm {I})}{\lambda_ {\mathrm {t}} (\mathrm {I})}\right), \tag {10.48}
+\mathrm{TF P} = \frac{1}{(\sigma - 1)} \ln \left(\frac{\lambda_{\mathrm{t} - 1} (\mathrm{I})}{\lambda_{\mathrm{t}} (\mathrm{I})}\right), \tag {10.48}
 $$
 
 where the terms  $\lambda_{\mathrm{t}}(\mathrm{I})$  are defined in (10.46). Thus, the growth in new inputs, as reflected in a falling value of  $\lambda_{\mathrm{t}}(\mathrm{I})$  will be directly reflected in total factor productivity of the firm or industry using the inputs. This provides us with a direct test of the endogenous growth model with expanding input variety.
@@ -1046,16 +1046,16 @@ Note: Part (b) is rather tricky, so you may not get all of it. If you understand
 10.2 Let us adopt a translog functional form for the GDP function in (10.12), extended to include many outputs:
 
 $$
-\begin{array}{l} \ln G = \alpha_ {0} + \sum_ {i = 1} ^ {N} \alpha_ {i} \ln \left(A _ {i} p _ {i}\right) + \sum_ {k = 1} ^ {M} \beta_ {k} \ln V _ {k} + \frac {1}{2} \sum_ {i = 1} ^ {N} \sum_ {j = 1} ^ {N} \gamma_ {i j} \ln \left(A _ {i} p _ {i}\right) \ln \left(A _ {j} p _ {j}\right) \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} \ln \mathrm {V} _ {\mathrm {k}} \ln \mathrm {V} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} \ln \left(\mathrm {A} _ {\mathrm {i}} \mathrm {p} _ {\mathrm {i}}\right) \ln \mathrm {V} _ {\mathrm {k}}. \\ \end{array}
+\begin{array}{l} \ln G = \alpha_{0} + \sum_{i = 1}^{N} \alpha_{i} \ln \left(A_{i} p_{i}\right) + \sum_{k = 1}^{M} \beta_{k} \ln V_{k} + \frac{1}{2} \sum_{i = 1}^{N} \sum_{j = 1}^{N} \gamma_{i j} \ln \left(A_{i} p_{i}\right) \ln \left(A_{j} p_{j}\right) \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} \ln \mathrm{V}_{\mathrm{k}} \ln \mathrm{V}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \left(\mathrm{A}_{\mathrm{i}} \mathrm{p}_{\mathrm{i}}\right) \ln \mathrm{V}_{\mathrm{k}}. \\ \end{array}
 $$
 
 Differentiating this with respect to  $\ln p_i$ , we obtain the output share equations,
 
 $$
-\mathrm {s _ {i}} = \alpha_ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} \ln (\mathrm {A _ {j} p _ {j}}) + \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} \ln \mathrm {V _ {k}}, \quad \mathrm {i = 1 , . . . , N}.
+\mathrm{s_{i}} = \alpha_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}} \ln (\mathrm{A_{j} p_{j}}) + \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \mathrm{V_{k}}, \quad \mathrm{i =1 , . . . ,N}.
 $$
 
-where  $\mathrm{s_i = p_i y_i / G}$  is the share of each output in GDP.
+where  $\mathrm{s_i =p_iy_i /G}$  is the share of each output in GDP.
 
 (a) Write the quantity of each output as  $\ln y_{i} = \ln (s_{i}G / p_{i})$ . Differentiate this with respect to  $\ln p_{i}$  and obtain an expression for the output elasticity  $(\partial \ln y_{i} / \partial \ln p_{i})$ . What restriction on the translog parameters must hold for this elasticity to be positive?
 
@@ -1064,7 +1064,7 @@ where  $\mathrm{s_i = p_i y_i / G}$  is the share of each output in GDP.
 10.3 Consider the problem of maximizing (10.18) subject to (10.19), where for convenience we set  $t = 0$ . Write this as the Lagrangian,
 
 $$
-\begin{array}{l} \int_ {0} ^ {\infty} \mathrm {e} ^ {- \rho \tau} [ \ln \mathrm {E} (\tau) - \ln \mathrm {P} (\tau) ] \mathrm {d} \tau + \lambda \left\{\int_ {0} ^ {\infty} \mathrm {e} ^ {- \mathrm {R} (\tau)} \mathrm {w} (\tau) \mathrm {L d} \tau + \mathrm {A} (t) - \int_ {0} ^ {\infty} \mathrm {e} ^ {- \mathrm {R} (\tau)} \mathrm {E} (\tau) \mathrm {d} \tau \right\} \\ = \int_ {t} ^ {\infty} \left\{e ^ {- \rho \tau} [ \ln E (\tau) - \ln P (\tau) ] d \tau + e ^ {- R (\tau)} \lambda [ w (\tau) L - E (\tau) ] \right\} d \tau + \lambda B (t), \\ \end{array}
+\begin{array}{l} \int_{0}^{\infty} \mathrm{e}^{- \rho \tau} [ \ln \mathrm{E} (\tau) - \ln \mathrm{P} (\tau) ] \mathrm{d} \tau + \lambda \left\{\int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{w} (\tau) \mathrm{Ld} \tau + \mathrm{A} (t) - \int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{E} (\tau) \mathrm{d} \tau \right\} \\ = \int_{t}^{\infty} \left\{e^{- \rho \tau} [ \ln E (\tau) - \ln P (\tau) ] d \tau + e^{- R (\tau)} \lambda [ w (\tau) L - E (\tau) ] \right\} d \tau + \lambda B (t), \\ \end{array}
 $$
 
 where in the second line we bring the Lagrange multiplier inside the integral. The expression inside the integral must be maximized at every point in time. So differentiate this expression with respect to  $\mathrm{E}(\tau)$  to obtain the first-order condition (10.20).
@@ -1072,13 +1072,13 @@ where in the second line we bring the Lagrange multiplier inside the integral. T
 10.4 Consider a central planner who chooses the time-path of output to maximize utility. This problem can be written as,
 
 $$
-\max  _ {\mathrm {Y} (\tau)} \int_ {t} ^ {\infty} \mathrm {e} ^ {- \rho (\tau - t)} \ln \mathrm {Y} (\tau) \mathrm {d} \tau ,
+\max_{\mathrm{Y} (\tau)} \int_{t}^{\infty} \mathrm{e}^{- \rho (\tau - t)} \ln \mathrm{Y} (\tau) \mathrm{d} \tau ,
 $$
 
 subject to,
 
 $$
-\mathrm {Y} = \mathrm {N} ^ {\sigma / (\sigma - 1)} \mathrm {x} = \mathrm {N} ^ {1 / (\sigma - 1)} \mathrm {X} \quad \text {a n d} \quad \mathrm {L} = \mathrm {X} + \alpha (\dot {\mathrm {N}} / \mathrm {N}),
+\mathrm{Y} = \mathrm{N}^{\sigma / (\sigma - 1)} \mathrm{x} = \mathrm{N}^{1 / (\sigma - 1)} \mathrm{X} \quad \text{an d} \quad \mathrm{L} = \mathrm{X} + \alpha (\dot {\mathrm{N}} / \mathrm{N}),
 $$
 
 where  $\mathrm{X} \equiv \mathrm{Nx}$  and the constraints are the production function (10.17) along with the full-employment condition (10.26). Let us restrict our attention to steady-state solutions where  $\mathrm{N}(\tau) = \mathrm{N}(t)\mathrm{e}^{\mathrm{g}(\tau - t)}$ . Substituting this equation along with the constraints into the
@@ -1088,19 +1088,19 @@ objective function, and differentiate it with respect to  $g$  to compute the so
 10.5 Let us solve for the limiting values of the growth rates in (10.35),
 
 $$
-\mathrm {g} = \left(\frac {\mathrm {L}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}}}{\mathrm {w}}\right) \right], \quad \mathrm {a n d ,} \quad \mathrm {g} ^ {*} = \left(\frac {\mathrm {L} ^ {*}}{\alpha \sigma}\right) - \left(\frac {\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm {R}} - \left(\frac {\dot {\mathrm {w}} ^ {*}}{\mathrm {w} ^ {*}}\right) \right].
+\mathrm{g} = \left(\frac{\mathrm{L}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}}\right) \right], \quad \mathrm{an d ,} \quad \mathrm{g}^{*} = \left(\frac{\mathrm{L}^{*}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right) \right].
 $$
 
 To do so, we use the share of world expenditure devoted to the products of the home country, which is  $s = p_y y / (E + E^*)$ , and the share devoted to products of the foreign country, which is  $s^* = p_y^* y^* / (E + E^*)$ , with  $s + s^* = 1$ . In the absence of trade in intermediate inputs, each final good is assembled entirely from inputs produced in the same country. The price of home inputs is  $p_i = w\sigma / (\sigma - 1)$ , so it follows that  $p_y y = p_i X = w\sigma X / (\sigma - 1) = w\sigma (L - \alpha g) / (\sigma - 1)$ , where in the last equality we make use of the home full-employment condition,  $L = X + \alpha g$ . Therefore, the expenditure share on home products can be written as,  $s = w\sigma (L - \alpha g) / [(E + E^*)(\sigma - 1)]$ . Taking logs and differentiating, we obtain:
 
 $$
-\frac {\dot {\mathrm {s}}}{\mathrm {s}} = \frac {\dot {\mathrm {w}}}{\mathrm {w}} - \frac {\dot {\mathrm {g}}}{(\mathrm {L} - \alpha \mathrm {g})} - \left[ \frac {\dot {\mathrm {E}}}{\mathrm {E}} \left(\frac {\mathrm {E}}{\mathrm {E} + \mathrm {E} ^ {*}}\right) + \frac {\dot {\mathrm {E}} ^ {*} \left(\frac {\mathrm {E} ^ {*}}{\mathrm {E} + \mathrm {E} ^ {*}}\right)}{\mathrm {E} ^ {*} \left(\frac {\mathrm {E} ^ {*}}{\mathrm {E} + \mathrm {E} ^ {*}}\right)} \right].
+\frac{\dot {\mathrm{s}}}{\mathrm{s}} = \frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{g}}}{(\mathrm{L} - \alpha \mathrm{g})} - \left[ \frac{\dot {\mathrm{E}}}{\mathrm{E}} \left(\frac{\mathrm{E}}{\mathrm{E} + \mathrm{E}^{*}}\right) + \frac{\dot {\mathrm{E}}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)}{\mathrm{E}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)} \right].
 $$
 
 Using (10.20), the expression in brackets on the right equals  $\dot{\mathbf{R}} -\boldsymbol {\rho}$ . It follows that the home and foreign real interest rates are,
 
 $$
-\dot {R} - \frac {\dot {w}}{w} = \rho - \frac {\dot {s}}{s} - \frac {\dot {g}}{(L - \alpha g)}, \quad \text {a n d ,} \quad \dot {R} - \frac {\dot {w} ^ {*}}{w ^ {*}} = \rho - \frac {\dot {s} ^ {*}}{s ^ {*}} - \frac {\dot {g} ^ {*}}{(L ^ {*} - \alpha g ^ {*})}.
+\dot {R} - \frac{\dot {w}}{w} = \rho - \frac{\dot {s}}{s} - \frac{\dot {g}}{(L - \alpha g)}, \quad \text{an d ,} \quad \dot {R} - \frac{\dot {w}^{*}}{w^{*}} = \rho - \frac{\dot {s}^{*}}{s^{*}} - \frac{\dot {g}^{*}}{(L^{*} - \alpha g^{*})}.
 $$
 
 (a) The fact that the home country is developing more products than abroad means that
@@ -1142,10 +1142,10 @@ assets owned by either firm. Rauch and Trindade (2000) model this informational 
 We begin our analysis with the simplest case of a capital inflow into an economy producing just one good, as in MacDougall (1960). Suppose that the production function is given by  $y = f(L, K)$ , which is linearly homogeneous and concave. Normalizing the product price at unity, the rental on capital is  $r = f_K(L, K)$ , with  $f_{KK} < 0$ . Denote the domestic capital stock by  $K_0$  and the foreign inflow of capital by  $K^*$ . The equilibrium rental in the absence of the foreign capital is shown by  $r_0$  in Figure 11.1, and in the presence of the capital inflow by  $r_1$ . The foreign capital earns the amount  $r_1K^*$ , which is taken out of the country. The increase in GDP due to the capital inflow is,
 
 $$
-\Delta \mathrm {y} = \int_ {\mathrm {K} _ {0}} ^ {\mathrm {K} _ {0} + \mathrm {K} ^ {*}} \mathrm {f} _ {\mathrm {K}} \mathrm {d K} = \mathrm {A} + \mathrm {B}. \tag {11.1}
+\Delta \mathrm{y} = \int_{\mathrm{K}_{0}}^{\mathrm{K}_{0} + \mathrm{K}^{*}} \mathrm{f}_{\mathrm{K}} \mathrm{dK} = \mathrm{A} + \mathrm{B}. \tag {11.1}
 $$
 
-Subtracting the payment to foreign capital,  $\mathrm{r_lK^* = B}$ , the net welfare gain to the home country is the area A. Thus, the inflow of foreign capital creates a welfare gain.
+Subtracting the payment to foreign capital,  $\mathrm{r_lK^* =B}$ , the net welfare gain to the home country is the area A. Thus, the inflow of foreign capital creates a welfare gain.
 
 What is the source of this gain? It is evident from Figure 11.1 that as capital enters it depresses the rental, so that the payments to foreign capital (B) are less than the total area under
 
@@ -1244,13 +1244,13 @@ costs in country i, and there is an additional fixed cost of establishing a plan
 We borrow the demand structure from our treatment of monopolistic competition in chapter 5. With country  $j$  having a CES utility function over the differentiated product, its demand  $c^{ij}$  for a variety sent from country  $i$  is:
 
 $$
-\mathrm {c} ^ {\mathrm {i j}} = \left(\mathrm {p} ^ {\mathrm {i j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right), \tag {11.2}
+\mathrm{c}^{\mathrm{ij}} = \left(\mathrm{p}^{\mathrm{ij}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right), \tag {11.2}
 $$
 
 $\mathrm{Y}^{\mathrm{j}}$  is country j's GDP and  $\mathbf{P}^{\mathrm{j}}$  refers to country j's overall price index, defined as:
 
 $$
-\mathrm {P} ^ {\mathrm {j}} = \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {N} ^ {\mathrm {i}} \left(\mathrm {p} ^ {\mathrm {i j}}\right) ^ {1 - \sigma}\right) ^ {1 / (1 - \sigma)}, \tag {11.3}
+\mathrm{P}^{\mathrm{j}} = \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{N}^{\mathrm{i}} \left(\mathrm{p}^{\mathrm{ij}}\right)^{1 - \sigma}\right)^{1 / (1 - \sigma)}, \tag {11.3}
 $$
 
 where  $\mathbf{N}^{\mathrm{i}}$  is the number of products exported by each country  $i = 1,\dots ,C$
@@ -1258,13 +1258,13 @@ where  $\mathbf{N}^{\mathrm{i}}$  is the number of products exported by each cou
 We treat labor as the only factor of production, and do not distinguish by skill type. The exporting firm in country  $i$  has the production function  $L^i = \beta y^i$ , where  $\beta$  is its marginal labor costs. Note that its plant-specific fixed costs are already covered by virtue of its home sales of this product. Revenue received from producing in country  $i$  and exporting is  $p^{ij}c^{ij} = p^i y^i$ , where output is related to consumption by  $y^i = c^{ij}T^{ij}$ . The profits from exporting are then:
 
 $$
-\mathrm {p} ^ {\mathrm {i}} \mathrm {y} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \beta \mathrm {y} ^ {\mathrm {i}} = \left(\mathrm {p} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \beta\right) \mathrm {T} ^ {\mathrm {i j}} \mathrm {c} ^ {\mathrm {i j}}. \tag {11.4}
+\mathrm{p}^{\mathrm{i}} \mathrm{y}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \beta \mathrm{y}^{\mathrm{i}} = \left(\mathrm{p}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \beta\right) \mathrm{T}^{\mathrm{ij}} \mathrm{c}^{\mathrm{ij}}. \tag {11.4}
 $$
 
 Substituting for the CES demand from (11.3), and maximizing (11.4) over the choice of the price  $p^{ij} = T^{ij}p^i$ , we readily obtain the optimal price  $p^i [1 - (1 / \sigma)] = \beta w^i$ . Substituting this back into (11.4), we obtain the maximized value of profits:
 
 $$
-p ^ {i} y ^ {i} - w ^ {i} \beta y ^ {i} = \left(\frac {p ^ {i} y ^ {i}}{\sigma}\right) = \left(\frac {p ^ {i} T ^ {i j}}{\sigma}\right) \left(\frac {p ^ {i} T ^ {i j}}{P ^ {j}}\right) ^ {- \sigma} \left(\frac {Y ^ {j}}{P ^ {j}}\right) = \frac {1}{\sigma} \left(\frac {p ^ {i} T ^ {i j}}{P ^ {j}}\right) ^ {1 - \sigma} Y ^ {j}, \tag {11.5}
+p^{i} y^{i} - w^{i} \beta y^{i} = \left(\frac{p^{i} y^{i}}{\sigma}\right) = \left(\frac{p^{i} T^{i j}}{\sigma}\right) \left(\frac{p^{i} T^{i j}}{P^{j}}\right)^{- \sigma} \left(\frac{Y^{j}}{P^{j}}\right) = \frac{1}{\sigma} \left(\frac{p^{i} T^{i j}}{P^{j}}\right)^{1 - \sigma} Y^{j}, \tag {11.5}
 $$
 
 where the second equality follows using consumption from (11.2) with  $y^i = c^{ij} T^{ij}$ , and the third by simplification. From (11.5), we see that higher transport costs reduce profits from exporting, while higher GDP abroad increase profits.
@@ -1272,25 +1272,25 @@ where the second equality follows using consumption from (11.2) with  $y^i = c^{
 Rather than exporting from country i, the multinational firm can instead establish a production facility in country j, and sell locally. In that case, it will face the production function  $\mathrm{L}^{\mathrm{j}} = \alpha^{\mathrm{j}} + \beta \mathrm{y}^{\mathrm{j}}$ , including the plant-specific fixed costs paid abroad. For simplicity we treat marginal labor costs  $\beta$  as equal across countries, though the wages and fixed costs can differ. There are no transport costs when producing in country j and selling locally, so with the price  $\mathfrak{p}^{\mathrm{j}}$ , the quantity sold is,
 
 $$
-\mathrm {c} ^ {\mathrm {j}} = \left(\mathrm {p} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right). \tag {11.2'}
+\mathrm{c}^{\mathrm{j}} = \left(\mathrm{p}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right). \tag {11.2'}
 $$
 
 Again, the optimal price is determined as  $p^j [1 - (1 / \sigma)] = \beta w^j$ . Using this and (11.2') to compute profits earned from the subsidiary in country  $j$ , we obtain:
 
 $$
-p ^ {j} y ^ {j} - w ^ {j} \left(\beta y ^ {j} - \alpha^ {j}\right) = \frac {1}{\sigma} \left(\frac {p ^ {j}}{P ^ {j}}\right) ^ {1 - \sigma} \left(\frac {Y ^ {j}}{P ^ {j}}\right) - w ^ {j} \alpha^ {j}. \tag {11.5'}
+p^{j} y^{j} - w^{j} \left(\beta y^{j} - \alpha^{j}\right) = \frac{1}{\sigma} \left(\frac{p^{j}}{P^{j}}\right)^{1 - \sigma} \left(\frac{Y^{j}}{P^{j}}\right) - w^{j} \alpha^{j}. \tag {11.5'}
 $$
 
 Thus, in order for the multinational based in country i to wish to establish a second plant in country j, it must be the case that (11.5') is at least as large as (11.5):
 
 $$
-\frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \geq \frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}}. \tag {11.6}
+\frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}} - \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \geq \frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}}. \tag {11.6}
 $$
 
 Conversely, in order to be a horizontal multinational, it must be the case that it is not profitable to shut down its plant in country i and simply export from the single plant in country j. The condition to ensure that is:
 
 $$
-\frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \geq \frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {i}}, \tag {11.6'}
+\frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{i}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \geq \frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{i}}, \tag {11.6'}
 $$
 
 where  $\alpha^i$  is its fixed costs in country  $i$ . The left-hand side of (11.6') is the profits from operating its plant in country  $i$ , while the right-hand side is the profits from exporting from country  $j$  to  $i$ .
@@ -1298,7 +1298,7 @@ where  $\alpha^i$  is its fixed costs in country  $i$ . The left-hand side of (1
 So in order to have a horizontal multinational operating plants in both countries, both (11.6) and (11.6') must hold. These conditions can be re-expressed by moving the fixed costs to the right-side, multiplying each equation by  $\sigma$  and multiplying them together, in which case we obtain a single necessary condition to ensure that the multinational maintains plants in both countries:
 
 $$
-\begin{array}{l} \left[ 1 - \left(\mathrm {T} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {j i}}\right) ^ {1 - \sigma} \right] \left(\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}\right) \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {i}} \mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \\ \geq \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} + \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {i}} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} + \sigma^ {2} \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}}. \tag {11.7} \\ \end{array}
+\begin{array}{l} \left[ 1 - \left(\mathrm{T}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ji}}\right)^{1 - \sigma} \right] \left(\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}\right) \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{i}} \mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \\ \geq \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} + \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \mathrm{Y}^{\mathrm{i}} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} + \sigma^{2} \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}}. \tag {11.7} \\ \end{array}
 $$
 
 This condition is more likely to hold in the following regions of parameters:
@@ -1312,7 +1312,7 @@ Conditions (a) and (b) of this theorem follow by inspection of condition (11.7).
 Condition (c) require some additional explanation. Notice that product of GDP's can be rewritten as:
 
 $$
-\mathbf {Y} ^ {\mathrm {i}} \mathbf {Y} ^ {\mathrm {j}} = \left(\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}\right) ^ {2} \mathrm {s} ^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} = \left(\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}\right) ^ {2} [ 1 - (\mathrm {s} ^ {\mathrm {i}}) ^ {2} - (\mathrm {s} ^ {\mathrm {j}}) ^ {2} ] / 2, \tag {11.8}
+\mathbf {Y}^{\mathrm{i}} \mathbf {Y}^{\mathrm{j}} = \left(\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}\right)^{2} \mathrm{s}^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} = \left(\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}\right)^{2} [ 1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\mathrm{s}^{\mathrm{j}})^{2} ] / 2, \tag {11.8}
 $$
 
 where  $s^i = Y^i / (Y^i + Y^j)$  and  $s^j = Y^j / (Y^i + Y^j)$  are county  $i$  and  $j$ 's shares of GDP, with  $(s^i + s^j) = 1$ . It follows that  $1 = (s^i + s^j)^2 = (s^i)^2 + (s^j)^2 + 2s^i s^j$ , from which the last equality in (11.8) is
@@ -1322,7 +1322,7 @@ obtained. In chapter 5, we referred to  $[1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\
 Denoting this index by  $\mathrm{D}^{\mathrm{ij}}$ , we can divide (11.8) by  $(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})$  and rewrite it as:
 
 $$
-\begin{array}{l} \left[ 1 - \left(\mathrm {T} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {j i}}\right) ^ {1 - \sigma} \right] \left(\mathrm {Y} ^ {\mathrm {i}} + \mathrm {Y} ^ {\mathrm {j}}\right) \left(\frac {\mathrm {D} ^ {\mathrm {i j}}}{2}\right) \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {i}} \mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \\ \geq \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} + \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \mathrm {s} ^ {\mathrm {i}} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} + \frac {\sigma^ {2} \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}}}{\left(\mathrm {Y} ^ {\mathrm {i}} + \mathrm {Y} ^ {\mathrm {j}}\right)}. \tag {11.7'} \\ \end{array}
+\begin{array}{l} \left[ 1 - \left(\mathrm{T}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ji}}\right)^{1 - \sigma} \right] \left(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}\right) \left(\frac{\mathrm{D}^{\mathrm{ij}}}{2}\right) \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{i}} \mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \\ \geq \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} + \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \mathrm{s}^{\mathrm{i}} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} + \frac{\sigma^{2} \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}}}{\left(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}\right)}. \tag {11.7'} \\ \end{array}
 $$
 
 We see that the left of (11.7') is larger when the sum of GDP's  $(\Upsilon^{\mathrm{i}} + \Upsilon^{\mathrm{j}})$  is larger, and the right is smaller. In addition, the left is larger when the size dispersion index is higher, meaning that the countries are of similar size.[13] Under these conditions, (11.7') is more likely to hold.
@@ -1340,7 +1340,7 @@ The knowledge-capital model has been estimated by Carr, Markusen and Maskus (200
 The equation estimated by Carr, Markusen and Maskus (2001) is:
 
 $$
-\begin{array}{l} \text {R e a l A f f i l i a t e S a l e s} = \beta_ {0} + \beta_ {1} \left(\mathrm {G D P} ^ {\mathrm {i}} + \mathrm {G D P} ^ {\mathrm {j}}\right) + \beta_ {2} \left(\mathrm {G D P} ^ {\mathrm {i}} - \mathrm {G D P} ^ {\mathrm {j}}\right) ^ {2} + \beta_ {3} \left(\text {S k i l l} ^ {\mathrm {i}} - \text {S k i l l} ^ {\mathrm {j}}\right) \\ + \beta_ {4} (\mathrm {G D P} ^ {\mathrm {i}} - \mathrm {G D P} ^ {\mathrm {j}}) (\mathrm {S k i l l} ^ {\mathrm {i}} - \mathrm {S k i l l} ^ {\mathrm {j}}) + \beta_ {5} (\alpha^ {\mathrm {j}}) + \beta_ {6} (\tau^ {\mathrm {j}}) + \beta_ {7} (\tau^ {\mathrm {j}}) (\mathrm {S k i l l} ^ {\mathrm {i}} - \mathrm {S k i l l} ^ {\mathrm {j}}) ^ {2} \\ + \beta_ {8} \left(\tau^ {\mathrm {i}}\right) + \beta_ {9} \text {D i s t a n c e} ^ {\mathrm {i j}}, \tag {11.9} \\ \end{array}
+\begin{array}{l} \text{Re al Af fi li at eS al es} = \beta_{0} + \beta_{1} \left(\mathrm{GD P}^{\mathrm{i}} + \mathrm{GD P}^{\mathrm{j}}\right) + \beta_{2} \left(\mathrm{GD P}^{\mathrm{i}} - \mathrm{GD P}^{\mathrm{j}}\right)^{2} + \beta_{3} \left(\text{Sk il l}^{\mathrm{i}} - \text{Sk il l}^{\mathrm{j}}\right) \\ + \beta_{4} (\mathrm{GD P}^{\mathrm{i}} - \mathrm{GD P}^{\mathrm{j}}) (\mathrm{Sk il l}^{\mathrm{i}} - \mathrm{Sk il l}^{\mathrm{j}}) + \beta_{5} (\alpha^{\mathrm{j}}) + \beta_{6} (\tau^{\mathrm{j}}) + \beta_{7} (\tau^{\mathrm{j}}) (\mathrm{Sk il l}^{\mathrm{i}} - \mathrm{Sk il l}^{\mathrm{j}})^{2} \\ + \beta_{8} \left(\tau^{\mathrm{i}}\right) + \beta_{9} \text{Di st an ce}^{\mathrm{ij}}, \tag {11.9} \\ \end{array}
 $$
 
 where country  $i$  refers to the headquarters of a multinational and country  $j$  to the location of its a foreign affiliate. The first variable on the right of (11.9) is the sum of country GDP's, which we expect to be positively related to the presence of horizontal multinationals, and therefore real affiliate sales ( $\beta_{1} > 0$ ). Likewise, the second variable is the squared difference in real GDP's, which measures the size dispersion, and which we expect to be negatively related to horizontal multinationals ( $\beta_{2} < 0$ ).
@@ -1410,7 +1410,7 @@ assume that  $f(L_{ij}, z_{ij})$  is increasing and homogeneous of degree one in
 If labor is available at the wage  $w$ , the profits obtained from this joint venture are:
 
 $$
-\mathrm {g} (\mathrm {w}, \mathrm {z} _ {\mathrm {i j}}) \equiv \max  _ {\mathrm {L} _ {\mathrm {i j}}} ^ {\max } \mathrm {f} \left(\mathrm {L} _ {\mathrm {i j}}, \mathrm {z} _ {\mathrm {i j}}\right) - \mathrm {w L} _ {\mathrm {i j}}, \tag {11.10}
+\mathrm{g} (\mathrm{w}, \mathrm{z}_{\mathrm{ij}}) \equiv \max_{\mathrm{L}_{\mathrm{ij}}}^{\max } \mathrm{f} \left(\mathrm{L}_{\mathrm{ij}}, \mathrm{z}_{\mathrm{ij}}\right) - \mathrm{wL}_{\mathrm{ij}}, \tag {11.10}
 $$
 
 where we have normalized the price of the output at unity. Under our assumption that  $f(L_{ij}, z_{ij})$  is homogeneous of degree one in its arguments, then  $g(w, z_{ij})$  will be homogeneous of degree one in  $z_{ij}$ : increasing the distance  $z_{ij}$  between producers will lead to an equi-proportionate increase in labor hired, and in output and profits. It follows that we can write total profits earned as  $g(w, z_{ij}) = z_{ij} \pi(w)$ , where  $\pi(w) \equiv g(w, 1)$ . By the envelope theorem, the amount of labor hired by the joint venture is  $L_{ij} = -z_{ij} \pi'(w) > 0$ . Increasing the wage must reduce the labor hired, so that  $dL_{ij} / dw = -z_{ij} \pi''(w) < 0$ , which means that  $\pi''(w) > 0$  so  $\pi$  is convex. For convenience in our discussion, we follow Rauch and Trindade in assuming that  $\pi(w)$  has the iso-elastic form  $\pi(w) = bw^{-\gamma}$ , with  $b, \gamma > 0$ . This form will apply if the function  $f(L_{ij}, z_{ij})$  is Cobb-Douglas. $^{19}$  To solve for the autarky equilibrium, we need to match up producers in a single country. We assume that producers are uniformly distributed around the circle in Figure 11.5, and that at each point on the circle there is a unit-mass of producers: so the total distribution of them can be thought of as a "unit cylinder." The best matches are obtained when each producer has a joint venture with the one located on the opposite side of the circle, so that  $z_{ij} = 1/2$ . The profits
@@ -1418,7 +1418,7 @@ where we have normalized the price of the output at unity. Under our assumption 
 earned from each of these matches are  $z_{ij} \pi(w) = \pi(w)/2$ . We assume that these are equally divided by the two participants, so each producer earns  $\pi(w)/4$  in the autarky equilibrium. The equilibrium wage is determined by equating labor demand and supply. One-half of the producers are matching with the other half (on the opposite side of the circle), so the total number of matches is  $1/2$ . It follows that home autarky labor demand is:
 
 $$
-- z _ {i j} \pi^ {\prime} \left(\mathrm {w} ^ {\mathrm {a}}\right) / 2 = - \pi^ {\prime} \left(\mathrm {w} ^ {\mathrm {a}}\right) / 4 = \mathrm {L}, \tag {11.11}
+- z_{i j} \pi^{\prime} \left(\mathrm{w}^{\mathrm{a}}\right) / 2 = - \pi^{\prime} \left(\mathrm{w}^{\mathrm{a}}\right) / 4 = \mathrm{L}, \tag {11.11}
 $$
 
 where the first equality is obtained because producers are matching with those on the opposite side of the circle ( $z_{ij} = 1/2$ ), and the second equality sets labor demand equal to the endowment  $L$  to determine the autarky wage  $w^a$ .
@@ -1432,7 +1432,7 @@ To this end, suppose that producers can enter into a joint venture across countr
 Given that the total payoff to a home and foreign producer who match domestically is  $[\pi(\mathrm{w}) / 4 + \pi(\mathrm{w}^{*}) / 4]$ , it is apparent that the international joint venture is equally profitable if it occurs between a home and foreign producer who are distance  $\underline{\mathbf{z}}$  apart, with,
 
 $$
-\underline {{z}} \pi (w ^ {*}) = [ \pi (w) / 4 + \pi (w ^ {*}) / 4 ] \Leftrightarrow \underline {{z}} (w ^ {*} / w) = (1 / 4) [ 1 + \pi (w) / \pi (w ^ {*}) ]. \tag {11.12}
+\underline {{z}} \pi (w^{*}) = [ \pi (w) / 4 + \pi (w^{*}) / 4 ] \Leftrightarrow \underline {{z}} (w^{*} / w) = (1 / 4) [ 1 + \pi (w) / \pi (w^{*}) ]. \tag {11.12}
 $$
 
 Under our assumption that  $\pi(\mathrm{w})$  takes on the iso-elastic form  $\mathrm{bw}^{-\gamma}$ , with  $\mathrm{b}, \gamma > 0$ , we can write  $\pi(\mathrm{w}) / \pi(\mathrm{w}^*) = (\mathrm{w}^* / \mathrm{w})^\gamma$  as an increasing function of the relative foreign wage, and likewise for  $\underline{\mathrm{z}}(\mathrm{w}^* / \mathrm{w})$ . We will confirm below that foreign wages are less than those at home in the trade
@@ -1446,7 +1446,7 @@ This structure of international matches is illustrated in Figure 11.5. For a dom
 We can now compute that probability  $\mathrm{P}$  that an international match is successful. This is simply the length of the interval as  $[\underline{\mathrm{z}} (\mathrm{w}^{*} / \mathrm{w}),1 / 2]$  as compared to  $[1 / 2 - \mathrm{k} / 2,1 / 2]$ , or,
 
 $$
-P = \frac {1 / 2 - \underline {{z}} (w ^ {*} / w)}{1 / 2 - (1 / 2 - k / 2)} = \frac {1 - 2 \underline {{z}} (w ^ {*} / w)}{k}. \tag {11.13}
+P = \frac{1 / 2 - \underline {{z}} (w^{*} / w)}{1 / 2 - (1 / 2 - k / 2)} = \frac{1 - 2 \underline {{z}} (w^{*} / w)}{k}. \tag {11.13}
 $$
 
 Thus, the probability of a successful international match is higher when the ratio of wages  $w^{*} / w$  is lower (meaning that  $z$  is lower), or when the uncertainty  $k$  associated with international joint ventures is reduced.
@@ -1454,7 +1454,7 @@ Thus, the probability of a successful international match is higher when the rat
 To determine wages we use labor market equilibrium in both countries. Home labor is demanded only by those domestic producers whose international matches were not successful, or a fraction (1-P) of home producers. The home demand for labor is therefore:
 
 $$
-- (1 - \mathrm {P}) \pi^ {\prime} (\mathrm {w}) / 4 = \mathrm {L}, \tag {11.14}
+- (1 - \mathrm{P}) \pi^{\prime} (\mathrm{w}) / 4 = \mathrm{L}, \tag {11.14}
 $$
 
 which can be compared to (11.11). Home labor demand has fallen from autarky due to producers employing labor abroad, so this results in a fall in the domestic wage,  $\mathrm{w} < \mathrm{w}^{\mathrm{a}}$ .
@@ -1462,7 +1462,7 @@ which can be compared to (11.11). Home labor demand has fallen from autarky due 
 Foreign labor demand has two components. The first is the demand from foreign producers whose international matches are not successful, and by analogy with (11.14), this is  $-(1 - \mathrm{P})\pi^{\prime}(\mathrm{w}^{*}) / 4$ . However, there is also labor demand from all the successful international matches. This is computed by taking the expected value of labor demand  $-\mathrm{z_{ij}}\pi^{\prime}(\mathrm{w}^{*})$  over the successful matches in the range  $z_{ij}\in (\underline{z} (\mathrm{w}^{*} / \mathrm{w}),1 / 2]$ . Therefore, the equilibrium condition in the foreign labor market is,
 
 $$
-- (1 - \mathrm {P}) \pi^ {\prime} (\mathrm {w} ^ {*}) / 4 - \left(\frac {2}{\mathrm {k}}\right) \int_ {\underline {{z}} (\mathrm {w} ^ {*} / \mathrm {w})} ^ {1 / 2} z _ {i j} \pi^ {\prime} (\mathrm {w} ^ {*}) d z _ {i j} = L ^ {*} . \tag {11.15}
+- (1 - \mathrm{P}) \pi^{\prime} (\mathrm{w}^{*}) / 4 - \left(\frac{2}{\mathrm{k}}\right) \int_{\underline {{z}} (\mathrm{w}^{*} / \mathrm{w})}^{1 / 2} z_{i j} \pi^{\prime} (\mathrm{w}^{*}) d z_{i j} = L^{*} . \tag {11.15}
 $$
 
 Notice that in the integral on the left of (11.15) we have multiplied by  $(2 / k)$ , which is the density of the uniform distribution of international matches  $z_{ij}$  over its interval  $[1 / 2 - k / 2, 1 / 2]$ , and converts that integral into an expected value.
@@ -1470,7 +1470,7 @@ Notice that in the integral on the left of (11.15) we have multiplied by  $(2 / 
 Then dividing (11.15) by (11.14), we obtain a single equation to determine the relative home wage:
 
 $$
-\left(\mathrm {w} / \mathrm {w} ^ {*}\right) ^ {\gamma + 1} \left[ 1 + \frac {8}{\mathrm {k} (1 - \mathrm {P})} \int_ {\underline {{\mathrm {z}}} (\mathrm {w} ^ {*} / \mathrm {w})} ^ {1 / 2} \mathrm {z} _ {\mathrm {i j}} \mathrm {d z} _ {\mathrm {i j}} \right] = \mathrm {L} ^ {*} / \mathrm {L}, \tag {11.16}
+\left(\mathrm{w} / \mathrm{w}^{*}\right)^{\gamma + 1} \left[ 1 + \frac{8}{\mathrm{k} (1 - \mathrm{P})} \int_{\underline {{\mathrm{z}}} (\mathrm{w}^{*} / \mathrm{w})}^{1 / 2} \mathrm{z}_{\mathrm{ij}} \mathrm{dz}_{\mathrm{ij}} \right] = \mathrm{L}^{*} / \mathrm{L}, \tag {11.16}
 $$
 
 where we have simplified this expression using the iso-elastic form for  $\pi (\mathrm{w})$ , so that  $\pi^{\prime}(\mathrm{w}^{*}) / \pi^{\prime}(\mathrm{w}) = (\mathrm{w} / \mathrm{w}^{*})^{\gamma +1}$ . Despite the complexity of (11.16), it is readily shown that the left-hand side is a strictly increasing function of  $(\mathrm{w} / \mathrm{w}^{*})$ , which starts at unity when  $(\mathrm{w} / \mathrm{w}^{*}) = 1$  and approaches infinity as  $(\mathrm{w} / \mathrm{w}^{*})\to \infty$ . It follows that there is a unique solution for  $(\mathrm{w} / \mathrm{w}^{*})$  from (11.16). This establishes the first part of the following theorem:
@@ -1480,9 +1480,9 @@ where we have simplified this expression using the iso-elastic form for  $\pi (\
 (a) The trade equilibrium with international joint ventures exists and is unique;
 (b) As  $\mathrm{k}\rightarrow 0$  so there is no uncertainly about international partners, then  $(\mathrm{w} / \mathrm{w}^{*})\rightarrow 1$
 (c)  $\mathrm{dw} / \mathrm{dk} > 0$  and  $\mathrm{dw}^{*} / \mathrm{dk} < 0$ ;
-(d)  $\mathrm{dln}(\mathrm{w / w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) < 1 / (1 + \gamma)$ , is increasing in k, and  $\lim_{k\to 0}\mathrm{dln}(\mathrm{w / w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) = 0.$
+(d)  $\mathrm{dln}(\mathrm{w /w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) < 1 / (1 + \gamma)$ , is increasing in k, and  $\lim_{k\to 0}\mathrm{dln}(\mathrm{w /w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) = 0.$
 
-Part (b) of this theorem is obtained by inspection of the equilibrium condition (11.16). As  $\mathrm{k} \to 0$ , the term multiplying the integral goes to infinity (meaning that  $\mathrm{w / w^*}$  goes to zero), unless the lower limit of integration approaches  $1 / 2$  so the integral goes to zero. The former case is easily ruled out as an equilibrium, so as  $\mathrm{k} \to 0$  we must have  $\underline{\mathrm{z}} \to 1 / 2$  in the lower limit of
+Part (b) of this theorem is obtained by inspection of the equilibrium condition (11.16). As  $\mathrm{k} \to 0$ , the term multiplying the integral goes to infinity (meaning that  $\mathrm{w /w^*}$  goes to zero), unless the lower limit of integration approaches  $1 / 2$  so the integral goes to zero. The former case is easily ruled out as an equilibrium, so as  $\mathrm{k} \to 0$  we must have  $\underline{\mathrm{z}} \to 1 / 2$  in the lower limit of
 
 integration, which implies that the wages approach equality. Recall that this would be the outcome in the one-sector model used earlier in the chapter under perfect capital mobility. Therefore, the matching model approaches the outcome with perfect capital mobility as the uncertainty about international partners is eliminated. Part (c) of the theorem confirms that as international uncertainty increases, the equilibrium gets monotonically farther away from wage equalization: raising  $k$  increases domestic wages and lowers foreign wages, as fewer joint ventures are pursued.
 
@@ -1521,7 +1521,7 @@ The outflow of capital from the point  $\overline{\mathbf{V}}^i$  will reduce pr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/1636dca807cf12a9d9a774390e13738549ec02952a2be53c4dfbc9eb0dd1b190.jpg)
 Figure 11.8
 
-payments to foreign capital, so that  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)(K + K^{*})} + \mathrm{tm(p)} - \mathrm{r(p)K^{*}}$ , where  $K^{*}$  is the foreign capital,  $\mathrm{m(p)} = \mathrm{d(p)} - \mathrm{y(p,L,K + K^{*})}$  are imports, and  $\mathrm{y(p,L,K + K^{*})}$  is production of the import good, which depends on the labor and capital endowments with the usual Rybczynski effects. Notice that national income simplifies to  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)K} + \mathrm{t[d(p)} - \mathrm{y(p,L,K + K^{*})}]$ .
+payments to foreign capital, so that  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)(K +K^{*})} + \mathrm{tm(p)} - \mathrm{r(p)K^{*}}$ , where  $K^{*}$  is the foreign capital,  $\mathrm{m(p)} = \mathrm{d(p)} - \mathrm{y(p,L,K +K^{*})}$  are imports, and  $\mathrm{y(p,L,K +K^{*})}$  is production of the import good, which depends on the labor and capital endowments with the usual Rybczynski effects. Notice that national income simplifies to  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)K} + \mathrm{t[d(p)} - \mathrm{y(p,L,K +K^{*})}]$ .
 
 Then differentiate consumer utility with respect to the capital inflow  $\mathbf{K}^*$ , and sign and interpret this result, assuming that the import good is capital-intensive.
 
@@ -1636,23 +1636,23 @@ endowments of country i. To do so, we can proceed by computing  $\mathrm{AY}^{\m
 Making use of these expressions for  $\mathrm{AY}^{\mathrm{i}}$  and  $\mathrm{AD}^{\mathrm{i}}$ , we have therefore proved:
 
 $$
-F ^ {i} \equiv A T ^ {i} = V ^ {i} - s ^ {i} V ^ {w}, \tag {2.1}
+F^{i} \equiv A T^{i} = V^{i} - s^{i} V^{w}, \tag {2.1}
 $$
 
-which is a statement of the Heckscher-Ohlin-Vanek (HOV) Theorem. In terms of individual factors, this is written as  $\mathrm{F_k^i = V_k^i - s^iV_k^w}$ . If country i's endowment of factor k relative to the world endowment exceeds country i's share of world GDP ( $\mathrm{V_k^i / V_k^w > s^i}$ ), then we say that country i is abundant in that factor. In that case, (2.1) says that the factor-content of trade in factor k should also be positive ( $\mathrm{F_k^i > 0}$ ), and conversely if country i is scarce in factor k
+which is a statement of the Heckscher-Ohlin-Vanek (HOV) Theorem. In terms of individual factors, this is written as  $\mathrm{F_k^i =V_k^i -s^iV_k^w}$ . If country i's endowment of factor k relative to the world endowment exceeds country i's share of world GDP ( $\mathrm{V_k^i /V_k^w >s^i}$ ), then we say that country i is abundant in that factor. In that case, (2.1) says that the factor-content of trade in factor k should also be positive ( $\mathrm{F_k^i >0}$ ), and conversely if country i is scarce in factor k
 
 $$
-(\mathrm {V _ {k} ^ {i}} / \mathrm {V _ {k} ^ {w}} <   s ^ {i}).
+(\mathrm{V_{k}^{i}} / \mathrm{V_{k}^{w}} <   s^{i}).
 $$
 
 What does the HOV Theorem tell us about the Leontief test? To answer this, let us focus on just two elements of the factor-content vector, for labor and capital. These are written as:
 
 $$
-F _ {k} ^ {i} = K ^ {i} - s ^ {i} K ^ {w}, \tag {2.2a}
+F_{k}^{i} = K^{i} - s^{i} K^{w}, \tag {2.2a}
 $$
 
 $$
-F _ {\ell} ^ {i} = L ^ {i} - s ^ {i} L ^ {w}, \tag {2.2b}
+F_{\ell}^{i} = L^{i} - s^{i} L^{w}, \tag {2.2b}
 $$
 
 where  $\mathrm{F_k^i}$  and  $\mathrm{F}_{\ell}^{\mathrm{i}}$  are the computed factor contents of trade, and  $\mathbf{K}^{\mathrm{i}}$  and  $\mathbf{L}^{\mathrm{i}}$  are the capital and labor endowments for country i. Following Leamer (1980), we define capital to be abundant relative to labor in country i if  $\mathrm{K}^{\mathrm{i}} / \mathrm{K}^{\mathrm{w}} > \mathrm{L}^{\mathrm{i}} / \mathrm{L}^{\mathrm{w}}$ . Then using (2.2), the implications of capital abundance are:
@@ -1662,7 +1662,7 @@ where  $\mathrm{F_k^i}$  and  $\mathrm{F}_{\ell}^{\mathrm{i}}$  are the computed
 If capital is abundant relative to labor in country  $i$ , then the HOV Theorem (2.1) implies that the capital/labor ratio embodied in production for country  $i$  exceeds the capital/labor ratio embodied in consumption:
 
 $$
-\mathrm {K} ^ {\mathrm {i}} / \mathrm {L} ^ {\mathrm {i}} > \left(\mathrm {K} ^ {\mathrm {i}} - \mathrm {F} _ {\mathrm {k}} ^ {\mathrm {i}}\right) / \left(\mathrm {L} ^ {\mathrm {i}} - \mathrm {F} _ {\ell} ^ {\mathrm {i}}\right). \tag {2.3}
+\mathrm{K}^{\mathrm{i}} / \mathrm{L}^{\mathrm{i}} > \left(\mathrm{K}^{\mathrm{i}} - \mathrm{F}_{\mathrm{k}}^{\mathrm{i}}\right) / \left(\mathrm{L}^{\mathrm{i}} - \mathrm{F}_{\ell}^{\mathrm{i}}\right). \tag {2.3}
 $$
 
 Proof:
@@ -1697,7 +1697,7 @@ The statement of the HOV Theorem in (2.1) tells us immediately how a complete te
 Let us assume that the number of goods equals the number of factors, so that A is a square matrix, which we assume is invertible. Then we can re-write (2.1) as:
 
 $$
-\mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {- 1} \left(\mathrm {V} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} ^ {\mathrm {w}}\right). \tag {2.4}
+\mathrm{T}^{\mathrm{i}} = \mathrm{A}^{- 1} \left(\mathrm{V}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}\right). \tag {2.4}
 $$
 
 This equation could be tested in several ways. First, if we think about the matrix  $\mathbf{A}^{-1}$  as data, then we could run a regression of  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}^{-1}$ , and coefficients obtained would serve as an estimate of the relative abundance  $(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{W}})$  of each factor. Baldwin (1971) performed a test similar to this, but instead of regressing  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}^{-1}$ , he actually regressed  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}'$ . With two factors and
@@ -1712,7 +1712,7 @@ Adjusted net exports  $= -1.37^{*}$  (Physical Capital/Worker)  $+7011^{*}$  (Sc
 + 761 (Unskilled Employee/Worker) +  $845^{*}$  (Farmers/Worker)
 + (Other variables included for industry scale and unionization),
 
-$\mathrm{N} = 60, \mathrm{R}^{2} = 0.44, * = \text{significant at } 95\%$  level
+$\mathrm{N} = 60, \mathrm{R}^{2} = 0.44, * = \text{significantat } 95\%$  level
 
 Thus, looking across the U.S. industries, Baldwin finds that those industries using more scientist, craftsmen and foremen, or farmers relative to total workers, will tend to have higher exports. The importance of scientists and farmers in predicting U.S. exports is not surprising at all, since the U.S. is abundant in skilled-labor and land; and the importance of craftsmen and foremen is perhaps reasonable, too. What is surprising, however, is the negative coefficient found on the very first variable, physical capital/worker. Taken literally, this coefficient says that U.S. industries using more capital/worker will tend to export less. This is exactly the
 
@@ -1721,7 +1721,7 @@ opposite of what we would expect if the U.S. were capital-abundant. Thus, this r
 Various writers after Baldwin have redone the type of regression shown above, with mixed results: sometimes the capital coefficient is positive, but other times it is again negative (see the survey by Deardorff, 1984a). What are we to make of these results? Well, as we argued for Leontief's original paradox, it can be questioned whether Baldwin's approach is a valid test of the HOV model. From (2.4), a valid test would be to regress  $\mathrm{T}^{\mathrm{i}}$  on  $\mathrm{A}^{-1}$ , but instead, Baldwin regressed  $\mathrm{T}^{\mathrm{i}}$  on  $\mathrm{A}^{\prime}$ . To see the consequences of this, use the ordinary least squares (OLS) formula for the coefficients  $\beta$  that would be obtained from this regression:
 
 $$
-\mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {\prime} \beta \Rightarrow \hat {\beta} = \left(\mathrm {A A} ^ {\prime}\right) ^ {- 1} \mathrm {A T} ^ {\mathrm {i}} = \left(\mathrm {A A} ^ {\prime}\right) ^ {- 1} \left(\mathrm {V} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} ^ {\mathrm {w}}\right), \tag {2.5}
+\mathrm{T}^{\mathrm{i}} = \mathrm{A}^{\prime} \beta \Rightarrow \hat {\beta} = \left(\mathrm{AA}^{\prime}\right)^{- 1} \mathrm{AT}^{\mathrm{i}} = \left(\mathrm{AA}^{\prime}\right)^{- 1} \left(\mathrm{V}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}\right), \tag {2.5}
 $$
 
 where the final equality follows from using the HOV Theorem (2.1).
@@ -1733,7 +1733,7 @@ The careful reader might point out, however, that possible differences in the si
 A second "partial test" of the HOV Theorem in equation (2.4) has been used by Leamer (1984). In contrast to Baldwin, Leamer tested (2.4) by treating factor endowments  $(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}})$  as data, while estimating the elements of  $\mathbf{A}^{-1}$ . To describe this test, notice that (2.4) applies across all countries i. Focusing on a single industry j, and letting the elements of  $\mathbf{A}^{-1}$  be written as  $\beta_{jk}$ , we can write (2.4) in scalar form as:
 
 $$
-\mathrm {T} _ {\mathrm {j}} ^ {\mathrm {i}} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {N}} \beta_ {\mathrm {j k}} \left(\mathrm {V} _ {\mathrm {k}} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} _ {\mathrm {k}} ^ {\mathrm {w}}\right), \quad \mathrm {i} = 1, \dots , \mathrm {C}. \tag {2.6}
+\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} = \sum_{\mathrm{k} = 1}^{\mathrm{N}} \beta_{\mathrm{jk}} \left(\mathrm{V}_{\mathrm{k}}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}_{\mathrm{k}}^{\mathrm{w}}\right), \quad \mathrm{i} = 1, \dots , \mathrm{C}. \tag {2.6}
 $$
 
 Notice that the summation in (2.6) is across factors, while the observations are across countries. Thus, to estimate this regression we would combine the observation for a single industry  $j$  across multiple countries  $i = 1,\dots,C$ , where the coefficients  $\beta_{jk}$  are estimated. These coefficients should be interpreted as Rybczynski effects, and as shown in chapter 1, can be positive or negative.
@@ -1761,11 +1761,11 @@ The first complete test of the HOV theorem was by Bowen, Leamer and Sveikaukas (
 
 Table 2.4: Tests of the Heckscher-Ohlin Model
 
-<table><tr><td></td><td colspan="3">Data used:</td><td>Method:</td></tr><tr><td>Authors:</td><td>Trade</td><td>Technology</td><td>Factor endowments</td><td></td></tr><tr><td>Leontief (1953)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio of exports and imports</td></tr><tr><td>Leamer (1980)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio in production and consumption</td></tr><tr><td>Baldwin (1971)</td><td>yes</td><td>U.S.</td><td>no</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{\prime}(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}}) \\ \text{data data} \end{array} \)</td></tr><tr><td>Leamer (1984)</td><td>yes</td><td>no</td><td>yes</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{-1}(\underline{\mathbf{V}}^{\mathrm{i}} - \underline{\mathbf{s}}^{\mathrm{i}}\underline{\mathbf{V}}^{\mathrm{w}}) \\ \text{data data} \end{array} \)</td></tr><tr><td>Bowen, Leamer &amp; Sveikaukas (1987)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Sign test and rank test</td></tr><tr><td>Trefler (1993)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \pi_{k}^{i} \)</td></tr><tr><td>Trefler (1995)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \delta^{i} \) (and more)</td></tr><tr><td>Davis and Weinstein (2001a)</td><td>yes</td><td>Many countries</td><td>yes</td><td>Estimate \( A^{i} \) from data</td></tr></table>
+<table><tr><td></td><td colspan="3">Data used:</td><td>Method:</td></tr><tr><td>Authors:</td><td>Trade</td><td>Technology</td><td>Factor endowments</td><td></td></tr><tr><td>Leontief (1953)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio of exports and imports</td></tr><tr><td>Leamer (1980)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio in production and consumption</td></tr><tr><td>Baldwin (1971)</td><td>yes</td><td>U.S.</td><td>no</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{\prime}(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}}) \\ \text{datadata} \end{array} \)</td></tr><tr><td>Leamer (1984)</td><td>yes</td><td>no</td><td>yes</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{-1}(\underline{\mathbf{V}}^{\mathrm{i}} - \underline{\mathbf{s}}^{\mathrm{i}}\underline{\mathbf{V}}^{\mathrm{w}}) \\ \text{datadata} \end{array} \)</td></tr><tr><td>Bowen, Leamer &amp; Sveikaukas (1987)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Sign test and rank test</td></tr><tr><td>Trefler (1993)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \pi_{k}^{i} \)</td></tr><tr><td>Trefler (1995)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \delta^{i} \) (and more)</td></tr><tr><td>Davis and Weinstein (2001a)</td><td>yes</td><td>Many countries</td><td>yes</td><td>Estimate \( A^{i} \) from data</td></tr></table>
 
-Sign test:  $\mathrm{sign(F_k^i) = sign(V_k^i - s^iV_k^w)},\qquad i = 1,\ldots ,C;k = 1,\ldots ,M;$
+Sign test:  $\mathrm{sign(F_k^i) =sign(V_k^i -s^iV_k^w)},\qquad i = 1,\ldots ,C;k = 1,\ldots ,M;$
 
-Rank test:  $\mathrm{F_k^i > F_\ell^i\iff(V_k^i - s^iV_k^w) > (V_\ell^i - s^iV_\ell^w), i = 1,\ldots,C; k = 1,\ldots,M.}$
+Rank test:  $\mathrm{F_k^i >F_\ell^i\iff(V_k^i -s^iV_k^w) > (V_\ell^i -s^iV_\ell^w),i =1,\ldots,C;k =1,\ldots,M.}$
 
 The first of these tests simply compares the sign pattern on the left and right of (2.1). With M factors and C countries, there are MC observations in total, and we are interested in what percentage of these have the same sign on the two sides of the equation. Notice that a completely random pattern of signs such as obtained by flipping a coin would still generate correct signs  $50\%$  of the time in a large sample. Therefore, the sign test must do considerably better than this in order to conclude that the HOV Theorem is successful.
 
@@ -1794,7 +1794,7 @@ Trefler (1993) takes the first approach, and allows all factors in every country
 effective endowment of factor  $k$  in country  $i$  becomes  $\pi_k^i V_k^i$ . Let  $A$  now denote the amount of effective factors needed per unit of output in each industry. We continue to assume that factor-price equalization holds in terms of effective factor prices, so with identical technologies, the matrix  $A$  is the same across countries. Thus, we continue to measure the factor-content of trade as  $F^i \equiv AT^i$ . Then the HOV equation (2.1) is re-written in terms of effective factor endowments as:
 
 $$
-F _ {k} ^ {i} = \pi_ {k} ^ {i} V _ {k} ^ {i} - s ^ {i} \sum_ {j = 1} ^ {C} \pi_ {k} ^ {j} V _ {k} ^ {j}, \quad i = 1, \dots , C; k = 1, \dots , M. \tag {2.7}
+F_{k}^{i} = \pi_{k}^{i} V_{k}^{i} - s^{i} \sum_{j = 1}^{C} \pi_{k}^{j} V_{k}^{j}, \quad i = 1, \dots , C; k = 1, \dots , M. \tag {2.7}
 $$
 
 There are MC equations in (2.7), and M(C-1) productivity parameters. These equations are not independent, however. For any factor  $k$ , if we sum (2.7) across countries  $i = 1,\dots,C$  then we must obtain zero on both sides: exports equal imports for the world, even when measured in terms of factor contents. So we can drop the equations for one country, and we do so for the U.S. This leaves M(C-1) equations in M(C-1) parameters. These equations will be independent "almost everywhere," i.e. for almost all sets of data on endowments and factor-contents of trade. Furthermore, the productivity parameters enter (2.7) linearly, so the M(C-1) equations in (2.7) can be inverted to solve for these uniquely. Thus, we have established:
@@ -1817,7 +1817,7 @@ Figure 2.4
 we are back in the traditional econometric approach: choosing the parameters of  $\mathbf{A}^{\mathrm{i}}$  so as to minimize the sum of squared residuals of the HOV equations. To implement this, we need to model  $\mathbf{A}^{\mathrm{i}}$  in terms of some productivity differences across countries. The initial case that Trefler considers is where the matrices  $\mathbf{A}^{\mathrm{i}}$  differ by a uniform amount across countries:
 
 $$
-\delta^ {\mathrm {i}} \mathrm {A} ^ {\mathrm {i}} = \mathrm {A} ^ {\mathrm {U S}}, \tag {2.8}
+\delta^{\mathrm{i}} \mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}}, \tag {2.8}
 $$
 
 which implies  $\mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}} / \delta^{\mathrm{i}}$ . With  $\delta^{\mathrm{i}} < 1$ , this means that  $\mathrm{A}^{\mathrm{i}} > \mathrm{A}^{\mathrm{US}}$ , so that country i is less productive and requires more labor, capital, and other resources for a unit of production relative to the U.S..
@@ -1825,7 +1825,7 @@ which implies  $\mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}} / \delta^{\ma
 With the assumption (2.8), we need to re-derive the HOV equation. From full-employment, we still have  $\mathbf{A}^{\mathrm{i}}\mathbf{Y}^{\mathrm{i}} = \mathbf{V}^{\mathrm{i}}$ . We continue to make the assumption of identical and homothetic tastes across countries, so the factor content of trade is computed as:
 
 $$
-\mathrm {A} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \mathrm {D} ^ {\mathrm {i}} = \mathrm {V} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \left(\mathrm {s} ^ {\mathrm {i}} \mathrm {D} ^ {\mathrm {w}}\right) = \mathrm {V} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \left(\mathrm {s} ^ {\mathrm {i}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \mathrm {Y} ^ {\mathrm {j}}\right). \tag {2.9}
+\mathrm{A}^{\mathrm{i}} \mathrm{T}^{\mathrm{i}} = \mathrm{A}^{\mathrm{i}} \mathrm{Y}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \mathrm{D}^{\mathrm{i}} = \mathrm{V}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \left(\mathrm{s}^{\mathrm{i}} \mathrm{D}^{\mathrm{w}}\right) = \mathrm{V}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \left(\mathrm{s}^{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{C}} \mathrm{Y}^{\mathrm{j}}\right). \tag {2.9}
 $$
 
 To make further progress with (2.9), let us multiply both sides by  $\delta^i$ . On the left, we would obtain  $\delta^i A^i T^i = A^{US} T^i \equiv F^{iUS}$ . That is, we define  $F^{iUS}$  as the factor-content of trade for country  $i$ , computed by using the U.S. factor requirements matrix. (Recall that this is what Leontief used, as well as all other researchers discussed above). By also multiplying the right of (2.9) by  $\delta^i$ , the matrix  $A^i$  appearing in the last term becomes instead  $\delta^i A^i = A^{US}$ . Since this term now does not depend on the country  $i$ , it can be brought inside the summation on the far right of (2.9), to obtain  $\sum_{j=1}^{C} A^{US} Y^j = \sum_{j=1}^{C} \delta^j A^j Y^j = \sum_{j=1}^{C} \delta^j V^j$ , where the final equality makes use of the full-
@@ -1833,7 +1833,7 @@ To make further progress with (2.9), let us multiply both sides by  $\delta^i$ .
 employment conditions in country  $j = 1, \dots, C$ . Substituting these results back into (2.9), we have therefore derived:
 
 $$
-F ^ {i U S} \equiv A ^ {U S} T ^ {i} = \delta^ {i} V ^ {i} - \left(s ^ {i} \sum_ {j = 1} ^ {C} \delta^ {j} V ^ {j}\right). \tag {2.10}
+F^{i U S} \equiv A^{U S} T^{i} = \delta^{i} V^{i} - \left(s^{i} \sum_{j = 1}^{C} \delta^{j} V^{j}\right). \tag {2.10}
 $$
 
 This becomes the statement of the HOV Theorem when we allow for uniform technological differences across countries: the factor-content of trade, measured with the U.S. technology on the left, should equal the relative factor endowments on the right, where these are each adjusted by the technological parameter of each country. Unlike equation (2.7), however, (2.10) will certainly not hold exactly. We therefore introduce an additive error, and choose the parameters  $\delta^i$  to minimize the sum of squared residuals of this equation.
@@ -1857,13 +1857,13 @@ The reader will notice in Table 2.4 that most complete tests of the HOV Theorem,
 In addition to using the actual data on  $\mathbf{A}^{\mathrm{i}}$  across countries, let us assume that the output of every good is distributed around the world in proportion to the purchasing country's GDP. $^{18}$  We now keep track of the bilateral trades between countries, so let  $\mathbf{X}^{\mathrm{ij}}$  denote the gross exports of goods from country  $i$  to country  $j$ . (Note that this is related to the net exports of country  $i$  by  $\mathbf{T}^{\mathrm{i}} = \sum_{\mathrm{j} \neq i} \mathbf{X}^{\mathrm{ij}} - \sum_{\mathrm{j} \neq i} \mathbf{X}^{\mathrm{ji}}$ ). Using our assumption regarding the distribution of outputs around the world, the bilateral exports may be written as:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {i}}, \tag {2.11}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{Y}^{\mathrm{i}}, \tag {2.11}
 $$
 
 where  $s^j = \mathrm{GDP}^j / \mathrm{GDP}^w$  is the ratio of country  $j$ 's GDP to world GDP. $^{19}$  In order to measure the factor-content of these bilateral exports, we use the primary factor requirements of the exporting country  $i$ , and define  $F^{ij} \equiv A^i X^{ij}$  as the factor contents of exports from country  $i$  to country  $j$ . It follows from (2.11) that:
 
 $$
-\mathrm {F} ^ {\mathrm {i j}} \equiv \mathrm {A} ^ {\mathrm {i}} \mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {A} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {i}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {V} ^ {\mathrm {i}}, \tag {2.11'}
+\mathrm{F}^{\mathrm{ij}} \equiv \mathrm{A}^{\mathrm{i}} \mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{A}^{\mathrm{i}} \mathrm{Y}^{\mathrm{i}} = \mathrm{s}^{\mathrm{j}} \mathrm{V}^{\mathrm{i}}, \tag {2.11'}
 $$
 
 where the final equality follows from full employment.
@@ -1871,7 +1871,7 @@ where the final equality follows from full employment.
 Using simple algebra we can re-write the relative endowments of country  $i$  as,
 
 $$
-\mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j}} \mathbf {V} ^ {\mathrm {j}}\right) = \left(1 - \mathbf {s} ^ {\mathrm {i}}\right) \mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {V} ^ {\mathrm {j}}\right) = \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {s} ^ {\mathrm {j}}\right) \mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {V} ^ {\mathrm {j}}\right).
+\mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j}} \mathbf {V}^{\mathrm{j}}\right) = \left(1 - \mathbf {s}^{\mathrm{i}}\right) \mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {V}^{\mathrm{j}}\right) = \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {s}^{\mathrm{j}}\right) \mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {V}^{\mathrm{j}}\right).
 $$
 
 Now make use of the factor content of exports in (2.11'),  $\mathrm{F}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}}\mathrm{V}^{\mathrm{i}}$ . This term is summed over
@@ -1883,7 +1883,7 @@ all destination countries  $j \neq i$ , and appears as the first term on the rig
 If the output of every good is distributed around the world in proportion to the purchasing country's GDP, then,
 
 $$
-V ^ {i} - s ^ {i} \left(\sum_ {j} V ^ {j}\right) = \left(\sum_ {j \neq i} F ^ {i j}\right) - \left(\sum_ {j \neq i} F ^ {j i}\right). \tag {2.13}
+V^{i} - s^{i} \left(\sum_{j} V^{j}\right) = \left(\sum_{j \neq i} F^{i j}\right) - \left(\sum_{j \neq i} F^{j i}\right). \tag {2.13}
 $$
 
 The first term on the right of (2.13) is the factor content of exports from country i to all countries  $j \neq i$ , and the second term is the factor content of imports from all countries  $j \neq i$  to country i. The factor content of country i's multilateral net exports is measured by the difference between these, and (2.13) therefore shows that the factor content of country i's multilateral net exports (on the right) equals its relative factor endowments (on the left). We stress that this HOV equation is automatically satisfied if the hypothesis of the theorem holds true.
@@ -1899,13 +1899,13 @@ Deardorff's test of comparative advantage can be motivated with the simple 2x2x2
 prove carefully in chapter 6, the representative consumer is better off with this free-trade consumption than in autarky: there are gains from trade. It follows from revealed-preference that the representative consumer in country i could not afford the free-trade consumption vector at the autarky prices, that is,  $\mathrm{p^{ia} \cdot D^i \geq p^{ia} \cdot D^{ia}}$ . Pulling together these various inequalities, we therefore have,
 
 $$
-p ^ {i a}, D ^ {i} \geq p ^ {i a}, D ^ {i a} = p ^ {i a}, Y ^ {i a} \geq p ^ {i a}, Y ^ {i}. \tag {2.14}
+p^{i a}, D^{i} \geq p^{i a}, D^{i a} = p^{i a}, Y^{i a} \geq p^{i a}, Y^{i}. \tag {2.14}
 $$
 
 Comparing the first and last of these expressions, we see that  $p^{\mathrm{ia}} \left( D^i - Y^i \right) \geq 0$ . But since the net exports of country  $i$  are denoted by  $T^i = Y^i - D^i$ , it follows that  $p^{\mathrm{ia}} T^i \leq 0$ . Also, we have implicitly assumed above that trade is balanced for all countries, meaning that  $p^{\prime} T^i = 0$ , where  $p$  is the vector of free trade prices. Therefore, we have derived the key result of Deardorff (1984b):
 
 $$
-\left(p ^ {i a} - p\right) ^ {\prime} T ^ {i} \leq 0. \tag {2.15}
+\left(p^{i a} - p\right)^{\prime} T^{i} \leq 0. \tag {2.15}
 $$
 
 In words, countries will tend to export those goods  $(\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} > 0)$  whose autarky prices are below the trade prices, and import those goods  $(\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} < 0)$  whose autarky prices are above the trade prices. This certainly held in our  $2 \times 2 \times 2$  model at the beginning of the chapter, where the home country exported good 1 (with  $\mathfrak{p} > \mathfrak{p}^{\mathrm{a}}$ ) and imported good 2. The inequality in (2.15) shows that this type of result holds in general, with any number of goods and factors.
@@ -1925,7 +1925,7 @@ the amount  $X^{ij}$  in goods, using the same methods as employed in country i.
 however, country  $j$  could do better than that: because factor prices differ between the countries, the importing country might not want to use the same methods as the exporter, and will end up producing more by choosing methods attuned to its own factor prices. Thus, if we evaluated GDP in country  $j$  using the hypothetical factor imports  $\mathbf{F}^{\mathrm{ij}}$ , it must exceed the value obtained with the import of goods:
 
 $$
-\begin{array}{l} p ^ {\prime} (Y ^ {j} + X ^ {i j}) \leq G (p, V ^ {j} + F ^ {i j}) \\ \leq \mathrm {G} (\mathrm {p}, \mathrm {V} ^ {\mathrm {j}}) + \left[ \partial \mathrm {G} (\mathrm {p}, \mathrm {V} ^ {\mathrm {j}}) / \partial \mathrm {V} ^ {\mathrm {j}} \right] ^ {\prime} \mathrm {F} ^ {\mathrm {i j}} \tag {2.16} \\ = \mathrm {p} ^ {\prime} \mathrm {Y} ^ {\mathrm {j}} + \mathrm {w} ^ {\mathrm {j}} ^ {\prime} \mathrm {F} ^ {\mathrm {i j}}. \\ \end{array}
+\begin{array}{l} p^{\prime} (Y^{j} + X^{i j}) \leq G (p, V^{j} + F^{i j}) \\ \leq \mathrm{G} (\mathrm{p}, \mathrm{V}^{\mathrm{j}}) + \left[ \partial \mathrm{G} (\mathrm{p}, \mathrm{V}^{\mathrm{j}}) / \partial \mathrm{V}^{\mathrm{j}} \right]^{\prime} \mathrm{F}^{\mathrm{ij}} \tag {2.16} \\ = \mathrm{p}^{\prime} \mathrm{Y}^{\mathrm{j}} + \mathrm{w}^{\mathrm{j}}^{\prime} \mathrm{F}^{\mathrm{ij}}. \\ \end{array}
 $$
 
 The second line of (2.16) follows because the GDP function is concave in the factor
@@ -1935,19 +1935,19 @@ endowments, and the last line follows because the derivative of the GDP function
 Taking the difference between the first and last lines of (2.16), we therefore have  $\mathsf{p}'\mathbf{X}^{\mathrm{ij}} \leq \mathsf{w}^{\mathrm{j}}\mathbf{F}^{\mathrm{ij}}$ , so that the value of bilateral exports in goods is less than the value of embodied factors, using the importing country's factor prices. If instead we had used the exporting country's factor prices, however, then with constant returns to scale the value of output would just equal the value of factors used, so that  $\mathsf{p}'\mathbf{X}^{\mathrm{ij}} = \mathsf{w}^{\mathrm{i}}\mathbf{F}^{\mathrm{ij}}$ . Combining this with the previous inequality we therefore have:
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \mathrm {F} ^ {\mathrm {i j}} \geq 0. \tag {2.17}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \mathrm{F}^{\mathrm{ij}} \geq 0. \tag {2.17}
 $$
 
 Furthermore, by repeating this exercise but focusing on net exports from country  $j$  to country  $i$ , measured using country  $j$ 's technology, we can derive that:
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \mathrm {F} ^ {\mathrm {j i}} \leq 0. \tag {2.18}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \mathrm{F}^{\mathrm{ji}} \leq 0. \tag {2.18}
 $$
 
 Putting together these two inequalities, we therefore obtain the key result of Helpman (1984a):
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \left(\mathrm {F} ^ {\mathrm {i j}} - \mathrm {F} ^ {\mathrm {j i}}\right) \geq 0. \tag {2.19}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \left(\mathrm{F}^{\mathrm{ij}} - \mathrm{F}^{\mathrm{ji}}\right) \geq 0. \tag {2.19}
 $$
 
 These inequalities can be interpreted as saying that factors embodied in trade should flow towards the country with higher factor price, i.e. if factor  $k$  has a higher price in country  $j$ ,  $(w_{k}^{j} - w_{k}^{i}) > 0$ , then we should have  $F_{k}^{ij} > 0$  in (2.17) or  $F_{k}^{ji} < 0$  in (2.18) for at least some factors  $k$ , so that (2.17)-(2.19) hold when we add up across factors.
@@ -1974,7 +1974,7 @@ be explicable based on underlying causes. Increasing returns to scale might be o
 2.2 An assumption of the Heckscher-Ohlin-Vanek model, as outlined in this chapter, is that tastes are identical across countries and also homothetic. The latter is an unrealistic assumption because of Engel's Law: expenditures on food are a declining share of total income. Following Hunter and Markusen (1989), we can introduce non-homothetic tastes using a linear expenditure system. Denoting per-capital consumption of good  $i$  in any country  $j$  by  $d_i^j$ , we suppose that the utility function is given by:
 
 $$
-U ^ {j} = \prod_ {i = 1} ^ {N} \left(d _ {i} ^ {j} - \bar {d} _ {i}\right) ^ {\phi_ {i}}, \quad \text {w i t h} \quad \sum_ {i = 1} ^ {N} \phi_ {i} = 1.
+U^{j} = \prod_{i = 1}^{N} \left(d_{i}^{j} - \bar {d}_{i}\right)^{\phi_{i}}, \quad \text{wi th} \quad \sum_{i = 1}^{N} \phi_{i} = 1.
 $$
 
 The parameters  $\overline{\mathrm{d}}_{\mathrm{i}} \geq 0$  in the utility function are interpreted as the "minimum consumption" of each commodity  $i = 1, \dots, N$ . They are assumed to be the same across countries, as are the parameters  $\phi_{\mathrm{i}} > 0$ .
@@ -1982,7 +1982,7 @@ The parameters  $\overline{\mathrm{d}}_{\mathrm{i}} \geq 0$  in the utility func
 (a) Assuming that per-capita income  $\mathrm{I}^{\mathrm{j}}$  is large enough to afford the "minimum consumption", then show that per-capita demand for each commodity in country j is given by:
 
 $$
-\mathsf {d} _ {\mathrm {i}} ^ {\mathrm {j}} = \overline {{\mathsf {d}}} _ {\mathrm {i}} + \phi_ {\mathrm {i}} (\mathsf {I} ^ {\mathrm {j}} - \sum_ {\mathrm {j} = 1} ^ {\mathsf {M}} \mathsf {p} _ {\mathrm {j}} \overline {{\mathsf {d}}} _ {\mathrm {j}}) / \mathsf {p} _ {\mathrm {i}},
+\mathsf {d}_{\mathrm{i}}^{\mathrm{j}} = \overline {{\mathsf {d}}}_{\mathrm{i}} + \phi_{\mathrm{i}} (\mathsf {I}^{\mathrm{j}} - \sum_{\mathrm{j} = 1}^{\mathsf {M}} \mathsf {p}_{\mathrm{j}} \overline {{\mathsf {d}}}_{\mathrm{j}}) / \mathsf {p}_{\mathrm{i}},
 $$
 
 where  $p_j$ ,  $j = 1, \dots, N$ , are the commodity prices.
@@ -1990,14 +1990,14 @@ where  $p_j$ ,  $j = 1, \dots, N$ , are the commodity prices.
 (b) Assuming that prices are the same across countries due to free trade, we can normalize them at unity, and rewrite demand in the more compact form,
 
 $$
-\mathrm {d} _ {\mathrm {i}} ^ {\mathrm {j}} = \delta_ {\mathrm {i}} + \phi_ {\mathrm {i}} \mathrm {I} ^ {\mathrm {j}},
+\mathrm{d}_{\mathrm{i}}^{\mathrm{j}} = \delta_{\mathrm{i}} + \phi_{\mathrm{i}} \mathrm{I}^{\mathrm{j}},
 $$
 
 where  $\delta_{\mathrm{i}} \equiv (\overline{\mathrm{d}}_{\mathrm{i}} - \phi_{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{M}} \overline{\mathrm{d}}_{\mathrm{j}})$  are the values of "minimum consumption" measured relative to their mean. Interpret the coefficients  $\delta_{\mathrm{i}}$ .
 
 (c) Multiply the per-capita demand by country population  $\mathbf{L}^{\mathrm{j}}$ , to obtain total demand,
 
-$\mathrm{D_i^j = L^jd_i^j = \delta_iL^j + \phi_iE^j}$ , where  $\mathrm{E}^{\mathrm{j}}\equiv \mathrm{L}^{\mathrm{j}}\mathrm{I}^{\mathrm{j}}$  denotes total expenditure in country j. We can write this in vector notation as,  $\mathrm{D}^{\mathrm{j}} = \delta \mathrm{L}^{\mathrm{j}} + \phi \mathrm{E}^{\mathrm{j}}$ . Using this demand function, re-derive the HOV equation (2.1), and interpret the new equation.
+$\mathrm{D_i^j =L^jd_i^j = \delta_iL^j + \phi_iE^j}$ , where  $\mathrm{E}^{\mathrm{j}}\equiv \mathrm{L}^{\mathrm{j}}\mathrm{I}^{\mathrm{j}}$  denotes total expenditure in country j. We can write this in vector notation as,  $\mathrm{D}^{\mathrm{j}} = \delta \mathrm{L}^{\mathrm{j}} + \phi \mathrm{E}^{\mathrm{j}}$ . Using this demand function, re-derive the HOV equation (2.1), and interpret the new equation.
 
 # Empirical Exercises
 
@@ -2026,19 +2026,19 @@ Finally, we consider the case of more goods than factors, starting with three go
 We will suppose that there are  $i = 1, \dots, N$  goods, and  $j = 1, \dots, M$  factors. The production functions are written  $y_i = f_i(v_i)$ , where  $v_i = (v_{i1}, \dots, v_{iM})$  is the vector of factor inputs. As usual we assume that the production functions are positive, increasing, concave and homogeneous of degree one for all  $v_i \geq 0$ . Denoting the vector of factor prices by  $w$ , the unit-cost functions are  $c_i(w) \equiv \min_{v_i \geq 0} \{ w'v_i | f_i(v_i) \geq 1 \}$ , which are also positive, increasing, concave and homogeneous of degree one for all  $w > 0$ . The zero profit conditions are then stated as:
 
 $$
-p _ {i} = c _ {i} (w), \quad i = 1, \dots , N. \tag {3.1}
+p_{i} = c_{i} (w), \quad i = 1, \dots , N. \tag {3.1}
 $$
 
 The second set of equilibrium conditions is full-employment of resources. As in chapter 1, we write  $\partial c_{i} / \partial w = a_{i}(w)$  as the amount of factors used for one unit of production, and it follows that the total inputs used in industry  $i$  are  $v_{i} = y_{i}a_{i}(w)$ . We denote the elements of the vector  $a_{i}(w)$  by  $a_{ij}(w), j = 1,\ldots,M$ . Then the full-employment conditions are stated as:
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {a} _ {\mathrm {i j}} (\mathrm {w}) \mathrm {y} _ {\mathrm {i}} = \mathrm {V} _ {\mathrm {j}}, \quad \mathrm {j} = 1, \dots , \mathrm {M}, \tag {3.2}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{a}_{\mathrm{ij}} (\mathrm{w}) \mathrm{y}_{\mathrm{i}} = \mathrm{V}_{\mathrm{j}}, \quad \mathrm{j} = 1, \dots , \mathrm{M}, \tag {3.2}
 $$
 
 where  $V_{j}$  is the endowment of resource  $j$ . In matrix notation, let  $A = [a_1(w)',\dots,a_M(w)]$  denote the MxN matrix of primary factors needed for one unit of production in each industry, where the columns of this matrix measure the different industries  $i = 1,\dots,N$ . The full-employment conditions (3.2) are then written compactly as:
 
 $$
-\mathrm {A Y} = \mathrm {V}, \tag {3.2'}
+\mathrm{AY} = \mathrm{V}, \tag {3.2'}
 $$
 
 where  $\mathrm{Y}$  is the (Nx1) vector of output and  $\mathrm{V}$  is the (Mx1) vector of factor endowments.
@@ -2046,10 +2046,10 @@ where  $\mathrm{Y}$  is the (Nx1) vector of output and  $\mathrm{V}$  is the (Mx
 The equilibrium conditions (3.1) and (3.2) are  $\mathrm{N} + \mathrm{M}$  equations in  $\mathrm{N} + \mathrm{M}$  unknowns, namely, the factor prices  $\mathrm{w_j},\mathrm{j} = 1,\dots ,\mathrm{M}$  and outputs  $\mathrm{y_i},\mathrm{i} = 1,\dots ,\mathrm{N}$ . To analyze these, it will be helpful to use the GDP function for the economy, which is defined as:
 
 $$
-G (p, V) \equiv \max  _ {v _ {i} \geq 0} \sum_ {i = 1} ^ {N} p _ {i} f _ {i} \left(v _ {i}\right) \text {s u b j e c t} \sum_ {i = 1} ^ {N} v _ {i} \leq V, \tag {3.3}
+G (p, V) \equiv \max_{v_{i} \geq 0} \sum_{i = 1}^{N} p_{i} f_{i} \left(v_{i}\right) \text{su bj ec t} \sum_{i = 1}^{N} v_{i} \leq V, \tag {3.3}
 $$
 
-where  $\mathrm{p} = (\mathrm{p}_1, \dots, \mathrm{p_N})$  and  $\mathrm{V} = (\mathrm{V}_1, \dots, \mathrm{V_M})$  are the price and endowment vectors. To solve this maximization problem, we substitute the constraint (written with equality) into the objective function, and write the output of good 1 as  $\mathrm{f}_1\left(\mathrm{V} - \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{v}_{\mathrm{i}}\right)$ , so that the maximized value of GDP becomes,  $\mathrm{G(p,V)} = \mathrm{p_1f_1}\left(\mathrm{V} - \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{v}_{\mathrm{i}}\right) + \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{p_i f_i(v_i)}$ . From the envelope theorem, we can differentiate this with respect to  $\mathfrak{p}$  and  $\mathrm{V}$  while holding the optimal inputs choices  $\mathbf{v}_{\mathrm{i}}$  fixed,  $\mathrm{i} = 2, \dots, \mathrm{N}$ . Then we obtain:
+where  $\mathrm{p} = (\mathrm{p}_1, \dots, \mathrm{p_N})$  and  $\mathrm{V} = (\mathrm{V}_1, \dots, \mathrm{V_M})$  are the price and endowment vectors. To solve this maximization problem, we substitute the constraint (written with equality) into the objective function, and write the output of good 1 as  $\mathrm{f}_1\left(\mathrm{V} - \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{v}_{\mathrm{i}}\right)$ , so that the maximized value of GDP becomes,  $\mathrm{G(p,V)} = \mathrm{p_1f_1}\left(\mathrm{V} - \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{v}_{\mathrm{i}}\right) + \sum_{\mathrm{i} = 2}^{\mathrm{N}} \mathrm{p_if_i(v_i)}$ . From the envelope theorem, we can differentiate this with respect to  $\mathfrak{p}$  and  $\mathrm{V}$  while holding the optimal inputs choices  $\mathbf{v}_{\mathrm{i}}$  fixed,  $\mathrm{i} = 2, \dots, \mathrm{N}$ . Then we obtain:
 
 (a)  $\partial \mathrm{G} / \partial \mathrm{p_i} = \mathrm{f_i(v_i)} = \mathrm{y_i}$ , which is the output of industry i;
 (b)  $\partial \mathrm{G} / \partial \mathrm{V}_{\mathrm{j}} = \mathrm{p}_{1}\partial \mathrm{f}_{1} / \partial \mathrm{v}_{\mathrm{ij}}$  , which is the factor price  $\mathrm{w_j}$
@@ -2057,7 +2057,7 @@ where  $\mathrm{p} = (\mathrm{p}_1, \dots, \mathrm{p_N})$  and  $\mathrm{V} = (\
 Furthermore, by Young's theorem we know that,  $\partial^2\mathrm{G} / \partial \mathfrak{p}_i\partial \mathbf{V}_j = \partial^2\mathrm{G} / \partial \mathbf{V}_j\partial \mathfrak{p}_i$  so it follows that:
 
 $$
-\frac {\partial^ {2} \mathrm {G}}{\partial \mathrm {p} _ {\mathrm {i}} \partial \mathrm {V} _ {\mathrm {j}}} = \frac {\mathrm {d w} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {i}}} = \frac {\partial^ {2} \mathrm {G}}{\partial \mathrm {V} _ {\mathrm {j}} \partial \mathrm {p} _ {\mathrm {i}}} = \frac {\mathrm {d y} _ {\mathrm {i}}}{\mathrm {d V} _ {\mathrm {j}}}. \tag {3.4}
+\frac{\partial^{2} \mathrm{G}}{\partial \mathrm{p}_{\mathrm{i}} \partial \mathrm{V}_{\mathrm{j}}} = \frac{\mathrm{dw}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{i}}} = \frac{\partial^{2} \mathrm{G}}{\partial \mathrm{V}_{\mathrm{j}} \partial \mathrm{p}_{\mathrm{i}}} = \frac{\mathrm{dy}_{\mathrm{i}}}{\mathrm{dV}_{\mathrm{j}}}. \tag {3.4}
 $$
 
 Samuelson (1953-54) called conditions (3.4) the "reciprocity relations," and it shows that the Stolper-Samuelson derivatives are identical to the Rybczynski derivatives! Results (a)-(c) hold regardless of the number of goods and factors, but require differentiability of the GDP function. We shall comment on the validity of this assumption below.
@@ -2076,13 +2076,13 @@ Samuelson (1953-54) first proposed the condition that the leading principle mino
 Figure 3.1
 
 $$
-\mathrm {a} _ {1 1} \neq 0, \left| \begin{array}{l l} \mathrm {a} _ {1 1} & \mathrm {a} _ {2 1} \\ \mathrm {a} _ {1 2} & \mathrm {a} _ {2 2} \end{array} \right| \neq 0, \dots , \left| \begin{array}{c c c} \mathrm {a} _ {1 1} & \dots & \mathrm {a} _ {\mathrm {N} 1} \\ \vdots & \ddots & \vdots \\ \mathrm {a} _ {1 \mathrm {N}} & \dots & \mathrm {a} _ {\mathrm {N N}} \end{array} \right| \neq 0. \tag {3.5}
+\mathrm{a}_{1 1} \neq 0, \left| \begin{array}{l l} \mathrm{a}_{1 1} & \mathrm{a}_{2 1} \\ \mathrm{a}_{1 2} & \mathrm{a}_{2 2} \end{array} \right| \neq 0, \dots , \left| \begin{array}{c c c} \mathrm{a}_{1 1} & \dots & \mathrm{a}_{\mathrm{N} 1} \\ \vdots & \ddots & \vdots \\ \mathrm{a}_{1 \mathrm{N}} & \dots & \mathrm{a}_{\mathrm{NN}} \end{array} \right| \neq 0. \tag {3.5}
 $$
 
 By a natural re-ordering of the goods and factors, the signs of all these determinants can be taken as positive. However, Nikaido (1972) showed that this condition was not enough to ensure that the system of equations (3.1) has a unique solution for  $\mathbf{w}$  given any  $p > 0$ . Instead, it had to be strengthened as: there exist bounds  $b > 0$  and  $B > 0$  such that,
 
 $$
-0 <   \mathrm {b} \leq \mathrm {a} _ {1 1}, \left| \begin{array}{l l} \mathrm {a} _ {1 1} & \mathrm {a} _ {2 1} \\ \mathrm {a} _ {1 2} & \mathrm {a} _ {2 2} \end{array} \right|, \dots , \left| \begin{array}{c c c} \mathrm {a} _ {1 1} & \dots & \mathrm {a} _ {\mathrm {N} 1} \\ \vdots & \ddots & \vdots \\ \mathrm {a} _ {1 \mathrm {N}} & \dots & \mathrm {a} _ {\mathrm {N N}} \end{array} \right| \leq \mathrm {B}. \tag {3.6}
+0 <   \mathrm{b} \leq \mathrm{a}_{1 1}, \left| \begin{array}{l l} \mathrm{a}_{1 1} & \mathrm{a}_{2 1} \\ \mathrm{a}_{1 2} & \mathrm{a}_{2 2} \end{array} \right|, \dots , \left| \begin{array}{c c c} \mathrm{a}_{1 1} & \dots & \mathrm{a}_{\mathrm{N} 1} \\ \vdots & \ddots & \vdots \\ \mathrm{a}_{1 \mathrm{N}} & \dots & \mathrm{a}_{\mathrm{NN}} \end{array} \right| \leq \mathrm{B}. \tag {3.6}
 $$
 
 Then we have the following "factor price insensitivity" result, as named by Leamer (1995):
@@ -2094,7 +2094,7 @@ Assume  $\mathrm{N} = \mathrm{M}$  and that condition (3.6) holds for all  $\mat
 This Lemma implies that the factor prices can be written as a function of product prices, or  $\mathrm{w(p)}$ , independent of endowments. Note that this implies a special form for the GDP function (3.3). With constant returns to scale in all industries, GDP can be written in general as  $\mathrm{G(p,V)} = \sum_{j=1}^{M} w_j(p,V) V_j$ , which is just the sum of payment to primary factors. Under the conditions of the above Lemma, this formula is simplified to:
 
 $$
-\mathrm {G} (\mathrm {p}, \mathrm {V}) = \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \mathrm {w} _ {\mathrm {j}} (\mathrm {p}) \mathrm {V} _ {\mathrm {j}}. \tag {3.7}
+\mathrm{G} (\mathrm{p}, \mathrm{V}) = \sum_{\mathrm{j} = 1}^{\mathrm{M}} \mathrm{w}_{\mathrm{j}} (\mathrm{p}) \mathrm{V}_{\mathrm{j}}. \tag {3.7}
 $$
 
 In particular, this implies that  $\partial^2\mathrm{G} / \partial \mathrm{V}_j\partial \mathrm{V}_i = 0$ , so there are no diminishing returns to the accumulation of a factor in the economy overall.
@@ -2104,7 +2104,7 @@ Now suppose that two countries share the same technologies, and therefore the sa
 What about the Stolper-Samuelson and Rybczyski Theorems? To see what sort of generalization can be obtained for these, let us totally differentiate the zero-profit conditions (3.1), and apply the Jones' (1965) algebra, to obtain:
 
 $$
-\hat {\mathrm {p}} _ {\mathrm {i}} = \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \theta_ {\mathrm {i j}} \hat {\mathrm {w}} _ {\mathrm {j}}, \quad \mathrm {i} = 1, \dots , \mathrm {M}, \tag {3.8}
+\hat {\mathrm{p}}_{\mathrm{i}} = \sum_{\mathrm{j} = 1}^{\mathrm{M}} \theta_{\mathrm{ij}} \hat {\mathrm{w}}_{\mathrm{j}}, \quad \mathrm{i} = 1, \dots , \mathrm{M}, \tag {3.8}
 $$
 
 where  $\theta_{ij} = w_j a_{ij} / c_i$  denotes the cost-share of factor  $j$  in industry  $i$ . As we saw in chapter 1, the changes in commodity prices are weighted averages of the changes in factor prices. For a change in the price of each commodity  $i$ , holding other goods prices fixed, there must then exist factors  $j$  and  $k$  such that  $\hat{w}_j \geq \hat{p}_i$  and  $\hat{w}_k \leq 0$ . Under additional conditions we can establish that
@@ -2114,11 +2114,11 @@ these inequalities are strict, $^3$  and therefore, factor  $j$  has gained in r
 A similar generalization holds for the Rybczynski Theorem. To see this, differentiate the full-employment conditions (3.2) with respect to endowment  $\mathrm{V_k}$ , holding prices (and therefore factor prices) fixed, obtaining:
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \frac {\mathrm {d y} _ {\mathrm {i}}}{\mathrm {d V} _ {\mathrm {k}}} a _ {\mathrm {i j}} (\mathrm {w}) = 0, \quad \mathrm {j} = 1, \dots , \mathrm {M}, \mathrm {j} \neq \mathrm {k}, \tag {3.9a}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \frac{\mathrm{dy}_{\mathrm{i}}}{\mathrm{dV}_{\mathrm{k}}} a_{\mathrm{ij}} (\mathrm{w}) = 0, \quad \mathrm{j} = 1, \dots , \mathrm{M}, \mathrm{j} \neq \mathrm{k}, \tag {3.9a}
 $$
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \frac {\mathrm {d y} _ {\mathrm {i}}}{\mathrm {d V} _ {\mathrm {k}}} a _ {\mathrm {i k}} (\mathrm {w}) = 1. \tag {3.9b}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \frac{\mathrm{dy}_{\mathrm{i}}}{\mathrm{dV}_{\mathrm{k}}} a_{\mathrm{ik}} (\mathrm{w}) = 1. \tag {3.9b}
 $$
 
 Provided that the matrix  $A$  is nonsingular at the prevailing factor prices, then we can use the conditions (3.9) to uniquely determine the Rybczynski derivatives  $\mathrm{dy_i} / \mathrm{dV_k}$ . From condition (3.9b), it must be the case that  $\mathrm{dy_i} / \mathrm{dV_k} > 0$  for some good  $i$ . Using this in (3.9a), there must exist some other good  $j$  for which  $\mathrm{dy_j} / \mathrm{dV_k} < 0$ . Thus, we have shown that for an increase in the endowment of each factor, there must be a good whose output rises and another good whose output falls.
@@ -2136,10 +2136,10 @@ Empirical estimates of the Rybczynski effects in the “even” case have alread
 and factor endowments follows directly from inverting (3.2'), obtaining  $\mathrm{Y} = \mathrm{A}^{-1}\mathrm{V}$ , or:
 
 $$
-y _ {j} ^ {i} = \sum_ {k = 1} ^ {M} \beta_ {j k} V _ {k} ^ {i}, \quad i = 1, \dots , C; j = 1, \dots , N, \tag {3.10}
+y_{j}^{i} = \sum_{k = 1}^{M} \beta_{j k} V_{k}^{i}, \quad i = 1, \dots , C; j = 1, \dots , N, \tag {3.10}
 $$
 
-where i now indexes countries, j indexes goods, k indexes factors, and  $\beta_{jk}$  denotes the elements of  $\mathbf{A}^{-1}$ . Harrigan uses data for the OECD countries over 1970-1985 for 10 manufacturing sectors and four factor supplies: capital, skilled and unskilled labor, and land. Notice that the number of goods exceeds the number of factors in this formulation, even though inverting (3.2') assumes that  $\mathrm{N = M}$ . We can think of Harrigan's approach as assuming  $\mathrm{N = M}$  in terms of the "true" number of goods and factors, but then aggregating factors in the data so that there are only four. More generally, this discussion points out that whether or not there is an equal number of goods and factors cannot be judged by simply "counting" these: instead, we would need to test some hypotheses to determine this, as we shall discuss in the sections that follow.
+where i now indexes countries, j indexes goods, k indexes factors, and  $\beta_{jk}$  denotes the elements of  $\mathbf{A}^{-1}$ . Harrigan uses data for the OECD countries over 1970-1985 for 10 manufacturing sectors and four factor supplies: capital, skilled and unskilled labor, and land. Notice that the number of goods exceeds the number of factors in this formulation, even though inverting (3.2') assumes that  $\mathrm{N =M}$ . We can think of Harrigan's approach as assuming  $\mathrm{N =M}$  in terms of the "true" number of goods and factors, but then aggregating factors in the data so that there are only four. More generally, this discussion points out that whether or not there is an equal number of goods and factors cannot be judged by simply "counting" these: instead, we would need to test some hypotheses to determine this, as we shall discuss in the sections that follow.
 
 The results obtained by regressing industry outputs on factor endowments, over the panel of OECD countries and years, are similar to those obtained by Leamer (1984): for each manufacturing industry there is at least one factor with a negative Rybczynski effect, indicating that an increase in that endowment would reduce the manufacturing output. These factors were usually skilled or unskilled labor, and sometimes land. Conversely, capital has a positive coefficient  $\beta_{jk}$  in all ten regressions, indicating that an increase in this endowment will raise manufacturing output. Beyond these results, Harrigan (1995) is able to explore properties of the panel dataset which Leamer (1984) could not since he only had data for two years. Harrigan finds that fixed effects for countries are very important, indicating that there are systematic differences across countries not captured by the theory underlying (3.10). The most significant
 
@@ -2154,13 +2154,13 @@ To illustrate these results, we focus on the special case of two goods and three
 The full employment condition for labor is  $\mathrm{L}_1 + \mathrm{L}_2 \leq \mathrm{L}$ , and so the GDP function for the sector-specific economy is:
 
 $$
-\mathrm {G} (\mathrm {p}, \mathrm {L}, \mathrm {K} _ {1}, \mathrm {K} _ {2}) \equiv \max  _ {\mathrm {L} _ {\mathrm {i}} \geq 0} \sum_ {\mathrm {i} = 1} ^ {2} \mathrm {p} _ {\mathrm {i}} \mathrm {f} _ {\mathrm {i}} \left(\mathrm {L} _ {\mathrm {i}}, \mathrm {K} _ {\mathrm {i}}\right) \text {s u b j e c t t o L} _ {1} + \mathrm {L} _ {2} \leq \mathrm {L}. \tag {3.11}
+\mathrm{G} (\mathrm{p}, \mathrm{L}, \mathrm{K}_{1}, \mathrm{K}_{2}) \equiv \max_{\mathrm{L}_{\mathrm{i}} \geq 0} \sum_{\mathrm{i} = 1}^{2} \mathrm{p}_{\mathrm{i}} \mathrm{f}_{\mathrm{i}} \left(\mathrm{L}_{\mathrm{i}}, \mathrm{K}_{\mathrm{i}}\right) \text{su bj ec tt oL}_{1} + \mathrm{L}_{2} \leq \mathrm{L}. \tag {3.11}
 $$
 
 To maximize GDP, labor will flow between the two industries until its marginal value product is the same in each. This first-order condition is stated as,
 
 $$
-\frac {\partial \mathrm {G}}{\partial \mathrm {L}} = \mathrm {w} = \mathrm {p} _ {1} \mathrm {f} _ {1 \mathrm {L}} \left(\mathrm {L} _ {1}, \mathrm {K} _ {1}\right) = \mathrm {p} _ {2} \mathrm {f} _ {2 \mathrm {L}} \left(\mathrm {L} _ {2}, \mathrm {K} _ {2}\right). \tag {3.12}
+\frac{\partial \mathrm{G}}{\partial \mathrm{L}} = \mathrm{w} = \mathrm{p}_{1} \mathrm{f}_{1 \mathrm{L}} \left(\mathrm{L}_{1}, \mathrm{K}_{1}\right) = \mathrm{p}_{2} \mathrm{f}_{2 \mathrm{L}} \left(\mathrm{L}_{2}, \mathrm{K}_{2}\right). \tag {3.12}
 $$
 
 With the capital stocks fixed, (3.12) is easily solved for the labor allocation, as is illustrated in
@@ -2186,7 +2186,7 @@ Figure 3.2
 Figure 3.3
 
 $$
-\frac {\mathrm {d} \mathrm {w}}{\mathrm {d p} _ {1}} = \mathrm {f} _ {1 \mathrm {L}} + \mathrm {p} _ {1} \mathrm {f} _ {1 \mathrm {L L}} \frac {\mathrm {d} \mathrm {L} _ {1}}{\mathrm {d p} _ {1}} <   \mathrm {f} _ {1 \mathrm {L}} = \frac {\mathrm {w}}{\mathrm {p} _ {1}}, \tag {3.13}
+\frac{\mathrm{d} \mathrm{w}}{\mathrm{dp}_{1}} = \mathrm{f}_{1 \mathrm{L}} + \mathrm{p}_{1} \mathrm{f}_{1 \mathrm{LL}} \frac{\mathrm{d} \mathrm{L}_{1}}{\mathrm{dp}_{1}} <   \mathrm{f}_{1 \mathrm{L}} = \frac{\mathrm{w}}{\mathrm{p}_{1}}, \tag {3.13}
 $$
 
 where the inequality follows from  $\mathrm{f}_{1\mathrm{LL}} < 0$  and  $\mathrm{dL}_1 / \mathrm{dp}_1 > 0$ . With  $\mathrm{dp}_1 > 0$ , it follows
@@ -2196,13 +2196,13 @@ immediately from (3.13) that  $\mathrm{dw} / \mathrm{w} = \hat{\mathrm{w}} < \ma
 What about the rental to capital in each industry? From the zero-profit conditions (3.8) the change in the prices of the goods are a weighted average of the change in wages and rentals. Denoting the latter by  $r_i$ , the fact that  $0 < \hat{w} < \hat{p}_1$  implies:
 
 $$
-\hat {\mathrm {r}} _ {2} <   0 <   \hat {\mathrm {w}} <   \hat {\mathrm {p}} <   \hat {\mathrm {r}} _ {\mathrm {l}}. \tag {3.14}
+\hat {\mathrm{r}}_{2} <   0 <   \hat {\mathrm{w}} <   \hat {\mathrm{p}} <   \hat {\mathrm{r}}_{\mathrm{l}}. \tag {3.14}
 $$
 
 If we allow for a change in the price of good 2, with  $\hat{\mathsf{p}}_2 < \hat{\mathsf{p}}_1$ , then these inequalities become,
 
 $$
-\hat {\mathrm {r}} _ {2} <   \hat {\mathrm {p}} _ {2} <   \hat {\mathrm {w}} <   \hat {\mathrm {p}} _ {1} <   \hat {\mathrm {r}} _ {1}. \tag {3.14}
+\hat {\mathrm{r}}_{2} <   \hat {\mathrm{p}}_{2} <   \hat {\mathrm{w}} <   \hat {\mathrm{p}}_{1} <   \hat {\mathrm{r}}_{1}. \tag {3.14}
 $$
 
 This shows how the "magnification effect" present in the two-sector is modified when capital is specific to each sector. In that case, the wage of labor is "caught in the middle," whereas the returns to the specific factors are still a magnified version of the price changes.
@@ -2226,55 +2226,55 @@ The number of goods and factors, as well as whether factors are mobile or not, a
 The first step is to choose a functional form for GDP. A convenient choice is the translog function, which was introduced by Diewert (1974, p. 139) and initially used in the international trade literature by Kohli (1978). This function is written as,
 
 $$
-\begin{array}{l} \ln G = \alpha_ {0} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \alpha_ {\mathrm {i}} \ln p _ {\mathrm {i}} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \beta_ {\mathrm {k}} \ln V _ {\mathrm {k}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} \ln p _ {\mathrm {i}} \ln p _ {\mathrm {j}} \tag {3.15} \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} \ln \mathrm {V} _ {\mathrm {k}} \ln \mathrm {V} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} \ln \mathrm {p} _ {\mathrm {i}} \ln \mathrm {V} _ {\mathrm {k}} \\ \end{array}
+\begin{array}{l} \ln G = \alpha_{0} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \alpha_{\mathrm{i}} \ln p_{\mathrm{i}} + \sum_{\mathrm{k} = 1}^{\mathrm{M}} \beta_{\mathrm{k}} \ln V_{\mathrm{k}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{j} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}} \ln p_{\mathrm{i}} \ln p_{\mathrm{j}} \tag {3.15} \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} \ln \mathrm{V}_{\mathrm{k}} \ln \mathrm{V}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \mathrm{p}_{\mathrm{i}} \ln \mathrm{V}_{\mathrm{k}} \\ \end{array}
 $$
 
 where  $p_i$  denotes the prices of products  $i = 1, \dots, N$ , and  $V_k$  denotes the endowments of factors  $k = 1, \dots, M$ . In order to ensure that the translog GDP function is homogeneous of degree one in prices, we impose the requirements, $^9$
 
 $$
-\sum_ {i = 1} ^ {N} \alpha_ {i} = 1 \quad \text {a n d} \quad \sum_ {i = 1} ^ {N} \gamma_ {i j} = \sum_ {i = 1} ^ {N} \phi_ {i k} = 0. \tag {3.16}
+\sum_{i = 1}^{N} \alpha_{i} = 1 \quad \text{an d} \quad \sum_{i = 1}^{N} \gamma_{i j} = \sum_{i = 1}^{N} \phi_{i k} = 0. \tag {3.16}
 $$
 
 In addition, to ensure that the GDP function is homogeneous of degree one in endowments, we impose the requirements,
 
 $$
-\sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \beta_ {\mathrm {k}} = 1 \quad \text {a n d} \quad \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} = 0. \tag {3.17}
+\sum_{\mathrm{k} = 1}^{\mathrm{M}} \beta_{\mathrm{k}} = 1 \quad \text{an d} \quad \sum_{\mathrm{k} = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} = \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} = 0. \tag {3.17}
 $$
 
 The usefulness of the translog function comes from computing its first derivatives,  $\partial \ln G / \partial \ln p_i = (\partial G / \partial p_i)(p_i / G)$ . Because  $\partial G / \partial p_i$  equals the output of sector  $i$ , it follows that  $(\partial G / \partial p_i)(p_i / G)$  equals the share of sector  $i$  in GDP, which we denote by the output-shares  $s_i = p_i y_i / G$ . Thus, differentiating (3.15) with respect to  $\ln p_i$  we obtain,
 
 $$
-s _ {i} = \alpha_ {i} + \sum_ {j = 1} ^ {N} \gamma_ {i j} \ln p _ {j} + \sum_ {k = 1} ^ {M} \phi_ {i k} \ln V _ {k}, \quad i = 1, \dots , N. \tag {3.18}
+s_{i} = \alpha_{i} + \sum_{j = 1}^{N} \gamma_{i j} \ln p_{j} + \sum_{k = 1}^{M} \phi_{i k} \ln V_{k}, \quad i = 1, \dots , N. \tag {3.18}
 $$
 
 In addition, we can compute the first derivatives with respect to factor endowments, obtaining  $\partial \ln G / \partial \ln V_{k} = (\partial G / \partial V_{k})(V_{k} / G)$ . Because  $\partial G / \partial V_{k}$  equals the factor price of endowment  $k$ , it follows that  $(\partial G / \partial V_{k})(V_{k} / G)$  equals the share of GDP devoted to factor  $k$ , which we denote by the factor-shares  $s_k = w_k V_k / G$ . Thus, differentiating (3.15) with respect to  $\ln V_{k}$  we obtain,
 
 $$
-\mathrm {s} _ {\mathrm {k}} = \beta_ {\mathrm {k}} + \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} \ln \mathrm {V} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \phi_ {\mathrm {i k}} \ln \mathrm {p} _ {\mathrm {i}}, \quad \mathrm {k} = 1, \dots , \mathrm {M}. \tag {3.19}
+\mathrm{s}_{\mathrm{k}} = \beta_{\mathrm{k}} + \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} \ln \mathrm{V}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \phi_{\mathrm{ik}} \ln \mathrm{p}_{\mathrm{i}}, \quad \mathrm{k} = 1, \dots , \mathrm{M}. \tag {3.19}
 $$
 
-Equations (3.18) and (3.19) are  $\mathrm{N + M}$  linear equations that can be estimated using annual data on output and factor shares, product prices, and endowments. The dependent variables in each of (3.18) and (3.19) sum to unity, which means that one of the equations can be derived from the others. Under these conditions, one of the equations is dropped from each of (3.18) and (3.19) before the system is estimated, leaving  $(\mathrm{N} + \mathrm{M} - 2)$  equations. With annual observations over T years, this means that there are  $(\mathrm{N} + \mathrm{M} - 2)\mathrm{T}$  observations used to estimate the coefficients
+Equations (3.18) and (3.19) are  $\mathrm{N +M}$  linear equations that can be estimated using annual data on output and factor shares, product prices, and endowments. The dependent variables in each of (3.18) and (3.19) sum to unity, which means that one of the equations can be derived from the others. Under these conditions, one of the equations is dropped from each of (3.18) and (3.19) before the system is estimated, leaving  $(\mathrm{N} + \mathrm{M} - 2)$  equations. With annual observations over T years, this means that there are  $(\mathrm{N} + \mathrm{M} - 2)\mathrm{T}$  observations used to estimate the coefficients
 
 $\gamma_{\mathrm{ij}}, \phi_{\mathrm{ik}}$  and  $\delta_{\mathrm{k}\ell}$ . The great advantage of estimating this system of shares equations, rather than just the GDP function in (3.15), is that there are more observations and degrees of freedom. Even with just a modest number of annual observations, such as 20, the researcher can expect to obtain reasonably precise estimates of the coefficients.
 
 The coefficients  $\phi_{\mathrm{ik}}$  in (3.18) measure the response of each output share to changes in the endowments, and are referred to as output elasticities. These are similar to the Rybczynski effects, which are normally defined as the impact of a change in endowments on the level of output rather than its share. To make this conversion, write the quantity of each output as  $\ln y_{\mathrm{i}} = \ln (s_{\mathrm{i}}G / p_{\mathrm{i}})$ . Differentiating this with respect to an endowment  $\ln V_{\mathrm{k}}$  using (3.15) and (3.18), we obtain the Rybczynski elasticity:
 
 $$
-\frac {\partial \ln \mathrm {y} _ {\mathrm {i}}}{\partial \ln \mathrm {V} _ {\mathrm {k}}} = \frac {\phi_ {\mathrm {i k}}}{\mathrm {s} _ {\mathrm {i}}} + \mathrm {s} _ {\mathrm {k}}. \tag {3.20}
+\frac{\partial \ln \mathrm{y}_{\mathrm{i}}}{\partial \ln \mathrm{V}_{\mathrm{k}}} = \frac{\phi_{\mathrm{ik}}}{\mathrm{s}_{\mathrm{i}}} + \mathrm{s}_{\mathrm{k}}. \tag {3.20}
 $$
 
 Thus, the coefficients  $\phi_{\mathrm{ik}}$  together with the input and output shares can be used to calculate the Rybczynski elasticity.
 
-Similarly, write the price of each factor as  $\ln \mathrm{w_k} = \ln (\mathrm{s_kG / V_k})$ . Differentiating this with respect to  $\ln \mathrm{p_i}$  using (3.15) and (3.19), it follows that the Stolper-Samuelson elasticities are:
+Similarly, write the price of each factor as  $\ln \mathrm{w_k} = \ln (\mathrm{s_kG /V_k})$ . Differentiating this with respect to  $\ln \mathrm{p_i}$  using (3.15) and (3.19), it follows that the Stolper-Samuelson elasticities are:
 
 $$
-\frac {\partial \ln w _ {k}}{\partial \ln p _ {i}} = \frac {\phi_ {i k}}{s _ {k}} + s _ {i}. \tag {3.21}
+\frac{\partial \ln w_{k}}{\partial \ln p_{i}} = \frac{\phi_{i k}}{s_{k}} + s_{i}. \tag {3.21}
 $$
 
 In addition, we can differentiate  $\ln w_{k} = \ln (s_{k}G / V_{k})$  with respect to the factor endowments to obtain:
 
 $$
-\frac {\partial \ln w _ {k}}{\partial \ln V _ {\ell}} = \left\{ \begin{array}{l l} \frac {\delta_ {k k}}{s _ {k}} + s _ {k} - 1, & \text {i f} k = \ell , \\ \frac {\delta_ {k \ell}}{s _ {k}} + s _ {\ell}, & \text {i f} k \neq \ell . \end{array} \right. \tag {3.22}
+\frac{\partial \ln w_{k}}{\partial \ln V_{\ell}} = \left\{ \begin{array}{l l} \frac{\delta_{k k}}{s_{k}} + s_{k} - 1, & \text{if } k = \ell , \\ \frac{\delta_{k \ell}}{s_{k}} + s_{\ell}, & \text{if } k \neq \ell . \end{array} \right. \tag {3.22}
 $$
 
 These elasticities allow us to test the hypothesis of "factor price insensitivity," meaning that the GDP function takes the special form in (3.7). While this functional form cannot be imposed globally for the translog GDP function, it can be evaluated locally by testing whether (3.22) is zero. This means that we test  $\delta_{\mathrm{kk}} = s_{\mathrm{k}}(1 - s_{\mathrm{k}})$  and  $\delta_{\mathrm{k}\ell} = -s_{\mathrm{k}}s_{\ell}$ , which can be performed at one year (e.g. the midpoint) of the sample. In summary, given the estimated coefficients from the translog share equations, we can readily compute the Rybczynski and Stolper-Samuelson elasticities and also test for "factor price insensitivity."
@@ -2294,7 +2294,7 @@ the cost function, along with labor and capital, and for outputs uses traded goo
 Burgess (1976) also tests the hypothesis that the aggregate cost function  $\mathrm{C}(\mathrm{Y},\mathrm{w})$  can be written in the linear form:
 
 $$
-\mathrm {C} (\mathrm {Y}, \mathrm {w}) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {y} _ {\mathrm {i}} \mathrm {c} _ {\mathrm {i}} (\mathrm {w}), \tag {3.23}
+\mathrm{C} (\mathrm{Y}, \mathrm{w}) = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{y}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}} (\mathrm{w}), \tag {3.23}
 $$
 
 where the functions  $c_{i}(w)$  are interpreted as unit-cost functions within the industries  $i = 1, \dots, N$ . When (3.23) does not hold it means that we cannot identify distinct industries producing each of the outputs; rather, these outputs are produced jointly from the economy's factor endowments. So (3.23) is referred to as a test of "nonjoint production." We have not yet emphasized that nearly all of our results on the Stolper-Samuelson and Rybczynski Theorems so far in this book rely on nonjoint production. In contrast, if output is produced jointly from one or more inputs then there is no presumption that "magnification effects" of the type we have discussed hold.
@@ -2310,13 +2310,13 @@ Using this sector-specific structure, Kohli (1993b) develops a test for nonjoint
 A final application of the translog GDP function that we shall discuss is due to Harrigan (1997). Building on the prior work of Leamer (1984) and Harrigan (1995), he is interested in estimating Rybczynski elasticities on cross-country and time-series data. A limitation of early work was the assumption that technologies were the same across countries. Harrigan (1997) argues that this can be generalized by instead assuming that the GDP function is the same across countries while allowing for Hicks-neutral differences in the industry production functions. Thus, if industry production functions are denoted by  $y_{i} = A_{i}f_{i}(v_{i})$ , where the coefficients  $A_{i}$  can differ across countries, then the GDP function becomes,
 
 $$
-\mathrm {G} \left(\mathrm {A} _ {1} \mathrm {p} _ {1}, \dots , \mathrm {A} _ {\mathrm {M}} \mathrm {p} _ {\mathrm {M}}, \mathrm {V}\right) \equiv \max  _ {\mathrm {v} _ {\mathrm {i}} \geq 0} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {p} _ {\mathrm {i}} \mathrm {A} _ {\mathrm {i}} \mathrm {f} _ {\mathrm {i}} \left(\mathrm {v} _ {\mathrm {i}}\right) \text {s u b j e c t} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {v} _ {\mathrm {i}} \leq \mathrm {V}. \tag {3.24}
+\mathrm{G} \left(\mathrm{A}_{1} \mathrm{p}_{1}, \dots , \mathrm{A}_{\mathrm{M}} \mathrm{p}_{\mathrm{M}}, \mathrm{V}\right) \equiv \max_{\mathrm{v}_{\mathrm{i}} \geq 0} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{p}_{\mathrm{i}} \mathrm{A}_{\mathrm{i}} \mathrm{f}_{\mathrm{i}} \left(\mathrm{v}_{\mathrm{i}}\right) \text{su bj ec t} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{v}_{\mathrm{i}} \leq \mathrm{V}. \tag {3.24}
 $$
 
 Notice that we have multiplied the prices  $p_i$  appearing in the GDP function by the Hick's-neutral productivity parameters  $A_i$ , because that is how they appear on the right of (3.24). If we adopt a translog form for the GDP function, then the output-share equations in (3.18) would be written as:
 
 $$
-s _ {i} = \alpha_ {i} + \sum_ {j = 1} ^ {N} \gamma_ {i j} \ln \left(A _ {j} p _ {j}\right) + \sum_ {k = 1} ^ {M} \phi_ {i k} \ln V _ {k}, \quad i = 1, \dots , N. \tag {3.25}
+s_{i} = \alpha_{i} + \sum_{j = 1}^{N} \gamma_{i j} \ln \left(A_{j} p_{j}\right) + \sum_{k = 1}^{M} \phi_{i k} \ln V_{k}, \quad i = 1, \dots , N. \tag {3.25}
 $$
 
 That is, the output-shares of each industry depend on their prices and productivities (with the same coefficient applying to each), as well as the factor endowments.
@@ -2357,7 +2357,7 @@ To demonstrate these claims, we will construct the factor-price equalization (FP
 To determine this range, let us rank the goods in terms of increasing labor/capital ratio, so that  $\mathrm{a_{1L} / a_{1K} \geq a_{2L} / a_{2K} \geq \ldots \geq a_{NL} / a_{NK}}$ . Then using the world demands  $\mathrm{D_i^W}$  for each good in the integrated equilibrium, compute the labor and capital demands in each industry,  $(\mathrm{a_{iL},a_{iK}})\mathrm{D_i^W}$ . Summing these, we must obtain the world endowments of labor and capital,
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\mathrm {a} _ {\mathrm {i L}}, \mathrm {a} _ {\mathrm {i K}}\right) \mathrm {D} _ {\mathrm {i}} ^ {\mathrm {w}} = \left(\mathrm {L} ^ {\mathrm {w}}, \mathrm {K} ^ {\mathrm {w}}\right). \tag {3.26}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \left(\mathrm{a}_{\mathrm{iL}}, \mathrm{a}_{\mathrm{iK}}\right) \mathrm{D}_{\mathrm{i}}^{\mathrm{w}} = \left(\mathrm{L}^{\mathrm{w}}, \mathrm{K}^{\mathrm{w}}\right). \tag {3.26}
 $$
 
 This full-employment condition is illustrated in Figure 3.8, where the axes measure the world endowments of labor and capital. Starting at the origin 0 for the home country, we sum the usage of labor and capital in each industry as in (3.26), obtaining the consecutive points shown in Figure 3.8 that reach the opposite origin  $0^{*}$ . Conversely, starting at the foreign origin  $0^{*}$  we can sum the usage of labor and capital in each industry to arrive at the home origin 0.
@@ -2370,7 +2370,7 @@ An empirical test for the indeterminacy of production is proposed by Bernstein a
 Figure 3.8
 
 $$
-\mathrm {A B} = \mathrm {I} _ {\mathrm {M}}, \tag {3.27}
+\mathrm{AB} = \mathrm{I}_{\mathrm{M}}, \tag {3.27}
 $$
 
 where  $\mathrm{I_M}$  is an identity matrix of dimension M. Thus, a test for the indeterminacy of production proceeds by estimating the regression (3.10) as in Harrigan, and using the coefficients to test the linear restriction in (3.27). If these fail, we conclude that production is indeterminate.
@@ -2386,45 +2386,45 @@ proposition" was provided by Deardorff (1979). Bhagwati also suggested that the 
 Let  $z \in [0,1]$  denote the range of goods, and let  $y(z)$  denote the quantity produced of each of these goods:
 
 $$
-\mathrm {y} (\mathrm {z}) = \mathrm {f} [ \mathrm {L} (\mathrm {z}), \mathrm {K} (\mathrm {z}), \mathrm {z} ], \tag {3.28}
+\mathrm{y} (\mathrm{z}) = \mathrm{f} [ \mathrm{L} (\mathrm{z}), \mathrm{K} (\mathrm{z}), \mathrm{z} ], \tag {3.28}
 $$
 
 where these production functions are increasing, concave and linearly homogeneous in  $\left[\mathrm{L}(\mathrm{z}),\mathrm{K}(\mathrm{z})\right]$ . It will be convenient to work with the dual unit-cost functions, which are:
 
 $$
-\mathrm {c} (\mathrm {w}, \mathrm {r}, \mathrm {z}) \equiv \min  _ {\mathrm {L} (\mathrm {z}), \mathrm {K} (\mathrm {z}) \geq 0} \left\{\mathrm {w L} (\mathrm {z}) + \mathrm {r K} (\mathrm {z}) \mid \mathrm {f} [ \mathrm {L} (\mathrm {z}), \mathrm {K} (\mathrm {z}), \mathrm {z} ] \geq 1 \right\}. \tag {3.29}
+\mathrm{c} (\mathrm{w}, \mathrm{r}, \mathrm{z}) \equiv \min_{\mathrm{L} (\mathrm{z}), \mathrm{K} (\mathrm{z}) \geq 0} \left\{\mathrm{wL} (\mathrm{z}) + \mathrm{rK} (\mathrm{z}) \mid \mathrm{f} [ \mathrm{L} (\mathrm{z}), \mathrm{K} (\mathrm{z}), \mathrm{z} ] \geq 1 \right\}. \tag {3.29}
 $$
 
-We let  $\mathrm{a_L(w,r,z)}\equiv \partial \mathrm{c(w,r,z) / \partial w}$  and  $\mathrm{a_K(w,r,z)}\equiv \partial \mathrm{c(w,r,z) / \partial r}$  denote the amount of labor and capital, respectively, needed to produce one unit of  $\mathrm{y(z)}$ . These will depend on the factor prices,
+We let  $\mathrm{a_L(w,r,z)}\equiv \partial \mathrm{c(w,r,z) / \partialw}$  and  $\mathrm{a_K(w,r,z)}\equiv \partial \mathrm{c(w,r,z) / \partialr}$  denote the amount of labor and capital, respectively, needed to produce one unit of  $\mathrm{y(z)}$ . These will depend on the factor prices,
 
 but we assume that there are no factor-intensity reversals, which means that we can order the activities  $z$  such that  $a_{K}(w,r,z) / a_{L}(w,r,z)$  is non-decreasing in  $z$ . That is, we rank the activities by increasing order of capital-intensity.
 
 Consider first the home country under autarky. Demand is assumed to come from a Cobb-Douglas utility function:
 
 $$
-\ln \mathrm {U} = \int_ {0} ^ {1} \alpha (\mathrm {z}) \ln \mathrm {y} (\mathrm {z}) \mathrm {d z}, \quad \text {w i t h} \quad \int_ {0} ^ {1} \alpha (\mathrm {z}) \mathrm {d z} = 1. \tag {3.30}
+\ln \mathrm{U} = \int_{0}^{1} \alpha (\mathrm{z}) \ln \mathrm{y} (\mathrm{z}) \mathrm{dz}, \quad \text{wi th} \quad \int_{0}^{1} \alpha (\mathrm{z}) \mathrm{dz} = 1. \tag {3.30}
 $$
 
 Thus, a constant share of income  $\alpha(z)$  is spent on each final good  $y(z)$ . Under autarky, then, the expenditure on each final good at home would be  $\alpha(z)(wL + rK)$ , where  $L$  and  $K$  are the factor endowments, with equilibrium prices  $w$  and  $r$ . Dividing this by the prices  $p(z) = c(w, r, z)$ , we obtain demand for each output, which must equal supply under autarky:
 
 $$
-\mathrm {y} (\mathrm {z}) = \alpha (\mathrm {z}) (\mathrm {w L} + \mathrm {r K}) / \mathrm {c} (\mathrm {w}, \mathrm {r}, \mathrm {z}). \tag {3.31}
+\mathrm{y} (\mathrm{z}) = \alpha (\mathrm{z}) (\mathrm{wL} + \mathrm{rK}) / \mathrm{c} (\mathrm{w}, \mathrm{r}, \mathrm{z}). \tag {3.31}
 $$
 
 To complete the equilibrium conditions, we use the equality of factor demand and factor supply, which is written in relative terms as:
 
 $$
-\frac {\mathrm {L}}{\mathrm {K}} = \frac {\int_ {0} ^ {1} \mathrm {a} _ {\mathrm {L}} (\mathrm {w} , \mathrm {r} , \mathrm {z}) \mathrm {y} (\mathrm {z}) \mathrm {d z}}{\int_ {0} ^ {1} \mathrm {a} _ {\mathrm {K}} (\mathrm {w} , \mathrm {r} , \mathrm {z}) \mathrm {y} (\mathrm {z}) \mathrm {d z}}. \tag {3.32}
+\frac{\mathrm{L}}{\mathrm{K}} = \frac{\int_{0}^{1} \mathrm{a}_{\mathrm{L}} (\mathrm{w} , \mathrm{r} , \mathrm{z}) \mathrm{y} (\mathrm{z}) \mathrm{dz}}{\int_{0}^{1} \mathrm{a}_{\mathrm{K}} (\mathrm{w} , \mathrm{r} , \mathrm{z}) \mathrm{y} (\mathrm{z}) \mathrm{dz}}. \tag {3.32}
 $$
 
 The numerator on the right of (3.32) is the total demand for labor, and the denominator is the total demand for capital, which must equal their relative endowments. Substituting (3.31) into
 
 (3.32), we obtain one equation to determine the factor price ratio (w/r) in autarky.[20]
 
-Let us now introduce the foreign country, denoted with an asterisk, and having the identical technology and tastes as at home. The key issue for trade is to determine which goods are produced in each country. Under factor price equalization this will be impossible to determine. In that case, the equilibrium prices are still  $\mathrm{p(z) = c(w,r,z)}$ , and condition (3.31) is modified as:
+Let us now introduce the foreign country, denoted with an asterisk, and having the identical technology and tastes as at home. The key issue for trade is to determine which goods are produced in each country. Under factor price equalization this will be impossible to determine. In that case, the equilibrium prices are still  $\mathrm{p(z) =c(w,r,z)}$ , and condition (3.31) is modified as:
 
 $$
-\mathrm {y} (\mathrm {z}) + \mathrm {y} ^ {*} (\mathrm {z}) = \alpha (\mathrm {z}) [ (\mathrm {w L} + \mathrm {r K}) + (\mathrm {w L} ^ {*} + \mathrm {r K} ^ {*}) ] / \mathrm {c} (\mathrm {w}, \mathrm {r}, \mathrm {z}), \tag {3.31'}
+\mathrm{y} (\mathrm{z}) + \mathrm{y}^{*} (\mathrm{z}) = \alpha (\mathrm{z}) [ (\mathrm{wL} + \mathrm{rK}) + (\mathrm{wL}^{*} + \mathrm{rK}^{*}) ] / \mathrm{c} (\mathrm{w}, \mathrm{r}, \mathrm{z}), \tag {3.31'}
 $$
 
 where  $y(z)$  is the home outputs and  $y^{*}(z)$  is foreign output. The only condition that ties down these outputs is (3.32) in each country: the relative demand for labor must equal its relative endowments. But there are many combinations of outputs  $y(z)$  and  $y^{*}(z)$  that will simultaneously satisfy (3.31') and condition (3.32) in each country. Neither outputs nor the set of goods produced in each country are uniquely determined, just as we found in the previous section under factor price equalization.
@@ -2439,12 +2439,12 @@ right of point B we would be outside the set and factor prices would differ.
 Outside the FPE set the indeterminacy of outputs no longer applies. To see this, note that the equilibrium prices will be determined by:
 
 $$
-\mathrm {p} (\mathrm {z}) = \min  \left\{\mathrm {c} (\mathrm {w}, \mathrm {r}, \mathrm {z}), \mathrm {c} (\mathrm {w} ^ {*}, \mathrm {r} ^ {*}, \mathrm {z}) \right\}, \tag {3.33}
+\mathrm{p} (\mathrm{z}) = \min  \left\{\mathrm{c} (\mathrm{w}, \mathrm{r}, \mathrm{z}), \mathrm{c} (\mathrm{w}^{*}, \mathrm{r}^{*}, \mathrm{z}) \right\}, \tag {3.33}
 $$
 
 since goods will only be produced in the country where unit-costs are lowest. In general, each country will produce and export those goods with lower unit-costs than abroad. Thus, to determine the trade patterns, we need to compare unit-cost across countries.
 
-To fix ideas, we will suppose that the home country is relatively abundant in labor, and has a lower wage/rental ratio than that abroad,  $(\mathrm{w / r}) < (\mathrm{w}^{*} / \mathrm{r}^{*})$ . With this assumption, we can graphically illustrate the problem of choosing the minimum cost location for each good. Let us begin by graphing the locus of unit-costs for the foreign country, given fixed factor prices. The unit-costs  $c(\mathbf{w}^*,\mathbf{r}^*,\mathbf{z})$  as a function of  $\mathbf{z}$  can have any shape whatsoever, and need not even be a continuous function. For convenience, however, we will assume that it is continuous, and illustrate this function as the upward-sloping curve  $\mathrm{C^{*}C^{*}}$  in Figure 3.10. Then the question is: how does the locus of unit-costs  $c(\mathbf{w},\mathbf{r},\mathbf{z})$  at home, denoted by CC, compare to that abroad?
+To fix ideas, we will suppose that the home country is relatively abundant in labor, and has a lower wage/rental ratio than that abroad,  $(\mathrm{w /r}) < (\mathrm{w}^{*} / \mathrm{r}^{*})$ . With this assumption, we can graphically illustrate the problem of choosing the minimum cost location for each good. Let us begin by graphing the locus of unit-costs for the foreign country, given fixed factor prices. The unit-costs  $c(\mathbf{w}^*,\mathbf{r}^*,\mathbf{z})$  as a function of  $\mathbf{z}$  can have any shape whatsoever, and need not even be a continuous function. For convenience, however, we will assume that it is continuous, and illustrate this function as the upward-sloping curve  $\mathrm{C^{*}C^{*}}$  in Figure 3.10. Then the question is: how does the locus of unit-costs  $c(\mathbf{w},\mathbf{r},\mathbf{z})$  at home, denoted by CC, compare to that abroad?
 
 If the unit-costs of all activities were lower at home, for example, then all goods would be produced there, and vice-versa if all unit-costs are lower abroad. This would violate the full-employment condition in one country, so it follows that the curves  $\mathrm{C}^*\mathrm{C}^*$  and CC intersect at least once, and we denote this good by  $z^{*}$ , with  $c(\mathrm{w},\mathrm{r},z^{*}) = c(\mathrm{w}^{*},\mathrm{r}^{*},z^{*})$ . Then consider an activity  $z^{\prime} > z^{*}$  with slightly higher capital/labor demand. Because of our assumptions that (w/r)  $< (\mathrm{w}^{*} / \mathrm{r}^{*})$ , the higher capital/labor requirements should have a greater impact on home costs than on foreign costs. We therefore expect that  $c(\mathrm{w},\mathrm{r},z^{\prime}) > c(\mathrm{w}^{*},\mathrm{r}^{*},z^{\prime})$ , for  $z^{\prime} > z^{*}$ . Similarly, we
 
@@ -2459,33 +2459,33 @@ expect that the converse is also true,  $c(w, r, z') < c(w^*, r^*, z')$ , for  $
 Given this unique intersection, we see that home unit-costs are less than those abroad for all  $z' < z^*$ , so that the home country will specialize in the products  $[0, z^*)$ , whereas the foreign country will specialize in  $(z^*, 1]$ . Thus, the outputs in each country are determined by:
 
 $$
-\mathrm {y} (\mathrm {z}) = \alpha (\mathrm {z}) [ (\mathrm {w L} + \mathrm {r K}) + (\mathrm {w L} ^ {*} + \mathrm {r K} ^ {*}) ] / \mathrm {c} (\mathrm {w}, \mathrm {r}, \mathrm {z}), \quad \text {f o r} \mathrm {z} \in [ 0, \mathrm {z} ^ {*}), \tag {3.34a}
+\mathrm{y} (\mathrm{z}) = \alpha (\mathrm{z}) [ (\mathrm{wL} + \mathrm{rK}) + (\mathrm{wL}^{*} + \mathrm{rK}^{*}) ] / \mathrm{c} (\mathrm{w}, \mathrm{r}, \mathrm{z}), \quad \text{fo r} \mathrm{z} \in [ 0, \mathrm{z}^{*}), \tag {3.34a}
 $$
 
 and,
 
 $$
-\mathrm {y} ^ {*} (\mathrm {z}) = \alpha (\mathrm {z}) [ (\mathrm {w L} + \mathrm {r K}) + (\mathrm {w L} ^ {*} + \mathrm {r K} ^ {*}) ] / \mathrm {c} (\mathrm {w} ^ {*}, \mathrm {r} ^ {*}, \mathrm {z}), \quad \text {f o r} \mathrm {z} \in (\mathrm {z} ^ {*}, 1 ], \tag {3.34b}
+\mathrm{y}^{*} (\mathrm{z}) = \alpha (\mathrm{z}) [ (\mathrm{wL} + \mathrm{rK}) + (\mathrm{wL}^{*} + \mathrm{rK}^{*}) ] / \mathrm{c} (\mathrm{w}^{*}, \mathrm{r}^{*}, \mathrm{z}), \quad \text{fo r} \mathrm{z} \in (\mathrm{z}^{*}, 1 ], \tag {3.34b}
 $$
 
 Using this information, we can then calculate the demand for labor in each country. At home, for example, the relative demand for labor/capital is:
 
 $$
-\frac {\mathrm {L}}{\mathrm {K}} = \frac {\int_ {0} ^ {\mathrm {z} ^ {*}} \mathrm {a} _ {\mathrm {L}} (\mathrm {w} , \mathrm {r} , \mathrm {z}) \mathrm {y} (\mathrm {z}) \mathrm {d z}}{\int_ {0} ^ {\mathrm {z} ^ {*}} \mathrm {a} _ {\mathrm {K}} (\mathrm {w} , \mathrm {r} , \mathrm {z}) \mathrm {y} (\mathrm {z}) \mathrm {d z}}, \tag {3.35a}
+\frac{\mathrm{L}}{\mathrm{K}} = \frac{\int_{0}^{\mathrm{z}^{*}} \mathrm{a}_{\mathrm{L}} (\mathrm{w} , \mathrm{r} , \mathrm{z}) \mathrm{y} (\mathrm{z}) \mathrm{dz}}{\int_{0}^{\mathrm{z}^{*}} \mathrm{a}_{\mathrm{K}} (\mathrm{w} , \mathrm{r} , \mathrm{z}) \mathrm{y} (\mathrm{z}) \mathrm{dz}}, \tag {3.35a}
 $$
 
 and in the foreign country, the relative demand is,
 
 $$
-\frac {\mathrm {L} ^ {*}}{\mathrm {K} ^ {*}} = \frac {\int_ {\mathrm {z} ^ {*}} ^ {1} \mathrm {a} _ {\mathrm {L}} \left(\mathrm {w} ^ {*} , \mathrm {r} ^ {*} , \mathrm {z}\right) \mathrm {y} ^ {*} (\mathrm {z}) \mathrm {d z}}{\int_ {\mathrm {z} ^ {*}} ^ {1} \mathrm {a} _ {\mathrm {K}} \left(\mathrm {w} ^ {*} , \mathrm {r} ^ {*} , \mathrm {z}\right) \mathrm {y} ^ {*} (\mathrm {z}) \mathrm {d z}}. \tag {3.35b}
+\frac{\mathrm{L}^{*}}{\mathrm{K}^{*}} = \frac{\int_{\mathrm{z}^{*}}^{1} \mathrm{a}_{\mathrm{L}} \left(\mathrm{w}^{*} , \mathrm{r}^{*} , \mathrm{z}\right) \mathrm{y}^{*} (\mathrm{z}) \mathrm{dz}}{\int_{\mathrm{z}^{*}}^{1} \mathrm{a}_{\mathrm{K}} \left(\mathrm{w}^{*} , \mathrm{r}^{*} , \mathrm{z}\right) \mathrm{y}^{*} (\mathrm{z}) \mathrm{dz}}. \tag {3.35b}
 $$
 
-The equality of relative labor demand and supply for the home country is illustrated in Figure 3.11, where we show the relative labor demand on the right of (3.35a) as  $\mathrm{D}(\mathrm{z}^{*})$ , depending on the relative wage and  $\mathbf{z}^{\ast}$ . This must equal the relative endowment  $\mathrm{L / K}$ .
+The equality of relative labor demand and supply for the home country is illustrated in Figure 3.11, where we show the relative labor demand on the right of (3.35a) as  $\mathrm{D}(\mathrm{z}^{*})$ , depending on the relative wage and  $\mathbf{z}^{\ast}$ . This must equal the relative endowment  $\mathrm{L /K}$ .
 
 The two-country equilibrium is determined by conditions (3.34) and (3.35), combined with  $\mathrm{c}(\mathrm{w},\mathrm{r},\mathrm{z}^{*}) = \mathrm{c}(\mathrm{w}^{*},\mathrm{r}^{*},\mathrm{z}^{*})$ , and also trade balance between the countries:
 
 $$
-\int_ {z ^ {*}} ^ {1} \alpha (z) (w L + r K) d z = \int_ {0} ^ {z ^ {*}} \alpha (z) (w ^ {*} L + r ^ {*} K) d z \tag {3.36}
+\int_{z^{*}}^{1} \alpha (z) (w L + r K) d z = \int_{0}^{z^{*}} \alpha (z) (w^{*} L + r^{*} K) d z \tag {3.36}
 $$
 
 The left of (3.36) is the value of home imports of the goods  $(z^{*}, 1]$ , while the right-side is home exports of those products  $[0, z^{*})$ . Substituting (3.34) into (3.35), we have four equations [i.e. (3.35a), (3.35b),  $c(\mathrm{w}, \mathrm{r}, z^{*}) = c(\mathrm{w}^{*}, \mathrm{r}^{*}, z^{*})$  and (3.36)] to determine  $z^{*}$  and the four factor prices  $(\mathrm{w}, \mathrm{r})$ , and  $(\mathrm{w}^{*}, \mathrm{r}^{*})$ , where one factor price can be normalized at unity.
@@ -2501,7 +2501,7 @@ Trefler, 1993, 1998). In other words, we want to model the technological differe
 Our discussion of the Dornbusch, Fischer, and Samuelson (1980) model immediately suggests a simple empirical technique. If factor prices are not equal, then the capital/labor ratios of traded goods must be systematically related to each country's endowments: a country with a higher capital/labor endowment than its neighbor must have higher capital/labor intensities in all of its traded goods. Let us model this relation by:
 
 $$
-\ln a _ {j k} ^ {i} = \alpha^ {i} + \beta_ {j k} + \gamma_ {k} \left(\frac {\mathrm {K} ^ {i}}{\mathrm {L} ^ {i}}\right) + \varepsilon_ {j k} ^ {i}, \tag {3.37}
+\ln a_{j k}^{i} = \alpha^{i} + \beta_{j k} + \gamma_{k} \left(\frac{\mathrm{K}^{i}}{\mathrm{L}^{i}}\right) + \varepsilon_{j k}^{i}, \tag {3.37}
 $$
 
 where  $i = 1, \ldots, C$  denotes countries,  $j = 1, \ldots, N$  denotes traded goods,  $k = 1, \ldots, M$  denotes factors,  $(K^i / L^i)$  is the relative capital/labor endowment, and  $\varepsilon_{jk}^i$  is a random error.
@@ -2515,19 +2515,19 @@ As noted by Harrigan (2003), there is considerable prior evidence that a specifi
 As discussed near the end of the last chapter, when the technology matrices differ across countries, then we should use the technology of the exporting country to construct the factor content of trade. Davis and Weinstein follow this approach, so the factor content of exports from country i to country j is:
 
 $$
-\hat {\mathrm {F}} ^ {\mathrm {i j}} \equiv \hat {\mathrm {A}} ^ {\mathrm {i}} \mathrm {X} ^ {\mathrm {i j}}, \tag {3.38}
+\hat {\mathrm{F}}^{\mathrm{ij}} \equiv \hat {\mathrm{A}}^{\mathrm{i}} \mathrm{X}^{\mathrm{ij}}, \tag {3.38}
 $$
 
 where  $\mathbf{X}^{\mathrm{ij}}$  is the vector of gross exports of goods from country i to j. Davis and Weinstein sometimes use an additional assumption, whereby these exports are themselves estimated in proportion to the purchasing country's GDP. In that case, the factor content of export is:
 
 $$
-\hat {\mathrm {F}} ^ {\mathrm {i j}} \equiv \hat {\mathrm {A}} ^ {\mathrm {i}} \hat {\mathrm {X}} ^ {\mathrm {i j}}. \tag {3.39}
+\hat {\mathrm{F}}^{\mathrm{ij}} \equiv \hat {\mathrm{A}}^{\mathrm{i}} \hat {\mathrm{X}}^{\mathrm{ij}}. \tag {3.39}
 $$
 
 In either case, the prediction of the HOV model is that the factor content of trade reflects a country's relative endowments, or that:
 
 $$
-V ^ {i} - s ^ {i} \left(\sum_ {j} V ^ {j}\right) = \left(\sum_ {j \neq i} \hat {F} ^ {i j}\right) - \left(\sum_ {j \neq i} \hat {F} ^ {j i}\right). \tag {3.40}
+V^{i} - s^{i} \left(\sum_{j} V^{j}\right) = \left(\sum_{j \neq i} \hat {F}^{i j}\right) - \left(\sum_{j \neq i} \hat {F}^{j i}\right). \tag {3.40}
 $$
 
 In the sign test, for example, if we assume that all OECD countries use the same average technology matrix, then we include only the parameters  $\beta_{jk}$  in regression (3.37) and construct the predicted technology matrix  $\hat{\mathbf{A}}$ , which is the same across countries. In that case, Davis and Weinstein initially find that the right and left-sides of (3.40) have the same sign in only  $46\%$  of the cases.[23] This is no better than a coin toss, much as we found in chapter 2. If instead we allow for uniform productivity differences  $\delta^i$  between countries, so the regression (3.37) is estimated with  $\alpha^i$  in addition to  $\beta_{jk}$ , then we find that the sign test is satisfied in  $50\%$  of the cases. If we also include  $\gamma_k(\mathrm{K}^i / \mathrm{L}^i)$  in regression (3.37), so that the estimated technologies differ systematically with countries' factor endowments, then the sign test is satisfied in fully  $86\%$  of the cases. Finally, if we model exports as proportional to the purchasing countries GDP, so factor contents are measured with (3.39) rather than (3.38), then the sign test is satisfied in  $92\%$  of the cases!
@@ -2577,7 +2577,7 @@ Since the early 1980s there has been a marked change in the pattern of wage paym
 First, we could estimate a GDP or cost function for the U.S. economy, or for specific industries, and compute the Stolper-Samuelson effect of a change in traded goods prices. We will discuss this approach at several points throughout the chapter. Second, we could proceed as in the Heckscher-Ohlin-Vanek (HOV) model and compute the change in the factor content of trade and associated changes in factor prices. Theoretically, this second approach is justified by Deardorff and Staiger (1988), who show that:
 
 $$
-\left(\mathrm {w} ^ {2} - \mathrm {w} ^ {1}\right) \left(\mathrm {F} ^ {2} - \mathrm {F} ^ {1}\right) \geq 0, \tag {4.1}
+\left(\mathrm{w}^{2} - \mathrm{w}^{1}\right) \left(\mathrm{F}^{2} - \mathrm{F}^{1}\right) \geq 0, \tag {4.1}
 $$
 
 where  $\mathbf{w}^{\mathrm{i}}$  are equilibrium wages in a country in two equilibria  $\mathrm{i} = 1,2$ , and  $\mathbf{F}^{\mathrm{i}}$  is the factor-content of exports for that country. Equation (4.1) is interpreted as saying that a higher content of imports for some factor  $\mathrm{k}$ ,  $\mathrm{F}_{\mathrm{k}}^{2} < \mathrm{F}_{\mathrm{k}}^{1} < 0$  so  $(\mathrm{F}_{\mathrm{k}}^{2} - \mathrm{F}_{\mathrm{k}}^{1}) < 0$ , will tend to be associated with a falling wage for that factor,  $(\mathrm{w}_{\mathrm{k}}^{2} - \mathrm{w}_{\mathrm{k}}^{1}) < 0$ . The same would be true for the direct import of a factor, as with immigration. Among the most careful assessment of these effects for the United States,
@@ -2666,7 +2666,7 @@ Mexico, where assembly of the inputs and other production activities take place 
 We will suppose that the two inputs  $y_{i}$ ,  $i = 1,2$ , are each produced using unskilled labor  $(L_{i})$ , skilled labor  $(H_{i})$ , and capital  $(K_{i})$ , with concave and linearly homogeneous production functions,
 
 $$
-\mathrm {y} _ {\mathrm {i}} = \mathrm {f} _ {\mathrm {i}} \left(\mathrm {L} _ {\mathrm {i}}, \mathrm {H} _ {\mathrm {i}}, \mathrm {K} _ {\mathrm {i}}\right), \quad \mathrm {i} = 1, 2. \tag {4.2}
+\mathrm{y}_{\mathrm{i}} = \mathrm{f}_{\mathrm{i}} \left(\mathrm{L}_{\mathrm{i}}, \mathrm{H}_{\mathrm{i}}, \mathrm{K}_{\mathrm{i}}\right), \quad \mathrm{i} = 1, 2. \tag {4.2}
 $$
 
 For example, the unskilled-labor intensive input  $y_{1}$  might represent the activities done within a factory, while the skilled-labor intensive input  $y_{2}$  might represent the research and development activities within the industry, as well as marketing and after-sales service. These are both needed to produce the final manufacturing product. But some of the activities done within the factory can instead be outsourced, i.e. imported from abroad; and conversely, the services associated with research, development and marketing can be exported to support production activities abroad. We therefore let  $x_{1} < 0$  denote the imports of input 1, and  $x_{2} > 0$  denote the exports of input 2. Also let  $p_{i}$  denote the price of each input,  $i = 1,2$ , and let  $p = (p_{1},p_{2})$  denote the price vector of the traded intermediate inputs.
@@ -2674,13 +2674,13 @@ For example, the unskilled-labor intensive input  $y_{1}$  might represent the a
 The production of the final good is given by  $y_{n} = f_{n}(y_{1} - x_{1}, y_{2} - x_{2})$ , where this production function "bundles together" the amounts of goods 1 and 2 available, and is also concave and linearly homogeneous. We ignore any additional labor and capital inputs used in this bundling activity, so that the total factor usage in the manufacturing industry is,
 
 $$
-\mathrm {L} _ {1} + \mathrm {L} _ {2} = \mathrm {L} _ {\mathrm {n}}, \quad \mathrm {H} _ {1} + \mathrm {H} _ {2} = \mathrm {H} _ {\mathrm {n}}, \quad \mathrm {K} _ {1} + \mathrm {K} _ {2} = \mathrm {K} _ {\mathrm {n}}. \tag {4.3}
+\mathrm{L}_{1} + \mathrm{L}_{2} = \mathrm{L}_{\mathrm{n}}, \quad \mathrm{H}_{1} + \mathrm{H}_{2} = \mathrm{H}_{\mathrm{n}}, \quad \mathrm{K}_{1} + \mathrm{K}_{2} = \mathrm{K}_{\mathrm{n}}. \tag {4.3}
 $$
 
 We can now solve for the optimal output in the industry, which includes the three activities. With perfect competition, the value of output from the final good, plus net trade, will be maximized subject to the resource constraints:
 
 $$
-\mathrm {G} _ {\mathrm {n}} \left(\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}, \mathrm {p} _ {\mathrm {n}}, \mathrm {p}\right) \equiv \max  _ {\mathrm {x} _ {\mathrm {i}}, \mathrm {L} _ {\mathrm {i}}, \mathrm {H} _ {\mathrm {i}}, \mathrm {K} _ {\mathrm {i}}} \quad \mathrm {p} _ {\mathrm {n}} \mathrm {f} _ {\mathrm {n}} \left(\mathrm {y} _ {1} - \mathrm {x} _ {1}, \mathrm {y} _ {2} - \mathrm {x} _ {2}\right) + \mathrm {p} _ {1} \mathrm {x} _ {1} + \mathrm {p} _ {2} \mathrm {x} _ {2}, \tag {4.4}
+\mathrm{G}_{\mathrm{n}} \left(\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}, \mathrm{p}_{\mathrm{n}}, \mathrm{p}\right) \equiv \max_{\mathrm{x}_{\mathrm{i}}, \mathrm{L}_{\mathrm{i}}, \mathrm{H}_{\mathrm{i}}, \mathrm{K}_{\mathrm{i}}} \quad \mathrm{p}_{\mathrm{n}} \mathrm{f}_{\mathrm{n}} \left(\mathrm{y}_{1} - \mathrm{x}_{1}, \mathrm{y}_{2} - \mathrm{x}_{2}\right) + \mathrm{p}_{1} \mathrm{x}_{1} + \mathrm{p}_{2} \mathrm{x}_{2}, \tag {4.4}
 $$
 
 subject to (4.2), (4.3),
@@ -2697,13 +2697,13 @@ chapter 1: the special feature of Figure 4.3 is that we now think of these activ
 How will the drop in the relative price of imported inputs affect factor prices? To answer this, we can use the zero-profit conditions for producing inputs 1 and 2, which are,
 
 $$
-p _ {i} = c _ {i} (w, q, r). \tag {4.5}
+p_{i} = c_{i} (w, q, r). \tag {4.5}
 $$
 
 These conditions must hold in order for the locally produced inputs  $y_{i}$ ,  $i = 1,2$ , to be competitive with those available from abroad, at the international prices  $p_{i}$ . Totally differentiating (4.5) and using the Jones' algebra (as in chapter 1), we can express the percentage change in factor prices  $\hat{w}$ ,  $\hat{q}$ , and  $\hat{r}$  as functions of the percentage change in prices  $\hat{p}_{i}$ :
 
 $$
-\hat {\mathrm {p}} _ {\mathrm {i}} = \theta_ {\mathrm {i L}} \hat {\mathrm {w}} + \theta_ {\mathrm {i H}} \hat {\mathrm {q}} + \theta_ {\mathrm {i K}} \hat {\mathrm {r}}, \tag {4.6}
+\hat {\mathrm{p}}_{\mathrm{i}} = \theta_{\mathrm{iL}} \hat {\mathrm{w}} + \theta_{\mathrm{iH}} \hat {\mathrm{q}} + \theta_{\mathrm{iK}} \hat {\mathrm{r}}, \tag {4.6}
 $$
 
 where  $\theta_{ij}$  is the cost-share of factor  $j$  in activity  $i$ , with  $\sum_{j} \theta_{ij} = 1$ .
@@ -2713,7 +2713,7 @@ Treating the change in the traded price  $\hat{\mathbf{p}}_{\mathrm{i}}$  as exo
 Let us assume that capital has equal cost shares in the two industries, so that  $\theta_{1\mathrm{K}} = \theta_{2\mathrm{K}}$ . Using this, we take the difference between the two equations in (4.6) to obtain,
 
 $$
-\hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2} = (\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}}) \hat {\mathrm {w}} + (\theta_ {1 \mathrm {H}} - \theta_ {2 \mathrm {H}}) \hat {\mathrm {q}} = (\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}}) (\hat {\mathrm {w}} - \hat {\mathrm {q}}), \tag {4.7}
+\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} = (\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) \hat {\mathrm{w}} + (\theta_{1 \mathrm{H}} - \theta_{2 \mathrm{H}}) \hat {\mathrm{q}} = (\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) (\hat {\mathrm{w}} - \hat {\mathrm{q}}), \tag {4.7}
 $$
 
 where the second equality follows since with equal cost shares of capital, the total cost shares of labor are also equal, so that  $(\theta_{1L} + \theta_{1H}) = (\theta_{2L} + \theta_{2H}) \Rightarrow (\theta_{1L} - \theta_{2L}) = -(\theta_{1H} - \theta_{2H})$ . With activity 1 assumed to be unskilled-labor intensive, we have that  $(\theta_{1L} - \theta_{2L}) > 0$ . Thus, (4.7) says that a decrease in the relative price of imported intermediate input,  $\hat{p}_1 - \hat{p}_2 < 0$ , leads to a decrease in the relative wage of unskilled labor,  $(\hat{w} - \hat{q}) = (\hat{p}_1 - \hat{p}_2) / (\theta_{1L} - \theta_{2L}) < 0$ .
@@ -2736,12 +2736,12 @@ The model we have presented above can be readily extended to incorporate a conti
 
 Rather than listing these activities in their temporal order, we will instead list them in increasing order of skilled/unskilled labor, where for example, the least skill-intensive activity is assembly and the most skill-intensive activity is R&D. Letting  $\mathrm{x(z)}$  denote the quantity produced of each
 
-one of these inputs, we let  $\mathrm{a_H(z)}$  and  $\mathrm{a_L(z)}$  denote the skilled and unskilled labor, respectively, needed to produce one unit of  $\mathrm{x(z)}$ . As stated, we will order the activities  $\mathrm{z}$  so that  $\mathrm{a_H(z) / a_L(z)}$  is non-decreasing in  $\mathrm{z}$ .
+one of these inputs, we let  $\mathrm{a_H(z)}$  and  $\mathrm{a_L(z)}$  denote the skilled and unskilled labor, respectively, needed to produce one unit of  $\mathrm{x(z)}$ . As stated, we will order the activities  $\mathrm{z}$  so that  $\mathrm{a_H(z) /a_L(z)}$  is non-decreasing in  $\mathrm{z}$ .
 
 We will suppose that there are two countries, with the foreign country denoted by an asterisk. The production functions for producing the two inputs are assumed to be the same up to a Hick's-neutral productivity parameter in each country:
 
 $$
-\mathrm {x} (\mathrm {z}) = \mathrm {A} \left[ \min  \left\{\frac {\mathrm {L} (\mathrm {z})}{\mathrm {a} _ {\mathrm {L}} (\mathrm {z})}, \frac {\mathrm {H} (\mathrm {z})}{\mathrm {a} _ {\mathrm {H}} (\mathrm {z})} \right\} \right] ^ {\theta} \mathrm {K} ^ {1 - \theta}, \quad \mathrm {z} \in [ 0, 1 ]. \tag {4.8}
+\mathrm{x} (\mathrm{z}) = \mathrm{A} \left[ \min  \left\{\frac{\mathrm{L} (\mathrm{z})}{\mathrm{a}_{\mathrm{L}} (\mathrm{z})}, \frac{\mathrm{H} (\mathrm{z})}{\mathrm{a}_{\mathrm{H}} (\mathrm{z})} \right\} \right]^{\theta} \mathrm{K}^{1 - \theta}, \quad \mathrm{z} \in [ 0, 1 ]. \tag {4.8}
 $$
 
 Thus, the amount of skilled and unskilled labor  $\mathrm{H(z)}$  and  $\mathrm{L(z)}$  are used in the home country to produce input  $\mathbf{z}$ , using a Leontief technology between these two types of labor, and then a Cobb-Douglas technology between labor overall and capital  $\mathrm{K}$ . The parameter  $\theta$  denotes the share of labor in the costs of producing each input. The foreign production function is the same, except with a different productivity parameter  $\mathrm{A^{*}}$ .
@@ -2749,13 +2749,13 @@ Thus, the amount of skilled and unskilled labor  $\mathrm{H(z)}$  and  $\mathrm{
 Rather than working with the production functions for the inputs in (4.8), it will be convenient to work with the dual unit-cost function:
 
 $$
-\mathrm {c} (\mathrm {w}, \mathrm {q}, \mathrm {r}, \mathrm {z}) = \mathrm {B} [ \mathrm {w a} _ {\mathrm {L}} (\mathrm {z}) + \mathrm {q a} _ {\mathrm {H}} (\mathrm {z}) ] ^ {\theta} \mathrm {r} _ {\mathrm {i}} ^ {1 - \theta}, \tag {4.9}
+\mathrm{c} (\mathrm{w}, \mathrm{q}, \mathrm{r}, \mathrm{z}) = \mathrm{B} [ \mathrm{wa}_{\mathrm{L}} (\mathrm{z}) + \mathrm{qa}_{\mathrm{H}} (\mathrm{z}) ]^{\theta} \mathrm{r}_{\mathrm{i}}^{1 - \theta}, \tag {4.9}
 $$
 
 where  $c(w, q, r, z)$  denotes the costs of producing one unit of  $x(z)$  in the home country, given the wage of unskilled labor  $w$ , the wage of skilled labor  $q$ , and the rental on capital  $r$ . The inputs can be produced in either country, and are then combined into the production of a final product. The production function for the final good is assumed to be a Cobb-Douglas function over all the inputs:
 
 $$
-\ln \mathrm {Y} = \int_ {0} ^ {1} \alpha (\mathrm {z}) \ln \mathrm {x} (\mathrm {z}) \mathrm {d z}, \quad \text {w i t h} \quad \int_ {0} ^ {1} \alpha (\mathrm {z}) \mathrm {d z} = 1. \tag {4.10}
+\ln \mathrm{Y} = \int_{0}^{1} \alpha (\mathrm{z}) \ln \mathrm{x} (\mathrm{z}) \mathrm{dz}, \quad \text{wi th} \quad \int_{0}^{1} \alpha (\mathrm{z}) \mathrm{dz} = 1. \tag {4.10}
 $$
 
 Notice that in (4.10) we have not included labor as an input, so the final good is assembled "costlessly" from all the individual inputs  $z \in [0,1]$ . This means that we do not need to keep track of which country the assembly takes place, because there is zero value-added (and zero demand for labor) in this activity.
@@ -2763,7 +2763,7 @@ Notice that in (4.10) we have not included labor as an input, so the final good 
 In general, firms doing the assembly will wish to source the inputs from the minimum cost location. To determine this, we will make the following assumption on factor prices:
 
 $$
-\frac {\mathrm {q}}{\mathrm {w}} <   \frac {\mathrm {q} ^ {*}}{\mathrm {w} ^ {*}}, \quad \text {a n d} \quad \mathrm {r} <   \mathrm {r} ^ {*} \quad . \tag {4.11}
+\frac{\mathrm{q}}{\mathrm{w}} <   \frac{\mathrm{q}^{*}}{\mathrm{w}^{*}}, \quad \text{an d} \quad \mathrm{r} <   \mathrm{r}^{*} \quad . \tag {4.11}
 $$
 
 The first assumption in (4.11) states that the relative wage of skilled labor is lower at home than abroad, which is realistic if the home country is skilled-labor abundant, like the U.S.: despite the increase in the relative wage of skilled labor in the United States during the past two decades, it is still much lower than in Mexico. The second assumption states that the rental on capital is lower at home, so that if capital is able to move, it will want to re-locate abroad. This is also realistic if the home country is capital abundant, and will provide the basis for some comparative statics we shall consider.
@@ -2772,12 +2772,12 @@ With assumption (4.11), we can graphically illustrate the problem of choosing th
 
 Figure 4.5. Then the question is: how does the locus of unit-costs  $c^*(w^*, q^*, r^*, z)$  abroad, which we denote by  $C^*C^*$  related to that at home?
 
-If the unit-costs of all activities were lower at home, for example, then all inputs would be produced there, and vice-versa if all unit-costs are lower abroad. We are interested in the case where there is some "production sharing" across the countries, so assume that the curves  $\mathrm{C}^*\mathrm{C}^*$  and CC intersect at least once, and denote this input by  $z^{*}$ , with  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{*}) = c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{*})$ . Then consider an activity  $z^{\prime} > z^{*}$  with slightly higher skilled/unskilled labor requirements. Because of our assumptions that  $(\mathrm{q / w}) < (\mathrm{q}^{*} / \mathrm{w}^{*})$ , the higher skilled/unskilled requirements should have a greater impact on foreign costs than on home costs. We therefore expect that  $c(\mathrm{w},\mathrm{r},\mathrm{q},\mathrm{z}^{\prime}) < c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} > z^{*}$ . Similarly, we expect that the converse is also true,  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{\prime}) > c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} < z^{*}$ . Thus, the loci  $\mathrm{C}^*\mathrm{C}^*$  and CC can intersect at most once, as shown in Figure 4.5. $^{11}$  The similarity of this analysis with the model of Dornbusch, Fisher and Samuelson (1980) in the previous chapter will be clear to the reader, where we used nearly the same diagrams.
+If the unit-costs of all activities were lower at home, for example, then all inputs would be produced there, and vice-versa if all unit-costs are lower abroad. We are interested in the case where there is some "production sharing" across the countries, so assume that the curves  $\mathrm{C}^*\mathrm{C}^*$  and CC intersect at least once, and denote this input by  $z^{*}$ , with  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{*}) = c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{*})$ . Then consider an activity  $z^{\prime} > z^{*}$  with slightly higher skilled/unskilled labor requirements. Because of our assumptions that  $(\mathrm{q /w}) < (\mathrm{q}^{*} / \mathrm{w}^{*})$ , the higher skilled/unskilled requirements should have a greater impact on foreign costs than on home costs. We therefore expect that  $c(\mathrm{w},\mathrm{r},\mathrm{q},\mathrm{z}^{\prime}) < c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} > z^{*}$ . Similarly, we expect that the converse is also true,  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{\prime}) > c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} < z^{*}$ . Thus, the loci  $\mathrm{C}^*\mathrm{C}^*$  and CC can intersect at most once, as shown in Figure 4.5. $^{11}$  The similarity of this analysis with the model of Dornbusch, Fisher and Samuelson (1980) in the previous chapter will be clear to the reader, where we used nearly the same diagrams.
 
 Given this unique intersection, we see that foreign unit-costs are less than those at home for all  $z' < z^*$ , so that the foreign country will specialize in the products  $[0, z^*)$ , whereas home unit-costs are less than those abroad for all  $z' > z^*$ , so the home country will specialize in  $(z^*, 1]$ . Using this information, we can then calculate the demand for labor in each country. At home, for example, the relative demand for skilled/unskilled labor is:
 
 $$
-D (z ^ {*}) = \frac {\int_ {z ^ {*}} ^ {1} \frac {\partial c}{\partial q} x (z) d z}{\int_ {z ^ {*}} ^ {1} \frac {\partial c}{\partial w} x (z) d z}. \tag {4.12}
+D (z^{*}) = \frac{\int_{z^{*}}^{1} \frac{\partial c}{\partial q} x (z) d z}{\int_{z^{*}}^{1} \frac{\partial c}{\partial w} x (z) d z}. \tag {4.12}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/b50c4223bd86e6900dc9190ce50f81b064aeaef4476e28bb7def2e7e39382c2a.jpg)
@@ -2791,7 +2791,7 @@ Because the final good is "costlessly" assembled from the intermediate inputs, w
 The equilibrium conditions for the world economy are that supply equal demand in the market for skilled and unskilled labor in each country, as well as for capital, when each country is producing the range of products for which they have minimum cost. In terms of our diagrams, we will have  $z^*$  determined by Figure 4.5, which is then used to draw the relative demand for labor in each country. Supposing the endowments of labor and capital are fixed, the relative wage is determined by the intersection of supply and demand in Figure 4.6 for each country, which feeds back into the cost loci CC and  $C^*C^*$  in Figure 4.6, to determine  $z^*$ . When all these curves intersect simultaneously, we can do a final calculation to determine the rental on capital in each country. The wage bill at home is  $wL + qH$ . Because wages make up the fraction  $\theta$  of total costs, it follows that GDP in each country is  $(wL + qH)/\theta$ . Multiplying this by (1-θ), the cost share of capital, we therefore obtain:
 
 $$
-\frac {(\mathrm {w L} + \mathrm {q H})}{\theta} (1 - \theta) = \mathrm {r K}. \tag {4.13}
+\frac{(\mathrm{wL} + \mathrm{qH})}{\theta} (1 - \theta) = \mathrm{rK}. \tag {4.13}
 $$
 
 With the capital endowment  $\mathrm{K}$  fixed on the right of (4.13), this equation determines the rental rate at home, with the analogous equation holding abroad.
@@ -2818,20 +2818,20 @@ and that “vertical specialization” accounts for more than  $50\%$  of the gr
 
 Summarizing our argument so far, the decision of companies to purchase intermediate inputs from overseas will most certainly affect their employment at home, and can be expected to differentially affect skilled versus unskilled workers. With firms in industrial countries facing a higher relative wage for unskilled labor than that found abroad, the activities that are outsourced would be those that use a large amount of unskilled labor, such as assembly of components and other repetitive tasks. Moving these activities overseas will reduce the relative demand for unskilled labor in the industrial country, in much the same way as replacing these workers with automated production. This means that outsourcing has a qualitatively similar effect on reducing the relative demand for unskilled labor within an industry as does skilled-biased technological change, such as the increased use of computers. Thus, determining which of these is most important is an empirical question.
 
-We will examine two methods that have been used to estimate the effects of trade versus technological change on wages and employment. The first method estimates the demand for skilled and unskilled labor. Let us return to the simple three-good, three-factor model introduced above, where we derived the revenue function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  in (4.4) for each industry  $n = 1,\dots,N$ , where  $p = (p_1,p_2)$  is the vector of imported input prices. It will be convenient to work with a "short-run" cost function that is dual to (4.4). Note that the function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  is linearly homogeneous in prices, so we can alternatively write it as  $\mathrm{p_nG_n(L_n,H_n,K_n,1,p / p_n)}$ . Thus, a natural measure of real value-added is,
+We will examine two methods that have been used to estimate the effects of trade versus technological change on wages and employment. The first method estimates the demand for skilled and unskilled labor. Let us return to the simple three-good, three-factor model introduced above, where we derived the revenue function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  in (4.4) for each industry  $n = 1,\dots,N$ , where  $p = (p_1,p_2)$  is the vector of imported input prices. It will be convenient to work with a "short-run" cost function that is dual to (4.4). Note that the function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  is linearly homogeneous in prices, so we can alternatively write it as  $\mathrm{p_nG_n(L_n,H_n,K_n,1,p /p_n)}$ . Thus, a natural measure of real value-added is,
 
 $$
-\mathrm {Y} _ {\mathrm {n}} = \mathrm {G} _ {\mathrm {n}} \left(\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}, 1, \mathrm {p} / \mathrm {p} _ {\mathrm {n}}\right). \tag {4.14}
+\mathrm{Y}_{\mathrm{n}} = \mathrm{G}_{\mathrm{n}} \left(\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}, 1, \mathrm{p} / \mathrm{p}_{\mathrm{n}}\right). \tag {4.14}
 $$
 
 This measure of output is nearly the same as  $y_{n}$ , except it now includes real net exports.
 
-Provided that the underlying production functions  $\mathrm{f_i}$ ,  $\mathrm{i = 1,2,n}$ , are increasing and concave, then the function  $\mathbf{G}_{\mathrm{n}}$  will also be increasing and concave in  $(\mathbf{L}_{\mathrm{n}},\mathbf{H}_{\mathrm{n}},\mathbf{K}_{\mathrm{n}})$ .
+Provided that the underlying production functions  $\mathrm{f_i}$ ,  $\mathrm{i =1,2,n}$ , are increasing and concave, then the function  $\mathbf{G}_{\mathrm{n}}$  will also be increasing and concave in  $(\mathbf{L}_{\mathrm{n}},\mathbf{H}_{\mathrm{n}},\mathbf{K}_{\mathrm{n}})$ .
 
 Then the short-run cost function, obtained when the level of capital and output are fixed, is defined as:
 
 $$
-C _ {n} (w, q, K _ {n}, Y _ {n}, p / p _ {n}) \equiv \min  _ {L _ {n}, H _ {n}} w L _ {n} + q H _ {n}, \text {s u b j e c t} \tag {4.15}
+C_{n} (w, q, K_{n}, Y_{n}, p / p_{n}) \equiv \min_{L_{n}, H_{n}} w L_{n} + q H_{n}, \text{su bj ec t} \tag {4.15}
 $$
 
 Notice that we have included the relative price of traded inputs  $\mathrm{p} / \mathrm{p}_{\mathrm{n}}$  in this cost function since they also appear in the revenue function (4.14). More generally, any structural variables that shift the production function and therefore affect costs should be included as arguments. In the model discussed above with a continuum of input, the range of inputs imported into each country should appear as an argument in (4.15). That is, it is not enough to just keep track of import prices – we also need to keep track of newly imported intermediate inputs. In practice, we will measure this by the expenditure on imported inputs for each industry, though this does not fully capture the idea of newly imported inputs.[13] We will denote all such variables that affect costs in industry  $\mathfrak{n}$  by the vector  $\mathbf{z}_{\mathrm{n}}$ ; in addition to imported inputs, this can include expenditures on computers and other new types of capital equipment. We therefore rewrite the cost function in (4.15) as  $C_{\mathrm{n}}(\mathrm{w},\mathrm{q},\mathrm{K}_{\mathrm{n}},\mathrm{Y}_{\mathrm{n}},\mathrm{z}_{\mathrm{n}})$ .
@@ -2839,7 +2839,7 @@ Notice that we have included the relative price of traded inputs  $\mathrm{p} / 
 The next step is to choose a functional form for costs. As in our discussion of the GDP function in chapter 3, a convenient choice is the translog cost function, which is written in a general notation (dropping the industry subscript n) as,
 
 $$
-\begin{array}{l} \ln C = \alpha_ {0} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \alpha_ {\mathrm {i}} \ln w _ {\mathrm {i}} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \beta_ {\mathrm {k}} \ln x _ {\mathrm {k}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \gamma_ {\mathrm {i j}} \ln w _ {\mathrm {i}} \ln w _ {\mathrm {j}} \tag {4.16} \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \sum_ {\ell = 1} ^ {\mathrm {K}} \delta_ {\mathrm {k} \ell} \ln \mathrm {x} _ {\mathrm {k}} \ln \mathrm {x} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \phi_ {\mathrm {i k}} \ln \mathrm {w} _ {\mathrm {i}} \ln \mathrm {x} _ {\mathrm {k}} \\ \end{array}
+\begin{array}{l} \ln C = \alpha_{0} + \sum_{\mathrm{i} = 1}^{\mathrm{M}} \alpha_{\mathrm{i}} \ln w_{\mathrm{i}} + \sum_{\mathrm{k} = 1}^{\mathrm{K}} \beta_{\mathrm{k}} \ln x_{\mathrm{k}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \sum_{\mathrm{j} = 1}^{\mathrm{M}} \gamma_{\mathrm{ij}} \ln w_{\mathrm{i}} \ln w_{\mathrm{j}} \tag {4.16} \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{K}} \sum_{\ell = 1}^{\mathrm{K}} \delta_{\mathrm{k} \ell} \ln \mathrm{x}_{\mathrm{k}} \ln \mathrm{x}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{M}} \sum_{\mathrm{k} = 1}^{\mathrm{K}} \phi_{\mathrm{ik}} \ln \mathrm{w}_{\mathrm{i}} \ln \mathrm{x}_{\mathrm{k}} \\ \end{array}
 $$
 
 where  $\mathrm{w_i}$  denotes the wages of the optimally chosen inputs  $\mathrm{i} = 1, \dots, \mathrm{M}$ , and  $\mathrm{x_k}$  denotes either the quantities of the fixed inputs or outputs  $\mathrm{k} = 1, \dots, \mathrm{K}$ , or any other shift parameters. In terms of the cost function in (4.15), there are just two optimally chosen factors – skilled and unskilled labor – while capital and output are treated as fixed in the short run.
@@ -2847,7 +2847,7 @@ where  $\mathrm{w_i}$  denotes the wages of the optimally chosen inputs  $\mathr
 The usefulness of the translog function comes from computing its first derivatives,  $\partial \ln C / \partial \ln w_{i} = (\partial C / \partial w_{i})(w_{i} / C)$ . Because  $\partial C / \partial w_{i}$  equals the demand for the chosen input  $i$ , it follows that  $(\partial C / \partial w_{i})(w_{i} / C)$  equals the payments to factor  $i$  relative to total costs, which we denote by the cost-shares  $s_i$ . Thus, differentiating (4.16) with respect to  $\ln w_{i}$ , we obtain,
 
 $$
-s _ {i} = \alpha_ {i} + \sum_ {j = 1} ^ {M} \gamma_ {i j} \ln w _ {j} + \sum_ {k = 1} ^ {K} \phi_ {i k} \ln x _ {k}, \quad i = 1, \dots , M. \tag {4.17}
+s_{i} = \alpha_{i} + \sum_{j = 1}^{M} \gamma_{i j} \ln w_{j} + \sum_{k = 1}^{K} \phi_{i k} \ln x_{k}, \quad i = 1, \dots , M. \tag {4.17}
 $$
 
 Given annual data on factor cost shares, wages, and fixed inputs and outputs, this set of linear equations can be estimated over time for a given industry to obtain the coefficients  $\gamma_{\mathrm{ij}}$  and  $\phi_{\mathrm{ik}}$ .
@@ -2857,7 +2857,7 @@ Alternatively, the equations can be estimated for a single year, or the change b
 Returning now to the notation  $C_n(w, q, K_n, Y_n, z_n)$  as in (4.15), we have two chosen inputs - skilled and unskilled labor. Focusing on the share equation for skilled labor, it will depend on wages for both types of labor, as well capital, output, and all other structural variables,  $z_n$ . When (4.17) is estimated by pooling data across industries, as in Berman, Bound and Griliches (1994) for example, it is felt the cross-industry variation in wages has little information: wages differ across industries principally due to quality-variation of workers, so we do not expect high-wage industries to economize on those (high-quality) workers. Accordingly, the wage terms are typically dropped from the right of (4.17) when pooling data across industries. This leaves just fixed capital, output, and other structural variables. Taking the difference between two years, the estimating equation for the wage-share of skilled labor ( $s_{nH}$ ) in industries  $n = 1, \ldots, N$  becomes:
 
 $$
-\Delta \mathrm {s} _ {\mathrm {n H}} = \phi_ {0} + \phi_ {\mathrm {K}} \Delta \ln \mathrm {K} _ {\mathrm {n}} + \phi_ {\mathrm {Y}} \Delta \ln \mathrm {Y} _ {\mathrm {n}} + \phi_ {\mathrm {z}} ^ {\prime} \Delta \mathrm {z} _ {\mathrm {n}}, \quad \mathrm {n} = 1, \dots , \mathrm {N}, \tag {4.18}
+\Delta \mathrm{s}_{\mathrm{nH}} = \phi_{0} + \phi_{\mathrm{K}} \Delta \ln \mathrm{K}_{\mathrm{n}} + \phi_{\mathrm{Y}} \Delta \ln \mathrm{Y}_{\mathrm{n}} + \phi_{\mathrm{z}}^{\prime} \Delta \mathrm{z}_{\mathrm{n}}, \quad \mathrm{n} = 1, \dots , \mathrm{N}, \tag {4.18}
 $$
 
 where  $z_{n}$  denotes the vector of structural variables that shifts costs, and  $\phi_{z}$  is the corresponding vector of coefficients. In particular, when the wage-share of skilled labor is increasing, we are interested in determining how much of that increase is due to changes in capital, output, and the structural variables.
@@ -2881,7 +2881,7 @@ In column (1) of Table 4.4, we report the mean values of the dependent and indep
 
 The results for computers depend on the specification. Measuring computer services and other high-tech capital as a share of the capital stock using ex post rental prices, we see they account for  $13\%$  of the shift towards nonproduction labor. Measuring these shares using ex ante rental prices, we see that that computers and other high-tech capital explain only  $8\%$  of this shift.
 
-payments to capital are constructed as a residual,  $\mathrm{rK_n = pY_n - wL_n}$ . Next, we need some measure of the physical capital stock  $\mathbf{K}_{\mathrm{n}}$ , which is typically constructed from investment data  $\mathrm{I}_{\mathrm{n}}$  using the perpetual inventory method:  $\mathrm{K_{nt} = (1 - \delta)K_{nt - 1} + I_{nt}}$ , where  $\delta$  is a depreciation rate for capital. Then using the constructed physical capital in year t, and the total payments to capital in year t, these are divided to obtain the ex post rental on capital in year t:  $\mathrm{r_t = (pY_{nt} - wL_{nt}) / K_{nt}}$ . Then using the purchase price of capital  $\mathrm{p_{kt}}$ , the implied ex post rate of return to capital would be constructed as  $\rho_{t} = (\mathrm{r}_{t} / \mathrm{p}_{kt}) - \delta +[(\mathrm{p}_{kt + 1} - \mathrm{p}_{kt}) / \mathrm{p}_{kt}]$ . Thus, the ex post rate of return includes the rental relative to the purchase price, minus depreciation, plus any capital gains or losses on the capital equipment. In contrast, an ex ante rate of return would ignore the capital gains or losses. Thus, if we chose  $\rho^{*}$  as a "safe" rate of return such as on a bond, then the corresponding ex ante rental price would be obtained by ignoring capital gains and computing  $\mathrm{r_t}$  from the equation,  $\mathrm{r_t = (\rho^* + \delta)p_{kt}}$ . The formulas used for the rental prices becomes more complicated when we take into account business taxes, and when there are multiple types of capital. For further details see Harper, Berndt and Wood (1989).
+payments to capital are constructed as a residual,  $\mathrm{rK_n =pY_n -wL_n}$ . Next, we need some measure of the physical capital stock  $\mathbf{K}_{\mathrm{n}}$ , which is typically constructed from investment data  $\mathrm{I}_{\mathrm{n}}$  using the perpetual inventory method:  $\mathrm{K_{nt} = (1 - \delta)K_{nt - 1} + I_{nt}}$ , where  $\delta$  is a depreciation rate for capital. Then using the constructed physical capital in year t, and the total payments to capital in year t, these are divided to obtain the ex post rental on capital in year t:  $\mathrm{r_t = (pY_{nt} - wL_{nt}) / K_{nt}}$ . Then using the purchase price of capital  $\mathrm{p_{kt}}$ , the implied ex post rate of return to capital would be constructed as  $\rho_{t} = (\mathrm{r}_{t} / \mathrm{p}_{kt}) - \delta +[(\mathrm{p}_{kt + 1} - \mathrm{p}_{kt}) / \mathrm{p}_{kt}]$ . Thus, the ex post rate of return includes the rental relative to the purchase price, minus depreciation, plus any capital gains or losses on the capital equipment. In contrast, an ex ante rate of return would ignore the capital gains or losses. Thus, if we chose  $\rho^{*}$  as a "safe" rate of return such as on a bond, then the corresponding ex ante rental price would be obtained by ignoring capital gains and computing  $\mathrm{r_t}$  from the equation,  $\mathrm{r_t = (\rho^* + \delta)p_{kt}}$ . The formulas used for the rental prices becomes more complicated when we take into account business taxes, and when there are multiple types of capital. For further details see Harper, Berndt and Wood (1989).
  The share of computer spending in investment is obtained from the Census of Manufactures, which simply asked firms to report what percentage of new investment was devoted to computers. This variable has been used previously by Berman, Bound and Griliches (1994) and Autor, Katz and Krueger (1998).
 
 In both cases, the contribution of computers and other high-tech capital is less than the contribution of outsourcing. In contrast, when computers are measured by their share of investment (and the high-technology capital share is also included), we see that these variables account for  $31\%$  of the shift toward nonproduction labor, which exceeds the contribution of outsourcing. Thus, whether outsourcing is more or less important than computers depends on whether the latter are measured as a share of the capital stock, or as a share of investment. Regardless of the specification, however, it is fair to conclude that both outsourcing and expenditure on computers and other high technology capital are important explanations of the shift towards nonproduction labor in the U.S., with their exact magnitudes depending on how they are measured.
@@ -2895,7 +2895,7 @@ In the specification (4.18), outsourcing changes the relative wage by shifting o
 The second empirical technique we will discuss assumes that both types of labor, as well as capital, are being optimally chosen. So we abandon the "short run" cost function in (4.15), and instead use the more familiar long-run cost function for the industry:
 
 $$
-\mathrm {C} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {Y} _ {\mathrm {n}}, \mathrm {p} / \mathrm {p} _ {\mathrm {n}}\right) \equiv \min  _ {\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}} \mathrm {w} _ {\mathrm {n}} \mathrm {L} _ {\mathrm {n}} + \mathrm {q} _ {\mathrm {n}} \mathrm {H} _ {\mathrm {n}} + \mathrm {r} _ {\mathrm {n}} \mathrm {K} _ {\mathrm {n}}, \text {s u b j e c t t o (4 . 1 4)}. \tag {4.19}
+\mathrm{C}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{Y}_{\mathrm{n}}, \mathrm{p} / \mathrm{p}_{\mathrm{n}}\right) \equiv \min_{\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}} \mathrm{w}_{\mathrm{n}} \mathrm{L}_{\mathrm{n}} + \mathrm{q}_{\mathrm{n}} \mathrm{H}_{\mathrm{n}} + \mathrm{r}_{\mathrm{n}} \mathrm{K}_{\mathrm{n}}, \text{su bj ec tt o (4 .1 4)}. \tag {4.19}
 $$
 
 Notice that in (4.19) we have allowed the factor prices  $\mathrm{w_n}$ ,  $\mathrm{q_n}$ , and  $\mathbf{r}_{\mathrm{n}}$  to differ across the
@@ -2915,7 +2915,7 @@ Since the revenue function (4.14) is linearly homogeneous in inputs, then we can
 the cost function in (4.19) as,
 
 $$
-\mathrm {C} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {Y} _ {\mathrm {n}}, \mathrm {z} _ {\mathrm {n}}\right) = \mathrm {Y} _ {\mathrm {n}} \mathrm {c} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {z} _ {\mathrm {n}}\right), \tag {4.20}
+\mathrm{C}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{Y}_{\mathrm{n}}, \mathrm{z}_{\mathrm{n}}\right) = \mathrm{Y}_{\mathrm{n}} \mathrm{c}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{z}_{\mathrm{n}}\right), \tag {4.20}
 $$
 
 where  $c_{n}(w_{n}, q_{n}, r_{n}, z_{n})$  denotes the unit-cost function. The zero-profit conditions in the industries
@@ -2923,7 +2923,7 @@ where  $c_{n}(w_{n}, q_{n}, r_{n}, z_{n})$  denotes the unit-cost function. The 
 are therefore expressed as,
 
 $$
-p _ {n} = c _ {n} \left(w _ {n}, q _ {n}, r _ {n}, z _ {n}\right), \quad n = 1, \dots , N. \tag {4.21}
+p_{n} = c_{n} \left(w_{n}, q_{n}, r_{n}, z_{n}\right), \quad n = 1, \dots , N. \tag {4.21}
 $$
 
 Throughout this book, we have examined how changes in product prices affect factor
@@ -2935,7 +2935,7 @@ prices reflect more than just changes in factor prices. Indeed, taking the diffe
 log change in factor and product prices, we can define total factor productivity as,
 
 $$
-\mathrm {T F P} _ {\mathrm {n}} \equiv \left(\theta_ {\mathrm {n L}} \Delta \ln \mathrm {w} _ {\mathrm {n}} + \theta_ {\mathrm {n H}} \Delta \ln \mathrm {q} _ {\mathrm {n}} + \theta_ {\mathrm {n K}} \Delta \ln \mathrm {r} _ {\mathrm {n}}\right) - \Delta \ln \mathrm {p} _ {\mathrm {n}}, \tag {4.22}
+\mathrm{TF P}_{\mathrm{n}} \equiv \left(\theta_{\mathrm{nL}} \Delta \ln \mathrm{w}_{\mathrm{n}} + \theta_{\mathrm{nH}} \Delta \ln \mathrm{q}_{\mathrm{n}} + \theta_{\mathrm{nK}} \Delta \ln \mathrm{r}_{\mathrm{n}}\right) - \Delta \ln \mathrm{p}_{\mathrm{n}}, \tag {4.22}
 $$
 
 where the cost-shares of the three factors sum to unity,  $\theta_{\mathrm{nL}} + \theta_{\mathrm{nH}} + \theta_{\mathrm{nK}} = 1$ , and  $\Delta$  denotes the
@@ -2947,13 +2947,13 @@ prices, so that (4.22) is positive. Note that this is the "dual" definition of p
 Shuffling the terms in (4.22) slightly, we obtain the equation,
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \Delta \ln w _ {n} + \theta_ {n H} \Delta \ln q _ {n} + \theta_ {n K} \Delta \ln r _ {n}, n = 1, \dots , N. \tag {4.23}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \Delta \ln w_{n} + \theta_{n H} \Delta \ln q_{n} + \theta_{n K} \Delta \ln r_{n}, n = 1, \dots , N. \tag {4.23}
 $$
 
 We consider estimating (4.23) as a linear regression across industries, where the data are the change in log prices, total factor productivity, and the factor cost-shares  $\theta_{\mathrm{nj}}$ , while the change in factor-prices are estimated as regression coefficients. That is, we estimate the implied change in factor-prices  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  from the regression:
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \beta_ {L} + \theta_ {n H} \beta_ {H} + \theta_ {n K} \beta_ {K} + \varepsilon_ {n}, n = 1, \dots , N, \tag {4.24}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \beta_{L} + \theta_{n H} \beta_{H} + \theta_{n K} \beta_{K} + \varepsilon_{n}, n = 1, \dots , N, \tag {4.24}
 $$
 
 where  $\varepsilon_{\mathrm{n}}$  is an error term, specified more fully below. We interpret the coefficients  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  as the change in factor prices that are "mandated by" the change in product prices, which is the dependent variable in (4.24). We hope to find that the estimate factor prices changes  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  from this regression are quite close to their actual changes, and if so, we can conclude that a Stolper-Samuelson linkage between product and factor prices works empirically. Baldwin and Hilton (1984) were among the first to estimate this price regression, and there are many recent applications of it (Baldwin and Cain, 2000, Slaughter, 2000), as discussed below.
@@ -2977,13 +2977,13 @@ The estimates in Table 4.5 are troubling because they show that slight changes i
 To achieve this, let us make the transition from (4.23) to an estimating equation more carefully. First, notice that we can rewrite (4.23) as,
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \overline {{\Delta \ln w}} + \theta_ {n H} \overline {{\Delta \ln q}} + \theta_ {n K} \overline {{\Delta \ln r}} + \varepsilon_ {n}, \tag {4.25}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \overline {{\Delta \ln w}} + \theta_{n H} \overline {{\Delta \ln q}} + \theta_{n K} \overline {{\Delta \ln r}} + \varepsilon_{n}, \tag {4.25}
 $$
 
 where,
 
 $$
-\varepsilon_ {\mathrm {n}} \equiv \theta_ {\mathrm {n L}} \left(\Delta \ln \mathrm {w} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {w}}}\right) + \theta_ {\mathrm {n H}} \left(\Delta \ln \mathrm {q} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {q}}}\right) + \theta_ {\mathrm {n K}} \left(\Delta \ln \mathrm {r} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {r}}}\right). \tag {4.26}
+\varepsilon_{\mathrm{n}} \equiv \theta_{\mathrm{nL}} \left(\Delta \ln \mathrm{w}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{w}}}\right) + \theta_{\mathrm{nH}} \left(\Delta \ln \mathrm{q}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{q}}}\right) + \theta_{\mathrm{nK}} \left(\Delta \ln \mathrm{r}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{r}}}\right). \tag {4.26}
 $$
 
 That is, we replace the industry wage changes on the right of (4.23) by the average wage changes, and incorporate the difference between these two into an error term. In economic terms,  $\varepsilon_{n}$  reflects interindustry wage differentials: i.e., the difference between wages paid in each industry and the manufacturing average. It is well known that these wage differentials vary systematically across industries, with capital-intensive industries paying higher wages.
@@ -2995,13 +2995,13 @@ equation will match the actual factor price changes or not: the estimates of  $\
 To correct this problem, we can simply include the error term  $\varepsilon_{\mathrm{n}}$  as an additional regressor in the equation, reflecting the change in interindustry wage differentials. It is convenient to combine  $\varepsilon_{\mathrm{n}}$  with  $\mathrm{TFP}_{\mathrm{n}}$ , obtaining a measure of "effective" TFP:
 
 $$
-\begin{array}{l} \mathrm {E T F P} _ {\mathrm {n}} \equiv \mathrm {T F P} _ {\mathrm {n}} - \varepsilon_ {\mathrm {n}} \\ = \left(\theta_ {\mathrm {n L}} \overline {{\Delta \ln \mathrm {w}}} + \theta_ {\mathrm {n H}} \overline {{\Delta \ln \mathrm {q}}} + \theta_ {\mathrm {n K}} \overline {{\Delta \ln \mathrm {r}}}\right) - \Delta \ln \mathrm {p} _ {\mathrm {n}}. \tag {4.27} \\ \end{array}
+\begin{array}{l} \mathrm{ET FP}_{\mathrm{n}} \equiv \mathrm{TF P}_{\mathrm{n}} - \varepsilon_{\mathrm{n}} \\ = \left(\theta_{\mathrm{nL}} \overline {{\Delta \ln \mathrm{w}}} + \theta_{\mathrm{nH}} \overline {{\Delta \ln \mathrm{q}}} + \theta_{\mathrm{nK}} \overline {{\Delta \ln \mathrm{r}}}\right) - \Delta \ln \mathrm{p}_{\mathrm{n}}. \tag {4.27} \\ \end{array}
 $$
 
 Thus, this measure of effective productivity shows how the average manufacturing factor-price changes, weighted using the cost-share in each industry, differ from the change in product price of that industry. Making use of (4.27), the regression in (4.24) is written once again as,
 
 $$
-\Delta \ln p _ {n} = - E T F P _ {n} + \theta_ {n L} \beta_ {L} + \theta_ {n H} \beta_ {H} + \theta_ {n K} \beta_ {K}, \quad n = 1, \dots , N. \tag {4.28}
+\Delta \ln p_{n} = - E T F P_{n} + \theta_{n L} \beta_{L} + \theta_{n H} \beta_{H} + \theta_{n K} \beta_{K}, \quad n = 1, \dots , N. \tag {4.28}
 $$
 
 Now, there is no error term at all in this regression, so it ought to provide a perfect fit when estimated. This will not be exactly true in our data, since we are using the primal rather than the dual measure of TFP to construct effective TFP in (4.28). These priors are confirmed in columns (4) and (5) of Table 4.5. In column (4), we constrain the coefficients on the materials and energy shares to equal unity, while in column (5), we allow these coefficients to differ from unity. In either specification, the coefficients on the labor and capital shares are extremely close to the actual average annual percentage changes in factor prices, which are  $4.7\%$  for production labor,  $5.4\%$  for nonproduction labor, and  $4.0\%$  for capital. Thus, when we properly estimate (4.28), we end up with an identity!
@@ -3011,17 +3011,17 @@ Summarizing our results so far, we started with the goal of estimating the zero-
 To make further progress, Feenstra and Hanson (1999) propose a two-step estimation procedure. In the first step, we combine the variables  $\Delta \ln p_{n} + \mathrm{ETF}P_{n}$ , which appear in (4.28), and regress these on the structural variables  $z_{n}$ . Supposing that there are only two structural variables,  $z_{1n}$  and  $z_{2n}$ , we therefore run the regression:
 
 $$
-\Delta \ln p _ {n} + E T F P _ {n} = \alpha_ {0} + \alpha_ {1} \Delta z _ {1 n} + \alpha_ {2} \Delta z _ {2 n}, n = 1, \dots , N. \tag {4.29}
+\Delta \ln p_{n} + E T F P_{n} = \alpha_{0} + \alpha_{1} \Delta z_{1 n} + \alpha_{2} \Delta z_{2 n}, n = 1, \dots , N. \tag {4.29}
 $$
 
 In the second step, we then take the estimated coefficients  $\hat{\alpha}_{1}$  and  $\hat{\alpha}_{2}$ , and use these to construct the dependent variables for the regressions,
 
 $$
-\hat {\alpha} _ {1} \Delta z _ {1 n} = \theta_ {n L} \beta_ {1 L} + \theta_ {n H} \beta_ {1 H} + \theta_ {n K} \beta_ {1 K}, \quad \text {a n d ,} \tag {4.30a}
+\hat {\alpha}_{1} \Delta z_{1 n} = \theta_{n L} \beta_{1 L} + \theta_{n H} \beta_{1 H} + \theta_{n K} \beta_{1 K}, \quad \text{an d ,} \tag {4.30a}
 $$
 
 $$
-\hat {\alpha} _ {2} \Delta z _ {2 n} = \theta_ {n L} \beta_ {2 L} + \theta_ {n H} \beta_ {2 H} + \theta_ {n K} \beta_ {2 K}, n = 1, \dots , N. \tag {4.30b}
+\hat {\alpha}_{2} \Delta z_{2 n} = \theta_{n L} \beta_{2 L} + \theta_{n H} \beta_{2 H} + \theta_{n K} \beta_{2 K}, n = 1, \dots , N. \tag {4.30b}
 $$
 
 That is, we use the estimated coefficients  $\hat{\alpha}_{1}$  and  $\hat{\alpha}_{2}$ , times each structural variable as the dependent variables in (4.30), and regress these on the factor cost-shares. The coefficients obtained from the second-stage regression,  $\beta_{1\mathrm{L}}, \beta_{1\mathrm{H}}, \beta_{1\mathrm{K}}$  and  $\beta_{2\mathrm{L}}, \beta_{2\mathrm{H}}, \beta_{2\mathrm{K}}$ , are interpreted as the portion of the total change in factor-prices that are explained by each structural variable. In this way, we are taking the total change in factor-prices, and decomposing it into parts that are explained by each structural variable.
@@ -3083,12 +3083,12 @@ skill-intensive nontraded goods in the U.S. as well as a decrease in the price o
 
 4.1 Download the NBER productivity dataset at http://www.nber.org/nberces/nbprod96.htm, compute the relative wage and relative employment for 1958 - 1996, and reconstruct Figure 4.1 and 4.2. Note: Given this data, you need to first compute the wage rates in production and nonproduction sectors using the following formula:
 
-Production worker wage rate =  $\frac{\sum_{i} production_{i}\text{production}_{i}\text{worker wage}_{i}}{\sum_{i} production_{i}\text{workers}_{i}}$ ,
+Production worker wage rate =  $\frac{\sum_{i} production_{i}\text{production}_{i}\text{workerwage}_{i}}{\sum_{i} production_{i}\text{workers}_{i}}$ ,
 
-Non production worker wage rate =  $\frac{\sum_{\mathrm{i}} \text{Non production worker wage bill}}{\sum_{\mathrm{i}} \text{Non production workers}_{\mathrm{i}}}$
+Non production worker wage rate =  $\frac{\sum_{\mathrm{i}} \text{Nonproductionworkerwagebill}}{\sum_{\mathrm{i}} \text{Nonproductionworkers}_{\mathrm{i}}}$
 
 $$
-\begin{array}{l} = \frac {\sum_ {i} (\text {t o t a l p a y r o l l} _ {i} - \text {p r o d u c t i o n w o r k e r w a g e b i l l} _ {i})}{\sum_ {i} (\text {t o t a l e m p l o y m e n t} _ {i} - \text {p r o d u c t i o n w o r k e r s} _ {i})} \\ \mathbf {i} = \text {i n d u s t r y} \\ \end{array}
+\begin{array}{l} = \frac{\sum_{i} (\text{to ta lp ay ro ll}_{i} - \text{pr od uc ti on wo rk er wa ge bi ll}_{i})}{\sum_{i} (\text{to ta le mp lo ym en t}_{i} - \text{pr od uc ti on wo rk er s}_{i})} \\ \mathbf {i} = \text{in du st ry} \\ \end{array}
 $$
 
 4.2 Store the files for this chapter in the directory: c:\Empirical_Exercise\Chapter_4/. Run the program "Problem_4_2.do" to reproduce the regressions in Table 4.4 (which is simplified from Table III in Feenstra and Hanson, 1999). Then answer: what weights are used in these regressions, and how are the results affected if these weights are not used?
@@ -3108,13 +3108,13 @@ Spence (1976), and Dixit and Stiglitz (1977). Lancaster presented a model in whi
 We will suppose that there are  $\mathrm{i} = 1, \dots, \mathrm{N}$  product varieties, where the number  $\mathrm{N}$  will be endogenously determined. There is a fixed number  $\mathrm{L}$  of consumers, each of whom receive the following utility from consuming  $c_{\mathrm{i}}$  of each variety:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {v} \left(\mathrm {c} _ {\mathrm {i}}\right), \quad \mathrm {v} ^ {\prime} > 0, \quad \mathrm {v} ^ {\prime \prime} <   0. \tag {5.1}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{v} \left(\mathrm{c}_{\mathrm{i}}\right), \quad \mathrm{v}^{\prime} > 0, \quad \mathrm{v}^{\prime \prime} <   0. \tag {5.1}
 $$
 
 Notice that this utility function is symmetric over the product varieties, i.e. the same function  $\mathrm{v}(\mathrm{c}_{\mathrm{i}})$  applies to the consumption of each. Each consumer receives labor income of  $\mathrm{w}$ , so their budget constraint is  $\mathrm{w} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{p}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}$ . They choose consumption  $\mathrm{c}_{\mathrm{i}}$  of each variety to maximize utility in (5.1), subject to this budget constraint. The first-order conditions for this problem are:
 
 $$
-v ^ {\prime} \left(c _ {i}\right) = \lambda p _ {i}, i = 1, \dots , N, \tag {5.2}
+v^{\prime} \left(c_{i}\right) = \lambda p_{i}, i = 1, \dots , N, \tag {5.2}
 $$
 
 where  $\lambda$  is the Lagrange multiplier (i.e. the marginal utility of income).
@@ -3122,13 +3122,13 @@ where  $\lambda$  is the Lagrange multiplier (i.e. the marginal utility of incom
 The effect of a change in price on consumption can be derived by totally differentiating the system of equations in (5.2), together with the budget constraint. Normally, such a change in price would affect  $\lambda$ . However, it can be argued that if the number of varieties is sufficiently large, so that the budget share of each of them is small, then we can ignore the impact of a change in one price on  $\lambda$ . In that case, the effect of a change in price is simply:
 
 $$
-v ^ {\prime \prime} d c _ {i} = d p _ {i} \lambda \Rightarrow \frac {d c _ {i}}{d p _ {i}} = \frac {\lambda}{v ^ {\prime \prime}} <   0 \tag {5.3}
+v^{\prime \prime} d c_{i} = d p_{i} \lambda \Rightarrow \frac{d c_{i}}{d p_{i}} = \frac{\lambda}{v^{\prime \prime}} <   0 \tag {5.3}
 $$
 
 Using (5.2) and (5.3), we define the elasticity of demand for variety  $i$  as:
 
 $$
-\eta_ {\mathrm {i}} = - \frac {\mathrm {d} c _ {\mathrm {i}}}{\mathrm {d} p _ {\mathrm {i}}} \frac {\mathrm {p}}{c _ {\mathrm {i}}} = - \left(\frac {\mathrm {v} ^ {\prime}}{c _ {\mathrm {i}} \mathrm {v} ^ {\prime \prime}}\right) > 0. \tag {5.4}
+\eta_{\mathrm{i}} = - \frac{\mathrm{d} c_{\mathrm{i}}}{\mathrm{d} p_{\mathrm{i}}} \frac{\mathrm{p}}{c_{\mathrm{i}}} = - \left(\frac{\mathrm{v}^{\prime}}{c_{\mathrm{i}} \mathrm{v}^{\prime \prime}}\right) > 0. \tag {5.4}
 $$
 
 While the assumptions we have made on v (increasing and concave) ensure that the elasticity is positive, we do not in general know whether it is increasing or decreasing in  $c_i$ . This will turn out to be quite important, and we shall assume that  $\frac{d\eta_i}{dc_i} < 0$ , so that as we move up a demand curve (consumption falling) the elasticity rises. The reader should verify that this assumption holds for a linear demand curve, and more generally, for any demand curve that is "less convex" that a constant-elasticity curve.
@@ -3136,7 +3136,7 @@ While the assumptions we have made on v (increasing and concave) ensure that the
 On the production side, labor is the only resource and each firm requires the following labor to produce output of  $y_{i}$ :
 
 $$
-\mathrm {L} _ {\mathrm {i}} = \alpha + \beta \mathrm {y} _ {\mathrm {i}}, \tag {5.5}
+\mathrm{L}_{\mathrm{i}} = \alpha + \beta \mathrm{y}_{\mathrm{i}}, \tag {5.5}
 $$
 
 where  $\alpha$  is the fixed labor input needed for production, and  $\beta$  is the marginal labor input. Given the equilibrium wage  $w$ , it follows that average costs for the firms are,  $AC_{i} = wL_{i} / y_{i} = w\alpha / y_{i} + w\beta$ , while marginal costs are simply  $w\beta$ . These are both graphed in Figure 5.1.
@@ -3144,11 +3144,11 @@ where  $\alpha$  is the fixed labor input needed for production, and  $\beta$  i
 Monopolistic competition has two key equilibrium conditions for firms. First, each firm maximizes its own profits, requiring that marginal revenue equal marginal cost (MR=MC). Second, there is free entry whenever economic profits are positive, so in the long-run equilibrium we must have zero profits, or price equal to average cost (P=AC). In addition to these, we will add the requirement that the equilibrium is "symmetric," meaning that prices and quantities are identical across varieties. Dropping the subscript i, we therefore have the equilibrium conditions:
 
 $$
-\mathrm {M R} = \mathrm {M C}: \quad \mathrm {p} \left(1 - \frac {1}{\eta}\right) = \mathrm {w} \beta , \quad \text {o r} \quad \frac {\mathrm {p}}{\mathrm {w}} = \beta \left(\frac {\eta}{\eta - 1}\right) \tag {5.6}
+\mathrm{MR} = \mathrm{MC}: \quad \mathrm{p} \left(1 - \frac{1}{\eta}\right) = \mathrm{w} \beta , \quad \text{or} \quad \frac{\mathrm{p}}{\mathrm{w}} = \beta \left(\frac{\eta}{\eta - 1}\right) \tag {5.6}
 $$
 
 $$
-P = A C: \quad p = \left(\frac {w \alpha}{y}\right) + w \beta , \quad o r \quad \frac {p}{w} = \left(\frac {\alpha}{L c}\right) + \beta \tag {5.7}
+P = A C: \quad p = \left(\frac{w \alpha}{y}\right) + w \beta , \quad o r \quad \frac{p}{w} = \left(\frac{\alpha}{L c}\right) + \beta \tag {5.7}
 $$
 
 Notice that in (5.7), we have replaced supply of each good,  $y$ , by the demand for each good,  $Lc$ . Equations (5.6) and (5.7) form two equations to solve for the two unknowns,  $(p/w)$  and  $c$ . The first of these equations is graphed as the line PP in Figure 5.2. Our assumption that  $d\eta_i / dc_i < 0$  ensures that the PP curve is upward sloping. Turning to equation (5.7), this is graphed as the downward sloping line ZZ in Figure 5.2, which is simply the firm's average cost curve. The intersection of these two curves determines the equilibrium values of  $(p/w)$  and  $c$ . Then to determine the equilibrium number of product  $N$ , we make use of full-employment in the economy, which is stated as:
@@ -3160,13 +3160,13 @@ Figure 5.1
 Figure 5.2
 
 $$
-\mathrm {L} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {L} _ {\mathrm {i}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\alpha + \beta \mathrm {y} _ {\mathrm {i}}\right) = \mathrm {N} (\alpha + \beta \mathrm {y}) = \mathrm {N} (\alpha + \beta \mathrm {L c}), \tag {5.8}
+\mathrm{L} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{L}_{\mathrm{i}} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left(\alpha + \beta \mathrm{y}_{\mathrm{i}}\right) = \mathrm{N} (\alpha + \beta \mathrm{y}) = \mathrm{N} (\alpha + \beta \mathrm{Lc}), \tag {5.8}
 $$
 
 from which it follows that:
 
 $$
-N = \frac {1}{\left[ (\alpha / L) + \beta c \right]}. \tag {5.9}
+N = \frac{1}{\left[ (\alpha / L) + \beta c \right]}. \tag {5.9}
 $$
 
 The equilibrium value of  $c$  therefore determines the number of products  $N$ .
@@ -3175,7 +3175,7 @@ So far, we have represented the equilibrium for a single economy. But the effect
 
 Having the two identical countries trading is just like doubling the population L. This has no impact on the PP curve [since L does not appear in (5.6)], but it does shift the ZZ curve down [as can be seen from (5.7)]. Therefore, the equilibrium consumption of each variety falls, from  $c_0$  to  $c_1$ , while the real wage rises, from  $(w/p)_0$  to  $(w/p)_1$ . Consumption falls because individuals are spreading their expenditures over more product varieties, and this raises the elasticity of demand, reducing the equilibrium prices and therefore raising real wages. This is a source of gain for consumers. But there is also a second source of gain from trade, because with the rise in L and fall in c, it can be verified from (5.9) that total product variety increases. That is, the sum of varieties from both countries under free trade exceeds the number in any single country before trade.
 
-But notice that the number of varieties produced in each country necessarily falls with the opening of trade. This can be seen by noting that the fall in  $(\mathrm{p / w})$ , as firms move down their average cost curve, necessarily implies that output  $y$  increases. This means that any firm that produces both in autarky and under free trade will be selling more with trade. But the full-employment conditions for each economy is  $\mathrm{L} = \mathrm{N}(\alpha + \beta y)$ , where now  $\mathrm{L}$  is fixed. So the increase in  $y$ , as firms exploit economies of scale, necessarily implies a reduction in the number of firms in each country. This resolves the question raised at the beginning of the chapter: opening trade between countries indeed implies that firms must exit in each, while the remaining firms expand their output and take advantage of scale economies.
+But notice that the number of varieties produced in each country necessarily falls with the opening of trade. This can be seen by noting that the fall in  $(\mathrm{p /w})$ , as firms move down their average cost curve, necessarily implies that output  $y$  increases. This means that any firm that produces both in autarky and under free trade will be selling more with trade. But the full-employment conditions for each economy is  $\mathrm{L} = \mathrm{N}(\alpha + \beta y)$ , where now  $\mathrm{L}$  is fixed. So the increase in  $y$ , as firms exploit economies of scale, necessarily implies a reduction in the number of firms in each country. This resolves the question raised at the beginning of the chapter: opening trade between countries indeed implies that firms must exit in each, while the remaining firms expand their output and take advantage of scale economies.
 
 # Evidence from the Canada-U.S. Free Trade Agreement
 
@@ -3196,7 +3196,7 @@ Thus, productivity in Canada was increased due to free trade with the U.S. from 
 The finding that the scale of Canadian firms did not change much (on net) following the FTA can be explained from several models, as discussed in Head and Ries (1999, 2002). We note here one particularly simple theoretical result: if the elasticity of demand for product varieties is constant, then firm scale will not change at all due to tariffs or trade liberalization. A utility function that leads to this case is the constant elasticity of substitution (CES) function:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {c} _ {\mathrm {i}} ^ {(\sigma - 1) / \sigma}, \tag {5.10}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{c}_{\mathrm{i}}^{(\sigma - 1) / \sigma}, \tag {5.10}
 $$
 
 The elasticity of substitution between products is equal to  $\sigma > 1$ , which also equals the elasticity of demand  $\eta$  when  $N$  is large. This implies that the markup of prices over marginal costs is fixed,  $p / (\beta w) = [\sigma / (\sigma - 1)]$ .
@@ -3204,7 +3204,7 @@ The elasticity of substitution between products is equal to  $\sigma > 1$ , whic
 Substituting this optimal price into the expression for profits of the firm we obtain:
 
 $$
-\mathrm {p y} - \mathrm {w} (\alpha + \beta \mathrm {y}) = \mathrm {w} \left[ \left(\frac {\beta \mathrm {y}}{\sigma - 1}\right) - \alpha \right]. \tag {5.11}
+\mathrm{py} - \mathrm{w} (\alpha + \beta \mathrm{y}) = \mathrm{w} \left[ \left(\frac{\beta \mathrm{y}}{\sigma - 1}\right) - \alpha \right]. \tag {5.11}
 $$
 
 In order to have zero profits in equilibrium, it follows that the output of firms is fixed at,
@@ -3232,19 +3232,19 @@ To the assumption that countries are specialized in different varieties of a fin
 Let  $s^j$  denote country  $j$ 's share of world expenditure. Assuming that trade is balanced in each country, the  $s^j$  also denotes country  $j$ 's share of world GDP, so that  $s^j = Y^j / Y^w$ . Then under the assumptions that all countries are producing different products, and demand is identical and homothetic, the exports from country  $i$  to county  $j$  of product  $k$  are given by:
 
 $$
-\mathrm {X} _ {\mathrm {k}} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {y} _ {\mathrm {k}} ^ {\mathrm {i}} \quad . \tag {5.13}
+\mathrm{X}_{\mathrm{k}}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{y}_{\mathrm{k}}^{\mathrm{i}} \quad . \tag {5.13}
 $$
 
 Summing over all products  $\mathbf{k}$ , we obtain:
 
 $$
-X ^ {i j} = \sum_ {k} X _ {k} ^ {i j} = s ^ {j} \sum_ {k} y _ {k} ^ {i} = s ^ {j} Y ^ {i} = \frac {Y ^ {j} Y ^ {i}}{Y ^ {w}} = s ^ {j} s ^ {i} Y ^ {w} = X ^ {j i}. \tag {5.14}
+X^{i j} = \sum_{k} X_{k}^{i j} = s^{j} \sum_{k} y_{k}^{i} = s^{j} Y^{i} = \frac{Y^{j} Y^{i}}{Y^{w}} = s^{j} s^{i} Y^{w} = X^{j i}. \tag {5.14}
 $$
 
 Summing the first and last of these terms, we therefore find that bilateral trade between two countries equals,
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}} = \left(\frac {2}{\mathrm {Y} ^ {\mathrm {w}}}\right) \mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}. \tag {5.15}
+\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}} = \left(\frac{2}{\mathrm{Y}^{\mathrm{w}}}\right) \mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}. \tag {5.15}
 $$
 
 This gives our simplest derivation of the gravity equation, where the bilateral exports from country  $i$  to country  $j$  are proportional to the product of their GDP's. This simple model has many empirical applications, and we shall discuss two.
@@ -3256,7 +3256,7 @@ This gives our simplest derivation of the gravity equation, where the bilateral 
 As a first application of the gravity equation, we consider the work of Helpman (1987). The goal of his work is to give an alternative characterization of the gravity equation, emphasizing the role of differential country size. Thus, consider an economic region consisting of two countries. Then holding fixed the economic size of this region, two countries of unequal size will not trade as much as would two countries of similar size. To demonstrate this, let us sum the first and last of terms in (5.14) to obtain:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}} = 2 \mathrm {s} ^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {w}}. \tag {5.16}
+\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}} = 2 \mathrm{s}^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} \mathrm{Y}^{\mathrm{w}}. \tag {5.16}
 $$
 
 It will be convenient to re-express this equation as depending on each country's share of GDP relative to each other. So let us say that these two countries belong to "region A" of the world, and denote the sum GDP of these two countries by  $\mathrm{Y}^{\mathrm{A}} = \mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}$ . Then their relative shares of regional GDP are expressed as  $\mathrm{s}^{\mathrm{iA}} = \mathrm{Y}^{\mathrm{i}} / \mathrm{Y}^{\mathrm{A}}$ , and the GDP of region A relative to the world is  $\mathrm{s}^{\mathrm{A}} = \mathrm{Y}^{\mathrm{A}} / \mathrm{Y}^{\mathrm{w}}$ . Then (5.16) can be re-written as,  $(\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}}) / \mathrm{Y}^{\mathrm{A}} = 2\mathrm{s}^{\mathrm{iA}}\mathrm{s}^{\mathrm{jA}}\mathrm{s}^{\mathrm{A}}$ . The
@@ -3272,7 +3272,7 @@ therefore shown:
 If countries are completely specialized in their outputs, tastes are identical and homothetic, and there is free trade worldwide, then the volume of trade among countries in region A relative to their GDP is:
 
 $$
-\frac {\text {V o l u m e o f t r a d e i n A}}{\mathrm {G D P} ^ {\mathrm {A}}} = \mathrm {s} ^ {\mathrm {A}} \left(1 - \sum_ {\mathrm {i} \in \mathrm {A}} \left(\mathrm {s} ^ {\mathrm {i A}}\right) ^ {2}\right). \tag {5.17}
+\frac{\text{Vo lu me of tr ad ei nA}}{\mathrm{GD P}^{\mathrm{A}}} = \mathrm{s}^{\mathrm{A}} \left(1 - \sum_{\mathrm{i} \in \mathrm{A}} \left(\mathrm{s}^{\mathrm{iA}}\right)^{2}\right). \tag {5.17}
 $$
 
 We have derived this result above for the case of two countries in a region, but Helpman shows that it holds for a region of many countries. The term  $\left(1 - \sum_{\mathrm{i} \in \mathrm{A}} (\mathrm{s}^{\mathrm{iA}})^2\right)$  appearing on the right of (5.17) is a "size dispersion index." It shows how the volume of trade will be related to the relative size of countries. To understand the properties of this index, suppose that there are N countries in region A. Then the index is maximized for countries of the same relative size 1/N, in which case it equals [1-(1/N)]. Conversely, as any country has a share approaching unity, then the dispersion index also approaches zero. The theorem says that the volume of trade relative to GDP will be proportional to the dispersion index.
@@ -3282,13 +3282,13 @@ Helpman (1987) tests (5.17) for a group of OECD countries. In the simplest test,
 complete treatment. Let us specify the region A as any pair of countries,  $\mathrm{A} = \{\mathrm{i},\mathrm{j}\}$ . Then (5.17) is written in logs as:
 
 $$
-\ln \left(\frac {\mathbf {X} ^ {\mathrm {i j}} + \mathbf {X} ^ {\mathrm {j i}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) = \ln \left(\mathrm {s} ^ {\mathrm {i}} + \mathrm {s} ^ {\mathrm {j}}\right) + \ln \left[ 1 - \left(\frac {\mathbf {Y} ^ {\mathrm {i}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) ^ {2} - \left(\frac {\mathbf {Y} ^ {\mathrm {j}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) ^ {2} \right]. \tag {5.18}
+\ln \left(\frac{\mathbf {X}^{\mathrm{ij}} + \mathbf {X}^{\mathrm{ji}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right) = \ln \left(\mathrm{s}^{\mathrm{i}} + \mathrm{s}^{\mathrm{j}}\right) + \ln \left[ 1 - \left(\frac{\mathbf {Y}^{\mathrm{i}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right)^{2} - \left(\frac{\mathbf {Y}^{\mathrm{j}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right)^{2} \right]. \tag {5.18}
 $$
 
 Debaere tests these relations using a dataset covering 1970-1989, over a sample of OECD and non-OECD countries. Recognizing that the variables also depend on time, let us write the estimating equation in (5.18) as:
 
 $$
-\ln \left(\frac {\mathrm {X} _ {\mathrm {t}} ^ {\mathrm {i j}} + \mathrm {X} _ {\mathrm {t}} ^ {\mathrm {j i}}}{\mathrm {Y} _ {\mathrm {t}} ^ {\mathrm {i}} + \mathrm {Y} _ {\mathrm {t}} ^ {\mathrm {j}}}\right) = \alpha_ {\mathrm {i j}} + \gamma \ln \left(\mathrm {s} _ {\mathrm {t}} ^ {\mathrm {i}} + \mathrm {s} _ {\mathrm {t}} ^ {\mathrm {j}}\right) + \beta \ln \left(\text {D i s p e r s i o n} _ {\mathrm {t}} ^ {\mathrm {i j}}\right), \tag {5.19}
+\ln \left(\frac{\mathrm{X}_{\mathrm{t}}^{\mathrm{ij}} + \mathrm{X}_{\mathrm{t}}^{\mathrm{ji}}}{\mathrm{Y}_{\mathrm{t}}^{\mathrm{i}} + \mathrm{Y}_{\mathrm{t}}^{\mathrm{j}}}\right) = \alpha_{\mathrm{ij}} + \gamma \ln \left(\mathrm{s}_{\mathrm{t}}^{\mathrm{i}} + \mathrm{s}_{\mathrm{t}}^{\mathrm{j}}\right) + \beta \ln \left(\text{Di sp er si on}_{\mathrm{t}}^{\mathrm{ij}}\right), \tag {5.19}
 $$
 
 where  $\alpha_{ij}$  is a fixed effect for each country pair,  $\gamma$  is a coefficient on the log sum of country shares, and  $\beta$  is a coefficient on the size dispersion index, which equals the final bracketed term on the right of (5.18). Notice that if the country shares are roughly constant over time, then the fixed effect  $\alpha_{ij}$  in (5.19) would absorb this term. This was implicitly assumed by Hummels and Levinsohn (1995), so Debaere runs two versions of (5.19): first excluding the term  $\ln(s_t^i + s_t^j)$ , which treats the country shares as constant over time; and then including this term, which allows the country share to vary over time. These two versions are shown in parts (a) and (b) of Table 5.1.
@@ -3322,7 +3322,7 @@ It turns out that when nominal GDP's from the IFS is used instead for the non-OE
 A second application of the gravity model, and one that has stimulated a large amount of research, came from comparing intra-national trade between Canadian provinces to international trade between Canadian provinces and U.S. states. This was the question posed by McCallum (1995) in a study using 1988 data, just before the Canada-U.S. FTA was signed. He estimated a gravity model like (5.15) where bilateral trade between Canadian provinces, or between a Canadian province and U.S. state, should depend on each of their province or state GDP's. Specifically, the regression estimated by McCallum is:
 
 $$
-\ln \left(\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}}\right) = \alpha + \beta_ {1} \ln \mathrm {Y} ^ {\mathrm {i}} + \beta_ {2} \mathrm {Y} ^ {\mathrm {j}} + \gamma \delta^ {\mathrm {i j}} + \rho \ln \mathrm {d} ^ {\mathrm {i j}} + \varepsilon_ {\mathrm {i j}}, \tag {5.20}
+\ln \left(\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}}\right) = \alpha + \beta_{1} \ln \mathrm{Y}^{\mathrm{i}} + \beta_{2} \mathrm{Y}^{\mathrm{j}} + \gamma \delta^{\mathrm{ij}} + \rho \ln \mathrm{d}^{\mathrm{ij}} + \varepsilon_{\mathrm{ij}}, \tag {5.20}
 $$
 
 where  $\delta^{\mathrm{ij}}$  is an indicator variable that equals unity for trade between two Canadian provinces and zero otherwise, and  $d^{\mathrm{ij}}$  is the distance between any two provinces or states. The results from estimating (5.20) using 1988 data are shown in column (1) of Table 5.2. The same regression using 1993 data is shown in column (2). Note that McCallum's dataset included trade between Canadian provinces, and provinces and states, but not trade between the U.S. states. This is added in column (3) using 1993 data, in which case we also include an indicator variable that equals one when trade is between two U.S. states and zero otherwise.
@@ -3363,7 +3363,7 @@ price effects, as in Anderson and van Wincoop (2001); and the use of fixed effec
 When there are border effects, such as transport costs or tariffs, then it is no longer the case that prices are equalized across countries, so the pattern of trade is more complex than in the gravity equation (5.15). The only way to sort this out is to assume a specific utility function, and we shall adopt the CES specification. We let  $c_{k}^{ij}$  denote the exports from country  $i$  to country  $j$  of good  $k$ . Because each country produces unique product varieties, the exports of good  $k$  from country  $i$  to  $j$  are identical to the consumption of good  $k$  in country  $j$ . In contrast to Krugman's model, we now let  $c_{k}^{ij}$  denote total consumption of good  $k$  in country  $j$ , rather than per-capita consumption. We will suppose that country  $i = 1,\dots,C$  produces  $N^i$  products. Then utility for country  $j$  is:
 
 $$
-U ^ {j} = \sum_ {i = 1} ^ {C} \sum_ {k = 1} ^ {N ^ {i}} \left(c _ {k} ^ {i j}\right) ^ {(\sigma - 1) / \sigma}, \tag {5.21}
+U^{j} = \sum_{i = 1}^{C} \sum_{k = 1}^{N^{i}} \left(c_{k}^{i j}\right)^{(\sigma - 1) / \sigma}, \tag {5.21}
 $$
 
 The triple-index on consumption is a bit unwieldy, but this can be simplified by assuming that all products exported by country  $i$  sell for the same price  $p^{ij}$  in country  $j$ . These prices are inclusive of transport costs from country  $i$  to  $j$ , on a c.i.f. (cost, insurance, freight) basis. In contrast, the local prices  $p^i$  for goods produced in country  $i$  are net of any transport costs, on a f.o.b. (free on board) basis. Let us model the relationship between these as:  $p^{ij} = T^{ij}p^i$ , where  $T^{ii} = 1$  and  $T^{ij} \geq 1$ , indicating that  $T^{ij}$  units of the product must be shipped to country  $j$  in order for
@@ -3373,7 +3373,7 @@ one unit to arrive; the amount  $(\mathrm{T}^{\mathrm{ij}} - 1)$  "melts" along 
 With equal transport costs across varieties, then consumption in country  $j$  is also equal over all the products  $k = 1,\ldots ,N^{\dot{1}}$  sold by country  $i$ , so that  $c_{k}^{ij} = c^{ij}$ . Then the utility function is simplified as:
 
 $$
-U ^ {j} = \sum_ {i = 1} ^ {C} N ^ {i} \left(c ^ {i j}\right) ^ {(\sigma - 1) / \sigma} \tag {5.22}
+U^{j} = \sum_{i = 1}^{C} N^{i} \left(c^{i j}\right)^{(\sigma - 1) / \sigma} \tag {5.22}
 $$
 
 where  $c^{ij}$  now denotes the consumption of any product sent from country  $i$  to country  $j$ .
@@ -3381,7 +3381,7 @@ where  $c^{ij}$  now denotes the consumption of any product sent from country  $
 The representative consumer in country  $j$  maximizes (5.22) subject to the budget constraint:
 
 $$
-Y ^ {j} = \sum_ {i = 1} ^ {C} N ^ {i} p ^ {i j} c ^ {i j} \tag {5.23}
+Y^{j} = \sum_{i = 1}^{C} N^{i} p^{i j} c^{i j} \tag {5.23}
 $$
 
 where  $\mathbf{Y}^{\mathrm{j}}$  is aggregate expenditure and income in country j (we will assume balanced trade).
@@ -3389,19 +3389,19 @@ where  $\mathbf{Y}^{\mathrm{j}}$  is aggregate expenditure and income in country
 Maximizing (5.22) subject to (5.23), we can derive the following expression for the demand for each product  $c^{ij,8}$ :
 
 $$
-\mathrm {c} ^ {\mathrm {i j}} = \left(\mathrm {p} ^ {\mathrm {i j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right), \tag {5.24}
+\mathrm{c}^{\mathrm{ij}} = \left(\mathrm{p}^{\mathrm{ij}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right), \tag {5.24}
 $$
 
 where  $\mathbf{P}^{\mathrm{j}}$  refers to country j's overall price index, defined as:
 
 $$
-\mathrm {P} ^ {\mathrm {j}} = \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {N} ^ {\mathrm {i}} \left(\mathrm {p} ^ {\mathrm {i j}}\right) ^ {1 - \sigma}\right) ^ {1 / (1 - \sigma)}. \tag {5.25}
+\mathrm{P}^{\mathrm{j}} = \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{N}^{\mathrm{i}} \left(\mathrm{p}^{\mathrm{ij}}\right)^{1 - \sigma}\right)^{1 / (1 - \sigma)}. \tag {5.25}
 $$
 
 To compare this with our earlier derivation of gravity equation in (5.15), let us express the total value of exports from country  $i$  to  $j$ . This will be  $\mathrm{X}^{ij} \equiv \mathrm{N}^i \mathrm{p}^{ij} \mathrm{c}^{ij}$ , or from (5.24) and (5.25),
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {N} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}. \tag {5.26}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{N}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma}. \tag {5.26}
 $$
 
 # Estimating the Gravity Equation
@@ -3411,7 +3411,7 @@ $$
 In order to estimate (5.26), we should recognize that the "true" number of products  $\mathbf{N}^{\mathrm{i}}$  in each country is unobservable. One approach, then, is to solve for this using the zero-profit conditions. Assuming that labor is the only factor of production and using the same production functions as in Krugman (1979), it follows that firm output is fixed as in (5.12). Then GDP in country i is  $\mathbf{Y}^{\mathrm{i}} = \mathbf{N}^{\mathrm{i}}\mathbf{p}^{\mathrm{i}}\overline{\mathbf{y}}$ , and substituting this into (5.26) we obtain,
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {p} ^ {\mathrm {i}} \bar {\mathrm {y}}} \left(\frac {\mathrm {p} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} = \frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {p} ^ {\mathrm {i} \sigma} \bar {\mathrm {y}}} \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}, \tag {5.26'}
+\mathrm{X}^{\mathrm{ij}} = \frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{p}^{\mathrm{i}} \bar {\mathrm{y}}} \left(\frac{\mathrm{p}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} = \frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{p}^{\mathrm{i} \sigma} \bar {\mathrm{y}}} \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma}, \tag {5.26'}
 $$
 
 where we use  $\mathfrak{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathfrak{p}^{\mathrm{i}}$  to obtain the last expression. The approach of Bergstrand (1985, 1989) and Baier and Bergstrand (2001) is to estimate (5.26') directly, where the variables on the right are country GDP's, tariffs and transport costs  $\mathbf{T}^{\mathrm{ij}}$  (measured with IFS data), and country prices  $\mathfrak{p}^{\mathrm{i}}$  or  $\mathbf{P}^{\mathrm{j}}$  (measured with GDP deflators).
@@ -3419,13 +3419,13 @@ where we use  $\mathfrak{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathfrak{p}
 Specifically, taking the logs and first-differences of the variables in (5.26'), we obtain the estimating equation,
 
 $$
-\Delta \ln X ^ {i j} = \Delta \ln \left(Y ^ {i} Y ^ {j}\right) + (1 - \sigma) \Delta \ln T ^ {i j} - \sigma \Delta \ln p ^ {i} + (\sigma - 1) \Delta \ln P ^ {j}. \tag {5.27}
+\Delta \ln X^{i j} = \Delta \ln \left(Y^{i} Y^{j}\right) + (1 - \sigma) \Delta \ln T^{i j} - \sigma \Delta \ln p^{i} + (\sigma - 1) \Delta \ln P^{j}. \tag {5.27}
 $$
 
 The term  $(\mathrm{Y}^{\mathrm{i}}\mathrm{Y}^{\mathrm{j}})$  appearing in (5.27) can be further decomposed as  $(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})^{2}(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$ , where  $\mathrm{s}^{\mathrm{i}}$  and  $\mathrm{s}^{\mathrm{j}}$  here denote the shares of each country's GDP relative to their sum, i.e.  $\mathrm{s}^{\mathrm{i}} = \mathrm{Y}^{\mathrm{i}} / (\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})$ , and similarly for  $\mathrm{s}^{\mathrm{j}}$ . Therefore, we can re-write (5.27) as,
 
 $$
-\Delta \ln X ^ {i j} = 2 \Delta \ln \left(Y ^ {i} + Y ^ {j}\right) + \Delta \ln \left(s ^ {i} s ^ {j}\right) + (1 - \sigma) \Delta \ln T ^ {i j} - \sigma \Delta \ln p ^ {i} + (\sigma - 1) \Delta \ln P ^ {j}. \tag {5.27'}
+\Delta \ln X^{i j} = 2 \Delta \ln \left(Y^{i} + Y^{j}\right) + \Delta \ln \left(s^{i} s^{j}\right) + (1 - \sigma) \Delta \ln T^{i j} - \sigma \Delta \ln p^{i} + (\sigma - 1) \Delta \ln P^{j}. \tag {5.27'}
 $$
 
 In this formulation, we see that the growth of trade depends on changes in transport costs, changes in the sum of GDP, changes in relative country size measured by  $(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$ , and changes in the prices of each country, measured with GDP deflators. Because  $\mathrm{s}^{\mathrm{i}} + \mathrm{s}^{\mathrm{j}} = 1$ , then squaring both sides we obtain,  $\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}} = [1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\mathrm{s}^{\mathrm{j}})^{2}] / 2$ , so the variable  $(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$  in (5.27') is the same as Helpman's size dispersion index in (5.17).
@@ -3433,7 +3433,7 @@ In this formulation, we see that the growth of trade depends on changes in trans
 Using data for 16 OECD countries, and taking differences between the averages in 1958-60 and 1986-88, Baier and Bergstrand (2001, p. 19) estimate the following regression (with standard errors in parentheses):
 
 $$
-\Delta \ln X ^ {i j} = 0. 0 5 + 2. 3 7 \Delta \ln \left(Y ^ {i} + Y ^ {j}\right) + 0. 6 0 \Delta \ln \left(s ^ {i} s ^ {j}\right) - 4. 4 9 \Delta \ln \left(1 + \tau^ {i j}\right) - 3. 1 9 \Delta \ln \left(1 + a ^ {i j}\right)
+\Delta \ln X^{i j} = 0. 0 5 + 2. 3 7 \Delta \ln \left(Y^{i} + Y^{j}\right) + 0. 6 0 \Delta \ln \left(s^{i} s^{j}\right) - 4. 4 9 \Delta \ln \left(1 + \tau^{i j}\right) - 3. 1 9 \Delta \ln \left(1 + a^{i j}\right)
 $$
 
 $$
@@ -3453,7 +3453,7 @@ $$
 $$
 
 $$
-- 0. 6 8 \Delta \ln \mathrm {Y} ^ {\mathrm {j}} - 0. 2 5 \Delta \ln \left(\mathrm {p} ^ {\mathrm {i}} / \mathrm {P} ^ {\mathrm {j}}\right) - 0. 0 8 \ln \mathrm {X} _ {0} ^ {\mathrm {i j}}, \quad \mathrm {R} ^ {2} = 0. 4 0, \mathrm {N} = 2 4 0. \tag {5.28}
+- 0. 6 8 \Delta \ln \mathrm{Y}^{\mathrm{j}} - 0. 2 5 \Delta \ln \left(\mathrm{p}^{\mathrm{i}} / \mathrm{P}^{\mathrm{j}}\right) - 0. 0 8 \ln \mathrm{X}_{0}^{\mathrm{ij}}, \quad \mathrm{R}^{2} = 0. 4 0, \mathrm{N} = 2 4 0. \tag {5.28}
 $$
 
 $$
@@ -3483,7 +3483,7 @@ Notice that these three variables (sum of GDP's, tariffs and transport costs) ex
 An objection to using published price indexes to measure  $\mathfrak{p}^1$  and  $\mathbf{P}^j$  is that these indexes may not accurately reflect the "true" border effects. That is, the myriad of costs (in money, time and currency risk) involved in making transactions across the border are probably not reflected in aggregate price indexes.[10] So instead of using data to measure prices, we might want to model the c.i.f. prices  $\mathfrak{p}^{\mathrm{ij}}$  as differing from the f.o.b. prices  $\mathfrak{p}^i$  due to distance and other factors, as with:
 
 $$
-\ln \mathrm {T} ^ {\mathrm {i j}} = \tau^ {\mathrm {i j}} + \rho \ln \mathrm {d} ^ {\mathrm {i j}} + \varepsilon_ {\mathrm {i j}}, \tag {5.29}
+\ln \mathrm{T}^{\mathrm{ij}} = \tau^{\mathrm{ij}} + \rho \ln \mathrm{d}^{\mathrm{ij}} + \varepsilon_{\mathrm{ij}}, \tag {5.29}
 $$
 
 where  $d^{ij}$  is the distance between country  $i$  and  $j$ ,  $\tau^{ij}$  is any other "border effect" associated with selling from country  $i$  to  $j$ , and  $\varepsilon_{ij}$  is a random error. We should think of  $\rho$  and  $\tau^{ij}$  as being estimated, though we will have to explain how this is done. Generally,  $T^{ij}$  is meant to include all effects limiting trade between countries  $i$  and  $j$ , so referring to it as "iceberg" transportation costs is something of a misuse of language.
@@ -3493,7 +3493,7 @@ Substituting (5.29) back into the gravity equation (5.26) to eliminate the terms
 Notice that with the iceberg transportation costs, the output of the firm exceeds the net amount received by consumer, since these are related by:
 
 $$
-\mathrm {y} ^ {\mathrm {i}} = \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \mathrm {c} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {i j}}. \tag {5.30}
+\mathrm{y}^{\mathrm{i}} = \sum_{\mathrm{j} = 1}^{\mathrm{C}} \mathrm{c}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ij}}. \tag {5.30}
 $$
 
 Multiplying this by the price  $p^i$ , we obtain  $p^i y^i = \sum_{j=1}^{C} p^{ij} c^{ij}$ , which is an equality between the value of output of the firm (using the f.o.b. prices but before the output has "melted") and the expenditure of consumers (using the c.i.f. prices but after the quantity delivered has "melted"). In principle, we can use the market clearing conditions (5.30) to solve for the unknown prices  $p^i$ . Rather than obtain an explicit solution for prices, Anderson and van Wincoop (2001) make use of a convenient implicit solution. To develop their result, we again denote country  $i$ 's GDP by  $Y^i = N^i p^i y^i$ , world GDP by  $Y^w = \sum_{j=1}^{C} Y^j$ , and country  $i$ 's share by  $s^i = Y^i / Y^w$ .
@@ -3503,13 +3503,13 @@ Multiplying this by the price  $p^i$ , we obtain  $p^i y^i = \sum_{j=1}^{C} p^{i
 Suppose that the transportation costs are symmetric,  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$ . Then an implicit solution to the market clearing conditions (5.30) is:
 
 $$
-\widetilde {\mathrm {p}} ^ {\mathrm {i}} \equiv \left(\mathrm {s} ^ {\mathrm {i}} / \mathrm {N} ^ {\mathrm {i}}\right) ^ {1 / (1 - \sigma)} / \widetilde {\mathrm {P}} ^ {\mathrm {i}}, \tag {5.31}
+\widetilde {\mathrm{p}}^{\mathrm{i}} \equiv \left(\mathrm{s}^{\mathrm{i}} / \mathrm{N}^{\mathrm{i}}\right)^{1 / (1 - \sigma)} / \widetilde {\mathrm{P}}^{\mathrm{i}}, \tag {5.31}
 $$
 
 in which case the price indexes are solved as:
 
 $$
-\left(\widetilde {P} ^ {j}\right) ^ {1 - \sigma} = \sum_ {i = 1} ^ {C} s ^ {i} \left(T ^ {i j} / \widetilde {P} ^ {i}\right) ^ {1 - \sigma}. \tag {5.32}
+\left(\widetilde {P}^{j}\right)^{1 - \sigma} = \sum_{i = 1}^{C} s^{i} \left(T^{i j} / \widetilde {P}^{i}\right)^{1 - \sigma}. \tag {5.32}
 $$
 
 # Proof:
@@ -3517,13 +3517,13 @@ $$
 We will show that substituting (5.31) into the price index (5.25), and substituting (5.31) into the market clearing conditions (5.30), both lead to equation (5.32). First, substituting  $\widetilde{\mathfrak{p}}^{\mathrm{ij}} = \widetilde{\mathfrak{p}}^{\mathrm{i}}\mathbf{T}^{\mathrm{ij}}$ $= \left(\mathrm{s}^{\mathrm{i}} / \mathrm{N}^{\mathrm{i}}\right)^{1 / (1 - \sigma)}\mathrm{T}^{\mathrm{ij}} / \widetilde{\mathrm{P}}^{\mathrm{i}}$  into (5.25), we immediately obtain (5.32). Second, rewrite the market clearing conditions (5.30) as,
 
 $$
-Y ^ {i} = N ^ {i} p ^ {i} y ^ {i} = N ^ {i} p ^ {i} \sum_ {j = 1} ^ {C} c ^ {i j} T ^ {i j} = N ^ {i} \sum_ {j = 1} ^ {C} c ^ {i j} p ^ {i j} = N ^ {i} \sum_ {j = 1} ^ {C} \left(p ^ {i} T ^ {i j} / P ^ {j}\right) ^ {1 - \sigma} Y ^ {j}, \tag {5.33}
+Y^{i} = N^{i} p^{i} y^{i} = N^{i} p^{i} \sum_{j = 1}^{C} c^{i j} T^{i j} = N^{i} \sum_{j = 1}^{C} c^{i j} p^{i j} = N^{i} \sum_{j = 1}^{C} \left(p^{i} T^{i j} / P^{j}\right)^{1 - \sigma} Y^{j}, \tag {5.33}
 $$
 
 where the final equality makes use of (5.24) and  $\mathbf{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathbf{p}^{\mathrm{i}}$ . Then substituting (5.31) into the final expression of (5.33), we obtain,
 
 $$
-\mathrm {Y} ^ {\mathrm {i}} = \mathrm {s} ^ {\mathrm {i}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \left(\mathrm {T} ^ {\mathrm {i j}} / \tilde {\mathrm {P}} ^ {\mathrm {i}} \tilde {\mathrm {P}} ^ {\mathrm {j}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}}. \tag {5.34}
+\mathrm{Y}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{C}} \left(\mathrm{T}^{\mathrm{ij}} / \tilde {\mathrm{P}}^{\mathrm{i}} \tilde {\mathrm{P}}^{\mathrm{j}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}}. \tag {5.34}
 $$
 
 Summing this over  $i = 1, \ldots, C$ , we have,  $Y^w = \sum_{j=1}^{C} (T^{ij} / \widetilde{P}^i \widetilde{P}^j)^{1 - \sigma} Y^j$ , which is identical to (5.32) provided that  $T^{ij} = T^{ji}$ . QED
@@ -3531,7 +3531,7 @@ Summing this over  $i = 1, \ldots, C$ , we have,  $Y^w = \sum_{j=1}^{C} (T^{ij} 
 To see the usefulness of this result, substitute (5.31) into the gravity equation (5.26) to obtain:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\widetilde {\mathrm {P}} ^ {\mathrm {i}} \widetilde {\mathrm {P}} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} = \left(\frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {Y} ^ {\mathrm {w}}}\right) \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\widetilde {\mathrm {P}} ^ {\mathrm {i}} \widetilde {\mathrm {P}} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}. \tag {5.35}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\widetilde {\mathrm{P}}^{\mathrm{i}} \widetilde {\mathrm{P}}^{\mathrm{j}}}\right)^{1 - \sigma} = \left(\frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{Y}^{\mathrm{w}}}\right) \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\widetilde {\mathrm{P}}^{\mathrm{i}} \widetilde {\mathrm{P}}^{\mathrm{j}}}\right)^{1 - \sigma}. \tag {5.35}
 $$
 
 This is a remarkably simple equation, whereby bilateral trade between countries depends on their GDP's and also their implicit price indexes. Anderson and van Wincoop call  $\widetilde{\mathbf{P}}^{\mathrm{i}}$  "indexes of multilateral resistance," because they depend on the transport costs  $\mathbf{T}^{\mathrm{ij}}$  in (5.32). These indexes are unobserved, but Anderson and van Wincoop argue that we can solve for them by using equation (5.32) in combination with a formula for the transportation costs such as (5.29').
@@ -3539,7 +3539,7 @@ This is a remarkably simple equation, whereby bilateral trade between countries 
 Specifically, the estimation strategy of Anderson and van Wincoop is to move the GDP terms from the right to the left of (5.35), take logs and substitute (5.29) for the transportation costs, obtaining (without the constant term  $\mathbf{Y}^{\mathrm{w}}$ ):
 
 $$
-\ln (\mathrm {X} ^ {\mathrm {i j}} / \mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}) = \rho (1 - \sigma) \ln \mathrm {d} ^ {\mathrm {i j}} + (1 - \sigma) \tau^ {\mathrm {i j}} + \ln (\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} + \ln (\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1} + (1 - \sigma) \varepsilon_ {\mathrm {i j}}. \tag {5.36}
+\ln (\mathrm{X}^{\mathrm{ij}} / \mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}) = \rho (1 - \sigma) \ln \mathrm{d}^{\mathrm{ij}} + (1 - \sigma) \tau^{\mathrm{ij}} + \ln (\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} + \ln (\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1} + (1 - \sigma) \varepsilon_{\mathrm{ij}}. \tag {5.36}
 $$
 
 The dependent variable on the left is bilateral trade relative to the product of GDP's. On the right we have distance between regions i and j, followed by all other border effects  $(1 - \sigma)\tau^{\mathrm{ij}}$ , and then the multilateral resistance terms  $(\widetilde{\mathbf{P}}^{\mathrm{i}})^{\sigma - 1}$ . These terms can be solved from (5.32)
@@ -3549,7 +3549,7 @@ once we know the transportation costs  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\
 To perform this estimation, we need to be more specific about the form of the border effects  $(1 - \sigma)\tau^{ij}$  in (5.36). Recall that in McCallum's (1995) gravity equation in (5.20), we introduced an indicator variable  $\delta^{\mathrm{ij}}$  that equaled unity for trade between two Canadian provinces, and zero otherwise. Anderson and van Wincoop instead work with an indicator variable that is  $(1 - \delta^{\mathrm{ij}})$ , or unity for trade between the U.S. and Canada, and zero otherwise. Introducing the coefficient  $\gamma$  on this variable, we replace  $(1 - \sigma)\tau^{\mathrm{ij}}$  with  $\gamma(1 - \delta^{\mathrm{ij}})$  in (5.36) and also use the coefficient  $\alpha = \rho(1 - \sigma)$  on distance, to obtain:
 
 $$
-\ln \left(X ^ {i j} / Y ^ {i} Y ^ {j}\right) = \alpha \ln d ^ {i j} + \gamma \left(1 - \delta^ {i j}\right) + \ln \left(\widetilde {P} ^ {i}\right) ^ {\sigma - 1} + \ln \left(\widetilde {P} ^ {j}\right) ^ {\sigma - 1} + (1 - \sigma) \varepsilon_ {i j}. \tag {5.37}
+\ln \left(X^{i j} / Y^{i} Y^{j}\right) = \alpha \ln d^{i j} + \gamma \left(1 - \delta^{i j}\right) + \ln \left(\widetilde {P}^{i}\right)^{\sigma - 1} + \ln \left(\widetilde {P}^{j}\right)^{\sigma - 1} + (1 - \sigma) \varepsilon_{i j}. \tag {5.37}
 $$
 
 Their estimates of (5.37) are shown in column (4) of Table 5.2. Notice that the provincial and states GDP terms have their coefficients constrained at unity, since they have been brought to the left of (5.37). The coefficient on the indicator variable on cross-border trade in column (4) is estimated at  $\hat{\gamma} = -1.65$ . This can be compared to the estimates on the indicator variables for intra-Canada trade and intra-U.S. trade, in column (3), of 2.75 and 0.40, respectively. We certainly expect the indicator variables in columns (3) and (4) to have coefficients that are opposite in sign, since in the one case we are measuring intranational trade and in the other case
@@ -3563,7 +3563,7 @@ We would like to turn the coefficient  $\hat{\gamma} = -1.65$  into an estimate 
 Taking exponents of (5.37), and comparing this equation with and without border effects, the ratio of trade in these two cases is therefore, $^{12}$
 
 $$
-\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}} = \left[ \mathrm {e} ^ {\hat {\gamma} (1 - \delta^ {\mathrm {i j}})} \right] \frac {\left(\tilde {\mathrm {P}} ^ {\mathrm {i}}\right) ^ {\sigma - 1} \left(\tilde {\mathrm {P}} ^ {\mathrm {j}}\right) ^ {\sigma - 1}}{\left(\overline {{\mathrm {P}}} ^ {\mathrm {i}}\right) ^ {\sigma - 1} \left(\overline {{\mathrm {P}}} ^ {\mathrm {j}}\right) ^ {\sigma - 1}}. \tag {5.38}
+\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}} = \left[ \mathrm{e}^{\hat {\gamma} (1 - \delta^{\mathrm{ij}})} \right] \frac{\left(\tilde {\mathrm{P}}^{\mathrm{i}}\right)^{\sigma - 1} \left(\tilde {\mathrm{P}}^{\mathrm{j}}\right)^{\sigma - 1}}{\left(\overline {{\mathrm{P}}}^{\mathrm{i}}\right)^{\sigma - 1} \left(\overline {{\mathrm{P}}}^{\mathrm{j}}\right)^{\sigma - 1}}. \tag {5.38}
 $$
 
 For example, consider intra-Canadian trade, where  $\delta^{ij} = 1$  so the first term on the right of (5.38) vanishes. Anderson and van Wincoop find that (5.38) equals 4.3, meaning that intra-Canadian trade is 4.3 times larger with the border effects than without. $^{13}$  In addition, for the United States, Anderson and van Wincoop find that intra-U.S. trade is 1.05 times larger with the border effects than without. Finally, they find that cross-border trade is 0.41 times smaller with the border effects than without. All these numbers are computed from the ratio on the right of (5.38), averaged across the provinces or states in Canada or the U.S., as appropriate. With intra-Canadian trade being 4.3 times higher due to the border effect, and cross-border trade being 0.41 times smaller, it is immediate that intra-Canadian trade is  $4.3 / 0.41 = 10.5$  times higher than cross-border trade. This estimate is shown near the bottom of column (4) in Table 5.2, along with its standard error. The analogous calculation for the U.S. shows that intra-American trade is  $1.05 / 0.41 = 2.6$  times higher than cross-border trade, which is again shown at the bottom of column (4).
@@ -3583,7 +3583,7 @@ Since the multilateral indexes in (5.37) are unobserved, rather than calculating
 exporter, and zero otherwise; and let  $\delta_2^j$  denote an indicator variable that is unity if region  $j$  is the importer, and zero otherwise. Then the gravity equation in (5.37) can be re-written as:
 
 $$
-\ln \left(X ^ {i j} / Y ^ {i} Y ^ {j}\right) = \alpha \ln d ^ {i j} + \gamma (1 - \delta^ {i j}) + \beta_ {1} ^ {i} \delta_ {1} ^ {i} + \beta_ {2} ^ {i} \delta_ {2} ^ {i} + (1 - \sigma) \varepsilon_ {i j}, \tag {5.39}
+\ln \left(X^{i j} / Y^{i} Y^{j}\right) = \alpha \ln d^{i j} + \gamma (1 - \delta^{i j}) + \beta_{1}^{i} \delta_{1}^{i} + \beta_{2}^{i} \delta_{2}^{i} + (1 - \sigma) \varepsilon_{i j}, \tag {5.39}
 $$
 
 where the coefficients  $\beta_{1}^{i} = \ln (\widetilde{\mathbf{P}}^{i})^{\sigma -1}$  and  $\beta_{2}^{j} = \ln (\widetilde{\mathbf{P}}^{j})^{\sigma -1}$  on the source and destination indicator variables estimate the multilateral indexes.
@@ -3607,13 +3607,13 @@ We will make the same assumptions on the differentiated good as in Krugman's ori
 On the demand side, we assume that a fixed share of income  $\phi$  is spent on the differentiated product, which provides utility given by the CES function in (5.21) or (5.22). Therefore, demand for each differentiated product is still given by (5.25), but replacing income  $\mathbf{Y}^{\mathrm{j}}$  by the amount  $\phi \mathbf{L}^{\mathrm{j}}$  actually spent on the differentiated product, we obtain:
 
 $$
-c ^ {i j} = \left(p ^ {i j} / P ^ {j}\right) ^ {- \sigma} \phi L ^ {j} / P ^ {j}. \tag {5.40}
+c^{i j} = \left(p^{i j} / P^{j}\right)^{- \sigma} \phi L^{j} / P^{j}. \tag {5.40}
 $$
 
 The output of firms is still given by (5.30),  $y^{i} = \sum_{j=1}^{C} c^{ij} T^{ij}$ . Because of the CES utility function, this output will be fixed in a zero-profit equilibrium,  $\overline{y} = (\sigma - 1)\alpha / \beta$ , as obtained in (5.12). So in principle, the number of products in each country can be derived from the market clearing conditions:
 
 $$
-\bar {y} = \sum_ {j = 1} ^ {C} c ^ {i j} T ^ {i j}, \quad i = 1, \dots , C, \tag {5.41}
+\bar {y} = \sum_{j = 1}^{C} c^{i j} T^{i j}, \quad i = 1, \dots , C, \tag {5.41}
 $$
 
 where consumption depends on the price indexes  $\mathbf{P}^{\mathrm{j}}$  given by (5.25), which depend on the number of products.
@@ -3621,7 +3621,7 @@ where consumption depends on the price indexes  $\mathbf{P}^{\mathrm{j}}$  given
 Rather than solving for the number of products in each country, we will instead solve for the change in these as country size  $\mathrm{L}^{\mathrm{j}}$  varies. The fact that the firm outputs are fixed on the left of (5.41) implies that some combination of the consumptions in each country must also be fixed, on the right. As a guess, let us suppose that consumption of every variety in each country is fixed. Under our framework where wages are equalized across countries, the prices  $\mathfrak{p}^{\mathrm{i}}$  and  $\mathfrak{p}^{\mathrm{ij}}$  are also fixed. Then we can totally differentiate (5.40) holding  $c^{\mathrm{ij}}$  fixed to obtain,
 
 $$
-0 = (\sigma - 1) \hat {\mathrm {P}} ^ {\mathrm {j}} + \hat {\mathrm {L}} ^ {\mathrm {j}} \Rightarrow \hat {\mathrm {P}} ^ {\mathrm {j}} = - \hat {\mathrm {L}} ^ {\mathrm {j}} / (\sigma - 1), \tag {5.42}
+0 = (\sigma - 1) \hat {\mathrm{P}}^{\mathrm{j}} + \hat {\mathrm{L}}^{\mathrm{j}} \Rightarrow \hat {\mathrm{P}}^{\mathrm{j}} = - \hat {\mathrm{L}}^{\mathrm{j}} / (\sigma - 1), \tag {5.42}
 $$
 
 where  $\hat{z} = \mathrm{dz} / z$  for any variable. Thus, price indexes in each country  $j$  will fall in direct proportion to the rise in country GDP. Recall from (5.25) that the price indexes depend on the number of products in each country. Thus, provided that there is a change in the number of products consistent with  $\hat{\mathbf{P}}^{\mathrm{j}}$  in (5.42), then our initial assumption that the consumption  $c^{\mathrm{ij}}$  are fixed is indeed correct.
@@ -3629,13 +3629,13 @@ where  $\hat{z} = \mathrm{dz} / z$  for any variable. Thus, price indexes in eac
 To determine the change in the number of products, let us differentiate (5.25) to obtain,
 
 $$
-\hat {\mathrm {P}} ^ {\mathrm {j}} = \left(\frac {1}{1 - \sigma}\right) \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \hat {\mathrm {N}} ^ {\mathrm {i}} \phi^ {\mathrm {i j}}\right), \tag {5.43}
+\hat {\mathrm{P}}^{\mathrm{j}} = \left(\frac{1}{1 - \sigma}\right) \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \hat {\mathrm{N}}^{\mathrm{i}} \phi^{\mathrm{ij}}\right), \tag {5.43}
 $$
 
 where  $\phi^{\mathrm{ij}} = (\mathrm{N}^{\mathrm{ij}}\mathrm{p}^{\mathrm{ij}}\mathrm{c}^{\mathrm{ij}}) / (\phi \mathrm{Y}^{\mathrm{j}})$  denotes the share of products from country i in the differentiated goods purchased by country j, with  $\sum_{\mathrm{i} = 1}^{\mathrm{C}}\phi^{\mathrm{ij}} = 1$ . Combining (5.42) and (5.43), we obtain an extremely simple relationship between the change in GDP of each country and the change in the number of products,
 
 $$
-\hat {\mathrm {L}} ^ {\mathrm {j}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \hat {\mathrm {N}} ^ {\mathrm {i}} \phi^ {\mathrm {i j}}. \tag {5.44}
+\hat {\mathrm{L}}^{\mathrm{j}} = \sum_{\mathrm{i} = 1}^{\mathrm{C}} \hat {\mathrm{N}}^{\mathrm{i}} \phi^{\mathrm{ij}}. \tag {5.44}
 $$
 
 We can use (5.44) to solve for the change in number of product  $\hat{\mathbf{N}}^{\mathrm{i}}$  provided that the matrix of expenditure shares  $\Phi = [\phi^{\mathrm{ij}}]$  is invertible. This will be true, for example, if each country purchases a larger share of the differentiated product from itself than from other countries, so that  $\phi^{\mathrm{ij}} > \phi^{\mathrm{ij}}$  for  $\mathrm{i} \neq \mathrm{j}$ , as we shall assume.
@@ -3643,13 +3643,13 @@ We can use (5.44) to solve for the change in number of product  $\hat{\mathbf{N}
 When there are just two countries, we can express (5.44) in matrix notation as:
 
 $$
-(\hat {\mathrm {N}} ^ {1}, \hat {\mathrm {N}} ^ {2}) \left( \begin{array}{l l} \phi^ {1 1} & \phi^ {1 2} \\ \phi^ {2 1} & \phi^ {2 2} \end{array} \right) = (\hat {\mathrm {L}} _ {1}, \hat {\mathrm {L}} _ {2}) \Rightarrow (\hat {\mathrm {N}} _ {1}, \hat {\mathrm {N}} _ {2}) = \frac {(\hat {\mathrm {L}} _ {1} , \hat {\mathrm {L}} _ {2})}{| \Phi |} \left( \begin{array}{c c} \phi^ {2 2} & - \phi^ {1 2} \\ - \phi^ {2 1} & \phi^ {1 1} \end{array} \right) \tag {5.45}
+(\hat {\mathrm{N}}^{1}, \hat {\mathrm{N}}^{2}) \left( \begin{array}{l l} \phi^{1 1} & \phi^{1 2} \\ \phi^{2 1} & \phi^{2 2} \end{array} \right) = (\hat {\mathrm{L}}_{1}, \hat {\mathrm{L}}_{2}) \Rightarrow (\hat {\mathrm{N}}_{1}, \hat {\mathrm{N}}_{2}) = \frac{(\hat {\mathrm{L}}_{1} , \hat {\mathrm{L}}_{2})}{| \Phi |} \left( \begin{array}{c c} \phi^{2 2} & - \phi^{1 2} \\ - \phi^{2 1} & \phi^{1 1} \end{array} \right) \tag {5.45}
 $$
 
 where  $|\Phi|$  denotes the determinant of the 2x2 matrix above. This determinant can be alternatively expressed as:
 
 $$
-\begin{array}{l} \left| \Phi \right| = \phi^ {1 1} \phi^ {2 2} - \phi^ {1 2} \phi^ {2 1} \\ = \phi^ {1 1} \left(1 - \phi^ {1 2}\right) - \phi^ {1 2} \left(1 - \phi^ {1 1}\right) \tag {5.46} \\ = \phi^ {1 1} - \phi^ {1 2} = \phi^ {2 2} - \phi^ {2 1} \\ \end{array}
+\begin{array}{l} \left| \Phi \right| = \phi^{1 1} \phi^{2 2} - \phi^{1 2} \phi^{2 1} \\ = \phi^{1 1} \left(1 - \phi^{1 2}\right) - \phi^{1 2} \left(1 - \phi^{1 1}\right) \tag {5.46} \\ = \phi^{1 1} - \phi^{1 2} = \phi^{2 2} - \phi^{2 1} \\ \end{array}
 $$
 
 where we have repeatedly made use of the fact that  $\phi^{1j} + \phi^{2j} = 1$ , i.e. the consumption shares of products from both sources to country  $j$  sum to unity. This determinant is positive under our assumption that  $\phi^{jj} > \phi^{ij}$  for  $i \neq j$ .
@@ -3657,7 +3657,7 @@ where we have repeatedly made use of the fact that  $\phi^{1j} + \phi^{2j} = 1$ 
 To fix ideas, suppose that country 1 and 2 start off as identical, with equal transport costs between them. Similar to Krugman's model at the beginning of this chapter, trade between the identical countries will lead them to export equal numbers of the differentiated product to each other:  $\mathrm{N}^{1} = \mathrm{N}^{2}$  and trade is balanced in the differentiated good. Now suppose that the labor endowment of country 1 grows, with no change in country 2, so that  $\hat{\mathrm{L}}^{1} > 0$ , and  $\hat{\mathrm{L}}^{2} = 0$ . Then we can solve for the changing number of products from (5.45) and (5.46) as,
 
 $$
-\hat {\mathrm {N}} ^ {1} = \frac {\phi^ {2 2}}{\left(\phi^ {2 2} - \phi^ {2 1}\right)} \hat {\mathrm {L}} ^ {1} > \hat {\mathrm {L}} ^ {1} > 0 \quad \text {a n d} \quad \hat {\mathrm {N}} ^ {2} = \frac {- \phi^ {1 2}}{| \Phi |} <   0. \tag {5.47}
+\hat {\mathrm{N}}^{1} = \frac{\phi^{2 2}}{\left(\phi^{2 2} - \phi^{2 1}\right)} \hat {\mathrm{L}}^{1} > \hat {\mathrm{L}}^{1} > 0 \quad \text{an d} \quad \hat {\mathrm{N}}^{2} = \frac{- \phi^{1 2}}{| \Phi |} <   0. \tag {5.47}
 $$
 
 Thus, the number of products in the larger country will grow by more than the increase in country size, while those in the smaller country will shrink. Because consumption  $c^{\mathrm{ij}}$  and prices
@@ -3713,13 +3713,13 @@ Let  $\hat{\gamma}$  denote the estimated coefficient of the border indicator in
 The multilateral resistance terms in (5.38) are obtained from (5.32) using the transportation costs  $\mathrm{T}^{\mathrm{ij}} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}(1 - \delta^{\mathrm{ij}})}$  (i.e. including border effects) to compute  $(\widetilde{\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}$ , while using  $\mathrm{T}^{\mathrm{ij}} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}$  (i.e. just distance) to compute  $(\overline{\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}$ . Taking the geometric mean of trade  $\mathrm{X}^{\mathrm{ij}}$  between Canadian provinces with border effects, and the predicted value  $\overline{\mathrm{X}}^{\mathrm{ij}}$  without border effects, we obtain from (5.38):
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\bar {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\bar {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.48}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\bar {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\bar {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.48}
 $$
 
 With CA={1,...,10} Canadian provinces, they can each sell to 9 others, making N=90 bilateral flows in (5.38a). (Notice that we exclude i=j from the calculations in (5.48), since we are not considering sales by a province to itself.) In each of the bilateral flows, two indexes appear on the right, so there are a total of 180 multilateral indexes in the numerator and in the denominator of (5.48). Since each of the 10 provinces appears on the right of (5.48) an equal number of times, i.e.  $180/10 = 18$  times, this expression can be simplified as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i} \in \mathrm {C A}} \left(\frac {\left(\widetilde {\mathrm {P}} ^ {\mathrm {i}}\right) ^ {\sigma - 1}}{\left(\overline {{\mathrm {P}}} ^ {\mathrm {i}}\right) ^ {\sigma - 1}}\right) ^ {1 / 5}, \tag {5.48'}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i} \in \mathrm{CA}} \left(\frac{\left(\widetilde {\mathrm{P}}^{\mathrm{i}}\right)^{\sigma - 1}}{\left(\overline {{\mathrm{P}}}^{\mathrm{i}}\right)^{\sigma - 1}}\right)^{1 / 5}, \tag {5.48'}
 $$
 
 where the exponent on the right is obtained as  $18 / 90 = 1 / 5$ .
@@ -3727,13 +3727,13 @@ where the exponent on the right is obtained as  $18 / 90 = 1 / 5$ .
 Using the same approach for the U.S. = {1,...,30} American states in the sample, we can compute that average trade between them with and without border effects as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {(\widetilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\widetilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.49}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{(\widetilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\widetilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1} (\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.49}
 $$
 
 where now  $\mathrm{N} = 30 \cdot 29 = 860$ . Again, for each bilateral flow there are two multilateral indexes in the numerator and denominator on the right, so each of these indexes appears  $860 \cdot 2 = 1,720$  times. Since each of the 30 states appears on the right of (5.49) an equal number of times, i.e.  $1720 / 30 = 58$  times, this expression can be simplified as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i} \in \mathrm {U S}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1}}\right) ^ {1 / 1 5}, \tag {5.49'}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i} \in \mathrm{US}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1}}\right)^{1 / 1 5}, \tag {5.49'}
 $$
 
 where the exponent on the right is obtained as  $58 / 680 = 1 / 15$ .
@@ -3741,13 +3741,13 @@ where the exponent on the right is obtained as  $58 / 680 = 1 / 15$ .
 Finally, consider the effects on cross-border trade. In this case  $\delta^{\mathrm{ij}} = 0$ , so the term  $(\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}(1 - \delta^{\mathrm{ij}})} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}}$  appears in (5.38). The ratio of U.S.-to-Canada exports with the border effects and without is given by:
 
 $$
-\prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \left[ \mathrm {e} ^ {\hat {\gamma} (1 - \delta^ {\mathrm {i j}})} \right] \prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {(\widetilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\widetilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.50}
+\prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \left[ \mathrm{e}^{\hat {\gamma} (1 - \delta^{\mathrm{ij}})} \right] \prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{(\widetilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\widetilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1} (\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.50}
 $$
 
 On the left side, we average the flow from the U.S. to Canada, so  $N = 30 \cdot 10 = 300$ . On the right side, each pair of state-provinces appears an equal number of times, which means that each province appears 30 times and each state appears 10 times. It follows that we can re-write this expression as:
 
 $$
-\prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \left(\mathrm {e} ^ {\hat {\gamma}}\right) \prod_ {\mathrm {i} \in \mathrm {U S}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1}}\right) ^ {1 / 3 0} \prod_ {\mathrm {j} \in \mathrm {C A}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / 1 0}, (5. 5 0 ^ {\prime})
+\prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \left(\mathrm{e}^{\hat {\gamma}}\right) \prod_{\mathrm{i} \in \mathrm{US}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1}}\right)^{1 / 3 0} \prod_{\mathrm{j} \in \mathrm{CA}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / 1 0}, (5. 5 0^{\prime})
 $$
 
 where the exponent on the U.S. multilateral indexes is obtained as  $10 / 300 = 1 / 30$ , and the exponent on the Canadian provinces is obtained as  $30 / 300 = 1 / 10$ .
@@ -3760,10 +3760,10 @@ We also need to compute the ratio of Canada-to-U.S. exports with the border effe
 5.2 In Krugman's monopolistic competition model, suppose that the utility function takes on the CES form shown in (5.10), rewritten for simplicity with two goods as:
 
 $$
-\mathrm {U} \left(\mathrm {c} _ {1}, \mathrm {c} _ {2}\right) = \mathrm {c} _ {1} ^ {\theta} + \mathrm {c} _ {2} ^ {\theta}, \quad 0 <   \theta = (\sigma - 1) / \sigma <   1.
+\mathrm{U} \left(\mathrm{c}_{1}, \mathrm{c}_{2}\right) = \mathrm{c}_{1}^{\theta} + \mathrm{c}_{2}^{\theta}, \quad 0 <   \theta = (\sigma - 1) / \sigma <   1.
 $$
 
-Maximize this subject to the budget constraint,  $\mathrm{p_1c_1 + p_2c_2\leq I}$
+Maximize this subject to the budget constraint,  $\mathrm{p_1c_1 +p_2c_2\leqI}$
 
 (a) Obtain an expression for the relative demand  $c_1 / c_2$  as a function of prices.
 (b) The elasticity of substitution is defined as  $\mathrm{d}\ln (\mathrm{c}_1 / \mathrm{c}_2) / \mathrm{d}\ln (\mathrm{p}_2 / \mathrm{p}_1)$ . What is the value of the elasticity of substitution for this utility function?
@@ -3780,13 +3780,13 @@ How are your answers to (a) and (b) affected if the fixed costs in industry 1 us
 5.4 Consider the translog expenditure function:
 
 $$
-\ln \mathrm {E} (\mathrm {p}, \mathrm {U}) = \ln \mathrm {U} + \mathrm {a} _ {0} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {a} _ {\mathrm {i}} \ln \mathrm {p} _ {\mathrm {i}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \mathrm {b} _ {\mathrm {i j}} \ln \mathrm {p} _ {\mathrm {i}} \ln \mathrm {p} _ {\mathrm {j}}, \tag {5.51}
+\ln \mathrm{E} (\mathrm{p}, \mathrm{U}) = \ln \mathrm{U} + \mathrm{a}_{0} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{a}_{\mathrm{i}} \ln \mathrm{p}_{\mathrm{i}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{j} = 1}^{\mathrm{N}} \mathrm{b}_{\mathrm{ij}} \ln \mathrm{p}_{\mathrm{i}} \ln \mathrm{p}_{\mathrm{j}}, \tag {5.51}
 $$
 
 where:
 
 $$
-a _ {i} = 1 / N, b _ {i i} = - \gamma (N - 1) / N, a n d b _ {i j} = \gamma / N f o r i \neq j, w i t h i, j = 1, \dots , N, \tag {5.52}
+a_{i} = 1 / N, b_{i i} = - \gamma (N - 1) / N, a n d b_{i j} = \gamma / N f o r i \neq j, w i t h i, j = 1, \dots , N, \tag {5.52}
 $$
 
 where  $\gamma > 0$ . Use this expenditure function to answer:
@@ -3888,7 +3888,7 @@ Because customs unions and free trade areas involve only partial elimination of 
 Our discussion of lump sum transfers follows Dixit and Norman (1980, pp. 76-78). We want to distinguish the various consumers in the economy, so we index them by  $h = 1, \dots, H$ . We will suppose that individual  $h$  has the increasing and quasi-concave utility function  $u^h(c^h, v^h)$ , where  $c^h$  is the N-dimensional vector of consumption, and  $v^h$  is the M-dimensional vector of factor supplies. Under autarky, each consumer maximizes utility subject to the budget constraint,
 
 $$
-p ^ {a ^ {\prime}} c ^ {h a} \leq w ^ {a ^ {\prime}} v ^ {h a}, \tag {6.1}
+p^{a^{\prime}} c^{h a} \leq w^{a^{\prime}} v^{h a}, \tag {6.1}
 $$
 
 where  $\mathbf{p}^{\mathrm{a}}$  is the autarky vector of commodity prices, and  $\mathbf{w}^{\mathrm{a}}$  is the autarky vector of factor prices. The resulting utility for each consumer is  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{ha}},\mathbf{v}^{\mathrm{ha}})$ .
@@ -3896,7 +3896,7 @@ where  $\mathbf{p}^{\mathrm{a}}$  is the autarky vector of commodity prices, and
 Summing over all consumption and factor supplies, the total output in the economy is therefore  $\sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{c}^{\mathrm{ha}} = \mathrm{y}^{\mathrm{a}}$ , and the total factor inputs are  $\sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{v}^{\mathrm{ha}} = \mathrm{v}^{\mathrm{a}}$ . Of course, the point  $(\mathrm{y}^{\mathrm{a}},\mathrm{v}^{\mathrm{a}})$  must be feasible for producers, and also optimal at the prices  $(\mathrm{p}^{\mathrm{a}},\mathrm{w}^{\mathrm{a}})$ . We will assume that the technology for the economy is subject to constant returns to scale. This means that the payments to factors are exactly equal to the revenue collected, so that profits in the economy are,
 
 $$
-\mathrm {p ^ {a} \Delta y ^ {a} - w ^ {a} \Delta v ^ {a} = 0}.
+\mathrm{p^{a} \Delta y^{a} - w^{a} \Delta v^{a} = 0}.
 $$
 
 We now consider the free trade equilibrium, which includes a system of lump-sum taxes or transfers from the government to each individual. We will let  $\mathbf{R}^{\mathrm{h}}$  denote the transfer to each individual h, so that  $\mathbf{R}^{\mathrm{h}} < 0$  is a lump-sum tax. Then the total revenue collected by the
@@ -3906,19 +3906,19 @@ government is  $-\sum_{h=1}^{H} R^h$ , and we will need to establish that this i
 Denote the equilibrium commodity and factor prices under free trade by  $(\mathfrak{p},\mathfrak{w})$ . With each individual receiving the transfer  $\mathbf{R}^{\mathrm{h}}$ , the budget constraint is:
 
 $$
-p ^ {\prime} c ^ {h} \leq w ^ {\prime} v ^ {h} + R ^ {h}. \tag {6.2}
+p^{\prime} c^{h} \leq w^{\prime} v^{h} + R^{h}. \tag {6.2}
 $$
 
 We want to choose a pattern of transfers that allows each individual to be as well off as they were in autarky. To this end, consider the following system:
 
 $$
-R ^ {h} = \left(p - p ^ {a}\right) ^ {\prime} c ^ {h a} - \left(w - w ^ {a}\right) ^ {\prime} v ^ {h a}. \tag {6.3}
+R^{h} = \left(p - p^{a}\right)^{\prime} c^{h a} - \left(w - w^{a}\right)^{\prime} v^{h a}. \tag {6.3}
 $$
 
 To interpret this, if a price for a commodity rises going from autarky to free trade, the government will subsidize each individual by the price rise times their autarky consumption. Conversely, if the earnings of a factor rises going from autarky to free trade, the government will tax each individual by the wage increase times their autarky factor supply. The goal of this transfer system is to ensure that all individuals can still afford their autarky choices  $(\mathrm{c}^{\mathrm{ha}}, \mathrm{v}^{\mathrm{ha}})$ . To see that this is indeed the case, substitute these autarky choices into the budget constraint (6.2), and make use of (6.3), to obtain:
 
 $$
-\mathrm {p ^ {\prime} c ^ {h a}} \leq \mathrm {w ^ {\prime} v ^ {h a}} + (\mathrm {p - p ^ {a}}) ^ {\prime} \mathrm {c ^ {h a}} - (\mathrm {w - w ^ {a}}) ^ {\prime} \mathrm {v ^ {h a}} \iff \mathrm {p ^ {h a}} ^ {\prime} \mathrm {c ^ {h a}} \leq \mathrm {w ^ {a}} ^ {\prime} \mathrm {v ^ {h a}}.
+\mathrm{p^{\prime} c^{h a}} \leq \mathrm{w^{\prime} v^{h a}} + (\mathrm{p -p^{a}})^{\prime} \mathrm{c^{ha}} - (\mathrm{w -w^{a}})^{\prime} \mathrm{v^{ha}} \iff \mathrm{p^{ha}}^{\prime} \mathrm{c^{ha}} \leq \mathrm{w^{a}}^{\prime} \mathrm{v^{ha}}.
 $$
 
 Since the second equation above is just the individual's autarky budget constraint in (6.1), we know that it is satisfied. This proves that the autarky choices  $(\mathbf{c}^{\mathrm{ha}},\mathbf{v}^{\mathrm{ha}})$  are feasible for the budget constraint in (6.2) and transfers in (6.3).
@@ -3928,7 +3928,7 @@ This result can also be seen from Figure 6.1. We illustrate there the indifferen
 Let us now sum up the transfers, and reverse its sign, to obtain total government revenue:
 
 $$
-\begin{array}{l} - \sum_ {h = 1} ^ {H} R ^ {h} = (p ^ {a} - p) ^ {\prime} \sum_ {h = 1} ^ {H} c ^ {h a} - (w ^ {a} - w) ^ {\prime} \sum_ {h = 1} ^ {H} v ^ {h a} \\ = \left(\mathrm {p} ^ {\mathrm {a}} - \mathrm {p}\right) ^ {\prime} \mathrm {y} ^ {\mathrm {a}} - \left(\mathrm {w} ^ {\mathrm {a}} - \mathrm {w}\right) ^ {\prime} \mathrm {v} ^ {\mathrm {a}} \\ = \left(\mathrm {p} ^ {\mathrm {a} ^ {\prime}} \mathrm {y} ^ {\mathrm {a}} - \mathrm {w} ^ {\mathrm {a} ^ {\prime}} \mathrm {v} ^ {\mathrm {a}}\right) - \left(\mathrm {p} ^ {\prime} \mathrm {y} ^ {\mathrm {a}} - \mathrm {w} ^ {\prime} \mathrm {v} ^ {\mathrm {a}}\right) \\ = - \left(\mathrm {p} ^ {\prime} \mathrm {y} ^ {\mathrm {a}} - \mathrm {w} ^ {\prime} \mathrm {v} ^ {\mathrm {a}}\right) \\ \geq - \left(\mathrm {p} ^ {\prime} \mathrm {y} - \mathrm {w} ^ {\prime} \mathrm {v}\right) = 0, \tag {6.4} \\ \end{array}
+\begin{array}{l} - \sum_{h = 1}^{H} R^{h} = (p^{a} - p)^{\prime} \sum_{h = 1}^{H} c^{h a} - (w^{a} - w)^{\prime} \sum_{h = 1}^{H} v^{h a} \\ = \left(\mathrm{p}^{\mathrm{a}} - \mathrm{p}\right)^{\prime} \mathrm{y}^{\mathrm{a}} - \left(\mathrm{w}^{\mathrm{a}} - \mathrm{w}\right)^{\prime} \mathrm{v}^{\mathrm{a}} \\ = \left(\mathrm{p}^{\mathrm{a}^{\prime}} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\mathrm{a}^{\prime}} \mathrm{v}^{\mathrm{a}}\right) - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ \geq - \left(\mathrm{p}^{\prime} \mathrm{y} - \mathrm{w}^{\prime} \mathrm{v}\right) = 0, \tag {6.4} \\ \end{array}
 $$
 
 where the second line follows by using  $\sum_{h=1}^{H} c^{ha} = y^a$  and  $\sum_{h=1}^{H} v^{ha} = v^a$ , the third line follows by rearranging terms, and the fourth line follows because autarky profits are zero as in (6.2). The expression  $(p' y^a - w' v^a)$  in the fourth line shows the value of profits under free trade if producers chose the feasible but non-optimal point  $(y^a, v^a)$ , which will be less than profits at
@@ -3944,7 +3944,7 @@ the optimal point  $(\mathbf{y},\mathbf{v})$ , and these profits are zero from c
 Therefore, we see that  $-\sum_{h=1}^{H} R^h \geq 0$ , so this system does not cost the government anything: the lump-sum taxes collected from those gaining from trade are more than enough to cover the losses to those harmed by trade. No one is harmed by the move to free trade, and there will generally be gains of two sorts: the consumption gains shown in Figure 6.1 from consuming at a point different from autarky; and the efficiency gains that arise when the value of output ( $p'y - w'v$ ) is strictly greater than ( $p'y^a - w'v^a$ ), so that the inequality on the last line of (6.4) is strict. To understand this source of gains, consider a special case where the factor supplies chosen by consumers do not change, so that the total factor inputs  $\overline{v}$  are fixed. Then we have that  $w'v^a = w' \overline{v} = p'y$ , so that the revenue collected by the government in (6.4) is:
 
 $$
-- \sum_ {\mathrm {h} = 1} ^ {\mathrm {H}} \mathrm {R} ^ {\mathrm {h}} = - \left(\mathrm {p} ^ {\prime} \mathrm {y} ^ {\mathrm {a}} - \mathrm {w} ^ {\prime} \mathrm {v} ^ {\mathrm {a}}\right) = \mathrm {p} ^ {\prime} \mathrm {y} - \mathrm {p} ^ {\prime} \mathrm {y} ^ {\mathrm {a}}. \tag {6.4'}
+- \sum_{\mathrm{h} = 1}^{\mathrm{H}} \mathrm{R}^{\mathrm{h}} = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) = \mathrm{p}^{\prime} \mathrm{y} - \mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}}. \tag {6.4'}
 $$
 
 In Figure 6.2, for example, suppose that the autarky equilibrium is at point A and the free trade production point at B. Then the revenue collected by the government is exactly the difference between the value of production at these points (with prices p), or the difference between the two budget lines that are drawn. With this revenue given back to consumers, they enjoy gains for that reason in addition to the consumption gains illustrated in Figure 6.1.
@@ -3964,7 +3964,7 @@ on goods at  $(\mathfrak{p}^{\mathrm{a}} - \mathfrak{p})$ , and the vector of co
 Next, we check the government budget. The revenue collected from this system of commodity taxes and subsidies equals:
 
 $$
-\left(p ^ {a} - p\right) ^ {\prime} \sum_ {h = i} ^ {H} c ^ {h a} - \left(w ^ {a} - w\right) ^ {\prime} \sum_ {h = i} ^ {H} v ^ {h a} = \left(p ^ {a} - p\right) ^ {\prime} y ^ {a} - \left(w ^ {a} - w\right) ^ {\prime} v ^ {a}. \tag {6.5}
+\left(p^{a} - p\right)^{\prime} \sum_{h = i}^{H} c^{h a} - \left(w^{a} - w\right)^{\prime} \sum_{h = i}^{H} v^{h a} = \left(p^{a} - p\right)^{\prime} y^{a} - \left(w^{a} - w\right)^{\prime} v^{a}. \tag {6.5}
 $$
 
 Notice that this is identical to the expression in (6.4), and is therefore non-negative for exactly the same reasons. As we discussed in (6.4') and Figure 6.2, this expression is strictly positive whenever there are efficiency gains from having producers face free trade rather than autarky prices. If this is the case, then the government redistributes this revenue back to consumers as a "poll subsidy" (i.e. an equal amount to each person). In that way, all consumers receive more than their autarky utility level, and Pareto gains from trade are achieved!
@@ -4016,7 +4016,7 @@ More generally, our setup allows for a change in tariffs abroad simultaneously w
 Our argument will follow the earlier discussion of lump-sum compensation quite closely. In the initial situation, we suppose that consumers maximize utility subject to their budget constraints,
 
 $$
-p ^ {0} \mathrm {c} ^ {\mathrm {h} 0} \leq w ^ {0} \mathrm {v} ^ {\mathrm {h} 0} + \left(t ^ {0} \mathrm {m} ^ {0}\right) / H, \tag {6.6}
+p^{0} \mathrm{c}^{\mathrm{h} 0} \leq w^{0} \mathrm{v}^{\mathrm{h} 0} + \left(t^{0} \mathrm{m}^{0}\right) / H, \tag {6.6}
 $$
 
 where  $\mathfrak{p}^0$  is the autarky vector of commodity prices,  $\mathbf{w}^{0}$  is the autarky vector of factor prices, and we include the redistributed tariff revenue  $t^{0},\mathrm{m}^{0} / \mathrm{H}$ , where  $\mathrm{H}$  is the number of consumers. The resulting utility for each consumer is  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h0}},\mathbf{v}^{\mathrm{h0}})$ .
@@ -4026,7 +4026,7 @@ Summing over all consumption and factor supplies, the total consumption in the e
 After the tariff reform, domestic prices change to  $p^1 = p^{*1} + t^1$ , and the revenue collected from the trade tax/subsidies becomes  $t^{1'}m^1$ . We denote the transfer to consumers by  $R^h$ , which may differ from just the revenue  $t^{1'}m^1$ . The budget constraint for consumers is,
 
 $$
-p ^ {1} \mathrm {c} ^ {\mathrm {h}} \leq w ^ {1} \mathrm {v} ^ {\mathrm {h}} + R ^ {\mathrm {h}}. \tag {6.7}
+p^{1} \mathrm{c}^{\mathrm{h}} \leq w^{1} \mathrm{v}^{\mathrm{h}} + R^{\mathrm{h}}. \tag {6.7}
 $$
 
 Our goal is to identify conditions under which the government can compensate individuals for the change in prices, and at the same time, balance the government budget. Using a similar system of lump-sum transfers that we considered earlier, this can be achieved by:
@@ -4036,7 +4036,7 @@ Our goal is to identify conditions under which the government can compensate ind
 When the prices change from  $\mathbf{p}^0 = \mathbf{p}^{*0} + \mathbf{t}^0$  to  $\mathbf{p}^1 = \mathbf{p}^{*1} + \mathbf{t}^1$ , suppose that the government transfers the following amount to each individual:
 
 $$
-R ^ {h} = \left(p ^ {1} - p ^ {0}\right) ^ {\prime} c ^ {h 0} - \left(w ^ {1} - w ^ {0}\right) ^ {\prime} v ^ {h 0} + \left(t ^ {0}, m ^ {0}\right) / H. \tag {6.8}
+R^{h} = \left(p^{1} - p^{0}\right)^{\prime} c^{h 0} - \left(w^{1} - w^{0}\right)^{\prime} v^{h 0} + \left(t^{0}, m^{0}\right) / H. \tag {6.8}
 $$
 
 Provided that  $(\mathfrak{p}^{*0} - \mathfrak{p}^{*1})'\mathfrak{m}^0 +\mathfrak{t}^{1'}(\mathfrak{m}^1 -\mathfrak{m}^0)\geq 0$ , then no individual is worse off and the government budget is balanced.
@@ -4046,11 +4046,11 @@ Provided that  $(\mathfrak{p}^{*0} - \mathfrak{p}^{*1})'\mathfrak{m}^0 +\mathfra
 Substituting the transfers in (6.8) into individual's budget constraint (6.7), we can confirm that the initial choices  $(\mathbf{c}^{\mathrm{h0}},\mathbf{v}^{\mathrm{h0}})$  are still feasible:
 
 $$
-p ^ {1} \mathrm {c} ^ {\mathrm {h} 0} \leq w ^ {1} \mathrm {v} ^ {\mathrm {h} 0} + \left(p ^ {1} - p ^ {0}\right) ^ {\prime} c ^ {\mathrm {h} 0} - \left(w ^ {1} - w ^ {0}\right) ^ {\prime} v ^ {\mathrm {h} 0} + \left(t ^ {0}, m ^ {0}\right) / H \tag {6.9}
+p^{1} \mathrm{c}^{\mathrm{h} 0} \leq w^{1} \mathrm{v}^{\mathrm{h} 0} + \left(p^{1} - p^{0}\right)^{\prime} c^{\mathrm{h} 0} - \left(w^{1} - w^{0}\right)^{\prime} v^{\mathrm{h} 0} + \left(t^{0}, m^{0}\right) / H \tag {6.9}
 $$
 
 $$
-\Leftrightarrow \mathrm {p} ^ {0} \mathrm {c} ^ {\mathrm {h} 0} \leq \mathrm {w} ^ {0,} \mathrm {v} ^ {\mathrm {h} 0} + (\mathrm {t} ^ {0,} \mathrm {m} ^ {0}) / \mathrm {H}.
+\Leftrightarrow \mathrm{p}^{0} \mathrm{c}^{\mathrm{h} 0} \leq \mathrm{w}^{0,} \mathrm{v}^{\mathrm{h} 0} + (\mathrm{t}^{0,} \mathrm{m}^{0}) / \mathrm{H}.
 $$
 
 Since the second equation shown is just the initial budget constraint in (6.6), the initial choices  $(\mathbf{c}^{\mathrm{h0}},\mathbf{v}^{\mathrm{h0}})$  are feasible and utility is at least  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h0}},\mathbf{v}^{\mathrm{h0}})$ .
@@ -4058,7 +4058,7 @@ Since the second equation shown is just the initial budget constraint in (6.6), 
 To check the government budget, we subtract the transfers from the tariff revenue, obtaining,
 
 $$
-\begin{array}{l} t ^ {1} \cdot m ^ {1} - \sum_ {h = 1} ^ {H} R ^ {h} = t ^ {1} \cdot m ^ {1} - (p ^ {1} - p ^ {0}) ^ {\prime} \sum_ {h = 1} ^ {H} c ^ {h 0} + (w ^ {1} - w ^ {0}) ^ {\prime} \sum_ {h = 1} ^ {H} v ^ {h 0} - t ^ {0} \cdot m ^ {0} \\ = \left(\mathrm {p} ^ {0} - \mathrm {p} ^ {1}\right) ^ {\prime} \mathrm {c} ^ {0} - \left(\mathrm {w} ^ {0} - \mathrm {w} ^ {1}\right) ^ {\prime} \mathrm {v} ^ {0} + \mathrm {t} ^ {1}, \mathrm {m} ^ {1} - \mathrm {t} ^ {0}, \mathrm {m} ^ {0} \\ = \left(p ^ {0} - p ^ {1}\right) ^ {\prime} y ^ {0} - \left(w ^ {0} - w ^ {1}\right) ^ {\prime} v ^ {0} + \left(p ^ {0} - p ^ {1}\right) ^ {\prime} m ^ {0} + t ^ {1}, m ^ {1} - t ^ {0}, m ^ {0} \\ = \left(p ^ {0}, y ^ {0} - w ^ {0}, v ^ {0}\right) - \left(p ^ {1}, y ^ {0} - w ^ {1}, v ^ {0}\right) + \left(p ^ {* 0} - p ^ {* 1}\right) ^ {\prime} m ^ {0} + t ^ {1}, \left(m ^ {1} - m ^ {0}\right) \\ \geq \left(p ^ {* 0} - p ^ {* 1}\right) ^ {\prime} m ^ {0} + t ^ {1 \prime} \left(m ^ {1} - m ^ {0}\right). \tag {6.10} \\ \end{array}
+\begin{array}{l} t^{1} \cdot m^{1} - \sum_{h = 1}^{H} R^{h} = t^{1} \cdot m^{1} - (p^{1} - p^{0})^{\prime} \sum_{h = 1}^{H} c^{h 0} + (w^{1} - w^{0})^{\prime} \sum_{h = 1}^{H} v^{h 0} - t^{0} \cdot m^{0} \\ = \left(\mathrm{p}^{0} - \mathrm{p}^{1}\right)^{\prime} \mathrm{c}^{0} - \left(\mathrm{w}^{0} - \mathrm{w}^{1}\right)^{\prime} \mathrm{v}^{0} + \mathrm{t}^{1}, \mathrm{m}^{1} - \mathrm{t}^{0}, \mathrm{m}^{0} \\ = \left(p^{0} - p^{1}\right)^{\prime} y^{0} - \left(w^{0} - w^{1}\right)^{\prime} v^{0} + \left(p^{0} - p^{1}\right)^{\prime} m^{0} + t^{1}, m^{1} - t^{0}, m^{0} \\ = \left(p^{0}, y^{0} - w^{0}, v^{0}\right) - \left(p^{1}, y^{0} - w^{1}, v^{0}\right) + \left(p^{* 0} - p^{* 1}\right)^{\prime} m^{0} + t^{1}, \left(m^{1} - m^{0}\right) \\ \geq \left(p^{* 0} - p^{* 1}\right)^{\prime} m^{0} + t^{1 \prime} \left(m^{1} - m^{0}\right). \tag {6.10} \\ \end{array}
 $$
 
 The second, third and fourth lines follow from simple algebra, and the inequality on the final line follows because initial profits  $(\mathfrak{p}^{0}\mathfrak{y}^{0} - \mathfrak{w}^{0}\mathfrak{v}^{0})$  are zero, while  $(\mathfrak{p}^{1}\mathfrak{y}^{0} - \mathfrak{w}^{1}\mathfrak{v}^{0})$  is less than  $(\mathfrak{p}^{1}\mathfrak{y}^{1} - \mathfrak{w}^{1}\mathfrak{v}^{1})$  which is also zero. Provided that the final line of (6.10) is non-negative, then so is the government budget. QED
@@ -4103,13 +4103,13 @@ To develop the result of Kemp and Wan, let us denote the countries in the custom
 refer to trade strictly inside or outside the union), and potentially non-zero otherwise. Summing imports over all countries in the union, the equilibrium condition is:
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {m} ^ {\mathrm {i} 0} = \mathrm {x} * (\mathrm {p} ^ {* 0}). \tag {6.11}
+\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{m}^{\mathrm{i} 0} = \mathrm{x} * (\mathrm{p}^{* 0}). \tag {6.11}
 $$
 
 After the customs union the countries involved have a unified tariff  $t^1$ , the elements of which are zero for purchases from within-union countries. Let  $m^{i1}$  denote the vector of imports of country  $i$  in this situation. Kemp and Wan (1976) prove that there exists a unified tariff  $t^1$  which ensures that,
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {m} ^ {\mathrm {i} 1} = \mathrm {x} * (\mathrm {p} ^ {* 0}). \tag {6.12}
+\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{m}^{\mathrm{i} 1} = \mathrm{x} * (\mathrm{p}^{* 0}). \tag {6.12}
 $$
 
 The fact that the prices  $\mathfrak{p}^{*^0}$  and exports from the rest of the world  $\mathrm{x}^{*}(\mathrm{p}^{*^{0}})$  are unchanged due to the customs union guarantees that the rest of the world is not affected by it. The question now is whether the members of the customs union also gain, and whether this requires some transfers between the countries or not. This is answered by:
@@ -4131,7 +4131,7 @@ from customs unions in that the countries involved have their own tariff vector 
 Let  $\mathrm{x}^{*}(\mathrm{p}^{0})$  denote the initial net exports from the rest of the world to the countries planning to form a FTA. Recall that this vector is zero for the first 2N goods (which refer to trade strictly inside or outside the union), and potentially non-zero otherwise. The approach of Krishna and Panagariya is to ensure that every country in the FTA has exactly the same trade with the rest of the world as they did initially. Letting  $\mathrm{m}^{\mathrm{i0}}$  and  $\mathrm{m}^{\mathrm{i1}}$  denote the imports of country  $\mathrm{i} = 1, \ldots, \mathrm{C}$ , which is a member of the FTA, we require that:
 
 $$
-m _ {j} ^ {i 0} = m _ {j} ^ {i 1}, \quad \text {f o r g o o d s j = 2 N + 1 , . . . , 4 N}. \tag {6.13}
+m_{j}^{i 0} = m_{j}^{i 1}, \quad \text{fo rg oo ds j =2 N +1 , . . . ,4 N}. \tag {6.13}
 $$
 
 Thus, we require every FTA member import and export the same quantity with the rest of world as they did before the free trade area. While Krishna and Panagariya do not provide a general existence result, we can certainly construct examples where there are country-specific tariffs ensuring that (6.13) holds, and denote these by  $t^{i1}$ ,  $i = 1,\dots,C$ . Notice that (6.13) implies that (6.12) still holds, i.e. total net exports from the FTA to the rest of the world equals  $x^* (p^{*0})$ , its value initially. So we conclude that the equilibrium world prices are still given by  $p^{*0}$ .
@@ -4195,7 +4195,7 @@ We begin with the case of imperfect competition under constant returns to scale.
 For simplicity we suppose that the factor supply choices from consumer are fixed, so total endowments are  $\overline{\mathbf{v}}$ . Let the feasible outputs  $y$  be denoted by the convex set  $S$ . Because  $\widetilde{\mathfrak{p}}$  equals marginal costs, the equilibrium outputs under imperfect competition will solve the problem:
 
 $$
-\mathrm {G} (\widetilde {\mathrm {p}}, \bar {\mathrm {v}}) \equiv \max  _ {\mathrm {y} \geq 0} \left\{\widetilde {\mathrm {p}} ^ {\prime} \mathrm {y} \mid \mathrm {y} \in \mathrm {S} \right\}. \tag {6.14}
+\mathrm{G} (\widetilde {\mathrm{p}}, \bar {\mathrm{v}}) \equiv \max_{\mathrm{y} \geq 0} \left\{\widetilde {\mathrm{p}}^{\prime} \mathrm{y} \mid \mathrm{y} \in \mathrm{S} \right\}. \tag {6.14}
 $$
 
 That is, the marginal costs  $\widetilde{\mathfrak{p}}$  act like a set of shadow prices, and the equilibrium outputs maximize the value of  $\widetilde{\mathfrak{p}}'\mathfrak{y}$ . This problem is illustrated in Figure 6.3, for an equilibrium at point B. With perfect competition in the factor markets but imperfect competition in the goods market, point B is on (not inside) the production possibilities frontier, so that  $\widetilde{\mathfrak{p}}$  is the gradient of a supporting hyperplane at point B. It follows that if  $\mathbf{y}^{\mathrm{a}}$  is any other feasible output vector, then  $\widetilde{\mathfrak{p}}'\mathbf{y} \geq \widetilde{\mathfrak{p}}'\mathbf{y}^{\mathrm{a}}$ . In the case we have illustrated, the actual prices are shown by  $\mathfrak{p}$ , and since this line is steeper than  $\widetilde{\mathfrak{p}}$ , it follows that the relative price of good 1 exceeds its marginal cost; i.e. good 1 is produced with imperfect competition and good 2 under perfect competition.
@@ -4206,7 +4206,7 @@ Figure 6.3
 Total profits earned by firms in the autarky equilibrium are  $p^{a'} y^{a} - w^{a'} \overline{v}$ , and each consumer is entitled to some fixed fraction  $\lambda^h$  of these. Then the autarky budget constraint of consumer  $h$  is re-written from (6.1) as:
 
 $$
-p ^ {a ^ {\prime}} c ^ {h a} \leq w ^ {a ^ {\prime}} \bar {v} ^ {h} + \lambda^ {h} \left(p ^ {a ^ {\prime}} y ^ {a} - w ^ {a ^ {\prime}} \bar {v}\right), \tag {6.15}
+p^{a^{\prime}} c^{h a} \leq w^{a^{\prime}} \bar {v}^{h} + \lambda^{h} \left(p^{a^{\prime}} y^{a} - w^{a^{\prime}} \bar {v}\right), \tag {6.15}
 $$
 
 where  $\overline{\mathbf{v}}^{\mathrm{h}}$  is the vector of fixed factor supplies from individual h. Let us now open the
@@ -4214,13 +4214,13 @@ where  $\overline{\mathbf{v}}^{\mathrm{h}}$  is the vector of fixed factor suppl
 economy to trade at the prices p, and introduce a system of lump-sum transfers, so the post-trade budget constraint of each consumer is:
 
 $$
-p ^ {\prime} c ^ {h} \leq w ^ {\prime} \bar {v} ^ {h} + R ^ {h} + \lambda^ {h} \left(p ^ {\prime} y - w ^ {\prime} \bar {v}\right), \tag {6.16}
+p^{\prime} c^{h} \leq w^{\prime} \bar {v}^{h} + R^{h} + \lambda^{h} \left(p^{\prime} y - w^{\prime} \bar {v}\right), \tag {6.16}
 $$
 
 and the lump-sum transfers to each individual are:
 
 $$
-R ^ {h} = \left(p - p ^ {a}\right) ^ {\prime} c ^ {h a} - \left(w - w ^ {a}\right) ^ {\prime} \bar {v} ^ {h} + \lambda^ {h} \left(p ^ {a} ^ {\prime} y ^ {a} - w ^ {a} ^ {\prime} \bar {v}\right) - \lambda^ {h} \left(p ^ {\prime} y - w ^ {\prime} \bar {v}\right). \tag {6.17}
+R^{h} = \left(p - p^{a}\right)^{\prime} c^{h a} - \left(w - w^{a}\right)^{\prime} \bar {v}^{h} + \lambda^{h} \left(p^{a}^{\prime} y^{a} - w^{a}^{\prime} \bar {v}\right) - \lambda^{h} \left(p^{\prime} y - w^{\prime} \bar {v}\right). \tag {6.17}
 $$
 
 It is straightforward to show that these transfers will allow each individual to obtain at least their autarky consumption bundle, so that they are no worse off. The question, then, is whether the government can afford this policy.
@@ -4228,7 +4228,7 @@ It is straightforward to show that these transfers will allow each individual to
 Summing the transfers in (6.17), and reversing the sign, we obtain:
 
 $$
-\begin{array}{l} - \sum_ {h = 1} ^ {H} R ^ {h} = (p ^ {a} - p) ^ {\prime} \sum_ {h = 1} ^ {H} c ^ {h a} - (w ^ {a} - w) ^ {\prime} \sum_ {h = 1} ^ {H} \bar {v} ^ {h} - \sum_ {h = 1} ^ {H} \lambda^ {h} [ (p ^ {a} ^ {\prime} y ^ {a} - w ^ {a} ^ {\prime} \bar {v}) - (p ^ {\prime} y - w ^ {\prime} \bar {v}) ] \\ = \left(p ^ {a} - p\right) ^ {\prime} y ^ {a} - \left(w ^ {a} - w\right) ^ {\prime} \bar {v} - \left(p ^ {a} ^ {\prime} y ^ {a} - w ^ {a ^ {\prime}} \bar {v}\right) + \left(p ^ {\prime} y - w ^ {\prime} \bar {v}\right) \\ \geq \left(\mathrm {p} ^ {\prime} \mathrm {y} - \mathrm {p} ^ {\prime} \mathrm {y} ^ {\mathrm {a}}\right), \tag {6.18} \\ \end{array}
+\begin{array}{l} - \sum_{h = 1}^{H} R^{h} = (p^{a} - p)^{\prime} \sum_{h = 1}^{H} c^{h a} - (w^{a} - w)^{\prime} \sum_{h = 1}^{H} \bar {v}^{h} - \sum_{h = 1}^{H} \lambda^{h} [ (p^{a}^{\prime} y^{a} - w^{a}^{\prime} \bar {v}) - (p^{\prime} y - w^{\prime} \bar {v}) ] \\ = \left(p^{a} - p\right)^{\prime} y^{a} - \left(w^{a} - w\right)^{\prime} \bar {v} - \left(p^{a}^{\prime} y^{a} - w^{a^{\prime}} \bar {v}\right) + \left(p^{\prime} y - w^{\prime} \bar {v}\right) \\ \geq \left(\mathrm{p}^{\prime} \mathrm{y} - \mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}}\right), \tag {6.18} \\ \end{array}
 $$
 
 where the second line follows by using  $\sum_{h=1}^{H} c^{ha} = y^a$ ,  $\sum_{h=1}^{H} \overline{v}^h = \overline{v}$  and  $\sum_{h=1}^{H} \lambda^h = 1$ , and the third line follows by canceling terms.
@@ -4238,13 +4238,13 @@ If condition (6.18) is non-negative, this sufficient to ensure Pareto gains can 
 Consider the following condition to guarantee Pareto gains, as proposed by Helpman (1984, p. 353):
 
 $$
-(p - \widetilde {p}) ^ {\prime} \left(y - y ^ {a}\right) \geq 0, \tag {6.19}
+(p - \widetilde {p})^{\prime} \left(y - y^{a}\right) \geq 0, \tag {6.19}
 $$
 
 where  $\widetilde{\mathfrak{p}}$  are the marginal revenue/prices under free trade. For competitive industries with  $\mathrm{p_i} = \widetilde{\mathrm{p_i}}$ , condition (6.19) is automatically satisfied, while for imperfectly competitive industries with  $\mathrm{p_i} > \widetilde{\mathrm{p_i}}$ , (6.19) will be satisfied if  $\mathrm{y_i} \geq \mathrm{y_i^a}$  so their outputs do not fall going from autarky to free trade. When (6.19) holds, then we have:
 
 $$
-p ^ {\prime} \left(y - y ^ {a}\right) \geq \widetilde {p} ^ {\prime} \left(y - y ^ {a}\right) \geq 0, \tag {6.20}
+p^{\prime} \left(y - y^{a}\right) \geq \widetilde {p}^{\prime} \left(y - y^{a}\right) \geq 0, \tag {6.20}
 $$
 
 where the last inequality holds because the value of “shadow GDP”  $\mathrm{G}(\widetilde{\mathrm{p}},\mathrm{y}) = \widetilde{\mathrm{p}}^{\prime}\mathrm{y}$  is maximized at the equilibrium outputs  $\mathbf{y}$ . Thus, (6.19) implies that (6.20) holds, which ensures that (6.18) is also non-negative. We have therefore proved:
@@ -4258,13 +4258,13 @@ Thus, the key condition to achieve Pareto gains is that industry output does not
 One way to deal with this problem of "unequal" gains across country is to derive a condition for Pareto gains due to free trade among a group of countries  $i = 1, \dots, C$  (which can be the entire world). As we found for the analysis of customs unions in the previous section, we will end up summing the criterion in (6.18) across the group of countries. That is, the combined government budget for the group is non-negative provided that the terms of trade with respect to outside countries do not change, and:
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {p} ^ {\prime} \left(\mathrm {y} ^ {\mathrm {i}} - \mathrm {y} ^ {\mathrm {i a}}\right) \geq 0. \tag {6.18'}
+\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{p}^{\prime} \left(\mathrm{y}^{\mathrm{i}} - \mathrm{y}^{\mathrm{ia}}\right) \geq 0. \tag {6.18'}
 $$
 
 How can we ensure that (6.18') holds? Consider the generalization of the Helpman (1984b) condition in (6.19):
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \left(\mathrm {p} - \widetilde {\mathrm {p}} ^ {\mathrm {i}}\right) ^ {\prime} \left(\mathrm {y} ^ {\mathrm {i}} - \mathrm {y} ^ {\mathrm {i a}}\right) \geq 0, \tag {6.19'}
+\sum_{\mathrm{i} = 1}^{\mathrm{C}} \left(\mathrm{p} - \widetilde {\mathrm{p}}^{\mathrm{i}}\right)^{\prime} \left(\mathrm{y}^{\mathrm{i}} - \mathrm{y}^{\mathrm{ia}}\right) \geq 0, \tag {6.19'}
 $$
 
 where  $\widetilde{\mathfrak{p}}^{\mathrm{i}}$  are the marginal revenue/prices under free trade. These will be identical across countries in the competitive industries, but in general can differ across countries in the non-competitive industries. A sufficient condition to rule this out, however, is to have marginal costs equal across countries, due to identical technologies and factor price equalization. In that case, we can write  $\widetilde{\mathfrak{p}}^{\mathrm{i}} = \widetilde{\mathfrak{p}}$  in (6.19').
@@ -4272,7 +4272,7 @@ where  $\widetilde{\mathfrak{p}}^{\mathrm{i}}$  are the marginal revenue/prices 
 When condition (6.19') holds, we readily obtain,
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {p} ^ {\prime} \left(\mathrm {y} ^ {\mathrm {i}} - \mathrm {y} ^ {\mathrm {i a}}\right) \geq \sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \tilde {\mathrm {p}} ^ {\mathrm {i}} \left(\mathrm {y} ^ {\mathrm {i}} - \mathrm {y} ^ {\mathrm {i a}}\right) \geq 0, \tag {6.20'}
+\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{p}^{\prime} \left(\mathrm{y}^{\mathrm{i}} - \mathrm{y}^{\mathrm{ia}}\right) \geq \sum_{\mathrm{i} = 1}^{\mathrm{C}} \tilde {\mathrm{p}}^{\mathrm{i}} \left(\mathrm{y}^{\mathrm{i}} - \mathrm{y}^{\mathrm{ia}}\right) \geq 0, \tag {6.20'}
 $$
 
 where the last inequality holds because  $\widetilde{\mathfrak{p}}^{\mathrm{i}}\mathfrak{y}^{\mathrm{i}}\geq \widetilde{\mathfrak{p}}^{\mathrm{i}}\mathfrak{y}^{\mathrm{ia}}$  for every country of the union. We therefore see that (6.19') implies (6.18'), which guarantee Pareto gains for the group of countries. If marginal costs are identical across countries in the free trade equilibrium, so  $\widetilde{\mathfrak{p}}^{\mathrm{i}} = \widetilde{\mathfrak{p}}$ , then condition (6.19') will be satisfied whenever the total group output of each imperfectly competitive good does not fall. This condition generalizes the above theorem, and ensures Pareto gains for the group of countries, though there will still be a need to transfer income between them as we have discussed in the previous section for customs unions.
@@ -4308,10 +4308,10 @@ Figure 6.4
 
 In earlier chapters, our only demonstration of the gains from trade has been a diagram like Figure 6.4, where we show the indifference curves  $\phi$  being lifted off the PPF due to free trade. The question is: should we think of these indifference curves as applying to single "representative" consumer, or is there some other interpretation that allows for consumers who differ in their utility functions? The following results are due to Samuelson (1956), and give a precise interpretation to the indifference curves shown.
 
-Suppose that we have H consumers with utility functions  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h}})$ ,  $\mathrm{h = 1,\dots,H}$ , where we ignore individual supplies of factors for simplicity. We assume that these are increasing and quasi-concave. Further, suppose that we have a social welfare function  $\mathrm{W(u^{1},\ldots,u^{H})}$ , which is non-decreasing and quasi-concave. Then Samuelson defined the social utility function as:
+Suppose that we have H consumers with utility functions  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h}})$ ,  $\mathrm{h =1,\dots,H}$ , where we ignore individual supplies of factors for simplicity. We assume that these are increasing and quasi-concave. Further, suppose that we have a social welfare function  $\mathrm{W(u^{1},\ldots,u^{H})}$ , which is non-decreasing and quasi-concave. Then Samuelson defined the social utility function as:
 
 $$
-\phi (c) = \max  _ {c ^ {h} \geq 0} W [ u ^ {1} \left(c ^ {1}\right), \dots , u ^ {H} \left(c ^ {H}\right) ] \quad \text {s t .} \quad \sum_ {h = 1} ^ {H} c ^ {h} \leq c. \tag {6.21}
+\phi (c) = \max_{c^{h} \geq 0} W [ u^{1} \left(c^{1}\right), \dots , u^{H} \left(c^{H}\right) ] \quad \text{st .} \quad \sum_{h = 1}^{H} c^{h} \leq c. \tag {6.21}
 $$
 
 Thus, this social utility function takes the total amount of consumption goods available, c, and allocates it across individuals so as to maximize social welfare. This allocation is a form of "lump sum" transfers, where we are physically allocating the goods (though the outcome would be similar if we used lump sum transfers of income instead).
@@ -4373,7 +4373,7 @@ $c_0^h + U^h(c^h)$ , where  $c_0^h$  is the consumption of a numeraire good, and
 Let  $c^h = d^h(p)$  denote the optimal vector of consumption for each individual, with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd^h(p)$ . Then we can define social welfare as the sum of individual utilities,
 
 $$
-\mathrm {W} (\mathrm {p}, \mathrm {I}) \equiv \sum_ {\mathrm {h} = 1} ^ {\mathrm {H}} \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} ^ {\mathrm {h}} (\mathrm {p}) + \mathrm {U} ^ {\mathrm {h}} [ \mathrm {d} ^ {\mathrm {h}} (\mathrm {p}) ], \tag {7.1}
+\mathrm{W} (\mathrm{p}, \mathrm{I}) \equiv \sum_{\mathrm{h} = 1}^{\mathrm{H}} \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d}^{\mathrm{h}} (\mathrm{p}) + \mathrm{U}^{\mathrm{h}} [ \mathrm{d}^{\mathrm{h}} (\mathrm{p}) ], \tag {7.1}
 $$
 
 where total income is  $\mathrm{I} = \sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{I}^{\mathrm{h}}$ . Notice that the sum over individuals of the last two terms on the right of (7.1) gives consumer surplus. By the envelope theorem, the derivative of (7.1) is the negative of total consumption,  $\partial \mathrm{W} / \partial \mathrm{p} = \sum_{\mathrm{h} = 1}^{\mathrm{H}} - \mathrm{d}^{\mathrm{h}}(\mathrm{p}) \equiv -\mathrm{d}(\mathrm{p})$ . Thus, we can use the social welfare function just like an indirect utility function for the economy as a whole.
@@ -4383,7 +4383,7 @@ Let us further simplify the analysis by supposing that there is only a single im
 Output of the good in question is denoted by the scalar  $y$ , which may be produced by competitive or imperfectly competitive firms. We suppose that the industry costs of producing the good are denoted by  $C(y)$ , with marginal costs  $C'(y)$ . Imports are denoted by the scalar  $m = d(p) - y$ , where  $d'(p) < 0$  from the assumption that  $U^h$  is strictly concave for all  $h$ . We assume that revenue raised from the tariff,  $tm$ , is redistributed back to consumers, who are also each entitled to profits from the import-competing industry, which are  $py - C(y)$ . It follows that social welfare is written as,
 
 $$
-\mathrm {W} [ \mathrm {p}, \mathrm {L} + \mathrm {t m} + \mathrm {p y} - \mathrm {C} (\mathrm {y}) ] \equiv \mathrm {W} (\mathrm {t}). \tag {7.2}
+\mathrm{W} [ \mathrm{p}, \mathrm{L} + \mathrm{tm} + \mathrm{py} - \mathrm{C} (\mathrm{y}) ] \equiv \mathrm{W} (\mathrm{t}). \tag {7.2}
 $$
 
 This general expression for social welfare holds under perfect or imperfect competition. In the former case, it is common to refer to profits [py - C(y)] as producer surplus, i.e. the return to fixed factors of production in the industry. In the latter case, we denote profits of the domestic industry by  $\pi = \mathrm{py} - \mathrm{C}(\mathrm{y})$ , and will need to specify how these depend on actions of foreign firms. We will be considering three cases: (i) perfect competition in the home and foreign industries; (ii) foreign monopoly, with no domestic import-competing firms; (iii) duopoly, with one home firm and one foreign firm engaged in either Cournot or Bertrand competition. A fourth case of monopolistic competition is discussed by Helpman (1990), and is not covered here. We begin with perfect competition, where we distinguish a small importing country, meaning that the world price  $p^*$  is fixed even as the tariff varies, and a large country, whose tariff affects the foreign price  $p^*$ .
@@ -4391,10 +4391,10 @@ This general expression for social welfare holds under perfect or imperfect comp
 In each case, we are interested in how social welfare in (7.2) varies with the tariff. To determine this, let us first derive a general expression for the change in welfare. Treating the price  $p$  and output  $y$  as depending on the tariff, we can totally differentiate (7.2) to obtain:
 
 $$
-\begin{array}{l} \frac {\mathrm {d W}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) \frac {\mathrm {d p}}{\mathrm {d t}} + \mathrm {m} + \left(\mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} + \mathrm {y}\right) \frac {\mathrm {d p}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}} \\ = \mathrm {m} \left(1 - \frac {\mathrm {d p}}{\mathrm {d t}}\right) + \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}} \tag {7.3} \\ = t \frac {d m}{d p} \frac {d p}{d t} - m \frac {d p ^ {*}}{d t} + [ p - C ^ {\prime} (y) ] \frac {d y}{d t}. \\ \end{array}
+\begin{array}{l} \frac{\mathrm{dW}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) \frac{\mathrm{dp}}{\mathrm{dt}} + \mathrm{m} + \left(\mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} + \mathrm{y}\right) \frac{\mathrm{dp}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}} \\ = \mathrm{m} \left(1 - \frac{\mathrm{dp}}{\mathrm{dt}}\right) + \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}} \tag {7.3} \\ = t \frac{d m}{d p} \frac{d p}{d t} - m \frac{d p^{*}}{d t} + [ p - C^{\prime} (y) ] \frac{d y}{d t}. \\ \end{array}
 $$
 
-The second line of (7.3) follows by noting that  $\mathrm{y - d(p) = m}$  and combining terms, while the third line follows because  $\mathbf{p} = \mathbf{p}^{*} + \mathbf{t}$ , so that  $[1-(\mathrm{dp/dt})] = -\mathrm{dp}^{*}/\mathrm{dt}$ .
+The second line of (7.3) follows by noting that  $\mathrm{y -d(p) =m}$  and combining terms, while the third line follows because  $\mathbf{p} = \mathbf{p}^{*} + \mathbf{t}$ , so that  $[1-(\mathrm{dp/dt})] = -\mathrm{dp}^{*}/\mathrm{dt}$ .
 
 We will be discussing each of the terms on the last line of (7.3) throughout this chapter, but note here the similarity between these terms and those derived in the previous chapter. The first term on the last line of (7.3) can be interpreted as the efficiency cost of the tariff, much like the term  $t^{1'}(m^1 - m^0)$  in chapter 6; the second term is the effect of the tariff on the foreign price  $p^*$ , or the terms of trade effect, like  $(p^{*0} - p^{*1})'m^0$  in chapter 6; and the third term reflects the change in industry output times the price-cost margin, like  $(p - \widetilde{p})'(y - y^a)$  in chapter 6. This third term reflects the fact that with imperfect competition there is a gap between the price or consumer valuation of a product, and the marginal costs to firms. This distortion due to monopolistic pricing creates an efficiency loss, and any increase in domestic output will therefore offset that loss and serve to raise welfare.
 
@@ -4403,19 +4403,19 @@ We will be discussing each of the terms on the last line of (7.3) throughout thi
 Holding  $\mathfrak{p}^*$  fixed, we already argued in the previous chapter that "free trade is better than restricted trade for a small country." In other words, the optimal tariff is zero. We now provide a more direct demonstration of this result, and also show how the welfare loss due to a tariff can be measured. Under perfect competition profits are maximized when  $\mathfrak{p} = \mathrm{C}'(\mathfrak{y})$ , so the final term in (7.3) is zero. When world prices are fixed and domestic prices given by  $\mathfrak{p} = \mathfrak{p}^* + \mathfrak{t}$ , then  $\mathrm{dp}^*/\mathrm{dt} = 0$  and  $\mathrm{dp}/\mathrm{dt} = 1$ . Using these various relations in (7.3), we readily obtain:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}}. \tag {7.4}
+\frac{\mathrm{dW}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}}. \tag {7.4}
 $$
 
 Evaluating this expression at a zero tariff, we have:
 
 $$
-\left. \frac {\mathrm {d W}}{\mathrm {d t}} \right| _ {\mathrm {t} = 0} = 0. \tag {7.4'}
+\left. \frac{\mathrm{dW}}{\mathrm{dt}} \right|_{\mathrm{t} = 0} = 0. \tag {7.4'}
 $$
 
 This proves that social welfare has a critical point at a zero tariff, but we still need to determine whether this is a maximum or not. Differentiating (7.4) and evaluating at  $t = 0$ ,
 
 $$
-\left. \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d t} ^ {2}} \right| _ {\mathrm {t} = 0} = \frac {\mathrm {d m}}{\mathrm {d p}} <   0, \tag {7.5}
+\left. \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{dt}^{2}} \right|_{\mathrm{t} = 0} = \frac{\mathrm{dm}}{\mathrm{dp}} <   0, \tag {7.5}
 $$
 
 where this sign is obtained because  $\mathrm{dm} / \mathrm{dp} = \mathrm{d}'(\mathrm{p}) - (1 / \mathrm{C}^{\prime \prime})$ , with  $\mathrm{d}'(\mathrm{p}) < 0$  from concavity of the utility functions and  $\mathrm{C}'' > 0$  from the second-order condition for profit maximization. This proves that the critical point at  $\mathfrak{t} = 0$  is a local maximum, and in fact, it is also a global maximum since with  $\mathrm{dm} / \mathrm{dp} < 0$  then  $\mathfrak{t} = 0$  is the only tariff at which (7.4) equals zero. Therefore, the optimal tariff for a small country is zero.
@@ -4423,13 +4423,13 @@ where this sign is obtained because  $\mathrm{dm} / \mathrm{dp} = \mathrm{d}'(\m
 It is relatively easy to obtain an expression for the loss in welfare from applying a tariff. To do so, let us take a second-order Taylor series approximation of welfare, around the free trade point,
 
 $$
-\mathrm {W} (t) \approx \mathrm {W} (0) + t \frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} \bigg | _ {t = 0} + \frac {1}{2} t ^ {2} \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d t} ^ {2}} \bigg | _ {t = 0}. \tag {7.6}
+\mathrm{W} (t) \approx \mathrm{W} (0) + t \frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} \bigg |_{t = 0} + \frac{1}{2} t^{2} \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{dt}^{2}} \bigg |_{t = 0}. \tag {7.6}
 $$
 
 Evaluating this using (7.4') and (7.5), we see that,
 
 $$
-\mathrm {W} (t) - \mathrm {W} (0) \approx \frac {1}{2} t ^ {2} \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d} t ^ {2}} \Bigg | _ {t = 0} = \frac {1}{2} t ^ {2} \frac {\mathrm {d m}}{\mathrm {d p}} = \frac {1}{2} \Delta \mathrm {p} \Delta \mathrm {m} <   0. \tag {7.7}
+\mathrm{W} (t) - \mathrm{W} (0) \approx \frac{1}{2} t^{2} \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{d} t^{2}} \Bigg |_{t = 0} = \frac{1}{2} t^{2} \frac{\mathrm{dm}}{\mathrm{dp}} = \frac{1}{2} \Delta \mathrm{p} \Delta \mathrm{m} <   0. \tag {7.7}
 $$
 
 The final expression in (7.7) is negative since the tariff reduces imports, so the welfare loss equals one-half times the increase in price times the change in imports. This loss is illustrated in Figure 7.1. In panel (a) we show the domestic demand curve D and supply curve S, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_0$  and supply at  $y_0$ , so imports are  $\mathrm{m}_0 = \mathrm{c}_0 - \mathrm{y}_0$ . This is shown in panel (b), which graphs the import demand curve  $\mathrm{M} = \mathrm{D} - \mathrm{S}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal export supply curve X, which intersects M at the equilibrium imports  $\mathrm{m}_0$ .
@@ -4455,7 +4455,7 @@ longer purchased (i.e.  $c_0 - c_1$ ), while the area (b) is interpreted as the 
 So we see that the deadweight loss of the tariff can be measured by a triangle under the import demand curve. Since both the height and the base of the triangle depend on the tariff, the area of the triangle itself is of the second-order of smalls for a small tariff, i.e. the deadweight loss in (7.7) depends on the square of the tariff. Notice that we can re-write (7.7) to measure the deadweight loss as a fraction of import expenditure:
 
 $$
-\frac {\mathrm {W} (\mathrm {t}) - \mathrm {W} (0)}{\mathrm {p m}} \approx \frac {1}{2} \left(\frac {\mathrm {t}}{\mathrm {p}}\right) ^ {2} \left(\frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {m}}\right). \tag {7.7'}
+\frac{\mathrm{W} (\mathrm{t}) - \mathrm{W} (0)}{\mathrm{pm}} \approx \frac{1}{2} \left(\frac{\mathrm{t}}{\mathrm{p}}\right)^{2} \left(\frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{m}}\right). \tag {7.7'}
 $$
 
 For example, with a  $10\%$  tariff and an import demand elasticity of 2, the deadweight loss relative to import expenditure will be  $1\%$ . As is typical for triangle calculations, we see that the deadweight loss is quite small for moderate tariffs. This fact has led many researchers to conclude that a formula like (7.7') does not capture the inefficiencies present in import substitution regimes. We will be investigating some reasons why the deadweight loss of trade restrictions may well be greater than (7.7'). This can occur if foreign firms anticipate the tariffs, as with antidumping duties (discussed later in this chapter), or if quotas are used instead of tariffs (discussed in the next chapter), or due to the effect of tariffs on decreasing the variety of import products available. This latter effect has been emphasized by Feenstra (1992) and Romer (1994). Both authors provide simple formulas to compute welfare losses due to a reduction in import varieties, and these are much greater than (7.7'). In addition, Feenstra (1988b) and Klenow and Rodríguez-Clare (1997) provide estimates of the welfare gain due to new import varieties, which can be substantial.
@@ -4467,7 +4467,7 @@ For a large country, we suppose that the world price of imports depends on the t
 The domestic price of the import good is  $p = p^* + t$ , so now  $dp^*/dt \neq 0$  and  $dp/dt \neq 1$ . We still have  $p = C'(y)$  under perfect competition, so (7.3) becomes,
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}} - \mathrm {m} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}}. \tag {7.8}
+\frac{\mathrm{dW}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}} - \mathrm{m} \frac{\mathrm{dp}^{*}}{\mathrm{dt}}. \tag {7.8}
 $$
 
 The first term is interpreted as the marginal deadweight loss from the tariff; and the second term is the terms of trade effect of the tariff, i.e. the reduction in the price of  $\mathfrak{p}^*$  times the amount of imports. The sign of  $\mathrm{dp}^{*} / \mathrm{dt}$  can be determined from Figure 7.2. In panel (a), we show the domestic demand curve D and supply curve S, which lead to the import demand curve M=D-S in panel (b). Also shown is the foreign supply curve X, which we assume is upward sloping. The initial equilibrium foreign and domestic price is  $\mathsf{p}_0^* = \mathsf{p}_0$ . The tariff shift up the export supply curve to  $\mathrm{X} + \mathrm{t}$ , which intersects import demand at the new domestic price  $\mathsf{p} = \mathsf{p}^* + \mathrm{t}$ . It is clear from the diagram that the increase in the domestic price from  $\mathsf{p}_0$  to  $\mathsf{p}^* + \mathrm{t}$  is less than the amount of the tariff t, which implies that the new foreign price  $\mathsf{p}^*$  is less than its initial value  $\mathsf{p}_0^*$ . This is a terms of trade gain for the importing country.
@@ -4475,7 +4475,7 @@ The first term is interpreted as the marginal deadweight loss from the tariff; a
 Using the result that  $\mathrm{dp}^{*} / \mathrm{dt} < 0$ , we obtain from (7.8),
 
 $$
-\left. \frac {\mathrm {d W}}{\mathrm {d t}} \right| _ {\mathrm {t} = 0} = - \mathrm {m} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} > 0, \tag {7.9}
+\left. \frac{\mathrm{dW}}{\mathrm{dt}} \right|_{\mathrm{t} = 0} = - \mathrm{m} \frac{\mathrm{dp}^{*}}{\mathrm{dt}} > 0, \tag {7.9}
 $$
 
 so that a small tariff will necessarily raise welfare. The change in welfare in Figure 7.2 is:
@@ -4493,7 +4493,7 @@ This does not apply to the terms of trade gain e, however, which depends on t ra
 The optimal tariff  $t^*$  is computed where (7.8) equals zero:
 
 $$
-\frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} = 0 \quad \Rightarrow \quad \frac {\mathrm {t} ^ {*}}{\mathrm {p} ^ {*}} = \left(\frac {\mathrm {d p} ^ {*} \mathrm {m}}{\mathrm {d t} \mathrm {p} ^ {*}}\right) / \left(\frac {\mathrm {d m} \mathrm {d p}}{\mathrm {d p} \mathrm {d t}}\right). \tag {7.10}
+\frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} = 0 \quad \Rightarrow \quad \frac{\mathrm{t}^{*}}{\mathrm{p}^{*}} = \left(\frac{\mathrm{dp}^{*} \mathrm{m}}{\mathrm{dt} \mathrm{p}^{*}}\right) / \left(\frac{\mathrm{dm} \mathrm{dp}}{\mathrm{dp} \mathrm{dt}}\right). \tag {7.10}
 $$
 
 To interpret this expression, we simplify it in two different ways:
@@ -4503,7 +4503,7 @@ To interpret this expression, we simplify it in two different ways:
 Substituting this into (7.10) we obtain,
 
 $$
-\frac {t ^ {*}}{p ^ {*}} = \left(\frac {d p ^ {*}}{d t} \frac {x}{p ^ {*}}\right) / \left(\frac {d x}{d t}\right) = 1 / \left(\frac {d x}{d p ^ {*}} \frac {p ^ {*}}{x}\right), \tag {7.11}
+\frac{t^{*}}{p^{*}} = \left(\frac{d p^{*}}{d t} \frac{x}{p^{*}}\right) / \left(\frac{d x}{d t}\right) = 1 / \left(\frac{d x}{d p^{*}} \frac{p^{*}}{x}\right), \tag {7.11}
 $$
 
 where the second term is obtained because  $\left(\frac{\mathrm{dx}}{\mathrm{dt}}\Bigg{/}\frac{\mathrm{dp}^*}{\mathrm{dt}}\right) = \frac{\mathrm{dx}}{\mathrm{dp}^*}$ , which is the slope of the foreign export supply curve. Thus, (7.11) states that the optimal percentage tariff,  $t^{*} / p^{*}$ , equals the inverse of the elasticity of foreign export supply.
@@ -4513,7 +4513,7 @@ This is a good formula for comparing the case of a small country, where the elas
 (2) An alternative way of writing (7.10) is to just rearrange terms, obtaining:
 
 $$
-\frac {t ^ {*}}{p} = \left(\frac {\mathrm {d m}}{\mathrm {d p}} \frac {p}{m}\right) ^ {- 1} \left(\frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} / \frac {\mathrm {d p}}{\mathrm {d t}}\right). \tag {7.12}
+\frac{t^{*}}{p} = \left(\frac{\mathrm{dm}}{\mathrm{dp}} \frac{p}{m}\right)^{- 1} \left(\frac{\mathrm{dp}^{*}}{\mathrm{dt}} / \frac{\mathrm{dp}}{\mathrm{dt}}\right). \tag {7.12}
 $$
 
 Now the optimal tariff equals the inverse of the elasticity of import demand supply, times the ratio of the change in the relative foreign and domestic price of imports. Since the import demand elasticity is negative, and presuming that  $\mathrm{dp} / \mathrm{dt} > 0$  (which we will confirm below), then the optimal tariff is positive provided that  $\mathrm{dp}^* / \mathrm{dt} < 0$ .
@@ -4529,27 +4529,27 @@ We turn now to the case of a single foreign exporter, selling into the home mark
 Let  $x$  denote the sales of the exporting firm into the home market, which equals home consumption, so  $x = d(p)$ . We will invert this expression and work with the inverse demand curve,  $p = p(x)$ , with  $p' < 0$ . The price received by the foreign exporter is  $p^* = p(x) - t$ , so that foreign profits are:
 
 $$
-\pi^ {*} (\mathrm {x}) = \mathrm {x} [ \mathrm {p} (\mathrm {x}) - \mathrm {t} ] - \mathrm {C} ^ {*} (\mathrm {x}), \tag {7.13}
+\pi^{*} (\mathrm{x}) = \mathrm{x} [ \mathrm{p} (\mathrm{x}) - \mathrm{t} ] - \mathrm{C}^{*} (\mathrm{x}), \tag {7.13}
 $$
 
 where  $\mathbf{C}^* (\mathbf{x})$  are foreign costs. Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is,
 
 $$
-\pi^ {* ^ {\prime}} (\mathrm {x}) = \mathrm {p} (\mathrm {x}) + \mathrm {x p} ^ {\prime} (\mathrm {x}) - [ \mathrm {C} ^ {* ^ {\prime}} (\mathrm {x}) + \mathrm {t} ] = 0. \tag {7.14}
+\pi^{*^{\prime}} (\mathrm{x}) = \mathrm{p} (\mathrm{x}) + \mathrm{xp}^{\prime} (\mathrm{x}) - [ \mathrm{C}^{*^{\prime}} (\mathrm{x}) + \mathrm{t} ] = 0. \tag {7.14}
 $$
 
-The term  $\mathrm{p(x) + xp'(x)}$  is just marginal revenue, while  $C^{*'}(x) + t$  is marginal costs inclusive of the tariff, and these are equalized to maximize profits.
+The term  $\mathrm{p(x) +xp'(x)}$  is just marginal revenue, while  $C^{*'}(x) + t$  is marginal costs inclusive of the tariff, and these are equalized to maximize profits.
 
 Totally differentiating (7.14) we obtain  $\pi^{*''}(\mathbf{x})\mathrm{d}\mathbf{x} - \mathrm{d}\mathbf{t} = 0$  , so that,
 
 $$
-\frac {\mathrm {d} x}{\mathrm {d} t} = \frac {1}{\pi^ {* ^ {\prime \prime}} (x)} <   0, \tag {7.15}
+\frac{\mathrm{d} x}{\mathrm{d} t} = \frac{1}{\pi^{*^{\prime \prime}} (x)} <   0, \tag {7.15}
 $$
 
 where the sign is obtained from the second-order condition for profit maximization. It follows that the change in the import price is,
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d t}} = \mathrm {p} ^ {\prime} (\mathrm {x}) \frac {\mathrm {d x}}{\mathrm {d t}} = \frac {\mathrm {p} ^ {\prime} (\mathrm {x})}{\pi^ {*} {} ^ {\prime \prime} (\mathrm {x})} > 0. \tag {7.16}
+\frac{\mathrm{dp}}{\mathrm{dt}} = \mathrm{p}^{\prime} (\mathrm{x}) \frac{\mathrm{dx}}{\mathrm{dt}} = \frac{\mathrm{p}^{\prime} (\mathrm{x})}{\pi^{*} {}^{\prime \prime} (\mathrm{x})} > 0. \tag {7.16}
 $$
 
 Not surprisingly, the tariff inclusive price  $p = p^* + t$  rises. We are interested in whether it rises less than the amount of the tariff, i.e. whether the pass-through of the tariff is less than complete. Notice that with  $p = p^* + t$ , then  $dp/dt < 1$  if and only if  $dp^*/dt < 0$ . Thus, "partial pass-through" of the tariff to domestic prices is equivalent to having the foreign firm absorb part of the tariff, which is a term of trade gain.
@@ -4557,31 +4557,31 @@ Not surprisingly, the tariff inclusive price  $p = p^* + t$  rises. We are inter
 Noting that the numerator and denominator of (7.16) are both negative, then  $\mathrm{dp} / \mathrm{dt} < 1$  if and only if,
 
 $$
-p ^ {\prime} (x) > \pi^ {* *} (x) = 2 p ^ {\prime} (x) + x p ^ {\prime \prime} (x) - C ^ {* \prime \prime} (x). \tag {7.17}
+p^{\prime} (x) > \pi^{* *} (x) = 2 p^{\prime} (x) + x p^{\prime \prime} (x) - C^{* \prime \prime} (x). \tag {7.17}
 $$
 
 The left side of (7.17) is the slope of the inverse demand curve, while the right side is interpreted as the slope of the marginal revenue curve,  $[2p'(x) + xp''(x)]$ , less the slope of marginal costs. Suppose that marginal costs are constant,  $C^{*} = 0$ . Then (7.17) will hold if and only if,
 
 $$
-p ^ {\prime} (x) + x p ^ {\prime \prime} (x) <   0, \tag {7.17'}
+p^{\prime} (x) + x p^{\prime \prime} (x) <   0, \tag {7.17'}
 $$
 
 which guarantees that marginal revenue is steeper than demand. This condition will hold for linear or concave demand curves, or for any demand curve that is not "too convex."
 
 To illustrate these results, in Figure 7.3 we show the initial equilibrium with the domestic and foreign price of  $p_0$ . With the increase in the marginal costs due to the tariff  $t$ , the import price rises to  $p_1$ . Provided that the marginal revenue is steeper than demand, we see this increase in price is less than  $t$ , so that the foreign price received by the exporters falls,  $p_1 - t < p_0$ . In that case,  $dp^{*} / dt < 0$  and then the optimal tariff from (7.8) is positive. The change in welfare is shown in Figure 7.3 by  $-(c + d)$  consumer surplus loss + (c+e) revenue gain = (e-d), which is positive if the tariff is sufficiently small.
 
-If marginal revenue is flatter than demand, however, then  $\mathrm{dp}^* / \mathrm{dt} > 0$  and the optimal policy is an import subsidy. We regard this as a relatively unusual case, but it is certainly possible. For example, if the elasticity of demand is constant, then since marginal revenue is  $\mathrm{mr(x) = p(x)[1 - (1 / \eta)]}$ , so we have that  $-\mathrm{mr}'(\mathrm{x}) = -\mathrm{p}'(\mathrm{x})[1 - (1 / \eta)] < -\mathrm{p}'(\mathrm{x})$ , and it follows that marginal revenue is flatter than demand.
+If marginal revenue is flatter than demand, however, then  $\mathrm{dp}^* / \mathrm{dt} > 0$  and the optimal policy is an import subsidy. We regard this as a relatively unusual case, but it is certainly possible. For example, if the elasticity of demand is constant, then since marginal revenue is  $\mathrm{mr(x) =p(x)[1 - (1 / \eta)]}$ , so we have that  $-\mathrm{mr}'(\mathrm{x}) = -\mathrm{p}'(\mathrm{x})[1 - (1 / \eta)] < -\mathrm{p}'(\mathrm{x})$ , and it follows that marginal revenue is flatter than demand.
 
 We next check whether an ad valorem tariff  $\tau$  leads to similar results. The net of tariff price received by the foreign exporters is now  $p^* = p(x) / (1 + \tau)$ , so that profits are:
 
 $$
-\pi^ {*} (\mathrm {x}) = \frac {\mathrm {x p} (\mathrm {x})}{(1 + \mathrm {t})} - \mathrm {C} ^ {*} (\mathrm {x}). \tag {7.18}
+\pi^{*} (\mathrm{x}) = \frac{\mathrm{xp} (\mathrm{x})}{(1 + \mathrm{t})} - \mathrm{C}^{*} (\mathrm{x}). \tag {7.18}
 $$
 
 Maximizing this over the choice of  $x$ , the first order condition is  $p + xp' = (1 + \tau)C^{*'}$ , which can be written as,
 
 $$
-p (x) \left(1 - \frac {1}{\eta}\right) = (1 + \tau) C ^ {* ^ {\prime}} (x), \tag {7.19}
+p (x) \left(1 - \frac{1}{\eta}\right) = (1 + \tau) C^{*^{\prime}} (x), \tag {7.19}
 $$
 
 using the elasticity  $\eta (\mathrm{x}) = (\mathrm{dx} / \mathrm{dp})(\mathrm{p} / \mathrm{x}) = \mathrm{p} / \mathrm{xp}'(\mathrm{x}).$
@@ -4594,13 +4594,13 @@ Figure 7.3
 determine the change in the foreign price  $\mathfrak{p}^*$  , rewrite (7.19) as,
 
 $$
-p ^ {*} = \frac {p (x)}{(1 + \tau)} = \left(\frac {\eta}{\eta - 1}\right) C ^ {* \prime} (x). \tag {7.19'}
+p^{*} = \frac{p (x)}{(1 + \tau)} = \left(\frac{\eta}{\eta - 1}\right) C^{* \prime} (x). \tag {7.19'}
 $$
 
 Consider the case where the exporter's marginal costs  $C^{*'}(x)$  are constant. Then differentiating (7.19'), we obtain,
 
 $$
-\frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} = \left[ \frac {\eta^ {\prime}}{\eta - 1} - \frac {\eta \eta^ {\prime}}{(\eta - 1) ^ {2}} \right] \frac {\mathrm {d x}}{\mathrm {d} \tau} C ^ {* \prime} = - \frac {\eta^ {\prime} (\mathrm {x})}{(\eta - 1) ^ {2}} \frac {\mathrm {d x}}{\mathrm {d} \tau} C ^ {* \prime}. \tag {7.20}
+\frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} = \left[ \frac{\eta^{\prime}}{\eta - 1} - \frac{\eta \eta^{\prime}}{(\eta - 1)^{2}} \right] \frac{\mathrm{dx}}{\mathrm{d} \tau} C^{* \prime} = - \frac{\eta^{\prime} (\mathrm{x})}{(\eta - 1)^{2}} \frac{\mathrm{dx}}{\mathrm{d} \tau} C^{* \prime}. \tag {7.20}
 $$
 
 Using the fact that  $\mathrm{dx} / \mathrm{d}\tau < 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  when  $\eta'(x) < 0$ , meaning that the elasticity of demand increases as consumption of the importable falls. In that case the tariff leads to a fall in the price-cost margin set by the foreign exporter, so that  $\mathfrak{p}^*$  falls, which is a terms of trade gains for the importer. Thus, we summarize our results with:
@@ -4621,21 +4621,21 @@ Let us now introduce a domestic firm that is competing with the foreign firm in 
 We let  $x$  denote the sales of the foreign exporter in the domestic market, and  $y$  denote the sales of the home firm, so total consumption is  $z = x + y$ . As before, we invert the demand curve  $z = d(p)$  to obtain inverse demand  $p = p(z)$ , with  $p' < 0$ . Profits of the foreign and home firms are then,
 
 $$
-\pi^ {*} = x [ p (z) - t ] - C ^ {*} (x), \tag {7.21a}
+\pi^{*} = x [ p (z) - t ] - C^{*} (x), \tag {7.21a}
 $$
 
 $$
-\pi = \mathrm {y p} (\mathrm {z}) - \mathrm {C} (\mathrm {y}), \tag {7.21b}
+\pi = \mathrm{yp} (\mathrm{z}) - \mathrm{C} (\mathrm{y}), \tag {7.21b}
 $$
 
 Maximizing these over the choice of  $x$  and  $y$ , respectively, the first order conditions are:
 
 $$
-\pi_ {\mathrm {x}} ^ {*} = \mathrm {p} (\mathrm {z}) + \mathrm {x p} ^ {\prime} (\mathrm {z}) - \left[ \mathrm {C} ^ {* \prime} (\mathrm {x}) + \mathrm {t} \right] = 0. \tag {7.22a}
+\pi_{\mathrm{x}}^{*} = \mathrm{p} (\mathrm{z}) + \mathrm{xp}^{\prime} (\mathrm{z}) - \left[ \mathrm{C}^{* \prime} (\mathrm{x}) + \mathrm{t} \right] = 0. \tag {7.22a}
 $$
 
 $$
-\pi_ {\mathrm {y}} = \mathrm {p} (\mathrm {z}) + \mathrm {y p} ^ {\prime} (\mathrm {z}) - \mathrm {C} ^ {\prime} (\mathrm {y}) = 0. \tag {7.22b}
+\pi_{\mathrm{y}} = \mathrm{p} (\mathrm{z}) + \mathrm{yp}^{\prime} (\mathrm{z}) - \mathrm{C}^{\prime} (\mathrm{y}) = 0. \tag {7.22b}
 $$
 
 The second-order conditions are  $\pi_{\mathrm{xx}}^{*} = 2\mathrm{p}^{\prime} + \mathrm{x}\mathrm{p}^{\prime \prime} - \mathrm{C}^{* \prime \prime} < 0$  and  $\pi_{\mathrm{yy}} = 2\mathrm{p}^{\prime} + \mathrm{y}\mathrm{p}^{\prime \prime} - \mathrm{C}^{\prime \prime} < 0$ . In addition, we assume that the stability condition  $\pi_{\mathrm{xx}}^{*}\pi_{\mathrm{yy}} - \pi_{\mathrm{xy}}^{*}\pi_{\mathrm{yx}} > 0$  holds.
@@ -4647,19 +4647,19 @@ as a function of foreign sales  $x$ , written as a reaction curve  $y = r(x)$ . 
 With the tariff, the foreign firm will reduce the amount it wishes to export (from (7.22b),  $\mathrm{dx} / \mathrm{dt} = 1 / \pi_{\mathrm{xx}}^{*} < 0$ ), and its reaction curve shifts down to  $\mathbf{R}'\mathbf{R}'$ , as shown in Figure 7.5. The equilibrium therefore shifts from point C to point D, involving reduced sales of export sales x but increased domestic sales y, together with increased home profits. To determine the effect on the domestic prices we need to calculate the impact on total sales  $z = x + y$ , and then on p(z). To determine this, it is convenient to sum the first-order conditions, obtaining,
 
 $$
-2 p (z) + z p ^ {\prime} (z) = C ^ {\prime} (y) + \left[ C ^ {* ^ {\prime}} (x) + t \right]. \tag {7.23}
+2 p (z) + z p^{\prime} (z) = C^{\prime} (y) + \left[ C^{*^{\prime}} (x) + t \right]. \tag {7.23}
 $$
 
 Suppose that domestic and foreign marginal costs are both constant. Then we can totally differentiate (7.23) to obtain:
 
 $$
-\frac {\mathrm {d} z}{\mathrm {d} t} = \frac {1}{[ 3 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) ]}, \tag {7.24a}
+\frac{\mathrm{d} z}{\mathrm{d} t} = \frac{1}{[ 3 p^{\prime} (z) + z p^{\prime \prime} (z) ]}, \tag {7.24a}
 $$
 
 and,
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d t}} = \frac {\mathrm {p} ^ {\prime} (\mathrm {z})}{[ 3 \mathrm {p} ^ {\prime} (\mathrm {z}) + \mathrm {z p} ^ {\prime \prime} (\mathrm {z}) ]}. \tag {7.24b}
+\frac{\mathrm{dp}}{\mathrm{dt}} = \frac{\mathrm{p}^{\prime} (\mathrm{z})}{[ 3 \mathrm{p}^{\prime} (\mathrm{z}) + \mathrm{zp}^{\prime \prime} (\mathrm{z}) ]}. \tag {7.24b}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/b5e315da4406d8725d188e781d5dc7a95f4c48db7bfeb9a4ca777f57de83ad43.jpg)
@@ -4671,7 +4671,7 @@ Figure 7.5
 From (7.24a) we see that imports fall due to the tariff if  $3\mathrm{p}'(\mathrm{z}) + \mathrm{zp}''(\mathrm{z}) < 0$ . In that case the numerator and denominator of (7.24b) are both negative, so that  $\mathrm{dp/dt} < 1$  if,
 
 $$
-p ^ {\prime} (z) > 3 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) \Leftrightarrow 2 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) <   0. \tag {7.25}
+p^{\prime} (z) > 3 p^{\prime} (z) + z p^{\prime \prime} (z) \Leftrightarrow 2 p^{\prime} (z) + z p^{\prime \prime} (z) <   0. \tag {7.25}
 $$
 
 The condition on the right of (7.25) states that marginal revenue for the market as a whole, which is  $\mathfrak{p}(\mathbf{z}) + \mathbf{z}\mathbf{p}'(\mathbf{z})$ , slopes down. This is a significantly weaker condition than (7.17'), which involved a comparison of the slopes of marginal revenue and demand; now, we only need to check the slope of marginal revenue, and most demand curves will satisfy (7.25). This includes the constant elasticity curve, for which  $\mathrm{mr}'(\mathrm{z}) = \mathrm{p}'(\mathrm{z})[1 - (1 / \eta)] < 0$ . When (7.25) is satisfied, then  $\mathrm{dz/dt} < 0$  in (7.24) and  $\mathrm{dp/dt} < 1$  in (7.24a), so there is a beneficial terms of trade impact  $(\mathrm{dp}^*/\mathrm{dt} < 0)$  for the importing country.
@@ -4679,7 +4679,7 @@ The condition on the right of (7.25) states that marginal revenue for the market
 Checking social welfare, we again use the general change in social welfare in (7.3), rewritten here using foreign exports (x) rather than home imports (m):
 
 $$
-\frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d x}}{\mathrm {d t}} - \mathrm {x} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}}, \tag {7.3'}
+\frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dx}}{\mathrm{dt}} - \mathrm{x} \frac{\mathrm{dp}^{*}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}}, \tag {7.3'}
 $$
 
 where the final term reflects the change in domestic output from equilibrium point C to point D. The first term on the right of (7.3) vanishes for small tariffs, and the second term is positive when (7.25) holds, so that a positive tariff improves the terms of trade. For the third term, in the typical case where both reaction curves are downward sloping, with the home curve cutting the foreign curve from above as shown in Figure 7.5, then we will have  $\mathrm{dy} / \mathrm{dt} > 0$ : the tariff will lead to an increase in domestic output, which brings an additional terms of trade gain. In this case, the optimal tariff is unambiguously positive.
@@ -4690,10 +4690,10 @@ The idea that imperfect competition might justify the "strategic" use of trade p
 
 In addition, Horstmann and Markusen (1986) argue the “profit shifting” motive for the tariff disappears if there is free entry into the domestic industry with Cournot competition. That is, suppose we allow free entry of home firms. Then the tariff, which would cause an incipient
 
-rise in profits, leads to the entry of domestic firms until profits are returned to zero. Domestic welfare is written in this case as,  $\mathrm{W[p,L + tm + N(py - C(y))]}$ , where  $\mathbf{N}$  is the number of domestic firms, but with profits equal to zero this becomes  $\mathrm{W(p,L + tm)}$ . Differentiating this with respect to the tariff  $t$ , we obtain the total change in utility:
+rise in profits, leads to the entry of domestic firms until profits are returned to zero. Domestic welfare is written in this case as,  $\mathrm{W[p,L +tm +N(py -C(y))]}$ , where  $\mathbf{N}$  is the number of domestic firms, but with profits equal to zero this becomes  $\mathrm{W(p,L +tm)}$ . Differentiating this with respect to the tariff  $t$ , we obtain the total change in utility:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) \frac {\mathrm {d p}}{\mathrm {d t}} + \mathrm {m} + \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}}. \tag {7.26}
+\frac{\mathrm{dW}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) \frac{\mathrm{dp}}{\mathrm{dt}} + \mathrm{m} + \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}}. \tag {7.26}
 $$
 
 This very simple expression is the alternative to (7.3) when profits are identically zero. For small tariffs, the final term vanishes, so the change in welfare depends on a comparison of the first two terms. It is immediate that welfare of the importing country increases for a small tariff if and only if  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . The interpretation of this condition is that the pass-through of the tariff to domestic prices must be less than the import share  $\mathrm{m} / \mathrm{d}(\mathrm{p})$ . Thus, having a terms of trade gain due to the tariff (meaning that  $\mathrm{dp} / \mathrm{dt} < 1$ ) is no longer sufficient to obtain a welfare improvement; instead, we must have  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . We will be reviewing estimates of the pass-through later in the chapter, and it is not unusual to find that  $50 - 75\%$  of a tariff is reflected in the import price. Under Cournot competition and free entry, this would be welfare improving (due to tariff revenue raised) only in an industry where the import share exceeds this magnitude.
@@ -4707,21 +4707,21 @@ Let us momentarily depart from our assumption at the beginning of this chapter t
 With an ad valorem tariff of  $\tau$  on imports, their domestic price is  $p = p^{*}(1 + \tau)$ . So profits of the foreign and home firms are:
 
 $$
-\pi^ {*} = \frac {\mathrm {p d} ^ {*} (\mathrm {p} , \mathrm {q} , \mathrm {I})}{(1 + \tau)} - \mathrm {C} ^ {*} [ \mathrm {d} ^ {*} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ]. \tag {7.27a}
+\pi^{*} = \frac{\mathrm{pd}^{*} (\mathrm{p} , \mathrm{q} , \mathrm{I})}{(1 + \tau)} - \mathrm{C}^{*} [ \mathrm{d}^{*} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ]. \tag {7.27a}
 $$
 
 $$
-\pi = \operatorname {q d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) - \mathrm {C} [ \mathrm {d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ], \tag {7.27b}
+\pi = \operatorname{qd} (\mathrm{p}, \mathrm{q}, \mathrm{I}) - \mathrm{C} [ \mathrm{d} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ], \tag {7.27b}
 $$
 
 Maximizing these over the choice of  $p$  and  $q$ , respectively, treating total expenditure  $I$  as fixed, the first-order conditions  $\pi_{p}^{*} = \pi_{q} = 0$  can be simplified as:
 
 $$
-p \left(1 - \frac {1}{\eta^ {*}}\right) = (1 + \tau) C ^ {*} [ d ^ {*} (p, q, I) ], \tag {7.28a}
+p \left(1 - \frac{1}{\eta^{*}}\right) = (1 + \tau) C^{*} [ d^{*} (p, q, I) ], \tag {7.28a}
 $$
 
 $$
-\mathrm {q} \left(1 - \frac {1}{\eta}\right) = \mathrm {C} ^ {\prime} [ \mathrm {d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ], \tag {7.28b}
+\mathrm{q} \left(1 - \frac{1}{\eta}\right) = \mathrm{C}^{\prime} [ \mathrm{d} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ], \tag {7.28b}
 $$
 
 where  $\eta^{*}\equiv -(\partial d^{*}(p,q,I) / \partial p)(p / d^{*})$  and  $\eta \equiv -(\partial d(p,q,I) / \partial q)(q / d)$  are the (positive)
@@ -4735,7 +4735,7 @@ Given the domestic price  $q$ , income  $I$  and the tariff, we can use (7.28a) 
 The assumption that we used earlier to ensure that the ad valorem tariff led to a fall in the import price  $p^*$ , or a terms of trade gain, was that the elasticity of demand was decreasing in quantity. Since we are now thinking of the elasticities as function of relative prices, the analogous assumption would be  $\eta^{*'}(p/q) > 0$  and  $\eta'(q/p) > 0$ ; that is, elasticities increase as the relative price of that good rises. Treating foreign and domestic marginal costs as constant in (7.29), this assumption will ensure that both reaction curves  $p = r^*(q, \tau)$  and  $q = r(p)$  slope upwards, as shown in Figure 7.6. As the relative price of the competing good rises, the elasticity falls, and each firm will charge a higher price for their own good. Furthermore, there is a dampened response of each price to that of the competing good, so that  $\frac{dp}{dq} \frac{q}{p} = r_q^*(q, \tau) \frac{q}{p} < 1$ ,
 
 $$
-\text {a n d} \frac {\mathrm {d q}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {q}} = \mathrm {r} _ {\mathrm {p}} (\mathrm {p}) \frac {\mathrm {p}}{\mathrm {q}} <   1.
+\text{an d} \frac{\mathrm{dq}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{q}} = \mathrm{r}_{\mathrm{p}} (\mathrm{p}) \frac{\mathrm{p}}{\mathrm{q}} <   1.
 $$
 
 Suppose that the ad valorem tariff  $\tau$  increases. From the second-order conditions for profit maximization, we will have an increase in the tariff-inclusive import price  $p$ , from (7.30a). In Figure 7.7, the foreign reaction curve shifts rightward to  $\mathbf{R}'\mathbf{R}'$ . This leads to an induced increase in the domestic price  $q$ , and a further increase in the import price  $p$ , until the new equilibrium is reached at point D. We are interested in whether the percentage increase in  $p$  is less than the amount of the tariff, that is,  $(\mathrm{dp} / \mathrm{d}\tau)(1 + \tau) / p < 1$ , which will ensure that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  so that there is a term of trade gain. It turns out that the assumptions we have already made, that  $\eta^{*'}(p / q) > 0$  and  $\eta'(q / p) > 0$ , are enough to guarantee this outcome. These conditions are analogous to what we used above to ensure that the ad valorem tariff on a foreign monopolist led to a fall in the import price  $p^*$ , or a term of trade gain. Thus, whether there is a single foreign firm, or a duopoly in the import market, the key condition to ensure a term of trade gain is that the elasticity of demand is increasing in price or decreasing in quantity. This condition holds for any demand curve that is "less convex" than a constant-elasticity demand curve.
@@ -4743,7 +4743,7 @@ Suppose that the ad valorem tariff  $\tau$  increases. From the second-order con
 To demonstrate the effect of the tariff on  $\mathfrak{p}^*$ , write the import price net of the tariff as  $\mathfrak{p}^* = \mathfrak{p} / (1 + \tau)$ . From (7.28a) this equals,
 
 $$
-p ^ {*} \left(1 - \frac {1}{\eta^ {*}}\right) = C ^ {* ^ {\prime}}. \tag {7.29}
+p^{*} \left(1 - \frac{1}{\eta^{*}}\right) = C^{*^{\prime}}. \tag {7.29}
 $$
 
 Totally differentiate this holding marginal cost constant, to obtain:
@@ -4755,15 +4755,15 @@ Figure 7.6
 Figure 7.7
 
 $$
-\frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} \left(1 - \frac {1}{\eta^ {*}}\right) + \left(\frac {\eta^ {* ^ {\prime}}}{\eta^ {* ^ {2}}}\right) \frac {\mathrm {d} (\mathrm {p} / \mathrm {q})}{\mathrm {d} \tau} = 0 \Rightarrow \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} = - \left[ \frac {\eta^ {* ^ {\prime}}}{\eta^ {*} (\eta^ {*} - 1)} \right] \frac {\mathrm {d} (\mathrm {p} / \mathrm {q})}{\mathrm {d} \tau}. \tag {7.30}
+\frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} \left(1 - \frac{1}{\eta^{*}}\right) + \left(\frac{\eta^{*^{\prime}}}{\eta^{*^{2}}}\right) \frac{\mathrm{d} (\mathrm{p} / \mathrm{q})}{\mathrm{d} \tau} = 0 \Rightarrow \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} = - \left[ \frac{\eta^{*^{\prime}}}{\eta^{*} (\eta^{*} - 1)} \right] \frac{\mathrm{d} (\mathrm{p} / \mathrm{q})}{\mathrm{d} \tau}. \tag {7.30}
 $$
 
-Since we have assumed that  $\eta^{*} > 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  provided that  $\mathrm{d(p/q) / d\tau} > 0$ , that is, provided that the tariff leads to a higher increase in the price of the importable than the domestic good. But this condition is easily confirmed from Figure 7.7. With a rightward shift of the foreign reaction curve, and a dampened response of the domestic price  $q$ , the new equilibrium given by point D will lie below a ray from the origin going through the initial equilibrium given by point B. In other words, the relative price of the importable  $(p/q)$  must rise, and it follows from (7.30) that the net-of-tariff foreign price falls, which is a terms of trade gain for the importer.
+Since we have assumed that  $\eta^{*} > 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  provided that  $\mathrm{d(p/q) /d\tau} > 0$ , that is, provided that the tariff leads to a higher increase in the price of the importable than the domestic good. But this condition is easily confirmed from Figure 7.7. With a rightward shift of the foreign reaction curve, and a dampened response of the domestic price  $q$ , the new equilibrium given by point D will lie below a ray from the origin going through the initial equilibrium given by point B. In other words, the relative price of the importable  $(p/q)$  must rise, and it follows from (7.30) that the net-of-tariff foreign price falls, which is a terms of trade gain for the importer.
 
-To calculate the change in social welfare under Bertrand duopoly, we re-write the social welfare function as  $\mathrm{W[p,q,L + \tau p^*x + qy - C(y)]}$ , including both the import price  $p = p^{*}(1 + \tau)$  and domestic price  $q$ . Totally differentiating this, and using similar steps as in (7.3), we find that the welfare change due to the change in the ad valorem tariff is:
+To calculate the change in social welfare under Bertrand duopoly, we re-write the social welfare function as  $\mathrm{W[p,q,L + \taup^*x +qy -C(y)]}$ , including both the import price  $p = p^{*}(1 + \tau)$  and domestic price  $q$ . Totally differentiating this, and using similar steps as in (7.3), we find that the welfare change due to the change in the ad valorem tariff is:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d} \tau} = \tau \mathrm {p} ^ {*} \frac {\mathrm {d x}}{\mathrm {d} \tau} - \mathrm {x} \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} + [ \mathrm {q} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d} \tau}. \tag {7.31}
+\frac{\mathrm{dW}}{\mathrm{d} \tau} = \tau \mathrm{p}^{*} \frac{\mathrm{dx}}{\mathrm{d} \tau} - \mathrm{x} \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} + [ \mathrm{q} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{d} \tau}. \tag {7.31}
 $$
 
 The first term on the right of (7.31) vanishes for small tariffs, and the second term is positive when  $\eta^{*'}(\mathrm{p/q}) > 0$  and  $\eta'(\mathrm{q/p}) > 0$ , so there is a terms of trade gain. The third term in (7.31) depends on the change in equilibrium output from point B to point D, and is of ambiguous sign in general: the increase in prices from point B to point D reduces demand, while the fall in  $(\mathrm{p/q})$  shifts demand towards the domestic good, so the effect on domestic output depends on the
@@ -4797,31 +4797,31 @@ than complete, and averages about 0.6 (Goldberg and Knetter, 1997, p. 1250), tho
 To obtained an estimating equation, let us begin with the first-order condition of a typical foreign exporter, in (7.28a), where we treat foreign marginal costs  $C^*$  as constant, and re-write this as  $c^*$ , in the foreign currency. We need to convert this to the domestic currency using an expected exchange rate  $e$ , so we re-write (7.28a) as:
 
 $$
-p \left(1 - \frac {1}{\eta^ {*}}\right) = (1 + \tau) e c ^ {*}. \tag {7.32}
+p \left(1 - \frac{1}{\eta^{*}}\right) = (1 + \tau) e c^{*}. \tag {7.32}
 $$
 
-Using the assumption that the income elasticity of demand is unity, we express the elasticity of import demand,  $\eta^{*}(\mathrm{p / q})$ , as a function of the import/domestic price ratio. More generally,  $\eta^{*}(\mathrm{p,q,I})$  will depend on consumer income, too, but is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathbf{I})$ . So treating the domestic price, income, tariff rate, exchange rate and foreign marginal cost as parameters, (7.32) is one equation in one unknown – the import price  $p$ . We can therefore solve for the import prices as a function of the parameters,
+Using the assumption that the income elasticity of demand is unity, we express the elasticity of import demand,  $\eta^{*}(\mathrm{p /q})$ , as a function of the import/domestic price ratio. More generally,  $\eta^{*}(\mathrm{p,q,I})$  will depend on consumer income, too, but is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathbf{I})$ . So treating the domestic price, income, tariff rate, exchange rate and foreign marginal cost as parameters, (7.32) is one equation in one unknown – the import price  $p$ . We can therefore solve for the import prices as a function of the parameters,
 
 $$
-p = \phi [ (1 + \tau) e c ^ {*}, q, I ]. \tag {7.33}
+p = \phi [ (1 + \tau) e c^{*}, q, I ]. \tag {7.33}
 $$
 
 With  $\eta^{*}(\mathfrak{p},\mathfrak{q},\mathrm{I})$  homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathrm{I})$ , it is readily verified that  $\phi[(1+\tau)\mathrm{ec}^*,\mathfrak{q},\mathrm{I}]$  is homogeneous of degree one in its arguments. This is our first testable hypothesis, which checks the overall specification of the pricing equation. Second, notice that we have written the tariff, exchange rate and marginal costs as multiplied together in the arguments of  $\phi[(1+\tau)\mathrm{ec}^*,\mathfrak{q},\mathrm{I}]$ , because that is how they appear in the first-order condition (7.32). This is another testable hypothesis. To implement both these tests, let us specify (7.33) as a log-linear function of its arguments, which are indexed by time  $t$ :
 
 $$
-\ln p _ {t} = \alpha_ {t} + \sum_ {i = 0} ^ {L} \beta_ {i} \ln \left(c _ {t} ^ {*} s _ {t - i}\right) + \beta \ln \left(1 + \tau_ {t}\right) + \sum_ {j = 1} ^ {M} \gamma_ {j} \ln q _ {j t} + \delta \ln I _ {t} + \varepsilon_ {t}. \tag {7.34}
+\ln p_{t} = \alpha_{t} + \sum_{i = 0}^{L} \beta_{i} \ln \left(c_{t}^{*} s_{t - i}\right) + \beta \ln \left(1 + \tau_{t}\right) + \sum_{j = 1}^{M} \gamma_{j} \ln q_{j t} + \delta \ln I_{t} + \varepsilon_{t}. \tag {7.34}
 $$
 
 The first term on the right of (7.34),  $\alpha_{t}$ , is a simple quadratic function of time, which will allow import price to change in a smooth fashion for reasons not specified elsewhere in the equation. To obtain the second term, we specify that the expected exchange rate  $e_t$  is a weighted average of lagged spot rates,  $s_{t-i}$ ,  $i = 0,1,\ldots,L$  (in $/yen). This allows us to write  $\ln(c_t^* s_{t-i})$  as having the coefficients  $\beta_i$ ,  $i = 0,1,\ldots,L$ , the sum of which will indicate the total pass-through of the exchange rate to import prices. Next, we write the ad valorem tariff  $\ln(1 + \tau_t)$  as having the coefficient  $\beta$ , which is the pass-through of the tariff. The hypothesis of symmetric pass-through of the tariff and exchange rate is therefore tested as:
 
 $$
-\sum_ {i = 0} ^ {L} \beta_ {i} = \beta . \tag {7.35a}
+\sum_{i = 0}^{L} \beta_{i} = \beta . \tag {7.35a}
 $$
 
-The next terms appearing on the right of (7.34) are the price of domestic or rival import products,  $j = 1, \dots, M$ . For Japanese imports, this would include the average price of U.S. products, as well as German imported cars or motorcycles. Finally, total consumer expenditure on the broad category of transportation equipment is included as a measure of "income." Notice that if the income elasticity of demand is unity, then the foreign elasticity  $\eta^{*}(\mathrm{p / q})$  does not depend on I, and neither will the optimal price  $p_t$  in (7.34), so  $\delta = 0$ . In any case, the hypothesis that the whole equation is homogeneous of degree one can be tested by:
+The next terms appearing on the right of (7.34) are the price of domestic or rival import products,  $j = 1, \dots, M$ . For Japanese imports, this would include the average price of U.S. products, as well as German imported cars or motorcycles. Finally, total consumer expenditure on the broad category of transportation equipment is included as a measure of "income." Notice that if the income elasticity of demand is unity, then the foreign elasticity  $\eta^{*}(\mathrm{p /q})$  does not depend on I, and neither will the optimal price  $p_t$  in (7.34), so  $\delta = 0$ . In any case, the hypothesis that the whole equation is homogeneous of degree one can be tested by:
 
 $$
-\sum_ {\mathrm {i} = 0} ^ {\mathrm {L}} \beta_ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \gamma_ {\mathrm {j}} + \delta = 1 \tag {7.35b}
+\sum_{\mathrm{i} = 0}^{\mathrm{L}} \beta_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \gamma_{\mathrm{j}} + \delta = 1 \tag {7.35b}
 $$
 
 The results of estimating (7.34) using quarterly data for U.S. imports are shown in Table 7.2. The first row indicates the sample period of quarterly data used for each product. There are two distinct samples used for heavyweight motorcycles. The first sample consists of interview data reported by the United States ITC (1983, Table 8 and 1983-84). The advantage of this data is that it gives the unit-value of imports for consumption, inclusive of duty, for the major Japanese importers (Honda, Suzuki and Yamaha). However, the disadvantage is that the data end in 1984:4 and include a small amount of German heavyweight motorcycles within the reported unit-value. A second source was collected at the border by the U.S. Dept of Commerce giving the unit-value of imports shipments, distinguishing Japanese and German heavyweight cycles up to 1987:1. $^{14}$  We experiment with both data sources, and also the pooled sample.
@@ -4881,23 +4881,23 @@ From this setup, it is apparent that if we had an equilibrium where the c.i.f. p
 To answer this, denote the marginal cost of producing in either country by  $c$ . The fixed costs of production are  $\alpha$ . A firm located in country  $i$  and selling to country  $j$  will face "iceberg" transport costs, so the marginal cost of delivering one unit abroad is  $cT$ . The home firms solve the profit maximization problem:
 
 $$
-\max  _ {\mathrm {y} _ {\mathrm {i}}, \mathrm {y} _ {\mathrm {i}} ^ {*}} \pi = [ \mathrm {p} (\mathrm {z}) - \mathrm {c} ] \mathrm {y} _ {\mathrm {i}} + [ \mathrm {p} ^ {*} (\mathrm {z} ^ {*}) - \mathrm {c T} ] \mathrm {y} _ {\mathrm {i}} ^ {*} - \alpha , \tag {7.36}
+\max_{\mathrm{y}_{\mathrm{i}}, \mathrm{y}_{\mathrm{i}}^{*}} \pi = [ \mathrm{p} (\mathrm{z}) - \mathrm{c} ] \mathrm{y}_{\mathrm{i}} + [ \mathrm{p}^{*} (\mathrm{z}^{*}) - \mathrm{cT} ] \mathrm{y}_{\mathrm{i}}^{*} - \alpha , \tag {7.36}
 $$
 
 with the first-order conditions,
 
 $$
-\pi_ {\mathrm {y} _ {\mathrm {i}}} = \mathrm {p} (\mathrm {z}) + \mathrm {y} _ {\mathrm {i}} \mathrm {p} ^ {\prime} (\mathrm {z}) - \mathrm {c} = 0, \tag {7.37a}
+\pi_{\mathrm{y}_{\mathrm{i}}} = \mathrm{p} (\mathrm{z}) + \mathrm{y}_{\mathrm{i}} \mathrm{p}^{\prime} (\mathrm{z}) - \mathrm{c} = 0, \tag {7.37a}
 $$
 
 $$
-\pi_ {y _ {i} ^ {*}} = p ^ {*} (z ^ {*}) + y _ {i} ^ {*} p ^ {* \prime} (z ^ {*}) - c T = 0. \tag {7.37b}
+\pi_{y_{i}^{*}} = p^{*} (z^{*}) + y_{i}^{*} p^{* \prime} (z^{*}) - c T = 0. \tag {7.37b}
 $$
 
 Divide these conditions by  $p'(z)z$  and  $p^*(z^*)z^*$ , respectively, and impose the symmetry condition that every home firm is selling the same amount in each of the home and foreign markets, so  $y_i = y$  and  $y_i^* = y^*$ . Then the first-order conditions are written as:
 
 $$
-p \left(1 - \frac {\left(\mathrm {y} / \mathrm {z}\right)}{\eta}\right) = c, \quad p ^ {*} \left(1 - \frac {\left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right)}{\eta^ {*}}\right) = c \mathrm {T}, \tag {7.38}
+p \left(1 - \frac{\left(\mathrm{y} / \mathrm{z}\right)}{\eta}\right) = c, \quad p^{*} \left(1 - \frac{\left(\mathrm{y}^{*} / \mathrm{z}^{*}\right)}{\eta^{*}}\right) = c \mathrm{T}, \tag {7.38}
 $$
 
 where  $\eta = z / p'(z)p$  and  $\eta^{*} = z^{*} / p^{*}(z^{*})p^{*}$  are the home and foreign demand elasticities.
@@ -4905,7 +4905,7 @@ where  $\eta = z / p'(z)p$  and  $\eta^{*} = z^{*} / p^{*}(z^{*})p^{*}$  are the
 In a similar manner, we can derive the first-order conditions for the foreign firms,
 
 $$
-p ^ {*} \left(1 - \frac {\left(x ^ {*} / z ^ {*}\right)}{\eta^ {*}}\right) = c, p \left(1 - \frac {(x / z)}{\eta}\right) = c T \tag {7.39}
+p^{*} \left(1 - \frac{\left(x^{*} / z^{*}\right)}{\eta^{*}}\right) = c, p \left(1 - \frac{(x / z)}{\eta}\right) = c T \tag {7.39}
 $$
 
 where each of these firms is selling  $\mathbf{x}^*$  in its own market and  $\mathbf{x}$  in the home market.
@@ -4913,33 +4913,33 @@ where each of these firms is selling  $\mathbf{x}^*$  in its own market and  $\m
 By adding up the market shares of all firms selling in each country, we must obtain:
 
 $$
-\begin{array}{l} N (y / z) + N ^ {*} (x / z) = 1, \\ \mathrm {N} \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right) + \mathrm {N} ^ {*} \left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right) = 1. \tag {7.40} \\ \end{array}
+\begin{array}{l} N (y / z) + N^{*} (x / z) = 1, \\ \mathrm{N} \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right) + \mathrm{N}^{*} \left(\mathrm{x}^{*} / \mathrm{z}^{*}\right) = 1. \tag {7.40} \\ \end{array}
 $$
 
 Notice that we can write this simple system in matrix notation as:
 
 $$
-\left(\mathrm {N}, \mathrm {N} ^ {*}\right) \left[ \begin{array}{l l} (\mathrm {y} / \mathrm {z}) & \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right) \\ (\mathrm {x} / \mathrm {z}) & \left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right) \end{array} \right] = (1, 1), \tag {7.40'}
+\left(\mathrm{N}, \mathrm{N}^{*}\right) \left[ \begin{array}{l l} (\mathrm{y} / \mathrm{z}) & \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right) \\ (\mathrm{x} / \mathrm{z}) & \left(\mathrm{x}^{*} / \mathrm{z}^{*}\right) \end{array} \right] = (1, 1), \tag {7.40'}
 $$
 
 which can be inverted to solve for the number of firms in each country:
 
 $$
-\begin{array}{l} \left. \right.\left.\left(\mathrm {N}, \mathrm {N} ^ {*}\right) = \frac {(1 , 1)}{\mathrm {D}} \left[\begin{array}{l l}\left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right)&- \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right)\\- (\dots)&- (\dots)\end{array}\right] \Rightarrow \right. \quad \mathrm {N} = \frac {1}{\mathrm {D}} \left(\frac {\mathrm {x} ^ {*}}{\mathrm {z} ^ {*}} - \frac {\mathrm {x}}{\mathrm {z}}\right), \tag {7.41} \\ \mathbf {N} ^ {*} = \frac {1}{\mathbf {D}} \left(\frac {\mathbf {y}}{\mathbf {z}} - \frac {\mathbf {y} ^ {*}}{\mathbf {z} ^ {*}}\right), \\ \end{array}
+\begin{array}{l} \left. \right.\left.\left(\mathrm{N}, \mathrm{N}^{*}\right) = \frac{(1 , 1)}{\mathrm{D}} \left[\begin{array}{l l}\left(\mathrm{x}^{*} / \mathrm{z}^{*}\right)&- \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right)\\- (\dots)&- (\dots)\end{array}\right] \Rightarrow \right. \quad \mathrm{N} = \frac{1}{\mathrm{D}} \left(\frac{\mathrm{x}^{*}}{\mathrm{z}^{*}} - \frac{\mathrm{x}}{\mathrm{z}}\right), \tag {7.41} \\ \mathbf {N}^{*} = \frac{1}{\mathbf {D}} \left(\frac{\mathbf {y}}{\mathbf {z}} - \frac{\mathbf {y}^{*}}{\mathbf {z}^{*}}\right), \\ \end{array}
 $$
 
 where  $D$  is the determinant of the  $2 \times 2$  matrix of market shares shown in (7.40'). From the first-order conditions (7.38) and (7.39) it is clear that  $(y / z) > (x / z)$  and  $(x^{*} / z^{*}) > (y^{*} / z^{*})$ , so that local
 
 sales in each county exceed imports (due to the assumption of equal marginal costs but positive transport costs). This ensures that  $\mathbf{D} > 0$ .
 
-Notice that the solutions for  $\mathbf{N}$  and  $\mathbf{N}^*$  from (7.41) are not guaranteed to be positive, though this occurs if each firm sells more in its local market than in its export market,  $(\mathrm{y / z}) > (\mathrm{y}^* / \mathrm{z}^*)$  and  $(\mathrm{x}^* / \mathrm{z}^*) > (\mathrm{x / z})$ . To determine when this will be the case, let us make the simplifying assumption that the elasticity of demand is equal in the two markets,  $\eta = \eta^*$ . Then we can substitute the market shares from the first-order conditions (7.38) and (7.39) into (7.41), and use  $\eta = \eta^*$  to obtain:
+Notice that the solutions for  $\mathbf{N}$  and  $\mathbf{N}^*$  from (7.41) are not guaranteed to be positive, though this occurs if each firm sells more in its local market than in its export market,  $(\mathrm{y /z}) > (\mathrm{y}^* / \mathrm{z}^*)$  and  $(\mathrm{x}^* / \mathrm{z}^*) > (\mathrm{x /z})$ . To determine when this will be the case, let us make the simplifying assumption that the elasticity of demand is equal in the two markets,  $\eta = \eta^*$ . Then we can substitute the market shares from the first-order conditions (7.38) and (7.39) into (7.41), and use  $\eta = \eta^*$  to obtain:
 
 $$
-N = \frac {\eta}{D} \left(\frac {c T}{p} - \frac {c}{p ^ {*}}\right) > 0 \text {i f a n d o n l y i f} p / T <   p ^ {*} \tag {7.42a}
+N = \frac{\eta}{D} \left(\frac{c T}{p} - \frac{c}{p^{*}}\right) > 0 \text{if an do nl yi f} p / T <   p^{*} \tag {7.42a}
 $$
 
 $$
-N ^ {*} = \frac {\eta}{D} \left(\frac {c T}{p ^ {*}} - \frac {c}{p}\right) > 0 \text {i f a n d o n l y i f} p ^ {*} / T <   p. \tag {7.42b}
+N^{*} = \frac{\eta}{D} \left(\frac{c T}{p^{*}} - \frac{c}{p}\right) > 0 \text{if an do nl yi f} p^{*} / T <   p. \tag {7.42b}
 $$
 
 Thus, we have obtained the following result:
@@ -4963,7 +4963,7 @@ Figure 7.8
 
 foreign firm will indeed sell to the home market. $^{18}$  Suppose that imports are  $(\mathrm{z}_1 - \mathrm{y}_1)$ , and these reduce the home price to  $\mathfrak{p}_1$ . This brings a rise in global welfare of the area shown (the top triangle of this area is consumer surplus in the importing country, and the remainder is profits of the foreign exporter), but a loss in global welfare due to added transport costs shown by the rectangle. A similar diagram would apply in the foreign country. The relative sizes of these areas are ambiguous, so we do not know whether trade raises or lowers global welfare.
 
-However, with free entry of firms in both countries, Brander and Krugman argue that global welfare necessary improves due to free trade. The welfare function with multiple firms is  $\mathrm{W(p,L + tm + N\pi)}$ , where  $\pi$  is the profits of each home firm, but with profits equal to zero this becomes  $\mathrm{W(p,L + tm)}$ . Furthermore, comparing autarky and free trade we have zero tariff revenue in each case, so welfare is just  $\mathrm{W(p,L)}$ . Thus, welfare will rise going from autarky to free trade if and only if the import price falls. Brander and Krugman argue that this is indeed the case: with import competition, prices unambiguously fall, so welfare in both countries improves. The fall in prices is also reflected in a fall in average costs (since price equals average costs from zero profits), which implies the output of each firm increases going from autarky to free trade. So similar to the monopolistic competition model of chapter 5, we have that trade brings gains due to the exercise of economies of scale. But unlike the monopolistic competition model, these gains come despite the fact that trade is intrinsically wasteful due to the homogeneous product and transportation costs.
+However, with free entry of firms in both countries, Brander and Krugman argue that global welfare necessary improves due to free trade. The welfare function with multiple firms is  $\mathrm{W(p,L +tm +N\pi)}$ , where  $\pi$  is the profits of each home firm, but with profits equal to zero this becomes  $\mathrm{W(p,L +tm)}$ . Furthermore, comparing autarky and free trade we have zero tariff revenue in each case, so welfare is just  $\mathrm{W(p,L)}$ . Thus, welfare will rise going from autarky to free trade if and only if the import price falls. Brander and Krugman argue that this is indeed the case: with import competition, prices unambiguously fall, so welfare in both countries improves. The fall in prices is also reflected in a fall in average costs (since price equals average costs from zero profits), which implies the output of each firm increases going from autarky to free trade. So similar to the monopolistic competition model of chapter 5, we have that trade brings gains due to the exercise of economies of scale. But unlike the monopolistic competition model, these gains come despite the fact that trade is intrinsically wasteful due to the homogeneous product and transportation costs.
 
 # Impact of Anti-Dumping Duties
 
@@ -4977,7 +4977,7 @@ In the first stage of an investigation, which we call period 1, the DOC compares
 
 own home price of  $p^*$ . If  $p_1 / T < p^*$  then there is pricing at "less than fair value." In nearly  $95\%$  of cases brought before the DOC, it concludes that this occurs and recommends duties in period 2 of  $(1 + \tau_2) = p^*/(p_1 / T) > 1$ .
 
-Notice that the duty applied in period 2 depends on the price charged by the exporter in period 1. In this sense, we must treat the anti-dumping duty as endogenous, and the exporter will have an incentive to raise its period 1 price so as to lower the period 2 duty.[19] Furthermore, this increase in price occurs even before the duty has been imposed, so that the importing country does not collect any tariff revenues. This increase in the import price amounts to a pure terms of trade loss for the importer. Because there is no tariff revenue collected, and still allowing for free entry of home firms, the welfare criterion is modified from  $\mathrm{W(p,L + tm)}$  to  $\mathrm{W(p,L)}$ . Thus, any increase in the import price leads to a welfare loss.
+Notice that the duty applied in period 2 depends on the price charged by the exporter in period 1. In this sense, we must treat the anti-dumping duty as endogenous, and the exporter will have an incentive to raise its period 1 price so as to lower the period 2 duty.[19] Furthermore, this increase in price occurs even before the duty has been imposed, so that the importing country does not collect any tariff revenues. This increase in the import price amounts to a pure terms of trade loss for the importer. Because there is no tariff revenue collected, and still allowing for free entry of home firms, the welfare criterion is modified from  $\mathrm{W(p,L +tm)}$  to  $\mathrm{W(p,L)}$ . Thus, any increase in the import price leads to a welfare loss.
 
 There is evidence that this investigation stage of dumping actions does indeed lead to an impact on imports, though this is often measured by the effect on quantities rather than prices. Using a sample of all antidumping cases in the United States from 1980-85, Staiger and Wolak (1992) find that the initiation of an investigation has a substantial impact on imports, reducing them by about one-half as much as that would have occurred under duties. The implication is that import prices must increase, leading to a loss for the importer.
 
@@ -4996,10 +4996,10 @@ Notice that these duties can be re-written as  $(1 + \tau_{3}) = (1 + \tau_{2})[
 amount of the period 2 duty. In the above notation, a charge of dumping is avoided in period 2 if and only if,
 
 $$
-p _ {2} / \left[ T \left(1 + \tau_ {2}\right) \right] \geq p ^ {*} \Leftrightarrow p _ {2} \geq p ^ {*} T \left(1 + \tau_ {2}\right) > p _ {1} \left(1 + \tau_ {2}\right), \tag {7.43}
+p_{2} / \left[ T \left(1 + \tau_{2}\right) \right] \geq p^{*} \Leftrightarrow p_{2} \geq p^{*} T \left(1 + \tau_{2}\right) > p_{1} \left(1 + \tau_{2}\right), \tag {7.43}
 $$
 
-where the last inequality is obtained because dumping occurred in period 1,  $\mathrm{p_1 / T < p^*}$
+where the last inequality is obtained because dumping occurred in period 1,  $\mathrm{p_1 /T <p^*}$
 
 Using the last inequalities in (7.43), we see that to avoid continuing anti-dumping duties the import price must rise between period by the amount  $\mathsf{p}_2 / \mathsf{p}_1 > (1 + \tau_2)$ , so there is more than complete pass-through of the period 2 duty. This hypothesis receives strong support from Blonigen and Haynes (2002). They estimate that the pass-through of the initial anti-dumping duties can be as high as  $160\%$  for the cases that are subject to an administrative review. This occurs because, as explained above, the DOC removes existing tariffs from import prices when computing the dumping margin. So in order to avoid duties after an administrative review, the tariff-inclusive price must rise by more than the amount of duties.
 
@@ -5053,7 +5053,7 @@ The same is not true of the anti-dumping provisions of GATT. As we have argued, 
 7.8 Consider the problem of an exporting firm facing the threat of an anti-dumping duty. Given the period 1 import price chosen by the exporting firm, the duty imposed in period 2 equals  $(1 + \tau_{2}) = p^{*} / p_{1}$  whenever  $p_1 < p^*$ . This tariff is imposed with probability  $\theta$ , and conversely, with probability (1- $\theta$ ) there will be no duty. Denote the value of period 2 profits when the duty is imposed by  $\pi_2^*(\tau_2)$ , where from problem 7.7 we have that  $\pi_2^*(\tau_2) < 0$ . Let  $\pi_2^*(0)$  denote the maximized value of period 2 profits for the foreign firm in the case of zero duty. Then the period 1 problem can be stated as:
 
 $$
-\max  _ {p _ {1}} \pi^ {*} \left(p _ {1}, q _ {1}\right) + \delta \left[ \theta \pi_ {2} ^ {*} \left(\tau_ {2}\right) + (1 - \theta) \pi_ {2} ^ {*} (0) \right] \quad \text {s . t .} \quad \left(1 + \tau_ {2}\right) = p ^ {*} / p _ {1}. \tag {7.44}
+\max_{p_{1}} \pi^{*} \left(p_{1}, q_{1}\right) + \delta \left[ \theta \pi_{2}^{*} \left(\tau_{2}\right) + (1 - \theta) \pi_{2}^{*} (0) \right] \quad \text{s .t .} \quad \left(1 + \tau_{2}\right) = p^{*} / p_{1}. \tag {7.44}
 $$
 
 We suppose that the home firm chooses  $q_1$ , under Bertrand competition. Derive the first-order conditions for the home and foreign firms, and show that the threatened duty leads to an increase in the foreign price  $p_1$ .
@@ -5191,7 +5191,7 @@ We turn now to a second reason for tariffs and quotas to differ, and that is due
 To develop this argument, we will suppose that there are  $i = 1,\dots,N$  varieties of a differentiated product, each of which have characteristics given by the vector  $z_{i}$ . As in our treatment of monopolistic competition in chapter 5, we will suppose that the demand for these product varieties arises from an aggregate utility function, now given by:
 
 $$
-\mathrm {U} \left[ f \left(\mathrm {z} _ {1}\right) \mathrm {c} _ {1}, \dots , f \left(\mathrm {z} _ {\mathrm {N}}\right) \mathrm {c} _ {\mathrm {N}} \right], \tag {8.1}
+\mathrm{U} \left[ f \left(\mathrm{z}_{1}\right) \mathrm{c}_{1}, \dots , f \left(\mathrm{z}_{\mathrm{N}}\right) \mathrm{c}_{\mathrm{N}} \right], \tag {8.1}
 $$
 
 where  $c_i$  denotes the consumption of each variety,  $i = 1, \dots, N$ , and the function  $f(z_i)$  converts the vector of characteristics into a scalar "quality," which then multiplies consumption. Several
@@ -5203,7 +5203,7 @@ First, if we recognize that the product varieties are actually bought by differe
 Specific functional forms can also be obtained. One case that we shall consider is the CES aggregate utility function:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left[ f \left(\mathrm {z} _ {\mathrm {i}}\right) \mathrm {c} _ {\mathrm {i}} \right] ^ {(\sigma - 1) / \sigma}, \tag {8.2}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left[ f \left(\mathrm{z}_{\mathrm{i}}\right) \mathrm{c}_{\mathrm{i}} \right]^{(\sigma - 1) / \sigma}, \tag {8.2}
 $$
 
 again defined over the consumption  $c_i$  of each good times its quality  $f(z_i)$ . The fact that the CES utility function can arise from a discrete choice problem by individuals is demonstrated by Anderson, de Palma and Thisse (1989; 1992, pp. 85-90), provided that individuals consume continuous amounts of the differentiated good. A more conventional assumption is that they must consume zero or one unit, and in that case, the aggregate demands obtained are the "logit" formulation. We shall use those alternative demand functions at the end of the chapter.
@@ -5217,25 +5217,25 @@ in the form  $\mathrm{f(z_i)c_i}$ , which we can interpret as "quality times qua
 We begin by analyzing the problem for consumers and firms in the absence of any quota restriction. Consumers are presented with a set of  $i = 1, \dots, N$  varieties, with fixed characteristics  $z_i$  and prices  $p_i$ , and then choose the optimal quantity of each variety. It will be convenient to work with the "quality adjusted" prices, which are defined by  $q_i \equiv p_i / f(z_i)$ . That is, the higher is overall product quality  $f(z_i)$ , the lower are the quality-adjusted prices  $q_i$ . The aggregate consumer maximizes utility in (8.1), subject to the budget constraint  $\sum_{i=1}^{N} p_i c_i \leq I$ . The Lagrangian for this problem is,
 
 $$
-\begin{array}{l} \mathrm {L} = \mathrm {U} [ \mathrm {f} (\mathrm {z} _ {1}) \mathrm {c} _ {1}, \dots , \mathrm {f} (\mathrm {z} _ {\mathrm {N}}) \mathrm {c} _ {\mathrm {N}} ] + \lambda (\mathrm {I} - \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {p} _ {\mathrm {i}} \mathrm {c} _ {\mathrm {i}}) \\ = \mathrm {U} \left(\mathrm {d} _ {1}, \dots , \mathrm {d} _ {\mathrm {N}}\right) + \lambda \left(\mathrm {I} - \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} \mathrm {d} _ {\mathrm {i}}\right), \tag {8.3} \\ \end{array}
+\begin{array}{l} \mathrm{L} = \mathrm{U} [ \mathrm{f} (\mathrm{z}_{1}) \mathrm{c}_{1}, \dots , \mathrm{f} (\mathrm{z}_{\mathrm{N}}) \mathrm{c}_{\mathrm{N}} ] + \lambda (\mathrm{I} - \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{p}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}) \\ = \mathrm{U} \left(\mathrm{d}_{1}, \dots , \mathrm{d}_{\mathrm{N}}\right) + \lambda \left(\mathrm{I} - \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}} \mathrm{d}_{\mathrm{i}}\right), \tag {8.3} \\ \end{array}
 $$
 
-where the second line of (8.3) follows by defining  $\mathrm{d_i} \equiv \mathrm{f(z_i)c_i}$  as the effective "quality-adjusted" demand, and also using the quality-adjusted prices  $\mathrm{q_i} \equiv \mathrm{p_i / f(z_i)}$ . This re-writing of the Lagrangian makes it clear that instead of choosing  $\mathrm{c_i}$  given prices  $\mathrm{p_i}$  and characteristics  $\mathrm{z_i}$ , we can instead think of the aggregate consumer as choosing  $\mathrm{d_i}$  given quality-adjusted prices  $\mathrm{q_i}$ ,  $\mathrm{i = 1,\ldots,N}$ . Let us denote the solution to problem (8.3) by  $\mathrm{d_i(q,I)}$ , where  $\mathbf{q}$  is the vector of quality-adjusted prices.
+where the second line of (8.3) follows by defining  $\mathrm{d_i} \equiv \mathrm{f(z_i)c_i}$  as the effective "quality-adjusted" demand, and also using the quality-adjusted prices  $\mathrm{q_i} \equiv \mathrm{p_i /f(z_i)}$ . This re-writing of the Lagrangian makes it clear that instead of choosing  $\mathrm{c_i}$  given prices  $\mathrm{p_i}$  and characteristics  $\mathrm{z_i}$ , we can instead think of the aggregate consumer as choosing  $\mathrm{d_i}$  given quality-adjusted prices  $\mathrm{q_i}$ ,  $\mathrm{i =1,\ldots,N}$ . Let us denote the solution to problem (8.3) by  $\mathrm{d_i(q,I)}$ , where  $\mathbf{q}$  is the vector of quality-adjusted prices.
 
 Varieties of the differentiated product can be sold by domestic and foreign firms, which we do not distinguish in the notation. Producing one unit of product  $i$  with characteristics  $z_i$  requires unit-costs of  $g_i(z_i)$ , where we are treating factor prices as constant and suppress them in this cost function. $^{10}$  For simplicity, we are assuming constant returns to scale, so that the costs  $g(z_i)$  do not depend on the level of output. Firms simultaneously choose prices  $p_i$  and characteristics  $z_i$ , for the  $i = 1,\dots,N$  varieties. Suppose that a given firm produces the first  $i = 1,\dots,M$  product varieties. Consumption of each of these is  $c_i = d_i(q, I)/f(z_i)$ . The profit-maximization problem for this firm is then:
 
 $$
-\max  _ {\mathrm {p} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \mathrm {p} _ {\mathrm {i}} - \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) \right] \mathrm {c} _ {\mathrm {i}} = \max  _ {\mathrm {q} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \mathrm {q} _ {\mathrm {i}} - \frac {\mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {i}}\right)} \right] \mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}). \tag {8.4}
+\max_{\mathrm{p}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \mathrm{p}_{\mathrm{i}} - \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) \right] \mathrm{c}_{\mathrm{i}} = \max_{\mathrm{q}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \mathrm{q}_{\mathrm{i}} - \frac{\mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{i}}\right)} \right] \mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}). \tag {8.4}
 $$
 
 Again, we have changed the variables from nominal prices  $p_i$  to quality-adjusted prices  $q_i$  when
 
 moving from the left to the right of (8.4). This transformation relies on our assumption that prices and characteristics are chosen simultaneously, as well as our special functional forms.
 
-It is immediate that to maximize profits in (8.4), the firms must minimize  $\mathrm{g_i(z_i) / f(z_i)}$ , which is interpreted as the costs per unit of quality for good i. Taking logs and minimizing this over the choice of characteristics  $z_{i}$  leads to the first-order conditions,
+It is immediate that to maximize profits in (8.4), the firms must minimize  $\mathrm{g_i(z_i) /f(z_i)}$ , which is interpreted as the costs per unit of quality for good i. Taking logs and minimizing this over the choice of characteristics  $z_{i}$  leads to the first-order conditions,
 
 $$
-\frac {1}{f \left(z _ {i}\right)} \frac {\partial f}{\partial z _ {i}} = \frac {1}{g _ {i} \left(z _ {i}\right)} \frac {\partial g _ {i}}{\partial z _ {i}}, \quad i = 1, \dots , M. \tag {8.5}
+\frac{1}{f \left(z_{i}\right)} \frac{\partial f}{\partial z_{i}} = \frac{1}{g_{i} \left(z_{i}\right)} \frac{\partial g_{i}}{\partial z_{i}}, \quad i = 1, \dots , M. \tag {8.5}
 $$
 
 Thus, we obtain equality between the relative marginal utility from each characteristic, on the left of (8.5), and its relative marginal cost, on the right. Notice that this condition holds despite the fact that the firm will be choosing its prices in a monopolistically competitive fashion, provided the prices and characteristics are chosen simultaneously.[11]
@@ -5243,7 +5243,7 @@ Thus, we obtain equality between the relative marginal utility from each charact
 Maximizing (8.5) over the choice of prices  $p_i$ , we obtain the first-order conditions,
 
 $$
-\mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}) + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ \mathrm {q} _ {\mathrm {j}} - \frac {\mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {j}}\right)} \right] \frac {\partial \mathrm {d} _ {\mathrm {j}}}{\partial \mathrm {q} _ {\mathrm {i}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.6}
+\mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}) + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ \mathrm{q}_{\mathrm{j}} - \frac{\mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{j}}\right)} \right] \frac{\partial \mathrm{d}_{\mathrm{j}}}{\partial \mathrm{q}_{\mathrm{i}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.6}
 $$
 
 This expression is slightly more complicated than usual because the firm is selling multiple products  $j = 1, \dots, M$ , and therefore must take into account the effect of a change in price  $q_i$  on all these products. To simplify this, let us consider the case of a CES utility function in (8.2). Then
@@ -5251,19 +5251,19 @@ This expression is slightly more complicated than usual because the firm is sell
 it can be confirmed that the demand derivatives are symmetric,  $\partial \mathrm{d_i} / \partial \mathrm{q_j} = \partial \mathrm{d_j} / \partial \mathrm{q_i}$ . Using this in (8.6) and dividing by effective demand  $\mathrm{d_i}$ , we can re-express it as:
 
 $$
-1 + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ 1 - \frac {\mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right)}{\mathrm {p} _ {\mathrm {j}}} \right] \frac {\partial \ln \mathrm {d} _ {\mathrm {i}}}{\partial \ln \mathrm {q} _ {\mathrm {j}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.7}
+1 + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ 1 - \frac{\mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right)}{\mathrm{p}_{\mathrm{j}}} \right] \frac{\partial \ln \mathrm{d}_{\mathrm{i}}}{\partial \ln \mathrm{q}_{\mathrm{j}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.7}
 $$
 
 Let us denote the ratio of price to marginal cost for each product by  $\mu_{\mathrm{j}} = \mathrm{p}_{\mathrm{j}} / \mathrm{g}_{\mathrm{j}}(\mathrm{z}_{\mathrm{j}}) \geq 1$ . We can see that the expression in brackets in (8.7) equals  $(\mu_{\mathrm{i}} - 1) / \mu_{\mathrm{i}} = [\mathrm{p}_{\mathrm{i}} - \mathrm{g}_{\mathrm{i}}(\mathrm{z}_{\mathrm{i}})] / \mathrm{p}_{\mathrm{i}} \geq 0$ , which is the difference between price and marginal cost measured relative to price. This is the Lerner index of monopoly power for a single-product firm, and with price chosen optimally will equal the inverse of its elasticity of demand. To see how this Lerner pricing rule is modified with multi-product firms, let us conjecture a solution where the price-cost ratios are constant across all product sold by the firm in question,  $\mu_{\mathrm{j}} = \mu$ . Then it is immediate that the solution to (8.7) is:
 
 $$
-\left(\frac {\mu - 1}{\mu}\right) = - \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {\partial \ln \mathrm {d} _ {\mathrm {i}}}{\partial \ln \mathrm {q} _ {\mathrm {j}}}\right) ^ {- 1}. \tag {8.8}
+\left(\frac{\mu - 1}{\mu}\right) = - \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{\partial \ln \mathrm{d}_{\mathrm{i}}}{\partial \ln \mathrm{q}_{\mathrm{j}}}\right)^{- 1}. \tag {8.8}
 $$
 
 Expression (8.8) says that the Lerner index for the firm equals the inverse of the sum of demand elasticities. In order for this solution to be valid, we need to have that the sum of elasticities on the right of (8.8) are independent of good  $i$ . That is, an equi-proportional increase in all prices charged by a firm needs to lead to the same percentage drop in demand for any product sold by that firm. It turns out that this condition is satisfied for CES demands, in which case the sum of elasticities are,
 
 $$
-- \left(\sum_ {j = 1} ^ {M} \frac {\partial \ln d _ {i}}{\partial \ln q _ {j}}\right) = \sigma + (1 - \sigma) \left(\sum_ {j = 1} ^ {M} \frac {p _ {j} c _ {j}}{I}\right), \tag {8.9}
+- \left(\sum_{j = 1}^{M} \frac{\partial \ln d_{i}}{\partial \ln q_{j}}\right) = \sigma + (1 - \sigma) \left(\sum_{j = 1}^{M} \frac{p_{j} c_{j}}{I}\right), \tag {8.9}
 $$
 
 where  $\sigma > 1$  is the elasticity of substitution between products. The expression on the right of (8.9) is the sum of sales over all products sold by the firm, measured relative to total expenditure I on the differentiated product. In other words, the expression on the right is the total market share of the firm. As the market share grows, the sum of elasticities falls, and the markup of the firm will rise in (8.8).
@@ -5271,7 +5271,7 @@ where  $\sigma > 1$  is the elasticity of substitution between products. The exp
 Using the solution for  $\mu$  from (8.8) and (8.9), the optimal prices of the firm are:
 
 $$
-p _ {i} = \mu g _ {i} \left(z _ {i}\right), \quad i = 1, \dots , M. \tag {8.10}
+p_{i} = \mu g_{i} \left(z_{i}\right), \quad i = 1, \dots , M. \tag {8.10}
 $$
 
 Thus, in this CES case the firm charges the same markups over all products that it sells. This is certainly special and would not carry over to other functional forms. Bresnahan (1981) was the first to estimate a discrete choice model for autos that allowed for differing markups over product sold, and found that higher-priced models tended to have higher percentage markups. Similarly, Berry, Levinsohn and Pakes (1995, 1999), Feenstra and Levinsohn (1995) and Goldberg (1995) use functional forms more general than CES that allow markups to differ across products. These papers go beyond the scope of this chapter, though the theory behind them is discussed in Appendix B, and we shall comment on their empirical findings below.
@@ -5283,33 +5283,33 @@ Suppose now that the exports of a foreign firm is restricted to not exceed the a
 International Trade and Industry (MITI). We do not introduce a subscript to denote the foreign firms, but analyze the profit maximization problem for any such firm. The Lagrangian is:
 
 $$
-\begin{array}{l} L = \max  _ {q _ {i}, z _ {i}} \sum_ {i = 1} ^ {M} \left[ q _ {i} - \frac {g _ {i} \left(z _ {i}\right)}{f \left(z _ {i}\right)} \right] d _ {i} \left(q _ {i}, I\right) + \lambda \left(\bar {X} - \sum_ {i = 1} ^ {M} \frac {d _ {i} (q , I)}{f _ {i} \left(z _ {i}\right)}\right) \tag {8.11} \\ = \max  _ {q _ {i}, z _ {i}} \sum_ {i = 1} ^ {M} \left[ q _ {i} - \frac {g _ {i} \left(z _ {i}\right) + \lambda}{f \left(z _ {i}\right)} \right] d _ {i} (q, I) + \lambda \overline {{X}}, \\ \end{array}
+\begin{array}{l} L = \max_{q_{i}, z_{i}} \sum_{i = 1}^{M} \left[ q_{i} - \frac{g_{i} \left(z_{i}\right)}{f \left(z_{i}\right)} \right] d_{i} \left(q_{i}, I\right) + \lambda \left(\bar {X} - \sum_{i = 1}^{M} \frac{d_{i} (q , I)}{f_{i} \left(z_{i}\right)}\right) \tag {8.11} \\ = \max_{q_{i}, z_{i}} \sum_{i = 1}^{M} \left[ q_{i} - \frac{g_{i} \left(z_{i}\right) + \lambda}{f \left(z_{i}\right)} \right] d_{i} (q, I) + \lambda \overline {{X}}, \\ \end{array}
 $$
 
 where the second line follows by simply combining terms. Thus, to maximize profits, it is now the case that the foreign firms will choose characteristics  $z_i$  to minimize  $[g_i(z_i) + \lambda] / f(z_i)$ . Taking logs, the first order condition for this minimization problem is:
 
 $$
-\frac {1}{f \left(z _ {i}\right)} \frac {\partial f}{\partial z _ {i}} = \frac {1}{\left[ g _ {i} \left(z _ {i}\right) + \lambda \right] \partial z _ {i}}, \quad i = 1, \dots , M. \tag {8.12}
+\frac{1}{f \left(z_{i}\right)} \frac{\partial f}{\partial z_{i}} = \frac{1}{\left[ g_{i} \left(z_{i}\right) + \lambda \right] \partial z_{i}}, \quad i = 1, \dots , M. \tag {8.12}
 $$
 
 Thus, in contrast to the first-order condition in (8.5), we no longer obtain an equality between relative marginal utility and marginal costs of characteristics. This equality is broken by the binding quota constraint, and higher value of  $\lambda$  will be associated with higher levels of characteristics chosen by the firm. To see this, totally differentiate (8.12) with respect to  $z_{i}$  and  $\lambda$  to obtain:
 
 $$
-\frac {\mathrm {d} \mathrm {z} _ {\mathrm {i}}}{\mathrm {d} \lambda} = \frac {1}{\left[ \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) + \lambda \right] ^ {2}} \left[ \frac {\partial^ {2} \ln \left(\mathrm {g} _ {\mathrm {i}} + \lambda\right)}{\partial \mathrm {z} _ {\mathrm {i}} ^ {2}} - \frac {\partial^ {2} \ln \mathrm {f}}{\partial \mathrm {z} _ {\mathrm {i}} ^ {2}} \right] ^ {- 1} \frac {\partial \mathrm {g} _ {\mathrm {i}}}{\partial \mathrm {z} _ {\mathrm {i}}} . \tag {8.13}
+\frac{\mathrm{d} \mathrm{z}_{\mathrm{i}}}{\mathrm{d} \lambda} = \frac{1}{\left[ \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) + \lambda \right]^{2}} \left[ \frac{\partial^{2} \ln \left(\mathrm{g}_{\mathrm{i}} + \lambda\right)}{\partial \mathrm{z}_{\mathrm{i}}^{2}} - \frac{\partial^{2} \ln \mathrm{f}}{\partial \mathrm{z}_{\mathrm{i}}^{2}} \right]^{- 1} \frac{\partial \mathrm{g}_{\mathrm{i}}}{\partial \mathrm{z}_{\mathrm{i}}} . \tag {8.13}
 $$
 
 The matrix of second derivatives shown in brackets on the right of (8.13) is positive definite from the second-order conditions for minimizing  $\left[\mathrm{g}_{\mathrm{i}}\left(\mathrm{z}_{\mathrm{i}}\right) + \lambda \right] / \mathrm{f}\left(\mathrm{z}_{\mathrm{i}}\right)$ . While this does not
 
-establish the sign of the vector  $\mathrm{dz_i / d\lambda}$ , notice that we can pre-multiply (8.13) by the row vector  $\partial \mathrm{f} / \partial \mathrm{z}_{\mathrm{i}}^{\prime}$ , which from (8.12) is proportional to the vector  $\partial \mathrm{g_i} / \partial \mathrm{z_i}'$ . Then we will obtain a positive definite matrix that is pre- and post-multiplied by vectors that are proportional, and is therefore positive:
+establish the sign of the vector  $\mathrm{dz_i /d\lambda}$ , notice that we can pre-multiply (8.13) by the row vector  $\partial \mathrm{f} / \partial \mathrm{z}_{\mathrm{i}}^{\prime}$ , which from (8.12) is proportional to the vector  $\partial \mathrm{g_i} / \partial \mathrm{z_i}'$ . Then we will obtain a positive definite matrix that is pre- and post-multiplied by vectors that are proportional, and is therefore positive:
 
 $$
-\frac {\mathrm {d f} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {d} \lambda} = \frac {\partial \mathrm {f} ^ {\prime}}{\partial \mathrm {z} _ {\mathrm {i}}} \frac {\mathrm {d z} _ {\mathrm {i}}}{\mathrm {d} \lambda} > 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.14}
+\frac{\mathrm{df} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{d} \lambda} = \frac{\partial \mathrm{f}^{\prime}}{\partial \mathrm{z}_{\mathrm{i}}} \frac{\mathrm{dz}_{\mathrm{i}}}{\mathrm{d} \lambda} > 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.14}
 $$
 
 Thus, overall product quality is increased for every product sold by foreign firms due to the export restraint. This is our first demonstration of the idea that quotas lead to an increase in product quality. $^{13}$  Notice that this would not occur under an ad valorem tariff, however. In that case the profit-maximization problem (8.4) would be re-written as:
 
 $$
-\max  _ {\mathrm {p} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \frac {\mathrm {p} _ {\mathrm {i}}}{(1 + \tau)} - \mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right) \right] \mathrm {c} _ {\mathrm {i}} = \max  _ {\mathrm {q} _ {\mathrm {i}}, \mathrm {z} _ {\mathrm {i}}} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \left[ \frac {\mathrm {q} _ {\mathrm {i}}}{(1 + \tau)} - \frac {\mathrm {g} _ {\mathrm {i}} \left(\mathrm {z} _ {\mathrm {i}}\right)}{\mathrm {f} \left(\mathrm {z} _ {\mathrm {i}}\right)} \right] \mathrm {d} _ {\mathrm {i}} (\mathrm {q}, \mathrm {I}), \tag {8.4'}
+\max_{\mathrm{p}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \frac{\mathrm{p}_{\mathrm{i}}}{(1 + \tau)} - \mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right) \right] \mathrm{c}_{\mathrm{i}} = \max_{\mathrm{q}_{\mathrm{i}}, \mathrm{z}_{\mathrm{i}}} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \left[ \frac{\mathrm{q}_{\mathrm{i}}}{(1 + \tau)} - \frac{\mathrm{g}_{\mathrm{i}} \left(\mathrm{z}_{\mathrm{i}}\right)}{\mathrm{f} \left(\mathrm{z}_{\mathrm{i}}\right)} \right] \mathrm{d}_{\mathrm{i}} (\mathrm{q}, \mathrm{I}), \tag {8.4'}
 $$
 
 where  $\tau$  is the ad valorem tariff. Changes in the tariff would have no effect at all on the optimal choice of characteristics in (8.5), which continues to hold.
@@ -5319,7 +5319,7 @@ There is also a second sense in which product quality is increased, and that com
 optimal prices are increased according to the Lagrange multiplier on the export restraint:  $^{14}$
 
 $$
-p _ {i} = \mu \left[ g _ {i} \left(z _ {i}\right) + \lambda \right], \quad i = 1, \dots , M, \tag {8.15}
+p_{i} = \mu \left[ g_{i} \left(z_{i}\right) + \lambda \right], \quad i = 1, \dots , M, \tag {8.15}
 $$
 
 where  $\mu$  is once again the markup charged on all product sold by the firm, as solved from (8.8) and (8.9). With  $\lambda$  and  $\mu$  both common across all products sold by a firm, we see that the effect of the VER is to introduce a dollar price increase of  $\mu \lambda$  to the price of every product sold. In other words, the VER acts in the same way as a specific price increase, and not like a proportional price increase across products.[15]
@@ -5332,14 +5332,14 @@ towards the higher-priced product so that  $\mathrm{d}_1 / \mathrm{d}_2$  increa
 
 The above description of quality upgrading due to shifts in demand is called the "Washington apples" effect, after the example given by Alchian and Allen (1964, pp. 74-75). They noted that while the state of Washington grows apples of many varieties, it appeared that the best apples were shipped the furthest distance, to east coast markets. This is explained by treating the transport costs as the same for each apple. Transport therefore acts like a specific price increase, which lowers the relative price of the higher-quality apples in more distance markets. Accordingly, we expect to see the best apples shipped to the east coast, which raises the average quality in those markets.
 
-In summary, there are two reasons to expect import quality to rise with a quota on the number of units sold: due to the increase in characteristics chosen by the exporting firms; and due to the shift in demand towards the higher-quality products. These two effects can certainly work together. In the model above, the demands  $\mathrm{d_i(q_i,I)}$  for quality-adjusted consumption  $\mathrm{f(z_i)c_i}$ , are determined by the quality-adjusted prices  $\mathrm{q_i\equiv p_i / f(z_i)}$ . So let us see how these prices are affected by the quota, even as characteristics change.
+In summary, there are two reasons to expect import quality to rise with a quota on the number of units sold: due to the increase in characteristics chosen by the exporting firms; and due to the shift in demand towards the higher-quality products. These two effects can certainly work together. In the model above, the demands  $\mathrm{d_i(q_i,I)}$  for quality-adjusted consumption  $\mathrm{f(z_i)c_i}$ , are determined by the quality-adjusted prices  $\mathrm{q_i\equivp_i /f(z_i)}$ . So let us see how these prices are affected by the quota, even as characteristics change.
 
 Using (8.15), the quality-adjusted prices are written as  $q_{i} = \mu [g_{i}(z_{i}) + \lambda] / f_{i}(z_{i})$ . From our discussion following (8.8), we know that  $[g_{i}(z_{i}) + \lambda] / f_{i}(z_{i})$  is minimized over the choice of characteristics  $z_{i}$ . Then by the envelope theorem, when differentiating this expression we can
 
 treat the characteristics as fixed. Accordingly, we can compute the change in quality-adjusted prices due to the quota as:
 
 $$
-\frac {\mathrm {d} \ln q _ {\mathrm {i}}}{\mathrm {d} \lambda} = \frac {\mathrm {d} \ln \mu}{\mathrm {d} \lambda} + \frac {1}{\left[ g _ {\mathrm {i}} \left(z _ {\mathrm {i}}\right) + \lambda \right]} = \frac {\mathrm {d} \ln \mu}{\mathrm {d} \lambda} + \frac {\mu}{p _ {\mathrm {i}}} . \tag {8.16}
+\frac{\mathrm{d} \ln q_{\mathrm{i}}}{\mathrm{d} \lambda} = \frac{\mathrm{d} \ln \mu}{\mathrm{d} \lambda} + \frac{1}{\left[ g_{\mathrm{i}} \left(z_{\mathrm{i}}\right) + \lambda \right]} = \frac{\mathrm{d} \ln \mu}{\mathrm{d} \lambda} + \frac{\mu}{p_{\mathrm{i}}} . \tag {8.16}
 $$
 
 The first term on the right of (8.16) is the change in markup due to the VER, which is common across products, while the second term is smallest for the highest-priced products. Therefore, we will observe the smallest relative increase in quality-adjusted price for those products with the highest prices. This can be expected to shift demand towards the highest-priced products, just as in the "Washington apples" effect.
@@ -5355,7 +5355,7 @@ automobiles in the U.S. market. For the period April 1981 – March 1982, this l
 Our interest, then, is in the effects of the VER during the early years. To estimate the change in product quality, initially consider the case where there is no VER. Assuming that marginal costs take the form  $\ln \mathrm{g_i(z_{it})} = \beta '\mathrm{z_{it}} + \xi_{it}$ , where  $\xi_{it}$  is a random error that reflects unmeasured characteristics, and we add the subscript  $t$  to denote years. Then the first order condition (8.10) is written in logs as:
 
 $$
-\ln p _ {i t} = \alpha_ {t} + \beta^ {\prime} z _ {i t} + \xi_ {i t}, \quad i = 1, \dots , M, \tag {8.17}
+\ln p_{i t} = \alpha_{t} + \beta^{\prime} z_{i t} + \xi_{i t}, \quad i = 1, \dots , M, \tag {8.17}
 $$
 
 where  $\alpha_{t} = \ln \mu_{t}$  reflects the markups. We should also be indexing  $\alpha_{t}$  by firms (since the markups differ across firms), but will omit this notation. Equation (8.17) is a log-linear regression of prices on characteristics and is called a "hedonic regression." Our derivation shows that this is a valid representation of the equilibrium under imperfect competition provided that markups are the same across products (as in the CES case). Furthermore, using the equality between relative marginal utility from each characteristic, on the left of (8.5), and relative marginal cost on the right, we can interpret the coefficients  $\beta$  in (8.17) in either way.
@@ -5381,7 +5381,7 @@ c Of the 2.506 million total, 2.30 million were cars sold to the U.S.
 Under the VER, the first order condition becomes (8.15). For the same specification of marginal costs,  $\ln \mathrm{g_i(z_{it})} = \beta '\mathrm{z_{it}} + \xi_{it}$ , this is re-written as:
 
 $$
-p _ {i t} = \exp \left(\alpha_ {t} + \beta^ {\prime} z _ {i t} + \xi_ {i t}\right) + s _ {t}, \quad i = 1, \dots , M, \tag {8.18}
+p_{i t} = \exp \left(\alpha_{t} + \beta^{\prime} z_{i t} + \xi_{i t}\right) + s_{t}, \quad i = 1, \dots , M, \tag {8.18}
 $$
 
 where  $\alpha_{\mathrm{t}} = \ln \mu_{\mathrm{t}}$  are the markups and  $s_t = \mu_t\lambda_t$  are the specific price increases due to the VER.
@@ -5389,13 +5389,13 @@ where  $\alpha_{\mathrm{t}} = \ln \mu_{\mathrm{t}}$  are the markups and  $s_t =
 To convert the random error to an additive form, define:
 
 $$
-\begin{array}{l} \varepsilon_ {\mathrm {i t}} = \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}} + \xi_ {\mathrm {i t}}\right) - \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}}\right) \tag {8.19} \\ = \left[ \exp \left(\xi_ {\mathrm {i t}}\right) - 1 \right] \exp \left(\alpha_ {\mathrm {t}} + \beta^ {\prime} z _ {\mathrm {i t}}\right). \\ \end{array}
+\begin{array}{l} \varepsilon_{\mathrm{it}} = \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}} + \xi_{\mathrm{it}}\right) - \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}}\right) \tag {8.19} \\ = \left[ \exp \left(\xi_{\mathrm{it}}\right) - 1 \right] \exp \left(\alpha_{\mathrm{t}} + \beta^{\prime} z_{\mathrm{it}}\right). \\ \end{array}
 $$
 
 Then (8.18) is re-written as:
 
 $$
-p _ {i t} = \exp \left(\alpha_ {t} + \beta^ {\prime} z _ {i t}\right) + s _ {t} + \varepsilon_ {i t}, \quad i = 1, \dots , M, \tag {8.20}
+p_{i t} = \exp \left(\alpha_{t} + \beta^{\prime} z_{i t}\right) + s_{t} + \varepsilon_{i t}, \quad i = 1, \dots , M, \tag {8.20}
 $$
 
 Thus, under the VER we need to allow for specific price increases  $s_t$  from year to year, as well as the proportional price changes captured by  $\alpha_t$ .
@@ -5409,7 +5409,7 @@ An initial estimate of (8.20) for 1979-85, using the base version of each Japane
 To address this multicollinearity, we consider pooling data for U.S. imports of Japanese cars and trucks. Denoting trucks with an asterisk, we re-write the hedonic regression (8.17) as,
 
 $$
-\ln p _ {i t} ^ {*} = \alpha_ {t} ^ {*} + \beta^ {*} z _ {i t} ^ {*} + \xi_ {i t} ^ {*}, \quad i = 1, \dots , M. \tag {8.21}
+\ln p_{i t}^{*} = \alpha_{t}^{*} + \beta^{*} z_{i t}^{*} + \xi_{i t}^{*}, \quad i = 1, \dots , M. \tag {8.21}
 $$
 
 Thus, we are allowing truck to have different coefficient on its characteristics than cars, and also differing proportional price increases  $\alpha_{\mathrm{t}}^{*}$ . Because trucks were not subject to the VER, we do
@@ -5433,7 +5433,7 @@ not include any specific price increases in this regression. Estimates of (8.21)
 We now consider testing the hypothesis that the year-to-year price changes in Japanese cars and truck exports to the U.S. would be the same, after correcting for the trade policies in each product. Cars were subject to the VER after April 1981, whereas trucks imported from Japan were subject to an increase in the tariff from  $4\%$  to  $25\%$  after August 1980, as discussed in the previous chapter. Feenstra (1988a) argues that the  $21\%$  increase in the wholesale price of trucks as they cross the border would be reflected by at most a  $16\%$  increase in the retail price.[18] Accordingly, we consider testing the hypothesis that the proportional year increase for trucks,  $\alpha_{t}^{*}$ , is 0.16 greater than the proportional year increase for cars,  $\alpha_{t}$ , for 1981 and later years:
 
 $$
-\alpha_ {t} ^ {*} = \alpha_ {t} + 0. 1 6 \quad \text {f o r} t = 1 9 8 1, 8 2, \dots , 8 5. \tag {8.22}
+\alpha_{t}^{*} = \alpha_{t} + 0. 1 6 \quad \text{fo r} t = 1 9 8 1, 8 2, \dots , 8 5. \tag {8.22}
 $$
 
 Feenstra (1988a) finds that this hypothesis is accepted in all years except 1985, and so it is imposed on the subsequent estimation except for that year.
@@ -5488,7 +5488,7 @@ subsidies must be counted against any increase in profits of the receiving indus
 
 # Perfect Competition
 
-We consider first the case of a small country, in Figure 8.6. In panel (a) we show the domestic demand D and supply S curves, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_{0}$  and supply at  $\mathrm{y_0}$ , so exports are  $\mathrm{x_0 = y_0 - c_0}$ . This is shown in panel (b), which graphs the domestic export supply curve  $\mathrm{X} = \mathrm{S} - \mathrm{D}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal import demand curve from the rest of the world, which intersects X at the equilibrium exports  $\mathrm{x_0}$ .
+We consider first the case of a small country, in Figure 8.6. In panel (a) we show the domestic demand D and supply S curves, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_{0}$  and supply at  $\mathrm{y_0}$ , so exports are  $\mathrm{x_0 =y_0 -c_0}$ . This is shown in panel (b), which graphs the domestic export supply curve  $\mathrm{X} = \mathrm{S} - \mathrm{D}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal import demand curve from the rest of the world, which intersects X at the equilibrium exports  $\mathrm{x_0}$ .
 
 Now suppose that firms in the home industry are given a subsidy of  $s$  dollars per unit exported. With this subsidy, the home industry would be able to earn  $p^* + s$  on all quantities that are exported. Accordingly, firms in this industry would be unwilling to sell at home for anything less than that amount, and the domestic price must also rise to  $p^* + s$ . At this price, domestic demand falls to  $c_1$  and supply rises to  $y_1$ , so exports rise to the amount  $x_1 = y_1 - c_1$ . This corresponds to a rightward shift of the domestic export supply curve in panel (b), because at the same international price of  $p^*$ , exports have increased from  $x_0$  to  $x_1$ . Equivalently, the export supply curve shifts downward, from  $X$  to  $X'$ , by the amount of the subsidy  $s$ .[23]
 
@@ -5527,7 +5527,7 @@ advantage in the goods of lowest index  $z$ . In equilibrium, the "borderline" g
 Itoh and Kiyono first consider a home export subsidy of  $s$  to all goods exported. This has the effect of expanding the range of exports from  $[0, z')$  to  $[0, z_1)$ , with  $z_1 > z'$ . The new borderline good satisfies  $[\mathrm{wa}(z_1) - s] = \mathrm{w}^* \mathrm{a}^*(z_1)$ , where  $\mathrm{wa}(z_1)$  is the home price for that good and  $[\mathrm{wa}(z_1) - s]$  is the subsidized export price. Simplifying this equation, relative wages are:
 
 $$
-\frac {\mathrm {w}}{\mathrm {w} ^ {*}} - \left(\frac {\mathrm {s}}{\mathrm {w} ^ {*} \mathrm {a} \left(\mathrm {z} _ {1}\right)}\right) = \frac {\mathrm {a} ^ {*} \left(\mathrm {z} _ {1}\right)}{\mathrm {a} \left(\mathrm {z} _ {1}\right)}. \tag {8.23}
+\frac{\mathrm{w}}{\mathrm{w}^{*}} - \left(\frac{\mathrm{s}}{\mathrm{w}^{*} \mathrm{a} \left(\mathrm{z}_{1}\right)}\right) = \frac{\mathrm{a}^{*} \left(\mathrm{z}_{1}\right)}{\mathrm{a} \left(\mathrm{z}_{1}\right)}. \tag {8.23}
 $$
 
 As suggested by this equation, the direct effect of an export subsidy is to raise relative home wage. There is also an indirect effect through the increase in  $z_1$ , which lowers  $a^*(z_1) / a(z_1)$ , but the net outcome is still an increase in  $w / w^*$  due to the subsidy  $s > 0$ .
@@ -5549,13 +5549,13 @@ are interested in whether the home government can give its own firm a "strategic
 We let  $x$  denote the sales of the home firm and  $x^*$  the sales of the foreign firm to the third market. We will treat  $x$  and  $x^*$  as differentiated products, so the home firm earns the price  $p(x, x^*)$  and the foreign firm earns  $p^*(x, x^*)$ . It will be sufficient for our purposes to study the profit maximization of the home firm, as the foreign firm's problem is similar. Home profits from exporting are,
 
 $$
-\pi = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) \mathrm {x} - \mathrm {C} (\mathrm {x}), \tag {8.24}
+\pi = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) \mathrm{x} - \mathrm{C} (\mathrm{x}), \tag {8.24}
 $$
 
 Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {x}} = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) + \mathrm {x p} _ {\mathrm {x}} - \mathrm {C} ^ {\prime} (\mathrm {x}) = 0, \tag {8.25}
+\pi_{\mathrm{x}} = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) + \mathrm{xp}_{\mathrm{x}} - \mathrm{C}^{\prime} (\mathrm{x}) = 0, \tag {8.25}
 $$
 
 and the second-order condition is  $\pi_{\mathrm{xx}} = 2\mathrm{p_x} + \mathrm{xp}_{\mathrm{xx}} - \mathrm{C}'' < 0$
@@ -5567,19 +5567,19 @@ reaction curve  $\mathbf{R}^{*}\mathbf{R}^{*}$  from above, as illustrated. $^{2
 Now consider the impact of an export subsidy. Letting  $\mathfrak{p}(\mathbf{x},\mathbf{x}^{*})$  denote the price paid by the buyer and  $s$  denote the specific subsidy, then  $\mathfrak{p}(\mathbf{x},\mathbf{x}^{*}) + s$  is the subsidized price received by the home firm. Home profits are therefore,
 
 $$
-\pi = [ p (x, x ^ {*}) + s ] x - C (x). \tag {8.26}
+\pi = [ p (x, x^{*}) + s ] x - C (x). \tag {8.26}
 $$
 
 Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {x}} = \mathrm {p} (\mathrm {x}, \mathrm {x} ^ {*}) + \mathrm {s} + \mathrm {x p} _ {\mathrm {x}} - \mathrm {C} ^ {\prime} (\mathrm {x}) = 0, \tag {8.27}
+\pi_{\mathrm{x}} = \mathrm{p} (\mathrm{x}, \mathrm{x}^{*}) + \mathrm{s} + \mathrm{xp}_{\mathrm{x}} - \mathrm{C}^{\prime} (\mathrm{x}) = 0, \tag {8.27}
 $$
 
 where (8.27) defines a new reaction curve  $\mathrm{x} = \mathrm{r}(\mathrm{x}^*,\mathrm{s})$ . To check how this reaction curve depends on the subsidy  $\mathrm{s}$ , totally differentiate (8.27) to obtain,
 
 $$
-\frac {\mathrm {d} \mathbf {x}}{\mathrm {d} s} = - \frac {1}{\pi_ {\mathrm {x x}}} > 0 ,
+\frac{\mathrm{d} \mathbf {x}}{\mathrm{d} s} = - \frac{1}{\pi_{\mathrm{xx}}} > 0 ,
 $$
 
 where this sign is obtained from the second-order condition for maximizing (8.26).
@@ -5595,7 +5595,7 @@ Figure 8.9
 cost of the subsidy.[27] Since the subsidy cost is the amount sx, welfare becomes,
 
 $$
-\mathrm {W} = \left[ \mathrm {p} \left(\mathrm {x}, \mathrm {x} ^ {*}\right) + \mathrm {s} \right] \mathrm {x} - \mathrm {C} (\mathrm {x}) - \mathrm {s x} = \mathrm {p} \left(\mathrm {x}, \mathrm {x} ^ {*}\right) \mathrm {x} - \mathrm {C} (\mathrm {x}). \tag {8.28}
+\mathrm{W} = \left[ \mathrm{p} \left(\mathrm{x}, \mathrm{x}^{*}\right) + \mathrm{s} \right] \mathrm{x} - \mathrm{C} (\mathrm{x}) - \mathrm{sx} = \mathrm{p} \left(\mathrm{x}, \mathrm{x}^{*}\right) \mathrm{x} - \mathrm{C} (\mathrm{x}). \tag {8.28}
 $$
 
 Notice that the expression on the right of (8.28) is identical to the original expression for home profits in (8.24). That is, by taking the subsidized profits in (8.26), and subtracting the amount of subsidy, we get back the initial profits. This means that the original iso-profit curves for the home firm, such as illustrated by  $\pi$  in Figure 8.8, now measure social welfare. We therefore re-label these iso-profit contours as W rather than  $\pi$ .
@@ -5607,13 +5607,13 @@ The difference between profits in (8.24) and social welfare in (8.28), however, 
 We now contrast the results obtained above to a Bertrand duopoly, when the home and foreign firms are each choosing prices as the strategic variable, rather than quantities. Denote exports of the home firms to the third market by  $\mathrm{x(p,p^*)}$ , where  $\mathfrak{p}$  is the price paid by the buyer. Letting  $s$  denote the specific subsidy, then  $(p + s)$  is the subsidized price received by the home firm. Home profits are therefore,
 
 $$
-\pi = (\mathrm {p} + \mathrm {s}) \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ]. \tag {8.29}
+\pi = (\mathrm{p} + \mathrm{s}) \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ]. \tag {8.29}
 $$
 
 Maximizing this over the choice of  $p$ , the first order condition is:
 
 $$
-\pi_ {\mathrm {p}} = \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) + (\mathrm {p} + \mathrm {s}) \mathrm {x} _ {\mathrm {p}} - \mathrm {C} ^ {\prime} (\mathrm {x}) \mathrm {x} _ {\mathrm {p}} = 0. \tag {8.30}
+\pi_{\mathrm{p}} = \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) + (\mathrm{p} + \mathrm{s}) \mathrm{x}_{\mathrm{p}} - \mathrm{C}^{\prime} (\mathrm{x}) \mathrm{x}_{\mathrm{p}} = 0. \tag {8.30}
 $$
 
 Given the foreign price  $p^*$  and the subsidy, we can use (8.30) to solve for home export price  $p$ , obtaining the reaction curve  $p = r(p^*, s)$ . The analogous condition for the foreign exporter can be used to solve for foreign reaction curve  $p^* = r^*(p)$ . These are illustrated in Figure 8.10, with the typical properties that they are upward sloping and have a dampened response of each price to that of the competing good, so that  $\frac{dp}{dp^*} \frac{p^*}{p} = r_{p^*}(p^*, s) \frac{p^*}{p} < 1$ , and  $\frac{dp^*}{dp} \frac{p^*}{p^*} = r_p^*(p) \frac{p}{p^*} < 1$ . With a zero subsidy, the intersection of these determines the Bertrand equilibrium, at point B in Figure 8.10. The iso-profit curves of  $\pi$  have higher profits in the rightward direction (i.e. for higher  $p^*$ ), and similarly the iso-profit curve  $\pi^*$  have higher foreign profits in the upward direction (for higher  $p$ ), as illustrated.
@@ -5621,7 +5621,7 @@ Given the foreign price  $p^*$  and the subsidy, we can use (8.30) to solve for 
 Now consider how the application of an export subsidy shifts the home reaction curve. Totally differentiating (8.30), we obtain:
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d s}} = - \frac {\mathrm {x} _ {\mathrm {p}}}{\pi_ {\mathrm {p p}}} <   0, \tag {8.31}
+\frac{\mathrm{dp}}{\mathrm{ds}} = - \frac{\mathrm{x}_{\mathrm{p}}}{\pi_{\mathrm{pp}}} <   0, \tag {8.31}
 $$
 
 where the sign of (8.31) is obtained because  $x_p < 0$ , and  $\pi_{pp} < 0$  from the second-order condition for profit maximization. Thus, (8.31) shows that the export subsidy will unambiguously lower
@@ -5637,7 +5637,7 @@ the price charged by the home firm for its exports (given the foreign price). In
 To see how this affects home welfare, we again subtract the cost of the subsidy from (8.29) to obtain home welfare,
 
 $$
-\mathrm {W} = (\mathrm {p} + \mathrm {s}) \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ] - \mathrm {s x} (\mathrm {p}, \mathrm {p} ^ {*}) = \mathrm {p x} (\mathrm {p}, \mathrm {p} ^ {*}) - \mathrm {C} [ \mathrm {x} (\mathrm {p}, \mathrm {p} ^ {*}) ]. \tag {8.32}
+\mathrm{W} = (\mathrm{p} + \mathrm{s}) \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ] - \mathrm{sx} (\mathrm{p}, \mathrm{p}^{*}) = \mathrm{px} (\mathrm{p}, \mathrm{p}^{*}) - \mathrm{C} [ \mathrm{x} (\mathrm{p}, \mathrm{p}^{*}) ]. \tag {8.32}
 $$
 
 In (8.32), we once again obtain a measure of welfare that is identical to home profits in the absence of the export subsidy. This is shown by the is-profit curve labeled  $\pi$  in Figure 8.10 and W in Figure 8.11, and increases in the rightward direction, i.e. when the foreign price  $p^*$  increases. It is clear from Figure 8.11 that the export subsidy, by leading to a fall in prices, has reduced home welfare. The reason is that any increase in home profits – measured inclusive of the subsidy – is more than offset by the revenue cost of the subsidy, so that profits measured without the subsidy – which equals welfare – has declined.
@@ -5680,7 +5680,7 @@ The goal of Irwin and Pavcnik (2001) is to estimate demand and markups for wide-
 Demand for a differentiated product depends on the quality-adjusted prices, which we wrote earlier as  $q_{i} = p_{i} / f(z_{i})$ . Suppose that we instead measure quality-adjusted prices  $q_{i}$  by the difference between nominal prices  $p_{i}$  and quality  $f(z_{i})$ . In addition, we assume that quality is a linear function of characteristics, so the quality-adjusted prices become  $q_{j} = \alpha p_{j} - \beta' z_{j} - \xi_{j}$ . In this notation,  $\xi_{j}$  reflects unmeasured characteristics of product  $j$ , which we treat as a random variable. Then the logit specification of demand is:
 
 $$
-s _ {i} = \frac {e ^ {- q _ {i}}}{\left[ \sum_ {j = 1} ^ {N} e ^ {- q _ {j}} \right]} = \frac {e ^ {\beta^ {\prime} z _ {i} - \alpha p _ {i} + \xi_ {i}}}{\left[ \sum_ {j = 1} ^ {N} e ^ {\beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}} \right]}, \tag {8.33}
+s_{i} = \frac{e^{- q_{i}}}{\left[ \sum_{j = 1}^{N} e^{- q_{j}} \right]} = \frac{e^{\beta^{\prime} z_{i} - \alpha p_{i} + \xi_{i}}}{\left[ \sum_{j = 1}^{N} e^{\beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}} \right]}, \tag {8.33}
 $$
 
 where  $s_i$  denotes the market share of product  $i$ , measured by quantity demanded of product  $i$  relative to total quantity of all products  $j = 1, \dots, N$ . As shown in Appendix B, the logit specification in (8.33) arises quite naturally from a discrete choice model, and can also be viewed as the demand from a representative consumer using McFadden's aggregation theorem.
@@ -5688,7 +5688,7 @@ where  $s_i$  denotes the market share of product  $i$ , measured by quantity de
 To estimate the parameters of (8.33), we take logs and difference with an "outside" good indexed by 0, to obtain:
 
 $$
-\ln \mathrm {s} _ {\mathrm {i}} - \ln \mathrm {s} _ {0} = \beta^ {\prime} \mathrm {z} _ {\mathrm {i}} - \alpha \mathrm {p} _ {\mathrm {i}} + \xi_ {\mathrm {i}}, \tag {8.34}
+\ln \mathrm{s}_{\mathrm{i}} - \ln \mathrm{s}_{0} = \beta^{\prime} \mathrm{z}_{\mathrm{i}} - \alpha \mathrm{p}_{\mathrm{i}} + \xi_{\mathrm{i}}, \tag {8.34}
 $$
 
 where the quality-adjusted price  $\mathrm{q}_0$  of the "outside" good is normalized to zero. Thus, in (8.34) we regress the difference in market shares on the prices and characteristics of product i, to estimate the parameters  $(\alpha, \beta)$ . The approach can be contrasted with the hedonic regression in (8.17), where we are regressing prices on characteristics, while in (8.34) we are regressing market shares on characteristics and price. In both cases, we interpret  $\beta$  as the consumer valuation of characteristics. We can think of (8.34) as an alternative procedure to the hedonic regression, as proposed by Berry (1994).
@@ -5696,7 +5696,7 @@ where the quality-adjusted price  $\mathrm{q}_0$  of the "outside" good is norma
 Irwin and Pavcnik treat wide-body aircraft as differentiated into two market segments: those for medium-range and those for long-range trips. Denoting the products in each of these two groups by  $\mathrm{J_g}$ , for  $\mathrm{g} = 1,2$ , it is shown by Berry (see Appendix B) that the quantity-share of demand for each type of aircraft is re-written as:
 
 $$
-\ln s _ {i} - \ln s _ {0} = \beta^ {\prime} z _ {i} - \alpha p _ {i} + \rho \ln s _ {i | g} + \xi_ {i}, \quad i \in J _ {g}, \tag {8.35}
+\ln s_{i} - \ln s_{0} = \beta^{\prime} z_{i} - \alpha p_{i} + \rho \ln s_{i | g} + \xi_{i}, \quad i \in J_{g}, \tag {8.35}
 $$
 
 where:  $s_i$  is the share of demand for wide-body aircraft i relative to all aircraft purchased annually;  $s_0$  is share of demand for narrow-body aircraft (treated as the "outside" good); and  $s_{\mathrm{ilg}}$  is the share of wide-body aircraft i within the medium range or long-range group  $g = 1,2$ . We expect that the parameter  $\rho$  is positive but less than unity, and Irwin and Pavcnik estimate  $\rho$  as 0.41 (standard error of 0.17) in their preferred specification.[32] This means that long-range wide-body aircraft are closer substitutes for each other than they are for medium-range aircraft. This means, for example, that the A-380 will compete more with the Boeing 747 than with the other medium-range aircraft sold by Airbus.
@@ -5704,13 +5704,13 @@ where:  $s_i$  is the share of demand for wide-body aircraft i relative to all a
 We can also use the demand equation (8.35) to obtain the optimal prices for multi-product firms. Irwin and Pavcnik consider both Bertrand and Cournot competition, but we focus here on the former case. Suppose that the total demand for aircraft (wide-body plus narrow-body) is given by  $H$  units per year. The demand for each model is then  $s_iH$ . If the firm in question sells products  $i = 1,\dots,M$ , then its profit maximization problem is:
 
 $$
-\max  _ {p _ {i}} \sum_ {i = 1} ^ {M} \left[ p _ {i} - g _ {i} \left(z _ {i}\right) \right] s _ {i} H, \tag {8.36}
+\max_{p_{i}} \sum_{i = 1}^{M} \left[ p_{i} - g_{i} \left(z_{i}\right) \right] s_{i} H, \tag {8.36}
 $$
 
 where  $\mathrm{g_i(z_i)}$  denotes marginal costs. Maximizing this over the choice of prices  $p_i$ , we obtain the first-order conditions,
 
 $$
-\mathrm {s} _ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \left[ \mathrm {p} _ {\mathrm {j}} - \mathrm {g} _ {\mathrm {j}} \left(\mathrm {z} _ {\mathrm {j}}\right) \right] \frac {\partial \mathrm {s} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {i}}} = 0, \quad \mathrm {i} = 1, \dots , \mathrm {M}. \tag {8.37}
+\mathrm{s}_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \left[ \mathrm{p}_{\mathrm{j}} - \mathrm{g}_{\mathrm{j}} \left(\mathrm{z}_{\mathrm{j}}\right) \right] \frac{\partial \mathrm{s}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{i}}} = 0, \quad \mathrm{i} = 1, \dots , \mathrm{M}. \tag {8.37}
 $$
 
 To simplify this expression, the derivatives of the market shares can be calculated from (8.35), and substituted into (8.37). In addition, we suppose that marginal costs are linear in characteristics, so  $g_{i}(z_{i}) = \gamma^{\prime}z_{i} + \omega_{i}$ , where  $\omega_{i}$  is a random error.
@@ -5745,17 +5745,17 @@ b) Suppose that the VER is negotiated at below the free trade quantity. Show the
 8.3 Building on problem 5.3 in chapter 5, consider the CES utility function written as in (8.2),
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {a} _ {\mathrm {i}} \mathrm {c} _ {\mathrm {i}} ^ {\theta}, \quad \theta = (\sigma - 1) / \sigma ,
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{a}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}^{\theta}, \quad \theta = (\sigma - 1) / \sigma ,
 $$
 
-where  $\mathrm{a_i = f(z_i)}^\theta$  is a transformation of the quality of each product, and can be treated as a parameter,  $i = 1,\dots ,N$ .
+where  $\mathrm{a_i =f(z_i)}^\theta$  is a transformation of the quality of each product, and can be treated as a parameter,  $i = 1,\dots ,N$ .
 
 (a) Maximize this subject to the budget constraint,  $\sum_{i=1}^{N} p_i c_i \leq I$ , to obtain an expression for the demands  $c_i$  as a function of prices and income.
 (b) Use these expressions to show that  $\partial c_{i} / \partial p_{j} = \partial c_{j} / \partial p_{i}, i\neq j.$
 (c) Also show that equation (8.9) holds, which we re-write as:
 
 $$
-- \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {\partial \ln c _ {\mathrm {i}}}{\partial \ln p _ {\mathrm {j}}}\right) = \sigma + (1 - \sigma) \left(\sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \frac {p _ {\mathrm {j}} c _ {\mathrm {j}}}{\mathrm {I}}\right).
+- \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{\partial \ln c_{\mathrm{i}}}{\partial \ln p_{\mathrm{j}}}\right) = \sigma + (1 - \sigma) \left(\sum_{\mathrm{j} = 1}^{\mathrm{M}} \frac{p_{\mathrm{j}} c_{\mathrm{j}}}{\mathrm{I}}\right).
 $$
 
 8.4 Consider the problem of maximizing profits subject to the VER constraint in (8.11). Using the same steps as in (8.6) to (8.9), show that the solution for prices is as in equation (8.15).
@@ -5788,7 +5788,7 @@ Used in many applications, the median voter model presumes that policies are est
 As in chapter 7, we will suppose that each individual has a quasi-linear utility function given by  $c_0^h + U(c^h)$ , where  $c_0^h$  is consumption of a numeraire export good, and  $c^h$  is the consumption of the import good for consumer  $h = 1, \ldots, L$ . (We use  $L$  rather than  $H$  to denote the number of consumers, since  $L$  also equals the number of workers). Consumers all have the same increasing and strictly concave utility function  $U$ , so they have the same optimal consumption  $c^h = d(p)$ ,  $d'(p) < 0$ , with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd(p)$ . Then individual utility is,
 
 $$
-\mathrm {V} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} (\mathrm {p}) + \mathrm {U} [ \mathrm {d} (\mathrm {p}) ] . \tag {9.1}
+\mathrm{V} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d} (\mathrm{p}) + \mathrm{U} [ \mathrm{d} (\mathrm{p}) ] . \tag {9.1}
 $$
 
 Both the export and import goods are produced using labor and capital. The total endowments of labor and capital are L and K, respectively. The fixed world price of the import is denoted by  $p^*$ , and this good has a specific tariff of t, so the domestic price is  $p = p^* + t$ . We let  $y(p)$  denote the supply of the import-competing good, with  $y'(p) > 0$ . Imports are then  $m(p) =$
@@ -5796,19 +5796,19 @@ Both the export and import goods are produced using labor and capital. The total
 $\mathrm{d}(\mathfrak{p})\mathrm{L} - \mathrm{y}(\mathfrak{p})$ , and tariff revenue collected is  $\mathrm{T} = \mathrm{tm}(\mathrm{p})$ , which is redistributed with a poll subsidy. We will suppose that individual h has one unit of labor and  $\mathbf{K}^{\mathrm{h}}$  units of capital,  $h = 1,\dots ,L$ , so that individual income is,  $\mathrm{I}^{\mathrm{h}} = \mathrm{w} + \mathrm{rK}^{\mathrm{h}} + (\mathrm{T} / \mathrm{L})$ . We can re-express this as,
 
 $$
-I ^ {h} = \frac {1}{L} \left(w L + r K ^ {h} L + T\right) = \frac {1}{L} \left(w L + \rho^ {h} r K + T\right), \tag {9.2}
+I^{h} = \frac{1}{L} \left(w L + r K^{h} L + T\right) = \frac{1}{L} \left(w L + \rho^{h} r K + T\right), \tag {9.2}
 $$
 
 where  $\rho^{\mathrm{h}} = \mathrm{K}^{\mathrm{h}} / (\mathrm{K} / \mathrm{L})$  is the capital/labor ratio for the individual in question relative to the overall capital/labor ratio in the economy. Total GDP in the economy is  $G = y_0(p) + py(p) = wL + rK$ . It follows that we can re-write individual income in (9.2) as:
 
 $$
-I ^ {h} = \frac {1}{L} [ w L + r K + (\rho^ {h} - 1) r K + T ] = \frac {1}{L} [ (\rho^ {h} - 1) r K + y _ {0} (p) + p y (p) + T ]. \tag {9.2'}
+I^{h} = \frac{1}{L} [ w L + r K + (\rho^{h} - 1) r K + T ] = \frac{1}{L} [ (\rho^{h} - 1) r K + y_{0} (p) + p y (p) + T ]. \tag {9.2'}
 $$
 
 Differentiating individual utility in (9.1) with respect to the tariff, we obtain:
 
 $$
-\begin{array}{l} \frac {\mathrm {d} \mathrm {V} ^ {\mathrm {h}}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) + \frac {\mathrm {d I} ^ {\mathrm {h}}}{\mathrm {d t}} \\ = \left(\rho^ {\mathrm {h}} - 1\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} + \left[ \frac {\mathrm {y} (\mathrm {p})}{\mathrm {L}} - \mathrm {d} (\mathrm {p}) \right] + \frac {1}{\mathrm {L}} \frac {\mathrm {d T}}{\mathrm {d p}} \tag {9.3} \\ = \left(\rho^ {\mathrm {h}} - 1\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} + \frac {\mathrm {t}}{\mathrm {L}} \mathrm {m} ^ {\prime} (\mathrm {p}), \\ \end{array}
+\begin{array}{l} \frac{\mathrm{d} \mathrm{V}^{\mathrm{h}}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) + \frac{\mathrm{dI}^{\mathrm{h}}}{\mathrm{dt}} \\ = \left(\rho^{\mathrm{h}} - 1\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} + \left[ \frac{\mathrm{y} (\mathrm{p})}{\mathrm{L}} - \mathrm{d} (\mathrm{p}) \right] + \frac{1}{\mathrm{L}} \frac{\mathrm{dT}}{\mathrm{dp}} \tag {9.3} \\ = \left(\rho^{\mathrm{h}} - 1\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} + \frac{\mathrm{t}}{\mathrm{L}} \mathrm{m}^{\prime} (\mathrm{p}), \\ \end{array}
 $$
 
 where the first line follows from Roy's Identity, the second line using (9.2'), and the third line using tariff revenue of  $\mathrm{T} = \mathrm{t}[\mathrm{d}(\mathrm{p})\mathrm{L} - \mathrm{y}(\mathrm{p})] = \mathrm{tm}(\mathrm{p})$ .
@@ -5818,7 +5818,7 @@ If the tariff is determined by majority vote, then the tariff prevailing will be
 $\mathrm{V}^{\mathrm{m}} = \mathrm{V}(\mathrm{p},\mathrm{I}^{\mathrm{m}})$ , this tariff will satisfy  $\mathrm{dV^{m} / dt} = 0$  and  $\mathrm{d}^2\mathrm{V}^{\mathrm{m}} / \mathrm{dt}^2 < 0$ . Setting (9.3) equal to zero, this tariff is:
 
 $$
-t ^ {m} = \left(1 - \rho^ {m}\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {m} ^ {\prime} (\mathrm {p})}, \tag {9.4}
+t^{m} = \left(1 - \rho^{m}\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{m}^{\prime} (\mathrm{p})}, \tag {9.4}
 $$
 
 where  $\rho^{\mathrm{m}}$  is the capital/labor ratio for the median individual h relative to the overall capital/labor endowment for the economy. This ratio is less than one for all countries (Alesina and Rodrik, 1994), so that  $\rho^{\mathrm{m}} < 1$ . Then since  $\mathfrak{m}'(\mathfrak{p}) < 0$ , we see that the tariff  $\mathfrak{t}^{\mathrm{m}}$  is positive when the import good is labor-intensive, so that  $\mathrm{dr} / \mathrm{dp} < 0$ , but negative when the import good is capital-intensive, so that  $\mathrm{dr} / \mathrm{dp} > 0$ . In other words, import tariffs should be used in capital-abundant industrialized countries, but import subsidies in labor-abundant developing countries.
@@ -5826,7 +5826,7 @@ where  $\rho^{\mathrm{m}}$  is the capital/labor ratio for the median individual
 In practice, import subsidies are rarely observed, despite this prediction from the median voter model. There are many reasons for this, some of which we will investigate later in this section. Setting aside this most obvious limitation of the median voter model, Dutt and Mitra (2002) ask whether there is some other prediction that might accord better with real world evidence. In particular, suppose that we compare countries with varying degrees of inequality, which we measure by  $(1 - \rho^{\mathrm{m}})$ , i.e. with lower values of the median voter's capital/labor endowment  $\rho^{\mathrm{m}}$ , corresponding to higher inequality. Then differentiating the first-order condition  $\frac{\mathrm{dV}^{\mathrm{m}}}{\mathrm{dt}} = 0$ , we obtain  $\frac{\mathrm{d}^2\mathrm{V}^{\mathrm{m}}}{\mathrm{dt}^2}\mathrm{dt} + \frac{\mathrm{d}^2\mathrm{V}^{\mathrm{m}}}{\mathrm{d}(1 - \rho^{\mathrm{m}})\mathrm{dt}}\mathrm{d}(1 - \rho^{\mathrm{m}}) = 0$ , so that from (9.3):
 
 $$
-\frac {\mathrm {d t} ^ {\mathrm {m}}}{\mathrm {d} \left(1 - \rho^ {\mathrm {m}}\right)} = \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} / \frac {\mathrm {d} ^ {2} \mathbf {V} ^ {\mathrm {m}}}{\mathrm {d t} ^ {2}}, \tag {9.5}
+\frac{\mathrm{dt}^{\mathrm{m}}}{\mathrm{d} \left(1 - \rho^{\mathrm{m}}\right)} = \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} / \frac{\mathrm{d}^{2} \mathbf {V}^{\mathrm{m}}}{\mathrm{dt}^{2}}, \tag {9.5}
 $$
 
 where  $\mathrm{d}^2\mathrm{V}^\mathrm{m} / \mathrm{d}t^2 < 0$  from the second-order condition.
@@ -5836,13 +5836,13 @@ It follows that for capital-abundant countries importing the labor-intensive goo
 Dutt and Mitra test this prediction by running the regression:
 
 $$
-\mathrm {T R} ^ {\mathrm {i}} = \alpha_ {0} + \alpha_ {1} \mathrm {I N E Q} ^ {\mathrm {i}} + \alpha_ {2} \mathrm {I N E Q} ^ {\mathrm {i}} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}} + \alpha_ {3} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}} + \mathrm {X} ^ {\mathrm {i}} \beta + \varepsilon_ {\mathrm {i}}, \tag {9.6}
+\mathrm{TR}^{\mathrm{i}} = \alpha_{0} + \alpha_{1} \mathrm{IN EQ}^{\mathrm{i}} + \alpha_{2} \mathrm{IN EQ}^{\mathrm{i}} (\mathrm{K} / \mathrm{L})^{\mathrm{i}} + \alpha_{3} (\mathrm{K} / \mathrm{L})^{\mathrm{i}} + \mathrm{X}^{\mathrm{i}} \beta + \varepsilon_{\mathrm{i}}, \tag {9.6}
 $$
 
 where  $\mathrm{TR}^{\mathrm{i}}$  is an measure of trade restrictions in country i, INEQ $^{\mathrm{i}}$  is an index of income inequality in that country, (K/L) $^{\mathrm{i}}$  is the capital/labor ratio in country i, and  $\mathbf{X}^{\mathrm{i}}$  is a matrix of other control variables. Taking the partial derivative of  $\mathrm{TR}^{\mathrm{i}}$  with respect to INEQ $^{\mathrm{i}}$ , we obtain,
 
 $$
-\frac {\partial \mathrm {T R} ^ {\mathrm {i}}}{\partial \mathrm {I N E Q} ^ {\mathrm {i}}} = \alpha_ {1} + \alpha_ {2} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}}. \tag {9.6'}
+\frac{\partial \mathrm{TR}^{\mathrm{i}}}{\partial \mathrm{IN EQ}^{\mathrm{i}}} = \alpha_{1} + \alpha_{2} (\mathrm{K} / \mathrm{L})^{\mathrm{i}}. \tag {9.6'}
 $$
 
 The prediction from the median voter is that this derivative should be negative for low levels of the capital/labor ratio  $(\mathrm{K} / \mathrm{L})^{\mathrm{i}}$ , but positive for higher levels of the capital/labor ratio. This will occur if  $\alpha_{1} < 0$  and  $\alpha_{2} > 0$ , with the turning point between the negative and positive derivatives occurring where (9.6') equals zero, or at the capital/labor ratio  $(\mathrm{K} / \mathrm{L})^{\mathrm{i}} = -\alpha_{1} / \alpha_{2} > 0$ .
@@ -5858,17 +5858,17 @@ The median voter model assumes that policies are determined by majority vote. Th
 We assume that there are  $N$  goods plus the numeraire commodity. On the demand side, consumer utility functions are  $c_0^h + \sum_{i=1}^{N} u_i(c_i^h)$ , where  $c_0^h$  is the numeraire export good, and  $c_i^h$  is the consumption of good  $i = 1, \dots, N$ . Maximizing utility subject to the budget constraint gives the per-capita consumption  $d_i(p_i)$  of each good,  $i = 1, \dots, N$ , with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd(p)$ . We let  $d(p) = [d_1(p_1), \dots, d_N(p_N)]$  denote the vector of per-capita consumptions, depending on prices  $p = (p_1, \dots, p_N)$ . Then individual utility is similar to that in (9.1),
 
 $$
-\mathrm {V} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} (\mathrm {p}) + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {u} _ {\mathrm {i}} \left[ \mathrm {d} _ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) \right]. \tag {9.7}
+\mathrm{V} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d} (\mathrm{p}) + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{u}_{\mathrm{i}} \left[ \mathrm{d}_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) \right]. \tag {9.7}
 $$
 
 Notice that the last two terms on the right of (9.7) give per-capita consumer surplus, or
 
 $$
-S (p) \equiv \sum_ {i = 1} ^ {N} u _ {i} \left[ d _ {i} \left(p _ {i}\right) \right] - p ^ {\prime} d (p), \text {s o t h a t c o n s u m e r w e l f a r e c a n b e w r i t t e n a s :}
+S (p) \equiv \sum_{i = 1}^{N} u_{i} \left[ d_{i} \left(p_{i}\right) \right] - p^{\prime} d (p), \text{so th at co ns um er we lf ar ec an be wr it te na s :}
 $$
 
 $$
-\mathrm {V} ^ {\mathrm {h}} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} + \mathrm {S} (\mathrm {p}), \tag {9.7'}
+\mathrm{V}^{\mathrm{h}} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} + \mathrm{S} (\mathrm{p}), \tag {9.7'}
 $$
 
 with  $\partial S(p) / \partial p_i = -d_i(p_i)$ , by Roy's Identity.
@@ -5876,41 +5876,41 @@ with  $\partial S(p) / \partial p_i = -d_i(p_i)$ , by Roy's Identity.
 On the production side, each of the N industries has the production function  $y_{i} = f_{i}(L_{i},K_{i})$ , where capital  $K_{i}$  is specific to each sector. The numeraire commodity is produced with one unit of labor, so wages are fixed at unity. Given the product price  $p_{i}$  in each sector, the return to the specific factor in that sector is,
 
 $$
-\pi_ {i} \left(p _ {i}\right) = \max  _ {L _ {i}} \left[ p _ {i} f _ {i} \left(L _ {i}, K _ {i}\right) - L _ {i} \right]. \tag {9.8}
+\pi_{i} \left(p_{i}\right) = \max_{L_{i}} \left[ p_{i} f_{i} \left(L_{i}, K_{i}\right) - L_{i} \right]. \tag {9.8}
 $$
 
-From (9.8) we can determine the optimal outputs  $\pi_{\mathrm{i}}^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}_{\mathrm{i}}(\mathfrak{p}_{\mathrm{i}})$  in each industry. The international prices of the goods are fixed at  $\mathsf{p_i^*}$ , and each industry may receive a specific trade policy of  $\mathsf{t_i}$ ,  $i = 1,\ldots ,N$ , where  $\mathsf{t_i} > (< )$  0 indicates a tariff (subsidy) in an import industry, and a subsidy (tariff) in an export industry. Imports of each good are then  $\mathsf{m_i(p_i)} = \mathsf{d_i(p_i)L} - \mathsf{y_i(p_i)}$  (which are negative for exports), and tariff revenue collected is  $\mathrm{T(p) = \sum_{i = 1}^{N}(p_i - p_i^*)m_i(p_i)}$ . We assume that this revenue is redistributed by a poll subsidy of (T/L) per person.
+From (9.8) we can determine the optimal outputs  $\pi_{\mathrm{i}}^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}_{\mathrm{i}}(\mathfrak{p}_{\mathrm{i}})$  in each industry. The international prices of the goods are fixed at  $\mathsf{p_i^*}$ , and each industry may receive a specific trade policy of  $\mathsf{t_i}$ ,  $i = 1,\ldots ,N$ , where  $\mathsf{t_i} > (< )$  0 indicates a tariff (subsidy) in an import industry, and a subsidy (tariff) in an export industry. Imports of each good are then  $\mathsf{m_i(p_i)} = \mathsf{d_i(p_i)L} - \mathsf{y_i(p_i)}$  (which are negative for exports), and tariff revenue collected is  $\mathrm{T(p) = \sum_{i =1}^{N}(p_i - p_i^*)m_i(p_i)}$ . We assume that this revenue is redistributed by a poll subsidy of (T/L) per person.
 
 The specific factor in each industry  $i$  is owned by  $H_i$  members of the population, so that  $H = \sum_{i=1}^{N} H_i$  is the total number of persons owning some capital. For simplicity, we suppose that every individual also owns one unit of labor. The total population is  $L$ , so there are an additional  $(L - H) \geq 0$  persons who own one unit of labor but no capital. The owners of specific capital in each industry earn the return  $\pi_i(p_i)$  from (9.8), and obtain their wages of unity plus consumer
 
 surplus, along with re-distributed tariff revenue. Summing these various terms, the owners of specific capital in industry i earn:
 
 $$
-\mathrm {W} _ {\mathrm {i}} (\mathrm {p}) = \pi_ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) + \mathrm {H} _ {\mathrm {i}} [ 1 + \mathrm {S} (\mathrm {p}) ] + \left(\mathrm {H} _ {\mathrm {i}} / \mathrm {L}\right) \mathrm {T} (\mathrm {p}), \quad \mathrm {i} = 1, \dots , \mathrm {N}. \tag {9.9a}
+\mathrm{W}_{\mathrm{i}} (\mathrm{p}) = \pi_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) + \mathrm{H}_{\mathrm{i}} [ 1 + \mathrm{S} (\mathrm{p}) ] + \left(\mathrm{H}_{\mathrm{i}} / \mathrm{L}\right) \mathrm{T} (\mathrm{p}), \quad \mathrm{i} = 1, \dots , \mathrm{N}. \tag {9.9a}
 $$
 
 The remaining (L - H) persons obtain their wages plus consumer surplus, and re-distributed tariff revenue, so their welfare is:
 
 $$
-\mathrm {W} _ {0} (\mathrm {p}) = (\mathrm {L} - \mathrm {H}) [ 1 + \mathrm {S} (\mathrm {p}) ] + [ (\mathrm {L} - \mathrm {H}) / \mathrm {L} ] \mathrm {T} (\mathrm {p}). \tag {9.9b}
+\mathrm{W}_{0} (\mathrm{p}) = (\mathrm{L} - \mathrm{H}) [ 1 + \mathrm{S} (\mathrm{p}) ] + [ (\mathrm{L} - \mathrm{H}) / \mathrm{L} ] \mathrm{T} (\mathrm{p}). \tag {9.9b}
 $$
 
 Summing (9.9) over all workers and industries, we obtain total welfare,
 
 $$
-\mathrm {W} (\mathrm {p}) = \sum_ {\mathrm {i} = 0} ^ {\mathrm {N}} \mathrm {W} _ {\mathrm {i}} (\mathrm {p}) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \pi_ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) + \mathrm {L} [ 1 + \mathrm {S} (\mathrm {p}) ] + \mathrm {T} (\mathrm {p}). \tag {9.10}
+\mathrm{W} (\mathrm{p}) = \sum_{\mathrm{i} = 0}^{\mathrm{N}} \mathrm{W}_{\mathrm{i}} (\mathrm{p}) = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \pi_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) + \mathrm{L} [ 1 + \mathrm{S} (\mathrm{p}) ] + \mathrm{T} (\mathrm{p}). \tag {9.10}
 $$
 
 We suppose that a subset of the industries  $j \in J_{o}$  are organized into lobbies, while the complementary set  $j \in J_{u}$  are unorganized industries, with  $J_{o} \cup J_{u} = \{1,\dots,N\}$ . The purpose of each lobby is to provide contributions to the government in return for influencing the tariff/subsidy schedule. Specifically, they announce a campaign contribution schedule  $R_{j}(p)$  that they are willing to pay, depending on the vector of prices  $p_{i} = p_{i}^{*} + t_{i}$  prevailing across the industries,  $i = 1,\ldots ,N$ . The government values campaign contributions, but also weighs these against the consumer welfare of all individuals. Giving social welfare the weight of  $\alpha >0$ , Grossman and Helpman assume that the government chooses tariffs and subsidies  $t_i$  to maximize,
 
 $$
-G (p) = \sum_ {j \in J _ {0}} R _ {j} (p) + \alpha W (p). \tag {9.11}
+G (p) = \sum_{j \in J_{0}} R_{j} (p) + \alpha W (p). \tag {9.11}
 $$
 
 The key question is how the lobbies in industries  $j \in J_o$  determine their campaign contributions. The answer to this comes from the work of Bernheim and Whinston (1986). They argue that in the Nash equilibrium of the game we have described – with each lobby optimally choosing its contribution schedule  $R_j(p)$  taking as given the schedules of the other groups, and knowing that the tariffs will be chosen to maximize (9.11) – then the lobbies can do no better than to select a contribution schedule of the form:
 
 $$
-R _ {j} (p) = \max  \left\{0, W _ {j} (p) - B _ {j} \right\}, \quad j \in J _ {o}, \tag {9.12}
+R_{j} (p) = \max  \left\{0, W_{j} (p) - B_{j} \right\}, \quad j \in J_{o}, \tag {9.12}
 $$
 
 where  $\mathrm{B_j}$  is a constant. $^3$  Bernheim and Whinston refer to this as a truthful contribution schedule, since it reflects the true welfare levels  $\mathrm{W_j(p)}$  obtained by the lobby for various tariffs. They argue that a truthful Nash equilibrium, where each lobby uses a schedule like (9.12), is included among the equilibria of the game.
@@ -5918,7 +5918,7 @@ where  $\mathrm{B_j}$  is a constant. $^3$  Bernheim and Whinston refer to this 
 Accepting this result of Bernheim and Whinston (1986), we can substitute (9.12) into (9.11) to obtain:
 
 $$
-\mathrm {G} (\mathrm {p}) = \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {o}}} [ (1 + \alpha) \mathrm {W} _ {\mathrm {j}} (\mathrm {p}) - \mathrm {B} _ {\mathrm {j}} ] + \sum_ {\mathrm {j} \notin \mathrm {J} _ {\mathrm {o}}} \alpha \mathrm {W} _ {\mathrm {j}} (\mathrm {p}), \tag {9.11'}
+\mathrm{G} (\mathrm{p}) = \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} [ (1 + \alpha) \mathrm{W}_{\mathrm{j}} (\mathrm{p}) - \mathrm{B}_{\mathrm{j}} ] + \sum_{\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}} \alpha \mathrm{W}_{\mathrm{j}} (\mathrm{p}), \tag {9.11'}
 $$
 
 where the summation over  $\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}$  also include the welfare  $\mathrm{W}_0$  of workers with no capital. Notice that this statement of the government's objective function indicates that it gives differential weights to the welfare of organized and unorganized industries: the organized lobbies have the weight  $(1 + \alpha)$ , whereas other industries plus workers have the weight  $\alpha$ .
@@ -5926,49 +5926,49 @@ where the summation over  $\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}$  also incl
 Choosing the tariffs  $t_i$  to maximize (9.11') is equivalent to choosing the domestic prices  $p_j$ ,  $j \in J_o$  to maximize this. Before computing the first-order condition, we can differentiate welfare for an organized industry, unorganized industry and workers as:
 
 $$
-\frac {\partial \mathrm {W} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {j}}} = \mathrm {y} _ {\mathrm {j}} - \mathrm {H} _ {\mathrm {j}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {H} _ {\mathrm {j}}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \text {f o r j \in J _ {o}}, \tag {9.12a}
+\frac{\partial \mathrm{W}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{j}}} = \mathrm{y}_{\mathrm{j}} - \mathrm{H}_{\mathrm{j}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{H}_{\mathrm{j}}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \text{fo rj \inJ_{o}}, \tag {9.12a}
 $$
 
 $$
-\frac {\partial \mathrm {W} _ {\mathrm {i}}}{\partial \mathrm {p} _ {\mathrm {j}}} = - \mathrm {H} _ {\mathrm {i}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {H} _ {\mathrm {i}}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \text {f o r i \in J _ {u}}, \tag {9.12b}
+\frac{\partial \mathrm{W}_{\mathrm{i}}}{\partial \mathrm{p}_{\mathrm{j}}} = - \mathrm{H}_{\mathrm{i}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{H}_{\mathrm{i}}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \text{fo ri \inJ_{u}}, \tag {9.12b}
 $$
 
 $$
-\frac {\partial \mathrm {W} _ {0}}{\partial \mathrm {p} _ {\mathrm {j}}} = - (\mathrm {L} - \mathrm {H}) \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {L} - \mathrm {H}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \tag {9.12c}
+\frac{\partial \mathrm{W}_{0}}{\partial \mathrm{p}_{\mathrm{j}}} = - (\mathrm{L} - \mathrm{H}) \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{L} - \mathrm{H}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \tag {9.12c}
 $$
 
-where  $\mathrm{m_j = d_j(p_j)L - y_j(p_j)}$  is the imports of good j (which is negative for exports).
+where  $\mathrm{m_j =d_j(p_j)L -y_j(p_j)}$  is the imports of good j (which is negative for exports).
 
 Then multiply (9.12a) by  $(1 + \alpha)$ , and (9.12b) and (9.12c) by  $\alpha$ , and sum these over all organized and unorganized industries to obtain:
 
 $$
-\frac {\partial \mathrm {G}}{\partial \mathrm {p} _ {\mathrm {j}}} = (1 + \alpha) \mathrm {y} _ {\mathrm {j}} - \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {o}}} \mathrm {H} _ {\mathrm {j}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) - \alpha \mathrm {L} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + (\lambda_ {\mathrm {o}} + \alpha) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \mathrm {j} \in \mathrm {J} _ {\mathrm {o}}, \tag {9.13}
+\frac{\partial \mathrm{G}}{\partial \mathrm{p}_{\mathrm{j}}} = (1 + \alpha) \mathrm{y}_{\mathrm{j}} - \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} \mathrm{H}_{\mathrm{j}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) - \alpha \mathrm{L} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + (\lambda_{\mathrm{o}} + \alpha) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \mathrm{j} \in \mathrm{J}_{\mathrm{o}}, \tag {9.13}
 $$
 
 where  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} (\mathrm{H}_{\mathrm{j}} / \mathrm{L})$  denotes the fraction of the population owning a specific factor in an organized industry, and this first-order condition holds for an organized industry j. For an industry that is not organized into a lobby, the term  $(1 + \alpha) y_{j}$  that appears first on the right would be replaced by  $\alpha y_{j}$ , since the unorganized industry receives the weight  $\alpha$  rather than  $(1 + \alpha)$  in the government's objective function.
 
-We can make use of the definition of imports,  $\mathrm{m_j = d_j(p_j)L - y_j}$ , to simplify (9.13) as:
+We can make use of the definition of imports,  $\mathrm{m_j =d_j(p_j)L -y_j}$ , to simplify (9.13) as:
 
 $$
-\frac {\mathrm {d} \mathrm {G}}{\mathrm {d p} _ {\mathrm {j}}} = \mathrm {y} _ {\mathrm {j}} \left(1 - \lambda_ {\mathrm {o}}\right) + \left(\alpha + \lambda_ {\mathrm {o}}\right) \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}}, \quad \mathrm {j} \in \mathrm {J} _ {\mathrm {o}}, \tag {9.14}
+\frac{\mathrm{d} \mathrm{G}}{\mathrm{dp}_{\mathrm{j}}} = \mathrm{y}_{\mathrm{j}} \left(1 - \lambda_{\mathrm{o}}\right) + \left(\alpha + \lambda_{\mathrm{o}}\right) \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}}, \quad \mathrm{j} \in \mathrm{J}_{\mathrm{o}}, \tag {9.14}
 $$
 
 while for an industry without a lobby, the term  $y_{j} (1 - \lambda_{o})$  on the right is replaced by  $-y_{j} \lambda_{o}$ . Setting (9.14) and the modified condition for the unorganized industry equal to zero, we solve for the equilibrium tariffs  $t_{j} = (p_{j} - p_{j}^{*}), j = 1, \dots, N$ , as:
 
 $$
-\frac {t _ {j}}{p _ {j}} = - \left(\frac {\delta_ {j} - \lambda_ {o}}{\alpha + \lambda_ {o}}\right) \left(\frac {y _ {j}}{m _ {j}}\right) \left(\frac {\partial m _ {j}}{\partial p _ {j}} \frac {p _ {j}}{m _ {j}}\right) ^ {- 1}, \quad \text {w h e r e} \delta_ {j} = \left\{ \begin{array}{l l} 1 & \text {f o r} j \in J _ {o} \\ 0 & \text {o t h e r w i s e} \end{array} . \right. \tag {9.15}
+\frac{t_{j}}{p_{j}} = - \left(\frac{\delta_{j} - \lambda_{o}}{\alpha + \lambda_{o}}\right) \left(\frac{y_{j}}{m_{j}}\right) \left(\frac{\partial m_{j}}{\partial p_{j}} \frac{p_{j}}{m_{j}}\right)^{- 1}, \quad \text{wh er e} \delta_{j} = \left\{ \begin{array}{l l} 1 & \text{fo r} j \in J_{o} \\ 0 & \text{ot he rw is e} \end{array} . \right. \tag {9.15}
 $$
 
 This simple equation linking the tariffs/subsidies to underlying determinants is the key prediction of the "protection for sale" model of Grossman and Helpman (1994). To interpret it, notice that the import elasticity appearing in (9.15) is negative, while  $\delta_{\mathrm{j}}$  is an indicator variable that equal unity for organized industries j, and zero otherwise. Recall that  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} (\mathrm{H}_{\mathrm{j}} / \mathrm{L})$  equals the fraction of the population owning a specific factor in an organized industry. Then by inspection, for  $0 < \lambda_{\mathrm{o}} < 1$  the tariffs in (9.15) are negative (i.e. import subsidies or export taxes) for unorganized industries, but are positive (i.e. import tariffs or export subsidies) for industries organized into a lobby. On the other hand, if either  $\lambda = 0$  or  $\lambda = 1$  (no individuals or all individuals belong to a lobby), then the tariffs in (9.15) are all zero, so free trade is the political optimum.
 
 The result that unorganized industries receive import subsidies or export taxes serves as a way to lower their domestic prices and therefore benefit consumers. The fact that these instruments are seldom observed in reality may reflect political opposition to them, or some
 
-other reason. We do not take this to be a refutation of the "protection for sale" model, any more than we took the fact that tariffs are used in both capital-scarce and capital-abundant countries to be a refutation of the median voter model. Instead, to test the "protection for sale" model we look for other correlations implied by (9.15). Notice that the magnitude of the tariffs or subsidies depends on the ratio of production to imports  $(\mathrm{y_j / m_j})$ , and also on the inverse of the import demand elasticity. Having higher domestic production relative to imports will lead to higher import tariffs or export subsidies for organized industries (since then  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = 1 - \lambda_{\mathrm{o}} > 0$ ), but lower import tariffs or export subsidies for unorganized industries (where  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = -\lambda_{\mathrm{o}} < 0$ ). These are the key predictions that will be tested.
+other reason. We do not take this to be a refutation of the "protection for sale" model, any more than we took the fact that tariffs are used in both capital-scarce and capital-abundant countries to be a refutation of the median voter model. Instead, to test the "protection for sale" model we look for other correlations implied by (9.15). Notice that the magnitude of the tariffs or subsidies depends on the ratio of production to imports  $(\mathrm{y_j /m_j})$ , and also on the inverse of the import demand elasticity. Having higher domestic production relative to imports will lead to higher import tariffs or export subsidies for organized industries (since then  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = 1 - \lambda_{\mathrm{o}} > 0$ ), but lower import tariffs or export subsidies for unorganized industries (where  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = -\lambda_{\mathrm{o}} < 0$ ). These are the key predictions that will be tested.
 
 Goldberg and Maggi (1999) denote the import demand elasticity (measured as a positive number) by  $\mathrm{e_j}$ , and multiply (9.15) by this magnitude to obtain:
 
 $$
-\mathrm {e} _ {\mathrm {j}} \left(\frac {\mathrm {t} _ {\mathrm {j}}}{\mathrm {p} _ {\mathrm {j}}}\right) = \beta_ {0} + \beta_ {1} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) + \beta_ {2} \delta_ {\mathrm {j}} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) + \varepsilon_ {\mathrm {j}}, \tag {9.16}
+\mathrm{e}_{\mathrm{j}} \left(\frac{\mathrm{t}_{\mathrm{j}}}{\mathrm{p}_{\mathrm{j}}}\right) = \beta_{0} + \beta_{1} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) + \beta_{2} \delta_{\mathrm{j}} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) + \varepsilon_{\mathrm{j}}, \tag {9.16}
 $$
 
 where  $\beta_{1} = -[\lambda_{0} / (\alpha +\lambda_{0})]$ ,  $\beta_{2} = 1 / (\alpha +\lambda_{0})$ , and  $\beta_{0}$  is a constant term. Notice that  $\beta_{1} < 0$  indicates how the trade barriers vary with the output/import ratio in any industry, while  $\beta_{2} > 0$  reflects the additional impact of having the industry organized as a lobby. So a change in the output/import ratio in an unorganized industry affects the trade barrier by  $\beta_{1} < 0$ , and in an organized industry affects the trade barrier by  $(\beta_{1} + \beta_{2}) > 0$ .
@@ -5992,29 +5992,29 @@ Recall that  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\math
 Substituting  $\lambda_{\mathrm{o}} = \lambda_{\mathrm{k}}\mathfrak{n}_{\mathrm{o}}$  into (9.16), the predicted trade policies are:
 
 $$
-\frac {t _ {j}}{p _ {j}} = - \left(\frac {\delta_ {j} - \lambda_ {k} n _ {o}}{\alpha + \lambda_ {k} n _ {o}}\right) \left(\frac {y _ {j}}{m _ {j}}\right) \left(\frac {\partial m _ {j}}{\partial p _ {j}} \frac {p _ {j}}{m _ {j}}\right) ^ {- 1}, \quad \text {w h e r e} \delta_ {j} = \left\{ \begin{array}{l} 1 \text {f o r} j \in J _ {o} \\ 0 \text {o t h e r w i s e} \end{array} . \right. \tag {9.17}
+\frac{t_{j}}{p_{j}} = - \left(\frac{\delta_{j} - \lambda_{k} n_{o}}{\alpha + \lambda_{k} n_{o}}\right) \left(\frac{y_{j}}{m_{j}}\right) \left(\frac{\partial m_{j}}{\partial p_{j}} \frac{p_{j}}{m_{j}}\right)^{- 1}, \quad \text{wh er e} \delta_{j} = \left\{ \begin{array}{l} 1 \text{fo r} j \in J_{o} \\ 0 \text{ot he rw is e} \end{array} . \right. \tag {9.17}
 $$
 
-In the Grossman-Helpman model, a rise in either  $\lambda_{k}$  or  $n_o$  will lower  $(\mathrm{t_j / p_j})$  across all industries in (9.17). That is, holding the import demand elasticity and output/import ratio constant, we have:
+In the Grossman-Helpman model, a rise in either  $\lambda_{k}$  or  $n_o$  will lower  $(\mathrm{t_j /p_j})$  across all industries in (9.17). That is, holding the import demand elasticity and output/import ratio constant, we have:
 
 $$
-\frac {\mathrm {d} \left(\mathrm {t} _ {\mathrm {j}} / \mathrm {p} _ {\mathrm {j}}\right)}{\mathrm {d} \left(\lambda_ {\mathrm {k}} \mathrm {n} _ {\mathrm {o}}\right)} = \frac {\left(\alpha + \delta_ {\mathrm {j}}\right)}{\left(\alpha + \lambda_ {\mathrm {k}} \mathrm {n} _ {\mathrm {o}}\right) ^ {2}} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) \left(\frac {\partial \mathrm {m} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {j}}} \frac {\mathrm {p} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) ^ {- 1} <   0, \tag {9.18}
+\frac{\mathrm{d} \left(\mathrm{t}_{\mathrm{j}} / \mathrm{p}_{\mathrm{j}}\right)}{\mathrm{d} \left(\lambda_{\mathrm{k}} \mathrm{n}_{\mathrm{o}}\right)} = \frac{\left(\alpha + \delta_{\mathrm{j}}\right)}{\left(\alpha + \lambda_{\mathrm{k}} \mathrm{n}_{\mathrm{o}}\right)^{2}} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) \left(\frac{\partial \mathrm{m}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{j}}} \frac{\mathrm{p}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right)^{- 1} <   0, \tag {9.18}
 $$
 
-where the sign of (9.18) follows because the import demand elasticity is negative (or for exports, this supply elasticity is positive but  $(\mathrm{y_j / m_j})$  is negative). Continuing to hold this elasticity constant, if we also allow the output/import ratio to respond, then this would reinforce the negative sign on (9.18): the rise in either  $\lambda_{\mathrm{k}}$  or  $\mathfrak{n}_0$  will lower  $(\mathrm{t_j / p_j})$  as in (9.18), which lowers the domestic prices  $\mathrm{p_j} = \mathrm{p_j^* + t_j}$ , and further lowers the output/import ratio  $(\mathrm{y_j / m_j})$ .
+where the sign of (9.18) follows because the import demand elasticity is negative (or for exports, this supply elasticity is positive but  $(\mathrm{y_j /m_j})$  is negative). Continuing to hold this elasticity constant, if we also allow the output/import ratio to respond, then this would reinforce the negative sign on (9.18): the rise in either  $\lambda_{\mathrm{k}}$  or  $\mathfrak{n}_0$  will lower  $(\mathrm{t_j /p_j})$  as in (9.18), which lowers the domestic prices  $\mathrm{p_j} = \mathrm{p_j^* +t_j}$ , and further lowers the output/import ratio  $(\mathrm{y_j /m_j})$ .
 
-Now let us work this thought experiment in reverse. A decline in  $\lambda_{\mathrm{k}}$  corresponds to fewer people owning the stock of capital, which is a more unequal income distribution. This would raise  $(\mathrm{t_j / p_j})$  across all industries as in (9.18) and also raise all domestic prices, meaning that import tariffs and export subsidies rise in organized industries, while import subsidies and export taxes are reduced in unorganized import industries. It can be argued that this has a greater beneficial impact to the organized industries receiving protection than for the unorganized industries. $^6$  That would create an incentive for new groups to enter, so if  $\mathfrak{n}_0$  is treated as endogenous then it would rise. But that would offset the initial decline in  $\lambda_{\mathrm{k}}$ , since the increase in  $\mathfrak{n}_0$  would lower  $(\mathrm{t_j / p_j})$  in (9.17). So with the number of lobbies treated as endogenous, it is no longer clear whether a more unequal income distribution leads to more or less protection. That is the issue that Mitra (1999) aims to resolve.
+Now let us work this thought experiment in reverse. A decline in  $\lambda_{\mathrm{k}}$  corresponds to fewer people owning the stock of capital, which is a more unequal income distribution. This would raise  $(\mathrm{t_j /p_j})$  across all industries as in (9.18) and also raise all domestic prices, meaning that import tariffs and export subsidies rise in organized industries, while import subsidies and export taxes are reduced in unorganized import industries. It can be argued that this has a greater beneficial impact to the organized industries receiving protection than for the unorganized industries. $^6$  That would create an incentive for new groups to enter, so if  $\mathfrak{n}_0$  is treated as endogenous then it would rise. But that would offset the initial decline in  $\lambda_{\mathrm{k}}$ , since the increase in  $\mathfrak{n}_0$  would lower  $(\mathrm{t_j /p_j})$  in (9.17). So with the number of lobbies treated as endogenous, it is no longer clear whether a more unequal income distribution leads to more or less protection. That is the issue that Mitra (1999) aims to resolve.
 
-To model the entry of groups, we impose a high degree of symmetry on the model. We already assumed  $\mathrm{K_i}$  and  $\mathrm{H_i}$  do not vary across industries, and further assume that demand and production functions are symmetric across products, as are international prices. Then the tariff/subsidies computed from (9.16) will be  $\mathrm{t_o / p_o}$  for all organized industries, and  $\mathrm{t_u / p_u}$  for all unorganized industries. These policies depend on the product  $\mathrm{n_o}\lambda_{\mathrm{k}}$  from (9.17), reflecting on the fraction of organized industries (which will be endogenous), and the fraction of population that owns capital (which is exogenous). These policies fully determine the welfare  $\mathrm{W_o(n_o\lambda_k)}$  to capital-owners in organized industries, and welfare  $\mathrm{W_u(n_o\lambda_k)}$  to capital-owners in unorganized industries, as in (9.9a). The gross benefits to forming a lobby are then:
+To model the entry of groups, we impose a high degree of symmetry on the model. We already assumed  $\mathrm{K_i}$  and  $\mathrm{H_i}$  do not vary across industries, and further assume that demand and production functions are symmetric across products, as are international prices. Then the tariff/subsidies computed from (9.16) will be  $\mathrm{t_o /p_o}$  for all organized industries, and  $\mathrm{t_u /p_u}$  for all unorganized industries. These policies depend on the product  $\mathrm{n_o}\lambda_{\mathrm{k}}$  from (9.17), reflecting on the fraction of organized industries (which will be endogenous), and the fraction of population that owns capital (which is exogenous). These policies fully determine the welfare  $\mathrm{W_o(n_o\lambda_k)}$  to capital-owners in organized industries, and welfare  $\mathrm{W_u(n_o\lambda_k)}$  to capital-owners in unorganized industries, as in (9.9a). The gross benefits to forming a lobby are then:
 
 $$
-\Delta \mathrm {W} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) \equiv \mathrm {W} _ {\mathrm {o}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) - \mathrm {W} _ {\mathrm {u}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right), \tag {9.19}
+\Delta \mathrm{W} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) \equiv \mathrm{W}_{\mathrm{o}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) - \mathrm{W}_{\mathrm{u}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right), \tag {9.19}
 $$
 
 while the net benefits are obtained by subtracting the cost of political contributions:
 
 $$
-\mathrm {N B} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) \equiv \Delta \mathrm {W} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) - \mathrm {R} _ {\mathrm {o}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right). \tag {9.20}
+\mathrm{NB} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) \equiv \Delta \mathrm{W} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) - \mathrm{R}_{\mathrm{o}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right). \tag {9.20}
 $$
 
 Following Mitra, some properties of these schedules can be derived. Given the symmetry we have assumed, the gross benefits in (9.19) are simply the difference between the returns to the fixed factors in organized and unorganized industries:  $\Delta W(\mathrm{n_o}\lambda_{\mathrm{k}}) = \pi (\mathrm{p_o}) - \pi (\mathrm{p_u}) > 0$ . We argued above that as  $\lambda_{\mathrm{k}}$  declines, leading to a rise in the tariff/subsidies as in (9.18), this creates a greater beneficial on the organized than unorganized industries, so that  $\pi (\mathrm{p_o}) - \pi (\mathrm{p_u})$  increases and gross benefits rise. $^7$  Thus,  $\Delta W^{\prime}(\mathrm{n_o}\lambda_{\mathrm{k}}) < 0$ .
@@ -6023,7 +6023,7 @@ For net benefits, Mitra investigates the determinants of the truthful contributi
 
 What about the costs of forming a lobby? In addition to the political contributions, there may be some significant costs of grass-roots organizing and communication between members so as to overcome the free-rider problem. Let us denote these costs (measured in terms of the numeraire good) by  $\mathrm{C}(\mathrm{n}_0)$ , where we assume that  $\mathrm{C}'(\mathrm{n}_0) \geq 0$ , so the cost of creating a new lobby is non-decreasing in the number of lobbies already there. This cost schedule is also illustrated in Figures 9.1 and 9.2. Then we suppose that lobbies form up to the point where net benefits just equal to the costs of creating a new lobby, which is illustrated by the lobbies  $\mathrm{n}_0$  in both figures.
 
-Now consider the effect of a fall in  $\lambda_{\mathrm{k}}$ , which is a worsening of the income distribution. The impact effect from (9.17) (holding  $\mathfrak{n}_{\mathrm{o}}$  constant) would be an increase in  $(\mathrm{t_j / p_j})$  and higher domestic prices for all industries. This creates addition gains to organizing an industry, and in Figures 9.1 and 9.2, the net benefits schedule rises to  $\mathrm{NB^{\prime}}$ . Equivalently, net benefits remain the same if along with the decline in  $\lambda_{\mathrm{k}}$  there is an equi-proportional increase in  $\mathfrak{n}_{\mathrm{o}}$ , so that the net benefit curves shifting rightwards by the amount  $-\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}} = \mathrm{dn}_{\mathrm{o}} / \mathrm{n}_{\mathrm{o}}$ .
+Now consider the effect of a fall in  $\lambda_{\mathrm{k}}$ , which is a worsening of the income distribution. The impact effect from (9.17) (holding  $\mathfrak{n}_{\mathrm{o}}$  constant) would be an increase in  $(\mathrm{t_j /p_j})$  and higher domestic prices for all industries. This creates addition gains to organizing an industry, and in Figures 9.1 and 9.2, the net benefits schedule rises to  $\mathrm{NB^{\prime}}$ . Equivalently, net benefits remain the same if along with the decline in  $\lambda_{\mathrm{k}}$  there is an equi-proportional increase in  $\mathfrak{n}_{\mathrm{o}}$ , so that the net benefit curves shifting rightwards by the amount  $-\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}} = \mathrm{dn}_{\mathrm{o}} / \mathrm{n}_{\mathrm{o}}$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/ffaef204239a390a00832e2db94f2d725573efd3fc4057ef97aec3127d374900.jpg)
 Figure 9.1
@@ -6031,9 +6031,9 @@ Figure 9.1
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/3fd6f4c7ad76f1a55deccdc7255926fc665e65743a577ddeeea7a1f8438805a8.jpg)
 Figure 9.2
 
-In Figure 9.1, where the cost of organizing lobbies is increasing, the induced increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is clearly less than the rightward shift of the NB schedule. Therefore,  $\mathrm{dn_o / n_o < -d\lambda_k / \lambda_k}$ , and it follows that  $\mathrm{dn_o / n_o + d\lambda_k / \lambda_k < 0}$ , so that  $\mathrm{n_o\lambda_k}$  falls in equilibrium. This leads to an increase in the trade policies  $(\mathrm{t_j / p_j})$  from (9.17), so that organized industries receive higher import tariffs or export subsidies, and unorganized industries have reduced import subsidies or export taxes. Overall, there is a rise in domestic prices, and in this sense the net level of protection has increased due to the more concentrated income distribution and increased lobbying.
+In Figure 9.1, where the cost of organizing lobbies is increasing, the induced increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is clearly less than the rightward shift of the NB schedule. Therefore,  $\mathrm{dn_o /n_o < -d\lambda_k / \lambda_k}$ , and it follows that  $\mathrm{dn_o /n_o +d\lambda_k / \lambda_k <0}$ , so that  $\mathrm{n_o\lambda_k}$  falls in equilibrium. This leads to an increase in the trade policies  $(\mathrm{t_j /p_j})$  from (9.17), so that organized industries receive higher import tariffs or export subsidies, and unorganized industries have reduced import subsidies or export taxes. Overall, there is a rise in domestic prices, and in this sense the net level of protection has increased due to the more concentrated income distribution and increased lobbying.
 
-In Figure 9.2, by contrast, the cost of organizing lobbies is constant. In that case the increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is just equal to the rightward shift of the NB schedule, so that  $\mathrm{dn_o / n_o} = -\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}}$  and  $\mathrm{n_o}\lambda_{\mathrm{k}}$  is unchanged in equilibrium. Therefore the trade policies from (9.17) are also unchanged. We see that the overall impact of income inequality on protection is very sensitive to the structure of lobbying costs  $C(\mathrm{n_o})$ , which could reflect a wide range of legal and political features in a country. It would be difficult, then, to predict the effects of changes in income distribution on protection either within or across countries. This finding makes it all the more remarkable that in the median voter model, discussed earlier, Dutt and Mitra (2002) find a systematic (though non-monotonic) relationship between trade barriers and inequality. Obtaining such time-series or cross-country empirical results from the "protection for sale" model would be more difficult. That model is ideally suited, however, to explaining cross-industry trade protection, as we have already discussed.
+In Figure 9.2, by contrast, the cost of organizing lobbies is constant. In that case the increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is just equal to the rightward shift of the NB schedule, so that  $\mathrm{dn_o /n_o} = -\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}}$  and  $\mathrm{n_o}\lambda_{\mathrm{k}}$  is unchanged in equilibrium. Therefore the trade policies from (9.17) are also unchanged. We see that the overall impact of income inequality on protection is very sensitive to the structure of lobbying costs  $C(\mathrm{n_o})$ , which could reflect a wide range of legal and political features in a country. It would be difficult, then, to predict the effects of changes in income distribution on protection either within or across countries. This finding makes it all the more remarkable that in the median voter model, discussed earlier, Dutt and Mitra (2002) find a systematic (though non-monotonic) relationship between trade barriers and inequality. Obtaining such time-series or cross-country empirical results from the "protection for sale" model would be more difficult. That model is ideally suited, however, to explaining cross-industry trade protection, as we have already discussed.
 
 # Two-Country Model
 
@@ -6046,13 +6046,13 @@ Home and foreign prices differ due to tariffs in both countries. Suppose that th
 Using these prices, market clearing means that home imports equal foreign exports:
 
 $$
-\mathrm {m} \left(\mathrm {p} ^ {\mathrm {w}} \tau\right) = \mathrm {x} ^ {*} \left(\mathrm {p} ^ {\mathrm {w}} / \tau^ {*}\right) \quad \Rightarrow \quad \mathrm {p} ^ {\mathrm {w}} \left(\tau , \tau^ {*}\right). \tag {9.21}
+\mathrm{m} \left(\mathrm{p}^{\mathrm{w}} \tau\right) = \mathrm{x}^{*} \left(\mathrm{p}^{\mathrm{w}} / \tau^{*}\right) \quad \Rightarrow \quad \mathrm{p}^{\mathrm{w}} \left(\tau , \tau^{*}\right). \tag {9.21}
 $$
 
 This equation determines the world equilibrium price  $p^{\mathrm{W}}(\tau, \tau^{*})$ , depending the tariff in each country. Under the standard assumptions on the import demand and export supply curves, it is readily confirmed that:
 
 $$
-\frac {\mathrm {d p} ^ {\mathrm {w}}}{\mathrm {d} \tau} <   0 <   \frac {\mathrm {d p}}{\mathrm {d} \tau}, \quad \text {a n d} \quad \frac {\mathrm {d p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} > 0 > \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau^ {*}}. \tag {9.22}
+\frac{\mathrm{dp}^{\mathrm{w}}}{\mathrm{d} \tau} <   0 <   \frac{\mathrm{dp}}{\mathrm{d} \tau}, \quad \text{an d} \quad \frac{\mathrm{dp}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} > 0 > \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau^{*}}. \tag {9.22}
 $$
 
 In other words, the home tariff lowers the world price of imports for the home country and raises the domestic price, while the foreign tariff raises the world price of its exports and lowers its local price of the export good.
@@ -6060,7 +6060,7 @@ In other words, the home tariff lowers the world price of imports for the home c
 Let us now consider the government objective function in each country. In the median vote model the objective function was welfare of the median voter  $\mathrm{V}(\mathrm{p},\mathrm{I}^{\mathrm{m}})$ , where from (9.2') income of the median voter was:  $\mathrm{I}^{\mathrm{m}} = [(\rho^{\mathrm{m}} - 1)\mathrm{r}(\mathrm{p})\mathrm{K} + \mathrm{y}_0(\mathrm{p}) + \mathrm{py}(\mathrm{p}) + \mathrm{T}]$ . Using the ad valorem tariffs defined above, tariff revenue in this expression is  $\mathrm{T} = (\tau - 1)\mathrm{p}^{\mathrm{w}}[\mathrm{d}(\mathrm{p}) - \mathrm{y}(\mathrm{p})]$ . Because domestic prices are  $\mathfrak{p} = \mathfrak{p}^{\mathrm{w}}\tau$ , we can substitute this into tariff revenue and income, and obtain an expression for income that depends on the world price and domestic tariff,  $\mathrm{I}^{\mathrm{m}}(\mathrm{p}^{\mathrm{w}},\tau)$ . It follows that the objective of the home government is:
 
 $$
-\mathrm {G} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) = \mathrm {V} \left[ \mathrm {p} ^ {\mathrm {w}} \tau , \mathrm {I} ^ {\mathrm {m}} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) \right]. \tag {9.23}
+\mathrm{G} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) = \mathrm{V} \left[ \mathrm{p}^{\mathrm{w}} \tau , \mathrm{I}^{\mathrm{m}} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) \right]. \tag {9.23}
 $$
 
 Thus, the objective function of the home government can be written as a function of the world prices, and the tariff. Bagwell and Staiger argue that this formulation of the objective function is general enough to encompass a number of models, including the median voter model and the "protection for sale" model of Grossman and Helpman.[10]
@@ -6068,13 +6068,13 @@ Thus, the objective function of the home government can be written as a function
 Furthermore, it is readily verified that the tariffs in the median voter model (equation 9.4) or in the "protection for sale" model (equation 9.15), satisfy the first-order condition:
 
 $$
-\mathrm {G} _ {\tau} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) = 0. \tag {9.24a}
+\mathrm{G}_{\tau} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) = 0. \tag {9.24a}
 $$
 
 That is, these tariffs are obtained by maximizing the government's objective while treating the world price  $\mathfrak{p}^{\mathrm{w}}$  as fixed. For the foreign country there will be an analogous objective function  $G^{*}(p^{w},\tau^{*})$ , with first-order condition for the tariff:
 
 $$
-\mathrm {G} _ {\tau} ^ {*} \left(\mathrm {p} ^ {\mathrm {w}}, \tau^ {*}\right) = 0. \tag {9.24b}
+\mathrm{G}_{\tau}^{*} \left(\mathrm{p}^{\mathrm{w}}, \tau^{*}\right) = 0. \tag {9.24b}
 $$
 
 Bagwell and Staiger refer to the tariffs satisfying (9.24) as politically optimal.
@@ -6082,13 +6082,13 @@ Bagwell and Staiger refer to the tariffs satisfying (9.24) as politically optima
 However, the tariffs satisfying (9.24) will generally not be chosen by a government that recognizes its ability to influence the terms of trade. Instead, the tariffs would be chosen in the two countries to achieve:
 
 $$
-\frac {\mathrm {d}}{\mathrm {d} \tau} \mathrm {G} \left[ \mathrm {p} ^ {\mathrm {w}} \left(\tau , \tau^ {*}\right), \tau \right] = \mathrm {G} _ {\mathrm {p}} \frac {\partial \mathrm {p} ^ {\mathrm {w}}}{\partial \tau} + \mathrm {G} _ {\tau} = 0, \tag {9.25a}
+\frac{\mathrm{d}}{\mathrm{d} \tau} \mathrm{G} \left[ \mathrm{p}^{\mathrm{w}} \left(\tau , \tau^{*}\right), \tau \right] = \mathrm{G}_{\mathrm{p}} \frac{\partial \mathrm{p}^{\mathrm{w}}}{\partial \tau} + \mathrm{G}_{\tau} = 0, \tag {9.25a}
 $$
 
 and in the foreign country,
 
 $$
-\frac {\mathrm {d}}{\mathrm {d} \tau} \mathrm {G} ^ {*} [ \mathrm {p} ^ {\mathrm {w}} (\tau , \tau^ {*}), \tau^ {*} ] = \mathrm {G} _ {\mathrm {p}} ^ {*} \frac {\partial \mathrm {p} ^ {\mathrm {w}}}{\partial \tau^ {*}} + \mathrm {G} _ {\tau^ {*}} ^ {*} = 0. \tag {9.25b}
+\frac{\mathrm{d}}{\mathrm{d} \tau} \mathrm{G}^{*} [ \mathrm{p}^{\mathrm{w}} (\tau , \tau^{*}), \tau^{*} ] = \mathrm{G}_{\mathrm{p}}^{*} \frac{\partial \mathrm{p}^{\mathrm{w}}}{\partial \tau^{*}} + \mathrm{G}_{\tau^{*}}^{*} = 0. \tag {9.25b}
 $$
 
 Notice the obvious difference between the politically optimal tariffs in (9.24), and the first-order conditions (9.25) that incorporate the terms of trade effects. Bagwell and Staiger refer to the tariffs satisfying (9.25) as the Nash equilibrium tariffs, since they are the best response by each country given the tariff choice of the other.
@@ -6096,13 +6096,13 @@ Notice the obvious difference between the politically optimal tariffs in (9.24),
 The question then arises as to how the politically optimal tariffs (which ignore the terms of trade effects) compare with the Nash equilibrium tariffs (which incorporate these effects). To make this comparison, it is convenient to define the reduced form government objective functions as,
 
 $$
-\widetilde {G} (\tau , \tau^ {*}) \equiv G \left[ p ^ {w} (\tau , \tau^ {*}), \tau \right], \tag {9.26a}
+\widetilde {G} (\tau , \tau^{*}) \equiv G \left[ p^{w} (\tau , \tau^{*}), \tau \right], \tag {9.26a}
 $$
 
 and in the foreign country,
 
 $$
-\tilde {\mathrm {G}} ^ {*} (\tau , \tau^ {*}) \equiv \mathrm {G} ^ {*} [ \mathrm {p} ^ {\mathrm {w}} (\tau , \tau^ {*}), \tau^ {*} ]. \tag {9.26b}
+\tilde {\mathrm{G}}^{*} (\tau , \tau^{*}) \equiv \mathrm{G}^{*} [ \mathrm{p}^{\mathrm{w}} (\tau , \tau^{*}), \tau^{*} ]. \tag {9.26b}
 $$
 
 These give the objectives as functions of the tariffs in the two countries. Notice that the Nash equilibrium in (9.25a) can be equivalently written as  $\widetilde{G}_{\tau} = 0$ , which defines the best home response  $\tau = r(\tau^{*})$  to the foreign tariff. Similarly, the Nash equilibrium in (9.25b) can be written as,  $\widetilde{G}_{\tau^{*}}^{*} = 0$ , which defines the best foreign response  $\tau^{*} = r^{*}(\tau)$  to the home tariff.
@@ -6129,7 +6129,7 @@ Grossman and Helpman (1995a) demonstrate part (a) by explicitly calculating the 
 To demonstrate part (b) of this theorem, let us calculate the condition for tangency of the iso-curves of  $\widetilde{G}(\tau, \tau^*)$  and  $\widetilde{G}^*(\tau, \tau^*)$ . This is  $\widetilde{G}_{\tau} / \widetilde{G}_{\tau^*} = \widetilde{G}_{\tau}^* / \widetilde{G}_{\tau^*}^*$ . Using the definition of these reduced-form objective functions in (9.26), we can re-write this tangency condition as:
 
 $$
-\frac {\mathrm {G} _ {\tau} + \mathrm {G} _ {\mathrm {p}} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau}{\mathrm {G} _ {\mathrm {p}} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau^ {*}} = \frac {\mathrm {G} _ {\mathrm {p}} ^ {*} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau}{\mathrm {G} _ {\tau^ {*}} ^ {*} + \mathrm {G} _ {\mathrm {p}} ^ {*} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau^ {*}}. \tag {9.27}
+\frac{\mathrm{G}_{\tau} + \mathrm{G}_{\mathrm{p}} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau}{\mathrm{G}_{\mathrm{p}} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau^{*}} = \frac{\mathrm{G}_{\mathrm{p}}^{*} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau}{\mathrm{G}_{\tau^{*}}^{*} + \mathrm{G}_{\mathrm{p}}^{*} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau^{*}}. \tag {9.27}
 $$
 
 Now substitute in the condition for the politically optimal tariffs,  $\mathrm{G}_{\tau} = \mathrm{G}_{\tau^{*}}^{*} = 0$ . Then (9.27)
@@ -6143,7 +6143,7 @@ How is reciprocity applied in practice? Bagwell and Staiger suggest the followin
 and  $\mathbf{x}^{*0} = \mathbf{m}^{0}$ . Therefore, Bagwell and Staiger's definition of reciprocity implies:
 
 $$
-\underbrace {\mathrm {p} ^ {\mathrm {w} 0} \Delta \mathrm {m} = \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {1} - \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {0}} _ {\Delta \text {H o m e i m p o r t s}} = \underbrace {\Delta \mathrm {m} ^ {*} = \mathrm {p} ^ {\mathrm {w} 1} \mathrm {m} ^ {1} - \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {0}} _ {\Delta \text {F o r g i n i m p o r t s}}. \tag {9.28}
+\underbrace {\mathrm{p}^{\mathrm{w} 0} \Delta \mathrm{m} = \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{1} - \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{0}}_{\Delta \text{Ho me im po rt s}} = \underbrace {\Delta \mathrm{m}^{*} = \mathrm{p}^{\mathrm{w} 1} \mathrm{m}^{1} - \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{0}}_{\Delta \text{Fo rg in im po rt s}}. \tag {9.28}
 $$
 
 By inspection, this equality is satisfied if and only if world prices are constant,  $\mathfrak{p}^{\mathrm{w1}} = \mathfrak{p}^{\mathrm{w0}}$ . So the implication of reciprocity in the two-country model is that mutual tariff reductions should leave the world price unchanged.
@@ -6151,7 +6151,7 @@ By inspection, this equality is satisfied if and only if world prices are consta
 Totally differentiating the world price  $\mathfrak{p}^{\mathrm{w}}(\tau, \tau^{*})$ , it is unchanged when:
 
 $$
-\frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau} \mathrm {d} \tau + \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} \mathrm {d} \tau^ {*} = 0 \quad \Rightarrow \quad \frac {\mathrm {d} \tau}{\mathrm {d} \tau^ {*}} = - \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} / \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau} > 0, \tag {9.29}
+\frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau} \mathrm{d} \tau + \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} \mathrm{d} \tau^{*} = 0 \quad \Rightarrow \quad \frac{\mathrm{d} \tau}{\mathrm{d} \tau^{*}} = - \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} / \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau} > 0, \tag {9.29}
 $$
 
 where the positive sign follows from the inequalities in (9.22). The locus of tariffs along which the world price  $p^{\mathrm{W}}(\tau, \tau^{*})$  is held fixed at its Nash-equilibrium level is illustrated by PP in Figure 9.4. Since this line has a positive slope, and the iso-curves of  $\tilde{G}(\tau, \tau^{*})$  and  $\tilde{G}^{*}(\tau, \tau^{*})$  have slopes of infinity and zero at point N, the PP locus clearly falls inside the region bounded by those iso-curve. Therefore, reciprocal reductions in tariffs from the Nash equilibrium raise the government objective function for both countries. This result provides strong justification for the GATT principle of reciprocity.
@@ -6236,16 +6236,16 @@ introduce here the idea that they may enter a market to "jump the tariff," i.e. 
 Consumers are assumed to have preferences over an additively separable numeraire good  $\mathrm{d}_0$ , and a CES aggregate denoted by  $\mathrm{D}$ ,
 
 $$
-\mathrm {U} = \mathrm {d} _ {0} + \left(\frac {\gamma}{\gamma - 1}\right) \mathrm {D} ^ {(\gamma - 1) / \gamma}, \quad \gamma > 0, \gamma \neq 1, \tag {9.30a}
+\mathrm{U} = \mathrm{d}_{0} + \left(\frac{\gamma}{\gamma - 1}\right) \mathrm{D}^{(\gamma - 1) / \gamma}, \quad \gamma > 0, \gamma \neq 1, \tag {9.30a}
 $$
 
 where the CES aggregate is,
 
 $$
-\mathrm {D} = \left[ \mathrm {N} _ {\mathrm {h}} \mathrm {d} _ {\mathrm {h}} ^ {(\sigma - 1) / \sigma} + \left(\mathrm {N} _ {\mathrm {f}} - \mathrm {M}\right) \mathrm {d} _ {\mathrm {f}} ^ {(\sigma - 1) / \sigma} + \mathrm {M d} _ {\mathrm {m}} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)}, \sigma > 1. \tag {9.30b}
+\mathrm{D} = \left[ \mathrm{N}_{\mathrm{h}} \mathrm{d}_{\mathrm{h}}^{(\sigma - 1) / \sigma} + \left(\mathrm{N}_{\mathrm{f}} - \mathrm{M}\right) \mathrm{d}_{\mathrm{f}}^{(\sigma - 1) / \sigma} + \mathrm{Md}_{\mathrm{m}}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)}, \sigma > 1. \tag {9.30b}
 $$
 
-The values  $\mathrm{d_j}$  denotes consumption of the differentiated varieties from sources:  $\mathrm{j = h}$  (home firms), of which there are  $\mathbf{N_h}$  in number;  $\mathrm{j = f}$  (foreign imported products), of which there are  $(\mathbf{N_f} - \mathbf{M})$ ; and  $\mathrm{j = m}$  (multinationals in China) of which there are  $\mathbf{M}$ . As usual,  $\sigma$  is the elasticity of substitution across individual varieties, while  $\gamma$  is the elasticity of demand for the aggregate good D, and we add the restriction that  $\sigma > \gamma$ .
+The values  $\mathrm{d_j}$  denotes consumption of the differentiated varieties from sources:  $\mathrm{j =h}$  (home firms), of which there are  $\mathbf{N_h}$  in number;  $\mathrm{j =f}$  (foreign imported products), of which there are  $(\mathbf{N_f} - \mathbf{M})$ ; and  $\mathrm{j =m}$  (multinationals in China) of which there are  $\mathbf{M}$ . As usual,  $\sigma$  is the elasticity of substitution across individual varieties, while  $\gamma$  is the elasticity of demand for the aggregate good D, and we add the restriction that  $\sigma > \gamma$ .
 
 Branstetter and Feenstra (2002) suppose that the domestic industry is owned by the government, as with state-owned firms in China. The profits earned by these firms receive extra weight in the government's objective function.[16] The presence of multinationals presents a
 
@@ -6262,7 +6262,7 @@ Each foreign firm faces the decision of whether to supply locally through import
 The net profits earned locally are thus  $(1 - \tau)\pi_{\mathrm{m}} - \mathrm{F}$ , where  $\pi_{\mathrm{m}} = \mathrm{p}_{\mathrm{m}}\mathrm{d}_{\mathrm{m}} / \sigma$  is profits under the standard CES markup-pricing rule. Alternately, the multinational could just export to the home country, and earn  $\pi_{\mathrm{f}} = \mathrm{p}_{\mathrm{f}}\mathrm{d}_{\mathrm{f}} / \sigma$ . Thus, entry will occur if and only if  $(1 - \tau)\pi_{\mathrm{m}} - \mathrm{F} \geq \pi_{\mathrm{f}}$ . This condition is written as:
 
 $$
-(1 - \tau) \frac {\mathrm {p} _ {\mathrm {m}} \mathrm {d} _ {\mathrm {m}}}{\sigma} - \mathrm {F} \geq \frac {\mathrm {p} _ {\mathrm {f}} \mathrm {d} _ {\mathrm {f}}}{\sigma}. \tag {9.31}
+(1 - \tau) \frac{\mathrm{p}_{\mathrm{m}} \mathrm{d}_{\mathrm{m}}}{\sigma} - \mathrm{F} \geq \frac{\mathrm{p}_{\mathrm{f}} \mathrm{d}_{\mathrm{f}}}{\sigma}. \tag {9.31}
 $$
 
 Entry is influenced through the profits tax  $\tau$  and the specific tariff  $t$ , so the number of multinational firms is written as a function  $\mathbf{M}(\tau, t)$ . Multinationals react in the expected manner to changes in these policies: when (9.31) holds as an equality, then  $\mathrm{dM} / \mathrm{d}\tau < 0$  and  $\mathrm{dM} / \mathrm{dt} > 0$ .
@@ -6270,7 +6270,7 @@ Entry is influenced through the profits tax  $\tau$  and the specific tariff  $t
 We now define the government's objective function over the various interest groups, beginning with consumer/worker utility  $U$ , which receives a weight of  $\alpha$ . The profits of the home state-owned firms are  $N_{h}\pi_{h} = N_{h}p_{h}d_{h} / \sigma$ , which accrue to the regional and national government. We give revenue from state-owned firms a weight  $\beta$  in the objective function. Finally, the government extracts rents  $M\tau \pi_{m}$  from the multinationals, and also collects tariff revenue of  $(N_{f} - M)td_{f}$ . These two sources of revenue are each given weights of unity. The objective function for each province is then defined by,
 
 $$
-\mathrm {G} (\mathrm {M}, \tau , \mathrm {t}) \equiv \alpha \mathrm {U} + \beta \mathrm {N} _ {\mathrm {h}} \pi_ {\mathrm {h}} + \mathrm {M} \tau \pi_ {\mathrm {m}} + (\mathrm {N} _ {\mathrm {f}} - \mathrm {M}) \mathrm {t d} _ {\mathrm {f}}, \tag {9.32}
+\mathrm{G} (\mathrm{M}, \tau , \mathrm{t}) \equiv \alpha \mathrm{U} + \beta \mathrm{N}_{\mathrm{h}} \pi_{\mathrm{h}} + \mathrm{M} \tau \pi_{\mathrm{m}} + (\mathrm{N}_{\mathrm{f}} - \mathrm{M}) \mathrm{td}_{\mathrm{f}}, \tag {9.32}
 $$
 
 where the multinationals entering each province are endogenously determined from (9.31).
@@ -6278,13 +6278,13 @@ where the multinationals entering each province are endogenously determined from
 We suppose that the central and the provincial governments jointly determine the rents appropriated from the multinationals. The central government also chooses the tariff rate. Denoting provinces by the subscript i, we let  $\mathrm{G_i}[\mathrm{M_i}(\tau_i,t),\tau_i,t]$  denote the objective function (9.32) for each. Then the profit tax and tariff are chosen to solve:
 
 $$
-\max  _ {\tau_ {i}, t} \sum_ {i} G _ {i} \left[ M _ {i} \left(\tau_ {i}, t\right), \tau_ {i}, t \right]. \tag {9.33}
+\max_{\tau_{i}, t} \sum_{i} G_{i} \left[ M_{i} \left(\tau_{i}, t\right), \tau_{i}, t \right]. \tag {9.33}
 $$
 
 We solve (9.33) over the choice of the profits tax rate  $\tau_{\mathrm{i}}$ , while a discussion of the solution for tariffs  $t$  is in Branstetter and Feenstra (2002). Differentiating (9.33), the first-order condition is that  $\partial \mathrm{G_i} / \partial \mathrm{M_i} = -\mathrm{M_i}\pi_{\mathrm{mi}} / (\partial \mathrm{M_i} / \partial \tau_{\mathrm{i}})$ . This means that the gain from attracting one more multinational  $(\partial \mathrm{G_i} / \partial \mathrm{M_i})$  is just balanced against the fall in the revenue  $\tau_{\mathrm{i}}\mathrm{M}_{\mathrm{i}}\pi_{\mathrm{mi}}$  when the tax rate is lowered to attract another multinational. That is, the regions are acting as monopsonists in attracting foreign capital. This first-order condition for the choice of  $\tau_{\mathrm{i}}$  can be written as:19
 
 $$
-\mathrm {s} _ {\mathrm {m i}} = - \beta \mathrm {s} _ {\mathrm {h i}} + \eta \left(\frac {\mathrm {w} _ {\mathrm {i}} - 1}{\mathrm {w} _ {\mathrm {i}}}\right) + \alpha (\sigma - 1) \left(\frac {\mathrm {w} _ {\mathrm {i}} - 1}{\mathrm {w} _ {\mathrm {i}}}\right) \left(\mathrm {s} _ {\mathrm {h i}} + \mathrm {s} _ {\mathrm {f i}}\right) - \sigma \left(\frac {\mathrm {t}}{\mathrm {p} _ {\mathrm {f}}}\right) \mathrm {s} _ {\mathrm {f i}} + \left(\frac {\mathrm {M} _ {\mathrm {i}}}{\mathrm {N} _ {\mathrm {f}} - \mathrm {M} _ {\mathrm {i}}}\right) \mathrm {s} _ {\mathrm {f i}} + \varepsilon_ {\mathrm {i}}, (9. 3 4)
+\mathrm{s}_{\mathrm{mi}} = - \beta \mathrm{s}_{\mathrm{hi}} + \eta \left(\frac{\mathrm{w}_{\mathrm{i}} - 1}{\mathrm{w}_{\mathrm{i}}}\right) + \alpha (\sigma - 1) \left(\frac{\mathrm{w}_{\mathrm{i}} - 1}{\mathrm{w}_{\mathrm{i}}}\right) \left(\mathrm{s}_{\mathrm{hi}} + \mathrm{s}_{\mathrm{fi}}\right) - \sigma \left(\frac{\mathrm{t}}{\mathrm{p}_{\mathrm{f}}}\right) \mathrm{s}_{\mathrm{fi}} + \left(\frac{\mathrm{M}_{\mathrm{i}}}{\mathrm{N}_{\mathrm{f}} - \mathrm{M}_{\mathrm{i}}}\right) \mathrm{s}_{\mathrm{fi}} + \varepsilon_{\mathrm{i}}, (9. 3 4)
 $$
 
 where  $s_j$ ,  $j = h, f, m$  denotes the share of provincial consumption purchased from home state-owned firms, imported products, or multinational products, respectively, and  $\varepsilon_i$  is a term involving unobserved profit levels that is treated as a random error.
@@ -6351,7 +6351,7 @@ In the model of Mitra (1999), organized and unorganized industries are treated a
 9.1 Consider the return to the specific-factor in sector i, from (9.8):
 
 $$
-\pi (\mathrm {p _ {i}}) = \max _ {\mathrm {L _ {i}}} [ \mathrm {p _ {i} f (L _ {i} , K) - L _ {i}} ],
+\pi (\mathrm{p_{i}}) = \max_{\mathrm{L_{i}}} [ \mathrm{p_{i} f (L_{i} , K) - L_{i}} ],
 $$
 
 where we assume that  $\mathrm{f_{LL}} < 0$ . By differentiating the first-order condition for this problem and using  $\pi^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}(\mathfrak{p}_{\mathrm{i}})$ , show that profits are a convex function of the industry price.
@@ -6359,7 +6359,7 @@ where we assume that  $\mathrm{f_{LL}} < 0$ . By differentiating the first-order
 9.2 Replace  $\lambda_{\mathrm{k}}\mathrm{n}_{\mathrm{o}}$  with  $\lambda_{\mathrm{o}}$  in (9.17), and rewrite the optimal tariff  $\mathfrak{t}_0 > 0$  and subsidy  $\mathfrak{t}_{\mathfrak{u}} < 0$  as,
 
 $$
-\mathrm {t} _ {\mathrm {j}} = \left(\frac {\delta_ {\mathrm {j}} - \lambda_ {\mathrm {o}}}{\alpha + \lambda_ {\mathrm {o}}}\right) \mathrm {y} (\mathrm {p} _ {\mathrm {j}}) \left| \frac {\partial \mathrm {m}}{\partial \mathrm {p} _ {\mathrm {j}}} \right| ^ {- 1}, \quad \text {w h e r e} \delta_ {\mathrm {o}} = 1 \text {a n d} \delta_ {\mathrm {u}} = 0.
+\mathrm{t}_{\mathrm{j}} = \left(\frac{\delta_{\mathrm{j}} - \lambda_{\mathrm{o}}}{\alpha + \lambda_{\mathrm{o}}}\right) \mathrm{y} (\mathrm{p}_{\mathrm{j}}) \left| \frac{\partial \mathrm{m}}{\partial \mathrm{p}_{\mathrm{j}}} \right|^{- 1}, \quad \text{wh er e} \delta_{\mathrm{o}} = 1 \text{an d} \delta_{\mathrm{u}} = 0.
 $$
 
 Output depends on the industry price, but for convenience, we treat the import derivative as fixed and equal across industries. Then compute  $\frac{\mathrm{dt}_0}{\mathrm{d}\lambda_0}$  and  $\frac{\mathrm{dt}_u}{\mathrm{d}\lambda_0}$ , and show that  $\left|\frac{\mathrm{dt}_0}{\mathrm{d}\lambda_0}\right| > \left|\frac{\mathrm{dt}_u}{\mathrm{d}\lambda_0}\right|$ .
@@ -6381,25 +6381,25 @@ What formula is used for  $\alpha$ , and for its variance and standard error? Ju
 Hint: Consider the easier case of taking the difference between  $\alpha$  and  $\beta$ . Then:
 
 $$
-\operatorname {v a r} (\alpha - \beta) = \operatorname {E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ] ^ {2} = \operatorname {E} \operatorname {f} (\alpha , \beta),
+\operatorname{va r} (\alpha - \beta) = \operatorname{E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ]^{2} = \operatorname{E} \operatorname{f} (\alpha , \beta),
 $$
 
 where  $f(\alpha, \beta)$  is the quadratic function indicated. To compute this expected value, we take a second-order Taylor series expansion:
 
 $$
-\begin{array}{l} f (\alpha , \beta) \approx f (\overline {{\alpha}}, \overline {{\beta}}) + f _ {\alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) + f _ {\beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) \\ + \frac {1}{2} \mathrm {f} _ {\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) ^ {2} + \frac {1}{2} \mathrm {f} _ {\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) ^ {2} + \mathrm {f} _ {\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) (\beta - \overline {{\beta}}). \\ \end{array}
+\begin{array}{l} f (\alpha , \beta) \approx f (\overline {{\alpha}}, \overline {{\beta}}) + f_{\alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) + f_{\beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) \\ + \frac{1}{2} \mathrm{f}_{\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}})^{2} + \frac{1}{2} \mathrm{f}_{\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}})^{2} + \mathrm{f}_{\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) (\beta - \overline {{\beta}}). \\ \end{array}
 $$
 
 It follows that,
 
 $$
-\operatorname {E f} (\alpha , \beta) \approx \frac {1}{2} \mathrm {f} _ {\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_ {\alpha} ^ {2} + \frac {1}{2} \mathrm {f} _ {\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_ {\beta} ^ {2} + \mathrm {f} _ {\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) \operatorname {c o v} (\alpha , \beta).
+\operatorname{Ef} (\alpha , \beta) \approx \frac{1}{2} \mathrm{f}_{\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_{\alpha}^{2} + \frac{1}{2} \mathrm{f}_{\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_{\beta}^{2} + \mathrm{f}_{\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) \operatorname{co v} (\alpha , \beta).
 $$
 
 So computing the derivatives of the quadratic function  $f(\alpha, \beta)$ , we obtain,
 
 $$
-\operatorname {v a r} (\alpha - \beta) = \operatorname {E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ] ^ {2} \approx \sigma_ {\alpha} ^ {2} + \sigma_ {\beta} ^ {2} - 2 \operatorname {c o v} (\alpha , \beta).
+\operatorname{va r} (\alpha - \beta) = \operatorname{E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ]^{2} \approx \sigma_{\alpha}^{2} + \sigma_{\beta}^{2} - 2 \operatorname{co v} (\alpha , \beta).
 $$
 
 Now given the formula for  $\alpha$ , use the same approach to justify its variance.
@@ -6411,7 +6411,7 @@ At various points throughout this book we have relied on index numbers to measur
 We begin with some examples of price indexes. Let  $p = (p_1, \ldots, p_N) > 0$  denote a vector of prices, and  $q = (q_1, \ldots, q_N) \geq 0$  denote the corresponding vector of quantities. We let  $p^i$  and  $q^i$  denote these vectors in situation  $i = 0, 1$ . We can think of  $i = 0, 1$  as measuring two time periods, or later in the Appendix, as measuring two countries. A bilateral index number formula  $P(p^0, p^1, q^0, q^1)$  uses just this information on prices and quantities to measure the "average" change in prices from situation 0 to 1. For example, the Laspeyres price index is:
 
 $$
-\mathrm {P} _ {\mathrm {L}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \equiv \frac {\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} ^ {0} \mathrm {p} _ {\mathrm {i}} ^ {1}}{\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} ^ {0} \mathrm {p} _ {\mathrm {i}} ^ {0}}. \tag {A1}
+\mathrm{P}_{\mathrm{L}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \equiv \frac{\sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}}^{0} \mathrm{p}_{\mathrm{i}}^{1}}{\sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}}^{0} \mathrm{p}_{\mathrm{i}}^{0}}. \tag {A1}
 $$
 
 Thus, the Laspeyres weights the prices in each period by the quantities in the base period.
@@ -6419,13 +6419,13 @@ Thus, the Laspeyres weights the prices in each period by the quantities in the b
 Conversely, if we use the current period quantities to weight the prices, we obtain the Paasche price index:
 
 $$
-\mathrm {P} _ {\mathrm {P}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \equiv \frac {\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} ^ {1} \mathrm {p} _ {\mathrm {i}} ^ {1}}{\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {q} _ {\mathrm {i}} ^ {1} \mathrm {p} _ {\mathrm {i}} ^ {0}}. \tag {A2}
+\mathrm{P}_{\mathrm{P}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \equiv \frac{\sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}}^{1} \mathrm{p}_{\mathrm{i}}^{1}}{\sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{q}_{\mathrm{i}}^{1} \mathrm{p}_{\mathrm{i}}^{0}}. \tag {A2}
 $$
 
 We might expect the Paasche price index to give a lower value than the Laspeyres index when applied to a consumer choice problem, because by using current period quantities, the Paasche index incorporates consumer substitution away from goods with the highest price increase. We will show below that this is indeed the case. A third commonly used formula is Irving Fisher's (1922) ideal price index,  $\mathrm{P_F}$ :
 
 $$
-\mathrm {P} _ {\mathrm {F}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \equiv \left[ \mathrm {P} _ {\mathrm {L}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \mathrm {P} _ {\mathrm {P}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \right] ^ {1 / 2}. \tag {A3}
+\mathrm{P}_{\mathrm{F}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \equiv \left[ \mathrm{P}_{\mathrm{L}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \mathrm{P}_{\mathrm{P}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \right]^{1 / 2}. \tag {A3}
 $$
 
 which is the geometric mean of the Laspeyres and Paasche indexes.
@@ -6433,13 +6433,13 @@ which is the geometric mean of the Laspeyres and Paasche indexes.
 Another important formula is the Tornqvist (1936) price index  $\mathbf{P}_{\mathrm{T}}$ , defined as a geometric mean of the price ratios  $(p_{i}^{1} / p_{i}^{0})$ , using as weights the average of the expenditure shares  $s_i^0 \equiv p_i^0 q_i^0 / \sum_{i=1}^{N} p_i^0 q_i^0$  and  $s_i^1 \equiv p_i^1 q_i^1 / \sum_{i=1}^{N} p_i^1 q_i^1$  in the two periods:
 
 $$
-\mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \equiv \prod_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\mathrm {p} _ {\mathrm {i}} ^ {1} / \mathrm {p} _ {\mathrm {i}} ^ {0}\right) ^ {\left(\mathrm {s} _ {\mathrm {i}} ^ {0} + \mathrm {s} _ {\mathrm {i}} ^ {1}\right) / 2}, \tag {A4}
+\mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \equiv \prod_{\mathrm{i} = 1}^{\mathrm{N}} \left(\mathrm{p}_{\mathrm{i}}^{1} / \mathrm{p}_{\mathrm{i}}^{0}\right)^{\left(\mathrm{s}_{\mathrm{i}}^{0} + \mathrm{s}_{\mathrm{i}}^{1}\right) / 2}, \tag {A4}
 $$
 
 or in logs,
 
 $$
-\ln \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} (1 / 2) \left(\mathrm {s} _ {\mathrm {i}} ^ {0} + \mathrm {s} _ {\mathrm {i}} ^ {1}\right) \ln \left(\mathrm {p} _ {\mathrm {i}} ^ {1} / \mathrm {p} _ {\mathrm {i}} ^ {0}\right). \tag {A4'}
+\ln \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) = \sum_{\mathrm{i} = 1}^{\mathrm{N}} (1 / 2) \left(\mathrm{s}_{\mathrm{i}}^{0} + \mathrm{s}_{\mathrm{i}}^{1}\right) \ln \left(\mathrm{p}_{\mathrm{i}}^{1} / \mathrm{p}_{\mathrm{i}}^{0}\right). \tag {A4'}
 $$
 
 How can we choose between these various formulas? The economic approach to index numbers is to ask how well each formula reflects the behaviour of consumers or firms. On the consumer side, we would need to take into account that tastes may be non-homothetic (see Diewert, 1974, and Pollack, 1989). We will focus here on the problem for firms, where we consider either an index of the input prices faced by a firm or the output prices. In either case, we will also want to develop an index of productivity change for the firm, and with an open economy, an index of the terms of trade.
@@ -6449,7 +6449,7 @@ How can we choose between these various formulas? The economic approach to index
 Let  $\mathfrak{p} = (\mathfrak{p}_1, \ldots, \mathfrak{p}_{\mathrm{N}})$  denote a positive vector of input prices that producers face in period t, and let y denote an M dimensional vector of nonnegative outputs that the production sector might be asked to produce in period t. Then the cost function using period t technology is defined as:
 
 $$
-C ^ {t} (p, y) \equiv \min  _ {q} \left\{p ^ {\prime} q: (q, y) \text {b e l o n g s t o} S ^ {t} \right\}, \tag {A5}
+C^{t} (p, y) \equiv \min_{q} \left\{p^{\prime} q: (q, y) \text{be lo ng st o} S^{t} \right\}, \tag {A5}
 $$
 
 where  $S^t$  denotes the period  $t$  technology set. Thus  $C^t(p, y)$  is the minimum cost that the economy can achieve in period  $t$ , given that the vector of outputs  $y$  must be produced. Productivity improvements are reflected in an expansion of the technology set  $S^t$ , and this is why the cost function  $C^t(p, y)$  is also indexed by the period  $t = 0, 1$ .
@@ -6459,7 +6459,7 @@ Generally, the goal of price and productivity indexes will be to measure changes
 Toward this end, we can use the function  $C^t$  to define the economy's period  $t$  technology theoretical input price index  $P^t$  between any two periods, say period 0 and period 1, as follows:
 
 $$
-\mathrm {P} ^ {\mathrm {t}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y}\right) = \mathrm {C} ^ {\mathrm {t}} \left(\mathrm {p} ^ {1}, \mathrm {y}\right) / \mathrm {C} ^ {\mathrm {t}} \left(\mathrm {p} ^ {0}, \mathrm {y}\right), \tag {A6}
+\mathrm{P}^{\mathrm{t}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}\right) = \mathrm{C}^{\mathrm{t}} \left(\mathrm{p}^{1}, \mathrm{y}\right) / \mathrm{C}^{\mathrm{t}} \left(\mathrm{p}^{0}, \mathrm{y}\right), \tag {A6}
 $$
 
 where  $\mathbf{p}^{\mathrm{t}}$  is the vector of output prices that the economy faces in period t,  $t = 0,1$ , and y is a reference vector of outputs. We refer to this as a "theoretical" index because it cannot be computed from information on  $\mathbf{p}^0$ ,  $\mathbf{p}^1$ ,  $\mathbf{q}^0$ , and  $\mathbf{q}^1$  alone, but also depends on the function  $\mathbf{C}^{\mathrm{t}}$ . Note
@@ -6469,19 +6469,19 @@ that this theoretical index has the advantage that it is not influenced by techn
 We are interested in two special cases of the theoretical input price index (A6): (a)  $\mathrm{P}^0 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^0)$  which uses the period 0 technology and the output vector  $\mathbf{y}^0$  that was actually used in period 0, and (b)  $\mathrm{P}^1 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^1)$  which uses the period 1 technology and the output vector  $\mathbf{y}^1$ . Let  $\mathbf{q}^0$  and  $\mathbf{q}^1$  be the observed input quantities used in periods 0 and 1, respectively. We assume that these are optimally chosen to minimize costs in (A5), so that,
 
 $$
-\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {y} ^ {0}\right) = \mathrm {p} ^ {0}, \mathrm {q} ^ {0} \quad \text {a n d} \quad \mathrm {C} ^ {1} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {1}\right) = \mathrm {p} ^ {1}, \mathrm {q} ^ {1}. \tag {A7}
+\mathrm{C}^{0} \left(\mathrm{p}^{0}, \mathrm{y}^{0}\right) = \mathrm{p}^{0}, \mathrm{q}^{0} \quad \text{an d} \quad \mathrm{C}^{1} \left(\mathrm{p}^{1}, \mathrm{y}^{1}\right) = \mathrm{p}^{1}, \mathrm{q}^{1}. \tag {A7}
 $$
 
 Under these cost minimizing assumptions, we can adapt the arguments of Fisher and Shell (1972, pp. 57-58) and Archibald (1977, p. 66) to show that the two theoretical indexes,  $\mathrm{P}^0 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^0)$  and  $\mathrm{P}^1 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^1)$  satisfy the following inequalities:
 
 $$
-\begin{array}{l} \mathrm {P} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y} ^ {0}\right) \equiv \mathrm {C} ^ {0} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {0}\right) / \mathrm {C} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {y} ^ {0}\right) \quad \text {u s i n g d e f i n i t i o n (A 6)} \\ = \mathrm {C} ^ {0} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {0}\right) / \mathrm {p} ^ {0} \mathrm {q} ^ {0} \quad \text {u s i n g (A 7)} \\ \begin{array}{l l} \leq p ^ {1} q ^ {0} / p ^ {0} q ^ {0} & \text {s i n c e} q ^ {0} \text {i s f e a s i b l e f o r t h e m i n i m i z a t i o n p r o b l e m} \\ & \text {w h i c h d e f i n e s C ^ {0} (p ^ {1} , y ^ {0}) a n d s o C ^ {0} (p ^ {1} , y ^ {0}) \leq p ^ {1} q ^ {0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm {P} _ {\mathrm {L}} (\mathbf {p} ^ {0}, \mathbf {p} ^ {1}, \mathbf {q} ^ {0}, \mathbf {q} ^ {1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{0}\right) \equiv \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{C}^{0} \left(\mathrm{p}^{0}, \mathrm{y}^{0}\right) \quad \text{us in gd ef in it io n (A6)} \\ = \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{p}^{0} \mathrm{q}^{0} \quad \text{us in g (A7)} \\ \begin{array}{l l} \leq p^{1} q^{0} / p^{0} q^{0} & \text{si nc e} q^{0} \text{is fe as ib le fo rt he mi ni mi za ti on pr ob le m} \\ & \text{wh ic hd ef in es C^{0} (p^{1} , y^{0}) a n d s o C^{0} (p^{1} , y^{0}) \leq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_L}$  is the Laspeyres price index. Similarly, we have:
 
 $$
-\begin{array}{l} \mathrm {P} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y} ^ {1}\right) \equiv \mathrm {C} ^ {1} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {1}\right) / \mathrm {C} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {y} ^ {1}\right) \quad \text {u s i n g d e f i n i t i o n (A 6)} \\ = p ^ {1} \prime q ^ {1} / C ^ {1} \left(p ^ {0}, y ^ {1}\right) \quad \text {u s i n g (A 7)} \\ \geq p ^ {1} q ^ {1} / p ^ {0} q ^ {1} \qquad \text {s i n c e} q ^ {1} \text {i s f e a s i b l e f o r t h e m i n i m i z a t i o n p r o b l e m} \\ \text {w h i c h d e f i n e s C ^ {1} (p ^ {0} , y ^ {1}) a n d s o C ^ {1} (p ^ {0} , y ^ {1}) \leq p ^ {0} q ^ {1}} \\ \equiv \mathrm {P} _ {\mathrm {P}} (\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{1}\right) \equiv \mathrm{C}^{1} \left(\mathrm{p}^{1}, \mathrm{y}^{1}\right) / \mathrm{C}^{1} \left(\mathrm{p}^{0}, \mathrm{y}^{1}\right) \quad \text{us in gd ef in it io n (A6)} \\ = p^{1} \prime q^{1} / C^{1} \left(p^{0}, y^{1}\right) \quad \text{us in g (A7)} \\ \geq p^{1} q^{1} / p^{0} q^{1} \qquad \text{si nc e} q^{1} \text{is fe as ib le fo rt he mi ni mi za ti on pr ob le m} \\ \text{wh ic hd ef in es C^{1} (p^{0} , y^{1}) a n d s o C^{1} (p^{0} , y^{1}) \leq p^{0} q^{1}} \\ \equiv \mathrm{P}_{\mathrm{P}} (\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_P}$  is the Paasche price index. So we find that the Laspeyres index of input prices  $\mathrm{P_L}$  is an upper bound to the theoretical price index  $\mathrm{P^0(p^0,p^1,y^0)}$ , and that the Paasche index of input prices  $\mathrm{P_P}$  is a lower bound to the theoretical price index  $\mathrm{P^1(p^0,p^1,y^1)}$ . To further explore these bounds, we separately discuss the cases of constant and changing technology.
@@ -6491,13 +6491,13 @@ where  $\mathrm{P_P}$  is the Paasche price index. So we find that the Laspeyres
 If technology is constant then the Paasche and Laspeyres price indexes provide bounds to the "true" price index. That is, if technology is constant the cost function can be written as  $C(p,y)$ , so the bounds above immediately imply that,
 
 $$
-\mathrm {P} _ {\mathrm {P}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \leq \mathrm {C} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {1}\right) / \mathrm {C} \left(\mathrm {p} ^ {0}, \mathrm {y} ^ {1}\right), \quad \text {a n d} \quad \mathrm {C} \left(\mathrm {p} ^ {1}, \mathrm {y} ^ {0}\right) / \mathrm {C} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {y} ^ {0}\right) \leq \mathrm {P} _ {\mathrm {L}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right). \tag {A8}
+\mathrm{P}_{\mathrm{P}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \leq \mathrm{C} \left(\mathrm{p}^{1}, \mathrm{y}^{1}\right) / \mathrm{C} \left(\mathrm{p}^{0}, \mathrm{y}^{1}\right), \quad \text{an d} \quad \mathrm{C} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{C}^{0} \left(\mathrm{p}^{0}, \mathrm{y}^{0}\right) \leq \mathrm{P}_{\mathrm{L}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right). \tag {A8}
 $$
 
 These expressions can be further simplified by assuming that there is a single output, and that the technology has constant returns to scale, so that  $\mathrm{C(p,y)} = \mathrm{y} \mathrm{c(p)}$ , where  $\mathrm{c(p)}$  is the unit-cost function. Then the inequalities in (A8) simplify to,
 
 $$
-P _ {P} \left(p ^ {0}, p ^ {1}, q ^ {0}, q ^ {1}\right) \leq c \left(p ^ {1}\right) / c \left(p ^ {0}\right) \leq P _ {L} \left(p ^ {0}, p ^ {1}, q ^ {0}, q ^ {1}\right). \tag {A9}
+P_{P} \left(p^{0}, p^{1}, q^{0}, q^{1}\right) \leq c \left(p^{1}\right) / c \left(p^{0}\right) \leq P_{L} \left(p^{0}, p^{1}, q^{0}, q^{1}\right). \tag {A9}
 $$
 
 Thus, we see that the Paasche and Laspeyres price indexes provide lower and upper bounds to the ratio of unit-costs for the firm, which is the "true" price index. The same would apply to a
@@ -6515,7 +6515,7 @@ Then corresponding to the quadratic production and unit-cost functions, we have:
 If the production and unit-cost functions are quadratic and linearly homogeneous, and the observed quantities  $\mathbf{q}^{\mathrm{t}} > 0$  are the cost-minimizing, then:
 
 $$
-\frac {c \left(p ^ {1}\right)}{c \left(p ^ {1}\right)} = P _ {F} \left(p ^ {0}, p ^ {1}, q ^ {0}, q ^ {1}\right). \tag {A11}
+\frac{c \left(p^{1}\right)}{c \left(p^{1}\right)} = P_{F} \left(p^{0}, p^{1}, q^{0}, q^{1}\right). \tag {A11}
 $$
 
 The price index on the right of (A11) is the Fisher ideal formula, defined by (A3), which is therefore exact for the quadratic unit-cost function. Since the quadratic function is itself flexible, then Diewert (1976) refers to the Fisher ideal price index as superlative. The remarkable feature of this theorem is that we achieve equality between the Fisher ideal index and the ratio of unit-cost function for all values of the parameters A and B. Intuitively, as these parameters change then so would the optimal choices q, so these choices are "revealing" what the underlying parameters must be. Using the data on the optimal choices  $\mathbf{q}^{\mathrm{t}}$ , combined with their prices  $\mathfrak{p}^{\mathrm{t}}$ , we are able to measure the ratio of the unit-cost functions in (A11) without knowing B. This show the power of the economic approach to index numbers.
@@ -6527,13 +6527,13 @@ With technology changing over time, the situation is more difficult. We are in t
 and 1 as the reference technology, and that uses an  $\alpha$ -weighted average of the period 0 and period 1 net output vectors  $y^0$  and  $y^1$ :
 
 $$
-C (p, \alpha) \equiv \min  _ {q} \left\{p ^ {\prime} q: (q, [ 1 - \alpha ] y ^ {0} + \alpha y ^ {1}) \text {b e l o n g s t o} (1 - \alpha) S ^ {0} + \alpha S ^ {1} \right\}. \tag {A11}
+C (p, \alpha) \equiv \min_{q} \left\{p^{\prime} q: (q, [ 1 - \alpha ] y^{0} + \alpha y^{1}) \text{be lo ng st o} (1 - \alpha) S^{0} + \alpha S^{1} \right\}. \tag {A11}
 $$
 
 We can now use this cost function to define the following family of theoretical price indexes:
 
 $$
-\mathrm {P} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \alpha\right) \equiv \mathrm {C} \left(\mathrm {p} ^ {1}, \alpha\right) / \mathrm {C} \left(\mathrm {p} ^ {0}, \alpha\right). \tag {A12}
+\mathrm{P} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \alpha\right) \equiv \mathrm{C} \left(\mathrm{p}^{1}, \alpha\right) / \mathrm{C} \left(\mathrm{p}^{0}, \alpha\right). \tag {A12}
 $$
 
 We can adapt the proof of Diewert (1983, pp. 1060-1061) and show that there exists an  $\alpha$  such that the theoretical price index defined by (A12) lies between the Paasche and Laspeyres output indexes,  $\mathrm{P_P}$  and  $\mathrm{P_L}$ :
@@ -6543,7 +6543,7 @@ We can adapt the proof of Diewert (1983, pp. 1060-1061) and show that there exis
 There exists  $\alpha$  between 0 and 1 such that:
 
 $$
-\mathrm {P} _ {\mathrm {L}} \equiv \mathrm {p} ^ {1} \mathrm {q} ^ {0} / \mathrm {p} ^ {0}, \mathrm {q} ^ {0} \leq \mathrm {P} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \alpha\right) \leq \mathrm {p} ^ {1}, \mathrm {q} ^ {1} / \mathrm {p} ^ {0}, \mathrm {q} ^ {1} \equiv \mathrm {P} _ {\mathrm {P}} \quad \text {o r} \quad \mathrm {P} _ {\mathrm {P}} \leq \mathrm {P} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \alpha\right) \leq \mathrm {P} _ {\mathrm {L}}. \tag {A13}
+\mathrm{P}_{\mathrm{L}} \equiv \mathrm{p}^{1} \mathrm{q}^{0} / \mathrm{p}^{0}, \mathrm{q}^{0} \leq \mathrm{P} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \alpha\right) \leq \mathrm{p}^{1}, \mathrm{q}^{1} / \mathrm{p}^{0}, \mathrm{q}^{1} \equiv \mathrm{P}_{\mathrm{P}} \quad \text{or} \quad \mathrm{P}_{\mathrm{P}} \leq \mathrm{P} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \alpha\right) \leq \mathrm{P}_{\mathrm{L}}. \tag {A13}
 $$
 
 If the Paasche and Laspeyres indexes are numerically close to each other, then (A13) tells us that a “true” economic input price index is fairly well determined and we can find a reasonably close approximation to the “true” index by taking an average of  $\mathrm{P_L}$  and  $\mathrm{P_P}$ , such as Fisher’s ideal price index  $\mathrm{P_F}$  defined earlier by (A3). This provides a justification for using the Fisher ideal formula even when the technology is changing.
@@ -6551,13 +6551,13 @@ If the Paasche and Laspeyres indexes are numerically close to each other, then (
 Further results can be obtained by making more specific assumptions on the nature of technological change. In particular, suppose that the cost function takes on the translog functional form for  $t = 0,1$ :
 
 $$
-\begin{array}{l} \ln C ^ {t} (p, y) = \alpha_ {0} ^ {t} + \sum_ {i = 1} ^ {N} \alpha_ {i} ^ {t} \ln p _ {i} + \sum_ {k = 1} ^ {M} \beta_ {k} ^ {t} \ln y _ {k} + \frac {1}{2} \sum_ {i = 1} ^ {N} \sum_ {j = 1} ^ {N} \gamma_ {i j} ^ {t} \ln p _ {i} \ln p _ {j} \tag {A14} \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} ^ {\mathrm {t}} \ln \mathrm {y} _ {\mathrm {k}} \ln \mathrm {y} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} ^ {\mathrm {t}} \ln p _ {\mathrm {i}} \ln \mathrm {y} _ {\mathrm {k}} \\ \end{array}
+\begin{array}{l} \ln C^{t} (p, y) = \alpha_{0}^{t} + \sum_{i = 1}^{N} \alpha_{i}^{t} \ln p_{i} + \sum_{k = 1}^{M} \beta_{k}^{t} \ln y_{k} + \frac{1}{2} \sum_{i = 1}^{N} \sum_{j = 1}^{N} \gamma_{i j}^{t} \ln p_{i} \ln p_{j} \tag {A14} \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell}^{\mathrm{t}} \ln \mathrm{y}_{\mathrm{k}} \ln \mathrm{y}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}}^{\mathrm{t}} \ln p_{\mathrm{i}} \ln \mathrm{y}_{\mathrm{k}} \\ \end{array}
 $$
 
 where the parameters satisfy the restrictions  $\gamma_{\mathrm{ij}}^{\mathrm{t}} = \gamma_{\mathrm{ji}}^{\mathrm{t}}$  and,
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \alpha_ {\mathrm {i}} ^ {\mathrm {t}} = 1 \quad \text {a n d} \quad \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} ^ {\mathrm {t}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \phi_ {\mathrm {i k}} ^ {\mathrm {t}} = 0. \tag {A15}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \alpha_{\mathrm{i}}^{\mathrm{t}} = 1 \quad \text{an d} \quad \sum_{\mathrm{i} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}}^{\mathrm{t}} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \phi_{\mathrm{ik}}^{\mathrm{t}} = 0. \tag {A15}
 $$
 
 These restrictions ensure that  $C^{\mathrm{t}}(\mathfrak{p},\mathfrak{y})$  is linearly homogeneous in the input price vector  $\mathfrak{p}$  (which is a property that any cost function must satisfy). Note that we are allowing the parameters that characterize the technology (the  $\alpha$ 's,  $\beta$ 's,  $\gamma$ 's,  $\delta$ 's and  $\phi$ 's) to be completely different in each period, reflecting technological change.
@@ -6569,7 +6569,7 @@ Now let us add the restriction that the quadratic price parameters in (A14) are 
 Assume that  $\gamma_{ij}^{0} = \gamma_{ij}^{1}$ , and that the cost-minimizing input quantities  $q^t$  are strictly positive in both periods,  $t = 0,1$ . Then:
 
 $$
-\left[ \mathrm {P} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y} ^ {0}\right) \mathrm {P} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y} ^ {1}\right) \right] ^ {1 / 2} = \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right). \tag {A16}
+\left[ \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{0}\right) \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{1}\right) \right]^{1 / 2} = \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right). \tag {A16}
 $$
 
 The assumptions required for this result seem rather weak; in particular, there is no requirement that the technologies exhibit constant returns to scale in either period and our assumptions are consistent with technological progress occurring between the two periods being compared. Because the index number formula  $\mathrm{P_T}$  is exactly equal to the geometric mean of two theoretical price indexes, which correspond to the translog and is itself a "flexible" functional form, this confirms that Törnqvist index number formula is superlative.
@@ -6577,25 +6577,25 @@ The assumptions required for this result seem rather weak; in particular, there 
 To see the usefulness of this result, let us decompose the total change in costs between period 0 and period 1 in two alternative ways:
 
 $$
-\frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} = \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {0} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {0}\right)} \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {0} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)}, \tag {A17}
+\frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} = \frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{0} \left(\mathrm{p}^{1} , \mathrm{y}^{0}\right)} \frac{\mathrm{C}^{0} \left(\mathrm{p}^{1} , \mathrm{y}^{0}\right)}{\mathrm{C}^{0} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} \frac{\mathrm{C}^{0} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)}, \tag {A17}
 $$
 
 and,
 
 $$
-\frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} = \frac {\mathrm {C} ^ {1} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {1}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} \frac {\mathrm {C} ^ {1} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {1}\right)} \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}. \tag {A18}
+\frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} = \frac{\mathrm{C}^{1} \left(\mathrm{p}^{0} , \mathrm{y}^{1}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} \frac{\mathrm{C}^{1} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{0} , \mathrm{y}^{1}\right)} \frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}. \tag {A18}
 $$
 
 In each of these decompositions, the first ratio on the right reflects the changing input prices; the second ratio reflects the changing output vector; and the third ratio reflects pure technological change. Let us define the measure of technological change, or total factor productivity, as a geometric mean of the final ratios in (A17) and (A18):
 
 $$
-\mathrm {T F P} \equiv \left[ \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)} \right] ^ {1 / 2}. \tag {A19}
+\mathrm{TF P} \equiv \left[ \frac{\mathrm{C}^{0} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} \frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)} \right]^{1 / 2}. \tag {A19}
 $$
 
 This index reflects the fall in costs from period 0 to period 1 due to pure technological change, but as defined, it is not observable: neither the period 0 costs with period 1 prices and outputs, nor the period 1 costs with period 0 prices and outputs, are known. However, we can make use of Theorem 3 to indirectly measure TFP. In particular, taking the geometric mean of (A17) and (A18), and using (A19), we obtain:
 
 $$
-\frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} = \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) ^ {- 1} \times \mathrm {T F P} \times \left[ \frac {\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {1} \left(\mathrm {p} ^ {1} , \mathrm {y} ^ {1}\right)} \frac {\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {0}\right)}{\mathrm {C} ^ {0} \left(\mathrm {p} ^ {0} , \mathrm {y} ^ {1}\right)} \right] ^ {1 / 2}. \tag {A20}
+\frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} = \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right)^{- 1} \times \mathrm{TF P} \times \left[ \frac{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{0}\right)}{\mathrm{C}^{1} \left(\mathrm{p}^{1} , \mathrm{y}^{1}\right)} \frac{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{0}\right)}{\mathrm{C}^{0} \left(\mathrm{p}^{0} , \mathrm{y}^{1}\right)} \right]^{1 / 2}. \tag {A20}
 $$
 
 Thus, the total change in costs from period 0 to period 1 is decomposed into the inverse of the Tönnqvist input price index, total factor productivity, and the final term in (A20) which reflects the change in outputs. We will see some techniques later in the Appendix that allow us to measure the final term, but note here a particularly simply result.
@@ -6603,7 +6603,7 @@ Thus, the total change in costs from period 0 to period 1 is decomposed into the
 If there is a single output, so that  $y^{\mathrm{t}}$  is a scalar, and the cost function is linearly homogeneous in this output, then it can be written as  $C^{\mathrm{t}}(\mathrm{p},\mathrm{y}) = \mathrm{y} c^{\mathrm{t}}(\mathrm{p})$  where  $c^{\mathrm{t}}(\mathrm{p})$  is the unit-cost function. In that case, the final bracketed term on the right of (A20) is simply  $y^{0} / y^{1}$ . This ratio of outputs also appears on the left of (A20), which equals  $(y^{0} / y^{1})[c^{0}(p^{0}) / c^{1}(p^{1})]$ , so it cancels from both sides. Then we can re-arrange the terms in (A20) to obtain total factor productivity as:
 
 $$
-\ln (\mathrm {T F P}) = \ln \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) - \ln \left[ \mathrm {c} ^ {1} \left(\mathrm {p} ^ {1}\right) / \mathrm {c} ^ {0} \left(\mathrm {p} ^ {0}\right) \right]. \tag {A21}
+\ln (\mathrm{TF P}) = \ln \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) - \ln \left[ \mathrm{c}^{1} \left(\mathrm{p}^{1}\right) / \mathrm{c}^{0} \left(\mathrm{p}^{0}\right) \right]. \tag {A21}
 $$
 
 If there is perfect competition in the industry then unit-costs equal price, so the ratio of unit-costs on the right of (A21) is replaced by the ratio of output prices in the two periods. Then (A21) becomes the dual Törnqvist measure of total factor productivity that we used in chapter 4, which is a weighted average of the change in input prices minus the change in output prices. The above results provide a rigorous justification for the use of this index (or its primal counterpart, the change in log output minus the log Törnqvist index of input quantities), which is widely thought to be the "best" measure of productivity change.
@@ -6615,7 +6615,7 @@ Our results above can be readily extended to the GDP price index for an economy.
 Let  $\mathfrak{p} = (\mathfrak{p}_1, \ldots, \mathfrak{p}_{\mathrm{N}})$  denote a positive vector of net output prices that producers face in period t. Then the revenue or GDP function using period t technology is defined as:
 
 $$
-\mathrm {G} ^ {\mathrm {t}} (\mathrm {p}, \mathrm {v}) \equiv \max  _ {\mathrm {q}} \left\{\mathrm {p} ^ {\prime} \mathrm {q}: (\mathrm {q}, \mathrm {v}) \text {b e l o n g s t o S} ^ {\mathrm {t}} \right\}. \tag {A22}
+\mathrm{G}^{\mathrm{t}} (\mathrm{p}, \mathrm{v}) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: (\mathrm{q}, \mathrm{v}) \text{be lo ng st oS}^{\mathrm{t}} \right\}. \tag {A22}
 $$
 
 Thus  $\mathbf{G}^{\dagger}(\mathbf{p},\mathbf{v})$  is the maximum value of (net) output that the economy can produce, given that the vector of net inputs  $\mathbf{v}$  is available for use, using the period  $t$  technology.
@@ -6623,7 +6623,7 @@ Thus  $\mathbf{G}^{\dagger}(\mathbf{p},\mathbf{v})$  is the maximum value of (ne
 The GDP function can be used to define the economy's period  $t$  technology theoretical GDP price index  $\mathbf{P}^{\dagger}$  between any two periods, say period 0 and period 1, as follows:
 
 $$
-\mathrm {P} ^ {\mathrm {t}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {v}\right) = \mathrm {G} ^ {\mathrm {t}} \left(\mathrm {p} ^ {1}, \mathrm {v}\right) / \mathrm {G} ^ {\mathrm {t}} \left(\mathrm {p} ^ {0}, \mathrm {v}\right), \tag {A23}
+\mathrm{P}^{\mathrm{t}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}\right) = \mathrm{G}^{\mathrm{t}} \left(\mathrm{p}^{1}, \mathrm{v}\right) / \mathrm{G}^{\mathrm{t}} \left(\mathrm{p}^{0}, \mathrm{v}\right), \tag {A23}
 $$
 
 where  $\mathbf{p}^{\mathrm{t}}$  is the vector of net output prices that the economy faces in period t,  $t = 0,1$ , and  $\mathbf{v}$  is a reference vector of factor endowments.
@@ -6631,19 +6631,19 @@ where  $\mathbf{p}^{\mathrm{t}}$  is the vector of net output prices that the ec
 Note that there are a wide variety of price indexes of the form (A23) depending on which (t,v) reference technology and input vector v that we choose. Again, we are interested in two special cases: (a)  $\mathrm{P}^0 (\mathrm{p}^0,\mathrm{p}^1,\mathrm{v}^0)$  which uses the period 0 technology and the input vector  $\mathbf{V}^0$  that was actually used in period 0, and (b)  $\mathrm{P}^{1}(\mathrm{p}^{0},\mathrm{p}^{1},\mathrm{v}^{1})$  which uses the period 1 technology and the input vector  $\mathbf{V}^1$ . Let  $\mathbf{q}^0$  and  $\mathbf{q}^1$  be the observed net output vectors in periods 0 and 1 respectively. If there is competitive behaviour on the part of producers in periods 0 and 1, then observed GDP in periods 0 and 1 should be equal to  $\mathrm{G}^0 (\mathrm{p}^0,\mathrm{v}^0)$  and  $\mathrm{G}^1 (\mathrm{p}^1,\mathrm{v}^1)$  respectively; i.e.:
 
 $$
-\mathrm {G} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {v} ^ {0}\right) = \mathrm {p} ^ {0} \mathrm {q} ^ {0} \quad \text {a n d} \quad \mathrm {G} ^ {1} \left(\mathrm {p} ^ {1}, \mathrm {v} ^ {1}\right) = \mathrm {p} ^ {1} \mathrm {q} ^ {1}. \tag {A24}
+\mathrm{G}^{0} \left(\mathrm{p}^{0}, \mathrm{v}^{0}\right) = \mathrm{p}^{0} \mathrm{q}^{0} \quad \text{an d} \quad \mathrm{G}^{1} \left(\mathrm{p}^{1}, \mathrm{v}^{1}\right) = \mathrm{p}^{1} \mathrm{q}^{1}. \tag {A24}
 $$
 
 Then we can use these results of Fisher and Shell (1972, p. 57-58) and Archibald (1977, p. 66) to again develop a series of inequalities on the theoretical price indexes:
 
 $$
-\begin{array}{l} \mathrm {P} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {v} ^ {0}\right) \equiv \mathrm {G} ^ {0} \left(\mathrm {p} ^ {1}, \mathrm {v} ^ {0}\right) / \mathrm {G} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {v} ^ {0}\right) \quad \text {u s i n g d e f i n i t i o n (A 2 3)} \\ = \mathrm {G} ^ {0} \left(\mathrm {p} ^ {1}, \mathrm {v} ^ {0}\right) / \mathrm {p} ^ {0}, \mathrm {q} ^ {0} \quad \text {u s i n g (A 2 4)} \\ \begin{array}{l l} \geq p ^ {1} q ^ {0} / p ^ {0} q ^ {0} & \text {s i n c e} q ^ {0} \text {i s f e a s i b l e f o r t h e m a x i m i z a t i o n p r o b l e m} \\ & \text {t h a t d e f i n e s G ^ {0} (p ^ {1} , v ^ {0}) a n d s o G ^ {0} (p ^ {1} , v ^ {0}) \geq p ^ {1} q ^ {0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm {P} _ {\mathrm {L}} (\mathbf {p} ^ {0}, \mathbf {p} ^ {1}, \mathbf {q} ^ {0}, \mathbf {q} ^ {1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{0}\right) \equiv \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{G}^{0} \left(\mathrm{p}^{0}, \mathrm{v}^{0}\right) \quad \text{us in gd ef in it io n (A2 3)} \\ = \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{p}^{0}, \mathrm{q}^{0} \quad \text{us in g (A2 4)} \\ \begin{array}{l l} \geq p^{1} q^{0} / p^{0} q^{0} & \text{si nc e} q^{0} \text{is fe as ib le fo rt he ma xi mi za ti on pr ob le m} \\ & \text{th at de fi ne sG^{0} (p^{1} , v^{0}) a n d s o G^{0} (p^{1} , v^{0}) \geq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathbf{P_L}$  is the Laspeyres price index. Similarly, we have:
 
 $$
-\begin{array}{l} \mathrm {P} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {v} ^ {1}\right) \equiv \mathrm {G} ^ {1} \left(\mathrm {p} ^ {1}, \mathrm {v} ^ {1}\right) / \mathrm {G} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {v} ^ {1}\right) \quad \text {u s i n g d e f i n i t i o n (A 2 3)} \\ = p ^ {1} q ^ {1} / G ^ {1} \left(p ^ {0}, v ^ {1}\right) \quad \text {u s i n g (A 2 4)} \\ \begin{array}{l l} \leq p ^ {1} q ^ {1} / p ^ {0} q ^ {1} & \text {s i n c e q ^ {1} i s f e a s i b l e f o r t h e m a x i m i z a t i o n p r o b l e m} \\ & \text {t h a t d e f i n e s G ^ {1} (p ^ {0} , v ^ {1}) a n d s o G ^ {1} (p ^ {0} , v ^ {1}) \geq p ^ {0} q ^ {1}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm {P _ {P}} (\mathbf {p} ^ {0}, \mathbf {p} ^ {1}, \mathbf {q} ^ {0}, \mathbf {q} ^ {1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{1}\right) \equiv \mathrm{G}^{1} \left(\mathrm{p}^{1}, \mathrm{v}^{1}\right) / \mathrm{G}^{1} \left(\mathrm{p}^{0}, \mathrm{v}^{1}\right) \quad \text{us in gd ef in it io n (A2 3)} \\ = p^{1} q^{1} / G^{1} \left(p^{0}, v^{1}\right) \quad \text{us in g (A2 4)} \\ \begin{array}{l l} \leq p^{1} q^{1} / p^{0} q^{1} & \text{si nc eq^{1} i s f e a s i b l e f o r t h e m a x i m i z a t i o n p r o b l e m} \\ & \text{th at de fi ne sG^{1} (p^{0} , v^{1}) a n d s o G^{1} (p^{0} , v^{1}) \geq p^{0} q^{1}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P_{P}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_P}$  is the Paasche price index. Note that these inequalities are in the opposite direction compared to their counterparts for the input index, which reflects that fact that revenue is maximized in (A22) whereas costs are minimized in (A5).
@@ -6651,13 +6651,13 @@ where  $\mathrm{P_P}$  is the Paasche price index. Note that these inequalities 
 As with the input index, it is possible to define a theoretical GDP price index that falls between the observable Paasche and Laspeyres price indexes. To do this, we first define a hypothetical GDP function,  $\mathrm{G}(\mathrm{p},\alpha)$ , that corresponds to the use of an  $\alpha$ -weighted average of the technology sets  $\mathbf{S}^0$  and  $\mathbf{S}^1$  for periods 0 and 1 as the reference technology, and that uses an  $\alpha$ -weighted average of the period 0 and period 1 input vectors  $\mathbf{v}^0$  and  $\mathbf{v}^1$ :
 
 $$
-\mathrm {G} (\mathrm {p}, \alpha) \equiv \max  _ {\mathrm {q}} \left\{\mathrm {p} ^ {\prime} \mathrm {q}: \left(\mathrm {q}, [ 1 - \alpha ] \mathrm {v} ^ {0} + \alpha \mathrm {v} ^ {1}\right) \text {b e l o n g s t o} (1 - \alpha) \mathrm {S} ^ {0} + \alpha \mathrm {S} ^ {1} \right\}. \tag {A25}
+\mathrm{G} (\mathrm{p}, \alpha) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: \left(\mathrm{q}, [ 1 - \alpha ] \mathrm{v}^{0} + \alpha \mathrm{v}^{1}\right) \text{be lo ng st o} (1 - \alpha) \mathrm{S}^{0} + \alpha \mathrm{S}^{1} \right\}. \tag {A25}
 $$
 
 Then we can define the following family (indexed by  $\alpha$ ) of theoretical GDP price indexes:
 
 $$
-\mathrm {P} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \alpha\right) \equiv \mathrm {G} \left(\mathrm {p} ^ {1}, \alpha\right) / \mathrm {G} \left(\mathrm {p} ^ {0}, \alpha\right). \tag {A26}
+\mathrm{P} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \alpha\right) \equiv \mathrm{G} \left(\mathrm{p}^{1}, \alpha\right) / \mathrm{G} \left(\mathrm{p}^{0}, \alpha\right). \tag {A26}
 $$
 
 Then it turns out that for the theoretical index in (A26), Theorem 2 continues to hold as stated. That is, there exists  $\alpha$  between 0 and 1 such that the theoretical GDP index in (A26) lies between the observable Paasche and Laspeyres indexes. There is an important qualification to this result, however: as stated in (A13), we do not know in general whether  $\mathrm{P_L} \geq \mathrm{P_P}$  or  $\mathrm{P_L} \leq \mathrm{P_P}$ . For the input index, cost-minimizing behavior with a constant technology will cause the
@@ -6685,19 +6685,19 @@ defined in (A26) holds technology and factor endowments constant, and is therefo
 Further results can be obtained by using the translog form for the GDP function, where we allow its parameters to vary over time due to technological change:
 
 $$
-\begin{array}{l} \ln \mathrm {G} ^ {\mathrm {t}} (\mathrm {p}, \mathrm {v}) = \alpha_ {0} ^ {\mathrm {t}} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \alpha_ {\mathrm {i}} ^ {\mathrm {t}} \ln \mathrm {p} _ {\mathrm {i}} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \beta_ {\mathrm {k}} ^ {\mathrm {t}} \ln \mathrm {v} _ {\mathrm {k}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} ^ {\mathrm {t}} \ln \mathrm {p} _ {\mathrm {i}} \ln \mathrm {p} _ {\mathrm {j}} \tag {A27} \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \sum_ {\ell = 1} ^ {\mathrm {M}} \delta_ {\mathrm {k} \ell} ^ {\mathrm {t}} \ln \mathrm {v} _ {\mathrm {k}} \ln \mathrm {v} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {M}} \phi_ {\mathrm {i k}} ^ {\mathrm {t}} \ln \mathrm {p} _ {\mathrm {i}} \ln \mathrm {v} _ {\mathrm {k}}. \\ \end{array}
+\begin{array}{l} \ln \mathrm{G}^{\mathrm{t}} (\mathrm{p}, \mathrm{v}) = \alpha_{0}^{\mathrm{t}} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \alpha_{\mathrm{i}}^{\mathrm{t}} \ln \mathrm{p}_{\mathrm{i}} + \sum_{\mathrm{k} = 1}^{\mathrm{M}} \beta_{\mathrm{k}}^{\mathrm{t}} \ln \mathrm{v}_{\mathrm{k}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{j} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}}^{\mathrm{t}} \ln \mathrm{p}_{\mathrm{i}} \ln \mathrm{p}_{\mathrm{j}} \tag {A27} \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell}^{\mathrm{t}} \ln \mathrm{v}_{\mathrm{k}} \ln \mathrm{v}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}}^{\mathrm{t}} \ln \mathrm{p}_{\mathrm{i}} \ln \mathrm{v}_{\mathrm{k}}. \\ \end{array}
 $$
 
 In order to ensure that the translog GDP function is homogeneous of degree one in prices, we impose symmetry  $\gamma_{ij}^{t} = \gamma_{ji}^{t}$  and the requirements,
 
 $$
-\sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \alpha_ {\mathrm {i}} ^ {\mathrm {t}} = 1 \quad \text {a n d} \quad \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \gamma_ {\mathrm {i j}} ^ {\mathrm {t}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \phi_ {\mathrm {i k}} ^ {\mathrm {t}} = 0. \tag {A28}
+\sum_{\mathrm{i} = 1}^{\mathrm{N}} \alpha_{\mathrm{i}}^{\mathrm{t}} = 1 \quad \text{an d} \quad \sum_{\mathrm{i} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}}^{\mathrm{t}} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \phi_{\mathrm{ik}}^{\mathrm{t}} = 0. \tag {A28}
 $$
 
 In addition, to ensure that the GDP function is homogeneous of degree one in endowments, we impose symmetry  $\delta_{\mathrm{k}\ell}^{\mathrm{t}} = \delta_{\ell \mathrm{k}}^{\mathrm{t}}$  and the requirements,
 
 $$
-\sum_ {k = 1} ^ {M} \beta_ {k} ^ {t} = 1 \quad \text {a n d} \quad \sum_ {k = 1} ^ {M} \delta_ {k \ell} ^ {t} = \sum_ {k = 1} ^ {M} \phi_ {i k} ^ {t} = 0. \tag {A29}
+\sum_{k = 1}^{M} \beta_{k}^{t} = 1 \quad \text{an d} \quad \sum_{k = 1}^{M} \delta_{k \ell}^{t} = \sum_{k = 1}^{M} \phi_{i k}^{t} = 0. \tag {A29}
 $$
 
 The next result is completely analogous to Theorem 3 for the translog cost function, where again we require that the second-order parameters on prices  $\gamma_{ij}^{t}$ , remain constant. This result follows by adapting the arguments in Caves, Christensen and Diewert (1982). It does not
@@ -6709,7 +6709,7 @@ require the GDP function to be homogeneous of degree one in factor endowments, t
 Assuming that  $\gamma_{ij}^{0} = \gamma_{ij}^{1}$ , and that the output quantities  $q^t$  are revenue-maximizing at prices  $p^t$ ,  $t = 0,1$ , Then:
 
 $$
-\left[ \mathrm {P} ^ {0} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {v} ^ {0}\right) \mathrm {P} ^ {1} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {v} ^ {1}\right) \right] ^ {1 / 2} = \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right). \tag {A30}
+\left[ \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{0}\right) \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{1}\right) \right]^{1 / 2} = \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right). \tag {A30}
 $$
 
 Thus, a geometric mean of the theoretical GDP price indexes  $\mathrm{P}^0 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{v}^0)$  and  $\mathrm{P}^1 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{v}^1)$  equals the translog price index defined by (A4). Unlike Theorem 3, we no longer need to assume that the quantities  $\mathbf{q}^{\mathrm{t}}$  are strictly positive: we are now letting  $q_{i}^{t} > 0$  denote an output, and  $q_{i}^{t} < 0$  denote an input, and a commodity can switch from one to the other across the two periods. This raises an important question of interpretation, however. Since  $q_{i}^{t} < 0$  can reflect imported intermediate inputs, while  $q_{i}^{t} > 0$  can reflect exported commodities, it appears that the output price index is mixing together terms of trade effects with other price movements. This is indeed the case, and in the next section we use the results of Diewert and Morrison (1986) and Kohli (1990, 2001) to separately measure the terms of trade impact and productivity.
@@ -6729,7 +6729,7 @@ The above argument suggests the following definition of the terms of trade index
 where all of these indexes are computed over the set of final goods sold in an economy. To further motivate this definition, consider the Tornqvist index in (A4) or (A4'). Let  $\mathrm{P_T(p^0,p^1,q^0,q^1)}$  denote the cost of living index, computed with prices  $p^t$  and quantities consumed  $q^t$ ,  $t = 0,1$ . In addition, let  $\mathrm{P_T(p^0,p^1,y^0,y^1)}$  denote the GDP price index, computed with prices  $p^t$  and quantities produced  $y^t$ ,  $t = 0,1$ . Exports of final goods are simply  $x^t = y^t - q^t$ , and let us assume for simplicity that trade is balanced, so that  $p^t x^t = p^t y^t - p^t q^t = 0$ . Then it follows immediately from (A4') that,
 
 $$
-\ln \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {y} ^ {0}, \mathrm {y} ^ {1}\right) - \ln \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\frac {1}{2}\right) \left(\frac {\mathrm {p} _ {\mathrm {i}} ^ {0} \mathrm {x} _ {\mathrm {i}} ^ {0}}{\mathrm {p} ^ {0} , \mathrm {y} ^ {0}} + \frac {\mathrm {p} _ {\mathrm {i}} ^ {1} \mathrm {x} _ {\mathrm {i}} ^ {1}}{\mathrm {p} ^ {1} , \mathrm {y} ^ {1}}\right) \ln \left(\mathrm {p} _ {\mathrm {i}} ^ {1} / \mathrm {p} _ {\mathrm {i}} ^ {0}\right). \tag {A32}
+\ln \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{0}, \mathrm{y}^{1}\right) - \ln \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left(\frac{1}{2}\right) \left(\frac{\mathrm{p}_{\mathrm{i}}^{0} \mathrm{x}_{\mathrm{i}}^{0}}{\mathrm{p}^{0} , \mathrm{y}^{0}} + \frac{\mathrm{p}_{\mathrm{i}}^{1} \mathrm{x}_{\mathrm{i}}^{1}}{\mathrm{p}^{1} , \mathrm{y}^{1}}\right) \ln \left(\mathrm{p}_{\mathrm{i}}^{1} / \mathrm{p}_{\mathrm{i}}^{0}\right). \tag {A32}
 $$
 
 The left of (A32) is the difference between the log GDP price index and the log cost of living index, while the right is a price index constructed using as weights the average value of exports relative to GDP in the two periods. These weights are negative for imports, so the right of (A32) is indeed interpreted as a terms of trade index.
@@ -6741,7 +6741,7 @@ the revenue-maximizing choices by firms. We will suppose that GDP takes on the t
 For this GDP function, let us define the theoretical productivity index:
 
 $$
-\mathrm {R} (\mathrm {p}, \mathrm {v}) = \mathrm {G} ^ {1} (\mathrm {p}, \mathrm {v}) / \mathrm {G} ^ {0} (\mathrm {p}, \mathrm {v}). \tag {A33}
+\mathrm{R} (\mathrm{p}, \mathrm{v}) = \mathrm{G}^{1} (\mathrm{p}, \mathrm{v}) / \mathrm{G}^{0} (\mathrm{p}, \mathrm{v}). \tag {A33}
 $$
 
 Thus, this theoretical index holds prices and factor endowments fixed, and considers only the change in productivity between periods 0 and 1. We are interested in two special cases: (a) the Laspeyres productivity index,  $\mathrm{R_L} \equiv \mathrm{R(p^0,v^0)} = \mathrm{G^1(p^0,v^0)} / \mathrm{G^0(p^0,v^0)}$ , which uses prices and endowments from period 0; (b) the Paasche productivity index,  $\mathrm{R_P} \equiv \mathrm{R(p^1,v^1)} = \mathrm{G^1(p^1,v^1)} / \mathrm{G^1(p^1,v^1)}$ , which uses prices and endowments from period 1. Each of these are unobservable, but as in our earlier discussion of productivity in (A19)-(A21), we can measure their geometric mean:
@@ -6751,7 +6751,7 @@ Thus, this theoretical index holds prices and factor endowments fixed, and consi
 Assuming that the GDP function takes on the translog form in (A27)-(A29), and the revenue-maximizing quantities  $\mathbf{q}^{\mathrm{t}}$  are non-zero, then:
 
 $$
-\left(\mathrm {R} _ {\mathrm {L}} \mathrm {R} _ {\mathrm {P}}\right) ^ {1 / 2} = \left(\frac {\mathrm {p} ^ {1} , \mathrm {q} ^ {1}}{\mathrm {p} ^ {0} , \mathrm {q} ^ {0}}\right) / \left[ \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) \mathrm {Q} _ {\mathrm {T}} \left(\mathrm {w} ^ {0}, \mathrm {w} ^ {1}, \mathrm {v} ^ {0}, \mathrm {v} ^ {1}\right) \right]. \tag {A34}
+\left(\mathrm{R}_{\mathrm{L}} \mathrm{R}_{\mathrm{P}}\right)^{1 / 2} = \left(\frac{\mathrm{p}^{1} , \mathrm{q}^{1}}{\mathrm{p}^{0} , \mathrm{q}^{0}}\right) / \left[ \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) \mathrm{Q}_{\mathrm{T}} \left(\mathrm{w}^{0}, \mathrm{w}^{1}, \mathrm{v}^{0}, \mathrm{v}^{1}\right) \right]. \tag {A34}
 $$
 
 The first term on the right of (A34) is the ratio of GDP in the two periods, or the growth in nominal GDP. This is deflated by the two other terms on the right: the first is the Törnqvist
@@ -6759,7 +6759,7 @@ The first term on the right of (A34) is the ratio of GDP in the two periods, or 
 price index of GDP using the formula in (A4); and the second is a Törnqvist quantity index of factor endowments, defined by:
 
 $$
-\ln Q _ {\mathrm {T}} \left(\mathrm {w} ^ {0}, \mathrm {w} ^ {1}, \mathrm {v} ^ {0}, \mathrm {v} ^ {1}\right) \equiv \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\frac {1}{2}\right) \left(\frac {\mathrm {w} _ {\mathrm {i}} ^ {0} \mathrm {v} _ {\mathrm {i}} ^ {0}}{\mathrm {w} ^ {0 ,} \mathrm {v} ^ {0}} + \frac {\mathrm {w} _ {\mathrm {i}} ^ {1} \mathrm {v} _ {\mathrm {i}} ^ {1}}{\mathrm {w} ^ {1 ,} \mathrm {v} ^ {1}}\right) \ln \left(\mathrm {v} _ {\mathrm {i}} ^ {1} / \mathrm {v} _ {\mathrm {i}} ^ {0}\right). \tag {A35}
+\ln Q_{\mathrm{T}} \left(\mathrm{w}^{0}, \mathrm{w}^{1}, \mathrm{v}^{0}, \mathrm{v}^{1}\right) \equiv \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left(\frac{1}{2}\right) \left(\frac{\mathrm{w}_{\mathrm{i}}^{0} \mathrm{v}_{\mathrm{i}}^{0}}{\mathrm{w}^{0 ,} \mathrm{v}^{0}} + \frac{\mathrm{w}_{\mathrm{i}}^{1} \mathrm{v}_{\mathrm{i}}^{1}}{\mathrm{w}^{1 ,} \mathrm{v}^{1}}\right) \ln \left(\mathrm{v}_{\mathrm{i}}^{1} / \mathrm{v}_{\mathrm{i}}^{0}\right). \tag {A35}
 $$
 
 Thus, this is a factor-share weighted average of the growth in primary inputs for the economy. Notice that under our assumption (A29) that the GDP function is linearly homogeneous in  $\mathbf{v}$ , then  $\mathbf{p}^{\mathrm{t}}\mathbf{q}^{\mathrm{t}} = \mathbf{w}^{\mathrm{t}}\mathbf{v}^{\mathrm{t}}$ , so the shares in the Törnqvist price index and the Törnqvist quantity index are both measured relative to GDP. Theorem 5 generalizes our earlier derivation of TFP in (A19)-(A21), to allow now for multiple inputs and outputs.
@@ -6767,7 +6767,7 @@ Thus, this is a factor-share weighted average of the growth in primary inputs fo
 Let us now take the Törnqvist price index of GDP that appears on the right of (A34), and decompose it into the portion dealing with domestic goods, exports, and imports:
 
 $$
-\begin{array}{l} \ln \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N} _ {\mathrm {d}}} \left(\frac {1}{2}\right) \left(\frac {\mathrm {p} _ {\mathrm {d i}} ^ {0} \mathrm {q} _ {\mathrm {d i}} ^ {0}}{\mathrm {p} ^ {0} , \mathrm {q} ^ {0}} + \frac {\mathrm {p} _ {\mathrm {d i}} ^ {1} \mathrm {q} _ {\mathrm {d i}} ^ {1}}{\mathrm {p} ^ {1} , \mathrm {q} ^ {1}}\right) \ln \left(\mathrm {p} _ {\mathrm {d i}} ^ {1} / \mathrm {p} _ {\mathrm {d i}} ^ {0}\right) \tag {A36} \\ + \sum_ {i = 1} ^ {N _ {\mathrm {x}}} \left(\frac {1}{2}\right) \left(\frac {p _ {\mathrm {x i}} ^ {0} q _ {\mathrm {x i}} ^ {0}}{p ^ {0} , q ^ {0}} + \frac {p _ {\mathrm {x i}} ^ {1} q _ {\mathrm {x i}} ^ {1}}{p ^ {1} , q ^ {1}}\right) \ln \left(p _ {\mathrm {x i}} ^ {1} / p _ {\mathrm {x i}} ^ {0}\right) + \sum_ {i = 1} ^ {N _ {\mathrm {m}}} \left(\frac {1}{2}\right) \left(\frac {p _ {\mathrm {m i}} ^ {0} q _ {\mathrm {m i}} ^ {0}}{p ^ {0} , q ^ {0}} + \frac {p _ {\mathrm {m i}} ^ {1} q _ {\mathrm {m i}} ^ {1}}{p ^ {1} , q ^ {1}}\right) \ln \left(p _ {\mathrm {m i}} ^ {1} / p _ {\mathrm {m i}} ^ {0}\right). \\ \end{array}
+\begin{array}{l} \ln \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) = \sum_{\mathrm{i} = 1}^{\mathrm{N}_{\mathrm{d}}} \left(\frac{1}{2}\right) \left(\frac{\mathrm{p}_{\mathrm{di}}^{0} \mathrm{q}_{\mathrm{di}}^{0}}{\mathrm{p}^{0} , \mathrm{q}^{0}} + \frac{\mathrm{p}_{\mathrm{di}}^{1} \mathrm{q}_{\mathrm{di}}^{1}}{\mathrm{p}^{1} , \mathrm{q}^{1}}\right) \ln \left(\mathrm{p}_{\mathrm{di}}^{1} / \mathrm{p}_{\mathrm{di}}^{0}\right) \tag {A36} \\ + \sum_{i = 1}^{N_{\mathrm{x}}} \left(\frac{1}{2}\right) \left(\frac{p_{\mathrm{xi}}^{0} q_{\mathrm{xi}}^{0}}{p^{0} , q^{0}} + \frac{p_{\mathrm{xi}}^{1} q_{\mathrm{xi}}^{1}}{p^{1} , q^{1}}\right) \ln \left(p_{\mathrm{xi}}^{1} / p_{\mathrm{xi}}^{0}\right) + \sum_{i = 1}^{N_{\mathrm{m}}} \left(\frac{1}{2}\right) \left(\frac{p_{\mathrm{mi}}^{0} q_{\mathrm{mi}}^{0}}{p^{0} , q^{0}} + \frac{p_{\mathrm{mi}}^{1} q_{\mathrm{mi}}^{1}}{p^{1} , q^{1}}\right) \ln \left(p_{\mathrm{mi}}^{1} / p_{\mathrm{mi}}^{0}\right). \\ \end{array}
 $$
 
 We will refer to the first summation on the right of (A36) as the cost of living index, because it uses the quantities and prices of final goods demanded by the consumer. The exponent of this first summation is denoted by the Törnqvist price index  $\mathrm{P_T(p_d^0,p_d^1,q_d^0,q_d^1)}$ , where the shares are computed relative to total GDP  $p^{t}q^{t}$ . The second and third terms are the difference between the export and import price indexes, respectively, where recall that  $q_{mi}^{t} < 0$ . Let us denote the
@@ -6777,24 +6777,24 @@ exponent of these two summations by the Tornqvist index  $\mathrm{P_T(p_{xm}^0,p
 Then we can re-write the result in (A34) in the following form:
 
 $$
-\left(\frac {p ^ {1} , q ^ {1}}{p ^ {0} , q ^ {0}}\right) = \left(R _ {L} R _ {P}\right) ^ {1 / 2} P _ {T} \left(p _ {d} ^ {0}, p _ {d} ^ {1}, q _ {d} ^ {0}, q _ {d} ^ {1}\right) P _ {T} \left(p _ {x m} ^ {0}, p _ {x m} ^ {1}, q _ {x m} ^ {0}, q _ {x m} ^ {1}\right) Q _ {T} \left(w ^ {0}, w ^ {1}, v ^ {0}, v ^ {1}\right). \tag {A37}
+\left(\frac{p^{1} , q^{1}}{p^{0} , q^{0}}\right) = \left(R_{L} R_{P}\right)^{1 / 2} P_{T} \left(p_{d}^{0}, p_{d}^{1}, q_{d}^{0}, q_{d}^{1}\right) P_{T} \left(p_{x m}^{0}, p_{x m}^{1}, q_{x m}^{0}, q_{x m}^{1}\right) Q_{T} \left(w^{0}, w^{1}, v^{0}, v^{1}\right). \tag {A37}
 $$
 
 Thus, the ratio of nominal GDP is decomposed as a total factor productivity index, a cost of living price index, a terms of trade index, and a quantity index of endowment growth. Kohli (2001) argues that if we wish to deflate the growth in GDP to obtain a measure of welfare change for the representative consumer, then we should use the cost of living index rather than the GDP price index as a deflator. That is, a measure of welfare change would be,
 
 $$
-\left(\frac {p ^ {1} , q ^ {1}}{p ^ {0} , q ^ {0}}\right) / P _ {T} \left(p _ {d} ^ {0}, p _ {d} ^ {1}, q _ {d} ^ {0}, q _ {d} ^ {1}\right) = \left(R _ {L} R _ {P}\right) ^ {1 / 2} P _ {T} \left(p _ {x m} ^ {0}, p _ {x m} ^ {1}, q _ {x m} ^ {0}, q _ {x m} ^ {1}\right) Q _ {T} \left(w ^ {0}, w ^ {1}, v ^ {0}, v ^ {1}\right). \tag {A38}
+\left(\frac{p^{1} , q^{1}}{p^{0} , q^{0}}\right) / P_{T} \left(p_{d}^{0}, p_{d}^{1}, q_{d}^{0}, q_{d}^{1}\right) = \left(R_{L} R_{P}\right)^{1 / 2} P_{T} \left(p_{x m}^{0}, p_{x m}^{1}, q_{x m}^{0}, q_{x m}^{1}\right) Q_{T} \left(w^{0}, w^{1}, v^{0}, v^{1}\right). \tag {A38}
 $$
 
 This decomposition allows productivity growth, improvements in the terms of trade, and endowment growth in factors to all contribute positively to welfare. Notice that this measure of welfare is quite different from how the growth in real GDP is normally calculated, which is to deflate the ratio of nominal GDP by the GDP price index, obtaining,
 
 $$
-\left(\frac {\mathrm {p} ^ {1} , \mathrm {q} ^ {1}}{\mathrm {p} ^ {0} , \mathrm {q} ^ {0}}\right) / \mathrm {P} _ {\mathrm {T}} \left(\mathrm {p} ^ {0}, \mathrm {p} ^ {1}, \mathrm {q} ^ {0}, \mathrm {q} ^ {1}\right) = \left(\mathrm {R} _ {\mathrm {L}} \mathrm {R} _ {\mathrm {P}}\right) ^ {1 / 2} \mathrm {Q} _ {\mathrm {T}} \left(\mathrm {w} ^ {0}, \mathrm {w} ^ {1}, \mathrm {v} ^ {0}, \mathrm {v} ^ {1}\right). \tag {A39}
+\left(\frac{\mathrm{p}^{1} , \mathrm{q}^{1}}{\mathrm{p}^{0} , \mathrm{q}^{0}}\right) / \mathrm{P}_{\mathrm{T}} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}\right) = \left(\mathrm{R}_{\mathrm{L}} \mathrm{R}_{\mathrm{P}}\right)^{1 / 2} \mathrm{Q}_{\mathrm{T}} \left(\mathrm{w}^{0}, \mathrm{w}^{1}, \mathrm{v}^{0}, \mathrm{v}^{1}\right). \tag {A39}
 $$
 
 The log of (A39) is reported as real GDP growth in national income statistics, but it leaves out changes in the terms of trade as a source of welfare gain. In (A38), by contrast, we
 
-deflate nominal GDP by the price index computed for domestic goods only, i.e. by the price index for domestic absorption,  $\mathrm{C + I + G}$ . By applying this cost of living index to all components of GDP,  $\mathrm{C + I + G + X - M}$ , including exports and imports, we obtain a measure of "real welfare" that is more appropriate to assess changes in the representative consumer. Kohli (1990b, 2001) shows that deflating nominal GDP by the cost of living index leads to a considerably higher growth in "real welfare" for some countries (such as Switzerland) that real GDP growth. This is explained by the terms of trade improvements for such countries in recent years.
+deflate nominal GDP by the price index computed for domestic goods only, i.e. by the price index for domestic absorption,  $\mathrm{C +I +G}$ . By applying this cost of living index to all components of GDP,  $\mathrm{C +I +G +X -M}$ , including exports and imports, we obtain a measure of "real welfare" that is more appropriate to assess changes in the representative consumer. Kohli (1990b, 2001) shows that deflating nominal GDP by the cost of living index leads to a considerably higher growth in "real welfare" for some countries (such as Switzerland) that real GDP growth. This is explained by the terms of trade improvements for such countries in recent years.
 
 # Appendix B: Discrete Choice Models
 
@@ -6809,19 +6809,19 @@ At the same time as presenting these aggregation results, we will discuss the em
 Suppose there is a population of consumers  $h$ , and we normalize its size to unity. Each consumer must decide which of a discrete number of alternatives  $j = 1, \dots, N$  to purchase, and receives the following utility from consuming one unit of product  $j$ :
 
 $$
-V _ {j} ^ {h} = u _ {j} + \varepsilon_ {j} ^ {h}, \tag {B1}
+V_{j}^{h} = u_{j} + \varepsilon_{j}^{h}, \tag {B1}
 $$
 
 where  $u_{j}$  is the utility obtained from product  $j$  by every consumer, while  $\varepsilon_{j}^{h}$  is an additional part of utility obtained by consumer  $h$ . We will treat  $\varepsilon_{j}^{h}$  as a random variable with cumulative density function  $F(\varepsilon)$ , where each consumer obtains a different draw of  $\varepsilon = (\varepsilon_{1},\dots,\varepsilon_{N})$ . Given this draw, the consumer chooses the product with highest utility. The probability that a consumer will choose product  $j$  is:
 
 $$
-\begin{array}{l} P _ {j} = \operatorname {P r o b} \left[ V _ {j} \geq V _ {k}, \text {f o r a l l k = 1 , . . . , N} \right] \\ = \operatorname {P r o b} \left[ u _ {j} + \varepsilon_ {j} \geq u _ {k} + \varepsilon_ {k}, \text {f o r a l l} k = 1, \dots , N \right] \tag {B2} \\ = \operatorname {P r o b} \left[ \varepsilon_ {\mathrm {j}} - \varepsilon_ {\mathrm {k}} \geq u _ {\mathrm {k}} - u _ {\mathrm {j}}, \text {f o r a l l k = 1 , . . . , N} \right]. \\ \end{array}
+\begin{array}{l} P_{j} = \operatorname{Pr ob} \left[ V_{j} \geq V_{k}, \text{fo ra ll k =1 , . . . ,N} \right] \\ = \operatorname{Pr ob} \left[ u_{j} + \varepsilon_{j} \geq u_{k} + \varepsilon_{k}, \text{fo ra ll} k = 1, \dots , N \right] \tag {B2} \\ = \operatorname{Pr ob} \left[ \varepsilon_{\mathrm{j}} - \varepsilon_{\mathrm{k}} \geq u_{\mathrm{k}} - u_{\mathrm{j}}, \text{fo ra ll k =1 , . . . ,N} \right]. \\ \end{array}
 $$
 
 We can think of (B2) as the probability that any consumer choose alternative  $j$ , or equivalently, as the expected fraction of the population that chooses that alternative. The solution for these choice probabilities depends on the distribution function  $F(\varepsilon)$ , as well as on the specification of utility  $u_j$ . A simplified version of utility used by Berry (1994) is,
 
 $$
-u _ {j} = y + \beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}, \quad \alpha > 0. \tag {B3}
+u_{j} = y + \beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}, \quad \alpha > 0. \tag {B3}
 $$
 
 Thus, utility is linear in individual income  $y$ , decreasing in the price  $p_j$ , and also depends on the characteristics  $z_j$  of the product. The term  $\xi_j$  is another random element in utility, but unlike  $\varepsilon_j^h$ , it does not vary across consumers. We could think of  $\xi_j$  as some unmeasured characteristics of product  $j$ , which is random across products but not consumers.
@@ -6839,25 +6839,25 @@ Let  $\mathrm{H}$  be a nonnegative function defined over  $\mathbf{R}_{+}^{\mat
 Define the generalized extreme value distribution function,
 
 $$
-\mathrm {F} \left(\varepsilon_ {1}, \dots , \varepsilon_ {\mathrm {N}}\right) \equiv \exp \left[ - \mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \mathrm {e} ^ {- \varepsilon_ {2}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) \right]. \tag {B4}
+\mathrm{F} \left(\varepsilon_{1}, \dots , \varepsilon_{\mathrm{N}}\right) \equiv \exp \left[ - \mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \mathrm{e}^{- \varepsilon_{2}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) \right]. \tag {B4}
 $$
 
 Then the expected value of consumer utility (up to a constant) is given by the aggregate utility function,
 
 $$
-\mathrm {G} \left(\mathrm {u} _ {1}, \dots , \mathrm {u} _ {\mathrm {N}}\right) \equiv \ln \mathrm {H} \left(\mathrm {e} ^ {\mathrm {u} _ {1}}, \mathrm {e} ^ {\mathrm {u} _ {2}}, \dots , \mathrm {e} ^ {\mathrm {u} _ {\mathrm {N}}}\right), \tag {B5}
+\mathrm{G} \left(\mathrm{u}_{1}, \dots , \mathrm{u}_{\mathrm{N}}\right) \equiv \ln \mathrm{H} \left(\mathrm{e}^{\mathrm{u}_{1}}, \mathrm{e}^{\mathrm{u}_{2}}, \dots , \mathrm{e}^{\mathrm{u}_{\mathrm{N}}}\right), \tag {B5}
 $$
 
 and the choice probabilities  $\mathrm{P_j}$  in (B2) can be obtained as:
 
 $$
-\mathrm {P} _ {\mathrm {j}} = \partial \mathrm {G} / \partial \mathrm {u} _ {\mathrm {j}}. \tag {B6}
+\mathrm{P}_{\mathrm{j}} = \partial \mathrm{G} / \partial \mathrm{u}_{\mathrm{j}}. \tag {B6}
 $$
 
 To interpret this theorem, consider the linear utility function in (B3). Substituting this into (B5) and using the linear homogeneity of  $\mathbf{H}$ , the aggregate utility function is:
 
 $$
-\tilde {G} \left(p _ {1}, z _ {1}, \dots , p _ {N}, z _ {N}, y\right) = y + \ln H \left(e ^ {\beta^ {\prime} z _ {1} - \alpha p _ {1} + \xi_ {1}}, \dots , e ^ {\beta^ {\prime} z _ {N} - \alpha p _ {N} + \xi_ {N}}\right). \tag {B5'}
+\tilde {G} \left(p_{1}, z_{1}, \dots , p_{N}, z_{N}, y\right) = y + \ln H \left(e^{\beta^{\prime} z_{1} - \alpha p_{1} + \xi_{1}}, \dots , e^{\beta^{\prime} z_{N} - \alpha p_{N} + \xi_{N}}\right). \tag {B5'}
 $$
 
 Notice that  $\partial \widetilde{G} / \partial y = 1$ , and consider the case where  $\alpha = 1$ . Then price is inversely related to utility  $(du_j = -dp_j)$ , so the choice probabilities in (B6) can be computed as  $P_j = \partial G / \partial u_j = -(\partial \widetilde{G} / \partial p_j) / (\partial \widetilde{G} / \partial y)$ . Thus, the result that  $P_j = \partial G / \partial u_j$  in (B6) of the theorem can be interpreted as saying that Roy's Identity holds at the aggregate level.
@@ -6871,13 +6871,13 @@ To see the usefulness of this result, we consider the well-known example where t
 Let us choose the function  $\mathrm{H}$  as linear in its arguments:
 
 $$
-\mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \mathrm {e} ^ {- \varepsilon_ {2}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) = \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}}} \tag {B7}
+\mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \mathrm{e}^{- \varepsilon_{2}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) = \sum_{\mathrm{j} = 1}^{\mathrm{N}} \mathrm{e}^{- \varepsilon_{\mathrm{j}}} \tag {B7}
 $$
 
 Substituting (B7) into (B4), the distribution function is:
 
 $$
-F \left(\varepsilon_ {1}, \dots , \varepsilon_ {N}\right) = \prod_ {j = 1} ^ {N} \exp \left(- e ^ {- \varepsilon_ {j}}\right). \tag {B8}
+F \left(\varepsilon_{1}, \dots , \varepsilon_{N}\right) = \prod_{j = 1}^{N} \exp \left(- e^{- \varepsilon_{j}}\right). \tag {B8}
 $$
 
 This cumulative distribution function is therefore the product of N iid "double-exponential" or extreme value distributions, which apply to the random utility terms in (B1). Therefore, the random term in utility is distributed as iid extreme value.2
@@ -6885,7 +6885,7 @@ This cumulative distribution function is therefore the product of N iid "double-
 Computing the choice probabilities as in (B6) using (B7) and (B3), we obtain:
 
 $$
-P _ {j} = \frac {e ^ {u _ {j}}}{\left[ \sum_ {k = 1} ^ {N} e ^ {u _ {k}} \right]} = \frac {e ^ {\beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}}}{\left[ \sum_ {k = 1} ^ {N} e ^ {\beta^ {\prime} z _ {k} - \alpha p _ {k} + \xi_ {k}} \right]}, \tag {B9}
+P_{j} = \frac{e^{u_{j}}}{\left[ \sum_{k = 1}^{N} e^{u_{k}} \right]} = \frac{e^{\beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}}}{\left[ \sum_{k = 1}^{N} e^{\beta^{\prime} z_{k} - \alpha p_{k} + \xi_{k}} \right]}, \tag {B9}
 $$
 
 which are the choice probabilities under the logit system.
@@ -6893,25 +6893,25 @@ which are the choice probabilities under the logit system.
 Berry (1994) discusses how estimates of  $\alpha$  and  $\beta$  can be obtained even if we do not have data on the purchases by each individual, but just observe the quantity-share  $s_j$  of each product in demand, as well as their prices and characteristics. Then the probabilities in (B9) would be measured by these quantity-shares  $s_j$ . Suppose in addition there is some outside option  $j = 0$ , which gives utility normalized to zero,  $u_0 = 0$ . Then setting  $s_j = P_j$ , and taking logs of the ratio of (B9) to  $s_0$ , we obtain:
 
 $$
-\ln \mathrm {s} _ {\mathrm {j}} - \ln \mathrm {s} _ {0} = \beta^ {\prime} \mathrm {z} _ {\mathrm {j}} - \alpha \mathrm {p} _ {\mathrm {j}} + \xi_ {\mathrm {j}}. \tag {B10}
+\ln \mathrm{s}_{\mathrm{j}} - \ln \mathrm{s}_{0} = \beta^{\prime} \mathrm{z}_{\mathrm{j}} - \alpha \mathrm{p}_{\mathrm{j}} + \xi_{\mathrm{j}}. \tag {B10}
 $$
 
 In addition, we follow Berry to solve for the optimal prices of the firm, where we assume for simplicity that each firm produces only one product. Denoting the marginal costs of producing good  $j$  by  $\mathrm{g_j(z_j)}$ , and ignoring fixed costs, the profits from producing model  $j$  are,
 
 $$
-\pi_ {\mathrm {j}} = \left[ p _ {\mathrm {j}} - g _ {\mathrm {j}} \left(z _ {\mathrm {j}}\right) \right] s _ {\mathrm {j}}, \tag {B11}
+\pi_{\mathrm{j}} = \left[ p_{\mathrm{j}} - g_{\mathrm{j}} \left(z_{\mathrm{j}}\right) \right] s_{\mathrm{j}}, \tag {B11}
 $$
 
 Maximizing (B11) over the choice of  $\mathfrak{p}_{\mathrm{j}}$ , treating the prices of all other products as fixed, we obtain:
 
 $$
-\mathrm {p} _ {\mathrm {j}} = \mathrm {g} _ {\mathrm {j}} (\mathrm {z} _ {\mathrm {j}}) - \mathrm {s} _ {\mathrm {j}} / (\partial \mathrm {s} _ {\mathrm {j}} / \partial \mathrm {p} _ {\mathrm {j}}) = \mathrm {g} _ {\mathrm {j}} (\mathrm {z} _ {\mathrm {j}}) - (\partial \ln \mathrm {s} _ {\mathrm {j}} / \partial \mathrm {p} _ {\mathrm {j}}) ^ {- 1}. \tag {B12}
+\mathrm{p}_{\mathrm{j}} = \mathrm{g}_{\mathrm{j}} (\mathrm{z}_{\mathrm{j}}) - \mathrm{s}_{\mathrm{j}} / (\partial \mathrm{s}_{\mathrm{j}} / \partial \mathrm{p}_{\mathrm{j}}) = \mathrm{g}_{\mathrm{j}} (\mathrm{z}_{\mathrm{j}}) - (\partial \ln \mathrm{s}_{\mathrm{j}} / \partial \mathrm{p}_{\mathrm{j}})^{- 1}. \tag {B12}
 $$
 
 For the special case of the logit system (B9) with  $s_j = P_j$  denoting the quantity-shares, we see that  $\partial \ln s_j / \partial p_j = -\alpha (1 - s_j)$ . If we also specify marginal costs as  $g_j(z_j) = \gamma' z_j + \omega_j$ , where  $\omega_j$  is a random error, then from (B12) the optimal prices are:
 
 $$
-p _ {j} = \gamma^ {\prime} z _ {j} + \frac {1}{\alpha \left(1 - s _ {j}\right)} + \omega_ {j}, \tag {B13}
+p_{j} = \gamma^{\prime} z_{j} + \frac{1}{\alpha \left(1 - s_{j}\right)} + \omega_{j}, \tag {B13}
 $$
 
 which can be estimated jointly with (B10). It is apparent, though, that the random error  $\xi_{\mathrm{j}}$  influence the market shares in (B10), and therefore from (B13) will be correlated with prices  $\mathfrak{p}_{\mathrm{j}}$ . Accordingly, the joint estimation of (B10) and (B13) should be done with instrumental
@@ -6927,19 +6927,19 @@ Now suppose that the consumers have a choice over two levels of the differentiat
 To achieve this correlation between the random errors in (B1), McFadden (1981, p. 228) chooses the function  $\mathrm{H}$  as,
 
 $$
-\mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) = \sum_ {\mathrm {g} = 0} ^ {\mathrm {G}} \left[ \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {g}}} \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}} / \left(1 - \rho_ {\mathrm {g}}\right)} \right] ^ {\left(1 - \rho_ {\mathrm {g}}\right)}. \tag {B14}
+\mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) = \sum_{\mathrm{g} = 0}^{\mathrm{G}} \left[ \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{g}}} \mathrm{e}^{- \varepsilon_{\mathrm{j}} / \left(1 - \rho_{\mathrm{g}}\right)} \right]^{\left(1 - \rho_{\mathrm{g}}\right)}. \tag {B14}
 $$
 
 To satisfy property (iii) of Theorem 1, we need to specify that  $0 \leq \rho_{\mathrm{g}} < 1$ . Using this choice of H, we obtain a distribution function  $\mathrm{F}(\varepsilon)$  from (B4),
 
 $$
-\mathrm {F} \left(\varepsilon_ {1}, \dots , \varepsilon_ {\mathrm {N}}\right) = \exp \left(\sum_ {\mathrm {g} = 0} ^ {\mathrm {G}} \left[ \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {g}}} - \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}} / \left(1 - \rho_ {\mathrm {g}}\right)} \right] ^ {\left(1 - \rho_ {\mathrm {g}}\right)}\right), \tag {B15}
+\mathrm{F} \left(\varepsilon_{1}, \dots , \varepsilon_{\mathrm{N}}\right) = \exp \left(\sum_{\mathrm{g} = 0}^{\mathrm{G}} \left[ \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{g}}} - \mathrm{e}^{- \varepsilon_{\mathrm{j}} / \left(1 - \rho_{\mathrm{g}}\right)} \right]^{\left(1 - \rho_{\mathrm{g}}\right)}\right), \tag {B15}
 $$
 
 where  $\rho_{\mathrm{g}}$  roughly measures the correlation between random terms  $\varepsilon_{\mathrm{j}}$  within a group. Computing the choice probabilities as in (B6) using (B14), we obtain:
 
 $$
-P _ {j} = \frac {e ^ {u _ {j} / \left(1 - \rho_ {g}\right)}}{D _ {g}} \frac {D _ {g} ^ {\left(1 - \rho_ {g}\right)}}{\left[ \sum_ {g = 0} ^ {G} D _ {g} ^ {\left(1 - \rho_ {g}\right)} \right]}, \quad f o r j \in J _ {g}, \tag {B16}
+P_{j} = \frac{e^{u_{j} / \left(1 - \rho_{g}\right)}}{D_{g}} \frac{D_{g}^{\left(1 - \rho_{g}\right)}}{\left[ \sum_{g = 0}^{G} D_{g}^{\left(1 - \rho_{g}\right)} \right]}, \quad f o r j \in J_{g}, \tag {B16}
 $$
 
 where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{e}^{\mathrm{u_k} / (1 - \rho_g)}$  appearing in (B16) is called an "inclusive value", since it summarizes the utility obtained from all products in the group  $\mathrm{g}$ .
@@ -6947,7 +6947,7 @@ where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{
 Berry (1994, p. 252) motivates this nested logit case somewhat differently. He re-writes the random errors  $\varepsilon_{j}^{h}$  as,
 
 $$
-\varepsilon_ {j} ^ {h} = \zeta_ {g} ^ {h} + \left(1 - \rho_ {g}\right) e _ {j} ^ {h}, \quad \text {f o r} j \in J _ {g}, \tag {B17}
+\varepsilon_{j}^{h} = \zeta_{g}^{h} + \left(1 - \rho_{g}\right) e_{j}^{h}, \quad \text{fo r} j \in J_{g}, \tag {B17}
 $$
 
 where the errors  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value. The random variable  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  in (B17) is common to all products within group  $\mathbf{g}$ , and therefore induces a correlation between the random utilities for those products. Cardell (1997) shows that there exists a distribution for  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  (depending on  $\rho_{\mathrm{g}}$ ) such that when  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value, then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are also distributed extreme value but are not independent. Notice that as the parameter  $\rho_{\mathrm{g}}$  approaches unity then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are perfectly correlated within the group  $\mathbf{g}$  (since they equal  $\zeta_{\mathrm{g}}^{\mathrm{h}}$ ), whereas when  $\rho_{\mathrm{g}}$  approaches zero (in which case  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  also approaches zero) then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  become independent. Using the errors in (B17) gives the same choice probabilities as shown in (B16).

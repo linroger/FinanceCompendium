@@ -44,7 +44,7 @@ As with any risky investment, an investor in bonds subject to market risk expect
 Let  $r_t$  be the short rate at time  $t$ . Let  $D(t, T)$  be the price, at time  $t$ , of a discount bond paying one dollar at time  $T$ . Let  $s(t, T)$  be the spot rate at time  $t$  for the term  $(T - t)$ . Finally, let  $\phi(T - t)$  be the term premium (expressed as an annual excess rate of return) required by investors for a term of  $(T - t)$ . All rates are continuously compounded. We can then write,
 
 $$
-D (t, T) = \frac {1}{e ^ {s (t , T) \times (T - t)}} = \frac {1}{e ^ {\phi (T - t) \times (T - t)}} E \left[ \frac {1}{e ^ {\int_ {t} ^ {T} r _ {s} d s}} \right] \tag {1}
+D (t, T) = \frac{1}{e^{s (t , T) \times (T - t)}} = \frac{1}{e^{\phi (T - t) \times (T - t)}} E \left[ \frac{1}{e^{\int_{t}^{T} r_{s} d s}} \right] \tag {1}
 $$
 
 The second term in the two-term expression above is a discount factor that reflects the expected return from investing continuously at the short rate for the term  $(T - t)$ . The first term is the additional discount factor that accounts for the return premium that investors require to compensate them for the market risk of investing for a term of  $(T - t)$ . The use of an integral in the expression for the expected short rate discount factor is necessary because the short rate is continuously changing over the bond's term.
@@ -54,14 +54,14 @@ From this description and formula, it may seem necessary to know the term premiu
 
 The principle of risk-neutral valuation as it applies to bonds and other interest rate derivatives is that, regardless of how risk averse investors are, we can identify a set of spot rates that value discount bonds correctly relative to the rest of the market. We do not have to identify separately the term premium embedded in each spot rate in order to use it to discount future cash flows. This fact can be used to make the valuation of all interest rate derivatives easier by risk adjusting the term structure model; that is, by changing the probability distribution of the short rate so that the spot rate of every term is, under the new model, equal to the expected return from investing at the short rate over the same term. This is accomplished by redefining the model so that, instead of being a random process for the short rate, it is a random process for the short rate plus a function of the term premium. If we specify the process for  $r_t^*$  in such a way that
 
-$$ r _ {s} ^ {*} = r _ {s} + \phi (s - t) + \phi^ {\prime} (s - t) \times (s - t) \tag {2}
+$$ r_{s}^{*} = r_{s} + \phi (s - t) + \phi^{\prime} (s - t) \times (s - t) \tag {2}
 $$ at every future point in time  $s$  (accomplished by adjusting the rate of increase of  $r_{\mathrm{t}}$  upward) then
 
 
 we can write,
 
 $$
-\begin{array}{l} D (t, T) = \frac {1}{e ^ {s (t , T) \times (T - t)}} \\ = E \left[ \frac {1}{e \int_ {t} ^ {T} \left(r _ {s} + \phi (T - t)\right) d s} \right] = E \left[ \frac {1}{e \int_ {t} ^ {T} r _ {s} ^ {*} d s} \right] \tag {3} \\ \end{array}
+\begin{array}{l} D (t, T) = \frac{1}{e^{s (t , T) \times (T - t)}} \\ = E \left[ \frac{1}{e \int_{t}^{T} \left(r_{s} + \phi (T - t)\right) d s} \right] = E \left[ \frac{1}{e \int_{t}^{T} r_{s}^{*} d s} \right] \tag {3} \\ \end{array}
 $$
 
 By transforming the short rate process in this manner, we have created a process for a random variable which, when used to discount a certain future cash flow, gives an expected present value equal to the present value obtained by discounting that cash flow at the appropriate spot rate. It is important to note that this random variable is no longer the short rate, but something artificial that we might refer to as the risk-adjusted short rate.

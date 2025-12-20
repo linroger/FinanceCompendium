@@ -331,7 +331,7 @@ worth  $ \Delta M / P = (\Delta M / M) \times (M / P) = \pi \times (M / P) $. Fo
 The amount that the inflation tax transfers from household to the government is called seigniorage, which can be written as
 $ $
 
-\underbrace {\text {S e i g n i o r a g e}} _ {\text {I n f l a t i o n t a x}} = \underset {\text {T a x r a t e}} {\pi} \times \underset {\text {T a x b a s e}} {\frac {M}{P}} = \pi \times L (r ^ {*} + \pi) Y
+\underbrace {\text{Se ig ni or ag e}}_{\text{In fl at io nt ax}} = \underset {\text{Ta xr at e}} {\pi} \times \underset {\text{Ta xb as e}} {\frac{M}{P}} = \pi \times L (r^{*} + \pi) Y
 
 $ $
 The two terms are often viewed as the tax rate (here, the inflation rate  $ \pi $) and the tax base (the thing being taxed; here, real money balances $ M / P = L $). The first term rises as inflation $ \pi $ rises, but the second term goes to zero as $ \pi $ gets large because if inflation becomes very high, people try to hold almost no money, that is, real money demand given by $ L(i) = L(r^{*} + \pi)Y $  falls to zero.
@@ -364,12 +364,12 @@ Suppose there are just two countries and two currencies, Home and Foreign. Home 
 
 The value of Home's dollar external assets and liabilities can be expressed in pesos as  $ EA_{F} $ and $ EL_{F} $, respectively, using an exchange rate conversion. Hence, the Home country's total external wealth is the sum total of assets minus liabilities expressed in local currency: $ $
 
-W = \underbrace {(A _ {H} + E A _ {F})} _ {\text {A s s e t s}} - \underbrace {(L _ {H} + E L _ {F})} _ {\text {L i a b i l i t i e s}}
+W = \underbrace {(A_{H} + E A_{F})}_{\text{As se ts}} - \underbrace {(L_{H} + E L_{F})}_{\text{Li ab il it ie s}}
 
 $ $
 Now suppose there is a small change  $ \Delta E $ in the exchange rate, all else equal. This does not affect the values of $ A_H $ and $ L_H $, but it does change the values of $ EA_F $ and $ EL_F $ expressed in pesos. We can express the resulting change in national wealth as $ $
 
-\Delta W = \underbrace {\Delta E} _ {\text {C h a n g e i n}} \times \underbrace {[ A _ {F} - L _ {F} ]} _ {\text {N e t i n t e r n a t i o n}} \tag {19-1}
+\Delta W = \underbrace {\Delta E}_{\text{Ch an ge in}} \times \underbrace {[ A_{F} - L_{F} ]}_{\text{Ne ti nt er na ti on}} \tag {19-1}
 
 $ $
 The expression is intuitive and revealing. After a depreciation  $ (\Delta E > 0) $ , the wealth effect is positive if Foreign currency assets exceed Foreign currency liabilities (the net dollar position in brackets is positive) and negative if Foreign currency liabilities exceed Foreign currency assets (the net dollar position in brackets is negative).
@@ -384,8 +384,8 @@ Destabilizing Wealth Shocks Why do these wealth effects have implications for st
 
 These effects matter because, in more complex short-run models of the economy, wealth affects the demand for goods. For example,
 
-Consumers might spend more when they have more wealth. In this case, the consumption function would become  $ C(Y - T, \text{Total wealth}) $ , and consumption would depend not just on after-tax income but also on wealth.
-Firms might find it easier to borrow if their wealth increases (e.g., wealth increases the net worth of firms, increasing the collateral available for loans). The investment function would then become  $ I(i, \text{Total wealth}) $ , and investment would depend on both the interest rate and wealth.
+Consumers might spend more when they have more wealth. In this case, the consumption function would become  $ C(Y - T, \text{Totalwealth}) $ , and consumption would depend not just on after-tax income but also on wealth.
+Firms might find it easier to borrow if their wealth increases (e.g., wealth increases the net worth of firms, increasing the collateral available for loans). The investment function would then become  $ I(i, \text{Totalwealth}) $ , and investment would depend on both the interest rate and wealth.
 
 We can now begin to understand the importance of the exchange rate valuation effects summarized in Equation (19-1). This equation says that countries have to satisfy a special condition to avoid changes in external wealth whenever the exchange rate moves: the value of their foreign currency external assets must exactly equal foreign currency liabilities. If foreign currency external assets do not equal foreign currency external liabilities, the country is said to have a currency mismatch on its external balance sheet, and exchange rate changes will affect national wealth.
 

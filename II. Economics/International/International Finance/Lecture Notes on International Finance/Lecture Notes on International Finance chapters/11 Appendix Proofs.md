@@ -35,31 +35,31 @@ tags_extracted: '2025-12-18T01:45:42.402990'
 Proof. Recall the first-order conditions
 
 $$
-\begin{array}{l} \text {w . r . t .} c _ {H, t}: \quad \delta^ {t} \pi u ^ {\prime} (c _ {t}) \alpha \left(\frac {c _ {F , t}}{c _ {H , t}}\right) ^ {1 - \alpha} = \zeta_ {H, t} \\ \begin{array}{l l} \text {w . r . t .} c _ {H, t} ^ {*}: & \delta^ {t} (1 - \pi) u ^ {\prime} (c _ {t} ^ {*}) (1 - \alpha) \left(\frac {c _ {F , t} ^ {*}}{c _ {H , t} ^ {*}}\right) ^ {\alpha} = \zeta_ {H, t} \end{array} \\ \text {w . r . t .} c _ {F, t}: \quad \delta^ {t} \pi u ^ {\prime} (c _ {t}) (1 - \alpha) \left(\frac {c _ {H , t}}{c _ {F , t}}\right) ^ {\alpha} = \zeta_ {F, t} \\ \text {w . r . t .} c _ {F, t} ^ {*}: \quad \delta^ {t} (1 - \pi) u ^ {\prime} \left(c _ {t} ^ {*}\right) \alpha \left(\frac {c _ {H , t} ^ {*}}{c _ {F , t} ^ {*}}\right) ^ {1 - \alpha} = \zeta_ {F, t} \\ \end{array}
+\begin{array}{l} \text{w .r .t .} c_{H, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) \alpha \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} = \zeta_{H, t} \\ \begin{array}{l l} \text{w .r .t .} c_{H, t}^{*}: & \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*}) (1 - \alpha) \left(\frac{c_{F , t}^{*}}{c_{H , t}^{*}}\right)^{\alpha} = \zeta_{H, t} \end{array} \\ \text{w .r .t .} c_{F, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) (1 - \alpha) \left(\frac{c_{H , t}}{c_{F , t}}\right)^{\alpha} = \zeta_{F, t} \\ \text{w .r .t .} c_{F, t}^{*}: \quad \delta^{t} (1 - \pi) u^{\prime} \left(c_{t}^{*}\right) \alpha \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{1 - \alpha} = \zeta_{F, t} \\ \end{array}
 $$
 
 multiply the first and the last first-order conditions and divide it by the product of the second and third first-order conditions to get
 
 $$
-\begin{array}{l} \frac {c _ {F , t}}{c _ {F , t} ^ {*}} \frac {c _ {H , t} ^ {*}}{c _ {H , t}} \frac {\alpha^ {2}}{(1 - \alpha) ^ {2}} = 1 \\ \Rightarrow \frac {\alpha}{1 - \alpha} \frac {c _ {F , t}}{c _ {F , t} ^ {*}} = \frac {1 - \alpha}{\alpha} \frac {c _ {H , t}}{c _ {H , t} ^ {*}} \\ \end{array}
+\begin{array}{l} \frac{c_{F , t}}{c_{F , t}^{*}} \frac{c_{H , t}^{*}}{c_{H , t}} \frac{\alpha^{2}}{(1 - \alpha)^{2}} = 1 \\ \Rightarrow \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{F , t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H , t}}{c_{H , t}^{*}} \\ \end{array}
 $$
 
 Let
 
 $$
-\begin{array}{l} k _ {t} \stackrel {\text {d e f}} {=} \frac {\alpha}{1 - \alpha} \frac {c _ {F , t}}{c _ {F , t} ^ {*}} = \frac {1 - \alpha}{\alpha} \frac {c _ {H , t}}{c _ {H , t} ^ {*}} \\ \Rightarrow c _ {H, t} = \frac {\alpha}{1 - \alpha} k _ {t} c _ {H, t} ^ {*}, \quad c _ {F, t} = \frac {1 - \alpha}{\alpha} k _ {t} c _ {F, t} ^ {*} \\ \end{array}
+\begin{array}{l} k_{t} \stackrel {\text{de f}} {=} \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{F , t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H , t}}{c_{H , t}^{*}} \\ \Rightarrow c_{H, t} = \frac{\alpha}{1 - \alpha} k_{t} c_{H, t}^{*}, \quad c_{F, t} = \frac{1 - \alpha}{\alpha} k_{t} c_{F, t}^{*} \\ \end{array}
 $$
 
 Plugging the equations above into the market clearing conditions yields
 
 $$
-\begin{array}{l} c _ {H, t} = \frac {\alpha k _ {t}}{(1 - \alpha) + \alpha k _ {t}} y _ {t}, \quad c _ {H, t} ^ {*} = \frac {1 - \alpha}{(1 - \alpha) + \alpha k _ {t}} y _ {t}, \\ c _ {F, t} = \frac {(1 - \alpha) k _ {t}}{\alpha + (1 - \alpha) k _ {t}} y _ {t} ^ {*}, \quad c _ {F, t} ^ {*} = \frac {\alpha}{\alpha + (1 - \alpha) k _ {t}} y _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} c_{H, t} = \frac{\alpha k_{t}}{(1 - \alpha) + \alpha k_{t}} y_{t}, \quad c_{H, t}^{*} = \frac{1 - \alpha}{(1 - \alpha) + \alpha k_{t}} y_{t}, \\ c_{F, t} = \frac{(1 - \alpha) k_{t}}{\alpha + (1 - \alpha) k_{t}} y_{t}^{*}, \quad c_{F, t}^{*} = \frac{\alpha}{\alpha + (1 - \alpha) k_{t}} y_{t}^{*}, \\ \end{array}
 $$
 
 Divide the first first-order condition by the second to get
 
 $$
-\frac {\pi}{1 - \pi} \frac {u ^ {\prime} (c _ {t})}{u ^ {\prime} (c _ {t} ^ {*})} \frac {\alpha}{1 - \alpha} \left(\frac {c _ {F , t}}{c _ {H , t}}\right) ^ {1 - \alpha} \left(\frac {c _ {H , t} ^ {*}}{c _ {F , t} ^ {*}}\right) ^ {\alpha} = 1.
+\frac{\pi}{1 - \pi} \frac{u^{\prime} (c_{t})}{u^{\prime} (c_{t}^{*})} \frac{\alpha}{1 - \alpha} \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{\alpha} = 1.
 $$
 
 where  $c_{H,t}, c_{F,t}, c_{H,t}^{*}$  and  $c_{F,t}^{*}$  are functions of  $k_{t}$ . Hence, we can solve
@@ -73,7 +73,7 @@ $k_{t}$  via the implicit equation above.
 Proof. Under symmetric steady state,  $\bar{y}^{*} = \bar{y}$ ,  $\bar{e} = 0$ ,  $\bar{c}_{H} = \bar{c}_{F}^{*}$ ,  $\bar{c}_{F} = \bar{c}_{H}^{*}$  and
 
 $$
-\begin{array}{l} \bar {c} _ {H} + \bar {c} _ {H} ^ {*} = \bar {y}, \quad \bar {c} _ {F} + \bar {c} _ {F} ^ {*} = \bar {y} ^ {*}, \\ \bar {p} \bar {c} _ {H} = \alpha \bar {c}, \quad \bar {p} ^ {*} \bar {c} _ {F} ^ {*} = \alpha \bar {c} ^ {*}, \\ \end{array}
+\begin{array}{l} \bar {c}_{H} + \bar {c}_{H}^{*} = \bar {y}, \quad \bar {c}_{F} + \bar {c}_{F}^{*} = \bar {y}^{*}, \\ \bar {p} \bar {c}_{H} = \alpha \bar {c}, \quad \bar {p}^{*} \bar {c}_{F}^{*} = \alpha \bar {c}^{*}, \\ \end{array}
 $$
 
 which implies  $\bar{c}_H = \bar{c}_F^* = \alpha \bar{y},\bar{c}_H^* = \bar{c}_F = (1 - \alpha)\bar{y},\bar{c} = \bar{c}^* =$
@@ -83,13 +83,13 @@ $\alpha^{\alpha}(1 - \alpha)^{1 - \alpha}\bar{y}$  and  $\bar{p} = \bar{p}^{*} =
 conditions plus the equilibrium conditions (1.4) and (1.5) imply
 
 $$
-\begin{array}{l} p _ {t} y _ {t} = \alpha c _ {t} + (1 - \alpha) c _ {t} ^ {*} \exp (- e _ {t}), \\ p _ {t} ^ {*} y _ {t} ^ {*} = \alpha c _ {t} ^ {*} + (1 - \alpha) c _ {t} \exp (e _ {t}). \\ \end{array}
+\begin{array}{l} p_{t} y_{t} = \alpha c_{t} + (1 - \alpha) c_{t}^{*} \exp (- e_{t}), \\ p_{t}^{*} y_{t}^{*} = \alpha c_{t}^{*} + (1 - \alpha) c_{t} \exp (e_{t}). \\ \end{array}
 $$
 
 Log linearize around the symmetric steady state to obtain
 
 $$
-\begin{array}{l} \bar {p} \bar {y} (\log p _ {t} - \log \bar {p} + \log y _ {t} - \log \bar {y}) = \alpha \bar {c} (\log c _ {t} - \log \bar {c}) + (1 - \alpha) \bar {c} ^ {*} \exp (- \bar {e}) (\log c _ {t} ^ {*} - \log \bar {c} ^ {*} - e _ {t} + \bar {e}) \\ \bar {p} ^ {*} \bar {y} ^ {*} (\log p _ {t} ^ {*} - \log \bar {p} ^ {*} + \log y _ {t} ^ {*} - \log \bar {y}) = \alpha \bar {c} ^ {*} (\log c _ {t} ^ {*} - \log \bar {c} ^ {*}) + (1 - \alpha) \bar {c} \exp (\bar {e}) (\log c _ {t} - \log \bar {c} + e _ {t} - \bar {e}) \\ \end{array}
+\begin{array}{l} \bar {p} \bar {y} (\log p_{t} - \log \bar {p} + \log y_{t} - \log \bar {y}) = \alpha \bar {c} (\log c_{t} - \log \bar {c}) + (1 - \alpha) \bar {c}^{*} \exp (- \bar {e}) (\log c_{t}^{*} - \log \bar {c}^{*} - e_{t} + \bar {e}) \\ \bar {p}^{*} \bar {y}^{*} (\log p_{t}^{*} - \log \bar {p}^{*} + \log y_{t}^{*} - \log \bar {y}) = \alpha \bar {c}^{*} (\log c_{t}^{*} - \log \bar {c}^{*}) + (1 - \alpha) \bar {c} \exp (\bar {e}) (\log c_{t} - \log \bar {c} + e_{t} - \bar {e}) \\ \end{array}
 $$
 
 subtracting the second equation from the first and plugging in steady
@@ -97,7 +97,7 @@ subtracting the second equation from the first and plugging in steady
 states yields
 
 $$
-\bar {p} \bar {y} (\log y _ {t} - \log y _ {t} ^ {*}) + \bar {p} \bar {y} (\log p _ {t} - \log p _ {t} ^ {*}) = (2 \alpha - 1) \bar {c} (\log c _ {t} - \log c _ {t} ^ {*}) - 2 (1 - \alpha) \bar {c} e _ {t}
+\bar {p} \bar {y} (\log y_{t} - \log y_{t}^{*}) + \bar {p} \bar {y} (\log p_{t} - \log p_{t}^{*}) = (2 \alpha - 1) \bar {c} (\log c_{t} - \log c_{t}^{*}) - 2 (1 - \alpha) \bar {c} e_{t}
 $$
 
 recall that  $e_t = (2\alpha - 1)tot_t$ , where  $tot_t = \log p_t - \log p_t^* + e_t$ , hence
@@ -105,7 +105,7 @@ recall that  $e_t = (2\alpha - 1)tot_t$ , where  $tot_t = \log p_t - \log p_t^* 
 $\log p_t - \log p_t^* = (2 - 2\alpha) / (2\alpha -1)e_t$  , and
 
 $$
-\begin{array}{l} \bar {p} \bar {y} \left(\log y _ {t} - \log y _ {t} ^ {*}\right) + \bar {p} \bar {y} \frac {2 - 2 \alpha}{2 \alpha - 1} e _ {t} = (2 \alpha - 1) \bar {c} \left(\log c _ {t} - \log c _ {t} ^ {*}\right) - 2 (1 - \alpha) \bar {c} e _ {t} \\ (2 \alpha - 1) (\log c _ {t} - \log c _ {t} ^ {*}) - 2 (1 - \alpha) e _ {t} - \frac {2 - 2 \alpha}{2 \alpha - 1} e _ {t} = \log y _ {t} - \log y _ {t} ^ {*} \\ (2 \alpha - 1) \left(\log c _ {t} - \log c _ {t} ^ {*}\right) - 2 (1 - \alpha) \frac {2 \alpha}{2 \alpha - 1} e _ {t} = \log y _ {t} - \log y _ {t} ^ {*} \\ \end{array}
+\begin{array}{l} \bar {p} \bar {y} \left(\log y_{t} - \log y_{t}^{*}\right) + \bar {p} \bar {y} \frac{2 - 2 \alpha}{2 \alpha - 1} e_{t} = (2 \alpha - 1) \bar {c} \left(\log c_{t} - \log c_{t}^{*}\right) - 2 (1 - \alpha) \bar {c} e_{t} \\ (2 \alpha - 1) (\log c_{t} - \log c_{t}^{*}) - 2 (1 - \alpha) e_{t} - \frac{2 - 2 \alpha}{2 \alpha - 1} e_{t} = \log y_{t} - \log y_{t}^{*} \\ (2 \alpha - 1) \left(\log c_{t} - \log c_{t}^{*}\right) - 2 (1 - \alpha) \frac{2 \alpha}{2 \alpha - 1} e_{t} = \log y_{t} - \log y_{t}^{*} \\ \end{array}
 $$
 
 where we plug in  $\bar{p}\bar{y} = \bar{c}$
@@ -115,19 +115,19 @@ where we plug in  $\bar{p}\bar{y} = \bar{c}$
 Proof. Plug in
 
 $$
-r x _ {t + 1} ^ {i / \S} - \mathbb {E} _ {t} \left[ r x _ {t + 1} ^ {i / \S} \right] = - \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {\S}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\S}} \varepsilon_ {t + 1} ^ {\S}\right)
+r x_{t + 1}^{i / \S} - \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
 $$
 
 in the expression of  $hml_{t+1}$  yields
 
 $$
-\begin{array}{l} h m l _ {t + 1} - \mathbb {E} _ {t} \left[ h m l _ {t + 1} \right] = - \frac {1}{N _ {H}} \sum_ {i \in H} \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {\S}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \frac {1}{N _ {H}} \sum_ {i \in H} \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\S}} \varepsilon_ {t + 1} ^ {\S}\right) \\ + \frac {1}{N _ {L}} \sum_ {i \in L} \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {\S}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} + \frac {1}{N _ {L}} \sum_ {i \in L} \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\S}} \varepsilon_ {t + 1} ^ {\S}\right) \\ = \left(\sqrt {\delta_ {t} ^ {L}} - \sqrt {\delta_ {t} ^ {H}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \frac {1}{N _ {H}} \sum_ {i \in H} \sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} + \frac {1}{N _ {L}} \sum_ {i \in L} \sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} \\ = \left(\overline {{\sqrt {\delta_ {t} ^ {L}}}} - \overline {{\sqrt {\delta_ {t} ^ {H}}}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} \\ \end{array}
+\begin{array}{l} h m l_{t + 1} - \mathbb {E}_{t} \left[ h m l_{t + 1} \right] = - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ = \left(\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} + \frac{1}{N_{L}} \sum_{i \in L} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} \\ = \left(\overline {{\sqrt{\delta_{t}^{L}}}} - \overline {{\sqrt{\delta_{t}^{H}}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} \\ \end{array}
 $$
 
 The country-specific shock terms,  $\frac{1}{N_H}\sum_{i\in H}\sqrt{\gamma z_t^i}\varepsilon_{t + 1}^i$  and  $\frac{1}{N_L}\sum_{i\in L}\sqrt{\gamma z_t^i}\varepsilon_{t + 1}^i$  averages out according to the law of large numbers. Hence,
 
 $$
-r x _ {t + 1} ^ {i / \S} = r p _ {t} ^ {i / \S} + \frac {\sqrt {\delta^ {\S}} - \sqrt {\delta^ {i}}}{\sqrt {\delta_ {t} ^ {L}} - \sqrt {\delta_ {t} ^ {H}}} \left(h m l _ {t + 1} - \mathbb {E} _ {t} \left[ h m l _ {t + 1} \right]\right) - \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\S}} \varepsilon_ {t + 1} ^ {\S}\right)
+r x_{t + 1}^{i / \S} = r p_{t}^{i / \S} + \frac{\sqrt{\delta^{\S}} - \sqrt{\delta^{i}}}{\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}} \left(h m l_{t + 1} - \mathbb {E}_{t} \left[ h m l_{t + 1} \right]\right) - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
 $$
 
 which shows that  $\beta_t^i$  is the carry trade loading on  $hml_{t+1}$
@@ -139,33 +139,33 @@ which shows that  $\beta_t^i$  is the carry trade loading on  $hml_{t+1}$
 Proof. Recall that
 
 $$
-\begin{array}{l} \Delta e _ {t + 1} ^ {i / \mathbb {S}} = - \left(\mu_ {t} ^ {i} - \mu_ {t} ^ {\mathbb {S}}\right) - \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {\mathbb {S}}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\mathbb {S}}} \varepsilon_ {t + 1} ^ {\mathbb {S}}\right) \\ = - \chi \left(z _ {t} ^ {i} - z _ {t} ^ {\S}\right) - \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {\S}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {\S}} \varepsilon_ {t + 1} ^ {\S}\right) \\ \end{array}
+\begin{array}{l} \Delta e_{t + 1}^{i / \mathbb {S}} = - \left(\mu_{t}^{i} - \mu_{t}^{\mathbb {S}}\right) - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\mathbb {S}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\mathbb {S}}} \varepsilon_{t + 1}^{\mathbb {S}}\right) \\ = - \chi \left(z_{t}^{i} - z_{t}^{\S}\right) - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ \end{array}
 $$
 
 and
 
 $$
-r _ {t} ^ {i} - r _ {t} ^ {\$} = \left(\chi - \frac {1}{2} \gamma\right) \left(z _ {t} ^ {i} - z _ {t} ^ {\$}\right) - \frac {1}{2} \left(\delta^ {i} - \delta^ {\$}\right) z _ {t} ^ {w}.
+r_{t}^{i} - r_{t}^{\$} = \left(\chi - \frac{1}{2} \gamma\right) \left(z_{t}^{i} - z_{t}^{\$}\right) - \frac{1}{2} \left(\delta^{i} - \delta^{\$}\right) z_{t}^{w}.
 $$
 
 Note that  $z_{t}^{w}$  is uncorrelated  $z_{t}^{i}$  and  $z_{t}^{\S}$ . Hence,
 
 $$
-v a r (r _ {t} ^ {i} - r _ {t} ^ {\$}) = \left(\chi - \frac {1}{2} \gamma\right) ^ {2} v a r (z _ {t} ^ {i} - z _ {t} ^ {\$}) + \frac {1}{4} \left(\delta^ {i} - \delta^ {\$}\right) ^ {2} v a r (z _ {t} ^ {w})
+v a r (r_{t}^{i} - r_{t}^{\$}) = \left(\chi - \frac{1}{2} \gamma\right)^{2} v a r (z_{t}^{i} - z_{t}^{\$}) + \frac{1}{4} \left(\delta^{i} - \delta^{\$}\right)^{2} v a r (z_{t}^{w})
 $$
 
 $$
-c o v (\Delta e _ {t + 1} ^ {i / \S}, r _ {t} ^ {i} - r _ {t} ^ {\S}) = - \chi \left(\chi - \frac {1}{2} \gamma\right) v a r (z _ {t} ^ {i} - z _ {t} ^ {\S})
+c o v (\Delta e_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = - \chi \left(\chi - \frac{1}{2} \gamma\right) v a r (z_{t}^{i} - z_{t}^{\S})
 $$
 
 $$
-\begin{array}{l} c o v (r x _ {t + 1} ^ {i / \S}, r _ {t} ^ {i} - r _ {t} ^ {\S}) = c o v (\Delta e _ {t + 1} ^ {i / \S} + r _ {t} ^ {i} - r _ {t} ^ {\S}, r _ {t} ^ {i} - r _ {t} ^ {\S}) \\ = c o v \left(\Delta e _ {t + 1} ^ {i / \$}, r _ {t} ^ {i} - r _ {t} ^ {\$}\right) + v a r \left(r _ {t} ^ {i} - r _ {t} ^ {\$}\right) \\ \end{array}
+\begin{array}{l} c o v (r x_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = c o v (\Delta e_{t + 1}^{i / \S} + r_{t}^{i} - r_{t}^{\S}, r_{t}^{i} - r_{t}^{\S}) \\ = c o v \left(\Delta e_{t + 1}^{i / \$}, r_{t}^{i} - r_{t}^{\$}\right) + v a r \left(r_{t}^{i} - r_{t}^{\$}\right) \\ \end{array}
 $$
 
 Assuming  $z_{t}^{i}$  and  $z_{t}^{\S}$  are also independent,
 
 $$
-v a r (z _ {t} ^ {i} - z _ {t} ^ {\$}) = v a r (z _ {t} ^ {i}) + v a r (z _ {t} ^ {\$}).
+v a r (z_{t}^{i} - z_{t}^{\$}) = v a r (z_{t}^{i}) + v a r (z_{t}^{\$}).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/c2fac57952de4a345af836758ee9dd61b7045ca08656353bb60497221e4454ed.jpg)
@@ -175,47 +175,47 @@ $$
 Proof. Recall that
 
 $$
-\Delta e _ {t + 1} ^ {i / j} = - \chi \left(z _ {t} ^ {i} - z _ {t} ^ {j}\right) - \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {j}}\right) \sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w} - \left(\sqrt {\gamma z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} - \sqrt {\gamma z _ {t} ^ {j}} \varepsilon_ {t + 1} ^ {j}\right)
+\Delta e_{t + 1}^{i / j} = - \chi \left(z_{t}^{i} - z_{t}^{j}\right) - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{j}} \varepsilon_{t + 1}^{j}\right)
 $$
 
 Note that  $z_{t}^{i}, z_{t}^{j}, z_{t}^{w}, \varepsilon_{t+1}^{i}, \varepsilon_{t+1}^{j}, \varepsilon_{t+1}^{w}$  are independent for  $i \neq j$ . By the law of large numbers,
 
 $$
-c o v (z _ {t} ^ {i} - \overline {{z}} _ {t}, z _ {t} ^ {i} - z _ {t} ^ {j}) = v a r (z _ {t} ^ {i}) - \frac {1}{N} v a r (z _ {t} ^ {i}) + \frac {1}{N} v a r (z _ {t} ^ {j}) = v a r (z _ {t} ^ {i})
+c o v (z_{t}^{i} - \overline {{z}}_{t}, z_{t}^{i} - z_{t}^{j}) = v a r (z_{t}^{i}) - \frac{1}{N} v a r (z_{t}^{i}) + \frac{1}{N} v a r (z_{t}^{j}) = v a r (z_{t}^{i})
 $$
 
 $$
-v a r \left(z _ {t} ^ {i} - \bar {z} _ {t}\right) = v a r \left(z _ {t} ^ {i}\right) - \frac {2}{N} v a r \left(z _ {t} ^ {i}\right) + \frac {1}{N ^ {2}} \sum_ {j = 1} ^ {N} v a r \left(z _ {t} ^ {j}\right) = v a r \left(z _ {t} ^ {i}\right)
+v a r \left(z_{t}^{i} - \bar {z}_{t}\right) = v a r \left(z_{t}^{i}\right) - \frac{2}{N} v a r \left(z_{t}^{i}\right) + \frac{1}{N^{2}} \sum_{j = 1}^{N} v a r \left(z_{t}^{j}\right) = v a r \left(z_{t}^{i}\right)
 $$
 
 $$
-c o v (\sqrt {z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i}, z _ {t} ^ {i}) = \mathbb {E} \left[ z _ {t} ^ {i} \sqrt {z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} \right] - \mathbb {E} \left[ z _ {t} ^ {i} \right] \mathbb {E} \left[ \sqrt {z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i} \right] = 0
+c o v (\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i}, z_{t}^{i}) = \mathbb {E} \left[ z_{t}^{i} \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] - \mathbb {E} \left[ z_{t}^{i} \right] \mathbb {E} \left[ \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] = 0
 $$
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(\sqrt {z _ {t} ^ {w}} \varepsilon_ {t + 1} ^ {w}\right) = \mathbb {E} \left[ z _ {t} ^ {w} \left(\varepsilon_ {t + 1} ^ {w}\right) ^ {2} \right] - \left(\mathbb {E} \left[ \sqrt {z _ {t} ^ {w}} \left(\varepsilon_ {t + 1} ^ {w}\right) \right]\right) ^ {2} \\ = \mathbb {E} \left[ z _ {t} ^ {w} \right] \mathbb {E} \left[ \left(\varepsilon_ {t + 1} ^ {w}\right) ^ {2} \right] \\ = \theta^ {w} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(\sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w}\right) = \mathbb {E} \left[ z_{t}^{w} \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] - \left(\mathbb {E} \left[ \sqrt{z_{t}^{w}} \left(\varepsilon_{t + 1}^{w}\right) \right]\right)^{2} \\ = \mathbb {E} \left[ z_{t}^{w} \right] \mathbb {E} \left[ \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] \\ = \theta^{w} \\ \end{array}
 $$
 
 $$
-\operatorname {v a r} \left(\sqrt {z _ {t} ^ {i}} \varepsilon_ {t + 1} ^ {i}\right) = \theta
+\operatorname{va r} \left(\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i}\right) = \theta
 $$
 
 Hence,
 
 $$
-c o v (\Delta e _ {t + 1} ^ {i / j}, \Delta \bar {e} _ {t + 1} ^ {i}) = \chi^ {2} v a r (z _ {t} ^ {i}) + \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {j}}\right) \left(\sqrt {\delta^ {i}} - \overline {{\sqrt {\delta}}}\right) \theta^ {w} + \gamma \theta
+c o v (\Delta e_{t + 1}^{i / j}, \Delta \bar {e}_{t + 1}^{i}) = \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \theta^{w} + \gamma \theta
 $$
 
 $$
-v a r (\Delta \overline {{e}} _ {t + 1} ^ {i}) = \chi^ {2} v a r (z _ {t} ^ {i}) + \left(\sqrt {\delta^ {i}} - \overline {{\sqrt {\delta}}}\right) ^ {2} \theta^ {w} + \gamma \theta
+v a r (\Delta \overline {{e}}_{t + 1}^{i}) = \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta
 $$
 
 $$
-\begin{array}{l} v a r \left(\Delta e _ {t + 1} ^ {i / j}\right) = \chi^ {2} \left(v a r \left(z _ {t} ^ {i}\right) + v a r \left(z _ {t} ^ {j}\right)\right) + \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {j}}\right) ^ {2} \theta^ {w} + 2 \gamma \theta \\ \varphi = \frac {c o v (\Delta e _ {t + 1} ^ {i / j} , \Delta \vec {e} _ {t + 1} ^ {i})}{v a r (\Delta \vec {e} _ {t + 1} ^ {i})} \\ = 1 - \frac {\left(\sqrt {\delta^ {i}} - \overline {{\sqrt {\delta}}}\right) \left(\sqrt {\delta^ {j}} - \overline {{\sqrt {\delta}}}\right) \theta^ {w}}{\chi^ {2} v a r (z _ {t} ^ {i}) + \left(\sqrt {\delta^ {i}} - \overline {{\sqrt {\delta}}}\right) ^ {2} \theta^ {w} + \gamma \theta}, \\ \end{array}
+\begin{array}{l} v a r \left(\Delta e_{t + 1}^{i / j}\right) = \chi^{2} \left(v a r \left(z_{t}^{i}\right) + v a r \left(z_{t}^{j}\right)\right) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \\ \varphi = \frac{c o v (\Delta e_{t + 1}^{i / j} , \Delta \vec{e}_{t + 1}^{i})}{v a r (\Delta \vec{e}_{t + 1}^{i})} \\ = 1 - \frac{\left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \left(\sqrt{\delta^{j}} - \overline {{\sqrt{\delta}}}\right) \theta^{w}}{\chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta}, \\ \end{array}
 $$
 
 $$
-\begin{array}{l} R ^ {2} = \frac {\varphi^ {2} v a r (\Delta \overline {{e}} _ {t + 1} ^ {i})}{v a r (\Delta e _ {t + 1} ^ {i / j})} \\ = \frac {\left[ \chi^ {2} v a r (z _ {t} ^ {i}) + \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {j}}\right) \left(\sqrt {\delta^ {i}} - \sqrt {\delta}\right) \theta^ {w} + \gamma \theta \right] ^ {2}}{\left[ \chi^ {2} v a r (z _ {t} ^ {i}) + \left(\sqrt {\delta^ {i}} - \sqrt {\delta}\right) ^ {2} \theta^ {w} + \gamma \theta \right] \left[ \chi^ {2} (v a r (z _ {t} ^ {i}) + v a r (z _ {t} ^ {j})) + \left(\sqrt {\delta^ {i}} - \sqrt {\delta^ {j}}\right) ^ {2} \theta^ {w} + 2 \gamma \theta \right]}. \\ \end{array}
+\begin{array}{l} R^{2} = \frac{\varphi^{2} v a r (\Delta \overline {{e}}_{t + 1}^{i})}{v a r (\Delta e_{t + 1}^{i / j})} \\ = \frac{\left[ \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right) \theta^{w} + \gamma \theta \right]^{2}}{\left[ \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right)^{2} \theta^{w} + \gamma \theta \right] \left[ \chi^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{j})) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \right]}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/480f8e941764dd4d0cdc01e9c1e98be1b7bbe9531b7f230e8bffbdf607fdb35e.jpg)
@@ -225,87 +225,87 @@ $$
 Proof. The Euler equation for the consumption claim implies
 
 $$
-\begin{array}{l} 1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + r _ {t + 1} ^ {c}\right) \right], \\ 0 = \mathbb {E} _ {t} [ m _ {t + 1} ] + \mathbb {E} _ {t} [ r _ {t + 1} ^ {c} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) + \frac {1}{2} v a r _ {t} (r _ {t + 1} ^ {c}) + c o v _ {t} (m _ {t + 1}, r _ {t + 1} ^ {c}). \\ \end{array}
+\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t + 1}^{c}\right) \right], \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \mathbb {E}_{t} [ r_{t + 1}^{c} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + \frac{1}{2} v a r_{t} (r_{t + 1}^{c}) + c o v_{t} (m_{t + 1}, r_{t + 1}^{c}). \\ \end{array}
 $$
 
 Define  $r_0^c = \kappa_0^c + \mu_g + \mu_{wc}(1 - \kappa_1^c)$ . The log-linearization of the log total wealth return around the long-run average wealth consumption ratio can be expressed as
 
 $$
-\begin{array}{l} r _ {t + 1} ^ {c} = \kappa_ {0} ^ {c} + \Delta c _ {t + 1} + \log \left(w c _ {t + 1}\right) - \kappa_ {1} ^ {c} \log \left(w c _ {t}\right) \\ = \kappa_ {0} ^ {c} + \mu_ {g} + x _ {t} + \sigma_ {t} \varepsilon_ {g, t + 1} + \mu_ {w c} + W _ {x} x _ {t + 1} + W _ {\sigma} \left(\sigma_ {t + 1} ^ {2} - \sigma^ {2}\right) - \kappa_ {1} ^ {c} \left(\mu_ {w c} + W _ {x} x _ {t} + W _ {\sigma} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right)\right) \\ = r _ {0} ^ {c} + x _ {t} + \sigma_ {t} \varepsilon_ {g, t + 1} + W _ {x} \left(\rho x _ {t} + \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1}\right) + W _ {\sigma} \left(\phi \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right) + \omega \varepsilon_ {w, t + 1}\right) - \kappa_ {1} ^ {c} \left(W _ {x} x _ {t} + W _ {\sigma} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right)\right) \\ = r _ {0} ^ {c} + \left[ 1 + W _ {x} \left(\rho - \kappa_ {1} ^ {c}\right) \right] x _ {t} + W _ {\sigma} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right) \left(\phi - \kappa_ {1} ^ {c}\right) + \sigma_ {t} \varepsilon_ {g, t + 1} + W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1} \\ \end{array}
+\begin{array}{l} r_{t + 1}^{c} = \kappa_{0}^{c} + \Delta c_{t + 1} + \log \left(w c_{t + 1}\right) - \kappa_{1}^{c} \log \left(w c_{t}\right) \\ = \kappa_{0}^{c} + \mu_{g} + x_{t} + \sigma_{t} \varepsilon_{g, t + 1} + \mu_{w c} + W_{x} x_{t + 1} + W_{\sigma} \left(\sigma_{t + 1}^{2} - \sigma^{2}\right) - \kappa_{1}^{c} \left(\mu_{w c} + W_{x} x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right)\right) \\ = r_{0}^{c} + x_{t} + \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \left(\rho x_{t} + \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right) + W_{\sigma} \left(\phi \left(\sigma_{t}^{2} - \sigma^{2}\right) + \omega \varepsilon_{w, t + 1}\right) - \kappa_{1}^{c} \left(W_{x} x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right)\right) \\ = r_{0}^{c} + \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right) \left(\phi - \kappa_{1}^{c}\right) + \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \\ \end{array}
 $$
 
 which implies
 
 $$
-\mathbb {E} _ {t} \left[ r _ {t + 1} ^ {c} \right] = r _ {0} ^ {c} + \left[ 1 + W _ {x} \left(\rho - \kappa_ {1} ^ {c}\right) \right] x _ {t} + W _ {\sigma} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right) \left(\phi - \kappa_ {1} ^ {c}\right)
+\mathbb {E}_{t} \left[ r_{t + 1}^{c} \right] = r_{0}^{c} + \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right) \left(\phi - \kappa_{1}^{c}\right)
 $$
 
 $$
-r _ {t + 1} ^ {c} - \mathbb {E} _ {t} \left[ r _ {t + 1} ^ {c} \right] = \sigma_ {t} \varepsilon_ {g, t + 1} + W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1}
+r_{t + 1}^{c} - \mathbb {E}_{t} \left[ r_{t + 1}^{c} \right] = \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}
 $$
 
 $$
-\begin{array}{l} \operatorname {v a r} _ {t} \left(r _ {t + 1} ^ {c}\right) = \mathbb {E} _ {t} \left[ \left(\sigma_ {t} \varepsilon_ {g, t + 1} + W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1}\right) ^ {2} \right] \\ = \mathbb {E} _ {t} \left[ \sigma_ {t} ^ {2} \varepsilon_ {g, t + 1} ^ {2} + 2 \sigma_ {t} \varepsilon_ {g, t + 1} W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + 2 \sigma_ {t} \varepsilon_ {g, t + 1} W _ {\sigma} \omega \varepsilon_ {w, t + 1} + W _ {x} ^ {2} \sigma_ {t} ^ {2} \varphi_ {e} \varepsilon_ {x, t + 1} ^ {2} \right. \\ \left. + 2 W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} W _ {\sigma} \omega \varepsilon_ {w, t + 1} + W _ {\sigma} ^ {2} \omega^ {2} \varepsilon_ {w, t + 1} ^ {2} \right] \\ = \sigma_ {t} ^ {2} + W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {2} + W _ {\sigma} ^ {2} \omega^ {2} + 2 \nu W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(r_{t + 1}^{c}\right) = \mathbb {E}_{t} \left[ \left(\sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}\right)^{2} \right] \\ = \mathbb {E}_{t} \left[ \sigma_{t}^{2} \varepsilon_{g, t + 1}^{2} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{x}^{2} \sigma_{t}^{2} \varphi_{e} \varepsilon_{x, t + 1}^{2} \right. \\ \left. + 2 W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{\sigma}^{2} \omega^{2} \varepsilon_{w, t + 1}^{2} \right] \\ = \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} + 2 \nu W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 Define  $\mu_{s} = \theta \log \delta + (\theta - 1)r_{0}^{c} - \frac{\theta}{\psi}\mu_{g}$ . Recall that  $\theta(1 - 1/\psi) = 1 - \gamma$ . Then,
 
 $$
-\begin{array}{l} m _ {t + 1} = \theta \log \delta - \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) r _ {t + 1} ^ {c} \\ = \mu_ {s} - \frac {\theta}{\psi} \left(x _ {t} + \sigma_ {t} \varepsilon_ {g, t + 1}\right) \\ + (\theta - 1) \left\{[ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] x _ {t} + W _ {\sigma} (\sigma_ {t} ^ {2} - \sigma^ {2}) (\phi - \kappa_ {1} ^ {c}) + \sigma_ {t} \varepsilon_ {g, t + 1} + W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1} \right\} \\ = \mu_ {s} + \left\{- \frac {\theta}{\psi} + (\theta - 1) [ 1 + W _ {x} \left(\rho - \kappa_ {1} ^ {c}\right) ] \right\} x _ {t} - \gamma \sigma_ {t} \varepsilon_ {g, t + 1} \\ + \left\{W _ {\sigma} \left(\phi - \kappa_ {1} ^ {c}\right) (\theta - 1) \right\} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right) + (\theta - 1) \left\{W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1} \right\} \\ \end{array}
+\begin{array}{l} m_{t + 1} = \theta \log \delta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) r_{t + 1}^{c} \\ = \mu_{s} - \frac{\theta}{\psi} \left(x_{t} + \sigma_{t} \varepsilon_{g, t + 1}\right) \\ + (\theta - 1) \left\{[ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] x_{t} + W_{\sigma} (\sigma_{t}^{2} - \sigma^{2}) (\phi - \kappa_{1}^{c}) + \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\} \\ = \mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) ] \right\} x_{t} - \gamma \sigma_{t} \varepsilon_{g, t + 1} \\ + \left\{W_{\sigma} \left(\phi - \kappa_{1}^{c}\right) (\theta - 1) \right\} \left(\sigma_{t}^{2} - \sigma^{2}\right) + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\} \\ \end{array}
 $$
 
 which implies
 
 $$
-\begin{array}{l} m _ {t + 1} - \mathbb {E} _ {t} [ m _ {t + 1} ] = - \gamma \sigma_ {t} \varepsilon_ {g, t + 1} + (\theta - 1) \left\{W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1} \right\} \\ \mathbb {E} _ {t} [ m _ {t + 1} ] = \mu_ {s} + \left\{- \frac {\theta}{\psi} + (\theta - 1) [ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] \right\} x _ {t} + \{W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) (\theta - 1) \} (\sigma_ {t} ^ {2} - \sigma^ {2}) \\ \operatorname {v a r} _ {t} \left(m _ {t + 1}\right) = \mathbb {E} _ {t} \left[ \left(- \gamma \sigma_ {t} \varepsilon_ {g, t + 1} + (\theta - 1) \left\{W _ {x} \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} + W _ {\sigma} \omega \varepsilon_ {w, t + 1} \right\}\right) ^ {2} \right] \\ = \gamma^ {2} \sigma_ {t} ^ {2} + (\theta - 1) ^ {2} \left\{W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {2} + W _ {\sigma} ^ {2} \omega^ {2} \right\} - 2 \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \\ \end{array}
+\begin{array}{l} m_{t + 1} - \mathbb {E}_{t} [ m_{t + 1} ] = - \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\} \\ \mathbb {E}_{t} [ m_{t + 1} ] = \mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma^{2}) \\ \operatorname{va r}_{t} \left(m_{t + 1}\right) = \mathbb {E}_{t} \left[ \left(- \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\}\right)^{2} \right] \\ = \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} \left\{W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} \right\} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} c o v _ {t} \left(m _ {t + 1}, r _ {t + 1} ^ {c}\right) = \mathbb {E} _ {t} \left[ \left(r _ {t + 1} ^ {c} - \mathbb {E} _ {t} \left[ r _ {0} ^ {c} \right]\right) \left(m _ {t + 1} - \mathbb {E} _ {t} \left[ m _ {t + 1} \right]\right) \right] \\ = - \gamma \sigma_ {t} ^ {2} + W _ {x} ^ {2} \varphi_ {e} ^ {2} (\theta - 1) \sigma_ {t} ^ {2} + W _ {\sigma} ^ {2} (\theta - 1) \omega^ {2} + \nu (- \gamma + \theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \\ \end{array}
+\begin{array}{l} c o v_{t} \left(m_{t + 1}, r_{t + 1}^{c}\right) = \mathbb {E}_{t} \left[ \left(r_{t + 1}^{c} - \mathbb {E}_{t} \left[ r_{0}^{c} \right]\right) \left(m_{t + 1} - \mathbb {E}_{t} \left[ m_{t + 1} \right]\right) \right] \\ = - \gamma \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} (\theta - 1) \sigma_{t}^{2} + W_{\sigma}^{2} (\theta - 1) \omega^{2} + \nu (- \gamma + \theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 Now plugging all the components into the Euler equation,
 
 $$
-\begin{array}{l} 0 = r _ {0} ^ {c} + \mu_ {s} \\ + \frac {\theta^ {2}}{2} \left\{W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma^ {2} + W _ {\sigma} ^ {2} \omega^ {2} \right\} + \theta \left\{- \frac {1}{\psi} + [ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] \right\} x _ {t} + \frac {\theta}{2} \left\{2 W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) + \theta W _ {x} ^ {2} \varphi_ {e} ^ {2} \right\} (\sigma_ {t} ^ {2} - \sigma^ {2}) \\ + \frac {1}{2} (1 - \gamma) ^ {2} \sigma_ {t} ^ {2} + \theta \nu (1 - \gamma) W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \\ \end{array}
+\begin{array}{l} 0 = r_{0}^{c} + \mu_{s} \\ + \frac{\theta^{2}}{2} \left\{W_{x}^{2} \varphi_{e}^{2} \sigma^{2} + W_{\sigma}^{2} \omega^{2} \right\} + \theta \left\{- \frac{1}{\psi} + [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \frac{\theta}{2} \left\{2 W_{\sigma} (\phi - \kappa_{1}^{c}) + \theta W_{x}^{2} \varphi_{e}^{2} \right\} (\sigma_{t}^{2} - \sigma^{2}) \\ + \frac{1}{2} (1 - \gamma)^{2} \sigma_{t}^{2} + \theta \nu (1 - \gamma) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 As this equation holds for any  $x_{t}$  and  $\sigma_t^2$
 
 $$
-r _ {0} ^ {c} + \mu_ {s} + \frac {\theta^ {2}}{2} \left\{W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma^ {2} + W _ {\sigma} ^ {2} \omega^ {2} \right\} - W _ {\sigma} \theta (\phi - \kappa_ {1} ^ {c}) \sigma^ {2} = 0 \tag {A.1}
+r_{0}^{c} + \mu_{s} + \frac{\theta^{2}}{2} \left\{W_{x}^{2} \varphi_{e}^{2} \sigma^{2} + W_{\sigma}^{2} \omega^{2} \right\} - W_{\sigma} \theta (\phi - \kappa_{1}^{c}) \sigma^{2} = 0 \tag {A.1}
 $$
 
 $$
-\theta \left\{- \frac {1}{\psi} + \left[ 1 + W _ {x} \left(\rho - \kappa_ {1} ^ {c}\right) \right] \right\} = 0 \tag {A.2}
+\theta \left\{- \frac{1}{\psi} + \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] \right\} = 0 \tag {A.2}
 $$
 
 $$
-\frac {1}{2} (1 - \gamma) ^ {2} + \frac {\theta}{2} \left\{2 W _ {\sigma} \left(\phi - \kappa_ {1} ^ {c}\right) + \theta W _ {x} ^ {2} \varphi_ {e} ^ {2} \right\} + \theta \nu (1 - \gamma) W _ {x} \varphi_ {e} = 0 \tag {A.3}
+\frac{1}{2} (1 - \gamma)^{2} + \frac{\theta}{2} \left\{2 W_{\sigma} \left(\phi - \kappa_{1}^{c}\right) + \theta W_{x}^{2} \varphi_{e}^{2} \right\} + \theta \nu (1 - \gamma) W_{x} \varphi_{e} = 0 \tag {A.3}
 $$
 
 which implies
 
 $$
-W _ {x} = \frac {1 - \frac {1}{\psi}}{\kappa_ {1} ^ {c} - \rho}
+W_{x} = \frac{1 - \frac{1}{\psi}}{\kappa_{1}^{c} - \rho}
 $$
 
 $$
-W _ {\sigma} = \frac {(1 - \gamma) (1 - \frac {1}{\psi})}{2 \left(\kappa_ {1} ^ {c} - \phi\right)} \left(\frac {\varphi_ {e} ^ {2}}{\left(\kappa_ {1} ^ {c} - \rho\right) ^ {2}} + \frac {2 \nu \varphi_ {e}}{\kappa_ {1} ^ {c} - \rho} + 1\right)
+W_{\sigma} = \frac{(1 - \gamma) (1 - \frac{1}{\psi})}{2 \left(\kappa_{1}^{c} - \phi\right)} \left(\frac{\varphi_{e}^{2}}{\left(\kappa_{1}^{c} - \rho\right)^{2}} + \frac{2 \nu \varphi_{e}}{\kappa_{1}^{c} - \rho} + 1\right)
 $$
 
 Furthermore, we can solve additionally for  $r_0^c$ ,  $\kappa_0^c$ ,  $\kappa_1^c$  and  $\mu_{wc}$ , using Eq. (A.1) and
 
 $$
-\kappa_ {0} ^ {c} = - \log \left(e ^ {\mu_ {w c}} - 1\right) + \frac {e ^ {\mu_ {w c}}}{e ^ {\mu_ {w c}} - 1} \mu_ {w c}
+\kappa_{0}^{c} = - \log \left(e^{\mu_{w c}} - 1\right) + \frac{e^{\mu_{w c}}}{e^{\mu_{w c}} - 1} \mu_{w c}
 $$
 
 $$
-\kappa_ {1} ^ {c} = \frac {e ^ {\mu_ {w c}}}{e ^ {\mu_ {w c}} - 1}
+\kappa_{1}^{c} = \frac{e^{\mu_{w c}}}{e^{\mu_{w c}} - 1}
 $$
 
 $$
-r _ {0} ^ {c} = \kappa_ {0} ^ {c} + \mu_ {g} + \mu_ {w c} (1 - \kappa_ {1} ^ {c})
+r_{0}^{c} = \kappa_{0}^{c} + \mu_{g} + \mu_{w c} (1 - \kappa_{1}^{c})
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/7e04d8c8a650b6fb663e101f1da469d511419c44de0db4715c1abd12b9f12126.jpg)
@@ -315,45 +315,45 @@ $$
 Proof. Assuming complete markets, the real exchange rate movement is
 
 $$
-\begin{array}{l} \Delta e _ {t + 1} = m _ {t + 1} - m _ {t + 1} ^ {*} \\ = \left(- \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) r _ {t + 1} ^ {c}\right) - \left(- \frac {\theta}{\psi} \Delta c _ {t + 1} ^ {*} + (\theta - 1) r _ {t + 1} ^ {c *}\right) \\ = \frac {\theta}{\psi} \left(\Delta c _ {t + 1} ^ {*} - \Delta c _ {t + 1}\right) + (\theta - 1) (r _ {t + 1} ^ {c} - r _ {t + 1} ^ {c *}) \\ = \frac {\theta}{\psi} \left\{\left(x _ {t} ^ {*} - x _ {t}\right) + \left(\sigma_ {t} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} ^ {*} \varepsilon_ {g, t + 1}\right) \right\} \\ + (\theta - 1) \{[ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] (x _ {t} - x _ {t} ^ {*}) + W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) (\sigma_ {t} ^ {2} - \sigma_ {x, t} ^ {* 2}) + (\sigma_ {t} \varepsilon_ {g, t + 1} - \sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*}) \\ \left. + W _ {x} \left(\sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1} - \sigma_ {t} ^ {*} \varphi_ {e} \varepsilon_ {x, t + 1} ^ {*}\right) + W _ {\sigma} \omega \left(\varepsilon_ {w, t + 1} - \varepsilon_ {w, t + 1} ^ {*}\right) \right\} \\ = \left\{- \frac {\theta}{\psi} + (\theta - 1) [ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] \right\} (x _ {t} - x _ {t} ^ {*}) + \{W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) (\theta - 1) \} (\sigma_ {t} ^ {2} - \sigma_ {t} ^ {* 2}) \\ - \gamma (\sigma_ {t} \varepsilon_ {g, t + 1} - \sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*}) + (\theta - 1) W _ {x} \varphi_ {e} (\sigma_ {t} \varepsilon_ {x, t + 1} - \sigma_ {t} ^ {*} \varepsilon_ {x, t + 1} ^ {*}) + (\theta - 1) W _ {\sigma} \omega (\varepsilon_ {w, t + 1} - \varepsilon_ {w, t + 1} ^ {*}) \\ \end{array}
+\begin{array}{l} \Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} \\ = \left(- \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) r_{t + 1}^{c}\right) - \left(- \frac{\theta}{\psi} \Delta c_{t + 1}^{*} + (\theta - 1) r_{t + 1}^{c *}\right) \\ = \frac{\theta}{\psi} \left(\Delta c_{t + 1}^{*} - \Delta c_{t + 1}\right) + (\theta - 1) (r_{t + 1}^{c} - r_{t + 1}^{c *}) \\ = \frac{\theta}{\psi} \left\{\left(x_{t}^{*} - x_{t}\right) + \left(\sigma_{t} \varepsilon_{g, t + 1}^{*} - \sigma_{t}^{*} \varepsilon_{g, t + 1}\right) \right\} \\ + (\theta - 1) \{[ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] (x_{t} - x_{t}^{*}) + W_{\sigma} (\phi - \kappa_{1}^{c}) (\sigma_{t}^{2} - \sigma_{x, t}^{* 2}) + (\sigma_{t} \varepsilon_{g, t + 1} - \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*}) \\ \left. + W_{x} \left(\sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} - \sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*}\right) + W_{\sigma} \omega \left(\varepsilon_{w, t + 1} - \varepsilon_{w, t + 1}^{*}\right) \right\} \\ = \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} (x_{t} - x_{t}^{*}) + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma_{t}^{* 2}) \\ - \gamma (\sigma_{t} \varepsilon_{g, t + 1} - \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*}) + (\theta - 1) W_{x} \varphi_{e} (\sigma_{t} \varepsilon_{x, t + 1} - \sigma_{t}^{*} \varepsilon_{x, t + 1}^{*}) + (\theta - 1) W_{\sigma} \omega (\varepsilon_{w, t + 1} - \varepsilon_{w, t + 1}^{*}) \\ \end{array}
 $$
 
 and the currency risk premium is
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ r x _ {t + 1} \right] = \frac {1}{2} \left(v a r _ {t} \left(m _ {t + 1} ^ {*}\right) - v a r _ {t} \left(m _ {t + 1}\right)\right) \\ = \frac {1}{2} \left[ \gamma^ {2} \sigma_ {t} ^ {* 2} + (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {* 2} + (\theta - 1) ^ {2} W _ {\sigma} ^ {2} \omega^ {2} - 2 \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {* 2} \right] \\ - \frac {1}{2} \left[ \gamma^ {2} \sigma_ {t} ^ {2} + (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {2} + (\theta - 1) ^ {2} W _ {\sigma} ^ {2} \omega^ {2} - 2 \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \right] \\ = \frac {1}{2} \left[ \gamma^ {2} + (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi_ {e} ^ {2} - 2 \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \right] \left(\sigma_ {t} ^ {* 2} - \sigma_ {t} ^ {2}\right) \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ r x_{t + 1} \right] = \frac{1}{2} \left(v a r_{t} \left(m_{t + 1}^{*}\right) - v a r_{t} \left(m_{t + 1}\right)\right) \\ = \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \right] \\ - \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \right] \\ = \frac{1}{2} \left[ \gamma^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \right] \left(\sigma_{t}^{* 2} - \sigma_{t}^{2}\right) \\ \end{array}
 $$
 
 Also, from the Euler equations for risk-free bonds,
 
 $$
-\begin{array}{l} r _ {t} = - \mathbb {E} _ {t} [ m _ {t + 1} ] - \frac {1}{2} v a r _ {t} (m _ {t + 1}) \\ = - \left\{\mu_ {s} + \left\{- \frac {\theta}{\psi} + (\theta - 1) \left[ 1 + W _ {x} \left(\rho - \kappa_ {1} ^ {c}\right) \right] \right\} x _ {t} + \left\{W _ {\sigma} \left(\phi - \kappa_ {1} ^ {c}\right) (\theta - 1) \right\} \left(\sigma_ {t} ^ {2} - \sigma^ {2}\right) \right\} \\ - \frac {1}{2} \left\{\gamma^ {2} \sigma_ {t} ^ {2} + (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {2} + (\theta - 1) ^ {2} W _ {\sigma} ^ {2} \omega^ {2} \right\} + \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {2} \\ \end{array}
+\begin{array}{l} r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] \right\} x_{t} + \left\{W_{\sigma} \left(\phi - \kappa_{1}^{c}\right) (\theta - 1) \right\} \left(\sigma_{t}^{2} - \sigma^{2}\right) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {t} ^ {*} = - \mathbb {E} _ {t} \left[ m _ {t + 1} ^ {*} \right] - \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {*}\right) \\ = - \left\{\mu_ {s} + \left\{- \frac {\theta}{\psi} + (\theta - 1) [ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] \right\} x _ {t} ^ {*} + \{W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) (\theta - 1) \} (\sigma_ {t} ^ {* 2} - \sigma^ {2}) \right\} \\ - \frac {1}{2} \left\{\gamma^ {2} \sigma_ {t} ^ {* 2} + (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi_ {e} ^ {2} \sigma_ {t} ^ {* 2} + (\theta - 1) ^ {2} W _ {\sigma} ^ {2} \omega^ {2} \right\} + \nu \gamma (\theta - 1) W _ {x} \varphi_ {e} \sigma_ {t} ^ {* 2} \\ \end{array}
+\begin{array}{l} r_{t}^{*} = - \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t}^{*} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{* 2} - \sigma^{2}) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \\ \end{array}
 $$
 
 also compute the interest rate differential as
 
 $$
-\begin{array}{l} r _ {t} - r _ {t} ^ {*} = \left\{- \frac {\theta}{\psi} + (\theta - 1) [ 1 + W _ {x} (\rho - \kappa_ {1} ^ {c}) ] \right\} (x _ {t} ^ {*} - x _ {t}) \\ + \left\{\{W _ {\sigma} (\phi - \kappa_ {1} ^ {c}) (\theta - 1) \} + \frac {1}{2} \gamma^ {2} + \frac {1}{2} (\theta - 1) ^ {2} W _ {x} ^ {2} \varphi^ {2} - \nu \gamma (\theta - 1) W _ {x} \varphi \right\} (\sigma_ {t} ^ {* 2} - \sigma_ {t} ^ {2}) \\ \end{array}
+\begin{array}{l} r_{t} - r_{t}^{*} = \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} (x_{t}^{*} - x_{t}) \\ + \left\{\{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} + \frac{1}{2} \gamma^{2} + \frac{1}{2} (\theta - 1)^{2} W_{x}^{2} \varphi^{2} - \nu \gamma (\theta - 1) W_{x} \varphi \right\} (\sigma_{t}^{* 2} - \sigma_{t}^{2}) \\ \end{array}
 $$
 
 From here, we assume the following for the derivations below:
 
 $$
-\begin{array}{l} c o v _ {t} \left(\varepsilon_ {g, t + 1} ^ {*}, \varepsilon_ {g, t + 1}\right) \neq 0 \\ c o v _ {t} \left(\varepsilon_ {x, t + 1} ^ {*}, \varepsilon_ {x, t + 1}\right) \neq 0 \\ c o v _ {t} \left(\sigma_ {t} ^ {*}, \sigma_ {t}\right) \neq 0 \\ \end{array}
+\begin{array}{l} c o v_{t} \left(\varepsilon_{g, t + 1}^{*}, \varepsilon_{g, t + 1}\right) \neq 0 \\ c o v_{t} \left(\varepsilon_{x, t + 1}^{*}, \varepsilon_{x, t + 1}\right) \neq 0 \\ c o v_{t} \left(\sigma_{t}^{*}, \sigma_{t}\right) \neq 0 \\ \end{array}
 $$
 
 Finally, the Backus-Smith coefficient:
 
 $$
-\begin{array}{l} \beta_ {t} ^ {B S} = \frac {c o v _ {t} (\Delta e _ {t + 1} , \Delta c _ {t + 1} ^ {*} - \Delta c _ {t + 1})}{v a r _ {t} (\Delta c _ {t + 1} ^ {*} - \Delta c _ {t + 1})} \\ = \frac {1}{v a r _ {t} \left(\sigma_ {t} ^ {*} \varepsilon_ {g , t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g , t + 1}\right)} \left[ c o v _ {t} \left(\gamma \left(\sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g, t + 1}\right), \sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g, t + 1}\right) \right. \\ \left. - c o v _ {t} \left(\left(\theta - 1\right) W _ {x} \left(\sigma_ {t} ^ {*} \varphi_ {e} \varepsilon_ {x, t + 1} ^ {*} - \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1}\right) + \left(\theta - 1\right) W _ {\sigma} \omega \left(\varepsilon_ {w, t + 1} ^ {*} - \varepsilon_ {w, t + 1}\right), \sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g, t + 1}\right) \right] \\ = \gamma - \frac {(\theta - 1) W _ {x}}{v a r _ {t} \left(\sigma_ {t} ^ {*} \varepsilon_ {g , t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g , t + 1}\right)} c o v _ {t} \left(\left(\sigma_ {t} ^ {*} \varphi_ {e} \varepsilon_ {x, t + 1} ^ {*} - \sigma_ {t} \varphi_ {e} \varepsilon_ {x, t + 1}\right), \left(\sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g, t + 1}\right)\right) \\ = \gamma - \frac {\nu \varphi_ {e} (\theta - 1) W _ {x}}{v a r _ {t} \left(\sigma_ {t} ^ {*} \varepsilon_ {g , t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g , t + 1}\right)} \left(\sigma_ {t} ^ {2} + \sigma_ {t} ^ {* 2}\right) \\ \end{array}
+\begin{array}{l} \beta_{t}^{B S} = \frac{c o v_{t} (\Delta e_{t + 1} , \Delta c_{t + 1}^{*} - \Delta c_{t + 1})}{v a r_{t} (\Delta c_{t + 1}^{*} - \Delta c_{t + 1})} \\ = \frac{1}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left[ c o v_{t} \left(\gamma \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right. \\ \left. - c o v_{t} \left(\left(\theta - 1\right) W_{x} \left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right) + \left(\theta - 1\right) W_{\sigma} \omega \left(\varepsilon_{w, t + 1}^{*} - \varepsilon_{w, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right] \\ = \gamma - \frac{(\theta - 1) W_{x}}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} c o v_{t} \left(\left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right), \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right)\right) \\ = \gamma - \frac{\nu \varphi_{e} (\theta - 1) W_{x}}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left(\sigma_{t}^{2} + \sigma_{t}^{* 2}\right) \\ \end{array}
 $$
 
 $$
-w h e r e v a r _ {t} \left(\sigma_ {t} ^ {*} \varepsilon_ {g, t + 1} ^ {*} - \sigma_ {t} \varepsilon_ {g, t + 1}\right) = \sigma_ {t} ^ {2} + \sigma_ {t} ^ {* 2} - 2 \sigma_ {t} \sigma_ {t} ^ {*} c o v _ {t} \left(\varepsilon_ {g, t + 1}, \varepsilon_ {g, t + 1} ^ {*}\right).
+w h e r e v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) = \sigma_{t}^{2} + \sigma_{t}^{* 2} - 2 \sigma_{t} \sigma_{t}^{*} c o v_{t} \left(\varepsilon_{g, t + 1}, \varepsilon_{g, t + 1}^{*}\right).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/619daaca061cd7502a4354b976e7f35d6e6df9798eacb20018b4540dd863c862.jpg)
@@ -363,43 +363,43 @@ $$
 Proof. Within period  $t$ , the social planner's Lagrangian is
 
 $$
-\begin{array}{l} \sum_ {i = 1} ^ {N} \pi^ {i} \left(\sum_ {j = 1} ^ {N} v _ {i j} \log c _ {j} ^ {i}\right) + \varphi^ {i} \left(a ^ {i} \left(\ell^ {i}\right) ^ {\theta} \left(\prod_ {j = 1} ^ {N} \left(x _ {j} ^ {i}\right) ^ {w _ {i j}}\right) - \sum_ {j = 1} ^ {N} \left(c _ {i} ^ {j} + x _ {i} ^ {j}\right) - d ^ {i}\right) \\ + \chi^ {i} (\bar {\ell} ^ {i} - \ell^ {i}) \\ \end{array}
+\begin{array}{l} \sum_{i = 1}^{N} \pi^{i} \left(\sum_{j = 1}^{N} v_{i j} \log c_{j}^{i}\right) + \varphi^{i} \left(a^{i} \left(\ell^{i}\right)^{\theta} \left(\prod_{j = 1}^{N} \left(x_{j}^{i}\right)^{w_{i j}}\right) - \sum_{j = 1}^{N} \left(c_{i}^{j} + x_{i}^{j}\right) - d^{i}\right) \\ + \chi^{i} (\bar {\ell}^{i} - \ell^{i}) \\ \end{array}
 $$
 
 which implies the following first-order conditions:
 
 $$
-w. r. t. c _ {i} ^ {j}: \quad \pi^ {j} v _ {j i} \left(c _ {i} ^ {j}\right) ^ {- 1} = \varphi^ {i} \tag {A.4}
+w. r. t. c_{i}^{j}: \quad \pi^{j} v_{j i} \left(c_{i}^{j}\right)^{- 1} = \varphi^{i} \tag {A.4}
 $$
 
 $$
-w. r. t. x _ {i} ^ {j}: \quad \varphi^ {j} \bar {x} ^ {j} w _ {j i} \left(x _ {i} ^ {j}\right) ^ {- 1} = \varphi^ {i} \tag {A.5}
+w. r. t. x_{i}^{j}: \quad \varphi^{j} \bar {x}^{j} w_{j i} \left(x_{i}^{j}\right)^{- 1} = \varphi^{i} \tag {A.5}
 $$
 
 $$
-w. r. t. \ell^ {i}: \quad \varphi^ {i} \bar {x} ^ {i} \theta \left(\ell^ {i}\right) ^ {- 1} = \chi^ {i} \tag {A.6}
+w. r. t. \ell^{i}: \quad \varphi^{i} \bar {x}^{i} \theta \left(\ell^{i}\right)^{- 1} = \chi^{i} \tag {A.6}
 $$
 
 Substitute into the market clearing condition:
 
 $$
-\varphi^ {i} \bar {x} ^ {i} - d ^ {i} = \sum_ {j = 1} ^ {N} \left(\pi^ {j} v _ {j i} + \varphi^ {j} \bar {x} ^ {j} w _ {j i}\right).
+\varphi^{i} \bar {x}^{i} - d^{i} = \sum_{j = 1}^{N} \left(\pi^{j} v_{j i} + \varphi^{j} \bar {x}^{j} w_{j i}\right).
 $$
 
 Define  $\gamma^i = \varphi^i\overline{x}^i$ . It can be interpreted as the value of country  $i$ 's total output, because the Lagrangian multiplier  $\varphi^i$  can be interpreted as the price of country  $i$ 's intermediate goods in a common numérique. The market clearing condition becomes
 
 $$
-\begin{array}{l} \gamma^ {i} - d ^ {i} = \sum_ {j = 1} ^ {N} \left(\pi^ {j} v _ {j i} + \gamma^ {j} w _ {j i}\right) \\ \gamma - d = V ^ {\prime} \pi + W ^ {\prime} \gamma \\ \gamma = \left(I - W ^ {\prime}\right) ^ {- 1} (V ^ {\prime} \pi + d) = H ^ {\prime} \pi + \left(I - W ^ {\prime}\right) ^ {- 1} d. \\ \end{array}
+\begin{array}{l} \gamma^{i} - d^{i} = \sum_{j = 1}^{N} \left(\pi^{j} v_{j i} + \gamma^{j} w_{j i}\right) \\ \gamma - d = V^{\prime} \pi + W^{\prime} \gamma \\ \gamma = \left(I - W^{\prime}\right)^{- 1} (V^{\prime} \pi + d) = H^{\prime} \pi + \left(I - W^{\prime}\right)^{- 1} d. \\ \end{array}
 $$
 
 Then, the log production is
 
 $$
-\begin{array}{l} \log \bar {x} ^ {i} = \log a ^ {i} + \theta \log \ell^ {i} + \sum_ {j = 1} ^ {N} w _ {i j} \log \left(\frac {\varphi^ {i} \bar {x} ^ {i}}{\varphi^ {j}} w _ {i j}\right) \\ = \log a ^ {i} + \theta \log \ell^ {i} + \sum_ {j = 1} ^ {N} w _ {i j} \log \left(\frac {\gamma^ {i}}{\gamma^ {j} / \bar {x} ^ {j}} w _ {i j}\right) \\ \end{array}
+\begin{array}{l} \log \bar {x}^{i} = \log a^{i} + \theta \log \ell^{i} + \sum_{j = 1}^{N} w_{i j} \log \left(\frac{\varphi^{i} \bar {x}^{i}}{\varphi^{j}} w_{i j}\right) \\ = \log a^{i} + \theta \log \ell^{i} + \sum_{j = 1}^{N} w_{i j} \log \left(\frac{\gamma^{i}}{\gamma^{j} / \bar {x}^{j}} w_{i j}\right) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \log \bar {x} = \kappa^ {x} + \log a + (1 - \theta) \log \gamma + W (\log \bar {x} - \log \gamma) \\ = (I - W) ^ {- 1} \left(\kappa^ {x} + \log a - \theta \log \gamma\right) + \log \gamma \\ \end{array}
+\begin{array}{l} \log \bar {x} = \kappa^{x} + \log a + (1 - \theta) \log \gamma + W (\log \bar {x} - \log \gamma) \\ = (I - W)^{- 1} \left(\kappa^{x} + \log a - \theta \log \gamma\right) + \log \gamma \\ \end{array}
 $$
 
 where  $\kappa^x = \theta \log \ell^i + \sum_{j=1}^{N} w_{ij} \log w_{ij}$  is a vector of constants.
@@ -407,25 +407,25 @@ where  $\kappa^x = \theta \log \ell^i + \sum_{j=1}^{N} w_{ij} \log w_{ij}$  is a
 Define  $H = V(I - W)^{-1}$ . The log consumption of active households is
 
 $$
-\begin{array}{l} \log \bar {c} ^ {i} = \sum_ {j = 1} ^ {N} v _ {i j} \log \left(\frac {\pi^ {i} v _ {i j}}{\gamma^ {j}} \bar {x} ^ {j}\right) \\ \log \bar {c} = \sum_ {j = 1} ^ {N} v _ {i j} \log \left(\pi^ {i} v _ {i j}\right) + V \log \bar {x} - V \log \gamma \\ = \sum_ {j = 1} ^ {N} v _ {i j} \log \left(\pi^ {i} v _ {i j}\right) + H (\kappa^ {x} + \log a - \theta \log \gamma) \\ = \kappa^ {c} + H (\log a - \theta \log (H ^ {\prime} \pi + (I - W ^ {\prime}) ^ {- 1} d)) \\ \end{array}
+\begin{array}{l} \log \bar {c}^{i} = \sum_{j = 1}^{N} v_{i j} \log \left(\frac{\pi^{i} v_{i j}}{\gamma^{j}} \bar {x}^{j}\right) \\ \log \bar {c} = \sum_{j = 1}^{N} v_{i j} \log \left(\pi^{i} v_{i j}\right) + V \log \bar {x} - V \log \gamma \\ = \sum_{j = 1}^{N} v_{i j} \log \left(\pi^{i} v_{i j}\right) + H (\kappa^{x} + \log a - \theta \log \gamma) \\ = \kappa^{c} + H (\log a - \theta \log (H^{\prime} \pi + (I - W^{\prime})^{- 1} d)) \\ \end{array}
 $$
 
 Let  $L = (I - W')^{-1}$ . Denote  $L_{i}$  the  $i$ -th row of  $L$ . Since
 
 $$
-\frac {\partial \{\log (H ^ {\prime} \pi + L d) \} _ {i}}{\partial d} = \frac {\partial \log (\{H ^ {\prime} \pi \} _ {i} + L _ {i} d)}{\partial d} = \frac {1}{\{H ^ {\prime} \pi \} _ {i} + L _ {i} d} L
+\frac{\partial \{\log (H^{\prime} \pi + L d) \}_{i}}{\partial d} = \frac{\partial \log (\{H^{\prime} \pi \}_{i} + L_{i} d)}{\partial d} = \frac{1}{\{H^{\prime} \pi \}_{i} + L_{i} d} L
 $$
 
 we can apply a first-order approximation at  $d = 0$ , and obtain
 
 $$
-\{\log (\overline {{\gamma}} + L d) \} _ {i} \approx \log \{H ^ {\prime} \pi \} _ {i} + \frac {1}{\{H ^ {\prime} \pi \} _ {i}} L d
+\{\log (\overline {{\gamma}} + L d) \}_{i} \approx \log \{H^{\prime} \pi \}_{i} + \frac{1}{\{H^{\prime} \pi \}_{i}} L d
 $$
 
 We define  $\frac{\theta}{H' \pi}$  as a diagonal matrix whose element  $(i, i)$  is  $\frac{\theta}{\{H' \pi\}_i}$ . Then,
 
 $$
-\log \bar {c} = \kappa^ {c} + H \left(\log a - \frac {\theta}{H ^ {\prime} \pi} (I - W ^ {\prime}) ^ {- 1} d\right)
+\log \bar {c} = \kappa^{c} + H \left(\log a - \frac{\theta}{H^{\prime} \pi} (I - W^{\prime})^{- 1} d\right)
 $$
 
 □
@@ -435,13 +435,13 @@ $$
 Proof. The covariance of consumption growth follows directly from Eq. (3.12):
 
 $$
-c o v \big (\Delta \log \bar {c} _ {t} ^ {i}, \Delta \log \bar {c} _ {t} ^ {j} \big) = \mathcal {C} (i, j).
+c o v \big (\Delta \log \bar {c}_{t}^{i}, \Delta \log \bar {c}_{t}^{j} \big) = \mathcal {C} (i, j).
 $$
 
 The moments of exchange rates follow from the covariance of consumption growth. In particular, the covariance between the changes in currency base factors is
 
 $$
-\begin{array}{l} c o v \left(\Delta \bar {e} _ {t + 1} ^ {i}, \Delta \bar {e} _ {t + 1} ^ {j}\right) = c o v \left(\frac {1}{N} \sum_ {k = 1} ^ {N} \Delta \bar {c} _ {t + 1} ^ {k} - \Delta \bar {c} _ {t + 1} ^ {i}, \frac {1}{N} \sum_ {k = 1} ^ {N} \Delta \bar {c} _ {t + 1} ^ {k} - \Delta \bar {c} _ {t + 1} ^ {j}\right) \\ = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^ {e}. \\ \end{array}
+\begin{array}{l} c o v \left(\Delta \bar {e}_{t + 1}^{i}, \Delta \bar {e}_{t + 1}^{j}\right) = c o v \left(\frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{i}, \frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{j}\right) \\ = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^{e}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/e759b3990b6f75c7c646db645eb3c84f6cc02ad36dcb8cfd83a6535269c8226f.jpg)
@@ -451,17 +451,17 @@ $$
 Proof. The log SDF is given by:
 
 $$
-\begin{array}{l} m _ {t + 1} ^ {i} = \log \left(\delta \frac {\bar {c} _ {t}}{\bar {c} _ {t + 1}}\right) \\ = \log \delta - \Delta \log \bar {c} _ {t + 1} \\ \end{array}
+\begin{array}{l} m_{t + 1}^{i} = \log \left(\delta \frac{\bar {c}_{t}}{\bar {c}_{t + 1}}\right) \\ = \log \delta - \Delta \log \bar {c}_{t + 1} \\ \end{array}
 $$
 
 As shown in Section 1.B, the log interest rate and currency risk premium are given by:
 
 $$
-\begin{array}{l} r _ {t} ^ {i} = - \mathbb {E} _ {t} \left[ m _ {t + 1} ^ {i} \right] - \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {i}\right) \\ = - \log \delta - H \mathbb {E} _ {t} [ \Delta \log a _ {t + 1} ] + H \frac {\theta}{H ^ {\prime} \pi} (I - W ^ {\prime}) ^ {- 1} \mathbb {E} _ {t} [ \Delta d _ {t + 1} ] - \frac {1}{2} v a r _ {t} (\Delta \log \bar {c} _ {t + 1} ^ {i}) \\ = - \log \delta - \frac {1}{2} \mathcal {C} (i, i) \\ \end{array}
+\begin{array}{l} r_{t}^{i} = - \mathbb {E}_{t} \left[ m_{t + 1}^{i} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) \\ = - \log \delta - H \mathbb {E}_{t} [ \Delta \log a_{t + 1} ] + H \frac{\theta}{H^{\prime} \pi} (I - W^{\prime})^{- 1} \mathbb {E}_{t} [ \Delta d_{t + 1} ] - \frac{1}{2} v a r_{t} (\Delta \log \bar {c}_{t + 1}^{i}) \\ = - \log \delta - \frac{1}{2} \mathcal {C} (i, i) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r p _ {t} ^ {i / \$} \stackrel {{\mathrm {d e f}}} {{=}} \mathbb {E} _ {t} \left[ r x _ {t + 1} ^ {i / \$} \right] \\ = \mathbb {E} _ {t} \left[ - e _ {t + 1} ^ {i / \S} \right] + r _ {t} ^ {i} - r _ {t} ^ {\S} \\ = - \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {i}\right) + \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {\S}\right) \\ = \frac {1}{2} \left(\mathcal {C} (\mathrm {\$}, \mathrm {\$}) - \mathcal {C} (i, i)\right) \\ \end{array}
+\begin{array}{l} r p_{t}^{i / \$} \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \$} \right] \\ = \mathbb {E}_{t} \left[ - e_{t + 1}^{i / \S} \right] + r_{t}^{i} - r_{t}^{\S} \\ = - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{\S}\right) \\ = \frac{1}{2} \left(\mathcal {C} (\mathrm{\$}, \mathrm{\$}) - \mathcal {C} (i, i)\right) \\ \end{array}
 $$
 
 where we set  $\mathbb{E}_t[\Delta \log a_{t + 1}] = \mathbb{E}_t[\Delta d_{t + 1}] = 0$
@@ -473,17 +473,17 @@ where we set  $\mathbb{E}_t[\Delta \log a_{t + 1}] = \mathbb{E}_t[\Delta d_{t + 
 Proof. The long term bond return and price are given by
 
 $$
-\begin{array}{l} \exp (- r _ {t} (h) h) = p _ {t} (h) = \mathbb {E} _ {t} [ \exp (m _ {t, t + h} ^ {P} + m _ {t, t + h} ^ {T}) ] \\ = \mathbb {E} _ {t} [ \exp (m c _ {t + h} ^ {P} - m c _ {t} ^ {P} + m c _ {t + h} ^ {T} - m c _ {t} ^ {T}) ] \\ = \mathbb {E} _ {t} \left[ \exp \left(\sum_ {k = 1} ^ {h} \left(- \frac {1}{2} \sigma_ {P} ^ {2} + \sigma_ {P} \varepsilon_ {t + k} ^ {P}\right) \right. \right. \\ \left. \left. + \sum_ {k = 1} ^ {h} \phi^ {h - k} \bar {m c} ^ {T} + \sum_ {k = 1} ^ {h} \phi^ {h - k} (t + k) \log \beta + (\phi^ {h} - 1) m c _ {t} ^ {T} + \sum_ {k = 1} ^ {h} \left(\phi^ {h - k} \sigma_ {T} \varepsilon_ {t + k} ^ {T}\right)\right) \right] \\ = \exp \left(\frac {1 - \phi^ {h}}{1 - \phi} \overline {{m c}} ^ {T} + \left(\frac {t + h - \phi^ {h} (t + 1)}{1 - \phi} - \frac {\phi - \phi^ {h}}{(1 - \phi) ^ {2}}\right) \log \beta + (\phi^ {h} - 1) m c _ {t} ^ {T} \right. \\ \left. + \frac {1 - \phi^ {2 h}}{2 - 2 \phi^ {2}} \sigma_ {T} ^ {2} + \frac {1 - \phi^ {h}}{1 - \phi} \sigma_ {T P}\right). \\ \end{array}
+\begin{array}{l} \exp (- r_{t} (h) h) = p_{t} (h) = \mathbb {E}_{t} [ \exp (m_{t, t + h}^{P} + m_{t, t + h}^{T}) ] \\ = \mathbb {E}_{t} [ \exp (m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ \left. \left. + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right)\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - \phi^{h} (t + 1)}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ \left. + \frac{1 - \phi^{2 h}}{2 - 2 \phi^{2}} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \sigma_{T P}\right). \\ \end{array}
 $$
 
 Hence,
 
 $$
-- r _ {t} (h) h = \frac {1 - \phi^ {h}}{1 - \phi} \overline {{m c}} ^ {T} + \left(\frac {t + h - \phi^ {h} (t + 1)}{1 - \phi} - \frac {\phi - \phi^ {h}}{(1 - \phi) ^ {2}}\right) \log \beta + (\phi^ {h} - 1) m c _ {t} ^ {T} + \frac {1 - \phi^ {2 h}}{2 - 2 \phi^ {2}} \sigma_ {T} ^ {2} + \frac {1 - \phi^ {h}}{1 - \phi} \sigma_ {T P},
+- r_{t} (h) h = \frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - \phi^{h} (t + 1)}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \frac{1 - \phi^{2 h}}{2 - 2 \phi^{2}} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \sigma_{T P},
 $$
 
 $$
-\left(r _ {t} (h) + \frac {\log \beta}{1 - \phi}\right) h = - \frac {1 - \phi^ {h}}{1 - \phi} \overline {{m c}} ^ {T} - \left(\frac {t - \phi^ {h} (t + 1)}{1 - \phi} - \frac {\phi - \phi^ {h}}{(1 - \phi) ^ {2}}\right) \log \beta - (\phi^ {h} - 1) m c _ {t} ^ {T} - \frac {1 - \phi^ {2 h}}{2 - 2 \phi^ {2}} \sigma_ {T} ^ {2} - \frac {1 - \phi^ {h}}{1 - \phi} \sigma_ {T P},
+\left(r_{t} (h) + \frac{\log \beta}{1 - \phi}\right) h = - \frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} - \left(\frac{t - \phi^{h} (t + 1)}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta - (\phi^{h} - 1) m c_{t}^{T} - \frac{1 - \phi^{2 h}}{2 - 2 \phi^{2}} \sigma_{T}^{2} - \frac{1 - \phi^{h}}{1 - \phi} \sigma_{T P},
 $$
 
 which implies that the constant  $\tilde{\delta} = \beta^{1/(1-\phi)}$  satisfies  $0 < \lim_{h\to \infty}p_t(h) / \tilde{\delta}^h < \infty$ , and the long-term bond yield satisfies
@@ -495,19 +495,19 @@ $$
 and
 
 $$
-\lim  _ {h \rightarrow \infty} (r _ {t} (h) + \log \tilde {\delta}) h = - \frac {t}{1 - \phi} \log \beta + m c _ {t} ^ {T}.
+\lim_{h \rightarrow \infty} (r_{t} (h) + \log \tilde {\delta}) h = - \frac{t}{1 - \phi} \log \beta + m c_{t}^{T}.
 $$
 
 which confirms the definition of transitory components of the SDF, i.e.,
 
 $$
-m c _ {t} ^ {T} = \lim  _ {h \rightarrow \infty} \log \tilde {\delta} (t + h) - \log p _ {t} (h).
+m c_{t}^{T} = \lim_{h \rightarrow \infty} \log \tilde {\delta} (t + h) - \log p_{t} (h).
 $$
 
 Recall that
 
 $$
-\begin{array}{l} m c _ {t} ^ {T} = \frac {\overline {{m c}} ^ {T}}{1 - \phi} - \frac {\phi}{1 - \phi} \frac {\log \beta}{1 - \phi} + \frac {\log \beta}{1 - \phi} t - \gamma \log y _ {t} ^ {T} \\ = \frac {\overline {{m c}} ^ {T}}{1 - \phi} - \frac {\phi}{1 - \phi} \frac {\log \beta}{1 - \phi} + \frac {\log \beta}{1 - \phi} t + \sum_ {i = 0} ^ {\infty} \phi^ {i} \sigma_ {T} \varepsilon_ {t - i} ^ {T} \\ \end{array}
+\begin{array}{l} m c_{t}^{T} = \frac{\overline {{m c}}^{T}}{1 - \phi} - \frac{\phi}{1 - \phi} \frac{\log \beta}{1 - \phi} + \frac{\log \beta}{1 - \phi} t - \gamma \log y_{t}^{T} \\ = \frac{\overline {{m c}}^{T}}{1 - \phi} - \frac{\phi}{1 - \phi} \frac{\log \beta}{1 - \phi} + \frac{\log \beta}{1 - \phi} t + \sum_{i = 0}^{\infty} \phi^{i} \sigma_{T} \varepsilon_{t - i}^{T} \\ \end{array}
 $$
 
 plugging  $mc_{t}^{T}$  into the bond return immediately yields Eq. (3.19).
@@ -517,37 +517,37 @@ plugging  $mc_{t}^{T}$  into the bond return immediately yields Eq. (3.19).
 Proof. The one-period risk free rate is given by
 
 $$
-\begin{array}{l} \exp (- r _ {t}) = \mathbb {E} _ {t} [ \exp (m _ {t, t + 1} ] \\ = \mathbb {E} _ {t} [ \exp (m c _ {t + 1} ^ {P} - m c _ {t} ^ {P} + m c _ {t + 1} ^ {T} - m c _ {t} ^ {T}) ] \\ = \mathbb {E} _ {t} \left[ \exp \left(- \frac {1}{2} \sigma_ {P} ^ {2} + \sigma_ {P} \varepsilon_ {t + 1} ^ {P} + \overline {{m c}} ^ {T} + (\phi - 1) m c _ {t} ^ {T} + (t + 1) \log \beta + \sigma_ {T} \varepsilon_ {t + 1} ^ {T}\right) \right] \\ = \exp \left(\overline {{m c}} ^ {T} + (\phi - 1) m c _ {t} ^ {T} + (t + 1) \log \beta + \frac {1}{2} \sigma_ {T} ^ {2} + \sigma_ {T P}\right), \\ - r _ {t} = \overline {{m c}} ^ {T} + (\phi - 1) m c _ {t} ^ {T} + (t + 1) \log \beta + \frac {1}{2} \sigma_ {T} ^ {2} + \sigma_ {T P}. \\ \end{array}
+\begin{array}{l} \exp (- r_{t}) = \mathbb {E}_{t} [ \exp (m_{t, t + 1} ] \\ = \mathbb {E}_{t} [ \exp (m c_{t + 1}^{P} - m c_{t}^{P} + m c_{t + 1}^{T} - m c_{t}^{T}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + 1}^{P} + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \sigma_{T} \varepsilon_{t + 1}^{T}\right) \right] \\ = \exp \left(\overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}\right), \\ - r_{t} = \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}. \\ \end{array}
 $$
 
 For long-term bond, the risk premium is
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ \log p _ {t - 1} (h - 1) - \log p _ {t} (h) - r _ {t} \right] \\ = - \phi^ {h - 1} \overline {{m c}} ^ {T} + \left(\frac {(t + 1) \phi^ {h} - (t + 2) \phi^ {h - 1}}{1 - \phi} + \frac {\phi^ {h - 1}}{1 - \phi}\right) \log \beta \\ + (\phi^ {h - 1} - 1) \left(\overline {{m c ^ {T}}} + \phi m c _ {t} ^ {T} + (t + 1) \log \beta\right) - (\phi^ {h} - 1) m c _ {t} ^ {T} - \frac {1}{2} \phi^ {2 (h - 1)} \sigma_ {T} ^ {2} - \phi^ {h - 1} \sigma_ {T P} \\ + \overline {{m c}} ^ {T} + (\phi - 1) m c _ {t} ^ {T} + (t + 1) \log \beta + \frac {1}{2} \sigma_ {T} ^ {2} + \sigma_ {T P} \\ = \left(\frac {1}{2} - \frac {1}{2} \phi^ {2 (h - 1)}\right) \sigma_ {T} ^ {2} + (1 - \phi^ {h - 1}) \sigma_ {T P} \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} \right] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta \\ + (\phi^{h - 1} - 1) \left(\overline {{m c^{T}}} + \phi m c_{t}^{T} + (t + 1) \log \beta\right) - (\phi^{h} - 1) m c_{t}^{T} - \frac{1}{2} \phi^{2 (h - 1)} \sigma_{T}^{2} - \phi^{h - 1} \sigma_{T P} \\ + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P} \\ = \left(\frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)}\right) \sigma_{T}^{2} + (1 - \phi^{h - 1}) \sigma_{T P} \\ \end{array}
 $$
 
 Taking  $h \to \infty$  yields
 
 $$
-\lim  _ {h \rightarrow \infty} \mathbb {E} _ {t} [ \log p _ {t - 1} (h - 1) - \log p _ {t} (h) - r _ {t} ] = \frac {1}{2} \sigma_ {T} ^ {2} + \sigma_ {T P}.
+\lim_{h \rightarrow \infty} \mathbb {E}_{t} [ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} ] = \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
 $$
 
 The price of gdp claim at time  $t$  is given by
 
 $$
-\begin{array}{l} p _ {t} ^ {y} (h) = \mathbb {E} _ {t} [ \exp (m _ {t, t + h} + \log y _ {t + h}) ] \\ = \mathbb {E} _ {t} \left[ \exp \left(m c _ {t + h} ^ {P} - m c _ {t} ^ {P} + m c _ {t + h} ^ {T} - m c _ {t} ^ {T} + \log y _ {t + h}\right) \right] \\ = \mathbb {E} _ {t} \left[ \exp \left(\sum_ {k = 1} ^ {h} \left(- \frac {1}{2} \sigma_ {P} ^ {2} + \sigma_ {P} \varepsilon_ {t + k} ^ {P}\right) \right. \right. \\ + \sum_ {k = 1} ^ {h} \phi^ {h - k} \bar {m c} ^ {T} + \sum_ {k = 1} ^ {h} \phi^ {h - k} (t + k) \log \beta + (\phi^ {h} - 1) m c _ {t} ^ {T} + \sum_ {k = 1} ^ {h} \left(\phi^ {h - k} \sigma_ {T} \varepsilon_ {t + k} ^ {T}\right) \\ \left. \left. + \log y _ {t} ^ {P} + h \mu + \sum_ {k = 1} ^ {h} v _ {P} \varepsilon_ {t + k} ^ {P} + \phi^ {h} \log y _ {t} ^ {T} + \sum_ {k = 1} ^ {h} \phi^ {h - k} v _ {T} \varepsilon_ {t + k} ^ {T}\right) \right] \\ = \exp \left(\frac {1 - \phi^ {h}}{1 - \phi} \overline {{m c}} ^ {T} + \left(\frac {t + h - (t + 1) \phi^ {h}}{1 - \phi} - \frac {\phi - \phi^ {h}}{(1 - \phi) ^ {2}}\right) \log \beta + (\phi^ {h} - 1) m c _ {t} ^ {T} \right. \\ + \log y _ {t} ^ {P} + h \mu + \phi^ {h} \log y _ {t} ^ {T} + \frac {1 - 2 \gamma}{2 \gamma^ {2}} h \sigma_ {P} ^ {2} + \frac {1 - \phi^ {2 h}}{2 (1 - \phi^ {2})} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \sigma_ {T} ^ {2} + \frac {1 - \phi^ {h}}{1 - \phi} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \sigma_ {T P}), \\ \end{array}
+\begin{array}{l} p_{t}^{y} (h) = \mathbb {E}_{t} [ \exp (m_{t, t + h} + \log y_{t + h}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T} + \log y_{t + h}\right) \right] \\ = \mathbb {E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right) \\ \left. \left. + \log y_{t}^{P} + h \mu + \sum_{k = 1}^{h} v_{P} \varepsilon_{t + k}^{P} + \phi^{h} \log y_{t}^{T} + \sum_{k = 1}^{h} \phi^{h - k} v_{T} \varepsilon_{t + k}^{T}\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - (t + 1) \phi^{h}}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ + \log y_{t}^{P} + h \mu + \phi^{h} \log y_{t}^{T} + \frac{1 - 2 \gamma}{2 \gamma^{2}} h \sigma_{P}^{2} + \frac{1 - \phi^{2 h}}{2 (1 - \phi^{2})} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P}), \\ \end{array}
 $$
 
 where we plugged in  $\nu_{P} = -(1 / \gamma)\sigma_{P},\nu_{T} = -(1 / \gamma)\sigma_{T}$  . Hence,
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} [ \log p _ {t + 1} ^ {y} (h - 1) - \log p _ {t} ^ {y} (h) - r _ {t} ] \\ = - \phi^ {h - 1} \overline {{m c}} ^ {T} + \left(\frac {(t + 1) \phi^ {h} - (t + 2) \phi^ {h - 1}}{1 - \phi} + \frac {\phi^ {h - 1}}{1 - \phi}\right) \log \beta + (\phi^ {h - 1} - 1) (\overline {{m c}} ^ {T} + \phi m c _ {t} ^ {T} + (t + 1) \beta) - (\phi^ {h} - 1) m c _ {t} ^ {T} \\ - \frac {1 - 2 \gamma}{2 \gamma^ {2}} \sigma_ {P} ^ {2} - \frac {\phi^ {2 (h - 1)}}{2} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \sigma_ {T} ^ {2} - \phi^ {h - 1} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \sigma_ {T P} - r _ {t} \\ = \frac {2 \gamma - 1}{2 \gamma^ {2}} \sigma_ {P} ^ {2} + \left[ \frac {1}{2} - \frac {\phi^ {2 (h - 1)}}{2} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \right] \sigma_ {T} ^ {2} + \left[ 1 - \phi^ {h - 1} \left(\frac {\gamma - 1}{\gamma}\right) ^ {2} \right] \sigma_ {T P}. \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta + (\phi^{h - 1} - 1) (\overline {{m c}}^{T} + \phi m c_{t}^{T} + (t + 1) \beta) - (\phi^{h} - 1) m c_{t}^{T} \\ - \frac{1 - 2 \gamma}{2 \gamma^{2}} \sigma_{P}^{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P} - r_{t} \\ = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \left[ \frac{1}{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T}^{2} + \left[ 1 - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T P}. \\ \end{array}
 $$
 
 Taking  $h\to \infty$  yields
 
 $$
-\lim _ {h \to \infty} \mathbb {E} _ {t} [ \log p _ {t + 1} ^ {y} (h - 1) - \log p _ {t} ^ {y} (h) - r _ {t} ] = \frac {2 \gamma - 1}{2 \gamma^ {2}} \sigma_ {P} ^ {2} + \frac {1}{2} \sigma_ {T} ^ {2} + \sigma_ {T P}.
+\lim_{h \to \infty} \mathbb {E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/8341716b1a389cb7253bf2baf495caa73407ca3239d3a1f254c30ca922ea1023.jpg)
@@ -557,73 +557,73 @@ $$
 Proof. Recall the within-in period solutions
 
 $$
-p _ {t} = \alpha \frac {c _ {t}}{c _ {H , t}}, \qquad p _ {t} ^ {*} \exp (- e _ {t}) = (1 - \alpha) \frac {c _ {t}}{c _ {F , t}}
+p_{t} = \alpha \frac{c_{t}}{c_{H , t}}, \qquad p_{t}^{*} \exp (- e_{t}) = (1 - \alpha) \frac{c_{t}}{c_{F , t}}
 $$
 
 and
 
 $$
-p _ {t} ^ {*} = \alpha \frac {c _ {t} ^ {*}}{c _ {F , t} ^ {*}}, \qquad p _ {t} \exp (e _ {t}) = (1 - \alpha) \frac {c _ {t} ^ {*}}{c _ {H , t} ^ {*}},
+p_{t}^{*} = \alpha \frac{c_{t}^{*}}{c_{F , t}^{*}}, \qquad p_{t} \exp (e_{t}) = (1 - \alpha) \frac{c_{t}^{*}}{c_{H , t}^{*}},
 $$
 
 which combined characterize the exchange rate as
 
 $$
-\exp (e _ {t}) = \frac {(1 - \alpha) c _ {t} ^ {*} / c _ {H , t} ^ {*}}{\alpha c _ {t} / c _ {H , t}} = \frac {\alpha c _ {t} ^ {*} / c _ {F , t}}{(1 - \alpha) c _ {t} / c _ {F , t}}.
+\exp (e_{t}) = \frac{(1 - \alpha) c_{t}^{*} / c_{H , t}^{*}}{\alpha c_{t} / c_{H , t}} = \frac{\alpha c_{t}^{*} / c_{F , t}}{(1 - \alpha) c_{t} / c_{F , t}}.
 $$
 
 Write the Lagrangian of social planner's problem as follows
 
 $$
-\begin{array}{l} \mathcal {L} = \pi \mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(u (c _ {t}) + v (b _ {H, t}; \theta_ {t})\right) \right] + (1 - \pi) \mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(u (c _ {t} ^ {*}) + v (b _ {H, t} ^ {*}; \theta_ {t} ^ {*})\right) \right] \\ + \mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \zeta_ {H, t} (y _ {t} - c _ {H, t} - c _ {H, t} ^ {*}) + \zeta_ {F, t} (y _ {t} ^ {*} - c _ {F, t} - c _ {F, t} ^ {*}) \right] + \mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \xi_ {H, t} (\bar {b} _ {t} - b _ {H, t} - b _ {H, t} ^ {*}) \right]. \\ \end{array}
+\begin{array}{l} \mathcal {L} = \pi \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}) + v (b_{H, t}; \theta_{t})\right) \right] + (1 - \pi) \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}^{*}) + v (b_{H, t}^{*}; \theta_{t}^{*})\right) \right] \\ + \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right] + \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \xi_{H, t} (\bar {b}_{t} - b_{H, t} - b_{H, t}^{*}) \right]. \\ \end{array}
 $$
 
 The first order conditions w.r.t. 6 endogenous variables are
 
 $$
-\text {w . r . t .} c _ {H, t}: \quad \pi \delta^ {t} u ^ {\prime} (c _ {t}) \alpha \frac {c _ {t}}{c _ {H , t}} = \zeta_ {H, t}
+\text{w .r .t .} c_{H, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) \alpha \frac{c_{t}}{c_{H , t}} = \zeta_{H, t}
 $$
 
 $$
-\mathrm {w . r . t .} c _ {H, t} ^ {*}: (1 - \pi) \delta^ {t} u ^ {\prime} \left(c _ {t} ^ {*}\right) (1 - \alpha) \frac {c _ {t} ^ {*}}{c _ {H , t} ^ {*}} = \zeta_ {H, t}
+\mathrm{w .r .t .} c_{H, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} \left(c_{t}^{*}\right) (1 - \alpha) \frac{c_{t}^{*}}{c_{H , t}^{*}} = \zeta_{H, t}
 $$
 
 $$
-\mathrm {w . r . t .} c _ {F, t}: \quad \pi \delta^ {t} u ^ {\prime} (c _ {t}) (1 - \alpha) \frac {c _ {t}}{c _ {F , t}} = \zeta_ {F, t}
+\mathrm{w .r .t .} c_{F, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) (1 - \alpha) \frac{c_{t}}{c_{F , t}} = \zeta_{F, t}
 $$
 
 $$
-\mathrm {w . r . t .} c _ {F, t} ^ {*}: (1 - \pi) \delta^ {t} u ^ {\prime} (c _ {t} ^ {*}) \alpha \frac {c _ {t} ^ {*}}{c _ {F , t} ^ {*}} = \zeta_ {F, t}
+\mathrm{w .r .t .} c_{F, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} (c_{t}^{*}) \alpha \frac{c_{t}^{*}}{c_{F , t}^{*}} = \zeta_{F, t}
 $$
 
 $$
-w. r. t. b _ {H, t}: \quad \pi \delta^ {t} v ^ {\prime} (b _ {H, t}; \theta_ {t}) = \xi_ {H, t}
+w. r. t. b_{H, t}: \quad \pi \delta^{t} v^{\prime} (b_{H, t}; \theta_{t}) = \xi_{H, t}
 $$
 
 $$
-w. r. t. b _ {H, t} ^ {*} \colon (1 - \pi) \delta^ {t} v ^ {\prime} \left(b _ {H, t} ^ {*}; \theta_ {t} ^ {*}\right) = \xi_ {H, t}
+w. r. t. b_{H, t}^{*} \colon (1 - \pi) \delta^{t} v^{\prime} \left(b_{H, t}^{*}; \theta_{t}^{*}\right) = \xi_{H, t}
 $$
 
 with 3 resource constraint conditions, we can solve the 6 endogenous variables and the 3 lagrangian multipliers. Divide the first foc condition by the second one and plug in the within-period solution to obtain the exchange rate as follows
 
 $$
-\exp (e _ {t}) = \frac {\pi u ^ {\prime} \left(c _ {t}\right)}{\left(1 - \pi\right) u ^ {\prime} \left(c _ {t} ^ {*}\right)}.
+\exp (e_{t}) = \frac{\pi u^{\prime} \left(c_{t}\right)}{\left(1 - \pi\right) u^{\prime} \left(c_{t}^{*}\right)}.
 $$
 
 which implies
 
 $$
-\Delta e _ {t} = m _ {t} - m _ {t} ^ {*}.
+\Delta e_{t} = m_{t} - m_{t}^{*}.
 $$
 
 Besides, we are typically interested in the convenience yields, which are given by Eq. (4.2) and (4.3), i.e.,
 
 $$
-\exp (- \lambda_ {t}) = 1 - \frac {v ^ {\prime} (b _ {H , t} ; \theta_ {t})}{u ^ {\prime} (c _ {t})} = 1 - \frac {\xi_ {H , t}}{\pi \delta^ {t} u ^ {\prime} (c _ {t})}
+\exp (- \lambda_{t}) = 1 - \frac{v^{\prime} (b_{H , t} ; \theta_{t})}{u^{\prime} (c_{t})} = 1 - \frac{\xi_{H , t}}{\pi \delta^{t} u^{\prime} (c_{t})}
 $$
 
 $$
-\begin{array}{l} \exp (- \lambda_ {t} ^ {*}) = 1 - \frac {v ^ {\prime} (b _ {H , t} ^ {*} ; \theta_ {t} ^ {*})}{u ^ {\prime} (c _ {t} ^ {*})} \exp (- e _ {t}) \\ = 1 - \frac {\xi_ {H , t}}{(1 - \pi) \delta^ {t} u ^ {\prime} \left(c _ {t} ^ {*}\right)} \exp \left(- e _ {t}\right) \\ = 1 - \frac {\xi_ {H , t}}{(1 - \pi) \delta^ {t} u ^ {\prime} (c _ {t} ^ {*})} \frac {(1 - \pi) u ^ {\prime} (c _ {t} ^ {*})}{\pi u ^ {\prime} (c _ {t})} \\ = 1 - \frac {\xi_ {H , t}}{\pi \delta^ {t} u ^ {\prime} (c _ {t})}. \\ \end{array}
+\begin{array}{l} \exp (- \lambda_{t}^{*}) = 1 - \frac{v^{\prime} (b_{H , t}^{*} ; \theta_{t}^{*})}{u^{\prime} (c_{t}^{*})} \exp (- e_{t}) \\ = 1 - \frac{\xi_{H , t}}{(1 - \pi) \delta^{t} u^{\prime} \left(c_{t}^{*}\right)} \exp \left(- e_{t}\right) \\ = 1 - \frac{\xi_{H , t}}{(1 - \pi) \delta^{t} u^{\prime} (c_{t}^{*})} \frac{(1 - \pi) u^{\prime} (c_{t}^{*})}{\pi u^{\prime} (c_{t})} \\ = 1 - \frac{\xi_{H , t}}{\pi \delta^{t} u^{\prime} (c_{t})}. \\ \end{array}
 $$
 
 Hence,  $\lambda_{t} = \lambda_{t}^{*}$ . Finally, the last two first-order conditions imply  $\pi v^{\prime}(b_{H,t};\theta_t) = (1 - \pi)v^{\prime}(b_{H,t}^{*};\theta_{t}^{*})$ . This concludes the proof.
@@ -633,31 +633,31 @@ Hence,  $\lambda_{t} = \lambda_{t}^{*}$ . Finally, the last two first-order cond
 Proof. (1) The first-order condition for the home household's portfolio choice problem (5.2) is:
 
 $$
-\exp (- \delta t) \frac {\gamma_ {t}}{c _ {t}} = \zeta_ {H} \exp (m _ {\nu_ {H}, t}), \tag {A.7}
+\exp (- \delta t) \frac{\gamma_{t}}{c_{t}} = \zeta_{H} \exp (m_{\nu_{H}, t}), \tag {A.7}
 $$
 
 where the Lagrange multiplier  $\zeta_H$  is such that the budget constraint evaluated at the optimal consumption expenditure,  $c_{t}$ , is satisfied with equality:
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp \left(m _ {\nu_ {H}, t}\right) \left(c _ {t} - p _ {t} y _ {t}\right) d t \right] = w _ {0}.
+\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{H}, t}\right) \left(c_{t} - p_{t} y_{t}\right) d t \right] = w_{0}.
 $$
 
 The home country SDF based on home household's consumption is then
 
 $$
-\exp (- \delta t) \frac {\gamma_ {t} c _ {0}}{\gamma_ {0} c _ {t}} = \exp (m _ {\nu_ {H}, t} - m _ {\nu_ {H}, 0}) = \exp (m _ {\nu_ {H}, t}).
+\exp (- \delta t) \frac{\gamma_{t} c_{0}}{\gamma_{0} c_{t}} = \exp (m_{\nu_{H}, t} - m_{\nu_{H}, 0}) = \exp (m_{\nu_{H}, t}).
 $$
 
 (2) Let  $\lambda_t^*$  denote the market price of risk from the viewpoint of a foreign consumer in the foreign numétaire:
 
 $$
-\lambda_ {t} ^ {*} = \frac {\sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}} \left[ r _ {t} + \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t} ^ {*} \right]
+\lambda_{t}^{*} = \frac{\sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}} \left[ r_{t} + \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}^{*} \right]
 $$
 
 Then, the set of foreign country SDFs can be represented as:
 
 $$
-d \exp (m _ {\nu^ {*}, t} ^ {*}) = - r _ {t} ^ {*} \exp (m _ {\nu^ {*}, t} ^ {*}) d t - \left(\lambda_ {t} ^ {*} + \nu_ {t} ^ {*}\right) ^ {T} \exp (m _ {\nu^ {*}, t} ^ {*}) d Z _ {t},
+d \exp (m_{\nu^{*}, t}^{*}) = - r_{t}^{*} \exp (m_{\nu^{*}, t}^{*}) d t - \left(\lambda_{t}^{*} + \nu_{t}^{*}\right)^{T} \exp (m_{\nu^{*}, t}^{*}) d Z_{t},
 $$
 
 with  $\nu^{*} \in \mathbb{R}^{3}$  satisfying  $\sigma_{t}\nu_{t}^{*} = 0$  for all  $t \in [0,T]$  and  $\int_0^T\| \nu_t^*\|^2 dt < \infty$ .
@@ -665,25 +665,25 @@ with  $\nu^{*} \in \mathbb{R}^{3}$  satisfying  $\sigma_{t}\nu_{t}^{*} = 0$  for
 Then, we can write foreign household's static variational portfolio choice problem in their local numétaire:
 
 $$
-\begin{array}{l} \max  _ {c _ {t} ^ {*}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) \gamma^ {*} \log c _ {t} ^ {*} d t \right] \\ \text {s . t .} \quad \mathbb {E} \left[ \int_ {0} ^ {T} \exp \left(m _ {\nu^ {*}, t} ^ {*}\right) \left(c _ {t} ^ {*} - p _ {t} ^ {*} y _ {t} ^ {*}\right) d t \right] \leq w _ {0} ^ {*}. \\ \end{array}
+\begin{array}{l} \max_{c_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log c_{t}^{*} d t \right] \\ \text{s .t .} \quad \mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] \leq w_{0}^{*}. \\ \end{array}
 $$
 
 The first-order condition for the foreign household's portfolio choice problem is:
 
 $$
-\exp (- \delta t) \frac {\gamma^ {*}}{c _ {t} ^ {*}} = \zeta_ {F} \exp \left(m _ {\nu_ {F} ^ {*}, t} ^ {*}\right), \tag {A.8}
+\exp (- \delta t) \frac{\gamma^{*}}{c_{t}^{*}} = \zeta_{F} \exp \left(m_{\nu_{F}^{*}, t}^{*}\right), \tag {A.8}
 $$
 
 where  $\exp(m_{\nu_F^*,t}^*)$  denotes the foreign country state price density that bounds all the budget constraints, and the Lagrangian multiplier  $\zeta_F$  is such that the budget constraint evaluated at the optimal consumption expenditure  $c_t^*$  is satisfied with equality
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp \left(m _ {\nu_ {F} ^ {*}, t} ^ {*}\right) \left(c _ {t} ^ {*} - p _ {t} ^ {*} y _ {t} ^ {*}\right) d t \right] = w _ {0} ^ {*}.
+\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{F}^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] = w_{0}^{*}.
 $$
 
 Then, the foreign country SDF based on foreign household's consumption is:
 
 $$
-\exp (- \delta t) \frac {c _ {0} ^ {*}}{c _ {t} ^ {*}} = \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*} - m _ {\nu_ {F} ^ {*}, 0} ^ {*}) = \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}).
+\exp (- \delta t) \frac{c_{0}^{*}}{c_{t}^{*}} = \exp (m_{\nu_{F}^{*}, t}^{*} - m_{\nu_{F}^{*}, 0}^{*}) = \exp (m_{\nu_{F}^{*}, t}^{*}).
 $$
 
 □
@@ -693,109 +693,109 @@ $$
 Proof. (1) By no arbitrage, home household's wealth in the home numérique at time  $t$  is:
 
 $$
-w _ {t} = \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (m _ {\nu_ {H} , u})}{\exp (m _ {\nu_ {H} , t})} \left(c _ {u} - p _ {u} y _ {u}\right) d u \right].
+w_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} \left(c_{u} - p_{u} y_{u}\right) d u \right].
 $$
 
 Define
 
 $$
-s _ {t} = \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (m _ {\nu_ {H} , u})}{\exp (m _ {\nu_ {H} , t})} p _ {u} y _ {u} d u \right].
+s_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} p_{u} y_{u} d u \right].
 $$
 
 Assume the law of motion of  $s_t$  is given by
 
 $$
-d s _ {t} = \mu_ {t} ^ {s} s _ {t} d t + \sigma_ {t} ^ {s} s _ {t} d Z _ {t}
+d s_{t} = \mu_{t}^{s} s_{t} d t + \sigma_{t}^{s} s_{t} d Z_{t}
 $$
 
 Making use of (A.7) in Lemma 5.1, we have
 
 $$
-w _ {t} + s _ {t} = \frac {1}{\exp (m _ {\nu_ {H} , t})} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \frac {\gamma_ {u}}{\zeta_ {H}} d u \right] = \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac {\gamma_ {t}}{\zeta_ {H} \exp (m _ {\nu_ {H} , t})}.
+w_{t} + s_{t} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma_{u}}{\zeta_{H}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma_{t}}{\zeta_{H} \exp (m_{\nu_{H} , t})}.
 $$
 
 Note that  $w_{t}$  can be interpreted as the "bond wealth" and the total wealth is  $w_{t}$  plus the value of future endowment flow, which together finance the future consumption. To find the optimal portfolios, we apply Ito's Lemma to (A.9).
 
 $$
-\begin{array}{l} d \left(w _ {t} + s _ {t}\right) = d \left[ \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac {\gamma_ {t}}{\zeta_ {H} \exp (m _ {\nu_ {H} , t})} \right] \\ = (w _ {t} + s _ {t}) \left[ - \frac {\delta}{1 - \exp (- \delta (T - t))} + r _ {t} + (\lambda_ {t} + \nu_ {H, t}) ^ {\prime} (\lambda_ {t} + \nu_ {H, t}) + \frac {\gamma_ {t} \omega i _ {3}}{\gamma_ {t}} (\lambda_ {t} + \nu_ {H, t}) \right] d t \\ + \left(w _ {t} + s _ {t}\right) \left[ \frac {\gamma_ {t} \omega i _ {3}}{\gamma_ {t}} + \left(\lambda_ {t} + \nu_ {H, t}\right) ^ {\prime} \right] d Z _ {t}. \\ \end{array}
+\begin{array}{l} d \left(w_{t} + s_{t}\right) = d \left[ \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma_{t}}{\zeta_{H} \exp (m_{\nu_{H} , t})} \right] \\ = (w_{t} + s_{t}) \left[ - \frac{\delta}{1 - \exp (- \delta (T - t))} + r_{t} + (\lambda_{t} + \nu_{H, t})^{\prime} (\lambda_{t} + \nu_{H, t}) + \frac{\gamma_{t} \omega i_{3}}{\gamma_{t}} (\lambda_{t} + \nu_{H, t}) \right] d t \\ + \left(w_{t} + s_{t}\right) \left[ \frac{\gamma_{t} \omega i_{3}}{\gamma_{t}} + \left(\lambda_{t} + \nu_{H, t}\right)^{\prime} \right] d Z_{t}. \\ \end{array}
 $$
 
 Matching the diffusion term with that in the dynamic budget constraint yields:
 
 $$
-- x _ {t} w _ {t} \sigma_ {t} = \left(w _ {t} + s _ {t}\right) \left(\frac {\gamma_ {t} \omega i _ {3}}{\gamma_ {t}} + \left(\lambda_ {t} + \nu_ {H , t}\right) ^ {\prime}\right) - s _ {t} \sigma_ {t} ^ {s}. \tag {A.10}
+- x_{t} w_{t} \sigma_{t} = \left(w_{t} + s_{t}\right) \left(\frac{\gamma_{t} \omega i_{3}}{\gamma_{t}} + \left(\lambda_{t} + \nu_{H , t}\right)^{\prime}\right) - s_{t} \sigma_{t}^{s}. \tag {A.10}
 $$
 
 Notice that in incomplete markets, the matrix  $\sigma_t^\prime \sigma_t$  is not a full-rank square matrix, and the above system of equations contains three equations in one unknown. It has a solution if and only if its right-hand side lies in the  $\operatorname{Span}(\sigma_t)$ . This implies a restriction:
 
 $$
-\left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) \frac {\gamma_ {t} \omega i _ {3} ^ {\prime}}{\gamma_ {t}} + \nu_ {H, t} - \frac {s _ {t}}{w _ {t} + s _ {t}} \left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) (\sigma_ {t} ^ {s}) ^ {\prime} = 0,
+\left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) \frac{\gamma_{t} \omega i_{3}^{\prime}}{\gamma_{t}} + \nu_{H, t} - \frac{s_{t}}{w_{t} + s_{t}} \left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) (\sigma_{t}^{s})^{\prime} = 0,
 $$
 
 where we apply operator  $\left(I_3 - \frac{\sigma_t^\prime\sigma_t}{\|\sigma_t\|^2}\right)$  to both sides of (A.10). Rearranging the terms, we have:
 
 $$
-\nu_ {H, t} = \left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) \left(- \omega i _ {3} ^ {\prime} + \frac {s _ {t}}{w _ {t} + s _ {t}} (\sigma_ {t} ^ {s}) ^ {\prime}\right). \tag {A.11}
+\nu_{H, t} = \left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) \left(- \omega i_{3}^{\prime} + \frac{s_{t}}{w_{t} + s_{t}} (\sigma_{t}^{s})^{\prime}\right). \tag {A.11}
 $$
 
 To obtain the optimal portfolio of the home country household, we apply the operator  $-\frac{\sigma_t'}{|\sigma_t|^2}$  to both sides of (A.10).
 
 $$
-\begin{array}{l} x _ {t} = - \frac {w _ {t} + s _ {t}}{w _ {t}} \left(\frac {\gamma_ {t} \omega i _ {3}}{\gamma_ {t}} + (\lambda_ {t} + \nu_ {H, t}) ^ {\prime}\right) \frac {\sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}} + \frac {s _ {t}}{w _ {t}} \frac {\sigma_ {t} ^ {s} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}} \\ = - \frac {w _ {t} + s _ {t}}{w _ {t}} \left(\frac {\omega \sigma_ {3 , t}}{\| \sigma_ {t} \| ^ {2}} - \frac {(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t})}{\| \sigma_ {t} \| ^ {2}}\right) + \frac {s _ {t}}{w _ {t}} \frac {\sigma_ {t} ^ {s} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}}. \\ \end{array}
+\begin{array}{l} x_{t} = - \frac{w_{t} + s_{t}}{w_{t}} \left(\frac{\gamma_{t} \omega i_{3}}{\gamma_{t}} + (\lambda_{t} + \nu_{H, t})^{\prime}\right) \frac{\sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}} + \frac{s_{t}}{w_{t}} \frac{\sigma_{t}^{s} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}} \\ = - \frac{w_{t} + s_{t}}{w_{t}} \left(\frac{\omega \sigma_{3 , t}}{\| \sigma_{t} \|^{2}} - \frac{(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t})}{\| \sigma_{t} \|^{2}}\right) + \frac{s_{t}}{w_{t}} \frac{\sigma_{t}^{s} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}}. \\ \end{array}
 $$
 
 For the foreign households, the first-order condition for the foreign household's static variational portfolio choice problem in the home numérique is:
 
 $$
-\exp (- \delta t) \frac {\gamma^ {*}}{\tilde {c} _ {t} ^ {*}} = \tilde {\zeta} _ {F} \exp (m _ {\tilde {v} _ {F}, t}), \tag {A.12}
+\exp (- \delta t) \frac{\gamma^{*}}{\tilde {c}_{t}^{*}} = \tilde {\zeta}_{F} \exp (m_{\tilde {v}_{F}, t}), \tag {A.12}
 $$
 
 where  $\exp(m_{\tilde{\nu}_F,t})$  denotes an appropriate home country state price density that bounds all the budget constraints of the foreign household, and  $\tilde{\zeta}_F$  is the Lagrange multiplier such that the budget constraint evaluated at the optimal consumption expenditure,  $\tilde{c}_t^*$ , is satisfied with equality:
 
 $$
-E \left[ \int_ {0} ^ {T} \exp \left(m _ {\tilde {v} _ {F}, t}\right) \left(\tilde {c} _ {t} ^ {*} - p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}\right) d t \right] = \tilde {w} _ {0} ^ {*}.
+E \left[ \int_{0}^{T} \exp \left(m_{\tilde {v}_{F}, t}\right) \left(\tilde {c}_{t}^{*} - p_{t}^{*} \exp (- e_{t}) y_{t}^{*}\right) d t \right] = \tilde {w}_{0}^{*}.
 $$
 
 By no arbitrage, foreign household's wealth in the home numéraires at time  $t$  is:
 
 $$
-\tilde {w} _ {t} ^ {*} = E _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (m _ {\tilde {v} _ {F} , u})}{\exp (m _ {\tilde {v} _ {F} , t})} (\tilde {c} _ {t} ^ {*} - p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}) d u \right].
+\tilde {w}_{t}^{*} = E_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\tilde {v}_{F} , u})}{\exp (m_{\tilde {v}_{F} , t})} (\tilde {c}_{t}^{*} - p_{t}^{*} \exp (- e_{t}) y_{t}^{*}) d u \right].
 $$
 
 Similarly, denote
 
 $$
-\tilde {s} _ {t} ^ {*} = E _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (m _ {\tilde {v} _ {F} , u})}{\exp (m _ {\tilde {v} _ {F} , t})} p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*} d u \right].
+\tilde {s}_{t}^{*} = E_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\tilde {v}_{F} , u})}{\exp (m_{\tilde {v}_{F} , t})} p_{t}^{*} \exp (- e_{t}) y_{t}^{*} d u \right].
 $$
 
 Assume the law of motion of  $\tilde{s}_t^*$  is given by
 
 $$
-d \tilde {s} _ {t} ^ {*} = \mu_ {t} ^ {\tilde {s} ^ {*}} \tilde {s} _ {t} ^ {*} d t + \sigma_ {t} ^ {\tilde {s} ^ {*}} \tilde {s} _ {t} ^ {*} d Z _ {t}
+d \tilde {s}_{t}^{*} = \mu_{t}^{\tilde {s}^{*}} \tilde {s}_{t}^{*} d t + \sigma_{t}^{\tilde {s}^{*}} \tilde {s}_{t}^{*} d Z_{t}
 $$
 
 Making use of (A.12), we have
 
 $$
-\tilde {w} _ {t} ^ {*} + \bar {s} _ {t} ^ {*} = \frac {1}{\exp (m _ {\tilde {\nu} _ {F} , t})} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \frac {\gamma^ {*}}{\tilde {\zeta} _ {F}} d u \right] = \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac {\gamma^ {*}}{\tilde {\zeta} _ {F} \exp (m _ {\tilde {\nu} _ {F} , t})}.
+\tilde {w}_{t}^{*} + \bar {s}_{t}^{*} = \frac{1}{\exp (m_{\tilde {\nu}_{F} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma^{*}}{\tilde {\zeta}_{F}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma^{*}}{\tilde {\zeta}_{F} \exp (m_{\tilde {\nu}_{F} , t})}.
 $$
 
 To find the optimal portfolios, we apply Ito's Lemma to (A.13),
 
 $$
-d (\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}) = (\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}) \left[ - \frac {\delta}{1 - \exp (- \delta (T - t))} + r _ {t} + (\lambda_ {t} + \tilde {v} _ {F, t}) ^ {\prime} (\lambda_ {t} + \tilde {v} _ {F, t}) \right] d t + (\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}) (\lambda_ {t} + \tilde {v} _ {F, t}) ^ {\prime} d Z _ {t}.
+d (\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}) = (\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}) \left[ - \frac{\delta}{1 - \exp (- \delta (T - t))} + r_{t} + (\lambda_{t} + \tilde {v}_{F, t})^{\prime} (\lambda_{t} + \tilde {v}_{F, t}) \right] d t + (\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}) (\lambda_{t} + \tilde {v}_{F, t})^{\prime} d Z_{t}.
 $$
 
 Matching the diffusion term with that in the dynamic budget constraint yields
 
 $$
-\left(x _ {t} ^ {*} - 1\right) \tilde {w} _ {t} ^ {*} \sigma_ {t} = \left(\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}\right) \left(\lambda_ {t} + \tilde {v} _ {F, t}\right) ^ {\prime} - \tilde {s} _ {t} ^ {*} \sigma_ {t} ^ {\tilde {s} ^ {*}} \tag {A.14}
+\left(x_{t}^{*} - 1\right) \tilde {w}_{t}^{*} \sigma_{t} = \left(\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}\right) \left(\lambda_{t} + \tilde {v}_{F, t}\right)^{\prime} - \tilde {s}_{t}^{*} \sigma_{t}^{\tilde {s}^{*}} \tag {A.14}
 $$
 
 In incomplete markets, the matrix  $\sigma_t^\prime \sigma_t$  has a solution if and only if its right hand side lies in  $\operatorname{Span}(\sigma_t)$ . This entails a restriction:
 
 $$
-\tilde {v} _ {F, t} = \frac {\tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}} \left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) \left(\sigma_ {t} ^ {\tilde {s} ^ {*}}\right) ^ {\prime}, \tag {A.15}
+\tilde {v}_{F, t} = \frac{\tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}} \left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) \left(\sigma_{t}^{\tilde {s}^{*}}\right)^{\prime}, \tag {A.15}
 $$
 
 where we apply operator  $\left(I_3 - \frac{\sigma_t'\sigma_t}{\|\sigma_t\|^2}\right)$  to both sides of (A.14).
@@ -803,7 +803,7 @@ where we apply operator  $\left(I_3 - \frac{\sigma_t'\sigma_t}{\|\sigma_t\|^2}\r
 To get the optimal portfolio choice for the foreign household, we apply the operator  $\frac{\sigma_t'}{\|\sigma_t\|^2}$  from right to both sides of (A.14).
 
 $$
-\begin{array}{l} x _ {t} ^ {*} - 1 = \frac {\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} [ (\lambda_ {t} + \tilde {v} _ {F, t}) ^ {\prime} ] \frac {\sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}} - \frac {\tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} \frac {\sigma_ {t} ^ {\tilde {s} ^ {*}} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}} \\ x _ {t} ^ {*} = 1 - \frac {\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} \frac {\left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right)}{\| \sigma_ {t} \| ^ {2}} - \frac {\tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} \frac {\sigma_ {t} ^ {\tilde {s} ^ {*}} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}}. \\ \end{array}
+\begin{array}{l} x_{t}^{*} - 1 = \frac{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} [ (\lambda_{t} + \tilde {v}_{F, t})^{\prime} ] \frac{\sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}} - \frac{\tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} \frac{\sigma_{t}^{\tilde {s}^{*}} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}} \\ x_{t}^{*} = 1 - \frac{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} \frac{\left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right)}{\| \sigma_{t} \|^{2}} - \frac{\tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} \frac{\sigma_{t}^{\tilde {s}^{*}} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/7731248339100ccd98a635f9c6ea1888ed07dc1401e0dd402fd23e1ef9252e61.jpg)
@@ -813,59 +813,59 @@ $$
 Proof. The representative agent's utility evaluated at the aggregate output is given by
 
 $$
-U (y _ {t}, y _ {t} ^ {*}; \pi_ {t}) = \max  _ {c _ {H, t}, c _ {F, t}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) (u (c _ {H, t}, c _ {F, t}) + \pi_ {t} u ^ {*} (c _ {H, t} ^ {*}, c _ {F, t} ^ {*})) d t \right]
+U (y_{t}, y_{t}^{*}; \pi_{t}) = \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{H, t}, c_{F, t}) + \pi_{t} u^{*} (c_{H, t}^{*}, c_{F, t}^{*})) d t \right]
 $$
 
 s.t.  $c_{H,t} + c_{H,t}^{*} = y_{t},$
 
 $$
-c _ {F, t} + c _ {F, t} ^ {*} = y _ {t} ^ {*}.
+c_{F, t} + c_{F, t}^{*} = y_{t}^{*}.
 $$
 
 Then, the marginal utilities of the representative agent and the individual agents evaluated at the optimum are related as
 
 $$
-\nabla U \left(y _ {t}, y _ {t} ^ {*}; \pi_ {t}\right) = \nabla u \left(c _ {H, t}, c _ {F, t}\right) = \pi_ {t} \nabla u ^ {*} \left(c _ {H, t} ^ {*}, c _ {F, t} ^ {*}\right).
+\nabla U \left(y_{t}, y_{t}^{*}; \pi_{t}\right) = \nabla u \left(c_{H, t}, c_{F, t}\right) = \pi_{t} \nabla u^{*} \left(c_{H, t}^{*}, c_{F, t}^{*}\right).
 $$
 
 From the first-order conditions of the home and foreign households, we have
 
 $$
-\nabla u \left(c _ {H, t}, c _ {F, t}\right) = \left(\frac {\gamma_ {t} \alpha}{c _ {H , t}}, \frac {\gamma_ {t} (1 - \alpha)}{c _ {F , t}}\right),
+\nabla u \left(c_{H, t}, c_{F, t}\right) = \left(\frac{\gamma_{t} \alpha}{c_{H , t}}, \frac{\gamma_{t} (1 - \alpha)}{c_{F , t}}\right),
 $$
 
 $$
-\nabla u ^ {*} (c _ {H, t} ^ {*}, c _ {F, t} ^ {*}) = \left(\frac {\gamma^ {*} (1 - \alpha)}{c _ {H , t} ^ {*}}, \frac {\gamma^ {*} \alpha}{c _ {F , t} ^ {*}}\right).
+\nabla u^{*} (c_{H, t}^{*}, c_{F, t}^{*}) = \left(\frac{\gamma^{*} (1 - \alpha)}{c_{H , t}^{*}}, \frac{\gamma^{*} \alpha}{c_{F , t}^{*}}\right).
 $$
 
 Besides, by our previous results:
 
 $$
-c _ {H, t} = \frac {\alpha}{p _ {t}} c _ {t}, \quad c _ {F, t} = \frac {(1 - \alpha)}{p _ {t} ^ {*} \exp (- e _ {t})} c _ {t}, \quad \exp (- \delta t) \frac {\gamma_ {t}}{c _ {t}} = \zeta_ {H} \exp (m _ {\nu_ {H}, t}),
+c_{H, t} = \frac{\alpha}{p_{t}} c_{t}, \quad c_{F, t} = \frac{(1 - \alpha)}{p_{t}^{*} \exp (- e_{t})} c_{t}, \quad \exp (- \delta t) \frac{\gamma_{t}}{c_{t}} = \zeta_{H} \exp (m_{\nu_{H}, t}),
 $$
 
 we have
 
 $$
-\nabla u \left(c _ {H, t}, c _ {F, t}\right) = \left(\exp (\delta t) \zeta_ {H} \exp \left(m _ {\nu_ {H}, t}\right) p _ {t}, \exp (\delta t) \zeta_ {H} \exp \left(m _ {\nu_ {H}, t}\right) p _ {t} ^ {*} \exp (- e _ {t})\right).
+\nabla u \left(c_{H, t}, c_{F, t}\right) = \left(\exp (\delta t) \zeta_{H} \exp \left(m_{\nu_{H}, t}\right) p_{t}, \exp (\delta t) \zeta_{H} \exp \left(m_{\nu_{H}, t}\right) p_{t}^{*} \exp (- e_{t})\right).
 $$
 
 Similarly, for the foreign household,
 
 $$
-\nabla u ^ {*} \left(c _ {F, t}, c _ {F, t} ^ {*}\right) = \left(\exp (\delta t) \tilde {\zeta} _ {F} \exp \left(m _ {\tilde {\nu} _ {F}, t}\right) p _ {t}, \exp (\delta t) \tilde {\zeta} _ {F} \exp \left(m _ {\tilde {\nu} _ {F}, t}\right) p _ {t} ^ {*} \exp (- e _ {t})\right).
+\nabla u^{*} \left(c_{F, t}, c_{F, t}^{*}\right) = \left(\exp (\delta t) \tilde {\zeta}_{F} \exp \left(m_{\tilde {\nu}_{F}, t}\right) p_{t}, \exp (\delta t) \tilde {\zeta}_{F} \exp \left(m_{\tilde {\nu}_{F}, t}\right) p_{t}^{*} \exp (- e_{t})\right).
 $$
 
 We substitute the solutions of  $c_{H,t}, c_{F,t}, c_{H,t}^{*}, c_{F,t}^{*}$  into the above gradients of  $\nabla u\left(c_{H,t}, c_{H,t}^{*}\right)$  to get the state price density that bound all the budget constraints of the home consumers.
 
 $$
-\begin{array}{l} \exp (m _ {\nu_ {H}, t}) = \frac {\exp (m _ {\nu_ {H} , t})}{\exp (m _ {\nu_ {H} , 0})} = \exp (- \delta t) \frac {\gamma_ {t} c _ {0}}{\gamma_ {0} c _ {t}} = \exp (- \delta t) \frac {p _ {0} c _ {H , 0} \gamma_ {t}}{p _ {t} c _ {H , t} \gamma_ {0}} \\ = \exp (- \delta t) \frac {p _ {0} y _ {0}}{p _ {t} y _ {t}} \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi_ {0} \gamma^ {*} (1 - \alpha)} \tag {A.16} \\ \end{array}
+\begin{array}{l} \exp (m_{\nu_{H}, t}) = \frac{\exp (m_{\nu_{H} , t})}{\exp (m_{\nu_{H} , 0})} = \exp (- \delta t) \frac{\gamma_{t} c_{0}}{\gamma_{0} c_{t}} = \exp (- \delta t) \frac{p_{0} c_{H , 0} \gamma_{t}}{p_{t} c_{H , t} \gamma_{0}} \\ = \exp (- \delta t) \frac{p_{0} y_{0}}{p_{t} y_{t}} \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \tag {A.16} \\ \end{array}
 $$
 
 Therefore, by the expression of the state-price-density in A.16, the price of the home stock in the home numétaire is
 
 $$
-\begin{array}{l} s _ {t} = \frac {1}{\exp \left(m _ {\nu_ {H} , t}\right)} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp \left(m _ {\nu_ {H}, u}\right) p _ {u} y _ {u} d u \right] \tag {A.17} \\ = \frac {\exp (\delta t) p _ {t} y _ {t}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \left(\gamma_ {u} \alpha + \pi_ {u} \gamma^ {*} (1 - \alpha)\right) d u \right] \\ = \frac {\exp (\delta t) p _ {t} y _ {t}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \left[ \frac {1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_ {t} \alpha + \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \pi_ {u} \gamma^ {*} (1 - \alpha) d u \right] \right] \\ = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} y _ {t} + \frac {\exp (\delta t) p _ {t} y _ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) (\pi_ {u} - \pi_ {t}) d u \right], \\ \end{array}
+\begin{array}{l} s_{t} = \frac{1}{\exp \left(m_{\nu_{H} , t}\right)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp \left(m_{\nu_{H}, u}\right) p_{u} y_{u} d u \right] \tag {A.17} \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} \alpha + \pi_{u} \gamma^{*} (1 - \alpha)\right) d u \right] \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} \alpha + \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} (1 - \alpha) d u \right] \right] \\ = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right], \\ \end{array}
 $$
 
 where we used the fact that  $\gamma_{t}$  is a martingale.
@@ -873,81 +873,81 @@ where we used the fact that  $\gamma_{t}$  is a martingale.
 Similarly, we can then derive the home country state price density that bounds all the budget constraints of the foreign consumers as:
 
 $$
-\begin{array}{l} \exp (m _ {\tilde {v} _ {F}, t}) = \frac {\exp (m _ {\tilde {v} _ {F} , t})}{\exp (m _ {\tilde {v} _ {F} , 0})} = \exp (- \delta t) \frac {\tilde {c} _ {0} ^ {*}}{\tilde {c} _ {t} ^ {*}} = \exp (- \delta t) \frac {p _ {0} ^ {*} \exp (- e _ {0}) c _ {F , 0} ^ {*}}{p _ {t} ^ {*} \exp (- e _ {t}) c _ {F , t} ^ {*}} \\ = \exp (- \delta t) \frac {p _ {0} ^ {*} \exp (- e _ {0}) y _ {0} ^ {*}}{p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}} \frac {\pi_ {0}}{\pi_ {t}} \frac {\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi_ {0} \gamma^ {*} \alpha}. \tag {A.18} \\ \end{array}
+\begin{array}{l} \exp (m_{\tilde {v}_{F}, t}) = \frac{\exp (m_{\tilde {v}_{F} , t})}{\exp (m_{\tilde {v}_{F} , 0})} = \exp (- \delta t) \frac{\tilde {c}_{0}^{*}}{\tilde {c}_{t}^{*}} = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) c_{F , 0}^{*}}{p_{t}^{*} \exp (- e_{t}) c_{F , t}^{*}} \\ = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) y_{0}^{*}}{p_{t}^{*} \exp (- e_{t}) y_{t}^{*}} \frac{\pi_{0}}{\pi_{t}} \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha}. \tag {A.18} \\ \end{array}
 $$
 
 Analogously, plugging in the expression of the state-price-density in (A.18), we find the price of the foreign stock in the home numérique to be
 
 $$
-\begin{array}{l} \tilde {s} _ {t} ^ {*} = \frac {1}{\exp (m _ {\nu_ {H} , t})} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (m _ {\nu_ {H}, u}) p _ {u} ^ {*} \exp (- e _ {u}) y _ {u} ^ {*} d u \right] \tag {A.19} \\ = \frac {\exp (\delta t) p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \left(\gamma_ {u} (1 - \alpha) + \pi_ {u} \gamma^ {*} \alpha\right) d u \right] \\ = \frac {\exp (\delta t) p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \left[ \frac {1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_ {t} (1 - \alpha) + \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \pi_ {u} \gamma^ {*} \alpha d u \right] \right] \\ = \exp (- e _ {t}) \left[ \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} y _ {t} ^ {*} + \frac {\exp (\delta t) p _ {t} ^ {*} y _ {t} ^ {*} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) (\pi_ {u} - \pi_ {t}) d u \right] \right]. \\ \end{array}
+\begin{array}{l} \tilde {s}_{t}^{*} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (m_{\nu_{H}, u}) p_{u}^{*} \exp (- e_{u}) y_{u}^{*} d u \right] \tag {A.19} \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} (1 - \alpha) + \pi_{u} \gamma^{*} \alpha\right) d u \right] \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} (1 - \alpha) + \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} \alpha d u \right] \right] \\ = \exp (- e_{t}) \left[ \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] \right]. \\ \end{array}
 $$
 
 Therefore, the foreign stock price in the foreign numétaire is:
 
 $$
-s _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} y _ {t} ^ {*} + \frac {\exp (\delta t) p _ {t} ^ {*} y _ {t} ^ {*} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \left(\pi_ {u} - \pi_ {t}\right) d u \right]. \tag {A.20}
+s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right]. \tag {A.20}
 $$
 
 There are two ways to proceed in evaluating the above conditional expectations. The first is to assume that  $\pi$  is a martingale and then verify that it is indeed the case in equilibrium. However, lowe can only prove that it is a local martingale. In special cases, we can impose some other regularity conditions on the preference shifts to guarantee that  $\pi_t$  is a martingale but, in general, it is not an immediate result. An alternative approach is to use the following, less direct, argument based on market clearing. Plug the first-order conditions
 
 $$
-\exp (- \delta t) \frac {\gamma_ {t}}{c _ {t}} = \zeta_ {H} \exp (m _ {\nu_ {H}, t}),
+\exp (- \delta t) \frac{\gamma_{t}}{c_{t}} = \zeta_{H} \exp (m_{\nu_{H}, t}),
 $$
 
 $$
-\exp (- \delta t) \frac {\gamma^ {*}}{\tilde {c} _ {t} ^ {*}} = \tilde {\zeta} _ {F} \exp (m _ {\tilde {\nu} _ {F}, t}),
+\exp (- \delta t) \frac{\gamma^{*}}{\tilde {c}_{t}^{*}} = \tilde {\zeta}_{F} \exp (m_{\tilde {\nu}_{F}, t}),
 $$
 
 into (A.9) and (A.13), we have
 
 $$
-w _ {t} + s _ {t} = \frac {\gamma_ {t}}{\zeta_ {H} \exp (m _ {\nu_ {H} , t})} \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} = \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} \exp (\delta t) c _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} c _ {t},
+w_{t} + s_{t} = \frac{\gamma_{t}}{\zeta_{H} \exp (m_{\nu_{H} , t})} \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \exp (\delta t) c_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} c_{t},
 $$
 
 $$
-\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = \frac {\gamma^ {*}}{\tilde {\zeta} _ {F} \exp (m _ {\tilde {\nu} _ {F} , t})} \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} = \frac {\exp (- \delta t) - \exp (- \delta T)}{\delta} \exp (\delta t) \tilde {c} _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \tilde {c} _ {t} ^ {*}.
+\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*} = \frac{\gamma^{*}}{\tilde {\zeta}_{F} \exp (m_{\tilde {\nu}_{F} , t})} \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \exp (\delta t) \tilde {c}_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \tilde {c}_{t}^{*}.
 $$
 
 Therefore, we have
 
 $$
-w _ {t} + s _ {t} + \tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(c _ {t} + \tilde {c} _ {t} ^ {*}\right) = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(p _ {t} y _ {t} + p _ {t} ^ {*} y _ {t} ^ {*} \exp (- e _ {t})\right),
+w_{t} + s_{t} + \tilde {w}_{t}^{*} + \tilde {s}_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(c_{t} + \tilde {c}_{t}^{*}\right) = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(p_{t} y_{t} + p_{t}^{*} y_{t}^{*} \exp (- e_{t})\right),
 $$
 
 where we use the fact that the home and foreign households' total consumption expenditure at time  $t$  equals the value of their endowments. On the other hand, from the resource constraint,
 
 $$
-w _ {t} + s _ {t} + \tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = s _ {t} + \tilde {s} _ {t} ^ {*}.
+w_{t} + s_{t} + \tilde {w}_{t}^{*} + \tilde {s}_{t}^{*} = s_{t} + \tilde {s}_{t}^{*}.
 $$
 
 Combining the resulting restriction,
 
 $$
-s _ {t} + \tilde {s} _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(p _ {t} y _ {t} + p _ {t} ^ {*} y _ {t} ^ {*} \exp (- e _ {t})\right),
+s_{t} + \tilde {s}_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(p_{t} y_{t} + p_{t}^{*} y_{t}^{*} \exp (- e_{t})\right),
 $$
 
 with (A.17) and (A.19), we have
 
 $$
-\left[ \frac {\exp (\delta t) p _ {t} ^ {*} y _ {t} ^ {*} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} + \frac {\exp (\delta t) p _ {t} y _ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \right] \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) (\pi_ {u} - \pi_ {t}) d u \right] = 0,
+\left[ \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \right] \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] = 0,
 $$
 
 Since the coefficient term  $\left[\frac{\exp(\delta t)p_t^*y_t^*\gamma^*\alpha}{\gamma_t(1 - \alpha) + \pi_t\gamma^*\alpha} +\frac{\exp(\delta t)p_ty_t\gamma^*(1 - \alpha)}{\gamma_t\alpha + \pi_t\gamma^*(1 - \alpha)}\right]$  is non-zero for each  $t$ , it has to be
 
 $$
-\mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \exp (- \delta u) \left(\pi_ {u} - \pi_ {t}\right) d u \right] = 0 \tag {A.21}
+\mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right] = 0 \tag {A.21}
 $$
 
 Then, we can conclude that the home stock price in the home numéraire is:
 
 $$
-s _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} y _ {t},
+s_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t},
 $$
 
 and the price of the foreign stock in the foreign numétaire is:
 
 $$
-s _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} y _ {t} ^ {*}.
+s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*}.
 $$
 
 Therefore, the price of the foreign stock prices in the home numéraire
@@ -955,65 +955,65 @@ Therefore, the price of the foreign stock prices in the home numéraire
 is:
 
 $$
-\tilde {s} _ {t} ^ {*} = \exp (- e _ {t}) \left[ \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} y _ {t} ^ {*} \right].
+\tilde {s}_{t}^{*} = \exp (- e_{t}) \left[ \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} \right].
 $$
 
 By the previous results for good prices and the exchange rate,
 
 $$
-p _ {t} = \alpha \left(\frac {1 - \alpha}{\alpha} \exp (t o t _ {t})\right) ^ {1 - \alpha}, p _ {t} ^ {*} = \alpha \left(\frac {\alpha}{1 - \alpha} \exp (t o t _ {t})\right) ^ {\alpha - 1}, \exp (e _ {t}) = \exp (t o t _ {t}) ^ {2 \alpha - 1},
+p_{t} = \alpha \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{1 - \alpha}, p_{t}^{*} = \alpha \left(\frac{\alpha}{1 - \alpha} \exp (t o t_{t})\right)^{\alpha - 1}, \exp (e_{t}) = \exp (t o t_{t})^{2 \alpha - 1},
 $$
 
 we have
 
 $$
-s _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} \alpha \left(\frac {1 - \alpha}{\alpha} \exp (t o t _ {t})\right) ^ {1 - \alpha} y _ {t}, \tag {A.22}
+s_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} \alpha \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{1 - \alpha} y_{t}, \tag {A.22}
 $$
 
 $$
-s _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \alpha \left(\frac {\alpha}{1 - \alpha} \exp (t o t _ {t})\right) ^ {\alpha - 1} y _ {t} ^ {*},
+s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \alpha \left(\frac{\alpha}{1 - \alpha} \exp (t o t_{t})\right)^{\alpha - 1} y_{t}^{*},
 $$
 
 $$
-\tilde {s} _ {t} ^ {*} = \frac {1 - \exp (\delta (T - t))}{\delta} \alpha \left(\frac {\alpha}{1 - \alpha}\right) ^ {\alpha - 1} \exp (t o t _ {t}) ^ {- \alpha} y _ {t} ^ {*}, \tag {A.23}
+\tilde {s}_{t}^{*} = \frac{1 - \exp (\delta (T - t))}{\delta} \alpha \left(\frac{\alpha}{1 - \alpha}\right)^{\alpha - 1} \exp (t o t_{t})^{- \alpha} y_{t}^{*}, \tag {A.23}
 $$
 
 and hence
 
 $$
-s _ {t} ^ {*} = s _ {t} \exp (- t o t _ {t}) \frac {y _ {t} ^ {*}}{y _ {t}}.
+s_{t}^{*} = s_{t} \exp (- t o t_{t}) \frac{y_{t}^{*}}{y_{t}}.
 $$
 
 We then calculate the wealth processes.
 
 $$
-\begin{array}{l} w _ {t} + s _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} c _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(p _ {t} c _ {H, t} + p _ {t} ^ {*} \exp (- e _ {t}) c _ {F, t}\right) \\ = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(\frac {\gamma_ {t} \alpha}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} p _ {t} y _ {t} + \exp (- e _ {t}) \frac {\gamma_ {t} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} p _ {t} ^ {*} y _ {t} ^ {*}\right) \\ = \frac {\gamma_ {t} \alpha}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} s _ {t} + \frac {\gamma_ {t} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \tilde {s} _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} w_{t} + s_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} c_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(p_{t} c_{H, t} + p_{t}^{*} \exp (- e_{t}) c_{F, t}\right) \\ = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(\frac{\gamma_{t} \alpha}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} p_{t} y_{t} + \exp (- e_{t}) \frac{\gamma_{t} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} p_{t}^{*} y_{t}^{*}\right) \\ = \frac{\gamma_{t} \alpha}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} s_{t} + \frac{\gamma_{t} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \tilde {s}_{t}^{*}, \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \tilde {c} _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(\exp (- e _ {t}) p _ {t} ^ {*} c _ {F, t} ^ {*} + p _ {t} c _ {H, t} ^ {*}\right) \\ = \frac {1 - \exp (- \delta (T - t))}{\delta} \left(\frac {\pi_ {t} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} p _ {t} ^ {*} y _ {t} ^ {*} \exp (- e _ {t}) + \frac {\pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} p _ {t} y _ {t}\right) \\ = \frac {\pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} s _ {t} + \frac {\pi_ {t} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \tilde {s} _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} \tilde {w}_{t}^{*} + \tilde {s}_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \tilde {c}_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(\exp (- e_{t}) p_{t}^{*} c_{F, t}^{*} + p_{t} c_{H, t}^{*}\right) \\ = \frac{1 - \exp (- \delta (T - t))}{\delta} \left(\frac{\pi_{t} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} p_{t}^{*} y_{t}^{*} \exp (- e_{t}) + \frac{\pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} p_{t} y_{t}\right) \\ = \frac{\pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} s_{t} + \frac{\pi_{t} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \tilde {s}_{t}^{*}, \\ \end{array}
 $$
 
 which lead to
 
 $$
-\begin{array}{l} w _ {t} + s _ {t} = \frac {\gamma_ {t} \alpha}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} s _ {t} + \frac {\gamma_ {t} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \exp (t o t _ {t}) ^ {- 1} \frac {y _ {t} ^ {*}}{y _ {t}} s _ {t}, \\ w _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = \frac {\pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \exp (t o t _ {t}) \frac {y _ {t}}{y _ {t} ^ {*}} s _ {t} ^ {*} + \frac {\pi_ {t} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} s _ {t} ^ {*}. \\ \end{array}
+\begin{array}{l} w_{t} + s_{t} = \frac{\gamma_{t} \alpha}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} s_{t} + \frac{\gamma_{t} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \exp (t o t_{t})^{- 1} \frac{y_{t}^{*}}{y_{t}} s_{t}, \\ w_{t}^{*} + \tilde {s}_{t}^{*} = \frac{\pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \exp (t o t_{t}) \frac{y_{t}}{y_{t}^{*}} s_{t}^{*} + \frac{\pi_{t} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} s_{t}^{*}. \\ \end{array}
 $$
 
 Plugging the expression of terms of trade  $\exp (tot_{t})$
 
 $$
-\exp (t o t _ {t}) = \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \frac {y _ {t} ^ {*}}{y _ {t}},
+\exp (t o t_{t}) = \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \frac{y_{t}^{*}}{y_{t}},
 $$
 
 into the expression of home and foreign wealth in local numéraires, we have
 
 $$
-w _ {t} + s _ {t} = \frac {\gamma_ {t}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} s _ {t},
+w_{t} + s_{t} = \frac{\gamma_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} s_{t},
 $$
 
 $$
-w _ {t} ^ {*} + s _ {t} ^ {*} = \frac {\pi_ {t} \gamma^ {*}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} s _ {t} ^ {*}.
+w_{t}^{*} + s_{t}^{*} = \frac{\pi_{t} \gamma^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} s_{t}^{*}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/85e2826edbcf801c693c64cbac8788e389774fc9a7baa2a67feab2aa5e9020d5.jpg)
@@ -1023,23 +1023,23 @@ $$
 Proof. (1) By substituting (A.9) and (A.13) into (5.7), we have
 
 $$
-\pi_ {t} = \frac {\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}}{w _ {t} + s _ {t}} \frac {\gamma_ {t}}{\gamma^ {*}} = \frac {\exp (m _ {\nu_ {H} , t})}{\exp (m _ {\tilde {\nu} _ {F} , t})} \frac {\zeta_ {H}}{\tilde {\zeta} _ {F}}
+\pi_{t} = \frac{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}}{w_{t} + s_{t}} \frac{\gamma_{t}}{\gamma^{*}} = \frac{\exp (m_{\nu_{H} , t})}{\exp (m_{\tilde {\nu}_{F} , t})} \frac{\zeta_{H}}{\tilde {\zeta}_{F}}
 $$
 
 Recall the representation of both countries' home state price densities,
 
 $$
-d \exp \left(m _ {\nu_ {H}, t}\right) = - r _ {t} \exp \left(m _ {\nu_ {H}, t}\right) d t - \left(\lambda_ {t} + \nu_ {H, t}\right) ^ {\prime} \exp \left(m _ {\nu_ {H}, t}\right) d Z _ {t} \tag {A.24}
+d \exp \left(m_{\nu_{H}, t}\right) = - r_{t} \exp \left(m_{\nu_{H}, t}\right) d t - \left(\lambda_{t} + \nu_{H, t}\right)^{\prime} \exp \left(m_{\nu_{H}, t}\right) d Z_{t} \tag {A.24}
 $$
 
 $$
-d \exp \left(m _ {\tilde {v} _ {F}, t}\right) = - r _ {t} \exp \left(m _ {\tilde {v} _ {F}, t}\right) d t - \left(\lambda_ {t} + \tilde {v} _ {F, t}\right) ^ {\prime} \exp \left(m _ {\tilde {v} _ {F}, t}\right) d Z _ {t}. \tag {A.25}
+d \exp \left(m_{\tilde {v}_{F}, t}\right) = - r_{t} \exp \left(m_{\tilde {v}_{F}, t}\right) d t - \left(\lambda_{t} + \tilde {v}_{F, t}\right)^{\prime} \exp \left(m_{\tilde {v}_{F}, t}\right) d Z_{t}. \tag {A.25}
 $$
 
 Then, we apply Ito's Lemma to  $\pi_t$  and obtain:
 
 $$
-\begin{array}{l} d \pi_ {t} = \pi_ {t} \frac {d \exp (m _ {\tilde {\nu} _ {H} , t})}{\exp (m _ {\nu_ {H} , t})} - \pi_ {t} \frac {d \exp (m _ {\tilde {\nu} _ {F} , t})}{\exp (m _ {\tilde {\nu} _ {F} , t})} - \pi_ {t} \left[ \frac {d \exp (m _ {\tilde {\nu} _ {F} , t})}{\exp (m _ {\tilde {\nu} _ {F} , t})}, \frac {d \exp (m _ {\nu_ {H} , t})}{\exp (m _ {\nu_ {H} , t})} \right] + \pi_ {t} \left[ \frac {d \exp (m _ {\tilde {\nu} _ {F} , t})}{\exp (m _ {\tilde {\nu} _ {F} , t})}, \frac {d \exp (m _ {\tilde {\nu} _ {F} , t})}{\exp (m _ {\tilde {\nu} _ {F} , t})} \right] \\ = \pi_ {t} (\tilde {\nu} _ {F, t} - \nu_ {H, t}) ^ {\prime} \tilde {\nu} _ {F, t} d t + \pi_ {t} (\tilde {\nu} _ {F, t} - \nu_ {H, t}) ^ {\prime} d Z _ {t}, \\ \end{array}
+\begin{array}{l} d \pi_{t} = \pi_{t} \frac{d \exp (m_{\tilde {\nu}_{H} , t})}{\exp (m_{\nu_{H} , t})} - \pi_{t} \frac{d \exp (m_{\tilde {\nu}_{F} , t})}{\exp (m_{\tilde {\nu}_{F} , t})} - \pi_{t} \left[ \frac{d \exp (m_{\tilde {\nu}_{F} , t})}{\exp (m_{\tilde {\nu}_{F} , t})}, \frac{d \exp (m_{\nu_{H} , t})}{\exp (m_{\nu_{H} , t})} \right] + \pi_{t} \left[ \frac{d \exp (m_{\tilde {\nu}_{F} , t})}{\exp (m_{\tilde {\nu}_{F} , t})}, \frac{d \exp (m_{\tilde {\nu}_{F} , t})}{\exp (m_{\tilde {\nu}_{F} , t})} \right] \\ = \pi_{t} (\tilde {\nu}_{F, t} - \nu_{H, t})^{\prime} \tilde {\nu}_{F, t} d t + \pi_{t} (\tilde {\nu}_{F, t} - \nu_{H, t})^{\prime} d Z_{t}, \\ \end{array}
 $$
 
 where we use the definition of  $\lambda_{t}$  and the restriction that  $\sigma_t\nu_{H,t} = 0$ ,  $\sigma_t\nu_{H,t} = 0$ . Eq. (A.21) holds for every  $t$ , which implies  $(\tilde{\nu}_{F,t} - \nu_{H,t})'\tilde{\nu}_{F,t} = 0$ .
@@ -1047,53 +1047,53 @@ where we use the definition of  $\lambda_{t}$  and the restriction that  $\sigma
 If we further suppose that at both countries' households do not hold any bonds at the beginning, which means  $w_0 = s_0$  and  $w_0^* = s_0^*$ , we can derive the following results:
 
 $$
-\frac {\gamma_ {0}}{\gamma_ {0} \alpha + \pi_ {0} \gamma^ {*} (1 - \alpha)} = 1 \Leftrightarrow \gamma_ {0} (1 - \alpha) = \pi_ {0} \gamma^ {*} (1 - \alpha)
+\frac{\gamma_{0}}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} = 1 \Leftrightarrow \gamma_{0} (1 - \alpha) = \pi_{0} \gamma^{*} (1 - \alpha)
 $$
 
 $$
-\frac {\pi_ {0} \gamma^ {*}}{\gamma_ {0} (1 - \alpha) + \pi_ {0} \gamma^ {*} \alpha} = 1 \Leftrightarrow \pi_ {0} \gamma^ {*} (1 - \alpha) = \gamma_ {0} (1 - \alpha).
+\frac{\pi_{0} \gamma^{*}}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha} = 1 \Leftrightarrow \pi_{0} \gamma^{*} (1 - \alpha) = \gamma_{0} (1 - \alpha).
 $$
 
 which both lead to
 
 $$
-\pi_ {0} = \frac {\gamma_ {0}}{\gamma^ {*}}.
+\pi_{0} = \frac{\gamma_{0}}{\gamma^{*}}.
 $$
 
 (2) Define
 
 $$
-i _ {1} \stackrel {{\mathrm {d e f}}} {{=}} (1, 0, 0), \quad i _ {2} \stackrel {{\mathrm {d e f}}} {{=}} (0, 1, 0), \quad i _ {3} \stackrel {{\mathrm {d e f}}} {{=}} (0, 0, 1).
+i_{1} \stackrel {{\mathrm{de f}}} {{=}} (1, 0, 0), \quad i_{2} \stackrel {{\mathrm{de f}}} {{=}} (0, 1, 0), \quad i_{3} \stackrel {{\mathrm{de f}}} {{=}} (0, 0, 1).
 $$
 
 Apply Ito's Lemma to  $\exp (tot_{t})$ , we obtain:
 
 $$
-\begin{array}{l} d \exp (t o t _ {t}) = d \left(\frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \frac {y _ {t} ^ {*}}{y _ {t}}\right) \\ = \exp (t o t _ {t}) \left[ \frac {1}{y _ {t} ^ {*}} d y _ {t} ^ {*} - \frac {1}{y _ {t}} d y _ {t} - \frac {1}{y _ {t} y _ {t} ^ {*}} [ d y _ {t}, d y _ {t} ^ {*} ] + \frac {1}{y _ {t} ^ {2}} [ d y _ {t}, d y _ {t} ] \right. \\ + \frac {1}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} (\alpha d \gamma_ {t} + \gamma^ {*} (1 - \alpha) d \pi_ {t}) - \frac {1}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} ((1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t}) \\ + \frac {1}{y _ {t} ^ {*}} \frac {\left[ d y _ {t} ^ {*} , \alpha d \gamma_ {t} + \gamma^ {*} (1 - \alpha) d \pi_ {t} \right]}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} - \frac {1}{y _ {t}} \frac {\left[ d y _ {t} , \alpha d \gamma_ {t} + \gamma^ {*} (1 - \alpha) d \pi_ {t} \right]}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \\ - \frac {1}{y _ {t} ^ {*}} \frac {\left[ d y _ {t} ^ {*} , (1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t} \right]}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} + \frac {1}{y _ {t}} \frac {\left[ d y _ {t} , (1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t} \right]}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \\ + \frac {[ (1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t} , (1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t} ]}{(\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha) ^ {2}} - \frac {[ \alpha d \gamma_ {t} + \gamma^ {*} (1 - \alpha) d \pi_ {t} , (1 - \alpha) d \gamma_ {t} + \gamma^ {*} \alpha d \pi_ {t} ]}{[ \gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha) ] [ \gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha ]} \\ \end{array}
+\begin{array}{l} d \exp (t o t_{t}) = d \left(\frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \frac{y_{t}^{*}}{y_{t}}\right) \\ = \exp (t o t_{t}) \left[ \frac{1}{y_{t}^{*}} d y_{t}^{*} - \frac{1}{y_{t}} d y_{t} - \frac{1}{y_{t} y_{t}^{*}} [ d y_{t}, d y_{t}^{*} ] + \frac{1}{y_{t}^{2}} [ d y_{t}, d y_{t} ] \right. \\ + \frac{1}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} (\alpha d \gamma_{t} + \gamma^{*} (1 - \alpha) d \pi_{t}) - \frac{1}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} ((1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t}) \\ + \frac{1}{y_{t}^{*}} \frac{\left[ d y_{t}^{*} , \alpha d \gamma_{t} + \gamma^{*} (1 - \alpha) d \pi_{t} \right]}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} - \frac{1}{y_{t}} \frac{\left[ d y_{t} , \alpha d \gamma_{t} + \gamma^{*} (1 - \alpha) d \pi_{t} \right]}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \\ - \frac{1}{y_{t}^{*}} \frac{\left[ d y_{t}^{*} , (1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t} \right]}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} + \frac{1}{y_{t}} \frac{\left[ d y_{t} , (1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t} \right]}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \\ + \frac{[ (1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t} , (1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t} ]}{(\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha)^{2}} - \frac{[ \alpha d \gamma_{t} + \gamma^{*} (1 - \alpha) d \pi_{t} , (1 - \alpha) d \gamma_{t} + \gamma^{*} \alpha d \pi_{t} ]}{[ \gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha) ] [ \gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha ]} \\ \end{array}
 $$
 
 Recall that  $e_t = (2\alpha - 1)tot_t$ , which implies
 
 $$
-d (t o t _ {t}) = \frac {1}{2 \alpha - 1} \kappa_ {t} d t + \frac {1}{2 \alpha - 1} \sigma_ {t} d Z _ {t}.
+d (t o t_{t}) = \frac{1}{2 \alpha - 1} \kappa_{t} d t + \frac{1}{2 \alpha - 1} \sigma_{t} d Z_{t}.
 $$
 
 If an equilibrium as in (1) exists, by matching the drift and diffusion terms for  $\exp (tot_{t})$ ,
 
 $$
-d \exp (t o t _ {t}) = \exp (t o t _ {t}) (\frac {\kappa_ {t}}{2 \alpha - 1} + \frac {1}{2} | | \frac {\sigma_ {t}}{2 \alpha - 1} | | ^ {2}) d t + \exp (t o t _ {t}) \frac {\sigma_ {t}}{2 \alpha - 1} d Z _ {t},
+d \exp (t o t_{t}) = \exp (t o t_{t}) (\frac{\kappa_{t}}{2 \alpha - 1} + \frac{1}{2} | | \frac{\sigma_{t}}{2 \alpha - 1} | |^{2}) d t + \exp (t o t_{t}) \frac{\sigma_{t}}{2 \alpha - 1} d Z_{t},
 $$
 
 we can compute  $\kappa_{t}$  and  $\sigma_{t}$  as follows:
 
 $$
-\begin{array}{l} \frac {\sigma_ {t}}{2 \alpha - 1} = - \sigma_ {y} i _ {1} + \sigma_ {y ^ {*}} i _ {2} + \frac {\alpha \gamma_ {t} \omega i _ {3} + \gamma^ {*} (1 - \alpha) \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} - \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3} + \gamma^ {*} \alpha \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \\ \frac {\kappa_ {t}}{2 \alpha - 1} = \mu_ {y ^ {*}} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} - \frac {1}{2} \frac {\| \alpha \gamma_ {t} \omega i _ {3} + \gamma^ {*} (1 - \alpha) \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} \| ^ {2}}{(\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)) ^ {2}} + \frac {1}{2} \frac {\| (1 - \alpha) \gamma_ {t} \omega i _ {3} + \gamma^ {*} \alpha \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} \| ^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha) ^ {2}}. \\ \end{array}
+\begin{array}{l} \frac{\sigma_{t}}{2 \alpha - 1} = - \sigma_{y} i_{1} + \sigma_{y^{*}} i_{2} + \frac{\alpha \gamma_{t} \omega i_{3} + \gamma^{*} (1 - \alpha) \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} - \frac{(1 - \alpha) \gamma_{t} \omega i_{3} + \gamma^{*} \alpha \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \\ \frac{\kappa_{t}}{2 \alpha - 1} = \mu_{y^{*}} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \sigma_{y^{*}}^{2} - \frac{1}{2} \frac{\| \alpha \gamma_{t} \omega i_{3} + \gamma^{*} (1 - \alpha) \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} \|^{2}}{(\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha))^{2}} + \frac{1}{2} \frac{\| (1 - \alpha) \gamma_{t} \omega i_{3} + \gamma^{*} \alpha \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} \|^{2}}{(\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha)^{2}}. \\ \end{array}
 $$
 
 Plug in Eq. (A.22) and (A.23) to obtain the drift and volatility of stock price dynamics
 
 $$
-\begin{array}{l} \mu_ {t} ^ {\mathrm {s}} = (1 - \alpha) \frac {\kappa_ {t}}{2 \alpha - 1} + \frac {(\alpha - 1) ^ {2}}{2} \| \frac {\sigma_ {t}}{2 \alpha - 1} \| ^ {2} + \mu_ {y} + (1 - \alpha) \sigma_ {y} \frac {\sigma_ {t}}{2 \alpha - 1} i _ {1} ^ {\prime}, \\ \sigma_ {t} ^ {s} = (1 - \alpha) \frac {\sigma_ {t}}{2 \alpha - 1} + \sigma_ {y} i _ {1}, \\ \mu_ {t} ^ {\tilde {s} ^ {*}} = - \alpha \frac {\kappa_ {t}}{2 \alpha - 1} + \frac {\alpha^ {2}}{2} \| \frac {\sigma_ {t}}{2 \alpha - 1} \| ^ {2} + \mu_ {y ^ {*}} - \alpha \sigma_ {y ^ {*}} \frac {\sigma_ {t}}{2 \alpha - 1} i _ {2} ^ {\prime}, \\ \sigma_ {t} ^ {\tilde {s} ^ {*}} = - \alpha \frac {\sigma_ {t}}{2 \alpha - 1} + \sigma_ {y ^ {*}} i _ {2}, \\ \end{array}
+\begin{array}{l} \mu_{t}^{\mathrm{s}} = (1 - \alpha) \frac{\kappa_{t}}{2 \alpha - 1} + \frac{(\alpha - 1)^{2}}{2} \| \frac{\sigma_{t}}{2 \alpha - 1} \|^{2} + \mu_{y} + (1 - \alpha) \sigma_{y} \frac{\sigma_{t}}{2 \alpha - 1} i_{1}^{\prime}, \\ \sigma_{t}^{s} = (1 - \alpha) \frac{\sigma_{t}}{2 \alpha - 1} + \sigma_{y} i_{1}, \\ \mu_{t}^{\tilde {s}^{*}} = - \alpha \frac{\kappa_{t}}{2 \alpha - 1} + \frac{\alpha^{2}}{2} \| \frac{\sigma_{t}}{2 \alpha - 1} \|^{2} + \mu_{y^{*}} - \alpha \sigma_{y^{*}} \frac{\sigma_{t}}{2 \alpha - 1} i_{2}^{\prime}, \\ \sigma_{t}^{\tilde {s}^{*}} = - \alpha \frac{\sigma_{t}}{2 \alpha - 1} + \sigma_{y^{*}} i_{2}, \\ \end{array}
 $$
 
 Combined with Eq. (A.11) and (A.15), we can solve  $\kappa_{t},\sigma_{t},\nu_{H,t},\tilde{\nu}_{F,t}$  simultaneously as function of exogenous state variables.
@@ -1101,81 +1101,81 @@ Combined with Eq. (A.11) and (A.15), we can solve  $\kappa_{t},\sigma_{t},\nu_{H
 (3) Given the formula of the home numétaire, we have
 
 $$
-\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} = p _ {t} ^ {\alpha} \left[ p _ {t} ^ {*} \exp (- e _ {t}) \right] ^ {1 - \alpha}.
+\alpha^{\alpha} (1 - \alpha)^{1 - \alpha} = p_{t}^{\alpha} \left[ p_{t}^{*} \exp (- e_{t}) \right]^{1 - \alpha}.
 $$
 
 Therefore, the home household's consumption-based home country stochastic price density is:
 
 $$
-\begin{array}{l} \exp (m _ {\nu_ {H}, t}) = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {\alpha} [ p _ {t} ^ {*} \exp (- e _ {t}) ] ^ {1 - \alpha} \exp (m _ {\nu_ {H}, t}) \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {\alpha} [ p _ {t} ^ {*} \exp (- e _ {t}) ] ^ {1 - \alpha} \exp (- \delta t) \frac {p _ {0}}{p _ {t}} \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi_ {0} \gamma^ {*} (1 - \alpha)} \frac {y _ {0}}{y _ {t}} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \left[ \frac {p _ {t} ^ {*} \exp (- e _ {t})}{p _ {t}} \right] ^ {1 - \alpha} \exp (- \delta t) \left[ \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi_ {0} \gamma^ {*} (1 - \alpha)} \right] \left[ \frac {y _ {0}}{y _ {t}} \right] p _ {0} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \exp ((\alpha - 1) t o t _ {t} - \delta t) \left[ \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi_ {0} \gamma^ {*} (1 - \alpha)} \right] \left[ \frac {y _ {0}}{y _ {t}} \right] p _ {0}. \\ \end{array}
+\begin{array}{l} \exp (m_{\nu_{H}, t}) = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{\alpha} [ p_{t}^{*} \exp (- e_{t}) ]^{1 - \alpha} \exp (m_{\nu_{H}, t}) \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{\alpha} [ p_{t}^{*} \exp (- e_{t}) ]^{1 - \alpha} \exp (- \delta t) \frac{p_{0}}{p_{t}} \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \frac{y_{0}}{y_{t}} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \left[ \frac{p_{t}^{*} \exp (- e_{t})}{p_{t}} \right]^{1 - \alpha} \exp (- \delta t) \left[ \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \right] \left[ \frac{y_{0}}{y_{t}} \right] p_{0} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \exp ((\alpha - 1) t o t_{t} - \delta t) \left[ \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \right] \left[ \frac{y_{0}}{y_{t}} \right] p_{0}. \\ \end{array}
 $$
 
 It follows that
 
 $$
-d \exp (m _ {\nu_ {H}, t}) = \exp (m _ {\nu_ {H}, t}) \left(\mu_ {m, t} + \frac {1}{2} \| \sigma_ {m, t} \| ^ {2}\right) d t + \exp (m _ {\nu_ {H}, t}) \sigma_ {m, t} d Z _ {t},
+d \exp (m_{\nu_{H}, t}) = \exp (m_{\nu_{H}, t}) \left(\mu_{m, t} + \frac{1}{2} \| \sigma_{m, t} \|^{2}\right) d t + \exp (m_{\nu_{H}, t}) \sigma_{m, t} d Z_{t},
 $$
 
 where
 
 $$
-\mu_ {m, t} = - \delta + (\alpha - 1) \frac {\kappa_ {t}}{2 \alpha - 1} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \frac {\left| \left| \alpha \gamma_ {t} \omega i _ {3} + (1 - \alpha) \gamma^ {*} \pi_ {t} \left(\tilde {v} _ {F , t} - v _ {H , t}\right) ^ {\prime} \right| \right| ^ {2}}{\left(\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)\right) ^ {2}},
+\mu_{m, t} = - \delta + (\alpha - 1) \frac{\kappa_{t}}{2 \alpha - 1} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \frac{\left| \left| \alpha \gamma_{t} \omega i_{3} + (1 - \alpha) \gamma^{*} \pi_{t} \left(\tilde {v}_{F , t} - v_{H , t}\right)^{\prime} \right| \right|^{2}}{\left(\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)\right)^{2}},
 $$
 
 $$
-\sigma_ {m, t} = (\alpha - 1) \frac {\sigma_ {t}}{2 \alpha - 1} - \sigma_ {y} i _ {1} + \frac {\alpha \gamma_ {t} \omega i _ {3} + (1 - \alpha) \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}.
+\sigma_{m, t} = (\alpha - 1) \frac{\sigma_{t}}{2 \alpha - 1} - \sigma_{y} i_{1} + \frac{\alpha \gamma_{t} \omega i_{3} + (1 - \alpha) \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}.
 $$
 
 Similarly, for the foreign numétaire, we have
 
 $$
-\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} = p _ {t} ^ {* \alpha} [ p _ {t} \exp (e _ {t}) ] ^ {1 - \alpha}.
+\alpha^{\alpha} (1 - \alpha)^{1 - \alpha} = p_{t}^{* \alpha} [ p_{t} \exp (e_{t}) ]^{1 - \alpha}.
 $$
 
 Then, the foreign household's consumption-based foreign country stochastic price density is:
 
 $$
-\begin{array}{l} \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}) = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {* \alpha} [ p _ {t} \exp (e _ {t}) ] ^ {1 - \alpha} \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}) \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {* \alpha} [ p _ {t} \exp (e _ {t}) ] ^ {1 - \alpha} \frac {\exp (e _ {0})}{\exp (e _ {t})} \exp (m _ {\tilde {v} _ {F}, t}) \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {* \alpha} [ p _ {t} \exp (e _ {t}) ] ^ {1 - \alpha} \frac {\exp (e _ {0})}{\exp (e _ {t})} \exp (- \delta t) \frac {p _ {0} ^ {*} \exp (- e _ {0}) y _ {0} ^ {*}}{p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}} \frac {\pi_ {0}}{\pi_ {t}} \frac {\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi_ {0} \gamma^ {*} \alpha} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \left[ \frac {p _ {t} \exp (e _ {t})}{p _ {t} ^ {*}} \right] ^ {1 - \alpha} \exp (- \delta t) \frac {p _ {0} ^ {*} y _ {0} ^ {*}}{y _ {t} ^ {*}} \frac {\pi_ {0}}{\pi_ {t}} \frac {\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi_ {0} \gamma^ {*} \alpha} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \exp \big ((1 - \alpha) t o t _ {t} - \delta t \big) \left[ \frac {\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi_ {0} \gamma^ {*} \alpha} \right] \left[ \frac {y _ {0} ^ {*} \pi_ {0}}{y _ {t} ^ {*} \pi_ {t}} \right] p _ {0} ^ {*}. \\ \end{array}
+\begin{array}{l} \exp (m_{\nu_{F}^{*}, t}^{*}) = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{* \alpha} [ p_{t} \exp (e_{t}) ]^{1 - \alpha} \exp (m_{\nu_{F}^{*}, t}^{*}) \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{* \alpha} [ p_{t} \exp (e_{t}) ]^{1 - \alpha} \frac{\exp (e_{0})}{\exp (e_{t})} \exp (m_{\tilde {v}_{F}, t}) \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{* \alpha} [ p_{t} \exp (e_{t}) ]^{1 - \alpha} \frac{\exp (e_{0})}{\exp (e_{t})} \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) y_{0}^{*}}{p_{t}^{*} \exp (- e_{t}) y_{t}^{*}} \frac{\pi_{0}}{\pi_{t}} \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \left[ \frac{p_{t} \exp (e_{t})}{p_{t}^{*}} \right]^{1 - \alpha} \exp (- \delta t) \frac{p_{0}^{*} y_{0}^{*}}{y_{t}^{*}} \frac{\pi_{0}}{\pi_{t}} \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \exp \big ((1 - \alpha) t o t_{t} - \delta t \big) \left[ \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha} \right] \left[ \frac{y_{0}^{*} \pi_{0}}{y_{t}^{*} \pi_{t}} \right] p_{0}^{*}. \\ \end{array}
 $$
 
 It follows that
 
 $$
-d \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}) = \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}) \left(\mu_ {m ^ {*}, t} + \frac {1}{2} \| \sigma_ {m ^ {*}, t} \| ^ {2}\right) d t + \exp (m _ {\nu_ {F} ^ {*}, t} ^ {*}) \sigma_ {m ^ {*}, t} d Z _ {t}
+d \exp (m_{\nu_{F}^{*}, t}^{*}) = \exp (m_{\nu_{F}^{*}, t}^{*}) \left(\mu_{m^{*}, t} + \frac{1}{2} \| \sigma_{m^{*}, t} \|^{2}\right) d t + \exp (m_{\nu_{F}^{*}, t}^{*}) \sigma_{m^{*}, t} d Z_{t}
 $$
 
 where
 
 $$
-\begin{array}{l} \mu_ {m ^ {*}, t} = - \delta + (1 - \alpha) \frac {\kappa_ {t}}{2 \alpha - 1} - \mu_ {y ^ {*}} + \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} + \frac {1}{2} (\| \nu_ {H, t} \| ^ {2} - \| \tilde {\nu} _ {F, t} \| ^ {2}) - \frac {1}{2} \frac {\| (1 - \alpha) \gamma_ {t} \omega i _ {3} + \alpha \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} \| ^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha) ^ {2}}, \\ \sigma_ {m ^ {*}, t} = (1 - \alpha) \frac {\sigma_ {t}}{2 \alpha - 1} - \sigma_ {y ^ {*}} i _ {2} - (\tilde {\nu} _ {F, t} - \nu_ {H, t}) ^ {\prime} + \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3} + \alpha \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}. \\ \end{array}
+\begin{array}{l} \mu_{m^{*}, t} = - \delta + (1 - \alpha) \frac{\kappa_{t}}{2 \alpha - 1} - \mu_{y^{*}} + \frac{1}{2} \sigma_{y^{*}}^{2} + \frac{1}{2} (\| \nu_{H, t} \|^{2} - \| \tilde {\nu}_{F, t} \|^{2}) - \frac{1}{2} \frac{\| (1 - \alpha) \gamma_{t} \omega i_{3} + \alpha \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} \|^{2}}{(\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha)^{2}}, \\ \sigma_{m^{*}, t} = (1 - \alpha) \frac{\sigma_{t}}{2 \alpha - 1} - \sigma_{y^{*}} i_{2} - (\tilde {\nu}_{F, t} - \nu_{H, t})^{\prime} + \frac{(1 - \alpha) \gamma_{t} \omega i_{3} + \alpha \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}. \\ \end{array}
 $$
 
 We introduce a stochastic wedge  $\eta_t$  that reconciles the log change in exchange rates with the domestic and foreign consumption-based SDFs:
 
 $$
-d e _ {t} = d m _ {\nu_ {H}, t} - d m _ {\nu_ {F} ^ {*}, t} ^ {*} + d \eta_ {t}.
+d e_{t} = d m_{\nu_{H}, t} - d m_{\nu_{F}^{*}, t}^{*} + d \eta_{t}.
 $$
 
 Then, we can back up the stochastic wedge  $\eta_t$  process as
 
 $$
-\begin{array}{l} d \eta_ {t} = \left(\kappa_ {t} - \mu_ {m, t} + \mu_ {m ^ {*}, t}\right) d t + \left(\sigma_ {t} - \sigma_ {m, t} + \sigma_ {m ^ {*}, t}\right) d Z _ {t} \\ = \frac {1}{2} \left(\left\| \nu_ {H, t} \right\| ^ {2} - \left\| \tilde {\nu} _ {F, t} \right\| ^ {2}\right) d t + \left(\nu_ {H, t} - \tilde {\nu} _ {F, t}\right) ^ {\prime} d Z _ {t}. \\ \end{array}
+\begin{array}{l} d \eta_{t} = \left(\kappa_{t} - \mu_{m, t} + \mu_{m^{*}, t}\right) d t + \left(\sigma_{t} - \sigma_{m, t} + \sigma_{m^{*}, t}\right) d Z_{t} \\ = \frac{1}{2} \left(\left\| \nu_{H, t} \right\|^{2} - \left\| \tilde {\nu}_{F, t} \right\|^{2}\right) d t + \left(\nu_{H, t} - \tilde {\nu}_{F, t}\right)^{\prime} d Z_{t}. \\ \end{array}
 $$
 
 (4) The interest rates and the home country market price of risk processes can be derived from the dynamics of  $\exp(m_{\nu_H,t})$ . We apply Ito's Lemma to  $\exp(m_{\nu_H,t})$  and match its drift and diffusion terms to obtain  $r_t$  and  $\lambda_t$ .
 
 $$
-r _ {t} = - \mu_ {m, t} - \frac {1}{2} \| \sigma_ {m, t} \| ^ {2}
+r_{t} = - \mu_{m, t} - \frac{1}{2} \| \sigma_{m, t} \|^{2}
 $$
 
 $$
-\lambda_ {t} = - \sigma_ {m, t} ^ {\prime} - v _ {H, t}
+\lambda_{t} = - \sigma_{m, t}^{\prime} - v_{H, t}
 $$
 
 Given  $\lambda_{t}$  and  $r_t$ , we can calculate  $r_t^*$  using the definition of  $\lambda_{t}$
 
 $$
-r _ {t} ^ {*} = - \sigma_ {t} \lambda_ {t} + \kappa_ {t} - \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} + r _ {t}.
+r_{t}^{*} = - \sigma_{t} \lambda_{t} + \kappa_{t} - \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} + r_{t}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/d9fa2a58f0f7084c5f2882167922b06d9c195eaadcab29e84cd5e73991dd448b.jpg)
@@ -1185,119 +1185,119 @@ $$
 Proof. Apply Ito's Lemma to  $\exp (tot_{t})$ , we obtain:
 
 $$
-\begin{array}{l} d \exp (t o t _ {t} ^ {c m}) = d \left(\frac {\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} \frac {y _ {t} ^ {*}}{y _ {t}}\right) \\ = \exp \left(t o t _ {t} ^ {c m}\right) \left[ \frac {1}{y _ {t} ^ {*}} d y _ {t} ^ {*} - \frac {1}{y _ {t}} d y _ {t} - \frac {1}{y _ {t} y _ {t} ^ {*}} \left[ d y _ {t}, d y _ {t} ^ {*} \right] + \frac {1}{y _ {t} ^ {2}} \left[ d y _ {t}, d y _ {t} \right. \right. \\ + \frac {\alpha d \gamma_ {t}}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} - \frac {(1 - \alpha) d \gamma_ {t}}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} \\ + \frac {1}{y _ {t} ^ {*}} \frac {\left[ d y _ {t} ^ {*} , \alpha d \gamma_ {t} \right]}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} - \frac {1}{y _ {t}} \frac {\left[ d y _ {t} , \alpha d \gamma_ {t} \right]}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} \\ - \frac {1}{y _ {t} ^ {*}} \frac {\left[ d y _ {t} ^ {*} , (1 - \alpha) d \gamma_ {t} \right]}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} + \frac {1}{y _ {t}} \frac {\left[ d y _ {t} , (1 - \alpha) d \gamma_ {t} \right]}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} \\ + \frac {[ (1 - \alpha) d \gamma_ {t} , (1 - \alpha) d \gamma_ {t} ]}{\left(\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha\right) ^ {2}} - \frac {\left[ \alpha d \gamma_ {t} , (1 - \alpha) d \gamma_ {t} \right]}{\left[ \gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha) \right] \left[ \gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha \right]} \\ \end{array}
+\begin{array}{l} d \exp (t o t_{t}^{c m}) = d \left(\frac{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} \frac{y_{t}^{*}}{y_{t}}\right) \\ = \exp \left(t o t_{t}^{c m}\right) \left[ \frac{1}{y_{t}^{*}} d y_{t}^{*} - \frac{1}{y_{t}} d y_{t} - \frac{1}{y_{t} y_{t}^{*}} \left[ d y_{t}, d y_{t}^{*} \right] + \frac{1}{y_{t}^{2}} \left[ d y_{t}, d y_{t} \right. \right. \\ + \frac{\alpha d \gamma_{t}}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} - \frac{(1 - \alpha) d \gamma_{t}}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} \\ + \frac{1}{y_{t}^{*}} \frac{\left[ d y_{t}^{*} , \alpha d \gamma_{t} \right]}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} - \frac{1}{y_{t}} \frac{\left[ d y_{t} , \alpha d \gamma_{t} \right]}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} \\ - \frac{1}{y_{t}^{*}} \frac{\left[ d y_{t}^{*} , (1 - \alpha) d \gamma_{t} \right]}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} + \frac{1}{y_{t}} \frac{\left[ d y_{t} , (1 - \alpha) d \gamma_{t} \right]}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} \\ + \frac{[ (1 - \alpha) d \gamma_{t} , (1 - \alpha) d \gamma_{t} ]}{\left(\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha\right)^{2}} - \frac{\left[ \alpha d \gamma_{t} , (1 - \alpha) d \gamma_{t} \right]}{\left[ \gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha) \right] \left[ \gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha \right]} \\ \end{array}
 $$
 
 Again, conjecture that the logarithm of terms of trade follows
 
 $$
-d \left(t o t _ {t} ^ {c m}\right) = A _ {t} ^ {c m} d t + B _ {t} ^ {c m} d Z _ {t}.
+d \left(t o t_{t}^{c m}\right) = A_{t}^{c m} d t + B_{t}^{c m} d Z_{t}.
 $$
 
 If an equilibrium exists, by matching the drift and diffusion terms for  $\exp (tot_{t})$ ,
 
 $$
-d \exp (t o t _ {t} ^ {c m}) = \exp (t o t _ {t} ^ {c m}) (A _ {t} ^ {c m} + \frac {1}{2} | | B _ {t} ^ {c m} | | ^ {2}) d t + \exp (t o t _ {t} ^ {c m}) B _ {t} ^ {c m} d Z _ {t},
+d \exp (t o t_{t}^{c m}) = \exp (t o t_{t}^{c m}) (A_{t}^{c m} + \frac{1}{2} | | B_{t}^{c m} | |^{2}) d t + \exp (t o t_{t}^{c m}) B_{t}^{c m} d Z_{t},
 $$
 
 we can compute  $A_{t}^{cm}$  and  $B_{t}^{cm}$  as follows:
 
 $$
-B _ {t} ^ {c m} = - \sigma_ {y} i _ {1} + \sigma_ {y ^ {*}} i _ {2} + \frac {\alpha \gamma_ {t} \omega i _ {3}}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} - \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3}}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha}
+B_{t}^{c m} = - \sigma_{y} i_{1} + \sigma_{y^{*}} i_{2} + \frac{\alpha \gamma_{t} \omega i_{3}}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} - \frac{(1 - \alpha) \gamma_{t} \omega i_{3}}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha}
 $$
 
 $$
-A _ {t} ^ {c m} = \mu_ {y ^ {*}} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} - \frac {1}{2} \frac {\alpha^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)) ^ {2}} + \frac {1}{2} \frac {(1 - \alpha) ^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha) ^ {2}}
+A_{t}^{c m} = \mu_{y^{*}} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \sigma_{y^{*}}^{2} - \frac{1}{2} \frac{\alpha^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha))^{2}} + \frac{1}{2} \frac{(1 - \alpha)^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha)^{2}}
 $$
 
 Matching the drift and volatility terms of the log exchange rate, we have
 
 $$
-d \left(e _ {t} ^ {c m}\right) = d \left(\left(2 \alpha - 1\right) t o t _ {t} ^ {c m}\right) = \left(2 \alpha - 1\right) A _ {t} ^ {c m} d t + \left(2 \alpha - 1\right) B _ {t} ^ {c m} d Z _ {t}.
+d \left(e_{t}^{c m}\right) = d \left(\left(2 \alpha - 1\right) t o t_{t}^{c m}\right) = \left(2 \alpha - 1\right) A_{t}^{c m} d t + \left(2 \alpha - 1\right) B_{t}^{c m} d Z_{t}.
 $$
 
 Therefore,
 
 $$
-\kappa_ {t} ^ {c m} = (2 \alpha - 1) A _ {t} ^ {c m},
+\kappa_{t}^{c m} = (2 \alpha - 1) A_{t}^{c m},
 $$
 
 $$
-\sigma_ {t} ^ {c m} = (2 \alpha - 1) B _ {t} ^ {c m}.
+\sigma_{t}^{c m} = (2 \alpha - 1) B_{t}^{c m}.
 $$
 
 Under complete markets, we have a unique home country state price density:
 
 $$
-d \exp \left(m _ {t} ^ {c m}\right) = - r _ {t} \exp \left(m _ {t} ^ {c m}\right) d t - \lambda_ {t} ^ {\prime} \exp \left(m _ {t} ^ {c m}\right) d Z _ {t}, \tag {A.26}
+d \exp \left(m_{t}^{c m}\right) = - r_{t} \exp \left(m_{t}^{c m}\right) d t - \lambda_{t}^{\prime} \exp \left(m_{t}^{c m}\right) d Z_{t}, \tag {A.26}
 $$
 
 and a unique home country state price density:
 
 $$
-d \exp \left(m _ {t} ^ {*}, c m\right) = - r _ {t} ^ {*} \exp \left(m _ {t} ^ {*}, c m\right) d t - \lambda_ {t} ^ {* \prime} \exp \left(m _ {t} ^ {*}, c m\right) d Z _ {t}, \tag {A.27}
+d \exp \left(m_{t}^{*}, c m\right) = - r_{t}^{*} \exp \left(m_{t}^{*}, c m\right) d t - \lambda_{t}^{* \prime} \exp \left(m_{t}^{*}, c m\right) d Z_{t}, \tag {A.27}
 $$
 
 Given the formula of the home numétaire, we have
 
 $$
-\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} = p _ {t} ^ {\alpha} \left[ p _ {t} ^ {*} \exp (- e _ {t} ^ {c m}) \right] ^ {1 - \alpha}.
+\alpha^{\alpha} (1 - \alpha)^{1 - \alpha} = p_{t}^{\alpha} \left[ p_{t}^{*} \exp (- e_{t}^{c m}) \right]^{1 - \alpha}.
 $$
 
 Therefore, the home household's consumption-based home country stochastic price density is:
 
 $$
-\begin{array}{l} \exp \left(m _ {t} ^ {c m}\right) = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {\alpha} \left[ p _ {t} ^ {*} \exp \left(- e _ {t} ^ {c m}\right) \right] ^ {1 - \alpha} \exp \left(m _ {t} ^ {c m}\right) \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {\alpha} \left[ p _ {t} ^ {*} \exp (- e _ {t} ^ {c m}) \right] ^ {1 - \alpha} \exp (- \delta t) \frac {p _ {0}}{p _ {t}} \frac {\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi \gamma^ {*} (1 - \alpha)} \frac {y _ {0}}{y _ {t}} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \left[ \frac {p _ {t} ^ {*} \exp (- e _ {t} ^ {c m})}{p _ {t}} \right] ^ {1 - \alpha} \exp (- \delta t) \left[ \frac {\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi \gamma^ {*} (1 - \alpha)} \right] \left[ \frac {y _ {0}}{y _ {t}} \right] p _ {0} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \exp ((\alpha - 1) t o t _ {t} ^ {c m} - \delta t) \left[ \frac {\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)}{\gamma_ {0} \alpha + \pi \gamma^ {*} (1 - \alpha)} \right] \left[ \frac {y _ {0}}{y _ {t}} \right] p _ {0} \\ \end{array}
+\begin{array}{l} \exp \left(m_{t}^{c m}\right) = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{\alpha} \left[ p_{t}^{*} \exp \left(- e_{t}^{c m}\right) \right]^{1 - \alpha} \exp \left(m_{t}^{c m}\right) \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{\alpha} \left[ p_{t}^{*} \exp (- e_{t}^{c m}) \right]^{1 - \alpha} \exp (- \delta t) \frac{p_{0}}{p_{t}} \frac{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi \gamma^{*} (1 - \alpha)} \frac{y_{0}}{y_{t}} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \left[ \frac{p_{t}^{*} \exp (- e_{t}^{c m})}{p_{t}} \right]^{1 - \alpha} \exp (- \delta t) \left[ \frac{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi \gamma^{*} (1 - \alpha)} \right] \left[ \frac{y_{0}}{y_{t}} \right] p_{0} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \exp ((\alpha - 1) t o t_{t}^{c m} - \delta t) \left[ \frac{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi \gamma^{*} (1 - \alpha)} \right] \left[ \frac{y_{0}}{y_{t}} \right] p_{0} \\ \end{array}
 $$
 
 It follows that
 
 $$
-d \exp (m _ {t} ^ {c m}) = \exp (m _ {t} ^ {c m}) \left(\mu_ {m, t} ^ {c m} + \frac {1}{2} \| \sigma_ {m, t} ^ {c m} \| ^ {2}\right) d t + \exp (m _ {t} ^ {c m}) \sigma_ {m, t} ^ {c m} d Z _ {t}
+d \exp (m_{t}^{c m}) = \exp (m_{t}^{c m}) \left(\mu_{m, t}^{c m} + \frac{1}{2} \| \sigma_{m, t}^{c m} \|^{2}\right) d t + \exp (m_{t}^{c m}) \sigma_{m, t}^{c m} d Z_{t}
 $$
 
 where
 
 $$
-\mu_ {m, t} ^ {c m} = - \delta + (\alpha - 1) A _ {t} ^ {c m} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \frac {\alpha^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)) ^ {2}}
+\mu_{m, t}^{c m} = - \delta + (\alpha - 1) A_{t}^{c m} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \frac{\alpha^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha))^{2}}
 $$
 
 $$
-\sigma_ {m, t} ^ {c m} = (\alpha - 1) B _ {t} ^ {c m} - \sigma_ {y} i _ {1} + \frac {\alpha \gamma_ {t} \omega i _ {3}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}
+\sigma_{m, t}^{c m} = (\alpha - 1) B_{t}^{c m} - \sigma_{y} i_{1} + \frac{\alpha \gamma_{t} \omega i_{3}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}
 $$
 
 Similarly, for the foreign numétaire, we have
 
 $$
-\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} = p _ {t} ^ {* \alpha} \left[ p _ {t} \exp \left(e _ {t} ^ {c m}\right) \right] ^ {1 - \alpha}.
+\alpha^{\alpha} (1 - \alpha)^{1 - \alpha} = p_{t}^{* \alpha} \left[ p_{t} \exp \left(e_{t}^{c m}\right) \right]^{1 - \alpha}.
 $$
 
 Then, by the formula of the home numérique, the foreign household's consumption-based foreign country stochastic price density is:
 
 $$
-\begin{array}{l} \exp \left(m _ {t} ^ {*}, c m\right) = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {* \alpha} \left[ p _ {t} \exp \left(e _ {t} ^ {c m}\right) \right] ^ {1 - \alpha} \exp \left(m _ {t} ^ {*}, c m\right) \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} p _ {t} ^ {* \alpha} \left[ p _ {t} \exp \left(e _ {t} ^ {c m}\right) \right] ^ {1 - \alpha} \frac {\exp \left(e _ {0} ^ {c m}\right)}{\exp \left(e _ {t} ^ {c m}\right)} \exp (- \delta t) \frac {p _ {0} ^ {*} \exp \left(- e _ {0} ^ {c m}\right) y _ {0} ^ {*}}{p _ {t} ^ {*} \exp \left(- e _ {t} ^ {c m}\right) y _ {t} ^ {*}} \frac {\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi \gamma^ {*} \alpha} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \left[ \frac {p _ {t} \exp \left(e _ {t} ^ {c m}\right)}{p _ {t} ^ {*}} \right] ^ {1 - \alpha} \exp (- \delta t) \frac {p _ {0} ^ {*} y _ {0} ^ {*}}{y _ {t} ^ {*}} \frac {\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi \gamma^ {*} \alpha} \\ = \frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} \exp ((1 - \alpha) t o t _ {t} ^ {c m} - \delta t) \left[ \frac {\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha}{\gamma_ {0} (1 - \alpha) + \pi \gamma^ {*} \alpha} \right] \left[ \frac {y _ {0} ^ {*}}{y _ {t} ^ {*}} \right] p _ {0} ^ {*} \\ \end{array}
+\begin{array}{l} \exp \left(m_{t}^{*}, c m\right) = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{* \alpha} \left[ p_{t} \exp \left(e_{t}^{c m}\right) \right]^{1 - \alpha} \exp \left(m_{t}^{*}, c m\right) \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} p_{t}^{* \alpha} \left[ p_{t} \exp \left(e_{t}^{c m}\right) \right]^{1 - \alpha} \frac{\exp \left(e_{0}^{c m}\right)}{\exp \left(e_{t}^{c m}\right)} \exp (- \delta t) \frac{p_{0}^{*} \exp \left(- e_{0}^{c m}\right) y_{0}^{*}}{p_{t}^{*} \exp \left(- e_{t}^{c m}\right) y_{t}^{*}} \frac{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi \gamma^{*} \alpha} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \left[ \frac{p_{t} \exp \left(e_{t}^{c m}\right)}{p_{t}^{*}} \right]^{1 - \alpha} \exp (- \delta t) \frac{p_{0}^{*} y_{0}^{*}}{y_{t}^{*}} \frac{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi \gamma^{*} \alpha} \\ = \frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} \exp ((1 - \alpha) t o t_{t}^{c m} - \delta t) \left[ \frac{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi \gamma^{*} \alpha} \right] \left[ \frac{y_{0}^{*}}{y_{t}^{*}} \right] p_{0}^{*} \\ \end{array}
 $$
 
 It follows that
 
 $$
-d \exp \left(m _ {\nu_ {F} ^ {*}, t} ^ {* c m}\right) = \exp \left(m _ {\nu_ {F} ^ {*}, t} ^ {* c m}\right) \left(\mu_ {m ^ {*}, t} ^ {c m} + \frac {1}{2} \| \sigma_ {m ^ {*}, t} ^ {c m} \| ^ {2}\right) d t + \exp \left(m _ {\nu_ {F} ^ {*}, t} ^ {* c m}\right) \sigma_ {m ^ {*}, t} ^ {c m} d Z _ {t}
+d \exp \left(m_{\nu_{F}^{*}, t}^{* c m}\right) = \exp \left(m_{\nu_{F}^{*}, t}^{* c m}\right) \left(\mu_{m^{*}, t}^{c m} + \frac{1}{2} \| \sigma_{m^{*}, t}^{c m} \|^{2}\right) d t + \exp \left(m_{\nu_{F}^{*}, t}^{* c m}\right) \sigma_{m^{*}, t}^{c m} d Z_{t}
 $$
 
 where
 
 $$
-\mu_ {m ^ {*}, t} ^ {c m} = - \delta + (1 - \alpha) A _ {t} ^ {c m} - \mu_ {y ^ {*}} - \frac {1}{2} \frac {(1 - \alpha) ^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha) ^ {2}}
+\mu_{m^{*}, t}^{c m} = - \delta + (1 - \alpha) A_{t}^{c m} - \mu_{y^{*}} - \frac{1}{2} \frac{(1 - \alpha)^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha)^{2}}
 $$
 
 $$
-\sigma_ {m ^ {*}, t} ^ {c m} = (1 - \alpha) B _ {t} ^ {c m} - \sigma_ {y ^ {*}} i _ {2} + \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}
+\sigma_{m^{*}, t}^{c m} = (1 - \alpha) B_{t}^{c m} - \sigma_{y^{*}} i_{2} + \frac{(1 - \alpha) \gamma_{t} \omega i_{3}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}
 $$
 
 Then, the exchange rate dynamics is back in the benchmark complete markets case:
 
 $$
-d e _ {t} ^ {c m} = d m _ {t} ^ {c m} - d m _ {t} ^ {* c m}
+d e_{t}^{c m} = d m_{t}^{c m} - d m_{t}^{* c m}
 $$
 
 □
@@ -1307,63 +1307,63 @@ $$
 Proof. First, we plug in  $\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}$  to reproduce the Euler equations (1.6)-(1.9) as follows
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + r _ {t}\right) \right],
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
 $$
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} ^ {*} - \eta_ {t + 1} + r _ {t} ^ {*}\right) \right],
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} ^ {*} + r _ {t} ^ {*}\right) \right],
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + \eta_ {t + 1} + r _ {t}\right) \right].
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
 $$
 
 By joint normality, we obtain
 
 $$
-\begin{array}{l} 0 = \mathbb {E} _ {t} [ m _ {t + 1} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) + r _ {t}, \\ 0 = \mathbb {E} _ {t} [ m _ {t + 1} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) + r _ {t} + \mathbb {E} _ {t} [ \eta_ {t + 1} ] + \frac {1}{2} v a r _ {t} (\eta_ {t + 1}) + c o v _ {t} (m _ {t + 1}, \eta_ {t + 1}), \\ 0 = \mathbb {E} _ {t} [ m _ {t + 1} ^ {*} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1} ^ {*}) + r _ {t} ^ {*}, \\ 0 = \mathbb {E} _ {t} [ m _ {t + 1} ^ {*} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1} ^ {*}) + r _ {t} ^ {*} - \mathbb {E} _ {t} [ \eta_ {t + 1} ] + \frac {1}{2} v a r _ {t} (\eta_ {t + 1}) - c o v _ {t} (m _ {t + 1} ^ {*}, \eta_ {t + 1}), \\ \end{array}
+\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t} + \mathbb {E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} v a r_{t} (\eta_{t + 1}) + c o v_{t} (m_{t + 1}, \eta_{t + 1}), \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*} - \mathbb {E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} v a r_{t} (\eta_{t + 1}) - c o v_{t} (m_{t + 1}^{*}, \eta_{t + 1}), \\ \end{array}
 $$
 
 which implies
 
 $$
-c o v _ {t} \left(m _ {t + 1}, \eta_ {t + 1}\right) = - \mathbb {E} _ {t} \left[ \eta_ {t + 1} \right] - \frac {1}{2} v a r _ {t} \left(\eta_ {t + 1}\right),
+c o v_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = - \mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right),
 $$
 
 $$
-c o v _ {t} \left(m _ {t + 1} ^ {*}, \eta_ {t + 1}\right) = - \mathbb {E} _ {t} \left[ \eta_ {t + 1} \right] + \frac {1}{2} v a r _ {t} \left(\eta_ {t + 1}\right),
+c o v_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = - \mathbb {E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right),
 $$
 
 and hence
 
 $$
-c o v _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*}, \eta_ {t + 1}) = - v a r _ {t} (\eta_ {t + 1}).
+c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) = - v a r_{t} (\eta_{t + 1}).
 $$
 
 Recall
 
 $$
-\Delta e _ {t + 1} = m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1},
+\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1},
 $$
 
 which gives the following moments
 
 $$
-\begin{array}{l} v a r _ {t} \left(\Delta e _ {t + 1}\right) = v a r _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) + v a r _ {t} \left(\eta_ {t + 1}\right) + 2 c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \eta_ {t + 1}\right) \\ = v a r _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) - v a r _ {t} \left(\eta_ {t + 1}\right), \\ \end{array}
+\begin{array}{l} v a r_{t} \left(\Delta e_{t + 1}\right) = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + v a r_{t} \left(\eta_{t + 1}\right) + 2 c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right), \\ \end{array}
 $$
 
 $$
-\begin{array}{l} c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) + c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \eta_ {t + 1}\right) \\ = v a r _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) - v a r _ {t} \left(\eta_ {t + 1}\right) \\ = v a r _ {t} \left(\Delta e _ {t + 1}\right). \\ \end{array}
+\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right) \\ = v a r_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 The excess return is given by
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ r x _ {t + 1} \right] = - r _ {t} ^ {*} + r _ {t} + \mathbb {E} _ {t} \left[ \Delta e _ {t + 1} \right] \\ = \mathbb {E} _ {t} [ m _ {t + 1} ^ {*} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1} ^ {*}) - \mathbb {E} _ {t} [ m _ {t + 1} ] - \frac {1}{2} v a r _ {t} (m _ {t + 1}) + \mathbb {E} _ {t} [ m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1} ] \\ = \frac {1}{2} \left(v a r _ {t} \left(m _ {t + 1} ^ {*}\right) - v a r _ {t} \left(m _ {t + 1}\right)\right) + \mathbb {E} _ {t} \left[ \eta_ {t + 1} \right]. \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ r x_{t + 1} \right] = - r_{t}^{*} + r_{t} + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] \\ = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) + \mathbb {E}_{t} [ m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1} ] \\ = \frac{1}{2} \left(v a r_{t} \left(m_{t + 1}^{*}\right) - v a r_{t} \left(m_{t + 1}\right)\right) + \mathbb {E}_{t} \left[ \eta_{t + 1} \right]. \\ \end{array}
 $$
 
 □
@@ -1373,37 +1373,37 @@ $$
 Proof. By construction,  $cov_{t}(m_{t + 1},w_{t}\varepsilon_{t + 1}) = cov_{t}(m_{t + 1}^{*},w_{t}\varepsilon_{t + 1}) = 0$ . Hence,
 
 $$
-\begin{array}{l} \operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(x _ {t} + y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}\right) \\ = v a r _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}\right) + v a r _ {t} \left(w _ {t} \varepsilon_ {t + 1}\right), \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = v a r_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + v a r_{t} \left(w_{t} \varepsilon_{t + 1}\right), \\ \end{array}
 $$
 
 which implies (a). Similarly,
 
 $$
-\begin{array}{l} c o v _ {t} \big (\Delta e _ {t + 1}, m _ {t + 1} - m _ {t + 1} ^ {*} \big) = c o v _ {t} \big (x _ {t} + y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}, m _ {t + 1} - m _ {t + 1} ^ {*} \big) \\ = c o v _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}, m _ {t + 1} - m _ {t + 1} ^ {*}\right), \\ \end{array}
+\begin{array}{l} c o v_{t} \big (\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) = c o v_{t} \big (x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}\right), \\ \end{array}
 $$
 
 which implies (b). Define  $rp_{t} = \mathbb{E}_{t}[\Delta e_{t + 1} + r_{t}^{*} - r_{t}]$ . Euler equations (1.6) and (1.7) yield
 
 $$
-\begin{array}{l} 0 = \mathbb {E} _ {t} [ m _ {t + 1} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) + r _ {t}, \\ 0 = \mathbb {E} _ {t} [ m _ {t + 1} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) - \mathbb {E} _ {t} [ \Delta e _ {t + 1} ] + \frac {1}{2} v a r _ {t} (\Delta e _ {t + 1}) - c o v _ {t} (m _ {t + 1}, \Delta e _ {t + 1}) + r _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) - \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) - c o v_{t} (m_{t + 1}, \Delta e_{t + 1}) + r_{t}^{*}, \\ \end{array}
 $$
 
 which implies
 
 $$
-r p _ {t} = - c o v _ {t} \left(m _ {t + 1}, \Delta e _ {t + 1}\right) + \frac {1}{2} v a r _ {t} \left(\Delta e _ {t + 1}\right).
+r p_{t} = - c o v_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) + \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right).
 $$
 
 Similarly, Eq. (1.8) and (1.9) imply
 
 $$
-r p _ {t} = - c o v _ {t} \left(m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) - \frac {1}{2} v a r _ {t} \left(\Delta e _ {t + 1}\right).
+r p_{t} = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right).
 $$
 
 Adding together to cancel  $\frac{1}{2} var_{t}(\Delta e_{t + 1})$  and obtain (c)
 
 $$
-\begin{array}{l} r p _ {t} = - \frac {1}{2} c o v _ {t} \left(m _ {t + 1}, \Delta e _ {t + 1}\right) - \frac {1}{2} c o v _ {t} \left(m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) \\ = - \frac {1}{2} c o v _ {t} \left(m _ {t + 1} + m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) \\ = - \frac {1}{2} c o v _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}, m _ {t + 1} + m _ {t + 1} ^ {*}\right). \\ \end{array}
+\begin{array}{l} r p_{t} = - \frac{1}{2} c o v_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) - \frac{1}{2} c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} c o v_{t} \left(m_{t + 1} + m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right). \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/f26f06f3e3c949ec8654a2ada617b298b0c60935115e7cfabad7467875e13aa4.jpg)
@@ -1413,7 +1413,7 @@ $$
 Proof. The Euler equation Eq. (5.18) implies
 
 $$
-\begin{array}{l} 0 = \operatorname {c o v} _ {t} \left(\Delta e _ {t + 1}, \Delta e _ {t + 1} - \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right)\right) \\ = c o v _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}, \left(y _ {t} - 1\right) m _ {t + 1} + \left(z _ {t} + 1\right) m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}\right) \\ = y _ {t} \left(y _ {t} - 1\right) \operatorname {v a r} _ {t} \left(m _ {t + 1}\right) + z _ {t} \left(z _ {t} + 1\right) \operatorname {v a r} _ {t} \left(m _ {t + 1} ^ {*}\right) \\ + \left[ y _ {t} (z _ {t} + 1) + z _ {t} (y _ {t} - 1) \right] c o v _ {t} \left(m _ {t + 1}, m _ {t + 1} ^ {*}\right) + w _ {t} ^ {2}, \\ \end{array}
+\begin{array}{l} 0 = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right)\right) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \left(y_{t} - 1\right) m_{t + 1} + \left(z_{t} + 1\right) m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = y_{t} \left(y_{t} - 1\right) \operatorname{va r}_{t} \left(m_{t + 1}\right) + z_{t} \left(z_{t} + 1\right) \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) \\ + \left[ y_{t} (z_{t} + 1) + z_{t} (y_{t} - 1) \right] c o v_{t} \left(m_{t + 1}, m_{t + 1}^{*}\right) + w_{t}^{2}, \\ \end{array}
 $$
 
 where we use the fact that by construction,  $cov_{t}(w_{t}\varepsilon_{t + 1},m_{t + 1}) = cov_{t}(w_{t}\varepsilon_{t + 1},m_{t + 1}^{*}) = 0$ .  $w_{t}^{2} \geq 0$  leads to constraint Eq. (5.15).
@@ -1421,7 +1421,7 @@ where we use the fact that by construction,  $cov_{t}(w_{t}\varepsilon_{t + 1},m
 The Euler equation Eq. (5.18) also implies
 
 $$
-\begin{array}{l} \operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right) = \operatorname {c o v} _ {t} \left(\Delta e _ {t + 1}, m _ {t + 1} - m _ {t + 1} ^ {*}\right) \\ = c o v _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}, m _ {t + 1} - m _ {t + 1} ^ {*}\right) \\ = y _ {t} \operatorname {v a r} _ {t} \left(m _ {t + 1}\right) - z _ {t} \operatorname {v a r} _ {t} \left(m _ {t + 1} ^ {*}\right) + \left(z _ {t} - y _ {t}\right) \operatorname {c o v} _ {t} \left(m _ {t + 1}. m _ {t + 1} ^ {*}\right), \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = y_{t} \operatorname{va r}_{t} \left(m_{t + 1}\right) - z_{t} \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) + \left(z_{t} - y_{t}\right) \operatorname{co v}_{t} \left(m_{t + 1}. m_{t + 1}^{*}\right), \\ \end{array}
 $$
 
 which leads to constraint Eq. (5.16).
@@ -1433,13 +1433,13 @@ which leads to constraint Eq. (5.16).
 Proof. Recast the Euler equation between country 1 and 2 to obtain
 
 $$
-\begin{array}{l} 0 = c o v _ {t} \left[ \Delta e _ {t + 1} ^ {1 / 2}, \Delta e _ {t + 1} ^ {1 / 2} - \left(m _ {t + 1} ^ {(1)} - m _ {t + 1} ^ {(2)}\right) \right] \\ = c o v _ {t} \left[ \Delta e _ {t + 1} ^ {0 / 2} - \Delta e _ {t + 1} ^ {0 / 1}, \left(\Delta e _ {t + 1} ^ {0 / 2} - \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)}\right)\right) - \left(\Delta e _ {t + 1} ^ {0 / 1} - \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)}\right)\right) \right] \\ = c o v _ {t} \left[ \Delta e _ {t + 1} ^ {0 / 1}, \Delta e _ {t + 1} ^ {0 / 1} - \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)}\right) \right] + c o v _ {t} \left[ \Delta e _ {t + 1} ^ {0 / 2}, \Delta e _ {t + 1} ^ {0 / 2} - \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)}\right) \right] \\ - c o v _ {t} [ \Delta e _ {t + 1} ^ {0 / 2}, \Delta e _ {t + 1} ^ {0 / 1} - (m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)}) ] - c o v _ {t} [ \Delta e _ {t + 1} ^ {0 / 1}, \Delta e _ {t + 1} ^ {0 / 2} - (m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)}) ], \\ \end{array}
+\begin{array}{l} 0 = c o v_{t} \left[ \Delta e_{t + 1}^{1 / 2}, \Delta e_{t + 1}^{1 / 2} - \left(m_{t + 1}^{(1)} - m_{t + 1}^{(2)}\right) \right] \\ = c o v_{t} \left[ \Delta e_{t + 1}^{0 / 2} - \Delta e_{t + 1}^{0 / 1}, \left(\Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right)\right) - \left(\Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right)\right) \right] \\ = c o v_{t} \left[ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right) \right] + c o v_{t} \left[ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right) \right] \\ - c o v_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] - c o v_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ], \\ \end{array}
 $$
 
 where the first two terms are zero from the Euler equations (5.18) and (5.19). Hence,
 
 $$
-0 = c o v _ {t} [ \Delta e _ {t + 1} ^ {0 / 2}, \Delta e _ {t + 1} ^ {0 / 1} - (m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)}) ] + c o v _ {t} [ \Delta e _ {t + 1} ^ {0 / 1}, \Delta e _ {t + 1} ^ {0 / 2} - (m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)}) ].
+0 = c o v_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] + c o v_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ].
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/29104820a47c871c03dbb7b61bb442366c6d3e72cb8d05c548a3577eeeec4e06.jpg)
@@ -1449,13 +1449,13 @@ $$
 Proof. Assume the equity claims (i.e., endowment claims) and risk-free bonds are tradable. Assume the endowment and demand shock processes are exogenous and adapted to the filtration that is generated by some  $d$ -dimensional Brownian motion  $Z_{t}$ . The set of tradable assets does not span all the Brownian shocks. In each country  $i$ , the households' problem is given by
 
 $$
-\max  _ {c _ {0, t} ^ {(i)}, c _ {1, t} ^ {(i)}, c _ {2, t} ^ {(i)}} \quad \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \rho t) \gamma_ {t} ^ {(i)} \left(\alpha \log c _ {i, t} ^ {(i)} + \sum_ {j \neq i} \frac {1 - \alpha}{2} \log c _ {j , t} ^ {(i)}\right) d t \right]
+\max_{c_{0, t}^{(i)}, c_{1, t}^{(i)}, c_{2, t}^{(i)}} \quad \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \left(\alpha \log c_{i, t}^{(i)} + \sum_{j \neq i} \frac{1 - \alpha}{2} \log c_{j , t}^{(i)}\right) d t \right]
 $$
 
 subject to the following dynamic budget constraint
 
 $$
-d w _ {t} ^ {(i)} = w _ {t} ^ {(i)} (r _ {t} ^ {(i)} + (\mathbf {x} _ {t} ^ {(i)}) ^ {\prime} (\mu_ {t} ^ {(i)} - r _ {t} ^ {(i)} \mathbf {1})) d t + w _ {t} ^ {(i)} ((\mathbf {x} _ {t} ^ {(i)}) ^ {\prime} \sigma_ {t} ^ {(i)}) d Z _ {t} - \sum_ {j \in \{0, 1, 2 \}} p _ {t} ^ {(j)} \exp (- e _ {t} ^ {i / j}) c _ {j, t} ^ {(i)} d t,
+d w_{t}^{(i)} = w_{t}^{(i)} (r_{t}^{(i)} + (\mathbf {x}_{t}^{(i)})^{\prime} (\mu_{t}^{(i)} - r_{t}^{(i)} \mathbf {1})) d t + w_{t}^{(i)} ((\mathbf {x}_{t}^{(i)})^{\prime} \sigma_{t}^{(i)}) d Z_{t} - \sum_{j \in \{0, 1, 2 \}} p_{t}^{(j)} \exp (- e_{t}^{i / j}) c_{j, t}^{(i)} d t,
 $$
 
 where  $p_t^{(j)}$  is the price of good  $j$  in the numérique of country  $j$ 's consumption bundle  $c_t^{(j)} = \exp(\alpha \log c_{i,t}^{(i)} + \sum_{j \neq i} \frac{1 - \alpha}{2} \log c_{j,t}^{(i)})$ , and  $e_t^{i/j}$
@@ -1465,19 +1465,19 @@ denotes the bilateral exchange rate, which takes a higher value if currency in c
 Following He and Pearson [1991], Cuoco and He [1994] and Pavlova and Rigobon [2012], we can solve the system by transforming the dynamic budget constraints to a static one, which is given by
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp \left(m _ {t} ^ {(i)}\right) c _ {t} ^ {(i)} \right] \leq w _ {0} ^ {(i)}, \tag {A.28}
+\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{t}^{(i)}\right) c_{t}^{(i)} \right] \leq w_{0}^{(i)}, \tag {A.28}
 $$
 
 where  $\exp(m_t^{(i)})$  is the state price density in country  $i$ . The households' Lagrangian is given by
 
 $$
-\mathcal {L} = \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \rho t) \gamma_ {t} ^ {(i)} \log c _ {t} ^ {(i)} d t + \zeta^ {(i)} \left(w _ {0} ^ {(i)} - \int_ {0} ^ {T} \exp (m _ {t} ^ {(i)}) c _ {t} ^ {(i)} d t\right) \right],
+\mathcal {L} = \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} d t + \zeta^{(i)} \left(w_{0}^{(i)} - \int_{0}^{T} \exp (m_{t}^{(i)}) c_{t}^{(i)} d t\right) \right],
 $$
 
 which yields the following first-order condition
 
 $$
-\frac {\exp (- \rho t) \gamma_ {t} ^ {(i)}}{c _ {t} ^ {(i)}} = \zeta^ {(i)} \exp \left(m _ {t} ^ {(i)}\right), \tag {A.29}
+\frac{\exp (- \rho t) \gamma_{t}^{(i)}}{c_{t}^{(i)}} = \zeta^{(i)} \exp \left(m_{t}^{(i)}\right), \tag {A.29}
 $$
 
 with the normalization  $\exp(m_0^{(i)}) = 1$ . When markets are incomplete, there are an infinite number of SDFs that correctly price the assets. However, the SDF that coincides with the marginal utility is unique and is given by (A.29).
@@ -1485,93 +1485,93 @@ with the normalization  $\exp(m_0^{(i)}) = 1$ . When markets are incomplete, the
 The households' wealth in period  $t$  is given by
 
 $$
-\begin{array}{l} w _ {t} ^ {(i)} = \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (m _ {u} ^ {(i)})}{\exp (m _ {t} ^ {(i)})} c _ {u} ^ {(i)} d u \right] = \frac {\zeta^ {(i)}}{\exp (- \rho_ {t}) \gamma_ {t} ^ {(i)}} c _ {t} ^ {(i)} \mathbb {E} _ {t} \left[ \int_ {t} ^ {T} \frac {\exp (- \rho u) \gamma_ {u} ^ {(i)}}{\zeta^ {(i)} c _ {u} ^ {(i)}} c _ {u} ^ {(i)} d u \right] \\ = \frac {1 - \exp (- \rho (T - t))}{\rho} c _ {t} ^ {(i)}, \tag {A.30} \\ \end{array}
+\begin{array}{l} w_{t}^{(i)} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{u}^{(i)})}{\exp (m_{t}^{(i)})} c_{u}^{(i)} d u \right] = \frac{\zeta^{(i)}}{\exp (- \rho_{t}) \gamma_{t}^{(i)}} c_{t}^{(i)} \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (- \rho u) \gamma_{u}^{(i)}}{\zeta^{(i)} c_{u}^{(i)}} c_{u}^{(i)} d u \right] \\ = \frac{1 - \exp (- \rho (T - t))}{\rho} c_{t}^{(i)}, \tag {A.30} \\ \end{array}
 $$
 
 where the demand shocks  $\gamma_t^{(i)}$  are assumed to be martingales. Going back to households' problem, the within-period first-order conditions yields
 
 $$
-p _ {t} ^ {(j)} \exp (- e _ {t} ^ {i / j}) c _ {j, t} ^ {(i)} = (1 _ {\{i = j \}} \alpha + 1 _ {\{i \neq j \}} \frac {1 - \alpha}{2}) c _ {t} ^ {(i)}.
+p_{t}^{(j)} \exp (- e_{t}^{i / j}) c_{j, t}^{(i)} = (1_{\{i = j \}} \alpha + 1_{\{i \neq j \}} \frac{1 - \alpha}{2}) c_{t}^{(i)}.
 $$
 
 Next, the equilibrium allocation is not necessarily Pareto optimal with incomplete markets. However, as shown in Cuoco and He [1994] and Pavlova and Rigobon [2012], we can still solve the social planner's problem with stochastic weights  $\pi_t^{(i)}$ ,
 
 $$
-\begin{array}{l} \max _ {c ^ {(i) j, t}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \rho t) \sum_ {i \in \{0, 1, 2 \}} \pi_ {t} ^ {(i)} \gamma_ {t} ^ {(i)} \sum_ {j \in \{0, 1, 2 \}} \left(1 _ {\{i = j \}} \alpha + 1 _ {\{i \neq j \}} \frac {1 - \alpha}{2}\right) \log c _ {j, t} ^ {(i)} d t \right], \\ s. t. \quad \sum_ {i \in \{0, 1, 2 \}} c _ {j, t} ^ {(i)} = y _ {t} ^ {(j)}, \quad j \in \{0, 1, 2 \}. \\ \end{array}
+\begin{array}{l} \max_{c^{(i) j, t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \sum_{i \in \{0, 1, 2 \}} \pi_{t}^{(i)} \gamma_{t}^{(i)} \sum_{j \in \{0, 1, 2 \}} \left(1_{\{i = j \}} \alpha + 1_{\{i \neq j \}} \frac{1 - \alpha}{2}\right) \log c_{j, t}^{(i)} d t \right], \\ s. t. \quad \sum_{i \in \{0, 1, 2 \}} c_{j, t}^{(i)} = y_{t}^{(j)}, \quad j \in \{0, 1, 2 \}. \\ \end{array}
 $$
 
 The first-order conditions imply
 
 $$
-c _ {j, t} ^ {(i)} = \frac {\pi_ {t} ^ {(i)} \gamma_ {t} ^ {(i)} \frac {1 - \alpha}{2}}{\sum_ {i \neq j} \pi_ {t} ^ {(i)} \gamma_ {t} ^ {(i)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(j)} \gamma_ {t} ^ {(j)} \alpha} y _ {t} ^ {(j)}, i \neq j
+c_{j, t}^{(i)} = \frac{\pi_{t}^{(i)} \gamma_{t}^{(i)} \frac{1 - \alpha}{2}}{\sum_{i \neq j} \pi_{t}^{(i)} \gamma_{t}^{(i)} \frac{1 - \alpha}{2} + \pi_{t}^{(j)} \gamma_{t}^{(j)} \alpha} y_{t}^{(j)}, i \neq j
 $$
 
 $$
-c _ {j, t} ^ {(j)} = \frac {\pi_ {t} ^ {(j)} \gamma_ {t} ^ {(j)} \alpha}{\sum_ {i \neq j} \pi_ {t} ^ {(i)} \gamma_ {t} ^ {(i)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(j)} \gamma_ {t} ^ {(j)} \alpha} y _ {t} ^ {(j)}.
+c_{j, t}^{(j)} = \frac{\pi_{t}^{(j)} \gamma_{t}^{(j)} \alpha}{\sum_{i \neq j} \pi_{t}^{(i)} \gamma_{t}^{(i)} \frac{1 - \alpha}{2} + \pi_{t}^{(j)} \gamma_{t}^{(j)} \alpha} y_{t}^{(j)}.
 $$
 
 In country 0, the within-period solution implies
 
 $$
-p _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1}) c _ {1, t} ^ {(0)} = \frac {1 - \alpha}{2} c _ {t} ^ {(0)}
+p_{t}^{(1)} \exp (- e_{t}^{0 / 1}) c_{1, t}^{(0)} = \frac{1 - \alpha}{2} c_{t}^{(0)}
 $$
 
 $$
-p _ {t} ^ {(2)} \exp (- e _ {t} ^ {0 / 2}) c _ {2, t} ^ {(0)} = \frac {1 - \alpha}{2} c _ {t} ^ {(0)}
+p_{t}^{(2)} \exp (- e_{t}^{0 / 2}) c_{2, t}^{(0)} = \frac{1 - \alpha}{2} c_{t}^{(0)}
 $$
 
 Let  $q_{t}^{1/2}$  denotes the terms of trade in log between countries 1 and 2, which is the ratio of goods prices in a common numérique. Dividing the first equation above by the second yields
 
 $$
-\begin{array}{l} \exp (q _ {t} ^ {1 / 2}) = \frac {p _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1})}{p _ {t} ^ {(2)} \exp (- e _ {t} ^ {0 / 2})} \\ = \frac {c _ {2 , t} ^ {(0)}}{c _ {1 , t} ^ {(0)}} = \frac {\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \alpha + \pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)} \frac {1 - \alpha}{2}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)} \alpha} \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}}. \tag {A.31} \\ \end{array}
+\begin{array}{l} \exp (q_{t}^{1 / 2}) = \frac{p_{t}^{(1)} \exp (- e_{t}^{0 / 1})}{p_{t}^{(2)} \exp (- e_{t}^{0 / 2})} \\ = \frac{c_{2 , t}^{(0)}}{c_{1 , t}^{(0)}} = \frac{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2} + \pi_{t}^{(1)} \gamma_{t}^{(1)} \alpha + \pi_{t}^{(2)} \gamma_{t}^{(2)} \frac{1 - \alpha}{2}}{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2} + \pi_{t}^{(1)} \gamma_{t}^{(1)} \frac{1 - \alpha}{2} + \pi_{t}^{(2)} \gamma_{t}^{(2)} \alpha} \frac{y_{t}^{(2)}}{y_{t}^{(1)}}. \tag {A.31} \\ \end{array}
 $$
 
 To make comparison across countries, define  $\tilde{w}_t^{(i)} = w_t^{(i)}\exp (-e_t^{0 / i})$  as country  $i$  's wealth in country 0's numeraire. Below, we show that  $\pi_t^{(i)}\gamma_t^{(i)} / \pi_t^{(j)}\gamma_t^{(j)} = \tilde{w}_t^{(i)} / \tilde{w}_t^{(j)}$ . To see this, note that
 
 $$
-\begin{array}{l} c _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1}) = p _ {t} ^ {(0)} \exp (- e _ {t} ^ {1 / 0}) \exp (- e _ {t} ^ {0 / 1}) c _ {0, t} ^ {(1)} + p _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1}) c _ {1, t} ^ {(1)} + p _ {t} ^ {(2)} \exp (- e _ {t} ^ {1 / 2}) \exp (- e _ {t} ^ {0 / 1}) c _ {2, t} ^ {(1)} \\ = p _ {t} ^ {(0)} c _ {0, t} ^ {(1)} + p _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1}) c _ {1, t} ^ {(1)} + p _ {t} ^ {(2)} \exp (- e _ {t} ^ {0 / 2}) c _ {2, t} ^ {(1)} \\ = \alpha \frac {c _ {0 , t} ^ {(1)}}{c _ {0 , t} ^ {(0)}} c _ {t} ^ {(0)} + \frac {1 - \alpha}{2} \frac {c _ {1 , t} ^ {(1)}}{c _ {1 , t} ^ {(0)}} c _ {t} ^ {(0)} + \frac {1 - \alpha}{2} \frac {c _ {2 , t} ^ {(1)}}{c _ {2 , t} ^ {(0)}} c _ {t} ^ {(0)} \\ = \left(\alpha \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \frac {1 - \alpha}{2}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \alpha} + \frac {1 - \alpha}{2} \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \alpha}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2}} + \frac {1 - \alpha}{2} \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \frac {1 - \alpha}{2}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2}}\right) c _ {t} ^ {(0)} \\ = \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}} c _ {t} ^ {(0)}. \\ \end{array}
+\begin{array}{l} c_{t}^{(1)} \exp (- e_{t}^{0 / 1}) = p_{t}^{(0)} \exp (- e_{t}^{1 / 0}) \exp (- e_{t}^{0 / 1}) c_{0, t}^{(1)} + p_{t}^{(1)} \exp (- e_{t}^{0 / 1}) c_{1, t}^{(1)} + p_{t}^{(2)} \exp (- e_{t}^{1 / 2}) \exp (- e_{t}^{0 / 1}) c_{2, t}^{(1)} \\ = p_{t}^{(0)} c_{0, t}^{(1)} + p_{t}^{(1)} \exp (- e_{t}^{0 / 1}) c_{1, t}^{(1)} + p_{t}^{(2)} \exp (- e_{t}^{0 / 2}) c_{2, t}^{(1)} \\ = \alpha \frac{c_{0 , t}^{(1)}}{c_{0 , t}^{(0)}} c_{t}^{(0)} + \frac{1 - \alpha}{2} \frac{c_{1 , t}^{(1)}}{c_{1 , t}^{(0)}} c_{t}^{(0)} + \frac{1 - \alpha}{2} \frac{c_{2 , t}^{(1)}}{c_{2 , t}^{(0)}} c_{t}^{(0)} \\ = \left(\alpha \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)} \frac{1 - \alpha}{2}}{\pi_{t}^{(0)} \gamma_{t}^{(0)} \alpha} + \frac{1 - \alpha}{2} \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)} \alpha}{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2}} + \frac{1 - \alpha}{2} \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)} \frac{1 - \alpha}{2}}{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2}}\right) c_{t}^{(0)} \\ = \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}} c_{t}^{(0)}. \\ \end{array}
 $$
 
 Hence, by Eq. (A.30),
 
 $$
-\frac {\tilde {w} _ {t} ^ {(1)}}{\tilde {w} _ {t} ^ {(0)}} = \frac {c _ {t} ^ {(1)} \exp (- e _ {t} ^ {0 / 1})}{c _ {t} ^ {(0)}} = \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}}.
+\frac{\tilde {w}_{t}^{(1)}}{\tilde {w}_{t}^{(0)}} = \frac{c_{t}^{(1)} \exp (- e_{t}^{0 / 1})}{c_{t}^{(0)}} = \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}}.
 $$
 
 Similarly,
 
 $$
-\frac {\tilde {w} _ {t} ^ {(2)}}{\tilde {w} _ {t} ^ {(0)}} = \frac {c _ {t} ^ {(2)} \exp (- e _ {t} ^ {0 / 2})}{c _ {t} ^ {(0)}} = \frac {\pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}}.
+\frac{\tilde {w}_{t}^{(2)}}{\tilde {w}_{t}^{(0)}} = \frac{c_{t}^{(2)} \exp (- e_{t}^{0 / 2})}{c_{t}^{(0)}} = \frac{\pi_{t}^{(2)} \gamma_{t}^{(2)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}}.
 $$
 
 Plug in Eq. (A.31) to obtain
 
 $$
-\begin{array}{l} q _ {t} ^ {1 / 2} = \log \frac {\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \alpha + \pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)} \frac {1 - \alpha}{2}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)} \frac {1 - \alpha}{2} + \pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}} \\ = \log \frac {\frac {1 - \alpha}{2} + \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}} \alpha + \frac {\pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}} \frac {1 - \alpha}{2}}{\frac {1 - \alpha}{2} + \frac {\pi_ {t} ^ {(1)} \gamma_ {t} ^ {(1)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}} \frac {1 - \alpha}{2} + \frac {\pi_ {t} ^ {(2)} \gamma_ {t} ^ {(2)}}{\pi_ {t} ^ {(0)} \gamma_ {t} ^ {(0)}} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}} \tag {A.32} \\ = \log \frac {\frac {1 - \alpha}{2} + \frac {\tilde {w} _ {t} ^ {(1)}}{\tilde {w} _ {t} ^ {(0)}} \alpha + \frac {\tilde {w} _ {t} ^ {(2)}}{\tilde {w} _ {t} ^ {(0)}} \frac {1 - \alpha}{2}}{\frac {1 - \alpha}{2} + \frac {\tilde {w} _ {t} ^ {(1)}}{\tilde {w} _ {t} ^ {(0)}} \frac {1 - \alpha}{2} + \frac {\tilde {w} _ {t} ^ {(2)}}{\tilde {w} _ {t} ^ {(0)}} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}} \\ \end{array}
+\begin{array}{l} q_{t}^{1 / 2} = \log \frac{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2} + \pi_{t}^{(1)} \gamma_{t}^{(1)} \alpha + \pi_{t}^{(2)} \gamma_{t}^{(2)} \frac{1 - \alpha}{2}}{\pi_{t}^{(0)} \gamma_{t}^{(0)} \frac{1 - \alpha}{2} + \pi_{t}^{(1)} \gamma_{t}^{(1)} \frac{1 - \alpha}{2} + \pi_{t}^{(2)} \gamma_{t}^{(2)} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}} \\ = \log \frac{\frac{1 - \alpha}{2} + \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}} \alpha + \frac{\pi_{t}^{(2)} \gamma_{t}^{(2)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}} \frac{1 - \alpha}{2}}{\frac{1 - \alpha}{2} + \frac{\pi_{t}^{(1)} \gamma_{t}^{(1)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}} \frac{1 - \alpha}{2} + \frac{\pi_{t}^{(2)} \gamma_{t}^{(2)}}{\pi_{t}^{(0)} \gamma_{t}^{(0)}} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}} \tag {A.32} \\ = \log \frac{\frac{1 - \alpha}{2} + \frac{\tilde {w}_{t}^{(1)}}{\tilde {w}_{t}^{(0)}} \alpha + \frac{\tilde {w}_{t}^{(2)}}{\tilde {w}_{t}^{(0)}} \frac{1 - \alpha}{2}}{\frac{1 - \alpha}{2} + \frac{\tilde {w}_{t}^{(1)}}{\tilde {w}_{t}^{(0)}} \frac{1 - \alpha}{2} + \frac{\tilde {w}_{t}^{(2)}}{\tilde {w}_{t}^{(0)}} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}} \\ \end{array}
 $$
 
 When markets are complete, the Pareto weights are constant, i.e.  $\pi_t^{(i)} = \pi^{(i)}$ . Plugging in Eq. (A.32) yields
 
 $$
-q _ {t} ^ {1 / 2, c m} = \log \frac {\frac {1 - \alpha}{2} + \frac {\pi^ {(1)} \gamma_ {t} ^ {(1)}}{\pi^ {(0)} \gamma_ {t} ^ {(0)}} \alpha + \frac {\pi^ {(2)} \gamma_ {t} ^ {(2)}}{\pi^ {(0)} \gamma_ {t} ^ {(0)}} \frac {1 - \alpha}{2}}{\frac {1 - \alpha}{2} + \frac {\pi^ {(1)} \gamma_ {t} ^ {(1)}}{\pi^ {(0)} \gamma_ {t} ^ {(0)}} \frac {1 - \alpha}{2} + \frac {\pi^ {(2)} \gamma_ {t} ^ {(2)}}{\pi^ {(0)} \gamma_ {t} ^ {(0)}} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}}.
+q_{t}^{1 / 2, c m} = \log \frac{\frac{1 - \alpha}{2} + \frac{\pi^{(1)} \gamma_{t}^{(1)}}{\pi^{(0)} \gamma_{t}^{(0)}} \alpha + \frac{\pi^{(2)} \gamma_{t}^{(2)}}{\pi^{(0)} \gamma_{t}^{(0)}} \frac{1 - \alpha}{2}}{\frac{1 - \alpha}{2} + \frac{\pi^{(1)} \gamma_{t}^{(1)}}{\pi^{(0)} \gamma_{t}^{(0)}} \frac{1 - \alpha}{2} + \frac{\pi^{(2)} \gamma_{t}^{(2)}}{\pi^{(0)} \gamma_{t}^{(0)}} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}}.
 $$
 
 Finally, we derive the exchange rate as a function of the terms of trade.  $p_t^{(1)}c_{1,t}^{(1)} = \alpha c_t^{(1)}$  implies
 
 $$
-\begin{array}{l} p _ {t} ^ {(1)} c _ {1, t} ^ {(1)} = \alpha (c _ {1, t} ^ {(1)}) ^ {\alpha} (c _ {2, t} ^ {(1)}) ^ {\frac {1 - \alpha}{2}} (c _ {3, t} ^ {(1)}) ^ {\frac {1 - \alpha}{2}} \\ p _ {t} ^ {(1)} = \alpha \left(\frac {c _ {2 , t} ^ {(1)}}{c _ {1 , t} ^ {(1)}} \frac {c _ {3 , t} ^ {(1)}}{c _ {1 , t} ^ {(1)}}\right) ^ {\frac {1 - \alpha}{2}} = \alpha \left(\frac {1 - \alpha}{2 \alpha} \exp (q _ {t} ^ {1 / 2}) \exp (q _ {t} ^ {1 / 3})\right) ^ {\frac {1 - \alpha}{2}}. \\ \end{array}
+\begin{array}{l} p_{t}^{(1)} c_{1, t}^{(1)} = \alpha (c_{1, t}^{(1)})^{\alpha} (c_{2, t}^{(1)})^{\frac{1 - \alpha}{2}} (c_{3, t}^{(1)})^{\frac{1 - \alpha}{2}} \\ p_{t}^{(1)} = \alpha \left(\frac{c_{2 , t}^{(1)}}{c_{1 , t}^{(1)}} \frac{c_{3 , t}^{(1)}}{c_{1 , t}^{(1)}}\right)^{\frac{1 - \alpha}{2}} = \alpha \left(\frac{1 - \alpha}{2 \alpha} \exp (q_{t}^{1 / 2}) \exp (q_{t}^{1 / 3})\right)^{\frac{1 - \alpha}{2}}. \\ \end{array}
 $$
 
 Similarly,  $p_t^{(2)} = \alpha \left(\frac{1 - \alpha}{2\alpha}\exp (q_t^{2 / 1})\exp (q_t^{2 / 3})\right)^{\frac{1 - \alpha}{2}}$ . Recall that  $\exp (q_t^{1 / 2}) = p_t^{(1)}\exp (e_t^{1 / 2}) / p_t^{(2)}$ , which implies
 
 $$
-\exp (q _ {t} ^ {1 / 2}) \exp (- e _ {t} ^ {1 / 2}) = \frac {p _ {t} ^ {(1)}}{p _ {t} ^ {(2)}} = \left(\frac {\exp (q _ {t} ^ {1 / 2}) \exp (q _ {t} ^ {1 / 3})}{\exp (q _ {t} ^ {2 / 1}) \exp (q _ {t} ^ {2 / 3})}\right) ^ {\frac {1 - \alpha}{2}} = \exp \left(\frac {3 (1 - \alpha)}{2} q _ {t} ^ {1 / 2}\right).
+\exp (q_{t}^{1 / 2}) \exp (- e_{t}^{1 / 2}) = \frac{p_{t}^{(1)}}{p_{t}^{(2)}} = \left(\frac{\exp (q_{t}^{1 / 2}) \exp (q_{t}^{1 / 3})}{\exp (q_{t}^{2 / 1}) \exp (q_{t}^{2 / 3})}\right)^{\frac{1 - \alpha}{2}} = \exp \left(\frac{3 (1 - \alpha)}{2} q_{t}^{1 / 2}\right).
 $$
 
 Hence, the log bilateral exchange rate is linear in the log terms of trade:
 
 $$
-e _ {t} ^ {1 / 2} = \frac {3 \alpha - 1}{2} q _ {t} ^ {1 / 2},
+e_{t}^{1 / 2} = \frac{3 \alpha - 1}{2} q_{t}^{1 / 2},
 $$
 
 which concludes the proof.
@@ -1583,69 +1583,69 @@ which concludes the proof.
 Proof. Consider the general case in Proposition 6.3. By market clearing and price setting,
 
 $$
-z _ {t} \ell_ {t} = \frac {P _ {t} c _ {t}}{P _ {H , t}} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right)
+z_{t} \ell_{t} = \frac{P_{t} c_{t}}{P_{H , t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)
 $$
 
 $$
-z _ {t} ^ {*} \ell_ {t} ^ {*} = \frac {P _ {t} ^ {*} c _ {t} ^ {*}}{P _ {F , t} ^ {*}} \left(1 + \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + (1 - \alpha) \frac {g _ {t}}{c _ {t}}\right).
+z_{t}^{*} \ell_{t}^{*} = \frac{P_{t}^{*} c_{t}^{*}}{P_{F , t}^{*}} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right).
 $$
 
 By  $W_{t} = \kappa P_{t}c_{t}\ell_{t}^{\nu}$
 
 $$
-\frac {P _ {t} c _ {t}}{P _ {H , t}} = \frac {\rho - 1}{\kappa \rho} z _ {t} \ell_ {t} ^ {- \nu}
+\frac{P_{t} c_{t}}{P_{H , t}} = \frac{\rho - 1}{\kappa \rho} z_{t} \ell_{t}^{- \nu}
 $$
 
 Let  $\bar{\ell} = \frac{\rho - 1}{\rho\kappa}$ . The market clearing equations become
 
 $$
-\ell_ {t} ^ {1 + \nu} = \bar {\ell} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right)
+\ell_{t}^{1 + \nu} = \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)
 $$
 
 By the market clearing equations again,
 
 $$
-z _ {t} \bar {\ell} \ell_ {t} ^ {- \nu} = \frac {P _ {t} c _ {t}}{P _ {H , t}}
+z_{t} \bar {\ell} \ell_{t}^{- \nu} = \frac{P_{t} c_{t}}{P_{H , t}}
 $$
 
 $$
-c _ {t} = z _ {t} \bar {\ell} \ell_ {t} ^ {- \nu} \frac {P _ {H , t}}{P _ {t}} = \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \bar {\ell} \ell_ {t} ^ {- \nu} z _ {t} \frac {P _ {H , t}}{P _ {H , t} ^ {\alpha} P _ {F , t} ^ {1 - \alpha}}
+c_{t} = z_{t} \bar {\ell} \ell_{t}^{- \nu} \frac{P_{H , t}}{P_{t}} = \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \bar {\ell} \ell_{t}^{- \nu} z_{t} \frac{P_{H , t}}{P_{H , t}^{\alpha} P_{F , t}^{1 - \alpha}}
 $$
 
 By price setting,
 
 $$
-\frac {P _ {H , t}}{P _ {F , t}} = \frac {\frac {\rho}{\rho - 1} \frac {W _ {t}}{z _ {t}}}{\exp (- \mathcal {E} _ {t}) \frac {\rho}{\rho - 1} \frac {W _ {t} ^ {*}}{z _ {t} ^ {*}}} = \frac {\frac {P _ {t} c _ {t} \ell_ {t} ^ {\nu}}{z _ {t}}}{\exp (- \mathcal {E} _ {t}) \frac {P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu}}{z _ {t} ^ {*}}} = \frac {z _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {- \nu}}{z _ {t} \ell_ {t} ^ {- \nu}}
+\frac{P_{H , t}}{P_{F , t}} = \frac{\frac{\rho}{\rho - 1} \frac{W_{t}}{z_{t}}}{\exp (- \mathcal {E}_{t}) \frac{\rho}{\rho - 1} \frac{W_{t}^{*}}{z_{t}^{*}}} = \frac{\frac{P_{t} c_{t} \ell_{t}^{\nu}}{z_{t}}}{\exp (- \mathcal {E}_{t}) \frac{P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}}} = \frac{z_{t}^{*} (\ell_{t}^{*})^{- \nu}}{z_{t} \ell_{t}^{- \nu}}
 $$
 
 so
 
 $$
-\begin{array}{l} \log c _ {t} = \log \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \bar {\ell} + \alpha (\log z _ {t} - \nu \log \ell_ {t}) + (1 - \alpha) (\log z _ {t} ^ {*} - \nu \log \ell_ {t} ^ {*}) \\ = \log \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} + \frac {1}{1 + \nu} \log \bar {\ell} + \alpha \log z _ {t} + (1 - \alpha) \log z _ {t} ^ {*} \\ - \frac {\nu}{1 + \nu} \left(\alpha \log \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) + (1 - \alpha) \log \left(1 + \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + (1 - \alpha) \frac {g _ {t}}{c _ {t}}\right)\right) \\ \end{array}
+\begin{array}{l} \log c_{t} = \log \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \bar {\ell} + \alpha (\log z_{t} - \nu \log \ell_{t}) + (1 - \alpha) (\log z_{t}^{*} - \nu \log \ell_{t}^{*}) \\ = \log \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} + \frac{1}{1 + \nu} \log \bar {\ell} + \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*} \\ - \frac{\nu}{1 + \nu} \left(\alpha \log \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) + (1 - \alpha) \log \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right)\right) \\ \end{array}
 $$
 
 To solve this equation system, we linearize spending  $g_{t} / c_{t}$  and  $g_{t}^{*} / c_{t}^{*}$  around o:
 
 $$
-\begin{array}{l} \log c _ {t} = \log \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} + \frac {1}{1 + \nu} \log \bar {\ell} + \alpha \log z _ {t} + (1 - \alpha) \log z _ {t} ^ {*} \\ \left. - \frac {\nu}{1 + \nu} \left(\alpha \left(\alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) + (1 - \alpha) \left(\alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + (1 - \alpha) \frac {g _ {t}}{c _ {t}}\right)\right) \right. \\ \end{array}
+\begin{array}{l} \log c_{t} = \log \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} + \frac{1}{1 + \nu} \log \bar {\ell} + \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*} \\ \left. - \frac{\nu}{1 + \nu} \left(\alpha \left(\alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) + (1 - \alpha) \left(\alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right)\right) \right. \\ \end{array}
 $$
 
 which simplifies to
 
 $$
-\log c _ {t} - \log \bar {c} \approx \alpha \log z _ {t} + (1 - \alpha) \log z _ {t} ^ {*} - \frac {\nu}{1 + \nu} \left((\alpha^ {2} + (1 - \alpha) ^ {2}) \frac {g _ {t}}{c _ {t}} + 2 (1 - \alpha) \alpha \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right),
+\log c_{t} - \log \bar {c} \approx \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*} - \frac{\nu}{1 + \nu} \left((\alpha^{2} + (1 - \alpha)^{2}) \frac{g_{t}}{c_{t}} + 2 (1 - \alpha) \alpha \frac{g_{t}^{*}}{c_{t}^{*}}\right),
 $$
 
 Similarly, the foreign counterpart is
 
 $$
-\log c _ {t} ^ {*} - \log \bar {c} \approx (1 - \alpha) \log z _ {t} + \alpha \log z _ {t} ^ {*} - \frac {\nu}{1 + \nu} \left((\alpha^ {2} + (1 - \alpha) ^ {2}) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}} + 2 (1 - \alpha) \alpha \frac {g _ {t}}{c _ {t}}\right),
+\log c_{t}^{*} - \log \bar {c} \approx (1 - \alpha) \log z_{t} + \alpha \log z_{t}^{*} - \frac{\nu}{1 + \nu} \left((\alpha^{2} + (1 - \alpha)^{2}) \frac{g_{t}^{*}}{c_{t}^{*}} + 2 (1 - \alpha) \alpha \frac{g_{t}}{c_{t}}\right),
 $$
 
 Hence, the equilibrium foreign real exchange rate is
 
 $$
-\begin{array}{l} - e _ {t} \stackrel {\text {d e f}} {=} \log \frac {P _ {t} ^ {*}}{P _ {t}} \exp (- \mathcal {E} _ {t}) = \log c _ {t} - \log c _ {t} ^ {*} \\ \approx (2 \alpha - 1) (\log z _ {t} - \log z _ {t} ^ {*}) - \frac {\nu}{1 + \nu} (2 \alpha - 1) ^ {2} \left(\frac {g _ {t}}{c _ {t}} - \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right), \\ \end{array}
+\begin{array}{l} - e_{t} \stackrel {\text{de f}} {=} \log \frac{P_{t}^{*}}{P_{t}} \exp (- \mathcal {E}_{t}) = \log c_{t} - \log c_{t}^{*} \\ \approx (2 \alpha - 1) (\log z_{t} - \log z_{t}^{*}) - \frac{\nu}{1 + \nu} (2 \alpha - 1)^{2} \left(\frac{g_{t}}{c_{t}} - \frac{g_{t}^{*}}{c_{t}^{*}}\right), \\ \end{array}
 $$
 
 Plug in  $\nu = 0$  to get Proposition 6.2.
@@ -1657,79 +1657,79 @@ Plug in  $\nu = 0$  to get Proposition 6.2.
 Proof. When prices are sticky, the model is closed by the following equations for prices:
 
 $$
-P _ {H, t} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ \frac {W _ {t}}{z _ {t}} \right] \quad \exp (- \mathcal {E} _ {t}) P _ {H, t} ^ {*} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ \frac {W _ {t}}{z _ {t}} \right] \tag {A.33}
+P_{H, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \quad \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \tag {A.33}
 $$
 
 $$
-\exp \left(\mathcal {E} _ {t}\right) P _ {F, t} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ \frac {W _ {t} ^ {*}}{z _ {t} ^ {*}} \right] \quad P _ {F, t} ^ {*} = \frac {\rho}{\rho - 1} \mathbb {E} _ {t - 1} \left[ \frac {W _ {t} ^ {*}}{z _ {t} ^ {*}} \right] \tag {A.34}
+\exp \left(\mathcal {E}_{t}\right) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \quad P_{F, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \tag {A.34}
 $$
 
 Just as in the flexible price case,
 
 $$
-z _ {t} \ell_ {t} = \frac {P _ {t} c _ {t}}{P _ {H , t}} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) \tag {A.35}
+z_{t} \ell_{t} = \frac{P_{t} c_{t}}{P_{H , t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) \tag {A.35}
 $$
 
 Also use Eq. (A.33),
 
 $$
-\ell_ {t} = \frac {P _ {t} c _ {t}}{P _ {H , t} z _ {t}} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) = \frac {P _ {t} c _ {t} / z _ {t}}{\mathbb {E} _ {t - 1} \left[ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]} \bar {\ell} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right)
+\ell_{t} = \frac{P_{t} c_{t}}{P_{H , t} z_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) = \frac{P_{t} c_{t} / z_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)
 $$
 
 Use Eq. (A.35) again,
 
 $$
-\begin{array}{l} c _ {t} = z _ {t} \ell_ {t} \cdot \frac {P _ {H , t}}{P _ {t}} \left(1 + \alpha \frac {g _ {t}}{c _ {t}} + (1 - \alpha) \frac {g _ {t} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- 1} = \frac {P _ {H , t}}{\frac {1}{\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}} P _ {H , t} ^ {\alpha} P _ {F , t} ^ {1 - \alpha}} \frac {P _ {t} c _ {t}}{\mathbb {E} _ {t - 1} \left[ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]} \bar {\ell} \\ = \frac {P _ {t} c _ {t}}{\mathbb {E} _ {t - 1} \left[ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]} \bar {\ell} (\alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}) \frac {P _ {H , t} ^ {1 - \alpha}}{P _ {F , t} ^ {1 - \alpha}} \\ \end{array}
+\begin{array}{l} c_{t} = z_{t} \ell_{t} \cdot \frac{P_{H , t}}{P_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{- 1} = \frac{P_{H , t}}{\frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} P_{H , t}^{\alpha} P_{F , t}^{1 - \alpha}} \frac{P_{t} c_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \\ = \frac{P_{t} c_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} (\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) \frac{P_{H , t}^{1 - \alpha}}{P_{F , t}^{1 - \alpha}} \\ \end{array}
 $$
 
 Use the price setting Eq. (A.33) and (A.34),
 
 $$
-\frac {P _ {H , t}}{P _ {F , t}} = \frac {1}{\exp (- \mathcal {E} _ {t})} \frac {\mathbb {E} _ {t - 1} [ W _ {t} / z _ {t} ]}{\mathbb {E} _ {t - 1} [ W _ {t} ^ {*} / z _ {t} ^ {*} ]} = \frac {P _ {t} ^ {*} c _ {t} ^ {*}}{P _ {t} c _ {t}} \frac {\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]}{\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {\nu}) ^ {\nu} / z _ {t} ^ {*} ]}
+\frac{P_{H , t}}{P_{F , t}} = \frac{1}{\exp (- \mathcal {E}_{t})} \frac{\mathbb {E}_{t - 1} [ W_{t} / z_{t} ]}{\mathbb {E}_{t - 1} [ W_{t}^{*} / z_{t}^{*} ]} = \frac{P_{t}^{*} c_{t}^{*}}{P_{t} c_{t}} \frac{\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ]}{\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{\nu})^{\nu} / z_{t}^{*} ]}
 $$
 
 Then
 
 $$
-c _ {t} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {(P _ {t} c _ {t}) ^ {\alpha} (P _ {t} ^ {*} c _ {t} ^ {*}) ^ {1 - \alpha}}{(\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {\alpha} (\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{\alpha} (P_{t}^{*} c_{t}^{*})^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}
 $$
 
 So the equilibrium price levels and consumption can be solved by
 
 $$
-c _ {t} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {\left(P _ {t} c _ {t}\right) ^ {\alpha} \left(P _ {t} ^ {*} c _ {t} ^ {*}\right) ^ {1 - \alpha}}{\left(\mathbb {E} _ {t - 1} \left[ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]\right) ^ {\alpha} \left(\mathbb {E} _ {t - 1} \left[ P _ {t} ^ {*} c _ {t} ^ {*} \left(\ell_ {t} ^ {*}\right) ^ {\nu} / z _ {t} ^ {*} \right]\right) ^ {1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
 $$
 
 $$
-c _ {t} ^ {*} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {(P _ {t} c _ {t}) ^ {1 - \alpha} (P _ {t} ^ {*} c _ {t} ^ {*}) ^ {\alpha}}{(\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {1 - \alpha} (\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {\alpha}}
+c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}
 $$
 
 $$
-P _ {t} = \frac {Q _ {t}}{s _ {t} + c _ {t} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k}}{c _ {k}} \right]},
+P_{t} = \frac{Q_{t}}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]},
 $$
 
 $$
-P _ {t} ^ {*} = \frac {Q _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k} ^ {*}}{c _ {k} ^ {*}} \right]}.
+P_{t}^{*} = \frac{Q_{t}^{*}}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]}.
 $$
 
 which implies
 
 $$
-\begin{array}{l} \log c _ {t} = \kappa_ {t - 1} ^ {c} + \alpha \log \left(P _ {t} c _ {t}\right) + (1 - \alpha) \log \left(P _ {t} ^ {*} c _ {t} ^ {*}\right) \\ \log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {c ^ {*}} + \alpha \log (P _ {t} ^ {*} c _ {t} ^ {*}) + (1 - \alpha) \log (P _ {t} c _ {t}) \\ - e _ {t} = \log c _ {t} - \log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {e} + (2 \alpha - 1) \left(\log \left(P _ {t} c _ {t}\right) - \log \left(P _ {t} ^ {*} c _ {t} ^ {*}\right)\right) \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} + \alpha \log \left(P_{t} c_{t}\right) + (1 - \alpha) \log \left(P_{t}^{*} c_{t}^{*}\right) \\ \log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} + \alpha \log (P_{t}^{*} c_{t}^{*}) + (1 - \alpha) \log (P_{t} c_{t}) \\ - e_{t} = \log c_{t} - \log c_{t}^{*} = \kappa_{t - 1}^{e} + (2 \alpha - 1) \left(\log \left(P_{t} c_{t}\right) - \log \left(P_{t}^{*} c_{t}^{*}\right)\right) \\ \end{array}
 $$
 
 where
 
 $$
-\kappa_ {t - 1} ^ {c} = \log \left(\frac {\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}}{(\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {\alpha} (\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {1 - \alpha}}\right)
+\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}\right)
 $$
 
 $$
-\kappa_ {t - 1} ^ {c} = \log \left(\frac {\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}}{(\mathbb {E} _ {t - 1} [ P _ {t} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {1 - \alpha} (\mathbb {E} _ {t - 1} [ P _ {t} ^ {*} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {\alpha}}\right)
+\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}\right)
 $$
 
 $$
-\kappa_ {t - 1} ^ {e} = \kappa_ {t - 1} ^ {c} - \kappa_ {t - 1} ^ {c ^ {*}}
+\kappa_{t - 1}^{e} = \kappa_{t - 1}^{c} - \kappa_{t - 1}^{c^{*}}
 $$
 
 # A.26 Proposition 6.5 in Section 6.D
@@ -1737,49 +1737,49 @@ $$
 Proof. Plug in Eq. (6.15) into Proposition 6.4 to get
 
 $$
-\begin{array}{l} \log c _ {t} = \kappa_ {t - 1} ^ {c} - \alpha \left(i _ {t} + \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right]\right) - (1 - \alpha) \left(i _ {t} ^ {*} + \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} ^ {*} c _ {t + 1} ^ {*}} \right]\right) \\ = \tilde {\kappa} _ {t - 1} ^ {c} - \alpha i _ {t} - (1 - \alpha) i _ {t} ^ {*} \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} - \alpha \left(i_{t} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) - (1 - \alpha) \left(i_{t}^{*} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c} - \alpha i_{t} - (1 - \alpha) i_{t}^{*} \\ \end{array}
 $$
 
 similarly,
 
 $$
-\begin{array}{l} \log c _ {t} ^ {*} = \kappa_ {t - 1} ^ {c ^ {*}} - \alpha \left(i _ {t} ^ {*} + \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} ^ {*} c _ {t + 1} ^ {*}} \right]\right) - (1 - \alpha) \left(i _ {t} + \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right]\right) \\ = \tilde {\kappa} _ {t - 1} ^ {c ^ {*}} - \alpha i _ {t} ^ {*} - (1 - \alpha) i _ {t} \\ \end{array}
+\begin{array}{l} \log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} - \alpha \left(i_{t}^{*} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) - (1 - \alpha) \left(i_{t} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c^{*}} - \alpha i_{t}^{*} - (1 - \alpha) i_{t} \\ \end{array}
 $$
 
 where
 
 $$
-\begin{array}{l} \tilde {\kappa} _ {t - 1} ^ {c} = \kappa_ {t - 1} ^ {c} - \alpha \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right] - (1 - \alpha) \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} ^ {*} c _ {t + 1} ^ {*}} \right] \\ \tilde {\kappa} _ {t - 1} ^ {c ^ {*}} = \kappa_ {t - 1} ^ {c ^ {*}} - \alpha \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} ^ {*} c _ {t + 1} ^ {*}} \right] - (1 - \alpha) \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right] \\ \end{array}
+\begin{array}{l} \tilde {\kappa}_{t - 1}^{c} = \kappa_{t - 1}^{c} - \alpha \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] - (1 - \alpha) \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] \\ \tilde {\kappa}_{t - 1}^{c^{*}} = \kappa_{t - 1}^{c^{*}} - \alpha \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] - (1 - \alpha) \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ \end{array}
 $$
 
 Recall the real Euler equation:
 
 $$
-\begin{array}{l} r _ {t} = - \log \delta - \log \mathbb {E} _ {t} \left[ c _ {t} / c _ {t + 1} \right] \\ = - \log \delta - \log c _ {t} - \log \mathbb {E} _ {t} \left[ 1 / c _ {t + 1} \right] \\ \end{array}
+\begin{array}{l} r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right] \\ \end{array}
 $$
 
 Plugging log consumption into the equation above yields:
 
 $$
-r _ {t} = \bar {r} + \alpha i _ {t} + (1 - \alpha) i _ {t} ^ {*}.
+r_{t} = \bar {r} + \alpha i_{t} + (1 - \alpha) i_{t}^{*}.
 $$
 
 where
 
 $$
-\bar {r} = - \log \delta - \tilde {\kappa} _ {t - 1} ^ {c} - \log \mathbb {E} _ {t} \left[ 1 / c _ {t + 1} \right]
+\bar {r} = - \log \delta - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right]
 $$
 
 the equilibrium log real exchange rate is
 
 $$
-- e _ {t} = \log c _ {t} - \log c _ {t} ^ {*} = \tilde {\kappa} _ {t - 1} ^ {c} - \tilde {\kappa} _ {t - 1} ^ {c ^ {*}} - (2 \alpha - 1) (i _ {t} - i _ {t} ^ {*})
+- e_{t} = \log c_{t} - \log c_{t}^{*} = \tilde {\kappa}_{t - 1}^{c} - \tilde {\kappa}_{t - 1}^{c^{*}} - (2 \alpha - 1) (i_{t} - i_{t}^{*})
 $$
 
 and the equilibrium price levels can be pinned down by plugging consumption into Eq. (6.15)
 
 $$
-\begin{array}{l} \log P _ {t} = - \log c _ {t} - i _ {t} - \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right] \\ = - \tilde {\kappa} _ {t - 1} ^ {c} - \log \mathbb {E} _ {t} \left[ \delta \frac {1}{P _ {t + 1} c _ {t + 1}} \right] + (1 - \alpha) (i _ {t} ^ {*} - i _ {t}) \\ \end{array}
+\begin{array}{l} \log P_{t} = - \log c_{t} - i_{t} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) (i_{t}^{*} - i_{t}) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/f3c3afc2c7461954d3b8130b93a15a48ea556dc33544804131f22b2f36348f3f.jpg)
@@ -1789,7 +1789,7 @@ $$
 Proof. From Proposition 6.4, plug the last two equations into the two above:
 
 $$
-\begin{array}{l} c _ {t} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {\left(\frac {1}{s _ {t} + c _ {t} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k}}{c _ {k}} \right]} c _ {t}\right) ^ {\alpha} \left(\frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k} ^ {*}}{c _ {k}} \right]} c _ {t} ^ {*}\right) ^ {1 - \alpha}}{\left(\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} + c _ {t} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k}}{c _ {k}} \right]} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]\right) ^ {\alpha} \left(\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k} ^ {*}}{c _ {k}} \right]} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]\right) ^ {1 - \alpha}} \\ c _ {t} ^ {*} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {\left(\frac {1}{s _ {t} + c _ {t} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k}}{c _ {k}} \right]} c _ {t}\right) ^ {1 - \alpha} \left(\frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k} ^ {*}}{c _ {k} ^ {*}} \right]} c _ {t} ^ {*}\right) ^ {\alpha}}{\left(\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} + c _ {t} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k}}{c _ {k}} \right]} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]\right) ^ {1 - \alpha} \left(\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} \mathbb {E} _ {t} \left[ \sum_ {k = t + 1} ^ {\infty} \beta^ {k - t} \frac {s _ {k} ^ {*}}{c _ {k} ^ {*}} \right]} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]\right) ^ {\alpha}}. \\ \end{array}
+\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{\alpha} \left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{1 - \alpha}} \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{1 - \alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*}\right)^{\alpha}}{\left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{1 - \alpha} \left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{\alpha}}. \\ \end{array}
 $$
 
 We conjecture that  $c_t$  and  $c_t^*$  are functions of  $s_t$  and  $s_t^*$  only. Then, by the i.i.d. assumption of the government surpluses, the expectation terms  $\mathbb{E}_t\left[\sum_{k = t + 1}^{\infty}\beta^{k - t}\frac{s_k}{c_k}\right]$  and  $\mathbb{E}_t\left[\sum_{k = t + 1}^{\infty}\beta^{k - t}\frac{s_k^*}{c_k^*}\right]$  are constants,
@@ -1797,11 +1797,11 @@ We conjecture that  $c_t$  and  $c_t^*$  are functions of  $s_t$  and  $s_t^*$  
 denoted as  $A$  and  $A^{*}$ . The equations become
 
 $$
-c _ {t} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {\left(\frac {1}{s _ {t} + c _ {t} A} c _ {t}\right) ^ {\alpha} \left(\frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} c _ {t} ^ {*}\right) ^ {1 - \alpha}}{\left(\mathbb {E} _ {t - 1} \left[ \frac {1}{s _ {t} + c _ {t} A} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} \right]\right) ^ {\alpha} \left(\mathbb {E} _ {t - 1} \left[ \frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} \right]\right) ^ {1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} A} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
 $$
 
 $$
-c _ {t} ^ {*} = \bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha} \frac {(\frac {1}{s _ {t} + c _ {t} A} c _ {t}) ^ {1 - \alpha} (\frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} c _ {t} ^ {*}) ^ {\alpha}}{(\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} + c _ {t} A} c _ {t} \ell_ {t} ^ {\nu} / z _ {t} ]) ^ {1 - \alpha} (\mathbb {E} _ {t - 1} [ \frac {1}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu} / z _ {t} ^ {*} ]) ^ {\alpha}}.
+c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(\frac{1}{s_{t} + c_{t} A} c_{t})^{1 - \alpha} (\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}.
 $$
 
 By the i.i.d. assumption of  $s_t, s_t^*, z_t$ , and  $z_t^*$ , the expectation terms  $\mathbb{E}_{t-1} \left[ \frac{1}{s_t + c_t A} c_t \ell_t^\nu / z_t \right]$  and  $\mathbb{E}_{t-1} \left[ \frac{1}{s_t^* + c_t^* A^*} c_t^* (\ell_t^*)^\nu / z_t^* \right]$  do not vary across periods. The two equations above can be used to solve  $c_t$  and  $c_t^*$  as functions of  $s_t$  and  $s_t^*$ , which confirms the conjecture.
@@ -1809,81 +1809,81 @@ By the i.i.d. assumption of  $s_t, s_t^*, z_t$ , and  $z_t^*$ , the expectation 
 Take log,
 
 $$
-\log c _ {t} = \log \frac {\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}}{(\mathbb {E} _ {t - 1} [ \frac {c _ {t}}{s _ {t} + c _ {t} A} \frac {\ell_ {t} ^ {\nu}}{z _ {t}} ]) ^ {\alpha} (\mathbb {E} _ {t - 1} [ \frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} \frac {(\ell_ {t} ^ {*}) ^ {\nu}}{z _ {t} ^ {*}} ]) ^ {1 - \alpha}} + \alpha \log (\frac {c _ {t}}{s _ {t} + c _ {t} A}) + (1 - \alpha) \log (\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}})
+\log c_{t} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{\alpha} (\mathbb {E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{1 - \alpha}} + \alpha \log (\frac{c_{t}}{s_{t} + c_{t} A}) + (1 - \alpha) \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
 $$
 
 $$
-\log c _ {t} ^ {*} = \log \frac {\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}}{(\mathbb {E} _ {t - 1} [ \frac {c _ {t}}{s _ {t} + c _ {t} A} \frac {\ell_ {t} ^ {\nu}}{z _ {t}} ]) ^ {1 - \alpha} (\mathbb {E} _ {t - 1} [ \frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} \frac {(\ell_ {t} ^ {*}) ^ {\nu}}{z _ {t} ^ {*}} ]) ^ {\alpha}} + (1 - \alpha) \log (\frac {c _ {t}}{s _ {t} + c _ {t} A}) + \alpha \log (\frac {c _ {t} ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}})
+\log c_{t}^{*} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{\alpha}} + (1 - \alpha) \log (\frac{c_{t}}{s_{t} + c_{t} A}) + \alpha \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
 $$
 
 Take first-order approximation around  $s_t = \bar{s}$  and  $c_t = \bar{c}$ ,
 
 $$
-\log \left(s _ {t} + c _ {t} A\right) \approx \log (\bar {s} + \bar {c} A) + \frac {1}{\bar {s} + \bar {c} A} \left(s _ {t} - \bar {s}\right) + \frac {\bar {c} A}{\bar {s} + \bar {c} A} \left(\log c _ {t} - \log \bar {c}\right)
+\log \left(s_{t} + c_{t} A\right) \approx \log (\bar {s} + \bar {c} A) + \frac{1}{\bar {s} + \bar {c} A} \left(s_{t} - \bar {s}\right) + \frac{\bar {c} A}{\bar {s} + \bar {c} A} \left(\log c_{t} - \log \bar {c}\right)
 $$
 
 $$
-\log \left(s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}\right) \approx \log \left(\bar {s} + \bar {c} A ^ {*}\right) + \frac {1}{\bar {s} + \bar {c} A ^ {*}} \left(s _ {t} ^ {*} - \bar {s}\right) + \frac {\bar {c} A ^ {*}}{\bar {s} + \bar {c} A ^ {*}} \left(\log c _ {t} ^ {*} - \log \bar {c}\right)
+\log \left(s_{t}^{*} + c_{t}^{*} A^{*}\right) \approx \log \left(\bar {s} + \bar {c} A^{*}\right) + \frac{1}{\bar {s} + \bar {c} A^{*}} \left(s_{t}^{*} - \bar {s}\right) + \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \left(\log c_{t}^{*} - \log \bar {c}\right)
 $$
 
 Then, the system of equations becomes
 
 $$
-\frac {(1 - \alpha) \bar {s} + \bar {c} A}{\bar {s} + \bar {c} A} \log c _ {t} - \frac {(1 - \alpha) \bar {s}}{\bar {s} + \bar {c} A ^ {*}} \log c _ {t} ^ {*} = \kappa_ {2} - \frac {\alpha}{\bar {s} + \bar {c} A} s _ {t} - \frac {1 - \alpha}{\bar {s} + \bar {c} A ^ {*}} s _ {t} ^ {*}
+\frac{(1 - \alpha) \bar {s} + \bar {c} A}{\bar {s} + \bar {c} A} \log c_{t} - \frac{(1 - \alpha) \bar {s}}{\bar {s} + \bar {c} A^{*}} \log c_{t}^{*} = \kappa_{2} - \frac{\alpha}{\bar {s} + \bar {c} A} s_{t} - \frac{1 - \alpha}{\bar {s} + \bar {c} A^{*}} s_{t}^{*}
 $$
 
 $$
-\frac {(1 - \alpha) \bar {s} + \bar {c} A ^ {*}}{\bar {s} + \bar {c} A ^ {*}} \log c _ {t} ^ {*} - \frac {(1 - \alpha) \bar {s}}{\bar {s} + \bar {c} A} \log c _ {t} = \kappa_ {2} ^ {*} - \frac {\alpha}{\bar {s} + \bar {c} A ^ {*}} s _ {t} ^ {*} - \frac {1 - \alpha}{\bar {s} + \bar {c} A} s _ {t}
+\frac{(1 - \alpha) \bar {s} + \bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log c_{t}^{*} - \frac{(1 - \alpha) \bar {s}}{\bar {s} + \bar {c} A} \log c_{t} = \kappa_{2}^{*} - \frac{\alpha}{\bar {s} + \bar {c} A^{*}} s_{t}^{*} - \frac{1 - \alpha}{\bar {s} + \bar {c} A} s_{t}
 $$
 
 where
 
 $$
-\begin{array}{l} \kappa_ {2} = \log (\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}) - \alpha \log (\mathbb {E} _ {t - 1} [ \frac {\bar {s} + \bar {c} A}{s _ {t} + c _ {t} A} \frac {c _ {t} \ell_ {t} ^ {\nu}}{z _ {t}} ]) - (1 - \alpha) \log (\mathbb {E} _ {t - 1} [ \frac {\bar {s} + \bar {c} A ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} \frac {c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu}}{z _ {t} ^ {*}} ]) \\ + \alpha \frac {\bar {s}}{\bar {s} + \bar {c} A} + (1 - \alpha) \frac {\bar {s}}{\bar {s} + \bar {c} A ^ {*}} + \alpha \frac {\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} + (1 - \alpha) \frac {\bar {c} A ^ {*}}{\bar {s} + \bar {c} A ^ {*}} \log \bar {c} \\ \end{array}
+\begin{array}{l} \kappa_{2} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - \alpha \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - (1 - \alpha) \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + \alpha \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \kappa_ {2} ^ {*} = \log (\bar {\ell} \alpha^ {\alpha} (1 - \alpha) ^ {1 - \alpha}) - (1 - \alpha) \log (\mathbb {E} _ {t - 1} [ \frac {\bar {s} + \bar {c} A}{s _ {t} + c _ {t} A} \frac {c _ {t} \ell_ {t} ^ {\nu}}{z _ {t}} ]) - \alpha \log (\mathbb {E} _ {t - 1} [ \frac {\bar {s} + \bar {c} A ^ {*}}{s _ {t} ^ {*} + c _ {t} ^ {*} A ^ {*}} \frac {c _ {t} ^ {*} (\ell_ {t} ^ {*}) ^ {\nu}}{z _ {t} ^ {*}} ]) \\ + \alpha \frac {\bar {s}}{\bar {s} + \bar {c} A ^ {*}} + (1 - \alpha) \frac {\bar {s}}{\bar {s} + \bar {c} A} + \alpha \frac {\bar {c} A ^ {*}}{\bar {s} + \bar {c} A ^ {*}} \log \bar {c} + (1 - \alpha) \frac {\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} \\ \end{array}
+\begin{array}{l} \kappa_{2}^{*} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - (1 - \alpha) \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - \alpha \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A} + \alpha \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} \\ \end{array}
 $$
 
 The solution is
 
 $$
-\begin{array}{l} \log c _ {t} = \kappa_ {c} - \frac {\left((1 - \alpha) \bar {s} + \alpha A ^ {*} \bar {c}\right) s _ {t} + (1 - \alpha) \left(A \bar {c} + \bar {s}\right) s _ {t} ^ {*}}{\bar {c} \left(A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A ^ {*}\right)\right)} \\ \log c _ {t} ^ {*} = \kappa_ {C} ^ {*} - \frac {(1 - \alpha) (A ^ {*} \bar {c} + \bar {s}) s _ {t} + ((1 - \alpha) \bar {s} + \alpha A \bar {c}) s _ {t} ^ {*}}{\bar {c} (A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} (A + A ^ {*}))} \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{c} - \frac{\left((1 - \alpha) \bar {s} + \alpha A^{*} \bar {c}\right) s_{t} + (1 - \alpha) \left(A \bar {c} + \bar {s}\right) s_{t}^{*}}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} \\ \log c_{t}^{*} = \kappa_{C}^{*} - \frac{(1 - \alpha) (A^{*} \bar {c} + \bar {s}) s_{t} + ((1 - \alpha) \bar {s} + \alpha A \bar {c}) s_{t}^{*}}{\bar {c} (A A^{*} \bar {c} + (1 - \alpha) \bar {s} (A + A^{*}))} \\ \end{array}
 $$
 
 where
 
 $$
-\kappa_ {c} = \frac {\left(A \bar {c} + \bar {s}\right) \left(A ^ {*} \bar {c} \kappa_ {2} + (1 - \alpha) \bar {s} \left(\kappa_ {2} + \kappa_ {2} ^ {*}\right)\right)}{\bar {c} \left(A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A ^ {*}\right)\right)}
+\kappa_{c} = \frac{\left(A \bar {c} + \bar {s}\right) \left(A^{*} \bar {c} \kappa_{2} + (1 - \alpha) \bar {s} \left(\kappa_{2} + \kappa_{2}^{*}\right)\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)}
 $$
 
 $$
-\kappa_ {c} ^ {*} = \frac {\left(A ^ {*} \bar {c} + \bar {s}\right) \left(A \bar {c} \kappa_ {2} ^ {*} + (1 - \alpha) \bar {s} \left(\kappa_ {2} + \kappa_ {2} ^ {*}\right)\right)}{\bar {c} \left(A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A ^ {*}\right)\right)}
+\kappa_{c}^{*} = \frac{\left(A^{*} \bar {c} + \bar {s}\right) \left(A \bar {c} \kappa_{2}^{*} + (1 - \alpha) \bar {s} \left(\kappa_{2} + \kappa_{2}^{*}\right)\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)}
 $$
 
 Recall the real Euler equation:
 
 $$
-\begin{array}{l} r _ {t} = - \log \delta - \log \mathbb {E} _ {t} \left[ c _ {t} / c _ {t + 1} \right] \\ = - \log \delta - \log c _ {t} - \log \mathbb {E} _ {t} [ 1 / c _ {t + 1} ] \\ \end{array}
+\begin{array}{l} r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb {E}_{t} [ 1 / c_{t + 1} ] \\ \end{array}
 $$
 
 Plugging log consumption into the equation above yields:
 
 $$
-r _ {t} = - \log \delta - \log \mathbb {E} _ {t} [ 1 / c _ {t + 1} ] - \kappa_ {c} + \frac {\left((1 - \alpha) \bar {s} + \alpha A ^ {*} \bar {c}\right)}{\bar {c} \left(A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A ^ {*}\right)\right)} s _ {t} + \frac {(1 - \alpha) \left(A \bar {c} + \bar {s}\right)}{\bar {c} \left(A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A ^ {*}\right)\right)} s _ {t} ^ {*}
+r_{t} = - \log \delta - \log \mathbb {E}_{t} [ 1 / c_{t + 1} ] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} + \alpha A^{*} \bar {c}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t} + \frac{(1 - \alpha) \left(A \bar {c} + \bar {s}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t}^{*}
 $$
 
 The log real exchange rate  $-e_t = \log c_t - \log c_t^*$ . The log price level is
 
 $$
-\begin{array}{l} \log P _ {t} = \log Q _ {t} - \log \left(s _ {t} + c _ {t} A\right) \\ \approx \log Q _ {t} - \log (\bar {s} + \bar {c} A) - \frac {1}{\bar {s} + \bar {c} A} (s _ {t} - \bar {s}) - \frac {\bar {c} A}{\bar {s} + \bar {c} A} \left(\kappa - \frac {\left((1 - \alpha) \bar {s} + \alpha A ^ {*} \bar {c}\right) s _ {t} + (1 - \alpha) (A \bar {c} + \bar {s}) s _ {t} ^ {*}}{\bar {c} (A A ^ {*} \bar {c} + (1 - \alpha) \bar {s} (A + A ^ {*}))} - \log \bar {c}\right) \\ = \kappa^ {P} + \log Q _ {t} - \frac {1 - \alpha}{\bar {s} + \bar {c c} A} \frac {A ^ {*} \bar {c c} + \bar {s} (A ^ {*} / A)}{A ^ {*} \bar {c c} + (1 - \alpha) \bar {s} (1 + A ^ {*} / A)} s _ {t} + \frac {(1 - \alpha)}{A ^ {*} \bar {c c} + (1 - \alpha) \bar {s} (1 + A ^ {*} / A)} s _ {t} ^ {*} \\ \end{array}
+\begin{array}{l} \log P_{t} = \log Q_{t} - \log \left(s_{t} + c_{t} A\right) \\ \approx \log Q_{t} - \log (\bar {s} + \bar {c} A) - \frac{1}{\bar {s} + \bar {c} A} (s_{t} - \bar {s}) - \frac{\bar {c} A}{\bar {s} + \bar {c} A} \left(\kappa - \frac{\left((1 - \alpha) \bar {s} + \alpha A^{*} \bar {c}\right) s_{t} + (1 - \alpha) (A \bar {c} + \bar {s}) s_{t}^{*}}{\bar {c} (A A^{*} \bar {c} + (1 - \alpha) \bar {s} (A + A^{*}))} - \log \bar {c}\right) \\ = \kappa^{P} + \log Q_{t} - \frac{1 - \alpha}{\bar {s} + \bar {c c} A} \frac{A^{*} \bar {c c} + \bar {s} (A^{*} / A)}{A^{*} \bar {c c} + (1 - \alpha) \bar {s} (1 + A^{*} / A)} s_{t} + \frac{(1 - \alpha)}{A^{*} \bar {c c} + (1 - \alpha) \bar {s} (1 + A^{*} / A)} s_{t}^{*} \\ \end{array}
 $$
 
 where
 
 $$
-\kappa^ {P} = - \log (\bar {s} + \bar {c} A) - \frac {1}{\bar {s} + \bar {c} A} (- \bar {s}) - \frac {\bar {c} A}{\bar {s} + \bar {c} A} (\kappa - \log \bar {c}).
+\kappa^{P} = - \log (\bar {s} + \bar {c} A) - \frac{1}{\bar {s} + \bar {c} A} (- \bar {s}) - \frac{\bar {c} A}{\bar {s} + \bar {c} A} (\kappa - \log \bar {c}).
 $$
 
 Setting  $A = A^{*}$  yields the expressions in the proposition.
@@ -1893,31 +1893,31 @@ Setting  $A = A^{*}$  yields the expressions in the proposition.
 Proof. Divide the first condition by the third, and the second by the fourth to get:
 
 $$
-\frac {\alpha}{1 - \alpha} \frac {c _ {F , t}}{c _ {H , t}} = \frac {1 - \alpha}{\alpha} \frac {c _ {F , t} ^ {*}}{c _ {H , t} ^ {*}} = \frac {\mu_ {H , t}}{\mu_ {F . t}} \stackrel {\mathrm {d e f}} {=} \exp (t o t _ {t})
+\frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}} = \frac{\mu_{H , t}}{\mu_{F . t}} \stackrel {\mathrm{de f}} {=} \exp (t o t_{t})
 $$
 
 plugging in  $\exp(tot_t)$  into the aggregation rule of home and foreign goods yields:
 
 $$
-\begin{array}{l} c _ {t} = \left(\frac {1 - \alpha}{\alpha} \exp (t o t _ {t})\right) ^ {1 - \alpha} c _ {H, t} = \left(\frac {\alpha}{1 - \alpha} \exp (- t o t _ {t})\right) ^ {\alpha} c _ {F, t} \\ c _ {t} ^ {*} = \left(\frac {\alpha}{1 - \alpha} \exp (t o t _ {t})\right) ^ {\alpha} c _ {H, t} ^ {*} = \left(\frac {1 - \alpha}{\alpha} \exp (- t o t _ {t})\right) ^ {1 - \alpha} c _ {F, t} ^ {*} \\ \end{array}
+\begin{array}{l} c_{t} = \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{1 - \alpha} c_{H, t} = \left(\frac{\alpha}{1 - \alpha} \exp (- t o t_{t})\right)^{\alpha} c_{F, t} \\ c_{t}^{*} = \left(\frac{\alpha}{1 - \alpha} \exp (t o t_{t})\right)^{\alpha} c_{H, t}^{*} = \left(\frac{1 - \alpha}{\alpha} \exp (- t o t_{t})\right)^{1 - \alpha} c_{F, t}^{*} \\ \end{array}
 $$
 
 then, plug in the equations above into the market clearing conditions to get the consumption rule
 
 $$
-\begin{array}{l} \left(\frac {1 - \alpha}{\alpha} \exp (t o t _ {t})\right) ^ {\alpha - 1} c _ {t} + \left(\frac {\alpha}{1 - \alpha} \exp (t o t _ {t})\right) ^ {- \alpha} c _ {t} ^ {*} = y _ {t} \\ \left(\frac {\alpha}{1 - \alpha} \exp (- t o t _ {t})\right) ^ {- \alpha} c _ {t} + \left(\frac {1 - \alpha}{\alpha} \exp (- t o t _ {t})\right) ^ {\alpha - 1} c _ {t} ^ {*} = y _ {t} ^ {*} \\ \end{array}
+\begin{array}{l} \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{\alpha - 1} c_{t} + \left(\frac{\alpha}{1 - \alpha} \exp (t o t_{t})\right)^{- \alpha} c_{t}^{*} = y_{t} \\ \left(\frac{\alpha}{1 - \alpha} \exp (- t o t_{t})\right)^{- \alpha} c_{t} + \left(\frac{1 - \alpha}{\alpha} \exp (- t o t_{t})\right)^{\alpha - 1} c_{t}^{*} = y_{t}^{*} \\ \end{array}
 $$
 
 Note that we have shown in Section 1.A that:
 
 $$
-\frac {\alpha}{1 - \alpha} \frac {c _ {F , t}}{c _ {H , t}} = \frac {p _ {t}}{p _ {t} ^ {*} \exp (- e _ {t})}
+\frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{p_{t}}{p_{t}^{*} \exp (- e_{t})}
 $$
 
 which implies that  $\exp (tot_{t})$  is actually the relative price between two goods. Dividing the first condition by the second one to pin down the expression of  $\exp (tot_{t})$ :
 
 $$
-\frac {\pi}{1 - \pi} \frac {\left(c _ {t}\right) ^ {- \gamma}}{\left(c _ {t} ^ {*}\right) ^ {- \gamma^ {*}}} \exp (t o t _ {t}) ^ {1 - 2 \alpha} = 1
+\frac{\pi}{1 - \pi} \frac{\left(c_{t}\right)^{- \gamma}}{\left(c_{t}^{*}\right)^{- \gamma^{*}}} \exp (t o t_{t})^{1 - 2 \alpha} = 1
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/69ab4306019a076a987c05aa989bb27242371e22050cc1235c73ff317747d812.jpg)
@@ -1927,37 +1927,37 @@ $$
 Proof. Linearize the Euler equation to get
 
 $$
-\begin{array}{l} \exp (- \bar {\lambda} _ {H, t}) (- \lambda_ {H, t} + \bar {\lambda} _ {H} + 1) = \mathbb {E} _ {t} \left[ \delta \left(\frac {\bar {c}}{\bar {c}}\right) ^ {- \gamma} \exp (\bar {r}) (1 - \gamma \Delta \log c _ {t + 1} + r _ {t} - \bar {r}) \right] \\ \Rightarrow - \lambda_ {H, t} + \bar {\lambda} _ {H} = \mathbb {E} _ {t} \left[ - \gamma \Delta \log c _ {t + 1} + r _ {t} - \bar {r} \right], \\ \end{array}
+\begin{array}{l} \exp (- \bar {\lambda}_{H, t}) (- \lambda_{H, t} + \bar {\lambda}_{H} + 1) = \mathbb {E}_{t} \left[ \delta \left(\frac{\bar {c}}{\bar {c}}\right)^{- \gamma} \exp (\bar {r}) (1 - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r}) \right] \\ \Rightarrow - \lambda_{H, t} + \bar {\lambda}_{H} = \mathbb {E}_{t} \left[ - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r} \right], \\ \end{array}
 $$
 
 where  $-\bar{\lambda}_H = \log \delta +\bar{r}$  , which implies
 
 $$
-- \lambda_ {H, t} = \mathbb {E} _ {t} [ - \gamma \Delta \log c _ {t + 1} + r _ {t} + \log \delta ].
+- \lambda_{H, t} = \mathbb {E}_{t} [ - \gamma \Delta \log c_{t + 1} + r_{t} + \log \delta ].
 $$
 
 Similarly,
 
 $$
-- \lambda_ {H, t} ^ {*} = \mathbb {E} _ {t} \left[ - \gamma \Delta \log c _ {t + 1} ^ {*} + \Delta e _ {t + 1} + r _ {t} + \log \delta \right],
+- \lambda_{H, t}^{*} = \mathbb {E}_{t} \left[ - \gamma \Delta \log c_{t + 1}^{*} + \Delta e_{t + 1} + r_{t} + \log \delta \right],
 $$
 
 which implies
 
 $$
-\begin{array}{l} - \left(\lambda_ {H, t} ^ {*} - \lambda_ {H, t}\right) = \mathbb {E} _ {t} \left[ m _ {t + 1} ^ {*} - m _ {t + 1} \right] + \mathbb {E} _ {t} \left[ \Delta e _ {t + 1} \right] = \mathbb {E} _ {t} \left[ \gamma \left(\Delta \log c _ {t + 1} - \Delta \log c _ {t + 1} ^ {*}\right) \right] + \mathbb {E} _ {t} \left[ \Delta e _ {t + 1} \right] \\ \Rightarrow e _ {t} = \left(\lambda_ {H, t} ^ {*} - \lambda_ {H, t}\right) + \mathbb {E} _ {t} \left[ \gamma \left(\Delta \log c _ {t + 1} - \Delta \log c _ {t + 1} ^ {*}\right) \right] + e _ {t + 1}. \\ \end{array}
+\begin{array}{l} - \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = \mathbb {E}_{t} \left[ m_{t + 1}^{*} - m_{t + 1} \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] = \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] \\ \Rightarrow e_{t} = \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) + \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + e_{t + 1}. \\ \end{array}
 $$
 
 Iterate forward to get
 
 $$
-e _ {t} = \sum_ {j = 0} ^ {\infty} \left(\lambda_ {H, t + j} ^ {*} - \lambda_ {H, t + j}\right) + \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ \gamma \left(\Delta \log c _ {t + j + 1} - \Delta \log c _ {t + j + 1} ^ {*}\right)\right] + \lim  _ {j \rightarrow \infty} e _ {t + j + 1}.
+e_{t} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + j + 1} - \Delta \log c_{t + j + 1}^{*}\right)\right] + \lim_{j \rightarrow \infty} e_{t + j + 1}.
 $$
 
 Let  $\lim_{j\to \infty}e_{t + j + 1} = \bar{e}$ . Plugging  $\Delta c_{t + 1} = \log c_{t + 1} - \log c_t$  yields
 
 $$
-\begin{array}{l} e _ {t} - \bar {e} = \sum_ {j = 0} ^ {\infty} \left(\lambda_ {H, t + j} ^ {*} - \lambda_ {H, t + j}\right) + \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ \gamma \left(\log c _ {t + j + 1} - \log c _ {t + j} - \log c _ {t + j + 1} ^ {*} + \log c _ {t + j} ^ {*}\right) \right] \\ = \sum_ {j = 0} ^ {\infty} (\lambda_ {H, t + j} ^ {*} - \lambda_ {H, t + j}) - \gamma (\log c _ {t} - \log c _ {t} ^ {*}) + \gamma (\log \bar {c} - \log \bar {c} ^ {*}) \\ \end{array}
+\begin{array}{l} e_{t} - \bar {e} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \gamma \left(\log c_{t + j + 1} - \log c_{t + j} - \log c_{t + j + 1}^{*} + \log c_{t + j}^{*}\right) \right] \\ = \sum_{j = 0}^{\infty} (\lambda_{H, t + j}^{*} - \lambda_{H, t + j}) - \gamma (\log c_{t} - \log c_{t}^{*}) + \gamma (\log \bar {c} - \log \bar {c}^{*}) \\ \end{array}
 $$
 
 where we let  $\bar{c} = \lim_{j\to \infty}c_{t + j + 1},\bar{c}^{*} = \lim_{j\to \infty}c_{t + j + 1}^{*}$ . This yields Eq.
@@ -1965,11 +1965,11 @@ where we let  $\bar{c} = \lim_{j\to \infty}c_{t + j + 1},\bar{c}^{*} = \lim_{j\t
 (7.4). Finally, recall that
 
 $$
-\exp (- \lambda_ {H, t} ^ {*}) = 1 - \frac {\omega_ {H} ^ {*} (b _ {H , t} ^ {*}) ^ {- \sigma} - (\bar {c} ^ {*}) ^ {- \gamma} \theta_ {H , t} ^ {*}}{(c _ {t} ^ {*}) ^ {- \gamma}} \exp (- e _ {t})
+\exp (- \lambda_{H, t}^{*}) = 1 - \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} - (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t})
 $$
 
 $$
-\exp (- \lambda_ {H, t}) = 1 - \frac {\omega_ {H} (b _ {H , t}) ^ {- \sigma}}{c _ {t} ^ {- \gamma}}
+\exp (- \lambda_{H, t}) = 1 - \frac{\omega_{H} (b_{H , t})^{- \sigma}}{c_{t}^{- \gamma}}
 $$
 
 Plug in  $\exp(-\lambda_{H,t}) \approx 1 - \lambda_{H,t}$  and  $\exp(-\lambda_{H,t}^{*}) \approx 1 - \lambda_{H,t}^{*}$  yields Eq.
@@ -1983,19 +1983,19 @@ Plug in  $\exp(-\lambda_{H,t}) \approx 1 - \lambda_{H,t}$  and  $\exp(-\lambda_{
 Proof. Rearrange Eq. (8.1) to get:
 
 $$
-D _ {t} = - S _ {t} + D _ {t - 1} \exp \left(R _ {t} ^ {D}\right)
+D_{t} = - S_{t} + D_{t - 1} \exp \left(R_{t}^{D}\right)
 $$
 
 iterate backwards to get:
 
 $$
-\begin{array}{l} D _ {t} = - S _ {t} + \left(- S _ {t - 1} + D _ {t - 2} \exp \left(R _ {t - 1} ^ {D}\right)\right) \exp \left(R _ {t} ^ {D}\right) \\ = - \sum_ {j = 0} ^ {1} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) + D _ {t - 2} \exp \left(R _ {t - 2 \rightarrow t} ^ {D}\right) \\ = - \sum_ {j = 0} ^ {1} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) - S _ {t - 2} \exp \left(R _ {t - 2 \rightarrow t} ^ {D}\right) + D _ {t - 3} \exp \left(R _ {t - 2} ^ {D}\right) \exp \left(R _ {t - 2 \rightarrow t} ^ {D}\right) \\ = - \sum_ {j = 0} ^ {2} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) + D _ {t - 3} \exp \left(R _ {t - 3 \rightarrow t} ^ {D}\right) \\ \end{array}
+\begin{array}{l} D_{t} = - S_{t} + \left(- S_{t - 1} + D_{t - 2} \exp \left(R_{t - 1}^{D}\right)\right) \exp \left(R_{t}^{D}\right) \\ = - \sum_{j = 0}^{1} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) + D_{t - 2} \exp \left(R_{t - 2 \rightarrow t}^{D}\right) \\ = - \sum_{j = 0}^{1} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) - S_{t - 2} \exp \left(R_{t - 2 \rightarrow t}^{D}\right) + D_{t - 3} \exp \left(R_{t - 2}^{D}\right) \exp \left(R_{t - 2 \rightarrow t}^{D}\right) \\ = - \sum_{j = 0}^{2} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) + D_{t - 3} \exp \left(R_{t - 3 \rightarrow t}^{D}\right) \\ \end{array}
 $$
 
 similarly,
 
 $$
-D _ {t} = - \sum_ {j = 0} ^ {k} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) + D _ {t - k - 1} \exp \left(R _ {t - k - 1 \rightarrow t} ^ {D}\right)
+D_{t} = - \sum_{j = 0}^{k} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) + D_{t - k - 1} \exp \left(R_{t - k - 1 \rightarrow t}^{D}\right)
 $$
 
 where  $R_{t - j\rightarrow t}^{D} = R_{t}^{D} + R_{t - 1}^{D} + \dots +R_{t - j + 1}^{D}$  and  $R_{t\to t}^{D} = 0$ . Let  $k = t - 1$
@@ -2003,13 +2003,13 @@ where  $R_{t - j\rightarrow t}^{D} = R_{t}^{D} + R_{t - 1}^{D} + \dots +R_{t - j
 to get Eq. (8.2):
 
 $$
-D _ {t} = - \sum_ {j = 0} ^ {t - 1} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) + D _ {0} \exp \left(R _ {0 \rightarrow t} ^ {D}\right)
+D_{t} = - \sum_{j = 0}^{t - 1} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) + D_{0} \exp \left(R_{0 \rightarrow t}^{D}\right)
 $$
 
 Divide both sides by  $Y_{t}$  to get Eq. (8.3):
 
 $$
-\begin{array}{l} \frac {D _ {t}}{Y _ {t}} = - \sum_ {j = 0} ^ {t - 1} \frac {S _ {t - j}}{Y _ {t}} \exp (R _ {t - j \rightarrow t} ^ {D}) + \frac {D _ {0}}{Y _ {t}} \exp (R _ {0 \rightarrow t} ^ {D}) \\ \Rightarrow \frac {D _ {t}}{Y _ {t}} = - \sum_ {j = 0} ^ {t - 1} \frac {S _ {t - j}}{Y _ {t - j}} \frac {Y _ {t - j}}{Y _ {t}} \exp (R _ {t - j \rightarrow t} ^ {D}) + \frac {D _ {0}}{Y _ {0}} \frac {Y _ {0}}{Y _ {t}} \exp (R _ {0 \rightarrow t} ^ {D}) \\ = - \sum_ {j = 0} ^ {t - 1} \frac {S _ {t - j}}{Y _ {t - j}} \exp \left(R _ {t - j \rightarrow t} ^ {D} - X _ {t - j \rightarrow t}\right) + \frac {D _ {0}}{Y _ {0}} \exp \left(R _ {0 \rightarrow t} ^ {D} - X _ {0 \rightarrow t}\right) \\ \end{array}
+\begin{array}{l} \frac{D_{t}}{Y_{t}} = - \sum_{j = 0}^{t - 1} \frac{S_{t - j}}{Y_{t}} \exp (R_{t - j \rightarrow t}^{D}) + \frac{D_{0}}{Y_{t}} \exp (R_{0 \rightarrow t}^{D}) \\ \Rightarrow \frac{D_{t}}{Y_{t}} = - \sum_{j = 0}^{t - 1} \frac{S_{t - j}}{Y_{t - j}} \frac{Y_{t - j}}{Y_{t}} \exp (R_{t - j \rightarrow t}^{D}) + \frac{D_{0}}{Y_{0}} \frac{Y_{0}}{Y_{t}} \exp (R_{0 \rightarrow t}^{D}) \\ = - \sum_{j = 0}^{t - 1} \frac{S_{t - j}}{Y_{t - j}} \exp \left(R_{t - j \rightarrow t}^{D} - X_{t - j \rightarrow t}\right) + \frac{D_{0}}{Y_{0}} \exp \left(R_{0 \rightarrow t}^{D} - X_{0 \rightarrow t}\right) \\ \end{array}
 $$
 
 where  $\exp (X_{t - j\rightarrow t}) = Y_t / Y_{t - j}$
@@ -2021,13 +2021,13 @@ where  $\exp (X_{t - j\rightarrow t}) = Y_t / Y_{t - j}$
 Proof. First, let us assume that the government never defaults. Consider the time  $t + 1$  constraints,
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t + 1} (h - 1) = S _ {t + 1} + \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h)
+\sum_{h = 1}^{H} Q_{t} (h) P_{t + 1} (h - 1) = S_{t + 1} + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h)
 $$
 
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) S _ {t + 1} \right] + \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) \right] \tag {A.36}
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.36}
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})] = P_t(1)$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)] = P_t(h)$ .
@@ -2035,19 +2035,19 @@ where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})] = P_t(
 Similarly, the time  $t + 2$  constraints imply:
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) = \mathbb {E} _ {t + 1} \left[ \exp \left(M _ {t + 1, t + 2}\right) S _ {t + 2} \right] + \mathbb {E} _ {t + 1} \left[ \exp \left(M _ {t + 1, t + 2}\right) \sum_ {h = 1} ^ {H} Q _ {t + 2} (h) P _ {t + 2} (h) \right]
+\sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]
 $$
 
 Plug in Eq. (A.36) to get:
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \exp (M _ {t + 1}) S _ {t + 1} \right] + \mathbb {E} _ {t} \left[ \exp (M _ {t + 1}) \exp (M _ {t + 1, t + 2}) S _ {t + 2} \right] \\ + \mathbb {E} _ {t} \left[ \exp (M _ {t + 1}) \exp (M _ {t + 1, t + 2}) \sum_ {h = 1} ^ {H} Q _ {t + 2} (h) P _ {t + 2} (h) \right] \\ = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {2} \exp (M _ {t, t + k}) S _ {t, t + k} \right] + \mathbb {E} _ {t} \left[ \exp (M _ {t, t + 2}) \sum_ {h = 1} ^ {H} Q _ {t + 2} (h) P _ {t + 2} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) S_{t + 2} \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ = \mathbb {E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t, t + k} \right] + \mathbb {E}_{t} \left[ \exp (M_{t, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
 $$
 
 iterate forward to time  $t + n$  to get:
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {n} \exp \left(M _ {t, t + k}\right) S _ {t, t + k} \right] + \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + n}\right) \sum_ {h = 1} ^ {H} Q _ {t + n} (h) P _ {t + n} (h) \right] \tag {A.37}
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t, t + k} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.37}
 $$
 
 More specifically, assume that the equation above is true for  $n = \ell$ .
@@ -2055,7 +2055,7 @@ More specifically, assume that the equation above is true for  $n = \ell$ .
 For  $n = \ell + 1$ , the constraints in time  $t + \ell + 1$  imply:
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t + \ell} (h) P _ {t + \ell} (h) = \mathbb {E} _ {t + \ell} \left[ \exp \left(M _ {t + \ell , t + \ell + 1}\right) S _ {t + \ell + 1} \right] + \mathbb {E} _ {t + \ell} \left[ \exp \left(M _ {t + \ell , t + \ell + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + \ell + 1} (h) P _ {t + \ell + 1} (h) \right]
+\sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) S_{t + \ell + 1} \right] + \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right]
 $$
 
 it's easy to show that the expression is also true for  $n = \ell + 1$  by plugging the equation above in Eq. (A.37) (while letting  $n = \ell$ ). Let  $n \to \infty$  and plug in budget constraint Eq. (8.5) to get Eq. (8.6).
@@ -2063,25 +2063,25 @@ it's easy to show that the expression is also true for  $n = \ell + 1$  by plugg
 Now, consider the case of default. We consider only full default, without loss of generality. In case of default at  $t$ , the one-period budget constraint is given by:
 
 $$
-0 = S _ {t} + \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h)
+0 = S_{t} + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h)
 $$
 
 We use  $\chi_t$  as an indicator for default. The budget constraints now become:
 
 $$
-\left(1 - \chi_ {t}\right) \sum_ {h = 1} ^ {H} Q _ {t - 1} (h) P _ {t} (h - 1) = S _ {t} + \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h)
+\left(1 - \chi_{t}\right) \sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1) = S_{t} + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h)
 $$
 
 Consider the time  $t + 1$  constraint,
 
 $$
-(1 - \chi_ {t + 1}) \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t + 1} (h - 1) = S _ {t + 1} + \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h)
+(1 - \chi_{t + 1}) \sum_{h = 1}^{H} Q_{t} (h) P_{t + 1} (h - 1) = S_{t + 1} + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h)
 $$
 
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) S _ {t + 1} \right] + \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) \right]
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right]
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \chi_{t + 1})] = P_t(1)$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)(1 - \chi_{t + 1})] = P_t(h)$ .
@@ -2095,13 +2095,13 @@ Again, we reach the condition in Eq. (A.36). Iterate forward the same way in no 
 Proof. We present the proof for general case with default. Consider the time  $t + 1$  constraint,
 
 $$
-(1 - \chi_ {t + 1}) \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t + 1} (h - 1) = S _ {t + 1} + \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h)
+(1 - \chi_{t + 1}) \sum_{h = 1}^{H} Q_{t} (h) P_{t + 1} (h - 1) = S_{t + 1} + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h)
 $$
 
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) e ^ {- \lambda_ {t} (h)} = \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) S _ {t + 1} \right] + \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) \right] \\ \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} [ \exp (M _ {t + 1}) S _ {t + 1} ] + \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) \left(1 - e ^ {- \lambda_ {t} (h)}\right) \\ + \mathbb {E} _ {t} \left[ \exp \left(M _ {t + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) \right] \tag {A.38} \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) e^{- \lambda_{t} (h)} = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \\ \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} [ \exp (M_{t + 1}) S_{t + 1} ] + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) \left(1 - e^{- \lambda_{t} (h)}\right) \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.38} \\ \end{array}
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \chi_{t + 1})] = P_t(1)e^{-\lambda_t(1)}$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)(1 - \chi_{t + 1})] = P_t(h)e^{-\lambda_t(h)}$ .
@@ -2109,43 +2109,43 @@ where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \ch
 Similarly, consider the time  $t + 2$  budget constraint. Multiply both sides by nominal SDF  $\exp (M_{t + 1,t + 2})$  and take expectations conditional on time  $t + 1$ :
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) = \mathbb {E} _ {t + 1} \left[ \exp \left(M _ {t + 1, t + 2}\right) S _ {t + 2} \right] + \sum_ {h = 1} ^ {H} Q _ {t + 1} (h) P _ {t + 1} (h) \left(1 - e ^ {- \lambda_ {t + 1} (h)}\right) \\ + \mathbb {E} _ {t + 1} \left[ \exp (M _ {t + 1, t + 2}) \sum_ {h = 1} ^ {H} Q _ {t + 2} (h) P _ {t + 2} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \left(1 - e^{- \lambda_{t + 1} (h)}\right) \\ + \mathbb {E}_{t + 1} \left[ \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
 $$
 
 plug it into the RHS of Eq. (A.38) to get:
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {2} \exp (M _ {t, t + k}) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {1} \exp (M _ {t, t + k}) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) \left(1 - e ^ {- \lambda_ {t + k} (h)}\right) \right] \\ + \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + 2}\right) \sum_ {h = 1} ^ {H} Q _ {t + 2} (h) P _ {t + 2} (h) \right]. \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]. \\ \end{array}
 $$
 
 To iterate forward, assume that
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {n} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {n - 1} \exp \left(M _ {t, t + k}\right) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) \left(1 - e ^ {- \lambda_ {t + k} (h)}\right) \right] \\ + \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + n}\right) \sum_ {h = 1} ^ {H} Q _ {t + n} (h) P _ {t + n} (h) \right] \tag {A.39} \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{n - 1} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.39} \\ \end{array}
 $$
 
 is true for  $n = \ell$ . For  $n = \ell + 1$ , consider the time  $t + \ell + 1$  budget constraint. Similarly, multiply both sides by nominal S  $\exp(M_{t + \ell, t + \ell + 1})$  and take expectations conditional on time  $t +$
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t + \ell} (h) P _ {t + \ell} (h) = \mathbb {E} _ {t + \ell} [ \exp (M _ {t + \ell , t + \ell + 1}) S _ {t + \ell + 1} ] + \sum_ {h = 1} ^ {H} Q _ {t + \ell} (h) P _ {t + \ell} (h) \left(1 - e ^ {- \lambda_ {t + \ell} (h)}\right) \\ + \mathbb {E} _ {t + \ell} \left[ \exp \left(M _ {t + \ell , t + \ell + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + \ell + 1} (h) P _ {t + \ell + 1} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb {E}_{t + \ell} [ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} ] + \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \\ + \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
 $$
 
 plug it into the RHS of Eq. (A.39) to get:
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\ell} \exp (M _ {t, t + k}) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\ell - 1} \exp (M _ {t, t + k}) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) \left(1 - e ^ {- \lambda_ {t + k} (h)}\right) \right] \\ + \mathbb {E} _ {t} \left[ \exp (M _ {t, t + \ell}) \mathbb {E} _ {t + \ell} \left[ \exp (M _ {t + \ell , t + \ell + 1}) S _ {t + \ell + 1} \right] \right] + \mathbb {E} _ {t} \left[ \exp (M _ {t, t + \ell}) \sum_ {h = 1} ^ {H} Q _ {t + \ell} (h) P _ {t + \ell} (h) \left(1 - e ^ {- \lambda_ {t + \ell} (h)}\right) \right] \\ + \mathbb {E} _ {t} \left[ \exp (M _ {t, t + \ell}) \mathbb {E} _ {t + \ell} \left[ \exp (M _ {t + \ell , t + \ell + 1}) \sum_ {h = 1} ^ {H} Q _ {t + \ell + 1} (h) P _ {t + \ell + 1} (h) \right] \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\ell} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\ell - 1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb {E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} \right] \right] + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb {E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \right] \\ \end{array}
 $$
 
 Rearrange the RHS to get:
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\ell + 1} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\ell} \exp \left(M _ {t, t + k}\right) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) \left(1 - e ^ {- \lambda_ {t + k} (h)}\right) \right] \\ + \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + \ell + 1}\right) \sum_ {h = 1} ^ {H} Q _ {t + \ell + 1} (h) P _ {t + \ell + 1} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\ell + 1} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\ell} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
 $$
 
 Hence, we can iterate the equation from  $n = \ell$  to  $n = \ell + 1$  for any  $\ell \geq 1$  and prove Eq. (A.39). Recall the time  $t$  budget condition when default does not happen in Eq. (8.5). Plugging  $\sum_{h=1}^{H} Q_t(h) P_t(h)$  into the RHS and letting  $n \to \infty$  yields the result:
 
 $$
-\begin{array}{l} \sum_ {h = 1} ^ {H} Q _ {t - 1} (h) P _ {t} (h - 1) = \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (M _ {t, t + k}) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp (M _ {t, t + k}) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) (1 - e ^ {- \lambda_ {t + k} (h)}) \right] \\ + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp (M _ {t, t + k}) \sum_ {h = 1} ^ {H} Q _ {t + k} (h) P _ {t + k} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1) = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) (1 - e^{- \lambda_{t + k} (h)}) \right] \\ + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \right] \\ \end{array}
 $$
 
 note that we replace letter  $n$  to  $k$  for simplicity.
@@ -2157,13 +2157,13 @@ note that we replace letter  $n$  to  $k$  for simplicity.
 Proof. By the definition of  $\exp(R_{t+1}^D)$ ,  $\exp(R_{t+1}^T)$  and  $\exp(R_{t+1}^G)$ :
 
 $$
-P _ {t} ^ {T} \exp (R _ {t + 1} ^ {T}) - P _ {t} ^ {G} \exp (R _ {t + 1} ^ {G}) = P _ {t + 1} ^ {T} + T _ {t + 1} - P _ {t + 1} ^ {G} - G _ {t + 1} = D _ {t} \exp (R _ {t + 1} ^ {D})
+P_{t}^{T} \exp (R_{t + 1}^{T}) - P_{t}^{G} \exp (R_{t + 1}^{G}) = P_{t + 1}^{T} + T_{t + 1} - P_{t + 1}^{G} - G_{t + 1} = D_{t} \exp (R_{t + 1}^{D})
 $$
 
 Divide both sides by  $D_{t}$  and take expectations to get part (a). Similarly,
 
 $$
-\begin{array}{l} D _ {t} \beta_ {t} ^ {D} = \frac {\operatorname {c o v} _ {t} \left(D _ {t} \exp \left(R _ {t + 1} ^ {D}\right) , \exp \left(R _ {t + 1} ^ {M}\right)\right)}{\operatorname {v a r} _ {t} \left(\exp \left(R _ {t + 1} ^ {M}\right) - \exp \left(R _ {t}\right)\right)} \\ = \frac {c o v _ {t} \left(P _ {t + 1} ^ {T} + T _ {t + 1} - P _ {t + 1} ^ {G} - G _ {t + 1} , \exp \left(R _ {t + 1} ^ {M}\right)\right)}{v a r _ {t} \left(\exp \left(R _ {t + 1} ^ {M}\right) - \exp \left(R _ {t}\right)\right)} \\ = \frac {c o v _ {t} \left(P _ {t} ^ {T} \exp \left(R _ {t + 1} ^ {T}\right) - P _ {t} ^ {G} \exp \left(R _ {t + 1} ^ {G}\right) , \exp \left(R _ {t + 1} ^ {M}\right)\right)}{v a r _ {t} \left(\exp \left(R _ {t + 1} ^ {M}\right) - \exp \left(R _ {t}\right)\right)} \\ = P _ {t} ^ {T} \beta_ {t} ^ {T} - P _ {t} ^ {G} \beta_ {t} ^ {G} \\ \end{array}
+\begin{array}{l} D_{t} \beta_{t}^{D} = \frac{\operatorname{co v}_{t} \left(D_{t} \exp \left(R_{t + 1}^{D}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{\operatorname{va r}_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{c o v_{t} \left(P_{t + 1}^{T} + T_{t + 1} - P_{t + 1}^{G} - G_{t + 1} , \exp \left(R_{t + 1}^{M}\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{c o v_{t} \left(P_{t}^{T} \exp \left(R_{t + 1}^{T}\right) - P_{t}^{G} \exp \left(R_{t + 1}^{G}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = P_{t}^{T} \beta_{t}^{T} - P_{t}^{G} \beta_{t}^{G} \\ \end{array}
 $$
 
 Again, divide both sides by  $D_{t}$  to get part (b).
@@ -2175,19 +2175,19 @@ Again, divide both sides by  $D_{t}$  to get part (b).
 Proof. Multiply both sides of Eq. (8.12) by  $D_t / (P_t^T + P_t^K - P_t^G)$  and plug in  $D_t = P_t^T + P_t^K + K_t - P_t^G$  to obtain
 
 $$
-\begin{array}{l} \exp (R _ {t + 1} ^ {D}) \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) \\ = \exp (R _ {t + 1} ^ {T}) \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} + \exp (R _ {t + 1} ^ {K}) \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} - \exp (R _ {t + 1} ^ {G}) \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}. \\ \end{array}
+\begin{array}{l} \exp (R_{t + 1}^{D}) \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) \\ = \exp (R_{t + 1}^{T}) \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} + \exp (R_{t + 1}^{K}) \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} - \exp (R_{t + 1}^{G}) \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}. \\ \end{array}
 $$
 
 Taking conditional expectation  $\mathbb{E}_t$  for both sides yields part (a). To get part (b), take conditional covariance with market return  $\exp(R_{t+1}^M)$  and divide by its variance for both sides
 
 $$
-\begin{array}{l} \frac {c o v _ {t} \left(\exp \left(R _ {t + 1} ^ {D} , \exp \left(R _ {t + 1} ^ {M}\right)\right)\right)}{v a r _ {t} \left(\exp \left(R _ {t + 1} ^ {M}\right)\right)} \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) \\ = \frac {c o v _ {t} \left(\exp \left(R _ {t + 1} ^ {T} , \exp \left(R _ {t + 1} ^ {M}\right)\right)\right)}{v a r _ {t} \left(\exp \left(R _ {t + 1} ^ {M}\right)\right)} \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \\ + \frac {c o v _ {t} (\exp (R _ {t + 1} ^ {K} , \exp (R _ {t + 1} ^ {M})))}{v a r _ {t} (\exp (R _ {t + 1} ^ {M}))} \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \\ - \frac {c o v _ {t} (\exp (R _ {t + 1} ^ {G} , \exp (R _ {t + 1} ^ {M})))}{v a r _ {t} (\exp (R _ {t + 1} ^ {M}))} \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}, \\ \end{array}
+\begin{array}{l} \frac{c o v_{t} \left(\exp \left(R_{t + 1}^{D} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) \\ = \frac{c o v_{t} \left(\exp \left(R_{t + 1}^{T} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ + \frac{c o v_{t} (\exp (R_{t + 1}^{K} , \exp (R_{t + 1}^{M})))}{v a r_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ - \frac{c o v_{t} (\exp (R_{t + 1}^{G} , \exp (R_{t + 1}^{M})))}{v a r_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}, \\ \end{array}
 $$
 
 which implies
 
 $$
-\beta_ {t} ^ {D} \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) = \beta_ {t} ^ {T} \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} + \beta_ {t} ^ {K} \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} - \beta_ {t} ^ {G} \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}},
+\beta_{t}^{D} \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \beta_{t}^{T} \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} + \beta_{t}^{K} \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} - \beta_{t}^{G} \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}},
 $$
 
 where we plug in the expression of beta defined above.
@@ -2203,25 +2203,25 @@ Lemma A.1.  $\psi^{\prime}(w_{t},t) = \delta^{t}u^{\prime}(c_{t})$
 Proof. Let  $\left(\{c_{s}\}_{s=t}^{\infty},\{d_{s}\}_{s=t}^{\infty}\right)$  be the optimal solution from  $w_{t}$ . Let  $\Delta w > 0$ , define a feasible process  $\left(\{c_{s}^{*}\}_{s=t},\{d_{s}^{*}\}_{s=t}\right)$  from  $w_{t} + \Delta w$ , such that  $c_{t}^{*} = c_{t} + \Delta w, d_{t}^{*} = d_{t}, c_{s}^{*} = c_{s}, d_{s}^{*} = d_{s}, s = t+1,t+2,\ldots$ . It is clear that
 
 $$
-\begin{array}{l} \psi (w _ {t} + \Delta w, t) \geq \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u \left(c _ {s} ^ {*}\right) \right] \\ \Rightarrow \psi (w _ {t} + \Delta w, t) - \psi (w _ {t}, t) \geq \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u \left(c _ {s} ^ {*}\right) \right] - \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u \left(c _ {s}\right) \right] \\ = \mathbb {E} _ {t} \left[ \delta^ {t} u \left(c _ {t} + \Delta w\right) - \delta^ {t} u \left(c _ {t}\right) \right] \\ = \delta^ {t} u ^ {\prime} (c _ {t}) \Delta w + o (\Delta w) \\ \end{array}
+\begin{array}{l} \psi (w_{t} + \Delta w, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} + \Delta w, t) - \psi (w_{t}, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] - \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}\right) \right] \\ = \mathbb {E}_{t} \left[ \delta^{t} u \left(c_{t} + \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) \Delta w + o (\Delta w) \\ \end{array}
 $$
 
 Hence,
 
 $$
-\lim  _ {\Delta w \rightarrow 0} \frac {\psi (w _ {t} + \Delta w , t) - \psi (w _ {t} , t)}{\Delta w} \geq \delta^ {t} u ^ {\prime} (c _ {t})
+\lim_{\Delta w \rightarrow 0} \frac{\psi (w_{t} + \Delta w , t) - \psi (w_{t} , t)}{\Delta w} \geq \delta^{t} u^{\prime} (c_{t})
 $$
 
 This implies that  $\psi'(w_t, t) \geq \delta^t u'(c_t)$ . Now, take  $\Delta w$  sufficiently small such that  $0 < \Delta w < c_t$ . Define a feasible process  $(\{c_s^*\}_{s=t}^\infty, \{d_s^*\}_{s=t}^\infty)$  from  $w_t - \Delta w$ , such that  $c_t^* = c_t - \Delta w$ ,  $d_t^* = d_t$ ,  $c_s^* = c_s$ ,  $d_s^* = d_s$ ,  $s = t + 1, t + 2, \ldots$ . Similarly,
 
 $$
-\begin{array}{l} \psi (w _ {t} - \Delta w, t) \geq \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u \left(c _ {s} ^ {*}\right) \right] \\ \Rightarrow \psi (w _ {t} - \Delta w, t) - \psi (w _ {t}, t) \geq \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u (c _ {s} ^ {*}) \right] - \mathbb {E} _ {t} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u (c _ {s}) \right] \\ = \mathbb {E} _ {t} \left[ \delta^ {t} u \left(c _ {t} - \Delta w\right) - \delta^ {t} u \left(c _ {t}\right) \right] \\ = \delta^ {t} u ^ {\prime} (c _ {t}) (- \Delta w) + o (\Delta w) \\ \end{array}
+\begin{array}{l} \psi (w_{t} - \Delta w, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} - \Delta w, t) - \psi (w_{t}, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}^{*}) \right] - \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right] \\ = \mathbb {E}_{t} \left[ \delta^{t} u \left(c_{t} - \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) (- \Delta w) + o (\Delta w) \\ \end{array}
 $$
 
 Hence,
 
 $$
-\lim  _ {\Delta w \rightarrow 0} \frac {\psi (w _ {t} - \Delta w , t) - \psi (w _ {t} , t)}{- \Delta w} \leq \delta^ {t} u ^ {\prime} (c _ {t})
+\lim_{\Delta w \rightarrow 0} \frac{\psi (w_{t} - \Delta w , t) - \psi (w_{t} , t)}{- \Delta w} \leq \delta^{t} u^{\prime} (c_{t})
 $$
 
 This implies that  $\psi'(w_t, t) \leq \delta^t u'(c_t)$ , hence  $\psi'(w_t, t) = \delta^t u'(c_t)$ .
@@ -2229,47 +2229,47 @@ This implies that  $\psi'(w_t, t) \leq \delta^t u'(c_t)$ , hence  $\psi'(w_t, t)
 Proof. First, we prove the necessity of the transversality condition. Since  $\psi(w_t, t)$  is differentiable at  $w_t$ , by the concavity of  $u(c)$ ,
 
 $$
-\psi \left(w _ {t}, t\right) \geq \psi \left(w _ {t}, t\right) - \psi \left(w _ {t} / 2, t\right) \geq \psi^ {\prime} \left(w _ {t}, t\right) w _ {t} / 2.
+\psi \left(w_{t}, t\right) \geq \psi \left(w_{t}, t\right) - \psi \left(w_{t} / 2, t\right) \geq \psi^{\prime} \left(w_{t}, t\right) w_{t} / 2.
 $$
 
 By Envelope theorem, i.e.,  $\psi'(w_t, t) = \delta^t u'(c_t)$ , then the assumptions  $\lim_{t \to \infty} \psi(w_t, t) = 0$  and  $u'(c_t) \geq 0$  implies
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) w _ {t} \right] = 0
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) w_{t} \right] = 0
 $$
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right)\left(y _ {t} + d _ {t - 1} \exp \left(r _ {t} ^ {d}\right)\right)\right] = 0.
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right)\right] = 0.
 $$
 
 Since  $y_{t}, u^{\prime}(c_{t}) \geq 0$ , and by the short-sale constraint,  $d_{t-1} \geq 0$  then,
 
 $$
-0 \leq \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t - 1} \exp \left(r _ {t} ^ {d}\right) \right] \leq \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) \left(y _ {t} + d _ {t - 1} \exp \left(r _ {t} ^ {d}\right)\right) \right]
+0 \leq \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right] \leq \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) \left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right) \right]
 $$
 
 $$
-0 \leq \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t - 1} \exp (r _ {t} ^ {d}) \right] \leq \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) \left(y _ {t} + d _ {t - 1} \exp (r _ {t} ^ {d})\right)\right] = 0
+0 \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right] \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) \left(y_{t} + d_{t - 1} \exp (r_{t}^{d})\right)\right] = 0
 $$
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t - 1} \exp \left(r _ {t} ^ {d}\right)\right] = 0
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = 0
 $$
 
 Lastly, by the Euler equation (8.13),
 
 $$
-u ^ {\prime} \left(c _ {t - 1}\right) d _ {t - 1} = \mathbb {E} _ {t - 1} \left[ \delta u ^ {\prime} \left(c _ {t}\right) d _ {t - 1} \exp \left(r _ {t} ^ {d}\right) \right]
+u^{\prime} \left(c_{t - 1}\right) d_{t - 1} = \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right]
 $$
 
 $$
-\mathbb {E} _ {0} \left[ u ^ {\prime} (c _ {t - 1}) d _ {t - 1} \right] = \mathbb {E} _ {0} \left[ \delta u ^ {\prime} (c _ {t}) d _ {t - 1} \exp (r _ {t} ^ {d}) \right].
+\mathbb {E}_{0} \left[ u^{\prime} (c_{t - 1}) d_{t - 1} \right] = \mathbb {E}_{0} \left[ \delta u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right].
 $$
 
 then
 
 $$
-0 = \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t - 1} \exp \left(r _ {t} ^ {d}\right)\right] = \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t - 1} u ^ {\prime} \left(c _ {t - 1}\right) d _ {t - 1} \right],
+0 = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} u^{\prime} \left(c_{t - 1}\right) d_{t - 1} \right],
 $$
 
 which implies the transversality condition.
@@ -2281,69 +2281,69 @@ which implies the transversality condition.
 Proof. First, We derive the Euler equation with utility from holding the bonds. The Lagrangian is:
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} (u (c _ {t}) + v _ {t} (d _ {t})) + \sum_ {t = 0} ^ {\infty} \zeta_ {t} (y _ {t} + d _ {t - 1} \exp (r _ {t} ^ {D}) - c _ {t} - d _ {t}) \right]
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v_{t} (d_{t})) + \sum_{t = 0}^{\infty} \zeta_{t} (y_{t} + d_{t - 1} \exp (r_{t}^{D}) - c_{t} - d_{t}) \right]
 $$
 
 The first order conditions are given by
 
 $$
-\delta^ {t} u ^ {\prime} \left(c _ {t}\right) - \zeta_ {t} = 0
+\delta^{t} u^{\prime} \left(c_{t}\right) - \zeta_{t} = 0
 $$
 
 $$
-\delta^ {t} v _ {t} ^ {\prime} (d _ {t}) - \zeta_ {t} + \mathbb {E} _ {t} [ \zeta_ {t + 1} \exp (r _ {t + 1} ^ {D}) ] = 0
+\delta^{t} v_{t}^{\prime} (d_{t}) - \zeta_{t} + \mathbb {E}_{t} [ \zeta_{t + 1} \exp (r_{t + 1}^{D}) ] = 0
 $$
 
 which imply the Euler equation
 
 $$
-v _ {t} ^ {\prime} (d _ {t}) - u ^ {\prime} (c _ {t}) + \mathbb {E} _ {t} [ \delta u ^ {\prime} (c _ {t + 1}) \exp (r _ {t + 1} ^ {D}) ] = 0
+v_{t}^{\prime} (d_{t}) - u^{\prime} (c_{t}) + \mathbb {E}_{t} [ \delta u^{\prime} (c_{t + 1}) \exp (r_{t + 1}^{D}) ] = 0
 $$
 
 hence,
 
 $$
-\mathbb {E} _ {t} \left[ \frac {\delta u ^ {\prime} \left(c _ {t + 1}\right)}{u ^ {\prime} \left(c _ {t}\right)} \exp \left(r _ {t + 1} ^ {D}\right) \right] = 1 - \frac {v _ {t} ^ {\prime} \left(d _ {t}\right)}{u ^ {\prime} \left(c _ {t}\right)}
+\mathbb {E}_{t} \left[ \frac{\delta u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t + 1}^{D}\right) \right] = 1 - \frac{v_{t}^{\prime} \left(d_{t}\right)}{u^{\prime} \left(c_{t}\right)}
 $$
 
 we denote the RHS as  $\exp(-\lambda_t)$ . Similarly, we define the households' value function as
 
 $$
-\psi (w _ {t}, t) = \max \mathbb {E} _ {0} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} \left(u (c _ {s}) + v _ {t} (d _ {t})\right) \right]
+\psi (w_{t}, t) = \max \mathbb {E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} \left(u (c_{s}) + v_{t} (d_{t})\right) \right]
 $$
 
 we can show in the same way in lemma A.1 that
 
 $$
-\psi^ {\prime} (w _ {t}, t) = \delta^ {t} u ^ {\prime} (c _ {t})
+\psi^{\prime} (w_{t}, t) = \delta^{t} u^{\prime} (c_{t})
 $$
 
 by the concavity of  $\psi(w_t, t)$  and that  $\lim_{t \to \infty} \psi(w_t, t) = 0$ :
 
 $$
-0 \leq \lim  _ {t \rightarrow \infty} \psi^ {\prime} (w _ {t}, t) \frac {w _ {t}}{2} \leq \lim  _ {t \rightarrow \infty} (\psi (w _ {t}, t) - \psi (w _ {t} / 2, t)) \leq \lim  _ {t \rightarrow \infty} \psi (w _ {t}, t) = 0
+0 \leq \lim_{t \rightarrow \infty} \psi^{\prime} (w_{t}, t) \frac{w_{t}}{2} \leq \lim_{t \rightarrow \infty} (\psi (w_{t}, t) - \psi (w_{t} / 2, t)) \leq \lim_{t \rightarrow \infty} \psi (w_{t}, t) = 0
 $$
 
 hence,
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) w _ {t} \right] = 0
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) w_{t} \right] = 0
 $$
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right)\left(y _ {t} + d _ {t - 1} \exp \left(r _ {t} ^ {D}\right)\right)\right] = 0
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{D}\right)\right)\right] = 0
 $$
 
 since  $y_{t}, d_{t}, u^{\prime}(c_{t})$  are all non-negative, plugging in the Euler equation to get:
 
 $$
-\begin{array}{l} \lim _ {t \rightarrow \infty} \mathbb {E} _ {0} [ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t - 1} \exp (r _ {t} ^ {D}) ] = 0 \\ \Rightarrow \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t - 1} d _ {t - 1} \mathbb {E} _ {t - 1} \left[ \delta u ^ {\prime} \left(c _ {t}\right) \exp \left(r _ {t} ^ {D}\right)\right]\right] = 0 \\ \Rightarrow \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t - 1} d _ {t - 1} \left(u ^ {\prime} \left(c _ {t - 1}\right) - v _ {t} ^ {\prime} \left(d _ {t - 1}\right)\right)\right] = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} [ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{D}) ] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} d_{t - 1} \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{D}\right)\right]\right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} d_{t - 1} \left(u^{\prime} \left(c_{t - 1}\right) - v_{t}^{\prime} \left(d_{t - 1}\right)\right)\right] = 0 \\ \end{array}
 $$
 
 replacing time subscripts to  $t$  to get:
 
 $$
-\begin{array}{l} \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} \left(u ^ {\prime} \left(c _ {t}\right) - v _ {t} ^ {\prime} \left(d _ {t}\right)\right) d _ {t} \right] = 0 \\ \Rightarrow \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t} \exp (- \lambda_ {t}) \right] = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} \left(u^{\prime} \left(c_{t}\right) - v_{t}^{\prime} \left(d_{t}\right)\right) d_{t} \right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] = 0 \\ \end{array}
 $$
 
 the expression of  $\exp (-\lambda_t)$  is given above.
@@ -2351,7 +2351,7 @@ the expression of  $\exp (-\lambda_t)$  is given above.
 To obtain the original transversality condition, assume that  $\lambda_{t}$  is bounded above by  $\bar{\lambda}$
 
 $$
-\begin{array}{l} \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t} \right] = \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t} \exp (- \lambda_ {t}) \exp (\lambda_ {t}) \right] \\ \leq \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t} \exp \left(- \lambda_ {t}\right) \exp (\bar {\lambda}) \right] \\ = \exp (\bar {\lambda}) \lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} \left(c _ {t}\right) d _ {t} \exp (- \lambda_ {t}) \right] \\ = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \right] = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \exp (\lambda_{t}) \right] \\ \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp \left(- \lambda_{t}\right) \exp (\bar {\lambda}) \right] \\ = \exp (\bar {\lambda}) \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] \\ = 0 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/d531ef2151ae91236587183cbe67d465f1d0aa06d278626b57b9f3580790d51f.jpg)
@@ -2361,23 +2361,23 @@ $$
 Proof. (a) Conjecture the log price of the nominal bond is
 
 $$
-\log P _ {t} (h) = A (h) + B (h) ^ {\prime} z _ {t}.
+\log P_{t} (h) = A (h) + B (h)^{\prime} z_{t}.
 $$
 
 The Euler equation implies
 
 $$
-\exp (\log P _ {t - 1} (h + 1)) = \mathbb {E} _ {t - 1} [ \exp (M _ {t} + \log P _ {t} (h)) ]
+\exp (\log P_{t - 1} (h + 1)) = \mathbb {E}_{t - 1} [ \exp (M_{t} + \log P_{t} (h)) ]
 $$
 
 $$
-\begin{array}{l} A (h + 1) + B (h + 1) ^ {\prime} z _ {t - 1} = - i _ {t - 1} (1) - \frac {1}{2} \Lambda_ {t - 1} ^ {\prime} \Lambda_ {t - 1} + A (h) + B (h) ^ {\prime} \Psi z _ {t - 1} \\ + \frac {1}{2} \Lambda_ {t - 1} ^ {\prime} \Lambda_ {t - 1} + \frac {1}{2} B (h) ^ {\prime} \Sigma B (h) - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {t - 1} \\ = - i _ {0} (1) + A (h) + \frac {1}{2} B (h) ^ {\prime} \Sigma B (h) - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} \\ + \left(- e _ {i} ^ {\prime} + B (h) ^ {\prime} \Psi - B ^ {\prime} (h) \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right) z _ {t - 1}. \\ \end{array}
+\begin{array}{l} A (h + 1) + B (h + 1)^{\prime} z_{t - 1} = - i_{t - 1} (1) - \frac{1}{2} \Lambda_{t - 1}^{\prime} \Lambda_{t - 1} + A (h) + B (h)^{\prime} \Psi z_{t - 1} \\ + \frac{1}{2} \Lambda_{t - 1}^{\prime} \Lambda_{t - 1} + \frac{1}{2} B (h)^{\prime} \Sigma B (h) - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{t - 1} \\ = - i_{0} (1) + A (h) + \frac{1}{2} B (h)^{\prime} \Sigma B (h) - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} \\ + \left(- e_{i}^{\prime} + B (h)^{\prime} \Psi - B^{\prime} (h) \Sigma^{\frac{1}{2}} \Lambda_{1}\right) z_{t - 1}. \\ \end{array}
 $$
 
 Compare coefficients to obtain
 
 $$
-\begin{array}{l} A (h + 1) = - i _ {0} (1) + A (h) + \frac {1}{2} B (h) ^ {\prime} \Sigma B (h) - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ B (h + 1) ^ {\prime} = B (h) ^ {\prime} \Psi - e _ {i} ^ {\prime} - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1}, \\ \end{array}
+\begin{array}{l} A (h + 1) = - i_{0} (1) + A (h) + \frac{1}{2} B (h)^{\prime} \Sigma B (h) - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ B (h + 1)^{\prime} = B (h)^{\prime} \Psi - e_{i}^{\prime} - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1}, \\ \end{array}
 $$
 
 with the initial condition given by  $A(0) = 0$  and  $B(0) = \vec{0}$ .
@@ -2385,29 +2385,29 @@ with the initial condition given by  $A(0) = 0$  and  $B(0) = \vec{0}$ .
 (b) Denote the time  $t$  log price-dividend ratio on the stock dividend strip that pays  $Div_{t + h}$  at time  $t + h$  as  $pd_t^m (h)$ . The Euler equation is
 
 $$
-\exp (p d _ {t - 1} ^ {m} (h + 1)) = \mathbb {E} _ {t} [ \exp (M _ {t} + p d _ {t} ^ {m} (h) + \Delta \log D i v _ {t}) ],
+\exp (p d_{t - 1}^{m} (h + 1)) = \mathbb {E}_{t} [ \exp (M_{t} + p d_{t}^{m} (h) + \Delta \log D i v_{t}) ],
 $$
 
 where  $\Delta \log Div_t = \Delta \log d_t + x_t + \pi_t$ , i.e., the log nominal dividend growth is the sum of the log growth of dividend-GDP ratio, log growth of real GDP and inflation. Conjecture that
 
 $$
-p d _ {t} ^ {m} (h) = A ^ {m} (h) + B ^ {m} (h) ^ {\prime} z _ {t}.
+p d_{t}^{m} (h) = A^{m} (h) + B^{m} (h)^{\prime} z_{t}.
 $$
 
 Plug  $\Delta \log Div_{t}$  into the Euler equation to obtain
 
 $$
-\begin{array}{l} A ^ {m} (h + 1) + B ^ {m} (h + 1) ^ {\prime} z _ {t - 1} = - i _ {t - 1} (1) - \frac {1}{2} \Lambda_ {t} ^ {\prime} \Lambda_ {t} + A ^ {m} (h) + B ^ {m} (h) ^ {\prime} \Psi z _ {t - 1} + x _ {0} + \pi_ {0} + (e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Psi z _ {t - 1} \\ + \frac {1}{2} \Lambda_ {t} ^ {\prime} \Lambda_ {t} + \frac {1}{2} (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Sigma (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) \\ - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {t} \\ = - i _ {0} (1) + A ^ {m} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) \\ - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} \\ + \left(- e _ {i} ^ {\prime} + \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Psi - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right) z _ {t - 1}. \\ \end{array}
+\begin{array}{l} A^{m} (h + 1) + B^{m} (h + 1)^{\prime} z_{t - 1} = - i_{t - 1} (1) - \frac{1}{2} \Lambda_{t}^{\prime} \Lambda_{t} + A^{m} (h) + B^{m} (h)^{\prime} \Psi z_{t - 1} + x_{0} + \pi_{0} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Psi z_{t - 1} \\ + \frac{1}{2} \Lambda_{t}^{\prime} \Lambda_{t} + \frac{1}{2} (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}) \\ - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{t} \\ = - i_{0} (1) + A^{m} (h) + x_{0} + \pi_{0} + \frac{1}{2} \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} \\ + \left(- e_{i}^{\prime} + \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1}\right) z_{t - 1}. \\ \end{array}
 $$
 
 By matching coefficients, we obtain
 
 $$
-\begin{array}{l} A ^ {m} (h + 1) = - i _ {0} (1) + A ^ {m} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Sigma (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) \\ - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ \end{array}
+\begin{array}{l} A^{m} (h + 1) = - i_{0} (1) + A^{m} (h) + x_{0} + \pi_{0} + \frac{1}{2} (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}) \\ - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ \end{array}
 $$
 
 $$
-B ^ {m} (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Psi - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1}.
+B^{m} (h + 1)^{\prime} = - e_{i}^{\prime} + \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1}.
 $$
 
 with initial condition  $A^m (0) = 0$ ,  $B^{m}(0) = 0$
@@ -2421,23 +2421,23 @@ with initial condition  $A^m (0) = 0$ ,  $B^{m}(0) = 0$
 Proof. (a) Recall that
 
 $$
-A (h + 1) = - i _ {0} (1) + A (h) + \frac {1}{2} B (h) ^ {\prime} \Sigma B (h) - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0},
+A (h + 1) = - i_{0} (1) + A (h) + \frac{1}{2} B (h)^{\prime} \Sigma B (h) - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0},
 $$
 
 $$
-B (h + 1) ^ {\prime} = B (h) ^ {\prime} \Psi - e _ {i} ^ {\prime} - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1},
+B (h + 1)^{\prime} = B (h)^{\prime} \Psi - e_{i}^{\prime} - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1},
 $$
 
 which further implies
 
 $$
-B (h) ^ {\prime} = - e _ {i} ^ {\prime} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right) ^ {h}\right)
+B (h)^{\prime} = - e_{i}^{\prime} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)^{h}\right)
 $$
 
 and
 
 $$
-\begin{array}{l} \lim _ {h \to \infty} A (h) / h = - i _ {0} (1) + \frac {1}{2} B (\infty) ^ {\prime} \Sigma B (\infty) - B (\infty) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ B (\infty) ^ {\prime} = \lim  _ {h \rightarrow \infty} B (h) ^ {\prime} = - e _ {i} ^ {\prime} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1} \\ \end{array}
+\begin{array}{l} \lim_{h \to \infty} A (h) / h = - i_{0} (1) + \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) - B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ B (\infty)^{\prime} = \lim_{h \rightarrow \infty} B (h)^{\prime} = - e_{i}^{\prime} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1} \\ \end{array}
 $$
 
 The expected return of holding the long-term bond from time  $t$  to
@@ -2445,47 +2445,47 @@ The expected return of holding the long-term bond from time  $t$  to
 $t + 1$  is
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ \log P _ {t + 1} (h - 1) - \log P _ {t} (h) \right] = A (h - 1) + B (h - 1) ^ {\prime} \Psi z _ {t} - A (h) - B (h) ^ {\prime} z _ {t} \\ = i _ {0} (1) - \frac {1}{2} B (h - 1) ^ {\prime} \Sigma B (h - 1) + B (h - 1) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} \\ + B (h - 1) ^ {\prime} \Psi z _ {t} - B (h) ^ {\prime} z _ {t}. \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] = A (h - 1) + B (h - 1)^{\prime} \Psi z_{t} - A (h) - B (h)^{\prime} z_{t} \\ = i_{0} (1) - \frac{1}{2} B (h - 1)^{\prime} \Sigma B (h - 1) + B (h - 1)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} \\ + B (h - 1)^{\prime} \Psi z_{t} - B (h)^{\prime} z_{t}. \\ \end{array}
 $$
 
 Letting  $h\to \infty$  yields
 
 $$
-\begin{array}{l} \lim _ {h \to \infty} \mathbb {E} _ {t} [ \log P _ {t + 1} (h - 1) - \log P _ {t} (h) ] = i _ {0} (1) - \frac {1}{2} B (\infty) ^ {\prime} \Sigma B (\infty) + B (\infty) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} + B (\infty) ^ {\prime} (\Psi - I) z _ {t}, \\ \lim  _ {h \rightarrow \infty} i _ {t} (h) = i _ {0} (1) - \frac {1}{2} B (\infty) ^ {\prime} \Sigma B (\infty) + B (\infty) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}. \\ \end{array}
+\begin{array}{l} \lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B (\infty)^{\prime} (\Psi - I) z_{t}, \\ \lim_{h \rightarrow \infty} i_{t} (h) = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}. \\ \end{array}
 $$
 
 (b) Recall that
 
 $$
-\begin{array}{l} A ^ {m} (h + 1) = - i _ {0} (1) + A ^ {m} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Sigma (B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}) \\ - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ \end{array}
+\begin{array}{l} A^{m} (h + 1) = - i_{0} (1) + A^{m} (h) + x_{0} + \pi_{0} + \frac{1}{2} (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma (B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}) \\ - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ \end{array}
 $$
 
 $$
-B ^ {m} (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Psi - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1}.
+B^{m} (h + 1)^{\prime} = - e_{i}^{\prime} + \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1}.
 $$
 
 Note that  $\log P_t^m (h) = pd_t^m (h) + \log Div_t$ . Similarly,
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ \log P _ {t + 1} ^ {m} (h - 1) - \log P _ {t} ^ {m} (h) \right] \\ = \mathbb {E} _ {t} \left[ p d _ {t + 1} ^ {m} (h - 1) - p d _ {t} ^ {m} (h) + \log D i v _ {t + 1} - \log D i v _ {t} \right] \\ = A ^ {m} (h - 1) + B ^ {m} (h - 1) ^ {\prime} \Psi z _ {t} - A ^ {m} (h) - B ^ {m} (h) ^ {\prime} z _ {t} + \left(e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Psi z _ {t} \\ = i _ {0} (1) - \frac {1}{2} \left(B ^ {m} (h - 1) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {m} (h - 1) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) \\ + (B ^ {m} (h - 1) + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} + B ^ {m} (h - 1) ^ {\prime} \Psi z _ {t} - B ^ {m} (h) ^ {\prime} z _ {t} + (e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \Psi z _ {t}. \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = \mathbb {E}_{t} \left[ p d_{t + 1}^{m} (h - 1) - p d_{t}^{m} (h) + \log D i v_{t + 1} - \log D i v_{t} \right] \\ = A^{m} (h - 1) + B^{m} (h - 1)^{\prime} \Psi z_{t} - A^{m} (h) - B^{m} (h)^{\prime} z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t} \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + (B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (h - 1)^{\prime} \Psi z_{t} - B^{m} (h)^{\prime} z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Psi z_{t}. \\ \end{array}
 $$
 
 Let  $h\to \infty$  to obtain
 
 $$
-\begin{array}{l} \lim _ {h \to \infty} \mathbb {E} _ {t} \left[ \log P _ {t + 1} ^ {m} (h - 1) - \log P _ {t} ^ {m} (h) \right] \\ = i _ {0} (1) - \frac {1}{2} \left(B ^ {m} (\infty) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {m} (\infty) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) \\ + \left(B ^ {m} (\infty) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} + B ^ {m} (\infty) ^ {\prime} (\Psi - I) z _ {t} + \left(e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Psi z _ {t}, \\ \end{array}
+\begin{array}{l} \lim_{h \to \infty} \mathbb {E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (\infty)^{\prime} (\Psi - I) z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t}, \\ \end{array}
 $$
 
 where  $B^{m}(\infty)^{\prime}$  is given by
 
 $$
-B ^ {m} (\infty) ^ {\prime} = \left(- e _ {i} ^ {\prime} + (e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1})\right) \left(I - (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1})\right) ^ {- 1},
+B^{m} (\infty)^{\prime} = \left(- e_{i}^{\prime} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1})\right) \left(I - (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1})\right)^{- 1},
 $$
 
 from which we can further simplify  $(B^{m}(\infty) + e_{\Delta d} + e_{x} + e_{\pi})'$  to
 
 $$
-\begin{array}{l} \left(B ^ {m} (\infty) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} = B ^ {m} (\infty) ^ {\prime} + \left(e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} (I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)) \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1} \\ = \left(- e _ {i} ^ {\prime} + (e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}) + (e _ {\Delta d} + e _ {x} + e _ {\pi}) (I - (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}))\right) (I - (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1})) ^ {- 1} \\ = \left(- e _ {i} ^ {\prime} + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1}. \\ \end{array}
+\begin{array}{l} \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} = B^{m} (\infty)^{\prime} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} (I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)) \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1} \\ = \left(- e_{i}^{\prime} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}) + (e_{\Delta d} + e_{x} + e_{\pi}) (I - (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}))\right) (I - (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}))^{- 1} \\ = \left(- e_{i}^{\prime} + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/7a789fe0a81fa2d4ab7aacd64a5a56fb1fc8ced63e5c2ba85da3cc2980d549a9.jpg)
@@ -2495,25 +2495,25 @@ $$
 Proof. Substitute the  $n f a_{t}$ ,  $ib_{t}$ ,  $c g_{t}$  expressions into Eq. (9.4) to get:
 
 $$
-\begin{array}{l} a _ {t} \sum_ {\iota} x _ {F, t} (\iota) - a _ {t} ^ {*} \sum_ {\iota} x _ {H, t} ^ {*} (\iota) - a _ {t - 1} \sum_ {\iota} x _ {F, t - 1} (\iota) + a _ {t - 1} ^ {*} \sum_ {\iota} x _ {H, t - 1} ^ {*} (\iota) \\ = t b _ {t} + a _ {t - 1} \sum_ {\iota} x _ {F, t - 1} (\iota) d _ {t} ^ {*} (\iota) - a _ {t - 1} ^ {*} \sum_ {\iota} w _ {H, t - 1} ^ {*} (\iota) d _ {t} (\iota) + a _ {t - 1} \sum_ {\iota} x _ {F, t - 1} (\iota) \rho_ {t} ^ {*} (\iota) - a _ {t - 1} ^ {*} \sum_ {\iota} x _ {H, t - 1} ^ {*} (\iota) \rho_ {t} (\iota) \\ \end{array}
+\begin{array}{l} a_{t} \sum_{\iota} x_{F, t} (\iota) - a_{t}^{*} \sum_{\iota} x_{H, t}^{*} (\iota) - a_{t - 1} \sum_{\iota} x_{F, t - 1} (\iota) + a_{t - 1}^{*} \sum_{\iota} x_{H, t - 1}^{*} (\iota) \\ = t b_{t} + a_{t - 1} \sum_{\iota} x_{F, t - 1} (\iota) d_{t}^{*} (\iota) - a_{t - 1}^{*} \sum_{\iota} w_{H, t - 1}^{*} (\iota) d_{t} (\iota) + a_{t - 1} \sum_{\iota} x_{F, t - 1} (\iota) \rho_{t}^{*} (\iota) - a_{t - 1}^{*} \sum_{\iota} x_{H, t - 1}^{*} (\iota) \rho_{t} (\iota) \\ \end{array}
 $$
 
 Re-arrange the equation and plug in Eq. (9.3):
 
 $$
-t b _ {t} = a _ {t} - \sum_ {\iota} m _ {t} (\iota) - a _ {t - 1} \sum_ {\iota} x _ {F, t - 1} (\iota) (1 + d _ {t} ^ {*} (\iota) + \rho_ {t} ^ {*} (\iota)) + a _ {t - 1} ^ {*} \sum_ {\iota} x _ {H, t - 1} ^ {*} (1 + d _ {t} (\iota) + \rho_ {t} (\iota)).
+t b_{t} = a_{t} - \sum_{\iota} m_{t} (\iota) - a_{t - 1} \sum_{\iota} x_{F, t - 1} (\iota) (1 + d_{t}^{*} (\iota) + \rho_{t}^{*} (\iota)) + a_{t - 1}^{*} \sum_{\iota} x_{H, t - 1}^{*} (1 + d_{t} (\iota) + \rho_{t} (\iota)).
 $$
 
 Recall the dynamics of home household wealth given by Eq. (9.2):
 
 $$
-a _ {t} = a _ {t - 1} \left(\sum_ {\iota} x _ {H, t - 1} (\iota) \left(1 + d _ {t} (\iota) + \rho_ {t} (\iota)\right) + \sum_ {\iota} x _ {F, t - 1} (\iota) \left(1 + d _ {t} ^ {*} (\iota) + \rho_ {t} ^ {*} (\iota)\right)\right) + s _ {t}.
+a_{t} = a_{t - 1} \left(\sum_{\iota} x_{H, t - 1} (\iota) \left(1 + d_{t} (\iota) + \rho_{t} (\iota)\right) + \sum_{\iota} x_{F, t - 1} (\iota) \left(1 + d_{t}^{*} (\iota) + \rho_{t}^{*} (\iota)\right)\right) + s_{t}.
 $$
 
 Plug into the  $tb_{t}$  expression to get
 
 $$
-t b _ {t} = s _ {t} - \left(\sum_ {\iota} m _ {t} (\iota) - \sum_ {\iota} m _ {t - 1} (\iota) \left(1 + \rho_ {t} (\iota) + d _ {t} (\iota)\right)\right).
+t b_{t} = s_{t} - \left(\sum_{\iota} m_{t} (\iota) - \sum_{\iota} m_{t - 1} (\iota) \left(1 + \rho_{t} (\iota) + d_{t} (\iota)\right)\right).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/b77be4caf57993d96eddd827ca63d81fbe05aa8e534041c56b8369e90377e88e.jpg)
@@ -2523,67 +2523,67 @@ $$
 Proof. Conjecture that
 
 $$
-\psi_ {t} (w _ {t}, z _ {t}) = \delta^ {t} f _ {t} (z _ {t}) \frac {w _ {t} ^ {1 - \gamma}}{1 - \gamma},
+\psi_{t} (w_{t}, z_{t}) = \delta^{t} f_{t} (z_{t}) \frac{w_{t}^{1 - \gamma}}{1 - \gamma},
 $$
 
 note that households consume all their wealth in the last period, i.e.
 
 $$
-\psi_ {t} (w _ {t}, z _ {t}) = \delta^ {t} \frac {w _ {t} ^ {1 - \gamma}}{1 - \gamma}
+\psi_{t} (w_{t}, z_{t}) = \delta^{t} \frac{w_{t}^{1 - \gamma}}{1 - \gamma}
 $$
 
 which implies the boundary condition for  $f_{t}(z_{t})$ :
 
 $$
-f _ {T} (z _ {T}) = 1.
+f_{T} (z_{T}) = 1.
 $$
 
 Plug the conjectured expression of  $\psi_{t + 1}(w_{t + 1},z_{t + 1})$  into the recursive form of  $\psi_t(w_t,z_t)$  to get
 
 $$
-\begin{array}{l} \psi_ {t} \left(w _ {t}, z _ {t}\right) = \max  _ {c _ {t}, x _ {t}} \left\{\delta^ {t} \frac {c _ {t} ^ {1 - \gamma}}{1 - \gamma} + \mathbb {E} _ {t} \left[ \delta^ {t + 1} f _ {t + 1} \left(z _ {t + 1}\right) \frac {w _ {t + 1} ^ {1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max  _ {c _ {t}, x _ {t}} \left\{\delta^ {t} \frac {c _ {t} ^ {1 - \gamma}}{1 - \gamma} + \mathbb {E} _ {t} \left[ \delta^ {t + 1} f _ {t + 1} \left(z _ {t + 1}\right) \frac {\left(\left(w _ {t} - c _ {t}\right) x _ {t} ^ {\prime} \exp \left(r _ {t + 1}\right)\right) ^ {1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max  _ {c _ {t}, x _ {t}} \left\{\delta^ {t} \frac {c _ {t} ^ {1 - \gamma}}{1 - \gamma} + \delta^ {t + 1} \left(w _ {t} - c _ {t}\right) ^ {1 - \gamma} \mathbb {E} _ {t} \left[ f _ {t + 1} \left(z _ {t + 1}\right) \frac {\left(x _ {t} ^ {\prime} \exp \left(r _ {t + 1}\right)\right) ^ {1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \delta^ {t} w _ {t} ^ {1 - \gamma} \max  _ {w c _ {t}, x _ {t}} \left\{\frac {w c _ {t} ^ {\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac {1}{w c _ {t}}\right) ^ {1 - \gamma} \mathbb {E} _ {t} \left[ f _ {t + 1} \left(z _ {t + 1}\right) \frac {\left(x _ {t} ^ {\prime} \exp \left(r _ {t + 1}\right)\right) ^ {1 - \gamma}}{1 - \gamma} \right] \right\} \\ \end{array}
+\begin{array}{l} \psi_{t} \left(w_{t}, z_{t}\right) = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb {E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{w_{t + 1}^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb {E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{\left(\left(w_{t} - c_{t}\right) x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \delta^{t + 1} \left(w_{t} - c_{t}\right)^{1 - \gamma} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \delta^{t} w_{t}^{1 - \gamma} \max_{w c_{t}, x_{t}} \left\{\frac{w c_{t}^{\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac{1}{w c_{t}}\right)^{1 - \gamma} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ \end{array}
 $$
 
 since  $\delta (1 - \frac{1}{wc_t})^{1 - \gamma}$  is always positive and  $x_{t}$  only enters into the expectation term in the objective function, the optimal portfolio can be solved for independently of the optimal consumption, i.e.
 
 $$
-x _ {t} = \arg \max  _ {x _ {t}} \mathbb {E} _ {t} \left[ f _ {t + 1} \left(z _ {t + 1}\right) \frac {\left(x _ {t} ^ {\prime} \exp \left(r _ {t + 1}\right)\right) ^ {1 - \gamma}}{1 - \gamma} \right]
+x_{t} = \arg \max_{x_{t}} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
 $$
 
 which gives Eq. (9.9). For now, denote
 
 $$
-g _ {t} \left(z _ {t}\right) = \max  _ {x _ {t}} \mathbb {E} _ {t} \left[ f _ {t + 1} \left(z _ {t + 1}\right) \frac {\left(x _ {t} ^ {\prime} \exp \left(r _ {t + 1}\right)\right) ^ {1 - \gamma}}{1 - \gamma} \right]
+g_{t} \left(z_{t}\right) = \max_{x_{t}} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
 $$
 
 such that  $1 = x_{t}^{\prime}1$ . Plug  $g_{t}(z_{t})$  back into  $\psi_t(w_t,z_t)$  to get
 
 $$
-\psi_ {t} \left(w _ {t}, z _ {t}\right) = \delta^ {t} w _ {t} ^ {1 - \gamma} \max  _ {w c _ {t}} \left\{\frac {w c _ {t} ^ {\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac {1}{w c _ {t}}\right) ^ {1 - \gamma} g _ {t} \left(z _ {t}\right) \right\}
+\psi_{t} \left(w_{t}, z_{t}\right) = \delta^{t} w_{t}^{1 - \gamma} \max_{w c_{t}} \left\{\frac{w c_{t}^{\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac{1}{w c_{t}}\right)^{1 - \gamma} g_{t} \left(z_{t}\right) \right\}
 $$
 
 the first order condition w.r.t.  $wc_{t}$  gives
 
 $$
-\begin{array}{l} 0 = - w c _ {t} ^ {\gamma - 2} + \delta (1 - \gamma) (1 - \frac {1}{w c _ {t}}) ^ {- \gamma} w c _ {t} ^ {- 2} g _ {t} (z _ {t}) \\ \Rightarrow 1 = \delta (1 - \gamma) \left(w c _ {t} - 1\right) ^ {- \gamma} g _ {t} \left(z _ {t}\right) \\ \Rightarrow w c _ {t} = 1 + \left(\delta (1 - \gamma) g _ {t} \left(z _ {t}\right)\right) ^ {1 / \gamma} \\ \end{array}
+\begin{array}{l} 0 = - w c_{t}^{\gamma - 2} + \delta (1 - \gamma) (1 - \frac{1}{w c_{t}})^{- \gamma} w c_{t}^{- 2} g_{t} (z_{t}) \\ \Rightarrow 1 = \delta (1 - \gamma) \left(w c_{t} - 1\right)^{- \gamma} g_{t} \left(z_{t}\right) \\ \Rightarrow w c_{t} = 1 + \left(\delta (1 - \gamma) g_{t} \left(z_{t}\right)\right)^{1 / \gamma} \\ \end{array}
 $$
 
 Hence,  $wc_{t}$  depends only on  $t$  and  $z_{t}$  but  $w_{t}$ . Meanwhile, the first order conditions also show that
 
 $$
-g _ {t} (z _ {t}) = \frac {(w c _ {t} - 1) ^ {\gamma}}{\delta (1 - \gamma)}
+g_{t} (z_{t}) = \frac{(w c_{t} - 1)^{\gamma}}{\delta (1 - \gamma)}
 $$
 
 plug  $g_{t}(z_{t})$  back into the value function to get
 
 $$
-\begin{array}{l} \psi_ {t} \left(w _ {t}, z _ {t}\right) = \delta^ {t} w _ {t} ^ {1 - \gamma} \left[ \frac {w c _ {t} ^ {\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac {1}{w c _ {t}}\right) ^ {1 - \gamma} \frac {\left(w c _ {t} - 1\right) ^ {\gamma}}{\delta (1 - \gamma)} \right] \\ = \delta^ {t} \frac {w _ {t} ^ {1 - \gamma}}{1 - \gamma} \left[ w c _ {t} ^ {\gamma - 1} + w c _ {t} ^ {\gamma - 1} \left(w c _ {t} - 1\right) \right] \\ = \delta^ {t} \frac {w _ {t} ^ {1 - \gamma}}{1 - \gamma} w c _ {t} ^ {\gamma} \\ \end{array}
+\begin{array}{l} \psi_{t} \left(w_{t}, z_{t}\right) = \delta^{t} w_{t}^{1 - \gamma} \left[ \frac{w c_{t}^{\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac{1}{w c_{t}}\right)^{1 - \gamma} \frac{\left(w c_{t} - 1\right)^{\gamma}}{\delta (1 - \gamma)} \right] \\ = \delta^{t} \frac{w_{t}^{1 - \gamma}}{1 - \gamma} \left[ w c_{t}^{\gamma - 1} + w c_{t}^{\gamma - 1} \left(w c_{t} - 1\right) \right] \\ = \delta^{t} \frac{w_{t}^{1 - \gamma}}{1 - \gamma} w c_{t}^{\gamma} \\ \end{array}
 $$
 
 which confirms our conjecture and implies that
 
 $$
-f _ {t} (z _ {t}) = w c _ {t} ^ {\gamma}
+f_{t} (z_{t}) = w c_{t}^{\gamma}
 $$
 
 note that  $f_{T}(z_{T}) = wc_{T} = 1$ , which fulfills the boundary condition.
@@ -2595,25 +2595,25 @@ note that  $f_{T}(z_{T}) = wc_{T} = 1$ , which fulfills the boundary condition.
 Proof. When the asset returns are i.i.d., the optimal portfolio choice is given by
 
 $$
-\begin{array}{l} x _ {t} = \arg \max  _ {x _ {t}} \mathbb {E} \left[ \exp \left((1 - \gamma) r _ {t + 1} ^ {p}\right) \right] \\ = \arg \max  _ {x _ {t}} \exp (\mathbb {E} \left[ (1 - \gamma) r _ {t + 1} ^ {p} \right] + \frac {1}{2} v a r ((1 - \gamma) r _ {t + 1} ^ {p})) \\ = \arg \max  _ {x _ {t}} \mathbb {E} \left[ (1 - \gamma) r _ {t + 1} ^ {p} \right] + \frac {1}{2} \operatorname {v a r} ((1 - \gamma) r _ {t + 1} ^ {p}) \\ \end{array}
+\begin{array}{l} x_{t} = \arg \max_{x_{t}} \mathbb {E} \left[ \exp \left((1 - \gamma) r_{t + 1}^{p}\right) \right] \\ = \arg \max_{x_{t}} \exp (\mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} v a r ((1 - \gamma) r_{t + 1}^{p})) \\ = \arg \max_{x_{t}} \mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} \operatorname{va r} ((1 - \gamma) r_{t + 1}^{p}) \\ \end{array}
 $$
 
 plug  $r_{t + 1}^p$  in to get
 
 $$
-\mathbb {E} \left[ (1 - \gamma) r _ {t + 1} ^ {p} \right] + \frac {1}{2} v a r ((1 - \gamma) r _ {t + 1} ^ {p}) = (1 - \gamma) \left(x _ {t} ^ {\prime} (\mathbb {E} _ {t} [ r _ {t + 1} - r _ {t} ^ {f} ] + \frac {1}{2} \sigma_ {t} ^ {2}) + r _ {t} ^ {f} - \frac {1}{2} x _ {t} ^ {\prime} \Sigma_ {t} x _ {t}\right) + \frac {1}{2} (1 - \gamma) ^ {2} x _ {t} ^ {\prime} \Sigma_ {t} x _ {t}
+\mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} v a r ((1 - \gamma) r_{t + 1}^{p}) = (1 - \gamma) \left(x_{t}^{\prime} (\mathbb {E}_{t} [ r_{t + 1} - r_{t}^{f} ] + \frac{1}{2} \sigma_{t}^{2}) + r_{t}^{f} - \frac{1}{2} x_{t}^{\prime} \Sigma_{t} x_{t}\right) + \frac{1}{2} (1 - \gamma)^{2} x_{t}^{\prime} \Sigma_{t} x_{t}
 $$
 
 the first order condition w.r.t.  $x_{t}$  is given by
 
 $$
-\mathbb {E} _ {t} \left[ r _ {t + 1} - r _ {t} ^ {f} \right] + \frac {1}{2} \sigma_ {t} ^ {2} - \gamma \Sigma x _ {t} = 0
+\mathbb {E}_{t} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2} - \gamma \Sigma x_{t} = 0
 $$
 
 Hence,
 
 $$
-x _ {t} = \gamma^ {- 1} \Sigma_ {t} ^ {- 1} \left(\mathbb {E} \left[ r _ {t + 1} - r _ {t} ^ {f} \right] + \frac {1}{2} \sigma_ {t} ^ {2}\right).
+x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \left(\mathbb {E} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2}\right).
 $$
 
 note that  $\Sigma_t$  must be reversible, otherwise we can synthesize another risk-free assets with the risky assets.
@@ -2625,7 +2625,7 @@ note that  $\Sigma_t$  must be reversible, otherwise we can synthesize another r
 Proof. The bond market clearing condition requires that
 
 $$
-\exp (r _ {t} ^ {*}) b _ {F, t} ^ {*} + \exp (r _ {t}) n (\exp (\psi_ {t}) - 1) - m \frac {\mathbb {E} _ {t} [ r x _ {t + 1} ] + \frac {1}{2} v a r _ {t} (\Delta e _ {t + 1})}{\omega v a r _ {t} (\Delta e _ {t + 1})} = 0
+\exp (r_{t}^{*}) b_{F, t}^{*} + \exp (r_{t}) n (\exp (\psi_{t}) - 1) - m \frac{\mathbb {E}_{t} [ r x_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1})}{\omega v a r_{t} (\Delta e_{t + 1})} = 0
 $$
 
 As shocks become small, the variance term becomes second-order and drops out. Below, we log-linearize the equation around steady states  $\exp (\bar{r}) = \exp (\bar{r}^{*}) = \delta^{-1}$ ,  $\bar{\psi} = 0$ ,  $\bar{b}_H = \bar{b}_F = 0$ ,  $\bar{e} = 0$  and some  $\bar{y}$ . Note that both noise traders and intermediaries are holding zero-cost
@@ -2633,7 +2633,7 @@ As shocks become small, the variance term becomes second-order and drops out. Be
 portofolios, hence  $b_{H,t} + \exp (-e_t)b_{F,t} = 0$
 
 $$
-\begin{array}{l} \frac {\mathbb {E} _ {t} \left[ \Delta e _ {t + 1} + r _ {t} - r _ {t} ^ {*} \right]}{\omega v a r _ {t} \left(\Delta e _ {t + 1}\right) / m} = \exp (\bar {r}) n \psi_ {t} - \exp (\bar {e} + \bar {r} ^ {*} - \bar {r}) b _ {H, t} \exp (r _ {t}) \\ \Rightarrow \mathbb {E} _ {t} [ \Delta e _ {t + 1} + r _ {t} - r _ {t} ^ {*} ] = \chi_ {1} \psi_ {t} - \chi_ {2} \frac {b _ {H , t} \exp (r _ {t})}{\bar {Y}}, \\ \end{array}
+\begin{array}{l} \frac{\mathbb {E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right]}{\omega v a r_{t} \left(\Delta e_{t + 1}\right) / m} = \exp (\bar {r}) n \psi_{t} - \exp (\bar {e} + \bar {r}^{*} - \bar {r}) b_{H, t} \exp (r_{t}) \\ \Rightarrow \mathbb {E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}, \\ \end{array}
 $$
 
 where  $\chi_{1} = n\omega var_{t}(\Delta e_{t + 1}) / m\delta ,\chi_{2} = \omega var_{t}(\Delta e_{t + 1})\bar{Y} /m$
@@ -2645,13 +2645,13 @@ where  $\chi_{1} = n\omega var_{t}(\Delta e_{t + 1}) / m\delta ,\chi_{2} = \omeg
 Proof. Assuming log-normality, the 4 Euler equations can be written as
 
 $$
-\begin{array}{l} - \lambda_ {t} = \mathbb {E} _ {t} [ m _ {t + 1} ] + r _ {t} + \frac {1}{2} v a r _ {t} (m _ {t + 1}), \\ - \xi_ {t} = \mathbb {E} _ {t} [ m _ {t + 1} ] + r _ {t} ^ {*} - \mathbb {E} _ {t} [ \Delta e _ {t + 1} ] + \frac {1}{2} v a r _ {t} (m _ {t + 1}) + \frac {1}{2} v a r _ {t} (\Delta e _ {t + 1}) - c o v _ {t} (m _ {t + 1}, \Delta e _ {t + 1}), \\ - \xi_ {t} ^ {*} = \mathbb {E} _ {t} \left[ m _ {t + 1} ^ {*} \right] + r _ {t} ^ {*} + \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {*}\right), \\ - \lambda_ {t} ^ {*} = \mathbb {E} _ {t} \left[ m _ {t + 1} ^ {*} \right] + r _ {t} + \mathbb {E} _ {t} \left[ \Delta e _ {t + 1} \right] + \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {*}\right) + \frac {1}{2} v a r _ {t} \left(\Delta e _ {t + 1}\right) + c o v _ {t} \left(m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right). \\ \end{array}
+\begin{array}{l} - \lambda_{t} = \mathbb {E}_{t} [ m_{t + 1} ] + r_{t} + \frac{1}{2} v a r_{t} (m_{t + 1}), \\ - \xi_{t} = \mathbb {E}_{t} [ m_{t + 1} ] + r_{t}^{*} - \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) - c o v_{t} (m_{t + 1}, \Delta e_{t + 1}), \\ - \xi_{t}^{*} = \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t}^{*} + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right), \\ - \lambda_{t}^{*} = \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t} + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) + \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right) + c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 Adding up the first and third equation and subtracting the second and the fourth yields
 
 $$
-c o v _ {t} \big (m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1} \big) = v a r _ {t} \big (\Delta e _ {t + 1} \big) + \big (\lambda_ {t} ^ {*} - \lambda_ {t} \big) - \big (\xi_ {t} ^ {*} - \xi_ {t} \big).
+c o v_{t} \big (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1} \big) = v a r_{t} \big (\Delta e_{t + 1} \big) + \big (\lambda_{t}^{*} - \lambda_{t} \big) - \big (\xi_{t}^{*} - \xi_{t} \big).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/a82adcbb592d113b946bca8fb2732a1162f65e84ea20ca84add8e99203ccb6b0.jpg)
@@ -2661,13 +2661,13 @@ $$
 Proof. First, subtract the first first-order condition by the second and plug in the consumption aggregation equations to get:
 
 $$
-\begin{array}{l} - \gamma (\hat {c} _ {t} (a) - \hat {c} _ {t} ^ {*} (a)) + (1 - \alpha) \hat {c} _ {F, t} (a) - \alpha \hat {c} _ {F, t} ^ {*} + \alpha \hat {c} _ {H, t} ^ {*} (a) - (1 - \alpha) \hat {c} _ {H, t} (a) = 0 \\ \Rightarrow (\alpha - 1 - \gamma \alpha) \hat {c} _ {H, t} (a) + (1 - \gamma) (1 - \alpha) \hat {c} _ {F, t} (a) + (\alpha + \gamma - \gamma \alpha) \hat {c} _ {H, t} ^ {*} (a) + (\gamma - 1) \alpha \hat {c} _ {F, t} ^ {*} (a) = 0 \tag {A.40} \\ \end{array}
+\begin{array}{l} - \gamma (\hat {c}_{t} (a) - \hat {c}_{t}^{*} (a)) + (1 - \alpha) \hat {c}_{F, t} (a) - \alpha \hat {c}_{F, t}^{*} + \alpha \hat {c}_{H, t}^{*} (a) - (1 - \alpha) \hat {c}_{H, t} (a) = 0 \\ \Rightarrow (\alpha - 1 - \gamma \alpha) \hat {c}_{H, t} (a) + (1 - \gamma) (1 - \alpha) \hat {c}_{F, t} (a) + (\alpha + \gamma - \gamma \alpha) \hat {c}_{H, t}^{*} (a) + (\gamma - 1) \alpha \hat {c}_{F, t}^{*} (a) = 0 \tag {A.40} \\ \end{array}
 $$
 
 similarly, subtract the third first-order condition by the fourth and plug in the consumption aggregation equation to get:
 
 $$
-\begin{array}{l} - \gamma (\hat {c} _ {t} (a) - \hat {c} _ {t} ^ {*} (a)) - \alpha \hat {c} _ {F, t} (a) + (1 - \alpha) \hat {c} _ {F, t} ^ {*} (a) - (1 - \alpha) c _ {H, t} ^ {*} (a) + \alpha \hat {c} _ {H, t} (a) = 0 \\ \Rightarrow (1 - \gamma) \alpha \hat {c} _ {H, t} (a) + (\alpha \gamma - \gamma - \alpha) \hat {c} _ {F, t} (a) + (\gamma - 1) (1 - \alpha) \hat {c} _ {H, t} ^ {*} (a) + (\gamma \alpha + 1 - \alpha) \hat {c} _ {F, t} ^ {*} (a) = 0 \tag {A.41} \\ \end{array}
+\begin{array}{l} - \gamma (\hat {c}_{t} (a) - \hat {c}_{t}^{*} (a)) - \alpha \hat {c}_{F, t} (a) + (1 - \alpha) \hat {c}_{F, t}^{*} (a) - (1 - \alpha) c_{H, t}^{*} (a) + \alpha \hat {c}_{H, t} (a) = 0 \\ \Rightarrow (1 - \gamma) \alpha \hat {c}_{H, t} (a) + (\alpha \gamma - \gamma - \alpha) \hat {c}_{F, t} (a) + (\gamma - 1) (1 - \alpha) \hat {c}_{H, t}^{*} (a) + (\gamma \alpha + 1 - \alpha) \hat {c}_{F, t}^{*} (a) = 0 \tag {A.41} \\ \end{array}
 $$
 
 Next, consider the inactive households' consumption aggregation equations their within-period solution and plug in their budget con
@@ -2675,53 +2675,53 @@ Next, consider the inactive households' consumption aggregation equations their 
 straints to get:
 
 $$
-\alpha \hat {c} _ {H, t} (i) + (1 - \alpha) \hat {c} _ {F, t} (i) = \hat {\tau} _ {t}
+\alpha \hat {c}_{H, t} (i) + (1 - \alpha) \hat {c}_{F, t} (i) = \hat {\tau}_{t}
 $$
 
 $$
-\alpha \hat {c} _ {F, t} ^ {*} (i) + (1 - \alpha) \hat {c} _ {H, t} ^ {*} (i) = \hat {\tau} _ {t} ^ {*}
+\alpha \hat {c}_{F, t}^{*} (i) + (1 - \alpha) \hat {c}_{H, t}^{*} (i) = \hat {\tau}_{t}^{*}
 $$
 
 $$
-\hat {c} _ {H, t} (i) - \hat {c} _ {F, t} (i) = \hat {c} _ {H, t} (a) - \hat {c} _ {F, t} (a)
+\hat {c}_{H, t} (i) - \hat {c}_{F, t} (i) = \hat {c}_{H, t} (a) - \hat {c}_{F, t} (a)
 $$
 
 $$
-\hat {c} _ {H, t} ^ {*} (i) - \hat {c} _ {F, t} ^ {*} (i) = \hat {c} _ {H, t} ^ {*} (a) - \hat {c} _ {F, t} ^ {*} (a)
+\hat {c}_{H, t}^{*} (i) - \hat {c}_{F, t}^{*} (i) = \hat {c}_{H, t}^{*} (a) - \hat {c}_{F, t}^{*} (a)
 $$
 
 taken active households' consumption as given, the 4 simultaneous equations solve for inactive households' consumption:
 
 $$
-\hat {c} _ {H, t} (i) = \hat {\tau} _ {t} + (1 - \alpha) \hat {c} _ {H, t} (a) - (1 - \alpha) \hat {c} _ {F, t} (a)
+\hat {c}_{H, t} (i) = \hat {\tau}_{t} + (1 - \alpha) \hat {c}_{H, t} (a) - (1 - \alpha) \hat {c}_{F, t} (a)
 $$
 
 $$
-\hat {c} _ {F, t} (i) = \hat {\tau} _ {t} - \alpha \hat {c} _ {H, t} (a) + \alpha \hat {c} _ {F, t} (a)
+\hat {c}_{F, t} (i) = \hat {\tau}_{t} - \alpha \hat {c}_{H, t} (a) + \alpha \hat {c}_{F, t} (a)
 $$
 
 $$
-\hat {c} _ {H, t} ^ {*} (i) = \hat {\tau} _ {t} ^ {*} + \alpha \hat {c} _ {H, t} ^ {*} (a) - \alpha \hat {c} _ {F, t} ^ {*} (a)
+\hat {c}_{H, t}^{*} (i) = \hat {\tau}_{t}^{*} + \alpha \hat {c}_{H, t}^{*} (a) - \alpha \hat {c}_{F, t}^{*} (a)
 $$
 
 $$
-\hat {c} _ {F, t} ^ {*} (i) = \hat {\tau} _ {t} ^ {*} - (1 - \alpha) \hat {c} _ {H, t} ^ {*} (a) + (1 - \alpha) \hat {c} _ {F, t} ^ {*} (a)
+\hat {c}_{F, t}^{*} (i) = \hat {\tau}_{t}^{*} - (1 - \alpha) \hat {c}_{H, t}^{*} (a) + (1 - \alpha) \hat {c}_{F, t}^{*} (a)
 $$
 
 plug into the social planner's resource constraints to get
 
 $$
-\begin{array}{l} \bar {y} \hat {y} _ {t} = \phi (\bar {c} _ {H} (a) \hat {c} _ {H, t} (a) + \bar {c} _ {H} ^ {*} (a) \hat {c} _ {H, t} ^ {*} (a)) \\ + (1 - \phi) (\bar {c} _ {H} (i) (\hat {\tau} _ {t} + (1 - \alpha) \hat {c} _ {H, t} (a) - (1 - \alpha) \hat {c} _ {F, t} (a)) + \bar {c} _ {H} ^ {*} (i) (\hat {\tau} _ {t} ^ {*} + \alpha \hat {c} _ {H, t} ^ {*} (a) - \alpha \hat {c} _ {F, t} ^ {*} (a))) \\ \end{array}
+\begin{array}{l} \bar {y} \hat {y}_{t} = \phi (\bar {c}_{H} (a) \hat {c}_{H, t} (a) + \bar {c}_{H}^{*} (a) \hat {c}_{H, t}^{*} (a)) \\ + (1 - \phi) (\bar {c}_{H} (i) (\hat {\tau}_{t} + (1 - \alpha) \hat {c}_{H, t} (a) - (1 - \alpha) \hat {c}_{F, t} (a)) + \bar {c}_{H}^{*} (i) (\hat {\tau}_{t}^{*} + \alpha \hat {c}_{H, t}^{*} (a) - \alpha \hat {c}_{F, t}^{*} (a))) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \bar {y} ^ {*} \hat {y} _ {t} ^ {*} = \phi (\bar {c} _ {F} (a) \hat {c} _ {F, t} (a) + \bar {c} _ {F} ^ {*} (a) \hat {c} _ {F, t} ^ {*} (a)) \\ + (1 - \phi) (\bar {c} _ {F} (i) (\hat {\tau} _ {t} - \alpha \hat {c} _ {H, t} (a) + \alpha \hat {c} _ {F, t} (a)) + \bar {c} _ {F} ^ {*} (i) (\hat {\tau} _ {t} ^ {*} - (1 - \alpha) \hat {c} _ {H, t} ^ {*} (a) + (1 - \alpha) \hat {c} _ {F, t} ^ {*} (a))) \tag {A.43} \\ \end{array}
+\begin{array}{l} \bar {y}^{*} \hat {y}_{t}^{*} = \phi (\bar {c}_{F} (a) \hat {c}_{F, t} (a) + \bar {c}_{F}^{*} (a) \hat {c}_{F, t}^{*} (a)) \\ + (1 - \phi) (\bar {c}_{F} (i) (\hat {\tau}_{t} - \alpha \hat {c}_{H, t} (a) + \alpha \hat {c}_{F, t} (a)) + \bar {c}_{F}^{*} (i) (\hat {\tau}_{t}^{*} - (1 - \alpha) \hat {c}_{H, t}^{*} (a) + (1 - \alpha) \hat {c}_{F, t}^{*} (a))) \tag {A.43} \\ \end{array}
 $$
 
 Recast Eq. (A.40), Eq. (A.41), Eq. (A.42) and Eq. (A.43) to solve for  $\hat{c}_{H,t}(a)$ ,  $\hat{c}_{F,t}(a)$ ,  $\hat{c}_{H,t}^{*}(a)$  and  $\hat{c}_{F,t}^{*}(a)$  simultaneously:
 
 $$
-\left[ \begin{array}{c} \hat {c} _ {H, t} (a) \\ \hat {c} _ {F, t} (a) \\ \hat {c} _ {H, t} ^ {*} (a) \\ \hat {c} _ {F, t} ^ {*} (a) \end{array} \right] = A ^ {- 1} \left[ \begin{array}{c} \bar {y} \hat {y} _ {t} - (1 - \phi) \bar {c} _ {H} (i) \hat {\tau} _ {t} - (1 - \phi) \bar {c} _ {H} ^ {*} (i) \hat {\tau} _ {t} ^ {*} \\ \bar {y} ^ {*} \hat {y} _ {t} ^ {*} - (1 - \phi) \bar {c} _ {F} (i) \hat {\tau} _ {t} - (1 - \phi) \bar {c} _ {F} ^ {*} (i) \hat {\tau} _ {t} ^ {*} \\ 0 \\ 0 \end{array} \right]
+\left[ \begin{array}{c} \hat {c}_{H, t} (a) \\ \hat {c}_{F, t} (a) \\ \hat {c}_{H, t}^{*} (a) \\ \hat {c}_{F, t}^{*} (a) \end{array} \right] = A^{- 1} \left[ \begin{array}{c} \bar {y} \hat {y}_{t} - (1 - \phi) \bar {c}_{H} (i) \hat {\tau}_{t} - (1 - \phi) \bar {c}_{H}^{*} (i) \hat {\tau}_{t}^{*} \\ \bar {y}^{*} \hat {y}_{t}^{*} - (1 - \phi) \bar {c}_{F} (i) \hat {\tau}_{t} - (1 - \phi) \bar {c}_{F}^{*} (i) \hat {\tau}_{t}^{*} \\ 0 \\ 0 \end{array} \right]
 $$
 
 where  $A$  is given by
@@ -2731,19 +2731,19 @@ A =
 $$
 
 $$
-\left[ \begin{array}{c c c c} \phi \bar {c} _ {H} (a) + (1 - \phi) (1 - \alpha) \bar {c} _ {H} (i) & - (1 - \phi) (1 - \alpha) \bar {c} _ {H} (i) & \phi \bar {c} _ {H} ^ {*} (a) + (1 - \phi) \alpha \bar {c} _ {H} ^ {*} (i) & - (1 - \phi) \alpha \bar {c} _ {H} ^ {*} (i) \\ - (1 - \phi) \alpha \bar {c} _ {F} (i) & \phi \bar {c} _ {F} (a) + (1 - \phi) \alpha \bar {c} _ {F} (i) & - (1 - \phi) (1 - \alpha) \bar {c} _ {F} ^ {*} (i) & \phi \bar {c} _ {F} ^ {*} (a) + (1 - \phi) (1 - \alpha) \bar {c} _ {F} ^ {*} (i) \\ \alpha - 1 - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha + \gamma - \gamma \alpha & (\gamma - 1) \alpha \\ (\gamma - 1) \alpha & \alpha + \gamma - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha - 1 - \gamma \alpha \end{array} \right]
+\left[ \begin{array}{c c c c} \phi \bar {c}_{H} (a) + (1 - \phi) (1 - \alpha) \bar {c}_{H} (i) & - (1 - \phi) (1 - \alpha) \bar {c}_{H} (i) & \phi \bar {c}_{H}^{*} (a) + (1 - \phi) \alpha \bar {c}_{H}^{*} (i) & - (1 - \phi) \alpha \bar {c}_{H}^{*} (i) \\ - (1 - \phi) \alpha \bar {c}_{F} (i) & \phi \bar {c}_{F} (a) + (1 - \phi) \alpha \bar {c}_{F} (i) & - (1 - \phi) (1 - \alpha) \bar {c}_{F}^{*} (i) & \phi \bar {c}_{F}^{*} (a) + (1 - \phi) (1 - \alpha) \bar {c}_{F}^{*} (i) \\ \alpha - 1 - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha + \gamma - \gamma \alpha & (\gamma - 1) \alpha \\ (\gamma - 1) \alpha & \alpha + \gamma - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha - 1 - \gamma \alpha \end{array} \right]
 $$
 
 Finally, the exchange rate is given by
 
 $$
-\hat {e} _ {t} = - \gamma (\hat {c} _ {t} (a) - \hat {c} _ {t} ^ {*} (a))
+\hat {e}_{t} = - \gamma (\hat {c}_{t} (a) - \hat {c}_{t}^{*} (a))
 $$
 
 meanwhile, adding up active and inactive households' consumption yields the total consumption, i.e.
 
 $$
-\begin{array}{l} \hat {c} _ {t} = \phi \bar {c} _ {t} (a) \hat {c} _ {t} (a) + (1 - \phi) \bar {c} _ {t} (i) \hat {c} _ {t} (i) \\ \hat {c} _ {t} ^ {*} = \phi \bar {c} _ {t} ^ {*} (a) \hat {c} _ {t} ^ {*} (a) + (1 - \phi) \bar {c} _ {t} ^ {*} (i) \hat {c} _ {t} ^ {*} (i) \\ \end{array}
+\begin{array}{l} \hat {c}_{t} = \phi \bar {c}_{t} (a) \hat {c}_{t} (a) + (1 - \phi) \bar {c}_{t} (i) \hat {c}_{t} (i) \\ \hat {c}_{t}^{*} = \phi \bar {c}_{t}^{*} (a) \hat {c}_{t}^{*} (a) + (1 - \phi) \bar {c}_{t}^{*} (i) \hat {c}_{t}^{*} (i) \\ \end{array}
 $$
 
 □
@@ -2753,83 +2753,83 @@ $$
 Proof. First, we show the steady state under in special case where  $\pi = 1/2$ ,  $\bar{y} = \bar{y}^* = 1$ ,  $\bar{\tau} = \bar{\tau}^* = \alpha^\alpha (1 - \alpha)^{1 - \alpha}$ . Note that the two countries are perfectly symmetric in the steady state. Hence,  $\bar{c}_{H,t}(.) = \bar{c}_{F,t}^*(.)$ ,  $\bar{c}_{F,t}(.) = \bar{c}_{H,t}^*(.)$ . Plug this equality into the active households' first-order conditions and divide the first first-order condition by the second one to get:
 
 $$
-\frac {\bar {c} _ {F , t} (a)}{\bar {c} _ {H , t} (a)} = \frac {1 - \alpha}{\alpha}.
+\frac{\bar {c}_{F , t} (a)}{\bar {c}_{H , t} (a)} = \frac{1 - \alpha}{\alpha}.
 $$
 
 As shown above, this also implies
 
 $$
-\frac {\bar {c} _ {F , t} (i)}{\bar {c} _ {H , t} (i)} = \frac {1 - \alpha}{\alpha}.
+\frac{\bar {c}_{F , t} (i)}{\bar {c}_{H , t} (i)} = \frac{1 - \alpha}{\alpha}.
 $$
 
 Recall that  $(\bar{c}_{H,t}(i))^{\alpha}(\bar{c}_{F,t}(i))^{1 - \alpha} = \tau$ , hence
 
 $$
-\bar {c} _ {H} (i) = \frac {\alpha}{(1 - \alpha) ^ {1 - \alpha} \alpha^ {\alpha}} \bar {\tau} = \alpha ,
+\bar {c}_{H} (i) = \frac{\alpha}{(1 - \alpha)^{1 - \alpha} \alpha^{\alpha}} \bar {\tau} = \alpha ,
 $$
 
 $$
-\bar {c} _ {F} (i) = \frac {1 - \alpha}{(1 - \alpha) ^ {1 - \alpha} \alpha^ {\alpha}} \bar {\tau} = 1 - \alpha .
+\bar {c}_{F} (i) = \frac{1 - \alpha}{(1 - \alpha)^{1 - \alpha} \alpha^{\alpha}} \bar {\tau} = 1 - \alpha .
 $$
 
 Plugging the steady state consumption into the earlier intermediate results and letting  $\alpha \rightarrow 1$  yields:
 
 $$
-\left[ \begin{array}{c} \hat {c} _ {H, t} (a) \\ \hat {c} _ {F, t} (a) \\ \hat {c} _ {H, t} ^ {*} (a) \\ \hat {c} _ {F, t} ^ {*} (a) \end{array} \right] = \left[ \begin{array}{c c c c} \frac {1}{\phi} & 0 & 0 & 0 \\ - \frac {\gamma - 1}{\phi} & \frac {\gamma}{\phi} & 0 & 1 \\ \frac {\gamma}{\phi} & - \frac {\gamma - 1}{\phi} & 1 & 0 \\ 0 & \frac {1}{\phi} & 0 & 0 \end{array} \right] \left[ \begin{array}{c} \hat {y} _ {t} - (1 - \phi) \hat {\tau} _ {t} \\ \hat {y} _ {t} ^ {*} - (1 - \phi) \hat {\tau} _ {t} ^ {*} \\ 0 \\ 0 \end{array} \right],
+\left[ \begin{array}{c} \hat {c}_{H, t} (a) \\ \hat {c}_{F, t} (a) \\ \hat {c}_{H, t}^{*} (a) \\ \hat {c}_{F, t}^{*} (a) \end{array} \right] = \left[ \begin{array}{c c c c} \frac{1}{\phi} & 0 & 0 & 0 \\ - \frac{\gamma - 1}{\phi} & \frac{\gamma}{\phi} & 0 & 1 \\ \frac{\gamma}{\phi} & - \frac{\gamma - 1}{\phi} & 1 & 0 \\ 0 & \frac{1}{\phi} & 0 & 0 \end{array} \right] \left[ \begin{array}{c} \hat {y}_{t} - (1 - \phi) \hat {\tau}_{t} \\ \hat {y}_{t}^{*} - (1 - \phi) \hat {\tau}_{t}^{*} \\ 0 \\ 0 \end{array} \right],
 $$
 
 which implies
 
 $$
-\hat {c} _ {t} (a) = \frac {1}{\phi} (\hat {y} _ {t} - (1 - \phi) \hat {\tau} _ {t}), \quad \hat {c} _ {t} ^ {*} (a) = \frac {1}{\phi} (\hat {y} _ {t} ^ {*} - (1 - \phi) \hat {\tau} _ {t} ^ {*}).
+\hat {c}_{t} (a) = \frac{1}{\phi} (\hat {y}_{t} - (1 - \phi) \hat {\tau}_{t}), \quad \hat {c}_{t}^{*} (a) = \frac{1}{\phi} (\hat {y}_{t}^{*} - (1 - \phi) \hat {\tau}_{t}^{*}).
 $$
 
 Note that when  $\alpha \to 1$ ,  $\bar{c}(i) = \bar{c}^*(i) = \bar{\tau} \to 1$ . Also,  $\bar{c}(a) = \bar{c}^*(a) \to 1$ . Hence,
 
 $$
-\begin{array}{l} \hat {c} _ {t} = \phi \bar {c} (a) \hat {c} _ {t} (a) + (1 - \phi) \bar {c} (i) \hat {c} _ {t} (i) \\ = \hat {y} _ {t} - (1 - \phi) \hat {\tau} _ {t} + (1 - \phi) \hat {\tau} _ {t} \\ = \hat {y} _ {t}, \\ \end{array}
+\begin{array}{l} \hat {c}_{t} = \phi \bar {c} (a) \hat {c}_{t} (a) + (1 - \phi) \bar {c} (i) \hat {c}_{t} (i) \\ = \hat {y}_{t} - (1 - \phi) \hat {\tau}_{t} + (1 - \phi) \hat {\tau}_{t} \\ = \hat {y}_{t}, \\ \end{array}
 $$
 
 which implies
 
 $$
-\begin{array}{l} \hat {e} _ {t} = - \frac {\gamma}{\phi} (\hat {y} _ {t} - \hat {y} _ {t} ^ {*}) + \frac {\gamma}{\phi} (1 - \phi) (\hat {\tau} _ {t} - \hat {\tau} _ {t} ^ {*}), \\ \hat {c} _ {t} ^ {*} - \hat {c} _ {t} = - (\hat {y} _ {t} - \hat {y} _ {t} ^ {*}). \\ \end{array}
+\begin{array}{l} \hat {e}_{t} = - \frac{\gamma}{\phi} (\hat {y}_{t} - \hat {y}_{t}^{*}) + \frac{\gamma}{\phi} (1 - \phi) (\hat {\tau}_{t} - \hat {\tau}_{t}^{*}), \\ \hat {c}_{t}^{*} - \hat {c}_{t} = - (\hat {y}_{t} - \hat {y}_{t}^{*}). \\ \end{array}
 $$
 
 And the covariance is given by
 
 $$
-\begin{array}{l} c o v _ {t} (\hat {e} _ {t + 1}, \hat {e} _ {t + 1} ^ {*} - \hat {e} _ {t + 1}) = \frac {\gamma}{\phi} \left(v a r (\hat {y} _ {t + 1} - \hat {y} _ {t + 1} ^ {*}) - (1 - \phi) c o v _ {t} (\hat {\tau} _ {t + 1} - \hat {\tau} _ {t + 1} ^ {*}, \hat {y} _ {t + 1} - \hat {y} _ {t + 1} ^ {*})\right) \\ = \frac {\gamma}{\phi} \left(2 \sigma_ {y} ^ {2} - 2 (1 - \phi) \rho \sigma_ {y} \sigma_ {\tau}\right), \\ \end{array}
+\begin{array}{l} c o v_{t} (\hat {e}_{t + 1}, \hat {e}_{t + 1}^{*} - \hat {e}_{t + 1}) = \frac{\gamma}{\phi} \left(v a r (\hat {y}_{t + 1} - \hat {y}_{t + 1}^{*}) - (1 - \phi) c o v_{t} (\hat {\tau}_{t + 1} - \hat {\tau}_{t + 1}^{*}, \hat {y}_{t + 1} - \hat {y}_{t + 1}^{*})\right) \\ = \frac{\gamma}{\phi} \left(2 \sigma_{y}^{2} - 2 (1 - \phi) \rho \sigma_{y} \sigma_{\tau}\right), \\ \end{array}
 $$
 
 $$
-\begin{array}{l} c o r r _ {t} (\hat {e} _ {t + 1}, \hat {c} _ {t + 1} ^ {*} - \hat {c} _ {t + 1}) = \frac {\frac {\gamma}{\phi} \left(2 \sigma_ {y} ^ {2} - 2 (1 - \phi) \rho \sigma_ {y} \sigma_ {\tau}\right)}{\frac {\gamma}{\phi} 2 \sigma_ {y} \sqrt {\sigma_ {y} ^ {2} + (1 - \phi) ^ {2} \sigma_ {\tau} ^ {2} - 2 (1 - \phi) \rho \sigma_ {y} \sigma_ {\tau}}} \\ = \frac {1 - (1 - \phi) \rho \frac {\sigma_ {\tau}}{\sigma_ {y}}}{\sqrt {1 + (1 - \phi) ^ {2} \frac {\sigma_ {\tau} ^ {2}}{\sigma_ {y} ^ {2}} - 2 (1 - \phi) \rho \frac {\sigma_ {\tau}}{\sigma_ {y}}}}. \\ \end{array}
+\begin{array}{l} c o r r_{t} (\hat {e}_{t + 1}, \hat {c}_{t + 1}^{*} - \hat {c}_{t + 1}) = \frac{\frac{\gamma}{\phi} \left(2 \sigma_{y}^{2} - 2 (1 - \phi) \rho \sigma_{y} \sigma_{\tau}\right)}{\frac{\gamma}{\phi} 2 \sigma_{y} \sqrt{\sigma_{y}^{2} + (1 - \phi)^{2} \sigma_{\tau}^{2} - 2 (1 - \phi) \rho \sigma_{y} \sigma_{\tau}}} \\ = \frac{1 - (1 - \phi) \rho \frac{\sigma_{\tau}}{\sigma_{y}}}{\sqrt{1 + (1 - \phi)^{2} \frac{\sigma_{\tau}^{2}}{\sigma_{y}^{2}} - 2 (1 - \phi) \rho \frac{\sigma_{\tau}}{\sigma_{y}}}}. \\ \end{array}
 $$
 
 where
 
 $$
-\rho = c o r r _ {t} (\hat {\tau} _ {t + 1}, \hat {y} _ {t + 1}) = c o r r _ {t} (\hat {\tau} _ {t + 1} ^ {*}, \hat {y} _ {t + 1} ^ {*}),
+\rho = c o r r_{t} (\hat {\tau}_{t + 1}, \hat {y}_{t + 1}) = c o r r_{t} (\hat {\tau}_{t + 1}^{*}, \hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_ {y} ^ {2} = v a r _ {t} (\hat {y} _ {t + 1}) = v a r _ {t} (\hat {y} _ {t + 1} ^ {*}),
+\sigma_{y}^{2} = v a r_{t} (\hat {y}_{t + 1}) = v a r_{t} (\hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_ {\tau} ^ {2} = v a r _ {t} \left(\hat {\tau} _ {t + 1}\right) = v a r _ {t} \left(\hat {\tau} _ {t + 1} ^ {*}\right).
+\sigma_{\tau}^{2} = v a r_{t} \left(\hat {\tau}_{t + 1}\right) = v a r_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
 $$
 
 However, note that the Backus-Smith correlation is still 1 for active households' consumption. To see this, recall that the exchange rate is given by
 
 $$
-\hat {e} _ {t + 1} = \gamma (\hat {c} _ {t + 1} ^ {*} (a) - \hat {c} _ {t + 1} (a)).
+\hat {e}_{t + 1} = \gamma (\hat {c}_{t + 1}^{*} (a) - \hat {c}_{t + 1} (a)).
 $$
 
 Hence,
 
 $$
-\operatorname {c o r r} _ {t} \left(\hat {e} _ {t + 1}, \hat {c} _ {t + 1} ^ {*} (a) - \hat {c} _ {t + 1} (a)\right) = 1.
+\operatorname{co rr}_{t} \left(\hat {e}_{t + 1}, \hat {c}_{t + 1}^{*} (a) - \hat {c}_{t + 1} (a)\right) = 1.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/1d28d8a574d417037d3c94d147cc980a08e7ab877ac5e18bd36b26bfbcb36bc6.jpg)

@@ -56,11 +56,11 @@ In this chapter, we'll focus on the simplest version of the factor-proportions m
 Both cloth and food are produced using capital and labor. The amount of each good produced, given how much capital and labor are employed in each sector, is determined by a production function for each good:
 
 $$
-Q _ {C} = Q _ {C} (K _ {C}, L _ {C}),
+Q_{C} = Q_{C} (K_{C}, L_{C}),
 $$
 
 $$
-Q _ {F} = Q _ {F} \left(K _ {F}, L _ {F}\right),
+Q_{F} = Q_{F} \left(K_{F}, L_{F}\right),
 $$
 
 where  $Q_{C}$  and  $Q_{F}$  are the output levels of cloth and food,  $K_{C}$  and  $L_{C}$  are the amounts of capital and labor employed in cloth production, and  $K_{F}$  and  $L_{F}$  are the amounts of capital and labor employed in food production. Overall, the economy has a fixed supply of capital  $K$  and labor  $L$  that is divided between employment in the two sectors.
@@ -74,13 +74,13 @@ These unit input requirements are very similar to the ones defined in the Ricard
 In general, those choices will depend on the factor prices for labor and capital. However, let's first look at a special case in which there is only one way to produce each good. Consider the following numerical example: Production of one yard of cloth requires a combination of two work-hours and two machine-hours. The production of food is more automated; as a result, production of one calorie of food requires only one work-hour along with three machine-hours. Thus, all the unit input requirements are fixed at  $a_{KC} = 2$ ;  $a_{LC} = 2$ ;  $a_{KF} = 3$ ;  $a_{LF} = 1$ ; and there is no possibility of substituting labor for capital or vice versa. Assume that an economy is endowed with 3,000 units of machine-hours along with 2,000 units of work-hours. In this special case of no factor substitution in production, the economy's production possibility frontier can be derived using those two resource constraints for capital and labor. Production of  $Q_{C}$  yards of cloth requires  $2Q_{C} = a_{KC} \times Q_{C}$  machine-hours and  $2Q_{C} = a_{LC} \times Q_{C}$  work-hours. Similarly, production of  $Q_{F}$  calories of food requires  $3Q_{F} = a_{KF} \times Q_{F}$  machine-hours and  $1Q_{F} = a_{LF} \times Q_{F}$  work-hours. The total machine-hours used for both cloth and food production cannot exceed the total supply of capital:
 
 $$
-a _ {K C} \times Q _ {C} + a _ {K F} \times Q _ {F} \leq K \text {o r} 2 Q _ {C} + 3 Q _ {F} \leq 3, 0 0 0. \tag {5-1}
+a_{K C} \times Q_{C} + a_{K F} \times Q_{F} \leq K \text{or} 2 Q_{C} + 3 Q_{F} \leq 3, 0 0 0. \tag {5-1}
 $$
 
 This is the resource constraint for capital. Similarly, the resource constraint for labor states that the total work-hours used in production cannot exceed the total supply of labor:
 
 $$
-a _ {L C} \times Q _ {C} + a _ {L F} \times Q _ {F} \leq L \text {o r} 2 Q _ {C} + Q _ {F} \leq 2, 0 0 0. \tag {5-2}
+a_{L C} \times Q_{C} + a_{L F} \times Q_{F} \leq L \text{or} 2 Q_{C} + Q_{F} \leq 2, 0 0 0. \tag {5-2}
 $$
 
 Figure 5-1 shows the implications of (5-1) and (5-2) for the production possibilities in our numerical example. Each resource constraint is drawn in the same way we drew the production possibility line for the Ricardian case in Figure 3-1. In this case, however, the economy must produce subject to both constraints, so the production possibility frontier is the solid line. If the economy specializes in food production (point 1), then it can produce 1,000 calories of food. At that production point, there is spare labor capacity: Only 1,000 work-hours out of 2,000 are employed. Conversely, if the economy specializes in cloth production (point 2), then it can produce 1,000 yards of cloth. At that production point, there is spare capital capacity: Only 2,000 machine-hours out of 3,000 are employed. At production point 3, the economy is employing all of its labor and capital resources (1,500 machine-hours and 1,500 work-hours in cloth production, and 1,500 machine-hours along with 500 work-hours in food production).<sup>1</sup>
@@ -108,7 +108,7 @@ If capital can be substituted for labor and vice versa, the production possibili
 of production. Figure 5-3 shows what this implies. The value of the economy's production is
 
 $$
-V = P _ {C} \times Q _ {C} + P _ {F} \times Q _ {F},
+V = P_{C} \times Q_{C} + P_{F} \times Q_{F},
 $$
 
 where  $P_{C}$  and  $P_{F}$  are the prices of cloth and food, respectively. An isovalue line—a line along which the value of output is constant—has a slope of  $-P_{C} / P_{F}$ . The economy produces at the point  $Q$ , the point on the production possibility frontier that touches the highest possible isovalue line. At that point, the slope of the production possibility frontier is equal to  $-P_{C} / P_{F}$ . So the opportunity cost in terms of food of producing another unit of cloth is equal to the relative price of cloth.
@@ -543,13 +543,13 @@ Units of capital used to produce one calorie of food,  $a_{KF}$
 one is able to produce a unit of food using units of labor and units of capital, the total cost of producing that unit,  $c$ , is
 
 $$
-c = w a _ {L F} + r a _ {K F}.
+c = w a_{L F} + r a_{K F}.
 $$
 
 A line showing all combinations of  $a_{LF}$  and  $a_{KF}$  with the same cost has the equation
 
 $$
-a _ {K F} = (c / r) - (w / r) a _ {L F}.
+a_{K F} = (c / r) - (w / r) a_{L F}.
 $$
 
 That is, it is a straight line with a slope of  $-w / r$ .
@@ -592,7 +592,7 @@ Once again, we must draw a line just tangent to both isoquants; the slope of tha
 We now examine more rigorously how a change in resources—holding the prices of cloth and food constant—affects the allocation of those factors of production across sectors and how it thus affects production responses. The aggregate employment of labor to capital  $L / K$  can be written as a weighted average of the labor-capital employed in the cloth sector  $(L_{C} / K_{C})$  and in the food sector  $(L_{F} / K_{F})$ :
 
 $$
-\frac {L}{K} = \frac {K _ {C}}{K} \frac {L _ {C}}{K _ {C}} + \frac {K _ {F}}{K} \frac {L _ {F}}{K _ {F}} \tag {5A-1}
+\frac{L}{K} = \frac{K_{C}}{K} \frac{L_{C}}{K_{C}} + \frac{K_{F}}{K} \frac{L_{F}}{K_{F}} \tag {5A-1}
 $$
 
 # FIGURE 5A-4

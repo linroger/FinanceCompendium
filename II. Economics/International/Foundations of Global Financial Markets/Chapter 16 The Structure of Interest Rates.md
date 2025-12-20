@@ -209,7 +209,7 @@ After-tax yield  $= 0.03 \times (1 - 0.35) = 0.0195 = 1.95\%$ .
 
 Alternatively, we can determine the yield that must be offered on a taxable bond issue to give the same after-tax yield as a tax-exempt issue. This yield is called the equivalent-taxable yield and is determined as follows:
 
-Equivalent-taxable yield  $= \frac{\text{Tax-exempt yield}}{(1 - \text{Marginal tax rate})}$ .
+Equivalent-taxable yield  $= \frac{\text{Tax-exemptyield}}{(1 - \text{Marginaltaxrate})}$ .
 
 For example, consider an investor facing a  $35\%$  marginal tax rate who purchases a tax-exempt issue with a yield of  $1.95\%$ . The equivalent-taxable yield is:
 
@@ -308,7 +308,7 @@ Let's start by considering the six-month Treasury bill in table 16.1. As we expl
 The present value of the cash flow is then:
 
 $$
-\frac {\mathbb {S} 4 . 2 5}{(1 + z _ {1}) ^ {1}} + \frac {\mathbb {S} 4 . 2 5}{(1 + z _ {2}) ^ {2}} + \frac {\mathbb {S} 1 0 4 . 2 5}{(1 + z _ {3}) ^ {3}},
+\frac{\mathbb {S} 4 . 2 5}{(1 + z_{1})^{1}} + \frac{\mathbb {S} 4 . 2 5}{(1 + z_{2})^{2}} + \frac{\mathbb {S} 1 0 4 . 2 5}{(1 + z_{3})^{3}},
 $$ where
 
 
@@ -318,19 +318,19 @@ $z_{3} =$  one-half the 1.5-year theoretical spot rate.
 
 Because the six-month spot rate and the one-year spot rate are  $8.0\%$  and  $8.3\%$ , respectively, we know these facts:
 
-$$ z _ {1} = 0. 0 4 \text {a n d} z _ {2} = 0. 0 4 1 5.
+$$ z_{1} = 0. 0 4 \text{an d} z_{2} = 0. 0 4 1 5.
 $$
 
 We can compute the present value of the 1.5-year coupon Treasury security as follows:
 
 $$
-\frac {\mathbb {S} 4 . 2 5}{(1 . 0 4 0 0) ^ {1}} + \frac {\mathbb {S} 4 . 2 5}{(1 . 0 4 1 5) ^ {2}} + \frac {\mathbb {S} 1 0 4 . 2 5}{(1 + z _ {3}) ^ {3}}.
+\frac{\mathbb {S} 4 . 2 5}{(1 . 0 4 0 0)^{1}} + \frac{\mathbb {S} 4 . 2 5}{(1 . 0 4 1 5)^{2}} + \frac{\mathbb {S} 1 0 4 . 2 5}{(1 + z_{3})^{3}}.
 $$
 
 Because the price of the 1.5-year coupon Treasury security (from table 16.1) is 99.45, the following relationship between the market price and the present value of the cash flow must hold:
 
 $$
-\$ 99.45 = \frac{\$ 4.25}{(1.0400) ^ {1}} +\frac{\$ 4.25}{(1.0415) ^ {2}} +\frac{\$ 104.25}{(1 + z _ {3}) ^ {3}}.
+\$ 99.45 = \frac{\$ 4.25}{(1.0400)^{1}} +\frac{\$ 4.25}{(1.0415)^{2}} +\frac{\$ 104.25}{(1 + z_{3})^{3}}.
 $$
 
 We can solve for the theoretical 1.5-year spot rate to obtain a value of  $z_{3}$  of 0.04465.
@@ -347,23 +347,23 @@ Given the theoretical 1.5-year spot rate, we can obtain the theoretical two-year
 The present value of the cash flow is then:
 
 $$
-\frac {\mathbb {S} 4 . 5 0}{(1 + z _ {1}) ^ {1}} + \frac {\mathbb {S} 4 . 5 0}{(1 + z _ {2}) ^ {2}} + \frac {\mathbb {S} 4 . 5 0}{(1 + z _ {3}) ^ {3}} + \frac {\mathbb {S} 1 0 4 . 5 0}{(1 + z _ {4}) ^ {4}}
+\frac{\mathbb {S} 4 . 5 0}{(1 + z_{1})^{1}} + \frac{\mathbb {S} 4 . 5 0}{(1 + z_{2})^{2}} + \frac{\mathbb {S} 4 . 5 0}{(1 + z_{3})^{3}} + \frac{\mathbb {S} 1 0 4 . 5 0}{(1 + z_{4})^{4}}
 $$ where  $z_{4}$  is half of the two-year theoretical spot rate. Because the six-month spot rate, the one-year spot rate, and the 1.5-year spot rate are  $8.0\%$ ,  $8.3\%$ , and  $8.93\%$ , respectively, then
 
 
-$$ z _ {1} = 0. 0 4, z _ {2} = 0. 0 4 1 5, \text {a n d} z _ {3} = 0. 0 4 4 6 5.
+$$ z_{1} = 0. 0 4, z_{2} = 0. 0 4 1 5, \text{an d} z_{3} = 0. 0 4 4 6 5.
 $$
 
 Therefore, the present value of the two-year Treasury security is
 
 $$
-\frac {\mathbb {S} 4 . 5 0}{(1 . 0 4 0 0) ^ {1}} + \frac {\mathbb {S} 4 . 5 0}{(1 . 0 4 1 5) ^ {2}} + \frac {\mathbb {S} 4 . 5 0}{(1 . 0 4 4 6 5) ^ {3}} + \frac {\mathbb {S} 1 0 4 . 5 0}{(1 + z _ {4}) ^ {4}}.
+\frac{\mathbb {S} 4 . 5 0}{(1 . 0 4 0 0)^{1}} + \frac{\mathbb {S} 4 . 5 0}{(1 . 0 4 1 5)^{2}} + \frac{\mathbb {S} 4 . 5 0}{(1 . 0 4 4 6 5)^{3}} + \frac{\mathbb {S} 1 0 4 . 5 0}{(1 + z_{4})^{4}}.
 $$
 
 Because the price of the two-year coupon Treasury security is 99.64, the following relationship must hold:
 
 $$
-\$ 99.64 = \frac {\$ 4 . 5 0}{(1 . 0 4 0 0) ^ {1}} + \frac {\$ 4 . 5 0}{(1 . 0 4 1 5) ^ {2}} + \frac {\$ 4 . 5 0}{(1 . 0 4 4 6 5) ^ {3}} + \frac {\$ 1 0 4 . 5 0}{(1 + z _ {4}) ^ {4}}.
+\$ 99.64 = \frac{\$ 4 . 5 0}{(1 . 0 4 0 0)^{1}} + \frac{\$ 4 . 5 0}{(1 . 0 4 1 5)^{2}} + \frac{\$ 4 . 5 0}{(1 . 0 4 4 6 5)^{3}} + \frac{\$ 1 0 4 . 5 0}{(1 + z_{4})^{4}}.
 $$
 
 Solving for the theoretical two-year spot rate, we would find that  $z_{4}$  is 0.046235. Doubling this yield, we obtain the theoretical two-year spot rate bond-equivalent yield of  $9.247\%$ .
@@ -417,12 +417,12 @@ Total dollars at the end of year for alternative 2 = \ 100(1 + z_{1})(1 + f).
 The investor will be indifferent between the two alternatives if the total dollars are the same. Setting the two equations for the total dollars at the end of one year for the two alternatives equal, we get:
 
 $$
-\$ 100 (1 + z _ {2}) ^ {2} = \$ 100 (1 + z _ {1}) (1 + f).
+\$ 100 (1 + z_{2})^{2} = \$ 100 (1 + z_{1}) (1 + f).
 $$
 
 Solving the preceding equation for  $f$ , we get:
 
-$$ f = \frac {(1 + z _ {2}) ^ {2}}{(1 + z _ {1})} - 1.
+$$ f = \frac{(1 + z_{2})^{2}}{(1 + z_{1})} - 1.
 $$
 
 Doubling  $f$  gives the bond-equivalent yield for the six-month rate six months from now that we are interested in.
@@ -435,7 +435,7 @@ One-year spot rate  $= 0.083$ ; therefore,  $z_{2} = 0.0415$ .
 
 Substituting into the formula, we have:
 
-$$ f = \frac {(1 . 0 4 1 5) ^ {2}}{(1 . 0 4 0 0)} = 0. 0 4 3.
+$$ f = \frac{(1 . 0 4 1 5)^{2}}{(1 . 0 4 0 0)} = 0. 0 4 3.
 $$
 
 Therefore, the forward rate on a six-month security, quoted on a bond-equivalent basis, is
@@ -463,7 +463,7 @@ Remember our time periods are still six-month periods. Given the preceding notat
 It can be demonstrated that the formula to compute any forward rate is
 
 $$
-{ } _ { t } f _ { m } = \left[ \frac { ( 1 + z _ { m + t } ) ^ { m + t } } { ( 1 + z _ { m } ) ^ { m } } \right] ^ { 1 / t } - 1 .
+{ }_{ t } f_{ m } = \left[ \frac{ ( 1 + z_{ m + t } )^{ m + t } } { ( 1 + z_{ m } )^{ m } } \right]^{ 1 / t } - 1 .
 $$
 
 Notice that if  $t = 1$ , the formula reduces to the one-period (six-month) forward rate.
@@ -471,7 +471,7 @@ Notice that if  $t = 1$ , the formula reduces to the one-period (six-month) forw
 To illustrate, for the spot rates shown in table 16.2, suppose that an investor wants to know the two-year forward rate three years from now. In terms of the notation,  $t = 4$  and  $m = 6$ . Substituting for  $t$  and  $m$  into the equation for the forward rate, we have:
 
 $$
-{ } _ { 4 } f _ { 6 } = \left[ \frac { ( 1 + z _ { 6 + 4 } ) ^ { 6 + 4 } } { ( 1 + z _ { 6 } ) ^ { 6 } } \right] ^ { 1 / 4 } - 1 .
+{ }_{ 4 } f_{ 6 } = \left[ \frac{ ( 1 + z_{ 6 + 4 } )^{ 6 + 4 } } { ( 1 + z_{ 6 } )^{ 6 } } \right]^{ 1 / 4 } - 1 .
 $$
 
 This expression means that the following spot rates are needed:  $z_{6}$  (the three-year spot rate) and  $z_{10}$  (the five-year spot rate). From table 16.3, we know:
@@ -483,7 +483,7 @@ $z_{10}$  (the five-year spot rate)  $= 13.623\% / 2 = 6.812\% = 0.06812$
 Then we have
 
 $$
-{ } _ { 4 } f _ { 6 } = \left[ \frac { ( 1 . 0 6 8 1 2 ) ^ { 1 0 } } { ( 1 . 0 4 8 9 4 ) ^ { 6 } } \right] ^ { 1 / 4 } - 1 .
+{ }_{ 4 } f_{ 6 } = \left[ \frac{ ( 1 . 0 6 8 1 2 )^{ 1 0 } } { ( 1 . 0 4 8 9 4 )^{ 6 } } \right]^{ 1 / 4 } - 1 .
 $$
 
 Therefore,  ${}_{4}{f}_{6}$  is equal to  ${9.755}\%$  ,and doubling this rate gives  ${19.510}\%$  ,the forward rate on a bond-equivalent basis.
@@ -491,13 +491,13 @@ Therefore,  ${}_{4}{f}_{6}$  is equal to  ${9.755}\%$  ,and doubling this rate g
 We can verify this result. Investing 100 for 10 periods at the semiannual spot rate of 6.812\% will produce the following value:
 
 $$
-\$ 100(1.06812) ^ {1 0} = \$ 193.2 8 6.
+\$ 100(1.06812)^{1 0} = \$ 193.2 8 6.
 $$
 
 Investing 100 for six periods at 4.894\% and reinvesting the proceeds for four periods at the forward rate of 9.755\% gives the same value:
 
 $$
-\$ 100 (1. 0 4 8 9 4) ^ {6} (1. 0 9 7 5 5) ^ {4} = \$ 1 9 3. 2 8 6.
+\$ 100 (1. 0 4 8 9 4)^{6} (1. 0 9 7 5 5)^{4} = \$ 1 9 3. 2 8 6.
 $$
 
 Relationship between spot rates and short-term forward rates Suppose an investor purchases a five-year, zero-coupon Treasury security for \$58.48 with a maturity value of \$100. The investor could instead buy a six-month Treasury bill and reinvest the proceeds every six months for five years. The number of dollars that will be realized will depend on the six-month forward rates. Suppose that the investor can actually reinvest the proceeds maturing every six months at the implied six-month forward rates.
@@ -505,7 +505,7 @@ Relationship between spot rates and short-term forward rates Suppose an investor
 Let us see how many dollars would accumulate at the end of five years. The implied six-month forward rates were calculated for the yield curve given in table 16.2. Letting  $f_{t}$  denote the six-month forward rate beginning  $t$  six-month periods from now, the semiannual implied forward rates using the spot rates shown in table 16.2 are:
 
 $$
-\begin{array}{l} f _ {1} = 0. 0 4 3 0 0 0, \quad f _ {2} = 0. 0 5 0 9 8 0, \quad f _ {3} = 0. 0 5 1 0 0 5, \quad f _ {4} = 0. 0 5 1 7 7 0, \\ f _ {5} = 0. 0 5 6 9 4 5, f _ {6} = 0. 0 6 0 9 6 5, f _ {7} = 0. 0 6 9 3 1 0, f _ {8} = 0. 0 6 4 6 2 5, \\ f _ {9} = 0. 0 6 2 8 3 0. \\ \end{array}
+\begin{array}{l} f_{1} = 0. 0 4 3 0 0 0, \quad f_{2} = 0. 0 5 0 9 8 0, \quad f_{3} = 0. 0 5 1 0 0 5, \quad f_{4} = 0. 0 5 1 7 7 0, \\ f_{5} = 0. 0 5 6 9 4 5, f_{6} = 0. 0 6 0 9 6 5, f_{7} = 0. 0 6 9 3 1 0, f_{8} = 0. 0 6 4 6 2 5, \\ f_{9} = 0. 0 6 2 8 3 0. \\ \end{array}
 $$
 
 By investing the 58.48 at the six-month spot rate of 4\% (8\% on a bond-equivalent basis) and reinvesting at the foregoing forward rates, the number of dollars accumulated at the end of five years will be
@@ -518,13 +518,13 @@ Therefore, we see that if the implied forward rates are realized, the 58.48 inve
 
 In general, the relationship between a  $t$ -period spot rate, the current six-month spot rate, and the implied six-month forward rates is:
 
-$$ z _ {t} = \left[ \left(1 + z _ {1}\right) \left(1 + f _ {1}\right) \left(1 + f _ {2}\right) \left(1 + f _ {3}\right) \dots \left(1 + f _ {t - 1}\right) \right] ^ {1 / t - 1}.
+$$ z_{t} = \left[ \left(1 + z_{1}\right) \left(1 + f_{1}\right) \left(1 + f_{2}\right) \left(1 + f_{3}\right) \dots \left(1 + f_{t - 1}\right) \right]^{1 / t - 1}.
 $$
 
 To illustrate how to use this equation, let's look at how the five-year (10-period) spot rate is related to the six-month forward rates. Substituting into the preceding equation the relevant forward rates just given and the one-period spot rate of  $4\%$  (half of the  $8\%$  annual spot rate), we obtain:
 
 $$
-\begin{array}{l} z _ {1 0} = [ (1. 0 4) (1. 0 4 3) (1. 0 5 0 9 8) (1. 0 5 1 0 0 5) (1. 0 5 1 7 7) (1. 0 5 6 9 4 5) (1. 0 6 0 9 6 5) \\ (1.069310) (1.064625)(1.06283)]^{1 / 10} - 1 = 5.51\%. \\ \end{array}
+\begin{array}{l} z_{1 0} = [ (1. 0 4) (1. 0 4 3) (1. 0 5 0 9 8) (1. 0 5 1 0 0 5) (1. 0 5 1 7 7) (1. 0 5 6 9 4 5) (1. 0 6 0 9 6 5) \\ (1.069310) (1.064625)(1.06283)]^{1 / 10} - 1 = 5.51\%. \\ \end{array}
 $$
 
 Doubling  $5.51\%$  gives an annual spot rate of  $11.02\%$ , which agrees with the spot rate given in table 16.2.

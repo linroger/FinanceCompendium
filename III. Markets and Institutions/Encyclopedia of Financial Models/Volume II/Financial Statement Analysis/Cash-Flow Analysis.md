@@ -16,7 +16,7 @@ One of the key financial measures that an analyst should understand is the compa
 
 # DIFFICULTIES WITH MEASURING CASH FLOW
 $$
-\begin{array}{l} = \text {N e t i n c o m e} + \text {D e p r e c i a t i o n a n d} \\ = \$ 4,352 \text {m i l l i o n} + 1,693 \text {m i l l i o n} \\ = \$ 6,045 \text {m i l l o n} \\ \end{array}
+\begin{array}{l} = \text{Ne ti nc om e} + \text{De pr ec ia ti on an d} \\ = \$ 4,352 \text{mi ll io n} + 1,693 \text{mi ll io n} \\ = \$ 6,045 \text{mi ll on} \\ \end{array}
 $$
 
 This amount is not really a cash flow, but simply earnings before depreciation and amortization. Is this a cash flow that stock analysts should use in valuing a company? Though not a cash flow, this estimated cash flow does allow a quick comparison of income across firms that may use different depreciation methods and depreciable lives. (As an example of the use of this estimate of cash flow, The Value Line Investment Survey, published by Value Line, Inc., reports a cash flow per share amount, calculated as reported earnings plus depreciation, minus any preferred dividends, stated per share of common stock.) [Guide to Using the Value Line Investment Survey (New York: Value Line, Inc.), p. 19.]
@@ -217,7 +217,7 @@ A useful ratio to help further assess a company's cash flow is the cash flow-to-
 
 
 $$
-\begin{array}{l} \text {C a s h f l o w - t o - c a p i t a l e x p e d i t u t e r s} \\ = \frac {\text {C a s h f l o w}}{\text {C a p i t a l e x p e n d i t u r e s}} \\ \end{array}
+\begin{array}{l} \text{Ca sh fl ow -t o -c ap it al ex pe di tu te rs} \\ = \frac{\text{Ca sh fl ow}}{\text{Ca pi ta le xp en di tu re s}} \\ \end{array}
 $$
 
 The cash-flow measure in the numerator should be one that has not already removed capital expenditures; for example, including free cash flow in the numerator would be inappropriate.
@@ -228,7 +228,7 @@ This ratio provides information about the financial flexibility of the company a
 Another useful cash flow ratio is the cash flow-to-debt ratio:
 
 $$
-\text {C a s h f l o w t o d e b t} = \frac {\text {C a s h f l o w}}{\text {D e b t}}
+\text{Ca sh fl ow to de bt} = \frac{\text{Ca sh fl ow}}{\text{De bt}}
 $$ where debt can be represented as total debt, long-term debt, or a debt measure that captures a specific range of maturity (e.g., debt maturing in five years). This ratio gives a measure of a company's ability to meet maturing debt obligations. A more specific formulation of this ratio is Fitch's CFAR ratio, which compares a company's three-year average net free cash flow to its maturing debt over the next five years (see McConville, 1996). By comparing the company's average net free cash flow to the expected obligations in the near term (that is, five years), this ratio provides information on the company's credit quality.
 
 

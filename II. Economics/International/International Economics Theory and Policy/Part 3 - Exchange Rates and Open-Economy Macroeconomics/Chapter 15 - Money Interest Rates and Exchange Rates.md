@@ -128,7 +128,7 @@ Three main factors determine aggregate money demand:
 If  $P$  is the price level,  $R$  is the interest rate, and  $Y$  is real GNP, the aggregate demand for money,  $M^d$ , can be expressed as
 
 $$
-M ^ {d} = P \times L (R, Y), \tag {15-1}
+M^{d} = P \times L (R, Y), \tag {15-1}
 $$
 
 where the value of  $L(R, Y)$  falls when  $R$  rises, and rises when  $Y$  rises. To see why we have specified that aggregate money demand is proportional to the price level, imagine that all prices doubled but the interest rate and everyone's real incomes remained unchanged. The money value of each individual's average daily transactions would then simply double, as would the amount of money each wished to hold.
@@ -136,7 +136,7 @@ where the value of  $L(R, Y)$  falls when  $R$  rises, and rises when  $Y$  rise
 We usually write the aggregate money demand relation (15-1) in the equivalent form
 
 $$
-M ^ {d} / P = L (R, Y), \tag {15-2}
+M^{d} / P = L (R, Y), \tag {15-2}
 $$
 
 and call \( L(R, Y) \) aggregate real money demand. This way of expressing money demand shows that the aggregate demand for liquidity, \( L(R, Y) \), is not a demand for a certain number of currency units but is instead a demand to hold a certain amount of real purchasing power in liquid form. The ratio \( M^d / P \) that is, desired money holdings measured in terms of a typical reference basket of commodities—equals the amount of real purchasing power people would like to hold in liquid form. For example, if people wished to hold \(1,000 in cash at a price level of \)100 per commodity basket, their real money holdings would be equivalent to \(1,000 / (\)100 per basket) = 10 baskets. If the price level doubled (to \$200 per basket), the purchasing power of their \(1,000 in cash would be halved, since it would now be worth only 5 baskets.
@@ -178,13 +178,13 @@ equilibrium, given the price level and output, both of which are temporarily ass
 If  $M^s$  is the money supply, the condition for equilibrium in the money market is
 
 $$
-M ^ {s} = M ^ {d}. \tag {15-3}
+M^{s} = M^{d}. \tag {15-3}
 $$
 
 After dividing both sides of this equality by the price level, we can express the money market equilibrium condition in terms of aggregate real money demand as
 
 $$
-M ^ {s} / P = L (R, Y). \tag {15-4}
+M^{s} / P = L (R, Y). \tag {15-4}
 $$
 
 Given the price level,  $P$ , and the level of output,  $Y$ , the equilibrium interest rate is the one at which aggregate real money demand equals the real money supply.
@@ -318,13 +318,13 @@ In studying how monetary changes work themselves out over the long run, we will 
 If the price level and output are fixed in the short run, the condition (15-4) of money market equilibrium,
 
 $$
-M ^ {s} / P = L (R, Y),
+M^{s} / P = L (R, Y),
 $$
 
 determines the domestic interest rate,  $R$ . The money market always moves to equilibrium, however, even if we drop our "short-run" assumption and think of periods over which  $P$  and  $Y$ , as well as  $R$ , can vary. The preceding equilibrium condition can therefore be rearranged to give
 
 $$
-P = M ^ {s} / L (R, Y), \tag {15-5}
+P = M^{s} / L (R, Y), \tag {15-5}
 $$
 
 which shows how the price level depends on the interest rate, real output, and the domestic money supply.

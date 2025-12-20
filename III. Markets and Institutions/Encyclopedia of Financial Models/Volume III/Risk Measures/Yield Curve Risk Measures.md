@@ -135,20 +135,20 @@ Table 5 Valuation of 5-Year  $6 \%$  Coupon Bond Using Spot Rates
 To compute the key rate duration of the 5-year bond, we must select some key rates. We assume the key rates are 0.5, 3, and 5 years. To compute the 0.5-year key rate duration, we shift the 0.5-year rate upwards by 20 basis points and adjust the neighboring spot rates between 0.5 and 3 years as described earlier. (The choice of 20 basis points is arbitrary.) Figure 2 shows the initial spot curve and the spot curve after the 0.5-year key rate and neighboring rates are shifted. The next step is to compute the bond's new value as a result of the shift. This calculation is shown in Table 6. The bond's value to the shift is 107.30. To estimate the 0.5-year key rate duration, we divide the percentage change in the bond's price as a result of the shift in the spot curve by the change in the 0.5-year key rate. Accordingly, we employ the following formula:
 
 $$
-\text {K e y r a t e d u r a t i o n} = \frac {P _ {0} - P _ {1}}{P _ {0} (\Delta y)}
+\text{Ke yr at ed ur at io n} = \frac{P_{0} - P_{1}}{P_{0} (\Delta y)}
 $$ where
 
 
 $$
-P _ {0} = \text {t h e b o n d ' s v a l u e u s i n g t h e i n i t i a l s p o t}
+P_{0} = \text{th eb on d 's va lu eu si ng th ei ni ti al sp ot}
 $$
 
 $$
-\begin{array}{l} P _ {1} = \text {t h e b o n d ' s v a l u e a f t e r t h e s h i f t i n t h e} \\ \text {s p o t c u r v e} \end{array}
+\begin{array}{l} P_{1} = \text{th eb on d 's va lu ea ft er th es hi ft in th e} \\ \text{sp ot cu rv e} \end{array}
 $$
 
 $$
-\Delta y = \text {s h i f t}
+\Delta y = \text{sh if t}
 $$
 
 Substituting in numbers from our illustration presented above, we can compute the 0.5-year
@@ -162,11 +162,11 @@ Figure 2 Graph of the Initial Spot Curve and the Spot Curve after the 0.5-Year K
 
 
 $$
-P _ {0} = 1 0 7. 3 2
+P_{0} = 1 0 7. 3 2
 $$
 
 $$
-P _ {1} = 1 0 7. 3 0
+P_{1} = 1 0 7. 3 0
 $$
 
 $$
@@ -190,14 +190,14 @@ Figure 4 Graph of the Initial Spot Curve and the Spot Curve after the 5-Year Key
 5-year key rates. Then, we compute the bond's new value as a result of the shift. The bond's postshift value is 107.25 and the calculation appears in Table 7. Accordingly, the 3-year key rate duration is computed as follows:
 
 $$
-\begin{array}{l} 3 - \text {y e a r k e y r a t e d u r a t i o n} = \frac {1 0 7 . 3 2 - 1 0 7 . 2 5}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 0. 3 2 6 1 \\ \end{array}
+\begin{array}{l} 3 - \text{ye ar ke yr at ed ur at io n} = \frac{1 0 7 . 3 2 - 1 0 7 . 2 5}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 0. 3 2 6 1 \\ \end{array}
 $$
 
 The final step is to compute the 5-year key duration. We shift the 5-year rate by 20 basis points and adjust the neighboring spot rates. Figure 4 presents a graph of the initial spot curve and the spot curve after the 5-year key rate and neighboring rates are shifted. The bond's postshift value is 106.48 and the calculation appears in Table 8. Accordingly, the 5-year key rate duration is computed as follows:
 
 
 $$
-\begin{array}{l} 5 \text {y e a r k e y r a t e d u r a t i o n} = \frac {1 0 7 . 3 2 - 1 0 6 . 4 8}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 3. 9 1 3 5 \\ \end{array}
+\begin{array}{l} 5 \text{ye ar ke yr at ed ur at io n} = \frac{1 0 7 . 3 2 - 1 0 6 . 4 8}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 3. 9 1 3 5 \\ \end{array}
 $$
 
 Table 7 Valuation of the 5-Year  $6 \%$  Coupon Bond After 3-Year Key Rate and Neighboring Spot Rates Change
@@ -239,7 +239,7 @@ Yield curve reshaping duration, introduced by Klaffky, Ma, and Nozari (1992), fo
 To calculate the SEDUR of each security in the portfolio, the percentage change in the security's price is calculated for (1) a steepening of the yield curve at the short end by 50 basis points, and (2) a flattening of the yield curve at the short end of the yield curve by 50 basis points. Then the security's SEDUR is computed as follows:
 
 $$
-\mathrm {S E D U R} = \frac {P _ {s} - P _ {f}}{2 P _ {0} (\Delta y)}
+\mathrm{SE DU R} = \frac{P_{s} - P_{f}}{2 P_{0} (\Delta y)}
 $$ where
 
 
@@ -254,7 +254,7 @@ $\Delta y =$  number of basis points by which the yield curve is changed
 To calculate the LEDUR, the same procedure is used for each security in the portfolio: Calculate the price for (1) a flattening of the yield curve at the long end by 50 basis points, and (2) a steepening of the yield curve at the long end of the yield curve by 50 basis points. Then the security's LEDUR is computed as follows:
 
 $$
-\mathrm {L E D U R} = \frac {P _ {f} - P _ {s}}{2 P _ {0} (\Delta y)}
+\mathrm{LE DU R} = \frac{P_{f} - P_{s}}{2 P_{0} (\Delta y)}
 $$
 
 For an illustration, see Fabozzi (1999).

@@ -24,24 +24,24 @@ In this entry we highlight the main steps for estimating the RND associated with
 The RND is recovered from a bundle of European vanilla call and put option prices on the same underlying asset  $X$  and with the same maturity  $T$ . The options differ in the exercise price  $K$ . Denoting with  $f(\cdot)$  the probability density function of the underlying asset  $X$  under the risk-neutral probability measure  $\mathbb{Q}$ , the European vanilla call price for strike  $K$  is
 
 $$
-C (K) = e ^ {- r T} \int_ {K} ^ {\infty} \left(X _ {T} - K\right) f \left(X _ {T}\right) d X _ {T} \tag {1}
+C (K) = e^{- r T} \int_{K}^{\infty} \left(X_{T} - K\right) f \left(X_{T}\right) d X_{T} \tag {1}
 $$ where  $r$  is the continuous compounding risk-free rate.
 
 
 The partial derivative of 1 with respect to the strike price  $K$
 
 $$
-\begin{array}{l} \frac {\partial C}{\partial K} = e ^ {- r T} \frac {\partial}{\partial k} \left[ \int_ {K} ^ {\infty} (X _ {T} - K) f (X _ {T}) d X _ {T} \right] \\ = - e ^ {- r T} \int_ {K} ^ {\infty} f (X _ {T}) d X _ {T} = - e ^ {- r T} [ 1 - F (K) ] \\ \end{array}
+\begin{array}{l} \frac{\partial C}{\partial K} = e^{- r T} \frac{\partial}{\partial k} \left[ \int_{K}^{\infty} (X_{T} - K) f (X_{T}) d X_{T} \right] \\ = - e^{- r T} \int_{K}^{\infty} f (X_{T}) d X_{T} = - e^{- r T} [ 1 - F (K) ] \\ \end{array}
 $$ where  $F(\cdot)$  is the cumulative distribution function under the risk-neutral measure. Thus
 
 
 $$
-F (K) = e ^ {r T} \frac {\partial C}{\partial K} + 1 \tag {2}
+F (K) = e^{r T} \frac{\partial C}{\partial K} + 1 \tag {2}
 $$
 
 The RND probability function  $f$  can be obtained by derivation of the cumulative function  $F$
 
-$$ f (K) = e ^ {r T} \frac {\partial^ {2} C}{\partial K ^ {2}} \tag {3}
+$$ f (K) = e^{r T} \frac{\partial^{2} C}{\partial K^{2}} \tag {3}
 $$
 
 One could then try to reconstruct either  $F$  or  $f$  from a grid of option prices using finite difference schemes. However, such numerical methods are notoriously unreliable and very sensitive to the sample of option prices available.
@@ -58,22 +58,22 @@ The strategy for parametric models represented by a vector of parameters  $\thet
 Given the availability of  $N$  European call options  $\{C(K_{i_j})\}_{j = 1,\dots,N}$  and  $M$  put options  $\{P(K_{s_j})\}_{j = i,\dots,M}$ , all with the same maturity  $T$ , the problem that must be solved is the minimization of the function
 
 $$
-\begin{array}{l} H _ {1} (\theta) = \sum_ {j = 1} ^ {N} \left[ C \left(K _ {i _ {j}}\right) - C ^ {m k t} \left(K _ {i _ {j}}\right) \right] ^ {2} \\ + \sum_ {j = 1} ^ {M} \left[ P \left(K _ {s _ {j}}\right) - P ^ {m k t} \left(K _ {s _ {j}}\right) \right] ^ {2} \tag {4} \\ \end{array}
+\begin{array}{l} H_{1} (\theta) = \sum_{j = 1}^{N} \left[ C \left(K_{i_{j}}\right) - C^{m k t} \left(K_{i_{j}}\right) \right]^{2} \\ + \sum_{j = 1}^{M} \left[ P \left(K_{s_{j}}\right) - P^{m k t} \left(K_{s_{j}}\right) \right]^{2} \tag {4} \\ \end{array}
 $$ subject to the forward constraint  $\mathbb{E}^{\mathbb{Q}}[X_T] = F_0$  where  $F_{0}$  is the forward price on the same underlying asset  $X$  and the last term of the sum accounts for the forward martingale condition that must be satisfied for any parametric model. The notation  $C^{mkt}$ , and  $P^{mkt}$ , relates, respectively, to the actual option prices from the market. The function  $H$  is a discrepancy measure between the theoretical prices obtained under the chosen parametric RND  $f(\cdot ;\theta)$  and the market prices.
 
 
 While the  $H$  in (4) is widely used in practice, it is sometimes useful to consider other potential discrepancy measures such as
 
 $$
-\begin{array}{l} H _ {2} (\theta) = \sum_ {j = 1} ^ {N} \frac {\left[ C \left(K _ {i _ {j}}\right) - C ^ {m k t} \left(K _ {i _ {j}}\right) \right] ^ {2}}{C ^ {m k t} \left(K _ {i _ {j}}\right)} \\ + \sum_ {j = 1} ^ {M} \frac {\left[ P \left(K _ {s _ {j}}\right) - P ^ {m k t} \left(K _ {s _ {j}}\right) \right] ^ {2}}{P ^ {m k t} \left(K _ {s _ {j}}\right)} \\ \end{array}
+\begin{array}{l} H_{2} (\theta) = \sum_{j = 1}^{N} \frac{\left[ C \left(K_{i_{j}}\right) - C^{m k t} \left(K_{i_{j}}\right) \right]^{2}}{C^{m k t} \left(K_{i_{j}}\right)} \\ + \sum_{j = 1}^{M} \frac{\left[ P \left(K_{s_{j}}\right) - P^{m k t} \left(K_{s_{j}}\right) \right]^{2}}{P^{m k t} \left(K_{s_{j}}\right)} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} H _ {3} (\theta) = \sum_ {j = 1} ^ {N} \frac {\left[ C \left(K _ {i _ {j}}\right) - C ^ {m k t} \left(K _ {i _ {j}}\right) \right] ^ {2}}{C \left(K _ {i _ {j}}\right)} \\ + \sum_ {j = 1} ^ {M} \frac {\left[ P \left(K _ {s _ {j}}\right) - P ^ {m k t} \left(K _ {s _ {j}}\right) \right] ^ {2}}{P \left(K _ {s _ {j}}\right)} \\ \end{array}
+\begin{array}{l} H_{3} (\theta) = \sum_{j = 1}^{N} \frac{\left[ C \left(K_{i_{j}}\right) - C^{m k t} \left(K_{i_{j}}\right) \right]^{2}}{C \left(K_{i_{j}}\right)} \\ + \sum_{j = 1}^{M} \frac{\left[ P \left(K_{s_{j}}\right) - P^{m k t} \left(K_{s_{j}}\right) \right]^{2}}{P \left(K_{s_{j}}\right)} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} H _ {4} (\theta) = \sum_ {j = 1} ^ {N} \left| \left[ C \left(K _ {i _ {j}}\right) - C ^ {m k t} \left(K _ {i _ {j}}\right) \right] \right| \\ + \sum_ {j = 1} ^ {M} \left| \left[ P \left(K _ {s _ {j}}\right) - P ^ {m k t} \left(K _ {s _ {j}}\right) \right] \right| \\ \end{array}
+\begin{array}{l} H_{4} (\theta) = \sum_{j = 1}^{N} \left| \left[ C \left(K_{i_{j}}\right) - C^{m k t} \left(K_{i_{j}}\right) \right] \right| \\ + \sum_{j = 1}^{M} \left| \left[ P \left(K_{s_{j}}\right) - P^{m k t} \left(K_{s_{j}}\right) \right] \right| \\ \end{array}
 $$
 
 Since the market option prices that do not satisfy put-call parity are filtered out of the data used for calibration, it is possible to work with call prices only or with put prices only, if that is more convenient numerically.
@@ -90,21 +90,21 @@ Here we illustrate the RND estimation procedure for two special cases, the gener
 The GIG distribution has been advocated for applications in financial modeling due to its flexibility to fit heavy tails (see Bibby and Sorensen, 2003). The probability density function of the GIG distribution is
 
 $$
-\begin{array}{l} f _ {\mathrm {G I G}} (x; \lambda , \chi , \psi) = \frac {x ^ {\lambda - 1} \exp \left[ - \frac {1}{2} \left(\chi x ^ {- 1} + \psi x\right) \right]}{k _ {\lambda} (\chi , \psi)} \\ \times I _ {(0, \infty)} (x) \tag {5} \\ \end{array}
+\begin{array}{l} f_{\mathrm{GI G}} (x; \lambda , \chi , \psi) = \frac{x^{\lambda - 1} \exp \left[ - \frac{1}{2} \left(\chi x^{- 1} + \psi x\right) \right]}{k_{\lambda} (\chi , \psi)} \\ \times I_{(0, \infty)} (x) \tag {5} \\ \end{array}
 $$ where
 
 
-$$ k _ {\lambda} (\chi , \psi) = \int_ {0} ^ {\infty} x ^ {\lambda - 1} \exp \left[ - \frac {1}{2} \left(\chi x ^ {- 1} + \psi x\right) \right] d x
+$$ k_{\lambda} (\chi , \psi) = \int_{0}^{\infty} x^{\lambda - 1} \exp \left[ - \frac{1}{2} \left(\chi x^{- 1} + \psi x\right) \right] d x
 $$ is a normalizing constant that is related to the modified Bessel function of the third kind,
 
 
 $$
-K _ {v} (z) = \frac {1}{2} \int_ {0} ^ {\infty} t ^ {v - 1} \exp \left[ - \frac {z}{2} \left(t ^ {- 1} + t\right) \right] d t \tag {6}
+K_{v} (z) = \frac{1}{2} \int_{0}^{\infty} t^{v - 1} \exp \left[ - \frac{z}{2} \left(t^{- 1} + t\right) \right] d t \tag {6}
 $$ via
 
 
 $$
-\mathrm {k} _ {\lambda} (\chi , \psi) = 2 \left(\frac {\chi}{\psi}\right) ^ {\lambda / 2} K _ {\lambda} (\sqrt {\chi \psi}) \tag {7}
+\mathrm{k}_{\lambda} (\chi , \psi) = 2 \left(\frac{\chi}{\psi}\right)^{\lambda / 2} K_{\lambda} (\sqrt{\chi \psi}) \tag {7}
 $$
 
 Further technical details on this distribution can be found in Paolella (2007).
@@ -119,13 +119,13 @@ There are also two boundary cases possible: (1)  $\lambda > 0$ ,  $\chi = 0$  an
 
 
 $$
-\begin{array}{l} P (K) = K e ^ {- r T} F _ {G I G} (K; \lambda , \chi , \psi) \\ - e ^ {- r T} \int_ {0} ^ {K} x F _ {\mathrm {G I G}} (x; \lambda , \chi , \psi) \mathrm {d} x \\ = K e ^ {- r T} F _ {\mathrm {G I G}} (K; \lambda , \chi , \psi) \\ - e ^ {- r T} \frac {k _ {\lambda + 1} (\chi , \psi)}{k _ {\lambda} (\chi , \psi)} \\ \times \int_ {0} ^ {K} f _ {\mathrm {G I G}} (x; \lambda + 1, \chi , \psi) \mathrm {d} x \\ = K e ^ {- r T} F _ {\mathrm {G I G}} (K; \lambda , \chi , \psi) \\ - e ^ {- r T} \sqrt {\frac {\chi}{\psi}} \frac {K _ {\lambda + 1} (\sqrt {\chi \psi})}{K _ {\lambda} (\sqrt {\chi \psi})} \\ \times F _ {\mathrm {G I G}} (K; \lambda + 1, \chi , \psi) \\ \end{array}
+\begin{array}{l} P (K) = K e^{- r T} F_{G I G} (K; \lambda , \chi , \psi) \\ - e^{- r T} \int_{0}^{K} x F_{\mathrm{GI G}} (x; \lambda , \chi , \psi) \mathrm{d} x \\ = K e^{- r T} F_{\mathrm{GI G}} (K; \lambda , \chi , \psi) \\ - e^{- r T} \frac{k_{\lambda + 1} (\chi , \psi)}{k_{\lambda} (\chi , \psi)} \\ \times \int_{0}^{K} f_{\mathrm{GI G}} (x; \lambda + 1, \chi , \psi) \mathrm{d} x \\ = K e^{- r T} F_{\mathrm{GI G}} (K; \lambda , \chi , \psi) \\ - e^{- r T} \sqrt{\frac{\chi}{\psi}} \frac{K_{\lambda + 1} (\sqrt{\chi \psi})}{K_{\lambda} (\sqrt{\chi \psi})} \\ \times F_{\mathrm{GI G}} (K; \lambda + 1, \chi , \psi) \\ \end{array}
 $$
 
 This formula can be rewritten in terms of the forward price  $F_0 = \mathbb{E}^Q (X_T)$  as
 
 $$
-\begin{array}{l} P (K) = K e ^ {- r T} F _ {\mathrm {G I G}} (K; \lambda , \chi , \psi) \\ - F _ {0} e ^ {- r T} F _ {\mathrm {G I G}} (K; \lambda + 1, \chi , \psi) \tag {8} \\ \end{array}
+\begin{array}{l} P (K) = K e^{- r T} F_{\mathrm{GI G}} (K; \lambda , \chi , \psi) \\ - F_{0} e^{- r T} F_{\mathrm{GI G}} (K; \lambda + 1, \chi , \psi) \tag {8} \\ \end{array}
 $$
 
 # RND Estimation with the LnMix Distribution
@@ -136,24 +136,24 @@ The importance of fat tails and non-normal distributions in modeling equity stoc
 If  $LN(x;\alpha ,\beta)$  is the lognormal distribution with parameters  $\alpha$  and  $\beta$ , then the LnMix distribution is given by the following probability density function
 
 $$
-\begin{array}{l} f _ {L N} (x; \alpha_ {1}, \beta_ {1}, \alpha_ {2}, \beta_ {2}, \eta) = \eta L N (x; \alpha_ {1}, \beta_ {1}) \\ + (1 - \eta) L N (x; \alpha_ {2}, \beta_ {2}) \tag {9} \\ \end{array}
+\begin{array}{l} f_{L N} (x; \alpha_{1}, \beta_{1}, \alpha_{2}, \beta_{2}, \eta) = \eta L N (x; \alpha_{1}, \beta_{1}) \\ + (1 - \eta) L N (x; \alpha_{2}, \beta_{2}) \tag {9} \\ \end{array}
 $$
 
 Bahra (1997) described the formulas for pricing European vanilla call and put options
 
 $$
-\begin{array}{l} C (K) = e ^ {- r T} \left\{\eta \left[ e ^ {\left(\alpha_ {1} + 0. 5 \beta_ {1} ^ {2}\right)} N (d _ {1}) - K N (d _ {2}) \right] \right. \\ + (1 - \eta) \left[ e ^ {\left(\alpha_ {2} + 0. 5 \beta_ {2} ^ {2}\right)} N \left(d _ {3}\right) - K N \left(d _ {4}\right) \right] \} \\ \end{array}
+\begin{array}{l} C (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0. 5 \beta_{1}^{2}\right)} N (d_{1}) - K N (d_{2}) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0. 5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P (K) = e ^ {- r T} \left\{\eta \left[ e ^ {\left(\alpha_ {1} + 0. 5 \beta_ {1} ^ {2}\right)} N \left(d _ {1}\right) - K N \left(d _ {2}\right) \right] \right. \\ + (1 - \eta) \left[ e ^ {\left(\alpha_ {2} + 0. 5 \beta_ {2} ^ {2}\right)} N \left(d _ {3}\right) - K N \left(d _ {4}\right) \right] \} \\ \end{array}
+\begin{array}{l} P (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0. 5 \beta_{1}^{2}\right)} N \left(d_{1}\right) - K N \left(d_{2}\right) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0. 5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
 $$ where
 
 
-$$ d _ {1} = \frac {\alpha_ {1} + \beta_ {1} ^ {2} - \log (K)}{\beta_ {1}}, \quad d _ {2} = d _ {1} - \beta_ {1}
+$$ d_{1} = \frac{\alpha_{1} + \beta_{1}^{2} - \log (K)}{\beta_{1}}, \quad d_{2} = d_{1} - \beta_{1}
 $$
 
-$$ d _ {3} = \frac {\alpha_ {2} + \beta_ {2} ^ {2} - \log (K)}{\beta_ {2}}, d _ {4} = d _ {3} - \beta_ {2}
+$$ d_{3} = \frac{\alpha_{2} + \beta_{2}^{2} - \log (K)}{\beta_{2}}, d_{4} = d_{3} - \beta_{2}
 $$ and  $N$  is the standard normal cumulative distribution function.
 
 

@@ -703,13 +703,13 @@ $$
 Foreign's export supply is also a straight line,
 
 $$
-\left(Q ^ {*} - D ^ {*}\right) = g + h P _ {W}, \tag {10A-4}
+\left(Q^{*} - D^{*}\right) = g + h P_{W}, \tag {10A-4}
 $$
 
 where  $P_W$  is the world price. The internal price in Home will exceed the world price by the tariff
 
 $$
-\widetilde {P} = P _ {W} + t. \tag {10A-5}
+\widetilde {P} = P_{W} + t. \tag {10A-5}
 $$
 
 # The Tariff and Prices
@@ -719,19 +719,19 @@ A tariff drives a wedge between internal and world prices, driving the internal 
 In world equilibrium, Home import demand equals Foreign export supply:
 
 $$
-(a - e) - (b + f) \times \left(P _ {W} + t\right) = g + h P _ {W}. \tag {10A-6}
+(a - e) - (b + f) \times \left(P_{W} + t\right) = g + h P_{W}. \tag {10A-6}
 $$
 
 Let  $P_F$  be the world price that would prevail if there were no tariff. Then a tariff,  $t$ , will raise the internal price to
 
 $$
-\widetilde {P} = P _ {F} + \operatorname {t h} / (b + f + h), \tag {10A-7}
+\widetilde {P} = P_{F} + \operatorname{th} / (b + f + h), \tag {10A-7}
 $$
 
 while lowering the world price to
 
 $$
-P _ {W} = P _ {F} - t (b + f) / (b + f + h). \tag {10A-8}
+P_{W} = P_{F} - t (b + f) / (b + f + h). \tag {10A-8}
 $$
 
 (For a small country, foreign supply is highly elastic; that is,  $h$  is very large. So for a small country, a tariff will have little effect on the world price while raising the domestic price almost one-for-one.)
@@ -749,13 +749,13 @@ In a linear model, we can calculate the exact effect of a tariff on prices.
 We now use what we have learned to derive the effects of a tariff on Home's welfare (Figure 10A-2).  $Q^1$  and  $D^1$  represent the free trade levels of consumption and production. With a tariff, the internal price rises, with the result that  $Q$  rises to  $Q^2$  and  $D$  falls to  $D^2$ , where
 
 $$
-Q ^ {2} = Q ^ {1} + t f h / (b + f + h) \tag {10A-9}
+Q^{2} = Q^{1} + t f h / (b + f + h) \tag {10A-9}
 $$
 
 and
 
 $$
-D ^ {2} = D ^ {1} - t b h / (b + f + h). \tag {10A-10}
+D^{2} = D^{1} - t b h / (b + f + h). \tag {10A-10}
 $$
 
 # FIGURE 10A-2
@@ -769,19 +769,19 @@ The net benefit of a tariff is equal to the area of the rectangle minus the area
 The gain from a lower world price is the area of the rectangle in Figure 10A-2, the fall in the price multiplied by the level of imports after the tariff:
 
 $$
-\begin{array}{l} \operatorname {G a i n} = \left(D ^ {2} - Q ^ {2}\right) \times t (b + f) / (b + f + h) \tag {10A-11} \\ = t \times \left(D ^ {1} - Q ^ {1}\right) \times (b + f) / (b + f + h) - (t) ^ {2} \times h (b + f) ^ {2} / (b + f + h) ^ {2}. \\ \end{array}
+\begin{array}{l} \operatorname{Ga in} = \left(D^{2} - Q^{2}\right) \times t (b + f) / (b + f + h) \tag {10A-11} \\ = t \times \left(D^{1} - Q^{1}\right) \times (b + f) / (b + f + h) - (t)^{2} \times h (b + f)^{2} / (b + f + h)^{2}. \\ \end{array}
 $$
 
 The loss from distorted consumption is the sum of the areas of the two triangles in Figure 10A-2:
 
 $$
-\begin{array}{l} \operatorname {L o s s} = (1 / 2) \times \left(Q ^ {2} - Q ^ {1}\right) \times (\widetilde {P} - P _ {F}) + (1 / 2) \times \left(D ^ {1} - D ^ {2}\right) \times (\widetilde {P} - P _ {F}) \\ = (t) ^ {2} \times (b + f) \times (h) ^ {2} / 2 (b + f + h) ^ {2}. \tag {10A-12} \\ \end{array}
+\begin{array}{l} \operatorname{Lo ss} = (1 / 2) \times \left(Q^{2} - Q^{1}\right) \times (\widetilde {P} - P_{F}) + (1 / 2) \times \left(D^{1} - D^{2}\right) \times (\widetilde {P} - P_{F}) \\ = (t)^{2} \times (b + f) \times (h)^{2} / 2 (b + f + h)^{2}. \tag {10A-12} \\ \end{array}
 $$
 
 The net effect on welfare, therefore, is
 
 $$
-\operatorname {G a i n} - \operatorname {l o s s} = t \times U - (t) ^ {2} \times V, \tag {10A-13}
+\operatorname{Ga in} - \operatorname{lo ss} = t \times U - (t)^{2} \times V, \tag {10A-13}
 $$
 
 where  $U$  and  $V$  are complicated expressions that are, however, independent of the level of the tariff and positive. That is, the net effect is the sum of a positive number times the tariff rate and a negative number times the square of the tariff rate.

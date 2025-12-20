@@ -233,25 +233,25 @@ So far our discussion of saving has not stressed the distinction between saving 
 Private saving is defined as the part of disposable income that is saved rather than consumed. Disposable income is national income,  $Y$ , less the net taxes collected from households and firms by the government,  $T$ .<sup>8</sup> Private saving, denoted  $S^p$ , can therefore be expressed as
 
 $$
-S ^ {p} = Y - T - C.
+S^{p} = Y - T - C.
 $$
 
 Government saving is defined similarly to private saving. The government's "income" is its net tax revenue,  $T$ , while its "consumption" is government purchases,  $G$ . If we let  $S^g$  stand for government saving, then
 
 $$
-S ^ {g} = T - G.
+S^{g} = T - G.
 $$
 
 The two types of saving we have defined, private and government, add up to national saving. To see why, recall the definition of national saving,  $S$ , as  $Y - C - G$ . Then
 
 $$
-S = Y - C - G = (Y - T - C) + (T - G) = S ^ {p} + S ^ {g}.
+S = Y - C - G = (Y - T - C) + (T - G) = S^{p} + S^{g}.
 $$
 
 We can use the definitions of private and government saving to rewrite the national income identity in a form that is useful for analyzing the effects of government saving decisions on open economies. Because  $S = S^p + S^g = I + CA$ ,
 
 $$
-S ^ {p} = I + C A - S ^ {g} = I + C A - (T - G) = I + C A + (G - T). \tag {13-2}
+S^{p} = I + C A - S^{g} = I + C A - (T - G) = I + C A + (G - T). \tag {13-2}
 $$
 
 Equation (13-2) relates private saving to domestic investment, the current account surplus, and government saving. To interpret equation (13-2), we define the government budget deficit as  $G - T$ , that is, as government saving preceded by a minus sign. The government budget deficit measures the extent to which the government is borrowing to finance its expenditures. Equation (13-2) then states that a country's private saving can take three forms: investment in domestic capital ( $I$ ), purchases of wealth from foreigners ( $CA$ ), and purchases of the domestic government's newly issued debt ( $G - T$ ).<sup>9</sup>

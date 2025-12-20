@@ -31,7 +31,7 @@ In financial econometrics, factor models are needed not only to explain data but
 Linear factor models are regression models of the following type:
 
 $$
-X _ {i} = \alpha_ {i} + \sum_ {j = 1} ^ {K} \beta_ {i j} f _ {j} + \varepsilon_ {i}
+X_{i} = \alpha_{i} + \sum_{j = 1}^{K} \beta_{i j} f_{j} + \varepsilon_{i}
 $$ where
 
 
@@ -48,14 +48,14 @@ In this formulation, factor models are essentially static models, where the vari
 As mentioned above, one of the key objectives of factor models is to reduce the dimensionality of the covariance matrix so that the covariances between the variables  $X_{i}$  are determined only by the covariances between factors. Suppose that the noise terms are mutually uncorrelated, so that
 
 $$
-E (\varepsilon_ {i} \varepsilon_ {j}) = \left\{ \begin{array}{l l} 0, & i \neq j \\ \sigma_ {i} ^ {2}, & i \neq j \end{array} \right.
+E (\varepsilon_{i} \varepsilon_{j}) = \left\{ \begin{array}{l l} 0, & i \neq j \\ \sigma_{i}^{2}, & i \neq j \end{array} \right.
 $$ and that the noise terms are uncorrelated with the factors, that is,  $E(\varepsilon_{ij}f_j) = 0$ ,  $\forall i,j$ . Suppose also that both factors and noise terms have a zero mean, so that  $E(X_i) = \alpha_i$ . Factor models that respect the above constraints are called strict factor models.
 
 
 Let's compute the covariances of a strict factor model:
 
 $$
-\begin{array}{l} E \left(\left(X _ {i} - \alpha_ {i}\right) \left(X _ {j} - \alpha_ {j}\right)\right) \\ = E \left(\left(\sum_ {s = 1} ^ {K} \beta_ {i s} f _ {s} + \varepsilon_ {i}\right) \left(\sum_ {t = 1} ^ {K} \beta_ {j t} f _ {t} + \varepsilon_ {j}\right)\right) \\ = E \left(\left(\sum_ {s = 1} ^ {K} \beta_ {i s} f _ {s}\right) \left(\sum_ {t = 1} ^ {K} \beta_ {j t} f _ {t}\right)\right) + E \left(\left(\sum_ {s = 1} ^ {K} \beta_ {i s} f _ {s}\right) (\varepsilon_ {j})\right) \\ + E \left(\left(\varepsilon_ {i}\right) \sum_ {t = 1} ^ {K} \beta_ {j t} f _ {t}\right) + E \left(\varepsilon_ {i} \varepsilon_ {j}\right) \\ = \sum_ {s, t} \beta_ {i s} E \left(f _ {s} f _ {t}\right) \beta_ {j t} + \mathrm {E} \left(\varepsilon_ {i} \varepsilon_ {j}\right) \\ \end{array}
+\begin{array}{l} E \left(\left(X_{i} - \alpha_{i}\right) \left(X_{j} - \alpha_{j}\right)\right) \\ = E \left(\left(\sum_{s = 1}^{K} \beta_{i s} f_{s} + \varepsilon_{i}\right) \left(\sum_{t = 1}^{K} \beta_{j t} f_{t} + \varepsilon_{j}\right)\right) \\ = E \left(\left(\sum_{s = 1}^{K} \beta_{i s} f_{s}\right) \left(\sum_{t = 1}^{K} \beta_{j t} f_{t}\right)\right) + E \left(\left(\sum_{s = 1}^{K} \beta_{i s} f_{s}\right) (\varepsilon_{j})\right) \\ + E \left(\left(\varepsilon_{i}\right) \sum_{t = 1}^{K} \beta_{j t} f_{t}\right) + E \left(\varepsilon_{i} \varepsilon_{j}\right) \\ = \sum_{s, t} \beta_{i s} E \left(f_{s} f_{t}\right) \beta_{j t} + \mathrm{E} \left(\varepsilon_{i} \varepsilon_{j}\right) \\ \end{array}
 $$
 
 From this expression we can see that the variances and covariances between the variables  $X_{i}$  depend only on the covariances between the factors and the variances of the noise term.
@@ -77,7 +77,7 @@ $\varepsilon = (\varepsilon_{1},\dots ,\varepsilon_{N})^{\prime} =$  the  $N$  -
 $\mathbf{f} = (f_{1},\dots ,f_{K})^{\prime}$  is the  $K$  -vector of factors
 
 $$
-\boldsymbol {\beta} = \left[ \begin{array}{c c c} \boldsymbol {\beta} _ {1 1} & \dots & \boldsymbol {\beta} _ {1 K} \\ \vdots & \ddots & \vdots \\ \boldsymbol {\beta} _ {N 1} & \dots & \boldsymbol {\beta} _ {N K} \end{array} \right]
+\boldsymbol {\beta} = \left[ \begin{array}{c c c} \boldsymbol {\beta}_{1 1} & \dots & \boldsymbol {\beta}_{1 K} \\ \vdots & \ddots & \vdots \\ \boldsymbol {\beta}_{N 1} & \dots & \boldsymbol {\beta}_{N K} \end{array} \right]
 $$
 
 $= \mathrm{the}N\times K$  matrix of factor loadings.
@@ -93,13 +93,13 @@ $\Psi = N\times N$  variance-covariance matrix of the error terms  $\varepsilon$
 If we assume that our model is a strict factor model, the matrix  $\Psi$  will be a diagonal matrix with the noise variances on the diagonal, that is,
 
 $$
-\Psi = \left( \begin{array}{c c c} {\psi_ {1} ^ {2}} & \dots & 0 \\ {\vdots} & \ddots & \vdots \\ {0} & \dots & {\psi_ {N} ^ {2}} \end{array} \right)
+\Psi = \left( \begin{array}{c c c} {\psi_{1}^{2}} & \dots & 0 \\ {\vdots} & \ddots & \vdots \\ {0} & \dots & {\psi_{N}^{2}} \end{array} \right)
 $$
 
 Under the above assumptions, we can express the variance-covariance matrix of the variables in the following way:
 
 $$
-\Sigma = \beta \Omega \beta^ {\prime} + \Psi
+\Sigma = \beta \Omega \beta^{\prime} + \Psi
 $$
 
 In practice, the assumption of a strict factor model might be too restrictive. In applied work, factor models will often be approximate factor models. (See, for example, Bai, 2003.) Approximate factor models allow idiosyncratic terms to be weakly correlated among themselves and with the factors.
@@ -113,12 +113,12 @@ $$ with a covariance matrix
 
 
 $$
-\boldsymbol {\Omega} _ {\mathrm {g}} = \mathbf {R} \boldsymbol {\Omega} \mathbf {R} ^ {- 1}
+\boldsymbol {\Omega}_{\mathrm{g}} = \mathbf {R} \boldsymbol {\Omega} \mathbf {R}^{- 1}
 $$ and we can write a new factor model:
 
 
 $$
-\begin{array}{l} \mathbf {X} = \alpha + \beta \mathbf {f} + \varepsilon = \alpha + \beta \mathbf {R} ^ {- 1} \mathbf {R} \mathbf {f} \\ + \varepsilon = \alpha + \beta_ {g} g + \varepsilon \\ \end{array}
+\begin{array}{l} \mathbf {X} = \alpha + \beta \mathbf {f} + \varepsilon = \alpha + \beta \mathbf {R}^{- 1} \mathbf {R} \mathbf {f} \\ + \varepsilon = \alpha + \beta_{g} g + \varepsilon \\ \end{array}
 $$
 
 In order to solve this indeterminacy, we can always choose the matrix  $\mathbf{R}$  so that the factors  $\mathbf{g}$  are a set of orthonormal variables, that is, uncorrelated variables (the orthogonality condition) with unit variance (the normality condition). In order to make the model uniquely identifiable, we can stipulate that factors must be a set of orthonormal variables and that, in addition, the matrix of factor loadings is diagonal. Under this additional assumption, a strict factor model is called a normal factor model. Note explicitly that under this assumption, factors are simply a set of standardized independent variables. The model is still undetermined under rotation, that is multiplication by any nonsingular matrix such that  $\mathbf{RR}' = \mathbf{I}$ .
@@ -131,7 +131,7 @@ $$ where factors are orthonormal variables and noise terms are such that the cov
 
 
 $$
-\Sigma = \beta \beta^ {\prime} + \Psi
+\Sigma = \beta \beta^{\prime} + \Psi
 $$ where  $\beta$  is the diagonal matrix of factor loadings and  $\Psi$  is a diagonal matrix.
 
 
@@ -152,18 +152,18 @@ PCA implements a dimensionality reduction of a set of observations. The concept 
 If we assume that returns are IID sequences, jointly normally distributed with variance-covariance matrix  $\sigma$ , a lengthy direct calculation demonstrates that each portfolio's return will be normally distributed with variance
 
 $$
-\sigma_ {p} ^ {2} = \boldsymbol {\omega} _ {P} ^ {T} \boldsymbol {\sigma} \boldsymbol {\omega} _ {P}
+\sigma_{p}^{2} = \boldsymbol {\omega}_{P}^{T} \boldsymbol {\sigma} \boldsymbol {\omega}_{P}
 $$
 
 The normalized portfolio of maximum variance can therefore be determined in the following way:
 
 $$
-\text {M a x i m i z e} \omega_ {P} ^ {T} \sigma \omega_ {P}
+\text{Ma xi mi ze} \omega_{P}^{T} \sigma \omega_{P}
 $$ subject to the normalization condition
 
 
 $$
-\pmb {\omega} _ {P} ^ {T} \pmb {\omega} _ {\mathbf {P}} = 1
+\pmb {\omega}_{P}^{T} \pmb {\omega}_{\mathbf {P}} = 1
 $$ where the product is a scalar product. It can be demonstrated that the solution of this problem is the eigenvector  $\omega_{1}$  corresponding to the largest eigenvalue  $\lambda_{1}$  of the variance-covariance matrix  $\sigma$ . As  $\sigma$  is a variance-covariance matrix, the eigenvalues are all real.
 
 
@@ -171,7 +171,7 @@ Consider next the set of all normalized portfolios orthogonal to  $\omega_{1}$ ,
 
 
 $$
-\boldsymbol {\omega} _ {1} ^ {T} \boldsymbol {\omega} _ {P} = \boldsymbol {\omega} _ {P} ^ {T} \boldsymbol {\omega} _ {1} = 0
+\boldsymbol {\omega}_{1}^{T} \boldsymbol {\omega}_{P} = \boldsymbol {\omega}_{P}^{T} \boldsymbol {\omega}_{1} = 0
 $$
 
 We can repeat the previous reasoning. Among this set, the portfolio of maximum variance is given by the eigenvector  $\omega_{2}$  corresponding to the second largest eigenvalue  $\lambda_{2}$  of the variance-covariance matrix  $\sigma$ . If there are  $n$  distinct eigenvalues, we can repeat this process  $n$  times. In this way, we determine the  $n$  portfolios  $P_{i}$  of maximum variance. The weights of these portfolios are the orthonormal eigenvectors of the variance-covariance matrix  $\sigma$ . Note that each portfolio is a time series that is a linear combination of the original time series  $X_{i}$ . The coefficients are the portfolios' weights.
@@ -179,7 +179,7 @@ We can repeat the previous reasoning. Among this set, the portfolio of maximum v
 These portfolios of maximum variance are all mutually uncorrelated. It can be demonstrated that we can recover all the original return time series as linear combinations of these portfolios:
 
 $$
-X _ {j} = \sum_ {i = 1} ^ {n} \alpha_ {j, i} P _ {i}
+X_{j} = \sum_{i = 1}^{n} \alpha_{j, i} P_{i}
 $$
 
 Thus far we have succeeded in replacing the original  $n$  correlated time series  $X_{j}$  with  $n$  uncorrelated time series  $P_{i}$  with the additional insight that each  $X_{j}$  is a linear combination of the  $P_{i}$ . Suppose now that only  $p$  of the portfolios  $P_{i}$  have a significant variance, while the remaining  $n - p$  have very small variances. We can then implement a dimensionality reduction by choosing only those portfolios whose variance is significantly different from zero. Let's call these portfolios factors  $F$ .
@@ -187,7 +187,7 @@ Thus far we have succeeded in replacing the original  $n$  correlated time serie
 It is clear that we can approximately represent each series  $X_{i}$  as a linear combination of the factors plus a small uncorrelated noise. In fact we can write
 
 $$
-X _ {j} = \sum_ {i = 1} ^ {p} \alpha_ {j, i} F _ {i} + \sum_ {i = p + 1} ^ {n} \alpha_ {j, i} P _ {i} = \sum_ {i = 1} ^ {p} \alpha_ {j, i} F _ {i} + \varepsilon_ {j}
+X_{j} = \sum_{i = 1}^{p} \alpha_{j, i} F_{i} + \sum_{i = p + 1}^{n} \alpha_{j, i} P_{i} = \sum_{i = 1}^{p} \alpha_{j, i} F_{i} + \varepsilon_{j}
 $$ where the last term is a noise term. Therefore to implement PCA one computes the eigenvalues and the eigenvectors of the variance-covariance matrix and chooses the eigenvalues
 
 
@@ -196,7 +196,7 @@ significantly different from zero. The corresponding eigenvectors are the weight
 Suppose, however, that there is a strict factor structure, which means that returns follow a strict factor model as defined earlier in this entry:
 
 $$
-\mathrm {r} = \mathrm {a} + \beta \mathbf {f} + \varepsilon
+\mathrm{r} = \mathrm{a} + \beta \mathbf {f} + \varepsilon
 $$
 
 The matrix  $\beta$  can be obtained diagonalizing the variance-covariance matrix. In general, the structure of factors will not be strict and one will try to find an approximation by choosing only the largest eigenvalues.
@@ -214,11 +214,11 @@ Dynamics, Sun Microsystems, Hilton, Martin Marietta, Coca-Cola, Northrop Grumman
 As explained earlier, performing PCA is equivalent to determining the eigenvalues and eigenvectors of the covariance matrix or of the correlation matrix. The two matrices yield different results. We perform both exercises, estimating the principal components using separately the covariance and the correlation matrices of the return processes. We estimate the covariance with the empirical covariance matrix. Recall that the empirical covariance  $\sigma_{ij}$  between variables  $(X_i,X_j)$  is defined as follows:
 
 $$
-\hat {\sigma} _ {i j} = \frac {1}{T} \sum_ {t = 1} ^ {T} (X _ {i} (t) - \bar {X} _ {t}) (X _ {j} (t) - \bar {X} _ {j})
+\hat {\sigma}_{i j} = \frac{1}{T} \sum_{t = 1}^{T} (X_{i} (t) - \bar {X}_{t}) (X_{j} (t) - \bar {X}_{j})
 $$
 
 $$
-\bar {X} _ {i} = \frac {1}{T} \sum_ {t = 1} ^ {T} X _ {i} (t), \bar {X} _ {j} = \frac {1}{T} \sum_ {t = 1} ^ {T} X _ {j} (t)
+\bar {X}_{i} = \frac{1}{T} \sum_{t = 1}^{T} X_{i} (t), \bar {X}_{j} = \frac{1}{T} \sum_{t = 1}^{T} X_{j} (t)
 $$
 
 Table 1 shows the covariance matrix.
@@ -318,7 +318,7 @@ $$ with covariance matrix
 
 
 $$
-\Sigma = \beta \beta^ {\prime} + \Psi
+\Sigma = \beta \beta^{\prime} + \Psi
 $$
 
 The estimation procedure is performed in two steps. In the first step, we estimate the covariance matrix and the factor loadings. In the second step, we estimate factors using the covariance matrix and the factor loadings.
@@ -333,7 +333,7 @@ $$ which shows that, at any given time, factors can be estimated as the regressi
 
 
 $$
-\hat {\mathbf {f}} _ {t} = \left(\hat {\boldsymbol {\beta}} ^ {\prime} \hat {\boldsymbol {\Psi}} ^ {- 1} \hat {\boldsymbol {\beta}}\right) ^ {- 1} \hat {\boldsymbol {\beta}} ^ {\prime} \hat {\boldsymbol {\Psi}} ^ {- 1} (\mathbf {X} _ {t} - \hat {\boldsymbol {\alpha}})
+\hat {\mathbf {f}}_{t} = \left(\hat {\boldsymbol {\beta}}^{\prime} \hat {\boldsymbol {\Psi}}^{- 1} \hat {\boldsymbol {\beta}}\right)^{- 1} \hat {\boldsymbol {\beta}}^{\prime} \hat {\boldsymbol {\Psi}}^{- 1} (\mathbf {X}_{t} - \hat {\boldsymbol {\alpha}})
 $$
 
 The estimation approach based on maximum likelihood estimates implies that the number of factors is known. In order to determine the number of factors, a heuristic procedure consists of iteratively estimating models with a growing number of factors. The correct number of factors is determined when estimates of  $q$  factors stabilize and cannot be rejected on the basis of  $p$  probabilities. A theoretical method for determining the number of factors was proposed by Bai and Ng (2002).

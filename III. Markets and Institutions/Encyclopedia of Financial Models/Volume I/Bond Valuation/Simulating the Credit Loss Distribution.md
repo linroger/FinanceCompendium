@@ -55,13 +55,13 @@ We briefly described earlier the steps involved in simulating the credit loss di
 Many standard numerical packages provide routines to generate sequences of random vectors sampled from a multivariate normal distribution. Although the details of the implementation are not discussed here, we will briefly outline the numerical procedure commonly used to generate sequences of multivariate normal random vectors. Let us assume that the multivariate normal random vector has a mean vector  $\vec{a}$  and covariance matrix  $C$ . Covariance matrices have the property that they are symmetric and positive definite (meaning all its eigenvalues are greater than zero). Given such a matrix, it is possible to find a unique lower triangular matrix  $L$  such that,
 
 $$
-L L ^ {T} = C \tag {1}
+L L^{T} = C \tag {1}
 $$
 
 The matrix  $L$  is referred to as the Cholesky factor corresponding to the positive definite matrix  $C$ . Once the Cholesky factor is determined, generating a sequence of random vectors with the desired multivariate distribution only requires generating a sequence of independent standard normal random variables. If  $\vec{x}$  denotes the vector of independent standard normal random variables, the vector  $\vec{r}$  with the desired multivariate normal distribution can be constructed as follows:
 
 $$
-\vec {r} = \vec {a} + L \vec {x} \tag {2}
+\vec{r} = \vec{a} + L \vec{x} \tag {2}
 $$
 
 The sequence of random vectors  $\vec{r}$  that are generated will have the property that their joint distribution is multinormal with mean vector  $\vec{a}$  and covariance matrix  $C$ .
@@ -78,12 +78,12 @@ Table 1 Rating Transition Probabilities and  $z$  -Thresholds
 The next step in the credit loss simulation process is to infer the credit rating of the various obligors in the portfolio as implied by the simulated asset return vector. In order to do this, we need to determine the thresholds against which the asset returns will be compared to identify rating changes or obligor default. To illustrate how these thresholds can be determined, let us consider an obligor that has a current credit rating of A1. (Moody's rating categories are used here to denote the credit rating of an obligor.) Let  $p_{A1,Aaa}$  denote the probability of transitioning to the credit rating Aaa. Under the assumption that the asset returns of the obligor are normally distributed, the credit event that signals the obligor rating migration from A1 to Aaa will occur when the standardized asset returns of the obligor exceed the threshold  $z_{A1,Aaa}$ . This threshold can be determined by solving the following integral equation:
 
 
-$$ p _ {A 1, A a a} = \frac {1}{\sqrt {2 \pi}} \int_ {z _ {A 1, A a a}} ^ {\infty} \exp \left(- \frac {1}{2} x ^ {2}\right) d x \tag {3}
+$$ p_{A 1, A a a} = \frac{1}{\sqrt{2 \pi}} \int_{z_{A 1, A a a}}^{\infty} \exp \left(- \frac{1}{2} x^{2}\right) d x \tag {3}
 $$
 
 A rating transition of this obligor from A1 to Aa1 will occur if the asset return falls between the thresholds  $z_{A1,Aaa}$  and  $z_{A1,Aa1}$ . The threshold  $z_{A1,Aa1}$  can be determined by solving the following integral equation:
 
-$$ p _ {A 1, A a 1} = \frac {1}{\sqrt {2 \pi}} \int_ {z _ {A 1, A a 1}} ^ {z _ {A 1, A a}} \exp \left(- \frac {1}{2} x ^ {2}\right) d x \tag {4}
+$$ p_{A 1, A a 1} = \frac{1}{\sqrt{2 \pi}} \int_{z_{A 1, A a 1}}^{z_{A 1, A a}} \exp \left(- \frac{1}{2} x^{2}\right) d x \tag {4}
 $$
 
 One can extend this sequential rule to determine the thresholds for migrating to other rating grades. We note here that these  $z$ -thresholds are a function of the current credit rating of the obligor. Table 1 shows the rating transition probabilities and the corresponding  $z$ -thresholds for two different obligor credit ratings when the asset returns are assumed to be Gaussian (normal distribution).
@@ -103,7 +103,7 @@ Once the implied rating changes for the obligors are determined for the simulate
 
 
 $$
-\Delta P _ {i k} = P _ {d i r t y} \times D \times \Delta y _ {i k} - 0. 5 \times P _ {d i r t y} \times C \times \Delta y _ {i k} ^ {2} \tag {5}
+\Delta P_{i k} = P_{d i r t y} \times D \times \Delta y_{i k} - 0. 5 \times P_{d i r t y} \times C \times \Delta y_{i k}^{2} \tag {5}
 $$
 
 In equation (5),  $P_{\text{dirty}}$  is the dirty price of the bond (accrued interest plus traded price),  $\Delta y_{ik}$  is the yield change when issuer rating changes from grade  $i$  to grade  $k$ ,  $D$  is the modified duration of the bond, and  $C$  the convexity. When the issuer migrates to the default state, the credit loss will be equal to the dirty price  $P_{\text{dirty}}$  minus the recovery rate.
@@ -112,7 +112,7 @@ To illustrate the credit loss computation, let us again focus on the two-bond po
 
 
 $$
-\begin{array}{l} C r e d i t \quad l o s s = 1, 0 0 0, 0 0 0 \times [ 1. 0 5 3 3 \times 4. 0 2 1 \\ \times (- 0. 0 0 3) - 0. 5 \times 1. 0 5 3 3 \times 1 9. 7 5 \\ \times (- 0. 0 0 3) ^ {2} ] = - \$ 1 2, 7 9 9. 6 \\ \end{array}
+\begin{array}{l} C r e d i t \quad l o s s = 1, 0 0 0, 0 0 0 \times [ 1. 0 5 3 3 \times 4. 0 2 1 \\ \times (- 0. 0 0 3) - 0. 5 \times 1. 0 5 3 3 \times 1 9. 7 5 \\ \times (- 0. 0 0 3)^{2} ] = - \$ 1 2, 7 9 9. 6 \\ \end{array}
 $$
 
 We note here that the negative sign associated with the credit loss is suggesting that this rating change results in a profit rather than a loss.
@@ -120,11 +120,11 @@ We note here that the negative sign associated with the credit loss is suggestin
 For bond 2, the simulated asset return value of  $-3.5$  implies default of the obligor. In this case, we must find a random loss on default, which will be a function of the assumed recovery rate distribution. Many credit risk models assume the recovery rate process to have a beta distribution with mean  $\mu$  and standard deviation  $\sigma$ . Given the values for  $\mu$  and  $\sigma$ , the parameters  $\alpha$  and  $\beta$  that define the beta distribution with the desired mean and standard deviation can be computed as given below:
 
 $$
-\alpha = \frac {\mu^ {2} (1 - \mu)}{\sigma^ {2}} - \mu \tag {6}
+\alpha = \frac{\mu^{2} (1 - \mu)}{\sigma^{2}} - \mu \tag {6}
 $$
 
 $$
-\beta = \frac {\alpha}{\mu} - \alpha \tag {7}
+\beta = \frac{\alpha}{\mu} - \alpha \tag {7}
 $$
 
 For the bond in question, let us assume the mean recovery rate to be  $\mu = 35\%$  and the standard deviation of the recovery rate to be  $\sigma = 25\%$ . Corresponding to these recovery rate values, the parameters of the beta distribution function are  $\alpha = 0.924$  and  $\beta = 1.716$ .
@@ -135,7 +135,7 @@ For the two-bond portfolio, the total credit loss for this simulation run is the
 
 
 $$
-\ell_ {i} = - \$ 12, 7 9 9. 6 + \$ 6 5 3, 3 0 0 = \$ 6 4 0, 5 0 0. 4
+\ell_{i} = - \$ 12, 7 9 9. 6 + \$ 6 5 3, 3 0 0 = \$ 6 4 0, 5 0 0. 4
 $$
 
 It is important to emphasize here that for a general  $n$ -bond portfolio, all bonds of a particular issuer should have the same recovery value for any one simulation run if they have the same seniority. This information must be taken into account when simulating the credit loss distribution of a general  $n$ -bond portfolio.
@@ -145,11 +145,11 @@ It is important to emphasize here that for a general  $n$ -bond portfolio, all b
 The above procedure outlined how the portfolio credit loss can be computed for one simulation run. By repeating the simulation run  $N$  times where  $N$  is sufficiently large, the distribution of the credit losses can be generated. Given the simulated loss distribution, one can compute various risk measures of interest. For instance, the expected and unexpected credit loss (the first two moments of the loss distribution) using the simulated loss data can be computed as follows:
 
 $$
-E L _ {P} = \frac {1}{N} \sum_ {i = 1} ^ {N} \ell_ {i} \tag {8}
+E L_{P} = \frac{1}{N} \sum_{i = 1}^{N} \ell_{i} \tag {8}
 $$
 
 $$
-U L _ {P} = \sqrt {\frac {1}{N - 1} \sum_ {i = 1} ^ {N} \left(\ell_ {i} - E L _ {P}\right) ^ {2}} \tag {9}
+U L_{P} = \sqrt{\frac{1}{N - 1} \sum_{i = 1}^{N} \left(\ell_{i} - E L_{P}\right)^{2}} \tag {9}
 $$
 
 To reduce the standard error of the estimated portfolio expected loss, it is common practice to perform antithetic sampling when performing the Monte Carlo simulation. The idea behind antithetic sampling technique is that when random samples are drawn from a symmetric distribution, sampling errors can be avoided if the antithetic or symmetric part of the random sample is also drawn. This will ensure that the empirical mean of the random samples is equal to the mean of the distribution function from which the samples are drawn. Including the antithetic part of the samples will double the total number of simulation runs.
@@ -180,7 +180,7 @@ Motivated by the above observation, we will choose the confidence level for the 
 Considering that standard practice in portfolio management is to report risk measures relative to the current market value of the portfolio, we will introduce the term "percentage credit value at risk." If  $M_P$  denotes the current mark to market value of the portfolio, the percentage CVaR at 90\% confidence level is defined as,
 
 $$
-\% C V a R _ {90 \%} = \frac {C V a R _ {90 \%}}{M _ {P}} \tag{10}
+\% C V a R_{90 \%} = \frac{C V a R_{90 \%}}{M_{P}} \tag{10}
 $$
 
 # Expected Shortfall
@@ -207,13 +207,13 @@ Figure 2 Various Risk Measures for Portfolio Credit Risk
 ES at the  $90\%$  confidence level from the simulations is given below:
 
 $$
-E S _ {90 \%} = \frac {1}{(1 - 0.9) N} \times \sum_ {i = 0.9 N + 1} ^ {N} \ell_ {i} \tag{12}
+E S_{90 \%} = \frac{1}{(1 - 0.9) N} \times \sum_{i = 0.9 N + 1}^{N} \ell_{i} \tag{12}
 $$
 
 The percentage ES at  $90\%$  confidence level is defined as,
 
 $$
-\% E S _ {90 \%} = \frac {E S _ {90 \%}}{M _ {P}} \tag{13}
+\% E S_{90 \%} = \frac{E S_{90 \%}}{M_{P}} \tag{13}
 $$
 
 Figure 2 shows the various credit risk measures presented here that can be computed from the simulated loss data.
@@ -233,18 +233,18 @@ Formally, a member of the  $m$ -dimensional family of variance mixtures of norma
 
 
 $$
-\vec {x} = s \cdot \vec {u} \tag {14}
+\vec{x} = s \cdot \vec{u} \tag {14}
 $$
 
 Since normal mixture distributions inherit the correlation matrix of the multivariate normal distribution, we have the following relationship:
 
 $$
-\operatorname {C o r r} \left(x _ {i}, x _ {k}\right) = \operatorname {C o r r} \left(u _ {i}, u _ {k}\right) \tag {15}
+\operatorname{Co rr} \left(x_{i}, x_{k}\right) = \operatorname{Co rr} \left(u_{i}, u_{k}\right) \tag {15}
 $$
 
 The random vector  $\vec{x}$  will have multivariate  $t$  distribution with  $\nu$  degrees of freedom if the scalar random variable  $s$  is defined as below:
 
-$$ s = \sqrt {\frac {v}{\omega}} \tag {16}
+$$ s = \sqrt{\frac{v}{\omega}} \tag {16}
 $$
 
 In equation (16),  $\omega$  is a chi-square distributed random variable with  $\nu$  degrees of freedom. For  $\nu > 2$ , the resulting Student's  $t$  distribution will have zero mean vector and covariance matrix  $\frac{\nu}{\nu - 2}\Sigma$ . The Student's  $t$  distribution has the property that as  $\nu$  increases, the distribution approaches a normal distribution. In fact, for values of  $\nu$  greater than 25, it is difficult to distinguish between a normal distribution and  $t$  distribution. In a multivariate setting, as  $\nu$  decreases, the degree of tail dependence between the random variables will increase. For financial time series,  $\nu$  is typically around 4 (Platen and Sidorowicz, 2007).
@@ -253,13 +253,13 @@ An important distinction between the  $t$  distribution and the normal distribut
 
 In the univariate case, the probability density function of the Student's  $t$  distribution with  $\nu$  degrees of freedom has the following functional form:
 
-$$ f _ {\nu} (x) = \frac {\Gamma ((\nu + 1) / 2)}{\sqrt {\nu \pi} \times \Gamma (\nu / 2)} \times \left(1 + \frac {x ^ {2}}{\nu}\right) ^ {- (\nu + 1) / 2} \tag {17}
+$$ f_{\nu} (x) = \frac{\Gamma ((\nu + 1) / 2)}{\sqrt{\nu \pi} \times \Gamma (\nu / 2)} \times \left(1 + \frac{x^{2}}{\nu}\right)^{- (\nu + 1) / 2} \tag {17}
 $$
 
 In equation (17)  $\Gamma (\cdot)$  is the gamma function, which is given by
 
 $$
-\Gamma (\alpha) = \int_ {0} ^ {\infty} x ^ {\alpha - 1} e ^ {- x} d x \tag {18}
+\Gamma (\alpha) = \int_{0}^{\infty} x^{\alpha - 1} e^{- x} d x \tag {18}
 $$
 
 # Loss Simulation Under Multivariate  $t$  Distribution
@@ -269,12 +269,12 @@ The steps involved in simulating the credit loss distribution when asset returns
 For purpose of illustration, let us consider an obligor that has a current credit rating of A1. Let  $p_{A1,Aaa}$  denote the probability of transitioning to the credit rating Aaa. Under the assumption that the asset returns of the obligor are  $t$ -distributed, the credit event that signals the obligor rating migration from A1 to Aaa will occur when the asset returns of the obligor exceed the threshold  $z_{A1,Aaa}$ . This threshold can be determined by solving the following integral equation:
 
 
-$$ p _ {A 1, A a a} = \frac {\Gamma ((v + 1) / 2)}{\sqrt {v \pi} \times \Gamma (v / 2)} \int_ {z _ {A 1, A a a}} ^ {\infty} \left(1 + \frac {x ^ {2}}{v}\right) ^ {- (v + 1) / 2} d x \tag {19}
+$$ p_{A 1, A a a} = \frac{\Gamma ((v + 1) / 2)}{\sqrt{v \pi} \times \Gamma (v / 2)} \int_{z_{A 1, A a a}}^{\infty} \left(1 + \frac{x^{2}}{v}\right)^{- (v + 1) / 2} d x \tag {19}
 $$
 
 A rating transition of this obligor from A1 to Aa1 will occur if the asset return falls between the thresholds  $z_{A1,Aaa}$  and  $z_{A1,Aa1}$ . The threshold  $z_{A1,Aa1}$  can be determined by solving the following integral equation:
 
-$$ p _ {A 1, A a 1} = \frac {\Gamma ((\nu + 1) / 2)}{\sqrt {\nu \pi} \times \Gamma (\nu / 2)} \int_ {z _ {A 1, A a 1}} ^ {z _ {A 1, A a a}} \left(1 + \frac {x ^ {2}}{\nu}\right) ^ {- (\nu + 1) / 2} d x \tag {20}
+$$ p_{A 1, A a 1} = \frac{\Gamma ((\nu + 1) / 2)}{\sqrt{\nu \pi} \times \Gamma (\nu / 2)} \int_{z_{A 1, A a 1}}^{z_{A 1, A a a}} \left(1 + \frac{x^{2}}{\nu}\right)^{- (\nu + 1) / 2} d x \tag {20}
 $$
 
 One can extend this sequential rule to determine the thresholds for migrating to other rating grades. Table 1 shows the  $z$ -threshold values computed using the rating transition probabilities for A2- and A3-rated obligors when the asset returns are  $t$ -distributed.
@@ -283,7 +283,7 @@ The rest of this section discusses the procedure to generate a sequence of rando
 
 To generate a sequence of chi-square distributed random variables, the standard procedure is to make use of the relationship between chi-square distribution and gamma distribution. A random variable  $x$  is said to have gamma distribution if its density function is defined as below:
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {1}{\Gamma (\alpha) \beta^ {\alpha}} x ^ {\alpha - 1} e ^ {- x / \beta}, & x > 0 \\ 0, & x \leq 0 \end{array} \right. \tag {21}
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{\Gamma (\alpha) \beta^{\alpha}} x^{\alpha - 1} e^{- x / \beta}, & x > 0 \\ 0, & x \leq 0 \end{array} \right. \tag {21}
 $$
 
 In equation (21)  $\alpha > 0$  and  $\beta > 0$  are the parameters of the gamma distribution, and  $\Gamma(\alpha)$ is the gamma function given by equation (18). The chi-square distribution with  $\nu$  degrees of freedom is a special case of the gamma distribution with parameter values  $\alpha = \nu /2$  and  $\beta = 2$

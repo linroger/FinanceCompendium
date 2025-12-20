@@ -21,14 +21,14 @@ Factor model estimation depends crucially on whether the factors are identified 
 # ARBITRAGE PRICING THEORY
 
 $$
-E \left[ \tilde {r} _ {i} \right] = r _ {f} + \gamma_ {1} \beta_ {i 1} + \dots + \gamma_ {K} \beta_ {i K} \tag {1}
+E \left[ \tilde {r}_{i} \right] = r_{f} + \gamma_{1} \beta_{i 1} + \dots + \gamma_{K} \beta_{i K} \tag {1}
 $$ where  $\beta_{ik}$  is the beta or risk exposure on the  $k$ -th factor, and  $\gamma_{k}$  is the factor risk premium, for  $k = 1,2,\ldots ,K$
 
 
 Technically, the APT assumes a  $K$ -factor model for the return-generating process, that is, the asset returns are influenced by  $K$  factors in the economy via linear regression equations,
 
 $$
-\tilde {r} _ {i t} - r _ {f t} = \alpha_ {i} + \beta_ {i 1} \tilde {f} _ {1 t} + \dots + \beta_ {i K} \tilde {f} _ {K t} + \tilde {\varepsilon} _ {i t} (2)
+\tilde {r}_{i t} - r_{f t} = \alpha_{i} + \beta_{i 1} \tilde {f}_{1 t} + \dots + \beta_{i K} \tilde {f}_{K t} + \tilde {\varepsilon}_{i t} (2)
 $$ where  $\tilde{f}_1, \tilde{f}_2, \ldots, \tilde{f}_K$  are the systematic factors that affect all the asset returns on the left-hand side,  $i = 1, 2, \ldots, N$ ; and  $\tilde{\varepsilon}_{it}$  is the asset specific risk. Note that we have placed a tilde sign ( $\sim$ ) over the random asset returns, factors, and specific risks. By so doing, we distinguish between factors (random) and their realizations (data), which are important for understanding the estimation procedure below.
 
 
@@ -46,7 +46,7 @@ In this section we describe the different types of factor models.
 The simplest case of factor models is where the  $K$  factors are assumed known or observable, so that we have time-series data on them. In this case, the  $K$ -factor model for the return-generating process as given by equation (2) is a multiple regression for each asset and is a multivariate regression if all of the individual regressions are pooled together. For example, if one believes that the gross domestic product (GDP) is the driving force for a group of stock returns, one would have a one-factor model,
 
 $$
-\tilde {r} _ {i t} - r _ {f t} = \alpha_ {i} + \beta_ {i 1} \tilde {\mathbf {G}} D P _ {t} + \tilde {\varepsilon} _ {i t}
+\tilde {r}_{i t} - r_{f t} = \alpha_{i} + \beta_{i 1} \tilde {\mathbf {G}} D P_{t} + \tilde {\varepsilon}_{i t}
 $$
 
 The above equation corresponds to equation (1) with  $K = 1$  and  $f_{1} = \tilde{G}DP$ . In practice, one can obtain time-series data on both the asset returns and GDP, and then one can estimate regressions to obtain all the parameters, including in particular the expected returns.
@@ -54,19 +54,19 @@ The above equation corresponds to equation (1) with  $K = 1$  and  $f_{1} = \til
 Another popular one-factor model is the market model regression
 
 $$
-\tilde {r} _ {i t} - r _ {f t} = \alpha_ {i} + \beta_ {i 1} (\tilde {r} _ {m t} - r _ {f t}) + \tilde {\varepsilon} _ {i t}
+\tilde {r}_{i t} - r_{f t} = \alpha_{i} + \beta_{i 1} (\tilde {r}_{m t} - r_{f t}) + \tilde {\varepsilon}_{i t}
 $$ where  $\tilde{r}_{mt}$  is the return on a stock market index.
 
 
 To understand the covariance matrix estimation, it will be useful to write the  $K$ -factor model in matrix form,
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \tilde {\varepsilon} _ {t}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \tilde {\varepsilon}_{t}
 $$ or
 
 
 $$
-\begin{array}{l} \left[ \begin{array}{c} \tilde {R} _ {1 t} \\ \vdots \\ \tilde {R} _ {N t} \end{array} \right] = \left[ \begin{array}{c} \alpha_ {1} \\ \vdots \\ \alpha_ {N} \end{array} \right] + \left[ \begin{array}{c c c} \beta_ {1 1} & \dots & \beta_ {1 K} \\ \vdots & \ddots & \vdots \\ \beta_ {N 1} & \dots & \beta_ {N K} \end{array} \right] \left[ \begin{array}{c} \tilde {f} _ {1 t} \\ \vdots \\ \tilde {f} _ {K t} \end{array} \right] \\ + \left[ \begin{array}{c} \tilde {\varepsilon} _ {1 t} \\ \vdots \\ \tilde {\varepsilon} _ {N t} \end{array} \right] \\ \end{array}
+\begin{array}{l} \left[ \begin{array}{c} \tilde {R}_{1 t} \\ \vdots \\ \tilde {R}_{N t} \end{array} \right] = \left[ \begin{array}{c} \alpha_{1} \\ \vdots \\ \alpha_{N} \end{array} \right] + \left[ \begin{array}{c c c} \beta_{1 1} & \dots & \beta_{1 K} \\ \vdots & \ddots & \vdots \\ \beta_{N 1} & \dots & \beta_{N K} \end{array} \right] \left[ \begin{array}{c} \tilde {f}_{1 t} \\ \vdots \\ \tilde {f}_{K t} \end{array} \right] \\ + \left[ \begin{array}{c} \tilde {\varepsilon}_{1 t} \\ \vdots \\ \tilde {\varepsilon}_{N t} \end{array} \right] \\ \end{array}
 $$ where
 
 
@@ -83,13 +83,13 @@ $\tilde{\varepsilon} = \text{an } N$ -vector of the model residuals.
 For example, we can write a model with  $N = 3$  assets and  $K = 2$  factors as
 
 $$
-\begin{array}{l} \left[ \begin{array}{c} \tilde {R} _ {1 t} \\ \tilde {R} _ {2 t} \\ \tilde {R} _ {3 t} \end{array} \right] = \left[ \begin{array}{c} \alpha_ {1} \\ \alpha_ {2} \\ \alpha_ {3} \end{array} \right] + \left[ \begin{array}{c c} \beta_ {1 1} & \beta_ {1 2} \\ \beta_ {2 1} & \beta_ {2 2} \\ \beta_ {3 1} & \beta_ {3 2} \end{array} \right] \left[ \begin{array}{c} \tilde {f} _ {1 t} \\ \tilde {f} _ {2 t} \end{array} \right] \\ + \left[ \begin{array}{c} \tilde {\varepsilon} _ {1 t} \\ \tilde {\varepsilon} _ {2 t} \\ \tilde {\varepsilon} _ {3 t} \end{array} \right] \\ \end{array}
+\begin{array}{l} \left[ \begin{array}{c} \tilde {R}_{1 t} \\ \tilde {R}_{2 t} \\ \tilde {R}_{3 t} \end{array} \right] = \left[ \begin{array}{c} \alpha_{1} \\ \alpha_{2} \\ \alpha_{3} \end{array} \right] + \left[ \begin{array}{c c} \beta_{1 1} & \beta_{1 2} \\ \beta_{2 1} & \beta_{2 2} \\ \beta_{3 1} & \beta_{3 2} \end{array} \right] \left[ \begin{array}{c} \tilde {f}_{1 t} \\ \tilde {f}_{2 t} \end{array} \right] \\ + \left[ \begin{array}{c} \tilde {\varepsilon}_{1 t} \\ \tilde {\varepsilon}_{2 t} \\ \tilde {\varepsilon}_{3 t} \end{array} \right] \\ \end{array}
 $$
 
 Taking covariance on both sides of equation (2), we have the return covariance matrix
 
 $$
-\Sigma = \beta^ {\prime} \Sigma_ {f} \beta + \Sigma_ {\varepsilon} \tag {3}
+\Sigma = \beta^{\prime} \Sigma_{f} \beta + \Sigma_{\varepsilon} \tag {3}
 $$ where  $\Sigma_f$  is the covariance matrix of the factors, and  $\Sigma_{\varepsilon}$  is the covariance matrix of the residuals.  $\Sigma_f$  can be estimated by using the sample covariance matrix from the historical returns. This works for  $\Sigma_{\varepsilon}$  too if  $N$  is small relative to  $T$ . However, when  $N$  is large relative to  $T$ , the sample covariance matrix of the residuals will be poorly behaved.
 
 
@@ -104,7 +104,7 @@ Before discussing latent factors, let's briefly describe four multifactor models
 The widely used Fama-French three-factor model is a special case of equation (1) with  $K = 3$
 
 $$
-\begin{array}{l} \tilde {r} _ {i t} - r _ {f \hat {t}} = \alpha_ {i} + \beta_ {i m} (\tilde {r} _ {m t} - r _ {f \hat {t}}) + \beta_ {i s} \tilde {S M B} _ {t} \\ + \beta_ {i h} \tilde {H} M L _ {t} + \tilde {\varepsilon} _ {i t} \\ \end{array}
+\begin{array}{l} \tilde {r}_{i t} - r_{f \hat {t}} = \alpha_{i} + \beta_{i m} (\tilde {r}_{m t} - r_{f \hat {t}}) + \beta_{i s} \tilde {S M B}_{t} \\ + \beta_{i h} \tilde {H} M L_{t} + \tilde {\varepsilon}_{i t} \\ \end{array}
 $$ where  $\tilde{r}_{mt}$ , as before, is the return on a stock market index,  $\tilde{SMB}_t$  and  $\tilde{HML}_t$  are two additional factors.  $SMB_t$  (small minus big) is defined as the difference between the returns on diversified portfolios of small and big stocks (where small and big are measured in terms of stock market capitalization), and  $HML_t$  (high minus low) is defined as the difference between the returns on diversified portfolios of high and low book value-to-market value (B/M) stocks.
 
 
@@ -132,7 +132,7 @@ While some applications use observed factors, some use entirely latent factors, 
 
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \tilde {\varepsilon} _ {t}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \tilde {\varepsilon}_{t}
 $$ are not directly observable. An argument for the use of latent factors is that the observed factors may be measured with errors or have been already anticipated by investors. Without imposing what  $f_{t}$  are from our likely incorrect belief, we can statistically estimate the factors based on the factor model and data.
 
 
@@ -141,7 +141,7 @@ It is important to understand that in the field of statistics, there is statisti
 While the estimation procedures for determining the set of factors will be discussed in the next section, it will be useful to know some of the properties of the factor model here. The first property is that the factors are not uniquely defined in the model, but all sets of factors are linear combinations of each other. This is because if  $\tilde{f}_t$  is a set of factors, then, for any  $K\times K$  invertible matrix  $A$ , we have
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \tilde {\varepsilon} _ {t} = \alpha + (\beta A ^ {- 1}) (A \tilde {f} _ {t}) + \tilde {\varepsilon} _ {t} \tag {4}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \tilde {\varepsilon}_{t} = \alpha + (\beta A^{- 1}) (A \tilde {f}_{t}) + \tilde {\varepsilon}_{t} \tag {4}
 $$ which says that if  $\tilde{f}_t$  with regression coefficients  $\beta$  (known as adding factor loadings in the context of factor models) explains asset returns well, so does  $\tilde{f}_t^* = A\tilde{f}_t$  with loadings  $\beta A^{-1}$ . The linear transformation of  $\tilde{f}_t, \tilde{f}_t^*$ , is also known as a rotation of  $f_t$ .
 
 
@@ -149,7 +149,7 @@ The second property is that we can assume all the factors have zero mean (i.e., 
 
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \tilde {\varepsilon} _ {t} = (\alpha - \beta \mu_ {f}) + \beta (\tilde {f} _ {t} - \mu_ {f}) + \tilde {\varepsilon} _ {t} \tag {5}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \tilde {\varepsilon}_{t} = (\alpha - \beta \mu_{f}) + \beta (\tilde {f}_{t} - \mu_{f}) + \tilde {\varepsilon}_{t} \tag {5}
 $$
 
 If we rename  $\alpha -\beta \mu_{f}$  as the new alphas, and  $f_{t} - \mu_{f}$  as the new factors, then the new factors will have zero means, and the new factor model is statistically the same as the old one. Hence, without loss of generality, we will assume that the mean of the factors are zeros in our estimation in the next section.
@@ -157,12 +157,12 @@ If we rename  $\alpha -\beta \mu_{f}$  as the new alphas, and  $f_{t} - \mu_{f}$
 Note that the return covariance matrix formula, equation (3) or
 
 $$
-\Sigma = \beta^ {\prime} \Sigma_ {f} \beta + \Sigma_ {\varepsilon} \tag {6}
+\Sigma = \beta^{\prime} \Sigma_{f} \beta + \Sigma_{\varepsilon} \tag {6}
 $$ holds regardless of whether the factors are observable or latent. However, through factor rotation, we can make a new set of factors so as to have the identity covariance matrix. In this case with  $\Sigma_{f} = I_{K}$ , we say that the factor model is standardized, and the covariance equation then simply becomes
 
 
 $$
-\Sigma = \beta^ {\prime} \beta + \Sigma_ {\varepsilon} \tag {7}
+\Sigma = \beta^{\prime} \beta + \Sigma_{\varepsilon} \tag {7}
 $$
 
 In general,  $\Sigma_{\varepsilon}$  can have nonzero off-diagonal elements, implying that the residuals are correlated. If we assume that the residuals are uncorrelated, then  $\Sigma_{\varepsilon}$  becomes a diagonal matrix, and the factor model is known as a strict factor model. If we assume further that  $\Sigma_{\varepsilon}$  has equal diagonal elements, i.e.,  $\Sigma_{\varepsilon} = \sigma^{2}I_{N}$  for some  $\sigma > 0$  with  $I_{N}$  an  $N$  identity matrix, then the factor model is known as a normal factor model.
@@ -172,19 +172,19 @@ In general,  $\Sigma_{\varepsilon}$  can have nonzero off-diagonal elements, imp
 Rather than taking the view of only observable factors or only latent factors, we can consider a more general factor model with both types of factors,
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \beta_ {g} \tilde {g} _ {t} + \tilde {\varepsilon} _ {t} \tag {8}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \beta_{g} \tilde {g}_{t} + \tilde {\varepsilon}_{t} \tag {8}
 $$ where  $\tilde{f}_t$  is a  $K$ -vector of latent factors,  $\tilde{g}_t$  is an  $L$ -vector of observable factors, and  $\beta_g$  are the betas associated with  $\tilde{g}_t$ . This model makes intuitive sense. If we believe a few fundamental or macroeconomic factors are the driving forces, they can be used to create the  $\tilde{g}_t$  vector. Since we may not account for all the possible factors, we need to add  $K$  unknown factors, which are to be estimated from the data.
 
 
 The estimation of the above factor model given by equation (8) usually involves two steps. In the first step, a regression of the asset returns on the known factors is run in order to obtain  $\hat{\beta}_g$ , an estimate of  $\beta_g$ . This allows us to compute the residuals,
 
 $$
-\hat {u} _ {t} = R _ {t} - \hat {\beta} _ {g} g _ {t} \tag {9}
+\hat {u}_{t} = R_{t} - \hat {\beta}_{g} g_{t} \tag {9}
 $$ that is, the difference of the asset returns from their fitted values by using the observed factors for all the time periods. Then, in the second step, a factor estimation approach is used to estimate the latent factors for  $\hat{u}_t$ ,
 
 
 $$
-\tilde {u} _ {t} = \alpha + \beta \tilde {f} _ {t} + \beta_ {g} \tilde {g} _ {t} + \tilde {v} _ {t} \tag {10}
+\tilde {u}_{t} = \alpha + \beta \tilde {f}_{t} + \beta_{g} \tilde {g}_{t} + \tilde {v}_{t} \tag {10}
 $$ where  $\tilde{u}_t$  is the random differences whose realized values are  $\hat{u}_t$ . The estimation method for this model is the same as estimating a latent factor model and will be detailed in the next section. With the factor estimates, we can treat the latent factors as known, and then use equation (8) to determine the expected asset returns and covariance matrix.
 
 
@@ -193,7 +193,7 @@ $$ where  $\tilde{u}_t$  is the random differences whose realized values are  $\
 An important feature of factor models is that they use time  $t$  factors to explain time  $t$  returns. This is to estimate the long-run risk exposures of the assets, which are useful for both risk control and portfolio construction. On the other hand, portfolio managers are also very concerned about time-varying expected returns. In this case, they often use a predictive factor model such as the following to forecast the returns,
 
 $$
-\tilde {R} _ {t + 1} = \alpha + \beta \tilde {f} _ {t} + \beta_ {g} \tilde {g} _ {t} + \tilde {\varepsilon} _ {t} \tag {11}
+\tilde {R}_{t + 1} = \alpha + \beta \tilde {f}_{t} + \beta_{g} \tilde {g}_{t} + \tilde {\varepsilon}_{t} \tag {11}
 $$ where as before  $\tilde{f}_t$  and  $\tilde{g}_t$  are the latent and observable factors, respectively. The single difference is that the earlier  $\tilde{R}_t$  is now replaced by  $\tilde{R}_{t + 1}$ . Equation (11) uses time  $t$  factors to forecast future return  $\tilde{R}_{t + 1}$ .
 
 
@@ -209,12 +209,12 @@ By our use of latent models, we need to consider only how to estimate the latent
 
 
 $$
-\tilde {Y} _ {t} = \beta \tilde {f} _ {t} + \tilde {\varepsilon} _ {t} \tag {12}
+\tilde {Y}_{t} = \beta \tilde {f}_{t} + \tilde {\varepsilon}_{t} \tag {12}
 $$ where
 
 
 $$
-E (\tilde {f} _ {t}) = 0, \quad E [ \tilde {Y} _ {t} ] = 0
+E (\tilde {f}_{t}) = 0, \quad E [ \tilde {Y}_{t} ] = 0
 $$
 
 This version of the factor model is obtained in two steps. We de-mean first the factor  $f_{t}$  so that the alphas are the expected returns of the assets. Second, we de-mean again the asset returns. In other words, we let  $\tilde{Y}_{t} = \tilde{R}_{t} - \alpha$ .
@@ -222,12 +222,12 @@ This version of the factor model is obtained in two steps. We de-mean first the 
 In practice, suppose that we have return data on  $N$  risky assets over  $T$  time periods. Then the realizations of the random variable  $\hat{Y}_t$  can be summarized by a matrix,
 
 $$
-Y = \left( \begin{array}{c c c c} Y _ {1 1} & Y _ {2 1} & \dots & Y _ {N 1} \\ \vdots & \vdots & \vdots & \vdots \\ Y _ {1 T} & Y _ {2 T} & \dots & Y _ {N T} \end{array} \right) \tag {13}
+Y = \left( \begin{array}{c c c c} Y_{1 1} & Y_{2 1} & \dots & Y_{N 1} \\ \vdots & \vdots & \vdots & \vdots \\ Y_{1 T} & Y_{2 T} & \dots & Y_{N T} \end{array} \right) \tag {13}
 $$ where each row is the  $N$  asset returns subtracting from their sample means at time  $t$  for  $t = 1,2,\dots ,T$ . Our task is to estimate the realizations (unobserved) on the  $K$  factors,  $\tilde{f}_t$ , over the  $T$  periods,
 
 
 $$
-F = \left( \begin{array}{c c c c} F _ {1 1} & F _ {2 1} & \dots & F _ {K 1} \\ \vdots & \vdots & \vdots & \vdots \\ F _ {1 T} & F _ {2 T} & \dots & F _ {K T} \end{array} \right) \tag {14}
+F = \left( \begin{array}{c c c c} F_{1 1} & F_{2 1} & \dots & F_{K 1} \\ \vdots & \vdots & \vdots & \vdots \\ F_{1 T} & F_{2 T} & \dots & F_{K T} \end{array} \right) \tag {14}
 $$
 
 We will now apply PCA estimation methodology.
@@ -240,12 +240,12 @@ In the case of fixed  $N$ , we have a relatively smaller number of assets and a 
 
 
 $$
-\Psi = \frac {Y ^ {\prime} Y}{T} \tag {15}
+\Psi = \frac{Y^{\prime} Y}{T} \tag {15}
 $$ which is an  $N$  by  $N$  matrix since  $Y$  is  $T$  by  $N$ . For example, if we think there are  $K$  (say  $K = 5$ ) factors, we can use standard software to compute the first  $K$  eigenvectors of  $\Psi$  corresponding to the first  $K$  largest eigenvalues of  $\Psi$ , each of which is an  $N$  vector. Let  $\hat{\beta}$  be the  $N$  by  $K$  matrix formed by these  $K$  eigenvectors. Then  $\hat{\beta}$  will be an estimate of  $\beta$ . Based on this, the factors are estimated by
 
 
 $$
-\hat {F} _ {t} = Y _ {t} \hat {\beta}, \quad t = 1, 2, \dots , T \tag {16}
+\hat {F}_{t} = Y_{t} \hat {\beta}, \quad t = 1, 2, \dots , T \tag {16}
 $$ where  $Y_{t}$  is the  $t$ -th row of  $Y$ , and  $\hat{F}_t$  is the estimate of  $F_{t}$ , the  $t$ -th row of  $F$ . The  $\hat{F}_t$ 's are the estimated realizations of the first  $K$  factors. Seber (1984) explains why the  $\hat{F}_t$ 's are good estimates of the true and unobserved factor realizations. However, theoretically, they, though close, will not necessarily converge to the true values, unless the factor model is normal, as  $T$  increases. Nevertheless, despite this problem, this procedure is widely used in practice.
 
 
@@ -254,7 +254,7 @@ $$ where  $Y_{t}$  is the  $t$ -th row of  $Y$ , and  $\hat{F}_t$  is the estima
 In the case of large  $N$ , we have a large number of assets. We now form a new matrix based on the product of  $Y$  with  $Y'$
 
 $$
-\Omega = \frac {Y Y ^ {\prime}}{T} \tag {17}
+\Omega = \frac{Y Y^{\prime}}{T} \tag {17}
 $$ which is a  $T$  by  $T$  matrix since  $Y$  is  $T$  by  $N$ . Given  $K$ , we use standard software to compute the first  $K$  eigenvectors of  $\Omega$  corresponding to the first  $K$  largest eigenvalues of  $\Omega$ , each of which is a  $T$  vector. Letting  $\hat{F}$  be the  $T$  by  $K$  matrix formed by these  $K$  eigenvectors, the PCA says that  $\hat{F}$  is an estimate of the true and unknown factor realizations  $F$  of equation (14), up to a linear transformation. Connor and Korajczyk (1986) provided the first study in the finance literature to apply the PCA as described above. The method is also termed "asymptotic PCA" since it allows the number of assets to increase without bound. In contrast, traditional PCA
 
 
@@ -265,7 +265,7 @@ Theoretically, if the true factor model is the strict factor model or is not muc
 Based on the estimated factors, the factor loadings are easily estimated from equation (12). For example, we can obtain the loadings for each asset by estimating the standard ordinary least squares (OLS) regression of the asset returns on the factors. Mathematically, this is equivalent to computing all the loadings from the formula
 
 $$
-\hat {\beta} ^ {\prime} = \left(\hat {F} ^ {\prime} \hat {F}\right) ^ {- 1} \hat {F} ^ {\prime} X \tag {18}
+\hat {\beta}^{\prime} = \left(\hat {F}^{\prime} \hat {F}\right)^{- 1} \hat {F}^{\prime} X \tag {18}
 $$
 
 Under the same conditions above,  $\hat{\beta}$  also converges to  $\beta$  up to a linear transformation.
@@ -273,12 +273,12 @@ Under the same conditions above,  $\hat{\beta}$  also converges to  $\beta$  up 
 The remaining question is how to determine  $K$ . In practice, this may be determined by trial and error depending on how different  $K$ 's perform in model fitting and in meeting the objectives where the model is applied. From an econometrics perspective, there is a simple solution in Case 2. Bai and Ng (2002) provide a statistical criterion
 
 $$
-I C (K) = \log (V (K)) + K \left(\frac {N + T}{N T}\right) \log \left(\frac {N T}{N + T}\right) \tag {19}
+I C (K) = \log (V (K)) + K \left(\frac{N + T}{N T}\right) \log \left(\frac{N T}{N + T}\right) \tag {19}
 $$ where
 
 
 $$
-V (K) = \sum_ {i = 1} ^ {N} \sum_ {t = 1} ^ {T} \left(Y _ {i t} - \hat {\beta} _ {i 1} \hat {f} _ {1 t} - \hat {\beta} _ {i 2} \hat {f} _ {2 t} - \dots - \hat {\beta} _ {i K} \hat {f} _ {K t}\right) ^ {2} \tag {20}
+V (K) = \sum_{i = 1}^{N} \sum_{t = 1}^{T} \left(Y_{i t} - \hat {\beta}_{i 1} \hat {f}_{1 t} - \hat {\beta}_{i 2} \hat {f}_{2 t} - \dots - \hat {\beta}_{i K} \hat {f}_{K t}\right)^{2} \tag {20}
 $$
 
 For a given  $K$ ,  $V(K)$  is the sum of the fitted squared residual errors of the factor model across both asset and time. This is a measure of model fitting. The smaller the  $V(K)$ , the better the  $K$ -factor model in explaining the asset returns. So we want to choose such a  $K$  that minimizes  $V(K)$ . However, the more the factors, the smaller the  $V(K)$ , but at a cost of estimating more factors with greater estimation errors. Hence, we want to penalize too many factors. This is the same as the case in linear regressions where we also want to penalize too many regressors. The second term in equation (19) plays this role. It is an increasing function of  $K$ . Therefore, the trade-off between model fitting and estimation errors requires us to minimize the  $IC(K)$  function. Theoretically, assuming that the factor model is indeed true for some fixed  $K^*$ , Bai and Ng show that the  $K$  that minimizes  $IC(K)$  will converge to  $K^*$  as either  $N$  or  $T$  or both increase to infinity.
@@ -290,12 +290,12 @@ To illustrate the procedure, consider an application of the PCA factor analysis 
 Now
 
 $$
-\Psi = \frac {Y ^ {\prime} Y}{3 4 8}
+\Psi = \frac{Y^{\prime} Y}{3 4 8}
 $$ is an 11 by 11 matrix. We can easily compute its eigenvalues and eigenvectors. The largest three eigenvalues are
 
 
 $$
-\left(\lambda_ {1}, \lambda_ {2}, \lambda_ {3}\right) = 1 0 ^ {- 2} (0. 2 4 0 3, 0 1 3 3, 0 0 1 2)
+\left(\lambda_{1}, \lambda_{2}, \lambda_{3}\right) = 1 0^{- 2} (0. 2 4 0 3, 0 1 3 3, 0 0 1 2)
 $$ whose sum is more than  $99\%$  of the sum of all the eigenvalues. Thus, it is enough to consider  $K = 3$  factors and use the first three
 
 
@@ -307,7 +307,7 @@ Table 1 Factor Loadings and Explanatory Power
 Consider now the regression of the 11 excess bond returns on the three factors,
 
 $$
-R _ {i t} = \alpha_ {i} + \beta_ {i 1} F _ {1 t} + \beta_ {i 2} F _ {2 t} + \beta_ {i 3} F _ {3 t} + \varepsilon_ {i t}
+R_{i t} = \alpha_{i} + \beta_{i 1} F_{1 t} + \beta_{i 2} F_{2 t} + \beta_{i 3} F_{3 t} + \varepsilon_{i t}
 $$ where  $i = 1,2,\dots ,11$ . The regression  $R^2\mathrm{s}$  of using all the factors for each of the assets are reported in the last column of Table 1. All but one is  $99\%$  or above, confirming the eigenvalue analysis that three factors are sufficient, which explains almost all the variations of the bond returns. However, when only the first two are used, the  $R^2\mathrm{s}$  are smaller, but the minimum is still over  $80\%$ . When only the first factor is used, the  $R^2\mathrm{s}$  range from  $67\%$  on the first bond return to  $99\%$  on the 10th. Overall, the PCA factors are effective in explaining the asset returns.
 
 
@@ -326,7 +326,7 @@ In addition, the factors are usually standardized so that  $\Sigma_{f} = I_{K}$ 
 
 
 $$
-\begin{array}{l} \log L (\beta , \Sigma_ {\varepsilon}) = - \frac {N T}{2} \log (2 \pi) - \frac {T}{2} \log | \beta^ {\prime} \beta + \Sigma_ {\varepsilon} | \\ - \frac {1}{2} \sum_ {t = 1} ^ {T} Y _ {t ^ {\prime}} \left(\beta^ {\prime} \beta + \Sigma_ {\varepsilon}\right) ^ {- 1} Y _ {t} \tag {21} \\ \end{array}
+\begin{array}{l} \log L (\beta , \Sigma_{\varepsilon}) = - \frac{N T}{2} \log (2 \pi) - \frac{T}{2} \log | \beta^{\prime} \beta + \Sigma_{\varepsilon} | \\ - \frac{1}{2} \sum_{t = 1}^{T} Y_{t^{\prime}} \left(\beta^{\prime} \beta + \Sigma_{\varepsilon}\right)^{- 1} Y_{t} \tag {21} \\ \end{array}
 $$
 
 The ML estimator of the parameters  $\beta$  and  $\Sigma_{\varepsilon}$  are those values that maximize the log likelihood function. Since  $\beta$  enters into the function in a complex nonlinear way, an analytical solution to the maximization problem is a very difficult problem. Numerically, it is still difficult if maximizing  $\log L(\beta, \Sigma_{\varepsilon})$  directly.
@@ -334,7 +334,7 @@ The ML estimator of the parameters  $\beta$  and  $\Sigma_{\varepsilon}$  are th
 There is, however, a data-augmentation technique known as the expectation maximization (EM) algorithm that can be applied (see Lehmann and Modest, 1998). The EM algorithm can be effective in numerically solving the earlier maximization problem. The idea of the EM algorithm is simple. The key difficulty here is that the factors are unobserved. But conditional on the parameters and the factor model, we can learn them. Consider now that given the factors  $\tilde{f}_t$ , the log likelihood function conditional on  $f_t$  is
 
 $$
-\begin{array}{l} \log L _ {c} (\beta , \Sigma_ {\varepsilon}) = - \frac {N T}{2} \log (2 \pi) - \frac {T}{2} \log | \Sigma_ {\varepsilon} | \\ - \frac {1}{2} \sum_ {t = 1} ^ {T} \left(Y _ {t} - \beta f _ {t}\right) ^ {\prime} \Sigma_ {\varepsilon} ^ {- 1} \left(Y _ {t} - \beta f _ {t}\right) \tag {22} \\ \end{array}
+\begin{array}{l} \log L_{c} (\beta , \Sigma_{\varepsilon}) = - \frac{N T}{2} \log (2 \pi) - \frac{T}{2} \log | \Sigma_{\varepsilon} | \\ - \frac{1}{2} \sum_{t = 1}^{T} \left(Y_{t} - \beta f_{t}\right)^{\prime} \Sigma_{\varepsilon}^{- 1} \left(Y_{t} - \beta f_{t}\right) \tag {22} \\ \end{array}
 $$
 
 Because it is conditional on  $f_{t}$ , the factor model is the usual linear regression. In other words, integrating out  $f_{t}$  from equation (22) yields the unconditional  $\log L(\beta, \Sigma_{\varepsilon})$ . The beta estimates conditional on  $f_{t}$  are straightforward. They are the usual OLS regression coefficients, and the estimates for  $\Sigma_{\varepsilon}$  are the residual variances.
@@ -347,7 +347,7 @@ As an alternative to the ML method, Geweke and Zhou (1996) propose a Bayesian ap
 Finally, we provide two important extensions of the factor model that are useful in practice. Note that the factors we discussed thus far assume identical and independently distributed returns and factors. These are known as static factor models. The first extension is dynamic factor models, which allow the factors to evolve over time according to a vector autoregression,
 
 $$
-\tilde {f} _ {t} = A _ {1} \tilde {f} _ {t - 1} + A _ {2} \tilde {f} _ {t - 2} + \dots + A _ {m} \tilde {f} _ {t - m} + \tilde {\nu} _ {t} \tag {23}
+\tilde {f}_{t} = A_{1} \tilde {f}_{t - 1} + A_{2} \tilde {f}_{t - 2} + \dots + A_{m} \tilde {f}_{t - m} + \tilde {\nu}_{t} \tag {23}
 $$ where the  $A$ 's are the regression coefficient matrices,  $m$  is the order of the autoregression that
 
 
@@ -356,17 +356,17 @@ determines how far past factor realizations still affect today's realizations, a
 The second extension is to allow the case with a large number of factors. Consider our earlier factor model
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \beta_ {g} \tilde {g} _ {t} + \tilde {\varepsilon} _ {t} \tag {24}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \beta_{g} \tilde {g}_{t} + \tilde {\varepsilon}_{t} \tag {24}
 $$ where  $\tilde{f}_t$  is a  $K$  vector of latent factors,  $\tilde{g}_t$  is an  $L$  vector of observable factors. The problem now is that  $L$  is large, about 100 or 200, for instance. This requires at least a few hundred or more time series observations for the regression of  $R_t$  on  $g_t$  to be well behaved, and this can cause a problem due to the lack of long-term time series data or due to concerns of stationarity. The idea is to break  $\tilde{g}_t$  into two sets,  $\tilde{g}_{1t}$  and  $\tilde{g}_{2t}$ , with the first having a few key variables and the second having the rest. We then consider the modified model
 
 
 $$
-\tilde {R} _ {t} = \alpha + \beta \tilde {f} _ {t} + \beta_ {g 1} \tilde {g} _ {1 t} + \beta_ {h} \tilde {h} _ {t} + \tilde {\varepsilon} _ {t} \tag {25}
+\tilde {R}_{t} = \alpha + \beta \tilde {f}_{t} + \beta_{g 1} \tilde {g}_{1 t} + \beta_{h} \tilde {h}_{t} + \tilde {\varepsilon}_{t} \tag {25}
 $$ where  $\tilde{h}(t)$  has a few variables too that represent a few major driving forces that summarize the potentially hundreds of variables of  $\tilde{g}_{2t}$  via another factor model,
 
 
 $$
-\tilde {g} _ {2 t} = B \tilde {h} _ {t} + \tilde {u} _ {t} \tag {26}
+\tilde {g}_{2 t} = B \tilde {h}_{t} + \tilde {u}_{t} \tag {26}
 $$ where  $\tilde{u}_t$  is the residual. This second factor model provides a large dimension reduction that transforms the hundreds of variables into a few, which can be estimated by the PCA. In the end, we have only a few factors in equation (25), making the analysis feasible based on the methods we discussed earlier. Ludvigson and Ng (2007) appear to be the first to apply such a model in finance. They find that the model can effectively incorporate a few hundred variables so as to make a significant difference in understanding stock market predictability.
 
 
@@ -377,20 +377,20 @@ Principal components analysis (PCA) is a widely used tool in finance. It is usef
 Perhaps the best way to understand the PCA is to go through an example in detail. Suppose there are two risky assets, whose returns are denoted by  $\tilde{r}_1$  and  $\tilde{r}_2$ , with covariance matrix
 
 $$
-\Sigma = \left[ \begin{array}{c c} \sigma_ {1} ^ {2} & \sigma_ {1 2} \\ \sigma_ {2 1} & \sigma_ {2} ^ {2} \end{array} \right] = \left[ \begin{array}{c c} 2. 0 5 & 1. 9 5 \\ 1. 9 5 & 2. 0 5 \end{array} \right]
+\Sigma = \left[ \begin{array}{c c} \sigma_{1}^{2} & \sigma_{1 2} \\ \sigma_{2 1} & \sigma_{2}^{2} \end{array} \right] = \left[ \begin{array}{c c} 2. 0 5 & 1. 9 5 \\ 1. 9 5 & 2. 0 5 \end{array} \right]
 $$
 
 That is, we assume that they have the same variances of 2.05 and covariance of 1.95. Our objective is to find a linear combination of the two assets so that it has a large component in the covariance matrix, which will be clear below. For notation brevity, we assume first that the expected returns are zeros; that is,
 
 $$
-E [ \tilde {r} _ {1} ] = 0, E [ \tilde {r} _ {1} ] = 0
+E [ \tilde {r}_{1} ] = 0, E [ \tilde {r}_{1} ] = 0
 $$ and will relax this assumption later.
 
 
 Recall from linear algebra that we call any vector  $(a_{1},a_{2})'$  satisfying
 
 $$
-\Sigma \left( \begin{array}{c} a _ {1} \\ a _ {2} \end{array} \right) = \lambda \left( \begin{array}{c} a _ {1} \\ a _ {2} \end{array} \right)
+\Sigma \left( \begin{array}{c} a_{1} \\ a_{2} \end{array} \right) = \lambda \left( \begin{array}{c} a_{1} \\ a_{2} \end{array} \right)
 $$ an eigenvector of  $\Sigma$ , and the associated  $\lambda$  the eigenvalue. In our example here, it is easy to verify that
 
 
@@ -407,43 +407,43 @@ $$ so 4 and 0.1 are the eigenvalues, and  $(1,1)^{\prime}$  and  $(1, - 1)^{\pri
 In practice, computer software is available to compute the eigenvalue and eigenvectors of any covariance matrix. The mathematical result is that for a covariance matrix of  $N$  assets, there are exactly  $N$  different eigenvectors and  $N$  associated positive eigenvalues (these eigenvalues can be equal in some cases). Moreover, the eigenvectors are orthogonal to each other; that is, their inner product or vector product is zero. In our example, it is clear that
 
 $$
-(1,   1) ^ {\prime} \cdot \left( \begin{array}{c} 1 \\ - 1 \end{array} \right) = 1 - 1 = 0
+(1,   1)^{\prime} \cdot \left( \begin{array}{c} 1 \\ - 1 \end{array} \right) = 1 - 1 = 0
 $$
 
 It should be noted that the eigenvalue associated with each eigenvector is unique, but any scale of the eigenvector remains an eigenvector. In our example, it is obvious that a double of the first eigenvector,  $(2,2)'$ , is also an eigenvector. However, the eigenvectors will be unique if we standardize them, making the sum of the elements 1. In our example,
 
 $$
-A _ {1} = \left[ \begin{array}{c} 1 / \sqrt {2} \\ 1 / \sqrt {2} \end{array} \right], A _ {2} = \left[ \begin{array}{c} 1 / \sqrt {2} \\ - 1 / \sqrt {2} \end{array} \right]
+A_{1} = \left[ \begin{array}{c} 1 / \sqrt{2} \\ 1 / \sqrt{2} \end{array} \right], A_{2} = \left[ \begin{array}{c} 1 / \sqrt{2} \\ - 1 / \sqrt{2} \end{array} \right]
 $$ are the standardized eigenvectors, which are obtained by scaling the earlier eigenvectors by  $1 / \sqrt{2}$ . These are indeed standardized, since
 
 
 $$
-A _ {1} ^ {\prime} A _ {1} = (1 / \sqrt {2}) ^ {2} + (1 / \sqrt {2}) ^ {2} = 1
+A_{1}^{\prime} A_{1} = (1 / \sqrt{2})^{2} + (1 / \sqrt{2})^{2} = 1
 $$
 
 $$
-A _ {2} ^ {\prime} A _ {2} = (1 / \sqrt {2}) ^ {2} + (- 1 / \sqrt {2}) ^ {2} = 1
+A_{2}^{\prime} A_{2} = (1 / \sqrt{2})^{2} + (- 1 / \sqrt{2})^{2} = 1
 $$
 
 Now let us consider two linear combinations (or portfolios without imposing the weights summing to 1) of the two assets whose returns are  $\tilde{r}_1$  and  $\tilde{r}_2$ ,
 
 $$
-\tilde {P} _ {1} = \frac {1}{\sqrt {2}} \tilde {r} _ {1} + \frac {1}{\sqrt {2}} \tilde {r} _ {2} = A _ {1} ^ {\prime} \tilde {R}
+\tilde {P}_{1} = \frac{1}{\sqrt{2}} \tilde {r}_{1} + \frac{1}{\sqrt{2}} \tilde {r}_{2} = A_{1}^{\prime} \tilde {R}
 $$
 
 $$
-\tilde {P} _ {2} = \frac {1}{\sqrt {2}} \tilde {r} _ {1} - \frac {1}{\sqrt {2}} \tilde {r} _ {2} = A _ {2} ^ {\prime} \tilde {R}
+\tilde {P}_{2} = \frac{1}{\sqrt{2}} \tilde {r}_{1} - \frac{1}{\sqrt{2}} \tilde {r}_{2} = A_{2}^{\prime} \tilde {R}
 $$ where  $\tilde{R} = (\tilde{r}_1,\tilde{r}_2)'$ . Both  $\tilde{P}_{1}$  and  $\tilde{P}_{2}$  are called the principal components (PCs). There are three important and interesting mathematical facts about the PCs.
 
 
 Fact 1. The variances of the PCs are exactly equal to the eigenvalues corresponding to the eigenvectors used to form the PCs. That is,
 
 $$
-V a r (\tilde {P} _ {1}) = 4
+V a r (\tilde {P}_{1}) = 4
 $$
 
 $$
-V a r (\tilde {P} _ {2}) = 1
+V a r (\tilde {P}_{2}) = 1
 $$
 
 Note that the two PCs are random variables since they are the linear combination of random returns. So, their variances are well defined. The equalities to the eigenvalues can be verified directly.
@@ -453,11 +453,11 @@ Note that the two PCs are random variables since they are the linear combination
 The PCs are defined as linear combinations of the returns. Inverting them, the returns are linear functions of the PCs, too. Mathematically,  $\tilde{P} = A\tilde{R}$ , and so  $\tilde{R} = A^{-1}\tilde{P}$ . Since  $A$  is orthogonal,  $A^{-1} = A'$ , thus  $\tilde{R} = A' \tilde{P}$ . That is, we have
 
 $$
-\tilde {r} _ {1} = \frac {1}{\sqrt {2}} \tilde {P} _ {1} + \frac {1}{\sqrt {2}} \tilde {P} _ {2} \tag {26}
+\tilde {r}_{1} = \frac{1}{\sqrt{2}} \tilde {P}_{1} + \frac{1}{\sqrt{2}} \tilde {P}_{2} \tag {26}
 $$
 
 $$
-\tilde {r} _ {2} = \frac {1}{\sqrt {2}} \tilde {P} _ {1} - \frac {1}{\sqrt {2}} \tilde {P} _ {2}
+\tilde {r}_{2} = \frac{1}{\sqrt{2}} \tilde {P}_{1} - \frac{1}{\sqrt{2}} \tilde {P}_{2}
 $$
 
 - Fact 3. The asset return covariance matrix can be decomposed as the sum of the products of eigenvalues with the cross products of eigenvectors.
@@ -465,7 +465,7 @@ $$
 Mathematically, it is known that
 
 $$
-\begin{array}{l} \Sigma = [ A _ {1},   A _ {2} ] \left[ \begin{array}{c c} \lambda_ {1} & 0 \\ 0 & \lambda_ {2} \end{array} \right] [ A _ {1},   A _ {2} ] ^ {\prime} \\ = \lambda_ {1} A _ {1} A _ {1} ^ {\prime} + \lambda_ {2} A _ {2} A _ {2} ^ {\prime} = 4 A _ {1} A _ {1} ^ {\prime} + 0. 1 A _ {2} A _ {2} ^ {\prime} \\ \end{array}
+\begin{array}{l} \Sigma = [ A_{1},   A_{2} ] \left[ \begin{array}{c c} \lambda_{1} & 0 \\ 0 & \lambda_{2} \end{array} \right] [ A_{1},   A_{2} ]^{\prime} \\ = \lambda_{1} A_{1} A_{1}^{\prime} + \lambda_{2} A_{2} A_{2}^{\prime} = 4 A_{1} A_{1}^{\prime} + 0. 1 A_{2} A_{2}^{\prime} \\ \end{array}
 $$ which is also easy to verify in our example. The economic interpretation is that the total risk profile of the two assets, as captured by their covariance matrix, is a sum of two components. The first component is determined by the first PC, and the second is determined by the second PC. In other words, in the return linear combinations, equation (26), if we ignore  $P_{2}$  we will get only  $\lambda_1A_1A_1'$ , the first component in the covariance matrix decomposition, and only the
 
 
@@ -474,11 +474,11 @@ second if we ignore  $P_{1}$ . We obtain the entire  $\Sigma$  if we ignore neit
 The purpose of the PCA is finally clear. Since 4 is 40 times as big as 0.1, the second component in the  $\Sigma$  decomposition has little impact, and hence may be ignored. Then, ignoring  $\tilde{P}_2$ , we can write the returns simply as, based on equation (26),
 
 $$
-\tilde {r} _ {1} \approx (1 / \sqrt {2}) \tilde {P} _ {1}
+\tilde {r}_{1} \approx (1 / \sqrt{2}) \tilde {P}_{1}
 $$
 
 $$
-\tilde {r} _ {2} \approx (1 / \sqrt {2}) \tilde {P} _ {1}
+\tilde {r}_{2} \approx (1 / \sqrt{2}) \tilde {P}_{1}
 $$
 
 This says that we can reduce the analysis of  $\tilde{r}_1$  and  $\tilde{r}_2$  by analyzing simple functions of  $\tilde{P}_1$ . In this example, the result tells us that the two assets are almost the same. In practice, there may be hundreds of assets. By using PCA, we can reduce the dimensionality of the problem substantially to an analysis of perhaps a few, say five, PCs.
@@ -486,24 +486,24 @@ This says that we can reduce the analysis of  $\tilde{r}_1$  and  $\tilde{r}_2$ 
 In general, when there are  $N$  assets with return  $\tilde{R} = (\tilde{r}_1,\dots \tilde{r}_N)'$ , computer software can be used to obtain the  $N$  eigenvalues and  $N$  standardized eigenvectors. Let  $\lambda_{1}\geq \lambda_{2}\geq \ldots \geq$ $\lambda_N\ge 0$  be the  $N$  eigenvalues in decreasing order, and  $A_{i} = (a_{i1},a_{i2},\dots a_{in})^{\prime}$  be the standardized eigenvector associated with  $\lambda_{i}$ , and  $A$  be an  $N\times N$  matrix formed by the all the eigenvectors. Then, the  $i$ -th PC is defined as  $\tilde{P}_i = A_i^\prime \tilde{R}$ , all of which can be computed in matrix form,
 
 $$
-\tilde {P} = \left[ \begin{array}{c} \tilde {P} _ {1} \\ \tilde {P} _ {2} \\ \vdots \\ \tilde {P} _ {N} \end{array} \right] = \left[ \begin{array}{c} A _ {1} ^ {\prime} \tilde {R} \\ A _ {2} ^ {\prime} \tilde {R} \\ \vdots \\ A _ {N} ^ {\prime} \tilde {R} \end{array} \right] = A ^ {\prime} \tilde {R} \tag {27}
+\tilde {P} = \left[ \begin{array}{c} \tilde {P}_{1} \\ \tilde {P}_{2} \\ \vdots \\ \tilde {P}_{N} \end{array} \right] = \left[ \begin{array}{c} A_{1}^{\prime} \tilde {R} \\ A_{2}^{\prime} \tilde {R} \\ \vdots \\ A_{N}^{\prime} \tilde {R} \end{array} \right] = A^{\prime} \tilde {R} \tag {27}
 $$
 
 The decomposition for  $\Sigma$  is
 
 $$
-\begin{array}{l} \Sigma = [ A _ {1}, \ldots , A _ {N} ] \left[ \begin{array}{c c c c} \lambda_ {1} & 0 & \ldots & 0 \\ 0 & \lambda_ {2} & \ldots & 0 \\ 0 & 0 & \dots & \lambda_ {N} \end{array} \right] [ A _ {1}, \ldots , A _ {N} ] ^ {\prime} \\ = \lambda_ {1} A _ {1} A _ {1} ^ {\prime} + \lambda_ {2} A _ {2} A _ {2} ^ {\prime} + \dots + \lambda_ {N} A _ {N} A _ {N} ^ {\prime} \\ \end{array}
+\begin{array}{l} \Sigma = [ A_{1}, \ldots , A_{N} ] \left[ \begin{array}{c c c c} \lambda_{1} & 0 & \ldots & 0 \\ 0 & \lambda_{2} & \ldots & 0 \\ 0 & 0 & \dots & \lambda_{N} \end{array} \right] [ A_{1}, \ldots , A_{N} ]^{\prime} \\ = \lambda_{1} A_{1} A_{1}^{\prime} + \lambda_{2} A_{2} A_{2}^{\prime} + \dots + \lambda_{N} A_{N} A_{N}^{\prime} \\ \end{array}
 $$
 
 It is usually the case that, for some  $K$ , the first  $K$  eigenvalues are large, and the rest are too small and can then be ignored. In such situations, based on the first  $K$  PCs, we can approxi mate the asset returns by
 
 
 $$
-\begin{array}{l} \tilde {r} _ {1} \approx a _ {1 1} \tilde {P} _ {1} + a _ {1 2} \tilde {P} _ {2} + \dots + a _ {1 K} \tilde {P} _ {K}, \\ \tilde {r} _ {2} \approx a _ {2 1} \tilde {P} _ {1} + a _ {2 2} \tilde {P} _ {2} + \dots + a _ {2 K} \tilde {P} _ {K}, \tag {28} \\ \end{array}
+\begin{array}{l} \tilde {r}_{1} \approx a_{1 1} \tilde {P}_{1} + a_{1 2} \tilde {P}_{2} + \dots + a_{1 K} \tilde {P}_{K}, \\ \tilde {r}_{2} \approx a_{2 1} \tilde {P}_{1} + a_{2 2} \tilde {P}_{2} + \dots + a_{2 K} \tilde {P}_{K}, \tag {28} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \begin{array}{c c c} \vdots & \vdots \\ \vdots & \vdots \\ \vdots & \vdots \end{array} \\ \tilde {r} _ {N} \approx a _ {N 1} \tilde {P} _ {1} + a _ {N 2} \tilde {P} _ {2} + \dots + a _ {N K} \tilde {P} _ {K} \\ \end{array}
+\begin{array}{l} \begin{array}{c c c} \vdots & \vdots \\ \vdots & \vdots \\ \vdots & \vdots \end{array} \\ \tilde {r}_{N} \approx a_{N 1} \tilde {P}_{1} + a_{N 2} \tilde {P}_{2} + \dots + a_{N K} \tilde {P}_{K} \\ \end{array}
 $$
 
 In most studies, the  $K$  PCs may be interpreted as  $K$  factors that (approximately) derive the movements of all the  $N$  returns. Our earlier example is a case with  $K = 1$  and  $N = 2$ .

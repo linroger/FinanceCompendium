@@ -39,7 +39,7 @@ In a competitive market economy, producers will choose the capital-labor ratio i
 The actual cost of production is equal to the sum of the cost of capital and labor inputs,
 
 $$
-c = a _ {K} r + a _ {L} w, \tag {5P-1}
+c = a_{K} r + a_{L} w, \tag {5P-1}
 $$
 
 where the input coefficients,  $a_{K}$  and  $a_{L}$ , have been chosen to minimize  $c$ .
@@ -47,7 +47,7 @@ where the input coefficients,  $a_{K}$  and  $a_{L}$ , have been chosen to minim
 Because the capital-labor ratio has been chosen to minimize costs, it follows that a change in that ratio cannot reduce costs. Costs cannot be reduced by increasing  $a_{K}$  while reducing  $a_{L}$ , nor conversely. It follows that an infinitesimal change in the capital-labor ratio from the cost-minimizing choice must have no effect on cost. Let  $da_{K}, da_{L}$  be small changes from the optimal input choices. Then
 
 $$
-r d a _ {K} + w d a _ {L} = 0 \tag {5P-2}
+r d a_{K} + w d a_{L} = 0 \tag {5P-2}
 $$
 
 for any movement along the unit isoquant.
@@ -57,7 +57,7 @@ Consider next what happens if the factor prices  $r$  and  $w$  change. This wil
 First, consider the effect on the relative quantities of capital and labor used to produce one unit of output. The cost-minimizing labor-capital ratio depends on the ratio of the price of labor to that of capital:
 
 $$
-\frac {a _ {K}}{a _ {L}} = \Phi \left(\frac {w}{r}\right). \tag {5P-3}
+\frac{a_{K}}{a_{L}} = \Phi \left(\frac{w}{r}\right). \tag {5P-3}
 $$
 
 # FIGURE 5P-1
@@ -71,31 +71,31 @@ The cost-minimizing capital-labor ratio depends on factor prices.
 The cost of production will also change. For small changes in factor prices  $dr$  and  $dw$ , the change in production cost is
 
 $$
-d c = a _ {K} d r + a _ {L} d w + r d a _ {K} + w d a _ {L}. \tag {5P-4}
+d c = a_{K} d r + a_{L} d w + r d a_{K} + w d a_{L}. \tag {5P-4}
 $$
 
 From equation (5P-2), however, we already know that the last two terms of equation (5P-4) sum to zero. Hence the effect of factor prices on cost may be written
 
 $$
-d c = a _ {K} d r + a _ {L} d w. \tag {5P-4'}
+d c = a_{K} d r + a_{L} d w. \tag {5P-4'}
 $$
 
 It turns out to be very convenient to derive a somewhat different equation from equation (5P-4'). Dividing and multiplying some of the elements of the equation leads to the following new equation:
 
 $$
-\frac {d c}{c} = \left(\frac {a _ {K} r}{c}\right) \left(\frac {d r}{r}\right) + \left(\frac {a _ {L} w}{c}\right) \left(\frac {d w}{w}\right). \tag {5P-5}
+\frac{d c}{c} = \left(\frac{a_{K} r}{c}\right) \left(\frac{d r}{r}\right) + \left(\frac{a_{L} w}{c}\right) \left(\frac{d w}{w}\right). \tag {5P-5}
 $$
 
 The term  $dc / c$  may be interpreted as the percentage change in  $c$ , and may conveniently be designated as  $\hat{c}$ ; similarly, let  $dr / r = \hat{r}$  and  $dw / w = \hat{w}$ . The term  $a_{K}r / c$  may be interpreted as the share of capital in total production costs; it may be conveniently designated  $\theta_{K}$ . Thus equation (5P-5) can be compactly written
 
 $$
-\hat {c} = \theta_ {K} \hat {r} + \theta_ {L} \hat {w}, \tag {5P-5'}
+\hat {c} = \theta_{K} \hat {r} + \theta_{L} \hat {w}, \tag {5P-5'}
 $$
 
 where
 
 $$
-\theta_ {K} + \theta_ {L} = 1.
+\theta_{K} + \theta_{L} = 1.
 $$
 
 This is an example of "hat algebra," an extremely useful way to express mathematical relationships in international economics.
@@ -105,11 +105,11 @@ This is an example of "hat algebra," an extremely useful way to express mathemat
 Suppose a country produces two goods, cloth  $C$  and food  $F$ , using two factors of production, capital and labor. Assume that food production is capital-intensive. The price of each good must equal its production cost:
 
 $$
-P _ {F} = a _ {K F} r + a _ {L F} w, \tag {5P-6}
+P_{F} = a_{K F} r + a_{L F} w, \tag {5P-6}
 $$
 
 $$
-P _ {C} = a _ {K C} r + a _ {L C} w, \tag {5P-7}
+P_{C} = a_{K C} r + a_{L C} w, \tag {5P-7}
 $$
 
 where  $a_{KF}, a_{LF}, a_{KC}, a_{LC}$  are the cost-minimizing input choices given the price of capital,  $r$ , and labor,  $w$ .
@@ -117,11 +117,11 @@ where  $a_{KF}, a_{LF}, a_{KC}, a_{LC}$  are the cost-minimizing input choices g
 Also, the economy's factors of production must be fully employed:
 
 $$
-a _ {K F} Q _ {F} + a _ {K C} Q _ {C} = K, \tag {5P-8}
+a_{K F} Q_{F} + a_{K C} Q_{C} = K, \tag {5P-8}
 $$
 
 $$
-a _ {L F} Q _ {F} + a _ {L C} Q _ {C} = L, \tag {5P-9}
+a_{L F} Q_{F} + a_{L C} Q_{C} = L, \tag {5P-9}
 $$
 
 where  $K, L$  are the total supplies of capital and labor.
@@ -129,11 +129,11 @@ where  $K, L$  are the total supplies of capital and labor.
 The factor-price equations (5P-6) and (5P-7) imply equations for the rate of change for factor prices.
 
 $$
-\hat {P} _ {F} = \theta_ {K F} \hat {r} + \theta_ {L F} \hat {w}, \tag {5P-10}
+\hat {P}_{F} = \theta_{K F} \hat {r} + \theta_{L F} \hat {w}, \tag {5P-10}
 $$
 
 $$
-\hat {P} _ {C} = \theta_ {K C} \hat {r} + \theta_ {L C} \hat {w}, \tag {5P-11}
+\hat {P}_{C} = \theta_{K C} \hat {r} + \theta_{L C} \hat {w}, \tag {5P-11}
 $$
 
 where  $\theta_{KF}$  is the share of capital in production cost of  $F$ , etc.,  $\theta_{KF} > \theta_{KC}$  and  $\theta_{LF} < \theta_{LC}$  because  $F$  is more capital-intensive than  $C$ .
@@ -141,11 +141,11 @@ where  $\theta_{KF}$  is the share of capital in production cost of  $F$ , etc.,
 The quantity equations (5P-8) and (5P-9) must be treated more carefully. The unit inputs  $a_{KF}$ , etc., can change if factor prices change. If goods prices are held constant, however, then factor prices will not change. Thus for given prices of  $F$  and  $C$ , it is also possible to write hat equations in terms of factor supplies and outputs:
 
 $$
-\alpha_ {K F} \hat {Q} _ {F} + \alpha_ {K C} \hat {Q} _ {C} = \hat {K}, \tag {5P-12}
+\alpha_{K F} \hat {Q}_{F} + \alpha_{K C} \hat {Q}_{C} = \hat {K}, \tag {5P-12}
 $$
 
 $$
-\alpha_ {L F} \hat {Q} _ {F} + \alpha_ {L C} \hat {Q} _ {C} = \hat {L}, \tag {5P-13}
+\alpha_{L F} \hat {Q}_{F} + \alpha_{L C} \hat {Q}_{C} = \hat {L}, \tag {5P-13}
 $$
 
 where  $\alpha_{KF}$  is the share of the economy's capital supply that is used in production of  $F$ , etc.,  $\alpha_{KF} > \alpha_{LF}$  and  $\alpha_{KC} < \alpha_{LC}$  because of the greater capital intensity of  $F$  production.
@@ -155,27 +155,27 @@ where  $\alpha_{KF}$  is the share of the economy's capital supply that is used 
 The factor-price equations (5P-10) and (5P-11) may be solved together to express factor prices as the outcome of goods prices (these solutions make use of the fact that  $\theta_{LF} = 1 - \theta_{KF}$  and  $\theta_{LC} = 1 - \theta_{KC}$ ):
 
 $$
-\hat {r} = \left(\frac {1}{D}\right) \left[ \left(1 - \theta_ {K C}\right) \hat {P} _ {F} - \theta_ {L F} \hat {P} _ {C} \right], \tag {5P-14}
+\hat {r} = \left(\frac{1}{D}\right) \left[ \left(1 - \theta_{K C}\right) \hat {P}_{F} - \theta_{L F} \hat {P}_{C} \right], \tag {5P-14}
 $$
 
 $$
-\hat {w} = \left(\frac {1}{D}\right) \left[ \theta_ {K F} \hat {P} _ {C} - \theta_ {K C} \hat {P} _ {F} \right], \tag {5P-15}
+\hat {w} = \left(\frac{1}{D}\right) \left[ \theta_{K F} \hat {P}_{C} - \theta_{K C} \hat {P}_{F} \right], \tag {5P-15}
 $$
 
 where  $D = \theta_{KF} - \theta_{KC}$  (implying that  $D > 0$ ). These may be arranged in the form
 
 $$
-\hat {r} = \hat {P} _ {F} + \left(\frac {\theta_ {L F}}{D}\right) \left(\hat {P} _ {F} - \hat {P} _ {C}\right), \tag {5P-14'}
+\hat {r} = \hat {P}_{F} + \left(\frac{\theta_{L F}}{D}\right) \left(\hat {P}_{F} - \hat {P}_{C}\right), \tag {5P-14'}
 $$
 
 $$
-\hat {w} = \hat {P} _ {C} + \left(\frac {\theta_ {K C}}{D}\right) \left(\hat {P} _ {F} - \hat {P} _ {C}\right). \tag {5P-15'}
+\hat {w} = \hat {P}_{C} + \left(\frac{\theta_{K C}}{D}\right) \left(\hat {P}_{F} - \hat {P}_{C}\right). \tag {5P-15'}
 $$
 
 Suppose that the price of  $F$  rises relative to the price of  $C$ , so that  $\hat{P}_F > \hat{P}_C$ . Then it follows that
 
 $$
-\hat {r} > \hat {P} _ {F} > \hat {P} _ {C} > \hat {w}. \tag {5P-16}
+\hat {r} > \hat {P}_{F} > \hat {P}_{C} > \hat {w}. \tag {5P-16}
 $$
 
 That is, the real price of capital rises in terms of both goods, while the real price of labor falls in terms of both goods. In particular, if the price of  $F$  were to rise with no change in the price of  $C$ , the wage rate would actually fall.
@@ -185,11 +185,11 @@ That is, the real price of capital rises in terms of both goods, while the real 
 As long as goods prices may be taken as given, equations (5P-12) and (5P-13) can be solved, using the fact that  $\alpha_{KC} = 1 - \alpha_{KF}$  and  $\alpha_{LC} = 1 - \alpha_{LF}$ , to express the change in output of each good as the outcome of changes in factor supplies:
 
 $$
-\hat {Q} _ {F} = \left(\frac {1}{\Delta}\right) \left[ \alpha_ {L C} \hat {K} - \alpha_ {K C} \hat {L} \right], \tag {5P-17}
+\hat {Q}_{F} = \left(\frac{1}{\Delta}\right) \left[ \alpha_{L C} \hat {K} - \alpha_{K C} \hat {L} \right], \tag {5P-17}
 $$
 
 $$
-\hat {Q} _ {C} = \left(\frac {1}{\Delta}\right) \left[ - \alpha_ {L F} \hat {K} + \alpha_ {K F} \hat {L} \right], \tag {5P-18}
+\hat {Q}_{C} = \left(\frac{1}{\Delta}\right) \left[ - \alpha_{L F} \hat {K} + \alpha_{K F} \hat {L} \right], \tag {5P-18}
 $$
 
 where  $\Delta = \alpha_{KF} - \alpha_{LF},\Delta >0$
@@ -197,17 +197,17 @@ where  $\Delta = \alpha_{KF} - \alpha_{LF},\Delta >0$
 These equations may be rewritten
 
 $$
-\hat {Q} _ {F} = \hat {K} + \left(\frac {\alpha_ {K C}}{\Delta}\right) (\hat {K} - \hat {L}), \tag {5P-17'}
+\hat {Q}_{F} = \hat {K} + \left(\frac{\alpha_{K C}}{\Delta}\right) (\hat {K} - \hat {L}), \tag {5P-17'}
 $$
 
 $$
-\hat {Q} _ {C} = \hat {L} - \left(\frac {\alpha_ {L F}}{\Delta}\right) (\hat {K} - \hat {L}). \tag {5P-18'}
+\hat {Q}_{C} = \hat {L} - \left(\frac{\alpha_{L F}}{\Delta}\right) (\hat {K} - \hat {L}). \tag {5P-18'}
 $$
 
 Suppose that  $P_F$  and  $P_C$  remain constant, while the supply of capital rises relative to the supply of labor— $\hat{K} > \hat{L}$ . Then it is immediately apparent that
 
 $$
-\hat {Q} _ {F} > \hat {K} > \hat {L} > \hat {Q} _ {C}. \tag {5P-19}
+\hat {Q}_{F} > \hat {K} > \hat {L} > \hat {Q}_{C}. \tag {5P-19}
 $$
 
 In particular, if  $K$  rises with  $L$  remaining constant, output of  $F$  will rise by a greater proportion than  $K$ , while output of  $C$  will actually fall.
@@ -225,19 +225,19 @@ To see this condition, let  $Q_{C}, Q_{c}^{*}$  be the output of cloth in Home a
 In all cases, world expenditure will be equal to world income. World income is the sum of income earned from sales of cloth and sales of food; world expenditure is the sum of purchases of cloth and purchases of food. Thus the equality of income and expenditure may be written
 
 $$
-p \left(Q _ {C} + Q _ {C} ^ {*}\right) + Q _ {F} + Q _ {F} ^ {*} = p \left(D _ {C} + D _ {C} ^ {*}\right) + D _ {F} + D _ {F} ^ {*}. \tag {6P-1}
+p \left(Q_{C} + Q_{C}^{*}\right) + Q_{F} + Q_{F}^{*} = p \left(D_{C} + D_{C}^{*}\right) + D_{F} + D_{F}^{*}. \tag {6P-1}
 $$
 
 Now suppose that the world market for cloth is in equilibrium; that is,
 
 $$
-Q _ {C} + Q _ {C} ^ {*} = D _ {C} + D _ {C} ^ {*}. \tag {6P-2}
+Q_{C} + Q_{C}^{*} = D_{C} + D_{C}^{*}. \tag {6P-2}
 $$
 
 Then from equation (6P-1), it follows that
 
 $$
-Q _ {F} + Q _ {F} ^ {*} = D _ {F} + D _ {F} ^ {*}. \tag {6P-3}
+Q_{F} + Q_{F}^{*} = D_{F} + D_{F}^{*}. \tag {6P-3}
 $$
 
 That is, the market for food must be in equilibrium as well. Clearly the converse is also true: If the market for food is in equilibrium, so too is the market for cloth.
@@ -249,7 +249,7 @@ It is therefore sufficient to focus on the market for cloth to determine the equ
 Each country has a production possibility frontier along which it can trade off between producing cloth and producing food. The economy chooses the point on the frontier that maximizes the value of output at the given relative price of cloth. This value may be written
 
 $$
-V = p Q _ {C} + Q _ {F}. \tag {6P-4}
+V = p Q_{C} + Q_{F}. \tag {6P-4}
 $$
 
 As in the cost-minimization cases described in the postscript to Chapter 5, the fact that the output mix chosen maximizes value implies that a small shift in production
@@ -257,25 +257,25 @@ As in the cost-minimization cases described in the postscript to Chapter 5, the 
 along the production possibility frontier away from the optimal mix has no effect on the value of output:
 
 $$
-p d Q _ {C} + d Q _ {F} = 0. \tag {6P-5}
+p d Q_{C} + d Q_{F} = 0. \tag {6P-5}
 $$
 
 A change in the relative price of cloth will lead to both a change in the output mix and a change in the value of output. The change in the value of output is
 
 $$
-d V = Q _ {C} d p + p d Q _ {C} + d Q _ {F}. \tag {6P-6}
+d V = Q_{C} d p + p d Q_{C} + d Q_{F}. \tag {6P-6}
 $$
 
 However, because the last two terms are, by equation (6P-5), equal to zero, this expression reduces to
 
 $$
-d V = Q _ {C} d p. \tag {6P-6'}
+d V = Q_{C} d p. \tag {6P-6'}
 $$
 
 Similarly, in Foreign,
 
 $$
-d V ^ {*} = Q _ {C} ^ {*} d p. \tag {6P-7}
+d V^{*} = Q_{C}^{*} d p. \tag {6P-7}
 $$
 
 # Income, Prices, and Utility
@@ -283,61 +283,61 @@ $$
 Each country is treated as if it were one individual. The tastes of the country can be represented by a utility function depending on consumption of cloth and food:
 
 $$
-U = U \left(D _ {C}, D _ {F}\right). \tag {6P-8}
+U = U \left(D_{C}, D_{F}\right). \tag {6P-8}
 $$
 
 Suppose a country has an income  $I$  in terms of food. Its total expenditure must be equal to this income, so that
 
 $$
-p D _ {C} + D _ {F} = I. \tag {6P-9}
+p D_{C} + D_{F} = I. \tag {6P-9}
 $$
 
 Consumers will maximize utility given their income and the prices they face. Let  $MU_{C}$ ,  $MU_{F}$  be the marginal utility that consumers derive from cloth and food; then the change in utility that results from any change in consumption is
 
 $$
-d U = M U _ {C} d D _ {C} + M U _ {F} d D _ {F}. \tag {6P-10}
+d U = M U_{C} d D_{C} + M U_{F} d D_{F}. \tag {6P-10}
 $$
 
 Because consumers are maximizing utility given income and prices, there cannot be any affordable change in consumption that makes them better off. This condition implies that at the optimum,
 
 $$
-\frac {M U _ {C}}{M U _ {F}} = p. \tag {6P-11}
+\frac{M U_{C}}{M U_{F}} = p. \tag {6P-11}
 $$
 
 Now consider the effect on utility of changing income and prices. Differentiating equation (6P-9) yields
 
 $$
-p d D _ {C} + d D _ {F} = d I - D _ {C} d p. \tag {6P-12}
+p d D_{C} + d D_{F} = d I - D_{C} d p. \tag {6P-12}
 $$
 
 But from equations (6P-10) and (6P-11),
 
 $$
-d U = M U _ {F} \left[ p d D _ {C} + d D _ {F} \right]. \tag {6P-13}
+d U = M U_{F} \left[ p d D_{C} + d D_{F} \right]. \tag {6P-13}
 $$
 
 Thus,
 
 $$
-d U = M U _ {F} [ d I - D _ {C} d p ]. \tag {6P-14}
+d U = M U_{F} [ d I - D_{C} d p ]. \tag {6P-14}
 $$
 
 It is convenient to introduce now a new definition: The change in utility divided by the marginal utility of food, which is the commodity in which income is measured, may be defined as the change in real income and indicated by the symbol  $dy$ :
 
 $$
-d y = \frac {d U}{M U _ {F}} = d I - D _ {C} d p. \tag {6P-15}
+d y = \frac{d U}{M U_{F}} = d I - D_{C} d p. \tag {6P-15}
 $$
 
 For the economy as a whole, income equals the value of output:  $I = V$ . Thus the effect of a change in the relative price of cloth on the economy's real income is
 
 $$
-d y = \left[ Q _ {C} - D _ {C} \right] d p. \tag {6P-16}
+d y = \left[ Q_{C} - D_{C} \right] d p. \tag {6P-16}
 $$
 
 The quantity  $Q_{C} - D_{C}$  is the economy's exports of cloth. A rise in the relative price of cloth, then, will benefit an economy that exports cloth; it is thus an improvement in that economy's terms of trade. It is instructive to restate this idea in a slightly different way:
 
 $$
-d y = \left[ p \left(Q _ {C} - D _ {C}\right) \right] \left(\frac {d p}{p}\right). \tag {6P-17}
+d y = \left[ p \left(Q_{C} - D_{C}\right) \right] \left(\frac{d p}{p}\right). \tag {6P-17}
 $$
 
 The term in brackets is the value of exports; the term in parentheses is the percentage change in the terms of trade. The expression therefore says that the real income gain from a given percentage in terms of trade change is equal to the percentage change in the terms of trade multiplied by the initial value of exports. If a country is initially exporting  \$100 billion and its terms of trade improve by 10 percent, the gain is equivalent to a gain in national income of\$ 10 billion.
@@ -349,11 +349,11 @@ In the market for cloth, a change in the relative price will induce changes in b
 On the supply side, a rise in  $p$  will lead both Home and Foreign to produce more cloth. We will denote this supply response as in Home and Foreign, respectively, so that
 
 $$
-d Q _ {C} = s d p, \tag {6P-18}
+d Q_{C} = s d p, \tag {6P-18}
 $$
 
 $$
-d Q _ {C} ^ {*} = s ^ {*} d p. \tag {6P-19}
+d Q_{C}^{*} = s^{*} d p. \tag {6P-19}
 $$
 
 The demand side is more complex. A change in  $p$  will lead to both income and substitution effects. These effects are illustrated in Figure 6P-1. The figure shows an economy that initially faces a relative price indicated by the slope of the line  $VV^0$ . Given this relative price, the economy produces at point  $Q^0$  and consumes at point  $D^0$ . Now suppose the relative price of cloth rises to the level indicated by the slope of  $VV^2$ . If there were no increase in utility, consumption would shift to  $D^1$ , which would involve an unambiguous fall in consumption of cloth. There is also, however, a change in the economy's real income; in this case, because the economy is initially a net exporter of cloth, real income rises. This change leads to consumption at  $D^2$  rather than  $D^1$ , and this income effect tends to raise consumption of cloth. Analyzing the effect of change in  $p$  on demand requires taking account of both the substitution effect, which is the change in consumption that would take place if real income were held constant, and the income effect, which is the additional change in consumption that is the consequence of the fact that real income changes.
@@ -369,13 +369,13 @@ A change in relative prices produces both income and substitution effects.
 Let the substitution effect be denoted by  $-e dp$ ; it is always negative. Also, let the income effect be denoted by  $n dy$ ; as long as cloth is a normal good for which demand rises with real income, it is positive if the country is a net exporter of cloth, negative if it is a net importer. Then the total effect of a change in  $p$  on Home's demand for cloth is
 
 $$
-\begin{array}{l} d D _ {C} = - e d p + n d y \\ = \left[ - e + n \left(Q _ {C} - D _ {C}\right) \right] d p. \tag {6P-20} \\ \end{array}
+\begin{array}{l} d D_{C} = - e d p + n d y \\ = \left[ - e + n \left(Q_{C} - D_{C}\right) \right] d p. \tag {6P-20} \\ \end{array}
 $$
 
 The effect on Foreign's demand similarly is
 
 $$
-d D _ {C} ^ {*} = \left[ - e ^ {*} + n ^ {*} \left(Q _ {C} ^ {*} - D _ {C} ^ {*}\right) \right] d p. \tag {6P-21}
+d D_{C}^{*} = \left[ - e^{*} + n^{*} \left(Q_{C}^{*} - D_{C}^{*}\right) \right] d p. \tag {6P-21}
 $$
 
 Because  $Q_C^* - D_C^*$  is negative, the income effect in Foreign is negative.
@@ -383,25 +383,25 @@ Because  $Q_C^* - D_C^*$  is negative, the income effect in Foreign is negative.
 The demand and supply effect can now be put together to get the overall effect of a change in  $p$  on the market for cloth. The excess supply of cloth is the difference between desired world production and consumption:
 
 $$
-E S _ {C} = Q _ {C} + Q _ {C} ^ {*} - D _ {C} - D _ {C} ^ {*}. \tag {6P-22}
+E S_{C} = Q_{C} + Q_{C}^{*} - D_{C} - D_{C}^{*}. \tag {6P-22}
 $$
 
 The effect of a change in  $p$  on world excess supply is
 
 $$
-d E S _ {C} = \left[ s + s ^ {*} + e + e ^ {*} - n \left(Q _ {C} - D _ {C}\right) - n ^ {*} \left(Q _ {C} ^ {*} - D _ {C} ^ {*}\right) \right] d p. \tag {6P-23}
+d E S_{C} = \left[ s + s^{*} + e + e^{*} - n \left(Q_{C} - D_{C}\right) - n^{*} \left(Q_{C}^{*} - D_{C}^{*}\right) \right] d p. \tag {6P-23}
 $$
 
 If the market is initially in equilibrium, however, Home's exports equal Foreign's imports, so that  $Q_C^* - D_C^* = -(Q_C - D_C)$ ; the effect of  $p$  on excess supply may therefore be written
 
 $$
-d E S _ {C} = \left[ s + s ^ {*} + e + e ^ {*} - \left(n - n ^ {*}\right) \left(Q _ {C} - D _ {C}\right) \right] d p. \tag {6P-23'}
+d E S_{C} = \left[ s + s^{*} + e + e^{*} - \left(n - n^{*}\right) \left(Q_{C} - D_{C}\right) \right] d p. \tag {6P-23'}
 $$
 
 Suppose the relative price of cloth were initially a little higher than its equilibrium level. If the result were an excess supply of cloth, market forces would push the relative price of cloth down and thus lead to restoration of equilibrium. On the other hand, if an excessively high relative price of cloth leads to an excess demand for cloth, the price will rise further, leading the economy away from equilibrium. Thus equilibrium will be stable only if a small increase in the relative price of cloth leads to an excess supply of cloth; that is, if
 
 $$
-\frac {d E S _ {C}}{d p} > 0. \tag {6P-24}
+\frac{d E S_{C}}{d p} > 0. \tag {6P-24}
 $$
 
 Inspection of equation (6P-23') reveals the factors determining whether or not equilibrium is stable. Both supply effects and substitution effects in demand work toward stability. The only possible source of instability lies in income effects. The net income effect is of ambiguous sign: It depends on whether  $n > n^{*}$ ; that is, on whether Home has a higher marginal propensity to consume cloth when its real income increases than Foreign does. If  $n > n^{*}$ , the income effect works against stability, while if  $n < n^{*}$ , it reinforces the other reasons for stability. The income effects can lead to equilibrium instability because they can generate a relative demand curve for the world that is upward sloping.
@@ -415,7 +415,7 @@ In what follows, it will be assumed that equation (6P-24) holds, so that the equ
 To evaluate the effects of changes in the world economy, a method known as comparative statics is applied. In each of the cases considered in the text, the world economy is subjected to some change that will lead to a change in the world relative price of cloth. The first step in the method of comparative statics is to calculate the effect of the change in the world economy on the excess supply of cloth at the original  $p$ . This change is denoted by  $dES|_p$ . Then the change in the relative price needed to restore equilibrium is calculated by
 
 $$
-d p = \frac {- d E S | _ {p}}{(d E S / d p)}, \tag {6P-25}
+d p = \frac{- d E S |_{p}}{(d E S / d p)}, \tag {6P-25}
 $$
 
 where  $dES / dp$  reflects the supply, income, and substitution effects described earlier.
@@ -423,7 +423,7 @@ where  $dES / dp$  reflects the supply, income, and substitution effects describ
 The effects of a given change on national welfare can be calculated in two stages. First there is whatever direct effect the change has on real income, which we can denote by  $dy|_{p}$ ; then there is the indirect effect of the resulting change in the terms of trade, which can be calculated using equation (6P-16). Thus the total effect on welfare is
 
 $$
-d y = d y \mid_ {p} + \left(Q _ {C} - D _ {C}\right) d p. \tag {6P-26}
+d y = d y \mid_{p} + \left(Q_{C} - D_{C}\right) d p. \tag {6P-26}
 $$
 
 # Economic Growth
@@ -431,19 +431,19 @@ $$
 Consider the effect of growth in the Home economy. As pointed out in the text, by growth we mean an outward shift in the production possibility frontier. This change will lead to changes in both cloth and food output at the initial relative price  $p$ ; let  $dQ_{C}$ ,  $dQ_{F}$  be these changes in output. If growth is strongly biased, one or the other of these changes may be negative, but because production possibilities have expanded, the value of output at the initial  $p$  must rise:
 
 $$
-d V = p d Q _ {C} + d Q _ {F} = \left. d y \right| _ {p} > 0. \tag {6P-27}
+d V = p d Q_{C} + d Q_{F} = \left. d y \right|_{p} > 0. \tag {6P-27}
 $$
 
 At the initial  $p$ , the supply of cloth will rise by the amount  $dQ_{C}$ . The demand for cloth will also rise, by an amount  $n dy|_{p}$ . The net effect on world excess supply of cloth will therefore be
 
 $$
-\left. d E S \right| _ {p} = d Q _ {C} - n \left(p d Q _ {C} + d Q _ {F}\right). \tag {6P-28}
+\left. d E S \right|_{p} = d Q_{C} - n \left(p d Q_{C} + d Q_{F}\right). \tag {6P-28}
 $$
 
 This expression can have either sign. Suppose first that growth is biased toward cloth, so that while  $dQ_{C} > 0$ ,  $dQ_{F} \leq 0$ . Then demand for cloth will rise by
 
 $$
-d D _ {C} = n (p d Q _ {C} + d Q _ {F}) \leq n p d Q _ {C} > d Q _ {C}.
+d D_{C} = n (p d Q_{C} + d Q_{F}) \leq n p d Q_{C} > d Q_{C}.
 $$
 
 (See footnote 1.)
@@ -451,7 +451,7 @@ $$
 Thus the overall effect on excess supply will be
 
 $$
-\left. d E S \right| _ {p} = d Q _ {C} - d D _ {C} > 0.
+\left. d E S \right|_{p} = d Q_{C} - d D_{C} > 0.
 $$
 
 As a result,  $dp = -dES|_{p} / (dES / dp) < 0$ : Home's terms of trade worsen.
@@ -459,7 +459,7 @@ As a result,  $dp = -dES|_{p} / (dES / dp) < 0$ : Home's terms of trade worsen.
 On the other hand, suppose that growth is strongly biased toward food, so that  $dQ_{C} \leq 0$ ,  $dQ_{F} > 0$ . Then the effect on the supply of cloth at the initial  $p$  is negative, but the effect on the demand for cloth remains positive. It follows that
 
 $$
-\left. d E S \right| _ {p} = d Q _ {C} - d D _ {C} <   0,
+\left. d E S \right|_{p} = d Q_{C} - d D_{C} <   0,
 $$
 
 so that  $dp > 0$ . Home's terms of trade improve.
@@ -481,13 +481,13 @@ We now describe how a transfer of income (say as foreign aid) affects the terms 
 At unchanged relative prices, there is no effect on supply. The only effect is on demand. Home's income is reduced by  $da$ , while Foreign's is raised by the same amount. This adjustment leads to a decline in  $D_{C}$  by  $-n \, da$ , while  $D_{C}^{*}$  rises by  $n^{*} \, da$ . Thus,
 
 $$
-\left. d E S \right| _ {p} = (n - n ^ {*}) d a \tag {6P-29}
+\left. d E S \right|_{p} = (n - n^{*}) d a \tag {6P-29}
 $$
 
 and the change in the terms of trade is
 
 $$
-d p = - d a \frac {n - n ^ {*}}{d E S / d p}. \tag {6P-30}
+d p = - d a \frac{n - n^{*}}{d E S / d p}. \tag {6P-30}
 $$
 
 Home's terms of trade will worsen if  $n > n^*$ , which is widely regarded as the normal case; they will, however, improve if  $n^* > n$ .
@@ -497,7 +497,7 @@ The effect on Home's real income combines a direct negative effect from the tran
 To see the reason, notice that
 
 $$
-\begin{array}{l} d y = d y \mid_ {n} + \left(Q _ {C} - D _ {C}\right) d p \\ = - d a + \left(Q _ {C} - D _ {C}\right) d p \\ = - d a \left\{1 + \frac {(n - n ^ {*}) (Q _ {C} - D _ {C})}{s + s ^ {*} + e + e ^ {*} - (n - n ^ {*}) (Q _ {C} - D _ {C})} \right\} \\ = - d a \frac {s + s ^ {*} + e + e ^ {*}}{s + s ^ {*} + e + e ^ {*} - (n - n ^ {*}) \left(Q _ {C} - D _ {C}\right)} <   0. \tag {6P-31} \\ \end{array}
+\begin{array}{l} d y = d y \mid_{n} + \left(Q_{C} - D_{C}\right) d p \\ = - d a + \left(Q_{C} - D_{C}\right) d p \\ = - d a \left\{1 + \frac{(n - n^{*}) (Q_{C} - D_{C})}{s + s^{*} + e + e^{*} - (n - n^{*}) (Q_{C} - D_{C})} \right\} \\ = - d a \frac{s + s^{*} + e + e^{*}}{s + s^{*} + e + e^{*} - (n - n^{*}) \left(Q_{C} - D_{C}\right)} <   0. \tag {6P-31} \\ \end{array}
 $$
 
 Similar algebra will reveal correspondingly that a transfer cannot make the recipient worse off.
@@ -517,41 +517,41 @@ In addition to affecting  $p$ , a tariff will raise revenue, which will be assum
 At the initial terms of trade, a tariff will influence the excess supply of cloth in two ways. First, the fall in relative price of cloth inside Home will lower production of cloth and induce consumers to substitute away from food toward cloth. Second, the tariff may affect Home's real income, with resulting income effects on demand. If Home starts with no tariff and imposes a small tariff, however, the problem may be simplified because the tariff will have a negligible effect on real income. To see this relation, recall that
 
 $$
-d y = p d D _ {C} + d D _ {F}.
+d y = p d D_{C} + d D_{F}.
 $$
 
 The value of output and the value of consumption must always be equal at world prices, so that
 
 $$
-p d D _ {C} + d D _ {F} = p d Q _ {C} + d Q _ {F}
+p d D_{C} + d D_{F} = p d Q_{C} + d Q_{F}
 $$
 
 at the initial terms of trade. But because the economy was maximizing the value of output before the tariff was imposed,
 
 $$
-p d Q _ {C} + d Q _ {F} = 0.
+p d Q_{C} + d Q_{F} = 0.
 $$
 
 Because there is no income effect, only the substitution effect is left. The fall in the internal relative price  $\overline{p}$  induces a decline in production and a rise in consumption:
 
 $$
-d Q _ {C} = - s p d t, \tag {6P-33}
+d Q_{C} = - s p d t, \tag {6P-33}
 $$
 
 $$
-d D _ {C} = e p d t, \tag {6P-34}
+d D_{C} = e p d t, \tag {6P-34}
 $$
 
 where  $dt$  is the tariff increase. Hence,
 
 $$
-\left. d E S \right| _ {p} = - (s + e) p d t <   0, \tag {6P-35}
+\left. d E S \right|_{p} = - (s + e) p d t <   0, \tag {6P-35}
 $$
 
 implying
 
 $$
-\begin{array}{l} d p = \frac {- d E S | _ {p}}{d E S / d p} \\ = \frac {p d t (s + e)}{s + s ^ {*} + e + e ^ {*} - (n - n ^ {*}) \left(Q _ {C} - D _ {C}\right)} > 0. \tag {6P-36} \\ \end{array}
+\begin{array}{l} d p = \frac{- d E S |_{p}}{d E S / d p} \\ = \frac{p d t (s + e)}{s + s^{*} + e + e^{*} - (n - n^{*}) \left(Q_{C} - D_{C}\right)} > 0. \tag {6P-36} \\ \end{array}
 $$
 
 This expression shows that a tariff unambiguously improves the terms of trade of the country that imposes it.
@@ -613,7 +613,7 @@ $$
 which in turn implies
 
 $$
-n = \sqrt {S / b F}. \tag {8P-9}
+n = \sqrt{S / b F}. \tag {8P-9}
 $$
 
 This shows that an increase in the size of the market,  $S$ , will lead to an increase in the number of firms,  $n$ , but not in proportion—for example, a doubling of the size of the market will increase the number of firms by a factor of approximately 1.4.
@@ -621,7 +621,7 @@ This shows that an increase in the size of the market,  $S$ , will lead to an in
 The price charged by the representative firm is
 
 $$
-P = 1 / b n + c = c + \sqrt {F} / S b, \tag {8P-10}
+P = 1 / b n + c = c + \sqrt{F} / S b, \tag {8P-10}
 $$
 
 which shows that an increase in the size of the market leads to lower prices.
@@ -629,7 +629,7 @@ which shows that an increase in the size of the market leads to lower prices.
 Finally, notice that the sales per firm,  $X$ , equal
 
 $$
-X = S / n = \sqrt {S b F}. \tag {8P-11}
+X = S / n = \sqrt{S b F}. \tag {8P-11}
 $$
 
 This shows that the scale of each individual firm also increases with the size of the market.
@@ -643,19 +643,19 @@ A representative investor can divide her real wealth,  $W$ , between a Home asse
 Let  $\alpha$  be the share of wealth invested in the Home asset and  $1 - \alpha$  the share invested in the Foreign asset. Then if state 1 occurs, the investor will be able to consume the weighted average of her two assets' values,
 
 $$
-C _ {1} = \left[ \alpha H _ {1} + (1 - \alpha) F _ {1} \right] \times W. \tag {20P-1}
+C_{1} = \left[ \alpha H_{1} + (1 - \alpha) F_{1} \right] \times W. \tag {20P-1}
 $$
 
 Similarly, consumption in state 2 is
 
 $$
-C _ {2} = [ \alpha H _ {2} + (1 - \alpha) F _ {2} ] \times W. \tag {20P-2}
+C_{2} = [ \alpha H_{2} + (1 - \alpha) F_{2} ] \times W. \tag {20P-2}
 $$
 
 In either state, the investor derives utility  $U(C)$  from a consumption level of  $C$ . Since the investor does not know beforehand which state will occur, she makes the portfolio decision to maximize the average or expected utility from future consumption,
 
 $$
-q U (C _ {1}) + (1 - q) U (C _ {2}).
+q U (C_{1}) + (1 - q) U (C_{2}).
 $$
 
 # An Analytical Derivation of the Optimal Portfolio
@@ -663,7 +663,7 @@ $$
 After the state 1 and state 2 consumption levels given by (20P-1) and (20P-2) are substituted into the expected utility function above, the investor's decision problem can be expressed as follows: Choose the portfolio share  $\alpha$  to maximize expected utility,
 
 $$
-q U \left\{\left[ \alpha H _ {1} + (1 - \alpha) F _ {1} \right] \times W \right\} + (1 - q) U \left\{\left[ \alpha H _ {2} + (1 - \alpha) F _ {2} \right] \times W \right\}.
+q U \left\{\left[ \alpha H_{1} + (1 - \alpha) F_{1} \right] \times W \right\} + (1 - q) U \left\{\left[ \alpha H_{2} + (1 - \alpha) F_{2} \right] \times W \right\}.
 $$
 
 This problem is solved (as usual) by differentiating the expected utility above with respect to  $\alpha$  and setting the resulting derivative equal to 0.
@@ -671,7 +671,7 @@ This problem is solved (as usual) by differentiating the expected utility above 
 Let  $U'(C)$  be the derivative of the utility function  $U(C)$  with respect to  $C$ ; that is,  $U'(C)$  is the marginal utility of consumption. Then  $\alpha$  maximizes expected utility if
 
 $$
-\frac {H _ {1} - F _ {1}}{H _ {2} - F _ {2}} = - \frac {(1 - q) U ^ {\prime} \left\{\left[ \alpha H _ {2} + (1 - \alpha) F _ {2} \right] \times W \right\}}{q U ^ {\prime} \left\{\left[ \alpha H _ {1} + (1 - \alpha) F _ {1} \right] \times W \right\}}. \tag {20P-3}
+\frac{H_{1} - F_{1}}{H_{2} - F_{2}} = - \frac{(1 - q) U^{\prime} \left\{\left[ \alpha H_{2} + (1 - \alpha) F_{2} \right] \times W \right\}}{q U^{\prime} \left\{\left[ \alpha H_{1} + (1 - \alpha) F_{1} \right] \times W \right\}}. \tag {20P-3}
 $$
 
 This equation can be solved for  $\alpha$ , the optimal portfolio share.
@@ -681,7 +681,7 @@ For a risk-averse investor, the marginal utility of consumption,  $U'(C)$ , fall
 If the investor is risk neutral, however, so that  $U^{\prime}(C)$  is constant for all  $C$ , equation (20P-3) becomes
 
 $$
-q H _ {1} + (1 - q) H _ {2} = q F _ {1} + (1 - q) F _ {2},
+q H_{1} + (1 - q) H_{2} = q F_{1} + (1 - q) F_{2},
 $$
 
 which states that the expected rates of return on Home and Foreign assets are equal. This result is the basis for the assertion in Chapter 14 that all assets must yield the same expected return in equilibrium when considerations of risk (and liquidity) are ignored. Thus, the interest parity condition of Chapter 14 is valid under risk-neutral behavior but not, in general, under risk aversion.
@@ -711,13 +711,13 @@ the investor. All that is needed to complete the analysis is a budget line showi
 This trade-off is given by equations (20P-1) and (20P-2). If equation (20P-2) is solved for  $\alpha$ , the result is
 
 $$
-\alpha = \frac {F _ {2} W - C _ {2}}{F _ {2} W - H _ {2} W}.
+\alpha = \frac{F_{2} W - C_{2}}{F_{2} W - H_{2} W}.
 $$
 
 After substitution of this expression for  $\alpha$  in (20P-1), the latter equation becomes
 
 $$
-C _ {1} + \phi C _ {2} = Z, \tag {20P-4}
+C_{1} + \phi C_{2} = Z, \tag {20P-4}
 $$
 
 where  $\phi = (H_{1} - F_{1}) / (F_{2} - H_{2})$  and  $Z = W\times (H_1F_2 - H_2F_1) / (F_2 - H_2)$ . Notice that because  $H_{1} > F_{1}$  and  $H_{2} < F_{2}$ , both  $\phi$  and  $Z$  are positive. Thus, equation (20P-4) looks like the budget line that appears in the usual analysis of consumer choice, with  $\phi$  playing the role of a relative price and  $Z$  the role of income measured in terms of state 1 consumption. This budget line is graphed in Figure 20P-1 as a straight line with slope  $-\phi$  intersecting the vertical axis at  $Z$ .

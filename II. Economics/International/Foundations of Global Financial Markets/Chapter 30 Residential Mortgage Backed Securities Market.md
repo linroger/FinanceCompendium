@@ -390,7 +390,7 @@ The PSA benchmark assumes the following CPRs for 30-year mortgages:
 This benchmark, referred to as " $100\%$  PSA," or simply, " $100$  PSA," is graphically depicted in figure 30.2. Mathematically,  $100$  PSA can be expressed as follows:
 
 $$
-\begin{array}{l} \text {if} t \leq 30, \text {then} \mathrm{CPR} = 6 \% (t / 30), \\ \mathrm{if} t > 30, \mathrm{then}\mathrm{CPR} = 6\% , \\ \end{array}
+\begin{array}{l} \text{if } t \leq 30, \text{then} \mathrm{CPR} = 6 \% (t / 30), \\ \mathrm{if} t > 30, \mathrm{then}\mathrm{CPR} = 6\% , \\ \end{array}
 $$ where  $t$  is the number of months since the mortgage originated.
 
 
@@ -526,7 +526,7 @@ Average Life The stated maturity of a mortgage pass-through security is an inapp
 
 $$
 
-\text{Average life} = \sum_{t = 1}^{T} \frac{t \times \text{Principal received at time} t}{12(\text{Total principal})},
+\text{Averagelife} = \sum_{t = 1}^{T} \frac{t \times \text{Principalreceivedattime} t}{12(\text{Totalprincipal})},
 
 $$ where  $T$  is the number of months.
 

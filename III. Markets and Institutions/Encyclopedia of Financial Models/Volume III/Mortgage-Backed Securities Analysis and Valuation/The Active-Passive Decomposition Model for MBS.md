@@ -28,7 +28,7 @@ $$
 We assume further that the asset continuously pays the  $c(t,x)$  coupon rate and its balance  $B$  is amortized at the  $\lambda (t,x)$  rate, that is,  $\partial B / \partial t = -\lambda B$ . Then one can prove that the price function  $P(t,x)$  should solve the following partial differential equation (PDE):
 
 $$
-\begin{array}{l} \underbrace {r + O A S} _ {\text {e x p e c t e d r e t u r n}} = \underbrace {\frac {1}{P} \frac {\partial P}{\partial t} + \frac {1}{P} (c + \lambda) - \lambda} _ {\text {t i m e r e t u r n}} \\ + \underbrace {\frac {1}{P} \frac {\partial P}{\partial x} \mu} _ {\text {r e t u r n}} + \underbrace {\frac {1}{2 P} \frac {\partial^ {2} P}{\partial x ^ {2}} \sigma^ {2}} _ {\text {r e t u r n}} \tag {2} \\ \end{array}
+\begin{array}{l} \underbrace {r + O A S}_{\text{ex pe ct ed re tu rn}} = \underbrace {\frac{1}{P} \frac{\partial P}{\partial t} + \frac{1}{P} (c + \lambda) - \lambda}_{\text{ti me re tu rn}} \\ + \underbrace {\frac{1}{P} \frac{\partial P}{\partial x} \mu}_{\text{re tu rn}} + \underbrace {\frac{1}{2 P} \frac{\partial^{2} P}{\partial x^{2}} \sigma^{2}}_{\text{re tu rn}} \tag {2} \\ \end{array}
 $$
 
 A derivation of this PDE can be found in Levin (1998), but it goes back at least to Fabozzi and Fong (1994). A notable feature of the above written PDE is that it does not contain the balance variable,  $B$ . The entire effect of possibly random prepayments is represented by the amortization rate function,  $\lambda(t, x)$ . Although the total cash flow observed for each accrual period does depend on the beginning-period balance, construction of a finite-difference scheme and the backward induction will require the knowledge of  $\lambda(t, x)$ , not the balance. This observation agrees with a trivial practical rule stating that the relative price is generally independent of the investment size.
@@ -39,7 +39,7 @@ Another interesting observation comes as follows. If we transform the economy ha
 Working backwards, we derive prices at age  $t - 1$  from prices already found at age  $t$ . In doing so, we replace derivatives in PDE (2) by finite difference approximations, or weigh branches of the lattice by explicitly computed probabilities. If the market is multifactor, then  $x$  should be considered a vector; the lattice will require more dimensions. Generally, the efficiency of finite-difference methods deteriorates quickly on high-dimensional grids because the number of nodes and cash flows grows geometrically; probability trees may maintain their speed, but at the cost of accuracy, if the same number of emanating nodes is used to capture multifactor dynamics. If we decide to operate on a probability tree instead of employing a finite-difference grid, then, for every branch,
 
 $$
-P _ {k} = \frac {c _ {k} + P _ {k + 1} + \lambda_ {k} (1 - P _ {k + 1})}{1 + r _ {k} + O A S} \tag {3}
+P_{k} = \frac{c_{k} + P_{k + 1} + \lambda_{k} (1 - P_{k + 1})}{1 + r_{k} + O A S} \tag {3}
 $$ where  $P_{k}$  is the previous-node value deduced from the next-node value  $P_{k + 1}$ . Of course, probability weighting of thus obtained values applies to all emanating branches.
 
 
@@ -58,20 +58,20 @@ Instead of considering pricing PDE for the entire collateral, we propose decompo
 Here is a permissible example:
 
 $$
-\begin{array}{l} \text {A c t i v e S M M} = \text {R e f i S M M} + \text {T u r n o v e r S M M} \\ \text {P a s s i v e S M M} = \beta^ {*} \text {R e f i S M M} + \text {T u r n o v e r S M M} \end{array} \tag {4}
+\begin{array}{l} \text{Ac ti ve SM M} = \text{Re fi SM M} + \text{Tu rn ov er SM M} \\ \text{Pa ss iv eS MM} = \beta^{*} \text{Re fi SM M} + \text{Tu rn ov er SM M} \end{array} \tag {4}
 $$ where RefiSMM denotes refinancing speed measured in terms of the single monthly mortality rate (SMM), TurnoverSMM is the turnover speed, and both are assumed to depend on market rates and loan age only. Parameter  $\beta$  quantifies relative refinancing activity for the passive component; it takes values between 0 and 1.
 
 
 In order to find the total speed, we have to know the collateral composition. Denote  $\psi$  the ratio of active group to total, then
 
 $$
-\begin{array}{l} \lambda \equiv \text {T o t a l S M M} = \psi^ {*} \text {A c t i v e S M M} \\ + (1 - \psi) ^ {*} \text {P a s s i v e S M M} \tag {5} \\ \end{array}
+\begin{array}{l} \lambda \equiv \text{To ta lS MM} = \psi^{*} \text{Ac ti ve SM M} \\ + (1 - \psi)^{*} \text{Pa ss iv eS MM} \tag {5} \\ \end{array}
 $$
 
 All variables are time-dependent, but we omitted subscript  $t$  for simplicity. The initial value of  $\psi$  describes the composition of collateral at origination; both  $\psi_0$  and  $\beta$  are parameters for the particular prepay model. The dynamic evolution of  $\psi$  from one time moment  $(t)$  to the next  $(t + 1)$  is as follows
 
 $$
-\psi_ {t + 1} = \psi_ {t} \frac {1 - A c t i v e S M M _ {t}}{1 - T o t a l S M M _ {t}} \tag {6}
+\psi_{t + 1} = \psi_{t} \frac{1 - A c t i v e S M M_{t}}{1 - T o t a l S M M_{t}} \tag {6}
 $$
 
 It is worth considering a few trivial special cases. First, if  $\psi$  is zero at any instance of time, it will remain zero for life. Second, if  $\psi$  is 1 at any time, then it will retain this value as well because TotalSMM is identical to ActiveSMM from equation (5). Indeed, if the mortgage pool is either totally passive ( $\psi = 0$ ) or totally active ( $\psi = 1$ ), it will retain its status due to the complete absence of migration. In either of these two special cases, variables  $\psi$  and TotalSMM are path-independent, leading us to a key conclusion: The separate consideration of active and passive components avoids the problem of path-dependence altogether.
@@ -116,7 +116,7 @@ Step 2 Passive: Do the same for the passive part.
 Step 3: Combine thus obtained values as
 
 $$
-P = \psi (t _ {0}) P _ {\text {a c t i v e}} + [ 1 - \psi (t _ {0}) ] P _ {\text {p a s s i v e}} \tag {7}
+P = \psi (t_{0}) P_{\text{ac ti ve}} + [ 1 - \psi (t_{0}) ] P_{\text{pa ss iv e}} \tag {7}
 $$
 
 Interestingly enough, formula (7) applies to today's prices obtained for all interest rate levels of the pricing grid. As we mentioned above, computing prices on the entire grid is an inseparable part of backward valuation. Therefore, the total price can be also found on the grid, at no additional cost. In particular, the measures representing the sensitivities of an MBS price to the interest rates are found immediately, without any repetitive efforts with a stressed market (compare to Monte Carlo simulation). However, we can't apply formula (7) for future nodes because we know only  $\psi(t_0)$ —today's value of  $\psi$ .
@@ -128,12 +128,12 @@ If the pool is already seasoned, we have to assess  $\psi(t_0)$  first before we
 
 Suppose that we know the pool's age,  $t_0$ , factor,  $F(t_0)$ , and a constant turnover rate,  $\lambda_{\text{turnover}}$ . Then, we can assess the turnover factor  $F_{\text{turnover}}(t_0) = \exp(-\lambda_{\text{turnover}} t_0)$  along with the scheduled factor,  $F_{\text{scheduled}}(t_0)$ . Since the entire pool's amortization is driven by refinancing, turnover, and the scheduled payoff, the knowledge of two out of three factors along with the total pool's factor is enough to restore the entire time  $t_0$  composition. It is easy to show that unknown  $\psi(t_0)$  satisfies the following, generally transcendent, algebraic equation:
 
-$$ x + \alpha x ^ {\beta} = 1 \tag {8}
+$$ x + \alpha x^{\beta} = 1 \tag {8}
 $$ where  $\alpha$  is a known parameter:
 
 
 $$
-\alpha = \frac {1 - \psi_ {0}}{\psi_ {0} ^ {\beta}} \left[ \frac {F _ {t u r n o v e r} (t _ {0}) F _ {s c h e d u l e d} (t _ {0})}{F (t _ {0})} \right] ^ {1 - \beta}
+\alpha = \frac{1 - \psi_{0}}{\psi_{0}^{\beta}} \left[ \frac{F_{t u r n o v e r} (t_{0}) F_{s c h e d u l e d} (t_{0})}{F (t_{0})} \right]^{1 - \beta}
 $$ and  $\beta$  is the same speed-reducing multiplier that enters the APD model (4).
 
 

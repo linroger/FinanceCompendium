@@ -106,21 +106,21 @@ Foreign
 ○ Home:
 
 $$
-\overline {{K}} = K _ {S} + K _ {C}
+\overline {{K}} = K_{S} + K_{C}
 $$
 
 $$
-\overline {{L}} = L _ {S} + L _ {C}
+\overline {{L}} = L_{S} + L_{C}
 $$
 
 $\mathrm{O}$  Foreign:
 
 $$
-\overline {{K}} ^ {*} = K _ {S} ^ {*} + K _ {C} ^ {*}
+\overline {{K}}^{*} = K_{S}^{*} + K_{C}^{*}
 $$
 
 $$
-\overline {{L}} ^ {*} = L _ {S} ^ {*} + L _ {C} ^ {*}
+\overline {{L}}^{*} = L_{S}^{*} + L_{C}^{*}
 $$
 
 - Total capital and labor are fixed within each country
@@ -132,13 +132,13 @@ $$
 - Shoe production labor intensive – computer production capital intensive
 
 $$
-\frac {L _ {S}}{K _ {S}} > \frac {L _ {C}}{K _ {C}}
+\frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}}
 $$
 
 ○ Home is Capital abundant – Foreign is labor abundant
 
 $$
-\frac {\overline {{L}} ^ {*}}{\overline {{K}} ^ {*}} > \frac {\overline {{L}}}{\overline {{K}}}
+\frac{\overline {{L}}^{*}}{\overline {{K}}^{*}} > \frac{\overline {{L}}}{\overline {{K}}}
 $$
 
 # Labor-Capital Relative Demand versus Wage/Rental
@@ -198,7 +198,7 @@ $\circ$  At point C, Home:
 - The relative price of computers increases from:
 
 $$
-\left(\frac {P _ {C}}{P _ {S}}\right) ^ {A} \mathsf {t o} \left(\frac {P _ {C}}{P _ {S}}\right) ^ {W}
+\left(\frac{P_{C}}{P_{S}}\right)^{A} \mathsf {t o} \left(\frac{P_{C}}{P_{S}}\right)^{W}
 $$
 
 # Foreign Gains From Trade
@@ -221,7 +221,7 @@ $\circ$  At point  $C^{*}$ , Foreign:
 - The relative price of computers decreases from:
 
 $$
-\left(\frac {P _ {C}}{P _ {S}}\right) ^ {A ^ {*}} \mathsf {t o} \left(\frac {P _ {C}}{P _ {S}}\right) ^ {W}
+\left(\frac{P_{C}}{P_{S}}\right)^{A^{*}} \mathsf {t o} \left(\frac{P_{C}}{P_{S}}\right)^{W}
 $$
 
 # World Equilibrium
@@ -235,7 +235,7 @@ $$
 ○ Relative price of computers Home exports reaches the relative price where Foreign is willing it import such that,
 
 $$
-Q _ {C 2} - Q _ {C 3} = Q _ {C 3} ^ {*} - Q _ {C 2} ^ {*}
+Q_{C 2} - Q_{C 3} = Q_{C 3}^{*} - Q_{C 2}^{*}
 $$
 
 Free-trade equilibrium
@@ -243,7 +243,7 @@ Free-trade equilibrium
 - Since no borrowing or lending is allowed, therefore,
 
 $$
-Q _ {S 2} ^ {*} - Q _ {S 3} ^ {*} = Q _ {S 3} - Q _ {S 2}
+Q_{S 2}^{*} - Q_{S 3}^{*} = Q_{S 3} - Q_{S 2}
 $$
 
 # Pattern of Trade
@@ -313,7 +313,7 @@ HOV states the following:
 - Leamer demonstrated that HOV implied, if country  $i$  were capital abundant, for example, the production capital/labor ratio exceeded that for consumption:
 
 $$
-\frac {K ^ {i}}{L ^ {i}} > \frac {K ^ {i} - F _ {k} ^ {i}}{L ^ {i} - F _ {l} ^ {i}},
+\frac{K^{i}}{L^{i}} > \frac{K^{i} - F_{k}^{i}}{L^{i} - F_{l}^{i}},
 $$
 
 where  $F_{k}^{i}$  and  $F_{l}^{i}$  are the factor contents of trade
@@ -333,7 +333,7 @@ Factor endowments
 - Again looked at Trade = Production less Consumption
 
 $$
-\frac {K ^ {i}}{L ^ {i}} > \frac {K ^ {i} - F _ {k} ^ {i}}{L ^ {i} - F _ {l} ^ {i}}
+\frac{K^{i}}{L^{i}} > \frac{K^{i} - F_{k}^{i}}{L^{i} - F_{l}^{i}}
 $$
 
 - Statistically insignificant regarding Leontief's prediction — missing element: factor-price equalization

@@ -26,7 +26,7 @@ We cannot, per se, mix quantitative input variables and categorical variables. F
 Suppose data belong to two categories. An explanatory variable that distinguishes only two categories is called a dichotomous variable. The key is to represent a dichotomous categorical variable as a numerical variable  $D$ , called a dummy variable, that can assume the two values 0,1. We can now add the variable  $D$  to the input variables to represent membership in one or the other group:
 
 $$
-X = \left[ \begin{array}{c c c} D _ {1} & 1 & X _ {1 1} \\ \vdots & \vdots & \vdots \\ D _ {T} & 1 & X _ {T 1} \end{array} \right]
+X = \left[ \begin{array}{c c c} D_{1} & 1 & X_{1 1} \\ \vdots & \vdots & \vdots \\ D_{T} & 1 & X_{T 1} \end{array} \right]
 $$
 
 If  $D_{i} = 0$ , the data  $X_{i}$  belong to the first category; if  $D_{i} = 1$ , the data  $X_{i}$  belong to the second category.
@@ -34,21 +34,21 @@ If  $D_{i} = 0$ , the data  $X_{i}$  belong to the first category; if  $D_{i} = 
 Consider now the regression equation
 
 $$
-Y _ {i} = \beta_ {0} + \beta_ {1} X _ {i} + \varepsilon_ {i}
+Y_{i} = \beta_{0} + \beta_{1} X_{i} + \varepsilon_{i}
 $$
 
 In financial econometric applications, the index  $i$  will be time or a variable that identifies a cross section of assets, such as bond issues. Consider that we can write three separate regression equations, one for those data that correspond to  $D = 1$ , one for those data that correspond to  $D = 0$ , and one for the fully pooled data. Suppose now that the three equations differ by the intercept term but have the same slope. Let's explicitly write the two equations for those data that correspond to  $D = 1$  and for those data that correspond to  $D = 0$ :
 
 
 $$
-\mathrm {y} _ {i} = \left\{ \begin{array}{l l} \beta_ {0 0} + \beta_ {1 X _ {i}} + \varepsilon_ {i}, & \text {i f} D _ {i} = 0 \\ \beta_ {0 1} + \beta_ {1} X _ {i} + \varepsilon_ {i}, & \text {i f} D _ {i} = 1 \end{array} \right.
+\mathrm{y}_{i} = \left\{ \begin{array}{l l} \beta_{0 0} + \beta_{1 X_{i}} + \varepsilon_{i}, & \text{if } D_{i} = 0 \\ \beta_{0 1} + \beta_{1} X_{i} + \varepsilon_{i}, & \text{if } D_{i} = 1 \end{array} \right.
 $$ where  $i$  defines the observations that belong to the first category when the dummy variable  $D$  assumes value 0 and also defines the observations that belong to the second category when the dummy variable  $D$  assumes value 1. If the two categories are recession and expansion, the first equation might hold in periods of expansion and the second in periods of recession. If the two categories are investment-grade bonds and noninvestment-grade bonds, the two equations apply to different cross sections of bonds, as will be illustrated in an example later in this entry.
 
 
 Observe now that, under the assumption that only the intercept term differs in the two equations, the two equations can be combined into a single equation in the following way:
 
 $$
-Y _ {i} = \beta_ {0 0} + \gamma D (i) + \beta_ {1} X _ {i} + \varepsilon_ {i}
+Y_{i} = \beta_{0 0} + \gamma D (i) + \beta_{1} X_{i} + \varepsilon_{i}
 $$ where  $\gamma = \beta_{01} - \beta_{00}$  represents the difference of the intercept for the two categories. In this way we have defined a single regression equation with two independent quantitative variables,  $X, D$ , to which we can apply all the usual tools of regression analysis, including the ordinary least squares (OLS) estimation method and all the tests. By estimating the coefficients of this regression, we obtain the common slope and two intercepts. Observe that we would obtain the same result if the categories were inverted. However, the interpretation of the estimated parameter for the categorical variable would differ depending on which category is omitted.
 
 
@@ -58,20 +58,20 @@ Thus far we have assumed that there is no interaction between the categorical an
 Using dummy variables, the treatment is the same as that applied to intercepts. Consider the regression equation  $Y_{i} = \beta_{0} + \beta_{1}X_{i} + \varepsilon_{i}$  and write two regression equations for the two categories as we did above:
 
 $$
-\mathrm {y} _ {i} = \left\{ \begin{array}{l l} \beta_ {0} + \beta_ {1 0 X _ {i}} + \varepsilon_ {i}, & \text {i f} D _ {i} = 0 \\ \beta_ {0} + \beta_ {1 1 X _ {i}} + \varepsilon_ {i}, & \text {i f} D _ {i} = 1 \end{array} \right.
+\mathrm{y}_{i} = \left\{ \begin{array}{l l} \beta_{0} + \beta_{1 0 X_{i}} + \varepsilon_{i}, & \text{if } D_{i} = 0 \\ \beta_{0} + \beta_{1 1 X_{i}} + \varepsilon_{i}, & \text{if } D_{i} = 1 \end{array} \right.
 $$
 
 We can couple these two equations in a single equation as follows:
 
 $$
-Y _ {i} = \beta_ {0} + \beta_ {1 0} X _ {i} + \delta \left(D _ {i} X _ {i}\right) + \varepsilon_ {i}
+Y_{i} = \beta_{0} + \beta_{1 0} X_{i} + \delta \left(D_{i} X_{i}\right) + \varepsilon_{i}
 $$ where  $\delta = \beta_{11} - \beta_{10}$ . In fact, the above equation is identical to the first equation for  $D_{i} = 0$  and to the second for  $D_{i} = 1$ . This regression can be estimated with the usual LS methods.
 
 
 In practice, it is rarely appropriate to consider only interactions and not the intercept, which is the main effect. We call marginalization the fact that the interaction effect is marginal with respect to the main effect. However, we can easily construct a model that combines both effects. In fact we can write the following regression adding two variables, the dummy  $D$  and the interaction  $DX$ :
 
 $$
-Y _ {i} = \beta_ {0} + \gamma D _ {i} + \beta_ {1} X _ {i} + \delta \left(D _ {i} X _ {i}\right) + \varepsilon_ {i}
+Y_{i} = \beta_{0} + \gamma D_{i} + \beta_{1} X_{i} + \delta \left(D_{i} X_{i}\right) + \varepsilon_{i}
 $$
 
 This regression equation, which now includes three regressors, combines both effects.
@@ -79,19 +79,19 @@ This regression equation, which now includes three regressors, combines both eff
 The above process of introducing dummy variables can be generalized to regressions with multiple variables. Consider the following regression:
 
 $$
-Y _ {i} = \beta_ {0} + \sum_ {j = 1} ^ {N} \beta_ {j} X _ {i j} + \varepsilon_ {i}
+Y_{i} = \beta_{0} + \sum_{j = 1}^{N} \beta_{j} X_{i j} + \varepsilon_{i}
 $$ where data can be partitioned in two categories with the use of a dummy variable:
 
 
 $$
-\mathbf {X} = \left[ \begin{array}{c c c c c} D _ {1} & 1 & X _ {1 1} & \dots & X _ {1 N} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ D _ {T} & 1 & X _ {T 1} & \dots & X _ {T N} \end{array} \right]
+\mathbf {X} = \left[ \begin{array}{c c c c c} D_{1} & 1 & X_{1 1} & \dots & X_{1 N} \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ D_{T} & 1 & X_{T 1} & \dots & X_{T N} \end{array} \right]
 $$
 
 We can introduce the dummy  $D$  as well as its interaction with the  $N$  quantitative variable and thus write the following equation:
 
 
 $$
-Y _ {i} = \beta_ {0} + \gamma_ {i} D _ {i} + \sum_ {j = 1} ^ {N} \beta_ {j} X _ {i j} + \sum_ {j = 1} ^ {N} \delta_ {i j} (D _ {i} X _ {i j}) + \varepsilon_ {i}
+Y_{i} = \beta_{0} + \gamma_{i} D_{i} + \sum_{j = 1}^{N} \beta_{j} X_{i j} + \sum_{j = 1}^{N} \delta_{i j} (D_{i} X_{i j}) + \varepsilon_{i}
 $$
 
 The above discussion depends critically on the fact that there are only two categories, a fact that allows one to use the numerical variable 0,1 to identify the two categories. However, the process can be easily extended to multiple categories by adding dummy variables. Suppose there are  $K > 2$  categories. An explanatory variable that distinguishes between more than two categories is called a polytomous variable.
@@ -108,7 +108,7 @@ The  $t$ -statistic applied to the regression coefficients of dummy variables of
 We can also use the  $F$ -test to test the significance of each specific dummy variable. To do so we can run the regression with and without that variable and form the corresponding  $F$ -test. The Chow test is the  $F$ -test to gauge if all the dummy variables are collectively irrelevant (see Chow, 1960). The Chow test is an  $F$ -test of mutual exclusion, written as follows:
 
 $$
-F = \frac {[ S S R - (S S R _ {1} + S S R _ {2}) ]}{S S R _ {1} + S S R _ {2}} \frac {[ n - 2 (k + 1) ]}{k + 1}
+F = \frac{[ S S R - (S S R_{1} + S S R_{2}) ]}{S S R_{1} + S S R_{2}} \frac{[ n - 2 (k + 1) ]}{k + 1}
 $$ where
 
 
@@ -125,17 +125,17 @@ Observe that  $SSR_{1} + SSR_{2}$  is equal to the squared sum of residuals of t
 To illustrate the use of dummy variables, we will estimate a model to predict corporate bond spreads. The regression is relative to a cross section of bonds. The regression equation is the following:
 
 $$
-\begin{array}{l} \operatorname {S p r e a d} _ {i} = \beta_ {0} + \beta_ {1} \text {C o u p o n} _ {i} + \beta_ {2} \text {C o v e r a g e R a t i o} _ {i} \\ + \beta_ {3} \text {L o g g e d E B I T} _ {i} + \varepsilon_ {i} \\ \end{array}
+\begin{array}{l} \operatorname{Sp re ad}_{i} = \beta_{0} + \beta_{1} \text{Co up on}_{i} + \beta_{2} \text{Co ve ra ge Ra ti o}_{i} \\ + \beta_{3} \text{Lo gg ed EB IT}_{i} + \varepsilon_{i} \\ \end{array}
 $$ where
 
 
 $\mathrm{Spread}_i =$  option-adjusted spread (in basis points) for the bond issue of company  $i$
 
-[ \text{Coupon}_i = \frac{\text{coupon rate for the bond of company } i, \text{expressed without considering percentage sign (i.e.,} 7.5\% = 7.5)} ]
+[ \text{Coupon}_i = \frac{\text{couponrateforthebondofcompany } i, \text{expressedwithoutconsideringpercentagesign (i.e.,} 7.5\% = 7.5)} ]
 
-$\text{CoverageRatio}_i = \frac{\text{earnings before interest, taxes, depreciation and amortization (EBITDA) divided by interest expense}}{for company i}$
+$\text{CoverageRatio}_i = \frac{\text{earningsbeforeinterest,taxes,depreciationandamortization (EBITDA)dividedbyinterestexpense}}{for company i}$
 
-[ \text{LoggedEBIT}_i = \frac{\text{logarithm of earnings}}{(\text{earnings before interest and taxes, EBIT, in millions of dollars})} ] for company  $i$
+[ \text{LoggedEBIT}_i = \frac{\text{logarithmofearnings}}{(\text{earningsbeforeinterestandtaxes,EBIT,inmillionsofdollars})} ] for company  $i$
 
 The dependent variable, Spread, is not measured by the typically nominal spread but by the option-adjusted spread. This spread measure adjusts for any embedded options in a bond (see Chapter 6 in Fabozzi, 2006).
 
@@ -166,7 +166,7 @@ Given the high value of the  $F$ -statistic and the  $p$ -value close to zero, t
 Let's now analyze if we obtain a better fit if we consider the two categories of investment-grade and below investment-grade bonds. It should be emphasized that this is only an exercise to show the application of regression analysis. The conclusions we reach are not meaningful from an econometric point of view given the small size of the database. The new equation is written as follows:
 
 $$
-\begin{array}{l} \operatorname {S p r e a d} _ {i} = \beta_ {0} + \beta_ {1} D 1 _ {i} + \beta_ {2} \text {C o u p o n} _ {i} \\ + \beta_ {3} D 1 _ {i} \text {C o u p o n} _ {i} + \beta_ {4} \text {C o v e r a g e R a t i o} _ {i} \\ + \beta_ {5} D 1 _ {i} \text {C o v e r a g e R a t i o} _ {i} + \beta_ {6} \text {L o g g e d E B I T} _ {i} \\ + \beta_ {7} D 1 _ {i} \text {L o g g e d E B I T} _ {i} + \varepsilon_ {i} \\ \end{array}
+\begin{array}{l} \operatorname{Sp re ad}_{i} = \beta_{0} + \beta_{1} D 1_{i} + \beta_{2} \text{Co up on}_{i} \\ + \beta_{3} D 1_{i} \text{Co up on}_{i} + \beta_{4} \text{Co ve ra ge Ra ti o}_{i} \\ + \beta_{5} D 1_{i} \text{Co ve ra ge Ra ti o}_{i} + \beta_{6} \text{Lo gg ed EB IT}_{i} \\ + \beta_{7} D 1_{i} \text{Lo gg ed EB IT}_{i} + \varepsilon_{i} \\ \end{array}
 $$
 
 There are now seven variables and eight parameters to estimate. The estimated model coefficients and the  $t$ -statistics are shown below:
@@ -228,7 +228,7 @@ Now let's use dummy variables to test if there is a regime shift between the two
 
 
 $$
-\begin{array}{l} \operatorname {S p r e a d} _ {i} = \beta_ {0} + \beta_ {1} D 2 _ {i} + \beta_ {2} \text {C o u p o n} _ {i} \\ + \beta_ {3} D 2 _ {i} \text {C o u p o n} _ {i} + \beta_ {4} \text {C o v e r a g e R a t i o} _ {i} \\ + \beta_ {5} D 2 _ {i} \text {C o v e r a g e R a t i o} _ {i} + \beta_ {6} \text {L o g g e d E B I T} _ {i} \\ + \beta_ {7} D 2 _ {i} \text {L o g g e d E B I T} _ {i} + \varepsilon_ {i} \\ \end{array}
+\begin{array}{l} \operatorname{Sp re ad}_{i} = \beta_{0} + \beta_{1} D 2_{i} + \beta_{2} \text{Co up on}_{i} \\ + \beta_{3} D 2_{i} \text{Co up on}_{i} + \beta_{4} \text{Co ve ra ge Ra ti o}_{i} \\ + \beta_{5} D 2_{i} \text{Co ve ra ge Ra ti o}_{i} + \beta_{6} \text{Lo gg ed EB IT}_{i} \\ + \beta_{7} D 2_{i} \text{Lo gg ed EB IT}_{i} + \varepsilon_{i} \\ \end{array}
 $$ as in the previous case but with a different dummy variable. There are seven independent
 
 
@@ -239,18 +239,18 @@ variables and eight parameters to estimate. The estimated model coefficients and
 Other regression statistics are:
 
 $$
-\mathrm {S S R}: 1. 5 3 9 9 \mathrm {e} + 0 0 6
+\mathrm{SS R}: 1. 5 3 9 9 \mathrm{e} + 0 0 6
 $$
 
 $$
-F \text {- s t a t i s t i c :} 7 2. 3 9
+F \text{-s ta ti st ic :} 7 2. 3 9
 $$
 
-$$ p \text {- v a l u e :} 0
+$$ p \text{-v al ue :} 0
 $$
 
 $$
-R ^ {2}: 0. 7 1
+R^{2}: 0. 7 1
 $$
 
 The Chow test has the value 14.73. The  $F$ -statistics and the Chow test suggest that there is indeed a regime shift and that the spread regressions at the two different dates are different. Again, the use of dummy variables has greatly improved the goodness of fit of the regression, even after compensating for the increase in the number of parameters. The residuals of the model with dummy variables D2 are shown in the next-to-the-last column of Table 2.
@@ -259,14 +259,14 @@ The Chow test has the value 14.73. The  $F$ -statistics and the Chow test sugges
 
 The characteristic line of a mutual fund is the regression of the excess returns of a mutual fund on the market's excess returns:
 
-$$ y _ {i t} = \alpha_ {i} + \beta_ {i} x _ {t}
+$$ y_{i t} = \alpha_{i} + \beta_{i} x_{t}
 $$ where
 
 
-$$ y _ {i t} = \underset {\text {t h e r e i s}} {\text {m u t u a l f u n d i ' s e x c e s s r e t u r n o v e r}}
+$$ y_{i t} = \underset {\text{th er ei s}} {\text{mu tu al fu nd i 's ex ce ss re tu rn ov er}}
 $$
 
-$$ x _ {t} = \text {m a r k e t e x c e s s r e t u r n o v e r t h e r i s k -}
+$$ x_{t} = \text{ma rk et ex ce ss re tu rn ov er th er is k -}
 $$
 
 $\alpha_{i}$  and  $\beta_{i} =$  the regression parameters to be estimated for mutual fund  $i$
@@ -277,7 +277,7 @@ The results of the above regression for both mutual funds are shown in Table 4. 
 
 Let's now perform a simple application of the use of dummy variables by determining if the slope (beta) of the two mutual funds is different in a rising stock market ("up market") and a declining stock market ("down market"). To test this, we can write the following multiple regression model:
 
-$$ y _ {i t} = \alpha_ {i} + \beta_ {1 i} x _ {t} + \beta_ {2 i} \left(D _ {t} x _ {t}\right) + e _ {i t}
+$$ y_{i t} = \alpha_{i} + \beta_{1 i} x_{t} + \beta_{2 i} \left(D_{t} x_{t}\right) + e_{i t}
 $$ where  $D_{t}$  is the dummy variable that can take on a value of 1 or 0. We will let
 
 
@@ -287,11 +287,11 @@ $D_{t} = 0$  if period  $t$  is classified as a down market
 The coefficient for the dummy variable is  $\beta_{2i}$ . If that coefficient is statistically significant, then for the mutual fund:
 
 $$
-\text {I n a n u p m a k e t :} \beta_ {i} = \beta_ {1 i} + \beta_ {2 i}
+\text{In an up ma ke t :} \beta_{i} = \beta_{1 i} + \beta_{2 i}
 $$
 
 $$
-\text {I n a d o w n m a k e t :} \beta_ {i} = \beta_ {1 i}
+\text{In ad ow nm ak et :} \beta_{i} = \beta_{1 i}
 $$
 
 Table 3 Data for Estimating Mutual Fund Characteristic Line with a Dummy Variable
@@ -350,13 +350,13 @@ For both funds,  $\beta_{2i}$  is statistically significantly different from zer
 Thus far we have discussed models where the independent variables can be either quantitative or categorical while the dependent variable is quantitative. Let's now discuss models where the dependent variable is categorical. Recall that a regression model can be interpreted as a conditional probability distribution. Suppose that the dependent variable is a categorical variable  $Y$  that can assume two values, which we represent conventionally as 0 and 1. The probability distribution of the dependent variable is then a discrete function:
 
 $$
-\left\{ \begin{array}{l} \mathrm {P} (Y = 1) = p \\ \mathrm {P} (Y = 0) = q = 1 - p \end{array} \right.
+\left\{ \begin{array}{l} \mathrm{P} (Y = 1) = p \\ \mathrm{P} (Y = 0) = q = 1 - p \end{array} \right.
 $$
 
 A regression model where the dependent variable is a categorical variable is therefore a probability model; that is, it is a model of the probability  $p$  given the values of the independent variables  $\mathbf{X}$ :
 
 $$
-\mathrm {P} (Y = 1 | \mathbf {X}) = f (\mathbf {X})
+\mathrm{P} (Y = 1 | \mathbf {X}) = f (\mathbf {X})
 $$
 
 In the following sections we will discuss three probability models: the linear probability model, the probit regression model, and the logit regression model.
@@ -366,7 +366,7 @@ In the following sections we will discuss three probability models: the linear p
 The linear probability model assumes that the function  $f(\mathbf{X})$  is linear. For example, a linear probability model of default assumes that there is a linear relationship between the probability of default and the factors that determine default.
 
 $$
-\mathrm {P} (Y = 1 | \mathbf {X}) = f (\mathbf {X})
+\mathrm{P} (Y = 1 | \mathbf {X}) = f (\mathbf {X})
 $$
 
 The parameters of the model can be obtained by using ordinary least squares applying the estimation methods of multiple regression models entry. Once the parameters of the model are estimated, the predicted value for  $\mathrm{P}(Y)$  can be interpreted as the event probability such as the probability of default in our previous example. Note, however, that when using a linear probability model, in this entry the  $R^2$  is used only if all the independent variables are also binary variables.
@@ -382,40 +382,40 @@ Because what is being predicted is the standard normal cumulative probability di
 The general form for the probit regression model is
 
 $$
-\begin{array}{l} P (Y = 1 | X _ {1}, X _ {2}, \dots , X _ {K}) \\ = N \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {K} X _ {K}\right) \\ \end{array}
+\begin{array}{l} P (Y = 1 | X_{1}, X_{2}, \dots , X_{K}) \\ = N \left(a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{K} X_{K}\right) \\ \end{array}
 $$ where  $N$  is the cumulative standard normal distribution function.
 
 
 To see how ML methods work, consider a model of the probability of corporate bond defaults. Suppose that there are three factors that have been found to historically explain corporate bond defaults. The probit regression model is then
 
 $$
-\left\{ \begin{array}{l} \mathrm {P} (Y = 1 | X _ {1} X _ {2}, X _ {3}) \\ \quad = N (\beta_ {0} + \beta_ {1} X _ {1} + \beta_ {2} X _ {2} + \beta_ {3} X _ {3}) \\ \mathrm {P} (Y = 0 | X _ {1}, X _ {2}, X _ {3}) \\ \quad = 1 - N (\beta_ {0} + \beta_ {1} X _ {1} + \beta_ {2} X _ {2} + \beta_ {3} X _ {3}) \end{array} \right.
+\left\{ \begin{array}{l} \mathrm{P} (Y = 1 | X_{1} X_{2}, X_{3}) \\ \quad = N (\beta_{0} + \beta_{1} X_{1} + \beta_{2} X_{2} + \beta_{3} X_{3}) \\ \mathrm{P} (Y = 0 | X_{1}, X_{2}, X_{3}) \\ \quad = 1 - N (\beta_{0} + \beta_{1} X_{1} + \beta_{2} X_{2} + \beta_{3} X_{3}) \end{array} \right.
 $$
 
 The likelihood function is formed from the products
 
 $$
-\begin{array}{l} \prod_ {i} N \left(\beta_ {0} + \beta_ {1} X _ {1 i} + \beta_ {2} X _ {2 i} + \beta_ {3} X _ {3 i}\right) ^ {Y _ {i}} \\ (1 - N \left(\beta_ {0} + \beta_ {1} X _ {1 i} + \beta_ {2} X _ {2 i} + \beta_ {3} X _ {3 i}\right)) ^ {1 - Y _ {i}} \\ \end{array}
+\begin{array}{l} \prod_{i} N \left(\beta_{0} + \beta_{1} X_{1 i} + \beta_{2} X_{2 i} + \beta_{3} X_{3 i}\right)^{Y_{i}} \\ (1 - N \left(\beta_{0} + \beta_{1} X_{1 i} + \beta_{2} X_{2 i} + \beta_{3} X_{3 i}\right))^{1 - Y_{i}} \\ \end{array}
 $$ extended to all the samples, where the variable  $Y$  assumes a value of 0 for defaulted companies and 1 for nondefaulted companies. Parameters are estimated by maximizing the likelihood.
 
 
 Suppose that the following parameters are estimated:
 
 $$
-\beta = - 2. 1 \quad \beta_ {1} = 1. 9 \quad \beta_ {2} = 0. 3 \quad \beta_ {3} = 0. 8
+\beta = - 2. 1 \quad \beta_{1} = 1. 9 \quad \beta_{2} = 0. 3 \quad \beta_{3} = 0. 8
 $$
 
 Then
 
 $$
-\begin{array}{l} N \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + b _ {3} X _ {3}\right) \\ = N (- 2. 1 + 1. 9 X _ {1} + 0. 3 X _ {2} + 0. 8 X _ {3}) \\ \end{array}
+\begin{array}{l} N \left(a + b_{1} X_{1} + b_{2} X_{2} + b_{3} X_{3}\right) \\ = N (- 2. 1 + 1. 9 X_{1} + 0. 3 X_{2} + 0. 8 X_{3}) \\ \end{array}
 $$
 
 Now suppose that the probability of default of a company with the following values for the independent variables is sought:
 
 
 $$
-\begin{array}{c c c} X _ {1} = 0. 2 & X _ {2} = 0. 9 & X _ {3} = 1. 0 \end{array}
+\begin{array}{c c c} X_{1} = 0. 2 & X_{2} = 0. 9 & X_{3} = 1. 0 \end{array}
 $$
 
 Substituting these values we get
@@ -441,7 +441,7 @@ As with the probit regression model, the logit regression model is a nonlinear r
 The general formula for the logit regression model is
 
 $$
-\begin{array}{l} \mathrm {P} (Y = 1 | X _ {1}, X _ {2}, \dots , X _ {N}) \\ = F \left(a + b _ {1} X _ {1} + b _ {2} X _ {2} + \dots + b _ {N} X _ {N}\right) \\ = - 1 / 1 + e ^ {- \mathrm {W}} \\ \end{array}
+\begin{array}{l} \mathrm{P} (Y = 1 | X_{1}, X_{2}, \dots , X_{N}) \\ = F \left(a + b_{1} X_{1} + b_{2} X_{2} + \dots + b_{N} X_{N}\right) \\ = - 1 / 1 + e^{- \mathrm{W}} \\ \end{array}
 $$ where  $W = a + b_{1}X_{1} + b_{2}X_{2} + \ldots +b_{\mathrm{N}}X_{\mathrm{N}}$
 
 
@@ -450,7 +450,7 @@ As with the probit regression model, the logit regression model is estimated wit
 Using our previous illustration,  $W = -0.65$ . Therefore
 
 $$
-1 / [ 1 + e ^ {- W} ] = 1 / [ 1 + e ^ {- (- 0.65)} ] = 34.3 \%
+1 / [ 1 + e^{- W} ] = 1 / [ 1 + e^{- (- 0.65)} ] = 34.3 \%
 $$
 
 The probability of default for the company with these characteristics is  $34.3\%$ .

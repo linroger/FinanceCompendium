@@ -32,13 +32,13 @@ The DTS concept has many implications for portfolio managers, both in terms of t
 To understand the intuition behind DTS, consider the return,  $R_{\mathrm{spread}}$ , due strictly to change in spread. Let  $D$  denote the spread duration of a bond and  $s$  its spread; the spread change return is then:
 
 $$
-R _ {\text {s p r e a d}} = - D \cdot \Delta s \tag {1}
+R_{\text{sp re ad}} = - D \cdot \Delta s \tag {1}
 $$
 
 Or, equivalently,
 
 $$
-R _ {\text {s p r e a d}} = - D \cdot s \cdot \frac {\Delta s}{s} \tag {2}
+R_{\text{sp re ad}} = - D \cdot s \cdot \frac{\Delta s}{s} \tag {2}
 $$
 
 That is, just as spread duration is the sensitivity to an absolute change in spread (e.g., spreads widen by 5 bps), DTS  $(D\cdot s)$  is the sensitivity to a relative change in spread (e.g., spreads widen by  $5\%$ ). Note that this notion of relative spread change provides for a formal expression of the idea mentioned earlier—that credits with wider spreads are riskier since they tend to experience greater spread changes.
@@ -47,12 +47,12 @@ That is, just as spread duration is the sensitivity to an absolute change in spr
 In the absolute spread change approach shown in equation (1), we can see that the volatility of excess returns can be approximated by
 
 $$
-\sigma_ {\text {r e t u r n}} \cong D \cdot \sigma_ {\text {s p r e a d}} ^ {\text {a b s o l u t e}} \tag {3}
+\sigma_{\text{re tu rn}} \cong D \cdot \sigma_{\text{sp re ad}}^{\text{ab so lu te}} \tag {3}
 $$ while in the relative spread change approach of equation (2), excess return volatility follows
 
 
 $$
-\sigma_ {\text {r e t u r n}} \cong D \cdot s \cdot \sigma_ {\text {s p r e a d}} ^ {\text {r e l a t i v e}} \tag {4}
+\sigma_{\text{re tu rn}} \cong D \cdot s \cdot \sigma_{\text{sp re ad}}^{\text{re la ti ve}} \tag {4}
 $$
 
 Given that the two representations above are equivalent, why should one of them be preferable to another? The key advantage of modeling changes in spreads in relative terms is the resulting stability. The above equations, for simplicity, present returns and volatilities as idealized concepts. We have not added subscripts to specify whether we are referring to specific securities or sectors, or over what time period. Yet the way spread changes of different securities relate to each other, or the way volatilities in one time period relate to those in another, can be of critical importance in measuring and controlling portfolio risk.
@@ -85,7 +85,7 @@ Figure 2 Systematic Spread Volatility versus Spread Level Note: Based on monthly
 U.S. credit markets, spanning investment-grade and high-yield rated bonds. The bonds in the Barclays Capital indexes for these markets were partitioned each month by sector, quality, and spread level. The average spread level for each market cell is plotted against the timeseries volatility of the average absolute spread changes in each month. The results suggest that spread volatility can be closely approximated by a simple linear model of the form
 
 $$
-\sigma_ {\text {s p r e a d}} ^ {\text {a b s o l u t e}} (s) \cong \theta \cdot s \tag {5}
+\sigma_{\text{sp re ad}}^{\text{ab so lu te}} (s) \cong \theta \cdot s \tag {5}
 $$
 
 This simple model provides an excellent fit to the data shown in Figure 2, with  $\theta$  equal to  $9.4\%$  irrespective of sector or maturity. Hence, the results suggest that the historical volatility of systematic spread movements can be expressed quite compactly, in terms of a relative spread change volatility of about  $9\%$  per month. That is, spread volatility for a market segment trading at 50 bps should be about 4.5 bps/month, while that of a market segment at 200 bps should be about 18 bps/month. Ben Dor et al. (2007) documented a similar pattern for idiosyncratic volatility: The cross-sectional volatility of credit spread changes across a sec tor also exhibits a linear dependence on spread with about the same slope.

@@ -132,7 +132,7 @@ by firms. It is thus a product measure, in contrast to the expenditure measure G
 
 To adjust GNE and find the contribution going into GDP, we subtract the value of final goods imported (home spending that goes to foreign firms) and add the value of final goods exported (foreign spending that goes to home firms). In addition, we can't forget about intermediate goods: we subtract the value of imported intermediates (in GDP they also count as home's purchased inputs) and add the value of exported intermediates (in GDP they also count as home's produced output). So, adding it all up, to get from GNE to GDP, we add the value of all exports denoted  $ EX $ and subtract the value of all imports $ IM $. Thus, $ $
 
-\underbrace {G D P} _ {\text {G r o s s d o m e s t i c p r o d u c t}} = \underbrace {C + I + G} _ {\text {G r o s s n a t i o n a l e x p e n d i t u r e}} + \underbrace {\left(\underbrace {E X} _ {\text {A l l e x p o r t s , f i n a l & i n t e r m i d a t e}} - \underbrace {I M} _ {\text {A l l i m p o r t s , f i n a l & i n t e r m i d a t e}}\right)} _ {\text {T r a d e b a l a n c e} T B} \tag {16-1}
+\underbrace {G D P}_{\text{Gr os sd om es ti cp ro du ct}} = \underbrace {C + I + G}_{\text{Gr os sn at io na le xp en di tu re}} + \underbrace {\left(\underbrace {E X}_{\text{Al le xp or ts ,f in al &i nt er mi da te}} - \underbrace {I M}_{\text{Al li mp or ts ,f in al &i nt er mi da te}}\right)}_{\text{Tr ad eb al an ce} T B} \tag {16-1}
 
 $ $
 This important formula for GDP says that gross domestic product is equal to gross national expenditure (GNE) plus the trade balance (TB).
@@ -160,7 +160,7 @@ After accounting for these income flows, we see that gross national income (GNI)
 With the help of the GDP expression in Equation (16-1), we obtain the key formula for GNI that says the gross national income equals gross domestic product (GDP) plus net factor income from abroad (NFIA).
 $ $
 
-\begin{array}{r l} G N I & = \underbrace {C + I + G} _ {\text {G r o s s n a t i o n a l e x p e n d i t u r e}} + \underbrace {(E X - I M)} _ {\text {T r a d e b a l i n c e}} \\ & \underbrace {G N E} _ {G D P} \end{array} + \underbrace {(E X _ {F S} - I M _ {F S})} _ {\text {N e t f a c t o r i n c o m e f r o m a b r o a d}} \tag {16-2}
+\begin{array}{r l} G N I & = \underbrace {C + I + G}_{\text{Gr os sn at io na le xp en di tu re}} + \underbrace {(E X - I M)}_{\text{Tr ad eb al in ce}} \\ & \underbrace {G N E}_{G D P} \end{array} + \underbrace {(E X_{F S} - I M_{F S})}_{\text{Ne tf ac to ri nc om ef ro ma br oa d}} \tag {16-2}
 
 $ $
 In 2012 the United States received income payments from foreigners  $ EX_{FS} $ of \$ 782 billion and made income payments to foreigners  $ IM_{FS} $ of \$ 539 billion, so the net factor income from abroad NFLA was + \$ 243 billion.
@@ -196,7 +196,7 @@ Measuring national generosity is highly controversial and a recurring theme of c
 
 To include the impact of aid and all other transfers in the overall calculation of a country's income resources, we add net unilateral transfers to gross national income. Using the definition of GNI in Equation (16-2), we obtain a full measure of national income in an open economy, known as gross national disposable income (GNDI), henceforth denoted  $ Y $: $ $
 
-\underbrace {Y} = \underbrace {C + I + G} + \underbrace {(E X - I M)} + \underbrace {(E X _ {F S} - I M _ {F S})} + \underbrace {(U T _ {I N} - U T _ {O U T})} \tag {16-3}
+\underbrace {Y} = \underbrace {C + I + G} + \underbrace {(E X - I M)} + \underbrace {(E X_{F S} - I M_{F S})} + \underbrace {(U T_{I N} - U T_{O U T})} \tag {16-3}
 
 $ $
 
@@ -214,7 +214,7 @@ $ $
 
 $ $
 
-\text {T r a d e}
+\text{Tr ad e}
 
 $ $
 
@@ -226,13 +226,13 @@ $ $
 
 $ $
 
-\begin{array}{l} \text {N e t f a c t o r i n c o m e} \\ \text {f r o m a b r o a d} \end{array}
+\begin{array}{l} \text{Ne tf ac to ri nc om e} \\ \text{fr om ab ro ad} \end{array}
 
 $ $
 
 $ $
 
-\begin{array}{c} \text {N e t u n i l a t e r} \\ \text {t r a n s f e r s} \end{array}
+\begin{array}{c} \text{Ne tu ni la te r} \\ \text{tr an sf er s} \end{array}
 
 $ $
 
@@ -295,7 +295,7 @@ To get from GNI to GDNI, we add NUT (Equation 16-3).
 To go one step further, we can group the three cross-border terms into an umbrella term that is called the current account CA:
 $ $
 
-\underbrace {Y} _ {G N D I} = \underbrace {C + I + G} _ {G N E} + \underbrace {\{\left(E X - I M\right)} _ {T B} + \underbrace {\left(E X _ {F S} - I M _ {F S}\right)} _ {N F I A} + \underbrace {\left(U T _ {I N} - U T _ {O U T}\right)} _ {N U T} \} \tag {16-4}
+\underbrace {Y}_{G N D I} = \underbrace {C + I + G}_{G N E} + \underbrace {\{\left(E X - I M\right)}_{T B} + \underbrace {\left(E X_{F S} - I M_{F S}\right)}_{N F I A} + \underbrace {\left(U T_{I N} - U T_{O U T}\right)}_{N U T} \} \tag {16-4}
 
 $ $
 Current account
@@ -360,7 +360,7 @@ GNDI is less than GNE if and only if CA is negative, or in deficit.
 
 Subtracting  $ C + G $ from both sides of the last identity, we can see that the current account is also the difference between national saving ($ S = Y - C - G $) and investment: $ $
 
-\underbrace {S} _ {Y - C - G} = I + C A \tag {16-6}
+\underbrace {S}_{Y - C - G} = I + C A \tag {16-6}
 
 $ $
 where national saving is defined as income minus consumption minus government consumption. This equation is called the current account identity even though it is just a rearrangement of the national income identity. Thus,
@@ -409,7 +409,7 @@ Source: IMF, World Economic Outlook, September 2005, and updates.
 
 To uncover the sources of the trends in total saving, Figure 16-8 examines two of its components, public and private saving. We define private saving as the part of after-tax private sector disposable income that is not devoted to private consumption  $ C $. After-tax private sector disposable income, in turn, is national income $ Y $ minus the net taxes $ T $ paid by households to the government. Hence, private saving $ S_{p} $ is $ $
 
-S _ {p} = Y - T - C \tag {16-7}
+S_{p} = Y - T - C \tag {16-7}
 
 $ $
 Private saving can be a positive number, but if the private sector consumption exceeds after-tax disposable income, then private saving is negative. (Here, the private sector includes households and private firms, which are ultimately owned by households.)
@@ -432,7 +432,7 @@ Source: IMF, World Economic Outlook, September 2005, and updates.
 
 Similarly, we define government saving or public saving as the difference between tax revenue  $ T $ received by the government and government purchases $ G $. Hence, public saving $ S_{g} $ equals $ $
 
-S _ {g} = T - G \tag {16-8}
+S_{g} = T - G \tag {16-8}
 
 $ $
 Government saving is positive when tax revenue exceeds government consumption  $ (T > G) $ and the government runs a budget surplus. If the government runs a budget deficit, however, government consumption exceeds tax revenue $ (G > T) $ , and public saving is negative.
@@ -440,7 +440,7 @@ Government saving is positive when tax revenue exceeds government consumption  $
 If we add these last two equations, we see that private saving plus government saving equals total national saving
 $ $
 
-S = Y - C - G = \underbrace {(Y - T - C)} _ {\text {}} + \underbrace {(T - G)} _ {\text {}} = S _ {p} + S _ {g} \tag {16-9}
+S = Y - C - G = \underbrace {(Y - T - C)}_{\text{}} + \underbrace {(T - G)}_{\text{}} = S_{p} + S_{g} \tag {16-9}
 
 $ $
 Private saving Government saving
@@ -456,7 +456,7 @@ Do government deficits cause current account deficits? Sometimes they go togethe
 We can use the equation just given and the current account identity to write
 $ $
 
-C A = S _ {p} + S _ {g} - I \tag {16-10}
+C A = S_{p} + S_{g} - I \tag {16-10}
 
 $ $
 Now, suppose the government lowers your taxes by  \$ 100 this year and borrows to finance the resulting deficit but also says you will be taxed by an extra \$ 100 plus interest next year to pay off the debt. The theory of Ricardian equivalence asserts that you and other households will save the tax cut to pay next year's tax increase, so that any fall in public saving will be fully offset by a rise in private saving. In this situation, the current account—as seen in Equation (16-10)—would be unchanged. However, empirical studies do not support this theory: private saving does not fully offset government saving in practice.[8]
@@ -515,7 +515,7 @@ From the home perspective, a foreign asset is a claim on a foreign country. When
 If we use superscripts "H" and "F" to denote home and foreign assets, we can break down the financial account as the sum of the net exports of each type of asset:
 $ $
 
-F A = \underbrace {\left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right)} _ {\text {N e t e x p o r t o f}} + \underbrace {\left(E X _ {A} ^ {F} - I M _ {A} ^ {F}\right)} _ {\text {N e t e x p o r t o f}} = \underbrace {\left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right)} _ {\text {N e t e x p o r t o f}} - \underbrace {\left(I M _ {A} ^ {F} - E X _ {A} ^ {F}\right)} _ {\text {N e t i m p o r t o f}} \tag {16-11}
+F A = \underbrace {\left(E X_{A}^{H} - I M_{A}^{H}\right)}_{\text{Ne te xp or to f}} + \underbrace {\left(E X_{A}^{F} - I M_{A}^{F}\right)}_{\text{Ne te xp or to f}} = \underbrace {\left(E X_{A}^{H} - I M_{A}^{H}\right)}_{\text{Ne te xp or to f}} - \underbrace {\left(I M_{A}^{F} - E X_{A}^{F}\right)}_{\text{Ne ti mp or to f}} \tag {16-11}
 
 $ $
 In the last part of this formula, we use the fact that net imports of foreign assets are just minus net exports of foreign assets, allowing us to change the sign. This reveals to us that FA equals the additions to external liabilities (the home-owned assets moving into foreign ownership, net) minus the additions to external assets (the foreign-owned assets moving into home ownership, net). This is our first indication of how flows of assets have implications for changes in a nation's wealth, a topic to which we return shortly.
@@ -529,25 +529,25 @@ To further understand the links between flows of goods, services, income, and as
 Recall from Equation (16-4) that gross national disposable income is
 $ $
 
-Y = G N D I = G N E + T B + N F I A + N U T = \underbrace {G N E + C A} _ {\text {R e s o u r c e s a v a i l a b l e t o}}
+Y = G N D I = G N E + T B + N F I A + N U T = \underbrace {G N E + C A}_{\text{Re so ur ce sa va il ab le to}}
 
 $ $
 Does this expression represent all of the resources that are available to the home economy to finance expenditure? No. It represents only the income resources, that is, the resources obtained from the market sale and purchase of goods, services, and factor services and from nonmarket transfers. In addition, the home economy can free up (or use up) resources in another way: by engaging in net sales (or purchases) of assets. We can calculate these extra resources using our previous definitions:
 $ $
 
-\underbrace {\left[ \begin{array}{c} E X _ {A} - K A _ {O U T} \end{array} \right]} _ {\text {V a l u e o f}} - \underbrace {\left[ I M _ {A} - K A _ {I N} \right]} _ {\text {a l l a s s e t s}} = E X _ {A} - I M _ {A} + K A _ {I N} - K A _ {O U T} = \underbrace {F A + K A} _ {\text {E x t r a r e s o u r c e s}}
+\underbrace {\left[ \begin{array}{c} E X_{A} - K A_{O U T} \end{array} \right]}_{\text{Va lu eo f}} - \underbrace {\left[ I M_{A} - K A_{I N} \right]}_{\text{al la ss et s}} = E X_{A} - I M_{A} + K A_{I N} - K A_{O U T} = \underbrace {F A + K A}_{\text{Ex tr ar es ou rc es}}
 
 $ $
 Adding the last two expressions, we arrive at the value of the total resources available to the home country for expenditure purposes. This total value must equal the total value of home expenditure on final goods and services, GNE:
 $ $
 
-\underbrace {G N E + C A} _ {\text {R e s o u r c e s a v a i l a b l e}} + \underbrace {F A + K A} _ {\text {E x t r a r e s o u r c e s a v a i l a b l e}} = G N E
+\underbrace {G N E + C A}_{\text{Re so ur ce sa va il ab le}} + \underbrace {F A + K A}_{\text{Ex tr ar es ou rc es av ai la bl e}} = G N E
 
 $ $
 We can cancel GNE from both sides of this expression to obtain the important result known as the balance of payments identity or BOP identity:
 $ $
 
-\underbrace {C A} _ {\text {C u r r e n t a c c o u n t}} + \underbrace {K A} _ {\text {C a p i t a l a c c o u n t}} + \underbrace {F A} _ {\text {F i n a c i a l a c c o u n t}} = 0 \tag {16-12}
+\underbrace {C A}_{\text{Cu rr en ta cc ou nt}} + \underbrace {K A}_{\text{Ca pi ta la cc ou nt}} + \underbrace {F A}_{\text{Fi na ci al ac co un t}} = 0 \tag {16-12}
 
 $ $
 The balance of payments sums to zero: it does balance!
@@ -561,19 +561,19 @@ We have just found that at the macroeconomic level,  $ CA + KA + EA = 0 $ , a ve
 Another way to look at the BOP is to look behind these three variables to the specific flows we saw in Figure 16-2, and the individual transactions within each flow.
 $ $
 
-C A = (E X - I M) + \left(E X _ {F S} - I M _ {F S}\right) + \left(U T _ {I N} - U T _ {O U T}\right)
+C A = (E X - I M) + \left(E X_{F S} - I M_{F S}\right) + \left(U T_{I N} - U T_{O U T}\right)
 
 $ $
 
 $ $
 
-K A = \left(K A _ {I N} - K A _ {O U T}\right) \tag {16-13}
+K A = \left(K A_{I N} - K A_{O U T}\right) \tag {16-13}
 
 $ $
 
 $ $
 
-F A = \left(E X _ {A} ^ {H} - I M _ {A} ^ {H}\right) + \left(E X _ {A} ^ {F} - I M _ {A} ^ {F}\right)
+F A = \left(E X_{A}^{H} - I M_{A}^{H}\right) + \left(E X_{A}^{F} - I M_{A}^{F}\right)
 
 $ $
 Written this way, the components of the BOP identity allow us to see the details behind why the accounts must balance. As you can observe from these equations, there are 12 transaction types (each preceded by either a plus or minus sign) and 3 accounts (CA, KA, FA) in which they can appear.
@@ -593,7 +593,7 @@ Financial account (FA):
 Exports of home and foreign assets
 $ $
 
-\left(+ E X _ {A} ^ {H}, + E X _ {A} ^ {F}\right).
+\left(+ E X_{A}^{H}, + E X_{A}^{F}\right).
 
 $ $
 If an item has a minus sign, it is called a balance of payments debit, or BOP debit. Six types of transactions receive a minus  $ (-) $  sign as follows:
@@ -611,7 +611,7 @@ Financial account (FA):
 Imports of home and foreign assets
 $ $
 
-\left(- I M _ {A} ^ {H}, - I M _ {A} ^ {F}\right).
+\left(- I M_{A}^{H}, - I M_{A}^{F}\right).
 
 $ $
 Now, to see why the BOP accounts balance overall, we have to understand one simple principle: every market transaction (whether for goods, services, factor services, or assets) has two parts. If party  $ A $ engages in a transaction with a counterparty $ B $, then $ A $ receives from $ B $ an item of a given value, and in return $ B $ receives from $ A $  an item of equal value.[11]
@@ -731,7 +731,7 @@ Why is U.S. external wealth at this level? How did it get there and what will ha
 
 First, we give a definition of the level of a country's external wealth  $ (W) $: $ $
 
-\underbrace {\text {E x t e r n a l w e a l t h}} _ {W} = \underbrace {\left[ \begin{array}{l} \text {R O W a s s e t s} \\ \text {o w n e d b y h o m e} \end{array} \right]} _ {A} - \underbrace {\left[ \begin{array}{l} \text {H o m e a s s e t s} \\ \text {o w n e d b y R O W} \end{array} \right]} _ {L} \tag {16-14}
+\underbrace {\text{Ex te rn al we al th}}_{W} = \underbrace {\left[ \begin{array}{l} \text{RO Wa ss et s} \\ \text{ow ne db yh om e} \end{array} \right]}_{A} - \underbrace {\left[ \begin{array}{l} \text{Ho me as se ts} \\ \text{ow ne db yR OW} \end{array} \right]}_{L} \tag {16-14}
 
 $ $
 External wealth equals the value of total external assets  $ (A) $ minus the value of total external liabilities $ (L) $ . Total external assets is what the rest of the world owes to the home country, and total external liabilities is what the home country owes to the ROW. A country's level of external wealth is also called its net international investment position or net foreign assets. It is a stock measure, not a flow measure.
@@ -756,12 +756,12 @@ decrease in external wealth. Net exports of home assets cause an equal increase 
 
 Adding up these two contributions to the change in external wealth  $ (\Delta W) $, we find $ $
 
-\underbrace {\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\Delta W} = - \underbrace {\left[ \begin{array}{c} \text {F i n a n c i a l} \\ \text {a c c o u n t} \end{array} \right]} _ {\text {N e t e x p o r t o f a s s e t s}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s o n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\text {E A}} \tag {16-15}
+\underbrace {\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{ex te rn al we al th} \end{array} \right]}_{\Delta W} = - \underbrace {\left[ \begin{array}{c} \text{Fi na nc ia l} \\ \text{ac co un t} \end{array} \right]}_{\text{Ne te xp or to fa ss et s}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns on} \\ \text{ex te rn al we al th} \end{array} \right]}_{\text{EA}} \tag {16-15}
 
 $ $
 We gain a deeper understanding of this expression if we recall the BOP identity: the current account plus the capital account plus the financial account equals zero. Hence, minus the financial account equals the current account plus the capital account, or  $ -FA = CA + KA $. Substituting this identity into Equation (16-15), we obtain $ $
 
-\underbrace {\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\Delta W} = \underbrace {\left[ \begin{array}{c} \text {C u r r e n t} \\ \text {a c c o u n t} \end{array} \right]} _ {CA} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l} \\ \text {a c c o u n t} \end{array} \right]} _ {K A} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s o n} \\ \text {e x t e r n a l w e a l t h} \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s}} \tag {16-16}
+\underbrace {\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{ex te rn al we al th} \end{array} \right]}_{\Delta W} = \underbrace {\left[ \begin{array}{c} \text{Cu rr en t} \\ \text{ac co un t} \end{array} \right]}_{CA} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta l} \\ \text{ac co un t} \end{array} \right]}_{K A} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns on} \\ \text{ex te rn al we al th} \end{array} \right]}_{\text{Va lu at io ne ff ec ts}} \tag {16-16}
 
 $ $
 This fundamental formula tells us that a country can increase its external wealth in one of only three ways:
@@ -1007,7 +1007,7 @@ In this chapter, we studied external wealth, but individuals and countries care 
 
 External wealth is only part of a country's total wealth, the sum of the home capital stock (all nonfinancial assets in the home economy, denoted  $ K $) plus amounts owed to home by foreigners ($ A $) minus amounts owed foreigners by home ($ L $): $ $
 
-\text {T o t a l w e a l t h} = \underbrace {K} _ {\substack {\text {H o m e n o n f i n a n c i a l} \\ \text {a s s e t s}}} + \underbrace {(A - L)} _ {\substack {\text {E x t e r n a l w e a l t h}}}
+\text{To ta lw ea lt h} = \underbrace {K}_{\substack {\text{Ho me no nf in an ci al} \\ \text{as se ts}}} + \underbrace {(A - L)}_{\substack {\text{Ex te rn al we al th}}}
 
 $ $
 In this definition, note that we deliberately exclude financial assets owed by one home entity to another home entity because in the aggregate these cancel out and form no part of a country's total wealth.
@@ -1015,7 +1015,7 @@ In this definition, note that we deliberately exclude financial assets owed by o
 Changes in the value of total wealth can then be written as follows:
 $ $
 
-\left[ \begin{array}{c} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = \underbrace {\left[ \begin{array}{c} \text {A d d i t i o n s} \\ \text {t o} K \end{array} \right]} _ {\text {A d d i t i o n s (a c q u i s i t i o n s m i n u s d i s p o s a l s)}} + \underbrace {\left[ \begin{array}{c} \text {A d d i t i o n s} \\ \text {t o} A - L \end{array} \right]} _ {\text {C a p i t a l g a i n s}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{c} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = \underbrace {\left[ \begin{array}{c} \text{Ad di ti on s} \\ \text{to} K \end{array} \right]}_{\text{Ad di ti on s (ac qu is it io ns mi nu sd is po sa ls)}} + \underbrace {\left[ \begin{array}{c} \text{Ad di ti on s} \\ \text{to} A - L \end{array} \right]}_{\text{Ca pi ta lg ai ns}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $ $
 There are two kinds of terms in this expression. The total value of wealth (of a person or a country) may change due to additions of assets (such as purchases, sales, or net gifts) or due to valuation effects (capital gains—or, if they are negative, capital losses—arising from changes in the prices of assets).
@@ -1027,17 +1027,17 @@ Second, additions to external wealth,  $ A - L $, also have a simpler expression
 Substituting, we can rewrite the last equations as
 $ $
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = \underbrace {I} _ {\substack {\text {A d d i t i o n s t o} K \\ = \\ \text {A d d i t i o n s t o} \\ \text {a s s e t s i n t h e} \\ \text {h o m e e c o n o m y}}} + \underbrace {(- F A)} _ {\substack {\text {A d d i t i o n s t o} A - L \\ = \\ \text {N e t i m p o r t o f} \\ \text {a s s e t s i n t o t h e} \\ \text {h o m e e c o n o m y}}} + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = \underbrace {I}_{\substack {\text{Ad di ti on st o} K \\ = \\ \text{Ad di ti on st o} \\ \text{as se ts in th e} \\ \text{ho me ec on om y}}} + \underbrace {(- F A)}_{\substack {\text{Ad di ti on st o} A - L \\ = \\ \text{Ne ti mp or to f} \\ \text{as se ts in to th e} \\ \text{ho me ec on om y}}} + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $ $
 Now, using the BOP identity, we know that  $ CA + KA + FA = 0 $ so that minus the financial account $ -FA $ must equal $ CA + KA $; hence, we can rewrite the last equation as $ $
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = I + C A + K A + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = I + C A + K A + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $ $
 Notice what has happened here. The BOP identity makes the connection between external asset trade and activity in the current account. We take the connection one step further using the current account identity,  $ S = I + CA $, which allows us to write $ $
 
-\left[ \begin{array}{l} \text {C h a n g e i n} \\ \text {t o t a l w e a l t h} \end{array} \right] = S + K A + \underbrace {\left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} K \end{array} \right] + \left[ \begin{array}{c} \text {C a p i t a l g a i n s} \\ \text {o n} A - L \end{array} \right]} _ {\text {V a l u a t i o n e f f e c t s (g a i n s m i n u s l o s s e s)}}
+\left[ \begin{array}{l} \text{Ch an ge in} \\ \text{to ta lw ea lt h} \end{array} \right] = S + K A + \underbrace {\left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} K \end{array} \right] + \left[ \begin{array}{c} \text{Ca pi ta lg ai ns} \\ \text{on} A - L \end{array} \right]}_{\text{Va lu at io ne ff ec ts (ga in sm in us lo ss es)}}
 
 $ $
 The message of this expression is clear. As we all probably know from personal experience, there are only three ways to get more (or less) wealthy: do more (or less) saving  $ (S) $, receive (or give) gifts of assets $ (KA) $ , or enjoy the good (bad) fortune of capital gains (losses) on your portfolio. What is true about individuals' wealth is also true for the wealth of a nation in the aggregate.

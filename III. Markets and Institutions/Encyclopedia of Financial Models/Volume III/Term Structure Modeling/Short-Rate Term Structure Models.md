@@ -23,13 +23,13 @@ We restrict our attention solely to the short-rate modeling. This term does not 
 Let us assume that we have a stochastic process, possibly multifactor, describing the short rate dynamics  $r(t)$ . Let us denote  $P_{T}(t)$  to be the market price observed at time  $t$  of a  $T$ -maturity zero-coupon bond; that is, a bond paying $1 at  $t + T$ . This price is exponential to the yield to maturity ("rate")  $r_{T}(t)$  of this bond:  $P_{T}(t) = \exp[-r_{T}(t)T]$ . However, we can use the arbitrage argument claiming that, once prices of instruments reflect rate expectations and risks, there should exist no advantage or disadvantage in investing in the zero-coupon bond over continuous reinvesting into the short rate. Hence, the same price should be equal to
 
 $$
-P _ {T} (t) = E \left[ \exp \left[ - \int_ {t} ^ {t + T} r (\tau) d \tau \right] \right]
+P_{T} (t) = E \left[ \exp \left[ - \int_{t}^{t + T} r (\tau) d \tau \right] \right]
 $$ where  $E$  denotes the arbitrage-free expectation.
 
 
 Equating these two expressions, we get
 
-$$ r _ {T} (t) = - \frac {1}{T} L n E \left[ \exp \left[ - \int_ {t} ^ {t + T} r (\tau) d \tau \right] \right] \tag {1}
+$$ r_{T} (t) = - \frac{1}{T} L n E \left[ \exp \left[ - \int_{t}^{t + T} r (\tau) d \tau \right] \right] \tag {1}
 $$
 
 Formula (1) allows us to compute any-maturity zero-coupon rates via some expectation involving random behavior of the short rate. Of course, once we establish the entire zero-coupon curve, we can restore a yield for any other bond including a coupon-paying one. To compute the expectation in (1), we must know two things: stochastic equation (or equations) for  $r(\tau)$  and initial (time  $t$ ) conditions. The latter represents public information about the market at time  $t$  and includes every factor affecting the short rate. Therefore, it would be correct to state that an any-maturity rate can be recovered using only factors that determine the evolution of the short rate. In particular, if only one Brownian motion drives the short rate dynamics, it will define the entire yield curve as well.
@@ -38,7 +38,7 @@ Formula (1) allows us to compute any-maturity zero-coupon rates via some expecta
 
 Let us apply the interrate relationship (1) to the initial point of time,  $t = 0$ :
 
-$$ r _ {T} (0) = - \frac {1}{T} L n E \left[ \exp \left[ - \int_ {0} ^ {T} r (\tau) d \tau \right] \right] \tag {2}
+$$ r_{T} (0) = - \frac{1}{T} L n E \left[ \exp \left[ - \int_{0}^{T} r (\tau) d \tau \right] \right] \tag {2}
 $$
 
 The left-hand side of this formula is known from today's term structure of interest rates. Hence, the short rate dynamics  $r(t)$  must be such as to ensure (2) holds. In practical terms, adjusting a rate process to fit the initial yield curve is part of a more general task often termed "calibration." Without this necessary step, an interest rate model can't be used to value even simple, option-free bonds. Computation of expectation in formulas (1) and (2) can be done numerically or, in some models, analytically.
@@ -48,7 +48,7 @@ The left-hand side of this formula is known from today's term structure of inter
 If a term structure model is built to value complex derivative instruments, it must value, at minimum, simple European options. Suppose we have an option that is exercised at a future point of time  $t$  and generates a cash flow that we denote  $g[r(t)]$ ; that is, some nonlinear function of the short rate observed at  $t$ . Note that the actual option's exercise may be triggered by a long, rather than the short, rate; nevertheless, it will depend either on  $r(t)$  (single-factor models) or all market factors (multifactor models) known at  $t$ . The value of the option is going to be
 
 
-$$ o p t i o n = E \left[ g [ r (t) ] \exp \left[ - \int_ {0} ^ {t} r (\tau) d \tau \right] \right] \tag {3}
+$$ o p t i o n = E \left[ g [ r (t) ] \exp \left[ - \int_{0}^{t} r (\tau) d \tau \right] \right] \tag {3}
 $$ where  $E$  denotes the same expectation as before.
 
 
@@ -71,13 +71,13 @@ Here,  $a(t)$  denotes mean reversion,  $\sigma (t)$  stands for volatility; bot
 This can be seen mathematically as (4) is a linear equation disturbed by the Brownian motion (a normally distributed variable); the short rate is normally distributed as well. Therefore, its integral is normally distributed too, and the expectation found in the right-hand side of formulas (1), (2), and, in some cases, (3) can be computed in a closed form. Without going through the math we provide here the analytical calibration results to the observed short forward curve  $f(t)$  for the constant-parameter case:
 
 $$
-\theta (t) = f (t) + \frac {1}{a} \frac {d f (t)}{d t} + \frac {\sigma^ {2}}{2 a ^ {2}} \left(1 - e ^ {- 2 a t}\right) \tag {5}
+\theta (t) = f (t) + \frac{1}{a} \frac{d f (t)}{d t} + \frac{\sigma^{2}}{2 a^{2}} \left(1 - e^{- 2 a t}\right) \tag {5}
 $$
 
 The short rate's expectation is found as
 
 $$
-E [ r (t) ] = f (t) + \frac {\sigma^ {2}}{2 a ^ {2}} (1 - e ^ {- a t}) ^ {2} \tag {6}
+E [ r (t) ] = f (t) + \frac{\sigma^{2}}{2 a^{2}} (1 - e^{- a t})^{2} \tag {6}
 $$
 
 The last term in (6) is called the convexity adjustment; that is, the difference between mathematically expected short rates in the future and the forward short rates. This adjustment is proportional to volatility squared; for zero mean reversion, it is simply equal to  $\frac{1}{2}\sigma^2 t$ . It is therefore up to financial engineers to make sure the convexity adjustment is properly implemented in a pricing system; it is very volatility sensitive.
@@ -86,13 +86,13 @@ The last term in (6) is called the convexity adjustment; that is, the difference
 The expected value for any long,  $T$ -maturity, zero-coupon rate is proven to be in the same form: forward rate + convexity adjustment. This time, the exact formula for this relation is
 
 $$
-\begin{array}{l} E \left[ r _ {T} (t) \right] = f _ {T} (t) \\ + \frac {\sigma^ {2}}{4 a ^ {3} T} (1 - e ^ {- a T}) [ 2 (1 - e ^ {- a t}) ^ {2} \\ + (1 - e ^ {- 2 a t}) \left(1 - e ^ {- a T}\right) \tag {7} \\ \end{array}
+\begin{array}{l} E \left[ r_{T} (t) \right] = f_{T} (t) \\ + \frac{\sigma^{2}}{4 a^{3} T} (1 - e^{- a T}) [ 2 (1 - e^{- a t})^{2} \\ + (1 - e^{- 2 a t}) \left(1 - e^{- a T}\right) \tag {7} \\ \end{array}
 $$
 
 Any long zero-coupon rate is normally distributed too and proven to be linear in the short rate; deviations from their respective mean levels are related as
 
 $$
-\frac {\Delta r _ {T}}{\Delta r} \equiv \frac {r _ {T} (t) - E \left[ r _ {T} (t) \right]}{r (t) - E [ r (t) ]} = \frac {1 - e ^ {- a T}}{a T} \equiv B _ {T} \tag {8}
+\frac{\Delta r_{T}}{\Delta r} \equiv \frac{r_{T} (t) - E \left[ r_{T} (t) \right]}{r (t) - E [ r (t) ]} = \frac{1 - e^{- a T}}{a T} \equiv B_{T} \tag {8}
 $$
 
 The function  $B_{T}$  of maturity  $T$  plays an important role in the HW model. It helps, for example, to link the short-rate volatility to the long-rate one and explicitly calibrate it to the market. If  $a = 0$ , this function becomes identical to 1, regardless the maturity  $T$ . This important special case allows for a pure parallel change in the entire curve (every point moves by the same amount). This particular specification can be suitable for standardized risk measurement tests.
@@ -104,27 +104,27 @@ The HW model is a very tractable arbitrage-free model, which allows for the use 
 
 The Cox-Ingersoll-Ross model (CIR model) is a unique example of a model supported by the general equilibrium arguments (see Cox, Ingersoll, and Ross, 1985). CIR argued that the fixed income investment opportunities should not be dominated by neither expected return (the rate), nor the risk. The latter was associated with the return variance, thus suggesting that volatility-squared should be of the same magnitude as the rate:
 
-$$ d r = a (t) (\theta (t) - r) d t + \sigma (t) \sqrt {r} d z \tag {9}
+$$ d r = a (t) (\theta (t) - r) d t + \sigma (t) \sqrt{r} d z \tag {9}
 $$
 
 Equation (9) is actually a no-arbitrage extension to the "original CIR" that allows fitting the initial rate and volatility curves. Since the volatility term is proportional to the square root of the short rate, the latter is meant to remain positive. The extended CIR model is analytically tractable, but to a lesser extent than the HW model. Perhaps the most important result of CIR is that the long zero-coupon rates are also proven linear in the short rate—in line with (8). However, the slope function has now a quite different form; it depends on both maturity  $T$  and time  $t$  and is found as  $B_{T}(t) = -b(t,t + T) / T$ . Function  $b(t,T)$  used in this expression solves a Ricatti-type differential equation, considered for any fixed maturity  $T$ :
 
 $$
-\frac {d b (t , T)}{d t} = a (t) b (t, T) - \frac {1}{2} \sigma^ {2} (t) b ^ {2} (t, T) + 1 \tag {10}
+\frac{d b (t , T)}{d t} = a (t) b (t, T) - \frac{1}{2} \sigma^{2} (t) b^{2} (t, T) + 1 \tag {10}
 $$ subject to terminal condition  $b(T,T) = 0$ .
 
 
 If the mean reversion  $a$  and "CIR volatility"  $\sigma$  are constant (the "original CIR"), equation (10) allows for an explicit solution. In this case,  $b(t,T)$  is a function of  $T - t$  only, and  $B_{T}$  is appeared to be time-independent:
 
 $$
-B _ {T} = \frac {2 \left(e ^ {\gamma T} - 1\right)}{\left(\gamma T + a T\right) \left(e ^ {\gamma T} - 1\right) + 2 \gamma T} \tag {11}
+B_{T} = \frac{2 \left(e^{\gamma T} - 1\right)}{\left(\gamma T + a T\right) \left(e^{\gamma T} - 1\right) + 2 \gamma T} \tag {11}
 $$ where  $\gamma = \sqrt{a^2 + 2\sigma^2}$
 
 
 Without a mean reversion, this formula reduces to a more concise
 
 $$
-B _ {T} = \frac {\tanh  (\gamma T / 2)}{(\gamma T / 2)}
+B_{T} = \frac{\tanh  (\gamma T / 2)}{(\gamma T / 2)}
 $$
 
 Note that this ratio is always less than 1. This means that the long rates are less volatile than the short one, even without a mean reversion. This is in contrast to the HW model where, with  $a = 0$ , the yield curve would experience a strictly parallel reaction to a short rate shock.
@@ -132,7 +132,7 @@ Note that this ratio is always less than 1. This means that the long rates are l
 Generally speaking, calibration to the currently observed short forward curve  $f(T)$  cannot be done as elegantly and explicitly as in the HW model. Once the  $b(t,T)$  function is found, the calibrating function  $\theta (t)$  satisfies an integral equation:
 
 $$
-- f (T) = \int_ {0} ^ {T} \frac {d b (t , T)}{d T} \theta (t) a (t) d t + \frac {d b (0 , T)}{d T} r _ {0} \tag {12}
+- f (T) = \int_{0}^{T} \frac{d b (t , T)}{d T} \theta (t) a (t) d t + \frac{d b (0 , T)}{d T} r_{0} \tag {12}
 $$
 
 Numerical methods, well developed for integral equations, should be employed.
@@ -146,37 +146,37 @@ To describe the squared Gaussian model (SqG model, and also known as the quadrat
 $$ d x = - a (t) x d t + \sigma (t) d z
 $$
 
-$$ r (t) = [ R (t) + x (t) ] ^ {2} \tag {13}
+$$ r (t) = [ R (t) + x (t) ]^{2} \tag {13}
 $$
 
 For convenience, we removed previously used arbitrage-free function  $\theta(t)$  from the first equation and introduced a deterministic calibrating function  $R(t)$  to the second equation serving the same purpose. Note that we could have introduced the HW model similarly by defining the short rate as  $r(t) = R(t) + x(t)$ . Ito's lemma allows us to convert model (13) to a single stochastic differential equation for the short rate:
 
 
 $$
-\begin{array}{l} d r = \left[ 2 R ^ {\prime} \sqrt {r} - 2 a (r - R \sqrt {r}) + \sigma^ {2} \right] d t \\ + 2 \sigma \sqrt {r} d z \tag {14} \\ \end{array}
+\begin{array}{l} d r = \left[ 2 R^{\prime} \sqrt{r} - 2 a (r - R \sqrt{r}) + \sigma^{2} \right] d t \\ + 2 \sigma \sqrt{r} d z \tag {14} \\ \end{array}
 $$ where  $R'$  stands for  $dR / dt$ . The SqG model has an apparent similarity to the CIR model in that its volatility term is proportional to the square root of the short rate, too. However, comparing stochastic equations (14) and (9) we see that they have different drift terms.
 
 
 The SqG model has been studied by Beagle-hole and Tenney (1991), Jamshidian (1996), and Pelsser (1997), among others. The most notable fact established for the SqG model is that any zero-coupon rate  $r_T(t)$  is quadratic in  $x(t)$  that is linear in the short rate  $r(t)$  and its square root  $\sqrt{r(t)}$ :
 
 $$
-\begin{array}{l} (T - t) r _ {T} (t) = A (t, T) - B (t, T) \sqrt {r (t)} \\ - C (t, T) r (t) \tag {15} \\ \end{array}
+\begin{array}{l} (T - t) r_{T} (t) = A (t, T) - B (t, T) \sqrt{r (t)} \\ - C (t, T) r (t) \tag {15} \\ \end{array}
 $$
 
 Functions  $A$ ,  $B$ , and  $C$  satisfy a system of ordinary differential equations:
 
 $$
-A ^ {\prime} = B R ^ {\prime} + \sigma^ {2} \left(\frac {1}{2} B ^ {2} + C\right) + a R B \tag {16a}
+A^{\prime} = B R^{\prime} + \sigma^{2} \left(\frac{1}{2} B^{2} + C\right) + a R B \tag {16a}
 $$ with  $A(T,T) = 0$
 
 
 $$
-B ^ {\prime} = a B - 2 C R ^ {\prime} - 2 a C R - 2 \sigma^ {2} B C \tag {16b}
+B^{\prime} = a B - 2 C R^{\prime} - 2 a C R - 2 \sigma^{2} B C \tag {16b}
 $$ with  $B(T,T) = 0$
 
 
 $$
-C ^ {\prime} = 1 + 2 a C - 2 \sigma^ {2} C ^ {2} \tag {16c}
+C^{\prime} = 1 + 2 a C - 2 \sigma^{2} C^{2} \tag {16c}
 $$ with  $C(T,T) = 0$
 
 
@@ -189,7 +189,7 @@ The short rate has a noncentral  $\chi^2$  distribution with 1 degree of freedom
 
 Once a very popular model, the Black-Karasinski model (BK model) expresses the short rate as  $r(t) = R(t)\exp [x(t)]$ , where, as in the previous case, random process  $x(t)$  is normally distributed (see Black and Karasinski, 1991). The short rate is, therefore, lognormally distributed. Assuming the same process for  $x(t)$  we can write the stochastic differential equation for the short rate as
 
-$$ d r = r \left(\frac {R ^ {\prime}}{R} + \frac {1}{2} \sigma^ {2} - a \ln \frac {r}{R}\right) d t + r \sigma d z \tag {17}
+$$ d r = r \left(\frac{R^{\prime}}{R} + \frac{1}{2} \sigma^{2} - a \ln \frac{r}{R}\right) d t + r \sigma d z \tag {17}
 $$
 
 The rate's absolute volatility is therefore proportional to the rate's level. Although the entire short-rate distribution is known (including the mean and variance), no closed-form pricing solution is available. This is because the cumulative discount rate, the integral of  $r$ , has an unknown distribution. Traditionally, the BK model is implemented on a tree. Calibration to the yield curve and volatility curve can be done using purely numeric procedures. For example, one could iterate to find  $R(t)$  period-by-period until all the coupon bonds or zero-coupon bonds (used as input) are priced exactly. Alternatively, one could find approximate formulas and build a faster, but approximate scheme.
@@ -202,20 +202,20 @@ Despite its past popularity, the BK model's main assumption, the rate's lognorma
 The Flesaker-Hughston model (FH) is an interesting model because it is different from all previously described ones in that it allows for computing the coupon rates analytically (see Flesaker and Hughston, 1996). The model starts with defining a random process  $M(t)$ , which is any martingale starting from 1, and two deterministic positive functions  $A(t)$  and  $B(t)$ , decreasing with time  $t$ . Then, at any point of time  $t$ , a zero-coupon bond maturing at  $T$  has its price in a rational functional form of  $M(t)$ :
 
 $$
-P (t, T) = \frac {A (T) + B (T) M (t)}{A (t) + B (t) M (t)} \tag {18}
+P (t, T) = \frac{A (T) + B (T) M (t)}{A (t) + B (t) M (t)} \tag {18}
 $$
 
 Taking the natural logarithm of this expression, changing the sign, and dividing it by  T - t  gives us, of course, the zero-coupon rate. In order to derive a coupon rate  c(t,T) , let us recall that a coupon-bearing bond generates periodic payments at a rate of  c  and returns the principal amount (1) at maturity. Let us denote the time-t value of this bond as  P^c (t,T) :
 
 $$
-P ^ {c} (t, T) = \sum_ {i = 1} ^ {n} c P (t, t _ {i}) + P (t, T)
+P^{c} (t, T) = \sum_{i = 1}^{n} c P (t, t_{i}) + P (t, T)
 $$ where  $t_i$  are the timings of coupon payments, with  $t_n = T$ . To express the par coupon rate  $c$ , let us equate this  $P^c(t,T)$  to 1 and substitute
 
 
 postulated expression (18) for all discount factors:
 
 $$
-\begin{array}{l} c (t, T) = \frac {A (t) - A (T) + [ B (t) - B (T) ] M (t)}{\sum_ {i = 1} ^ {n} [ A (t _ {i}) + B (t _ {i}) M (t) ]} \\ r (t) = - \frac {A ^ {\prime} (t) + B ^ {\prime} (t) M (t)}{A (t) + B (t) M (t)} \tag {19} \\ \end{array}
+\begin{array}{l} c (t, T) = \frac{A (t) - A (T) + [ B (t) - B (T) ] M (t)}{\sum_{i = 1}^{n} [ A (t_{i}) + B (t_{i}) M (t) ]} \\ r (t) = - \frac{A^{\prime} (t) + B^{\prime} (t) M (t)}{A (t) + B (t) M (t)} \tag {19} \\ \end{array}
 $$
 
 Hence, all coupon rates and the short rate are too rational functions of  $M(t)$ . If we select a positive martingale process  $M(t)$ ; for example, a lognormal one,  $dM = \sigma Mdz$ , then all rates will stay positive. Functions  $A(t)$  and  $B(t)$  can fit the initial term structure of rates and volatilities. (See Flesaker and Hughston, 1996, or James and Webber, 2000, for additional details.)
@@ -244,7 +244,7 @@ Single-factor models can't be calibrated to all market instruments. For example,
 
 The HW model, the CIR model, the SqG model, and the BK model are special cases of a more general class of "CEV models" introduced in 1980s:
 
-$$ d r = (D r i f t) d t + \sigma r ^ {\gamma} d z \tag {20}
+$$ d r = (D r i f t) d t + \sigma r^{\gamma} d z \tag {20}
 $$
 
 Parameter  $\gamma$  is called constant elasticity of variance (CEV). For  $\gamma = 0$  we may have the HW model; for  $\gamma = 0.5$ , the CIR model or the SqG model; for  $\gamma = 1$ , the BK model. There exist no specific economic arguments supporting the  $r^{\gamma}$  functional form for volatility. Often, the CEV constant lies between 0 and 1, but it is not necessary.
@@ -255,7 +255,7 @@ Blyth and Uglum (1999) linked the CEV constant to the volatility skew; that is, 
 
 
 $$
-\frac {\sigma_ {K}}{\sigma_ {F}} \approx \left(\frac {F}{K}\right) ^ {\frac {1 - \gamma}{2}} \tag {21}
+\frac{\sigma_{K}}{\sigma_{F}} \approx \left(\frac{F}{K}\right)^{\frac{1 - \gamma}{2}} \tag {21}
 $$ where  $\sigma_{K}$  is the Black volatility for the option struck at  $K$ ,  $\sigma_{F}$  is the Black volatility for the "at-the-money" option struck at today's forward rate,  $F$ . Importantly, one can recover the best CEV constant to use in the model by simply measuring the observed skew.
 
 
@@ -299,14 +299,14 @@ How much is this cap worth? Practically speaking, the curve's inversion is not s
 Mathematically, a two-factor normal model can be constructed in a fairly simple way. Suppose that, instead of having one auxiliary Gaussian variable  $x(t)$ , we have two,  $x_{1}(t)$  and  $x_{2}(t)$ , that follow linear stochastic differential equations:
 
 $$
-\begin{array}{l} d x _ {1} = - a _ {1} (t) x _ {1} d t + \sigma_ {1} (t) d z _ {1} \\ d x _ {2} = - a _ {2} (t) x _ {2} d t + \sigma_ {2} (t) d z _ {2} \tag {22} \\ \end{array}
+\begin{array}{l} d x_{1} = - a_{1} (t) x_{1} d t + \sigma_{1} (t) d z_{1} \\ d x_{2} = - a_{2} (t) x_{2} d t + \sigma_{2} (t) d z_{2} \tag {22} \\ \end{array}
 $$
 
 Brownian motions  $z_{1}(t)$  and  $z_{2}(t)$  may have correlated increments,  $corr[dz_1,dz_2] = \rho$ . Let us assume that  $\rho$  is equal to neither  $+1$  nor  $-1$ , and mean reversions  $a_{1}(t)$  and  $a_{2}(t)$  are positive and not identical to one another. These conditions ensure that the system (22) is stable and cannot be reduced to single-factor diffusion.
 
 We now define the short rate simply as  $r(t) = R(t) + x_1(t) + x_2(t)$  where deterministic function  $R(t)$  is chosen to fit the initial yield curve. The short rate will be normally distributed; it can be shown that such a model possesses analytical tractability similar to the Hull-White single-factor model, see Levin (1998). In particular, the calibrating function  $R(t)$  can be computed in a closed-end form given the forward curve,  $f(t)$ . The long zero-coupon rates are linear in  $x_1(t)$  and  $x_2(t)$ ,
 
-$$ r _ {T} (t) = A (t, T) + B _ {1 T} (t) x _ {1} (t) + B _ {2 T} (t) x _ {2} (t)
+$$ r_{T} (t) = A (t, T) + B_{1 T} (t) x_{1} (t) + B_{2 T} (t) x_{2} (t)
 $$
 
 Functions  $B^{\prime}$  s depend on time  $t$  only if the mean reversions  $a^\prime$  s do. If  $a^\prime$  s are constant, then  $B^{\prime}$  s depend only on maturity  $T$  and have a familiar form:  $B_{iT} = (1 - e^{-a_i T}) / a_i T$ ,  $i = 1$  or 2.
@@ -314,7 +314,7 @@ Functions  $B^{\prime}$  s depend on time  $t$  only if the mean reversions  $a^
 The normal deviates,  $x_{1}(t)$  and  $x_{2}(t)$ , bear no financial meaning. However, we can complement the short rate with an independent "slope" variable,  $v = x_{1} + \beta x_{2}$  with
 
 $$
-\beta = - \sigma_ {1} (\sigma_ {1} + \rho \sigma_ {2}) / \sigma_ {2} (\sigma_ {2} + \rho \sigma_ {1}) \neq 1
+\beta = - \sigma_{1} (\sigma_{1} + \rho \sigma_{2}) / \sigma_{2} (\sigma_{2} + \rho \sigma_{1}) \neq 1
 $$
 
 The new variable has increments  $dv$  mathematically uncorrelated to  $dr$ ; it therefore can be interpreted as the driver of long rates independent of the short rate. The underlying processes,  $x_{1}(t)$  and  $x_{2}(t)$ , can be transformed differently, thereby creating a pair of state variables with desired financial meanings, see Levin (2001). Levin (1998) developed a three-point calibration method that analytically computes parameters of the two-factor model using volatility of and correlation between the short rate and two arbitrary long rates. The method allows for constructing term structure models with interrate correlations selected by the user and maintained steadily over time. The latter property can be achieved by constructing a model with constant mean reversion parameters  $a_{1}$  and  $a_{2}$ , and a constant  $\sigma_{1}(t) / \sigma_{2}(t)$  ratio.
@@ -336,12 +336,12 @@ Duffie and Kan showed that the model will be affine if drift and the square of v
 Every financial derivative satisfies a partial differential equation, see Duffie (1996). The left-hand side of this equation is equal to the investment's arbitrage-free expected return, which is the product of price  $(P)$  by the short rate  $(r)$ . The right-hand side collects all the terms arising in the course of random behavior of  $P(x,t)$ : the decay, the drift, the diffusion, and cash received. In particular, a zero-coupon bond receives no cash; its equation is
 
 $$
-\begin{array}{l} r P (x, t) = \frac {\partial P (x , t)}{\partial t} + \mu (x, t) \frac {\partial P (x , t)}{\partial x} \\ + \frac {1}{2} \sigma^ {2} (x, t) \frac {\partial^ {2} P (x , t)}{\partial x ^ {2}} \tag {23} \\ \end{array}
+\begin{array}{l} r P (x, t) = \frac{\partial P (x , t)}{\partial t} + \mu (x, t) \frac{\partial P (x , t)}{\partial x} \\ + \frac{1}{2} \sigma^{2} (x, t) \frac{\partial^{2} P (x , t)}{\partial x^{2}} \tag {23} \\ \end{array}
 $$ subject to the terminal condition,  $P(x,T) = 1$  (bond pays sure \$1 at maturity regardless of the market conditions). Suppose now that functions  $\mu(x,t)$  and  $\sigma^2(x,t)$  are linear in  $x$ :
 
 
 $$
-\begin{array}{l} \mu (x, t) = \alpha_ {1} (t) + \alpha_ {2} (t) x; \\ \sigma^ {2} (x, t) = \beta_ {1} (t) + \beta_ {2} (t) x \\ \end{array}
+\begin{array}{l} \mu (x, t) = \alpha_{1} (t) + \alpha_{2} (t) x; \\ \sigma^{2} (x, t) = \beta_{1} (t) + \beta_{2} (t) x \\ \end{array}
 $$
 
 It turns out that the solution to equation (23) will have an exponential-linear form:
@@ -352,13 +352,13 @@ $$
 
 To prove this conjecture, we place the above expressions into equation (23), take all derivatives, and observe that all the terms are either independent of  $x$  or linear in  $x$ . Collecting them, we get two ordinary differential equations defining unknown functions  $a(t,T)$  and  $b(t,T)$ :
 
-$$ b _ {t} ^ {\prime} (t, T) = - \alpha_ {2} (t) b (t, T) - \frac {1}{2} \beta_ {2} (t) b ^ {2} (t, T) + 1
+$$ b_{t}^{\prime} (t, T) = - \alpha_{2} (t) b (t, T) - \frac{1}{2} \beta_{2} (t) b^{2} (t, T) + 1
 $$
 
 $$ b (T, T) = 0 \tag {24}
 $$
 
-$$ a _ {t} ^ {\prime} (t, T) = - \alpha_ {1} (t) b (t, T) - \frac {1}{2} \beta_ {1} (t) b ^ {2} (t, T)
+$$ a_{t}^{\prime} (t, T) = - \alpha_{1} (t) b (t, T) - \frac{1}{2} \beta_{1} (t) b^{2} (t, T)
 $$
 
 $$ a (T, T) = 0 \tag {25}
@@ -382,27 +382,27 @@ $$ where  $N$  is the Poisson-Merton jump variable having intensity of  $\lambda
 With jumps, the partial differential equation (23) will get one additional term to its right-hand side. If a jump of size  $\delta$  occurs, the price of a zero-coupon bond,  $P(x,t)$  before the jump, will become  $P(x + \delta ,t)$ . The expected change of price can be written as
 
 $$
-\int_ {- \infty} ^ {\infty} [ P (x + \delta , t) - P (x, t) ] n _ {[ 0, \sigma_ {j} ]} (\delta) d \delta
+\int_{- \infty}^{\infty} [ P (x + \delta , t) - P (x, t) ] n_{[ 0, \sigma_{j} ]} (\delta) d \delta
 $$ where, as usual,  $n$  denotes a normal density function. This expression captures the randomness of the jump's size, not the randomness of the jump's occurrence. Multiplying it by the probability of a jump to occur between  $t$  and  $t + dt$  (that is,  $\lambda dt$ ) we get the cumulative expected effect of price change. Finally, dividing by  $dt$  we get the annualized return component caused by the jumps. Therefore, the partial
 
 
 differential equation (23) will now become a partial integral-differential equation:
 
 $$
-\begin{array}{l} r P (x, t) = \frac {\partial P (x , t)}{\partial t} + \mu (x, t) \frac {\partial P (x , t)}{\partial x} + \frac {1}{2} \sigma^ {2} (x, t) \frac {\partial^ {2} P (x , t)}{\partial x ^ {2}} \\ + \lambda (x, t) \int_ {- \infty} ^ {\infty} [ P (x + \delta , t) - P (x, t) ] n _ {[ 0, \sigma_ {j} ]} (\delta) d \delta \tag {26} \\ \end{array}
+\begin{array}{l} r P (x, t) = \frac{\partial P (x , t)}{\partial t} + \mu (x, t) \frac{\partial P (x , t)}{\partial x} + \frac{1}{2} \sigma^{2} (x, t) \frac{\partial^{2} P (x , t)}{\partial x^{2}} \\ + \lambda (x, t) \int_{- \infty}^{\infty} [ P (x + \delta , t) - P (x, t) ] n_{[ 0, \sigma_{j} ]} (\delta) d \delta \tag {26} \\ \end{array}
 $$
 
 For the diffusion case, we required functions  $\mu (x,t)$  and  $\sigma^2 (x,t)$  to be linear in  $x$ . Let us extend this condition to the jump's intensity:  $\lambda (x,t) = \gamma_{1}(t) + \gamma_{2}(t)x$ . It turns out that the exponential-linear form  $P(x,t) = \exp [a(t,T) + b(t,T)x]$  still fits the equation. Again, collecting terms, we get two ordinary differential equations defining unknown functions  $a(t,T)$  and  $b(t,T)$ :
 
 $$
-\begin{array}{l} b _ {t} ^ {\prime} (t, T) = - \alpha_ {2} (t) b (t, T) - \frac {1}{2} \beta_ {2} (t) b ^ {2} (t, T) \\ - \gamma_ {2} (t) [ e ^ {\frac {1}{2} b ^ {2} (t, T) \sigma_ {f} ^ {2} (t)} - 1 ] + 1 \\ \end{array}
+\begin{array}{l} b_{t}^{\prime} (t, T) = - \alpha_{2} (t) b (t, T) - \frac{1}{2} \beta_{2} (t) b^{2} (t, T) \\ - \gamma_{2} (t) [ e^{\frac{1}{2} b^{2} (t, T) \sigma_{f}^{2} (t)} - 1 ] + 1 \\ \end{array}
 $$
 
 $$ b (T, T) = 0 \tag {27}
 $$
 
 $$
-\begin{array}{l} a _ {t} ^ {\prime} (t, T) = - \alpha_ {1} (t) b (t, T) - \frac {1}{2} \beta_ {1} (t) b ^ {2} (t, T) \\ - \gamma_ {1} (t) \left[ e ^ {\frac {1}{2} b ^ {2} (t, T) \sigma_ {j} ^ {2} (t)} - 1 \right] \\ \end{array}
+\begin{array}{l} a_{t}^{\prime} (t, T) = - \alpha_{1} (t) b (t, T) - \frac{1}{2} \beta_{1} (t) b^{2} (t, T) \\ - \gamma_{1} (t) \left[ e^{\frac{1}{2} b^{2} (t, T) \sigma_{j}^{2} (t)} - 1 \right] \\ \end{array}
 $$
 
 $$ a (T, T) = 0 \tag {28}

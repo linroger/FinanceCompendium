@@ -15,7 +15,7 @@ The valuation of bonds with embedded options proceeds in the same fashion as in 
 In the case of a call option, the call will be made when the present value (PV) of the future cash flows is greater than the call price at the node where the decision to exercise is being made. Effectively, the following calculation is made:
 
 $$
-V _ {t} = \operatorname {M i n} [ \text {C a l l P r i c e}, \text {P V (F u t u r e C a s h F l o w s)} ]
+V_{t} = \operatorname{Mi n} [ \text{Ca ll Pr ic e}, \text{PV (Fu tu re Ca sh Fl ow s)} ]
 $$ where  $V_{t}$  represents the PV of future cash flows at the node. This operation is performed at each node where the bond is eligible for call.
 
 
@@ -72,13 +72,13 @@ Consider a floating-rate bond with a coupon indexed to the 1-year rate (the refe
 Using the same valuation method as before, we can find the value at each node. Recall the value of the bond is 100 (par) at the end of year 4. Consider  $N_{HLL}$ .
 
 $$
-\begin{array}{l} N _ {H L L} = \frac {1}{2} \left[ \frac {1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} + \frac {1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} \right] \\ = 1 0 0. 2 3 5 \\ \end{array}
+\begin{array}{l} N_{H L L} = \frac{1}{2} \left[ \frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} + \frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} \right] \\ = 1 0 0. 2 3 5 \\ \end{array}
 $$
 
 Stepping back one period
 
 $$
-\begin{array}{l} N _ {L L} = \frac {1}{2} \left[ \frac {1 0 0 . 2 3 5 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} + \frac {1 0 0 . 2 3 8 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} \right] \\ = 1 0 0. 4 6 5 \\ \end{array}
+\begin{array}{l} N_{L L} = \frac{1}{2} \left[ \frac{1 0 0 . 2 3 5 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} + \frac{1 0 0 . 2 3 8 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} \right] \\ = 1 0 0. 4 6 5 \\ \end{array}
 $$
 
 Following this same procedure, we arrive at the price of 100.893. How would this change if the interest rate on the bond were capped?
@@ -87,13 +87,13 @@ Following this same procedure, we arrive at the price of 100.893. How would this
 Assume that the cap is  $7.25\%$ . In Figure 5 we've taken the tree from Figure 1 and, as was the case with the optionless fixed-coupon bond, at each node we've entered the cash flow expected at the end of each period based on the reset formula. As rates move higher there is a possibility that the current reference rate exceeds the cap. Such is the case at  $N_{HHH}$  and  $N_{HHL}$ . The coupon is subject to the following constraint:
 
 $$
-C _ {t} = \operatorname {Min} \left[ r _ {t}, 7.25 \% \right]
+C_{t} = \operatorname{Min} \left[ r_{t}, 7.25 \% \right]
 $$
 
 As a result of the cap, the value of the bond in the upper nodes at  $t = 3$  falls below par. For example,
 
 $$
-N _ {H H H} = \frac {1}{2} \left[ \frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8 7} + \frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8} \right] = 9 8. 2 1 5
+N_{H H H} = \frac{1}{2} \left[ \frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8 7} + \frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8} \right] = 9 8. 2 1 5
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/da844dc241448254fe7dbe496bab9cf45baa40e63825e8730cdab1c1f0a356ca.jpg)
@@ -186,19 +186,19 @@ $$
 For node N_{HH} we look at the value for the cap at the two nodes to its right, N_{HHH} and N_{HHL}. Discounting the values at these nodes, \399,870 and \233,120, by the interest rate from the binomial tree at node N_{HH}, 7.0053\%, we arrive at a value of \295,755. That is,
 
 $$
-\begin{array}{l} \text {V a l u e} N _ {H H} = [ \$ 3 9 9, 8 7 0 / (1. 0 7 0 0 5 3) \\ + \left. \$ 233, 120 (1. 0 7 0 0 5 3) \right] / 2 \\ = \$ 2 9 5, 7 7 5 \\ \end{array}
+\begin{array}{l} \text{Va lu e} N_{H H} = [ \$ 3 9 9, 8 7 0 / (1. 0 7 0 0 5 3) \\ + \left. \$ 233, 120 (1. 0 7 0 0 5 3) \right] / 2 \\ = \$ 2 9 5, 7 7 5 \\ \end{array}
 $$
 
 The values at nodes  $N_{HH}$  and  $N_{HL}$  are discounted at the interest rate from the binomial tree at node  $N_{H}, 5.4289\%$ , and then the value is computed. That is,
 
 $$
-\begin{array}{l} \text {V a l u e} N _ {H} = [ \$ 2 9 5, 7 7 5 / (1. 0 5 4 2 8 9) \\ + \$ 155,918 / (1.054289) ] / 2 \\ = \$ 2 1 4, 2 1 7 \\ \end{array}
+\begin{array}{l} \text{Va lu e} N_{H} = [ \$ 2 9 5, 7 7 5 / (1. 0 5 4 2 8 9) \\ + \$ 155,918 / (1.054289) ] / 2 \\ = \$ 2 1 4, 2 1 7 \\ \end{array}
 $$
 
 Finally, we get the value at the root, node  $N$ , which is the value of the year 3 caplet found by discounting the value at  $N_{H}$  and  $N_{L}$  by  $3.5\%$  (the interest rate at node  $N$ ). Doing so gives:
 
 $$
-\begin{array}{l} \text {V a l u e} N = [ \$ 2 1 4, 2 1 7 / (1. 0 3 5) \\ + \left. \$ 96,726 / (1.035) \right] / 2 \\ = \$ 150,214 \\ \end{array}
+\begin{array}{l} \text{Va lu e} N = [ \$ 2 1 4, 2 1 7 / (1. 0 3 5) \\ + \left. \$ 96,726 / (1.035) \right] / 2 \\ = \$ 150,214 \\ \end{array}
 $$
 
 Following the same procedure, the value of the year 2 caplet is  \$66,009 and the value of the year 1 caplet is\$ 11,058. The value of the cap is then the sum of the three caplets.
@@ -289,11 +289,11 @@ The solution in this case is 35 basis points, which is incorporated into Figure 
 Duration and convexity provide a measure of the interest rate risk inherent in a fixed income security. We rely on the lattice model to calculate the effective duration and effective convexity of a bond with an embedded option and other option-like securities. The formulas for these two risk measures are given below:
 
 $$
-\text {E f f e c t i v e} = \frac {V _ {-} - V _ {+}}{2 V _ {0} (\Delta r)}
+\text{Ef fe ct iv e} = \frac{V_{-} - V_{+}}{2 V_{0} (\Delta r)}
 $$
 
 $$
-\mathrm {E f f e c t i v e c o n v e x i t y} = \frac {V _ {+} - V _ {-} - 2 V _ {0}}{2 V _ {0} (\Delta r) ^ {2}}
+\mathrm{Ef fe ct iv ec on ve xi ty} = \frac{V_{+} - V_{-} - 2 V_{0}}{2 V_{0} (\Delta r)^{2}}
 $$ where  $V_{-}$  and  $V_{+}$  are the values derived following a parallel shift in the yield curve down and up, respectively, by a fixed spread. The model adjusts for the changes in the value of the embedded call option that result from the shift in the curve in the calculation of  $V_{-}$  and  $V_{+}$ .
 
 
@@ -314,7 +314,7 @@ To determine the value of  $V_{-}$ , the same five steps are followed except tha
 The results are summarized below:
 
 $$
-\begin{array}{l} \Delta r = 0. 0 0 2 5 \\ V _ {+} = 1 0 1. 6 2 1 \\ V _ {-} = 1 0 2. 7 6 5 \\ V _ {0} = 1 0 2. 2 1 8 \\ \end{array}
+\begin{array}{l} \Delta r = 0. 0 0 2 5 \\ V_{+} = 1 0 1. 6 2 1 \\ V_{-} = 1 0 2. 7 6 5 \\ V_{0} = 1 0 2. 2 1 8 \\ \end{array}
 $$
 
 Therefore, effective duration  $= \frac{102.765 - 101.621}{2(102.218)(0.0025)} = 2.24$
@@ -323,7 +323,7 @@ Therefore, effective duration  $= \frac{102.765 - 101.621}{2(102.218)(0.0025)} =
 Effective convexity  $=$
 
 $$
-\begin{array}{l} \frac {1 0 1 . 6 2 1 + 1 0 2 . 7 6 5 - 2 (1 0 2 . 2 1 8)}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5) ^ {2}} \\ = - 3 9. 1 3 2 1 \\ \end{array}
+\begin{array}{l} \frac{1 0 1 . 6 2 1 + 1 0 2 . 7 6 5 - 2 (1 0 2 . 2 1 8)}{2 (1 0 2 . 2 1 8) (0 . 0 0 2 5)^{2}} \\ = - 3 9. 1 3 2 1 \\ \end{array}
 $$
 
 Notice that this callable bond exhibits negative convexity.

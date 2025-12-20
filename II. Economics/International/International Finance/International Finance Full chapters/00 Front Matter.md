@@ -182,9 +182,7 @@ Inflation rates in the G7 countries 1972–2021
 13.10 Intrinsic value and time value 332
 
 13.11 Te values of _N_ ( _d_ 1) and _N_ ( _d_ 2) for di$erent spot exchange rates 335
-13.12 Currency composition of notional principal value of outstanding currency swaps
-
-(billions of US dollars) 336
+13.12 Currency composition of notional principal value of outstanding currency swaps (billions of US dollars) 336
 
 13.13 A currency swap 337
 13.14 Te cumulative standard normal distribution 342

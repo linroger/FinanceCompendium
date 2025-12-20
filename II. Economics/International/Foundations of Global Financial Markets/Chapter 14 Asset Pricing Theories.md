@@ -153,25 +153,25 @@ Figure 14.1 graphically shows us the CML, but we can derive a formula for the CM
 
 To derive the formula for the CML, we combine the two-fund separation theorem with the assumption of homogeneous expectations (behavioral assumption 4). Suppose an investor creates a two-fund portfolio: a portfolio consisting of  $w_{F}$  invested in the risk-free asset and  $w_{M}$  invested in the market portfolio, where  $w$  represents the corresponding percentage (weight) of the portfolio allocated to each asset. Thus,
 
-$$ w _ {F} + w _ {M} = 1, \mathrm {o r} w _ {F} = 1 - w _ {M}.
+$$ w_{F} + w_{M} = 1, \mathrm{or} w_{F} = 1 - w_{M}.
 $$
 
 What are the expected return and the risk of this portfolio? As we explained in chapter 13, the expected return is equal to the weighted average of the two assets. Therefore, for our two-fund portfolio, the expected portfolio return,  $E(R_{p})$ , is equal to
 
 $$
-E (R _ {p}) = w _ {F} R _ {F} + w _ {M} E (R _ {M}).
+E (R_{p}) = w_{F} R_{F} + w_{M} E (R_{M}).
 $$
 
 Because we know that  $w_{F} = 1 - w_{M}$ , we can rewrite  $E(R_{p})$  as follows:
 
 $$
-E (R _ {p}) = (1 - w _ {M}) R _ {F} + w _ {M} E (R _ {M}),
+E (R_{p}) = (1 - w_{M}) R_{F} + w_{M} E (R_{M}),
 $$ which can be simplified to
 
 
 $$
 
-E \left(R _ {p}\right) = R _ {F} + w _ {M} \left[ E \left(R _ {M}\right) - R _ {F} \right]. \tag {14.1}
+E \left(R_{p}\right) = R_{F} + w_{M} \left[ E \left(R_{M}\right) - R_{F} \right]. \tag {14.1}
 
 $$
 
@@ -179,7 +179,7 @@ Now that we know the expected return of our hypothetical portfolio, we turn to t
 
 $$
 
-\sigma^ {2} (R _ {p}) = w _ {1} ^ {2} \sigma^ {2} (R _ {1}) + w _ {2} ^ {2} \sigma^ {2} (R _ {2}) + 2 (w _ {1}) (w _ {2}) \sigma (R _ {1}) \sigma (R _ {2}) \operatorname {c o r} (R _ {1}, R _ {2}),
+\sigma^{2} (R_{p}) = w_{1}^{2} \sigma^{2} (R_{1}) + w_{2}^{2} \sigma^{2} (R_{2}) + 2 (w_{1}) (w_{2}) \sigma (R_{1}) \sigma (R_{2}) \operatorname{co r} (R_{1}, R_{2}),
 
 $$
 
@@ -187,7 +187,7 @@ We can use this equation for our two-fund portfolio. Asset 1 in this case is the
 
 $$
 
-\sigma^ {2} (R _ {p}) = w _ {F} ^ {2} \sigma^ {2} (R _ {F}) + w _ {M} ^ {2} \sigma^ {2} (R _ {M}) + 2 (w _ {F}) (w _ {M}) \sigma (R _ {M}) \sigma (R _ {F}) \operatorname {c o r} (\mathsf {R} _ {F}, R _ {M}),
+\sigma^{2} (R_{p}) = w_{F}^{2} \sigma^{2} (R_{F}) + w_{M}^{2} \sigma^{2} (R_{M}) + 2 (w_{F}) (w_{M}) \sigma (R_{M}) \sigma (R_{F}) \operatorname{co r} (\mathsf {R}_{F}, R_{M}),
 
 $$
 
@@ -195,7 +195,7 @@ We know that the variance of the risk-free asset,  $\sigma^2 (R_F)$ , is equal t
 
 $$
 
-\sigma^ {2} (R _ {p}) = w _ {M} ^ {2} \sigma^ {2} (R _ {M}).
+\sigma^{2} (R_{p}) = w_{M}^{2} \sigma^{2} (R_{M}).
 
 $$
 
@@ -206,24 +206,24 @@ Because the standard deviation is the square root of the variance, we can write:
 
 $$
 
-\sigma (R _ {p}) = w _ {M} \sigma (R _ {M})
+\sigma (R_{p}) = w_{M} \sigma (R_{M})
 
 $$ and therefore
 
 
-$$ w _ {M} = \sigma (R _ {p}) / \sigma (R _ {M})
+$$ w_{M} = \sigma (R_{p}) / \sigma (R_{M})
 $$
 
 Now let's return to equation (14.1) and substitute for  $w_{M}$  the result we just derived:
 
 $$
-\sigma \left(R _ {p}\right) = w _ {M} \sigma \left(R _ {M}\right)
+\sigma \left(R_{p}\right) = w_{M} \sigma \left(R_{M}\right)
 $$
 
 Rearranging, we get
 
 $$
-E \left(R _ {p}\right) = R _ {F} + \frac {E \left(R _ {M}\right) - R _ {F}}{\sigma \left(R _ {M}\right)} \sigma \left(R _ {p}\right). \tag {14.2}
+E \left(R_{p}\right) = R_{F} + \frac{E \left(R_{M}\right) - R_{F}}{\sigma \left(R_{M}\right)} \sigma \left(R_{p}\right). \tag {14.2}
 $$
 
 This equation yields the CML.
@@ -233,14 +233,14 @@ Interpreting the CML Equation
 Capital market theory assumes that all investors hold the same expectations for the inputs into the model (behavioral assumption 4). With homogeneous expectations,  $\sigma(R_M)$  and  $\sigma(R_p)$  are the market's consensus for the expected return distributions for the market portfolio and portfolio  $p$ . The slope of the CML is given by
 
 $$
-\frac {E (R _ {M}) - R _ {F}}{\sigma (R _ {M})}.
+\frac{E (R_{M}) - R_{F}}{\sigma (R_{M})}.
 $$
 
 Let's examine the economic meaning of the slope. The numerator is the expected return of the market beyond the risk-free return. It provides a measure of the risk premium, or the reward for holding the risky market portfolio rather than the risk-free asset. The denominator is the risk of the market portfolio. Thus, the slope measures the reward per unit of market risk. Because the CML represents the return offered to compensate for a perceived level of risk, each point on the line is a balanced market condition, or equilibrium. The slope of the line determines the additional return needed to compensate for a unit change in risk. For this reason, the slope of the CML is also referred to as the market price of risk.
 
 The CML says that the expected return on a portfolio is equal to the risk-free rate plus a risk premium. As noted in chapter 13, we seek a measure of the risk premium. According to capital market theory, the risk premium is equal to the market price of risk times the quantity of risk for the portfolio (as measured by the standard deviation of the portfolio). That is,
 
-[ E(R_{p}) = R_{F} + \text{Market price of risk} \times \text{Amount of portfolio risk}. ]
+[ E(R_{p}) = R_{F} + \text{Marketpriceofrisk} \times \text{Amountofportfoliorisk}. ]
 
 # The Capital Asset Pricing Model
 
@@ -277,7 +277,7 @@ Security return  $=$  Systematic return + Unsystematic return. (14.3)
 As the systematic return is proportional to the market return, it can be expressed as the symbol beta  $(\beta)$  times the market return,  $R_{M}$ . The proportionality factor beta is a market sensitivity index, indicating how sensitive the security return is to changes in the market level. (How to estimate beta for a security or portfolio will be discussed later.) The unsystematic return, which is independent of market returns, is usually represented by the symbol epsilon followed by a prime  $(\varepsilon')$ . Thus, the security return,  $R$ , may be expressed as
 
 $$
-R = \beta R _ {M} + \varepsilon^ {\prime}. \tag {14.4}
+R = \beta R_{M} + \varepsilon^{\prime}. \tag {14.4}
 $$
 
 For example, if a security has a beta of 2.0, then a  $10\%$  market return will generate a  $20\%$  systematic return for the stock. The security return for the period would be the  $20\%$  plus the unsystematic component. The unsystematic component depends on factors unique to the company, such as labor difficulties, higher than expected sales, and so on.
@@ -285,7 +285,7 @@ For example, if a security has a beta of 2.0, then a  $10\%$  market return will
 The security returns model given by equation (14.4) is usually written in such a way that the average value of the residual term,  $\varepsilon'$ , is zero, by adding a factor, alpha  $(\alpha)$ , to the model to represent the average value of the unsystematic returns over time. That is, we set  $\varepsilon' = \alpha + \varepsilon$  so that
 
 $$
-R = \alpha + \beta R _ {M} + \varepsilon , \tag {14.5}
+R = \alpha + \beta R_{M} + \varepsilon , \tag {14.5}
 $$ where the averages over time should tend to zero.
 
 
@@ -320,14 +320,14 @@ The portfolio beta factor in turn can be shown to be simply an average of the in
 
 $$
 
-\beta_ {p} = w _ {1} \beta_ {1} + w _ {2} \beta_ {2} + \ldots + w _ {n} \beta_ {n},
+\beta_{p} = w_{1} \beta_{1} + w_{2} \beta_{2} + \ldots + w_{n} \beta_{n},
 
 $$ or more concisely:
 
 
 $$
 
-\beta_ {p} = \sum_ {i = 1} ^ {n} w _ {i} \beta_ {i}, \tag {14.9}
+\beta_{p} = \sum_{i = 1}^{n} w_{i} \beta_{i}, \tag {14.9}
 
 $$ where
 
@@ -365,7 +365,7 @@ The CML represents an equilibrium condition in which the expected return on a po
 
 $$
 
-E \left(R _ {i}\right) = R _ {F} + \frac {E \left(R _ {M}\right) - R _ {F}}{\sigma \left(R _ {M}\right)} \sigma \left(R _ {i}\right). \tag {14.10}
+E \left(R_{i}\right) = R_{F} + \frac{E \left(R_{M}\right) - R_{F}}{\sigma \left(R_{M}\right)} \sigma \left(R_{i}\right). \tag {14.10}
 
 $$
 
@@ -375,14 +375,14 @@ Another more common version of the SML relationship uses the beta of a security.
 
 $$
 
-\sigma^ {2} (R _ {i}) = \beta_ {i} ^ {2} \sigma^ {2} (R _ {M}),
+\sigma^{2} (R_{i}) = \beta_{i}^{2} \sigma^{2} (R_{M}),
 
 $$ and the standard deviation is
 
 
 $$
 
-\sigma \left(R _ {i}\right) = \beta_ {i} \sigma \left(R _ {M}\right).
+\sigma \left(R_{i}\right) = \beta_{i} \sigma \left(R_{M}\right).
 
 $$
 
@@ -390,7 +390,7 @@ Therefore,
 
 $$
 
-\beta_ {i} = \frac {\sigma (R _ {i})}{\sigma (R _ {M})}.
+\beta_{i} = \frac{\sigma (R_{i})}{\sigma (R_{M})}.
 
 $$
 
@@ -398,7 +398,7 @@ If  $\beta_{i}$  is substituted into equation (14.10), we have the beta version 
 
 $$
 
-E \left(R _ {i}\right) = R _ {F} + \beta_ {i} \left[ E \left(R _ {M}\right) - R _ {F} \right]. \tag {14.11}
+E \left(R_{i}\right) = R_{F} + \beta_{i} \left[ E \left(R_{M}\right) - R_{F} \right]. \tag {14.11}
 
 $$
 
@@ -408,7 +408,7 @@ Let's look at the prediction of the CAPM for several values of beta. The beta of
 
 $$
 
-E (R _ {i}) = R _ {F} + 0 [ E (R _ {M}) - R _ {F} ] = R _ {F}.
+E (R_{i}) = R_{F} + 0 [ E (R_{M}) - R_{F} ] = R_{F}.
 
 $$
 
@@ -418,7 +418,7 @@ The beta of the market portfolio is 1. If asset  $i$  has the same beta as the m
 
 $$
 
-E (R _ {i}) = R _ {F} + 1 [ E (R _ {M}) - R _ {F} ] = E (R _ {M}).
+E (R_{i}) = R_{F} + 1 [ E (R_{M}) - R_{F} ] = E (R_{M}).
 
 $$
 
@@ -490,7 +490,7 @@ The APT model asserts that the random rate of return on security  $i$  is given 
 
 $$
 
-\tilde {R} _ {i} = E \left(R _ {i}\right) + \beta_ {i, 1} F _ {1} + \beta_ {i, 2} F _ {2} + \tilde {\varepsilon} _ {i}. \tag {14.12}
+\tilde {R}_{i} = E \left(R_{i}\right) + \beta_{i, 1} F_{1} + \beta_{i, 2} F_{2} + \tilde {\varepsilon}_{i}. \tag {14.12}
 
 $$
 
@@ -498,7 +498,7 @@ For equilibrium to exist among these three assets, the following arbitrage condi
 
 $$
 
-E \left(R _ {1}\right) = R _ {F} + \beta_ {i, F 1} \left[ E \left(R _ {F 1}\right) - R _ {F} \right] + \beta_ {i, F 2} \left[ E \left(R _ {F 2}\right) - R _ {F} \right], \tag {14.13}
+E \left(R_{1}\right) = R_{F} + \beta_{i, F 1} \left[ E \left(R_{F 1}\right) - R_{F} \right] + \beta_{i, F 2} \left[ E \left(R_{F 2}\right) - R_{F} \right], \tag {14.13}
 
 $$ where
 
@@ -511,7 +511,7 @@ Equation (14.12) can be generalized to the case that includes  $H$  factors as f
 
 $$
 
-E (R _ {i}) = R _ {F} + \beta_ {i, F 1} [ E (R _ {F 1}) - R _ {F} ] + \beta_ {i, F 2} [ E (R _ {F 2}) - R _ {F} ] + \ldots + \beta_ {i, F H} [ E (R _ {F H}) - R _ {F} ].
+E (R_{i}) = R_{F} + \beta_{i, F 1} [ E (R_{F 1}) - R_{F} ] + \beta_{i, F 2} [ E (R_{F 2}) - R_{F} ] + \ldots + \beta_{i, F H} [ E (R_{F H}) - R_{F} ].
 
 $$
 
@@ -525,13 +525,13 @@ Examining the equations, we can see that the CAPM, equation (14.11), is a specia
 
 $$
 
-\mathrm {C A P M}: E \left(R _ {i}\right) = R _ {F} + \beta_ {i} \left[ E \left(R _ {M}\right) - R _ {F} \right].
+\mathrm{CA PM}: E \left(R_{i}\right) = R_{F} + \beta_{i} \left[ E \left(R_{M}\right) - R_{F} \right].
 
 $$
 
 $$
 
-\begin{array}{l} \mathrm {A P T :} E (R _ {i}) = R _ {F} + \beta_ {i, F 1} [ E (R _ {F 1}) - R _ {F} ] + \beta_ {i, F 2} [ E (R _ {F 2}) - R _ {F} ] + \ldots + \beta_ {i, F H} [ E (R _ {F H}) - \\ R _ {F} ]. \end{array}
+\begin{array}{l} \mathrm{AP T :} E (R_{i}) = R_{F} + \beta_{i, F 1} [ E (R_{F 1}) - R_{F} ] + \beta_{i, F 2} [ E (R_{F 2}) - R_{F} ] + \ldots + \beta_{i, F H} [ E (R_{F H}) - \\ R_{F} ]. \end{array}
 
 $$
 
@@ -660,7 +660,7 @@ This follows directly from equation (14.5) and the assumption of statistical ind
 
 $$
 
-R ^ {2} = \frac {\beta^ {2} \sigma^ {2} \left(R _ {M}\right)}{\sigma^ {2} \left(\varepsilon^ {\prime}\right)}
+R^{2} = \frac{\beta^{2} \sigma^{2} \left(R_{M}\right)}{\sigma^{2} \left(\varepsilon^{\prime}\right)}
 
 $$
 
@@ -668,12 +668,12 @@ $$
 
 $$
 
-\sigma^ {2} \left(\varepsilon_ {p} ^ {\prime}\right) = \sum^ {n} w _ {i} ^ {2} \sigma^ {2} \left(\varepsilon_ {j} ^ {\prime}\right),
+\sigma^{2} \left(\varepsilon_{p}^{\prime}\right) = \sum^{n} w_{i}^{2} \sigma^{2} \left(\varepsilon_{j}^{\prime}\right),
 
 $$ where  $\sigma^2 (\varepsilon_i')$  is the unsystematic risk for stock  $i$ . Assume that the portfolio is made up of an equal percentage invested in each security and that  $\sigma^2 (\varepsilon')$  is the average value of the  $\sigma^2 (\varepsilon_j')$ . Then  $w_{i} = 1 / n$ , and
 
 $$
-\sigma^ {2} (\varepsilon_ {p} ^ {\prime}) = \frac {1}{n} \sigma^ {2} (\varepsilon^ {\prime}),
+\sigma^{2} (\varepsilon_{p}^{\prime}) = \frac{1}{n} \sigma^{2} (\varepsilon^{\prime}),
 $$ which—assuming  $\sigma^2 (\varepsilon ')$  is finite—obviously approaches zero as the number of issues in the portfolio increases.
 
 
@@ -683,13 +683,13 @@ $$ which—assuming  $\sigma^2 (\varepsilon ')$  is finite—obviously approache
 
 $$
 
-E (r _ {i}) = E (R _ {i}) - R _ {F},
+E (r_{i}) = E (R_{i}) - R_{F},
 
 $$
 
 $$
 
-E (r _ {M}) = E (R _ {M}) - R _ {F}.
+E (r_{M}) = E (R_{M}) - R_{F}.
 
 $$
 
@@ -697,7 +697,7 @@ Substituting these risk premiums into equation (14.11), we obtain:
 
 $$
 
-E (r _ {i}) = \beta_ {i} [ E (r _ {M}) ].
+E (r_{i}) = \beta_{i} [ E (r_{M}) ].
 
 $$
 

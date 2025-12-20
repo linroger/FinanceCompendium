@@ -147,7 +147,7 @@ A country's GDP can be split into its uses: private consumption  $C$ , private d
 
 $$
 
-Y ^ {\mathrm {G D P}} = C + I + G + E X - I M.
+Y^{\mathrm{GD P}} = C + I + G + E X - I M.
 
 $$
 
@@ -171,7 +171,7 @@ We now have collected the bits and pieces to state a country's GNI:
 
 $$
 
-Y ^ {\mathrm {G N I}} = Y ^ {\mathrm {G D P}} + r ^ {*} \cdot W.
+Y^{\mathrm{GN I}} = Y^{\mathrm{GD P}} + r^{*} \cdot W.
 
 $$
 
@@ -179,7 +179,7 @@ Using the GDP identity  $Y^{\mathrm{GDP}} = C + I + G + TB$ , GNI can also be sp
 
 $$
 
-Y ^ {\mathrm {G N I}} = C + I + G + T B + r ^ {*} \cdot W.
+Y^{\mathrm{GN I}} = C + I + G + T B + r^{*} \cdot W.
 
 $$
 
@@ -187,7 +187,7 @@ National accountants like to have only a few terms for clarity, so they bundle t
 
 $$
 
-C A = T B + r ^ {*} \cdot W.
+C A = T B + r^{*} \cdot W.
 
 $$
 
@@ -195,7 +195,7 @@ In national accounting terms, GNI is therefore typically stated as
 
 $$
 
-Y ^ {\mathrm {G N I}} = C + I + G + C A.
+Y^{\mathrm{GN I}} = C + I + G + C A.
 
 $$ their national income. In China, low consumption has allowed a whopping one-third of the income earned by individuals and corporations to go to Chinese capital formation over the past decade—that is, to be invested in businesses to fuel output and economic growth. One-third is a very large investment rate—one rarely matched in history. In addition, China invests almost 5 percent of its national income abroad. In the United States, only about one-sixth of national income gets invested domestically. Moreover, absorption—domestic consumption, investment, and government spending in the United States—adds up to more than 100 percent of GNI and exceeds the national income by more than three percent. The difference is financed with credit from abroad, mostly from China, through a current account deficit. The red bars below zero show the U.S. current account deficits.
 
@@ -269,7 +269,7 @@ For the mathematical proof of this statement, let's broaden our view and introdu
 
 $$
 
-S ^ {P} = Y ^ {\mathrm {G N I}} - T - C.
+S^{P} = Y^{\mathrm{GN I}} - T - C.
 
 $$
 
@@ -277,7 +277,7 @@ If the government raises more taxes than it needs for spending and runs a fiscal
 
 $$
 
-S ^ {G} = T - G.
+S^{G} = T - G.
 
 $$
 
@@ -287,7 +287,7 @@ Regardless of their positive or negative signs, we can add up private-sector and
 
 $$
 
-S = S ^ {P} + S ^ {G} = \underbrace {Y ^ {\mathrm {G N I}} - T - C} _ {= S ^ {P}} \underbrace {+ T - G} _ {= S ^ {G}} = \underbrace {C + I + G + C A} _ {= Y ^ {\mathrm {G N I}}} - C - G = I + C A.
+S = S^{P} + S^{G} = \underbrace {Y^{\mathrm{GN I}} - T - C}_{= S^{P}} \underbrace {+ T - G}_{= S^{G}} = \underbrace {C + I + G + C A}_{= Y^{\mathrm{GN I}}} - C - G = I + C A.
 
 $$
 
@@ -348,7 +348,7 @@ Suppose Friday knows exactly how many avocados her trees will yield tomorrow if 
 
 $$
 
-Y _ {t o m o r r o w} ^ {\text {G D P}} = F \left(I _ {t o d a y}\right).
+Y_{t o m o r r o w}^{\text{GD P}} = F \left(I_{t o d a y}\right).
 
 $$
 
@@ -373,7 +373,7 @@ Key force: Different returns to investment (Different opportunity cost of resour
 - Countries: 2 (Home and rest of world other production factors used to produce the avocados are limited.
 
 
-Typically, Friday will choose some consumption today and some consumption tomorrow. To be able to consume some avocados both today and tomorrow in autarky (when her economy is still closed) Friday must set aside a part of the avocado pile today for savings. The right panel of Figure 14.3 shows this scenario. The black dot is Friday's intertemporal production choice and also her intertemporal consumption choice. In autarky, the two choices are the same. The horizontal arrow pointing to the right shows Friday's consumption today  $C_{\text{today}}$ . The remainder of the initial avocado pile  $\bar{Y}_{\text {today }} - C_{\text {today }}$  is Friday's savings:  $S_{\text {today }} = \bar{Y}_{\text {today }} - C_{\text {today }}$ . In a closed economy, the only asset in which savings can be invested is domestic capital:  $S_{\text {today }} = I_{\text {today }}$ . This investment is shown with the horizontal arrow that points from right to left.
+Typically, Friday will choose some consumption today and some consumption tomorrow. To be able to consume some avocados both today and tomorrow in autarky (when her economy is still closed) Friday must set aside a part of the avocado pile today for savings. The right panel of Figure 14.3 shows this scenario. The black dot is Friday's intertemporal production choice and also her intertemporal consumption choice. In autarky, the two choices are the same. The horizontal arrow pointing to the right shows Friday's consumption today  $C_{\text{today}}$ . The remainder of the initial avocado pile  $\bar{Y}_{\text{today }} - C_{\text{today }}$  is Friday's savings:  $S_{\text{today }} = \bar{Y}_{\text{today }} - C_{\text{today }}$ . In a closed economy, the only asset in which savings can be invested is domestic capital:  $S_{\text{today }} = I_{\text{today }}$ . This investment is shown with the horizontal arrow that points from right to left.
 
 
 # The Terms of Intertemporal Trade
@@ -444,7 +444,7 @@ When Friday wakes up today, she has zero foreign wealth:  $W_{\text{today}} = 0$
 
 $$
 
-T B _ {t o m o r r o w} = C A _ {t o m o r r o w} - r ^ {*} C A _ {t o d a y} = - C A _ {t o d a y} - r ^ {*} C A _ {t o d a y} = - (1 + r ^ {*}) C A _ {t o d a y} > 0.
+T B_{t o m o r r o w} = C A_{t o m o r r o w} - r^{*} C A_{t o d a y} = - C A_{t o d a y} - r^{*} C A_{t o d a y} = - (1 + r^{*}) C A_{t o d a y} > 0.
 
 $$
 
@@ -467,7 +467,7 @@ Now that we know the benefits the international capital market should provide, h
 
 $$
 
-I / Y ^ {\mathrm {G D P}} = \text {c o n s t a n t} + 0 \cdot S / Y ^ {\mathrm {G D P}}.
+I / Y^{\mathrm{GD P}} = \text{co ns ta nt} + 0 \cdot S / Y^{\mathrm{GD P}}.
 
 $$
 
@@ -560,14 +560,14 @@ C4.4. Consider the OLS regression results from Figure 14.7: The fit in the left 
 
 $$
 
-I / Y ^ {\mathrm {G D P}} = \begin{array}{c}. 0 9 6 \\ (. 0 0 4) \end{array} + \begin{array}{c}. 5 2 1 \\ (. 0 1 8) \end{array} \cdot S / Y ^ {\mathrm {G D P}}
+I / Y^{\mathrm{GD P}} = \begin{array}{c}. 0 9 6 \\ (. 0 0 4) \end{array} + \begin{array}{c}. 5 2 1 \\ (. 0 1 8) \end{array} \cdot S / Y^{\mathrm{GD P}}
 
 $$ for 134 countries between 1991 and 2000. The fit in the right panel is
 
 
 $$
 
-I / Y ^ {\mathrm {G D P}} = \begin{array}{c}. 1 1 7 \\ (. 0 0 4) \end{array} + \begin{array}{c}. 3 1 3 \\ (. 0 1 9) \end{array} \cdot S / Y ^ {\mathrm {G D P}}
+I / Y^{\mathrm{GD P}} = \begin{array}{c}. 1 1 7 \\ (. 0 0 4) \end{array} + \begin{array}{c}. 3 1 3 \\ (. 0 1 9) \end{array} \cdot S / Y^{\mathrm{GD P}}
 
 $$ for 139 countries between 2001 and 2010. Given the standard errors in parentheses, is the slope coefficient is statistically significantly different between the two decades? Will a test reject that the early-decade coefficient is equal to .31 and does another test reject that the late-decade coefficient is equal to .52? Now suppose unobserved variables related to demographic and productivity shocks generate a close link between every country's savings and investment. Do the tests yield reliable results when there are unobserved variables?
 

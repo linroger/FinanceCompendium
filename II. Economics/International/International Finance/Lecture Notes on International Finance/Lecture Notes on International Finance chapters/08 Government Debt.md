@@ -31,13 +31,13 @@ tags_extracted: '2025-12-18T01:44:58.214507'
 - If we look backward, the market value of government debt is determined by past debt, primary surpluses, and debt returns:
 
 $$
-\frac {D _ {t}}{Y _ {t}} = - \sum_ {j = 0} ^ {t - 1} \frac {S _ {t - j}}{Y _ {t - j}} \exp (R _ {t - j \rightarrow t} ^ {D} - X _ {t - j \rightarrow t}) + \frac {D _ {0}}{Y _ {0}} \exp (R _ {0 \rightarrow t} ^ {D} - X _ {0 \rightarrow t}).
+\frac{D_{t}}{Y_{t}} = - \sum_{j = 0}^{t - 1} \frac{S_{t - j}}{Y_{t - j}} \exp (R_{t - j \rightarrow t}^{D} - X_{t - j \rightarrow t}) + \frac{D_{0}}{Y_{0}} \exp (R_{0 \rightarrow t}^{D} - X_{0 \rightarrow t}).
 $$
 
 - If we look forward, the market value of government debt is backed by the present value of future primary surpluses:
 
 $$
-D _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + k}\right) D _ {t + k} \right].
+D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right].
 $$
 
 - This forward-looking valuation equation also implies a trade-off in the risk dimension. The government has to choose between insuring the debtholders and insuring the taxpayers.  
@@ -50,7 +50,7 @@ In this chapter, we study the valuation of government debt and issues related to
 government bonds. For example, in Chapter 6, the government budget condition in nominal terms can be expressed as
 
 $$
-Q _ {t} = S _ {t} + Q _ {t + 1} \exp (- i _ {t}),
+Q_{t} = S_{t} + Q_{t + 1} \exp (- i_{t}),
 $$
 
 where  $S_{t}$  is the government primary surplus in nominal terms,  $Q_{t}$  is the nominal face value of the debt, and  $i_{t}$  is the log nominal risk-free rate.
@@ -58,7 +58,7 @@ where  $S_{t}$  is the government primary surplus in nominal terms,  $Q_{t}$  is
 Now, we consider more general cases in which the government can issue different types contingent claims, including the long-term bonds. Let  $D_{t}$  denote the market value of aggregate government debt portfolio, and let  $\exp(R_{t}^{D})$  denote its cum-coupon return. Then, the government budget condition can be expressed as
 
 $$
-D _ {t - 1} \exp \left(R _ {t} ^ {D}\right) = S _ {t} + D _ {t}, \tag {8.1}
+D_{t - 1} \exp \left(R_{t}^{D}\right) = S_{t} + D_{t}, \tag {8.1}
 $$
 
 with the previous special case of one-period nominal risk-free bond attained when  $Q_{t} = D_{t - 1}\exp (R_{t}^{D})$  and  $R_{t}^{D} = i_{t - 1}$ .
@@ -84,7 +84,7 @@ The backward-looking approach attributes variations in the debt/GDP ratio to the
 Proposition 8.1. (a) The market value of government debt can be expressed as
 
 $$
-D _ {t} = - \sum_ {j = 0} ^ {t - 1} S _ {t - j} \exp \left(R _ {t - j \rightarrow t} ^ {D}\right) + D _ {0} \exp \left(R _ {0 \rightarrow t} ^ {D}\right), \tag {8.2}
+D_{t} = - \sum_{j = 0}^{t - 1} S_{t - j} \exp \left(R_{t - j \rightarrow t}^{D}\right) + D_{0} \exp \left(R_{0 \rightarrow t}^{D}\right), \tag {8.2}
 $$
 
 where  $R_{t - j\rightarrow t}^{D} = R_{t - j + 1}^{D} + \ldots R_{t - 1}^{D} + R_{t}^{D}$  is the cumulative debt return.
@@ -92,7 +92,7 @@ where  $R_{t - j\rightarrow t}^{D} = R_{t - j + 1}^{D} + \ldots R_{t - 1}^{D} + 
 (b) We can restate this expression to obtain a backward-looking expression for the debt/GDP ratio:
 
 $$
-\frac {D _ {t}}{Y _ {t}} = - \sum_ {j = 0} ^ {t - 1} \frac {S _ {t - j}}{Y _ {t - j}} \exp \left(R _ {t - j \rightarrow t} ^ {D} - X _ {t - j \rightarrow t}\right) + \frac {D _ {0}}{Y _ {0}} \exp \left(R _ {0 \rightarrow t} ^ {D} - X _ {0 \rightarrow t}\right), \tag {8.3}
+\frac{D_{t}}{Y_{t}} = - \sum_{j = 0}^{t - 1} \frac{S_{t - j}}{Y_{t - j}} \exp \left(R_{t - j \rightarrow t}^{D} - X_{t - j \rightarrow t}\right) + \frac{D_{0}}{Y_{0}} \exp \left(R_{0 \rightarrow t}^{D} - X_{0 \rightarrow t}\right), \tag {8.3}
 $$
 
 where  $\exp (X_{t - j\rightarrow t}) = Y_t / Y_{t - j}$  is the cumulative nominal GDP growth.
@@ -106,13 +106,13 @@ In this way, the backward-looking approach provides a useful way to attribute th
 We can also examine this result in a steady state in which debt returns, growth rates, and surplus/GDP ratios are all constants. Then, the steady-state debt/GDP ratio can be expressed as
 
 $$
-\begin{array}{l} \frac {D}{Y} = - \frac {S}{Y} \frac {1}{1 - \exp (R ^ {D} - X)} \approx \frac {S}{Y} \frac {1}{R ^ {D} - X}, \\ \frac {S}{Y} = \frac {D}{Y} (R ^ {D} - X). \\ \end{array}
+\begin{array}{l} \frac{D}{Y} = - \frac{S}{Y} \frac{1}{1 - \exp (R^{D} - X)} \approx \frac{S}{Y} \frac{1}{R^{D} - X}, \\ \frac{S}{Y} = \frac{D}{Y} (R^{D} - X). \\ \end{array}
 $$
 
 In real terms, we can express this relation as
 
 $$
-\frac {s}{y} = \frac {d}{y} (r ^ {D} - x), \tag {8.4}
+\frac{s}{y} = \frac{d}{y} (r^{D} - x), \tag {8.4}
 $$
 
 where  $r^D = R^D - \pi$  denotes the real return to the bond portfolio and  $x = X - \pi$  denotes the real growth rate.
@@ -126,13 +126,13 @@ more debt to pay the interests due, then, the government debt quantity rises at 
 It is also straightforward to consider bond convenience yields in this calculation. In the absence of convenience yields, the debt return is equal to the risk-free rate,  $r^D = r$ . In the presence of convenience yields, the government is able to finance its debt at a rate lower than the risk-free rate  $\rho$ :
 
 $$
-r ^ {D} = \rho - \lambda .
+r^{D} = \rho - \lambda .
 $$
 
 Then, Eq. (8.4) becomes
 
 $$
-\frac {s}{y} = \frac {d}{y} (\rho - \lambda - x),
+\frac{s}{y} = \frac{d}{y} (\rho - \lambda - x),
 $$
 
 which implies that, in the case of  $r^D > x$ , a higher convenience yield  $\lambda$  lowers the required surplus/GDP ratio to sustain a given debt/GDP ratio.
@@ -142,7 +142,7 @@ which implies that, in the case of  $r^D > x$ , a higher convenience yield  $\la
 There are limits to what we learn from the backward-looking approach, which is a statement of the past. The future may or may not be the same. Specifically, consider the task of predicting the market value of debt in the next period  $t + 1$ , which follows
 
 $$
-D _ {t + 1} = - S _ {t + 1} + D _ {t} \exp (R _ {t + 1} ^ {D}),
+D_{t + 1} = - S_{t + 1} + D_{t} \exp (R_{t + 1}^{D}),
 $$
 
 and therefore depends on not only the future government surplus  $S_{t+1}$ , but also the future debt return  $R_{t+1}^{D}$ . While the future surplus may be predicted following some well-defined legislative or budgetary rules, it is much harder to predict the future debt return, which depends on the investors' expectation of the government's fiscal conditions in the more distant future and their risk appetite. Similarly, back in the personal loan example in Table 8.1, if the lender is unsure of the borrower's future income and therefore has doubt about the borrower's ability to repay the loan, then, the market value of the outstanding loan needs to adjust to reflect this uncertainty.
@@ -156,7 +156,7 @@ can be much faster and greater. As a result, in the next section we turn to the 
 As in the backward-looking accounting, here we also start with Eq. (8.1). We consider a useful special case in which the government issues nominal bonds up to tenor  $H$ . So, the market value of the entire government debt portfolio can be expressed as
 
 $$
-D _ {t} = \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h),
+D_{t} = \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h),
 $$
 
 where  $Q_{t}(h)$  is the quantity of outstanding nominal zero-coupon bonds of maturity  $h$  in period  $t$ , and  $P_{t}(h)$  is the price for the  $h$ -year bonds in period  $t$ . We note that the one-period nominal risk-free debt is a special case with  $H = 1$ ,  $Q_{t}(1) = B_{t + 1}$ , and  $P_{t}(1) = \exp(-i_{t})$ .
@@ -164,13 +164,13 @@ where  $Q_{t}(h)$  is the quantity of outstanding nominal zero-coupon bonds of m
 These bonds may be defaultable. When government default does not happen in period  $t$ , the one-period government budget condition becomes
 
 $$
-D _ {t - 1} \exp \left(R _ {t} ^ {D}\right) = \sum_ {h = 1} ^ {H} Q _ {t - 1} (h) P _ {t} (h - 1) = S _ {t} + \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h). \tag {8.5}
+D_{t - 1} \exp \left(R_{t}^{D}\right) = \sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1) = S_{t} + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h). \tag {8.5}
 $$
 
 When default happens in period  $t$ , all existing bonds from period  $t$  are wiped out. After the default, the government may be able to issue new bonds at prices  $P_{t}(h)$  in this current period, as well as in future periods:
 
 $$
-0 = S _ {t} + \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h).
+0 = S_{t} + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h).
 $$
 
 This time, we iterate forward these equations, and derive the following intertemporal government budget condition. We use  $M_{t,t+k}$  to denote the multi-horizon nominal SDF from period  $t$  to period  $t + k$ .
@@ -178,7 +178,7 @@ This time, we iterate forward these equations, and derive the following intertem
 Proposition 8.2. Even when the government debt is defaultable, the market value of government debt is equal to the present value of future government surpluses plus a transversality term:
 
 $$
-D _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + k}\right) D _ {t + k} \right]. \tag {8.6}
+D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.6}
 $$
 
 Using the one-period budget constraint (8.1) again, we can also express
@@ -188,7 +188,7 @@ It is a simple extension to consider partial default, which we do not consider i
 this intertemporal government budget condition as
 
 $$
-D _ {t - 1} \exp \left(R _ {t} ^ {D}\right) = \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + k}\right) D _ {t + k} \right]. \tag {8.7}
+D_{t - 1} \exp \left(R_{t}^{D}\right) = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.7}
 $$
 
 The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to express the same intertemporal government budget condition. Eq. (8.6) equates the end-of-period market value of the government debt after issuances and repayments,  $D_{t}$ , to the ex-dividend present value of future surpluses and the transversality term, whereas Eq. (8.7) equates the beginning-of-period market value of the government debt,  $D_{t-1}\exp(R_t^D)$ , to the cum-dividend present value of future surpluses and the transversality term. Our results can be expressed in either convention we use. To avoid confusion, we stick to the first expression in this section.
@@ -196,23 +196,23 @@ The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to 
 If the transversality condition holds, i.e.,
 
 $$
-\lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} [ \exp (M _ {t, t + k}) D _ {t + k} ] = 0, \tag {8.8}
+\lim_{k \rightarrow \infty} \mathbb {E}_{t} [ \exp (M_{t, t + k}) D_{t + k} ] = 0, \tag {8.8}
 $$
 
 then, we can express this intertemporal government budget condition (8.6) as
 
 $$
-D _ {t} = P _ {t} ^ {T} - P _ {t} ^ {G}, \tag {8.9}
+D_{t} = P_{t}^{T} - P_{t}^{G}, \tag {8.9}
 $$
 
 where  $D_{t}$  on the left-hand side is the market value of debt at the end of period  $t$ , and  $P_{t}^{T}$  and  $P_{t}^{G}$  on the right-hand side denote the present value of current and future tax revenues and government spending:
 
 $$
-P _ {t} ^ {T} \stackrel {\text {d e f}} {=} \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (M _ {t, t + k}) T _ {t + k} \right],
+P_{t}^{T} \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) T_{t + k} \right],
 $$
 
 $$
-P _ {t} ^ {G} \stackrel {\mathrm {d e f}} {=} \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (M _ {t, t + k}) G _ {t + k} \right].
+P_{t}^{G} \stackrel {\mathrm{de f}} {=} \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) G_{t + k} \right].
 $$
 
 We refer to the present value of future government surpluses  $P_{t}^{T} - P_{t}^{G}$  as the fiscal backing. When the transversality condition holds, the fiscal backing determines the market valuation of the aggregate government debt portfolio.
@@ -224,7 +224,7 @@ We offer three economic interpretations of this forward-looking relationship. Fi
 In fact, for investors who can trade government debt, they should agree on the valuation of government debt even when they have different SDFs. For investors  $i$  and  $j$  with SDFs  $M_{t,t+k}^{i}$  and  $M_{t,t+k}^{j}$ , respectively, we have
 
 $$
-\mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k} ^ {i}\right) \left(T _ {t + k} - G _ {t + k}\right) \right] = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k} ^ {j}\right) \left(T _ {t + k} - G _ {t + k}\right) \right]. \tag {8.10}
+\mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{i}\right) \left(T_{t + k} - G_{t + k}\right) \right] = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{j}\right) \left(T_{t + k} - G_{t + k}\right) \right]. \tag {8.10}
 $$
 
 If this equality does not hold, these two investors should trade with each other using the government debt portfolio.
@@ -232,19 +232,19 @@ If this equality does not hold, these two investors should trade with each other
 Second, this result implies that, in order to back up  $D_{t}$  dollars' worth of debt, the government needs to generate a positive present value from its future primary surpluses. Conversely, when the present value of primary surpluses increases in period  $t$ , the government debt appreciates in value and generates a higher return  $R_{t}^{D}$ . That is, Eq. (8.9) implies
 
 $$
-D _ {t - 1} \left(\mathbb {E} _ {t} - \mathbb {E} _ {t - 1}\right) \left[ \exp \left(R _ {t} ^ {D}\right) \right] = \left(\mathbb {E} _ {t} - \mathbb {E} _ {t - 1}\right) \left[ \left(P _ {t} ^ {T} + T _ {t}\right) - \left(P _ {t} ^ {G} + G _ {t}\right) \right],
+D_{t - 1} \left(\mathbb {E}_{t} - \mathbb {E}_{t - 1}\right) \left[ \exp \left(R_{t}^{D}\right) \right] = \left(\mathbb {E}_{t} - \mathbb {E}_{t - 1}\right) \left[ \left(P_{t}^{T} + T_{t}\right) - \left(P_{t}^{G} + G_{t}\right) \right],
 $$
 
 where  $\exp(R_t^D)$  denotes the holding return of the aggregate government bond portfolio:
 
 $$
-\exp (R _ {t} ^ {D}) = \frac {\sum_ {h = 1} ^ {H} Q _ {t - 1} (h) P _ {t} (h - 1)}{\sum_ {h = 1} ^ {H} Q _ {t - 1} (h) P _ {t - 1} (h)} = \frac {D _ {t} + S _ {t}}{D _ {t - 1}}.
+\exp (R_{t}^{D}) = \frac{\sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1)}{\sum_{h = 1}^{H} Q_{t - 1} (h) P_{t - 1} (h)} = \frac{D_{t} + S_{t}}{D_{t - 1}}.
 $$
 
 Third, if the transversality condition holds, we can express Eq. (8.6) as
 
 $$
-D _ {t} = \sum_ {k = 1} ^ {\infty} \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + k}\right) \right] \mathbb {E} _ {t} \left[ S _ {t + k} \right] + \sum_ {k = 1} ^ {\infty} c o v _ {t} \left(\exp \left(M _ {t, t + k}\right), S _ {t + k}\right),
+D_{t} = \sum_{k = 1}^{\infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) \right] \mathbb {E}_{t} \left[ S_{t + k} \right] + \sum_{k = 1}^{\infty} c o v_{t} \left(\exp \left(M_{t, t + k}\right), S_{t + k}\right),
 $$
 
 which implies that the fiscal backing can be created either by running a higher government surpluses on average (i.e., higher  $\mathbb{E}_t[S_{t+k}]$ ), or by making government surpluses more countercyclical (i.e., higher  $cov_t(\exp(M_{t,t+k}), S_{t+k}))$ . The latter channel creates fiscal backing by conditionally generating higher cash flows in high marginal utility
@@ -256,7 +256,7 @@ Finally, we make two more technical observations. First, if the transversality c
 Second, the intertemporal government budget condition can also be expressed in real terms. For example, we can rewrite Eq. (8.6) be expressed as
 
 $$
-d _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (m _ {t, t + k}) s _ {t + k} \right] + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} [ \exp (m _ {t, t + k}) d _ {t + k} ],
+d_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} [ \exp (m_{t, t + k}) d_{t + k} ],
 $$
 
 where  $d_{t}$  and  $s_{t}$  are the real market value of government debt and the real primary surplus, and  $m_{t,t+k}$  is the real SDF which is related to the nominal SDF via Eq. (6.1).
@@ -266,13 +266,13 @@ where  $d_{t}$  and  $s_{t}$  are the real market value of government debt and t
 We can further generalize this result with convenience yields. The convenience yield  $\lambda_t(h)$  is the expected returns on government bonds of maturity  $h$  that investors are willing to forgo. As in Chapter 4, the convenience yield is a wedge in the standard Euler equation:
 
 $$
-\exp (- \lambda_ {t} (h)) = \mathbb {E} _ {t} \left[ \exp (M _ {t + 1}) \frac {P _ {t + 1} (h - 1)}{P _ {t} (h)} \right].
+\exp (- \lambda_{t} (h)) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \frac{P_{t + 1} (h - 1)}{P_{t} (h)} \right].
 $$
 
 The presence of the convenience yield implies that the government can finance its debt at a lower interest rate or a higher bond price, which increases the amount it can raise from debt issuance. This additional revenue from debt issuance is a form of seigniorage revenue, which we formally define as the bond market value  $Q_{t}(h)P_{t}(h)$  times the Euler equation wedge  $1 - \exp (-\lambda_{t}(h))$ , summed across all maturities  $h$ :
 
 $$
-K _ {t} \stackrel {{\text {d e f}}} {{=}} \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h) \left(1 - \exp \left(- \lambda_ {t} (h)\right)\right).
+K_{t} \stackrel {{\text{de f}}} {{=}} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) \left(1 - \exp \left(- \lambda_{t} (h)\right)\right).
 $$
 
 When the convenience yields are identical for bonds of all maturities, i.e.,  $\lambda_t(h) = \lambda_t$ , then, we can simplify this seigniorage revenue
@@ -280,7 +280,7 @@ When the convenience yields are identical for bonds of all maturities, i.e.,  $\
 as the product between the market value of debt and the convenience yield level:
 
 $$
-K _ {t} = D _ {t} (1 - \exp (- \lambda_ {t})) \approx D _ {t} \lambda_ {t},
+K_{t} = D_{t} (1 - \exp (- \lambda_{t})) \approx D_{t} \lambda_{t},
 $$
 
 where the approximation holds when the convenience yield  $\lambda_{t}$  is small.
@@ -290,7 +290,7 @@ This seigniorage revenue contributes to the government's income in addition to t
 Proposition 8.3. When there is convenience yield on government debt and possible government default, the market value of government debt is equal to the present value of future government surpluses and future seigniorage revenues plus a transversality term:
 
 $$
-D _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k}\right) S _ {t + k} \right] + \mathbb {E} _ {t} \left[ \sum_ {k = 0} ^ {\infty} \exp \left(M _ {t, t + k}\right) K _ {t + k} \right] + \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + k}\right) D _ {t + k} \right]. \tag {8.11}
+D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) K_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.11}
 $$
 
 The proof is given in Appendix A.32. In this formula, while the sum of government surpluses starts from period  $t + 1$  to back up the debt outstanding at the end of period  $t$ , the sum of the seigniorage revenues starts from period  $t$ . This is because the seigniorage revenue  $K_{t}$  results from the fact that the government can pay back its debt in period  $t + 1$  with a lower interest, which is tied to  $\lambda_{t}(h)$ , the convenience yield in period  $t$ . Since these additional proceeds are due to investors' willingness to accept lower returns to hold the government debt in exchange for its liquidity and safety, we can also interpret the seigniorage revenue term as the valuation of the government debt's service flows. When the service flows become more valuable, the value of government debt appreciates and results in a higher return  $R_{t}^{D}$ .
@@ -300,7 +300,7 @@ The proof is given in Appendix A.32. In this formula, while the sum of governmen
 The intertemporal government budget condition also has implications for how the government trades off the risk that it transfers to the taxpayers and the debtholders. Recall that the cum-dividend debt return is
 
 $$
-\exp (R _ {t + 1} ^ {D}) = \frac {\sum_ {h = 1} ^ {\infty} P _ {t + 1} (h - 1) Q _ {t} (h)}{\sum_ {h = 1} ^ {\infty} P _ {t} (h) Q _ {t} (h)}.
+\exp (R_{t + 1}^{D}) = \frac{\sum_{h = 1}^{\infty} P_{t + 1} (h - 1) Q_{t} (h)}{\sum_{h = 1}^{\infty} P_{t} (h) Q_{t} (h)}.
 $$
 
 Similarly, we can regard the claims to tax revenues and government spending as financial securities, and define their cum-dividend
@@ -308,25 +308,25 @@ Similarly, we can regard the claims to tax revenues and government spending as f
 returns as
 
 $$
-\exp (R _ {t + 1} ^ {T}) = \frac {P _ {t + 1} ^ {T} + T _ {t + 1}}{P _ {t} ^ {T}},
+\exp (R_{t + 1}^{T}) = \frac{P_{t + 1}^{T} + T_{t + 1}}{P_{t}^{T}},
 $$
 
 $$
-\exp (R _ {t + 1} ^ {G}) = \frac {P _ {t + 1} ^ {G} + G _ {t + 1}}{P _ {t} ^ {G}}.
+\exp (R_{t + 1}^{G}) = \frac{P_{t + 1}^{G} + G_{t + 1}}{P_{t}^{G}}.
 $$
 
 Moreover, if we regard the equity market return  $\exp(R_{t+1}^{M})$  as a systematic risk factor, we can define the debt beta, the tax beta, and the spending beta as
 
 $$
-\beta_ {t} ^ {D} = \frac {\operatorname {c o v} _ {t} (\exp (R _ {t + 1} ^ {D}) , \exp (R _ {t + 1} ^ {M}))}{\operatorname {v a r} _ {t} (\exp (R _ {t + 1} ^ {M}))},
+\beta_{t}^{D} = \frac{\operatorname{co v}_{t} (\exp (R_{t + 1}^{D}) , \exp (R_{t + 1}^{M}))}{\operatorname{va r}_{t} (\exp (R_{t + 1}^{M}))},
 $$
 
 $$
-\beta_ {t} ^ {T} = \frac {c o v _ {t} (\exp (R _ {t + 1} ^ {T}) , \exp (R _ {t + 1} ^ {M}))}{v a r _ {t} (\exp (R _ {t + 1} ^ {M}))},
+\beta_{t}^{T} = \frac{c o v_{t} (\exp (R_{t + 1}^{T}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))},
 $$
 
 $$
-\beta_ {t} ^ {G} = \frac {c o v _ {t} (\exp (R _ {t + 1} ^ {G}) , \exp (R _ {t + 1} ^ {M}))}{v a r _ {t} (\exp (R _ {t + 1} ^ {M}))}.
+\beta_{t}^{G} = \frac{c o v_{t} (\exp (R_{t + 1}^{G}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))}.
 $$
 
 Then, we obtain the following result characterizing these claims' expected returns and systematic risk exposures [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2020b].
@@ -334,19 +334,19 @@ Then, we obtain the following result characterizing these claims' expected retur
 Proposition 8.4. (a) The expected returns on the aggregate government debt portfolio, the claim to tax revenues, and the claim to government spending satisfy
 
 $$
-\frac {D _ {t} + P _ {t} ^ {G}}{D _ {t}} \mathbb {E} _ {t} \left[ \exp (R _ {t + 1} ^ {T}) \right] = \mathbb {E} _ {t} \left[ \exp (R _ {t + 1} ^ {D}) \right] + \frac {P _ {t} ^ {G}}{D _ {t}} \mathbb {E} _ {t} \left[ \exp (R _ {t + 1} ^ {G}) \right].
+\frac{D_{t} + P_{t}^{G}}{D_{t}} \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{T}) \right] = \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{D}) \right] + \frac{P_{t}^{G}}{D_{t}} \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{G}) \right].
 $$
 
 (b) The betas of the aggregate government debt portfolio, the claim to tax revenues, and the claim to government spending satisfy
 
 $$
-\frac {D _ {t} + P _ {t} ^ {G}}{D _ {t}} \beta_ {t} ^ {T} = \beta_ {t} ^ {D} + \frac {P _ {t} ^ {G}}{D _ {t}} \beta_ {t} ^ {G}.
+\frac{D_{t} + P_{t}^{G}}{D_{t}} \beta_{t}^{T} = \beta_{t}^{D} + \frac{P_{t}^{G}}{D_{t}} \beta_{t}^{G}.
 $$
 
 The proof is presented in Appendix A.33. This proposition resembles the Modigliani-Miller Theorem in corporate finance, which states that, within a firm, its equity is a levered claim on the underlying asset. As a result, the return beta and the risk premium on the firm asset are equal to the weighted average of those on the firm's equity and debt claims:
 
 $$
-\frac {D + E}{D} \beta_ {t} ^ {A} = \beta_ {t} ^ {D} + \frac {E}{D} \beta_ {t} ^ {E},
+\frac{D + E}{D} \beta_{t}^{A} = \beta_{t}^{D} + \frac{E}{D} \beta_{t}^{E},
 $$
 
 where  $D$  is the market value of debt and  $E$  is the ex-dividend market value of equity. Similarly, the government holds the claim to tax revenues and splits up these cash flows to debtholders and recipients of government spending. As a result, the return beta and the risk
@@ -358,7 +358,7 @@ This result implies a very tight constraint on how the government insures taxpay
 If the government decides to make its debt risk-free, which implies a zero debt beta  $\beta_t^D = 0$ , then, Proposition 8.4 implies
 
 $$
-\beta_ {t} ^ {T} = \frac {P _ {t} ^ {G}}{D _ {t} + P _ {t} ^ {G}} \beta_ {t} ^ {G}.
+\beta_{t}^{T} = \frac{P_{t}^{G}}{D_{t} + P_{t}^{G}} \beta_{t}^{G}.
 $$
 
 With a positive amount of outstanding debt, i.e.,  $D_{t} > 0$ , and a procyclical tax claim, i.e.,  $\beta_{t}^{T} > 0$ , then, the spending beta has to be even higher than the tax beta. That is, the government spending has to be more procyclical than the tax revenue in order to manufacture risk-free government debt. In other words, the risk-free debt is manufactured by transferring more risk to the taxpayers.
@@ -370,7 +370,7 @@ Taking a step back, this trade-off between insuring the taxpayers and insuring t
 Moreover, we can extend this trade-off result to the case of convenience yields. In this case, the debt return can be expressed as a weighted average of the returns on the tax, spending, and seigniorage claims:
 
 $$
-\begin{array}{l} \exp \left(R _ {t + 1} ^ {D}\right) = \frac {D _ {t + 1} + S _ {t + 1}}{D _ {t}} = \frac {P _ {t + 1} ^ {T} + P _ {t + 1} ^ {K} + K _ {t + 1} - P _ {t + 1} ^ {G} + T _ {t + 1} - G _ {t + 1}}{D _ {t}} \\ = \frac {P _ {t} ^ {T}}{D _ {t}} \exp \left(R _ {t + 1} ^ {T}\right) + \frac {P _ {t} ^ {K}}{D _ {t}} \exp \left(R _ {t + 1} ^ {K}\right) - \frac {P _ {t} ^ {G}}{D _ {t}} \exp \left(R _ {t + 1} ^ {G}\right), \tag {8.12} \\ \end{array}
+\begin{array}{l} \exp \left(R_{t + 1}^{D}\right) = \frac{D_{t + 1} + S_{t + 1}}{D_{t}} = \frac{P_{t + 1}^{T} + P_{t + 1}^{K} + K_{t + 1} - P_{t + 1}^{G} + T_{t + 1} - G_{t + 1}}{D_{t}} \\ = \frac{P_{t}^{T}}{D_{t}} \exp \left(R_{t + 1}^{T}\right) + \frac{P_{t}^{K}}{D_{t}} \exp \left(R_{t + 1}^{K}\right) - \frac{P_{t}^{G}}{D_{t}} \exp \left(R_{t + 1}^{G}\right), \tag {8.12} \\ \end{array}
 $$
 
 where  $P_{t}^{K}$  denotes the ex-dividend present value of the seigniorage claim.
@@ -378,19 +378,19 @@ where  $P_{t}^{K}$  denotes the ex-dividend present value of the seigniorage cla
 While this formula looks like a simple extension of the case without convenience yield, there is a subtle difference. Proposition 8.3 implies that
 
 $$
-D _ {t} = P _ {t} ^ {T} + P _ {t} ^ {K} + K _ {t} - P _ {t} ^ {G}.
+D_{t} = P_{t}^{T} + P_{t}^{K} + K_{t} - P_{t}^{G}.
 $$
 
 We have an additional  $K_{t}$  term since the sum of the seigniorage revenue starts from  $t = 0$  in the intertemporal government budget condition (8.11), which means that, unlike the case without convenience yields, the weights on the right-hand side of Eq. (8.12) do not sum up to 1:
 
 $$
-\frac {P _ {t} ^ {T}}{D _ {t}} + \frac {P _ {t} ^ {K}}{D _ {t}} - \frac {P _ {t} ^ {G}}{D _ {t}} = 1 - \frac {K _ {t}}{D _ {t}} <   1.
+\frac{P_{t}^{T}}{D_{t}} + \frac{P_{t}^{K}}{D_{t}} - \frac{P_{t}^{G}}{D_{t}} = 1 - \frac{K_{t}}{D_{t}} <   1.
 $$
 
 This is a feature, not a bug. Suppose the tax, spending, and seigniorage claims all have the same discount rate. Then, as long as the weights sum up to 1, a linear combination of these claims also has the same discount rate. The presence of the bond convenience yield introduces a "missing weight," which allows the debt to have a lower discount rate  $R_{t+1}^{D}$ . More precisely, we can write Eq. (8.12) as
 
 $$
-\exp (R _ {t + 1} ^ {D}) \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) = \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \exp (R _ {t + 1} ^ {T}) + \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \exp (R _ {t + 1} ^ {K}) - \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \exp (R _ {t + 1} ^ {G}).
+\exp (R_{t + 1}^{D}) \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \exp (R_{t + 1}^{T}) + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \exp (R_{t + 1}^{K}) - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \exp (R_{t + 1}^{G}).
 $$
 
 On the left-hand side, the debt return is adjusted by a factor of  $K_{t} / (P_{t}^{T} + P_{t}^{K} - P_{t}^{G})$ , which reflects the size of the convenience yield. On the right-hand side, the weights are normalized to sum up to 1. When the convenience yield is higher and generates a high seigniorage revenue  $K_{t}$ , the debt return  $R_{t+1}^{D}$  can be lower than the weighted average of the tax, spending, and seigniorage returns.
@@ -398,13 +398,13 @@ On the left-hand side, the debt return is adjusted by a factor of  $K_{t} / (P_{
 Proposition 8.5. (a) The expected returns on the aggregate government debt portfolio, the claims to tax revenues, government spending, and seigniorage revenues satisfy
 
 $$
-\begin{array}{l} \mathbb {E} _ {t} \left[ \exp \left(R _ {t + 1} ^ {D}\right) \right] \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) = \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \mathbb {E} _ {t} \left[ \exp \left(R _ {t + 1} ^ {T}\right) \right] + \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \mathbb {E} _ {t} \left[ \exp \left(R _ {t + 1} ^ {K}\right) \right] \\ - \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \mathbb {E} _ {t} \left[ \exp \left(R _ {t + 1} ^ {G}\right) \right]. \\ \end{array}
+\begin{array}{l} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{D}\right) \right] \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{T}\right) \right] + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{K}\right) \right] \\ - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{G}\right) \right]. \\ \end{array}
 $$
 
 (b) The betas of the aggregate government debt portfolio and the claims to tax revenues, government spending, and seigniorage revenues satisfy
 
 $$
-\beta_ {t} ^ {D} \left(1 + \frac {K _ {t}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}}\right) = \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {T} + \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {K} - \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {G}.
+\beta_{t}^{D} \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{T} + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{K} - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{G}.
 $$
 
 The proof is presented in Appendix A.34. Part (a) shows that the expected return on the debt is tied to a weighted average of the expected returns on the tax, spending, and seigniorage claims. However, the presence of convenience yield introduces a wedge that is increasing in the convenience yield and hence the seigniorage revenue  $K_{t}$ : a higher convenience yield allows the discount rate on the debt to be lower than the weighted average.
@@ -412,7 +412,7 @@ The proof is presented in Appendix A.34. Part (a) shows that the expected return
 However, on the risk domain, we still obtain a tight constraint on how the government insures the taxpayers and the debtholders. As a special case, suppose the government commits to keeping its debt risk-free, i.e.,  $\beta_t^D = 0$ . Then, part (b) simplifies to
 
 $$
-0 = \frac {P _ {t} ^ {T}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {T} + \frac {P _ {t} ^ {K}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {K} - \frac {P _ {t} ^ {G}}{P _ {t} ^ {T} + P _ {t} ^ {K} - P _ {t} ^ {G}} \beta_ {t} ^ {G},
+0 = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{T} + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{K} - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \beta_{t}^{G},
 $$
 
 which means that a higher convenience yield per se does not help with insuring the taxpayers. Instead, a countercyclical convenience yield is needed to allow the government to impose lower taxes and insure the taxpayers in high marginal utility states.
@@ -430,7 +430,7 @@ Since this by itself is not enough, your next business—provided you accept my 
 Propositions 8.2 and 8.3 describe the valuation  $D_{t}$  of the entire government debt portfolio, defined as the sum of individual government bonds' values:
 
 $$
-D _ {t} = \sum_ {h = 1} ^ {H} Q _ {t} (h) P _ {t} (h).
+D_{t} = \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h).
 $$
 
 Let us first consider the determination of these individual government bonds' values. We continue to assume that the government bonds are denominated in local currencies, promise nominal payments, and could potentially default. As the government bonds are
@@ -438,37 +438,37 @@ Let us first consider the determination of these individual government bonds' va
 defaultable, their yields are not necessarily the same as the nominal risk-free rates, which we denote by  $i_t(h)$ . Let us use  $i_t^{Treas}(h)$  to denote the yield of the government debt with maturity  $h$ , which satisfies
 
 $$
-i _ {t} ^ {\text {T r e a s}} (h) \stackrel {{\text {d e f}}} {{=}} - \frac {1}{h} \log P _ {t} (h).
+i_{t}^{\text{Tr ea s}} (h) \stackrel {{\text{de f}}} {{=}} - \frac{1}{h} \log P_{t} (h).
 $$
 
 This government debt yield can be decomposed into a risk-free component, a default spread component, and a convenience yield component:
 
 $$
-i _ {t} ^ {T r e a s} (h) = \rho_ {t} (h) + \delta_ {t} (h) - c _ {t} (h),
+i_{t}^{T r e a s} (h) = \rho_{t} (h) + \delta_{t} (h) - c_{t} (h),
 $$
 
 where the risk-free component reflects the benchmark discount rate implied from the SDF:
 
 $$
-\rho_ {t} (h) \stackrel {\mathrm {d e f}} {=} - \frac {1}{h} \log \mathbb {E} _ {t} [ \exp (M _ {t, t + h}) ],
+\rho_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \log \mathbb {E}_{t} [ \exp (M_{t, t + h}) ],
 $$
 
 the default spread component captures the risk-neutral expectation of sovereign default,
 
 $$
-\delta_ {t} (h) \stackrel {\mathrm {d e f}} {=} - \frac {1}{h} \left(\log \mathbb {E} _ {t} \left[ \exp (M _ {t, t + h}) \prod_ {j = 1} ^ {h} (1 - \chi_ {t + j} ^ {i}) \right] - \log \mathbb {E} _ {t} [ \exp (M _ {t, t + h}) ]\right),
+\delta_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \left(\log \mathbb {E}_{t} \left[ \exp (M_{t, t + h}) \prod_{j = 1}^{h} (1 - \chi_{t + j}^{i}) \right] - \log \mathbb {E}_{t} [ \exp (M_{t, t + h}) ]\right),
 $$
 
 and the convenience yield component captures the wedge between the bond yield and the yield of a hypothetical bond with the same default spread but no Euler equation wedge [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2020c]:
 
 $$
-c _ {t} (h) \stackrel {\text {d e f}} {=} \frac {1}{h} \left(\log \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + h}\right) \prod_ {j = 1} ^ {h} \left(1 - \chi_ {t + j} ^ {i}\right) \exp \left(\lambda_ {t + j - 1} (h - j + 1)\right) \right] - \log \mathbb {E} _ {t} \left[ \exp \left(M _ {t, t + h}\right) \prod_ {j = 1} ^ {h} \left(1 - \chi_ {t + j} ^ {i}\right) \right]\right).
+c_{t} (h) \stackrel {\text{de f}} {=} \frac{1}{h} \left(\log \mathbb {E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \exp \left(\lambda_{t + j - 1} (h - j + 1)\right) \right] - \log \mathbb {E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \right]\right).
 $$
 
 Moreover, while the risk-free rate is risk-free in local currency units, it could carry a currency risk premium. For the case of  $h = 1$ , according to Section 1.B applied to nominal exchange rates  $\mathcal{E}_t$  and interest rates  $\rho_t$  and  $\rho_t^*$ , under joint normality,
 
 $$
-\rho_ {t} = \rho_ {t} ^ {*} - \mathbb {E} _ {t} [ \Delta \mathcal {E} _ {t + 1} ] - \frac {1}{2} v a r _ {t} (\Delta \mathcal {E} _ {t + 1}) - c o v _ {t} (M _ {t + 1} ^ {*}, \Delta \mathcal {E} _ {t + 1}),
+\rho_{t} = \rho_{t}^{*} - \mathbb {E}_{t} [ \Delta \mathcal {E}_{t + 1} ] - \frac{1}{2} v a r_{t} (\Delta \mathcal {E}_{t + 1}) - c o v_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}),
 $$
 
 which implies that the nominal home risk-free rate  $\rho_{t}$  relative to a foreign benchmark  $\rho_{t}^{*}$  is decreasing in the home currency's expected nominal appreciation  $\mathbb{E}_t[\Delta \mathcal{E}_{t + 1}]$ , and increasing in the home currency's risk premium  $RP_{t} = -cov_{t}(M_{t + 1}^{*},\Delta \mathcal{E}_{t + 1}) - \frac{1}{2} var_{t}(\Delta \mathcal{E}_{t + 1})$ .<sup>2</sup> As such, government bonds compensate investors for not only credit risk but also exchange rate risk.
@@ -484,7 +484,7 @@ the intertemporal government budget condition in Propositions 8.2 and 8.3 impose
 All of our results above rely on the transversality condition (8.8), reproduced below:
 
 $$
-\lim _ {k \to \infty} \mathbb {E} _ {t} \left[ \exp (M _ {t, t + k}) D _ {t + k} \right] = 0,
+\lim_{k \to \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = 0,
 $$
 
 which states that the discounted value of future government debt has to converge to zero. If this condition does not hold, then, the market value of debt could exceed the present value of government surpluses, and the gap could potentially be infinite. In this section, we provide two perspectives on this condition.
@@ -502,7 +502,7 @@ of debt strip also converges to zero, and the transversality condition holds.
 The transversality condition is a necessary condition for the optimality of (long-lasting) households' decisions. To derive this result, we consider a set-up similar to the home country in Chapter 1, in which the households maximize expected lifetime utility:
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} u (c _ {t}) \right].
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right].
 $$
 
 Proving the transversality condition in a general way is technically difficult. Here we consider a much narrower class of utility functions, which is adapted from Brock [1982]: the utility function  $u(c)$  is not only monotone increasing in  $c$  and concave, but also bounded from below. Without loss of generality, we can normalize the utility level and assume  $u(c) \geq 0$ . For simplicity in exposition, we also assume that the price level is fixed, so that the nominal risk-free debt is also risk-free in real terms. For interested readers, Ekeland and Scheinkman [1986] provides a more general characterization.
@@ -510,13 +510,13 @@ Proving the transversality condition in a general way is technically difficult. 
 The households can trade the outstanding government debt. Let  $d_{t}$  denote the households' government debt portfolio and let  $\exp(r_{t}^{D})$  denote its nominal return.
 
 $$
-w _ {t} \stackrel {\text {d e f}} {=} c _ {t} + d _ {t} = y _ {t} + d _ {t - 1} \exp \left(r _ {t} ^ {D}\right).
+w_{t} \stackrel {\text{de f}} {=} c_{t} + d_{t} = y_{t} + d_{t - 1} \exp \left(r_{t}^{D}\right).
 $$
 
 The first-order condition (Euler equation) w.r.t.  $d_{t - 1}$  is given by
 
 $$
-u ^ {\prime} \left(c _ {t - 1}\right) = \mathbb {E} _ {t - 1} \left[ \delta u ^ {\prime} \left(c _ {t}\right) \exp \left(r _ {t} ^ {d}\right) \right]. \tag {8.13}
+u^{\prime} \left(c_{t - 1}\right) = \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{d}\right) \right]. \tag {8.13}
 $$
 
 The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for all  $t$ . In general, we need a lower bound on the households' asset position, which is not necessarily zero, so that the households cannot borrow an infinite amount of money for consumption.
@@ -524,7 +524,7 @@ The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for
 We define the households' value function in period  $o$  as
 
 $$
-\psi (w _ {t}, t) = \max  \mathbb {E} _ {0} \left[ \sum_ {s = t} ^ {\infty} \delta^ {s} u (c _ {s}) \right],
+\psi (w_{t}, t) = \max  \mathbb {E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right],
 $$
 
 which can be shown to be concave and differentiable [Benveniste and Scheinkman, 1979, Brock, 1982].
@@ -534,7 +534,7 @@ Given this set-up, let us first consider the special case in which the household
 leaving money on the table, as the remaining wealth will be wasted. Moreover, the no-short-sale constraint also implies that the households cannot finish with negative wealth. Therefore, we can express the finite-period transversality condition as
 
 $$
-\mathbb {E} _ {0} \left[ \delta^ {T} u ^ {\prime} (c _ {T}) d _ {T} \right] = 0.
+\mathbb {E}_{0} \left[ \delta^{T} u^{\prime} (c_{T}) d_{T} \right] = 0.
 $$
 
 The infinite-horizon case has a similar interpretation, though its derivation is more complicated. The following proposition shows that the transversality condition is a necessary condition for the optimality of households' decisions.
@@ -542,7 +542,7 @@ The infinite-horizon case has a similar interpretation, though its derivation is
 Proposition 8.6. Assume that the value function satisfies  $\lim_{t\to \infty}\psi (w_t,t) = 0$ . Then, the optimal solution  $\{c_t\}_{t = 0}^{\infty},\{d_t\}_{t = 0}^{\infty}$  to the households' problem implies the Euler equation (8.13) and the transversality condition
 
 $$
-\lim _ {t \to \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t} \right] = 0.
+\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
 $$
 
 The proof is in Appendix A.35. This proposition shows that the households optimally choose not to "leave money on the table" in the infinite horizon, which means to increase their savings  $d_{t}$  in the government bond portfolio at a rate higher than their discount rate  $\delta^{t}u^{\prime}(c_{t})$ . The households do not borrow an infinite amount of money by short-selling the government debt, either, which is ruled out by the no-short-sale constraint. This result emphasizes that the transversality condition is usually imposed by the households' optimal decision, just like the Euler equation (8.13).
@@ -550,19 +550,19 @@ The proof is in Appendix A.35. This proposition shows that the households optima
 Moreover, while this set-up considers only one type of assets in which households can deposit their savings, the extension to multiple assets is straight-forward. Let  $a_{t}$  denote the households' total savings and  $d_{t}$  denote the households' holdings of one asset that we denote as the government debt. Then, our derivation shows that the transversality condition holds at the portfolio level:
 
 $$
-\lim _ {t \to \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) a _ {t} \right] = 0.
+\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) a_{t} \right] = 0.
 $$
 
 Now, suppose the households' transversality condition for the government debt is violated, i.e.,
 
 $$
-\lim  _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t} \right] > 0.
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] > 0.
 $$
 
 This implies that the households' holdings in other assets are negative in the infinite horizon, i.e.,
 
 $$
-\lim _ {t \to \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) (a _ {t} - d _ {t}) \right] <   0,
+\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) (a_{t} - d_{t}) \right] <   0,
 $$
 
 which violates the no-short-sale constraint. So, the transversality condition also holds at the level of individual assets.
@@ -570,25 +570,25 @@ which violates the no-short-sale constraint. So, the transversality condition al
 Does the presence of bond convenience yields affects the transversality condition? Following Section 4.A, we assume that the households also derive utility directly from holding the government bonds. The utility function is
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} \left(u \left(c _ {t}\right) + v _ {t} \left(d _ {t}\right)\right) \right].
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u \left(c_{t}\right) + v_{t} \left(d_{t}\right)\right) \right].
 $$
 
 We use  $\lambda_{t}$  to denote the convenience yields at time  $t$ , which, as we see in Section 4.A, is determined by the ratio between the marginal utility of bond holding and the marginal utility of consumption:
 
 $$
-\exp (- \lambda_ {t}) = 1 - \frac {v _ {t} ^ {\prime} (d _ {t})}{u ^ {\prime} (c _ {t})}.
+\exp (- \lambda_{t}) = 1 - \frac{v_{t}^{\prime} (d_{t})}{u^{\prime} (c_{t})}.
 $$
 
 Proposition 8.7. In the presence of the bond convenience yield, the optimal solution  $\{c_t\}_{t=0}^{\infty}$ ,  $\{d_t\}_{t=0}^{\infty}$  to the households' problem implies the Euler equation (8.13) and the transversality condition
 
 $$
-\lim _ {t \rightarrow \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t} \exp (- \lambda_ {t}) \right] = 0.
+\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \exp (- \lambda_{t}) \right] = 0.
 $$
 
 When the convenience yield  $\lambda_{t}$  is bounded, we recover the original transversality condition:
 
 $$
-\lim _ {t \to \infty} \mathbb {E} _ {0} \left[ \delta^ {t} u ^ {\prime} (c _ {t}) d _ {t} \right] = 0.
+\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
 $$
 
 The proof is in Appendix A.36. When the bond convenience yield  $\lambda_{t}$  is bounded, we recover the original transversality condition in the presence of the bond convenience yield. In other words, while the bond convenience yield can increase the fiscal backing of the government debt as we show in Proposition 8.3, it does not affect the transversality condition.
@@ -608,7 +608,7 @@ The results we derived so far are general. Next, we illustrate their economic me
 Let  $Y_{t}$  denote the nominal GDP. The GDP growth is i.i.d. and permanent:
 
 $$
-\Delta \log Y _ {t + 1} = X + \sigma \varepsilon_ {t + 1},
+\Delta \log Y_{t + 1} = X + \sigma \varepsilon_{t + 1},
 $$
 
 where  $\varepsilon_{t + 1}$  denotes the innovation to GDP growth that is i.i.d. normally distributed with mean zero and standard deviation one.
@@ -616,7 +616,7 @@ where  $\varepsilon_{t + 1}$  denotes the innovation to GDP growth that is i.i.d
 The log nominal SDF is driven by the same GDP shock
 
 $$
-M _ {t, t + 1} = - i - \frac {1}{2} \gamma^ {2} - \gamma \varepsilon_ {t + 1},
+M_{t, t + 1} = - i - \frac{1}{2} \gamma^{2} - \gamma \varepsilon_{t + 1},
 $$
 
 which implies that a lower GDP growth leads to a higher marginal utility. By the Euler equation for risk-free debt, the one-period log risk-free rate is a constant:  $R^{f} = i$ .
@@ -624,13 +624,13 @@ which implies that a lower GDP growth leads to a higher marginal utility. By the
 Given these specifications, the present value of a GDP strip  $k$  periods from now is
 
 $$
-\mathbb {E} _ {t} [ \exp (M _ {t, t + k}) Y _ {t + k} ] = \exp \left(k (X - i + \frac {1}{2} \sigma^ {2} - \gamma \sigma)\right) Y _ {t},
+\mathbb {E}_{t} [ \exp (M_{t, t + k}) Y_{t + k} ] = \exp \left(k (X - i + \frac{1}{2} \sigma^{2} - \gamma \sigma)\right) Y_{t},
 $$
 
 which converges to zero as  $k \to \infty$  if the discount rate is higher than the GDP growth rate, i.e.,
 
 $$
-i + \gamma \sigma > X + \frac {1}{2} \sigma^ {2}.
+i + \gamma \sigma > X + \frac{1}{2} \sigma^{2}.
 $$
 
 We note that the discount rate is the benchmark risk-free rate  $i$  implied from the SDF plus the risk premium term  $\gamma \sigma$ . The growth rate is the log growth rate  $X$  plus the Jensen's term  $\frac{1}{2} \sigma^2$ .
@@ -640,7 +640,7 @@ We assume that the government commits to issuing one-period risk-free debt. The 
 Then, the government budget constraint (8.1) implies a countercyclical process for the surplus/GDP ratio:
 
 $$
-\frac {S _ {t}}{Y _ {t}} = \frac {T _ {t} - G _ {t}}{Y _ {t}} = - \frac {D _ {t}}{Y _ {t}} + \exp (R ^ {f}) \frac {D _ {t - 1}}{Y _ {t - 1}} \frac {Y _ {t - 1}}{Y _ {t}} = - \bar {\delta} \left(1 - \exp \left(- (X - i + \sigma \varepsilon_ {t})\right)\right).
+\frac{S_{t}}{Y_{t}} = \frac{T_{t} - G_{t}}{Y_{t}} = - \frac{D_{t}}{Y_{t}} + \exp (R^{f}) \frac{D_{t - 1}}{Y_{t - 1}} \frac{Y_{t - 1}}{Y_{t}} = - \bar {\delta} \left(1 - \exp \left(- (X - i + \sigma \varepsilon_{t})\right)\right).
 $$
 
 This result implies that  $\partial (S_t / Y_t) / \partial \varepsilon_t < 0$ . Therefore, to insure the debtholders by keeping its debt risk-free, the government must generate counter-cyclical primary surpluses. In particular, when the GDP declines ( $\varepsilon_t < 0$ ) in recessions, the tax revenue needs to increase as a fraction of GDP or the government spending needs to decrease. The magnitude of the required counter-cyclical response in primary surpluses is increasing in the debt/GDP ratio  $\bar{\delta}$ .
@@ -650,13 +650,13 @@ This result implies that  $\partial (S_t / Y_t) / \partial \varepsilon_t < 0$ . 
 We can evaluate the transversality condition in this fully specified model. In particular, we can show that if the risk premium is high enough to guarantee a finite valuation on the GDP claim, then, the transversality condition holds:
 
 $$
-\lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \exp (M _ {t, t + k}) D _ {t + k} \right] = \lim  _ {k \rightarrow \infty} \mathbb {E} _ {t} \left[ \bar {\delta} \exp (M _ {t, t + k}) Y _ {t + k} \right] = 0.
+\lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \bar {\delta} \exp (M_{t, t + k}) Y_{t + k} \right] = 0.
 $$
 
 Given the transversality condition holds, the government debt value is the sum of the values of the surplus strips:
 
 $$
-D _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (M _ {t, t + k}) S _ {t + k} \right] = \bar {\delta} Y _ {t},
+D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] = \bar {\delta} Y_{t},
 $$
 
 which confirms the assumption that the debt/GDP ratio is a constant.
@@ -666,13 +666,13 @@ which confirms the assumption that the debt/GDP ratio is a constant.
 How do we reconcile the observation that the government surplus  $S_{t}$  and the market value of government debt  $D_{t}$  are both stochastic with the observation that the debt is risk-free? When the transversality condition is satisfied, the debt return innovation reflects news about the present discounted value of future government surpluses:
 
 $$
-D _ {t} \left(\mathbb {E} _ {t + 1} - \mathbb {E} _ {t}\right) \exp \left(R _ {t + 1} ^ {D}\right) = \left(\mathbb {E} _ {t + 1} - \mathbb {E} _ {t}\right) \left[ \sum_ {j = 1} ^ {\infty} \exp \left(M _ {t + 1, t + j}\right) S _ {t + j} \right].
+D_{t} \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \exp \left(R_{t + 1}^{D}\right) = \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp \left(M_{t + 1, t + j}\right) S_{t + j} \right].
 $$
 
 When the debt is risk-free, there is no uncertainty about the debt return:  $(\mathbb{E}_{t + 1} - \mathbb{E}_t)\exp (R_{t + 1}^D) = 0$ . Then, there is no news about the present value of current and future surpluses; technically, we can say that the present value of current and future surpluses in period  $t + 1$  is measurable in period  $t$ :
 
 $$
-\left(\mathbb {E} _ {t + 1} - \mathbb {E} _ {t}\right) \left[ \sum_ {j = 1} ^ {\infty} \exp (M _ {t + 1, t + j}) S _ {t + j} \right] = \left(\mathbb {E} _ {t + 1} - \mathbb {E} _ {t}\right) \left[ D _ {t + 1} + S _ {t + 1} \right] = 0.
+\left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp (M_{t + 1, t + j}) S_{t + j} \right] = \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ D_{t + 1} + S_{t + 1} \right] = 0.
 $$
 
 In other words, the government surplus  $S_{t+1}$  is engineered such that it exactly offsets the variation in the market value of government debt  $D_{t+1}$ , which allows the debt to offer a constant risk-free return. However, as both government debt strip  $D_{t+1}$  and surpluses  $S_{t+1}$  are stochastic, their discount rates need to reflect their risk premia. In particular, as both government surplus and the debt strip is cointegrated with the GDP, the long-term surplus claim or debt claim has the same risk premium as the GDP risk premium.
@@ -682,7 +682,7 @@ In other words, the government surplus  $S_{t+1}$  is engineered such that it ex
 A particularly interesting case in this model is when the risk-free rate is lower than the average GDP growth rate. In our notation,  $i < X$ . In this case, if the Jensen's term  $\frac{1}{2}\sigma^2$  is small enough so that  $i + \frac{1}{2}\sigma^2 < X$ , then, the government can sustain deficits on average:
 
 $$
-\mathbb {E} \left[ \frac {S _ {t}}{Y _ {t}} \right] = - \bar {\delta} \left(1 - \exp \left\{- X + i + \frac {1}{2} \sigma^ {2} \right\}\right) <   0.
+\mathbb {E} \left[ \frac{S_{t}}{Y_{t}} \right] = - \bar {\delta} \left(1 - \exp \left\{- X + i + \frac{1}{2} \sigma^{2} \right\}\right) <   0.
 $$
 
 That said, when the fundamental shock is negative enough  $(X - i < -\sigma \varepsilon_{t})$ , the government still needs to run a primary surplus.
@@ -690,7 +690,7 @@ That said, when the fundamental shock is negative enough  $(X - i < -\sigma \var
 Even though the government runs a deficit on average, the transversality condition can be satisfied if the risk premium  $\gamma \sigma$  on the output claim is large enough:
 
 $$
-i + \gamma \sigma > X + \frac {1}{2} \sigma^ {2}.
+i + \gamma \sigma > X + \frac{1}{2} \sigma^{2}.
 $$
 
 In this case, discounting growing surpluses and future debt at the risk-free rate  $i < X$  would not produce the right answer for the valuation of the current debt.
@@ -706,7 +706,7 @@ Blanchard [2019] interpretation of  $r < g$ . From our perspective, it is precis
 When the transversality condition (8.8) holds, the intertemporal government budget condition (8.6) can be expressed as
 
 $$
-D _ {t} = \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k}\right) T _ {t + k} \right] - \mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp \left(M _ {t, t + k}\right) G _ {t + k} \right]. \tag {8.14}
+D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) T_{t + k} \right] - \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) G_{t + k} \right]. \tag {8.14}
 $$
 
 A fundamental question in finance and macroeconomics is whether the present values of government surpluses on the right-hand side of this equation matches the market value of government debt on the left-hand side. To evaluate the present values on the right-hand side of this equation, we need to know (i) the expected future tax revenues and government spending and (ii) the appropriate discount rates that we assign to these fiscal cash flows. To figure out the expected fiscal cash flows, the data since WW-II suggest that the U.S. on average has similar levels of tax revenue and government spending as fractions of the GDP. If we zoom into the past 15 years, government spending surpassed tax revenue by a large margin. Feeling optimistic, let us assume the U.S. fiscal cash flows will revert to the historical norm over time, which maintains roughly equal tax revenues and government spending on average.
@@ -726,7 +726,7 @@ So far, we have been working with a very general argument that is consistent wit
 To evaluate the present value of government surpluses, i.e.,
 
 $$
-\mathbb {E} _ {t} \left[ \sum_ {k = 1} ^ {\infty} \exp (M _ {t, t + k}) (T _ {t + k} - G _ {t + k}) \right],
+\mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) (T_{t + k} - G_{t + k}) \right],
 $$
 
 we need to model the joint dynamics of the SDF  $M_{t,t + k}$  and the fiscal cash flows  $T_{t + k}$  and  $G_{t + k}$ . Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2019] adopts the affine term structure framework, which
@@ -736,7 +736,7 @@ has been used in various asset pricing settings to understand stock and bond pri
 Specifically, let  $z_{t}$  denote the vector of state variables demeaned by their average value, which includes the interest rates, stock dividends and price/dividend ratios, and the fiscal cash flows. This vector follows a Gaussian first-order VAR:
 
 $$
-z _ {t + 1} = \Psi z _ {t} + u _ {t + 1} = \Psi z _ {t} + \Sigma^ {\frac {1}{2}} \varepsilon_ {t + 1},
+z_{t + 1} = \Psi z_{t} + u_{t + 1} = \Psi z_{t} + \Sigma^{\frac{1}{2}} \varepsilon_{t + 1},
 $$
 
 with the companion matrix  $\Psi$  and homoscedastic innovations  $u_{t + 1}\sim$  i.i.d.  $\mathcal{N}(0,\Sigma)$ . The Cholesky decomposition of the covariance matrix,  $\Sigma = \Sigma^{\frac{1}{2}}\left(\Sigma^{\frac{1}{2}}\right)^{\prime}$ , has non-zero elements on and below the diagonal, so that  $\varepsilon_{t + 1}\sim$  i.i.d.  $\mathcal{N}(0,I)$
@@ -744,13 +744,13 @@ with the companion matrix  $\Psi$  and homoscedastic innovations  $u_{t + 1}\sim
 This VAR setting allows us to model expectations of cash flows. We also choose a flexible SDF that assumes no arbitrage. The log nominal SDF  $M_{t+1}$  is conditionally normal:
 
 $$
-M _ {t + 1} = - i _ {t} (1) - \frac {1}{2} \Lambda_ {t} ^ {\prime} \Lambda_ {t} - \Lambda_ {t} ^ {\prime} \varepsilon_ {t + 1}.
+M_{t + 1} = - i_{t} (1) - \frac{1}{2} \Lambda_{t}^{\prime} \Lambda_{t} - \Lambda_{t}^{\prime} \varepsilon_{t + 1}.
 $$
 
 The real SDF is  $m_{t+1} = M_{t+1} + \pi_{t+1}$ , which is also conditionally normal. The priced sources of risk are the same as the innovations in the state vector  $\varepsilon_{t+1}$ . These innovations are associated with a market price of risk vector  $\Lambda_t$  of the affine form:
 
 $$
-\Lambda_ {t} = \Lambda_ {0} + \Lambda_ {1} z _ {t},
+\Lambda_{t} = \Lambda_{0} + \Lambda_{1} z_{t},
 $$
 
 where  $\Lambda_0$  collects the average prices of risk and  $\Lambda_1$  governs the time variation in risk premia. Asset pricing in this model amounts to taking a stance on the market prices of risk in  $\Lambda_0$  and  $\Lambda_1$ .
@@ -760,7 +760,7 @@ If the state vector  $z_{t}$  contains the short rate, inflation, GDP growth, th
 Let  $i_t(h) \stackrel{\mathrm{def}}{=} (1/h) \log P_t(h)$  denote the nominal risk-free rate with maturity  $h$ . For notational convenience, let  $e_i$  denote the vector  $(0, \dots, 1, \dots, 0)'$  that selects the variable corresponding to the short rate, and let  $i_0(1)$  denote the mean value of the short rate. Then,
 
 $$
-i _ {t} (1) = e _ {i} ^ {\prime} z _ {t} + i _ {0} (1).
+i_{t} (1) = e_{i}^{\prime} z_{t} + i_{0} (1).
 $$
 
 Similarly, let  $e_{\Delta d}, e_x$ , and  $e_{\pi}$  denote vectors that select the variables corresponding to the growth in the dividend/GDP ratio, the real GDP growth, and the inflation, respectively.
@@ -768,19 +768,19 @@ Similarly, let  $e_{\Delta d}, e_x$ , and  $e_{\pi}$  denote vectors that select
 Let  $Div_{t}$  denote the stock dividend strip. The value of the dividend strip of horizon  $h$  is defined as
 
 $$
-P _ {t} ^ {m} (h) = \mathbb {E} _ {t} [ \exp (M _ {t, t + h}) D i v _ {t + h} ],
+P_{t}^{m} (h) = \mathbb {E}_{t} [ \exp (M_{t, t + h}) D i v_{t + h} ],
 $$
 
 and let  $pd_t^m (h)$  denote the price-dividend ratio of the stock market:
 
 $$
-p d _ {t} ^ {m} (h) = \log \left(P _ {t} ^ {m} (h) / D i v _ {t}\right).
+p d_{t}^{m} (h) = \log \left(P_{t}^{m} (h) / D i v_{t}\right).
 $$
 
 Then, the cum-dividend valuation of the stock market can be expressed as
 
 $$
-P V _ {t} ^ {m} = D i v _ {t} \sum_ {h = 0} ^ {\infty} \exp \left(A ^ {m} (h + 1) + B ^ {m} (h + 1) ^ {\prime} z _ {t}\right).
+P V_{t}^{m} = D i v_{t} \sum_{h = 0}^{\infty} \exp \left(A^{m} (h + 1) + B^{m} (h + 1)^{\prime} z_{t}\right).
 $$
 
 Similarly, let  $P_t^\tau(h)$  and  $P_t^g(h)$  denote the price of the tax and spending strips of horizon  $h$ , and let  $pd_t^\tau(h)$  and  $pd_t^g(h)$  denote the price-dividend ratios of the tax and spending strips.
@@ -788,17 +788,17 @@ Similarly, let  $P_t^\tau(h)$  and  $P_t^g(h)$  denote the price of the tax and 
 Proposition 8.8. (a) The nominal yield curve is affine in the state vector:
 
 $$
-i _ {t} (h) = - \frac {A (h)}{h} - \frac {B (h) ^ {\prime}}{h} z _ {t},
+i_{t} (h) = - \frac{A (h)}{h} - \frac{B (h)^{\prime}}{h} z_{t},
 $$
 
 where the coefficients  $A(h)$  and  $B(h)$  satisfy the following recursions:
 
 $$
-A (h + 1) = - i _ {0} (1) + A (h) + \frac {1}{2} B (h) ^ {\prime} \Sigma B (h) - B (h) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0},
+A (h + 1) = - i_{0} (1) + A (h) + \frac{1}{2} B (h)^{\prime} \Sigma B (h) - B (h)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0},
 $$
 
 $$
-B (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + B (h) ^ {\prime} (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}),
+B (h + 1)^{\prime} = - e_{i}^{\prime} + B (h)^{\prime} (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}),
 $$
 
 initialized at  $A(0) = 0$  and  $B(0) = \vec{0}$ .
@@ -806,41 +806,41 @@ initialized at  $A(0) = 0$  and  $B(0) = \vec{0}$ .
 (b) The dividend strip's log price-dividend ratio is also affine in the state vector:
 
 $$
-p d _ {t} ^ {m} (h) = A ^ {m} (h) + B ^ {m} (h) ^ {\prime} z _ {t},
+p d_{t}^{m} (h) = A^{m} (h) + B^{m} (h)^{\prime} z_{t},
 $$
 
 where
 
 $$
-\begin{array}{l} A ^ {m} (h + 1) = - i _ {0} (1) + A ^ {m} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) \\ - \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ \end{array}
+\begin{array}{l} A^{m} (h + 1) = - i_{0} (1) + A^{m} (h) + x_{0} + \pi_{0} + \frac{1}{2} \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ - \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ \end{array}
 $$
 
 $$
-B ^ {m} (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + \left(B ^ {m} (h) + e _ {\Delta d} + e _ {x} + e _ {\pi}\right) ^ {\prime} (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}).
+B^{m} (h + 1)^{\prime} = - e_{i}^{\prime} + \left(B^{m} (h) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}).
 $$
 
 (c) The tax and spending strips' log price-dividend ratios are also affine in the state vector:
 
 $$
-\begin{array}{l} p d _ {t} ^ {\tau} (h) = A ^ {\tau} (h) + B ^ {\tau} (h) ^ {\prime} z _ {t}, \\ p d _ {t} ^ {\mathsf {g}} (h) = A ^ {\mathsf {g}} (h) + B ^ {\mathsf {g}} (h) ^ {\prime} z _ {t}, \\ \end{array}
+\begin{array}{l} p d_{t}^{\tau} (h) = A^{\tau} (h) + B^{\tau} (h)^{\prime} z_{t}, \\ p d_{t}^{\mathsf {g}} (h) = A^{\mathsf {g}} (h) + B^{\mathsf {g}} (h)^{\prime} z_{t}, \\ \end{array}
 $$
 
 where
 
 $$
-\begin{array}{l} A ^ {\tau} (h + 1) = - i _ {0} (1) + A ^ {\tau} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} \left(B ^ {\tau} (h) + e _ {\Delta \tau} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {\tau} (h) + e _ {\Delta \tau} + e _ {x} + e _ {\pi}\right) \\ - \left(B ^ {\tau} (h) + e _ {\Delta \tau} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ \end{array}
+\begin{array}{l} A^{\tau} (h + 1) = - i_{0} (1) + A^{\tau} (h) + x_{0} + \pi_{0} + \frac{1}{2} \left(B^{\tau} (h) + e_{\Delta \tau} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{\tau} (h) + e_{\Delta \tau} + e_{x} + e_{\pi}\right) \\ - \left(B^{\tau} (h) + e_{\Delta \tau} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ \end{array}
 $$
 
 $$
-B ^ {\tau} (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + \left(B ^ {\tau} (h) + e _ {\Delta \tau} + e _ {x} + e _ {\pi}\right) ^ {\prime} \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right),
+B^{\tau} (h + 1)^{\prime} = - e_{i}^{\prime} + \left(B^{\tau} (h) + e_{\Delta \tau} + e_{x} + e_{\pi}\right)^{\prime} \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right),
 $$
 
 $$
-\begin{array}{l} A ^ {g} (h + 1) = - i _ {0} (1) + A ^ {g} (h) + x _ {0} + \pi_ {0} + \frac {1}{2} \left(B ^ {g} (h) + e _ {\Delta g} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma \left(B ^ {g} (h) + e _ {\Delta g} + e _ {x} + e _ {\pi}\right) \\ - \left(B ^ {g} (h) + e _ {\Delta g} + e _ {x} + e _ {\pi}\right) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0}, \\ \end{array}
+\begin{array}{l} A^{g} (h + 1) = - i_{0} (1) + A^{g} (h) + x_{0} + \pi_{0} + \frac{1}{2} \left(B^{g} (h) + e_{\Delta g} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{g} (h) + e_{\Delta g} + e_{x} + e_{\pi}\right) \\ - \left(B^{g} (h) + e_{\Delta g} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}, \\ \end{array}
 $$
 
 $$
-B ^ {g} (h + 1) ^ {\prime} = - e _ {i} ^ {\prime} + \left(B ^ {g} (h) + e _ {\Delta g} + e _ {x} + e _ {\pi}\right) ^ {\prime} (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}).
+B^{g} (h + 1)^{\prime} = - e_{i}^{\prime} + \left(B^{g} (h) + e_{\Delta g} + e_{x} + e_{\pi}\right)^{\prime} (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}).
 $$
 
 The proof is in Appendix A.37. Our key assumption behind this proposition is that the SDF that prices stocks and bonds can also price the fiscal cash flows. As we discussed earlier in Eq. (8.10), any investors who can trade the aggregate government debt portfolio have to agree on how they price the primary surpluses. Moreover, by assuming that there is no market segmentation between the stock and bond markets, we allow the market price of permanent risks implied from the stock market to also inform the pricing of the fiscal cash flows. In other words, we set up the VAR dynamics to allow cointegration between the GDP, the aggregate stock market dividend, and the government tax and spending strips. As a result, the pricing of the long-term fiscal cash flows is governed by the same market prices of risk that price the long-term stock dividends.
@@ -848,13 +848,13 @@ The proof is in Appendix A.37. Our key assumption behind this proposition is tha
 To develop this argument further, let us consider the pricing of infinite-horizon cash flows. In the limit, the nominal yield converges to a certain value, with
 
 $$
-B (\infty) ^ {\prime} = B (\infty) ^ {\prime} \Psi - e _ {i} ^ {\prime} - B (\infty) ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {1},
+B (\infty)^{\prime} = B (\infty)^{\prime} \Psi - e_{i}^{\prime} - B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{1},
 $$
 
 which implies
 
 $$
-B (\infty) ^ {\prime} = - e _ {i} ^ {\prime} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1}.
+B (\infty)^{\prime} = - e_{i}^{\prime} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1}.
 $$
 
 It is useful to interpret  $(\Psi - \Sigma^{\frac{1}{2}}\Lambda_{1})$  as the risk-neutral transition matrix, and then the risk loadings of the infinite-horizon bond are given by the loadings of the one-period bond,  $e_i$ , multiplied with the Leontief inverse of  $(\Psi - \Sigma^{\frac{1}{2}}\Lambda_{1})$ . The same Leontief inverse operator also appeared in the trade network model in Section 3.C, which captures the effects of higher-order connections in the trade network.
@@ -866,35 +866,35 @@ Proposition 8.9. (a) In the infinite horizon, the long-run nominal yield and
 bond expected return are
 
 $$
-\lim  _ {h \rightarrow \infty} i _ {t} (h) = i _ {0} (1) - \frac {1}{2} B _ {t r a n s} ^ {\prime} \Sigma B _ {t r a n s} + B _ {t r a n s} ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0},
+\lim_{h \rightarrow \infty} i_{t} (h) = i_{0} (1) - \frac{1}{2} B_{t r a n s}^{\prime} \Sigma B_{t r a n s} + B_{t r a n s}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0},
 $$
 
 $$
-\lim _ {h \to \infty} \mathbb {E} _ {t} [ \log P _ {t + 1} (h - 1) - \log P _ {t} (h) ] = i _ {0} (1) - \frac {1}{2} B _ {t r a n s} ^ {\prime} \Sigma B _ {t r a n s} + B _ {t r a n s} ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} + B _ {t r a n s} ^ {\prime} (\Psi - I) z _ {t},
+\lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B_{t r a n s}^{\prime} \Sigma B_{t r a n s} + B_{t r a n s}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{t r a n s}^{\prime} (\Psi - I) z_{t},
 $$
 
 where
 
 $$
-B _ {t r a n s} ^ {\prime} \stackrel {d e f} {=} B (\infty) ^ {\prime} = - e _ {i} ^ {\prime} \left(I - \left(\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1}\right)\right) ^ {- 1}.
+B_{t r a n s}^{\prime} \stackrel {d e f} {=} B (\infty)^{\prime} = - e_{i}^{\prime} \left(I - \left(\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1}\right)\right)^{- 1}.
 $$
 
 (b) In the infinite horizon, the expected returns on the dividend, tax, and spending strips are
 
 $$
-\lim  _ {h \to \infty} \mathbb {E} _ {t} [ \log P _ {t + 1} ^ {m} (h - 1) - \log P _ {t} ^ {m} (h) ] = i _ {0} (1) - \frac {1}{2} B _ {p e r m} ^ {\prime} \Sigma B _ {p e r m} + B _ {p e r m} ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} + B _ {p e r m} ^ {\prime} (\Psi - I) z _ {t} + (e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} z _ {t},
+\lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) ] = i_{0} (1) - \frac{1}{2} B_{p e r m}^{\prime} \Sigma B_{p e r m} + B_{p e r m}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{p e r m}^{\prime} (\Psi - I) z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} z_{t},
 $$
 
 where
 
 $$
-B _ {p e r m} ^ {\prime} \stackrel {d e f} {=} (B ^ {m} (\infty) + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} = (- e _ {i} + e _ {\Delta d} + e _ {x} + e _ {\pi}) ^ {\prime} \left(I - (\Psi - \Sigma^ {\frac {1}{2}} \Lambda_ {1})\right) ^ {- 1}.
+B_{p e r m}^{\prime} \stackrel {d e f} {=} (B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} = (- e_{i} + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \left(I - (\Psi - \Sigma^{\frac{1}{2}} \Lambda_{1})\right)^{- 1}.
 $$
 
 The proof is in Appendix A.38. In the language of the permanent and transitory SDF components that we discussed in Section 3.D, the SDF we consider here has a permanent component. In the infinite-horizon limit, it prices the cash flows that contain this permanent risk, including the GDP strip, the stock dividend strip, the tax strip, and the spending strip in a coherent fashion, by assigning the same risk premia to these cash flows. The unconditional expected returns of these strips are given by
 
 $$
-\lim  _ {h \rightarrow \infty} \mathbb {E} \left[ \log P _ {t + 1} ^ {m} (h - 1) - \log P _ {t} ^ {m} (h) \right] - i _ {0} (1) = B _ {\text {p e r m}} ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} - \frac {1}{2} B _ {\text {p e r m}} ^ {\prime} \Sigma B _ {\text {p e r m}}, \tag {8.15}
+\lim_{h \rightarrow \infty} \mathbb {E} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] - i_{0} (1) = B_{\text{pe rm}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{pe rm}}^{\prime} \Sigma B_{\text{pe rm}}, \tag {8.15}
 $$
 
 which is the product of the risk loadings  $B_{perm}^{\prime}\Sigma^{\frac{1}{2}}$  and the market prices of risk  $\Lambda_0$ , plus a second-order Jensen's term.
@@ -902,7 +902,7 @@ which is the product of the risk loadings  $B_{perm}^{\prime}\Sigma^{\frac{1}{2}
 In contrast, this SDF prices the cash flows that do not have the permanent risk, such as the nominal bond, differently. The unconditional bond risk premia are given by
 
 $$
-\lim  _ {h \rightarrow \infty} \mathbb {E} \left[ \log P _ {t + 1} (h - 1) - \log P _ {t} (h) \right] - i _ {0} (1) = B _ {\text {t r a n s}} ^ {\prime} \Sigma^ {\frac {1}{2}} \Lambda_ {0} - \frac {1}{2} B _ {\text {t r a n s}} ^ {\prime} \Sigma B _ {\text {t r a n s}}, \tag {8.16}
+\lim_{h \rightarrow \infty} \mathbb {E} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] - i_{0} (1) = B_{\text{tr an s}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{tr an s}}^{\prime} \Sigma B_{\text{tr an s}}, \tag {8.16}
 $$
 
 which is also the product of the risk loadings  $B_{trans}^{\prime}\Sigma^{\frac{1}{2}}$  and the market prices of risk  $\Lambda_0$ , plus a second-order Jensen's term. Note that Eq. (8.16) is a special case of Eq. (8.15), obtained when the cash flow does not grow, i.e., by setting  $e_{\Delta d} + e_x + e_\pi = 0$ .
@@ -921,13 +921,13 @@ This result echoes Proposition 3.11 in Section 3.D, which shows that the infinit
 Let  $v_{t} = \log (D_{t} / Y_{t})$  denote the log debt/GDP ratio, and let  $sy_{t} = S_{t} / Y_{t}$  denote the surplus/GDP ratio. Let  $\widetilde{r}_{t + 1} = R_{t + 1}^{D} - \pi_{t + 1} - x_{t + 1}$  denote the inflation-and-growth-adjusted debt return. Cochrane [2022] derives a log-linearized return equation implied by the government budget constraint:
 
 $$
-\widetilde {r} _ {t + 1} = \kappa v _ {t + 1} - v _ {t} + s _ {t + 1},
+\widetilde {r}_{t + 1} = \kappa v_{t + 1} - v_{t} + s_{t + 1},
 $$
 
 where  $\kappa = \exp(-\left(R - x - \pi\right))$  is a constant, and  $s_{t+j} = \kappa \cdot s y_{t+j} / \exp(\bar{v})$  is  $\kappa$  times the primary surplus/GDP ratio scaled by the average debt/GDP ratio. This formula is similar to the log-linearization for stock returns in Campbell and Shiller [1988]:
 
 $$
-r _ {t + 1} = \kappa p d _ {t + 1} - p d _ {t} + \Delta d _ {t + 1},
+r_{t + 1} = \kappa p d_{t + 1} - p d_{t} + \Delta d_{t + 1},
 $$
 
 but it allows us to deal with the possibility that the primary surplus  $s_t$  can be negative.
@@ -935,7 +935,7 @@ but it allows us to deal with the possibility that the primary surplus  $s_t$  c
 By iterating this equation forward  $T$  times and taking expectations, we obtain
 
 $$
-v _ {t} = \mathbb {E} _ {t} \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) \right] + \mathbb {E} _ {t} [ \kappa^ {T} v _ {t + T} ],
+v_{t} = \mathbb {E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ],
 $$
 
 which is a linearized version of the intertemporal government budget condition (8.6). It provides a way to evaluate the government debt as a fraction of GDP, i.e.,  $v_{t}$ , based on the expectations of future surpluses  $s_{t+j}$ , future adjusted debt returns  $\widetilde{r}_{t+j}$ , and future debt/GDP level  $v_{t+T}$ .
@@ -943,7 +943,7 @@ which is a linearized version of the intertemporal government budget condition (
 This relationship holds both ex-ante and ex-post. Without taking expectations, we can express this result as a variance decomposition exercise:
 
 $$
-v a r (v _ {t}) = c o v \left(v _ {t}, \sum_ {j = 1} ^ {T} \kappa^ {j - 1} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right)\right) + c o v (v _ {t}, \kappa^ {T} v _ {t + T}),
+v a r (v_{t}) = c o v \left(v_{t}, \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right)\right) + c o v (v_{t}, \kappa^{T} v_{t + T}),
 $$
 
 which states that the debt/GDP ratio varies only because it predicts future surpluses, future returns, or the future debt/GDP ratio.
@@ -951,7 +951,7 @@ which states that the debt/GDP ratio varies only because it predicts future surp
 If we assume that the transversality condition holds, which in this context means  $\lim_{T\to \infty}\mathbb{E}_t[\kappa^T v_{t + T}] = 0$ , then, we obtain
 
 $$
-v _ {t} = \mathbb {E} _ {t} \left[ \sum_ {j = 1} ^ {\infty} \kappa^ {j - 1} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) \right].
+v_{t} = \mathbb {E}_{t} \left[ \sum_{j = 1}^{\infty} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right].
 $$
 
 To implement this model, we could use statistical tools (such as the VAR model or the local projection method) to construct conditional expectations of  $s_{t+j}$  and  $\widetilde{r}_{t+j}$  and build the debt/GDP value from these expectations.
@@ -965,13 +965,13 @@ explained by the variations in the future debt/GDP ratio 10 years later instead 
 One explanation for the result in Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2021c] is biased beliefs. While the econometrician does not expect higher surpluses or lower returns when the debt/GDP ratio rises, bond investors may. More precisely, note that the same linearized decomposition works under the subjective measure, too:
 
 $$
-\begin{array}{l} v _ {t} = \mathbb {F} _ {t} \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) \right] + \mathbb {F} _ {t} [ \kappa^ {T} v _ {t + T} ] \\ = \mathbb {E} _ {t} \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) \right] + \left(\mathbb {F} _ {t} [ \kappa^ {T} v _ {t + T} ] + (\mathbb {F} _ {t} - \mathbb {E} _ {t}) \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} (s _ {t + j} - \widetilde {r} _ {t + j}) \right]\right). \\ \end{array}
+\begin{array}{l} v_{t} = \mathbb {F}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] \\ = \mathbb {E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \left(\mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right]\right). \\ \end{array}
 $$
 
 Then, the transversality term  $\mathbb{E}_t[\kappa^T v_{t + T}]$  under the objective measure can be expressed as
 
 $$
-\mathbb {E} _ {t} [ \kappa^ {T} v _ {t + T} ] = \mathbb {E} _ {t} [ \kappa^ {T} v _ {t + T} ] + (\mathbb {F} _ {t} - \mathbb {E} _ {t}) \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} (s _ {t + j} - \widetilde {r} _ {t + j}) \right],
+\mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] = \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right],
 $$
 
 and the second term  $(\mathbb{F}_t - \mathbb{E}_t)\left[\sum_{j = 1}^T\kappa^{j - 1}(s_{t + j} - \widetilde{r}_{t + j})\right]$  on the right-hand side represents the investors' forecast error. In other words, what the econometrician perceives as transversality condition violation can be explained by the investors' subjective belief errors.
@@ -979,7 +979,7 @@ and the second term  $(\mathbb{F}_t - \mathbb{E}_t)\left[\sum_{j = 1}^T\kappa^{j
 Specifically, if the investors systematically over-predict surpluses or under-predict returns when the debt/GDP ratio increases, this forecast error term can impute a unit root in the debt/GDP ratio under the econometrician's measure  $\mathbb{E}$ . At the same time, under the investors' subjective beliefs measure  $\mathbb{F}$ , the debt/GDP ratio may remain stationary. In this case, we obtain
 
 $$
-\lim _ {T \to \infty} \mathbb {E} _ {t} [ \kappa^ {T} v _ {t + T} ] = \lim _ {T \to \infty} (\mathbb {F} _ {t} - \mathbb {E} _ {t}) \left[ \sum_ {j = 1} ^ {T} \kappa^ {j - 1} (s _ {t + j} - \widetilde {r} _ {t + j}) \right].
+\lim_{T \to \infty} \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] = \lim_{T \to \infty} (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right].
 $$
 
 Let us consider a concrete example that gives a full specification of the debt dynamics under the two measures. For simplicity, we abstract away from variations in growth-adjusted returns by setting  $\widetilde{r}_{t+j} = 0$  under both measures and let  $\kappa = 1$  which is consistent with the primary surplus being zero on average.
@@ -987,19 +987,19 @@ Let us consider a concrete example that gives a full specification of the debt d
 We assume that, under the econometrician's objective measure  $\mathbb{E}$ , the surplus process is stationary and follows an i.i.d. process:
 
 $$
-s _ {t} = \varepsilon_ {t} ^ {\mathbb {E}},
+s_{t} = \varepsilon_{t}^{\mathbb {E}},
 $$
 
 which implies that the debt/output ratio is a random walk:
 
 $$
-v _ {t} = v _ {t - 1} - \varepsilon_ {t} ^ {\mathbb {E}}.
+v_{t} = v_{t - 1} - \varepsilon_{t}^{\mathbb {E}}.
 $$
 
 Therefore, under the econometrician's measure  $\mathbb{E}$ , the debt/output ratio satisfies
 
 $$
-v _ {t} = \mathbb {E} _ {t} \sum_ {j = 1} ^ {T} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) + \mathbb {E} _ {t} v _ {t + T} = \mathbb {E} _ {t} v _ {t + T},
+v_{t} = \mathbb {E}_{t} \sum_{j = 1}^{T} \left(s_{t + j} - \widetilde {r}_{t + j}\right) + \mathbb {E}_{t} v_{t + T} = \mathbb {E}_{t} v_{t + T},
 $$
 
 which is a unit root process. More precisely, if we repeat the regressions in our baseline result, we would find that the variation in the debt/output ratio is  $100\%$  attributable to the transversality term  $\mathbb{E}_t[v_{t + T}]$ , and  $0\%$  to the variations in the surplus and return processes due to the i.i.d. assumption.
@@ -1007,19 +1007,19 @@ which is a unit root process. More precisely, if we repeat the regressions in ou
 Under the investors' subjective measure  $\mathbb{F}$ , the surplus responds to debt level:
 
 $$
-s _ {t} = b v _ {t - 1} + \varepsilon_ {t} ^ {\mathbb {F}},
+s_{t} = b v_{t - 1} + \varepsilon_{t}^{\mathbb {F}},
 $$
 
 with a coefficient  $b > 0$ . Under this measure, the government debt/output ratio is priced according to
 
 $$
-v _ {t} = \mathbb {F} _ {t} \sum_ {j = 1} ^ {T} \left(s _ {t + j} - \widetilde {r} _ {t + j}\right) + \mathbb {F} _ {t} \left[ v _ {t + T} \right] = \mathbb {F} _ {t} \sum_ {j = 1} ^ {T} b v _ {t + j - 1} + \mathbb {F} _ {t} \left[ v _ {t + T} \right] \tag {8.17}
+v_{t} = \mathbb {F}_{t} \sum_{j = 1}^{T} \left(s_{t + j} - \widetilde {r}_{t + j}\right) + \mathbb {F}_{t} \left[ v_{t + T} \right] = \mathbb {F}_{t} \sum_{j = 1}^{T} b v_{t + j - 1} + \mathbb {F}_{t} \left[ v_{t + T} \right] \tag {8.17}
 $$
 
 We conjecture and verify that the law of motion for the debt/output ratio under the subjective measure  $\mathbb{F}$  is
 
 $$
-v _ {t + 1} = \psi v _ {t} + \eta_ {t + 1} ^ {\mathbb {F}}.
+v_{t + 1} = \psi v_{t} + \eta_{t + 1}^{\mathbb {F}}.
 $$
 
 Plug the investors' subjective surplus response into the linearized government budget constraint, we obtain the following solution
@@ -1029,13 +1029,13 @@ $$
 $$
 
 $$
-\eta_ {t + 1} ^ {\mathbb {F}} = - \varepsilon_ {t} ^ {\mathbb {F}}.
+\eta_{t + 1}^{\mathbb {F}} = - \varepsilon_{t}^{\mathbb {F}}.
 $$
 
 In other words, due to their biased belief, the investors think that the debt/output process is stationary with a persistence that is consistent with their expected response of surplus to the debt/output ratio. Therefore, if we take Eq. (8.17) to the limit,
 
 $$
-v _ {t} = \lim  _ {T \rightarrow \infty} \mathbb {F} _ {t} \sum_ {j = 1} ^ {T} b v _ {t + j - 1} + \lim  _ {T \rightarrow \infty} \mathbb {F} _ {t} [ v _ {t + T} ],
+v_{t} = \lim_{T \rightarrow \infty} \mathbb {F}_{t} \sum_{j = 1}^{T} b v_{t + j - 1} + \lim_{T \rightarrow \infty} \mathbb {F}_{t} [ v_{t + T} ],
 $$
 
 we obtain that the variation in the debt/output ratio is  $100\%$  attributable to the expected future surplus  $\lim_{T\to \infty}\mathbb{F}_t\sum_{j = 1}^T bv_{t + j - 1}$ , and  $0\%$  to the transversality term.
@@ -1043,7 +1043,7 @@ we obtain that the variation in the debt/output ratio is  $100\%$  attributable 
 These equations constitute a full specification of the debt dynamics under the two measures, which is mean-reverting according to the investors and has a unit root according to the econometrician. We can rearrange the equations and obtain
 
 $$
-v _ {t} = \mathbb {E} _ {t} v _ {t + T} = 0 + (\mathbb {F} _ {t} - \mathbb {E} _ {t}) \sum_ {j = 1} ^ {T} (s _ {t + j} - \widetilde {r} _ {t + j}),
+v_{t} = \mathbb {E}_{t} v_{t + T} = 0 + (\mathbb {F}_{t} - \mathbb {E}_{t}) \sum_{j = 1}^{T} (s_{t + j} - \widetilde {r}_{t + j}),
 $$
 
 which implies that the valuation of government debt is fully driven by the investors' belief bias  $(\mathbb{F}_t - \mathbb{E}_t)$ , which provides an economic interpretation of the transversality term  $\mathbb{E}_t[v_{t + T}]$  under the econometrician's measure.

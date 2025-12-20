@@ -37,7 +37,7 @@ In this section we will discuss the four basic financial statements and the info
 The balance sheet is a report of the assets, liabilities, and equity of a firm at a point in time, generally at the end of a fiscal quarter or fiscal year. Assets are resources of the business enterprise, which are comprised of current or long-lived assets. How did the company finance these resources? It did so with liabilities and equity. Liabilities are obligations of the business enterprise that must be repaid at a future point in time, whereas equity is the ownership interest of the business enterprise. The relation between assets, liabilities and equity is simple, as reflected in the balance of what is owned and how it is financed, referred to as the accounting identity:
 
 $$
-\text {A s s e t s} = \text {L i a b i l i t i e s} + \text {E q u i t y}
+\text{As se ts} = \text{Li ab il it ie s} + \text{Eq ui ty}
 $$
 
 # Assets
@@ -171,7 +171,7 @@ Because the declining balance methods result in more depreciation sooner, relati
 For this same asset, the sum-of-the-years' digits (SYD) depreciation for the first year is the rate of 10/55, or 18.18\%, applied against the depreciable basis of 1,000,000 - 100,000 = \900,000:
 
 $$
-\mathrm {S Y D f i r s t y e a r} = \900,000(^{10} / _{55}) = \163,636
+\mathrm{SY Df ir st ye ar} = \900,000(^{10} / _{55}) = \163,636
 $$
 
 We calculate the denominator as the "sum of the years":  $10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 55$ . In the second year, the rate is  $9 / 55$  applied against the  $\$ 900,000$ , and so on.

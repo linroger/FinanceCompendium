@@ -320,34 +320,34 @@ Suppose the real rate is  $1 + r$ . Then by delivering one unit of the commodity
 How many units of the next-period commodity does that equation represent? To find the answer, we must divide by the second-period price of the commodity,  $p_2$ . Thus, the second-period quantity is  $p_1(1 + i) / (p_2)$ . This quantity must equal the real rate  $(1 + r)$ :
 
 $$
-(1 + r) = \frac {1 + i}{1 + p ^ {*}}, \tag {15.1}
+(1 + r) = \frac{1 + i}{1 + p^{*}}, \tag {15.1}
 $$ where the denominator of equation (15.1) is from
 
 
 $$
 
-\frac {p _ {1}}{p _ {2}} = \frac {1}{p _ {2} / p _ {1}} = \frac {1}{1 + \left[ \left(p _ {2} - p _ {1}\right) / p _ {1} \right]},
+\frac{p_{1}}{p_{2}} = \frac{1}{p_{2} / p_{1}} = \frac{1}{1 + \left[ \left(p_{2} - p_{1}\right) / p_{1} \right]},
 
 $$ and  $(p_{2} - p_{1}) / p_{1} = p^{*} =$  the percentage rise in the price level over the period of the loan.
 
 Equation (15.1) can be restated in the form
 
 $$
-(1 + i) = (1 + r) (1 + p ^ {*}).
+(1 + i) = (1 + r) (1 + p^{*}).
 $$
 
 Therefore, the nominal gross rate is the product of the gross real rate and 1 plus the rate of inflation. The equation, in turn, implies that
 
-$$ i = r + p ^ {*} + r p ^ {*}.
+$$ i = r + p^{*} + r p^{*}.
 $$
 
 For the most common values of  $r$  and  $p$ , the product of  $r$  and  $p$  is small enough to be neglected, and the equation can be written as
 
-$$ i \approx r + p ^ {*},
+$$ i \approx r + p^{*},
 $$ or
 
 
-$$ r \approx i - p ^ {*}. \tag {15.2}
+$$ r \approx i - p^{*}. \tag {15.2}
 $$
 
 Equation (15.2) is the formula commonly used to compute the ex post real rate of interest, which cannot be observed directly in the market. It is equally common to measure the anticipated or ex ante real rate of interest by replacing  $p$  by anticipated inflation. The ex ante rate differs from the ex post rate because of errors of expectation. It should be clear that the real rate so computed is not necessarily the same as the rate that would clear markets in the economy without inflation, because market imperfections (including taxation and possibly inflation illusion) can alter the real rate. For instance, in the early phase of unanticipated inflation, the real rate typically falls. In other words, besides reflecting fundamental forces (such as saving and productivity), the real rate may also be affected by other forces (such as inflation), especially in the short run.

@@ -24,23 +24,23 @@ Figure 1 Terminal Profit of Long and Short Forward Positions
 
 
 $$
-\pi_ {\text {l o n g f o r w a r d}, T} = S _ {T} - f \tag {1}
+\pi_{\text{lo ng fo rw ar d}, T} = S_{T} - f \tag {1}
 $$ where  $S_{T}$  denotes the future price of the asset and  $f$  denotes the forward price.
 
 
 On the other hand, the profit from a long call position is
 
 $$
-\pi_ {\text {l o n g c a l l} T} = \left\{ \begin{array}{l l} S _ {T} - X - c e ^ {r T}, & \text {i f} S _ {T} \geq X \\ - c e ^ {r T}, & \text {i f} S _ {T} <   X \end{array} \right. \tag {2}
+\pi_{\text{lo ng ca ll} T} = \left\{ \begin{array}{l l} S_{T} - X - c e^{r T}, & \text{if } S_{T} \geq X \\ - c e^{r T}, & \text{if } S_{T} <   X \end{array} \right. \tag {2}
 $$ and from a long put position is
 
 
 $$
-\pi_ {\text {l o n g p u t}, T} = \left\{ \begin{array}{l l} - p e ^ {r T}, & \text {i f} S _ {T} \geq X \\ X - S _ {T} - p e ^ {r T}, & \text {i f} S _ {T} <   X \end{array} \right. \tag {3}
+\pi_{\text{lo ng pu t}, T} = \left\{ \begin{array}{l l} - p e^{r T}, & \text{if } S_{T} \geq X \\ X - S_{T} - p e^{r T}, & \text{if } S_{T} <   X \end{array} \right. \tag {3}
 $$ where  $c$  and  $p$  are the prices of a European-style call and put, respectively;  $X$  is the exercise
 
 
-price or strike price of the option. The opportunity cost of funds (i.e., the risk-free rate of interest) is denoted by  $r$ . Note that the profit functions for the long call and the long put (2) and (3) reflect the fact that the initial option premiums,  $c$  and  $p$ , are carried forward until the option's expiration at the risk-free interest rate. We have lost the opportunity cost of the funds we tied up in buying the option. Conversely, short call and short put positions (i.e.,  $\pi_{\text{short call}}, T = -\pi_{\text{long call}}, T$  and  $\pi_{\text{short put}}, T = -\pi_{\text{long put}}, T$ ) reflect the fact that the option seller receives the premium payment and invests the cash at the risk-free interest rate. The profit function of a long forward position (1) has no interest component since the forward price is a promised payment on day  $T$  rather than a cash outlay today.
+price or strike price of the option. The opportunity cost of funds (i.e., the risk-free rate of interest) is denoted by  $r$ . Note that the profit functions for the long call and the long put (2) and (3) reflect the fact that the initial option premiums,  $c$  and  $p$ , are carried forward until the option's expiration at the risk-free interest rate. We have lost the opportunity cost of the funds we tied up in buying the option. Conversely, short call and short put positions (i.e.,  $\pi_{\text{shortcall}}, T = -\pi_{\text{longcall}}, T$  and  $\pi_{\text{shortput}}, T = -\pi_{\text{longput}}, T$ ) reflect the fact that the option seller receives the premium payment and invests the cash at the risk-free interest rate. The profit function of a long forward position (1) has no interest component since the forward price is a promised payment on day  $T$  rather than a cash outlay today.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/1f69ca951f14224b5b5732001c5198c539913e59f1772813f7fd6c6acdd5739a.jpg)
 Figure 2 Terminal Profit of Long and Short Call Positions
@@ -57,7 +57,7 @@ The second key difference between forwards and options is that the buyer of a fo
 The profit functions of the call and the put show a certain complementarity to the profit function of a forward. Suppose we buy a call and sell a put at the same exercise price. The profit function for the overall position is
 
 $$
-\begin{array}{l} \pi_ {c, T} - \pi_ {p, T} = \left\{ \begin{array}{l l} S _ {T} - X - c e ^ {r T} + p e ^ {r T} & \text {i f} S _ {T} \geq X \\ S _ {T} - X - c e ^ {r T} - p e ^ {r T} & \text {i f} S _ {T} <   X \end{array} \right. \\ = S _ {T} - X - c e ^ {r T} - p e ^ {r T} \\ \end{array}
+\begin{array}{l} \pi_{c, T} - \pi_{p, T} = \left\{ \begin{array}{l l} S_{T} - X - c e^{r T} + p e^{r T} & \text{if } S_{T} \geq X \\ S_{T} - X - c e^{r T} - p e^{r T} & \text{if } S_{T} <   X \end{array} \right. \\ = S_{T} - X - c e^{r T} - p e^{r T} \\ \end{array}
 $$
 
 Now, suppose that we chose the exercise price of the options such that  $X = f - ce^{rT} + pe^{rT}$ . The profit functions of the option portfolio and the long forward position will be exactly the same. If we buy the option portfolio and sell the forward contract, the terminal value of the overall position must be 0. In the absence of costless arbitrage opportunities, the current value of the position must also be equal to 0, and, therefore, the call and put prices must be equal. Buying the call and selling the put (with the exercise price defined as above) is a perfect substitute for buying a forward. Viewed in this way, we can construct virtually any derivatives contract from any of the following pairs of basic instruments: (1) a forward and a call, (2) a forward and a put, and (3) a call and a put.
@@ -79,7 +79,7 @@ Under the continuous rate assumption, both interest cost and noninterest costs/b
 
 Under the continuous rate assumption, the lower price bound of a European-style call option is
 
-$$ c \geq \max  \left(0, S e ^ {- i T} - X e ^ {- r T}\right) \tag {4}
+$$ c \geq \max  \left(0, S e^{- i T} - X e^{- r T}\right) \tag {4}
 $$
 
 The reason that the call price must be greater or equal to 0 is obvious—we do not have to be paid to take on a privilege. The reason the call price must exceed  $Se^{-iT} - Xe^{-rT}$  is less obvious and is derived by means of an arbitrage portfolio. Suppose we form a portfolio by selling  $e^{-iT}$  units of the underlying asset $^2$  and buying a European-style call. In addition, to make sure that we have enough cash on hand to exercise the call at expiration, we buy  $Xe^{-rT}$  in risk-free bonds. The initial investment and terminal values of these positions are shown in Table 1. On day  $T$ , the net terminal value of the portfolio depends on whether the asset price is above or below the exercise price. If the asset price is less than the exercise price (i.e.,  $S_T < X$ ), we let the call expire worthless. We then use the risk-free bonds to buy one unit of the asset to cover the short sale obligation. What remains is  $X - \tilde{S}_T$  which we know is greater than 0. If the asset price is greater than or equal to the exercise price (i.e.,  $S_T \geq X$ ), we exercise the call. This requires a cash payment of  $X$ . Fortunately we have exactly that amount on hand in the form of risk-free bonds. The unit of the asset that we receive upon exercising the call is used to retire the short sale obligation. In this case, the net terminal value is certain to be 0.
@@ -94,7 +94,7 @@ To illustrate, suppose a three-month European-style call option written on a sto
 To test for the possibility of a costless arbitrage profit, substitute the problem parameters into the lower price bound (4), that is,
 
 $$
-4. 2 5 <   \max  [ 0, 7 5 e ^ {- 0. 0 4 (3 / 1 2)} - 7 0 e ^ {- 0. 0 5 (3 / 1 2)} ] = 5. 1 2
+4. 2 5 <   \max  [ 0, 7 5 e^{- 0. 0 4 (3 / 1 2)} - 7 0 e^{- 0. 0 5 (3 / 1 2)} ] = 5. 1 2
 $$
 
 Since the lower bound relation is violated, a costless arbitrage profit of at least  $5.12 - 4.25 = 0.87$  is possible. Since the violation may result from either the call being underpriced or the asset being overpriced, the arbitrage requires buying the call and selling the asset. The appropriate arbitrage trades are provided in Table 1. Substituting the prices and rates,
@@ -113,7 +113,7 @@ $$ where the uppercase  $C$  represents the price of an American-style call opti
 
 
 $$
-C \geq \max  (0, S e ^ {- i t} - X e ^ {- r t}, S - X) \tag {6}
+C \geq \max  (0, S e^{- i t} - X e^{- r t}, S - X) \tag {6}
 $$
 
 This is the same as the lower price bound of the European-style call (4), except that the term  $S - X$  is added within the maximum value operator on the right-hand side. The reason is, of course, that the American-style call cannot sell for less than its immediate early exercise proceeds,  $S - X$ . If  $C < S - X$ , a costless arbitrage profit of  $S - X - C$  can be earned by simultaneously buying the call (and exercising it) and selling the asset.
@@ -124,7 +124,7 @@ As an illustration, suppose a three-month American-style call option written on 
 To test for the possibility of a costless arbitrage profit, substitute the problem information into (6), that is,
 
 $$
-\begin{array}{l} 4. 2 5 <   \max  [ 0, 7 5 e ^ {- 0. 0 4 (3 / 1 2)} \\ - 7 0 e ^ {- 0. 0 5 (3 / 1 2)}, 7 5 - 7 0 ] \\ = \max  (0, 5. 1 2, 5) = 5. 1 2 \\ \end{array}
+\begin{array}{l} 4. 2 5 <   \max  [ 0, 7 5 e^{- 0. 0 4 (3 / 1 2)} \\ - 7 0 e^{- 0. 0 5 (3 / 1 2)}, 7 5 - 7 0 ] \\ = \max  (0, 5. 1 2, 5) = 5. 1 2 \\ \end{array}
 $$
 
 At the current call price of 4.25, two types of arbitrage are possible. A costless arbitrage profit of  $5.00 - 4.25 = 0.75$  is possible simply by buying the call, exercising it, and selling the asset. The amount of this arbitrage profit, however, is less than the arbitrage profit of at least  $5.12 - 4.25 = 0.87$  that can be earned by buying the call, selling the asset, buying risk-free bonds, and holding the portfolio until the call's expiration, as was shown in the previous arbitrage table. Under this second alternative, you earn an immediate profit of 0.87, and have the potential of earning even more if the asset price is below 70 at the option's expiration.
@@ -137,12 +137,12 @@ The structure of the lower price bound of the American-style call (6) can be use
 To identify this set of calls, we must examine the conditions under which the relation
 
 $$
-S e ^ {- i t} - X e ^ {- r t} > S - X
+S e^{- i t} - X e^{- r t} > S - X
 $$ holds. The job is easier if we rearrange the relation to read
 
 
 $$
-S \left(e ^ {- i T} - 1\right) > - X \left(1 - e ^ {- r T}\right) \tag {7}
+S \left(e^{- i T} - 1\right) > - X \left(1 - e^{- r T}\right) \tag {7}
 $$
 
 Since the risk-free interest rate is positive, the expression of the right-hand side is negative. If the left-hand side is positive or zero, the call option holder can always get more by selling his option in the marketplace than by exercising it; so early exercise will never be optimal and the value of the American-style call is equal to the value of the European-style call,  $C = c$ . This condition is met for calls whose underlying asset has a negative or zero noninterest carry rate,  $i \leq 0$ .
@@ -156,7 +156,7 @@ For American-style call options on assets with  $i > 0$  (e.g., stock index port
 
 The lower price bound of a European-style put option is
 
-$$ p \geq \max  \left(0, X e ^ {- r T} - S e ^ {- i T}\right) \tag {8}
+$$ p \geq \max  \left(0, X e^{- r T} - S e^{- i T}\right) \tag {8}
 $$
 
 Again, the reason that the option price must be greater or equal to 0 is obvious—we do not have to be paid to take on a privilege. The reason the put price must exceed the bound,  $Xe^{-rT} - Se^{-iT}$ , is given by the arbitrage trade portfolio in Table 2. If we buy  $e^{-iT}$  units of the asset and a put, and sell  $Xe^{-rT}$  risk-free bonds, the net terminal value of the portfolio is certain to be greater than or equal to 0. If the asset price is less than or equal to the exercise price at the option's expiration (i.e.,  $S_T \leq X$ ), we will exercise the put, delivering the asset and receiving  $X$  in cash. We will then use the exercise proceeds  $X$  to cover our risk-free borrowing obligation. In the event the asset price is greater than the exercise price (i.e.,  $S_T \leq X$ ), we will consider the put expire worthless. We still need to cover our risk-free borrowing, which we do by selling the asset. After repaying our debt, we have  $\tilde{S}_T - X$  remaining.
@@ -167,7 +167,7 @@ For example, a three-month European-style put option written on a stock index po
 To test for the possibility of a costless arbitrage profit, substitute the problem parameters into the lower price bound (8),
 
 $$
-8. 8 0 > \max  [ 0, 7 0 e ^ {- 0. 0 5 (3 / 1 2)} - 6 1 e ^ {- 0. 0 4 (3 / 1 2)} ] = 8. 7 4
+8. 8 0 > \max  [ 0, 7 0 e^{- 0. 0 5 (3 / 1 2)} - 6 1 e^{- 0. 0 4 (3 / 1 2)} ] = 8. 7 4
 $$
 
 At the current price of 8.80, the no-arbitrage condition (8) holds, so no costless arbitrage opportunity exists.
@@ -185,7 +185,7 @@ Table 2 Arbitrage Portfolio Trades Supporting Lower Price Bound of European-Styl
 <table><tr><td></td><td></td><td colspan="2">Value on Day T</td></tr><tr><td>Trades</td><td>Initial Investment</td><td>ST&lt;X</td><td>ST≥X</td></tr><tr><td>Sell asset</td><td>-SE-iT</td><td>ST</td><td>ST</td></tr><tr><td>Buy call option</td><td>-p</td><td>X-ST</td><td>0</td></tr><tr><td>Buy risk-free bonds</td><td>Xe-rT</td><td>-X</td><td>-X</td></tr><tr><td>Net portfolio value</td><td>Xe-rT - SE-iT - p</td><td>0</td><td>ST-X</td></tr></table> where uppercase  $P$  represents the price of an American-style put option with the same exercise price, time to expiration, and underlying asset as the European-style put. The lower price bound of an American-style put option is
 
 
-$$ p \geq \max  \left(0, X e ^ {- r T} - S e ^ {- i T}, X - S\right) \tag {10}
+$$ p \geq \max  \left(0, X e^{- r T} - S e^{- i T}, X - S\right) \tag {10}
 $$
 
 This is the same as the lower price bound of the European-style put (8), except that, because the American-style put may be exercised at any time including now, the exercise proceeds,  $X - S$ , is added within the maximum value operator on the right-hand side. If  $P < X - S$ , a costless arbitrage profit of  $X - S - P$  can be earned by simultaneously buying the put (and exercising it) and buying the asset.
@@ -195,7 +195,7 @@ To illustrate, assume that a three-month American-style put option written on a 
 To test for the possibility of a costless arbitrage profit, substitute the problem information into (10), that is,
 
 $$
-\begin{array}{l} 8. 8 0 <   \max  [ 0, 7 0 e ^ {- 0. 0 5 (3 / 1 2)} \\ \left. - 6 1 e ^ {- 0. 0 4 (3 / 1 2)}, 7 0 - 6 1 \right] \\ = \max  (0, 8. 7 4, 9. 0 0) = 9. 0 0 \\ \end{array}
+\begin{array}{l} 8. 8 0 <   \max  [ 0, 7 0 e^{- 0. 0 5 (3 / 1 2)} \\ \left. - 6 1 e^{- 0. 0 4 (3 / 1 2)}, 7 0 - 6 1 \right] \\ = \max  (0, 8. 7 4, 9. 0 0) = 9. 0 0 \\ \end{array}
 $$
 
 At the current price of 8.80, the no-arbitrage relation (10) is violated, indicating the presence of a costless arbitrage opportunity. Since it is the early exercise condition (third term) on the right-hand side that is violated, you should buy the put (and exercise it) and buy the index portfolio. You would pay 8.80 for the put and 61 for the index portfolio, and receive 70 when you deliver the index portfolio upon exercising the put. The amount of the arbitrage profit is 0.20 and is earned immediately.
@@ -208,7 +208,7 @@ In the case of an American-style call, we found that if the underlying asset had
 
 Perhaps the most important no-arbitrage price relation for options is put-call parity. The put-call parity price relation arises from the simultaneous trades in the call, the put, and the asset. Put-call parity for European-style options is given by
 
-$$ c - p = S e ^ {- i T} - X e ^ {- r T} \tag {11}
+$$ c - p = S e^{- i T} - X e^{- r T} \tag {11}
 $$
 
 The composition of the put-call parity arbitrage portfolio is given in Table 3. A portfolio that consists of a long position of  $e^{-iT}$  units of the asset, a long put, a short call, and a short position of  $Xe^{-rT}$  in risk-free bonds is certain to have a net terminal value of 0. If the terminal asset price is less than or equal to the exercise price of the options (i.e.,  $S_T \leq X$ ), we exercise the put and deliver the asset. The cash proceeds
@@ -231,7 +231,7 @@ Table 4 Perfect Substitutes Implied by European-Style Put-Call Parity
 To test for the possibility of a costless arbitrage profit, substitute the problem parameters into the put-call parity relation (11),
 
 $$
-\begin{array}{l} 5. 0 0 - 4. 5 0 = 0. 5 0 > 7 0 e ^ {- 0. 0 3 (3 / 1 2)} \\ - 7 0 e ^ {- 0. 0 5 (3 / 1 2)} = 0. 3 4 \\ \end{array}
+\begin{array}{l} 5. 0 0 - 4. 5 0 = 0. 5 0 > 7 0 e^{- 0. 0 3 (3 / 1 2)} \\ - 7 0 e^{- 0. 0 5 (3 / 1 2)} = 0. 3 4 \\ \end{array}
 $$
 
 Since the equation does not hold, a costless arbitrage profit is possible. Since the violation may result from either the call being overpriced, the put being underpriced, or the asset being underpriced, the arbitrage will require all three trades: selling the call, buying the put, and buying the asset. Using the trades as set out in Table 3, we get:
@@ -246,12 +246,12 @@ By forming this portfolio, we generate a costless arbitrage profit of 0.16. The 
 The early exercise feature of American-style options complicates the put-call parity relation. The nature of the relation depends on the level of noninterest costs/benefits,  $i$ . Specifically, the put-call parity relations are
 
 $$
-S - X \leq C - P \leq S e ^ {- i T} - X e ^ {- r T} \quad \text {i f} i = 0 \tag {12a}
+S - X \leq C - P \leq S e^{- i T} - X e^{- r T} \quad \text{if } i = 0 \tag {12a}
 $$ and
 
 
 $$
-S e ^ {- i T} - X \leq C - P \leq S - X e ^ {- r T} \quad \text {i f} i > 0 \tag {12b}
+S e^{- i T} - X \leq C - P \leq S - X e^{- r T} \quad \text{if } i > 0 \tag {12b}
 $$
 
 Each inequality in (12a) and in (12b) has a separate set of arbitrage trades. To illustrate, consider (12b), the case in which the asset pays some form of income, say, a stock index portfolio with a constant dividend yield rate, or a foreign currency with a constant foreign risk-free rate of interest. To establish the left-hand side inequality of (12b), consider the arbitrage portfolio trades in Table 5. To generate the table entries, assume the left-hand side inequality of (12b) is reversed. This means the asset price is overpriced, the put is overpriced, and/or the call is underpriced. Thus, the arbitrage portfolio must account for all three possibilities. We should sell the asset, sell the put, buy the call, and buy some risk-free bonds. At the options' expiration, the portfolio is certain to have
@@ -289,7 +289,7 @@ With the no-arbitrage price relations for an underlying asset with a continuous 
 
 The lower price bound of a European-style call option on an asset that makes a single, discrete cash dividend payment during the option's life is
 
-$$ c \geq \max  \left(0, S - I _ {t} e ^ {- r t} - X e ^ {- r T}\right) \tag {13}
+$$ c \geq \max  \left(0, S - I_{t} e^{- r t} - X e^{- r T}\right) \tag {13}
 $$
 
 In this relation,  $I_{t}e^{-rt}$  is the present value of the promised dividend to be received at time  $t$ , where  $t < T$ . The arbitrage trading strategy that supports (13) is: sell the asset, buy a call, and buy risk-free bonds. The initial investment and terminal values are shown in Table 8. The first row in the table represents the short asset position. Today, we collect  $S$ , and, at the option's expiration, the short position must be covered at a cost of  $\tilde{S}_{t}$ . Shorting an asset, however, requires that we pay any dividends on the underlying asset. If we are short a stock and the stock pays a dividend, for example, we are obliged to pay the dividend out of our own pocket. Since the dividend is made during the option's life
@@ -304,7 +304,7 @@ Table 8 Arbitrage Portfolio Trades Supporting Lower Price Bound of European-Styl
 
 A discrete cash dividend payment on the underlying asset affects the early exercise behavior of American-style call options differently than in the continuous carry rate case. In the case of an American-style call written on a stock, it may be optimal to exercise either just prior to the ex-dividend date (when the stock price falls by  $I_{t}$ ) or at expiration. Early exercise between today and the ex-dividend instant and between the ex-dividend instant and expiration are not optimal because the call is worth more alive than dead.[11] The lower price bound of an American-style call is therefore the lower bound of a call expiring at the ex-dividend instant,  $\max(0, S - Xe^{-rt})$ , and the lower bound of the call expiring at expiration,  $\max(0, S - I_{t}e^{-rt} - Xe^{-rT})$ . Combining these two results,
 
-$$ c \geq \max  \left(0, S - X e ^ {- r t}, S - I _ {t} e ^ {- r t} - X e ^ {- r T}\right) \tag {14}
+$$ c \geq \max  \left(0, S - X e^{- r t}, S - I_{t} e^{- r t} - X e^{- r T}\right) \tag {14}
 $$
 
 # Early Exercise of American-Style Call Options
@@ -313,12 +313,12 @@ The last two terms on the right-hand side of (14) provide important guidance in 
 
 
 $$
-S - X e ^ {- r t} <   S - I _ {t} e ^ {- r t} - X e ^ {- r T}
+S - X e^{- r t} <   S - I_{t} e^{- r t} - X e^{- r T}
 $$ an American-style call will not be exercised early. To understand why, rewrite the expression as
 
 
 $$
-I _ {t} <   X [ 1 - e ^ {- r (T - t)} ] \tag {15}
+I_{t} <   X [ 1 - e^{- r (T - t)} ] \tag {15}
 $$
 
 The American-style call will not be exercised early if the cash flow (e.g., dividend or coupon payment) captured by exercising prior to the ex-date is less than the interest implicitly earned by deferring exercise from the ex-date until expiration.
@@ -326,7 +326,7 @@ The American-style call will not be exercised early if the cash flow (e.g., divi
 The logic underlying the relation (15) also applies to the case where there are multiple known dividends paid during the call option's life. Take a stock option, for example. If the  $i$ th dividend is less than the present value of the interest income that can be implicitly earned as a result of deferring the payment of the exercise price until the next dividend payment, that is, if
 
 $$
-I _ {i} <   X \left[ 1 - e ^ {- r \left(t _ {i + 1} - t _ {i}\right)} \right] \tag {16}
+I_{i} <   X \left[ 1 - e^{- r \left(t_{i + 1} - t_{i}\right)} \right] \tag {16}
 $$ exercising just prior to the ith dividend payment will not be optimal. This relation proves useful for simplifying the valuation of long-term stock options. The following example shows that dividend-induced early exercise on a long-term American-style call is most likely to occur just prior to the last dividend payment during the option's life.
 
 
@@ -336,7 +336,7 @@ Whether or not the call may be exercised early depends on the amount of the divi
 
 
 $$
-0. 5 0 <   5 0 [ 1 - e ^ {- 0. 0 5 (1 6 1 / 3 6 5 - 7 0 / 3 6 5)} ] = 0. 6 1 9 4
+0. 5 0 <   5 0 [ 1 - e^{- 0. 0 5 (1 6 1 / 3 6 5 - 7 0 / 3 6 5)} ] = 0. 6 1 9 4
 $$
 
 Hence, the call will not optimally be exercised just prior to the first dividend payment. The same is true for the second and third dividend payments, as shown in the table below.
@@ -346,7 +346,7 @@ Hence, the call will not optimally be exercised just prior to the first dividend
 For the last dividend payment in 353 days, condition (13) is violated, that is,
 
 $$
-0. 5 0 > 5 0 [ 1 - e ^ {- 0. 0 5 (3 6 5 - 3 4 3) / 3 6 5} ] = 0. 1 5 0 5
+0. 5 0 > 5 0 [ 1 - e^{- 0. 0 5 (3 6 5 - 3 4 3) / 3 6 5} ] = 0. 1 5 0 5
 $$
 
 This implies that exercise just prior to the last dividend payment during this option's life may be optimal.
@@ -355,7 +355,7 @@ This implies that exercise just prior to the last dividend payment during this o
 
 The lower price bound for the European-style put option is
 
-$$ p \geq \max  \left(0, X e ^ {- r T} - S + I _ {t} e ^ {- r t}\right) \tag {17}
+$$ p \geq \max  \left(0, X e^{- r T} - S + I_{t} e^{- r t}\right) \tag {17}
 $$
 
 Again, the asset price is reduced by the present value of the promised cash dividend on the asset. Unlike the call, however, the dividend payment increases the lower price bound of the European-style put. Because the put option is the right to sell the underlying asset at a fixed price, a discrete drop in the asset price such as one induced by the payment of a dividend on a stock serves to increase the value of the option. The arbitrage trades driving this relation are buy a put, buy a share of stock, and sell  $I_{t}e^{-rt} + Xe^{-rT}$  risk-free bonds.
@@ -365,7 +365,7 @@ Again, the asset price is reduced by the present value of the promised cash divi
 The lower price bound of the American-style put is
 
 $$
-P \geq \max  (0, X e ^ {- r t} - S + I _ {t} e ^ {- r t}, X - S) \tag {18}
+P \geq \max  (0, X e^{- r t} - S + I_{t} e^{- r t}, X - S) \tag {18}
 $$
 
 The second term on the right-hand side is the present value of the exercise proceeds if the put is exercised just after the dividend payment. This lower price bound is supported by the arbitrage trades listed above for the European-style put. The third term on the right is the exercise proceeds if the put is exercised immediately. If  $P < X - S$ , a costless arbitrage profit can be earned by buying the put and the asset, and then exercising the put. The arbitrage profit is  $X - S - P > 0$ .
@@ -375,12 +375,12 @@ The second term on the right-hand side is the present value of the exercise proc
 The early exercise behavior induced by the discrete cash dividend on the asset is different for the American-style put that it was for the call. If the third term exceeds the second in (18), the put will not be exercised early prior to the payment date. In that period the interest earned on the exercise proceeds of the option is less than the drop in the stock price from the payment of the dividend. For the third term to be larger than the second, that is,
 
 $$
-X e ^ {- r t} - S + I _ {t} e ^ {- r t} > X - S
+X e^{- r t} - S + I_{t} e^{- r t} > X - S
 $$ it must be the case that
 
 
 $$
-I _ {t} > X \left(e ^ {r t} - 1\right) \tag {19}
+I_{t} > X \left(e^{r t} - 1\right) \tag {19}
 $$
 
 In other words, if the amount of the dividend amount exceeds the interest income that will accrue on the cash received if the put is exercised immediately, the put will not optimally be exercised early.
@@ -389,7 +389,7 @@ As in the case of the call, this argument can be generalized to handle the multi
 
 
 $$
-I _ {t} > X \left[ e ^ {r \left(t _ {i} - t _ {i - 1}\right)} - 1 \right] \tag {20}
+I_{t} > X \left[ e^{r \left(t_{i} - t_{i - 1}\right)} - 1 \right] \tag {20}
 $$ the put will not be exercised before the dividend payment, as the illustration below shows.
 
 
@@ -398,7 +398,7 @@ We'll use an example to identify whether an American-style put option with an ex
 Whether or not the put may be exercised early depends on the amount of the dividend payment in relation to the interest income that could be earned if the put were exercised immediately. For the first dividend, compute the values in expression (20), that is,
 
 $$
-0. 5 0 > 5 0 \left[ e ^ {0. 0 5 (7 0 / 3 6 5)} - 1 \right] = 0. 4 8 1 8
+0. 5 0 > 5 0 \left[ e^{0. 0 5 (7 0 / 3 6 5)} - 1 \right] = 0. 4 8 1 8
 $$
 
 This implies that the put will not be exercised before the first dividend payment in 70 days.
@@ -406,7 +406,7 @@ This implies that the put will not be exercised before the first dividend paymen
 The computation for the second dividend is
 
 $$
-0. 5 0 > 5 0 \left[ e ^ {0. 0 5 (1 6 1 / 3 6 5 - 7 0 / 3 6 5)} - 1 \right] = 0. 6 2 7 2
+0. 5 0 > 5 0 \left[ e^{0. 0 5 (1 6 1 / 3 6 5 - 7 0 / 3 6 5)} - 1 \right] = 0. 6 2 7 2
 $$
 
 This implies that the put may be exercised in the period between the first and second dividends. The same is true between the second and third dividends, and the third and fourth dividends, as indicated below. Early exercise after the fourth dividend is paid may also be optimal since no more dividends are paid during the option's life.
@@ -418,7 +418,7 @@ This implies that the put may be exercised in the period between the first and s
 
 Put-call parity for European-style options on assets with discrete noninterest cash flows is
 
-$$ c - p = S - I _ {t} e ^ {- r t} - X e ^ {- r T} \tag {21}
+$$ c - p = S - I_{t} e^{- r t} - X e^{- r T} \tag {21}
 $$
 
 To see this, assume the left-hand side of (21) is less than the right-hand side. If such is the case, an arbitrage profit can be made by selling the asset, selling the put, buying the call, and buying some risk-free bonds. The arbitrage is shown in Table 9. On day  $t$ , the net portfolio value is certain to be 0. The same is true on day  $t$ , when the cash dividend is made. Thus the value at time  $0$ ,  $S - I_{t}e^{-rt} - Xe^{-rT} + p - c$ , represents the arbitrage profit and is positive if the left-hand side of (21) is less than the right-hand side. Since the market cannot be in equilibrium, arbitrage will continue until the net portfolio value goes to 0. When it does, the market is in equilibrium and (21) holds.
@@ -436,7 +436,7 @@ Table 10 Arbitrage Trades Supporting American-Style Put-Call Parity Where the Un
 The put-call parity for American-style options on assets with discrete cash dividends is
 
 $$
-S - I _ {t} e ^ {- r t} - X \leq C - P \leq S - I _ {t} e ^ {- r t} - X e ^ {- r T} \tag {22}
+S - I_{t} e^{- r t} - X \leq C - P \leq S - I_{t} e^{- r t} - X e^{- r T} \tag {22}
 $$
 
 To understand why, we consider each inequality in (22) in turn. The inequality on the left can be derived by considering the values of a portfolio that consists of buying a call, selling a put, selling the stock, and buying  $X + I_{t}e^{-rt}$  in risk-free bonds. Table 10 contains these trades as well as the net portfolio value.

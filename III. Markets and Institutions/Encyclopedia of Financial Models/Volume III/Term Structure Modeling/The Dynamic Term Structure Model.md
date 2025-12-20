@@ -106,7 +106,7 @@ Technically, an arbitrage-free term structure indicates that a portfolio of secu
 
 As a result of assumptions 1 through 3 above, the equation that describes the diffusion process for the movement in the spot rate is given by equation (1)
 
-$$ d r = k (\theta - r) d t + \sigma \sqrt {r} d z \tag {1}
+$$ d r = k (\theta - r) d t + \sigma \sqrt{r} d z \tag {1}
 $$ where
 
 
@@ -121,7 +121,7 @@ $\theta =$  "target" spot rate, which will be expressed as a function of time
 $dt =$  infinitesimal change in time
 
 $$
-\sigma = \text {v o l a t i l i t y} r
+\sigma = \text{vo la ti li ty} r
 $$
 
 $dz =$  infinitesimal change in the random variable  $z$  (a characterization of the Weiner process)
@@ -160,7 +160,7 @@ The calculation of the probabilities is made possible by assuming a specific mat
 As a consequence of assumptions 4 and 5 (the price of a default-free discount bond depends continuously on the spot rate), it can be shown that the price of a discount bond of term  $T$  is expressed as
 
 $$
-\frac {\partial P}{\partial t} = r P - \left[ k (\theta - r) + \lambda \sigma r \right] \frac {\partial P}{\partial r} - \frac {1}{2} \sigma^ {2} r \frac {\partial^ {2} P}{\partial r ^ {2}} \tag {2}
+\frac{\partial P}{\partial t} = r P - \left[ k (\theta - r) + \lambda \sigma r \right] \frac{\partial P}{\partial r} - \frac{1}{2} \sigma^{2} r \frac{\partial^{2} P}{\partial r^{2}} \tag {2}
 $$ where
 
 
@@ -183,13 +183,13 @@ A development of the bond-price valuation model (for the zero-coupon bond) follo
 
 Equation (1) describes the process for the propagation of the spot rate and is given by
 
-$$ d r = k (\theta - r) d t + \sigma \sqrt {r} d z
+$$ d r = k (\theta - r) d t + \sigma \sqrt{r} d z
 $$
 
 If we assume that  $P$  is a function of the two variables  $r$  and  $t$  expressed as the following  $P = P(r,t)$ , then Ito's lemma (see Shreve, 2004) provides that
 
 $$
-\begin{array}{l} d P = \left[ k (\theta - r) \frac {\partial P}{\partial r} + \frac {\partial P}{\partial t} + \frac {1}{2} \sigma^ {2} r \frac {\partial^ {2} P}{\partial r ^ {2}} \right] d t \\ + \sigma \sqrt {r} \frac {\partial P}{\partial r} d z \\ \end{array}
+\begin{array}{l} d P = \left[ k (\theta - r) \frac{\partial P}{\partial r} + \frac{\partial P}{\partial t} + \frac{1}{2} \sigma^{2} r \frac{\partial^{2} P}{\partial r^{2}} \right] d t \\ + \sigma \sqrt{r} \frac{\partial P}{\partial r} d z \\ \end{array}
 $$
 
 To apply the principal of an arbitrage-free term structure, consider the representation of evolutions of the price to be
@@ -199,43 +199,43 @@ $$ where
 
 
 $$
-\mu = \frac {1}{P} \left[ a \frac {\partial P}{\partial r} + \frac {\partial P}{\partial t} + \frac {1}{2} b ^ {2} \frac {\partial^ {2} P}{\partial r ^ {2}} \right]
+\mu = \frac{1}{P} \left[ a \frac{\partial P}{\partial r} + \frac{\partial P}{\partial t} + \frac{1}{2} b^{2} \frac{\partial^{2} P}{\partial r^{2}} \right]
 $$
 
 $$
-\rho = - \frac {1}{P} b \frac {\partial P}{\partial r}
+\rho = - \frac{1}{P} b \frac{\partial P}{\partial r}
 $$
 
 Any security  $W_{i}$  with maturity  $s_i$  is subject to the same relationship such that
 
-$$ d W _ {i} = \mu_ {i} W _ {i} d t - \rho_ {i} W _ {i} d z
+$$ d W_{i} = \mu_{i} W_{i} d t - \rho_{i} W_{i} d z
 $$
 
 Consider a portfolio  $W$  consisting of owning an amount of  $W_{1}$  and shorting an amount of  $W_{2}$  such that
 
 $$
-W = W _ {2} - W _ {1}
+W = W_{2} - W_{1}
 $$ where
 
 
 $$
-W _ {2} = \left[ \frac {\rho_ {1}}{\rho_ {1} - \rho_ {2}} \right] W
+W_{2} = \left[ \frac{\rho_{1}}{\rho_{1} - \rho_{2}} \right] W
 $$ and
 
 
 $$
-W _ {1} = \left[ \frac {\rho_ {2}}{\rho_ {1} - \rho_ {2}} \right] W
+W_{1} = \left[ \frac{\rho_{2}}{\rho_{1} - \rho_{2}} \right] W
 $$
 
 Thus
 
-$$ d W = d W _ {2} - d W _ {1}
+$$ d W = d W_{2} - d W_{1}
 $$
 
 Substituting for  $dW_{1}$  and  $dW_{2}$  yields
 
 $$
-\begin{array}{l} d W = \left[ \frac {\mu_ {1} \rho_ {2}}{\rho_ {1} - \rho_ {2}} \right] W d t - \left[ \frac {\rho_ {2} \rho_ {1}}{\rho_ {1} - \rho_ {2}} \right] W d z \\ - \left[ \frac {\mu_ {1} \rho_ {2}}{\rho_ {1} - \rho_ {2}} \right] W d z + \left[ \frac {\rho_ {1} \rho_ {2}}{\rho_ {1} - \rho_ {2}} \right] W d z \\ = \left[ \frac {\mu_ {2} \rho_ {1} - \mu_ {1} \rho_ {2}}{\rho_ {1} - \rho_ {2}} \right] W d t \\ \end{array}
+\begin{array}{l} d W = \left[ \frac{\mu_{1} \rho_{2}}{\rho_{1} - \rho_{2}} \right] W d t - \left[ \frac{\rho_{2} \rho_{1}}{\rho_{1} - \rho_{2}} \right] W d z \\ - \left[ \frac{\mu_{1} \rho_{2}}{\rho_{1} - \rho_{2}} \right] W d z + \left[ \frac{\rho_{1} \rho_{2}}{\rho_{1} - \rho_{2}} \right] W d z \\ = \left[ \frac{\mu_{2} \rho_{1} - \mu_{1} \rho_{2}}{\rho_{1} - \rho_{2}} \right] W d t \\ \end{array}
 $$
 
 Since the stochastic element  $dz$  disappears, the rate of return on the portfolio  $W$  is equal to the riskless rate  $r$ . Therefore,
@@ -244,68 +244,68 @@ $$ d W = r W d t
 $$ where we see it must be that
 
 
-$$ r = \frac {\mu_ {2} \rho_ {1} - \mu_ {1} \rho_ {2}}{\rho_ {1} - \rho_ {2}}
+$$ r = \frac{\mu_{2} \rho_{1} - \mu_{1} \rho_{2}}{\rho_{1} - \rho_{2}}
 $$
 
 This gives the following relationship
 
-$$ r \rho_ {1} - r \rho_ {2} = \mu_ {2} \rho_ {1} - \mu_ {1} \rho_ {2}
+$$ r \rho_{1} - r \rho_{2} = \mu_{2} \rho_{1} - \mu_{1} \rho_{2}
 $$ or, equivalently,
 
 
 $$
-\frac {\mu_ {2} - r}{\rho_ {2}} = \frac {\mu_ {1} - r}{\rho_ {1}}
+\frac{\mu_{2} - r}{\rho_{2}} = \frac{\mu_{1} - r}{\rho_{1}}
 $$
 
 Since the maturities  $s_1$  and  $s_2$  were chosen arbitrarily, the above is true for any maturity  $s$ . Therefore, the term
 
 $$
-\frac {\mu - r}{\rho}
+\frac{\mu - r}{\rho}
 $$ is not a function of maturity and may be written as
 
 
 $$
-\frac {\mu - r}{\rho} = q (t, r)
+\frac{\mu - r}{\rho} = q (t, r)
 $$ where  $q(t,r)$  is the market price of risk.
 
 
 Applying separation of variables, we choose  $q(t,r)$  to be the following
 
-$$ q (t, r) = \lambda (t) \sqrt {r}
+$$ q (t, r) = \lambda (t) \sqrt{r}
 $$ where  $\lambda (t)$  is the risk premium, which can be shown to be
 
 
 $$
-\lambda (t) = \frac {1}{2} \frac {\sigma}{k} \left[ 1 - e ^ {- k t} \right]
+\lambda (t) = \frac{1}{2} \frac{\sigma}{k} \left[ 1 - e^{- k t} \right]
 $$
 
 (As the term extends, the premium is higher.) We see, therefore, that
 
 $$
-\frac {\mu - r}{\rho} = q (t, r) \Rightarrow \mu = r + \lambda (t) \sqrt {r} \rho
+\frac{\mu - r}{\rho} = q (t, r) \Rightarrow \mu = r + \lambda (t) \sqrt{r} \rho
 $$ or that the expected return of a bond is equal to the riskless rate plus another term related to the risk premium.
 
 
 With  $\rho = -\frac{1}{P} b\frac{\partial P}{\partial r}$ , the above becomes
 
 $$
-\mu = r + \lambda \sqrt {r} \left(- \sigma \sqrt {r} \frac {\partial P}{\partial r} \frac {1}{P}\right)
+\mu = r + \lambda \sqrt{r} \left(- \sigma \sqrt{r} \frac{\partial P}{\partial r} \frac{1}{P}\right)
 $$
 
 Substituting the above into  $dP = \mu Pdt - \rho Pdz$  gives (where  $\frac{\partial P}{\partial r} < 0$ )
 
-$$ d P = \left(r - \lambda \sigma r \frac {\partial P}{\partial r} \frac {1}{P}\right) P d t - \rho P d z
+$$ d P = \left(r - \lambda \sigma r \frac{\partial P}{\partial r} \frac{1}{P}\right) P d t - \rho P d z
 $$
 
 Equating the coefficients of  $dt$  between the above and
 
 $$
-\begin{array}{l} d P = \left[ k (\theta - r) \frac {\partial P}{\partial r} + \frac {\partial P}{\partial t} + \frac {1}{2} \sigma^ {2} r \frac {\partial^ {2} P}{\partial r ^ {2}} \right] d t \\ + \sigma \sqrt {r} \frac {\partial P}{\partial r} d z \\ \end{array}
+\begin{array}{l} d P = \left[ k (\theta - r) \frac{\partial P}{\partial r} + \frac{\partial P}{\partial t} + \frac{1}{2} \sigma^{2} r \frac{\partial^{2} P}{\partial r^{2}} \right] d t \\ + \sigma \sqrt{r} \frac{\partial P}{\partial r} d z \\ \end{array}
 $$ gives
 
 
 $$
-\frac {\partial P}{\partial t} = r P - [ k (\theta - r) + \lambda \sigma r ] \frac {\partial P}{\partial r} - \frac {1}{2} \sigma^ {2} r \frac {\partial^ {2} P}{\partial r ^ {2}}
+\frac{\partial P}{\partial t} = r P - [ k (\theta - r) + \lambda \sigma r ] \frac{\partial P}{\partial r} - \frac{1}{2} \sigma^{2} r \frac{\partial^{2} P}{\partial r^{2}}
 $$ where, at maturity, we have the boundary condition
 
 
@@ -318,17 +318,17 @@ This completes the derivation of equation (2).
 Next, if we assume a separation of variables for  $P(r,t)$  of the form
 
 $$
-P (r, t) = \exp {[ C (t) - B (t) r ]}
+P (r, t) = \exp{[ C (t) - B (t) r ]}
 $$ it can be derived that the target spot rate,  $\theta (t)$  is of the form
 
 
 $$
-\theta (t _ {0} + T) = - \frac {d}{d T} \ln d (t _ {0}, T) - \frac {1}{k} \frac {d ^ {2}}{d T ^ {2}} \ln d (t _ {0}, T)
+\theta (t_{0} + T) = - \frac{d}{d T} \ln d (t_{0}, T) - \frac{1}{k} \frac{d^{2}}{d T^{2}} \ln d (t_{0}, T)
 $$ or
 
 
 $$
-\theta \left(t _ {0} + T\right) = F \left(t _ {0}, t _ {0} + T\right) + \frac {1}{k} \frac {d}{d T} F \left(t _ {0}, t _ {0} + T\right)
+\theta \left(t_{0} + T\right) = F \left(t_{0}, t_{0} + T\right) + \frac{1}{k} \frac{d}{d T} F \left(t_{0}, t_{0} + T\right)
 $$ which will provide a solution to equation (2) that will exactly reprice the reference set where the discount function  $d(t_0, T)$  and the forward rates  $F(t_0, t_0 + T)$  are derived from the reference set using spline functions. Furthermore, this property is true for all volatilities when the above-specified risk premium is used.
 
 
@@ -394,7 +394,7 @@ The basic premise underlying the shocked and/or shifted horizon yield curve is t
 The financial markets can be viewed as a "game" with bids and offers between participants. To characterize fairness among the participants, the concept of a martingale (from probability theory) is introduced. Briefly, a martingale  $M(t)$  is a stochastic process with finite first moment for any  $t$  and where
 
 $$
-E \left[ M (s) \mid F _ {t} \right] = M (t) \text {f o r} s > t
+E \left[ M (s) \mid F_{t} \right] = M (t) \text{fo r} s > t
 $$ with  $F_{t}$  denoting that the conditioning is on a given filtration or data set. Additionally, a portfolio may be thought of as a quantity vector representing a particular set of positions (Øksendal, 2007). If the market is fair, then the discounted future value of any portfolio should be the same as today's portfolio value when an appropriate discounting methodology is employed. However, in the objective (or real) world, equipped with the real-world measure, discount functions vary according to individual risk preferences, each associated with its own sector/market consensus. It is tedious to quantify these preferences for every case. So, instead of working under the real-world measure, we seek to explore an artificial probability measure under which every situation is risk-neutral. This probability measure is called the risk-neutral measure.
 
 
@@ -406,7 +406,7 @@ Heath, Jarrow, and Morton (1992) proposed a general condition for no-arbitrage u
 
 
 $$
-F (t, T) := - \frac {\partial \ln B (t , T)}{\partial T}
+F (t, T) := - \frac{\partial \ln B (t , T)}{\partial T}
 $$ where  $B(t,T)$  is the zero-coupon bond price at time t and maturity  $T$ . This stochastic process is usually written in a differential form
 
 
@@ -415,13 +415,13 @@ $$ where  $\alpha$  and  $\sigma$  satisfy the usual conditions for an Ito proce
 
 
 $$
-\begin{array}{l} \frac {d B (t , T)}{B (t , T)} = \left[ F (t, t) - \int_ {t} ^ {T} \alpha (t, u) d u \right. \\ \left. + \frac {1}{2} \left(\int_ {t} ^ {T} \sigma (t, u) d u\right) ^ {2} \right] d t \\ - \int_ {t} ^ {T} \sigma (t, u) d u d W (t) \\ \end{array}
+\begin{array}{l} \frac{d B (t , T)}{B (t , T)} = \left[ F (t, t) - \int_{t}^{T} \alpha (t, u) d u \right. \\ \left. + \frac{1}{2} \left(\int_{t}^{T} \sigma (t, u) d u\right)^{2} \right] d t \\ - \int_{t}^{T} \sigma (t, u) d u d W (t) \\ \end{array}
 $$
 
 Details can be found in Shreve (2004). Also, the money market account can be written as
 
 $$
-\begin{array}{l} \frac {d M (t)}{M (t)} = F (t, t) d t \text {(o r e q u i v a l e n t l y ,} \\ M (t) = e ^ {J _ {0} ^ {t} F (u, u) d u}) \\ \end{array}
+\begin{array}{l} \frac{d M (t)}{M (t)} = F (t, t) d t \text{(or eq ui va le nt ly ,} \\ M (t) = e^{J_{0}^{t} F (u, u) d u}) \\ \end{array}
 $$
 
 A discount factor,  $D(t) = M^{-1}(t)$ , is defined similarly. A variation of this setting is one where we use the notation  $T$  to represent time-to-maturity (also called term). This alternative model is closer to the market reality because the curve won't shorten and will validate rolling-over trading strategies. For simplicity we set  $T$  to be maturity in the rest of this entry.
@@ -430,18 +430,18 @@ Let's first assume the existence of a risk-neutral probability measure, which is
 
 
 $$
-\widehat {E} \left[ \frac {d B (t , T)}{B (t , T)} | F _ {t} \right] = F (t, t) d t
+\widehat {E} \left[ \frac{d B (t , T)}{B (t , T)} | F_{t} \right] = F (t, t) d t
 $$ where the expectations  $\hat{E}[]$  is taken under this risk-neutral measure. Therefore the discounted bond-price processes  $D(t)B(t,T)$  is a martingale for all  $T$ , that is,
 
 
 $$
-\tilde {E} [ D (s) B (s, T) | F _ {t} ] = D (t) B (t, T) \text {f o r} t \leq s \leq T
+\tilde {E} [ D (s) B (s, T) | F_{t} ] = D (t) B (t, T) \text{fo r} t \leq s \leq T
 $$
 
 This hypothesis also implies that the short rate evolves along today's instantaneous forward rate curve. Refer to Björk (2009) or Shreve (2004) for more details. Based on the martingale property we can then derive the HJM no-arbitrage condition shown in Heath et al. (1992) that
 
 $$
-\alpha (t, T) = \sigma (t, T) \int_ {t} ^ {T} \sigma (t, u) d u
+\alpha (t, T) = \sigma (t, T) \int_{t}^{T} \sigma (t, u) d u
 $$
 
 That is, the drift term of the instantaneous forward-rate curve process is tightly defined by the volatility term. This remarkable result tells us that only volatilities matter when modeling interest rates under a risk-neutral measure. Since the martingale property is imposed on all zero-coupon bonds to ensure fairness, arbitrage trades are precluded. If a pricing model is designed only for a derivatives pricing purpose, further investigation on risk premium is not necessary. This is an important point. For once the HJM no-arbitrage condition is applied to a particular model, the existence of a risk-neutral measure is assumed and the risk premium is zero. Nonetheless, not every modeler appreciates the consequence of ignoring the risk premium—especially when an asset and its derivative are priced congruently. For example, mortgage-backed derivatives usually involve prepayment statistics, which cannot be quantified under a risk-neutral measure, and the risk premium is usually given exogenously. The answer of which model should be used is based on the modeler's discretion involving calibration, implementation, and market assumptions, which we will talk about a bit more below.
@@ -451,12 +451,12 @@ That is, the drift term of the instantaneous forward-rate curve process is tight
 Let the market price of risk be denoted by  $\Theta (t)$  By the HJM no-arbitrage condition
 
 $$
-\alpha (t, T) - \sigma (t, T) \Theta (t) = \sigma (t, T) \int_ {t} ^ {T} \sigma (t, u) d u
+\alpha (t, T) - \sigma (t, T) \Theta (t) = \sigma (t, T) \int_{t}^{T} \sigma (t, u) d u
 $$ which shows that the risk premium can be written as
 
 
 $$
-\Theta (t) = \frac {\alpha (t , T)}{\sigma (t , T)} - \int_ {t} ^ {T} \sigma (t, u) d u
+\Theta (t) = \frac{\alpha (t , T)}{\sigma (t , T)} - \int_{t}^{T} \sigma (t, u) d u
 $$
 
 If  $\Theta$  exists, then the market is arbitrage-free. Moreover if  $\Theta$  is unique, then the market is complete. For a multifactor model, completeness can be shown by nonsingularity of the volatility matrix. A remark can be made here that risk premiums are determined endogenously by the HJM no-arbitrage condition following from the local expectations hypothesis. This market price of risk identified in the HJM model is, however, a constant function of all maturities. The lack of flexibility limits the interest rate curve evolution under the real-world measure. In other words, if the curve dynamic is initially set up under a risk-neutral measure, then  $\Theta(t)$  is usually impossible to find so that the "model-derived" real-world interest rates could satisfy the "real" real-world statistics.
@@ -466,7 +466,7 @@ If  $\Theta$  exists, then the market is arbitrage-free. Moreover if  $\Theta$  
 When the market is assumed to be arbitrage-free and complete, zero-coupon bonds can then be derived under a unique risk-neutral measure that
 
 $$
-\frac {d B (t , T)}{B (t , T)} = F (t, t) d t - \int_ {t} ^ {T} \sigma (t, u) d u d \tilde {W} (t)
+\frac{d B (t , T)}{B (t , T)} = F (t, t) d t - \int_{t}^{T} \sigma (t, u) d u d \tilde {W} (t)
 $$
 
 The rate of return for any bond is the same as the short rate; nonetheless, the bond-price process is not Markov for a general forward-rate model. This result is critical when it comes to derivatives pricing since Monte Carlo simulation is often the only approach, and it can be slow and imprecise. Furthermore, no closed-form solution for bond dynamics can be given, thus there is no closed-form solution for bond derivatives. Besides the computational issues due to the complexity in bond dynamics, the HJM framework cannot be used for lognormally distributed forward rates since, under the continuous compounding environment, the process "explodes" with positive probability. Therefore, practitioners seek eclectic methods to resolve the issues. A powerful tool invented for interest-rate derivatives pricing is the technique of "changing the numeraire," discussed next.
@@ -477,7 +477,7 @@ The rate of return for any bond is the same as the short rate; nonetheless, the 
 The numeraire is a traded asset used for measuring value. Given a numeraire, all other prices are measured relative to this asset. In general, risk-neutral measures can have various forms in terms of different numeraires. For instance, if a money market account is used as a numeraire, it is the tradition risk-neutral measure as we see in the Black-Scholes option pricing setting. In a traditional risk-neutral world, the general evaluation form is written as
 
 $$
-V (t) = \hat {E} [ D (T) V (T) | F _ {t} ]
+V (t) = \hat {E} [ D (T) V (T) | F_{t} ]
 $$ where  $V(T)$  is the payoff of a contingent claim maturing at time  $T$ , and  $V(0)$  is its price at time 0. Normally interest rates and underlying assets are assumed to be uncorrelated. This assumption makes the evaluation of the expectations above easier, but it is obviously invalid when a derivative  $V$  is based on interest rates. Further investigation in separating the derivative value process and the discount factor has been established by Geman et al. (1995).
 
 
@@ -485,7 +485,7 @@ In a traditional risk-neutral world, every discounted traded-asset price process
 
 
 $$
-V (t) = B (t, T) E ^ {T} \left[ V (s) | F _ {t} \right]
+V (t) = B (t, T) E^{T} \left[ V (s) | F_{t} \right]
 $$ where  $E^T[]$  is the expectation under the  $T$ -forward risk-neutral measure. When the money market account is used as the numeraire, this adjustment to the drift term is unnecessary since the money market account process has zero volatility. In this new pricing equation the discount factor is taken out of the bracket and replaced with the zero-coupon bond discount. Therefore, the expectation is performed solely on the derivative  $V$ .
 
 
@@ -494,18 +494,18 @@ $$ where  $E^T[]$  is the expectation under the  $T$ -forward risk-neutral measu
 For practitioners, the continuous compounding framework is unnecessary since most interest rates, such as LIBOR, for example, have only 1-week, 1-month, 3-month, 6-month, and 1-year investing intervals. Therefore, adopting the general no-arbitrage condition under the HJM framework, Brace et al. (1997) created a model for simple forward rates, which are compounded under a discrete-time framework. Based on the change of numeraire technique, forward rate processes are martingales under specific forward risk-neutral measures. This phenomenon can be justified via analyzing a bond portfolio used to create the payoff of a forward rate agreement: Let  $\hat{F}(t,T,T + \tau)$  denote the process of a simple forward rate for the period  $[t,T]$  with tenor  $\tau$ . Then
 
 $$
-\hat {F} (t, T, T + \tau) = \frac {B (t , T) - B (t , T + \tau)}{\tau B (t , T + \tau)}
+\hat {F} (t, T, T + \tau) = \frac{B (t , T) - B (t , T + \tau)}{\tau B (t , T + \tau)}
 $$
 
 Here  $B(t,T + \tau)$  serves as the numeraire and transforms the traditional risk-neutral probability into a forward risk-neutral probability. By Ito's lemma, the forward rate dynamic can therefore be written as
 
 $$
-\frac {d \hat {F} (t , T , T + \tau)}{\hat {F} (t , T , T + \tau)} = \gamma (t, T, T + \tau) d \tilde {W} ^ {T + \tau} (t)
+\frac{d \hat {F} (t , T , T + \tau)}{\hat {F} (t , T , T + \tau)} = \gamma (t, T, T + \tau) d \tilde {W}^{T + \tau} (t)
 $$ where
 
 
 $$
-\begin{array}{l} \gamma (t, T, T + \tau) = \frac {1 + \tau \hat {F} (t , T , T + \tau)}{\tau \hat {F} (t , T , T + \tau)} \\ \times \left[ \int_ {T} ^ {T + \tau} \sigma (t, u) d u \right] \\ \end{array}
+\begin{array}{l} \gamma (t, T, T + \tau) = \frac{1 + \tau \hat {F} (t , T , T + \tau)}{\tau \hat {F} (t , T , T + \tau)} \\ \times \left[ \int_{T}^{T + \tau} \sigma (t, u) d u \right] \\ \end{array}
 $$
 
 The main advantage of the LIBOR market model is set on the practical side. First, if  $\gamma$  are assumed to be nonstochastic, then forward rates are log-normal, which coincides with Black's pricing formula. Moreover, the consequence that interest rates are nonnegative and zero-coupon bond prices are nonzero under Monte Carlo simulations makes the model widely accepted. Therefore, for the past two decades, the LIBOR market model has been highly developed for various applications including the LIBOR swap market. Derivations and implementations of these market models can be found in Brigo and Mercurio (2006) and Rebonato (2002, 2004).
@@ -515,12 +515,12 @@ The main advantage of the LIBOR market model is set on the practical side. First
 An interest-rate cap consists of a portfolio of caplets that provide insurance against rising borrowing costs. Let  $C(T)$  denote a caplet with maturity  $T$  on a simple  $\tau$ -LIBOR forward rate  $\hat{F}$  over time interval  $[t, T]$ . The payoff of this LIBOR caplet is
 
 $$
-C (T, T) = L \left(\hat {F} (T, T, T + \tau) - K\right) ^ {+}
+C (T, T) = L \left(\hat {F} (T, T, T + \tau) - K\right)^{+}
 $$ where  $L$  is the principal amount and  $K$  is the strike rate. Under the market model setting with deterministic forward-rate volatilities, the caplet price can be written in Black's formula by
 
 
 $$
-\begin{array}{l} C (0, T) = B (0, T) L \left[ \hat {F} (0, T, T + \tau) N (d _ {1}) - K N (d _ {2}) \right] \\ d _ {1} = \frac {\ln \left(\frac {\hat {F} (0 , T , T + \tau)}{K}\right) + \frac {1}{2} \int_ {0} ^ {T} \gamma^ {2} (u , T , T + \tau) d u}{\sqrt {\int_ {0} ^ {T} \gamma^ {2} (u , T , T + \tau) d u}} \\ d _ {2} = d _ {1} - \sqrt {\int_ {0} ^ {T} \gamma^ {2} (u , T , T + \tau) d u} \\ \end{array}
+\begin{array}{l} C (0, T) = B (0, T) L \left[ \hat {F} (0, T, T + \tau) N (d_{1}) - K N (d_{2}) \right] \\ d_{1} = \frac{\ln \left(\frac{\hat {F} (0 , T , T + \tau)}{K}\right) + \frac{1}{2} \int_{0}^{T} \gamma^{2} (u , T , T + \tau) d u}{\sqrt{\int_{0}^{T} \gamma^{2} (u , T , T + \tau) d u}} \\ d_{2} = d_{1} - \sqrt{\int_{0}^{T} \gamma^{2} (u , T , T + \tau) d u} \\ \end{array}
 $$ in which the volatility structure is flat with respect to the caplet strike prices. Despite this limitation, the model becomes the building block for replicating exotic interest-rate derivatives since the implied volatilities can be derived from several plain-vanilla traded derivatives. The information determined from this smaller scale market is then extended to characterize the whole-market dynamic. The operation usually involves interpolating, and many techniques are introduced in Rebonato (2002).
 
 

@@ -334,11 +334,11 @@ Below are five examples of unit labor requirements for a foreign country (denote
 Assume that there are two countries, Thailand and Vietnam, and two goods, rice and scooters. Unit labor requirements,  $\mathrm{a}_{\mathrm{Li}}$  (for Thailand) and  $\mathrm{a}_{\mathrm{Li}}^*$  (for Vietnam) and the labor force, L (in Thailand) and  $\mathrm{L}^*$  (in Vietnam) are given below.
 
 $$
-\begin{array}{l} \mathrm {a _ {L S} = 1 . 0 0 \quad a _ {L S} ^ {*} = 0 . 5 0} \\ \mathrm {a _ {L R} = 0 . 2 0 \quad a _ {L R} ^ {*} = 0 . 0 5} \\ L = 2 0 0 \quad L ^ {*} = 1 0 0 \\ \end{array}
+\begin{array}{l} \mathrm{a_{LS} = 1 . 0 0 \quad a_{L S}^{*} = 0 . 5 0} \\ \mathrm{a_{LR} = 0 . 2 0 \quad a_{L R}^{*} = 0 . 0 5} \\ L = 2 0 0 \quad L^{*} = 1 0 0 \\ \end{array}
 $$
 
 (a) Draw the production possibility frontiers (PPFs) for Thailand and Vietnam, with scooters on the horizontal axis. Label your graphs carefully.  
-(b) Assume that the post-trade relative price of scooters in terms of rice,  $\mathrm{P_S^W / P_R^W}$ , equals 7.5. Set the price of rice equal to one (i.e., choose rice as the numeraire good). Furthermore, assume that each country wishes to consume 100 scooters. Indicate the amounts produced, consumed, exported, imported, and the value of exports and imports for Thailand and Vietnam. Enter your results in a table with columns for each country and rows for the required information.  
+(b) Assume that the post-trade relative price of scooters in terms of rice,  $\mathrm{P_S^W /P_R^W}$ , equals 7.5. Set the price of rice equal to one (i.e., choose rice as the numeraire good). Furthermore, assume that each country wishes to consume 100 scooters. Indicate the amounts produced, consumed, exported, imported, and the value of exports and imports for Thailand and Vietnam. Enter your results in a table with columns for each country and rows for the required information.  
 (c) Verify that trade in this example is feasible (one country's exports are another country's imports) and balanced (value of exports equals value of imports for each country).
 
 # Question 4
@@ -373,7 +373,7 @@ We first discuss a  $2 \times 2 \times 2$  model with 2 countries, 2 goods and 2
 The two countries differ with respect to the endowments of the two factors of production. We assume that Home is relatively abundant in capital and Foreign is relatively abundant in labor. Denote the amounts of capital and labor in country- $j$  by  $K^j, L^j$ , respectively, where  $j = \mathrm{H}, \mathrm{F}$ . The factor endowment assumption implies that
 
 $$
-\frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}} > \frac {K ^ {\mathrm {F}}}{L ^ {\mathrm {F}}}.
+\frac{K^{\mathrm{H}}}{L^{\mathrm{H}}} > \frac{K^{\mathrm{F}}}{L^{\mathrm{F}}}.
 $$
 
 In fact, this is the only dimension along which the two countries differ. Everything else is identical between the two countries.
@@ -383,17 +383,17 @@ The technology for producing Apparels and Computers is exactly the same in the t
 Apparel production. If we denote the amount of capital used in good- $i$  by  $K_{i}$  and the amount of labor used by  $L_{i}$ , then
 
 $$
-\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}} > \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}},
+\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} > \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}},
 $$
 
 where subscript C is for Computers and A is for Apparels. This is one of the key assumptions of the HO model, as will become clear later. To make this assumption concrete, let us assume the following production functions for the two goods:
 
 $$
-Q _ {\mathrm {C}} = A _ {\mathrm {C}} K _ {\mathrm {C}} ^ {\gamma} L _ {\mathrm {C}} ^ {1 - \gamma}, \tag {3.1}
+Q_{\mathrm{C}} = A_{\mathrm{C}} K_{\mathrm{C}}^{\gamma} L_{\mathrm{C}}^{1 - \gamma}, \tag {3.1}
 $$
 
 $$
-Q _ {\mathrm {A}} = A _ {\mathrm {A}} K _ {\mathrm {A}} ^ {\delta} L _ {\mathrm {A}} ^ {1 - \delta}. \tag {3.2}
+Q_{\mathrm{A}} = A_{\mathrm{A}} K_{\mathrm{A}}^{\delta} L_{\mathrm{A}}^{1 - \delta}. \tag {3.2}
 $$
 
 In the above Cobb-Douglas production functions,  $A_{i}$  is a constant term and  $\gamma$  and  $\delta$  are the parameters that determine the share of each factor (capital and labor) in total cost. We assume that  $\gamma > \delta$  which will ensure that  $\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} > \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}$  for any prices of labor and capital. If either labor or capital becomes cheaper, then firms hire more of the cheaper factor to minimize their costs. The factor intensity assumption ensures that the ratio of capital to labor is always higher in Computer production than Apparel production.
@@ -413,7 +413,7 @@ The first step is to derive the relative supply curve of Computers as a function
 Having drawn the isoquants which capture various combinations of capital and labor that can be used to produce 1 Computer or 10 Apparels, we want to find out which combination of capital and labor firms will actually use. The goal of firms is to minimize the cost of production, so they will choose the combination that minimizes the cost. To determine this, we need information on the wage of labor and the rental of capital. Let us denote the wage by  $w$  and the rental of capital by  $r$ . Since factor markets are competitive, firms will take the factor prices as given and minimize their costs. Therefore, the Computer-producing firm is performing the following cost minimization exercise:
 
 $$
-\operatorname * {M i n} _ {L _ {\mathrm {C}}, K _ {\mathrm {C}}} \left\{w L _ {\mathrm {C}} + r K _ {\mathrm {C}} \right\} \text {s . t .} A _ {\mathrm {C}} K _ {\mathrm {C}} ^ {\gamma} L _ {\mathrm {C}} ^ {1 - \gamma} = 1.
+\operatorname * {M i n}_{L_{\mathrm{C}}, K_{\mathrm{C}}} \left\{w L_{\mathrm{C}} + r K_{\mathrm{C}} \right\} \text{s .t .} A_{\mathrm{C}} K_{\mathrm{C}}^{\gamma} L_{\mathrm{C}}^{1 - \gamma} = 1.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/02939b73-361f-4a60-8286-d38577d8467c/552e7b2f242a3b31c04e0e768d69406d0bded7ae7bba968d7468b6b5ab471328.jpg)  
@@ -422,7 +422,7 @@ Figure 3.1: Lerner's diagram.
 That is, the firm wants to choose the cost-minimizing combination of  $(L_{\mathrm{C}},K_{\mathrm{C}})$  to produce 1 Computer. Similarly, the Apparel firm performs the following cost minimization exercise to produce 10 units of Apparels:
 
 $$
-\underset {L _ {\mathrm {A}} K _ {\mathrm {A}}} {\mathrm {M i n}} \left\{w L _ {\mathrm {A}} + r K _ {\mathrm {A}} \right\} \quad \mathrm {s . t .} A _ {\mathrm {A}} K _ {\mathrm {A}} ^ {\delta} L _ {\mathrm {A}} ^ {1 - \delta} = 1 0.
+\underset {L_{\mathrm{A}} K_{\mathrm{A}}} {\mathrm{Mi n}} \left\{w L_{\mathrm{A}} + r K_{\mathrm{A}} \right\} \quad \mathrm{s .t .} A_{\mathrm{A}} K_{\mathrm{A}}^{\delta} L_{\mathrm{A}}^{1 - \delta} = 1 0.
 $$
 
 The standard cost minimization exercise works as follows. Given the factor prices,  $w$  and  $r$ , an isocost line can be defined as all combinations of capital and labor that result in a particular value of total cost. For example, one can set the total cost to 30 and draw an isocost line corresponding to  $wL_{\mathrm{A}} + rK_{\mathrm{A}} = 30$ . This isocost line is going to be a negatively sloped straight line in the  $(L, K)$  space with the absolute value of the slope equaling  $\frac{w}{r}$ . The firm's cost minimization exercise involves first drawing the isoquant corresponding to the value of output that it wants to produce and then drawing a family of parallel isocost lines with the slope  $\frac{w}{r}$  and finding the isocost line closest to the origin that touches the isoquant. This is going to be given by an isocost line that is tangent to the isoquant. The point of tangency gives the optimal combination of  $(L, K)$  to produce that level of output for a given factor price.
@@ -436,31 +436,31 @@ Next, the points of tangency between the isoquants and the common isoquant line 
 Algebraically,
 
 $$
-K _ {\mathrm {C}} + K _ {\mathrm {A}} = K ^ {\mathrm {H}}.
+K_{\mathrm{C}} + K_{\mathrm{A}} = K^{\mathrm{H}}.
 $$
 
 Next, divide both sides by  $L^{\mathrm{H}}$  to obtain
 
 $$
-\frac {K _ {\mathrm {C}}}{L ^ {\mathrm {H}}} + \frac {K _ {\mathrm {A}}}{L ^ {\mathrm {H}}} = \frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}}.
+\frac{K_{\mathrm{C}}}{L^{\mathrm{H}}} + \frac{K_{\mathrm{A}}}{L^{\mathrm{H}}} = \frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}.
 $$
 
 Next, multiply and divide the first term on the left-hand side by  $L_{\mathrm{C}}$  and the second term by  $L_{\mathrm{A}}$  to obtain
 
 $$
-\frac {L _ {\mathrm {C}}}{L _ {\mathrm {C}}} \frac {K _ {\mathrm {C}}}{L ^ {\mathrm {H}}} + \frac {L _ {\mathrm {A}}}{L _ {\mathrm {A}}} \frac {K _ {\mathrm {A}}}{L ^ {\mathrm {H}}} = \frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}}.
+\frac{L_{\mathrm{C}}}{L_{\mathrm{C}}} \frac{K_{\mathrm{C}}}{L^{\mathrm{H}}} + \frac{L_{\mathrm{A}}}{L_{\mathrm{A}}} \frac{K_{\mathrm{A}}}{L^{\mathrm{H}}} = \frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}.
 $$
 
 Rearrange the left-hand side to obtain
 
 $$
-\frac {L _ {\mathrm {C}}}{L ^ {\mathrm {H}}} \frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}} + \frac {L _ {\mathrm {A}}}{L ^ {\mathrm {H}}} \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}} = \frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}}.
+\frac{L_{\mathrm{C}}}{L^{\mathrm{H}}} \frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} + \frac{L_{\mathrm{A}}}{L^{\mathrm{H}}} \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}} = \frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}.
 $$
 
 Finally, rewrite the above as
 
 $$
-\lambda \frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}} + (1 - \lambda) \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}} = \frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}},
+\lambda \frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} + (1 - \lambda) \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}} = \frac{K^{\mathrm{H}}}{L^{\mathrm{H}}},
 $$
 
 where  $\lambda \equiv \frac{L_{\mathrm{C}}}{L^{\mathrm{H}}}$
@@ -468,7 +468,7 @@ where  $\lambda \equiv \frac{L_{\mathrm{C}}}{L^{\mathrm{H}}}$
 Note from the above equation that since we know  $\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}$  and  $\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}$  from Figure 3.1 and  $\frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}$  is given, the above is an equation in one unknown  $\lambda$ . The value of  $\lambda$  is given by
 
 $$
-\lambda = \frac {\frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}} - \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}}}{\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}} - \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}}}. \tag {3.3}
+\lambda = \frac{\frac{K^{\mathrm{H}}}{L^{\mathrm{H}}} - \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}}{\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} - \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}}. \tag {3.3}
 $$
 
 Once we know  $\lambda$ , we know  $L_{\mathrm{C}}$ , and hence  $L_{\mathrm{A}} (= L^{\mathrm{H}} - L_{\mathrm{C}})$ . Since we already know  $\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}$  and  $\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}$ , the knowledge of  $L_{\mathrm{C}}$  and  $L_{\mathrm{A}}$  yields  $K_{\mathrm{C}}$  and  $K_{\mathrm{A}}$ . Therefore, we basically know how much capital and labor goes into Computer production and how much into Apparel production. From the production function given in Equations (3.1) and (3.2), this immediately gives the amounts of Computers and Apparels produced. The ratio of Computers to Apparels produced is one point on our relative supply curve corresponding to a relative price of  $\frac{P_{\mathrm{C}}}{P_{\mathrm{A}}} = 10$ .
@@ -489,13 +489,13 @@ $\frac{r}{P_{\mathrm{A}}}$  in terms of Computers and Apparels, respectively. We
 Given the production function in Equations (3.1) and (3.2), it is easy to verify that the marginal product of a worker in Computer production is
 
 $$
-\mathrm {M P L} _ {\mathrm {C}} \equiv \frac {\partial Q _ {\mathrm {C}}}{\partial L _ {\mathrm {C}}} = (1 - \gamma) A _ {\mathrm {C}} K _ {\mathrm {C}} ^ {\gamma} L _ {\mathrm {C}} ^ {- \gamma} = (1 - \gamma) A _ {\mathrm {C}} \left(\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}}\right) ^ {\gamma}.
+\mathrm{MP L}_{\mathrm{C}} \equiv \frac{\partial Q_{\mathrm{C}}}{\partial L_{\mathrm{C}}} = (1 - \gamma) A_{\mathrm{C}} K_{\mathrm{C}}^{\gamma} L_{\mathrm{C}}^{- \gamma} = (1 - \gamma) A_{\mathrm{C}} \left(\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}\right)^{\gamma}.
 $$
 
 The last equality above says that the marginal product of labor in Computer production is simply a function of the capital-labor ratio used in Computer production. This convenient feature of the constant returns to scale production function implies that the real wage in terms of Computers is simply an increasing function of the capital-labor ratio used in Computer production. Using the same steps, we can write the real rewards of both factors of production in terms of Computers and Apparels as follows.
 
 $$
-\begin{array}{l} \frac {w}{P _ {\mathrm {C}}} = (1 - \gamma) A _ {\mathrm {C}} \left(\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}}\right) ^ {\gamma}; \quad \frac {w}{P _ {\mathrm {A}}} = (1 - \delta) A _ {\mathrm {A}} \left(\frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}}\right) ^ {\delta}, (3.4) \\ \frac {r}{P _ {\mathrm {C}}} = r A _ {\mathrm {C}} \left(\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}}\right) ^ {\gamma - 1}; \quad \frac {r}{P _ {\mathrm {A}}} = \delta A _ {\mathrm {A}} \left(\frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}}\right) ^ {\delta - 1}. (3.5) \\ \end{array}
+\begin{array}{l} \frac{w}{P_{\mathrm{C}}} = (1 - \gamma) A_{\mathrm{C}} \left(\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}\right)^{\gamma}; \quad \frac{w}{P_{\mathrm{A}}} = (1 - \delta) A_{\mathrm{A}} \left(\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}\right)^{\delta}, (3.4) \\ \frac{r}{P_{\mathrm{C}}} = r A_{\mathrm{C}} \left(\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}\right)^{\gamma - 1}; \quad \frac{r}{P_{\mathrm{A}}} = \delta A_{\mathrm{A}} \left(\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}\right)^{\delta - 1}. (3.5) \\ \end{array}
 $$
 
 Now that we have derived all variables of interest corresponding to the relative price of 10, we change the relative price and see what happens. Suppose that the relative price of Computers increases
@@ -531,7 +531,7 @@ original box but from the origin  $O^{\mathrm{A'}}$ . Since the capital-labor ra
 This result can be established algebraically as follows. Start with the expression for  $\lambda$  derived in Equation (3.3). Since we are doing the exercise at the relative price of 10,  $\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}$  and  $\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}$  are unchanged. Therefore, from Equation (3.3), we obtain
 
 $$
-\frac {d \lambda}{d \left(\frac {K ^ {\mathrm {H}}}{L ^ {\mathrm {H}}}\right)} = \frac {1}{\frac {K _ {\mathrm {C}}}{L _ {\mathrm {C}}} - \frac {K _ {\mathrm {A}}}{L _ {\mathrm {A}}}} > 0.
+\frac{d \lambda}{d \left(\frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}\right)} = \frac{1}{\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}} - \frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}} > 0.
 $$
 
 That is, an increase in the capital-labor ratio in Home increases  $\lambda(= \frac{L_{\mathrm{C}}}{L^{\mathrm{H}}})$ , which is the share of labor going to Computer production. Note that we have increased  $L^{\mathrm{H}}$  holding  $K^{\mathrm{H}}$  constant in Figure 3.4. So, we have reduced  $\frac{K^{\mathrm{H}}}{L^{\mathrm{H}}}$  in Figure 3.4. Therefore, it would lead to a decrease in  $\lambda$ , and hence an increase in  $1 - \lambda = \frac{L_{\mathrm{A}}}{L^{\mathrm{H}}}$ . An increase in  $\frac{L_{\mathrm{A}}}{L^{\mathrm{H}}}$  must lead to an increase in  $L_{\mathrm{A}}$  and consequently an increase  $K_{\mathrm{A}}$  because  $\frac{K_{\mathrm{A}}}{L_{\mathrm{A}}}$  is unchanged. Since the amount of  $K^{\mathrm{H}}$  is unchanged, an increase in  $K_{\mathrm{A}}$  must lead to a decrease in  $K_{\mathrm{C}}$ , and hence a decrease in  $L_{\mathrm{C}}$  because  $\frac{K_{\mathrm{C}}}{L_{\mathrm{C}}}$  is unchanged. Therefore, we have verified the result we obtained diagrammatically that more capital and labor go into Apparel production and less into Computer production, and consequently the output of Computers decreases and the output of Apparels increases, leading to a decrease in the relative supply of Computers. This gives us a second important result known as the Rybczynski's theorem.
@@ -753,7 +753,7 @@ To specify the equilibrium in our model, we need to specify the demand curve tha
 We assume that each firm  $i$  faces the following demand function:
 
 $$
-Q _ {i} = S \left[ \frac {1}{n} - b (P _ {i} - \bar {P}) \right],
+Q_{i} = S \left[ \frac{1}{n} - b (P_{i} - \bar {P}) \right],
 $$
 
 where  $Q_{i}$  is the demand for variety  $-i$ ,  $S$  is the total sales (market demand for the good),  $n$  is the number of firms (varieties),  $P_{i}$  is the price charged by firm  $i$ ,  $\bar{P}$  is the average price charged by the other firms,  $b$  is the slope parameter.
@@ -769,31 +769,31 @@ As mentioned earlier, the equilibrium is characterized by the two conditions:  $
 In what follows, we derive the expression for  $MR$  from the demand curve for the firm specified earlier, which we recall is
 
 $$
-Q _ {i} = S \left[ \frac {1}{n} - b (P _ {i} - \bar {P}) \right].
+Q_{i} = S \left[ \frac{1}{n} - b (P_{i} - \bar {P}) \right].
 $$
 
 Denoting total revenue by  $TR$ , we write  $MR = \frac{d(TR)}{dQ_i}$ , where  $TR = P * Q$ . Therefore,
 
 $$
-M R = P + Q \left(\frac {d P}{d Q}\right) = P \left(1 + \frac {Q}{P} \frac {d P}{d Q}\right).
+M R = P + Q \left(\frac{d P}{d Q}\right) = P \left(1 + \frac{Q}{P} \frac{d P}{d Q}\right).
 $$
 
 Now from the demand function, note that  $\frac{dQ_i}{dP_i} = -bS$ . Therefore,
 
 $$
-M R = P \left[ 1 + \frac {Q}{P} \left(- \frac {1}{b S}\right) \right] = P - \frac {Q}{b S},
+M R = P \left[ 1 + \frac{Q}{P} \left(- \frac{1}{b S}\right) \right] = P - \frac{Q}{b S},
 $$
 
 where we are suppressing the subscript  $i$  because all firms are identical. Given the above expression for  $MR$ , our profit maximization condition becomes
 
 $$
-M R = M C \Rightarrow P - \frac {Q}{b S} = C. \tag {4.1}
+M R = M C \Rightarrow P - \frac{Q}{b S} = C. \tag {4.1}
 $$
 
 In the above expression, the mathematical symbol " $\Rightarrow$ " means "implies". Next, symmetry implies that in any equilibrium all firms will sell the same quantity: Symmetry  $\Rightarrow S / Q = n$ . Therefore,
 
 $$
-M R = M C \Rightarrow P - \frac {1}{n b} = C \Rightarrow P = C + \frac {1}{n b} (M R = M C \mathrm {c o n d i t i o n}).
+M R = M C \Rightarrow P - \frac{1}{n b} = C \Rightarrow P = C + \frac{1}{n b} (M R = M C \mathrm{co nd it io n}).
 $$
 
 Intuitively, higher  $n \Rightarrow$  more competition  $\Rightarrow$  lower markup (higher elasticity of demand)  $\Rightarrow$  lower price.
@@ -801,13 +801,13 @@ Intuitively, higher  $n \Rightarrow$  more competition  $\Rightarrow$  lower mar
 Similarly, our zero-profit condition is given by
 
 $$
-P = A C = \frac {F}{Q} + C. \tag {4.2}
+P = A C = \frac{F}{Q} + C. \tag {4.2}
 $$
 
 Again, using  $S / Q = n$ , the above equation can be written as
 
 $$
-P = \frac {n F}{S} + C \quad (P = A C \text {c o n d i t i o n}).
+P = \frac{n F}{S} + C \quad (P = A C \text{co nd it io n}).
 $$
 
 Intuitively, higher  $n \Rightarrow$  lower  $S / n$  or lower output per firm which implies higher  $AC$  and, consequently, higher  $P$ .
@@ -828,7 +828,7 @@ Use the two equations  $(MR = MC)$ $P = C + \frac{1}{nb}$  and  $(P = AC)$ $P = 
 More generally, denoting the equilibrium values of  $n$  and  $P$  by  $n^*$  and  $P^*$ , we have shown that
 
 $$
-\frac {d n ^ {*}}{d S} > 0; \quad \frac {d P ^ {*}}{d S} <   0.
+\frac{d n^{*}}{d S} > 0; \quad \frac{d P^{*}}{d S} <   0.
 $$
 
 That is, an increase in the market size increases the equilibrium number of firms and decreases the equilibrium price. Therefore,
@@ -862,7 +862,7 @@ As mentioned earlier, the model developed above is suitable for studying trade w
 IIT can be measured in two alternative ways, both giving the same result.
 
 $$
-\mathrm {I I T} = 1 - \frac {| X - M |}{X + M} = 1 - \frac {\text {g a p}}{\text {v o l u m e}},
+\mathrm{II T} = 1 - \frac{| X - M |}{X + M} = 1 - \frac{\text{ga p}}{\text{vo lu me}},
 $$
 
 where  $X$  is exports,  $M$  is imports,  $X - M$  is the trade gap and  $X + M$  is the total trade volume.
@@ -870,7 +870,7 @@ where  $X$  is exports,  $M$  is imports,  $X - M$  is the trade gap and  $X + M
 Alternatively, we can write IIT as
 
 $$
-\mathrm {I I T} = 2 \frac {\operatorname* {M i n} \{X , M \}}{X + M}.
+\mathrm{II T} = 2 \frac{\operatorname* {M i n} \{X , M \}}{X + M}.
 $$
 
 It is easy to verify that the range of IIT is from 0 to 1, where 0 indicates no IIT and 1 indicates full IIT. IIT of 0 implies that the country either exports the good or imports the good but not both. IIT of 1, on the contrary, implies that the country's exports and imports in that industry are balanced (exports = imports).
@@ -919,7 +919,7 @@ Next, we look at an alternative case of dumping where the demand curves facing t
 Now define  $P_{\mathrm{H}} - C$  as the markup of the firm in the Home market and  $P_{\mathrm{F}} - (C + t)$  as the markup in the Foreign market. It can be verified that the markup varies inversely with the elasticity of demand. For example, in a competitive market,  $\varepsilon = \infty$  and  $P = MC$  or markup  $=$  zero. Recall that along a linear demand the elasticity of demand keeps decreasing as we move down the demand curve. This implies that the markup is lower in the Foreign market than in the Home market
 
 $$
-P _ {\mathrm {F}} - (C + t) <   P _ {\mathrm {H}} - C \quad \text {o r} \quad P _ {\mathrm {F}} - t <   P _ {\mathrm {H}}.
+P_{\mathrm{F}} - (C + t) <   P_{\mathrm{H}} - C \quad \text{or} \quad P_{\mathrm{F}} - t <   P_{\mathrm{H}}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/02939b73-361f-4a60-8286-d38577d8467c/68b9eea1bc95dff18a07743fae86e2da7d8a8ecb01785ec3623543b25997c031.jpg)  
@@ -948,13 +948,13 @@ could trade and gain from trade even if they are identical provided production f
 Suppose that the demand facing firms producing Golf clubs in Home and Foreign is given as follows:
 
 $$
-Q _ {i} = S \left[ \frac {1}{n} - b (P _ {i} - \bar {P}) \right]
+Q_{i} = S \left[ \frac{1}{n} - b (P_{i} - \bar {P}) \right]
 $$
 
 The cost of producing Golf clubs is given by
 
 $$
-T C (Q _ {i}) = F + C * Q _ {i}
+T C (Q_{i}) = F + C * Q_{i}
 $$
 
 a) Assume that the parameters for Home are as follows:  $S_H = 1440$ ,  $b = 2$ ,  $F = 5$ ,  $C = 1$ . Compute the equilibrium values of  $n$ ,  $P$ , and  $Q$ . {Hint: either derive the expression for marginal revenue from the demand curve above or use the expression for marginal revenue from the text.}
@@ -1203,7 +1203,7 @@ In the partial framework, we will measure welfare in a market by adding consumer
 lump-sum fashion or used to generate public goods that everyone benefits from. If the policy results in the government making a payment, as will be the case when we study export subsidies, then we subtract it from the measure of welfare. Therefore,
 
 $$
-\begin{array}{l} \text {W e l f a r e} = \text {c o n s u m e r} + \text {p r o d u c e r} \\ + \text {g o v e r n m e n t} \\ \end{array}
+\begin{array}{l} \text{We lf ar e} = \text{co ns um er} + \text{pr od uc er} \\ + \text{go ve rn me nt} \\ \end{array}
 $$
 
 In the discussion of commercial policy, we make a distinction between the small-country case and the large-country case. The small-country case is one where the country is too small to affect the world price of the good in question. Therefore, any policy intervention by this country will leave the world price unaffected. The large-country case is one where the country is large enough to affect the world price. If a large country intervenes in trade, it will change the world price and we will have to take that into account when studying the welfare implications of commercial policy.
@@ -1403,13 +1403,13 @@ Question 1 (tariff, quota, VER, in the small country case)
 Suppose the demand curve in Laos for coffee is
 
 $$
-\mathrm {D} = 3 0 0 - 5 \mathrm {P}
+\mathrm{D} = 3 0 0 - 5 \mathrm{P}
 $$
 
 The supply curve is
 
 $$
-\mathrm {S} = - 5 0 + 5 \mathrm {P}
+\mathrm{S} = - 5 0 + 5 \mathrm{P}
 $$
 
 a) Calculate the equilibrium price and quantity of coffee when Laos is in autarky.
@@ -1435,13 +1435,13 @@ e) How would the results in part d) change? Is the welfare of Laos higher in the
 Home's demand and supply curves for coffee are
 
 $$
-\mathrm {D} = 1 1 0 - 2 0 \mathrm {P}; \quad \mathrm {S} = 1 0 + 2 0 \mathrm {P}
+\mathrm{D} = 1 1 0 - 2 0 \mathrm{P}; \quad \mathrm{S} = 1 0 + 2 0 \mathrm{P}
 $$
 
 Foreign's demand and supply curves for coffee are
 
 $$
-\mathrm {D} ^ {*} = 9 0 - 2 0 \mathrm {P}; \quad \mathrm {S} ^ {*} = 3 0 + 2 0 \mathrm {P}
+\mathrm{D}^{*} = 9 0 - 2 0 \mathrm{P}; \quad \mathrm{S}^{*} = 3 0 + 2 0 \mathrm{P}
 $$
 
 a) Derive (numerically) and graph Home's import demand schedule and Foreign's export supply schedule. What are the autarky equilibrium prices and quantities in the two countries?  
@@ -1457,7 +1457,7 @@ d) Calculate and show graphically the terms of trade gain, the efficiency loss, 
 Suppose Ethiopia's demand and supply curves for coffee are
 
 $$
-\mathrm {D} ^ {*} = 9 0 - 2 0 \mathrm {P}; \quad \mathrm {S} ^ {*} = 3 0 + 2 0 \mathrm {P}
+\mathrm{D}^{*} = 9 0 - 2 0 \mathrm{P}; \quad \mathrm{S}^{*} = 3 0 + 2 0 \mathrm{P}
 $$
 
 a) Find the autarky equilibrium price of coffee and the quantity bought and sold in Ethiopia.  
@@ -1557,7 +1557,7 @@ In this chapter, we looked at the arguments for and against intervention in trad
 Suppose the demand and supply curves for computer chips in Botswana are given by the following equations:
 
 $$
-\mathrm {D} = 3 0 0 - 5 \mathrm {P}; \quad \mathrm {S} = - 5 0 + 5 \mathrm {P}
+\mathrm{D} = 3 0 0 - 5 \mathrm{P}; \quad \mathrm{S} = - 5 0 + 5 \mathrm{P}
 $$
 
 In addition, the production of each unit of computer chips yields extra social benefits of 15, which are not reflected in the demand curve. Also assume that the world price of computer chips is 20.
@@ -1755,7 +1755,7 @@ In his study of NAFTA, reported in a paper published in the Review of Economics 
 Suppose the demand and supply curves for a bag of coffee in Laos are given by
 
 $$
-\mathrm {D} = 3 0 0 - 5 \mathrm {P}; \quad \mathrm {S} = - 5 0 + 5 \mathrm {P}
+\mathrm{D} = 3 0 0 - 5 \mathrm{P}; \quad \mathrm{S} = - 5 0 + 5 \mathrm{P}
 $$
 
 a) Assume that Laos imposes a tariff of \$5 per bag of imported coffee to begin with. Laos can import coffee either from Brazil or Indonesia. The price of coffee from Indonesia is \$20 per bag, while the price of coffee from Brazil is \$25 per bag. Now, suppose Laos enters into a free trade agreement with Indonesia. First, calculate the impact of the free trade agreement on the volume of imports for Laos. Is this a trade-creating free trade agreement or a trade-diverting free trade agreement? Next, calculate the impact of the free trade agreement on the welfare of Laos. Show your results diagrammatically.

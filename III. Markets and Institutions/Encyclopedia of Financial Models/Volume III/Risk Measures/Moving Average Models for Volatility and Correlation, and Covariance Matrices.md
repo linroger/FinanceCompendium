@@ -27,13 +27,13 @@ This entry covers moving average discrete-time series models for variance and co
 The covariance matrix is a square, symmetric matrix of variance and covariances of a set of  $m$  returns on assets, or on risk factors, given by:
 
 $$
-\mathbf {V} = \left( \begin{array}{l l l l l} \sigma_ {1} ^ {2} & \sigma_ {1 2} & \dots & \dots & \sigma_ {1 m} \\ \sigma_ {2 1} & \sigma_ {2} ^ {2} & \dots & \dots & \sigma_ {2 m} \\ \sigma_ {3 1} & \sigma_ {3 2} & \sigma_ {3} ^ {2} & \dots & \sigma_ {3 m} \\ \dots & \dots & \dots & \dots & \dots \\ \sigma_ {m 1} & \dots & \dots & \dots & \sigma_ {m} ^ {2} \end{array} \right) \tag {1}
+\mathbf {V} = \left( \begin{array}{l l l l l} \sigma_{1}^{2} & \sigma_{1 2} & \dots & \dots & \sigma_{1 m} \\ \sigma_{2 1} & \sigma_{2}^{2} & \dots & \dots & \sigma_{2 m} \\ \sigma_{3 1} & \sigma_{3 2} & \sigma_{3}^{2} & \dots & \sigma_{3 m} \\ \dots & \dots & \dots & \dots & \dots \\ \sigma_{m 1} & \dots & \dots & \dots & \sigma_{m}^{2} \end{array} \right) \tag {1}
 $$
 
 Since
 
 $$
-\begin{array}{l} \left( \begin{array}{c c c c c} \sigma_ {1} ^ {2} & \sigma_ {1 2} & \ldots & \ldots & \sigma_ {1 m} \\ \sigma_ {2 1} & \sigma_ {2} ^ {2} & \ldots & \ldots & \sigma_ {2 m} \\ \sigma_ {3 1} & \sigma_ {3 2} & \sigma_ {3} ^ {2} & \ldots & \sigma_ {3 m} \\ \ldots & \ldots & \ldots & \ldots & \ldots \\ \sigma_ {m 1} & \ldots & \ldots & \ldots & \sigma_ {m} ^ {2} \end{array} \right) \\ = \left( \begin{array}{c c c c c} \sigma_ {1} ^ {2} & \varrho_ {1 2} \sigma_ {1} \sigma_ {2} & \ldots & \ldots & \varrho_ {1 m} \sigma_ {1} \sigma_ {m} \\ \varrho_ {2 1} \sigma_ {2} \sigma_ {1} & \sigma_ {2} ^ {2} & \ldots & \ldots & \varrho_ {2 m} \sigma_ {2} \sigma_ {m} \\ \varrho_ {3 1} \sigma_ {3} \sigma_ {1} & \varrho_ {3 2} \sigma_ {3} \sigma_ {2} & \sigma_ {3} ^ {2} & \ldots & \varrho_ {3 m} \sigma_ {3} \sigma_ {m} \\ \ldots & \ldots & \ldots & \ldots & \ldots \\ \varrho_ {m 1} \sigma_ {m} \sigma_ {1} & \ldots & \ldots & \ldots & \sigma_ {m} ^ {2} \end{array} \right) \\ \end{array}
+\begin{array}{l} \left( \begin{array}{c c c c c} \sigma_{1}^{2} & \sigma_{1 2} & \ldots & \ldots & \sigma_{1 m} \\ \sigma_{2 1} & \sigma_{2}^{2} & \ldots & \ldots & \sigma_{2 m} \\ \sigma_{3 1} & \sigma_{3 2} & \sigma_{3}^{2} & \ldots & \sigma_{3 m} \\ \ldots & \ldots & \ldots & \ldots & \ldots \\ \sigma_{m 1} & \ldots & \ldots & \ldots & \sigma_{m}^{2} \end{array} \right) \\ = \left( \begin{array}{c c c c c} \sigma_{1}^{2} & \varrho_{1 2} \sigma_{1} \sigma_{2} & \ldots & \ldots & \varrho_{1 m} \sigma_{1} \sigma_{m} \\ \varrho_{2 1} \sigma_{2} \sigma_{1} & \sigma_{2}^{2} & \ldots & \ldots & \varrho_{2 m} \sigma_{2} \sigma_{m} \\ \varrho_{3 1} \sigma_{3} \sigma_{1} & \varrho_{3 2} \sigma_{3} \sigma_{2} & \sigma_{3}^{2} & \ldots & \varrho_{3 m} \sigma_{3} \sigma_{m} \\ \ldots & \ldots & \ldots & \ldots & \ldots \\ \varrho_{m 1} \sigma_{m} \sigma_{1} & \ldots & \ldots & \ldots & \sigma_{m}^{2} \end{array} \right) \\ \end{array}
 $$ a covariance matrix can also be expressed as
 
 
@@ -43,7 +43,7 @@ $$ where  $\mathbf{D}$  is a diagonal matrix with elements equal to the standard
 
 
 $$
-\begin{array}{l} \left( \begin{array}{c c c c c} \sigma_ {1} ^ {2} & \sigma_ {1 2} & . & . & \sigma_ {1 m} \\ \sigma_ {1 2} & \sigma_ {2} ^ {2} & . & . & \sigma_ {2 m} \\ . & . & . & . & . \\ . & . & . & . & . \\ \sigma_ {1 m} & \sigma_ {2 m} & . & . & \sigma_ {m} ^ {2} \end{array} \right) = \left( \begin{array}{c c c c c} \sigma_ {1} & 0 & . & . & 0 \\ 0 & \sigma_ {2} & 0 & . & 0 \\ 0 & 0 & . & . & . \\ . & . & . & . & 0 \\ 0 & , & . & 0 & \sigma_ {n} \end{array} \right) \\ \times \left( \begin{array}{c c c c c} 1 & \varrho_ {1 2} & . & . & \varrho_ {1 n} \\ \varrho_ {1 2} & 1 & . & . & \varrho_ {2 n} \\ . & . & . & . & . \\ . & . & . & . & . \\ \varrho_ {1 n} & \varrho_ {2 n} & . & . & 1 \end{array} \right) \left( \begin{array}{c c c c c} \sigma_ {1} & 0 & . & . & 0 \\ 0 & \sigma_ {2} & 0 & . & 0 \\ 0 & 0 & . & . & . \\ . & . & . & . & 0 \\ 0 & , & . & 0 & \sigma_ {n} \end{array} \right) \\ \end{array}
+\begin{array}{l} \left( \begin{array}{c c c c c} \sigma_{1}^{2} & \sigma_{1 2} & . & . & \sigma_{1 m} \\ \sigma_{1 2} & \sigma_{2}^{2} & . & . & \sigma_{2 m} \\ . & . & . & . & . \\ . & . & . & . & . \\ \sigma_{1 m} & \sigma_{2 m} & . & . & \sigma_{m}^{2} \end{array} \right) = \left( \begin{array}{c c c c c} \sigma_{1} & 0 & . & . & 0 \\ 0 & \sigma_{2} & 0 & . & 0 \\ 0 & 0 & . & . & . \\ . & . & . & . & 0 \\ 0 & , & . & 0 & \sigma_{n} \end{array} \right) \\ \times \left( \begin{array}{c c c c c} 1 & \varrho_{1 2} & . & . & \varrho_{1 n} \\ \varrho_{1 2} & 1 & . & . & \varrho_{2 n} \\ . & . & . & . & . \\ . & . & . & . & . \\ \varrho_{1 n} & \varrho_{2 n} & . & . & 1 \end{array} \right) \left( \begin{array}{c c c c c} \sigma_{1} & 0 & . & . & 0 \\ 0 & \sigma_{2} & 0 & . & 0 \\ 0 & 0 & . & . & . \\ . & . & . & . & 0 \\ 0 & , & . & 0 & \sigma_{n} \end{array} \right) \\ \end{array}
 $$
 
 Hence, the covariance matrix is simply a mathematically convenient way to express the asset volatilities and their correlations.
@@ -78,7 +78,7 @@ $$ because each volatility is divided by 5 (that is, the square root of 25). The
 
 
 $$
-\begin{array}{l} \left( \begin{array}{c c c} 0. 0 4 & 0 & 0 \\ 0 & 0. 0 2 & 0 \\ 0 & 0 & 0. 0 3 \end{array} \right) \left( \begin{array}{c c c} 1 & 0. 8 & 0. 5 \\ 0. 8 & 1 & 0. 3 \\ 0. 5 & 0. 3 & 1 \end{array} \right) \\ \times \left( \begin{array}{c c c} 0. 0 4 & 0 & 0 \\ 0 & 0. 0 2 & 0 \\ 0 & 0 & 0. 0 3 \end{array} \right) = \left( \begin{array}{c c c} 0. 1 6 & 0. 0 6 4 & 0. 0 6 \\ 0. 0 6 4 & 0. 0 4 & 0. 0 1 8 \\ 0. 0 6 & 0. 0 1 8 & 0. 0 9 \end{array} \right) \\ \times 1 0 ^ {- 2} \\ \end{array}
+\begin{array}{l} \left( \begin{array}{c c c} 0. 0 4 & 0 & 0 \\ 0 & 0. 0 2 & 0 \\ 0 & 0 & 0. 0 3 \end{array} \right) \left( \begin{array}{c c c} 1 & 0. 8 & 0. 5 \\ 0. 8 & 1 & 0. 3 \\ 0. 5 & 0. 3 & 1 \end{array} \right) \\ \times \left( \begin{array}{c c c} 0. 0 4 & 0 & 0 \\ 0 & 0. 0 2 & 0 \\ 0 & 0 & 0. 0 3 \end{array} \right) = \left( \begin{array}{c c c} 0. 1 6 & 0. 0 6 4 & 0. 0 6 \\ 0. 0 6 4 & 0. 0 4 & 0. 0 1 8 \\ 0. 0 6 & 0. 0 1 8 & 0. 0 9 \end{array} \right) \\ \times 1 0^{- 2} \\ \end{array}
 $$ averages in order to estimate extremely large positive definite matrices covering hundreds of risk factors for global financial markets. (This is discussed further below.)
 
 Note that  $\mathbf{V}$  is positive semidefinite if and only if  $\mathbf{C}$  is positive semidefinite.  $\mathbf{D}$  is always positive definite. Hence, the positive semidefiniteness of  $\mathbf{V}$  only depends on the way we construct the correlation matrix. It is quite a challenge to generate meaningful, positive semidefinite correlation matrices that are large enough for managers to be able to net the risks across all positions in a firm. Simplifying assumptions are necessary. For example, RiskMetrics (1996) uses a very simple methodology based on moving
@@ -100,7 +100,7 @@ Perceived changes in volatility and correlation have important consequences for 
 The methodology for constructing a covariance matrix based on equally weighted averages can be described in very simple terms. Consider a set of time series  $\{r_{i,t}\} i = 1,\dots,m;$ $t = 1,\ldots ,T$  . Here the subscript  $i$  denotes the asset or risk factor, and  $t$  denotes the time at which each return is measured. We shall assume that each return has a zero mean. Then an unbiased estimate of the unconditional variance of the ith returns variable at time  $t,$  based on the  $T$  most recent daily returns as:
 
 $$
-\hat {\sigma} _ {i, t} ^ {2} = \frac {\sum_ {l = 1} ^ {T} r _ {i , t - l} ^ {2}}{T} \tag {3}
+\hat {\sigma}_{i, t}^{2} = \frac{\sum_{l = 1}^{T} r_{i , t - l}^{2}}{T} \tag {3}
 $$
 
 The term "unbiased estimator" means the expected value of the estimator is equal to the true value.
@@ -110,19 +110,19 @@ Note that (3) gives an unbiased estimate of the variance but this is not the sam
 But it is generally understood that the notation  $\hat{\sigma}^2$  is used to denote the estimate or forecast of a variance, and not the square of an estimate of the standard deviation. So, in the case that the mean return is zero, we have
 
 $$
-\operatorname {E} \left(\hat {\sigma} ^ {2}\right) = \sigma^ {2}
+\operatorname{E} \left(\hat {\sigma}^{2}\right) = \sigma^{2}
 $$
 
 If the mean return is not assumed to be zero we need to estimate this from the sample, and this places a (linear) constraint on the variance estimated from sample data. In that case, to obtain an unbiased estimate we should use
 
-$$ s _ {i, t} ^ {2} = \frac {\sum_ {l = 1} ^ {T} \left(r _ {i , t - l} - \bar {r} _ {i}\right) ^ {2}}{T - 1} \tag {4}
+$$ s_{i, t}^{2} = \frac{\sum_{l = 1}^{T} \left(r_{i , t - l} - \bar {r}_{i}\right)^{2}}{T - 1} \tag {4}
 $$ where  $\bar{r}_i$  is the average return on the  $i$ th series, taken over the whole sample of  $T$  data points. The mean-deviation form above may be useful for estimating variance using monthly or even weekly data over a period for which average returns are significantly different from zero. However with daily data the average return is usually very small and since, as we shall see below, the errors induced by other assumptions are huge relative to the error induced by assuming the mean is zero, we normally use the form (3).
 
 
 Similarly, an unbiased estimate of the unconditional covariance of two zero mean returns at time  $t$ , based on the  $T$  most recent daily returns is:
 
 $$
-\hat {\sigma} _ {i, j, t} = \frac {\sum_ {l = 1} ^ {n} r _ {i , t - l} r _ {j , t - l}}{T} \tag {5}
+\hat {\sigma}_{i, j, t} = \frac{\sum_{l = 1}^{n} r_{i , t - l} r_{j , t - l}}{T} \tag {5}
 $$
 
 As mentioned above, we would normally ignore the mean deviation adjustment with daily data.
@@ -133,11 +133,11 @@ The equally weighted unconditional covariance matrix estimate at time  $t$  for 
 As mentioned in the introduction, we use the term "volatility" to refer to the annualized standard deviation. The equally weighted estimates of volatility and correlation are obtained in two stages. First, one obtains an unbiased estimate of the unconditional covariance matrix using equally weighted averages of squared returns and cross products of returns and the same number  $n$  of data points each time. Then these are converted into volatility and correlation estimates by applying the usual formulas. For instance, if the returns are measured at the daily frequency and there are 250 trading days per year:
 
 $$
-\text {E q u a l l y w e i g h t e d v o l a t i l i t y} = \hat {\sigma} _ {t} \sqrt {2 5 0} \tag {6}
+\text{Eq ua ll yw ei gh te dv ol at il it y} = \hat {\sigma}_{t} \sqrt{2 5 0} \tag {6}
 $$
 
 $$
-\text {E q u a l l y w e i g h t e d c o r r e l a t i o n} = \hat {\varrho} _ {i j, t} = \frac {\hat {\sigma} _ {i j , t}}{\hat {\sigma} _ {i , t} \hat {\sigma} _ {j , t}}
+\text{Eq ua ll yw ei gh te dc or re la ti on} = \hat {\varrho}_{i j, t} = \frac{\hat {\sigma}_{i j , t}}{\hat {\sigma}_{i , t} \hat {\sigma}_{j , t}}
 $$
 
 In the equally weighted methodology the forecasted covariance matrix is simply taken to be the current estimate, there being nothing else in the model to distinguish an estimate from a forecast. The original risk horizon for the covariance matrix is given by the frequency of the data—daily returns will give the 1-day covariance matrix forecast, weekly returns will give the 1-week covariance matrix forecast, and so forth. Then, since the model assumes that returns are independently and identically distributed we can use the square root of time rule to convert a 1-day forecast into an  $h$ -day covariance matrix forecast, simply by multiplying each element of the 1-day matrix by  $h$ . Similarly, a monthly forecast can be obtained for the weekly forecast by multiplying each element by 4, and so forth.
@@ -150,13 +150,13 @@ Having obtained a forecast of variance, volatility, covariance, and correlation 
 A confidence interval for the true variance  $\sigma^2$  when it is estimated by an equally weighted average can be derived using a straightforward application of sampling theory. Assuming the variance estimate is based on  $n$  normally distributed returns with an assumed mean of zero, then  $T\hat{\sigma}^2 /\sigma^2$  will have a chi-squared distribution with  $T$  degrees of freedom (see Freund, 1998). A  $100(1 - \alpha)\%$  two-sided confidence interval for  $T\hat{\sigma}^2 /\sigma^2$  would therefore take the form  $(\chi_{1 - \alpha /2,T}^2,\chi_{\alpha /2,T}^2)$  and a straightforward calculation gives the associated confidence interval for the variance  $\sigma^2$  as:
 
 $$
-\left(\frac {T \hat {\sigma} ^ {2}}{\chi_ {\alpha / 2 , T} ^ {2}}, \frac {T \hat {\sigma} ^ {2}}{\chi_ {1 - \alpha / 2 , T} ^ {2}}\right) \tag {7}
+\left(\frac{T \hat {\sigma}^{2}}{\chi_{\alpha / 2 , T}^{2}}, \frac{T \hat {\sigma}^{2}}{\chi_{1 - \alpha / 2 , T}^{2}}\right) \tag {7}
 $$
 
 For example, a  $95\%$  confidence interval for an equally weighted variance forecast based on 30 observations is obtained using the upper and lower chi-squared critical values:
 
 $$
-\chi_ {0. 9 7 5, 3 0} ^ {2} = 1 6. 7 9 1 \quad \mathrm {a n d} \quad \chi_ {0. 0 2 5, 3 0} ^ {2} = 4 6. 9 7 9
+\chi_{0. 9 7 5, 3 0}^{2} = 1 6. 7 9 1 \quad \mathrm{an d} \quad \chi_{0. 0 2 5, 3 0}^{2} = 4 6. 9 7 9
 $$
 
 So the confidence interval is  $(0.6386\hat{\sigma}^2, 1.7867\hat{\sigma}^2)$  and exact values are obtained by substituting in the value of the variance estimate.
@@ -170,7 +170,7 @@ Figure 1 Confidence Interval for Variance Forecasts
 
 
 $$
-P \left(c _ {l} <   X <   c _ {u}\right) = P \left(f \left(c _ {l}\right) <   f (X) <   f \left(c _ {u}\right)\right) \tag {8}
+P \left(c_{l} <   X <   c_{u}\right) = P \left(f \left(c_{l}\right) <   f (X) <   f \left(c_{u}\right)\right) \tag {8}
 $$
 
 Property (8) provides a confidence interval for a historical volatility based on the confidence interval (7). Since  $\sqrt{x}$  is a monotonic increasing function of  $x$ , one simply takes the square root of the lower and upper bounds for the equally weighted variance. For instance if a  $95\%$  confidence interval for the variance is  $[16\%, 64\%]$  then a  $95\%$  for the associated volatility is  $[4\%, 8\%]$ . And, since  $x^2$  is also monotonic increasing for  $x > 0$ , the converse also applies. Thus if a  $95\%$  confidence interval for the volatility is  $[4\%, 8\%]$  then a  $95\%$  for the associated variance is  $[16\%, 64\%]$ .
@@ -180,7 +180,7 @@ Property (8) provides a confidence interval for a historical volatility based on
 An estimator of any parameter has a distribution and a point estimate of volatility is just the expectation of the distribution of the volatility estimator. The distribution function of the equally weighted average volatility estimator is not just square root of the distribution function of the corresponding variance estimate. In stead, it may be derived from the distribution of the variance estimator via a simple transformation. Since volatility is the square root of the variance, the density function of the volatility estimator is
 
 
-$$ g (\hat {\sigma}) = 2 \hat {\sigma} h \left(\hat {\sigma} ^ {2}\right) \quad \text {f o r} \hat {\sigma} > 0 \tag {9}
+$$ g (\hat {\sigma}) = 2 \hat {\sigma} h \left(\hat {\sigma}^{2}\right) \quad \text{fo r} \hat {\sigma} > 0 \tag {9}
 $$ where  $h(\hat{\sigma}^2)$  is the density function of the variance estimator. This follows from the fact that if  $y$  is a monotonic and differentiable function of  $x$ , then their probability densities  $g(.)$  and  $h(.)$  are related as  $g(y) = |dx / dy|h(x)$  (see Freund, 1998). Note that when  $y = \sqrt{x}$ ,  $|dx / dy| = 2y$  and so  $g(y) = 2yh(x)$ .
 
 
@@ -189,18 +189,18 @@ In addition to the point estimate or expectation, one might also estimate the st
 Standard errors for equally weighted average variance estimates are based on a normality assumption for the returns. Moving average models assume that returns are independent and identically distributed. Now assuming normality also, so that the returns are normally and independently distributed, denoted by  $\mathrm{NID}(0,\sigma^2)$ , we apply the variance operator to (3). Note that if  $X_{i}$  are independent random variables  $(i = 1,\dots,T)$ , then  $f(X_{i})$  are also independent for any monotonic differentiable function  $f$ . Hence, the squared returns are independent, and we have:
 
 $$
-V \left(\hat {\sigma} _ {t} ^ {2}\right) = \sum_ {i = 1} ^ {T} V \left(r _ {t - i} ^ {2}\right) / T ^ {2} \tag {10}
+V \left(\hat {\sigma}_{t}^{2}\right) = \sum_{i = 1}^{T} V \left(r_{t - i}^{2}\right) / T^{2} \tag {10}
 $$
 
 Since  $V(X) = E(X^2) - E(X)^2$  for any random variable  $X$ ,  $V(r_t^2) = E(r_t^4) - E(r_t^2)^2$ . By the zero mean assumption  $E(r_t^2) = \sigma^2$  and assuming normality,  $E(r_t^4) = 3\sigma^4$ . Hence for every  $t$ :
 
 $$
-V \left(r _ {t} ^ {2}\right) = 3 \sigma^ {4} - \sigma^ {4} = 2 \sigma^ {4}
+V \left(r_{t}^{2}\right) = 3 \sigma^{4} - \sigma^{4} = 2 \sigma^{4}
 $$ and substituting this into (10) gives
 
 
 $$
-V \left(\hat {\sigma} _ {t} ^ {2}\right) = \frac {2 \sigma^ {4}}{T} \tag {11}
+V \left(\hat {\sigma}_{t}^{2}\right) = \frac{2 \sigma^{4}}{T} \tag {11}
 $$
 
 Hence, the standard error of an equally weighted average variance estimate based on  $T$  zero mean squared returns is  $\sigma^2\sqrt{\frac{2}{T}}$  or simply  $\sqrt{\frac{2}{T}}$ , when expressed as a percentage of the variance. For instance, the standard error of the variance estimate is 20\% when 50 observations are used in the estimate, and 10\% when 200 observations are used in the estimate.
@@ -208,36 +208,36 @@ Hence, the standard error of an equally weighted average variance estimate based
 What about the standard error of the volatility estimator? To derive this, we first prove that for any continuously differentiable function  $f$  and random variable  $X$ :
 
 $$
-V (f (X)) \approx f ^ {\prime} (E (X)) ^ {2} V (X) \tag {12}
+V (f (X)) \approx f^{\prime} (E (X))^{2} V (X) \tag {12}
 $$
 
 To show this, we take a second order Taylor expansion of  $f$  about the mean of  $X$  and then take expectations. See Alexander (2008a), Chapter 1. This gives:
 
 $$
-E (f (X)) \approx f (E (X)) + ^ {1 / 2} f ^ {\prime \prime} (E (X)) V (X) \tag {13}
+E (f (X)) \approx f (E (X)) +^{1 / 2} f^{\prime \prime} (E (X)) V (X) \tag {13}
 $$
 
 Similarly,
 
 $$
-\begin{array}{l} E \left(f (X) ^ {2}\right) \approx f (E (X)) ^ {2} + \left(f ^ {\prime} (E (X)) ^ {2} \right. \\ + f (E (X)) f ^ {\prime \prime} (E (X))) V (X) \tag {14} \\ \end{array}
+\begin{array}{l} E \left(f (X)^{2}\right) \approx f (E (X))^{2} + \left(f^{\prime} (E (X))^{2} \right. \\ + f (E (X)) f^{\prime \prime} (E (X))) V (X) \tag {14} \\ \end{array}
 $$ again ignoring higher-order terms. The result (12) follows on noting that:
 
 
 $$
-V (f (X)) = E (f (X) ^ {2}) - E (f (X)) ^ {2}
+V (f (X)) = E (f (X)^{2}) - E (f (X))^{2}
 $$
 
 We can now use (11) and (12) to derive the standard error of a historical volatility estimate. From (12) we have  $V(\hat{\sigma}^2) \approx (2\hat{\sigma})^2 V(\hat{\sigma})$  and so:
 
 $$
-V (\hat {\sigma}) \approx \frac {V (\hat {\sigma} ^ {2})}{(2 \hat {\sigma}) ^ {2}} \tag {15}
+V (\hat {\sigma}) \approx \frac{V (\hat {\sigma}^{2})}{(2 \hat {\sigma})^{2}} \tag {15}
 $$
 
 Now using (11) in (15) we obtain the variance of the volatility estimator as:
 
 $$
-V (\hat {\sigma}) = \left(\frac {1}{2 \sigma^ {2}}\right) \left(\frac {2 \sigma^ {4}}{T}\right) = \frac {\sigma^ {2}}{2 T} \tag {16}
+V (\hat {\sigma}) = \left(\frac{1}{2 \sigma^{2}}\right) \left(\frac{2 \sigma^{4}}{T}\right) = \frac{\sigma^{2}}{2 T} \tag {16}
 $$ so the standard error of the volatility estimator as a percentage of volatility is  $(2T)^{-1 / 2}$ . This result tells us that the standard error of the volatility estimator (as a percentage of volatility) is approximately one-half the size of the standard error of the variance (as a percentage of the variance).
 
 
@@ -246,19 +246,19 @@ Thus, as a percentage of the volatility, the standard error of the historical vo
 It is harder to derive the standard error of an equally weighted average correlation estimate. However, it can be shown that
 
 $$
-V \left(\hat {\varrho} _ {i j}\right) = \frac {1 - \varrho^ {2}}{T - 2} \tag {17}
+V \left(\hat {\varrho}_{i j}\right) = \frac{1 - \varrho^{2}}{T - 2} \tag {17}
 $$ and so we have the following  $t$ -distribution for the correlation estimate divided by its standard error:
 
 
 $$
-\frac {\hat {\varrho} _ {i j} \sqrt {T - 2}}{\sqrt {1 - \hat {\varrho} _ {i j} ^ {2}}} \sim t _ {T - 2} \tag {18}
+\frac{\hat {\varrho}_{i j} \sqrt{T - 2}}{\sqrt{1 - \hat {\varrho}_{i j}^{2}}} \sim t_{T - 2} \tag {18}
 $$
 
 In particular, the significance of a correlation estimate depends on the number of observations that are used in the sample.
 
 To illustrate testing for the significance of historical correlation, suppose that a historical correlation estimate of 0.2 is obtained using 38 observations. Is this significantly greater than zero? The null hypothesis is  $H_0: \varrho = 0$ , the alternative hypothesis is  $H_1: \varrho > 0$ , and the test statistic is (18). Computing the value of this statistic given our data gives
 
-$$ t = \frac {0 . 2 \times 6}{\sqrt {1 - 0 . 0 4}} = \frac {1 2}{\sqrt {9 6}} = \frac {3}{\sqrt {6}} = \sqrt {1 . 5} = 1. 2 2 5
+$$ t = \frac{0 . 2 \times 6}{\sqrt{1 - 0 . 0 4}} = \frac{1 2}{\sqrt{9 6}} = \frac{3}{\sqrt{6}} = \sqrt{1 . 5} = 1. 2 2 5
 $$
 
 Even the  $10\%$  upper critical value of the  $t$ -distribution with 36 degrees of freedom is greater than this value (it is in fact 1.3). Hence we cannot reject the null hypothesis: 0.2 is not significantly greater than zero when estimated from 38 observations. However, if the same value of 0.2 had been obtained from a sample with, say, 100 observations our  $t$ -value would have been 2.02, which is significantly positive at the  $2.5\%$  level because the upper  $2.5\%$  critical value of the  $t$ -distribution with 98 degrees of freedom is 1.98.
@@ -401,35 +401,35 @@ An exponentially weighted moving average (EWMA) avoids the pitfalls explained in
 An exponentially weighted moving average can be defined on any time series of data. Say that on date  $t$  we have recorded data up to time  $t - 1$ , so we have observations  $(x_{t-1}, \ldots, x_1)$ . The exponentially weighted average of these observations is defined as:
 
 $$
-\begin{array}{l} \operatorname {E W M A} \left(x _ {t - 1}, \dots , x _ {1}\right) \\ = \frac {x _ {t - 1} + \lambda x _ {t - 2} + \lambda^ {2} x _ {t - 3} + \dots . + \lambda^ {t - 2} x _ {1}}{1 + \lambda + \lambda^ {2} + \dots . + \lambda^ {t - 2}} \\ \end{array}
+\begin{array}{l} \operatorname{EW MA} \left(x_{t - 1}, \dots , x_{1}\right) \\ = \frac{x_{t - 1} + \lambda x_{t - 2} + \lambda^{2} x_{t - 3} + \dots . + \lambda^{t - 2} x_{1}}{1 + \lambda + \lambda^{2} + \dots . + \lambda^{t - 2}} \\ \end{array}
 $$ where  $\lambda$  is a constant,  $0 < \lambda < 1$ , called the smoothing or the decay constant. Since  $\lambda^{\mathrm{T}} \to 0$  as  $\mathrm{T} \to \infty$  the exponentially weighted average places negligible weight on observations far in the past. And since  $1 + \lambda + \lambda^{2} + \dots = (1 - \lambda)^{-1}$  we have, for large  $t$ ,
 
 
 $$
-\begin{array}{l} \operatorname {E W M A} \left(x _ {t - 1, \dots , x _ {1}}\right) \approx \frac {x _ {t - 1} + \lambda x _ {t - 2} + \lambda^ {2} x _ {t - 3} + \dots \dots .}{1 + \lambda + \lambda^ {2} + \dots \dots .} \\ = (1 - \lambda) \sum_ {i = 1} ^ {\infty} \lambda^ {i - 1} x _ {t - i} \\ \end{array}
+\begin{array}{l} \operatorname{EW MA} \left(x_{t - 1, \dots , x_{1}}\right) \approx \frac{x_{t - 1} + \lambda x_{t - 2} + \lambda^{2} x_{t - 3} + \dots \dots .}{1 + \lambda + \lambda^{2} + \dots \dots .} \\ = (1 - \lambda) \sum_{i = 1}^{\infty} \lambda^{i - 1} x_{t - i} \\ \end{array}
 $$
 
 This is the formula that is used to calculate exponentially weighted moving average (EWMA) estimates of variance (with  $x$  being the squared return) and covariance (with  $x$  being the cross product of the two returns). As with equally weighted moving averages, it is standard to use squared daily returns and cross products of daily returns, not in mean deviation form. That is:
 
 
 $$
-\hat {\sigma} _ {t} ^ {2} = (1 - \lambda) \sum_ {i = 1} ^ {\infty} \lambda^ {i - 1} r _ {t - i} ^ {2} \tag {19}
+\hat {\sigma}_{t}^{2} = (1 - \lambda) \sum_{i = 1}^{\infty} \lambda^{i - 1} r_{t - i}^{2} \tag {19}
 $$ and
 
 
 $$
-\hat {\sigma} _ {1 2, t} = (1 - \lambda) \sum_ {i = 1} ^ {\infty} \lambda^ {i - 1} r _ {1, t - i} r _ {2, t - i} \tag {20}
+\hat {\sigma}_{1 2, t} = (1 - \lambda) \sum_{i = 1}^{\infty} \lambda^{i - 1} r_{1, t - i} r_{2, t - i} \tag {20}
 $$
 
 The above formulas may be rewritten in the form of recursions, more easily used in calculations:
 
 $$
-\hat {\sigma} _ {t} ^ {2} = (1 - \lambda) r _ {t - 1} ^ {2} + \lambda \hat {\sigma} _ {t - 1} ^ {2} \tag {21}
+\hat {\sigma}_{t}^{2} = (1 - \lambda) r_{t - 1}^{2} + \lambda \hat {\sigma}_{t - 1}^{2} \tag {21}
 $$ and
 
 
 $$
-\hat {\sigma} _ {1 2, t} = (1 - \lambda) r _ {1, t - 1} r _ {2, t - 1} + \lambda \hat {\sigma} _ {1 2, t - 1} \tag {22}
+\hat {\sigma}_{1 2, t} = (1 - \lambda) r_{1, t - 1} r_{2, t - 1} + \lambda \hat {\sigma}_{1 2, t - 1} \tag {22}
 $$
 
 An alternative notation used for the above is  $V_{\lambda}(r_t)$ , for  $\hat{\sigma}_t^2$  and  $COV_{\lambda}(r_{1,t},r_{2,t})$  for  $\hat{\sigma}_{12,t}$  when we want to make explicit the dependence on the smoothing constant.
@@ -437,12 +437,12 @@ An alternative notation used for the above is  $V_{\lambda}(r_t)$ , for  $\hat{\
 One converts the variance to volatility by taking the annualized square root, the annualizing constant being determined by the data frequency as usual. Note that for the EWMA correlation the covariance is divided by the square root of the product of the two EWMA variance estimates, all with the same value of  $\lambda$ . Similarly for the EWMA beta the covariance between the stock (or portfolio) returns and the market returns is divided by the EWMA estimate for the market variance, both with the same value of  $\lambda$ . That is:
 
 $$
-\hat {\varrho} _ {t, \lambda} = \frac {C O V _ {\lambda} \left(r _ {1 , t} , r _ {2 , t}\right)}{\sqrt {V _ {\lambda} \left(r _ {1 , t}\right) V _ {\lambda} \left(r _ {2 , t}\right)}} \tag {23}
+\hat {\varrho}_{t, \lambda} = \frac{C O V_{\lambda} \left(r_{1 , t} , r_{2 , t}\right)}{\sqrt{V_{\lambda} \left(r_{1 , t}\right) V_{\lambda} \left(r_{2 , t}\right)}} \tag {23}
 $$ and
 
 
 $$
-\hat {\beta} _ {t, \lambda} = \frac {C O V _ {\lambda} \left(X _ {t} , Y _ {t}\right)}{V _ {\lambda} \left(X _ {t}\right)} \tag {24}
+\hat {\beta}_{t, \lambda} = \frac{C O V_{\lambda} \left(X_{t} , Y_{t}\right)}{V_{\lambda} \left(X_{t}\right)} \tag {24}
 $$
 
 # Interpretation of  $\lambda$
@@ -479,7 +479,7 @@ The exponentially weighted average variance estimate (19), or in its equivalent 
 Without a proper model, it is not clear how we should turn our current estimate of variance into a forecast of variance over some future horizon. One possibility is to augment (21) by assuming it is the estimate associated with the model
 
 $$
-\sigma_ {t} ^ {2} = (1 - \lambda) r _ {t - 1} ^ {2} + \lambda \sigma_ {t - 1} ^ {2} \quad r _ {t} \left| I _ {t - 1} \sim N \left(0, \sigma_ {t} ^ {2}\right) \right. \tag {25}
+\sigma_{t}^{2} = (1 - \lambda) r_{t - 1}^{2} + \lambda \sigma_{t - 1}^{2} \quad r_{t} \left| I_{t - 1} \sim N \left(0, \sigma_{t}^{2}\right) \right. \tag {25}
 $$
 
 An alternative is to assume a constant volatility, so the fact that our estimates are time vary ing is merely due to sampling error. In that case any EWMA variance forecast must be constant and equal to the current EWMA estimate. Similar remarks apply to the EWMA covariance, this time regarding EWMA as a simplistic version of bivariate normal GARCH. Similarly, the EWMA volatility (or correlation) forecast for all risk horizons is simply set at the current EWMA estimate of volatility (or correlation). The base horizon for the forecast is given by the frequency of the data—daily returns will give the one-day covariance matrix forecast, weekly returns will give the one-week covariance matrix forecast, and so forth. Then, since the returns are independent and identically distributed, the square root of time rule applies. So we can convert a one-day forecast into an  $h$ -day covariance matrix forecast by multiplying each element of the one-day EWMA covariance matrix by  $h$ .
@@ -492,20 +492,20 @@ Since the choice of  $\lambda$  itself is quite ad hoc, as discussed above, some
 In the previous section, we justified the assumption that the underlying returns are normally and independently distributed with mean zero and variance  $\sigma^2$ . That is, for all  $t$
 
 $$
-E \left(r _ {t}\right) = 0 \quad \text {a n d} \quad V \left(r _ {t}\right) = E \left(r _ {t} ^ {2}\right) = \sigma^ {2}
+E \left(r_{t}\right) = 0 \quad \text{an d} \quad V \left(r_{t}\right) = E \left(r_{t}^{2}\right) = \sigma^{2}
 $$
 
 In this section, we use this assumption to obtain standard errors for EWMA forecasts. From the above, and further from the normality assumption, we have:
 
 $$
-V \left(r _ {t} ^ {2}\right) = E \left(r _ {t} ^ {4}\right) - E \left(r _ {t} ^ {2}\right) ^ {2} = 3 \sigma^ {4} - \sigma^ {4} = 2 \sigma^ {4}
+V \left(r_{t}^{2}\right) = E \left(r_{t}^{4}\right) - E \left(r_{t}^{2}\right)^{2} = 3 \sigma^{4} - \sigma^{4} = 2 \sigma^{4}
 $$
 
 Now we can apply the variance operator to (21) and calculate the variance of the EWMA variance estimator as:
 
 
 $$
-V \left(\hat {\sigma} _ {t} ^ {2}\right) = \frac {(1 - \lambda) ^ {2}}{(1 - \lambda^ {2})} V \left(r _ {t} ^ {2}\right) = 2 \frac {1 - \lambda}{1 + \lambda} \sigma^ {4} \tag {26}
+V \left(\hat {\sigma}_{t}^{2}\right) = \frac{(1 - \lambda)^{2}}{(1 - \lambda^{2})} V \left(r_{t}^{2}\right) = 2 \frac{1 - \lambda}{1 + \lambda} \sigma^{4} \tag {26}
 $$
 
 For instance, as a percentage of the variance, the standard error of the EWMA variance estimator is about  $5\%$  when  $\lambda = 0.95$ ,  $10.5\%$  when  $\lambda = 0.9$ , and  $16.2\%$  when  $\lambda = 0.85$ .

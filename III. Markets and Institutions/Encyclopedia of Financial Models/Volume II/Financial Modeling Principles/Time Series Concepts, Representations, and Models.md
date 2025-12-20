@@ -22,7 +22,7 @@ In this entry, we discuss only time series at discrete and fixed intervals of ti
 
 A time series is a collection of random variables  $X_{t}$  indexed with a discrete time index  $t = \dots -2, -1,0,1,2,\ldots$ . The variables  $X_{t}$  are defined over a probability space  $(\Omega, P, \mathfrak{I})$ , where  $\Omega$  is the set of states,  $P$  is a probability measure, and  $\mathfrak{I}$  is the  $\sigma$ -algebra of events, equipped with a discrete filtration  $\{\mathfrak{I}_t\}$  that determines the propagation of information (see the Appendix). A realization of a time series is a countable sequence of real numbers, one for each time point.
 $$
-F _ {s} (x _ {s} / x _ {t}), \quad s > t
+F_{s} (x_{s} / x_{t}), \quad s > t
 $$
 
 If the series starts from a given point, initial conditions must be fixed. Initial conditions might be a set of fixed values or a set of random variables. If the initial conditions are not fixed values but random variables, one has to consider the correlation between the initial values and the random shocks of the series. A usual assumption is that the initial conditions and the random shocks of the series are statistically independent.
@@ -81,14 +81,14 @@ There are several general representations (or models) of time series. This secti
 
 The most fundamental model of a univariate stationary time series is the infinite moving average of a white noise process. In fact, it can be demonstrated that under mild regularity conditions, any univariate stationary causal time series admits the following infinite moving-average representation:
 
-$$ x _ {t} = \sum_ {i = 0} ^ {\infty} h _ {i} \varepsilon_ {t - i} + m
+$$ x_{t} = \sum_{i = 0}^{\infty} h_{i} \varepsilon_{t - i} + m
 $$ where the  $h_i$  are coefficients and  $\varepsilon_{t - i}$  is a one-dimensional zero-mean white-noise process. This is a causal time series as the present value of the series depends only on the present and past values of the noise process. A more general infinite moving-average representation would involve a summation that extends from  $-\infty$  to  $+\infty$ . Because this representation would not make sense from an economic point of view, we will restrict ourselves only to causal time series.
 
 
 A sufficient condition for the above series to be stationary is that the coefficients  $h_i$  are absolutely summable:
 
 $$
-\sum_ {i = 0} ^ {\infty} \left| h _ {i} \right| ^ {2} <   \infty
+\sum_{i = 0}^{\infty} \left| h_{i} \right|^{2} <   \infty
 $$
 
 # The Lag Operator  $L$
@@ -97,19 +97,19 @@ Let's now simplify the notation by introducing the lag operator  $L$ . The lag o
 
 
 $$
-L \left(x _ {t}\right) = x _ {t - 1}
+L \left(x_{t}\right) = x_{t - 1}
 $$
 
 The  $n$ -th power of the lag operator shifts a series by  $n$  places:
 
 $$
-L ^ {n} (x _ {t}) = x _ {t - n}
+L^{n} (x_{t}) = x_{t - n}
 $$
 
 Negative powers of the lag operator yield the forward operator  $F$ , which shifts places to the right. The lag operator can be multiplied by a scalar and different powers can be added. In this way, linear functions of different powers of the lag operator can be formed as follows:
 
 $$
-A (L) = \sum_ {i = 1} ^ {N} a _ {i} L ^ {i}
+A (L) = \sum_{i = 1}^{N} a_{i} L^{i}
 $$
 
 Note that if the lag operator is applied to a series that starts from a given point, initial conditions must be specified.
@@ -117,73 +117,73 @@ Note that if the lag operator is applied to a series that starts from a given po
 Within the domain of stationary series, infinite power series of the lag operator can also be formed. In fact, given a stationary series, if the coefficients  $h_i$  are absolutely summable, the series
 
 $$
-\sum_ {i = 0} ^ {\infty} h _ {i} L ^ {i} x _ {t}
+\sum_{i = 0}^{\infty} h_{i} L^{i} x_{t}
 $$ is well defined in the sense that it converges and defines another stationary series. It therefore makes sense to define the operator:
 
 
 $$
-A (L) = \sum_ {i = 0} ^ {\infty} h _ {i} L ^ {i}
+A (L) = \sum_{i = 0}^{\infty} h_{i} L^{i}
 $$
 
 Now consider the operator  $I - \lambda L$ . If  $|\lambda| < 1$ , this operator can be inverted and its inverse is given by the infinite power series,
 
 $$
-(I - \lambda L) ^ {- 1} = \sum_ {i = 0} ^ {\infty} \lambda^ {i} L ^ {i}
+(I - \lambda L)^{- 1} = \sum_{i = 0}^{\infty} \lambda^{i} L^{i}
 $$ as can be seen by multiplying  $I - \lambda L$  by the power series  $\sum_{i=1}^{\infty} \lambda^i L^i$ :
 
 
 $$
-(I - \lambda L) \sum_ {i = 1} ^ {\infty} \lambda^ {i} L ^ {i} = L ^ {0} = I
+(I - \lambda L) \sum_{i = 1}^{\infty} \lambda^{i} L^{i} = L^{0} = I
 $$
 
 On the basis of this relationship, it can be demonstrated that any operator of the type
 
 $$
-A (L) = \sum_ {i = 1} ^ {N} a _ {i} L ^ {i}
+A (L) = \sum_{i = 1}^{N} a_{i} L^{i}
 $$ can be inverted provided that the solutions of the equation
 
 
 $$
-\sum_ {i = 1} ^ {N} a _ {i} z ^ {i} = 0
+\sum_{i = 1}^{N} a_{i} z^{i} = 0
 $$ have absolute values strictly greater than 1. The inverse operator is an infinite power series
 
 
 $$
-A ^ {- 1} (L) = \sum_ {i = 0} ^ {\infty} \psi_ {i} L ^ {i}
+A^{- 1} (L) = \sum_{i = 0}^{\infty} \psi_{i} L^{i}
 $$
 
 Given two linear functions of the operator  $L$ , it is possible to define their product
 
 $$
-A (L) = \sum_ {i = 1} ^ {M} a _ {i} L ^ {i}
+A (L) = \sum_{i = 1}^{M} a_{i} L^{i}
 $$
 
 $$
-B (L) = \sum_ {j = 1} ^ {N} b _ {i} L ^ {i}
+B (L) = \sum_{j = 1}^{N} b_{i} L^{i}
 $$
 
 $$
-P (L) = A (L) B (L) = \sum_ {i = 1} ^ {M + N} p _ {i} L ^ {i}
+P (L) = A (L) B (L) = \sum_{i = 1}^{M + N} p_{i} L^{i}
 $$
 
-$$ p _ {i} = \sum_ {r = 1} ^ {i} a _ {r} b _ {i - r}
+$$ p_{i} = \sum_{r = 1}^{i} a_{r} b_{i - r}
 $$
 
 The convolution product of two infinite series in the lag operator is defined in a similar way
 
 $$
-A (L) = \sum_ {i = 0} ^ {\infty} a _ {i} L ^ {i}
+A (L) = \sum_{i = 0}^{\infty} a_{i} L^{i}
 $$
 
 $$
-B (L) = \sum_ {j = 0} ^ {\infty} b _ {i} L ^ {i}
+B (L) = \sum_{j = 0}^{\infty} b_{i} L^{i}
 $$
 
 $$
-C (L) = A (L) \times B (L) = \sum_ {k = 0} ^ {\infty} c _ {k} L ^ {k}
+C (L) = A (L) \times B (L) = \sum_{k = 0}^{\infty} c_{k} L^{k}
 $$
 
-$$ c _ {k} = \sum_ {s = 0} ^ {k} a _ {s} b _ {k - s}
+$$ c_{k} = \sum_{s = 0}^{k} a_{s} b_{k - s}
 $$
 
 We can define the left-inverse (right-inverse) of an infinite series as the operator  $A^{-1}(L)$ , such that  $A^{-1}(L) \times A(L) = I$ . The inverse can always be computed solving an infinite set of recursive equations provided that  $a_0 \neq 0$ . However, the inverse series will not necessarily be stationary. A sufficient condition for stationarity is that the coefficients of the inverse series are absolutely summable.
@@ -191,12 +191,12 @@ We can define the left-inverse (right-inverse) of an infinite series as the oper
 In general, it is possible to perform on the symbolic series
 
 $$
-H (L) = \sum_ {i = 1} ^ {\infty} h _ {i} L ^ {i}
+H (L) = \sum_{i = 1}^{\infty} h_{i} L^{i}
 $$ the same operations that can be performed on the series
 
 
 $$
-H (z) = \sum_ {i = 1} ^ {\infty} h _ {i} z ^ {i}
+H (z) = \sum_{i = 1}^{\infty} h_{i} z^{i}
 $$ with  $z$  complex variable. However operations performed on a series of lag operators neither assume nor entail convergence properties. In fact, one can think of  $z$  simply as a symbol. In particular, the inverse does not necessarily exhibit absolutely summable coefficients.
 
 
@@ -204,19 +204,19 @@ $$ with  $z$  complex variable. However operations performed on a series of lag 
 
 Using the lag operator  $L$  notation, the infinite moving-average representation can be written as follows:
 
-$$ x _ {t} = \left(\sum_ {i = 0} ^ {\infty} h _ {i} L ^ {i}\right) \varepsilon_ {t} + m = H (L) \varepsilon_ {t} + m
+$$ x_{t} = \left(\sum_{i = 0}^{\infty} h_{i} L^{i}\right) \varepsilon_{t} + m = H (L) \varepsilon_{t} + m
 $$
 
 Consider now the inverse series:
 
 $$
-\Pi (L) = \sum_ {i = 0} ^ {\infty} \lambda_ {i} L ^ {i}, \quad \Pi (L) H (L) = I
+\Pi (L) = \sum_{i = 0}^{\infty} \lambda_{i} L^{i}, \quad \Pi (L) H (L) = I
 $$
 
 If the coefficients  $\lambda_{i}$  are absolutely summable, we can write
 
 $$
-\varepsilon_ {t} = \Pi (L) x _ {t} = \sum_ {i = 0} ^ {\infty} \lambda_ {i} L ^ {i} x _ {t - i}
+\varepsilon_{t} = \Pi (L) x_{t} = \sum_{i = 0}^{\infty} \lambda_{i} L^{i} x_{t - i}
 $$ and the series is said to be invertible.
 
 
@@ -225,53 +225,53 @@ $$ and the series is said to be invertible.
 The concepts of infinite moving-average representation and of invertibility defined above for univariate series carry over immediately to the multivariate case. In fact, it can be demonstrated that under mild regularity conditions, any multivariate stationary causal time series admits the following infinite moving-average representation:
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \varepsilon_ {t - i} + \mathbf {m}
+\mathbf {x}_{t} = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \varepsilon_{t - i} + \mathbf {m}
 $$ where the  $\mathbf{H}_i$  are  $n\times n$  matrices,  $\varepsilon_{t}$  is an  $n$ -dimensional, zero-mean, white noise process with nonsingular variance-covariance matrix  $\Omega$ , and  $\mathbf{m}$  is an  $n$ -vector of constants. The coefficients  $\mathbf{H}_i$  are called Markov coefficients. This moving-average representation is called the Wold representation. Wold representation states that any series where only the past influences the present can be represented as an infinite moving average of white noise terms. Note that, as in the univariate case, the infinite moving-average representation can be written in more general terms as a sum that extends from  $-\infty$  to  $+\infty$ . However, a series of this type is not suitable for financial modeling as it is not causal (that is, the future influences the present). Therefore we consider only moving averages that extend to past terms.
 
 
 Suppose that the Markov coefficients are an absolutely summable series:
 
 $$
-\sum_ {i = 0} ^ {\infty} | | \mathbf {H} _ {t} | | <   + \infty
+\sum_{i = 0}^{\infty} | | \mathbf {H}_{t} | | <   + \infty
 $$ where  $\| \mathbf{H}\| ^2$  indicates the largest eigenvalue of the matrix  $\mathbf{HH}^{\prime}$ . Under this assumption, it can be demonstrated that the series is stationary and that the (time-invariant) first two moments can be computed in the following way:
 
 
 $$
-\operatorname {c o v} \left(\mathbf {x} _ {t} \mathbf {x} _ {t - h}\right) = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \boldsymbol {\Omega} \mathbf {H} _ {i - h} ^ {\prime}
+\operatorname{co v} \left(\mathbf {x}_{t} \mathbf {x}_{t - h}\right) = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \boldsymbol {\Omega} \mathbf {H}_{i - h}^{\prime}
 $$
 
 $$
-E \left[ \mathbf {x} _ {t} \right] = \mathbf {m}
+E \left[ \mathbf {x}_{t} \right] = \mathbf {m}
 $$ with the convention  $\mathbf{H}_i = 0$  if  $i < 0$ . Note that the assumption that the Markov coefficients are an absolutely summable series is essential, otherwise the covariance matrix would not exist. For instance, if the  $\mathbf{H}_i$  were identity matrices, the variances of the series would become infinite.
 
 
 As the second moments are all constants, the series is weakly stationary. We can write the time-independent autocovariance function of the series, which is an  $n \times n$  matrix whose entries are a function of the lag  $h$ , as
 
 $$
-\Gamma_ {\mathbf {x}} (h) = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \boldsymbol {\Omega} \mathbf {H} _ {i - h} ^ {\prime}
+\Gamma_{\mathbf {x}} (h) = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \boldsymbol {\Omega} \mathbf {H}_{i - h}^{\prime}
 $$
 
 Under the assumption that the Markov coefficients are an absolutely summable series, we can use the lag-operator  $L$  representation and write the operator
 
 $$
-\mathbf {H} (L) = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} L ^ {i}
+\mathbf {H} (L) = \sum_{i = 0}^{\infty} \mathbf {H}_{i} L^{i}
 $$ so that the Wold representation of a series can be written as
 
 
 $$
-\mathbf {x} _ {t} = \mathbf {H} (L) \boldsymbol {\varepsilon} + \mathbf {m}
+\mathbf {x}_{t} = \mathbf {H} (L) \boldsymbol {\varepsilon} + \mathbf {m}
 $$
 
 The concept of invertibility carries over to the multivariate case. A multivariate stationary time series is said to be invertible if it can be represented in autoregressive form. Invertibility means that the white noise process can be recovered as a function of the series. In order to explain the notion of invertible processes, it is useful to introduce the generating function of the operator  $\mathbf{H}$ , defined as the following matrix power series:
 
 $$
-\mathbf {H} (z) = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} z ^ {i}
+\mathbf {H} (z) = \sum_{i = 0}^{\infty} \mathbf {H}_{i} z^{i}
 $$
 
 It can be demonstrated that, if  $\mathbf{H}_0 = \mathbf{I}$ , then  $\mathbf{H}(0) = \mathbf{H}_0$  and the power series  $\mathbf{H}(z)$  is invertible in the sense that it is possible to formally derive the inverse series,
 
 $$
-\boldsymbol {\Pi} (z) = \sum_ {i = 0} ^ {\infty} \boldsymbol {\Pi} _ {i} z ^ {i}
+\boldsymbol {\Pi} (z) = \sum_{i = 0}^{\infty} \boldsymbol {\Pi}_{i} z^{i}
 $$ such that
 
 
@@ -281,7 +281,7 @@ $$ where the product is intended as a convolution product. If the coefficients  
 
 
 $$
-\boldsymbol {\Pi} (L) (\mathbf {x} _ {t} - \mathbf {m}) = \varepsilon_ {t}
+\boldsymbol {\Pi} (L) (\mathbf {x}_{t} - \mathbf {m}) = \varepsilon_{t}
 $$
 
 In this case the process  $\mathbf{x}_t$  is said to be invertible.
@@ -293,7 +293,7 @@ From the above, it is clear that the infinite moving average representation is a
 Let's now look at nonstationary series. As there is no very general model of nonstationary time series valid for all nonstationary series, we have to restrict somehow the family of admissible models. Let's consider a family of linear, moving-average, nonstationary models of the following type:
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {t} \mathbf {H} _ {i} \varepsilon_ {t - i} + \mathbf {h} (t) \mathbf {z} _ {- 1}
+\mathbf {x}_{t} = \sum_{i = 0}^{t} \mathbf {H}_{i} \varepsilon_{t - i} + \mathbf {h} (t) \mathbf {z}_{- 1}
 $$ where the  $\mathbf{H}_i$  are left unrestricted and do not necessarily form an absolutely summable series,  $\mathbf{h}(t)$  is deterministic, and  $\mathbf{z}_{-1}$  is a random vector called the initial conditions, which is supposed to be uncorrelated with the white noise process. The essential differences of this linear model with respect to the Wold representation of stationary series are:
 
 
@@ -305,28 +305,28 @@ The first two moments of a linear process are not constant. They can be computed
 
 
 $$
-\begin{array}{l} \operatorname {c o v} \left(\mathbf {x} _ {t} \mathbf {x} _ {t - h}\right) = \sum_ {i = 0} ^ {t} \mathbf {H} _ {i} \boldsymbol {\Omega} \mathbf {H} _ {i - h} ^ {\prime} + \mathbf {h} (t) \operatorname {v a r} (\mathbf {z}) \mathbf {h} ^ {\prime} \\ E \left[ \mathbf {x} _ {t} \right] = \mathbf {m} _ {t} = \mathbf {h} (t) E [ \mathbf {z} ] \\ \end{array}
+\begin{array}{l} \operatorname{co v} \left(\mathbf {x}_{t} \mathbf {x}_{t - h}\right) = \sum_{i = 0}^{t} \mathbf {H}_{i} \boldsymbol {\Omega} \mathbf {H}_{i - h}^{\prime} + \mathbf {h} (t) \operatorname{va r} (\mathbf {z}) \mathbf {h}^{\prime} \\ E \left[ \mathbf {x}_{t} \right] = \mathbf {m}_{t} = \mathbf {h} (t) E [ \mathbf {z} ] \\ \end{array}
 $$
 
 Let's now see how a linear process can be expressed in autoregressive form. To simplify notation let's introduce the processes  $\tilde{\mathbf{x}}_t$  and  $\tilde{\mathbf{x}}_t$  and the deterministic series  $\tilde{\mathbf{h}}(t)$  defined as follows:
 
 $$
-\tilde {\boldsymbol {\varepsilon}} _ {t} = \left\{ \begin{array}{l l} \boldsymbol {\varepsilon} _ {t} & \text {i f} t > 0 \\ 0 & \text {i f} t <   0 \end{array} \right. \quad \tilde {\mathbf {x}} _ {t} = \left\{ \begin{array}{l l} \mathbf {x} _ {t} & \text {i f} t > 0 \\ 0 & \text {i f} t <   0 \end{array} \right.
+\tilde {\boldsymbol {\varepsilon}}_{t} = \left\{ \begin{array}{l l} \boldsymbol {\varepsilon}_{t} & \text{if } t > 0 \\ 0 & \text{if } t <   0 \end{array} \right. \quad \tilde {\mathbf {x}}_{t} = \left\{ \begin{array}{l l} \mathbf {x}_{t} & \text{if } t > 0 \\ 0 & \text{if } t <   0 \end{array} \right.
 $$
 
 $$
-\tilde {\mathbf {h}} _ {t} = \left\{ \begin{array}{l l} \mathbf {h} _ {t} & \text {i f} t > 0 \\ 0 & \text {i f} t <   0 \end{array} \right.
+\tilde {\mathbf {h}}_{t} = \left\{ \begin{array}{l l} \mathbf {h}_{t} & \text{if } t > 0 \\ 0 & \text{if } t <   0 \end{array} \right.
 $$
 
 It can be demonstrated that, due to the initial conditions, a linear process always satisfies the following autoregressive equation:
 
 $$
-\boldsymbol {\Pi} (L) \bar {\mathbf {x}} _ {t} = \varepsilon_ {t} + \boldsymbol {\Pi} (L) \tilde {\mathbf {h}} _ {t} \times (t) \mathbf {z} _ {- 1}
+\boldsymbol {\Pi} (L) \bar {\mathbf {x}}_{t} = \varepsilon_{t} + \boldsymbol {\Pi} (L) \tilde {\mathbf {h}}_{t} \times (t) \mathbf {z}_{- 1}
 $$
 
 A random walk model
 
-$$ x _ {t} = x _ {t - 1} + \varepsilon_ {t} = \varepsilon_ {t} + \sum_ {i = 1} ^ {t} \varepsilon_ {t - i}
+$$ x_{t} = x_{t - 1} + \varepsilon_{t} = \varepsilon_{t} + \sum_{i = 1}^{t} \varepsilon_{t - i}
 $$ is an example of a linear nonstationary model.
 
 
@@ -342,36 +342,36 @@ The infinite moving average or autoregressive representations of the previous se
 
 Let's start with univariate stationary processes. An autoregressive process of order  $p - \operatorname{AR}(p)$  is a process of the form:
 
-$$ x _ {t} + a _ {1} x _ {t - 1} + \dots + a _ {p} x _ {t - p} = \varepsilon_ {t}
+$$ x_{t} + a_{1} x_{t - 1} + \dots + a_{p} x_{t - p} = \varepsilon_{t}
 $$ which can be written using the lag operator as
 
 
 $$
-\begin{array}{l} A (L) x _ {t} = \left(1 + a _ {1} L + \dots + a _ {P} L ^ {p}\right) x _ {t} \\ = x _ {t} + a _ {1} L x _ {t} + \dots + a _ {P} L ^ {p} x _ {t - P} = \varepsilon_ {t} \\ \end{array}
+\begin{array}{l} A (L) x_{t} = \left(1 + a_{1} L + \dots + a_{P} L^{p}\right) x_{t} \\ = x_{t} + a_{1} L x_{t} + \dots + a_{P} L^{p} x_{t - P} = \varepsilon_{t} \\ \end{array}
 $$
 
 Not all processes that can be written in autoregressive form are stationary. In order to study the stationarity of an autoregressive process, consider the following polynomial:
 
 $$
-A (z) = 1 + a _ {1} z + \ldots + a _ {p} z ^ {p}
+A (z) = 1 + a_{1} z + \ldots + a_{p} z^{p}
 $$ where  $z$  is a complex variable.
 
 
 The equation
 
 $$
-A (z) = 1 + a _ {1} z + \ldots + a _ {P} z ^ {p} = 0
+A (z) = 1 + a_{1} z + \ldots + a_{P} z^{p} = 0
 $$ is called the inverse characteristic equation. It can be demonstrated that if the roots of this equation, that is, its solutions, are all strictly greater than 1 in modulus (that is, the roots are outside the unit circle), then the operator  $A(L)$  is invertible and admits the inverse representation:
 
 
 $$
-\begin{array}{l} x _ {t} = A ^ {- 1} (L) \varepsilon_ {t} \\ = \sum_ {i = 0} ^ {+ \infty} \lambda_ {i} \varepsilon_ {t - i}, \quad \text {w i t h} \quad \sum_ {i = 0} ^ {+ \infty} | \lambda_ {i} | <   + \infty \\ \end{array}
+\begin{array}{l} x_{t} = A^{- 1} (L) \varepsilon_{t} \\ = \sum_{i = 0}^{+ \infty} \lambda_{i} \varepsilon_{t - i}, \quad \text{wi th} \quad \sum_{i = 0}^{+ \infty} | \lambda_{i} | <   + \infty \\ \end{array}
 $$
 
 In order to avoid possible confusion, note that the solutions of the inverse characteristic equation are the reciprocal of the solution of the characteristic equation defined as
 
 $$
-A (z) = z ^ {p} + a _ {1} z ^ {p - 1} + \ldots + a _ {p} = 0
+A (z) = z^{p} + a_{1} z^{p - 1} + \ldots + a_{p} = 0
 $$
 
 Therefore an autoregressive process is invertible with an infinite moving average representation that only involves positive powers of the operator  $L$  if the solutions of the characteristic equation are all strictly smaller than 1 in absolute value. This is the condition of invertibility often stated in the literature.
@@ -379,47 +379,47 @@ Therefore an autoregressive process is invertible with an infinite moving averag
 Let's now consider finite moving-average representations. A process is called a moving average process of order  $q - \mathrm{MA}(q)$  if it admits the following representation:
 
 $$
-\begin{array}{l} x _ {t} = \left(1 + b _ {1} L + \dots + b _ {P} L ^ {q}\right) \varepsilon_ {t} \\ = \varepsilon_ {t} + b _ {1} \varepsilon_ {t - 1} + \dots + b _ {P} \varepsilon_ {t - q} \\ \end{array}
+\begin{array}{l} x_{t} = \left(1 + b_{1} L + \dots + b_{P} L^{q}\right) \varepsilon_{t} \\ = \varepsilon_{t} + b_{1} \varepsilon_{t - 1} + \dots + b_{P} \varepsilon_{t - q} \\ \end{array}
 $$
 
 In a way similar to the autoregressive case, if the roots of the equation
 
 $$
-B (z) = 1 + b _ {1} z + \ldots + b _ {q} z ^ {q} = 0
+B (z) = 1 + b_{1} z + \ldots + b_{q} z^{q} = 0
 $$ are all strictly greater than 1 in modulus, then the  $\mathrm{MA}(q)$  process is invertible and, therefore, admits the infinite autoregressive representation:
 
 
 $$
-\begin{array}{l} \varepsilon_ {t} = B ^ {- 1} (L) x _ {t} \\ = \sum_ {i = 0} ^ {+ \infty} \pi_ {i} x _ {t - i}, \quad \text {w i t h} \quad \sum_ {i = 0} ^ {+ \infty} | \pi_ {i} | <   + \infty \\ \end{array}
+\begin{array}{l} \varepsilon_{t} = B^{- 1} (L) x_{t} \\ = \sum_{i = 0}^{+ \infty} \pi_{i} x_{t - i}, \quad \text{wi th} \quad \sum_{i = 0}^{+ \infty} | \pi_{i} | <   + \infty \\ \end{array}
 $$
 
 As in the previous case, if one considers the characteristic equation,
 
 $$
-B (z) = z ^ {q} + b _ {1} z ^ {q - 1} + \ldots + b _ {q} = 0
+B (z) = z^{q} + b_{1} z^{q - 1} + \ldots + b_{q} = 0
 $$ then the  $\mathrm{MA}(q)$  process admits a causal autoregressive representation if the roots of the characteristic equation are strictly smaller than 1 in modulus.
 
 
 Let's now consider, more in general, an ARMA process of order  $p,q$ . We say that a stationary process admits a minimal ARMA( $p, q$ ) representation if it can be written as
 
-$$ x _ {t} + a _ {1} x _ {t - 1} + a _ {p} x _ {t - p} = b _ {1} \varepsilon_ {t} + \dots + b _ {q} \varepsilon_ {t - q}
+$$ x_{t} + a_{1} x_{t - 1} + a_{p} x_{t - p} = b_{1} \varepsilon_{t} + \dots + b_{q} \varepsilon_{t - q}
 $$ or equivalently in terms of the lag operator
 
 
 $$
-A (L) x _ {t} = B (L) \varepsilon_ {t}
+A (L) x_{t} = B (L) \varepsilon_{t}
 $$ where  $\varepsilon_{t}$  is a serially uncorrelated white noise with nonzero variance,  $a_0 = b_0 = 1$ ,  $a_p \neq 0$ ,  $b_q \neq 0$ , the polynomials  $A$  and  $B$  have roots strictly greater than 1 in modulus and do not have any root in common.
 
 
 Generalizing the reasoning in the pure MA or AR case, it can be demonstrated that a generic process that admits the  $\mathrm{ARMA}(p,q)$  representation  $A(L)x_{t} = B(L)\varepsilon_{t}$  is stationary if both polynomials  $A$  and  $B$  have roots strictly different from 1. In addition, if all the roots of the polynomial  $A(z)$  are strictly greater than 1 in modulus, then the  $\mathrm{ARMA}(p,q)$  process can be expressed as a moving average process:
 
-$$ x _ {t} = \frac {B (L)}{A (L)} \varepsilon_ {t}
+$$ x_{t} = \frac{B (L)}{A (L)} \varepsilon_{t}
 $$
 
 Conversely, if all the roots of the polynomial  $B(z)$  are strictly greater than 1, then the ARMA $(p,q)$  process can be expressed as an autoregressive process:
 
 $$
-\varepsilon_ {t} = \frac {A (L)}{B (L)} x _ {t}
+\varepsilon_{t} = \frac{A (L)}{B (L)} x_{t}
 $$
 
 Note that in the above discussions every process was centered—that is, it had zero constant mean. As we were considering stationary processes, this condition is not restrictive as the eventual nonzero mean can be subtracted.
@@ -432,16 +432,16 @@ So far we have considered only stationary processes. However, ARMA equations can
 
 
 $$
-A (L) x _ {t} = B (L) \varepsilon_ {t}
+A (L) x_{t} = B (L) \varepsilon_{t}
 $$ is called an autoregressive integrated moving-average (ARIMA) process if at least one of the roots of the polynomial  $A$  is equal to 1 in modulus. Suppose that  $\lambda$  be a root with multiplicity  $d$ . In this case the ARMA representation can be written as
 
 
 $$
-A ^ {\prime} (L) (I - \lambda L) ^ {d} x _ {t} = B (L) \varepsilon_ {t}
+A^{\prime} (L) (I - \lambda L)^{d} x_{t} = B (L) \varepsilon_{t}
 $$
 
 $$
-A (L) = A ^ {\prime} (L) (I - \lambda L) ^ {d}
+A (L) = A^{\prime} (L) (I - \lambda L)^{d}
 $$
 
 However this formulation is not satisfactory as the process  $A$  is not invertible if initial conditions are not provided; it is therefore preferable to offer a more rigorous definition, which includes initial conditions. Therefore, we give the following definition of nonstationary integrated ARMA processes.
@@ -449,7 +449,7 @@ However this formulation is not satisfactory as the process  $A$  is not inverti
 A process  $x_{t}$  defined for  $t \geq 0$  is called an autoregressive integrated moving-average process—ARIMA $(p, d, q)$ —if it satisfies a relationship of the type
 
 $$
-A (L) (I - \lambda L) ^ {d} x _ {t} = B (L) \varepsilon_ {t}
+A (L) (I - \lambda L)^{d} x_{t} = B (L) \varepsilon_{t}
 $$ where:
 
 
@@ -465,21 +465,21 @@ Let's now move on to consider stationary multivariate processes. A stationary pr
 
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \varepsilon_ {t - i}
+\mathbf {x}_{t} = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \varepsilon_{t - i}
 $$ where  $\varepsilon_{t - i}$  is an  $n$  -dimensional, zero-mean, white-noise process with nonsingular variancecovariance matrix  $\pmb{\Omega}$  is called an autoregressive moving-average-ARMA(p,q)-model, if it satisfies a difference equation of the type
 
 
 $$
-\mathbf {A} (L) x _ {t} = \mathbf {B} (L) \varepsilon_ {t}
+\mathbf {A} (L) x_{t} = \mathbf {B} (L) \varepsilon_{t}
 $$ where  $\mathbf{A}$  and  $\mathbf{B}$  are matrix polynomials in the lag operator  $L$  of order  $p$  and  $q$  respectively:
 
 
 $$
-\mathbf {A} (L) = \sum_ {i = 0} ^ {p} \mathbf {A} _ {i} L ^ {i}, \quad \mathbf {A} _ {0} = \mathbf {I}, \mathbf {A} _ {p} \neq 0
+\mathbf {A} (L) = \sum_{i = 0}^{p} \mathbf {A}_{i} L^{i}, \quad \mathbf {A}_{0} = \mathbf {I}, \mathbf {A}_{p} \neq 0
 $$
 
 $$
-\mathbf {B} (L) = \sum_ {j = 0} ^ {p} \mathbf {B} _ {j} L ^ {j}, \quad \mathbf {B} _ {0} = \mathbf {I}, \mathbf {B} _ {q} \neq 0
+\mathbf {B} (L) = \sum_{j = 0}^{p} \mathbf {B}_{j} L^{j}, \quad \mathbf {B}_{0} = \mathbf {I}, \mathbf {B}_{q} \neq 0
 $$
 
 If  $q = 0$ , the process is purely autoregressive of order  $p$ ; if  $q = 0$ , the process is purely a moving average of order  $q$ . Rearranging the terms of the difference equation, it is clear that an ARMA process is a process where the  $i$ -th component of the process at time  $t$ ,  $x_{i,t}$  is a linear function of all the components at different lags plus a finite moving average of white noise terms.
@@ -492,24 +492,24 @@ Let's now explore what restrictions on the polynomials  $\mathbf{A}(L)$  and  $\
 It can be demonstrated that if the complex roots of the polynomial  $\operatorname*{det}[\mathbf{A}(z)]$ , that is, the solutions of the algebraic equation  $\operatorname*{det}[\mathbf{A}(z)] = 0$ , which are in general complex numbers, all lie outside the unit circle, that is, their modulus is strictly greater than one, then the process that satisfies the ARMA conditions,
 
 $$
-\mathbf {A} (L) \mathbf {x} _ {t} = \mathbf {B} (L) \varepsilon_ {t}
+\mathbf {A} (L) \mathbf {x}_{t} = \mathbf {B} (L) \varepsilon_{t}
 $$ is stationary. As in the univariate case, if one would consider the equations in  $1 / z$ , the same reasoning applies but with roots strictly inside the unit circle.
 
 
 A stationary  $\mathrm{ARMA}(p,q)$  process is an autocorrelated process. Its time-independent autocorrelation function satisfies a set of linear difference equations. Consider an  $\mathrm{ARMA}(p,q)$  process that satisfies the following equation:
 
 $$
-\begin{array}{l} \mathbf {A} _ {0} \mathbf {x} _ {t} + \mathbf {A} _ {1} \mathbf {x} _ {t - 1} + \dots + \mathbf {A} _ {P} \mathbf {x} _ {t - P} = \mathbf {B} _ {0} \varepsilon_ {t} + \mathbf {B} _ {1} \varepsilon_ {t - 1} \\ + \dots + \mathbf {B} _ {q} \varepsilon_ {t - q} \\ \end{array}
+\begin{array}{l} \mathbf {A}_{0} \mathbf {x}_{t} + \mathbf {A}_{1} \mathbf {x}_{t - 1} + \dots + \mathbf {A}_{P} \mathbf {x}_{t - P} = \mathbf {B}_{0} \varepsilon_{t} + \mathbf {B}_{1} \varepsilon_{t - 1} \\ + \dots + \mathbf {B}_{q} \varepsilon_{t - q} \\ \end{array}
 $$ where  $\mathbf{A}_0 = \mathbf{I}$ . By expanding the expression for the autocovariance function, it can be demonstrated that the autocovariance function satisfies the following set of linear difference equations:
 
 
 $$
-\begin{array}{l} \mathbf {A} _ {0} \Gamma_ {h} + \mathbf {A} _ {1} \Gamma_ {h - 1} + \dots + \mathbf {A} _ {P} \Gamma_ {h - p} \\ = \left\{ \begin{array}{l} 0 \quad \text {i f} \quad h > q \\ \sum_ {j = 0} ^ {q - h} \mathbf {B} _ {j + h} \boldsymbol {\Omega} \mathbf {H} _ {j} ^ {\prime} \end{array} \right. \\ \end{array}
+\begin{array}{l} \mathbf {A}_{0} \Gamma_{h} + \mathbf {A}_{1} \Gamma_{h - 1} + \dots + \mathbf {A}_{P} \Gamma_{h - p} \\ = \left\{ \begin{array}{l} 0 \quad \text{if } \quad h > q \\ \sum_{j = 0}^{q - h} \mathbf {B}_{j + h} \boldsymbol {\Omega} \mathbf {H}_{j}^{\prime} \end{array} \right. \\ \end{array}
 $$ where  $\Omega$  and  $\mathbf{H}_i$  are, respectively, the covariance matrix and the Markov coefficients of the process in its infinite moving-average representation:
 
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \boldsymbol {\varepsilon} _ {t - i}
+\mathbf {x}_{t} = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \boldsymbol {\varepsilon}_{t - i}
 $$
 
 From the above representation, it is clear that if the process is purely MA, that is, if  $p = 0$ then the autocovariance function vanishes for  $\lg h > q$ .
@@ -518,7 +518,7 @@ From the above representation, it is clear that if the process is purely MA, tha
 It is also possible to demonstrate the converse of this theorem. If a linear stationary process admits an autocovariance function that satisfies the following equations,
 
 $$
-\mathbf {A} _ {0} \Gamma_ {h} + \mathbf {A} _ {1} \Gamma_ {h - 1} + \dots + \mathbf {A} _ {P} \Gamma_ {h - p} = 0 \quad \text {i f} \quad h > q
+\mathbf {A}_{0} \Gamma_{h} + \mathbf {A}_{1} \Gamma_{h - 1} + \dots + \mathbf {A}_{P} \Gamma_{h - p} = 0 \quad \text{if } \quad h > q
 $$ then the process admits an  $\mathrm{ARMA}(p,q)$  representation. In particular, a stationary process is a purely finite moving-average process  $\mathrm{MA}(q)$ , if and only if its autocovariance functions vanish for  $h > q$ , where  $q$  is an integer.
 
 
@@ -527,7 +527,7 @@ $$ then the process admits an  $\mathrm{ARMA}(p,q)$  representation. In particul
 Let's now consider nonstationary series. Consider a series defined for  $t \geq 0$  that satisfies the following set of difference equations:
 
 $$
-\begin{array}{l} \mathbf {A} _ {0} \mathbf {x} _ {t} + \mathbf {A} _ {1} \mathbf {x} _ {t - 1} + \dots + \mathbf {A} _ {P} \mathbf {x} _ {t - P} = \mathbf {B} _ {0} \varepsilon_ {t} + \mathbf {B} _ {1} \varepsilon_ {t - 1} \\ + \dots + \mathbf {B} _ {q} \varepsilon_ {t - q} \\ \end{array}
+\begin{array}{l} \mathbf {A}_{0} \mathbf {x}_{t} + \mathbf {A}_{1} \mathbf {x}_{t - 1} + \dots + \mathbf {A}_{P} \mathbf {x}_{t - P} = \mathbf {B}_{0} \varepsilon_{t} + \mathbf {B}_{1} \varepsilon_{t - 1} \\ + \dots + \mathbf {B}_{q} \varepsilon_{t - q} \\ \end{array}
 $$ where, as in the stationary case,  $\varepsilon_{t - i}$  is an  $n$  dimensional zero-mean, white noise process with nonsingular variance-covariance matrix  $\Omega$ ,  $\mathbf{A}_0 = \mathbf{I}$ ,  $\mathbf{B}_0 = \mathbf{I}$ ,  $A_p \neq 0$ ,  $\mathbf{B}_q \neq 0$ . Suppose, in addition, that initial conditions  $(x_{-1}, \ldots, x_{-p}, \varepsilon_t, \ldots, \varepsilon_{-q})$  are given. Under these conditions, we say that the process  $\mathbf{x}_t$ , which is well defined, admits an ARMA representation.
 
 
@@ -538,18 +538,18 @@ A process  $\mathbf{x}_t$  is said to admit an ARIMA representation if, in addit
 For the theoretical analysis of ARMA processes, it is useful to state what conditions on the Markov coefficients ensure that the process admits an ARMA representation. Consider a process  $\mathbf{x}_t$ , stationary or not, which admits a moving-average representation either as
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \varepsilon_ {t - i}
+\mathbf {x}_{t} = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \varepsilon_{t - i}
 $$ or as a linear model:
 
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {t} \mathbf {H} _ {i} \varepsilon_ {t - i} + \mathbf {h} (t) \mathbf {z}
+\mathbf {x}_{t} = \sum_{i = 0}^{t} \mathbf {H}_{i} \varepsilon_{t - i} + \mathbf {h} (t) \mathbf {z}
 $$
 
 The process  $\mathbf{x}_i$  admits an ARMA representation if and only if there is an integer  $q$  and a set of  $p$  matrices  $\mathbf{A}_i, i = 0,\dots ,p$  such that the Markov coefficients  $\mathbf{H}_i$  satisfy the following linear difference equation starting from  $q$ :
 
 $$
-\sum_ {j = 0} ^ {p} \mathbf {A} _ {J} \mathbf {H} _ {l - j} = 0, l > q
+\sum_{j = 0}^{p} \mathbf {A}_{J} \mathbf {H}_{l - j} = 0, l > q
 $$
 
 Therefore, any ARMA process admits an infinite moving-average representation whose Markov coefficients satisfy a linear difference equation starting from a certain point. Conversely, any such linear infinite moving-average representation can be expressed parsimoniously in terms of an ARMA process.
@@ -559,12 +559,12 @@ Therefore, any ARMA process admits an infinite moving-average representation who
 For the theoretical analysis of ARMA processes it is also useful to restate the above conditions in terms of the Hankel infinite matrices. (A Hankel matrix is a matrix where for each antidiagonal the element is the same.) It can be demonstrated that a process, stationary or not, which admits either the infinite moving average representation
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {\infty} \mathbf {H} _ {i} \varepsilon_ {t - i}
+\mathbf {x}_{t} = \sum_{i = 0}^{\infty} \mathbf {H}_{i} \varepsilon_{t - i}
 $$ or a linear moving average model
 
 
 $$
-\mathbf {x} _ {t} = \sum_ {i = 0} ^ {t} \mathbf {H} _ {i} \varepsilon_ {t - i} + \mathbf {h} (t) \mathbf {z}
+\mathbf {x}_{t} = \sum_{i = 0}^{t} \mathbf {H}_{i} \varepsilon_{t - i} + \mathbf {h} (t) \mathbf {z}
 $$ also admits an ARMA representation if and only if the Hankel matrix formed with the sequence of its Markov coefficients has finite rank or, equivalently, a finite column rank or row rank.
 
 
@@ -573,7 +573,7 @@ $$ also admits an ARMA representation if and only if the Hankel matrix formed wi
 This section introduces the fundamental notions of trend stationary series, difference stationary series, and integrated series. Consider a one-dimensional time series. A trend stationary series is a series formed by a deterministic trend plus a stationary process. It can be written as
 
 $$
-X _ {t} = f (t) + \varepsilon (t)
+X_{t} = f (t) + \varepsilon (t)
 $$
 
 A trend stationary process can be transformed into a stationary process by subtracting the trend. Removing the deterministic trend entails that the deterministic trend is known. A trend stationary series is an example of an adjustment model.
@@ -581,24 +581,24 @@ A trend stationary process can be transformed into a stationary process by subtr
 Consider now a time series  $X_{t}$ . The operation of differencing a series consists of forming a new series  $Y_{t} = \Delta X_{t} = X_{t} - X_{t-1}$ . The operation of differencing can be repeated an arbitrary number of times. For instance, differencing twice the series  $X_{t}$  yields the following series:
 
 $$
-\begin{array}{l} Z _ {t} = \Delta Y _ {t} = \Delta (\Delta X _ {t}) \\ = \left(X _ {t} - X _ {t - 1}\right) - \left(X _ {t - 2} - X _ {t - 3}\right) \\ = X _ {t} - X _ {t - 1} - X _ {t - 2} + X _ {t - 3} \\ \end{array}
+\begin{array}{l} Z_{t} = \Delta Y_{t} = \Delta (\Delta X_{t}) \\ = \left(X_{t} - X_{t - 1}\right) - \left(X_{t - 2} - X_{t - 3}\right) \\ = X_{t} - X_{t - 1} - X_{t - 2} + X_{t - 3} \\ \end{array}
 $$
 
 Differencing can be written in terms of the lag operator as
 
 $$
-\Delta X _ {t} ^ {d} = (1 - L) ^ {d} X _ {t}
+\Delta X_{t}^{d} = (1 - L)^{d} X_{t}
 $$
 
 A difference stationary series is a series that is transformed into a stationary series by differencing. A difference stationary series can be written as
 
 
 $$
-\Delta X _ {t} = \mu + \varepsilon (t)
+\Delta X_{t} = \mu + \varepsilon (t)
 $$
 
 $$
-X _ {t} = X _ {t - 1} + \mu + \varepsilon (t)
+X_{t} = X_{t - 1} + \mu + \varepsilon (t)
 $$ where  $\varepsilon(t)$  is a zero-mean stationary process and  $\mu$  is a constant. A trend stationary series with a linear trend is also difference stationary, if spacings are regular. The opposite is not generally true. A time series is said to be integrated of order  $n$  if it can be transformed into a stationary series by differencing  $n$  times.
 
 
@@ -609,7 +609,7 @@ There are a number of obvious differences between trend stationary and differenc
 An integrated series is characterized by a stochastic trend. In fact, a difference stationary series can be written as
 
 $$
-X _ {t} = \mu t + \left[ \sum_ {s = 0} ^ {t - 1} \varepsilon (s) \right] + \varepsilon (t)
+X_{t} = \mu t + \left[ \sum_{s = 0}^{t - 1} \varepsilon (s) \right] + \varepsilon (t)
 $$
 
 The difference  $X_{t} - X_{t}^{*}$  between the value of a process at time  $t$  and the best affine prediction at time  $t - 1$  is called the innovation of the process. In the above linear equation, the stationary process  $\varepsilon(t)$  is the innovation process. A key aspect of integrated processes is that innovations  $\varepsilon(t)$  never decay but keep on accumulating. In a trend stationary process, on the other hand, past innovations disappear at every new step.
@@ -620,25 +620,25 @@ These considerations carry over immediately in a multidimensional environment. M
 Let's now see how these concepts fit into the ARMA framework, starting with univariate ARMA model. Recall that an ARIMA process is defined as an ARMA process in which the polynomial  $B$  has all roots outside the unit circle while the polynomial  $A$  has one or more roots equal to 1. In the latter case the process can be written as
 
 $$
-A ^ {\prime} (L) \Delta^ {d} x _ {t} = B (L) \varepsilon_ {t}
+A^{\prime} (L) \Delta^{d} x_{t} = B (L) \varepsilon_{t}
 $$
 
 $$
-A (L) = (1 - L) ^ {d} A ^ {\prime} (L)
+A (L) = (1 - L)^{d} A^{\prime} (L)
 $$ and we say that the process is integrated of order  $n$ . If initial conditions are supplied, the process can be inverted and the difference sequence is asymptotically stationary.
 
 
 The notion of integrated processes carries over naturally in the multivariate case but with a subtle difference. Recall from earlier discussion in this entry that an ARIMA model is an ARMA model:
 
 $$
-\mathbf {A} (L) \mathbf {x} _ {t} = \mathbf {B} (L) \varepsilon_ {t}
+\mathbf {A} (L) \mathbf {x}_{t} = \mathbf {B} (L) \varepsilon_{t}
 $$ which satisfies two additional conditions: (1)  $\operatorname{det}[\mathbf{B}(z)]$  has all its roots strictly outside of the unit circle, and (2)  $\operatorname{det}[\mathbf{A}(z)]$  has all its roots outside the unit circle but with at least one root equal to 1.
 
 
 Now suppose that, after differencing  $d$  times, the multivariate series  $\Delta^d\mathbf{x}_t$  can be represented as follows:
 
 $$
-\mathbf {A} ^ {\prime} (L) \mathbf {x} _ {t} = \mathbf {B} ^ {\prime} (L) \varepsilon_ {t}, 1 \quad \text {w i t h} \quad \mathbf {A} ^ {\prime} (L) = \mathbf {A} (L) \Delta^ {d}
+\mathbf {A}^{\prime} (L) \mathbf {x}_{t} = \mathbf {B}^{\prime} (L) \varepsilon_{t}, 1 \quad \text{wi th} \quad \mathbf {A}^{\prime} (L) = \mathbf {A} (L) \Delta^{d}
 $$
 
 In this case, if (1)  $\mathbf{B}'(z)$  is of order  $q$  and  $\operatorname*{det}[\mathbf{B}'(z)]$  has all its roots strictly outside of the unit circle and (2)  $\mathbf{A}'(z)$  is of order  $p$  and  $\operatorname*{det}[\mathbf{A}'(z)]$  has all its roots outside the unit circle, then the process is called ARIMA  $(p,d,q)$ . Not all ARIMA models can be put in this framework as different components might have a different order of integration.
@@ -657,7 +657,7 @@ The behavior of integrated and nonintegrated time series is quite different and 
 A number of statistical tests to ascertain if a univariate series is integrated are available. Perhaps the most widely used and known are the Dickey-Fuller (DF) and the Augmented Dickey-Fuller (ADF) tests. The DF test assumes as a null hypothesis that the series is integrated of order 1 with uncorrelated innovations. Under this assumption, the series can be written as a random walk in the following form:
 
 $$
-\begin{array}{l} X _ {t + 1} = \rho X _ {t} + b + \varepsilon_ {t} \\ \rho = 1 \\ \varepsilon_ {t} \text {I I D} \\ \end{array}
+\begin{array}{l} X_{t + 1} = \rho X_{t} + b + \varepsilon_{t} \\ \rho = 1 \\ \varepsilon_{t} \text{II D} \\ \end{array}
 $$ where IID is an independent and identical sequence.
 
 
@@ -681,7 +681,7 @@ Let's now discuss how to represent a stochastic process  $X = X(t,\omega)$  and 
 A rather general (but not complete) representation is given by the finite dimensional probability distributions. Given any set of indices  $t_1,\ldots ,t_m$  , consider the distributions
 
 $$
-\mu_ {t _ {1}, \dots , t _ {m}} (H) = P \left[ \left(X _ {t _ {1}}, \dots , X _ {t _ {m}}\right) \in H, H \in \mathfrak {B} ^ {n} \right]
+\mu_{t_{1}, \dots , t_{m}} (H) = P \left[ \left(X_{t_{1}}, \dots , X_{t_{m}}\right) \in H, H \in \mathfrak {B}^{n} \right]
 $$
 
 These probability measures are, for any choice of the  $t_i$ , the finite-dimensional joint probabilities of the process. They determine many, but not all, properties of a stochastic process. For example, the finite dimensional distributions of a Brownian motion do not determine whether or not the process paths are continuous.
@@ -692,13 +692,13 @@ In general, the various concepts of equality between stochastic processes can be
 - Property 2. The process  $X = X(t, \omega)$  is said to be equivalent or to be a modification of the process  $Y = Y(t, \omega)$  if, for all  $t$ ,
 
 $$
-P (X _ {t} = Y _ {t}) = 1
+P (X_{t} = Y_{t}) = 1
 $$
 
 - Property 3. The process  $X = X(t, \omega)$  is said to be strongly equivalent to or indistinguishable from the process  $Y = Y(t, \omega)$  if
 
 $$
-P \left(X _ {t} = Y _ {t}, \text {f o r a l l} t\right) = 1
+P \left(X_{t} = Y_{t}, \text{fo ra ll} t\right) = 1
 $$
 
 Property 3 implies Property 2, which in turn implies Property 1. Implications do not hold in the opposite direction. Two processes having the same finite distributions might have completely different paths. However it is possible to demonstrate that if one assumes that paths are continuous functions of time, Properties 2 and 3 become equivalent.
@@ -743,7 +743,7 @@ Conditional probabilities and conditional averages are fundamental in the stocha
 The conditional probability of event  $A$  given event  $B$  was defined earlier as
 
 $$
-P (A | B) = \frac {P (A \cap B)}{P (B)}
+P (A | B) = \frac{P (A \cap B)}{P (B)}
 $$
 
 This simple definition cannot be used in the context of continuous random variables because the conditioning event (i.e., one variable assuming a given value) has probability zero. To avoid this problem, we condition on  $\sigma$ -algebras and not on single zero-probability events. In general, as each instant is characterized by a  $\sigma$ -algebra  $\mathfrak{I}_t$ , the conditioning elements are the  $\mathfrak{I}_t$ .
@@ -751,7 +751,7 @@ This simple definition cannot be used in the context of continuous random variab
 The general definition of conditional expectation is the following. Consider a probability space  $(\Omega, \mathfrak{I}, P)$  and a  $\sigma$ -algebra  $\mathfrak{G}$  contained in  $\mathfrak{I}$  and suppose that  $X$  is an integrable random variable on  $(\Omega, \mathfrak{I}, P)$ . We define the conditional expectation of  $X$  with respect to  $\mathfrak{G}$ , written as  $E[X|\mathfrak{G}]$ , as a random variable measurable with respect to  $\mathfrak{G}$  such that
 
 $$
-\int_ {G} E [ X \mathfrak {G} ] d P
+\int_{G} E [ X \mathfrak {G} ] d P
 $$ for every set  $G \in \mathfrak{G}$ . In other words, the conditional expectation is a random variable whose average on every event that belongs to  $\mathfrak{G}$  is equal to the average of  $X$  over those same events, but
 
 
@@ -766,16 +766,16 @@ However, we need to specify how conditional expectations are formed, given that 
 One can define conditional probabilities starting from the concept of conditional expectations. Consider a probability space  $(\Omega, \mathfrak{J}, P)$ , a sub- $\sigma$ -algebra  $\mathfrak{G}$  of  $\mathfrak{J}$ , and two events  $A \in \mathfrak{J}$ ,  $B \in \mathfrak{J}$ . If  $I_A, I_B$  are the indicator functions of the sets  $A, B$  (the indicator function of a set assumes value 1 on the set, 0 elsewhere), we can define conditional probabilities of the event  $A$ , respectively, given  $\mathfrak{G}$  or given the event  $B$  as
 
 $$
-P (A | \mathfrak {G}) = E \left[ I _ {A} | \mathfrak {G} \right] \quad P (A | B) = E \left[ I _ {A} \mid I _ {B} \right]
+P (A | \mathfrak {G}) = E \left[ I_{A} | \mathfrak {G} \right] \quad P (A | B) = E \left[ I_{A} \mid I_{B} \right]
 $$
 
 Using these definitions, it is possible to demonstrate that given two random variables  $X$  and  $Y$  with joint density  $f(x,y)$ , the conditional density of  $X$  given  $Y$  is
 
-$$ f (x | y) = \frac {f (x , y)}{f _ {Y} (y)}
+$$ f (x | y) = \frac{f (x , y)}{f_{Y} (y)}
 $$ where the marginal density, defined as
 
 
-$$ f _ {Y} (y) = \int_ {- \infty} ^ {\infty} f (x, y) d x
+$$ f_{Y} (y) = \int_{- \infty}^{\infty} f (x, y) d x
 $$ is assumed to be strictly positive.
 
 
@@ -784,7 +784,7 @@ In the discrete case, the conditional expectation is a random variable that take
 An important econometric concept related to conditional expectations is that of a martingale. Given a probability space  $(\Omega, \mathfrak{J}, P)$  and a filtration  $\{\mathfrak{J}_t\}$ , a sequence of  $\mathfrak{J}_i$ -measurable random variables  $X_i$  is called a martingale if the following condition holds:
 
 $$
-E \left[ X _ {i + 1} | \mathfrak {I} _ {i} \right] = X _ {i}
+E \left[ X_{i + 1} | \mathfrak {I}_{i} \right] = X_{i}
 $$
 
 A martingale translates the idea of a "fair game" as the expected value of the variable at the next period is the present value of the same value.

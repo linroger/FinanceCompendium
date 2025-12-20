@@ -26,13 +26,13 @@ Table 1 Example of Volatility Calculations
 Relative Volatility
 
 $$
-\begin{array}{l} = \text {D a i l y S t a n d a r d R e l a t i v e D e v i a t i o n} \times \sqrt {2 6 0} \\ = 0. 0 0 9 6 6 \times \sqrt {2 6 0} = 0. 1 5 5 7 \\ \end{array}
+\begin{array}{l} = \text{Da il yS ta nd ar dR el at iv eD ev ia ti on} \times \sqrt{2 6 0} \\ = 0. 0 0 9 6 6 \times \sqrt{2 6 0} = 0. 1 5 5 7 \\ \end{array}
 $$
 
 Absolute Volatility
 
 $$
-\begin{array}{l} = \text {D a i l y S t a n d a r d A b s o l u t e D e v i a t i o n} \times \sqrt {2 6 0} \\ = 0. 0 4 8 0 \times \sqrt {2 6 0} = 0. 7 7 3 \\ \end{array}
+\begin{array}{l} = \text{Da il yS ta nd ar dA bs ol ut eD ev ia ti on} \times \sqrt{2 6 0} \\ = 0. 0 4 8 0 \times \sqrt{2 6 0} = 0. 7 7 3 \\ \end{array}
 $$
 
 Thus, in our example of the 10-day yield series, we would calculate the annual volatility as 77.3 basis points (absolute) or  $15.57\%$  (relative). The relative volatility times the average yield for the period  $0.1557 \times 4.983 = 0.776$  is close to the absolute yield volatility of 0.773—as one would expect.
@@ -65,7 +65,7 @@ Figure 2 Historical Volatility Term Structure for the Swap Rates
 
 
 $$
-\begin{array}{l} \Delta r = \left(\text {D r i f t}\right) \left(\text {P a s s a g e o f t i m e}\right) + \left(\text {V o l a t i l i t y}\right) \\ \times \text {(R a n d o m s h o c k)} \\ \end{array}
+\begin{array}{l} \Delta r = \left(\text{Dr if t}\right) \left(\text{Pa ss ag eo ft im e}\right) + \left(\text{Vo la ti li ty}\right) \\ \times \text{(Ra nd om sh oc k)} \\ \end{array}
 $$
 
 # A Brief Excursion to Brownian Motion
@@ -93,17 +93,17 @@ How about  $dr = \sigma dz$ ? The drift is chosen to be zero, and provided that 
 
 Both models briefly reviewed above suffer with the same disease: They are unstable. Observable objects in economy, finance, engineering, or physics tend to be stable; otherwise, they would not be able to exist long enough to be observed. The feature making financial markets stable is known as mean reversion. It is simply a properly chosen specification of the drift term that would ensure the dampening effect (also known as central tendency). If the rate randomly has grown too high or fallen too low, the drift term will help "return" it back. Here is an example:
 
-$$ d r = a \left(r _ {\infty} - r\right) d t + \sigma d z \tag {2}
+$$ d r = a \left(r_{\infty} - r\right) d t + \sigma d z \tag {2}
 $$ where mean reversion parameter  $a > 0$ . This time, the solution will contain  $e^{-at}$ , a decaying component that indicates stability. The mean converges to parameter  $r_{\infty}$ , the long-term equilibrium (now we see the point for this strange notation). The standard deviation will grow with time as
 
 
 $$
-\sigma \sqrt {(1 - e ^ {- 2 a t}) / 2 a}
+\sigma \sqrt{(1 - e^{- 2 a t}) / 2 a}
 $$ and converges to
 
 
 $$
-\sigma / \sqrt {2 a}
+\sigma / \sqrt{2 a}
 $$ as the horizon extends. Figure 4 compares the standard deviation (lines launching from the origin) and equivalent ("average") volatility for different levels of mean reversion including the zero one ( $\sigma = 1\%$  was assumed).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/66256f4b-1176-4bdd-adf3-458dec1636a0/7726f33092c41ae3908a2e608c5429424ed8dcfefd750f38bcaf1ea13710813e.jpg)
@@ -128,19 +128,19 @@ Figure 5 Jumpy and Continuous Interest Rates
 
 
 $$
-E (R) = \exp \left(\mu + \frac {1}{2} \sigma^ {2}\right)
+E (R) = \exp \left(\mu + \frac{1}{2} \sigma^{2}\right)
 $$
 
-$$ s t d (R) = \exp \left(\mu + \frac {1}{2} \sigma^ {2}\right) \sqrt {\exp (\sigma^ {2}) - 1}
+$$ s t d (R) = \exp \left(\mu + \frac{1}{2} \sigma^{2}\right) \sqrt{\exp (\sigma^{2}) - 1}
 $$
 
 Another popular example is the squared transformation,  $R = r^2$ , that also guarantees that rate  $R$  stays positive; the distribution of such defined rate is known as noncentral  $\chi^2$ . For the squared transformation,
 
 $$
-E (R) = \mu^ {2} + \sigma^ {2}
+E (R) = \mu^{2} + \sigma^{2}
 $$
 
-$$ s t d (R) = \sigma \sqrt {2 \sigma^ {2} + 4 \mu^ {2}}
+$$ s t d (R) = \sigma \sqrt{2 \sigma^{2} + 4 \mu^{2}}
 $$
 
 # INTEREST RATE JUMPS
@@ -160,7 +160,7 @@ These objective facts suggest that a stochastic diffusive model suitable for swa
 Aside from the jumps' arrival, the size of jumps can be also random. Merton (1976) introduced an option-pricing model when the underlying process includes Poisson jumps with normally distributed magnitude. Using mathematical notations, we can express the model as
 
 $$
-\begin{array}{l} d r = (D r i f t) d t + (V o l a t i l i t y) d z \\ + (J u m p \text {V o l a t i l i t y}) d N \tag {3} \\ \end{array}
+\begin{array}{l} d r = (D r i f t) d t + (V o l a t i l i t y) d z \\ + (J u m p \text{Vo la ti li ty}) d N \tag {3} \\ \end{array}
 $$ where  $N$  is the Poisson-Merton jump variable. When jump occurs,  $dN$  is drawn from the standard normal distribution  $N[0,1]$ ; it stays 0 oth-
 
 
@@ -172,12 +172,12 @@ $$
 
 The practical difference between random shock and random jump is that, for a small time interval, the former is small, but nonzero, whereas the latter is mostly zero and rarely finite. Hence, equation (3) describes a more general stochastic process combining diffusion and jumps ("jump-diffusion"). Notably, mathematical variance of the Poisson process  $N(t)$  is too proportional to the time horizon  $t$ . This fact allows aligning interpretations of  $\sigma_{d} \equiv Volatility$  and  $\sigma_{j} \equiv JumpVolatility$ : for very small  $t$ , the standard deviation of  $r(t)$  is equal to
 
-$$ t \sqrt {\sigma_ {d} ^ {2} + \lambda \sigma_ {j} ^ {2}}
+$$ t \sqrt{\sigma_{d}^{2} + \lambda \sigma_{j}^{2}}
 $$ meaning that the mixed volatility will be simply
 
 
 $$
-\sigma = \sqrt {\sigma_ {d} ^ {2} + \lambda \sigma_ {j} ^ {2}}
+\sigma = \sqrt{\sigma_{d}^{2} + \lambda \sigma_{j}^{2}}
 $$
 
 Furthermore, if we generalize the linear meanreverting Vasicek model given by (2) by adding a jump term, then expressions for the mean and the standard deviation of  $r(t)$  won't change; it will be enough to replace  $\sigma$ .

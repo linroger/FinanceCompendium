@@ -1,4 +1,5 @@
 import re
+import sys
 
 def get_processed_files(log_path):
     processed = set()
@@ -15,7 +16,7 @@ def get_processed_files(log_path):
         pass
     return processed
 
-def get_next_batch(list_path, processed_files, batch_size=25):
+def get_next_batch(list_path, processed_files, batch_size=100):
     next_batch = []
     with open(list_path, 'r') as f:
         for line in f:
@@ -30,6 +31,7 @@ def get_next_batch(list_path, processed_files, batch_size=25):
 
 if __name__ == "__main__":
     processed = get_processed_files("logs/latex_remediation_log.md")
-    batch = get_next_batch("/Users/rogerlin/.gemini/tmp/3c486d7bbfefd762e923ed73c20fd2668a0e815482268683031e0ebeb7d823a0/latex_files_list.txt", processed, 25)
+    # Batch size set to 100 as requested
+    batch = get_next_batch("/Users/rogerlin/.gemini/tmp/3c486d7bbfefd762e923ed73c20fd2668a0e815482268683031e0ebeb7d823a0/latex_files_list.txt", processed, 100)
     for f in batch:
         print(f)

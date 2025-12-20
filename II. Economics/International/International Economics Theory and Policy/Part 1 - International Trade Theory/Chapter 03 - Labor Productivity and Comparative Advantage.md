@@ -73,7 +73,7 @@ Because any economy has limited resources, there are limits on what it can produ
 When there is only one factor of production, the production possibility frontier of an economy is simply a straight line. We can derive this line as follows: If  $Q_W$  is the economy's production of wine and  $Q_C$  its production of cheese, then the labor used in producing wine will be  $a_{LW}Q_W$ , and the labor used in producing cheese will be  $a_{LC}Q_C$ . The production possibility frontier is determined by the limits on the economy's resources—in this case, labor. Because the economy's total labor supply is  $L$ , the limits on production are defined by the inequality
 
 $$
-a _ {L C} Q _ {C} + a _ {L W} Q _ {W} \leq L. \tag {3-1}
+a_{L C} Q_{C} + a_{L W} Q_{W} \leq L. \tag {3-1}
 $$
 
 Suppose, for example, that the economy's total labor supply is 1,000 hours and that it takes one hour of labor to produce a pound of cheese and two hours of labor to produce a gallon of wine. Then the total labor used in production is  $(1 \times$  pounds of cheese produced)  $^+$ $(2 \times$  gallons of wine produced), and this total must be no more than the 1,000 hours of labor available. If the economy devoted all its labor to cheese production, it could, as shown in Figure 3-1, produce  $L / a_{LC}$  pounds of cheese (1,000 pounds). If it devoted all its labor to wine production instead, it could produce  $L / a_{LW}$  gallons— $1,000 / 2 = 500$  gallons—of wine. And it can produce any mix of wine and cheese that lies on the straight line connecting those two extremes.
@@ -115,13 +115,13 @@ Before we get to these issues, however, let us get the model stated. Suppose the
 In general, the unit labor requirements can follow any pattern. For example, Home could be less productive than Foreign in wine but more productive in cheese, or vice versa. For the moment, we make only one arbitrary assumption: that
 
 $$
-a _ {L C} / a _ {L W} <   a _ {L C} ^ {*} / a _ {L W} ^ {*} \tag {3-2}
+a_{L C} / a_{L W} <   a_{L C}^{*} / a_{L W}^{*} \tag {3-2}
 $$
 
 or, equivalently, that
 
 $$
-a _ {L C} / a _ {L C} ^ {*} <   a _ {L W} / a _ {L W} ^ {*}. \tag {3-3}
+a_{L C} / a_{L C}^{*} <   a_{L W} / a_{L W}^{*}. \tag {3-3}
 $$
 
 In words, we are assuming that the ratio of the labor required to produce a pound of cheese to that required to produce a gallon of wine is lower in Home than it is in Foreign. More briefly still, we are saying that Home's relative productivity in cheese is higher than it is in wine.
@@ -167,7 +167,7 @@ Next, when the relative price of cheese  $P_{C} / P_{W}$  is exactly  $a_{LC} / 
 We have already seen that if  $P_{C} / P_{W}$  is above  $a_{LC} / a_{LW}$ , Home will specialize in the production of cheese. As long as  $P_{C} / P_{W} < a_{LC}^{*} / a_{LW}^{*}$ , however, Foreign will continue to specialize in producing wine. When Home specializes in cheese production, it produces  $L / a_{LC}$  pounds. Similarly, when Foreign specializes in wine, it produces  $L^{*} / a_{LW}^{*}$  gallons. So for any relative price of cheese between  $a_{LC} / a_{LW}$  and  $a_{LC}^{*} / a_{LW}^{*}$ , the relative supply of cheese is
 
 $$
-(L / a _ {L C}) / \left(L ^ {*} / a _ {L W} ^ {*}\right). \tag {3-4}
+(L / a_{L C}) / \left(L^{*} / a_{L W}^{*}\right). \tag {3-4}
 $$
 
 At  $P_C / P_W = a_{LC}^* / a_{LW}^*$ , we know that Foreign workers are indifferent between producing cheese and wine. Thus, here we again have a flat section of the supply curve.
@@ -224,13 +224,13 @@ Consider our numerical example yet again: In Home, we assume that it takes one h
 More generally, consider two alternative ways of using an hour of labor. On one side, Home could use the hour directly to produce  $1 / a_{LW}$  gallons of wine. Alternatively, Home could use the hour to produce  $1 / a_{LC}$  pounds of cheese. This cheese could then be traded for wine, with each pound trading for  $P_C / P_W$  gallons, so our original hour of labor yields  $(1 / a_{LC})(P_C / P_W)$  gallons of wine. This will be more wine than the hour could have produced directly as long as
 
 $$
-(1 / a _ {L C}) \left(P _ {C} / P _ {W}\right) > 1 / a _ {L W}, \tag {3-5}
+(1 / a_{L C}) \left(P_{C} / P_{W}\right) > 1 / a_{L W}, \tag {3-5}
 $$
 
 or
 
 $$
-P _ {C} / P _ {W} > a _ {L C} / a _ {L W}.
+P_{C} / P_{W} > a_{L C} / a_{L W}.
 $$
 
 But we just saw that in international equilibrium, if neither country produces both goods, we must have  $P_{C} / P_{W} > a_{LC} / a_{LW}$ . This shows that Home can "produce" wine more efficiently by making cheese and trading it than by producing wine directly for itself. Similarly, Foreign can "produce" cheese more efficiently by making wine and trading it. This is one way of seeing that both countries gain.
@@ -346,7 +346,7 @@ The technology of each country can be described by its unit labor requirement fo
 To analyze trade, we next pull one more trick. For any good, we can calculate  $a_{Li} / a_{Li}^{*}$ , the ratio of Home's unit labor requirement to Foreign's. The trick is to relabel the goods so that the lower the number, the lower this ratio. That is, we reshuffle the order in which we number goods in such a way that
 
 $$
-a _ {L 1} / a _ {L 1} ^ {*} <   a _ {L 2} / a _ {L 2} ^ {*} <   a _ {L 3} / a _ {L 1 3} ^ {*} <   \dots <   a _ {L N} / a _ {L N} ^ {*}. \tag {3-6}
+a_{L 1} / a_{L 1}^{*} <   a_{L 2} / a_{L 2}^{*} <   a_{L 3} / a_{L 1 3}^{*} <   \dots <   a_{L N} / a_{L N}^{*}. \tag {3-6}
 $$
 
 # Relative Wages and Specialization
@@ -358,25 +358,25 @@ Let  $w$  be the wage rate per hour in Home and  $w^*$  be the wage rate in Fore
 To produce good  $i$  in Home will cost  $w a_{L i}$ . To produce the same good in Foreign will cost  $w^{*}a_{L i}^{*}$ . It will be cheaper to produce the good in Home if
 
 $$
-w a _ {L i} <   w ^ {*} a _ {L i} ^ {*},
+w a_{L i} <   w^{*} a_{L i}^{*},
 $$
 
 which can be rearranged to yield
 
 $$
-a _ {L i} ^ {*} / a _ {L i} > w / w ^ {*}.
+a_{L i}^{*} / a_{L i} > w / w^{*}.
 $$
 
 On the other hand, it will be cheaper to produce the good in Foreign if
 
 $$
-w a _ {L i} > w ^ {*} a _ {L i} ^ {*},
+w a_{L i} > w^{*} a_{L i}^{*},
 $$
 
 which can be rearranged to yield
 
 $$
-a _ {L i} ^ {*} / a _ {L i} <   w / w ^ {*}.
+a_{L i}^{*} / a_{L i} <   w / w^{*}.
 $$
 
 Thus, we can restate the allocation rule: Any good for which  $a_{Li}^{*} / a_{Li} > w / w^{*}$  will be produced in Home, while any good for which  $a_{Li}^{*} / a_{Li} < w / w^{*}$  will be produced in Foreign.

@@ -29,19 +29,19 @@ We must make an assumption concerning the probability of reaching one rate at a 
 
 The interest rate model we will use to construct the binomial tree assumes that the 1-year rate evolves over time based on a lognormal random walk with a known (stationary) volatility. Technically, the tree represents a one-factor model. Under the distributional assumption, the relationship between any two adjacent rates at a point in time is calculated via the following equation:
 
-$$ r _ {1, H} = r _ {1, L} e ^ {2 \sigma \sqrt {t}}
+$$ r_{1, H} = r_{1, L} e^{2 \sigma \sqrt{t}}
 $$ where  $\sigma$  is the assumed volatility of the 1-year rate,  $t$  is the length of the time period in years, and  $e$  is the base of the natural logarithm. Since we assume a 1-year interval, that is,  $t = 1$ , we can disregard the calculation of the square root of  $t$  in the exponent.
 
 
 For example, suppose that  $r_{1,L}$  is  $4.4448\%$  and  $\sigma$  is  $10\%$  per year, then:
 
 $$
-\begin{array}{l} r _ {1, H} = 4.4448 \% \left(e ^ {2 \times 0.10}\right) = 4.4448 \% (1.2214) \\ = 5.4289\% \\ \end{array}
+\begin{array}{l} r_{1, H} = 4.4448 \% \left(e^{2 \times 0.10}\right) = 4.4448 \% (1.2214) \\ = 5.4289\% \\ \end{array}
 $$
 
 In the second year, there are three possible values for the 1-year rate. The relationship between  $r_{2,LL}$  and the other two 1-year rates is as follows:
 
-$$ r _ {2, H H} = r _ {2, L L} \left(e ^ {4 \sigma}\right) \quad \text {a n d} \quad r _ {2, H L} = r _ {2, L L} \left(e ^ {2 \sigma}\right)
+$$ r_{2, H H} = r_{2, L L} \left(e^{4 \sigma}\right) \quad \text{an d} \quad r_{2, H L} = r_{2, L L} \left(e^{2 \sigma}\right)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/d34a841d0ce4dfe9608033d1e6cef8b5aaad57cd8db152e77caf7a50c76df3b8.jpg)
@@ -88,7 +88,7 @@ $\frac{V_L + C}{(1 + r^*)} =$  present value for lower 1-year rate
 Then, the value of the bond at the node is found as follows:
 
 $$
-\mathrm {V a l u e a t a n o d e} = \frac {1}{2} \left[ \frac {V _ {H} + C}{(1 + r ^ {*})} + \frac {V _ {L} + C}{(1 + r ^ {*})} \right]
+\mathrm{Va lu ea ta no de} = \frac{1}{2} \left[ \frac{V_{H} + C}{(1 + r^{*})} + \frac{V_{L} + C}{(1 + r^{*})} \right]
 $$
 
 # CALIBRATING THE LATTICE

@@ -33,7 +33,7 @@ Let us record the entries and the calculations as a macro. To record a macro, cl
 4. Click on cell D3, enter = (1+C3). Then right-click, select Format Cells | Number | Number | Decimal Points 2 to format the contents of the cell as a number.
 5. Click on cell D4, enter = D3* (1+C4).
 6. Type Total Return in cell C5.
-7. Enter  $= \mathrm{D4 - 1}$  in cell D5 to compute the total return over the five periods.
+7. Enter  $= \mathrm{D4 -1}$  in cell D5 to compute the total return over the five periods.
 8. Highlight cells C5:D5. Right-click, then select Format Cells | Border. Select the double-line, then click the upper line of the cell in the Border window to make the double-line appear. Click OK.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/be2918be526fc9ddd9a1d1fc13ce63aa71cc06351a41df4c8aae611a197efda6.jpg)
@@ -485,12 +485,12 @@ The best way to learn to program in VBA is to see and implement many examples. L
 The Black-Scholes formula for a European call option (C) is as follows (Black and Scholes, 1973):
 
 $$
-C = S _ {0} \cdot e ^ {- q T} \cdot \Phi (d _ {1}) - K \cdot e ^ {- r T} \cdot \Phi (d _ {2})
+C = S_{0} \cdot e^{- q T} \cdot \Phi (d_{1}) - K \cdot e^{- r T} \cdot \Phi (d_{2})
 $$ where
 
 
 $$
-\begin{array}{l} d _ {1} = \frac {\ln (S _ {0} / K) + (r - q + \sigma^ {2} / 2) \cdot T}{\sigma \cdot \sqrt {T}} \\ d _ {2} = d _ {1} - \sigma \cdot \sqrt {T} \\ \end{array}
+\begin{array}{l} d_{1} = \frac{\ln (S_{0} / K) + (r - q + \sigma^{2} / 2) \cdot T}{\sigma \cdot \sqrt{T}} \\ d_{2} = d_{1} - \sigma \cdot \sqrt{T} \\ \end{array}
 $$
 
 $K$  is the strike price
@@ -515,7 +515,7 @@ Short-term risk-free interest rate  $= 0.10$ $(10\%)$
 Plugging into the formula, we obtain
 
 $$
-\begin{array}{l} d _ {1} = \frac {\ln (5 0 / 5 2) + (0 . 1 0 - 0 + 0 . 2 5 ^ {2} / 2) \cdot 0 . 5}{0 . 2 5 \cdot \sqrt {0 . 5}} = 0. 1 5 0 2 \\ d _ {2} = 0. 1 5 0 2 - 0. 2 5 \cdot \sqrt {0 . 5} = - 0. 0 2 6 8 \\ \Phi (0. 1 5 0 2) = 0. 5 5 9 7 \\ \Phi (- 0. 0 2 6 8) = 0. 4 8 9 3 \\ C = 5 0 \cdot 1 \cdot 0. 5 5 9 7 - 5 2 \cdot e ^ {- 0. 1 0 \cdot 0. 5} \cdot 0. 4 8 9 3 = \$ 3. 7 9 \\ \end{array}
+\begin{array}{l} d_{1} = \frac{\ln (5 0 / 5 2) + (0 . 1 0 - 0 + 0 . 2 5^{2} / 2) \cdot 0 . 5}{0 . 2 5 \cdot \sqrt{0 . 5}} = 0. 1 5 0 2 \\ d_{2} = 0. 1 5 0 2 - 0. 2 5 \cdot \sqrt{0 . 5} = - 0. 0 2 6 8 \\ \Phi (0. 1 5 0 2) = 0. 5 5 9 7 \\ \Phi (- 0. 0 2 6 8) = 0. 4 8 9 3 \\ C = 5 0 \cdot 1 \cdot 0. 5 5 9 7 - 5 2 \cdot e^{- 0. 1 0 \cdot 0. 5} \cdot 0. 4 8 9 3 = \$ 3. 7 9 \\ \end{array}
 $$
 
 Next, we provide the code of a VBA function that computes the price of a European call option with the Black-Scholes formula.
@@ -588,12 +588,12 @@ In finance, the dynamics of asset price processes in discrete time increments ar
 
 The most widely used stochastic process in finance is geometric Brownian motion. The evolution of the underlying asset price is described by the equation
 
-$$ d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t}
+$$ d S_{t} = \mu S_{t} d t + \sigma S_{t} d W_{t}
 $$ where  $W_{t}$  is standard Brownian motion, and  $\mu$  and  $\sigma$  are the drift and the volatility of the process, respectively. (See a more detailed introduction in Hull [2008] or Pachamanova and Fabozzi [2010].) It turns out that the value of the asset price  $S_{T}$  at time  $T$  given the asset price  $S_{t}$  at time  $t$  can be computed as
 
 
 $$
-S _ {T} = S _ {t} e ^ {(\mu - \frac {1}{2} \sigma^ {2}) \cdot (T - t) + \sigma \cdot \sqrt {(T - t)} \cdot \tilde {\varepsilon}}
+S_{T} = S_{t} e^{(\mu - \frac{1}{2} \sigma^{2}) \cdot (T - t) + \sigma \cdot \sqrt{(T - t)} \cdot \tilde {\varepsilon}}
 $$ where  $\tilde{\varepsilon}$  is a standard normal random variable. If the stock pays a continuously compounded dividend yield of  $q$ , then we use  $(\mu - q - 0.5 \cdot \sigma^2)$  instead of  $(\mu - 0.5 \cdot \sigma^2)$  in the above formula.
 
 
@@ -623,7 +623,7 @@ Let us now use the function we created in the previous section to write a functi
 As in the previous section, we will make the assumption that the asset price follows geometric Brownian motion, which means that the value of the asset price  $S_{T}$  at time  $T$  given the asset price  $S_{t}$  at time  $t$  can be computed as
 
 $$
-S _ {T} = S _ {t} e ^ {(r - \frac {1}{2} \sigma^ {2}) \cdot (T - t) + \sigma \cdot \sqrt {(T - t)} \cdot \tilde {\varepsilon}}
+S_{T} = S_{t} e^{(r - \frac{1}{2} \sigma^{2}) \cdot (T - t) + \sigma \cdot \sqrt{(T - t)} \cdot \tilde {\varepsilon}}
 $$ where  $\tilde{\varepsilon}$  is a standard normal random variable. (When we generate asset price paths for the purpose of valuing an option, we use  $r$  (the risk-free rate) in place of the drift term  $\mu$ . This is done for technical reasons (absence of arbitrage).) As in the previous section, if the stock pays a continuously compounded dividend yield of  $q$ , then we use  $(r - q - 0.5 \cdot \sigma^2)$  instead of  $(r - 0.5 \cdot \sigma^2)$  in the formula above.
 
 
@@ -632,7 +632,7 @@ The price of the option can be approximated by creating scenarios for the stock 
 Suppose we generate  $N$  scenarios for  $\tilde{\varepsilon}$  at time  $T\colon \varepsilon^{(1)},\ldots ,\varepsilon^{(N)}$ . Then, the price of a European call option with strike price  $K$  will be
 
 $$
-\begin{array}{l} C _ {t} = e ^ {- r (T - t)} \cdot \sum_ {n = 1} ^ {N} \frac {1}{N} \\ \times \max  \left\{S _ {t} e ^ {\left(r - \frac {1}{2} \sigma^ {2}\right) \cdot (T - t) + \sigma \cdot \sqrt {(T - t)} \cdot \varepsilon^ {(n)}} - K, 0 \right\} \\ \end{array}
+\begin{array}{l} C_{t} = e^{- r (T - t)} \cdot \sum_{n = 1}^{N} \frac{1}{N} \\ \times \max  \left\{S_{t} e^{\left(r - \frac{1}{2} \sigma^{2}\right) \cdot (T - t) + \sigma \cdot \sqrt{(T - t)} \cdot \varepsilon^{(n)}} - K, 0 \right\} \\ \end{array}
 $$
 
 The expression above is the expected value of the option payoffs, that is, the weighted average of the option payoffs.

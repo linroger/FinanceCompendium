@@ -39,7 +39,7 @@ Figure 1 A split generates two children of the node  $t$ , denoted by  $t_L$  an
 In choosing the best splitting rule, CART seeks to maximize the average purity of the two child nodes. Hence, some criterion measuring data homogeneity or, alternatively, impurity should be introduced. These impurity measures are loosely classified splitting criteria. Let us introduce, for any node  $t$ , a measure  $i(t)$  that signifies the impurity of the node. Suppose that a candidate split  $s$  divides the node into  $t_L$  and  $t_R$  such that a proportion  $p_L$  of the cases in  $t$  go into  $t_L$  and a proportion  $p_R$  go into  $t_R$  (see Figure 1). Then the goodness of the split is defined to be the decrease of impurity
 
 $$
-\Delta i (s, t) = i (t) - p _ {L} i \left(t _ {L}\right) - p _ {R} i \left(t _ {R}\right)
+\Delta i (s, t) = i (t) - p_{L} i \left(t_{L}\right) - p_{R} i \left(t_{R}\right)
 $$
 
 For an arbitrary node  $t$  and a set of splitting candidates  $S$ , the optimal split is chosen to be the one
@@ -57,17 +57,17 @@ In a classification problem, suppose that we want to classify data into  $K$  cl
 
 The two most common measures of impurity are the Gini index
 
-$$ i (t) = \sum_ {j \neq k} p _ {t j} p _ {t k} = 1 - \sum_ {k} p _ {t k} ^ {2}
+$$ i (t) = \sum_{j \neq k} p_{t j} p_{t k} = 1 - \sum_{k} p_{t k}^{2}
 $$ and entropy or information
 
 
-$$ i (t) = - \sum_ {k} p _ {t k} \log \left(p _ {t k}\right)
+$$ i (t) = - \sum_{k} p_{t k} \log \left(p_{t k}\right)
 $$ where  $0\log (0) = 0$
 
 
 As for regression trees, the most popular impurity measure is
 
-$$ i (t) = \sum_ {j = 1} ^ {n _ {t}} \left(y _ {t j} - \mu_ {t}\right) ^ {2}
+$$ i (t) = \sum_{j = 1}^{n_{t}} \left(y_{t j} - \mu_{t}\right)^{2}
 $$ where the constant  $\mu_t$  for node  $t$  is estimated by the mean of the values of the training data falling into node  $t$ .
 
 
@@ -79,7 +79,7 @@ The best-known procedure for tree pruning is the cost-complexity pruning propose
 
 
 $$
-R _ {\alpha} (T) = R (T) + \alpha \operatorname {s i z e} (T)
+R_{\alpha} (T) = R (T) + \alpha \operatorname{si ze} (T)
 $$ where  $\alpha$  is a complexity parameter to penalize the tree size, and  $R$  is the cost, which is commonly taken as misclassification errors in classification cases and deviance in regression cases. For a given value of the complexity parameter  $\alpha$ , an optimal tree can be determined. In general, finding the optimal value for  $\alpha$  would require an independent set of data (i.e., a testing sample). This requirement is often avoided in practice by using a cross validation procedure.
 
 

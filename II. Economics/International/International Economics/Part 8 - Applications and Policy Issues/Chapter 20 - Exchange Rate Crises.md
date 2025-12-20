@@ -187,7 +187,7 @@ Now suppose the central bank has also purchased a quantity  $ R $ dollars of for
 Because the central bank holds only two types of assets, the last two expressions add up to the total money supply in the home economy:
 $ $
 
-\underbrace {M} _ {\text {M o n e y s u p p l y}} = \underbrace {B} _ {\text {D o m e s t i c c r e d i t}} + \underbrace {R} _ {\text {R e s e r v e s}} \tag {20-1}
+\underbrace {M}_{\text{Mo ne ys up pl y}} = \underbrace {B}_{\text{Do me st ic cr ed it}} + \underbrace {R}_{\text{Re se rv es}} \tag {20-1}
 
 $ $
 This equation states that the money supply equals domestic credit plus reserves.
@@ -195,7 +195,7 @@ This equation states that the money supply equals domestic credit plus reserves.
 This expression is also useful when expressed not in levels but in changes:
 $ $
 
-\underbrace {\Delta M} _ {\text {C h a n g e i n}} = \underbrace {\Delta B} _ {\text {C h a n g e i n}} + \underbrace {\Delta R} _ {\text {C h a n g e i n}} \tag {20-2}
+\underbrace {\Delta M}_{\text{Ch an ge in}} = \underbrace {\Delta B}_{\text{Ch an ge in}} + \underbrace {\Delta R}_{\text{Ch an ge in}} \tag {20-2}
 
 $ $
 This expression says that changes in the money supply must result from either changes in domestic credit or changes in reserves.
@@ -230,7 +230,7 @@ We can rearrange Equation (20-1) to solve for the level of reserves, with  $ R =
 
 Because (in nominal terms) money supply equals money demand, given by  $ M = \overline{P} L(i)Y $, we can restate and rearrange Equation (20-1) to solve for the level of reserves: $ $
 
-\underbrace {R} _ {\text {R e s e r v e s}} = \underbrace {\overline {{P}} L (i) Y} _ {\text {M o n e y D e m a n d D o m e s t i c C r e d i t}} - \underbrace {B} _ {\text {D o m e s t i c C r e d i t}} \tag {20-3}
+\underbrace {R}_{\text{Re se rv es}} = \underbrace {\overline {{P}} L (i) Y}_{\text{Mo ne yD em an dD om es ti cC re di t}} - \underbrace {B}_{\text{Do me st ic Cr ed it}} \tag {20-3}
 
 $ $
 By substituting money demand for money supply, we can investigate how shocks to money demand (say, due to changes in output or the interest rate) or shocks to domestic credit affect the level of reserves.
@@ -310,7 +310,7 @@ However, we must also confront a new possibility—that the peg is not fully cre
 So far in the book, we have assumed that uncovered interest parity (UIP) requires that the domestic return (the interest rate on home bank deposits) equals the foreign interest rate plus the expected rate of depreciation of the home currency. However, an important extension of UIP needs to be made when additional risks affect home bank deposits: a risk premium is then added to the foreign interest rate to compensate investors for the perceived risk of holding a home domestic currency deposit. This perceived risk is due to an aversion to exchange rate risk or a concern about default risk:
 $ $
 
-i = i ^ {*} + \underbrace {\frac {\Delta E _ {\text {p e s o} / \mathbb {S}} ^ {e}}{E _ {\text {p e s o} / \mathbb {S}}} + \left[ \begin{array}{c} \text {E x c h a n g e r a t e} \\ \text {r i s k p r e m i u m} \end{array} \right] + \left[ \begin{array}{c} \text {D e f a u l t} \\ \text {r i s k p r e m i u m} \end{array} \right]} _ {\substack {\text {P e s o} \\ \text {i n t e r s t} \\ \text {r a t e}}} + \underbrace {\text {E x p e c t e d r a t e o f}} _ {\substack {\text {D o d d a r} \\ \text {i n t e r s t} \\ \text {r a t e}}}
+i = i^{*} + \underbrace {\frac{\Delta E_{\text{pe so} / \mathbb {S}}^{e}}{E_{\text{pe so} / \mathbb {S}}} + \left[ \begin{array}{c} \text{Ex ch an ge ra te} \\ \text{ri sk pr em iu m} \end{array} \right] + \left[ \begin{array}{c} \text{De fa ul t} \\ \text{ri sk pr em iu m} \end{array} \right]}_{\substack {\text{Pe so} \\ \text{in te rs t} \\ \text{ra te}}} + \underbrace {\text{Ex pe ct ed ra te of}}_{\substack {\text{Do dd ar} \\ \text{in te rs t} \\ \text{ra te}}}
 
 $ $
 The left-hand side is still the domestic return, but the right-hand side is now a risk-adjusted foreign return. The final three terms are the difference between home and foreign interest rates, and their sum total is known as the interest rate spread. What causes these spreads?
@@ -318,7 +318,7 @@ The left-hand side is still the domestic return, but the right-hand side is now 
 The first part of the interest rate spread is the currency premium:
 $ $
 
-\text {C u r r e n c y p r e m i u m} = \frac {\Delta E _ {\text {p e s o / S}} ^ {e}}{E _ {\text {p e s o / S}}} + \left[ \begin{array}{c} \text {E x c h a n g e r a t e} \\ \text {r i s k p r e m i u m} \end{array} \right]
+\text{Cu rr en cy pr em iu m} = \frac{\Delta E_{\text{pe so /S}}^{e}}{E_{\text{pe so /S}}} + \left[ \begin{array}{c} \text{Ex ch an ge ra te} \\ \text{ri sk pr em iu m} \end{array} \right]
 
 $ $
 The currency premium should be zero for a credibly pegged exchange rate: the peso is not expected to change in value relative to the dollar. But if a peg is not credible, and investors suspect that the peg may break, there could be a premium reflecting both the size of the expected depreciation and the currency's perceived riskiness. The currency premium therefore reflects the credibility of monetary policy.
@@ -326,7 +326,7 @@ The currency premium should be zero for a credibly pegged exchange rate: the pes
 The second part of the interest rate spread is known as the country premium:
 $ $
 
-\text {C o u n t r y p r e m i u m} = \left[ \begin{array}{c} \text {D e f a u l t} \\ \text {r i s k p r e m i u m} \end{array} \right]
+\text{Co un tr yp re mi um} = \left[ \begin{array}{c} \text{De fa ul t} \\ \text{ri sk pr em iu m} \end{array} \right]
 
 $ $
 The country premium is compensation for perceived default risk (settlement or counterparty risk). It will be greater than zero if investors suspect a risk of losses when they
@@ -688,7 +688,7 @@ Let's assume that each percentage point increase in the interest rate causes a  
 
 But we also know that the change in the money supply at the moment of attack  $ -\Delta M $ has to correspond exactly to the size of the reserve drain at the moment of attack, which equals the critical level of reserves $ R_{c} $ that are lost at that instant. Thus, $ $
 
-\begin{array}{c c} \frac {R _ {c}}{M} = & \frac {- \Delta M}{M} \\ \text {C r i t i c a l b a c k i n g r a t i o} & \\ \text {w h e n a c t a c k o c c u r s} & \end{array} \qquad \begin{array}{c c} = & \underbrace {\phi} _ {\text {R e s p o n s i v e n e s s}} \times \\ & \text {o f m o n e y d e m a n d} \\ & \text {t o i n t e r i s t r a t e c h a n g e s} \end{array} \qquad \begin{array}{c c} \underset {\text {F u t u r e}} {\mu} \\ \text {r a t e o f g r o w t h o f} \\ \text {d o m e s t i c c r e d i t} \end{array}
+\begin{array}{c c} \frac{R_{c}}{M} = & \frac{- \Delta M}{M} \\ \text{Cr it ic al ba ck in gr at io} & \\ \text{wh en ac ta ck oc cu rs} & \end{array} \qquad \begin{array}{c c} = & \underbrace {\phi}_{\text{Re sp on si ve ne ss}} \times \\ & \text{of mo ne yd em an d} \\ & \text{to in te ri st ra te ch an ge s} \end{array} \qquad \begin{array}{c c} \underset {\text{Fu tu re}} {\mu} \\ \text{ra te of gr ow th of} \\ \text{do me st ic cr ed it} \end{array}
 
 $ $
 This expression tells us the ratio of the critical level of reserves  $ R_{c} $ to the money supply $ M $. It depends on the sensitivity of money demand to the interest rate and on the expected future rate of growth of domestic credit $ \mu $  (remember, investors are forward-looking).

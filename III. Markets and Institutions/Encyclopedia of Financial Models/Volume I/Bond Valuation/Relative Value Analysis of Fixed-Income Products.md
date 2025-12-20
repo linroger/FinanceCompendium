@@ -131,7 +131,7 @@ The first coupon payment date was September 22, 2008. Suppose the deal spread wa
 There were 81 actual days of accrual from the effective date of 7/3/08 to the first coupon date of 9/22/08, so inserting this number along with the notional principal of 10 million and a spread of 143.5 basis points (in decimal) gives the first quarterly payment of
 
 $$
-\$ 32,287.50 = 0.01435 \times \$ 10 \text {m i l l i o n} \times (8 1 / 3 6 0)
+\$ 32,287.50 = 0.01435 \times \$ 10 \text{mi ll io n} \times (8 1 / 3 6 0)
 $$
 
 The remainder of the quarterly payments are computed in the same fashion. Note that while the CDS spread remains fixed, the payments will vary somewhat due to the varying number of days between coupon payment dates.

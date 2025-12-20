@@ -47,17 +47,17 @@ In describing ARCH/GARCH behavior, we focus on the error process. In particular,
 In financial and economic models, conditioning is often stated as regressions of the future values of the variables on the present and past values of the same variable. For example, if we assume that time is discrete, we can express conditioning as an autoregressive model:
 
 $$
-X _ {t + 1} = \alpha_ {0} + \beta_ {0} X _ {t} + \dots + \beta_ {n} X _ {t - n} + \varepsilon_ {t + 1}
+X_{t + 1} = \alpha_{0} + \beta_{0} X_{t} + \dots + \beta_{n} X_{t - n} + \varepsilon_{t + 1}
 $$
 
 The error term  $\varepsilon_{i}$  is conditional on the information  $I_{i}$  that, in this example, is represented by the present and the past  $n$  values of the variable  $X$ . The simplest autoregressive model is the random walk model of the logarithms of prices  $p_i$ :
 
-$$ p _ {t + 1} = \mu t + p _ {t} + \varepsilon_ {t}
+$$ p_{t + 1} = \mu t + p_{t} + \varepsilon_{t}
 $$
 
 In terms of returns, the random walk model is simply:
 
-$$ r _ {t} = \Delta p _ {t} = \mu + \varepsilon_ {t}
+$$ r_{t} = \Delta p_{t} = \mu + \varepsilon_{t}
 $$
 
 A major breakthrough in econometric modeling was the discovery that, for many families of econometric models, linear and nonlinear alike, it is possible to specify a stochastic process for the error terms and predict the average size of the error terms when models are fitted to empirical data. This is the essence of ARCH modeling introduced by Engle (1982).
@@ -68,12 +68,12 @@ Second, let's observe that the volatility (or the variance) of the error term is
 
 Consider, for example, the following model for returns:
 
-$$ r _ {t} = m + \varepsilon_ {t}
+$$ r_{t} = m + \varepsilon_{t}
 $$
 
 In this simple model, the clustering of volatility is equivalent to the clustering of the squared returns (minus their constant mean). Now suppose that we discover that returns are predictable through a regression on some predictor  $f$ :
 
-$$ r _ {t} = m + f _ {t - 1} + \varepsilon_ {t}
+$$ r_{t} = m + f_{t - 1} + \varepsilon_{t}
 $$
 
 As a result of our discovery, we can expect that the model will be more accurate, the size of the errors will decrease, and the heteroskedastic behavior will change.
@@ -87,14 +87,14 @@ ARCH/GARCH effects are important because they are very general. It has been foun
 In this section, we discuss univariate ARCH and GARCH models. Because in this entry we focus on financial applications, we will use finan cial notation. Let the dependent variable, which might be the return on an asset or a portfolio, be labeled  $r_t$ . The mean value  $m$  and the variance  $h$  will be defined relative to a past information set. Then the return  $r$  in the present will be equal to the conditional mean value of  $r$  (that is, the expected value of  $r$  based on past information) plus the conditional standard deviation of  $r$  (that is, the square root of the variance) times the error term for the present period:
 
 
-$$ r _ {t} = m _ {t} + \sqrt {h _ {t}} z _ {t}
+$$ r_{t} = m_{t} + \sqrt{h_{t}} z_{t}
 $$
 
 The econometric challenge is to specify how the information is used to forecast the mean and variance of the return conditional on the past information. While many specifications have been considered for the mean return and used in efforts to forecast future returns, rather simple specifications have proven surprisingly successful in predicting conditional variances.
 
 First, note that if the error terms were strict white noise (that is, zero-mean, independent variables with the same variance), the conditional variance of the error terms would be constant and equal to the unconditional variance of errors. We would be able to estimate the error variance with the empirical variance:
 
-$$ h = \frac {\sum_ {i = 1} ^ {n} \varepsilon_ {i} ^ {2}}{n}
+$$ h = \frac{\sum_{i = 1}^{n} \varepsilon_{i}^{2}}{n}
 $$ using the largest possible available sample. However, it was discovered that the residuals of most models used in financial econometrics exhibit a structure that includes heteroskedasticity and autocorrelation of their absolute values or of their squared values.
 
 
@@ -105,17 +105,17 @@ The idea behind the use of a rolling window is that the variance changes slowly 
 
 In the ARCH model proposed by Engle (1982), these weights are parameters to be estimated. Engle's ARCH model thereby allows the data to determine the best weights to use in forecasting the variance. In the original formulation of the ARCH model, the variance is forecasted as a moving average of past error terms:
 
-$$ h _ {t} = \omega + \sum_ {i = 1} ^ {p} \alpha_ {i} \varepsilon_ {t - i} ^ {2}
+$$ h_{t} = \omega + \sum_{i = 1}^{p} \alpha_{i} \varepsilon_{t - i}^{2}
 $$ where the coefficients  $\alpha_{i}$  must be estimated from empirical data. The errors themselves will have the form
 
 
 $$
-\varepsilon_ {t} = \sqrt {h _ {t}} z _ {t}
+\varepsilon_{t} = \sqrt{h_{t}} z_{t}
 $$ where the  $z$  terms are independent, standard normal variables (that is, zero-mean, unit-variance, normal variables). In order to ensure that the variance is nonnegative, the constants  $(\omega ,\alpha_{i})$  must be nonnegative. If  $\sum_{i = 1}^{p}\alpha_{i} < 1$ , the ARCH process is weakly stationary with constant unconditional variance:
 
 
 $$
-\sigma^ {2} = \frac {\omega}{1 - \sum_ {i = 1} ^ {p} \alpha_ {i}}
+\sigma^{2} = \frac{\omega}{1 - \sum_{i = 1}^{p} \alpha_{i}}
 $$
 
 Two remarks should be made. First, ARCH is a forecasting model insofar as it forecasts the error variance at time  $t$  on the basis of information known at time  $t - 1$ . Second, forecasting is conditionally deterministic, that is, the ARCH model does not leave any uncertainty on the expectation of the squared error at time  $t$  knowing past errors. This must always be true of a forecast, but, of course, the squared error that occurs can deviate widely from this forecast value.
@@ -125,7 +125,7 @@ A useful generalization of this model is the GARCH parameterization introduced b
 The most widely used GARCH specification asserts that the best predictor of the variance in the next period is a weighted average of the long-run average variance, the variance predicted for this period, and the new information in this period that is captured by the most recent squared residual. Such an updating rule is a simple description of adaptive or learning behavior and can be thought of as Bayesian updating. Consider the trader who knows that the long-run average daily standard deviation of the Standard and Poor's 500 is  $1\%$ , that the forecast he made yesterday was  $2\%$ , and the unexpected return observed today is  $3\%$ . Obviously, this is a high-volatility period, and today is especially volatile, suggesting that the volatility forecast for tomorrow could be even higher. However, the fact that the long-term average is only  $1\%$  might lead the forecaster to lower his forecast. The best strategy depends on the dependence between days. If these three numbers are each squared and weighted equally, then the new forecast would be  $2.16 = \sqrt{(1 + 4 + 9) / 3}$ . However, rather than weighting these equally, for daily data it is generally found that weights such as those in the empirical example of (0.02, 0.9, 0.08) are much more accurate. Hence, the forecast is  $2.08 = \sqrt{0.02 \times 1 + 0.9 \times 4 + 0.08 \times 9}$ . To be precise, we can use  $h_t$  to define the variance of the residuals of a regression  $r_t = m_t + \sqrt{h_t} \varepsilon_t$ . In this definition, the variance of  $\varepsilon_t$  is one. Therefore, a GARCH(1,1) model for variance looks like this:
 
 
-$$ h _ {t + 1} = \omega + \alpha (r _ {t} - m _ {t}) ^ {2} + \beta h _ {t} = \omega + \alpha h _ {t} \varepsilon_ {t} ^ {2} + \beta h _ {t}
+$$ h_{t + 1} = \omega + \alpha (r_{t} - m_{t})^{2} + \beta h_{t} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \beta h_{t}
 $$
 
 This model forecasts the variance of date  $t$  return as a weighted average of a constant, yesterday's forecast, and yesterday's squared error. If we apply the previous formula recursively, we obtain an infinite weighted moving average. Note that the weighting coefficients are different from those of a standard exponentially weighted moving average (EWMA). The econometrician must estimate the constants  $\omega, \alpha, \beta$ ; updating simply requires knowing the previous forecast  $h$  and the residual.
@@ -201,7 +201,7 @@ Let's first consider asymmetries in volatility forecasts. There is convincing ev
 
 In order to illustrate asymmetric GARCH, consider, for example, the asymmetric GARCH(1,1) model of Glosten, Jagannathan, and Runkle (1993). In this model, we add a term  $\gamma$  ( $I_{\{\varepsilon_t < 0\}}$ )  $\varepsilon_t^2$  to the basic GARCH:
 
-$$ h _ {t + 1} = \omega + \alpha h _ {t} \varepsilon_ {t} ^ {2} + \gamma \left(I _ {\{\varepsilon_ {t} <   0 \}}\right) \varepsilon_ {t} ^ {2} + \beta h _ {t}.
+$$ h_{t + 1} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \gamma \left(I_{\{\varepsilon_{t} <   0 \}}\right) \varepsilon_{t}^{2} + \beta h_{t}.
 $$
 
 The term  $(I_{\{\varepsilon_t < 0\}})$  is an indicator function that is zero when the error is positive and 1 when it is negative. If  $\gamma$  is positive, negative errors are leveraged. The parameters of the model are assumed to be positive. The relationship  $\alpha + \beta + \gamma / 2 < 1$  is assumed to hold.
@@ -210,7 +210,7 @@ In addition to asymmetries, it has been empirically found that residuals of ARCH
 
 Let's now discuss the integration of first and second moments through the GARCH-M model. ARCH/GARCH models imply that the risk inherent in financial markets varies over time. Given that financial markets implement a risk-return trade-off, it is reasonable to ask whether changing risk entails changing returns. Note that, in principle, predictability of returns in function of predictability of risk is not a violation of market efficiency. To correlate changes in volatility with changes in returns, Engle, Lilien, and Robins (1987) proposed the GARCH-M model (not to be confused with the multivariate MGARCH model that will be described shortly). The GARCH-M model, or GARCH in mean model, is a complete nonlinear model of asset returns and not only a specification of the error behavior. In the GARCH-M model, returns are assumed to be a constant plus a term proportional to the conditional variance:
 
-$$ r _ {t + 1} = \mu_ {t} + \sigma_ {t} z _ {t}, \quad \mu_ {t} = \mu_ {0} + \mu_ {1} \sigma_ {t} ^ {2}
+$$ r_{t + 1} = \mu_{t} + \sigma_{t} z_{t}, \quad \mu_{t} = \mu_{0} + \mu_{1} \sigma_{t}^{2}
 $$ where  $\sigma_t^2$  follows a GARCH process and the  $z$  terms are independent and identically distributed (IID) normal variables. Alternatively, the GARCH-M process can be specified making the mean linear in the standard deviation but not in the variance.
 
 
@@ -254,14 +254,14 @@ The models described thus far are models of single assets. However, in finance, 
 Conceptually, we can address covariances in the same way as we addressed variances. Consider a vector of  $N$  return processes:  $r_t = \{r_{i,t}\}, i = 1,\dots,N, t = 1,\dots,T$ . At every moment  $t$ , the vector  $r_t$  can be represented as:  $r_t = m_t(\vartheta) + \varepsilon_t$ , where  $m_t(\vartheta)$  is the vector of conditional means that depend on a finite vector of parameters  $\vartheta$  and the term  $\varepsilon_t$  is written as:
 
 $$
-\varepsilon_ {t} = H _ {t} ^ {\gamma_ {2}} (\vartheta) z _ {t}
+\varepsilon_{t} = H_{t}^{\gamma_{2}} (\vartheta) z_{t}
 $$ where  $H_{t}^{1 / 2}(\vartheta)$  is a positive definite matrix that depends on the finite vector of parameters  $\vartheta$ . We also assume that the  $N$ -vector  $z_{t}$  has the following moments:  $E(z_{t}) = 0$ ,  $\operatorname{Var}(z_t) = I_N$  where  $I_N$  is the  $N\times N$  identity matrix.
 
 
 To explain the nature of the matrix  $H_t^{1/2}(\vartheta)$ , consider that we can write:
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(r _ {t} \mid I _ {t - 1}\right) = \operatorname {V a r} _ {t - 1} \left(r _ {t}\right) = \operatorname {V a r} _ {t - 1} \left(\varepsilon_ {t}\right) \\ = H _ {t} ^ {1 / 2} \mathrm {V a r} _ {t - 1} (z _ {t}) H _ {t} ^ {1 / 2 ^ {\prime}} = H _ {t} \\ \end{array}
+\begin{array}{l} \operatorname{Va r} \left(r_{t} \mid I_{t - 1}\right) = \operatorname{Va r}_{t - 1} \left(r_{t}\right) = \operatorname{Va r}_{t - 1} \left(\varepsilon_{t}\right) \\ = H_{t}^{1 / 2} \mathrm{Va r}_{t - 1} (z_{t}) H_{t}^{1 / 2^{\prime}} = H_{t} \\ \end{array}
 $$ where  $I_{t - 1}$  is the information set at time  $t - 1$ . For simplicity, we left out in the notation the dependence on the parameters  $\vartheta$ . Thus  $H_{t}^{1 / 2}$  is any positive definite  $N\times N$  matrix such that  $H_{t}$  is the conditional covariance matrix of the process  $r_t$ . The matrix  $H_{t}^{1 / 2}$  could be obtained by Cholesky factorization of  $H_{t}$ . Note the formal analogy with the definition of the univariate process.
 
 
@@ -281,14 +281,14 @@ Consider that the problem of estimating large covariance matrices is already sev
 Assuming that the conditional covariance matrix is time varying, the simplest estimation technique is using a rolling window. Estimating the covariance matrix on a rolling window suffers from the same problems already discussed in the univariate case. Nevertheless, it is one of the two methods used in RiskMetrics. The second method is the EWMA method. EWMA estimates the covariance matrix using the following equation:
 
 $$
-H _ {t} = \alpha \varepsilon_ {t} \varepsilon_ {t} ^ {\prime} + (1 - \alpha) H _ {t - 1}
+H_{t} = \alpha \varepsilon_{t} \varepsilon_{t}^{\prime} + (1 - \alpha) H_{t - 1}
 $$ where  $\alpha$  is a small constant.
 
 
 Let's now turn to multivariate GARCH specifications, or MGARCH, and begin by introducing the vech notation. The vech operator stacks the lower triangular portion of an  $N \times N$  matrix as an  $N(N + 1) / 2\times 1$  vector. In the vech notation, the MGARCH(1,1) model, called the VEC model, is written as follows:
 
 
-$$ h _ {t} = \omega + A \eta_ {t - 1} + B h _ {t - 1}
+$$ h_{t} = \omega + A \eta_{t - 1} + B h_{t - 1}
 $$ where  $h_t = \operatorname{vech}(H_t)$ ,  $\omega$  is an  $N(N + 1)/2 \times 1$  vector, and  $A, B$  are  $N(N + 1)/2 \times N(N + 1)/2$  matrices.
 
 
@@ -297,12 +297,12 @@ The number of parameters in this model makes its estimation impossible except in
 To simplify conditions to ensure that  $H_{t}$  is positive definite, Engle and Kroner (1995) proposed the BEKK model (the acronym BEKK stands for Baba, Engle, Kraft, and Kroner). In its most general formulation, the BEKK(1,1,K) model is written as follows:
 
 $$
-H _ {t} = C C ^ {\prime} + \sum_ {k = 1} ^ {K} A _ {k} ^ {\prime} \varepsilon_ {t - 1} \varepsilon_ {t - 1} ^ {\prime} A _ {k} + \sum_ {k = 1} ^ {K} B _ {k} ^ {\prime} H _ {t - 1} B _ {k}
+H_{t} = C C^{\prime} + \sum_{k = 1}^{K} A_{k}^{\prime} \varepsilon_{t - 1} \varepsilon_{t - 1}^{\prime} A_{k} + \sum_{k = 1}^{K} B_{k}^{\prime} H_{t - 1} B_{k}
 $$ where  $C, A_k, B_k$  are  $N \times N$  matrices and  $C$  is upper triangular. The BEKK(1,1,1) model simplifies as follows:
 
 
 $$
-H _ {t} = C C ^ {\prime} + A ^ {\prime} \varepsilon_ {t - 1} \varepsilon_ {t - 1} ^ {\prime} A + B ^ {\prime} H _ {t - 1} B
+H_{t} = C C^{\prime} + A^{\prime} \varepsilon_{t - 1} \varepsilon_{t - 1}^{\prime} A + B^{\prime} H_{t - 1} B
 $$ which is a multivariate equivalent of the GARCH(1,1) model. The number of parameters in this model is very large; the diagonal BEKK was proposed to reduce the number of parameters.
 
 
@@ -310,24 +310,24 @@ The VEC model can be weakly (covariance) stationary but exhibit a time-varying c
 
 
 $$
-H = [ I _ {N ^ {*}} - A - B ] ^ {- 1}, \quad N ^ {*} = N (N + 1) / 2 \times
+H = [ I_{N^{*}} - A - B ]^{- 1}, \quad N^{*} = N (N + 1) / 2 \times
 $$
 
 MGARCH based on factor models offers a different modeling strategy. Standard (strict) factor models represent returns as linear regressions on a small number of common variables called factors:
 
-$$ r _ {t} = m + B f _ {t} + \varepsilon_ {t}
+$$ r_{t} = m + B f_{t} + \varepsilon_{t}
 $$ where  $r_t$  is a vector of returns,  $f_t$  is a vector of  $K$  factors,  $B$  is a matrix of factor loadings,  $\varepsilon_t$  is noise with diagonal covariance, so that the covariance between returns is accounted for only by the covariance between the factors. In this formulation, factors are static factors without a specific time dependence. The unconditional covariance matrix of returns  $\Omega$  can be written as:
 
 
 $$
-\Omega = B \Omega_ {K} B ^ {\prime} + \Sigma
+\Omega = B \Omega_{K} B^{\prime} + \Sigma
 $$ where  $\Omega_K$  is the covariance matrix of the factors.
 
 
 We can introduce a dynamics in the expectations of returns of factor models by making some or all of the factors dynamic, for example, assuming an autoregressive relationship:
 
 $$
-\begin{array}{l} r _ {t} = m + B f _ {t} + \varepsilon_ {t} \\ f _ {t + 1} = a + b f _ {t} + \eta_ {t} \\ \end{array}
+\begin{array}{l} r_{t} = m + B f_{t} + \varepsilon_{t} \\ f_{t + 1} = a + b f_{t} + \eta_{t} \\ \end{array}
 $$
 
 We can also introduce a dynamic of volatilities assuming a GARCH structure for factors. Engle, Ng, and Rothschild (1990) used the notion of factors in a dynamic conditional covariance context assuming that one factor, the market factor, is dynamic. Various GARCH factor models have been proposed: the F-GARCH model of Lin (1992); the full factor FF-GARCH model of Vrontos, Dellaportas, and Politis (2003); the orthogonal O-GARCH model of Kariya (1988); and Alexander and Chibumba (1997).

@@ -53,7 +53,7 @@ The use of cointegration in finance has grown significantly. Surveying this vast
 Before explaining cointegration it is first necessary to distinguish between stationary and nonstationary variables. A variable is said to be stationary (more formally, weakly stationary) if its mean and variance are constant and its autocorrelation depends on the lag length, that is
 
 $$
-\begin{array}{l} \operatorname {E} (X _ {t}) = \mu , \quad \operatorname {V a r} (X _ {t}) = \sigma^ {2}, \text {a n d} \\ \operatorname {C o v} \left(X _ {t}, X _ {t - 1}\right) = \gamma (1) \\ \end{array}
+\begin{array}{l} \operatorname{E} (X_{t}) = \mu , \quad \operatorname{Va r} (X_{t}) = \sigma^{2}, \text{an d} \\ \operatorname{Co v} \left(X_{t}, X_{t - 1}\right) = \gamma (1) \\ \end{array}
 $$
 
 Stationary means that the variable fluctuates about its mean with constant variation. Another way to put it is that the variable exhibits mean reversion and so displays no stochastic trend. In contrast, nonstationary variables may wander arbitrarily far from the mean. Thus, only nonstationary variables exhibit a stochastic trend.
@@ -64,7 +64,7 @@ The simplest example of a nonstationary variable is a random walk. A variable is
 Nonstationary time series are often referred to as a unit root series. The unit root reflects the coefficient of the  $X_{t-1}$  term in an autoregressive relationship of order one. In higher-order autoregressive models, the condition of nonstationarity is more complex. Consider the  $p$  order autoregressive model where the  $a_i$  terms are coefficients and the  $L^i$  is the lag operator. If the sum of polynomial coefficients equals 1, then the  $X_t$  series are nonstationary and again are referred to as a unit root process.
 
 $$
-(1 - a _ {1} L ^ {1} - \dots - a _ {\mathrm {p}} L ^ {\mathrm {p}}) X _ {\mathrm {t}} = e _ {t} + a _ {0} \tag {1}
+(1 - a_{1} L^{1} - \dots - a_{\mathrm{p}} L^{\mathrm{p}}) X_{\mathrm{t}} = e_{t} + a_{0} \tag {1}
 $$
 
 If all the variables under consideration are stationary, then there is no spurious regression problem and standard OLS applies. If some of the variables are stationary, and some are nonstationary, then no economically significant relationships exist. Since nonstationary variables contain a stochastic trend, they will not exhibit any relationship with the stationary variables that lack this trend. The spurious regression problem occurs only when all the variables in the system are nonstationary.
@@ -92,7 +92,7 @@ First determine whether the time series variables under investigation are statio
 
 Estimate the following regression:
 
-$$ y _ {\mathrm {t}} = c + d \mathrm {x} _ {\mathrm {t}} + z _ {\mathrm {t}} \tag {2}
+$$ y_{\mathrm{t}} = c + d \mathrm{x}_{\mathrm{t}} + z_{\mathrm{t}} \tag {2}
 $$
 
 To make this concrete, let  $y_{t}$  represent some U.S. stock market index,  $x_{t}$  represents stock dividends on that stock market index, and  $z_{t}$  is the error term.  $c$  and  $d$  are regression parameters. For cointegration tests, the null hypothesis states that the variables lack cointegration, and the alternative claims that they are cointegrated.
@@ -102,14 +102,14 @@ To make this concrete, let  $y_{t}$  represent some U.S. stock market index,  $x
 To test for cointegration, we test for stationarity in  $z_{t}$ . The Dickey-Fuller test is the most obvious candidate. That is, we should consider the following autoregression of the error term:
 
 $$
-\Delta z _ {t} = p z _ {t - 1} + u _ {t} \tag {3}
+\Delta z_{t} = p z_{t - 1} + u_{t} \tag {3}
 $$ where  $z_{t}$  is the estimated residual from equation (2). The test focuses on the significance of the estimated  $p$ . If the estimate of  $p$  is statistically negative, we conclude that the residuals,  $z_{t}$ , are stationary and reject the hypothesis of no cointegration.
 
 
 The residuals of equation (3) should be checked to ensure they are white noise. If they are not, we should employ the augmented Dickey-Fuller test (ADF). The augmented Dickey-Fuller test is analogous to the Dickey-Fuller test but includes additional lags of  $\Delta z_{t}$  as shown in equation (4). The ADF test for stationarity, like the Dickey-Fuller test, tests the hypothesis of  $p = 0$  against the alternative hypothesis of  $p < 0$  for the equation (4):
 
 $$
-\Delta z _ {t} = p z _ {t - 1} + a _ {1} \Delta z _ {t - 1} + \dots + a _ {n} \Delta z _ {t - n} + u _ {t} \tag {4}
+\Delta z_{t} = p z_{t - 1} + a_{1} \Delta z_{t - 1} + \dots + a_{n} \Delta z_{t - n} + u_{t} \tag {4}
 $$
 
 Generally, the OLS-produced residuals tend to have as small a sample variance as possible, thereby making residuals look as stationary as possible. Thus, the standard  $t$ -statistic or ADF statistic may reject the null hypothesis of nonstationarity too often. Hence, it is important to have correct statistics; fortunately, Engle and Yoo (1987) provide the correct statistics. Furthermore, if it is believed that the variable under investigation has a long-run growth component, it is appropriate to test the series for stationarity around a deterministic time trend for both the DF and ADF tests. This is accomplished by adding a time trend to equations (3) or (4).
@@ -120,11 +120,11 @@ Generally, the OLS-produced residuals tend to have as small a sample variance as
 The final step involves estimating the error-correction model. Engle and Granger (1987) showed that if two variables are cointegrated, then these variables can be described in an error-correction format described in the following two equations:
 
 $$
-\begin{array}{l} \Delta y _ {t} = b _ {1 0} + \sum_ {i = 1} ^ {n} b _ {1 i} \Delta y _ {t - i} + \sum_ {j =} ^ {n} c _ {1 j} \Delta x _ {t - j} \\ + d _ {1} \left(y _ {t - 1} - a x _ {t - 1}\right) + e _ {1 t} \tag {5} \\ \end{array}
+\begin{array}{l} \Delta y_{t} = b_{1 0} + \sum_{i = 1}^{n} b_{1 i} \Delta y_{t - i} + \sum_{j =}^{n} c_{1 j} \Delta x_{t - j} \\ + d_{1} \left(y_{t - 1} - a x_{t - 1}\right) + e_{1 t} \tag {5} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \Delta x _ {t} = b _ {2 0} + \sum_ {i = 1} ^ {n} b _ {2 i} \Delta y _ {t - i} + \sum_ {j =} ^ {n} c _ {2 j} \Delta x _ {t - j} \\ + d _ {2} \left(y _ {t - 1} - a x _ {t - 1}\right) + e _ {2 t} \tag {6} \\ \end{array}
+\begin{array}{l} \Delta x_{t} = b_{2 0} + \sum_{i = 1}^{n} b_{2 i} \Delta y_{t - i} + \sum_{j =}^{n} c_{2 j} \Delta x_{t - j} \\ + d_{2} \left(y_{t - 1} - a x_{t - 1}\right) + e_{2 t} \tag {6} \\ \end{array}
 $$
 
 Equation (5) tells us that the changes in  $y_{t}$  depend on its own past changes, the past changes in  $x_{t}$ , and the disequilibrium between  $x_{t-1}$  and  $y_{t-1}$  ( $y_{t-1} - ax_{t-1}$ ). The size of the error-correction term,  $d_{1}$ , captures the speed of adjustment of  $x_{t}$  and  $y_{t}$  to the previous period's disequilibrium. Equation (6) has a corresponding interpretation.
@@ -143,7 +143,7 @@ Figure 1
 The dividend growth model of stock price valuation claims the fundamental value of a stock is determined by the present value of its future dividend stream. This model may be represented as:
 
 $$
-P _ {0} = \sum d _ {i} / (1 + r)
+P_{0} = \sum d_{i} / (1 + r)
 $$ where
 
 
@@ -217,7 +217,7 @@ A second problem is that the errors we use to test for cointegration are only es
 The procedures developed by Johansen and Juselius (1990) avoid these problems. Consider the following multivariate model:
 
 $$
-\mathrm {y} _ {\mathrm {t}} = \mathrm {A y} _ {\mathrm {t} - 1} + \mathrm {u} _ {\mathrm {t}} \tag {7}
+\mathrm{y}_{\mathrm{t}} = \mathrm{Ay}_{\mathrm{t} - 1} + \mathrm{u}_{\mathrm{t}} \tag {7}
 $$ where
 
 
@@ -228,7 +228,7 @@ If the variables display a time trend, we may wish to add the matrix  $A_0$  to 
 The model (without the deterministic time trend) can then be represented as:
 
 $$
-\Delta \mathrm {y} _ {\mathrm {t}} = (\mathrm {I} - \mathrm {A}) \mathrm {y} _ {\mathrm {t} - 1} + \mathrm {u} _ {\mathrm {t}} \tag {8}
+\Delta \mathrm{y}_{\mathrm{t}} = (\mathrm{I} - \mathrm{A}) \mathrm{y}_{\mathrm{t} - 1} + \mathrm{u}_{\mathrm{t}} \tag {8}
 $$
 
 Let  $B = I - A$ .  $I$  is the identity matrix of dimension  $n$ . The cointegration of the system is determined by the rank of  $B$  matrix. The highest rank of  $B$  one can obtain is  $n$ , the number of variables under consideration. If the rank of the matrix equals zero, then the  $B$  matrix is null. This means  $\Delta y_{t} = 0 + u_{t}$ , where  $0$  is the null vector. In this case  $y_{it}$  will follow a random walk
@@ -244,7 +244,7 @@ The Johansen-Juselius procedure employs two statistics to test for nonzero chara
 The first statistic, the trace test statistic, verifies the null hypothesis that at most  $i$  characteristic roots are different from zero. The alternative hypothesis is that more than  $i$  characteristic roots are nonzero. The statistic employed is:
 
 $$
-\begin{array}{l} \lambda_ {\text {t r a c e}} (\mathrm {i}) = - \mathrm {T} [ \ln (1 - \lambda_ {i} ^ {*}) + \ln (1 - \lambda_ {i + 1} ^ {*}) \\ + \dots + \ln \left(1 - \lambda_ {n} ^ {*}\right) ]. \tag {9} \\ \end{array}
+\begin{array}{l} \lambda_{\text{tr ac e}} (\mathrm{i}) = - \mathrm{T} [ \ln (1 - \lambda_{i}^{*}) + \ln (1 - \lambda_{i + 1}^{*}) \\ + \dots + \ln \left(1 - \lambda_{n}^{*}\right) ]. \tag {9} \\ \end{array}
 $$ where  $T$  is the number of included time periods. If all the characteristic roots are zero since  $\ln (1) = 0$ , the statistic will equal zero. Thus low values of the test statistic will lead us to fail to reject the null hypothesis. The larger any characteristic root is, the more negative  $1 - \lambda_{i}^{*}$  and the larger the test statistic and the more likely we will reject the null hypothesis.
 
 
@@ -252,7 +252,7 @@ The alternative test is called the maximum eigenvalue test since it is based on 
 
 
 $$
-\lambda_ {\max } (\mathrm {i}, \mathrm {i} + 1) = - \operatorname {T l n} (1 - \lambda_ {\mathrm {i} + 1} ^ {*}) \tag {10}
+\lambda_{\max } (\mathrm{i}, \mathrm{i} + 1) = - \operatorname{Tl n} (1 - \lambda_{\mathrm{i} + 1}^{*}) \tag {10}
 $$
 
 Again, if  $\lambda_{i + 1}^* = 0$ , then the test statistic will equal zero. So low (high) values of  $\lambda_{i + 1}^*$  will lead to a failure to reject (rejection of) the null hypothesis.
@@ -270,7 +270,7 @@ The first step to test for cointegration is to establish that the three stock in
 ADF statistic), and the Phillips-Perron statistic. For reasons of space, we will not repeat this. Next we should establish the appropriate lag length for equation (8). This is typically done by estimating a traditional vector autoregressive (VAR) model and applying a multivariate version of the Akaike information criterion or Schwarz criterion. For our model, we use one lag, and thus the model takes the form:
 
 $$
-\mathrm {y} _ {\mathrm {t}} = \mathrm {A} _ {0} + \mathrm {A} _ {1} \mathrm {y} _ {\mathrm {t} - 1} + \mathrm {u} _ {\mathrm {t}} \tag {11}
+\mathrm{y}_{\mathrm{t}} = \mathrm{A}_{0} + \mathrm{A}_{1} \mathrm{y}_{\mathrm{t} - 1} + \mathrm{u}_{\mathrm{t}} \tag {11}
 $$ where  $y_{t}$  is the  $n \times 3$  vector  $(y_{1t}, y_{2t}, y_{3t})'$  of the logs of the stock market index for France, Germany, and the Netherlands (i.e., element  $y_{1t}$  is the log of the French index at time  $t$ ;  $y_{2t}$  is the log of the German index at time  $t$ ; and  $y_{3t}$  is the log of the Netherlands index at time  $t$ ). We use logs of the stock market indexes to smooth the series.  $A_{0}$  and  $A_{1}$  are  $n \times n$  matrices of parameters and  $u_{t}$  is the  $n \times n$  error matrix.
 
 
@@ -281,7 +281,7 @@ The estimates of the characteristic roots are presented in Table 6. We want to e
 We have 96 usable observations.
 
 $$
-\begin{array}{l} \lambda \operatorname {t r a c e} (0) = - \mathrm {T} [ \ln \left(1 - \lambda_ {\mathrm {i}} ^ {*}\right) + \ln \left(1 - \lambda_ {2} ^ {*}\right) \\ + \ln (1 - \lambda_ {3} ^ {*}) ] = - 9 6 [ \ln (1 - 0. 2 2 7) \\ + \ln (1 - 0. 0 5 7) + \ln (1 - 0. 0 2 8) ] \\ = 3 3. 0 5 \\ \end{array}
+\begin{array}{l} \lambda \operatorname{tr ac e} (0) = - \mathrm{T} [ \ln \left(1 - \lambda_{\mathrm{i}}^{*}\right) + \ln \left(1 - \lambda_{2}^{*}\right) \\ + \ln (1 - \lambda_{3}^{*}) ] = - 9 6 [ \ln (1 - 0. 2 2 7) \\ + \ln (1 - 0. 0 5 7) + \ln (1 - 0. 0 2 8) ] \\ = 3 3. 0 5 \\ \end{array}
 $$
 
 Table 6 Cointegration Test
@@ -293,7 +293,7 @@ As reported in Table 6, this exceeds the critical value for  $5\%$  significance
 The  $\lambda_{\mathrm{max}}$  statistic reinforces our conclusion. We can use  $\lambda_{\mathrm{max}}(0,1)$  to test the null hypothesis that the variables lack cointegration against the alternative that they are cointegrated with one cointegrating vector. Table 6 presents the value of  $\lambda_{\mathrm{max}}(0,1)$ . Again, for pedagogic reasons we outline the calculation of  $\lambda_{\mathrm{max}}(0,1)$ .
 
 $$
-\begin{array}{l} \lambda_ {\max } (0, 1) = (- \mathrm {T l n} (1 - \lambda_ {\mathrm {i}} ^ {*}) = - 9 6 \ln (1 - 0. 2 2 7) \\ = 2 4. 7 2 \\ \end{array}
+\begin{array}{l} \lambda_{\max } (0, 1) = (- \mathrm{Tl n} (1 - \lambda_{\mathrm{i}}^{*}) = - 9 6 \ln (1 - 0. 2 2 7) \\ = 2 4. 7 2 \\ \end{array}
 $$
 
 The computed value of 24.72 exceeds the critical value of 21.13 at the  $5\%$  significance level and has a  $p$ -value of 0.01. Once again, this leads us to reject the null hypothesis that the indexes lack cointegration and conclude that there exists at least one cointegrating vector.
@@ -302,7 +302,7 @@ The next step requires a presentation of the cointegrating equation and an analy
 
 
 $$
-\begin{array}{l} \Delta \mathrm {y} _ {\mathrm {t}} = \mathrm {b} _ {1 0} + \sum_ {i = 1} ^ {n} b _ {1 i} \Delta y _ {t - i} + \sum_ {j =} ^ {n} c _ {1 j} \Delta x _ {t - j} \\ + d _ {1} \left(\mathrm {y} _ {\mathrm {t} - 1} - \mathrm {a x} _ {\mathrm {t} - 1}\right) + \mathrm {e} _ {1 \mathrm {t}} \tag {12} \\ \end{array}
+\begin{array}{l} \Delta \mathrm{y}_{\mathrm{t}} = \mathrm{b}_{1 0} + \sum_{i = 1}^{n} b_{1 i} \Delta y_{t - i} + \sum_{j =}^{n} c_{1 j} \Delta x_{t - j} \\ + d_{1} \left(\mathrm{y}_{\mathrm{t} - 1} - \mathrm{ax}_{\mathrm{t} - 1}\right) + \mathrm{e}_{1 \mathrm{t}} \tag {12} \\ \end{array}
 $$
 
 The notation of equation (12) differs somewhat from the notation of equations (5) and (6). The notation used in equation (12) reflects the matrix notation adopted for the Johansen-Juselius method in equation (8). Nevertheless, for expositional convenience, we did not use the matrix notation for the error-correction term. Again, the  $\Delta$  means the first difference of the variable; thus  $\Delta y_{1t - 1}$  means the change in the log of the French stock index in period  $t - 1$ ,  $(y_{1t - 1} - y_{1t - 2})$ . Equation (12) claims that changes in the log of the French stock index are due to changes in the French stock index during the last two (2) periods; changes in the German stock index during the last two periods; changes in the Netherlands stock index during the last two periods; and finally deviations of the French stock index from its stochastic trend with Germany and the Netherlands. An analogous equation could be written for both Germany and the Netherlands.

@@ -209,7 +209,7 @@ Survey by Chodorow-Reich 17
 Estimates of local fiscal multiplier cluster at 1.5-2.0
 - Regress output growth on change in military spending at state level the U.S.
 $$
-\left(\frac {Y _ {i t} - Y _ {i t - 2}}{Y _ {i t - 2}}\right) = \alpha_ {i} + \gamma_ {t} + \beta \left(\frac {\boldsymbol {G} _ {i t} - \boldsymbol {G} _ {i t - 2}}{Y _ {i t - 2}}\right) + \Gamma X _ {i t} + \epsilon_ {i t}
+\left(\frac{Y_{i t} - Y_{i t - 2}}{Y_{i t - 2}}\right) = \alpha_{i} + \gamma_{t} + \beta \left(\frac{\boldsymbol {G}_{i t} - \boldsymbol {G}_{i t - 2}}{Y_{i t - 2}}\right) + \Gamma X_{i t} + \epsilon_{i t}
 $$
 
 Basic idea for identification:
@@ -479,13 +479,13 @@ Fed lowered interest rates aggressively in fall of 2008
 - Done in response to worsening financial crisis
 - Consider simple OLS regression:
 $$
-\Delta y _ {t} = \alpha + \beta \Delta i _ {t} + \epsilon_ {t}
+\Delta y_{t} = \alpha + \beta \Delta i_{t} + \epsilon_{t}
 $$
 Fed lowered interest rates aggressively in fall of 2008
 - Done in response to worsening financial crisis
 - Consider simple OLS regression:
 $$
-\Delta y _ {t} = \alpha + \beta \Delta i _ {t} + \epsilon_ {t}
+\Delta y_{t} = \alpha + \beta \Delta i_{t} + \epsilon_{t}
 $$
 This regression will not identify effects of policy
 - Financial crisis – event that induced Fed to act – is a confounding factor (in error term and correlated with  $\Delta i_{t}$ )
@@ -582,7 +582,7 @@ Source: Nakamura and Steinsson (2018)
 # Controlling for Confounding Factors
 Large class of linear rational expectations models can be written as follows: (state space representation)
 $$
-A Y _ {t + 1} = B Y _ {t} + C \epsilon_ {t + 1} + D \eta_ {t + 1}
+A Y_{t + 1} = B Y_{t} + C \epsilon_{t + 1} + D \eta_{t + 1}
 $$
 # where
 - $Y_{t}$  is an  $n \times 1$  vector
@@ -591,44 +591,44 @@ $\bullet$ $\epsilon_{t + 1}$  are exogenous shocks  $(m_1\times 1$  vector)
 - $\eta_{t+1}$  are prediction errors ( $m_2 \times 1$  vector)
 - Only some elements of  $Y_{t+1}$  have initial conditions
 $$
-\pi_ {t} = E _ {t} \pi_ {t + 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
+\pi_{t} = E_{t} \pi_{t + 1} + \kappa \left(y_{t} - y_{t}^{n}\right)
 $$
-$$ y _ {t} = E _ {t} y _ {t + 1} - \sigma \left(i _ {t} - E _ {t} \pi_ {t + 1} - r _ {t} ^ {n}\right)
-$$
-$$
-\dot {i} _ {t} = \phi_ {\pi} \pi_ {t} + \phi_ {y} y _ {t} + v _ {t}
+$$ y_{t} = E_{t} y_{t + 1} - \sigma \left(i_{t} - E_{t} \pi_{t + 1} - r_{t}^{n}\right)
 $$
 $$
-\pi_ {t} = E _ {t} \pi_ {t + 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
-$$
-$$ y _ {t} = E _ {t} y _ {t + 1} - \sigma \left(i _ {t} - E _ {t} \pi_ {t + 1} - r _ {t} ^ {n}\right)
+\dot {i}_{t} = \phi_{\pi} \pi_{t} + \phi_{y} y_{t} + v_{t}
 $$
 $$
-\dot {i} _ {t} = \phi_ {\pi} \pi_ {t} + \phi_ {y} y _ {t} + v _ {t}
+\pi_{t} = E_{t} \pi_{t + 1} + \kappa \left(y_{t} - y_{t}^{n}\right)
+$$
+$$ y_{t} = E_{t} y_{t + 1} - \sigma \left(i_{t} - E_{t} \pi_{t + 1} - r_{t}^{n}\right)
+$$
+$$
+\dot {i}_{t} = \phi_{\pi} \pi_{t} + \phi_{y} y_{t} + v_{t}
 $$
 Some manipulation yields:
 $$
-\pi_ {t + 1} = \pi_ {t} - \kappa y _ {t} + \kappa y _ {t} ^ {n} + \eta_ {\pi , t + 1}
+\pi_{t + 1} = \pi_{t} - \kappa y_{t} + \kappa y_{t}^{n} + \eta_{\pi , t + 1}
 $$
-$$ y _ {t + 1} + \sigma \pi_ {t + 1} = y _ {t} + \sigma i _ {t} - \sigma r _ {t} ^ {\eta} + \eta_ {y, t + 1} + \sigma \eta_ {\pi , t + 1}
+$$ y_{t + 1} + \sigma \pi_{t + 1} = y_{t} + \sigma i_{t} - \sigma r_{t}^{\eta} + \eta_{y, t + 1} + \sigma \eta_{\pi , t + 1}
 $$
-$$ i _ {t + 1} - \phi_ {\pi} \pi_ {t + 1} - \phi_ {y} y _ {t + 1} = \nu_ {t + 1}
+$$ i_{t + 1} - \phi_{\pi} \pi_{t + 1} - \phi_{y} y_{t + 1} = \nu_{t + 1}
 $$ where  $\eta_{\pi ,t + 1} = \pi_{t + 1} - E_t\pi_{t + 1}$  and  $\eta_{y,t + 1} = y_{t + 1} - E_ty_{t + 1}$
 $$
-\left[ \begin{array}{c c c c c c} 1 & 0 & 0 & 0 & 0 & 0 \\ \sigma & 1 & 0 & 0 & 0 & 0 \\ - \phi_ {\pi} & - \phi_ {y} & 1 & 0 & 0 & - 1 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{array} \right] \left[ \begin{array}{c} \pi_ {t + 1} \\ y _ {t + 1} \\ i _ {t + 1} \\ y _ {t + 1} ^ {n} \\ r _ {t + 1} ^ {n} \\ \nu_ {t + 1} \end{array} \right] = \left[ \begin{array}{c c c c c c} 1 & - \kappa & 0 & \kappa & 0 & 0 \\ 0 & 1 & \sigma & 0 & - \sigma & 0 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & \rho_ {\pi} & 0 & 0 \\ 0 & 0 & 0 & 0 & \rho_ {y} & 0 \\ 0 & 0 & 0 & 0 & 0 & \rho_ {i} \end{array} \right] \left[ \begin{array}{c} \pi_ {t} \\ y _ {t} \\ i _ {t} \\ y _ {t} ^ {n} \\ r _ {t} ^ {n} \\ \nu_ {t} \end{array} \right]
+\left[ \begin{array}{c c c c c c} 1 & 0 & 0 & 0 & 0 & 0 \\ \sigma & 1 & 0 & 0 & 0 & 0 \\ - \phi_{\pi} & - \phi_{y} & 1 & 0 & 0 & - 1 \\ 0 & 0 & 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0 & 0 & 1 \end{array} \right] \left[ \begin{array}{c} \pi_{t + 1} \\ y_{t + 1} \\ i_{t + 1} \\ y_{t + 1}^{n} \\ r_{t + 1}^{n} \\ \nu_{t + 1} \end{array} \right] = \left[ \begin{array}{c c c c c c} 1 & - \kappa & 0 & \kappa & 0 & 0 \\ 0 & 1 & \sigma & 0 & - \sigma & 0 \\ 0 & 0 & 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & \rho_{\pi} & 0 & 0 \\ 0 & 0 & 0 & 0 & \rho_{y} & 0 \\ 0 & 0 & 0 & 0 & 0 & \rho_{i} \end{array} \right] \left[ \begin{array}{c} \pi_{t} \\ y_{t} \\ i_{t} \\ y_{t}^{n} \\ r_{t}^{n} \\ \nu_{t} \end{array} \right]
 $$
 $$
-+ \left[ \begin{array}{l l l} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{array} \right] \left[ \begin{array}{l} \epsilon_ {1, t + 1} \\ \epsilon_ {2, t + 1} \\ \epsilon_ {3, t + 1} \end{array} \right] + \left[ \begin{array}{l l} 1 & 0 \\ \sigma & 1 \\ 0 & 0 \\ 0 & 0 \\ 0 & 0 \end{array} \right] \left[ \begin{array}{l} \eta_ {\pi , t + 1} \\ \eta_ {\gamma , t + 1} \end{array} \right]
++ \left[ \begin{array}{l l l} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{array} \right] \left[ \begin{array}{l} \epsilon_{1, t + 1} \\ \epsilon_{2, t + 1} \\ \epsilon_{3, t + 1} \end{array} \right] + \left[ \begin{array}{l l} 1 & 0 \\ \sigma & 1 \\ 0 & 0 \\ 0 & 0 \\ 0 & 0 \end{array} \right] \left[ \begin{array}{l} \eta_{\pi , t + 1} \\ \eta_{\gamma , t + 1} \end{array} \right]
 $$
 - Have assumed that  $y_{t}^{n}, r_{t}^{n}$ , and  $\nu_{t}$  are AR(1)
 - System comes with only three initial conditions (for  $y_{t}^{n}, r_{t}^{n}$ , and  $\nu_{t}$ )
 State space representation:
 $$
-A Y _ {t + 1} = B Y _ {t} + C \epsilon_ {t + 1} + D \eta_ {t + 1}
+A Y_{t + 1} = B Y_{t} + C \epsilon_{t + 1} + D \eta_{t + 1}
 $$
 Solution:
 $$
-Y _ {t} = G Y _ {t - 1} + R \epsilon_ {t}
+Y_{t} = G Y_{t - 1} + R \epsilon_{t}
 $$
 How to solve?
 - Blanchard-Kahn 80. See, e.g., Sims 00 or lecture notes by Den Haan
@@ -636,15 +636,15 @@ How to solve?
 - Suppose we are interested in effect of  $\epsilon_{3,0}$  on  $y_{t}$  for  $t \geq 0$  (Recall that  $\epsilon_{3,0}$  is the innovation to the monetary shock)
 - Iterate forward the VAR starting at time 0:
 $$
-Y _ {t} = G ^ {t} Y _ {- 1} + G ^ {t - 1} R \epsilon_ {0}
+Y_{t} = G^{t} Y_{- 1} + G^{t - 1} R \epsilon_{0}
 $$
 - Suppose for simplicity that we start off in a steady state  $Y_{-1} = 0$ :
 $$
-Y _ {t} = G ^ {t - 1} R \epsilon_ {0}
+Y_{t} = G^{t - 1} R \epsilon_{0}
 $$
 - If we can estimate  $G$  and  $R$ , then we can calculate dynamic causal effect of all structural shocks
 $$
-Y _ {t} = G Y _ {t - 1} + R \epsilon_ {t}
+Y_{t} = G Y_{t - 1} + R \epsilon_{t}
 $$
 # 1. Some variables in true VAR may be unobservable
 In NK model example,  $(y_{t}^{n},r_{t}^{n}$  , and  $\nu_{t})$  are unobservable
@@ -652,13 +652,13 @@ How about solving out for these variables?
 - This typically transforms a VAR(p) into a VARMA  $(\infty, \infty)$  in the remaining variables
 - Implicit assumption in VAR estimation that true VARMA  $(\infty, \infty)$  in observable variables can be approximated by a VAR(p) (Problem Set 3 will have you think more about this)
 $$
-Y _ {t} = G Y _ {t - 1} + R \epsilon_ {t}
+Y_{t} = G Y_{t - 1} + R \epsilon_{t}
 $$
 2. How do we get from reduced form errors to structural errors?
 - Suppose you estimate a VAR (i.e., estimate  $n$  OLS regressions)
 - You will get:
 $$
-Y _ {t} = G Y _ {t - 1} + u _ {t}
+Y_{t} = G Y_{t - 1} + u_{t}
 $$ where  $u_{t}$  are reduced form errors with variance-covariance matrix  $\Sigma$
 Unfortunately,  $\Sigma$  not enough to identify  $R$
 - Structural VARs make additional assumptions to be able to identify  $R$
@@ -672,21 +672,21 @@ Example: Short-run restrictions (see Stock-Watson 01)
 - Important to consider these two steps separately
 Common approach:
 - Regress fed funds rate on output, inflation, etc. + a few lags of fed funds rate, output, inflation, etc.
-$$ i _ {t} = \alpha + \phi_ {y} y _ {t} + \phi_ {\pi} \pi_ {t} + [ \text {f o u r l a g s o f} i _ {t}, y _ {t}, \pi_ {t} ] + \epsilon_ {t}
+$$ i_{t} = \alpha + \phi_{y} y_{t} + \phi_{\pi} \pi_{t} + [ \text{fo ur la gs of} i_{t}, y_{t}, \pi_{t} ] + \epsilon_{t}
 $$
 - View residual as exogenous variation in monetary policy
 - Equivalent to performing a Cholesky decomposition on reduced form errors from VAR, ordering fed funds rate last (See Stock-Watson 01)
-$$ i _ {t} = \alpha + \phi_ {y} y _ {t} + \phi_ {\pi} \pi_ {t} + [ \text {f o u r l a g s o f} i _ {t}, y _ {t}, \pi_ {t} ] + \epsilon_ {t}
+$$ i_{t} = \alpha + \phi_{y} y_{t} + \phi_{\pi} \pi_{t} + [ \text{fo ur la gs of} i_{t}, y_{t}, \pi_{t} ] + \epsilon_{t}
 $$
 What can go wrong?
-$$ i _ {t} = \alpha + \phi_ {y} y _ {t} + \phi_ {\pi} \pi_ {t} + [ \text {f o u r l a g s o f} i _ {t}, y _ {t}, \pi_ {t} ] + \epsilon_ {t}
+$$ i_{t} = \alpha + \phi_{y} y_{t} + \phi_{\pi} \pi_{t} + [ \text{fo ur la gs of} i_{t}, y_{t}, \pi_{t} ] + \epsilon_{t}
 $$
 What can go wrong?
 1. Reverse causation:
 - Assumption begin made: Correlation between  $i_t$  and  $(\pi_t, y_t)$  is due to  $(\pi_t, y_t)$  influencing  $i_t$  but not the other way around
 - If  $i_t$  influences  $(\pi_t, y_t)$  (contemporaneously), we have a "simultaneous equation problem"  $(\epsilon_t$  correlated with  $(\pi_t, y_t))$
 - Assumption being made:  $i_t$  is "fast-moving" variable, while  $\pi_t$  and  $y_t$  are slow moving. So  $i_t$  doesn't affect  $\pi_t$  and  $y_t$  contemporaneously
-$$ i _ {t} = \alpha + \phi_ {y} y _ {t} + \phi_ {\pi} \pi_ {t} + [ \text {f o u r l a g s o f} i _ {t}, y _ {t}, \pi_ {t} ] + \epsilon_ {t}
+$$ i_{t} = \alpha + \phi_{y} y_{t} + \phi_{\pi} \pi_{t} + [ \text{fo ur la gs of} i_{t}, y_{t}, \pi_{t} ] + \epsilon_{t}
 $$
 What can go wrong?
 1. Reverse causation:
@@ -694,7 +694,7 @@ What can go wrong?
 - If  $i_t$  influences  $(\pi_t, y_t)$  (contemporaneously), we have a "simultaneous equation problem"  $(\epsilon_t$  correlated with  $(\pi_t, y_t))$
 - Assumption being made:  $i_t$  is "fast-moving" variable, while  $\pi_t$  and  $y_t$  are slow moving. So  $i_t$  doesn't affect  $\pi_t$  and  $y_t$  contemporaneously
 Often, the discussion of identification stops here and seems surprisingly innocuous. Where did the rabbit go into the hat?
-$$ i _ {t} = \alpha + \phi_ {y} y _ {t} + \phi_ {\pi} \pi_ {t} + [ \text {f o u r l a g s o f} i _ {t}, y _ {t}, \pi_ {t}, \text {e t c .} ] + \epsilon_ {t}
+$$ i_{t} = \alpha + \phi_{y} y_{t} + \phi_{\pi} \pi_{t} + [ \text{fo ur la gs of} i_{t}, y_{t}, \pi_{t}, \text{et c .} ] + \epsilon_{t}
 $$
 What can go wrong?
 2. Omitted variables bias:
@@ -762,7 +762,7 @@ Romer-Romer's shock series addresses two problems:
 - Use of Fed's Greenbook forecasts control for such endogeneity (Greenbook typically prepared six days before meeting)
 Romer-Romer's specification:
 $$
-\begin{array}{l} {\Delta f f _ {m}} = {\alpha + \beta f f b _ {m} + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {y} _ {m i} + \sum_ {i = - 1} ^ {2} \lambda_ {i} (\Delta \tilde {y} _ {m i} - \Delta \tilde {y} _ {m - 1, i})} \\ + \sum_ {i = - 1} ^ {2} \phi_ {i} \tilde {\pi} _ {m i} + \sum_ {i = - 1} ^ {2} \theta_ {i} \left(\tilde {\pi} _ {m i} - \tilde {\pi} _ {m - 1, i}\right) + \rho \tilde {u} _ {m 0} + \epsilon_ {m} \\ \end{array}
+\begin{array}{l} {\Delta f f_{m}} = {\alpha + \beta f f b_{m} + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {y}_{m i} + \sum_{i = - 1}^{2} \lambda_{i} (\Delta \tilde {y}_{m i} - \Delta \tilde {y}_{m - 1, i})} \\ + \sum_{i = - 1}^{2} \phi_{i} \tilde {\pi}_{m i} + \sum_{i = - 1}^{2} \theta_{i} \left(\tilde {\pi}_{m i} - \tilde {\pi}_{m - 1, i}\right) + \rho \tilde {u}_{m 0} + \epsilon_{m} \\ \end{array}
 $$
 $\bullet$ $\Delta f_{m}$  change in intended FFR at meeting
 - $ffb_{m}$  level before meeting
@@ -779,28 +779,28 @@ Proposition 1: To measure the effects of monetary policy on output it is enough 
 All the shock has to do is remove the reverse causality from output forecasts.
 Preferred specification for effects on output:
 $$
-\Delta f f _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {y} _ {m i} + \beta f f _ {m - 1} + \delta \Delta f f _ {m - 1} + \epsilon_ {m} ^ {\gamma}
+\Delta f f_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {y}_{m i} + \beta f f_{m - 1} + \delta \Delta f f_{m - 1} + \epsilon_{m}^{\gamma}
 $$
 Preferred specification for effects on inflation:
 $$
-\Delta \pmb {f} \pmb {f} _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {\pi} _ {m i} + \beta \pmb {f} \pmb {f} _ {m - 1} + \delta \Delta \pmb {f} \pmb {f} _ {m - 1} + \epsilon_ {m} ^ {\pi}
+\Delta \pmb {f} \pmb {f}_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {\pi}_{m i} + \beta \pmb {f} \pmb {f}_{m - 1} + \delta \Delta \pmb {f} \pmb {f}_{m - 1} + \epsilon_{m}^{\pi}
 $$
 Preferred specification for effects on output:
 $$
-\Delta f f _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {y} _ {m i} + \beta f f _ {m - 1} + \delta \Delta f f _ {m - 1} + \epsilon_ {m} ^ {\gamma}
+\Delta f f_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {y}_{m i} + \beta f f_{m - 1} + \delta \Delta f f_{m - 1} + \epsilon_{m}^{\gamma}
 $$
 Preferred specification for effects on inflation:
 $$
-\Delta \pmb {f} \pmb {f} _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {\pi} _ {m i} + \beta \pmb {f} \pmb {f} _ {m - 1} + \delta \Delta \pmb {f} \pmb {f} _ {m - 1} + \epsilon_ {m} ^ {\pi}
+\Delta \pmb {f} \pmb {f}_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {\pi}_{m i} + \beta \pmb {f} \pmb {f}_{m - 1} + \delta \Delta \pmb {f} \pmb {f}_{m - 1} + \epsilon_{m}^{\pi}
 $$
 - Lagged FFR only included to make shocks serially uncorrelated, which simplifies interpretation
 Preferred specification for effects on output:
 $$
-\Delta f f _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {y} _ {m i} + \beta f f _ {m - 1} + \delta \Delta f f _ {m - 1} + \epsilon_ {m} ^ {\gamma}
+\Delta f f_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {y}_{m i} + \beta f f_{m - 1} + \delta \Delta f f_{m - 1} + \epsilon_{m}^{\gamma}
 $$
 Preferred specification for effects on inflation:
 $$
-\Delta \pmb {f} \pmb {f} _ {m} = \alpha + \sum_ {i = - 1} ^ {2} \gamma_ {i} \Delta \tilde {\pi} _ {m i} + \beta \pmb {f} \pmb {f} _ {m - 1} + \delta \Delta \pmb {f} \pmb {f} _ {m - 1} + \epsilon_ {m} ^ {\pi}
+\Delta \pmb {f} \pmb {f}_{m} = \alpha + \sum_{i = - 1}^{2} \gamma_{i} \Delta \tilde {\pi}_{m i} + \beta \pmb {f} \pmb {f}_{m - 1} + \delta \Delta \pmb {f} \pmb {f}_{m - 1} + \epsilon_{m}^{\pi}
 $$
 - Lagged FFR only included to make shocks serially uncorrelated, which simplifies interpretation
 No need to include other controls
@@ -846,7 +846,7 @@ Cochrane (2004) argues monetary shocks can be predictable
 2. Iterate forward VAR
 3. Iterate forward univariate AR specification (Romer-Romer 04)
 - Simple approach: Regress variable of interest directly on shock: (perhaps including some pre-treatment controls)
-$$ y _ {t + j} - y _ {t - 1} = \alpha + \beta \nu_ {t} + \Gamma X _ {t - 1} + \epsilon_ {t}
+$$ y_{t + j} - y_{t - 1} = \alpha + \beta \nu_{t} + \Gamma X_{t - 1} + \epsilon_{t}
 $$
 Variable of interest:  $y_{t + j} - y_{t - 1}$
 - Monetary shock:  $\nu_{t}$
@@ -862,7 +862,7 @@ I.e., whole model must be correctly specified (including number of shocks, numbe
 - Recall earlier discussion of true  $\mathrm{VARMA}(\infty, \infty)$  in observed variables being approximated by VAR(p)
 See discussion in Plagborg-Moller and Wolf 19
 $$
-\Delta y _ {t} = a _ {0} + \sum_ {k = 1} ^ {1 1} a _ {k} D _ {k t} + \sum_ {i = 1} ^ {2 4} b _ {i} \Delta y _ {t - i} + \sum_ {j = 1} ^ {3 6} c _ {j} S _ {t - j} + e _ {t}
+\Delta y_{t} = a_{0} + \sum_{k = 1}^{1 1} a_{k} D_{k t} + \sum_{i = 1}^{2 4} b_{i} \Delta y_{t - i} + \sum_{j = 1}^{3 6} c_{j} S_{t - j} + e_{t}
 $$
 - $\Delta y_{t}$  monthly change in industrial production
 - $D_{kt}$  month dummies (they use seasonally unadjusted data)
@@ -872,13 +872,13 @@ $S_{t}$  monetary shocks
 Effect on  $y_{t + 1}$  is  $c_{1}$
 - Effect on  $y_{t+2}$  is  $c_1 + (c_2 + b_1 c_1)$
 $$
-\Delta y _ {t} = a _ {0} + \sum_ {k = 1} ^ {1 1} a _ {k} D _ {k t} + \sum_ {i = 1} ^ {2 4} b _ {i} \Delta y _ {t - i} + \sum_ {j = 1} ^ {3 6} c _ {j} S _ {t - j} + e _ {t}
+\Delta y_{t} = a_{0} + \sum_{k = 1}^{1 1} a_{k} D_{k t} + \sum_{i = 1}^{2 4} b_{i} \Delta y_{t - i} + \sum_{j = 1}^{3 6} c_{j} S_{t - j} + e_{t}
 $$
 - Inclusion of lagged dependent variables may induce bias
 $b_{i}$ s are estimated off of dynamics of output to all shocks
 - If dynamics after monetary shocks are different, inclusion of lagged output terms will induce bias
 $$
-\Delta y _ {t} = a _ {0} + \sum_ {k = 1} ^ {1 1} a _ {k} D _ {k t} + \sum_ {i = 1} ^ {2 4} b _ {i} \Delta y _ {t - i} + \sum_ {j = 1} ^ {3 6} c _ {j} S _ {t - j} + e _ {t}
+\Delta y_{t} = a_{0} + \sum_{k = 1}^{1 1} a_{k} D_{k t} + \sum_{i = 1}^{2 4} b_{i} \Delta y_{t - i} + \sum_{j = 1}^{3 6} c_{j} S_{t - j} + e_{t}
 $$
 - Inclusion of lagged dependent variables may induce bias
 $b_{i}$ s are estimated off of dynamics of output to all shocks
@@ -917,7 +917,7 @@ Policy indicator: Change in fed funds rate target
 - Question: Can the Fed control nominal interest rates?
 The effect of funds rate target changes on market interest rates.
 $$
-\Delta R _ {t} = b 1 + b 2 \Delta R F F _ {t} + u _ {t}
+\Delta R_{t} = b 1 + b 2 \Delta R F F_{t} + u_{t}
 $$
 Table 3
 <table><tr><td>ΔRt</td><td>b1</td><td>b2</td><td>R²</td><td>Set</td><td>DW</td></tr><tr><td rowspan="2">3-month bill rate</td><td>0.016</td><td>0.554</td><td>0.47</td><td>0.13</td><td>1.89</td></tr><tr><td>(1.04)</td><td>(8.10)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">6-month bill rate</td><td>0.017</td><td>0.541</td><td>0.59</td><td>0.10</td><td>1.82</td></tr><tr><td>(1.44)</td><td>(10.25)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">12-month bill rate</td><td>0.024</td><td>0.500</td><td>0.56</td><td>0.10</td><td>1.94</td></tr><tr><td>(2.02)c</td><td>(9.61)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">3-year bond rate</td><td>0.018</td><td>0.289</td><td>0.46</td><td>0.07</td><td>1.59</td></tr><tr><td>(2.16)c</td><td>(7.87)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">5-year bond rate</td><td>0.012</td><td>0.208</td><td>0.36</td><td>0.06</td><td>1.59</td></tr><tr><td>(1.66)</td><td>(6.43)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">7-year bond rate</td><td>0.009</td><td>0.185</td><td>0.39</td><td>0.05</td><td>1.89</td></tr><tr><td>(1.47)</td><td>(6.78)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">10-year bond rate</td><td>0.012</td><td>0.131</td><td>0.32</td><td>0.04</td><td>1.94</td></tr><tr><td>(2.34)c</td><td>(5.85)b</td><td></td><td></td><td></td></tr><tr><td rowspan="2">20-year bond rate</td><td>0.007</td><td>0.098</td><td>0.29</td><td>0.03</td><td>2.04</td></tr><tr><td>(1.73)</td><td>(5.46)b</td><td></td><td></td><td></td></tr></table> aIncludes 75 changes in the federal funds rate target from September 1974 through September 1979. Bill and bond rate changes are calculated over the day of the target changes.  $t$ -statistics are in parentheses.
@@ -1077,51 +1077,51 @@ Etc., Etc.
 - Government purchases multiplier:
 - When government purchases of goods and services go up by 1, how many dollars does output go up by?
 $$
-\left(Y _ {t} - Y _ {t - 1}\right) = \alpha + \beta \left(G _ {t} - G _ {t - 1}\right) + \epsilon_ {t}
+\left(Y_{t} - Y_{t - 1}\right) = \alpha + \beta \left(G_{t} - G_{t - 1}\right) + \epsilon_{t}
 $$
 - Government purchases multiplier:
 - When government purchases of goods and services go up by 1, how many dollars does output go up by?
 $$
-\left(Y _ {t} - Y _ {t - 1}\right) = \alpha + \beta \left(G _ {t} - G _ {t - 1}\right) + \epsilon_ {t}
+\left(Y_{t} - Y_{t - 1}\right) = \alpha + \beta \left(G_{t} - G_{t - 1}\right) + \epsilon_{t}
 $$
 Usually divide through by  $Y_{t - 1}$
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \epsilon_{t}
 $$
 Why?
 - Government purchases multiplier:
 - When government purchases of goods and services go up by 1, how many dollars does output go up by?
 $$
-\left(Y _ {t} - Y _ {t - 1}\right) = \alpha + \beta \left(G _ {t} - G _ {t - 1}\right) + \epsilon_ {t}
+\left(Y_{t} - Y_{t - 1}\right) = \alpha + \beta \left(G_{t} - G_{t - 1}\right) + \epsilon_{t}
 $$
 Usually divide through by  $Y_{t - 1}$
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \epsilon_{t}
 $$
 Why?
 Reduces heteroskedasticity.
 - Multiplier regression:
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \epsilon_{t}
 $$
 Different from
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{G _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{G_{t - 1}} + \epsilon_{t}
 $$
 - Multiplier regression:
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \epsilon_{t}
 $$
 Different from
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{G _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{G_{t - 1}} + \epsilon_{t}
 $$
 - Second specification estimates an elasticity as opposed to a multiplier
 - Some papers estimate elasticity and then convert to multiplier by multiplying by average value of  $Y / G$
 (Ramey-Zubairy 18 argue this is not a good practice)
 Suppose we seek to estimate:
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \epsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \epsilon_{t}
 $$
 An important empirical problem is endogeneity of  $G_{t}$
 - What is the likely nature of the endogeneity?
@@ -1194,7 +1194,7 @@ Table: Changes in Defense Spending
 Source: Barro and Redlick (2011)
 Empirical specification:
 $$
-\begin{array}{l} \frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta_ {1} \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} \\ + \beta_ {2} \frac {G _ {t - 1} - G _ {t - 2}}{Y _ {t - 2}} + \beta_ {3} \frac {G _ {t - 1} ^ {*} - G _ {t - 2} ^ {*}}{Y _ {t - 2}} + \text {c o n t r o l s} + \epsilon_ {t} \\ \end{array}
+\begin{array}{l} \frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta_{1} \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} \\ + \beta_{2} \frac{G_{t - 1} - G_{t - 2}}{Y_{t - 2}} + \beta_{3} \frac{G_{t - 1}^{*} - G_{t - 2}^{*}}{Y_{t - 2}} + \text{co nt ro ls} + \epsilon_{t} \\ \end{array}
 $$
 - $G_{t}^{*}$  captures news at time  $t$  about future spending from Ramey 11
 - Gathered from Business Week estimates of changes in spending over next 3 to 5 years
@@ -1214,7 +1214,7 @@ Nondefense Government Purchases and Transfers
 Source: Barro and Redlick (2011)
 - Structural VAR based evidence for fiscal stimulus:
 $$
-X _ {t} = A (L) X _ {t - 1} + U _ {t}
+X_{t} = A (L) X_{t - 1} + U_{t}
 $$
 $X_{t} = [T_{t},G_{t},Y_{t}]$
 - Four lags (and quarter dependence of coefficients)
@@ -1232,7 +1232,7 @@ VAR methods better suited for study of fiscal policy than monetary policy
 - Output does not affect government spending contemporaneously
 - Given this identifying assumption, would it work to simply estimate:
 $$
-\Delta Y _ {t} = \alpha + \beta \Delta G _ {t} + \epsilon_ {t}
+\Delta Y_{t} = \alpha + \beta \Delta G_{t} + \epsilon_{t}
 $$
 - Two things can go wrong in causal inference:
 1. Reverse causality: Causality can go "opposite" way (simultaneity bias)
@@ -1430,7 +1430,7 @@ A lot more data, a lot more variation
 - Not answering the "right" question?
 What do we learn?
 $$
-\left(\frac {Y _ {i t} - Y _ {i t - 2}}{Y _ {i t - 2}}\right) = \alpha_ {i} + \gamma_ {t} + \beta \left(\frac {\boldsymbol {G} _ {i t} - \boldsymbol {G} _ {i t - 2}}{Y _ {i t - 2}}\right) + \epsilon_ {i t}
+\left(\frac{Y_{i t} - Y_{i t - 2}}{Y_{i t - 2}}\right) = \alpha_{i} + \gamma_{t} + \beta \left(\frac{\boldsymbol {G}_{i t} - \boldsymbol {G}_{i t - 2}}{Y_{i t - 2}}\right) + \epsilon_{i t}
 $$
 $G_{it}$  is prime military contract spending
 State fixed effects (state specific trends)
@@ -1473,7 +1473,7 @@ Source: Nakamura and Steinsson (2014)
 - In fact cyclical sensitivity uncorrelated with military sensitivity
 Consider:
 $$
-\Delta Y _ {i t} = \alpha_ {i} + \gamma_ {t} + \beta \mathbf {s} _ {i} \Delta Y _ {t} + \epsilon_ {i t}
+\Delta Y_{i t} = \alpha_{i} + \gamma_{t} + \beta \mathbf {s}_{i} \Delta Y_{t} + \epsilon_{i t}
 $$ where
 $s_i$  is average level of military spending in state  $i$
 - If states with high  $s_i$  are more cyclically sensitive,  $\beta > 0$
@@ -1500,7 +1500,7 @@ Sample period 1966-1982
 Results: 1.3 (0.5), versus OLS of 0.2 (0.2) and Bartik of 2.0 (0.4)
 Is the multiplier larger in times of slack?
 $$
-\frac {Y _ {i t} - Y _ {i t - 2}}{Y _ {i t - 2}} = \alpha_ {i} + \gamma_ {t} + \beta_ {h} \frac {G _ {i t} - G _ {i t - 2}}{Y _ {i t - 2}} + (\beta_ {l} - \beta_ {h}) I _ {i t} \frac {G _ {i t} - G _ {i t - 2}}{Y _ {i t - 2}} + \epsilon_ {i t}
+\frac{Y_{i t} - Y_{i t - 2}}{Y_{i t - 2}} = \alpha_{i} + \gamma_{t} + \beta_{h} \frac{G_{i t} - G_{i t - 2}}{Y_{i t - 2}} + (\beta_{l} - \beta_{h}) I_{i t} \frac{G_{i t} - G_{i t - 2}}{Y_{i t - 2}} + \epsilon_{i t}
 $$
 $I_{it}$  is an indicator for periods of low slack
 - Based on unemployment at the start of interval
@@ -1547,7 +1547,7 @@ Firms hire labor and set prices
 # Consider several different cases:
 # Aggregate Monetary Policy:
 $$
-\hat {i} _ {t} = \rho_ {i} \hat {i} _ {t - 1} + (1 - \rho_ {i}) (\phi_ {\pi} \hat {\pi} _ {t} ^ {a g} + \phi_ {y} \hat {y} _ {t} ^ {a g} + \phi_ {g} \hat {g} _ {t} ^ {a g})
+\hat {i}_{t} = \rho_{i} \hat {i}_{t - 1} + (1 - \rho_{i}) (\phi_{\pi} \hat {\pi}_{t}^{a g} + \phi_{y} \hat {y}_{t}^{a g} + \phi_{g} \hat {g}_{t}^{a g})
 $$
 - Volcker-Greenspan:  $\rho = 0.8$ ,  $\phi_{\pi} = 1.5$ ,  $\phi_{y} = 0.5$ ,  $\phi_{g} = 0$
 - Constant real interest rate (r unresp. to G)
@@ -1734,34 +1734,34 @@ This depends on the nature of the micro price rigidity
 - This depends on the nature of the micro price rigidity
 - Stark comparison: Calvo model vs. Caplin-Spulber model
 Each firm adjusts with probability  $1 - \alpha$  each period
-$$ p _ {t} = (1 - \alpha) p _ {i t} ^ {*} + \alpha p _ {t - 1}
+$$ p_{t} = (1 - \alpha) p_{i t}^{*} + \alpha p_{t - 1}
 $$
 
 Each firm adjusts with probability  $1 - \alpha$  each period
 
-$$ p _ {t} = (1 - \alpha) p _ {i t} ^ {*} + \alpha p _ {t - 1}
+$$ p_{t} = (1 - \alpha) p_{i t}^{*} + \alpha p_{t - 1}
 $$
 
 CES demand:
 
 $$
-\pmb {p} _ {i t} ^ {*} = (1 - \alpha \beta) \sum_ {j = 0} ^ {\infty} (\alpha \beta) ^ {j} E _ {t} m \pmb {c} _ {t + j}
+\pmb {p}_{i t}^{*} = (1 - \alpha \beta) \sum_{j = 0}^{\infty} (\alpha \beta)^{j} E_{t} m \pmb {c}_{t + j}
 $$
 
 Each firm adjusts with probability  $1 - \alpha$  each period
 
-$$ p _ {t} = (1 - \alpha) p _ {i t} ^ {*} + \alpha p _ {t - 1}
+$$ p_{t} = (1 - \alpha) p_{i t}^{*} + \alpha p_{t - 1}
 $$
 
 CES demand:
 
-$$ p _ {i t} ^ {*} = (1 - \alpha \beta) \sum_ {j = 0} ^ {\infty} (\alpha \beta) ^ {j} E _ {t} m c _ {t + j}
+$$ p_{i t}^{*} = (1 - \alpha \beta) \sum_{j = 0}^{\infty} (\alpha \beta)^{j} E_{t} m c_{t + j}
 $$
 - MP targets nominal output:  $m_{t} = y_{t} + p_{t}$
 - Simple utility and production function:  $mc_{t} = m_{t}$
 - Random walk nominal output (no drift):  $E_{t}mc_{t + j} = m_{t}$
 $$
-\boldsymbol {p} _ {t} = (1 - \alpha) \boldsymbol {m} _ {t} + \alpha \boldsymbol {p} _ {t - 1}
+\boldsymbol {p}_{t} = (1 - \alpha) \boldsymbol {m}_{t} + \alpha \boldsymbol {p}_{t - 1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/430af65e-726b-4380-9580-dd31768b4686/7217918b7a12a0c55746f8ee8679979cfb3fbd10440c838f2667f1efc3794fe8.jpg)
@@ -1812,18 +1812,18 @@ $$
 - How much does the price level and output respond?
 - How much does the price level and output respond?
 $$
-\Delta p = \frac {\Delta m}{S - s} (S - s) = \Delta m
+\Delta p = \frac{\Delta m}{S - s} (S - s) = \Delta m
 $$
 - How much does the price level and output respond?
 $$
-\Delta p = \frac {\Delta m}{S - s} (S - s) = \Delta m
+\Delta p = \frac{\Delta m}{S - s} (S - s) = \Delta m
 $$
 $$
 \Delta y = \Delta m - \Delta p = 0
 $$
 - How much does the price level and output respond?
 $$
-\Delta p = \frac {\Delta m}{S - s} (S - s) = \Delta m
+\Delta p = \frac{\Delta m}{S - s} (S - s) = \Delta m
 $$
 $$
 \Delta y = \Delta m - \Delta p = 0
@@ -1905,31 +1905,31 @@ Evidence for large, transitory idiosyncratic shocks that drive price adjustment
 Quantitatively assess monetary non-neutrality in menu cost model in light of these facts
 Households maximize:
 $$
-E _ {0} \sum_ {t = 0} ^ {\infty} \beta^ {t} \left[ \log C _ {t} - \omega L _ {t} \right]
+E_{0} \sum_{t = 0}^{\infty} \beta^{t} \left[ \log C_{t} - \omega L_{t} \right]
 $$ where
 $$
 
-C _ {t} = \left[ \int_ {0} ^ {1} c _ {t} (z) ^ {\frac {\theta - 1}{\theta}} d z \right] ^ {\frac {\theta}{\theta - 1}}
+C_{t} = \left[ \int_{0}^{1} c_{t} (z)^{\frac{\theta - 1}{\theta}} d z \right]^{\frac{\theta}{\theta - 1}}
 
 $$ subject to:
 $$
 
-P _ {t} C _ {t} + Q _ {t, t + 1} B _ {t + 1} \leq B _ {t} + W _ {t} L _ {t} + \int_ {0} ^ {1} \Pi_ {t} (z) d z
+P_{t} C_{t} + Q_{t, t + 1} B_{t + 1} \leq B_{t} + W_{t} L_{t} + \int_{0}^{1} \Pi_{t} (z) d z
 
 $$ and natural borrowing limits
 Cost minimization implies
-$$ c _ {t} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta}
+$$ c_{t} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta}
 $$
 
 Cost minimization implies
 
-$$ c _ {t} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta}
+$$ c_{t} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta}
 $$
 
 Labor-leisure optimization yields:
 
 $$
-W _ {t} = \omega P _ {t} C _ {t}
+W_{t} = \omega P_{t} C_{t}
 $$
 
 So, nominal wages are proportional to nominal output
@@ -1937,40 +1937,40 @@ So, nominal wages are proportional to nominal output
 Define nominal aggregate demand as:
 
 $$
-S _ {t} = P _ {t} C _ {t}
+S_{t} = P_{t} C_{t}
 $$
 
 Suppose central banks varies interest rate / money supply in such a way that log nominal aggregate demand follows a random walk:
 
 $$
-\log S _ {t} = \mu \log S _ {t - 1} + \eta_ {t}
+\log S_{t} = \mu \log S_{t - 1} + \eta_{t}
 $$ where  $\eta_t\sim \mathsf{N}(0,\sigma_\eta^2)$
 This is aggregate source of uncertainty in the model
 Linear production function
-$$ y _ {t} (z) = A _ {t} (z) L _ {t} (z)
+$$ y_{t} (z) = A_{t} (z) L_{t} (z)
 $$
 
 This implies that marginal cost of production is  $W_{t} / A_{t}(z)$ .
 
 Linear production function
 
-$$ y _ {t} (z) = A _ {t} (z) L _ {t} (z)
+$$ y_{t} (z) = A_{t} (z) L_{t} (z)
 $$
 
 This implies that marginal cost of production is  $W_{t} / A_{t}(z)$ . Idiosyncratic productivity follows an AR(1) in logs:
 
 $$
-\log A _ {t} (z) = \rho \log A _ {t - 1} (z) + \epsilon_ {t} (z)
+\log A_{t} (z) = \rho \log A_{t - 1} (z) + \epsilon_{t} (z)
 $$ where  $\epsilon_t(z) \sim \mathsf{N}(0, \sigma_\epsilon^2)$ .
 Firm maximizes value of expected profits
 $$
 
-E _ {t} \sum_ {\tau = 0} ^ {\infty} D _ {t, t + \tau} \Pi_ {t + \tau} (z)
+E_{t} \sum_{\tau = 0}^{\infty} D_{t, t + \tau} \Pi_{t + \tau} (z)
 
 $$ where profits are
 $$
 
-\Pi_ {t} (z) = p _ {t} (z) y _ {t} (z) - W _ {t} L _ {t} (z) - \chi_ {j} W _ {t} I _ {t} (z) - P _ {t} U
+\Pi_{t} (z) = p_{t} (z) y_{t} (z) - W_{t} L_{t} (z) - \chi_{j} W_{t} I_{t} (z) - P_{t} U
 
 $$
 - Firm must hire  $\chi_{j}$  units of labor to change price
@@ -1983,12 +1983,12 @@ $D_{t,t + \tau}$  is household's stochastic discount factor
 - Alternative: Dynamic programming, i.e., set up a Bellman equation
 $$
 
-V (Z _ {t}) = \max  _ {p _ {t}} \left[ \Pi_ {t} ^ {R} (z) + E \left[ D _ {t, t + 1} ^ {R} V (Z _ {t + 1}) \right] \right.
+V (Z_{t}) = \max_{p_{t}} \left[ \Pi_{t}^{R} (z) + E \left[ D_{t, t + 1}^{R} V (Z_{t + 1}) \right] \right.
 
 $$
 $$
 
-\Pi_ {t} ^ {R} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta} \left(\frac {p _ {t} (z)}{P _ {t}} - \frac {1}{A _ {t} (z)} \frac {W _ {t}}{P _ {t}}\right) - \chi_ {j} \frac {W _ {t}}{P _ {t}} I _ {t} (z) - U
+\Pi_{t}^{R} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta} \left(\frac{p_{t} (z)}{P_{t}} - \frac{1}{A_{t} (z)} \frac{W_{t}}{P_{t}}\right) - \chi_{j} \frac{W_{t}}{P_{t}} I_{t} (z) - U
 
 $$
 $Z_{t}$  denotes vector of state variables
@@ -1996,12 +1996,12 @@ $Z_{t}$  denotes vector of state variables
 - Alternative: Dynamic programming, i.e., set up a Bellman equation
 $$
 
-V (Z _ {t}) = \max  _ {p _ {t}} \left[ \Pi_ {t} ^ {R} (z) + E \left[ D _ {t, t + 1} ^ {R} V (Z _ {t + 1}) \right] \right.
+V (Z_{t}) = \max_{p_{t}} \left[ \Pi_{t}^{R} (z) + E \left[ D_{t, t + 1}^{R} V (Z_{t + 1}) \right] \right.
 
 $$
 $$
 
-\Pi_ {t} ^ {R} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta} \left(\frac {p _ {t} (z)}{P _ {t}} - \frac {1}{A _ {t} (z)} \frac {W _ {t}}{P _ {t}}\right) - \chi_ {j} \frac {W _ {t}}{P _ {t}} I _ {t} (z) - U
+\Pi_{t}^{R} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta} \left(\frac{p_{t} (z)}{P_{t}} - \frac{1}{A_{t} (z)} \frac{W_{t}}{P_{t}}\right) - \chi_{j} \frac{W_{t}}{P_{t}} I_{t} (z) - U
 
 $$
 $Z_{t}$  denotes vector of state variables
@@ -2011,12 +2011,12 @@ Key question: What is the state?
 - Alternative: Dynamic programming, i.e., set up a Bellman equation
 $$
 
-V (Z _ {t}) = \max  _ {p _ {t}} \left[ \Pi_ {t} ^ {R} (z) + E \left[ D _ {t, t + 1} ^ {R} V (Z _ {t + 1}) \right] \right.
+V (Z_{t}) = \max_{p_{t}} \left[ \Pi_{t}^{R} (z) + E \left[ D_{t, t + 1}^{R} V (Z_{t + 1}) \right] \right.
 
 $$
 $$
 
-\Pi_ {t} ^ {R} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta} \left(\frac {p _ {t} (z)}{P _ {t}} - \frac {1}{A _ {t} (z)} \frac {W _ {t}}{P _ {t}}\right) - \chi_ {j} \frac {W _ {t}}{P _ {t}} I _ {t} (z) - U
+\Pi_{t}^{R} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta} \left(\frac{p_{t} (z)}{P_{t}} - \frac{1}{A_{t} (z)} \frac{W_{t}}{P_{t}}\right) - \chi_{j} \frac{W_{t}}{P_{t}} I_{t} (z) - U
 
 $$
 $Z_{t}$  denotes vector of state variables
@@ -2027,12 +2027,12 @@ $A_{t}(z),p_{t - 1}(z) / P_{t},C_{t}$
 - Alternative: Dynamic programming, i.e., set up a Bellman equation
 $$
 
-V (Z _ {t}) = \max  _ {p _ {t}} \left[ \Pi_ {t} ^ {R} (z) + E \left[ D _ {t, t + 1} ^ {R} V (Z _ {t + 1}) \right] \right.
+V (Z_{t}) = \max_{p_{t}} \left[ \Pi_{t}^{R} (z) + E \left[ D_{t, t + 1}^{R} V (Z_{t + 1}) \right] \right.
 
 $$
 $$
 
-\Pi_ {t} ^ {R} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta} \left(\frac {p _ {t} (z)}{P _ {t}} - \frac {1}{A _ {t} (z)} \frac {W _ {t}}{P _ {t}}\right) - \chi_ {j} \frac {W _ {t}}{P _ {t}} I _ {t} (z) - U
+\Pi_{t}^{R} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta} \left(\frac{p_{t} (z)}{P_{t}} - \frac{1}{A_{t} (z)} \frac{W_{t}}{P_{t}}\right) - \chi_{j} \frac{W_{t}}{P_{t}} I_{t} (z) - U
 
 $$
 $Z_{t}$  denotes vector of state variables
@@ -2044,12 +2044,12 @@ $A_{t}(z),p_{t - 1}(z) / P_{t},C_{t}$
 - Alternative: Dynamic programming, i.e., set up a Bellman equation
 $$
 
-V (Z _ {t}) = \max  _ {p _ {t}} \left[ \Pi_ {t} ^ {R} (z) + E \left[ D _ {t, t + 1} ^ {R} V (Z _ {t + 1}) \right] \right.
+V (Z_{t}) = \max_{p_{t}} \left[ \Pi_{t}^{R} (z) + E \left[ D_{t, t + 1}^{R} V (Z_{t + 1}) \right] \right.
 
 $$
 $$
 
-\Pi_ {t} ^ {R} (z) = C _ {t} \left(\frac {p _ {t} (z)}{P _ {t}}\right) ^ {- \theta} \left(\frac {p _ {t} (z)}{P _ {t}} - \frac {1}{A _ {t} (z)} \frac {W _ {t}}{P _ {t}}\right) - \chi_ {j} \frac {W _ {t}}{P _ {t}} I _ {t} (z) - U
+\Pi_{t}^{R} (z) = C_{t} \left(\frac{p_{t} (z)}{P_{t}}\right)^{- \theta} \left(\frac{p_{t} (z)}{P_{t}} - \frac{1}{A_{t} (z)} \frac{W_{t}}{P_{t}}\right) - \chi_{j} \frac{W_{t}}{P_{t}} I_{t} (z) - U
 
 $$
 $Z_{t}$  denotes vector of state variables
@@ -2287,7 +2287,7 @@ In a wide class of models ...
 Cumulative output effect of money shock:
 $$
 
-\mathcal {M} = \frac {\delta}{6 \epsilon} \frac {\operatorname {K u r} (\Delta p _ {i})}{\operatorname {N} (\Delta p _ {i})}
+\mathcal {M} = \frac{\delta}{6 \epsilon} \frac{\operatorname{Ku r} (\Delta p_{i})}{\operatorname{N} (\Delta p_{i})}
 
 $$
 $\delta$  size of monetary shock
@@ -2300,7 +2300,7 @@ In a wide class of models ...
 Cumulative output effect of money shock:
 $$
 
-\mathcal {M} = \frac {\delta}{6 \epsilon} \frac {\operatorname {K u r} (\Delta p _ {i})}{\operatorname {N} (\Delta p _ {i})}
+\mathcal {M} = \frac{\delta}{6 \epsilon} \frac{\operatorname{Ku r} (\Delta p_{i})}{\operatorname{N} (\Delta p_{i})}
 
 $$
 $\bullet$ $\delta$  size of monetary shock
@@ -2311,7 +2311,7 @@ $\bullet$ $\delta$  size of monetary shock
 (e.g., unit root shock, no inflation, no strategic complementarity, etc.)
 $$
 
-\mathcal {M} = \frac {\delta}{6 \epsilon} \frac {\operatorname {K u r} (\Delta p _ {i})}{\operatorname {N} (\Delta p _ {i})}
+\mathcal {M} = \frac{\delta}{6 \epsilon} \frac{\operatorname{Ku r} (\Delta p_{i})}{\operatorname{N} (\Delta p_{i})}
 
 $$
 Kurtosis in Calvo model is 6
@@ -2361,7 +2361,7 @@ Derivative of price dispersion  $= 0$
 Inflation 9/10th due to "extensive margin"
 $$
 
-\pi = \lambda^ {+} \Delta^ {+} - \lambda^ {-} \Delta^ {-}
+\pi = \lambda^{+} \Delta^{+} - \lambda^{-} \Delta^{-}
 
 $$
 # At zero inflation:
@@ -2370,7 +2370,7 @@ Derivative of price dispersion  $= 0$
 Inflation 9/10th due to "extensive margin"
 $$
 
-\pi = \lambda^ {+} \Delta^ {+} - \lambda^ {-} \Delta^ {-}
+\pi = \lambda^{+} \Delta^{+} - \lambda^{-} \Delta^{-}
 
 $$
 # At high inflation:
@@ -2482,7 +2482,7 @@ Changes in expected inflation will shift the Phillips curve
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/430af65e-726b-4380-9580-dd31768b4686/57118aa2462046828cd0f1189099f034404ba39b276af3b4f1dc1c62c2583ad8.jpg)
 $$
 
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right) + \eta_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \kappa \left(y_{t} - y_{t}^{n}\right) + \eta_{t}
 
 $$
 - Three drivers of inflation:
@@ -2493,14 +2493,14 @@ Cost-push shocks:  $\eta_t$
 - Structural equation originating from firm's price setting decision
 $$
 
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right) + \eta_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \kappa \left(y_{t} - y_{t}^{n}\right) + \eta_{t}
 
 $$
 Object of interest: Slope coefficient  $\kappa$
 - How much does an increase in "demand" / "tightness" / "output gap" affect inflation
 $$
 
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \kappa (y _ {t} - y _ {t} ^ {n}) + \eta_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \kappa (y_{t} - y_{t}^{n}) + \eta_{t}
 
 $$
 Object of interest: Slope coefficient  $\kappa$
@@ -2512,25 +2512,25 @@ Expected inflation unobserved
 - Pre Friedman/Phelps Phillips curve: Change in output gap needed to change inflation
 $$
 
-\pi_ {t} = \mu + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
+\pi_{t} = \mu + \kappa \left(y_{t} - y_{t}^{n}\right)
 
 $$
 - Same is true for accelerationist Phillips curve (i.e., Phillips curve with adaptive expectations)
 $$
 
-\pi_ {t} = \pi_ {t - 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
+\pi_{t} = \pi_{t - 1} + \kappa \left(y_{t} - y_{t}^{n}\right)
 
 $$
 - Pre Friedman/Phelps Phillips curve: Change in output gap needed to change inflation
 $$
 
-\pi_ {t} = \mu + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
+\pi_{t} = \mu + \kappa \left(y_{t} - y_{t}^{n}\right)
 
 $$
 - Same is true for accelerationist Phillips curve (i.e., Phillips curve with adaptive expectations)
 $$
 
-\pi_ {t} = \pi_ {t - 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right)
+\pi_{t} = \pi_{t - 1} + \kappa \left(y_{t} - y_{t}^{n}\right)
 
 $$
 - Sargent 82: Hyperinflations end abruptly with little or no output cost Clear violation of aforementioned Phillips curves
@@ -2589,25 +2589,25 @@ Metric of fit: root mean squared error (RMSE)
 Naive model:
 $$
 
-E _ {t} \pi_ {t + 1 2} ^ {1 2} = \pi_ {t} ^ {1 2}
+E_{t} \pi_{t + 1 2}^{1 2} = \pi_{t}^{1 2}
 
 $$
 - Original Phillips curve:
 $$
 
-E _ {t} \pi_ {t + 1 2} ^ {1 2} = \beta (u _ {t} - \bar {u})
+E_{t} \pi_{t + 1 2}^{1 2} = \beta (u_{t} - \bar {u})
 
 $$
 NAIRU Phillips curve:
 $$
 
-E _ {t} \pi_ {t + 1 2} ^ {1 2} = \pi_ {t} ^ {1 2} + \beta (u _ {t} - \bar {u})
+E_{t} \pi_{t + 1 2}^{1 2} = \pi_{t}^{1 2} + \beta (u_{t} - \bar {u})
 
 $$
 Stock and Watson's (1999) NAIRU Phillips curve:
 $$
 
-E _ {t} \pi_ {t + 1 2} ^ {1 2} = \pi_ {t} ^ {1 2} + \alpha + \beta (L) u _ {t} + \gamma (L) \left(\pi_ {t} - \pi_ {t - 1}\right)
+E_{t} \pi_{t + 1 2}^{1 2} = \pi_{t}^{1 2} + \alpha + \beta (L) u_{t} + \gamma (L) \left(\pi_{t} - \pi_{t - 1}\right)
 
 $$
 (Theirnomenclature)
@@ -2656,7 +2656,7 @@ Stock and Watson (2010):
 - Empirical specification:
 $$
 
-\pi_ {t} = \pi_ {t} ^ {e} + \alpha (U _ {t} - U _ {t} ^ {*}) + \epsilon_ {t}
+\pi_{t} = \pi_{t}^{e} + \alpha (U_{t} - U_{t}^{*}) + \epsilon_{t}
 
 $$
 Focus on post-1985 period
@@ -2701,13 +2701,13 @@ NOTE: OLS with Newey-West (1987) standard errors in parentheses.  $\pi_t$  is me
 - Anchored Expectations:
 $$
 
-\pi_ {t} ^ {\boldsymbol {e}} = 2. 5 + \epsilon_ {t}
+\pi_{t}^{\boldsymbol {e}} = 2. 5 + \epsilon_{t}
 
 $$
 - Backward-Looking Expectations:
 $$
 
-\pi_ {t} ^ {e} = \frac {1}{1 - \gamma^ {4 0}} [ (1 - \gamma) \pi_ {t - 1} + \gamma (1 - \gamma) \pi_ {t - 2} + \ldots + \gamma^ {3 9} (1 - \gamma) \pi_ {t - 4 0} ] + \epsilon_ {t}
+\pi_{t}^{e} = \frac{1}{1 - \gamma^{4 0}} [ (1 - \gamma) \pi_{t - 1} + \gamma (1 - \gamma) \pi_{t - 2} + \ldots + \gamma^{3 9} (1 - \gamma) \pi_{t - 4 0} ] + \epsilon_{t}
 
 $$
 - Nested Specification:
@@ -2717,7 +2717,7 @@ Estimated break date is 1998Q1
 ANCHORED VS. BACKWARD-LOOKING EXPECTATIONS
 $$
 
-\pi_ {t} ^ {e} = \lambda 2. 5 + (1 - \lambda) \frac {1}{1 - \gamma^ {4 0}} [ (1 - \gamma) \pi_ {t - 1} + \gamma (1 - \gamma) \pi_ {t - 2} + \ldots + \gamma^ {3 9} (1 - \gamma) \pi_ {t - 4 0} ] + \epsilon_ {t}
+\pi_{t}^{e} = \lambda 2. 5 + (1 - \lambda) \frac{1}{1 - \gamma^{4 0}} [ (1 - \gamma) \pi_{t - 1} + \gamma (1 - \gamma) \pi_{t - 2} + \ldots + \gamma^{3 9} (1 - \gamma) \pi_{t - 4 0} ] + \epsilon_{t}
 
 $$
 TABLE 4
@@ -2738,25 +2738,25 @@ Household inflation expectations rose in 2009-2013
 - If firm's expectation the same, this can explain missing disinflation
 $$
 
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \kappa \left(y _ {t} - y _ {t} ^ {n}\right) + \eta_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \kappa \left(y_{t} - y_{t}^{n}\right) + \eta_{t}
 
 $$
 Baseline assumptions:
 - Output gap measure: Unemployment rate
-$$ y _ {t} - y _ {t} ^ {n} = u _ {t}
+$$ y_{t} - y_{t}^{n} = u_{t}
 $$
 
 (Ignore natural rate  $u_{t}^{n}$ )
 
 - Expectations of inflation: backward looking
 $$
-E _ {t} \pi_ {t + 1} = \frac {1}{4} \left(\pi_ {t - 1} + \pi_ {t - 2} + \pi_ {t - 3} + \pi_ {t - 4}\right)
+E_{t} \pi_{t + 1} = \frac{1}{4} \left(\pi_{t - 1} + \pi_{t - 2} + \pi_{t - 3} + \pi_{t - 4}\right)
 $$
 
 ( Ignore discounting:  $\beta = 1$
 
 $$
-\pi_ {t} - E \pi_ {t + 1} ^ {\text {B a c k}} = \kappa u _ {t} + \eta_ {t}
+\pi_{t} - E \pi_{t + 1}^{\text{Ba ck}} = \kappa u_{t} + \eta_{t}
 $$
 
 Estimate by OLS for sample 1960Q1-2007Q4
@@ -2835,11 +2835,11 @@ October 2021
 
 - Simple theory with Calvo pricing assumption implies:
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \lambda m c _ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \lambda m c_{t}
 $$ where
 $$
 
-\lambda = \frac {(1 - \theta) (1 - \beta \theta)}{\theta}
+\lambda = \frac{(1 - \theta) (1 - \beta \theta)}{\theta}
 
 $$ and  $1 - \theta$  is frequency of price change,  $\beta$  subjective discount factor
 
@@ -2852,7 +2852,7 @@ In practice, it seems disinflations are costly (Ball 94, 95) (Imperfect credibil
 - Do we need "sticky inflation" models or adaptive expectations?
 - With quarterly data, hard to get statistically significant effect of real activity on inflation, when using output gap
 Under certain assumptions:
-$$ m c _ {t} = \kappa X _ {t}
+$$ m c_{t} = \kappa X_{t}
 $$ where  $x_{t} = y_{t} - y_{t}^{n}$  denotes the output gap
 - Maybe Phillips curve estimation doesn't work because:
 These assumptions don't hold in reality
@@ -2860,21 +2860,21 @@ Output gap is mismeasured
 - With rational expectations, NK Phillips curve can be written as
 $$
 
-\pi_ {t + 1} - \pi_ {t} = - \lambda \kappa X _ {t} + \epsilon_ {t + 1}
+\pi_{t + 1} - \pi_{t} = - \lambda \kappa X_{t} + \epsilon_{t + 1}
 
 $$ where  $\epsilon_{t + 1} = \pi_{t + 1} - E_t\pi_{t + 1}$ , and assuming  $\beta = 1$ .
 
 - Traditional Phillips curve with adaptive expectations:
 $$
-\pi_ {t} = E _ {t - 1} \pi_ {t} + \lambda \kappa X _ {t}
+\pi_{t} = E_{t - 1} \pi_{t} + \lambda \kappa X_{t}
 $$
 $$
-\pi_ {t} - \pi_ {t - 1} = \lambda \kappa x _ {t}
+\pi_{t} - \pi_{t - 1} = \lambda \kappa x_{t}
 $$ where we are assuming  $E_{t - 1}\pi_t = \pi_{t - 1}$
 - Notice the difference in the sign on the output gap term!! (and difference in timing of inflation change)
 $$
 
-\pi_ {t + 1} - \pi_ {t} = - \lambda \kappa x _ {t} + \epsilon_ {t + 1}
+\pi_{t + 1} - \pi_{t} = - \lambda \kappa x_{t} + \epsilon_{t + 1}
 
 $$
 - NK Phillips curve implies tight labor market should lead inflation to fall!!
@@ -2883,14 +2883,14 @@ Inflation is a jump variable in this model
 - When output gaps are expected, inflation should jump up and start falling
 $$
 
-\pi_ {t} = \lambda \kappa \sum_ {k = 0} ^ {\infty} \beta^ {k} E _ {t} x _ {t + k}
+\pi_{t} = \lambda \kappa \sum_{k = 0}^{\infty} \beta^{k} E_{t} x_{t + k}
 
 $$
 - I.e., inflation should lead output gap according to NK Phillips curve (Fuhrer-Moore 95)
 - Simple estimation using quadratically detrended log GDP yields:
 $$
 
-\pi_ {t + 1} - \pi_ {t} = 0. 0 8 1 x _ {t} + \epsilon_ {t + 1}
+\pi_{t + 1} - \pi_{t} = 0. 0 8 1 x_{t} + \epsilon_{t + 1}
 
 $$
 - Output gap term has "wrong sign" (from NK perspective)
@@ -2912,11 +2912,11 @@ Labor is hired on a spot market at constant wage
 - Marginal cost:
 $$
 
-M C _ {t} = \frac {W _ {t} / P _ {t}}{\partial Y _ {t} / \partial N _ {t}} = \frac {W _ {t} / P _ {t}}{\alpha_ {n} Y _ {t} / N _ {t}} = \frac {1}{\alpha_ {n}} \frac {W _ {t} N _ {t}}{P _ {t} Y _ {t}} = \frac {S _ {t}}{\alpha_ {n}}
+M C_{t} = \frac{W_{t} / P_{t}}{\partial Y_{t} / \partial N_{t}} = \frac{W_{t} / P_{t}}{\alpha_{n} Y_{t} / N_{t}} = \frac{1}{\alpha_{n}} \frac{W_{t} N_{t}}{P_{t} Y_{t}} = \frac{S_{t}}{\alpha_{n}}
 
 $$ proportional to labor share (average cost)
 In logs, we get:
-$$ m c _ {t} = s _ {t}
+$$ m c_{t} = s_{t}
 $$
 - Assumptions that Gali-Gertler make to derive this are strong assumptions!!
 - Worker-firm relationship often long-term relationship
@@ -2930,7 +2930,7 @@ Wages at a given point in time complicated by overtime
 - Marginal wage may not be the same as average wage
 Gali-Gertler estimate
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} + \lambda s _ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} + \lambda s_{t}
 $$
 - Advantage of using measure of marginal costs:
 Supply shocks should be reflected in marginal costs
@@ -2938,40 +2938,40 @@ Supply shocks should be reflected in marginal costs
 - They assume rational expectations
 - Under this assumption, Phillips curve can be written
 $$
-\pi_ {t} = \beta \pi_ {t + 1} + \lambda s _ {t} + \epsilon_ {t + 1}
+\pi_{t} = \beta \pi_{t + 1} + \lambda s_{t} + \epsilon_{t + 1}
 $$ where  $\epsilon_{t + 1} = \beta E_t\pi_{t + 1} - \beta \pi_{t + 1}$  (i.i.d.)
 - They furthermore take structural model super seriously in assuming that there is no other error term than this expectations error
 - This strong structural assumption allows them to use lagged variables as instruments (any variable dated at time  $t$  or earlier)
 - Maintained assumptions:
 $$
 
-\pi_ {t} - \beta \pi_ {t + 1} - \lambda s _ {t} = \epsilon_ {t + 1}
+\pi_{t} - \beta \pi_{t + 1} - \lambda s_{t} = \epsilon_{t + 1}
 
 $$ where  $\epsilon_{t+1}$  is an i.i.d. expectations error and therefore uncorrelated with variables at time  $t$  or earlier
 
 $\bullet$  Implies:
 
 $$
-E _ {t} \left\{\left(\pi_ {t} - \beta \pi_ {t + 1} - \lambda s _ {t}\right) z _ {t} \right\} = 0
+E_{t} \left\{\left(\pi_{t} - \beta \pi_{t + 1} - \lambda s_{t}\right) z_{t} \right\} = 0
 $$ where  $z_{t}$  is in the time  $t$  information set of agents
 Gali-Gertler use GMM with these orthogonality conditions
 $$
 
-E _ {t} \left\{\left(\pi_ {t} - \beta \pi_ {t + 1} - \lambda s _ {t}\right) z _ {t} \right\} = 0
+E_{t} \left\{\left(\pi_{t} - \beta \pi_{t + 1} - \lambda s_{t}\right) z_{t} \right\} = 0
 
 $$
 Sample period: 1960Q1-1997Q4
 - Instruments: Four lags of inflation, labor income share, output gap, long-short interest rate spread, wage inflation, and commodity price inflation (24 instruments)
 $$
 
-\pi_ {t} = \beta \pi_ {t + 1} + \lambda s _ {t} + \epsilon_ {t + 1}
+\pi_{t} = \beta \pi_{t + 1} + \lambda s_{t} + \epsilon_{t + 1}
 
 $$
 - Under maintained assumption that error term is i.i.d. expectation error dated at time  $t + 1$ , instrument only needed to estimate  $\beta$
 - More generally, other omitted variables (or cost push shocks) enter the equation and are dated at time  $t$  (i.e., affect  $\pi_t$ ):
 $$
 
-\pi_ {t} = \beta \pi_ {t + 1} + \lambda s _ {t} + \eta_ {t}
+\pi_{t} = \beta \pi_{t + 1} + \lambda s_{t} + \eta_{t}
 
 $$
 In this case, both  $\beta$  and  $\lambda$  potentially biased
@@ -2986,14 +2986,14 @@ Is  $\epsilon_{t + 1}$  really just an i.i.d. expectations error?
 Estimation with labor share:
 $$
 
-\pi_ {t} = \underset {(0. 0 1 2)} {0. 0 2 3} s _ {t} + \underset {(0. 0 4 5)} {0. 9 4 2} E _ {t} \pi_ {t + 1}
+\pi_{t} = \underset {(0. 0 1 2)} {0. 0 2 3} s_{t} + \underset {(0. 0 4 5)} {0. 9 4 2} E_{t} \pi_{t + 1}
 
 $$
 - Coefficients have "correct sign" and "sensible" magnitude
 Estimation with output gap (HP-filtered GDP):
 $$
 
-\pi_ {t} = - \underset {(0. 0 0 5)} {0. 0 1 6} s _ {t} + \underset {(0. 0 3 0)} {0. 9 8 8} E _ {t} \pi_ {t + 1}
+\pi_{t} = - \underset {(0. 0 0 5)} {0. 0 1 6} s_{t} + \underset {(0. 0 3 0)} {0. 9 8 8} E_{t} \pi_{t + 1}
 
 $$
 - Coefficient on output gap has "wrong sign"
@@ -3020,22 +3020,22 @@ Estimates of  $\theta$  on the high end
 - Does NK Phillips curve account for inflation inertia?
 Gali-Gertler estimate specification with fraction of rule-of-thumb agents
 - Rule-of-thumb agents set
-$$ p _ {t} ^ {b} = \bar {p} _ {t - 1} ^ {*} + \pi_ {t - 1}
+$$ p_{t}^{b} = \bar {p}_{t - 1}^{*} + \pi_{t - 1}
 $$
 
 This yields
 
 $$
-\pi_ {t} = \lambda m c _ {t} + \gamma_ {f} E _ {t} \pi_ {t + 1} + \gamma_ {b} \pi_ {t - 1}
+\pi_{t} = \lambda m c_{t} + \gamma_{f} E_{t} \pi_{t + 1} + \gamma_{b} \pi_{t - 1}
 $$ where
 $$
 
-\lambda = \frac {(1 - \omega) (1 - \theta) (1 - \beta \theta)}{\theta + \omega [ 1 - \theta (1 - \beta) ]}
+\lambda = \frac{(1 - \omega) (1 - \theta) (1 - \beta \theta)}{\theta + \omega [ 1 - \theta (1 - \beta) ]}
 
 $$
 $$
 
-\gamma_ {f} = \frac {\beta \theta}{\theta + \omega [ 1 - \theta (1 - \beta) ]} \quad \gamma_ {b} = \frac {\omega}{\theta + \omega [ 1 - \theta (1 - \beta) ]}
+\gamma_{f} = \frac{\beta \theta}{\theta + \omega [ 1 - \theta (1 - \beta) ]} \quad \gamma_{b} = \frac{\omega}{\theta + \omega [ 1 - \theta (1 - \beta) ]}
 
 $$ and  $\omega$  denotes the fraction of rule-of-thump agents
 
@@ -3101,7 +3101,7 @@ UC Berkeley
 October 2021
 New Keynesian formalization:
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$
 Drivers of inflation:
 - Expected inflation:  $E_{t}\pi_{t + 1}$
@@ -3121,10 +3121,10 @@ Muted response of inflation to unemployment
 Assume adaptive expectations:  $\beta E_{t}\pi_{t + 1} = \pi_{t - 1}$
 In this case,
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$ becomes
 $$
-\Delta \pi_ {t} = - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t},
+\Delta \pi_{t} = - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t},
 $$
 Stock and Watson (2019):
 $\Delta \pi_{t}$ : Annual change in 12-month core PCE inflation
@@ -3163,31 +3163,31 @@ New challenge:
 - How is the slope of the regional Phillips curve related to the slope of the aggregate Phillips curve?
 - Let's understand better the central role of long-run inflation expectations:
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$
 - Solve forward:
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} u _ {t + j} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} u_{t + j} + \omega_{t}
 $$
 $$
-\mathsf {w h e r e} \omega_ {t} = E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} (\kappa u _ {t + j} ^ {n} + \nu_ {t + j}).
+\mathsf {w h e r e} \omega_{t} = E_{t} \sum_{j = 0}^{\infty} \beta^{j} (\kappa u_{t + j}^{n} + \nu_{t + j}).
 $$
 - Looks like long-run inflation expectation vanishes due to discounting
 This is an illusion!
 - Useful to decompose  $u_{t+j}$  into permanent and transitory component:
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} u _ {t + j} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} u_{t + j} + \omega_{t}
 $$ becomes
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {t + j} + \frac {\kappa}{1 - \beta} E _ {t} u _ {t + \infty} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{t + j} + \frac{\kappa}{1 - \beta} E_{t} u_{t + \infty} + \omega_{t}
 $$ where  $\tilde{u}_t\equiv u_t - E_tu_{t + \infty}$
 Since  $\frac{\kappa}{1 - \beta} E_t u_{t + \infty} = E_t \pi_{t + \infty}$ , we have
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {t + j} + E _ {t} \pi_ {t + \infty} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{t + j} + E_{t} \pi_{t + \infty} + \omega_{t}
 $$
 (Same result with  $\beta = 1$ )
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {t + j} + E _ {t} \pi_ {t + \infty} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{t + j} + E_{t} \pi_{t + \infty} + \omega_{t}
 $$
 - Long-run inflation target actually major determinant of current inflation
 - Has a coefficient of one!!
@@ -3196,23 +3196,23 @@ In contrast,  $\kappa$  may be very small
 To simplify, one can assume that  $\tilde{u}_t$  follows an AR(1)
 This implies  $E_{t}\tilde{u}_{t + j} = \rho_{u}^{j}\tilde{u}_{t}$
 $$
-\pi_ {t} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {t + j} + E _ {t} \pi_ {t + \infty} + \omega_ {t}
+\pi_{t} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{t + j} + E_{t} \pi_{t + \infty} + \omega_{t}
 $$ becomes
 $$
-\pi_ {t} = - \psi \tilde {u} _ {t} + E _ {t} \pi_ {t + \infty} + \omega_ {t}
+\pi_{t} = - \psi \tilde {u}_{t} + E_{t} \pi_{t + \infty} + \omega_{t}
 $$ where  $\psi = \kappa /(1 - \beta \rho_{u})$
 $$
-\pi_ {t} = - \psi \tilde {u} _ {t} + E _ {t} \pi_ {t + \infty} + \omega_ {t}
+\pi_{t} = - \psi \tilde {u}_{t} + E_{t} \pi_{t + \infty} + \omega_{t}
 $$
 - Variation in inflation may be dominated by variation in  $E_{t}\pi_{t + \infty}$
 - Variation in inflation may be completely unrelated to variation in  $\tilde{u}_t$
 - Worse still, correlation between  $E_{t\pi_{t + \infty}}$  and  $\tilde{u}_t$  potentially a source of severe omitted variables bias
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$
 - This is approximately (if  $\beta \approx 1$ ):
 $$
-\pi_ {t} - E _ {t} \pi_ {t + 1} \approx - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} - E_{t} \pi_{t + 1} \approx - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$
 - So, standard analysis aims to explain  $\pi_t - E_t\pi_{t+1}$
 - But how much is there to explain?
@@ -3222,7 +3222,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/62f7cf15-ef01-4251-9f8e-90d77277177c/eb13fae17a965a5343aeb9ba67d332174fe5ae3e86dab5cd919f2ef5f6539108.jpg)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/62f7cf15-ef01-4251-9f8e-90d77277177c/329cd320ec4a4cf97cbb23e9dd74e024b5d7c80b4b079f63ec5bc1ef3227243d.jpg)
 $$
-\pi_ {t} - E _ {t} \pi_ {t + 1} \approx - \kappa \left(u _ {t} - u _ {t} ^ {n}\right) + \nu_ {t}
+\pi_{t} - E_{t} \pi_{t + 1} \approx - \kappa \left(u_{t} - u_{t}^{n}\right) + \nu_{t}
 $$
 - Inflation gap for core inflation is small throughout (for core using modern methods)
 Consistent with a flat Phillips curve
@@ -3242,18 +3242,18 @@ Firms:
 - Calvo (1983) type price rigidity
 Regional Phillips Curve for Non-Tradeables:
 $$
-\pi_ {H t} ^ {N} = \beta E _ {t} \pi_ {H, t + 1} ^ {N} - \kappa \hat {u} _ {H t} - \lambda \hat {p} _ {H t} ^ {N} + \nu_ {H t} ^ {N}
+\pi_{H t}^{N} = \beta E_{t} \pi_{H, t + 1}^{N} - \kappa \hat {u}_{H t} - \lambda \hat {p}_{H t}^{N} + \nu_{H t}^{N}
 $$
 Aggregate Phillips Curve:
 $$
-\pi_ {t} = \beta E _ {t} \pi_ {t + 1} - \kappa \hat {U} _ {t} + \nu_ {t}
+\pi_{t} = \beta E_{t} \pi_{t + 1} - \kappa \hat {U}_{t} + \nu_{t}
 $$ where  $\hat{u}_{Ht} = -\hat{n}_{Ht}$  and  $\hat{u}_t = -\hat{n}_t$
 - Important result: Same slope  $\kappa$
 This is true for non-tradeable regional Phillips curve
 - Not for overall regional Phillips curve (traded goods priced nationally)
 - Relies on GHH preferences
 $$
-\pi_ {H t} ^ {N} = \beta E _ {t} \pi_ {H, t + 1} ^ {N} - \kappa \hat {u} _ {H t} - \lambda \hat {\rho} _ {H t} ^ {N} + \nu_ {H t} ^ {N}
+\pi_{H t}^{N} = \beta E_{t} \pi_{H, t + 1}^{N} - \kappa \hat {u}_{H t} - \lambda \hat {\rho}_{H t}^{N} + \nu_{H t}^{N}
 $$
 Extra term:  $\lambda \hat{p}_{H^{\prime}}^{N}$  . Theoretically important!
 Common critique:
@@ -3263,15 +3263,15 @@ Common critique:
 - Empirically,  $\lambda$  estimated to be small
 - Let's solve the regional Phillips curve forward:
 $$
-\pi_ {H t} ^ {N} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {H, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\rho} _ {H, t + j} ^ {N} + E _ {t} \pi_ {t + \infty} + \omega_ {H t} ^ {N},
+\pi_{H t}^{N} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{H, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\rho}_{H, t + j}^{N} + E_{t} \pi_{t + \infty} + \omega_{H t}^{N},
 $$
 - Long-run inflation expectations are constant across regions and can be replaced with time and state fixed effects:
 $$
-\pi_ {H t} ^ {N} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {H, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\rho} _ {H, t + j} ^ {N} + \alpha_ {i} + \gamma_ {t} + \omega_ {H t} ^ {N},
+\pi_{H t}^{N} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{H, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\rho}_{H, t + j}^{N} + \alpha_{i} + \gamma_{t} + \omega_{H t}^{N},
 $$
 - Panel specification "differences out" long-run inflation expectations
 $$
-\pi_ {H t} ^ {N} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {H, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\boldsymbol {p}} _ {H, t + j} ^ {N} + E _ {t} \pi_ {t + \infty} + \omega_ {H t} ^ {N},
+\pi_{H t}^{N} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{H, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\boldsymbol {p}}_{H, t + j}^{N} + E_{t} \pi_{t + \infty} + \omega_{H t}^{N},
 $$
 - Can't long-run inflation expectation differ across regions?
 - Prices are rising in New York relative to Kansas
@@ -3282,14 +3282,14 @@ Balassa-Samuelson effects
 A concern if correlated with instruments
 Regional Phillips curve:
 $$
-\pi_ {H t} ^ {N} = - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \tilde {u} _ {H, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\pmb {p}} _ {H, t + j} ^ {N} + \alpha_ {i} + \gamma_ {t} + \omega_ {H t} ^ {N},
+\pi_{H t}^{N} = - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} \tilde {u}_{H, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\pmb {p}}_{H, t + j}^{N} + \alpha_{i} + \gamma_{t} + \omega_{H t}^{N},
 $$
 Suppose we assume that  $\tilde{u}_{Ht}$  and  $\hat{p}_{Ht}^{N}$  follow AR(1) processes:
 $$
-\pi_ {H t} ^ {N} = - \psi \tilde {u} _ {H t} - \delta \hat {\boldsymbol {p}} _ {H t} ^ {N} + \alpha_ {i} + \gamma_ {t} + \omega_ {H t} ^ {N} \tag {1}
+\pi_{H t}^{N} = - \psi \tilde {u}_{H t} - \delta \hat {\boldsymbol {p}}_{H t}^{N} + \alpha_{i} + \gamma_{t} + \omega_{H t}^{N} \tag {1}
 $$
 $$
-\text {w h e r e} \quad \psi = \frac {\kappa}{1 - \beta \rho_ {u}} \quad \text {a n d} \quad \delta = \frac {\lambda}{1 - \beta \rho_ {p N}}
+\text{wh er e} \quad \psi = \frac{\kappa}{1 - \beta \rho_{u}} \quad \text{an d} \quad \delta = \frac{\lambda}{1 - \beta \rho_{p N}}
 $$
 - Equation (1) similar to typical regional empirical specification
 - But  $\kappa$  and  $\psi$  are not the same!
@@ -3310,19 +3310,19 @@ State-industry employment shares
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/62f7cf15-ef01-4251-9f8e-90d77277177c/afc6f6493c2cf6313fd7774dc702379cc89e86cfaaabc8f7a9e7f942970140cf.jpg)
 Regional Phillips curve from model:
 $$
-\pi_ {i t} ^ {N} = \alpha_ {i} + \gamma_ {t} - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} u _ {i, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\pmb {\rho}} _ {i, t + j} ^ {N} + \omega_ {i t}
+\pi_{i t}^{N} = \alpha_{i} + \gamma_{t} - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} u_{i, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\pmb {\rho}}_{i, t + j}^{N} + \omega_{i t}
 $$
 - Reduced form equation similar to prior literature:
 $$
-\pi_ {i t} ^ {N} = \alpha_ {i} + \gamma_ {t} - \psi \boldsymbol {u} _ {i, t - 4} - \delta \boldsymbol {p} _ {i, t - 4} ^ {N} + \varepsilon_ {i t}
+\pi_{i t}^{N} = \alpha_{i} + \gamma_{t} - \psi \boldsymbol {u}_{i, t - 4} - \delta \boldsymbol {p}_{i, t - 4}^{N} + \varepsilon_{i t}
 $$
 - HHNS present estimates of both  $\kappa$  and  $\psi$
 $$
-\pi_ {i t} ^ {N} = \alpha_ {i} + \gamma_ {t} - \kappa E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} u _ {i, t + j} - \lambda E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \hat {\boldsymbol {\rho}} _ {i, t + j} ^ {N} + \omega_ {i t}
+\pi_{i t}^{N} = \alpha_{i} + \gamma_{t} - \kappa E_{t} \sum_{j = 0}^{\infty} \beta^{j} u_{i, t + j} - \lambda E_{t} \sum_{j = 0}^{\infty} \beta^{j} \hat {\boldsymbol {\rho}}_{i, t + j}^{N} + \omega_{i t}
 $$
 - Replace expectations with realized values and expectation error and truncate the infinite sums:
 $$
-\pi_ {i t} ^ {N} = \alpha_ {i} + \gamma_ {t} - \kappa \sum_ {j = 0} ^ {T} \beta^ {j} u _ {i, t + j} - \lambda \sum_ {j = 0} ^ {T} \beta^ {j} \hat {\rho} _ {i, t + j} ^ {N} + \omega_ {i t} + \eta_ {i t}
+\pi_{i t}^{N} = \alpha_{i} + \gamma_{t} - \kappa \sum_{j = 0}^{T} \beta^{j} u_{i, t + j} - \lambda \sum_{j = 0}^{T} \beta^{j} \hat {\rho}_{i, t + j}^{N} + \omega_{i t} + \eta_{i t}
 $$ where  $\eta_{it}$  is an expectations error (and truncation error)
 - $\kappa$  can now be estimated using an IV regression (i.e., GMM)
 - Calibrate  $\beta = 0.99$
@@ -3333,7 +3333,7 @@ Time fixed effects capture national supply shocks
 - Identifying assumption: No relative change in restaurant technology in Texas vs. Illinois when Texas experiences a recession relative to Illinois
 2. Tradeable demand instrument
 $$
-\text {T r a d a b l e} \quad \text {D e m a n d} _ {i, t} = \sum_ {x \in T} \bar {S} _ {x, i} \times \Delta \log S _ {- i, x, t}
+\text{Tr ad ab le} \quad \text{De ma nd}_{i, t} = \sum_{x \in T} \bar {S}_{x, i} \times \Delta \log S_{- i, x, t}
 $$
 - $\bar{S}_{x,i}$ : Average employment share of industry  $x$  in state  $i$  over time
 - log  $S_{-i,x,t}$ : National employment share of industry  $x$  at time  $t$
@@ -3343,7 +3343,7 @@ Oil boom increases labor demand and wages in Texas
 - "Demand shock" for Texan restaurants
 - Oil boom does not differentially affect production technology for restaurants in Texas
 $$
-\pi_ {i t} ^ {N} = \alpha_ {i} + \gamma_ {t} - \psi u _ {i, t - 4} - \delta p _ {i, t - 4} ^ {N} + \varepsilon_ {i t}
+\pi_{i t}^{N} = \alpha_{i} + \gamma_{t} - \psi u_{i, t - 4} - \delta p_{i, t - 4}^{N} + \varepsilon_{i t}
 $$
 Same two approaches:
 OLS
@@ -3396,11 +3396,11 @@ Note: HHNS adjust prior estimates by the elasticity of output with respect to em
 - Are cross-sectional estimates of Phillips curve steeper than time-series estimates?
 - Plot RHS and LHS of
 $$
-\pi_ {t} - E _ {t} \pi_ {t + \infty} = - \kappa \zeta \tilde {u} _ {t} + \omega_ {t}
+\pi_{t} - E_{t} \pi_{t + \infty} = - \kappa \zeta \tilde {u}_{t} + \omega_{t}
 $$ assuming no supply shocks  $\omega_{t} = 0$
 - Scaling factor:  $\zeta = 6.16$  (s.e. 1.80)
 $$
-\sum_ {j = 0} ^ {T} \beta^ {j} \tilde {u} _ {t + j} = \zeta \tilde {u} _ {t} + \alpha + \epsilon_ {t}.
+\sum_{j = 0}^{T} \beta^{j} \tilde {u}_{t + j} = \zeta \tilde {u}_{t} + \alpha + \epsilon_{t}.
 $$
 - Aggregate includes housing
 Estimate aggregate Phillips curve for shelter
@@ -3445,22 +3445,22 @@ Response of consumption to changes in income and interest rates
 - Response of economy-wide aggregate consumption to income and interest rates
 Household consumption problem is to maximize:
 $$
-E _ {0} \sum_ {t = 0} ^ {T} \beta^ {t} U (C _ {t})
+E_{0} \sum_{t = 0}^{T} \beta^{t} U (C_{t})
 $$
 $$
-C _ {t} = \left[ \int_ {0} ^ {1} c _ {t} (i) ^ {\frac {\theta - 1}{\theta}} d i \right] ^ {\frac {\theta}{\theta - 1}}
+C_{t} = \left[ \int_{0}^{1} c_{t} (i)^{\frac{\theta - 1}{\theta}} d i \right]^{\frac{\theta}{\theta - 1}}
 $$ subject to a budget constraint
 - Problem can be divided into two parts:
 - Solve for  $c_{t}(i)$  subject to  $C_{t}$
 - Solve for  $C_t$
 - Expenditure on goods in budget constraint:
 $$
-\int_ {0} ^ {1} p (i) c (i) d i
+\int_{0}^{1} p (i) c (i) d i
 $$
 - Define  $P_{t}$  as the minimum expenditure needed to purchase one unit of the composite consumption good  $C_{t}$
 - Then it turns out that
 $$
-\int_ {0} ^ {1} p (i) c (i) d i = P _ {t} C _ {t}
+\int_{0}^{1} p (i) c (i) d i = P_{t} C_{t}
 $$
 - So, we can write budget constraint without reference to  $c(i)$ s and  $p(i)$ s
 $P_{t}$  is the ideal price index
@@ -3479,7 +3479,7 @@ The fundamental psychological law, upon which we are entitled to depend with gre
 Keynes (1936, p. 93-94):
 The usual type of short-period fluctuation in the rate of interest is not likely, however, to have much direct influence on spending either way. There are not many people who will alter their way of living because the rate of interest has fallen from 5 to 4 per cent, if their aggregate income is the same as before.
 $$
-C _ {t} = \alpha + \gamma \left(Y _ {t} - T _ {t}\right)
+C_{t} = \alpha + \gamma \left(Y_{t} - T_{t}\right)
 $$
 - Consumption a function of after-tax income
 - Marginal propensity to consume  $(\gamma)$  between zero and one
@@ -3509,22 +3509,22 @@ Suppose interest rates rose by 1 percentage point.
 (i.e., not functions of output directly or indirectly)
 - Planned expenditure (aggregate demand):
 $$
-P E _ {t} = \alpha + \gamma \left(Y _ {t} - T _ {t}\right) + I _ {t} + G _ {t} + N X _ {t}
+P E_{t} = \alpha + \gamma \left(Y_{t} - T_{t}\right) + I_{t} + G_{t} + N X_{t}
 $$
 - Suppose  $I, G, NX$  are exogenous
 (i.e., not functions of output directly or indirectly)
 - Planned expenditure (aggregate demand):
 $$
-P E _ {t} = \alpha + \gamma \left(Y _ {t} - T _ {t}\right) + I _ {t} + G _ {t} + N X _ {t}
+P E_{t} = \alpha + \gamma \left(Y_{t} - T_{t}\right) + I_{t} + G_{t} + N X_{t}
 $$
 - Suppose the output is completely demand determined
 Output must equal  $PE_{t}$ :
 $$
-Y _ {t} = \alpha + \gamma \left(Y _ {t} - T _ {t}\right) + I _ {t} + G _ {t} + N X _ {t}
+Y_{t} = \alpha + \gamma \left(Y_{t} - T_{t}\right) + I_{t} + G_{t} + N X_{t}
 $$
 A little algebra then yields:
 $$
-Y _ {t} = \frac {1}{1 - \gamma} [ \alpha - \gamma T _ {t} + I _ {t} + G _ {t} + N X _ {t} ]
+Y_{t} = \frac{1}{1 - \gamma} [ \alpha - \gamma T_{t} + I_{t} + G_{t} + N X_{t} ]
 $$
 Government purchases multiplier  $= \frac{1}{1 - \gamma}$
 Tax cut multiplier  $= \frac{\gamma}{1 - \gamma}$
@@ -3586,7 +3586,7 @@ No bankruptcy (i.e., full commitment to repay debt)
 Natural borrowing limit
 - Preferences:
 $$
-\sum_ {t = 0} ^ {T} \beta^ {t} U (C _ {t})
+\sum_{t = 0}^{T} \beta^{t} U (C_{t})
 $$
 Savings/Borrowing technology:
 Household can save at rate  $r$
@@ -3596,11 +3596,11 @@ Household assets denoted  $A_{t}$
 Income stream:  $Y_{t}$
 - Maximize
 $$
-\sum_ {t = 0} ^ {T} \beta^ {t} U (C _ {t})
+\sum_{t = 0}^{T} \beta^{t} U (C_{t})
 $$
 - Subject to "budget constraint":
 $$
-\frac {A _ {t}}{1 + r} + C _ {t} = Y _ {t} + A _ {t - 1}
+\frac{A_{t}}{1 + r} + C_{t} = Y_{t} + A_{t - 1}
 $$
 - But, mathematically, this is not really a constraint (doesn't constrain the problem)
 - Mathematically, this is just a definition of  $A_{t}$
@@ -3609,15 +3609,15 @@ Real constraint is constraint on  $A_{t}$  sequence
 Alternative: No (unsecured) borrowing:  $A_{t} > 0$  (much tighter / much more realistic)
 - With natural borrowing limit, sequence of one-period budget constraints can be consolidated into a single intertemporal budget constraint:
 $$
-\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} \leq A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}
+\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} \leq A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}
 $$
 - Present value of consumption cannot be larger than present value of income and assets
 - This embeds the  $A_T \geq 0$  constraint
 $$
-\max  \sum_ {t = 0} ^ {T} \beta^ {t} U (C _ {t})
+\max  \sum_{t = 0}^{T} \beta^{t} U (C_{t})
 $$ subject to:
 $$
-\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} \leq A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}
+\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} \leq A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}
 $$
 - Important to differentiate between:
 - Choice variables:  $C_t$  (and  $A_t$ , for  $t \geq 0$ )
@@ -3631,53 +3631,53 @@ E.g., Krusell (2015) presents planner problem with production
 Good for you to see slight variations in notation and setup
 One way to solve household's problem is to set up a Lagrangian:
 $$
-\mathcal {L} = \sum_ {t = 0} ^ {T} \beta^ {t} U (\mathcal {C} _ {t}) - \lambda \left(\sum_ {t = 0} ^ {T} \frac {\mathcal {C} _ {t}}{(1 + r) ^ {t}} - A _ {- 1} - \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right)
+\mathcal {L} = \sum_{t = 0}^{T} \beta^{t} U (\mathcal {C}_{t}) - \lambda \left(\sum_{t = 0}^{T} \frac{\mathcal {C}_{t}}{(1 + r)^{t}} - A_{- 1} - \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right)
 $$ and derive Kuhn-Tucker conditions
 Differentiating yield first order conditions:
 $$
-\beta^ {t} U ^ {\prime} (C _ {t}) = \frac {\lambda}{(1 + r) ^ {t}}
+\beta^{t} U^{\prime} (C_{t}) = \frac{\lambda}{(1 + r)^{t}}
 $$
 - The full set of optimality conditions additionally includes a complementary slackness condition:
 $$
-\lambda \left(\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} - A _ {- 1} - \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right) = 0
+\lambda \left(\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} - A_{- 1} - \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right) = 0
 $$
 $$
-\lambda \left(\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} - A _ {- 1} - \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right) = 0
+\lambda \left(\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} - A_{- 1} - \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right) = 0
 $$
 - Notice from first order conditions that:
 $$
-\lambda = \beta^ {t} (1 + r) ^ {t} U ^ {\prime} \left(C _ {t}\right)
+\lambda = \beta^{t} (1 + r)^{t} U^{\prime} \left(C_{t}\right)
 $$
 - If  $U'(C_t) > 0$ , then  $\lambda > 0$
 - Implies that:
 $$
-\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} - A _ {- 1} - \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}} = 0
+\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} - A_{- 1} - \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}} = 0
 $$
 - Since  $U^{\prime}(C_t) > 0$ , intertemporal budget constraint holds with equality.
 Often we just impose this from the beginning
 $$
-\beta^ {t} U ^ {\prime} (\mathcal {C} _ {t}) = \frac {\lambda}{(1 + r) ^ {t}}
+\beta^{t} U^{\prime} (\mathcal {C}_{t}) = \frac{\lambda}{(1 + r)^{t}}
 $$
 $$
-\beta^ {t + 1} U ^ {\prime} \left(\mathcal {C} _ {t + 1}\right) = \frac {\lambda}{(1 + r) ^ {t + 1}}
+\beta^{t + 1} U^{\prime} \left(\mathcal {C}_{t + 1}\right) = \frac{\lambda}{(1 + r)^{t + 1}}
 $$
 Divide one by the other:
 $$
-\frac {U ^ {\prime} \left(C _ {t}\right)}{\beta U ^ {\prime} \left(C _ {t + 1}\right)} = (1 + r)
+\frac{U^{\prime} \left(C_{t}\right)}{\beta U^{\prime} \left(C_{t + 1}\right)} = (1 + r)
 $$
 Rearrange:
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) U^{\prime} \left(C_{t + 1}\right)
 $$
 This equation is usually referred to as the consumption Euler equation
 Lagrangian math does not yield much intuition
 - Alternative: Calculus of variations
 We seek to maximize
 $$
-V (C) = \sum_ {t = 0} ^ {T} \beta^ {t} U (C _ {t})
+V (C) = \sum_{t = 0}^{T} \beta^{t} U (C_{t})
 $$ subject to
 $$
-\sum_ {t = 0} ^ {T} \frac {C _ {t}}{(1 + r) ^ {t}} \leq A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}
+\sum_{t = 0}^{T} \frac{C_{t}}{(1 + r)^{t}} \leq A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}
 $$
 Here  $C$  denotes the sequence  $\{C_0,C_1,\dots,C_{T_1},C_T\}$
 Suppose we have a candidate optimal path  $C_t^*$
@@ -3686,67 +3686,67 @@ Suppose we have a candidate optimal path  $C_t^*$
 - Consume proceeds at time  $t + 1$
 - Utility from new path:
 $$
-V (C) = \dots + \beta^ {t} U \left(C _ {t} ^ {*} - \epsilon\right) + \beta^ {t + 1} U \left(C _ {t + 1} ^ {*} + \epsilon (1 + r)\right) + \dots
+V (C) = \dots + \beta^{t} U \left(C_{t}^{*} - \epsilon\right) + \beta^{t + 1} U \left(C_{t + 1}^{*} + \epsilon (1 + r)\right) + \dots
 $$
 - If  $C_t^*$  is the optimum, then
 $$
-\left. \frac {d V}{d \epsilon} \right| _ {\epsilon = 0} = 0
+\left. \frac{d V}{d \epsilon} \right|_{\epsilon = 0} = 0
 $$
 - At the optimum, benefit of small variation must be zero
 $$
-\frac {d V}{d \epsilon} = - \beta^ {t} U ^ {\prime} \left(C _ {t} ^ {*} - \epsilon\right) + (1 + r) \beta^ {t + 1} U ^ {\prime} \left(C _ {t + 1} ^ {*} + \epsilon (1 + r)\right)
+\frac{d V}{d \epsilon} = - \beta^{t} U^{\prime} \left(C_{t}^{*} - \epsilon\right) + (1 + r) \beta^{t + 1} U^{\prime} \left(C_{t + 1}^{*} + \epsilon (1 + r)\right)
 $$
 $$
-\left. \frac {d V}{d \epsilon} \right| _ {\epsilon = 0} = - \beta^ {t} U ^ {\prime} \left(\mathcal {C} _ {t} ^ {*}\right) + (1 + r) \beta^ {t + 1} U ^ {\prime} \left(\mathcal {C} _ {t + 1} ^ {*}\right) = 0
+\left. \frac{d V}{d \epsilon} \right|_{\epsilon = 0} = - \beta^{t} U^{\prime} \left(\mathcal {C}_{t}^{*}\right) + (1 + r) \beta^{t + 1} U^{\prime} \left(\mathcal {C}_{t + 1}^{*}\right) = 0
 $$
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) U^{\prime} \left(C_{t + 1}\right)
 $$
 - The generic first order condition in calculus of variations is called the Euler equation (or Euler-Lagrange equation)
 - This is where the consumption Euler equation gets its name
 Suppose  $U(C_{t}) = \log C_{t}$
 - Then
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) U^{\prime} \left(C_{t + 1}\right)
 $$ becomes:
 $$
-\frac {C _ {t + 1}}{C _ {t}} = \beta (1 + r)
+\frac{C_{t + 1}}{C_{t}} = \beta (1 + r)
 $$
 Suppose  $U(C_{t}) = \log C_{t}$
 - Then
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) U^{\prime} \left(C_{t + 1}\right)
 $$ becomes:
 $$
-\frac {C _ {t + 1}}{C _ {t}} = \beta (1 + r)
+\frac{C_{t + 1}}{C_{t}} = \beta (1 + r)
 $$
 - How does consumption growth  $C_{t+1} / C_t$  depend on income growth  $Y_{t+1} / Y_t$ ?
 Suppose  $U(C_{t}) = \log C_{t}$
 - Then
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) U^{\prime} \left(C_{t + 1}\right)
 $$ becomes:
 $$
-\frac {C _ {t + 1}}{C _ {t}} = \beta (1 + r)
+\frac{C_{t + 1}}{C_{t}} = \beta (1 + r)
 $$
 - How does consumption growth  $C_{t+1} / C_t$  depend on income growth  $Y_{t+1} / Y_t$ ?
 It doesn't!!
 Suppose for simplicity that  $\beta (1 + r) = 1$
 - Consumption Euler equation becomes
 $$
-U ^ {\prime} \left(C _ {t}\right) = U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = U^{\prime} \left(C_{t + 1}\right)
 $$ which implies
 $$
-C _ {t} = C _ {t + 1}
+C_{t} = C_{t + 1}
 $$
 - Consumers optimally smooth their consumption
 Suppose for simplicity that  $\beta (1 + r) = 1$
 - Consumption Euler equation becomes
 $$
-U ^ {\prime} \left(C _ {t}\right) = U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = U^{\prime} \left(C_{t + 1}\right)
 $$ which implies
 $$
-C _ {t} = C _ {t + 1}
+C_{t} = C_{t + 1}
 $$
 - Consumers optimally smooth their consumption
 - Variation in consumption only due to:
@@ -3754,26 +3754,26 @@ $$
 - Variation in marginal utility  $U_{t}^{\prime}(C_{t})$  (e.g., children, health)
 - Let's plug  $C_t = C_{t+1}$  into intertemporal budget constraint:
 $$
-C _ {0} = \Phi (r) \left(A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right)
+C_{0} = \Phi (r) \left(A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right)
 $$
 $$
-\Phi (r) = \frac {1 - \frac {1}{1 + r}}{1 - \left(\frac {1}{1 + r}\right) ^ {T + 1}}
+\Phi (r) = \frac{1 - \frac{1}{1 + r}}{1 - \left(\frac{1}{1 + r}\right)^{T + 1}}
 $$
 - Consumption a function of present value of life-time income
 Current income is not special
 $$
-C _ {0} = \Phi (r) \left(A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right)
+C_{0} = \Phi (r) \left(A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right)
 $$
 $$
-\Phi (r) = \frac {1 - \frac {1}{1 + r}}{1 - \left(\frac {1}{1 + r}\right) ^ {T + 1}}
+\Phi (r) = \frac{1 - \frac{1}{1 + r}}{1 - \left(\frac{1}{1 + r}\right)^{T + 1}}
 $$
 - Marginal propensity to consume (MPC): How much of a windfall extra dollar a household spends over some period of time
 - What does Permanent Income Hypothesis imply about MPC?
 $$
-C _ {0} = \Phi (r) \left(A _ {- 1} + \sum_ {t = 0} ^ {T} \frac {Y _ {t}}{(1 + r) ^ {t}}\right)
+C_{0} = \Phi (r) \left(A_{- 1} + \sum_{t = 0}^{T} \frac{Y_{t}}{(1 + r)^{t}}\right)
 $$
 $$
-\Phi (r) = \frac {1 - \frac {1}{1 + r}}{1 - \left(\frac {1}{1 + r}\right) ^ {T + 1}}
+\Phi (r) = \frac{1 - \frac{1}{1 + r}}{1 - \left(\frac{1}{1 + r}\right)^{T + 1}}
 $$
 - Marginal propensity to consume (MPC): How much of a windfall extra dollar a household spends over some period of time
 - What does Permanent Income Hypothesis imply about MPC?
@@ -3817,34 +3817,34 @@ Rules out "Ponzi schemes":
 Natural borrowing limit can be quite "tight":
 - If non-zero probability of zero future income, natural borrowing limit is zero
 $$
-\max  E _ {0} \sum_ {t = 0} ^ {\infty} \beta^ {t} U _ {i} \left(C _ {i t} \left(s ^ {t}\right)\right)
+\max  E_{0} \sum_{t = 0}^{\infty} \beta^{t} U_{i} \left(C_{i t} \left(s^{t}\right)\right)
 $$ subject to:
 $$
-C _ {i t} (s ^ {t}) + \sum_ {s ^ {t + 1} \mid s ^ {t}} Q _ {t} (s ^ {t + 1}) A _ {i t} (s ^ {t + 1}) = Y _ {i t} (s ^ {t}) + A _ {i, t - 1} (s ^ {t}),
+C_{i t} (s^{t}) + \sum_{s^{t + 1} \mid s^{t}} Q_{t} (s^{t + 1}) A_{i t} (s^{t + 1}) = Y_{i t} (s^{t}) + A_{i, t - 1} (s^{t}),
 $$ a No Ponzi scheme constraint, and given  $A_{i, - 1}$
 - $s^t = [s_1, s_2, \dots, s_t]$  denotes history of states up to date  $t$ .
 - $Q_{t}(s^{t + 1})$  denotes the time  $t$  price of Arrow security that pays off one unit of consumption in state  $s^{t + 1}$
 - $A_{it}(s^{t+1})$  denotes quantity of Arrow security that pays off in state  $s^{t+1}$  that is purchased at time  $t$  by household  $i$
 One solution method (again) is to set up a Lagrangian:
 $$
-\begin{array}{l} \mathcal {L} _ {t} = E _ {t} \sum_ {j = 0} ^ {\infty} \beta^ {j} \left(U _ {i} \left(C _ {i, t + j} \left(\boldsymbol {s} ^ {t + j}\right)\right) - \lambda_ {i, t + j} \left(\boldsymbol {s} ^ {t + j}\right) \left(C _ {i, t + j} \left(\boldsymbol {s} ^ {t + j}\right) \right. \right. \\ \left. \left. + \sum_ {\mathcal {S} ^ {t + j + 1} \mid \mathcal {S} ^ {t + j}} Q _ {t + j} \left(\mathcal {S} ^ {t + j + 1}\right) A _ {i, t + j} \left(\mathcal {S} ^ {t + j + 1}\right) - Y _ {i, t + j} \left(\mathcal {S} ^ {t + j}\right) - A _ {i, t + j - 1} \left(\mathcal {S} ^ {t + j}\right)\right)\right) \\ \end{array}
+\begin{array}{l} \mathcal {L}_{t} = E_{t} \sum_{j = 0}^{\infty} \beta^{j} \left(U_{i} \left(C_{i, t + j} \left(\boldsymbol {s}^{t + j}\right)\right) - \lambda_{i, t + j} \left(\boldsymbol {s}^{t + j}\right) \left(C_{i, t + j} \left(\boldsymbol {s}^{t + j}\right) \right. \right. \\ \left. \left. + \sum_{\mathcal {S}^{t + j + 1} \mid \mathcal {S}^{t + j}} Q_{t + j} \left(\mathcal {S}^{t + j + 1}\right) A_{i, t + j} \left(\mathcal {S}^{t + j + 1}\right) - Y_{i, t + j} \left(\mathcal {S}^{t + j}\right) - A_{i, t + j - 1} \left(\mathcal {S}^{t + j}\right)\right)\right) \\ \end{array}
 $$
 The choice variables at time  $t$  are  $C_{it}(s^t)$  and  $A_{it}(s^{t + 1})$
 - Differentiation of time  $t$  Lagrangian yields:
 $$
-\frac {\partial \mathcal {L} _ {t}}{\partial \mathcal {C} _ {i t} (\boldsymbol {s} ^ {t})}: U _ {i} ^ {\prime} \left(\mathcal {C} _ {i t} (\boldsymbol {s} ^ {t})\right) = \lambda_ {i t} (\boldsymbol {s} ^ {t})
+\frac{\partial \mathcal {L}_{t}}{\partial \mathcal {C}_{i t} (\boldsymbol {s}^{t})}: U_{i}^{\prime} \left(\mathcal {C}_{i t} (\boldsymbol {s}^{t})\right) = \lambda_{i t} (\boldsymbol {s}^{t})
 $$
 $$
-\frac {\partial \mathcal {L} _ {t}}{\partial A _ {i t} (s ^ {t + 1})}: \lambda_ {i t} (s ^ {t}) Q _ {t} (s ^ {t + 1}) = E _ {t} [ \beta \lambda_ {i t + 1} (s ^ {t + 1}) I (s ^ {t + 1}) ]
+\frac{\partial \mathcal {L}_{t}}{\partial A_{i t} (s^{t + 1})}: \lambda_{i t} (s^{t}) Q_{t} (s^{t + 1}) = E_{t} [ \beta \lambda_{i t + 1} (s^{t + 1}) I (s^{t + 1}) ]
 $$ where  $I(s^{t + 1})$  is an indicator for whether state  $s^{t + 1}$  occurs
 The latter of these can be rewritten:
 $$
-\lambda_ {i t} (\boldsymbol {s} ^ {t}) Q _ {t} (\boldsymbol {s} ^ {t + 1}) = \beta p _ {t} (\boldsymbol {s} ^ {t + 1}) \lambda_ {i t + 1} (\boldsymbol {s} ^ {t + 1})
+\lambda_{i t} (\boldsymbol {s}^{t}) Q_{t} (\boldsymbol {s}^{t + 1}) = \beta p_{t} (\boldsymbol {s}^{t + 1}) \lambda_{i t + 1} (\boldsymbol {s}^{t + 1})
 $$ where  $p_t(s^{t+1})$  is the time  $t$  probability of state  $s^{t+1}$  occurring
 See Sims Lecture Notes for more general "cookbook"
 Combining equations from last slide to eliminate  $\lambda_{it}$  we get:
 $$
-Q _ {t} \left(\boldsymbol {s} ^ {t + 1}\right) U _ {i} ^ {\prime} \left(C _ {i t} \left(\boldsymbol {s} ^ {t}\right)\right) = \beta p _ {t} \left(\boldsymbol {s} ^ {t + 1}\right) U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(\boldsymbol {s} ^ {t + 1}\right)\right)
+Q_{t} \left(\boldsymbol {s}^{t + 1}\right) U_{i}^{\prime} \left(C_{i t} \left(\boldsymbol {s}^{t}\right)\right) = \beta p_{t} \left(\boldsymbol {s}^{t + 1}\right) U_{i}^{\prime} \left(C_{i t + 1} \left(\boldsymbol {s}^{t + 1}\right)\right)
 $$
 This is a version of the consumption Euler equation
 - Trades off consumption today and consumption in one particular state tomorrow
@@ -3852,7 +3852,7 @@ Cost today:  $Q_{t}(s^{t + 1})U_{i}^{\prime}(C_{it}(s^{t}))$
 Expected benefit tomorrow:  $\beta p_t(s^{t + 1})U_i'(C_{it + 1}(s^{t + 1}))$
 - Since Euler equation holds for each state  $s^{t+1}$ , it also holds on average
 $$
-\begin{array}{l} \sum_ {s ^ {t + 1} \mid s _ {t}} \left[ Q _ {t} \left(s ^ {t + 1}\right) U _ {i} ^ {\prime} \left(C _ {i t} \left(s ^ {t}\right)\right) \right] = \sum_ {s ^ {t + 1} \mid s _ {t}} \left[ \beta p _ {t} \left(s ^ {t + 1}\right) U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {t + 1}\right)\right) \right. \\ = > \quad U _ {i} ^ {\prime} \left(C _ {i t} \left(s ^ {t}\right)\right) \sum_ {s ^ {t + 1} \mid s _ {t}} Q _ {t} \left(s ^ {t + 1}\right) = \beta E _ {t} \left[ U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {t + 1}\right)\right) \right. \\ = > U _ {t} ^ {\prime} \left(C _ {i t} \left(s ^ {t}\right)\right) \left(1 + R _ {i t} \left(s ^ {t}\right)\right) ^ {- 1} = \beta E _ {t} \left[ U _ {t} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {t + 1}\right)\right) \right] \\ = > U _ {i} ^ {\prime} \left(C _ {i t} \left(s ^ {t}\right)\right) = \beta (1 + R _ {f t}) E _ {t} \left[ U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {t + 1}\right)\right) \right] \\ \end{array}
+\begin{array}{l} \sum_{s^{t + 1} \mid s_{t}} \left[ Q_{t} \left(s^{t + 1}\right) U_{i}^{\prime} \left(C_{i t} \left(s^{t}\right)\right) \right] = \sum_{s^{t + 1} \mid s_{t}} \left[ \beta p_{t} \left(s^{t + 1}\right) U_{i}^{\prime} \left(C_{i t + 1} \left(s^{t + 1}\right)\right) \right. \\ = > \quad U_{i}^{\prime} \left(C_{i t} \left(s^{t}\right)\right) \sum_{s^{t + 1} \mid s_{t}} Q_{t} \left(s^{t + 1}\right) = \beta E_{t} \left[ U_{i}^{\prime} \left(C_{i t + 1} \left(s^{t + 1}\right)\right) \right. \\ = > U_{t}^{\prime} \left(C_{i t} \left(s^{t}\right)\right) \left(1 + R_{i t} \left(s^{t}\right)\right)^{- 1} = \beta E_{t} \left[ U_{t}^{\prime} \left(C_{i t + 1} \left(s^{t + 1}\right)\right) \right] \\ = > U_{i}^{\prime} \left(C_{i t} \left(s^{t}\right)\right) = \beta (1 + R_{f t}) E_{t} \left[ U_{i}^{\prime} \left(C_{i t + 1} \left(s^{t + 1}\right)\right) \right] \\ \end{array}
 $$ where  $R_{ft}(s^t)$  is the riskless interest rate in state  $s^t$
 - Notice that buying one unit of each Arrow security is the same as buying a riskless bond
 # TRANSVERSALITY CONDITION
@@ -3862,7 +3862,7 @@ $$ where  $R_{ft}(s^t)$  is the riskless interest rate in state  $s^t$
 - What is the counterpart in infinite horizon case?
 Transversality condition:
 $$
-\lim _ {j \to \infty} \beta^ {j} E _ {t} [ U _ {i} ^ {\prime} (C _ {i t + j} (\boldsymbol {s} ^ {t + j})) A _ {i t + j} (\boldsymbol {s} ^ {t + j}) ] \leq 0
+\lim_{j \to \infty} \beta^{j} E_{t} [ U_{i}^{\prime} (C_{i t + j} (\boldsymbol {s}^{t + j})) A_{i t + j} (\boldsymbol {s}^{t + j}) ] \leq 0
 $$
 Intuitively:
 - Cannot be optimal to choose a plan that leaves resources with positive net present value today unspent in the infinite future
@@ -3879,18 +3879,18 @@ Transversality:
 Complete markets and common beliefs imply perfect risk sharing
 The consumption Euler equation
 $$
-Q _ {t} (\boldsymbol {s} ^ {t + 1}) U _ {i} ^ {\prime} (C _ {i t} (\boldsymbol {s} ^ {t})) = \beta p _ {t} (\boldsymbol {s} ^ {t + 1}) U _ {i} ^ {\prime} (C _ {i t + 1} (\boldsymbol {s} ^ {t + 1}))
+Q_{t} (\boldsymbol {s}^{t + 1}) U_{i}^{\prime} (C_{i t} (\boldsymbol {s}^{t})) = \beta p_{t} (\boldsymbol {s}^{t + 1}) U_{i}^{\prime} (C_{i t + 1} (\boldsymbol {s}^{t + 1}))
 $$ holds for all households
 This implies
 $$
-\frac {Q _ {t} (s ^ {t + 1})}{\beta p _ {t} (s ^ {t + 1})} = \frac {U _ {i} ^ {\prime} (C _ {i t + 1} (s ^ {t + 1}))}{U _ {i} ^ {\prime} (C _ {i t} (s ^ {t}))} = \frac {U _ {k} ^ {\prime} (C _ {k t + 1} (s ^ {t + 1}))}{U _ {k} ^ {\prime} (C _ {k t} (s ^ {t}))}
+\frac{Q_{t} (s^{t + 1})}{\beta p_{t} (s^{t + 1})} = \frac{U_{i}^{\prime} (C_{i t + 1} (s^{t + 1}))}{U_{i}^{\prime} (C_{i t} (s^{t}))} = \frac{U_{k}^{\prime} (C_{k t + 1} (s^{t + 1}))}{U_{k}^{\prime} (C_{k t} (s^{t}))}
 $$
 - Taking the ratio of this equation for states  $s^{t + 1}$  and  $s^{*t + 1}$  yields
 $$
-\frac {U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {t + 1}\right)\right)}{U _ {i} ^ {\prime} \left(C _ {i t + 1} \left(s ^ {* t + 1}\right)\right)} = \frac {U _ {k} ^ {\prime} \left(C _ {k t + 1} \left(s ^ {t + 1}\right)\right)}{U _ {k} ^ {\prime} \left(C _ {k t + 1} \left(s ^ {* t + 1}\right)\right)}
+\frac{U_{i}^{\prime} \left(C_{i t + 1} \left(s^{t + 1}\right)\right)}{U_{i}^{\prime} \left(C_{i t + 1} \left(s^{* t + 1}\right)\right)} = \frac{U_{k}^{\prime} \left(C_{k t + 1} \left(s^{t + 1}\right)\right)}{U_{k}^{\prime} \left(C_{k t + 1} \left(s^{* t + 1}\right)\right)}
 $$
 $$
-\frac {U _ {i} ^ {\prime} (C _ {i t + 1} (s ^ {t + 1}))}{U _ {j} ^ {\prime} (C _ {i t + 1} (s ^ {* t + 1}))} = \frac {U _ {k} ^ {\prime} (C _ {k t + 1} (s ^ {t + 1}))}{U _ {k} ^ {\prime} (C _ {k t + 1} (s ^ {* t + 1}))}
+\frac{U_{i}^{\prime} (C_{i t + 1} (s^{t + 1}))}{U_{j}^{\prime} (C_{i t + 1} (s^{* t + 1}))} = \frac{U_{k}^{\prime} (C_{k t + 1} (s^{t + 1}))}{U_{k}^{\prime} (C_{k t + 1} (s^{* t + 1}))}
 $$
 - Ratio of marginal utility of all households perfectly correlated
 This is called perfect risk sharing
@@ -3899,23 +3899,23 @@ See Campbell (2018, ch. 4.1.6)
 - Perfect risk sharing condition implies all households have the same ordering of marginal utility and consumption across states
 - We can number the states  $s^{t+1}$  such that
 $$
-C _ {i t + 1} (1) \leq C _ {i t + 1} (2) \leq \dots \leq C _ {i t + 1} (S)
+C_{i t + 1} (1) \leq C_{i t + 1} (2) \leq \dots \leq C_{i t + 1} (S)
 $$
 - Define  $\bar{C}_{t+1}(s^{t+1}) = \sum_{i} C_{it+1}(s^{t+1})$  and we get
 $$
-\bar {C} _ {t + 1} (1) \leq \bar {C} _ {t + 1} (2) \leq \dots \leq \bar {C} _ {t + 1} (S)
+\bar {C}_{t + 1} (1) \leq \bar {C}_{t + 1} (2) \leq \dots \leq \bar {C}_{t + 1} (S)
 $$
 We also have
 $$
-\frac {Q _ {t} (1)}{\beta p _ {t} (1)} \geq \frac {Q _ {t} (2)}{\beta p _ {t} (2)} \geq \dots \geq \frac {Q _ {t} (S)}{\beta p _ {t} (S)}
+\frac{Q_{t} (1)}{\beta p_{t} (1)} \geq \frac{Q_{t} (2)}{\beta p_{t} (2)} \geq \dots \geq \frac{Q_{t} (S)}{\beta p_{t} (S)}
 $$ i.e., assets that provide insurance are expensive
 - We can now define a function  $g(\bar{C}_{t+1}(s^{t+1}))$  such that
 $$
-\frac {g (\bar {C} _ {t} (s ^ {t + 1}))}{g (\bar {C} _ {t} (s ^ {* t + 1}))} = \frac {Q _ {t} (s ^ {t + 1}) / \beta p _ {t} (s ^ {s + 1})}{Q _ {t} (s ^ {* t + 1}) / \beta p _ {t} (s ^ {* t + 1})}
+\frac{g (\bar {C}_{t} (s^{t + 1}))}{g (\bar {C}_{t} (s^{* t + 1}))} = \frac{Q_{t} (s^{t + 1}) / \beta p_{t} (s^{s + 1})}{Q_{t} (s^{* t + 1}) / \beta p_{t} (s^{* t + 1})}
 $$ for all states  $s^{t+1}$  and  $s^{*t+1}$
 - $g(\bar{C}_{t+1}(s^{t+1}))$  can be interpreted as the marginal utility of a "composite household" or "representative household"
 - We can then integrate to get a function  $v(\bar{C}(s^{t+1})$  such that
-$$ v ^ {\prime} (\bar {C} (s ^ {t + 1})) = g (\bar {C} _ {t + 1} (s ^ {t + 1}))
+$$ v^{\prime} (\bar {C} (s^{t + 1})) = g (\bar {C}_{t + 1} (s^{t + 1}))
 $$ which is the utility function of the representative household
 - Complete market and common beliefs are one way to justify the common representative household assumption
 - Important limitations:
@@ -3929,12 +3929,12 @@ See Campbell (2018, ch. 4.1.7), Constantinides (1982), Guvenen (2011)
 Old Keynesian economics:
 - Backward-looking system
 $$
-\boldsymbol {c} _ {t} = \alpha \boldsymbol {c} _ {t - 1} + \beta \boldsymbol {y} _ {t}
+\boldsymbol {c}_{t} = \alpha \boldsymbol {c}_{t - 1} + \beta \boldsymbol {y}_{t}
 $$
 Old Keynesian economics:
 - Backward-looking system
 $$
-\boldsymbol {c} _ {t} = \alpha \boldsymbol {c} _ {t - 1} + \beta \boldsymbol {y} _ {t}
+\boldsymbol {c}_{t} = \alpha \boldsymbol {c}_{t - 1} + \beta \boldsymbol {y}_{t}
 $$
 - The most important idea in macroeconomics in the 20th century:
 People are forward looking
@@ -3942,26 +3942,26 @@ Milton Friedman, Robert Lucas, etc.
 Old Keynesian economics:
 - Backward-looking system
 $$
-\boldsymbol {c} _ {t} = \alpha \boldsymbol {c} _ {t - 1} + \beta \boldsymbol {y} _ {t}
-$$
-- The most important idea in macroeconomics in the 20th century:
-People are forward looking
-Milton Friedman, Robert Lucas, etc.
-Pendulum swung really far:
-$$
-\boldsymbol {c} _ {t} = E _ {t} \boldsymbol {c} _ {t + 1} - \sigma \left(i _ {t} - E _ {t} \pi_ {t + 1}\right)
-$$
-Old Keynesian economics:
-- Backward-looking system
-$$
-\boldsymbol {c} _ {t} = \alpha \boldsymbol {c} _ {t - 1} + \beta \boldsymbol {y} _ {t}
+\boldsymbol {c}_{t} = \alpha \boldsymbol {c}_{t - 1} + \beta \boldsymbol {y}_{t}
 $$
 - The most important idea in macroeconomics in the 20th century:
 People are forward looking
 Milton Friedman, Robert Lucas, etc.
 Pendulum swung really far:
 $$
-\boldsymbol {c} _ {t} = E _ {t} \boldsymbol {c} _ {t + 1} - \sigma \left(i _ {t} - E _ {t} \pi_ {t + 1}\right)
+\boldsymbol {c}_{t} = E_{t} \boldsymbol {c}_{t + 1} - \sigma \left(i_{t} - E_{t} \pi_{t + 1}\right)
+$$
+Old Keynesian economics:
+- Backward-looking system
+$$
+\boldsymbol {c}_{t} = \alpha \boldsymbol {c}_{t - 1} + \beta \boldsymbol {y}_{t}
+$$
+- The most important idea in macroeconomics in the 20th century:
+People are forward looking
+Milton Friedman, Robert Lucas, etc.
+Pendulum swung really far:
+$$
+\boldsymbol {c}_{t} = E_{t} \boldsymbol {c}_{t + 1} - \sigma \left(i_{t} - E_{t} \pi_{t + 1}\right)
 $$
 - Maybe the world is somewhere in between
 - Biggest difference: People are forward looking!
@@ -3994,10 +3994,10 @@ E.g., problems that lend themselves to linearization
 - Why? Value function is an extra object. Distinction between state variables and control variables extra headache
 # Dynamic Programming
 $$
-V \left(X _ {t}\right) = \max  _ {C _ {t}, A _ {t}} E _ {t} \sum_ {t = j} ^ {\infty} \beta^ {t} U _ {i} \left(C _ {i, t + j} \left(s ^ {t + j}\right)\right)
+V \left(X_{t}\right) = \max_{C_{t}, A_{t}} E_{t} \sum_{t = j}^{\infty} \beta^{t} U_{i} \left(C_{i, t + j} \left(s^{t + j}\right)\right)
 $$ subject to
 $$
-C _ {i t} (s ^ {t}) + \sum_ {s ^ {t + 1} | s ^ {t}} Q _ {t} (s ^ {t + 1}) A _ {i t} (s ^ {t + 1}) = Y _ {i t} (s ^ {t}) + A _ {i, t - 1} (s ^ {t}),
+C_{i t} (s^{t}) + \sum_{s^{t + 1} | s^{t}} Q_{t} (s^{t + 1}) A_{i t} (s^{t + 1}) = Y_{i t} (s^{t}) + A_{i, t - 1} (s^{t}),
 $$ a No Ponzi scheme constraint, and given  $A_{i,t - 1}$
 $X_{t}$  is a vector of "state variables"
 - Figuring out what variables are in  $X_{t}$  is a crucial element of using Dynamic Programming
@@ -4033,10 +4033,10 @@ Etc.
 State vector can potentially be quite large and complicated!!
 Consider the following yoeman farmer / planner problem:
 $$
-\max  _ {\left\{C _ {s}, K _ {s + 1} \right\} _ {s = 0} ^ {\infty}} \sum_ {t = 0} ^ {\infty} \beta^ {t} U (C _ {t})
+\max_{\left\{C_{s}, K_{s + 1} \right\}_{s = 0}^{\infty}} \sum_{t = 0}^{\infty} \beta^{t} U (C_{t})
 $$ subject to
 $$
-C _ {t} + K _ {t + 1} \leq f (K _ {t}),
+C_{t} + K_{t + 1} \leq f (K_{t}),
 $$
 $C_t \geq 0$ ,  $K_{t+1} \geq 0$ , and  $K_0$  given.
 - No markets. Yoeman farmer doesn't interact with the outside world.
@@ -4045,48 +4045,48 @@ $f(K_{t}) = F(K_{t},N) + (1 - \delta)K_{t}$
 - If  $U^{\prime}(C_t) > 0$  for all  $C_t$ , no resources will be waisted and resource constraint will hold with equality
 - In this case we can plug resource constraint into objective function and get
 $$
-\max  _ {\{0 \leq K _ {t + 1} \leq f (K _ {t}) \} _ {t = 0} ^ {\infty}} \sum_ {t = 0} ^ {\infty} \beta^ {t} U (f (K _ {t}) - K _ {t + 1})
+\max_{\{0 \leq K_{t + 1} \leq f (K_{t}) \}_{t = 0}^{\infty}} \sum_{t = 0}^{\infty} \beta^{t} U (f (K_{t}) - K_{t + 1})
 $$ with  $K_0$  given
 What is the state at time 0?
 - If  $U'(C_t) > 0$  for all  $C_t$ , no resources will be waisted and resource constraint will hold with equality
 - In this case we can plug resource constraint into objective function and get
 $$
-\max  _ {\left\{0 \leq K _ {t + 1} \leq f (K _ {t}) \right\} _ {t = 0} ^ {\infty}} \sum_ {t = 0} ^ {\infty} \beta^ {t} U \left(f \left(K _ {t}\right) - K _ {t + 1}\right)
+\max_{\left\{0 \leq K_{t + 1} \leq f (K_{t}) \right\}_{t = 0}^{\infty}} \sum_{t = 0}^{\infty} \beta^{t} U \left(f \left(K_{t}\right) - K_{t + 1}\right)
 $$ with  $K_0$  given
 What is the state at time 0?
 - Only  $K_{0}$
 No exogenous income source, no prices
 $$
-V \left(K _ {0}\right) = \max  _ {\left\{0 \leq K _ {t + 1} \leq f \left(K _ {t}\right) \right\} _ {t = 0} ^ {\infty}} \sum_ {t = 0} ^ {\infty} \beta^ {t} U \left(f \left(K _ {t}\right) - K _ {t + 1}\right)
+V \left(K_{0}\right) = \max_{\left\{0 \leq K_{t + 1} \leq f \left(K_{t}\right) \right\}_{t = 0}^{\infty}} \sum_{t = 0}^{\infty} \beta^{t} U \left(f \left(K_{t}\right) - K_{t + 1}\right)
 $$
 - Let's now make use of the fact that
 $$
-\max  _ {x, y} f (x, y) = \max  _ {y} \left\{\max  _ {x} f (x, y) \right\}
+\max_{x, y} f (x, y) = \max_{y} \left\{\max_{x} f (x, y) \right\}
 $$
 I.e., we can maximize in steps:
 - First max over  $x$  given  $y$  (yields a function of  $y$ )
 - Then max resulting function of  $y$  over  $y$
 - In our context we divide the problem into  $K_{1}$  and  $K_{t}$  for  $t > 1$
 $$
-V (K _ {0}) = \max  _ {\{0 \leq K _ {1} \leq f (K _ {0}) \}} \left\{U (f (K _ {0}) - K _ {1}) + \max  _ {\{0 \leq K _ {t + 1} \leq f (K _ {t}) \} _ {t = 1} ^ {\infty}} \sum_ {t = 1} ^ {\infty} \beta^ {t} U (f (K _ {t}) - K _ {t + 1}) \right\}
+V (K_{0}) = \max_{\{0 \leq K_{1} \leq f (K_{0}) \}} \left\{U (f (K_{0}) - K_{1}) + \max_{\{0 \leq K_{t + 1} \leq f (K_{t}) \}_{t = 1}^{\infty}} \sum_{t = 1}^{\infty} \beta^{t} U (f (K_{t}) - K_{t + 1}) \right\}
 $$ which simplifies to
 $$
-V \left(K _ {0}\right) = \max  _ {\left\{0 \leq K _ {1} \leq f \left(K _ {0}\right) \right\}} \left\{U \left(f \left(K _ {0}\right) - K _ {1}\right) + \beta V \left(K _ {1}\right) \right\}
+V \left(K_{0}\right) = \max_{\left\{0 \leq K_{1} \leq f \left(K_{0}\right) \right\}} \left\{U \left(f \left(K_{0}\right) - K_{1}\right) + \beta V \left(K_{1}\right) \right\}
 $$ and holds for all times  $t$ . So, we can write:
 $$
-V (K) = \max  _ {\{0 \leq K ^ {\prime} \leq f (K) \}} \left\{U (f (K) - K ^ {\prime}) + \beta V (K ^ {\prime}) \right\}
+V (K) = \max_{\{0 \leq K^{\prime} \leq f (K) \}} \left\{U (f (K) - K^{\prime}) + \beta V (K^{\prime}) \right\}
 $$
 - This equation is called the Bellman equation
 - It is a functional equation: the unknown is a function  $V(K)$
 The object of primary interest is actually not  $V(K)$
 It is the decision rule (policy function):
 $$
-K ^ {\prime} = g (K)
+K^{\prime} = g (K)
 $$ where
 $$ g(K) = \arg \max_{\{0\leq K^{\prime}\leq f(K)\}}\left\{U(f(K) - K^{\prime}) + \beta V(K^{\prime})\right\}
 $$
 $$
-V (K) = \max  _ {K ^ {\prime} \in \Gamma (K)} \{F (K, K ^ {\prime}) + \beta V (K ^ {\prime}) \}
+V (K) = \max_{K^{\prime} \in \Gamma (K)} \{F (K, K^{\prime}) + \beta V (K^{\prime}) \}
 $$
 # Suppose:
 - $F$  is continuously differentiable in its two arguments, strictly increasing in  $K$ , and decreasing in  $K'$ , strictly concave, and bounded.
@@ -4111,7 +4111,7 @@ $$
 \max_{\{C_{s},K_{s + 1}\}_{s = 0}^{T}}\sum_{t = 0}^{T}\beta^{t}U(C_{t})
 $$ subject to
 $$
-C _ {t} + K _ {t + 1} \leq f (K _ {t}),
+C_{t} + K_{t + 1} \leq f (K_{t}),
 $$
 $C_t \geq 0$ ,  $K_{t+1} \geq 0$ , and  $K_0$  given.
 Non-stationary problem
@@ -4121,12 +4121,12 @@ Non-stationary problem
 Clearly  $K_{T + 1} = 0$  is optimal and  $V_{T + 1}(K_{T + 1}) = 0$
 This implies that
 $$
-\begin{array}{l} V _ {T} \left(K _ {T}\right) = \max  _ {\left\{0 \leq K _ {T + 1} \leq f \left(K _ {T}\right) \right\}} \left\{U \left(f \left(K _ {T}\right) - K _ {T + 1}\right) + \beta V _ {T + 1} \left(K _ {T + 1}\right) \right\} \\ = U (f \left(K _ {T}\right)) \\ \end{array}
+\begin{array}{l} V_{T} \left(K_{T}\right) = \max_{\left\{0 \leq K_{T + 1} \leq f \left(K_{T}\right) \right\}} \left\{U \left(f \left(K_{T}\right) - K_{T + 1}\right) + \beta V_{T + 1} \left(K_{T + 1}\right) \right\} \\ = U (f \left(K_{T}\right)) \\ \end{array}
 $$
 - Then move back one period to  $T - 1$
 The Bellman function for this period is:
 $$
-V _ {T - 1} \left(K _ {T - 1}\right) = \max  _ {\left\{0 \leq K _ {T} \leq f \left(K _ {T - 1}\right) \right\}} \left\{U \left(f \left(K _ {T - 1}\right) - K _ {T}\right) + \beta V _ {T} \left(K _ {T}\right) \right\}
+V_{T - 1} \left(K_{T - 1}\right) = \max_{\left\{0 \leq K_{T} \leq f \left(K_{T - 1}\right) \right\}} \left\{U \left(f \left(K_{T - 1}\right) - K_{T}\right) + \beta V_{T} \left(K_{T}\right) \right\}
 $$
 - Since  $V_{T}(K_{T})$  is known from prior step, this can be easily solved for  $V_{T - 1}(K_{T - 1})$
 - This process can be iterated backward all the way to  $t = 0$
@@ -4135,11 +4135,11 @@ $$
 - Start with an initial guess for the policy function  $K' = g_0(K)$
 - Calculate the value function for this policy function
 $$
-V _ {0} (K) = \sum_ {t = 0} ^ {\infty} \beta^ {t} U (f (K) - g _ {0} (K))
+V_{0} (K) = \sum_{t = 0}^{\infty} \beta^{t} U (f (K) - g_{0} (K))
 $$
 (In practice a finite sum with a large  $T$ )
 - Generate a new policy function
-$$ g _ {1} (K) = \arg \max  _ {K ^ {\prime}} \left\{U \left(f (K) - K ^ {\prime}\right) + \beta V _ {0} \left(K ^ {\prime}\right) \right\}
+$$ g_{1} (K) = \arg \max_{K^{\prime}} \left\{U \left(f (K) - K^{\prime}\right) + \beta V_{0} \left(K^{\prime}\right) \right\}
 $$
 - Iterate on this algorithm until the policy function converges
 Four methods:
@@ -4151,7 +4151,7 @@ Four methods:
 - In practice, Dynamic Programming most useful for problems that require numerical solution methods
 - We can derive an Euler equation from the Bellman function
 $$
-V (K) = \max  _ {K ^ {\prime} \in \Gamma (K)} \left\{F \left(K, K ^ {\prime}\right) + \beta V \left(K ^ {\prime}\right) \right\}
+V (K) = \max_{K^{\prime} \in \Gamma (K)} \left\{F \left(K, K^{\prime}\right) + \beta V \left(K^{\prime}\right) \right\}
 $$
 - Using the policy function  $K' = g(K)$  we can rewrite the Bellman equation:
 $$
@@ -4159,53 +4159,53 @@ V (K) = F (K, g (K)) + \beta V (g (K))
 $$
 - Also, this policy function satisfies the first order condition
 $$
-F _ {2} (K, K ^ {\prime}) + \beta V ^ {\prime} (K ^ {\prime}) = 0
+F_{2} (K, K^{\prime}) + \beta V^{\prime} (K^{\prime}) = 0
 $$
 - Evaluating this equation at  $K' = g(K)$  we get
 $$
-F _ {2} (K, g (K)) + \beta V ^ {\prime} (g (K)) = 0
+F_{2} (K, g (K)) + \beta V^{\prime} (g (K)) = 0
 $$
 - If we differentiate
 $$
 V (K) = F (K, g (K)) + \beta V (g (K))
 $$ with respect to  $K$  we get
 $$
-V ^ {\prime} (K) = F _ {1} (K, g (K)) + g ^ {\prime} (K) \left\{F _ {2} (K, g (K)) + \beta V ^ {\prime} (g (K)) \right\}
+V^{\prime} (K) = F_{1} (K, g (K)) + g^{\prime} (K) \left\{F_{2} (K, g (K)) + \beta V^{\prime} (g (K)) \right\}
 $$
 Second term on RHS is zero (see last slide) and we get:
 $$
-V ^ {\prime} (K) = F _ {1} (K, g (K))
+V^{\prime} (K) = F_{1} (K, g (K))
 $$
 - The fact that the second term drops out is an application of the envelope theorem
 Combining:
 $$
-F _ {2} (K, g (K)) + \beta V ^ {\prime} (g (K)) = 0
+F_{2} (K, g (K)) + \beta V^{\prime} (g (K)) = 0
 $$
 $$
-V ^ {\prime} (g (K)) = F _ {1} (g (K), g (g (K)))
+V^{\prime} (g (K)) = F_{1} (g (K), g (g (K)))
 $$ yields
 $$
-F _ {2} (K, g (k)) = - \beta F _ {1} (g (K), g (g (K)))
+F_{2} (K, g (k)) = - \beta F_{1} (g (K), g (g (K)))
 $$
 - This is the Euler equation stated as a functional equation
 In yoeman farmer model:
 $$
-F (K, K ^ {\prime}) = U (F (K) - K ^ {\prime}) = U (C (K))
+F (K, K^{\prime}) = U (F (K) - K^{\prime}) = U (C (K))
 $$
 $$
-F _ {1} (K, K ^ {\prime}) = U ^ {\prime} (C (K)) F ^ {\prime} (K)
+F_{1} (K, K^{\prime}) = U^{\prime} (C (K)) F^{\prime} (K)
 $$
 $$
-F _ {2} (K, K ^ {\prime}) = - U ^ {\prime} (C (K))
+F_{2} (K, K^{\prime}) = - U^{\prime} (C (K))
 $$
 - This means that the Euler equation in the yoeman farmer model is
 $$
-U ^ {\prime} (C (K)) = \beta F ^ {\prime} \left(K ^ {\prime}\right) U ^ {\prime} \left(C \left(K ^ {\prime}\right)\right)
+U^{\prime} (C (K)) = \beta F^{\prime} \left(K^{\prime}\right) U^{\prime} \left(C \left(K^{\prime}\right)\right)
 $$
 - $F^{\prime}(K)$  plays the role of the return on investment
 - $C(K) = F(K) - g(K)$  is the yoeman farmer's consumption function
 $$
-U ^ {\prime} (C (K)) = \beta F ^ {\prime} \left(K ^ {\prime}\right) U ^ {\prime} \left(C \left(K ^ {\prime}\right)\right)
+U^{\prime} (C (K)) = \beta F^{\prime} \left(K^{\prime}\right) U^{\prime} \left(C \left(K^{\prime}\right)\right)
 $$
 - Iterating on the functional Euler equation for  $C(K)$  is an alternative to value function iteration, policy function iteration, and Blanchard-Kahn methods
 Advantages:
@@ -4246,11 +4246,11 @@ Fall 2023
 
 - Consumption Euler equation with uncertainty:
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta (1 + r) E _ {t} \left[ U ^ {\prime} \left(C _ {t + 1}\right) \right]
+U^{\prime} \left(C_{t}\right) = \beta (1 + r) E_{t} \left[ U^{\prime} \left(C_{t + 1}\right) \right]
 $$ with  $\beta (1 + r) = 1$
 $$
 
-U ^ {\prime} \left(C _ {t}\right) = E _ {t} \left[ U ^ {\prime} \left(C _ {t + 1}\right) \right]
+U^{\prime} \left(C_{t}\right) = E_{t} \left[ U^{\prime} \left(C_{t + 1}\right) \right]
 
 $$
 - Marginal utility is a martingale:
@@ -4258,14 +4258,14 @@ $$
 - Suppose marginal utility is linear (i.e., quadratic utility):
 $$
 
-C _ {t} = E _ {t} C _ {t + 1}
+C_{t} = E_{t} C_{t + 1}
 
 $$
 - Consumption a martingale!!
 - Suppose marginal utility is linear (i.e., quadratic utility):
 $$
 
-C _ {t} = E _ {t} C _ {t + 1}
+C_{t} = E_{t} C_{t + 1}
 
 $$
 Consumption a martingale!!
@@ -4275,12 +4275,12 @@ Seems "obvious" today
 (Are we too conditioned by our models?)
 $$
 
-E _ {t} C _ {t + 1} = C _ {t}
+E_{t} C_{t + 1} = C_{t}
 
 $$
 $$
 
-C _ {t + 1} = C _ {t} + \epsilon_ {t + 1}
+C_{t + 1} = C_{t} + \epsilon_{t + 1}
 
 $$ where  $\epsilon_{t + 1} = C_{t + 1} - E_tC_{t + 1}$
 
@@ -4289,12 +4289,12 @@ $$ where  $\epsilon_{t + 1} = C_{t + 1} - E_tC_{t + 1}$
 - It is proportional to the innovation to the consumer's present value of life-time income ("permanent income" for short)
 - Infinite horizon case:
 $$
-C _ {t} = \frac {r}{1 + r} \left(A _ {t} + \sum_ {j = 0} ^ {\infty} (1 + r) ^ {- j} E _ {t} Y _ {t + j}\right)
+C_{t} = \frac{r}{1 + r} \left(A_{t} + \sum_{j = 0}^{\infty} (1 + r)^{- j} E_{t} Y_{t + j}\right)
 $$
 $$
-\Delta C _ {t + 1} = \epsilon_ {t + 1} = \frac {r}{1 + r} \sum_ {j = 0} ^ {\infty} (1 + r) ^ {- j} \Delta E _ {t + 1} Y _ {t + 1 + j}
+\Delta C_{t + 1} = \epsilon_{t + 1} = \frac{r}{1 + r} \sum_{j = 0}^{\infty} (1 + r)^{- j} \Delta E_{t + 1} Y_{t + 1 + j}
 $$
-$$ w h e r e \Delta E _ {t + 1} Y _ {t + 1 + j} = E _ {t + 1} Y _ {t + 1 + j} - E _ {t} Y _ {t + 1 + j}
+$$ w h e r e \Delta E_{t + 1} Y_{t + 1 + j} = E_{t + 1} Y_{t + 1 + j} - E_{t} Y_{t + 1 + j}
 $$
 
 $\bullet$  Response to anticipated changes in income: Zero
@@ -4308,7 +4308,7 @@ $\bullet$  Response to permanent unanticipated change in income: Large
 - Random walk hypothesis implies that consumption growth should be unpredictable. I.e., unforecastable using lagged variables
 Suggests following regression test:
 $$
-\Delta C _ {t + 1} = \alpha + \mathbf {X} _ {t} \beta + \epsilon_ {t + 1}
+\Delta C_{t + 1} = \alpha + \mathbf {X}_{t} \beta + \epsilon_{t + 1}
 $$ where  $\mathbf{X}_t$  is a set of regressors known at time  $t$  and the test is  $\beta = 0$
 - Hall (1978) performed tests along these lines:
 - Failed to reject for lagged values of income and consumption
@@ -4324,7 +4324,7 @@ Rejections in early tests hard to interpret
 $\bullet$  Implies
 $$
 
-\Delta C _ {t} = \lambda \Delta Y _ {t} + (1 - \lambda) \epsilon_ {t}
+\Delta C_{t} = \lambda \Delta Y_{t} + (1 - \lambda) \epsilon_{t}
 
 $$ i.e., consumption growth is a weighted average of income growth and growth in permanent income
 - Important complication:
@@ -4332,7 +4332,7 @@ $\Delta Y_{t}$  and  $\epsilon_t$  are likely correlated. Why?
 $\bullet$  Implies
 $$
 
-\Delta C _ {t} = \lambda \Delta Y _ {t} + (1 - \lambda) \epsilon_ {t}
+\Delta C_{t} = \lambda \Delta Y_{t} + (1 - \lambda) \epsilon_{t}
 
 $$ i.e., consumption growth is a weighted average of income growth and growth in permanent income
 - Important complication:
@@ -4341,14 +4341,14 @@ $\Delta Y_{t}$  and  $\epsilon_t$  are likely correlated. Why?
 - Changes in current income likely correlated with innovations to permanent income
 $$
 
-\Delta C _ {t} = \lambda \Delta Y _ {t} + (1 - \lambda) \epsilon_ {t}
+\Delta C_{t} = \lambda \Delta Y_{t} + (1 - \lambda) \epsilon_{t}
 
 $$
 - Can we think of instruments that will work in this case?
 (Hint: Error term is an expectation error)
 $$
 
-\Delta C _ {t} = \lambda \Delta Y _ {t} + (1 - \lambda) \epsilon_ {t}
+\Delta C_{t} = \lambda \Delta Y_{t} + (1 - \lambda) \epsilon_{t}
 
 $$
 - Can we think of instruments that will work in this case?
@@ -4435,14 +4435,14 @@ New households added each month
 How much did they receive?
 $$
 
-C _ {i, t + 1} - C _ {i, t} = \sum_ {s} \beta_ {0 s} \times \text {m o n t h} _ {s, j} + \beta_ {1} ^ {\prime} X _ {i, t} + \beta_ {2} E S P _ {i, t + 1} + u _ {i, t + 1}
+C_{i, t + 1} - C_{i, t} = \sum_{s} \beta_{0 s} \times \text{mo nt h}_{s, j} + \beta_{1}^{\prime} X_{i, t} + \beta_{2} E S P_{i, t + 1} + u_{i, t + 1}
 
 $$
 Dependent variable: 3-month change in consumption
 - Independent variable of interest:  $ESP_{i,t+1}$
 $$
 
-C _ {i, t + 1} - C _ {i, t} = \sum_ {s} \beta_ {0 s} \times m o n t h _ {s, j} + \beta_ {1} ^ {\prime} X _ {i, t} + \beta_ {2} E S P _ {i, t + 1} + u _ {i, t + 1}
+C_{i, t + 1} - C_{i, t} = \sum_{s} \beta_{0 s} \times m o n t h_{s, j} + \beta_{1}^{\prime} X_{i, t} + \beta_{2} E S P_{i, t + 1} + u_{i, t + 1}
 
 $$
 Dependent variable: 3-month change in consumption
@@ -4454,7 +4454,7 @@ Soaks up all aggregate effects
 Comparison of those that get ESP at time  $t + 1$  and those that don't
 $$
 
-C _ {i, t + 1} - C _ {i, t} = \sum_ {s} \beta_ {0 s} \times m o n t h _ {s, j} + \beta_ {1} ^ {\prime} X _ {i, t} + \beta_ {2} E S P _ {i, t + 1} + u _ {i, t + 1}
+C_{i, t + 1} - C_{i, t} = \sum_{s} \beta_{0 s} \times m o n t h_{s, j} + \beta_{1}^{\prime} X_{i, t} + \beta_{2} E S P_{i, t + 1} + u_{i, t + 1}
 
 $$
 Dependent variable: 3-month change in consumption
@@ -4587,7 +4587,7 @@ In the presence of heterogeneous treatment effects, two-way fixed effects can ha
 Households have low consumption in period before they report a rebate
 $$
 
-C _ {i, t + 1} - C _ {i, t} = \sum_ {s} \beta_ {0 s} \times m o n t h _ {s, i} + \beta_ {1} ^ {\prime} X _ {i, t} + \beta_ {2} E S P _ {i, t + 1} + u _ {i, t + 1}
+C_{i, t + 1} - C_{i, t} = \sum_{s} \beta_{0 s} \times m o n t h_{s, i} + \beta_{1}^{\prime} X_{i, t} + \beta_{2} E S P_{i, t + 1} + u_{i, t + 1}
 
 $$
 - Suppose true causal effect is dynamics: Consumption rises, then falls
@@ -4670,7 +4670,7 @@ Notes: All nominal values were converted to 1982-1984 dollars. Alaska dividend f
 Source: Hsieh (2003)
 $$
 
-\log \left(\frac {C _ {t h} ^ {I V}}{C _ {t h} ^ {I I I}}\right) = \alpha_ {1} \frac {P F D _ {t} \times f a m i l y s i z e _ {h}}{F a m i l y i n c o m e _ {h}} + z _ {t h} ^ {\prime} \alpha_ {2} + \epsilon_ {t h}
+\log \left(\frac{C_{t h}^{I V}}{C_{t h}^{I I I}}\right) = \alpha_{1} \frac{P F D_{t} \times f a m i l y s i z e_{h}}{F a m i l y i n c o m e_{h}} + z_{t h}^{\prime} \alpha_{2} + \epsilon_{t h}
 
 $$
 -  $C_{th}^{IV}$  is non-durable consumption of household  $h$  in quarter  $IV$
@@ -4744,7 +4744,7 @@ Figure 2 - Alaska Permanent Fund Dividend per person, 1982-2014 (nominal amount)
 Source: Kueng (2015)
 $$
 
-\log c _ {i, t} - \log c _ {i, t - 1} = \alpha_ {1} \frac {P F D _ {t} \times f a m i l y s i z e _ {i}}{y _ {i}} + \alpha_ {2} ^ {\prime} z _ {i, t} + \epsilon_ {i, t}
+\log c_{i, t} - \log c_{i, t - 1} = \alpha_{1} \frac{P F D_{t} \times f a m i l y s i z e_{i}}{y_{i}} + \alpha_{2}^{\prime} z_{i, t} + \epsilon_{i, t}
 
 $$
 $y_{i}$  is either total expenditures or pre-tax total income
@@ -4793,7 +4793,7 @@ Estimate age profile of consumption and income using U.S. data from the Consumer
 Household-level regression:
 $$
 
-\log \tilde {C} _ {i} = f _ {i} \pi_ {1} + a _ {i} \pi_ {2} + b _ {i} \pi_ {3} + \mathcal {U} _ {i} \pi_ {4} + \operatorname {R e t} _ {i} \pi_ {5} + \epsilon_ {i}
+\log \tilde {C}_{i} = f_{i} \pi_{1} + a_{i} \pi_{2} + b_{i} \pi_{3} + \mathcal {U}_{i} \pi_{4} + \operatorname{Re t}_{i} \pi_{5} + \epsilon_{i}
 
 $$
 -  $f_{i}$ : family size dummies;
@@ -4810,7 +4810,7 @@ Source: Gourinchas-Parker (2002). Takes out cohort effects. Family size held con
 - Gourinchas and Parker allow for age effects and cohort effects but not time effects
 $$
 
-\log \tilde {C} _ {i} = f _ {i} \pi_ {1} + a _ {i} \pi_ {2} + b _ {i} \pi_ {3} + \mathcal {U} _ {i} \pi_ {4} + \mathrm {R e t} _ {i} \pi_ {5} + \epsilon_ {i}
+\log \tilde {C}_{i} = f_{i} \pi_{1} + a_{i} \pi_{2} + b_{i} \pi_{3} + \mathcal {U}_{i} \pi_{4} + \mathrm{Re t}_{i} \pi_{5} + \epsilon_{i}
 
 $$
 - All three types of effects may be important:
@@ -4822,7 +4822,7 @@ Time: Business cycles may affect consumption
 Gourinchas and Parker use unemployment to proxy for time effect:
 $$
 
-\log \tilde {C} _ {i} = f _ {i} \pi_ {1} + a _ {i} \pi_ {2} + b _ {i} \pi_ {3} + \mathcal {U} _ {i} \pi_ {4} + \mathsf {R e t} _ {i} \pi_ {5} + \epsilon_ {i}
+\log \tilde {C}_{i} = f_{i} \pi_{1} + a_{i} \pi_{2} + b_{i} \pi_{3} + \mathcal {U}_{i} \pi_{4} + \mathsf {R e t}_{i} \pi_{5} + \epsilon_{i}
 
 $$
 Schulhofer-Wohl (2018) shows that it is the slope of the consumption profile that is unidentified
@@ -4891,13 +4891,13 @@ Suppose for simplicity  $\beta (1 + r) = 1$
 - Consumption Euler equation:
 $$
 
-U ^ {\prime} \left(C _ {t}\right) = E _ {t} U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = E_{t} U^{\prime} \left(C_{t + 1}\right)
 
 $$
 - With quadratic utility:
 $$
 
-C _ {t} = E _ {t} C _ {t + 1}
+C_{t} = E_{t} C_{t + 1}
 
 $$
 This implies certainty equivalence:
@@ -4906,13 +4906,13 @@ Suppose for simplicity  $\beta (1 + r) = 1$
 - Consumption Euler equation:
 $$
 
-U ^ {\prime} \left(C _ {t}\right) = E _ {t} U ^ {\prime} \left(C _ {t + 1}\right)
+U^{\prime} \left(C_{t}\right) = E_{t} U^{\prime} \left(C_{t + 1}\right)
 
 $$
 - With quadratic utility:
 $$
 
-C _ {t} = E _ {t} C _ {t + 1}
+C_{t} = E_{t} C_{t + 1}
 
 $$
 This implies certainty equivalence:
@@ -4929,14 +4929,14 @@ Amount of curvature of utility independent of level
 - Constant Relative Risk Aversion (CRRA):
 $$
 
-U (C) = \left\{ \begin{array}{l l} \frac {C ^ {1 - \gamma} - 1}{1 - \gamma} & \text {i f} \gamma \neq 1 \\ \log C & \text {i f} \gamma = 1 \end{array} \right.
+U (C) = \left\{ \begin{array}{l l} \frac{C^{1 - \gamma} - 1}{1 - \gamma} & \text{if } \gamma \neq 1 \\ \log C & \text{if } \gamma = 1 \end{array} \right.
 
 $$
 Relative Risk Aversion  $= -\frac{U''(C)C}{U'(C)} = \gamma$
 - Constant Absolute Risk Aversion (CARA):
 $$
 
-U (C) = - \frac {\exp (A C)}{A}
+U (C) = - \frac{\exp (A C)}{A}
 
 $$
 Absolute Risk Aversion  $= -\frac{U''(C)}{U'(C)} = A$
@@ -4952,14 +4952,14 @@ See Gollier (2001, ch 2.) for more detailed discussion of various forms of risk 
 - Curvature of utility almost surely falls as consumption rises:
 $$
 
-U ^ {\prime \prime \prime} \left(C _ {t}\right) > 0
+U^{\prime \prime \prime} \left(C_{t}\right) > 0
 
 $$
 What does this imply about savings?
 - Curvature of utility almost surely falls as consumption rises:
 $$
 
-U ^ {\prime \prime \prime} \left(C _ {t}\right) > 0
+U^{\prime \prime \prime} \left(C_{t}\right) > 0
 
 $$
 What does this imply about savings?
@@ -5007,22 +5007,22 @@ If  $\beta (1 + r) < 1$
 Households maximize
 $$
 
-\mathbb {E} _ {0} \sum_ {t = 0} ^ {\infty} \beta^ {t} \frac {C _ {t} ^ {1 - \gamma}}{1 - \gamma},
+\mathbb {E}_{0} \sum_{t = 0}^{\infty} \beta^{t} \frac{C_{t}^{1 - \gamma}}{1 - \gamma},
 
 $$ subject to
 $$
 
-W _ {t + 1} = R \left(W _ {t} + Y _ {t} - C _ {t}\right)
+W_{t + 1} = R \left(W_{t} + Y_{t} - C_{t}\right)
 
 $$
 $$
 
-Y _ {t} = P _ {t} V _ {t}
+Y_{t} = P_{t} V_{t}
 
 $$
 $$
 
-P _ {t} = P _ {t - 1} N _ {t}
+P_{t} = P_{t - 1} N_{t}
 
 $$ where  $V_{t}$  and  $N_{t}$  are i.i.d. log-normal random variables.
 
@@ -5106,7 +5106,7 @@ Panel B: Various  $\beta$
 Source: Gourinchas-Parker (2002)
 - Level of cash on hand at age  $t$  that is expected to remain unchanged:
 $$
-\bar {x} _ {t} = E _ {t} \left[ x _ {t + 1} \mid x _ {t} = \bar {x} _ {t} \right]
+\bar {x}_{t} = E_{t} \left[ x_{t + 1} \mid x_{t} = \bar {x}_{t} \right]
 $$
 - If  $x_{t} > \bar{x}_{t}$  households dissave on average
 - If  $x_{t} < \bar{x}_{t}$  households build up assets on average
@@ -5287,7 +5287,7 @@ Why is the stock market so volatile?
 - What does this tell us about the risk and risk aversion?
 - Consumption-based asset pricing starts from the Consumption Euler equation:
 $$
-U ^ {\prime} \left(C _ {t}\right) = E _ {t} \left[ \beta U ^ {\prime} \left(C _ {t + 1}\right) R _ {i, t + 1} \right]
+U^{\prime} \left(C_{t}\right) = E_{t} \left[ \beta U^{\prime} \left(C_{t + 1}\right) R_{i, t + 1} \right]
 $$
 Where does this equation come from?
 - Consume 1 less today
@@ -5298,46 +5298,46 @@ Where does this equation come from?
 - Asset Pricing: Conditional on path for  $C_t$ , determine  $R_{it+1}$
 - Return is defined as payoff divided by price:
 $$
-R _ {i, t + 1} = \frac {X _ {i , t + 1}}{P _ {i , t}}
+R_{i, t + 1} = \frac{X_{i , t + 1}}{P_{i , t}}
 $$
 # where
 - $X_{i,t+1}$  is (state contingent) payoff from asset  $i$  in period  $t+1$ .
 - $P_{i,t}$  is price of asset  $i$  at time  $t$
 $$
-U ^ {\prime} \left(C _ {t}\right) = \beta E _ {t} \left[ U ^ {\prime} \left(C _ {t + 1}\right) R _ {i, t + 1} \right]
+U^{\prime} \left(C_{t}\right) = \beta E_{t} \left[ U^{\prime} \left(C_{t + 1}\right) R_{i, t + 1} \right]
 $$
 A little manipulation yields:
 $$
-1 = E _ {t} \left[ \frac {\beta U ^ {\prime} \left(C _ {t + 1}\right)}{U ^ {\prime} \left(C _ {t}\right)} R _ {i, t + 1} \right]
+1 = E_{t} \left[ \frac{\beta U^{\prime} \left(C_{t + 1}\right)}{U^{\prime} \left(C_{t}\right)} R_{i, t + 1} \right]
 $$ and using  $R_{i,t + 1} = X_{i,t + 1} / P_{i,t}$
 $$
-P _ {i, t} = E _ {t} \left[ \beta \frac {U ^ {\prime} \left(C _ {t + 1}\right)}{U ^ {\prime} \left(C _ {t}\right)} X _ {i, t + 1} \right]
+P_{i, t} = E_{t} \left[ \beta \frac{U^{\prime} \left(C_{t + 1}\right)}{U^{\prime} \left(C_{t}\right)} X_{i, t + 1} \right]
 $$
 - Fundamental equation of consumption-based asset pricing
 $$
-1 = E _ {t} \left[ \frac {\beta U ^ {\prime} (C _ {t + 1})}{U ^ {\prime} (C _ {t})} R _ {i, t + 1} \right] P _ {i, t} = E _ {t} \left[ \beta \frac {U ^ {\prime} (C _ {t + 1})}{U ^ {\prime} (C _ {t})} X _ {i, t + 1} \right]
+1 = E_{t} \left[ \frac{\beta U^{\prime} (C_{t + 1})}{U^{\prime} (C_{t})} R_{i, t + 1} \right] P_{i, t} = E_{t} \left[ \beta \frac{U^{\prime} (C_{t + 1})}{U^{\prime} (C_{t})} X_{i, t + 1} \right]
 $$
 Stochastic discount factor:
 $$
-M _ {t + 1} = \beta \frac {U ^ {\prime} (C _ {t + 1})}{U ^ {\prime} (C _ {t})}
+M_{t + 1} = \beta \frac{U^{\prime} (C_{t + 1})}{U^{\prime} (C_{t})}
 $$
 Yields:
 $$
-1 = E _ {t} \left[ M _ {t + 1} R _ {i, t + 1} \right] \quad P _ {i, t} = E _ {t} \left[ M _ {t + 1} X _ {i, t + 1} \right]
+1 = E_{t} \left[ M_{t + 1} R_{i, t + 1} \right] \quad P_{i, t} = E_{t} \left[ M_{t + 1} X_{i, t + 1} \right]
 $$
 $$
-P _ {i, t} = E _ {t} \left[ M _ {t + 1} X _ {i, t + 1} \right]
+P_{i, t} = E_{t} \left[ M_{t + 1} X_{i, t + 1} \right]
 $$
 - Stochastic discount factor generalizes standard notion of discount factor
 - With no uncertainty, standard present value formula gives
 $$
-P _ {i, t} = \frac {1}{R _ {f , t}} X _ {i, t + 1}
+P_{i, t} = \frac{1}{R_{f , t}} X_{i, t + 1}
 $$
 - Since gross interest rates are usually above one, the payoff sells "at a discount"
 In this case,  $1 / R_{f,t}$  is the discount factor
 - $M_{t + 1}$  is the appropriate discount factor when there is risk
 $$
-1 = E _ {t} \left[ M _ {t + 1} R _ {i, t + 1} \right] \quad P _ {i, t} = E _ {t} \left[ M _ {t + 1} X _ {i, t + 1} \right]
+1 = E_{t} \left[ M_{t + 1} R_{i, t + 1} \right] \quad P_{i, t} = E_{t} \left[ M_{t + 1} X_{i, t + 1} \right]
 $$
 - Stochastic discount factor prices all assets!!
 - All risk compensation for any asset can be incorporated by defining a single (random) variable  $M_{t+1}$  to discount payoffs with
@@ -5345,7 +5345,7 @@ $$
 (Sometimes also called: pricing kernel, marginal rate of substitution, change of measure, or state-price density)
 - Assets can have payoffs in multiple periods:
 $$
-P _ {i, t} = E _ {t} \left[ M _ {t + 1} \left(D _ {i, t + 1} + P _ {i, t + 1}\right) \right]
+P_{i, t} = E_{t} \left[ M_{t + 1} \left(D_{i, t + 1} + P_{i, t + 1}\right) \right]
 $$ where  $D_{i,t + 1}$  is the dividend, and  $P_{i,t + 1}$  is (ex dividend) price
 - Works for stocks, bonds, options, everything.
 - Suppose  $P_{s,t,t+1}$  is the price at time  $t$  of the Arrow security that pays \$1 if state  $s$  occurs at time  $t + 1$  and zero otherwise
@@ -5357,10 +5357,10 @@ Etc.
 - If not, then there would exist an arbitrage opportunity (i.e., opportunity for risk-less gain)
 The price of any security can by written two ways:
 $$
-P _ {i, t} = \sum_ {s} P _ {s, t, t + 1} X _ {s, t + 1}, \quad P _ {i, t} = E _ {t} \left[ M _ {t + 1} X _ {t + 1} \right]
+P_{i, t} = \sum_{s} P_{s, t, t + 1} X_{s, t + 1}, \quad P_{i, t} = E_{t} \left[ M_{t + 1} X_{t + 1} \right]
 $$ which implies
 $$
-M _ {s, t + 1} = \frac {P _ {s , t , t + 1}}{\pi_ {s , t + 1}}
+M_{s, t + 1} = \frac{P_{s , t , t + 1}}{\pi_{s , t + 1}}
 $$ where  $\pi_{s,t + 1}$  is the probability of state  $s$  in period  $t + 1$ .
 - This is why you sometimes see  $E_{t}[M_{t + 1}X_{t + 1}]$  type terms in budget constraints
 Suppose:
@@ -5373,7 +5373,7 @@ Capital structure of a firm doesn't matter for its value!
 Why does Modigliani-Miller theorem hold?
 - Value of an asset is the sum of its parts:
 $$
-P _ {i, t} = \sum_ {s} P _ {s, t, t + 1} X _ {s, t + 1}
+P_{i, t} = \sum_{s} P_{s, t, t + 1} X_{s, t + 1}
 $$
 Why? Arbitrage!
 - Consequence: Doesn't matter how the asset is sliced up! (as long as the total payoff is not changed)
@@ -5385,28 +5385,28 @@ S state of the world in the future
 - $P_{t}$  is an  $S \times 1$  vector of state prices
 Value of Firm A before hedging risk:
 $$
-P _ {t} ^ {A} = P _ {t} \cdot X _ {t + 1} ^ {A}
+P_{t}^{A} = P_{t} \cdot X_{t + 1}^{A}
 $$ where  $X_{t + 1}^{A}$  denotes the payoffs of firm A over future states
 Consider some other cashflow  $X_{t + 1}^{B}$
 Price of that cashflow:
 $$
-P _ {t} ^ {B} = P _ {t} \cdot X _ {t + 1} ^ {B}
+P_{t}^{B} = P_{t} \cdot X_{t + 1}^{B}
 $$
 Suppose the firm were to purchase this cashflow
 - At that point the firm's value would be the value of the combined cashflow minus the price of the cashflow:
 $$
-P _ {t} \cdot \left[ X _ {t + 1} ^ {A} + X _ {t + 1} ^ {B} \right] - P _ {t} ^ {B} = P _ {t} \cdot X _ {t + 1} ^ {A} + P _ {t} \cdot X _ {t + 1} ^ {B} - P _ {t} ^ {B} = P _ {t} ^ {A} + P _ {t} ^ {B} - P _ {t} ^ {B} = P _ {t} ^ {A}
+P_{t} \cdot \left[ X_{t + 1}^{A} + X_{t + 1}^{B} \right] - P_{t}^{B} = P_{t} \cdot X_{t + 1}^{A} + P_{t} \cdot X_{t + 1}^{B} - P_{t}^{B} = P_{t}^{A} + P_{t}^{B} - P_{t}^{B} = P_{t}^{A}
 $$
 True of any cashflow!! (Hedge, Bond, Dividend, etc.)
 - Flows from the linearity of the pricing: By arbitrage, assets are worth the sum of their parts
 - Now suppose that
 $$
-U (C _ {t}) = \frac {C _ {t} ^ {1 - \gamma} - 1}{1 - \gamma}
+U (C_{t}) = \frac{C_{t}^{1 - \gamma} - 1}{1 - \gamma}
 $$
 - This utility function is sometimes called CRRA utility for "constant relative risk aversion"
 - Relative risk aversion:
 $$
-- \frac {U ^ {\prime \prime} (C) C}{U ^ {\prime} (C)} = \gamma
+- \frac{U^{\prime \prime} (C) C}{U^{\prime} (C)} = \gamma
 $$
 - Why do we think that this utility function is reasonable?
 - Consider agent with CRRA utility and wealth  $W$  facing portfolio choice between risky and risk-free asset. Fraction allocated to risky asset is independent of wealth.
@@ -5444,110 +5444,110 @@ Table 2.1 Relative risk premium  $\hat{\pi}$  associated to the risk of gaining 
 <table><tr><td>RRA</td><td>α = 10\%</td><td>α = 30\%</td></tr><tr><td>γ = 0.5</td><td>0.3</td><td>2.3</td></tr><tr><td>γ = 1</td><td>0.5</td><td>4.6</td></tr><tr><td>γ = 4</td><td>2.0</td><td>16.0</td></tr><tr><td>γ = 10</td><td>4.4</td><td>24.4</td></tr><tr><td>γ = 40</td><td>8.4</td><td>28.7</td></tr></table>
 Source: Gollier (2001)
 $$
-U (C _ {t}) = \frac {C _ {t} ^ {1 - \gamma} - 1}{1 - \gamma}
+U (C_{t}) = \frac{C_{t}^{1 - \gamma} - 1}{1 - \gamma}
 $$
 - With time separable power utility,  $\gamma$  is also the inverse of the intertemporal elasticity of substitution
 $$
-\frac {d \log \left(C _ {t + 1} / C _ {t}\right)}{d \log \left(P _ {t + 1} / P _ {t}\right)} = \frac {d \log \left(C _ {t + 1} / C _ {t}\right)}{d \log R _ {f t}} = \frac {1}{\gamma}
+\frac{d \log \left(C_{t + 1} / C_{t}\right)}{d \log \left(P_{t + 1} / P_{t}\right)} = \frac{d \log \left(C_{t + 1} / C_{t}\right)}{d \log R_{f t}} = \frac{1}{\gamma}
 $$
 - Only one parameter. So, it plays many roles.
 (Also governs strength of wealth effect on labor supply)
 $$
-U (C _ {t}) = \frac {C _ {t} ^ {1 - \gamma} - 1}{1 - \gamma}
+U (C_{t}) = \frac{C_{t}^{1 - \gamma} - 1}{1 - \gamma}
 $$
 $\bullet$  Implies:
 $$
-U ^ {\prime} \left(C _ {t}\right) = C _ {t} ^ {- \gamma}
+U^{\prime} \left(C_{t}\right) = C_{t}^{- \gamma}
 $$
 $$
-M _ {t + 1} = \frac {\beta U ^ {\prime} (C _ {t + 1})}{U ^ {\prime} (C _ {t})} = \beta \left(\frac {C _ {t + 1}}{C _ {t}}\right) ^ {- \gamma}
+M_{t + 1} = \frac{\beta U^{\prime} (C_{t + 1})}{U^{\prime} (C_{t})} = \beta \left(\frac{C_{t + 1}}{C_{t}}\right)^{- \gamma}
 $$
 For risk-free bonds we have:
 $$
-1 = E _ {t} \left[ M _ {t + 1} R _ {f, t} \right] = > 1 = E _ {t} \left[ M _ {t + 1} \right] R _ {f, t} = > R _ {f, t} = \frac {1}{E _ {t} M _ {t + 1}}
+1 = E_{t} \left[ M_{t + 1} R_{f, t} \right] = > 1 = E_{t} \left[ M_{t + 1} \right] R_{f, t} = > R_{f, t} = \frac{1}{E_{t} M_{t + 1}}
 $$
 - Since risk free return is risk free, it is determined at time  $t$
 - With power utility
 $$
-R _ {f, t} = 1 / E _ {t} \left[ \beta \left(\frac {C _ {t + 1}}{C _ {t}}\right) ^ {- \gamma} \right]
+R_{f, t} = 1 / E_{t} \left[ \beta \left(\frac{C_{t + 1}}{C_{t}}\right)^{- \gamma} \right]
 $$
 - If  $X_{t+1}$  is log-normal, then
 $$
-\log E _ {t} X _ {t + 1} = E _ {t} \log X _ {t + 1} + \frac {1}{2} \operatorname {V a r} _ {t} \log X _ {t + 1}
+\log E_{t} X_{t + 1} = E_{t} \log X_{t + 1} + \frac{1}{2} \operatorname{Va r}_{t} \log X_{t + 1}
 $$
 - If we assume consumption growth is log-normal, we get:
-$$ r _ {f, t} = \delta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] - \frac {\gamma^ {2}}{2} \sigma_ {t} ^ {2} (\Delta \log C _ {t + 1})
+$$ r_{f, t} = \delta + \gamma E_{t} [ \Delta \log C_{t + 1} ] - \frac{\gamma^{2}}{2} \sigma_{t}^{2} (\Delta \log C_{t + 1})
 $$ where  $\beta = e^{-\delta}$ ,  $r_{f,t} = \log R_{f,t}$
 - Risk-free rate is determined by
 Discount rate  $\delta$
 Expected consumption growth
 - Precautionary savings  $\left(\frac{\gamma^2}{2}\sigma_t^2\left(\Delta \log C_{t + 1}\right)\right)$
 $$
-P _ {i, t} = E _ {t} \left[ M _ {t + 1} X _ {i, t + 1} \right]
+P_{i, t} = E_{t} \left[ M_{t + 1} X_{i, t + 1} \right]
 $$
 The definition of covariance implies
 $$
-\operatorname {c o v} _ {t} \left(M _ {t + 1}, X _ {i, t + 1}\right) = E _ {t} \left[ M _ {t + 1} X _ {i, t + 1} \right] - E \left[ M _ {i, t + 1} \right] E \left[ X _ {i, t + 1} \right]
+\operatorname{co v}_{t} \left(M_{t + 1}, X_{i, t + 1}\right) = E_{t} \left[ M_{t + 1} X_{i, t + 1} \right] - E \left[ M_{i, t + 1} \right] E \left[ X_{i, t + 1} \right]
 $$
 Using this yields
 $$
-P _ {i, t} = E \left[ M _ {i, t + 1} \right] E \left[ X _ {i, t + 1} \right] + \operatorname {c o v} _ {t} \left(M _ {t + 1}, X _ {i, t + 1}\right)
+P_{i, t} = E \left[ M_{i, t + 1} \right] E \left[ X_{i, t + 1} \right] + \operatorname{co v}_{t} \left(M_{t + 1}, X_{i, t + 1}\right)
 $$
 Using  $R_{f,t} = 1 / E_t[M_{t + 1}]$  yields
 $$
-P _ {i, t} = \frac {E \left[ X _ {i , t + 1} \right]}{R _ {f , t}} + \operatorname {c o v} _ {t} \left(M _ {t + 1}, X _ {i, t + 1}\right)
+P_{i, t} = \frac{E \left[ X_{i , t + 1} \right]}{R_{f , t}} + \operatorname{co v}_{t} \left(M_{t + 1}, X_{i, t + 1}\right)
 $$
 $$
-P _ {i, t} = \frac {E [ X _ {i , t + 1} ]}{R _ {f , t}} + \operatorname {c o v} _ {t} (M _ {t + 1}, X _ {i, t + 1})
+P_{i, t} = \frac{E [ X_{i , t + 1} ]}{R_{f , t}} + \operatorname{co v}_{t} (M_{t + 1}, X_{i, t + 1})
 $$
 Second term is a risk adjustment
 - Price of asset is higher if payoff covaries positively with SDF
 In this case, asset is a hedge
 - With power utility:
 $$
-P _ {i, t} = \frac {E \left[ X _ {i , t + 1} \right]}{R _ {f , t}} + \beta \frac {\operatorname {c o v} _ {t} \left(U ^ {\prime} \left(C _ {t + 1}\right) , X _ {i , t + 1}\right)}{U ^ {\prime} \left(C _ {t}\right)}
+P_{i, t} = \frac{E \left[ X_{i , t + 1} \right]}{R_{f , t}} + \beta \frac{\operatorname{co v}_{t} \left(U^{\prime} \left(C_{t + 1}\right) , X_{i , t + 1}\right)}{U^{\prime} \left(C_{t}\right)}
 $$
 - Asset is a hedge if:
 Payoff covaries positively with marginal utility
 Payoff covaries negatively with consumption
 - Similar manipulations starting with  $1 = E_{t}[M_{t + 1}R_{i,t + 1}]$  yield:
 $$
-E _ {t} \left[ R _ {i, t + 1} \right] - R _ {f, t} = - R _ {f, t} \operatorname {c o v} _ {t} \left(M _ {t + 1}, R _ {i, t + 1}\right)
+E_{t} \left[ R_{i, t + 1} \right] - R_{f, t} = - R_{f, t} \operatorname{co v}_{t} \left(M_{t + 1}, R_{i, t + 1}\right)
 $$ and
 $$
-E _ {t} \left[ R _ {i, t + 1} \right] - R _ {f, t} = - \frac {\operatorname {c o v} _ {t} \left(U ^ {\prime} \left(C _ {t + 1}\right) , R _ {i , t + 1}\right)}{E _ {t} \left[ U ^ {\prime} \left(C _ {t + 1}\right) \right]}
+E_{t} \left[ R_{i, t + 1} \right] - R_{f, t} = - \frac{\operatorname{co v}_{t} \left(U^{\prime} \left(C_{t + 1}\right) , R_{i , t + 1}\right)}{E_{t} \left[ U^{\prime} \left(C_{t + 1}\right) \right]}
 $$
 The return premium of asset  $i$  is higher if:
 The return on asset  $i$  is negatively correlated with the  $M_{t + 1}$
 The return on asset  $i$  is negatively correlated with the  $U^{\prime}(C_{t + 1})$
 The return on asset  $i$  is positively correlated with the  $C_{t + 1}$
 $$
-1 = E _ {t} \left[ \beta \left(\frac {C _ {t + 1}}{C _ {t}}\right) ^ {- \gamma} R _ {i, t + 1} \right]
+1 = E_{t} \left[ \beta \left(\frac{C_{t + 1}}{C_{t}}\right)^{- \gamma} R_{i, t + 1} \right]
 $$
 - Taking logs and assuming log-normality:
 $$
-\begin{array}{l} E _ {t} r _ {i, t + 1} = \delta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] \\ - \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) - \frac {\gamma^ {2}}{2} \sigma_ {t} ^ {2} (\Delta \log C _ {t + 1}) + \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1}) \\ \end{array}
+\begin{array}{l} E_{t} r_{i, t + 1} = \delta + \gamma E_{t} [ \Delta \log C_{t + 1} ] \\ - \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) - \frac{\gamma^{2}}{2} \sigma_{t}^{2} (\Delta \log C_{t + 1}) + \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1}) \\ \end{array}
 $$
 Combining this with expression for risk-free rate yields
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1})
 $$
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1})
 $$
 - Equity premium is risk aversion times covariance between consumption growth and return on equity
 - But what is with this  $\frac{1}{2}\sigma_t^2 (\log R_{i,t + 1})$  term?
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1})
 $$
 - Comes from difference between geometric and arithmetic returns:
 $$
-\log E _ {t} R _ {i, t + 1} - \log R _ {f, t} = E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1})
+\log E_{t} R_{i, t + 1} - \log R_{f, t} = E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1})
 $$
 - Geometric mean:  $E_{t}r_{i,t + 1}$
 - (Log of) Arithmetic mean: log  $E_{t}R_{i,t + 1}$
 $$
-\log E _ {t} R _ {i, t + 1} = E _ {t} r _ {i, t + 1} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1})
+\log E_{t} R_{i, t + 1} = E_{t} r_{i, t + 1} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1})
 $$
 Standard deviation annual real return on stocks is roughly  $18\%$
 $$
@@ -5555,10 +5555,10 @@ $$
 $$
 - Two ways to write equity premium equation:
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1})
 $$
 $$
-\log E _ {t} R _ {i, t + 1} - \log R _ {f, t} = \gamma \operatorname {c o v} \left(\log R _ {i, t + 1}, \Delta \log C _ {t + 1}\right)
+\log E_{t} R_{i, t + 1} - \log R_{f, t} = \gamma \operatorname{co v} \left(\log R_{i, t + 1}, \Delta \log C_{t + 1}\right)
 $$
 - Also recall that log of expected gross return is approximately equal to the expected net return:
 $$
@@ -5567,26 +5567,26 @@ $$ for small  $x$
 Complete markets
 - Representative agent with CRRA preferences:
 $$
-C _ {t} ^ {- \gamma} = E _ {t} [ \beta C _ {t + 1} ^ {- \gamma} R _ {i, t + 1} ]
+C_{t}^{- \gamma} = E_{t} [ \beta C_{t + 1}^{- \gamma} R_{i, t + 1} ]
 $$
 - Endowment economy ("Lucas tree"):
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + \epsilon_ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + \epsilon_{t + 1}
 $$
 $$
-\epsilon_ {t + 1} \sim \mathsf {N} (0, \sigma^ {2})
+\epsilon_{t + 1} \sim \mathsf {N} (0, \sigma^{2})
 $$
 (Original consumption process is a little different from this.)
 Equity modeled as a claim to the consumption process :
 $$
-R _ {i, t + 1} = R _ {C, t + 1}
+R_{i, t + 1} = R_{C, t + 1}
 $$
 In this case, equity premium and risk-free rate:
 $$
-\log E _ {t} R _ {C, t + 1} - \log R _ {f, t} = \gamma \operatorname {v a r} _ {t} (\Delta \log C _ {t + 1})
+\log E_{t} R_{C, t + 1} - \log R_{f, t} = \gamma \operatorname{va r}_{t} (\Delta \log C_{t + 1})
 $$
 $$
-\log R _ {t, t} = - \log \beta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] - \frac {\gamma^ {2}}{2} \operatorname {v a r} _ {t} (\Delta \log C _ {t + 1})
+\log R_{t, t} = - \log \beta + \gamma E_{t} [ \Delta \log C_{t + 1} ] - \frac{\gamma^{2}}{2} \operatorname{va r}_{t} (\Delta \log C_{t + 1})
 $$
 - Does this model fit the data?
 We need data on:
@@ -5606,7 +5606,7 @@ Endowment economy
 Equity is a consumption claim
 - Equity premium equation can be evaluated independent of these assumptions:
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = \gamma \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log C _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = \gamma \operatorname{co v} (\log R_{i, t + 1}, \Delta \log C_{t + 1})
 $$
 Table 5 The equity premium puzzlea
 <table><tr><td>Country</td><td>Sample period</td><td> \bar{a}{e}_{r} </td><td> \sigma \left( {e}_{r}\right) </td><td> \sigma \left( m\right) </td><td> \sigma \left( {\Delta c}\right) </td><td> \rho \left( {{e}_{r},\Delta c}\right) </td><td> \operatorname{Cov}\left( {{e}_{r},\Delta c}\right) </td><td>RRA(1)</td><td>RRA(2)</td></tr><tr><td>USA</td><td>1947.2-1996.3</td><td>7.852</td><td>15.218</td><td>51.597</td><td>1.084</td><td>0.193</td><td>3.185</td><td>246.556</td><td>47.600</td></tr><tr><td>AUL</td><td>1970.1-1996.2</td><td>3.531</td><td>23.194</td><td>15.221</td><td>2.142</td><td>0.156</td><td>7.725</td><td>45.704</td><td>7.107</td></tr><tr><td>CAN</td><td>1970.1-1996.2</td><td>3.040</td><td>16.673</td><td>18.233</td><td>2.034</td><td>0.159</td><td>5.387</td><td>56.434</td><td>8.965</td></tr><tr><td>FR</td><td>1973.2-1996.2</td><td>7.122</td><td>22.844</td><td>31.175</td><td>2.130</td><td>-0.047</td><td>-2.295</td><td>&lt; 0</td><td>14.634</td></tr><tr><td>GER</td><td>1978.4-1996.2</td><td>6.774</td><td>20.373</td><td>33.251</td><td>2.495</td><td>0.039</td><td>1.974</td><td>343.133</td><td>13.327</td></tr><tr><td>ITA</td><td>1971.2-1995.2</td><td>2.166</td><td>27.346</td><td>7.920</td><td>1.684</td><td>0.002</td><td>0.088</td><td>2465.323</td><td>4.703</td></tr><tr><td>JPN</td><td>1970.2-1996.2</td><td>6.831</td><td>21.603</td><td>31.621</td><td>2.353</td><td>0.100</td><td>5.093</td><td>134.118</td><td>13.440</td></tr><tr><td>NTH</td><td>1977.2-1996.1</td><td>9.943</td><td>15.632</td><td>63.607</td><td>2.654</td><td>0.023</td><td>0.946</td><td>1050.925</td><td>23.970</td></tr><tr><td>SWD</td><td>1970.1-1994.4</td><td>9.343</td><td>23.541</td><td>39.688</td><td>1.917</td><td>0.003</td><td>0.129</td><td>7215.176</td><td>20.705</td></tr><tr><td>SWT</td><td>1982.2-1996.2</td><td>12.393</td><td>20.466</td><td>60.553</td><td>2.261</td><td>-0.129</td><td>-5.978</td><td>&lt; 0</td><td>26.785</td></tr><tr><td>UK</td><td>1970.1-1996.2</td><td>8.306</td><td>21.589</td><td>38.473</td><td>2.589</td><td>0.095</td><td>5.314</td><td>156.308</td><td>14.858</td></tr><tr><td>USA</td><td>1970.1-1996.3</td><td>5.817</td><td>16.995</td><td>34.228</td><td>0.919</td><td>0.248</td><td>3.875</td><td>150.136</td><td>37.255</td></tr><tr><td colspan="10"></td></tr><tr><td>SWD</td><td>1920-1993</td><td>6.000</td><td>18.906</td><td>31.737</td><td>2.862</td><td>0.169</td><td>9.141</td><td>65.642</td><td>11.091</td></tr><tr><td>UK</td><td>1919-1993</td><td>8.677</td><td>21.706</td><td>39.974</td><td>2.820</td><td>0.355</td><td>21.738</td><td>39.914</td><td>14.174</td></tr><tr><td>USA</td><td>1891-1994</td><td>6.258</td><td>18.534</td><td>33.767</td><td>3.257</td><td>0.497</td><td>30.001</td><td>20.861</td><td>10.366</td></tr></table> a  $\overline{a e r_{e}}$  is the average excess log return on stock over a money market instrument, plus one half the variance of this excess return:  $\overline{a e r_{e}} = \overline{r_{e} - r_{f}} +\sigma^{2}(r_{e} - r_{f}) / 2.$  It is multiplied by 400 in quarterly data and 100 in annual data to express in annualized percentage points.  $\sigma (e r_e)$  and  $\sigma (\Delta c)$  are the standard deviations of the excess log return  $e r_{e} = r_{e} - r_{f}$  and consumption growth  $\Delta c$  , respectively, multiplied by 200 in quarterly data and 100 in annual data to express in annualized percentage points.  $\sigma (m) = 100\overline{a e r_{e}} /\sigma (e r_{e})$  is calculated from equation (12) as a lower bound on the standard deviation of the log stochastic discount factor, expressed in annualized percentage points.  $\rho (e r_e,\Delta c)$  is the correlation of  $e r_{e}$  and  $\Delta c$  . Cov(e  $r_{e},\Delta c)$  is the product  $\sigma (e r_{e})\sigma (\Delta c)\rho (e,r,\Delta c)$  . RRA(1) is  $100\overline{a e r_{e}} /\mathrm{Cov}(e r_{e},\Delta c)$  , a measure of risk aversion calculated from equation (16) using the empirical covariance of excess stock returns with consumption growth. RRA(2) is  $100\overline{a e r_{e}} /\sigma (e r_{e})\sigma (\Delta c)$  , a measure of risk aversion calculated using the empirical standard deviations of excess stock returns and consumption growth, but assuming perfect correlation between these series.
@@ -5626,29 +5626,29 @@ Equity with  $8\%$  real return
 - Dutch (supposedly) bought Manhattan from natives for 24 in 1626
 - Suppose natives invested this in the stock market:
 $$
-\$ 24 \times 1.08 ^ {(2 0 2 3 - 1 6 2 6)} = \$ 4. 4 6 \times 1 0 ^ {1 4} = \$ 4 4 6 \text {T r i l l o n}
+\$ 24 \times 1.08^{(2 0 2 3 - 1 6 2 6)} = \$ 4. 4 6 \times 1 0^{1 4} = \$ 4 4 6 \text{Tr il lo n}
 $$
 - Mean equity premium:  $\approx 6.5\%$
 Standard deviation of equity premium:  $\approx 18\%$
 Standard error on equity premium:  $\sigma / \sqrt{T} = 2.1\%$  (post-WWII)
 $$
-\sigma / \sqrt{T} = 1.5 \% (\text {post - } 1870)
+\sigma / \sqrt{T} = 1.5 \% (\text{post - } 1870)
 $$
 Using post-WWII standard error:
 95\% confidence interval for equity premium: [2.3\%, 10.7\%]
 - Perhaps last 100 years have been unusually good
 - What is the price of a dividend stream that growth at rate  $g$  and is discounted at rate  $r$ ?
 $$
-\begin{array}{l} P _ {0} = \frac {D _ {1}}{1 + r} + \frac {D _ {1} (1 + g)}{(1 + r) ^ {2}} + \frac {D _ {1} (1 + g) ^ {2}}{(1 + r) ^ {3}} + \dots \\ = \frac {D _ {1}}{1 + r} \left[ 1 + \left(\frac {1 + g}{1 + r}\right) + \left(\frac {1 + g}{1 + r}\right) ^ {2} + \dots \right] \\ = \frac {D _ {1}}{1 + r} \left[ \frac {1}{1 - \frac {1 + g}{1 + r}} \right] \\ = \frac {D _ {1}}{1 + r} \frac {1 + r}{r - g} \\ \end{array}
+\begin{array}{l} P_{0} = \frac{D_{1}}{1 + r} + \frac{D_{1} (1 + g)}{(1 + r)^{2}} + \frac{D_{1} (1 + g)^{2}}{(1 + r)^{3}} + \dots \\ = \frac{D_{1}}{1 + r} \left[ 1 + \left(\frac{1 + g}{1 + r}\right) + \left(\frac{1 + g}{1 + r}\right)^{2} + \dots \right] \\ = \frac{D_{1}}{1 + r} \left[ \frac{1}{1 - \frac{1 + g}{1 + r}} \right] \\ = \frac{D_{1}}{1 + r} \frac{1 + r}{r - g} \\ \end{array}
 $$
 Rearranging yields
 $$
-\frac {P _ {0}}{D _ {1}} = \frac {1}{r - g}
+\frac{P_{0}}{D_{1}} = \frac{1}{r - g}
 $$
 - Relative to prior history, 20th century was good for growth and stocks
 Gordon growth formula:
 $$
-\frac {P}{D} = \frac {1}{r - g}
+\frac{P}{D} = \frac{1}{r - g}
 $$
 - Maybe expectations about future growth have risen (i.e.,  $\uparrow g$ )
 - Maybe equity premium has fallen (i.e.,  $\downarrow r$ )
@@ -5657,38 +5657,38 @@ Price Earnings Ratio
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/62f7cf15-ef01-4251-9f8e-90d77277177c/673171c1a5ebbf26e307d758c547b390458cfefd4a6f1c7ec442e5e9b5464733.jpg)
 Source: Robert Shiller's website. Last updated in 2021.
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {t} ^ {2} (\log R _ {i, t + 1}) = - \operatorname {c o v} (\log R _ {i, t + 1}, \Delta \log M _ {t + 1})
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{t}^{2} (\log R_{i, t + 1}) = - \operatorname{co v} (\log R_{i, t + 1}, \Delta \log M_{t + 1})
 $$
 - Let's adopt the notation:  $E_{t}r_{i,t + 1} - r_{f,t} + \frac{1}{2}\sigma_{i}^{2} = -\sigma_{im}$
 - Definition of correlation coefficient:
 $$
-\rho_ {i m} = \frac {\sigma_ {i m}}{\sigma_ {i} \sigma_ {m}}
+\rho_{i m} = \frac{\sigma_{i m}}{\sigma_{i} \sigma_{m}}
 $$
 $$
-- 1 \leq \rho_ {i m}
+- 1 \leq \rho_{i m}
 $$
 $$
-\sigma_ {m} \geq \frac {- \sigma_ {i m}}{\sigma_ {i}}
+\sigma_{m} \geq \frac{- \sigma_{i m}}{\sigma_{i}}
 $$
 $$
-\sigma_ {m} \geq \frac {E _ {t} r _ {i , t + 1} - r _ {f , t} + \frac {1}{2} \sigma_ {i} ^ {2}}{\sigma_ {i}}
+\sigma_{m} \geq \frac{E_{t} r_{i , t + 1} - r_{f , t} + \frac{1}{2} \sigma_{i}^{2}}{\sigma_{i}}
 $$
 - Ratio on right-hand-side called "Sharpe ratio"
 $$
-\sigma_ {m} \geq \frac {E _ {t} r _ {i , t + 1} - r _ {f , t} + \frac {1}{2} \sigma_ {i} ^ {2}}{\sigma_ {i}}
+\sigma_{m} \geq \frac{E_{t} r_{i , t + 1} - r_{f , t} + \frac{1}{2} \sigma_{i}^{2}}{\sigma_{i}}
 $$
 Sharp ratio for stocks: 0.4
 Sharp ratio for other assets: >1
 - Hansen-Jaganathan bound implies that volatility of stochastic discount factor is enormous
 Seems implausible
 $$
-\log R _ {t, t} = \delta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] - \frac {\gamma^ {2}}{2} \operatorname {v a r} _ {t} (\Delta \log C _ {t + 1})
+\log R_{t, t} = \delta + \gamma E_{t} [ \Delta \log C_{t + 1} ] - \frac{\gamma^{2}}{2} \operatorname{va r}_{t} (\Delta \log C_{t + 1})
 $$
 $\mathsf{var}_t(\Delta \log C_{t + 1}) <   <   E_t[\Delta \log C_{t + 1}]$
 High value of  $\gamma$  therefore implies high risk free rate
 What is the intuition for this?
 $$
-\log R _ {t, t} = \delta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] - \frac {\gamma^ {2}}{2} \operatorname {v a r} _ {t} (\Delta \log C _ {t + 1})
+\log R_{t, t} = \delta + \gamma E_{t} [ \Delta \log C_{t + 1} ] - \frac{\gamma^{2}}{2} \operatorname{va r}_{t} (\Delta \log C_{t + 1})
 $$
 $\mathsf{var}_t(\Delta \log C_{t + 1}) <   <   E_t[\Delta \log C_{t + 1}]$
 High value of  $\gamma$  therefore implies high risk free rate
@@ -5696,7 +5696,7 @@ What is the intuition for this?
 - Consumers must be compensated a lot to allow their consumption profile to be upward sloping
 - This is  $\gamma$  acting in its incarnation as 1/IES
 $$
-\log R _ {t, t} = \delta + \gamma E _ {t} [ \Delta \log C _ {t + 1} ] - \frac {\gamma^ {2}}{2} \operatorname {v a r} _ {t} (\Delta \log C _ {t + 1})
+\log R_{t, t} = \delta + \gamma E_{t} [ \Delta \log C_{t + 1} ] - \frac{\gamma^{2}}{2} \operatorname{va r}_{t} (\Delta \log C_{t + 1})
 $$
 $\mathsf{var}_t(\Delta \log C_{t + 1}) <   <   E_t[\Delta \log C_{t + 1}]$
 High value of  $\gamma$  therefore implies high risk free rate
@@ -5723,11 +5723,11 @@ Make IES and CRRA high
 - Epstein-Zin-Weil preferences deliver this
 - Epstein-Zin (1989, 1991) and Weil (1989) propose:
 $$
-U _ {t} = \left\{\left(1 - \delta\right) C _ {t} ^ {\frac {1 - \gamma}{\theta}} + \delta \left(E _ {t} U _ {t + 1} ^ {1 - \gamma}\right) ^ {\frac {1}{\theta}} \right\} ^ {\frac {\theta}{1 - \gamma}}
+U_{t} = \left\{\left(1 - \delta\right) C_{t}^{\frac{1 - \gamma}{\theta}} + \delta \left(E_{t} U_{t + 1}^{1 - \gamma}\right)^{\frac{1}{\theta}} \right\}^{\frac{\theta}{1 - \gamma}}
 $$
 Parameters:
 $$
-\theta = \frac {1 - \gamma}{1 - 1 / \psi}
+\theta = \frac{1 - \gamma}{1 - 1 / \psi}
 $$
 $\gamma$  : Coefficient of relative risk aversion
 $\psi$  : Intertemporal elasticity of substitution
@@ -5735,15 +5735,15 @@ $\psi$  : Intertemporal elasticity of substitution
 Large literature about "weird" properties
 - Consumption Euler equation with Epstein-Zin-Weil preferences:
 $$
-1 = E _ {t} \left[ \beta^ {\theta} \left(\frac {C _ {t + 1}}{C _ {t}}\right) ^ {- \theta / \psi} (1 + R _ {W, t + 1}) ^ {- (1 - \theta)} (1 + R _ {i, t + 1}) \right]
+1 = E_{t} \left[ \beta^{\theta} \left(\frac{C_{t + 1}}{C_{t}}\right)^{- \theta / \psi} (1 + R_{W, t + 1})^{- (1 - \theta)} (1 + R_{i, t + 1}) \right]
 $$
 $R_{W,t + 1}$  return on wealth
 - With power utility case, it is not clear whether  $\gamma$  appears in a particular equation because it is the CRRA or because it is 1/IES
 This is clarified in EZW case:
 $$
-E _ {t} r _ {i, t + 1} - r _ {f, t} + \frac {1}{2} \sigma_ {i} ^ {2} = \theta \frac {\sigma_ {i c}}{\psi} + (1 - \theta) \sigma_ {i w}
+E_{t} r_{i, t + 1} - r_{f, t} + \frac{1}{2} \sigma_{i}^{2} = \theta \frac{\sigma_{i c}}{\psi} + (1 - \theta) \sigma_{i w}
 $$
-$$ r _ {f, t} = - \log \beta + \frac {1}{\psi} E _ {t} \Delta \log C _ {t + 1} + \frac {1}{2} (\theta - 1) \sigma_ {w} ^ {2} - \frac {1}{2} \frac {\theta}{\psi^ {2}} \sigma_ {c} ^ {2}
+$$ r_{f, t} = - \log \beta + \frac{1}{\psi} E_{t} \Delta \log C_{t + 1} + \frac{1}{2} (\theta - 1) \sigma_{w}^{2} - \frac{1}{2} \frac{\theta}{\psi^{2}} \sigma_{c}^{2}
 $$
 - Since both  $\gamma$  and  $\psi$  can be big at the same time, EP and RF puzzles can be resolved
 - But are large values of  $\gamma$  and  $\psi$  "reasonable"
@@ -5760,44 +5760,44 @@ Example of a common type of reasoning in empirical macro
 3. Example of different sort of structural approach (Best-Cloyne-Ilzetzki-Kleven 2019)
 - Consumption Euler equation with power utility and log-normality:
 $$
-E _ {t} \Delta \log C _ {t + 1} = \psi E _ {t} r _ {i, t + 1} + \psi \log \beta + \frac {1}{2} [ \psi \sigma_ {i} ^ {2} + \psi^ {- 1} \sigma_ {c} ^ {2} - 2 \sigma_ {i c} ]
+E_{t} \Delta \log C_{t + 1} = \psi E_{t} r_{i, t + 1} + \psi \log \beta + \frac{1}{2} [ \psi \sigma_{i}^{2} + \psi^{- 1} \sigma_{c}^{2} - 2 \sigma_{i c} ]
 $$
 - Can be rewritten as:
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \psi \left(E _ {t} r _ {i, t + 1} - r _ {i, t + 1}\right) - \left(E _ {t} \Delta \log C _ {t + 1} - \Delta \log C _ {t + 1}\right)
+\epsilon_{i, t + 1} = \psi \left(E_{t} r_{i, t + 1} - r_{i, t + 1}\right) - \left(E_{t} \Delta \log C_{t + 1} - \Delta \log C_{t + 1}\right)
 $$
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \psi \left(E _ {t} r _ {i, t + 1} - r _ {i, t + 1}\right) - \left(E _ {t} \Delta \log C _ {t + 1} - \Delta \log C _ {t + 1}\right)
+\epsilon_{i, t + 1} = \psi \left(E_{t} r_{i, t + 1} - r_{i, t + 1}\right) - \left(E_{t} \Delta \log C_{t + 1} - \Delta \log C_{t + 1}\right)
 $$
 - Can we estimate this using OLS?
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \psi \left(E _ {t} r _ {i, t + 1} - r _ {i, t + 1}\right) - \left(E _ {t} \Delta \log C _ {t + 1} - \Delta \log C _ {t + 1}\right)
+\epsilon_{i, t + 1} = \psi \left(E_{t} r_{i, t + 1} - r_{i, t + 1}\right) - \left(E_{t} \Delta \log C_{t + 1} - \Delta \log C_{t + 1}\right)
 $$
 - Can we estimate this using OLS?
 - Suppose there is a "good shock" that leads to a high realization of  $r_{l,t+1}$
 - This shock will be correlated with the error term (consumption (and return) will rise relative to expectation)
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \psi \left(E _ {t} r _ {i, t + 1} - r _ {i, t + 1}\right) - \left(E _ {t} \Delta \log C _ {t + 1} - \Delta \log C _ {t + 1}\right)
+\epsilon_{i, t + 1} = \psi \left(E_{t} r_{i, t + 1} - r_{i, t + 1}\right) - \left(E_{t} \Delta \log C_{t + 1} - \Delta \log C_{t + 1}\right)
 $$
 - Can we think of instruments that will work in this case?
 (Hint: Error term is an expectation error)
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \psi \left(E _ {t} r _ {i, t + 1} - r _ {i, t + 1}\right) - \left(E _ {t} \Delta \log C _ {t + 1} - \Delta \log C _ {t + 1}\right)
+\epsilon_{i, t + 1} = \psi \left(E_{t} r_{i, t + 1} - r_{i, t + 1}\right) - \left(E_{t} \Delta \log C_{t + 1} - \Delta \log C_{t + 1}\right)
 $$
 - Can we think of instruments that will work in this case?
 (Hint: Error term is an expectation error)
@@ -5807,23 +5807,23 @@ $$
 - If  $r_{i,t+1}$  is the risk-free rate  $(r_{f,t})$  it is known at time  $t$
 - Then we have:
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {f, t} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{f, t} + \epsilon_{i, t + 1}
 $$ where
 $$
-\epsilon_ {i, t + 1} = \Delta \log C _ {t + 1} - E _ {t} \Delta \log C _ {t + 1}
+\epsilon_{i, t + 1} = \Delta \log C_{t + 1} - E_{t} \Delta \log C_{t + 1}
 $$
 In this case, OLS would work!
 - In practice, the real return on even Tbills is uncertain due to inflation
 - Could estimate by OLS using TIPS (Treasury Inflation Protected Securities) although sample would be short (TIPS started trading in 1997)
 Campbell and Mankiw (1989) estimate:
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ using lags of real rates, consumption growth, and nominal rates as instruments (see also Hall (1988))
 - Complication:  $C_t$  is a time average over a quarter
 - Even if  $C_t$  were a random walk, time averaging would imply serial correlation of changes (Working, 1960)
 Campbell and Mankiw (1989) lag instruments by 2 periods to avoid this
 $$
-\Delta c _ {t} = \mu + \sigma r _ {t}
+\Delta c_{t} = \mu + \sigma r_{t}
 $$
 Table 3 UNITED STATES,1953-1986
 <table><tr><td rowspan="2">Row</td><td rowspan="2">Instruments</td><td colspan="2">First-stage regressions</td><td rowspan="2">σ estimate (s.e.)</td><td rowspan="2">Test of restrictions</td></tr><tr><td>Δc equation</td><td>r equation</td></tr><tr><td>1</td><td>None (OLS)</td><td>—</td><td>—</td><td>0.276 (0.079)</td><td>—</td></tr><tr><td>2</td><td>rt-2, …, rt-4</td><td>0.063 (0.009)</td><td>0.431 (0.000)</td><td>0.270 (0.118)</td><td>0.031 (0.029)</td></tr><tr><td>3</td><td>rt-2, …, rt-6</td><td>0.067 (0.014)</td><td>0.426 (0.000)</td><td>0.281 (0.118)</td><td>0.034 (0.050)</td></tr><tr><td>4</td><td>Δct-2, …, Δct-4</td><td>0.024 (0.101)</td><td>-0.021 (0.966)</td><td>-0.707 (2.586)</td><td>0.000 (0.215)</td></tr><tr><td>5</td><td>Δct-2, …, Δct-6</td><td>0.018 (0.007)</td><td>0.007 (0.316)</td><td>0.992 (0.478)</td><td>0.008 (0.189)</td></tr><tr><td>6</td><td>Δit-2, …, Δit-4</td><td>0.061 (0.010)</td><td>0.024 (0.105)</td><td>1.263 (0.545)</td><td>-0.021 (0.918)</td></tr><tr><td>7</td><td>Δit-2, …, Δit-6</td><td>0.102 (0.002)</td><td>0.028 (0.119)</td><td>1.213 (0.445)</td><td>-0.022 (0.700)</td></tr><tr><td>8</td><td>rt-2, …, rt-4, Δct-2, …, Δct+4,</td><td>0.062 (0.026)</td><td>0.455 (0.000)</td><td>0.204 (0.114)</td><td>0.047 (0.033)</td></tr><tr><td>9</td><td>rt-2, …, rt-4, Δct-2, …, Δct-4, Δit-2, …, Δit-4</td><td>0.103 (0.006)</td><td>0.476 (0.000)</td><td>0.150 (0.111)</td><td>0.100 (0.005)</td></tr></table>
@@ -5837,9 +5837,9 @@ Source: Campbell and Mankiw (1989)
 4. Reverse regression not consistent with  $\psi = 0$
 - Just as the consumption Euler equation implies that
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ it also implies that
-$$ r _ {i, t + 1} = \alpha_ {i} + \frac {1}{\psi} \Delta \log C _ {t + 1} + \eta_ {i, t + 1}
+$$ r_{i, t + 1} = \alpha_{i} + \frac{1}{\psi} \Delta \log C_{t + 1} + \eta_{i, t + 1}
 $$
 - If  $\psi = 0$ , this "reverse regression" should yield a large estimate for  $1 / \psi$
 - Under the maintained assumptions above, this "reverse regression" can be estimated using IV with the same set of instruments
@@ -5872,7 +5872,7 @@ The reciprocal of the EIS is estimated from  $\tau_{f,t + 1} = \mu_f + (1 / \psi
 - Weak instruments is not the only empirical challenge!
 - Above approach relies heavily on
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1} \tag {1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1} \tag {1}
 $$ being a structural equation
 In particular, heavy reliance on  $\epsilon_{i,t+1}$  being only an expectation error
 - But what if equation (1) is misspecified?
@@ -5886,14 +5886,14 @@ Current  $\eta_{t}$
 This will lead IV with lagged variables to be biased
 Suppose we are estimating
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ by OLS in the presence of preference shocks
 - Increased desire to save drives down interest rates, and raises consumption growth
 - Implies current interest rates negatively correlated with  $\epsilon_{i,t+1}$
 - Downward bias in OLS estimate of  $\psi$
 Suppose we are estimating
 $$
-\Delta \log C _ {t + 1} = \mu_ {i} + \psi r _ {i, t + 1} + \epsilon_ {i, t + 1}
+\Delta \log C_{t + 1} = \mu_{i} + \psi r_{i, t + 1} + \epsilon_{i, t + 1}
 $$ by IV with lagged instruments and persistent preference shocks
 - Increase in desired savings in period  $t - j$  will affect instruments at time  $t - j$  and also increase desire to save in period  $t$
 - Part of correlation between instruments and  $r_{i,t+1}$  due to lagged preference shock
@@ -5902,7 +5902,7 @@ Same downward bias as OLS
 1. Hand-to-mouth consumers (more generally: liquidity constraints) (see Werning (2015))
 2. Time-varying volatility:
 $$
-E _ {t} \Delta \log C _ {t + 1} = \psi E _ {t} r _ {i, t + 1} + \psi \log \beta + \frac {1}{2} [ \psi \sigma_ {i} ^ {2} + \psi^ {- 1} \sigma_ {c} ^ {2} - 2 \sigma_ {i c} ]
+E_{t} \Delta \log C_{t + 1} = \psi E_{t} r_{i, t + 1} + \psi \log \beta + \frac{1}{2} [ \psi \sigma_{i}^{2} + \psi^{- 1} \sigma_{c}^{2} - 2 \sigma_{i c} ]
 $$
 - We have been assuming that all the  $\sigma$  terms are constant
 What if they are not?
@@ -5927,7 +5927,7 @@ Controls flexibly for these characteristics
 - Identification comes only from changes in the tax system over the sample period
 - Specification:
 $$
-G C _ {i, t + 1} = \alpha + \beta A T R A T E _ {i t} + X _ {i t} \delta + \Delta Z _ {i t, t + 1} \eta + \epsilon
+G C_{i, t + 1} = \alpha + \beta A T R A T E_{i t} + X_{i t} \delta + \Delta Z_{i t, t + 1} \eta + \epsilon
 $$
 GC: Non-durable consumption growth for household  $i$  (from CEX)
 - ATRATE: Income specific after tax rate of return for household  $i$  (SCF portfolio shares and NBER TAXSIM tax rates)
@@ -5966,7 +5966,7 @@ Source: Best-Cloyne-lletzki-Kleven (2019)
 - Interest rate jumps by discrete amounts (features notches) at certain loan-to-value (LTV) thresholds
 - Very salient: daily menu in newspapers, on bank websites, etc.
 Estimate rate function:
-$$ r _ {i} = f \left(L T V _ {i}\right) + \beta_ {1} \text {b a n k} _ {i} + \beta_ {2} \text {v a r i a b i l i t y} _ {i} \otimes \text {d u r a t i o n} _ {i} \otimes \text {m o n t h} _ {i} + \beta_ {3} \text {r e p a m e n t} _ {i} + \beta_ {4} \text {t e r m} _ {i} + \nu_ {i}
+$$ r_{i} = f \left(L T V_{i}\right) + \beta_{1} \text{ba nk}_{i} + \beta_{2} \text{va ri ab il it y}_{i} \otimes \text{du ra ti on}_{i} \otimes \text{mo nt h}_{i} + \beta_{3} \text{re pa me nt}_{i} + \beta_{4} \text{te rm}_{i} + \nu_{i}
 $$
 - No individual characteristics because UK mortgage market is like a supermarket (no individual negotiation)
 - But adding age, income and family status has no effect on results
@@ -6010,12 +6010,12 @@ Households have decided to stay in current home
 Face a refinancing decision
 $\bullet$  Utility:
 $$
-\frac {\sigma}{\sigma - 1} \left(\boldsymbol {c} _ {0} ^ {(\sigma - 1) / \sigma} + \delta \boldsymbol {c} _ {1} ^ {(\sigma - 1) / \sigma}\right)
+\frac{\sigma}{\sigma - 1} \left(\boldsymbol {c}_{0}^{(\sigma - 1) / \sigma} + \delta \boldsymbol {c}_{1}^{(\sigma - 1) / \sigma}\right)
 $$ where  $\delta$  is discount factor and  $\sigma$  is IES
 Budget constraints:
-$$ c _ {0} = y _ {0} + W _ {0} - (1 - \lambda) P _ {0} H
+$$ c_{0} = y_{0} + W_{0} - (1 - \lambda) P_{0} H
 $$
-$$ c _ {1} = y _ {1} - R \lambda P _ {0} H + (1 - d) P _ {1} H
+$$ c_{1} = y_{1} - R \lambda P_{0} H + (1 - d) P_{1} H
 $$ where  $\lambda$  is LTV on new mortgage,  $d$  is depreciation rate of houses, and  $R$  is mortgate interest rate
 - Authors simulate model for different values of IES
 - Distribution of  $W_{0}$  is calibrated to replicate counterfactual LTV distribution when  $R$  is constant
@@ -6026,9 +6026,9 @@ $$
 $$ d = 0. 0 2 5
 $$
 $$
-\frac {P _ {1}}{P _ {0}} = 1. 0 2 6
+\frac{P_{1}}{P_{0}} = 1. 0 2 6
 $$
-$$ y _ {1} = y _ {0}
+$$ y_{1} = y_{0}
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/62f7cf15-ef01-4251-9f8e-90d77277177c/9676ad11d9cf1546d8799e70cde4efcae502cd77a1c6837c9bcce10bf07ad670.jpg)
 A
@@ -6090,30 +6090,30 @@ Trend Stationary: Stationary after subtracting a trend
 - I.i.d sequence: Sequence of independent and identically distributed random variables
 For more detail, see, e.g., Hayashi (2000, ch. 2.2)
 - Autoregressive model of order 1 (i.e., AR(1)):
-$$ y _ {t} = \mu + \rho y _ {t - 1} + \epsilon_ {t}
+$$ y_{t} = \mu + \rho y_{t - 1} + \epsilon_{t}
 $$ where  $\epsilon_{t}$  is i.i.d.
 - AR(1) is stationary if  $|\rho| < 1$
 - Impulse response function: Response of  $y_{t}$  over time to a shock to  $\epsilon_0$
 For AR(1), impulse response at time  $t$  is  $\rho^t\epsilon_0$
 Trend Stationary AR(1):
 $$
-\mathcal {Y} _ {t} = \alpha + \mu t + \rho \mathcal {Y} _ {t - 1} + \epsilon_ {t}
+\mathcal {Y}_{t} = \alpha + \mu t + \rho \mathcal {Y}_{t - 1} + \epsilon_{t}
 $$
 - Random Walk (with drift):
-$$ y _ {t} = \mu + y _ {t - 1} + \epsilon_ {t}
+$$ y_{t} = \mu + y_{t - 1} + \epsilon_{t}
 $$
 - A random walk is difference stationary (but not stationary in levels)
 AR(p):
-$$ y _ {t} = \mu + \rho_ {1} y _ {t - 1} + \dots + \rho_ {\rho} y _ {t - \rho} + \epsilon_ {t}
+$$ y_{t} = \mu + \rho_{1} y_{t - 1} + \dots + \rho_{\rho} y_{t - \rho} + \epsilon_{t}
 $$
 - Moving Average of order q (i.e., MA(q)):
-$$ y _ {t} = \mu + \epsilon_ {t} + \theta_ {1} \epsilon_ {t - 1} + \dots + \theta_ {q} \epsilon_ {t - q}
+$$ y_{t} = \mu + \epsilon_{t} + \theta_{1} \epsilon_{t - 1} + \dots + \theta_{q} \epsilon_{t - q}
 $$
 - Impulse response of MA(q) is:
-$$ y _ {0} = \epsilon_ {0}, \quad y _ {1} = \theta_ {1} \epsilon_ {0}, \quad \ldots \quad y _ {q} = \theta_ {q} \epsilon_ {0}, \quad y _ {q + 1} = 0
+$$ y_{0} = \epsilon_{0}, \quad y_{1} = \theta_{1} \epsilon_{0}, \quad \ldots \quad y_{q} = \theta_{q} \epsilon_{0}, \quad y_{q + 1} = 0
 $$
 ARMA(p,q):
-$$ y _ {t} = \mu + \rho_ {1} y _ {t - 1} + \dots + \rho_ {p} y _ {t - p} + \epsilon_ {t} + \theta_ {1} \epsilon_ {t - 1} + \dots + \theta_ {q} \epsilon_ {t - q}
+$$ y_{t} = \mu + \rho_{1} y_{t - 1} + \dots + \rho_{p} y_{t - p} + \epsilon_{t} + \theta_{1} \epsilon_{t - 1} + \dots + \theta_{q} \epsilon_{t - q}
 $$
 Lucas (1987, 2003):
 - Macroeconomists spend a lot of time thinking about policies to dampen business cycles (i.e., stabilization policies)
@@ -6122,41 +6122,41 @@ Lucas (1987, 2003):
 - What are the welfare gains from eliminating all economic fluctuations?
 - Assumes consumer's consumption stream is trend-stationary:
 $$
-\mathcal {C} _ {t} = A e ^ {\mu t} e ^ {- (1 / 2) \sigma^ {2}} \epsilon_ {t}
+\mathcal {C}_{t} = A e^{\mu t} e^{- (1 / 2) \sigma^{2}} \epsilon_{t}
 $$ with  $\log (\epsilon_t)\sim \mathsf{N}(0,\sigma^2)$
 This implies:
 $$
-E (e ^ {- (1 / 2) \sigma^ {2}} \epsilon_ {t}) = 1
+E (e^{- (1 / 2) \sigma^{2}} \epsilon_{t}) = 1
 $$
 $$
-E \left(c _ {t}\right) = A e ^ {\mu t}
+E \left(c_{t}\right) = A e^{\mu t}
 $$
 Consumer's utility function
 $$
-E \left\{\sum_ {t = 0} ^ {\infty} \beta^ {t} \frac {c _ {t} ^ {1 - \gamma}}{1 - \gamma} \right\}
+E \left\{\sum_{t = 0}^{\infty} \beta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} \right\}
 $$
 - $\beta$  is subjective discount factor
 $\gamma$  coefficient of risk aversion
 - Thought experiment: How much would welfare increase if we could magically eliminate all consumption variation around trend (best case scenario for stabilization policy!)
 - Represent this as a consumption equivalent gain  $\lambda$ :
 $$
-E \left\{\sum_ {t = 0} ^ {\infty} \beta^ {t} \frac {\left((1 + \lambda) c _ {t}\right) ^ {1 - \gamma}}{1 - \gamma} \right\} = \sum_ {t = 0} ^ {\infty} \beta^ {t} \frac {\left(A e ^ {\mu t}\right) ^ {1 - \gamma}}{1 - \gamma}
+E \left\{\sum_{t = 0}^{\infty} \beta^{t} \frac{\left((1 + \lambda) c_{t}\right)^{1 - \gamma}}{1 - \gamma} \right\} = \sum_{t = 0}^{\infty} \beta^{t} \frac{\left(A e^{\mu t}\right)^{1 - \gamma}}{1 - \gamma}
 $$
 - Answer:
 $$
-\lambda \simeq \frac {1}{2} \gamma \sigma^ {2}
+\lambda \simeq \frac{1}{2} \gamma \sigma^{2}
 $$
 $$
-\lambda \simeq \frac {1}{2} \gamma \sigma^ {2}
+\lambda \simeq \frac{1}{2} \gamma \sigma^{2}
 $$
 - For 1947-2001, the standard deviation of the log of U.S. real, per capita consumption about a linear trend: 0.032.
 - Reasonable values of  $\gamma$  between 1 and 4
 $$
-\lambda = \frac {1}{2} (0. 0 3 2) ^ {2} = 0. 0 0 0 5
+\lambda = \frac{1}{2} (0. 0 3 2)^{2} = 0. 0 0 0 5
 $$
 - Even including the Great Depression and Great Recession (1920-2009) and setting  $\gamma = 4$ :
 $$
-\lambda = \frac {1}{2} 4 (0. 0 6 3) ^ {2} = 0. 0 0 8
+\lambda = \frac{1}{2} 4 (0. 0 6 3)^{2} = 0. 0 0 8
 $$
 Conclusion: Welfare gains from stabilization policy are trivial.
 - Macroeconomics as originally conceived has succeeded.
@@ -6171,14 +6171,14 @@ Is this convincing?
 Can it be taken seriously for thinking about the costs of risk??
 In a simple endowment economy (Mehra-Prescott 85):
 $$
-\log E _ {t} R _ {C, t + 1} - \log R _ {f, t} = \gamma \operatorname {v a r} _ {t} (\log \Delta C _ {t + 1})
+\log E_{t} R_{C, t + 1} - \log R_{f, t} = \gamma \operatorname{va r}_{t} (\log \Delta C_{t + 1})
 $$
 Equity Premium Puzzle:
 $$
-\log E _ {t} R _ {e, t + 1} - \log R _ {f, t} \approx 0. 0 7
+\log E_{t} R_{e, t + 1} - \log R_{f, t} \approx 0. 0 7
 $$
 $$
-\operatorname {v a r} _ {t} \left(\log \Delta C _ {t + 1}\right) \approx 0. 0 3 ^ {2} = 0. 0 0 0 9
+\operatorname{va r}_{t} \left(\log \Delta C_{t + 1}\right) \approx 0. 0 3^{2} = 0. 0 0 0 9
 $$
 (Arguably equity is a leveraged claim to consumption. See, e.g., Barro 06)
 Different preferences: Habits (Campbell and Cochrane, 1999)
@@ -6212,19 +6212,19 @@ Source: Barro and Ursua (2008)
 # Is GDP/CONSUMPTION A RANDOM WALK?
 - Textbook asset pricing model:
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + \epsilon_ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + \epsilon_{t + 1}
 $$
 - What does this imply about  $\partial \log C_{t+j} / \partial \epsilon_{t+1}$  as  $j \to \infty$ ?
 - Textbook asset pricing model:
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + \epsilon_ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + \epsilon_{t + 1}
 $$
 - What does this imply about  $\partial \log C_{t+j} / \partial \epsilon_{t+1}$  as  $j \to \infty$ ?
 $\partial \log C_{t + j} / \partial \epsilon_{t + 1} = 1$  for all  $j?$
 I.e., shocks have permanent effects on GDP
 - Textbook asset pricing model:
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + \epsilon_ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + \epsilon_{t + 1}
 $$
 - What does this imply about  $\partial \log C_{t+j} / \partial \epsilon_{t+1}$  as  $j \to \infty$ ?
 $\partial \log C_{t + j} / \partial \epsilon_{t + 1} = 1$  for all  $j?$
@@ -6232,7 +6232,7 @@ I.e., shocks have permanent effects on GDP
 - What does it imply about  $\operatorname{var}_t(\log C_{t+j})$  as  $j \to \infty$ ?
 - Textbook asset pricing model:
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + \epsilon_ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + \epsilon_{t + 1}
 $$
 - What does this imply about  $\partial \log C_{t+j} / \partial \epsilon_{t+1}$  as  $j \to \infty$ ?
 $\partial \log C_{t + j} / \partial \epsilon_{t + 1} = 1$  for all  $j?$
@@ -6244,7 +6244,7 @@ I.e., shocks have permanent effects on GDP
 FIG. 2.-Log real per capita GNP, 1869-1986
 Source: Cochrane (1988)
 - Traditional view in macro: GDP is trend stationary
-$$ y _ {t} = b t + \sum_ {j = 0} ^ {\infty} a _ {j \epsilon_ {t - j}}
+$$ y_{t} = b t + \sum_{j = 0}^{\infty} a_{j \epsilon_{t - j}}
 $$ where  $a_{j}$  approaches zero for large  $j$
 $\bullet$  Implies:
 - Long-run forecast invariant to  $\epsilon_t$  (i.e., business cycles are transient)
@@ -6253,7 +6253,7 @@ This view was challenged in the 1980s
 (Nelson-Plosser 82; Watson 86; Clark 87; Campbell-Mankiw 87)
 Estimate an ARMA(p,q) process for GNP growth:
 $$
-\phi (L) \Delta Y _ {t} = \theta (L) \epsilon_ {t}
+\phi (L) \Delta Y_{t} = \theta (L) \epsilon_{t}
 $$
 $\phi (L)$  and  $\theta (L)$  are polynomials in the lag operator  $(L\Delta Y_{t} = \Delta Y_{t - 1})$
 Sample period: 1947:1 - 1985:4 (quarterly data)
@@ -6277,12 +6277,12 @@ Epop by Gender
 Source: Fukui, Nakamura, and Steinsson (2019)
 Cochrane (1988) advocated using variance ratios:
 $$
-\mathrm {V R} _ {i, k} = \frac {1}{k} \frac {\operatorname {v a r} \left(c _ {i , t} - c _ {i , t - k}\right)}{\operatorname {v a r} \left(c _ {i , t} - c _ {i , t - 1}\right)}
+\mathrm{VR}_{i, k} = \frac{1}{k} \frac{\operatorname{va r} \left(c_{i , t} - c_{i , t - k}\right)}{\operatorname{va r} \left(c_{i , t} - c_{i , t - 1}\right)}
 $$
 Non-parametric approach
 Cochrane (1988) advocated using variance ratios:
 $$
-\mathrm {V R} _ {i, k} = \frac {1}{k} \frac {\operatorname {v a r} \left(c _ {i , t} - c _ {i , t - k}\right)}{\operatorname {v a r} \left(c _ {i , t} - c _ {i , t - 1}\right)}
+\mathrm{VR}_{i, k} = \frac{1}{k} \frac{\operatorname{va r} \left(c_{i , t} - c_{i , t - k}\right)}{\operatorname{va r} \left(c_{i , t} - c_{i , t - 1}\right)}
 $$
 Non-parametric approach
 - Random walk:  $VR_{i,k} = 1$  for all  $k$
@@ -6351,14 +6351,14 @@ $^{\mathrm{a}}$ Results taken from Nelson and Plosser (1982, Table 5).
 Source: Perron (1989). Dickey-Fuller  $2.5\%$  critical value for  $\mathsf{N} = 100$ , with constant and time trend is -3.7. Corresponding  $5\%$  critical value is -3.4.
 - Perron simulates 10,000 replications of a series  $y_{t}$  of length 100
 "Crash" hypothesis:
-$$ y _ {t} = \mu_ {1} + \left(\mu_ {2} - \mu_ {1}\right) D U _ {t} + \beta t + e _ {t}
+$$ y_{t} = \mu_{1} + \left(\mu_{2} - \mu_{1}\right) D U_{t} + \beta t + e_{t}
 $$ where  $DU_{t} = 1$  if  $t > 50$ ,  $\mu_1 = 0$ ,  $\beta = 1$ ,  $e_t \sim \mathsf{N}(0,1)$
 - "Changing Growth" hypothesis:
-$$ y _ {t} = \mu + \beta_ {1} t + (\beta_ {2} - \beta_ {1}) D T _ {t} ^ {*} + e _ {t}
+$$ y_{t} = \mu + \beta_{1} t + (\beta_{2} - \beta_{1}) D T_{t}^{*} + e_{t}
 $$ where  $DT_{t}^{*} = t - 50$  if  $t > 50$ ,  $\mu = 0$ ,  $\beta_{1} = 1$ ,  $\mathbf{e}_{t}\sim \mathsf{N}(0,1)$
 Estimates misspecified model:
 $$
-\mathcal {Y} _ {t} = \tilde {\mu} + \tilde {\beta} t + \tilde {\alpha} \mathcal {Y} _ {t - 1} + \tilde {\boldsymbol {e}} _ {t}
+\mathcal {Y}_{t} = \tilde {\mu} + \tilde {\beta} t + \tilde {\alpha} \mathcal {Y}_{t - 1} + \tilde {\boldsymbol {e}}_{t}
 $$
 - True  $\alpha = 0$ . But breaks look like a unit root.
 # TABLE III
@@ -6387,7 +6387,7 @@ Growth rate shocks (Bansal and Yaron, 2004)
 Stochastic volatility (Bansal and Yaron, 2004)
 - Same setup as Mehra-Prescott, except
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + u _ {t + 1} + v _ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + u_{t + 1} + v_{t + 1}
 $$
 $\mathcal{U}_{t + 1}\sim \mathsf{N}(0,\sigma^2)$
 $V_{t + 1}$  reflects disasters:
@@ -6432,7 +6432,7 @@ Notes: The baseline results are in bold,  $\gamma$  is the coefficient of relati
 Source: Barro (2009)
 Barro's model:
 $$
-\log C _ {t + 1} = \mu + \log C _ {t} + u _ {t + 1} + v _ {t + 1}
+\log C_{t + 1} = \mu + \log C_{t} + u_{t + 1} + v_{t + 1}
 $$
 $u_{t + 1}\sim \mathsf{N}(0,\sigma^2)$
 $V_{t + 1}$
@@ -6445,17 +6445,17 @@ Disasters occur instantaneously
 - Informal estimation procedure
 Consumption:
 $$
-\mathcal {C} _ {i, t} = x _ {i, t} + z _ {i, t} + \epsilon_ {i, t}
+\mathcal {C}_{i, t} = x_{i, t} + z_{i, t} + \epsilon_{i, t}
 $$
 Potential Consumption:
 $$
-\Delta x _ {i, t} = \mu_ {i, t} + \eta_ {i, t} + I _ {i, t} \theta_ {i, t}
+\Delta x_{i, t} = \mu_{i, t} + \eta_{i, t} + I_{i, t} \theta_{i, t}
 $$
 The Disaster Gap
-$$ z _ {i, t} = \rho_ {z} z _ {i, t - 1} - I _ {i, t} \theta_ {i, t} + I _ {i, t} \phi_ {i, t} + \nu_ {i, t}
+$$ z_{i, t} = \rho_{z} z_{i, t - 1} - I_{i, t} \theta_{i, t} + I_{i, t} \phi_{i, t} + \nu_{i, t}
 $$
 $$
-\begin{array}{l} \epsilon_ {i, t} \sim \mathsf {N} (0, \sigma_ {\epsilon , i} ^ {2}) \quad \eta_ {i, t} \sim \mathsf {N} (0, \sigma_ {\eta , i} ^ {2}) \quad \nu_ {i, t} \sim \mathsf {N} (0, \sigma_ {\nu , i} ^ {2}) \\ \theta_ {i, t} \sim \mathsf {N} (\theta , \sigma_ {\theta} ^ {2}) \quad \phi_ {i, t} \sim \operatorname {t r u n c} \mathsf {N} (\phi , \sigma_ {\phi} ^ {2}, [ - \infty , 0 ]) \\ \end{array}
+\begin{array}{l} \epsilon_{i, t} \sim \mathsf {N} (0, \sigma_{\epsilon , i}^{2}) \quad \eta_{i, t} \sim \mathsf {N} (0, \sigma_{\eta , i}^{2}) \quad \nu_{i, t} \sim \mathsf {N} (0, \sigma_{\nu , i}^{2}) \\ \theta_{i, t} \sim \mathsf {N} (\theta , \sigma_{\theta}^{2}) \quad \phi_{i, t} \sim \operatorname{tr un c} \mathsf {N} (\phi , \sigma_{\phi}^{2}, [ - \infty , 0 ]) \\ \end{array}
 $$
 # Two disaster shocks:
 1. $\phi_{i,t}$ : Short run effect but no long run effect
@@ -6525,7 +6525,7 @@ Source: Nakamura, Steinsson, Barro, and Ursua (2013)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/8f5ee06fce7c8d3a1c4a21d53d2691ffac3411373d46a3fe4be85fc2bbde372f.jpg)
 Figure: Log Consumption for France
 $$
-\begin{array}{l} \Delta c _ {t + 1} = \mu + x _ {t} + \chi \sigma_ {t} \eta_ {t + 1}, \\ x _ {t + 1} = \rho x _ {t} + \sigma_ {t} \epsilon_ {t + 1}, \\ \sigma_ {t + 1} ^ {2} = \sigma^ {2} + \gamma (\sigma_ {t} ^ {2} - \sigma^ {2}) + \sigma_ {\omega} \omega_ {t + 1}, \\ \end{array}
+\begin{array}{l} \Delta c_{t + 1} = \mu + x_{t} + \chi \sigma_{t} \eta_{t + 1}, \\ x_{t + 1} = \rho x_{t} + \sigma_{t} \epsilon_{t + 1}, \\ \sigma_{t + 1}^{2} = \sigma^{2} + \gamma (\sigma_{t}^{2} - \sigma^{2}) + \sigma_{\omega} \omega_{t + 1}, \\ \end{array}
 $$
 Idea:
 $x_{t}$  and  $\sigma_t^2$  small but persistent
@@ -6536,7 +6536,7 @@ Main Result:
 - But does this work in benchmark model?
 I.e.: Are long run risks priced?
 $$
-\begin{array}{l} \Delta c _ {t + 1} = \mu + x _ {t} + \chi \sigma_ {t} \eta_ {t + 1}, \\ \chi_ {t + 1} = \rho \chi_ {t} + \sigma_ {t} \epsilon_ {t + 1}, \\ \sigma_ {t + 1} ^ {2} = \sigma^ {2} + \gamma (\sigma_ {t} ^ {2} - \sigma^ {2}) + \sigma_ {\omega} \omega_ {t + 1}, \\ \end{array}
+\begin{array}{l} \Delta c_{t + 1} = \mu + x_{t} + \chi \sigma_{t} \eta_{t + 1}, \\ \chi_{t + 1} = \rho \chi_{t} + \sigma_{t} \epsilon_{t + 1}, \\ \sigma_{t + 1}^{2} = \sigma^{2} + \gamma (\sigma_{t}^{2} - \sigma^{2}) + \sigma_{\omega} \omega_{t + 1}, \\ \end{array}
 $$
 - Notice that  $\epsilon_{t+1}$  and  $\omega_{t+1}$  affect:
 $R_{e,t + 1}$
@@ -6553,26 +6553,26 @@ Two assets:
 One period, risk-free bond
 Equity" with dividend growth rate:
 $$
-\Delta d _ {t + 1} = \mu + \phi x _ {t} + \varphi_ {d} \sigma_ {t} u _ {t}
+\Delta d_{t + 1} = \mu + \phi x_{t} + \varphi_{d} \sigma_{t} u_{t}
 $$
 Leverage:  $\phi = 3$
 Dividend volatility:  $\varphi_{d} = 4.5$
 $$
-\begin{array}{l} \Delta c _ {t + 1} = \mu + x _ {t} + \chi \sigma_ {t} \eta_ {t + 1}, \\ x _ {t + 1} = \rho x _ {t} + \sigma_ {t} \epsilon_ {t + 1}, \\ \sigma_ {t + 1} ^ {2} = \sigma^ {2} + \gamma (\sigma_ {t} ^ {2} - \sigma^ {2}) + \sigma_ {\omega} \omega_ {t + 1}, \\ \end{array}
+\begin{array}{l} \Delta c_{t + 1} = \mu + x_{t} + \chi \sigma_{t} \eta_{t + 1}, \\ x_{t + 1} = \rho x_{t} + \sigma_{t} \epsilon_{t + 1}, \\ \sigma_{t + 1}^{2} = \sigma^{2} + \gamma (\sigma_{t}^{2} - \sigma^{2}) + \sigma_{\omega} \omega_{t + 1}, \\ \end{array}
 $$
 - Calibrate long-run risks parameters:
 $$
-\mu = 0. 0 0 1 5, \quad \rho = 0. 9 7 9, \quad \sigma = 0. 0 7 8, \quad \varphi_ {e} = 0. 0 4 4
+\mu = 0. 0 0 1 5, \quad \rho = 0. 9 7 9, \quad \sigma = 0. 0 7 8, \quad \varphi_{e} = 0. 0 4 4
 $$
 No formal macro calibration targets
 - Parameters largely viewed a free parameters
 - Chosen largely to fit asset prices
 $$
-\begin{array}{l} {\Delta c _ {t + 1}} = {\mu + x _ {t} + \chi \sigma_ {t} \eta_ {t + 1},} \\ x _ {t + 1} = \rho x _ {t} + \sigma_ {t} \epsilon_ {t + 1}, \\ \sigma_ {t + 1} ^ {2} = \sigma^ {2} + \gamma (\sigma_ {t} ^ {2} - \sigma^ {2}) + \sigma_ {\omega} \omega_ {t + 1}, \\ \end{array}
+\begin{array}{l} {\Delta c_{t + 1}} = {\mu + x_{t} + \chi \sigma_{t} \eta_{t + 1},} \\ x_{t + 1} = \rho x_{t} + \sigma_{t} \epsilon_{t + 1}, \\ \sigma_{t + 1}^{2} = \sigma^{2} + \gamma (\sigma_{t}^{2} - \sigma^{2}) + \sigma_{\omega} \omega_{t + 1}, \\ \end{array}
 $$
 - Calibrate long-run risks parameters:
 $$
-\mu = 0. 0 0 1 5, \quad \rho = 0. 9 7 9, \quad \sigma = 0. 0 7 8, \quad \varphi_ {e} = 0. 0 4 4
+\mu = 0. 0 0 1 5, \quad \rho = 0. 9 7 9, \quad \sigma = 0. 0 7 8, \quad \varphi_{e} = 0. 0 4 4
 $$
 No formal macro calibration targets
 - Parameters largely viewed a free parameters
@@ -6585,25 +6585,25 @@ Source: Bansal and Yaron (2004)
 Source: Bansal and Yaron (2004)
 - Stochastic discount factor with Epstein-Zin-Weil preferences:
 $$
-\log M _ {t + 1} = \theta \log \beta - \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) R _ {c, t + 1}
+\log M_{t + 1} = \theta \log \beta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) R_{c, t + 1}
 $$
 - Current marginal utility depends on news about future consumption growth (through  $R_{c,t+1}$ )
 - Stochastic discount factor with Epstein-Zin-Weil preferences:
 $$
-\log M _ {t + 1} = \theta \log \beta - \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) R _ {c, t + 1}
+\log M_{t + 1} = \theta \log \beta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) R_{c, t + 1}
 $$
 - Current marginal utility depends on news about future consumption growth (through  $R_{c,t+1}$ )
 - Decrease in future expected growth raise current marginal utility (If IES > 1 and CRRA > 1/IES)
 - Stochastic discount factor with Epstein-Zin-Weil preferences:
 $$
-\log M _ {t + 1} = \theta \log \beta - \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) R _ {c, t + 1}
+\log M_{t + 1} = \theta \log \beta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) R_{c, t + 1}
 $$
 - Current marginal utility depends on news about future consumption growth (through  $R_{c,t+1}$ )
 - Decrease in future expected growth raise current marginal utility (If IES > 1 and CRRA > 1/IES)
 - Increase in future uncertainty raises current marginal utility (If CRRA > 1 and IES > 1)
 - Stochastic discount factor with Epstein-Zin-Weil preferences:
 $$
-\log M _ {t + 1} = \theta \log \beta - \frac {\theta}{\psi} \Delta c _ {t + 1} + (\theta - 1) R _ {c, t + 1}
+\log M_{t + 1} = \theta \log \beta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta - 1) R_{c, t + 1}
 $$
 - Current marginal utility depends on news about future consumption growth (through  $R_{c,t+1}$ )
 Decrease in future expected growth raise current marginal utility (If IES > 1 and CRRA > 1/IES)
@@ -6640,20 +6640,20 @@ Estimate long-run risks model using only macro data
 - Advantage of using macroeconomic data alone:
 - Results not driven by need to explain asset prices
 - Results provide direct evidence for the mechanism
-$$ c _ {i, t + 1} = \tilde {c} _ {i, t + 1} + \sigma_ {i, \nu} \nu_ {i, t + 1} + I _ {i, t + 1} ^ {d} \sigma_ {i, \psi} \psi_ {i, t + 1} ^ {d}
+$$ c_{i, t + 1} = \tilde {c}_{i, t + 1} + \sigma_{i, \nu} \nu_{i, t + 1} + I_{i, t + 1}^{d} \sigma_{i, \psi} \psi_{i, t + 1}^{d}
 $$
 $$
-\Delta \tilde {G} _ {i, t + 1} = \mu_ {i} + x _ {i, t} + \xi_ {i} x _ {W, t} + \chi_ {i} \eta_ {i, t + 1},
+\Delta \tilde {G}_{i, t + 1} = \mu_{i} + x_{i, t} + \xi_{i} x_{W, t} + \chi_{i} \eta_{i, t + 1},
 $$
-$$ x _ {i, t + 1} = \rho x _ {i, t} + \epsilon_ {i, t + 1},
-$$
-$$
-\sigma_ {i, t + 1} ^ {2} = \sigma_ {i} ^ {2} + \gamma \left(\sigma_ {i, t} ^ {2} - \sigma_ {i} ^ {2}\right) + \omega_ {i, t + 1},
-$$
-$$ x _ {W, t + 1} = \rho_ {W} x _ {W, t} + \epsilon_ {W, t + 1},
+$$ x_{i, t + 1} = \rho x_{i, t} + \epsilon_{i, t + 1},
 $$
 $$
-\sigma_ {W, t + 1} ^ {2} = \sigma_ {W} ^ {2} + \gamma \left(\sigma_ {W, t} ^ {2} - \sigma_ {W} ^ {2}\right) + \omega_ {W, t + 1},
+\sigma_{i, t + 1}^{2} = \sigma_{i}^{2} + \gamma \left(\sigma_{i, t}^{2} - \sigma_{i}^{2}\right) + \omega_{i, t + 1},
+$$
+$$ x_{W, t + 1} = \rho_{W} x_{W, t} + \epsilon_{W, t + 1},
+$$
+$$
+\sigma_{W, t + 1}^{2} = \sigma_{W}^{2} + \gamma \left(\sigma_{W, t}^{2} - \sigma_{W}^{2}\right) + \omega_{W, t + 1},
 $$
 - Volatility of  $\epsilon_{W,t+1}$  is  $\sigma_{W,t}^2$
 Volatility of  $\epsilon_{i,t + 1}$  and  $\eta_{i,t + 1}$  is  $\sigma_{i,t}^2 +\sigma_{W,t}^2$
@@ -6726,37 +6726,37 @@ Nevertheless, useful to understand neoclassical labor market theory
 - Neoclassical labor market theory may make sense for "big" questions
 Labor Demand:
 $$
-W _ {t} = F _ {L} \left(L _ {t}, \cdot\right)
+W_{t} = F_{L} \left(L_{t}, \cdot\right)
 $$
 - Ignores hiring and firing costs
 - Views labor market as a spot market
 Labor Demand:
 $$
-W _ {t} = F _ {L} \left(L _ {t}, \cdot\right)
+W_{t} = F_{L} \left(L_{t}, \cdot\right)
 $$
 - Ignores hiring and firing costs
 - Views labor market as a spot market
 Labor Supply:
 Household's intratemporal labor-leisure choice
 $$
-\max  U \left(C _ {t}, L _ {t}\right)
+\max  U \left(C_{t}, L_{t}\right)
 $$
 $$
-\text {s u b j e c t} \colon C _ {t} = W _ {t} L _ {t}
+\text{su bj ec t} \colon C_{t} = W_{t} L_{t}
 $$
 - First order condition:
 $$
-\frac {U _ {L t}}{U _ {C t}} = W _ {t}
+\frac{U_{L t}}{U_{C t}} = W_{t}
 $$
 - Ignores participation margin for simplicity
 - Let's assume for simplicity that
 $$
-U (C _ {t}, L _ {t}) = U (C _ {t}) - V (L _ {t})
+U (C_{t}, L_{t}) = U (C_{t}) - V (L_{t})
 $$
 - What properties should  $U$  and  $V$  have?
 - Let's assume for simplicity that
 $$
-U \left(C _ {t}, L _ {t}\right) = U \left(C _ {t}\right) - V \left(L _ {t}\right)
+U \left(C_{t}, L_{t}\right) = U \left(C_{t}\right) - V \left(L_{t}\right)
 $$
 - What properties should  $U$  and  $V$  have?
 U should be upward sloping and concave
@@ -6764,14 +6764,14 @@ V should be upward sloping and convex
 - $V$  sometimes formulated in terms of leisure:  $V(1 - L_{t})$
 Labor supply becomes
 $$
-\frac {V ^ {\prime} \left(L _ {t}\right)}{U ^ {\prime} \left(C _ {t}\right)} = W _ {t}
+\frac{V^{\prime} \left(L_{t}\right)}{U^{\prime} \left(C_{t}\right)} = W_{t}
 $$
 $$
-\frac {V ^ {\prime} (L _ {t})}{U ^ {\prime} (C _ {t})} = W _ {t}
+\frac{V^{\prime} (L_{t})}{U^{\prime} (C_{t})} = W_{t}
 $$
 - How does an increase in the wage affect labor supply?
 $$
-\frac {V ^ {\prime} \left(L _ {t}\right)}{U ^ {\prime} \left(C _ {t}\right)} = W _ {t}
+\frac{V^{\prime} \left(L_{t}\right)}{U^{\prime} \left(C_{t}\right)} = W_{t}
 $$
 - How does an increase in the wage affect labor supply?
 Two effects!!
@@ -6809,7 +6809,7 @@ Source: Boppart and Krusell (2018)
 - More traditional view: Labor supply constant as wages rise
 "Balanced growth preferences" (King, Plosser, and Rebelo, 1988):
 $$
-U (C _ {t}, L _ {t}) = \left\{ \begin{array}{l l} \frac {(C _ {t} v (L _ {t})) ^ {1 - \sigma} - 1}{1 - \sigma} & \text {i f} \sigma \neq 1 \\ \log (C _ {t}) + \log v (L _ {t}) & \text {i f} \sigma = 1 \end{array} \right.
+U (C_{t}, L_{t}) = \left\{ \begin{array}{l l} \frac{(C_{t} v (L_{t}))^{1 - \sigma} - 1}{1 - \sigma} & \text{if } \sigma \neq 1 \\ \log (C_{t}) + \log v (L_{t}) & \text{if } \sigma = 1 \end{array} \right.
 $$
 
 Imply that income and substitution effects exactly cancel out in response to permanent increase in wage
@@ -6817,12 +6817,12 @@ Imply that income and substitution effects exactly cancel out in response to per
 Common choice for preferences:
 
 $$
-\log (C _ {t}) - \psi \frac {L _ {t} ^ {1 + 1 / \nu}}{1 + 1 / \nu}
+\log (C_{t}) - \psi \frac{L_{t}^{1 + 1 / \nu}}{1 + 1 / \nu}
 $$
 - Falls into balanced growth preference set with  $\nu(L_t) = \exp(-\psi \frac{L_t^{1 + 1/\nu}}{1 + 1/\nu})$
 - Implied labor supply:
 $$
-\psi L _ {t} ^ {1 / \nu} C _ {t} = W _ {t}
+\psi L_{t}^{1 / \nu} C_{t} = W_{t}
 $$
 - Suppose constant (gross) growth rates for:
 - Consumption:  $g_{C}$
@@ -6831,27 +6831,27 @@ Wages:  $g_{W}$
 Labor supply curve  $\psi L_{t}^{1 / \nu}C_{t} = W_{t}$  implies  $g_{L}^{1 / \nu}g_{C} = g_{W}$
 - Resource constraint  $W_{t}L_{t} = C_{t}$  implies  $g_{L}g_{W} = g_{C}$
 - Solving this system yields:
-$$ g _ {C} = g _ {W} \quad \text {a n d} \quad g _ {L} = 1
+$$ g_{C} = g_{W} \quad \text{an d} \quad g_{L} = 1
 $$
 
 MaCurdy (1981) assumed
 
 $$
-\frac {C _ {t} ^ {1 - \sigma} - 1}{1 - \sigma} - \psi \frac {L _ {t} ^ {1 + 1 / \nu}}{1 + 1 / \nu}
+\frac{C_{t}^{1 - \sigma} - 1}{1 - \sigma} - \psi \frac{L_{t}^{1 + 1 / \nu}}{1 + 1 / \nu}
 $$
 - Consumption term generalization of  $\log C_t$
 - When  $\sigma \neq 1$ , growth not balanced
 Labor supply becomes
 $$
-\psi L _ {t} ^ {1 / \nu} C _ {t} ^ {\sigma} = W _ {t}
+\psi L_{t}^{1 / \nu} C_{t}^{\sigma} = W_{t}
 $$
 
 In growth rates we have:
 
-$$ g _ {L} ^ {1 / \nu} g _ {C} ^ {\sigma} = g _ {W} \quad \text {a n d} \quad g _ {L} g _ {W} = g _ {C}
+$$ g_{L}^{1 / \nu} g_{C}^{\sigma} = g_{W} \quad \text{an d} \quad g_{L} g_{W} = g_{C}
 $$
 - Which implies:
-$$ g _ {L} = g _ {W} ^ {\frac {\nu (1 - \sigma)}{1 + \nu \sigma}} \quad \text {a n d} \quad g _ {C} = g _ {W} ^ {\frac {1 + \nu}{1 + \nu \sigma}}
+$$ g_{L} = g_{W}^{\frac{\nu (1 - \sigma)}{1 + \nu \sigma}} \quad \text{an d} \quad g_{C} = g_{W}^{\frac{1 + \nu}{1 + \nu \sigma}}
 $$
 
 So  $g_{L} < 1$  (i.e., falling hours) if  $\sigma > 1$
@@ -6865,7 +6865,7 @@ Coefficient of relative risk aversion
 - Reciprocal of elasticity of intertemporal substitution
 - Generalized "balanced growth" preferences:
 $$
-U (C _ {t}, L _ {t}) = \left\{ \begin{array}{l l} \frac {\left(C _ {t} v \left(L _ {t} C _ {t} ^ {\frac {\theta}{1 - \theta}}\right)\right) ^ {1 - \sigma} - 1}{1 - \sigma} & \text {i f} \sigma \neq 1 \\ \log (C _ {t}) + \log v \left(L _ {t} C _ {t} ^ {\frac {\theta}{1 - \theta}}\right) & \text {i f} \sigma = 1 \end{array} \right.
+U (C_{t}, L_{t}) = \left\{ \begin{array}{l l} \frac{\left(C_{t} v \left(L_{t} C_{t}^{\frac{\theta}{1 - \theta}}\right)\right)^{1 - \sigma} - 1}{1 - \sigma} & \text{if } \sigma \neq 1 \\ \log (C_{t}) + \log v \left(L_{t} C_{t}^{\frac{\theta}{1 - \theta}}\right) & \text{if } \sigma = 1 \end{array} \right.
 $$
 - Yield balanced growth with trending hours
 Balanced growth:
@@ -6897,7 +6897,7 @@ A Decomposition of the Change in Hours Worked Per Capita in France and the Unite
 Source: OECD Economic Outlook database.
 To address these questions, it is useful to decompose the change in hours worked per capita into its different components:
 $$
-\Delta (H N / P) = \Delta \ln H + \Delta \ln (N / L) + \Delta \ln (L / P _ {A}) + \Delta \ln (P _ {A} / P).
+\Delta (H N / P) = \Delta \ln H + \Delta \ln (N / L) + \Delta \ln (L / P_{A}) + \Delta \ln (P_{A} / P).
 $$
 The change in hours worked per capita,  $HN / P$ , can be written as the change in hours worked per worker,  $H$ , plus the change in the employment rate—the ratio of employment,  $N$ , to the labor force,  $L$ —plus the change in the participation rate—the ratio of the labor force  $L$  to the population of working age,  $P_A$ , plus the change in the ratio of the population of working age to total population,  $P$ . The decomposition of the change in hours worked into these components is given in Table 2 for France and the United States, for the period 1970 to 2000.
 Source: Blanchard (JEP 2004).
@@ -6913,32 +6913,32 @@ Hiring and firing costs
 Higher taxes
 - Representative household maximizes:
 $$
-E \left\{\sum_ {t = 0} ^ {\infty} \beta^ {t} \left(\log c _ {t} + \alpha \log \left(1 - h _ {t}\right)\right) \right\}
+E \left\{\sum_{t = 0}^{\infty} \beta^{t} \left(\log c_{t} + \alpha \log \left(1 - h_{t}\right)\right) \right\}
 $$
 Household owns capital and rents to firms
 $\bullet$  Law of motion for capital:
-$$ k _ {t + 1} = (1 - \delta) k _ {t} + x _ {t}
+$$ k_{t + 1} = (1 - \delta) k_{t} + x_{t}
 $$
 - Representative firm produces using Cobb-Douglas technology:
-$$ y _ {t} = c _ {t} + x _ {t} + g _ {t} \leq A _ {t} k _ {t} ^ {\theta} h _ {t} ^ {1 - \theta}
+$$ y_{t} = c_{t} + x_{t} + g_{t} \leq A_{t} k_{t}^{\theta} h_{t}^{1 - \theta}
 $$
 Household budget constraint:
 $$
-\left(1 + \tau_ {c}\right) c _ {t} + \left(1 + \tau_ {x}\right) x _ {t} = \left(1 - \tau_ {h}\right) w _ {t} h _ {t} + \left(1 - \tau_ {k}\right) \left(r _ {t} - \delta\right) k _ {t} + \delta k _ {t} + T _ {t}
+\left(1 + \tau_{c}\right) c_{t} + \left(1 + \tau_{x}\right) x_{t} = \left(1 - \tau_{h}\right) w_{t} h_{t} + \left(1 - \tau_{k}\right) \left(r_{t} - \delta\right) k_{t} + \delta k_{t} + T_{t}
 $$
 Labor supply:
 $$
-\frac {\alpha / (1 - h)}{1 / c} = (1 - \tau) w
+\frac{\alpha / (1 - h)}{1 / c} = (1 - \tau) w
 $$ where
 $$
-(1 - \tau) = \left(1 - \frac {\tau_ {h} + \tau_ {c}}{1 + \tau_ {c}}\right) = \frac {1 - \tau_ {h}}{1 + \tau_ {c}}
+(1 - \tau) = \left(1 - \frac{\tau_{h} + \tau_{c}}{1 + \tau_{c}}\right) = \frac{1 - \tau_{h}}{1 + \tau_{c}}
 $$
 Labor demand:
 $$
-(1 - \theta) \frac {y}{h} = w
+(1 - \theta) \frac{y}{h} = w
 $$
 Combining labor supply and labor demand yields:
-$$ h _ {i t} = \frac {1 - \theta}{1 - \theta + \frac {c _ {i t}}{y _ {i t}} \frac {\alpha}{1 - \tau_ {i t}}}
+$$ h_{i t} = \frac{1 - \theta}{1 - \theta + \frac{c_{i t}}{y_{i t}} \frac{\alpha}{1 - \tau_{i t}}}
 $$
 Hours worked governed by: consumption-output ratio  $(c_{it} / y_{it})$
 taxes  $(\tau_{it})$
@@ -6961,80 +6961,80 @@ Main Conclusion:
 "The important observation is that the low labor supplies in Germany, France, and Italy are due to high tax rates."
 Household preferences:
 $$
-\frac {C _ {t} ^ {1 - \sigma} - 1}{1 - \sigma} - \psi \frac {L _ {t} ^ {1 + 1 / \nu}}{1 + 1 / \nu}
+\frac{C_{t}^{1 - \sigma} - 1}{1 - \sigma} - \psi \frac{L_{t}^{1 + 1 / \nu}}{1 + 1 / \nu}
 $$
 No capital
 Production function:
 $$
-Y _ {t} = A _ {t} L _ {t}
+Y_{t} = A_{t} L_{t}
 $$
 Resource constraint:
 $$
-Y _ {t} = C _ {t}
+Y_{t} = C_{t}
 $$
 Household budget constraint:
 $$
-\left(1 + \tau_ {c}\right) C _ {t} = \left(1 - \tau_ {L}\right) W _ {t} L _ {t} + T _ {t}
+\left(1 + \tau_{c}\right) C_{t} = \left(1 - \tau_{L}\right) W_{t} L_{t} + T_{t}
 $$
 Labor Supply:
 $$
-\psi L _ {t} ^ {1 / \nu} C _ {t} ^ {\sigma} = \frac {1 - \tau_ {L}}{1 + \tau_ {C}} W _ {t}
+\psi L_{t}^{1 / \nu} C_{t}^{\sigma} = \frac{1 - \tau_{L}}{1 + \tau_{C}} W_{t}
 $$
 Labor Demand:
 $$
-W _ {t} = A _ {t} = \frac {Y _ {t}}{L _ {t}}
+W_{t} = A_{t} = \frac{Y_{t}}{L_{t}}
 $$
 Combining these yields:
 $$
-\psi L _ {t} ^ {\sigma + 1 / \nu} = (1 - \tau) A ^ {1 - \sigma}
+\psi L_{t}^{\sigma + 1 / \nu} = (1 - \tau) A^{1 - \sigma}
 $$
 - Taking logs and differences yields:
 $$
-\log L _ {i t} - \log L _ {j t} = \frac {\nu}{1 + \sigma \nu} (\log (1 - \tau_ {i t}) - \log (1 - \tau_ {j t}))
+\log L_{i t} - \log L_{j t} = \frac{\nu}{1 + \sigma \nu} (\log (1 - \tau_{i t}) - \log (1 - \tau_{j t}))
 $$
 - With balanced growth preferences  $\sigma = 1$ :
 $$
-\log L _ {i t} - \log L _ {j t} = \frac {\nu}{1 + \nu} (\log (1 - \tau_ {i t}) - \log (1 - \tau_ {j t}))
+\log L_{i t} - \log L_{j t} = \frac{\nu}{1 + \nu} (\log (1 - \tau_{i t}) - \log (1 - \tau_{j t}))
 $$
 - Two key assumptions regarding effect of taxes on labor supply:
 1. Parameter  $\nu$
 2. Absence of income effects
 Labor supply in logs:
 $$
-\log L _ {t} = \nu \log W _ {t} + \nu \log (1 - \tau) - \nu \log C _ {t} - \log \psi
+\log L_{t} = \nu \log W_{t} + \nu \log (1 - \tau) - \nu \log C_{t} - \log \psi
 $$
 - From this we see that  $\nu$  is the "Frisch" elasticity of labor supply
 - Frisch elasticity: elasticity of labor supply with respect to the wage holding marginal utility (i.e., consumption) constant
 Prescott assumed:
 $$
-\log c _ {t} + \alpha \log \left(1 - h _ {t}\right)
+\log c_{t} + \alpha \log \left(1 - h_{t}\right)
 $$
 - What does this imply about Frisch elasticity?
 - If  $V(L_{t}) = \alpha \log (1 - L_{t})$  then Frisch elasticity is
 $$
-\frac {1}{\nu} = \frac {V ^ {\prime \prime} (L) L}{V ^ {\prime} (L)}
+\frac{1}{\nu} = \frac{V^{\prime \prime} (L) L}{V^{\prime} (L)}
 $$
 $$
-\nu = \frac {1 - L}{L}
+\nu = \frac{1 - L}{L}
 $$
 - If we assume that steady state labor is  $1/4$  of available time (this is ballpark what Prescott assumed)
 $$
-\nu = \frac {3 / 4}{1 / 4} = 3
+\nu = \frac{3 / 4}{1 / 4} = 3
 $$
 $$
-\log L _ {i t} - \log L _ {j t} = \frac {\nu}{\nu + 1} (\log (1 - \tau_ {i t}) - \log (1 - \tau_ {j t}))
+\log L_{i t} - \log L_{j t} = \frac{\nu}{\nu + 1} (\log (1 - \tau_{i t}) - \log (1 - \tau_{j t}))
 $$
 - With  $\nu = 3$ , we have that  $\nu / (\nu + 1) = 3/4$  and
 $$
-\frac {\nu}{\nu + 1} \left(\log \left(1 - \tau_ {F R}\right) - \log \left(1 - \tau_ {U S}\right)\right) = \frac {3}{4} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 2 9
+\frac{\nu}{\nu + 1} \left(\log \left(1 - \tau_{F R}\right) - \log \left(1 - \tau_{U S}\right)\right) = \frac{3}{4} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 2 9
 $$
 - With  $\nu = 0.5$ , we have that  $\nu / (\nu + 1) = 1/3$  and
 $$
-\frac {\nu}{\nu + 1} \left(\log \left(1 - \tau_ {F R}\right) - \log \left(1 - \tau_ {U S}\right)\right) = \frac {1}{3} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 1 3
+\frac{\nu}{\nu + 1} \left(\log \left(1 - \tau_{F R}\right) - \log \left(1 - \tau_{U S}\right)\right) = \frac{1}{3} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 1 3
 $$
 - With  $\nu = 0.1$ , we have that  $\nu / (\nu + 1) = 1 / 11$  and
 $$
-\frac {\nu}{\nu + 1} \left(\log \left(1 - \tau_ {F R}\right) - \log \left(1 - \tau_ {U S}\right)\right) = \frac {1}{1 1} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 0 3
+\frac{\nu}{\nu + 1} \left(\log \left(1 - \tau_{F R}\right) - \log \left(1 - \tau_{U S}\right)\right) = \frac{1}{1 1} \left(\log (1 - 0. 5 9) - \log (1 - 0. 4)\right) = - 0. 0 3
 $$
 # The Many Elasticities of Labor Supply
 Marshallian:
@@ -7051,25 +7051,25 @@ Frisch:
 - Intertemporal elasticity of labor supply
 Marshallian:
 $$
-\nu_ {M} = \frac {1 - \sigma S}{1 / \nu + \sigma S}
+\nu_{M} = \frac{1 - \sigma S}{1 / \nu + \sigma S}
 $$
 Hicksian:
 $$
-\nu_ {H} = \frac {1}{1 / \nu + \sigma \mathsf {S}}
+\nu_{H} = \frac{1}{1 / \nu + \sigma \mathsf {S}}
 $$
 Frisch:
 V
 Where  $S$  is the labor income as a fraction of total income
 See Keane (JEL 2011) for derivations
 $$
-\frac {1 - \sigma S}{1 / \nu + \sigma S} \leq \frac {1}{1 / \nu + \sigma S} \leq \nu
+\frac{1 - \sigma S}{1 / \nu + \sigma S} \leq \frac{1}{1 / \nu + \sigma S} \leq \nu
 $$
 $$
-\nu_ {M} \leq \nu_ {H} \leq \nu
+\nu_{M} \leq \nu_{H} \leq \nu
 $$
 - With quasi-linear preference (i.e., linear in consumption  $(\sigma = 0)$ ):
 $$
-\nu_ {M} = \nu_ {H} = \nu
+\nu_{M} = \nu_{H} = \nu
 $$
 Common assumption in applied micro
 - For long-run general equilibrium analysis, this assumption is suspect
@@ -7077,37 +7077,37 @@ Common assumption in applied micro
 - Consider change in a flat tax with revenue rebated back lump sum
 We calculated this before:
 $$
-\begin{array}{l} \log L _ {i t} - \log L _ {j t} = \frac {\nu}{1 + \sigma \nu} \left(\log \left(1 - \tau_ {i t}\right) - \log \left(1 - \tau_ {j t}\right)\right) \\ = \frac {1}{1 / \nu + \sigma} (\log (1 - \tau_ {i t}) - \log (1 - \tau_ {j t})) \\ \end{array}
+\begin{array}{l} \log L_{i t} - \log L_{j t} = \frac{\nu}{1 + \sigma \nu} \left(\log \left(1 - \tau_{i t}\right) - \log \left(1 - \tau_{j t}\right)\right) \\ = \frac{1}{1 / \nu + \sigma} (\log (1 - \tau_{i t}) - \log (1 - \tau_{j t})) \\ \end{array}
 $$
 - Relevant elasticity is the Hicksian elasticity (with  $S = 1$ )
 The fact that revenue is rebated kills the income effect
 - Change in a flat tax with revenue used for  $G_{t}$  that enter utility separately (e.g., military spending, infrastructure, or wasteful spending)
 Labor Supply:
 $$
-\psi L _ {t} ^ {1 / \nu} C _ {t} ^ {\sigma} = (1 - \tau) W _ {t}
+\psi L_{t}^{1 / \nu} C_{t}^{\sigma} = (1 - \tau) W_{t}
 $$
 Labor Demand:
 $$
-W _ {t} = A _ {t}
+W_{t} = A_{t}
 $$
 - Consumption:
 $$
-C _ {t} = Y _ {t} - \tau Y _ {t} = (1 - \tau) A _ {t} L _ {t}
+C_{t} = Y_{t} - \tau Y_{t} = (1 - \tau) A_{t} L_{t}
 $$
 Combining these yields:
 $$
-\psi L _ {t} ^ {\sigma + 1 / \nu} = (1 - \tau) ^ {1 - \sigma} A ^ {1 - \sigma}
+\psi L_{t}^{\sigma + 1 / \nu} = (1 - \tau)^{1 - \sigma} A^{1 - \sigma}
 $$
 $$
-\psi L _ {t} ^ {\sigma + 1 / \nu} = (1 - \tau) ^ {1 - \sigma} A ^ {1 - \sigma}
+\psi L_{t}^{\sigma + 1 / \nu} = (1 - \tau)^{1 - \sigma} A^{1 - \sigma}
 $$
 - Taking log yields:
 $$
-\log \psi + \left(\sigma + \frac {1}{\nu}\right) \log L = (1 - \sigma) \log (1 - \tau) + (1 - \sigma) \log A
+\log \psi + \left(\sigma + \frac{1}{\nu}\right) \log L = (1 - \sigma) \log (1 - \tau) + (1 - \sigma) \log A
 $$
 - Taking differences yields:
 $$
-\log L _ {t} - \log L _ {s} = \left(\frac {1 - \sigma}{1 / \nu + \sigma}\right) \left(\log \left(1 - \tau_ {t}\right) - \log \left(1 - \tau_ {s}\right)\right)
+\log L_{t} - \log L_{s} = \left(\frac{1 - \sigma}{1 / \nu + \sigma}\right) \left(\log \left(1 - \tau_{t}\right) - \log \left(1 - \tau_{s}\right)\right)
 $$
 - Marshallian elasticity (with  $S = 1$ ) governs effects of this tax change
 - Potentially much smaller than with rebate due to income effect
@@ -7116,11 +7116,11 @@ $$
 - Consider a temporary tax change in a dynamic setting
 Take log of labor supply
 $$
-\log \psi + \frac {1}{\nu} \log L _ {t} + \sigma \log C _ {t} = \log (1 - \tau) + \log W _ {t}
+\log \psi + \frac{1}{\nu} \log L_{t} + \sigma \log C_{t} = \log (1 - \tau) + \log W_{t}
 $$
 Take differences:
 $$
-\Delta \log L _ {t} = \nu \Delta \log (1 - \tau) + \nu \Delta \log W _ {t} - \nu \Delta \sigma \log C _ {t}
+\Delta \log L_{t} = \nu \Delta \log (1 - \tau) + \nu \Delta \log W_{t} - \nu \Delta \sigma \log C_{t}
 $$
 - If tax change has no effect on wages and consumption, Frisch elasticity governs effect
 In general equilibrium, wages and consumption may change
@@ -7262,23 +7262,23 @@ $$
 The Cobb-Douglas production function satisfies all three properties
 Hicks Neutral:
 $$
-A (t) K (t) ^ {\alpha} L (t) ^ {1 - \alpha}
+A (t) K (t)^{\alpha} L (t)^{1 - \alpha}
 $$
 
 Harrod Neutral:
 
 $$
-K (t) ^ {\alpha} [ \tilde {A} (t) L (t) ] ^ {1 - \alpha} \text {w h e r e} \tilde {A} (t) = A (t) ^ {1 / (1 - \alpha)}
+K (t)^{\alpha} [ \tilde {A} (t) L (t) ]^{1 - \alpha} \text{wh er e} \tilde {A} (t) = A (t)^{1 / (1 - \alpha)}
 $$
 - Solow Neutral:
 $$
-[ \check {A} (t) K (t) ] ^ {\alpha} L (t) ^ {1 - \alpha} \text {w h e r e} \check {A} (t) = A (t) ^ {1 / \alpha}
+[ \check {A} (t) K (t) ]^{\alpha} L (t)^{1 - \alpha} \text{wh er e} \check {A} (t) = A (t)^{1 / \alpha}
 $$
 
 Cobb-Douglas:
 
 $$
-Y (t) = A (t) K (t) ^ {\alpha} L (t) ^ {1 - \alpha}
+Y (t) = A (t) K (t)^{\alpha} L (t)^{1 - \alpha}
 $$
 
 $\alpha$  "weight" on capital (and capital share)
@@ -7286,7 +7286,7 @@ $\alpha$  "weight" on capital (and capital share)
 - Elasticity of substitution between capital and labor is 1
 - Constant elasticity of substitution (CES):
 $$
-Y (t) = \left[ \alpha \left(A _ {K} (t) K (t)\right) ^ {\frac {\sigma - 1}{\sigma}} + (1 - \alpha) \left(A _ {L} (t) L (t)\right) ^ {\frac {\sigma - 1}{\sigma}} \right] ^ {\frac {\sigma}{\sigma - 1}}
+Y (t) = \left[ \alpha \left(A_{K} (t) K (t)\right)^{\frac{\sigma - 1}{\sigma}} + (1 - \alpha) \left(A_{L} (t) L (t)\right)^{\frac{\sigma - 1}{\sigma}} \right]^{\frac{\sigma}{\sigma - 1}}
 $$
 - Elasticity of substitution between capital and labor is  $\sigma$
 # Roughly speaking:
@@ -7314,12 +7314,12 @@ Few technologies increase the productivity of a factor in all tasks
 - Power loom: Replaces master weaver, creates new tasks for labor to design, build, and operate machines
 - Production accomplished by performing a set of tasks (Zeira 98, Acemoglu-Restrepo 18)
 $$
-Y = \left[ \int_ {N - 1} ^ {N} y (z) ^ {\frac {\sigma - 1}{\sigma}} d z \right] ^ {\frac {\sigma}{\sigma - 1}}
+Y = \left[ \int_{N - 1}^{N} y (z)^{\frac{\sigma - 1}{\sigma}} d z \right]^{\frac{\sigma}{\sigma - 1}}
 $$
 
 Each task either technologically automated or not:
 
-$$ y (z) = \left\{ \begin{array}{l l} A ^ {L} \psi^ {L} (z) L (z) + A ^ {K} \psi^ {K} (z) K (z) & \text {i f} z \in [ N - 1, I ] \\ A ^ {L} \psi^ {L} (z) L (z) & \text {i f} z \in (I, N ] \end{array} \right.
+$$ y (z) = \left\{ \begin{array}{l l} A^{L} \psi^{L} (z) L (z) + A^{K} \psi^{K} (z) K (z) & \text{if } z \in [ N - 1, I ] \\ A^{L} \psi^{L} (z) L (z) & \text{if } z \in (I, N ] \end{array} \right.
 $$
 
 $\bullet$ $\psi^L (z)$  and  $\psi^K (z)$  task-specific productivity of factors
@@ -7347,19 +7347,19 @@ Cost of production
 Source: Acemoglu, Economic Growth Lecture 10, 2023 ( $\gamma$ 's are supposed to be  $\psi$ 's)
 - Output can be represented by CES production function:
 $$
-Y = \Pi (I, N) \left[ \Gamma (I, N) (A _ {L} (t) L (t)) ^ {\frac {\sigma - 1}{\sigma}} + (1 - \Gamma (I, N)) (A _ {K} (t) K (t)) ^ {\frac {\sigma - 1}{\sigma}} \right] ^ {\frac {\sigma}{\sigma - 1}}
+Y = \Pi (I, N) \left[ \Gamma (I, N) (A_{L} (t) L (t))^{\frac{\sigma - 1}{\sigma}} + (1 - \Gamma (I, N)) (A_{K} (t) K (t))^{\frac{\sigma - 1}{\sigma}} \right]^{\frac{\sigma}{\sigma - 1}}
 $$
 
 Labor content of production:
 
 $$
-\Gamma (I, N) = \frac {\int_ {I} ^ {N} \psi^ {L} (z) ^ {\sigma - 1} d z}{\int_ {N - I} ^ {I} \psi^ {K} (z) ^ {\sigma - 1} d z + \int_ {I} ^ {N} \psi^ {L} (z) ^ {\sigma - 1} d z}
+\Gamma (I, N) = \frac{\int_{I}^{N} \psi^{L} (z)^{\sigma - 1} d z}{\int_{N - I}^{I} \psi^{K} (z)^{\sigma - 1} d z + \int_{I}^{N} \psi^{L} (z)^{\sigma - 1} d z}
 $$
 
 Total factor productivity:
 
 $$
-\Pi (I, N) = \left[ \int_ {N - 1} ^ {I} \psi^ {K} (z) ^ {\sigma - 1} d z + \int_ {I} ^ {N} \psi^ {L} (z) ^ {\sigma - 1} \right] ^ {\frac {1}{\sigma - 1}}
+\Pi (I, N) = \left[ \int_{N - 1}^{I} \psi^{K} (z)^{\sigma - 1} d z + \int_{I}^{N} \psi^{L} (z)^{\sigma - 1} \right]^{\frac{1}{\sigma - 1}}
 $$
 - Technical change affects both  $\Gamma(I, N)$  and  $\Pi(I, N)$
 - Displacement effect: Technical change can displace workers
@@ -7382,13 +7382,13 @@ Present a model where all technology is
 - If tasks are complements, this reduces spending on that task
 Combination of the two can yield stable capital share
 Definition: A function  $f$  is homogeneous of degree  $m$  in  $x$  and  $y$  if
-$$ f (\lambda x, \lambda y, z) = \lambda^ {m} f (x, y, z)
+$$ f (\lambda x, \lambda y, z) = \lambda^{m} f (x, y, z)
 $$
 - $m < 1$ : decreasing returns to scale
 - $m = 1$ : constant returns to scale
 - $m > 1$ : increasing returns to scale
 Euler's Theorem: If  $f$  is homogeneous of degree  $m$  in  $x$  and  $y$ :
-$$ m f (x, y, z) = \frac {\partial}{\partial x} f (x, y, z) x + \frac {\partial}{\partial y} f (x, y, z) y
+$$ m f (x, y, z) = \frac{\partial}{\partial x} f (x, y, z) x + \frac{\partial}{\partial y} f (x, y, z) y
 $$
 
 (See Acemoglu (2009, p. 29) for a more careful statement of this theorem.)
@@ -7418,7 +7418,7 @@ F (c K, c A L) = c F (K, A L)
 $$ we can write production function in intensive form:
 $$
 
-\frac {Y}{A L} = \frac {1}{A L} F (K, A L) = F \left(\frac {K}{A L}, 1\right)
+\frac{Y}{A L} = \frac{1}{A L} F (K, A L) = F \left(\frac{K}{A L}, 1\right)
 
 $$
 - Define:
@@ -7444,7 +7444,7 @@ Also …
 $\mathsf{f}(0) = 0$
 Inada conditions:
 $$
-\lim  _ {k \rightarrow 0} f ^ {\prime} (k) = \infty \quad \text {a n d} \quad \lim  _ {k \rightarrow \infty} f ^ {\prime} (k) = 0
+\lim_{k \rightarrow 0} f^{\prime} (k) = \infty \quad \text{an d} \quad \lim_{k \rightarrow \infty} f^{\prime} (k) = 0
 $$
 # NEOCLASSICAL PRODUCTION FUNCTION
 
@@ -7455,12 +7455,12 @@ FIGURE 1.1 An example of a production function
 Source: Romer (2019)
 
 - If the production function is Cobb-Douglas, we have
-$$ y = \frac {Y}{A L} = \frac {1}{A L} K ^ {\alpha} (A L) ^ {1 - \alpha} = \left(\frac {K}{A L}\right) ^ {\alpha} = k ^ {\alpha}.
+$$ y = \frac{Y}{A L} = \frac{1}{A L} K^{\alpha} (A L)^{1 - \alpha} = \left(\frac{K}{A L}\right)^{\alpha} = k^{\alpha}.
 $$
 
 So, we have:
 
-$$ y = k ^ {\alpha}
+$$ y = k^{\alpha}
 $$
 - This function satisfies all the conditions we have specified on previous slides
 - Early post-WWII debate between (mostly) British and (mostly) US economists
@@ -7510,11 +7510,11 @@ $$
 $$
 - Notice that
 $$
-\frac {d \log X (t)}{d t} = \frac {d \log X (t)}{d X (t)} \frac {d X (t)}{d t} = \frac {\dot {X} (t)}{X (t)}
+\frac{d \log X (t)}{d t} = \frac{d \log X (t)}{d X (t)} \frac{d X (t)}{d t} = \frac{\dot {X} (t)}{X (t)}
 $$ where log denotes the natural log
 $$
 
-\frac {d \log L (t)}{d t} = \frac {\dot {L} (t)}{L (t)} = n
+\frac{d \log L (t)}{d t} = \frac{\dot {L} (t)}{L (t)} = n
 
 $$
 $$
@@ -7524,7 +7524,7 @@ $$
 $$
 $$
 
-L (t) = L (0) e ^ {n t}
+L (t) = L (0) e^{n t}
 
 $$ and similarly for  $A(t)$
 
@@ -7567,19 +7567,19 @@ Important to keep this distinction clear
 - A stable steady state is a point the system stays at if unperturbed and returns to if perturbed by a small amount
 - Since  $L\left( t\right)$  and  $A\left( t\right)$  are growing,no steady state in the original variables
 Key to finding a steady state to work with transformed variables:
-$$ y (t) = \frac {Y (t)}{A (t) L (t)} \quad k (t) = \frac {K (t)}{A (t) L (t)}
+$$ y (t) = \frac{Y (t)}{A (t) L (t)} \quad k (t) = \frac{K (t)}{A (t) L (t)}
 $$
 
 Using the chain rule we have that
 
 $$
-\begin{array}{l} \dot {k} (t) = \frac {\dot {K} (t)}{A (t) L (t)} - \frac {K (t)}{[ A (t) L (t) ] ^ {2}} [ \dot {A} (t) L (t) + A (t) \dot {L} (t) ] \\ = \frac {\dot {K} (t)}{A (t) L (t)} - \frac {K (t)}{A (t) L (t)} \frac {\dot {L} (t)}{L (t)} - \frac {K (t)}{A (t) L (t)} \frac {\dot {A} (t)}{A (t)} \\ \end{array}
+\begin{array}{l} \dot {k} (t) = \frac{\dot {K} (t)}{A (t) L (t)} - \frac{K (t)}{[ A (t) L (t) ]^{2}} [ \dot {A} (t) L (t) + A (t) \dot {L} (t) ] \\ = \frac{\dot {K} (t)}{A (t) L (t)} - \frac{K (t)}{A (t) L (t)} \frac{\dot {L} (t)}{L (t)} - \frac{K (t)}{A (t) L (t)} \frac{\dot {A} (t)}{A (t)} \\ \end{array}
 $$
 
 Using  $\dot{L} / L = n$ ,  $\dot{A} / A = g$ , and  $\dot{K} = sY - \delta K$  we have that
 
 $$
-\dot {k} (t) = \frac {s Y (t) - \delta K (t)}{A (t) L (t)} - n k (t) - g k (t)
+\dot {k} (t) = \frac{s Y (t) - \delta K (t)}{A (t) L (t)} - n k (t) - g k (t)
 $$
 
 Using  $y = f(k)$  we have that
@@ -7673,16 +7673,16 @@ $$
 $$
 - Divide by  $k(t)$ :
 $$
-\frac {\dot {k} (t)}{k (t)} = \frac {s f (k (t))}{k (t)} - (n + g + \delta)
+\frac{\dot {k} (t)}{k (t)} = \frac{s f (k (t))}{k (t)} - (n + g + \delta)
 $$
 - Left-hand-side is growth rate of capital
 - $(n + g + \delta)$  is constant as a function of  $k(t)$
 While
 $$
-\lim  _ {k \rightarrow 0} \frac {s f (k (t))}{k (t)} = \infty \quad \lim  _ {k \rightarrow \infty} \frac {s f (k (t))}{k (t)} = 0
+\lim_{k \rightarrow 0} \frac{s f (k (t))}{k (t)} = \infty \quad \lim_{k \rightarrow \infty} \frac{s f (k (t))}{k (t)} = 0
 $$
 $$
-\frac {d}{d k} \frac {s f (k)}{k} = - s \frac {f (k) / k - f ^ {\prime} (k)}{k} <   0
+\frac{d}{d k} \frac{s f (k)}{k} = - s \frac{f (k) / k - f^{\prime} (k)}{k} <   0
 $$
 
 (numerator is average product of capital minus marginal product of capital)
@@ -7693,15 +7693,15 @@ Source: Barro and Sala-I-Martin (2004). Figure is for  $g = 0$ . Adding  $g > 0$
 
 - Differentiate  $y(t) = f(k(t))$  with respect to  $t$
 $$
-\dot {y} (t) = f ^ {\prime} (k (t)) \dot {k} (t)
+\dot {y} (t) = f^{\prime} (k (t)) \dot {k} (t)
 $$
 - Divide through by  $y(t)$ :
 $$
-\frac {\dot {y} (t)}{y (t)} = \frac {f ^ {\prime} (k (t)) k (t)}{f (k (t))} \frac {\dot {k} (t)}{k (t)}
+\frac{\dot {y} (t)}{y (t)} = \frac{f^{\prime} (k (t)) k (t)}{f (k (t))} \frac{\dot {k} (t)}{k (t)}
 $$
 - Let  $g_{x}$  denote the growth rate of  $x_{t}$  and  $\alpha_{K}(k(t)) = f'(k(t)) k(t) / f(k(t))$ .
 $$
-\mathbf {g} _ {y} = \alpha_ {K} (k (t)) \mathbf {g} _ {k}
+\mathbf {g}_{y} = \alpha_{K} (k (t)) \mathbf {g}_{k}
 $$
 
 $(\alpha_{K}(k(t))$  is the elasticity of output with respect to capital.)
@@ -7714,7 +7714,7 @@ Growth rate of output is proportional to growth rate of capital
 - Analyzed data for 16 industrialized countries for which long historical data were available
 Estimated:
 $$
-\log \tilde {y} _ {i, 1 9 7 9} - \log \tilde {y} _ {i, 1 8 7 0} = a + b \log \tilde {y} _ {i, 1 8 7 0} + \epsilon_ {i}
+\log \tilde {y}_{i, 1 9 7 9} - \log \tilde {y}_{i, 1 8 7 0} = a + b \log \tilde {y}_{i, 1 8 7 0} + \epsilon_{i}
 $$ where  $\tilde{y}_{i,t}$  denotes output per person in country  $i$  at time  $t$
 - Negative  $b$  indicates convergence (initial poor grow faster)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/bdfb3ff861382ba896b84326010dd6da097e6e6b11f95d1130e6ae44ceb77a22.jpg)
@@ -7753,12 +7753,12 @@ $$
 
 $$
 - If  $f(k(t)) = k(t)^{\alpha}$ , steady state:
-$$ k ^ {*} = \left(\frac {s}{n + g + \delta}\right) ^ {1 / (1 - \alpha)}
+$$ k^{*} = \left(\frac{s}{n + g + \delta}\right)^{1 / (1 - \alpha)}
 $$
 - But  $k = K / AL$  is not observable (A is not observable)
 - Let's rewrite the steady state in terms of  $K / L$
 $$
-\left(\frac {K}{L}\right) ^ {*} = A \left(\frac {s}{n + g + \delta}\right) ^ {1 / (1 - \alpha)}
+\left(\frac{K}{L}\right)^{*} = A \left(\frac{s}{n + g + \delta}\right)^{1 / (1 - \alpha)}
 $$
 - Model implies convergence conditional on:  $A, s, n, g, \delta$
 TABLE III TESTS FOR UNCONDITIONAL CONVERGENCE
@@ -7779,7 +7779,7 @@ C. Conditional on saving, population growth and human capital
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/58629b4ea9e12cf3788bf303946b378c06652cafc71005610a514e0ff4901f78.jpg)
 Source: Mankiw, Romer, Weil (1992)
 $$
-\left(\frac {K}{L}\right) ^ {*} = A \left(\frac {s}{n + g + \delta}\right) ^ {1 / (1 - \alpha)}
+\left(\frac{K}{L}\right)^{*} = A \left(\frac{s}{n + g + \delta}\right)^{1 / (1 - \alpha)}
 $$
 - Mankiw-Romer-Weil 92 condition on  $s, n$ , schooling
 - But what about  $A$ ?
@@ -7916,24 +7916,24 @@ So  $\dot{k} (t)$  is a function of  $k(t)$
 - Let's write this as  $\dot{k}(k)$  (dropping dependence on  $t$  for notational simplicity)
 A first-order Taylor series approximation of  $\dot{k}(k)$  around  $k^*$  is:
 $$
-\dot {k} \simeq \left[ \left. \frac {\partial \dot {k} (k)}{\partial k} \right| _ {k = k ^ {*}} \right] (k - k ^ {*})
+\dot {k} \simeq \left[ \left. \frac{\partial \dot {k} (k)}{\partial k} \right|_{k = k^{*}} \right] (k - k^{*})
 $$
 $(\dot{k}$  is zero at  $k^{*})$
 - Let's denote  $\lambda = -\partial \dot{k}(k) / \partial k|_{k=k^*}$  which means we have
 $$
-\dot {k} (t) \simeq - \lambda (k (t) - k ^ {*})
+\dot {k} (t) \simeq - \lambda (k (t) - k^{*})
 $$
 - Linear first-order differential equation:
 $$
-\dot {k} (t) \simeq - \lambda (k (t) - k ^ {*})
+\dot {k} (t) \simeq - \lambda (k (t) - k^{*})
 $$
 Solution:
-$$ k (t) - k ^ {*} \simeq e ^ {- \lambda t} [ k (0) - k ^ {*} ]
+$$ k (t) - k^{*} \simeq e^{- \lambda t} [ k (0) - k^{*} ]
 $$
 So,  $\lambda$  is rate of convergence
 Half-life:
 $$
-0. 5 = e ^ {- \lambda t}
+0. 5 = e^{- \lambda t}
 $$
 $$ t = - \log (0. 5) / \lambda \simeq 0. 6 9 / \lambda
 $$
@@ -7942,12 +7942,12 @@ $$
 \dot {k} (k) = s f (k) - (n + g + \delta) k
 $$ we get that
 $$
-\begin{array}{l} \lambda = - \left[ \frac {\partial \dot {k} (k)}{\partial k} \right| _ {k = k ^ {*}} \Bigg ] = - [ s f ^ {\prime} (k ^ {*}) - (n + g + \delta) ] \\ = (n + g + \delta) - \frac {(n + g + \delta) k ^ {*} f ^ {\prime} (k ^ {*})}{f (k ^ {*})} \\ = [ 1 - \alpha_ {K} (k ^ {*}) ] (n + g + \delta) \\ \end{array}
+\begin{array}{l} \lambda = - \left[ \frac{\partial \dot {k} (k)}{\partial k} \right|_{k = k^{*}} \Bigg ] = - [ s f^{\prime} (k^{*}) - (n + g + \delta) ] \\ = (n + g + \delta) - \frac{(n + g + \delta) k^{*} f^{\prime} (k^{*})}{f (k^{*})} \\ = [ 1 - \alpha_{K} (k^{*}) ] (n + g + \delta) \\ \end{array}
 $$
 - Speed of convergence of output is the same as capital
 - Solow model implies that speed of convergence is
 $$
-\lambda = [ 1 - \alpha_ {K} (k ^ {*}) ] (n + g + \delta)
+\lambda = [ 1 - \alpha_{K} (k^{*}) ] (n + g + \delta)
 $$
 Rough calibration:
 - Technological growth:  $g = 0.02$
@@ -7955,14 +7955,14 @@ Population growth:  $n = 0.01$
 Depreciation:  $\delta = 0.05$
 Capital share:  $\alpha_{K}(k^{*}) = 1 / 3$
 $$
-\lambda = \frac {2}{3} (0. 0 1 + 0. 0 2 + 0. 0 5) = 0. 0 5 3
+\lambda = \frac{2}{3} (0. 0 1 + 0. 0 2 + 0. 0 5) = 0. 0 5 3
 $$
 This implies a half-life of 13 years
 - Very fast convergence!!
 - To measure speed of convergence in the data, must run convergence regressions in terms of annual growth rates
 - Barro and Sala-I-Martin (1991, 1992) consider:
 $$
-\frac {1}{T} \log \left(\frac {y _ {i , t}}{y _ {i , t - T}}\right) = a - (1 - e ^ {- \beta T}) \frac {1}{T} \log y _ {i, t - T} + o t h e r v a r i a b l e s
+\frac{1}{T} \log \left(\frac{y_{i , t}}{y_{i , t - T}}\right) = a - (1 - e^{- \beta T}) \frac{1}{T} \log y_{i, t - T} + o t h e r v a r i a b l e s
 $$
 In this case,  $\beta$  is the annual rate of convergence
 Table 1. Regressions for Personal Income across U.S. States, 1880-1988
@@ -7978,7 +7978,7 @@ This implies a half-life of 35 years
 - Convergence is very slow in practice!!
 - Convergence in basic Solow model way too fast:
 $$
-\lambda = [ 1 - \alpha_ {K} (k ^ {*}) ] (n + g + \delta)
+\lambda = [ 1 - \alpha_{K} (k^{*}) ] (n + g + \delta)
 $$
 One way to reconcile model and data is to raise the value of  $\alpha_{K}(k^{*})$
 - if  $\alpha_{K}(k^{*}) \simeq 0.75$  then convergence will be close to  $2\%$  per year
@@ -8053,17 +8053,17 @@ Large number of identical firms seek to maximize profits
 Profit maximization implies that firms hire labor and capital to the point where their marginal product is equal to their price
 - First order condition for capital:
 $$
-\frac {\partial F (K , A L)}{\partial K} = r (t)
+\frac{\partial F (K , A L)}{\partial K} = r (t)
 $$ which implies
-$$ f ^ {\prime} (k (t)) = r (t)
+$$ f^{\prime} (k (t)) = r (t)
 $$
 Details
 - First order condition for labor:
 $$
-\frac {\partial F (K , A L)}{\partial L} = W (t)
+\frac{\partial F (K , A L)}{\partial L} = W (t)
 $$
 - We can rewrite this as
-$$ f (k (t)) - k (t) f ^ {\prime} (k (t)) = w (t)
+$$ f (k (t)) - k (t) f^{\prime} (k (t)) = w (t)
 $$ where  $w(t) = W(t) / A(t)$  (wage per effective unit of labor)
 Details
 One "representative" firm same as many small firms if
@@ -8072,11 +8072,11 @@ Common production function
 Common factor prices
 - Easy to derive for Cobb-Douglas case:
 $$
-Y = A K ^ {\alpha} L ^ {1 - \alpha}
+Y = A K^{\alpha} L^{1 - \alpha}
 $$
 Maximizing behavior implies Details
 $$
-Y = A \left(\frac {\alpha}{1 - \alpha}\right) ^ {\alpha} \left(\frac {W}{r}\right) ^ {\alpha} L
+Y = A \left(\frac{\alpha}{1 - \alpha}\right)^{\alpha} \left(\frac{W}{r}\right)^{\alpha} L
 $$
 Since production is linear in  $L$ , firm has no optimal size
 - Might as well be one large firm!
@@ -8089,9 +8089,9 @@ Key household choice:
 - How to divide income between consumption and savings
 Households maximize utility
 $$
-U = \int_ {t = 0} ^ {\infty} e ^ {- \rho t} u (C (t)) \frac {L (t)}{H} d t
+U = \int_{t = 0}^{\infty} e^{- \rho t} u (C (t)) \frac{L (t)}{H} d t
 $$ where
-$$ u (C (t)) = \frac {C (t) ^ {1 - \theta}}{1 - \theta}
+$$ u (C (t)) = \frac{C (t)^{1 - \theta}}{1 - \theta}
 $$
 $\rho$  is discount rate
 - $u(\cdot)$  gives each member's utility
@@ -8101,11 +8101,11 @@ Household's intertemporal budget constraint:
 Present value of consumption less than or equal to present value of income plus initial wealth
 Mathematically:
 $$
-\int_ {t = 0} ^ {\infty} e ^ {- R (t)} C (t) \frac {L (t)}{H} d t \leq \frac {K (0)}{H} + \int_ {t = 0} ^ {\infty} e ^ {- R (t)} W (t) \frac {L (t)}{H} d t
+\int_{t = 0}^{\infty} e^{- R (t)} C (t) \frac{L (t)}{H} d t \leq \frac{K (0)}{H} + \int_{t = 0}^{\infty} e^{- R (t)} W (t) \frac{L (t)}{H} d t
 $$
 Discounting with time-varying interest rate:
 $$
-R (t) = \int_ {\tau = 0} ^ {t} r (\tau) d \tau
+R (t) = \int_{\tau = 0}^{t} r (\tau) d \tau
 $$
 Why is this the budget constraint?
 - This condition rules out Ponzi-schemes:
@@ -8114,74 +8114,74 @@ Why is this the budget constraint?
 - Do this forever
 - Intertemporal budget constraint implies that
 $$
-\lim  _ {s \rightarrow \infty} e ^ {- R (s)} \frac {K (s)}{H} \geq 0
+\lim_{s \rightarrow \infty} e^{- R (s)} \frac{K (s)}{H} \geq 0
 $$
 (See Romer (2019, p. 54) for derivation)
 - Ponzi schemes violate this condition
 - Let's write household objective function in terms of consumption and labor per effective worker
 $$
-\begin{array}{l} \frac {C (t) ^ {1 - \theta}}{1 - \theta} = \frac {[ A (t) c (t) ] ^ {1 - \theta}}{1 - \theta} \\ = \frac {[ A (0) e ^ {g t} ] ^ {1 - \theta} c (t) ^ {1 - \theta}}{1 - \theta} \\ = A (0) ^ {1 - \theta} e ^ {(1 - \theta) g t} \frac {c (t) ^ {1 - \theta}}{1 - \theta} \\ \end{array}
+\begin{array}{l} \frac{C (t)^{1 - \theta}}{1 - \theta} = \frac{[ A (t) c (t) ]^{1 - \theta}}{1 - \theta} \\ = \frac{[ A (0) e^{g t} ]^{1 - \theta} c (t)^{1 - \theta}}{1 - \theta} \\ = A (0)^{1 - \theta} e^{(1 - \theta) g t} \frac{c (t)^{1 - \theta}}{1 - \theta} \\ \end{array}
 $$
 - Overall utility function becomes:
 $$
-\begin{array}{l} U = \int_ {t = 0} ^ {\infty} e ^ {- \rho t} \frac {C (t) ^ {1 - \theta}}{1 - \theta} \frac {L (t)}{H} d t \\ = \int_ {t = 0} ^ {\infty} e ^ {- \rho t} \left[ A (0) ^ {1 - \theta} e ^ {(1 - \theta) g t} \frac {c (t) ^ {1 - \theta}}{1 - \theta} \right] \frac {L (0) e ^ {n t}}{H} d t \\ = B \int_ {t = 0} ^ {\infty} e ^ {- \beta t} \frac {c (t) ^ {1 - \theta}}{1 - \theta} d t \\ \end{array}
+\begin{array}{l} U = \int_{t = 0}^{\infty} e^{- \rho t} \frac{C (t)^{1 - \theta}}{1 - \theta} \frac{L (t)}{H} d t \\ = \int_{t = 0}^{\infty} e^{- \rho t} \left[ A (0)^{1 - \theta} e^{(1 - \theta) g t} \frac{c (t)^{1 - \theta}}{1 - \theta} \right] \frac{L (0) e^{n t}}{H} d t \\ = B \int_{t = 0}^{\infty} e^{- \beta t} \frac{c (t)^{1 - \theta}}{1 - \theta} d t \\ \end{array}
 $$ where
 $$
-B = A (0) ^ {1 - \theta} \frac {L (0)}{H} \quad \beta = \rho - n - (1 - \theta) g
+B = A (0)^{1 - \theta} \frac{L (0)}{H} \quad \beta = \rho - n - (1 - \theta) g
 $$
 A similar change of variables for the budget constraint yields:
 $$
-\int_ {t = 0} ^ {\infty} e ^ {- R (t)} c (t) e ^ {(n + g) t} d t \leq k (0) + \int_ {t = 0} ^ {\infty} e ^ {- R (t)} w (t) e ^ {(n + g) t} d t
+\int_{t = 0}^{\infty} e^{- R (t)} c (t) e^{(n + g) t} d t \leq k (0) + \int_{t = 0}^{\infty} e^{- R (t)} w (t) e^{(n + g) t} d t
 $$
 - Maximize:
 $$
-U = B \int_ {t = 0} ^ {\infty} e ^ {- \beta t} \frac {c (t) ^ {1 - \theta}}{1 - \theta} d t
+U = B \int_{t = 0}^{\infty} e^{- \beta t} \frac{c (t)^{1 - \theta}}{1 - \theta} d t
 $$
 - Subject to:
 $$
-\int_ {t = 0} ^ {\infty} e ^ {- R (t)} c (t) e ^ {(n + g) t} d t \leq k (0) + \int_ {t = 0} ^ {\infty} e ^ {- R (t)} w (t) e ^ {(n + g) t} d t
+\int_{t = 0}^{\infty} e^{- R (t)} c (t) e^{(n + g) t} d t \leq k (0) + \int_{t = 0}^{\infty} e^{- R (t)} w (t) e^{(n + g) t} d t
 $$
 Household's choice variable is the path for  $c(t)$
 We form a Lagrangian:
 $$
-\begin{array}{l} \mathcal {L} = B \int_ {t = 0} ^ {\infty} e ^ {- \beta t} \frac {c (t) ^ {1 - \theta}}{1 - \theta} d t \\ + \lambda \left[ k (0) + \int_ {t = 0} ^ {\infty} e ^ {- R (t)} w (t) e ^ {(n + g) t} d t - \int_ {t = 0} ^ {\infty} e ^ {- R (t)} c (t) e ^ {(n + g) t} d t \right] \\ \end{array}
+\begin{array}{l} \mathcal {L} = B \int_{t = 0}^{\infty} e^{- \beta t} \frac{c (t)^{1 - \theta}}{1 - \theta} d t \\ + \lambda \left[ k (0) + \int_{t = 0}^{\infty} e^{- R (t)} w (t) e^{(n + g) t} d t - \int_{t = 0}^{\infty} e^{- R (t)} c (t) e^{(n + g) t} d t \right] \\ \end{array}
 $$
 - Differentiate this with respect to  $c(t)$ :
 $$
-B e ^ {- \beta t} c (t) ^ {- \theta} = \lambda e ^ {- R (t)} e ^ {(n + g) t}
+B e^{- \beta t} c (t)^{- \theta} = \lambda e^{- R (t)} e^{(n + g) t}
 $$
 $$
-B e ^ {- \beta t} c (t) ^ {- \theta} = \lambda e ^ {- R (t)} e ^ {(n + g) t}
+B e^{- \beta t} c (t)^{- \theta} = \lambda e^{- R (t)} e^{(n + g) t}
 $$
 - Let's take logs:
 $$
-\log B - \beta t - \theta \log c (t) = \log \lambda - \int_ {\tau = 0} ^ {t} r (\tau) d \tau + (n + g) t
+\log B - \beta t - \theta \log c (t) = \log \lambda - \int_{\tau = 0}^{t} r (\tau) d \tau + (n + g) t
 $$
 - Differentiate both sides with respect to time
 $$
-- \beta - \theta \frac {\dot {c} (t)}{c (t)} = - r (t) + (n + g)
+- \beta - \theta \frac{\dot {c} (t)}{c (t)} = - r (t) + (n + g)
 $$
 - Rearrange and use definition of  $\beta$ :
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {r (t) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{r (t) - \rho - \theta g}{\theta}
 $$
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {r (t) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{r (t) - \rho - \theta g}{\theta}
 $$
 - And for per capita consumption:
 $$
-\begin{array}{l} \frac {\dot {C} (t)}{C (t)} = \frac {\dot {A} (t)}{A (t)} + \frac {\dot {c} (t)}{c (t)} \\ = g + \frac {r (t) - \rho - \theta g}{\theta} \\ = \frac {r (t) - \rho}{\theta} \\ \end{array}
+\begin{array}{l} \frac{\dot {C} (t)}{C (t)} = \frac{\dot {A} (t)}{A (t)} + \frac{\dot {c} (t)}{c (t)} \\ = g + \frac{r (t) - \rho - \theta g}{\theta} \\ = \frac{r (t) - \rho}{\theta} \\ \end{array}
 $$
 - Consumption growth depends on  $r(t) - \rho$  and nothing else
 $$
-\frac {\dot {C} (t)}{C (t)} = \frac {r (t) - \rho}{\theta}
+\frac{\dot {C} (t)}{C (t)} = \frac{r (t) - \rho}{\theta}
 $$
 - Consumption growth depends on  $r(t) - \rho$  and nothing else.
 Why?
 Why nothing else?
 Why higher growth with higher  $r(t)$ ?
 $$
-\frac {\dot {C} (t)}{C (t)} = \frac {r (t) - \rho}{\theta}
+\frac{\dot {C} (t)}{C (t)} = \frac{r (t) - \rho}{\theta}
 $$
 - Consumption growth depends on  $r(t) - \rho$  and nothing else.
 Why?
@@ -8195,19 +8195,19 @@ Our derivation was somewhat heuristic
 - Acemoglu, D. (2009): Introduction to Modern Economic Growth (Chapter 7)
 Household takes  $r(t)$  as given:
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {r (t) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{r (t) - \rho - \theta g}{\theta}
 $$
 - But in general equilibrium:
-$$ r (t) = f ^ {\prime} (k (t))
+$$ r (t) = f^{\prime} (k (t))
 $$
 So we have that
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {f ^ {\prime} (k (t)) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{f^{\prime} (k (t)) - \rho - \theta g}{\theta}
 $$
 - Two endogenous variables  $c\left( t\right) ,k\left( t\right)$
 - Two dynamic equations:
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {f ^ {\prime} (k (t)) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{f^{\prime} (k (t)) - \rho - \theta g}{\theta}
 $$
 $$
 \dot {k} (t) = f (k (t)) - c (t) - (n + g) k (t)
@@ -8217,7 +8217,7 @@ $$
 - Intertemporal budget constraint with equality (terminal condition)
 - It is the fact that dynamic system has a terminal condition (rather than full set of initial conditions) that makes the system "forward looking".
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {f ^ {\prime} (k (t)) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{f^{\prime} (k (t)) - \rho - \theta g}{\theta}
 $$
 $\dot{c} (t) = 0$  if  $f^{\prime}(k(t)) = \rho +\theta g$
 - Recall that  $f^{\prime}(k)$  is decreasing in  $k$
@@ -8229,7 +8229,7 @@ $\dot{c} (t) = 0$  if  $f^{\prime}(k(t)) = \rho +\theta g$
 FIGURE 2.1 The dynamics of c
 Source: Romer (2019)
 $$
-\dot {k} (t) = \underbrace {f (k (t)) - c (t)} _ {\text {I n v e s t m e n t}} - \underbrace {(n + g) k (t)} _ {\text {b r e a k e v e n i n v e s t m e n t}}
+\dot {k} (t) = \underbrace {f (k (t)) - c (t)}_{\text{In ve st me nt}} - \underbrace {(n + g) k (t)}_{\text{br ea ke ve ni nv es tm en t}}
 $$
 - $\dot{k}(t) = 0$  if investment is equal to breakeven investment
 Rearranging, we get that  $\dot{k} (t) = 0$  when
@@ -8295,7 +8295,7 @@ Source: Romer (2019)
 - Paths starting at A, B, and C eventually hit  $k = 0$ . For consumption Euler equation to continue to hold,  $k$  must keep falling, which it can't.
 - Path starting at D, eventually rises above Golden Rule level of consumption. At this point  $f'(k) < n + g$ , so  $e^{-R(s)}e^{(n + g)s}$  is rising in  $s$  and  $k(s)$  is rising in  $s$ . So:
 $$
-\lim  _ {s \rightarrow \infty} e ^ {- R (s)} e ^ {(n + g) s} k (s) = \infty
+\lim_{s \rightarrow \infty} e^{- R (s)} e^{(n + g) s} k (s) = \infty
 $$
 In other words, net present value of future wealth is exploding, which means household should consumer more. (Violates intertemporal budget constraint.)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/005bcca6a999ca4e5da171d77188b80cd1e01e39a3a18f77680125f3c490f091.jpg)
@@ -8308,23 +8308,23 @@ Per capita variables grow at rate  $g$
 E.g., Production function parameters, preference parameters  $(\rho$  and  $\theta)$
 Dynamic equations:
 $$
-\frac {\dot {c} (t)}{c (t)} = \frac {f ^ {\prime} (k (t)) - \rho - \theta g}{\theta}
+\frac{\dot {c} (t)}{c (t)} = \frac{f^{\prime} (k (t)) - \rho - \theta g}{\theta}
 $$
 $$
 \dot {k} (t) = f (k (t)) - c (t) - (n + g) k (t)
 $$
 - To calculate steady state, we set  $\dot{c}(t) = 0$  and  $\dot{k}(t) = 0$ :
-$$ f ^ {\prime} \left(k ^ {*}\right) = \rho + \theta g
+$$ f^{\prime} \left(k^{*}\right) = \rho + \theta g
 $$
-$$ c ^ {*} = f \left(k ^ {*}\right) - (n + g) k ^ {*}
+$$ c^{*} = f \left(k^{*}\right) - (n + g) k^{*}
 $$
 - Level of steady state is a function of  $\rho, \theta$ , and production function
 - Consider an unanticipated fall in the discount rate  $\rho$
 - Conceptually similar to an increase in the savings rate in the Solow model
 - Long-run effect depends on shift in steady state:
-$$ f ^ {\prime} \left(k ^ {*}\right) = \rho + \theta g
+$$ f^{\prime} \left(k^{*}\right) = \rho + \theta g
 $$
-$$ c ^ {*} = f \left(k ^ {*}\right) - (n + g) k ^ {*}
+$$ c^{*} = f \left(k^{*}\right) - (n + g) k^{*}
 $$
 - Shift in  $\rho$  only affects first of these equations
 Since  $f''(k) < 0$ ,  $k_{\mathrm{NEW}}^* > k_{\mathrm{OLD}}^*$ .
@@ -8385,11 +8385,11 @@ Depends on nature of altruism toward offspring
 # Appendix
 Notice that:
 $$
-\begin{array}{l} \dot {k} (t) = \frac {d}{d t} \left(\frac {K (t)}{A (t) L (t)}\right) = \frac {\dot {K} (t)}{A (t) L (t)} - \frac {K (t)}{\left[ A (t) L (t) \right] ^ {2}} [ A (t) \dot {L} (t) + \dot {A} (t) L (t) ] \\ \dot {k} (t) = \frac {\dot {K} (t)}{A (t) L (t)} - (n + g) k \\ \end{array}
+\begin{array}{l} \dot {k} (t) = \frac{d}{d t} \left(\frac{K (t)}{A (t) L (t)}\right) = \frac{\dot {K} (t)}{A (t) L (t)} - \frac{K (t)}{\left[ A (t) L (t) \right]^{2}} [ A (t) \dot {L} (t) + \dot {A} (t) L (t) ] \\ \dot {k} (t) = \frac{\dot {K} (t)}{A (t) L (t)} - (n + g) k \\ \end{array}
 $$
 Dividing capital accumulation equation by  $A(t)L(t)$  we get
 $$
-\frac {\dot {K} (t)}{A (t) L (t)} = \frac {Y (t)}{A (t) L (t)} - \frac {C (t) L (t)}{A (t) L (t)}
+\frac{\dot {K} (t)}{A (t) L (t)} = \frac{Y (t)}{A (t) L (t)} - \frac{C (t) L (t)}{A (t) L (t)}
 $$
 $$
 \dot {k} (t) + (n + g) k = y (t) - c (t)
@@ -8401,40 +8401,40 @@ Back
 - Recall that  $f(k) \equiv F(k, 1)$ .
 - $F(\cdot, \cdot)$  is homogeneous of degree one
 - This implies that  $F_{1}(\cdot, \cdot)$  is homogeneous of degree zero (where the subscript denotes a derivative with respect to the first argument).
-$$ f ^ {\prime} (k) = F _ {1} (k, 1) = F _ {1} (K / A L, 1) = F _ {1} (K, A L) = F _ {K} (K, A L)
+$$ f^{\prime} (k) = F_{1} (k, 1) = F_{1} (K / A L, 1) = F_{1} (K, A L) = F_{K} (K, A L)
 $$
 Back
 - Notice that
 $$
-\frac {\partial F (K , A L)}{\partial L} = A \frac {\partial F (K , A L)}{\partial A L} = A F _ {2} (K, A L)
+\frac{\partial F (K , A L)}{\partial L} = A \frac{\partial F (K , A L)}{\partial A L} = A F_{2} (K, A L)
 $$
 - Since  $F(K, AL)$  is homogeneous of degree 1 we have that
 $$
-F (K, A L) = F _ {1} (K, A L) K + F _ {2} (K, A L) A L
+F (K, A L) = F_{1} (K, A L) K + F_{2} (K, A L) A L
 $$
 $$
-A L F (k, 1) = F _ {1} (K, A L) K + F _ {2} (K, A L) A L
+A L F (k, 1) = F_{1} (K, A L) K + F_{2} (K, A L) A L
 $$
-$$ f (k) = f ^ {\prime} (k) k + F _ {2} (K, A L)
+$$ f (k) = f^{\prime} (k) k + F_{2} (K, A L)
 $$
 $$
-F _ {2} (K, A L) = f (k) - f ^ {\prime} (k) k
+F_{2} (K, A L) = f (k) - f^{\prime} (k) k
 $$
 Back
 Labor demand:
 $$
-W = (1 - \alpha) A K ^ {\alpha} L ^ {- \alpha}
+W = (1 - \alpha) A K^{\alpha} L^{- \alpha}
 $$
 Capital demand:
-$$ r = \alpha A K ^ {\alpha - 1} L ^ {1 - \alpha}
+$$ r = \alpha A K^{\alpha - 1} L^{1 - \alpha}
 $$
 - Divide one by the other
 $$
-\frac {K}{L} = \frac {\alpha}{1 - \alpha} \frac {W}{r}
+\frac{K}{L} = \frac{\alpha}{1 - \alpha} \frac{W}{r}
 $$
 - Plug this into production function for K:
 $$
-Y = A K ^ {\alpha} L ^ {1 - \alpha} = A \left(\frac {\alpha}{1 - \alpha}\right) ^ {\alpha} \left(\frac {W}{r}\right) ^ {\alpha} L ^ {\alpha} L ^ {1 - \alpha}
+Y = A K^{\alpha} L^{1 - \alpha} = A \left(\frac{\alpha}{1 - \alpha}\right)^{\alpha} \left(\frac{W}{r}\right)^{\alpha} L^{\alpha} L^{1 - \alpha}
 $$
 Back
 # GROWTH ACCOUNTING
@@ -8455,28 +8455,28 @@ Y (t) = F [ K (t), A (t) L (t) ]
 $$
 Differentiate with respect to time
 $$
-\dot {Y} (t) = \frac {\partial Y (t)}{\partial K (t)} \dot {K} (t) + \frac {\partial Y (t)}{\partial L (t)} \dot {L} (t) + \frac {\partial Y (t)}{\partial A (t)} \dot {A} (t)
+\dot {Y} (t) = \frac{\partial Y (t)}{\partial K (t)} \dot {K} (t) + \frac{\partial Y (t)}{\partial L (t)} \dot {L} (t) + \frac{\partial Y (t)}{\partial A (t)} \dot {A} (t)
 $$ where  $\frac{\partial Y}{\partial L}$  denotes  $\frac{\partial Y}{\partial AL} A$  and  $\frac{\partial Y}{\partial A} A$  denotes  $\frac{\partial Y}{\partial AL} L$
 - Divide both sides by  $Y(t)$ :
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \frac {K (t)}{Y (t)} \frac {\partial Y (t)}{\partial K (t)} \frac {\dot {K} (t)}{K (t)} + \frac {L (t)}{Y (t)} \frac {\partial Y (t)}{\partial L (t)} \frac {\dot {L} (t)}{L (t)} + \frac {A (t)}{Y (t)} \frac {\partial Y (t)}{\partial A (t)} \frac {\dot {A} (t)}{A (t)}
+\frac{\dot {Y} (t)}{Y (t)} = \frac{K (t)}{Y (t)} \frac{\partial Y (t)}{\partial K (t)} \frac{\dot {K} (t)}{K (t)} + \frac{L (t)}{Y (t)} \frac{\partial Y (t)}{\partial L (t)} \frac{\dot {L} (t)}{L (t)} + \frac{A (t)}{Y (t)} \frac{\partial Y (t)}{\partial A (t)} \frac{\dot {A} (t)}{A (t)}
 $$
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \frac {K (t)}{Y (t)} \frac {\partial Y (t)}{\partial K (t)} \frac {\dot {K} (t)}{K (t)} + \frac {L (t)}{Y (t)} \frac {\partial Y (t)}{\partial L (t)} \frac {\dot {L} (t)}{L (t)} + \frac {A (t)}{Y (t)} \frac {\partial Y (t)}{\partial A (t)} \frac {\dot {A} (t)}{A (t)}
+\frac{\dot {Y} (t)}{Y (t)} = \frac{K (t)}{Y (t)} \frac{\partial Y (t)}{\partial K (t)} \frac{\dot {K} (t)}{K (t)} + \frac{L (t)}{Y (t)} \frac{\partial Y (t)}{\partial L (t)} \frac{\dot {L} (t)}{L (t)} + \frac{A (t)}{Y (t)} \frac{\partial Y (t)}{\partial A (t)} \frac{\dot {A} (t)}{A (t)}
 $$
 - Elasticity of output with respect to capital and labor
 $$
-\alpha_ {K} (t) = \frac {K (t)}{Y (t)} \frac {\partial Y (t)}{\partial K (t)} \quad \alpha_ {L} (t) = \frac {L (t)}{Y (t)} \frac {\partial Y (t)}{\partial L (t)}
+\alpha_{K} (t) = \frac{K (t)}{Y (t)} \frac{\partial Y (t)}{\partial K (t)} \quad \alpha_{L} (t) = \frac{L (t)}{Y (t)} \frac{\partial Y (t)}{\partial L (t)}
 $$
 We get:
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \alpha_ {K} (t) \frac {\dot {K} (t)}{K (t)} + \alpha_ {L} (t) \frac {\dot {L} (t)}{L (t)} + R (t)
+\frac{\dot {Y} (t)}{Y (t)} = \alpha_{K} (t) \frac{\dot {K} (t)}{K (t)} + \alpha_{L} (t) \frac{\dot {L} (t)}{L (t)} + R (t)
 $$ where
 $$
-R (t) = \frac {A (t)}{Y (t)} \frac {\partial Y (t)}{\partial A (t)} \frac {\dot {A} (t)}{A (t)}
+R (t) = \frac{A (t)}{Y (t)} \frac{\partial Y (t)}{\partial A (t)} \frac{\dot {A} (t)}{A (t)}
 $$ is referred to as the Solow Residual
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \alpha_ {K} (t) \frac {\dot {K} (t)}{K (t)} + \alpha_ {L} (t) \frac {\dot {L} (t)}{L (t)} + R (t)
+\frac{\dot {Y} (t)}{Y (t)} = \alpha_{K} (t) \frac{\dot {K} (t)}{K (t)} + \alpha_{L} (t) \frac{\dot {L} (t)}{L (t)} + R (t)
 $$
 In principle measurable:
 Growth in output:  $\dot{Y} (t) / Y(t)$
@@ -8504,26 +8504,26 @@ Weight each category by average wage
 Growth in overall labor input weighted average of categories
 - Can also be done for capital
 $$
-\alpha_ {K} (t) = \frac {K (t)}{Y (t)} \frac {\partial Y (t)}{\partial K (t)} \quad \alpha_ {L} (t) = \frac {L (t)}{Y (t)} \frac {\partial Y (t)}{\partial L (t)}
+\alpha_{K} (t) = \frac{K (t)}{Y (t)} \frac{\partial Y (t)}{\partial K (t)} \quad \alpha_{L} (t) = \frac{L (t)}{Y (t)} \frac{\partial Y (t)}{\partial L (t)}
 $$
 - If labor and capital earn their marginal product:
-$$ r (t) = \frac {\partial Y (t)}{\partial K (t)} \quad w (t) = \frac {\partial Y (t)}{\partial L (t)}
+$$ r (t) = \frac{\partial Y (t)}{\partial K (t)} \quad w (t) = \frac{\partial Y (t)}{\partial L (t)}
 $$
 - In this case output elasticities become factor shares:
 $$
-\alpha_ {K} (t) = \frac {r (t) K (t)}{Y (t)} = s _ {K} (t) \quad \alpha_ {L} (t) = \frac {w (t) L (t)}{Y (t)} = s _ {L} (t)
+\alpha_{K} (t) = \frac{r (t) K (t)}{Y (t)} = s_{K} (t) \quad \alpha_{L} (t) = \frac{w (t) L (t)}{Y (t)} = s_{L} (t)
 $$
 Data on factor shares usually used to estimate  $\alpha_{K}(t)$  and  $\alpha_{L}(t)$ .
 - But this is only valid under idealized assumptions (i.e., perfect competition)
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \alpha_ {K} (t) \frac {\dot {K} (t)}{K (t)} + \alpha_ {L} (t) \frac {\dot {L} (t)}{L (t)} + R (t)
+\frac{\dot {Y} (t)}{Y (t)} = \alpha_{K} (t) \frac{\dot {K} (t)}{K (t)} + \alpha_{L} (t) \frac{\dot {L} (t)}{L (t)} + R (t)
 $$
 - Alternative approach: Estimate this equation using data on  $\dot{Y}(t) / Y(t)$ ,  $\dot{K}(t) / K(t)$ ,  $\dot{L}(t) / L(t)$
 - Recover  $\alpha_{K}$  and  $\alpha_{L}$  as parameters
 - Recover  $R(t)$  as a residual
 Why not do this instead?
 $$
-\frac {\dot {Y} (t)}{Y (t)} = \alpha_ {K} (t) \frac {\dot {K} (t)}{K (t)} + \alpha_ {L} (t) \frac {\dot {L} (t)}{L (t)} + R (t)
+\frac{\dot {Y} (t)}{Y (t)} = \alpha_{K} (t) \frac{\dot {K} (t)}{K (t)} + \alpha_{L} (t) \frac{\dot {L} (t)}{L (t)} + R (t)
 $$
 - Alternative approach: Estimate this equation using data on  $\dot{Y}(t) / Y(t)$ ,  $\dot{K}(t) / K(t)$ ,  $\dot{L}(t) / L(t)$
 - Recover  $\alpha_{K}$  and  $\alpha_{L}$  as parameters
@@ -8548,16 +8548,16 @@ Y = r K + w L
 $$
 - Take logarithms and differentiate with respect to time:
 $$
-\frac {\dot {Y}}{Y} = s _ {K} \left(\frac {\dot {r}}{r} + \frac {\dot {K}}{K}\right) + s _ {L} \left(\frac {\dot {w}}{w} + \frac {\dot {L}}{L}\right)
+\frac{\dot {Y}}{Y} = s_{K} \left(\frac{\dot {r}}{r} + \frac{\dot {K}}{K}\right) + s_{L} \left(\frac{\dot {w}}{w} + \frac{\dot {L}}{L}\right)
 $$
 Rearrange
 $$
-\frac {\dot {Y}}{Y} - s _ {K} \frac {\dot {K}}{K} - s _ {L} \frac {\dot {L}}{L} = s _ {K} \frac {\dot {r}}{r} + s _ {L} \frac {\dot {w}}{w}
+\frac{\dot {Y}}{Y} - s_{K} \frac{\dot {K}}{K} - s_{L} \frac{\dot {L}}{L} = s_{K} \frac{\dot {r}}{r} + s_{L} \frac{\dot {w}}{w}
 $$
 LHS: "primal" measure of Solow residual (what we had before)
 RHS: "dual" measure of Solow residual
 $$
-\frac {\dot {Y}}{Y} - s _ {K} \frac {\dot {K}}{K} - s _ {L} \frac {\dot {L}}{L} = s _ {K} \frac {\dot {r}}{r} + s _ {L} \frac {\dot {w}}{w}
+\frac{\dot {Y}}{Y} - s_{K} \frac{\dot {K}}{K} - s_{L} \frac{\dot {L}}{L} = s_{K} \frac{\dot {r}}{r} + s_{L} \frac{\dot {w}}{w}
 $$
 - Primal and dual approach should yield the same answer
 - If one is (in)valid, the other is (in)valid
@@ -8587,20 +8587,20 @@ Bottom-up measurement for Singapore indicates low growth in aggregate technology
 Growth accounting is just accounting, not causal analysis
 Example:
 $$
-Y = A K ^ {\alpha} \left(L e ^ {x t}\right) ^ {1 - \alpha}
+Y = A K^{\alpha} \left(L e^{x t}\right)^{1 - \alpha}
 $$
 Suppose  $A$  and  $L$  are constant
 - $x$  is labor-augmented growth in technology
 - Take logarithms and differentiate with respect to time:
 $$
-\frac {\dot {Y}}{Y} = \alpha \frac {\dot {K}}{K} + (1 - \alpha) x
+\frac{\dot {Y}}{Y} = \alpha \frac{\dot {K}}{K} + (1 - \alpha) x
 $$
 $$
-\frac {\dot {Y}}{Y} = \alpha \frac {\dot {K}}{K} + (1 - \alpha) x
+\frac{\dot {Y}}{Y} = \alpha \frac{\dot {K}}{K} + (1 - \alpha) x
 $$
 - In Solow and Ramsey models: capital-output ratio will be constant along a balanced growth path
 $$
-\frac {\dot {Y}}{Y} = \frac {\dot {K}}{K} = x
+\frac{\dot {Y}}{Y} = \frac{\dot {K}}{K} = x
 $$
 $\alpha x$  of growth attributed to growth of capital
 TFP growth measured to be  $\hat{g} = (1 - \alpha)x$
@@ -8615,22 +8615,22 @@ A small positive number for  $\hat{g}$  is, in principle, consistent with a situ
 Barro and Sala-I-Martin (2004, p. 460)
 - Start with a Cobb-Douglas production function:
 $$
-Y _ {t} = A _ {t} K _ {t} ^ {\alpha} H _ {t} ^ {1 - \alpha}
+Y_{t} = A_{t} K_{t}^{\alpha} H_{t}^{1 - \alpha}
 $$
 Here  $H_{t}$  denotes human capital
 - Divide both sides by  $Y_{t}^{\alpha}$  and raise to power  $1 / (1 - \alpha)$ :
 $$
-Y _ {t} = \left(\frac {K _ {t}}{Y _ {t}}\right) ^ {\frac {\alpha}{1 - \alpha}} H _ {t} Z _ {t}
+Y_{t} = \left(\frac{K_{t}}{Y_{t}}\right)^{\frac{\alpha}{1 - \alpha}} H_{t} Z_{t}
 $$
 $$
-\text {w h e r e} Z _ {t} = A _ {t} ^ {\frac {1}{1 - \alpha}}
+\text{wh er e} Z_{t} = A_{t}^{\frac{1}{1 - \alpha}}
 $$
 Divide through by  $L_{t}$
 $$
-\frac {Y _ {t}}{L _ {t}} = \left(\frac {K _ {t}}{Y _ {t}}\right) ^ {\frac {\alpha}{1 - \alpha}} \frac {H _ {t}}{L _ {t}} Z _ {t}
+\frac{Y_{t}}{L_{t}} = \left(\frac{K_{t}}{Y_{t}}\right)^{\frac{\alpha}{1 - \alpha}} \frac{H_{t}}{L_{t}} Z_{t}
 $$
 $$
-\frac {Y _ {t}}{L _ {t}} = \left(\frac {K _ {t}}{Y _ {t}}\right) ^ {\frac {\alpha}{1 - \alpha}} \frac {H _ {t}}{L _ {t}} Z _ {t}
+\frac{Y_{t}}{L_{t}} = \left(\frac{K_{t}}{Y_{t}}\right)^{\frac{\alpha}{1 - \alpha}} \frac{H_{t}}{L_{t}} Z_{t}
 $$
 - Decomposes per capita (or per hour) growth into:
 Capital deepening:  $K_{t} / Y_{t}$
@@ -8649,22 +8649,22 @@ Source: Jones (2016)
 Central claim:
 - We usually assume growth is exponential:
 $$
-A _ {t + \tau} = A _ {t} (1 + g) ^ {\tau}
+A_{t + \tau} = A_{t} (1 + g)^{\tau}
 $$
 In fact, growth is linear:
 $$
-A _ {t + \tau} = A _ {t} + b \tau
+A_{t + \tau} = A_{t} + b \tau
 $$
 Data:
 U.S. TFP 1947-2019 from Fernald (2012)
 TFP in 23 countries 1890-2019 from Bergeaud, Cette, Lecat (2016)
 Exponential growth:
 $$
-\begin{array}{l} A _ {t + \tau} = A _ {t} (1 + g) ^ {\tau} = > \log A _ {t + \tau} = \log A _ {t} + \tau \log (1 + g) \\ = > \log A _ {t + \tau} \approx \log A _ {t} + g \tau \\ \end{array}
+\begin{array}{l} A_{t + \tau} = A_{t} (1 + g)^{\tau} = > \log A_{t + \tau} = \log A_{t} + \tau \log (1 + g) \\ = > \log A_{t + \tau} \approx \log A_{t} + g \tau \\ \end{array}
 $$
 - Linear growth
 $$
-A _ {t + \tau} = A _ {t} + b \tau
+A_{t + \tau} = A_{t} + b \tau
 $$
 - Consider the U.S. post-WWII sample
 - Use the first half of sample to predict  $A\left( t\right)$  for the second half
@@ -8710,10 +8710,10 @@ Policies, Rule of Law, Corruption  $\Rightarrow$  Human Capital, Physical Capita
 Source: Hsieh and Klenow (2010)
 Following Hall and Jones (1999):
 $$
-Y _ {i} = K _ {i} ^ {\alpha} \left(A _ {i} H _ {i}\right) ^ {1 - \alpha}
+Y_{i} = K_{i}^{\alpha} \left(A_{i} H_{i}\right)^{1 - \alpha}
 $$ where
 $$
-H _ {i} = e ^ {\phi (E _ {i})} L _ {i}
+H_{i} = e^{\phi (E_{i})} L_{i}
 $$
 $H_{i}$  denotes human capital (quality-adjusted labor)
 - $L_{i}$  denotes "raw" labor
@@ -8729,18 +8729,18 @@ $H_{i}$  denotes human capital (quality-adjusted labor)
 See Feenstra, Inklaar, Timmer (2015) for description of "modern" version
 - Early versions: Capital constructed from investment:
 $$
-K _ {i t} = I _ {i t} + (1 - \delta) K _ {i, t - 1}
+K_{i t} = I_{i t} + (1 - \delta) K_{i, t - 1}
 $$
 With an initial capital stock of:
 $$
-K _ {i, 0} = \frac {I _ {i , 0}}{g + \delta}
+K_{i, 0} = \frac{I_{i , 0}}{g + \delta}
 $$ where
 $g$  is the average growth rate of investment before 1970
 $\delta = 0.06$
 - More recent versions of PWT include capital series
 (which is constructed "more carefully" using perpetual inventory method)
 $$
-\boldsymbol {H} _ {i} = \boldsymbol {e} ^ {\phi (E _ {i})}
+\boldsymbol {H}_{i} = \boldsymbol {e}^{\phi (E_{i})}
 $$
 - Use average years of schooling as a proxy for  $E_{i}$
 Data on average years of schooling from Barro and Lee (2013)
@@ -8762,17 +8762,17 @@ Initial capital stock
 - Variation in hours worked per person
 - Hall and Jones (1999) / Jones (2016):
 $$
-\log \left(\frac {Y _ {i}}{L _ {i}}\right) = \frac {\alpha}{1 - \alpha} \log \left(\frac {K _ {i}}{Y _ {i}}\right) + \log \left(\frac {H _ {i}}{L _ {i}}\right) + \log A _ {i}
+\log \left(\frac{Y_{i}}{L_{i}}\right) = \frac{\alpha}{1 - \alpha} \log \left(\frac{K_{i}}{Y_{i}}\right) + \log \left(\frac{H_{i}}{L_{i}}\right) + \log A_{i}
 $$
 $\bullet$  Caselli (2005):
 $$
-\log \left(\frac {Y _ {i}}{L _ {i}}\right) = \alpha \log \left(\frac {K _ {i}}{L _ {i}}\right) + (1 - \alpha) \log \left(\frac {H _ {i}}{L _ {i}}\right) + \log A _ {i}
+\log \left(\frac{Y_{i}}{L_{i}}\right) = \alpha \log \left(\frac{K_{i}}{L_{i}}\right) + (1 - \alpha) \log \left(\frac{H_{i}}{L_{i}}\right) + \log A_{i}
 $$
 $$
-\log \left(\frac {Y _ {i}}{L _ {i}}\right) = \log \left(\frac {Y _ {i}}{L _ {i}}\right) _ {K H} + \log A _ {i}
+\log \left(\frac{Y_{i}}{L_{i}}\right) = \log \left(\frac{Y_{i}}{L_{i}}\right)_{K H} + \log A_{i}
 $$
 $$
-\log y _ {i} = \log y _ {i, K H} + \log A _ {i}
+\log y_{i} = \log y_{i, K H} + \log A_{i}
 $$
 (Notice in Hall-Jones flavor it is  $K / Y$  that shows up rather than  $K / L$ . See Growth Accounting lecture for details. Caselli starts with  $Y_{i} = A_{i}K_{i}^{\alpha}H_{i}^{1 - \alpha}$ .)  $L$  is workers.
 TABLEI PRODUCTIVITY CALCULATIONS: RATIOS TO U. S. VALUES
@@ -8790,7 +8790,7 @@ Source: Jones (2016)
 Output per worker in Mexico is  $33.8\%$  of U.S.
 - Capital-output ratio of Mexico is  $87\%$  of U.S.
 $$
-0. 8 7 ^ {\alpha / (1 - \alpha)} = 0. 8 7 ^ {1 / 2} = 0. 9 3 1
+0. 8 7^{\alpha / (1 - \alpha)} = 0. 8 7^{1 / 2} = 0. 9 3 1
 $$
 Schooling: 8.8 year in Mexico vs. 13.2 years in U.S.
 Difference: 4.6 years
@@ -8799,15 +8799,15 @@ $0.068\times 4.6 = 0.32$
 TFP is  $0.338 / (0.931 \times 0.760) = 0.477$  of U.S. level
 - Inputs explain a factor of
 $$
-\frac {1}{0 . 9 3 1} \times \frac {1}{0 . 7 6 0} = 1. 4
+\frac{1}{0 . 9 3 1} \times \frac{1}{0 . 7 6 0} = 1. 4
 $$
 - TFP explains the rest
 $$
-\frac {1}{0 . 3 3 8} \times \frac {1}{1 . 4} = 2. 1
+\frac{1}{0 . 3 3 8} \times \frac{1}{1 . 4} = 2. 1
 $$
 - Fraction explained by TFP:
 $$
-\frac {2 . 1}{1 . 4 + 2 . 1} = 0. 5 9 7
+\frac{2 . 1}{1 . 4 + 2 . 1} = 0. 5 9 7
 $$
 (Not sure this makes sense. Think of factors explaining 1.0.)
 # Alternative Decomposition:
@@ -8825,15 +8825,15 @@ Lower capital prices in poor countries implies more capital [I think]
 - Question: What would cross-country income distribution look like if all countries had the same TFP?
 Consider:
 $$
-\operatorname {v a r} \left[ \log y _ {i} \right] = \operatorname {v a r} \left[ \log y _ {i, K H} \right] + \operatorname {v a r} \left[ \log A _ {i} \right] + 2 \operatorname {c o v} \left[ \log y _ {i, K H}, \log A _ {i} \right]
+\operatorname{va r} \left[ \log y_{i} \right] = \operatorname{va r} \left[ \log y_{i, K H} \right] + \operatorname{va r} \left[ \log A_{i} \right] + 2 \operatorname{co v} \left[ \log y_{i, K H}, \log A_{i} \right]
 $$
 - If  $A_{i}$  the same in all countries:
 $$
-\operatorname {v a r} \left[ \log A _ {i} \right] + 2 \operatorname {c o v} \left[ \log y _ {i, K H}, \log A _ {i} \right] = 0
+\operatorname{va r} \left[ \log A_{i} \right] + 2 \operatorname{co v} \left[ \log y_{i, K H}, \log A_{i} \right] = 0
 $$
 Motivates using
 $$
-\operatorname {s u c c e s s} _ {1} = \frac {\operatorname {v a r} [ \log y _ {i , K H} ]}{\operatorname {v a r} [ \log y _ {i} ]}
+\operatorname{su cc es s}_{1} = \frac{\operatorname{va r} [ \log y_{i , K H} ]}{\operatorname{va r} [ \log y_{i} ]}
 $$ to measure role of factors
 Table 1 Baseline success of the factor-only model
 <table><tr><td>var[log(y)]</td><td>1.297</td><td>y90/y10</td><td>21</td></tr><tr><td>var[log(yKH)]</td><td>0.500</td><td>y90/KH/y10KH</td><td>7</td></tr><tr><td>success1</td><td>0.39</td><td>success2</td><td>0.34</td></tr></table>
@@ -8868,25 +8868,25 @@ Boppart-Kiernan-Krusell-Malmberg 23)
 (Restuccia-Rogerson 08, Hsieh-Klenow 09, Moll 12, Midrigan-Xu 14)
 Lucas (1990):
 - Two countries with same Cobb-Douglas production function:
-$$ y = A k ^ {\alpha}
+$$ y = A k^{\alpha}
 $$ where  $y$  is output per person and  $k$  is capital per person
 - Marginal product of capital is:
-$$ r = \alpha A k ^ {\alpha - 1}
+$$ r = \alpha A k^{\alpha - 1}
 $$
 - Using production function to plug in for  $k$
-$$ r = \alpha A ^ {1 / \alpha} y ^ {(\alpha - 1) / \alpha}
+$$ r = \alpha A^{1 / \alpha} y^{(\alpha - 1) / \alpha}
 $$
 - Taking a ratio of this equation for India vs. US:
 $$
-\frac {r ^ {\text {I n d i a}}}{r ^ {\text {U S}}} = \left(\frac {y ^ {\text {I n d i a}}}{y ^ {\text {U S}}}\right) ^ {(\alpha - 1) / \alpha}
+\frac{r^{\text{In di a}}}{r^{\text{US}}} = \left(\frac{y^{\text{In di a}}}{y^{\text{US}}}\right)^{(\alpha - 1) / \alpha}
 $$
 Suppose
 $$
-\alpha = 0. 4 \quad \text {a n d} \quad \frac {y ^ {\text {I n d i a}}}{y ^ {\text {U S}}} = \frac {1}{1 5}
+\alpha = 0. 4 \quad \text{an d} \quad \frac{y^{\text{In di a}}}{y^{\text{US}}} = \frac{1}{1 5}
 $$
 - Then we have that
 $$
-\frac {r ^ {\text {I n d i a}}}{r ^ {\text {U S}}} = 1 5 ^ {1. 5} = 5 8
+\frac{r^{\text{In di a}}}{r^{\text{US}}} = 1 5^{1. 5} = 5 8
 $$
 - Marginal product of capital in India is 58 times higher than in the U.S.
 - If the MPK is 58 times higher in India than U.S., why doesn't more capital flow to poor countries?
@@ -8894,9 +8894,9 @@ $$
 - Calculation assumes India and U.S. have same productivity
 - Development accounting suggests this is not the case
 - Let's combine
-$$ r = \alpha A k ^ {\alpha - 1} \quad \text {a n d} \quad y = A k ^ {\alpha}
+$$ r = \alpha A k^{\alpha - 1} \quad \text{an d} \quad y = A k^{\alpha}
 $$ to eliminate  $A$ :
-$$ r = \alpha \left(\frac {k}{y}\right) ^ {- 1}
+$$ r = \alpha \left(\frac{k}{y}\right)^{- 1}
 $$
 - Hall-Jones 99 results have India's  $k/y$  at  $50\%$  of U.S. level
 - Implies MPK is twice as high in India
@@ -8910,7 +8910,7 @@ Make two adjustments to naive MPK calculation:
 2. Adjust for high price of capital relative to consumption in poor countries
 - Naive marginal product of capital:
 $$
-\mathsf {M P K} = \alpha \frac {\mathsf {Y}}{K}
+\mathsf {M P K} = \alpha \frac{\mathsf {Y}}{K}
 $$ where  $\alpha$  is capital share of income
 - Usual way to measure capital share of income:
 One minus labor share of income
@@ -8918,7 +8918,7 @@ One minus labor share of income
 - While  $K$  is only reproducible capital (constructed from perpetual inventory method)
 So naive:
 $$
-\mathsf {M P K} = \alpha \frac {\mathsf {Y}}{K}
+\mathsf {M P K} = \alpha \frac{\mathsf {Y}}{K}
 $$ yields an estimate of MPK that is too high
 - This bias is bigger for poor countries since non-reproducible capital is a larger share of capital in poor countries
 - Makes MPK look higher for poor countries
@@ -8934,20 +8934,20 @@ Source: Caselli and Feyrer (2007)
 In reality, this is not necessarily the case
 - Recognizing this, return to capital is
 $$
-\frac {P _ {y} (t) M P K (t) + P _ {k} (t + 1) (1 - \delta)}{P _ {k} (t)}
+\frac{P_{y} (t) M P K (t) + P_{k} (t + 1) (1 - \delta)}{P_{k} (t)}
 $$
 - Ignoring capital gains, frictionless international capital markets imply
 $$
-\frac {P _ {y} M P K}{P _ {k}} = R ^ {*} - (1 - \delta)
+\frac{P_{y} M P K}{P_{k}} = R^{*} - (1 - \delta)
 $$
 This is what should be equal across countries
 - Earlier estimate:
 $$
-M P K = \alpha \frac {Y}{K}
+M P K = \alpha \frac{Y}{K}
 $$
 - Adjusted estimate:
 $$
-\frac {P _ {y} M P K}{P _ {k}} = \alpha \frac {P _ {y} Y}{P _ {k} K}
+\frac{P_{y} M P K}{P_{k}} = \alpha \frac{P_{y} Y}{P_{k} K}
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/dd8a22a22c4a222a09fc910316610b127d2475179f4127e68d020507ff2e9a5a.jpg)
 Source: Penn World Tables 6.1.
@@ -8990,18 +8990,18 @@ How can we do better?
 - Migrant wage gains a measure of country component of income differences
 Residual due to human capital
 Production function in per worker terms:
-$$ y _ {c} = \left(\frac {K _ {c}}{Y _ {c}}\right) ^ {\frac {\alpha}{1 - \alpha}} A _ {c} h _ {c}
+$$ y_{c} = \left(\frac{K_{c}}{Y_{c}}\right)^{\frac{\alpha}{1 - \alpha}} A_{c} h_{c}
 $$
 Country component:
-$$ z _ {c} = \left(\frac {K _ {c}}{Y _ {c}}\right) ^ {\frac {\alpha}{1 - \alpha}} A _ {c}
+$$ z_{c} = \left(\frac{K_{c}}{Y_{c}}\right)^{\frac{\alpha}{1 - \alpha}} A_{c}
 $$
 Take logs:
 $$
-\log y _ {c} = \log z _ {c} + \log h _ {c}
+\log y_{c} = \log z_{c} + \log h_{c}
 $$
 - Subtract one country from another and divide by income difference:
 $$
-1 = \frac {\log z _ {c} - \log z _ {c ^ {\prime}}}{\log y _ {c} - \log y _ {c ^ {\prime}}} + \frac {\log h _ {c} - \log h _ {c ^ {\prime}}}{\log y _ {c} - \log y _ {c ^ {\prime}}} = \text {s h a r e} _ {\text {c o u n t r y}} + \text {s h a r e} _ {\text {h u m a n c a p i t a l}}
+1 = \frac{\log z_{c} - \log z_{c^{\prime}}}{\log y_{c} - \log y_{c^{\prime}}} + \frac{\log h_{c} - \log h_{c^{\prime}}}{\log y_{c} - \log y_{c^{\prime}}} = \text{sh ar e}_{\text{co un tr y}} + \text{sh ar e}_{\text{hu ma nc ap it al}}
 $$
 - Two problems with evidence on migrants:
 Migrants are highly selected
@@ -9011,15 +9011,15 @@ Data on preand post-migration wages of migrants addresses selection
 - Suppose labor is homogeneous and labor markets are competitive
 - Then firms solve
 $$
-\max  _ {H _ {c}} K _ {c} ^ {\alpha} \left(A _ {c} H _ {c}\right) ^ {1 - \alpha} - \omega_ {c} H _ {c}
+\max_{H_{c}} K_{c}^{\alpha} \left(A_{c} H_{c}\right)^{1 - \alpha} - \omega_{c} H_{c}
 $$ where  $\omega_{c}$  is the wage per unit of human capital
 - This yields  $\omega_{c} = (1 - \alpha)z_{c}$  and
 $$
-\log w _ {i, c} = \log [ (1 - \alpha) z _ {c} ] + \log h _ {i}
+\log w_{i, c} = \log [ (1 - \alpha) z_{c} ] + \log h_{i}
 $$ where  $w_{i,c}$  is the wage of a worker with human capital level  $h_i$
 - For migrants (assuming  $h_i$  is transferable) we have
 $$
-\frac {\log w _ {i , U S} - \log w _ {i , c}}{\log y _ {U S} - \log y _ {c}} = \frac {\log z _ {U S} - \log z _ {c}}{\log y _ {U S} - \log y _ {c}} = \text {s h a r e} _ {\text {c o u n t r y}}
+\frac{\log w_{i , U S} - \log w_{i , c}}{\log y_{U S} - \log y_{c}} = \frac{\log z_{U S} - \log z_{c}}{\log y_{U S} - \log y_{c}} = \text{sh ar e}_{\text{co un tr y}}
 $$
 TABLEI
 MOST SAMPLED COUNTRIES BY SAMPLE AND SUBSAMPLE
@@ -9071,22 +9071,22 @@ Not clear which of these stories is more important
 Competitive labor markets
 Production functions:
 $$
-Y _ {a} = A _ {a} L _ {a} ^ {\theta} K _ {a} ^ {1 - \theta} \quad Y _ {n} = A _ {n} L _ {n} ^ {\theta} K _ {n} ^ {1 - \theta}
+Y_{a} = A_{a} L_{a}^{\theta} K_{a}^{1 - \theta} \quad Y_{n} = A_{n} L_{n}^{\theta} K_{n}^{1 - \theta}
 $$
 - Price of non-ag good is numeraire
 Price of ag good is  $p_a$
 (See Gollin, Lagakos, and Waugh (2014) for more details)
 Labor mobility implies common wage  $w$
 Labor demand in each sector:
-$$ p _ {a} \theta \frac {Y _ {a}}{L _ {a}} = w \quad \theta \frac {Y _ {n}}{L _ {n}} = w
+$$ p_{a} \theta \frac{Y_{a}}{L_{a}} = w \quad \theta \frac{Y_{n}}{L_{n}} = w
 $$
 Combining these implies
 $$
-\frac {p _ {a} Y _ {a} / L _ {a}}{Y _ {n} / L _ {n}} = \frac {V A _ {a} / L _ {a}}{V A _ {n} / L _ {n}} = 1
+\frac{p_{a} Y_{a} / L_{a}}{Y_{n} / L_{n}} = \frac{V A_{a} / L_{a}}{V A_{n} / L_{n}} = 1
 $$
 - Value added per worker should be the same in both sectors
 $$
-\frac {V A _ {a}}{L _ {a}} = \frac {V A _ {n}}{L _ {n}}
+\frac{V A_{a}}{L_{a}} = \frac{V A_{n}}{L_{n}}
 $$
 True whether growth bottleneck is low  $A_{a}$  or low  $A_{n}$
 # AGRICULTURAL PRODUCTIVITY GAP
@@ -9096,7 +9096,7 @@ Source: David Lagakos
 Particularly so in poor countries
 - Agricultural productivity gap:
 $$
-A P G = \frac {V A _ {n} / L _ {n}}{V A _ {a} / L _ {a}}
+A P G = \frac{V A_{n} / L_{n}}{V A_{a} / L_{a}}
 $$
 Frictionless model implies  $APG = 1$
 # TABLEI
@@ -9177,12 +9177,12 @@ Source: Tombe (2015).
 - Barriers to input use can result in low productivity agriculture
 Production function in agriculture:
 $$
-Y _ {a} = X ^ {\alpha} \left(Z ^ {1 - \sigma} \left(\kappa A L _ {a}\right) ^ {\sigma}\right) ^ {1 - \alpha}
+Y_{a} = X^{\alpha} \left(Z^{1 - \sigma} \left(\kappa A L_{a}\right)^{\sigma}\right)^{1 - \alpha}
 $$
 $Z$  is land (fixed),  $X$  is intermediate inputs,  $\kappa$  relative prod. of agriculture
 Production function in non-agriculture:
 $$
-Y _ {n} = A L _ {n}
+Y_{n} = A L_{n}
 $$
 - Price of non-agricultural goods is numeraire
 - Price of intermediate inputs:  $\pi > 1$  (direct barriers)
@@ -9190,17 +9190,17 @@ Wages in non-agriculture:  $w_{n} = A$
 Wages in agriculture:  $w_{a} = (1 - \theta)w_{n}$  (indirect barriers)
 - Demand for intermediate goods:
 $$
-\frac {X}{Y _ {a}} = \alpha \frac {p _ {a}}{\pi}
+\frac{X}{Y_{a}} = \alpha \frac{p_{a}}{\pi}
 $$
 - Low  ${w}_{a}$  will push down  ${p}_{a}$  and therefore intermediate input use
 Stone-Geary preferences for food:
 $$
-U = a \log (c _ {a} - \bar {a}) + (1 - a) \log (c _ {n})
+U = a \log (c_{a} - \bar {a}) + (1 - a) \log (c_{n})
 $$
 - Goods demand:
-$$ c _ {a} = \bar {a} + a p _ {a} ^ {- 1} (y - p _ {a} \bar {a})
+$$ c_{a} = \bar {a} + a p_{a}^{- 1} (y - p_{a} \bar {a})
 $$
-$$ c _ {n} = (1 - a) (y - p _ {a} \bar {a})
+$$ c_{n} = (1 - a) (y - p_{a} \bar {a})
 $$
 # Features:
 Two sectors
@@ -9210,21 +9210,21 @@ Two sectors
 - Direct  $(\pi > 1)$  and indirect  $(w_{a} = (1 - \theta)w_{n})$  barriers to input use in agriculture
 Can these features explain cross-country differences in:
 $$
-L _ {a} / N \quad Y _ {a} / L _ {a} \quad Y / N
+L_{a} / N \quad Y_{a} / L_{a} \quad Y / N
 $$
 - Messy to solve analytically
 - With  $a = 0$  (only subsistence demand for agriculture) less messy
 Intermediate input use:
 $$
-\frac {X}{Y _ {a}} = \left[ \left(\frac {1 - \theta}{\pi \kappa} \frac {\alpha}{(1 - \alpha) \sigma}\right) ^ {\sigma} \left(\frac {\bar {a}}{(Z / N)}\right) ^ {1 - \sigma} \right] ^ {(1 - \alpha) / (\alpha + \sigma (1 - \alpha))}
+\frac{X}{Y_{a}} = \left[ \left(\frac{1 - \theta}{\pi \kappa} \frac{\alpha}{(1 - \alpha) \sigma}\right)^{\sigma} \left(\frac{\bar {a}}{(Z / N)}\right)^{1 - \sigma} \right]^{(1 - \alpha) / (\alpha + \sigma (1 - \alpha))}
 $$
 - Fraction of labor in agriculture:
 $$
-\frac {L _ {a}}{N} = \frac {1}{\kappa A} \left(\frac {\bar {a}}{(Z / n) ^ {1 - \sigma} (X / Y _ {a}) ^ {\alpha / (1 - \alpha)}}\right) ^ {1 / \sigma}
+\frac{L_{a}}{N} = \frac{1}{\kappa A} \left(\frac{\bar {a}}{(Z / n)^{1 - \sigma} (X / Y_{a})^{\alpha / (1 - \alpha)}}\right)^{1 / \sigma}
 $$
 Labor productivity in agriculture:
 $$
-\frac {Y _ {a}}{L _ {a}} = \kappa A \left(\frac {(Z / N) ^ {1 - \sigma} (X / Y _ {a}) ^ {\alpha / (1 - \alpha)}}{\bar {a} ^ {1 - \sigma}}\right) ^ {1 / \sigma}
+\frac{Y_{a}}{L_{a}} = \kappa A \left(\frac{(Z / N)^{1 - \sigma} (X / Y_{a})^{\alpha / (1 - \alpha)}}{\bar {a}^{1 - \sigma}}\right)^{1 / \sigma}
 $$
 # Calibration:
 - Hold many parameters fixed across countries:  $a, \bar{a}, \alpha, \sigma, \kappa$
@@ -9281,16 +9281,16 @@ Figure 4: Input shares—gross output and value added
 GDP less natural resource rents per worker, 2005
 Source: Boppart, Kiernan, Krusell, Malmberg (2023).
 - Since labor share in agriculture falls with development, labor productivity rises more than TFP
-$$ w _ {y} = \left(1 - \alpha_ {y}\right) \frac {Y _ {y}}{L _ {y}} \quad \rightarrow \quad \frac {Y _ {y}}{L _ {y}} = \frac {w _ {y}}{1 - \alpha_ {y}}
+$$ w_{y} = \left(1 - \alpha_{y}\right) \frac{Y_{y}}{L_{y}} \quad \rightarrow \quad \frac{Y_{y}}{L_{y}} = \frac{w_{y}}{1 - \alpha_{y}}
 $$
 - Use development accounting approach to back out TFP differences in agriculture (and non-agriculture)
 Production function for agriculture:
 $$
-\frac {y _ {a}}{h _ {a}} (y) = F \left(\frac {k _ {a}}{h _ {a}} (y), 1, \frac {x _ {a}}{h _ {a}} (y), \frac {I}{h _ {a}} (y), y\right)
+\frac{y_{a}}{h_{a}} (y) = F \left(\frac{k_{a}}{h_{a}} (y), 1, \frac{x_{a}}{h_{a}} (y), \frac{I}{h_{a}} (y), y\right)
 $$
 - Differentiate with respect to  $y$  (level of development):
 $$
-\frac {\partial \log F (\cdot ; y)}{\partial y} = \frac {\partial \log \left(y _ {a} / h _ {a}\right) (y)}{\partial y} - \epsilon_ {F, k} (y) \frac {\partial \log \left(k _ {a} / h _ {a}\right) (y)}{\partial y} - \epsilon_ {F, x} (y) \frac {\partial \log \left(x _ {a} / h _ {a}\right) (y)}{\partial y} - \epsilon_ {F, l} \frac {\partial \log (l / h _ {a}) (y)}{\partial y}
+\frac{\partial \log F (\cdot ; y)}{\partial y} = \frac{\partial \log \left(y_{a} / h_{a}\right) (y)}{\partial y} - \epsilon_{F, k} (y) \frac{\partial \log \left(k_{a} / h_{a}\right) (y)}{\partial y} - \epsilon_{F, x} (y) \frac{\partial \log \left(x_{a} / h_{a}\right) (y)}{\partial y} - \epsilon_{F, l} \frac{\partial \log (l / h_{a}) (y)}{\partial y}
 $$ where  $\epsilon_{F,k}(y)$  is the elasticity of output with respect to  $k$
 - Use factor shares estimated above as measures of output elasticities
 - They assume three types of non-agricultural production:
@@ -9298,11 +9298,11 @@ $$ where  $\epsilon_{F,k}(y)$  is the elasticity of output with respect to  $k$
 - Investment goods (capital goods)
 Intermediate inputs
 - They assume production has the same shape for these three (same isoquants) but allow for differing Hicks neutral productivity:
-$$ y _ {n} (y) = A _ {n} (y) g \left(k _ {n} (y), h _ {n} (y)\right)
+$$ y_{n} (y) = A_{n} (y) g \left(k_{n} (y), h_{n} (y)\right)
 $$
-$$ y _ {k} (y) = A _ {k} (y) A _ {n} (y) g \left(k _ {k} (y), h _ {k} (y)\right)
+$$ y_{k} (y) = A_{k} (y) A_{n} (y) g \left(k_{k} (y), h_{k} (y)\right)
 $$
-$$ y _ {x} (y) = A _ {x} (y) A _ {n} (y) g \left(k _ {x} (y), h _ {x} (y)\right)
+$$ y_{x} (y) = A_{x} (y) A_{n} (y) g \left(k_{x} (y), h_{x} (y)\right)
 $$
 - Differentiate these with respect to  $y$  to construct TFP as a function of  $y$  just as in agriculture
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/e28139ae5d6fc73c47ddd6e0512e5b114dc365199783e77f8215fc89bb2afe35.jpg)
@@ -9401,11 +9401,11 @@ $\Rightarrow$  current performance.
 Source: Acemoglu, Johnson, Robinson (2001)
 Second stage regression:
 $$
-\log y _ {i} = \mu + \alpha R _ {i} + \mathbf {X} _ {i} ^ {\prime} \gamma + \epsilon_ {i}
+\log y_{i} = \mu + \alpha R_{i} + \mathbf {X}_{i}^{\prime} \gamma + \epsilon_{i}
 $$
 - First state regression:
 $$
-R _ {i} = \zeta + \beta \log M _ {i} + \mathbf {X} _ {i} ^ {\prime} \delta + v _ {i}
+R_{i} = \zeta + \beta \log M_{i} + \mathbf {X}_{i}^{\prime} \delta + v_{i}
 $$
 - log  $y_{i}$  is log GDP per capita in 1995 PPP adjusted
 - $R_{i}$  is protection against expropriation from Political Risk Services (Is this institutions or policy? Glaeser, et al. (2004))
@@ -9434,11 +9434,11 @@ Mostly mortality of soldiers
 - More on this in a few slides
 - "Reduced form" regression:
 $$
-\log y _ {i} = \mu + \lambda \log M _ {i} + \mathbf {X} _ {i} ^ {\prime} \gamma + \epsilon_ {i}
+\log y_{i} = \mu + \lambda \log M_{i} + \mathbf {X}_{i}^{\prime} \gamma + \epsilon_{i}
 $$
 - First state regression:
 $$
-R _ {i} = \zeta + \beta \log M _ {i} + \mathbf {X} _ {i} ^ {\prime} \delta + v _ {i}
+R_{i} = \zeta + \beta \log M_{i} + \mathbf {X}_{i}^{\prime} \delta + v_{i}
 $$
 - IV estimate is the ratio of  $\lambda$  and  $\beta$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/8e351b8b-cf07-4dae-a951-4158ebdb952a/7088886dd67158620540ef229e9d1ee7343698aece115078021d2a6e1cb39205.jpg)
@@ -9486,7 +9486,7 @@ Trade is correlated with growth
 - Frankel and Romer propose to control for country size as a proxy for within-country trade
 - Simple "gravity" model of trade between countries  $i$  and  $j$ :
 $$
-\log \left(\frac {\tau_ {i j}}{Y _ {i}}\right) = a _ {0} + a _ {1} \log D _ {i j} + a _ {2} \log S _ {i} + a _ {3} \log S _ {j} + e _ {i j}
+\log \left(\frac{\tau_{i j}}{Y_{i}}\right) = a_{0} + a_{1} \log D_{i j} + a_{2} \log S_{i} + a_{3} \log S_{j} + e_{i j}
 $$
 # where
 - $\tau_{ij}$  is trade between  $i$  and  $j$  (e.g., exports plus imports)
@@ -9497,7 +9497,7 @@ $S_{i}$  is size of  $i$
 - Frankel and Romer only want geographical variables
 (6)  $\ln (\tau_{ij} / \mathrm{GDP}_i)$
 $$
-\begin{array}{l} = a _ {0} + a _ {1} \ln D _ {i j} + a _ {2} \ln N _ {i} + a _ {3} \ln A _ {i} \\ + a _ {4} \ln N _ {j} + a _ {5} \ln A _ {j} + a _ {6} \left(L _ {i} + L _ {j}\right) \\ + a _ {7} B _ {i j} + a _ {8} B _ {i j} \ln D _ {i j} + a _ {9} B _ {i j} \ln N _ {i} \\ + a _ {1 0} B _ {i j} \ln A _ {i} + a _ {1 1} B _ {i j} \ln N _ {j} \\ + a _ {1 2} B _ {i j} \ln A _ {j} + a _ {1 3} B _ {i j} \left(L _ {i} + L _ {j}\right) + e _ {i j}, \\ \end{array}
+\begin{array}{l} = a_{0} + a_{1} \ln D_{i j} + a_{2} \ln N_{i} + a_{3} \ln A_{i} \\ + a_{4} \ln N_{j} + a_{5} \ln A_{j} + a_{6} \left(L_{i} + L_{j}\right) \\ + a_{7} B_{i j} + a_{8} B_{i j} \ln D_{i j} + a_{9} B_{i j} \ln N_{i} \\ + a_{1 0} B_{i j} \ln A_{i} + a_{1 1} B_{i j} \ln N_{j} \\ + a_{1 2} B_{i j} \ln A_{j} + a_{1 3} B_{i j} \left(L_{i} + L_{j}\right) + e_{i j}, \\ \end{array}
 $$ where  $N$  is population,  $A$  is area,  $L$  is a dummy for landlocked countries, and  $B$  is a dummy for a common border between two countries.
 Source: Frankel and Romer (1999)
 TABLE 1THE BILATERAL TRADE EQUATION
@@ -9507,11 +9507,11 @@ Source: Frankel and Romer (1999)
 - Frankel and Romer aggregate this bilateral gravity relationship to the country level
 - Let's rewrite gravity equation as
 $$
-\log \left(\frac {\tau_ {i j}}{Y _ {i}}\right) = \mathbf {a} ^ {\prime} \mathbf {X} _ {i j} + \mathbf {e} _ {i j}
+\log \left(\frac{\tau_{i j}}{Y_{i}}\right) = \mathbf {a}^{\prime} \mathbf {X}_{i j} + \mathbf {e}_{i j}
 $$
 - Geographic component of overall trade for country  $i$ :
 $$
-\hat {T} _ {i} = \sum_ {j \neq i} e ^ {\hat {\mathbf {a}} ^ {\prime} \mathbf {X} _ {i j}}
+\hat {T}_{i} = \sum_{j \neq i} e^{\hat {\mathbf {a}}^{\prime} \mathbf {X}_{i j}}
 $$
 - $\hat{T}_i$  is the instrument Frankel and Romer use
 TABLE 2THE RELATION BETWEEN ACTUAL AND CONSTRUCTED OVERALL TRADE
@@ -9519,7 +9519,7 @@ TABLE 2THE RELATION BETWEEN ACTUAL AND CONSTRUCTED OVERALL TRADE
 Notes: The dependent variable is the actual trade share. Standard errors are in parentheses.
 Source: Frankel and Romer (1999)
 $$
-\log Y _ {i} = a + b T _ {i} + c _ {1} \log N _ {i} + c _ {2} \log A _ {i} + u _ {i}
+\log Y_{i} = a + b T_{i} + c_{1} \log N_{i} + c_{2} \log A_{i} + u_{i}
 $$
 - $Y_{i}$  is GDP per person,  $T_{i}$  is exports plus imports over GDP,  $N_{i}$  is population,  $A_{i}$  is area
 - IV regression with gravity instrument  $(\hat{T}_i)$  instrumenting for  $T_i$
@@ -9545,7 +9545,7 @@ Source: Rodrik, Subramanian, Trebbi (2004)
 They consider all three together
 - Conclude that institutions trump other deep determinants
 $$
-\log y _ {i} = \mu + \alpha \mathrm {I N S} _ {i} + \beta \mathrm {I N T} _ {i} + \gamma \mathrm {G E O} _ {i} + \epsilon_ {i}
+\log y_{i} = \mu + \alpha \mathrm{IN S}_{i} + \beta \mathrm{IN T}_{i} + \gamma \mathrm{GE O}_{i} + \epsilon_{i}
 $$
 - log  $y_{i}$  is GDP per capita on PPP basis
 - $\mathsf{INS}_i$  is rule of law measure from Kaufman, Kraay, Zoido-Lobaton 02 (different from expropriation risk measure used by AJR 01)
@@ -9644,7 +9644,7 @@ Guinea: Sekou Toure (totalitarianism/violent purges). Iran: Ayatollah Khomeini (
 - Timing of death is random, but timing of accession to power is not
 - Can't use growth during leader's reign
 - Calculate growth in  $T$  years before and after random transition
-$$ g _ {i t} = \alpha_ {z} \mathrm {P R E} _ {z} + \beta_ {z} \mathrm {P O S T} _ {z} + v _ {i} + v _ {t} + \epsilon_ {i t}
+$$ g_{i t} = \alpha_{z} \mathrm{PR E}_{z} + \beta_{z} \mathrm{PO ST}_{z} + v_{i} + v_{t} + \epsilon_{i t}
 $$
 - $z$  denotes particular leader death
 - $\mathrm{PRE}_z$ : dummy for  $T$  years prior to death
@@ -9653,14 +9653,14 @@ $$
 $\bullet$ $\epsilon_{it}$ : Other influences on growth
 Wald test:
 $$
-J = \frac {1}{Z} \sum_ {z = 1} ^ {Z} \frac {\widehat {\left(\text {P O S T - P R E} _ {z}\right) ^ {2}}}{2 \hat {\sigma} _ {\epsilon z} ^ {2} / T}
+J = \frac{1}{Z} \sum_{z = 1}^{Z} \frac{\widehat {\left(\text{PO ST -P RE}_{z}\right)^{2}}}{2 \hat {\sigma}_{\epsilon z}^{2} / T}
 $$
 - Compares change in growth pre and post leader death to usual variation in growth
 Under null of no effect,  $Z \times J$  will be distributed  $\chi^2(Z)$
 - POST-PRE $_z = \alpha_z - \beta_z$  from regression on previous page
 - Rank test:
 $$
-K = \frac {\sum (y _ {z} - 1 / 4)}{\sqrt {Z / 4 8}}
+K = \frac{\sum (y_{z} - 1 / 4)}{\sqrt{Z / 4 8}}
 $$
 $y_{z} = |r_{z} - 1 / 2|$  where  $r_z$  is rank of  $\widehat{POST - PRE}_z$  among all POST-PREit
 - $r_z$  is  $U[0,1]$  under null that leaders don't matter.
@@ -9735,7 +9735,7 @@ Combining these two equations yields
 $$
 \dot {Y} (t) = s A Y (t) - \delta Y (t)
 $$
-$$ g _ {Y} = \frac {\dot {Y} _ {t}}{Y _ {t}} = s A - \delta
+$$ g_{Y} = \frac{\dot {Y}_{t}}{Y_{t}} = s A - \delta
 $$
 - We get long-run growth from capital accumulation
 - The long-run growth rate of output (per person) is governed by  $s$ ,  $A$ , and  $\delta$
@@ -9748,7 +9748,7 @@ $$
 - We consider Romer (1986) version here (see Romer 19, p. 119-121; Barro and Sala-i-Martin 04, sec. 4.3; Acemoglu 09, sec. 11.4)
 - Suppose there is a continuum of firms with production function
 $$
-Y _ {i} (t) = F \left(K _ {i} (t), A _ {i} (t) L _ {i} (t)\right)
+Y_{i} (t) = F \left(K_{i} (t), A_{i} (t) L_{i} (t)\right)
 $$
 - Two assumptions:
 Strong learning-by-doing (investing):
@@ -9757,11 +9757,11 @@ Knowledge spillovers are perfect across firms
 (all firms benefit from each firm's learning)
 These assumptions imply:
 $$
-A _ {i} (t) = B K (t)
+A_{i} (t) = B K (t)
 $$
 Combining prior two equations:
 $$
-Y _ {i} (t) = F \left(K _ {i} (t), B K (t) L _ {i} (t)\right)
+Y_{i} (t) = F \left(K_{i} (t), B K (t) L_{i} (t)\right)
 $$
 - Suppose further that all firms are identical:
 $$
@@ -9809,9 +9809,9 @@ F (\lambda A, \lambda X) > F (A, \lambda X) = \lambda Y
 $$
 - Since ideas are non-rival, per capita output depends on the overall stock of knowledge, NOT knowledge per capita
 $$
-Y (t) = A (t) ^ {\sigma} K (t) ^ {\alpha} L (t) ^ {1 - \alpha}
+Y (t) = A (t)^{\sigma} K (t)^{\alpha} L (t)^{1 - \alpha}
 $$
-$$ y (t) = A (t) ^ {\sigma} k (t) ^ {\alpha}
+$$ y (t) = A (t)^{\sigma} k (t)^{\alpha}
 $$
 - Output per person depends on:
 Total stock of knowledge  $(A(t)^{\sigma})$
@@ -9832,35 +9832,35 @@ Similar to Solow assumption about savings rate
 - We will consider a model where workers choose optimally later on
 For now:
 $$
-L _ {A} (t) = s L (t) \quad L _ {Y} (t) = (1 - s) L (t)
+L_{A} (t) = s L (t) \quad L_{Y} (t) = (1 - s) L (t)
 $$
 - Knowledge production function in Romer (1990):
 $$
-\dot {A} (t) = \theta L _ {A} (t) A (t)
+\dot {A} (t) = \theta L_{A} (t) A (t)
 $$
 - Knowledge production depends on two inputs:
 Research effort:  $L_{A}(t)$  denotes labor devoted to research
 - Existing knowledge:  $A\left( t\right)$
 - Importantly, exponent on  $A(t)$  is one
 $\bullet$  Implies that
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} = \theta L _ {A} (t)
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} = \theta L_{A} (t)
 $$
 - Suppose for simplicity that  $L_{A}(t) = L_{A}$  (i.e., a constant)
 - Then growth rate of knowledge is constant
-$$ g _ {A} = \frac {\dot {A} (t)}{A (t)} = \theta L _ {A}
+$$ g_{A} = \frac{\dot {A} (t)}{A (t)} = \theta L_{A}
 $$
 - Suppose for simplicity that goods production function is
 $$
-Y (t) = A (t) ^ {\sigma} L _ {Y} \quad = > \quad y (t) = A (t) ^ {\sigma} (1 - s)
+Y (t) = A (t)^{\sigma} L_{Y} \quad = > \quad y (t) = A (t)^{\sigma} (1 - s)
 $$ where  $1 - s$  is (constant) share of pop. working on goods production,  $\sigma$  is importance of ideas for production (degree of increasing returns)
 This implies
 $$
-\mathbf {g} _ {y} = \sigma \mathbf {g} _ {A} = \sigma \theta L _ {A}
+\mathbf {g}_{y} = \sigma \mathbf {g}_{A} = \sigma \theta L_{A}
 $$
 - But why would knowledge production be linear in  $A(t)$  and  $L(t)$ ?
 More generally:
 $$
-\dot {A} (t) = \theta L _ {A} (t) ^ {\lambda} A (t) ^ {\phi}
+\dot {A} (t) = \theta L_{A} (t)^{\lambda} A (t)^{\phi}
 $$
 - Not necessarily constant returns to objects  $(\lambda = 1)$ :
 - Twice as much research effort may not generate twice as much knowledge
@@ -9868,7 +9868,7 @@ $$
 This would yield  $\lambda < 1$
 We assume however that  $\lambda >0$
 $$
-\dot {A} (t) = \theta L _ {A} (t) ^ {\lambda} A (t) ^ {\phi}
+\dot {A} (t) = \theta L_{A} (t)^{\lambda} A (t)^{\phi}
 $$
 - Not necessarily constant returns to existing knowledge ( $\phi = 1$ )
 $\phi > 0$ : Standing on the shoulders of giants
@@ -9893,41 +9893,41 @@ Similar to constant savings rate in Solow model
 - How much does  $1 \%$ increase in knowledge increase productivity?
 - But what is a  $1\%$  increase in knowledge? How is this measured?
 Combining (1), (3) and (4) and dividing by  $L(t)$  we get:
-$$ y (t) = A (t) ^ {\sigma} (1 - s)
+$$ y (t) = A (t)^{\sigma} (1 - s)
 $$
 - Taking logs and time derivatives yields
-$$ g _ {Y} (t) = \sigma g _ {A} (t)
+$$ g_{Y} (t) = \sigma g_{A} (t)
 $$
 - Suppose there is a balanced growth path with constant growth:
-$$ g _ {y} (t) = g _ {y} \quad \text {a n d} \quad g _ {A} (t) = g _ {A}
+$$ g_{y} (t) = g_{y} \quad \text{an d} \quad g_{A} (t) = g_{A}
 $$
 - Then we have
-$$ g _ {y} = \sigma g _ {A}
+$$ g_{y} = \sigma g_{A}
 $$
 Combining (2) and (3) and dividing by  $A(t)$ :
-$$ g _ {A} (t) = \theta s ^ {\lambda} L (t) ^ {\lambda} A (t) ^ {\phi - 1}
+$$ g_{A} (t) = \theta s^{\lambda} L (t)^{\lambda} A (t)^{\phi - 1}
 $$
 - Taking logs and time derivatives yields
 $$
-0 = \lambda g _ {L} + (\phi - 1) g _ {A}
+0 = \lambda g_{L} + (\phi - 1) g_{A}
 $$ where we use  $g_A(t) = g_A$  on BGP
 Rearranging and using  $g_{L} = n$  we get
 $$
-\boldsymbol {g} _ {y} = \sigma \boldsymbol {g} _ {A} = \frac {\sigma \lambda}{1 - \phi} n
+\boldsymbol {g}_{y} = \sigma \boldsymbol {g}_{A} = \frac{\sigma \lambda}{1 - \phi} n
 $$
 $$
-\boldsymbol {g} _ {y} = \sigma \boldsymbol {g} _ {A} = \frac {\sigma \lambda}{1 - \phi} n
+\boldsymbol {g}_{y} = \sigma \boldsymbol {g}_{A} = \frac{\sigma \lambda}{1 - \phi} n
 $$
 - Long-run growth proportional to population growth rate
 - If  $L_A(t)$  were constant at  $L_A$  (which implies  $n = 0$ ):
 $$
-\frac {\dot {A} (t)}{A (t)} = \theta L _ {A} ^ {\lambda} A (t) ^ {\phi - 1} = \frac {\theta L _ {A} ^ {\lambda}}{A (t) ^ {1 - \phi}}
+\frac{\dot {A} (t)}{A (t)} = \theta L_{A}^{\lambda} A (t)^{\phi - 1} = \frac{\theta L_{A}^{\lambda}}{A (t)^{1 - \phi}}
 $$
 - If  $1 - \phi > 0$ , or equivalently  $\phi < 1$ :
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} \rightarrow 0
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} \rightarrow 0
 $$
 Growth can't keep up with the level and thus goes to zero
-$$ g _ {y} = \sigma g _ {A} = \frac {\sigma \lambda}{1 - \phi} n
+$$ g_{y} = \sigma g_{A} = \frac{\sigma \lambda}{1 - \phi} n
 $$
 - With  $\phi < 1$ , research effort must grow exponentially for knowledge to grow exponentially
 - Exponential population growth and constant share of labor force working on research (s) does the trick
@@ -9938,30 +9938,30 @@ $$
 $$
 2. Romer (1990)  $\phi = 1$ : Knowledge prod. linear differential eq.
 $$
-\dot {A} (t) = \theta L _ {A} (t) A (t)
+\dot {A} (t) = \theta L_{A} (t) A (t)
 $$
 - "Fully-endogenous" growth model
 - Also true of Aghion-Howitt 92, Grossman-Helpman 91
 3. Jones (1995)  $\phi < 1$ : Pop. growth linear differential eq.
 $$
-\dot {A} (t) = \theta L _ {A} (t) A (t) ^ {\phi} \quad \dot {L} (t) = n L (t)
+\dot {A} (t) = \theta L_{A} (t) A (t)^{\phi} \quad \dot {L} (t) = n L (t)
 $$
 " semi-endogenous" growth model
 Growth of knowledge is generally (even outside BGP):
-$$ g _ {A} (t) = \theta s ^ {\lambda} L (t) ^ {\lambda} A (t) ^ {\phi - 1}
+$$ g_{A} (t) = \theta s^{\lambda} L (t)^{\lambda} A (t)^{\phi - 1}
 $$
 - Taking logs and differentiating by time yields
 $$
-\frac {\dot {g} _ {A} (t)}{g _ {A} (t)} = \lambda n - (1 - \phi) g _ {A} (t)
+\frac{\dot {g}_{A} (t)}{g_{A} (t)} = \lambda n - (1 - \phi) g_{A} (t)
 $$
 - Multiplying through by  $g_{A}(t)$  yields
 $$
-\dot {g} _ {A} (t) = \lambda n g _ {A} (t) - (1 - \phi) g _ {A} (t) ^ {2}
+\dot {g}_{A} (t) = \lambda n g_{A} (t) - (1 - \phi) g_{A} (t)^{2}
 $$
-$$ g _ {A} (t) = \theta s ^ {\lambda} L (t) ^ {\lambda} A (t) ^ {\phi - 1} \tag {1}
+$$ g_{A} (t) = \theta s^{\lambda} L (t)^{\lambda} A (t)^{\phi - 1} \tag {1}
 $$
 $$
-\dot {g} _ {A} (t) = \lambda n g _ {A} (t) - (1 - \phi) g _ {A} (t) ^ {2} \tag {2}
+\dot {g}_{A} (t) = \lambda n g_{A} (t) - (1 - \phi) g_{A} (t)^{2} \tag {2}
 $$
 - Equation (1) determines initial level of  $g_{A}(t)$
 Depends, e.g., on  $s$  (and therefore innovation policy)
@@ -9977,22 +9977,22 @@ Source: Romer (2019). In Romer's notation  $\theta < 1$  is what I have called  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/1fdd3228-6b68-42c0-886f-d5c346f6240f/cb0a2ecb0d4d0d415674e03b0f0b9296a426db8b7e5f62ee35f108ce5c237a91.jpg)
 FIGURE 3.3 The impact of an increase in  $a_{L}$  on the path of  $A$  when  $\theta < 1$ .
 Source: Romer (2019). In Romer's notation  $\theta < 1$  is what I have called  $\phi < 1$  and  $a_{L}$  is what I have called  $s$
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} = \theta L _ {A} ^ {\lambda} A (t) ^ {\phi - 1} = \frac {\theta s ^ {\lambda} L (t) ^ {\lambda}}{A (t) ^ {1 - \phi}}
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} = \theta L_{A}^{\lambda} A (t)^{\phi - 1} = \frac{\theta s^{\lambda} L (t)^{\lambda}}{A (t)^{1 - \phi}}
 $$
 Models with  $\phi = 1$ : s affects long run growth rate
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} = \theta s ^ {\lambda} L (t) ^ {\lambda}
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} = \theta s^{\lambda} L (t)^{\lambda}
 $$
 Models with  $\phi < 1$ : s does not affect long run growth rate
 $$
-\mathbf {g} _ {y} = \sigma \mathbf {g} _ {A} = \frac {\sigma \lambda}{1 - \phi} n
+\mathbf {g}_{y} = \sigma \mathbf {g}_{A} = \frac{\sigma \lambda}{1 - \phi} n
 $$
 - Models with  $\phi = 1$  have "strong" scale effects
 Growth rate is increasing in level of population:
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} = \theta s ^ {\lambda} L (t) ^ {\lambda}
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} = \theta s^{\lambda} L (t)^{\lambda}
 $$
 Models with  $\phi < 1$  have "weak" scale effects
 Growth rate is increasing in growth rate of population:
-$$ g _ {y} = \sigma g _ {A} = \frac {\sigma \lambda}{1 - \phi} n
+$$ g_{y} = \sigma g_{A} = \frac{\sigma \lambda}{1 - \phi} n
 $$
 These are interesting testable implications of these model classes
 - One reading of scale effects is that large countries or countries with fast population growth should have high TFP growth
@@ -10028,7 +10028,7 @@ Aggregate Total Factor Productivity Growth
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/1fdd3228-6b68-42c0-886f-d5c346f6240f/144554318b17a5f8b2b83c04c48a19f87cc0041238e7f29b1508f07c4cdb0559.jpg)
 Figure 2. Researchers and employment in the G-5 countries (index). Note. From calculations in Jones (2002b). Data on researchers before 1950 in countries other than the United States is backcasted using the 1965 research share of employment. The G-5 countries are France, Germany, Japan, the United Kingdom and the United States.
 Source: Jones (2005).
-$$ g _ {A} (t) = \frac {\dot {A} (t)}{A (t)} = \theta s L (t)
+$$ g_{A} (t) = \frac{\dot {A} (t)}{A (t)} = \theta s L (t)
 $$
 Research effort has risen by a factor of 8
 - Models with  $\phi = 1$  imply that growth should have increased by a factor of 8
@@ -10042,26 +10042,26 @@ This evidence suggests that ideas are harder to find
 Estimate extent to which ideas are getting harder to find at both macro and micro level
 - Ideas production function
 $$
-\frac {\dot {A} (t)}{A (t)} = \alpha A (t) ^ {- \beta} S (t)
+\frac{\dot {A} (t)}{A (t)} = \alpha A (t)^{- \beta} S (t)
 $$
 - $S(t)$  denotes "scientists" (i.e., research effort in units of people)
 - Notice that  $\beta = 1 - \phi$
 - If  $g_A$  is constant:
 $$
-\beta = \frac {g _ {S}}{g _ {A}}
+\beta = \frac{g_{S}}{g_{A}}
 $$
 - Define:
 $$
-\text {R e s e a r c h P r o d u c t i v i t y} = \frac {\dot {A} (t) / A (t)}{S (t)}
+\text{Re se ar ch Pr od uc ti vi ty} = \frac{\dot {A} (t) / A (t)}{S (t)}
 $$
 - Consider the "lab equipment" model of research
 $$
-\dot {A} _ {t} = \alpha R _ {t}
+\dot {A}_{t} = \alpha R_{t}
 $$
 - $R_{t}$  denotes research expenditures (labor and capital/equipment)
 - Divide through by  $A_t$  and multiply-divide by  $w_t$  (wage):
 $$
-\frac {\dot {A} _ {t}}{A _ {t}} = \underbrace {\frac {\alpha W _ {t}}{A _ {t}}} _ {\text {R e s e a r c h P r o d .}} \times \underbrace {\frac {R _ {t}}{w _ {t}}} _ {\text {S c i e n t i s t s}}
+\frac{\dot {A}_{t}}{A_{t}} = \underbrace {\frac{\alpha W_{t}}{A_{t}}}_{\text{Re se ar ch Pr od .}} \times \underbrace {\frac{R_{t}}{w_{t}}}_{\text{Sc ie nt is ts}}
 $$
 - In Romer-type model  $R_{t} / w_{t}$  and  $w_{t} / A_{t}$  are constant
 Measure research effort (in units of "scientists") by  $R_{t} / w_{t}$
@@ -10120,38 +10120,38 @@ Source: Kelly, Papanikolaou, Seru, Taddy (2022).
 - What does this suggest about the future of growth?
 - Goods production:
 $$
-Y _ {t} = K _ {t} ^ {\alpha} \left(Z _ {t} h _ {t} L _ {y t}\right) ^ {1 - \alpha}
+Y_{t} = K_{t}^{\alpha} \left(Z_{t} h_{t} L_{y t}\right)^{1 - \alpha}
 $$
 $h_t$  is human capital per person
 Productivity:
 $$
-Z _ {t} = A _ {t} M _ {t}
+Z_{t} = A_{t} M_{t}
 $$
 $A_{t}$  is knowledge
 - $M_{t}$  is misallocation
 - Some manipulation:
-$$ y _ {t} = \left(\frac {K _ {t}}{Y _ {t}}\right) ^ {\alpha / (1 - \alpha)} A _ {t} M _ {t} h _ {t} I _ {t} (1 - s _ {t})
+$$ y_{t} = \left(\frac{K_{t}}{Y_{t}}\right)^{\alpha / (1 - \alpha)} A_{t} M_{t} h_{t} I_{t} (1 - s_{t})
 $$
 - Ideas Production function:
 $$
-\dot {A} (t) = \theta L _ {A} (t) ^ {\lambda} A (t) ^ {\phi}
+\dot {A} (t) = \theta L_{A} (t)^{\lambda} A (t)^{\phi}
 $$
 $$
-\frac {\dot {A} (t)}{A (t)} = \theta s (t) ^ {\lambda} L (t) ^ {\lambda} A (t) ^ {\phi - 1}
+\frac{\dot {A} (t)}{A (t)} = \theta s (t)^{\lambda} L (t)^{\lambda} A (t)^{\phi - 1}
 $$
 - With constant growth of  $A(t)$ :
 $$
-0 = \lambda g _ {s} + \lambda g _ {L} - (1 - \phi) g _ {A}
+0 = \lambda g_{s} + \lambda g_{L} - (1 - \phi) g_{A}
 $$
-$$ g _ {A} = \frac {\lambda}{1 - \phi} \left(g _ {s} + g _ {L}\right)
+$$ g_{A} = \frac{\lambda}{1 - \phi} \left(g_{s} + g_{L}\right)
 $$
 - Jones (2022) assumes  $\lambda/(1 - \phi) = \lambda/\beta = \gamma = 1/3$
 (Results that follow are sensitive to this!)
 $$
-\begin{array}{l} \underbrace {d \log y _ {t}} _ {\text {G D P p e r p e r s o n}} = \underbrace {\frac {\alpha}{1 - \alpha} d \log \frac {K _ {t}}{Y _ {t}}} _ {\text {C a p i t a l - O u t p u t r a t i o}} + \underbrace {d \log h _ {t}} _ {\text {E d u c a t i o n a l a t t .}} + \underbrace {d \log \ell_ {t}} _ {\text {E m p - P o p r a t i o}} + \underbrace {d \log (1 - s _ {t})} _ {\text {G o o d s i n t e n s i t y}} \\ + \underbrace {d \log M _ {t} + d \log A _ {t}} _ {\text {T F P g r o w t h}} \tag {15} \\ \end{array}
+\begin{array}{l} \underbrace {d \log y_{t}}_{\text{GD Pp er pe rs on}} = \underbrace {\frac{\alpha}{1 - \alpha} d \log \frac{K_{t}}{Y_{t}}}_{\text{Ca pi ta l -O ut pu tr at io}} + \underbrace {d \log h_{t}}_{\text{Ed uc at io na la tt .}} + \underbrace {d \log \ell_{t}}_{\text{Em p -P op ra ti o}} + \underbrace {d \log (1 - s_{t})}_{\text{Go od si nt en si ty}} \\ + \underbrace {d \log M_{t} + d \log A_{t}}_{\text{TF Pg ro wt h}} \tag {15} \\ \end{array}
 $$ where
 $$
-\text {T F P} \quad \text {g r o w t h} \equiv \underbrace {d \log M _ {t}} _ {\text {M i s a l l o c a t i o n}} + \underbrace {d \log A _ {t}} _ {\text {I d e a s}} = \underbrace {d \log M _ {t}} _ {\text {M i s a l l o c a t i o n}} + \underbrace {\gamma d \log s _ {t}} _ {\text {R e s e a r c h i n t e n s i t y}} + \underbrace {\gamma d \log L _ {t}} _ {\text {L F g r o w t h}} \tag {16}
+\text{TF P} \quad \text{gr ow th} \equiv \underbrace {d \log M_{t}}_{\text{Mi sa ll oc at io n}} + \underbrace {d \log A_{t}}_{\text{Id ea s}} = \underbrace {d \log M_{t}}_{\text{Mi sa ll oc at io n}} + \underbrace {\gamma d \log s_{t}}_{\text{Re se ar ch in te ns it y}} + \underbrace {\gamma d \log L_{t}}_{\text{LF gr ow th}} \tag {16}
 $$
 Source: Jones (2022).
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/1fdd3228-6b68-42c0-886f-d5c346f6240f/38fd733bfe72b2d5ffe2645b38560c526868a12832b48df87ebf5642a4ba4dd6.jpg)
@@ -10195,7 +10195,7 @@ University of California, Berkeley
 Fall 2025
 - Last lecture, we assumed
 $$
-L _ {A} (t) = s L (t)
+L_{A} (t) = s L (t)
 $$
 This was a short cut
 - Similar to constant savings rate in Solow model
@@ -10231,7 +10231,7 @@ Economic growth models (e.g., Romer 90)
 Each firm is the monopoly supplier of a differentiated product
 These products enter household utility through the consumption index
 $$
-C = \left[ \int_ {0} ^ {N} c _ {i} ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}}
+C = \left[ \int_{0}^{N} c_{i}^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}}
 $$
 Household utility is then  $U(C, L, \ldots)$  where  $C$  is the index above
 $\phi$  is the elasticity of substitution between the different  $c_{i}$
@@ -10239,38 +10239,38 @@ Suppose the price of the good  $i$  is  $p_i$
 Household would like to maximize the amount of  $C$  it can purchase for a given amount of spending  $Z$
 It therefore solves:
 $$
-\max _ {c _ {i}} \left[ \int_ {0} ^ {N} c _ {i} ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}} \quad \text {s u b j e c t t o} \quad \int_ {0} ^ {N} p _ {i} c _ {i} d i = Z
+\max_{c_{i}} \left[ \int_{0}^{N} c_{i}^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}} \quad \text{su bj ec tt o} \quad \int_{0}^{N} p_{i} c_{i} d i = Z
 $$
 We can form a Lagrangian:
 $$
-L = \left[ \int_ {0} ^ {N} c _ {i} ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}} - \lambda \left[ \int_ {0} ^ {N} p _ {i} c _ {i} d i - Z \right]
+L = \left[ \int_{0}^{N} c_{i}^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}} - \lambda \left[ \int_{0}^{N} p_{i} c_{i} d i - Z \right]
 $$
 Differentiating with respect to  $c_{i}$  yields:
 $$
-\left(\frac {C}{c _ {i}}\right) ^ {\frac {1}{\phi}} = \lambda p _ {i}
+\left(\frac{C}{c_{i}}\right)^{\frac{1}{\phi}} = \lambda p_{i}
 $$
 - This is true for each  $i$ . Divide the one for  $i$  by the one for  $i'$ :
 $$
-\left(\frac {c _ {i} ^ {\prime}}{c _ {i}}\right) ^ {\frac {1}{\phi}} = \frac {p _ {i}}{p _ {i} ^ {\prime}}
+\left(\frac{c_{i}^{\prime}}{c_{i}}\right)^{\frac{1}{\phi}} = \frac{p_{i}}{p_{i}^{\prime}}
 $$
 Rearranging yields:
 $$
-\boldsymbol {c} _ {i} = \boldsymbol {c} _ {i} ^ {\prime} \left(\frac {\boldsymbol {p} _ {i}}{\boldsymbol {p} _ {i} ^ {\prime}}\right) ^ {- \phi}
+\boldsymbol {c}_{i} = \boldsymbol {c}_{i}^{\prime} \left(\frac{\boldsymbol {p}_{i}}{\boldsymbol {p}_{i}^{\prime}}\right)^{- \phi}
 $$
 - Shows that price elasticity of demand is  $\phi$
 - Let's define the ideal price index  $P$  as the minimum expenditure needed to purchase 1 unit of the consumption index
 - Some additional algebra then yields see steps
 $$
-P = \left[ \int_ {0} ^ {N} p _ {i} ^ {1 - \phi} d i \right] ^ {\frac {1}{1 - \phi}}
+P = \left[ \int_{0}^{N} p_{i}^{1 - \phi} d i \right]^{\frac{1}{1 - \phi}}
 $$
 Using the fact that  $\lambda = 1 / P$  yields
-$$ c _ {i} = C \left(\frac {p _ {i}}{P}\right) ^ {- \phi}
+$$ c_{i} = C \left(\frac{p_{i}}{P}\right)^{- \phi}
 $$ which is just another way to express the demand curve for  $c_{i}$
 Household preferences display "love of variety"
 - Suppose the price of all the goods is equal to  $p$ .
 - Price index is then
 $$
-P = \left[ \int_ {0} ^ {N} p ^ {1 - \phi} d i \right] ^ {\frac {1}{1 - \phi}} = p \left[ \int_ {0} ^ {N} 1 d i \right] ^ {\frac {1}{1 - \phi}} = p N ^ {- \frac {1}{\phi - 1}}
+P = \left[ \int_{0}^{N} p^{1 - \phi} d i \right]^{\frac{1}{1 - \phi}} = p \left[ \int_{0}^{N} 1 d i \right]^{\frac{1}{1 - \phi}} = p N^{- \frac{1}{\phi - 1}}
 $$
 - If  $\phi > 1$ ,  $P$  is falling in  $N$
 Households get more  $C$  per unit spending as  $N$  increases
@@ -10279,11 +10279,11 @@ Households get more  $C$  per unit spending as  $N$  increases
 Firm profits are then given by  $\Pi_{i} = p_{i}c_{i} - \psi c_{i}$
 Firms set prices to maximize profits given demand for their product
 $$
-\max  _ {p _ {i}} C \left(\frac {p _ {i}}{P}\right) ^ {- \phi} (p _ {j} - \psi)
+\max_{p_{i}} C \left(\frac{p_{i}}{P}\right)^{- \phi} (p_{j} - \psi)
 $$
 Profit maximization yields
 $$
-\pmb {p} _ {i} = \frac {\phi}{\phi - 1} \psi
+\pmb {p}_{i} = \frac{\phi}{\phi - 1} \psi
 $$
 - Firm's set prices equal to a markup over marginal cost
 - For markup to be finite,  $\phi$  must be larger than 1
@@ -10291,7 +10291,7 @@ $$
 - Can also be applied to factor markets
 Production function:
 $$
-Y = \left[ \int_ {0} ^ {N} y _ {i} ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}}
+Y = \left[ \int_{0}^{N} y_{i}^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}}
 $$ where  $y_{i}$  are intermediate inputs
 - In this case producer of intermediate input is a monopolist with market power
 - Let's now consider the expanding variety model of growth
@@ -10306,15 +10306,15 @@ Households supply an aggregate quantity  $L$  of labor inelastically
 Households own all firms in equal proportions
 Household utility
 $$
-U = \int_ {0} ^ {\infty} \exp (- \rho t) \frac {C (t) ^ {1 - \theta}}{1 - \theta} d t
+U = \int_{0}^{\infty} \exp (- \rho t) \frac{C (t)^{1 - \theta}}{1 - \theta} d t
 $$
 As in Ramsey model, household optimization yields:
 $$
-\frac {\dot {C} (t)}{C (t)} = \frac {1}{\theta} (r (t) - \rho)
+\frac{\dot {C} (t)}{C (t)} = \frac{1}{\theta} (r (t) - \rho)
 $$
 - Final goods are produced in a perfectly competitive market with the production function
 $$
-Y (t) = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} x (i, t) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} x (i, t)^{1 - \beta} d i
 $$
 - Inputs to final goods production:
 Labor:  $L_{Y}(t)$
@@ -10322,31 +10322,31 @@ Labor:  $L_{Y}(t)$
 - Notice that final goods production is constant returns to scale in physical inputs
 - Notice that production function can also be written
 $$
-Y (t) = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \mathbf {X} (t) ^ {1 - \beta}
+Y (t) = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \mathbf {X} (t)^{1 - \beta}
 $$ where
 $$
-\mathbf {X} (t) = \left[ \int_ {0} ^ {N (t)} x (i, t) ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}}
+\mathbf {X} (t) = \left[ \int_{0}^{N (t)} x (i, t)^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}}
 $$ and  $\phi = 1 / \beta$
 - So, intermediate input part of production function takes Dixit-Stiglitz form
 $$
-Y (t) = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} x (i, t) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} x (i, t)^{1 - \beta} d i
 $$
 - Production is additively separable in different  $x(i, t)$ s
 - Marginal product of each  $x(i, t)$  independent of the others
 - New products don't make older products obsolete (strong contrast with "quality ladder model")
 - Final goods firms maximize profits
 $$
-\Pi = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} x (i, t) ^ {1 - \beta} d i - \int_ {0} ^ {N (t)} p (i, t) x (i, t) d i - w (t) L _ {Y} (t)
+\Pi = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} x (i, t)^{1 - \beta} d i - \int_{0}^{N (t)} p (i, t) x (i, t) d i - w (t) L_{Y} (t)
 $$ where  $p(i,t)$  is the price of intermediate input  $x(i,t)$
 Intermediate input demand:
 $$
-L _ {\mathcal {Y}} (t) ^ {\beta} x (i, t) ^ {- \beta} - p (i, t) = 0
+L_{\mathcal {Y}} (t)^{\beta} x (i, t)^{- \beta} - p (i, t) = 0
 $$ and rearranging:
-$$ x (i, t) = p (i, t) ^ {- 1 / \beta} L _ {Y} (t)
+$$ x (i, t) = p (i, t)^{- 1 / \beta} L_{Y} (t)
 $$
 Labor demand:
 $$
-\beta \frac {Y (t)}{L _ {Y} (t)} = w (t)
+\beta \frac{Y (t)}{L_{Y} (t)} = w (t)
 $$
 This is the real heart of the model!
 - There is free entry into development of new intermediate inputs
@@ -10362,29 +10362,29 @@ $$
 $$
 - Plugging demand into profits we get
 $$
-\Pi (i, t) = p (i, t) ^ {- 1 / \beta} L _ {\gamma} (t) [ p (i, t) - \psi ]
+\Pi (i, t) = p (i, t)^{- 1 / \beta} L_{\gamma} (t) [ p (i, t) - \psi ]
 $$
 Differentiating to find profit maximizing price:
 $$
-\left(- \frac {1}{\beta} + 1\right) p (i, t) ^ {- \frac {1}{\beta}} + \frac {1}{\beta} p (i, t) ^ {- \frac {1}{\beta} - 1} \psi = 0
+\left(- \frac{1}{\beta} + 1\right) p (i, t)^{- \frac{1}{\beta}} + \frac{1}{\beta} p (i, t)^{- \frac{1}{\beta} - 1} \psi = 0
 $$
 Rearranging yields
 $$
-\boldsymbol {p} (i, t) = \frac {1}{1 - \beta} \psi
+\boldsymbol {p} (i, t) = \frac{1}{1 - \beta} \psi
 $$
 - Let's normalize  $\psi = (1 - \beta)$
 - Implies that
 $$ p (i, t) = 1
 $$
 This means that
-$$ x (i, t) = p (i, t) ^ {- 1 / \beta} L _ {Y} (t) = L _ {Y} (t)
+$$ x (i, t) = p (i, t)^{- 1 / \beta} L_{Y} (t) = L_{Y} (t)
 $$
 - Final good output then becomes
 $$
-\begin{array}{l} Y (t) = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} x (i, t) ^ {1 - \beta} d i \\ = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} L _ {Y} (t) ^ {1 - \beta} d i \\ = \frac {1}{1 - \beta} N (t) L _ {Y} (t) \\ \end{array}
+\begin{array}{l} Y (t) = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} x (i, t)^{1 - \beta} d i \\ = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} L_{Y} (t)^{1 - \beta} d i \\ = \frac{1}{1 - \beta} N (t) L_{Y} (t) \\ \end{array}
 $$
 $$
-Y (t) = \frac {1}{1 - \beta} N (t) L _ {Y} (t)
+Y (t) = \frac{1}{1 - \beta} N (t) L_{Y} (t)
 $$
 - $N(t)$  (# of intermediate goods invented) acts like "productivity"
 - Product innovation raises aggregate output
@@ -10395,26 +10395,26 @@ In this model, innovation is profit driven
 - Since there is free entry, people will innovate to the point where marginal cost is equal to marginal profit
 - Flow profit associated with successful innovation:
 $$
-\begin{array}{l} \left. \Pi (i, t) = p (i, t) x (i, t) - \psi x (i, t) \right. \\ = L _ {Y} (t) - (1 - \beta) L _ {Y} (t) \\ = \beta L _ {\gamma} (t) \\ \end{array}
+\begin{array}{l} \left. \Pi (i, t) = p (i, t) x (i, t) - \psi x (i, t) \right. \\ = L_{Y} (t) - (1 - \beta) L_{Y} (t) \\ = \beta L_{\gamma} (t) \\ \end{array}
 $$
 The total value of owning the right to sell intermediate  $i$  is
 $$
-V (i, t) = \int_ {t} ^ {\infty} \exp \left(- \int_ {t} ^ {s} r (s ^ {\prime}) d s ^ {\prime}\right) \Pi (i, s) d s
+V (i, t) = \int_{t}^{\infty} \exp \left(- \int_{t}^{s} r (s^{\prime}) d s^{\prime}\right) \Pi (i, s) d s
 $$
 - If  $r(t) = r$  – which turns out to be the case – and using expression for profits on last slide, this simplifies to
 $$
-V (t) = \int_ {t} ^ {\infty} \exp (- r (s - t)) \beta L _ {Y} (t) d s
+V (t) = \int_{t}^{\infty} \exp (- r (s - t)) \beta L_{Y} (t) d s
 $$
 This is just the discounted value of the profits
 R&D production function:
 $$
-\dot {N} (t) = \eta N (t) L _ {R} (t)
+\dot {N} (t) = \eta N (t) L_{R} (t)
 $$
 - This is the  $\phi = 1$  case from last lecture as in Romer (1990)
 - Alternative cases:
 - Semi-endogenous growth model:
 $$
-\dot {N} (t) = \eta N (t) ^ {\phi} L _ {R} (t) \quad \text {w i t h} \quad \phi <   1
+\dot {N} (t) = \eta N (t)^{\phi} L_{R} (t) \quad \text{wi th} \quad \phi <   1
 $$
 "Lab equipment" model
 $$
@@ -10429,35 +10429,35 @@ $$
 $$
 - We look for an equilibrium with a constant growth rate  $g$  for consumption and output
 - In such an equilibrium, the interest rate must be constant:
-$$ g = \frac {\dot {C} (t)}{C (t)} = \frac {1}{\theta} (r - \rho)
+$$ g = \frac{\dot {C} (t)}{C (t)} = \frac{1}{\theta} (r - \rho)
 $$
 - We conjecture that  $L_{R}(t) = L_{R}$  and  $L_{Y}(t) = L_{Y}$ .
 This implies
 $$
-V = \int_ {t} ^ {\infty} \exp (- r (s - t)) \beta L _ {Y} (t) d s = \frac {\beta L _ {Y}}{r}
+V = \int_{t}^{\infty} \exp (- r (s - t)) \beta L_{Y} (t) d s = \frac{\beta L_{Y}}{r}
 $$
 - Recall that labor supply is given by
 $$
-\beta \frac {Y (t)}{L _ {\gamma} (t)} = w (t)
+\beta \frac{Y (t)}{L_{\gamma} (t)} = w (t)
 $$
 The value of the intermediate firm is
 $$
-V = \frac {\beta L _ {Y}}{r}
+V = \frac{\beta L_{Y}}{r}
 $$
 - Plugging these in for  $V(i, t)$  and  $w(t)$  in the free entry condition yields
 $$
-\eta N (t) V (i, t) = w (t) \quad = > \quad \eta N (t) \frac {\beta L _ {Y}}{r} = \beta \frac {Y (t)}{L _ {Y}}
+\eta N (t) V (i, t) = w (t) \quad = > \quad \eta N (t) \frac{\beta L_{Y}}{r} = \beta \frac{Y (t)}{L_{Y}}
 $$
 - Recall that output of final goods is
 $$
-Y (t) = \frac {1}{1 - \beta} N (t) L _ {Y}
+Y (t) = \frac{1}{1 - \beta} N (t) L_{Y}
 $$
 - Plugging this in yields
 $$
-\eta N (t) \frac {\beta L _ {Y}}{r} = \beta \frac {Y (t)}{L _ {Y}} \quad = > \quad \eta N (t) \frac {\beta L _ {Y}}{r} = \frac {\beta}{1 - \beta} N (t)
+\eta N (t) \frac{\beta L_{Y}}{r} = \beta \frac{Y (t)}{L_{Y}} \quad = > \quad \eta N (t) \frac{\beta L_{Y}}{r} = \frac{\beta}{1 - \beta} N (t)
 $$
 - We can further simplify this expression to
-$$ r = (1 - \beta) \eta L _ {Y}
+$$ r = (1 - \beta) \eta L_{Y}
 $$
 - We see from this that free entry into innovation yields a condition that links the interest rate (ultimately household patience) and the allocation of labor to production versus research
 - Goods market clearing implies:
@@ -10465,35 +10465,35 @@ $$
 C (t) + X (t) = Y (t)
 $$ where
 $$
-X (t) = \int_ {0} ^ {N (t)} \psi x (i, t) d i
+X (t) = \int_{0}^{N (t)} \psi x (i, t) d i
 $$
 Labor market clearing implies:
 $$
-L _ {Y} + L _ {R} = L
+L_{Y} + L_{R} = L
 $$
 - Consider again output of final goods
 $$
-Y (t) = \frac {1}{1 - \beta} N (t) L _ {Y}
+Y (t) = \frac{1}{1 - \beta} N (t) L_{Y}
 $$
 Since  $L_{Y}$  is constant, the growth rate of  $N(t)$  must be the same as the growth rate of output
 - Next consider
 $$
-\dot {N} (t) = \eta N (t) L _ {R} (t)
+\dot {N} (t) = \eta N (t) L_{R} (t)
 $$
 Rearranging this equation yields:
-$$ g = \frac {\dot {N} (t)}{N (t)} = \eta L _ {R}
+$$ g = \frac{\dot {N} (t)}{N (t)} = \eta L_{R}
 $$
 - We now have four equations in four unknown variables:
-$$ g = \frac {1}{\theta} (r - \rho) \quad r = (1 - \beta) \eta L _ {Y}
+$$ g = \frac{1}{\theta} (r - \rho) \quad r = (1 - \beta) \eta L_{Y}
 $$
 $$
-L _ {Y} + L _ {R} = L \quad g = \eta L _ {R}
+L_{Y} + L_{R} = L \quad g = \eta L_{R}
 $$
 - Solving these for  $g$  yields:
-$$ g = \frac {(1 - \beta) \eta L - \rho}{(1 - \beta) + \theta}
+$$ g = \frac{(1 - \beta) \eta L - \rho}{(1 - \beta) + \theta}
 $$
 To summarize:
-$$ g = \frac {(1 - \beta) \eta L - \rho}{(1 - \beta) + \theta}
+$$ g = \frac{(1 - \beta) \eta L - \rho}{(1 - \beta) + \theta}
 $$
 - Intuitively: Growth is increasing in
 - Productivity of R&D (i.e.,  $\eta$ )
@@ -10511,81 +10511,81 @@ Useful to do this in two steps:
 2. Optimal path for  $C(t)$ ,  $N(t)$ ,  $L_{Y}(t)$
 - Goods market clearing can be written:
 $$
-\begin{array}{l} C (t) = Y (t) - X (t) \\ = \frac {1}{1 - \beta} L _ {Y} (t) ^ {\beta} \int_ {0} ^ {N (t)} x (i, t) ^ {1 - \beta} d i - \int_ {0} ^ {N (t)} \psi x (i, t) d i \\ \end{array}
+\begin{array}{l} C (t) = Y (t) - X (t) \\ = \frac{1}{1 - \beta} L_{Y} (t)^{\beta} \int_{0}^{N (t)} x (i, t)^{1 - \beta} d i - \int_{0}^{N (t)} \psi x (i, t) d i \\ \end{array}
 $$
 - The right-hand-side is "net output"
 - The static optimum involves maximizing net output
 - Differentiating net output with respect to  $x(i, t)$  and setting the resulting expression equal to zero yields:
-$$ x ^ {S} (i, t) = (1 - \beta) ^ {- 1 / \beta} L _ {\gamma} ^ {S} (t)
+$$ x^{S} (i, t) = (1 - \beta)^{- 1 / \beta} L_{\gamma}^{S} (t)
 $$ where superscript  $S$  denotes "social planner solution"
 Market solution:
-$$ x (i, t) = L _ {Y} (t)
+$$ x (i, t) = L_{Y} (t)
 $$
 - Social planner solution:
-$$ x ^ {\mathcal {S}} (i, t) = (1 - \beta) ^ {- 1 / \beta} L _ {Y} ^ {\mathcal {S}} (t)
+$$ x^{\mathcal {S}} (i, t) = (1 - \beta)^{- 1 / \beta} L_{Y}^{\mathcal {S}} (t)
 $$
 - $x^{S}(i,t) > x(i,t)$  because social planner eliminates monopoly markup
 - Plugging  $x^{S}(i,t)$  into production function for final output yields
 $$
-Y ^ {S} (t) = (1 - \beta) ^ {- 1 / \beta} N ^ {S} (t) L _ {Y} ^ {S} (t)
+Y^{S} (t) = (1 - \beta)^{- 1 / \beta} N^{S} (t) L_{Y}^{S} (t)
 $$
 - And net output becomes
 $$
-\begin{array}{l} C ^ {S} (t) = (1 - \beta) ^ {- 1 / \beta} N ^ {S} (t) L _ {Y} ^ {S} (t) - \int_ {0} ^ {N (t)} \psi x ^ {S} (i, t) d i \\ = (1 - \beta) ^ {- 1 / \beta} N ^ {S} (t) L _ {Y} ^ {S} (t) - (1 - \beta) ^ {- (1 - \beta) / \beta} N ^ {S} (t) L _ {Y} ^ {S} (t) \\ = (1 - \beta) ^ {- 1 / \beta} \beta N ^ {S} (t) L _ {\gamma} ^ {S} (t) \\ \end{array}
+\begin{array}{l} C^{S} (t) = (1 - \beta)^{- 1 / \beta} N^{S} (t) L_{Y}^{S} (t) - \int_{0}^{N (t)} \psi x^{S} (i, t) d i \\ = (1 - \beta)^{- 1 / \beta} N^{S} (t) L_{Y}^{S} (t) - (1 - \beta)^{- (1 - \beta) / \beta} N^{S} (t) L_{Y}^{S} (t) \\ = (1 - \beta)^{- 1 / \beta} \beta N^{S} (t) L_{\gamma}^{S} (t) \\ \end{array}
 $$
 - The social planner problem then becomes
 $$
-\max  \int_ {0} ^ {\infty} \exp (- \rho t) \frac {C (t) ^ {1 - \theta}}{1 - \theta} d t
+\max  \int_{0}^{\infty} \exp (- \rho t) \frac{C (t)^{1 - \theta}}{1 - \theta} d t
 $$ subject to
 $$
-C (t) = (1 - \beta) ^ {- 1 / \beta} \beta N (t) L _ {Y} (t)
+C (t) = (1 - \beta)^{- 1 / \beta} \beta N (t) L_{Y} (t)
 $$
 $$
-\dot {N} (t) = \eta N (t) L _ {R} (t)
+\dot {N} (t) = \eta N (t) L_{R} (t)
 $$
 $$
-L _ {R} (t) + L _ {Y} (t) = L
+L_{R} (t) + L_{Y} (t) = L
 $$
 We can simplify this to:
 $$
-\max  \int_ {0} ^ {\infty} \exp (- \rho t) \frac {C (t) ^ {1 - \theta}}{1 - \theta} d t
+\max  \int_{0}^{\infty} \exp (- \rho t) \frac{C (t)^{1 - \theta}}{1 - \theta} d t
 $$ subject to
 $$
-\dot {N} (t) = \eta [ N (t) L - (1 - \beta) ^ {1 / \beta} \beta^ {- 1} C (t) ]
+\dot {N} (t) = \eta [ N (t) L - (1 - \beta)^{1 / \beta} \beta^{- 1} C (t) ]
 $$
 - We can now set up a current value Hamiltonian
 $$
-\mathcal {H} (t) = \frac {C (t) ^ {1 - \theta}}{1 - \theta} + \mu (t) [ \eta N (t) L - \eta (1 - \beta) ^ {1 / \beta} \beta^ {- 1} C (t) ]
+\mathcal {H} (t) = \frac{C (t)^{1 - \theta}}{1 - \theta} + \mu (t) [ \eta N (t) L - \eta (1 - \beta)^{1 / \beta} \beta^{- 1} C (t) ]
 $$
 $$
-\mathcal {H} (t) = \frac {\mathcal {C} (t) ^ {1 - \theta}}{1 - \theta} + \mu (t) [ \eta N (t) L - \eta (1 - \beta) ^ {1 / \beta} \beta^ {- 1} \mathcal {C} (t) ]
+\mathcal {H} (t) = \frac{\mathcal {C} (t)^{1 - \theta}}{1 - \theta} + \mu (t) [ \eta N (t) L - \eta (1 - \beta)^{1 / \beta} \beta^{- 1} \mathcal {C} (t) ]
 $$
 Differentiating  $\mathcal{H}(t)$  with respect to  $C(t)$  and  $N(t)$  yields:
 $$
-\mathcal {H} _ {\mathcal {C}} (t) = \mathcal {C} (t) ^ {- \theta} - \eta (1 - \beta) ^ {1 / \beta} \beta^ {- 1} \mu (t) = 0
+\mathcal {H}_{\mathcal {C}} (t) = \mathcal {C} (t)^{- \theta} - \eta (1 - \beta)^{1 / \beta} \beta^{- 1} \mu (t) = 0
 $$
 $$
-\mathcal {H} _ {N} (t) = \eta L \mu (t) = \rho \mu (t) - \dot {\mu} (t)
+\mathcal {H}_{N} (t) = \eta L \mu (t) = \rho \mu (t) - \dot {\mu} (t)
 $$
 - Manipulation of these equations yields:
 $$
-\mu (t) = \eta^ {- 1} (1 - \beta) ^ {- 1 / \beta} \beta C (t) ^ {- \theta}
+\mu (t) = \eta^{- 1} (1 - \beta)^{- 1 / \beta} \beta C (t)^{- \theta}
 $$
 $$
-\frac {\dot {\mu} (t)}{\mu (t)} = - [ \eta L - \rho ]
+\frac{\dot {\mu} (t)}{\mu (t)} = - [ \eta L - \rho ]
 $$
 Combining these yields:
 $$
-\frac {\dot {C} ^ {S} (t)}{C ^ {S} (t)} = \frac {1}{\theta} [ \eta L - \rho ]
+\frac{\dot {C}^{S} (t)}{C^{S} (t)} = \frac{1}{\theta} [ \eta L - \rho ]
 $$
 The growth rate chosen by the social planner is
-$$ g ^ {S} = \frac {1}{\theta} [ \eta L - \rho ]
+$$ g^{S} = \frac{1}{\theta} [ \eta L - \rho ]
 $$
 The growth rate of the market economy with patents:
-$$ g = \frac {1}{\theta} ((1 - \beta) \eta L _ {Y} - \rho)
+$$ g = \frac{1}{\theta} ((1 - \beta) \eta L_{Y} - \rho)
 $$
 Since  $L > (1 - \beta)L_{Y}$  we have the
-$$ g ^ {s} > g
+$$ g^{s} > g
 $$
 The market economy with patents yield suboptimally low growth
 - Appropriability: Monopolist cannot appropriate full social value of its invention. Therefore innovates too little
@@ -10606,19 +10606,19 @@ Real world has temporary, imperfectly enforceable patents
 # Appendix
 - Notice that
 $$
-\left(\frac {C}{c _ {i}}\right) ^ {\frac {1}{\phi}} = \lambda p _ {i} \quad \rightarrow \quad c _ {i} = C (\lambda p _ {i}) ^ {- \phi}
+\left(\frac{C}{c_{i}}\right)^{\frac{1}{\phi}} = \lambda p_{i} \quad \rightarrow \quad c_{i} = C (\lambda p_{i})^{- \phi}
 $$
 - Plug this into the budget constraint to get
 $$
-Z = \int_ {0} ^ {N} p _ {i} C (\lambda p _ {i}) ^ {- \phi} d i
+Z = \int_{0}^{N} p_{i} C (\lambda p_{i})^{- \phi} d i
 $$
 - Using the fact that  $Z = PC$  (follows from definition of  $P$ ) and rearranging yields:
 $$
-P = \lambda^ {- \phi} \int_ {0} ^ {N} p _ {i} ^ {1 - \phi} d i
+P = \lambda^{- \phi} \int_{0}^{N} p_{i}^{1 - \phi} d i
 $$
 - Notice that  $\lambda = P^{-1}$  and rearrange to get
 $$
-P = \left[ \int_ {0} ^ {N} p _ {i} ^ {1 - \phi} d i \right] ^ {\frac {1}{1 - \phi}}
+P = \left[ \int_{0}^{N} p_{i}^{1 - \phi} d i \right]^{\frac{1}{1 - \phi}}
 $$
 # CREATE DESTRUCTION:
 # THE QUALITY LADDER MODEL
@@ -10642,22 +10642,22 @@ Households supply an aggregate quantity  $L$  of labor inelastically
 Households own all firms in equal proportions
 Household utility
 $$
-U = \int_ {0} ^ {\infty} \exp (- \rho t) \frac {C (t) ^ {1 - \theta}}{1 - \theta} d t
+U = \int_{0}^{\infty} \exp (- \rho t) \frac{C (t)^{1 - \theta}}{1 - \theta} d t
 $$
 As in Ramsey model, household optimization yields:
 $$
-\frac {\dot {C} (t)}{C (t)} = \frac {1}{\theta} (r (t) - \rho)
+\frac{\dot {C} (t)}{C (t)} = \frac{1}{\theta} (r (t) - \rho)
 $$
 - Final goods are produced in a perfectly competitive market with the production function
 $$
-Y (t) = \frac {1}{1 - \beta} L ^ {\beta} \int_ {0} ^ {1} q (i, t) x (i, t) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L^{\beta} \int_{0}^{1} q (i, t) x (i, t)^{1 - \beta} d i
 $$
 Differences versus expanding variety model:
 Measure 1 of intermediate inputs as opposed to  $N(t)$
 - All labor  $L$  used for final goods (knowledge produced with final goods)
 Each intermediate input has a quality level  $q(i, t)$  (More on functional form assumption later)
 - Quality of good  $i$  evolves according to:
-$$ q (i, t) = \lambda^ {n (i, t)} q (i, 0)
+$$ q (i, t) = \lambda^{n (i, t)} q (i, 0)
 $$
 - $n(i, t)$  is number of improvements of product  $i$  between time 0 and time  $t$
 - $\lambda > 1$  is the size of each quality improvement
@@ -10674,26 +10674,26 @@ $q(i,t)$  is a also a random variable
 - Aggregate output will thus not be stochastic
 - Notice that production function can also be written
 $$
-Y (t) = \frac {1}{1 - \beta} L ^ {\beta} \mathbf {X} (t) ^ {1 - \beta}
+Y (t) = \frac{1}{1 - \beta} L^{\beta} \mathbf {X} (t)^{1 - \beta}
 $$ where
 $$
-\mathbf {X} (t) = \left[ \int_ {0} ^ {1} q (i, t) x (i, t) ^ {\frac {\phi - 1}{\phi}} d i \right] ^ {\frac {\phi}{\phi - 1}}
+\mathbf {X} (t) = \left[ \int_{0}^{1} q (i, t) x (i, t)^{\frac{\phi - 1}{\phi}} d i \right]^{\frac{\phi}{\phi - 1}}
 $$ and  $\phi = 1 / \beta$
 - So, intermediate input part of production function takes Dixit-Stiglitz form (with a quality twist)
 - Final goods firms maximize profits
 $$
-\Pi = \frac {1}{1 - \beta} L ^ {\beta} \int_ {0} ^ {1} q (i, t) x (i, t) ^ {1 - \beta} d i - \int_ {0} ^ {1} p (i, t) x (i, t) d i - w (t) L
+\Pi = \frac{1}{1 - \beta} L^{\beta} \int_{0}^{1} q (i, t) x (i, t)^{1 - \beta} d i - \int_{0}^{1} p (i, t) x (i, t) d i - w (t) L
 $$ where  $p(i, t)$  is the price of intermediate input  $x(i, t)$
 (the highest quality version)
 Intermediate input demand:
 $$
-L ^ {\beta} q (i, t) x (i, t) ^ {- \beta} - p (i, t) = 0
+L^{\beta} q (i, t) x (i, t)^{- \beta} - p (i, t) = 0
 $$ and rearranging:
-$$ x (i, t) = \left(\frac {q (i , t)}{p (i , t)}\right) ^ {1 / \beta} L
+$$ x (i, t) = \left(\frac{q (i , t)}{p (i , t)}\right)^{1 / \beta} L
 $$
 Labor demand:
 $$
-\beta \frac {Y (t)}{L} = w (t)
+\beta \frac{Y (t)}{L} = w (t)
 $$
 Free entry into developing improved version of each product line
 - Both incumbent firm and new firms can innovate (more on this later)
@@ -10713,14 +10713,14 @@ $$
 $$
 - Let's plug in the demand curve: (and drop the  $(i, t)$ 's)
 $$
-\Pi = p \left(\frac {q}{p}\right) ^ {1 / \beta} L - q \psi \left(\frac {q}{p}\right) ^ {1 / \beta} L
+\Pi = p \left(\frac{q}{p}\right)^{1 / \beta} L - q \psi \left(\frac{q}{p}\right)^{1 / \beta} L
 $$
 Differentiating and setting to zero:
 $$
-\left(1 - \frac {1}{\beta}\right) p ^ {- 1 / \beta} + \frac {1}{\beta} q \psi p ^ {- 1 / \beta - 1} = 0
+\left(1 - \frac{1}{\beta}\right) p^{- 1 / \beta} + \frac{1}{\beta} q \psi p^{- 1 / \beta - 1} = 0
 $$
 Rearranging:
-$$ p = (1 - \beta) ^ {- 1} \psi q
+$$ p = (1 - \beta)^{- 1} \psi q
 $$
 - What matters for buyer (final goods firm) is not price but price per unit quality
 - We need to know both price and "marginal product" of each version
@@ -10728,34 +10728,34 @@ $$
 - How do we compare marginal product of different versions of good  $i$  that have different levels of quality?
 Production Function:
 $$
-Y (t) = \frac {1}{1 - \beta} L ^ {\beta} \int_ {0} ^ {1} q (i, t) x (i, t) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L^{\beta} \int_{0}^{1} q (i, t) x (i, t)^{1 - \beta} d i
 $$
 Since they are perfect substitutes, they should enter linearly
 - Let's rewrite the production function:
 $$
-Y (t) = \frac {1}{1 - \beta} L ^ {\beta} \int_ {0} ^ {1} \left(q (i, t) ^ {\frac {1}{1 - \beta}} x (i, t)\right) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L^{\beta} \int_{0}^{1} \left(q (i, t)^{\frac{1}{1 - \beta}} x (i, t)\right)^{1 - \beta} d i
 $$
 Written this way, the different versions enter linearly
 - If leading-edge version has quality  $q$ , then second-best version has quality  $\lambda^{-1} q$  (one rung lower)
 - If both are being produced they enter production function as:
 $$
-\lambda^ {\frac {- 1}{1 - \beta}} q ^ {\frac {1}{1 - \beta}} x _ {2} + q ^ {\frac {1}{1 - \beta}} x _ {1}
+\lambda^{\frac{- 1}{1 - \beta}} q^{\frac{1}{1 - \beta}} x_{2} + q^{\frac{1}{1 - \beta}} x_{1}
 $$ where  $x_{2}$  is quantity of second-best version and  $x_{1}$  is quantity of leading-edge version
 - The marginal product of the second best firm is lower by a factor  $\lambda^{\frac{-1}{1 - \beta}}$
 # CAN LEADING-EDGE FIRM SET MONOPOLY PRICE?
 - Lowest price second-best firm can offer is its marginal cost  $\lambda^{-1}q\psi$
 - Leading-edge firm can set monopoly price if ratio of its monopoly price to its marginal product is lower than ratio of marginal cost to marginal product for second best firm:
 $$
-(1 - \beta) ^ {- 1} q \psi <   \frac {\lambda^ {- 1} q \psi}{\lambda^ {\frac {- 1}{1 - \beta}}}
+(1 - \beta)^{- 1} q \psi <   \frac{\lambda^{- 1} q \psi}{\lambda^{\frac{- 1}{1 - \beta}}}
 $$ denominator on RHS is difference in marginal product
 - Simplifying then yields:
 $$
-\lambda > \left(\frac {1}{1 - \beta}\right) ^ {\frac {1 - \beta}{\beta}}
+\lambda > \left(\frac{1}{1 - \beta}\right)^{\frac{1 - \beta}{\beta}}
 $$
 # Summary:
 - Leading-edge firm can set monopoly price if
 $$
-\lambda > \left(\frac {1}{1 - \beta}\right) ^ {\frac {1 - \beta}{\beta}}
+\lambda > \left(\frac{1}{1 - \beta}\right)^{\frac{1 - \beta}{\beta}}
 $$
 In this case, quality difference is big enough that second-best firm can't compete even when leading-edge firm sets monopoly price
 - Otherwise leading-edge firm must set a lower price (low enough to drive second-best firm out of the market)
@@ -10777,20 +10777,20 @@ See also models in Acemoglu (2009, ch. 14.3-14.4)
 All innovation by new firms
 - Normalize  $\psi = 1 - \beta$
 - Monopoly price then becomes
-$$ p (i, t) = (1 - \beta) ^ {- 1} \psi q (i, t) = q (i, t)
+$$ p (i, t) = (1 - \beta)^{- 1} \psi q (i, t) = q (i, t)
 $$
 Output for good  $i$  becomes
-$$ x (i, t) = \left(\frac {q (i , t)}{p (i , t)}\right) ^ {1 / \beta} L = L
+$$ x (i, t) = \left(\frac{q (i , t)}{p (i , t)}\right)^{1 / \beta} L = L
 $$
 - Aggregate output becomes
 $$
-Y (t) = \frac {1}{1 - \beta} L ^ {\beta} \int_ {0} ^ {1} q (i, t) x (i, t) ^ {1 - \beta} d i
+Y (t) = \frac{1}{1 - \beta} L^{\beta} \int_{0}^{1} q (i, t) x (i, t)^{1 - \beta} d i
 $$ which simplifies to
 $$
-Y (t) = \frac {1}{1 - \beta} Q (t) L
+Y (t) = \frac{1}{1 - \beta} Q (t) L
 $$ where
 $$
-Q (t) = \int_ {0} ^ {1} q (i, t) d i
+Q (t) = \int_{0}^{1} q (i, t) d i
 $$
 Economic growth comes from growth in quality of intermediate inputs
 - $Q(t)$  plays the same role here as  $N(t)$  in expanding variety model
@@ -10803,7 +10803,7 @@ We use the fact that on a balanced growth path:
 - Rate of innovations in each product line  $z^{*}$  is constant
 - If firm spends  $Z(i, t)$  on R&D it generates innovations at a flow rate:
 $$
-\frac {\eta Z (i , t)}{q (i , t)}
+\frac{\eta Z (i , t)}{q (i , t)}
 $$
 - Implicitly uses existing know-how (researches an improvement)
 - Innovating gets more costly the larger is  $q(i, t)$
@@ -10815,7 +10815,7 @@ $$
 $$
 Present value of profits:
 $$
-V (i, t) = \frac {\beta q (i , t) L}{r + z ^ {*}}
+V (i, t) = \frac{\beta q (i , t) L}{r + z^{*}}
 $$
 - "Effective discount rate" of profits  $r + z^{*}$
 - Free entry into innovation implies that marginal value of innovation must equal marginal cost
@@ -10826,59 +10826,59 @@ If successful:  $V$
 - Flow rate of success per unit spent:  $\eta / (\lambda^{-1} q)$
 - Setting marginal value equal to marginal cost:
 $$
-V (i, t) \frac {\eta}{\lambda^ {- 1} q (i , t)} = 1
+V (i, t) \frac{\eta}{\lambda^{- 1} q (i , t)} = 1
 $$
 (I am not quite sure about the  $\lambda^{-1}$  factor. But I am following Acemoglu on this point.)
 Present value of profits:
 $$
-V (i, t) = \frac {\beta q (i , t) L}{r + z ^ {*}}
+V (i, t) = \frac{\beta q (i , t) L}{r + z^{*}}
 $$
 Free entry implies:
 $$
-V (i, t) \frac {\eta}{\lambda^ {- 1} q (i , t)} = 1
+V (i, t) \frac{\eta}{\lambda^{- 1} q (i , t)} = 1
 $$
 Combining these yields:
-$$ r + z ^ {*} = \lambda \eta \beta L
+$$ r + z^{*} = \lambda \eta \beta L
 $$
 - Consumption Euler equation:
 $$
-\frac {\dot {C} (t)}{C (t)} = \frac {1}{\theta} (r (t) - \rho)
+\frac{\dot {C} (t)}{C (t)} = \frac{1}{\theta} (r (t) - \rho)
 $$
 - Interest rate is constant on BGP
 - Consumption growth must equal output growth on BGP
 - Consumption Euler equation thus implies:
-$$ g = \frac {1}{\theta} (r - \rho)
+$$ g = \frac{1}{\theta} (r - \rho)
 $$
 We need equation relating  $g$  to  $z^{*}$
 $$
-Y (t) = \frac {1}{1 - \beta} Q (t) L \quad \text {i m p l i e s} \quad \frac {\dot {Y} (t)}{Y (t)} = \frac {\dot {Q} (t)}{Q (t)}
+Y (t) = \frac{1}{1 - \beta} Q (t) L \quad \text{im pl ie s} \quad \frac{\dot {Y} (t)}{Y (t)} = \frac{\dot {Q} (t)}{Q (t)}
 $$
 - $z^{*}$  is rate of innovation on each product line
 Over interval  $\Delta t$  a fraction  $z^{*}\Delta t$  of sectors experience innovation
 This implies (up to first order):
 $$
-Q (t + \Delta t) = \lambda Q (t) z ^ {*} \Delta t + Q (t) \left(1 - z ^ {*} \Delta t\right)
+Q (t + \Delta t) = \lambda Q (t) z^{*} \Delta t + Q (t) \left(1 - z^{*} \Delta t\right)
 $$
 (probability weighted average of  $\lambda Q(t)$  and  $Q(t)$ )
 $$
-Q (t + \Delta t) = \lambda Q (t) z ^ {*} \Delta t + Q (t) (1 - z ^ {*} \Delta t)
+Q (t + \Delta t) = \lambda Q (t) z^{*} \Delta t + Q (t) (1 - z^{*} \Delta t)
 $$
 - Subtracting  $Q(t)$  from both sides, dividing by  $\Delta t$ , and taking limit  $\Delta t \gets 0$  yields
 $$
-\dot {Q} (t) = (\lambda - 1) z ^ {*} Q (t)
+\dot {Q} (t) = (\lambda - 1) z^{*} Q (t)
 $$ which in turn implies that
-$$ g = (\lambda - 1) z ^ {*}
+$$ g = (\lambda - 1) z^{*}
 $$
 So we have:
-$$ r + z ^ {*} = \lambda \eta \beta L
+$$ r + z^{*} = \lambda \eta \beta L
 $$
 $$
-\mathbf {g} = \frac {1}{\theta} (r - \rho)
+\mathbf {g} = \frac{1}{\theta} (r - \rho)
 $$
-$$ g = (\lambda - 1) z ^ {*}
+$$ g = (\lambda - 1) z^{*}
 $$
 Combining these equations yields
-$$ g = \frac {\lambda \eta \beta L - \rho}{\theta + (\lambda - 1) ^ {- 1}}
+$$ g = \frac{\lambda \eta \beta L - \rho}{\theta + (\lambda - 1)^{- 1}}
 $$
 Qualitatively similar to expanding variety model (i.e., model has strong scale effects)
 No!
@@ -10918,75 +10918,75 @@ Perpetual youth model (Blanchard, 1985)
 - $L_{t}$  individuals are born at time  $t$
 Exogenous population growth at rate  $n$ :
 $$
-L _ {t + 1} = (1 + n) L _ {t}
+L_{t + 1} = (1 + n) L_{t}
 $$
 Each young agent supplies 1 unit of labor
 - "Youth" need not be due to birth. Could be immigration or the binding of a borrowing constraint.
 Production function:
 $$
-Y _ {t} = F \left(K _ {t}, A _ {t} L _ {t}\right)
+Y_{t} = F \left(K_{t}, A_{t} L_{t}\right)
 $$
 Exogenous productivity growth:
 $$
-A _ {t + 1} = (1 + g) A _ {t}
+A_{t + 1} = (1 + g) A_{t}
 $$
 - Perfect competition in factor markets yields:
-$$ r _ {t} = f ^ {\prime} \left(k _ {t}\right) \quad w _ {t} = f \left(k _ {t}\right) - k _ {t} f ^ {\prime} \left(k _ {t}\right)
+$$ r_{t} = f^{\prime} \left(k_{t}\right) \quad w_{t} = f \left(k_{t}\right) - k_{t} f^{\prime} \left(k_{t}\right)
 $$
 (See Ramsey model lecture for details)
 - $r_t$  is the return on savings held from period  $t - 1$  to  $t$
 $w_{t}$  is the wage per effective unit of labor
 - Preferences of households born at  $t$  :
 $$
-U _ {t} = \frac {C _ {1 t} ^ {1 - \theta}}{1 - \theta} + \frac {1}{1 + \rho} \frac {C _ {2 t + 1} ^ {1 - \theta}}{1 - \theta}
+U_{t} = \frac{C_{1 t}^{1 - \theta}}{1 - \theta} + \frac{1}{1 + \rho} \frac{C_{2 t + 1}^{1 - \theta}}{1 - \theta}
 $$
 Budget constraints:
 $$
-C _ {1 t} + s _ {t} = w _ {t} A _ {t}
+C_{1 t} + s_{t} = w_{t} A_{t}
 $$
 $$
-C _ {2 t + 1} = \left(1 + r _ {t + 1}\right) s _ {t}
+C_{2 t + 1} = \left(1 + r_{t + 1}\right) s_{t}
 $$
 $s_t$  is savings of young at time  $t$
 Old consume both interest and principle
 - We are assuming no depreciation of capital (for simplicity)
 - We can plug budget constraints into  $U_{t}$  to get
 $$
-U _ {t} = \frac {\left(w _ {t} A _ {t} - s _ {t}\right) ^ {1 - \theta}}{1 - \theta} + \frac {1}{1 + \rho} \frac {\left(\left(1 + r _ {t + 1}\right) s _ {t}\right) ^ {1 - \theta}}{1 - \theta}
+U_{t} = \frac{\left(w_{t} A_{t} - s_{t}\right)^{1 - \theta}}{1 - \theta} + \frac{1}{1 + \rho} \frac{\left(\left(1 + r_{t + 1}\right) s_{t}\right)^{1 - \theta}}{1 - \theta}
 $$
 Differentiating with respect to  $s_t$  yields:
 $$
-- \left(w _ {t} A _ {t} - s _ {t}\right) ^ {- \theta} + \frac {1 + r _ {t + 1}}{1 + \rho} \left(\left(1 + r _ {t + 1}\right) s _ {t}\right) ^ {- \theta} = 0
+- \left(w_{t} A_{t} - s_{t}\right)^{- \theta} + \frac{1 + r_{t + 1}}{1 + \rho} \left(\left(1 + r_{t + 1}\right) s_{t}\right)^{- \theta} = 0
 $$
 Rearranging and using budget constraints again:
 $$
-C _ {1 t} ^ {- \theta} = \frac {1 + r _ {t + 1}}{1 + \rho} C _ {2 t + 1} ^ {- \theta}
+C_{1 t}^{- \theta} = \frac{1 + r_{t + 1}}{1 + \rho} C_{2 t + 1}^{- \theta}
 $$
 - This is the consumption Euler equation (same as Ramsey model)
 Combining the budget constraints:
 $$
-C _ {1 t} + \frac {1}{1 + r _ {t + 1}} C _ {2 t + 1} = A _ {t} w _ {t}
+C_{1 t} + \frac{1}{1 + r_{t + 1}} C_{2 t + 1} = A_{t} w_{t}
 $$ this is called the intertemporal budget constraint
 Rearranging Euler equation:
 $$
-C _ {2 t + 1} = \left(\frac {1 + r _ {t + 1}}{1 + \rho}\right) ^ {1 / \theta} C _ {1 t}
+C_{2 t + 1} = \left(\frac{1 + r_{t + 1}}{1 + \rho}\right)^{1 / \theta} C_{1 t}
 $$
 Combining these two:
 $$
-C _ {1 t} + \frac {\left(1 + r _ {t + 1}\right) ^ {(1 - \theta) / \theta}}{(1 + \rho) ^ {1 / \theta}} C _ {1 t} = A _ {t} w _ {t}
+C_{1 t} + \frac{\left(1 + r_{t + 1}\right)^{(1 - \theta) / \theta}}{(1 + \rho)^{1 / \theta}} C_{1 t} = A_{t} w_{t}
 $$
 - Solving for  $C_{1t}$  yields:
 $$
-C _ {1 t} = \frac {(1 + \rho) ^ {1 / \theta}}{(1 + \rho) ^ {1 / \theta} + (1 + r _ {t + 1}) ^ {(1 - \theta) \theta}} A _ {t} w _ {t}
+C_{1 t} = \frac{(1 + \rho)^{1 / \theta}}{(1 + \rho)^{1 / \theta} + (1 + r_{t + 1})^{(1 - \theta) \theta}} A_{t} w_{t}
 $$
 - Young spend some fraction of labor income on time 1 consumption
 Savings:
 $$
-\boldsymbol {s} _ {t} = \boldsymbol {A} _ {t} \boldsymbol {w} _ {t} - \boldsymbol {C} _ {1 t} = \frac {(1 + r _ {t + 1}) ^ {(1 - \theta) / \theta}}{(1 + \rho) ^ {1 / \theta} + (1 + r _ {t + 1}) ^ {(1 - \theta) \theta}} \boldsymbol {A} _ {t} \boldsymbol {w} _ {t}
+\boldsymbol {s}_{t} = \boldsymbol {A}_{t} \boldsymbol {w}_{t} - \boldsymbol {C}_{1 t} = \frac{(1 + r_{t + 1})^{(1 - \theta) / \theta}}{(1 + \rho)^{1 / \theta} + (1 + r_{t + 1})^{(1 - \theta) \theta}} \boldsymbol {A}_{t} \boldsymbol {w}_{t}
 $$
 - Young save a complementary fraction of their labor income
 $$
-\mathbf {s} _ {t} = \frac {\left(1 + r _ {t + 1}\right) ^ {(1 - \theta) / \theta}}{\left(1 + \rho\right) ^ {1 / \theta} + \left(1 + r _ {t + 1}\right) ^ {(1 - \theta) / \theta}} \mathbf {A} _ {t} w _ {t}
+\mathbf {s}_{t} = \frac{\left(1 + r_{t + 1}\right)^{(1 - \theta) / \theta}}{\left(1 + \rho\right)^{1 / \theta} + \left(1 + r_{t + 1}\right)^{(1 - \theta) / \theta}} \mathbf {A}_{t} w_{t}
 $$
 - Savings unambiguously increase in wage income (Both  $C_{1t}$  and  $C_{2t+1}$  are normal goods)
 - Effect of a change in  $r_{t+1}$  is ambiguous
@@ -10994,44 +10994,44 @@ $$
 - Increase in  $r_{t+1}$  decreases price of  $C_{2t+1}$  (which increases savings)
 - Increase in  $r_{t+1}$  increases feasible consumption set (which decreases savings)
 $$
-\boldsymbol {s} _ {t} = \frac {\left(1 + r _ {t + 1}\right) ^ {(1 - \theta) / \theta}}{\left(1 + \rho\right) ^ {1 / \theta} + \left(1 + r _ {t + 1}\right) ^ {(1 - \theta) / \theta}} \boldsymbol {A} _ {t} \boldsymbol {w} _ {t}
+\boldsymbol {s}_{t} = \frac{\left(1 + r_{t + 1}\right)^{(1 - \theta) / \theta}}{\left(1 + \rho\right)^{1 / \theta} + \left(1 + r_{t + 1}\right)^{(1 - \theta) / \theta}} \boldsymbol {A}_{t} \boldsymbol {w}_{t}
 $$
 - Savings increase in  $r_{t+1}$  if  $(1 + r_{t+1})^{(1 - \theta) / \theta}$  is increasing in  $r_{t+1}$
 $$
-\frac {d}{d r} (1 + r) ^ {(1 - \theta) / \theta} = \frac {1 - \theta}{\theta} (1 + r) ^ {(1 - \theta) / \theta}
+\frac{d}{d r} (1 + r)^{(1 - \theta) / \theta} = \frac{1 - \theta}{\theta} (1 + r)^{(1 - \theta) / \theta}
 $$
 - Savings increase in  $r_{t+1}$  if  $\theta < 1$ , i.e., if IES > 1
 - If IES > 1, substitution effect is strong and overwhelms income effect
 - If IES = 1 (log utility) saving is unaffected by  $r_{t+1}$
 - Savings of young at time  $t$  become capital stock at time  $t + 1$ :
 $$
-K _ {t + 1} = s _ {t} L _ {t}
+K_{t + 1} = s_{t} L_{t}
 $$
 Using notation from Romer (2019):  $s_t = s(r_{t+1}) A_t w_t$
 $$
-K _ {t + 1} = s \left(r _ {t + 1}\right) A _ {t} w _ {t} L _ {t}
+K_{t + 1} = s \left(r_{t + 1}\right) A_{t} w_{t} L_{t}
 $$
 - Dividing through by  $A_{t+1}L_{t+1}$  yields:
-$$ k _ {t + 1} = \frac {s \left(r _ {t + 1}\right) w _ {t}}{(1 + n) (1 + g)}
+$$ k_{t + 1} = \frac{s \left(r_{t + 1}\right) w_{t}}{(1 + n) (1 + g)}
 $$
-$$ w h e r e k _ {t} = K _ {t} / \left(A _ {t} L _ {t}\right)
+$$ w h e r e k_{t} = K_{t} / \left(A_{t} L_{t}\right)
 $$
 - Plugging in for  $w_{t}$  and  $r_{t + 1}$ :
-$$ k _ {t + 1} = \frac {s \left(f ^ {\prime} \left(k _ {t + 1}\right)\right) \left[ f \left(k _ {t}\right) - k _ {t} f ^ {\prime} \left(k _ {t}\right) \right]}{(1 + n) (1 + g)}
+$$ k_{t + 1} = \frac{s \left(f^{\prime} \left(k_{t + 1}\right)\right) \left[ f \left(k_{t}\right) - k_{t} f^{\prime} \left(k_{t}\right) \right]}{(1 + n) (1 + g)}
 $$
 - Implicitly defines  $k_{t+1}$  as a function of  $k_t$
 - Let's call this function the "savings locus"
 Steady state when  $k_{t + 1} = k_{t}$
-$$ k _ {t + 1} = \frac {s \left(f ^ {\prime} \left(k _ {t + 1}\right)\right) \left[ f \left(k _ {t}\right) - k _ {t} f ^ {\prime} \left(k _ {t}\right) \right]}{\left(1 + n\right) \left(1 + g\right)}
+$$ k_{t + 1} = \frac{s \left(f^{\prime} \left(k_{t + 1}\right)\right) \left[ f \left(k_{t}\right) - k_{t} f^{\prime} \left(k_{t}\right) \right]}{\left(1 + n\right) \left(1 + g\right)}
 $$
 - Let's start by considering special case:
 - Logarithmic utility (i.e.,  $\theta = 1$ )
 Cobb-Douglas production function  $(y = k^{\alpha})$
 In this case:
-$$ s \left(r _ {t + 1}\right) = \frac {1}{2 + \rho} \quad \text {a n d} \quad f (k) - k f ^ {\prime} (k) = k ^ {\alpha} - \alpha k ^ {\alpha} = (1 - \alpha) k ^ {\alpha}
+$$ s \left(r_{t + 1}\right) = \frac{1}{2 + \rho} \quad \text{an d} \quad f (k) - k f^{\prime} (k) = k^{\alpha} - \alpha k^{\alpha} = (1 - \alpha) k^{\alpha}
 $$
 So, we have:
-$$ k _ {t + 1} = \frac {(1 - \alpha)}{(1 + n) (1 + g) (2 + \rho)} k _ {t} ^ {\alpha}
+$$ k_{t + 1} = \frac{(1 - \alpha)}{(1 + n) (1 + g) (2 + \rho)} k_{t}^{\alpha}
 $$
 # EVOLUTION OF CAPITAL IN SPECIAL CASE
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/1fdd3228-6b68-42c0-886f-d5c346f6240f/1fb0e6dbe231cf0c6d1dc9dc3c3dced77e43d1b11fc92fa4cea8c02f9fc265db.jpg)
@@ -11041,9 +11041,9 @@ There is a single steady state (with positive capital)
 - The steady state is locally stable
 - What is it that makes the steady state locally stable?
 $$
-\left. \frac {d k _ {t + 1}}{d k _ {t}} \right| _ {s s} <   1
+\left. \frac{d k_{t + 1}}{d k_{t}} \right|_{s s} <   1
 $$
-$$ k _ {t + 1} = \frac {s \left(f ^ {\prime} \left(k _ {t + 1}\right)\right) \left[ f \left(k _ {t}\right) - k _ {t} f ^ {\prime} \left(k _ {t}\right) \right]}{(1 + n) (1 + g)}
+$$ k_{t + 1} = \frac{s \left(f^{\prime} \left(k_{t + 1}\right)\right) \left[ f \left(k_{t}\right) - k_{t} f^{\prime} \left(k_{t}\right) \right]}{(1 + n) (1 + g)}
 $$
 - More generally, the savings locus can take many different shapes
 - This can lead to various types of pathologies
@@ -11062,10 +11062,10 @@ Source: Blanchard and Fischer (1989)
 (d)
 FIGURE 2.12 Various possibilities for the relationship between  $k_{t}$  and  $k_{t + 1}$
 Source: Romer (2019)
-$$ k _ {t + 1} = \frac {s \left(f ^ {\prime} \left(k _ {t + 1}\right)\right) \left[ f \left(k _ {t}\right) - k _ {t} f ^ {\prime} \left(k _ {t}\right) \right]}{(1 + n) (1 + g)}
+$$ k_{t + 1} = \frac{s \left(f^{\prime} \left(k_{t + 1}\right)\right) \left[ f \left(k_{t}\right) - k_{t} f^{\prime} \left(k_{t}\right) \right]}{(1 + n) (1 + g)}
 $$
 - We can rewrite this as follows:
-$$ k _ {t + 1} = \frac {1}{(1 + n) (1 + g)} \underbrace {s (r _ {t + 1})} _ {\text {s a v i n g s r a t e}} \underbrace {\frac {f (k _ {t}) - k _ {t} f ^ {\prime} (k _ {t})}{f (k _ {t})}} _ {\text {l a b o r s h a r e}} \underbrace {f (k _ {t})} _ {\text {o u t p u t p e r p e r s o n}}
+$$ k_{t + 1} = \frac{1}{(1 + n) (1 + g)} \underbrace {s (r_{t + 1})}_{\text{sa vi ng sr at e}} \underbrace {\frac{f (k_{t}) - k_{t} f^{\prime} (k_{t})}{f (k_{t})}}_{\text{la bo rs ha re}} \underbrace {f (k_{t})}_{\text{ou tp ut pe rp er so n}}
 $$
 $f(k)$  concave (diminishing returns)
 - With log utility  $s(r)$  constant, with Cobb-Douglas labor share constant
@@ -11088,43 +11088,43 @@ Golden Rule capital stock:
 - "the economy staggers under the weight of the need to maintain the per capita capital stock constant." (Blanchard and Fischer, 1989)
 Economy's resource constraint:
 $$
-K _ {t} + F \left(K _ {t}, A _ {t} L _ {t}\right) = K _ {t + 1} + C _ {1 t} L _ {t} + C _ {2 t} L _ {t - 1}
+K_{t} + F \left(K_{t}, A_{t} L_{t}\right) = K_{t + 1} + C_{1 t} L_{t} + C_{2 t} L_{t - 1}
 $$
 Divide through by  $A_{t}L_{t}$
-$$ k _ {t} + f \left(k _ {t}\right) = (1 + n) k _ {t + 1} + A _ {t} ^ {- 1} c _ {t}
+$$ k_{t} + f \left(k_{t}\right) = (1 + n) k_{t + 1} + A_{t}^{- 1} c_{t}
 $$ where  $c_{t} = C_{1t} + (1 + n)^{-1}C_{2t}$  (weighted average of young and old consumption)
 In steady state with  $g = 0$ :
 $$
-A ^ {- 1} c = f (k) - n k
+A^{- 1} c = f (k) - n k
 $$
 In steady state with  $g = 0$
 $$
-A ^ {- 1} c = f (k) - n k
+A^{- 1} c = f (k) - n k
 $$
 $c$  is maximized when
-$$ f ^ {\prime} (k _ {G K}) = n
+$$ f^{\prime} (k_{G K}) = n
 $$ which implicitly gives the Golden Rule capital stock
 - OLG savings locus:
-$$ k _ {t + 1} = \frac {(1 - \alpha)}{(1 + n) (1 + g) (2 + \rho)} k _ {t + 1} ^ {\alpha}
+$$ k_{t + 1} = \frac{(1 - \alpha)}{(1 + n) (1 + g) (2 + \rho)} k_{t + 1}^{\alpha}
 $$
 - With  $g = 0$  and in steady state:
-$$ k ^ {*} = \frac {(1 - \alpha)}{(1 + n) (2 + \rho)} k ^ {* \alpha}
+$$ k^{*} = \frac{(1 - \alpha)}{(1 + n) (2 + \rho)} k^{* \alpha}
 $$ which simplifies to
-$$ k ^ {*} = \left[ \frac {(1 - \alpha)}{(1 + n) (2 + \rho)} \right] ^ {1 / (1 - \alpha)}
+$$ k^{*} = \left[ \frac{(1 - \alpha)}{(1 + n) (2 + \rho)} \right]^{1 / (1 - \alpha)}
 $$
 If
-$$ k ^ {*} = \left[ \frac {(1 - \alpha)}{(1 + n) (2 + \rho)} \right] ^ {1 / (1 - \alpha)}
+$$ k^{*} = \left[ \frac{(1 - \alpha)}{(1 + n) (2 + \rho)} \right]^{1 / (1 - \alpha)}
 $$ then
-$$ f ^ {\prime} (k ^ {*}) = \alpha k ^ {* \alpha - 1} = \frac {\alpha}{1 - \alpha} (1 + n) (2 + \rho)
+$$ f^{\prime} (k^{*}) = \alpha k^{* \alpha - 1} = \frac{\alpha}{1 - \alpha} (1 + n) (2 + \rho)
 $$
 - We have ignored depreciation. If  $f(k) = k^{\alpha} - \delta k$ :
-$$ f ^ {\prime} (k ^ {*}) = \frac {\alpha}{1 - \alpha} (1 + n) (2 + \rho) - \delta
+$$ f^{\prime} (k^{*}) = \frac{\alpha}{1 - \alpha} (1 + n) (2 + \rho) - \delta
 $$
 - Recall that  $r = f'(k)$ . So, we have
-$$ r ^ {*} = \frac {\alpha}{1 - \alpha} (1 + n) (2 + \rho) - \delta
+$$ r^{*} = \frac{\alpha}{1 - \alpha} (1 + n) (2 + \rho) - \delta
 $$
 If
-$$ r ^ {*} <   n
+$$ r^{*} <   n
 $$ economy has more capital than Golden Rule capital
 This outcome is Pareto inefficient
 Economy is said to be dynamically inefficient
@@ -11138,7 +11138,7 @@ $\odot$  reducing  $k$  to  $k_{GR}$  in period  $t_0$
 Source: Romer (2019)
 - Only technology available to households to transfer resources from when they are young to when they are old is capital accumulation
 - At the margin, the return on this technology is
-$$ r = f ^ {\prime} (k)
+$$ r = f^{\prime} (k)
 $$
 - If households are patient enough, they will accumulate capital to the point where
 $$ r <   n
@@ -11153,10 +11153,10 @@ Take  $d$  units from each young
 - If  $r < n$ , this "government technology" is better than what is available to people "in the market" (i.e., through saving or bilateral trade)
 - With growth in output per person ( $g \neq 0$ ) we get
 Economy is dynamically efficient if
-$$ r ^ {*} > g + n
+$$ r^{*} > g + n
 $$
 Economy is dynamically inefficient if
-$$ r ^ {*} <   g + n
+$$ r^{*} <   g + n
 $$
 This suggests a way to test dynamic efficiency
 - Complication: Which interest rate to use?
@@ -11238,7 +11238,7 @@ No longer destitute in old age.
 Marginal benefit  $(1 + n)U^{\prime}((1 + n)d)(1 + \rho)^{-1}$
 - Increase in  $d$  is a Pareto improvement as long as
 $$
-(1 + n) \frac {U ^ {\prime} ((1 + n) d)}{(1 + \rho)} > U ^ {\prime} (1 - d) \quad = > 1 + n > 1 + r
+(1 + n) \frac{U^{\prime} ((1 + n) d)}{(1 + \rho)} > U^{\prime} (1 - d) \quad = > 1 + n > 1 + r
 $$
 (Recall that  $(1 + r)^{-1} = U^{\prime}(C_{t + 1}) / (U^{\prime}(C_{t})(1 + \rho)))$
 # 1. Fully Funded
@@ -11268,21 +11268,21 @@ Buy money for goods when young
 - Sell money for goods when old
 - Maximize
 $$
-U _ {t} = \frac {C _ {1 t} ^ {1 - \theta}}{1 - \theta} + \frac {1}{1 + \rho} \frac {C _ {2 t + 1} ^ {1 - \theta}}{1 - \theta}
+U_{t} = \frac{C_{1 t}^{1 - \theta}}{1 - \theta} + \frac{1}{1 + \rho} \frac{C_{2 t + 1}^{1 - \theta}}{1 - \theta}
 $$ subject to
 $$
-P _ {t} \left(1 - C _ {1 t}\right) = M _ {t} ^ {d}
+P_{t} \left(1 - C_{1 t}\right) = M_{t}^{d}
 $$
 $$
-P _ {t + 1} C _ {2 t + 1} = M _ {t} ^ {d}
+P_{t + 1} C_{2 t + 1} = M_{t}^{d}
 $$
 - Plugging constraints into objective, differentiating, setting result to zero, and rearranging yields:
 $$
-\frac {M _ {t} ^ {d}}{P _ {t}} = \frac {1}{1 + (1 + \rho) ^ {1 / \theta} \Pi_ {t + 1} ^ {(\theta - 1) / \theta}} \quad \text {w h e r e} \quad \Pi_ {t + 1} = \frac {P _ {t + 1}}{P _ {t}}
+\frac{M_{t}^{d}}{P_{t}} = \frac{1}{1 + (1 + \rho)^{1 / \theta} \Pi_{t + 1}^{(\theta - 1) / \theta}} \quad \text{wh er e} \quad \Pi_{t + 1} = \frac{P_{t + 1}}{P_{t}}
 $$
 - This is the money demand function, also the savings function
 $$
-\frac {M _ {t} ^ {d}}{P _ {t}} = \frac {1}{1 + (1 + \rho) ^ {1 / \theta} \Pi_ {t + 1} ^ {(\theta - 1) / \theta}}
+\frac{M_{t}^{d}}{P_{t}} = \frac{1}{1 + (1 + \rho)^{1 / \theta} \Pi_{t + 1}^{(\theta - 1) / \theta}}
 $$
 - $\Pi_{t+1}$  is the (inverse of the) rate of return on money
 Effect of an increase in  $\Pi_{t + 1}$  on money demand ambiguous
@@ -11290,30 +11290,30 @@ Effect of an increase in  $\Pi_{t + 1}$  on money demand ambiguous
 - If  $\theta < 1$ , higher  $\Pi_{t+1}$  leads to higher money demand (income effect dominates)
 - Let's denote money demand function:
 $$
-\frac {M _ {t} ^ {d}}{P _ {t}} = L \left(\Pi_ {t + 1}\right)
+\frac{M_{t}^{d}}{P_{t}} = L \left(\Pi_{t + 1}\right)
 $$
 - Money demand equal to money supply:
 $$
-(1 + n) ^ {t} M _ {t} ^ {d} = H
+(1 + n)^{t} M_{t}^{d} = H
 $$
 - Also true in period  $t + 1$
 $$
-(1 + n) ^ {t} M _ {t} ^ {d} = (1 + n) ^ {t + 1} M _ {t + 1} ^ {d}
+(1 + n)^{t} M_{t}^{d} = (1 + n)^{t + 1} M_{t + 1}^{d}
 $$
 - Dividing by  $P_{t}$  on both sides:
 $$
-\frac {M _ {t} ^ {d}}{P _ {t}} = (1 + n) \frac {P _ {t + 1}}{P _ {t}} \frac {M _ {t + 1} ^ {d}}{P _ {t + 1}}
+\frac{M_{t}^{d}}{P_{t}} = (1 + n) \frac{P_{t + 1}}{P_{t}} \frac{M_{t + 1}^{d}}{P_{t + 1}}
 $$
 - Plugging in for money demand:
 $$
-L \left(\Pi_ {t + 1}\right) = (1 + n) \Pi_ {t + 1} L \left(\Pi_ {t + 2}\right)
+L \left(\Pi_{t + 1}\right) = (1 + n) \Pi_{t + 1} L \left(\Pi_{t + 2}\right)
 $$
 $$
-L \left(\Pi_ {t}\right) = (1 + n) \Pi_ {t} L \left(\Pi_ {t + 1}\right)
+L \left(\Pi_{t}\right) = (1 + n) \Pi_{t} L \left(\Pi_{t + 1}\right)
 $$
 Consider a steady state where
 $$
-\Gamma_ {t} = \Pi_ {t + 1} = \bar {\Pi}
+\Gamma_{t} = \Pi_{t + 1} = \bar {\Pi}
 $$
 - Then we have that
 $$
@@ -11321,13 +11321,13 @@ L (\bar {\Pi}) = (1 + n) \bar {\Pi} L (\bar {\Pi})
 $$
 This simplifies to
 $$
-\bar {\Pi} = (1 + n) ^ {- 1}
+\bar {\Pi} = (1 + n)^{- 1}
 $$
 - This means that there is an equilibrium of the model with a constant inflation rate equal to  $(1 + n)^{-1}$
 - Return on holding money is  $\Pi^{-1}$
 - In equilibrium with constant inflation rate, return on holding money is
 $$
-\bar {\Pi} ^ {- 1} = (1 + n)
+\bar {\Pi}^{- 1} = (1 + n)
 $$
 This is the "golden rule" return on assets in this economy
 - Money allows economy to reach efficient equilibrium
@@ -11715,18 +11715,18 @@ Average growth much lower in flex period
 - Divides countries into fixed, flexible, intermediate regimes  $(R_{it})$
 - Runs panel VAR with coefficient different for each regime
 $$
-A _ {0} Y _ {i t} = A (L) Y _ {i t} + B (L) X _ {i t} + u _ {i t}
+A_{0} Y_{i t} = A (L) Y_{i t} + B (L) X_{i t} + u_{i t}
 $$
 $$
-Y _ {i t} = \left[ \Delta \log t t _ {i t}, \Delta \log y _ {i t}, \Delta \log r e r _ {i t}, \Delta \log p _ {i t} \right]
+Y_{i t} = \left[ \Delta \log t t_{i t}, \Delta \log y_{i t}, \Delta \log r e r_{i t}, \Delta \log p_{i t} \right]
 $$
 - Divides countries into fixed, flexible, intermediate regimes  $(R_{it})$
 - Runs panel VAR with coefficient different for each regime
 $$
-A _ {0} Y _ {i t} = A (L) Y _ {i t} + B (L) X _ {i t} + u _ {i t}
+A_{0} Y_{i t} = A (L) Y_{i t} + B (L) X_{i t} + u_{i t}
 $$
 $$
-Y _ {i t} = \left[ \Delta \log t t _ {i t}, \Delta \log y _ {i t}, \Delta \log r e r _ {i t}, \Delta \log p _ {i t} \right]
+Y_{i t} = \left[ \Delta \log t t_{i t}, \Delta \log y_{i t}, \Delta \log r e r_{i t}, \Delta \log p_{i t} \right]
 $$
 - Assumes that terms of trade is exogenous (ordered first in Cholesky decomposition)
 - Controls: openness, financial development, change in current account, change in real gov expenditures as share of GDP.
@@ -11847,54 +11847,54 @@ April 2019
 DEM/USD Exchange Rate
 # 1970'S MONETARY MODEL OF EXCHANGE RATES
 - Purchasing Power Parity
-$$ e _ {t} = p _ {t} - p _ {t} ^ {*}
+$$ e_{t} = p_{t} - p_{t}^{*}
 $$
 - Purchasing Power Parity
-$$ e _ {t} = p _ {t} - p _ {t} ^ {*}
+$$ e_{t} = p_{t} - p_{t}^{*}
 $$
 Money demand
-$$ m _ {t} - p _ {t} = \phi_ {y} y _ {t} - \phi_ {i} i _ {t}
+$$ m_{t} - p_{t} = \phi_{y} y_{t} - \phi_{i} i_{t}
 $$
-$$ m _ {t} ^ {*} - p _ {t} ^ {*} = \phi_ {y} y _ {t} ^ {*} - \phi_ {i} i _ {t} ^ {*}
+$$ m_{t}^{*} - p_{t}^{*} = \phi_{y} y_{t}^{*} - \phi_{i} i_{t}^{*}
 $$
 - Purchasing Power Parity
-$$ e _ {t} = p _ {t} - p _ {t} ^ {*}
+$$ e_{t} = p_{t} - p_{t}^{*}
 $$
 Money demand
-$$ m _ {t} - p _ {t} = \phi_ {y} y _ {t} - \phi_ {i} i _ {t}
+$$ m_{t} - p_{t} = \phi_{y} y_{t} - \phi_{i} i_{t}
 $$
-$$ m _ {t} ^ {*} - p _ {t} ^ {*} = \phi_ {y} y _ {t} ^ {*} - \phi_ {i} i _ {t} ^ {*}
+$$ m_{t}^{*} - p_{t}^{*} = \phi_{y} y_{t}^{*} - \phi_{i} i_{t}^{*}
 $$
 Combining money demand
-$$ p _ {t} - p _ {t} ^ {*} = \left(m _ {t} - m _ {t} ^ {*}\right) - \phi_ {y} \left(y _ {t} - y _ {t} ^ {*}\right) + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right)
+$$ p_{t} - p_{t}^{*} = \left(m_{t} - m_{t}^{*}\right) - \phi_{y} \left(y_{t} - y_{t}^{*}\right) + \phi_{i} \left(i_{t} - i_{t}^{*}\right)
 $$
 - Purchasing Power Parity
-$$ e _ {t} = p _ {t} - p _ {t} ^ {*}
+$$ e_{t} = p_{t} - p_{t}^{*}
 $$
 Money demand
-$$ m _ {t} - p _ {t} = \phi_ {y} y _ {t} - \phi_ {i} i _ {t}
+$$ m_{t} - p_{t} = \phi_{y} y_{t} - \phi_{i} i_{t}
 $$
-$$ m _ {t} ^ {*} - p _ {t} ^ {*} = \phi_ {y} y _ {t} ^ {*} - \phi_ {i} i _ {t} ^ {*}
+$$ m_{t}^{*} - p_{t}^{*} = \phi_{y} y_{t}^{*} - \phi_{i} i_{t}^{*}
 $$
 Combining money demand
-$$ p _ {t} - p _ {t} ^ {*} = \left(m _ {t} - m _ {t} ^ {*}\right) - \phi_ {y} \left(y _ {t} - y _ {t} ^ {*}\right) + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right)
+$$ p_{t} - p_{t}^{*} = \left(m_{t} - m_{t}^{*}\right) - \phi_{y} \left(y_{t} - y_{t}^{*}\right) + \phi_{i} \left(i_{t} - i_{t}^{*}\right)
 $$
 Exchange rate and "fundamentals":
 $$
-\boldsymbol {e} _ {t} = \left(m _ {t} - m _ {t} ^ {*}\right) - \phi_ {y} \left(y _ {t} - y _ {t} ^ {*}\right) + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right)
+\boldsymbol {e}_{t} = \left(m_{t} - m_{t}^{*}\right) - \phi_{y} \left(y_{t} - y_{t}^{*}\right) + \phi_{i} \left(i_{t} - i_{t}^{*}\right)
 $$
 Sample: German Mark, February 1920 - November 1923.
 Hyperinflation: Ignore a bunch of terms.
-$$ e _ {t} = \left(m _ {t} - m _ {t} ^ {*}\right) - \phi_ {Y} \left(y _ {t} - y _ {t} ^ {*}\right) + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right)
+$$ e_{t} = \left(m_{t} - m_{t}^{*}\right) - \phi_{Y} \left(y_{t} - y_{t}^{*}\right) + \phi_{i} \left(i_{t} - i_{t}^{*}\right)
 $$
 $$
-\boldsymbol {e} _ {t} = m _ {t} - \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right)
+\boldsymbol {e}_{t} = m_{t} - \phi_{i} \left(i_{t} - i_{t}^{*}\right)
 $$
 $$
 \begin{array}{l} \log S = - 5. 1 3 5 + 0. 9 7 5 \log M + 0. 5 9 1 \log \pi \\ (0. 7 3 1) (0. 0 5 0) \tag {0.073} \\ \end{array}
 $$
 $$
-R ^ {2} = 0. 9 9 4; \mathrm {s . e .} = 0. 2 4 1; \mathrm {D . W .} = 1. 9 1.
+R^{2} = 0. 9 9 4; \mathrm{s .e .} = 0. 2 4 1; \mathrm{D .W .} = 1. 9 1.
 $$
 Source: Frenkel (1976).
 Fig. 1.
@@ -11902,7 +11902,7 @@ Fig. 1.
 Source: Frenkel (1976).
 Sample: DEM/USD, July 1974 - February 1978.
 $$
-\begin{array}{l} \mathbf {e} _ {t} = \phi_ {0} + \phi_ {m} (m _ {t} - m _ {t} ^ {*}) - \phi_ {y} (y _ {t} - y _ {t} ^ {*}) \\ + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right) + \phi_ {\pi} \left(\pi_ {t} ^ {e} - \pi_ {t} ^ {e *}\right) + \epsilon_ {t} \\ \end{array}
+\begin{array}{l} \mathbf {e}_{t} = \phi_{0} + \phi_{m} (m_{t} - m_{t}^{*}) - \phi_{y} (y_{t} - y_{t}^{*}) \\ + \phi_{i} \left(i_{t} - i_{t}^{*}\right) + \phi_{\pi} \left(\pi_{t}^{e} - \pi_{t}^{e *}\right) + \epsilon_{t} \\ \end{array}
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/1fdd3228-6b68-42c0-886f-d5c346f6240f/83be947bb7270ece5c9c61517335abcf0494d8e282fd2b3a56a301744e51bf01.jpg)
 FIGURE 1. PLOT OF (log OF) MARK/DOLLAR RATE, OLS REGRESSION FROM TABLE 1
@@ -11915,45 +11915,45 @@ Definitions: Dependent Variable (log of) Mark/Dollar Rate.
 CORC  $=$  Iterated Cochrane-Orcutt.
 INST = Instrumental variables for expected inflation differential are Consumer Price Index (CPI) inflation differential (average for past year), industrial Wholesale Price Index (WPI) inflation differential (average for past year), and long-term commercial bond rate differential.
 FAIR = Instrumental variables are industrial WPI inflation differential and lagged values of the following: exchange rate, relative industrial production, short-term interest differential, and expected inflation differential. The method of including among the instruments lagged values of all endogenous and included exogenous variables, in order to insure consistency while correcting for first-order serial correlation, is attributed to Ray Fair.
-$$ m - m ^ {*} = \log \text {o f} M _ {1} / U. S. M _ {1}
+$$ m - m^{*} = \log \text{of} M_{1} / U. S. M_{1}
 $$
-$$ y - y ^ {*} = \log \text {o f} U. S.
+$$ y - y^{*} = \log \text{of} U. S.
 $$
-$$ r - r ^ {*} = \text {S h o r t - t e r m G e r m a n - U . S . i n t e r e s t d i f f e r e n t i a l}
+$$ r - r^{*} = \text{Sh or t -t er mG er ma n -U .S .i nt er es td if fe re nt ia l}
 $$
 $$
-\begin{array}{l} \left(r - r ^ {*}\right) _ {- 1} = \text {S h o r t - t e r m G e r m a n - U . S . i n t e r e s t d i f f e r e n t i a l g a g g e d} \\ \pi - \pi^ {*} = \text {E x p e c t e d G e r m a n - U . S . i n f l a t i o n d i f f e r e n t i a l , p r o x i e d b y l o n g - t e r m g o v e n m e n t b o n d d i f f e r e n t i a l}. \\ \end{array}
+\begin{array}{l} \left(r - r^{*}\right)_{- 1} = \text{Sh or t -t er mG er ma n -U .S .i nt er es td if fe re nt ia lg ag ge d} \\ \pi - \pi^{*} = \text{Ex pe ct ed Ge rm an -U .S .i nf la ti on di ff er en ti al ,p ro xi ed by lo ng -t er mg ov en me nt bo nd di ff er en ti al}. \\ \end{array}
 $$
 Source: Frankel (1979).
 - Do the monetary models of exchange rates fit out of sample?
 - Do the monetary models of exchange rates fit out of sample?
 - Generalized monetary model:
 $$
-\begin{array}{l} e _ {t} = \phi_ {0} + \phi_ {m} \left(m _ {t} - m _ {t} ^ {*}\right) + \phi_ {y} \left(y _ {t} - y _ {t} ^ {*}\right) + \phi_ {i} \left(i _ {t} - i _ {t} ^ {*}\right) \\ + \phi_ {\pi} \left(\pi_ {t} ^ {e} - \pi_ {t} ^ {e *}\right) + \phi_ {T B} T B _ {t} + \phi_ {T B ^ {*}} T B _ {t} ^ {*} + \epsilon_ {t} \\ \end{array}
+\begin{array}{l} e_{t} = \phi_{0} + \phi_{m} \left(m_{t} - m_{t}^{*}\right) + \phi_{y} \left(y_{t} - y_{t}^{*}\right) + \phi_{i} \left(i_{t} - i_{t}^{*}\right) \\ + \phi_{\pi} \left(\pi_{t}^{e} - \pi_{t}^{e *}\right) + \phi_{T B} T B_{t} + \phi_{T B^{*}} T B_{t}^{*} + \epsilon_{t} \\ \end{array}
 $$
 - Auto-regressive model
 $$
-\pmb {\varepsilon} _ {t} = \phi_ {0} + \sum_ {j = 1} ^ {J} \phi_ {j} \pmb {\varepsilon} _ {t - j} + \epsilon_ {t}
+\pmb {\varepsilon}_{t} = \phi_{0} + \sum_{j = 1}^{J} \phi_{j} \pmb {\varepsilon}_{t - j} + \epsilon_{t}
 $$
 - Auto-regressive model
 $$
-\pmb {e} _ {t} = \phi_ {0} + \sum_ {j = 1} ^ {J} \phi_ {j} \pmb {e} _ {t - j} + \epsilon_ {t}
+\pmb {e}_{t} = \phi_{0} + \sum_{j = 1}^{J} \phi_{j} \pmb {e}_{t - j} + \epsilon_{t}
 $$
 - Vector auto-regressive model
 $$
-\pmb {e} _ {t} = \phi_ {0} + \sum_ {j = 1} ^ {J} \phi_ {j} \pmb {e} _ {t - j} + \sum_ {j = 1} ^ {J} \Phi_ {j} X _ {t - j} + \epsilon_ {t}
+\pmb {e}_{t} = \phi_{0} + \sum_{j = 1}^{J} \phi_{j} \pmb {e}_{t - j} + \sum_{j = 1}^{J} \Phi_{j} X_{t - j} + \epsilon_{t}
 $$
 - Auto-regressive model
 $$
-\pmb {e} _ {t} = \phi_ {0} + \sum_ {j = 1} ^ {J} \phi_ {j} \pmb {e} _ {t - j} + \epsilon_ {t}
+\pmb {e}_{t} = \phi_{0} + \sum_{j = 1}^{J} \phi_{j} \pmb {e}_{t - j} + \epsilon_{t}
 $$
 - Vector auto-regressive model
 $$
-\pmb {e} _ {t} = \phi_ {0} + \sum_ {j = 1} ^ {J} \phi_ {j} \pmb {e} _ {t - j} + \sum_ {j = 1} ^ {J} \Phi_ {j} X _ {t - j} + \epsilon_ {t}
+\pmb {e}_{t} = \phi_{0} + \sum_{j = 1}^{J} \phi_{j} \pmb {e}_{t - j} + \sum_{j = 1}^{J} \Phi_{j} X_{t - j} + \epsilon_{t}
 $$
 - Random Walk model
 $$
-E _ {t} e _ {t + j} = e _ {t}
+E_{t} e_{t + j} = e_{t}
 $$
 Sample period: March 1973 - June 1981
 - Forecasts based on rolling regression starting November 1976
@@ -11963,7 +11963,7 @@ Sample period: March 1973 - June 1981
 Forecast horizons: 1, 6 and 12 months
 Measure of out-of-sample accuracy: RMSE
 $$
-\left\{\sum_ {s = 0} ^ {N _ {k} - 1} \left[ F (t + s + k) - A (t + s + k) \right] ^ {2} / N _ {k} \right\} ^ {1 / 2}
+\left\{\sum_{s = 0}^{N_{k} - 1} \left[ F (t + s + k) - A (t + s + k) \right]^{2} / N_{k} \right\}^{1 / 2}
 $$
 In structural models:
 - Use actual realized future values of explanatory variables (as opposed to also forecasting explanatory variables)
@@ -12001,57 +12001,57 @@ Exchange rate very forward looking variable
 2. Econometric lesson:
 - Beware regressing very persistent variable on another very persistent variable
 - Uncovered interest rate parity:
-$$ i _ {t} = i _ {t} ^ {*} + E _ {t} e _ {t + 1} - e _ {t}
+$$ i_{t} = i_{t}^{*} + E_{t} e_{t + 1} - e_{t}
 $$
 - Returns should be equalized across countries
 - If interest rate is higher abroad, exchange rate should fall enough on average to equalize returns ( $e_t$  is domestic currency price of foreign currency)
 Rearranging and solving forward:
-$$ i _ {t} = i _ {t} ^ {*} + E _ {t} e _ {t + 1} - e _ {t}
+$$ i_{t} = i_{t}^{*} + E_{t} e_{t + 1} - e_{t}
 $$
 $$
-\boldsymbol {e} _ {t} = \left(i _ {t} ^ {*} - i _ {t}\right) + E _ {t} \boldsymbol {e} _ {t + 1}
+\boldsymbol {e}_{t} = \left(i_{t}^{*} - i_{t}\right) + E_{t} \boldsymbol {e}_{t + 1}
 $$
 $$
-\boldsymbol {e} _ {t} = \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} E _ {t} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} E _ {t} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t} = \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} E_{t} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} E_{t} \boldsymbol {e}_{t + j}
 $$
 What determines the change in the exchange rate:
 $$
-\boldsymbol {e} _ {t + 1} - \boldsymbol {e} _ {t} = - \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} \Delta E _ {t + 1} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t + 1} - \boldsymbol {e}_{t} = - \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} \Delta E_{t + 1} \boldsymbol {e}_{t + j}
 $$ where  $\Delta E_{t + 1}x_{t + j} = E_{t + 1}x_{t + j} - E_t x_{t + j}$  (time  $t + 1$  news about  $x_{t + j}$ )
 What determines the change in the exchange rate:
 $$
-\boldsymbol {e} _ {t + 1} - \boldsymbol {e} _ {t} = - \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} \Delta E _ {t + 1} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t + 1} - \boldsymbol {e}_{t} = - \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} \Delta E_{t + 1} \boldsymbol {e}_{t + j}
 $$ where  $\Delta E_{t + 1}x_{t + j} = E_{t + 1}x_{t + j} - E_t x_{t + j}$  (time  $t + 1$  news about  $x_{t + j}$ )
 - Two components:
 Current interest rate differential
 - News about all future interest rate differentials
 What determines the change in the exchange rate:
 $$
-\boldsymbol {e} _ {t + 1} - \boldsymbol {e} _ {t} = - \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} \Delta E _ {t + 1} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t + 1} - \boldsymbol {e}_{t} = - \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} \Delta E_{t + 1} \boldsymbol {e}_{t + j}
 $$ where  $\Delta E_{t + 1}x_{t + j} = E_{t + 1}x_{t + j} - E_t x_{t + j}$  (time  $t + 1$  news about  $x_{t + j}$ )
 - Two components:
 Current interest rate differential
 - News about all future interest rate differentials
 - Not so implausible that the variance of the latter is huge compared to the former
 $$
-\boldsymbol {e} _ {t + 1} - \boldsymbol {e} _ {t} = - \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} \Delta E _ {t + 1} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t + 1} - \boldsymbol {e}_{t} = - \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} \Delta E_{t + 1} \boldsymbol {e}_{t + j}
 $$
 - But  $(i_t^* - i_t)$  not only thing observed
 $$
-\pmb {e} _ {t + 1} - \pmb {e} _ {t} = - (i _ {t} ^ {*} - i _ {t}) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} (i _ {t + j} ^ {*} - i _ {t + j}) + \lim _ {j \to \infty} \Delta E _ {t + 1} \pmb {e} _ {t + j}
+\pmb {e}_{t + 1} - \pmb {e}_{t} = - (i_{t}^{*} - i_{t}) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} (i_{t + j}^{*} - i_{t + j}) + \lim_{j \to \infty} \Delta E_{t + 1} \pmb {e}_{t + j}
 $$
 - But  $(i_t^* - i_t)$  not only thing observed
 - Movements in longer-term bonds allow one to back out estimates of
 $$
-\sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} (i _ {t + j} ^ {*} - i _ {t + j})
+\sum_{j = 1}^{\infty} \Delta E_{t + 1} (i_{t + j}^{*} - i_{t + j})
 $$ at least up to  $j = 40$  quarters (and assuming EHTS)
 $$
-\boldsymbol {e} _ {t + 1} - \boldsymbol {e} _ {t} = - \left(i _ {t} ^ {*} - i _ {t}\right) + \sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} \left(i _ {t + j} ^ {*} - i _ {t + j}\right) + \lim  _ {j \rightarrow \infty} \Delta E _ {t + 1} \boldsymbol {e} _ {t + j}
+\boldsymbol {e}_{t + 1} - \boldsymbol {e}_{t} = - \left(i_{t}^{*} - i_{t}\right) + \sum_{j = 1}^{\infty} \Delta E_{t + 1} \left(i_{t + j}^{*} - i_{t + j}\right) + \lim_{j \rightarrow \infty} \Delta E_{t + 1} \boldsymbol {e}_{t + j}
 $$
 - But  $(i_t^* - i_t)$  not only thing observed
 - Movements in longer-term bonds allow one to back out estimates of
 $$
-\sum_ {j = 1} ^ {\infty} \Delta E _ {t + 1} (i _ {t + j} ^ {*} - i _ {t + j})
+\sum_{j = 1}^{\infty} \Delta E_{t + 1} (i_{t + j}^{*} - i_{t + j})
 $$ at least up to  $j = 40$  quarters (and assuming EHTS)
 $\bullet$ $\lim_{j\to \infty}\Delta E_{t + 1}e_{t + j}$  still a potential problem
 - But in real terms PPP should hold in the very long run (Clarida-Luo 14; Engel 15)
@@ -12060,24 +12060,24 @@ $\bullet$ $\lim_{j\to \infty}\Delta E_{t + 1}e_{t + j}$  still a potential probl
 - Suggests that something is wrong with in-sample inference (This is a general concern)
 - Monetary model of exchange rate:
 $$
-\boldsymbol {e} _ {t} = \phi_ {0} + \phi_ {f} \boldsymbol {f} _ {t} + \epsilon_ {t}
+\boldsymbol {e}_{t} = \phi_{0} + \phi_{f} \boldsymbol {f}_{t} + \epsilon_{t}
 $$
 - Both  $e_t$  and  $f_t$  have a unit-root.
 Granger and Newbold (1974):
 - Usual methods massively understate standard errors
 As a preliminary, we looked at the regression
 $$
-Y _ {t} = \beta_ {0} + \beta_ {1} X _ {t},
+Y_{t} = \beta_{0} + \beta_{1} X_{t},
 $$ where  $Y_{t}$  and  $X_{t}$  were, in fact, generated as independent random walks each of length 50. Table 1 shows values of
 $$
-S = \frac {| \hat {\beta} _ {1} |}{\widehat {S . E .} (\hat {\beta} _ {1})},
+S = \frac{| \hat {\beta}_{1} |}{\widehat {S . E .} (\hat {\beta}_{1})},
 $$ the customary statistic for testing the significance of  $\beta_{1}$ , for 100 simulations.
 Table 1 Regressing two independent random walks.
 <table><tr><td rowspan="2">S: Frequency:</td><td>0-1</td><td>1-2</td><td>2-3</td><td>3-4</td><td>4-5</td><td>5-6</td><td>6-7</td><td>7-8</td></tr><tr><td>13</td><td>10</td><td>11</td><td>13</td><td>18</td><td>8</td><td>8</td><td>5</td></tr><tr><td rowspan="2">S: Frequency:</td><td>8-9</td><td>9-10</td><td>10-11</td><td>11-12</td><td>12-13</td><td>13-14</td><td>14-15</td><td>15-16</td></tr><tr><td>3</td><td>3</td><td>1</td><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td></tr></table>
 Source: Granger and Newbold (1974).
 # Table 2
 Regressions of a series on  $m$  independent 'explanatory' series.
-Series either all random walks or all A.R.I.M.A. (0, 1, 1) series, or changes in these.  $Y_{0} = 100$ ,  $Y_{t} = Y_{t - 1} + a_{t}$ ,  $Y_{t}^{\prime} = Y_{t} + kb_{t}$ ;  $X_{j,t,0} = 100$ ,  $X_{j,t,1} = X_{j,t - 1} + a_{j,t}$ ,  $X_{j,t}^{\prime} = X_{j,t} + kb_{j,t}$ ;  $a_{t}, a_{t}, b_{t}, b_{t}b_{t}$  sets of independent  $N(0,1)$  white noises.  $k = 0$  gives random walks,  $k = 1$  gives A.R.I.M.A. (0, 1, 1) series.  $H_{0} = \text{no relationship}$ , is true. Series length is 50, number of simulations is 100,  $R^{2} = \text{corrected } R^{2}$ .
+Series either all random walks or all A.R.I.M.A. (0, 1, 1) series, or changes in these.  $Y_{0} = 100$ ,  $Y_{t} = Y_{t - 1} + a_{t}$ ,  $Y_{t}^{\prime} = Y_{t} + kb_{t}$ ;  $X_{j,t,0} = 100$ ,  $X_{j,t,1} = X_{j,t - 1} + a_{j,t}$ ,  $X_{j,t}^{\prime} = X_{j,t} + kb_{j,t}$ ;  $a_{t}, a_{t}, b_{t}, b_{t}b_{t}$  sets of independent  $N(0,1)$  white noises.  $k = 0$  gives random walks,  $k = 1$  gives A.R.I.M.A. (0, 1, 1) series.  $H_{0} = \text{norelationship}$ , is true. Series length is 50, number of simulations is 100,  $R^{2} = \text{corrected } R^{2}$ .
 <table><tr><td colspan="2"></td><td>Per cent times  H_0  rejecteda</td><td>Average Durbin-Watson d</td><td>Average  R^2 </td><td>Per cent  R^2 &gt; 0.7 </td></tr><tr><td colspan="6">Random walks</td></tr><tr><td rowspan="5">Levels</td><td>m = 1</td><td>76</td><td>0.32</td><td>0.26</td><td>5</td></tr><tr><td>m = 2</td><td>78</td><td>0.46</td><td>0.34</td><td>8</td></tr><tr><td>m = 3</td><td>93</td><td>0.55</td><td>0.46</td><td>25</td></tr><tr><td>m = 4</td><td>95</td><td>0.74</td><td>0.55</td><td>34</td></tr><tr><td>m = 5</td><td>96</td><td>0.88</td><td>0.59</td><td>37</td></tr><tr><td rowspan="5">Changes</td><td>m = 1</td><td>8</td><td>2.00</td><td>0.004</td><td>0</td></tr><tr><td>m = 2</td><td>4</td><td>1.99</td><td>0.001</td><td>0</td></tr><tr><td>m = 3</td><td>2</td><td>1.91</td><td>-0.007</td><td>0</td></tr><tr><td>m = 4</td><td>10</td><td>2.01</td><td>0.006</td><td>0</td></tr><tr><td>m = 5</td><td>6</td><td>1.99</td><td>0.012</td><td>0</td></tr><tr><td colspan="6">A.R.I.M.A. (0, I, I)</td></tr><tr><td rowspan="5">Levels</td><td>m = 1</td><td>64</td><td>0.73</td><td>0.20</td><td>3</td></tr><tr><td>m = 2</td><td>81</td><td>0.96</td><td>0.30</td><td>7</td></tr><tr><td>m = 3</td><td>82</td><td>1.09</td><td>0.37</td><td>11</td></tr><tr><td>m = 4</td><td>90</td><td>1.14</td><td>0.44</td><td>9</td></tr><tr><td>m = 5</td><td>90</td><td>1.26</td><td>0.45</td><td>19</td></tr><tr><td rowspan="5">Changes</td><td>m = 1</td><td>8</td><td>2.58</td><td>0.003</td><td>0</td></tr><tr><td>m = 2</td><td>12</td><td>2.57</td><td>0.01</td><td>0</td></tr><tr><td>m = 3</td><td>7</td><td>2.53</td><td>0.005</td><td>0</td></tr><tr><td>m = 4</td><td>9</td><td>2.53</td><td>0.025</td><td>0</td></tr><tr><td>m = 5</td><td>13</td><td>2.54</td><td>0.027</td><td>0</td></tr></table>
 *Test at 5\% level, using an overall test on  $\mathbf{R}^2$ .
 Source: Granger and Newbold (1974).
@@ -12089,13 +12089,13 @@ Use HAC standard errors (e.g., Newey-West, 1987)
 - Series are persistent but don't have a unit root.
 - Granger, Hyung, and Jeon (2001)
 $$
-X _ {t} = \alpha + \beta Y _ {t} + u _ {t}
+X_{t} = \alpha + \beta Y_{t} + u_{t}
 $$
 $$
-X _ {t} = \theta_ {x} X _ {t - 1} + \epsilon_ {x, t}
+X_{t} = \theta_{x} X_{t - 1} + \epsilon_{x, t}
 $$
 $$
-Y _ {t} = \theta_ {y} Y _ {t - 1} + \epsilon_ {y, t}
+Y_{t} = \theta_{y} Y_{t - 1} + \epsilon_{y, t}
 $$
 Table 1. Regressing between two independent AR series  $\left( {\theta  = {\theta }_{x} = {\theta }_{y}}\right)$  ,percentage of  $\left| t\right|  > {1.96}$
 <table><tr><td>Method</td><td>NOBS</td><td>θ = 0</td><td>θ = 0.25</td><td>θ = 0.5</td><td>θ = 0.75</td><td>θ = 0.9</td><td>θ = 1.0</td></tr><tr><td rowspan="5">OLS</td><td>100</td><td>5.3</td><td>7.6</td><td>13.3</td><td>29.1</td><td>51.5</td><td>77.0</td></tr><tr><td>500</td><td>5.8</td><td>7.5</td><td>16.3</td><td>31.5</td><td>51.6</td><td>90.0</td></tr><tr><td>2000</td><td>5.8</td><td>7.1</td><td>13.5</td><td>29.4</td><td>52.5</td><td>94.5</td></tr><tr><td>10000</td><td>4.3</td><td>6.6</td><td>12.2</td><td>30.6</td><td>52.3</td><td>97.6</td></tr><tr><td>∞</td><td>5.0</td><td>7.0</td><td>13.0</td><td>30.0</td><td>53.0</td><td>100.0</td></tr><tr><td rowspan="5">BART</td><td>100</td><td>7.6</td><td>7.7</td><td>9.9</td><td>16.5</td><td>30.6</td><td>62.0</td></tr><tr><td>500</td><td>6.4</td><td>6.8</td><td>9.0</td><td>14.1</td><td>23.9</td><td>79.6</td></tr><tr><td>2000</td><td>6.0</td><td>5.9</td><td>6.1</td><td>10.3</td><td>16.3</td><td>86.4</td></tr><tr><td>10000</td><td>4.6</td><td>5.2</td><td>5.5</td><td>7.7</td><td>12.8</td><td>92.5</td></tr><tr><td>∞</td><td>5.0</td><td>5.0</td><td>5.0</td><td>5.0</td><td>5.0</td><td>100.0</td></tr></table>
@@ -12152,28 +12152,28 @@ Rossi 13 provides comprehensive survey
 See also more recent work on Taylor rule fundamentals (Molodtsova-Papell JIE 09)
 - Simple monetary model:
 $$
-\boldsymbol {e} _ {t} = \boldsymbol {f} _ {t} + \boldsymbol {c}
+\boldsymbol {e}_{t} = \boldsymbol {f}_{t} + \boldsymbol {c}
 $$
-$$ f _ {t} = \left(m _ {t} - m _ {t} ^ {*}\right) - \lambda \left(y _ {t} - y _ {t} ^ {*}\right)
+$$ f_{t} = \left(m_{t} - m_{t}^{*}\right) - \lambda \left(y_{t} - y_{t}^{*}\right)
 $$
 - Even if monetary model doesn't work in the short run, it may work in the long run
 Estimates partial adjustment model:
 $$
-\boldsymbol {e} _ {t + k} - \boldsymbol {e} _ {t} = \alpha_ {k} + \beta_ {k} (\boldsymbol {f} _ {t} - \boldsymbol {e} _ {t}) + \nu_ {t + k, t}
+\boldsymbol {e}_{t + k} - \boldsymbol {e}_{t} = \alpha_{k} + \beta_{k} (\boldsymbol {f}_{t} - \boldsymbol {e}_{t}) + \nu_{t + k, t}
 $$
 $$
-\boldsymbol {e} _ {t + k} - \boldsymbol {e} _ {t} = \alpha_ {k} + \beta_ {k} \left(\boldsymbol {f} _ {t} - \boldsymbol {e} _ {t}\right) + \nu_ {t + k, t}
+\boldsymbol {e}_{t + k} - \boldsymbol {e}_{t} = \alpha_{k} + \beta_{k} \left(\boldsymbol {f}_{t} - \boldsymbol {e}_{t}\right) + \nu_{t + k, t}
 $$
 Sample period: 1973:2 - 1991:4
 - Pseudo-out-of-sample period: 1981:4 - 1991:4
 Currencies: Canada, Germany, Switzerland, Japan
 $\bullet$  Horizons:  $k = 1,4,8,12,16$  (quarters)
 $$
-\boldsymbol {e} _ {t + k} - \boldsymbol {e} _ {t} = \alpha_ {k} + \beta_ {k} (\boldsymbol {f} _ {t} - \boldsymbol {e} _ {t}) + \nu_ {t + k, t}
+\boldsymbol {e}_{t + k} - \boldsymbol {e}_{t} = \alpha_{k} + \beta_{k} (\boldsymbol {f}_{t} - \boldsymbol {e}_{t}) + \nu_{t + k, t}
 $$
 - Multiperiod forecasts induce correlation in error terms
 $$
-\boldsymbol {e} _ {t + k} - \boldsymbol {e} _ {t} = \alpha_ {k} + \beta_ {k} (\boldsymbol {f} _ {t} - \boldsymbol {e} _ {t}) + \nu_ {t + k, t}
+\boldsymbol {e}_{t + k} - \boldsymbol {e}_{t} = \alpha_{k} + \beta_{k} (\boldsymbol {f}_{t} - \boldsymbol {e}_{t}) + \nu_{t + k, t}
 $$
 - Multiperiod forecasts induce correlation in error terms
 Stambaugh 86/99 bias
@@ -12181,7 +12181,7 @@ Stambaugh 86/99 bias
 - Past values of  $e_{t+k} - e_t$  correlated with  $f_t - e_t$
 Causes finite sample bias in  $\beta_{k}$
 $$
-\boldsymbol {e} _ {t + k} - \boldsymbol {e} _ {t} = \alpha_ {k} + \beta_ {k} (\boldsymbol {f} _ {t} - \boldsymbol {e} _ {t}) + \nu_ {t + k, t}
+\boldsymbol {e}_{t + k} - \boldsymbol {e}_{t} = \alpha_{k} + \beta_{k} (\boldsymbol {f}_{t} - \boldsymbol {e}_{t}) + \nu_{t + k, t}
 $$
 - Multiperiod forecasts induce correlation in error terms
 Stambaugh 86/99 bias
@@ -12194,11 +12194,11 @@ Causes finite sample bias in  $\beta_{k}$
 Why not use UK pound?
 Why not use UK pound?
 - Mark calibrates  $\lambda = 1$ :
-$$ f _ {t} = \left(m _ {t} - m _ {t} ^ {*}\right) - \left(y _ {t} - y _ {t} ^ {*}\right)
+$$ f_{t} = \left(m_{t} - m_{t}^{*}\right) - \left(y_{t} - y_{t}^{*}\right)
 $$ also no interest rate term. Why not estimate?
 Why not use UK pound?
 - Mark calibrates  $\lambda = 1$ :
-$$ f _ {t} = \left(m _ {t} - m _ {t} ^ {*}\right) - \left(y _ {t} - y _ {t} ^ {*}\right)
+$$ f_{t} = \left(m_{t} - m_{t}^{*}\right) - \left(y_{t} - y_{t}^{*}\right)
 $$ also no interest rate term. Why not estimate?
 - GNP for US, GDP for all other countries. Why?
 M3 for Canada, M1 for all other countries. Why?

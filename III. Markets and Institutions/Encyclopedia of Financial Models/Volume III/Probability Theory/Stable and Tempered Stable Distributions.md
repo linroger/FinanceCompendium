@@ -42,7 +42,7 @@ We begin with a definition of an  $\alpha$ -stable random variable. Suppose that
 Then a random variable  $X$  is said to follow an  $\alpha$ -stable distribution if there exist a positive constant  $C_n$  and a real number  $D_n$  such that the following relation holds:
 
 $$
-X _ {1} + X _ {2} + \dots + X _ {n} \stackrel {{\mathrm {d}}} {{=}} C _ {n} X + D _ {n}
+X_{1} + X_{2} + \dots + X_{n} \stackrel {{\mathrm{d}}} {{=}} C_{n} X + D_{n}
 $$
 
 The notation  $\stackrel{\mathrm{d}}{=}^{}$  denotes equality in distribution. The constant  $C_n = n^{\frac{1}{\alpha}}$  dictates the stability property, which we will discuss later. When  $\alpha = 2$ , we have the Gaussian (normal) case. In subsequent discussions of the  $\alpha$ -stable distributions in this entry, we restrict ourselves to the non-Gaussian case in which  $0 < \alpha < 2$ .
@@ -50,12 +50,12 @@ The notation  $\stackrel{\mathrm{d}}{=}^{}$  denotes equality in distribution. T
 For the general case, the density of the  $\alpha$ -stable distribution does not have a closed-form solution. The distribution is expressed by its characteristic function:
 
 $$
-\begin{array}{l} \phi_ {\text {s t a b l e}} (\mu ; \alpha , \beta , \mu) = E \left[ e ^ {i u X} \right] \\ \left\{ \begin{array}{l l} \exp (i \mu u - | \sigma u | ^ {\alpha} (1 - i \beta (\text {s i g n} u) \tan \frac {\pi \alpha}{2})), & \alpha \neq 1 \\ \exp (i \mu u - \sigma | u | (1 - i \beta \frac {2}{\pi} (\text {s i g n} u) \ln | u |)), & \alpha = 1 \end{array} \right. \tag {1} \\ \end{array}
+\begin{array}{l} \phi_{\text{st ab le}} (\mu ; \alpha , \beta , \mu) = E \left[ e^{i u X} \right] \\ \left\{ \begin{array}{l l} \exp (i \mu u - | \sigma u |^{\alpha} (1 - i \beta (\text{si gn} u) \tan \frac{\pi \alpha}{2})), & \alpha \neq 1 \\ \exp (i \mu u - \sigma | u | (1 - i \beta \frac{2}{\pi} (\text{si gn} u) \ln | u |)), & \alpha = 1 \end{array} \right. \tag {1} \\ \end{array}
 $$ where
 
 
 $$
-\operatorname {s i g n} t = \left\{ \begin{array}{l l} 1, & t > 0 \\ 0, & t = 0 \\ - 1, & t <   0 \end{array} \right.
+\operatorname{si gn} t = \left\{ \begin{array}{l l} 1, & t > 0 \\ 0, & t = 0 \\ - 1, & t <   0 \end{array} \right.
 $$
 
 The distribution is characterized by four parameters:
@@ -88,37 +88,37 @@ The four basic properties of the  $\alpha$ -stable distribution:
 - Property 1. The power tail decay property means that the tail of the density function decays like a power function (slower than the exponential decay), which is what allows the distribution to capture extreme events in the tails:
 
 $$
-\mathbf {P} (| X | > x) \propto C \cdot x ^ {- \alpha}, x \rightarrow \infty
+\mathbf {P} (| X | > x) \propto C \cdot x^{- \alpha}, x \rightarrow \infty
 $$ for some constant  $C$ . More precisely, if  $X \sim S_{\alpha}(\sigma, \beta, \mu)$  with  $0 < \alpha < 2$  then
 
 
 $$
-\left\{ \begin{array}{l} \lim  _ {\lambda \to \infty} \lambda^ {\alpha} \mathbf {P} (X > \lambda) = C _ {\alpha} \frac {1 + \beta}{2} \sigma^ {\alpha} \\ \lim  _ {\lambda \to \infty} \lambda^ {\alpha} \mathbf {P} (X > - \lambda) = C _ {\alpha} \frac {1 - \beta}{2} \sigma^ {\alpha} \end{array} \right.
+\left\{ \begin{array}{l} \lim_{\lambda \to \infty} \lambda^{\alpha} \mathbf {P} (X > \lambda) = C_{\alpha} \frac{1 + \beta}{2} \sigma^{\alpha} \\ \lim_{\lambda \to \infty} \lambda^{\alpha} \mathbf {P} (X > - \lambda) = C_{\alpha} \frac{1 - \beta}{2} \sigma^{\alpha} \end{array} \right.
 $$ where
 
 
 $$
-C _ {\alpha} = \left\{ \begin{array}{l l} \frac {1 - \alpha}{\Gamma (2 - \alpha) \cos (\pi \alpha / 2)} & \mathrm {i f} \alpha \neq 1 \\ \frac {2}{\pi} & \mathrm {i f} \alpha \neq 1 \end{array} \right.
+C_{\alpha} = \left\{ \begin{array}{l l} \frac{1 - \alpha}{\Gamma (2 - \alpha) \cos (\pi \alpha / 2)} & \mathrm{if} \alpha \neq 1 \\ \frac{2}{\pi} & \mathrm{if} \alpha \neq 1 \end{array} \right.
 $$
 
 - Property 2. Raw moments satisfy the property:
 
 $$
-E | X | ^ {p} <   \infty \text {f o r a n y} 0 <   p <   \alpha
+E | X |^{p} <   \infty \text{fo ra ny} 0 <   p <   \alpha
 $$
 
 $$
-E | X | ^ {p} = \infty \text {f o r a n y} p \geq \alpha
+E | X |^{p} = \infty \text{fo ra ny} p \geq \alpha
 $$
 
 - Property 3. Because of Property 2, the mean is finite only for  $\alpha > 1$ :
 
 $$
-E [ X ] = \mu \quad \text {f o r} \alpha > 1
+E [ X ] = \mu \quad \text{fo r} \alpha > 1
 $$
 
 $$
-E [ X ] = \infty \quad \mathrm {f o r} 0 <   \alpha \leq 1
+E [ X ] = \infty \quad \mathrm{fo r} 0 <   \alpha \leq 1
 $$
 
 The second and higher moments are infinite, leading to infinite variance together with the skewness and kurtosis coefficients.
@@ -131,33 +131,33 @@ The following examples illustrate the stability property. Suppose that  $X_1, X_
 - The distribution of  $Y = \sum_{i}^{n} X_{i}$  is  $\alpha$ -stable with the index of stability  $\alpha$  and parameters:
 
 $$
-\beta = \frac {\sum_ {i} ^ {n} \beta_ {i} \sigma_ {i} ^ {\alpha}}{\sum_ {i} ^ {n} \sigma_ {i} ^ {\alpha}}, \sigma = \left(\sum_ {i} ^ {n} \sigma_ {i} ^ {\alpha}\right) ^ {1 / \alpha}, \mu = \sum_ {i} ^ {n} \mu_ {i}
+\beta = \frac{\sum_{i}^{n} \beta_{i} \sigma_{i}^{\alpha}}{\sum_{i}^{n} \sigma_{i}^{\alpha}}, \sigma = \left(\sum_{i}^{n} \sigma_{i}^{\alpha}\right)^{1 / \alpha}, \mu = \sum_{i}^{n} \mu_{i}
 $$
 
 - The distribution of  $Y = X_{1} + a$  for some real constant  $a$  is  $\alpha$ -stable with the index of stability  $\alpha$  and parameters:
 
 $$
-\beta = \beta_ {1}, \sigma = \sigma_ {1} \quad \mu = \mu_ {1} + a
+\beta = \beta_{1}, \sigma = \sigma_{1} \quad \mu = \mu_{1} + a
 $$
 
 - The distribution of  $Y = aX_{1}$  for some real constant  $a(a \neq 0)$  is  $\alpha$ -stable with the index of stability  $\alpha$  and parameters:
 
 $$
-\beta = (\operatorname {s i g n} a) \beta_ {1}
+\beta = (\operatorname{si gn} a) \beta_{1}
 $$
 
 $$
-\sigma = | a | \sigma_ {1}
+\sigma = | a | \sigma_{1}
 $$
 
 $$
-\mu = \left\{ \begin{array}{l l} a \mu_ {1} & \text {f o r} \alpha \neq 1 \\ a \mu_ {1} - \frac {2}{\pi} a (\operatorname {I n} a) \sigma_ {1} \beta_ {1} & \text {f o r} \alpha = 1 \end{array} \right.
+\mu = \left\{ \begin{array}{l l} a \mu_{1} & \text{fo r} \alpha \neq 1 \\ a \mu_{1} - \frac{2}{\pi} a (\operatorname{In} a) \sigma_{1} \beta_{1} & \text{fo r} \alpha = 1 \end{array} \right.
 $$
 
 - The distribution of  $Y = -X_{1}$  is  $\alpha$ -stable with the index of stability  $\alpha$  and parameters:
 
 $$
-\beta = - \beta_ {1}, \quad \sigma = \sigma_ {1} \quad \mu = \mu_ {1}
+\beta = - \beta_{1}, \quad \sigma = \sigma_{1} \quad \mu = \mu_{1}
 $$
 
 # Smoothly Truncated Stable Distribution
@@ -167,7 +167,7 @@ In some special cases of financial modeling it might occur that the infinite var
 
 The exact definition of truncated stable distributions is not that important at this point; that is why we restrict ourselves to a brief description of the idea. The density function of a smoothly truncated stable distribution (STS distribution) is obtained by replacing the heavy tails of the density function  $g$  of some stable distribution with parameters  $(\alpha, \beta, \sigma, \mu)$  by the thin tails of two appropriately chosen normal distributions  $h_1$  and  $h_2$ :
 
-$$ f (x) = \left\{ \begin{array}{l l} h _ {1} (x), & x <   a \\ g (x), & a \leq x \leq b \\ h _ {2} (x),   x > b \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{l l} h_{1} (x), & x <   a \\ g (x), & a \leq x \leq b \\ h_{2} (x),   x > b \end{array} \right.
 $$
 
 The parameters of the normal distributions are chosen such that the resulting function is the continuous density function of a probability measure on the real line. If it is possible to choose the cutting points  $a$  and  $b$  in a way that the resulting distribution possesses zero mean and unit variance, then we have found an easy way to characterize standardized STS distributions. In Figure 3, the influence of the stable parameters on the appropriate cutting points is examined. As  $\alpha$  approaches 2 (i.e., when the stable distribution approaches the normal distribution), we observe that the cutting points move to infinity. For small values of  $\alpha$ , in contrast, the interval  $[a, b]$  shrinks, reflecting the increasing heaviness of the tails of the stable distribution in the center.
@@ -191,14 +191,14 @@ In this section, we discuss six types of tempered stable distributions.
 Let  $\alpha \in (0,1) \cup (1,2)$ ,  $C, \lambda+, \lambda_{-} > 0$ , and  $m \in \mathbb{R}$ .  $X$  is said to follow the classical tempered stable (CTS) distribution if the characteristic function of  $X$  is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {C T S} (u; \alpha , C, \lambda_ {+}, \lambda_ {-}, m) \\ = \exp (i u m - i u C \Gamma (1 - \alpha) \left(\lambda_ {+} ^ {\alpha - 1} - \lambda_ {-} ^ {\alpha - 1}\right) \\ + C \Gamma (- \alpha) ((\lambda_ {+} - i u) ^ {\alpha} - \lambda_ {+} ^ {\alpha} \\ + \left(\lambda_ {-} + i u\right) ^ {\alpha} - \lambda_ {-} ^ {\alpha})) \tag {2} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{C T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m) \\ = \exp (i u m - i u C \Gamma (1 - \alpha) \left(\lambda_{+}^{\alpha - 1} - \lambda_{-}^{\alpha - 1}\right) \\ + C \Gamma (- \alpha) ((\lambda_{+} - i u)^{\alpha} - \lambda_{+}^{\alpha} \\ + \left(\lambda_{-} + i u\right)^{\alpha} - \lambda_{-}^{\alpha})) \tag {2} \\ \end{array}
 $$ and we denote it by  $X\sim \mathrm{CTS}(\alpha ,C,\lambda_{+},\lambda_{-},m)$
 
 
 Using the nth derivative of  $\psi (u) = \log \phi_X(u)$  evaluated around zero, the cumulants  $c_{n}(X) =$ $\frac{1}{i^n}\frac{\partial^n\psi}{\partial_u} (0)$  of  $X$  are obtained by
 
 $$
-\begin{array}{l} c _ {1} (X) = m \\ c _ {n} (X) = C \Gamma (n - \alpha) \left(\lambda_ {+} ^ {\alpha - n}\right) \\ + (- 1) ^ {n} \lambda_ {-} ^ {\alpha - n}), \text {f o r} n = 2, 3, \dots \\ \end{array}
+\begin{array}{l} c_{1} (X) = m \\ c_{n} (X) = C \Gamma (n - \alpha) \left(\lambda_{+}^{\alpha - n}\right) \\ + (- 1)^{n} \lambda_{-}^{\alpha - n}), \text{fo r} n = 2, 3, \dots \\ \end{array}
 $$
 
 The role of the parameters is as follows:
@@ -224,7 +224,7 @@ Figure 6 Probability Density of the Symmetric CTS Distributions' Dependence on P
 If we take a special parameter  $C$  defined by
 
 $$
-C = \left(\Gamma (2 - \alpha) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)\right) ^ {- 1} \tag {3}
+C = \left(\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {3}
 $$ then  $X \sim \mathrm{CTS}(\alpha, \mathsf{C}, \lambda_{+}, \lambda_{-}, 0)$  has zero mean and unit variance. In this case,  $X$  is called the standard CTS distribution with parameters  $(\alpha, \lambda_{+}, \lambda_{-})$  and denoted by  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+},$
 
 
@@ -234,7 +234,7 @@ Figure 7 Probability Density of the CTS Distributions: Dependence on  $\alpha$  
 $\lambda_{-})$  .Let  $m$  be a real number,  $\sigma$  be a positive real number,and  $X\sim \mathrm{stdCTS}(\alpha ,\lambda_{+},\lambda_{-})$  .Then
 
 $$
-\begin{array}{l} Y = \sigma X + m \approx C T S \\ x \left(\alpha , \frac {\sigma^ {\alpha}}{\Gamma (2 - \alpha) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)}, \frac {\lambda_ {+}}{\sigma}, \frac {\lambda_ {-}}{\sigma}, m\right) \\ \end{array}
+\begin{array}{l} Y = \sigma X + m \approx C T S \\ x \left(\alpha , \frac{\sigma^{\alpha}}{\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)}, \frac{\lambda_{+}}{\sigma}, \frac{\lambda_{-}}{\sigma}, m\right) \\ \end{array}
 $$
 
 The random variable  $Y$  is the CTS distributed, and its mean and variance are  $m$  and  $\sigma^2$ , respectively.
@@ -244,19 +244,19 @@ The random variable  $Y$  is the CTS distributed, and its mean and variance are 
 A more general form of the characteristic function for the CTS distribution is
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \exp (i u m - i u \Gamma (1 - \alpha) (C + \lambda_ {+} ^ {\alpha + - 1} - C _ {-} \lambda_ {-} ^ {\alpha_ {-} - 1}) \\ + C _ {+} \Gamma (- \alpha_ {+}) ((\lambda_ {+} - i u) ^ {\alpha_ {+}} - \lambda_ {+} ^ {\alpha_ {+}}) \\ + C _ {-} \Gamma (- \alpha_ {-}) \left(\left(\lambda_ {-} + i u\right) ^ {\alpha_ {-}} - \lambda_ {-} ^ {\alpha_ {-}}\right)) \tag {4} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \exp (i u m - i u \Gamma (1 - \alpha) (C + \lambda_{+}^{\alpha + - 1} - C_{-} \lambda_{-}^{\alpha_{-} - 1}) \\ + C_{+} \Gamma (- \alpha_{+}) ((\lambda_{+} - i u)^{\alpha_{+}} - \lambda_{+}^{\alpha_{+}}) \\ + C_{-} \Gamma (- \alpha_{-}) \left(\left(\lambda_{-} + i u\right)^{\alpha_{-}} - \lambda_{-}^{\alpha_{-}}\right)) \tag {4} \\ \end{array}
 $$ where  $\alpha_{+},\alpha_{-}\in (0,1)\cup (1,2),C_{+},C_{-},\lambda_{+},\lambda_{-} > 0,$  and  $m\in \mathbb{R}$ . This distribution has been referred to as the generalized classical tempered stable (GTS) distribution and we denote it by  $X\sim \mathrm{GTS}(\alpha_{+},$ $\alpha_{-},C_{+},C_{-},\lambda_{+},\lambda_{-},m).^{2}$
 
 
 The cumulants of  $X$  are  $c_{1}(X) = m$  and
 
 $$
-\begin{array}{l} c _ {n} (X) = C _ {+} \Gamma (n - \alpha_ {+}) \lambda_ {+} ^ {\alpha + - n} \\ + (- 1) ^ {n} C _ {-} \Gamma (n - \alpha_ {-}) \lambda_ {-} ^ {\alpha_ {-} - n} \\ \end{array}
+\begin{array}{l} c_{n} (X) = C_{+} \Gamma (n - \alpha_{+}) \lambda_{+}^{\alpha + - n} \\ + (- 1)^{n} C_{-} \Gamma (n - \alpha_{-}) \lambda_{-}^{\alpha_{-} - n} \\ \end{array}
 $$ for  $n = 2,3,\dots$  .If we substitute
 
 
 $$
-C _ {+} = \frac {p \lambda_ {+} ^ {2 - \alpha_ {+}}}{\Gamma (2 - \alpha_ {+})}, \quad C _ {-} = \frac {(1 - p) \lambda_ {-} ^ {2 - \alpha_ {-}}}{\Gamma (2 - \alpha_ {-})} \tag {5}
+C_{+} = \frac{p \lambda_{+}^{2 - \alpha_{+}}}{\Gamma (2 - \alpha_{+})}, \quad C_{-} = \frac{(1 - p) \lambda_{-}^{2 - \alpha_{-}}}{\Gamma (2 - \alpha_{-})} \tag {5}
 $$ where  $p\in (0,1)$  , then  $X\sim \mathrm{GTS}(\alpha_{+},\alpha_{-},C_{+},C_{-}$ $\lambda_{+},\lambda_{-},0)$  has zero mean and unit variance. In this case,  $X$  is called the standard GTS distribution with parameters  $(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$  and denoted by  $X\sim \mathrm{stdGTS}(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$
 
 
@@ -267,37 +267,37 @@ Let  $\alpha \in (0,1)\cup (1,2),C,\lambda_{+},\lambda_{-} > 0$  , and  $m\in \m
 (MTS) distribution (see Kim et al., 2009) if the characteristic function of  $X$  is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {M T S} (u; \alpha , C, \lambda_ {+}, \lambda_ {-}, m) \\ = \exp (i u m + C \left(G _ {R} (u; \alpha , \lambda_ {+}) + G _ {R} (u; \alpha , \lambda_ {-})\right) \\ + i u C \left(G _ {I} (u; \alpha , \lambda_ {+}) - G _ {I} (u; \alpha , \lambda_ {-}))\right) \tag {6} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{M T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m) \\ = \exp (i u m + C \left(G_{R} (u; \alpha , \lambda_{+}) + G_{R} (u; \alpha , \lambda_{-})\right) \\ + i u C \left(G_{I} (u; \alpha , \lambda_{+}) - G_{I} (u; \alpha , \lambda_{-}))\right) \tag {6} \\ \end{array}
 $$ where for  $u\in \mathbb{R}$
 
 
 $$
-G _ {R} (x; \alpha , \lambda) = 2 ^ {\frac {- \alpha + 3}{2}} \sqrt {\pi \Gamma} \left(- \frac {\alpha}{2}\right) \left(\left(\lambda^ {2} + x ^ {2}\right) ^ {\frac {\alpha}{2}} - \lambda^ {\alpha}\right)
+G_{R} (x; \alpha , \lambda) = 2^{\frac{- \alpha + 3}{2}} \sqrt{\pi \Gamma} \left(- \frac{\alpha}{2}\right) \left(\left(\lambda^{2} + x^{2}\right)^{\frac{\alpha}{2}} - \lambda^{\alpha}\right)
 $$ and
 
 
 $$
-\begin{array}{l} G _ {I} (x; \alpha , \lambda) = 2 ^ {\frac {- \alpha + 1}{2}} \Gamma \left(\frac {1 - \alpha}{2}\right) \lambda^ {\alpha - 1} \\ \times \left[ _ 2 F _ {1} \left(1, \frac {1 - \alpha}{2}; \frac {3}{2}; - \frac {x ^ {2}}{\lambda^ {2}}\right) - 1 \right] \\ \end{array}
+\begin{array}{l} G_{I} (x; \alpha , \lambda) = 2^{\frac{- \alpha + 1}{2}} \Gamma \left(\frac{1 - \alpha}{2}\right) \lambda^{\alpha - 1} \\ \times \left[ _ 2 F_{1} \left(1, \frac{1 - \alpha}{2}; \frac{3}{2}; - \frac{x^{2}}{\lambda^{2}}\right) - 1 \right] \\ \end{array}
 $$ where  ${}_{2}F_{1}$  is the hypergeometric function. We denote an MTS distributed random variable  $X$  by  $X \sim \mathrm{MTS}(\alpha, C, \lambda_{+}, \lambda_{-}, m)$ .
 
 
 The role of the parameters of the MTS distribution is same as in the case of the CTS distribution. For example, the parameters  $\lambda_{+}$  and  $\lambda_{-}$  control the rate of decay on the positive and negative tails, respectively, and if  $\lambda_{+} = \lambda_{-}$ , then it is symmetric. The characteristic function of the symmetric MTS distribution is defined not only for the case  $\alpha \in (0,1) \cup (1,2)$  but also for the case  $\alpha = 1$ . The form of the characteristic function for the symmetric case is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {M T S} (u; \alpha , C, \lambda , \lambda , m) \\ = \exp \left(i u m + C 2 ^ {- \frac {\alpha + 1}{2}} \sqrt {\pi \Gamma} \left(- \frac {\alpha}{2}\right) \right. \\ \times \left(\left(\lambda^ {2} + x ^ {2}\right) ^ {\frac {\alpha}{2}} - \lambda^ {\alpha}\right)\left. \right) \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{M T S} (u; \alpha , C, \lambda , \lambda , m) \\ = \exp \left(i u m + C 2^{- \frac{\alpha + 1}{2}} \sqrt{\pi \Gamma} \left(- \frac{\alpha}{2}\right) \right. \\ \times \left(\left(\lambda^{2} + x^{2}\right)^{\frac{\alpha}{2}} - \lambda^{\alpha}\right)\left. \right) \\ \end{array}
 $$
 
 The mean of  $X$  is  $m$ , and the cumulants of  $X$  are equal to
 
 $$
-\begin{array}{l} c _ {n} (X) = 2 ^ {n - \frac {\alpha + 3}{2}} C \Gamma \left(\frac {n + 1}{2}\right) \Gamma \left(\frac {n - \alpha}{2}\right) \\ \times \left(\lambda_ {+} ^ {\alpha - n} + (- 1) ^ {n} \lambda_ {-} ^ {\alpha - n}\right) \\ \end{array}
+\begin{array}{l} c_{n} (X) = 2^{n - \frac{\alpha + 3}{2}} C \Gamma \left(\frac{n + 1}{2}\right) \Gamma \left(\frac{n - \alpha}{2}\right) \\ \times \left(\lambda_{+}^{\alpha - n} + (- 1)^{n} \lambda_{-}^{\alpha - n}\right) \\ \end{array}
 $$ for  $n = 2,3,\dots$
 
 
 If we substitute
 
 $$
-C = 2 ^ {\frac {\alpha + 1}{2}} \left(\sqrt {\pi} \Gamma \left(1 - \frac {\alpha}{2}\right) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)\right) ^ {- 1} \tag {7}
+C = 2^{\frac{\alpha + 1}{2}} \left(\sqrt{\pi} \Gamma \left(1 - \frac{\alpha}{2}\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {7}
 $$ then  $X\sim \mathrm{MTS}(\alpha ,\mathsf{C},\lambda_{+},\lambda_{-},0)$  has zero mean and unit variance. In this case, the random variable  $X$  is called the standard MTS distribution and
 
 
@@ -306,7 +306,7 @@ Figure 8 Probability Density of the NTS Distributions' Dependence on  $\beta$  N
 
 
 $$
-Y = \sigma X + m \sim \operatorname {M T S} (\alpha , \sigma^ {\alpha} C, \lambda_ {+} / \sigma , \lambda_ {-} / \sigma , m)
+Y = \sigma X + m \sim \operatorname{MT S} (\alpha , \sigma^{\alpha} C, \lambda_{+} / \sigma , \lambda_{-} / \sigma , m)
 $$ where  $C$  is equal to (7). The random variable  $Y$  is MTS distributed, and its mean and variance are  $m$  and  $\sigma^2$ , respectively.
 
 
@@ -315,7 +315,7 @@ $$ where  $C$  is equal to (7). The random variable  $Y$  is MTS distributed, an
 Let  $\alpha \in (0,2), C, \lambda > 0, |\beta| < \lambda,$  and  $m \in \mathbb{R}$ .  $X$  is said to follow the normal tempered stable (NTS) distribution. If the characteristic function of  $X$  is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {N T S} (u; \alpha , C, \lambda , \beta , m) \\ = \exp (i u m - i u 2 ^ {- \frac {\alpha - 1}{2}} \sqrt {\pi} C \Gamma \left(1 - \frac {\alpha}{2}\right) \\ \times \beta (\lambda^ {2} - \beta^ {2}) ^ {\frac {\alpha}{2} - 1} + 2 ^ {- \frac {\alpha + 1}{2}} C \sqrt {\pi} \Gamma \left(- \frac {\alpha}{2}\right) \\ \left. \times \left(\left(\lambda^ {2} - (\beta + i u) ^ {2}\right) ^ {\frac {\alpha}{2}} - \left(\lambda^ {2} - \beta^ {2}\right) ^ {\frac {\alpha}{2}}\right)\right) \tag {8} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{N T S} (u; \alpha , C, \lambda , \beta , m) \\ = \exp (i u m - i u 2^{- \frac{\alpha - 1}{2}} \sqrt{\pi} C \Gamma \left(1 - \frac{\alpha}{2}\right) \\ \times \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 1} + 2^{- \frac{\alpha + 1}{2}} C \sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \\ \left. \times \left(\left(\lambda^{2} - (\beta + i u)^{2}\right)^{\frac{\alpha}{2}} - \left(\lambda^{2} - \beta^{2}\right)^{\frac{\alpha}{2}}\right)\right) \tag {8} \\ \end{array}
 $$
 
 We denote an NTS distributed random variable  $X$  by  $X\sim \mathrm{NTS}(\alpha ,C,\lambda ,\beta ,m)$
@@ -323,14 +323,14 @@ We denote an NTS distributed random variable  $X$  by  $X\sim \mathrm{NTS}(\alph
 The mean of  $X$  is  $m$ . The general expressions for cumulants of  $X$  are omitted since they are rather complicated. Instead of the general form, we present three cumulants
 
 
-$$ c _ {2} (X) = \bar {C} (\lambda^ {2} - \beta^ {2}) ^ {\frac {\alpha}{2} - 2} \alpha (\alpha \beta^ {2} - \lambda^ {2} - \beta^ {2})
+$$ c_{2} (X) = \bar {C} (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 2} \alpha (\alpha \beta^{2} - \lambda^{2} - \beta^{2})
 $$
 
-$$ c _ {3} (X) = - \bar {C} \alpha \beta (\lambda^ {2} - \beta^ {2}) ^ {\frac {\alpha}{2} - 3} (\alpha^ {2} \beta^ {2} - 3 \alpha \lambda^ {2} - 3 \alpha \beta^ {2} + 6 \lambda^ {2} + 2 \beta^ {2})
+$$ c_{3} (X) = - \bar {C} \alpha \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 3} (\alpha^{2} \beta^{2} - 3 \alpha \lambda^{2} - 3 \alpha \beta^{2} + 6 \lambda^{2} + 2 \beta^{2})
 $$
 
 $$
-\begin{array}{l} c _ {4} (X) = \bar {C} \alpha (\alpha - 2) \left(\lambda^ {2} - \beta^ {2}\right) ^ {\frac {\alpha}{2} - 4} \\ \times \left(\alpha^ {2} \beta^ {4}\right) - 6 \alpha \lambda^ {2} \beta^ {2} - 4 \alpha \beta^ {4} + 3 \beta^ {4} + 1 8 \lambda^ {2} \beta^ {2} + 3 \lambda^ {4}) \\ \end{array}
+\begin{array}{l} c_{4} (X) = \bar {C} \alpha (\alpha - 2) \left(\lambda^{2} - \beta^{2}\right)^{\frac{\alpha}{2} - 4} \\ \times \left(\alpha^{2} \beta^{4}\right) - 6 \alpha \lambda^{2} \beta^{2} - 4 \alpha \beta^{4} + 3 \beta^{4} + 1 8 \lambda^{2} \beta^{2} + 3 \lambda^{4}) \\ \end{array}
 $$ where  $\bar{C} = 2^{-\frac{\alpha + 1}{2}}C\sqrt{\pi}\Gamma \left(-\frac{\alpha}{2}\right)$
 
 
@@ -339,14 +339,14 @@ The roles of parameters  $\alpha, C,$  and  $\lambda$  are same as in the case o
 If we substitute
 
 $$
-\begin{array}{l} C = 2 ^ {\frac {\alpha + 1}{2}} \\ \times \left(\sqrt {\pi} \Gamma \left(- \frac {\alpha}{2}\right) \alpha \left(\lambda^ {2} - \beta^ {2}\right) ^ {\frac {\alpha}{2} - 2} \left(\alpha \beta^ {2} - \lambda^ {2} - \beta^ {2}\right)\right) ^ {- 1} \tag {9} \\ \end{array}
+\begin{array}{l} C = 2^{\frac{\alpha + 1}{2}} \\ \times \left(\sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \alpha \left(\lambda^{2} - \beta^{2}\right)^{\frac{\alpha}{2} - 2} \left(\alpha \beta^{2} - \lambda^{2} - \beta^{2}\right)\right)^{- 1} \tag {9} \\ \end{array}
 $$ then  $X\sim \mathrm{NTS}(\alpha ,C,\lambda ,\beta ,0)$  has zero mean and unit variance. In this case,  $X$  is called the standard NTS distribution and denoted by  $X\sim$  stdNTS(  $\alpha ,\lambda ,\beta)$  .Let  $m$  be a real number,  $\sigma$  be a
 
 
 positive real number, and  $X\sim \mathrm{stdNTS}(\alpha ,\lambda ,\beta)$  Then
 
 $$
-Y = \sigma X + m \sim \mathrm {N T S} (\alpha , \sigma^ {\alpha} C, \lambda / \sigma , \beta / \sigma , m)
+Y = \sigma X + m \sim \mathrm{NT S} (\alpha , \sigma^{\alpha} C, \lambda / \sigma , \beta / \sigma , m)
 $$ where  $C$  is equal to (9). The random variable  $Y$  is NTS distributed, and its mean and variance are  $m$  and  $\sigma^2$ , respectively.
 
 
@@ -355,12 +355,12 @@ If we substitute  $\alpha = 1$  and  $C = \frac{c}{\pi}$  into the definition of
 By substituting  $\alpha = 1$  and  $C = \frac{c}{\pi}$  into (8), we obtain the characteristic function of the NIG distributed  $X$  as
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {N I G} (u; c, \lambda , \beta , m) \\ = \exp \left(i u m - \frac {i u c \beta}{\sqrt {\lambda^ {2} - \beta^ {2}}} - c \right. \\ \left. \times \left(\sqrt {\lambda^ {2} - (\beta + i u) ^ {2}} - \sqrt {\lambda^ {2} - \beta^ {2}}\right)\right) \tag {10} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{N I G} (u; c, \lambda , \beta , m) \\ = \exp \left(i u m - \frac{i u c \beta}{\sqrt{\lambda^{2} - \beta^{2}}} - c \right. \\ \left. \times \left(\sqrt{\lambda^{2} - (\beta + i u)^{2}} - \sqrt{\lambda^{2} - \beta^{2}}\right)\right) \tag {10} \\ \end{array}
 $$
 
 If we substitute
 
-$$ c = \frac {\left(\lambda^ {2} - \beta^ {2}\right) ^ {\frac {3}{2}}}{\lambda^ {2}} \tag {11}
+$$ c = \frac{\left(\lambda^{2} - \beta^{2}\right)^{\frac{3}{2}}}{\lambda^{2}} \tag {11}
 $$ then  $X\sim \mathrm{NIG}(\mathsf{c},\lambda ,\beta ,0)$  has zero mean and unit variance. In this case,  $X$  is called the standard NIG distribution and denoted by  $X\sim \mathrm{stdNIG}(\lambda ,\beta)$
 
 
@@ -369,12 +369,12 @@ $$ then  $X\sim \mathrm{NIG}(\mathsf{c},\lambda ,\beta ,0)$  has zero mean and u
 Let  $\alpha \in (0,1)\cup (1,2),$ $k_{+},k_{-},r_{+},r_{-} > 0,p_{+}$ $p_{-}\in \{p > - \alpha \mid p\neq -1,p\neq 0\}$  , and  $m\in \mathbb{R}$  .  $X$  is said to follow the Kim-Rachev tempered stable (KRTS) distribution (see Kim et al., 2008b) if the characteristic function of  $X$  is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {K R T S} (u; \alpha , k _ {+}, k _ {-}, r _ {+}, r _ {-}, p _ {+}, p _ {-}, m) \\ = \exp (i u m - i u \Gamma (1 - \alpha) \left(\frac {k _ {+} r _ {+}}{p _ {+} + 1} - \frac {k _ {-} r _ {-}}{p _ {-} + 1}\right) \\ + k _ {+} H (i u; \alpha , r _ {+}, p _ {+}) + k _ {-} H (- i u; \alpha , r _ {-}, p _ {-})) \tag {12} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{K R T S} (u; \alpha , k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, m) \\ = \exp (i u m - i u \Gamma (1 - \alpha) \left(\frac{k_{+} r_{+}}{p_{+} + 1} - \frac{k_{-} r_{-}}{p_{-} + 1}\right) \\ + k_{+} H (i u; \alpha , r_{+}, p_{+}) + k_{-} H (- i u; \alpha , r_{-}, p_{-})) \tag {12} \\ \end{array}
 $$ where
 
 
 $$
-H (x; \alpha , r, p) = \frac {\Gamma (- \alpha)}{p} (_ {2} F _ {1} (p, - \alpha ; 1 + p; r x) - 1)
+H (x; \alpha , r, p) = \frac{\Gamma (- \alpha)}{p} (_ {2} F_{1} (p, - \alpha ; 1 + p; r x) - 1)
 $$
 
 We denote a KRTS distributed random variable  $X$  by  $X \sim \mathrm{KRTS}(\alpha, k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, p_{-}, m)$ .
@@ -384,23 +384,23 @@ The KRTS distribution is an extension of the CTS distribution. Indeed, the distr
 The cumulants of the KRTS distributed random variable  $X$  are  $c_{1}(X) = m$  and
 
 $$
-\begin{array}{l} c _ {n} (X) = \Gamma (n - \alpha) \left(\frac {k _ {+} r _ {+} ^ {n}}{p _ {+} + n} + (- 1) ^ {n} \frac {k _ {-} r _ {-} ^ {n}}{p _ {-} + n}\right), \\ \text {f o r} n = 2, 3, \dots . \\ \end{array}
+\begin{array}{l} c_{n} (X) = \Gamma (n - \alpha) \left(\frac{k_{+} r_{+}^{n}}{p_{+} + n} + (- 1)^{n} \frac{k_{-} r_{-}^{n}}{p_{-} + n}\right), \\ \text{fo r} n = 2, 3, \dots . \\ \end{array}
 $$
 
 If we substitute
 
 $$
-\begin{array}{l} k _ {+} = C \frac {\alpha + p _ {+}}{r _ {+} ^ {\alpha}} \\ k _ {-} = C \frac {\alpha + p _ {-}}{r _ {-} ^ {\alpha}} \\ \end{array}
+\begin{array}{l} k_{+} = C \frac{\alpha + p_{+}}{r_{+}^{\alpha}} \\ k_{-} = C \frac{\alpha + p_{-}}{r_{-}^{\alpha}} \\ \end{array}
 $$ where
 
 
 $$
-C = \frac {1}{\Gamma (2 - \alpha)} \left(\frac {\alpha + p _ {+}}{2 + p _ {+}} r _ {+} ^ {2 - \alpha} + \frac {\alpha + p _ {-}}{2 + p _ {-}} r _ {-} ^ {2 - \alpha}\right) ^ {- 1} \tag {13}
+C = \frac{1}{\Gamma (2 - \alpha)} \left(\frac{\alpha + p_{+}}{2 + p_{+}} r_{+}^{2 - \alpha} + \frac{\alpha + p_{-}}{2 + p_{-}} r_{-}^{2 - \alpha}\right)^{- 1} \tag {13}
 $$ then  $X \sim \mathrm{KRTS}(\alpha, k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0)$  has zero mean and unit variance. In this case,  $X$  is said to be standard KRTS distributed and denoted by  $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$ . Let  $m$  be a real number,  $\sigma$  be a positive real number, and  $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$ . Then
 
 
 $$
-\begin{array}{l} Y = \sigma X + m \\ \sim \operatorname {K R T S} (\alpha , C (\alpha + p _ {+}) (\sigma r _ {+}) ^ {- \alpha}, C (\alpha + p _ {-}) \\ (\sigma r _ {-}) ^ {- \alpha}, \sigma r _ {+}, \sigma_ {r} ^ {-}, p _ {+}, p _ {-}, m) \\ \end{array}
+\begin{array}{l} Y = \sigma X + m \\ \sim \operatorname{KR TS} (\alpha , C (\alpha + p_{+}) (\sigma r_{+})^{- \alpha}, C (\alpha + p_{-}) \\ (\sigma r_{-})^{- \alpha}, \sigma r_{+}, \sigma_{r}^{-}, p_{+}, p_{-}, m) \\ \end{array}
 $$ where  $C$  is equal to (13). The random variable  $Y$  is KRTS distributed, and its mean and variance are  $m$  and  $\sigma^2$ , respectively.
 
 
@@ -412,30 +412,30 @@ Figure 9 Probability Density of the CTS Distribution with Parameters  $C = 1, \l
 Let  $\alpha \in (0,1)\cup (1,2),C,\lambda_{+},\lambda_{-} > 0$  , and  $m\in \mathbb{R}$  .A random variable  $X$  is said to follow the rapidly decreasing tempered stable (RDTS) distribution (see Bianchi et al., 2010 and Kim et al., 2010) if the characteristic function of  $X$  is given by
 
 $$
-\begin{array}{l} \phi_ {X} (u) = \phi_ {R D T S} (u; \alpha , C, \lambda_ {+}, \lambda_ {-}, m) \\ \exp (i u m + C \left(G (i u; \alpha , \lambda_ {+}) + G (- i u; \alpha , \lambda_ {-}))\right) \tag {14} \\ \end{array}
+\begin{array}{l} \phi_{X} (u) = \phi_{R D T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m) \\ \exp (i u m + C \left(G (i u; \alpha , \lambda_{+}) + G (- i u; \alpha , \lambda_{-}))\right) \tag {14} \\ \end{array}
 $$ where
 
 
 $$
-\begin{array}{l} G (x; \alpha , \lambda) = 2 ^ {- \frac {\alpha}{2} - 1} \lambda^ {\alpha} \Gamma \left(- \frac {\alpha}{2}\right) \left(M \left(- \frac {\alpha}{2}, \frac {1}{2}; \frac {x ^ {2}}{2 \lambda^ {2}}\right) - 1\right) \\ + 2 ^ {- \frac {\alpha}{2} - \frac {1}{2}} \lambda^ {\alpha - 1} x \Gamma \left(\frac {1 - \alpha}{2}\right) \\ \times \left(M \left(\frac {1 - \alpha}{2}, \frac {3}{2}; \frac {x ^ {2}}{2 \lambda^ {2}}\right) - 1\right) \\ \end{array}
+\begin{array}{l} G (x; \alpha , \lambda) = 2^{- \frac{\alpha}{2} - 1} \lambda^{\alpha} \Gamma \left(- \frac{\alpha}{2}\right) \left(M \left(- \frac{\alpha}{2}, \frac{1}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ + 2^{- \frac{\alpha}{2} - \frac{1}{2}} \lambda^{\alpha - 1} x \Gamma \left(\frac{1 - \alpha}{2}\right) \\ \times \left(M \left(\frac{1 - \alpha}{2}, \frac{3}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ \end{array}
 $$ and  $M$  is the confluent hypergeometric function. Further details of the confluent hypergeometric function are presented at the end of this entry. In this case, we denote  $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, m)$ . The role of the parameters are the same as for the case of the CTS distribution.
 
 
 The mean of  $X$  is  $m$ , and the cumulants of  $X$  are
 
 $$
-\begin{array}{l} c _ {n} (X) = 2 ^ {\frac {n - \alpha - 2}{2}} C \Gamma \left(\frac {n - \alpha}{2}\right) \\ \times \left(\lambda_ {+} ^ {\alpha - n} + (- 1) ^ {n} \lambda_ {-} ^ {\alpha - n}\right), \text {f o r} n = 2, 3, \dots . \\ \end{array}
+\begin{array}{l} c_{n} (X) = 2^{\frac{n - \alpha - 2}{2}} C \Gamma \left(\frac{n - \alpha}{2}\right) \\ \times \left(\lambda_{+}^{\alpha - n} + (- 1)^{n} \lambda_{-}^{\alpha - n}\right), \text{fo r} n = 2, 3, \dots . \\ \end{array}
 $$
 
 If we substitute
 
 $$
-C = 2 ^ {\frac {\alpha}{2}} \left(\Gamma \left(1 - \frac {\alpha}{2}\right) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)\right) ^ {- 1} \tag {15}
+C = 2^{\frac{\alpha}{2}} \left(\Gamma \left(1 - \frac{\alpha}{2}\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {15}
 $$ then  $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, 0)$  has zero mean and unit variance, and  $X$  is called the standard RDTS distribution and denoted by  $X \sim \mathrm{stdRDTS}(\alpha, \lambda_{+}, \lambda_{-})$ . Let  $m$  be a real number,  $\sigma$  be a positive real number, and  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+}, \lambda_{-})$ . Then
 
 
 $$
-\sigma X + m \sim \mathrm {R D T S} (\alpha , \sigma^ {\alpha} C, \lambda_ {+} / \sigma , \lambda_ {-} / \sigma , m)
+\sigma X + m \sim \mathrm{RD TS} (\alpha , \sigma^{\alpha} C, \lambda_{+} / \sigma , \lambda_{-} / \sigma , m)
 $$ where  $C$  is equal to (15). The random variable  $Y$  is RDTS distributed, and its mean and variance are  $m$  and  $\sigma^2$ , respectively.
 
 
@@ -446,19 +446,19 @@ A random variable  $Y$  is referred to as infinitely divisible if for each posit
 For example, the normal distribution is infinitely divisible. Using the characteristic function for the normal distribution, we can easily check the property. Suppose  $Y \sim N(\mu, \sigma^2)$ . For any positive integer  $n$ , consider a sequence of IID random variables  $Y_1, Y_2, \ldots, Y_n$  such that  $Y_k \sim N(\mu/n, \sigma^2/n)$ . Since  $Y_k$ 's are independent we have
 
 $$
-E \left[ \exp \left(i u \sum_ {k = 1} ^ {n} Y _ {k}\right) \right] = \prod_ {k = 1} ^ {n} E \left[ i u Y _ {k} \right]
+E \left[ \exp \left(i u \sum_{k = 1}^{n} Y_{k}\right) \right] = \prod_{k = 1}^{n} E \left[ i u Y_{k} \right]
 $$
 
 The characteristic function of  $Y_{k}$  is given by
 
 $$
-E \left[ i u Y _ {k} \right] = \exp \left(\frac {i u \mu}{n} - \frac {\sigma^ {2} u ^ {2}}{2 n}\right)
+E \left[ i u Y_{k} \right] = \exp \left(\frac{i u \mu}{n} - \frac{\sigma^{2} u^{2}}{2 n}\right)
 $$
 
 Hence, the characteristic function of  $\sum_{k=1}^{n} Y_k$  is
 
 $$
-E \left[ \exp \left(i u \sum_ {k = 1} ^ {n} Y _ {k}\right) \right] = \exp \left(i u \mu - \frac {\sigma^ {2} u ^ {2}}{2}\right)
+E \left[ \exp \left(i u \sum_{k = 1}^{n} Y_{k}\right) \right] = \exp \left(i u \mu - \frac{\sigma^{2} u^{2}}{2}\right)
 $$ which is the same as the characteristic function of  $Y$ . Therefore,  $Y \stackrel{\mathrm{d}}{=} \sum_{k=1}^{n} Y_k$ .
 
 
@@ -467,7 +467,7 @@ Using similar arguments, we can show that the Poisson, gamma, variance-gamma (VG
 In the literature, the characteristic function of the one-dimensional infinitely divisible distribution is generalized by the Lévy-Khinchine formula:
 
 $$
-\exp \left(i \gamma u - \frac {1}{2} \alpha^ {2} u ^ {2} + \int_ {- \infty} ^ {\infty} \left(e ^ {i u x} - 1 - i u x 1 _ {| x | \leq 1}\right) v (d x)\right) \tag {16}
+\exp \left(i \gamma u - \frac{1}{2} \alpha^{2} u^{2} + \int_{- \infty}^{\infty} \left(e^{i u x} - 1 - i u x 1_{| x | \leq 1}\right) v (d x)\right) \tag {16}
 $$
 
 Table 2 Infinitely Divisible Distributions
@@ -485,14 +485,14 @@ If  $\nu(dx) = 0$ , then the characteristic function equals the characteristic f
 If  $\sigma = 0$ , then the distribution is referred to as a purely non-Gaussian distribution. The characteristic functions of purely non-Gaussian distributions are computed by
 
 $$
-\exp \left(i \gamma u + \int_ {- \infty} ^ {\infty} (e ^ {i u x} - 1 - i u x 1 _ {| x | \leq 1}) v (d x)\right)
+\exp \left(i \gamma u + \int_{- \infty}^{\infty} (e^{i u x} - 1 - i u x 1_{| x | \leq 1}) v (d x)\right)
 $$
 
 Hence, except for the location determined by  $\gamma$ , all the properties of the distribution are characterized by the Lévy measure  $v(dx)$ . The Poisson, gamma, VG, IG,  $\alpha$ -stable, CTS, GTS, MTS, NTS, RDTS, and KRTS distributions are purely non-Gaussian distributions. The Lévy measure of the Poisson, gamma, VG, and IG distributions are given in Table 3.
 
 The Lévy measure of the  $\alpha$ -stable distribution is given by
 
-$$ v _ {\text {s t a b l e}} (d x) = \left(\frac {C _ {+}}{x ^ {1 + \alpha}} 1 _ {x > 0} + \frac {C _ {-}}{| x | ^ {1 + \alpha}} 1 _ {x <   0}\right) d x \tag {17}
+$$ v_{\text{st ab le}} (d x) = \left(\frac{C_{+}}{x^{1 + \alpha}} 1_{x > 0} + \frac{C_{-}}{| x |^{1 + \alpha}} 1_{x <   0}\right) d x \tag {17}
 $$
 
 Using the Lévy Khinchine formula we can obtain the characteristic function in (1).
@@ -500,13 +500,13 @@ Using the Lévy Khinchine formula we can obtain the characteristic function in (
 The Lévy measure of the CTS, MTS, NTS, KRTS, and RDTS distributions can be obtained by multiplying the tempering function by the Lévy measure of  $\alpha$ -stable distribution. For example, if we take  $q(x) = e^{-\lambda_{+}x}1_{x > o} + e^{-\lambda_{-}|x|}1_{x < o}$  as the tempering function, then we obtain the Lévy measure of the CTS distribution as
 
 $$
-\begin{array}{l} \nu (d x) = q (x) \nu_ {\text {s t a b l e}} (d x) \\ = \left(\frac {C + e ^ {- \lambda_ {+} x}}{x ^ {1 + \alpha}} 1 _ {x > 0} + \frac {C _ {-} e ^ {- \lambda_ {-} | x |}}{| x | ^ {1 + \alpha}} 1 _ {x <   0}\right) d x \\ \end{array}
+\begin{array}{l} \nu (d x) = q (x) \nu_{\text{st ab le}} (d x) \\ = \left(\frac{C + e^{- \lambda_{+} x}}{x^{1 + \alpha}} 1_{x > 0} + \frac{C_{-} e^{- \lambda_{-} | x |}}{| x |^{1 + \alpha}} 1_{x <   0}\right) d x \\ \end{array}
 $$
 
 Tempering functions of the other distributions are presented in Table 4. For this reason, they are referred to as the tempered stable distributions. The GTS distribution is also a purely non-Gaussian distribution, but not a tempered stable distribution in this sense. Indeed, its Lévy measure is given by
 
 $$
-\nu (d x) = \left(\frac {C + e ^ {- \lambda_ {+} x}}{x ^ {1 + \alpha_ {+}}} 1 _ {x > 0} + \frac {C _ {-} e ^ {- \lambda_ {-} | x |}}{| x | ^ {1 + \alpha_ {-}}} 1 _ {x <   0}\right) d x
+\nu (d x) = \left(\frac{C + e^{- \lambda_{+} x}}{x^{1 + \alpha_{+}}} 1_{x > 0} + \frac{C_{-} e^{- \lambda_{-} | x |}}{| x |^{1 + \alpha_{-}}} 1_{x <   0}\right) d x
 $$
 
 However, we will refer to the GTS distribution as a tempered stable distribution for convenience. Using the Lévy measures and the Lévy-Khinchine formula, we can obtain the characteristic functions (1), (2), (4), (6), (8), (12), and (14).
@@ -524,7 +524,7 @@ The exponential moment of a random variable  $X$  is defined by  $E[e^{uX}]$  fo
 The exponential moment of the normal distribution is given by
 
 $$
-E \left[ e ^ {u X} \right] = \exp \left(\mu u + \frac {\sigma^ {2} u ^ {2}}{2}\right)
+E \left[ e^{u X} \right] = \exp \left(\mu u + \frac{\sigma^{2} u^{2}}{2}\right)
 $$ where  $X\sim N(\mu ,\sigma)$
 
 
@@ -533,13 +533,13 @@ Using the Lévy measure we can check the existence of the exponential moment for
 Theorem Let  $X$  be an infinitely divisible random variable with the Lévy triplet  $(\sigma^2, \nu, \gamma)$  and let  $u \in \mathbb{R}$ . Then  $E[e^{uX}] < \infty$  if and only if
 
 $$
-\int_ {| x | > 1} e ^ {u x} v (d x) <   \infty \tag {18}
+\int_{| x | > 1} e^{u x} v (d x) <   \infty \tag {18}
 $$
 
 In this case,
 
 $$
-E [ e ^ {u X} ] = \phi_ {X} (- i u)
+E [ e^{u X} ] = \phi_{X} (- i u)
 $$ where  $\phi$  is the characteristic function of  $X$  and  $i = \sqrt{-1}$ .
 
 
@@ -550,7 +550,7 @@ The existence of exponential moments in the tempered stable distributions is as 
 However, if  $X \sim S_{\alpha}(\sigma, 1, 0)$ , then  $E[e^{uX}] < \infty$  for  $u < 0$ . In this case,
 
 $$
-E \left[ e ^ {u X} \right] = \left\{ \begin{array}{l l} \exp \left(- \frac {\sigma^ {\alpha}}{\cos \frac {\pi \alpha}{2}} \mu \alpha\right), & \alpha \neq 1 \\ \exp \left(\frac {2 \sigma}{\pi} u \ln u\right), & \alpha = 1 \end{array} \right.
+E \left[ e^{u X} \right] = \left\{ \begin{array}{l l} \exp \left(- \frac{\sigma^{\alpha}}{\cos \frac{\pi \alpha}{2}} \mu \alpha\right), & \alpha \neq 1 \\ \exp \left(\frac{2 \sigma}{\pi} u \ln u\right), & \alpha = 1 \end{array} \right.
 $$
 
 - For the CTS, GTS, and MTS distributions, the condition (18) is satisfied if and only if  $-\lambda_{-} \leq u \leq \lambda_{+}$ . Hence,  $E[e^{uX}] < \infty$  for  $u \in [-\lambda_{-}, \lambda_{+}]$ .
@@ -561,56 +561,56 @@ $$
 If  $E[e^{uX}] < \infty$ , then we can define the log-Laplace transform for the random variable  $X$ . The log-Laplace transform is given by
 
 $$
-L (u) = \log E [ e ^ {u X} ] = \log \phi (- i u)
+L (u) = \log E [ e^{u X} ] = \log \phi (- i u)
 $$ if (18) is satisfied.
 
 
 For example, let  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+}, \lambda_{-})$ . The log-Laplace transform  $L_{CTS}$  of  $X$  is defined on  $u \in [-\lambda_{-}, \lambda_{+}]$ , and is given by
 
 $$
-\begin{array}{l} L _ {C T S} (u; a, \lambda_ {+}, \lambda_ {-}) = \log \phi C T S (- i u; \alpha , C, \lambda +, \lambda_ {-}, 0) \\ = \frac {(\lambda_ {+} - u) ^ {\alpha} - \lambda_ {+} ^ {\alpha} + (\lambda_ {-} + u) ^ {\alpha} - \lambda_ {-} ^ {\alpha}}{\alpha (\alpha - 1) (\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2})} \\ - \frac {u \left(\lambda_ {+} ^ {\alpha - 1} - \lambda_ {-} ^ {\alpha - 1}\right)}{\left(1 - \alpha\right) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)} \\ \end{array}
+\begin{array}{l} L_{C T S} (u; a, \lambda_{+}, \lambda_{-}) = \log \phi C T S (- i u; \alpha , C, \lambda +, \lambda_{-}, 0) \\ = \frac{(\lambda_{+} - u)^{\alpha} - \lambda_{+}^{\alpha} + (\lambda_{-} + u)^{\alpha} - \lambda_{-}^{\alpha}}{\alpha (\alpha - 1) (\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2})} \\ - \frac{u \left(\lambda_{+}^{\alpha - 1} - \lambda_{-}^{\alpha - 1}\right)}{\left(1 - \alpha\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)} \\ \end{array}
 $$ where  $C$  is satisfied (3). Using the same method, we can obtain the log-Laplace transform of the other standard tempered stable distributions as follows:
 
 
 - Standard GTS distribution:
 
 $$
-\begin{array}{l} L _ {G T S} \left(u; \alpha_ {+}, \alpha_ {-}, \lambda_ {+}, \lambda_ {-}\right) \\ = \log \phi_ {G T S} (- i u; \alpha_ {+}, \alpha_ {-}, C _ {+}, C _ {-}, \lambda_ {+}, \lambda_ {-}, 0) \\ \end{array}
+\begin{array}{l} L_{G T S} \left(u; \alpha_{+}, \alpha_{-}, \lambda_{+}, \lambda_{-}\right) \\ = \log \phi_{G T S} (- i u; \alpha_{+}, \alpha_{-}, C_{+}, C_{-}, \lambda_{+}, \lambda_{-}, 0) \\ \end{array}
 $$ on  $\mathfrak{u}\in [-\lambda_{-},\lambda_{+}]$  where  $C_+$  and  $C_-$  satisfy (5).
 
 
 - Standard MTS distribution:
 
 $$
-\begin{array}{l} L _ {M T S} (u; \alpha , \lambda_ {+}, \lambda_ {-}) \\ = \log \phi_ {M T S} (- i u; \alpha , C, \lambda_ {+}, \lambda_ {-}, 0) \\ \end{array}
+\begin{array}{l} L_{M T S} (u; \alpha , \lambda_{+}, \lambda_{-}) \\ = \log \phi_{M T S} (- i u; \alpha , C, \lambda_{+}, \lambda_{-}, 0) \\ \end{array}
 $$ on  $u\in [-\lambda_{-},\lambda_{+}]$  where  $C$  satisfies (7).
 
 
 - Standard NTS distribution:
 
 $$
-L _ {N T S} (u; \alpha , \lambda , \beta) = \log \phi_ {N T S} (- i u; \alpha , C, \lambda , \beta , 0)
+L_{N T S} (u; \alpha , \lambda , \beta) = \log \phi_{N T S} (- i u; \alpha , C, \lambda , \beta , 0)
 $$ on  $u\in [-\lambda -\beta ,\lambda -\beta ]$  where  $C$  satisfies (9).
 
 
 - Standard NIG distribution:
 
 $$
-L _ {N I G} (u; \lambda , \beta) = \log \phi_ {N I G} (- i u; C, \lambda , \beta , 0)
+L_{N I G} (u; \lambda , \beta) = \log \phi_{N I G} (- i u; C, \lambda , \beta , 0)
 $$ on  $u\in [-\lambda -\beta ,\lambda -\beta ]$  where  $C$  satisfies (11).
 
 
 - Standard KRTS distribution:
 
 $$
-\begin{array}{l} L _ {K R T S} (u; \alpha , r _ {+}, r _ {-}, p _ {+}, p _ {-}) \\ = \log \phi_ {K R T S} (- i u; \alpha , k _ {+}, k _ {-}, r _ {+}, r _ {-}, p _ {+}, p _ {-}, 0) \\ \end{array}
+\begin{array}{l} L_{K R T S} (u; \alpha , r_{+}, r_{-}, p_{+}, p_{-}) \\ = \log \phi_{K R T S} (- i u; \alpha , k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0) \\ \end{array}
 $$ on  $u\in [-\lambda_{-},\lambda_{+}]$  where  $k_{+}$  and  $k_{-}$  satisfy (13).
 
 
 - Standard RDTS distribution:
 
 $$
-\begin{array}{l} L _ {R D T S} (u; \alpha , \lambda_ {+}, \lambda_ {-}) \\ = \log \phi_ {R D T S} (- i u; \alpha , C, \lambda_ {+}, \lambda_ {-}, 0) \\ \end{array}
+\begin{array}{l} L_{R D T S} (u; \alpha , \lambda_{+}, \lambda_{-}) \\ = \log \phi_{R D T S} (- i u; \alpha , C, \lambda_{+}, \lambda_{-}, 0) \\ \end{array}
 $$ on  $u\in \mathbb{R}$  where  $C$  satisfies (15).
 
 
@@ -621,7 +621,7 @@ In this entry, we referred to the hypergeometric function and the confluent hype
 1998.) We begin by introducing the following notation
 
 $$
-(a) _ {0} = 1, \quad (a) _ {n} = a (a + 1) \dots (a + n - 1)
+(a)_{0} = 1, \quad (a)_{n} = a (a + 1) \dots (a + n - 1)
 $$
 
 $$ n = 1, 2, 3, \dots , a \in \mathbb {R} \tag {19}
@@ -629,13 +629,13 @@ $$ and we refer to the notation as the Pochhammer symbol. By properties of the g
 
 
 $$
-(a) _ {n} = \frac {\Gamma (a + n)}{\Gamma (a)}, \quad n = 0, 1, 2, 3, \dots .
+(a)_{n} = \frac{\Gamma (a + n)}{\Gamma (a)}, \quad n = 0, 1, 2, 3, \dots .
 $$
 
 From (19), we obtain
 
 $$
-(2 n + 1)! = 2 ^ {2 n} n! \left(\frac {3}{2}\right) _ {n} \tag {20}
+(2 n + 1)! = 2^{2 n} n! \left(\frac{3}{2}\right)_{n} \tag {20}
 $$
 
 # The Hypergeometric Function
@@ -643,21 +643,21 @@ $$
 The function
 
 $$
-{ } _ { 2 } F _ { 1 } ( a , b ; c ; x ) = \sum _ { n = 0 } ^ { \infty } \frac { ( a ) _ { n } ( b ) _ { n } } { ( c ) _ { n } } \frac { x ^ { n } } { n ! } , \quad | x | <   1 \tag {21}
+{ }_{ 2 } F_{ 1 } ( a , b ; c ; x ) = \sum_{ n = 0 }^{ \infty } \frac{ ( a )_{ n } ( b )_{ n } } { ( c )_{ n } } \frac{ x^{ n } } { n ! } , \quad | x | <   1 \tag {21}
 $$ is called the hypergeometric function. If  $c \neq 0, -1, -2, \dots$ , the function  $F(a, b; c; x)$  is a solution to the linear second-order differential equation
 
 
-$$ x (1 - x) y ^ {\prime \prime} + (c - (a + b + 1) x) y ^ {\prime} - a b y = 0 \tag {22}
+$$ x (1 - x) y^{\prime \prime} + (c - (a + b + 1) x) y^{\prime} - a b y = 0 \tag {22}
 $$ referred to as the hypergeometric equation. Moreover, if  $c\neq 0,\pm 1,\pm 2,\dots$
 
 
 $$
-\begin{array}{l} y = C _ {1} F _ {1} (a, b; c; x) \\ + C _ {2} x ^ {1 - c} _ {2} F _ {1} (1 + a - c, 1 + b - c; 2 - c; x) \\ \end{array}
+\begin{array}{l} y = C_{1} F_{1} (a, b; c; x) \\ + C_{2} x^{1 - c}_{2} F_{1} (1 + a - c, 1 + b - c; 2 - c; x) \\ \end{array}
 $$ for any constants  $C_1$  and  $C_2$ , is a general solution to equation (22). For  $k = 1, 2, 3 \dots, k$ th derivatives are obtained from the following equation:
 
 
 $$
-\frac {d ^ {k}}{d x ^ {k}} _ {2} F _ {1} (a, b; c; x) = \frac {(a) _ {k} (b) _ {k}}{(c) _ {k}} _ {2} F _ {1} (a + k, b + k; c + k; x) \tag {23}
+\frac{d^{k}}{d x^{k}}_{2} F_{1} (a, b; c; x) = \frac{(a)_{k} (b)_{k}}{(c)_{k}}_{2} F_{1} (a + k, b + k; c + k; x) \tag {23}
 $$
 
 # The Confluent Hypergeometric Function
@@ -665,26 +665,26 @@ $$
 The function
 
 $$
-M (a; c; x) = \sum_ {n = 0} ^ {\infty} \frac {(a) _ {n} x ^ {n}}{(c) _ {n} n !}, - \infty <   x <   \infty \tag {24}
+M (a; c; x) = \sum_{n = 0}^{\infty} \frac{(a)_{n} x^{n}}{(c)_{n} n !}, - \infty <   x <   \infty \tag {24}
 $$ is called the confluent hypergeometric function and is obtained by the limit of the hypergeometric function as follows:
 
 
 $$
-M (a; c; x) = \lim  _ {b \rightarrow \infty} F (a, b; c; x / b)
+M (a; c; x) = \lim_{b \rightarrow \infty} F (a, b; c; x / b)
 $$
 
 The function  $M(a; c; x)$  is a solution of the linear second-order differential equation
 
-$$ x y ^ {\prime \prime} + (c - x) y ^ {\prime} - a y = 0 \tag {25}
+$$ x y^{\prime \prime} + (c - x) y^{\prime} - a y = 0 \tag {25}
 $$ referred to as the confluent hypergeometric equation. Moreover, if  $c \neq 0, \pm 1, \pm 2, \dots$ ,
 
 
-$$ y = C _ {1} M (a; c; x) + C _ {2} x ^ {1 - c} F (1 + a - c; 2 - c; x)
+$$ y = C_{1} M (a; c; x) + C_{2} x^{1 - c} F (1 + a - c; 2 - c; x)
 $$ for any constants  $C_1$  and  $C_2$ , is a general solution of equation (25). For  $k = 1, 2, 3 \dots$ ,  $k$ th derivatives are obtained by the following equation:
 
 
 $$
-\frac {d ^ {k}}{d x ^ {k}} M (a; c; x) = \frac {(a) _ {k}}{(c) _ {k}} M (a + k; c + k; x) \tag {26}
+\frac{d^{k}}{d x^{k}} M (a; c; x) = \frac{(a)_{k}}{(c)_{k}} M (a + k; c + k; x) \tag {26}
 $$
 
 # KEY POINTS

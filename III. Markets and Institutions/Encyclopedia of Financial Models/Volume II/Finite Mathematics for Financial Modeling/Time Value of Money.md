@@ -43,7 +43,7 @@ Suppose you deposit \$1,000 into a savings account at the Surety Savings Bank an
 To get to the future value from the present value:
 
 $$
-\begin{array}{l} F V = \quad P V \quad + (P V \times i) \\ \uparrow \qquad \uparrow \\ \begin{array}{c c} \text {p r i n c i p a l} & \text {i n t e r s t} \\ \hline \end{array} \\ \end{array}
+\begin{array}{l} F V = \quad P V \quad + (P V \times i) \\ \uparrow \qquad \uparrow \\ \begin{array}{c c} \text{pr in ci pa l} & \text{in te rs t} \\ \hline \end{array} \\ \end{array}
 $$
 
 This is equivalent to:
@@ -63,7 +63,7 @@ If the 100 interest is withdrawn at the end of the period, the principal is left
 If you compound interest for one more period in our example, the original \$1,000 grows to \$1,210.00:
 
 $$
-\begin{array}{l} F V = \text {P r i n c i p a l} + \text {F i r s t p e r i o d i n t e r e s t} \\ + \text {S e c o n d p e r i o d i n t e r s t} \\ = \$ 1,000.00 + (\\$ 1,000.00 \times 0.10) \\ + (\$ 1, 1 0 0. 0 0 \times 0. 1 0) \\ = \mathbb {S} 1, 2 0 0. 0 0 \\ \end{array}
+\begin{array}{l} F V = \text{Pr in ci pa l} + \text{Fi rs tp er io di nt er es t} \\ + \text{Se co nd pe ri od in te rs t} \\ = \$ 1,000.00 + (\\$ 1,000.00 \times 0.10) \\ + (\$ 1, 1 0 0. 0 0 \times 0. 1 0) \\ = \mathbb {S} 1, 2 0 0. 0 0 \\ \end{array}
 $$
 
 The present value of the investment is  \$1,000, the interest earned over two years is\$ 210, and the future value of the investment after two years is 1,210.
@@ -74,7 +74,7 @@ The relation between the present value and the future value after two periods, b
 
 
 $$
-F V = P V (1 + 2 i + i ^ {2}) = P V (1 + i) ^ {2}
+F V = P V (1 + 2 i + i^{2}) = P V (1 + i)^{2}
 $$
 
 The balance in the account two years from now, 1,210, comprises three parts:
@@ -86,7 +86,7 @@ The balance in the account two years from now, 1,210, comprises three parts:
 To determine the future value with compound interest for more than two periods, we follow along the same lines:
 
 $$
-F V = P V (1 + i) ^ {N} \tag {1}
+F V = P V (1 + i)^{N} \tag {1}
 $$
 
 The value of  $N$  is the number of compounding periods, where a compounding period is the unit of time after which interest is paid at the rate  $i$ . A period may be any length of time: a minute, a day, a month, or a year. The important thing is to make sure the same compound- ing period is reflected throughout the problem being analyzed. The term  $\left(1 + i\right)^{N}$  is referred to as the compound factor. It is the rate of exchange between present dollars and dollars  $N$  compounding periods into the future. Equation (1) is the basic valuation equation—the foundation of financial mathematics. It relates a value at one point in time to a value at another point in time, considering the compounding of interest.
@@ -98,7 +98,7 @@ Figure 1 The Value of 1,000 Invested 10 Years in an Account That Pays 10\% Compo
 The relation between present and future values for a principal of  \$1,000 and interest of 10\%$  per period through 10 compounding periods is shown graphically in Figure 1. For example, the value of 1,000, earning interest at  $10\%$  per period, is 2,593.70 ten periods into the future:
 
 $$
-\begin{array}{l} F V = \$ 1,000 (1 + 0. 1 0) ^ {1 0} = \$ 1,000 (2. 5 9 3 7) \\ = \mathbb {S} 2, 5 9 3. 7 0 \\ \end{array}
+\begin{array}{l} F V = \$ 1,000 (1 + 0. 1 0)^{1 0} = \$ 1,000 (2. 5 9 3 7) \\ = \mathbb {S} 2, 5 9 3. 7 0 \\ \end{array}
 $$
 
 As you can see in this figure the 2,593.70 balance in the account at the end of 10 periods is comprised of three parts:
@@ -112,12 +112,12 @@ We can express the change in the value of the savings balance (that is, the diff
 
 We could also express the appreciation in our savings balance in terms of a return. A return is the income on an investment, generally stated as a change in the value of the investment over each period divided by the amount at the investment at the beginning of the period. We could also say that our investment of  \$1,000 provides an average annual return of 10\%$  per year. The average annual return is not calculated by taking the change in value over the entire 10-year period (2,593.70 - \$1,000) and dividing it by \$1,000. This would produce an arithmetic average return of  $159.37\%$  over the 10-year period, or  $15.937\%$  per year. But the arithmetic average ignores the process of compounding. The correct way of calculating the average annual return is to use a geometric average return:
 
-$$ i = \sqrt [ N ]{\frac {F V}{P V}} - 1 \tag {2}
+$$ i = \sqrt [ N ]{\frac{F V}{P V}} - 1 \tag {2}
 $$ which is a rearrangement of equation (1) Using the values from the example,
 
 
 $$
-\begin{array}{l} i = \sqrt [ 1 0 ]{\frac {\mathbb {S} 2 , 5 9 3 . 7 0}{\mathbb {S} 1 , 0 0 0 . 0 0}} - 1 = \left(\frac {\mathbb {S} 2 , 5 9 3 . 7 0}{\mathbb {S} 1 , 0 0 0 . 0 0}\right) ^ {1 / 1 0} \\ - 1 = 1.100 - 1 = 10\% \\ \end{array}
+\begin{array}{l} i = \sqrt [ 1 0 ]{\frac{\mathbb {S} 2 , 5 9 3 . 7 0}{\mathbb {S} 1 , 0 0 0 . 0 0}} - 1 = \left(\frac{\mathbb {S} 2 , 5 9 3 . 7 0}{\mathbb {S} 1 , 0 0 0 . 0 0}\right)^{1 / 1 0} \\ - 1 = 1.100 - 1 = 10\% \\ \end{array}
 $$
 
 Therefore, the annual return on the investment—sometimes referred to as the compound average annual return or the true return—is  $10\%$  per year.
@@ -126,7 +126,7 @@ Here is another example for calculating a future value. A common investment prod
 
 
 $$
-F V = \$ 10,000,000 (1 + 0. 0 6) ^ {5} = \$ 1 3, 3 8 2, 2 5 6
+F V = \$ 10,000,000 (1 + 0. 0 6)^{5} = \$ 1 3, 3 8 2, 2 5 6
 $$
 
 # Compounding More Than One Time per Year
@@ -136,7 +136,7 @@ An investment may pay interest more than one time per year. For example, interes
 Consider a deposit of 50,000 in an account for five years that pays 8\% interest, compounded quarterly. The interest rate per period, i, is 8\% / 4 = 2\% and the number of compounding periods is 5 \times 4 = 20. Therefore, the balance in the account at the end of five years is:
 
 $$
-\begin{array}{l} F V = \$ 50,000 (1 + 0. 0 2) ^ {2 0} = \$ 5 0,0 0 0 (1. 4 8 5 9 4 7 4) \\ = \$ 74,297.37 \\ \end{array}
+\begin{array}{l} F V = \$ 50,000 (1 + 0. 0 2)^{2 0} = \$ 5 0,0 0 0 (1. 4 8 5 9 4 7 4) \\ = \$ 74,297.37 \\ \end{array}
 $$
 
 As shown in Figure 2, through 50 years with both annual and quarterly compounding, the investment's value increases at a faster rate with the increased frequency of compounding.
@@ -156,7 +156,7 @@ Let's work through another example for compounding with compounding more than on
 The given information is  $i = 4\% / 4 = 1\%$  and  $N = 10 \times 4 = 40$  quarters. Therefore,
 
 $$
-F V = \$ 2 0 0, 0 0 0 (1 + 0. 0 1) ^ {4 0} = \$ 2 9 7, 7 7 2. 7 5
+F V = \$ 2 0 0, 0 0 0 (1 + 0. 0 1)^{4 0} = \$ 2 9 7, 7 7 2. 7 5
 $$
 
 # Continuous Compounding
@@ -164,14 +164,14 @@ $$
 The extreme frequency of compounding is continuous compounding—interest is compounded instantaneously. The factor for compounding continuously for one year is  $e^{\mathrm{APR}}$ , where  $e$  is 2.71828..., the base of the natural logarithm. And the factor for compounding continuously for two years is  $e^{\mathrm{APR}} e^{\mathrm{APR}}$  or  $e^{\mathrm{APR}}$ . The future value of an amount that is compounded continuously for  $N$  years is:
 
 $$
-F V = P V e ^ {N (\mathrm {A P R})} \tag {3}
+F V = P V e^{N (\mathrm{AP R})} \tag {3}
 $$ where APR is the annual percentage rate and  $e^{N(\mathrm{APR})}$  is the compound factor.
 
 
 If 1,000 is deposited in an account for five years with interest of 12\% per year, compounded continuously,
 
 $$
-\begin{array}{l} F V = \ 1,000 e ^ {5 (0. 1 2)} = \ 1,000 \left(e ^ {0. 6 0}\right) \\ = \1,000 (1.822 1 2) = \1,822.12 \\ \end{array}
+\begin{array}{l} F V = \ 1,000 e^{5 (0. 1 2)} = \ 1,000 \left(e^{0. 6 0}\right) \\ = \1,000 (1.822 1 2) = \1,822.12 \\ \end{array}
 $$
 
 Comparing this future value with that if interest is compounded annually at  $12\%$  per year for five years,  $\$ 1,762.34$ , we see the effects of this extreme frequency of compounding.
@@ -187,7 +187,7 @@ $$
 We can write this more generally as:
 
 $$
-F V = P V \left(1 + i _ {1}\right) \left(1 + i _ {2}\right) \left(1 + i _ {3}\right) \dots \left(1 + i _ {N}\right) \tag {4}
+F V = P V \left(1 + i_{1}\right) \left(1 + i_{2}\right) \left(1 + i_{3}\right) \dots \left(1 + i_{N}\right) \tag {4}
 $$ where  $i_{N}$  is the interest rate for period  $N$ .
 
 
@@ -199,7 +199,7 @@ $$
 
 Continuing this example, what is the average annual interest rate over this period? We know that the future value is  \$59,267.25, the present value is\$ 50,000, and  $N = 3$ :
 
-$$ i = \sqrt [ 3 ]{\frac {\mathbb {S} 59 , 267 . 25}{\mathbb {S} 50 , 000 . 00}} - 1 = \sqrt [ 3 ]{1 . 185345} = 5. 8315 \%
+$$ i = \sqrt [ 3 ]{\frac{\mathbb {S} 59 , 267 . 25}{\mathbb {S} 50 , 000 . 00}} - 1 = \sqrt [ 3 ]{1 . 185345} = 5. 8315 \%
 $$ which is also:
 
 
@@ -220,19 +220,19 @@ The interest rate,  $i = 10\%$
 We also know the basic relation between the present and future values:
 
 $$
-F V = P V (1 + i) ^ {N}
+F V = P V (1 + i)^{N}
 $$
 
 Substituting the known values into this equation:
 
 $$
-\$ 5,000 = P V (1 + 0. 1 0) ^ {2}
+\$ 5,000 = P V (1 + 0. 1 0)^{2}
 $$
 
 To determine how much you are willing to lend now,  $PV$ , to get \$5,000 one year from now,  $FV$ , requires solving this equation for the unknown present value:
 
 $$
-\begin{array}{l} P V = \frac {\mathbb {S} 5 , 0 0 0}{(1 + 0 . 1 0) ^ {2}} = \mathbb {S} 5, 0 0 0 \left(\frac {1}{1 + 0 . 1 0}\right) ^ {2} \\ = \$ 5,000 (0. 8 2 6 4 5) = \$ 4, 1 3 2. 2 5 \\ \end{array}
+\begin{array}{l} P V = \frac{\mathbb {S} 5 , 0 0 0}{(1 + 0 . 1 0)^{2}} = \mathbb {S} 5, 0 0 0 \left(\frac{1}{1 + 0 . 1 0}\right)^{2} \\ = \$ 5,000 (0. 8 2 6 4 5) = \$ 4, 1 3 2. 2 5 \\ \end{array}
 $$
 
 Therefore, you would be willing to lend \$4,132.25 to receive \$5,000 one year from today if your opportunity cost is 10\%. We can check our work by reworking the problem from the reverse perspective. Suppose you invested 4,132.25 for two years and it earned 10\% per year. What is the value of this investment at the end of the year?
@@ -242,22 +242,22 @@ We know:  PV = \4,132.25 ,  N = 10\%  or 0.10, and  i = 2 .
 Therefore, the future value is:
 
 $$
-\begin{array}{l} F V = P V (1 + i) ^ {N} = \$ 4, 1 3 2. 2 5 (1 + 0. 1 0) ^ {2} \\ = \$ 5,000.00 \\ \end{array}
+\begin{array}{l} F V = P V (1 + i)^{N} = \$ 4, 1 3 2. 2 5 (1 + 0. 1 0)^{2} \\ = \$ 5,000.00 \\ \end{array}
 $$
 
 Compounding translates a value in one point in time into a value at some future point in time. The opposite process translates future values into present values: Discounting translates a value back in time. From the basic valuation equation:
 
 $$
-F V = P V (1 + i) ^ {N}
+F V = P V (1 + i)^{N}
 $$ we divide both sides by  $(1 + i)^{N}$  and exchange sides to get the present value,
 
 
 $$
-P V = \frac {F V}{(1 + i) ^ {N}} \tag {5}
+P V = \frac{F V}{(1 + i)^{N}} \tag {5}
 $$
 
 $$
-\text {o r} P V = F V \left(\frac {1}{1 + i}\right) ^ {N} \text {o r} P V = F V \left[ \frac {1}{(1 + i) ^ {N}} \right]
+\text{or} P V = F V \left(\frac{1}{1 + i}\right)^{N} \text{or} P V = F V \left[ \frac{1}{(1 + i)^{N}} \right]
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/f283d257714ec2afb0e8358f2488f676e03c5e8388a30041077b098183a812f9.jpg)
@@ -268,26 +268,26 @@ The term in brackets [ ] is referred to as the discount factor since it is used 
 If the frequency of compounding is greater than once a year, we make adjustments to the rate per period and the number of periods as we did in compounding. For example, if the future value five years from today is 100,000 and the interest is 6\% per year, compounded semiannually, i = 6\% /2 = 3\% and N = 5\times 2 = 10, and the present value is:
 
 $$
-\begin{array}{l} P V = \$ 1 0 0, 0 0 0 (1 + 0. 0 3) ^ {1 0} = \$ 1 0 0, 0 0 0 (1. 3 4 3 9 2) \\ = \mathbb {S} 1 3 4, 3 9 2 \\ \end{array}
+\begin{array}{l} P V = \$ 1 0 0, 0 0 0 (1 + 0. 0 3)^{1 0} = \$ 1 0 0, 0 0 0 (1. 3 4 3 9 2) \\ = \mathbb {S} 1 3 4, 3 9 2 \\ \end{array}
 $$
 
 Here is an example of calculating a present value. Suppose that the goal is to have 75,000 in an account by the end of four years. And suppose that interest on this account is paid at a rate of 5\% per year, compounded semiannually. How much must be deposited in the account today to reach this goal? We are given FV = 75,000, i = 5\% / 2 = 2.5\% per six months, and N = 4 \times 2 = 8 six-month periods. The amount of the required deposit is therefore:
 
 $$
-P V = \frac {\mathbb {S} 7 5 , 0 0 0}{(1 + 0 . 0 2 5) ^ {8}} = \mathbb {S} 6 1, 5 5 5. 9 9
+P V = \frac{\mathbb {S} 7 5 , 0 0 0}{(1 + 0 . 0 2 5)^{8}} = \mathbb {S} 6 1, 5 5 5. 9 9
 $$
 
 # DETERMINING THE UNKNOWN INTEREST RATE
 
 As we saw earlier in our discussion of growth rates, we can rearrange the basic equation to solve for  $i$ :
 
-$$ i = \sqrt [ N ]{\frac {F V}{P V}} - 1 = \left(\frac {F V}{P V}\right) ^ {1 / N} - 1
+$$ i = \sqrt [ N ]{\frac{F V}{P V}} - 1 = \left(\frac{F V}{P V}\right)^{1 / N} - 1
 $$
 
 As an example, suppose that the value of an investment today is  \$100 and the expected value of the investment in five years is expected to be\$ 150. What is the annual rate of appreciation in value of this investment over the five-year period?
 
 $$
-\begin{array}{l} i = \sqrt [ 5 ]{\frac {\mathrm {s} 1 5 0}{\mathrm {s} 1 0 0}} - 1 \\ = \sqrt [ 5 ]{1 . 5} - 1 = 0. 0 8 4 5 \text {or} 8. 4 5 \\ \end{array}
+\begin{array}{l} i = \sqrt [ 5 ]{\frac{\mathrm{s} 1 5 0}{\mathrm{s} 1 0 0}} - 1 \\ = \sqrt [ 5 ]{1 . 5} - 1 = 0. 0 8 4 5 \text{or} 8. 4 5 \\ \end{array}
 $$
 
 There are many applications in finance where it is necessary to determine the rate of change in values over a period of time. If values are increasing over time, we refer to the rate of change as the growth rate. To make comparisons easier, we usually specify the growth rate as a rate per year.
@@ -296,7 +296,7 @@ For example, if we wish to determine the rate of growth in these values, we solv
 
 
 $$
-\begin{array}{l} G r o w t h r a t e o f d i v i d e n d s = \sqrt [ 1 0 ]{\frac {\mathbb {S} 1 . 0 3}{\mathbb {S} 0 . 3 1 7}} - 1 \\ = \sqrt [ 1 0 ]{3 . 2 4 9 2} - 1 \\ = 12.507 \% \\ \end{array}
+\begin{array}{l} G r o w t h r a t e o f d i v i d e n d s = \sqrt [ 1 0 ]{\frac{\mathbb {S} 1 . 0 3}{\mathbb {S} 0 . 3 1 7}} - 1 \\ = \sqrt [ 1 0 ]{3 . 2 4 9 2} - 1 \\ = 12.507 \% \\ \end{array}
 $$
 
 The  $12.507\%$  is the average annual rate of the growth during this 10-year span.
@@ -306,14 +306,14 @@ The  $12.507\%$  is the average annual rate of the growth during this 10-year sp
 Given the present and future values, calculating the number of periods when we know the interest rate is a bit more complex than calculating the interest rate when we know the number of periods. Nevertheless, we can develop an equation for determining the number of periods, beginning with the valuation formula given by equation (1) and rearranging to solve for  $N$ ,
 
 $$
-N = \frac {\ln F V - \ln P V}{\ln (1 + i)} \tag {6}
+N = \frac{\ln F V - \ln P V}{\ln (1 + i)} \tag {6}
 $$ where  $\ln$  indicates the natural logarithm, which is the log of the base  $e$ . ( $e$  is approximately equal to 2.718. The natural logarithm function can be found on most calculators, usually indicated by "In".)
 
 
 Suppose that the present value of an investment is 100 and you wish to determine how long it will take for the investment to double in value if the investment earns 6\% per year, compounded annually:
 
 $$
-\begin{array}{l} N = \frac {\ln 2 0 0 - \ln 1 0 0}{\ln 1 . 0 6} = \frac {5 . 2 9 8 3 - 4 . 6 0 5 2}{0 . 0 5 8 3} \\ = 1 1. 8 8 8 5 \text {o r a p p r o x i m a t e l y} 1 2 \text {y e a r s} \\ \end{array}
+\begin{array}{l} N = \frac{\ln 2 0 0 - \ln 1 0 0}{\ln 1 . 0 6} = \frac{5 . 2 9 8 3 - 4 . 6 0 5 2}{0 . 0 5 8 3} \\ = 1 1. 8 8 8 5 \text{or ap pr ox im at el y} 1 2 \text{ye ar s} \\ \end{array}
 $$
 
 You'll notice that we round off to the next whole period. To see why, consider this last example. After 11.8885 years, we have doubled our money if interest were paid  $88.85\%$  the way through the 12th year. But, we stated earlier that interest is paid at the end of each period—not part of the way through. At the end of the 11th year, our investment is worth  \$189.93, and at the end of the 12th year, our investment is worth\$ 201.22. So, our investment's value doubles by the 12th period—with a little extra, 1.22.
@@ -374,7 +374,7 @@ The present value of the series is the sum of the present value of these three c
 The present value of a series of cash flows can be represented in notation form as:
 
 $$
-\begin{array}{l} P V = C F _ {0} \left(\frac {1}{1 + i}\right) ^ {0} + C F _ {1} \left(\frac {1}{1 + i}\right) ^ {1} \\ + C F _ {2} \left(\frac {1}{l + i}\right) ^ {2} + \dots + C F _ {N} \left(\frac {1}{1 + i}\right) ^ {N} \\ \end{array}
+\begin{array}{l} P V = C F_{0} \left(\frac{1}{1 + i}\right)^{0} + C F_{1} \left(\frac{1}{1 + i}\right)^{1} \\ + C F_{2} \left(\frac{1}{l + i}\right)^{2} + \dots + C F_{N} \left(\frac{1}{1 + i}\right)^{N} \\ \end{array}
 $$
 
 For example, if there are cash flows today and at the end of periods 1 and 2, today's cash flow is not discounted, the first period cash flow is discounted one period, and the second period cash flow is discounted two periods.
@@ -382,7 +382,7 @@ For example, if there are cash flows today and at the end of periods 1 and 2, to
 We can represent the present value of a series using summation notation as shown below:
 
 $$
-P V = \sum_ {t = 0} ^ {N} C F _ {t} \left(\frac {1}{1 + i}\right) ^ {t} \tag {7}
+P V = \sum_{t = 0}^{N} C F_{t} \left(\frac{1}{1 + i}\right)^{t} \tag {7}
 $$
 
 This equation tells us that the present value of a series of cash flows is the sum of the products of each cash flow and its corresponding discount factor.
@@ -398,7 +398,7 @@ Figure 5 Balance in an Account in Which Deposits of 2,000 Each Are Made Each Yea
 As we just did for the future value of a series of uneven cash flows, we can calculate the future value (as of the end of the fourth year) of each 2,000 deposit, compounding interest at 8\%:
 
 $$
-\begin{array}{l} F V = \$ 2,000 (1 + 0. 0 8) ^ {3} + \$ 2,000 (1 + 0. 0 8) ^ {2} \\ + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8) ^ {1} + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8) ^ {0} \\ = \ 2,519.40 + \ 2,332.80 + \$ 2,160.00 \\ + \mathbb {S} 2, 0 0 0 = \mathbb {S} 9, 0 1 2. 2 0 \\ \end{array}
+\begin{array}{l} F V = \$ 2,000 (1 + 0. 0 8)^{3} + \$ 2,000 (1 + 0. 0 8)^{2} \\ + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8)^{1} + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8)^{0} \\ = \ 2,519.40 + \ 2,332.80 + \$ 2,160.00 \\ + \mathbb {S} 2, 0 0 0 = \mathbb {S} 9, 0 1 2. 2 0 \\ \end{array}
 $$
 
 Figure 5 shows the contribution of each deposit and the accumulated interest at the end of each period.
@@ -417,13 +417,13 @@ $$
 A series of cash flows of equal amount occurring at even intervals is referred to as an annuity. Determining the value of an annuity, whether compounding or discounting, is simpler than valuing uneven cash flows. If each  $CF_{t}$  is equal (that is, all the cash flows are the same value) and the first one occurs at the end of the first period ( $t = 1$ ), we can express the future value of the series as:
 
 $$
-F V = \sum_ {t = 1} ^ {N} C F _ {t} (1 + i) ^ {N - t}
+F V = \sum_{t = 1}^{N} C F_{t} (1 + i)^{N - t}
 $$
 
 $N$  is last and  $t$  indicates the time period corresponding to a particular cash flow, starting at 1 for an ordinary annuity. Since  $CF_{t}$  is shorthand for:  $CF_{1}, CF_{2}, CF_{3}, \ldots, CF_{N}$ , and we know that  $CF_{1} = CF_{2} = CF_{3} = \ldots$ $CF_{N}$ , let's make things simple by using  $CF$  to indicate the same value for the periodic cash flows. Rearranging the future value equation we get:
 
 $$
-F V = C F \sum_ {t = 1} ^ {N} (1 + i) ^ {N - t} \tag {8}
+F V = C F \sum_{t = 1}^{N} (1 + i)^{N - t} \tag {8}
 $$
 
 This equation tells us that the future value of a level series of cash flows, occurring at regular intervals beginning one period from today (notice that  $t$  starts at 1), is equal to the amount of cash flow multiplied by the sum of the compound factors.
@@ -432,12 +432,12 @@ In a like manner, the equation for the present value of a series of level cash f
 
 
 $$
-P V = \sum_ {t = 1} ^ {N} C F _ {t} \left(\frac {1}{1 + i}\right) ^ {t} = C F \sum_ {t = 1} ^ {N} \left(\frac {1}{1 + i}\right) ^ {t}
+P V = \sum_{t = 1}^{N} C F_{t} \left(\frac{1}{1 + i}\right)^{t} = C F \sum_{t = 1}^{N} \left(\frac{1}{1 + i}\right)^{t}
 $$ or
 
 
 $$
-P V = C F \sum_ {t = 1} ^ {N} \frac {1}{(1 + i) ^ {t}} \tag {9}
+P V = C F \sum_{t = 1}^{N} \frac{1}{(1 + i)^{t}} \tag {9}
 $$
 
 This equation tells us that the present value of an annuity is equal to the amount of one cash flow multiplied by the sum of the discount factors.
@@ -472,7 +472,7 @@ In the last example,  $N = 5$  and  $i = 5\%$
 Future value annuity factor  $= \frac{(1 + 0.05)^{5} - 1}{0.05}$
 
 $$
-\begin{array}{l} = \frac {1 . 2 7 6 3 - 1 . 0 0 0}{0 . 0 5} \\ = 5. 5 2 5 6 \\ \end{array}
+\begin{array}{l} = \frac{1 . 2 7 6 3 - 1 . 0 0 0}{0 . 0 5} \\ = 5. 5 2 5 6 \\ \end{array}
 $$
 
 Let's use the long method to find the present value of the series of five deposits of 1,000 each, with the first deposit at the end of the first period. Then we'll do it using the shortcut method. The calculations are similar to the future value of an ordinary annuity, except we are taking each deposit back in time, instead of forward:
@@ -496,7 +496,7 @@ If there are many discount periods, this formula is a bit easier to calculate. I
 Present value annuity factor  $= \frac{\left[1 - \frac{1}{(1 + 0.05)^5}\right]}{0.05}$
 
 $$
-\begin{array}{l} = \frac {1 - 0 . 7 8 3 5}{0 . 0 5} \\ = 4. 3 2 9 5 \\ \end{array}
+\begin{array}{l} = \frac{1 - 0 . 7 8 3 5}{0 . 0 5} \\ = 4. 3 2 9 5 \\ \end{array}
 $$ which is different from the sum of the factors, 4.3294, due to rounding.
 
 
@@ -504,7 +504,7 @@ We can turn this present value of an annuity problem around to look at it from a
 
 
 $$
-\begin{array}{l} P V = C F (\text {s u m o f d i s c o u n t f a c t o r s}) \\ = C F \sum_ {t = 1} ^ {5} \frac {1}{(1 + 0 . 0 5) ^ {t}} \\ = C F (0. 9 5 2 4 + 0. 9 0 7 0 + 0. 8 6 3 8 + 0. 8 2 2 7 \\ + 0. 7 8 3 5) \\ = C F (4. 3 2 9 4) \\ \end{array}
+\begin{array}{l} P V = C F (\text{su mo fd is co un tf ac to rs}) \\ = C F \sum_{t = 1}^{5} \frac{1}{(1 + 0 . 0 5)^{t}} \\ = C F (0. 9 5 2 4 + 0. 9 0 7 0 + 0. 8 6 3 8 + 0. 8 2 2 7 \\ + 0. 7 8 3 5) \\ = C F (4. 3 2 9 4) \\ \end{array}
 $$ substituting the known present value,
 
 
@@ -534,13 +534,13 @@ There are some circumstances where cash flows are expected to continue forever. 
 A series of cash flows that occur at regular intervals, forever, is a perpetuity. Valuing a perpetual cash flow stream is just like valuing an ordinary annuity. It looks like this:
 
 $$
-\begin{array}{l} P V = C F _ {1} \left(\frac {1}{1 + i}\right) ^ {1} + C F _ {2} \left(\frac {1}{1 + i}\right) ^ {2} \\ + C F _ {3} \left(\frac {1}{1 + i}\right) ^ {3} + \dots + C F _ {\infty} \left(\frac {1}{1 + i}\right) ^ {\infty} \\ \end{array}
+\begin{array}{l} P V = C F_{1} \left(\frac{1}{1 + i}\right)^{1} + C F_{2} \left(\frac{1}{1 + i}\right)^{2} \\ + C F_{3} \left(\frac{1}{1 + i}\right)^{3} + \dots + C F_{\infty} \left(\frac{1}{1 + i}\right)^{\infty} \\ \end{array}
 $$
 
 Simplifying, recognizing that the cash flows  $CF_{t}$  are the same in each period, and using summation notation,
 
 $$
-P V = C F \sum_ {t = 1} ^ {\infty} \left(\frac {1}{1 + i}\right) ^ {t}
+P V = C F \sum_{t = 1}^{\infty} \left(\frac{1}{1 + i}\right)^{t}
 $$
 
 As the number of discounting periods approaches infinity, the summation approaches  $1 / i$ . To see why, consider the present value annuity factor for an interest rate of  $10\%$ , as the number of payments goes from 1 to 200:
@@ -551,13 +551,13 @@ As the number of discounting periods approaches infinity, the summation approach
 For greater numbers of payments, the factor approaches 10, or  $1 / 0.10$ . Therefore, the present value of a perpetual annuity is very close to:
 
 $$
-P V = \frac {C F}{i} \tag {12}
+P V = \frac{C F}{i} \tag {12}
 $$
 
 Suppose you are considering an investment that promises to pay 100 each period forever, and the interest rate you can earn on alternative investments of similar risk is 5\% per period. What are you willing to pay today for this investment?
 
 $$
-P V = \frac {\mathbb {S} 1 0 0}{0 . 0 5} = \mathbb {S} 2, 0 0 0
+P V = \frac{\mathbb {S} 1 0 0}{0 . 0 5} = \mathbb {S} 2, 0 0 0
 $$
 
 Therefore, you would be willing to pay \$2,000 today for this investment to receive, in return, the promise of \$100 each period forever.
@@ -567,12 +567,12 @@ Let's look at the value of a perpetuity another way. Suppose that you are given 
 We know that the present value is  $PV = \$ 5,000 $and the periodic, perpetual payment is$ CF = \ $50\$ . Inserting these values into the formula for the present value of a perpetuity:
 
 $$
-\$ 5,000 = \frac {\$ 50}{i}
+\$ 5,000 = \frac{\$ 50}{i}
 $$
 
 Solving for  $i$
 
-$$ i = \frac {\mathbb {S} 50}{\mathbb {S} 5, 000} = 0.01 \text {or} 1 \% \text {per period}
+$$ i = \frac{\mathbb {S} 50}{\mathbb {S} 5, 000} = 0.01 \text{or} 1 \% \text{perperiod}
 $$
 
 Therefore, an investment of  \$5,000 that generates\$ 50 per period provides 1\% compounded interest per period.
@@ -586,11 +586,11 @@ Like the cash flows we have considered thus far, the future value of an annuity 
 Let's consider first an example of the future value of an annuity due, comparing the values of an ordinary annuity and an annuity due, each comprising three cash flows of 500, compounded at the interest rate of 4\% per period. The calculation of the future value of both the ordinary annuity and the annuity due at the end of three periods is:
 
 $$
-\text {O r d i n a r y} \quad \text {a n n u i t y} \quad \text {A n n u i t y d u e}
+\text{Or di na ry} \quad \text{an nu it y} \quad \text{An nu it yd ue}
 $$
 
 $$
-F V = \$ 5 0 0 \sum_ {t = 1} ^ {3} (1 + 0. 0 4) ^ {3 - t} \quad F V _ {\text {d u e}} = \$ 5 0 0 \sum_ {t = 1} ^ {3} (1 + 0. 0 4) ^ {3 - t + 1}
+F V = \$ 5 0 0 \sum_{t = 1}^{3} (1 + 0. 0 4)^{3 - t} \quad F V_{\text{du e}} = \$ 5 0 0 \sum_{t = 1}^{3} (1 + 0. 0 4)^{3 - t + 1}
 $$
 
 The future value of each of the  \$500 payments in the annuity due calculation is compounded for one more period than for the ordinary annuity. For example, the first deposit of\$ 500 earns interest for two periods in the ordinary annuity situation [500 (1 + 0.04) $^2$ ], whereas the first \$500 in the annuity due case earns interest for three periods [500 (1 + 0.04) $^3$ ].
@@ -598,7 +598,7 @@ The future value of each of the  \$500 payments in the annuity due calculation i
 In general terms,
 
 $$
-F V _ {\text {d u e}} = C F \sum_ {t = 1} ^ {N} (1 + i) ^ {N - t + 1} \tag {13}
+F V_{\text{du e}} = C F \sum_{t = 1}^{N} (1 + i)^{N - t + 1} \tag {13}
 $$ which is equal to the future value of an ordinary annuity multiplied by a factor of  $1 + i$ :
 
 
@@ -608,7 +608,7 @@ $FV_{\mathrm{due}} = CF[$  Future value annuity factor ordinary) for  $N$  and  
 The present value of the annuity due is calculated in a similar manner, adjusting the ordinary annuity formula for the different number of discount periods:
 
 $$
-P V _ {\text {d u e}} = C F \sum_ {t = 1} ^ {N} \frac {1}{(1 + i) ^ {t - 1}} \tag {14}
+P V_{\text{du e}} = C F \sum_{t = 1}^{N} \frac{1}{(1 + i)^{t - 1}} \tag {14}
 $$
 
 Since the cash flows in the annuity due situation are each discounted one less period than the corresponding cash flows in the ordinary annuity, the present value of the annuity due is greater than the present value of the ordinary annuity for an equivalent amount and number of cash flows. Like the future value an annuity due, we can specify the present value in terms of the ordinary annuity factor:
@@ -624,7 +624,7 @@ To illustrate the calculation of the present value of an annuity due, suppose yo
 
 
 $$
-\begin{array}{l} F V _ {\text {d u e}, 1 0} = \$ 2 0, 0 0 0 \sum_ {t = 1} ^ {1 0} (1 + 0. 0 5) ^ {1 0 - t + 1} \\ = \$ 20,000 \left( \begin{array}{c} \text {Future value annuity} \\ \text {factor (ordinary) for} \\ 10 \text {periods and } 5\% \end{array} \right) \\ \times (1 + 0. 0 5) \\ = \$ 20,000 (12.5779) (1 + 0.05) = \$ 264,135.74 \\ \end{array}
+\begin{array}{l} F V_{\text{du e}, 1 0} = \$ 2 0, 0 0 0 \sum_{t = 1}^{1 0} (1 + 0. 0 5)^{1 0 - t + 1} \\ = \$ 20,000 \left( \begin{array}{c} \text{Futurevalueannuity} \\ \text{factor (ordinary)for} \\ 10 \text{periodsand } 5\% \end{array} \right) \\ \times (1 + 0. 0 5) \\ = \$ 20,000 (12.5779) (1 + 0.05) = \$ 264,135.74 \\ \end{array}
 $$
 
 Suppose you want to deposit an amount today in an account such that you can withdraw 5,000 per year for four years, with the first withdrawal occurring five years from today. We can solve this problem in two steps:
@@ -636,7 +636,7 @@ Step 2: Discount this present value to the present.
 The first step requires determining the present value of a four-cash-flow ordinary annuity of 5,000. This calculation provides the present value as of the end of the fourth year (one period prior to the first withdrawal):
 
 $$
-\begin{array}{l} P V _ {4} = \$ 5,000 \sum_ {t = 1} ^ {4} \frac {1}{(1 + 0 . 0 4) ^ {t}} \\ = \$ 5,000 (\text {p r e s e n t v a l u e a n n u i t y f a c t o r} \\ N = 4,i = 4\% \\ = \$ 18,149.48 \\ \end{array}
+\begin{array}{l} P V_{4} = \$ 5,000 \sum_{t = 1}^{4} \frac{1}{(1 + 0 . 0 4)^{t}} \\ = \$ 5,000 (\text{pr es en tv al ue an nu it yf ac to r} \\ N = 4,i = 4\% \\ = \$ 18,149.48 \\ \end{array}
 $$
 
 This means that there must be a balance in the account of  \$18,149.48 at the end of the fourth period to satisfy the withdrawals of\$ 5,000 per year for four years.
@@ -644,7 +644,7 @@ This means that there must be a balance in the account of  \$18,149.48 at the en
 The second step requires discounting the 18,149.48—the savings goal—to the present, providing the deposit today that produces the goal:
 
 $$
-P V _ {0} = \frac {\mathbb {S} 1 8 , 1 4 9 . 4 8}{(1 + 0 . 0 4) ^ {4}} = \mathbb {S} 1 5, 5 1 4. 2 5
+P V_{0} = \frac{\mathbb {S} 1 8 , 1 4 9 . 4 8}{(1 + 0 . 0 4)^{4}} = \mathbb {S} 1 5, 5 1 4. 2 5
 $$
 
 The balance in the account throughout the entire eight-year period is shown in Figure 6 with the balance indicated both before and after the 5,000 withdrawals.
@@ -660,7 +660,7 @@ Step 1: Calculate the present value of the 1,000 per year five-year ordinary ann
 The present value of the annuity deferred to the end of the fourth period is
 
 $$
-\begin{array}{l} P V _ {4} = \$ 1,000 \sum_ {t = 1} ^ {5} \frac {1}{(1 + 0 . 0 4) ^ {t}} = \$ 1,000 (4. 4 5 1 8) \\ = \$ 4,451.80 \\ \end{array}
+\begin{array}{l} P V_{4} = \$ 1,000 \sum_{t = 1}^{5} \frac{1}{(1 + 0 . 0 4)^{t}} = \$ 1,000 (4. 4 5 1 8) \\ = \$ 4,451.80 \\ \end{array}
 $$
 
 Therefore, there must be \$4,451.80 in the account at the end of the fourth year to permit five \$1,000 withdrawals at the end of each of the years 5, 6, 7, 8, and 9.
@@ -670,7 +670,7 @@ Step 2: Calculate the cash flow needed to arrive at the future value of that ann
 The present value of the annuity at the end of the fourth year, 4,451.80, is the future value of the annuity due of four payments of an unknown amount. Using the formula for the future value of an annuity due,
 
 $$
-\begin{array}{l} \$ 4,451.80 = C F \sum_ {t = 1} ^ {4} (1 + 0.04) ^ {4 - t + 1} \\ = C F (4. 2 4 6 5) (1. 0 4) \\ \end{array}
+\begin{array}{l} \$ 4,451.80 = C F \sum_{t = 1}^{4} (1 + 0.04)^{4 - t + 1} \\ = C F (4. 2 4 6 5) (1. 0 4) \\ \end{array}
 $$ and rearranging,
 
 
@@ -690,7 +690,7 @@ If an amount is loaned and then repaid in installments, we say that the loan is 
 Consider a loan of 100,000. If the loan is repaid in 24 annual installments (at the end of each year) and the interest rate is 5\% per year, we calculate the amount of the payments by applying the relationship:
 
 $$
-\begin{array}{l} P V = \sum_ {t = 1} ^ {N} \frac {C F}{(1 + i) ^ {t}} \\ \text {A m o u n t l o a n e d} = \sum_ {t = 1} ^ {N} \frac {\text {L o a n p a y m e n t}}{(1 + i) ^ {t}} \\ \$ 100,000 = \sum_ {t = 1} ^ {2 4} \frac {\text {L o a n p a y m e n t}}{(1 + 0 . 0 5) ^ {t}} \\ \end{array}
+\begin{array}{l} P V = \sum_{t = 1}^{N} \frac{C F}{(1 + i)^{t}} \\ \text{Am ou nt lo an ed} = \sum_{t = 1}^{N} \frac{\text{Lo an pa ym en t}}{(1 + i)^{t}} \\ \$ 100,000 = \sum_{t = 1}^{2 4} \frac{\text{Lo an pa ym en t}}{(1 + 0 . 0 5)^{t}} \\ \end{array}
 $$
 
 We want to solve for the loan payment, that is, the amount of the annuity. Using a financial calculator or spreadsheet, the periodic loan payment is 7,247.09 (PV = 100,000; N = 24; i = 5). Therefore, the monthly payments are 7,247.09 each. In other words, if payments of 7,247.09 are made each year for 24 years (at the end of each year), the 100,000 loan will be repaid and the lender earns a return that is equivalent to a 5\% interest on this loan.
@@ -703,7 +703,7 @@ The loan payments are determined such that after the last payment is made there 
 Loan amortization works the same whether this is a mortgage loan, a term loan, or any other loan in which the interest paid is determined on the basis of the remaining amount of the loan. The calculation of the loan amortization can be modified to suit different principal repayments, such as additional lump-sum payments, known as balloon payments. For example, if there is a  \$10,000 balloon payment at the end of the loan in the loan of\$ 100,000 repaid over 24 years, the calculation of the payment is modified as:
 
 $$
-\begin{array}{l} \text {A m o u n t l o a n e d} = \left[ \sum_ {t = 1} ^ {N} \frac {\text {L o a n p a y m e n t}}{(1 + i) ^ {t}} \right] \\ + \frac {\text {b a l l o o n p a y m e n t}}{(1 + i) ^ {N}} \\ \$ 100,000 = \left[ \sum_ {t = 1} ^ {2 4} \frac {\text {L o a n p a y m e n t}}{(1 + 0 . 0 5) ^ {t}} \right] \\ + \frac {\mathbb {S} 1 0 , 0 0 0}{(1 + i) ^ {2 4}} \\ \end{array}
+\begin{array}{l} \text{Am ou nt lo an ed} = \left[ \sum_{t = 1}^{N} \frac{\text{Lo an pa ym en t}}{(1 + i)^{t}} \right] \\ + \frac{\text{ba ll oo np ay me nt}}{(1 + i)^{N}} \\ \$ 100,000 = \left[ \sum_{t = 1}^{2 4} \frac{\text{Lo an pa ym en t}}{(1 + 0 . 0 5)^{t}} \right] \\ + \frac{\mathbb {S} 1 0 , 0 0 0}{(1 + i)^{2 4}} \\ \end{array}
 $$
 
 The loan payment that solves this equation is  $7,022.38 (PV =$ 100,000;  $N = 24$ ;  $i = 5\%$ ;  $FV =$ 10,000). The last payment (that is, at the
@@ -752,14 +752,14 @@ A common problem in finance is comparing alternative financing or investment opp
 One obvious way to represent rates stated in various time intervals on a common basis is to express them in the same unit of time—so we annualize them. The annualized rate is the product of the stated rate of interest per compound period and the number of compounding periods in a year. Let  $i$  be the rate of interest per period and  $n$  be the number of compounding periods in a year. The annualized rate, also referred to as the nominal interest rate or the annual percentage rate (APR) is:
 
 $$
-\mathrm {A P R} = i \times n
+\mathrm{AP R} = i \times n
 $$
 
 Consider the following example. Suppose the Lucky Break Loan Company has simple loan terms: Repay the amount borrowed, plus  $50\%$ , in six months. Suppose you borrow \$10,000 from Lucky. After six months, you must pay back the  \$10,000 plus5,000. The APR on financing with Lucky is the interest rate per period (50\% for six months) multiplied by the number of compound periods in a year (two six-month periods in a year). For the Lucky Break financing arrangement:
 
 
 $$
-\mathrm{APR} = 0.50 \times 2 = 1.00 \text{or} 100 \% \text{per year}
+\mathrm{APR} = 0.50 \times 2 = 1.00 \text{or} 100 \% \text{peryear}
 $$
 
 But what if you cannot pay Lucky back after six months? Lucky will let you off this time, but you must pay back the following at the end of the next six months:
@@ -785,19 +785,19 @@ Another way of converting stated interest rates to a common basis is the effecti
 Using our Lucky Break example, we see that we must pay  \$12,500 interest on the loan of\$ 10,000 for one year. Effectively, we are paying 125\% annual interest. Thus, 125\% is the effective annual rate of interest. In this example, we can easily work through the calculation of interest and interest on interest. But for situations where interest is compounded more frequently, we need a direct way to calculate the effective annual rate. We can calculate it by resorting once again to our basic valuation equation:
 
 $$
-F V = P V (1 + i) ^ {n}
+F V = P V (1 + i)^{n}
 $$
 
 Next, we consider that a return is the change in the value of an investment over a period and an annual return is the change in value over a year. Using our basic valuation equation, the relative change in value is the difference between the future value and the present value, divided by the present value:
 
 $$
-\mathrm {E A R} = \frac {F V - P V}{P V} = \frac {P V (1 + i) ^ {n}}{P V}
+\mathrm{EA R} = \frac{F V - P V}{P V} = \frac{P V (1 + i)^{n}}{P V}
 $$
 
 Canceling  $PV$  from both the numerator and the denominator,
 
 $$
-\operatorname {E A R} = (1 + i) ^ {n} - 1 \tag {15}
+\operatorname{EA R} = (1 + i)^{n} - 1 \tag {15}
 $$
 
 Let's look how the EAR is affected by the compounding. Suppose that the Safe Savings and Loan promises to pay  $6\%$  interest on accounts, compounded annually. Since interest is paid once, at the end of the year, the effective annual return, EAR, is  $6\%$ . If the  $6\%$  interest is paid on a semiannual basis— $3\%$  every six months—the effective annual return is larger than  $6\%$  since interest is earned on the  $3\%$  interest earned at the end of the first six months. In this case, to calculate the EAR, the interest rate per compounding period—six months—is 0.03
@@ -805,30 +805,30 @@ Let's look how the EAR is affected by the compounding. Suppose that the Safe Sav
 (that is, 0.06/2) and the number of compounding periods in an annual period is 2:
 
 $$
-\begin{array}{l} \operatorname {E A R} = (1 + 0. 0 3) ^ {2} - 1 = 1. 0 6 0 9 - 1 = 0. 0 6 0 9 \\ \mathrm{or}6.09\% \\ \end{array}
+\begin{array}{l} \operatorname{EA R} = (1 + 0. 0 3)^{2} - 1 = 1. 0 6 0 9 - 1 = 0. 0 6 0 9 \\ \mathrm{or}6.09\% \\ \end{array}
 $$
 
 Extending this example to the case of quarterly compounding with a nominal interest rate of  $6\%$ , we first calculate the interest rate per period,  $i$ , and the number of compounding periods in a year,  $n$ :
 
 $$
-\begin{array}{l} i = 0. 0 6 / 4 = 0. 0 1 5 \text {p e r q u a r t e r} \\ n = 4 \text {q u a r t e r s i n a y e a r} \\ \end{array}
+\begin{array}{l} i = 0. 0 6 / 4 = 0. 0 1 5 \text{pe rq ua rt er} \\ n = 4 \text{qu ar te rs in ay ea r} \\ \end{array}
 $$
 
 The EAR is:
 
 $$
-\begin{array}{l} \operatorname {E A R} = (1 + 0. 0 1 5) ^ {4} - 1 = 1. 0 6 1 4 - 1 = 0. 0 6 1 4 \\ \mathrm{or}6.14\% \\ \end{array}
+\begin{array}{l} \operatorname{EA R} = (1 + 0. 0 1 5)^{4} - 1 = 1. 0 6 1 4 - 1 = 0. 0 6 1 4 \\ \mathrm{or}6.14\% \\ \end{array}
 $$
 
 As we saw earlier, the extreme frequency of compounding is continuous compounding. Continuous compounding is when interest is compounded at the smallest possible increment of time. In continuous compounding, the rate per period becomes extremely small:
 
-$$ i = \frac {\mathrm {A P R}}{\infty}
+$$ i = \frac{\mathrm{AP R}}{\infty}
 $$
 
 And the number of compounding periods in a year,  $n$ , is infinite. The EAR is therefore:
 
 $$
-\operatorname {E A R} = e ^ {\mathrm {A P R}} - 1 \tag {16}
+\operatorname{EA R} = e^{\mathrm{AP R}} - 1 \tag {16}
 $$ where  $e$  is the natural logarithmic base.
 
 
@@ -851,13 +851,13 @@ To illustrate how to calculate effective annual rates, consider the rates offere
 Suppose an investment opportunity requires an investor to put up  \$1 million and offers cash inflows of\$ 500,000 after one year and \$600,000 after two years. The return on this investment, or yield, is the discount rate that equates the present values of the \$500,000 and \$600,000 cash inflows to equal the present value of the \$1 million cash outflow. This yield is also referred to as the internal rate of return (IRR) and is calculated as the rate that solves the following:
 
 $$
-\$ 1,000,000 = \frac{\$ 500,000}{(1 + \mathrm{IRR}) ^ {1}} +\frac{\$ 600,000}{(1 + \mathrm{IRR}) ^ {2}}
+\$ 1,000,000 = \frac{\$ 500,000}{(1 + \mathrm{IRR})^{1}} +\frac{\$ 600,000}{(1 + \mathrm{IRR})^{2}}
 $$
 
 Unfortunately, there is no direct mathematical solution (that is, closed-form solution) for the IRR, but rather we must use an iterative procedure. Fortunately, financial calculators and financial software ease our burden in this calculation. The IRR that solves this equation is  $6.3941\%$ :
 
 $$
-\$ 1,000,000 = \frac {\$ 500,000}{(1 . 0 6 3 9 4 1) ^ {1}} + \frac {\$ 6 0 0 , 0 0 0}{(1 . 0 6 3 9 4 1) ^ {2}}
+\$ 1,000,000 = \frac{\$ 500,000}{(1 . 0 6 3 9 4 1)^{1}} + \frac{\$ 6 0 0 , 0 0 0}{(1 . 0 6 3 9 4 1)^{2}}
 $$
 
 In other words, if you invest \$1 million today and receive \$500,000 in one year and \$600,000 in two years, the return on your investment is  $6.3941\%$ .
@@ -866,13 +866,13 @@ In other words, if you invest \$1 million today and receive \$500,000 in one yea
 Another way of looking at this same yield is to consider that an investment's IRR is the discount rate that makes the present value of all expected future cash flows—both the cash outflows for the investment and the subsequent inflows—equal to zero. We can represent the IRR as the rate that solves:
 
 $$
-\$ 0 = \sum_ {t = 1} ^ {N} \frac {C F _ {t}}{(1 + I R R) ^ {t}}
+\$ 0 = \sum_{t = 1}^{N} \frac{C F_{t}}{(1 + I R R)^{t}}
 $$
 
 Consider another example. Suppose an investment of \$1 million produces no cash flow in the first year but cash flows of $200,000, $300,000, and \$900,000 two, three, and four years from now, respectively. The IRR for this investment is the discount rate that solves:
 
 $$
-\begin{array}{l} 0 = \frac {\mathrm {s 1 , 0 0 0 , 0 0 0}}{\left(1 + \mathrm {I R R}\right) ^ {0}} + \frac {0}{\left(1 + \mathrm {I R R}\right) ^ {1}} + \frac {\mathrm {s 2 0 0 , 0 0 0}}{\left(1 + \mathrm {I R R}\right) ^ {2}} \\ + \frac {\mathbb {S} 3 0 0 , 0 0 0}{(1 + \mathrm {I R R}) ^ {3}} + \frac {\mathbb {S} 9 0 0 , 0 0 0}{(1 + \mathrm {I R R}) ^ {4}} \\ \end{array}
+\begin{array}{l} 0 = \frac{\mathrm{s1 ,0 00 ,0 00}}{\left(1 + \mathrm{IR R}\right)^{0}} + \frac{0}{\left(1 + \mathrm{IR R}\right)^{1}} + \frac{\mathrm{s2 00 ,0 00}}{\left(1 + \mathrm{IR R}\right)^{2}} \\ + \frac{\mathbb {S} 3 0 0 , 0 0 0}{(1 + \mathrm{IR R})^{3}} + \frac{\mathbb {S} 9 0 0 , 0 0 0}{(1 + \mathrm{IR R})^{4}} \\ \end{array}
 $$
 
 Using a calculator or a computer, we get the precise answer of  $10.172\%$  per year.
@@ -890,7 +890,7 @@ Consider a bond that has a current price of 90; that is, if the par value of the
 The six-month yield,  $\mathbf{r_d}$ , is the discount rate that solves the following:
 
 $$
-\$ 900 = \left[ \sum_ {t = 1} ^ {1 0} \frac {\$ 4 0}{(1 + r _ {d}) ^ {t}} \right] + \frac {\$ 1 , 0 0 0}{(1 + r _ {d}) ^ {1 0}}
+\$ 900 = \left[ \sum_{t = 1}^{1 0} \frac{\$ 4 0}{(1 + r_{d})^{t}} \right] + \frac{\$ 1 , 0 0 0}{(1 + r_{d})^{1 0}}
 $$
 
 Using a calculator or spreadsheet, the six-month yield is  $5.315\%$ . Bond yields are generally stated on the basis of an annualized yield, referred to as the yield to maturity (YTM) on a bond-equivalent basis. This YTM is analogous to the APR with semiannual compounding. Therefore, yield to maturity is  $10.63\%$ .

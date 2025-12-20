@@ -1127,7 +1127,7 @@ But in exact proportion to the power of this system is its delicacy I should har
 - Alternate phrases, all meaning the same: money today
 (PV) more valuable than in the future
 (FV) $$
-PV = \frac {FV}{1 + r}
+PV = \frac{FV}{1 + r}
 $$ connected via interest rate (discount rate) $\pmb{r}$
 Uncertainty & Risk Adjustment
 - Uncertain CFs less valuable than certain CFs, so risky rate r higher than "risk free" rf (for known CFs)
@@ -2010,7 +2010,7 @@ Example of need to think carefully about data & probability
 \end{document}
 ```
 
-This is a binomial process so the probability of 0 events is $\mathsf{P}[0 \text{ draws out of } 41 \mid \mathsf{p} \text{ each draw} = 0.029] = \binom{n}{k} p^k (1 - p)^{n - k} = \binom{41}{0} p^0 (1 - p)^{41}$. Here countries having no crisis are lucky; they are not fundamentally di erent. Observed di erences result purely from random fluctuations.
+This is a binomial process so the probability of 0 events is $\mathsf{P}[0 \text{ drawsoutof } 41 \mid \mathsf{p} \text{ eachdraw} = 0.029] = \binom{n}{k} p^k (1 - p)^{n - k} = \binom{41}{0} p^0 (1 - p)^{41}$. Here countries having no crisis are lucky; they are not fundamentally di erent. Observed di erences result purely from random fluctuations.
 
 2. I happen to believe countries are di erent. But the evidence to support this is more subtle than simply looking at the comparison across 117 countries that C&H present. They emphasize the small number of countries with no crises $(29\%)$ and the large number with $2+$ crises ("18 percent of the countries in the world appear to have been preternaturally crisis prone.") But the simple binomial model (all countries independent) predicts a small number of countries with no crises, and an even larger number with $2+$ crises: $32\%$ (instead of $18\%$ ).
 
@@ -2840,7 +2840,7 @@ Most gov't debt at this time perpetual annuities
 - Never pay back principal
 - Simple Valuation:
 $$
-\begin{array}{l} - \operatorname {PV} (\mathbf {S x} \text {annuity} @ \mathbf {y} \%) = \mathbf {x} / \mathbf {y} \\ - \mathrm {P V} (\S 5 @ 6 \%) = 5 / 0.06 = \$ 83.30 \\ \end{array}
+\begin{array}{l} - \operatorname{PV} (\mathbf {S x} \text{annuity} @ \mathbf {y} \%) = \mathbf {x} / \mathbf {y} \\ - \mathrm{PV} (\S 5 @ 6 \%) = 5 / 0.06 = \$ 83.30 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/a281924b6f3c774029c759dcf6346f89ea5ac683189897d8dbd097722772f0e4.jpg)
@@ -2882,7 +2882,7 @@ I know Consols well
 Gov't had right to redeem at £100. I was annoyed
 Rates in 2015 were about $2.5\%$
 $$
-\mathrm {P V} = 4 /. 025 = £ 160
+\mathrm{PV} = 4 /. 025 = £ 160
 $$
 - You can see why I was annoyed - redeemed at £100
 I. England had Consols (redeemable perpetuals) - every issue the same, freely tradeable, transparent market, low rates
@@ -5464,7 +5464,7 @@ Profit $=?X? - 102$
 Borrow @2%: PV Pricing (Forward Pricing)
 
 $$
-\begin{array}{l} \mathbf {P} _ {0} = \frac {\mathbf {P} _ {n}}{(1 + y) ^ {n}} \\ \mathbf {P} _ {0} = $ 100; \mathbf {y} = 2 \%; \mathbf {n} = 1 \\ \mathbf {P} _ {\mathrm {n}} = $ 102 \\ \end{array}
+\begin{array}{l} \mathbf {P}_{0} = \frac{\mathbf {P}_{n}}{(1 + y)^{n}} \\ \mathbf {P}_{0} = $ 100; \mathbf {y} = 2 \%; \mathbf {n} = 1 \\ \mathbf {P}_{\mathrm{n}} = $ 102 \\ \end{array}
 $$
 # Repo Is Borrowing Money (Collateralized Borrowing)
 
@@ -6210,7 +6210,7 @@ Here'sa problem: books up $25\%$, co ee $0\%$
 Create Yr 3 index: $175 = 100\frac{42}{24}$
 - Prices rose by $16.7\%$: $\frac{175}{150} = 1.167 = 1 + \% \mathrm{ch}$
 # Price Index:Weighted Prices
-- Weighted Prices: $\frac{\text{This year expenditure}}{\text{Year 1 expenditure}} = \frac{\mathsf{P}_3^{\text{B}}|Q_1^{\text{B}} + \mathsf{P}_3^{\text{C}}|Q_1^{\text{C}}}{\mathsf{P}_1^{\text{B}}|Q_1^{\text{B}} + \mathsf{P}_1^{\text{C}}|Q_1^{\text{C}}}$
+- Weighted Prices: $\frac{\text{Thisyearexpenditure}}{\text{Year1 expenditure}} = \frac{\mathsf{P}_3^{\text{B}}|Q_1^{\text{B}} + \mathsf{P}_3^{\text{C}}|Q_1^{\text{C}}}{\mathsf{P}_1^{\text{B}}|Q_1^{\text{B}} + \mathsf{P}_1^{\text{C}}|Q_1^{\text{C}}}$
 - The CPI - "fixed weight" or Laspeyres-type index
 Overstates inflation. In US, estimated at $1.1\%$ per yr
 - Much better: implicit price deflator - used for GDP
@@ -6448,16 +6448,16 @@ NOW, Ready for Money, Inflation, and Quantity Theory
 - Quantity Theory is oldest & best-understood
 Quantity Equation
 $$
-\mathbf {M} _ {\mathrm {i}} \mathbf {V} = \mathbf {P} _ {\mathrm {i}} \mathbf {Q}
+\mathbf {M}_{\mathrm{i}} \mathbf {V} = \mathbf {P}_{\mathrm{i}} \mathbf {Q}
 $$
 $$
-\begin{array}{r} \mathsf {M} = \text {q u a n t i t y o f}" \text {m o n e y}" \\ \mathsf {V} = \text {v e l o c i t y} \end{array}
+\begin{array}{r} \mathsf {M} = \text{qu an ti ty of}" \text{mo ne y}" \\ \mathsf {V} = \text{ve lo ci ty} \end{array}
 $$
 
 $\mathbf{P} =$ price level
 
 $$
-\mathbb {Q} (\text {o r} \Upsilon) = \text {q u a n t i t y o f o u t p u t}
+\mathbb {Q} (\text{or} \Upsilon) = \text{qu an ti ty of ou tp ut}
 $$
 - Goal: understand how & why of Quantity Theory
 # Quantity Equation - Transactions Version - Money In Motion
@@ -6466,13 +6466,13 @@ $$
 -Store of value
 - Quantity of money used in transactions
 $$
-\begin{array}{r l} \mathbf {M} & = \text {q u a n t i t y o f}" \text {m o n e y}" \\ \mathbf {V} & = \text {v e l o c i t y} \end{array}
+\begin{array}{r l} \mathbf {M} & = \text{qu an ti ty of}" \text{mo ne y}" \\ \mathbf {V} & = \text{ve lo ci ty} \end{array}
 $$
 $$
-\mathrm {M} _ {\mathrm {i}} \mathrm {V} = \mathrm {P} _ {\mathrm {i}} \mathrm {T}
+\mathrm{M}_{\mathrm{i}} \mathrm{V} = \mathrm{P}_{\mathrm{i}} \mathrm{T}
 $$
 $$
-\begin{array}{c} \mathbf {P} = \text {price l e v e l} \\ \mathbf {T} = \text {t r a n s a c t i o n s (d u r i n g y e a r)} \end{array}
+\begin{array}{c} \mathbf {P} = \text{pricel ev el} \\ \mathbf {T} = \text{tr an sa ct io ns (du ri ng ye ar)} \end{array}
 $$
 - Think about using currency in 1890
 - Each transaction used currency, more T more M
@@ -6486,7 +6486,7 @@ $$
 - Store of value
 - Quantity of money as an asset in HH balance sheet
 $$
-\mathbf {M} = \mathbf {k} _ {\mathrm {i}} \mathbf {P} _ {\mathrm {i}} \mathbf {Q}
+\mathbf {M} = \mathbf {k}_{\mathrm{i}} \mathbf {P}_{\mathrm{i}} \mathbf {Q}
 $$
 
 M = quantity of "money"
@@ -6514,10 +6514,10 @@ Actual Theory of money supply and demand
 $\mathbf{M}^{\mathrm{D}} =$ money demand
 $\mathsf{R}^{\mathrm{e}} =$ exp returns on assets
 $$
-\mathbf {M} ^ {\mathrm {D}} = \mathbf {P} _ {\mathrm {i}} \mathbf {k} _ {\mathrm {j}} \mathbf {Q}
+\mathbf {M}^{\mathrm{D}} = \mathbf {P}_{\mathrm{i}} \mathbf {k}_{\mathrm{j}} \mathbf {Q}
 $$
 $$
-\mathbf {M} ^ {\mathrm {D}} = \mathbf {P} _ {\mathrm {i}} \mathbf {f} (\mathbf {y}, \mathbf {R} ^ {\mathrm {e}}, \mathbf {\mu}, \mathbf {w}; \mathbf {u})
+\mathbf {M}^{\mathrm{D}} = \mathbf {P}_{\mathrm{i}} \mathbf {f} (\mathbf {y}, \mathbf {R}^{\mathrm{e}}, \mathbf {\mu}, \mathbf {w}; \mathbf {u})
 $$
 
 $\mathbf{y} =$ income w = wealth
@@ -6532,11 +6532,11 @@ $\mathsf{u} =$ all other things
 # Equilibrium: Demand = Supply - Supply Shift
 - Generally, supply set "exogenously" - by outside factors (amount of gold, or choice of central bank)
 $$
-\mathbf {M} ^ {\mathrm {D}} = \mathbf {P} _ {i} f (\mathbf {y}, \mathbf {R} ^ {\mathrm {e}},, w; u)
+\mathbf {M}^{\mathrm{D}} = \mathbf {P}_{i} f (\mathbf {y}, \mathbf {R}^{\mathrm{e}},, w; u)
 $$
 - Better to work with real money demand:
 $$
-\mathbf {m} ^ {\mathrm {D}} = \frac {\mathbf {M} ^ {\mathrm {D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R} ^ {\mathrm {e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
+\mathbf {m}^{\mathrm{D}} = \frac{\mathbf {M}^{\mathrm{D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R}^{\mathrm{e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
 $$
 - Keep $y, \mathbf{R}^{\mathrm{e}}$,… (demand curve) fixed
 - Shift supply out
@@ -6549,7 +6549,7 @@ Quantity of Money
 # Equilibrium: Demand = Supply - Demand Shift
 - What happens when demand shifts?
 $$
-\mathbf {m} ^ {\mathrm {D}} = \frac {\mathbf {M} ^ {\mathrm {D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R} ^ {\mathrm {e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
+\mathbf {m}^{\mathrm{D}} = \frac{\mathbf {M}^{\mathrm{D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R}^{\mathrm{e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
 $$
 
 Now, $y, R^{\mathbf{e}}$, or… shift, and $M^{\mathbf{D}}$
@@ -6579,7 +6579,7 @@ Now, safest asset might be insured deposit, or a US Treasury Bill, or a Money Ma
 - Many things happen - prices of risky assets, people try to move out of risky banks
 - For money demand, $u$ shifts ( $y$… stay the same) and real money demand $\mathbf{m}^{\mathbf{D}}$.
 $$
-\mathbf {m} ^ {\mathrm {D}} = \frac {\mathbf {M} ^ {\mathrm {D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R} ^ {\mathrm {e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
+\mathbf {m}^{\mathrm{D}} = \frac{\mathbf {M}^{\mathrm{D}}}{\mathbf {P}} = \mathbf {f} (\mathbf {y}, \mathbf {R}^{\mathrm{e}}, \mathbf {\Delta}, \mathbf {w}; \mathbf {u})
 $$
 - Shift Demand out
 - What happens to prices?
@@ -6772,7 +6772,7 @@ Money in 1800s, 1900s:
 - PayPal, Venmo, Alipay
 - Quantity Equation not so useful
 $$
-\mathbf {M} _ {\text {i}} \mathbf {V} = \mathbf {P} _ {\text {i}} \mathbf {Q}
+\mathbf {M}_{\text{i}} \mathbf {V} = \mathbf {P}_{\text{i}} \mathbf {Q}
 $$
 - What is M? Zero? (we don't need currency) Infinite? (everything is money)
 - What is V? Infinite? (no "money") Zero? (everything is money)
@@ -6803,14 +6803,14 @@ Real Primary Surplus: measured in quantity of goods & services
 - Valuation (just like bond, equity):
 Present Liabilities $=$ EPV(Future Revenue)
 $$
-\frac {\mathrm {M} + \mathrm {B}}{\mathrm {P}} = \mathrm {E P V} (\mathrm {P r i m S u r p})
+\frac{\mathrm{M} + \mathrm{B}}{\mathrm{P}} = \mathrm{EP V} (\mathrm{Pr im Su rp})
 $$
 # Ftpl: Discounting Future Revenue
 
 Present Liabilities = EPV(Future Revenue)
 
 $$
-\frac {\mathbf {M} + \mathbf {B}}{\mathbf {P}} = \mathbf {E P V} (\mathbf {P r i m S u r p})
+\frac{\mathbf {M} + \mathbf {B}}{\mathbf {P}} = \mathbf {E P V} (\mathbf {P r i m S u r p})
 $$
 
 Same as a share of IBM or Apple:
@@ -6821,7 +6821,7 @@ Same as a share of IBM or Apple:
 (PrimSurp) # Quantity Theory Vs Fiscal Theory
 QTM: Real Balance Size of Economy
 $$
-\frac {M}{P} = \frac {Q}{V} \text {o r} M V = P Q
+\frac{M}{P} = \frac{Q}{V} \text{or} M V = P Q
 $$
 - If economy grows
 (Q) & money doesn't, prices down
@@ -6832,7 +6832,7 @@ Real money demand up $\left(\frac{\mathbf{M}^{\mathbf{D}}}{\mathbf{P}}\right)$, 
 - Liquidity crises (as in 1907,1930s, 2008)
 FTPL: Present Liabilities = EPV(Future Revenue)
 $$
-\frac {\mathrm {M} + \mathrm {B}}{\mathrm {P}} = \text {E P V (P r i m S u r p)}
+\frac{\mathrm{M} + \mathrm{B}}{\mathrm{P}} = \text{EP V (Pr im Su rp)}
 $$
 
 Balance today vs tomorrow matters
@@ -6877,7 +6877,7 @@ Likely explanation: Gov't borrowed (created money) directly into our bank accoun
 (taxes) up in future
 FTPL: Balances Borrowing Today vs Payback Tomorrow FTPL is about balance between current liabilities & future cash flow
 $$
-\frac {\mathbf {M} + \mathbf {B}}{\mathbf {P}} = \mathbf {E P V} (\mathbf {P r i m S u r p})
+\frac{\mathbf {M} + \mathbf {B}}{\mathbf {P}} = \mathbf {E P V} (\mathbf {P r i m S u r p})
 $$
 
 With FTPL we see two possibilities (two scenarios for monetary & fiscal authorities to coordinate):
@@ -6900,7 +6900,7 @@ FTPL Works With No "Money"
 FTPL says
 
 $$
-\frac {\mathrm {M} + \mathrm {B}}{\mathrm {P}} = \text {E P V (P r i m S u r p)}
+\frac{\mathrm{M} + \mathrm{B}}{\mathrm{P}} = \text{EP V (Pr im Su rp)}
 $$
 - What happens in $\mathbf{M} = 0$? Nothing. Gov't bonds B still there
 Bonds set value of a "dollar" (price level) because bonds are paid back in "dollars"

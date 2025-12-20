@@ -97,7 +97,7 @@ $$
 The sum of the four elements in the matrix is the variance of the portfolio. The isolated risk (in standard deviation units) reported in Table 4 is the square root of the diagonal terms. So the isolated risk due to spreads is represented as
 
 $$
-R i s k _ {S p r e a d s} ^ {I s o l a t e d} = \sqrt {S \times S}
+R i s k_{S p r e a d s}^{I s o l a t e d} = \sqrt{S \times S}
 $$
 
 It would be a function of the exposure to all spread factors, the volatilities of all these factors, and the correlations among them.
@@ -105,7 +105,7 @@ It would be a function of the exposure to all spread factors, the volatilities o
 The correlated risk reported in Table 5 is
 
 $$
-R i s k _ {S p r e a d s} ^ {C o r r e l a t e d} = [ Y \times S + S \times S ] / \sqrt {V A R (P)}
+R i s k_{S p r e a d s}^{C o r r e l a t e d} = [ Y \times S + S \times S ] / \sqrt{V A R (P)}
 $$ that is, we sum all elements in the row of interest (row 1 for  $Y$ , row 2 for  $S$ ) from the matrix above, and normalize it by the standard deviation of the portfolio. This statistic (1) takes into account correlations and (2) ensures that the correlated risks of all factors add up to the total risk of the portfolio ( $Risk_{Curve}^{Correlated} + Risk_{Spreads}^{Correlated} = \sqrt{VAR(P)} = STD(P)$ ).
 
 
@@ -128,7 +128,7 @@ Table 6 Summary Statistics Report
 
 
 $$
-T E V _ {P T F} = \sqrt {1 6 2 . 9 ^ {2} + 1 1 . 1 ^ {2}} = 1 6 3. 3
+T E V_{P T F} = \sqrt{1 6 2 . 9^{2} + 1 1 . 1^{2}} = 1 6 3. 3
 $$
 
 There are two interesting observations regarding this number: first, the total volatility is smaller than the sum of the volatilities of the two components. This is the diversification benefit that comes from combining independent sources of risk. Second, the total volatility is very close to the systematic one. This may suggest that the idiosyncratic risk is irrelevant. That is an erroneous and dangerous conclusion. In particular, when managing against a benchmark, the focus should be on the net exposures and risk, not on their absolute
@@ -268,7 +268,7 @@ Although important, the information in Table 15 is not enough to fully assess th
 To help us understand the net effect of all these points, we need to know the issuers that contribute the most to idiosyncratic risk. When aggregating risk from the issue (as shown in Table 15) to the issuer level, the correlations referred to above should be fully taken into account. Table 16 shows the results of this exercise for the 10 issuers with the highest idiosyncratic TEV. Our riskiest exposure comes from Johnson & Johnson (JNJ), with 3.7 bps/month of issuer risk. We can also observe that idiosyncratic TEV is not monotonic in the NMW: We have JNJ and President & Fellows of Harvard "HARVRD" with the same NMW, but the former is significantly more risky (3.7 versus 2.0 bps/month). It is possible to have important issuer risk even for names we do not have in our portfolio, if they have significant market weight in the benchmark. Finally, note that because the idiosyncratic risk across issuers is independent, we can easily calculate the cumulative risk of several issuers. For example, the total idiosyncratic risk of the first two issuers is given by
 
 $$
-T E V _ {i d i o} ^ {J N J + D} = \sqrt {3 . 7 ^ {2} + 2 . 8 ^ {2}} = 4. 6
+T E V_{i d i o}^{J N J + D} = \sqrt{3 . 7^{2} + 2 . 8^{2}} = 4. 6
 $$
 
 Another important interpretation from Table 16 is that these are our biggest name exposures in our portfolio. In this case, we are overweight in all of them. Therefore, we should

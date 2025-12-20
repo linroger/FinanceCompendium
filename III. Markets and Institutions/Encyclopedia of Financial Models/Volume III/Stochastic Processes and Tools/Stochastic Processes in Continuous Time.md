@@ -36,7 +36,7 @@ Before we continue with the discussion and the construction of processes, we wil
 - We say that a process  $X$  has finite (infinite) variation if its sample paths are of finite (infinite) variation, that is, the variation
 
 $$
-\begin{array}{l} V (X (\omega)) _ {t} = \lim  _ {n \rightarrow \infty} \sum_ {k = 1} ^ {n} | X _ {t k / n} (\omega) - X _ {t (k - 1) / n} (\omega) |, \\ \forall t > 0 \\ \end{array}
+\begin{array}{l} V (X (\omega))_{t} = \lim_{n \rightarrow \infty} \sum_{k = 1}^{n} | X_{t k / n} (\omega) - X_{t (k - 1) / n} (\omega) |, \\ \forall t > 0 \\ \end{array}
 $$ is finite (infinite) for almost every  $\omega \in \Omega$ .
 
 
@@ -44,7 +44,7 @@ $$ is finite (infinite) for almost every  $\omega \in \Omega$ .
 
 
 $$
-\phi_ {X _ {t}} (u) = E \left[ e ^ {i u X _ {t}} \right]
+\phi_{X_{t}} (u) = E \left[ e^{i u X_{t}} \right]
 $$
 
 # POISSON PROCESS
@@ -56,7 +56,7 @@ Consider a process  $N = (N_{t})_{t\geq 0}$  derived by a Poisson distribution w
 3. For any real numbers  $t \geq 0$  and  $h \geq 0$ , the variable  $(N_{t + h} - N_t)$  is a Poisson distributed random variable with parameter  $\lambda h$ , that is,
 
 $$
-\mathbb {P} \left(N _ {t + h} - N _ {t} = n\right) = e ^ {- \lambda h} \frac {\left(\lambda h\right) ^ {n}}{n !}, \quad n = 0, 1, 2, \dots
+\mathbb {P} \left(N_{t + h} - N_{t} = n\right) = e^{- \lambda h} \frac{\left(\lambda h\right)^{n}}{n !}, \quad n = 0, 1, 2, \dots
 $$
 
 The process  $N$  is referred to as the Poisson process with intensity  $\lambda$ .
@@ -64,7 +64,7 @@ The process  $N$  is referred to as the Poisson process with intensity  $\lambda
 If  $(\tau_{j})_{j\in \mathbb{N}}$  are independent exponential random variables with parameter  $\lambda$  and the random variable  $N_{t}$  is given by
 
 $$
-N _ {t} = \inf  \left\{n \geq 1: \sum_ {j = 1} ^ {n} \tau_ {j} > t \right\}
+N_{t} = \inf  \left\{n \geq 1: \sum_{j = 1}^{n} \tau_{j} > t \right\}
 $$ then it can be proven that the process  $(N_{t})_{t\geq 0}$  is the Poisson process with intensity  $\lambda$
 
 
@@ -75,7 +75,7 @@ The Poisson process is a fundamental example of a stochastic process with discon
 The process  $X = (X_{t})_{t\geq 0}$  is referred to as a compounded Poisson process if  $X$  is defined by
 
 $$
-X _ {t} = \sum_ {k = 1} ^ {N _ {t}} Y _ {k}
+X_{t} = \sum_{k = 1}^{N_{t}} Y_{k}
 $$ where
 
 
@@ -86,7 +86,7 @@ $$ where
 The characteristic function of  $X_{t}$  is equal to
 
 $$
-\phi_ {\mathrm {X} _ {t}} (u) = \exp \left(\lambda t \int_ {- \infty} ^ {\infty} \left(e ^ {i u x} - 1\right) f (x) d x\right)
+\phi_{\mathrm{X}_{t}} (u) = \exp \left(\lambda t \int_{- \infty}^{\infty} \left(e^{i u x} - 1\right) f (x) d x\right)
 $$
 
 Moreover, if  $f$  is given by the probability density function of the normal distribution, then  $X$  is referred to as a jump diffusion process.
@@ -96,14 +96,14 @@ Moreover, if  $f$  is given by the probability density function of the normal di
 Consider a process  $X^{x} = (X_{t}^{x})_{t\geq 0}$  for a given real number  $x$  such that
 
 $$
-X _ {t} ^ {x} = x N _ {t} ^ {\lambda (x)}
+X_{t}^{x} = x N_{t}^{\lambda (x)}
 $$ where  $(N_{t}^{\lambda (x)})_{t\geq 0}$  is the Poisson process with intensity  $\lambda (x)$ . The number  $x$  represents the jump size and the intensity  $\lambda (x)$  is the expected number of jumps with size  $x$  in the unit time.
 
 
 Let  $S = \{x_{j} \in \mathbb{R} : x_{j} \neq 0, j = 1, 2, \dots\}$  be a discrete subset of jump sizes,  $\lambda(x_{j}) > 0$  for all  $x_{j} \in S$ , and  $Y = (Y_{t})_{t \geq 0}$  be a process defined by
 
 $$
-Y _ {t} = \gamma t + \sum_ {j = 1} ^ {\infty} X _ {t} ^ {x _ {j}}
+Y_{t} = \gamma t + \sum_{j = 1}^{\infty} X_{t}^{x_{j}}
 $$
 
 If  $S$  consists of positive real numbers and  $\gamma > 0$ , then the process  $Y$  is non-decreasing. Conversely, if  $S$  consists of negative real numbers and  $\gamma < 0$ ,  $Y$  is non-increasing.
@@ -111,12 +111,12 @@ If  $S$  consists of positive real numbers and  $\gamma > 0$ , then the process 
 Since the characteristic function of  $X_{t}^{x}$  is equal to
 
 $$
-\phi_ {X _ {i} ^ {s}} (u) = \exp (\lambda (x) t \left(e ^ {- i u x} - 1\right))
+\phi_{X_{i}^{s}} (u) = \exp (\lambda (x) t \left(e^{- i u x} - 1\right))
 $$ the characteristic function of  $Y_{t}$  is obtained by
 
 
 $$
-\phi_ {Y _ {t}} = \exp \left(i \gamma u t + t \sum_ {j = 1} ^ {\infty} \lambda (x _ {j}) \left(e ^ {i u x _ {j}} - 1\right)\right)
+\phi_{Y_{t}} = \exp \left(i \gamma u t + t \sum_{j = 1}^{\infty} \lambda (x_{j}) \left(e^{i u x_{j}} - 1\right)\right)
 $$
 
 For the process  $Y$ , the function  $\nu$  defined by  $\nu(A) = \sum_{x_j \in A} \lambda(x_j)$  represents the expected number of jumps with size  $x \in A$  in the unit time interval, where  $A$  is a subset of  $S$ . For example, the expected number of jumps whose sizes are in  $\{x_1, x_2, \dots, x_n\}$  is equal to  $\nu(\{x_1, x_2, \dots, x_n\}) = \sum_{j=1}^{n} \lambda(x_j)$ .
@@ -125,24 +125,24 @@ Now, we extend the set of jump size  $S$  to the real number set  $\mathbb{R}$ .
 
 
 $$
-\phi_ {Y _ {t}} = \exp \left(i \gamma u t + t \int_ {- \infty} ^ {\infty} (e ^ {i u x} - 1) \nu (d x)\right) \qquad (1)
+\phi_{Y_{t}} = \exp \left(i \gamma u t + t \int_{- \infty}^{\infty} (e^{i u x} - 1) \nu (d x)\right) \qquad (1)
 $$ where  $\gamma \in \mathbb{R}$ . Jump sizes of process  $Y$  can be defined continuously. In this case, the measure  $\nu$  is referred to as a Lévy measure, that is, a Borel measure on  $\mathbb{R}$  satisfying  $\nu(0) = 0$  and
 
 
 $$
-\int_ {- \infty} ^ {\infty} \min  \{1, x ^ {2} \} v (d x) <   \infty
+\int_{- \infty}^{\infty} \min  \{1, x^{2} \} v (d x) <   \infty
 $$
 
 The class of jump processes satisfying (1) cannot contain infinite variation processes. To include infinite variation processes in the class of jump processes we will be using, we need a more general definition. Consider a process  $Z = (Z_{t})_{t\geq 0}$  such that the characteristic function of  $Z_{t}$  is given by
 
 $$
-\phi_ {Z _ {t}} = \exp \left(i \gamma u t + t \int_ {- \infty} ^ {\infty} \left(e ^ {i u x} - 1 - i u x 1 _ {| x | \leq 1}\right) v (d x)\right) \tag {2}
+\phi_{Z_{t}} = \exp \left(i \gamma u t + t \int_{- \infty}^{\infty} \left(e^{i u x} - 1 - i u x 1_{| x | \leq 1}\right) v (d x)\right) \tag {2}
 $$
 
 The process  $Z$  is referred to as the pure jump process. If
 
 $$
-\int_ {- 1} ^ {1} | x | \nu (d x) = \infty
+\int_{- 1}^{1} | x | \nu (d x) = \infty
 $$ then the characteristic function (1) is not defined, but the function (2) is well defined. The details can be found in Sato (1999) and Cont and Tankov (2004). The path behavior of the pure jump process is determined by the Lévy measure  $\nu$  and real number  $\gamma$ .
 
 
@@ -161,7 +161,7 @@ $Z_{0} = 0$
 -  $Z_{s + t} - Z_s \stackrel{\mathrm{d}}{=} Z_t$  for  $s \geq 0$  and  $t > 0$ . Moreover, we have
 
 $$
-\log \phi_ {z _ {t}} (u) = t \log \phi_ {z _ {1}} (u) \tag {3}
+\log \phi_{z_{t}} (u) = t \log \phi_{z_{1}} (u) \tag {3}
 $$ where  $\phi_{z_t}(u)$  is the characteristic function of  $Z_{t}$  for  $t > 0$
 
 
@@ -172,7 +172,7 @@ If  $t = 1$ , then we obtain the purely non-Gaussian infinitely divisible random
 Consider the gamma distribution with parameter  $(c,\lambda)$ . Since the gamma distribution is a purely non-Gaussian infinitely divisible distribution, we can define a pure jump process  $G = (G_{t})_{t\geq 0}$  such that  $G_{1}\sim \mathrm{Gamma}(c,\lambda)$ . By equation (3), the characteristic function  $\phi_{G_t}$  of  $G_{t}$  is given by
 
 $$
-\phi_ {G _ {t}} = \left(\frac {\lambda}{\lambda - i u}\right) ^ {c t} \tag {4}
+\phi_{G_{t}} = \left(\frac{\lambda}{\lambda - i u}\right)^{c t} \tag {4}
 $$
 
 In this case, the process  $G$  is referred to as the gamma process with parameter  $(\lambda, c)$ . The sample path of the gamma process is non-decreasing, since the gamma distribution is supported only on the positive real line. When we take  $c = 1$  of the gamma process, the process is referred to as an exponential process.
@@ -182,7 +182,7 @@ In this case, the process  $G$  is referred to as the gamma process with paramet
 Consider the inverse Gaussian distribution with parameter  $(c,\lambda)$ . Since the inverse Gaussian distribution is also a purely non-Gaussian infinitely divisible distribution, we can define a pure jump process  $X = (X_{t})_{t\geq 0}$  such that  $X_{1}\sim IG(c,\lambda)$ . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
 $$
-\phi_ {X t} = \exp \left(- c t \left(\sqrt {\lambda^ {2} - 2 i u} - \lambda\right)\right) \tag {5}
+\phi_{X t} = \exp \left(- c t \left(\sqrt{\lambda^{2} - 2 i u} - \lambda\right)\right) \tag {5}
 $$
 
 In this case, the process  $X$  is referred to as the inverse Gaussian (IG) process with parameter  $(c, \lambda)$ . The sample path of the gamma process is nondecreasing, since the inverse Gaussian distribution is supported only on the positive real line.
@@ -192,7 +192,7 @@ In this case, the process  $X$  is referred to as the inverse Gaussian (IG) proc
 The variance gamma process is an infinitely divisible distribution. Thus we can define pure jump processes  $X = (X_{t})_{t\geq 0}$  such that  $X_{1}\sim VG(C, \lambda_{+},\lambda_{-})$ . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
 $$
-\phi_ {X _ {t}} = \left(\frac {\lambda_ {+} \lambda_ {-}}{(\lambda_ {+} - i u) (\lambda_ {-} + i u)}\right) ^ {C t} \tag {6}
+\phi_{X_{t}} = \left(\frac{\lambda_{+} \lambda_{-}}{(\lambda_{+} - i u) (\lambda_{-} + i u)}\right)^{C t} \tag {6}
 $$
 
 In this case, the process  $X$  is referred to as the variance gamma (VG) process with parameter  $(C,\lambda_{+},\lambda_{-})$ .
@@ -202,22 +202,22 @@ In this case, the process  $X$  is referred to as the variance gamma (VG) proces
 The pure jump process  $X = (X_{t})_{t\geq 0}$  is referred to as the  $\alpha$  -stable process with parameters  $(\alpha ,\sigma ,\beta ,\mu)$  if  $X_{1}$  is an  $\alpha$  -stable random variable, that is,  $X_{1}\sim S_{\alpha}(\sigma ,\beta ,\mu)$  . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
 $$
-\phi_ {X _ {i}} (u) = \left\{ \begin{array}{l} \big (\exp (i \mu u t - t | \sigma u | ^ {\alpha} \\ \qquad \times \Big (1 - i \beta (\text {s i g n} u) \tan \frac {\pi \alpha}{2} \Big) \big),   \alpha \neq 1 \\ \big (\exp (i \mu u t - t \sigma | u | \\ \qquad \times \Big (1 + i \beta \frac {2}{\pi} (\text {s i g n} u) \ln | u | \Big) \big),   \alpha = 1 \end{array} \right.
+\phi_{X_{i}} (u) = \left\{ \begin{array}{l} \big (\exp (i \mu u t - t | \sigma u |^{\alpha} \\ \qquad \times \Big (1 - i \beta (\text{si gn} u) \tan \frac{\pi \alpha}{2} \Big) \big),   \alpha \neq 1 \\ \big (\exp (i \mu u t - t \sigma | u | \\ \qquad \times \Big (1 + i \beta \frac{2}{\pi} (\text{si gn} u) \ln | u | \Big) \big),   \alpha = 1 \end{array} \right.
 $$
 
 Recall the Lévy measure of the  $\alpha$ -stable process can be written as
 
-$$ v (d x) = \left(\frac {C _ {+}}{x ^ {1 + \alpha}} 1 _ {x > 0} + \frac {C _ {-}}{| x | ^ {1 + \alpha}} 1 _ {x <   0}\right) d x
+$$ v (d x) = \left(\frac{C_{+}}{x^{1 + \alpha}} 1_{x > 0} + \frac{C_{-}}{| x |^{1 + \alpha}} 1_{x <   0}\right) d x
 $$ where  $C_+$  and  $C_-$  are positive constants. Then we can prove that
 
 
 $$
-\nu (\mathbb {R}) = \int_ {- \infty} ^ {\infty} \nu (d x) = \infty
+\nu (\mathbb {R}) = \int_{- \infty}^{\infty} \nu (d x) = \infty
 $$ and hence the  $\alpha$ -stable process is an infinite activity process. On the other hand, since we have
 
 
 $$
-\int_ {- 1} ^ {1} | x | v (d x) = \left\{ \begin{array}{c c} \frac {C _ {+} + C _ {-}}{1 - \alpha}, & \alpha <   1 \\ \infty , & \alpha \geq 1 \end{array} \right.
+\int_{- 1}^{1} | x | v (d x) = \left\{ \begin{array}{c c} \frac{C_{+} + C_{-}}{1 - \alpha}, & \alpha <   1 \\ \infty , & \alpha \geq 1 \end{array} \right.
 $$ we conclude that the  $\alpha$ -stable process has finite variation if  $\alpha < 1$  and the infinite variation if  $\alpha \geq 1$ .
 
 
@@ -241,7 +241,7 @@ $\lambda_{+}, \lambda_{-}, m)$ . The process  $X$  is referred to as the standar
 The characteristic function  $\phi_{X_t}$  of  $X_{t}$  is obtained by equation (3). For example, if  $X$  is the CTS process with parameters  $(\alpha, C, \lambda_{+}, \lambda_{-}, m)$ , then
 
 $$
-\begin{array}{l} \phi_ {X _ {t}} (u) = \exp (t \log (\phi_ {C T S} (u; \alpha , C, \lambda_ {+}, \lambda_ {-}, m))) \\ = \exp (i u m t - i u t C \Gamma (1 - \alpha) \left(\lambda_ {+} ^ {\alpha - 1} - \lambda_ {-} ^ {\alpha - 1}\right) \\ + t C \Gamma (- \alpha) \left(\left(\lambda_ {+} - i u\right) ^ {\alpha} - \lambda_ {+} ^ {\alpha} \right. \\ + \left(\lambda_ {-} + i u\right) ^ {\alpha} - \left. \lambda_ {-} ^ {\alpha}\right)) \\ \end{array}
+\begin{array}{l} \phi_{X_{t}} (u) = \exp (t \log (\phi_{C T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m))) \\ = \exp (i u m t - i u t C \Gamma (1 - \alpha) \left(\lambda_{+}^{\alpha - 1} - \lambda_{-}^{\alpha - 1}\right) \\ + t C \Gamma (- \alpha) \left(\left(\lambda_{+} - i u\right)^{\alpha} - \lambda_{+}^{\alpha} \right. \\ + \left(\lambda_{-} + i u\right)^{\alpha} - \left. \lambda_{-}^{\alpha}\right)) \\ \end{array}
 $$
 
 Characteristic exponents of tempered stable processes are presented in Table 1.
@@ -272,7 +272,7 @@ From the above definition of the process, it may not be clear how one can envisi
 Let random variables  $I_1, I_2, I_3, \dots$  be IID with
 
 $$
-I _ {j} = \left\{ \begin{array}{l l} 1 & \text {w i t h p r o b a b i l i t y} p = 0. 5 \\ - 1 & \text {w i t h p r o b a b i l i t y} 1 - p = 0. 5 \end{array} \right.,
+I_{j} = \left\{ \begin{array}{l l} 1 & \text{wi th pr ob ab il it y} p = 0. 5 \\ - 1 & \text{wi th pr ob ab il it y} 1 - p = 0. 5 \end{array} \right.,
 $$
 
 $$ j = 1, 2, \dots
@@ -281,7 +281,7 @@ $$
 Define  $X_{t}^{(k)} = \frac{1}{\sqrt{k}}\sum_{j = 1}^{n}I_{j}$  where  $t = n / k$  and  $n = 0,1,\dots ,k$ . If the value  $t$  is on the interval  $\left(\frac{n}{k},\frac{n + 1}{k}\right)$ , then we take a value obtained by a linear interpolation as
 
 $$
-X _ {t} ^ {(k)} = (k t - n) X _ {n / k} ^ {(k)} + (k t - n - 1) X _ {(n + 1) / k} ^ {(k)}
+X_{t}^{(k)} = (k t - n) X_{n / k}^{(k)} + (k t - n - 1) X_{(n + 1) / k}^{(k)}
 $$
 
 By doing so, we get a stochastic process with continuous paths.
@@ -289,17 +289,17 @@ By doing so, we get a stochastic process with continuous paths.
 Let's start with  $k = 1$ . Then we have
 
 $$
-X _ {0} ^ {(1)} = 0,
+X_{0}^{(1)} = 0,
 $$
 
 $$
-X _ {1} ^ {(1)} = \left\{ \begin{array}{l l} 1 & \text {w i t h p r o b a b i l i t y} p = 0. 5 \\ - 1 & \text {w i t h p r o b a b i l i t y} 1 - p = 0. 5 \end{array} \right.
+X_{1}^{(1)} = \left\{ \begin{array}{l l} 1 & \text{wi th pr ob ab il it y} p = 0. 5 \\ - 1 & \text{wi th pr ob ab il it y} 1 - p = 0. 5 \end{array} \right.
 $$
 
 At any time  $t$  the random variable  $X_{1}^{(1)}$  can take only two possible values, namely  $-t$  and  $t$ . At any time, the process has zero mean and the variance at time  $t = 1$  equals
 
 $$
-V \left(X _ {1} ^ {(1)}\right) = 1 ^ {2} \cdot 0. 5 + (- 1) ^ {2} \cdot 0. 5 = 1
+V \left(X_{1}^{(1)}\right) = 1^{2} \cdot 0. 5 + (- 1)^{2} \cdot 0. 5 = 1
 $$
 
 That is not so bad for the first step, but obviously the distribution of  $X_{1}^{(1)}$  is far from being normal.
@@ -307,15 +307,15 @@ That is not so bad for the first step, but obviously the distribution of  $X_{1}
 What we do in the next step,  $k = 2$ , is allow for two different values until time  $t = \frac{1}{2}$  and three different values for  $\frac{1}{2} \leq t \leq 1$ . We do so by defining:
 
 $$
-X _ {0} ^ {(2)} = 0,
+X_{0}^{(2)} = 0,
 $$
 
 $$
-X _ {0. 5} ^ {(2)} = \left\{ \begin{array}{l l} \frac {1}{\sqrt {2}} & \text {w i t h p r o b a b i l i t y} p = 0. 5 \\ - \frac {1}{\sqrt {2}} & \text {w i t h p r o b a b i l i t y} 1 - p = 0. 5 \end{array} \right.
+X_{0. 5}^{(2)} = \left\{ \begin{array}{l l} \frac{1}{\sqrt{2}} & \text{wi th pr ob ab il it y} p = 0. 5 \\ - \frac{1}{\sqrt{2}} & \text{wi th pr ob ab il it y} 1 - p = 0. 5 \end{array} \right.
 $$
 
 $$
-X _ {1} ^ {(2)} = \left\{ \begin{array}{l l} \sqrt {2} & \text {w i t h p r o b a b i l i t y} p ^ {2} = 0. 2 5 \\ 0 & \text {w i t h p r o b a b i l i t y} p (1 - p) = 0. 5 \\ - \sqrt {2} & \text {w i t h p r o b a b i l i t y} (1 - p) ^ {2} = 0. 2 5 \end{array} \right.
+X_{1}^{(2)} = \left\{ \begin{array}{l l} \sqrt{2} & \text{wi th pr ob ab il it y} p^{2} = 0. 2 5 \\ 0 & \text{wi th pr ob ab il it y} p (1 - p) = 0. 5 \\ - \sqrt{2} & \text{wi th pr ob ab il it y} (1 - p)^{2} = 0. 2 5 \end{array} \right.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/c1fade8c04774be16ce62fe0dea19bc325bb10b4b63bc9311067d2046c0f6049.jpg)
@@ -324,27 +324,27 @@ Figure 1 Possible Paths of a Standard Brownian Motion (Every Path Consists of 10
 The process  $X_{t}^{(2)}$  now has four possible paths. The mean of  $X_{t}^{(2)}$  is zero and the variance of  $X_{t}^{(2)}$  equals
 
 $$
-V \left(X _ {0. 5} ^ {(2)}\right) = \left(\frac {1}{\sqrt {2}}\right) ^ {2} \cdot 0. 5 + \left(- \frac {1}{\sqrt {2}}\right) ^ {2} \cdot 0. 5 = 0. 5
+V \left(X_{0. 5}^{(2)}\right) = \left(\frac{1}{\sqrt{2}}\right)^{2} \cdot 0. 5 + \left(- \frac{1}{\sqrt{2}}\right)^{2} \cdot 0. 5 = 0. 5
 $$
 
 $$
-V \left(X _ {1} ^ {(2)}\right) = \sqrt {2 ^ {2}} \cdot 0. 2 5 + (- \sqrt {2}) ^ {2} \cdot 0. 2 5 = 1
+V \left(X_{1}^{(2)}\right) = \sqrt{2^{2}} \cdot 0. 2 5 + (- \sqrt{2})^{2} \cdot 0. 2 5 = 1
 $$ but still the distribution of  $X_{t}^{(2)}$  is far from being normal.
 
 
 By iterating the stated procedure, the probability of  $X_{t}^{(k)}$  is given by
 
 $$
-\mathbf {P} \left(X _ {t} ^ {(k)} = \frac {n - 2 m}{\sqrt {k}}\right) = \left( \begin{array}{c} n \\ m \end{array} \right) \left(\frac {1}{2}\right) ^ {n}
+\mathbf {P} \left(X_{t}^{(k)} = \frac{n - 2 m}{\sqrt{k}}\right) = \left( \begin{array}{c} n \\ m \end{array} \right) \left(\frac{1}{2}\right)^{n}
 $$ if  $m\in \{0,1,2,\dots ,n\}$ $t = n / k$ $n\in \{0,1,2,\dots ,k\}$  The mean and variance can be obtained as follows:
 
 
 $$
-E \left[ X _ {t} ^ {(k)} \right] = \frac {1}{\sqrt {k}} \sum_ {j = 1} ^ {n} E [ I _ {j} ] = 0
+E \left[ X_{t}^{(k)} \right] = \frac{1}{\sqrt{k}} \sum_{j = 1}^{n} E [ I_{j} ] = 0
 $$
 
 $$
-V \left(X _ {t} ^ {(k)}\right) = \frac {1}{k} \sum_ {j = 1} ^ {n} E \left[ I _ {j} ^ {2} \right] = \frac {n}{k}
+V \left(X_{t}^{(k)}\right) = \frac{1}{k} \sum_{j = 1}^{n} E \left[ I_{j}^{2} \right] = \frac{n}{k}
 $$ where  $t = n / k, n = 1,2,\dots ,k$ . Since  $X_{n / k}^{(k)}$  is defined by the sum of IID random variables, it has
 
 
@@ -360,7 +360,7 @@ In the context of financial applications, there are two main variants of the sta
 Given a Brownian motion  $(W_{t})_{t\geq 0}$  and two real constants  $\mu$  and  $\sigma$ , the arithmetic Brownian motion  $(X_{t})_{t\geq 0}$  is obtained as:
 
 $$
-X _ {t} = \mu t + \sigma W _ {t}
+X_{t} = \mu t + \sigma W_{t}
 $$
 
 The process  $(X_{t})_{t\geq 0}$  consists of the sum of a purely deterministic linear trend function  $\mu t$  and a rescaled Brownian motion  $\sigma W_{t}$ . The latter has the property that at time  $t$ ,  $\sigma W_{t}$  is normally distributed with mean 0 and variance  $\sigma^2 t$ . The paths will therefore randomly jitter around the deterministic trend with a variance proportional to the point in time  $t$  under consideration. The arithmetic Brownian motion is a simple but popular model for financial asset returns.
@@ -370,13 +370,13 @@ The process  $(X_{t})_{t\geq 0}$  consists of the sum of a purely deterministic 
 Given a Brownian motion  $(W_{t})_{t\geq 0}$ , two real constants  $\mu$  and  $\sigma$ , and a starting value  $S_0 > 0$ , the geometric Brownian motion  $(S_{t})_{t\geq 0}$  is obtained as:
 
 $$
-S _ {t} = S _ {0} e ^ {\mu t + \sigma W _ {t}}
+S_{t} = S_{0} e^{\mu t + \sigma W_{t}}
 $$
 
 The process  $(S_{t})_{t\geq 0}$  is just the exponential of an arithmetic Brownian motion multiplied by a factor. Therefore  $\log (S_t / S_0)$  is normally distributed and
 
 $$
-E [ S _ {t} / S _ {0} ] = e ^ {\mu t + \frac {1}{2} \sigma^ {2} t}
+E [ S_{t} / S_{0} ] = e^{\mu t + \frac{1}{2} \sigma^{2} t}
 $$
 
 # TIME-CHANGED BROWNIAN MOTION
@@ -390,34 +390,34 @@ $0 < \alpha < 1$ , the support of the  $\alpha$ -stable distribution  $S_{\alpha
 If we take an arithmetic Brownian motion and change the physical time to a subordinator, then we obtain the time-changed Brownian motion. That is, take an arithmetic Brownian motion with drift  $\mu$  and volatility  $\sigma$  as follows:
 
 $$
-\mu t + \sigma W _ {t}
+\mu t + \sigma W_{t}
 $$ and consider a subordinator  $T = (T_{t})_{t\geq 0}$  independent to the standard Brownian motion  $(W_{t})_{t\geq 0}$ . Then substituting  $t = T_{t}$  in the arithmetic Brownian motion, we have a new process  $X = (X_{t})_{t\geq 0}$  with
 
 
 $$
-X _ {t} = \mu T _ {t} + \sigma W _ {T _ {t}}
+X_{t} = \mu T_{t} + \sigma W_{T_{t}}
 $$ which is the time-changed Brownian motion.
 
 
 If  $T_{t}$  is fixed, then the conditional probability of  $X_{t}$  with a fixed variable  $T_{t}$  follows a normal distribution, that is
 
 $$
-\begin{array}{l} \mathbf {P} \left(X _ {t} <   y \mid T _ {t}\right) = \mathbf {P} \left(\mu T _ {t} + \sigma W _ {T _ {t}} <   y \mid T _ {t}\right) \\ = \frac {1}{\sqrt {2 \pi \sigma^ {2} T _ {t}}} \int_ {- \infty} ^ {y} e ^ {\frac {(x - \mu T _ {t}) ^ {2}}{2 \sigma^ {2} T _ {t}}} d x \\ \end{array}
+\begin{array}{l} \mathbf {P} \left(X_{t} <   y \mid T_{t}\right) = \mathbf {P} \left(\mu T_{t} + \sigma W_{T_{t}} <   y \mid T_{t}\right) \\ = \frac{1}{\sqrt{2 \pi \sigma^{2} T_{t}}} \int_{- \infty}^{y} e^{\frac{(x - \mu T_{t})^{2}}{2 \sigma^{2} T_{t}}} d x \\ \end{array}
 $$
 
 Using properties of the conditional probability and independence between  $W_{t}$  and  $T_{t}$ , the distribution function  $F_{X_{t}}$  and the probability density function  $f_{X_{t}}$  of  $X_{t}$  of  $X_{t}$  are obtained by
 
 $$
-\begin{array}{l} F _ {X _ {t}} (y) = \mathbf {P} \left(X _ {t} <   y\right) \\ = \int_ {- \infty} ^ {y} \int_ {0} ^ {\infty} \frac {1}{\sqrt {2 \pi \sigma^ {2} s}} e ^ {- \frac {(x - \mu s) ^ {2}}{2 \sigma^ {2} s}} f _ {T _ {t}} (s) d s d x \\ \end{array}
+\begin{array}{l} F_{X_{t}} (y) = \mathbf {P} \left(X_{t} <   y\right) \\ = \int_{- \infty}^{y} \int_{0}^{\infty} \frac{1}{\sqrt{2 \pi \sigma^{2} s}} e^{- \frac{(x - \mu s)^{2}}{2 \sigma^{2} s}} f_{T_{t}} (s) d s d x \\ \end{array}
 $$ and
 
 
-$$ f _ {X _ {t}} (y) = \frac {d}{d y} F _ {X _ {t}} (y) = \int_ {0} ^ {\infty} \frac {1}{\sqrt {2 \pi \sigma^ {2} s}} e ^ {- \frac {(y - \mu s) ^ {2}}{2 \sigma^ {2} s}} f _ {T _ {t}} (s) d s
+$$ f_{X_{t}} (y) = \frac{d}{d y} F_{X_{t}} (y) = \int_{0}^{\infty} \frac{1}{\sqrt{2 \pi \sigma^{2} s}} e^{- \frac{(y - \mu s)^{2}}{2 \sigma^{2} s}} f_{T_{t}} (s) d s
 $$ respectively, where  $f_{T_t}$  is the probability density function of  $T_t$ . Moreover, we can derive the characteristic function  $\phi_{X_t}$  as follows:
 
 
 $$
-\phi_ {\mathrm {X} _ {t}} (u) = \phi_ {T t} \left(\mu u + \frac {i u ^ {2} \sigma^ {2}}{2}\right) \tag {7}
+\phi_{\mathrm{X}_{t}} (u) = \phi_{T t} \left(\mu u + \frac{i u^{2} \sigma^{2}}{2}\right) \tag {7}
 $$ where  $\phi_{T_t}$  is the characteristic function of  $T_{t}$ . Using the time-changed Brownian motion, we can define various processes.
 
 
@@ -430,21 +430,21 @@ Although the representation via Brownian subordination is a nice property, we do
 By considering the gamma process as the subordinator of the Brownian motion, we obtain the VG process. That is, the VG process is defined by  $X = (X_{t})_{t\geq 0}$  with
 
 $$
-X _ {t} = \mu G _ {t} + \sigma W _ {G _ {t}}
+X_{t} = \mu G_{t} + \sigma W_{G_{t}}
 $$ where  $G = (G_{t})_{t\geq 0}$  is the gamma process with parameter  $(c,\lambda)$ . In order to reduce the number of parameters, we consider the assumption  $E[G_{t}] = t$ . Since we have  $E[G_{t}] = \frac{ct}{\lambda}$ , the assumption is satisfied if  $c = \lambda$ . Then the characteristic function of  $X_{t}$  is equal to
 
 
 $$
-\phi_ {X _ {t}} (u) = \left(\frac {c}{c - i \mu u + \frac {u ^ {2} \sigma^ {2}}{2}}\right) ^ {c t} = \left(\frac {\frac {2 c}{\sigma^ {2}}}{\frac {2 c}{\sigma^ {2}} - \frac {2 \mu}{\sigma^ {2}} u i + u ^ {2}}\right) ^ {c t} \tag {8}
+\phi_{X_{t}} (u) = \left(\frac{c}{c - i \mu u + \frac{u^{2} \sigma^{2}}{2}}\right)^{c t} = \left(\frac{\frac{2 c}{\sigma^{2}}}{\frac{2 c}{\sigma^{2}} - \frac{2 \mu}{\sigma^{2}} u i + u^{2}}\right)^{c t} \tag {8}
 $$ by (7) and the characteristic function of  $G_{t}$  given in (4) with  $c = \lambda$ . Inserting into (8) the parametrization
 
 
 $$
-\lambda_ {-} - \lambda_ {+} = \frac {2 \mu}{\sigma^ {2}}
+\lambda_{-} - \lambda_{+} = \frac{2 \mu}{\sigma^{2}}
 $$
 
 $$
-\lambda_ {+} \lambda_ {-} = \frac {2 c}{\sigma^ {2}}
+\lambda_{+} \lambda_{-} = \frac{2 c}{\sigma^{2}}
 $$
 
 $$
@@ -459,24 +459,24 @@ By considering the inverse Gaussian process as the subordinator of the Brownian 
 Define a process  $X = (X_{t})_{t\geq 0}$  with
 
 $$
-X _ {t} = \mu T _ {t} + \sigma W _ {T _ {t}}
+X_{t} = \mu T_{t} + \sigma W_{T_{t}}
 $$ where  $T = (T_{t})_{t\geq 0}$  is the inverse Gaussian process with parameter  $(c,\lambda)$ , satisfying  $E[T_{t}] = t$ . The condition  $E[T_{t}] = t$  holds if  $c = \lambda$ . Then the characteristic function of  $X_{t}$  is equal to
 
 
 $$
-\begin{array}{l} \phi_ {X _ {t}} (u) = \exp \left(- k t \left(\sqrt {k ^ {2} - 2 i \mu u + 2 \sigma^ {2} u ^ {2}} - k\right)\right) \\ = \exp \left(- \sqrt {2} k \sigma t \left(\sqrt {\frac {k ^ {2}}{2 \sigma^ {2}} - \frac {\mu}{\sigma^ {2}} i u + u ^ {2}} \right. \right. \\ \left. - \sqrt {\frac {k ^ {2}}{2 \sigma^ {2}}}\right) \tag {9} \\ \end{array}
+\begin{array}{l} \phi_{X_{t}} (u) = \exp \left(- k t \left(\sqrt{k^{2} - 2 i \mu u + 2 \sigma^{2} u^{2}} - k\right)\right) \\ = \exp \left(- \sqrt{2} k \sigma t \left(\sqrt{\frac{k^{2}}{2 \sigma^{2}} - \frac{\mu}{\sigma^{2}} i u + u^{2}} \right. \right. \\ \left. - \sqrt{\frac{k^{2}}{2 \sigma^{2}}}\right) \tag {9} \\ \end{array}
 $$ by (7) and the characteristic function of  $T_{t}$  given in (5) with  $k\coloneqq c = \lambda$  . Inserting into (9) the parametrization
 
 
 $$
-\lambda^ {2} - \beta^ {2} = \frac {k ^ {2}}{2 \sigma^ {2}}
+\lambda^{2} - \beta^{2} = \frac{k^{2}}{2 \sigma^{2}}
 $$
 
 $$
-\beta = \frac {\mu}{2 \sigma^ {2}}
+\beta = \frac{\mu}{2 \sigma^{2}}
 $$
 
-$$ c = \sqrt {2} k \sigma
+$$ c = \sqrt{2} k \sigma
 $$ we obtain the NIG process with parameter  $(c, \lambda, \beta, \frac{c\beta}{\sqrt{\lambda^2 - \beta^2}})$ .
 
 
@@ -485,12 +485,12 @@ $$ we obtain the NIG process with parameter  $(c, \lambda, \beta, \frac{c\beta}{
 Assume Lévy measure  $\nu$  is equal to
 
 $$
-\nu (d x) = \frac {c e ^ {- \theta x}}{x ^ {\alpha / 2 + 1}} 1 _ {x > 0} d x \tag {10}
+\nu (d x) = \frac{c e^{- \theta x}}{x^{\alpha / 2 + 1}} 1_{x > 0} d x \tag {10}
 $$ where  $\alpha \in (0,2), c > 0$ , and  $\theta > 0$ , and consider the pure jump process  $T = (T_{t})_{t\geq 0}$  defined by  $\nu$  and  $\gamma$ , where
 
 
 $$
-\gamma = \int_ {0} ^ {1} x v (d x)
+\gamma = \int_{0}^{1} x v (d x)
 $$
 
 Since  $\nu(A) = 0$  for all  $A \subset (-\infty, 0)$  and  $\mu \geq 0$ , the process  $T$  is a nondecreasing process. Hence it is a subordinator and referred to as the tempered stable subordinator with parameters
@@ -498,19 +498,19 @@ Since  $\nu(A) = 0$  for all  $A \subset (-\infty, 0)$  and  $\mu \geq 0$ , the 
 $(\alpha, c, \theta)$ . Using equation (2), the characteristic function  $\phi_{T_t}$  of  $T_t$  is equal to
 
 $$
-\phi_ {T _ {t}} (u) = \exp \left(t c \int_ {0} ^ {\infty} \left(e ^ {i u x} - 1\right) \frac {e ^ {- \theta x}}{x ^ {\alpha / 2 + 1}} d x\right)
+\phi_{T_{t}} (u) = \exp \left(t c \int_{0}^{\infty} \left(e^{i u x} - 1\right) \frac{e^{- \theta x}}{x^{\alpha / 2 + 1}} d x\right)
 $$
 
 Solving the integration in the last equation, we can obtain the following formula,
 
 $$
-\phi_ {T _ {t}} (u) = \exp \left(t c \Gamma \left(- \frac {\alpha}{2}\right) \left(\left(\theta - i u\right) ^ {\frac {\alpha}{2}} - \theta^ {\frac {\alpha}{2}}\right)\right) \tag {11}
+\phi_{T_{t}} (u) = \exp \left(t c \Gamma \left(- \frac{\alpha}{2}\right) \left(\left(\theta - i u\right)^{\frac{\alpha}{2}} - \theta^{\frac{\alpha}{2}}\right)\right) \tag {11}
 $$
 
 The mean of  $T_{t}$  is computed by the first cumulant, that is,
 
 $$
-E \left[ T _ {t} \right] = \frac {1}{i} \frac {\partial}{\partial u} \log \phi_ {T _ {t}} (u) | _ {u = 0} = t c \Gamma \left(1 - \frac {\alpha}{2}\right) \theta^ {\frac {\alpha}{2} - 1}
+E \left[ T_{t} \right] = \frac{1}{i} \frac{\partial}{\partial u} \log \phi_{T_{t}} (u) |_{u = 0} = t c \Gamma \left(1 - \frac{\alpha}{2}\right) \theta^{\frac{\alpha}{2} - 1}
 $$
 
 Hence, the condition  $E[T_{t}] = t$  holds if  $c = \left(\Gamma\left(1 - \frac{\alpha}{2}\right)\theta^{\frac{\alpha}{2} - 1}\right)^{-1}$ .
@@ -518,27 +518,27 @@ Hence, the condition  $E[T_{t}] = t$  holds if  $c = \left(\Gamma\left(1 - \frac
 By considering the tempered stable subordinator as the subordinator of the Brownian motion, we obtain the NTS process. That is, define a process  $X = (X_{t})_{t\geq 0}$  with
 
 $$
-X _ {t} = \mu T _ {t} + \sigma W _ {T _ {t}}
+X_{t} = \mu T_{t} + \sigma W_{T_{t}}
 $$ where  $T = (T_{t})_{t\geq 0}$  is the tempered stable subordinator with parameter  $\left(\alpha ,\left(\Gamma \left(1 - \frac{\alpha}{2}\right)\theta^{\frac{\alpha}{2} -1}\right)^{-1},\theta\right)$ . The characteristic function of  $X_{t}$  is equal to
 
 
 $$
-\begin{array}{l} \phi_ {X _ {t}} (u) \\ = \exp \left(\frac {t \Gamma \left(- \frac {\alpha}{2}\right)}{\Gamma \left(1 - \frac {\alpha}{2}\right) \theta^ {\frac {\alpha}{2} - 1}} \left(\left(\theta - i \left(\mu u + \frac {i \sigma^ {2} u ^ {2}}{2}\right)\right) ^ {\frac {\alpha}{2}} - \theta_ {2} ^ {\alpha}\right)\right) \\ = \exp \left(\frac {- 2 t}{\alpha \theta^ {\frac {\alpha}{2} - 1}} \left(\left(\theta - i \left(\mu u + \frac {i \sigma^ {2} u ^ {2}}{2}\right)\right) ^ {\frac {\alpha}{2}} - \theta^ {\frac {\alpha}{2}}\right)\right) \tag {12} \\ \end{array}
+\begin{array}{l} \phi_{X_{t}} (u) \\ = \exp \left(\frac{t \Gamma \left(- \frac{\alpha}{2}\right)}{\Gamma \left(1 - \frac{\alpha}{2}\right) \theta^{\frac{\alpha}{2} - 1}} \left(\left(\theta - i \left(\mu u + \frac{i \sigma^{2} u^{2}}{2}\right)\right)^{\frac{\alpha}{2}} - \theta_{2}^{\alpha}\right)\right) \\ = \exp \left(\frac{- 2 t}{\alpha \theta^{\frac{\alpha}{2} - 1}} \left(\left(\theta - i \left(\mu u + \frac{i \sigma^{2} u^{2}}{2}\right)\right)^{\frac{\alpha}{2}} - \theta^{\frac{\alpha}{2}}\right)\right) \tag {12} \\ \end{array}
 $$ by (7) and (11) with  $c = \left(\Gamma \left(1 - \frac{\alpha}{2}\right)\theta^{\frac{\alpha}{2} -1}\right)^{-1}$ . The last equation can be changed to the following expression:
 
 
 $$
-\begin{array}{l} \phi_ {X _ {t}} (u) = \exp \left( \right.\frac {t \Gamma \left(- \frac {\alpha}{2}\right)\left(\frac {\sigma^ {2}}{2}\right) ^ {\frac {\alpha}{2}}}{\Gamma \left(1 - \frac {\alpha}{2}\right) \theta_ {2} ^ {\alpha - 1}} \left(\left(\frac {2 \theta}{\sigma^ {2}} + \left(\frac {\mu}{\sigma^ {2}}\right) ^ {2} \right.\right. \\ \left.\left. - \left(\frac {\mu}{\sigma^ {2}} + i u\right) ^ {2}\right) ^ {\frac {\alpha}{2}} - \left(\frac {2 \theta}{\sigma^ {2}}\right) ^ {\frac {\alpha}{2}}\right)\left. \right) \tag {13} \\ \end{array}
+\begin{array}{l} \phi_{X_{t}} (u) = \exp \left( \right.\frac{t \Gamma \left(- \frac{\alpha}{2}\right)\left(\frac{\sigma^{2}}{2}\right)^{\frac{\alpha}{2}}}{\Gamma \left(1 - \frac{\alpha}{2}\right) \theta_{2}^{\alpha - 1}} \left(\left(\frac{2 \theta}{\sigma^{2}} + \left(\frac{\mu}{\sigma^{2}}\right)^{2} \right.\right. \\ \left.\left. - \left(\frac{\mu}{\sigma^{2}} + i u\right)^{2}\right)^{\frac{\alpha}{2}} - \left(\frac{2 \theta}{\sigma^{2}}\right)^{\frac{\alpha}{2}}\right)\left. \right) \tag {13} \\ \end{array}
 $$
 
 Inserting into (13) the parametrization
 
 $$
-\begin{array}{l} \lambda = \sqrt {\frac {2 \theta}{\sigma^ {2}} + \left(\frac {\mu}{\sigma^ {2}}\right) ^ {2}} \\ \beta = \frac {\mu}{\sigma^ {2}} \\ C = \frac {\sqrt {2 \sigma^ {\alpha}}}{\sqrt {\pi} \Gamma \left(1 - \frac {\alpha}{2}\right) \theta^ {\frac {\alpha}{2} - 1}} \\ \end{array}
+\begin{array}{l} \lambda = \sqrt{\frac{2 \theta}{\sigma^{2}} + \left(\frac{\mu}{\sigma^{2}}\right)^{2}} \\ \beta = \frac{\mu}{\sigma^{2}} \\ C = \frac{\sqrt{2 \sigma^{\alpha}}}{\sqrt{\pi} \Gamma \left(1 - \frac{\alpha}{2}\right) \theta^{\frac{\alpha}{2} - 1}} \\ \end{array}
 $$ we obtain the NTS process with parameter  $(\alpha, C, \lambda, \beta, m)$  where
 
 
-$$ m = - 2 ^ {- \frac {\alpha + 1}{2}} C \sqrt {\pi} \Gamma \left(\frac {\alpha}{2}\right) \beta (\lambda^ {2} - \beta^ {2}) ^ {\frac {\alpha}{2} - 1}
+$$ m = - 2^{- \frac{\alpha + 1}{2}} C \sqrt{\pi} \Gamma \left(\frac{\alpha}{2}\right) \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 1}
 $$
 
 # LEVY PROCESS
@@ -551,7 +551,7 @@ A stochastic process  $X = (X_{t})_{t\geq 0}$  is called a Lévy process if the 
 4.  $X$  is stochastically continuous that is,  $\forall t\geq 0$  and  $a > 0$
 
 $$
-\lim  _ {s \rightarrow t} \mathbf {P} \left[ | X _ {s} - X _ {t} | > a \right] = 0
+\lim_{s \rightarrow t} \mathbf {P} \left[ | X_{s} - X_{t} | > a \right] = 0
 $$
 
 5.  $X$  is right continuous and has left limits (cadlag).
@@ -559,13 +559,13 @@ $$
 The standard Brownian motion, arithmetic Brownian motions, and pure jump processes are all Lévy processes. Moreover, a Lévy process can be decomposed by a Brownian motion and a pure jump process  $(Z_{t})_{t\geq 0}$  independent to the Brownian motion, that is
 
 $$
-X _ {t} = \sigma W _ {t} + Z _ {t}
+X_{t} = \sigma W_{t} + Z_{t}
 $$
 
 Hence we obtain the characteristic function of  $X_{t}$  as follows:
 
 $$
-\begin{array}{l} \phi x _ {t} (u) = \phi_ {\sigma W _ {t}} (u) \phi_ {Z _ {t}} (u) \\ = \exp \left(- \frac {t}{2} \sigma^ {2} u ^ {2}\right) \exp (i \gamma u t + t \int_ {- \infty} ^ {\infty} (e ^ {i u x} - 1 \\ - i u x 1 _ {| x | \leq 1}) v (d x)) \\ = \exp \left(i \gamma u t - \frac {t}{2} \sigma^ {2} u ^ {2} + t \int_ {- \infty} ^ {\infty} (e ^ {i u x} - 1 \right. \\ - i u x 1 _ {| x | \leq 1}) v (d x)) \\ \end{array}
+\begin{array}{l} \phi x_{t} (u) = \phi_{\sigma W_{t}} (u) \phi_{Z_{t}} (u) \\ = \exp \left(- \frac{t}{2} \sigma^{2} u^{2}\right) \exp (i \gamma u t + t \int_{- \infty}^{\infty} (e^{i u x} - 1 \\ - i u x 1_{| x | \leq 1}) v (d x)) \\ = \exp \left(i \gamma u t - \frac{t}{2} \sigma^{2} u^{2} + t \int_{- \infty}^{\infty} (e^{i u x} - 1 \right. \\ - i u x 1_{| x | \leq 1}) v (d x)) \\ \end{array}
 $$ where  $\phi_{\sigma W_t}(u)$  is the characteristic function of  $N(0,\sigma^2 t)$ , and  $\phi_{Z_t}(u)$  given by (2). Therefore,
 
 

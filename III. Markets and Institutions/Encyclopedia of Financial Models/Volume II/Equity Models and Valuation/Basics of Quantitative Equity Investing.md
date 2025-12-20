@@ -166,7 +166,7 @@ When is it better to employ an IC over a quintile spread? IC is a better metric 
 Figure 11 Determining the Characteristic's Batting Average
 
 $$
-\frac {\# \text {Positive Months} = 47}{\# \text {Months} = 72} = 65 \%
+\frac{\# \text{PositiveMonths} = 47}{\# \text{Months} = 72} = 65 \%
 $$ fewer stocks as it places a greater emphasis on measuring the few stocks at the extremes.
 
 

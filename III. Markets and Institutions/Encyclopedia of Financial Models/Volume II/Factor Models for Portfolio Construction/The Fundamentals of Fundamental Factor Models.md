@@ -81,7 +81,7 @@ Once we have predetermined the factor exposures for all stocks based on their un
 A stock's return can then be described by the returns of its subcomponents: its Size exposure times the return of the Size factor plus its Value exposure times the pure return of the Value factor, and so on. This process can account for a substantial proportion of a stock's return. The remainder of the stock's return is deemed company specific and unique to each security. For example, the return to Microsoft over the last month can be viewed as:
 
 $$
-\begin{array}{l} r _ {M S F T} = x _ {I n d u s t r y \_ 1} r _ {I n d u s t r y \_ 1} + x _ {I n d u s t r y \_ 2} r _ {I n d u s t r y \_ 2} \\ + \dots + x _ {\text {S i z e}} r _ {\text {S i z e}} + x _ {\text {V a l u e}} r _ {\text {V a l u e}} + \dots . r _ {\text {F i r m - S p e c i f i c}} \\ \end{array}
+\begin{array}{l} r_{M S F T} = x_{I n d u s t r y \_ 1} r_{I n d u s t r y \_ 1} + x_{I n d u s t r y \_ 2} r_{I n d u s t r y \_ 2} \\ + \dots + x_{\text{Si ze}} r_{\text{Si ze}} + x_{\text{Va lu e}} r_{\text{Va lu e}} + \dots . r_{\text{Fi rm -S pe ci fi c}} \\ \end{array}
 $$ where  $x$  is the exposure of Microsoft to the various factors and  $r_{Factor}$  denotes returns to the factors.
 
 

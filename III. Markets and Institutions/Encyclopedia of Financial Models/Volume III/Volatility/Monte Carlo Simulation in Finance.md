@@ -32,7 +32,7 @@ The example in the previous paragraph illustrates a Monte Carlo simulation syste
 As another illustration of a simulation model, consider the problem of finding the fair price of a simple European call option on a stock with current stock price  $S_{t}$ . If the strike price is  $K$  and the option matures at time  $T$ , the option payoff at time  $T$  can be expressed as
 
 $$
-V _ {T} = \max  \left\{S _ {T} - K, 0 \right\}
+V_{T} = \max  \left\{S_{T} - K, 0 \right\}
 $$
 
 According to a fundamental theory in asset pricing, the fair price of a financial asset under certain conditions can be meaningfully estimated as the expected value (equivalently, as a "probability-weighted average") of the possible payoffs of the financial asset in different states of the world in the future. The fair value of the option at time  $t$  will therefore be the expected value of the discounted payoff:
@@ -42,14 +42,14 @@ Figure 2 Determining Portfolio VaR from Simulation
 
 
 $$
-V _ {t} = E \left[ e ^ {- r (T - t)} \max \{S _ {T} - K, 0 \} \right]
+V_{t} = E \left[ e^{- r (T - t)} \max \{S_{T} - K, 0 \} \right]
 $$ where  $r$  is the short-term risk-free rate.
 
 
 The expected value in the expression above is meaningful only if one can specify a probability distribution of possible outcomes for the future price of the asset. For example, consider a European call option on a common stock with an exercise price of  \$20. Assume that the short-term risk-free rate is 0\%$  and suppose that the stock price at time  $T$  can only take the values 18, \$21, and \$23 with (risk-neutral) probabilities 3/6, 2/6, and 1/6, respectively. Then the fair price of the option can be computed as the weighted average of the payoffs in the three possible states of the world:
 
 $$
-\begin{array}{l} V = \frac {3}{6} \max  \{1 8 - 2 0, 0 \} + \frac {2}{6} \max  \{2 1 - 2 0, 0 \} \\ + \frac {1}{6} \max  \{2 3 - 2 0, 0 \} \\ = \frac {3}{6} \cdot 0 + \frac {2}{6} \cdot 1 + \frac {1}{6} \cdot 3 = \frac {5}{6} = 0. 8 3 \\ \end{array}
+\begin{array}{l} V = \frac{3}{6} \max  \{1 8 - 2 0, 0 \} + \frac{2}{6} \max  \{2 1 - 2 0, 0 \} \\ + \frac{1}{6} \max  \{2 3 - 2 0, 0 \} \\ = \frac{3}{6} \cdot 0 + \frac{2}{6} \cdot 1 + \frac{1}{6} \cdot 3 = \frac{5}{6} = 0. 8 3 \\ \end{array}
 $$
 
 That is, the fair value of the option is 0.83.
@@ -58,21 +58,21 @@ Typically, however, the stock price can take many more values, and the option pr
 
 The Black-Scholes formula for European options (Black and Scholes, 1973) is widely used in the financial industry. It provides a closed-form expression for computing the price of the option. The underlying assumption used in the derivation of the Black-Scholes formula is that the percentage changes in the asset price are increments of a Brownian motion. The evolution of the stock price can then be described by the equation
 
-$$ d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t} \tag {1}
+$$ d S_{t} = \mu S_{t} d t + \sigma S_{t} d W_{t} \tag {1}
 $$ where  $W_{t}$  is standard Brownian motion, and  $\mu$  and  $\sigma$  are called "drift" and "volatility" of the process, respectively.
 
 
 Equation (1) says that the change in the asset price at any time period is determined by two components: (1) a drift term that is a fraction of the current asset price level, and (2) a "random noise" term that assumes that volatility is proportional to the current price level. For technical reasons (namely, absence of arbitrage), when pricing an option on an asset whose movement is described by equation (1), the drift  $\mu$  is replaced by the risk-free rate  $r$ . The technical details of equation (1) are not important for our purposes. The important result is that under the assumption for the random process followed by the stock price in (1), the value of the stock price  $S_{T}$  at time  $T$  can be computed as
 
 $$
-S _ {T} = S _ {t} e ^ {\left(r - \frac {1}{2} \sigma^ {2}\right) (T - t) + \sigma \sqrt {(T - t)} \bar {w}} \tag {2}
+S_{T} = S_{t} e^{\left(r - \frac{1}{2} \sigma^{2}\right) (T - t) + \sigma \sqrt{(T - t)} \bar {w}} \tag {2}
 $$ where  $\tilde{w}$  is a random variable following a normal distribution with mean 0 and standard deviation 1 (see Figure 1b).
 
 
 Hence, the option price obtained from the Black-Scholes formula can be approximated by simulation if a large number of values for the normal random variable  $\tilde{w}$  are generated, thus creating scenarios for the stock price  $S_{T}$  at time  $T$  and allowing for computing the discounted payoffs of the option. Suppose we generate  $n$  scenarios for  $\tilde{w}$ :  $w_{1},\ldots ,w_{n}$ . Then, the price of the European option will be
 
 $$
-\begin{array}{l} V _ {t} = e ^ {- r (T - t)} \\ \cdot \sum_ {i = 1} ^ {n} \frac {1}{n} \max  \left\{S _ {t} e ^ {\left(r - \frac {1}{2} \sigma^ {2}\right) (T - t) + \sigma \sqrt {(T - t)} w _ {i}} - K, 0 \right\} \\ \end{array}
+\begin{array}{l} V_{t} = e^{- r (T - t)} \\ \cdot \sum_{i = 1}^{n} \frac{1}{n} \max  \left\{S_{t} e^{\left(r - \frac{1}{2} \sigma^{2}\right) (T - t) + \sigma \sqrt{(T - t)} w_{i}} - K, 0 \right\} \\ \end{array}
 $$
 
 Note that the expression above is still a weighted average of the payoffs of the option in each scenario: the "weight," or the probability of each scenario, is assumed to be  $1 / n$ , since the scenarios are picked at random, and the frequency of their occurrence already incorporates the probability distribution of  $\tilde{w}$ .
@@ -85,7 +85,7 @@ A simulation may not be able to capture all possible realizations of uncertainti
 
 
 $$
-\frac {s}{\sqrt {n}}
+\frac{s}{\sqrt{n}}
 $$ where  $s$  is the standard deviation of the simulated discounted option payoffs, and  $n$  is the number of scenarios. This result follows from the central limit theorem (CLT). This theorem states that if a sample of  $n$  independent and identically distributed observations is drawn from a distribution with mean  $\mu$  and standard deviation  $\sigma$ , then the sample mean (which is an estimate of the true distribution mean  $\mu$ ) will follow a normal distribution around the actual distribution mean  $\mu$  with standard deviation  $\sigma / \sqrt{n}$  as the sample size  $n$  tends to infinity, regardless of the shape of the original distribution, as long as  $n$  is large. The fact that the distribution standard deviation  $\sigma$  in the CLT can be replaced by the sample standard deviation  $s$  follows from additional theoretical results on the convergence of  $s$  to  $\sigma$  in distribution as the number of observations grows large.
 
 
@@ -108,7 +108,7 @@ Simulating the asset price in this manner will generate a bias in the estimate o
 If there are two ways to obtain an estimate of a quantity of interest and the estimators are otherwise equivalent in terms of bias, which estimator should be preferable; that is, which estimator is more "efficient"? Statistical theory states that one should prefer the estimator with the smaller standard deviation, because it is more accurate. For example, consider two unbiased estimators, both of which are obtained as averages from a sample of independent replications. Their standard errors will be given by
 
 $$
-\begin{array}{c c c} \frac {s _ {1}}{\sqrt {n _ {1}}} & \text {a n d} & \frac {s _ {2}}{\sqrt {n _ {2}}} \end{array}
+\begin{array}{c c c} \frac{s_{1}}{\sqrt{n_{1}}} & \text{an d} & \frac{s_{2}}{\sqrt{n_{2}}} \end{array}
 $$ where  $s_1$  and  $s_2$  are the standard deviations from the samples of scenarios, and  $n_1$  and  $n_2$  are the number of scenarios for each of the estimators.
 
 
@@ -126,7 +126,7 @@ The use of Monte Carlo simulation in derivative pricing dates back to Boyle (197
 The value of an Asian option is determined by the average price of the underlying asset either continuously over the time to maturity or at a prespecified set of monitoring dates  $t_1, \dots, t_T$ . In particular, the payoff of an Asian call option is
 
 $$
-V _ {T} = \max  \left\{S _ {\text {a v e r a g e}} - K, 0 \right\}
+V_{T} = \max  \left\{S_{\text{av er ag e}} - K, 0 \right\}
 $$
 
 Thus, to price the option, one needs information not only on the value of the asset at time  $T$ , but also on the possible paths the asset could take to reach its terminal value. If the percentage change in the underlying asset price  $S$  is assumed to be the increment of a Brownian motion and if the average is computed as a geometric (as opposed to an arithmetic) average, there are analytical formulas for pricing continuous-time Asian options. However, there are no exact formulas in the case of discrete monitoring dates or different assumptions on the process followed by the asset price.
@@ -134,32 +134,32 @@ Thus, to price the option, one needs information not only on the value of the as
 To price the option by simulation, one would generate possible paths for the underlying asset price. Let  $S_{t_i}(j)$  be the simulated asset price at time  $t_i$ ,  $i = 1,\dots,T$ , for path  $j,j = 1,\dots,n$ . For example, if the percentage change in the underlying asset price  $S$  is assumed to be the increment of a Brownian motion, then the asset price at time  $t_1$  can be simulated given the asset price at time 0 as
 
 $$
-S _ {t _ {1}} = S _ {0} e ^ {(r - \frac {1}{2} \sigma^ {2}) (t _ {1} - 0) + \sigma \sqrt {(t _ {1} - 0)} \bar {w} _ {0}}
+S_{t_{1}} = S_{0} e^{(r - \frac{1}{2} \sigma^{2}) (t_{1} - 0) + \sigma \sqrt{(t_{1} - 0)} \bar {w}_{0}}
 $$ where, as defined earlier,  $\tilde{w}_0$  is a random variable following a normal distribution with mean 0 and standard deviation 1 (the subscript "0" stands for the fact that this realization of  $\tilde{w}$  is for the time period  $(0,t_1])$ . Having generated a realization of  $S_{t_1}$ , one can simulate a possible
 
 
 value for  $S_{t_2}$  by using the formula
 
 $$
-S _ {t _ {2}} = S _ {t _ {1}} e ^ {(r - \frac {1}{2} \sigma^ {2}) (t _ {2} - t _ {1}) + \sigma \sqrt {(t _ {2} - t _ {1})} \tilde {w} _ {1}}
+S_{t_{2}} = S_{t_{1}} e^{(r - \frac{1}{2} \sigma^{2}) (t_{2} - t_{1}) + \sigma \sqrt{(t_{2} - t_{1})} \tilde {w}_{1}}
 $$ and generating a realization of the normal random variable  $\tilde{w}_1$ . After repeating this  $T$  times, one has generated a path for the asset price. Averaging the (properly discounted) option payoff over  $n$  paths produces the fair price of the Asian option.
 
 
 The simulation process makes it easy to calibrate model parameters to observed market factors and to incorporate additional layers of modeling complexity. For example, suppose that at time 0 one observes a term structure of zero-bond prices  $B(0,t_1),\ldots ,B(0,t_T)$  that is not necessarily consistent with a single interest rate  $r$ . In other words, one cannot find a short rate  $r$  such that
 
 $$
-B (0, t _ {i}) = e ^ {- r t _ {i}}
+B (0, t_{i}) = e^{- r t_{i}}
 $$ for all intermediate time periods  $t_i$ . It would be difficult to correct for this in a closed-form formula such as the Black-Scholes formula for European options. However, the correction can be easily implemented in the simulation: one only needs to simulate future asset prices at each intermediate time period as
 
 
 $$
-S _ {t _ {i + 1}} = S _ {t _ {i}} \frac {B (0 , t _ {i})}{B (0 , t _ {i + 1})} e ^ {- \frac {1}{2} \sigma^ {2} (t _ {i + 1} - t _ {i}) + \sigma \sqrt {(t _ {i + 1} - t _ {i})} \bar {w} _ {i}}
+S_{t_{i + 1}} = S_{t_{i}} \frac{B (0 , t_{i})}{B (0 , t_{i + 1})} e^{- \frac{1}{2} \sigma^{2} (t_{i + 1} - t_{i}) + \sigma \sqrt{(t_{i + 1} - t_{i})} \bar {w}_{i}}
 $$
 
 Similarly, if one observes forward prices  $F(0,t_1),\ldots ,F(0,t_T)$  on the underlying asset, one can obtain a more accurate representation of the possible scenarios in the simulation by using the formula
 
 $$
-S _ {t _ {i + 1}} = S _ {t _ {i}} \frac {F (0 , t _ {i + 1})}{F (0 , t _ {i})} e ^ {- \frac {1}{2} \sigma^ {2} (t _ {i + 1} - t _ {i}) + \sigma \sqrt {(t _ {i + 1} - t _ {i})} \bar {w} _ {i}}
+S_{t_{i + 1}} = S_{t_{i}} \frac{F (0 , t_{i + 1})}{F (0 , t_{i})} e^{- \frac{1}{2} \sigma^{2} (t_{i + 1} - t_{i}) + \sigma \sqrt{(t_{i + 1} - t_{i})} \bar {w}_{i}}
 $$
 
 The complexity of the pricing model can be increased further by incorporating realistic models for the volatility  $\sigma$ . The simulation technique therefore has a tremendous modeling potential.
@@ -176,7 +176,7 @@ Table 1 Scenarios for Portfolio VaR Estimation
 
 
 $$
-\Delta_ {t} = e ^ {- r (T - t)} \cdot \frac {\Omega}{S _ {t} \cdot n}
+\Delta_{t} = e^{- r (T - t)} \cdot \frac{\Omega}{S_{t} \cdot n}
 $$
 
 More recently, efficient estimators for sensitivity from simulation trials have been developed based on Malliavin calculus.4
@@ -239,7 +239,7 @@ One of the earliest pseudo-random number generators developed is called the mids
 
 A better, commonly used type of pseudorandom number generators is congruential pseudo-random number generators. They are based on sequences of numbers of the form
 
-$$ x _ {n} = f \left(x _ {n - 1}\right) \bmod m
+$$ x_{n} = f \left(x_{n - 1}\right) \bmod m
 $$ where mod  $m$  stands for "modulus  $m$ "  $f(x_{n - 1})$  mod  $m$  is the remainder after dividing  $f(x_{n - 1})$  by  $m$ . For example,  $5 \bmod 3 = 2$ ,  $15 \bmod 5 = 0$ , etc. Note that  $f(x_{n - 1})$  mod  $m$  will always be an integer between 0 and  $m - 1$ . Thus, to create a good representation of randomness, one would want to make the range for the modulus as large as possible. For a 32-bit computer, for example, the maximum integer that can be stored is  $2^{31} - 1$ , which is large enough for practical purposes.
 
 
@@ -267,7 +267,7 @@ This problem is often addressed by stratified sampling. Most generally, the term
 A simple way of stratifying the numbers in the [0,1] interval to ensure that, when "inverted," the generated random numbers cover well the whole range of a probability distribution of interest, is to divide the [0,1] interval into  $k$  smaller intervals of equal length:
 
 $$
-\left[ 0, \frac {1}{k} \right], \left(\frac {1}{k}, \frac {2}{k} \right], \dots , \left(\frac {k - 1}{k}, 1 \right]
+\left[ 0, \frac{1}{k} \right], \left(\frac{1}{k}, \frac{2}{k} \right], \dots , \left(\frac{k - 1}{k}, 1 \right]
 $$
 
 Random numbers can then be drawn sequentially from each small interval. Therefore, values from the tails of the distribution of interest (which will be generated when uniform random numbers from the intervals  $[0,\frac{1}{k} ]$  and  $\left(\frac{k - 1}{k},1\right]$  are drawn) obtain better representation.
@@ -284,36 +284,36 @@ There is no single recipe for how to construct good importance sampling methods.
 First, note that in-the-money paths will occur only if the asset price at expiration is greater than the strike price; that is, they will result from realizations of the standard normal random variable  $\tilde{w}$  such that
 
 $$
-S _ {t} e ^ {(r - \frac {1}{2} \sigma^ {2}) (T - t) + \sigma \sqrt {(T - t)} \bar {w}} > K
+S_{t} e^{(r - \frac{1}{2} \sigma^{2}) (T - t) + \sigma \sqrt{(T - t)} \bar {w}} > K
 $$
 
 From this inequality, one can derive that only normal random numbers higher than
 
 $$
-\frac {\ln (K / S _ {t}) - (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+\frac{\ln (K / S_{t}) - (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}
 $$ will lead to in-the-money paths. Equivalently, this means that only random numbers between
 
 
 $$
-N \left(\frac {\ln (K / S _ {t}) - (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}\right) \mathrm {a n d} 1
+N \left(\frac{\ln (K / S_{t}) - (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}\right) \mathrm{an d} 1
 $$ on the unit interval [0,1], when "inverted" to obtain normal random numbers, will lead to in
 
 
 the-money paths  $(N(.)$  here denotes the cumulative normal distribution). Thus, one only needs to simulate random numbers in that range of the [0,1] interval. When computing the option price at the end, instead of weighing each payoff equally by multiplying it by  $1 / n$  as one would do in standard Monte Carlo sampling, one multiplies the sum of the payoffs obtained from the simulation by the probability that a particular random path would be in-the-money assuming truly random sampling, which is the standard Monte Carlo method. The latter probability is
 
 $$
-\begin{array}{l} 1 - N \left(\frac {\ln (K / S _ {t}) - (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}\right) \\ = N \left(\frac {\ln (S _ {t} / K) + (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}\right) \\ \end{array}
+\begin{array}{l} 1 - N \left(\frac{\ln (K / S_{t}) - (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}\right) \\ = N \left(\frac{\ln (S_{t} / K) + (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}\right) \\ \end{array}
 $$
 
 The call option price is then
 
 $$
-\begin{array}{l} V _ {t} = e ^ {- r (T - t)} \cdot N \left(\frac {\ln (S _ {t} / K) + (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}\right) \\ \cdot \sum_ {i = 1} ^ {n} \max  \left\{S _ {t} e ^ {\left(r - \frac {1}{2} \sigma^ {2}\right) (T - t) + \sigma \sqrt {(T - t)} w _ {i}} - K, 0 \right\} \\ \end{array}
+\begin{array}{l} V_{t} = e^{- r (T - t)} \cdot N \left(\frac{\ln (S_{t} / K) + (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}\right) \\ \cdot \sum_{i = 1}^{n} \max  \left\{S_{t} e^{\left(r - \frac{1}{2} \sigma^{2}\right) (T - t) + \sigma \sqrt{(T - t)} w_{i}} - K, 0 \right\} \\ \end{array}
 $$ where  $w_{1},\ldots ,w_{n}$  are all random numbers generated from a normal distribution in the range higher than
 
 
 $$
-\frac {\ln (K / S _ {t}) - (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+\frac{\ln (K / S_{t}) - (r - \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}
 $$
 
 As mentioned above, this is only a simple example in order to illustrate the main idea of importance sampling. More practical (albeit more technically challenging) applications can be found, for instance, in Chapter 4.6 in Glasserman (2004).
@@ -333,7 +333,7 @@ Figure 3 One Thousand Simulated Number Values for Two Uniform Random Variables o
 Important examples of quasi-random sequences were suggested by Sobol (1967), Faure (1982), Halton (1960), and Hammersley (1960). These sequences build on a family of so-called Van der Korput sequences. For example, the Van der Korput sequence of base 2 is
 
 $$
-0, \frac {1}{2}, \frac {1}{4}, \frac {3}{4}, \frac {1}{8}, \frac {5}{8}, \frac {3}{8}, \frac {7}{8}, \dots
+0, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \frac{1}{8}, \frac{5}{8}, \frac{3}{8}, \frac{7}{8}, \dots
 $$
 
 The actual generation of Van der Korput sequences is somewhat technical, but the outcome is intuitive. Note that as new points are added to the sequence, they appear on alternate sides of  $\frac{1}{2}$  in a balanced way. The main idea is that as the number of generated values increases, the sequence covers uniformly the unit interval.

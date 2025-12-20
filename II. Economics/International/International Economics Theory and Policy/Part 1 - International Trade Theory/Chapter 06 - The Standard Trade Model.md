@@ -74,7 +74,7 @@ Now suppose that  $P_{C} / P_{F}$  were to rise (cloth becomes more valuable rel
 Figure 6-3 shows the relationship among production, consumption, and trade in the standard model. As we pointed out in Chapter 5, the value of an economy's consumption equals the value of its production:
 
 $$
-P _ {C} Q _ {C} + P _ {F} Q _ {F} = P _ {C} D _ {C} + P _ {F} D _ {F} = V,
+P_{C} Q_{C} + P_{F} Q_{F} = P_{C} D_{C} + P_{F} D_{F} = V,
 $$
 
 where  $D_{C}$  and  $D_{F}$  are the consumption of cloth and food, respectively. The equation above says that production and consumption must lie on the same isovalue line.
@@ -470,7 +470,7 @@ This appendix contains a more detailed examination of the two-period intertempor
 The chapter showed that the price of future consumption in terms of current consumption is  $1 / (1 + r)$ , where  $r$  is the real interest rate. Measured in terms of current consumption, the value of the economy's total production over the two periods of its existence is therefore
 
 $$
-V = Q _ {C} + Q _ {F} / (1 + r).
+V = Q_{C} + Q_{F} / (1 + r).
 $$
 
 Figure 6A-1 shows the isovalue lines corresponding to the relative price  $1 / (1 + r)$  for different values of  $V$ . These are straight lines with slope  $-(1 + r)$  (because future consumption is on the vertical axis). As in the standard trade model, firms' decisions lead to a production pattern that maximizes the value of production at market prices  $Q_{C} + Q_{F} / (1 + r)$ . Production therefore occurs at point  $Q$ . The economy invests
@@ -490,7 +490,7 @@ At the chosen production point  $Q$ , the extra future consumption that would re
 Figure 6A-2 shows how Home's consumption pattern is determined for a given world interest rate. Let  $D_{C}$  and  $D_{F}$  represent the demands for current and future consumption goods, respectively. Since production is at point  $Q$ , the economy's consumption possibilities over the two periods are limited by the intertemporal budget constraint:
 
 $$
-D _ {C} + D _ {F} / (1 + r) = Q _ {C} + Q _ {F} / (1 + r).
+D_{C} + D_{F} / (1 + r) = Q_{C} + Q_{F} / (1 + r).
 $$
 
 This constraint states that the value of Home's consumption over the two periods (measured in terms of current consumption) equals the value of consumption goods produced in the two periods (also measured in current consumption units). Put another way, production and consumption must lie on the same isovalue line.

@@ -84,9 +84,9 @@ Common methods of measuring return effects (such as quintiling or univariate, si
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/cfb463a1-2282-4dad-842c-22b6b264a8a9/ab2ef4279528174e8e996f1725086c9b21e712bc6dde349e2e8ed0e32c1df072.jpg)
 Figure 1 Return Effects Form a Tangled Web
 
-$\mathrm{P / E}$ , say. But a number of related variables may be affecting returns. As we have noted, small-cap stocks and banking and utility industry stocks tend to have low  $\mathrm{P / Es}$ . A univariate regression of return on low  $\mathrm{P / E}$  will capture, along with the effect of  $\mathrm{P / E}$ , a great deal of noise related to firm size, industry affiliation, and other variables.
+$\mathrm{P /E}$ , say. But a number of related variables may be affecting returns. As we have noted, small-cap stocks and banking and utility industry stocks tend to have low  $\mathrm{P /Es}$ . A univariate regression of return on low  $\mathrm{P /E}$  will capture, along with the effect of  $\mathrm{P /E}$ , a great deal of noise related to firm size, industry affiliation, and other variables.
 
-Simultaneous analysis of all relevant variables via multivariate regression takes into account and adjusts for such interrelationships. The result is the return to each variable separately, controlling for all related variables. A multivariate analysis for low  $\mathrm{P / E}$ , for example, will provide a measure of the excess return to a portfolio that is market-like in all respects except for having a lower-than-average  $\mathrm{P / E}$  ratio. Disentangled returns are pure returns.
+Simultaneous analysis of all relevant variables via multivariate regression takes into account and adjusts for such interrelationships. The result is the return to each variable separately, controlling for all related variables. A multivariate analysis for low  $\mathrm{P /E}$ , for example, will provide a measure of the excess return to a portfolio that is market-like in all respects except for having a lower-than-average  $\mathrm{P /E}$  ratio. Disentangled returns are pure returns.
 
 # Noise Reduction
 
@@ -218,7 +218,7 @@ A complex approach to stock selection, portfolio construction, and performance e
 Grinold presents a formula that identifies the relationships between the depth and breadth of investment insights and investment performance.[12]
 
 $$
-I R = I C \sqrt {B R}
+I R = I C \sqrt{B R}
 $$
 
 IR is the manager's information ratio, a measure of the success of the investment process. IR equals annualized excess return over annualized residual risk (e.g.,  $2\%$  excess return with  $4\%$  tracking error provides 0.5 IR). IC, the information coefficient, or correlation between predicted and actual security returns, measures the goodness of the manager's insights, or the manager's skill. BR is the breadth of the strategy, measurable as the number of independent insights upon which investment decisions are made.

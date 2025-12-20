@@ -89,7 +89,7 @@ Labor Intensity of Each Industry The demand for labor relative to capital is ass
 Foreign lao abondant
 $ $
 
-\frac {l ^ {*}}{k ^ {*}} > \frac {l}{k}
+\frac{l^{*}}{k^{*}} > \frac{l}{k}
 
 $ $
 Assumption 3: Foreign is labor-abundant, by which we mean that the labor-capital ratio in Foreign exceeds that in Home,  $ \overline{L}^{*} / \overline{K}^{*} > \overline{L} / \overline{K} $. Equivalently, Home is capital-abundant, so that $ \overline{K} / \overline{L} > \overline{K}^{*} / \overline{L}^{*} $ .
@@ -433,7 +433,7 @@ To determine the wage and rental, we go back to Figure 4-1, which showed that th
 
 Economy-Wide Relative Demand for Labor To derive an economy-wide relative demand for labor, we use the conditions that the quantities of labor and capital used in each industry add up to the total available labor and capital:  $ L_{C} + L_{S} = \overline{L} $ and $ K_{C} + K_{S} = \overline{K} $. We can divide total labor by total capital to get $ $
 
-\underbrace{\frac{\overline{L}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}} _ {\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)} _ {\substack{\text{Relative}\\ \text{demand}}}
+\underbrace{\frac{\overline{L}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{supply}}} = \underbrace{\frac{L_{C} + L_{S}}{\overline{K}}}_{\substack{\text{Relative}\\ \text{demand}}} = \underbrace{\frac{L_{C}}{K_{C}}\cdot\left(\frac{K_{C}}{\overline{K}}\right) + \frac{L_{S}}{K_{S}}\cdot\left(\frac{K_{S}}{\overline{K}}\right)}_{\substack{\text{Relative}\\ \text{demand}}}
 
 $ $
 The left-hand side of this equation is the economy-wide supply of labor relative to capital, or relative supply. The right-hand side is the economy-wide demand for labor relative to capital, or relative demand. The relative demand is a weighted average of the labor-capital ratio in each industry. This weighted average is obtained by multiplying the labor-capital ratio for each industry,  $ L_{C} / K_{C} $ and $ L_{S} / K_{S} $, by the terms $ K_{C} / \overline{K} $ and $ K_{S} / \overline{K} $, the shares of total capital employed in each industry. These two terms must add up to 1, $ (K_{C} / \overline{K}) + (K_{S} / \overline{K}) = 1 $ , because capital must be employed in one industry or the other.
@@ -481,13 +481,13 @@ Change in the Real Rental Because the labor-capital ratio increases in both indu
 industries, the rental on capital is determined by its marginal product and by the prices of the goods:
 $ $
 
-R = P _ {C} \cdot M P K _ {C} \text {a n d} R = P _ {S} \cdot M P K _ {S}
+R = P_{C} \cdot M P K_{C} \text{an d} R = P_{S} \cdot M P K_{S}
 
 $ $
 Because capital can move freely between industries in the long run, the rental on capital is equalized across them. By using the result that both marginal products of capital increase and by rearranging the previous equations, we see that
 $ $
 
-M P K _ {C} = R / P _ {C} \uparrow \text {a n d} M P K _ {S} = R / P _ {S} \uparrow
+M P K_{C} = R / P_{C} \uparrow \text{an d} M P K_{S} = R / P_{S} \uparrow
 
 $ $
 Remember that  $ R / P_{C} $ measures that quantity of computers that can be purchased with the rental, whereas $ R / P_{S} $  measures the quantity of shoes that can be bought with the rental. When both of these go up, the real rental on capital (in terms of either good) increases. Therefore, capital owners are clearly better off when the relative price of computers increases. Notice that computer manufacturing is the capital-intensive industry, so the more general result is that an increase in the relative price of a good will benefit the factor of production used intensively in producing that good.
@@ -495,13 +495,13 @@ Remember that  $ R / P_{C} $ measures that quantity of computers that can be pur
 Change in the Real Wage To understand what happens to the real wage when the relative price of computers rises, we again use the result that the labor-capital ratio increases in both industries. The law of diminishing returns tells us that the marginal product of labor must fall in both industries (since there are more workers on each machine). In both industries, the wage is determined by the marginal product of labor and the prices of the goods:
 $ $
 
-W = P _ {C} \cdot M P L _ {C} \text {a n d} W = P _ {S} \cdot M P L _ {S}
+W = P_{C} \cdot M P L_{C} \text{an d} W = P_{S} \cdot M P L_{S}
 
 $ $
 Using the result that the marginal product of labor falls in both industries, we see that
 $ $
 
-M P L _ {C} = W / P _ {C} \downarrow \text {a n d} M P L _ {S} = W / P _ {S} \downarrow
+M P L_{C} = W / P_{C} \downarrow \text{an d} M P L_{S} = W / P_{S} \downarrow
 
 $ $
 Therefore, the quantity of computers that can be purchased with the wage  $ (W / P_{C}) $ and the quantity of shoes that can be purchased with the wage $ (W / P_{S}) $  both fall. These decreases mean that the real wage (in terms of either good) is reduced, and labor is clearly worse off because of the increase in the relative price of computers.
@@ -524,69 +524,69 @@ When Home and Foreign undertake trade, the relative price of computers rises. Fo
 
 Computers: Percentage increase in price  $ = \Delta P_{C} / P_{C} = 10\% $ Shoes: Percentage increase in price $ = \Delta P_{S} / P_{S} = 0\% $ Our goal is to see how the increase in the relative price of computers translates into long-run changes in the wage $ W $ paid to labor and the rental on capital $ R $. Remember that the rental on capital can be calculated by taking total sales revenue in each industry, subtracting the payments to labor, and dividing by the amount of capital. This calculation gives us the following formulas for the rental in each industry: $ $
 
-R = \frac {P _ {C} \cdot Q _ {C} - W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+R = \frac{P_{C} \cdot Q_{C} - W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $ $
 
 $ $
 
-R = \frac {P _ {S} \cdot Q _ {S} - W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+R = \frac{P_{S} \cdot Q_{S} - W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $ $
 The price of computers has risen, so  $ \Delta P_{C} > 0 $, holding fixed the price of shoes, $ \Delta P_{S} = 0 $. We can trace through how this affects the rental by changing $ P_{C} $ and $ W $ in the previous two equations: $ $
 
-\Delta R = \frac {\Delta P _ {C} \cdot Q _ {C} - \Delta W \cdot L _ {C}}{K _ {C}}, \text {f o r c o m p u t e r s}
+\Delta R = \frac{\Delta P_{C} \cdot Q_{C} - \Delta W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
 
 $ $
 
 $ $
 
-\Delta R = \frac {0 \cdot Q _ {C} - \Delta W \cdot L _ {S}}{K _ {S}}, \text {f o r s h o e s}
+\Delta R = \frac{0 \cdot Q_{C} - \Delta W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
 
 $ $
 It is convenient to work with percentage changes in the variables. For computers,  $ \Delta P_{C} / P_{C} $ is the percentage change in price. Similarly, $ \Delta W / W $ is the percentage change in the wage, and $ \Delta R / R $ is the percentage change in the rental of capital. We can introduce these terms into the preceding formulas by rewriting them as $ $
 
-\frac {\Delta R}{R} = \left(\frac {\Delta P _ {C}}{P _ {C}}\right) \left(\frac {P _ {C} \cdot Q _ {C}}{R \cdot K _ {C}}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {C}}{R \cdot K _ {C}}\right), \text {f o r c o m p u t e r s}
+\frac{\Delta R}{R} = \left(\frac{\Delta P_{C}}{P_{C}}\right) \left(\frac{P_{C} \cdot Q_{C}}{R \cdot K_{C}}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{C}}{R \cdot K_{C}}\right), \text{fo rc om pu te rs}
 
 $ $
 
 $ $
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {W \cdot L _ {S}}{R \cdot K _ {S}}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{S}}{R \cdot K_{S}}\right), \text{fo rs ho es}
 
 $ $
 (You should cancel terms in these equations to check that they are the same as before.) Now we'll plug the above data for shoes and computers into these formulas:
 $ $
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $ $
 
 $ $
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {6 0}{4 0}\right), \text {f o r s h o e s}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{6 0}{4 0}\right), \text{fo rs ho es}
 
 $ $
 Our goal is to find out by how much rental and wage change given changes in the relative price of the final goods, so we are trying to solve for two unknowns  $ (\Delta R / R $ and $ \Delta W / W) $ from the two equations given here. A good way to do this is to reduce the two equations with two unknowns into a single equation with one unknown. This can be done by subtracting one equation from the other, as follows: $ $
 
-\frac {\Delta R}{R} = 10 \% \cdot \left(\frac {100}{50}\right) - \left(\frac {\Delta W}{W}\right) \left(\frac {50}{50}\right), \text {for computers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
 
 $ $
 Minus:  $ \frac{\Delta R}{R} = 0 - \left(\frac{\Delta W}{W}\right)\left(\frac{60}{40}\right) $, for shoes $ $
 
-\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac {100}{50}\right) + \left(\frac {\Delta W}{W}\right) \left(\frac {20}{40}\right)
+\text{Equals:} \quad 0 = 10 \% \cdot \left(\frac{100}{50}\right) + \left(\frac{\Delta W}{W}\right) \left(\frac{20}{40}\right)
 
 $ $
 Simplifying the last line, we get  $ 0 = 20\% + \left(\frac{\Delta W}{W}\right)\left(\frac{1}{2}\right) $, so that $ $
 
-\left(\frac {\Delta W}{W}\right) = \left(\frac {- 20 \%}{\frac {1}{2}}\right) = - 40 \%, \text {is the change in wages}
+\left(\frac{\Delta W}{W}\right) = \left(\frac{- 20 \%}{\frac{1}{2}}\right) = - 40 \%, \text{isthechangeinwages}
 
 $ $
 So when the price of computers increases by  $ 10\% $, the wage falls by $ 40\% $. With the wage falling, labor can no longer afford to buy as many computers $ (W / P_{C} $ has fallen since $ W $ is falling and $ P_{C} $ has increased) or as many pairs of shoes $ (W / P_{S} $ has fallen since $ W $ is falling and $ P_{S} $  has not changed). In other words, the real wage measured in terms of either good has fallen, so labor is clearly worse off.
 
 To find the change in the rental paid to capital  $ (\Delta R / R) $, we can take our solution for $ \Delta W / W = -40\% $, and plug it into the equation for the change in the rental in the shoes sector: $ $
 
-\frac {\Delta R}{R} = - \left(\frac {\Delta W}{W}\right) \left(\frac {60}{40}\right) = 40 \% \cdot \left(\frac {60}{40}\right) = 60 \%, \text {change in rental}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right) = 40 \% \cdot \left(\frac{60}{40}\right) = 60 \%, \text{changeinrental}
 
 $ $
 The rental on capital increases by  $ 60\% $ when the price of computers rises by $ 10\% $, so the rental increases even more (in percentage terms) than the price. Because the rental increases by more than the price of computers in percentage terms, it follows that $ (R / P_{C}) $ rises: owners of capital can afford to buy more computers, even though their price has gone up. In addition, they can afford to buy more shoes ($ R / P_{S} $ also rises, since $ R $ rises and $ P_{S} $  is constant). Thus, the real rental measured in terms of either good has gone up, and capital owners are clearly better off.
@@ -594,7 +594,7 @@ The rental on capital increases by  $ 60\% $ when the price of computers rises b
 General Equation for the Long-Run Change in Factor Prices The long-run results of a change in factor prices can be summarized in the following equation:
 $ $
 
-\underbrace {\Delta W / W <   0} _ {<   \Delta P _ {C} / P _ {C} <   \Delta R / R}, \text {f o r a n i n c r e a s e i n} P _ {C}
+\underbrace {\Delta W / W <   0}_{<   \Delta P_{C} / P_{C} <   \Delta R / R}, \text{fo ra ni nc re as ei n} P_{C}
 
 $ $
 Real wage falls
@@ -604,7 +604,7 @@ Real rental increases
 That is, the increase in the price of computers (10%) leads to an even larger increase in the rental on capital (60%) and a decrease in the wage (-40%). If, instead, the price of computers falls, then these inequalities are reversed, and we get
 $ $
 
-\underbrace {\Delta R / R <   \Delta P _ {C}} / \underbrace {P _ {C} <   0 <   \Delta W / W} _ {\text {f o r a n d e c r e a s e i n} P _ {C}}
+\underbrace {\Delta R / R <   \Delta P_{C}} / \underbrace {P_{C} <   0 <   \Delta W / W}_{\text{fo ra nd ec re as ei n} P_{C}}
 
 $ $
 Real rental falls
@@ -614,7 +614,7 @@ Real wage increases
 What happens if the relative price of shoes increases? From the Stolper-Samuelson theorem, we know that this change will benefit labor, which is used intensively in shoe production, and will harm capital. The equation summarizing the changes in factor earnings when the price of shoes increases is
 $ $
 
-\underline {{\Delta R / R <   0}} \underline {{<   \Delta P _ {S} / P _ {S} <   \Delta W / W}}, \text {f o r a n i n c r e a s e i n} P _ {S}
+\underline {{\Delta R / R <   0}} \underline {{<   \Delta P_{S} / P_{S} <   \Delta W / W}}, \text{fo ra ni nc re as ei n} P_{S}
 
 $ $
 Real rental falls

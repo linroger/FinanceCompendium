@@ -123,7 +123,7 @@ The left panel of Figure 6.1 shows the stages of production on the horizontal ax
 
 In a conventional Heckscher-Ohlin framework, the wage ratio  $w_{H} / w_{L}$  is typically the same everywhere, even if productivity differences between countries result in different wages around the world. We have seen examples in Chapters 4 and 5. No longer here, in the presence of multiple production stages. Suppose the home economy is more abundantly endowed with high-skilled labor than the rest of the world. If this is the case, then it will be relatively less expensive to hire high-skilled labor in the home economy than it will be in the foreign economy, and
 
-$$ w _ {H} / w _ {L} <   w _ {H} ^ {*} / w _ {L} ^ {*}.
+$$ w_{H} / w_{L} <   w_{H}^{*} / w_{L}^{*}.
 $$
 
 As a consequence, when a final-goods assembler (such as a blender and roaster of coffee, for example) looks at the cost of intermediate inputs, the assembler finds the cost to increase relatively fast from one stage to the next in the offshore economy. As assembly moves from left (low-skill intensive) to right (high-skill intensive) in Figure 6.1, the cost of high-skilled labor goes up sharply in the foreign economy, where  $w_{H}^{*} / w_{L}^{*}$  is high. In contrast, when the same assembler looks at intermediate-input suppliers that produce in the home economy, the production cost starts at a higher level but increases more slowly when moving from low-skill to high-skill intensive stages because  $w_{H} / w_{L}$  is relatively low.
@@ -173,7 +173,7 @@ Key force: Varying offshoring costs by task (industry and country characteristic
 To make task trade happen, let's go back to the classic Heckscher-Ohlin model as you saw it in Chapters 4 and 5. We reuse that classic model to keep trade in final products active for realism. There are two factors of production in the benchmark model, and we can think of them as low-skilled and high-skilled labor like above. We make two important modifications. First, we allow tasks to be contracted from offshore. There is an extra contracting cost if the task is performed offshore instead of at home. We then need a second change to the conventional Heckscher-Ohlin model. There must be a wage gap between the home and foreign country. If wages were equal everywhere, then no producer would offshore any task because no producer could make up the extra cost of contracting abroad. We call the wage gap  $\omega$ . It applies to wages of both the low skilled and the high skilled workers:
 
 $$
-\omega = w _ {L} / w _ {L} ^ {*} = w _ {H} / w _ {H} ^ {*} > 1.
+\omega = w_{L} / w_{L}^{*} = w_{H} / w_{H}^{*} > 1.
 $$
 
 The wage gap  $\omega$  opens an opportunity for offshoring: Foreign labor is less expensive in terms of wages than labor at home. But foreign labor can be put to more productive use in the home economy. That productivity advantage is the reason for the relatively higher wage at home. Even under the extra contracting cost it can therefore become worthwhile to offshore some tasks.[4]
@@ -183,13 +183,13 @@ The crucial characteristic of tasks for trade is their contracting cost when the
 There are many tasks. Each task gets its own label  $j$ . When an employer contracts tasks with workers at home who are highly skilled, then the employer simply pays them the going domestic wage  $w_{H}$ . For a task contracted from  $H^{*}$  labor abroad, the foreign factor price is  $w_{H}^{*}$  and needs to be paid. In addition, there is a contracting cost multiplier of  $\tau(j) > 1$  for every task  $j$  so that the overall cost of traded tasks becomes
 
 $$
-\boldsymbol {\tau} (j) \cdot \boldsymbol {w} _ {H} ^ {*}.
+\boldsymbol {\tau} (j) \cdot \boldsymbol {w}_{H}^{*}.
 $$
 
 We can rank tasks by their costs, similar to the trick before. At one end of the range, we can place the tasks that cost relatively little to offshore so that  $\tau(j)$  is low. The lowest-ranked task incurs minimal offshoring costs of  $\tau_0$ , say, so  $t(0) = \tau_0$  and the task with label  $j = 0$  is the cheapest one to offshore. Then come tasks that are increasingly costly to offshore. High-level labels are assigned to tasks with high offshoring costs:  $t(1)$  is the contracting cost of the most expensive task to offshore. The left panel of Figure 6.2 shows the tasks on the horizontal axis, starting with the least-costly task named 0 and moving to the right through the range of tasks up to the last and most costly task named 1. The result of this convention is an increasing schedule of offshoring costs per task. The schedule can take many shapes, with flat and increasing parts wobbling around. We only know that the offshoring cost schedule can never bend back downwards under the rank ordering. To make life simple, the Figure depicts a linear schedule of offshoring costs with
 
 $$
-\tau (j) = \tau_ {0} + \tau \cdot j.
+\tau (j) = \tau_{0} + \tau \cdot j.
 $$
 
 (Mathematical Appendix 6.II presents an alternative offshoring cost schedule.)
@@ -207,7 +207,7 @@ Task Trade Choice and Cost Savings
 A simple contracting rule is as follows: Contract a task from offshore if the labor cost for the task from abroad  $\tau(j) w_H^*$  is at least as low as the onshore wage rate  $w_H$ :
 
 $$
-\tau (j) w _ {H} ^ {*} \leq w _ {H}.
+\tau (j) w_{H}^{*} \leq w_{H}.
 $$
 
 Otherwise hire domestic workers to perform the task for you. If the home wage exceeds the foreign wage times the contracting cost multiplier  $\tau(j)$ , then the task is cheaper to perform offshore. According to the rule, an industry will optimally stop contracting offshore work at a cutoff task  $J$ , where  $\tau(J) \cdot w_H^* = w_H$ . Using the wage gap  $\omega = w_H / w_H^*$  to rewrite the optimal foreign contracting rule, the last task to offshore  $J$  is the one whose cost  $\tau(J)$  satisfies
@@ -219,7 +219,7 @@ $$
 The optimal stopping point for offshoring is depicted in the left panel of Figure 6.2. Below the cutoff task  $J$  it is less costly to contract tasks abroad than at home. Above  $J$  it is less costly to employ domestic labor. The left panel of Figure 6.2 depicts this initial equilibrium. In the initial equilibrium, some offshoring already takes place. Offshore labor is performing the range of tasks up to  $J$ . For linear offshoring costs, it is easy to find  $J$  explicitly by solving the equations  $\omega = \tau(J)$  and  $\tau(J) = \tau_0 + \tau \cdot J$ . The cutoff task is
 
 $$
-J = \frac {\omega - \tau_ {0}}{\tau}.
+J = \frac{\omega - \tau_{0}}{\tau}.
 $$
 
 This solution has an intuitive interpretation. The wider the cross-country wage gap  $\omega$  is, the more offshoring there is (the further to the right the cutoff task  $J$  is). The lower the minimal offshoring cost  $\tau_0$  is and the lower the marginal offshoring cost component  $\tau$  is, the more offshoring there is (the further to the right the cutoff task  $J$  is).
@@ -452,18 +452,18 @@ Let's start with an intuitive explanation. If a stage with a skill intensity rat
 
 Now the math. The production cost of one unit of an intermediate input at stage  $s$  is
 
-$$ c (s) = w _ {H} a _ {H} (s) + w _ {L} a _ {L} (s) \qquad \mathrm {a n d} \qquad c ^ {*} (s) = \bar {\tau} w _ {H} ^ {*} a _ {H} (s) + \bar {\tau} w _ {L} ^ {*} a _ {L} (s),
+$$ c (s) = w_{H} a_{H} (s) + w_{L} a_{L} (s) \qquad \mathrm{an d} \qquad c^{*} (s) = \bar {\tau} w_{H}^{*} a_{H} (s) + \bar {\tau} w_{L}^{*} a_{L} (s),
 $$ onshore (no asterisk) and offshore (asterisk), under our assumption that high-skilled and low-skilled labor enters in fixed proportions. The parameters  $a_{H}(s)$  and  $a_{L}(s)$  are the unit labor requirements of high-skilled workers and low-skilled workers. (Microeconomists call the underlying production function a Leontief production function, for which output  $M(s)$  at each intermediate production stage  $s$  is  $M(s) = \min \{H(s) / a_{H}(s), L(s) / a_{L}(s)\}$ .) The variable  $\bar{\tau}$  denotes the cost of doing business in the offshore economy, which assemblers in the home and foreign economies have to pay when they procure intermediate inputs from the offshore economy. The offshoring cost  $\bar{\tau}$  is constant and does not differ for tasks.
 
 
 Recall the assumption that the onshore economy relatively more abundantly endowed with high-skilled labor, so the relative wage of high skilled workers is lower at home than offshore:
 
-$$ w _ {H} / w _ {L} <   w _ {H} ^ {*} / w _ {L} ^ {*}.
+$$ w_{H} / w_{L} <   w_{H}^{*} / w_{L}^{*}.
 $$
 
 As a consequence, the production cost of one unit of an intermediate input goes up strongly in the offshore economy where  $w_{H}^{*} / w_{L}^{*}$  is high. In contrast, the cost of an intermediate input increases more slowly in the onshore economy because  $w_{H} / w_{L}$  is relatively low. The left panel of Figure 6.6 depicts the production cost by stage  $s$  in the two economies. Assemblers in both economies consider the cost differences. It is optimal for them to purchase from offshore all of the intermediate inputs  $\underline{s}$  for which  $c^{*}(\underline{s}) < c(\underline{s})$ . Assemblers buy from the onshore economy production stages all the intermediate inputs  $\bar{s}$  for which  $c^{*}(\bar{s}) \geq c(\bar{s})$ . This implies that there is a unique threshold of skill intensity  $\hat{s}$  below which intermediate inputs are sourced from offshore and above which intermediate inputs are source from onshore. At the threshold  $\hat{s}$
 
-$$ c ^ {*} (\hat {s}) = c (\hat {s}).
+$$ c^{*} (\hat {s}) = c (\hat {s}).
 $$
 
 As the right panel of Figure 6.6 shows, the threshold  $\hat{s}$  shifts to the right when  $\bar{\tau}$  drops and  $c^*(s)$  falls for every  $s$ .
@@ -477,7 +477,7 @@ As explained in footnote 4 before, we can tie the wage gap to a productivity dif
 If the home wage exceeds the foreign wage times the contracting cost multiplier, then the task is cheaper to perform offshore. An industry will optimally stop foreign contracting at a cutoff task  $J$  where
 
 $$
-\tau (J) w _ {H} ^ {*} = w _ {H}.
+\tau (J) w_{H}^{*} = w_{H}.
 $$
 
 At the task  $J$ , each onshore industry is indifferent between using contract labor from offshore at cost  $\tau(J)w_{H}^{*}$  or from onshore at cost  $w_{H}$ . The left panel of Figure 6.2 depicts the optimal stopping point for offshoring at the cutoff task  $J$ . Using the cross-country wage gap  $\omega = w_{H} / w_{H}^{*} = A / A^{*}$  to rewrite the optimal foreign contracting rule, the last task to offshore  $J$  is the one whose individual cost  $\tau(J)$  satisfies
@@ -495,7 +495,7 @@ In each industry  $i$ , the last task  $J$  to be offshored satisfies the condit
 With the unit cost complete, we can state
 
 $$
-\begin{array}{l} { p _ { i } } { = } { w _ { L } a _ { L i } + ( 1 - J ) w _ { H } a _ { H i } + [ \omega J - B ( J ) ] w _ { H } ^ { * } a _ { H i } } \\ = w _ {L} a _ {L i} + w _ {H} a _ {H i} - w _ {H} ^ {*} a _ {H i} B (J), \\ = w _ {L} a _ {L i} + w _ {H} \left[ 1 - B (J) / \omega \right] a _ {H i}, \\ \end{array}
+\begin{array}{l} { p_{ i } } { = } { w_{ L } a_{ L i } + ( 1 - J ) w_{ H } a_{ H i } + [ \omega J - B ( J ) ] w_{ H }^{ * } a_{ H i } } \\ = w_{L} a_{L i} + w_{H} a_{H i} - w_{H}^{*} a_{H i} B (J), \\ = w_{L} a_{L i} + w_{H} \left[ 1 - B (J) / \omega \right] a_{H i}, \\ \end{array}
 $$ where  $a_{Li}$  and  $a_{Hi}$  are the unit factor requirements to make one good in industry  $i$  and  $B(J)$  is the total cost savings benefit. The first equality sets the price equal to the sum of the unit labor cost for  $L$ , plus the unit labor cost for the  $1 - J$  tasks performed by  $H$ , plus the unit labor cost for the  $J$  tasks performed by offshore  $H^*$  labor. The second equality follows after plucking the optimality condition  $w_H / w_H^* = \tau(J)$  into the first equality. The third equality follows from collecting terms and using the constant  $\omega = w_H / w_H^*$  to simplify.
 
 

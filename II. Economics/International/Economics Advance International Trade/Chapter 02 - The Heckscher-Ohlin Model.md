@@ -115,23 +115,23 @@ endowments of country i. To do so, we can proceed by computing  $\mathrm{AY}^{\m
 Making use of these expressions for  $\mathrm{AY}^{\mathrm{i}}$  and  $\mathrm{AD}^{\mathrm{i}}$ , we have therefore proved:
 
 $$
-F ^ {i} \equiv A T ^ {i} = V ^ {i} - s ^ {i} V ^ {w}, \tag {2.1}
+F^{i} \equiv A T^{i} = V^{i} - s^{i} V^{w}, \tag {2.1}
 $$
 
-which is a statement of the Heckscher-Ohlin-Vanek (HOV) Theorem. In terms of individual factors, this is written as  $\mathrm{F_k^i = V_k^i - s^iV_k^w}$ . If country i's endowment of factor k relative to the world endowment exceeds country i's share of world GDP ( $\mathrm{V_k^i / V_k^w > s^i}$ ), then we say that country i is abundant in that factor. In that case, (2.1) says that the factor-content of trade in factor k should also be positive ( $\mathrm{F_k^i > 0}$ ), and conversely if country i is scarce in factor k
+which is a statement of the Heckscher-Ohlin-Vanek (HOV) Theorem. In terms of individual factors, this is written as  $\mathrm{F_k^i =V_k^i -s^iV_k^w}$ . If country i's endowment of factor k relative to the world endowment exceeds country i's share of world GDP ( $\mathrm{V_k^i /V_k^w >s^i}$ ), then we say that country i is abundant in that factor. In that case, (2.1) says that the factor-content of trade in factor k should also be positive ( $\mathrm{F_k^i >0}$ ), and conversely if country i is scarce in factor k
 
 $$
-(\mathrm {V _ {k} ^ {i}} / \mathrm {V _ {k} ^ {w}} <   s ^ {i}).
+(\mathrm{V_{k}^{i}} / \mathrm{V_{k}^{w}} <   s^{i}).
 $$
 
 What does the HOV Theorem tell us about the Leontief test? To answer this, let us focus on just two elements of the factor-content vector, for labor and capital. These are written as:
 
 $$
-F _ {k} ^ {i} = K ^ {i} - s ^ {i} K ^ {w}, \tag {2.2a}
+F_{k}^{i} = K^{i} - s^{i} K^{w}, \tag {2.2a}
 $$
 
 $$
-F _ {\ell} ^ {i} = L ^ {i} - s ^ {i} L ^ {w}, \tag {2.2b}
+F_{\ell}^{i} = L^{i} - s^{i} L^{w}, \tag {2.2b}
 $$
 
 where  $\mathrm{F_k^i}$  and  $\mathrm{F}_{\ell}^{\mathrm{i}}$  are the computed factor contents of trade, and  $\mathbf{K}^{\mathrm{i}}$  and  $\mathbf{L}^{\mathrm{i}}$  are the capital and labor endowments for country i. Following Leamer (1980), we define capital to be abundant relative to labor in country i if  $\mathrm{K}^{\mathrm{i}} / \mathrm{K}^{\mathrm{w}} > \mathrm{L}^{\mathrm{i}} / \mathrm{L}^{\mathrm{w}}$ . Then using (2.2), the implications of capital abundance are:
@@ -141,7 +141,7 @@ where  $\mathrm{F_k^i}$  and  $\mathrm{F}_{\ell}^{\mathrm{i}}$  are the computed
 If capital is abundant relative to labor in country  $i$ , then the HOV Theorem (2.1) implies that the capital/labor ratio embodied in production for country  $i$  exceeds the capital/labor ratio embodied in consumption:
 
 $$
-\mathrm {K} ^ {\mathrm {i}} / \mathrm {L} ^ {\mathrm {i}} > \left(\mathrm {K} ^ {\mathrm {i}} - \mathrm {F} _ {\mathrm {k}} ^ {\mathrm {i}}\right) / \left(\mathrm {L} ^ {\mathrm {i}} - \mathrm {F} _ {\ell} ^ {\mathrm {i}}\right). \tag {2.3}
+\mathrm{K}^{\mathrm{i}} / \mathrm{L}^{\mathrm{i}} > \left(\mathrm{K}^{\mathrm{i}} - \mathrm{F}_{\mathrm{k}}^{\mathrm{i}}\right) / \left(\mathrm{L}^{\mathrm{i}} - \mathrm{F}_{\ell}^{\mathrm{i}}\right). \tag {2.3}
 $$
 
 Proof:
@@ -176,7 +176,7 @@ The statement of the HOV Theorem in (2.1) tells us immediately how a complete te
 Let us assume that the number of goods equals the number of factors, so that A is a square matrix, which we assume is invertible. Then we can re-write (2.1) as:
 
 $$
-\mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {- 1} \left(\mathrm {V} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} ^ {\mathrm {w}}\right). \tag {2.4}
+\mathrm{T}^{\mathrm{i}} = \mathrm{A}^{- 1} \left(\mathrm{V}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}\right). \tag {2.4}
 $$
 
 This equation could be tested in several ways. First, if we think about the matrix  $\mathbf{A}^{-1}$  as data, then we could run a regression of  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}^{-1}$ , and coefficients obtained would serve as an estimate of the relative abundance  $(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{W}})$  of each factor. Baldwin (1971) performed a test similar to this, but instead of regressing  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}^{-1}$ , he actually regressed  $\mathbf{T}^{\mathrm{i}}$  on  $\mathbf{A}'$ . With two factors and
@@ -191,7 +191,7 @@ Adjusted net exports  $= -1.37^{*}$  (Physical Capital/Worker)  $+7011^{*}$  (Sc
 + 761 (Unskilled Employee/Worker) +  $845^{*}$  (Farmers/Worker)
 + (Other variables included for industry scale and unionization),
 
-$\mathrm{N} = 60, \mathrm{R}^{2} = 0.44, * = \text{significant at } 95\%$  level
+$\mathrm{N} = 60, \mathrm{R}^{2} = 0.44, * = \text{significantat } 95\%$  level
 
 Thus, looking across the U.S. industries, Baldwin finds that those industries using more scientist, craftsmen and foremen, or farmers relative to total workers, will tend to have higher exports. The importance of scientists and farmers in predicting U.S. exports is not surprising at all, since the U.S. is abundant in skilled-labor and land; and the importance of craftsmen and foremen is perhaps reasonable, too. What is surprising, however, is the negative coefficient found on the very first variable, physical capital/worker. Taken literally, this coefficient says that U.S. industries using more capital/worker will tend to export less. This is exactly the
 
@@ -200,7 +200,7 @@ opposite of what we would expect if the U.S. were capital-abundant. Thus, this r
 Various writers after Baldwin have redone the type of regression shown above, with mixed results: sometimes the capital coefficient is positive, but other times it is again negative (see the survey by Deardorff, 1984a). What are we to make of these results? Well, as we argued for Leontief's original paradox, it can be questioned whether Baldwin's approach is a valid test of the HOV model. From (2.4), a valid test would be to regress  $\mathrm{T}^{\mathrm{i}}$  on  $\mathrm{A}^{-1}$ , but instead, Baldwin regressed  $\mathrm{T}^{\mathrm{i}}$  on  $\mathrm{A}^{\prime}$ . To see the consequences of this, use the ordinary least squares (OLS) formula for the coefficients  $\beta$  that would be obtained from this regression:
 
 $$
-\mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {\prime} \beta \Rightarrow \hat {\beta} = \left(\mathrm {A A} ^ {\prime}\right) ^ {- 1} \mathrm {A T} ^ {\mathrm {i}} = \left(\mathrm {A A} ^ {\prime}\right) ^ {- 1} \left(\mathrm {V} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} ^ {\mathrm {w}}\right), \tag {2.5}
+\mathrm{T}^{\mathrm{i}} = \mathrm{A}^{\prime} \beta \Rightarrow \hat {\beta} = \left(\mathrm{AA}^{\prime}\right)^{- 1} \mathrm{AT}^{\mathrm{i}} = \left(\mathrm{AA}^{\prime}\right)^{- 1} \left(\mathrm{V}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}\right), \tag {2.5}
 $$
 
 where the final equality follows from using the HOV Theorem (2.1).
@@ -212,7 +212,7 @@ The careful reader might point out, however, that possible differences in the si
 A second "partial test" of the HOV Theorem in equation (2.4) has been used by Leamer (1984). In contrast to Baldwin, Leamer tested (2.4) by treating factor endowments  $(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}})$  as data, while estimating the elements of  $\mathbf{A}^{-1}$ . To describe this test, notice that (2.4) applies across all countries i. Focusing on a single industry j, and letting the elements of  $\mathbf{A}^{-1}$  be written as  $\beta_{jk}$ , we can write (2.4) in scalar form as:
 
 $$
-\mathrm {T} _ {\mathrm {j}} ^ {\mathrm {i}} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {N}} \beta_ {\mathrm {j k}} \left(\mathrm {V} _ {\mathrm {k}} ^ {\mathrm {i}} - \mathrm {s} ^ {\mathrm {i}} \mathrm {V} _ {\mathrm {k}} ^ {\mathrm {w}}\right), \quad \mathrm {i} = 1, \dots , \mathrm {C}. \tag {2.6}
+\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} = \sum_{\mathrm{k} = 1}^{\mathrm{N}} \beta_{\mathrm{jk}} \left(\mathrm{V}_{\mathrm{k}}^{\mathrm{i}} - \mathrm{s}^{\mathrm{i}} \mathrm{V}_{\mathrm{k}}^{\mathrm{w}}\right), \quad \mathrm{i} = 1, \dots , \mathrm{C}. \tag {2.6}
 $$
 
 Notice that the summation in (2.6) is across factors, while the observations are across countries. Thus, to estimate this regression we would combine the observation for a single industry  $j$  across multiple countries  $i = 1,\dots,C$ , where the coefficients  $\beta_{jk}$  are estimated. These coefficients should be interpreted as Rybczynski effects, and as shown in chapter 1, can be positive or negative.
@@ -240,11 +240,11 @@ The first complete test of the HOV theorem was by Bowen, Leamer and Sveikaukas (
 
 Table 2.4: Tests of the Heckscher-Ohlin Model
 
-<table><tr><td></td><td colspan="3">Data used:</td><td>Method:</td></tr><tr><td>Authors:</td><td>Trade</td><td>Technology</td><td>Factor endowments</td><td></td></tr><tr><td>Leontief (1953)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio of exports and imports</td></tr><tr><td>Leamer (1980)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio in production and consumption</td></tr><tr><td>Baldwin (1971)</td><td>yes</td><td>U.S.</td><td>no</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{\prime}(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}}) \\ \text{data data} \end{array} \)</td></tr><tr><td>Leamer (1984)</td><td>yes</td><td>no</td><td>yes</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{-1}(\underline{\mathbf{V}}^{\mathrm{i}} - \underline{\mathbf{s}}^{\mathrm{i}}\underline{\mathbf{V}}^{\mathrm{w}}) \\ \text{data data} \end{array} \)</td></tr><tr><td>Bowen, Leamer &amp; Sveikaukas (1987)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Sign test and rank test</td></tr><tr><td>Trefler (1993)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \pi_{k}^{i} \)</td></tr><tr><td>Trefler (1995)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \delta^{i} \) (and more)</td></tr><tr><td>Davis and Weinstein (2001a)</td><td>yes</td><td>Many countries</td><td>yes</td><td>Estimate \( A^{i} \) from data</td></tr></table>
+<table><tr><td></td><td colspan="3">Data used:</td><td>Method:</td></tr><tr><td>Authors:</td><td>Trade</td><td>Technology</td><td>Factor endowments</td><td></td></tr><tr><td>Leontief (1953)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio of exports and imports</td></tr><tr><td>Leamer (1980)</td><td>yes</td><td>U.S.</td><td>no</td><td>Compared (K/L) ratio in production and consumption</td></tr><tr><td>Baldwin (1971)</td><td>yes</td><td>U.S.</td><td>no</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{\prime}(\mathbf{V}^{\mathrm{i}} - \mathbf{s}^{\mathrm{i}}\mathbf{V}^{\mathrm{w}}) \\ \text{datadata} \end{array} \)</td></tr><tr><td>Leamer (1984)</td><td>yes</td><td>no</td><td>yes</td><td>\( \begin{array}{l} \underline{\mathbf{T}}^{\mathrm{i}} = \underline{\mathbf{A}}^{-1}(\underline{\mathbf{V}}^{\mathrm{i}} - \underline{\mathbf{s}}^{\mathrm{i}}\underline{\mathbf{V}}^{\mathrm{w}}) \\ \text{datadata} \end{array} \)</td></tr><tr><td>Bowen, Leamer &amp; Sveikaukas (1987)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Sign test and rank test</td></tr><tr><td>Trefler (1993)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \pi_{k}^{i} \)</td></tr><tr><td>Trefler (1995)</td><td>yes</td><td>U.S.</td><td>yes</td><td>Allow for productivity parameters \( \delta^{i} \) (and more)</td></tr><tr><td>Davis and Weinstein (2001a)</td><td>yes</td><td>Many countries</td><td>yes</td><td>Estimate \( A^{i} \) from data</td></tr></table>
 
-Sign test:  $\mathrm{sign(F_k^i) = sign(V_k^i - s^iV_k^w)},\qquad i = 1,\ldots ,C;k = 1,\ldots ,M;$
+Sign test:  $\mathrm{sign(F_k^i) =sign(V_k^i -s^iV_k^w)},\qquad i = 1,\ldots ,C;k = 1,\ldots ,M;$
 
-Rank test:  $\mathrm{F_k^i > F_\ell^i\iff(V_k^i - s^iV_k^w) > (V_\ell^i - s^iV_\ell^w), i = 1,\ldots,C; k = 1,\ldots,M.}$
+Rank test:  $\mathrm{F_k^i >F_\ell^i\iff(V_k^i -s^iV_k^w) > (V_\ell^i -s^iV_\ell^w),i =1,\ldots,C;k =1,\ldots,M.}$
 
 The first of these tests simply compares the sign pattern on the left and right of (2.1). With M factors and C countries, there are MC observations in total, and we are interested in what percentage of these have the same sign on the two sides of the equation. Notice that a completely random pattern of signs such as obtained by flipping a coin would still generate correct signs  $50\%$  of the time in a large sample. Therefore, the sign test must do considerably better than this in order to conclude that the HOV Theorem is successful.
 
@@ -273,7 +273,7 @@ Trefler (1993) takes the first approach, and allows all factors in every country
 effective endowment of factor  $k$  in country  $i$  becomes  $\pi_k^i V_k^i$ . Let  $A$  now denote the amount of effective factors needed per unit of output in each industry. We continue to assume that factor-price equalization holds in terms of effective factor prices, so with identical technologies, the matrix  $A$  is the same across countries. Thus, we continue to measure the factor-content of trade as  $F^i \equiv AT^i$ . Then the HOV equation (2.1) is re-written in terms of effective factor endowments as:
 
 $$
-F _ {k} ^ {i} = \pi_ {k} ^ {i} V _ {k} ^ {i} - s ^ {i} \sum_ {j = 1} ^ {C} \pi_ {k} ^ {j} V _ {k} ^ {j}, \quad i = 1, \dots , C; k = 1, \dots , M. \tag {2.7}
+F_{k}^{i} = \pi_{k}^{i} V_{k}^{i} - s^{i} \sum_{j = 1}^{C} \pi_{k}^{j} V_{k}^{j}, \quad i = 1, \dots , C; k = 1, \dots , M. \tag {2.7}
 $$
 
 There are MC equations in (2.7), and M(C-1) productivity parameters. These equations are not independent, however. For any factor  $k$ , if we sum (2.7) across countries  $i = 1,\dots,C$  then we must obtain zero on both sides: exports equal imports for the world, even when measured in terms of factor contents. So we can drop the equations for one country, and we do so for the U.S. This leaves M(C-1) equations in M(C-1) parameters. These equations will be independent "almost everywhere," i.e. for almost all sets of data on endowments and factor-contents of trade. Furthermore, the productivity parameters enter (2.7) linearly, so the M(C-1) equations in (2.7) can be inverted to solve for these uniquely. Thus, we have established:
@@ -296,7 +296,7 @@ Figure 2.4
 we are back in the traditional econometric approach: choosing the parameters of  $\mathbf{A}^{\mathrm{i}}$  so as to minimize the sum of squared residuals of the HOV equations. To implement this, we need to model  $\mathbf{A}^{\mathrm{i}}$  in terms of some productivity differences across countries. The initial case that Trefler considers is where the matrices  $\mathbf{A}^{\mathrm{i}}$  differ by a uniform amount across countries:
 
 $$
-\delta^ {\mathrm {i}} \mathrm {A} ^ {\mathrm {i}} = \mathrm {A} ^ {\mathrm {U S}}, \tag {2.8}
+\delta^{\mathrm{i}} \mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}}, \tag {2.8}
 $$
 
 which implies  $\mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}} / \delta^{\mathrm{i}}$ . With  $\delta^{\mathrm{i}} < 1$ , this means that  $\mathrm{A}^{\mathrm{i}} > \mathrm{A}^{\mathrm{US}}$ , so that country i is less productive and requires more labor, capital, and other resources for a unit of production relative to the U.S..
@@ -304,7 +304,7 @@ which implies  $\mathrm{A}^{\mathrm{i}} = \mathrm{A}^{\mathrm{US}} / \delta^{\ma
 With the assumption (2.8), we need to re-derive the HOV equation. From full-employment, we still have  $\mathbf{A}^{\mathrm{i}}\mathbf{Y}^{\mathrm{i}} = \mathbf{V}^{\mathrm{i}}$ . We continue to make the assumption of identical and homothetic tastes across countries, so the factor content of trade is computed as:
 
 $$
-\mathrm {A} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i}} = \mathrm {A} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \mathrm {D} ^ {\mathrm {i}} = \mathrm {V} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \left(\mathrm {s} ^ {\mathrm {i}} \mathrm {D} ^ {\mathrm {w}}\right) = \mathrm {V} ^ {\mathrm {i}} - \mathrm {A} ^ {\mathrm {i}} \left(\mathrm {s} ^ {\mathrm {i}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \mathrm {Y} ^ {\mathrm {j}}\right). \tag {2.9}
+\mathrm{A}^{\mathrm{i}} \mathrm{T}^{\mathrm{i}} = \mathrm{A}^{\mathrm{i}} \mathrm{Y}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \mathrm{D}^{\mathrm{i}} = \mathrm{V}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \left(\mathrm{s}^{\mathrm{i}} \mathrm{D}^{\mathrm{w}}\right) = \mathrm{V}^{\mathrm{i}} - \mathrm{A}^{\mathrm{i}} \left(\mathrm{s}^{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{C}} \mathrm{Y}^{\mathrm{j}}\right). \tag {2.9}
 $$
 
 To make further progress with (2.9), let us multiply both sides by  $\delta^i$ . On the left, we would obtain  $\delta^i A^i T^i = A^{US} T^i \equiv F^{iUS}$ . That is, we define  $F^{iUS}$  as the factor-content of trade for country  $i$ , computed by using the U.S. factor requirements matrix. (Recall that this is what Leontief used, as well as all other researchers discussed above). By also multiplying the right of (2.9) by  $\delta^i$ , the matrix  $A^i$  appearing in the last term becomes instead  $\delta^i A^i = A^{US}$ . Since this term now does not depend on the country  $i$ , it can be brought inside the summation on the far right of (2.9), to obtain  $\sum_{j=1}^{C} A^{US} Y^j = \sum_{j=1}^{C} \delta^j A^j Y^j = \sum_{j=1}^{C} \delta^j V^j$ , where the final equality makes use of the full-
@@ -312,7 +312,7 @@ To make further progress with (2.9), let us multiply both sides by  $\delta^i$ .
 employment conditions in country  $j = 1, \dots, C$ . Substituting these results back into (2.9), we have therefore derived:
 
 $$
-F ^ {i U S} \equiv A ^ {U S} T ^ {i} = \delta^ {i} V ^ {i} - \left(s ^ {i} \sum_ {j = 1} ^ {C} \delta^ {j} V ^ {j}\right). \tag {2.10}
+F^{i U S} \equiv A^{U S} T^{i} = \delta^{i} V^{i} - \left(s^{i} \sum_{j = 1}^{C} \delta^{j} V^{j}\right). \tag {2.10}
 $$
 
 This becomes the statement of the HOV Theorem when we allow for uniform technological differences across countries: the factor-content of trade, measured with the U.S. technology on the left, should equal the relative factor endowments on the right, where these are each adjusted by the technological parameter of each country. Unlike equation (2.7), however, (2.10) will certainly not hold exactly. We therefore introduce an additive error, and choose the parameters  $\delta^i$  to minimize the sum of squared residuals of this equation.
@@ -336,13 +336,13 @@ The reader will notice in Table 2.4 that most complete tests of the HOV Theorem,
 In addition to using the actual data on  $\mathbf{A}^{\mathrm{i}}$  across countries, let us assume that the output of every good is distributed around the world in proportion to the purchasing country's GDP. $^{18}$  We now keep track of the bilateral trades between countries, so let  $\mathbf{X}^{\mathrm{ij}}$  denote the gross exports of goods from country  $i$  to country  $j$ . (Note that this is related to the net exports of country  $i$  by  $\mathbf{T}^{\mathrm{i}} = \sum_{\mathrm{j} \neq i} \mathbf{X}^{\mathrm{ij}} - \sum_{\mathrm{j} \neq i} \mathbf{X}^{\mathrm{ji}}$ ). Using our assumption regarding the distribution of outputs around the world, the bilateral exports may be written as:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {i}}, \tag {2.11}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{Y}^{\mathrm{i}}, \tag {2.11}
 $$
 
 where  $s^j = \mathrm{GDP}^j / \mathrm{GDP}^w$  is the ratio of country  $j$ 's GDP to world GDP. $^{19}$  In order to measure the factor-content of these bilateral exports, we use the primary factor requirements of the exporting country  $i$ , and define  $F^{ij} \equiv A^i X^{ij}$  as the factor contents of exports from country  $i$  to country  $j$ . It follows from (2.11) that:
 
 $$
-\mathrm {F} ^ {\mathrm {i j}} \equiv \mathrm {A} ^ {\mathrm {i}} \mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {A} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {i}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {V} ^ {\mathrm {i}}, \tag {2.11'}
+\mathrm{F}^{\mathrm{ij}} \equiv \mathrm{A}^{\mathrm{i}} \mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{A}^{\mathrm{i}} \mathrm{Y}^{\mathrm{i}} = \mathrm{s}^{\mathrm{j}} \mathrm{V}^{\mathrm{i}}, \tag {2.11'}
 $$
 
 where the final equality follows from full employment.
@@ -350,7 +350,7 @@ where the final equality follows from full employment.
 Using simple algebra we can re-write the relative endowments of country  $i$  as,
 
 $$
-\mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j}} \mathbf {V} ^ {\mathrm {j}}\right) = \left(1 - \mathbf {s} ^ {\mathrm {i}}\right) \mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {V} ^ {\mathrm {j}}\right) = \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {s} ^ {\mathrm {j}}\right) \mathbf {V} ^ {\mathrm {i}} - \mathbf {s} ^ {\mathrm {i}} \left(\sum_ {\mathrm {j} \neq \mathrm {i}} \mathbf {V} ^ {\mathrm {j}}\right).
+\mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j}} \mathbf {V}^{\mathrm{j}}\right) = \left(1 - \mathbf {s}^{\mathrm{i}}\right) \mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {V}^{\mathrm{j}}\right) = \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {s}^{\mathrm{j}}\right) \mathbf {V}^{\mathrm{i}} - \mathbf {s}^{\mathrm{i}} \left(\sum_{\mathrm{j} \neq \mathrm{i}} \mathbf {V}^{\mathrm{j}}\right).
 $$
 
 Now make use of the factor content of exports in (2.11'),  $\mathrm{F}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}}\mathrm{V}^{\mathrm{i}}$ . This term is summed over
@@ -362,7 +362,7 @@ all destination countries  $j \neq i$ , and appears as the first term on the rig
 If the output of every good is distributed around the world in proportion to the purchasing country's GDP, then,
 
 $$
-V ^ {i} - s ^ {i} \left(\sum_ {j} V ^ {j}\right) = \left(\sum_ {j \neq i} F ^ {i j}\right) - \left(\sum_ {j \neq i} F ^ {j i}\right). \tag {2.13}
+V^{i} - s^{i} \left(\sum_{j} V^{j}\right) = \left(\sum_{j \neq i} F^{i j}\right) - \left(\sum_{j \neq i} F^{j i}\right). \tag {2.13}
 $$
 
 The first term on the right of (2.13) is the factor content of exports from country i to all countries  $j \neq i$ , and the second term is the factor content of imports from all countries  $j \neq i$  to country i. The factor content of country i's multilateral net exports is measured by the difference between these, and (2.13) therefore shows that the factor content of country i's multilateral net exports (on the right) equals its relative factor endowments (on the left). We stress that this HOV equation is automatically satisfied if the hypothesis of the theorem holds true.
@@ -378,13 +378,13 @@ Deardorff's test of comparative advantage can be motivated with the simple 2x2x2
 prove carefully in chapter 6, the representative consumer is better off with this free-trade consumption than in autarky: there are gains from trade. It follows from revealed-preference that the representative consumer in country i could not afford the free-trade consumption vector at the autarky prices, that is,  $\mathrm{p^{ia} \cdot D^i \geq p^{ia} \cdot D^{ia}}$ . Pulling together these various inequalities, we therefore have,
 
 $$
-p ^ {i a}, D ^ {i} \geq p ^ {i a}, D ^ {i a} = p ^ {i a}, Y ^ {i a} \geq p ^ {i a}, Y ^ {i}. \tag {2.14}
+p^{i a}, D^{i} \geq p^{i a}, D^{i a} = p^{i a}, Y^{i a} \geq p^{i a}, Y^{i}. \tag {2.14}
 $$
 
 Comparing the first and last of these expressions, we see that  $p^{\mathrm{ia}} \left( D^i - Y^i \right) \geq 0$ . But since the net exports of country  $i$  are denoted by  $T^i = Y^i - D^i$ , it follows that  $p^{\mathrm{ia}} T^i \leq 0$ . Also, we have implicitly assumed above that trade is balanced for all countries, meaning that  $p^{\prime} T^i = 0$ , where  $p$  is the vector of free trade prices. Therefore, we have derived the key result of Deardorff (1984b):
 
 $$
-\left(p ^ {i a} - p\right) ^ {\prime} T ^ {i} \leq 0. \tag {2.15}
+\left(p^{i a} - p\right)^{\prime} T^{i} \leq 0. \tag {2.15}
 $$
 
 In words, countries will tend to export those goods  $(\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} > 0)$  whose autarky prices are below the trade prices, and import those goods  $(\mathrm{T}_{\mathrm{j}}^{\mathrm{i}} < 0)$  whose autarky prices are above the trade prices. This certainly held in our  $2 \times 2 \times 2$  model at the beginning of the chapter, where the home country exported good 1 (with  $\mathfrak{p} > \mathfrak{p}^{\mathrm{a}}$ ) and imported good 2. The inequality in (2.15) shows that this type of result holds in general, with any number of goods and factors.
@@ -404,7 +404,7 @@ the amount  $X^{ij}$  in goods, using the same methods as employed in country i.
 however, country  $j$  could do better than that: because factor prices differ between the countries, the importing country might not want to use the same methods as the exporter, and will end up producing more by choosing methods attuned to its own factor prices. Thus, if we evaluated GDP in country  $j$  using the hypothetical factor imports  $\mathbf{F}^{\mathrm{ij}}$ , it must exceed the value obtained with the import of goods:
 
 $$
-\begin{array}{l} p ^ {\prime} (Y ^ {j} + X ^ {i j}) \leq G (p, V ^ {j} + F ^ {i j}) \\ \leq \mathrm {G} (\mathrm {p}, \mathrm {V} ^ {\mathrm {j}}) + \left[ \partial \mathrm {G} (\mathrm {p}, \mathrm {V} ^ {\mathrm {j}}) / \partial \mathrm {V} ^ {\mathrm {j}} \right] ^ {\prime} \mathrm {F} ^ {\mathrm {i j}} \tag {2.16} \\ = \mathrm {p} ^ {\prime} \mathrm {Y} ^ {\mathrm {j}} + \mathrm {w} ^ {\mathrm {j}} ^ {\prime} \mathrm {F} ^ {\mathrm {i j}}. \\ \end{array}
+\begin{array}{l} p^{\prime} (Y^{j} + X^{i j}) \leq G (p, V^{j} + F^{i j}) \\ \leq \mathrm{G} (\mathrm{p}, \mathrm{V}^{\mathrm{j}}) + \left[ \partial \mathrm{G} (\mathrm{p}, \mathrm{V}^{\mathrm{j}}) / \partial \mathrm{V}^{\mathrm{j}} \right]^{\prime} \mathrm{F}^{\mathrm{ij}} \tag {2.16} \\ = \mathrm{p}^{\prime} \mathrm{Y}^{\mathrm{j}} + \mathrm{w}^{\mathrm{j}}^{\prime} \mathrm{F}^{\mathrm{ij}}. \\ \end{array}
 $$
 
 The second line of (2.16) follows because the GDP function is concave in the factor
@@ -414,19 +414,19 @@ endowments, and the last line follows because the derivative of the GDP function
 Taking the difference between the first and last lines of (2.16), we therefore have  $\mathsf{p}'\mathbf{X}^{\mathrm{ij}} \leq \mathsf{w}^{\mathrm{j}}\mathbf{F}^{\mathrm{ij}}$ , so that the value of bilateral exports in goods is less than the value of embodied factors, using the importing country's factor prices. If instead we had used the exporting country's factor prices, however, then with constant returns to scale the value of output would just equal the value of factors used, so that  $\mathsf{p}'\mathbf{X}^{\mathrm{ij}} = \mathsf{w}^{\mathrm{i}}\mathbf{F}^{\mathrm{ij}}$ . Combining this with the previous inequality we therefore have:
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \mathrm {F} ^ {\mathrm {i j}} \geq 0. \tag {2.17}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \mathrm{F}^{\mathrm{ij}} \geq 0. \tag {2.17}
 $$
 
 Furthermore, by repeating this exercise but focusing on net exports from country  $j$  to country  $i$ , measured using country  $j$ 's technology, we can derive that:
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \mathrm {F} ^ {\mathrm {j i}} \leq 0. \tag {2.18}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \mathrm{F}^{\mathrm{ji}} \leq 0. \tag {2.18}
 $$
 
 Putting together these two inequalities, we therefore obtain the key result of Helpman (1984a):
 
 $$
-\left(\mathrm {w} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {i}}\right) ^ {\prime} \left(\mathrm {F} ^ {\mathrm {i j}} - \mathrm {F} ^ {\mathrm {j i}}\right) \geq 0. \tag {2.19}
+\left(\mathrm{w}^{\mathrm{j}} - \mathrm{w}^{\mathrm{i}}\right)^{\prime} \left(\mathrm{F}^{\mathrm{ij}} - \mathrm{F}^{\mathrm{ji}}\right) \geq 0. \tag {2.19}
 $$
 
 These inequalities can be interpreted as saying that factors embodied in trade should flow towards the country with higher factor price, i.e. if factor  $k$  has a higher price in country  $j$ ,  $(w_{k}^{j} - w_{k}^{i}) > 0$ , then we should have  $F_{k}^{ij} > 0$  in (2.17) or  $F_{k}^{ji} < 0$  in (2.18) for at least some factors  $k$ , so that (2.17)-(2.19) hold when we add up across factors.
@@ -453,7 +453,7 @@ be explicable based on underlying causes. Increasing returns to scale might be o
 2.2 An assumption of the Heckscher-Ohlin-Vanek model, as outlined in this chapter, is that tastes are identical across countries and also homothetic. The latter is an unrealistic assumption because of Engel's Law: expenditures on food are a declining share of total income. Following Hunter and Markusen (1989), we can introduce non-homothetic tastes using a linear expenditure system. Denoting per-capital consumption of good  $i$  in any country  $j$  by  $d_i^j$ , we suppose that the utility function is given by:
 
 $$
-U ^ {j} = \prod_ {i = 1} ^ {N} \left(d _ {i} ^ {j} - \bar {d} _ {i}\right) ^ {\phi_ {i}}, \quad \text {w i t h} \quad \sum_ {i = 1} ^ {N} \phi_ {i} = 1.
+U^{j} = \prod_{i = 1}^{N} \left(d_{i}^{j} - \bar {d}_{i}\right)^{\phi_{i}}, \quad \text{wi th} \quad \sum_{i = 1}^{N} \phi_{i} = 1.
 $$
 
 The parameters  $\overline{\mathrm{d}}_{\mathrm{i}} \geq 0$  in the utility function are interpreted as the "minimum consumption" of each commodity  $i = 1, \dots, N$ . They are assumed to be the same across countries, as are the parameters  $\phi_{\mathrm{i}} > 0$ .
@@ -461,7 +461,7 @@ The parameters  $\overline{\mathrm{d}}_{\mathrm{i}} \geq 0$  in the utility func
 (a) Assuming that per-capita income  $\mathrm{I}^{\mathrm{j}}$  is large enough to afford the "minimum consumption", then show that per-capita demand for each commodity in country j is given by:
 
 $$
-\mathsf {d} _ {\mathrm {i}} ^ {\mathrm {j}} = \overline {{\mathsf {d}}} _ {\mathrm {i}} + \phi_ {\mathrm {i}} (\mathsf {I} ^ {\mathrm {j}} - \sum_ {\mathrm {j} = 1} ^ {\mathsf {M}} \mathsf {p} _ {\mathrm {j}} \overline {{\mathsf {d}}} _ {\mathrm {j}}) / \mathsf {p} _ {\mathrm {i}},
+\mathsf {d}_{\mathrm{i}}^{\mathrm{j}} = \overline {{\mathsf {d}}}_{\mathrm{i}} + \phi_{\mathrm{i}} (\mathsf {I}^{\mathrm{j}} - \sum_{\mathrm{j} = 1}^{\mathsf {M}} \mathsf {p}_{\mathrm{j}} \overline {{\mathsf {d}}}_{\mathrm{j}}) / \mathsf {p}_{\mathrm{i}},
 $$
 
 where  $p_j$ ,  $j = 1, \dots, N$ , are the commodity prices.
@@ -469,14 +469,14 @@ where  $p_j$ ,  $j = 1, \dots, N$ , are the commodity prices.
 (b) Assuming that prices are the same across countries due to free trade, we can normalize them at unity, and rewrite demand in the more compact form,
 
 $$
-\mathrm {d} _ {\mathrm {i}} ^ {\mathrm {j}} = \delta_ {\mathrm {i}} + \phi_ {\mathrm {i}} \mathrm {I} ^ {\mathrm {j}},
+\mathrm{d}_{\mathrm{i}}^{\mathrm{j}} = \delta_{\mathrm{i}} + \phi_{\mathrm{i}} \mathrm{I}^{\mathrm{j}},
 $$
 
 where  $\delta_{\mathrm{i}} \equiv (\overline{\mathrm{d}}_{\mathrm{i}} - \phi_{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{M}} \overline{\mathrm{d}}_{\mathrm{j}})$  are the values of "minimum consumption" measured relative to their mean. Interpret the coefficients  $\delta_{\mathrm{i}}$ .
 
 (c) Multiply the per-capita demand by country population  $\mathbf{L}^{\mathrm{j}}$ , to obtain total demand,
 
-$\mathrm{D_i^j = L^jd_i^j = \delta_iL^j + \phi_iE^j}$ , where  $\mathrm{E}^{\mathrm{j}}\equiv \mathrm{L}^{\mathrm{j}}\mathrm{I}^{\mathrm{j}}$  denotes total expenditure in country j. We can write this in vector notation as,  $\mathrm{D}^{\mathrm{j}} = \delta \mathrm{L}^{\mathrm{j}} + \phi \mathrm{E}^{\mathrm{j}}$ . Using this demand function, re-derive the HOV equation (2.1), and interpret the new equation.
+$\mathrm{D_i^j =L^jd_i^j = \delta_iL^j + \phi_iE^j}$ , where  $\mathrm{E}^{\mathrm{j}}\equiv \mathrm{L}^{\mathrm{j}}\mathrm{I}^{\mathrm{j}}$  denotes total expenditure in country j. We can write this in vector notation as,  $\mathrm{D}^{\mathrm{j}} = \delta \mathrm{L}^{\mathrm{j}} + \phi \mathrm{E}^{\mathrm{j}}$ . Using this demand function, re-derive the HOV equation (2.1), and interpret the new equation.
 
 # Empirical Exercises
 

@@ -132,11 +132,11 @@ Increasing Returns to Scale This diagram shows the average cost,  $ AC $, and ma
 Numerical Example As an example of the cost curves in Figure 6-3, suppose that the firm has the following cost data:
 $ $
 
-\text {F i x e d c o s t s} = \$ 1 0 0 \$ $
+\text{Fi xe dc os ts} = \$ 1 0 0 \$ $
 
 $ $
 
-\text {M a r g i n a l} = \$ 10 \text {p e r u n i t} $ $
+\text{Ma rg in al} = \$ 10 \text{pe ru ni t} $ $
 Given these costs, the average costs for this firm for various quantities are as shown in Table 6-2.
 
 Notice that as the quantity produced rises, average costs fall and eventually become close to the marginal costs of \(10 per unit, as shown in Figure 6-3.
@@ -383,7 +383,7 @@ To develop the idea of intra-industry trade, consider the U.S. imports and expor
 The formula for the index of intra-industry trade is
 $ $
 
-(\text {I n d e x o f i n t r a - i n d u s t r y t r a d e}) = \frac {\text {M i n i m u m o f i m p o r t s a n d e x p o r t s}}{\frac {1}{2} (\text {I m p o r t s} + \text {e x p o r t s})}
+(\text{In de xo fi nt ra -i nd us tr yt ra de}) = \frac{\text{Mi ni mu mo fi mp or ts an de xp or ts}}{\frac{1}{2} (\text{Im po rt s} + \text{ex po rt s})}
 
 $ $
 For vaccines, the minimum of imports and exports is  $ 1,731 million, and the average of imports and exports is \frac{1}{2} (1,731 + 2,514) = \ $ 2,123 \$ million. So $ \frac{1731}{2123} = 82\% $  of the U.S. trade in vaccines is intra-industry trade; that is, it involves both exporting and importing of vaccines.
@@ -406,7 +406,7 @@ The index of intra-industry trade measures the degree of intra-industry trade fo
 
 Newton's Universal Law of Gravitation Suppose that two objects each have mass  $ M_{1} $ and $ M_{2} $ and are located distance $ d $ apart. According to Newton's universal law of gravitation, the force of gravity $ F_{g} $ between these two objects is $ $
 
-F _ {g} = G \cdot \frac {M _ {1} \cdot M _ {2}}{d ^ {2}}
+F_{g} = G \cdot \frac{M_{1} \cdot M_{2}}{d^{2}}
 
 $ $
 where  $ G $  is a constant that tells us the magnitude of this relationship. The larger each object is, or the closer they are to each other, the greater is the force of gravity between them.
@@ -414,7 +414,7 @@ where  $ G $  is a constant that tells us the magnitude of this relationship. Th
 The Gravity Equation in Trade The equation proposed by Tinbergen to explain trade between countries is similar to Newton's law of gravity, except that instead of the mass of two objects, we use the GDP of two countries, and instead of predicting the force of gravity, we are predicting the amount of trade between them. The gravity equation in trade is
 $ $
 
-\text {T r a d e} = B \cdot \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {n}}
+\text{Tr ad e} = B \cdot \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{n}}
 
 $ $
 where Trade is the amount of trade (measured by imports, exports, or their average) between two countries,  $ GDP_{1} $ and $ GDP_{2} $ are their gross domestic products, and $ dist $ is the distance between them. Notice that we use the exponent $ n $ on distance, $ dist^{n} $, rather than $ dist^{2} $ as in Newton's law of gravity, because we are not sure of the precise relationship between distance and trade. The term $ B $  in front of the gravity equation is a constant that
@@ -427,7 +427,7 @@ Deriving the Gravity Equation To explain more carefully why the gravity equation
 
 To measure the relative size of each importing country, we use its share of world GDP. Specifically, we define Country 2's share of world GDP as  $ \text{Share}_2 = \frac{\text{GDP}_2}{\text{GDP}_W} $. To measure the transportation costs involved in trade, we use distance raised to a power, or $ \text{dist}^n $. Using these definitions, exports from Country 1 to Country 2 will equal the goods available in Country 1 ($ \text{GDP}_1 $), times the relative size of Country 2 ($ \text{Share}_2 $), divided by the transportation costs between them ($ \text{dist}^n $), so that $ $
 
-\operatorname {T r a d e} = \frac {G D P _ {1} \cdot S h a r e _ {2}}{d i s t ^ {n}} = \left(\frac {1}{G D P _ {W}}\right) \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {n}}
+\operatorname{Tr ad e} = \frac{G D P_{1} \cdot S h a r e_{2}}{d i s t^{n}} = \left(\frac{1}{G D P_{W}}\right) \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{n}}
 
 $ $
 This equation for the trade between Countries 1 and 2 looks similar to the gravity equation, especially if we think of the term  $ (1 / GDP_{W}) $ as the constant term $ B $ . We see from this equation that the trade between two countries will be proportional to their relative sizes, measured by the product of their GDPs (the greater the size of the countries, the larger is trade), and inversely proportional to the distance between them (the smaller the distance, the larger is trade). The following application explores how well the gravity equation works in practice.
@@ -439,7 +439,7 @@ This equation for the trade between Countries 1 and 2 looks similar to the gravi
 We can apply the gravity equation to trade between any pair of countries, or even to trade between the provinces or states of one country and another. Panel (a) of Figure 6-9 shows data collected on the value of trade between Canadian provinces and U.S. states in 1993. On the horizontal axis, we show the gravity term:
 $ $
 
-\text {G r a v i t y} = \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Gr av it y} = \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 
 $ $
 where  $ GDP_{1} $ is the gross domestic product of a U.S. state (in billions of U.S. dollars), $ GDP_{2} $ is the gross domestic product of a Canadian province (in billions of U.S. dollars), and $ dist $  is the distance between them (in miles). We use the exponent 1.25 on the distance term because it has been shown in other research studies to describe the relationship between distance and trade value quite well. The horizontal axis is
@@ -468,7 +468,7 @@ The vertical axis in Figure 6-9 shows the 1993 value of exports (in millions of 
 We can see from the set of points in panel (a) that states and provinces with a higher gravity term between them (measured on the horizontal axis) also tend to have more trade (measured on the vertical axis). That strong, positive relationship shown by the set of points in panel (a) demonstrates that the gravity equation holds well empirically. Panel (a) also shows the "best fit" straight line through the set of points, which has the following equation:
 $ $
 
-\text {T r a d e} = 9 3 \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Tr ad e} = 9 3 \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 
 $ $
 The constant term  $ B = 93 $ gives the best fit to this gravity equation for Canadian provinces and U.S. states. When the gravity term equals 1, as illustrated in panel (a), then the predicted amount of trade between that state and province is \$ 93 million. The closest example to this point is Alberta and New Jersey. In 1993 there were \$ 94 million in exports from Alberta to New Jersey and they had a gravity term of approximately 1.
@@ -476,7 +476,7 @@ The constant term  $ B = 93 $ gives the best fit to this gravity equation for Ca
 Trade Within Canada Because the gravity equation works well at predicting international trade between provinces and states in different countries, it should also work well at predicting trade within a country, or intra-national trade. To explore this idea, panel (b) of Figure 6-9 graphs the value of exports (in millions of U.S. dollars) between any two Canadian provinces, along with the gravity term for those provinces. The scale of the axes in panel (b) is the same as in panel (a). From panel (b), we again see that there is a strong, positive relationship between the gravity term between two provinces (measured on the horizontal axis) and their trade (measured on the vertical axis). The "best fit" straight line through the set of points has the following equation:
 $ $
 
-\text {T r a d e} = 1, 3 0 0 \cdot \frac {G D P _ {1} \cdot G D P _ {2}}{d i s t ^ {1 . 2 5}}
+\text{Tr ad e} = 1, 3 0 0 \cdot \frac{G D P_{1} \cdot G D P_{2}}{d i s t^{1 . 2 5}}
 
 $ $
 That is, the constant term  $ B = 1,300 $ gives the best fit to this gravity equation for Canadian provinces. When the gravity term equals 1, as illustrated in panel (b), then the predicted amount of trade between two provinces is \$ 1,300 million, or \$ 1.3 billion. The closest example to this combination is between British Columbia and Alberta: in 1993 their gravity term was approximately 1.3 and British Columbia exported \$ 1.4 billion of goods to Alberta.

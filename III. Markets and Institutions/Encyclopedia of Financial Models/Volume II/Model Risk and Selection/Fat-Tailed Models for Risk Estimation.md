@@ -45,11 +45,11 @@ Let us suppose a random variable  $X$  is normally distributed with parameters  
 Let us take  $n$  independent random variables distributed with the Gaussian distribution with parameters  $\mu_{i}$  and  $\sigma_{i}$ . The sum of the variables is normal as well. The resulting normal distribution has a mean and standard deviation obtained, respectively, as
 
 $$
-\mu = \mu_ {1} + \mu_ {2} + \dots \mu_ {n}
+\mu = \mu_{1} + \mu_{2} + \dots \mu_{n}
 $$
 
 $$
-\sigma = \sqrt {\sigma_ {1} ^ {2} + \sigma_ {2} ^ {2} + \cdots + \sigma_ {n} ^ {n}}
+\sigma = \sqrt{\sigma_{1}^{2} + \sigma_{2}^{2} + \cdots + \sigma_{n}^{n}}
 $$
 
 Location-scale invariance and summation stability are not universal properties of statistical distributions. In financial applications, however, they are clearly desirable properties.
@@ -61,7 +61,7 @@ The property of summation stability is often used to justify the predominant use
 
 The density function of a random variable  $X$  distributed with the normal distribution with mean  $\mu$  and standard deviation  $\sigma$  is given by the following expression
 
-$$ f (x \mid \mu , \sigma) = \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left(- \frac {(x - \mu) ^ {2}}{2 \sigma^ {2}}\right) (1)
+$$ f (x \mid \mu , \sigma) = \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left(- \frac{(x - \mu)^{2}}{2 \sigma^{2}}\right) (1)
 $$
 
 We denote this distribution as  $N(\mu, \sigma)$ . The variable  $X$  and the parameter  $\mu$  can take any real value, while  $\sigma$  can only take positive values. A normal random variable with zero mean and standard deviation of one is said to be distributed with the standard normal distribution  $(N(0,1))$ . The presence of the exponential function in the normal density implies that the probability of events away from the mean decays at an exponential rate. In contrast, heavy-tailed distributions are characterized by power-law behaviors for large (small) values of the random variables, leading to increased chance for extreme events relative to the Gaussian setting.
@@ -69,18 +69,18 @@ We denote this distribution as  $N(\mu, \sigma)$ . The variable  $X$  and the pa
 Fitting of the Gaussian distribution is usually performed by maximizing the logarithm of the likelihood function given by
 
 $$
-\begin{array}{l} \ell \left(\mu , \sigma \mid x _ {1}, x _ {2}, \dots , x _ {n}\right) = - \frac {n}{2} \log 2 \pi - \frac {n}{2} \log \sigma^ {2} \\ - \frac {1}{2} \sum_ {i = 1} ^ {n} \frac {\left(x _ {i} - \mu\right) ^ {2}}{\sigma^ {2}} \tag {2} \\ \end{array}
+\begin{array}{l} \ell \left(\mu , \sigma \mid x_{1}, x_{2}, \dots , x_{n}\right) = - \frac{n}{2} \log 2 \pi - \frac{n}{2} \log \sigma^{2} \\ - \frac{1}{2} \sum_{i = 1}^{n} \frac{\left(x_{i} - \mu\right)^{2}}{\sigma^{2}} \tag {2} \\ \end{array}
 $$ where  $x_{1}, x_{2}, \ldots, x_{n}$  is the sample of observed data used for fitting. The resulting estimators of
 
 
 the mean and the standard deviation are (using standard notation):
 
 $$
-\bar {x} = \frac {1}{n} \sum_ {i = 1} ^ {n} x _ {i} \tag {3}
+\bar {x} = \frac{1}{n} \sum_{i = 1}^{n} x_{i} \tag {3}
 $$
 
 $$
-\hat {\sigma} ^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) ^ {2} \tag {4}
+\hat {\sigma}^{2} = \frac{1}{n} \sum_{i = 1}^{n} \left(x_{i} - \bar {x}\right)^{2} \tag {4}
 $$
 
 Unconditional models imply that returns are independent and identically distributed (IID), so that (among other implications) the returns' means and variances remain unchanged through time. However, empirical evidence abounds that financial returns exhibit timeseries properties such as autocorrelation and volatility clustering, which make unconditional return modeling inadequate. The time-series properties of returns need to be modeled in a conditional framework with appropriate time series models. We consider conditional normal models next.
@@ -96,15 +96,15 @@ Time-varying volatility concerns the empirically observed fact that large return
 
 The typical approach to building a risk model includes at least the elements of autoregressive component and volatility clustering component by means of a GARCH or alternative ARCH-type processes. A conditional normal ARMA(1,1)-GARCH(1,1) model combines the returns' conditional mean and volatility models with the assumption that returns are distributed with the Gaussian distribution. Analytically, the model is represented as
 
-$$ r _ {t} = \mu_ {t} + \epsilon_ {t} \tag {5}
+$$ r_{t} = \mu_{t} + \epsilon_{t} \tag {5}
 $$
 
 $$
-\mu_ {t} = \phi_ {0} + \phi_ {1} r _ {t - 1} + \theta_ {1} \epsilon_ {t - 1} \tag {6}
+\mu_{t} = \phi_{0} + \phi_{1} r_{t - 1} + \theta_{1} \epsilon_{t - 1} \tag {6}
 $$
 
 $$
-\sigma_ {t} ^ {2} = \omega + \alpha \sigma_ {t - 1} ^ {2} + \beta \epsilon_ {t - 1} ^ {2} \tag {7}
+\sigma_{t}^{2} = \omega + \alpha \sigma_{t - 1}^{2} + \beta \epsilon_{t - 1}^{2} \tag {7}
 $$ where  $r_t, \mu_t,$  and  $\sigma_t^2$  are the return, expected return, and return variance at time  $t$ , respectively, and  $\epsilon_t$  is the innovation at time  $t$ . The innovation is normally distributed with mean 0 and variance  $\sigma_t^2$ .
 
 
@@ -125,12 +125,12 @@ The  $t$ -distribution has a single parameter, called degrees of freedom (DOF), 
 
 A random variable  $X$  (taking any real value) distributed with the Student's  $t$  distribution with  $\nu$  degrees of freedom has a density function given by
 
-$$ f (x \mid v) = \frac {\Gamma (\frac {v + 1}{2})}{\Gamma (\frac {v}{2}) \sqrt {v \pi}} \left(1 + \frac {x ^ {2}}{v}\right) ^ {- (v + 1) / 2} \tag {8}
+$$ f (x \mid v) = \frac{\Gamma (\frac{v + 1}{2})}{\Gamma (\frac{v}{2}) \sqrt{v \pi}} \left(1 + \frac{x^{2}}{v}\right)^{- (v + 1) / 2} \tag {8}
 $$ where  $\Gamma$  is the Gamma function. We denote this distribution by  $t_\nu$ . The mean of  $X$  is zero and its variance is given by
 
 
 $$
-\operatorname {v a r} (X) = \frac {\nu}{\nu - 2} \tag {9}
+\operatorname{va r} (X) = \frac{\nu}{\nu - 2} \tag {9}
 $$
 
 The variance exists for values of  $\nu$  greater than two and the mean—for  $\nu$  greater than one.
@@ -138,14 +138,14 @@ The variance exists for values of  $\nu$  greater than two and the mean—for  $
 The  $t$ -distribution above is sometimes referred to as the "standard" Student's  $t$  distribution. In financial applications, it is often necessary to define the Student's  $t$  distribution in a more general manner so that we allow for the mean (location) and scale to be different from zero and one, respectively. The density function of such a "scaled" Student's  $t$  distribution is described by
 
 $$
-\begin{array}{l} f (x \mid v, \mu , \sigma) \\ = \frac {\Gamma (\frac {\nu + 1}{2})}{\sigma \Gamma (\frac {\nu}{2}) \sqrt {\nu \pi}} \left(1 + \frac {1}{\nu} \left(\frac {x - \mu}{\sigma}\right) ^ {2}\right) ^ {- (\nu + 1) / 2} \tag {10} \\ \end{array}
+\begin{array}{l} f (x \mid v, \mu , \sigma) \\ = \frac{\Gamma (\frac{\nu + 1}{2})}{\sigma \Gamma (\frac{\nu}{2}) \sqrt{\nu \pi}} \left(1 + \frac{1}{\nu} \left(\frac{x - \mu}{\sigma}\right)^{2}\right)^{- (\nu + 1) / 2} \tag {10} \\ \end{array}
 $$ where the mean  $\mu$  can take any real value and  $\sigma$  is positive. The variance of  $X$  is then equal to  $\sigma^2\nu /(\nu -2)$ . We denote the distribution above by  $t_\nu (\mu ,\sigma)$
 
 
 Finally, we make a note of an equivalent representation of the Student's  $t$  distribution which is useful for obtaining simulations from it. The  $t_{\nu}(\mu ,\sigma)$  distribution is equivalently expressed as a scale mixture of the normal distribution where the mixing variable distributed with the inverse-gamma distribution,
 
 $$
-\begin{array}{l} X \sim N (\mu , \sqrt {W} \sigma) \\ W \sim \operatorname {I n v - G a m m a} \left(\frac {\nu}{2}, \frac {\nu}{2}\right) \\ \end{array}
+\begin{array}{l} X \sim N (\mu , \sqrt{W} \sigma) \\ W \sim \operatorname{In v -G am ma} \left(\frac{\nu}{2}, \frac{\nu}{2}\right) \\ \end{array}
 $$
 
 Later in this entry we will again come across mixture representations in the context of our discussion of the skewed Student's  $t$ , the stable Paretian, and the classical tempered stable distributions.
@@ -171,7 +171,7 @@ As pointed out earlier, a major limitation of employing the classical Student's 
 Suppose that a random variable  $X$  is distributed with the skewed Student's  $t$  distribution, obtained as a mixture of a Gaussian distribution and an inverse-gamma distribution,
 
 $$
-X = \mu + \gamma W + Z \sqrt {W} \tag {11}
+X = \mu + \gamma W + Z \sqrt{W} \tag {11}
 $$ where
 
 
@@ -189,22 +189,22 @@ Figure 2 Fitted Degrees-of-Freedom Parameter for DJIA Returns Note: The Student'
 
 
 $$
-X \mid W = w \sim N (\mu + \gamma w, \sigma \sqrt {w}) \tag {12}
+X \mid W = w \sim N (\mu + \gamma w, \sigma \sqrt{w}) \tag {12}
 $$
 
 X's unconditional distribution is what is defined as the skewed Student's  $t$  distribution and its density is given by the expression
 
 $$
-\begin{array}{l} f \left(x \mid \mu , \sigma , \gamma , v\right) = A \times \frac {\exp \left(\frac {(x - \mu) \gamma}{\sigma^ {2}}\right)}{\left(1 + \frac {(x - \mu) ^ {2}}{v \sigma^ {2}}\right) ^ {(v + 1) / 2}} \\ \times \frac {K _ {(\nu + 1) / 2} (B)}{B ^ {- (\nu + 1) / 2}} \\ \end{array}
+\begin{array}{l} f \left(x \mid \mu , \sigma , \gamma , v\right) = A \times \frac{\exp \left(\frac{(x - \mu) \gamma}{\sigma^{2}}\right)}{\left(1 + \frac{(x - \mu)^{2}}{v \sigma^{2}}\right)^{(v + 1) / 2}} \\ \times \frac{K_{(\nu + 1) / 2} (B)}{B^{- (\nu + 1) / 2}} \\ \end{array}
 $$ where
 
 
 $$
-A = \frac {2 ^ {1 - (v + 1) / 2}}{\Gamma (\frac {v}{2}) (\pi v) ^ {1 / 2} \sigma}
+A = \frac{2^{1 - (v + 1) / 2}}{\Gamma (\frac{v}{2}) (\pi v)^{1 / 2} \sigma}
 $$
 
 $$
-B = \sqrt {\left(\nu + \frac {(x - \mu) ^ {2}}{\sigma^ {2}}\right) \frac {\gamma^ {2}}{\sigma^ {2}}}
+B = \sqrt{\left(\nu + \frac{(x - \mu)^{2}}{\sigma^{2}}\right) \frac{\gamma^{2}}{\sigma^{2}}}
 $$ and  $K_{\lambda}(\cdot)$  is the so-called modified Bessel function with index  $\lambda$
 
 
@@ -217,7 +217,7 @@ Estimation of the classical and skewed Student's  $t$  distributions is carried 
 - Generate an observation  $z$  from the normal distribution with mean 0 and variance  $\sigma^2$ .
 - Compute the corresponding observation of the  $t$  or skewed  $t$ -distribution, respectively, as
 
-$$ x = \mu + \sqrt {w} z \quad \text {a n d} \quad y = \mu + w \gamma + \sqrt {w} z \tag {13}
+$$ x = \mu + \sqrt{w} z \quad \text{an d} \quad y = \mu + w \gamma + \sqrt{w} z \tag {13}
 $$
 
 # Stable Paretian and Classical Tempered Stable Distributions
@@ -233,14 +233,14 @@ We offer two definitions of the stable Paretian distribution. The first one esta
 $Y_{1}, Y_{2}, \ldots, Y_{n}$  be IID random variables and  $\{a_{n}\}$  and  $\{b_{n}\}$  be sequences of real and positive numbers, respectively. A variable  $X$  is said to have the stable Paretian distribution if
 
 $$
-\frac {\sum_ {i = 1} ^ {n} Y _ {i} - a _ {n}}{b _ {n}} \quad \rightarrow \quad X \tag {14}
+\frac{\sum_{i = 1}^{n} Y_{i} - a_{n}}{b_{n}} \quad \rightarrow \quad X \tag {14}
 $$ where the symbol  $\stackrel{d}{\to}$  denotes convergence in distribution.
 
 
 The density function of the stable Paretian distribution is not available in a closed-form expression in the general case. Therefore, the distribution of a stable random variable  $X$  is alternatively defined through its characteristic function. The density function can be obtained through a numerical method, as we explain further below. The characteristic function of the  $\alpha$ -stable distribution is given by
 
 $$
-\begin{array}{l} \varphi_ {X} (t) \\ = \left\{ \begin{array}{l} \exp \left\{i \mu t - \sigma^ {\alpha} | t | ^ {\alpha} \left(1 - i \beta \operatorname {s i g n} (t) \tan \frac {\pi \alpha}{2}\right) \right\}, \\ \alpha \neq 1 \\ \exp \left\{i \mu t - \sigma | t | \left(1 - i \beta 2 / \pi \operatorname {s i g n} (t) \log (t)\right) \right\}, \\ \alpha = 1 \end{array} \right. \tag {15} \\ \end{array}
+\begin{array}{l} \varphi_{X} (t) \\ = \left\{ \begin{array}{l} \exp \left\{i \mu t - \sigma^{\alpha} | t |^{\alpha} \left(1 - i \beta \operatorname{si gn} (t) \tan \frac{\pi \alpha}{2}\right) \right\}, \\ \alpha \neq 1 \\ \exp \left\{i \mu t - \sigma | t | \left(1 - i \beta 2 / \pi \operatorname{si gn} (t) \log (t)\right) \right\}, \\ \alpha = 1 \end{array} \right. \tag {15} \\ \end{array}
 $$ where  $\operatorname{sign}(t)$  is 1 if  $t > 0$ , 0 if  $t = 0$ , and  $-1$  if  $t < 0$ . The four parameters uniquely determining the  $\alpha$ -stable distribution are:
 
 
@@ -265,17 +265,17 @@ We outline three basic properties of the  $\alpha$ -stable distribution:
 - Power-tail decay. The tail of the stable distribution's density decays like a power function (slower than the exponential decay). It is this property that allows the stable distribution to capture the occurrence of extreme events. For a constant  $C$ , the property can be expressed as
 
 $$
-P (| X | > x) \propto C x ^ {- \alpha}, \quad \text {a s} x \rightarrow \infty \tag {16}
+P (| X | > x) \propto C x^{- \alpha}, \quad \text{as} x \rightarrow \infty \tag {16}
 $$
 
 - Existence of raw moments. The magnitude of the tail index determines the order up to which raw moments exist:
 
 $$
-E | X | ^ {p} <   \infty , \quad \text {f o r a n y p :} 0 <   p <   \alpha \tag {17}
+E | X |^{p} <   \infty , \quad \text{fo ra ny p :} 0 <   p <   \alpha \tag {17}
 $$
 
 $$
-E | X | ^ {p} = \infty , \quad \text {f o r a n y p :} p \geq \alpha
+E | X |^{p} = \infty , \quad \text{fo ra ny p :} p \geq \alpha
 $$
 
 This property implies that, for non-Gaussian  $\alpha$ -stable distributions ( $\alpha < 2$ ), the variance (as well as higher moments such as skewness and kurtosis) does not exist. When the index of stability has a value less than one, the mean is infinite as well. Since the variance does not exist, one cannot express risk in terms of the variance. However, the scale parameter can play the role of a risk measure, in the same way that the standard deviation does in the normal distribution case.
@@ -283,7 +283,7 @@ This property implies that, for non-Gaussian  $\alpha$ -stable distributions ( $
 - Stability. The property of stability characterizes the preservation of the distributional form under linear transformations. It is governed by the index of stability  $\alpha$  and expressed as follows. Suppose that  $X_{1}, X_{2}, \ldots, X_{n}$  are IID random variables, independent copies of a random variable  $X$ . Then, for a positive constant  $C_{n}$  and a real number  $D_{n}, X$  follows the stable distribution:
 
 $$
-X _ {1} + X _ {2} + \dots + X _ {n} \stackrel {d} {=} C _ {n} X + D _ {n} \tag {18}
+X_{1} + X_{2} + \dots + X_{n} \stackrel {d} {=} C_{n} X + D_{n} \tag {18}
 $$
 
 The notation  $\stackrel{d}{=}$  denotes equality in distribution. The constant  $C_n = n^{1 / \alpha}$  determines the stability property. The stability property means that the "classical" central limit theorem does not apply in the non-Gaussian case. A large sum of appropriately standardized IID random variables is distributed with the stable Paretian distribution as the number of terms increases indefinitely, not with the normal distribution.
@@ -301,28 +301,28 @@ When the variables  $X_{i}, i = 1, \ldots, n,$  are themselves distributed with 
 1. The distribution of  $Y = \sum_{i=1}^{n} X_i$  is  $\alpha$ -stable with index of stability  $\alpha$  and parameters:
 
 $$
-\beta = \frac {\sum_ {i = 1} ^ {n} \beta_ {i} \sigma_ {i} ^ {\alpha}}{\sum_ {i = 1} ^ {n} \sigma_ {i} ^ {\alpha}},
+\beta = \frac{\sum_{i = 1}^{n} \beta_{i} \sigma_{i}^{\alpha}}{\sum_{i = 1}^{n} \sigma_{i}^{\alpha}},
 $$
 
 $$
-\sigma = \left(\sum_ {i = 1} ^ {n} \sigma_ {i} ^ {\alpha}\right) ^ {1 / \alpha}, \quad \mu = \sum_ {i = 1} ^ {n} \mu_ {i} \tag {19}
+\sigma = \left(\sum_{i = 1}^{n} \sigma_{i}^{\alpha}\right)^{1 / \alpha}, \quad \mu = \sum_{i = 1}^{n} \mu_{i} \tag {19}
 $$
 
 2. The distribution of  $Y = X_{1} + a$  for some real constant  $a$  is  $\alpha$ -stable with index of stability  $\alpha$  and parameters:
 
 
 $$
-\beta = \beta_ {1}, \quad \sigma = \sigma_ {1}, \quad \mu = \mu + a \tag {20}
+\beta = \beta_{1}, \quad \sigma = \sigma_{1}, \quad \mu = \mu + a \tag {20}
 $$
 
 3. The distribution of  $Y = aX_{1}$  for some real constant  $a$  ( $a \neq 0$ ) is  $\alpha$ -stable with index of stability  $\alpha$  and parameters:
 
 $$
-\beta = \operatorname {s i g n} (a) \beta_ {1}, \quad \sigma = | a | \sigma_ {1},
+\beta = \operatorname{si gn} (a) \beta_{1}, \quad \sigma = | a | \sigma_{1},
 $$
 
 $$
-\mu = \left\{ \begin{array}{l l} a \mu_ {1}, & \text {f o r} a \neq 1 \\ a \mu_ {1} - \frac {2}{\pi} a \ln (a) \sigma_ {1} \beta_ {1}, & \text {f o r} a = 1 \end{array} \right.
+\mu = \left\{ \begin{array}{l l} a \mu_{1}, & \text{fo r} a \neq 1 \\ a \mu_{1} - \frac{2}{\pi} a \ln (a) \sigma_{1} \beta_{1}, & \text{fo r} a = 1 \end{array} \right.
 $$
 
 In empirical analysis, the time-varying tail behavior of assets is reflected in the nonconstancy of the tail index of the  $\alpha$ -stable distribution, as demonstrated in Figure 4. As in the earlier illustration, the tail index is estimated by fitting a stable distribution to the filtered returns
@@ -336,7 +336,7 @@ As noted above, the variance of non-Gaussian stable distributions does not exist
 The characteristic function of the classical tempered stable (CTS) distribution is given by the following expression:
 
 $$
-\begin{array}{l} \varphi_ {X} (t) = \exp \{i m t - i t C \Gamma (1 - \alpha) \left(\lambda_ {+} ^ {\alpha - 1} - \lambda_ {-} ^ {\alpha - 1}\right) \\ + C \Gamma (- \alpha) ((\lambda_ {+} - i t) ^ {\alpha} - \lambda_ {+} ^ {\alpha} + (\lambda_ {-} + i t) ^ {\alpha} - \lambda_ {-} ^ {\alpha}) \} \tag {21} \\ \end{array}
+\begin{array}{l} \varphi_{X} (t) = \exp \{i m t - i t C \Gamma (1 - \alpha) \left(\lambda_{+}^{\alpha - 1} - \lambda_{-}^{\alpha - 1}\right) \\ + C \Gamma (- \alpha) ((\lambda_{+} - i t)^{\alpha} - \lambda_{+}^{\alpha} + (\lambda_{-} + i t)^{\alpha} - \lambda_{-}^{\alpha}) \} \tag {21} \\ \end{array}
 $$
 
 We denote the distribution by  $\mathrm{CTS}(\alpha, C, \lambda_{+}, \lambda_{-}, m)$ . The distribution parameters are characterized as follows:
@@ -356,7 +356,7 @@ Note: CTS Parameter Values:  $\alpha = 0.8$ ,  $C = 1$ ,  $m = 0$ , and varying 
 Linear combinations of CTS-distributed random variables are also distributed with the CTS distribution. First, we define the standard CTS distribution. A random variable  $X$  has the standard CTS distribution if
 
 $$
-C = \left(\Gamma (2 - \alpha) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)\right) ^ {- 1} \tag {22}
+C = \left(\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {22}
 $$
 
 The distribution is denoted by  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{-}, \lambda_{+})$ . Its mean and variance are zero and one, respectively.
@@ -364,7 +364,7 @@ The distribution is denoted by  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{-}, \la
 For a positive number  $\sigma$  and a real number  $m$ , the linear combination  $Y = \sigma X + m$  has the CTS distribution:
 
 $$
-Y \sim \operatorname {C T S} \left(\alpha , \frac {\sigma^ {\alpha}}{\Gamma (2 - \alpha) \left(\lambda_ {+} ^ {\alpha - 2} + \lambda_ {-} ^ {\alpha - 2}\right)}, \frac {\lambda_ {+}}{\sigma}, \frac {\lambda_ {-}}{\sigma}, m\right) \tag {23}
+Y \sim \operatorname{CT S} \left(\alpha , \frac{\sigma^{\alpha}}{\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)}, \frac{\lambda_{+}}{\sigma}, \frac{\lambda_{-}}{\sigma}, m\right) \tag {23}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/981f6e9ba651a6bebf7300c5f2a3698faf22f4f22c1e0375338e12ff2c864947.jpg)
@@ -388,13 +388,13 @@ Subordinated representations' usefulness is in allowing for practical ways of si
 
 The subordinated representation of the  $\alpha$ -stable distribution can be expressed in the following way. Let  $Z$  be a standard normal random variable,  $Z \sim N(0,1)$ , and  $Y$  be a positive  $\alpha/2$ -stable random variable independent of  $Z$ ,  $Y \sim S_{\alpha/2}(s,1,0)$ , where
 
-$$ s = \frac {\sigma^ {2}}{2} \cos \left(\frac {\pi \alpha}{4}\right) ^ {2 / \alpha} \tag {24}
+$$ s = \frac{\sigma^{2}}{2} \cos \left(\frac{\pi \alpha}{4}\right)^{2 / \alpha} \tag {24}
 $$
 
 Then, the variable
 
 $$
-X = Y ^ {1 / 2} Z
+X = Y^{1 / 2} Z
 $$ is symmetric  $\alpha$ -stable:  $X \sim S_{\alpha}(\sigma, 0, 0)$ . This implies that every symmetric stable variable is conditionally Gaussian (conditional on the value of the stable subordinator). Unconditionally, the symmetric  $\alpha$ -stable distribution is expressed as a scale mixture of normal distributions.14
 
 
@@ -407,30 +407,30 @@ Fitting techniques for the  $\alpha$ -stable distributions can be divided into t
 
 In statistical theory, the relationship between the probability density function (pdf) and the characteristic function is expressed as follows:
 
-$$ f _ {X} (x) = \frac {1}{2 \pi} \int_ {- \infty} ^ {\infty} \exp (- i t x) \varphi_ {X} (t) d t \tag {25}
+$$ f_{X} (x) = \frac{1}{2 \pi} \int_{- \infty}^{\infty} \exp (- i t x) \varphi_{X} (t) d t \tag {25}
 $$ where  $h > 0$  and  $f(\cdot)$  and  $\varphi (\cdot)$  are the density and characteristic functions, respectively. The pdf of the  $\alpha$ -stable and CTS distributions can be computed by numerical evaluation of the integral above. A fast and computationally efficient method of numerical integration is the fast Fourier transform (FFT) algorithm.18 Consider the pdf computation in (25). The main idea of FFT is to evaluate the integral for a grid of equally-spaced values of the random variable X:
 
 
-$$ x _ {k} = \left(k - 1 - \frac {N}{2}\right) h, \quad k = 1, \dots , N \tag {26}
+$$ x_{k} = \left(k - 1 - \frac{N}{2}\right) h, \quad k = 1, \dots , N \tag {26}
 $$
 
 That is, equation (25) can be expressed as
 
 $$
-\begin{array}{l} f _ {X} (x _ {k}) = \int_ {- \infty} ^ {\infty} \\ \times \exp \left(- i 2 \pi \omega \left(k - 1 - \frac {N}{2}\right) h\right) \varphi_ {X} (2 \pi \omega) \mathrm {d} \omega \\ \end{array}
+\begin{array}{l} f_{X} (x_{k}) = \int_{- \infty}^{\infty} \\ \times \exp \left(- i 2 \pi \omega \left(k - 1 - \frac{N}{2}\right) h\right) \varphi_{X} (2 \pi \omega) \mathrm{d} \omega \\ \end{array}
 $$
 
 This integral can be approximated by the so-called Riemann sum, after choosing small enough lower and large enough upper bounds:
 
 $$
-\begin{array}{l} f _ {X} \left(x _ {k}\right) \approx s \sum_ {n = 1} ^ {N} \varphi \left(2 \pi s \left(n - 1 - \frac {N}{2}\right)\right) \\ \times \exp \left\{- i 2 \pi \left(k - 1 - \frac {N}{2}\right) \left(n - 1 - \frac {N}{2}\right) s h \right\} \tag {27} \\ \end{array}
+\begin{array}{l} f_{X} \left(x_{k}\right) \approx s \sum_{n = 1}^{N} \varphi \left(2 \pi s \left(n - 1 - \frac{N}{2}\right)\right) \\ \times \exp \left\{- i 2 \pi \left(k - 1 - \frac{N}{2}\right) \left(n - 1 - \frac{N}{2}\right) s h \right\} \tag {27} \\ \end{array}
 $$ for  $k = 1,\ldots ,N$ . Here, the lower and upper bounds equal  $-\frac{sN}{2}$  and  $\frac{sN}{2}$ , respectively. The distance between the grid points  $n - 1 - \frac{N}{2}$ ,
 
 
 $n = 1,\ldots ,N$  is  $s$ . If  $s = \frac{1}{hN}$ , we arrive at the following expression for the density, after some algebraic rearrangement:
 
 $$
-\begin{array}{l} f _ {X} (x _ {k}) \approx \frac {(- 1) ^ {k - 1 + \frac {N}{2}}}{h N} \sum_ {n = 1} ^ {N} (- 1) ^ {n - 1} \varphi \\ \times \left(\frac {2 \pi}{h N} \left(n - 1 - \frac {N}{2}\right)\right) \\ \times \exp \left(- \frac {i 2 \pi (n - 1) (k - 1)}{N}\right), \\ k = 1, \dots , N \tag {28} \\ \end{array}
+\begin{array}{l} f_{X} (x_{k}) \approx \frac{(- 1)^{k - 1 + \frac{N}{2}}}{h N} \sum_{n = 1}^{N} (- 1)^{n - 1} \varphi \\ \times \left(\frac{2 \pi}{h N} \left(n - 1 - \frac{N}{2}\right)\right) \\ \times \exp \left(- \frac{i 2 \pi (n - 1) (k - 1)}{N}\right), \\ k = 1, \dots , N \tag {28} \\ \end{array}
 $$
 
 To compute the sum above, one can use the FFT implemented by many numerical analysis software packages. The parameters of the FFT method are  $N$ , the number of summands in the Riemann sum, and  $h$ , the grid spacing. Their values can be chosen appropriately, so as to achieve a balance between approximation accuracy and computational burden.[19] Finally, the maximum-likelihood estimates of the parameters of the  $\alpha$ -stable and CTS distributions are obtained by numerical maximization of the log-likelihood function.
@@ -441,18 +441,18 @@ Simulations of  $\alpha$ -stable distribution can be accomplished using an algor
 - If  $\alpha \neq 1$ , compute
 
 $$
-\begin{array}{l} Z = s _ {\alpha , \beta} \frac {\sin \left(\alpha (U + b _ {\alpha , \beta})\right)}{(\cos U) ^ {1 / \alpha}} \\ \times \left(\frac {\cos (U - \alpha (U + b _ {\alpha , \beta}))}{E}\right) ^ {(1 - \alpha) / \alpha} \tag {29} \\ \end{array}
+\begin{array}{l} Z = s_{\alpha , \beta} \frac{\sin \left(\alpha (U + b_{\alpha , \beta})\right)}{(\cos U)^{1 / \alpha}} \\ \times \left(\frac{\cos (U - \alpha (U + b_{\alpha , \beta}))}{E}\right)^{(1 - \alpha) / \alpha} \tag {29} \\ \end{array}
 $$ where
 
 
 $$
-\begin{array}{l} s _ {\alpha , \beta} = \left[ 1 + \beta^ {2} \tan^ {2} \frac {\pi \alpha}{2} \right] ^ {\frac {1}{2 \alpha}} \\ b _ {\alpha , \beta} = \frac {\arctan (\beta \tan \frac {\pi \alpha}{2})}{\alpha} \tag {30} \\ \end{array}
+\begin{array}{l} s_{\alpha , \beta} = \left[ 1 + \beta^{2} \tan^{2} \frac{\pi \alpha}{2} \right]^{\frac{1}{2 \alpha}} \\ b_{\alpha , \beta} = \frac{\arctan (\beta \tan \frac{\pi \alpha}{2})}{\alpha} \tag {30} \\ \end{array}
 $$
 
 - If  $\alpha = 1$ , compute
 
 $$
-\begin{array}{l} Z = \frac {2}{\pi} \left[ \left(\frac {\pi}{2} + \beta U\right) \tan U \right. \\ \left. - \beta \log \left(\frac {E \cos U}{\frac {\pi}{2} + \beta U}\right) \right] \tag {31} \\ \end{array}
+\begin{array}{l} Z = \frac{2}{\pi} \left[ \left(\frac{\pi}{2} + \beta U\right) \tan U \right. \\ \left. - \beta \log \left(\frac{E \cos U}{\frac{\pi}{2} + \beta U}\right) \right] \tag {31} \\ \end{array}
 $$
 
 - The random variable  $Z$  has a standardized stable distribution with location parameter equal to zero and scale parameter equal to one,  $Z \sim S_{\alpha}(1, \beta, 0)$ . To obtain an observation from  $S_{\alpha}(\sigma, \beta, \mu)$  with arbitrary values of  $\sigma$  and  $\mu$ , transform  $Z$  according to
@@ -480,7 +480,7 @@ In the financial applications context, block maxima could refer to the maximal o
 The first model category is represented by the so-called generalized extreme value (GEV) distribution. Its distribution function has the form
 
 $$
-F _ {X} (x \mid \xi , \mu , \sigma) = \left\{ \begin{array}{c} \exp \left(- \left(1 + \xi \frac {x - \mu}{\sigma}\right) ^ {- 1 / \xi}\right), \\ \xi \neq 0 \\ \exp (- e ^ {- x}), \\ \xi = 0 \end{array} \right. \tag {33}
+F_{X} (x \mid \xi , \mu , \sigma) = \left\{ \begin{array}{c} \exp \left(- \left(1 + \xi \frac{x - \mu}{\sigma}\right)^{- 1 / \xi}\right), \\ \xi \neq 0 \\ \exp (- e^{- x}), \\ \xi = 0 \end{array} \right. \tag {33}
 $$ where  $1 + \xi (x - \mu) / \sigma >0$ . The parameters  $\xi \in \mathbb{R}$ ,  $\mu \in \mathbb{R}$ , and  $\sigma >0$  are the shape, location, and scale parameters, respectively. The value of  $\xi$  determines the three distributions encompassed by the parametric form above: the Weibull distribution  $(\xi < 0)$ , the Gumbel distribution  $(\xi = 0)$ , and the Fréchet distribution  $(\xi >0)$ . Of the three, the latter one has the heaviest tails,[22] while the first one is short-tailed, with a finite right endpoint and, thus, not favored in modeling financial losses.[23]
 
 
@@ -488,7 +488,7 @@ The block maxima method's major drawback is its "wastefulness" of data: all but 
 
 
 $$
-F _ {X} (x \mid \xi , \sigma) = \left\{ \begin{array}{l l} 1 - \left(1 + \xi \frac {x}{\sigma}\right) ^ {- 1 / \xi}, & \xi \neq 0 \\ 1 - \exp \left(- \frac {x}{\sigma}\right), & \xi = 0 \end{array} \right. \tag {34}
+F_{X} (x \mid \xi , \sigma) = \left\{ \begin{array}{l l} 1 - \left(1 + \xi \frac{x}{\sigma}\right)^{- 1 / \xi}, & \xi \neq 0 \\ 1 - \exp \left(- \frac{x}{\sigma}\right), & \xi = 0 \end{array} \right. \tag {34}
 $$ where  $\sigma > 0$  and  $x \geq 0$  when  $\xi \geq 0$  and  $0 < x < -\sigma/\xi$  when  $\xi < 0$ . The parameters  $\xi$  and  $\sigma$  are the shape and scale parameters, respectively. Like the GEV, the GPD contains several special cases defined by the value of  $\xi$ . When  $\xi > 0$ , we get the Pareto distribution with parameters  $\alpha = 1/\xi$  and  $k = \sigma/\xi$ , whose tails exhibit slow, power-law decay. The exponential distribution is obtained for  $\xi = 0$ ; its tails decay at an exponential rate. A short (finite)-tailed distribution, called Pareto type II distribution, arises when  $\xi < 0$ .
 
 
@@ -499,7 +499,7 @@ In empirical modeling, there is generally a perceived trade-off between fitting 
 For a random variable with cumulative distribution function  $G$ , the excess distribution over the threshold  $u$  is denoted by  $G_{u}$  and is given by
 
 $$
-\begin{array}{l} G _ {u} (x) = P \left(X - u \leq x \mid X > u\right) \\ = \frac {G (x + u) - G (u)}{1 - G (u)} \\ \end{array}
+\begin{array}{l} G_{u} (x) = P \left(X - u \leq x \mid X > u\right) \\ = \frac{G (x + u) - G (u)}{1 - G (u)} \\ \end{array}
 $$ for  $0 \leq x \leq x_{F} - u$ , where  $x_{F}$  is the right endpoint (a finite number or infinity) of  $X^{\prime}$ s
 
 
@@ -508,13 +508,13 @@ distribution function  $G$ . A statistical result known as the Pickand-Balkema-d
 Denote the available data sample by  $X_{1},\ldots ,X_{N}$  and define an upper and a lower threshold level  $u_{U}$  and  $u_{L}$ , respectively. The data points beyond the threshold levels constitute the tails of the data distribution that are to be modeled with EVT. Naturally, separate modeling of the two tails has the purpose of accounting for the potential skewness in the data distribution. Let us define the exceedances of  $u_{U}$  by  $Y_{k,U} = X_{k} - u_{U}$ , where  $X_{k} > u_{U}$  and the exceedances of  $u_{L}$  by  $Y_{k,L} = u_{L} - X_{k}$ , where  $X_{k} < u_{L}$ ,  $k = 1,\dots,K$ .26 The estimates of the scale and shape parameters are most conveniently obtained by maximizing the GPD log-likelihood function for each of the sets of data  $Y_{k,U}$  and  $Y_{k,L}$ .27 It is written as
 
 $$
-\begin{array}{l} \ln L (\xi , \sigma \mid Y _ {1}, \dots , Y _ {K}) = \sum_ {k = 1} ^ {K} \ln f _ {Y} (\xi , \sigma) \\ = - K \ln \sigma - \left(1 + \frac {1}{\xi}\right) \sum_ {k = 1} ^ {K} \ln \left(1 + \xi \frac {Y _ {k}}{\sigma}\right) \tag {35} \\ \end{array}
+\begin{array}{l} \ln L (\xi , \sigma \mid Y_{1}, \dots , Y_{K}) = \sum_{k = 1}^{K} \ln f_{Y} (\xi , \sigma) \\ = - K \ln \sigma - \left(1 + \frac{1}{\xi}\right) \sum_{k = 1}^{K} \ln \left(1 + \xi \frac{Y_{k}}{\sigma}\right) \tag {35} \\ \end{array}
 $$ where  $f(\xi ,\sigma)$  denotes the GPD density function.
 
 
 The empirical distribution is usually estimated using kernel density estimation approach. The kernel density estimate can be roughly thought of as a smoothed-out histogram. A parameter, called bandwidth or window width, controls the degree of smoothness of the resulting density estimate. More formally, the kernel density estimate is defined as
 
-$$ f (x, x _ {i}, h) = \frac {1}{h n} \sum_ {i = 1} ^ {n} K _ {h} \left(\frac {x - x _ {i}}{h}\right) \tag {36}
+$$ f (x, x_{i}, h) = \frac{1}{h n} \sum_{i = 1}^{n} K_{h} \left(\frac{x - x_{i}}{h}\right) \tag {36}
 $$ where  $x_{i} = (x_{1},x_{2},\ldots ,x_{n})$  is data sample coming from some unspecified distribution and assumed to be IID. The bandwidth,  $h$  takes pos
 
 
@@ -526,7 +526,7 @@ The approach to scenario generation from a model based on GPD is also semiparame
 - Compute the quantity
 
 $$
-Z = \frac {U ^ {- \xi} - 1}{\xi} \tag {37}
+Z = \frac{U^{- \xi} - 1}{\xi} \tag {37}
 $$
 
 - Compute the GPD realization as
@@ -548,14 +548,14 @@ $$
 
 In the case of the GPD,  $m(u)$  can be shown to equal
 
-$$ m (u) = \frac {\sigma}{1 - \xi} + \frac {\xi}{1 - \xi} u
+$$ m (u) = \frac{\sigma}{1 - \xi} + \frac{\xi}{1 - \xi} u
 $$ where  $0 \leq u < \infty$  if  $0 \leq \xi < 1$  and  $0 \leq u \leq -\beta / \xi$  if  $\xi < 0$ . The excess mean function does not exist for  $\xi \geq 1$ . The mean excess function is linear in the threshold level. This linearity is used to motivate a graphical check that the data conform to a GPD model: If the plot is approximately linear for high threshold values, the GPD may be employed to describe the distribution of the exceedances. The level above which linearity is evident may be taken as the threshold level.
 
 
 Plots of the Hill estimator are another EVT model selection method. The Hill approach offers a way to estimate the tail index  $\alpha = 1 / \xi$ . Denote the  $i$ th order statistics of the data sample by  $X_{(i)}$ . The Hill estimator of  $\alpha$  is defined as
 
 $$
-H _ {m, n} = \left(\frac {1}{m} \sum_ {i = 1} ^ {m} \ln X _ {(i)} - \ln X _ {(m)}\right) ^ {- 1} \tag {40}
+H_{m, n} = \left(\frac{1}{m} \sum_{i = 1}^{m} \ln X_{(i)} - \ln X_{(m)}\right)^{- 1} \tag {40}
 $$ where  $2 \leq m \leq n$  and  $m$  is a sufficiently high number. For  $\xi > 0$ , the Hill estimator is equal to  $\alpha$  asymptotically, as the sample size  $n$  and the number of extremes  $m$  increase without bound. In practical applications, the Hill estimator is computed for different values of  $m$  and plotted against these values. The plot is expected to stabilize above a certain value of  $m$ , so that the Hill estimates constructed from a different number of order statistics remain approximately the same. The threshold level  $u$  is then estimated by  $X_{(m)}$ .
 
 

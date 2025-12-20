@@ -1287,7 +1287,7 @@ Do this at your peril. You will miss many insights about the drivers of expected
 At the core of finance is always the present value relation that an asset's market price should equal its expected discounted cash flows. Investors set prices so that the marginal cost of an asset (its price) equals its expected marginal benefit (its expected discounted future payoff):
 
 $$
-\operatorname {P r i c e} _ {t} = \sum_ {T = 1} ^ {\infty} E _ {t} \left[ \frac {\text {C a s h f l o w s} _ {t + T}}{(1 + \text {D i s c o u n t r a t e}) ^ {T}} \right] \tag {5.1}
+\operatorname{Pr ic e}_{t} = \sum_{T = 1}^{\infty} E_{t} \left[ \frac{\text{Ca sh fl ow s}_{t + T}}{(1 + \text{Di sc ou nt ra te})^{T}} \right] \tag {5.1}
 $$
 
 There are different types of expected cash flows. The most common are promised coupons and principal payments of bonds, and dividends of equities:
@@ -1315,7 +1315,7 @@ These assumptions ensure that every investor holds the same portfolio of risky a
 The CAPM's asset-pricing implication is that assets with a higher sensitivity to the market [2] should offer a higher expected return—see equation (5.2), which is a simple rendition of the CAPM. Why? Investors require compensation for the risk each asset contributes to their portfolio—not for accepting an asset's standalone risk. In a CAPM world where all investors hold the same market portfolio of risky assets, assets with higher market beta contribute more to portfolio risk:
 
 $$
-\text {E x p e c t e d a s s e t r e t u r n} = \text {R i s k l e s s r e t u r n} + \text {A s s e t b e t a} * \text {M a r k e t r i s k p r e m i u m} \tag {5.2}
+\text{Ex pe ct ed as se tr et ur n} = \text{Ri sk le ss re tu rn} + \text{As se tb et a} * \text{Ma rk et ri sk pr em iu m} \tag {5.2}
 $$
 
 While the CAPM's assumptions, including the single-factor idea, turned out to be too restrictive, one broad insight in CAPM remains valid in most new models: only systematic risk is "priced" in the sense that it influences expected asset returns. Realized returns reflect both common (systematic) risk factors and asset-specific (idiosyncratic) risk. Risk premia compensate investors for systematic risk that cannot be diversified away, whereas idiosyncratic risk can be diversified away and does not warrant any risk premium [3].
@@ -1345,13 +1345,13 @@ There is little consensus as to which extension to the CAPM is most needed, so I
 Despite the diversity of new models, at least the rationally oriented academic literature retains one key idea in its core, albeit subtly different than in the old world. The asset price still equals expected discounted cash flows, but in a world of uncertainty and time-varying expected returns, equation (5.1) needs to be generalized. Using the new terminology:
 
 $$
-\operatorname {P r i c e} _ {t} ^ {i} = E _ {t} \left[ S D F _ {t + 1} * x _ {t + 1} ^ {i} \right] \tag {5.3}
+\operatorname{Pr ic e}_{t}^{i} = E_{t} \left[ S D F_{t + 1} * x_{t + 1}^{i} \right] \tag {5.3}
 $$ where SDF is the stochastic discount factor; and  $x$  is the payoff (cash flow) for asset  $i$  [5]. The term "stochastic" in SDF emphasizes the uncertainty in time-varying discount rates. But the great intuition is that SDF is an index of "bad times" and that the required risk premium for any asset (or a risk factor) reflects its covariation with bad times. Investors are willing to pay more—accept lower expected returns (i.e., lower risk premia)—for assets that tend to do well in bad times. Conversely, investors require higher risk premia for assets that tend to suffer in bad times. Here is a fundamental generalization of equation (5.2) for any risk premium or ex ante excess return:
 
 
 $$
 
-\text {R i s k} \quad \operatorname {p r e m i u m} _ {t} ^ {i} = - \text {C o v a r i a n c e} (\text {A s s e t e x c e s s r e t u r n} _ {t + 1} ^ {i}, S D F _ {t + 1}) \tag {5.4}
+\text{Ri sk} \quad \operatorname{pr em iu m}_{t}^{i} = - \text{Co va ri an ce} (\text{As se te xc es sr et ur n}_{t + 1}^{i}, S D F_{t + 1}) \tag {5.4}
 
 $$
 
@@ -1386,7 +1386,7 @@ Recall that, according to the CAPM, the  $i$ th asset's expected excess return, 
 
 $$
 
-E _ {t} \left(r _ {t + 1} ^ {i}\right) = \beta_ {t} ^ {i M} \lambda_ {t} ^ {M} \tag {5.5}
+E_{t} \left(r_{t + 1}^{i}\right) = \beta_{t}^{i M} \lambda_{t}^{M} \tag {5.5}
 
 $$
 
@@ -1398,7 +1398,7 @@ If there are several common factors that generate undiversifiable risk, then a m
 
 $$
 
-E _ {t} \left(r _ {t + 1} ^ {i}\right) = \beta_ {t} ^ {i _ {1}} \lambda_ {t} ^ {1} + \beta_ {t} ^ {i _ {2}} \lambda_ {t} ^ {2} \tag {5.6}
+E_{t} \left(r_{t + 1}^{i}\right) = \beta_{t}^{i_{1}} \lambda_{t}^{1} + \beta_{t}^{i_{2}} \lambda_{t}^{2} \tag {5.6}
 
 $$ where  $E_{t}(r_{t + 1}^{i})$  is the expected excess return of asset  $i$ ;  $\beta_{t}^{j}$  (beta) is asset  $i$ 's sensitivity to factor  $j$  (here,  $j = 1$  is equity market, and  $j = 2$  is inflation); and  $\lambda_{t}^{j}$  (lambda) is the factor risk premium (market price of risk) for factor  $j$ .
 
@@ -2229,7 +2229,7 @@ While the yield ratio is useful shorthand for the equity-bond premium, the divid
 In the basic version of the DDM (Gordon's growth model), equity cash flows (dividends) are assumed to grow at a constant annual rate  $G$ . A feasible long-run return on equities  $(H)$  is then the sum of cash flow yield  $(\mathrm{D} / \mathrm{P})$  and trend cash flow growth rate  $G$ . The required return on equities, or the discount rate, can be viewed as the sum of riskless long-term government yield  $(Y)$  and the required equity-bond risk premium (ERPB). Intuitively, markets are in a steady state when the equity market return that investors require  $(Y + \mathrm{ERPB})$  equals the return that markets are able to provide  $(\mathrm{D} / \mathrm{P} + G)$ . These expressions can be reshuffled to state the ex ante equity-bond premium in terms of three building blocks:
 
 $$
-\mathrm {E R P} = \mathrm {D} / \mathrm {P} + G - Y \tag {8.1}
+\mathrm{ER P} = \mathrm{D} / \mathrm{P} + G - Y \tag {8.1}
 $$
 
 The DDM can be expressed in nominal terms (with  $G_{\mathrm{nom}}$  and  $Y_{\mathrm{nom}}$ ), or in real terms (with  $G_{\mathrm{real}}$  and  $Y_{\mathrm{real}}$ ) if we adjust both expected cash flow growth and the bond yield for expected inflation. The model can also be expressed as an earnings discount model if we assume a constant dividend payout rate  $k \equiv \mathrm{D} / \mathrm{E}$ . With a constant payout rate, the growth rates of dividends and earnings are equal. Moreover, if we assume that retained earnings are reinvested at expected return  $H$ , it can be shown that  $\mathrm{E} / \mathrm{P}$  equals real expected return.
@@ -2439,13 +2439,13 @@ I first describe some identities (which are less ambiguous) and then discuss the
 Realized bond return over a year has two components: the yield income earned over time, and the capital gain or loss due to yield changes:
 
 $$
-\mathrm {H} _ {1 0} \approx \mathrm {Y} _ {1 0} - \text {D u r a t i o n} _ {1 0} * \Delta \mathrm {Y} _ {1 0} \tag {9.1}
+\mathrm{H}_{1 0} \approx \mathrm{Y}_{1 0} - \text{Du ra ti on}_{1 0} * \Delta \mathrm{Y}_{1 0} \tag {9.1}
 $$
 
 We can subtract the return of the short-term asset  $(Y_{1})$  and take expectations to get a variant of the bond risk premium related to near-term returns:
 
 $$
-\begin{array}{l} \mathrm {B R P} _ {\mathrm {H}} \equiv \mathrm {E} (\text {e x c e s s b o n d r e t u r n o v e r t h e r i s k l e s s r a t e f o r n e x t y \text {y e a r}}) \\ \approx \left(\mathbf {Y} _ {1 0} - \mathbf {Y} _ {1}\right) - \operatorname {D u r a t i o n} _ {1 0} * \mathrm {E} \left(\Delta \mathbf {Y} _ {1 0}\right) \tag {9.2} \\ \end{array}
+\begin{array}{l} \mathrm{BR P}_{\mathrm{H}} \equiv \mathrm{E} (\text{ex ce ss bo nd re tu rn ov er th er is kl es sr at ef or ne xt y \text{ye ar}}) \\ \approx \left(\mathbf {Y}_{1 0} - \mathbf {Y}_{1}\right) - \operatorname{Du ra ti on}_{1 0} * \mathrm{E} \left(\Delta \mathbf {Y}_{1 0}\right) \tag {9.2} \\ \end{array}
 $$
 
 # Bond yield
@@ -2453,15 +2453,15 @@ $$
 Here is a brief explanation on how bond yields reflect the market's rate expectations and required risk premia. Break-even (forward) rates are, by construction, a sequence of future short rates such that an investor rolling over short-term securities at those rates would earn exactly the same return as the long bond. If investors are risk neutral, these break-even rates equal the market's expectations and the long yield equals the expected average of future short rates. If not, the long yield also contains a risk premium term. This observation merely states a consistency requirement for expectations: if market long-term yield is currently high while future short-term yields are expected to be low, then the long-term bond yield includes a positive premium. Assuming investor rationality, that premium, or higher expected return, is what investors require as compensation for some perceived risk, so we call it a risk premium:
 
 $$
-1 0 \text {y e a r} \approx \text {E x p e c t e d}
+1 0 \text{ye ar} \approx \text{Ex pe ct ed}
 $$
 
 $$
-+ \text {B o n d}
++ \text{Bo nd}
 $$
 
 $$
-\text {o r} \quad \mathrm {Y} _ {1 0} \approx \mathrm {E} (\operatorname {a v g} \mathrm {Y} _ {1}) + \mathrm {B R P} _ {\mathrm {Y}} \tag {9.3}
+\text{or} \quad \mathrm{Y}_{1 0} \approx \mathrm{E} (\operatorname{av g} \mathrm{Y}_{1}) + \mathrm{BR P}_{\mathrm{Y}} \tag {9.3}
 $$
 
 This  $\mathrm{BRP}_{\mathrm{Y}}$  is the average expected return of the bond over its life in excess of a sequence of riskless 1-year investments. The two BRP variants,  $\mathrm{BRP}_{\mathrm{Y}}$  and  $\mathrm{BRP}_{\mathrm{H}}$ , are closely related:  $\mathrm{BRP}_{\mathrm{Y}}$  is an average of the bond's expected future  $\mathrm{BRP}_{\mathrm{H}}$  each year (a 10-year bond's  $\mathrm{BRP}_{\mathrm{H}}$  for the coming year, 9-year bond's  $\mathrm{BRP}_{\mathrm{H}}$  for the following year, etc.). I will not make a distinction between these two variants outside this subsection.
@@ -2469,33 +2469,33 @@ This  $\mathrm{BRP}_{\mathrm{Y}}$  is the average expected return of the bond ov
 We can further slice nominal rate expectations into inflation and real rate expectations, averaged over the next decade:
 
 $$
-\text {E x p e c t e d a v e r g e l y} = \text {E x p e c t e d a v e r g e i n f l a t i o n}
+\text{Ex pe ct ed av er ge ly} = \text{Ex pe ct ed av er ge in fl at io n}
 $$
 
 $$
-+ \text {E x p e c t e d a v e r a g e r e a l 1 - y e a r r a t e}
++ \text{Ex pe ct ed av er ag er ea l1 -y ea rr at e}
 $$
 
 $$
-\operatorname {o r} \quad \mathrm {E} (\operatorname {a v g} \mathrm {Y} _ {1}) = \mathrm {E} (\operatorname {a v g} \operatorname {I n f}) + \mathrm {E} (\operatorname {a v g} \mathrm {R} _ {1}) \tag {9.4}
+\operatorname{or} \quad \mathrm{E} (\operatorname{av g} \mathrm{Y}_{1}) = \mathrm{E} (\operatorname{av g} \operatorname{In f}) + \mathrm{E} (\operatorname{av g} \mathrm{R}_{1}) \tag {9.4}
 $$
 
 Combining the two equations above we get our three-way decomposition of 10-year yield:
 
 $$
-\mathrm {Y} _ {1 0} \approx \mathrm {E} (\text {a v g I n f}) + \mathrm {E} (\text {a v g R} _ {1}) + \mathrm {B R P} _ {\mathrm {Y}} \tag {9.5}
+\mathrm{Y}_{1 0} \approx \mathrm{E} (\text{av gI nf}) + \mathrm{E} (\text{av gR}_{1}) + \mathrm{BR P}_{\mathrm{Y}} \tag {9.5}
 $$
 
 Curve steepness
 
 $$
-\begin{array}{l} \mathrm {Y C} \equiv \mathrm {Y} _ {1 0} - \mathrm {Y} _ {1} \\ = \left[ \mathrm {E} (\operatorname {a v g} \mathrm {Y} _ {1}) - \mathrm {Y} _ {1} \right] + \mathrm {B R P} _ {\mathrm {Y}} \\ = \mathrm {E} (\Delta \operatorname {a v g} \mathrm {Y} _ {1}) + \mathrm {B R P} _ {\mathrm {Y}} \tag {9.6} \\ \end{array}
+\begin{array}{l} \mathrm{YC} \equiv \mathrm{Y}_{1 0} - \mathrm{Y}_{1} \\ = \left[ \mathrm{E} (\operatorname{av g} \mathrm{Y}_{1}) - \mathrm{Y}_{1} \right] + \mathrm{BR P}_{\mathrm{Y}} \\ = \mathrm{E} (\Delta \operatorname{av g} \mathrm{Y}_{1}) + \mathrm{BR P}_{\mathrm{Y}} \tag {9.6} \\ \end{array}
 $$
 
 Alternatively, we can rearrange the  $\mathrm{BRP_H}$  equation above to get:
 
 $$
-\mathrm {Y C} \approx \text {D u r a t i o n} _ {1 0} * \mathrm {E} (\Delta \mathrm {Y} _ {1 0}) + \mathrm {B R P} _ {\mathrm {H}} \tag {9.7}
+\mathrm{YC} \approx \text{Du ra ti on}_{1 0} * \mathrm{E} (\Delta \mathrm{Y}_{1 0}) + \mathrm{BR P}_{\mathrm{H}} \tag {9.7}
 $$
 
 A steep curve reflects either market expectations of rising yields or high required bond risk premia—or, more likely, some combination of the two. The rate expectation component can be expressed either in terms of expected multi-year changes in the 1-year yield over the next decade or, alternatively, as the expected next-year change in the
@@ -3294,7 +3294,7 @@ Because these studies do not include yield income, to get estimates of total ret
 
 # Ex ante value measures
 
-The most popular real estate value indicator is rental yield, or the inverse of the price-to-rent ratio. It is often thought of as the real estate market equivalent to earnings yield in the equity market (the inverse of  $\mathrm{P / E}$ ) but it can also be viewed as equivalent to dividend yield ( $\mathrm{D / P}$  or carry). The difference between these concepts in real estate is arguably small because over very long horizons the real growth of house prices has been negligible (i.e., there are almost no "retained earnings", so  $E\approx D$ ). Nominal (real) total return on housing reflects rental yield (net of unreimbursed utilities, taxes, and other recurring expenses as well as capital expenditures) and nominal (real) house price appreciation.
+The most popular real estate value indicator is rental yield, or the inverse of the price-to-rent ratio. It is often thought of as the real estate market equivalent to earnings yield in the equity market (the inverse of  $\mathrm{P /E}$ ) but it can also be viewed as equivalent to dividend yield ( $\mathrm{D /P}$  or carry). The difference between these concepts in real estate is arguably small because over very long horizons the real growth of house prices has been negligible (i.e., there are almost no "retained earnings", so  $E\approx D$ ). Nominal (real) total return on housing reflects rental yield (net of unreimbursed utilities, taxes, and other recurring expenses as well as capital expenditures) and nominal (real) house price appreciation.
 
 Figure 11.4. Rental yield in U.S. housing, and cap rate and income return in commercial real estate.
 
@@ -4688,7 +4688,7 @@ One approach would be to use return-based factors (asset classes and strategy st
 Asset expected excess return (over cash)
 
 $$
-\begin{array}{l} = \text {A s s e t} * \text {E q u i t y} \\ + \text {A s s e t T r e a s u r y m a k e t} * \text {B o n d} \\ + \text {A s s e t c r e d i t b e t a} * \text {C r e d i t r i s k p r e m i u m} \\ + \text {A s s e t v a l u e b e t a} * \text {V a l u e p r e m i u m} \\ + \text {A s s e t} * \text {C a r r y p r e m i u m} \\ + \text {A s s e t m o m e n t u m b e t a} * \text {M o m e n t u m p r e m i u m} + \dots \tag {16.1} \\ \end{array}
+\begin{array}{l} = \text{As se t} * \text{Eq ui ty} \\ + \text{As se tT re as ur ym ak et} * \text{Bo nd} \\ + \text{As se tc re di tb et a} * \text{Cr ed it ri sk pr em iu m} \\ + \text{As se tv al ue be ta} * \text{Va lu ep re mi um} \\ + \text{As se t} * \text{Ca rr yp re mi um} \\ + \text{As se tm om en tu mb et a} * \text{Mo me nt um pr em iu m} + \dots \tag {16.1} \\ \end{array}
 $$
 
 The proposed model is non-standard because such analysis tends to focus on one asset class at a time. For an analysis to encompass multiple asset classes, broader style proxies may be more relevant. Moreover, if we think that expected returns reflect asset characteristics more than risk sensitivities, we can replace the last three factor betas with some measures of valuation, carry, and momentum. A cross-sectional regression could be run, say, every month between many asset returns against their various betas or characteristics, to estimate the independent market reward (premia) for each factor during this period. Averaging these premia over time would show which factors are consistently rewarded. More heroically, these average premia can be used to estimate each asset's expected excess return. Empirical analysis may focus on short-term (say, monthly) expected returns—not on long-term expected returns. I do not necessarily endorse this approach as practically useful. A consistent framework across different investment types is appealing but may lose some valuable detail in each asset class or strategy.
@@ -4698,7 +4698,7 @@ Instead of return-based factors, we could specify underlying risk factors, such 
 Asset expected excess return (over cash)
 
 $$
-\begin{array}{l} = \text {A s s e t g r o w t h f a c t o r b e t a} * \text {G r o w t h p r e m i u m} \\ + \text {A s s e t i n f l a t i o n b e t a} * \text {I n f l a t i o n p r e m i u m} \\ + \text {A s s e t i l l i q u i d i t y b e t a} * \text {I l l i q u i d i t y p r e m i u m} + \dots \tag {16.2} \\ \end{array}
+\begin{array}{l} = \text{As se tg ro wt hf ac to rb et a} * \text{Gr ow th pr em iu m} \\ + \text{As se ti nf la ti on be ta} * \text{In fl at io np re mi um} \\ + \text{As se ti ll iq ui di ty be ta} * \text{Il li qu id it yp re mi um} + \dots \tag {16.2} \\ \end{array}
 $$
 
 A key advantage in using multi-factor models is that they can consistently assess the expected returns of diverse assets that are influenced by multiple drivers. However, their use requires simplifying assumptions and resulting expected return estimates come with noise.
@@ -5806,7 +5806,7 @@ The above interpretations are alternatives within the rational paradigm: one ext
 To gain algebraic intuition to the information in yield spreads (forward rates), it is useful to decompose the realized return on any investment into two parts:
 
 $$
-\text {T o t a l} \approx \text {C a r r y} + \text {C a p i t a l} (\text {l o s s e s}) \tag {22.1}
+\text{To ta l} \approx \text{Ca rr y} + \text{Ca pi ta l} (\text{lo ss es}) \tag {22.1}
 $$ where "carry" refers to income return (more broadly: return in an unchanged capital market scenario) and capital gains refer to percentage price changes due to changing capital market conditions. Loosely speaking, the two components reflect expected and unexpected returns. (However, for equities, it is important to recall that expected returns also include prospective capital gains related to cash flow growth; see Table 21.1.)
 
 
@@ -5819,7 +5819,7 @@ The break-even concept is useful for investors but may be abused—when forward 
 
 $$
 
-\text {C a r r y} \approx E (\text {t o t a l r e t u r n}) - E (\text {c a p i t a l g a i n s / l o s s e s f r o m r a t e c h a n g e s}) \tag {22.2}
+\text{Ca rr y} \approx E (\text{to ta lr et ur n}) - E (\text{ca pi ta lg ai ns /l os se sf ro mr at ec ha ng es}) \tag {22.2}
 
 $$
 
@@ -5847,7 +5847,7 @@ Equation (22.4) shows an approximate accounting identity that decomposes curve s
 Curve steepness  $\approx$  Required bond risk premium
 
 $$
-+ \text {E x p e c t e d} \tag {22.4}
++ \text{Ex pe ct ed} \tag {22.4}
 $$
 
 An identity is not a theory. The ex post counterpart of the ex ante statement in (22.4) is a tautology. It simply says that if the yield curve is upward sloping, either bond yields rise enough to cause capital losses that offset their positive carry or longer bonds earn higher realized returns than short bonds. If it is not one (with future rate changes "offsetting" yield advantage), it must be the other (realized return advantage). The economic content of the identity in (22.4) comes from assuming that investor expectations are rational and consistent: given an upward-sloping yield curve, investors in the aggregate either expect rising yields to offset positive carry or they expect (and presumably require) a return advantage for longer bonds.
@@ -6774,7 +6774,7 @@ The hugely influential fundamental law of active management, discovered by Richa
 
 $$
 
-\mathrm {I R} \approx \mathrm {I C} * \sqrt {\text {B r e a d t h}}
+\mathrm{IR} \approx \mathrm{IC} * \sqrt{\text{Br ea dt h}}
 
 $$ where the information coefficient, IC, is the amount of investment skill per trade, measuring the investor's forecasting ability by the correlation between predictions and realizations; and breadth is the number of independent trades (i.e., trades not using the same information) per year, representing diversification opportunities. (Note that the IR is the part of the SR due to active management against a benchmark, the rest is due to variation in the returns of the benchmark. If the portfolio's benchmark has zero volatility, then  $\mathrm{IR} = \mathrm{SR}$ .)
 

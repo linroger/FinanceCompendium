@@ -121,23 +121,23 @@ $b_{t}^{s}$  Amount of money borrowed at the beginning of period  $t$ , undersce
 Given these definitions, we present the deterministic equivalent of the stochastic asset-only allocation problem.
 
 $$
-\operatorname {M a x} \mathrm {E U} \left(w _ {\tau} ^ {s}\right) = \sum_ {s \in \mathrm {S}} \pi_ {s} \mathrm {U} \left(w _ {\tau} ^ {s}\right) \tag {1}
+\operatorname{Ma x} \mathrm{EU} \left(w_{\tau}^{s}\right) = \sum_{s \in \mathrm{S}} \pi_{s} \mathrm{U} \left(w_{\tau}^{s}\right) \tag {1}
 $$ subject to
 
 
 $$
-\begin{array}{l} \sum_ {i \in \mathrm {A}} x _ {i, 0} ^ {s} = w _ {0} \quad \forall s \in S (2) \\ \sum_ {i \in \mathrm {A}} x _ {i, \tau} ^ {s} = w _ {\tau} \quad \forall s \in S (3) \\ \end{array}
+\begin{array}{l} \sum_{i \in \mathrm{A}} x_{i, 0}^{s} = w_{0} \quad \forall s \in S (2) \\ \sum_{i \in \mathrm{A}} x_{i, \tau}^{s} = w_{\tau} \quad \forall s \in S (3) \\ \end{array}
 $$
 
-$$ v _ {i, t} ^ {s} = r _ {i, t - 1} ^ {s} x _ {i, t - 1} ^ {s} \quad \forall s \in S, t = 1, \dots , \tau , i \in A \tag {4}
-$$
-
-$$
-\begin{array}{l} x _ {i, t} ^ {s} = v _ {i, t} ^ {s} + p _ {i, t} ^ {s} (1 - \sigma_ {i, t}) - d _ {i, t} ^ {s} \tag {5} \\ \forall s \in S, i \in A / \{1 \}, \quad t = 1, \dots , \tau \\ \end{array}
+$$ v_{i, t}^{s} = r_{i, t - 1}^{s} x_{i, t - 1}^{s} \quad \forall s \in S, t = 1, \dots , \tau , i \in A \tag {4}
 $$
 
 $$
-\begin{array}{l} x _ {1, t} ^ {s} = v _ {1, t} ^ {s} + \sum_ {i \neq 1} d _ {i, t} ^ {s} (1 - \sigma_ {i, t}) \\ - \sum_ {i \neq 1} p _ {i, t} ^ {s} - b _ {t - 1} ^ {s} \left(1 + \beta_ {t - 1} ^ {s}\right) + b _ {t} ^ {s} \tag {6} \\ \end{array}
+\begin{array}{l} x_{i, t}^{s} = v_{i, t}^{s} + p_{i, t}^{s} (1 - \sigma_{i, t}) - d_{i, t}^{s} \tag {5} \\ \forall s \in S, i \in A / \{1 \}, \quad t = 1, \dots , \tau \\ \end{array}
+$$
+
+$$
+\begin{array}{l} x_{1, t}^{s} = v_{1, t}^{s} + \sum_{i \neq 1} d_{i, t}^{s} (1 - \sigma_{i, t}) \\ - \sum_{i \neq 1} p_{i, t}^{s} - b_{t - 1}^{s} \left(1 + \beta_{t - 1}^{s}\right) + b_{t}^{s} \tag {6} \\ \end{array}
 $$
 
 $$
@@ -145,7 +145,7 @@ $$
 $$
 
 $$
-\begin{array}{c} x _ {i, t} ^ {s} = x _ {i, t} ^ {s ^ {\prime}} \quad \forall s \text {a n d} s ^ {\prime} \text {w i t h i d e n t i c a l p a s t u p t o} \\ \text {t i m e} t, t = 1, \dots , \tau \end{array} \tag {7}
+\begin{array}{c} x_{i, t}^{s} = x_{i, t}^{s^{\prime}} \quad \forall s \text{an d} s^{\prime} \text{wi th id en ti ca lp as tu pt o} \\ \text{ti me} t, t = 1, \dots , \tau \end{array} \tag {7}
 $$
 
 A generalized network investment model is presented in Figure 1. This figure depicts the flows across time for each of the asset classes. While all constraints cannot be put into a network model, the graphical form is easy for asset managers to comprehend. General linear and nonlinear programs are now readily available for solving the resulting problem. However, a network may have computational advantages for extremely large problems, such as security level models.

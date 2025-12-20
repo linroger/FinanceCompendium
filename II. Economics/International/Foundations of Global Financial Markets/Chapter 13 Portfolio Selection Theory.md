@@ -119,7 +119,7 @@ To construct an efficient portfolio, an investor needs to be able to estimate th
 The expected value of a portfolio's return (or simply, "the expected portfolio return") is the weighted average of the expected value of the return for each asset over the time period. Mathematically,
 
 $$
-E \left(R _ {p}\right) = w _ {1} E \left(R _ {1}\right) + w _ {2} E \left(R _ {2}\right) + \dots + w _ {K} E \left(R _ {K}\right), \tag {13.1}
+E \left(R_{p}\right) = w_{1} E \left(R_{1}\right) + w_{2} E \left(R_{2}\right) + \dots + w_{K} E \left(R_{K}\right), \tag {13.1}
 $$ where
 
 
@@ -142,7 +142,7 @@ The measure of risk used in Markowitz portfolio theory is the variance, and henc
 
 $$
 
-\sigma^ {2} (R p) = w _ {1} ^ {2} \sigma^ {2} \left(R _ {1}\right) + w _ {2} ^ {2} \sigma^ {2} \left(R _ {2}\right) + 2 \left(w _ {1}\right) \left(w _ {2}\right) \operatorname {c o v} \left(R _ {1}, R _ {2}\right), \tag {13.2}
+\sigma^{2} (R p) = w_{1}^{2} \sigma^{2} \left(R_{1}\right) + w_{2}^{2} \sigma^{2} \left(R_{2}\right) + 2 \left(w_{1}\right) \left(w_{2}\right) \operatorname{co v} \left(R_{1}, R_{2}\right), \tag {13.2}
 
 $$ where
 
@@ -151,7 +151,7 @@ $\sigma^2 (Rp) =$  portfolio variance,
 
 $\sigma^2 (R_1),\sigma^2 (R_2) = \mathrm{variance}$  of asset 1 and asset 2, respectively,
 
-$w_{1}, w_{2} = \text{portfolio allocation (weight)}$  of assets 1 and 2, respectively, and  $\operatorname{cov}(R_1, R_2) = \text{covariance between the return for assets 1 and 2}$ .
+$w_{1}, w_{2} = \text{portfolioallocation (weight)}$  of assets 1 and 2, respectively, and  $\operatorname{cov}(R_1, R_2) = \text{covariancebetweenthereturnforassets1 and2}$ .
 
 As can be seen from equation (13.2), the covariance between the two assets is introduced. As explained in chapter 12, covariance is a measure of the dependence structure or covariability between two random variables. In our application, these variables are the returns for assets 1 and 2.
 
@@ -160,18 +160,18 @@ An alternative to measuring the covariability of two random variables is to dete
 
 $$
 
-\operatorname {c o r} (R _ {1}, R _ {2}) = \operatorname {c o v} (R _ {1}, R _ {2}) / [ \sigma (R _ {1}) \sigma (R _ {2}) ],
+\operatorname{co r} (R_{1}, R_{2}) = \operatorname{co v} (R_{1}, R_{2}) / [ \sigma (R_{1}) \sigma (R_{2}) ],
 
 $$ where  $\operatorname{cor}(R_1, R_2)$  is the correlation between the returns of assets 1 and 2. Solving for the covariance, we have:
 
 $$
-\operatorname {c o v} \left(R _ {1}, R _ {2}\right) = \sigma \left(R _ {1}\right) \sigma \left(R _ {2}\right) \operatorname {c o r} \left(R _ {1}, R _ {2}\right). \tag {13.3}
+\operatorname{co v} \left(R_{1}, R_{2}\right) = \sigma \left(R_{1}\right) \sigma \left(R_{2}\right) \operatorname{co r} \left(R_{1}, R_{2}\right). \tag {13.3}
 $$
 
 Substituting equation (13.3) into equation (13.2) for the covariance, the portfolio variance can be rewritten as
 
 $$
-\sigma^ {2} (R p) = w _ {1} ^ {2} \sigma^ {2} \left(R _ {1}\right) + w _ {2} ^ {2} \sigma^ {2} \left(R _ {2}\right) + 2 \left(w _ {1}\right) \left(w _ {2}\right) \sigma \left(R _ {1}\right) \sigma \left(R _ {2}\right) \operatorname {c o r} \left(R _ {1}, R _ {2}\right). \tag {13.4}
+\sigma^{2} (R p) = w_{1}^{2} \sigma^{2} \left(R_{1}\right) + w_{2}^{2} \sigma^{2} \left(R_{2}\right) + 2 \left(w_{1}\right) \left(w_{2}\right) \sigma \left(R_{1}\right) \sigma \left(R_{2}\right) \operatorname{co r} \left(R_{1}, R_{2}\right). \tag {13.4}
 $$
 
 # The General Case
@@ -179,13 +179,13 @@ $$
 The mathematics for the two-asset case is not complicated. Moving from the two-asset case to the general case in which there are more than two assets gets a little trickier. For example, the three-asset case (i.e., assets 1, 2, and 3) where the portfolio variance is defined in terms of variances and covariances is as follows:
 
 $$
-\begin{array}{l} \sigma^ {2} \left(R _ {p}\right) = w _ {1} ^ {2} \sigma^ {2} \left(R _ {1}\right) + w _ {2} ^ {2} \sigma^ {2} \left(R _ {2}\right) + w _ {3} ^ {2} \sigma^ {2} \left(R _ {3}\right) + 2 \left(w _ {1}\right) \left(w _ {2}\right) \operatorname {c o v} \left(R _ {1}, R _ {2}\right) \tag {13.5} \\ + 2 \left(w _ {1}\right) \left(w _ {3}\right) \operatorname {c o v} \left(R _ {1}, R _ {3}\right) + 2 \left(w _ {2}\right) \left(w _ {3}\right) \operatorname {c o v} \left(R _ {2}, R _ {3}\right). \\ \end{array}
+\begin{array}{l} \sigma^{2} \left(R_{p}\right) = w_{1}^{2} \sigma^{2} \left(R_{1}\right) + w_{2}^{2} \sigma^{2} \left(R_{2}\right) + w_{3}^{2} \sigma^{2} \left(R_{3}\right) + 2 \left(w_{1}\right) \left(w_{2}\right) \operatorname{co v} \left(R_{1}, R_{2}\right) \tag {13.5} \\ + 2 \left(w_{1}\right) \left(w_{3}\right) \operatorname{co v} \left(R_{1}, R_{3}\right) + 2 \left(w_{2}\right) \left(w_{3}\right) \operatorname{co v} \left(R_{2}, R_{3}\right). \\ \end{array}
 $$
 
 In general, for a portfolio with  $K$  assets, the portfolio variance is given by
 
 $$
-\sigma^ {2} \left(R _ {p}\right) = \sum_ {k = 1} ^ {K} \sum_ {h = 1} ^ {K} w _ {k} w _ {h} \operatorname {c o v} \left(R _ {k}, R _ {h}\right). \tag {13.6}
+\sigma^{2} \left(R_{p}\right) = \sum_{k = 1}^{K} \sum_{h = 1}^{K} w_{k} w_{h} \operatorname{co v} \left(R_{k}, R_{h}\right). \tag {13.6}
 $$
 
 In equation (13.6), the  $K$  variances are the cases in which  $k = h$  results, and the covariance between every pair of assets is when  $k \neq h$  results.
@@ -199,19 +199,19 @@ Let's consider the expected portfolio return and portfolio variance using a simp
 Let's assume that the portfolio has equal weights for both assets (i.e.,  $w_{1} = w_{2}$ ). Based on this information, the expected portfolio return from equation (13.1) is
 
 $$
-E \left(R _ {p}\right) = 0.50 (12 \%)+ 0.50 (18 \%)=15 \%
+E \left(R_{p}\right) = 0.50 (12 \%)+ 0.50 (18 \%)=15 \%
 $$
 
 From equation (13.4), the portfolio variance is
 
 $$
-\begin{array}{l} \sigma^ {2} \left(R _ {p}\right) = (0.5) ^ {2} \left(30 \%\right) ^ {2} + (0.5) ^ {2} \left(40 \%\right) ^ {2} + 2 (0.5) (0.5) \left(30 \%\right) \left(40 \%\right) \operatorname {cor} \left(R _ {1}, R _ {2}\right) \\ = 6 2 5 + 6 0 0 \operatorname {c o r} \left(R _ {1}, R _ {2}\right). \\ \end{array}
+\begin{array}{l} \sigma^{2} \left(R_{p}\right) = (0.5)^{2} \left(30 \%\right)^{2} + (0.5)^{2} \left(40 \%\right)^{2} + 2 (0.5) (0.5) \left(30 \%\right) \left(40 \%\right) \operatorname{cor} \left(R_{1}, R_{2}\right) \\ = 6 2 5 + 6 0 0 \operatorname{co r} \left(R_{1}, R_{2}\right). \\ \end{array}
 $$
 
 Taking the square root of the above equation, we obtain the standard deviation:
 
 $$
-\sigma \left(R _ {p}\right) = \left[ 6 2 5 + 6 0 0 \operatorname {c o r} \left(R _ {1}, R _ {2}\right) \right] ^ {0. 5}.
+\sigma \left(R_{p}\right) = \left[ 6 2 5 + 6 0 0 \operatorname{co r} \left(R_{1}, R_{2}\right) \right]^{0. 5}.
 $$
 
 We can now see how portfolio risk changes for our two-asset portfolio with different correlations between the returns of the two assets. We know that the correlation ranges from  $-1$  to  $+1$ . Let's examine the following three cases for  $\operatorname{cor}(R_1, R_2) = -1$ , 0, and 1. Substituting into the equation above for the correlations for these three cases of  $\operatorname{cor}(R_1, R_2)$ , we get:

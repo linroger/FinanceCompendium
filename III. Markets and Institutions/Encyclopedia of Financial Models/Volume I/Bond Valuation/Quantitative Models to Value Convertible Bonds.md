@@ -39,7 +39,7 @@ The Black-Scholes option pricing model is used to value the convertible bond as 
 Consider a convertible bond that is convertible only at maturity, therefore with a European call option embedded. Let
 
 $$
-\gamma = \frac {n}{n + N}
+\gamma = \frac{n}{n + N}
 $$ equal the dilution factor, indicating the fraction of the common equity that would be held by
 
 
@@ -56,7 +56,7 @@ $r =$  interest rate
 In light of the continuous-time analysis, the functional form to assume for the call price of a convertible bond is the exponential:
 
 $$
-K (\tau) = B \cdot e ^ {- \rho \tau}
+K (\tau) = B \cdot e^{- \rho \tau}
 $$ where
 
 
@@ -65,22 +65,22 @@ $\rho =$  rate of change in the call price
 $\sigma^2 =$  the instantaneous variance of returns of the stock underlying the convertible bond
 
 $$
-\Phi (x) = \frac {1}{\sqrt {2 \pi}} \int_ {- \infty} ^ {x} e ^ {- t ^ {2} / 2} d t
+\Phi (x) = \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{x} e^{- t^{2} / 2} d t
 $$ is the cumulative normal distribution
 
 
 $$
-\begin{array}{l} F (V, \tau ; B, 0) = \\ B \cdot e ^ {- r t} \cdot \left[ \Phi \left(- \frac {\log (B \cdot e ^ {- r t} / V) + \frac {1}{2} \sigma^ {2} \tau}{\sigma \sqrt {\tau}}\right) \right. \\ \left. + V \cdot \Phi \frac {\left(- \frac {\log (B \cdot e ^ {- r t} / V) + \frac {1}{2} \sigma^ {2} \tau)}{\sigma \sqrt {\tau}}\right)}{B \cdot e ^ {- r t}} \right] \\ \end{array}
+\begin{array}{l} F (V, \tau ; B, 0) = \\ B \cdot e^{- r t} \cdot \left[ \Phi \left(- \frac{\log (B \cdot e^{- r t} / V) + \frac{1}{2} \sigma^{2} \tau}{\sigma \sqrt{\tau}}\right) \right. \\ \left. + V \cdot \Phi \frac{\left(- \frac{\log (B \cdot e^{- r t} / V) + \frac{1}{2} \sigma^{2} \tau)}{\sigma \sqrt{\tau}}\right)}{B \cdot e^{- r t}} \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} W (\gamma V, \tau ; B) = \gamma \cdot V \cdot \Phi \left(\frac {\log \left(\frac {\gamma \cdot V}{B}\right) + \left(r + \frac {1}{2} \sigma^ {2}\right) \tau}{\sigma \sqrt {\tau}}\right) \\ - B \cdot e ^ {- r t} \cdot \Phi \left(\frac {\log \left(\frac {\gamma \cdot V}{B}\right) + \left(r + \frac {1}{2} \sigma^ {2}\right) \tau}{\sigma \sqrt {\tau}} - \sigma \sqrt {\tau}\right) \\ \end{array}
+\begin{array}{l} W (\gamma V, \tau ; B) = \gamma \cdot V \cdot \Phi \left(\frac{\log \left(\frac{\gamma \cdot V}{B}\right) + \left(r + \frac{1}{2} \sigma^{2}\right) \tau}{\sigma \sqrt{\tau}}\right) \\ - B \cdot e^{- r t} \cdot \Phi \left(\frac{\log \left(\frac{\gamma \cdot V}{B}\right) + \left(r + \frac{1}{2} \sigma^{2}\right) \tau}{\sigma \sqrt{\tau}} - \sigma \sqrt{\tau}\right) \\ \end{array}
 $$
 
 The value of the convertible bond is
 
 $$
-\begin{array}{l} H (V, \tau) = F (V, \tau ; B, 0) + W (\gamma V, \tau ; B) \\ + \left(\frac {K (\tau)}{\gamma V}\right) ^ {2 (r - \rho) / \sigma^ {2}} \cdot \left(F \left(\gamma V \cdot e ^ {(\rho - r) t}, \tau ; B \cdot e ^ {(r - \rho) \tau}, 0\right) \right. \\ \left. - F \left(\gamma V \cdot e ^ {(\rho - r) \tau}, \tau ; \frac {B}{\gamma} \cdot e ^ {(r - \rho) \tau}, 0\right)\right) \\ \end{array}
+\begin{array}{l} H (V, \tau) = F (V, \tau ; B, 0) + W (\gamma V, \tau ; B) \\ + \left(\frac{K (\tau)}{\gamma V}\right)^{2 (r - \rho) / \sigma^{2}} \cdot \left(F \left(\gamma V \cdot e^{(\rho - r) t}, \tau ; B \cdot e^{(r - \rho) \tau}, 0\right) \right. \\ \left. - F \left(\gamma V \cdot e^{(\rho - r) \tau}, \tau ; \frac{B}{\gamma} \cdot e^{(r - \rho) \tau}, 0\right)\right) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/fc17f2828583188dbbee9596f7473ae9cd6b150a948420e826c54711add8666a.jpg)
@@ -89,7 +89,7 @@ Figure 1 Plot of a Convertible Bond Function for Different Firm Values
 To illustrate the model, let's plot the function  $H$  with the following parameters:
 
 $$
-\begin{array}{l} B = 1 0 0 \\ \rho = 0, 0 2 \\ \gamma = 0, 2 \\ \sigma^ {2} = 5 \% \\ r = 7 \% \\ \end{array}
+\begin{array}{l} B = 1 0 0 \\ \rho = 0, 0 2 \\ \gamma = 0, 2 \\ \sigma^{2} = 5 \% \\ r = 7 \% \\ \end{array}
 $$
 
 $V$  ranges from 0 to 625.
@@ -97,7 +97,7 @@ $V$  ranges from 0 to 625.
 The plots are shown in Figure 1. The straight lines cross at
 
 $$
-V (\tau) = \frac {K (\tau)}{\gamma}
+V (\tau) = \frac{K (\tau)}{\gamma}
 $$
 
 # NUMERICAL MODELS
@@ -129,16 +129,16 @@ In the first step we build the stock price tree. The binomial tree model allows 
 
 Between a node and the following node, the stock price can move upward or downward. The jump of the stock price depends on the length of the time interval  $\Delta t = T / N$  and on the stock price volatility  $\sigma$ . Therefore
 
-$$ u = e ^ {\sigma \sqrt {\Delta t}} (\text {u p w a r d m o v e})
+$$ u = e^{\sigma \sqrt{\Delta t}} (\text{up wa rd mo ve})
 $$
 
-$$ d = e ^ {- \sigma \sqrt {\Delta t}} (\text {d o w n w a r d m o v e})
+$$ d = e^{- \sigma \sqrt{\Delta t}} (\text{do wn wa rd mo ve})
 $$
 
 The stock price,  $S$ , at each node is set equal to
 
 $$
-S \cdot u ^ {i} \cdot d ^ {j - i}
+S \cdot u^{i} \cdot d^{j - i}
 $$ where  $i = 0,1,\ldots ,j$
 
 
@@ -146,19 +146,19 @@ $N$  is the time step and  $i$  is the number of upward moves.
 
 The probability of a downward move in stock price at the next time step  $\Delta t$  is
 
-$$ p = \frac {e ^ {b \sqrt {\Delta t} - d}}{u - d}
+$$ p = \frac{e^{b \sqrt{\Delta t} - d}}{u - d}
 $$ while the probability of a downward move must be  $(1 - p)$ , since the probability of going either up or down equals unity.
 
 
 In the second step we build the conversion probability tree. We calculate the conversion probabilities backward, starting from the leaves of the stock price tree. If it's optimal to convert the bond, the conversion probability is 1, other- wise it is 0. For the steps before the end of the tree, the conversion probability is 1 if it's optimal to convert the bond; otherwise, it is equal to
 
 
-$$ q _ {n, i} = p \cdot q _ {n + 1, i + 1} + (1 + p) \cdot q _ {n + 1, i}
+$$ q_{n, i} = p \cdot q_{n + 1, i + 1} + (1 + p) \cdot q_{n + 1, i}
 $$
 
 In the third step we build the credit-adjusted spread tree. If the convertible bond is out-of-the-money, futures cash flows should be discounted to a rate equal to the risk-free rate,  $r$ , plus a credit spread,  $k$ , of that particular bond. In fact, if the stock price is much lower than the conversion price, the convertible bond behaves like a plain vanilla bond. If the convertible bond is in-the-money, future cash flows must be discounted at the risk-free rate. In this case, the convertible bond behaves like a stock. Therefore, instead of using a fixed discount rate  $r$ , in each node is calculated a discount rate  $r_{n,i}$  and a conversion probability  $q_{n,i}$  is used. The discount rate is equal to
 
-$$ r _ {n, i} = q _ {n, i} \cdot r + (1 - q _ {n, i}) \cdot (r + k)
+$$ r_{n, i} = q_{n, i} \cdot r + (1 - q_{n, i}) \cdot (r + k)
 $$
 
 In the fourth step, we build the convertible bond value tree. At each node of the tree, the price of the convertible bond is equal to the maximum between the conversion value of the bond and the face value plus the final coupon. The tree is built backward: from the leaves back to the root of the tree. The root of the tree is the price of the convertible bond.
@@ -166,14 +166,14 @@ In the fourth step, we build the convertible bond value tree. At each node of th
 If it's optimal to convert the bond at a node, then that node is assigned the conversion value; otherwise, the price of the convertible bond is
 
 $$
-\begin{array}{l} P _ {n, i} = \max  [ m S, p \cdot P _ {n + 1, i + 1} \cdot e ^ {r _ {n + 1, i + 1} \cdot \Delta t} \\ + (1 - p) \cdot P _ {n + 1, i} \cdot e ^ {- r _ {n + 1, t} \cdot \Delta t} ] \\ \end{array}
+\begin{array}{l} P_{n, i} = \max  [ m S, p \cdot P_{n + 1, i + 1} \cdot e^{r_{n + 1, i + 1} \cdot \Delta t} \\ + (1 - p) \cdot P_{n + 1, i} \cdot e^{- r_{n + 1, t} \cdot \Delta t} ] \\ \end{array}
 $$ where  $m$  is the conversion ratio.
 
 
 For example, let's determine the price of a convertible bond with the binomial tree method, starting with the following data:
 
 $$
-\begin{array}{l} T = 5 \text {y e a r s (m a t u r i t y)} \\ \Delta t = 1 \text {y e a r (s t e p)} \\ N = 5 \text {(n u m b e r o f n o d e s)} \\ r = 4\% \text{(risk - free rate)} \\ k = 2\% \text{(credit spread)} \\ \end{array}
+\begin{array}{l} T = 5 \text{ye ar s (ma tu ri ty)} \\ \Delta t = 1 \text{ye ar (st ep)} \\ N = 5 \text{(nu mb er of no de s)} \\ r = 4\% \text{(risk -freerate)} \\ k = 2\% \text{(creditspread)} \\ \end{array}
 $$
 
 <table><tr><td colspan="8">Stock Price Tree</td></tr><tr><td></td><td></td><td></td><td>85.00</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>93.94</td><td>76.91</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>103.82</td><td>85.00</td><td></td><td>69.59</td><td></td><td></td></tr><tr><td></td><td>114.74</td><td></td><td>93.94</td><td>76.91</td><td></td><td>62.97</td><td></td></tr><tr><td>126.81</td><td></td><td>103.82</td><td>85.00</td><td></td><td>69.59</td><td></td><td>56.98</td></tr><tr><td>140.14</td><td></td><td>114.74</td><td>93.94</td><td></td><td>76.91</td><td>62.97</td><td>51.56</td></tr></table>
@@ -188,23 +188,23 @@ Figure 2 Binomial Trees Necessary to Determine the Value of a Convertible Bond
 
 The convertible bond has nominal value 100 and coupon  $10\%$ .
 
-$$ m = 100\% \text{(conversion ratio)}
+$$ m = 100\% \text{(conversionratio)}
 $$
 
 $$
-S = 8 5 (\text {s t o c k p r i c e})
+S = 8 5 (\text{st oc kp ri ce})
 $$
 
 $$
-\sigma = 10 \% (\text {stock volatility})
+\sigma = 10 \% (\text{stockvolatility})
 $$
 
 With the formulas discussed above we calculate
 
-$$ u = 1. 1 0 5 2 (\text {u p w a r d s m o v e})
+$$ u = 1. 1 0 5 2 (\text{up wa rd sm ov e})
 $$
 
-$$ d = 0. 9 0 4 8 \text {(d o w n w a r d s m o v e)}
+$$ d = 0. 9 0 4 8 \text{(do wn wa rd sm ov e)}
 $$
 
 $p = 0.6787$  (probability of an upward move of the stock price in the next time interval  $\Delta t$ )

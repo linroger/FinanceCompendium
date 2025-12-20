@@ -224,19 +224,19 @@ BEY of an annual-pay bond  $= 2[(1 +$  Yield to maturity on an annual pay bond) 
 This formula computes the semiannual yield for the annual-pay bond and then doubles it. Recall the convention used in calculating the BEY for a semiannual-paying bond. For example, suppose that the yield to maturity of an annual-pay bond is  $6\%$ . Then its BEY is
 
 $$
-2 \left[ (1 + 0.06) ^ {1 / 2} - 1 \right] = 0.0591 = 5.91 \%
+2 \left[ (1 + 0.06)^{1 / 2} - 1 \right] = 0.0591 = 5.91 \%
 $$
 
 Notice that the BEY will always be less than the annual-pay bond's yield to maturity.
 
 To convert the BEY of a semiannual-pay basis so that it can be compared to the yield to maturity of an annual-pay bond, the following formula can be used:
 
-Yield to maturity on annual-pay basis  $= [1 + (\text{Yield to maturity on a BEY basis}/2)]^2 - 1$ .
+Yield to maturity on annual-pay basis  $= [1 + (\text{Yieldtomaturityona BEYbasis}/2)]^2 - 1$ .
 
 For example, suppose that the yield to maturity of a semiannual-pay bond is quoted on a BEY basis is  $5.5\%$ . The yield to maturity on an annual-pay basis would then be
 
 $$
-[(1 + 0.055 / 2) ^ {2} ] - 1 = 0.0558 = 5.58 \%
+[(1 + 0.055 / 2)^{2} ] - 1 = 0.0558 = 5.58 \%
 $$
 
 The yield to maturity on an annual-pay basis is always greater than the yield to maturity on a BEY basis.

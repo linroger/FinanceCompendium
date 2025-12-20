@@ -97,15 +97,15 @@ $$ where
 
 
 $$
-\begin{array}{c} P V (t, T) = \text {p r e s e n t v a l u e o f t h e c a s h f l o w} \\ \text {a t} t \end{array}
+\begin{array}{c} P V (t, T) = \text{pr es en tv al ue of th ec as hf lo w} \\ \text{at} t \end{array}
 $$
 
 $$
-\begin{array}{c} d (t, T) = \text {d i s c o u n t a t} t \text {f o r a c a s h f l o w} \\ \text {r e c e i v e d} T \text {a f t e r} t \end{array}
+\begin{array}{c} d (t, T) = \text{di sc ou nt at} t \text{fo ra ca sh fl ow} \\ \text{re ce iv ed} T \text{af te r} t \end{array}
 $$
 
 $$
-C F (t, T) \mathrm {c a s h} = \text {f l o w} t + T
+C F (t, T) \mathrm{ca sh} = \text{fl ow} t + T
 $$
 
 As we are able to generate the discount function,  $d$ , for all terms-to-maturity,  $T$ , this can be a valid representation of the term structure of interest rates. Indeed, the discount function reflects the Treasury term structure when the discount function exactly reprices the current-coupon Treasury issues.
@@ -158,21 +158,21 @@ The term to each of the cash flows,  $T(i,j) = T_{i,j}$ , is specific to the ins
 The present value of a coupon-paying instrument is simply the sum of the discounted present values of the cash flows that make up the coupon payments and the payment of principal. Accordingly, for the discount function to model the Treasury term structure (i.e., the market sector defined by the on-the-run Treasury reference set), the following equations must be simultaneously satisfied. In this way, the discount function will reprice the current-coupon Treasury issues.
 
 $$
-\begin{array}{l} P (t, 3 - \text {m o n t h}) = d (t, T (3 - \text {m o n t h}, 1)) \\ \times C F (t, T (3 - m o n t h, 1)) \\ = d (t, T _ {1, 1}) \times C F (t, T _ {1, 1}) \\ \end{array}
+\begin{array}{l} P (t, 3 - \text{mo nt h}) = d (t, T (3 - \text{mo nt h}, 1)) \\ \times C F (t, T (3 - m o n t h, 1)) \\ = d (t, T_{1, 1}) \times C F (t, T_{1, 1}) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P (t, 6 - \text {m o n t h}) = d (t, T (6 - \text {m o n t h}, 1)) \\ \times C F (t, T (6 - m o n t h, 1)) \\ = d (t, T _ {2, 1}) \times C F (t, T _ {2, 1}) \\ \end{array}
+\begin{array}{l} P (t, 6 - \text{mo nt h}) = d (t, T (6 - \text{mo nt h}, 1)) \\ \times C F (t, T (6 - m o n t h, 1)) \\ = d (t, T_{2, 1}) \times C F (t, T_{2, 1}) \\ \end{array}
 $$
 
 $$
-P (t, 2 - y e a r) = P (t, 3) = \sum_ {j = 1} ^ {4} d (t, T _ {3, j}) \times C F (t, T _ {3, j})
+P (t, 2 - y e a r) = P (t, 3) = \sum_{j = 1}^{4} d (t, T_{3, j}) \times C F (t, T_{3, j})
 $$
 
 .
 
 $$
-P (t, 3 0 - y e a r) = P (t, 8) = \sum_ {j = 1} ^ {6 0} d (t, T _ {8, j}) \times C F (t, T _ {8, j})
+P (t, 3 0 - y e a r) = P (t, 8) = \sum_{j = 1}^{6 0} d (t, T_{8, j}) \times C F (t, T_{8, j})
 $$
 
 The last cash flow of each series consists of the principal payment and, for the notes and bond, one coupon payment. The solution to these simultaneous equations furnishes many distinct points of term in which the discount function is defined; the long bond alone may have as many as 60 term points. Depending on the circumstances surrounding each auction, there may be as many as over 90 distinct points of term defining the discount function.
@@ -189,23 +189,23 @@ With the assumption of a compounding convention (usually semiannual), the discou
 The spot yield,  $R$ , is related to the discount function,  $d$ , through a price/yield relation. By definition, the present value at  $t$ ,  $PV(t, n)$ , of a cash flow received  $n$  periods in the future,  $CF(t, n)$ , has the spot yield,  $R(t, n)$ , through the relation
 
 $$
-P V (t, n) = \frac {C F (t , n)}{\left[ 1 + R (t , n) \right] ^ {n}} \tag {2}
+P V (t, n) = \frac{C F (t , n)}{\left[ 1 + R (t , n) \right]^{n}} \tag {2}
 $$
 
 We use the discrete notion of integer periods, with each period of length  $P$ , to keep the math simple at this point. The more general case of a noninteger world is treated when a continuous time model is introduced.
 
 Comparing equations (2) and (1) provides the relation between the spot yield and the discount function
 
-$$ d (t, n) = \frac {1}{[ 1 + R (t , n) ] ^ {n}} \tag {3}
+$$ d (t, n) = \frac{1}{[ 1 + R (t , n) ]^{n}} \tag {3}
 $$ where
 
 
 $$
-\begin{array}{l} d (t, n) = \text {d i s c o u n t} \\ n \text {p e r i o d s a f t e r} t \\ \end{array}
+\begin{array}{l} d (t, n) = \text{di sc ou nt} \\ n \text{pe ri od sa ft er} t \\ \end{array}
 $$
 
 $$
-R (t, n) = n \text {p e r i o d s p o t y i e l o n} t
+R (t, n) = n \text{pe ri od sp ot yi el on} t
 $$
 
 The spot-yield curve is just the set of spot yields for all terms-to-maturity. In contrast, the spot rate is simply the one-period rate prevailing on  $t$  for repayment one period later. In the above notation, the spot rate is denoted  $R(t,1)$ .
@@ -213,7 +213,7 @@ The spot-yield curve is just the set of spot yields for all terms-to-maturity. I
 We can generalize the earlier comment about coupon-paying bonds in terms of the set of spot yields. The present value of a coupon-paying instrument is simply the sum of the discounted (present value) of the cash flows that make up the coupon payments and the payment of principal. The analogy to equation (2) for a coupon-paying bond using spot yields is
 
 $$
-\begin{array}{l} P V (t, n) = \frac {C F (t , 1)}{[ 1 + R (t , 1) ]} + \frac {C F (t , 2)}{[ 1 + R (t , 2) ] ^ {2}} \\ + \dots + \frac {C F (t , n)}{\left[ 1 + R (t , n) \right] ^ {n}} \tag {2a} \\ \end{array}
+\begin{array}{l} P V (t, n) = \frac{C F (t , 1)}{[ 1 + R (t , 1) ]} + \frac{C F (t , 2)}{[ 1 + R (t , 2) ]^{2}} \\ + \dots + \frac{C F (t , n)}{\left[ 1 + R (t , n) \right]^{n}} \tag {2a} \\ \end{array}
 $$
 
 Similarly, the analogy to equation (1) for a coupon-paying bond using the discount function is given by
@@ -229,7 +229,7 @@ A consequence of the discount function, spot yield, and spot rate is the immedia
 Specifically, the one-period forward rate,  $F$ , can be determined from the spot yields as follows. Consider the one-period and two-period spot yields; the forward rate,  $F$ , may be found from
 
 $$
-(1 + R (t, 2)) ^ {2} = (1 + R (t, 1)) \times (1 + F (t, 1, 1)) \tag {4}
+(1 + R (t, 2))^{2} = (1 + R (t, 1)) \times (1 + F (t, 1, 1)) \tag {4}
 $$ where
 
 
@@ -242,11 +242,11 @@ $F(t,1,1) =$  one-period forward rate one period from  $t$
 This relation follows from the no-arbitrage assumption intrinsic in the concept of forward rates. The calculation of the forward rate presumes that an investment today for two periods provides the same return as a one-period investment today immediately rolled into another one-period investment one period from now. That is
 
 $$
-P V (t) = \frac {C F (t , 2)}{\left[ 1 + R (t , 2) \right] ^ {2}} \tag {5}
+P V (t) = \frac{C F (t , 2)}{\left[ 1 + R (t , 2) \right]^{2}} \tag {5}
 $$
 
 $$
-P V (t) = \frac {C F (t , 2)}{\left[ 1 + R (t , 2) \right] \times \left[ 1 + F (t , 1 , 1) \right]} \tag {6}
+P V (t) = \frac{C F (t , 2)}{\left[ 1 + R (t , 2) \right] \times \left[ 1 + F (t , 1 , 1) \right]} \tag {6}
 $$
 
 By equating equations (5) and (6), equation (4) results.
@@ -256,25 +256,25 @@ By equating equations (5) and (6), equation (4) results.
 Implied from the term structure, through the spot-yield curve, is a set of forward rates. These forward rates may be iteratively defined from the above and written as follows
 
 $$
-\begin{array}{l} (1 + R (t, n)) ^ {n} = (1 + R (t, n - 1)) ^ {n - 1} \\ \times (1 + F (t, 1, n - 1)) \\ \end{array}
+\begin{array}{l} (1 + R (t, n))^{n} = (1 + R (t, n - 1))^{n - 1} \\ \times (1 + F (t, 1, n - 1)) \\ \end{array}
 $$ where in addition to the earlier notation,  $F(t, 1, n-1) =$  one-period forward rate  $n-1$  periods from  $t$ , and noting, through substitution, that
 
 
 $$
-\begin{array}{l} (1 + R (t, n)) ^ {n} = (1 + R (t, 1)) \times (1 + F (t, 1, 1)) \\ \times (1 + F (t, 1, 2)) \times \dots \\ \times (1 + F (t, 1, n - 1)) \tag {7} \\ \end{array}
+\begin{array}{l} (1 + R (t, n))^{n} = (1 + R (t, 1)) \times (1 + F (t, 1, 1)) \\ \times (1 + F (t, 1, 2)) \times \dots \\ \times (1 + F (t, 1, n - 1)) \tag {7} \\ \end{array}
 $$ this furnishes the first  $n - 1$  one-period forward rates.
 
 
 The relation among spot yield, spot rate, and forward rates, equation (7), can be combined with equation (2) to furnish a method for calculating the present value, at  $t$ , of a single  $n$ -period future cash flow based on a series of one-period forward rates
 
 $$
-P V (t, n) = \frac {C F (t , n)}{\left[ 1 + R (t , 1) \right] \times \cdots \times \left[ 1 + F (t , 1 , n - 1) \right]} \tag {8}
+P V (t, n) = \frac{C F (t , n)}{\left[ 1 + R (t , 1) \right] \times \cdots \times \left[ 1 + F (t , 1 , n - 1) \right]} \tag {8}
 $$
 
 Since the present value of a coupon-paying security is simply the sum of the discounted present value of the cash flows that make up the coupon payments and the payment of principal (see equations (1a) and (2a)), the analogy to equation (8) for determining the present value of a coupon-paying bond is
 
 $$
-\begin{array}{l} P V (t, n) = \frac {C F (t , 1)}{[ 1 + R (t , 1) ]} \\ + \frac {C F (t , 2)}{\left[ 1 + R (t , 1) \right] \times \left[ 1 + F (t , 1 , 1) \right]} + \dots \\ + \frac {C F (t , n)}{[ 1 + R (t , 1) ] \times \cdots \times [ 1 + F (t , 1 , n - 1) ]} \\ \end{array}
+\begin{array}{l} P V (t, n) = \frac{C F (t , 1)}{[ 1 + R (t , 1) ]} \\ + \frac{C F (t , 2)}{\left[ 1 + R (t , 1) \right] \times \left[ 1 + F (t , 1 , 1) \right]} + \dots \\ + \frac{C F (t , n)}{[ 1 + R (t , 1) ] \times \cdots \times [ 1 + F (t , 1 , n - 1) ]} \\ \end{array}
 $$
 
 This equation may be used to define multi-period forward rates.
@@ -284,23 +284,23 @@ This equation may be used to define multi-period forward rates.
 The discount function provides a direct method for generating forward rates. The one-period forward return  $n - 1$  periods from  $t$  is obtained through the following
 
 $$
-1 + F (t, 1, n - 1) = \frac {d (t , n - 1)}{d (t , n)} \tag {9}
+1 + F (t, 1, n - 1) = \frac{d (t , n - 1)}{d (t , n)} \tag {9}
 $$
 
 Equation (9) may be derived from earlier equations, or from the following argument that creates a synthetic forward position. For each unit of cash delivered  $n$  periods from today,  $t$ , we pay  $d(t, n)$ . We take a long position in this zero. We also short  $d(t, n) / d(t, n - 1)$  units of cash to be delivered  $n - 1$  periods from  $t$ . For this we receive  $d(t, n - 1)$  times  $d(t, n) / d(t, n - 1)$  or simply  $d(t, n)$ , units. There is no net change in our cash position today. After  $n - 1$  periods we pay out  $d(t, n) / d(t, n - 1)$  and after  $n$  periods receive one unit of cash. Thus the forward price per unit,  $FP$ , to be paid  $n - 1$  periods from now is
 
 
 $$
-F P (t, 1, n - 1) = \frac {d (t , n - 1)}{d (t , n)}
+F P (t, 1, n - 1) = \frac{d (t , n - 1)}{d (t , n)}
 $$ where
 
 
-$FP(t, 1, n - 1) = \text{forward price of a one-period unit of cash } n - 1$  periods from now
+$FP(t, 1, n - 1) = \text{forwardpriceofa one-periodunitofcash } n - 1$  periods from now
 
 The forward price then gives the forward one-period rate,  $n - 1$  periods from  $t$  as
 
 $$
-F P (t, 1, n - 1) = \frac {1}{1 + F (t , 1 , n - 1)}
+F P (t, 1, n - 1) = \frac{1}{1 + F (t , 1 , n - 1)}
 $$
 
 Equating these results in equation (9).
@@ -322,18 +322,18 @@ $$ then the same arbitrage argument may be made as before: If we buy the synthet
 
 
 $$
-F P (t, 1, n - 1) = \frac {1}{1 + F (t , 1 , n - 1)}
+F P (t, 1, n - 1) = \frac{1}{1 + F (t , 1 , n - 1)}
 $$ to receive one unit of cash after  $n + 1$  periods. Also, after  $n$  periods, at  $t + nP$ , we sell the one-period unit zero for a price of
 
 
 $$
-\frac {1}{1 + R (t + n P , 1)}
+\frac{1}{1 + R (t + n P , 1)}
 $$
 
 We know we can do this since there is no uncertainty in the economy. If, as assumed,  $F(t,1,n) > R(t + nP,1)$ , then after  $n$  periods the long and short positions yield a positive net cash flow, or a riskless arbitrage, of
 
 $$
-\frac {1}{1 + R (t + n P , 1)} - \frac {1}{1 + F (t , 1 , n)} > 0
+\frac{1}{1 + R (t + n P , 1)} - \frac{1}{1 + F (t , 1 , n)} > 0
 $$ after  $n$  periods with no uncertainty and with no net investment. Arbitrageurs will exploit the imbalance of the  $n$ -period forward rate with the spot rate  $n$  periods from now by continuing to buy the synthetic forward until demand outstrips supply. In this scenario, the synthetic forward price goes up, and the forward rate,  $F(t, 1, n)$ , goes down to  $R(t + nP, 1)$  with predictable effect on  $d(t, n + 1)$  and/or  $d(t, n)$ . On the other hand, if  $F(t, 1, n) < R(t + nP, 1)$ , we may reverse our positions, and the same argument shows that  $F(t, 1, n)$  will increase to  $R(t + nP, 1)$ .
 
 
@@ -341,7 +341,7 @@ Using the no-arbitrage condition in a certain economy, equation (10), in the pre
 
 
 $$
-\begin{array}{l} P V (t, n) \\ = \frac {C F (t , n + 1)}{[ 1 + R (t , 1) ] \times [ 1 + R (t + P , 1) ] \times \dots \times [ 1 + R (t + n P , 1) ]} \\ = \frac {C F (t , n + 1)}{\left[ 1 + R (t , n + 1) \right] ^ {n + 1}} \tag {11} \\ \end{array}
+\begin{array}{l} P V (t, n) \\ = \frac{C F (t , n + 1)}{[ 1 + R (t , 1) ] \times [ 1 + R (t + P , 1) ] \times \dots \times [ 1 + R (t + n P , 1) ]} \\ = \frac{C F (t , n + 1)}{\left[ 1 + R (t , n + 1) \right]^{n + 1}} \tag {11} \\ \end{array}
 $$
 
 This means that the certain return of holding an  $n + 1$  period zero until maturity is the same as the total return on a series of one-period bonds over the same period. Later we will discuss the various forms of equation (11) from various qualitative term structure theories.
@@ -349,12 +349,12 @@ This means that the certain return of holding an  $n + 1$  period zero until mat
 Given equation (11), we have, at time  $P$  (one period) later,
 
 $$
-\begin{array}{l} P V (t + P, n) \\ = \frac {C F (t , n + 1)}{[ 1 + R (t + P , 1) ] \times \cdots \times [ 1 + R (t + n P , 1) ]} \\ \end{array}
+\begin{array}{l} P V (t + P, n) \\ = \frac{C F (t , n + 1)}{[ 1 + R (t + P , 1) ] \times \cdots \times [ 1 + R (t + n P , 1) ]} \\ \end{array}
 $$ so we find that the single-period return on a long-term zero is
 
 
 $$
-\frac {P V (t + P)}{P V (t)} = 1 + R (t, 1) \tag {12}
+\frac{P V (t + P)}{P V (t)} = 1 + R (t, 1) \tag {12}
 $$
 
 Since the term-to-maturity was not specified, equation (12) must be true for zeros of any maturity. That is, the return realized on every discount bond over any period is equal to one plus the prevailing spot rate over that period. This will be expanded upon later.
@@ -372,7 +372,7 @@ $$ and restate equation (12) in its discount-function based form:
 
 
 $$
-\frac {d (t + P , n)}{d (t , n + 1)} = 1 + R (t, 1)
+\frac{d (t + P , n)}{d (t , n + 1)} = 1 + R (t, 1)
 $$
 
 While these developments for the certain economy may appear trivial and obvious, they serve as a guide for modeling the term structure under uncertainty as well.
@@ -396,7 +396,7 @@ Using this relation, we find from equation (8) that the present value in an econ
 
 
 $$
-\begin{array}{l} P V (t, n) = \frac {C F (t , n + 1)}{[ 1 + R (t , 1) ] \times \left\{1 + E [ R (t + P , 1) ] \right\}} \tag {13} \\ \times \dots \times \left\{1 + E [ R (t + n P, 1) ] \right\} \\ \end{array}
+\begin{array}{l} P V (t, n) = \frac{C F (t , n + 1)}{[ 1 + R (t , 1) ] \times \left\{1 + E [ R (t + P , 1) ] \right\}} \tag {13} \\ \times \dots \times \left\{1 + E [ R (t + n P, 1) ] \right\} \\ \end{array}
 $$
 
 Therefore, the unbiased expectations hypothesis concludes that the guaranteed return from buying an  $(n + 1)$  period bond and holding it to maturity is equivalent to the product of the expected returns from holding one-period bonds using a strategy of rolling over a series of one-period bonds until maturity.
@@ -404,7 +404,7 @@ Therefore, the unbiased expectations hypothesis concludes that the guaranteed re
 Alternatively, the return-to-maturity expectations hypothesis is based on equation (11). Here we find that present value in such an economy is
 
 $$
-\begin{array}{l} P V (t, n) = \frac {C F (t , n + 1)}{E \left\{\left[ 1 + R (t , 1) \right] \times [ 1 + R (t + P , 1) ] \right.} \tag {14} \\ \times \dots \times [ 1 + R (t + n P, 1) ] \} \\ \end{array}
+\begin{array}{l} P V (t, n) = \frac{C F (t , n + 1)}{E \left\{\left[ 1 + R (t , 1) \right] \times [ 1 + R (t + P , 1) ] \right.} \tag {14} \\ \times \dots \times [ 1 + R (t + n P, 1) ] \} \\ \end{array}
 $$
 
 The return-to-maturity expectations hypothesis assumes that an investor would expect to earn the same return by rolling over a series of one-period bonds as buying an  $(n + 1)$ -period bond and holding it to maturity.
@@ -412,7 +412,7 @@ The return-to-maturity expectations hypothesis assumes that an investor would ex
 The last version of the expectations hypothesis that we will mention (there are others) is the local-expectations hypothesis (or risk-neutral hypothesis). This hypothesis is based on equation (12), or equivalently, its associated discount function-based equation. Under this hypothesis, the expected rate of return over a single period is equal to the prevailing spot rate of interest. Applying these expressions recursively gives
 
 $$
-\begin{array}{l} P V (t) = \frac {E [ P V (t + P) ]}{[ 1 + R (t , 1) ]} \\ = E \left\{\frac {P V (t + 2 P)}{[ 1 + R (t + P , 1) ] \times [ 1 + R (t , 1) ]} \right\} \\ = C F (t, n + 1) \times E \left\{\frac {1}{[ 1 + R (t , 1) ] \times [ 1 + R (t + P , 1) ]} \times \dots \times [ 1 + R (t + n P, 1) ] \right\} \tag {15} \\ \end{array}
+\begin{array}{l} P V (t) = \frac{E [ P V (t + P) ]}{[ 1 + R (t , 1) ]} \\ = E \left\{\frac{P V (t + 2 P)}{[ 1 + R (t + P , 1) ] \times [ 1 + R (t , 1) ]} \right\} \\ = C F (t, n + 1) \times E \left\{\frac{1}{[ 1 + R (t , 1) ] \times [ 1 + R (t + P , 1) ]} \times \dots \times [ 1 + R (t + n P, 1) ] \right\} \tag {15} \\ \end{array}
 $$
 
 Equations (13), (14), and (15) are clearly different in that the coefficient of the cash flow,
@@ -447,7 +447,7 @@ Given the intertemporal nature of the term structure and the apparent efficiency
 Traditional fixed-income analysis assumes that compounding occurs at discrete points or over finite intervals, typically on a semiannual basis. However, as the compounding period grows ever shorter, discrete compounding is replaced by continuous compounding. We expand our original equation (2) for the present value (at  $t$ ),  $PV(t,T)$ , of a cash flow received  $T$  years from today,  $CF(t,T)$ , which is invested at the spot yield,  $R(t,T)$ , to be
 
 $$
-P V (t, T) = C F (t, T) e ^ {- T R (t, T)} \tag {16}
+P V (t, T) = C F (t, T) e^{- T R (t, T)} \tag {16}
 $$
 
 Equation (16) is the fundamental price/yield relationship for the case of continuous compounding of a discount bond and is the direct analog of the price/yield relationship shown in equation (2) for discrete compounding.
@@ -458,13 +458,13 @@ Equation (16) is the fundamental price/yield relationship for the case of contin
 For a pure discount bond that pays one dollar at maturity,  $CF(t,T) = 1$ . Let  $P$  be the price of the pure discount bond. Thus equation (16) becomes
 
 $$
-P (t, T) = e ^ {- T R (t, T)} \tag {17}
+P (t, T) = e^{- T R (t, T)} \tag {17}
 $$
 
 Combining the above with equation (16), which equates the price of a discount bond to the discount function, we obtain
 
 $$
-P (t, T) = e ^ {- T R (t, T)} = d (t, T) \tag {18}
+P (t, T) = e^{- T R (t, T)} = d (t, T) \tag {18}
 $$
 
 Equation (18) provides an expression for the relationship between the discount function  $d$  and the spot yield  $R$ , and is the continuous-time analogy to equation (3).
@@ -482,43 +482,43 @@ $$ where
 
 
 $$
-\begin{array}{c} d W (t) = \text {i n c r e m e n t a l i n c r e a s e i n t h e v a l u e o f} \\ \text {t h e l o a n f r o m t i m e t t o t i m e t + d t} \end{array}
+\begin{array}{c} d W (t) = \text{in cr em en ta li nc re as ei nt he va lu eo f} \\ \text{th el oa nf ro mt im et to ti me t +d t} \end{array}
 $$
 
 $$
-W (t) = \text {v a l u e} t
+W (t) = \text{va lu e} t
 $$
 
-$$ r (t) = \text {s p o t r a t e} t
+$$ r (t) = \text{sp ot ra te} t
 $$
 
 To find the value of the loan  $W$  at maturity, integrate equation (19)
 
 $$
-\int_ {t} ^ {t + T} \frac {D W (\tau)}{W (\tau)} = \int_ {t} ^ {t + T} r (\tau) d \tau
+\int_{t}^{t + T} \frac{D W (\tau)}{W (\tau)} = \int_{t}^{t + T} r (\tau) d \tau
 $$
 
 $$
-W (t) = W (t + T) \exp \left(- \int_ {t} ^ {t + T} r (\tau) d \tau\right) \tag {20}
+W (t) = W (t + T) \exp \left(- \int_{t}^{t + T} r (\tau) d \tau\right) \tag {20}
 $$
 
 If  $W$  is a discount bond,  $W(t)$  is equal to the present value  $P(t,T)$  and the value of  $W(t + T)$  is one. Equation (20) is rewritten as
 
 $$
-P (t, T) = \exp \left(- \int_ {t} ^ {t + T} r (\tau) d \tau\right) \tag {21}
+P (t, T) = \exp \left(- \int_{t}^{t + T} r (\tau) d \tau\right) \tag {21}
 $$
 
 From equation (17), the price  $P$  is expressed in terms of its spot yield  $R$ . By equating (17) and (21), we obtain the following expression for the spot yield in terms of the spot rate
 
 $$
-R (t, T) = \frac {1}{T} \int_ {t} ^ {t + T} r (\tau) d \tau \tag {22}
+R (t, T) = \frac{1}{T} \int_{t}^{t + T} r (\tau) d \tau \tag {22}
 $$
 
 Equation (22) is a general expression that always holds.
 
 Another view of the relationship between the spot yield and the spot rate is that instead of continuously reinvesting at the spot rate  $r$  for a fixed maturity  $T$  to obtain the spot yield  $R$ , if the term-to-maturity grows ever shorter, the spot yield  $R$  approaches the spot rate  $r$  "in the limit."  $r$  may be stated as
 
-$$ r (t) = R (t, T = 0) = \lim  _ {T \rightarrow 0} R (t, T) \tag {23}
+$$ r (t) = R (t, T = 0) = \lim_{T \rightarrow 0} R (t, T) \tag {23}
 $$
 
 Graphically, the spot rate at  $t = 0$  may be visualized as the yield corresponding to the point at which the spot-yield curve intercepts the yield axis.
@@ -528,7 +528,7 @@ Graphically, the spot rate at  $t = 0$  may be visualized as the yield correspon
 The forward rate,  $F(t_0,t)$  is the marginal rate of return for extending an investment to an additional increment of term at  $t > t_0$ . The forward rate is defined by
 
 $$
-R (t, T) = \frac {1}{T} \int_ {t} ^ {t + T} F (t, \tau) d \tau \tag {24}
+R (t, T) = \frac{1}{T} \int_{t}^{t + T} F (t, \tau) d \tau \tag {24}
 $$
 
 Comparing the above notations for the forward rate with that in equation (4), note that the parameter "1" from the previous parameter set (denoting one time period) is no longer present. In the continuous-time domain, one time period collapses to just an instant.
@@ -536,24 +536,24 @@ Comparing the above notations for the forward rate with that in equation (4), no
 Rearranging and applying Leibniz's rule, the above becomes
 
 $$
-\begin{array}{l} \frac {d}{d T} [ T R (t, T) ] = \frac {d}{d T} \int_ {t} ^ {t + T} F (t, \tau) d \tau \\ = F (t, t + T) \\ = F (t, s) \tag {25} \\ \end{array}
+\begin{array}{l} \frac{d}{d T} [ T R (t, T) ] = \frac{d}{d T} \int_{t}^{t + T} F (t, \tau) d \tau \\ = F (t, t + T) \\ = F (t, s) \tag {25} \\ \end{array}
 $$ where  $s$  is the maturity date. The above equations relate the forward rate to the spot yield  $R$ . As with the case of discrete compounding, the forward rate may be expressed similarly in terms of the discount function  $d(t,T)$  or the spot rate  $r(t)$ .
 
 
 From equations (17), (18), and (25),
 
 $$
-F (t, t + T) = \frac {- d}{d T} \ln [ d (t, T) ] \tag {26}
+F (t, t + T) = \frac{- d}{d T} \ln [ d (t, T) ] \tag {26}
 $$ where  $\ln[]$  is the natural logarithm.
 
 
 Separately, from equations (22) and (24),
 
-$$ r (t) = \lim  _ {T \rightarrow 0} R (t, T)
+$$ r (t) = \lim_{T \rightarrow 0} R (t, T)
 $$
 
 $$
-\begin{array}{l} r (t) = \lim  _ {T \rightarrow 0} R (t, T) \frac {1}{T} \int_ {t} ^ {t + T} F (t, \tau) d \tau \\ = \lim  _ {T \rightarrow 0} \frac {1}{T} F (t, \hat {t}) T (t <   \hat {t} <   t + T) \\ = F (t, t) \tag {27} \\ \end{array}
+\begin{array}{l} r (t) = \lim_{T \rightarrow 0} R (t, T) \frac{1}{T} \int_{t}^{t + T} F (t, \tau) d \tau \\ = \lim_{T \rightarrow 0} \frac{1}{T} F (t, \hat {t}) T (t <   \hat {t} <   t + T) \\ = F (t, t) \tag {27} \\ \end{array}
 $$
 
 Under a certain economy, equations (22) and (27) show that the spot rate needs to be equal to the forward rate to preclude arbitrage. In the case in which the spot-yield curve  $R(t,T)$  (and consequently the term structure) is defined, it follows that the spot rate needs to be equal to the instantaneous forward rate over the term of the discount bond for equation (27) to hold true (see equation (7) for the analogy in the case of discrete compounding).
@@ -577,7 +577,7 @@ Equation (28) describes the functional form of the term structure in terms of th
 Such an equation for the term structure may be found by considering that the term structure may be expressed equivalently in terms of the prices of discount bonds (i.e., through the discount function). Thus equation (17) may be rewritten as
 
 $$
-R (r, t, T) = - \frac {1}{T} \ln [ P (r, t, T) ] \tag {29}
+R (r, t, T) = - \frac{1}{T} \ln [ P (r, t, T) ] \tag {29}
 $$ where  $\ln[]$  is the natural logarithm.
 
 

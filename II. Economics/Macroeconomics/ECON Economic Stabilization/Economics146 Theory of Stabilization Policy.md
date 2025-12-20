@@ -54,7 +54,7 @@ In the Friedman model, we measure the magnitude of fluctuations by the variance.
 From basic probability theory, we know that  $Z = X + P$  implies (you should memorize this result):
 
 $$
-\begin{array}{l} V (Z) = V (X) + V (P) + 2 \operatorname {C O V} (X, P) = V (X) + V (P) + 2 \rho \sigma_ {X} \sigma_ {P} \tag {2} \\ = \sigma^ {2} _ {\mathrm {X}} + \sigma^ {2} _ {\mathrm {P}} + 2 \rho \sigma_ {\mathrm {X}} \sigma_ {\mathrm {P}} \\ \end{array}
+\begin{array}{l} V (Z) = V (X) + V (P) + 2 \operatorname{CO V} (X, P) = V (X) + V (P) + 2 \rho \sigma_{X} \sigma_{P} \tag {2} \\ = \sigma^{2}_{\mathrm{X}} + \sigma^{2}_{\mathrm{P}} + 2 \rho \sigma_{\mathrm{X}} \sigma_{\mathrm{P}} \\ \end{array}
 $$
 
 In this equation,  $\sigma_{\mathrm{P}}$  measures the magnitude of the policy intervention's effect on income, and  $\rho$  measures its timing or "fit" or sign. Policymakers choose  $\rho$  and  $\sigma_{\mathrm{P}}$  to minimize the fluctuations in GDP, i.e., to minimize  $\mathrm{V}(\mathrm{Z})$  [technically it is to minimize the fluctuations of Z relative to its target level, as discussed in the prior section].
@@ -80,25 +80,25 @@ $$
 $$
 
 $$
-1 0 0 = 9 0 + 1 0 \quad \text {I n t h i s c a s e ,} \mathrm {V} (\mathrm {X}) = \mathrm {V} (\mathrm {P}) = 2 0 0 \text {a n d} \rho = - 1 \text {a n d} \mathrm {V} (\mathrm {Z}) = 0.
+1 0 0 = 9 0 + 1 0 \quad \text{In th is ca se ,} \mathrm{V} (\mathrm{X}) = \mathrm{V} (\mathrm{P}) = 2 0 0 \text{an d} \rho = - 1 \text{an d} \mathrm{V} (\mathrm{Z}) = 0.
 $$
 
 Case 2: Perfect timing and intervention is stabilizing, but too small
 
 $$
-\begin{array}{l} 1 0 5 = 1 1 0 - 5 [ \text {i n t e r v i o n i s i n r i g h t d i r e c t i o n , b u t V (X) > V (P) = V (Z) > 0} ] 9 5 \\ = 9 0 + 5 \\ \end{array}
+\begin{array}{l} 1 0 5 = 1 1 0 - 5 [ \text{in te rv io ni si nr ig ht di re ct io n ,b ut V (X) >V (P) =V (Z) >0} ] 9 5 \\ = 9 0 + 5 \\ \end{array}
 $$
 
 Case 3: Perfect timing but intervention is destabilizing
 
 $$
-\begin{array}{l} 8 5 = 1 1 0 - 2 5 [ \mathrm {V} (\mathrm {P}) > \mathrm {V} (\mathrm {Z}) > \mathrm {V} (\mathrm {X}) ] \\ 1 1 5 = 9 0 + 2 5 \\ \end{array}
+\begin{array}{l} 8 5 = 1 1 0 - 2 5 [ \mathrm{V} (\mathrm{P}) > \mathrm{V} (\mathrm{Z}) > \mathrm{V} (\mathrm{X}) ] \\ 1 1 5 = 9 0 + 2 5 \\ \end{array}
 $$
 
 Case 4: Correct size but bad timing (i.e. wrong sign, with  $\rho = +1$ )
 
 $$
-\begin{array}{l} 1 2 0 = 1 1 0 + 1 0 [ \mathrm {V} (\mathrm {Z}) > \mathrm {V} (\mathrm {X}) = \mathrm {V} (\mathrm {P}) ] \\ 8 0 = 9 0 - 1 0 \\ \end{array}
+\begin{array}{l} 1 2 0 = 1 1 0 + 1 0 [ \mathrm{V} (\mathrm{Z}) > \mathrm{V} (\mathrm{X}) = \mathrm{V} (\mathrm{P}) ] \\ 8 0 = 9 0 - 1 0 \\ \end{array}
 $$
 
 From these examples we conclude that policy is destabilizing if  $\mathrm{V}(Z) > \mathrm{V}(X)$  and it is stabilizing if  $\mathrm{V}(Z) < \mathrm{V}(X)$ .
@@ -106,7 +106,7 @@ From these examples we conclude that policy is destabilizing if  $\mathrm{V}(Z) 
 Under what general conditions is policy stabilizing, i.e. when does  $\mathrm{V}(\mathrm{Z}) < \mathrm{V}(\mathrm{X})$ ? Divide above expression by  $\mathrm{V}(\mathrm{X})$ :
 
 $$
-\begin{array}{l} \frac {\sigma_ {Z} ^ {2}}{\sigma_ {X} ^ {2}} = 1 + \frac {\sigma_ {P} ^ {2}}{\sigma_ {X} ^ {2}} + 2 \rho \frac {\sigma_ {P}}{\sigma_ {X}} \tag {3} \\ \frac {\sigma_ {Z} ^ {2}}{\sigma_ {X} ^ {2}} \leq 1 \quad \begin{array}{l} \rho \leq - \frac {1}{2} \frac {\sigma_ {P}}{\sigma_ {X}} \\ \text {i f a n d o n l y i f} \end{array} \\ \end{array}
+\begin{array}{l} \frac{\sigma_{Z}^{2}}{\sigma_{X}^{2}} = 1 + \frac{\sigma_{P}^{2}}{\sigma_{X}^{2}} + 2 \rho \frac{\sigma_{P}}{\sigma_{X}} \tag {3} \\ \frac{\sigma_{Z}^{2}}{\sigma_{X}^{2}} \leq 1 \quad \begin{array}{l} \rho \leq - \frac{1}{2} \frac{\sigma_{P}}{\sigma_{X}} \\ \text{if an do nl yi f} \end{array} \\ \end{array}
 $$
 
 if and only if  $2\sigma_{X}$ . Even if  $\mathrm{V}(\mathrm{X}) = \mathrm{V}(\mathrm{P})$ , the policy is stabilizing
@@ -165,7 +165,7 @@ Suppose that business cycles are symmetric about their mean (which rises over ti
 utility of stable or non-varying consumption - avg. utility if no consumption stabilization
 
 $$
-= \mathrm {U} (\mathrm {E} (\mathrm {C})) - [ \mathrm {U} (\mathrm {C} _ {\mathrm {R}}) + \mathrm {U} (\mathrm {C} _ {\mathrm {B}}) ] / 2.
+= \mathrm{U} (\mathrm{E} (\mathrm{C})) - [ \mathrm{U} (\mathrm{C}_{\mathrm{R}}) + \mathrm{U} (\mathrm{C}_{\mathrm{B}}) ] / 2.
 $$
 
 For standard utility functions and the variance of aggregate consumption in the post-war U.S., elimination of variance increases utility by only a very small, second order, amount. This is primarily because empirically the variance of aggregate consumption is a small number and because the utility curve is relatively flat at current levels of U.S.
@@ -187,7 +187,7 @@ To make these ideas more precise, again assume that business cycles are symmetri
 avg. utility, recessions only eliminated - avg. utility if no consumption stabilization
 
 $$
-= [ U (E (C)) + U (C _ {B}) ] / 2 - [ U (C _ {R}) + U (C _ {B}) ] / 2 = [ U (E (C)) - U (C _ {R}) ] / 2.
+= [ U (E (C)) + U (C_{B}) ] / 2 - [ U (C_{R}) + U (C_{B}) ] / 2 = [ U (E (C)) - U (C_{R}) ] / 2.
 $$
 
 This exceeds the utility gain of eliminating cycles completely because, in this case, boom levels of consumption are not being eliminated. Empirically, the utility gain from elimination of recessions is large; this reflects that the average level of consumption is increased from  $(\mathrm{C_R} + \mathrm{C_B}) / 2$  to  $[(C_{\mathrm{R}} + C_{\mathrm{B}}) / 2 + C_{\mathrm{B}}] / 2$ .

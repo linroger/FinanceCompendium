@@ -37,13 +37,13 @@ CAPM Conclusion 2. The difference between the expected return and the risk-free 
 The "market portfolio" includes all securities in the market. The composition of the portfolio is such that the sum of the weights allocated to all the securities is equal to one. That is, denoting  $X_{i}^{M}$  as the percentage of security  $i$  in the market portfolio (denoted by  $M$ ), then
 
 $$
-\sum_ {i = 1} ^ {n} X _ {i} ^ {M} = 1 \tag {1}
+\sum_{i = 1}^{n} X_{i}^{M} = 1 \tag {1}
 $$
 
 Each holding of a security is proportional to its part of the total market capitalization. That is,
 
 $$
-X _ {i} ^ {M} = \frac {\text {M a r k e t v a l u e o f} i - \text {t h s e c u r i t y}}{\text {T o t a l m a r k e t v a l u e o f a l l s e c u r i t i e s}} \tag {2}
+X_{i}^{M} = \frac{\text{Ma rk et va lu eo f} i - \text{th se cu ri ty}}{\text{To ta lm ar ke tv al ue of al ls ec ur it ie s}} \tag {2}
 $$
 
 CAPM Conclusion 1 is that this "market portfolio" is on the mean-variance efficient frontier.
@@ -51,19 +51,19 @@ CAPM Conclusion 1 is that this "market portfolio" is on the mean-variance effici
 Let  $r_i$  stand for the return on the  $i$ -th security during some period. The return on the market portfolio then is
 
 
-$$ r ^ {M} = \sum_ {i = 1} ^ {n} X _ {i} ^ {M} r _ {i} \tag {3}
+$$ r^{M} = \sum_{i = 1}^{n} X_{i}^{M} r_{i} \tag {3}
 $$
 
 The beta  $(\beta)$  referred to in CAPM Conclusion 2 can be estimated using regression analysis from historical data on observed returns for a security and observed returns for the market. In this regression analysis, security return is the "dependent variable" and market return is the "independent variable." However, the beta produced by this analysis should be interpreted as a measure of association rather than causation. That is, it is a measure of the extent that the two quantities move up and down together, not as the so-called "independent variable" causing the level of the "dependent variable." Below we examine why there is this association (not causation) in CAPM between security returns and market return.
 
 The excess return, denoted by  $e_i$ , is the difference between the security's expected return,  $E(r_i)$ , and the risk-free interest rate,  $r_f$ , at which all investors are assumed to lend or borrow:
 
-$$ e _ {i} = E \left(r _ {i}\right) - r _ {f} \tag {4}
+$$ e_{i} = E \left(r_{i}\right) - r_{f} \tag {4}
 $$
 
 CAPM Conclusion 2 is that the excess return for security  $i$  is proportional to its  $\beta$ . That is, letting  $k$  be a constant then
 
-$$ e _ {i} = k \beta_ {i} \quad i = 1, \dots , n \tag {5}
+$$ e_{i} = k \beta_{i} \quad i = 1, \dots , n \tag {5}
 $$
 
 It can also be shown that equation (5) applies to portfolios as well as individual securities. Thus in an SL-CAPM world, each security and portfolio has an excess return that is proportional to the regression of the security or portfolio's return against the return of the market portfolio.
@@ -74,14 +74,14 @@ A second CAPM, which appeared shortly after that of the writings of Sharpe and L
 
 
 $$
-\sum_ {i = 1} ^ {n} X _ {i} ^ {I} = 1 \tag {6}
+\sum_{i = 1}^{n} X_{i}^{I} = 1 \tag {6}
 $$ without regard to the sign of the variables. Positive  $X_{i}^{I}$  is interpreted as a long position in a security while a negative  $X_{i}^{I}$  is interpreted as a short position in a security.
 
 
 However, a negative  $X_{i}^{I}$  is far from a realistic model of real-world constraints on shorting. For example, equation (6) would consider feasible a portfolio with
 
 $$
-\begin{array}{l} X _ {1} = - 1, 0 0 0 \\ X _ {2} = 1, 0 0 1 \\ X _ {i} = 0 \quad i = 3, \dots , n \\ \end{array}
+\begin{array}{l} X_{1} = - 1, 0 0 0 \\ X_{2} = 1, 0 0 1 \\ X_{i} = 0 \quad i = 3, \dots , n \\ \end{array}
 $$ since the above sums to one. This would correspond to an investor depositing  \$1,000 with a broker; shorting\$ 1,000,000 of stock 1; then using the proceeds of the sale, plus the \$1,000 deposited with the broker to buy \$1,001,000 worth of stock 2. In fact, in this example, Treasury Regulation T (Reg T) would require that the sum of long positions, plus the value of the stocks sold short, not exceed 2,000.
 
 
@@ -148,7 +148,7 @@ Since a Roy CAPM world may or may not have a risk-free asset, Assumptions 1-3 pl
 CAPM Conclusion  $2^{\prime}$ . Expected returns are a linear function of betas, that is, there are constants,  $a$  and  $b$ , such that
 
 $$
-E \left(r _ {i}\right) = a + b \beta_ {i} \quad i = 1, \dots , n \tag {7}
+E \left(r_{i}\right) = a + b \beta_{i} \quad i = 1, \dots , n \tag {7}
 $$
 
 Equation (5) of the SL-CAPM is the same as equation (7) of the Roy CAPM with  $a = r_f$ .
@@ -158,12 +158,12 @@ CAPM Conclusions 1 and 2 (or  $2^{\prime}$ ) do not follow from Assumptions 1, 2
 Assumptions 1 through 3 are assumed in this example. Rather than Assumption 4 or Assumption  $4^{\prime}$ , the example assumes that the investor can choose any portfolio that meets the following constraints:
 
 $$
-X _ {1} + X _ {2} + X _ {3} = 1. 0 \tag {8a}
+X_{1} + X_{2} + X_{3} = 1. 0 \tag {8a}
 $$ and
 
 
 $$
-X _ {1} \geq 0, X _ {2} \geq 0, X _ {3} \geq 0 \tag {8b}
+X_{1} \geq 0, X_{2} \geq 0, X_{3} \geq 0 \tag {8b}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/7a1939457fd8fb60a2ffe5ddc89e5919cceec041c5927de5f8a241ac0fc5505a.jpg)
@@ -176,16 +176,16 @@ In Figure 1,  $X_{1}$  the fraction invested in Security 1—is plotted on the h
 The line  $\ell \ell^{\prime}$  connects all points (portfolios) that minimize variance, on the portfolio-as-a-whole, for various levels of portfolio expected return, subject to equation (8a), ignoring nonnegativity inequalities (8b). Using differential calculus, one can minimize a function such as
 
 $$
-V = \sum_ {i = 1} ^ {3} X _ {i} ^ {2} V _ {i} \tag {9a}
+V = \sum_{i = 1}^{3} X_{i}^{2} V_{i} \tag {9a}
 $$ subject to constraints
 
 
 $$
-\sum_ {i = 1} ^ {3} X _ {i} = 1 \tag {9b}
+\sum_{i = 1}^{3} X_{i} = 1 \tag {9b}
 $$
 
 $$
-E _ {0} = \sum_ {i = 1} ^ {3} X _ {i} E \left(r _ {i}\right) \tag {9c}
+E_{0} = \sum_{i = 1}^{3} X_{i} E \left(r_{i}\right) \tag {9c}
 $$
 
 One can do so with the expected returns and standard deviations from Table 1, letting  $E_0$  vary, and thereby obtain the line in Figure 1. Moving downward and to the right on  $\ell \ell'$ , the portfolio expected return increases. This downward direction for increasing expected return does not always hold: It depends on the choice of security expected returns.
@@ -225,7 +225,7 @@ Thus the only points (portfolios) between  $M$  and  $P$  that are consistent wi
 If Assumptions 1 through 4 (or Assumption  $4^{\prime}$ ) are true, then CAPM Conclusion  $2^{\prime}$  follows: Expected returns are linearly related to the betas of each security as in equation (7), that is,
 
 $$
-\begin{array}{l} E _ {1} = a + b \beta_ {1} \\ E _ {2} = a + b \beta_ {2} \\ E _ {3} = a + b \beta_ {3} \\ \end{array}
+\begin{array}{l} E_{1} = a + b \beta_{1} \\ E_{2} = a + b \beta_{2} \\ E_{3} = a + b \beta_{3} \\ \end{array}
 $$ where  $\beta i$  is the coefficient of the regression of the return on the  $i$ th security against the return on the market portfolio. In other words, all  $(E_i,\beta_i)$  combinations lie on the straight line
 
 
@@ -236,7 +236,7 @@ $$
 But equation (7) does not typically hold if Assumptions 1 through 3 are true but neither Assumption 4 nor Assumption  $4^{\prime}$  is also true, as illustrated using the data in Tables 2 and 3, and Figure 4. Table 2 shows the  $\beta_{i}$  for portfolio  $P$ ; Table 3 shows them for portfolio  $M$ . These betas are computed using the fact that the regression coefficient  $\beta_{s,r}$  of random variable  $s$  against a random variable  $r$  is
 
 $$
-\beta_ {s, r} = \frac {\operatorname {C o v a r i a n c e} (r , s)}{\operatorname {V a r i a n c e} (s)} \tag {10}
+\beta_{s, r} = \frac{\operatorname{Co va ri an ce} (r , s)}{\operatorname{Va ri an ce} (s)} \tag {10}
 $$
 
 Table 2 Betas versus Portfolio P
@@ -292,17 +292,17 @@ This is most easily seen if we assume that risks are uncorrelated. (CAPM should 
 According to equation (10), the beta of  $r_i$  against  $r_M$  is
 
 $$
-\beta_ {i} = \frac {\operatorname {C o v a r i a n c e} \left(r _ {i} , r ^ {M}\right)}{\operatorname {V a r i a n c e} \left(r ^ {M}\right)}
+\beta_{i} = \frac{\operatorname{Co va ri an ce} \left(r_{i} , r^{M}\right)}{\operatorname{Va ri an ce} \left(r^{M}\right)}
 $$
 
 Therefore, equation (5) holds if and only if we also have
 
-$$ e _ {i} = \tilde {b} \operatorname {c o v a r i a n c e} \left(r _ {i}, r ^ {M}\right) \tag {11}
+$$ e_{i} = \tilde {b} \operatorname{co va ri an ce} \left(r_{i}, r^{M}\right) \tag {11}
 $$ where
 
 
 $$
-\tilde {b} = b / \operatorname {V a r} \left(r ^ {M}\right)
+\tilde {b} = b / \operatorname{Va r} \left(r^{M}\right)
 $$
 
 In other words, excess return is proportional to  $\beta_{i}$  if and only if it is proportional to the covariance between  $r_i$  and  $r^M$ .
@@ -310,20 +310,20 @@ In other words, excess return is proportional to  $\beta_{i}$  if and only if it
 As a calculus exercise one can show that, in the uncorrelated case, the SL-CAPM investor minimizes portfolio variance for given portfolio mean if and only if the investor chooses a portfolio such that
 
 $$
-V X _ {i} ^ {I} = k ^ {I} e _ {i} \tag {12a}
+V X_{i}^{I} = k^{I} e_{i} \tag {12a}
 $$ where  $V_{i}$  is the variance of  $r_i$  and  $k^l$  depends on the investor's risk aversion.
 
 
 Equation (12a) implies a similar relationship for the market portfolio:3
 
 $$
-V _ {i} X _ {i} ^ {M} = k ^ {M} e _ {i} \tag {12b}
+V_{i} X_{i}^{M} = k^{M} e_{i} \tag {12b}
 $$
 
 Therefore,
 
 $$
-X _ {i} ^ {M} = k ^ {M} \left(\frac {e _ {i}}{V _ {i}}\right) \quad \text {f o r} i = 1, \dots , n \tag {12c}
+X_{i}^{M} = k^{M} \left(\frac{e_{i}}{V_{i}}\right) \quad \text{fo r} i = 1, \dots , n \tag {12c}
 $$
 
 Thus if two securities have the same positive excess return but different variances, the market portfolio will contain a larger dollar value of the one with the lower variance. Conversely, if two securities have the same variance but different positive excess returns, the market portfolio will contain a larger dollar value of the one with the higher excess return.
@@ -343,7 +343,7 @@ Two distinct meanings of the word "beta" are used in modern financial theory. Th
 
 Sharpe's single-index (or one-factor) model of covariance introduced in 1963 assumes that the returns of different securities are correlated with each other because each is dependent on some underlying systematic factor (see Sharpe, 1963). This can be written as
 
-$$ r _ {i} = \alpha_ {i} + \beta_ {i} F + u _ {i} \tag {13}
+$$ r_{i} = \alpha_{i} + \beta_{i} F + u_{i} \tag {13}
 $$ where the expected value of  $u_{i}$  is zero, and  $u_{i}$  is uncorrelated with  $F$  and every other  $u_{j}$ .
 
 
@@ -351,26 +351,26 @@ Originally  $F$  was denoted by  $I$  and described as an "underlying factor, th
 
 
 $$
-\begin{array}{l} I = \sum w _ {i} r _ {i} \\ = \sum \alpha_ {i} w _ {i} + F \left(w _ {i} \beta_ {i}\right) + \sum u _ {i} w _ {i} \tag {14} \\ = A + B F + U \\ \end{array}
+\begin{array}{l} I = \sum w_{i} r_{i} \\ = \sum \alpha_{i} w_{i} + F \left(w_{i} \beta_{i}\right) + \sum u_{i} w_{i} \tag {14} \\ = A + B F + U \\ \end{array}
 $$ where  $w_{i}$  is the weight of return  $r_i$  in the index, and
 
 
 $$
-A = \sum \alpha_ {i} w _ {i}
+A = \sum \alpha_{i} w_{i}
 $$
 
 $$
-B = \sum w _ {i} \beta_ {i}
+B = \sum w_{i} \beta_{i}
 $$
 
 $$
-U = \sum u _ {i} w _ {i}
+U = \sum u_{i} w_{i}
 $$
 
 $U$  is the error in the observation of  $F$ . Under the conditions stated, the variance of  $U$  is
 
 $$
-V _ {U} = \sum_ {i = 1} ^ {N} w _ {i} ^ {2} V _ {U _ {i}} > 0 \tag {15}
+V_{U} = \sum_{i = 1}^{N} w_{i}^{2} V_{U_{i}} > 0 \tag {15}
 $$
 
 Sharpe (1963) tested equation (13) as an explanation of how security returns tend to go up and down together. He concluded that equation (13) was as complex a model of covariance as seemed to be needed. This conclusion was supported by research of Cohen and Pogue (1967). King (1966) found strong evidence for industry factors in addition to the market-wide factor. Rosenberg (1974) found other sources of systematic risk beyond the market-wide factor and industry factors.
@@ -395,7 +395,7 @@ Table 4 lists various propositions about betas and indicates whether they are tr
 Because of the definition of a regression beta in general, both  $\beta_{1963}$  and  $\beta_{1964}$  equal
 
 $$
-\beta_ {i} = \operatorname {c o v} \left(r _ {i}, R\right) / V (R)
+\beta_{i} = \operatorname{co v} \left(r_{i}, R\right) / V (R)
 $$ for some random variable  $R$ . In the case of  $\mathrm{beta}_{1963}$ ,  $R$  is  $F$  for equation (13); in the case of  $\mathrm{beta}_{1964}$ ,  $R$  is the  $M$  in equations (1) and (2).
 
 
@@ -412,7 +412,7 @@ Equation (15) implies that  $F$  cannot be observed exactly no matter how many s
 One source of confusion about the two betas concerns whether an index estimating  $R$  should be "value weighted"; that is, should the  $w_{i}$  used in computing an estimate of  $R$  from the  $r_i$  equal the  $X_{i}^{M}$ ? We have seen that in the case of beta<sub>1964</sub>:
 
 $$
-R = \sum X _ {i} ^ {M} r _ {i}
+R = \sum X_{i}^{M} r_{i}
 $$
 
 In this case  $W_{i} = X_{i}^{M} =$  market-value weights.

@@ -25,29 +25,29 @@ In order to understand the distributions discussed in this entry, we will explai
 
 
 $$
-P (E) = \sum_ {\omega_ {i} \in E} p _ {i}
+P (E) = \sum_{\omega_{i} \in E} p_{i}
 $$ with the  $p_i$  being the probabilities of the individual outcomes  $\omega_{i}$  in the event  $E$ . Remember that the random variable  $X$  is the mapping from  $\Omega$  into  $\Omega^{\prime}$  such that the state space  $\Omega^{\prime}$  is countable. (We denote random variables by capital letters, such as  $X$ , whereas the outcomes are denoted by small letters, such as  $x_{i}$ .) Thus, the probability of any event  $E^{\prime}$  in the state space has probability
 
 
 $$
-P (X \in E ^ {\prime}) = P ^ {X} (E ^ {\prime}) = \sum_ {\omega_ {i}: X (\omega_ {i}) \in E ^ {\prime}} p _ {i}
+P (X \in E^{\prime}) = P^{X} (E^{\prime}) = \sum_{\omega_{i}: X (\omega_{i}) \in E^{\prime}} p_{i}
 $$ since  $E^{\prime}$  is associated with the set
 
 
 $$
-\{\omega_ {i}: X (\omega_ {i}) \in E ^ {\prime} \}
+\{\omega_{i}: X (\omega_{i}) \in E^{\prime} \}
 $$ through  $X$ . The probability of each individual outcome of  $X$  yields the discrete probability law of  $X$ . It is given by  $P(X = x_{i}) = p_{i}^{X}$ , for all  $x_{i} \in \Omega'$ .
 
 
 Only for individual discrete values  $x$  is the probability  $p^X$  positive. This is similar to the empirical frequency distribution with positive relative frequency  $f_i$  at certain observed values. If we sort the  $x_i \in \Omega$  in ascending order, analogous to the empirical relative cumulative frequency distribution
 
 $$
-F _ {e m p} ^ {f} (x) = \sum_ {x _ {i} \leq x} f _ {i}
+F_{e m p}^{f} (x) = \sum_{x_{i} \leq x} f_{i}
 $$ we obtain the discrete cumulative distribution (cdf) of  $X$ ,
 
 
 $$
-F ^ {X} (x) = P (X \leq x) = \sum_ {x _ {i} \leq x} p _ {i} ^ {X}
+F^{X} (x) = P (X \leq x) = \sum_{x_{i} \leq x} p_{i}^{X}
 $$
 
 That is, we express the probability that  $X$  assumes a value no greater than  $x$ .
@@ -55,7 +55,7 @@ That is, we express the probability that  $X$  assumes a value no greater than  
 Suppose we want to know the probability of obtaining at most 3 dots when throwing a dice. That is, we are interested in the cdf of the random variable number of dots, at the value  $x = 3$ . We obtain it by
 
 $$
-F ^ {X} (3) = p _ {1} + p _ {2} + p _ {3} = 1 / 6 + 1 / 6 + 1 / 6 = 0. 5
+F^{X} (3) = p_{1} + p_{2} + p_{3} = 1 / 6 + 1 / 6 + 1 / 6 = 0. 5
 $$ where the  $p_i$  denote the respective probabilities of the number of dots less than or equal to 3. A graph of the cdf is shown in Figure 1.
 
 
@@ -76,14 +76,14 @@ Figure 1 Cumulative Distribution Function of Number of Dots Appearing from Tossi
 
 
 $$
-E (X) = \sum_ {x _ {i} \in \Omega} x _ {i} \cdot p _ {i} ^ {X} \tag {1}
+E (X) = \sum_{x_{i} \in \Omega} x_{i} \cdot p_{i}^{X} \tag {1}
 $$ given that equation (1) is finite. (Often, the mean is denoted as the parameter  $\mu$ .) If the mean is not finite, then the mean is said to not exist. The mean equals the expected value of the random variable  $X$ . However, as we will see in the following examples, the mean does not actually have to be equal to one of the possible outcomes.
 
 
 For the number of dots on the dice example, the expected value is
 
 $$
-E (X) = \sum_ {i = 1} ^ {6} i \cdot p _ {i} \frac {1}{6} \sum_ {i = 1} ^ {6} i = 2 1 / 6 = 3. 5
+E (X) = \sum_{i = 1}^{6} i \cdot p_{i} \frac{1}{6} \sum_{i = 1}^{6} i = 2 1 / 6 = 3. 5
 $$
 
 So, on average, one can expect a value of 3.5 for the random variable, despite the fact this is not an obtainable number of dots. How can we interpret this? If we were to repeat the dice tossing many times, record for each toss the number of dots observed, then, if we averaged over all numbers obtained, we would end up with an average very close if not identical to 3.5.
@@ -109,13 +109,13 @@ A sample measure of spread gives us information on the average deviation of obse
 For the computation of the expected value of the squared deviations, we weight the individual squared differences of the outcomes from the mean with the probability of the respective outcome. So, formally, we define the variance of some random variable  $X$  to be
 
 $$
-\sigma_ {X} ^ {2} = \operatorname {V a r} (X) = \sum_ {x _ {i} \in \Omega} \left(x _ {i} - E (X)\right) ^ {2} p _ {i} ^ {X} \tag {2}
+\sigma_{X}^{2} = \operatorname{Va r} (X) = \sum_{x_{i} \in \Omega} \left(x_{i} - E (X)\right)^{2} p_{i}^{X} \tag {2}
 $$
 
 For example, for the number of dots obtained from tossing a dice, we obtain the variance
 
 $$
-\begin{array}{l} \sigma_ {X} ^ {2} = \operatorname {V a r} (X) = \sum_ {i = 1} ^ {6} (i - E (X)) ^ {2} p _ {i} ^ {X} \\ = \frac {1}{6} \left[ (1 - 3. 5) ^ {2} + (2 - 3. 5) ^ {2} + \dots + (6 - 3. 5) ^ {2} \right] \\ = 2. 9 1 6 7 \\ \end{array}
+\begin{array}{l} \sigma_{X}^{2} = \operatorname{Va r} (X) = \sum_{i = 1}^{6} (i - E (X))^{2} p_{i}^{X} \\ = \frac{1}{6} \left[ (1 - 3. 5)^{2} + (2 - 3. 5)^{2} + \dots + (6 - 3. 5)^{2} \right] \\ = 2. 9 1 6 7 \\ \end{array}
 $$
 
 Thus, on average, we have to expect a squared deviation from the mean by roughly 2.9.
@@ -123,7 +123,7 @@ Thus, on average, we have to expect a squared deviation from the mean by roughly
 The standard deviation is simply the square root of the variance. Formally, the standard deviation is given by
 
 $$
-\sigma_ {X} = \sqrt {\operatorname {V a r} (X)}
+\sigma_{X} = \sqrt{\operatorname{Va r} (X)}
 $$
 
 The standard deviation appeals to intuition because it is a quantity that is of the same scale as the random variable  $X$ . In addition, it helps in assessing where the probability law assigns its probability mass. A rule of thumb is that at least  $75\%$  about the probability mass is assigned to a vicinity of the mean that extends two standard deviations in each direction from the mean. Furthermore, this rule states that in at least  $89\%$  of the times, a value will occur that lies in a vicinity of the mean of three standard deviations in each direction.
@@ -131,7 +131,7 @@ The standard deviation appeals to intuition because it is a quantity that is of 
 For the number of dots obtained from tossing a dice, since the variance is 2.9167, the standard deviation is
 
 $$
-\sigma_ {X} = \sqrt {2 . 9 1 6 7} = 1. 7 0 7 8
+\sigma_{X} = \sqrt{2 . 9 1 6 7} = 1. 7 0 7 8
 $$
 
 In Figure 2, we display all possible outcomes 1 through 6 indicated by the  $\circ$  symbol, including the mean of  $E(X) = 3.5$ . We extend a vicinity about the mean of length  $\sigma_{X} = 1.7078$ , indicated by the "+" symbol, to graphically
@@ -149,14 +149,14 @@ In the remainder of this entry, we introduce the most common discrete distributi
 
 Suppose we have a random variable  $X$  with two possible outcomes. That is, we have the state space  $\Omega^{\prime} = \{x_{1},x_{2}\}$ . The distribution of  $X$  is given by the probability for the two outcomes, that is,
 
-$$ p _ {1} ^ {X} = p \text {a n d} p _ {2} ^ {X} = 1 - p
+$$ p_{1}^{X} = p \text{an d} p_{2}^{X} = 1 - p
 $$
 
 Now, to express the random experiment of drawing a value for  $X$ , all we need to know is the two possible values in the state space and parameter  $p$  representing the probability of  $x_{1}$ . This situation is represented concisely by the Bernoulli distribution. This distribution is denoted  $B(p)$  where  $p$  is the probability parameter.
 
 Formally, the Bernoulli distribution is associated with random variables that assume the values  $x_{1} = 1$  and  $x_{2} = 0$ , or  $\Omega' = \{0,1\}$ . That is why this distribution is sometimes referred to as the "zero-one distribution." One usually sets the parameter  $p$  equal to the probability of  $x_{1}$  such that
 
-$$ p = P (X = x _ {1}) = P (X = 1)
+$$ p = P (X = x_{1}) = P (X = 1)
 $$
 
 The mean of a Bernoulli distributed random variable is
@@ -167,7 +167,7 @@ $$ and the variance is
 
 
 $$
-\begin{array}{l} \operatorname {V a r} (X) = (0 - p) ^ {2} \cdot (1 - p) + (1 - p) ^ {2} \cdot p \\ = p \cdot (1 - p) \tag {4} \\ \end{array}
+\begin{array}{l} \operatorname{Va r} (X) = (0 - p)^{2} \cdot (1 - p) + (1 - p)^{2} \cdot p \\ = p \cdot (1 - p) \tag {4} \\ \end{array}
 $$
 
 The Bernoulli random variable is commonly used when one models the random experiment where some quantity either satisfies a certain criterion or not. For example, it is employed when it is of interest whether an item is intact or broken. In such applications, we assign the outcome "success" the numerical value 1 and the outcome "failure" the numerical value 0, for example. Then, we model the random variable  $X$  describing the state of the item as Bernoulli distributed.
@@ -183,36 +183,36 @@ According to equation (3), the mean is then  $E(X) = 0.5$  while, according to e
 As another example, we will take a look at credit risk modeling by considering the risk of default of a corporation. Default occurs when the corporation is no longer able to meet its debt obligations. a priori, default occurring during some period is uncertain and, hence, is treated as random. Here, we view the corporation's failure within the next year as a Bernoulli random variable  $X$ . When the corporation defaults,  $X = 0$  and in the case of survival,  $X = 1$ . For example, a corporation may default within the next year with probability
 
 $$
-P (X = 0) = 1 - p = 1 - e ^ {- 0. 0 4} = 0. 0 3 9 2
+P (X = 0) = 1 - p = 1 - e^{- 0. 0 4} = 0. 0 3 9 2
 $$ and survive with probability
 
 
 $$
-P (X = 1) = p = e ^ {- 0. 0 4} = 0. 9 6 0 8
+P (X = 1) = p = e^{- 0. 0 4} = 0. 9 6 0 8
 $$
 
 We can, of course, extend the prerequisites of the Bernoulli distribution to a more general case; that is, we may choose values for the two outcomes,  $x_{1}$  and  $x_{2}$ , of the random variable  $X$  different from 0 and 1. Then, we set the parameter  $p$  equal to either one of the probabilities  $P(X = x_{1})$  or  $P(X = x_{2})$ . The distribution yields mean
 
 
 $$
-E (X) = x _ {1} \cdot p + x _ {2} \cdot (1 - p)
+E (X) = x_{1} \cdot p + x_{2} \cdot (1 - p)
 $$ and variance
 
 
 $$
-\operatorname {V a r} (X) = \left(x _ {1} - E (X)\right) ^ {2} \cdot p + \left(x _ {2} - E (X)\right) ^ {2} \cdot (1 - p)
+\operatorname{Va r} (X) = \left(x_{1} - E (X)\right)^{2} \cdot p + \left(x_{2} - E (X)\right)^{2} \cdot (1 - p)
 $$ where we set  $p = P(X = x_{1})$
 
 
 We illustrate this generalization of the Bernoulli distribution in the case of the binomial stock price model. Again, we denote the random stock price at time period 1 by  $S_{1}$ . Recall that the state space  $\Omega' = \{$ 18, \$22\} containing the two possible values for  $S_{1}$ . The probability of  $S_{1}$  assuming value \$18 can be set to
 
 $$
-P (S _ {1} = \$ 1 8) = p
+P (S_{1} = \$ 1 8) = p
 $$ so that
 
 
 $$
-P (S _ {1} = \$ 2 2) = 1 - p
+P (S_{1} = \$ 2 2) = 1 - p
 $$
 
 Hence, we have an analogous situation to a Bernoulli random experiment; however, with  $\Omega^{\prime} = \{\mathbb{S}18,\mathbb{S}22\}$  instead of  $\Omega^{\prime} = \{0,1\}$ .
@@ -220,22 +220,22 @@ Hence, we have an analogous situation to a Bernoulli random experiment; however,
 Suppose that
 
 $$
-P (S _ {1} = \$ 1 8) = p = 0. 4 \text {a n d}
+P (S_{1} = \$ 1 8) = p = 0. 4 \text{an d}
 $$
 
 $$
-P (S _ {1} = \$ 2 2) = 1 - p = 0. 6
+P (S_{1} = \$ 2 2) = 1 - p = 0. 6
 $$
 
 Then, the mean is
 
 $$
-E \left(S _ {1}\right) = 0. 4 \cdot \$ 1 8 + 0. 6 \cdot \$ 2 2 = \$ 2 0. 4
+E \left(S_{1}\right) = 0. 4 \cdot \$ 1 8 + 0. 6 \cdot \$ 2 2 = \$ 2 0. 4
 $$ and the variance
 
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(S _ {1}\right) = (\$ 1 8 - \$ 2 0. 4) ^ {2} \cdot 0. 4 \\ + (\$ 22 - \$ 20.4) ^ {2} \cdot 0. 6 = (\$ 3. 8 4) ^ {2} \\ \end{array}
+\begin{array}{l} \operatorname{Va r} \left(S_{1}\right) = (\$ 1 8 - \$ 2 0. 4)^{2} \cdot 0. 4 \\ + (\$ 22 - \$ 20.4)^{2} \cdot 0. 6 = (\$ 3. 8 4)^{2} \\ \end{array}
 $$
 
 # BINOMIAL DISTRIBUTION
@@ -266,13 +266,13 @@ Suppose we flip a fair coin 10 times (i.e.,  $n = 10$ ) and denote by  $Y_{i}$  
 So, we observe  $X = 5$  times head. For this particular result that yields  $X = 5$ , the probability is
 
 $$
-\begin{array}{l} P (Y _ {1} = 1, Y _ {2} = 1, \dots , Y _ {1 0} = 0) \\ = P \left(Y _ {1} = 1\right) \cdot P \left(Y _ {2} = 1\right) \dots \cdot P \left(Y _ {1 0} = 0\right) \\ = p \cdot p \cdot \dots \cdot (1 - p) \\ = p ^ {5} \cdot (1 - p) ^ {5} \\ \end{array}
+\begin{array}{l} P (Y_{1} = 1, Y_{2} = 1, \dots , Y_{1 0} = 0) \\ = P \left(Y_{1} = 1\right) \cdot P \left(Y_{2} = 1\right) \dots \cdot P \left(Y_{1 0} = 0\right) \\ = p \cdot p \cdot \dots \cdot (1 - p) \\ = p^{5} \cdot (1 - p)^{5} \\ \end{array}
 $$
 
 Since we are dealing with a fair coin (i.e.,  $p = 0.5$ ), the above probability is
 
 $$
-\begin{array}{l} P (Y _ {1} = 1, Y _ {2} = 1, \dots , Y _ {1 0} = 0) = 0. 5 ^ {5} \cdot 0. 5 ^ {5} \\ = 0. 5 ^ {1 0} \approx 0. 0 0 1 0 \\ \end{array}
+\begin{array}{l} P (Y_{1} = 1, Y_{2} = 1, \dots , Y_{1 0} = 0) = 0. 5^{5} \cdot 0. 5^{5} \\ = 0. 5^{1 0} \approx 0. 0 0 1 0 \\ \end{array}
 $$
 
 With
@@ -283,7 +283,7 @@ $$ different samples leading to  $X = 5$ , we compute the probability for this v
 
 
 $$
-\begin{array}{l} P (X = 5) = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) p ^ {5} \cdot (1 - p) ^ {5} \\ = 2 5 2 \cdot 0. 5 ^ {1 0} = 0. 2 4 6 1 \\ \end{array}
+\begin{array}{l} P (X = 5) = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) p^{5} \cdot (1 - p)^{5} \\ = 2 5 2 \cdot 0. 5^{1 0} = 0. 2 4 6 1 \\ \end{array}
 $$
 
 So, in roughly one fourth of all samples of  $n = 10$  independent coin tosses, we obtain a total of  $X = 5$  1s (or heads).
@@ -293,7 +293,7 @@ From the example, we see that the exponent for  $p$  is equal to the value of th
 Let  $p$  be the parameter from the related Bernoulli distribution (i.e.,  $P(X = 1) = p$ ). The probability of the  $B(n,p)$  random variable  $X$  being equal to some  $\mathbf{i} \in \Omega'$  is given by
 
 $$
-P (X = i) = \binom {n} {i} \cdot p ^ {i} \cdot (1 - p) ^ {n - i}, i = 1, 2, \dots , n \tag {6}
+P (X = i) = \binom {n} {i} \cdot p^{i} \cdot (1 - p)^{n - i}, i = 1, 2, \dots , n \tag {6}
 $$
 
 For a particular selection of parameters, the probability distribution at certain values can be found in the four tables in Appendix A.
@@ -306,7 +306,7 @@ $$ and its variance is
 
 
 $$
-\operatorname {V a r} (X) = n \cdot p \cdot (1 - p) \tag {8}
+\operatorname{Va r} (X) = n \cdot p \cdot (1 - p) \tag {8}
 $$
 
 Below we will apply what we have just learned to be the binomial stock price model and two other applications.
@@ -317,28 +317,28 @@ Let's extend the binomial stock price model in the sense that we link  $T$  succ
 
 
 $$
-S _ {t + 1} = S _ {t} \cdot Y _ {t + 1}
+S_{t + 1} = S_{t} \cdot Y_{t + 1}
 $$ where the random variable  $Y_{t + 1}$  assumes a value from \{0.9, 1.1\}, with 0.9 representing a price decrease of  $10\%$  and 1.1 a price increase of  $10\%$ . Consequently, in the case of  $Y_{t + 1} = 1.1$ , we have
 
 
 $$
-S _ {t + 1} = S _ {t} \cdot 1. 1
+S_{t + 1} = S_{t} \cdot 1. 1
 $$ while, in case of  $Y_{t + 1} = 0.9$ , we have
 
 
 $$
-S _ {t + 1} = S _ {t} \cdot 0. 9
+S_{t + 1} = S_{t} \cdot 0. 9
 $$
 
 For purposes of this illustration, let's assume the following probabilities for the down movement and up movement, respectively,
 
 $$
-P (Y _ {t + 1} = 1. 1) = p = 0. 6
+P (Y_{t + 1} = 1. 1) = p = 0. 6
 $$ and
 
 
 $$
-P (Y _ {t + 1} = 0. 9) = 1 - p = 0. 4
+P (Y_{t + 1} = 0. 9) = 1 - p = 0. 4
 $$
 
 After  $T$  periods, we have a random total of  $X$  up movements; that is, for all periods  $(0,1], (1,2],\ldots,$  and  $(T - 1,T]$ , we increment  $X$  by 1 if the period related factor  $Y_{t + 1} = 1.1$ ,  $t = 0, 1,\ldots,T - 1$ . So, the result is some  $x \in \{1,2,\ldots,T\}$ . The total number of up movements,  $X$ , is a binomial distributed  $B(T,p)$  random variable on the probability space  $(\Omega', \mathbb{A}', P^X)$  where
@@ -348,7 +348,7 @@ After  $T$  periods, we have a random total of  $X$  up movements; that is, for 
 3.  $P^X$  is denoted by the binomial probability distribution given by
 
 $$
-P (X = k) = \left( \begin{array}{c} T \\ k \end{array} \right) p ^ {k} (1 - p) ^ {T - k}, k = 1, 2, \ldots , T
+P (X = k) = \left( \begin{array}{c} T \\ k \end{array} \right) p^{k} (1 - p)^{T - k}, k = 1, 2, \ldots , T
 $$ with  $p = 0.6$
 
 
@@ -366,7 +366,7 @@ $$
 By definition of  $S_T$  and  $X$ , we know that the evolution of the stock price is such that
 
 $$
-S _ {T} = S _ {0} \cdot 1. 1 ^ {X} \cdot 0. 9 ^ {T - X}
+S_{T} = S_{0} \cdot 1. 1^{X} \cdot 0. 9^{T - X}
 $$
 
 Let us next consider a random variable that is not binomial itself, but related to a binomial random variable. Now, instead of considering the  $B(T,p)$  distributed total  $X$ , we could introduce, as a random variable, the stock price at  $T$  (i.e.,  $S_T$ ). Using an illustration, we will derive the stock price independently of  $X$  and, then, emphasize the relationship between  $S_T$  and  $X$ . Note that  $S_T$  is not a binomial random variable.
@@ -374,38 +374,38 @@ Let us next consider a random variable that is not binomial itself, but related 
 Let us set T = 2. We may start with an initial stock price of S_0 = \20. At the end of the first period, that is, (0,1], we have
 
 $$
-S _ {1} = S _ {0} \cdot Y _ {1}
+S_{1} = S_{0} \cdot Y_{1}
 $$ either equal to
 
 
 $$
-S _ {1} = \$ 2 0 \cdot 1. 1 = \$ 2 2
+S_{1} = \$ 2 0 \cdot 1. 1 = \$ 2 2
 $$ or
 
 
 $$
-S _ {1} = \ 2 0 \cdot 0. 9 = \ 1 8
+S_{1} = \ 2 0 \cdot 0. 9 = \ 1 8
 $$
 
 At the end of the second period, that is, (1,2], we have
 
 $$
-S _ {2} = S _ {1} \cdot Y _ {2} = \ 2 2 \cdot 1. 1 = \ 2 4. 2 0
+S_{2} = S_{1} \cdot Y_{2} = \ 2 2 \cdot 1. 1 = \ 2 4. 2 0
 $$ or
 
 
 $$
-S _ {2} = S _ {1} \cdot Y _ {2} = \ 2 2 \cdot 0. 9 = \$ 1 9. 8 0
+S_{2} = S_{1} \cdot Y_{2} = \ 2 2 \cdot 0. 9 = \$ 1 9. 8 0
 $$ in the case where S₁ = 22, and
 
 
 $$
-S _ {2} = S _ {1} \cdot Y _ {2} = \ 1 8 \cdot 1. 1 = \$ 1 9. 8 0
+S_{2} = S_{1} \cdot Y_{2} = \ 1 8 \cdot 1. 1 = \$ 1 9. 8 0
 $$ or
 
 
 $$
-S _ {2} = S _ {1} \cdot Y _ {2} = \ 1 8 \cdot 0. 9 = \$ 1 6. 2 0
+S_{2} = S_{1} \cdot Y_{2} = \ 1 8 \cdot 0. 9 = \$ 1 6. 2 0
 $$ in the case where S1 = 18.
 
 
@@ -425,27 +425,27 @@ As  $\sigma$ -algebra, we use  $\mathbb{A} = 2^{\Omega_S'}$ , which is the power
 The probability distribution of  $S_{2}$  is given by the following
 
 $$
-\begin{array}{l} P \left(S _ {2} = \$ 2 4. 2 0\right) = P \left(Y _ {1} = 1. 1\right) \cdot P \left(Y _ {2} = 1. 1\right) \\ = \left( \begin{array}{c} 2 \\ 2 \end{array} \right) p ^ {2} = 0. 6 ^ {2} = 0. 3 6 \\ \end{array}
+\begin{array}{l} P \left(S_{2} = \$ 2 4. 2 0\right) = P \left(Y_{1} = 1. 1\right) \cdot P \left(Y_{2} = 1. 1\right) \\ = \left( \begin{array}{c} 2 \\ 2 \end{array} \right) p^{2} = 0. 6^{2} = 0. 3 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P \left(S _ {2} = \$ 1 9. 8 0\right) = P \left(Y _ {1} = 0. 9\right) \cdot P \left(Y _ {2} = 1. 1\right) \\ + P \left(Y _ {1} = 1. 1\right) \cdot P \left(Y _ {2} = 0. 9\right) \\ = 2 (1 - p) p = \left( \begin{array}{c} 2 \\ 1 \end{array} \right) \cdot 0. 4 \cdot 0. 6 \\ = 0. 4 8 \\ \end{array}
+\begin{array}{l} P \left(S_{2} = \$ 1 9. 8 0\right) = P \left(Y_{1} = 0. 9\right) \cdot P \left(Y_{2} = 1. 1\right) \\ + P \left(Y_{1} = 1. 1\right) \cdot P \left(Y_{2} = 0. 9\right) \\ = 2 (1 - p) p = \left( \begin{array}{c} 2 \\ 1 \end{array} \right) \cdot 0. 4 \cdot 0. 6 \\ = 0. 4 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P \left(S _ {2} = \$ 1 6. 2 0\right) = P \left(Y _ {1} = 0. 9\right) \cdot P \left(Y _ {2} = 0. 9\right) \\ = \left( \begin{array}{c} 2 \\ 0 \end{array} \right) (1 - p) ^ {2} = 0. 4 ^ {2} = 0. 1 6 \\ \end{array}
+\begin{array}{l} P \left(S_{2} = \$ 1 6. 2 0\right) = P \left(Y_{1} = 0. 9\right) \cdot P \left(Y_{2} = 0. 9\right) \\ = \left( \begin{array}{c} 2 \\ 0 \end{array} \right) (1 - p)^{2} = 0. 4^{2} = 0. 1 6 \\ \end{array}
 $$
 
 We now have the complete probability space of the random variable  $S_{2}$ . One can see the connection between  $S_{2}$  and  $X$  by the congruency of the probabilities of the individual outcomes, that is,
 
 $$
-\begin{array}{l} P \left(S _ {2} = \$ 2 4. 2 0\right) = P (X = 2) \\ P (S _ {2} = \$ 1 9. 8 0) = P (X = 1) \\ P (S _ {2} = \$ 1 6. 2 0) = P (X = 0) \\ \end{array}
+\begin{array}{l} P \left(S_{2} = \$ 2 4. 2 0\right) = P (X = 2) \\ P (S_{2} = \$ 1 9. 8 0) = P (X = 1) \\ P (S_{2} = \$ 1 6. 2 0) = P (X = 0) \\ \end{array}
 $$
 
 From this, we derive, again, the relationship
 
 $$
-S _ {2} = S _ {0} \cdot 1. 1 ^ {X} \cdot 0. 9 ^ {2 - X}
+S_{2} = S_{0} \cdot 1. 1^{X} \cdot 0. 9^{2 - X}
 $$
 
 Thus, even though  $S_{2}$ , or, generally  $S_{T}$ , is not distributed binomial itself, its probability distribution can be derived from the related binomial random variable  $X$ .
@@ -512,13 +512,13 @@ Thus, we have  $30,240 / 120 = 252$  different nonredundant outcomes if we draw 
 10 balls. Alternatively, this can be written as
 
 $$
-2 5 2 = \frac {1 0 !}{5 ! \times 5 !} = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) \tag {9}
+2 5 2 = \frac{1 0 !}{5 ! \times 5 !} = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) \tag {9}
 $$
 
 Consequently, the chance of obtaining exactly this set of balls (i.e.,  $\{b1,b2,b4,w3,w6\}$ ) in any order is given by the inverse of equation (9) which is
 
 $$
-\frac {1}{2 5 2} = \frac {1}{\left( \begin{array}{c} 1 0 \\ 5 \end{array} \right)} = 0. 0 0 4 \tag {10}
+\frac{1}{2 5 2} = \frac{1}{\left( \begin{array}{c} 1 0 \\ 5 \end{array} \right)} = 0. 0 0 4 \tag {10}
 $$
 
 Now recall that we are interested in the chance of obtaining a certain number  $k$  of black balls in our sample. So, we have to narrow down the number of possible outcomes given by equation (9) to all samples of size 5 that yield that number  $k$  which, here, is equal to 3. How do we do this?
@@ -540,7 +540,7 @@ Next we need to consider the previous number of possibilities of drawing  $k = 3
 In total, we have
 
 $$
-\begin{array}{l} 4 \times 1 5 = \frac {4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} \times \frac {6 \times 5 \times 4 \times 3 \times 2 \times 1}{2 \times 1 \times 4 \times 3 \times 2 \times 1} \\ = \frac {4 !}{3 ! \times 1 !} \times \frac {6 !}{2 ! \times 4 !} = \left( \begin{array}{c} 4 \\ 3 \end{array} \right) \times \left( \begin{array}{c} 6 \\ 2 \end{array} \right) = 6 0 \\ \end{array}
+\begin{array}{l} 4 \times 1 5 = \frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} \times \frac{6 \times 5 \times 4 \times 3 \times 2 \times 1}{2 \times 1 \times 4 \times 3 \times 2 \times 1} \\ = \frac{4 !}{3 ! \times 1 !} \times \frac{6 !}{2 ! \times 4 !} = \left( \begin{array}{c} 4 \\ 3 \end{array} \right) \times \left( \begin{array}{c} 6 \\ 2 \end{array} \right) = 6 0 \\ \end{array}
 $$ different possibilities to obtain three black and two white balls in a sample of five balls. All these 60 samples have the same implication for us (i.e.,  $k = 3$ ). Combining these 60 possibilities with a probability of 0.004 as given by equation (10), we obtain as the probability for a sum of  $k = 3$  black balls in a sample of  $n = 5$
 
 
@@ -551,13 +551,13 @@ $$
 Formally, we have
 
 $$
-P (X = 3) = \frac {\binom {4} {3} \binom {6} {2}}{\binom {1 0} {5}} = 0. 2 3 8 1
+P (X = 3) = \frac{\binom {4} {3} \binom {6} {2}}{\binom {1 0} {5}} = 0. 2 3 8 1
 $$
 
 Then, for our example, the probability distribution of  $X$  is
 
 $$
-P (X = k) = \frac {\binom {4} {k} \binom {6} {n - k}}{\binom {1 0} {5}}, k = 1, 2, 3, 4 \tag {11}
+P (X = k) = \frac{\binom {4} {k} \binom {6} {n - k}}{\binom {1 0} {5}}, k = 1, 2, 3, 4 \tag {11}
 $$
 
 (Note that we cannot draw more than four black balls from  $b1$ ,  $b2$ ,  $b3$ , and  $b4$ .)
@@ -587,7 +587,7 @@ $$ different nonredundant choices for choosing  $n - k$  white balls out of  $N 
 Finally, all we need to do is to combine equations (12), (13), and (14) in the same fashion as equation (11). By doing so, we obtain
 
 $$
-P (X = k) = \frac {\binom {K} {k} \binom {N - K} {n - k}}{\binom {N} {n}}, \quad k = 1, 2, \dots , n \tag {15}
+P (X = k) = \frac{\binom {K} {k} \binom {N - K} {n - k}}{\binom {N} {n}}, \quad k = 1, 2, \dots , n \tag {15}
 $$ as the probability to obtain a total of  $X = k$  black balls in the sample of length  $n$  without replacement.
 
 
@@ -597,12 +597,12 @@ Importantly, here, we start out with  $N$  balls of which  $K$  are black and, a
 The mean of a random variable  $X$  following a hypergeometric probability law is given by
 
 $$
-E (X) = n \cdot \frac {K}{N}
+E (X) = n \cdot \frac{K}{N}
 $$ and the variance of this  $X\sim \mathrm{Hyp}(N,K,n)$  is given by
 
 
 $$
-V a r (X) = \sigma^ {2} = n \cdot \frac {K}{N} \cdot \frac {N - K}{N} \cdot \frac {N - n}{N - 1}
+V a r (X) = \sigma^{2} = n \cdot \frac{K}{N} \cdot \frac{N - K}{N} \cdot \frac{N - n}{N - 1}
 $$
 
 The hypergeometric and the binomial distributions are similar, though not equivalent. However, if the population size  $N$  is large, the hypergeometric distribution is often approximated by the binomial distribution with equation (6) causing only little deviation from the true probabilities of equation (15).
@@ -629,7 +629,7 @@ Again, let  $X$  be the hypergeometric random variable describing successful int
 So, the probability for this particular outcome  $k = 51$  for the number of successes  $X$  given  $n = 138$  trials is
 
 $$
-P (X = 5 1) = \frac {\left( \begin{array}{c} 1 5 4 6 \\ 5 1 \end{array} \right) \left( \begin{array}{c} 1 5 0 8 \\ 8 7 \end{array} \right)}{\left( \begin{array}{c} 3 0 7 2 \\ 1 3 8 \end{array} \right)} = 0. 0 0 0 1 3 4 2 9
+P (X = 5 1) = \frac{\left( \begin{array}{c} 1 5 4 6 \\ 5 1 \end{array} \right) \left( \begin{array}{c} 1 5 0 8 \\ 8 7 \end{array} \right)}{\left( \begin{array}{c} 3 0 7 2 \\ 1 3 8 \end{array} \right)} = 0. 0 0 0 1 3 4 2 9
 $$ which is an extremely small probability.
 
 
@@ -642,19 +642,19 @@ For our next distribution, the multinomial distribution, we return to the realm 
 We extend the illustration where we used an urn containing black and white balls. In our extension, we have a total of  $N$  balls with three colors:  $K_{w}$  white balls,  $K_{b}$  black balls, and  $K_{r} = N - K_{w} - K_{b}$  red balls. The probability of each of these colors is denoted by
 
 $$
-P (Y = \text {w h i t e}) = p _ {w}
+P (Y = \text{wh it e}) = p_{w}
 $$
 
 $$
-P (Y = \text {b l a c k}) = p _ {b}
+P (Y = \text{bl ac k}) = p_{b}
 $$
 
 $$
-P (Y = \mathrm {r e d}) = p _ {r}
+P (Y = \mathrm{re d}) = p_{r}
 $$ with each of these probabilities representing the population share of the respective color:  $p_i = K_i / N$ , for  $i = \text{white}$ , black, and red. Since all shares combined have to account for all  $N$ , we set
 
 
-$$ p _ {r} = 1 - p _ {b} - p _ {w}
+$$ p_{r} = 1 - p_{b} - p_{w}
 $$
 
 For purposes of this illustration, let  $p_w = p_b = 0.3$  and  $p_r = 0.4$ . Suppose that in a sample of  $n = 10$  trials, we obtain the following result:  $n_w = 3$  white,  $n_b = 4$  black, and  $n_r = n - n_w - n_b = 3$  red. Furthermore, suppose that the balls were drawn in the following order
@@ -665,7 +665,7 @@ For purposes of this illustration, let  $p_w = p_b = 0.3$  and  $p_r = 0.4$ . Su
 $b =$  black, and  $r =$  red.) This particular sample occurs with probability
 
 $$
-\begin{array}{l} P \left(Y _ {1} = r, Y _ {2} = w, \dots , Y _ {1 0} = b\right) = p _ {r} \cdot p _ {w} \cdot \dots \cdot p _ {b} \\ = p _ {r} ^ {3} \cdot p _ {w} ^ {3} \cdot p _ {b} ^ {4} \\ \end{array}
+\begin{array}{l} P \left(Y_{1} = r, Y_{2} = w, \dots , Y_{1 0} = b\right) = p_{r} \cdot p_{w} \cdot \dots \cdot p_{b} \\ = p_{r}^{3} \cdot p_{w}^{3} \cdot p_{b}^{4} \\ \end{array}
 $$
 
 The last equality indicates that the order of appearance of the individual values, once again, does not matter.
@@ -673,26 +673,26 @@ The last equality indicates that the order of appearance of the individual value
 We introduce the random variable  $X$  representing the number of the individual colors occurring in the sample. That is,  $X$  consists of the three components  $X_w$ ,  $X_b$ , and  $X_r$  or, alternatively,  $X = (X_w, X_b, X_r)$ . Analogous to the binomial case of two colors, we are not interested in the order of appearance, but only in the respective numbers of occurrences of the different colors (i.e.,  $n_w$ ,  $n_b$ , and  $n_r$ ). Note that several different sample outcomes may lead to  $X = (n_w, n_b, n_r)$ . The total number of different nonredundant samples with  $n_w$ ,  $n_b$ , and  $n_r$  is given by the multinomial coefficient introduced in Appendix B, which here yields
 
 $$
-\left( \begin{array}{c c c} & n \\ n _ {w} & n _ {b} & n _ {r} \end{array} \right) = \left( \begin{array}{c c c} & 1 0 \\ 3 & 3 & 4 \end{array} \right) = 4, 2 0 0
+\left( \begin{array}{c c c} & n \\ n_{w} & n_{b} & n_{r} \end{array} \right) = \left( \begin{array}{c c c} & 1 0 \\ 3 & 3 & 4 \end{array} \right) = 4, 2 0 0
 $$
 
 Hence, the probability for this value of  $X = (k_w, k_b, k_r) = (3,4,3)$  is then
 
 $$
-\begin{array}{l} P (X = (3, 4, 3)) = \left( \begin{array}{c c c} & 1 0 & \\ 3 & 3 & 4 \end{array} \right) \cdot p _ {w} ^ {3} \cdot p _ {b} ^ {4} \cdot p _ {r} ^ {3} \\ = 4, 2 0 0 \cdot 0. 3 ^ {3} \cdot 0. 3 ^ {4} \cdot 0. 4 ^ {3} \\ = 0. 0 5 8 8 \\ \end{array}
+\begin{array}{l} P (X = (3, 4, 3)) = \left( \begin{array}{c c c} & 1 0 & \\ 3 & 3 & 4 \end{array} \right) \cdot p_{w}^{3} \cdot p_{b}^{4} \cdot p_{r}^{3} \\ = 4, 2 0 0 \cdot 0. 3^{3} \cdot 0. 3^{4} \cdot 0. 4^{3} \\ = 0. 0 5 8 8 \\ \end{array}
 $$
 
 In general, the probability distribution of a multinomial random variable  $X$  with  $k$  components  $X_{1}, X_{2}, \ldots, X_{k}$  is given by
 
 $$
-\begin{array}{l} P \left(X _ {1} = n _ {1}, X _ {2} = n _ {2}, \dots , X _ {k} = n _ {k}\right) \\ = \left( \begin{array}{c c} & n \\ n _ {1} & n _ {2} \dots n _ {k} \end{array} \right) \cdot p _ {1} ^ {n _ {1}} \cdot p _ {2} ^ {n _ {2}} \cdot \dots \cdot p _ {k} ^ {n _ {k}} \tag {16} \\ \end{array}
+\begin{array}{l} P \left(X_{1} = n_{1}, X_{2} = n_{2}, \dots , X_{k} = n_{k}\right) \\ = \left( \begin{array}{c c} & n \\ n_{1} & n_{2} \dots n_{k} \end{array} \right) \cdot p_{1}^{n_{1}} \cdot p_{2}^{n_{2}} \cdot \dots \cdot p_{k}^{n_{k}} \tag {16} \\ \end{array}
 $$ where, for  $j = 1,2,\dots ,k,n_{j}$  denotes the outcome of component  $j$  and the  $p_j$  the corresponding probability.
 
 
 The means of the  $k$  components  $X_{1}$  through  $X_{k}$  are given by
 
 $$
-E (X _ {1}) = p _ {1} \cdot n
+E (X_{1}) = p_{1} \cdot n
 $$
 
 $$
@@ -700,12 +700,12 @@ $$
 $$
 
 $$
-E (X _ {k}) = p _ {k} \cdot n
+E (X_{k}) = p_{k} \cdot n
 $$ and their respective variances by
 
 
 $$
-\operatorname {V a r} \left(X _ {1}\right) = \sigma_ {1} ^ {2} = p _ {1} \cdot \left(1 - p _ {1}\right) \cdot n
+\operatorname{Va r} \left(X_{1}\right) = \sigma_{1}^{2} = p_{1} \cdot \left(1 - p_{1}\right) \cdot n
 $$
 
 $$
@@ -713,7 +713,7 @@ $$
 $$
 
 $$
-\operatorname {V a r} \left(X _ {k}\right) = \sigma_ {k} ^ {2} = p _ {k} \cdot \left(1 - p _ {k}\right) \cdot n
+\operatorname{Va r} \left(X_{k}\right) = \sigma_{k}^{2} = p_{k} \cdot \left(1 - p_{k}\right) \cdot n
 $$
 
 # Multinomial Stock Price Model
@@ -721,54 +721,54 @@ $$
 We can use the multinomial distribution to extend the binomial stock price model described earlier. Suppose we are given a stock with price  $S_0$ , in  $t = 0$ . In  $t = 1$ , the stock can have either price
 
 $$
-S _ {1} ^ {(u)} = S _ {0} \cdot u
+S_{1}^{(u)} = S_{0} \cdot u
 $$
 
 $$
-S _ {1} ^ {(l)} = S _ {0} \cdot l
+S_{1}^{(l)} = S_{0} \cdot l
 $$
 
 $$
-S _ {1} ^ {(d)} = S _ {0} \cdot d
+S_{1}^{(d)} = S_{0} \cdot d
 $$
 
 Let the three possible outcomes be a  $10\%$  increase in price  $(u = 1.1)$ , no change in price  $(l = 1.0)$ , and a  $10\%$  decline in price  $(d = 0.9)$ . That is, the price either goes up by some factor, remains steady, or drops by some factor. Therefore,
 
 $$
-S _ {1} ^ {(u)} = S _ {0} \cdot 1. 1
+S_{1}^{(u)} = S_{0} \cdot 1. 1
 $$
 
 $$
-S _ {1} ^ {(l)} = S _ {0} \cdot 1. 0
+S_{1}^{(l)} = S_{0} \cdot 1. 0
 $$
 
 $$
-S _ {1} ^ {(d)} = S _ {0} \cdot 0. 9
+S_{1}^{(d)} = S_{0} \cdot 0. 9
 $$
 
 Thus, we have three different outcomes of the price change in the first period. Suppose the price change behaved the same in the second period, from  $t = 1$  until  $t = 2$ . So, we have
 
 $$
-S _ {2} ^ {(u)} = S _ {1} \cdot 1. 1
+S_{2}^{(u)} = S_{1} \cdot 1. 1
 $$
 
 $$
-S _ {2} ^ {(l)} = S _ {1} \cdot 1. 0
+S_{2}^{(l)} = S_{1} \cdot 1. 0
 $$
 
 $$
-S _ {2} ^ {(d)} = S _ {1} \cdot 0. 9
+S_{2}^{(d)} = S_{1} \cdot 0. 9
 $$ at time  $t = 2$  depending on
 
 
 $$
-S _ {1} \in \left\{S _ {1} ^ {(u)}, S _ {1} ^ {(l)}, S _ {1} ^ {(d)} \right\}
+S_{1} \in \left\{S_{1}^{(u)}, S_{1}^{(l)}, S_{1}^{(d)} \right\}
 $$
 
 Let's denote the random price change in the first period by  $Y_{1}$  and the price change in the second period by the random variable  $Y_{2}$ . So, it is obvious that  $Y_{1}$  and  $Y_{2}$  independently assume some value in the set  $\{u,l,d\} = \{1.1,1.0,0.9\}$ . After two periods (i.e., in  $t = 2$ ), the stock price is
 
 $$
-S _ {2} = S _ {0} \cdot Y _ {1} \cdot Y _ {2} \in \left\{S _ {2} ^ {(u)}, S _ {2} ^ {(l)}, S _ {2} ^ {(d)} \right\}
+S_{2} = S_{0} \cdot Y_{1} \cdot Y_{2} \in \left\{S_{2}^{(u)}, S_{2}^{(l)}, S_{2}^{(d)} \right\}
 $$
 
 Note that the random variable  $S_{2}$  is not multinomially distributed itself. However, as we will see, it is immediately linked to a multinomial random variable.
@@ -776,18 +776,18 @@ Note that the random variable  $S_{2}$  is not multinomially distributed itself.
 Since the initial stock price  $S_0$  is given, the random variable of interest is the product  $Y_{1} \cdot Y_{2}$ , which is in a one-to-one relationship with the multinomial random variable  $X = (n_u, n_l, n_d)$  (i.e., the number of up-, zero-, and down-movements, respectively). The state space of  $Y_{1} \cdot Y_{2}$  is given by  $\{uu, ul, ud, ll, ld, dd\}$ . This corresponds to the state space of  $X$ , which is given by
 
 $$
-\begin{array}{l} \Omega^ {\prime} = \{(2, 0, 0), (0, 2, 0), (0, 0, 2), (1, 1, 0), (1, 0, 1), \\ (0, 1, 1) \} \\ \end{array}
+\begin{array}{l} \Omega^{\prime} = \{(2, 0, 0), (0, 2, 0), (0, 0, 2), (1, 1, 0), (1, 0, 1), \\ (0, 1, 1) \} \\ \end{array}
 $$
 
 Note that since  $Y_{1} \cdot Y_{2}$  is a product, we do not consider, for example,  $(Y_{1} = u, Y_{2} = d)$  and  $(Y_{1} = d, Y_{2} = u)$  separately. With
 
 $$
-\begin{array}{l} P (Y _ {i} = u) = p ^ {u} = 0. 2 5 \\ P (Y _ {i} = l) = p ^ {l} = 0. 5 0 \\ P (Y _ {i} = d) = p ^ {d} = 0. 2 5 \\ \end{array}
+\begin{array}{l} P (Y_{i} = u) = p^{u} = 0. 2 5 \\ P (Y_{i} = l) = p^{l} = 0. 5 0 \\ P (Y_{i} = d) = p^{d} = 0. 2 5 \\ \end{array}
 $$ the corresponding probability distribution of  $X$  is given in the first two columns of Table 1. We use the multinomial coefficient
 
 
 $$
-\left( \begin{array}{c c c} & n & \\ n _ {u} & n _ {l} & n _ {d} \end{array} \right)
+\left( \begin{array}{c c c} & n & \\ n_{u} & n_{l} & n_{d} \end{array} \right)
 $$ where
 
 
@@ -810,11 +810,11 @@ In the first and second columns, we have the probability distribution of the two
 the probabilities of the values of  $S_{2}$  are associated with the corresponding price changes  $X$  and, hence, listed on the same lines of Table 1. It is now possible to evaluate the probability of events such as, "a stock price  $S_{2}$  of, at most, \$22," from the  $\sigma$ -algebra  $\mathbb{A}'$  of the multinomial probability space of  $X$ . This is given by
 
 $$
-\begin{array}{l} P (S _ {2} \leq \$ 2 2) \\ = P \left(S _ {2} = \$ 16. 2\right) + P \left(S _ {2} = \$ 1 8\right) + P \left(S _ {2} = \$ 1 9. 8\right) \\ + P (S _ {2} = \$ 2 0) + P (S _ {2} = \$ 2 2) \\ \end{array}
+\begin{array}{l} P (S_{2} \leq \$ 2 2) \\ = P \left(S_{2} = \$ 16. 2\right) + P \left(S_{2} = \$ 1 8\right) + P \left(S_{2} = \$ 1 9. 8\right) \\ + P (S_{2} = \$ 2 0) + P (S_{2} = \$ 2 2) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} = 0. 2 5 + 0. 1 2 5 + 0. 2 5 + 0. 2 5 + 0. 0 6 2 5 \\ = 1 - P \left(S _ {2} = \$ 2 4. 2\right) \\ = 0. 9 3 7 5 \\ \end{array}
+\begin{array}{l} = 0. 2 5 + 0. 1 2 5 + 0. 2 5 + 0. 2 5 + 0. 0 6 2 5 \\ = 1 - P \left(S_{2} = \$ 2 4. 2\right) \\ = 0. 9 3 7 5 \\ \end{array}
 $$ where the second line is the result of the fact that the sum of the probabilities of all disjoint events has to add up to one. That follows since any event and its complement account for the entire state space  $\Omega^{\prime}$ .
 
 
@@ -826,7 +826,7 @@ Figure 6 Multinomial Stock Price Model: Stock Price  $S_{2}$ , in  $t = 2$
 From equation (1), the expected stock price in  $t = 2$  is computed as
 
 $$
-\begin{array}{l} E \left(S _ {2}\right) = \sum_ {s \in \Omega^ {\prime}} s \cdot P \left(S _ {2} = s\right) \\ = \$ 16.2 \cdot 0.0625 + \$ 18 \cdot 0.25 + \$ 19.8 \cdot 0.125 \\ + \mathbb {S} 2 0 \cdot 0. 2 5 + \mathbb {S} 2 2 \cdot 0. 2 5 + \mathbb {S} 2 4. 2 \cdot 0. 0 6 2 5 \\ = \$ 20 \\ \end{array}
+\begin{array}{l} E \left(S_{2}\right) = \sum_{s \in \Omega^{\prime}} s \cdot P \left(S_{2} = s\right) \\ = \$ 16.2 \cdot 0.0625 + \$ 18 \cdot 0.25 + \$ 19.8 \cdot 0.125 \\ + \mathbb {S} 2 0 \cdot 0. 2 5 + \mathbb {S} 2 2 \cdot 0. 2 5 + \mathbb {S} 2 4. 2 \cdot 0. 0 6 2 5 \\ = \$ 20 \\ \end{array}
 $$
 
 So, on average, the stock price will remain unchanged.
@@ -844,14 +844,14 @@ The number of claims,  $N$ , as a random variable should follow a probability la
 As a candidate that satisfies these requirements, we introduce the Poisson distribution with parameter  $\lambda$  formally expressed as  $Poi(\lambda)$ . We define that the parameter is a positive real number (i.e.,  $\lambda > 0$ ). A Poisson random variable  $N$  that is,  $X \sim Poi(\lambda)$  assumes nonnegative integer values. Formally,  $N$  is a function mapping the space of outcomes,  $\Omega$ , into the state space
 
 $$
-\Omega^ {\prime} = \{0, 1, 2, \ldots \}
+\Omega^{\prime} = \{0, 1, 2, \ldots \}
 $$ which is the set  $\mathbb{N}$  of the nonnegative integer numbers.
 
 
 The probability measure of a Poisson random variable  $N$  for nonnegative integers  $k = 0,1,$  2,... is defined as
 
 $$
-P (N = k) = \frac {\lambda^ {k}}{k !} e ^ {- \lambda} \tag {17}
+P (N = k) = \frac{\lambda^{k}}{k !} e^{- \lambda} \tag {17}
 $$ where  $e = 2.7183$  is the Euler constant. Here, we have unit period length.
 
 
@@ -863,7 +863,7 @@ $$ while its variance is given by
 
 
 $$
-V a r (N) = \sigma^ {2} = \lambda \tag {18}
+V a r (N) = \sigma^{2} = \lambda \tag {18}
 $$
 
 So, both parameters, mean and variance, of  $N\sim Poi(\lambda)$  are given by the parameter  $\lambda$
@@ -871,7 +871,7 @@ So, both parameters, mean and variance, of  $N\sim Poi(\lambda)$  are given by t
 For a period of general length  $t$ , equation (17) becomes
 
 $$
-P (N = k) = \frac {(\lambda t) ^ {k}}{k !} e ^ {- \lambda t} \tag {19}
+P (N = k) = \frac{(\lambda t)^{k}}{k !} e^{- \lambda t} \tag {19}
 $$
 
 We can see that the new parameter is now  $\lambda_{t}$ , accounting for the time proportionality of the distribution of  $N$ , that is,  $N = N(t)$  is the number of jumps of size 1 in the interval  $(0, t)$ . The mean changes to
@@ -882,7 +882,7 @@ $$ and analogous to the variance given by (18) is now
 
 
 $$
-\operatorname {V a r} (N (t)) = \sigma^ {2} (t) = \lambda t \tag {21}
+\operatorname{Va r} (N (t)) = \sigma^{2} (t) = \lambda t \tag {21}
 $$
 
 We can see by equation (20) that the average number of occurrences is the average per unit of time,  $\lambda$ , times the length of the period,  $t$ , in units of time. The same holds for the variance given by equation (21).
@@ -894,14 +894,14 @@ The Poisson distribution serves as an approximation of the hypergeometric distri
 The Poisson distribution is typically used in finance for credit risk modeling. For example, suppose we have a pool of 100 bonds issued by different corporations. By experience or empirical evidence, we may know that each quarter of a year the expected number to default is two; that is,  $\lambda = 2$ . Moreover, from prior research, we can approximate the distribution of  $N$  by the Poisson distribution, even though, theoretically, the Poisson distribution admits values  $k$  greater than 100. What is the number of bonds to default within the next year, on average? According to equation (3), since the mean is  $E_{\text{quarter}}(N) = \lambda = 2$  per quarter, the mean per year  $(t = 4)$  is
 
 $$
-E _ {y e a r} (N) = \lambda t = 2 \cdot 4 = 8
+E_{y e a r} (N) = \lambda t = 2 \cdot 4 = 8
 $$
 
 By equation (20), the variance is 8, from equation (19), the probability of, at most, 10 bonds to default is given by
 
 
 $$
-\begin{array}{l} P (N \leq 1 0) = P (N = 0) + P (N = 1) + \dots \\ + P (N = 1 0) \\ = e ^ {- 2 \times 4} \cdot \frac {(2 \times 4) ^ {0}}{0 !} + e ^ {- 2 \times 4} \cdot \frac {(2 \times 4) ^ {1}}{1 !} + \dots \\ + e ^ {- 2 \times 4} \cdot \frac {(2 \times 4) ^ {1 0}}{1 0 !} \\ = 0. 8 1 5 9 \\ \end{array}
+\begin{array}{l} P (N \leq 1 0) = P (N = 0) + P (N = 1) + \dots \\ + P (N = 1 0) \\ = e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{0}}{0 !} + e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{1}}{1 !} + \dots \\ + e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{1 0}}{1 0 !} \\ = 0. 8 1 5 9 \\ \end{array}
 $$
 
 # DISCRETE UNIFORM DISTRIBUTION
@@ -913,20 +913,20 @@ So far we have explained how drawings from this  $\Omega^{\prime}$  may be model
 The mean of a discrete, uniformly distributed random variable  $X$  on the state space  $\Omega^{\prime} = \{x_{1}, x_{2}, \ldots, x_{n}\}$  is given by
 
 $$
-E (X) = \sum_ {i = 1} ^ {n} p _ {i} \cdot x _ {i} = \frac {1}{n} \sum_ {i = 1} ^ {n} x _ {i} \tag {22}
+E (X) = \sum_{i = 1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i = 1}^{n} x_{i} \tag {22}
 $$
 
 Note that equation (22) is equal to the arithmetic mean. The variance is
 
 $$
-\begin{array}{l} \operatorname {V a r} (X) = \sum_ {i: x _ {i} \in \Omega^ {\prime}} p _ {i} \cdot \left(x _ {i} - E (X)\right) ^ {2} \\ = \frac {1}{n} \sum_ {i: x _ {i} \in \Omega^ {\prime}} (x _ {i} - E (X)) ^ {2} \\ \end{array}
+\begin{array}{l} \operatorname{Va r} (X) = \sum_{i: x_{i} \in \Omega^{\prime}} p_{i} \cdot \left(x_{i} - E (X)\right)^{2} \\ = \frac{1}{n} \sum_{i: x_{i} \in \Omega^{\prime}} (x_{i} - E (X))^{2} \\ \end{array}
 $$ with  $E(X)$  from equation (22).
 
 
 A special case of a discrete uniform probability space is given when  $\Omega' = \{1, 2, \ldots, n\}$ . The resulting mean, according to equation (22), is then,
 
 $$
-\begin{array}{l} E (X) = \sum_ {i = 1} ^ {n} p _ {i} \cdot x _ {i} = \frac {1}{n} \sum_ {i = 1} ^ {n} i \\ = \frac {1}{n} \times \frac {n (n + 1)}{2} = \frac {n + 1}{2} \tag {23} \\ \end{array}
+\begin{array}{l} E (X) = \sum_{i = 1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i = 1}^{n} i \\ = \frac{1}{n} \times \frac{n (n + 1)}{2} = \frac{n + 1}{2} \tag {23} \\ \end{array}
 $$
 
 For this special case of discrete uniform distribution of a random variable  $X$ , we use the notation  $X \sim DU(n)$  with parameter  $n$ .
@@ -936,7 +936,7 @@ Let's once more consider the outcome of a toss of a dice. The random variable nu
 Next, we want to consider several independent trials, say  $n = 10$ , of throwing the dice. By  $n_1, n_2, n_3, n_4, n_5$ , and  $n_6$ , we denote the number of occurrence of the values 1, 2, 3, 4, 5, and 6, respectively. With constant probability  $p_1 = p_2 = \ldots = p_6 = 1/6$ , we have a discrete uniform distribution, that is,  $X \sim DU(6)$ . Thus, the probability of obtaining  $n_1 = 1$ ,  $n_2 = 2$ ,  $n_3 = 1$ ,  $n_4 = 3$ ,  $n_5 = 1$ , and  $n_6 = 2$ , for example, is
 
 $$
-\begin{array}{l} P \left(X _ {1} = 1, X _ {2} = 1, \dots , X _ {6} = 2\right) \\ = \left( \begin{array}{c c} & 1 0 \\ 1 & 2 \ldots 2 \end{array} \right) \left(\frac {1}{6}\right) ^ {1 0} \\ = \frac {1 0 !}{1 ! \times 2 ! \times \dots \times 2 !} \cdot \left(\frac {1}{6}\right) ^ {1 0} \\ = 1 5 1 2 0 0 \cdot 0. 0 0 0 0 0 0 1 6 5 3 8 \\ = 0. 0 0 2 5 \\ \end{array}
+\begin{array}{l} P \left(X_{1} = 1, X_{2} = 1, \dots , X_{6} = 2\right) \\ = \left( \begin{array}{c c} & 1 0 \\ 1 & 2 \ldots 2 \end{array} \right) \left(\frac{1}{6}\right)^{1 0} \\ = \frac{1 0 !}{1 ! \times 2 ! \times \dots \times 2 !} \cdot \left(\frac{1}{6}\right)^{1 0} \\ = 1 5 1 2 0 0 \cdot 0. 0 0 0 0 0 0 1 6 5 3 8 \\ = 0. 0 0 2 5 \\ \end{array}
 $$
 
 # Application to the Multinomial Stock Price Model
@@ -945,40 +945,40 @@ Let us resume the stock price model where in  t = 0  we have a given stock price
 
 
 $$
-S _ {1} ^ {(u)} = S _ {0} \cdot 1. 1 = \$ 2 2
+S_{1}^{(u)} = S_{0} \cdot 1. 1 = \$ 2 2
 $$ remains the same at
 
 
 $$
-S _ {1} ^ {(l)} = S _ {0} \cdot 1. 0 = \$ 2 0
+S_{1}^{(l)} = S_{0} \cdot 1. 0 = \$ 2 0
 $$ or decreases to
 
 
 $$
-S _ {1} ^ {(d)} = S _ {0} \cdot 0. 9 = \$ 1 8
+S_{1}^{(d)} = S_{0} \cdot 0. 9 = \$ 1 8
 $$ each with probability  $1 / 3$ . Again, we introduce the random variable  $Y$  assuming the values  $u = 1.1$ ,  $l = 1.0$ , and  $d = 0.9$  and, thus, representing the percentage change of the stock price between  $t = 0$  and  $t + 1 = 1$ . The stock price in  $t + 1 = 1$  is given by the random variable  $S_{1}$  on the corresponding state space
 
 
 $$
-\Omega_ {S} = \left\{S _ {1} ^ {(u)}, S _ {1} ^ {(l)}, S _ {1} ^ {(d)} \right\}
+\Omega_{S} = \left\{S_{1}^{(u)}, S_{1}^{(l)}, S_{1}^{(d)} \right\}
 $$
 
 Suppose we have  $n = 10$  successive periods in each of which the stock price changes by the factors  $u, l,$  or  $d$ . Let the multinomial random variable  $X = (X_{1}, X_{2}, X_{3})$  represent the total of up-, zero-, and down-movements, respectively. Suppose, after these  $n$  periods, we have  $n_u = 3$  up-movements,  $n_l = 3$  zero-movements, and  $n_d = 4$  down-movements. According to equation (16), the corresponding probability is
 
 $$
-\begin{array}{l} P (X _ {1} = 3, X _ {2} = 3, X _ {3} = 4) = \left( \begin{array}{c c c} 1 0 & \\ 3 & 3 & 4 \end{array} \right) \left(\frac {1}{3}\right) ^ {1 0} \\ = 4 2 0 0 \cdot 0. 0 0 0 0 1 9 3 5 \\ = 0. 0 7 1 1 \\ \end{array}
+\begin{array}{l} P (X_{1} = 3, X_{2} = 3, X_{3} = 4) = \left( \begin{array}{c c c} 1 0 & \\ 3 & 3 & 4 \end{array} \right) \left(\frac{1}{3}\right)^{1 0} \\ = 4 2 0 0 \cdot 0. 0 0 0 0 1 9 3 5 \\ = 0. 0 7 1 1 \\ \end{array}
 $$
 
 This probability corresponds to a stock price in  $t = 10$  of
 
 $$
-S _ {1 0} = S _ {0} \cdot u ^ {3} \cdot l ^ {3} \cdot d ^ {4} = \\ \2 0 \cdot 1. 1 ^ {3} \cdot 1 \cdot 0. 9 ^ {4} = \\ \ 17. 4 7
+S_{1 0} = S_{0} \cdot u^{3} \cdot l^{3} \cdot d^{4} = \\ \2 0 \cdot 1. 1^{3} \cdot 1 \cdot 0. 9^{4} = \\ \ 17. 4 7
 $$
 
 This stock price is a random variable given by
 
 $$
-S _ {1 0} = S _ {0} \cdot Y _ {1} \cdot Y _ {2} \cdot \dots \cdot Y _ {1 0}
+S_{1 0} = S_{0} \cdot Y_{1} \cdot Y_{2} \cdot \dots \cdot Y_{1 0}
 $$ where the  $Y_{i}$  are the corresponding relative changes (i.e., factors) in the periods  $i = 1,2,\ldots ,$  10.Note that  $S_{10}$  is not uniformly distributed even though it is a function of the random variables  $Y_{1},Y_{2},\ldots ,Y_{10}$  because its possible outcomes do not have identical probability.
 
 
@@ -991,7 +991,7 @@ Note: For the  $k$  components of a multinomial random variable, we have  $k$  m
 $B(n,p)$  , Binomial Probability Distribution
 
 $$
-P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p ^ {k} \cdot (1 - p) ^ {n - k} \text {f o r} n = 5
+P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p^{k} \cdot (1 - p)^{n - k} \text{fo r} n = 5
 $$
 
 <table><tr><td>k</td><td>p</td><td>0.1</td><td>0.2</td><td>0.5</td><td>0.8</td><td>0.9</td></tr><tr><td>1</td><td></td><td>0.3281</td><td>0.4096</td><td>0.1563</td><td>0.0064</td><td>0.0005</td></tr><tr><td>2</td><td></td><td>0.0729</td><td>0.2048</td><td>0.3125</td><td>0.0512</td><td>0.0081</td></tr><tr><td>3</td><td></td><td>0.0081</td><td>0.0512</td><td>0.3125</td><td>0.2048</td><td>0.0729</td></tr><tr><td>4</td><td></td><td>0.0005</td><td>0.0064</td><td>0.1563</td><td>0.4096</td><td>0.3281</td></tr><tr><td>5</td><td></td><td>0</td><td>0.0003</td><td>0.0313</td><td>0.3277</td><td>0.5905</td></tr></table>
@@ -999,7 +999,7 @@ $$
 $B(n,p)$  , Binomial Probability Distribution
 
 $$
-P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p ^ {k} \cdot (1 - p) ^ {n - k} \text {f o r} n = 1 0
+P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p^{k} \cdot (1 - p)^{n - k} \text{fo r} n = 1 0
 $$
 
 <table><tr><td>k</td><td>p</td><td>0.1</td><td>0.2</td><td>0.5</td><td>0.8</td><td>0.9</td></tr><tr><td>1</td><td></td><td>0.3874</td><td>0.2684</td><td>0.0098</td><td>0</td><td>0</td></tr><tr><td>2</td><td></td><td>0.1937</td><td>0.3020</td><td>0.0439</td><td>0.0001</td><td>0</td></tr><tr><td>3</td><td></td><td>0.0574</td><td>0.2013</td><td>0.1172</td><td>0.0008</td><td>0</td></tr><tr><td>4</td><td></td><td>0.0112</td><td>0.0881</td><td>0.2051</td><td>0.0055</td><td>0.0001</td></tr><tr><td>5</td><td></td><td>0.0015</td><td>0.0264</td><td>0.2461</td><td>0.0264</td><td>0.0015</td></tr><tr><td>6</td><td></td><td>0.0001</td><td>0.0055</td><td>0.2051</td><td>0.0881</td><td>0.0112</td></tr><tr><td>7</td><td></td><td>0</td><td>0.0008</td><td>0.1172</td><td>0.2013</td><td>0.0574</td></tr><tr><td>8</td><td></td><td>0</td><td>0.0001</td><td>0.0439</td><td>0.3020</td><td>0.1937</td></tr><tr><td>9</td><td></td><td>0</td><td>0</td><td>0.0098</td><td>0.2684</td><td>0.3874</td></tr><tr><td>10</td><td></td><td>0</td><td>0</td><td>0.0010</td><td>0.1074</td><td>0.3487</td></tr></table>
@@ -1007,7 +1007,7 @@ $$
 $B(n,p)$  , Binomial Probability Distribution
 
 $$
-P (X = k) = \binom {n} {k} \cdot p ^ {k} \cdot (1 - p) ^ {n - k} \text {f o r} n = 5 0
+P (X = k) = \binom {n} {k} \cdot p^{k} \cdot (1 - p)^{n - k} \text{fo r} n = 5 0
 $$
 
 <table><tr><td>k</td><td>p</td><td>0.1</td><td>0.2</td><td>0.5</td><td>0.8</td><td>0.9</td></tr><tr><td>1</td><td></td><td>0.0286</td><td>0.0002</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td></td><td>0.0779</td><td>0.0011</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td></td><td>0.1386</td><td>0.0044</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td></td><td>0.1809</td><td>0.0128</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td></td><td>0.1849</td><td>0.0295</td><td>0</td><td>0</td><td>0</td></tr><tr><td>6</td><td></td><td>0.1541</td><td>0.0554</td><td>0</td><td>0</td><td>0</td></tr><tr><td>7</td><td></td><td>0.1076</td><td>0.0870</td><td>0</td><td>0</td><td>0</td></tr><tr><td>8</td><td></td><td>0.0643</td><td>0.1169</td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td></td><td>0.0333</td><td>0.1364</td><td>0</td><td>0</td><td>0</td></tr></table>
@@ -1017,7 +1017,7 @@ $$
 $B(n,p)$  , Binomial Probability Distribution
 
 $$
-P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p ^ {k} \cdot (1 - p) ^ {n - k} \text {f o r} n = 1 0 0
+P (X = k) = \left( \begin{array}{c} n \\ k \end{array} \right) \cdot p^{k} \cdot (1 - p)^{n - k} \text{fo r} n = 1 0 0
 $$
 
 <table><tr><td>k</td><td>p</td><td>0.1</td><td>0.2</td><td>0.5</td><td>0.8</td><td>0.9</td></tr><tr><td>1</td><td></td><td>0.0003</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td></td><td>0.0016</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td></td><td>0.0059</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td></td><td>0.0159</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>5</td><td></td><td>0.0339</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>6</td><td></td><td>0.0596</td><td>0.0001</td><td>0</td><td>0</td><td>0</td></tr><tr><td>7</td><td></td><td>0.0889</td><td>0.0002</td><td>0</td><td>0</td><td>0</td></tr><tr><td>8</td><td></td><td>0.1148</td><td>0.0006</td><td>0</td><td>0</td><td>0</td></tr><tr><td>9</td><td></td><td>0.1304</td><td>0.0015</td><td>0</td><td>0</td><td>0</td></tr><tr><td>10</td><td></td><td>0.1319</td><td>0.0034</td><td>0</td><td>0</td><td>0</td></tr><tr><td>20</td><td></td><td>0.0012</td><td>0.0993</td><td>0</td><td>0</td><td>0</td></tr><tr><td>30</td><td></td><td>0</td><td>0.0052</td><td>0</td><td>0</td><td>0</td></tr><tr><td>40</td><td></td><td>0</td><td>0</td><td>0.0108</td><td>0</td><td>0</td></tr><tr><td>50</td><td></td><td>0</td><td>0</td><td>0.0796</td><td>0</td><td>0</td></tr><tr><td>60</td><td></td><td>0</td><td>0</td><td>0.0108</td><td>0</td><td>0</td></tr><tr><td>70</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0052</td><td>0</td></tr><tr><td>80</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0993</td><td>0.0012</td></tr><tr><td>90</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0034</td><td>0.1319</td></tr><tr><td>91</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0015</td><td>0.1304</td></tr><tr><td>92</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0006</td><td>0.1148</td></tr><tr><td>93</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0002</td><td>0.0889</td></tr><tr><td>94</td><td></td><td>0</td><td>0</td><td>0</td><td>0.0001</td><td>0.0596</td></tr><tr><td>95</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0339</td></tr><tr><td>96</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0159</td></tr><tr><td>97</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0059</td></tr><tr><td>98</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0016</td></tr><tr><td>99</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0003</td></tr><tr><td>100</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table>
@@ -1037,7 +1037,7 @@ In this appendix, we explain the concept of the binomial and multinomial coeffic
 The binomial coefficient is defined as
 
 $$
-{\binom {n} {k}} = \frac {n !}{k ! (n - k) !}
+{\binom {n} {k}} = \frac{n !}{k ! (n - k) !}
 $$ for some nonnegative integers  $k$  and  $n$  with  $0 \leq k \leq n$ . For the binomial coefficient, we use the factorial operator denoted by the "!" symbol. A factorial is defined in the set of natural numbers
 
 
@@ -1066,7 +1066,7 @@ Note: The alternatives matched by the  $=$  symbol lead to the same outcome, res
 
 
 $$
-\frac {3 \cdot 2 \cdot 1}{2} = \frac {3 !}{2 ! \cdot 1 !} = 3
+\frac{3 \cdot 2 \cdot 1}{2} = \frac{3 !}{2 ! \cdot 1 !} = 3
 $$
 
 For reasons we will make clear later, we introduced the middle term in the above equation.
@@ -1094,19 +1094,19 @@ Table B.1 Different Choices to Obtain  $X = k$  when  $n = 3$
 <table><tr><td>k=0</td><td>k=1</td><td>k=2</td><td>k=3</td></tr><tr><td>1 = 3! / 0! × 3! = (3/0)</td><td>3 = 3! / 1! × 2! = (3/1)</td><td>3 = 3! / 2! × 1! = (3/2)</td><td>1 = 3! / 3! × 0! = (3/3)</td></tr></table>
 
 $$
-Y _ {1} = Y _ {2} = 1 \quad \begin{array}{l l l l l l l l} \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & 2 & 2 & 2 & 1 & 1 & 2 \end{array}
+Y_{1} = Y_{2} = 1 \quad \begin{array}{l l l l l l l l} \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet & \bullet \\ \bullet & 2 & 2 & 2 & 1 & 1 & 2 \end{array}
 $$
 
 $$
-\mathrm {Y} _ {1} = \mathrm {Y} _ {2} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & 1 \end{array}
+\mathrm{Y}_{1} = \mathrm{Y}_{2} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & 1 \end{array}
 $$
 
 $$
-\mathrm {Y} _ {1} = \mathrm {Y} _ {2} = 1 \quad = \begin{array}{c c c c c} \text {2} & \text {1} & \text {2} & \text {1} \end{array}
+\mathrm{Y}_{1} = \mathrm{Y}_{2} = 1 \quad = \begin{array}{c c c c c} \text{2} & \text{1} & \text{2} & \text{1} \end{array}
 $$
 
 $$
-\begin{array}{c c c c c c c c} & \mathrm {Y} _ {1} & \mathrm {Y} _ {2} & \mathrm {Y} _ {3} & \mathrm {Y} _ {4} & \mathrm {Y} _ {1} & \mathrm {Y} _ {2} & \mathrm {Y} _ {3} & \mathrm {Y} _ {4} \\ \hline \end{array}
+\begin{array}{c c c c c c c c} & \mathrm{Y}_{1} & \mathrm{Y}_{2} & \mathrm{Y}_{3} & \mathrm{Y}_{4} & \mathrm{Y}_{1} & \mathrm{Y}_{2} & \mathrm{Y}_{3} & \mathrm{Y}_{4} \\ \hline \end{array}
 $$
 
 Figure B.2 Four Different Ways to Obtain  $Y_{1} = Y_{2} = 1$
@@ -1114,48 +1114,48 @@ Figure B.2 Four Different Ways to Obtain  $Y_{1} = Y_{2} = 1$
 But due to the fact that we do not care about the order of the 0 values, we divide by the total number of options (i.e., 24) and then obtain
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac {4 !}{4 !} = 1
+\frac{4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac{4 !}{4 !} = 1
 $$
 
 Next, we derive a sum of  $k = 1$ . This can be obtained in four different ways. The reasoning is similar to that in the case  $k = 1$  for  $n = 3$ . We have four positions to place the 1. Once the 1 is placed, the remaining  $Y_{i}$  have to be automatically equal to 0. Again, the order of placing the 0 values is irrelevant, which eliminates the redundant options through division of the total number by  $3 \times 2 \times 1 = 6$ . Technically, we have
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} = \frac {4 !}{3 !} = 4
+\frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} = \frac{4 !}{3 !} = 4
 $$
 
 For a sum  $X$  equal to  $k = 2$ , we have four different positions to place the first 1. Then, we have three positions left to place the second 1. This yields  $4 \times 3 = 12$  different options. However, we do not care which one of the 1 values is placed first since, again, their order is irrelevant. So, we divide the total number by 2 to indicate that the order of the two 1 values is unimportant. Next, we place the first 0, which offers us two possible positions for the remaining  $Y_{i}$  that are not equal to 1 already. For this, we have two options. In total, we then have
 
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{2 \times 1} = \frac {4 !}{2 !} = 1 2
+\frac{4 \times 3 \times 2 \times 1}{2 \times 1} = \frac{4 !}{2 !} = 1 2
 $$ possibilities. Then, the second 0 is placed on the remaining  $Y_{i}$ . So, there is only one choice for this 0. Because we do not care about the order of placement of the 2 values, we divide by 2. The resulting number of different ways to yield a sum  $X$  of  $k = 2$  is
 
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{2 \times 1 \times 2 \times 1} = \frac {4 !}{2 ! \times 2 !} = 6
+\frac{4 \times 3 \times 2 \times 1}{2 \times 1 \times 2 \times 1} = \frac{4 !}{2 ! \times 2 !} = 6
 $$ which is illustrated in Figures B.2 through B.7.
 
 
 A sum of  $X$  equal to  $k = 3$  is achieved by three 1 values and one 0 value. So, since the order of the 1 values is irrelevant due to the previous reasoning, we only care about where to place the 0 value. We have four possibilities, that is,
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} = \frac {4 !}{3 !} = 4
+\frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} = \frac{4 !}{3 !} = 4
 $$
 
 $$
-Y _ {1} = Y _ {3} = 1 \quad \boxed {1} \quad \boxed {1} \quad \boxed {2} = \boxed {2} \quad \boxed {1} \quad \boxed {1} \quad \boxed {2}
+Y_{1} = Y_{3} = 1 \quad \boxed {1} \quad \boxed {1} \quad \boxed {2} = \boxed {2} \quad \boxed {1} \quad \boxed {1} \quad \boxed {2}
 $$
 
 $$
-\mathrm {Y} _ {1} = \mathrm {Y} _ {3} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet \end{array}
+\mathrm{Y}_{1} = \mathrm{Y}_{3} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet & 1 & 2 & 3 \\ \bullet \end{array}
 $$
 
 $$
-\mathrm {Y} _ {1} = \mathrm {Y} _ {3} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & 2 & 2 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \end{array}
+\mathrm{Y}_{1} = \mathrm{Y}_{3} = 1 \quad = \begin{array}{c c c c} \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & \bullet & \bullet & \bullet \\ \bullet & 2 & 2 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \\ \bullet & 2 & 1 & 1 \end{array}
 $$
 
 $$
-\begin{array}{c c c c c c c c} \mathrm {Y} _ {1} & \mathrm {Y} _ {2} & \mathrm {Y} _ {3} & \mathrm {Y} _ {4} & \mathrm {Y} _ {1} & \mathrm {Y} _ {2} & \mathrm {Y} _ {3} & \mathrm {Y} _ {4} \end{array}
+\begin{array}{c c c c c c c c} \mathrm{Y}_{1} & \mathrm{Y}_{2} & \mathrm{Y}_{3} & \mathrm{Y}_{4} & \mathrm{Y}_{1} & \mathrm{Y}_{2} & \mathrm{Y}_{3} & \mathrm{Y}_{4} \end{array}
 $$
 
 Figure B.3 Four Different Ways to Obtain  $Y_{1} = Y_{3} = 1$
@@ -1179,7 +1179,7 @@ Table B.2 Different Choices to Obtain  $X = k$  when  $n = 4$
 Finally, to obtain  $k = 4$ , we only have one possible way to do so, as in the case where  $k = 0$ . Mathematically, this is
 
 $$
-\frac {4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac {4 !}{4 !} = 1
+\frac{4 \times 3 \times 2 \times 1}{4 \times 3 \times 2 \times 1} = \frac{4 !}{4 !} = 1
 $$
 
 We summarize the results in Table B.2.
@@ -1196,7 +1196,7 @@ From the two special cases (i.e.,  $n = 3$  and  $n = 4$ ), it seems that to obt
 The multinomial coefficient is defined as
 
 $$
-\left( \begin{array}{c c} & n \\ n _ {1} & n _ {2} \dots n _ {k} \end{array} \right) = \frac {n !}{n _ {1} ! \cdot n _ {2} ! \cdot \ldots \cdot n _ {k} !}
+\left( \begin{array}{c c} & n \\ n_{1} & n_{2} \dots n_{k} \end{array} \right) = \frac{n !}{n_{1} ! \cdot n_{2} ! \cdot \ldots \cdot n_{k} !}
 $$ for  $n_1 + n_2 + \ldots + n_k = n$ . Sometimes, the multinomial coefficient is referred to as the polynomial coefficient.
 
 
@@ -1230,7 +1230,7 @@ $$ different orders of assignment. Now, we are indifferent with respect to which
 
 
 $$
-\binom {n!} {n _ {1} n _ {2} \ldots n _ {k}} = \frac {n !}{n _ {1} ! \times n _ {2} ! \times \ldots \times n _ {k} !}
+\binom {n!} {n_{1} n_{2} \ldots n_{k}} = \frac{n !}{n_{1} ! \times n_{2} ! \times \ldots \times n_{k} !}
 $$ which is exactly the multinomial coefficient equation given above.
 
 

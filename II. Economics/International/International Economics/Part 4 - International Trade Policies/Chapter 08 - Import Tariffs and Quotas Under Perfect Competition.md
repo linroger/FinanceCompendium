@@ -325,17 +325,17 @@ the most commonly used steel products (such as flat-rolled steel sheets and stee
 
 Deadweight Loss Due to the Steel Tariff To measure the deadweight loss due to the tariffs levied on steel, we need to estimate the area of the triangle  $ b + d $ in Figure 8-5(b). The base of this triangle is the change in imports due to the tariffs, or $ \Delta M = M_{1} - M_{2} $. The height of the triangle is the increase in the domestic price due to the tariff, or $ \Delta P = t $. So the deadweight loss equals $ $
 
-D W L = \frac {1}{2} \cdot t \cdot \Delta M
+D W L = \frac{1}{2} \cdot t \cdot \Delta M
 
 $ $
 It is convenient to measure the deadweight loss relative to the value of imports, which is  $ P^W \cdot M $. We will also use the percentage tariff, which is $ t / P^W $, and the percentage change in the quantity of imports, which is $ \% \Delta M = \Delta M / M $. The deadweight loss relative to the value of imports can then be rewritten as $ $
 
-\frac {D W L}{P ^ {W} \cdot M} = \frac {1}{2} \cdot \frac {t \cdot \Delta M}{P ^ {W} \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M
+\frac{D W L}{P^{W} \cdot M} = \frac{1}{2} \cdot \frac{t \cdot \Delta M}{P^{W} \cdot M} = \frac{1}{2} \cdot \left(\frac{t}{P^{W}}\right) \cdot \% \Delta M
 
 $ $
 For the tariffs on steel, the most commonly used products had a tariff of  $ 30\% $, so that is the percentage increase in the price: $ t / P^{W} = 0.3 $. It turns out that the quantity of steel imports also fell by $ 30\% $ the first year after the tariff was imposed, so that $ \% \Delta M = 0.3 $. Therefore, the deadweight loss is $ $
 
-\frac {D W L}{P ^ {W} \cdot M} = \frac {1}{2} (0.3 \cdot 0.3) = 0.045, \text {or} 4.5 \% \text {of the import value}
+\frac{D W L}{P^{W} \cdot M} = \frac{1}{2} (0.3 \cdot 0.3) = 0.045, \text{or} 4.5 \% \text{oftheimportvalue}
 
 $ $
 The value of steel imports that were affected by the tariff was about  \$ 4.7 billion in the year prior to March 2002 and \$ 3.5 billion in the year after March 2002, so average imports over the two years were $ \frac{1}{2} (4.7 + 3.5) = $ 4.1 billion (these values do not include the tariffs).
@@ -486,7 +486,7 @@ little response of the quantity supplied, and so the elasticity  $ E_{X}^{*} $ i
 Using the elasticity of Foreign export supply, the optimal tariff equals
 $ $
 
-\text {o p t i m a l} = \frac {1}{E _ {X} ^ {*}}
+\text{op ti ma l} = \frac{1}{E_{X}^{*}}
 
 $ $
 That is, the optimal tariff (measured as a percentage) equals the inverse of the elasticity of Foreign export supply. For a small importing country, the elasticity of Foreign export supply is infinite, and so the optimal tariff is zero. That result makes sense, since any tariff higher than zero leads to a deadweight loss for the importer (and no terms-of-trade gain), so the best tariff to choose is zero, or free trade.

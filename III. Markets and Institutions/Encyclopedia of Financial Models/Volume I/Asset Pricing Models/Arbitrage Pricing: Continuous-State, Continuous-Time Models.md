@@ -17,7 +17,7 @@ Each security  $i$  is characterized by a payoff rate process  $\delta_t^i$  and
 
 
 $$
-D _ {t} ^ {i} = \int_ {0} ^ {t} \delta_ {\mathrm {s}} ^ {i} d s
+D_{t}^{i} = \int_{0}^{t} \delta_{\mathrm{s}}^{i} d s
 $$
 
 We assume that the number of assets is finite. We can therefore use the vector notation to indicate a set of processes. For example, we write  $\delta_t$  and  $S_t$  to indicate the vector process of payoff rates and prices respectively. All payoff-rates and prices are stochastic processes adapted to the filtration  $\Im$ . One can make assumptions about the price and the payoff-rate processes. For example, it can be assumed that price and payoff-rate processes satisfy a set of stochastic differential equations or that they exhibit finite jumps. Later in this entry we will explore a number of these processes.
@@ -25,14 +25,14 @@ We assume that the number of assets is finite. We can therefore use the vector n
 Conditional expectations are defined as partial averaging. In fact, given a variable  $X_{s}, s > t$ , its conditional expectation  $E_{t}[X_{s}]$  is defined as a variable that is  $\Im_t$ -measurable and whose average on each set  $A \in \mathfrak{I}_t$  is the same as that of  $X$ :
 
 $$
-Y _ {t} = E _ {t} \left[ X _ {s} \right] \Leftrightarrow E \left[ Y _ {t} (\omega) \right] = E \left[ X _ {s} (\omega) \right]
+Y_{t} = E_{t} \left[ X_{s} \right] \Leftrightarrow E \left[ Y_{t} (\omega) \right] = E \left[ X_{s} (\omega) \right]
 $$ for  $\omega \in A, \forall A \in \mathfrak{I}_t$  and  $Y$  is  $\mathfrak{I}_t$ -measurable.
 
 
 The law of iterated expectations applies as in the finite-state case:
 
 $$
-E _ {t} [ E _ {u} (X _ {s}) ] = E _ {t} [ X _ {s} ]
+E_{t} [ E_{u} (X_{s}) ] = E_{t} [ X_{s} ]
 $$
 
 In a continuous-state setting, conditional expectations are variables that assume constant values on the sets of infinite partitions. Imagine the evolution of a variable  $X$ . At the initial date,  $X_0$  identifies the entire space  $\Omega$ . At each subsequent date  $t$ , the space  $\Omega$  is partitioned into an infinite number of sets, each determined by one of the infinite values of  $X_t$ . However, these sets have measure zero. In fact, they are sets of the type:  $\{A : \omega \in A \Leftrightarrow X_t(\omega) = x\}$  determined by specific values of the variable  $X_t$ . These sets have probability zero as there is an infinite number of values  $X_{t}$ . As a consequence, we cannot define conditional expectation as expectation under the usual definition of conditional probabilities the same way we did in the case of finite-state setting.
@@ -45,7 +45,7 @@ We have to define the meaning of trading strategies in the continuous-state, con
 Given a trading strategy, we have to define the gains or losses associated with it. In discrete time, the trading gains equal the sum of payoffs plus the change of a portfolio's value
 
 $$
-\sum_ {t = 0} ^ {T} \left(\sum_ {t} d _ {t} ^ {i} \theta_ {t} ^ {i}\right) + \sum_ {i} S _ {T} ^ {i} \theta_ {T} ^ {i} - \sum_ {i} S _ {0} ^ {i} \theta_ {0} ^ {i}
+\sum_{t = 0}^{T} \left(\sum_{t} d_{t}^{i} \theta_{t}^{i}\right) + \sum_{i} S_{T}^{i} \theta_{T}^{i} - \sum_{i} S_{0}^{i} \theta_{0}^{i}
 $$ over a finite interval  $[0, T]$ .
 
 
@@ -56,18 +56,18 @@ Let's first assume that the payoff-rate process is zero, so that there are only 
 $T_{t}$  of a trading strategy can be represented by a stochastic integral:
 
 $$
-T _ {t} = \int_ {0} ^ {t} \theta_ {s} d S _ {s} = \sum_ {i} \int_ {0} ^ {t} \theta_ {s} ^ {i} d S _ {s} ^ {i}
+T_{t} = \int_{0}^{t} \theta_{s} d S_{s} = \sum_{i} \int_{0}^{t} \theta_{s}^{i} d S_{s}^{i}
 $$
 
 In the rest of this section, we will not strictly adhere to the vector notation when there is no risk of confusion. For example, we will write  $\theta \cdot S$  to represent the scalar product  $\theta \cdot S$ . If a payoff rate process is associated with each asset, we have to add the gains consequent to the payoff rate process. We therefore define the gain process
 
 $$
-G _ {t} ^ {i} = S _ {t} ^ {i} + D _ {t} ^ {i}
+G_{t}^{i} = S_{t}^{i} + D_{t}^{i}
 $$ as the sum of the price processes plus the cumulative payoff-rate processes, and we define the trading gains as the stochastic integral
 
 
 $$
-T _ {t} = \int_ {0} ^ {t} \theta_ {s} d G _ {s} = \sum_ {i} \int_ {0} ^ {t} \theta_ {s} ^ {i} d G _ {s} ^ {i}
+T_{t} = \int_{0}^{t} \theta_{s} d G_{s} = \sum_{i} \int_{0}^{t} \theta_{s}^{i} d G_{s}^{i}
 $$
 
 How can we match the abstract notion of a stochastic integral with the buying and selling of assets? In discrete time, trading gains have a meaning that is in agreement with the practical notion of buying a portfolio of assets, holding it for a period, and then selling it at market prices, thus realizing either a gain or a loss. One might object that in continuous time this meaning is lost. How can a process where prices change so that their total variation is unbounded be a reasonable representation of financial reality? This is a question of methodology that is relevant to every field of science. In classical physics, the use of continuous models was assumed to reflect reality; time and space, for example, were considered continuous. Quantum physics upset the conceptual cart of classical physics, and the reality of continuous processes has since been questioned at every level. In quantum physics, a theory is considered to be nothing but a model useful as a mathematical device to predict measurements. This is, in essence, the theory set forth in the 1930s by Niels Bohr and the school of Copenhagen; it has now become mainstream methodology in physics. It is also, ultimately, the point of view of positive economics. In a famous and widely quoted essay, Milton Friedman (1953) wrote:
@@ -80,13 +80,13 @@ In the spirit of positive economics, continuous-time financial models are mathem
 Let's consider processes without any intermediate payoff. A self-financing trading strategy is a trading strategy such that the following relationships hold:
 
 $$
-\theta_ {t} S _ {t} = \sum_ {i} \theta_ {t} ^ {i} S _ {t} ^ {i} = \sum_ {i} \left(\theta_ {0} ^ {i} S _ {0} ^ {i} + \int_ {0} ^ {t} \theta_ {t} ^ {i} d S _ {t} ^ {i}\right), t \in [ 0, T ]
+\theta_{t} S_{t} = \sum_{i} \theta_{t}^{i} S_{t}^{i} = \sum_{i} \left(\theta_{0}^{i} S_{0}^{i} + \int_{0}^{t} \theta_{t}^{i} d S_{t}^{i}\right), t \in [ 0, T ]
 $$
 
 We first define arbitrage in the absence of a payoff-rate process. An arbitrage is a self-financing trading strategy such that:  $\theta_0S_0 < 0$  and  $\theta_T S_T \geq 0$ , or  $\theta_0S_0 \leq 0$  and  $\theta_T S_T > 0$ . If there is a payoff-rate process, a self-financing trading strategy is a trading strategy such that the following relationships hold:
 
 $$
-\theta_ {t} S _ {t} = \sum_ {i} \theta_ {t} ^ {i} S _ {t} ^ {i} = \sum_ {i} \left(\theta_ {0} ^ {i} S _ {0} ^ {i} + \int_ {0} ^ {t} \theta_ {t} ^ {i} d G _ {t} ^ {i}\right), t \in [ 0, T ]
+\theta_{t} S_{t} = \sum_{i} \theta_{t}^{i} S_{t}^{i} = \sum_{i} \left(\theta_{0}^{i} S_{0}^{i} + \int_{0}^{t} \theta_{t}^{i} d G_{t}^{i}\right), t \in [ 0, T ]
 $$ where  $G_{t}^{i} = S_{t}^{i} + D_{t}^{i}$  is the gain process as previously defined. An arbitrage is a self-financing trading strategy such that:  $\theta_0S_0 < 0$  and  $\theta_{\mathrm{T}}S_{T}\geq 0$ , or  $\theta_0S_0\leq 0$  and  $\theta_{\mathrm{T}}S_{T} > 0$ .
 
 
@@ -97,13 +97,13 @@ The abstract principles of arbitrage pricing are the same in a discrete-state, d
 1. Prices  $S_{t}^{i}$  are equal to the normalized conditional expectation of payoffs deflated with state prices under the real probabilities:
 
 $$
-S _ {t} ^ {i} = \frac {1}{\pi_ {t}} E _ {t} \left[ \sum_ {j = t + 1} ^ {T} \pi_ {j} d _ {j} ^ {i} \right]
+S_{t}^{i} = \frac{1}{\pi_{t}} E_{t} \left[ \sum_{j = t + 1}^{T} \pi_{j} d_{j}^{i} \right]
 $$
 
 2. Prices  $S_{t}^{i}$  are equal to the conditional expectation of discounted payoffs under the risk-neutral probabilities
 
 $$
-S _ {t} ^ {i} = E _ {t} ^ {Q} \left[ \sum_ {j = t + 1} ^ {T} \frac {d _ {j} ^ {i}}{R _ {t , j}} \right]
+S_{t}^{i} = E_{t}^{Q} \left[ \sum_{j = t + 1}^{T} \frac{d_{j}^{i}}{R_{t , j}} \right]
 $$
 
 State-price deflators and risk-neutral probabilities can be computed solving systems of linear equations for a kernel of basic assets. The above relationships are algebraic linear equations that fix all price processes.
@@ -121,13 +121,13 @@ We will now apply the concepts of arbitrage pricing to option pricing in a conti
 
 Suppose the risk-free rate is a constant  $r$ . The value  $V_{t}$  of a risk-free asset with constant rate  $r$  evolves according to the deterministic differential equation of continually compounding interest rates:
 
-$$ d V _ {t} = r V _ {t} d t
+$$ d V_{t} = r V_{t} d t
 $$
 
 The above is a differential equation with separable variables. After separating the variables, the equation can be written as
 
 $$
-\frac {d V _ {t}}{V _ {t}} = r d t
+\frac{d V_{t}}{V_{t}} = r d t
 $$ which admits the solution  $V_{t} = V_{0}e^{rt}$  where  $V_{0}$  is the initial value of the bank account. This formula can also be interpreted as the price process of a risk-free bond with deterministic rate  $r$ .
 
 
@@ -135,13 +135,13 @@ $$ which admits the solution  $V_{t} = V_{0}e^{rt}$  where  $V_{0}$  is the init
 
 Let's now examine the price process of the stock. Consider the process  $y = \alpha t + \sigma B_{t}$  where  $B_{t}$  is a standard Brownian motion. From the definition of Ito integrals, it can be seen that this process, which is called an arithmetic Brownian motion, is the solution of the following diffusion equation:
 
-$$ d y _ {t} = \alpha d t + \sigma d B _ {t}
+$$ d y_{t} = \alpha d t + \sigma d B_{t}
 $$ where  $\alpha$  is a constant called the drift of the diffusion and  $\sigma$  is a constant called the volatility of the diffusion.
 
 
 Consider now the process  $S_{t} = S_{0}e^{(\alpha t + \sigma B_{t})}$ $t\geq$  0. Applying Ito's lemma it is easy to see that this process, which is called a geometric Brownian motion, is an Ito process that satisfies the following stochastic differential equation:
 
-$$ d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d B _ {t}; S _ {0} = x
+$$ d S_{t} = \mu S_{t} d t + \sigma S_{t} d B_{t}; S_{0} = x
 $$ where  $x$  is an initial value,  $\mu = \alpha + 1/2\sigma^2$  and  $B_t$  is a standard Brownian motion. We assume that the stock price process follows a geometric Brownian motion and that there is no payoff rate process.
 
 
@@ -149,7 +149,7 @@ Now consider a European call option, which gives the owner the right but not the
 
 
 $$
-Y _ {T} = \max  (S _ {T} - K, 0)
+Y_{T} = \max  (S_{T} - K, 0)
 $$
 
 In fact, the option can be rationally exercised only if the price of the stock exceeds  $K$ . In that case, the owner of the option can buy the underlying stock at the price  $K$ , sell it immediately at the current price  $S_{t}$  and make a profit equal to  $(S_{T} - K)$ . If the stock price is below  $K$ , the option is clearly worthless. After  $T$ , the option ceases to exist.
@@ -163,14 +163,14 @@ To hedge means to protect against an adverse movement. The seller of an option i
 A European call option has only one payoff at the expiry date. It therefore suffices that the hedging portfolio replicates the option payoff at that date. Suppose that there is a self-financing trading strategy  $(\theta_t^1,\theta_t^2)$  in the bond and the stock such that
 
 $$
-\theta_ {t} ^ {1} V _ {T} + \theta_ {t} ^ {2} S _ {T} = Y _ {T}
+\theta_{t}^{1} V_{T} + \theta_{t}^{2} S_{T} = Y_{T}
 $$
 
 To avoid arbitrage, the price of the option at any moment must be equal to the value of the hedging self-financing trading strategy. In fact, suppose that at any time  $t < T$  the self-financing strategy  $(\theta_t^1,\theta_t^2)$  has a value lower than the option:
 
 
 $$
-\theta_ {t} ^ {1} V _ {t} + \theta_ {t} ^ {2} S _ {t} <   Y _ {t}
+\theta_{t}^{1} V_{t} + \theta_{t}^{2} S_{t} <   Y_{t}
 $$
 
 An investor could then sell the option for  $Y_{t}$ , make an investment  $\theta_t^1 V_t + \theta_t^2 S_t$  in the trading strategy, and at time  $T$  liquidate both the option and the trading strategy. As  $\theta_T^1 V_T + \theta_T^2 S_T = Y_T$  the final liquidation has value zero in every state of the world, so that the initial profit  $Y_{t} - \theta_{t}^{1}V_{T} + \theta_{t}^{2}S_{T}$  is a risk-free profit. A similar reasoning could be applied if, at any time  $t < T$ , the strategy  $(\theta_t^1,\theta_t^2)$  had a value higher than the option. Therefore, we can conclude that if there is a self-financing trading strategy that replicates the option's payoff, the value of the strategy must coincide with the option's price at every instant prior to the expiry date.
@@ -185,65 +185,65 @@ As  $S_{t}$  is assumed to be an Itô process, in particular a geometric Brownia
 
 
 $$
-\begin{array}{l} d Y _ {t} = \left[ \frac {\partial C (S _ {t} , t)}{\partial t} + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \mu \right. \\ \left. + \frac {1}{2} \frac {\partial^ {2} C (S _ {t} , t)}{\partial S _ {t} ^ {2}} S _ {t} ^ {2} \sigma^ {2} \right] d t + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} \sigma S _ {t} d B \\ \end{array}
+\begin{array}{l} d Y_{t} = \left[ \frac{\partial C (S_{t} , t)}{\partial t} + \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \mu \right. \\ \left. + \frac{1}{2} \frac{\partial^{2} C (S_{t} , t)}{\partial S_{t}^{2}} S_{t}^{2} \sigma^{2} \right] d t + \frac{\partial C (S_{t} , t)}{\partial S_{t}} \sigma S_{t} d B \\ \end{array}
 $$
 
 Suppose now that there is a self-financing trading strategy  $Y_{t} = \theta_{t}^{1}V_{t} + \theta_{t}^{2}S_{t}$ . We can write this equation as
 
 $$
-\int_ {0} ^ {t} d Y _ {t} = \theta_ {t} ^ {1} \int_ {0} ^ {t} d V _ {t} + \theta_ {t} ^ {2} \int_ {0} ^ {t} d S _ {t}
+\int_{0}^{t} d Y_{t} = \theta_{t}^{1} \int_{0}^{t} d V_{t} + \theta_{t}^{2} \int_{0}^{t} d S_{t}
 $$ or, in differential form, as
 
 
 $$
-\begin{array}{l} d Y _ {t} = \theta_ {t} ^ {1} d V _ {t} + \theta_ {t} ^ {2} d S _ {t} \\ = (\theta_ {t} ^ {1} r V _ {t} + \theta_ {t} ^ {2} \mu S _ {t}) d t + \theta_ {t} ^ {2} \sigma S _ {t} d B _ {t} \\ \end{array}
+\begin{array}{l} d Y_{t} = \theta_{t}^{1} d V_{t} + \theta_{t}^{2} d S_{t} \\ = (\theta_{t}^{1} r V_{t} + \theta_{t}^{2} \mu S_{t}) d t + \theta_{t}^{2} \sigma S_{t} d B_{t} \\ \end{array}
 $$
 
 If the trading strategy replicates the option price process, the two expressions for  $dY_{t}$  - the one obtained through Ito's lemma and the other obtained through the assumption that there is a replicating self-financing trading strategy-must be equal:
 
 $$
-\begin{array}{l} \left(\theta_ {t} ^ {1} r V _ {t} + \theta_ {t} ^ {2} \mu S _ {t}\right) d t + \theta_ {t} ^ {2} \sigma S _ {t} d B _ {t} \\ = \left[ \frac {\partial C (S _ {t} , t)}{\partial t} + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \mu + \frac {1}{2} \frac {\partial^ {2} C (S _ {t} , t)}{\partial S _ {t} ^ {2}} S _ {t} ^ {2} \sigma^ {2} \right] d t \\ + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} \sigma S _ {t} d B _ {t} \\ \end{array}
+\begin{array}{l} \left(\theta_{t}^{1} r V_{t} + \theta_{t}^{2} \mu S_{t}\right) d t + \theta_{t}^{2} \sigma S_{t} d B_{t} \\ = \left[ \frac{\partial C (S_{t} , t)}{\partial t} + \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \mu + \frac{1}{2} \frac{\partial^{2} C (S_{t} , t)}{\partial S_{t}^{2}} S_{t}^{2} \sigma^{2} \right] d t \\ + \frac{\partial C (S_{t} , t)}{\partial S_{t}} \sigma S_{t} d B_{t} \\ \end{array}
 $$
 
 The equality of these two expressions implies the equality of the coefficients in  $dt$  and  $dB$  respectively. Equating the coefficients in  $dB$  yields
 
 $$
-\theta_ {t} ^ {2} = \frac {\partial C (S _ {t} , t)}{\partial S _ {t}}
+\theta_{t}^{2} = \frac{\partial C (S_{t} , t)}{\partial S_{t}}
 $$
 
 As  $Y_{t} = C(S_{t},t) = \theta_{t}^{1}V_{t} + \theta_{t}^{2}S_{t}$ , substituting, we obtain
 
 $$
-\theta_ {t} ^ {1} = \frac {1}{V _ {t}} \left[ C (S _ {t}, t) - \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \right]
+\theta_{t}^{1} = \frac{1}{V_{t}} \left[ C (S_{t}, t) - \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \right]
 $$
 
 We have now obtained the self-financing trading strategy in function of the stock and option prices. Substituting and equating the coefficients of  $dt$  yields
 
 
 $$
-\begin{array}{l} \frac {1}{V _ {t}} \left[ C (S _ {t}, t) - \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \right] r V _ {t} + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} \mu S _ {t} \\ = \frac {\partial C (S _ {t} , t)}{\partial t} + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \mu + \frac {1}{2} \frac {\partial^ {2} C (S _ {t} , t)}{\partial S _ {t} ^ {2}} S _ {t} ^ {2} \sigma^ {2} \\ \end{array}
+\begin{array}{l} \frac{1}{V_{t}} \left[ C (S_{t}, t) - \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \right] r V_{t} + \frac{\partial C (S_{t} , t)}{\partial S_{t}} \mu S_{t} \\ = \frac{\partial C (S_{t} , t)}{\partial t} + \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \mu + \frac{1}{2} \frac{\partial^{2} C (S_{t} , t)}{\partial S_{t}^{2}} S_{t}^{2} \sigma^{2} \\ \end{array}
 $$
 
 Simplifying and eliminating common terms, we obtain
 
 $$
-\begin{array}{l} - r C (S _ {t}, t) + r \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} + \frac {\partial C (S _ {t} , t)}{\partial t} \\ + \frac {1}{2} \frac {\partial^ {2} C (S _ {t} , t)}{\partial S _ {t} ^ {2}} S _ {t} ^ {2} \sigma^ {2} = 0 \\ \end{array}
+\begin{array}{l} - r C (S_{t}, t) + r \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} + \frac{\partial C (S_{t} , t)}{\partial t} \\ + \frac{1}{2} \frac{\partial^{2} C (S_{t} , t)}{\partial S_{t}^{2}} S_{t}^{2} \sigma^{2} = 0 \\ \end{array}
 $$
 
 If the function  $C(S_{t}, t)$  satisfies this relationship, then the coefficients in  $dt$  match. The above relationship is a partial differential equation (PDE). This equation can be solved with suitable boundary conditions. Boundary conditions are provided by the payoff of the option at the expiry date:
 
 $$
-Y _ {T} = C \left(S _ {T}, T\right) = \max  \left(S _ {T} - K, 0\right)
+Y_{T} = C \left(S_{T}, T\right) = \max  \left(S_{T} - K, 0\right)
 $$
 
 The closed-form solution of the above PDE with the above boundary conditions was derived by Black and Scholes (1973) and referred to as the Black-Scholes option pricing formula:
 
 $$
-C (S _ {t}, t) = x \Phi (z) - e ^ {- r (T - t)} K \Phi (z - \sigma \sqrt {T - t})
+C (S_{t}, t) = x \Phi (z) - e^{- r (T - t)} K \Phi (z - \sigma \sqrt{T - t})
 $$ with
 
 
-$$ z = \frac {\log (S _ {t} / K) + (r + \frac {1}{2} \sigma^ {2}) (T - t)}{\sigma \sqrt {T - t}}
+$$ z = \frac{\log (S_{t} / K) + (r + \frac{1}{2} \sigma^{2}) (T - t)}{\sigma \sqrt{T - t}}
 $$ and where  $\Phi$  is the cumulative normal distribution.
 
 
@@ -267,24 +267,24 @@ Following the definition given in the finite-state setting, we define a European
 
 Let's now generalize the price process of the underlying stock. We represent the underlying stock price process as a generic Ito process. A generic univariate Ito process can be represented through the differential stochastic equation:
 
-$$ d S _ {t} = \mu (S _ {t}, t) d t + \sigma (S _ {t}, t) d B _ {t}; S _ {0} = x
+$$ d S_{t} = \mu (S_{t}, t) d t + \sigma (S_{t}, t) d B_{t}; S_{0} = x
 $$ where  $x$  is the initial condition,  $B$  is a standard Brownian motion, and  $\mu(S_t, t)$  and  $(S_t, t)$  are given functions  $R \times (0, \infty) \to R$ . The geometric Brownian motion is a particular example of an Ito process.
 
 
 Let's now define the bond price process. We retain the risk-free nature of the bond but let the interest rate be stochastic. Recall that in a discrete-state, discrete-time setting, a bond was defined as a process that, at each time step, exhibits the same return for each state though the return can be different in different time steps. Consequently, in continuous-time we define a bond price process as the following integral:
 
 $$
-V _ {t} = V _ {0} e ^ {\int_ {0} ^ {t} r (S _ {u}, u) d u}
+V_{t} = V_{0} e^{\int_{0}^{t} r (S_{u}, u) d u}
 $$ where  $r$  is a given function that represents the stochastic rate. In fact, the rate  $r$  depends on the time  $t$  and on the stock price process  $S_{t}$ . Application of Ito's lemma shows that the bond price process satisfies the following equation:
 
 
-$$ d V _ {t} = V _ {t} r \left(S _ {t}, t\right) d t
+$$ d V_{t} = V_{t} r \left(S_{t}, t\right) d t
 $$
 
 We can now use the same reasoning that led to the Black-Scholes formula. Suppose that there are both an option pricing function  $Y_{t} = C(S_{t},t)$  and a replicating self-financing trading strategy
 
 $$
-Y _ {t} = \theta_ {t} ^ {1} V _ {t} + \theta_ {t} ^ {2} S _ {t}
+Y_{t} = \theta_{t}^{1} V_{t} + \theta_{t}^{2} S_{t}
 $$
 
 We can now write a stochastic differential equation for the process  $Y_{t}$  in two ways:
@@ -295,27 +295,27 @@ We can now write a stochastic differential equation for the process  $Y_{t}$  in
 The first approach yields
 
 $$
-\begin{array}{l} d Y _ {t} = \left[ \frac {\partial C (S _ {t} , t)}{\partial t} + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} \mu (S _ {t}, t) \right. \\ \left. + \frac {1}{2} \frac {\partial^ {2} C (S _ {t} , t)}{\partial S _ {t} ^ {2}} \sigma^ {2} (S _ {t}, t) \right] d t \\ + \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} \sigma (S _ {t}, t) d B _ {t} \\ \end{array}
+\begin{array}{l} d Y_{t} = \left[ \frac{\partial C (S_{t} , t)}{\partial t} + \frac{\partial C (S_{t} , t)}{\partial S_{t}} \mu (S_{t}, t) \right. \\ \left. + \frac{1}{2} \frac{\partial^{2} C (S_{t} , t)}{\partial S_{t}^{2}} \sigma^{2} (S_{t}, t) \right] d t \\ + \frac{\partial C (S_{t} , t)}{\partial S_{t}} \sigma (S_{t}, t) d B_{t} \\ \end{array}
 $$
 
 The second approach yields
 
-$$ d Y _ {t} = [ \theta_ {t} ^ {1} r (S _ {t}, t) V _ {t} + \theta_ {t} ^ {2} \mu (S _ {t}, t) ] d t + \theta_ {t} ^ {2} \sigma (S _ {t}, t) d B _ {t}
+$$ d Y_{t} = [ \theta_{t}^{1} r (S_{t}, t) V_{t} + \theta_{t}^{2} \mu (S_{t}, t) ] d t + \theta_{t}^{2} \sigma (S_{t}, t) d B_{t}
 $$
 
 Equating coefficients in  $dt$ ,  $Db$  we obtain the trading strategy
 
 $$
-\theta_ {t} ^ {1} = \frac {1}{V _ {t}} \left[ C (S _ {t}, t) - \frac {\partial C (S _ {t} , t)}{\partial S _ {t}} S _ {t} \right]
+\theta_{t}^{1} = \frac{1}{V_{t}} \left[ C (S_{t}, t) - \frac{\partial C (S_{t} , t)}{\partial S_{t}} S_{t} \right]
 $$
 
 $$
-\theta_ {t} ^ {2} = \frac {\partial C (S _ {t} , t)}{\partial S _ {t}}
+\theta_{t}^{2} = \frac{\partial C (S_{t} , t)}{\partial S_{t}}
 $$ and the PDE
 
 
 $$
-\begin{array}{l} - r (x, t) C (x, t) + r (x, t) \frac {\partial C (x , t)}{\partial x} x \\ + \frac {\partial C (x , t)}{\partial t} + \frac {1}{2} \frac {\partial^ {2} C (x , t)}{\partial x ^ {2}} \sigma^ {2} (x, t) = 0 \\ \end{array}
+\begin{array}{l} - r (x, t) C (x, t) + r (x, t) \frac{\partial C (x , t)}{\partial x} x \\ + \frac{\partial C (x , t)}{\partial t} + \frac{1}{2} \frac{\partial^{2} C (x , t)}{\partial x^{2}} \sigma^{2} (x, t) = 0 \\ \end{array}
 $$ with the boundary conditions  $C(S_T, T) = g(S_T)$ . Solving this equation we obtain a candidate option pricing function. In each specific case, one
 
 
@@ -328,11 +328,11 @@ We now extend the concepts of state prices and equivalent martingale measures to
 Suppose that there are  $N$  price processes  $\mathbf{X} = (X^{1},\dots ,X^{\mathrm{N}})$  that form a multivariate Itô process in  $R^{\mathrm{N}}$ . Trading strategies are adapted processes  $\theta = (\theta^{1},\dots ,\theta^{N})$  that represent the quantity of each asset held at each instant. In order to ensure the existence of stochastic integrals, we require the processes  $(X^{1},\dots ,X^{\mathrm{N}})$  and any trading strategy to be of bounded variation. Let's first suppose that there is no payoff-rate process. This assumption will be relaxed in a later section. Suppose also that one of these processes, say  $X_{t}^{1}$ , is defined by a short-rate process  $r$ , so that
 
 $$
-X _ {t} ^ {1} = e ^ {\int_ {0} ^ {t} r _ {u} d u}
+X_{t}^{1} = e^{\int_{0}^{t} r_{u} d u}
 $$ or
 
 
-$$ d X _ {t} ^ {1} = r _ {t} X _ {t} ^ {1} d t
+$$ d X_{t}^{1} = r_{t} X_{t}^{1} d t
 $$ where  $r_t$  is a deterministic function of  $t$  called the short-rate process. Note that  $X_t^1$  could be replaced by a trading strategy. We can think of  $r_t$  as the risk-free short-term continuously compounding interest rate and of  $X_t^1$
 
 
@@ -341,7 +341,7 @@ as a risk-free continuously compounding bank account.
 The concept of arbitrage and of trading strategy was defined in the previous section. We now introduce the concept of deflators in a continuous-time continuous-state setting. Any strictly positive Ito process is called a deflator. Given a deflator  $Y$  we can deflate any process  $X$ , obtaining a new deflated process
 
 $$
-X _ {t} ^ {Y} = X _ {t} Y _ {t}
+X_{t}^{Y} = X_{t} Y_{t}
 $$
 
 For example, any stock price process of a non-defaulting firm or the risk-free bank account is a deflator. For technical reasons it is necessary to introduce the concept of regular deflators. A regular deflator is a deflator that, after deflation, leaves unchanged the set of admissible bounded-variation trading strategies.
@@ -349,50 +349,50 @@ For example, any stock price process of a non-defaulting firm or the risk-free b
 We can make the first step towards defining a theory of pricing based on equivalent martingale measures. It can be demonstrated that if  $Y$  is a regular deflator, a trading strategy  $\theta$  is self-financing with respect to the price process  $X = (X^{1},\ldots ,X^{N})$  if and only if it is self-financing with respect to the deflated price process
 
 $$
-\mathbf {X} ^ {Y} = \left(Y _ {t} X _ {t} ^ {1}, \ldots , Y _ {t} X _ {t} ^ {\mathrm {N}}\right)
+\mathbf {X}^{Y} = \left(Y_{t} X_{t}^{1}, \ldots , Y_{t} X_{t}^{\mathrm{N}}\right)
 $$
 
 In addition, it can be demonstrated that the price process  $\mathbf{X} = (X^{1},\dots,X^{N})$  admits no arbitrage if and only if the deflated price process
 
 $$
-\mathbf {X} ^ {Y} = \left(Y _ {t} X _ {t} ^ {1}, \ldots , Y _ {t} X _ {t} ^ {N}\right)
+\mathbf {X}^{Y} = \left(Y_{t} X_{t}^{1}, \ldots , Y_{t} X_{t}^{N}\right)
 $$ admits no arbitrage.
 
 
 A state-price deflator is a deflator  $\pi$  with the property that the deflated price process  $X^{\pi}$  is a martingale. A martingale is a stochastic process  $M_{t}$  such that its current value equals the conditional expectation of the process at any future time:  $M_{t} = E_{t}[M_{s}], s > t$ . For each price process  $X_{t}^{i}$ , the following relationship therefore holds:
 
 $$
-\pi_ {t} X _ {t} ^ {i} = E _ {t} \left[ \pi_ {s} X _ {s} ^ {i} \right], s > t
+\pi_{t} X_{t}^{i} = E_{t} \left[ \pi_{s} X_{s}^{i} \right], s > t
 $$
 
 This definition is the equivalent in continuous time of the definition of a state-price deflator in discrete time. In fact, a state-price deflator is defined as a process  $\pi$  such that
 
 
 $$
-S _ {t} ^ {i} = \frac {1}{\pi_ {t}} E _ {t} \left[ \sum_ {j = t + 1} ^ {T} \pi_ {j} d _ {j} ^ {i} \right]
+S_{t}^{i} = \frac{1}{\pi_{t}} E_{t} \left[ \sum_{j = t + 1}^{T} \pi_{j} d_{j}^{i} \right]
 $$
 
 If there is no intermediate payoff, as in our present case, the previous relationship can be written as
 
 $$
-\begin{array}{l} \pi_ {t} S _ {t} ^ {i} = E _ {t} [ \pi_ {T} S _ {T} ^ {i} ] = E _ {t} [ E _ {t + 1} [ \pi_ {T} S _ {T} ^ {i} ] ] \\ = E _ {t} [ \pi_ {t + 1} S _ {t + 1} ^ {i} ] \\ \end{array}
+\begin{array}{l} \pi_{t} S_{t}^{i} = E_{t} [ \pi_{T} S_{T}^{i} ] = E_{t} [ E_{t + 1} [ \pi_{T} S_{T}^{i} ] ] \\ = E_{t} [ \pi_{t + 1} S_{t + 1}^{i} ] \\ \end{array}
 $$
 
 The next proposition states that if there is a regular state-price deflator, then there is no arbitrage. The demonstration of this proposition hinges on the fact that, as the deflated price process is a martingale, the following relationship holds:
 
 $$
-E \left[ \int_ {0} ^ {T} \theta_ {u} d S _ {u} ^ {\pi} \right] = 0
+E \left[ \int_{0}^{T} \theta_{u} d S_{u}^{\pi} \right] = 0
 $$ and therefore any self-financing trading strategy is a martingale. We can thus write
 
 
 $$
-\pmb {\theta} _ {0} \pmb {S} _ {0} ^ {\pi} = E [ \pmb {\theta} _ {T} S _ {T} ^ {\pi} ]
+\pmb {\theta}_{0} \pmb {S}_{0}^{\pi} = E [ \pmb {\theta}_{T} S_{T}^{\pi} ]
 $$
 
 If
 
 $$
-\begin{array}{l} \theta_ {T} S _ {T} ^ {\pi} \geq 0 \quad \text {t h e n} \quad \theta_ {0} S _ {0} ^ {\pi} \geq 0 \\ \text {a n d i f} \quad \theta_ {T} S _ {T} ^ {\pi} > 0 \quad \text {t h e n} \quad \theta_ {0} S _ {0} ^ {\pi} > 0 \\ \end{array}
+\begin{array}{l} \theta_{T} S_{T}^{\pi} \geq 0 \quad \text{th en} \quad \theta_{0} S_{0}^{\pi} \geq 0 \\ \text{an di f} \quad \theta_{T} S_{T}^{\pi} > 0 \quad \text{th en} \quad \theta_{0} S_{0}^{\pi} > 0 \\ \end{array}
 $$ which shows that there cannot be any arbitrage.
 
 
@@ -406,7 +406,7 @@ In the previous section we saw that if there is a regular state-price deflator t
 Given a probability measure  $P$ , the probability measure  $Q$  is said to be equivalent to  $P$  if both assign probability zero to the same events, that is, if  $P(A) = 0$  if and only if  $Q(A) = 0$  for every event  $A$ . The equivalent probability measure  $Q$  is said to be an equivalent martingale measure for the process  $X$  if  $X$  is a martingale with respect to  $Q$  and if the Radon-Nikodym derivative
 
 $$
-\xi = \frac {d Q}{d P}
+\xi = \frac{d Q}{d P}
 $$ has finite variance. The definition of the Radon-Nikodym derivative is the same here as it is in the finite-state context. The Radon-Nikodym derivative is a random variable  $\xi$  such that  $Q(A) = E^{P}[\xi I_{A}]$  for every event  $A$  where  $I_{A}$  is the indicator function of the event  $A$ .
 
 
@@ -427,25 +427,25 @@ Note that none of these results is constructive. They only state that the existe
 We first need to establish an important mathematical result known as Girsanov's theorem. This theorem applies to Itô processes. Let's first state Girsanov's theorem in simple cases. Let  $X$  be a single-valued Itô process where  $B$  is a single-valued standard Brownian motion:
 
 $$
-X _ {t} = x + \int_ {0} ^ {t} \mu_ {s} d s + \int_ {0} ^ {t} \sigma_ {s} d B _ {s}
+X_{t} = x + \int_{0}^{t} \mu_{s} d s + \int_{0}^{t} \sigma_{s} d B_{s}
 $$
 
 Suppose that a process  $\nu$  and a process  $\theta$  such that  $\sigma_t\theta_t = \mu_t - \nu_t$  are given. Suppose, in addition, that the process  $\theta$  satisfies the Novikov condition which requires
 
 
 $$
-E \left[ _ {e} \left(\frac {1}{2} \int_ {0} ^ {t} \theta_ {s} ^ {2} d s\right) \right] <   \infty
+E \left[_{e} \left(\frac{1}{2} \int_{0}^{t} \theta_{s}^{2} d s\right) \right] <   \infty
 $$
 
 Then, there is a probability measure  $Q$  equivalent to  $P$  such that the following integral
 
 $$
-\hat {B} _ {t} = B _ {t} + \int_ {0} ^ {t} \theta_ {s} d s
+\hat {B}_{t} = B_{t} + \int_{0}^{t} \theta_{s} d s
 $$ defines a standard Brownian motion  $\hat{B}_t$  in  $R$  on  $(\Omega, \mathfrak{I}, Q)$  with the same standard filtration of the original Brownian motion  $B_t$ . In addition, under  $Q$  the process  $X$  becomes
 
 
 $$
-X _ {t} = x + \int_ {0} ^ {t} v _ {s} d s + \int_ {0} ^ {t} \sigma_ {s} d \hat {B} _ {s}
+X_{t} = x + \int_{0}^{t} v_{s} d s + \int_{0}^{t} \sigma_{s} d \hat {B}_{s}
 $$
 
 Girsanov's theorem states that we can add drift to a standard Brownian motion and still obtain a standard Brownian motion under another probability measure. In addition, by changing the probability measure we can arbitrarily change the drift of an Ito process.
@@ -453,24 +453,24 @@ Girsanov's theorem states that we can add drift to a standard Brownian motion an
 The same theorem can be stated in multiple dimensions. Let  $X$  be an  $N$ -valued Itô process:
 
 $$
-X _ {t} = x + \int_ {0} ^ {t} \mu_ {s} d s + \int_ {0} ^ {t} \sigma_ {s} d B _ {s}
+X_{t} = x + \int_{0}^{t} \mu_{s} d s + \int_{0}^{t} \sigma_{s} d B_{s}
 $$
 
 In this process,  $\mu_{S}$  is an  $N$ -vector process and  $\sigma_{s}$  is an  $N\times D$  matrix. Suppose that there are both a vector process  $\nu = (\nu^{1},\dots,\nu^{\mathrm{N}})$  and a vector process  $\theta = (\theta^{1},\dots,\theta^{\mathrm{N}})$  such that  $\sigma_t\theta_t = \mu_t - \nu_t$  where the product  $\sigma_t\theta_t$  is not a scalar product but is performed component by component. Suppose, in addition, that the process  $\theta$  satisfies the Novikov condition:
 
 $$
-E \left[ _ {e} \left(\frac {1}{2} \int_ {0} ^ {t} \theta \cdot \theta d s\right) \right] <   \infty
+E \left[_{e} \left(\frac{1}{2} \int_{0}^{t} \theta \cdot \theta d s\right) \right] <   \infty
 $$
 
 Then there is a probability measure  $Q$  equivalent to  $P$  such that the following integral
 
 $$
-\hat {B} _ {t} = B _ {t} + \int_ {0} ^ {t} \theta_ {s} d s
+\hat {B}_{t} = B_{t} + \int_{0}^{t} \theta_{s} d s
 $$ defines a standard Brownian motion  $\hat{B}_t$  in  $R^D$  on  $(\Omega, \Im, Q)$  with the same standard filtration of the original Brownian motion  $B_t$ . In addition, under  $Q$  the process  $X$  becomes
 
 
 $$
-X _ {t} = x + \int_ {0} ^ {t} v _ {s} d s + \int_ {0} ^ {t} \sigma_ {s} d \hat {B} _ {s}
+X_{t} = x + \int_{0}^{t} v_{s} d s + \int_{0}^{t} \sigma_{s} d \hat {B}_{s}
 $$
 
 Girsanov's theorem essentially states that under technical conditions (the Novikov condition) by changing the probability measure, it is possible to transform an Itô process into another Itô process with arbitrary drift. Prima facie, this result might seem unreasonable. In the end the drift of a process seems to be a fundamental feature of the process as it defines, for example, the average of the process. Consider, however, that a stochastic process can be thought as the set of all its possible paths. In the case of an Itô process, we can identify the process with the set of all continuous and square integrable functions. As observed above, the drift is an average, and it is determined by the probability measure on which the process is defined. Therefore, it should not be surprising that by changing the probability measure it is possible to change the drift.
@@ -479,47 +479,47 @@ Girsanov's theorem essentially states that under technical conditions (the Novik
 
 Note that Girsanov's theorem requires neither that the process  $X$  be a martingale nor that  $Q$  be an equivalent martingale measure. If  $X$  is indeed a martingale under  $Q$ , an implication of Girsanov's theorem is the diffusion invariance principle, which can be stated as follows. Let  $X$  be an Itô process:
 
-$$ d X _ {t} = \mu_ {t} d t + \sigma_ {t} d B _ {t}
+$$ d X_{t} = \mu_{t} d t + \sigma_{t} d B_{t}
 $$
 
 If  $X$  is a martingale with respect to an equivalent probability measure  $Q$ , then there is a standard Brownian motion  $\hat{B}_T$  in  $R^{\mathrm{D}}$  under  $Q$  such that
 
-$$ d X _ {t} = \sigma_ {t} d \hat {B} _ {t}
+$$ d X_{t} = \sigma_{t} d \hat {B}_{t}
 $$
 
 Let's now apply the previous results to a price process  $X = (V, S^1, \ldots, S^{N-1})$  where
 
-$$ d S _ {t} = \mu_ {t} d t + \sigma_ {l} d B _ {t}
+$$ d S_{t} = \mu_{t} d t + \sigma_{l} d B_{t}
 $$ and
 
 
-$$ d V _ {t} = r _ {t} V _ {t} d t
+$$ d V_{t} = r_{t} V_{t} d t
 $$
 
 If the short-term rate  $r$  is bounded,  $V_{t}^{-1}$  is a regular deflator. Consider the deflated processes:
 
 $$
-Z _ {t} = S _ {t} V _ {t} ^ {- 1}
+Z_{t} = S_{t} V_{t}^{- 1}
 $$
 
 By Ito's lemma, this process satisfies the following stochastic equation:
 
-$$ d Z _ {t} = \left(- r _ {t} Z _ {t} + \frac {\mu_ {t}}{V _ {t}}\right) d t + \frac {\sigma_ {t}}{V _ {t}} d B _ {t}
+$$ d Z_{t} = \left(- r_{t} Z_{t} + \frac{\mu_{t}}{V_{t}}\right) d t + \frac{\sigma_{t}}{V_{t}} d B_{t}
 $$
 
 Suppose there is an equivalent martingale measure  $Q$ . Under the equivalent martingale measure  $Q$ , the discounted price process
 
 $$
-Z _ {t} = S _ {t} \mathrm {V} _ {t} ^ {- 1}
+Z_{t} = S_{t} \mathrm{V}_{t}^{- 1}
 $$ is a martingale. In addition, by the diffusion invariance principle there is a standard Brownian motion  $\hat{B}_t$  in  $R^D$  under  $Q$  such that:
 
 
-$$ d Z _ {t} = \frac {\sigma_ {t}}{V _ {t}} d \hat {B} _ {t}
+$$ d Z_{t} = \frac{\sigma_{t}}{V_{t}} d \hat {B}_{t}
 $$
 
 Applying Ito's lemma, given that  $Z_{t}V_{t} = S_{t}$  we obtain the fundamental result:
 
-$$ d S _ {t} = r _ {t} d t + \sigma_ {t} d \hat {B} _ {t}
+$$ d S_{t} = r_{t} d t + \sigma_{t} d \hat {B}_{t}
 $$
 
 This result states that, under the equivalent martingale measure, all price processes become Ito processes with the same drift.
@@ -529,29 +529,29 @@ This result states that, under the equivalent martingale measure, all price proc
 To illustrate Girsanov's theorem, let's see how the Black-Scholes option pricing formula can be obtained from an equivalent martingale measure. In the previous setting, let's assume that  $N = 3$ ,  $d = 1$ ,  $r_t$  is a constant and
 
 $$
-\sigma_ {t} = \sigma S _ {t}
+\sigma_{t} = \sigma S_{t}
 $$ with  $\sigma$  constant. Let  $S$  be the stock price process and  $C$  be the option price process. The option's price at time  $T$  is
 
 
 $$
-C = \max  \left(S _ {T} ^ {1} - K\right)
+C = \max  \left(S_{T}^{1} - K\right)
 $$
 
 In this setting, therefore, the following three equations hold:
 
-$$ d S _ {t} = \mu_ {t} ^ {S} d t + \sigma S _ {t} ^ {S} d B _ {t}
+$$ d S_{t} = \mu_{t}^{S} d t + \sigma S_{t}^{S} d B_{t}
 $$
 
-$$ d C _ {t} ^ {2} = \mu_ {t} ^ {c} d t + \sigma_ {t} ^ {c} d B _ {t}
+$$ d C_{t}^{2} = \mu_{t}^{c} d t + \sigma_{t}^{c} d B_{t}
 $$
 
-$$ d V _ {t} = r V _ {t} d t
+$$ d V_{t} = r V_{t} d t
 $$
 
 Given that  $C_t V_t^{-1}$  is a martingale, we can write
 
 $$
-C _ {t} = V _ {t} E _ {t} ^ {Q} \left[ \frac {C _ {T} ^ {2}}{V _ {t}} \right] = E _ {t} ^ {Q} \left[ e ^ {- r (T - t)} \max  \left(S _ {T} - K\right) \right]
+C_{t} = V_{t} E_{t}^{Q} \left[ \frac{C_{T}^{2}}{V_{t}} \right] = E_{t}^{Q} \left[ e^{- r (T - t)} \max  \left(S_{T} - K\right) \right]
 $$
 
 It can be demonstrated by direct computation that the above formula is equal to the Black-Scholes option pricing formula presented earlier in this entry.
@@ -560,10 +560,10 @@ It can be demonstrated by direct computation that the above formula is equal to 
 
 In the continuous-state, continuous-time setting, a market is said to be complete if any finite-variance random variable  $Y$  can be obtained as the terminal value at time  $T$  of a self-financing trading strategy  $\theta: Y = \theta_T X_T$ . A fundamental theorem of arbitrage pricing states that, in the absence of arbitrage, a market is complete if and only if there is a unique equivalent martingale measure. This condition can be made more specific given that the market is populated with assets that follow Ito processes. Suppose that the price process is  $\mathbf{X} = (V, S^1, \ldots, S^{N-1})$  where, as in the previous section:
 
-$$ d S _ {t} = \mu_ {t} d t + \sigma_ {t} d B _ {t}
+$$ d S_{t} = \mu_{t} d t + \sigma_{t} d B_{t}
 $$
 
-$$ d V _ {t} = r V _ {t} d t
+$$ d V_{t} = r V_{t} d t
 $$ and  $\mathbf{B}$  is a standard Brownian motion  $B = (B^{1},\ldots ,B^{D})$  in  $R^D$
 
 
@@ -577,46 +577,46 @@ In the present continuous-state setting, there are infinite states and so we nee
 We will now show that equivalent martingale measures and state prices are the same concept. We use the same setting as in the previous sections. Suppose that  $Q$  is an equivalent martingale measure after deflation by the process
 
 $$
-\frac {1}{V _ {t} ^ {1}} = e ^ {\int_ {0} ^ {t} - r _ {u} d u}
+\frac{1}{V_{t}^{1}} = e^{\int_{0}^{t} - r_{u} d u}
 $$ where  $r$  is a bounded short-rate process. The density process  $\xi_{t}$  for  $Q$  is defined as
 
 
 $$
-\xi_ {t} = E _ {r} \left[ \frac {d Q}{d P} \right], t \in [ 0, T ]
+\xi_{t} = E_{r} \left[ \frac{d Q}{d P} \right], t \in [ 0, T ]
 $$ where
 
 
 $$
-\left[ \frac {d Q}{d P} \right]
+\left[ \frac{d Q}{d P} \right]
 $$ is the Radon-Nikodym derivative of  $Q$  with respect to  $P$ . As in the discrete-state setting, the Radon-Nikodym derivative of  $Q$  with respect
 
 
 to  $P$  is a random variable
 
 $$
-\xi = \left[ \frac {d Q}{d P} \right]
+\xi = \left[ \frac{d Q}{d P} \right]
 $$ with average value on the entire space equal to 1 and such that, for every event  $A$ , the probability of A under  $Q$  is the average of  $\xi$ :
 
 
 $$
-P ^ {Q} (A) = E _ {A} [ \xi ]
+P^{Q} (A) = E_{A} [ \xi ]
 $$
 
 It can be demonstrated that, given any  $\mathfrak{S}_t$ -measurable random variable  $W$ , the density process  $\xi_t$  for  $Q$  has the following property:
 
 $$
-E _ {t} ^ {Q} [ W ] = \frac {E _ {t} [ W \xi_ {t} ]}{\xi_ {t}}
+E_{t}^{Q} [ W ] = \frac{E_{t} [ W \xi_{t} ]}{\xi_{t}}
 $$
 
 To gain an intuition for the Radon-Nikodym derivative in a continuous-state setting, let's assume that the probability space is the real line equipped with the Borel  $\sigma$ -algebra and with a probability measure  $P$ . In this case,  $\xi = \xi(x)$ ,  $R \to R$  and we can write
 
 $$
-Q (A) = \int_ {A} \xi d P
+Q (A) = \int_{A} \xi d P
 $$ or,  $dQ = \xi dP$ . Given any random variable  $X$  with density  $f$  under  $P$  and density  $q$  under  $Q$ , we can then write
 
 
 $$
-E ^ {Q} [ X ] = \int_ {R} x q (x) d x = \int_ {R} x \xi (x) f (x) d x
+E^{Q} [ X ] = \int_{R} x q (x) d x = \int_{R} x \xi (x) f (x) d x
 $$
 
 In other words, the random variable  $\xi$  is a function that multiplies the density  $f$  to yield the density  $q$ .
@@ -624,31 +624,31 @@ In other words, the random variable  $\xi$  is a function that multiplies the de
 We can now show the following key result. Given an equivalent martingale measure with density process  $\xi_{t}$  a state-price deflator is given by the process
 
 $$
-\pi_ {t} = \xi_ {t} e ^ {\int_ {0} ^ {t} - r _ {u} d u}
+\pi_{t} = \xi_{t} e^{\int_{0}^{t} - r_{u} d u}
 $$
 
 Conversely, given a state-price deflator  $\pi_t$ , the density process
 
 $$
-\xi_ {t} = e ^ {\intop_ {0} ^ {t} r _ {u} d u} \frac {\pi_ {t}}{\pi_ {0}}
+\xi_{t} = e^{\intop_{0}^{t} r_{u} d u} \frac{\pi_{t}}{\pi_{0}}
 $$ defines an equivalent martingale measure. In fact, suppose that  $Q$  is an equivalent martingale
 
 
 measure for  $X^Y$  with  $\pi_t = \xi_t Y_t$  where
 
 $$
-Y _ {t} = e ^ {\int_ {0} ^ {t} - r _ {u} d u}
+Y_{t} = e^{\int_{0}^{t} - r_{u} d u}
 $$
 
 Then, using the above relationship we can write:
 
 $$
-\begin{array}{l} E _ {t} [ \pi_ {t} X _ {t} ] = E _ {t} [ \xi_ {t} X _ {t} ^ {Y} ] = \xi_ {t} E _ {t} ^ {Q} [ \xi_ {t} X _ {t} ^ {Y} ] = \xi_ {t} X _ {t} ^ {Y} \\ = \pi_ {t} X _ {t} \\ \end{array}
+\begin{array}{l} E_{t} [ \pi_{t} X_{t} ] = E_{t} [ \xi_{t} X_{t}^{Y} ] = \xi_{t} E_{t}^{Q} [ \xi_{t} X_{t}^{Y} ] = \xi_{t} X_{t}^{Y} \\ = \pi_{t} X_{t} \\ \end{array}
 $$ which shows that  $\pi_t$  is a state-price deflator. The same reasoning in reverse order demonstrates that if  $\pi_t$  is a state-price deflator then:
 
 
 $$
-\xi_ {t} = e ^ {\intop_ {0} ^ {t} r _ {u} d u} \frac {\pi_ {t}}{\pi_ {0}}
+\xi_{t} = e^{\intop_{0}^{t} r_{u} d u} \frac{\pi_{t}}{\pi_{0}}
 $$ is a density process for  $Q$ .
 
 
@@ -657,43 +657,43 @@ $$ is a density process for  $Q$ .
 In the analysis thus far, we assumed that there is no intermediate payoff. The owner of an asset makes a profit or aloss due only to the changes in value of the asset. Let's now introduce a payoff-rate process  $\delta_t^i$  for each asset  $i$ . The payoff-rate process must be interpreted in the sense that the cumulative payoff of each individual asset is
 
 $$
-D _ {t} ^ {i} = \int_ {0} ^ {t} \delta_ {s} ^ {i} d s
+D_{t}^{i} = \int_{0}^{t} \delta_{s}^{i} d s
 $$
 
 We define a gain process
 
 $$
-G _ {t} ^ {i} = S _ {t} ^ {i} + D _ {t} ^ {i}
+G_{t}^{i} = S_{t}^{i} + D_{t}^{i}
 $$
 
 By the linearity of the Ito integrals, we can write any trading strategy as
 
 $$
-\int_ {0} ^ {t} \theta_ {t} d G _ {t} = \int_ {0} ^ {t} \theta_ {t} d X _ {t} + \int_ {0} ^ {t} \theta_ {t} d D _ {t}
+\int_{0}^{t} \theta_{t} d G_{t} = \int_{0}^{t} \theta_{t} d X_{t} + \int_{0}^{t} \theta_{t} d D_{t}
 $$
 
 If there is a payoff-rate process, a self-financing trading strategy is a trading strategy such that the following relationship holds:
 
 
 $$
-\begin{array}{l} \theta_ {t} \mathbf {S} _ {t} = \sum_ {i} \theta_ {t} ^ {i} S _ {t} ^ {i} = \sum_ {i} \left(\theta_ {t} ^ {i} S _ {t} ^ {i} \right. \\ + \int_ {0} ^ {t} \theta_ {t} ^ {i} d G _ {t} ^ {i}), t \in [ 0, T ] \\ \end{array}
+\begin{array}{l} \theta_{t} \mathbf {S}_{t} = \sum_{i} \theta_{t}^{i} S_{t}^{i} = \sum_{i} \left(\theta_{t}^{i} S_{t}^{i} \right. \\ + \int_{0}^{t} \theta_{t}^{i} d G_{t}^{i}), t \in [ 0, T ] \\ \end{array}
 $$
 
 An arbitrage is, as before, a self-financing trading strategy such that
 
 $$
-\theta_ {0} \mathbf {S} _ {0} <   0 \text {a n d} \theta_ {T} \mathbf {S} _ {T} \geq 0, \text {o r} \theta_ {0} \mathbf {S} _ {0} \leq 0 \text {a n d} \theta_ {T} \mathbf {S} _ {T} > 0
+\theta_{0} \mathbf {S}_{0} <   0 \text{an d} \theta_{T} \mathbf {S}_{T} \geq 0, \text{or} \theta_{0} \mathbf {S}_{0} \leq 0 \text{an d} \theta_{T} \mathbf {S}_{T} > 0
 $$
 
 The previous arguments extend to this case. An equivalent martingale measure for the pair  $(D, S)$  is defined as an equivalent probability measure  $Q$  such that the Radon-Nikodym derivative
 
 $$
-\xi = \left[ \frac {d Q}{d P} \right]
+\xi = \left[ \frac{d Q}{d P} \right]
 $$ has finite variance and the process  $G = S + D$  is a martingale. Under these conditions, the following relationship holds:
 
 
 $$
-S _ {t} = E _ {t} ^ {Q} \left[ e ^ {\int_ {r} ^ {T} - r _ {u} d u} + \int_ {t} ^ {T} e ^ {\int_ {t} ^ {S} - r _ {u} d u} d D _ {s} \right]
+S_{t} = E_{t}^{Q} \left[ e^{\int_{r}^{T} - r_{u} d u} + \int_{t}^{T} e^{\int_{t}^{S} - r_{u} d u} d D_{s} \right]
 $$
 
 # IMPLICATIONS OF THE ABSENCE OF ARBITRAGE

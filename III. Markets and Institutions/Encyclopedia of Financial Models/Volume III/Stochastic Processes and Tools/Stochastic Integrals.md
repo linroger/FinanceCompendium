@@ -23,7 +23,7 @@ $$ which is the general solution of the differential equation:
 
 
 $$
-\frac {d y}{y} = f (t) d t
+\frac{d y}{y} = f (t) d t
 $$
 
 The solution of this differential equation tells us how the bank account cumulates over time.
@@ -31,7 +31,7 @@ The solution of this differential equation tells us how the bank account cumulat
 However, if the rate is not deterministic but is subject to volatility—that is, at any instant the rate is  $f(t)$  plus a random disturbance—then the bank account evolves as a stochastic process. That is to say, the bank account might follow any of an infinite number of different paths: Each path cumulates the rate  $f(t)$  plus the random disturbance. In a sense that will be made precise in this entry and with an understanding of stochastic differential equations, we must solve the following equation:
 
 $$
-\frac {d y}{y} = f (t) d t \text {p l u s r a n d o m d i s t r u b a n c e}
+\frac{d y}{y} = f (t) d t \text{pl us ra nd om di st ru ba nc e}
 $$
 
 Here is where stochastic integration comes into play: It defines how the stochastic rate process is transformed into the stochastic account process. This is the direct stochastic integration approach.
@@ -47,23 +47,23 @@ Following some remarks on the informal intuition behind stochastic integrals, we
 Let's first contrast ordinary integration with stochastic integration. A definite integral
 
 $$
-A = \int_ {a} ^ {b} f (x) d x
+A = \int_{a}^{b} f (x) d x
 $$ is a number  $A$  associated to each function  $f(x)$  while an indefinite integral
 
 
-$$ y (x) = \int_ {a} ^ {x} f (s) d s
+$$ y (x) = \int_{a}^{x} f (s) d s
 $$ is a function  $y$  associated to another function  $f$ . The integral represents the cumulation of the infinite terms  $f(s)ds$  over the integration interval.
 
 
 A stochastic integral, which we will denote by
 
 $$
-W = \int_ {a} ^ {b} X _ {t} d B _ {t}
+W = \int_{a}^{b} X_{t} d B_{t}
 $$ or
 
 
 $$
-W = \int_ {a} ^ {b} X _ {t} \circ d B _ {t}
+W = \int_{a}^{b} X_{t} \circ d B_{t}
 $$ is a random variable  $W$  associated to a stochastic process if the time interval is fixed or, if the time interval is variable, is another stochastic process  $W_{t}$ . The stochastic integral represents the cumulation of the stochastic products  $X_{t}dB_{t}$ . The rationale for this approach is that we need
 
 
@@ -74,12 +74,12 @@ Consider a stochastic process  $X_{t}$  over an interval  $[S,T]$ . Recall that 
 It would seem reasonable, prima facie, to define the stochastic integral of a process  $X(\omega)_t$  as the definite integral in the sense of Riemann-Stieltjes associated to each path  $X(\cdot)_t$  of the process. If the process  $X(\omega)_t$  has continuous paths  $X(\cdot, \omega)$ , the integrals
 
 $$
-W (\omega) = \int_ {S} ^ {T} X (s, \omega) d s
+W (\omega) = \int_{S}^{T} X (s, \omega) d s
 $$ exist for each path. However, as discussed in the previous section, this is not the quantity we want to represent. In fact, we want to represent the cumulation of the stochastic products  $X_{t}dB_{t}$ . Defining the integral
 
 
 $$
-W = \int_ {a} ^ {b} X _ {t} d B _ {t}
+W = \int_{a}^{b} X_{t} d B_{t}
 $$ pathwise in the sense of Riemann-Stieltjes would be meaningless because the paths of a Brownian motion are not of finite variation. If we define
 
 
@@ -97,12 +97,12 @@ The random walk represents the cumulation of completely uncertain random shocks.
 Recall that the total variation of a function  $f(x)$  is the limit of the sums
 
 $$
-\sum \left| f \left(x _ {i}\right) - f \left(x _ {i - 1}\right) \right|
+\sum \left| f \left(x_{i}\right) - f \left(x_{i - 1}\right) \right|
 $$ while the quadratic variation is defined as the limit of the sums
 
 
 $$
-\sum \left| f \left(x _ {i}\right) - f \left(x _ {i - 1}\right) \right| ^ {2}
+\sum \left| f \left(x_{i}\right) - f \left(x_{i - 1}\right) \right|^{2}
 $$
 
 Quadratic variation can be interpreted as the absolute volatility of a process. Thanks to this property, the  $\Delta B_{i}$  of the Brownian motion provides the basic increments of the stochastic integral, replacing the  $\Delta x_{i}$  of the Riemann-Stieltjes integral.
@@ -110,7 +110,7 @@ Quadratic variation can be interpreted as the absolute volatility of a process. 
 - Step 2. The second step consists in defining the stochastic integral for a class of simple functions called elementary functions. Consider the time interval  $[S, T]$  and any partition of the interval  $[S, T]$  in  $N$  subintervals:  $S \equiv t_0 < t_1 < \ldots < t_i < \ldots < t_N \equiv T$ . An elementary function  $\phi$  is a function defined on the time  $t$  and the outcome  $\omega$  such that it assumes a constant value on the  $i$ -th subinterval. Call  $I[\mathfrak{t}_{i+1}, t_i)$  the indicator function of the interval  $[\mathfrak{t}_{i+1}, t_i)$ . The indicator function of a given set is a function that assumes value 1 on the points of the set and 0 elsewhere. We can then write an elementary function  $\phi$  as follows:
 
 $$
-\phi (t, \omega) = \sum_ {i} \varepsilon_ {i} (\omega) I [ t _ {i + 1}, t _ {i})
+\phi (t, \omega) = \sum_{i} \varepsilon_{i} (\omega) I [ t_{i + 1}, t_{i})
 $$
 
 In other words, the constants  $\varepsilon_{i}(\omega)$  are random variables and the function  $\phi (t,\omega)$  is a stochastic process made up of paths that are constant on each  $i$ -th interval.
@@ -118,7 +118,7 @@ In other words, the constants  $\varepsilon_{i}(\omega)$  are random variables a
 We can now define the stochastic integral, in the sense of Ito, of elementary functions  $\phi (t,\omega)$  as follows:
 
 $$
-\begin{array}{l} W = \int_ {S} ^ {T} \phi (t, \omega) d B _ {t} (\omega) \\ = \sum_ {i} \varepsilon_ {i} (\omega) \left[ B _ {i + 1} (\omega) - B _ {i} (\omega) \right] \\ \end{array}
+\begin{array}{l} W = \int_{S}^{T} \phi (t, \omega) d B_{t} (\omega) \\ = \sum_{i} \varepsilon_{i} (\omega) \left[ B_{i + 1} (\omega) - B_{i} (\omega) \right] \\ \end{array}
 $$ where  $B$  is a Brownian motion.
 
 
@@ -127,7 +127,7 @@ It is clear from this definition that  $W$  is a random variable  $\omega \right
 It can be demonstrated that the following property, called Ito isometry, holds for Ito stochastic integrals defined for bounded elementary functions as above:
 
 $$
-E \left[ \left(\int_ {S} ^ {T} \phi (t, \omega) d B _ {t} (\omega)\right) ^ {2} \right] = E \left[ \int_ {S} ^ {T} \phi (t, \omega) ^ {2} d t \right]
+E \left[ \left(\int_{S}^{T} \phi (t, \omega) d B_{t} (\omega)\right)^{2} \right] = E \left[ \int_{S}^{T} \phi (t, \omega)^{2} d t \right]
 $$
 
 The Ito isometry will play a fundamental role in Step 3.
@@ -135,18 +135,18 @@ The Ito isometry will play a fundamental role in Step 3.
 - Step 3. The third step consists in using the Ito isometry to show that each function  $g$  which is square-integrable (plus other conditions that will be made precise in the next section) can be approximated by a sequence of elementary functions  $\phi_n(t, \omega)$  in the sense that
 
 $$
-E \left[ \int_ {S} ^ {T} [ g - \phi_ {n} (t, \omega) ] ^ {2} d t \right]\rightarrow 0
+E \left[ \int_{S}^{T} [ g - \phi_{n} (t, \omega) ]^{2} d t \right]\rightarrow 0
 $$
 
 If  $g$  is bounded and has a continuous time-path, the functions  $\phi_n(t,\omega)$  can be defined as follows:
 
 $$
-\phi_ {n} (t, \omega) = \sum_ {i} g (t _ {i}, \omega) I [ t _ {i + 1}, t _ {i})
+\phi_{n} (t, \omega) = \sum_{i} g (t_{i}, \omega) I [ t_{i + 1}, t_{i})
 $$ where  $I$  is the indicator function. We can now use the Ito isometry to define the stochastic integral of a generic function  $f(t,\omega)$  as follows:
 
 
 $$
-\int_ {S} ^ {T} f (t, \omega) d B _ {t} (\omega) = \lim  _ {n \rightarrow \infty} \int_ {S} ^ {T} \phi_ {n} (t, \omega) d B _ {t} (\omega)
+\int_{S}^{T} f (t, \omega) d B_{t} (\omega) = \lim_{n \rightarrow \infty} \int_{S}^{T} \phi_{n} (t, \omega) d B_{t} (\omega)
 $$
 
 The Ito isometry ensures that the Cauchy condition is satisfied and that the above sequence thus converges.
@@ -155,23 +155,23 @@ In outlining the above definition, we omitted an important point that will be de
 
 
 $$
-\phi_ {n} (t, \omega) = \sum_ {i} g (t _ {i}, \omega) [ B _ {i + 1} (\omega) - B _ {i} (\omega) ]
+\phi_{n} (t, \omega) = \sum_{i} g (t_{i}, \omega) [ B_{i + 1} (\omega) - B_{i} (\omega) ]
 $$ taking the function  $g$  in the left extreme of each subinterval.
 
 
 However, the definition of stochastic integrals in the sense of Stratonovich admits anticipation. In fact, the stochastic integral in the sense of Stratonovich, written as follows
 
 $$
-\int_ {S} ^ {T} f (t, \omega) \circ d B _ {t} (\omega)
+\int_{S}^{T} f (t, \omega) \circ d B_{t} (\omega)
 $$ uses the following approximation under the assumption of continuous paths:
 
 
 $$
-\phi_ {n} (t, \omega) = \sum_ {i} g (t _ {i} ^ {*}, \omega) [ B _ {i + 1} (\omega) - B _ {i} (\omega) ]
+\phi_{n} (t, \omega) = \sum_{i} g (t_{i}^{*}, \omega) [ B_{i + 1} (\omega) - B_{i} (\omega) ]
 $$ where
 
 
-$$ t _ {i} ^ {*} = \frac {t _ {i + 1} - t _ {i}}{2}
+$$ t_{i}^{*} = \frac{t_{i + 1} - t_{i}}{2}
 $$ is the midpoint of the  $i$ -th subinterval.
 
 
@@ -217,33 +217,33 @@ However, it can be demonstrated that Brownian motions exist by constructing them
 The Kolmogorov theorem can be summarized as follows. Consider the following family of probability measures
 
 $$
-\begin{array}{l} \mu_ {t _ {1}, \dots , t _ {m}} (H _ {1} \times \dots \times H _ {m}) \\ = P \left[ \left(X _ {t _ {1}} \in H _ {1}, \dots , X _ {t _ {m}} \in H _ {m}\right), H _ {i} \in \mathcal {B} ^ {n} \right] \\ \end{array}
+\begin{array}{l} \mu_{t_{1}, \dots , t_{m}} (H_{1} \times \dots \times H_{m}) \\ = P \left[ \left(X_{t_{1}} \in H_{1}, \dots , X_{t_{m}} \in H_{m}\right), H_{i} \in \mathcal {B}^{n} \right] \\ \end{array}
 $$ for all  $t_1,\ldots ,t_k\in [0,\infty),k\in N$  and where the  $Hs$  are  $n$  -dimensional Borel sets. Suppose that the following two consistency conditions are satisfied
 
 
 $$
-\begin{array}{l} \mu_ {t _ {\sigma (1)}, \dots , t _ {\sigma (m)}} \left(H _ {1} \times \dots \times H _ {m}\right) \\ = \mu_ {t _ {1}, \dots , t _ {m}} \left(H _ {\sigma^ {- 1} (1)} \times \dots \times H _ {\sigma^ {- 1} (m)}\right) \\ \end{array}
+\begin{array}{l} \mu_{t_{\sigma (1)}, \dots , t_{\sigma (m)}} \left(H_{1} \times \dots \times H_{m}\right) \\ = \mu_{t_{1}, \dots , t_{m}} \left(H_{\sigma^{- 1} (1)} \times \dots \times H_{\sigma^{- 1} (m)}\right) \\ \end{array}
 $$ for all permutations  $\sigma$  on  $\{1,2,\dots,k\}$ , and
 
 
 $$
-\begin{array}{l} \mu_ {t _ {1}, \dots , t _ {k}} (H _ {1} \times \dots \times H _ {k}) \\ = \mu_ {t _ {1}, \dots , t _ {k}, t _ {k + 1}, \dots , t _ {m}} \left(H _ {1} \times \dots \times H _ {k} \times R ^ {n} \times \dots \times R ^ {n}\right) \\ \end{array}
+\begin{array}{l} \mu_{t_{1}, \dots , t_{k}} (H_{1} \times \dots \times H_{k}) \\ = \mu_{t_{1}, \dots , t_{k}, t_{k + 1}, \dots , t_{m}} \left(H_{1} \times \dots \times H_{k} \times R^{n} \times \dots \times R^{n}\right) \\ \end{array}
 $$ for all  $m$ . The Kolmogorov extension theorem states that, if the above conditions are satisfied, then there is (1) a probability space  $(\Omega, \mathfrak{I}, P)$  and (2) a stochastic process that admits the probability measures
 
 
 $$
-\begin{array}{l} \mu_ {t _ {1}, \dots , t _ {m}} (H _ {1} \times \dots \times H _ {m}) \\ = P \left[ \left(X _ {t _ {1}} \in H _ {1}, \dots , X _ {t m} \in H _ {m}\right), H _ {i} \in \mathcal {B} ^ {n} \right] \\ \end{array}
+\begin{array}{l} \mu_{t_{1}, \dots , t_{m}} (H_{1} \times \dots \times H_{m}) \\ = P \left[ \left(X_{t_{1}} \in H_{1}, \dots , X_{t m} \in H_{m}\right), H_{i} \in \mathcal {B}^{n} \right] \\ \end{array}
 $$ as finite dimensional distributions.
 
 
 The construction is lengthy and technical and we omit it here, but it should be clear how, with an appropriate selection of finite-dimensional distributions, the Kolmogorov extension theorem can be used to prove the existence of Brownian motions. The finite-dimensional distributions of a one-dimensional Brownian motion are distributions of the type
 
 $$
-\begin{array}{l} \mu_ {t _ {1}, \dots , t _ {k}} (H _ {1} \times \dots \times H _ {k}) \\ = \int p (t, x, x _ {1}) p \left(t _ {2} - t _ {1}, x _ {1}, x _ {2}\right) \dots \\ p \left(t _ {k} - t _ {k - 1}, x _ {k - 1}, x _ {k}\right) d x _ {1} \dots d x _ {k} H _ {1} \times \dots \times H _ {k} \\ \end{array}
+\begin{array}{l} \mu_{t_{1}, \dots , t_{k}} (H_{1} \times \dots \times H_{k}) \\ = \int p (t, x, x_{1}) p \left(t_{2} - t_{1}, x_{1}, x_{2}\right) \dots \\ p \left(t_{k} - t_{k - 1}, x_{k - 1}, x_{k}\right) d x_{1} \dots d x_{k} H_{1} \times \dots \times H_{k} \\ \end{array}
 $$ where
 
 
-$$ p (t, x, y) = (2 \pi t) ^ {- \frac {1}{2}} \exp \left(- \frac {| x - y | ^ {2}}{2 t}\right)
+$$ p (t, x, y) = (2 \pi t)^{- \frac{1}{2}} \exp \left(- \frac{| x - y |^{2}}{2 t}\right)
 $$ and with the convention that the integrals are taken with respect to the Lebesgue measure. The distribution  $p(t,x,x_1)$  in the integral is the initial distribution. If the process starts at zero,  $p(t,x,x_1)$  is a Dirac delta, that is, it is a distribution of mass 1 concentrated in one point.
 
 
@@ -260,13 +260,13 @@ The Brownian motion can also be constructed as the continuous limit of a discret
 
 
 $$
-\frac {\Delta^ {2} x}{\Delta t}
+\frac{\Delta^{2} x}{\Delta t}
 $$
 
 Suppose that both the time increment and the space increment approach zero:  $\Delta t\rightarrow 0$  and  $\Delta x\to 0$ . Note that this is a very informal statement. In fact what we mean is that we can construct a sequence of random walk processes  $W_{i}^{n}$ , each characterized by a time step and by a time displacement. It can be demonstrated that if
 
 $$
-\frac {\Delta^ {2} x}{\Delta t} \rightarrow \sigma
+\frac{\Delta^{2} x}{\Delta t} \rightarrow \sigma
 $$
 
 (i.e., the square of the spaced interval and the time interval are of the same order) then the sequence of random walks approaches a Brownian motion. Though this is intuitive as the binomial distributions approach normal distributions, it should be clear that it is far from being mathematically obvious.
@@ -309,7 +309,7 @@ This is the set of paths for which we define the Ito integral.
 
 Consider the time interval  $[S,T]$  and, for each integer  $n$ , partition the interval  $[S,T]$  in subintervals:  $t_0 < t_1 < \ldots < t_n < \ldots < t_N \equiv T$  in this way:
 
-$$ t _ {k} = t _ {k} ^ {n} = \left\{ \begin{array}{l l} k 2 ^ {- n} \text {i f} S \leq k 2 ^ {- n} \leq T \\ S & \text {i f} k 2 ^ {- n} <   S \\ T & \text {i f} k 2 ^ {n} > T \end{array} \right.
+$$ t_{k} = t_{k}^{n} = \left\{ \begin{array}{l l} k 2^{- n} \text{if } S \leq k 2^{- n} \leq T \\ S & \text{if } k 2^{- n} <   S \\ T & \text{if } k 2^{n} > T \end{array} \right.
 $$
 
 This rule provides a family of partitions of the interval  $[S,T]$  which can be arbitrarily refined.
@@ -317,7 +317,7 @@ This rule provides a family of partitions of the interval  $[S,T]$  which can be
 Consider the elementary functions  $\phi (t,\omega)\in \Phi$  which we write as
 
 $$
-\phi (t, \omega) = \sum_ {i} \varepsilon_ {i} (\omega) I [ t _ {i + 1} - t _ {i})
+\phi (t, \omega) = \sum_{i} \varepsilon_{i} (\omega) I [ t_{i + 1} - t_{i})
 $$
 
 As  $\phi (t,\omega)\in \Phi ,\varepsilon_i(\omega)$  are  $\mathfrak{S}_{t_i}$  measurable random variables.
@@ -325,20 +325,20 @@ As  $\phi (t,\omega)\in \Phi ,\varepsilon_i(\omega)$  are  $\mathfrak{S}_{t_i}$ 
 We can now define the stochastic integral, in the sense of Ito, of elementary functions  $\phi (t,\omega)$  as
 
 $$
-W = \int_ {S} ^ {T} \phi (t, \omega) d B _ {t} (\omega) = \sum_ {i \geq 0} \varepsilon_ {i} (\omega) [ B _ {i + 1} (\omega) - B _ {i} (\omega) ]
+W = \int_{S}^{T} \phi (t, \omega) d B_{t} (\omega) = \sum_{i \geq 0} \varepsilon_{i} (\omega) [ B_{i + 1} (\omega) - B_{i} (\omega) ]
 $$ where  $B$  is a Brownian motion. Note that the  $\varepsilon_{i}(\omega)$  and the increments  $B_{j}(\omega) - B_{i}(\omega)$  are independent for  $j > i$ . The key aspect of this definition that was not included in the informal outline is the condition that the  $\varepsilon_{i}(\omega)$  are  $\Im_{t_i}$  measurable.
 
 
 For bounded elementary functions  $\phi (t,\omega)\in \Phi$  the Ito isometry holds
 
 $$
-E \left[ \left(\int_ {S} ^ {T} \phi (t, \omega) d B _ {t} (\omega)\right) ^ {2} \right] = E \left[ \int_ {S} ^ {T} \phi (t, \omega) ^ {2} d t \right]
+E \left[ \left(\int_{S}^{T} \phi (t, \omega) d B_{t} (\omega)\right)^{2} \right] = E \left[ \int_{S}^{T} \phi (t, \omega)^{2} d t \right]
 $$
 
 The demonstration of the Ito isometry rests on the fact that
 
 $$
-E [ \varepsilon_ {i} \varepsilon_ {j} (B _ {t _ {i + 1}} - B _ {t _ {i}}) (B _ {t _ {j + 1}} - B _ {t _ {j}}) ] = \left\{ \begin{array}{l l} 0 & \text {i f} i \neq j \\ E (\varepsilon_ {i} ^ {2}) & \text {i f} i = j \end{array} \right.
+E [ \varepsilon_{i} \varepsilon_{j} (B_{t_{i + 1}} - B_{t_{i}}) (B_{t_{j + 1}} - B_{t_{j}}) ] = \left\{ \begin{array}{l l} 0 & \text{if } i \neq j \\ E (\varepsilon_{i}^{2}) & \text{if } i = j \end{array} \right.
 $$
 
 This completes the definition of the stochastic integral for elementary functions.
@@ -349,61 +349,61 @@ We have now completed the introduction of Brownian motions and defined the Ito i
 
 
 $$
-\phi_ {n} (t, \omega) = \sum_ {i} g (t _ {i}, \omega) I \left[ t _ {i + 1} - t _ {i}\right)
+\phi_{n} (t, \omega) = \sum_{i} g (t_{i}, \omega) I \left[ t_{i + 1} - t_{i}\right)
 $$ in the sense that:
 
 
 $$
-E \int_ {S} ^ {T} [ (g - \phi_ {n}) ^ {2} d t ] \rightarrow 0, \quad n \rightarrow \infty , \forall \omega
+E \int_{S}^{T} [ (g - \phi_{n})^{2} d t ] \rightarrow 0, \quad n \rightarrow \infty , \forall \omega
 $$ where the intervals are those of the partition defined above. Note that  $\phi_n(t, \omega) \in \Phi$  given that  $g(t, \omega) \in \Phi$ .
 
 
 - Step 2. We release the condition of time-path continuity of the  $\phi_n(t,\omega)$ . It can be demonstrated that any function  $h(t,\omega) \in \Phi$  which is bounded but not necessarily continuous can be approximated by functions  $g_n(t,\omega) \in \Phi$ , which are bounded and continuous in the sense that
 
 $$
-E \left[ \int_ {S} ^ {T} (h - g _ {n}) ^ {2} d t \right]\rightarrow 0
+E \left[ \int_{S}^{T} (h - g_{n})^{2} d t \right]\rightarrow 0
 $$
 
 - Step 3. It can be demonstrated that any function  $f(t, \omega) \in \Phi$ , not necessarily bounded or continuous, can be approximated by a sequence of bounded functions  $h_n(t, \omega) \in \Phi$  in the sense that
 
 $$
-E \left[ \int_ {S} ^ {T} (f - h _ {n}) ^ {2} d t \right]\rightarrow 0
+E \left[ \int_{S}^{T} (f - h_{n})^{2} d t \right]\rightarrow 0
 $$
 
 We now have all the building blocks to complete the definition of Ito stochastic integrals. In fact, by virtue of the above three-step approximation procedure, given any function  $f(t,\omega) \in \Phi$ , we can choose a sequence of elementary functions  $\phi_n(t,\omega) \in \Phi$  such that the following property holds:
 
 $$
-E \left[ \int_ {S} ^ {T} (f - \phi_ {n}) ^ {2} d t \right]\rightarrow 0
+E \left[ \int_{S}^{T} (f - \phi_{n})^{2} d t \right]\rightarrow 0
 $$
 
 Hence we can define the Ito stochastic integral as follows:
 
 $$
-I [ f ] (w) = \int_ {S} ^ {T} f (t, \omega) d B _ {t} (\omega) = \lim  _ {n \rightarrow \infty} \left[ \int_ {S} ^ {T} \phi_ {n} (t, \omega) d t \right]
+I [ f ] (w) = \int_{S}^{T} f (t, \omega) d B_{t} (\omega) = \lim_{n \rightarrow \infty} \left[ \int_{S}^{T} \phi_{n} (t, \omega) d t \right]
 $$
 
 The limit exists as
 
 $$
-\int_ {S} ^ {T} \phi_ {n} (t, \omega) d B _ {t} (\omega)
+\int_{S}^{T} \phi_{n} (t, \omega) d B_{t} (\omega)
 $$ forms a Cauchy sequence by the Ito isometry, which holds for every bounded elementary function.
 
 
 Let's now summarize the definition of the Ito stochastic integral: Given any function  $f(t,\omega)\in \Phi$ , we define the Ito stochastic integral by
 
 $$
-I [ f ] (w) = \int_ {S} ^ {T} f (t, \omega) d B _ {t} (\omega) = \lim  _ {n \rightarrow \infty} \left[ \int_ {S} ^ {T} \phi_ {n} (t, \omega) d t \right]
+I [ f ] (w) = \int_{S}^{T} f (t, \omega) d B_{t} (\omega) = \lim_{n \rightarrow \infty} \left[ \int_{S}^{T} \phi_{n} (t, \omega) d t \right]
 $$ where the functions  $\phi_n(t,\omega)\in \Phi$  are a sequence of elementary functions such that
 
 
 $$
-E \left[ \int_ {S} ^ {T} (f - \phi_ {n}) ^ {2} d t \right]\rightarrow 0
+E \left[ \int_{S}^{T} (f - \phi_{n})^{2} d t \right]\rightarrow 0
 $$
 
 The multistep procedure outlined above ensures that the sequence  $\phi_n(t,\omega)\in \Phi$  exists. In addition, it can be demonstrated that the Ito isometry holds in general for every  $f(t,\omega)\in \Phi$
 
 $$
-E \left[ \left(\int_ {S} ^ {T} f (t, \omega) d B _ {t} (\omega)\right) ^ {2} \right] = E \left[ \int_ {S} ^ {T} f (t, \omega) ^ {2} d t \right]
+E \left[ \left(\int_{S}^{T} f (t, \omega) d B_{t} (\omega)\right)^{2} \right] = E \left[ \int_{S}^{T} f (t, \omega)^{2} d t \right]
 $$
 
 # SOME PROPERTIES OF ITO STOCHASTIC INTEGRALS
@@ -412,36 +412,36 @@ Suppose that  $f, g \in \Phi(S, T)$  and let  $0 < S < U < T$ . It can be demons
 
 
 $$
-\int_ {S} ^ {T} f d B _ {t} = \int_ {S} ^ {U} f d B _ {t} + \int_ {U} ^ {T} f d B _ {t} \text {f o r a . a .} \omega
+\int_{S}^{T} f d B_{t} = \int_{S}^{U} f d B_{t} + \int_{U}^{T} f d B_{t} \text{fo ra .a .} \omega
 $$
 
 $$
-E \left[ \int_ {S} ^ {T} f d B _ {t} \right] = 0
+E \left[ \int_{S}^{T} f d B_{t} \right] = 0
 $$
 
 $$
-\int_ {S} ^ {T} (c f + d g) d B _ {t} = c \int_ {S} ^ {T} f d B _ {t} + d \int_ {S} ^ {T} g d B _ {t},
+\int_{S}^{T} (c f + d g) d B_{t} = c \int_{S}^{T} f d B_{t} + d \int_{S}^{T} g d B_{t},
 $$ for a.a.  $\omega ,c,d$  constants
 
 
 If we let the time interval vary, say  $(0,t)$  then the stochastic integral becomes a stochastic process:
 
 $$
-I _ {t} (\omega) = \int_ {0} ^ {t} f d B _ {t}
+I_{t} (\omega) = \int_{0}^{t} f d B_{t}
 $$
 
 It can be demonstrated that a continuous version of this process exists. The following three properties can be demonstrated from the definition of integral:
 
 $$
-\int_ {0} ^ {t} d B _ {s} = B _ {t}
+\int_{0}^{t} d B_{s} = B_{t}
 $$
 
 $$
-\int_ {0} ^ {t} s d B _ {s} = t B _ {t} - \int_ {0} ^ {t} B _ {s} d s
+\int_{0}^{t} s d B_{s} = t B_{t} - \int_{0}^{t} B_{s} d s
 $$
 
 $$
-\int_ {0} ^ {t} B _ {s} d B _ {s} = \frac {1}{2} B _ {t} ^ {2} - \frac {1}{2} t
+\int_{0}^{t} B_{s} d B_{s} = \frac{1}{2} B_{t}^{2} - \frac{1}{2} t
 $$
 
 The last two properties show that, after performing stochastic integration, deterministic terms might appear.

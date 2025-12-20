@@ -48,7 +48,7 @@ an increase in price is not always desirable, but we define them in this way for
 After  $n$  steps, each particular value for the price will be reached by realizing  $k$  successes and  $(n - k)$  failures, where  $k$  is a number between 0 and  $n$ . The probability of reaching each value for the price after  $n$  steps will be
 
 $$
-P (k \text {s u c c e s s e s}) = \frac {n !}{k ! (n - k) !} p ^ {k} (1 - p) ^ {n - k}
+P (k \text{su cc es se s}) = \frac{n !}{k ! (n - k) !} p^{k} (1 - p)^{n - k}
 $$
 
 For large values of  $n$ , the shape of the binomial distribution becomes more and more symmetric and looks like a continuum. (See Figure 3(A)-(C).) In fact, the binomial distribution approximates a normal distribution with specific mean and standard deviation related to the probability of success and the number of trials. (The normal distribution is a continuous probability distribution. It is represented by a bell-shaped curve, and the shape of the curve is entirely described by the distribution mean and variance. Figure 4 shows a graph of the standard normal distribution, which has a mean of zero and a standard deviation of 1.) One can therefore represent a large range of values for the price as long as the number of time periods used in the binomial tree is large. Practitioners often use also trinomial trees, that is, trees with three branches emanating from each node, in order to obtain a better representation of the range of possible prices in the future.
@@ -71,7 +71,7 @@ Figure 4 Standard Normal Distribution
 Instead of assuming that at each step the asset price can only move up or down by a certain multiple with a given probability, we could assume that the price moves by an amount that follows a normal distribution with mean  $\mu$  and standard deviation  $\sigma$ . In other words, the price for each period is determined from the price of the previous period by the equation
 
 $$
-S _ {t + 1} = S _ {t} + \mu + \tilde {\omega} _ {t}
+S_{t + 1} = S_{t} + \mu + \tilde {\omega}_{t}
 $$ where  $\tilde{\omega}_t$  is a normal random variable with mean 0 and standard deviation  $\sigma$ . We will also assume that the random variable  $\tilde{\omega}_t$  describing the change in the price in one time period is independent of the random variables describing the change in the price in any other time period. (This is known as the Markov property. It implies that past prices are irrelevant for forecasting the future, and only the current value of the price is relevant for predicting the price in the next time period.) A sequence of independent and identically distributed (IID) random variables  $\tilde{\omega}_0,\ldots ,\tilde{\omega}_t,\ldots$  with zero mean and finite variance  $\sigma^2$  is sometimes referred to as white noise.
 
 
@@ -82,7 +82,7 @@ Figure 5 Five Paths of an Arithmetic Random Walk Assuming  $\mu = -0.1697$  and 
 
 
 $$
-\begin{array}{l} S _ {t} = S _ {t - 1} + \mu + \tilde {\omega} _ {t - 1} \\ = \left(S _ {t - 2} + \mu + \tilde {\omega} _ {t - 2}\right) + \mu + \tilde {\omega} _ {t - 1} \\ = \left(S _ {t - 3} + \mu + \tilde {\omega} _ {t - 3}\right) + 2 \cdot \mu + \tilde {\omega} _ {t - 1} + \tilde {\omega} _ {t - 2} \\ = S _ {0} + \mu \cdot t + \sum_ {i = 0} ^ {t - 1} \tilde {\omega} _ {i} \\ \end{array}
+\begin{array}{l} S_{t} = S_{t - 1} + \mu + \tilde {\omega}_{t - 1} \\ = \left(S_{t - 2} + \mu + \tilde {\omega}_{t - 2}\right) + \mu + \tilde {\omega}_{t - 1} \\ = \left(S_{t - 3} + \mu + \tilde {\omega}_{t - 3}\right) + 2 \cdot \mu + \tilde {\omega}_{t - 1} + \tilde {\omega}_{t - 2} \\ = S_{0} + \mu \cdot t + \sum_{i = 0}^{t - 1} \tilde {\omega}_{i} \\ \end{array}
 $$
 
 Therefore, an arithmetic random walk can be thought of as a sum of two terms: a deterministic straight line  $S_{t} = S_{0} + \mu \cdot t$  and a sum of all past noise terms. (See Figure 5.)
@@ -92,12 +92,12 @@ Therefore, an arithmetic random walk can be thought of as a sum of two terms: a 
 The equation for the arithmetic random walk can be expressed also as
 
 $$
-S _ {t + 1} = S _ {t} + \mu + \sigma \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} = S_{t} + \mu + \sigma \cdot \tilde {\varepsilon}_{t}
 $$ where  $\tilde{\varepsilon}_t$  is a standard normal random variable. To show this, we need to mention that every normal distribution can be expressed in terms of the standard normal distribution, and the latter has mean of 0 and standard deviation of 1. Namely, if  $\tilde{\varepsilon}$  is a standard normal variable with mean 0 and standard deviation 1, and  $\tilde{x}$  is a normal random variable with mean  $\mu$  and standard deviation  $\sigma$ , we have
 
 
 $$
-\tilde {\varepsilon} = \frac {\tilde {x} - \mu}{\sigma} (\text {e q u i v a l e n t l y}, \tilde {x} = \sigma \cdot \tilde {\varepsilon} + \mu)
+\tilde {\varepsilon} = \frac{\tilde {x} - \mu}{\sigma} (\text{eq ui va le nt ly}, \tilde {x} = \sigma \cdot \tilde {\varepsilon} + \mu)
 $$
 
 This is a property unique to the normal distribution—no other family of probability distributions can be transformed in the same way. In the context of the equation for the arithmetic random walk, we have a normal random variable  $\tilde{\omega}_t$  with mean 0 and standard deviation  $\sigma$ . It can be expressed through a standard normal variable  $\tilde{\varepsilon}_t$  as  $\sigma \cdot \tilde{\varepsilon} + 0$ .
@@ -105,7 +105,7 @@ This is a property unique to the normal distribution—no other family of probab
 The equation for  $S_{t + 1}$  above makes it easy to generate paths for the arithmetic random walk by simulation. All we need is a way of generating the standard normal random variables  $\tilde{\varepsilon}_t$ . We start with an initial price  $S_0$ , which is known. We also know the values of the drift  $\mu$  and the volatility  $\sigma$  over one period. To generate the price at the next time period,  $S_1$ , we add  $\mu$  to  $S_0$ , simulate a normal random variable from a standard normal distribution, multiply it by  $\sigma$ , and add it to  $S_0 + \mu$ . At the next step (time period 2), we use the price at time period 1 we already generated,  $S_1$ , add to it  $\mu$ , simulate a new random variable from a standard normal distribution, multiply it by  $\sigma$ , and add it to  $S_1 + \mu$ . We proceed in the same way until we generate the desired number of steps of the random walk. For example, given a current price  $S$ , in Excel the price for the next time period can be generated with the formula
 
 $$
-S + \mu + \sigma^ {*} \text {N O R M I N V} (\text {R A N D} (), 0, 1)
+S + \mu + \sigma^{*} \text{NO RM IN V} (\text{RA ND} (), 0, 1)
 $$
 
 # Parameter Estimation
@@ -113,7 +113,7 @@ $$
 In order to simulate paths of the arithmetic random walk, we need estimates of the parameters  $(\mu$  and  $\sigma$ ). We need to assume that these parameters remain constant over the time period of estimation. Note that the equation for the arithmetic random walk can be written as
 
 $$
-S _ {t + 1} - S _ {t} = \mu + \sigma \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} - S_{t} = \mu + \sigma \cdot \tilde {\varepsilon}_{t}
 $$
 
 Given a historical series of  $T$  prices for an asset, we can therefore do the following to estimate  $\mu$  and  $\sigma$ :
@@ -132,19 +132,19 @@ For example, suppose that we have estimated the weekly drift and the weekly vola
 If we use the arithmetic random walk model, any price in the future,  $S_{t}$ , can be expressed through the initial (known) price  $S_{0}$  as
 
 $$
-S _ {t} = S _ {0} + \mu \cdot t + \sigma \cdot \sum_ {i = 0} ^ {\mathrm {t - 1}} \tilde {\varepsilon} _ {i}
+S_{t} = S_{0} + \mu \cdot t + \sigma \cdot \sum_{i = 0}^{\mathrm{t -1}} \tilde {\varepsilon}_{i}
 $$
 
 The random variable corresponding to the sum of  $t$  independent normal random variables  $\tilde{\varepsilon}_{0},\ldots ,\tilde{\varepsilon}_{t - 1}$  is a normal random variable with mean equal to the sum of the means and standard deviation equal to the square root of the sum of variances. Since  $\tilde{\varepsilon}_0,\dots,\tilde{\varepsilon}_{t - 1}$  are independent standard normal variables, their sum is a normal variable with mean 0 and standard deviation equal to
 
 $$
-\underbrace {\sqrt {1 + \ldots + 1}} _ {t \text {t i m e s}} = \sqrt {t}
+\underbrace {\sqrt{1 + \ldots + 1}}_{t \text{ti me s}} = \sqrt{t}
 $$
 
 Therefore, we can have a closed-form expression for computing the asset price at time  $t$  given the asset price at time 0:
 
 $$
-S _ {t} = S _ {0} + \mu \cdot t + \sigma \cdot \sqrt {t} \cdot \tilde {\varepsilon}
+S_{t} = S_{0} + \mu \cdot t + \sigma \cdot \sqrt{t} \cdot \tilde {\varepsilon}
 $$ where  $\tilde{\varepsilon}$  is a standard normal random variable.
 
 
@@ -164,11 +164,11 @@ Another problem with the assumptions underlying the arithmetic random walk is th
 
 Consider the following model:
 
-$$ r _ {t} = \mu + \sigma \cdot \tilde {\varepsilon} _ {t}
+$$ r_{t} = \mu + \sigma \cdot \tilde {\varepsilon}_{t}
 $$ where  $\tilde{\varepsilon}_0,\ldots ,\tilde{\varepsilon}_t$  is a sequence of independent normal variables, and  $r_t$  the return, is computed as
 
 
-$$ r _ {t} = \frac {S _ {t + 1} - S _ {t}}{S _ {t}}
+$$ r_{t} = \frac{S_{t + 1} - S_{t}}{S_{t}}
 $$
 
 Returns are therefore normally distributed, and the return over each interval of length 1 has mean  $\mu$  and standard deviation  $\sigma$ . How can we express future prices if returns are determined by the equations above?
@@ -176,7 +176,7 @@ Returns are therefore normally distributed, and the return over each interval of
 Suppose we know the price at time  $t$ ,  $S_{t}$ . The price at time  $t + 1$  can be written as
 
 $$
-\begin{array}{l} S _ {t + 1} = S _ {t} \cdot \frac {S _ {t + 1}}{S _ {t}} \\ = S _ {t} \cdot \left(\frac {S _ {t}}{S _ {t}} + \frac {S _ {t + 1} - S _ {t}}{S _ {t}}\right) \\ = S _ {t} \cdot \left(1 + \frac {S _ {t + 1} - S _ {t}}{S _ {t}}\right) \\ = S _ {t} \cdot \left(1 + \tilde {r} _ {t}\right) \\ = S _ {t} + \mu \cdot S _ {t} + \sigma \cdot S _ {t} \cdot \tilde {\varepsilon} _ {t} \\ \end{array}
+\begin{array}{l} S_{t + 1} = S_{t} \cdot \frac{S_{t + 1}}{S_{t}} \\ = S_{t} \cdot \left(\frac{S_{t}}{S_{t}} + \frac{S_{t + 1} - S_{t}}{S_{t}}\right) \\ = S_{t} \cdot \left(1 + \frac{S_{t + 1} - S_{t}}{S_{t}}\right) \\ = S_{t} \cdot \left(1 + \tilde {r}_{t}\right) \\ = S_{t} + \mu \cdot S_{t} + \sigma \cdot S_{t} \cdot \tilde {\varepsilon}_{t} \\ \end{array}
 $$
 
 This last equation is very similar to the equation for the arithmetic random walk, except that the price from the previous time period appears as a factor in all of the terms.
@@ -184,19 +184,19 @@ This last equation is very similar to the equation for the arithmetic random wal
 The equation for the geometric random walk makes it clear how paths for the geometric random walk can be generated. As in the case of the arithmetic random walk, all we need is a way of generating the normal random variables  $\tilde{\varepsilon}_t$ . We start with an initial price  $S_0$ , which is known. We also know the values of the drift  $\mu$  and the volatility  $\sigma$  over one period. To generate the price at the next time period,  $S_1$ , we add  $\mu \cdot S_0$  to  $S_0$ , simulate a normal random variable from a standard normal distribution, multiply it by  $\sigma$  and  $S_0$ , and add it to  $S_0 + \mu \cdot S_0$ . At the next step (time period 2), we use the price at time period 1 we already generated,  $S_1$ , add to it  $\mu \cdot S_1$ , simulate a new random variable from a standard normal distribution, multiply it by  $\sigma$  and  $S_1$ , and add it to  $S_1 + \mu \cdot S_1$ . We proceed in the same way until we generate the desired number of steps of the geometric random walk. For example, given a current price  $S$ , in Excel the price for the next time period can be generated with the formula
 
 $$
-S + \mu^ {*} S + \sigma^ {*} S ^ {*} \text {N O R M I N V} (\text {R A N D} (), 0, 1)
+S + \mu^{*} S + \sigma^{*} S^{*} \text{NO RM IN V} (\text{RA ND} (), 0, 1)
 $$
 
 Using similar logic to the derivation of the price equation earlier, we can express the price at any time  $t$  in terms of the known initial price  $S_0$ . Note that we can write the price at time  $t$  as
 
 $$
-S _ {t} = S _ {0} \cdot \frac {S _ {1}}{S _ {0}} \cdot \ldots \cdot \frac {S _ {t - 1}}{S _ {t - 2}} \cdot \frac {S _ {t}}{S _ {t - 1}}
+S_{t} = S_{0} \cdot \frac{S_{1}}{S_{0}} \cdot \ldots \cdot \frac{S_{t - 1}}{S_{t - 2}} \cdot \frac{S_{t}}{S_{t - 1}}
 $$
 
 Therefore,
 
 $$
-S _ {t} = S _ {0} \cdot (1 + \tilde {r} _ {0}) \cdot \dots \cdot (1 + \tilde {r} _ {t - 1})
+S_{t} = S_{0} \cdot (1 + \tilde {r}_{0}) \cdot \dots \cdot (1 + \tilde {r}_{t - 1})
 $$
 
 In the case of the arithmetic random walk, we determined that the price at any time period follows a normal distribution. This was because if we know the starting price  $S_0$ , the price at any time period could be obtained by adding a sum of independent normal random variables to a constant term and  $S_0$ . The sum of independent normal random variables is a normal random variable itself. In the equation for the geometric random walk, each of the terms  $(1 + \tilde{r}_0), \ldots, (1 + \tilde{r}_{t-1})$  is a normal random variable as well. (It is the sum of a normal random variable and a constant.) However, they are multiplied together. The product of normal random variables is not a normal random variable, which means that we cannot have a nice closed-form expression for computing the price  $S_t$  based on  $S_0$ .
@@ -206,59 +206,59 @@ To avoid this problem, let us consider the natural logarithm of prices. (The nat
 If we take logarithms of both sides of the equation for  $S_{t}$ , we get
 
 $$
-\begin{array}{l} \ln (S _ {t}) = \ln (S _ {0} \cdot (1 + \tilde {r} _ {0}) \dots (1 + \tilde {r} _ {t - 1})) \\ = \ln (S _ {0}) + \ln (1 + \tilde {r} _ {0}) + \dots + \ln (1 + \tilde {r} _ {t - 1}) \\ \end{array}
+\begin{array}{l} \ln (S_{t}) = \ln (S_{0} \cdot (1 + \tilde {r}_{0}) \dots (1 + \tilde {r}_{t - 1})) \\ = \ln (S_{0}) + \ln (1 + \tilde {r}_{0}) + \dots + \ln (1 + \tilde {r}_{t - 1}) \\ \end{array}
 $$
 
 Log returns are in fact differences of log prices. To see this, note that
 
 $$
-\begin{array}{l} \ln (1 + r _ {t}) = \ln \left(1 + \frac {S _ {t + 1} - S _ {t}}{S _ {t}}\right) \\ = \ln \left(\frac {S _ {t + 1}}{S _ {t}}\right) \\ = \ln \left(S _ {t + 1}\right) - \ln \left(S _ {t}\right) \\ \end{array}
+\begin{array}{l} \ln (1 + r_{t}) = \ln \left(1 + \frac{S_{t + 1} - S_{t}}{S_{t}}\right) \\ = \ln \left(\frac{S_{t + 1}}{S_{t}}\right) \\ = \ln \left(S_{t + 1}\right) - \ln \left(S_{t}\right) \\ \end{array}
 $$
 
 Now assume that log returns (not returns) are independent and follow a normal distribution with mean  $\mu$  and standard deviation  $\sigma$ :
 
 $$
-\ln (1 + \tilde {r} _ {t}) = \ln \left(S _ {t + 1}\right) - \ln (S _ {t}) = \mu + \sigma \cdot \tilde {\varepsilon} _ {t}
+\ln (1 + \tilde {r}_{t}) = \ln \left(S_{t + 1}\right) - \ln (S_{t}) = \mu + \sigma \cdot \tilde {\varepsilon}_{t}
 $$
 
 As a sum of independent normal variables, the expression
 
 $$
-\ln (S _ {0}) + \ln (1 + \tilde {r} _ {0}) + \dots + \ln (1 + \tilde {r} _ {t - 1})
+\ln (S_{0}) + \ln (1 + \tilde {r}_{0}) + \dots + \ln (1 + \tilde {r}_{t - 1})
 $$ is also normally distributed. This means that  $\ln (S_t)$  (rather than  $S_{t}$ ) is normally distributed, that is,  $S_{t}$  is a lognormal random variable. Similarly to the case of an arithmetic random walk, we can compute a closed-form expression for the price  $S_{t}$  given  $S_0$ :
 
 
 $$
-\ln (S _ {t}) = \ln (S _ {0}) + \left(\mu - \frac {1}{2} \cdot \sigma^ {2}\right) \cdot t + \sigma \cdot \sqrt {t} \cdot \tilde {\varepsilon}
+\ln (S_{t}) = \ln (S_{0}) + \left(\mu - \frac{1}{2} \cdot \sigma^{2}\right) \cdot t + \sigma \cdot \sqrt{t} \cdot \tilde {\varepsilon}
 $$ or, equivalently,
 
 
 $$
-S _ {t} = S _ {0} \cdot e ^ {(\mu - \frac {1}{2} \cdot \sigma^ {2}) \cdot t + \sigma \cdot \sqrt {t} \cdot \tilde {\varepsilon}}
+S_{t} = S_{0} \cdot e^{(\mu - \frac{1}{2} \cdot \sigma^{2}) \cdot t + \sigma \cdot \sqrt{t} \cdot \tilde {\varepsilon}}
 $$ where  $\tilde{\varepsilon}$  is a standard normal variable.
 
 
 Notice that the only inconsistency with the formula for the arithmetic random walk is the presence of the extra term
 
 $$
-\left(- \frac {1}{2} \cdot \sigma^ {2}\right) \cdot t
+\left(- \frac{1}{2} \cdot \sigma^{2}\right) \cdot t
 $$ in the drift term
 
 
 $$
-\left(\mu - \frac {1}{2} \cdot \sigma^ {2}\right) \cdot t
+\left(\mu - \frac{1}{2} \cdot \sigma^{2}\right) \cdot t
 $$
 
 Why is there an adjustment of one half of the variance in the expected drift? In general, if  $\tilde{Y}$  is a normal random variable with mean  $\mu$  and variance  $\sigma^2$ , then the random variable, which is an exponential of the normal random variable  $\tilde{Y}$ ,  $\tilde{X} = e^{\tilde{Y}}$ , has mean
 
 $$
-E [ \tilde {X} ] = e ^ {\mu + \frac {1}{2} \cdot \sigma^ {2}}
+E [ \tilde {X} ] = e^{\mu + \frac{1}{2} \cdot \sigma^{2}}
 $$
 
 At first, this seems unintuitive—why is the expected value of  $\tilde{X}$  not
 
 $$
-E [ \tilde {X} ] = e ^ {\mu}?
+E [ \tilde {X} ] = e^{\mu}?
 $$
 
 The expected value of a linear function of a random variable is a linear function of the expected value of the random variable. For example, if  $a$  is a constant, then
@@ -278,28 +278,28 @@ In our example,  $\tilde{X}$  is a lognormal random variable, so its probability
 Specifically, suppose that we know the price at time  $t$ ,  $S_{t}$ . We have
 
 $$
-\ln (S _ {t + 1}) = \ln (S _ {t}) + \ln (1 + \tilde {r} _ {t})
+\ln (S_{t + 1}) = \ln (S_{t}) + \ln (1 + \tilde {r}_{t})
 $$ that is,
 
 
 $$
-S _ {t + 1} = S _ {t} \cdot e ^ {\ln (1 + \bar {r} _ {t})}
+S_{t + 1} = S_{t} \cdot e^{\ln (1 + \bar {r}_{t})}
 $$
 
 Note that we are explicitly assuming a multiplicative model for asset prices here—the price in the next time period is obtained by multiplying the price from the previous time period by a random factor. In the case of an arithmetic random walk, we had an additive model—a random shock was added to the asset price from the previous time period.
 
 If the log return  $\ln (1 + \tilde{r}_t)$  is normally distributed with mean  $\mu$  and standard deviation  $\sigma$ , then the expected value of
 
-$$ e ^ {\ln (1 + \tilde {r} _ {t})}
+$$ e^{\ln (1 + \tilde {r}_{t})}
 $$ is
 
 
-$$ e ^ {\mu + \frac {1}{2} \cdot \sigma^ {2}}
+$$ e^{\mu + \frac{1}{2} \cdot \sigma^{2}}
 $$ and hence
 
 
 $$
-E [ S _ {t + 1} ] = S _ {t} \cdot e ^ {\mu + \frac {1}{2} \cdot \sigma^ {2}}
+E [ S_{t + 1} ] = S_{t} \cdot e^{\mu + \frac{1}{2} \cdot \sigma^{2}}
 $$
 
 In order to make sure that the geometric random walk process grows exponentially at an average rate  $\mu$  (rather than  $(\mu + 0.5 \cdot \sigma^2)$ ), we need to subtract the term  $0.5 \cdot \sigma^2$  when we generate the future price from this process. This argument can be extended to determining prices for more than one time period ahead.
@@ -312,11 +312,11 @@ It is easy to see how future prices can be generated based on the initial price 
 
 
 $$
-S ^ {*} \exp ((\mu - 0. 5 ^ {*} \sigma^ {\wedge} 2) ^ {*} t - \sigma^ {*} \sqrt {t ^ {*}}
+S^{*} \exp ((\mu - 0. 5^{*} \sigma^{\wedge} 2)^{*} t - \sigma^{*} \sqrt{t^{*}}
 $$
 
 $$
-\text {N O R M I N V} (\text {R A N D} (), 0, 1))
+\text{NO RM IN V} (\text{RA ND} (), 0, 1))
 $$
 
 One might wonder whether this approach for simulating realizations of an asset price following a geometric random walk is equivalent to the simulation approach mentioned earlier when we introduced geometric random walks, which is based on the discrete version of the equation for a random walk. The two approaches are different (for example, the approach based on the discrete version of the equation for the geometric random walk does not produce the expected lognormal price distribution), but it can be shown that the differences in the two simulation approaches tend to cancel over many steps.
@@ -326,13 +326,13 @@ One might wonder whether this approach for simulating realizations of an asset p
 In order to simulate paths of the geometric random walk, we need to have estimates of the parameters  $(\mu$  and  $\sigma$ ). The implicit assumption here, of course, is that these parameters remain constant over the time period of estimation. (We will discuss how to incorporate considerations for changes in volatility later in this entry.) Note that the equation for the geometric random walk can be written as
 
 $$
-\ln \left(S _ {t + 1}\right) - \ln \left(S _ {t}\right) = \ln \left(1 + \tilde {r} _ {t}\right)
+\ln \left(S_{t + 1}\right) - \ln \left(S_{t}\right) = \ln \left(1 + \tilde {r}_{t}\right)
 $$
 
 Equivalently,
 
 $$
-\ln \left(\frac {S _ {t + 1}}{S _ {t}}\right) = \mu + \sigma \cdot \tilde {\varepsilon} _ {t}
+\ln \left(\frac{S_{t + 1}}{S_{t}}\right) = \mu + \sigma \cdot \tilde {\varepsilon}_{t}
 $$
 
 Given a historical series of  $T$  prices of an asset, we can therefore do the following to estimate  $\mu$  and  $\sigma$ :
@@ -345,7 +345,7 @@ Given a historical series of  $T$  prices of an asset, we can therefore do the f
 If we are given data on the returns  $r_t$  of an asset rather than the prices of the asset, we can compute  $\ln(1 + r_t)$ , and use it to replace  $\ln(S_{t+1} / S_t)$  in steps 1-3 above. This is because
 
 $$
-\log \left(\frac {S _ {t + 1}}{S _ {t}}\right) = \log \left(1 + \frac {S _ {t + 1} - S _ {t}}{S _ {t}}\right) = \log (1 + \tilde {r} _ {t})
+\log \left(\frac{S_{t + 1}}{S_{t}}\right) = \log \left(1 + \frac{S_{t + 1} - S_{t}}{S_{t}}\right) = \log (1 + \tilde {r}_{t})
 $$
 
 # Geometric Random Walk: Some Additional Facts
@@ -383,14 +383,14 @@ Figure 8 illustrates the behavior of the one-year Treasury bill yield from the b
 The simplest mean reversion (MR) model is similar to an arithmetic random walk, but the means of the increments change depending on the current price level. The price dynamics are represented by the equation
 
 $$
-S _ {t + 1} = S _ {t} + \kappa \cdot (\mu - S _ {t}) + \sigma \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} = S_{t} + \kappa \cdot (\mu - S_{t}) + \sigma \cdot \tilde {\varepsilon}_{t}
 $$ where  $\tilde{\varepsilon}_t$  is a standard normal random variable. The parameter  $\kappa$  is a nonnegative number that represents the speed of adjustment of the mean-reverting process—the larger its magnitude, the faster the process returns to its long-term mean. The parameter  $\mu$  is the long-term mean of the process. When the current price  $S_t$  is lower than the long-term mean  $\mu$ , the term  $(\mu - S_t)$  is positive. Hence, on average there will be an upward adjustment to obtain the value of the price in the next time period,  $S_{t+1}$ . (We add a positive number,  $\kappa \cdot (\mu - S_t)$ , to the current price  $S_t$ .) By contrast, if the current price  $S_t$  is higher than the long-term mean  $\mu$ , the term  $(\mu - S_t)$  is negative. Hence, on average there will be a downward adjustment to obtain the value of the price in the next time period,  $S_{t+1}$ . (We add a negative number,  $\kappa \cdot (\mu - S_t)$ , to the current price  $S_t$ .) Thus, the mean-reverting process will behave in the way we desire—if the price becomes lower or higher than the long-term mean, it will be drawn back to the long-term mean.
 
 
 In the case of the arithmetic and the geometric random walks, the cumulative volatility of the process increases over time. By contrast, in the case of mean reversion, as the number of steps increases, the variance peaks at
 
 $$
-\frac {\sigma^ {2}}{\kappa \cdot (2 - \kappa)}
+\frac{\sigma^{2}}{\kappa \cdot (2 - \kappa)}
 $$
 
 In continuous time, this basic mean-reversion process is called the Ornstein-Uhlenbeck process. (See the last section of this entry.) It is widely used when modeling interest rates and exchange rates in the context of computing bond prices and prices of more complex fixed-income securities. When used in the context of modeling interest rates, this simple mean-reversion process is also referred to as the Vasicek model (see Vasicek, 1977).
@@ -406,7 +406,7 @@ Figure 9 Five Paths with 50 Steps Each of a Mean-Reverting Process with  $\mu = 
 The formula for the mean-reverting process makes it clear how paths for the mean-reverting random walk can be generated. As in the case of the arithmetic and the geometric random walks, all we need is a way of simulating the standard normal random variables  $\tilde{\varepsilon}_t$ . We start with an initial price  $S_0$ , which is known. We know the values of the drift  $\mu$ , the speed of adjustment  $\kappa$ , and the volatility  $\sigma$  over one period. To generate the price at the next time period,  $S_1$ , we add  $\kappa \cdot (\mu - S_0)$  to  $S_0$ , simulate a normal random variable from a standard normal distribution, multiply it by  $\sigma$ , and add it to  $S_0 + \kappa \cdot (\mu - S_0)$ . At the next step (time period 2), we use the price at time period 1 we already generated,  $S_1$ , add to it  $\kappa \cdot (\mu - S_1)$ , simulate a new random variable from a standard normal distribution, multiply it by  $\sigma$ , and add it to  $S_1 + \kappa \cdot (\mu - S_1)$ . We proceed in the same way until we generate the desired number of steps of the random walk. For example, given a current price  $S$ , in Excel the price for the next time period can be generated with the formula
 
 $$
-S + \kappa^ {*} (\mu - S) + \sigma^ {*} \text {N O R M I N V} (\text {R A N D} (), 0, 1)
+S + \kappa^{*} (\mu - S) + \sigma^{*} \text{NO RM IN V} (\text{RA ND} (), 0, 1)
 $$
 
 # Parameter Estimation
@@ -414,12 +414,12 @@ $$
 In order to simulate paths of the mean-reverting random walk, we need estimates of the parameters  $(\kappa, \mu, \text{and} \sigma)$ . Again, we assume that these parameters remain constant over the time period of estimation. The equation for the mean-reverting process can be written as
 
 $$
-S _ {t + 1} - S _ {t} = \kappa \cdot (\mu - S _ {t}) + \sigma \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} - S_{t} = \kappa \cdot (\mu - S_{t}) + \sigma \cdot \tilde {\varepsilon}_{t}
 $$ or, equivalently,
 
 
 $$
-S _ {t + 1} - S _ {t} = \kappa \cdot \mu - \kappa \cdot S _ {t} + \sigma \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} - S_{t} = \kappa \cdot \mu - \kappa \cdot S_{t} + \sigma \cdot \tilde {\varepsilon}_{t}
 $$
 
 This equation has the characteristics of a linear regression model, with the absolute price change  $(S_{t + 1} - S_t)$  as the response variable and  $S_{t}$  as the explanatory variable. Given a historical series of  $T$  prices for an asset, we can therefore do the following to estimate  $\kappa$ ,  $\mu$ , and  $\sigma$ :
@@ -442,13 +442,13 @@ b. The  $p$ -value for the coefficient in front of the explanatory variable  $S_
 A more advanced mean-reversion model that bears some similarity to the geometric random walk is the geometric mean reversion (GMR) model
 
 $$
-S _ {t + 1} = S _ {t} + \kappa \cdot (\mu - S _ {t}) \cdot S _ {t} + \sigma \cdot S _ {t} \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1} = S_{t} + \kappa \cdot (\mu - S_{t}) \cdot S_{t} + \sigma \cdot S_{t} \cdot \tilde {\varepsilon}_{t}
 $$
 
 (Note that this is a special case of the mean reversion model  $S_{t + 1} = S_t + \kappa \cdot (\mu - S_t) \cdot S_t + \sigma \cdot S_t^\gamma \cdot \tilde{\varepsilon}_t$ , where  $\gamma$  is a parameter selected in advance. The most commonly used models have  $\gamma = 1$  or  $\gamma = 1/2$ .) The intuition behind this model is similar to the intuition behind the discrete version of the geometric random walk—the variability of the process changes with the current level of the price. However, the GMR model allows for incorporating mean reversion. Even though it is difficult to estimate the future price analytically from this model, it is easy to simulate. For example, given a current price  $S$ , in Excel the price for the next time period can be generated with the formula
 
 $$
-\begin{array}{l} S + \kappa^ {*} (\mu - S) ^ {*} S + \sigma^ {*} S \\ ^ {*} \text {N O R M I N V} (\text {R A N D} (), 0, 1) \\ \end{array}
+\begin{array}{l} S + \kappa^{*} (\mu - S)^{*} S + \sigma^{*} S \\^{*} \text{NO RM IN V} (\text{RA ND} (), 0, 1) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/651011d044a949fab0601ea3516591375d595cb66a30d60ad4d6d1c725591138.jpg)
@@ -461,12 +461,12 @@ To estimate the parameters  $\kappa, \mu,$  and  $\sigma$  to use in the simulat
 Note that the equation for the geometric mean-reverting random walk can be written as
 
 $$
-\frac {S _ {t + 1} - S _ {t}}{S _ {t}} = \kappa \cdot (\mu - S _ {t}) + \sigma \cdot \tilde {\varepsilon} _ {t}
+\frac{S_{t + 1} - S_{t}}{S_{t}} = \kappa \cdot (\mu - S_{t}) + \sigma \cdot \tilde {\varepsilon}_{t}
 $$ or, equivalently, as
 
 
 $$
-\frac {S _ {t + 1} - S _ {t}}{S _ {t}} = \kappa \cdot \mu - \kappa \cdot S _ {t} + \sigma \cdot \tilde {\varepsilon} _ {t}
+\frac{S_{t + 1} - S_{t}}{S_{t}} = \kappa \cdot \mu - \kappa \cdot S_{t} + \sigma \cdot \tilde {\varepsilon}_{t}
 $$
 
 Again, this equation bears characteristics of a linear regression model, with the percentage price change  $(S_{t + 1} - S_t) / S_t$  as the response variable and  $S_{t}$  as the explanatory variable. Given a historical series of  $T$  prices of an asset, we can therefore do the following to estimate  $\kappa, \mu,$  and  $\sigma$ :
@@ -501,7 +501,7 @@ If we make the assumption that log returns are jointly normally distributed, the
 Let us give an example of how one can model two correlated stock prices assumed to follow geometric random walks. Suppose we are given two historical series of  $T$  observations each of observed asset prices for Stock 1 and Stock 2. We follow the steps described in the previous sections of this entry to estimate the drifts and the volatilities of the two processes. To estimate the correlation structure, we find the correlation between
 
 $$
-\ln \left(\frac {S _ {t + 1} ^ {(1)}}{S _ {t} ^ {(1)}}\right) \quad \text {a n d} \quad \ln \left(\frac {S _ {t + 1} ^ {(2)}}{S _ {t} ^ {(2)}}\right)
+\ln \left(\frac{S_{t + 1}^{(1)}}{S_{t}^{(1)}}\right) \quad \text{an d} \quad \ln \left(\frac{S_{t + 1}^{(2)}}{S_{t}^{(2)}}\right)
 $$ where the indices (1) and (2) correspond to Stock 1 and Stock 2, respectively. For example, in Excel the correlation between two data series
 
 
@@ -509,7 +509,7 @@ stored in Array1 and Array2 can be computed with the function CORREL(Array1, Arr
 
 When we consider many different assets, the covariance matrix becomes very large and cannot be estimated accurately. Factor models can be used to reduce the dimension of the covariance structure. Multivariate random walks are in fact dynamic factor models for asset prices. A multifactor model for the return of asset  $i$  can be written in the following general form:
 
-$$ r _ {t} ^ {(i)} = \mu^ {(i)} + \sum_ {k = 1} ^ {K} \beta^ {(i, k)} \cdot f _ {t} ^ {(k)} + \varepsilon_ {t} ^ {(i)}
+$$ r_{t}^{(i)} = \mu^{(i)} + \sum_{k = 1}^{K} \beta^{(i, k)} \cdot f_{t}^{(k)} + \varepsilon_{t}^{(i)}
 $$ where the  $K$  factors  $f^{(k)}$  follow random walks,  $\beta^{(i,k)}$  are the factor loadings, and  $\varepsilon_t^{(i)}$  are normal random variables with zero means.
 
 
@@ -527,12 +527,12 @@ Let us explain in more detail how one would model and simulate a geometric rando
 
 
 $$
-S _ {t + 1} ^ {(-)} = S _ {t} + \mu \cdot S _ {t} + \sigma \cdot S _ {t} \cdot \tilde {\varepsilon} _ {t}
+S_{t + 1}^{(-)} = S_{t} + \mu \cdot S_{t} + \sigma \cdot S_{t} \cdot \tilde {\varepsilon}_{t}
 $$ that is,  $S_{t+1}^{(-)}$  is computed according to the normal geometric random walk rule. Now suppose that a jump of magnitude  $\tilde{J}_t$  occurs between time  $t$  and time  $t+1$ . Let us express the jump magnitude as a percentage of the asset price, that is, let
 
 
 $$
-S _ {t + 1} = S _ {t + 1} ^ {(-)} \cdot \tilde {J} _ {t}
+S_{t + 1} = S_{t + 1}^{(-)} \cdot \tilde {J}_{t}
 $$
 
 If we restrict the magnitude of the jumps  $\tilde{J}_t$  to be nonnegative, we will make sure that the asset price itself does not become negative.
@@ -540,41 +540,41 @@ If we restrict the magnitude of the jumps  $\tilde{J}_t$  to be nonnegative, we 
 Let us now express the changes in price in terms of the jump size. Based on the relationship between  $S_{t+1}$ ,  $S_{t+1}^{(-)}$ , and  $\tilde{J}_t$ , we can write
 
 $$
-S _ {t + 1} - S _ {t + 1} ^ {(-)} = S _ {t + 1} ^ {(-)} \cdot (\tilde {J} _ {t} - 1)
+S_{t + 1} - S_{t + 1}^{(-)} = S_{t + 1}^{(-)} \cdot (\tilde {J}_{t} - 1)
 $$ and hence
 
 
 $$
-S _ {t + 1} ^ {(-)} = S _ {t + 1} - S _ {t + 1} ^ {(-)} \cdot (\tilde {J} _ {t} - 1)
+S_{t + 1}^{(-)} = S_{t + 1} - S_{t + 1}^{(-)} \cdot (\tilde {J}_{t} - 1)
 $$
 
 Thus, we can substitute this expression for  $S_{t + 1}^{(-)}$  and write the geometric random walk with jumps model as
 
 $$
-S _ {t + 1} = S _ {t} + \mu \cdot S _ {t} + \sigma \cdot S _ {t} \cdot \tilde {\varepsilon} _ {t} + S _ {t + 1} ^ {(-)} \cdot (\tilde {J} _ {t} - 1)
+S_{t + 1} = S_{t} + \mu \cdot S_{t} + \sigma \cdot S_{t} \cdot \tilde {\varepsilon}_{t} + S_{t + 1}^{(-)} \cdot (\tilde {J}_{t} - 1)
 $$
 
 How would we simulate a path for the jump-geometric random walk process? Note that given the relationship between  $S_{t + 1}$ ,  $S_{t + 1}^{(-)}$ , and  $\tilde{J}_t$ , we can write
 
 $$
-\ln \left(S _ {t + 1}\right) = \ln \left(S _ {t + 1} ^ {(-)}\right) + \ln (\tilde {J} _ {t})
+\ln \left(S_{t + 1}\right) = \ln \left(S_{t + 1}^{(-)}\right) + \ln (\tilde {J}_{t})
 $$
 
 Since  $S_{t+1}^{(-)}$  is the price resulting only from the geometric random walk at time  $t$ , we already know what  $\ln(S_{t+1}^{(-)})$  is. Recall based on our discussion of the geometric random walk that
 
 $$
-\ln \left(S _ {t + 1} ^ {(-)}\right) = \ln \left(S _ {t}\right) + \left(\mu - 0. 5 \cdot \sigma^ {2}\right) + \sigma \tilde {\varepsilon} _ {t}
+\ln \left(S_{t + 1}^{(-)}\right) = \ln \left(S_{t}\right) + \left(\mu - 0. 5 \cdot \sigma^{2}\right) + \sigma \tilde {\varepsilon}_{t}
 $$
 
 Therefore, the overall equation will be
 
 $$
-\begin{array}{l} \ln (S _ {t + 1}) = \ln (S _ {t}) + (\mu - 0. 5 \cdot \sigma^ {2}) + \sigma \cdot \tilde {\varepsilon} _ {t} \\ + \sum_ {i} \ln \left(J _ {t} ^ {(i)}\right) \\ \end{array}
+\begin{array}{l} \ln (S_{t + 1}) = \ln (S_{t}) + (\mu - 0. 5 \cdot \sigma^{2}) + \sigma \cdot \tilde {\varepsilon}_{t} \\ + \sum_{i} \ln \left(J_{t}^{(i)}\right) \\ \end{array}
 $$ where  $J_{t}^{(i)}$  are all the jumps that occur during the time period between  $t$  and  $t + 1$ . This means that
 
 
 $$
-S _ {t + 1} = S _ {t} \cdot e ^ {\mu - 0. 5 \cdot \sigma^ {2} + \sigma \cdot \bar {\varepsilon} _ {t}} \cdot \prod_ {i} J _ {t} ^ {(i)}
+S_{t + 1} = S_{t} \cdot e^{\mu - 0. 5 \cdot \sigma^{2} + \sigma \cdot \bar {\varepsilon}_{t}} \cdot \prod_{i} J_{t}^{(i)}
 $$ where the symbol  $\Pi$  denotes product. (If no jumps occurred between  $t$  and  $t + 1$ , we set the product to 1.)
 
 
@@ -601,7 +601,7 @@ So far, we discussed random walks for which every step is taken at a specific di
 
 Special notation is used to denote stochastic processes in continuous time. Increments are denoted by  $d$  or  $\Delta$ . (For example,  $(S_{t + 1} - S_t)$  is denoted  $dS_{t}$ , meaning a change in  $S_{t}$  over an infinitely small interval.) The equations describing the process, however, have a very similar form to the equations we introduced earlier in this section:
 
-$$ d S _ {t} = \mu d t + \sigma d W
+$$ d S_{t} = \mu d t + \sigma d W
 $$
 
 Equations involving small changes ("differences") in variables are referred to as differential equations. In words, the equation above reads "The change in the price  $S_{t}$  over a small time period  $dt$  equals the average drift  $\mu$  multiplied by the small time change plus a random term equal to the volatility  $\sigma$  multiplied by  $dW$ , where  $dW$  is the increment of a Wiener process." The Wiener process, or Brownian motion, is the fundamental building block for many of the classical asset price processes.
@@ -621,18 +621,18 @@ Property 2. The values of  $dW$  for any two nonoverlapping time intervals are i
 
 The arithmetic random walk can be obtained as a generalized Wiener process, which has the form
 
-$$ d S _ {t} = a d t + b d W
+$$ d S_{t} = a d t + b d W
 $$
 
 The appeal of the generalized Wiener process is that we can find a closed-form expression for the price at any time period. Namely,
 
 $$
-S _ {t} = S _ {0} + a \cdot t + b \cdot W (t)
+S_{t} = S_{0} + a \cdot t + b \cdot W (t)
 $$
 
 The generalized Wiener process is a special case of the more general class of Ito processes, in which both the drift term and the coefficient in front of the random term are allowed to be nonconstant. The equation for an Ito process is
 
-$$ d S _ {t} = a (S, t) d t + b (S, t) d W
+$$ d S_{t} = a (S, t) d t + b (S, t) d W
 $$
 
 GBM and the Ornstein-Uhlenbeck process are both special cases of Ito processes.
@@ -642,17 +642,17 @@ In contrast to the generalized Wiener process, the equation for the Ito process 
 The main relevant result from stochastic calculus is the so-called Ito's lemma, which states the following. Suppose that a variable  $x$  follows an Ito process
 
 
-$$ d x _ {t} = a (x, t) d t + b (x, t) d W
+$$ d x_{t} = a (x, t) d t + b (x, t) d W
 $$ and let  $y$  be a function of  $x$ , that is,
 
 
-$$ y _ {t} = f (x, t)
+$$ y_{t} = f (x, t)
 $$
 
 Then,  $y$  evolves according to the following differential equation:
 
 $$
-\begin{array}{l} d y _ {t} = \left(\frac {\partial f}{\partial x} \cdot a + \frac {\partial f}{\partial t} + \frac {1}{2} \cdot \frac {\partial^ {2} f}{\partial x ^ {2}} \cdot b ^ {2}\right) d t \\ + \frac {\partial f}{\partial x} \cdot b \cdot d W \\ \end{array}
+\begin{array}{l} d y_{t} = \left(\frac{\partial f}{\partial x} \cdot a + \frac{\partial f}{\partial t} + \frac{1}{2} \cdot \frac{\partial^{2} f}{\partial x^{2}} \cdot b^{2}\right) d t \\ + \frac{\partial f}{\partial x} \cdot b \cdot d W \\ \end{array}
 $$ where the symbol  $\partial$  is standard notation for the partial derivative of the function  $f$  with respect to the variable in the denominator. For example,  $\partial f / \partial t$  is the derivative of the function  $f$  with respect to  $t$  assuming that all terms in the expression for  $f$  that do not involve  $t$  are constant. Respectively,  $\partial^2$  denotes the second derivative of the function  $f$  with respect to the variable in the denominator, that is, the derivative of the derivative.
 
 
@@ -663,20 +663,20 @@ Although a rigorous proof of Ito's lemma is beyond the scope of this entry, we w
 In ordinary calculus, we could obtain an expression for a function of a variable in terms of that variable by writing the Taylor series extension:
 
 $$
-\begin{array}{l} d y = \frac {\partial f}{\partial x} \cdot d x + \frac {\partial f}{\partial t} \cdot d t + \frac {1}{2} \cdot \frac {\partial^ {2} f}{\partial x ^ {2}} \cdot d x ^ {2} \\ + \frac {1}{2} \cdot \frac {\partial^ {2} f}{\partial t ^ {2}} \cdot d t ^ {2} + \frac {\partial^ {2} f}{\partial x \partial x} \cdot d x d t + \dots \\ \end{array}
+\begin{array}{l} d y = \frac{\partial f}{\partial x} \cdot d x + \frac{\partial f}{\partial t} \cdot d t + \frac{1}{2} \cdot \frac{\partial^{2} f}{\partial x^{2}} \cdot d x^{2} \\ + \frac{1}{2} \cdot \frac{\partial^{2} f}{\partial t^{2}} \cdot d t^{2} + \frac{\partial^{2} f}{\partial x \partial x} \cdot d x d t + \dots \\ \end{array}
 $$
 
 We will get rid of all terms of order  $dt^2$  or higher, deeming them too small. We need to expand the terms that contain  $dx$ , however, because they will contain terms of order  $dt$ . We have
 
 
 $$
-\begin{array}{l} d y = \frac {\partial f}{\partial x} \cdot (a (x, t) d t + b (x, t) d W) + \frac {\partial f}{\partial t} \cdot d t \\ + \frac {1}{2} \cdot \frac {\partial^ {2} f}{\partial x ^ {2}} \cdot (a (x, t) d t + b (x, t) d W) ^ {2} \\ \end{array}
+\begin{array}{l} d y = \frac{\partial f}{\partial x} \cdot (a (x, t) d t + b (x, t) d W) + \frac{\partial f}{\partial t} \cdot d t \\ + \frac{1}{2} \cdot \frac{\partial^{2} f}{\partial x^{2}} \cdot (a (x, t) d t + b (x, t) d W)^{2} \\ \end{array}
 $$
 
 The last expression in parentheses, when expanded, becomes (dropping the arguments of  $a$  and  $b$  for notational convenience)
 
 $$
-\begin{array}{l} (a d t + b d W) ^ {2} = a ^ {2} (d t) ^ {2} + b ^ {2} (d W) ^ {2} \\ + 2 a b \cdot d t \cdot d W \\ = b ^ {2} d t \\ \end{array}
+\begin{array}{l} (a d t + b d W)^{2} = a^{2} (d t)^{2} + b^{2} (d W)^{2} \\ + 2 a b \cdot d t \cdot d W \\ = b^{2} d t \\ \end{array}
 $$
 
 To obtain this expression, we dropped the first and the last term in the expanded expression, because they are of order higher than  $dt$ . The middle term,  $b^{2}(dW)^{2}$ , in fact equals  $b^{2} \cdot dt$  as  $dt$  goes to 0. The latter is not an obvious fact, but it follows from the properties of the standard Wiener process. The intuition behind it is that the variance of  $(dW)^{2}$  is of order  $dt^{2}$ , so we can ignore it and treat the expression as deterministic and equal to its expected value. The expected value of  $(dW)^{2}$  is in fact  $dt$ .
@@ -685,34 +685,34 @@ Substituting this expression back into the expression for  $dy$ , we obtain the 
 
 Using Ito's lemma, let us derive the equation for the price at time  $t$ ,  $S_{t}$  that was the basis for the exact simulation method for the geometric random walk. Suppose that  $S_{t}$  follows the GBM
 
-$$ d S _ {t} = (\mu \cdot S _ {t}) d t + (\sigma \cdot S _ {t}) d W
+$$ d S_{t} = (\mu \cdot S_{t}) d t + (\sigma \cdot S_{t}) d W
 $$
 
 We will use Ito's lemma to compute the equation for the process followed by the logarithm of the stock price. In other words, in the notation we used in the definition of Ito's lemma, we have
 
-$$ y _ {t} = f (x, t) = \ln S _ {t}
+$$ y_{t} = f (x, t) = \ln S_{t}
 $$
 
 We also have
 
-$$ a = \mu \cdot S \quad \text {a n d} \quad b = \sigma \cdot S
+$$ a = \mu \cdot S \quad \text{an d} \quad b = \sigma \cdot S
 $$
 
 Finally, we have
 
 $$
-{\frac {\partial f}{\partial x}} = {\frac {\partial (\ln S)}{\partial S}} = {\frac {1}{S}} \mathrm {a n d} {\frac {\partial^ {2} f}{\partial x ^ {2}}} = {\frac {\partial (1 / S)}{\partial S}} = - {\frac {1}{S ^ {2}}}
+{\frac{\partial f}{\partial x}} = {\frac{\partial (\ln S)}{\partial S}} = {\frac{1}{S}} \mathrm{an d} {\frac{\partial^{2} f}{\partial x^{2}}} = {\frac{\partial (1 / S)}{\partial S}} = - {\frac{1}{S^{2}}}
 $$
 
 Plugging into the equation for  $y$  in Ito's lemma, we obtain
 
 $$
-\begin{array}{l} d \ln S = \left(\frac {1}{S} \cdot a + 0 + \frac {1}{2} \cdot \left(- \frac {1}{S ^ {2}}\right) \cdot b ^ {2}\right) d t \\ + \frac {1}{S} \cdot b \cdot d W \\ = \left(\mu - \frac {1}{2} \cdot \sigma^ {2}\right) d t + \sigma \cdot d W \\ \end{array}
+\begin{array}{l} d \ln S = \left(\frac{1}{S} \cdot a + 0 + \frac{1}{2} \cdot \left(- \frac{1}{S^{2}}\right) \cdot b^{2}\right) d t \\ + \frac{1}{S} \cdot b \cdot d W \\ = \left(\mu - \frac{1}{2} \cdot \sigma^{2}\right) d t + \sigma \cdot d W \\ \end{array}
 $$ which is the equation we presented earlier. This also explains the presence of the
 
 
 $$
-- \frac {1}{2} \cdot \sigma^ {2}
+- \frac{1}{2} \cdot \sigma^{2}
 $$ term in the expression for the drift of the GBM.
 
 

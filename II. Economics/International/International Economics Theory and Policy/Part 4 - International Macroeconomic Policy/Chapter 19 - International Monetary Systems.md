@@ -98,7 +98,7 @@ The small Pacific country of New Zealand (with a population of about 5 million) 
 To understand why, we have to think about a country's budget constraint when it can borrow and lend over a long horizon. (Our analysis will also underline why the IIP—the net international investment position, as defined in Chapter 13—is so important.) Let's continue to let IIP stand for a country's net foreign wealth (claims on foreigners less liabilities), and let GDP denote its gross domestic product or production within the country's borders. Let  $r$  stand for the (constant) interest rate the country both earns on wealth held abroad and pays on its liabilities to foreigners. If we assume for simplicity that gross national product  $Y$  is the sum of GDP and net foreign investment income,  $Y = GDP + rIIP$ , then we can express the current account in any year  $t$  as
 
 $$
-\begin{array}{l} C A _ {t} = I I P _ {t + 1} - I I P _ {t} = Y _ {t} - \left(C _ {t} + I _ {t} + G _ {t}\right) \\ = r I I P _ {t} + G D P _ {t} - \left(C _ {t} + I _ {t} + G _ {t}\right). \\ \end{array}
+\begin{array}{l} C A_{t} = I I P_{t + 1} - I I P_{t} = Y_{t} - \left(C_{t} + I_{t} + G_{t}\right) \\ = r I I P_{t} + G D P_{t} - \left(C_{t} + I_{t} + G_{t}\right). \\ \end{array}
 $$
 
 (Think of  $IIP_{t+1}$  as net foreign wealth at the end of year  $t$ . We saw in Chapter 13's Case Study that the preceding relationship is not quite accurate because of price gains and losses on net foreign liabilities that are not captured in the national income and product accounts. We say more about this at the end.)
@@ -106,19 +106,19 @@ $$
 Define net exports, the (possibly negative) difference between what a country produces domestically and what it demands, as  $NX_{t} = GDP_{t} - (C_{t} + I_{t} + G_{t})$ . (Net exports are sometimes referred to as the "balance of trade.") Then we can rewrite the preceding current account equation as
 
 $$
-I I P _ {t + 1} = (1 + r) I I P _ {t} + N X _ {t}.
+I I P_{t + 1} = (1 + r) I I P_{t} + N X_{t}.
 $$
 
 Now we have to resort to some simple, but devious, algebra. Imagine that in the last equation we are starting out in some year labeled  $t = 0$  and that there is a year  $T$  far in the future at which everyone's debts have to be repaid, so that  $IIP_{T} = 0$ . We will apply the preceding equation for the  $IIP$  successively for years 1, 2, 3, and all the way through  $T$ . To start off, notice that the preceding equation can be manipulated to become
 
 $$
-I I P _ {0} = - \frac {1}{1 + r} N X _ {0} + \frac {1}{1 + r} I I P _ {1}.
+I I P_{0} = - \frac{1}{1 + r} N X_{0} + \frac{1}{1 + r} I I P_{1}.
 $$
 
 But a similar relationship to this last one holds true with  $IIP_{1}$  on the left-hand side and  $IIP_{2}$  and  $NX_{1}$  on the right. If we substitute this in for  $IIP_{1}$  in the last equation, we get
 
 $$
-\begin{array}{l} I I P _ {0} = - \frac {1}{1 + r} N X _ {0} - \frac {1}{(1 + r) ^ {2}} N X _ {1} \\ + \frac {1}{(1 + r) ^ {2}} I I P _ {2}. \\ \end{array}
+\begin{array}{l} I I P_{0} = - \frac{1}{1 + r} N X_{0} - \frac{1}{(1 + r)^{2}} N X_{1} \\ + \frac{1}{(1 + r)^{2}} I I P_{2}. \\ \end{array}
 $$
 
 Of course, we can continue to make these substitutions until we reach  $IIP_{T} = 0$  (the point at which all debts have been fully repaid). The resulting
@@ -126,7 +126,7 @@ Of course, we can continue to make these substitutions until we reach  $IIP_{T} 
 equation is the economy's intertemporal budget constraint:
 
 $$
-\begin{array}{l} I I P _ {0} = - \frac {1}{1 + r} N X _ {0} - \frac {1}{(1 + r) ^ {2}} N X _ {1} \\ - \frac {1}{(1 + r) ^ {3}} N X _ {2} - \dots - \frac {1}{(1 + r) ^ {T}} N X _ {T - 1}. \\ \end{array}
+\begin{array}{l} I I P_{0} = - \frac{1}{1 + r} N X_{0} - \frac{1}{(1 + r)^{2}} N X_{1} \\ - \frac{1}{(1 + r)^{3}} N X_{2} - \dots - \frac{1}{(1 + r)^{T}} N X_{T - 1}. \\ \end{array}
 $$
 
 If the country has an initially positive  $IIP$  (foreign assets in excess of liabilities), this intertemporal constraint states that the country can run a stream of net export deficits in the future ( $NX < 0$ ), provided the present discounted value of those deficits is not greater than the economy's initial net claims on foreigners. On the other hand, if initially  $IIP < 0$ , the economy must have future surpluses of net exports sufficient to repay its net debt to foreigners (with interest, which is why future net exports are discounted by  $r$ , and discounted more heavily the farther in the future they occur). So an indebted country such as New Zealand definitely cannot have net export or trade balance deficits forever. At some point the country must produce more goods and services than it absorbs in order to repay what it owes. Otherwise, it is perpetually borrowing more to repay what it owes—a strategy that must eventually collapse when the country runs out of fresh lenders (and probably long before then). $^4$
@@ -138,19 +138,19 @@ To see why, it is helpful to rewrite the preceding intertemporal budget constrai
 grows at a constant annual rate  $g$  that is below  $r$  — meaning that  $GDP_{t} = (1 + g) GDP_{t-1}$ . Then after dividing the intertemporal budget constraint by GDP in year 0, we can see that
 
 $$
-\begin{array}{l} i i p _ {0} = \frac {I I P _ {0}}{G D P _ {0}} = - \frac {1}{1 + r} \frac {N X _ {0}}{G D P _ {0}} - \frac {1}{(1 + r) ^ {2}} \frac {N X _ {1}}{G D P _ {1}} \\ \frac {G D P _ {1}}{G D P _ {0}} - \dots - \frac {1}{(1 + r) ^ {T}} \frac {N X _ {T - 1}}{G D P _ {T - 1}} \frac {G D P _ {T - 1}}{G D P _ {0}} \\ = - \frac {1}{1 + r} n x _ {0} - \frac {1 + g}{(1 + r) ^ {2}} n x _ {1} - \frac {(1 + g) ^ {2}}{(1 + r) ^ {3}} n x _ {2} \\ - \dots - \frac {(1 + g) ^ {T - 1}}{(1 + r) ^ {T}} n x _ {T - 1}. \\ \end{array}
+\begin{array}{l} i i p_{0} = \frac{I I P_{0}}{G D P_{0}} = - \frac{1}{1 + r} \frac{N X_{0}}{G D P_{0}} - \frac{1}{(1 + r)^{2}} \frac{N X_{1}}{G D P_{1}} \\ \frac{G D P_{1}}{G D P_{0}} - \dots - \frac{1}{(1 + r)^{T}} \frac{N X_{T - 1}}{G D P_{T - 1}} \frac{G D P_{T - 1}}{G D P_{0}} \\ = - \frac{1}{1 + r} n x_{0} - \frac{1 + g}{(1 + r)^{2}} n x_{1} - \frac{(1 + g)^{2}}{(1 + r)^{3}} n x_{2} \\ - \dots - \frac{(1 + g)^{T - 1}}{(1 + r)^{T}} n x_{T - 1}. \\ \end{array}
 $$
 
 Let's now apply this version of the country's budget constraint, which we simplify by assuming that the country's time horizon is very long, making the constraint approximately the same as the infinite-summation expression:
 
 $$
-i i p _ {0} = - \frac {1}{1 + g} \sum_ {t = 1} ^ {\infty} \left(\frac {1 + g}{1 + r}\right) ^ {t} n x _ {t - 1}.
+i i p_{0} = - \frac{1}{1 + g} \sum_{t = 1}^{\infty} \left(\frac{1 + g}{1 + r}\right)^{t} n x_{t - 1}.
 $$
 
 To illustrate how a country can easily run a perpetual current account deficit, let us ask what constant level of net exports  $\overline{n x}$  will allow the country to respect this budget constraint. We find this constant net export level by substituting  $\overline{n x}$  into the previous equation and simplifying using the summation formula for a geometric series, $^{5}$
 
 $$
-i i p _ {0} = - \frac {1}{1 + g} \sum_ {t = 1} ^ {\infty} \left(\frac {1 + g}{1 + r}\right) ^ {t} \overline {{n x}} = \frac {- \overline {{n x}}}{r - g}.
+i i p_{0} = - \frac{1}{1 + g} \sum_{t = 1}^{\infty} \left(\frac{1 + g}{1 + r}\right)^{t} \overline {{n x}} = \frac{- \overline {{n x}}}{r - g}.
 $$
 
 This solution implies net exports of  $\overline{nx} = -(r - g)iip_0$ . For example, if  $iip_0$  is negative—the country is a net debtor—then  $\overline{nx}$
@@ -176,7 +176,7 @@ Source: Statistics New Zealand.
 rate of New Zealand's nominal GDP was about 5 percent over 1992-2019, our previous formula suggests that at an interest rate of  $r = 6$  percent per year, the IIP-to-GDP ratio remains constant at 70 percent if on average New Zealand has an annual net export surplus equal to
 
 $$
-\begin{array}{l} \overline {{n x}} = - (r - g) i p _ {0} = (. 0 6 -. 0 5) \times (. 7) \\ = . 0 1 \times . 7 = 0. 0 0 7, \\ \end{array}
+\begin{array}{l} \overline {{n x}} = - (r - g) i p_{0} = (. 0 6 -. 0 5) \times (. 7) \\ = . 0 1 \times . 7 = 0. 0 0 7, \\ \end{array}
 $$
 
 or 0.7 percent of GDP. But this number is safely below the average ratio of New Zealand's net exports to its GDP over the 1992-2019 period shown in the figure, which was 1.5 percent.[7]
@@ -412,7 +412,7 @@ First consider internal balance, which requires that aggregate demand equal the 
 Recall that aggregate demand for domestic output is the sum of consumption,  $C$ , investment,  $I$ , government purchases,  $G$ , and the current account,  $CA$ . Of this sum, total domestic spending, also called domestic absorption, is denoted by  $A = C + I + G$ . (Of course, some of this overall domestic spending falls on imports and therefore does not contribute to the aggregate demand for domestic output, whereas foreign demand for our exports adds to that aggregate demand.) In Chapter 17, we expressed the current account surplus as a decreasing function of disposable income and an increasing function of the real exchange rate,  $EP^{*} / P$ . However, because import spending rises as total domestic spending  $A$  rises, we can similarly express the current account as a decreasing function of spending and an increasing function of the real exchange rate,  $CA(EP^{*} / P, A)$ . Under this new notation, the condition of internal balance (full-employment output equals aggregate demand) is therefore
 
 $$
-Y ^ {f} = C + I + G + C A \left(E P ^ {*} / P, A\right) = A + C A \left(E P ^ {*} / P, A\right). \tag {19-1}
+Y^{f} = C + I + G + C A \left(E P^{*} / P, A\right) = A + C A \left(E P^{*} / P, A\right). \tag {19-1}
 $$
 
 Equation (19-1) suggests the policy tools that affect aggregate demand and, therefore, output, in the short run. The government can directly influence total spending  $A$  through fiscal policy, for example. Fiscal expansion (a rise in  $G$  or a fall in  $T$ ) stimulates aggregate demand and causes output to rise, even though a fraction of the additional spending goes toward import purchases. Similarly, a devaluation of the currency (a rise in  $E$ ) makes domestic goods and services cheaper relative to those sold abroad and thereby increases demand and output. The policy maker can hold output steady at its full employment level,  $Y^{f}$ , through fiscal policy or exchange rate changes.
@@ -426,7 +426,7 @@ The  $II$  schedule in Figure 19-2 shows combinations of exchange rates and dome
 We have seen how domestic spending and exchange rate changes influence output and thus help the government achieve its internal goal of full employment. How do these variables affect the economy's external balance? To answer this question, assume the government has a target value,  $X$ , for the current account surplus. The goal of external balance requires the government to manage domestic spending (perhaps through fiscal policy) and the exchange rate so that the equation
 
 $$
-C A \left(E P ^ {*} / P, A\right) = X \tag {19-2}
+C A \left(E P^{*} / P, A\right) = X \tag {19-2}
 $$
 
 is satisfied.
@@ -941,7 +941,7 @@ d. There is a temporary rise in the world price of oil.
 8. In the box on New Zealand, we derived an equation showing how the  $IIP$  changes over time:  $IIP_{t+1} = (1 + r)IIP_t + NX_t$ . Show that if  $g = (GDP_{t+1} - GDP_t) / GDP_t$  is the growth rate of nominal output (GDP), and lowercase variables denote ratios to nominal GDP (as in the chapter), we can express this same equation in the form:
 
 $$
-i i p _ {t + 1} = \frac {(1 + r) i i p _ {t} + n x _ {t}}{1 + g}.
+i i p_{t + 1} = \frac{(1 + r) i i p_{t} + n x_{t}}{1 + g}.
 $$
 
 Use this expression to find the ratio of net exports to GDP that holds the  $IIP$  to GDP ratio  $iip$  constant over time.

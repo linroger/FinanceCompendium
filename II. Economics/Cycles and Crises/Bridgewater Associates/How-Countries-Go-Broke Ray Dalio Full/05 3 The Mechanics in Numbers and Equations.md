@@ -65,7 +65,7 @@ What follows are the mathematical relationships for measuring these indicators. 
 ## 1. Future debts relative to future income. The formula to estimate this is:
 
 $$
-\frac {\text {F u t u r e D e b t}}{\text {F u t u r e R e v e n u e}} =
+\frac{\text{Fu tu re De bt}}{\text{Fu tu re Re ve nu e}} =
 $$
 
 (Future Expenses Excluding Interest - Future Revenue)

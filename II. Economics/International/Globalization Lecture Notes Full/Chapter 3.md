@@ -67,7 +67,7 @@ Once economies are open to free trade, the relative world price of one good in t
 The terms of trade (ToT) are a ratio of product prices on the world market. If there are only two sectors, then the terms of trade are the price of a country's exported good divided by the price of the country's imported good on the world market:
 
 $$
-\mathrm {T o T} = P _ {\text {E x p o r t g o o d}} / P _ {\text {I m p o r t g o o d}}.
+\mathrm{To T} = P_{\text{Ex po rt go od}} / P_{\text{Im po rt go od}}.
 $$
 
 If there are only two economies, then one economy's terms of trade are the inverse of the other economy's terms of trade. Take the example with California and Mexico as trading partners, and avocados and motorcycles as the two sectors. California's terms of trade are  $P_M / P_A$  if it exports motorcycles, and Mexico's terms of trade are  $P_A / P_M$  if Mexico exports avocados. With only two economies, each one imports the other's exports.
@@ -199,7 +199,7 @@ One simple measure of economy-wide competitiveness is the average productivity o
 A country's economy-wide competitiveness matters for its residents' prosperity. An alternative way to compare prosperity in a Ricardian trade model is to use the residents' wages. Concretely, we can define the cross-country wage ratio between the Home and Foreign* economies as
 
 $$
-\omega = w / w ^ {*}.
+\omega = w / w^{*}.
 $$
 
 We call this variable the wage gap.
@@ -209,7 +209,7 @@ Figure 3.4 shows the manufacturing labor compensation in several countries relat
 Using the Ricardian two-sector model, we can express the wage gap as a function of labor productivity and the terms of trade:
 
 $$
-\omega = w / w ^ {*} = \frac {a _ {A} ^ {*}}{a _ {M}} \frac {P _ {M}}{P _ {A}}.
+\omega = w / w^{*} = \frac{a_{A}^{*}}{a_{M}} \frac{P_{M}}{P_{A}}.
 $$
 
 We can express the wage gap this way because the price of a good equals its unit production cost under perfect competition so that  $P_A = a_A^* w^*$  and  $w^* = P_A / a_A^*$  (and similarly for the manufactured
@@ -276,7 +276,7 @@ Every country needs to export at least one good under free global trade, so we c
 
 Suppose global demand is such that the world trade equilibrium results in a wage gap of  $\omega = 3$ . Will Mexico put California's motorcycle industry out of business, or will it be the other way around? A motorcycle made in Mexico has a unit production cost of  $a_{M}^{*}w^{*} = 60w^{*}$ , whereas a motorcycle made in California has a unit production cost  $a_{M}w = 18w$ . Motorcycle manufacturing is therefore less costly in California if
 
-$$ a _ {M} w = 1 8 w <   6 0 w ^ {*} = a _ {M} ^ {*} w ^ {*} \qquad \mathrm {o r e q u i v a l e n t l y} \qquad \omega = \frac {w}{w ^ {*}} = 3 <   \frac {3 0}{9} = \frac {a _ {M} ^ {*}}{a _ {M}}.
+$$ a_{M} w = 1 8 w <   6 0 w^{*} = a_{M}^{*} w^{*} \qquad \mathrm{or eq ui va le nt ly} \qquad \omega = \frac{w}{w^{*}} = 3 <   \frac{3 0}{9} = \frac{a_{M}^{*}}{a_{M}}.
 $$
 
 The equivalence follows because we can divide both sides of the first inequality by  $w^*$  and by  $a_M$  (two positive numbers). Under perfect global competition, goods are produced where they are the cheapest to make. At a wage gap of  $\omega = 3$ , motorcycle manufacturing is indeed less costly in California. In general, if the cross-country wage gap  $\omega = w / w^*$  is smaller than the cross-country productivity gap  $a_i^* / a_i$  in industry  $i$  is, then good  $i$  will be produced at home under free trade.
@@ -284,7 +284,7 @@ The equivalence follows because we can divide both sides of the first inequality
 Panel (a) of Figure 3.5 shows the productivity gaps by industry for avocados, motorcycles, and computers. Panel (b) also depicts the wage gap between the two economies. All industries with productivity gaps that exceed the wage gap locate in the home economy and go out of business abroad. All industries with productivity gaps narrower than the wage gap locate in the foreign economy and go out of business at home. The chain of comparative advantage is
 
 $$
-\frac {a _ {C} ^ {*}}{a _ {C}} > \frac {a _ {M} ^ {*}}{a _ {M}} > \omega > \frac {a _ {A} ^ {*}}{a _ {A}}.
+\frac{a_{C}^{*}}{a_{C}} > \frac{a_{M}^{*}}{a_{M}} > \omega > \frac{a_{A}^{*}}{a_{A}}.
 $$
 
 The wage gap breaks the chain between motorcycles and avocados in the sense that computers and motorcycles are made exclusively in California, whereas avocados are exclusively grown in Mexico. There continues to be complete specialization in a Ricardian model with three industries: Every industry produces in only one location.
@@ -310,7 +310,7 @@ Balanced trade
 We can generalize from three to many industries with little extra effort. The key is to use a convenient comparative advantage measure for many industries. As Rudiger Dornbusch, Stanley Fischer and Paul A. Samuelson (1977) first showed, a helpful measure of comparative advantage is the productivity gap of every industry  $i$  after the industry is ranked in terms of the productivity gap compared to all other industries in the home country. Since the productivity gap will be so important, let's define a new variable  $A(i)$  and use it as a shorthand from now on:
 
 $$
-A (i) = \frac {a ^ {*} (i)}{a (i)}.
+A (i) = \frac{a^{*} (i)}{a (i)}.
 $$
 
 When there are many industries, the steps from one productivity gap to the next become so small that the staircase-like function from the three-industry case turns into a smooth downward slide. With many industries, it is hard to give each of them a name. So, let's just label the industries with an index number  $i$  that runs from zero to one. Panel (a) of Figure 3.6 shows the industries on the horizontal axis, starting on the left with the first industry, which is named  $i = 0$ , and moving to the right to the last industry, which is named  $i = 1$ . The names of the industries are just labels.
@@ -331,7 +331,7 @@ Panel (a) plots the productivity gaps  $A(i) = a^{*}(i) / a(i)$  by industry  $i
 
 Consider any good  $i$ . The home country produces good  $i$  if its unit production cost is lower than abroad. Otherwise the home country's industry  $i$  goes out of business, and the foreign country produces good  $i$ . Concretely, the home country produces good  $i$  if
 
-$$ a (i) \cdot w \leq a ^ {*} (i) \cdot w ^ {*} \quad \text {o r e q u i v a l e n t l y} \quad \omega = \frac {w}{w ^ {*}} \leq A (i).
+$$ a (i) \cdot w \leq a^{*} (i) \cdot w^{*} \quad \text{or eq ui va le nt ly} \quad \omega = \frac{w}{w^{*}} \leq A (i).
 $$
 
 Because we labeled industries so that those with the strongest comparative have low labels, starting at zero, there is a range of goods between 0 and a cutoff industry  $I$  getting produced at home. At the cutoff we have  $\omega = A(I)$ , so the good  $I$  could just be produced abroad or at home. This international division of labor, and the location of industries, is depicted in panel (a) of Figure 3.6. Industries between  $I$  and 1 exclusively locate in the foreign* economy.
@@ -342,13 +342,13 @@ Step one. We want trade to be balanced across economies. As a consequence of bal
 
 Step two. Write down the insight from step one as a mathematical expression for each country's labor incomes:
 
-$$ w L = i Y _ {W} \qquad \text {a n d} \qquad w ^ {*} L ^ {*} = (1 - i) Y _ {W}.
+$$ w L = i Y_{W} \qquad \text{an d} \qquad w^{*} L^{*} = (1 - i) Y_{W}.
 $$
 
 Then divide the former equation by the latter equation to find
 
 $$
-\frac {w L}{w ^ {*} L ^ {*}} = \frac {i}{1 - i} \qquad \text {o r e q u i v a l e n t l y} \qquad \omega = \frac {i}{1 - i} \frac {L ^ {*}}{L}.
+\frac{w L}{w^{*} L^{*}} = \frac{i}{1 - i} \qquad \text{or eq ui va le nt ly} \qquad \omega = \frac{i}{1 - i} \frac{L^{*}}{L}.
 $$
 
 The solution states that, under balanced trade, the cross-country wage premium  $w / w^{*}$  (the wage gap) that the home country's workers command is large if there is a wide range of industries  $i$  that are located at home. Why? When many industries locate at home, they bring a large share of global consumption expenditures to the home economy and thus increase the home economy's national income relative to the national income generated abroad. For example, if 40 percent of the industries locate at home and 60 percent abroad, then  $i / (1 - i) = 0.40 / 0.60 = 2 / 3$ . As a consequence, national income  $wL$  at home relative to national income abroad  $w^{*}L^{*}$  must also be split 2-to-3:  $(wL) / (w^{*}L^{*}) = i / (1 - i) = 2 / 3$ , and therefore  $\omega = (2 / 3)(L^{*} / L)$ .
@@ -492,7 +492,7 @@ If a statistician or national accountant were asked to come up with strong predi
 In the early 1960s, Jan Tinbergen (1962) and Pentti Pöyhönen (1963) tried to pinpoint such important predictors of trade flows and came up with an equation similar to the law of gravity in physics. The equation is referred to as the gravity equation of international trade. Dealing with many countries and many industries is challenging when it comes to measuring trade flows. The gravity equation offers a powerful and accurate shortcut by measuring how trade volumes depend on characteristics of the pair of countries that trade with one another. The gravity equation is:
 
 $$
-X _ {S D i} = B _ {i} \frac {\mathrm {G D P} _ {S i} \cdot \mathrm {G D P} _ {D i}}{d _ {S D}}.
+X_{S D i} = B_{i} \frac{\mathrm{GD P}_{S i} \cdot \mathrm{GD P}_{D i}}{d_{S D}}.
 $$
 
 The equation tells us a number of things:
@@ -526,7 +526,7 @@ Another way we can use the gravity equation to predict trade flows is by plottin
 
 One problem with the gravity equation is that it does not answer the question why do countries globalize, which is one of the guiding themes of this textbook. The Ricardian trade model can help the gravity equation get some serious theoretical support. To see how, we need to bring geographic trade barriers into our model. When an exporter prices her good for foreign customers, she looks at the freight factor, which measures the proportional increase in the final price of a delivered good due to transportation costs. If a good costs one dollar to make, and freight adds ten percent, then the goods final price at delivery is one dollar and ten cents and the freight factor is 1.1. In terms of our pricing formula for good  $i$ , its producer price prior to leaving the source country  $S$  (Home) is  $P_{Si} = a_i w$ . The final price at delivery to the destination country  $D$  is  $P_{Di} = d_{SD} P_{Si}$ , where
 
-$$ d _ {S D} = P _ {D i} / P _ {S i}
+$$ d_{S D} = P_{D i} / P_{S i}
 $$ is the freight factor.
 
 
@@ -534,7 +534,7 @@ Perfect competition is a fundamental feature of the Ricardian model and results 
 
 $$
 
-X _ {S D i} = Y _ {D i} / d _ {S D}.
+X_{S D i} = Y_{D i} / d_{S D}.
 
 $$
 
@@ -544,7 +544,7 @@ The rest is mathematics. Under our standard consumer preferences, the expenditur
 
 $$
 
-Y _ {D i} = \beta_ {i} \cdot Y _ {D},
+Y_{D i} = \beta_{i} \cdot Y_{D},
 
 $$ where  $Y_{D}$  is the destination country  $D$ 's national income and  $\beta_{i}$  is the share spent on good  $i$ . For
 
@@ -562,7 +562,7 @@ industries (goods): Many. Industry  $i$  offers  $Q_{i}$  units of its good, mad
 Now to step one of the math: A source country that ships good  $i$  to several destinations will receive total revenues of
 
 $$
-Y _ {S i} = \sum_ {C} \beta_ {i} \cdot Y _ {C} = \beta_ {i} \cdot \sum_ {C} Y _ {C}.
+Y_{S i} = \sum_{C} \beta_{i} \cdot Y_{C} = \beta_{i} \cdot \sum_{C} Y_{C}.
 $$
 
 The mathematical symbol  $\sum_{C}$  instructs us to sum up the variables  $Y_{C}$  over all destination countries  $C$  that get the shipment. For example, if Mexican and U.S. households each earn 1,000 dollars of income, then each country's households will spend 200 dollars on Mexican avocados. As a result, the total revenue Mexican avocado growers will earn will be 400 dollars.
@@ -570,7 +570,7 @@ The mathematical symbol  $\sum_{C}$  instructs us to sum up the variables  $Y_{C
 Finally to step two of the math: We can write  $\beta_{i} = Y_{Si} / \sum_{C}Y_{C}$  and replace  $\beta_{i}$  in the earlier expenditure equation  $Y_{Di} = \beta_{i}\cdot Y_{D}$ . Then we just use those terms in the trade flow  $X_{SDi} = Y_{Di} / d_{SD}$  and find the version of the gravity equation that comes with the Ricardian trade model:
 
 $$
-X _ {S D i} = \frac {Y _ {D i}}{d _ {S D}} = \frac {\beta_ {i} Y _ {D}}{d _ {S D}} = \frac {1}{\sum_ {C} Y _ {C}} \frac {Y _ {S i} Y _ {D}}{d _ {S D}}.
+X_{S D i} = \frac{Y_{D i}}{d_{S D}} = \frac{\beta_{i} Y_{D}}{d_{S D}} = \frac{1}{\sum_{C} Y_{C}} \frac{Y_{S i} Y_{D}}{d_{S D}}.
 $$
 
 The Ricardian model wants the constant in the gravity equation to be  $B = 1 / \sum_{C}Y_{C}$ , the same for all industries, and it wants total destination country expenditure  $Y_{D}$  (the destination country's national income), also the same for all industries, instead of individual expenditure on the single industry  $Y_{Di}$ . Most important, however, the Ricardian model does deliver the gravity equation. That is good news. No model should contradict the gravity equation because the gravity equation is empirically so powerful.
@@ -750,7 +750,7 @@ Redding, Stephen J. 2008. "Empirical Approaches to International Trade." In The 
 There are three ranges of goods to look at when considering how affordable the goods are to the home economy's residents before and after foreign population growth. Panel (b) of Figure 3.7 shows those three ranges. In the lower range, from  $i = 0$  to  $i = I'$ , goods are produced in the home economy both before and after the Great Doubling. In this range, the new wage in the home economy  $w'$  after the Great Doubling affords as much consumption as before because the ratio between the new wage and these goods' new prices remains the same as the wage-price ratio before the Great Doubling:
 
 $$
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w}{P _ {i}} = \frac {1}{a _ {i}} \quad \text {i n t h e r a n g e f r o m} i = 0 \text {t o} i = I ^ {\prime}.
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w}{P_{i}} = \frac{1}{a_{i}} \quad \text{in th er an ge fr om} i = 0 \text{to} i = I^{\prime}.
 $$
 
 The wage-price ratio of a good  $i$  is equal to the good's productivity because perfect competition guarantees  $P_{i} = a_{i}w$ .
@@ -758,7 +758,7 @@ The wage-price ratio of a good  $i$  is equal to the good's productivity because
 In the middle range, between  $I'$  and  $I$ , industries switch their production locations from the home economy to the foreign economy. The ratio between the new wage and these goods' new prices is higher than before the Great Doubling. To see this, note that the new price is equal to  $P_i' = a_i^* w^{*'}$  under perfect competition, so the new wage-price ratio can be expressed as  $w'/P_i' = \omega'/a_i^*$ , and that is larger than the wage-price ratio before:
 
 $$
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {*} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {*}} > \frac {1}{a _ {i}} = \frac {w}{P _ {i}} \quad \text {i n t h e r a n g e b e t w e e n i = I ^ {\prime} a n d i = I}
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \text{in th er an ge be tw ee ni =I^{\prime} a n d i = I}
 $$ because the wage gap exceeds the productivity gap  $\omega' > A(i)$  for goods that are foreign made. In other words, in this range goods have become more affordable for home residents with the Great Doubling.
 
 
@@ -766,7 +766,7 @@ In the upper range from  $i = I$  to  $i = 1$ , goods are produced in the foreig
 
 $$
 
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {*} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {*}} > \frac {\omega}{a _ {i} ^ {*}} = \frac {w}{a _ {i} w ^ {*}} = \frac {w}{P _ {i}} \quad \text {i n t h e r a n g e f r o m} i = I \text {t o} i = 1
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{\omega}{a_{i}^{*}} = \frac{w}{a_{i} w^{*}} = \frac{w}{P_{i}} \quad \text{in th er an ge fr om} i = I \text{to} i = 1
 
 $$ because  $\omega' > \omega$  in the new equilibrium after the Great Doubling.
 
@@ -777,13 +777,13 @@ In summary, in two out of three ranges the goods have become more affordable for
 There are three ranges of goods to look at when considering how affordable the goods are for home residents before and after foreign productivity grows. Panel (b) of Figure 3.8 shows the three ranges. In the lower range (between  $i = 0$  to  $i = I'$ ) goods are produced in the home economy both before and after the improvement in foreign productivity. In this range, the new wage  $w'$  affords as much consumption as before because domestic productivity does not change, and the new wage-price ratio remains the same as the wage-price ratio before:
 
 $$
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w}{P _ {i}} = \frac {1}{a _ {i}} \quad \text {i n t h e r a n g e f r o m} i = 0 \text {t o} i = I ^ {\prime}.
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w}{P_{i}} = \frac{1}{a_{i}} \quad \text{in th er an ge fr om} i = 0 \text{to} i = I^{\prime}.
 $$
 
 In the middle range (between  $I'$  and  $I$ ) industries move from home to foreign*, and the new wage-price ratio is higher than before. To see this, note that the new price is equal to  $P_i' = a_i^{*'}w^{*'}$  under perfect competition, so the new wage-price ratio can be expressed as  $w'/P_i' = \omega'/a_i^{*'}$ , and that is larger than the wage-price ratio before:
 
 $$
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {* \prime} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {* \prime}} > \frac {1}{a _ {i}} = \frac {w}{P _ {i}} \quad \text {i n t h e r a n g e b e t w e e n i = I ^ {\prime} a n d i = I}
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{* \prime} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{* \prime}} > \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \text{in th er an ge be tw ee ni =I^{\prime} a n d i = I}
 $$ because the wage gap exceeds the productivity gap  $\omega' > A'(i) = a_i^{*'} / a_i$  for goods that are foreign made. In other words, in this range, goods have become more affordable for home residents with foreign productivity growth.
 
 
@@ -791,7 +791,7 @@ In the upper range (from  $i = I$  to  $i = 1$ ) goods are produced in the forei
 
 $$
 
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {* \prime} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {* \prime}} > \frac {\omega}{a _ {i} ^ {*}} = \frac {w}{a _ {i} ^ {*} w ^ {*}} = \frac {w}{P _ {i}} \quad \text {i n t h e r a n g e f r o m} i = I \text {t o} i = 1
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{* \prime} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{* \prime}} > \frac{\omega}{a_{i}^{*}} = \frac{w}{a_{i}^{*} w^{*}} = \frac{w}{P_{i}} \quad \text{in th er an ge fr om} i = I \text{to} i = 1
 
 $$ because the wage gap drops less than proportionally compared to the drop in foreign per-unit labor requirements (at  $I$  the vertical displacement of the  $A(i)$  schedule to  $A'(i)$  is larger than the drop of  $\omega$  to  $\omega'$  at  $I$ ), so that  $\omega'/\omega > a_i^* / a_i^{*'} = A'(i) / A(i)$  after foreign productivity growth.
 
@@ -806,19 +806,19 @@ There are many industries now, so we need to broaden the definition of the terms
 The terms of trade (ToT) are a ratio of product prices on the world market. If there are more than two goods, then the terms of trade are the average price of a country's exported (EX) goods divided by the average price of the country's imported (IM) goods on the world market:
 
 $$
-\mathrm {T o T} = \frac {\mathrm {A v g} _ {\mathrm {E X g o o d s} x} P _ {x}}{\mathrm {A v g} _ {\mathrm {I M g o o d s} m} P _ {m}}.
+\mathrm{To T} = \frac{\mathrm{Av g}_{\mathrm{EX go od s} x} P_{x}}{\mathrm{Av g}_{\mathrm{IM go od s} m} P_{m}}.
 $$
 
 The expression  $\mathrm{Avg}_{\mathrm{EX~goods}x}$  means that we are referring only to the average of the exported goods. Similarly,  $\mathrm{Avg}_{\mathrm{IM~goods}m}$  means that we are averaging only the imported goods. The price of an exported good from the home economy is  $P_{x} = w a_{x}$ , and the price of an imported good to that economy is  $P_{i} = w^{*}a_{i}^{*}$  so
 
 $$
-\operatorname {A v g} _ {\operatorname {E X} \text {g o o d s} x} P _ {x} = w \cdot \operatorname {A v g} _ {\operatorname {E X} \text {g o o d s} x} a _ {x} \qquad \text {a n d} \qquad \operatorname {A v g} _ {\operatorname {I M} \text {g o o d s} m} P _ {m} = w ^ {*} \cdot \operatorname {A v g} _ {\operatorname {I M} \text {g o o d s} m} a _ {m} ^ {*}
+\operatorname{Av g}_{\operatorname{EX} \text{go od s} x} P_{x} = w \cdot \operatorname{Av g}_{\operatorname{EX} \text{go od s} x} a_{x} \qquad \text{an d} \qquad \operatorname{Av g}_{\operatorname{IM} \text{go od s} m} P_{m} = w^{*} \cdot \operatorname{Av g}_{\operatorname{IM} \text{go od s} m} a_{m}^{*}
 $$ and
 
 
 $$
 
-\mathrm {T o T} = \omega \cdot \frac {\mathrm {A v g} _ {\mathrm {E X} \text {g o o d s} x} a _ {x}}{\mathrm {A v g} _ {\mathrm {I M} \text {g o o d s} m} a _ {m}}.
+\mathrm{To T} = \omega \cdot \frac{\mathrm{Av g}_{\mathrm{EX} \text{go od s} x} a_{x}}{\mathrm{Av g}_{\mathrm{IM} \text{go od s} m} a_{m}}.
 
 $$
 
@@ -839,7 +839,7 @@ In this appendix we will derive the change in real income per capita for residen
 
 $$
 
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {1}{a _ {i} ^ {\prime}} <   \frac {1}{a _ {i}} = \frac {w}{P _ {i}} \quad \text {i n t h e r a n g e f r o m} i = 0 \text {t o} i = I ^ {\prime}.
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{1}{a_{i}^{\prime}} <   \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \text{in th er an ge fr om} i = 0 \text{to} i = I^{\prime}.
 
 $$
 
@@ -847,14 +847,14 @@ In the middle range (between  $I'$  and  $I$ ) industries move from the home eco
 
 $$
 
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {*} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {*}} <   \frac {1}{a _ {i}} = \frac {w}{P _ {i}} \quad \mathrm {i n t h e r a n g e b e t w e e n} i = I ^ {\prime} \mathrm {a n d} i = I
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} <   \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \mathrm{in th er an ge be tw ee n} i = I^{\prime} \mathrm{an d} i = I
 
 $$ because the new wage gap  $\omega^{\prime}$  is below the old ordered productivity gaps  $A(i)$  that existed prior to the decline in productivity. The reason is that the new wage gap  $\omega^{\prime}$  must be below the new productivity gaps  $A^{\prime}(i)$  for all of the goods that the home country produces, and the new productivity gaps  $A^{\prime}(i)$  are below the old productivity gaps  $A(i)$ .
 
 Goods in the upper range (from  $i = I$  to  $i = 1$ ) are produced in the foreign country and imported for consumption at home both before and after the productivity decline in the home country. In that range, too, the new wage-price ratio is lower than the wage-price ratio before:
 
 $$
-\frac {w ^ {\prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {\prime}}{a _ {i} ^ {*} w ^ {* \prime}} = \frac {\omega^ {\prime}}{a _ {i} ^ {*}} <   \frac {\omega}{a _ {i} ^ {*}} = \frac {w}{a _ {i} w ^ {*}} = \frac {w}{P _ {i}} \quad \mathrm {i n t h e r a n g e f r o m} i = I \mathrm {t o} i = 1
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} <   \frac{\omega}{a_{i}^{*}} = \frac{w}{a_{i} w^{*}} = \frac{w}{P_{i}} \quad \mathrm{in th er an ge fr om} i = I \mathrm{to} i = 1
 $$ because the wage gap drops with the domestic productivity decline  $(\omega' < \omega)$ .
 
 
@@ -865,7 +865,7 @@ The home country's terms of trade are
 
 $$
 
-\mathrm {T o T} = \frac {\mathrm {A v g} _ {\mathrm {E X} \text {g o o d s} x} P _ {x}}{\mathrm {A v g} _ {\mathrm {I M} \text {g o o d s} m} P _ {m}} = \omega \cdot \frac {\mathrm {A v g} _ {\mathrm {E X} \text {g o o d s} x} a _ {x}}{\mathrm {A v g} _ {\mathrm {I M} \text {g o o d s} m} a _ {m}}.
+\mathrm{To T} = \frac{\mathrm{Av g}_{\mathrm{EX} \text{go od s} x} P_{x}}{\mathrm{Av g}_{\mathrm{IM} \text{go od s} m} P_{m}} = \omega \cdot \frac{\mathrm{Av g}_{\mathrm{EX} \text{go od s} x} a_{x}}{\mathrm{Av g}_{\mathrm{IM} \text{go od s} m} a_{m}}.
 
 $$
 
@@ -881,14 +881,14 @@ To derive the change in real income per capita for foreign residents after a dec
 
 $$
 
-\frac {w ^ {* \prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {* \prime}}{a _ {i} ^ {\prime} w ^ {\prime}} = \frac {1}{a _ {i} ^ {\prime} \omega^ {\prime}} <   \frac {1}{a _ {i} \omega} = \frac {w ^ {*}}{a _ {i} w} = \frac {w ^ {*}}{P _ {i}} \quad \text {i n t h e r a n g e f r o m i = 0 t o i = I ^ {\prime}}
+\frac{w^{* \prime}}{P_{i}^{\prime}} = \frac{w^{* \prime}}{a_{i}^{\prime} w^{\prime}} = \frac{1}{a_{i}^{\prime} \omega^{\prime}} <   \frac{1}{a_{i} \omega} = \frac{w^{*}}{a_{i} w} = \frac{w^{*}}{P_{i}} \quad \text{in th er an ge fr om i =0 to i =I^{\prime}}
 
 $$ because the vertical displacement of the  $A(i)$  schedule to  $A'(i)$  is larger than the drop of  $\omega$  to  $\omega'$  at  $I$  and all industries below  $i$ , as panel (b) of Figure 3.8 shows. Consequently,  $\omega'/\omega > A'(i)/A(i) = a_i'/a_i$  after the productivity decline.
 
 In the middle range (between  $I'$  and  $I$ ) industries relocate abroad. The new price is  $P_i' = a_i^* w^{*'} =$ , so the new wage-price ratio for foreign residents can be expressed as  $w^{*'} / P_i' = 1 / a_i^*$ , and that is less than the wage-price ratio before:
 
 $$
-\frac {w ^ {* \prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {* \prime}}{a _ {i} ^ {*} w ^ {* \prime}} = \frac {1}{a _ {i} ^ {*}} <   \frac {1}{a _ {i} \omega} = \frac {w ^ {*}}{a _ {i} w} = \frac {w ^ {*}}{P _ {i}} \quad \text {i n t h e r a n g e b e t w e e n i = I ^ {\prime} a n d i = I}
+\frac{w^{* \prime}}{P_{i}^{\prime}} = \frac{w^{* \prime}}{a_{i}^{*} w^{* \prime}} = \frac{1}{a_{i}^{*}} <   \frac{1}{a_{i} \omega} = \frac{w^{*}}{a_{i} w} = \frac{w^{*}}{P_{i}} \quad \text{in th er an ge be tw ee ni =I^{\prime} a n d i = I}
 $$ because  $\omega$  used to be below the old productivity gaps  $(\omega < A(i))$  when the home country still produced that middle range of goods.
 
 
@@ -896,7 +896,7 @@ Goods in the upper range (from  $i = I$  to  $i = 1$ ) are produced in the forei
 
 $$
 
-\frac {w ^ {* \prime}}{P _ {i} ^ {\prime}} = \frac {w ^ {*}}{P _ {i}} = \frac {1}{a _ {i} ^ {*}} \quad \mathrm {i n t h e r a n g e f r o m} i = I \mathrm {t o} i = 1
+\frac{w^{* \prime}}{P_{i}^{\prime}} = \frac{w^{*}}{P_{i}} = \frac{1}{a_{i}^{*}} \quad \mathrm{in th er an ge fr om} i = I \mathrm{to} i = 1
 
 $$ because there is no productivity change in the foreign economy.
 
@@ -911,7 +911,7 @@ Let's call the part of a bilateral trade flow that is best explained by the dest
 
 $$
 
-X _ {S D i} = B _ {i} \frac {Y _ {S i} \cdot Y _ {D i}}{d _ {S D}}.
+X_{S D i} = B_{i} \frac{Y_{S i} \cdot Y_{D i}}{d_{S D}}.
 
 $$
 
@@ -919,7 +919,7 @@ We can extract  $Y_{Si}$  from the estimated gravity equation for all countries 
 
 $$
 
-G C A _ {i} ^ {\text {C o u n t r y S}} \equiv \frac {Y _ {S i} / \sum_ {k} Y _ {S k}}{\sum_ {C} Y _ {C i} / \sum_ {C} \sum_ {k} Y _ {C k}}.
+G C A_{i}^{\text{Co un tr yS}} \equiv \frac{Y_{S i} / \sum_{k} Y_{S k}}{\sum_{C} Y_{C i} / \sum_{C} \sum_{k} Y_{C k}}.
 
 $$
 
@@ -950,7 +950,7 @@ The gravity specification by Tinbergen (1962) and Pöyhönen (1963) is an exampl
 
 $$
 
-X _ {S D i} = B _ {i} \frac {\left(\mathrm {G D P} _ {S i}\right) ^ {b _ {S i}} \left(\mathrm {G D P} _ {D i}\right) ^ {b _ {D i}}}{\left(d _ {S D}\right) ^ {b _ {d i}}},
+X_{S D i} = B_{i} \frac{\left(\mathrm{GD P}_{S i}\right)^{b_{S i}} \left(\mathrm{GD P}_{D i}\right)^{b_{D i}}}{\left(d_{S D}\right)^{b_{d i}}},
 
 $$ where  $B_{i}, b_{Si}, b_{Di}$  and  $b_{di}$  are estimation coefficients and the variables in the bilateral data are trade flows  $X_{SDi}$ , the production value of the source country industry  $\mathrm{GDP}_{Si}$ , the consumption expenditure on the industry at the destination  $\mathrm{GDP}_{Di}$ , and the geographic distance (or freight factor)  $d_{SD}$ . For each industry  $i$ , an observation (a row in the data set) is for a country pair  $S-D$ . To estimate a gravity equation at the level of country pairs, not industries, you can sum the trade variables up to
 
@@ -959,7 +959,7 @@ the country level and sum up the production value and consumption expenditure da
 A convenient step is to take the natural logarithm (log) of all of the variables  $X_{SDi}$ ,  $\mathrm{GDP}_{Si}$ ,  $\mathrm{GDP}_{Di}$  and  $d_{SD}$ . Then the estimation equation becomes
 
 $$
-\ln X _ {S D i} = b _ {i} + b _ {S i} \ln \mathrm {G D P} _ {S i} + b _ {D i} \ln \mathrm {G D P} _ {D i} - b _ {d i} \ln d _ {S D} + e _ {S D i},
+\ln X_{S D i} = b_{i} + b_{S i} \ln \mathrm{GD P}_{S i} + b_{D i} \ln \mathrm{GD P}_{D i} - b_{d i} \ln d_{S D} + e_{S D i},
 $$ where the new constant  $b_{i} = \ln B_{i}$ , and  $e_{SDi}$  is an error term with a mean of zero (and the error term is assumed to be independent of any of the regressors). This equation is linear in the logs of the variables and can be estimated with an ordinary least squares (OLS) regression, industry by industry.
 
 
@@ -971,14 +971,14 @@ Suppose you want to assess the export success of an industry in a country that i
 
 $$
 
-X _ {S D i} = B _ {i} \frac {Y _ {S i} Y _ {D i}}{\left(d _ {S D}\right) ^ {b _ {d i}}},
+X_{S D i} = B_{i} \frac{Y_{S i} Y_{D i}}{\left(d_{S D}\right)^{b_{d i}}},
 
 $$ where  $B_{i}$  and  $b_{di}$  are estimation coefficients,  $Y_{Si}$  is an estimation coefficient that summarizes the source-country's industry characteristics,  $Y_{Di}$  is an estimation coefficient that summarizes the characteristics of the destination market, and  $d_{SD}$  is the only variable (the geographic distance or freight factor).
 
 A convenient step is again to take the log of all of the components. Then the estimation equation becomes
 
 $$
-\ln X _ {S D i} = b _ {i} + y _ {S i} + y _ {D i} - b _ {d i} \ln d _ {S D} + e _ {S D i},
+\ln X_{S D i} = b_{i} + y_{S i} + y_{D i} - b_{d i} \ln d_{S D} + e_{S D i},
 $$ where the new constant  $b_{i} = \ln B_{i}$ , and  $e_{SDi}$  is an error term with a mean of zero (and the error term is assumed to be independent of any of the regressors). The new logarithmic estimation coefficients  $y_{Si}$  and  $y_{Di}$  are  $y_{Ci} = \ln Y_{Ci}$  for country  $C$ . This equation is linear in the coefficients and the log of the distance variable and can be estimated industry by industry using an ordinary least squares (OLS) regression.
 
 
@@ -991,7 +991,7 @@ We are interested in coefficient estimates for the source country component  $y_
 
 $$
 
-\overline {{\ln X}} _ {S D i} ^ {D} = b _ {i} + \bar {y} _ {S i} ^ {D} - b _ {d i} \overline {{\ln d}} _ {S D} ^ {D} + e _ {S D i} ^ {D},
+\overline {{\ln X}}_{S D i}^{D} = b_{i} + \bar {y}_{S i}^{D} - b_{d i} \overline {{\ln d}}_{S D}^{D} + e_{S D i}^{D},
 
 $$ where the bars and  $D$  superscript denote "demeaned" variables with respect to the destination country  $D$ . The regression coefficients for the source country dummies are then the estimates for  $y_{Si}$ . If you also wish to recover the estimates for  $y_{Di}$ , obtain the predicted residuals  $e_{SDi}^{D}$  from your regression, and take the averages of the residuals destination country by destination country. Those destination country averages of the residuals are equal to  $y_{Di}$  by the properties of a linear regression.
 
@@ -1008,13 +1008,13 @@ E.2. Go to URL econ.ucsd.edu/muendler/book. Download the prepared extract from t
 1990-2010 (296 observations) to show that
 
 $$
-\ln N _ {2} O p. c. = -. 0 6 6 \ln \text {O p e n n e s s} p. c. +. 1 2 2 \ln G D P p. c. + \text {C o u n t r y}
+\ln N_{2} O p. c. = -. 0 6 6 \ln \text{Op en ne ss} p. c. +. 1 2 2 \ln G D P p. c. + \text{Co un tr y}
 $$ where the numbers in brackets below coefficients are standard errors. Similarly, use the 133 countries with information on carbon dioxide emissions covered from 1960-2010 (4,616 observations) to show that
 
 
 $$
 
-\ln C O _ {2} p. c. = \frac {. 1 4 8}{(. 0 2 7)} \ln \text {O p e n n e s s} p. c. - \frac {. 1 6 4}{(. 0 2 7)} \ln G D P p. c. + \text {C o u n t r y} + \text {Y e a r}
+\ln C O_{2} p. c. = \frac{. 1 4 8}{(. 0 2 7)} \ln \text{Op en ne ss} p. c. - \frac{. 1 6 4}{(. 0 2 7)} \ln G D P p. c. + \text{Co un tr y} + \text{Ye ar}
 
 $$
 

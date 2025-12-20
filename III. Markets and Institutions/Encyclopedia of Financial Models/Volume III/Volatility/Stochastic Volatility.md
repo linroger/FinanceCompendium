@@ -29,7 +29,7 @@ Historicalvolatility
 Historical volatility is the volatility of a financial instrument or a market index based on historical returns. It is a standard deviation calculated using historical (daily, weekly, monthly, quarterly, yearly) price data. The annualized volatility  $\sigma$  is the standard deviation of the instrument's logarithmic returns over a one-year period:
 
 $$
-\sigma = \sqrt {\frac {1}{n - 1} \sum_ {i = 1} ^ {n} (R _ {i} - \bar {R}) ^ {2}}
+\sigma = \sqrt{\frac{1}{n - 1} \sum_{i = 1}^{n} (R_{i} - \bar {R})^{2}}
 $$ where  $R_{i} = \ln \frac{S_{t_{i}}}{S_{t_{i - 1}}}$ ,  $\bar{R} = \frac{1}{n}\sum_{i = 1}^{n}\ln \frac{S_{t_i}}{S_{t_{i - 1}}}$ ,  $S_{t_i}$  is an asset price at time  $t_i$ ,  $i = 1,2,\ldots,n$ .
 
 
@@ -63,13 +63,13 @@ The above issues have been addressed and studied in several ways, such as:
 
 $S(t)$  ..  $\sigma \equiv \sigma (t,S(t))$  3 the dynamics of the stock price satisfies the following stochastic differential equation:
 
-$$ d S (t) = \mu S (t) d t + \sigma (t, S (t)) S (t) d W _ {1} (t)
+$$ d S (t) = \mu S (t) d t + \sigma (t, S (t)) S (t) d W_{1} (t)
 $$ where  $W_{1}(t)$  is a standard Wiener process;
 
 
 3. The time variation of volatility involves an additional source of randomness, besides  $W_{1}(t)$ , represented by  $W_{2}(t)$ , and is given by
 
-$$ d \sigma (t) = a (t, \sigma (t)) d t + b (t, \sigma (t)) d W _ {2} (t)
+$$ d \sigma (t) = a (t, \sigma (t)) d t + b (t, \sigma (t)) d W_{2} (t)
 $$ where  $W_{2}(t)$  and  $W_{1}(t)$  (the initial Wiener process that governs the price process) may be correlated;4
 
 
@@ -105,7 +105,7 @@ Another popular process is the continuous-time GARCH(1,1) process, developed by 
 
 (see Bollerslev, 1986) is popular model for estimating stochastic volatility. It assumes that the randomness of the variance process varies with the variance, as opposed to the square root of the variance as in the Heston model. The standard GARCH(1,1) model has the following form for the variance differential:
 
-$$ d \sigma_ {t} = \kappa (\theta - \sigma_ {t}) d t + \gamma \sigma_ {t} d B _ {t}
+$$ d \sigma_{t} = \kappa (\theta - \sigma_{t}) d t + \gamma \sigma_{t} d B_{t}
 $$
 
 The GARCH model has been extended via numerous variants, including the NGARCH, LGARCH, EGARCH, GJR-GARCH, and so on.

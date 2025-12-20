@@ -142,7 +142,7 @@ $\times$  (Days in contract period/360)  $\times$  Notional amount.
 
 The amount that must be exchanged at the settlement date is not the interest differential. Instead, the present value of the interest differential is exchanged. The discount rate used to calculate the present value of the interest differential is the settlement rate. Thus, the compensation is determined as follows:
 
-Compensation =  $\frac{\text{Interest differential}}{[1 + \text{Settlement rate} \times (\text{Days in contract period} / 360)]}$ .
+Compensation =  $\frac{\text{Interestdifferential}}{[1 + \text{Settlementrate} \times (\text{Daysincontractperiod} / 360)]}$ .
 
 To illustrate, assume the following terms for an FRA: Reference rate is the three-month LIBOR, the contract rate is  $5\%$ , the notional amount is for \$10 million, and the number of days to settlement is 91 days. Suppose the settlement rate is  $5.5\%$ . In this case, the buyer benefits, because the buyer can borrow at  $5\%$  (the contract rate) when the market rate (the settlement rate) is  $5.5\%$ . The interest differential is
 
@@ -151,7 +151,7 @@ Interest differential  $= (0.055 - 0.05) \times (91 / 360) \times \10,000,000 = 
 The compensation or payment that the seller must make to the buyer is
 
 $$
-\begin{array}{l} \text {C o m p e n s a t i o n} = \frac {\mathrm {S 1 2 , 6 3 8 . 8 9}}{[ 1 + 0 . 0 5 5 \times 9 1 / 3 6 0 ]} \\ = \frac {\mathbb {S} 1 2 , 6 3 8 . 8 9}{1 . 0 1 3 9 0 2 7} = \mathbb {S} 1 2, 4 6 5. 5 8. \\ \end{array}
+\begin{array}{l} \text{Co mp en sa ti on} = \frac{\mathrm{S1 2 ,6 38 .8 9}}{[ 1 + 0 . 0 5 5 \times 9 1 / 3 6 0 ]} \\ = \frac{\mathbb {S} 1 2 , 6 3 8 . 8 9}{1 . 0 1 3 9 0 2 7} = \mathbb {S} 1 2, 4 6 5. 5 8. \\ \end{array}
 $$
 
 It is important to note the difference in who benefits when interest rates move in an FRA and an interest rate futures contract. The buyer of an FRA benefits if the reference rate increases, and the seller benefits if the reference rate decreases. In a futures contract, the buyer benefits from a falling rate, whereas the seller benefits from a rising rate. This is summarized in table 37.1. The different parties benefit under different conditions, because the underlying for each of the two contracts is different. In the case of an FRA, the underlying is a rate. The buyer gains if the rate increases and loses if the rate decreases. In contrast, in a futures contract, the underlying is a fixed-income instrument. The buyer gains if the fixed-income instrument increases in value, which occurs when rates decline. The buyer loses when the fixed-income instrument decreases in value, which occurs when interest rates increase. The opposite occurs for the seller of a futures contract.

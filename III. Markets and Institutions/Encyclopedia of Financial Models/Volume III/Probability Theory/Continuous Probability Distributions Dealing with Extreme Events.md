@@ -33,25 +33,25 @@ Extreme value theory, a branch of statistics that focuses solely on the extremes
 
 For the Gumbel distribution, the general parameter is zero (i.e.,  $\xi = 0$ ) and its density function is
 
-$$ f (x) = e ^ {- x} \exp \left\{- e ^ {- x} \right\}
+$$ f (x) = e^{- x} \exp \left\{- e^{- x} \right\}
 $$
 
 A plot of this density is given by the dashed graph in Figure 1 that corresponds to  $\xi = 0$ . The distribution function of the Gumbel distribution is then
 
 $$
-F (x) = \exp \left\{- e ^ {- x} \right\}
+F (x) = \exp \left\{- e^{- x} \right\}
 $$
 
 Again, for  $\xi = 0$ , we have the distribution function displayed by the dashed graph in Figure 2.
 
 The second  $GEV(\xi)$  distribution is the Fréchet distribution, which is given for  $\xi > 0$  and has density
 
-$$ f (x) = (1 + \xi x) ^ {- \xi - 1} \cdot \exp \{- x ^ {- \xi} \}
+$$ f (x) = (1 + \xi x)^{- \xi - 1} \cdot \exp \{- x^{- \xi} \}
 $$ with corresponding distribution function
 
 
 $$
-F (x) = \exp \left\{- (1 + x) ^ {- 1 / \xi} \right\}
+F (x) = \exp \left\{- (1 + x)^{- 1 / \xi} \right\}
 $$
 
 Note that the prerequisite  $1 + \xi x > 0$  has to be met. For a parameter value of  $\xi = 0.5$ , an example of the density and distribution function is given by the dotted graphs in Figures 1 and 3, respectively.
@@ -61,14 +61,14 @@ Figure 1  $GEV(\xi)$  Density Function for Various Parameter Values
 
 Finally, the Weibull distribution corresponds to  $\xi < 0$ . It has the density function
 
-$$ f (x) = (1 + \xi x) ^ {- \xi - 1} \cdot \exp \left\{- x ^ {- \xi} \right\}
+$$ f (x) = (1 + \xi x)^{- \xi - 1} \cdot \exp \left\{- x^{- \xi} \right\}
 $$
 
 A plot of this distribution can be seen in Figure 1, with  $\xi = -0.5$  (solid line). Again,  $1 + \xi x > 0$  has to be met. It is remarkable that the density function graph vanishes in a finite right end point, that is, becomes zero. Thus, the support is on  $(-\infty , - 1 / \xi)$ . The corresponding distribution function is
 
 
 $$
-F (x) = \exp \left\{- (1 + x) ^ {- 1} / \xi \right\}
+F (x) = \exp \left\{- (1 + x)^{- 1} / \xi \right\}
 $$ a graph of which is depicted in Figure 2 for  $\xi = -0.5$  (solid line).
 
 
@@ -89,12 +89,12 @@ For example, consider  $n$  random variables  $X_{1}, X_{2}, \ldots, X_{n}$  tha
 
 The following density function characterizes the Pareto distribution
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {1}{\beta} \left(1 + \xi \frac {x}{\beta}\right) ^ {- 1 - 1 / \xi}, & x \geq 0 \\ 0 & \text {e l s e} \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{\beta} \left(1 + \xi \frac{x}{\beta}\right)^{- 1 - 1 / \xi}, & x \geq 0 \\ 0 & \text{el se} \end{array} \right.
 $$ with  $\beta > 0$  and  $1 + (\xi x) / \beta > 0$ . Hence, the distribution is right skewed since the support is only on the positive real line. The corresponding distribution function is given by
 
 
 $$
-F (x) = \frac {1}{\beta} \left(1 + \xi \frac {x}{\beta}\right) ^ {- 1 - 1 / \xi}, x \geq 0
+F (x) = \frac{1}{\beta} \left(1 + \xi \frac{x}{\beta}\right)^{- 1 - 1 / \xi}, x \geq 0
 $$
 
 As we can see, the Pareto distribution is characterized by two parameters  $\beta$  and  $\xi$ . In brief, the distribution is denoted by  $Pa(\beta, \xi)$ . The parameter  $\beta$  serves as a scale parameter while the parameter  $\xi$  is responsible for the overall shape as becomes obvious by the density plots in Figure 3. The distribution function is displayed, in Figure 4, for a selection of parameter values.
@@ -124,7 +124,7 @@ Figure 5 Normal Inverse Gaussian Density Function for Various Parameter Values
 The distribution is characterized by four parameters,  $a,b,\mu$  and  $\delta$ . In brief, the distribution is denoted by  $NIG(a,b,\mu,\delta)$ . For real values  $x$ , the density function is given by
 
 $$
-\begin{array}{l} f (x) \frac {a \cdot \delta}{\pi} \exp \left\{\delta \sqrt {a ^ {2} - b ^ {2}} + b (x - \mu) \right\} \\ \times \frac {K _ {1} \left(a \sqrt {\delta^ {2} + (x - \mu) ^ {2}}\right)}{\sqrt {\delta^ {2} + (x - \mu) ^ {2}}} \\ \end{array}
+\begin{array}{l} f (x) \frac{a \cdot \delta}{\pi} \exp \left\{\delta \sqrt{a^{2} - b^{2}} + b (x - \mu) \right\} \\ \times \frac{K_{1} \left(a \sqrt{\delta^{2} + (x - \mu)^{2}}\right)}{\sqrt{\delta^{2} + (x - \mu)^{2}}} \\ \end{array}
 $$ where  $K_{1}$  is the so-called Bessel function of the third kind. In Figure 5, we display the density function for a selection of parameter values.
 
 
@@ -140,12 +140,12 @@ $$
 The mean of a NIG random variable is
 
 $$
-E (X) = \mu + \frac {\delta \cdot b}{\sqrt {a ^ {2} - b ^ {2}}}
+E (X) = \mu + \frac{\delta \cdot b}{\sqrt{a^{2} - b^{2}}}
 $$ and the variance is
 
 
 $$
-V a r (X) = \delta \frac {a ^ {2}}{\left(\sqrt {a ^ {2} - b ^ {2}}\right) ^ {3}}
+V a r (X) = \delta \frac{a^{2}}{\left(\sqrt{a^{2} - b^{2}}\right)^{3}}
 $$
 
 # Normal Distribution versus Normal Inverse Gaussian Distribution
@@ -159,7 +159,7 @@ Figure 6 Normal Inverse Gaussian Distribution Function for Various Parameter Val
 
 $X\sim NIG(a,b,\mu ,\delta)$  , we have that
 
-$$ k \cdot X \sim N I G \left(\frac {a}{k}, \frac {b}{k}, k \cdot \mu , k \cdot \delta\right) \tag {1}
+$$ k \cdot X \sim N I G \left(\frac{a}{k}, \frac{b}{k}, k \cdot \mu , k \cdot \delta\right) \tag {1}
 $$
 
 Among others, the result in equation (1) implies that the factor  $k$  shifts the density function by the  $k$ -fold of the original position. Moreover, we can reduce skewness in that we inflate  $X$  by some factor  $k$ .
@@ -184,11 +184,11 @@ The density graphs are obtained from fitting the distributions to the same sampl
 The tails of the Pareto as well as the  $\alpha$ -stable distribution decay at a rate with fixed power  $\alpha$ ,  $x^{-\alpha}$  (i.e., power law), which is in contrast to the normal distribution whose tails decay at an exponential rate (i.e., roughly  $e^{-x^2 /2}$ ). We illustrate the effect focusing on the probability of exceeding some value  $x$  somewhere in the upper tail, say  $x = 3$ . Moreover, we choose the parameter of stability to be  $\alpha = 1.5$ . Under the normal law, the probability of exceedance is roughly  $e^{-3^2 / 2} = 0.011$  while under the power law it is about  $3^{-1.5} = 0.1925$ . Next, we let the benchmark  $x$  become gradually larger. Then the probability of assuming a value at least twice or four times as large (i.e.,  $2x$  or  $4x$ ) is roughly
 
 
-$$ e ^ {- \frac {(2 \times 3) ^ {2}}{2}} \approx 0
+$$ e^{- \frac{(2 \times 3)^{2}}{2}} \approx 0
 $$ or
 
 
-$$ e ^ {- \frac {(4 \times 3) ^ {2}}{2}} \approx 0
+$$ e^{- \frac{(4 \times 3)^{2}}{2}} \approx 0
 $$ for the normal distribution. In contrast, under the power law, the same exceedance probabilities would be  $(2 \times 3)^{-1.5} = 0.068$  or  $(4 \times 3)^{-1.5} \approx 0.024$ . This is a much slower rate than under the normal distribution. Note that the value of  $x = 3$  plays no role for the power tails while the exceedance probability of the normal distribution decays faster the further out we are in the tails (i.e., the larger is  $x$ ). The same reasoning applies to the lower tails considering the probability of falling below a benchmark  $x$  rather than exceeding it.
 
 
@@ -206,7 +206,7 @@ In general, the density function is not explicitly presentable. Instead, the dis
 
 
 $$
-\begin{array}{l} \varphi (t) = \int_ {- \infty} ^ {\infty} e ^ {i t x} f (x) d x \\ = \left\{ \begin{array}{l} \exp \left\{- \sigma^ {\alpha} | t | ^ {\alpha} \left[ 1 - i \beta \operatorname {s i g n} (t) \tan \frac {\pi \alpha}{2} \right] + i \mu t \right\}, \quad \alpha \neq 1 \\ \exp \left\{- \sigma | t | \left[ 1 - i \beta \frac {2}{\pi} \operatorname {s i g n} (t) \ln (t) \right] + i \mu t \right\}, \quad \alpha = 1 \end{array} \right. \tag {2} \\ \end{array}
+\begin{array}{l} \varphi (t) = \int_{- \infty}^{\infty} e^{i t x} f (x) d x \\ = \left\{ \begin{array}{l} \exp \left\{- \sigma^{\alpha} | t |^{\alpha} \left[ 1 - i \beta \operatorname{si gn} (t) \tan \frac{\pi \alpha}{2} \right] + i \mu t \right\}, \quad \alpha \neq 1 \\ \exp \left\{- \sigma | t | \left[ 1 - i \beta \frac{2}{\pi} \operatorname{si gn} (t) \ln (t) \right] + i \mu t \right\}, \quad \alpha = 1 \end{array} \right. \tag {2} \\ \end{array}
 $$
 
 The density, then, has to be retrieved by an inverse transform to the characteristic function. Numerical procedures are employed for this task to approximate the necessary computations. The characteristic function (2) is presented here more for the sake of completeness rather than necessity. So, one should not be discouraged if it appears overwhelmingly complex.
@@ -230,7 +230,7 @@ Figure 9 Stable Density Function (totally right-skewed) for Various Values of  $
 
 
 $$
-\begin{array}{l} Y (n) = a _ {n} \left(X _ {1} + X _ {2} + \dots + X _ {n}\right) \\ + b _ {n} \sim S (\alpha , \beta , \sigma , \mu) \tag {3} \\ \end{array}
+\begin{array}{l} Y (n) = a_{n} \left(X_{1} + X_{2} + \dots + X_{n}\right) \\ + b_{n} \sim S (\alpha , \beta , \sigma , \mu) \tag {3} \\ \end{array}
 $$ converges in distribution to a random variable  $X$ , then this random variable  $X$  must be stable with some parameters  $\alpha, \beta, \sigma,$  and  $\mu$ . Again, recall that convergence in distribution means that the distribution function of  $Y(n)$  in equation (3) converges to the distribution function on the right-hand side of equation (3).
 
 
@@ -241,24 +241,24 @@ From the presentation of the normal distribution, we know that it serves as a li
 Let us resume the previous example with the random dynamic and the related stock price evolution. Suppose, now, that the 10-day dynamic was  $S_{\alpha}$  distributed. We denote the according random variable by  $V_{10}$ . We select a fairly moderate stable parameter of  $\alpha = 1.8$ . A value in this vicinity is commonly estimated for daily and even weekly stock returns. The skewness and location parameters are both set to zero, that is,  $\beta = \mu = 0$ . The scale is  $\sigma = 1$ , so that if the distribution was normal, that is,  $\alpha = 2$ , the variance would be 2 and, hence, consistent with the previous distributions. Note, however, that for  $\alpha = 1.8$ , the variance does not exist. Here the probability of the dynamic's exceedance of the lower threshold of 1 is
 
 $$
-P \left(V _ {1 0} > 1\right) = 0. 2 4 1 3 \tag {4}
+P \left(V_{1 0} > 1\right) = 0. 2 4 1 3 \tag {4}
 $$ compared to 0.2398 and 0.1870 in the normal and Student's t cases, respectively. Again, the probability in (4) corresponds to the event that in 10 days, the stock price will be greater than \271. So, it is more likely than in the normal and Student's t model.
 
 
 For the higher threshold of 3.5, we obtain
 
 $$
-P (V _ {1 0} > 3. 5) = 0. 0 1 8 1
+P (V_{1 0} > 3. 5) = 0. 0 1 8 1
 $$ compared to 0.0067 and 0.0124 from the normal and Student's t cases, respectively. This event corresponds to a stock price beyond \3,312, which is an immense increase. Under the normal distribution assumption, this event is virtually unlikely. It would happen in less than 1\% of the 10-day periods. However, under the stable as well as the Student's t assumption, this could happen in 1.81\% or 1.24\% of the scenarios, which is three times or double the probability, respectively. Just for comparison, let us assume \alpha = 1.6, which is more common during a rough market climate. The dynamic would now exceed the threshold of 1 with probability
 
 
 $$
-P \left(V _ {1 0} > 1\right) = 0. 2 4 2 8
+P \left(V_{1 0} > 1\right) = 0. 2 4 2 8
 $$ which fits in with the other distribution. For 3.5, we have
 
 
 $$
-P \left(V _ {1 0} > 3. 5\right) = 0. 0 3 1 5 \tag {5}
+P \left(V_{1 0} > 3. 5\right) = 0. 0 3 1 5 \tag {5}
 $$ which is equal to five times the probability under the normal distribution and almost three times the probability under the Student's  $t$  distribution assumption. For this threshold, the same probability as in equation (5) could only be achieved with a variance of  $\sigma^2 = 4$ , which would give the overall distribution a different shape. In the Student's  $t$  case, the degree of freedom parameter would have to be less than 3 such that now the variance would not exist any longer.
 
 

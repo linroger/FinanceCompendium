@@ -18,13 +18,13 @@ In this entry, we discuss dividend discount models and their limitations. We beg
 Dividends are measured using three different measures:
 
 $$
-= \frac {\text {D i v i d e n d s}}{\text {N u m b e r o f s h a r e s o u t s t a n d i n g}}
+= \frac{\text{Di vi de nd s}}{\text{Nu mb er of sh ar es ou ts ta nd in g}}
 $$
 
 If a company has paid 600,000 in dividends during the period and there are 1.5 million shares of common stock outstanding, then
 
 $$
-\begin{array}{l} \text {D i v i d e n d s p e r s h a r e} = \frac {\mathbb {S} 6 0 0 , 0 0 0}{1 , 5 0 0 , 0 0 0 \text {s h a r e s}} \\ = \$ 0.40 \text {p e r s h a r e} \\ \end{array}
+\begin{array}{l} \text{Di vi de nd sp er sh ar e} = \frac{\mathbb {S} 6 0 0 , 0 0 0}{1 , 5 0 0 , 0 0 0 \text{sh ar es}} \\ = \$ 0.40 \text{pe rs ha re} \\ \end{array}
 $$
 
 The company paid out 40 cents in dividends per common share during this period.
@@ -32,7 +32,7 @@ The company paid out 40 cents in dividends per common share during this period.
 The dividend yield, the ratio of dividends to price, is
 
 $$
-\begin{array}{l} \text {D i v i d e n d y i e l d} \\ = \frac {\text {A n n u a l c a s h d i v i d e n d s p e r s h a r e}}{\text {M a r k e t p r i c e p e r s h a r e}} \\ \end{array}
+\begin{array}{l} \text{Di vi de nd yi el d} \\ = \frac{\text{An nu al ca sh di vi de nd sp er sh ar e}}{\text{Ma rk et pr ic ep er sh ar e}} \\ \end{array}
 $$
 
 The dividend yield is also referred to as the dividend-price ratio. Historically, the dividend yield for U.S. stocks has been a little less than  $5\%$ , according to a study by Campbell and Shiller (1998). In an exhaustive study of the relation between dividend yield and stock prices, Campbell and Shiller find that:
@@ -48,14 +48,14 @@ Another way of describing dividends paid out during a period is to state the div
 Dividend payout ratio
 
 $$
-= \frac {\text {D i v i d e n d s}}{\text {E a r n i n g s a v a i l a b l e t o c o m m o n s h a r e h o l d e r s}}
+= \frac{\text{Di vi de nd s}}{\text{Ea rn in gs av ai la bl et oc om mo ns ha re ho ld er s}}
 $$
 
 If a company pays 360,000 in dividends and has earnings available to common shareholders of 1.2 million, the payout ratio is 30\%:
 
 
 $$
-\begin{array}{l} \text {D i v i d e n d p a y o u t r a t i o} = \frac {\mathbb {S} 3 6 0 , 0 0 0}{\mathbb {S} 1 , 2 0 0 , 0 0 0} \\ = 0.30 \text {or} 30 \% \\ \end{array}
+\begin{array}{l} \text{Di vi de nd pa yo ut ra ti o} = \frac{\mathbb {S} 3 6 0 , 0 0 0}{\mathbb {S} 1 , 2 0 0 , 0 0 0} \\ = 0.30 \text{or} 30 \% \\ \end{array}
 $$
 
 This means that the company paid out  $30\%$  of its earnings to shareholders.
@@ -81,7 +81,7 @@ As discussed above, the basis for the dividend discount model (DDM) is simply th
 
 
 $$
-P = \frac {D _ {1}}{(1 + r _ {1}) ^ {1}} + \frac {D _ {2}}{(1 + r _ {2}) ^ {2}} + \dots \tag {1}
+P = \frac{D_{1}}{(1 + r_{1})^{1}} + \frac{D_{2}}{(1 + r_{2})^{2}} + \dots \tag {1}
 $$ where
 
 
@@ -100,7 +100,7 @@ Practitioners rarely use the dividend discount model given by equation (1). Inst
 The DDM given by equation (1) can be modified by assuming a finite life for the expected cash flows. In this case, the expected cash flows are the expected dividend payouts and the expected sale price of the stock at some future date. The expected sale price is also called the terminal price and is intended to capture the future value of all subsequent dividend payouts. This model is called the finite life general DDM and is expressed mathematically as:
 
 $$
-\begin{array}{l} P = \frac {D _ {1}}{(1 + r _ {1}) ^ {1}} + \frac {D _ {2}}{(1 + r _ {2}) ^ {2}} + \dots + \frac {D _ {N}}{(1 + r _ {N}) ^ {N}} \\ + \frac {P _ {N}}{(1 + r _ {N}) ^ {N}} \tag {2} \\ \end{array}
+\begin{array}{l} P = \frac{D_{1}}{(1 + r_{1})^{1}} + \frac{D_{2}}{(1 + r_{2})^{2}} + \dots + \frac{D_{N}}{(1 + r_{N})^{N}} \\ + \frac{P_{N}}{(1 + r_{N})^{N}} \tag {2} \\ \end{array}
 $$ where
 
 
@@ -114,7 +114,7 @@ $N =$  the number of periods in the horizon and  $P, D_{t},$  and  $r_t$  are th
 A special case of the finite life general DDM that is more commonly used in practice is one in which it is assumed that the discount rate is constant. That is, it is assumed each  $r_t$  is the same for all  $t$ . Denoting this constant discount rate by  $r$ , equation (2) becomes:
 
 $$
-\begin{array}{l} P = \frac {D _ {1}}{(1 + r) ^ {1}} + \frac {D _ {2}}{(1 + r) ^ {2}} + \dots + \frac {D _ {N}}{(1 + r) ^ {N}} \\ + \frac {P _ {N}}{(1 + r) ^ {N}} \tag {3} \\ \end{array}
+\begin{array}{l} P = \frac{D_{1}}{(1 + r)^{1}} + \frac{D_{2}}{(1 + r)^{2}} + \dots + \frac{D_{N}}{(1 + r)^{N}} \\ + \frac{P_{N}}{(1 + r)^{N}} \tag {3} \\ \end{array}
 $$
 
 Equation (3) is called the constant discount rate version of the finite life general DDM. When practitioners use any of the DDM models presented in this entry, typically the constant discount rate version form is used.
@@ -122,21 +122,21 @@ Equation (3) is called the constant discount rate version of the finite life gen
 Let's illustrate the finite life general DDM assuming a constant discount rate assuming each period is a year. Suppose that the following data are determined for stock XYZ by a financial analyst:
 
 $$
-D _ {1} = \ 2. 0 0 \quad D _ {2} = \ 2. 2 0 \quad D _ {3} = \ 2. 3 0
+D_{1} = \ 2. 0 0 \quad D_{2} = \ 2. 2 0 \quad D_{3} = \ 2. 3 0
 $$
 
 $$
-D _ {4} = \ 2. 5 5 \quad D _ {5} = \ 2. 6 5
+D_{4} = \ 2. 5 5 \quad D_{5} = \ 2. 6 5
 $$
 
 $$
-P _ {5} = \$ 26 \quad N = 5 \quad r = 0. 1 0
+P_{5} = \$ 26 \quad N = 5 \quad r = 0. 1 0
 $$
 
 Based on these data, the fair price of stock XYZ is
 
 $$
-\begin{array}{l} P = \frac {\mathbb {S} 2 . 0 0}{(1 . 1 0) ^ {1}} + \frac {\mathbb {S} 2 . 2 0}{(1 . 1 0) ^ {2}} + \frac {\mathbb {S} 2 . 3 0}{(1 . 1 0) ^ {3}} + \frac {\mathbb {S} 2 . 5 5}{(1 . 1 0) ^ {4}} \\ + \frac {\mathbb {S} 2 . 6 5}{(1 . 1 0) ^ {5}} + \frac {\mathbb {S} 2 6 . 0 0}{(1 . 1 0) ^ {5}} = \mathbb {S} 2 4. 8 9 5 \\ \end{array}
+\begin{array}{l} P = \frac{\mathbb {S} 2 . 0 0}{(1 . 1 0)^{1}} + \frac{\mathbb {S} 2 . 2 0}{(1 . 1 0)^{2}} + \frac{\mathbb {S} 2 . 3 0}{(1 . 1 0)^{3}} + \frac{\mathbb {S} 2 . 5 5}{(1 . 1 0)^{4}} \\ + \frac{\mathbb {S} 2 . 6 5}{(1 . 1 0)^{5}} + \frac{\mathbb {S} 2 6 . 0 0}{(1 . 1 0)^{5}} = \mathbb {S} 2 4. 8 9 5 \\ \end{array}
 $$
 
 # Required Inputs
@@ -167,31 +167,31 @@ While a stock may be mispriced, an investor must also consider how mispriced it 
 If future dividends are assumed to grow at a constant rate  $(g)$  and a single discount rate  $(r)$  is used, then the finite life general DDM assuming a constant growth rate given by equation (3) becomes
 
 $$
-\begin{array}{l} P = \frac {D _ {0} (1 + g) ^ {1}}{(1 + r) ^ {1}} + \frac {D _ {0} (1 + g) ^ {2}}{(1 + r) ^ {2}} + \frac {D _ {0} (1 + g) ^ {3}}{(1 + r) ^ {3}} + \dots \\ + \frac {D _ {0} (1 + g) ^ {N}}{(1 + r) ^ {N}} + \frac {P _ {N}}{(1 + r) ^ {N}} \tag {4} \\ \end{array}
+\begin{array}{l} P = \frac{D_{0} (1 + g)^{1}}{(1 + r)^{1}} + \frac{D_{0} (1 + g)^{2}}{(1 + r)^{2}} + \frac{D_{0} (1 + g)^{3}}{(1 + r)^{3}} + \dots \\ + \frac{D_{0} (1 + g)^{N}}{(1 + r)^{N}} + \frac{P_{N}}{(1 + r)^{N}} \tag {4} \\ \end{array}
 $$ and it can be shown that if  $N$  is assumed to approach infinity, equation (4) is equal to:
 
 
 $$
-P = \frac {D _ {0} (1 + g)}{r - g} \tag {5}
+P = \frac{D_{0} (1 + g)}{r - g} \tag {5}
 $$
 
 Equation (5) is the constant growth dividend discount model (Gordon and Shapiro, 1956). An equivalent formulation for the constant growth DDM is
 
 $$
-P = \frac {D _ {1}}{r - g} \tag {6}
+P = \frac{D_{1}}{r - g} \tag {6}
 $$ where  $D_{1}$  is equal to  $D_0(1 + g)$ .
 
 
 Consider a company that currently pays dividends of 3.00 per share. If the dividend is expected to grow at a rate of 3\% per year and the discount rate is 12\%, what is the value of a share of stock of this company? Using equation (5),
 
 $$
-P = \frac {\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 2 - 0 . 0 3} = \frac {\mathbb {S} 3 . 0 9}{0 . 0 9} = \mathbb {S} 3 4. 3 3
+P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 2 - 0 . 0 3} = \frac{\mathbb {S} 3 . 0 9}{0 . 0 9} = \mathbb {S} 3 4. 3 3
 $$
 
 If the growth rate for this company's dividends is  $5\%$ , instead of  $3\%$ , the current value is 45.00:
 
 $$
-P = \frac {\mathbb {S} 3 . 0 0 (1 + 0 . 0 5)}{0 . 1 2 - 0 . 0 5} = \frac {\mathbb {S} 3 . 1 5}{0 . 0 7} = \mathbb {S} 4 5. 0 0
+P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 5)}{0 . 1 2 - 0 . 0 5} = \frac{\mathbb {S} 3 . 1 5}{0 . 0 7} = \mathbb {S} 4 5. 0 0
 $$
 
 Therefore, the greater the expected growth rate of dividends, the greater the value of a share of stock.
@@ -199,7 +199,7 @@ Therefore, the greater the expected growth rate of dividends, the greater the va
 In this last example, if the discount rate is  $14\%$  instead of  $12\%$  and the growth rate of dividends is  $3\%$ , the value of a share of stock is:
 
 $$
-P = \frac {\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 4 - 0 . 0 3} = \frac {\mathbb {S} 3 . 0 9}{0 . 1 1} = \mathbb {S} 2 8. 0 9
+P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 4 - 0 . 0 3} = \frac{\mathbb {S} 3 . 0 9}{0 . 1 1} = \mathbb {S} 2 8. 0 9
 $$
 
 Therefore, the greater the discount rate, the lower the current value of a share of stock.
@@ -216,7 +216,7 @@ The dividend growth rate can be estimated by using the compounded rate of growth
 
 The compound growth rate,  $g$ , is found using the following formula:
 
-$$ g = \left(\frac {\text {L a s t d i v i d e n d}}{\text {S t a r t i n g d i v i d e n d}}\right) ^ {1 / \text {n o . o f y e a r s}} - 1
+$$ g = \left(\frac{\text{La st di vi de nd}}{\text{St ar ti ng di vi de nd}}\right)^{1 / \text{no .o fy ea rs}} - 1
 $$
 
 This formula is equivalent to calculating the geometric mean of 1 plus the percentage change over the number of years. Using time value of money math, the 2006 dividend is the future value, the starting dividend is the present value, the number of years is the number of periods; solving for the interest rate produces the growth rate.
@@ -234,19 +234,19 @@ Substituting these values into equation (5), we obtain:
 Eli Lilly estimated price =  $\frac{\mathbb{S}1.60(1 + 0.08063)}{0.09125 - 0.08063}$
 
 $$
-= \frac {\mathbb {S} 1 . 7 2 9}{0 . 0 1 6 2} = \mathbb {S} 1 6 2. 8 0
+= \frac{\mathbb {S} 1 . 7 2 9}{0 . 0 1 6 2} = \mathbb {S} 1 6 2. 8 0
 $$
 
 Schering-Plough estimated price
 
 $$
-\begin{array}{l} = \frac {\mathbb {S} 0 . 2 2 (1 + 0 . 0 2 1 4 6)}{0 . 0 9 6 2 5 - 0 . 0 2 1 4 6} \\ = \frac {\mathbb {S} 0 . 2 2 5}{0 . 0 7 4 7 9} = \mathbb {S} 3. 0 0 \\ \end{array}
+\begin{array}{l} = \frac{\mathbb {S} 0 . 2 2 (1 + 0 . 0 2 1 4 6)}{0 . 0 9 6 2 5 - 0 . 0 2 1 4 6} \\ = \frac{\mathbb {S} 0 . 2 2 5}{0 . 0 7 4 7 9} = \mathbb {S} 3. 0 0 \\ \end{array}
 $$
 
 Wyeth estimated price  $= \frac{\$ 1.01(1 + 0.03533)}{0.09625 - 0.03533}$
 
 $$
-= \frac {\mathbb {S} 1 . 0 4 6}{0 . 0 6 0 9 2} = \mathbb {S} 1 7. 1 6
+= \frac{\mathbb {S} 1 . 0 4 6}{0 . 0 6 0 9 2} = \mathbb {S} 1 7. 1 6
 $$
 
 Comparing the estimated price with the actual price, we see that this model does not do a good job of pricing these stocks:
@@ -274,24 +274,24 @@ The assumption of constant growth is unrealistic and can even be misleading. Ins
 The simplest form of multi-phase DDM is the two-stage growth model. A simple extension of equation (4) uses two different values of  $g$ . Referring to the first growth rate as  $g_{1}$  and the second growth rate as  $g_{2}$  and assuming that the first growth rate pertains to the next four years and the second growth rate refers to all years following, equation (4) can be modified as:
 
 $$
-\begin{array}{l} P = \frac {D _ {0} (1 + g _ {1}) ^ {1}}{(1 + r) ^ {1}} + \frac {D _ {0} (1 + g _ {1}) ^ {2}}{(1 + r) ^ {2}} + \frac {D _ {0} (1 + g _ {1}) ^ {3}}{(1 + r) ^ {3}} \\ + \frac {D _ {0} (1 + g _ {1}) ^ {4}}{(1 + r) ^ {4}} + \frac {D _ {0} (1 + g _ {1}) ^ {5}}{(1 + r) ^ {5}} + \frac {D _ {0} (1 + g _ {1}) ^ {6}}{(1 + r) ^ {6}} + \dots \\ \end{array}
+\begin{array}{l} P = \frac{D_{0} (1 + g_{1})^{1}}{(1 + r)^{1}} + \frac{D_{0} (1 + g_{1})^{2}}{(1 + r)^{2}} + \frac{D_{0} (1 + g_{1})^{3}}{(1 + r)^{3}} \\ + \frac{D_{0} (1 + g_{1})^{4}}{(1 + r)^{4}} + \frac{D_{0} (1 + g_{1})^{5}}{(1 + r)^{5}} + \frac{D_{0} (1 + g_{1})^{6}}{(1 + r)^{6}} + \dots \\ \end{array}
 $$ which simplifies to:
 
 
 $$
-\begin{array}{l} P = \frac {D _ {0} (1 + g _ {1}) ^ {1}}{(1 + r) ^ {1}} + \frac {D _ {0} (1 + g _ {1}) ^ {2}}{(1 + r) ^ {2}} + \frac {D _ {0} (1 + g _ {1}) ^ {3}}{(1 + r) ^ {3}} \\ + \frac {D _ {0} (1 + g _ {1}) ^ {4}}{(1 + r) ^ {4}} + P _ {4} \\ \end{array}
+\begin{array}{l} P = \frac{D_{0} (1 + g_{1})^{1}}{(1 + r)^{1}} + \frac{D_{0} (1 + g_{1})^{2}}{(1 + r)^{2}} + \frac{D_{0} (1 + g_{1})^{3}}{(1 + r)^{3}} \\ + \frac{D_{0} (1 + g_{1})^{4}}{(1 + r)^{4}} + P_{4} \\ \end{array}
 $$
 
 Because dividends following the fourth year are presumed to grow at a constant rate  $g_{2}$  forever, the value of a share at the end of the fourth year (that is,  $P_{4}$ ) is determined by using equation (5), substituting  $D_{0}(1 + g_{1})^{4}$  for  $D_{0}$  (because period 4 is the base period for the value at end of the fourth year) and  $g_{2}$  for the constant rate  $g$ :
 
 $$
-\begin{array}{l} P = \frac {D _ {0} (1 + g _ {1}) ^ {1}}{(1 + r) ^ {1}} + \frac {D _ {0} (1 + g _ {1}) ^ {2}}{(1 + r) ^ {2}} + \frac {D _ {0} (1 + g _ {1}) ^ {3}}{(1 + r) ^ {3}} \\ + \frac {D _ {0} (1 + g _ {1}) ^ {4}}{(1 + r) ^ {4}} + \left[ \frac {1}{(1 + r) ^ {4}} \left(\frac {D _ {0} (1 + g _ {1}) ^ {4} (1 + g _ {2})}{r - g _ {2}}\right) \right] \tag {7} \\ \end{array}
+\begin{array}{l} P = \frac{D_{0} (1 + g_{1})^{1}}{(1 + r)^{1}} + \frac{D_{0} (1 + g_{1})^{2}}{(1 + r)^{2}} + \frac{D_{0} (1 + g_{1})^{3}}{(1 + r)^{3}} \\ + \frac{D_{0} (1 + g_{1})^{4}}{(1 + r)^{4}} + \left[ \frac{1}{(1 + r)^{4}} \left(\frac{D_{0} (1 + g_{1})^{4} (1 + g_{2})}{r - g_{2}}\right) \right] \tag {7} \\ \end{array}
 $$
 
 Suppose a company's dividends are expected to grow at 4\% rate for the next four years and then 8\% thereafter. If the current dividend is \2.00 and the discount rate is 12\%,
 
 $$
-\begin{array}{l} P = \frac {\mathbb {S} 2 . 0 8}{(1 + 0 . 1 2) ^ {1}} + \frac {\mathbb {S} 2 . 1 6}{(1 + 0 . 1 2) ^ {2}} + \frac {\mathbb {S} 2 . 2 5}{(1 + 0 . 1 2) ^ {3}} \\ + \frac {\$ 2 . 3 4}{(1 + 0 . 1 2) ^ {4}} + \left[ \frac {1}{(1 + 0 . 1 2) ^ {4}} \left(\frac {\$ 2 . 5 3}{0 . 1 2 - 0 . 0 8}\right) \right] \\ = \$ 46.87 \\ \end{array}
+\begin{array}{l} P = \frac{\mathbb {S} 2 . 0 8}{(1 + 0 . 1 2)^{1}} + \frac{\mathbb {S} 2 . 1 6}{(1 + 0 . 1 2)^{2}} + \frac{\mathbb {S} 2 . 2 5}{(1 + 0 . 1 2)^{3}} \\ + \frac{\$ 2 . 3 4}{(1 + 0 . 1 2)^{4}} + \left[ \frac{1}{(1 + 0 . 1 2)^{4}} \left(\frac{\$ 2 . 5 3}{0 . 1 2 - 0 . 0 8}\right) \right] \\ = \$ 46.87 \\ \end{array}
 $$
 
 If this company's dividends are expected to grow at the rate of 4\% forever, the value of a share is \$26.00; if this company's dividends are expected to grow at the rate of 8\% forever, the value of a share is \$52.00. But because the growth rate of dividends is expected to increase from 4\% to 8\% in four years, the value of a share is between those two values, or 46.87.
@@ -325,16 +325,16 @@ For both the binomial and trinomial stochastic DDM, there are two versions of th
 This formulation of the model is expressed as follows:
 
 $$
-D _ {t + 1} = \left\{ \begin{array}{l l} D _ {t} + C \text {w i t h p r o b a b i l i t y} p \\ D _ {t} \text {w i t h p r o b a b i l i t y} 1 - p \end{array} \right. \quad \text {f o r} t = 1, 2, \ldots
+D_{t + 1} = \left\{ \begin{array}{l l} D_{t} + C \text{wi th pr ob ab il it y} p \\ D_{t} \text{wi th pr ob ab il it y} 1 - p \end{array} \right. \quad \text{fo r} t = 1, 2, \ldots
 $$ where
 
 
 $$
-D _ {t} = \text {d i v i d e n d i n p e r i o d} t
+D_{t} = \text{di vi de nd in pe ri od} t
 $$
 
 $$
-D _ {t + 1} = \text {d i v i d e n d i n p e r i o d} t + 1
+D_{t + 1} = \text{di vi de nd in pe ri od} t + 1
 $$
 
 $C =$  dollar amount of the dividend increase  $p =$  probability that the dividend will increase
@@ -342,7 +342,7 @@ $C =$  dollar amount of the dividend increase  $p =$  probability that the divid
 Hurley and Johnson (1998a) have shown that the theoretical value of the stock based on the additive stochastic DDM assuming a constant discount rate is equal to:
 
 $$
-P = \frac {D _ {0}}{r} + \left[ \frac {1}{r} + \frac {1}{r ^ {2}} \right] C p \tag {8}
+P = \frac{D_{0}}{r} + \left[ \frac{1}{r} + \frac{1}{r^{2}} \right] C p \tag {8}
 $$
 
 For example, consider once again Wyeth. In the illustration of the constant growth model, we used  $D_0$  of  $\$1.01$  and a  $g$  of  $3.533\%$ . We estimate  $C$  by calculating the dollar increase in dividends for each year that had a dividend increase and then taking the average dollar dividend increase. The average of the increases is  $\$0.0373$ .
@@ -350,7 +350,7 @@ For example, consider once again Wyeth. In the illustration of the constant grow
 In the 15-year span 1991 through 2006, dividends increased 11 of the 14 year-to-year differences. Therefore,  $p = 11 / 15 = 73.3333\%$ . Substituting these values into equation (8), we find the estimated price to be:
 
 $$
-\begin{array}{l} P = \frac {\mathbb {S} 1 . 0 1}{0 . 0 9 6 2 5} + \left[ \left(\frac {1}{0 . 0 9 1 2 5} + \frac {1}{0 . 0 9 1 2 5 ^ {2}}\right) (\mathbb {S} 0. 0 3 7 2 7) \left(\frac {1 1}{1 5}\right) \right] \\ P = \$ 10.49351 + [ (1 1 8. 3 3 6) (\$ 0. 3 7 2 7) (0. 7 3 3 3 3) ] \\ P = \$ 10.49351 + \$ 3.23682 = \$ 13.73033 \\ \end{array}
+\begin{array}{l} P = \frac{\mathbb {S} 1 . 0 1}{0 . 0 9 6 2 5} + \left[ \left(\frac{1}{0 . 0 9 1 2 5} + \frac{1}{0 . 0 9 1 2 5^{2}}\right) (\mathbb {S} 0. 0 3 7 2 7) \left(\frac{1 1}{1 5}\right) \right] \\ P = \$ 10.49351 + [ (1 1 8. 3 3 6) (\$ 0. 3 7 2 7) (0. 7 3 3 3 3) ] \\ P = \$ 10.49351 + \$ 3.23682 = \$ 13.73033 \\ \end{array}
 $$
 
 Applying this model to the other two pharmaceutical companies, we see that the model produces an estimated price that is closer to the actual price than the fair value based on the constant growth model:
@@ -362,13 +362,13 @@ Applying this model to the other two pharmaceutical companies, we see that the m
 Letting  $g$  be the growth rate of dividends, then the geometric dividend stream is
 
 $$
-D _ {t + 1} = \left\{ \begin{array}{c} D _ {t} (1 + g) \text {w i t h p r o b a b i l i t y} p \\ D _ {t} \text {w i t h p r o b a b i l i t y} 1 - p \end{array} \right. \text {f o r} t = 1, 2, \ldots
+D_{t + 1} = \left\{ \begin{array}{c} D_{t} (1 + g) \text{wi th pr ob ab il it y} p \\ D_{t} \text{wi th pr ob ab il it y} 1 - p \end{array} \right. \text{fo r} t = 1, 2, \ldots
 $$
 
 Hurley and Johnson (1998b) show that the price of the stock in this case is:
 
 $$
-P = \frac {D _ {0} (1 + p g)}{r - p g} \tag {9}
+P = \frac{D_{0} (1 + p g)}{r - p g} \tag {9}
 $$
 
 Equation (9) is the binomial stochastic DDM assuming a geometric growth rate and a constant discount rate.
@@ -382,19 +382,19 @@ The trinomial stochastic DDM allows for dividend cuts. Within the Hurley-Johnson
 The additive stochastic DDM can be extended to allow for dividend cuts as follow:
 
 $$
-D _ {t + 1} = \left\{ \begin{array}{c} D _ {t} + C \text {w i t h p r o b a b i l i t y} p _ {U} \\ D _ {t} - C \text {w i t h p r o b a b i l i t y} p _ {D} \\ D _ {t} \text {w i t h p r o b a b i l i t y} \\ 1 - p _ {C} = 1 - p _ {U} - p _ {D} \end{array} \right. \text {f o r} t = 1, 2, \ldots
+D_{t + 1} = \left\{ \begin{array}{c} D_{t} + C \text{wi th pr ob ab il it y} p_{U} \\ D_{t} - C \text{wi th pr ob ab il it y} p_{D} \\ D_{t} \text{wi th pr ob ab il it y} \\ 1 - p_{C} = 1 - p_{U} - p_{D} \end{array} \right. \text{fo r} t = 1, 2, \ldots
 $$ where
 
 
 $$
-\begin{array}{l} p _ {U} = \underset {\text {i n c r e a s e}} {\text {p r o b a b i l i t y t h a t t h e d i v i d e n d w i l l}} \\ p _ {D} = \text {p r o b a b i l i t y} \text {t h a t t h e d i v i d e n d w i l l} \\ p _ {C} = \text {p r o b a b i l i t y} \text {t h a t t h e d i v i d e n d w i l l b e} \\ \end{array}
+\begin{array}{l} p_{U} = \underset {\text{in cr ea se}} {\text{pr ob ab il it yt ha tt he di vi de nd wi ll}} \\ p_{D} = \text{pr ob ab il it y} \text{th at th ed iv id en dw il l} \\ p_{C} = \text{pr ob ab il it y} \text{th at th ed iv id en dw il lb e} \\ \end{array}
 $$
 
 The theoretical value of the stock based on the trinomial additive stochastic DDM then becomes:
 
 
 $$
-P = \frac {D _ {0}}{r} + \left[ \frac {1}{r} + \frac {1}{r ^ {2}} \right] C \left(p _ {U} - p _ {D}\right) \tag {10}
+P = \frac{D_{0}}{r} + \left[ \frac{1}{r} + \frac{1}{r^{2}} \right] C \left(p_{U} - p_{D}\right) \tag {10}
 $$
 
 Notice that when  $p_D$  is zero (that is, there is no possibility for a cut in dividends), equation (10) reduces to equation (8).
@@ -404,12 +404,12 @@ Notice that when  $p_D$  is zero (that is, there is no possibility for a cut in 
 For the trinomial geometric stochastic DDM allowing for a possibility of cuts, we have:
 
 $$
-D _ {t + 1} = \left\{ \begin{array}{l} D _ {t} (1 + g) \text {w i t h p r o b a b i l i t y} p _ {U} \\ D _ {t} (1 - g) \text {w i t h p r o b a b i l i t y} p _ {D} \\ D _ {t} \text {w i t h p r o b a b i l i t y} 1 - p _ {C} \\ = 1 - p _ {U} - p _ {D} \end{array} \right. \text {f o r} t = 1, 2, \ldots
+D_{t + 1} = \left\{ \begin{array}{l} D_{t} (1 + g) \text{wi th pr ob ab il it y} p_{U} \\ D_{t} (1 - g) \text{wi th pr ob ab il it y} p_{D} \\ D_{t} \text{wi th pr ob ab il it y} 1 - p_{C} \\ = 1 - p_{U} - p_{D} \end{array} \right. \text{fo r} t = 1, 2, \ldots
 $$ and the theoretical price is:
 
 
 $$
-P = \frac {D _ {0} [ 1 + (p _ {U} + p _ {D}) ]}{r - (p _ {U} - p _ {D}) g} \tag {11}
+P = \frac{D_{0} [ 1 + (p_{U} + p_{D}) ]}{r - (p_{U} - p_{D}) g} \tag {11}
 $$
 
 Once again, substituting zero for  $p_D$ , equation (11) reduces to equation (9)—the binomial geometric stochastic DDM.
@@ -440,7 +440,7 @@ Thus far, we have seen how to calculate the fair price of a stock given the esti
 The analysis can be recast in terms of expected return. This is found by calculating the return that will make the present value of the expected cash flows equal to the actual price. Mathematically, this is expressed as follows:
 
 $$
-\begin{array}{l} P _ {A} = \frac {D _ {1}}{(1 + E R) ^ {1}} + \frac {D _ {2}}{(1 + E R) ^ {2}} + \dots + \frac {D _ {N}}{(1 + E R) ^ {N}} \\ + \frac {P _ {N}}{(1 + E R) ^ {N}} \tag {12} \\ \end{array}
+\begin{array}{l} P_{A} = \frac{D_{1}}{(1 + E R)^{1}} + \frac{D_{2}}{(1 + E R)^{2}} + \dots + \frac{D_{N}}{(1 + E R)^{N}} \\ + \frac{P_{N}}{(1 + E R)^{N}} \tag {12} \\ \end{array}
 $$ where
 
 
@@ -451,17 +451,17 @@ $ER =$  expected return
 The expected return (ER) in equation (12). For example, consider the following inputs used at the outset of this entry to illustrate the finite life general DDM as given by equation (3). For stock XYZ, the inputs assumed are:
 
 $$
-D _ {1} = \ 2. 0 0 \quad D _ {2} = \ 2. 2 0 \quad D _ {3} = \ 2. 3 0
+D_{1} = \ 2. 0 0 \quad D_{2} = \ 2. 2 0 \quad D_{3} = \ 2. 3 0
 $$
 
 $$
-D _ {4} = \$ 2. 5 5 \quad D _ {5} = \$ 2. 6 5 \quad P _ {5} = \$ 2 6 \quad N = 5
+D_{4} = \$ 2. 5 5 \quad D_{5} = \$ 2. 6 5 \quad P_{5} = \$ 2 6 \quad N = 5
 $$
 
 We calculated a fair price based on equation (3) to be  \$24.90. Suppose that the actual price is\$ 25.89. Then the expected return is found by solving the following equation for ER:
 
 $$
-\begin{array}{l} \$ 25.89 = \frac {\$ 2.00}{(1 + E R)} + \frac {\$ 2.20}{(1 + E R) ^ {2}} + \frac {\$ 2.30}{(1 + E R) ^ {3}} \\ + \frac {\mathbb {S} 2 . 5 5}{(1 + E R) ^ {4}} + \frac {\mathbb {S} 2 . 6 5}{(1 + E R) ^ {5}} + \frac {\mathbb {S} 2 6 . 0 0}{(1 + E R) ^ {5}} \\ \end{array}
+\begin{array}{l} \$ 25.89 = \frac{\$ 2.00}{(1 + E R)} + \frac{\$ 2.20}{(1 + E R)^{2}} + \frac{\$ 2.30}{(1 + E R)^{3}} \\ + \frac{\mathbb {S} 2 . 5 5}{(1 + E R)^{4}} + \frac{\mathbb {S} 2 . 6 5}{(1 + E R)^{5}} + \frac{\mathbb {S} 2 6 . 0 0}{(1 + E R)^{5}} \\ \end{array}
 $$
 
 The expected return is  $9\%$ .
@@ -479,7 +479,7 @@ With the same set of inputs, the identification of a stock being mispriced or fa
 While the illustration above uses the basic DDM, the expected return can be computed for any of the models. In some cases, the calculation of the expected return is simple since a formula can be derived that specifies the expected return in terms of the other variables. For example, for the constant growth DDM given by equation (5), the expected return  $(r)$  can be easily solved to give:
 
 
-$$ r = \frac {D _ {1}}{P} + g
+$$ r = \frac{D_{1}}{P} + g
 $$
 
 Rearranging the constant growth model to solve for the expected return, we see that the required rate of return can be specified as the sum of the dividend yield and the expected growth rate of dividends.

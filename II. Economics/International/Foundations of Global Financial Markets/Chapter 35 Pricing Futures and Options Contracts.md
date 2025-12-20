@@ -192,17 +192,17 @@ According to the arbitrage arguments we have just presented, we see that the equ
 To develop a theory of futures pricing, we will use the following notation:
 
 $$
-F = \text {F u t u r e s p r i c e} (\mathbb {S})
+F = \text{Fu tu re sp ri ce} (\mathbb {S})
 $$
 
 $$
-P = \text {C a s h m a r k e t p r i c e} (\mathbb {S})
+P = \text{Ca sh ma rk et pr ic e} (\mathbb {S})
 $$
 
-$$ r = \text{Financing cost} (\%)
+$$ r = \text{Financingcost} (\%)
 $$
 
-$$ y = \text {Cash yield} (\%)
+$$ y = \text{Cashyield} (\%)
 $$
 
 Now, consider the cash and carry trade:
@@ -297,10 +297,10 @@ It is important to note that, in the absence of initial and variation margins, t
 
 When deriving the theoretical futures price, we assumed that the investor's borrowing and lending rates are equal. Typically, however, the borrowing rate is higher than the lending rate. The impact of this inequality is important and easy to identify. We begin by adopting these symbols for the two rates:
 
-$$ r _ {B} = \text {B o r r o w i n g r a t e},
+$$ r_{B} = \text{Bo rr ow in gr at e},
 $$
 
-$$ r _ {L} = \text {L e n d i n g r a t e}.
+$$ r_{L} = \text{Le nd in gr at e}.
 $$
 
 Now, consider the cash and carry trade:
@@ -314,7 +314,7 @@ Borrow  $P$  at  $r_B$  until the settlement date.
 Clearly, the futures price that would produce no arbitrage profit is
 
 $$
-F = P + P \left(r _ {B} - y\right).
+F = P + P \left(r_{B} - y\right).
 $$
 
 Recall that the reverse cash and carry trade is
@@ -328,19 +328,19 @@ Invest (lend)  $P$  at  $r_L$  until the settlement date.
 The futures price that would prevent a riskless profit is
 
 $$
-F = P + P (r _ {L} - y).
+F = P + P (r_{L} - y).
 $$
 
 These two equations together provide boundaries between which the futures price will be in equilibrium. The first equation establishes the upper boundary, and the second equation the lower boundary. For example, assume that the borrowing rate is  $8\%$  per year, or  $2\%$  for three months, and the lending rate is  $6\%$  per year, or  $1.5\%$  for three months. According to the first equation, the upper boundary is
 
 $$
-F (\text {u p p e r b o u n d a r y}) = \ 1 0 0 + \ 1 0 0 (0. 0 2 - 0. 0 3) = \ 9 9.
+F (\text{up pe rb ou nd ar y}) = \ 1 0 0 + \ 1 0 0 (0. 0 2 - 0. 0 3) = \ 9 9.
 $$
 
 The lower boundary according to the second equation is
 
 $$
-F (\text {l o w e r b o u n d a r y}) = \ 1 0 0 + \ 1 0 0 (0. 0 1 5 - 0. 0 3) = \ 9 8. 5 0.
+F (\text{lo we rb ou nd ar y}) = \ 1 0 0 + \ 1 0 0 (0. 0 1 5 - 0. 0 3) = \ 9 8. 5 0.
 $$
 
 Thus, equilibrium is achieved if the futures price takes on any value between the two boundaries. In other words, equilibrium requires that $98.50 ≤ F ≤ $99.
@@ -516,7 +516,7 @@ We assume further that there is a call option on this asset with a strike price 
 If the price of the asset one year from now is \$100, the buyer of the call option will exercise it. Then the investor will have to deliver one unit of the asset in exchange for the strike price, \$80. As the investor has only two-thirds of a unit of the asset, she has to buy one-third at a cost of \$100/3 (the market price divided by 3). Consequently, the outcome will equal the strike price of \$80 received, minus the 100/3 cost to acquire the one-third unit of the asset to deliver, plus whatever price the investor initially sold the call option for. That is, the outcome will be
 
 $$
-80 - 100 / 3 + \text {Call option price} = 46 \% + \text {Call option price}.
+80 - 100 / 3 + \text{Calloptionprice} = 46 \% + \text{Calloptionprice}.
 $$
 
 If instead the price of the asset one year from now is 70, the buyer of the call option will not exercise it. Consequently, the investor will own twothirds of a unit of the asset. At the price of  \$70, the value of two-thirds of a unit is$ 46  $\frac{2}{3}$ . The outcome in this case is then the value of the asset plus whatever price the investor received when she initially sold the call option. That is, the outcome will be
@@ -578,13 +578,13 @@ If the asset's price falls: 0.875 H \$80 - C_d, or \$70H - C_d.
 
 If the hedge is riskless, the payoffs must be the same. Thus,
 
-$$ u H S - C _ {u} = d H S - C _ {d}. \tag {35.1}
+$$ u H S - C_{u} = d H S - C_{d}. \tag {35.1}
 $$
 
 Solving equation (35.1) for the hedge ratio  $H$ , we have
 
 $$
-H = \frac {C _ {u} - C _ {d}}{(u - d) S}. \tag {35.2}
+H = \frac{C_{u} - C_{d}}{(u - d) S}. \tag {35.2}
 $$
 
 To determine the value of the hedge ratio  $H$ , we must know  $Cu$  and  $Cd$ . These two values are equal to the difference between the price of the asset and the strike price in the two possible states. Of course, the minimum value of the call option in any state is zero. Mathematically, the differences can be expressed as follows:
@@ -602,7 +602,7 @@ If the asset's price goes down:  $C_d = \text{Max} [0, ($ 70 - $80)] = $0.
 To continue with our illustration, we substitute the values of  $u, d, S, C_u,$  and  $C_d$  into equation (35.2) to obtain the hedge ratio's value:
 
 $$
-H = \frac {\mathbb {S} 20 - \mathbb {S} 0}{(1 . 2 5 - 0 . 8 7 5) \mathbb {S} 8 0} =
+H = \frac{\mathbb {S} 20 - \mathbb {S} 0}{(1 . 2 5 - 0 . 8 7 5) \mathbb {S} 8 0} =
 $$
 
 This value for  $H$  agrees with the amount of the asset purchased when we introduced this illustration.
@@ -631,19 +631,19 @@ $$
 
 We also know what the payoff will be for the hedged portfolio if the asset's price goes up or down. Because the payoff of the hedged portfolio will be the same whether the asset's price rises or falls, we can use the payoff if it goes up, which is
 
-$$ u H S - C _ {u}.
+$$ u H S - C_{u}.
 $$
 
 The payoff of the hedged portfolio given above should be the same as the initial cost of the portfolio given by equation (35.3). Equating the two, we have
 
 $$
-(1 + r) (H S - C) = u H S - C _ {u}. \tag {35.4}
+(1 + r) (H S - C) = u H S - C_{u}. \tag {35.4}
 $$
 
 Substituting equation (35.2) for  $H$  into equation (35.4) and solving for the call option price  $C$ , we find
 
 $$
-C = \left(\frac {1 + r - d}{u - d}\right) \left(\frac {C _ {u}}{1 + r}\right) + \left(\frac {u - 1 - r}{u - d}\right) \left(\frac {C _ {d}}{1 + r}\right). \tag {35.5}
+C = \left(\frac{1 + r - d}{u - d}\right) \left(\frac{C_{u}}{1 + r}\right) + \left(\frac{u - 1 - r}{u - d}\right) \left(\frac{C_{d}}{1 + r}\right). \tag {35.5}
 $$
 
 Equation (35.5) is the formula for the one-period binomial option pricing model. We would have derived the same formula if we had used the payoff for a decline in the price of the underlying asset. This derivation is left as an exercise for the reader.
@@ -660,17 +660,17 @@ $$ r = 0. 1 0,
 $$
 
 $$
-C _ {u} = \$ 20,
+C_{u} = \$ 20,
 $$
 
 $$
-C _ {d} = \$ 0,
+C_{d} = \$ 0,
 $$ we get
 
 
 $$
 
-\begin{array}{l} C = \left(\frac {1 + 0 . 1 0 - 0 . 8 7 5}{1 . 2 5 - 0 . 8 7 5}\right) \left(\frac {\mathbb {S} 2 0}{1 + 0 . 1 0}\right) + \left(\frac {1 . 2 5 - 1 - 0 . 1 0}{1 . 2 5 - 0 . 8 7 5}\right) \left(\frac {\mathbb {S} 0}{1 + 0 . 1 0}\right). \\ = \$ 10.90 \\ \end{array}
+\begin{array}{l} C = \left(\frac{1 + 0 . 1 0 - 0 . 8 7 5}{1 . 2 5 - 0 . 8 7 5}\right) \left(\frac{\mathbb {S} 2 0}{1 + 0 . 1 0}\right) + \left(\frac{1 . 2 5 - 1 - 0 . 1 0}{1 . 2 5 - 0 . 8 7 5}\right) \left(\frac{\mathbb {S} 0}{1 + 0 . 1 0}\right). \\ = \$ 10.90 \\ \end{array}
 
 $$
 

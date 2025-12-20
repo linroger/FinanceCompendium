@@ -74,7 +74,7 @@ L-M: Liquidity - Money Supply
 # A "stochastic" trend for potential output growth
 
 $$
-\uparrow \Delta y ^ {*} = \uparrow g + \epsilon_ {y}
+\uparrow \Delta y^{*} = \uparrow g + \epsilon_{y}
 $$
 
 Economic growth External shock
@@ -86,7 +86,7 @@ Economic growth External shock
 # An IS curve relating the output gap to lagged output gap and lagged interest rates
 
 $$
-\downarrow y _ {t} - y _ {t} ^ {*} = \phi \cdot \left| (y _ {- 1} - y _ {- 1} ^ {*}) - \sum_ {t = 1} ^ {4} \beta_ {t} \right| (i _ {- t} - E (\pi_ {- t}) - r ^ {*}) + \epsilon_ {d}
+\downarrow y_{t} - y_{t}^{*} = \phi \cdot \left| (y_{- 1} - y_{- 1}^{*}) - \sum_{t = 1}^{4} \beta_{t} \right| (i_{- t} - E (\pi_{- t}) - r^{*}) + \epsilon_{d}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/1a1e65b0620738c6d7b74a0478f94bfe6506d3cd315477e5d595d555710aa76d.jpg)
@@ -108,7 +108,7 @@ External shock
 An expectations equation which is a convex combination between future and past inflation.
 
 $$
-\big | E (\pi) = \big | \lambda \pi^ {o l s} + \big | (1 - \lambda) \pi_ {- 1},
+\big | E (\pi) = \big | \lambda \pi^{o l s} + \big | (1 - \lambda) \pi_{- 1},
 $$
 
 where  $\pi^{ols}$  is an inflation forecast under an OLS model and  $\lambda$  is the degree of inflation stickiness,
@@ -124,7 +124,7 @@ where  $\pi^{ols}$  is an inflation forecast under an OLS model and  $\lambda$  
 Monetary policy reacts in a systematic fashion to the estimated output gap and to the deviation of annual inflation from the inflation target
 
 $$
-\boldsymbol {i} = \boldsymbol {r} ^ {* *} + (\boldsymbol {p} - \boldsymbol {p} _ {- 4}) + \tau_ {\pi} (\boldsymbol {p} - \boldsymbol {p} _ {- 4} - \boldsymbol {\pi} ^ {*}) + \tau_ {y} E (g a p),
+\boldsymbol {i} = \boldsymbol {r}^{* *} + (\boldsymbol {p} - \boldsymbol {p}_{- 4}) + \tau_{\pi} (\boldsymbol {p} - \boldsymbol {p}_{- 4} - \boldsymbol {\pi}^{*}) + \tau_{y} E (g a p),
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/db57d05409f06b2d7d73a35eb81ed561a72b9bc0d368efd9c3147427d2d92cf4.jpg)
@@ -372,25 +372,25 @@ A "stochastic" trend for potential output growth,
 # A "stochastic" trend for potential output growth
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 # A Phillips-Curve relating inflation to (i) inflation expectations and (ii) lagged output gap
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 # An IS curve relating the output gap to lagged output gap and lagged interest rates
 
 $$
-\mathbf {y} - \boldsymbol {y} ^ {*} = \boldsymbol {\phi} \cdot \left(\boldsymbol {y} _ {- 1} - \boldsymbol {y} _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Bigl (\boldsymbol {i} _ {- t} - E \bigl (\boldsymbol {\pi} _ {- t} \bigr) - \boldsymbol {r} ^ {*} \Bigr) + \epsilon_ {d}
+\mathbf {y} - \boldsymbol {y}^{*} = \boldsymbol {\phi} \cdot \left(\boldsymbol {y}_{- 1} - \boldsymbol {y}_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Bigl (\boldsymbol {i}_{- t} - E \bigl (\boldsymbol {\pi}_{- t} \bigr) - \boldsymbol {r}^{*} \Bigr) + \epsilon_{d}
 $$
 
 An expectations equation which is a convex combination between future and past inflation.
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1},
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1},
 $$
 
 where  $\pi^{ols}$  is an inflation forecast under an OLS model and  $\lambda$  is the degree of inflation stickiness,
@@ -406,7 +406,7 @@ where  $\pi^{ols}$  is an inflation forecast under an OLS model and  $\lambda$  
 Monetary policy reacts in a systematic fashion to the estimated output gap and to the deviation of annual inflation from the inflation target
 
 $$
-i = r ^ {* *} + \left(p - p _ {- 4}\right) + \tau_ {\pi} \left(p - p _ {- 4} - \pi^ {*}\right) + \tau_ {y} E (g a p),
+i = r^{* *} + \left(p - p_{- 4}\right) + \tau_{\pi} \left(p - p_{- 4} - \pi^{*}\right) + \tau_{y} E (g a p),
 $$
 
 # where
@@ -624,15 +624,15 @@ Methodology: Ball and Sheridan (2003)
 IT is associated with a 4.8 pp (3.6 pp) reduction in average (standard deviation of) inflation
 
 $$
-X _ {i, t} = \phi \left[ \alpha^ {T} d _ {i, t} + \alpha^ {N} \left(1 - d _ {i, t}\right) \right] + (1 - \phi) X _ {i, t - 1},
+X_{i, t} = \phi \left[ \alpha^{T} d_{i, t} + \alpha^{N} \left(1 - d_{i, t}\right) \right] + (1 - \phi) X_{i, t - 1},
 $$
 
 $$
-X _ {i, \text {p o s t}} - X _ {i, \text {p r e}} = \phi \alpha^ {T} d _ {i} + \phi \alpha^ {N} (1 - d _ {i}) - \phi X _ {i, \text {p r e}} + e _ {i},
+X_{i, \text{po st}} - X_{i, \text{pr e}} = \phi \alpha^{T} d_{i} + \phi \alpha^{N} (1 - d_{i}) - \phi X_{i, \text{pr e}} + e_{i},
 $$
 
 $$
-X _ {i, \text {p o s t}} - X _ {i, \text {p r e}} = a _ {0} + a _ {1} d _ {i} + b X _ {i, \text {p r e}} + e _ {i}.
+X_{i, \text{po st}} - X_{i, \text{pr e}} = a_{0} + a_{1} d_{i} + b X_{i, \text{pr e}} + e_{i}.
 $$
 
 Table 4.3. Baseline Results  
@@ -1606,7 +1606,7 @@ Data is from a sample of 17 LAC countries for the period 1940-2019. Final data s
 Using panel regressions, the baseline specification takes the following form:
 
 $$
-\pi_ {i, t} = \alpha_ {c} + \beta C B I _ {i, t} + \delta X _ {i, t - 1} + \varepsilon_ {f, i, t}
+\pi_{i, t} = \alpha_{c} + \beta C B I_{i, t} + \delta X_{i, t - 1} + \varepsilon_{f, i, t}
 $$
 
 The panel approach is aimed at estimating the "average" response of inflation to difference in CB independence.
@@ -1624,133 +1624,133 @@ Table 4. Central Bank Independence and Inflation
 # A basic CB model
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 $$
-\mathbf {y} - \boldsymbol {y} ^ {*} = \boldsymbol {\phi} \cdot \left(\boldsymbol {y} _ {- 1} - \boldsymbol {y} _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Bigl (\boldsymbol {i} _ {- t} - E \bigl (\boldsymbol {\pi} _ {- t} \bigr) - \boldsymbol {r} ^ {*} \Bigr) + \epsilon_ {d}
+\mathbf {y} - \boldsymbol {y}^{*} = \boldsymbol {\phi} \cdot \left(\boldsymbol {y}_{- 1} - \boldsymbol {y}_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Bigl (\boldsymbol {i}_{- t} - E \bigl (\boldsymbol {\pi}_{- t} \bigr) - \boldsymbol {r}^{*} \Bigr) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 $$
-\mathbf {y} - \mathbf {y} ^ {*} = \boldsymbol {\phi} \cdot \left(\mathbf {y} _ {- 1} - \mathbf {y} _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Bigl (\mathbf {i} _ {- t} - E \bigl (\boldsymbol {\pi} _ {- t} \bigr) - \mathbf {r} ^ {*} \Bigr) + \epsilon_ {d}
+\mathbf {y} - \mathbf {y}^{*} = \boldsymbol {\phi} \cdot \left(\mathbf {y}_{- 1} - \mathbf {y}_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Bigl (\mathbf {i}_{- t} - E \bigl (\boldsymbol {\pi}_{- t} \bigr) - \mathbf {r}^{*} \Bigr) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 $$
-\mathbf {y} \downarrow_ {i = 0} ^ {t} = \phi \cdot \left(y _ {- 1} - y _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \left(i _ {- t} - E \left(\pi_ {- t}\right) - r ^ {*}\right) + \epsilon_ {d}
+\mathbf {y} \downarrow_{i = 0}^{t} = \phi \cdot \left(y_{- 1} - y_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \left(i_{- t} - E \left(\pi_{- t}\right) - r^{*}\right) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 $$
-\mathbf {y} \overset {\downarrow} {- y ^ {*}} = \boldsymbol {\phi} \cdot \left(y _ {- 1} - y _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Big (i _ {- t} - E \big (\pi_ {- t} \big) - r ^ {*} \Big) + \epsilon_ {d}
+\mathbf {y} \overset {\downarrow} {- y^{*}} = \boldsymbol {\phi} \cdot \left(y_{- 1} - y_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Big (i_{- t} - E \big (\pi_{- t} \big) - r^{*} \Big) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/eb3af9f5197a9eb2666b719f5394c823a74f4da06049a447c6e70c74cabe71a7.jpg)
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} \left(y _ {- t} - y _ {- t} ^ {*}\right) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} \left(y_{- t} - y_{- t}^{*}\right) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/28bc75918dc64fc7bc4227b6d88404a9ef07313313b0ba20a14a2dcc2b3a432e.jpg)
 
 $$
-\mathbf {y} \overset {\downarrow} {- y ^ {*}} = \boldsymbol {\phi} \cdot \left(y _ {- 1} - y _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Big (i _ {- t} - E \big (\pi_ {- t} \big) - r ^ {*} \Big) + \epsilon_ {d}
+\mathbf {y} \overset {\downarrow} {- y^{*}} = \boldsymbol {\phi} \cdot \left(y_{- 1} - y_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Big (i_{- t} - E \big (\pi_{- t} \big) - r^{*} \Big) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/8238d9a392a212988ad293a244b2adb8c4033ea3b9ce4e68610980d8bd73fe6d.jpg)
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} \left(y _ {- t} - y _ {- t} ^ {*}\right) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} \left(y_{- t} - y_{- t}^{*}\right) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/270c65ab1d882b2e684cb8cb6ee417262f3382d18a7eecce5ca7a7647af53245.jpg)
 
 $$
-\mathbf {y} - \mathbf {y} ^ {*} = \boldsymbol {\phi} \cdot \left(\mathbf {y} _ {- 1} - \mathbf {y} _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \Big (i _ {- t} - E \big (\pi_ {- t} \big) - r ^ {*} \Big) + \epsilon_ {d}
+\mathbf {y} - \mathbf {y}^{*} = \boldsymbol {\phi} \cdot \left(\mathbf {y}_{- 1} - \mathbf {y}_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \Big (i_{- t} - E \big (\pi_{- t} \big) - r^{*} \Big) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 $$
-\Delta y ^ {*} = g + \epsilon_ {y}
+\Delta y^{*} = g + \epsilon_{y}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/2b23f6d016d0ea1907c81d245f884c7fd75931be114a1f46cb15c68b891c3e83.jpg)
 
 $$
-\pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} \left(y _ {- t} - y _ {- t} ^ {*}\right) \right] \cdot 4 + \epsilon_ {\pi}
+\pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} \left(y_{- t} - y_{- t}^{*}\right) \right] \cdot 4 + \epsilon_{\pi}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/ccea44aaae11f1c31344210d0fa94a58cd134e3c8151feb4ddc6174409a234fa.jpg)
 
 $$
-\mathbf {y} - \mathbf {y} ^ {*} = \boldsymbol {\phi} \cdot \left(\mathbf {y} _ {- 1} - \mathbf {y} _ {- 1} ^ {*}\right) - \sum_ {\mathrm {i}} ^ {+} \beta_ {t} \left(i _ {- t} - E \left(\pi_ {- t}\right) - r ^ {*}\right) + \epsilon_ {d}
+\mathbf {y} - \mathbf {y}^{*} = \boldsymbol {\phi} \cdot \left(\mathbf {y}_{- 1} - \mathbf {y}_{- 1}^{*}\right) - \sum_{\mathrm{i}}^{+} \beta_{t} \left(i_{- t} - E \left(\pi_{- t}\right) - r^{*}\right) + \epsilon_{d}
 $$
 
 $$
-E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1}
+E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/b7e9f8e8b066f6043161ed75b402f75fd9645ea991d24d9faf20eade94c63602.jpg)
 
 $$
-\begin{array}{l} \Delta y ^ {*} = g + \epsilon_ {y} \\ \pi = E (\pi) + \left[ \sum_ {t = 0} ^ {4} \alpha_ {t} (y _ {- t} - y _ {- t} ^ {*}) \right] \cdot 4 + \epsilon_ {\pi} \\ \downarrow \\ y - y ^ {*} = \phi \cdot \left(y _ {- 1} - y _ {- 1} ^ {*}\right) - \sum_ {t = 0} ^ {4} \beta_ {t} \binom {\downarrow} {i _ {- t}} - 1 \\ E (\pi) = \lambda \pi^ {o l s} + (1 - \lambda) \pi_ {- 1} \end{array}
+\begin{array}{l} \Delta y^{*} = g + \epsilon_{y} \\ \pi = E (\pi) + \left[ \sum_{t = 0}^{4} \alpha_{t} (y_{- t} - y_{- t}^{*}) \right] \cdot 4 + \epsilon_{\pi} \\ \downarrow \\ y - y^{*} = \phi \cdot \left(y_{- 1} - y_{- 1}^{*}\right) - \sum_{t = 0}^{4} \beta_{t} \binom {\downarrow} {i_{- t}} - 1 \\ E (\pi) = \lambda \pi^{o l s} + (1 - \lambda) \pi_{- 1} \end{array}
 $$
 
 # Fiscal budget restrictions at work: explaining decades of instabilities
@@ -1844,13 +1844,13 @@ Source: IMF, 2019 Article IV Consultation.
 # Demand for real money balances equation:
 
 $$
-\frac {M _ {t}}{P _ {t}} = \gamma - \delta \left(\frac {P _ {t + 1}}{P _ {t}}\right)
+\frac{M_{t}}{P_{t}} = \gamma - \delta \left(\frac{P_{t + 1}}{P_{t}}\right)
 $$
 
 where  $M_{t}$  is the outstanding stock of money,  $P_{t}$  is the price level, and  $\gamma > \delta$ . Solving for the difference equation above, we get*:
 
 $$
-P _ {t} = \frac {1}{\gamma} \sum_ {j = 0} ^ {\infty} \left(\frac {\delta}{\gamma}\right) ^ {j} M _ {t + j}
+P_{t} = \frac{1}{\gamma} \sum_{j = 0}^{\infty} \left(\frac{\delta}{\gamma}\right)^{j} M_{t + j}
 $$
 
 # Main result
@@ -1870,7 +1870,7 @@ variables aspercent ofGDP
 We can write the budget constraint (as percentage of GDP) as:
 
 $$
-\begin{array}{l} (\theta_ {t} ^ {N} - \theta_ {t - 1} ^ {N}) + (\theta_ {t} ^ {r} - \theta_ {t - 1} ^ {r}) + (\xi_ {t} \theta_ {t} ^ {*} - \xi_ {t} \theta_ {t - 1} ^ {*}) + (m _ {t} - m _ {t - 1}) + m _ {t - 1} \bigg (1 - \frac {1}{g _ {t} \pi_ {t}} \bigg) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t} \\ \end{array}
+\begin{array}{l} (\theta_{t}^{N} - \theta_{t - 1}^{N}) + (\theta_{t}^{r} - \theta_{t - 1}^{r}) + (\xi_{t} \theta_{t}^{*} - \xi_{t} \theta_{t - 1}^{*}) + (m_{t} - m_{t - 1}) + m_{t - 1} \bigg (1 - \frac{1}{g_{t} \pi_{t}} \bigg) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t} \\ \end{array}
 $$
 
 # CONCEPTUAL FRAMEWORK
@@ -1878,7 +1878,7 @@ $$
 We can write the budget constraint as:
 
 $$
-\begin{array}{l} (\theta_ {t} ^ {N} - \theta_ {t - 1} ^ {N}) + (\theta_ {t} ^ {r} - \theta_ {t - 1} ^ {r}) + (\xi_ {t} \theta_ {t} ^ {*} - \xi_ {t} \theta_ {t - 1} ^ {*}) + (m _ {t} - m _ {t - 1}) + m _ {t - 1} \left(1 - \frac {1}{g _ {t} \pi_ {t}}\right) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t} \\ \end{array}
+\begin{array}{l} (\theta_{t}^{N} - \theta_{t - 1}^{N}) + (\theta_{t}^{r} - \theta_{t - 1}^{r}) + (\xi_{t} \theta_{t}^{*} - \xi_{t} \theta_{t - 1}^{*}) + (m_{t} - m_{t - 1}) + m_{t - 1} \left(1 - \frac{1}{g_{t} \pi_{t}}\right) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t} \\ \end{array}
 $$
 
 - LHS: the first three terms represent increases in debt-to-output ratios in the three different types of debt: nominal, indexed, and foreign currency.  
@@ -1903,7 +1903,7 @@ Source: Esquivel, Kehoe and Nicolini, 2019.
 We can write the budget constraint as:
 
 $$
-\begin{array}{l} (\theta_ {t} ^ {N} - \theta_ {t - 1} ^ {N}) + (\theta_ {t} ^ {r} - \theta_ {t - 1} ^ {r}) + (\xi_ {t} \theta_ {t} ^ {*} - \xi_ {t} \theta_ {t - 1} ^ {*}) + (m _ {t} - m _ {t - 1}) + m _ {t - 1} \left(1 - \frac {1}{g _ {t} \pi_ {t}}\right) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t} \\ \end{array}
+\begin{array}{l} (\theta_{t}^{N} - \theta_{t - 1}^{N}) + (\theta_{t}^{r} - \theta_{t - 1}^{r}) + (\xi_{t} \theta_{t}^{*} - \xi_{t} \theta_{t - 1}^{*}) + (m_{t} - m_{t - 1}) + m_{t - 1} \left(1 - \frac{1}{g_{t} \pi_{t}}\right) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t} \\ \end{array}
 $$
 
 - LHS: the first three terms represent increases in debt-to-output ratios in the three different types of debt: nominal, indexed, and foreign currency.  
@@ -1915,7 +1915,7 @@ $$
 - As a first approximation, the limit should be related to the ability of the government to generate future surpluses:
 
 $$
-\theta_ {t} ^ {N} + \theta_ {t} ^ {r} + \xi_ {t} \theta_ {t} ^ {*} \leq \Theta
+\theta_{t}^{N} + \theta_{t}^{r} + \xi_{t} \theta_{t}^{*} \leq \Theta
 $$
 
 where,  $\Theta$  is an exogenously specified number.
@@ -1928,7 +1928,7 @@ Debt financing does not eliminate the interdependence between fiscal and monetar
 Fiscal budget constraint when the debt limit is binding and the financing needs are still positive:
 
 $$
-\begin{array}{l} (m _ {t} - m _ {t - 1}) + m _ {t - 1} \left(1 - \frac {1}{g _ {t} \pi_ {t}}\right) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t}, \\ \end{array}
+\begin{array}{l} (m_{t} - m_{t - 1}) + m_{t - 1} \left(1 - \frac{1}{g_{t} \pi_{t}}\right) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t}, \\ \end{array}
 $$
 
 Inflation is unavoidable!
@@ -1948,20 +1948,20 @@ Annual Inflation In percentage
 Assuming PPP holds:
 
 $$
-P _ {t} = E _ {t} P _ {t} ^ {*}
+P_{t} = E_{t} P_{t}^{*}
 $$
 
 - Then, given foreign inflation and a fixed exchange rate, the government pins down domestic inflation rate.  
 - Under this conditions, the real money demand equation determines the path for the money supply (impossible Trinity).
 
 $$
-\frac {M _ {t}}{P _ {t}} = \gamma - \delta \left(\frac {P _ {t + 1}}{P _ {t}}\right)
+\frac{M_{t}}{P_{t}} = \gamma - \delta \left(\frac{P_{t + 1}}{P_{t}}\right)
 $$
 
 - Fiscal budget constraint for a country which has reached its debt limit and has a fixed exchange rate regime.
 
 $$
-\begin{array}{l} (m _ {t} - m _ {t - 1}) + m _ {t - 1} \left(1 - \frac {1}{g _ {t} \pi_ {t}}\right) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t}, \\ \end{array}
+\begin{array}{l} (m_{t} - m_{t - 1}) + m_{t - 1} \left(1 - \frac{1}{g_{t} \pi_{t}}\right) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t}, \\ \end{array}
 $$
 
 - Step 1: despite the fiscal deficit, the exchange rate regime contain domestic inflation at the cost of a systemic decline in the stock of reserves.  
@@ -2126,14 +2126,14 @@ Real GDP per capita*
 Assuming PPP holds:
 
 $$
-P _ {t} = E _ {t} P _ {t} ^ {*}
+P_{t} = E_{t} P_{t}^{*}
 $$
 
 - Then, given foreign inflation and a fixed exchange rate, the government pins down domestic inflation rate. Under this conditions, the real money demand equation determines the path for the money supply.  
 In a country with debt constraints and fixed exchange rate regime.
 
 $$
-\begin{array}{l} (m _ {t} - m _ {t - 1}) + m _ {t - 1} \left(1 - \frac {1}{g _ {t} \pi_ {t}}\right) \\ = \theta_ {t - 1} ^ {N} \left(\frac {R _ {t - 1}}{g _ {t} \pi_ {t}} - 1\right) + \theta_ {t - 1} ^ {r} \left(\frac {r _ {t - 1}}{g _ {t}} - 1\right) + \xi_ {t} \theta_ {t - 1} ^ {*} \left(\frac {R _ {t - 1} ^ {*}}{g _ {t} \pi_ {t} ^ {*}} - 1\right) + d _ {t} + \tau_ {t}, \\ \end{array}
+\begin{array}{l} (m_{t} - m_{t - 1}) + m_{t - 1} \left(1 - \frac{1}{g_{t} \pi_{t}}\right) \\ = \theta_{t - 1}^{N} \left(\frac{R_{t - 1}}{g_{t} \pi_{t}} - 1\right) + \theta_{t - 1}^{r} \left(\frac{r_{t - 1}}{g_{t}} - 1\right) + \xi_{t} \theta_{t - 1}^{*} \left(\frac{R_{t - 1}^{*}}{g_{t} \pi_{t}^{*}} - 1\right) + d_{t} + \tau_{t}, \\ \end{array}
 $$
 
 - It is not possible to print money. Given a value for the primary deficit and the interest payments, the only way to satisfy the budget identity its through adjustments in transfers,  $\tau_{t}$ .  
@@ -2195,37 +2195,37 @@ Sources: Central Bank of Paraguay, Ministry of Finance, and Secretariat for Plan
 We start with:
 
 $$
-\frac {M _ {t}}{P _ {t}} = \gamma - \delta \left(\frac {P _ {t + 1}}{P _ {t}}\right)
+\frac{M_{t}}{P_{t}} = \gamma - \delta \left(\frac{P_{t + 1}}{P_{t}}\right)
 $$
 
 Solving for  $P_{t}$  returns:
 
 $$
-P _ {t} = \frac {1}{\gamma} (M _ {t} + \delta P _ {t + 1})
+P_{t} = \frac{1}{\gamma} (M_{t} + \delta P_{t + 1})
 $$
 
 Replacing  $P_{t + 1}$  we get:
 
 $$
-\begin{array}{l} P _ {t} = \frac {1}{\gamma} \bigg (M _ {t} + \delta \left(\frac {1}{\gamma} (M _ {t + 1} + \delta P _ {t + 2})\right) \bigg) \\ P _ {t} = \frac {1}{\gamma} \left(M _ {t} + \frac {\delta}{\gamma} M _ {t + 1} + \frac {\delta^ {2}}{\gamma} P _ {t + 2}\right) \\ \end{array}
+\begin{array}{l} P_{t} = \frac{1}{\gamma} \bigg (M_{t} + \delta \left(\frac{1}{\gamma} (M_{t + 1} + \delta P_{t + 2})\right) \bigg) \\ P_{t} = \frac{1}{\gamma} \left(M_{t} + \frac{\delta}{\gamma} M_{t + 1} + \frac{\delta^{2}}{\gamma} P_{t + 2}\right) \\ \end{array}
 $$
 
 Replacing  $P_{t + 2}$  we get:
 
 $$
-\begin{array}{l} P _ {t} = \frac {1}{\gamma} \bigg (M _ {t} + \frac {\delta}{\gamma} M _ {t + 1} + \frac {\delta^ {2}}{\gamma} \bigg (\frac {1}{\gamma} (M _ {t + 2} + \delta P _ {t + 3}) \bigg) \bigg) \\ P _ {t} = \frac {1}{\gamma} \left(M _ {t} + \frac {\delta}{\gamma} M _ {t + 1} + \frac {\delta^ {2}}{\gamma^ {2}} M _ {t + 2} + \frac {\delta^ {3}}{\gamma^ {2}} P _ {t + 3}\right) \\ \end{array}
+\begin{array}{l} P_{t} = \frac{1}{\gamma} \bigg (M_{t} + \frac{\delta}{\gamma} M_{t + 1} + \frac{\delta^{2}}{\gamma} \bigg (\frac{1}{\gamma} (M_{t + 2} + \delta P_{t + 3}) \bigg) \bigg) \\ P_{t} = \frac{1}{\gamma} \left(M_{t} + \frac{\delta}{\gamma} M_{t + 1} + \frac{\delta^{2}}{\gamma^{2}} M_{t + 2} + \frac{\delta^{3}}{\gamma^{2}} P_{t + 3}\right) \\ \end{array}
 $$
 
 If we continue replacing  $P_{t + 3}, P_{t + 4}, P_{t + 5}, \ldots$ :
 
 $$
-P _ {t} = \frac {1}{\gamma} \bigg (M _ {t} + \frac {\delta}{\gamma} M _ {t + 1} + \frac {\delta^ {2}}{\gamma^ {2}} M _ {t + 2} + \frac {\delta^ {3}}{\gamma^ {3}} M _ {t + 3} + \frac {\delta^ {4}}{\gamma^ {4}} M _ {t + 4} + \frac {\delta^ {5}}{\gamma^ {5}} M _ {t + 5} + \dots \bigg)
+P_{t} = \frac{1}{\gamma} \bigg (M_{t} + \frac{\delta}{\gamma} M_{t + 1} + \frac{\delta^{2}}{\gamma^{2}} M_{t + 2} + \frac{\delta^{3}}{\gamma^{3}} M_{t + 3} + \frac{\delta^{4}}{\gamma^{4}} M_{t + 4} + \frac{\delta^{5}}{\gamma^{5}} M_{t + 5} + \dots \bigg)
 $$
 
 Which is exactly what our solution states:
 
 $$
-P _ {t} = \frac {1}{\gamma} \sum_ {j = 0} ^ {\infty} \left(\frac {\delta}{\gamma}\right) ^ {j} M _ {t + j}
+P_{t} = \frac{1}{\gamma} \sum_{j = 0}^{\infty} \left(\frac{\delta}{\gamma}\right)^{j} M_{t + j}
 $$
 
 # Fiscal Adjustments
@@ -2498,7 +2498,7 @@ Notes: Cyclical components are calculated using the Hodrick-Prescott filter with
 Estimate the following equation:
 
 $$
-\Delta \frac {B}{Y} = \beta_ {0} + \beta_ {1} \left(\frac {Y - Y ^ {*}}{Y ^ {*}}\right) + \beta_ {2} \left(\frac {B}{Y _ {t - 1}}\right) + \gamma^ {\prime} x + f _ {i} + \varepsilon
+\Delta \frac{B}{Y} = \beta_{0} + \beta_{1} \left(\frac{Y - Y^{*}}{Y^{*}}\right) + \beta_{2} \left(\frac{B}{Y_{t - 1}}\right) + \gamma^{\prime} x + f_{i} + \varepsilon
 $$
 
 where,  $B$  is fiscal balance,  $Y$  is nominal GDP,  $Y^{*}$  is potential GDP,  $x$  is a vector of other control variables,  $f_{i}$  is a country fixed effect and  $\varepsilon$  is an error term.
@@ -2776,7 +2776,7 @@ Government Gross Debt (% of GDP)
 - Equation to estimate the average impulse response of output to fiscal consolidation using panel data analysis:
 
 $$
-g _ {i t} = \alpha + \sum_ {j = 1} ^ {2} \beta_ {j} g _ {i, t - j} + \sum_ {s = 0} ^ {2} \beta_ {s} A B F C _ {i, t - s} + \mu_ {i} + \lambda_ {t} + v _ {i t},
+g_{i t} = \alpha + \sum_{j = 1}^{2} \beta_{j} g_{i, t - j} + \sum_{s = 0}^{2} \beta_{s} A B F C_{i, t - s} + \mu_{i} + \lambda_{t} + v_{i t},
 $$
 
 The equation has the growth rate of real GDP  $(\mathrm{g})$  as the dependent variable. The explanatory variables are the current and lagged values of the fiscal consolidation measures, where ABFC is the estimated size of the action-based fiscal consolidation measures as a percent of GDP.
@@ -3039,7 +3039,7 @@ The 2016 OECD average tax-to-GDP ratio includes the one-off revenues from stabil
 Cyclically Adjusted Balance (CAB) = Cyclically adjusted revenue  $(\mathbf{T}^{\mathrm{CA}})$  - Cyclically adjusted expenditure  $(G^{\mathrm{CA}})$
 
 $$
-T ^ {C A} = T \left(\frac {Y ^ {P}}{Y}\right) ^ {\varepsilon_ {T, Y}}
+T^{C A} = T \left(\frac{Y^{P}}{Y}\right)^{\varepsilon_{T, Y}}
 $$
 
 T: Actual Revenue
@@ -3051,7 +3051,7 @@ $Y^{P}$ : Potential Output
 $\varepsilon_{T,Y}$ : Revenue elasticity
 
 $$
-G ^ {C A} = G \left(\frac {Y ^ {P}}{Y}\right) ^ {\varepsilon_ {G, Y}}
+G^{C A} = G \left(\frac{Y^{P}}{Y}\right)^{\varepsilon_{G, Y}}
 $$
 
 G: Actual Expenditure
@@ -3089,7 +3089,7 @@ There are several econometric/statistic methods to calculate elasticity. However
 Boom:
 
 $$
-Y > Y ^ {P} \rightarrow T ^ {C A}, G \leq G ^ {C A} \Rightarrow
+Y > Y^{P} \rightarrow T^{C A}, G \leq G^{C A} \Rightarrow
 $$
 
 The cyclically adjusted balance is less than the general balance (countercyclical)
@@ -3097,7 +3097,7 @@ The cyclically adjusted balance is less than the general balance (countercyclica
 Recession:
 
 $$
-Y <   Y ^ {P} \rightarrow T ^ {C A}, G \geq G ^ {C A} \Rightarrow
+Y <   Y^{P} \rightarrow T^{C A}, G \geq G^{C A} \Rightarrow
 $$
 
 The cyclically adjusted balance is greater than the general balance (countercyclical)
@@ -3141,7 +3141,7 @@ Notes: The indexed (2002 = 100) trend component of the real expenditure is calcu
 The structural balance indicator can be expressed as:
 
 $$
-\begin{array}{l} B E _ {t} = B e _ {t} - T N M I N _ {t} + \left\lfloor T N M I N _ {t} \left(\frac {Y _ {t} ^ {*}}{Y e _ {t}}\right) ^ {\gamma} \right\rfloor - T M I N _ {t} + T M I N E _ {t} - I C C _ {t} \\ + I C C E _ {t} - I C M _ {t} + I C M E _ {t} \\ \end{array}
+\begin{array}{l} B E_{t} = B e_{t} - T N M I N_{t} + \left\lfloor T N M I N_{t} \left(\frac{Y_{t}^{*}}{Y e_{t}}\right)^{\gamma} \right\rfloor - T M I N_{t} + T M I N E_{t} - I C C_{t} \\ + I C C E_{t} - I C M_{t} + I C M E_{t} \\ \end{array}
 $$
 
 where:
@@ -3387,7 +3387,7 @@ Overall balance
 Financing:
 
 $$
-D _ {t} - D _ {t - 1} = - O B _ {t}
+D_{t} - D_{t - 1} = - O B_{t}
 $$
 
 if  $OB > 0$  assets  $\uparrow$  or debt  $\downarrow$ : net debt
@@ -3395,7 +3395,7 @@ if  $OB > 0$  assets  $\uparrow$  or debt  $\downarrow$ : net debt
 if  $OB <   0$  assets  $\downarrow$  or debt  $\uparrow$  net debt
 
 $$
-D _ {t} = D _ {t - 1} - O B _ {t}
+D_{t} = D_{t - 1} - O B_{t}
 $$
 
 # Debt Dynamics
@@ -3403,23 +3403,23 @@ $$
 # Primary balance and debt:
 
 $$
-D _ {t} = D _ {t - 1} - O B _ {t}
+D_{t} = D_{t - 1} - O B_{t}
 $$
 
 $$
-D _ {t} = D _ {t - 1} - \left(R _ {t} - N I E _ {t} - I _ {t}\right)
+D_{t} = D_{t - 1} - \left(R_{t} - N I E_{t} - I_{t}\right)
 $$
 
 $$
-D _ {t} = D _ {t - 1} + I _ {t} - (R _ {t} - N I E _ {t})
+D_{t} = D_{t - 1} + I_{t} - (R_{t} - N I E_{t})
 $$
 
 $$
-D _ {t} = D _ {t - 1} + i D _ {t - 1} - P B _ {t}
+D_{t} = D_{t - 1} + i D_{t - 1} - P B_{t}
 $$
 
 $$
-D _ {t} = (1 + i) D _ {t - 1} - P B _ {t}
+D_{t} = (1 + i) D_{t - 1} - P B_{t}
 $$
 
 Autonomous component of debt dynamic
@@ -3462,27 +3462,27 @@ Country C
 # Debt dynamics in terms of GDP ratios: Overall Balance
 
 $$
-D _ {t} = D _ {t - 1} - O B _ {t}
+D_{t} = D_{t - 1} - O B_{t}
 $$
 
 $$
-\frac {D _ {t}}{G D P _ {t}} = \frac {D _ {t - 1}}{G D P _ {t}} - \frac {O B _ {t}}{G D P _ {t}}
+\frac{D_{t}}{G D P_{t}} = \frac{D_{t - 1}}{G D P_{t}} - \frac{O B_{t}}{G D P_{t}}
 $$
 
 $$
-\frac {D _ {t}}{G D P _ {t}} = \left(\frac {G D P _ {t - 1}}{G D P _ {t}}\right) \frac {D _ {t - 1}}{G D P _ {t - 1}} - \frac {O B _ {t}}{G D P _ {t}}
+\frac{D_{t}}{G D P_{t}} = \left(\frac{G D P_{t - 1}}{G D P_{t}}\right) \frac{D_{t - 1}}{G D P_{t - 1}} - \frac{O B_{t}}{G D P_{t}}
 $$
 
 $$
-\frac {G D P _ {t}}{G D P _ {t - 1}} = 1 + n
+\frac{G D P_{t}}{G D P_{t - 1}} = 1 + n
 $$
 
 $$
-\frac {D _ {t}}{G D P _ {t}} = \frac {1}{1 + n} \frac {D _ {t - 1}}{G D P _ {t - 1}} - \frac {O B _ {t}}{G D P _ {t}}
+\frac{D_{t}}{G D P_{t}} = \frac{1}{1 + n} \frac{D_{t - 1}}{G D P_{t - 1}} - \frac{O B_{t}}{G D P_{t}}
 $$
 
 $$
-d _ {t} = \frac {1}{1 + n} d _ {t - 1} - o b _ {t}
+d_{t} = \frac{1}{1 + n} d_{t - 1} - o b_{t}
 $$
 
 Evolution of debt ratio depends on:
@@ -3495,23 +3495,23 @@ Overall balance ratio
 # Primary balance and debt:
 
 $$
-D _ {t} = D _ {t - 1} - O B _ {t}
+D_{t} = D_{t - 1} - O B_{t}
 $$
 
 $$
-D _ {t} = D _ {t - 1} - \left(R _ {t} - N I E _ {t} - I _ {t}\right)
+D_{t} = D_{t - 1} - \left(R_{t} - N I E_{t} - I_{t}\right)
 $$
 
 $$
-D _ {t} = D _ {t - 1} + I _ {t} - (R _ {t} - N I E _ {t})
+D_{t} = D_{t - 1} + I_{t} - (R_{t} - N I E_{t})
 $$
 
 $$
-D _ {t} = D _ {t - 1} + i D _ {t - 1} - P B _ {t}
+D_{t} = D_{t - 1} + i D_{t - 1} - P B_{t}
 $$
 
 $$
-D _ {t} = (1 + i) D _ {t - 1} - P B _ {t}
+D_{t} = (1 + i) D_{t - 1} - P B_{t}
 $$
 
 Autonomous component of debt dynamic
@@ -3525,7 +3525,7 @@ Nominal interest rate
 Debt dynamics in terms of GDP ratios: Primary Balance
 
 $$
-d _ {t} = \left(\frac {1 + i}{1 + n}\right) d _ {t - 1} - p b _ {t}
+d_{t} = \left(\frac{1 + i}{1 + n}\right) d_{t - 1} - p b_{t}
 $$
 
 $$
@@ -3539,7 +3539,7 @@ $$
 $r$  is real interest rate  $g$  is real growth rate  $\pi$  is GDP deflator inflation
 
 $$
-d _ {t} = \left(\frac {1 + r}{1 + g} d _ {t - 1}\right) - p b _ {t}
+d_{t} = \left(\frac{1 + r}{1 + g} d_{t - 1}\right) - p b_{t}
 $$
 
 Autonomous component of debt dynamic
@@ -3575,7 +3575,7 @@ If interest rate  $>$  GDP growth, debt-to-GDP tend to  $\uparrow$  If interest 
 From  $d_{t} = \frac{1 + r}{1 + g} d_{t - 1} - p b_{t}$  the change in debt becomes
 
 $$
-d _ {t} - d _ {t - 1} = \frac {r - g}{1 + g} d _ {t - 1} - p b _ {t}
+d_{t} - d_{t - 1} = \frac{r - g}{1 + g} d_{t - 1} - p b_{t}
 $$
 
 One can attribute the change in debt-to-GDP to:
@@ -3591,11 +3591,11 @@ Fiscal policy  $- p b_{t}$
 If government wants to keep debt stable so that  $d_{t} = d_{t - 1}$  then:
 
 $$
-d _ {t - 1} = \frac {1 + r}{1 + g} d _ {t - 1} - p b _ {t} \quad \Longrightarrow \quad p b _ {t} = \frac {1 + r}{1 + g} d _ {t - 1} - d _ {t - 1}
+d_{t - 1} = \frac{1 + r}{1 + g} d_{t - 1} - p b_{t} \quad \Longrightarrow \quad p b_{t} = \frac{1 + r}{1 + g} d_{t - 1} - d_{t - 1}
 $$
 
 $$
-p b _ {t} = \frac {r - g}{1 + g} d _ {t - 1}
+p b_{t} = \frac{r - g}{1 + g} d_{t - 1}
 $$
 
 - The larger the difference between  $r$  and  $g$  and the larger the initial debt, the greater the primary surplus/deficit needed to stabilize the debt  
@@ -3608,13 +3608,13 @@ $$
 Consider the formula of the debt dynamic:
 
 $$
-d _ {t} = \left(\frac {1 + r}{1 + g}\right) d _ {t - 1} - p b _ {t} \quad d _ {t} = \beta d _ {t - 1} - p b _ {t}
+d_{t} = \left(\frac{1 + r}{1 + g}\right) d_{t - 1} - p b_{t} \quad d_{t} = \beta d_{t - 1} - p b_{t}
 $$
 
 Starting from  $d_0$ :  $d_1 = \beta d_0 - p b_1$ $d_2 = \beta^2 d_0 - \beta p b_1 - p b_2$
 
 $$
-d _ {3} = \beta^ {3} d _ {0} - \beta p b _ {1} - \beta p b _ {2} - p b _ {3} \quad \dots \quad d _ {t} = \beta^ {t} d _ {0} - \sum_ {i = 1} ^ {t} \beta^ {t - i} p b _ {i}
+d_{3} = \beta^{3} d_{0} - \beta p b_{1} - \beta p b_{2} - p b_{3} \quad \dots \quad d_{t} = \beta^{t} d_{0} - \sum_{i = 1}^{t} \beta^{t - i} p b_{i}
 $$
 
 Given  $d_0$ : What will debt be if the  $pb$  is kept constant forever?
@@ -3628,13 +3628,13 @@ Given  $d_0$ : What is the constant  $pb$  that allows reaching a target debt to
 From  $d_{t} = \beta^{t}d_{0} - \sum_{i = 1}^{t}\beta^{t - i}pb_{i}$  it follows that
 
 $$
-d _ {t} = \beta^ {t} d _ {0} - p b \frac {1 - \beta^ {t}}{1 - \beta}
+d_{t} = \beta^{t} d_{0} - p b \frac{1 - \beta^{t}}{1 - \beta}
 $$
 
 If  $\beta < 1$  then debt will eventually converge to
 
 $$
-d ^ {*} = - p b \frac {1}{1 - \beta}
+d^{*} = - p b \frac{1}{1 - \beta}
 $$
 
 The constant  $pb$  that allows reaching a target debt to GDP  $d^{*}$
@@ -3642,7 +3642,7 @@ The constant  $pb$  that allows reaching a target debt to GDP  $d^{*}$
 in  $T$  years is
 
 $$
-p b = \frac {1 - \beta}{1 - \beta^ {t}} \left(\beta^ {t} d _ {0} - d ^ {*}\right)
+p b = \frac{1 - \beta}{1 - \beta^{t}} \left(\beta^{t} d_{0} - d^{*}\right)
 $$
 
 # Debt Dynamics—Useful Formulas
@@ -3658,7 +3658,7 @@ Suppose part of debt is denominated in foreign currency. Let:
 With this notation, the debt stock comprising domestic and foreign-currency debt can be written as:
 
 $$
-D _ {t} = D _ {t} ^ {N} + e _ {t} D _ {t} ^ {F}
+D_{t} = D_{t}^{N} + e_{t} D_{t}^{F}
 $$
 
 $D^{N} =$  Local currency-denominated debt
@@ -3674,21 +3674,21 @@ $e =$  Nominal exchange rate (local currency per  $\S$ )
 Let  $\varepsilon_{t}$  be the exchange rate depreciation and  $\alpha_{t}$  be the share of debt denominated in foreign currency to total debt
 
 $$
-D _ {t} = (1 + i) \left(1 - \alpha_ {t - 1}\right) D _ {t - 1} + \left(1 + i ^ {F}\right) \left(1 + \varepsilon_ {t}\right) \alpha_ {t - 1} D _ {t - 1} - P B _ {t}
+D_{t} = (1 + i) \left(1 - \alpha_{t - 1}\right) D_{t - 1} + \left(1 + i^{F}\right) \left(1 + \varepsilon_{t}\right) \alpha_{t - 1} D_{t - 1} - P B_{t}
 $$
 
 Expressing all nominal variables in terms of GDP this becomes:
 
 $$
-d _ {t} = \left[ (1 + i) \left(1 - \alpha_ {t - 1}\right) + \left(1 + i ^ {F}\right) \left(1 + \varepsilon_ {t}\right) \alpha_ {t - 1} \right] \frac {d _ {t - 1}}{1 + n} - p b _ {t}
+d_{t} = \left[ (1 + i) \left(1 - \alpha_{t - 1}\right) + \left(1 + i^{F}\right) \left(1 + \varepsilon_{t}\right) \alpha_{t - 1} \right] \frac{d_{t - 1}}{1 + n} - p b_{t}
 $$
 
 $$
-1 + \left(i \left(1 - \alpha_ {t - 1}\right) + i ^ {F} \alpha_ {t - 1}\right) + \left(1 + i ^ {F}\right) \varepsilon_ {t} \alpha_ {t}
+1 + \left(i \left(1 - \alpha_{t - 1}\right) + i^{F} \alpha_{t - 1}\right) + \left(1 + i^{F}\right) \varepsilon_{t} \alpha_{t}
 $$
 
 $$
-d _ {t} = \frac {1 + i ^ {*}}{1 + n} d _ {t - 1} - p b _ {t} + \frac {\left(1 + i ^ {F}\right)}{1 + n} \varepsilon_ {t} \alpha_ {t - 1} d _ {t - 1}
+d_{t} = \frac{1 + i^{*}}{1 + n} d_{t - 1} - p b_{t} + \frac{\left(1 + i^{F}\right)}{1 + n} \varepsilon_{t} \alpha_{t - 1} d_{t - 1}
 $$
 
 Average interest rate  $(i^{*})$
@@ -3702,17 +3702,17 @@ Equation similar to previous, except for effect of  $\varepsilon$  on interest p
 Remembering that we could rewrite
 
 $$
-d _ {t} = \left(\frac {1 + i}{1 + n}\right) d _ {t - 1} - p b _ {t} \quad \text {a s}
+d_{t} = \left(\frac{1 + i}{1 + n}\right) d_{t - 1} - p b_{t} \quad \text{as}
 $$
 
 $$
-d _ {t} = \left(\frac {1 + r}{1 + g} d _ {t - 1}\right) - p b _ {t}
+d_{t} = \left(\frac{1 + r}{1 + g} d_{t - 1}\right) - p b_{t}
 $$
 
 We can express the corresponding formula with foreign currency debt as
 
 $$
-d _ {t} = \left(\frac {1 + r ^ {*}}{1 + g} d _ {t - 1} - p b _ {t} + \frac {\left(1 + i ^ {F}\right)}{1 + n} \varepsilon_ {t} \alpha_ {t - 1} d _ {t - 1} \right.
+d_{t} = \left(\frac{1 + r^{*}}{1 + g} d_{t - 1} - p b_{t} + \frac{\left(1 + i^{F}\right)}{1 + n} \varepsilon_{t} \alpha_{t - 1} d_{t - 1} \right.
 $$
 
 # Debt Analysis
@@ -3964,15 +3964,15 @@ $$
 # Current Account = Trade in Goods + Trade in Services + Net Current Transfers + Net Factor Income
 
 $$
-T r a d e \quad i n \quad G o o d s = (X _ {g o o d s} - M _ {g o o d s})
+T r a d e \quad i n \quad G o o d s = (X_{g o o d s} - M_{g o o d s})
 $$
 
 $$
-\text {T r a d e i n S e r v i c e s} = \left(X _ {\text {s e r v i c e s}} - M _ {\text {s e r v i c e s}}\right)
+\text{Tr ad ei nS er vi ce s} = \left(X_{\text{se rv ic es}} - M_{\text{se rv ic es}}\right)
 $$
 
 $$
-\text {C u r r e n t A c c o u n t} = X - M + N C T + N F I
+\text{Cu rr en tA cc ou nt} = X - M + N C T + N F I
 $$
 
 $$
@@ -3988,7 +3988,7 @@ $$
 Finally,
 
 $$
-\text {B a l a n c e o f P a y m e n t} = \text {C A B} + \text {K A B}
+\text{Ba la nc eo fP ay me nt} = \text{CA B} + \text{KA B}
 $$
 
 $$
@@ -4074,7 +4074,7 @@ G D P + N e t F a c t o r I n c o m e - C - I = (X - M) + N e t F a c t o r I n 
 $$
 
 $$
-G N I - C - I = (X - M) + \text {N e t F a c t o r I n c o m e}
+G N I - C - I = (X - M) + \text{Ne tF ac to rI nc om e}
 $$
 
 $$
@@ -4094,15 +4094,15 @@ S - I = (X - M) + N F I + N C T
 $$
 
 $$
-S - I = \text {C u r r e n t A c c o u n t B a l a n c e}
+S - I = \text{Cu rr en tA cc ou nt Ba la nc e}
 $$
 
 $$
-S - I = \text {C u r r e n t A c c o u n t B a l a n c e}
+S - I = \text{Cu rr en tA cc ou nt Ba la nc e}
 $$
 
 $$
-(S p - I p) + (S g - I g) = \text {C u r r e n t A c c o u n t B a l a n c e}
+(S p - I p) + (S g - I g) = \text{Cu rr en tA cc ou nt Ba la nc e}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e320e3ce-bce3-4ea4-b81b-eb889a99b911/d7710f684ca396ae5a09f01d5959b84ee3b114e0e2fd7b309d6dd3ba13001fa2.jpg)

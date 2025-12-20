@@ -91,23 +91,23 @@ The four bold entries in this table correspond to the dollar–euro exchange rat
 We write these exchange rates using mathematical symbols as follows, with care given to the explicit expression of the relevant units:
 
 $$
-E _ {\mathrm {S} / \epsilon} = 1. 3 1 8 = \mathrm {U . S .}
+E_{\mathrm{S} / \epsilon} = 1. 3 1 8 = \mathrm{U .S .}
 $$
 
 $$
-E _ {\epsilon / \mathbb {S}} = 0. 7 5 9 = \text {E u r o z o n e}
+E_{\epsilon / \mathbb {S}} = 0. 7 5 9 = \text{Eu ro zo ne}
 $$
 
 Just as there is complete equivalence when we express the relative price of coffee and dollars at  $10 \, \text{$/lb}$  or  $0.1 \, \text{lb}/$ , the price of the euro in terms of dollars always equals the reciprocal (or inverse) of the price of dollars in terms of euros. Hence,
 
 $$
-E _ {\S / \epsilon} = \frac {1}{E _ {\epsilon / \S}}
+E_{\S / \epsilon} = \frac{1}{E_{\epsilon / \S}}
 $$
 
 In our example,
 
 $$
-1. 3 1 8 = \frac {1}{0 . 7 5 9}
+1. 3 1 8 = \frac{1}{0 . 7 5 9}
 $$
 
 Similar calculations and notations apply to any pair of currencies.
@@ -185,7 +185,7 @@ For example, suppose  $40\%$  of Home trade is with country 1 and  $60\%$  is wi
 In general, suppose there are  $N$  currencies in the basket, and Home's trade with the  $N$  partners is  $\mathrm{Trade} = \mathrm{Trade}_1 + \mathrm{Trade}_2 + \ldots + \mathrm{Trade}_N$ . Applying trade weights to each bilateral exchange rate change, the home country's effective exchange rate ( $E_{\mathrm{effective}}$ ) will change according to the following weighted average:
 
 $$
-\frac {\Delta E _ {\text {e f f e c t i v e}}}{E _ {\text {e f f e c t i v e}}} = \underbrace {\frac {\Delta E _ {1}}{E _ {1}} \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} + \frac {\Delta E _ {2}}{E _ {2}} \frac {\text {T r a d e} _ {2}}{\text {T r a d e}} + \dots + \frac {\Delta E _ {N}}{E _ {N}} \frac {\text {T r a d e} _ {N}}{\text {T r a d e}}}
+\frac{\Delta E_{\text{ef fe ct iv e}}}{E_{\text{ef fe ct iv e}}} = \underbrace {\frac{\Delta E_{1}}{E_{1}} \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} + \frac{\Delta E_{2}}{E_{2}} \frac{\text{Tr ad e}_{2}}{\text{Tr ad e}} + \dots + \frac{\Delta E_{N}}{E_{N}} \frac{\text{Tr ad e}_{N}}{\text{Tr ad e}}}
 $$
 
 Trade-weighted average of bilateral nominal exchange rate changes
@@ -193,13 +193,13 @@ Trade-weighted average of bilateral nominal exchange rate changes
 Many discussions among policy makers and within the financial press focus on the effective exchange rate. An especially contentious topic in the last decade has been the path of the United States' effective exchange rate, shown in Figure 13-1. Since 2002,
 
 $$
-D = \left(\frac {1}{a} - \frac {1}{b}\right) / \left(\frac {1}{a}\right) = \left(1 - \frac {a}{b}\right) = \left(\frac {b - a}{b}\right).
+D = \left(\frac{1}{a} - \frac{1}{b}\right) / \left(\frac{1}{a}\right) = \left(1 - \frac{a}{b}\right) = \left(\frac{b - a}{b}\right).
 $$
 
 Symmetrically, the foreign currency was initially worth  $a$  units of home currency but is now worth  $b$ . Thus, the size of the appreciation  $A$  of the foreign currency is
 
 $$
-A = \frac {(b - a)}{a} = \frac {b}{a} D
+A = \frac{(b - a)}{a} = \frac{b}{a} D
 $$
 
 Thus, the percentage appreciation  $A$  will be approximately equal to the percentage depreciation  $D$  when  $b / a$  is close to 1, which is when  $b$  is approximately equal to  $a$ , that is, when the change in the exchange rate is small.
@@ -463,7 +463,7 @@ Yes. You can buy 1 for £0.50 in New York and sell it for £0.55 in London for a
 In general, one of the three outcomes can occur in the forex market. The spot rate can be higher in London:  $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} < E_{£/\mathbb{S}}^{\mathrm{London}}$ ; the spot rate can be higher in New York:  $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} > E_{£/\mathbb{S}}^{\mathrm{London}}$ ; or the spot rate can be the same in both locations:  $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = E_{£/\mathbb{S}}^{\mathrm{London}}$ . Arbitrage occurs in the first two cases. Only in the last case, in which spot rates are equal, does no arbitrage occur. Hence, the no-arbitrage condition for spot rates is
 
 $$
-E _ {\underline {{\mathcal {Y}}} / \underline {{S}}} ^ {\mathrm {N . Y .}} = E _ {\underline {{\mathcal {Y}}} / \underline {{S}}} ^ {\mathrm {L o n d o n}}
+E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{N .Y .}} = E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{Lo nd on}}
 $$
 
 Figure 13-6 shows the no-arbitrage condition. Following both sets of arrows (AB and ACDB), we see that on each path we start with a dollar and end up with pounds, but we are indifferent between these paths only when the end result is identical. This situation would be an equilibrium, in which no arbitrage is possible.
@@ -493,7 +493,7 @@ For example, suppose euros can be obtained at  E_{\epsilon/\mathbb{S}} = \epsilo
 In general, three outcomes are again possible. The direct trade from dollars to pounds has a better rate:  $E_{\varepsilon/\mathbb{S}} > E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}}$ ; the indirect trade has a better rate:  $E_{\varepsilon/\mathbb{S}} < E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}}$ ; or the two trades have the same rate and yield the same result:  $E_{\varepsilon/\mathbb{S}} = E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}}$ . Only in the last case are there no profit opportunities. This no-arbitrage condition can be written in two ways:
 
 $$
-\underbrace{E_{\ell / \mathbb{S}}} _ {\substack{\text{Direct}\\ \text{exchange rate}}} = E_{\ell /\epsilon}E_{\epsilon /\mathbb{S}} = \underbrace{\frac{E_{\ell / \epsilon}}{E_{\mathbb{S} / \epsilon}}}_{\substack{\text{Cross rate}}}
+\underbrace{E_{\ell / \mathbb{S}}}_{\substack{\text{Direct}\\ \text{exchangerate}}} = E_{\ell /\epsilon}E_{\epsilon /\mathbb{S}} = \underbrace{\frac{E_{\ell / \epsilon}}{E_{\mathbb{S} / \epsilon}}}_{\substack{\text{Crossrate}}}
 $$
 
 The right-hand expression, a ratio of two exchange rates, is called a cross rate. Examine the units carefully and notice how the two € cancel out. This no-arbitrage condition applies to all currency combinations and is illustrated by the paths AB and ACB in Figure 13-7 (you can see why it is called triangular arbitrage).
@@ -543,7 +543,7 @@ You would then convert the euros back into dollars, but you cannot know for sure
 Three outcomes are possible when you compare the dollar returns from the two deposits. The U.S. deposit has a higher dollar return, the euro deposit has a higher dollar return, or both deposits have the same dollar return. In the first case, you would advise your bank to sell its euro deposits and buy dollar deposits; in the second case, you would advise the bank to sell its dollar deposits and buy euro deposits. Only in the third case is there no expected profit from arbitrage, so the corresponding no-arbitrage condition can be written as follows:
 
 $$
-\text {C o v e r e d i n t h e s t r i p a r i t y (C I P) :} \underbrace {(1 + i _ {\S})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {F _ {\S / \epsilon}}{E _ {\S / \epsilon}}} _ {\text {D o l l a r r e t u r n o n}} \tag {13-1}
+\text{Co ve re di nt he st ri pa ri ty (CI P) :} \underbrace {(1 + i_{\S})}_{\text{Do ll ar re tu rn on}} = \underbrace {(1 + i_{\epsilon}) \frac{F_{\S / \epsilon}}{E_{\S / \epsilon}}}_{\text{Do ll ar re tu rn on}} \tag {13-1}
 $$
 
 This expression is called covered interest parity (CIP) because all exchange rate risk on the euro side has been "covered" by use of the forward contract. We say that such a trade employs forward cover: The condition is illustrated in Figure 13-8.
@@ -551,7 +551,7 @@ This expression is called covered interest parity (CIP) because all exchange rat
 What Determines the Forward Rate? Covered interest parity is a no-arbitrage condition that describes an equilibrium in which investors are indifferent between the returns on interest-bearing bank deposits in two currencies and exchange risk has been eliminated by the use of a forward contract. Because one of the returns depends on the forward rate, covered interest parity can be seen as providing us with a theory of what determines the forward exchange rate. We can rearrange the above equation and solve for the forward rate:
 
 $$
-F _ {\S / \epsilon} = E _ {\S / \epsilon} \frac {1 + i _ {\S}}{1 + i _ {\epsilon}}
+F_{\S / \epsilon} = E_{\S / \epsilon} \frac{1 + i_{\S}}{1 + i_{\epsilon}}
 $$
 
 Thus, if covered interest parity holds, we can calculate the forward rate if we know all three right-hand side variables: the spot rate E$/ε, the dollar interest rate i$, and the euro interest rate i€. For example, suppose the euro interest rate is 3\%, the dollar interest rate is 5\%, and the spot rate is \$1.30 per euro. Then the preceding equation says the forward rate would be 1.30 × (1.05)/(1.03) = \$1.3252 per euro.
@@ -566,7 +566,7 @@ FIGURE 13-8
 
 Arbitrage and Covered Interest Parity Under CIP, returns to holding dollar deposits accruing interest going along the path AB must equal the returns from investing in euros going along the path ACDB with risk removed by use of a forward contract. Hence, at B, the riskless payoff must be the same on both paths, and  $(1 + i_{\delta}) = \frac{F_{\delta/\epsilon}}{E_{\delta/\epsilon}} (1 + i_{\epsilon})$ .
 
-Profit  $= \underbrace{(1 + i_{GER})\frac{F_{UK / GER}}{E_{UK / GER}}} - \underbrace{(1 + i_{UK})}_{\text{Pound return on German deposits}}$
+Profit  $= \underbrace{(1 + i_{GER})\frac{F_{UK / GER}}{E_{UK / GER}}} - \underbrace{(1 + i_{UK})}_{\text{PoundreturnonGermandeposits}}$
 
 # APPLICATION
 
@@ -617,7 +617,7 @@ Again, three outcomes are possible: the U.S. deposit has a higher expected dolla
 We have assumed that traders like you are indifferent to risk and care only about expected returns. Thus, in the first two cases, you have expected profit opportunities and risky arbitrage is possible: you would sell the deposit with the low expected return and buy the deposit with the higher expected return. Only in the third case is there no expected profit from arbitrage. This no-arbitrage condition can be written as follows:
 
 $$
-\text {U n c o v e r e d i n t h e s e r t p a r i t y (U I P) :} \underbrace {(1 + i _ {\$})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {E _ {\$ / \epsilon} ^ {e}}{E _ {\$ / \epsilon}}} _ {\text {E x p e c t e d d o l l a r r u t r u n}} \tag {13-2}
+\text{Un co ve re di nt he se rt pa ri ty (UI P) :} \underbrace {(1 + i_{\$})}_{\text{Do ll ar re tu rn on}} = \underbrace {(1 + i_{\epsilon}) \frac{E_{\$ / \epsilon}^{e}}{E_{\$ / \epsilon}}}_{\text{Ex pe ct ed do ll ar ru tr un}} \tag {13-2}
 $$
 
 This expression is called uncovered interest parity (UIP) because exchange rate risk has been left "uncovered" by the decision not to hedge against exchange rate risk by using a forward contract and instead simply wait to use a spot contract in a year's time. The condition is illustrated in Figure 13-10.
@@ -631,7 +631,7 @@ Arbitrage and Uncovered Interest Parity Under UIP, returns to holding dollar dep
 What Determines the Spot Rate? Uncovered interest parity is a no-arbitrage condition that describes an equilibrium in which investors are indifferent between the returns on unhedged interest-bearing bank deposits in two currencies (where forward contracts are not employed). Because one of the returns depends on the spot rate, uncovered interest parity can be seen as providing us with a theory of what determines the spot exchange rate. We can rearrange the above equation and solve for the spot rate:
 
 $$
-E _ {\mathbb {S} / \epsilon} = E _ {\mathbb {S} / \epsilon} ^ {e} \frac {1 + i _ {\mathbb {E}}}{1 + i _ {\mathbb {S}}}
+E_{\mathbb {S} / \epsilon} = E_{\mathbb {S} / \epsilon}^{e} \frac{1 + i_{\mathbb {E}}}{1 + i_{\mathbb {S}}}
 $$
 
 Thus, if uncovered interest parity holds, we can calculate today's spot rate if we know all three right-hand-side variables: the expected future exchange rate Eε$/ε; the dollar interest rate is 2\%, and the euro interest rate is 4\%. For example, suppose the euro interest rate is 2\%, the dollar interest rate is 4\%, and the expected future spot rate is \$1.40 per euro. Then the preceding equation says today's spot rate would be 1.40 × (1.02)/(1.04) = 1.3731 per euro.
@@ -647,21 +647,21 @@ In the next two chapters, we address these unanswered questions, as we continue 
 Does uncovered interest parity hold? The two interest parity equations seen previously are very similar. Equation (13-1), the CIP equation, uses the forward rate; Equation (13-2), the UIP equation, uses the expected future spot rate:
 
 $$
-\mathrm {C I P :} (1 + i _ {\S}) = (1 + i _ {\epsilon}) \frac {F _ {\S / \epsilon}}{E _ {\S / \epsilon}}
+\mathrm{CI P :} (1 + i_{\S}) = (1 + i_{\epsilon}) \frac{F_{\S / \epsilon}}{E_{\S / \epsilon}}
 $$
 
 $$
-\mathrm {U I P :} (1 + i _ {\S}) = (1 + i _ {\epsilon}) \frac {E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}}
+\mathrm{UI P :} (1 + i_{\S}) = (1 + i_{\epsilon}) \frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}}
 $$
 
 To allow us to see what this implies about the relationship between the expected future spot rate and the forward rate, we divide the second equation by the first, to obtain
 
 $$
-1 = E _ {\S / \epsilon} ^ {e} / F _ {\S / \epsilon}, \text {o r}
+1 = E_{\S / \epsilon}^{e} / F_{\S / \epsilon}, \text{or}
 $$
 
 $$
-F _ {\mathbb {S} / \mathbb {E}} = E _ {\mathbb {S} / \mathbb {E}} ^ {e}
+F_{\mathbb {S} / \mathbb {E}} = E_{\mathbb {S} / \mathbb {E}}^{e}
 $$
 
 The expected future spot rate and the forward rate are distinct concepts. They are also the instruments employed in two different forms of arbitrage—risky and riskless. But, in equilibrium, under the assumptions we have made, we now see that they should not differ at all; they should be exactly the same!
@@ -671,7 +671,7 @@ Thus, if both covered interest parity and uncovered interest parity hold, an imp
 With this result we can find an approach to testing UIP that is fairly easy to describe and implement. Because the evidence in favor of CIP is strong, as we have seen, we may assume that it holds. In that case, the previous equation then provides a test for whether UIP holds. But if the forward rate equals the expected spot rate, then we can also express this equivalence relative to today's spot rate, to show that the expected rate of depreciation (between today and the future period) equals the forward premium (the proportional difference between the forward and spot rates):
 
 $$
-\underbrace{\frac{F_{\S / \epsilon}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Forward}\\ \text{premium}}} = \underbrace{\frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Expected rate}\\ \text{of depreciation}}}
+\underbrace{\frac{F_{\S / \epsilon}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Forward}\\ \text{premium}}} = \underbrace{\frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Expectedrate}\\ \text{ofdepreciation}}}
 $$
 
 For example, if the spot rate is  \$1.00 per euro, and the forward rate is\$ 1.05, the forward premium is 5\%. But if  $F_{\mathbb{S} / \mathbb{E}} = E_{\mathbb{S} / \mathbb{E}}^{e}$ , the expected future spot rate is also 1.05, and there is a 5\% expected rate of depreciation.
@@ -731,26 +731,26 @@ Outputs of the model Unknown variables (Endogenous variables)
 Expected future spot rate
 
 $$
-E _ {\$ / \in} ^ {e}
+E_{\$ / \in}^{e}
 $$
 
 Interest rates
 
-$$ j _ {\S}, j _ {\epsilon}
+$$ j_{\S}, j_{\epsilon}
 $$
 
 $$
-E _ {\S / \epsilon} = E _ {\S / \epsilon} ^ {e} \frac {1 + i _ {\epsilon}}{1 + i _ {\S}}
+E_{\S / \epsilon} = E_{\S / \epsilon}^{e} \frac{1 + i_{\epsilon}}{1 + i_{\S}}
 $$
 
 $$
-F _ {\S / \epsilon} = E _ {\S / \epsilon} \frac {1 + i _ {\S}}{1 + i _ {\epsilon}}
+F_{\S / \epsilon} = E_{\S / \epsilon} \frac{1 + i_{\S}}{1 + i_{\epsilon}}
 $$
 
 Spot exchange rate
 
 $$
-E _ {\$ / \epsilon}
+E_{\$ / \epsilon}
 $$
 
 Forward exchange rate

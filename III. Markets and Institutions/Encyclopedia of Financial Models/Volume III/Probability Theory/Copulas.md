@@ -44,13 +44,13 @@ Because of these advantages, in recent years there has been increased applicatio
 From a mathematical viewpoint, a copula function  $C$  is nothing more than a probability distribution function on the  $d$ -dimensional hypercube  $I_{d} = [0,1] \times [0,1] \times \ldots \times [0,1]$ :
 
 $$
-\begin{array}{l} C: I _ {d} \to [ 0, 1 ] \\ (x _ {1}, \dots , x _ {d}) \rightarrow C (x _ {1}, \dots , x _ {d}) \\ \end{array}
+\begin{array}{l} C: I_{d} \to [ 0, 1 ] \\ (x_{1}, \dots , x_{d}) \rightarrow C (x_{1}, \dots , x_{d}) \\ \end{array}
 $$
 
 It has been shown that any multivariate probability distribution function  $F_{Y}$  of some random vector  $Y = (Y_{1},\dots ,Y_{d})$  can be represented with the help of a copula function  $C$  in the following form:
 
 $$
-\begin{array}{l} F _ {Y} \left(y _ {1}, \dots , y _ {d}\right) = P \left(Y _ {1} \leq y _ {1}, \dots , Y _ {d} \leq y _ {d}\right) \\ = C \left(P \left(Y _ {1} \leq y _ {1}\right), \dots , P \left(Y _ {d} \leq y _ {d}\right)\right) \\ = C \left(F _ {Y _ {1}} \left(y _ {1}\right), \dots , F _ {Y _ {d}} \left(y _ {d}\right)\right) \\ \end{array}
+\begin{array}{l} F_{Y} \left(y_{1}, \dots , y_{d}\right) = P \left(Y_{1} \leq y_{1}, \dots , Y_{d} \leq y_{d}\right) \\ = C \left(P \left(Y_{1} \leq y_{1}\right), \dots , P \left(Y_{d} \leq y_{d}\right)\right) \\ = C \left(F_{Y_{1}} \left(y_{1}\right), \dots , F_{Y_{d}} \left(y_{d}\right)\right) \\ \end{array}
 $$ where the  $F_{Y_i}, i = 1, \ldots, d$  denote the marginal distribution functions of the random variables  $Y_i, i = 1, \ldots, d$ .
 
 
@@ -73,7 +73,7 @@ $C(x,y) = x\cdot y$
 $C(x,y) = \min (x,y)$
 
 $$
-\begin{array}{l} \cdot C (x, y) = \int_ {- \infty} ^ {\Phi^ {- 1} (x)} \int_ {- \infty} ^ {\Phi^ {- 1} (y)} \frac {1}{2 \pi (1 - \rho^ {2}) ^ {1 / 2}} \\ \exp \left(\frac {s ^ {2} - 2 \rho s t + t ^ {2}}{2 (1 - \rho^ {2})}\right) d s d t \\ \end{array}
+\begin{array}{l} \cdot C (x, y) = \int_{- \infty}^{\Phi^{- 1} (x)} \int_{- \infty}^{\Phi^{- 1} (y)} \frac{1}{2 \pi (1 - \rho^{2})^{1 / 2}} \\ \exp \left(\frac{s^{2} - 2 \rho s t + t^{2}}{2 (1 - \rho^{2})}\right) d s d t \\ \end{array}
 $$
 
 The first represents the independent case as the joint probability distribution equals the product of their marginals. The second example represents a case of extreme dependence whereas the third example represents the general Gaussian copula function for the bivariate case.

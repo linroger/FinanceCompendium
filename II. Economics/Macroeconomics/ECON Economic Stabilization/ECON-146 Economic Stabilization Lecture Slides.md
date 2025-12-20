@@ -36,7 +36,7 @@ $$
 Thus,  $\mathrm{Y} - \mathrm{C} - \mathrm{G} - \mathrm{NX} + \mathrm{T} - \mathrm{T} = \mathrm{I}$ . This implies:  $(\mathrm{Y} - \mathrm{C} - \mathrm{T}) + (\mathrm{T} - \mathrm{G}) - \mathrm{NX} = \mathrm{I}$ . Now observe that:
 
 $$
-\begin{array}{l} Y - C - T = \text {S h h} + \text {S b u s} (\text {h o u s h o l d p l u s b u s i n s s a v i n g}) \\ \mathrm {T} - \mathrm {G} = \text {S g o v (g o v e n n m e n t s a v i n g)} \\ - \mathrm {N X} = \text {S f o r (f o r g i n e s a v i n g)} \\ \end{array}
+\begin{array}{l} Y - C - T = \text{Sh h} + \text{Sb us} (\text{ho us ho ld pl us bu si ns sa vi ng}) \\ \mathrm{T} - \mathrm{G} = \text{Sg ov (go ve nn me nt sa vi ng)} \\ - \mathrm{NX} = \text{Sf or (fo rg in es av in g)} \\ \end{array}
 $$
 
 [Note on foreign saving: -NX = M - X = C + I + G - Y. In economic terms, if the U.S. is importing more than it is exporting, it must be that in the U.S. total expenditures on domestically produced plus foreign produced goods (C + I + G) must exceed domestic income (Y). [Recall that Y denotes gross output of domestically produced goods which must equal gross domestic income.] Because U.S. expenditures exceed U.S. income, the U.S. must be borrowing from the rest of the world in order to finance the excess. This means that foreigners are acquiring U.S. IOUs, i.e., foreigners are saving in this form.]
@@ -57,7 +57,7 @@ In math terms, goods market equilibrium is given by:
 
 All coefficients are taken as a positive constant. Examples:
 
-$\mathrm{cy} = \mathrm{dC} / \mathrm{d(Y - T)} =$  marginal propensity to consume out of current real disposable income;
+$\mathrm{cy} = \mathrm{dC} / \mathrm{d(Y -T)} =$  marginal propensity to consume out of current real disposable income;
 
 $\mathrm{iy} = \mathrm{dI} / \mathrm{dY} =$  marginal propensity to invest out of current output.
 
@@ -71,7 +71,7 @@ By substituting equations 2 - 5 into equation 1 and solving the result for  $\ma
 Equation defining the IS curve (see appendix 1 for math details):
 
 $$
-r = \text {(m e s s y n e g a t i v e s l o p e c o e f f i c i e n t) Y} + \text {(m e s s y i n c t e r p t e r m)}
+r = \text{(me ss yn eg at iv es lo pe co ef fi ci en t)Y} + \text{(me ss yi nc te rp te rm)}
 $$
 
 Conclusion: higher domestic real interest rates reduce aggregate demand; the downward sloping curve in (Y, r) space that captures all combinations of real interest rates and GDP consistent with equilibrium in the market for new goods and services is called the IS curve.
@@ -94,7 +94,7 @@ vi. A tax cut which boosts current disposable income and consumption.
 # Monetary Policy Rule
 
 $$
-\mathrm {r} = \mathrm {M} (\pi - \pi^ {*}, \mathrm {Y} - \mathrm {Y p}) = \mathrm {r} ^ {*} + \mathrm {r} \pi (\pi - \pi^ {*}) + \mathrm {r} \mathrm {y} (\mathrm {Y} - \mathrm {Y p})
+\mathrm{r} = \mathrm{M} (\pi - \pi^{*}, \mathrm{Y} - \mathrm{Yp}) = \mathrm{r}^{*} + \mathrm{r} \pi (\pi - \pi^{*}) + \mathrm{r} \mathrm{y} (\mathrm{Y} - \mathrm{Yp})
 $$
 
 1. The Fed is assumed to raise real interest rates when price inflation on goods and services,  $\pi$ , rises relative to its target,  $\pi^{*}$ , and when the output gap (difference between actual and potential GDP) rises. This is called "leansing-against-the-wind" policy.  
@@ -173,7 +173,7 @@ iv. expected prices and productivity gains (Pe and Ae) --these matter because wo
 
 This discussion is captured by the following equation:
 
-$\mathbf{W} = \mathrm{AePe}$  f(u, z) where  $\mathrm{df / du < 0}$ . Simplify by linearizing the f.) function as follows:  $\mathrm{f(.) = 1 - a u + z},$  and thus we get:  $\mathbf{W} = \mathbf{AePe}$ $(1 - a u + z)$
+$\mathbf{W} = \mathrm{AePe}$  f(u, z) where  $\mathrm{df /du <0}$ . Simplify by linearizing the f.) function as follows:  $\mathrm{f(.) =1 -a u +z},$  and thus we get:  $\mathbf{W} = \mathbf{AePe}$ $(1 - a u + z)$
 
 Here, W denotes the nominal wage rate; Pe denotes the expected price level; u denotes the unemployment rate; Ae is the expected level of a measure of labor productivity (discussed in more detail below); z denotes other labor-market factors, like the generosity of unemployment insurance benefits, the level of the minimum wage, and the degree of employment protection.
 
@@ -185,7 +185,7 @@ We define the unemployment rate as  $\mathbf{u} = \mathbf{1} - \mathbf{N} / \mat
 
 Costs depend on the nature of the production function and on the prices of factor inputs.
 
-i. The production function is given by  $\mathrm{Y} = \mathrm{A}\mathrm{F}(\mathrm{N},\mathrm{K})$ , where  $\mathrm{dY / dN} = \mathrm{AdF / dN} > 0$  and  $\mathrm{d2Y / dN2} < 0$ . The latter inequality is the assumption of diminishing marginal productivity of labor.  
+i. The production function is given by  $\mathrm{Y} = \mathrm{A}\mathrm{F}(\mathrm{N},\mathrm{K})$ , where  $\mathrm{dY /dN} = \mathrm{AdF /dN} > 0$  and  $\mathrm{d2Y /dN2} < 0$ . The latter inequality is the assumption of diminishing marginal productivity of labor.  
 ii. "K" denotes the services of the stock of physical capital, which is assumed fixed at K0 in short-run analysis.  
 iii. To simplify, labor and physical capital are the only two factors of production, with energy inputs being ignored at this point.  
 iv. "A" is a measure of the level of technology and changes in it are termed "productivity shocks" in part because the marginal product of labor is  $\mathrm{dY} / \mathrm{dN} = \mathrm{AF}(\mathrm{N},\mathrm{K0})$  which obviously depends on "A".
@@ -203,7 +203,7 @@ Thus,  $\mathrm{Y} = \mathrm{AF}(\mathrm{N},\mathrm{K0}) = \mathrm{ANK0}$
 
 i. unit labor costs are defined as WN/Y, which equals W/AK0 in Blanchard's model. ii.  
 The simplification implies that the marginal product of labor is a constant, "AK0," and that the unemployment rate,  $\mathrm{u} = 1 - \mathrm{N} / \mathrm{L} = 1 - \mathrm{Y} / \mathrm{AK0L}$ .  
-iii. Without further loss of generality Blanchard assumes  $\mathrm{A} = 1$  (and we will also assume  $\mathrm{K0} = 1$ ), so that  $\mathrm{Y} = \mathrm{N}$ . This implies that  $\mathrm{dY / dN} = \mathrm{AF'(N)} = 1$  since both  $\mathrm{A}$  and  $\mathrm{F'(N)}$  equal 1.  
+iii. Without further loss of generality Blanchard assumes  $\mathrm{A} = 1$  (and we will also assume  $\mathrm{K0} = 1$ ), so that  $\mathrm{Y} = \mathrm{N}$ . This implies that  $\mathrm{dY /dN} = \mathrm{AF'(N)} = 1$  since both  $\mathrm{A}$  and  $\mathrm{F'(N)}$  equal 1.  
 iv. thus the marginal cost of production  $= \mathrm{W} / \mathrm{AF}'(\mathrm{N},\mathrm{K0})$  reduces to W, the wage rate that the firm is facing.
 
 Thus the competitive firm would set  $P = W$ ; if  $A$  and  $K0$  do not equal 1 the firm would set  $P = W / AK0$ .
@@ -212,20 +212,20 @@ However, many goods markets are not competitive, and firms charge a price in exc
 
 ---m denotes the percentage "markup" of prices over (unit labor) cost.  $\mathrm{m} = 0$  under perfect competition and  $\mathrm{m} > 0$  when output markets are non-competitive
 
-This equation implies that  $\mathrm{W / P = AK0 / (1 + m)}$ . Thus, the real wage,  $W / P$ , is constant unless the markup, technology or fixed capital stock changes. This implies a plot of the real wage against the unemployment rate would be a horizontal line (which shifts with  $A$ ,  $m$ , etc.).
+This equation implies that  $\mathrm{W /P =AK0 / (1 +m)}$ . Thus, the real wage,  $W / P$ , is constant unless the markup, technology or fixed capital stock changes. This implies a plot of the real wage against the unemployment rate would be a horizontal line (which shifts with  $A$ ,  $m$ , etc.).
 
-If  $\mathrm{A} = \mathrm{K}0 = 1$ , then the equation simplifies to:  $\mathrm{W / P} = 1 / (1 + \mathrm{m})$ .
+If  $\mathrm{A} = \mathrm{K}0 = 1$ , then the equation simplifies to:  $\mathrm{W /P} = 1 / (1 + \mathrm{m})$ .
 
 Combining Wage Setting and Price Setting: Aggregate Supply
 
 Combining the above key equations, with A and K0 not equal to 1, we get:
 
 $$
-P = (1 + m) W / A K 0 = (1 + m) (A e / A K 0) P e (1 - a u + z) \quad \text {w h e r e} u = 1 - Y / A K 0 L
+P = (1 + m) W / A K 0 = (1 + m) (A e / A K 0) P e (1 - a u + z) \quad \text{wh er e} u = 1 - Y / A K 0 L
 $$
 
 $$
-\mathrm {P} = (1 + \mathrm {m}) (\mathrm {A e} / \mathrm {A K 0}) \mathrm {P e} [ 1 + \mathrm {z} - \alpha + \alpha \mathrm {Y} / \mathrm {A K 0 L} ]
+\mathrm{P} = (1 + \mathrm{m}) (\mathrm{Ae} / \mathrm{AK 0}) \mathrm{Pe} [ 1 + \mathrm{z} - \alpha + \alpha \mathrm{Y} / \mathrm{AK 0L} ]
 $$
 
 1. Thus an increase in output leads to an increase in the price level and is called an aggregate supply relationship (between output and the price level--below we develop another aggregate supply relationship that connects output to the rate of price inflation).

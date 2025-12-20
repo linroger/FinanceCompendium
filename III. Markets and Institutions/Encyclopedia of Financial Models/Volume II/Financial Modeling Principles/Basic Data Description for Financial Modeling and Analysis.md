@@ -97,11 +97,11 @@ Table 4 Comparison of Relative Frequencies of DJIA and DJGTI
 
 For a better formal presentation, we denote the (absolute) frequency by  $a$  and, in particular, by  $a_{i}$  for the  $i$ th value of the variable. Formally, the relative frequency  $f_{i}$  of the  $i$ th value is, then, defined by
 
-$$ f _ {i} = \frac {a _ {i}}{n}
+$$ f_{i} = \frac{a_{i}}{n}
 $$ where  $n$  is the total number of observations. With  $k$  being the number of the different values, the following holds:
 
 
-$$ n = \sum_ {i = 1} ^ {k} f _ {i}
+$$ n = \sum_{i = 1}^{k} f_{i}
 $$
 
 In our illustration, let  $n_1 = 30$  be the number of total observations in the DJIA and  $n_2 = 50$  the total number of observations in the DJGTI. Table 4 shows the relative frequencies for all possible values. Notice that each index has some values that were observed with zero frequency, which still have to be listed for comparison. When we look at the DJIA, we find out that the sectors Diversified Industrials and Pharmaceuticals each account for  $10\%$  of all sectors and therefore are the sectors with the highest frequencies. Comparing these two sectors to the DJGTI, we find out that Pharmaceuticals play as important a role as a sector with an  $18\%$  share, while Diversified Industrials are of minor importance. In this index, Banks are a very important sector with  $18\%$  also. A comparison of this sort can now be carried through for all subsectors thanks to the relative frequencies.
@@ -126,12 +126,12 @@ Source: www.dj.com/TheCompany/FactSheets.htm, December 15, 2006.
 Formally, the empirical cumulative frequency distribution  $F_{emp}$  is defined as
 
 $$
-F _ {e m p} (x) = \sum_ {i = 1} ^ {k} a _ {i}
+F_{e m p} (x) = \sum_{i = 1}^{k} a_{i}
 $$ where  $k$  is the index of the largest value observed that is still less than  $x$ . In our example,  $k$  is 18. When we use relative frequencies, we obtain the empirical relative cumulative frequency distribution defined analogously to the empirical cumulative frequency distribution, this time using relative frequencies. Hence, we have
 
 
 $$
-F _ {e m p} ^ {f} (x) = \sum_ {i = 1} ^ {k} f _ {i}
+F_{e m p}^{f} (x) = \sum_{i = 1}^{k} f_{i}
 $$
 
 In our example,  $F_{emp}^{f}(50) = 18 / 30 = 0.6 = 60\%$ .
@@ -174,7 +174,7 @@ Criterion 4: Nonemptiness: If possible, avoid forming empty classes.
 It is intuitive that the number of classes should increase with an increasing range of values and increasing number of data. Though there are no stringent rules, two rules of thumb are given here with respect to the advised number of classes (first rule) and the best class width (second rule). The first, the so-called Sturge's rule, states that for a given set of continuous data of size  $n$ , one should use the nearest integer figure to
 
 $$
-1 + \log_ {2} n = 1 + 3. 2 2 2 \log_ {1 0} n.
+1 + \log_{2} n = 1 + 3. 2 2 2 \log_{1 0} n.
 $$
 
 Here,  $\log_a n$  denotes the logarithm of  $n$  to the base  $a$ , with  $a$  being either 2 or 10.
@@ -185,11 +185,11 @@ The second guideline is the so-called Freedman-Diaconis rule for the appropriate
 Now we can return to the Freedman-Diaconis rule. It states that a good class width is given by the nearest integer to
 
 $$
-2 \times I Q R \times N ^ {- 1 / 3}
+2 \times I Q R \times N^{- 1 / 3}
 $$ where  $N$  is the number of observations in the dataset. Note that there is an inverse relationship between the class width and the number of classes for each set of data. That is, given that the partitioning of the values into classes covers all observations, the number of classes  $n$  has to be equal to the difference between largest and smallest value divided by the class width, if classes are all of equal size  $w$ . Mathematically, that means
 
 
-$$ n = (x _ {\max } - x _ {\min }) / w
+$$ n = (x_{\max } - x_{\min }) / w
 $$ where  $x_{\mathrm{max}}$  denotes the largest value and  $x_{\mathrm{min}}$  denotes the smallest value considered, respectively.
 
 
@@ -251,19 +251,19 @@ Table 10 Classes for the 235 Fund Returns According to the Freedman-Diaconis Rul
 For a more thorough summary of this, let's use a more formal presentation. Let  $I$  denote the set of all class index  $i$  with  $i$  being some integer value between 1 and  $n_I = |I|$  (that is, the number of classes). Moreover, let  $a_j$  and  $f_j$  denote the (absolute) frequency and relative frequency of some class  $j$ , respectively. The cumulative frequency distribution at some upper bound,  $x_u^i$ , of a given class  $i$  is computed as
 
 $$
-F \left(x _ {u} ^ {i}\right) = \sum_ {j: x _ {u} ^ {j} \leq x _ {u} ^ {i}} a _ {j} = \sum_ {j: x _ {u} ^ {l} \leq x _ {l} ^ {i}} a _ {j} + a _ {i} \tag {1}
+F \left(x_{u}^{i}\right) = \sum_{j: x_{u}^{j} \leq x_{u}^{i}} a_{j} = \sum_{j: x_{u}^{l} \leq x_{l}^{i}} a_{j} + a_{i} \tag {1}
 $$
 
 In words, this means that we sum up the frequencies of all classes whose upper bound is less than  $x_{u}^{i}$  plus the frequency of class  $i$  itself. The corresponding cumulative relative frequency distribution at the same value is then
 
 $$
-F ^ {f} \left(x _ {u} ^ {i}\right) = \sum_ {j: x _ {u} ^ {j} \leq x _ {u} ^ {i}} f _ {j} = \sum_ {j: x _ {u} ^ {j} \leq x _ {l} ^ {i}} f _ {j} + f _ {i} \tag {2}
+F^{f} \left(x_{u}^{i}\right) = \sum_{j: x_{u}^{j} \leq x_{u}^{i}} f_{j} = \sum_{j: x_{u}^{j} \leq x_{l}^{i}} f_{j} + f_{i} \tag {2}
 $$
 
 This describes the same procedure as in equation (1) using relative frequencies instead of frequencies. For any value  $x$  in between the boundaries of, say, class  $i$ ,  $x_{l}^{i}$  and  $x_{u}^{i}$ , the cumulative relative frequency distribution is defined by
 
 $$
-F ^ {f} (x) = F ^ {f} \left(x _ {l} ^ {i}\right) + \frac {x - x _ {l} ^ {i}}{x _ {u} ^ {i} - x _ {l} ^ {i}} f _ {i} \tag {3}
+F^{f} (x) = F^{f} \left(x_{l}^{i}\right) + \frac{x - x_{l}^{i}}{x_{u}^{i} - x_{l}^{i}} f_{i} \tag {3}
 $$
 
 In words, this means that we compute the cumulative relative frequency distribution at value  $x$  as the sum of two things. First, we take the cumulative relative frequency distribution at the lower bound of class  $i$ . Second, we add that share of the relative frequency of class  $i$  that is determined by the part of the whole interval of class  $i$  that is covered by  $x$ .

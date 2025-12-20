@@ -123,13 +123,13 @@ We consider an overlapping-generations (OLG) economy in which agents  $i = 1,\do
 agents choose a portfolio of shares  $x = (x^{1},\ldots ,x^{S})^{\prime}$  , investing the rest of their wealth at the risk-free return  $r^f$  , to maximize their utility:
 
 $$
-\max  x ^ {\prime} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f}\right) P _ {t}\right) - \frac {\gamma^ {i}}{2} x ^ {\prime} \Omega_ {t} x, \tag {1}
+\max  x^{\prime} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f}\right) P_{t}\right) - \frac{\gamma^{i}}{2} x^{\prime} \Omega_{t} x, \tag {1}
 $$
 
 where  $P_{t}$  is the vector of prices at time  $t$ ,  $\Omega_{t}$  is the variance-covariance matrix of  $P_{t + 1} + \delta_{t + 1}$ , and  $\gamma^i$  is agent  $i$ 's risk aversion. Agent  $i$  is subject to the portfolio constraint
 
 $$
-m _ {t} ^ {i} \sum_ {s} x ^ {s} P _ {t} ^ {s} \leq W _ {t} ^ {i} \tag {2}
+m_{t}^{i} \sum_{s} x^{s} P_{t}^{s} \leq W_{t}^{i} \tag {2}
 $$
 
 This constraint requires that some multiple  $m_t^i$  of the total dollars invested, the sum of the number of shares  $x^s$  times their prices  $P^s$ , must be less than the agent's wealth.
@@ -141,25 +141,25 @@ Other agents could be able to use leverage but could face margin constraints. Fo
 We are interested in the properties of the competitive equilibrium in which the total demand equals the supply:
 
 $$
-\sum_ {i} x ^ {i} = x ^ {*} \tag {3}
+\sum_{i} x^{i} = x^{*} \tag {3}
 $$
 
 To derive equilibrium, consider the first order condition for agent  $i$ :
 
 $$
-0 = E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f}\right) P _ {t} - \gamma^ {i} \Omega x ^ {i} - \psi_ {t} ^ {i} P _ {t}, \tag {4}
+0 = E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f}\right) P_{t} - \gamma^{i} \Omega x^{i} - \psi_{t}^{i} P_{t}, \tag {4}
 $$
 
 where  $\psi^i$  is the Lagrange multiplier of the portfolio constraint. Solving for  $x^i$  gives the optimal position:
 
 $$
-x ^ {i} = \frac {1}{\gamma^ {i}} \Omega^ {- 1} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f} + \psi_ {t} ^ {i}\right) P _ {t}\right). \tag {5}
+x^{i} = \frac{1}{\gamma^{i}} \Omega^{- 1} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f} + \psi_{t}^{i}\right) P_{t}\right). \tag {5}
 $$
 
 The equilibrium condition now follows from summing over these positions:
 
 $$
-x ^ {*} = \frac {1}{\gamma} \Omega^ {- 1} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f} + \psi_ {t}\right) P _ {t}\right), \tag {6}
+x^{*} = \frac{1}{\gamma} \Omega^{- 1} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f} + \psi_{t}\right) P_{t}\right), \tag {6}
 $$
 
 where the aggregate risk aversion  $\gamma$  is defined by  $1 / \gamma = \sum_{i}1 / \gamma^{i}$  and  $\psi_t = \sum_i(\gamma /\gamma^i)\psi_t^i$  is the weighted average Lagrange
@@ -167,7 +167,7 @@ where the aggregate risk aversion  $\gamma$  is defined by  $1 / \gamma = \sum_{
 multiplier. (The coefficients  $\gamma / \gamma^i$  sum to one by definition of the aggregate risk aversion  $\gamma$ .) The equilibrium price can then be computed:
 
 $$
-P _ {t} = \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi_ {t}}, \tag {7}
+P_{t} = \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi_{t}}, \tag {7}
 $$
 
 Translating this into the return of any security  $r_{t+1}^i = (P_{t+1}^i + \delta_{t+1}^i) / P_t^i - 1$ , the return on the market  $r_{t+1}^M$ , and using the usual expression for beta,  $\beta_t^s = \mathrm{cov}_t(r_{t+1}^s, r_{t+1}^M) / \mathrm{var}_t(r_{t+1}^M)$ , we obtain the following results. (All proofs are in Appendix A, which also illustrates the portfolio choice with leverage constraints in a mean-standard deviation diagram.)
@@ -177,7 +177,7 @@ Proposition 1 (high beta is low alpha).
 (i) The equilibrium required return for any security  $s$  is
 
 $$
-E _ {t} \left(r _ {t + 1} ^ {s}\right) = r ^ {f} + \psi_ {t} + \beta_ {t} ^ {s} \lambda_ {t} \tag {8}
+E_{t} \left(r_{t + 1}^{s}\right) = r^{f} + \psi_{t} + \beta_{t}^{s} \lambda_{t} \tag {8}
 $$
 
 where the risk premium is  $\lambda_{t} = E_{t}(r_{t + 1}^{M}) - r^{f} - \psi_{t}$  and  $\psi_t$  is the average Lagrange multiplier, measuring the tightness of funding constraints.
@@ -196,7 +196,7 @@ The portfolio constraints further imply a lower slope  $\lambda_{t}$  of the sec
 We next consider the properties of a factor that goes long low-beta assets and shortsells high-beta assets. To construct such a factor, let  $w_{L}$  be the relative portfolio weights for a portfolio of low-beta assets with return  $r_{t + 1}^{L} = w_{t}^{I}r_{t + 1}$  and consider similarly a portfolio of high-beta assets with return  $r_{t + 1}^{H}$ . The betas of these portfolios are denoted  $\beta_{t}^{L}$  and  $\beta_{t}^{H}$ , where  $\beta_{t}^{L} < \beta_{t}^{H}$ . We then construct a betting against beta (BAB) factor as
 
 $$
-r _ {t + 1} ^ {B A B} = \frac {1}{\beta_ {t} ^ {L}} \left(r _ {t + 1} ^ {L} - r ^ {f}\right) - \frac {1}{\beta_ {t} ^ {H}} \left(r _ {t + 1} ^ {H} - r ^ {f}\right) \tag {9}
+r_{t + 1}^{B A B} = \frac{1}{\beta_{t}^{L}} \left(r_{t + 1}^{L} - r^{f}\right) - \frac{1}{\beta_{t}^{H}} \left(r_{t + 1}^{H} - r^{f}\right) \tag {9}
 $$
 
 this portfolio is market-neutral; that is, it has a beta of zero. The long side has been leveraged to a beta of one, and the short side has been de-leveraged to a beta of one. Furthermore, the BAB factor provides the excess return on a self-financing portfolio, such as HML (high minus low) and SMB (small minus big), because it is a difference between excess returns. The difference is that BAB is not dollar-neutral in terms of only the risky securities because this would not produce a beta of zero.5 The model has several predictions regarding the BAB factor.
@@ -204,7 +204,7 @@ this portfolio is market-neutral; that is, it has a beta of zero. The long side 
 Proposition 2 (positive expected return of BAB). The expected excess return of the self-financing BAB factor is positive
 
 $$
-E _ {t} \left(r _ {t + 1} ^ {B A B}\right) = \frac {\beta_ {t} ^ {H} - \beta_ {t} ^ {L}}{\beta_ {t} ^ {L} \beta_ {t} ^ {H}} \psi_ {t} \geq 0 \tag {10}
+E_{t} \left(r_{t + 1}^{B A B}\right) = \frac{\beta_{t}^{H} - \beta_{t}^{L}}{\beta_{t}^{L} \beta_{t}^{H}} \psi_{t} \geq 0 \tag {10}
 $$
 
 and increasing in the ex ante beta spread  $(\beta_{t}^{H} - \beta_{t}^{L}) / (\beta_{t}^{L}\beta_{t}^{H})$  and funding tightness  $\psi_t$ .
@@ -218,13 +218,13 @@ a credit crisis in the extreme. Such a funding liquidity shock results in losses
 Proposition 3 (funding shocks and BAB returns). A tighter portfolio constraint, that is, an increase in  $m_t^k$  for some of  $k$ , leads to a contemporaneous loss for the BAB factor
 
 $$
-\frac {\partial r _ {t} ^ {B A B}}{\partial m _ {t} ^ {k}} \leq 0 \tag {11}
+\frac{\partial r_{t}^{B A B}}{\partial m_{t}^{k}} \leq 0 \tag {11}
 $$
 
 and an increase in its future required return:
 
 $$
-\frac {\partial E _ {t} \left(r _ {t + 1} ^ {B A B}\right)}{\partial m _ {t} ^ {k}} \geq 0 \tag {12}
+\frac{\partial E_{t} \left(r_{t + 1}^{B A B}\right)}{\partial m_{t}^{k}} \geq 0 \tag {12}
 $$
 
 Funding shocks have further implications for the cross section of asset returns and the BAB portfolio. Specifically, a funding shock makes all security prices drop together (that is,  $(\partial P_t^s /\partial \psi_t) / P_t^s$  is the same for all securities  $s$ ). Therefore, an increased funding risk compresses betas toward one. If the BAB portfolio construction is based on an information set that does not account for this increased funding risk, then the BAB portfolio's conditional market beta is affected.
@@ -249,7 +249,7 @@ billion of US dollars)</td><td>Start year</td><td>End year</td></tr><tr><td>Aust
 period's security payoffs as
 
 $$
-P _ {t + 1} + \delta_ {t + 1} = E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) + b \left(P _ {t + 1} ^ {M} + \delta_ {t + 1} ^ {M} - E _ {t} \left(P _ {t + 1} ^ {M} + \delta_ {t + 1} ^ {M}\right)\right) + e \tag {13}
+P_{t + 1} + \delta_{t + 1} = E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) + b \left(P_{t + 1}^{M} + \delta_{t + 1}^{M} - E_{t} \left(P_{t + 1}^{M} + \delta_{t + 1}^{M}\right)\right) + e \tag {13}
 $$
 
 where  $b$  is a vector of market exposures, and  $e$  is a vector of noise that is uncorrelated with the market. We have the following natural result for the agents' positions.
@@ -294,7 +294,7 @@ Finally, we use the TED spread as a proxy for time periods when credit constrain
 We estimate pre-ranking betas from rolling regressions of excess returns on market excess returns. Whenever possible, we use daily data, rather than monthly data, as the accuracy of covariance estimation improves with the sample frequency (Merton, 1980). Our estimated beta for security  $i$  is given by
 
 $$
-\hat {\beta} _ {i} ^ {t s} = \hat {\rho} \frac {\hat {\sigma} _ {i}}{\hat {\sigma} _ {m}}, \tag {14}
+\hat {\beta}_{i}^{t s} = \hat {\rho} \frac{\hat {\sigma}_{i}}{\hat {\sigma}_{m}}, \tag {14}
 $$
 
 where  $\hat{\sigma}_i$  and  $\hat{\sigma}_m$  are the estimated volatilities for the stock and the market and  $\hat{\rho}$  is their correlation. We estimate volatilities and correlations separately for two reasons. First, we use a one-year rolling standard deviation for volatilities and a five-year horizon for the correlation to account for the fact that correlations appear to move more slowly than volatilities.13 Second, we use one-day log returns to estimate volatilities and overlapping three-day log returns,  $r_{i,t}^{3d} = \sum_{k = 0}^{2}\ln (1 + r_{t + k}^{i})$ , for correlation to control for nonsynchronous trading (which affects only correlations). We require at least six months (120 trading days) of non-missing data to estimate volatilities and at least three years (750 trading days) of non-missing return data for correlations. If we have access only to monthly data, we use rolling one and five-year windows and require at least 12 and 36 observations.
@@ -304,7 +304,7 @@ Finally, to reduce the influence of outliers, we follow Vasicek (1973) and Elton
 toward the cross-sectional mean  $(\beta^{XS})$
 
 $$
-\hat {\beta} _ {i} = w _ {i} \hat {\beta} _ {i} ^ {T S} + (1 - w _ {i}) \hat {\beta} ^ {X S} \tag {15}
+\hat {\beta}_{i} = w_{i} \hat {\beta}_{i}^{T S} + (1 - w_{i}) \hat {\beta}^{X S} \tag {15}
 $$
 
 for simplicity, instead of having asset-specific and time-varying shrinkage factors as in Vasicek (1973), we set  $w = 0.6$  and  $\beta^{XS} = 1$  for all periods and across all assets. However, our results are very similar either way.[14]
@@ -326,13 +326,13 @@ portfolio is composed of all stocks with a beta below (above) its asset class me
 More formally, let  $z$  be the  $n \times 1$  vector of beta ranks  $z_{i} = \text{rank}(\beta_{it})$  at portfolio formation, and let  $\overline{z} = 1_n'z/n$  be the average rank, where  $n$  is the number of securities and  $1_n$  is an  $n \times 1$  vector of ones. The portfolio weights of the low-beta and high-beta portfolios are given by
 
 $$
-\begin{array}{l} w _ {H} = k (z - \bar {z}) ^ {+} \\ w _ {L} = k (z - \bar {z}) ^ {-} \tag {16} \\ \end{array}
+\begin{array}{l} w_{H} = k (z - \bar {z})^{+} \\ w_{L} = k (z - \bar {z})^{-} \tag {16} \\ \end{array}
 $$
 
 where  $k$  is a normalizing constant  $k = 2 / 1_{n}^{\prime}|z - \bar{z}|$  and  $x^{+}$  and  $x^{-}$  indicate the positive and negative elements of a vector  $x$ . By construction, we have  $1_{n}^{\prime}w_{H} = 1$  and  $1_{n}^{\prime}w_{L} = 1$ . To construct the BAB factor, both portfolios are rescaled to have a beta of one at portfolio formation. The BAB is the self-financing zero-beta portfolio (8) that is long the low-beta portfolio and that shortsels the high-beta portfolio.
 
 $$
-r _ {t + 1} ^ {B A B} = \frac {1}{\beta_ {t} ^ {L}} \left(r _ {t + 1} ^ {L} - r ^ {f}\right) - \frac {1}{\beta_ {t} ^ {H}} \left(r _ {t + 1} ^ {H} - r ^ {f}\right), \tag {17}
+r_{t + 1}^{B A B} = \frac{1}{\beta_{t}^{L}} \left(r_{t + 1}^{L} - r^{f}\right) - \frac{1}{\beta_{t}^{H}} \left(r_{t + 1}^{H} - r^{f}\right), \tag {17}
 $$
 
 where  $r_{t + 1}^{L} = r_{t + 1}^{\prime}w_{L}$ ,  $r_{t + 1}^{H} = r_{t + 1}^{\prime}w_{H}$ ,  $\beta_t^L = \beta_t^t w_L$ , and  $\beta_t^H = \beta_t^t w_H$
@@ -427,7 +427,7 @@ Table 3 US equities:returns,1926-2012.
 
 <table><tr><td>Portfolio</td><td>P1 (low beta)</td><td>P2</td><td>P3</td><td>P4</td><td>P5</td><td>P6</td><td>P7</td><td>P8</td><td>P9</td><td>P10 (high beta)</td><td>BAB</td></tr><tr><td>Excess return</td><td>0.91(6.37)</td><td>0.98(5.73)</td><td>1.00(5.16)</td><td>1.03(4.88)</td><td>1.05(4.49)</td><td>1.10(4.37)</td><td>1.05(3.84)</td><td>1.08(3.74)</td><td>1.06(3.27)</td><td>0.97(2.55)</td><td>0.70(7.12)</td></tr><tr><td>CAPM alpha</td><td>0.52(6.30)</td><td>0.48(5.99)</td><td>0.42(4.91)</td><td>0.39(4.43)</td><td>0.34(3.51)</td><td>0.34(3.20)</td><td>0.22(1.94)</td><td>0.21(1.72)</td><td>0.10(0.67)</td><td>-0.10(-0.48)</td><td>0.73(7.44)</td></tr><tr><td>Three-factor alpha</td><td>0.40(6.25)</td><td>0.35(5.95)</td><td>0.26(4.76)</td><td>0.21(4.13)</td><td>0.13(2.49)</td><td>0.11(1.94)</td><td>-0.03(-0.59)</td><td>-0.06(-1.02)</td><td>-0.22(-2.81)</td><td>-0.49(-3.68)</td><td>0.73(7.39)</td></tr><tr><td>Four-factor alpha</td><td>0.40(6.05)</td><td>0.37(6.13)</td><td>0.30(5.36)</td><td>0.25(4.92)</td><td>0.18(3.27)</td><td>0.20(3.63)</td><td>0.09(1.63)</td><td>0.11(1.94)</td><td>0.01(0.12)</td><td>-0.13(-1.01)</td><td>0.55(5.59)</td></tr><tr><td>Five-factor alpha</td><td>0.37(4.54)</td><td>0.37(4.66)</td><td>0.33(4.50)</td><td>0.30(4.40)</td><td>0.17(2.44)</td><td>0.20(2.71)</td><td>0.11(1.40)</td><td>0.14(1.65)</td><td>0.02(0.21)</td><td>0.00(-0.01)</td><td>0.55(4.09)</td></tr><tr><td>Beta (ex ante)</td><td>0.64</td><td>0.79</td><td>0.88</td><td>0.97</td><td>1.05</td><td>1.12</td><td>1.21</td><td>1.31</td><td>1.44</td><td>1.70</td><td>0.00</td></tr><tr><td>Beta (realized)</td><td>0.67</td><td>0.87</td><td>1.00</td><td>1.10</td><td>1.22</td><td>1.32</td><td>1.42</td><td>1.51</td><td>1.66</td><td>1.85</td><td>-0.06</td></tr><tr><td>Volatility</td><td>15.70</td><td>18.70</td><td>21.11</td><td>23.10</td><td>25.56</td><td>27.58</td><td>29.81</td><td>31.58</td><td>35.52</td><td>41.68</td><td>10.75</td></tr><tr><td>Sharpe ratio</td><td>0.70</td><td>0.63</td><td>0.57</td><td>0.54</td><td>0.49</td><td>0.48</td><td>0.42</td><td>0.41</td><td>0.36</td><td>0.28</td><td>0.78</td></tr></table>
 
-This table shows beta-sorted calendar-time portfolio returns. At the beginning of each calendar month, stocks are ranked in ascending order on the basis of their estimated beta at the end of the previous month. The ranked stocks are assigned to one of ten deciles portfolios. All stocks are equally weighted within a given portfolio, and the portfolios are rebalanced every month to maintain equal weights. The rightmost column reports returns of the zero-beta betting against beta (BAB) factor. To construct the BAB factor, all stocks are assigned to one of two portfolios: low beta and high beta. The low- (high-) beta portfolio is composed of all stocks with a beta below (above) its country median. Stocks are weighted by the ranked betas (lower beta security have larger weight in the low-beta portfolio and higher beta securities have larger weights in the high-beta portfolio), and the portfolios are rebalanced every calendar month. Both portfolios are rescaled to have a beta of one at portfolio formation. The betting against beta factor is a self-financing portfolio that is long the low-beta portfolio and short the high-beta portfolio. This table includes all available common stocks on the Xpressfeed Global database for the 19 markets listed in Table 1. The sample period runs from January 1984 to March 2012. Alpha is the intercept in a regression of monthly excess return. The explanatory variables are the monthly returns of Asness and Frazzini (2013) mimicking portfolios and Pastor and Stambaugh (2003) liquidity factor.  $\text{CAPM} = \text{Capital Asset Pricing Model}$ . Regarding the five-factor alphas the Pastor and Stambaugh (2003) liquidity factor is available only between 1968 and 2011. Returns are in US dollars and do not include any currency hedging. Returns and alphas are in monthly percent,  $t$ -statistics are shown below the coefficient estimates, and  $5\%$  statistical significance is indicated in bold. Beta (ex-ante) is the average estimated beta at portfolio formation. Beta (realized) is the realized loading on the market portfolio. Volatilities and Sharpe ratios are annualized.
+This table shows beta-sorted calendar-time portfolio returns. At the beginning of each calendar month, stocks are ranked in ascending order on the basis of their estimated beta at the end of the previous month. The ranked stocks are assigned to one of ten deciles portfolios. All stocks are equally weighted within a given portfolio, and the portfolios are rebalanced every month to maintain equal weights. The rightmost column reports returns of the zero-beta betting against beta (BAB) factor. To construct the BAB factor, all stocks are assigned to one of two portfolios: low beta and high beta. The low- (high-) beta portfolio is composed of all stocks with a beta below (above) its country median. Stocks are weighted by the ranked betas (lower beta security have larger weight in the low-beta portfolio and higher beta securities have larger weights in the high-beta portfolio), and the portfolios are rebalanced every calendar month. Both portfolios are rescaled to have a beta of one at portfolio formation. The betting against beta factor is a self-financing portfolio that is long the low-beta portfolio and short the high-beta portfolio. This table includes all available common stocks on the Xpressfeed Global database for the 19 markets listed in Table 1. The sample period runs from January 1984 to March 2012. Alpha is the intercept in a regression of monthly excess return. The explanatory variables are the monthly returns of Asness and Frazzini (2013) mimicking portfolios and Pastor and Stambaugh (2003) liquidity factor.  $\text{CAPM} = \text{CapitalAssetPricingModel}$ . Regarding the five-factor alphas the Pastor and Stambaugh (2003) liquidity factor is available only between 1968 and 2011. Returns are in US dollars and do not include any currency hedging. Returns and alphas are in monthly percent,  $t$ -statistics are shown below the coefficient estimates, and  $5\%$  statistical significance is indicated in bold. Beta (ex-ante) is the average estimated beta at portfolio formation. Beta (realized) is the realized loading on the market portfolio. Volatilities and Sharpe ratios are annualized.
 
 Table 4 International equities: returns, 1984-2012.  
 
@@ -593,29 +593,29 @@ Unconstrained investors invest in the tangency portfolio and cash. Hence, the ma
 Rearranging the equilibrium-price Eq. (7) yields
 
 $$
-E _ {t} \left(r _ {t + 1} ^ {s}\right) = r ^ {f} + \psi_ {t} + \gamma \frac {1}{P _ {t} ^ {s}} e _ {s} ^ {\prime} \Omega x ^ {*}
+E_{t} \left(r_{t + 1}^{s}\right) = r^{f} + \psi_{t} + \gamma \frac{1}{P_{t}^{s}} e_{s}^{\prime} \Omega x^{*}
 $$
 
 $$
-\begin{array}{l} = r ^ {f} + \psi_ {t} + \gamma \frac {1}{P _ {t} ^ {s}} \operatorname {c o v} _ {t} \left(P _ {t + 1} ^ {s} + \delta_ {t + 1} ^ {s}, \left[ P _ {t + 1} + \delta_ {t + 1} \right] ^ {\prime} x ^ {*}\right) \\ = r ^ {f} + \psi_ {t} + \gamma \operatorname {c o v} _ {t} \left(r _ {t + 1} ^ {s}, r _ {t + 1} ^ {M}\right) P _ {t} ^ {\prime} x ^ {*} \tag {18} \\ \end{array}
+\begin{array}{l} = r^{f} + \psi_{t} + \gamma \frac{1}{P_{t}^{s}} \operatorname{co v}_{t} \left(P_{t + 1}^{s} + \delta_{t + 1}^{s}, \left[ P_{t + 1} + \delta_{t + 1} \right]^{\prime} x^{*}\right) \\ = r^{f} + \psi_{t} + \gamma \operatorname{co v}_{t} \left(r_{t + 1}^{s}, r_{t + 1}^{M}\right) P_{t}^{\prime} x^{*} \tag {18} \\ \end{array}
 $$
 
 where  $e_s$  is a vector with a one in row  $s$  and zeros elsewhere. Multiplying this equation by the market portfolio weights  $w^s = x^{*s}P_t^s / \sum_j x^{*j}P_t^j$  and summing over  $s$  gives
 
 $$
-E _ {t} \left(r _ {t + 1} ^ {M}\right) = r ^ {f} + \psi_ {t} + \gamma \operatorname {v a r} _ {t} \left(r _ {t + 1} ^ {M}\right) P _ {t} x ^ {*} \tag {19}
+E_{t} \left(r_{t + 1}^{M}\right) = r^{f} + \psi_{t} + \gamma \operatorname{va r}_{t} \left(r_{t + 1}^{M}\right) P_{t} x^{*} \tag {19}
 $$
 
 that is,
 
 $$
-\gamma P _ {t} ^ {\prime} x ^ {*} = \frac {\lambda_ {t}}{\operatorname {v a r} _ {t} \left(r _ {t + 1} ^ {M}\right)} \tag {20}
+\gamma P_{t}^{\prime} x^{*} = \frac{\lambda_{t}}{\operatorname{va r}_{t} \left(r_{t + 1}^{M}\right)} \tag {20}
 $$
 
 Inserting this into Eq. (18) gives the first result in the proposition. The second result follows from writing the expected return as
 
 $$
-E _ {t} \left(r _ {t + 1} ^ {s}\right) - r ^ {f} = \psi_ {t} \left(1 - \beta_ {t} ^ {s}\right) + \beta_ {t} ^ {s} \left(E _ {t} \left(r _ {t + 1} ^ {M}\right) - r ^ {f}\right) \tag {21}
+E_{t} \left(r_{t + 1}^{s}\right) - r^{f} = \psi_{t} \left(1 - \beta_{t}^{s}\right) + \beta_{t}^{s} \left(E_{t} \left(r_{t + 1}^{M}\right) - r^{f}\right) \tag {21}
 $$
 
 and noting that the first term is (Jensen's) alpha. Turning to the third result regarding efficient portfolios, the Sharpe ratio increases in beta until the tangency portfolio is reached and decreases thereafter. Hence, the last result follows from the fact that the tangency portfolio has a beta less than one. This is true because the market portfolio is an average of the tangency portfolio (held by unconstrained agents) and riskier portfolios (held by constrained agents) so the market portfolio is riskier than the tangency portfolio. Hence, the tangency portfolio must have a lower expected return and beta (strictly lower if and only if some agents are constrained).
@@ -625,7 +625,7 @@ and noting that the first term is (Jensen's) alpha. Turning to the third result 
 The expected return of the BAB factor is
 
 $$
-\begin{array}{l} E _ {t} \left(r _ {t + 1} ^ {B A B}\right) = \frac {1}{\beta_ {t} ^ {L}} \left(E _ {t} \left(r _ {t + 1} ^ {L}\right) - r ^ {f}\right) - \frac {1}{\beta_ {t} ^ {H}} \left(E _ {t} \left(r _ {t + 1} ^ {H}\right) - r ^ {f}\right) \\ = \frac {1}{\beta_ {t} ^ {L}} \left(\psi_ {t} + \beta_ {t} ^ {L} \lambda_ {t}\right) - \frac {1}{\beta_ {t} ^ {H}} \left(\psi_ {t} + \beta_ {t} ^ {H} \lambda_ {t}\right) \\ = \frac {\beta_ {t} ^ {H} - \beta_ {t} ^ {L}}{\beta_ {t} ^ {L} \beta_ {t} ^ {H}} \psi_ {t} \tag {22} \\ \end{array}
+\begin{array}{l} E_{t} \left(r_{t + 1}^{B A B}\right) = \frac{1}{\beta_{t}^{L}} \left(E_{t} \left(r_{t + 1}^{L}\right) - r^{f}\right) - \frac{1}{\beta_{t}^{H}} \left(E_{t} \left(r_{t + 1}^{H}\right) - r^{f}\right) \\ = \frac{1}{\beta_{t}^{L}} \left(\psi_{t} + \beta_{t}^{L} \lambda_{t}\right) - \frac{1}{\beta_{t}^{H}} \left(\psi_{t} + \beta_{t}^{H} \lambda_{t}\right) \\ = \frac{\beta_{t}^{H} - \beta_{t}^{L}}{\beta_{t}^{L} \beta_{t}^{H}} \psi_{t} \tag {22} \\ \end{array}
 $$
 
 Consider next a change in  $m_{t}^{k}$ . Such a change in a time  $t$  margin requirement does not change the time  $t$  betas for two reasons. First, it does not affect the distribution of prices in the following period  $t + 1$ . Second, prices at time  $t$  are scaled (up or down) by the same proportion due to the change in Lagrange multipliers as seen in Eq. (7). Hence, all returns from  $t$  to  $t + 1$  change by the same multiplier, leading to time  $t$  betas staying the same.
@@ -633,7 +633,7 @@ Consider next a change in  $m_{t}^{k}$ . Such a change in a time  $t$  margin re
 Given Eq. (22), Eq. (12) in the proposition now follows if we can show that  $\psi_t$  increases in  $m^k$  because this leads to
 
 $$
-\frac {\partial E _ {t} \left(r _ {t + 1} ^ {B A B}\right)}{\partial m _ {t} ^ {k}} = \frac {\beta_ {t} ^ {H} - \beta_ {t} ^ {L}}{\beta_ {t} ^ {L} \beta_ {t} ^ {H}} \frac {\partial \psi_ {t}}{\partial m _ {t} ^ {k}} > 0 \tag {23}
+\frac{\partial E_{t} \left(r_{t + 1}^{B A B}\right)}{\partial m_{t}^{k}} = \frac{\beta_{t}^{H} - \beta_{t}^{L}}{\beta_{t}^{L} \beta_{t}^{H}} \frac{\partial \psi_{t}}{\partial m_{t}^{k}} > 0 \tag {23}
 $$
 
 Further, because prices move opposite required returns, Eq. (11) then follows. To see that an increase in  $m_t^k$  increases  $\psi_t$ , note that the constrained agents' asset expenditure decreases with a higher  $m_t^k$ . Indeed, summing the portfolio constraint across constrained agents [where
@@ -646,7 +646,7 @@ Fig. A1. Portfolio selection with constraints. The top panel shows the mean-stan
 Eq. (2) holds with equality] gives
 
 $$
-\sum_ {i \text {c o n s t r a i n e d}} \sum_ {s} x ^ {i, s} P _ {t} ^ {s} = \sum_ {i \text {c o n s t r a i n e d}} \frac {1}{m ^ {i}} W _ {t} ^ {i} \tag {24}
+\sum_{i \text{co ns tr ai ne d}} \sum_{s} x^{i, s} P_{t}^{s} = \sum_{i \text{co ns tr ai ne d}} \frac{1}{m^{i}} W_{t}^{i} \tag {24}
 $$
 
 Because increasing  $m^k$  decreases the right-hand side, the left-hand side must also decrease. That is, the total market value of shares owned by constrained agents decreases.
@@ -654,13 +654,13 @@ Because increasing  $m^k$  decreases the right-hand side, the left-hand side mus
 Next, we show that the constrained agents' expenditure is decreasing in  $\psi$ . Hence, because an increase in  $m_t^k$  decreases the constrained agents' expenditure, it must increase  $\psi_t$  as we wanted to show.
 
 $$
-\frac {\partial}{\partial \psi} \sum_ {i \text {c o n s t r a i n e d}} P _ {t} ^ {\prime} x ^ {i} = \sum_ {i \text {c o n s t r a i n e d}} \left(\frac {\partial P _ {t}}{\partial \psi} ^ {\prime} x ^ {i} + P _ {t} ^ {\prime} \frac {\partial x ^ {i}}{\partial \psi}\right) <   0 \tag {25}
+\frac{\partial}{\partial \psi} \sum_{i \text{co ns tr ai ne d}} P_{t}^{\prime} x^{i} = \sum_{i \text{co ns tr ai ne d}} \left(\frac{\partial P_{t}}{\partial \psi}^{\prime} x^{i} + P_{t}^{\prime} \frac{\partial x^{i}}{\partial \psi}\right) <   0 \tag {25}
 $$
 
 to see the last inequality, note that clearly  $(\partial P_t / \partial \psi)'\dot{x}^i < 0$  since all the prices decrease by the same proportion [seen in Eq. (7)] and the initial expenditure is positive. The second term is also negative because
 
 $$
-\begin{array}{l} \sum_ {i \text {c o n s t r a i n e d}} P _ {t} ^ {\prime} \frac {\partial}{\partial \psi} x ^ {i} = \sum_ {i \text {c o n s t r a i n e d}} P _ {t} ^ {\prime} \frac {\partial}{\partial \psi} \frac {1}{\gamma^ {i}} \Omega^ {- 1} \\ \times \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f} + \psi_ {t} ^ {i}\right) \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi}\right) \\ = - P _ {t} ^ {\prime} \frac {\partial}{\partial \psi} \Omega^ {- 1} \sum_ {i c o n s t r a i n e d} \\ \frac {1}{\gamma^ {i}} \left(1 + r ^ {f} + \psi_ {t} ^ {i}\right) \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi} \\ = - P _ {t} ^ {\prime} \frac {\partial}{\partial \psi} \Omega^ {- 1} \frac {1}{\gamma} (q (1 + r ^ {f}) + \psi) \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi} \\ = - \left(\frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi}\right), \frac {\partial}{\partial \psi} \\ \Omega^ {- 1} \frac {1}{\gamma} (q (1 + r ^ {f}) + \psi) \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi} \\ = - \frac {1}{1 + r ^ {f} + \psi} \frac {1}{\gamma} \frac {\partial}{\partial \psi} \frac {q (1 + r ^ {f}) + \psi}{1 + r ^ {f} + \psi} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) \right. \\ - \gamma \Omega x ^ {*}) ^ {\prime} \Omega^ {- 1} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}\right) <   0 \tag {26} \\ \end{array}
+\begin{array}{l} \sum_{i \text{co ns tr ai ne d}} P_{t}^{\prime} \frac{\partial}{\partial \psi} x^{i} = \sum_{i \text{co ns tr ai ne d}} P_{t}^{\prime} \frac{\partial}{\partial \psi} \frac{1}{\gamma^{i}} \Omega^{- 1} \\ \times \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f} + \psi_{t}^{i}\right) \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi}\right) \\ = - P_{t}^{\prime} \frac{\partial}{\partial \psi} \Omega^{- 1} \sum_{i c o n s t r a i n e d} \\ \frac{1}{\gamma^{i}} \left(1 + r^{f} + \psi_{t}^{i}\right) \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi} \\ = - P_{t}^{\prime} \frac{\partial}{\partial \psi} \Omega^{- 1} \frac{1}{\gamma} (q (1 + r^{f}) + \psi) \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi} \\ = - \left(\frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi}\right), \frac{\partial}{\partial \psi} \\ \Omega^{- 1} \frac{1}{\gamma} (q (1 + r^{f}) + \psi) \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi} \\ = - \frac{1}{1 + r^{f} + \psi} \frac{1}{\gamma} \frac{\partial}{\partial \psi} \frac{q (1 + r^{f}) + \psi}{1 + r^{f} + \psi} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) \right. \\ - \gamma \Omega x^{*})^{\prime} \Omega^{- 1} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}\right) <   0 \tag {26} \\ \end{array}
 $$
 
 where we have defined  $q = \sum_{i}$  constrained  $(\gamma /\gamma^i) < 1$  and used that  $\sum_{i}$  constrained  $(\gamma /\gamma^{i})\psi^{i} = \sum_{i}(\gamma /\gamma^{i})\psi^{i} = \psi$  since  $\psi^i = 0$  for unconstrained agents. This completes the proof.
@@ -670,33 +670,33 @@ where we have defined  $q = \sum_{i}$  constrained  $(\gamma /\gamma^i) < 1$  an
 Using the Eq. (7), the sensitivity of prices with respect to funding shocks can be calculated as
 
 $$
-\frac {\partial P _ {t} ^ {s}}{P _ {t} ^ {s}} / \partial \psi_ {t} = - \frac {1}{1 + r ^ {f} + \psi_ {t}} \tag {27}
+\frac{\partial P_{t}^{s}}{P_{t}^{s}} / \partial \psi_{t} = - \frac{1}{1 + r^{f} + \psi_{t}} \tag {27}
 $$
 
 which is the same for all securities  $s$ . Intuitively, shocks that affect all securities the same way compress betas toward one. To see this more rigorously, we write prices as:
 
 $$
-\begin{array}{l} P _ {t} ^ {i} = \frac {E _ {t} \left(P _ {t + 1} ^ {i} + \delta_ {t + 1} ^ {i}\right) - \gamma e _ {i} ^ {\prime} \Omega x ^ {*}}{1 + r ^ {f} + \psi_ {t}} \\ = a ^ {i} z _ {t} + z _ {t} E _ {t} \left(P _ {t + 1} ^ {i}\right) \\ = a ^ {i} \left(z _ {t} + z _ {t} E \left(z _ {t + 1}\right) + z _ {t} E \left(z _ {t + 1}\right) E \left(z _ {t + 2}\right) + \dots\right) \\ = a ^ {i} \pi_ {t} \tag {28} \\ \end{array}
+\begin{array}{l} P_{t}^{i} = \frac{E_{t} \left(P_{t + 1}^{i} + \delta_{t + 1}^{i}\right) - \gamma e_{i}^{\prime} \Omega x^{*}}{1 + r^{f} + \psi_{t}} \\ = a^{i} z_{t} + z_{t} E_{t} \left(P_{t + 1}^{i}\right) \\ = a^{i} \left(z_{t} + z_{t} E \left(z_{t + 1}\right) + z_{t} E \left(z_{t + 1}\right) E \left(z_{t + 2}\right) + \dots\right) \\ = a^{i} \pi_{t} \tag {28} \\ \end{array}
 $$
 
 where we use the following definitions and that random variables are i.i.d. over time:
 
 $$
-a ^ {i} = E \left(\delta_ {t + 1} ^ {i}\right) - \gamma e _ {i} ^ {\prime} \Omega x ^ {*}
+a^{i} = E \left(\delta_{t + 1}^{i}\right) - \gamma e_{i}^{\prime} \Omega x^{*}
 $$
 
 $$
-z _ {t} = \frac {1}{1 + r ^ {f} + \psi_ {t}}
+z_{t} = \frac{1}{1 + r^{f} + \psi_{t}}
 $$
 
 $$
-\pi_ {t} = z _ {t} + z _ {t} E \left(z _ {t + 1}\right) + z _ {t} E \left(z _ {t + 1}\right) E \left(z _ {t + 2}\right) + \dots = \frac {z _ {t}}{1 - E \left(z _ {t + 1}\right)} \tag {29}
+\pi_{t} = z_{t} + z_{t} E \left(z_{t + 1}\right) + z_{t} E \left(z_{t + 1}\right) E \left(z_{t + 2}\right) + \dots = \frac{z_{t}}{1 - E \left(z_{t + 1}\right)} \tag {29}
 $$
 
 with these definitions, we can write returns as  $r_{t}^{i} = (P_{t}^{i} + \delta_{t}^{i}) / P_{t - 1}^{i} = (a^{i}\pi_{t} + \delta_{t}^{i}) / a^{i}\pi_{t - 1}$  and calculate conditional beta as follows (using that new information about  $m_{t}$  and  $W_{t}$  affect only the conditional distribution of  $\pi_{t}$ ):
 
 $$
-\begin{array}{l} \beta_ {t - 1} ^ {i} = \frac {\operatorname {c o v} _ {t - 1} \left(r _ {t} ^ {i} , r _ {t} ^ {M}\right)}{\operatorname {v a r} _ {t - 1} \left(r _ {t} ^ {M}\right)} \\ = \frac {\operatorname {C O V} _ {t - 1} \left(\left(a ^ {i} \pi_ {t} + \delta_ {t} ^ {i}\right) / a ^ {i} \pi_ {t - 1} , \left(a ^ {M} \pi_ {t} + \delta_ {t} ^ {M}\right) / a ^ {M} \pi_ {t - 1}\right)}{\operatorname {V a r} _ {t - 1} \left(a ^ {M} \pi_ {t} + \delta_ {t} ^ {M}\right) / a ^ {M} \pi_ {t - 1}} \\ = \frac {\operatorname {v a r} _ {t - 1} \left(\pi_ {t}\right) + \left(1 / a ^ {i} a ^ {M}\right) \operatorname {c o v} _ {t - 1} \left(\delta_ {t} ^ {i} , \delta_ {t} ^ {M}\right)}{\operatorname {v a r} _ {t - 1} \left(\pi_ {t}\right) + \left(1 / \left(a ^ {M}\right) ^ {2}\right) \operatorname {v a r} _ {t - 1} \left(\delta_ {t} ^ {M}\right)} \tag {30} \\ \end{array}
+\begin{array}{l} \beta_{t - 1}^{i} = \frac{\operatorname{co v}_{t - 1} \left(r_{t}^{i} , r_{t}^{M}\right)}{\operatorname{va r}_{t - 1} \left(r_{t}^{M}\right)} \\ = \frac{\operatorname{CO V}_{t - 1} \left(\left(a^{i} \pi_{t} + \delta_{t}^{i}\right) / a^{i} \pi_{t - 1} , \left(a^{M} \pi_{t} + \delta_{t}^{M}\right) / a^{M} \pi_{t - 1}\right)}{\operatorname{Va r}_{t - 1} \left(a^{M} \pi_{t} + \delta_{t}^{M}\right) / a^{M} \pi_{t - 1}} \\ = \frac{\operatorname{va r}_{t - 1} \left(\pi_{t}\right) + \left(1 / a^{i} a^{M}\right) \operatorname{co v}_{t - 1} \left(\delta_{t}^{i} , \delta_{t}^{M}\right)}{\operatorname{va r}_{t - 1} \left(\pi_{t}\right) + \left(1 / \left(a^{M}\right)^{2}\right) \operatorname{va r}_{t - 1} \left(\delta_{t}^{M}\right)} \tag {30} \\ \end{array}
 $$
 
 Here, we use that  $\delta_t^s$  and  $\pi_t$  are independent since the dividend is paid to the old generation of investors while  $\pi_t$  depends on the margin requirements and wealth of the young generation of investors.
@@ -706,7 +706,7 @@ We see that the beta depends on the security-specific cash flow covariance,  $\m
 Further, if betas are compressed toward one after the formation of the BAB portfolio, then BAB will realize a positive beta as its long side is more leveraged than its short side. Specifically, suppose that the BAB portfolio is constructed based on estimated betas  $(\hat{\beta}_t^L,\hat{\beta}_t^H)$  using data from a period with less variance of  $\psi_t$  so that  $\hat{\beta}_t^L < \beta_t^L < \beta_t^H < \hat{\beta}_t^H$ . Then the BAB portfolio will have a beta of
 
 $$
-\begin{array}{l} \beta_ {t} ^ {B A B} = \frac {1}{\operatorname {v a r} _ {t} \left(r _ {t + 1} ^ {M}\right)} \operatorname {c o v} _ {t} \left(\frac {1}{\hat {\beta} _ {t} ^ {L}} \left(r _ {t + 1} ^ {L} - r ^ {f}\right) - \frac {1}{\hat {\beta} _ {t} ^ {H}} \left(r _ {t + 1} ^ {H} - r ^ {f}\right), r _ {t + 1} ^ {M}\right) \\ = \frac {\beta_ {t} ^ {L}}{\hat {\beta} _ {t} ^ {L}} - \frac {\beta_ {t} ^ {H}}{\hat {\beta} _ {t} ^ {H}} > 0 \quad \square \tag {31} \\ \end{array}
+\begin{array}{l} \beta_{t}^{B A B} = \frac{1}{\operatorname{va r}_{t} \left(r_{t + 1}^{M}\right)} \operatorname{co v}_{t} \left(\frac{1}{\hat {\beta}_{t}^{L}} \left(r_{t + 1}^{L} - r^{f}\right) - \frac{1}{\hat {\beta}_{t}^{H}} \left(r_{t + 1}^{H} - r^{f}\right), r_{t + 1}^{M}\right) \\ = \frac{\beta_{t}^{L}}{\hat {\beta}_{t}^{L}} - \frac{\beta_{t}^{H}}{\hat {\beta}_{t}^{H}} > 0 \quad \square \tag {31} \\ \end{array}
 $$
 
 # A.4. Proof of Proposition 5
@@ -716,7 +716,7 @@ To see the first part of the proposition, note that an unconstrained investor ho
 To see the second part of the proposition, note that given the equilibrium prices, the optimal portfolio is
 
 $$
-\begin{array}{l} x ^ {i} = \frac {1}{\gamma^ {i}} \Omega^ {- 1} \left(E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \left(1 + r ^ {f} + \psi_ {t} ^ {i}\right) \frac {E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \gamma \Omega x ^ {*}}{1 + r ^ {f} + \psi_ {t}}\right) \\ = \frac {\gamma}{\gamma^ {i}} \frac {1 + r ^ {f} + \psi_ {t} ^ {i}}{1 + r ^ {f} + \psi_ {t}} x ^ {*} + \frac {\psi_ {t} - \psi_ {t} ^ {i}}{1 + r ^ {f} + \psi_ {t}} \frac {1}{\gamma^ {i}} \Omega^ {- 1} E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) \tag {32} \\ \end{array}
+\begin{array}{l} x^{i} = \frac{1}{\gamma^{i}} \Omega^{- 1} \left(E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \left(1 + r^{f} + \psi_{t}^{i}\right) \frac{E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \gamma \Omega x^{*}}{1 + r^{f} + \psi_{t}}\right) \\ = \frac{\gamma}{\gamma^{i}} \frac{1 + r^{f} + \psi_{t}^{i}}{1 + r^{f} + \psi_{t}} x^{*} + \frac{\psi_{t} - \psi_{t}^{i}}{1 + r^{f} + \psi_{t}} \frac{1}{\gamma^{i}} \Omega^{- 1} E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) \tag {32} \\ \end{array}
 $$
 
 The first term shows that each agent holds some (positive) weight in the market portfolio  $x^{*}$  and the second term shows how he tilts his portfolio away from the market. The direction of the tilt depends on whether the agent's Lagrange multiplier  $\psi_{t}^{i}$  is smaller or larger than the weighted average of all the agents' Lagrange multipliers  $\psi_{t}$ . A less-constrained agent tilts toward the portfolio  $\Omega^{-1}E_{t}(P_{t + 1} + \delta_{t + 1})$  (measured in shares), while a more-constrained agent tilts away from this portfolio. Given the
@@ -724,13 +724,13 @@ The first term shows that each agent holds some (positive) weight in the market 
 expression (13), we can write the variance-covariance matrix as
 
 $$
-\Omega = \sigma_ {M} ^ {2} b b ^ {\prime} + \Sigma \tag {33}
+\Omega = \sigma_{M}^{2} b b^{\prime} + \Sigma \tag {33}
 $$
 
 where  $\Sigma = \mathrm{var}(e)$  and  $\sigma_{M}^{2} = \mathrm{var}(P_{t + 1}^{M})$ . Using the Matrix Inversion Lemma (the Sherman-Morrison-Woodbury formula), the tilt portfolio can be written as
 
 $$
-\begin{array}{l} \Omega^ {- 1} E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) \\ = \left(\Sigma^ {- 1} - \Sigma^ {- 1} b b ^ {\prime} \Sigma^ {- 1} \frac {1}{\sigma_ {M} ^ {2} + b ^ {\prime} \Sigma^ {- 1} b}\right) E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) \\ = \Sigma^ {- 1} E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - \Sigma^ {- 1} b b ^ {\prime} \Sigma^ {- 1} E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) \frac {1}{\sigma_ {M} ^ {2} + b ^ {\prime} \Sigma^ {- 1} b} \\ = \Sigma^ {- 1} E _ {t} \left(P _ {t + 1} + \delta_ {t + 1}\right) - y \Sigma^ {- 1} b \tag {34} \\ \end{array}
+\begin{array}{l} \Omega^{- 1} E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) \\ = \left(\Sigma^{- 1} - \Sigma^{- 1} b b^{\prime} \Sigma^{- 1} \frac{1}{\sigma_{M}^{2} + b^{\prime} \Sigma^{- 1} b}\right) E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) \\ = \Sigma^{- 1} E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - \Sigma^{- 1} b b^{\prime} \Sigma^{- 1} E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) \frac{1}{\sigma_{M}^{2} + b^{\prime} \Sigma^{- 1} b} \\ = \Sigma^{- 1} E_{t} \left(P_{t + 1} + \delta_{t + 1}\right) - y \Sigma^{- 1} b \tag {34} \\ \end{array}
 $$
 
 where  $y = b^{\prime}\Sigma^{-1}E_{t}(P_{t + 1} + \delta_{t + 1}) / (\sigma_{M}^{2} + b^{\prime}\Sigma^{-1}b)$  is a scalar. It holds that  $(\Sigma^{-1}b)_{s} > (\Sigma^{-1}b)_{k}$  because  $b^{s} > b^{k}$  and because  $s$  and  $k$  have the same variances and covariances in  $\Sigma$ , implying that  $(\Sigma^{-1})_{s,j} = (\Sigma^{-1})_{k,j}$  for  $j\neq s,k$  and  $(\Sigma^{-1})_{s,s} = (\Sigma^{-1})_{k,k}\geq (\Sigma^{-1})_{s,k} = (\Sigma^{-1})_{k,s}$ . Similarly, it holds that  $[\Sigma^{-1}E_t(P_{t + 1} + \delta_{t + 1})]_s < [\Sigma^{-1}E_t(P_{t + 1} + \delta_{t + 1})]_k$  since a higher market exposure leads to a lower price (as seen below). So, everything else equal, a higher  $b$  leads to a lower weight in the tilt portfolio.
@@ -738,13 +738,13 @@ where  $y = b^{\prime}\Sigma^{-1}E_{t}(P_{t + 1} + \delta_{t + 1}) / (\sigma_{M}
 Finally, security  $s$  also has a higher return beta than  $k$  because
 
 $$
-\beta_ {t} ^ {i} = \frac {P _ {t} ^ {M} \operatorname {c o v} \left(P _ {t + 1} ^ {i} + \delta_ {t + 1} ^ {i} , P _ {t + 1} ^ {M} + \delta_ {t + 1} ^ {M}\right)}{P _ {t} ^ {i} \operatorname {v a r} \left(P _ {t + 1} ^ {M} + \delta_ {t + 1} ^ {M}\right)} = \frac {P _ {t} ^ {M}}{P _ {t} ^ {i}} b ^ {i} \tag {35}
+\beta_{t}^{i} = \frac{P_{t}^{M} \operatorname{co v} \left(P_{t + 1}^{i} + \delta_{t + 1}^{i} , P_{t + 1}^{M} + \delta_{t + 1}^{M}\right)}{P_{t}^{i} \operatorname{va r} \left(P_{t + 1}^{M} + \delta_{t + 1}^{M}\right)} = \frac{P_{t}^{M}}{P_{t}^{i}} b^{i} \tag {35}
 $$
 
 and a higher  $b^i$  means a lower price:
 
 $$
-\begin{array}{l} P _ {t} ^ {i} = \frac {E _ {t} (P _ {t + 1} ^ {i} + \delta_ {t + 1} ^ {i}) - \gamma (\Omega x ^ {*}) _ {i}}{1 + r ^ {f} + \psi_ {t}} \\ = \frac {E _ {t} \left(P _ {t + 1} ^ {i} + \delta_ {t + 1} ^ {i}\right) - \gamma \left(\Sigma x ^ {*}\right) _ {i} - b ^ {i} b ^ {\prime} x ^ {*} \gamma \sigma_ {M} ^ {2}}{1 + r ^ {f} + \psi_ {t}} \quad \square \tag {36} \\ \end{array}
+\begin{array}{l} P_{t}^{i} = \frac{E_{t} (P_{t + 1}^{i} + \delta_{t + 1}^{i}) - \gamma (\Omega x^{*})_{i}}{1 + r^{f} + \psi_{t}} \\ = \frac{E_{t} \left(P_{t + 1}^{i} + \delta_{t + 1}^{i}\right) - \gamma \left(\Sigma x^{*}\right)_{i} - b^{i} b^{\prime} x^{*} \gamma \sigma_{M}^{2}}{1 + r^{f} + \psi_{t}} \quad \square \tag {36} \\ \end{array}
 $$
 
 # Appendix B and C

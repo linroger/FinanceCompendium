@@ -77,7 +77,7 @@ We can mathematically state the law of one price as follows, for the case of any
 Using subscripts to indicate locations and currencies, the relative price can be written
 
 $$
-\underline {{q _ {U S / E U R} ^ {\mathrm {g}}}} = \underbrace {(E _ {\S / \epsilon} P _ {E U R} ^ {\mathrm {g}})} / \underbrace {P _ {U S} ^ {\mathrm {g}}}
+\underline {{q_{U S / E U R}^{\mathrm{g}}}} = \underbrace {(E_{\S / \epsilon} P_{E U R}^{\mathrm{g}})} / \underbrace {P_{U S}^{\mathrm{g}}}
 $$
 
 Relative price of good  $g$  in Europe versus U.S.
@@ -93,7 +93,7 @@ The law of one price may or may not hold. Recall from Chapter 13 that there are 
 How does the law of one price further our understanding of exchange rates? We can rearrange the equation for price equality,  $E_{\mathbb{S} / \mathbb{E}}P_{EUR}^{g} = P_{US}^{g}$ , to show that if the law of one price holds, then the exchange rate must equal the ratio of the goods' prices expressed in the two currencies:
 
 $$
-\underbrace{E_{\S/\ell}}_{\substack{\text{Exchange}\\ \text{rate}}} = \underbrace{P_{US}^{g} / P_{EUR}^{g}}_{\substack{\text{Ratio of}\\ \text{goods' prices}}}
+\underbrace{E_{\S/\ell}}_{\substack{\text{Exchange}\\ \text{rate}}} = \underbrace{P_{US}^{g} / P_{EUR}^{g}}_{\substack{\text{Ratioof}\\ \text{goods'prices}}}
 $$
 
 One final word of caution: given our concerns in the previous chapter about the right way to define the exchange rate, we must take care when using expressions that are ratios to ensure that the units on each side of the equation correspond. In the last equation, we know we have it right because the left-hand side is expressed in dollars per euro and the right-hand side is also a ratio of dollars to euros ( $per unit of goods divided by$  per unit of goods).
@@ -107,7 +107,7 @@ We can define a price level (denoted  $P$ ) in each location as a weighted avera
 To express PPP algebraically, we can compute the relative price of the two baskets of goods in each location, denoted  $q_{US/EUR}$ :
 
 $$
-\underbrace {q _ {U S / E U R}} _ {\text {R e l a t i v e p r i c e o f}} = \underbrace {(E _ {\S / \mathrm {e}} P _ {E U R})} _ {\text {E u r o p e a n}} / \underbrace {P _ {U S}} _ {\text {U . S . p r i c e o f b a s k e t}}
+\underbrace {q_{U S / E U R}}_{\text{Re la ti ve pr ic eo f}} = \underbrace {(E_{\S / \mathrm{e}} P_{E U R})}_{\text{Eu ro pe an}} / \underbrace {P_{U S}}_{\text{U .S .p ri ce of ba sk et}}
 $$
 
 Just as there were three possible outcomes for the law of one price, there are three possibilities for PPP: the basket is cheaper in United States; the basket is cheaper in Europe; or  $E_{\mathbb{S} / \mathbb{E}}P_{\mathbb{E}\mathbb{U}\mathbb{R}} = P_{\mathbb{U}\mathbb{S}}$ ; the basket is the same price in both locations, and  $q_{\mathrm{US} / \mathrm{EUR}} = 1$ . In the first two cases, the basket is cheaper in one location and profitable arbitrage on the baskets is possible. Only in the third case is there no arbitrage. PPP holds when price levels in two countries are equal when expressed in a common currency. This statement about equality of price levels is also called absolute PPP.
@@ -145,7 +145,7 @@ For example, if a European basket costs  $E_{\mathbb{S} / \mathbb{E}}P_{\text{EU
 Finally, just as we did with the law of one price, we can rearrange the no-arbitrage equation for the equality of price levels,  $E_{\mathbb{S} / \epsilon}P_{EUR} = P_{US}$ , to allow us to solve for the exchange rate that would be implied by absolute PPP:
 
 $$
-\text {A b s o l u t e P P P :} \underbrace {E _ {\mathbb {S} / \epsilon}} _ {\text {E x c h a n g e r a t e}} = \underbrace {P _ {U S} / P _ {E U R}} _ {\text {R a t i o o f p r i c e l e v e l s}} \tag {14-1}
+\text{Ab so lu te PP P :} \underbrace {E_{\mathbb {S} / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {P_{U S} / P_{E U R}}_{\text{Ra ti oo fp ri ce le ve ls}} \tag {14-1}
 $$
 
 This is one of the most important equations in our course of study because it shows how PPP (or absolute PPP) makes a clear prediction about exchange rates: Purchasing power parity implies that the exchange rate at which two currencies trade equals the relative price levels of the two countries.
@@ -173,7 +173,7 @@ Building Block: Price Levels and Exchange Rates in the Long Run According to the
 period  $t + 1$ . On the left-hand side, the rate of change of the exchange rate in Home is the rate of exchange rate depreciation in Home given by
 
 $$
-\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}} \qquad = \qquad \underbrace {E _ {\S / \epsilon , t + 1} - E _ {\S / \epsilon , t}} _ {E _ {\S / \epsilon , t}}
+\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}} \qquad = \qquad \underbrace {E_{\S / \epsilon , t + 1} - E_{\S / \epsilon , t}}_{E_{\S / \epsilon , t}}
 $$
 
 Rate of depreciation of the nominal exchange rate
@@ -181,7 +181,7 @@ Rate of depreciation of the nominal exchange rate
 On the right of Equation (14-1), the rate of change of the ratio of two price levels equals the rate of change of the numerator minus the rate of change of the denominator:
 
 $$
-\frac {\Delta \left(P _ {U S} / P _ {E U R}\right)}{\left(P _ {U S} / P _ {E U R}\right)} = \frac {\Delta P _ {U S , t}}{P _ {U S , t}} - \frac {\Delta P _ {E U R , t}}{P _ {E U R , t}} = \underbrace {\left(\frac {P _ {U S , t + 1} - P _ {U S , t}}{P _ {U S , t}}\right)} _ {\text {R a t e o f i n f l a t i o n i n}} - \underbrace {\left(\frac {P _ {E U R , t + 1} - P _ {E U R , t}}{P _ {E U R , t}}\right)} _ {\text {R a t e o f i n f l a t i o n i n}} = \pi_ {U S} - \pi_ {E U R}
+\frac{\Delta \left(P_{U S} / P_{E U R}\right)}{\left(P_{U S} / P_{E U R}\right)} = \frac{\Delta P_{U S , t}}{P_{U S , t}} - \frac{\Delta P_{E U R , t}}{P_{E U R , t}} = \underbrace {\left(\frac{P_{U S , t + 1} - P_{U S , t}}{P_{U S , t}}\right)}_{\text{Ra te of in fl at io ni n}} - \underbrace {\left(\frac{P_{E U R , t + 1} - P_{E U R , t}}{P_{E U R , t}}\right)}_{\text{Ra te of in fl at io ni n}} = \pi_{U S} - \pi_{E U R}
 $$ where the terms in brackets are the inflation rates in each location, denoted  $\pi_{US}$  and  $\pi_{EUR}$ , respectively.
 
 
@@ -189,7 +189,7 @@ If Equation (14-1) holds for levels of exchange rates and prices, then it must a
 
 $$
 
-\text {R e l a t i v e P P P :} \quad \underbrace {\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}}} = \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \tag {14-2}
+\text{Re la ti ve PP P :} \quad \underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \tag {14-2}
 
 $$
 
@@ -257,7 +257,7 @@ To see how, let's take an example. Start with the definition of the real exchang
 
 $$
 
-\begin{array}{c} \underbrace {\Delta E _ {\S / \epsilon , t}} _ {E _ {\S / \epsilon , t}} = \underbrace {\Delta q _ {U S / E U R , t}} _ {q _ {U S / E U R, t}} + \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} \end{array}
+\begin{array}{c} \underbrace {\Delta E_{\S / \epsilon , t}}_{E_{\S / \epsilon , t}} = \underbrace {\Delta q_{U S / E U R , t}}_{q_{U S / E U R, t}} + \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \end{array}
 
 $$
 
@@ -287,7 +287,7 @@ For more than 25 years, The Economist newspaper has engaged in a whimsical attem
 
 $$
 
-\text {B i g M a c I n d e x} = q ^ {\text {B i g M a c}} - 1 = \left(\frac {E _ {\mathbb {S} / \text {l o c a l c u r r e n c y}} P _ {\text {l o c a l}} ^ {\text {B i g M a c}}}{P _ {\text {U S}} ^ {\text {B i g M a c}}}\right) - 1
+\text{Bi gM ac In de x} = q^{\text{Bi gM ac}} - 1 = \left(\frac{E_{\mathbb {S} / \text{lo ca lc ur re nc y}} P_{\text{lo ca l}}^{\text{Bi gM ac}}}{P_{\text{US}}^{\text{Bi gM ac}}}\right) - 1
 
 $$ less than the U.S. price. So the peso was  $4 \%$ undervalued against the U.S. dollar according to this measure, and Argentina's exchange rate would have had to appreciate to 4.39 pesos per dollar to attain the level implied by a burgerbased PPP theory. An example of overvaluation appears in Row 4, in the case of neighboring Brazil. There a Big Mac cost 10.08 reais, or 4.94 in U.S. currency at the prevailing exchange
 
@@ -371,7 +371,7 @@ Moving from the individual or household level up to the aggregate or macroeconom
 This insight suggests a simple model in which the demand for money is proportional to dollar income. This model is known as the quantity theory of money:
 
 $$
-\underbrace {M ^ {d}} _ {\substack {\text {Demand} \\ \text {for money (\$)}}} = \underbrace {\overline {L}} _ {\substack {\text {A constant} \\ \text {Nominal}}} \times \underbrace {P Y} _ {\substack {\text {income (\$)}}}
+\underbrace {M^{d}}_{\substack {\text{Demand} \\ \text{formoney (\$)}}} = \underbrace {\overline {L}}_{\substack {\text{Aconstant} \\ \text{Nominal}}} \times \underbrace {P Y}_{\substack {\text{income (\$)}}}
 $$
 
 Here,  $PY$  measures the total nominal dollar value of income in the economy, equal to the price level  $P$  times real income  $Y$ . The term  $\overline{L}$  is a constant that measures how much demand for liquidity is generated for each dollar of nominal income. To emphasize this point, we assume for now that every  \$1 of nominal income requires$ \overline{L}$ of money for transactions purposes and that this relationship is constant. (Later, we relax this assumption.)
@@ -381,7 +381,7 @@ The intuition behind the last equation is as follows: If the price level rises b
 Another way to look at the quantity theory is to convert all quantities into real quantities by dividing the previous equation by  $P$ , the price level (the price of a basket of goods). Quantities are then converted from nominal dollars to real units (specifically, into units of baskets of goods). These conversions allow us to derive the demand for real money balances:
 
 $$
-\underbrace{\frac{M^{d}}{P}}_{\substack{\text{Demand for}\\ \text{real money}}} = \underbrace{\overline{L}}_{\substack{\text{A constant}}} \times \underbrace{Y}_{\substack{\text{Real income}}}
+\underbrace{\frac{M^{d}}{P}}_{\substack{\text{Demandfor}\\ \text{realmoney}}} = \underbrace{\overline{L}}_{\substack{\text{Aconstant}}} \times \underbrace{Y}_{\substack{\text{Realincome}}}
 $$
 
 Real money balances measure the purchasing power of the stock of money in terms of goods and services. The expression just given says that the demand for real money balances is proportional to real income. The more real income we have, the more real transactions we have to perform, and the more real money we need.
@@ -397,7 +397,7 @@ $$ and, equivalently, that real money supply equals real money demand:
 
 $$
 
-\frac {M}{P} = \bar {L} Y
+\frac{M}{P} = \bar {L} Y
 
 $$
 
@@ -411,7 +411,7 @@ Let's consider the last equation given and apply it to the United States, adding
 
 $$
 
-P _ {U S} = \frac {M _ {U S}}{\overline {{L}} _ {U S} Y _ {U S}}
+P_{U S} = \frac{M_{U S}}{\overline {{L}}_{U S} Y_{U S}}
 
 $$
 
@@ -421,7 +421,7 @@ The analogous expression for the European price level is:
 
 $$
 
-P _ {E U R} = \frac {M _ {E U R}}{\bar {L} _ {E U R} Y _ {E U R}}
+P_{E U R} = \frac{M_{E U R}}{\bar {L}_{E U R} Y_{E U R}}
 
 $$
 
@@ -441,7 +441,7 @@ A long-run model of the exchange rate is close at hand. If we take the last two 
 
 $$
 
-\underbrace {E _ {\S / \epsilon}} _ {\text {E x c h a n g e r a t e}} = \underbrace {\frac {P _ {U S}}{P _ {E U R}}} _ {\text {R a t i o o f p r i c e l e v e l s}} = \underbrace {\frac {\left(\frac {M _ {U S}}{\bar {L} _ {U S} Y _ {U S}}\right)}{\left(\frac {M _ {E U R}}{\bar {L} _ {E U R} Y _ {E U R}}\right)}} _ {\text {R e l a t i v e m o n i n a l m o n e y}}} = \underbrace {\frac {(M _ {U S} / M _ {E U R})}{(\bar {L} _ {U S} Y _ {U S} / \bar {L} _ {E U R} Y _ {E U R})}} _ {\text {R e l a w m o n e y d e m a n d s}} \tag {14-3}
+\underbrace {E_{\S / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {\frac{P_{U S}}{P_{E U R}}}_{\text{Ra ti oo fp ri ce le ve ls}} = \underbrace {\frac{\left(\frac{M_{U S}}{\bar {L}_{U S} Y_{U S}}\right)}{\left(\frac{M_{E U R}}{\bar {L}_{E U R} Y_{E U R}}\right)}}_{\text{Re la ti ve mo ni na lm on ey}}} = \underbrace {\frac{(M_{U S} / M_{E U R})}{(\bar {L}_{U S} Y_{U S} / \bar {L}_{E U R} Y_{E U R})}}_{\text{Re la wm on ey de ma nd s}} \tag {14-3}
 
 $$
 
@@ -465,7 +465,7 @@ What is the rate of change of the third term in Equation (14-3)? The numerator r
 
 $$
 
-\mu_ {U S, t} = \underbrace {\frac {M _ {U S , t + 1} - M _ {U S , t}}{M _ {U S , t}}}
+\mu_{U S, t} = \underbrace {\frac{M_{U S , t + 1} - M_{U S , t}}{M_{U S , t}}}
 
 $$
 
@@ -473,7 +473,7 @@ Rate of money supply growth in U.S.
 
 The denominator is  $\overline{L}_{US}Y_{US}$ , which is a constant  $\overline{L}_{US}$  times real income  $Y_{US}$ . Thus,  $\overline{L}_{US}Y_{US}$  grows at a rate equal to the growth rate of real income  $g_{US}$ :
 
-$$ g _ {U S, t} = \underbrace {\frac {Y _ {U S , t + 1} - Y _ {U S , t}}{Y _ {U S , t}}}
+$$ g_{U S, t} = \underbrace {\frac{Y_{U S , t + 1} - Y_{U S , t}}{Y_{U S , t}}}
 $$
 
 Rate of real income growth in U.S.
@@ -481,13 +481,13 @@ Rate of real income growth in U.S.
 Putting all the pieces together, the growth rate of  $P_{US} = M_{US} / \bar{L}_{US}Y_{US}$  equals the money supply growth rate  $\mu_{US}$  minus the real income growth rate  $g_{US}$ . We have already seen that the growth rate of  $P_{US}$  on the left-hand side is the inflation rate  $\pi_{US}$ . Thus, we know that
 
 $$
-\pi_ {U S, t} = \mu_ {U S, t} - g _ {U S, t} \tag {14-4}
+\pi_{U S, t} = \mu_{U S, t} - g_{U S, t} \tag {14-4}
 $$
 
 The denominator of the third term of Equation (14-3) represents the European price level,  $P_{EUR} = M_{EUR} / \overline{L}_{EUR}Y_{EUR}$ , and its rate of change is calculated similarly:
 
 $$
-\pi_ {E U R, t} = \mu_ {E U R, t} - g _ {E U R, t} \tag {14-5}
+\pi_{E U R, t} = \mu_{E U R, t} - g_{E U R, t} \tag {14-5}
 $$
 
 The intuition for these last two expressions echoes what we said previously: when money growth is higher than real income growth, we have "more money chasing fewer goods" and this leads to inflation.
@@ -495,13 +495,13 @@ The intuition for these last two expressions echoes what we said previously: whe
 Combining Equation (14-4) and Equation (14-5), we can now solve for the inflation differential in terms of monetary fundamentals and finish our task of computing the rate of depreciation of the exchange rate:
 
 $$
-\underbrace {\frac {\Delta E _ {\S / \epsilon , t}}{E _ {\S / \epsilon , t}}} = \underbrace {\pi_ {U S , t} - \pi_ {E U R , t}} _ {\text {I n f l a t i o n d i f f e r e n t i a l}} = \left(\mu_ {U S, t} - g _ {U S, t}\right) - \left(\mu_ {E U R, t} - g _ {E U R, t}\right) \tag {14-6}
+\underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} = \left(\mu_{U S, t} - g_{U S, t}\right) - \left(\mu_{E U R, t} - g_{E U R, t}\right) \tag {14-6}
 $$
 
 Rate of depreciation of the nominal exchange rate
 
 $$
-= \underbrace {\left(\mu_ {U S , t} - \mu_ {E U R , t}\right)} _ {\text {D i f f e r e n t i a l}} - \underbrace {\left(g _ {U S , t} - g _ {E U R , t}\right)} _ {\text {D i f f e r e n t i a l i n}}
+= \underbrace {\left(\mu_{U S , t} - \mu_{E U R , t}\right)}_{\text{Di ff er en ti al}} - \underbrace {\left(g_{U S , t} - g_{E U R , t}\right)}_{\text{Di ff er en ti al in}}
 $$
 
 The last term here is the rate of change of the fourth term in Equation (14-3).
@@ -723,13 +723,13 @@ All else equal, a rise in the nominal interest rate will cause the aggregate dem
 Thus, we arrive at a general model in which money demand is proportional to nominal income, and is a decreasing function of the nominal interest rate:
 
 $$
-\underbrace {M ^ {d}} _ {\substack {\text {Demand for} \\ \text {money (\$)}}} = \underbrace {L (i)} _ {\substack {\text {A decreasing} \\ \text {function}}} \times \underbrace {P \times Y} _ {\substack {\text {Nominal} \\ \text {income (\$)}}}
+\underbrace {M^{d}}_{\substack {\text{Demandfor} \\ \text{money (\$)}}} = \underbrace {L (i)}_{\substack {\text{Adecreasing} \\ \text{function}}} \times \underbrace {P \times Y}_{\substack {\text{Nominal} \\ \text{income (\$)}}}
 $$
 
 Recall that, formerly, in the quantity theory, the parameter  $L$  (the liquidity ratio, the amount of money needed for transactions per dollar of nominal GDP) was a constant. In this general model, we assume that  $L$  is a decreasing function of the nominal interest rate  $i$ . Dividing by  $P$ , we can derive the demand for real money balances:
 
 $$
-\begin{array}{c c c c} \frac {M ^ {d}}{P} & = & \underbrace {L (i)} _ {\text {A d e c r e a s i n g}} & \times \\ \underset {\text {R e a l m o n e y}} {\text {D e m a n d f o r}} & & \text {f u n c t i o n} & \underset {\text {R e a l i n c o m e}} {\text {R e a l}} \end{array}
+\begin{array}{c c c c} \frac{M^{d}}{P} & = & \underbrace {L (i)}_{\text{Ad ec re as in g}} & \times \\ \underset {\text{Re al mo ne y}} {\text{De ma nd fo r}} & & \text{fu nc ti on} & \underset {\text{Re al in co me}} {\text{Re al}} \end{array}
 $$
 
 Figure 14-11(a) shows a typical real money demand function of this form, with the quantity of real money balances demanded on the horizontal axis and the nominal interest rate on the vertical axis. The downward slope of the demand curve reflects the inverse relationship between the demand for real money balances and the nominal interest rate at a given level of real income  $(Y)$ .
@@ -741,7 +741,7 @@ Figure 14-11(b) shows what happens when real income increases from  $Y_{1}$  to 
 The money market is in equilibrium when the real money supply (determined by the central bank) equals the demand for real money balances (determined by the nominal interest rate and real income):
 
 $$
-\underset {\text {R e a l m o n e y} \quad \text {s u p p l y}} {\frac {M}{P}} = \underbrace {L (i) Y} _ {\text {R e a l m o n e y} \quad \text {d e m a n d}} \tag {14-7}
+\underset {\text{Re al mo ne y} \quad \text{su pp ly}} {\frac{M}{P}} = \underbrace {L (i) Y}_{\text{Re al mo ne y} \quad \text{de ma nd}} \tag {14-7}
 $$
 
 # FIGURE 14-11
@@ -767,7 +767,7 @@ The tools we need to determine the nominal interest rate in an open economy are 
 Relative PPP, as indicated in Equation (14-2), states that the rate of depreciation equals the inflation differential at time  $t$ . When market actors use this equation to forecast future exchange rates, we use a superscript  $e$  to denote such expectations. Equation (14-2) is recast to show expected depreciation and inflation at time  $t$ :
 
 $$
-\underbrace {\frac {\Delta E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}}} _ {\text {E V I S T}} = \underbrace {\pi_ {U S} ^ {e} - \pi_ {E U R} ^ {e}} _ {\text {E x p e c t e d i n f l a t i o n d i f f e r e n t i a l}}
+\underbrace {\frac{\Delta E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}}}_{\text{EV IS T}} = \underbrace {\pi_{U S}^{e} - \pi_{E U R}^{e}}_{\text{Ex pe ct ed in fl at io nd if fe re nt ia l}}
 $$
 
 Expected rate of dollar depreciation
@@ -775,7 +775,7 @@ Expected rate of dollar depreciation
 Next we recall that UIP in the approximate form (Equation 13-3) can be rearranged to show that the expected rate of depreciation equals the interest differential at time  $t$ :
 
 $$
-\frac {\Delta E _ {\S / \epsilon} ^ {e}}{E _ {\S / \epsilon}} \hskip 2 8. 4 5 2 7 5 6 p t = \hskip 2 8. 4 5 2 7 5 6 p t i _ {\S} \hskip 2 8. 4 5 2 7 5 6 p t - \hskip 2 8. 4 5 2 7 5 6 p t i _ {\epsilon} \hskip 2 8. 4 5 2 7 5 6 p t
+\frac{\Delta E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} \hskip 2 8. 4 5 2 7 5 6 p t = \hskip 2 8. 4 5 2 7 5 6 p t i_{\S} \hskip 2 8. 4 5 2 7 5 6 p t - \hskip 2 8. 4 5 2 7 5 6 p t i_{\epsilon} \hskip 2 8. 4 5 2 7 5 6 p t
 $$
 
 Expected rate of dollar depreciation
@@ -789,7 +789,7 @@ This way of writing the UIP equation says that traders will be indifferent to a 
 Because the left sides of the previous two equations are equal, the right sides must also be equal. Thus, the nominal interest differential equals the expected inflation differential:
 
 $$
-\underbrace {i _ {\S} - i _ {\epsilon}} = \underbrace {\pi_ {U S} ^ {e} - \pi_ {E U R} ^ {e}} \tag {14-8}
+\underbrace {i_{\S} - i_{\epsilon}} = \underbrace {\pi_{U S}^{e} - \pi_{E U R}^{e}} \tag {14-8}
 $$
 
 Nominal interest rate differential
@@ -812,7 +812,7 @@ In other words, the Fisher effect predicts that the change in the opportunity co
 
 As just described, the Fisher effect tells us something about nominal interest rates, but we can quickly derive the implications for real interest rates, too. Rearranging the last equation, we find
 
-$$ i _ {\$} - \pi_ {U S} ^ {e} = i _ {\epsilon} - \pi_ {E U R} ^ {e}
+$$ i_{\$} - \pi_{U S}^{e} = i_{\epsilon} - \pi_{E U R}^{e}
 
 $$
 
@@ -820,7 +820,7 @@ The expressions on either side of this equation might look familiar from previou
 
 Thus, using only two assumptions, PPP and UIP, we have shown that
 
-$$ r _ {U S} ^ {e} = r _ {E U R} ^ {e} \tag {14-9}
+$$ r_{U S}^{e} = r_{E U R}^{e} \tag {14-9}
 $$
 
 This remarkable result states the following: if PPP and UIP hold, then expected real interest rates are equalized across countries.
@@ -831,17 +831,17 @@ We have arrived at a strong conclusion about the potential for globalization to 
 
 We have considered two locations, but this argument applies to all countries integrated into the global capital market. In the long run, they will all share a common expected real interest rate, the long-run expected world real interest rate denoted  $r^{*}$ , so
 
-$$ r _ {U S} ^ {e} = r _ {E U R} ^ {e} = r ^ {*}
+$$ r_{U S}^{e} = r_{E U R}^{e} = r^{*}
 $$
 
 From now on, unless indicated otherwise, we treat  $r^*$  as a given, exogenous variable, something outside the control of a policy maker in any particular country.[11]
 
 Under these conditions, the Fisher effect is even clearer, because, by definition,
 
-$$ i _ {\S} = r _ {U S} ^ {e} + \pi_ {U S} ^ {e} = r ^ {*} + \pi_ {U S} ^ {e}
+$$ i_{\S} = r_{U S}^{e} + \pi_{U S}^{e} = r^{*} + \pi_{U S}^{e}
 $$
 
-$$ i _ {\epsilon} = r _ {E U R} ^ {e} + \pi_ {E U R} ^ {e} = r ^ {*} + \pi_ {E U R} ^ {e}
+$$ i_{\epsilon} = r_{E U R}^{e} + \pi_{E U R}^{e} = r^{*} + \pi_{E U R}^{e}
 $$
 
 Thus, in each country, the long-run expected nominal interest rate is the long-run world real interest rate plus that country's expected long-run inflation rate. For example, if the world real interest rate is  $r^* = 2\%$ , and the country's long-run expected inflation rate goes up by two percentage points from  $3\%$  to  $5\%$ , then its long-run nominal interest rate also goes up by two percentage points from the old level of  $2 + 3 = 5\%$  to a new level of  $2 + 5 = 7\%$ .
@@ -889,7 +889,7 @@ Now that we understand how the nominal interest rate is determined in the long r
 We can therefore update our fundamental equations to allow for this change in how we treat  $L$ . For example, the fundamental equation of the monetary approach to exchange rates, Equation (14-3), can now be suitably modified:
 
 $$
-\underbrace {E _ {\mathrm {S} / \mathrm {E}}} _ {\text {E x c h a n g e r a t e}} = \underbrace {\frac {P _ {U S}}{P _ {E U R}}} _ {\text {R a t i o o f}} = \underbrace {\frac {\left(\frac {M _ {U S}}{L _ {U S} (i _ {\mathrm {S}}) Y _ {U S}}\right)}{\left(\frac {M _ {E U R}}{L _ {E U R} (i _ {\mathrm {C}}) Y _ {E U R}}\right)}} _ {\text {p r i c e l e v e l s}} = \underbrace {\frac {(M _ {U S} / M _ {E U R})}{\left(L _ {U S} (i _ {\mathrm {S}}) Y _ {U S} / L _ {E U R} (i _ {\mathrm {C}}) Y _ {E U R}\right)}} _ {\text {R e l a t i v e n o m i n a l m o n e y s u p p l i e s}} \tag {14-10}
+\underbrace {E_{\mathrm{S} / \mathrm{E}}}_{\text{Ex ch an ge ra te}} = \underbrace {\frac{P_{U S}}{P_{E U R}}}_{\text{Ra ti oo f}} = \underbrace {\frac{\left(\frac{M_{U S}}{L_{U S} (i_{\mathrm{S}}) Y_{U S}}\right)}{\left(\frac{M_{E U R}}{L_{E U R} (i_{\mathrm{C}}) Y_{E U R}}\right)}}_{\text{pr ic el ev el s}} = \underbrace {\frac{(M_{U S} / M_{E U R})}{\left(L_{U S} (i_{\mathrm{S}}) Y_{U S} / L_{E U R} (i_{\mathrm{C}}) Y_{E U R}\right)}}_{\text{Re la ti ve no mi na lm on ey su pp li es}} \tag {14-10}
 $$
 
 What have we gained from this refinement? We know that the simple model will remain valid for cases in which nominal interest rates remain unchanged in the long run. It is only when nominal interest rates change that the general model has different implications, and we now have the right tools for that situation. To put those tools to work, we revisit the example of an exchange rate forecasting problem we encountered earlier in this chapter.
@@ -1066,7 +1066,7 @@ inflation target plus interest rate policy, p. 511 central bank independence, p.
 
 # PROBLEMS
 
-1. Suppose that two countries, Vietnam and Côte d'Ivoire, produce coffee. The currency unit used in Vietnam is the dong (VND). Côte d'Ivoire is a member of Communaute Financière Africaine (CFA), a currency union of West African countries that use the CFA franc (XOF). In Vietnam, coffee sells for 5,000 dong (VND) per pound. The exchange rate is 30 VND per 1 CFA franc,  $E_{\mathrm{VND / XOF}} = 30$ .
+1. Suppose that two countries, Vietnam and Côte d'Ivoire, produce coffee. The currency unit used in Vietnam is the dong (VND). Côte d'Ivoire is a member of Communaute Financière Africaine (CFA), a currency union of West African countries that use the CFA franc (XOF). In Vietnam, coffee sells for 5,000 dong (VND) per pound. The exchange rate is 30 VND per 1 CFA franc,  $E_{\mathrm{VND /XOF}} = 30$ .
 
 a. If the law of one price holds, what is the price of coffee in Côte d'Ivoire, measured in CFA francs?
 

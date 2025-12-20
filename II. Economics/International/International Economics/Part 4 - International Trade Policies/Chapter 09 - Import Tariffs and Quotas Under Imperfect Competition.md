@@ -290,7 +290,7 @@ In the export market, however, the Foreign firm will face competition from other
 Equilibrium Condition We can now determine the profit-maximizing level of production for the Foreign monopolist, as well as its prices in each market. For the discriminating monopoly, profits are maximized when the following condition holds:
 $ $
 
-M R = M R ^ {*} = M C ^ {*}
+M R = M R^{*} = M C^{*}
 
 $ $
 # Figure 9-8
@@ -313,45 +313,45 @@ What about the comparison of its export price with average costs? At total produ
 Suppose the Foreign firm has the following cost and demand data:
 $ $
 
-\text {F i x e d} \quad \text {c o s t s} \quad = \quad \$ 1 0 0 \$ $
+\text{Fi xe d} \quad \text{co st s} \quad = \quad \$ 1 0 0 \$ $
 
 $ $
 
-\text {M a r g i n a l} = \$ 1 0 \text {p e r u n i t} $ $
+\text{Ma rg in al} = \$ 1 0 \text{pe ru ni t} $ $
 
 $ $
 
-\text {L o c a l p r i c e} = \$ 2 5 \$ $
+\text{Lo ca lp ri ce} = \$ 2 5 \$ $
 
 $ $
 
-\text {L o c a l} \quad \text {q u a n t i t y} \quad = \quad 1 0
+\text{Lo ca l} \quad \text{qu an ti ty} \quad = \quad 1 0
 
 \$ $
 
 $ $
 
-\text {E x p o r t p r i c e} = \$ 1 5 \$ $
+\text{Ex po rt pr ic e} = \$ 1 5 \$ $
 
 $ $
 
-\text {E x p o r t q u a n t i t y} = 1 0
+\text{Ex po rt qu an ti ty} = 1 0
 
 \$ $
 The profits earned from selling in its local market are
 $ $
 
-\underbrace {(\$ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\$ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\$ 1 0 0} _ {\text {F i x e d}} = \underbrace {\$ 5 0} _ {\text {P r o f i t s}} $ $
+\underbrace {(\$ 25 \cdot 1 0)}_{\text{Re ve nu e}} - \underbrace {\$ 1 0 \cdot 1 0}_{\text{Va ri ab le}} - \underbrace {\$ 1 0 0}_{\text{Fi xe d}} = \underbrace {\$ 5 0}_{\text{Pr of it s}} $ $
 Notice that the average costs for the firms are
 $ $
 
-\text {A v e r a g e} = \frac {\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
+\text{Av er ag e} = \frac{\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
 
 \$ $
 Now suppose that this firm sells an additional 10 units abroad, at the price of \$ 15, which is less than its average cost of production. It is still worthwhile to sell these extra units because profits become
 $ $
 
-\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})} _ {\text {R e v e n u e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}} _ {\text {V a r i a b l e}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {F i x e d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {P r o f i t s}}
+\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})}_{\text{Re ve nu e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}}_{\text{Va ri ab le}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Fi xe d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}}_{\text{Pr of it s}}
 
 $ $
 Profits have increased because the extra units are sold at  \$ 15 but produced at a marginal cost of \$ 10, which is less than the price received in the export market. Therefore, each unit exported will increase profits by the difference between the price and marginal costs. Thus, even though the export price is less than average costs, profits still rise from dumping in the export market.
@@ -531,7 +531,7 @@ President Ronald Reagan visits the Harley-Davidson plant.
 Calculation of Deadweight Loss Was the tariff on heavyweight motorcycles really successful? To answer this, we need to compare the deadweight loss of the tariff with the future gain in producer surplus. In our discussion of the steel tariff in the previous chapter, we derived a formula for the deadweight loss from using a tariff, measured relative to the import value:
 $ $
 
-\frac {D W L}{P \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M = \frac {1}{2} (0.45 \cdot 0.17) = 0.038, \text {or} 3.8 \%
+\frac{D W L}{P \cdot M} = \frac{1}{2} \cdot \left(\frac{t}{P^{W}}\right) \cdot \% \Delta M = \frac{1}{2} (0.45 \cdot 0.17) = 0.038, \text{or} 3.8 \%
 
 $ $
 We can calculate the average import sales from 1982 to 1983 as  $ (452 + 410) / 2 = \\( {431} $ million. Multiplying the percentage loss by average imports, we obtain the deadweight loss in 1983 of $ {0.038} \times  {431} = \ $  {16.3} \) million. That deadweight loss is reported
@@ -616,7 +616,7 @@ Production in China Beginning in the early 1980s, China permitted a number of jo
 Although joint venture agreements provided a window for foreign manufacturers to tap the
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/63d38639994b5b170fce9854b0a76d9474a04cd3e5a3f7dbd80a6e3b23588232.jpg)
-$ ^ { \text{念} } $  PeerPoint/Alamy
+$^{ \text{念} } $  PeerPoint/Alamy
 
 China market, there were limits on their participation. Foreign manufacturers could not own a majority stake in a manufacturing plant—Volkswagen's venture took the maximum of  $ 50\% $  foreign ownership. The Chinese also kept control of distribution networks for the jointly produced automobiles. These various regulations, combined with high tariff duties, helped at least some of the new joint ventures achieve success. Volkswagen's Shanghai plant was by the far the winner under these rules, and it produced more than 200,000 vehicles per year by the late 1990s, more than twice as many as any other plant. Volkswagen's success was also aided by some Shanghai municipal efforts. Various restrictions on engine size, as well as incentives offered to city taxi companies that bought Volkswagen, helped ensure that only Volkswagen's models could be sold in the Shanghai market; essentially, the Shanghai Volkswagen plant had a local monopoly.
 

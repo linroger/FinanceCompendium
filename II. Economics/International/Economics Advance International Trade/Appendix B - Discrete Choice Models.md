@@ -26,19 +26,19 @@ At the same time as presenting these aggregation results, we will discuss the em
 Suppose there is a population of consumers  $h$ , and we normalize its size to unity. Each consumer must decide which of a discrete number of alternatives  $j = 1, \dots, N$  to purchase, and receives the following utility from consuming one unit of product  $j$ :
 
 $$
-V _ {j} ^ {h} = u _ {j} + \varepsilon_ {j} ^ {h}, \tag {B1}
+V_{j}^{h} = u_{j} + \varepsilon_{j}^{h}, \tag {B1}
 $$
 
 where  $u_{j}$  is the utility obtained from product  $j$  by every consumer, while  $\varepsilon_{j}^{h}$  is an additional part of utility obtained by consumer  $h$ . We will treat  $\varepsilon_{j}^{h}$  as a random variable with cumulative density function  $F(\varepsilon)$ , where each consumer obtains a different draw of  $\varepsilon = (\varepsilon_{1},\dots,\varepsilon_{N})$ . Given this draw, the consumer chooses the product with highest utility. The probability that a consumer will choose product  $j$  is:
 
 $$
-\begin{array}{l} P _ {j} = \operatorname {P r o b} \left[ V _ {j} \geq V _ {k}, \text {f o r a l l k = 1 , . . . , N} \right] \\ = \operatorname {P r o b} \left[ u _ {j} + \varepsilon_ {j} \geq u _ {k} + \varepsilon_ {k}, \text {f o r a l l} k = 1, \dots , N \right] \tag {B2} \\ = \operatorname {P r o b} \left[ \varepsilon_ {\mathrm {j}} - \varepsilon_ {\mathrm {k}} \geq u _ {\mathrm {k}} - u _ {\mathrm {j}}, \text {f o r a l l k = 1 , . . . , N} \right]. \\ \end{array}
+\begin{array}{l} P_{j} = \operatorname{Pr ob} \left[ V_{j} \geq V_{k}, \text{fo ra ll k =1 , . . . ,N} \right] \\ = \operatorname{Pr ob} \left[ u_{j} + \varepsilon_{j} \geq u_{k} + \varepsilon_{k}, \text{fo ra ll} k = 1, \dots , N \right] \tag {B2} \\ = \operatorname{Pr ob} \left[ \varepsilon_{\mathrm{j}} - \varepsilon_{\mathrm{k}} \geq u_{\mathrm{k}} - u_{\mathrm{j}}, \text{fo ra ll k =1 , . . . ,N} \right]. \\ \end{array}
 $$
 
 We can think of (B2) as the probability that any consumer choose alternative  $j$ , or equivalently, as the expected fraction of the population that chooses that alternative. The solution for these choice probabilities depends on the distribution function  $F(\varepsilon)$ , as well as on the specification of utility  $u_j$ . A simplified version of utility used by Berry (1994) is,
 
 $$
-u _ {j} = y + \beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}, \quad \alpha > 0. \tag {B3}
+u_{j} = y + \beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}, \quad \alpha > 0. \tag {B3}
 $$
 
 Thus, utility is linear in individual income  $y$ , decreasing in the price  $p_j$ , and also depends on the characteristics  $z_j$  of the product. The term  $\xi_j$  is another random element in utility, but unlike  $\varepsilon_j^h$ , it does not vary across consumers. We could think of  $\xi_j$  as some unmeasured characteristics of product  $j$ , which is random across products but not consumers.
@@ -56,25 +56,25 @@ Let  $\mathrm{H}$  be a nonnegative function defined over  $\mathbf{R}_{+}^{\mat
 Define the generalized extreme value distribution function,
 
 $$
-\mathrm {F} \left(\varepsilon_ {1}, \dots , \varepsilon_ {\mathrm {N}}\right) \equiv \exp \left[ - \mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \mathrm {e} ^ {- \varepsilon_ {2}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) \right]. \tag {B4}
+\mathrm{F} \left(\varepsilon_{1}, \dots , \varepsilon_{\mathrm{N}}\right) \equiv \exp \left[ - \mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \mathrm{e}^{- \varepsilon_{2}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) \right]. \tag {B4}
 $$
 
 Then the expected value of consumer utility (up to a constant) is given by the aggregate utility function,
 
 $$
-\mathrm {G} \left(\mathrm {u} _ {1}, \dots , \mathrm {u} _ {\mathrm {N}}\right) \equiv \ln \mathrm {H} \left(\mathrm {e} ^ {\mathrm {u} _ {1}}, \mathrm {e} ^ {\mathrm {u} _ {2}}, \dots , \mathrm {e} ^ {\mathrm {u} _ {\mathrm {N}}}\right), \tag {B5}
+\mathrm{G} \left(\mathrm{u}_{1}, \dots , \mathrm{u}_{\mathrm{N}}\right) \equiv \ln \mathrm{H} \left(\mathrm{e}^{\mathrm{u}_{1}}, \mathrm{e}^{\mathrm{u}_{2}}, \dots , \mathrm{e}^{\mathrm{u}_{\mathrm{N}}}\right), \tag {B5}
 $$
 
 and the choice probabilities  $\mathrm{P_j}$  in (B2) can be obtained as:
 
 $$
-\mathrm {P} _ {\mathrm {j}} = \partial \mathrm {G} / \partial \mathrm {u} _ {\mathrm {j}}. \tag {B6}
+\mathrm{P}_{\mathrm{j}} = \partial \mathrm{G} / \partial \mathrm{u}_{\mathrm{j}}. \tag {B6}
 $$
 
 To interpret this theorem, consider the linear utility function in (B3). Substituting this into (B5) and using the linear homogeneity of  $\mathbf{H}$ , the aggregate utility function is:
 
 $$
-\tilde {G} \left(p _ {1}, z _ {1}, \dots , p _ {N}, z _ {N}, y\right) = y + \ln H \left(e ^ {\beta^ {\prime} z _ {1} - \alpha p _ {1} + \xi_ {1}}, \dots , e ^ {\beta^ {\prime} z _ {N} - \alpha p _ {N} + \xi_ {N}}\right). \tag {B5'}
+\tilde {G} \left(p_{1}, z_{1}, \dots , p_{N}, z_{N}, y\right) = y + \ln H \left(e^{\beta^{\prime} z_{1} - \alpha p_{1} + \xi_{1}}, \dots , e^{\beta^{\prime} z_{N} - \alpha p_{N} + \xi_{N}}\right). \tag {B5'}
 $$
 
 Notice that  $\partial \widetilde{G} / \partial y = 1$ , and consider the case where  $\alpha = 1$ . Then price is inversely related to utility  $(du_j = -dp_j)$ , so the choice probabilities in (B6) can be computed as  $P_j = \partial G / \partial u_j = -(\partial \widetilde{G} / \partial p_j) / (\partial \widetilde{G} / \partial y)$ . Thus, the result that  $P_j = \partial G / \partial u_j$  in (B6) of the theorem can be interpreted as saying that Roy's Identity holds at the aggregate level.
@@ -88,13 +88,13 @@ To see the usefulness of this result, we consider the well-known example where t
 Let us choose the function  $\mathrm{H}$  as linear in its arguments:
 
 $$
-\mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \mathrm {e} ^ {- \varepsilon_ {2}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) = \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}}} \tag {B7}
+\mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \mathrm{e}^{- \varepsilon_{2}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) = \sum_{\mathrm{j} = 1}^{\mathrm{N}} \mathrm{e}^{- \varepsilon_{\mathrm{j}}} \tag {B7}
 $$
 
 Substituting (B7) into (B4), the distribution function is:
 
 $$
-F \left(\varepsilon_ {1}, \dots , \varepsilon_ {N}\right) = \prod_ {j = 1} ^ {N} \exp \left(- e ^ {- \varepsilon_ {j}}\right). \tag {B8}
+F \left(\varepsilon_{1}, \dots , \varepsilon_{N}\right) = \prod_{j = 1}^{N} \exp \left(- e^{- \varepsilon_{j}}\right). \tag {B8}
 $$
 
 This cumulative distribution function is therefore the product of N iid "double-exponential" or extreme value distributions, which apply to the random utility terms in (B1). Therefore, the random term in utility is distributed as iid extreme value.2
@@ -102,7 +102,7 @@ This cumulative distribution function is therefore the product of N iid "double-
 Computing the choice probabilities as in (B6) using (B7) and (B3), we obtain:
 
 $$
-P _ {j} = \frac {e ^ {u _ {j}}}{\left[ \sum_ {k = 1} ^ {N} e ^ {u _ {k}} \right]} = \frac {e ^ {\beta^ {\prime} z _ {j} - \alpha p _ {j} + \xi_ {j}}}{\left[ \sum_ {k = 1} ^ {N} e ^ {\beta^ {\prime} z _ {k} - \alpha p _ {k} + \xi_ {k}} \right]}, \tag {B9}
+P_{j} = \frac{e^{u_{j}}}{\left[ \sum_{k = 1}^{N} e^{u_{k}} \right]} = \frac{e^{\beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}}}{\left[ \sum_{k = 1}^{N} e^{\beta^{\prime} z_{k} - \alpha p_{k} + \xi_{k}} \right]}, \tag {B9}
 $$
 
 which are the choice probabilities under the logit system.
@@ -110,25 +110,25 @@ which are the choice probabilities under the logit system.
 Berry (1994) discusses how estimates of  $\alpha$  and  $\beta$  can be obtained even if we do not have data on the purchases by each individual, but just observe the quantity-share  $s_j$  of each product in demand, as well as their prices and characteristics. Then the probabilities in (B9) would be measured by these quantity-shares  $s_j$ . Suppose in addition there is some outside option  $j = 0$ , which gives utility normalized to zero,  $u_0 = 0$ . Then setting  $s_j = P_j$ , and taking logs of the ratio of (B9) to  $s_0$ , we obtain:
 
 $$
-\ln \mathrm {s} _ {\mathrm {j}} - \ln \mathrm {s} _ {0} = \beta^ {\prime} \mathrm {z} _ {\mathrm {j}} - \alpha \mathrm {p} _ {\mathrm {j}} + \xi_ {\mathrm {j}}. \tag {B10}
+\ln \mathrm{s}_{\mathrm{j}} - \ln \mathrm{s}_{0} = \beta^{\prime} \mathrm{z}_{\mathrm{j}} - \alpha \mathrm{p}_{\mathrm{j}} + \xi_{\mathrm{j}}. \tag {B10}
 $$
 
 In addition, we follow Berry to solve for the optimal prices of the firm, where we assume for simplicity that each firm produces only one product. Denoting the marginal costs of producing good  $j$  by  $\mathrm{g_j(z_j)}$ , and ignoring fixed costs, the profits from producing model  $j$  are,
 
 $$
-\pi_ {\mathrm {j}} = \left[ p _ {\mathrm {j}} - g _ {\mathrm {j}} \left(z _ {\mathrm {j}}\right) \right] s _ {\mathrm {j}}, \tag {B11}
+\pi_{\mathrm{j}} = \left[ p_{\mathrm{j}} - g_{\mathrm{j}} \left(z_{\mathrm{j}}\right) \right] s_{\mathrm{j}}, \tag {B11}
 $$
 
 Maximizing (B11) over the choice of  $\mathfrak{p}_{\mathrm{j}}$ , treating the prices of all other products as fixed, we obtain:
 
 $$
-\mathrm {p} _ {\mathrm {j}} = \mathrm {g} _ {\mathrm {j}} (\mathrm {z} _ {\mathrm {j}}) - \mathrm {s} _ {\mathrm {j}} / (\partial \mathrm {s} _ {\mathrm {j}} / \partial \mathrm {p} _ {\mathrm {j}}) = \mathrm {g} _ {\mathrm {j}} (\mathrm {z} _ {\mathrm {j}}) - (\partial \ln \mathrm {s} _ {\mathrm {j}} / \partial \mathrm {p} _ {\mathrm {j}}) ^ {- 1}. \tag {B12}
+\mathrm{p}_{\mathrm{j}} = \mathrm{g}_{\mathrm{j}} (\mathrm{z}_{\mathrm{j}}) - \mathrm{s}_{\mathrm{j}} / (\partial \mathrm{s}_{\mathrm{j}} / \partial \mathrm{p}_{\mathrm{j}}) = \mathrm{g}_{\mathrm{j}} (\mathrm{z}_{\mathrm{j}}) - (\partial \ln \mathrm{s}_{\mathrm{j}} / \partial \mathrm{p}_{\mathrm{j}})^{- 1}. \tag {B12}
 $$
 
 For the special case of the logit system (B9) with  $s_j = P_j$  denoting the quantity-shares, we see that  $\partial \ln s_j / \partial p_j = -\alpha (1 - s_j)$ . If we also specify marginal costs as  $g_j(z_j) = \gamma' z_j + \omega_j$ , where  $\omega_j$  is a random error, then from (B12) the optimal prices are:
 
 $$
-p _ {j} = \gamma^ {\prime} z _ {j} + \frac {1}{\alpha \left(1 - s _ {j}\right)} + \omega_ {j}, \tag {B13}
+p_{j} = \gamma^{\prime} z_{j} + \frac{1}{\alpha \left(1 - s_{j}\right)} + \omega_{j}, \tag {B13}
 $$
 
 which can be estimated jointly with (B10). It is apparent, though, that the random error  $\xi_{\mathrm{j}}$  influence the market shares in (B10), and therefore from (B13) will be correlated with prices  $\mathfrak{p}_{\mathrm{j}}$ . Accordingly, the joint estimation of (B10) and (B13) should be done with instrumental
@@ -144,19 +144,19 @@ Now suppose that the consumers have a choice over two levels of the differentiat
 To achieve this correlation between the random errors in (B1), McFadden (1981, p. 228) chooses the function  $\mathrm{H}$  as,
 
 $$
-\mathrm {H} \left(\mathrm {e} ^ {- \varepsilon_ {1}}, \dots , \mathrm {e} ^ {- \varepsilon_ {\mathrm {N}}}\right) = \sum_ {\mathrm {g} = 0} ^ {\mathrm {G}} \left[ \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {g}}} \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}} / \left(1 - \rho_ {\mathrm {g}}\right)} \right] ^ {\left(1 - \rho_ {\mathrm {g}}\right)}. \tag {B14}
+\mathrm{H} \left(\mathrm{e}^{- \varepsilon_{1}}, \dots , \mathrm{e}^{- \varepsilon_{\mathrm{N}}}\right) = \sum_{\mathrm{g} = 0}^{\mathrm{G}} \left[ \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{g}}} \mathrm{e}^{- \varepsilon_{\mathrm{j}} / \left(1 - \rho_{\mathrm{g}}\right)} \right]^{\left(1 - \rho_{\mathrm{g}}\right)}. \tag {B14}
 $$
 
 To satisfy property (iii) of Theorem 1, we need to specify that  $0 \leq \rho_{\mathrm{g}} < 1$ . Using this choice of H, we obtain a distribution function  $\mathrm{F}(\varepsilon)$  from (B4),
 
 $$
-\mathrm {F} \left(\varepsilon_ {1}, \dots , \varepsilon_ {\mathrm {N}}\right) = \exp \left(\sum_ {\mathrm {g} = 0} ^ {\mathrm {G}} \left[ \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {g}}} - \mathrm {e} ^ {- \varepsilon_ {\mathrm {j}} / \left(1 - \rho_ {\mathrm {g}}\right)} \right] ^ {\left(1 - \rho_ {\mathrm {g}}\right)}\right), \tag {B15}
+\mathrm{F} \left(\varepsilon_{1}, \dots , \varepsilon_{\mathrm{N}}\right) = \exp \left(\sum_{\mathrm{g} = 0}^{\mathrm{G}} \left[ \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{g}}} - \mathrm{e}^{- \varepsilon_{\mathrm{j}} / \left(1 - \rho_{\mathrm{g}}\right)} \right]^{\left(1 - \rho_{\mathrm{g}}\right)}\right), \tag {B15}
 $$
 
 where  $\rho_{\mathrm{g}}$  roughly measures the correlation between random terms  $\varepsilon_{\mathrm{j}}$  within a group. Computing the choice probabilities as in (B6) using (B14), we obtain:
 
 $$
-P _ {j} = \frac {e ^ {u _ {j} / \left(1 - \rho_ {g}\right)}}{D _ {g}} \frac {D _ {g} ^ {\left(1 - \rho_ {g}\right)}}{\left[ \sum_ {g = 0} ^ {G} D _ {g} ^ {\left(1 - \rho_ {g}\right)} \right]}, \quad f o r j \in J _ {g}, \tag {B16}
+P_{j} = \frac{e^{u_{j} / \left(1 - \rho_{g}\right)}}{D_{g}} \frac{D_{g}^{\left(1 - \rho_{g}\right)}}{\left[ \sum_{g = 0}^{G} D_{g}^{\left(1 - \rho_{g}\right)} \right]}, \quad f o r j \in J_{g}, \tag {B16}
 $$
 
 where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{e}^{\mathrm{u_k} / (1 - \rho_g)}$  appearing in (B16) is called an "inclusive value", since it summarizes the utility obtained from all products in the group  $\mathrm{g}$ .
@@ -164,7 +164,7 @@ where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{
 Berry (1994, p. 252) motivates this nested logit case somewhat differently. He re-writes the random errors  $\varepsilon_{j}^{h}$  as,
 
 $$
-\varepsilon_ {j} ^ {h} = \zeta_ {g} ^ {h} + \left(1 - \rho_ {g}\right) e _ {j} ^ {h}, \quad \text {f o r} j \in J _ {g}, \tag {B17}
+\varepsilon_{j}^{h} = \zeta_{g}^{h} + \left(1 - \rho_{g}\right) e_{j}^{h}, \quad \text{fo r} j \in J_{g}, \tag {B17}
 $$
 
 where the errors  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value. The random variable  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  in (B17) is common to all products within group  $\mathbf{g}$ , and therefore induces a correlation between the random utilities for those products. Cardell (1997) shows that there exists a distribution for  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  (depending on  $\rho_{\mathrm{g}}$ ) such that when  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value, then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are also distributed extreme value but are not independent. Notice that as the parameter  $\rho_{\mathrm{g}}$  approaches unity then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are perfectly correlated within the group  $\mathbf{g}$  (since they equal  $\zeta_{\mathrm{g}}^{\mathrm{h}}$ ), whereas when  $\rho_{\mathrm{g}}$  approaches zero (in which case  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  also approaches zero) then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  become independent. Using the errors in (B17) gives the same choice probabilities as shown in (B16).

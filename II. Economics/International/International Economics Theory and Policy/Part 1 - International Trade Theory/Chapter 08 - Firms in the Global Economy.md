@@ -75,7 +75,7 @@ $$
 where  $Q$  is the number of units the firm sells,  $P$  is the price it charges per unit, and  $A$  and  $B$  are constants. We show in the appendix to this chapter that in this case, marginal revenue is
 
 $$
-\text {M a r g i n a l} = M R = P - Q / B, \tag {8-2}
+\text{Ma rg in al} = M R = P - Q / B, \tag {8-2}
 $$
 
 implying that
@@ -257,7 +257,7 @@ $$
 The average cost curve is therefore
 
 $$
-\mathrm {A C} = (7 5 0, 0 0 0, 0 0 0 / Q) + 5, 0 0 0.
+\mathrm{AC} = (7 5 0, 0 0 0, 0 0 0 / Q) + 5, 0 0 0.
 $$
 
 Now suppose there are two countries, Home and Foreign. Home has annual sales of 900,000 automobiles; Foreign has annual sales of 1.6 million. The two countries are assumed, for the moment, to have the same costs of production.
@@ -347,10 +347,10 @@ Also note that Home consumers gain more than Foreign consumers from trade integr
 To be more precise, the standard formula for calculating the importance of intra-industry trade within a given industry is
 
 $$
-I = \frac {\min  \left\{\text {e x p o r t s} , \text {i m p o r t s} \right\}}{\left(\text {e x p o r t s} + \text {i m p o r t s}\right) / 2},
+I = \frac{\min  \left\{\text{ex po rt s} , \text{im po rt s} \right\}}{\left(\text{ex po rt s} + \text{im po rt s}\right) / 2},
 $$
 
-where min  $\{\mathrm{exports, imports}\}$  refers to the smallest value between exports and imports. This is the amount of two-way exchanges of goods reflected in both exports and imports. This number is measured as a proportion of the average trade flow (average of exports and imports). If trade in an industry flows in only one direction, then  $I = 0$  since the smallest trade flow is zero: There is no intra-industry trade. On the other hand, if a country's exports and imports within an industry are equal, we get the opposite extreme of  $I = 1$ .
+where min  $\{\mathrm{exports,imports}\}$  refers to the smallest value between exports and imports. This is the amount of two-way exchanges of goods reflected in both exports and imports. This number is measured as a proportion of the average trade flow (average of exports and imports). If trade in an industry flows in only one direction, then  $I = 0$  since the smallest trade flow is zero: There is no intra-industry trade. On the other hand, if a country's exports and imports within an industry are equal, we get the opposite extreme of  $I = 1$ .
 
 <table><tr><td>TABLE 8-2</td><td>Indexes of Intra-Industry Trade for U.S. Industries, 2009</td></tr><tr><td>Metalworking Machinery</td><td>0.97</td></tr><tr><td>Inorganic Chemicals</td><td>0.97</td></tr><tr><td>Power-Generating Machines</td><td>0.86</td></tr><tr><td>Medical and Pharmaceutical Products</td><td>0.85</td></tr><tr><td>Scientific Equipment</td><td>0.84</td></tr><tr><td>Organic Chemicals</td><td>0.79</td></tr><tr><td>Iron and Steel</td><td>0.76</td></tr><tr><td>Road Vehicles</td><td>0.70</td></tr><tr><td>Office Machines</td><td>0.58</td></tr><tr><td>Telecommunications Equipment</td><td>0.46</td></tr><tr><td>Furniture</td><td>0.30</td></tr><tr><td>Clothing and Apparel</td><td>0.11</td></tr><tr><td>Footwear</td><td>0.10</td></tr></table>
 
@@ -803,25 +803,25 @@ $$
 Let us next ask how the revenue of a firm changes if it changes its sales. Suppose the firm decides to increase its sales by a small amount,  $dX$ , so that the new level of sales is  $Q = Q + dQ$ . Then the firm's revenue after the increase in sales,  $R$ , will be
 
 $$
-\begin{array}{l} R ^ {\prime} = P ^ {\prime} \times Q ^ {\prime} = [ (A / B) - (1 / B) \times (Q + d Q) ] \times (Q + d Q) \\ = \left[ (A / B) - (1 / B) \times Q \right] \times Q + \left[ (A / B) - (1 / B) \times Q \right] \times d Q \\ - (1 / B) \times Q \times d Q - (1 / B) \times (d Q) ^ {2}. \tag {8A-5} \\ \end{array}
+\begin{array}{l} R^{\prime} = P^{\prime} \times Q^{\prime} = [ (A / B) - (1 / B) \times (Q + d Q) ] \times (Q + d Q) \\ = \left[ (A / B) - (1 / B) \times Q \right] \times Q + \left[ (A / B) - (1 / B) \times Q \right] \times d Q \\ - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag {8A-5} \\ \end{array}
 $$
 
 Equation (8A-5) can be simplified by substituting in from (8A-1) and (8A-4) to get
 
 $$
-R ^ {\prime} = R + P \times d Q - (1 / B) \times Q \times d Q - (1 / B) \times (d Q) ^ {2}. \tag {8A-6}
+R^{\prime} = R + P \times d Q - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag {8A-6}
 $$
 
 When the change in sales  $dQ$  is small, however, its square  $(dQ)^2$  is very small (e.g., the square of 1 is 1, but the square of 1/10 is 1/100). So for a small change in  $Q$ , the last term in (8A-6) can be ignored. This gives us the result that the change in revenue from a small change in sales is
 
 $$
-R ^ {\prime} = R = [ P - (1 / B) \times Q ] \times d Q. \tag {8A-7}
+R^{\prime} = R = [ P - (1 / B) \times Q ] \times d Q. \tag {8A-7}
 $$
 
 So the increase in revenue per unit of additional sales—which is the definition of marginal revenue—is
 
 $$
-M R = \left(R ^ {\prime} - R\right) / d Q = P - (1 / B) \times Q,
+M R = \left(R^{\prime} - R\right) / d Q = P - (1 / B) \times Q,
 $$
 
 which is just what we asserted in equation (8A-2).

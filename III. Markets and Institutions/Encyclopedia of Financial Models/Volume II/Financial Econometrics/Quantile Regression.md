@@ -22,7 +22,7 @@ As a hypothetical example, suppose that  $X$  reflects the expected dividend in 
 Similarly, quantile regression approaches can be summarized by the following equation, again in a univariate context:
 
 $$
-Y _ {i} = \alpha^ {p} + \sum_ {i = 1} ^ {N} \beta^ {p} X _ {i} + \varepsilon^ {p}
+Y_{i} = \alpha^{p} + \sum_{i = 1}^{N} \beta^{p} X_{i} + \varepsilon^{p}
 $$ where  $\alpha^p$  represents the intercept for a specified quantile,  $\beta^p$  represents the slope of the relationship between  $X$  and  $Y$  for a specified quantile, and  $\varepsilon^p$  similarly represents the error term for that specified quantile. (The specific form for these two equations has been adapted from Meligkotsidou, Vrontos, and Vrontos, 2007; other authors might use different terminology, but the underlying concepts are the same.) And just as OLS methods can be used in both univariate and multivariate contexts, the same is true for quantile regression approaches.
 
 

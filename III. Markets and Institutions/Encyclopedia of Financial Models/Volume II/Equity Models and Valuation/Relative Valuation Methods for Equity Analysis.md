@@ -145,7 +145,7 @@ The analysis can be extended a little further, from FY0 to FY1. The figures in t
 
 
 $$
-\begin{array}{l} \mathrm {B o o k} _ {\mathrm {F Y 1}} = \mathrm {B o o k} _ {\mathrm {F Y 0}} + \mathrm {N e t I n c o m e} _ {\mathrm {F Y 1}} \\ - \text {D i v i d e n d s} _ {\mathrm {F Y 1}} \\ \end{array}
+\begin{array}{l} \mathrm{Bo ok}_{\mathrm{FY 1}} = \mathrm{Bo ok}_{\mathrm{FY 0}} + \mathrm{Ne tI nc om e}_{\mathrm{FY 1}} \\ - \text{Di vi de nd s}_{\mathrm{FY 1}} \\ \end{array}
 $$
 
 Based on the figures in the table above, Company A is expected to have earnings of  \$1.67 during FY0, and\$ 2.00 during FY1. The implied book value per share is  \$15.38 in FY0, and\$ 16.67 during FY1. According to the clean surplus formula, Company A is expected to pay a dividend of 0.38 per share in FY1.

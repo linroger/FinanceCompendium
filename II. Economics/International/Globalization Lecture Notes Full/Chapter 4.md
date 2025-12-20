@@ -103,7 +103,7 @@ Sectors do differ between each other in terms of their production technology and
 How factors are best combined depends on the sector and on the country. How can we then regard factor intensity as a sector characteristic? As so often in trade theory, only relative characteristics matter. In the case of Heckscher—Ohlin trade theory, when we compare sectors to each other, one sector needs to be more intensive in a production factor than the other. Concretely, for each of the countries in our example, let's assume that for any given skill premium  $w_{H} / w_{L}$ , the manufacturing sector exhibits a stronger high-skilled intensity than the agriculture sector so that
 
 $$
-H _ {M} / L _ {M} > H _ {A} / L _ {A} \quad \text {f o r a n y} \quad w _ {H} / w _ {L}.
+H_{M} / L_{M} > H_{A} / L_{A} \quad \text{fo ra ny} \quad w_{H} / w_{L}.
 $$
 
 Given this assumption, the manufacturing sector needs relatively more engineers per laborer, whereas the agriculture sector needs relatively more laborers per engineer.
@@ -147,7 +147,7 @@ With the Heckscher-Ohlin theorem in place, and the predictions for the pattern o
 Following Stolper and Samuelson's footsteps, let's investigate the distributional effects of trade in goods on the factor prices within a country. The factor price is the pay of a factor, such as the wage earned by labor in our example. For this purpose, we need to find out where the factors of production get employed when the market for them is in equilibrium. Engineers split between agriculture and manufacturing, and so do the laborers:
 
 $$
-H _ {A} + H _ {M} = H \quad \text {a n d} \quad L _ {A} + L _ {M} = L.
+H_{A} + H_{M} = H \quad \text{an d} \quad L_{A} + L_{M} = L.
 $$
 
 This is the factor allocation to sectors in the home economy. (In the foreign economy,  $H_A^* + H_M^* = H^*$  and  $L_A^* + L_M^* = L^*$ .)
@@ -169,7 +169,7 @@ The shape of the Edgeworth box frame reflects the factor endowments (the country
 From now on, we'll adopt the convention that the home country has a relative abundance of high-skilled workers
 
 $$
-H / L > H ^ {*} / L ^ {*}
+H / L > H^{*} / L^{*}
 $$
 
 . Under this convention, if we were to depict the frame of the Edgeworth box for the foreign economy, then we would have to draw it even wider and flatter than the one in Figure 4.2 because, if the home economy is relatively abundant in high-skilled workers, then the foreign economy must be relatively abundant in low-skilled workers. That's the definition of relative abundance.
@@ -181,7 +181,7 @@ The size of the frame does not matter for an economy's comparative advantage but
 Now that we have drawn the frame of the Edgeworth box (the country characteristic), we can turn to employment in the two sectors. In our example, we are assuming that the agricultural sector is less high-skill intensive than manufacturing. In other words, relatively fewer highly skilled workers are needed to produce agricultural goods than are needed to produce manufactured goods. This means that there must be a ranking of the sectors
 
 $$
-\frac {H _ {A}}{L _ {A}} <   \frac {H}{L} <   \frac {H _ {M}}{L _ {M}}
+\frac{H_{A}}{L_{A}} <   \frac{H}{L} <   \frac{H_{M}}{L_{M}}
 $$ so that agriculture is less high-skill intensive than the economy-wide average (which equals the endowment ratio  $H / L$ ), and manufacturing is more high-skill intensive than the economy-wide average.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/ba5865eb95ba092eeb38825570f0d6cada568ccbb0ebb49dcdf2898c404c0d24.jpg)
@@ -196,7 +196,7 @@ The slope of each employment arrow shows the relative high-skill intensity used 
 
 # Labor Market Outcomes after Improving Terms of Trade
 
-In our two-sector example, a country's terms of trade are the price of the country's exported good divided by the price of the country's imported good on the world market: ToT =  $P_{\text{Export good}} / P_{\text{Import good}}$ . We say the terms of trade improve when they increase because, under higher terms of trade, a country can afford more imports for any given volume of goods it exports. We are now ready to analyze how a change in the terms of trade translates into the incomes of the country's residents. Under improving terms of trade, the economy as a whole can afford more imports for consumption. But can every resident afford more consumption?
+In our two-sector example, a country's terms of trade are the price of the country's exported good divided by the price of the country's imported good on the world market: ToT =  $P_{\text{Exportgood}} / P_{\text{Importgood}}$ . We say the terms of trade improve when they increase because, under higher terms of trade, a country can afford more imports for any given volume of goods it exports. We are now ready to analyze how a change in the terms of trade translates into the incomes of the country's residents. Under improving terms of trade, the economy as a whole can afford more imports for consumption. But can every resident afford more consumption?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/0c31d5a37ec9449e37b2cfc4dda88515253e523977fb40f93eccf1543acf6917.jpg)
 Figure 4.4: Labor Allocation after Improving Terms of Trade
@@ -224,7 +224,7 @@ The right panel of Figure 4.4 depicts the new equilibrium afterward. Once the tw
 
 $$
 
-\frac {H _ {A} ^ {\prime}}{L _ {A} ^ {\prime}} <   \frac {H _ {A}}{L _ {A}} <   \frac {H}{L} <   \frac {H _ {M} ^ {\prime}}{L _ {M} ^ {\prime}} <   \frac {H _ {M}}{L _ {M}},
+\frac{H_{A}^{\prime}}{L_{A}^{\prime}} <   \frac{H_{A}}{L_{A}} <   \frac{H}{L} <   \frac{H_{M}^{\prime}}{L_{M}^{\prime}} <   \frac{H_{M}}{L_{M}},
 
 $$ where a prime denotes employment after the terms of trade improvement. Note that one way to check whether you found a correct new equilibrium is to watch for the intersection of new and old employment arrows: the new employment arrow of the expanding sector must cut the old employment arrow of the shrinking sector exactly once. In other words, all sectors reduce their skill intensities simultaneously. How can this happen? Let's look at a related example.
 
@@ -260,7 +260,7 @@ The reason for this outcome is a so-called magnification effect, by which produc
 
 $$
 
-\hat {w} _ {H} > \hat {P} _ {M} > \hat {P} _ {A} > \hat {w} _ {L}.
+\hat {w}_{H} > \hat {P}_{M} > \hat {P}_{A} > \hat {w}_{L}.
 
 $$
 
@@ -365,7 +365,7 @@ The Rybczynski theorem can also be expressed in terms of a magnification effect.
 
 $$
 
-\hat {Q} _ {A} > \hat {L} > \hat {H} > \hat {Q} _ {M}.
+\hat {Q}_{A} > \hat {L} > \hat {H} > \hat {Q}_{M}.
 
 $$
 
@@ -432,7 +432,7 @@ What happens when there is incomplete specialization and the terms of trade impr
 
 $$
 
-\mathrm {T o T} = P _ {\text {E x p o r t g o o d}} / P _ {\text {I m p o r t g o o d}} = P _ {M} / P _ {A}.
+\mathrm{To T} = P_{\text{Ex po rt go od}} / P_{\text{Im po rt go od}} = P_{M} / P_{A}.
 
 $$
 
@@ -456,7 +456,7 @@ What does the indifference of producers and consumers between destination and so
 
 $$
 
-\gamma_ {S i} \equiv \frac {Q _ {S i}}{\sum_ {C} Q _ {C i}} = \frac {Y _ {S i}}{Y _ {i} ^ {W}}.
+\gamma_{S i} \equiv \frac{Q_{S i}}{\sum_{C} Q_{C i}} = \frac{Y_{S i}}{Y_{i}^{W}}.
 
 $$
 
@@ -468,7 +468,7 @@ Under our standard consumer preferences, the expenditure on a good  $i$  by cons
 
 $$
 
-Y _ {D i} = \boldsymbol {\beta} _ {i} \cdot Y _ {D},
+Y_{D i} = \boldsymbol {\beta}_{i} \cdot Y_{D},
 
 $$
 
@@ -490,7 +490,7 @@ must be
 
 $$
 
-X _ {S D i} = \gamma_ {S i} Y _ {D i} = \gamma_ {S i} \beta_ {i} Y _ {D}.
+X_{S D i} = \gamma_{S i} Y_{D i} = \gamma_{S i} \beta_{i} Y_{D}.
 
 $$
 
@@ -498,7 +498,7 @@ Now we can replace with  $\gamma_{Si} = Y_{Si} / Y_i^W$  in the equation, and ar
 
 $$
 
-X _ {S D i} = B _ {i} Y _ {S i} Y _ {D}
+X_{S D i} = B_{i} Y_{S i} Y_{D}
 
 $$ for the constant  $B_{i} = \beta_{i} / Y_{i}^{W}$ . The equation tells us that the export flow  $X_{SDi}$  from a source country  $S$  to a destination country  $D$  will be large if the production value generated by industry  $i$  in the source country  $(\mathrm{GDP}_{Si})$  is big and pushes a sizeable amount of exports onto the world market, and the trade flow to a destination country will be large if the destination country has a large national income  $(Y_{D})$ . The constant  $B_{i}$  captures other aspects that affect the trade volume.
 
@@ -507,7 +507,7 @@ There is no distance term in this version of the gravity equation because we ass
 It can be hard to figure out the role transport costs (the freight factor) play when there is incomplete specialization like there is in the Heckscher-Ohlin model. To keep matters simple, suppose shipping from the source country to the global supply pool costs a freight factor of  $d_{S}$ . This scales the factory gate price of the product up by a factor of  $d_{S}$  percent. So if product  $i$  costs a dollar at the factory gate, and the freight factor  $d_{S}$  is 110 percent, then the good costs  $1 \cdot d_{S} = 1.10$  dollars when placed in the supply pool. Suppose that, to withdraw a good from the supply pool, a consumer has to pay another freight factor  $d_{D}$  so that the total freight factor from supplier to final customer is  $d_{SD} = d_{S}d_{D}$ . For example, if it costs another ten percent to ship from the supply pool to the final destination, then the good costs the final consumer  $1 \cdot d_{S}d_{D} = 1.21$  dollars. Overall, the price of the same good  $i$  in supply  $Y_{Si}$  at the factory gate is smaller by a freight factor of  $d_{SD}$  than the price at its destination  $Y_{D}$ . We can divide  $Y_{D}$  in the gravity equation by the freight factor to make the production values in the source country comparable to the consumption values at the destination comparable:
 
 $$
-X _ {S D i} = B _ {i} Y _ {S i} \frac {\cdot Y _ {D}}{d _ {S D}}.
+X_{S D i} = B_{i} Y_{S i} \frac{\cdot Y_{D}}{d_{S D}}.
 $$
 
 The Hechscher-Ohlin model delivers the gravity equation.
@@ -517,7 +517,7 @@ The Hechscher-Ohlin model delivers the gravity equation.
 We now have everything in place to subject the Heckscher-Ohlin model to a final test. Does the interaction of endowments (the country characteristics) with factor intensities (the sector characteristics) explain an economy's comparative advantage? We have two measures of comparative advantage. First, we have the Balassa measure of Revealed Comparative Advantage (RCA), which summarizes the relative export specialization of a sector:
 
 $$
-R C A _ {i} ^ {\mathrm {C o u n t r y}} \equiv \frac {X _ {i} ^ {\mathrm {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\mathrm {C o u n t r y}}}{X _ {i} ^ {\mathrm {W o r l d}} / \sum_ {k} X _ {k} ^ {\mathrm {W o r l d}}}.
+R C A_{i}^{\mathrm{Co un tr y}} \equiv \frac{X_{i}^{\mathrm{Co un tr y}} / \sum_{k} X_{k}^{\mathrm{Co un tr y}}}{X_{i}^{\mathrm{Wo rl d}} / \sum_{k} X_{k}^{\mathrm{Wo rl d}}}.
 $$
 
 The RCA is found by dividing the share of a sector's exports in a given country by the country's total exports, and then dividing the sector's worldwide exports by total exports worldwide. The revealed comparative advantage measure equals 1 if the sector's trade share in a country is identical to that in the rest of the world.
@@ -525,7 +525,7 @@ The RCA is found by dividing the share of a sector's exports in a given country 
 Second, we can extract  $Y_{Si}$  from the estimated gravity equation for all countries and define the gravity-based comparative advantage measure (GCA) as
 
 $$
-G C A _ {i} ^ {\text {C o u n t r y S}} \equiv \frac {Y _ {S i} / \sum_ {k} Y _ {S k}}{\sum_ {C} Y _ {C i} / \sum_ {C} \sum_ {k} Y _ {C k}}.
+G C A_{i}^{\text{Co un tr yS}} \equiv \frac{Y_{S i} / \sum_{k} Y_{S k}}{\sum_{C} Y_{C i} / \sum_{C} \sum_{k} Y_{C k}}.
 $$
 
 The upside of the GCA measure is that it removes the effect geography has on the revealed comparative advantage: Gravity estimation purges the trade flow component  $Y_{Si}$  of destination market's size and distance.
@@ -619,7 +619,7 @@ C4.4. Consider an economy in autarky and two sectors of production as well as tw
 C5.1. Use a production possibility frontier (PPF) diagram for the Heckscher-Ohlin model with two countries, two sectors, and two production factors (such as in the right panel of Figure 4.10). Draw the PPF of both countries on the same diagram. Compare the rays reflecting the product mixes and the rays reflecting the consumption choice to show that
 
 $$
-\gamma_ {S i} \equiv \frac {Q _ {S i}}{\sum_ {C} Q _ {C i}} = \frac {Y _ {S i}}{Y _ {i} ^ {W}} > 1 / 2
+\gamma_{S i} \equiv \frac{Q_{S i}}{\sum_{C} Q_{C i}} = \frac{Y_{S i}}{Y_{i}^{W}} > 1 / 2
 $$ for a country  $S$  and a sector  $i$  that relatively intensively uses the production factor that is relatively abundant in that country. What information would you need to compute the exact value of  $\gamma_{Si}$ ?
 
 

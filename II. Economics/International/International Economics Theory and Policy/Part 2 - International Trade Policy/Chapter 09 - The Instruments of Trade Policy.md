@@ -200,7 +200,7 @@ Since these gains and losses accrue to different people, the overall cost-benefi
 Let's look, then, at the net effect of a tariff on welfare. The net cost of a tariff is
 
 $$
-\text {C o n s u m e r} - \text {p r o d u c e r} - \text {g o v e n m e n t} - \text {g e n o r m e n t} - \text {r e v e n u e}, \tag {9-1}
+\text{Co ns um er} - \text{pr od uc er} - \text{go ve nm en t} - \text{ge no rm en t} - \text{re ve nu e}, \tag {9-1}
 $$
 
 or, replacing these concepts by the areas in Figure 9-9,
@@ -317,19 +317,19 @@ An export subsidy raises prices in the exporting country while lowering them in 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/38db6bdc74ca105b77a83addb158359aaffa3a8f01fcc0b2de74be5629a8a786.jpg)
 
 $$
-= \text {p r o d u c e r} (a + b + c)
+= \text{pr od uc er} (a + b + c)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/9cfd560f46813c6897ea3e472b0d385f68f8d07053005ba6896259726be5dceb.jpg)
 
 $$
-= \text {c o n s u m e r l o s s} (a + b)
+= \text{co ns um er lo ss} (a + b)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/3c5790592911edce8fc571fe650091ce1fadc9e75571a3c1c3d46148b54f527a.jpg)
 
 $$
-\begin{array}{l} = \text {c o s t} \\ (b + c + d + e + f + g) \\ \end{array}
+\begin{array}{l} = \text{co st} \\ (b + c + d + e + f + g) \\ \end{array}
 $$
 
 # THE UNFRIENDLY SKIES: SETTLING THE LONGEST RUNNING TRADE DISPUTE
@@ -523,13 +523,13 @@ Derive and graph Home's import demand schedule. What would the price of books be
 2. Now add Foreign, which has a demand curve
 
 $$
-D ^ {*} = 6 0 - 1 0 P
+D^{*} = 6 0 - 1 0 P
 $$
 
 and a supply curve
 
 $$
-S ^ {*} = 2 0 + 1 0 P.
+S^{*} = 2 0 + 1 0 P.
 $$
 
 a. Derive and graph Foreign's export supply curve and find the price of books that would prevail in Foreign in the absence of trade.
@@ -544,7 +544,7 @@ c. Show graphically and calculate the terms of trade gain, the efficiency loss a
 4. Suppose Foreign had been a much smaller country with domestic demand.
 
 $$
-D ^ {*} = 8 - 2 P, S ^ {*} = 4 + 2 P.
+D^{*} = 8 - 2 P, S^{*} = 4 + 2 P.
 $$
 
 (Notice that this implies the Foreign price of books in the absence of trade would have been the same as in Problem 2).

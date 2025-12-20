@@ -20,13 +20,13 @@ Derivative contracts are written on four types of assets—stocks, bonds, foreig
 The net cost of carry refers to the difference between the costs and the benefits of holding an asset. Suppose a breakfast cereal producer needs 5,000 bushels of wheat for processing in two months. To lock in the price of the wheat today, he can buy it and carry it for two months. One carry cost common to all assets is the opportunity cost of funds. To come up with the purchase price, he must either borrow money or liquidate existing interest-bearing assets. In either case, an interest cost is incurred. We assume this cost is incurred at the risk-free rate of interest. Beyond interest cost, however, carry costs vary depending upon the nature of the asset. For a physical asset or commodity such as wheat, we incur storage costs (e.g., rent and insurance). At the same time, certain benefits may accrue. By storing wheat we may avoid some costs of possibly running out of our regular inventory before two months are up and having to pay extra for emergency deliveries. This is called convenience yield. Thus, the net cost of carry for a commodity equals interest cost plus storage costs less convenience yield, that is,
 
 $$
-\begin{array}{c} \text {N e t c a r r y c o s t = C o s t o f f u n d s + S t o r a g e c o s t} \\ \text {- C o n v e n i e n c e y i e l d} \end{array}
+\begin{array}{c} \text{Ne tc ar ry co st =C os to ff un ds +S to ra ge co st} \\ \text{-C on ve ni en ce yi el d} \end{array}
 $$
 
 For a financial asset or security such as a stock or a bond, the carry costs/benefits are different. While borrowing costs remain, securities do not require storage costs and do not have convenience yields. What they do have, however, is income (yield) that accrues in the form of quarterly cash dividends or semiannual coupon payments. Thus, the net cost of carry for a security is
 
 $$
-\text {N e t} = \text {C o s t} - \text {I n c o m e}
+\text{Ne t} = \text{Co st} - \text{In co me}
 $$
 
 Carry costs and benefits are modeled either as continuous rates or as discrete flows. Some costs/benefits such as the cost of funds (i.e., the risk-free interest rate) are best modeled as continuous rates. The dividend yield on a broadly based stock portfolio, the interest income on a foreign currency deposit, and the lease rate on gold also fall into this category. Other costs/benefits such as warehouse rent payments for holding an inventory of grain, quarterly cash dividends on individual common stocks, and semiannual coupon receipts on a bond are best modeled as discrete cash flows. Below we provide the continuous rate and discrete flow cost of carry assumptions. For ease of exposition, we first introduce some notation. The current price of the asset is denoted  $S$ . Its price at future time  $T$  is  $\tilde{S}_T$ , where the tilde denotes the future asset price is uncertain. The opportunity cost of funds (i.e., the risk-free rate of interest) is assumed to be a constant, continuous rate and is denoted  $r$ . If we borrow to buy the asset today, we will owe  $Se^{rT}$  at time  $T$ .
@@ -37,7 +37,7 @@ The types of assets whose carry costs are typically modeled as constant, continu
 
 
 $$
-\operatorname {N e t} \operatorname {c a r r y} \operatorname {c o s t} _ {T} = S \left[ e ^ {(r - i) T} \right] - 1 \tag {1}
+\operatorname{Ne t} \operatorname{ca rr y} \operatorname{co st}_{T} = S \left[ e^{(r - i) T} \right] - 1 \tag {1}
 $$
 
 To illustrate, assume that the S&P 500 index is currently at a level of 1,100 and pays dividends at the continuous rate of  $3\%$  annually. Assume also that "shares" of the S&P 500 index can be purchased and sold at the index level (i.e., one share currently costs 1,100). Suppose that an investor wants exactly 3,000 shares of the S&P 500 index on hand in five days. How many shares of the S&P 500 index must the investor buy today if all dividends paid are reinvested in more shares of the index portfolio?
@@ -51,13 +51,13 @@ If the investor wants 3,000 shares of the index on hand in five days, the invest
 For most other types of assets including stocks with quarterly cash dividends and bonds with semiannual coupon payments, noninterest carry costs/benefits are best modeled as discrete flows. Suppose a stock promises to pay  $n$  known cash dividends in the amount  $I_{i}$  at time  $t_{i}, i = 1,\dots,n$  between now and future time  $T$ . If we borrow  $S$  to cover the purchase price of the stock and reinvest all cash dividends as they are received at the risk-free rate of interest, the terminal value of our position will be
 
 $$
-\tilde {S} _ {T} + \sum_ {i = 1} ^ {n} I _ {i} e ^ {r (T - t _ {i})} - S e ^ {r T}
+\tilde {S}_{T} + \sum_{i = 1}^{n} I_{i} e^{r (T - t_{i})} - S e^{r T}
 $$
 
 In this instance, the net cost of carry at time  $T$  is
 
 $$
-\text {N e t c a r r y} \cos_ {T} = S \left(e ^ {r T} - 1\right) - \sum_ {i = 1} ^ {n} I _ {i} e ^ {r \left(T - t _ {i}\right)}
+\text{Ne tc ar ry} \cos_{T} = S \left(e^{r T} - 1\right) - \sum_{i = 1}^{n} I_{i} e^{r \left(T - t_{i}\right)}
 $$
 
 For coupon-bearing bonds, the expressions are the same; however,  $S$  denotes the bond price and  $I_{i}$  at time  $t_i$ ,  $i = 1, \ldots, n$  denote coupon payments.
@@ -95,7 +95,7 @@ Table 2 Future value at time  $T$  of a leveraged asset position using continuou
 Figure 1 Price paths of forward contract and its underlying asset through time. Price convergence occurs at expiration.
 
 
-$$ f = S e ^ {(r - i) T} \tag {2}
+$$ f = S e^{(r - i) T} \tag {2}
 $$
 
 The relation (2) is sometimes called the net cost of carry relation. When the prices of the forward and the asset are such that (2) holds exactly, the forward market is said to be at full carry. Unless costless arbitrage is somehow impeded, we can be assured that the forward market will always be at full carry. Suppose, for an instant in time,  $f > Se^{(r - i)T}$ . Such a condition implies that there is a costless arbitrage opportunity. We should immediately sell the forward and buy the asset, financing the purchase of the asset with risk-free borrowing. Table 3 shows the outcome. With no investment today, we earn a certain outcome of  $f - Se^{(r - i)T} > 0$  on day  $T$ . Naturally, the market cannot be in equilib- rium. The costless arbitrage activity would continue until the selling pressure on the forward price and the buying pressure on the asset price makes the arbitrage profit equal to 0. Where no arbitrage opportunity exists, the cost of carry relation (2) holds.
@@ -103,7 +103,7 @@ The relation (2) is sometimes called the net cost of carry relation. When the pr
 
 The net cost of carry relation (2) is written in future value form, since both sides of the equation are values on day  $T$ , as shown in Table 3. The relation can also be expressed in present value form. Multiplying both sides of (2) by the discount factor  $e^{-rT}$ , we get
 
-$$ f e ^ {- r T} = S e ^ {- i T} \tag {3}
+$$ f e^{- r T} = S e^{- i T} \tag {3}
 $$
 
 What (3) says is that the prepaid forward contract,  $fe^{-rT}$ , equals the initial cost of the asset position,  $Se^{-iT}$ .
@@ -116,23 +116,23 @@ Table 3 Costless Arbitrage Trades Where  $f > S{e}^{\left( r - i\right) T}$
 
 In the event that income or noninterest carry costs are more appropriately modeled as discrete cash flows, the net cost of carry relation is
 
-$$ f = S e ^ {r T} - F V I
+$$ f = S e^{r T} - F V I
 $$ where  $FVI$  is the future value of the promised income receipts. If the underlying asset is a physical asset, the future value of the income,  $FVI$ , may be negative as a result of storage cost payments. The relation can also be written in its present value form,
 
 
-$$ f e ^ {- r T} = S - P V I
+$$ f e^{- r T} = S - P V I
 $$ where  $PVI$  is the present value of the promised income receipts, that is,  $PVI = FVIE^{-rT}$ . The prepaid forward price equals  $S - PVI$ , where the underlying asset distributes discrete known cash flows through time.
 
 
 To illustrate, let's compute the value of a forward contract on a hypothetical dividend-paying stock, HAL Company. Specifically, we want to value a six-month forward contract on 3,000 shares of this company, assuming that the current share price is  \$120 and that a\$ 3 cash dividend will be paid in two months and then again in five months. Assume the risk-free rate of interest is 5\%. Since the cash dividend payments are discrete cash inflows, the cost of carry relation given by (1) is the most appropriate. The future value of the first dividend payment is  $3e^{0.05(4/12)}$  given by (1) and the future value of the second dividend is  $3e^{0.05(1/12)}$ . The future value of all income received during the forward contract's life is therefore
 
 $$
-F V I = 3 e ^ {0. 0 5 (4 / 1 2)} + 3 e ^ {0. 0 5 (1 / 1 2)} = 6. 0 6
+F V I = 3 e^{0. 0 5 (4 / 1 2)} + 3 e^{0. 0 5 (1 / 1 2)} = 6. 0 6
 $$
 
 The value of the forward contract is therefore
 
-$$ f = 1 2 0 e ^ {0. 0 5 (6 / 1 2)} - 6. 0 6 = 1 1 6. 9 7 \mathrm {p e r s h a r e}
+$$ f = 1 2 0 e^{0. 0 5 (6 / 1 2)} - 6. 0 6 = 1 1 6. 9 7 \mathrm{pe rs ha re}
 $$ or 350,910 in total.
 
 
@@ -201,12 +201,12 @@ The dynamic rebalancing of the futures position within the telescoping strategy 
 The fact that a long telescoping futures position has a terminal value of  $\tilde{S}_T - F$  and that a long forward position has a terminal value of  $\tilde{S}_T - F$  implies that the futures price and forward price must be equal to each other. If they are not, a costless arbitrage profit would be possible by selling the forward and entering a long telescoping position in the futures (if  $f > F$ ) or by buying the forward and entering a short telescoping position in the futures (if  $f < F$ ). Given the equivalence of forward and futures prices, the valuation equations for a futures contract are the same as those of the forward, that is,
 
 $$
-F = f = S e ^ {(r - i) T} \tag {4}
+F = f = S e^{(r - i) T} \tag {4}
 $$ if all carry costs are constant continuous rates, and
 
 
 $$
-F = f = S e ^ {r T} - F V I \tag {5}
+F = f = S e^{r T} - F V I \tag {5}
 $$ if noninterest carry costs are discrete.
 
 
@@ -253,14 +253,14 @@ Figure 2 Forward curve: Relation between forward price and its time to expiratio
 In terms of swap valuation, the nature of the forward curve is irrelevant as long as the forward prices represent tradable prices. To see this, consider a jeweler (i.e., long hedger) who needs 1,000 troy ounces of gold each quarter over the next two years and wants to lock in his input cost today. One hedging alternative is to buy a strip of forward (or futures) contracts, one corresponding to each desired delivery date. The cost of the gold each quarter will be locked in; however, the cost of the gold will be different each quarter unless the forward curve is a horizontal line. The gold market, however, is typically in contango, so the cost, although certain, will escalate through time. A second alternative is to buy a swap contract that provides for the delivery of 1,000 ounces of gold each quarter, where there is single fixed price for all deliveries. In the absence of costless arbitrage opportunities, it must be the case that the present value of the deliveries using the forward curve must be the same as the present value of the deliveries using the fixed price of the swap contract, that is,
 
 $$
-\sum_ {i = 1} ^ {n} f _ {i} e ^ {- r _ {i} T _ {i}} = \sum_ {i = 1} ^ {n} \bar {f} e ^ {- r _ {i} T _ {i}} \tag {6}
+\sum_{i = 1}^{n} f_{i} e^{- r_{i} T_{i}} = \sum_{i = 1}^{n} \bar {f} e^{- r_{i} T_{i}} \tag {6}
 $$ where  $n$  is the number of delivery dates,  $f_{i}$  is the price of a forward contract with time to expiration  $T_{i}$ ,  $r_{i}$  is the risk-free rate of interest corresponding to time to expiration  $T_{i}$ , and  $f$  is the fixed price in the swap agreement. In an instance where the right-hand side of (6) is greater (less) than the left-hand side, an arbitrageur would buy (sell) the swap and sell (buy) the strip of forward contracts, pocketing the difference. Because such free money opportunities do not exist, (6) must hold as an equality.
 
 
 Equation (6) can be rearranged to isolate the fixed price of the swap agreement, that is,
 
 $$
-\bar {f} = \frac {\sum_ {i = 1} ^ {n} f _ {i} e ^ {- r _ {i} T _ {i}}}{\sum_ {i = 1} ^ {n} e ^ {- r _ {i} T _ {i}}} = \sum_ {i = 1} ^ {n} f _ {i} \left(\frac {e ^ {- r _ {i} T _ {i}}}{\sum_ {i = 1} ^ {n} e ^ {- r _ {i} T _ {i}}}\right) \tag {7}
+\bar {f} = \frac{\sum_{i = 1}^{n} f_{i} e^{- r_{i} T_{i}}}{\sum_{i = 1}^{n} e^{- r_{i} T_{i}}} = \sum_{i = 1}^{n} f_{i} \left(\frac{e^{- r_{i} T_{i}}}{\sum_{i = 1}^{n} e^{- r_{i} T_{i}}}\right) \tag {7}
 $$
 
 Expressed in this fashion, it becomes obvious that the fixed price of a swap is a weighted average of forward prices, one corresponding to each delivery date.

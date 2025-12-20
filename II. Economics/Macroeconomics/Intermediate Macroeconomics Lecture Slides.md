@@ -397,10 +397,10 @@ University of California, Berkeley
 # Simple Canonical Model
 - One Market, Supply and Demand:
 $$
-{ q _ { t } } { = } { a p _ { t } + w _ { t } }
+{ q_{ t } } { = } { a p_{ t } + w_{ t } }
 $$
 $$
-{q _ {t}} = {- b p _ {t} + p _ {t} ^ {x y z}}
+{q_{t}} = {- b p_{t} + p_{t}^{x y z}}
 $$
 - Two equations look very similar
 - Which one is the supply curve?
@@ -411,7 +411,7 @@ $$
 3. Equations that relate these variable to each other
 # Components of a Model
 $$
-\begin{array}{l} { q _ { t } } { = } { a p _ { t } + w _ { t } } \\ { q _ { t } } { = } { - b p _ { t } + p _ { t } ^ { x y z } } \\ \end{array}
+\begin{array}{l} { q_{ t } } { = } { a p_{ t } + w_{ t } } \\ { q_{ t } } { = } { - b p_{ t } + p_{ t }^{ x y z } } \\ \end{array}
 $$
 - Endogenous variables:  $p_{t}$  and  $q_{t}$
 - Exogenous variables:  $w_{t}$  and  $p_{t}^{xyz}$
@@ -463,11 +463,11 @@ $$
 - What properties should a reasonable production function satisfy?
 - Positive marginal products of factors:
 $$
-\frac {\partial F}{\partial L} \geq 0 \mathrm {a n d} \frac {\partial F}{\partial K} \geq 0
+\frac{\partial F}{\partial L} \geq 0 \mathrm{an d} \frac{\partial F}{\partial K} \geq 0
 $$
 - Diminishing marginal products:
 $$
-\frac {\partial^ {2} F}{\partial L ^ {2}} \leq 0 \mathrm {a n d} \frac {\partial^ {2} F}{\partial K ^ {2}} \leq 0
+\frac{\partial^{2} F}{\partial L^{2}} \leq 0 \mathrm{an d} \frac{\partial^{2} F}{\partial K^{2}} \leq 0
 $$
 
 (What about  $\partial^2 F / \partial L \partial K$ ?)
@@ -475,23 +475,23 @@ $$
 # Cobb-Douglas Production Function
 - Most commonly used production function
 $$
-Y = A K ^ {a} L ^ {1 - a}
+Y = A K^{a} L^{1 - a}
 $$
 $$
-\frac {\partial Y}{\partial L} = (1 - a) A K ^ {a} L ^ {- a} \geq 0 \mathrm {a n d} \frac {\partial Y}{\partial K} = a A K ^ {a - 1} L ^ {1 - a} \geq 0
+\frac{\partial Y}{\partial L} = (1 - a) A K^{a} L^{- a} \geq 0 \mathrm{an d} \frac{\partial Y}{\partial K} = a A K^{a - 1} L^{1 - a} \geq 0
 $$
 $$
-\begin{array}{l} \frac {\partial^ {2} Y}{\partial L ^ {2}} = - a (1 - a) A K ^ {a} L ^ {- a - 1} \leq 0 \mathrm {a n d} \frac {\partial^ {2} Y}{\partial K ^ {2}} = - a (1 - a) A K ^ {a - 2} L ^ {1 - a} \leq 0 \\ \frac {\partial^ {2} Y}{\partial L \partial K} = a (1 - a) A K ^ {a - 1} L ^ {- a} \geq 0 \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} Y}{\partial L^{2}} = - a (1 - a) A K^{a} L^{- a - 1} \leq 0 \mathrm{an d} \frac{\partial^{2} Y}{\partial K^{2}} = - a (1 - a) A K^{a - 2} L^{1 - a} \leq 0 \\ \frac{\partial^{2} Y}{\partial L \partial K} = a (1 - a) A K^{a - 1} L^{- a} \geq 0 \\ \end{array}
 $$
 # Returns to Scale
 - Suppose:
 $$
-Y = A K ^ {a} L ^ {1 - a}
+Y = A K^{a} L^{1 - a}
 $$
 - What happens if we double all inputs to production?
 (i.e., both  $K$  and  $L$ )
 $$
-\begin{array}{l} {F (2 K, 2 L)} = {A (2 K) ^ {a} (2 L) ^ {1 - a}} \\ { = } { A 2 ^ { a } K ^ { a } 2 ^ { 1 - a } L ^ { 1 - a } } \\ = 2 A K ^ {a} L ^ {1 - a} \\ = 2 F (K, L) \\ \end{array}
+\begin{array}{l} {F (2 K, 2 L)} = {A (2 K)^{a} (2 L)^{1 - a}} \\ { = } { A 2^{ a } K^{ a } 2^{ 1 - a } L^{ 1 - a } } \\ = 2 A K^{a} L^{1 - a} \\ = 2 F (K, L) \\ \end{array}
 $$
 - Twice as much of every input yields twice as much output
 - Production function is constant returns to scale
@@ -525,7 +525,7 @@ Counter-arguments?
 # Firm's Problem
 - Choose how many workers to hire and machines to rent to maximize profits
 $$
-\max  _ {K, L} F (K, L) - r K - w L
+\max_{K, L} F (K, L) - r K - w L
 $$
 - Profits are production minus cost of inputs
 - We set the price of output to 1 (the numeraire)
@@ -535,7 +535,7 @@ $$
 # Firm's Problem: Solution
 - How do we go about solving the firm's problem?
 $$
-\max  _ {K, L} F (K, L) - r K - w L
+\max_{K, L} F (K, L) - r K - w L
 $$
 1. Choose optimal level of capital
 - Maximize profits with respect to  $K$  treating  $L$  as fixed
@@ -544,64 +544,64 @@ $$
 # Firm's Problem: Solution
 - We are making use of a simple but powerful mathematical result:
 $$
-\max  _ {x, y} f (x, y)
+\max_{x, y} f (x, y)
 $$ is given by the solution to the following two equations
 $$
 
-\frac {\partial f (x , y)}{\partial x} = 0
+\frac{\partial f (x , y)}{\partial x} = 0
 
 $$
 $$
 
-\frac {\partial f (x , y)}{\partial y} = 0
+\frac{\partial f (x , y)}{\partial y} = 0
 
 $$
 # Firm's Problem: Solution
 $$
 
-\max _ {K, L} F (K, L) - r K - w L
+\max_{K, L} F (K, L) - r K - w L
 
 $$
 - We start by plugging in for  $F(K, L)$ :
 $$
 
-\max _ {K, L} A K ^ {a} L ^ {1 - a} - r K - w L
+\max_{K, L} A K^{a} L^{1 - a} - r K - w L
 
 $$
 # Optimal Choice of Capital by Firm
 - Differentiate profit function with respect to  $K$  (holding  $L$  constant)
 $$
 
-\frac {\partial}{\partial K} A K ^ {a} L ^ {1 - a} - r K - w L = a A K ^ {a - 1} L ^ {1 - a} - r
+\frac{\partial}{\partial K} A K^{a} L^{1 - a} - r K - w L = a A K^{a - 1} L^{1 - a} - r
 
 $$
 - Set this equal to zero to maximize:
-$$ a A K ^ {a - 1} L ^ {1 - a} - r = 0
+$$ a A K^{a - 1} L^{1 - a} - r = 0
 $$
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 # Optimal Choice of Labor by Firm
 - Differentiate profit function with respect to  $L$  (holding  $K$  constant)
 $$
-\frac {\partial}{\partial L} A K ^ {a} L ^ {1 - a} - r K - w L = (1 - a) A K ^ {a} L ^ {- a} - w
+\frac{\partial}{\partial L} A K^{a} L^{1 - a} - r K - w L = (1 - a) A K^{a} L^{- a} - w
 $$
 - Set this equal to zero to maximize:
-$$ a A K ^ {a} L ^ {- a} - w = 0
+$$ a A K^{a} L^{- a} - w = 0
 $$
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 # Firm's Problem: Solution
 - Firm maximizes profits if:
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 - Seems a bit inscrutable?
 - How can we interpret these conditions?
 # Firm's Optimal Choice of Capital
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 
 RHS: Price of capital
@@ -609,7 +609,7 @@ RHS: Price of capital
 LHS:
 
 $$
-\frac {\partial}{\partial K} Y = \frac {\partial}{\partial K} A K ^ {a} L ^ {1 - a} = a A K ^ {a - 1} L ^ {1 - a}
+\frac{\partial}{\partial K} Y = \frac{\partial}{\partial K} A K^{a} L^{1 - a} = a A K^{a - 1} L^{1 - a}
 $$
 
 LHS: Marginal product of capital
@@ -617,7 +617,7 @@ LHS: Marginal product of capital
 - Optimal for firms to rent capital to the point where the marginal product of capital is equal to price of capital
 # Firm's Optimal Choice of Labor
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 
 RHS: price of labor (wage)
@@ -625,7 +625,7 @@ RHS: price of labor (wage)
 LHS
 
 $$
-\frac {\partial}{\partial L} Y = \frac {\partial}{\partial L} A K ^ {a} L ^ {1 - a} = (1 - a) A K ^ {a} L ^ {- a}
+\frac{\partial}{\partial L} Y = \frac{\partial}{\partial L} A K^{a} L^{1 - a} = (1 - a) A K^{a} L^{- a}
 $$
 
 LHS: Marginal product of labor
@@ -634,14 +634,14 @@ LHS: Marginal product of labor
 # Firm's Problem
 - Maximize profits:
 $$
-\max _ {K, L} A K ^ {a} L ^ {1 - a} - r K - w L
+\max_{K, L} A K^{a} L^{1 - a} - r K - w L
 $$
 - Optimal choice of capital implies:
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 - Optimal choice of labor implies:
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 # Math vs. Economics
 - We can derive optimal behavior by firms in two ways:
@@ -653,7 +653,7 @@ $$
 - Firm sets MPL equal to price of labor
 # Firm Behavior
 - Optimal choice of capital yields:
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 - This equation can be represented graphically by a "curve" in  $(\mathsf{K}, \mathsf{r})$  space
 - The curve is all the points in  $(\mathsf{K}, \mathsf{r})$  space that satisfy the equation (for some set values of other variables, i.e.,  $L, A, a$ )
@@ -664,7 +664,7 @@ $$
 # Firm Behavior
 - Optimal choice of labor yields:
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 - This equation can also be represented graphically by a "curve" in (L,w) space
 - Curve is all the points in  $(L, w)$  space that satisfy the equation (for some set values of other variables)
@@ -704,14 +704,14 @@ $$
 - Last equation: Something that gives output as a function of other variables
 - We can use production function:
 $$
-Y = A K ^ {a} L ^ {1 - a}
+Y = A K^{a} L^{1 - a}
 $$
 # Model
 - Five equations:
-$$ a A K ^ {a - 1} L ^ {1 - a} = r
+$$ a A K^{a - 1} L^{1 - a} = r
 $$
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 $$
 K = \overline {{K}}
@@ -720,7 +720,7 @@ $$
 L = \overline {{L}}
 $$
 $$
-Y = A K ^ {a} L ^ {1 - a}
+Y = A K^{a} L^{1 - a}
 $$
 - Five endogenous variables:  $K, L, r, w, Y$
 # An Equilibrium
@@ -738,12 +738,12 @@ $$
 $$
 L = \overline {{L}}
 $$
-$$ r = a A \overline {{K}} ^ {a - 1} \overline {{L}} ^ {1 - a}
+$$ r = a A \overline {{K}}^{a - 1} \overline {{L}}^{1 - a}
 $$
-$$ w = (1 - a) A \overline {{K}} ^ {a} \overline {{L}} ^ {- a}
+$$ w = (1 - a) A \overline {{K}}^{a} \overline {{L}}^{- a}
 $$
 $$
-Y = A \overline {{K}} ^ {a} \overline {{L}} ^ {1 - a}
+Y = A \overline {{K}}^{a} \overline {{L}}^{1 - a}
 $$
 # Factor Shares
 
@@ -765,7 +765,7 @@ Economics:
 # Labor Share in Our Model
 - Labor compensation is  $wL$ . Labor share is  $wL / Y$ .
 From labor demand curve we have
-$$ w = (1 - a) A K ^ {a} L ^ {- a} = (1 - a) \frac {Y}{L}
+$$ w = (1 - a) A K^{a} L^{- a} = (1 - a) \frac{Y}{L}
 $$
 - Multiplying through by  $L$  yield
 $$ w L = (1 - a) Y
@@ -774,7 +774,7 @@ $$
 # Capital Share in Our Model
 - Capital compensation is  $rK$ . Capital share is  $rK / Y$ .
 From the capital demand curve we have
-$$ r = a A K ^ {a - 1} L ^ {1 - a} = a \frac {Y}{K}
+$$ r = a A K^{a - 1} L^{1 - a} = a \frac{Y}{K}
 $$
 - Multiplying through by  $K$  yields
 $$ r K = a Y
@@ -788,7 +788,7 @@ Why?
 - Production function is constant returns to scale
 Euler's theorem:
 $$
-\begin{array}{l} F (L, K) = \frac {\partial F (L , K)}{\partial L} L + \frac {\partial F (L , K)}{\partial K} K \\ Y = w L + r K \\ \end{array}
+\begin{array}{l} F (L, K) = \frac{\partial F (L , K)}{\partial L} L + \frac{\partial F (L , K)}{\partial K} K \\ Y = w L + r K \\ \end{array}
 $$
 # Why Cobb-Douglas
 
@@ -833,12 +833,12 @@ We are interested in welfare of workers and owners of capital – How much they 
 - One reason why labor share may be falling: better or cheaper machines
 - Doesn't work with Cobb-Douglas production function
 $$
-Y = A (z K) ^ {a} L ^ {1 - a}
+Y = A (z K)^{a} L^{1 - a}
 $$
 
 In this case:
 
-$$ r = a z ^ {a} A K ^ {a - 1} L ^ {1 - a} = a \frac {Y}{K}
+$$ r = a z^{a} A K^{a - 1} L^{1 - a} = a \frac{Y}{K}
 $$
 $$ r K = a Y
 $$
@@ -847,20 +847,20 @@ $$
 - Turns out to be very knife-edge
 - Constant Elasticity of Substitution (CES) Production function:
 $$
-Y _ {t} = \left[ a \big (A _ {K, t} K _ {t} \big) ^ {\frac {\sigma - 1}{\sigma}} + (a - 1) \big (A _ {L, t} L _ {t} \big) ^ {\frac {\sigma - 1}{\sigma}} \right] ^ {\frac {\sigma}{\sigma - 1}}
+Y_{t} = \left[ a \big (A_{K, t} K_{t} \big)^{\frac{\sigma - 1}{\sigma}} + (a - 1) \big (A_{L, t} L_{t} \big)^{\frac{\sigma - 1}{\sigma}} \right]^{\frac{\sigma}{\sigma - 1}}
 $$
 - In this case, labor share is
-$$ s _ {L, t} = 1 - a ^ {\sigma} \left(\frac {A _ {K , t}}{r _ {t}}\right) ^ {\sigma - 1}
+$$ s_{L, t} = 1 - a^{\sigma} \left(\frac{A_{K , t}}{r_{t}}\right)^{\sigma - 1}
 $$
 # Labor Share in CES Case
-$$ s _ {L, t} = 1 - a ^ {\sigma} \left(\frac {A _ {K , t}}{r _ {t}}\right) ^ {\sigma - 1}
+$$ s_{L, t} = 1 - a^{\sigma} \left(\frac{A_{K , t}}{r_{t}}\right)^{\sigma - 1}
 $$
 - $\sigma$  key parameter. If  $\sigma = 1$  back in Cobb-Douglas case
 - $\sigma$  is elasticity of substitution between capital and labor
 - If price of capital falls by  $1 \%$ relative to price of labor, quantity of capital used in production increases by  $\sigma \%$ relative to quantity of labor
 - This number is 1 for Cobb-Douglas. But that is a special case.
 # Labor Share in CES Case
-$$ s _ {L, t} = 1 - a ^ {\sigma} \left(\frac {A _ {K , t}}{r _ {t}}\right) ^ {\sigma - 1}
+$$ s_{L, t} = 1 - a^{\sigma} \left(\frac{A_{K , t}}{r_{t}}\right)^{\sigma - 1}
 $$
 
 $\cdot \sigma > 1$ :
@@ -926,7 +926,7 @@ $$
 - Alternative specification:
 - consumption and leisure (Z)
 $$
-U (C) + V \underbrace {(1 - H)} _ {Z}
+U (C) + V \underbrace {(1 - H)}_{Z}
 $$
 - Household has time endowment of 1 and leisure of  $Z = 1 - H$
 - Here,  $V(1 - H)$  represents utility from leisure
@@ -934,7 +934,7 @@ $$
 - What properties should  $U(C) - V(H)$  have?
 - Household likes consumption:
 $$
-\frac {d U (C)}{d C} = U ^ {\prime} (C) > 0
+\frac{d U (C)}{d C} = U^{\prime} (C) > 0
 $$
 - But at a diminishing rate:  $U''(C) < 0$
 - Extra coconut very valuable when you have few coconuts
@@ -945,14 +945,14 @@ What about  $V(H)$ ? This is disutility of working
 
 - How about assuming household dislikes working (enjoys leisure):
 $$
-\frac {d V (H)}{d H} = V ^ {\prime} (H) > 0
+\frac{d V (H)}{d H} = V^{\prime} (H) > 0
 $$
 - But is that natural? People are miserable when unemployed.
 Work provides people with meaning
 - Even if people like their jobs, work yields disutility on the margin
 - Household's marginal disutility of working is increasing:
 $$
-V ^ {\prime \prime} (H) > 0
+V^{\prime \prime} (H) > 0
 $$
 # Household Budget Constraint
 - Households maximize utility subject to a budget constraint
@@ -981,16 +981,16 @@ $$
 U (w H + T) - V (H)
 $$
 2. Differentiate with respect to  $H$  and set to zero:
-$$ w U ^ {\prime} (w H + T) - V ^ {\prime} (H) = 0
+$$ w U^{\prime} (w H + T) - V^{\prime} (H) = 0
 $$
 3. Use budget constraint to plug  $C$  back into  $U'$
-$$ w U ^ {\prime} (C) - V ^ {\prime} (H) = 0
+$$ w U^{\prime} (C) - V^{\prime} (H) = 0
 $$
 4. Rearrange:
-$$ w U ^ {\prime} (C) = V ^ {\prime} (H)
+$$ w U^{\prime} (C) = V^{\prime} (H)
 $$
 # Labor-Leisure: Intuition
-$$ w U ^ {\prime} (C) = V ^ {\prime} (H)
+$$ w U^{\prime} (C) = V^{\prime} (H)
 $$
 - Straightforward derivation.
 - But do you understand what this equation is saying?
@@ -1011,7 +1011,7 @@ $$
 - What does this imply about  $V^{\prime}$ ?
 - In this situation, we have:
 $$
-U ^ {\prime} (C) w > V ^ {\prime} (H)
+U^{\prime} (C) w > V^{\prime} (H)
 $$
 - Worker better off if they work more
 - Suppose the household is supplying very large number of hours.
@@ -1019,27 +1019,27 @@ $$
 - What does this imply about  $V^{\prime}$ ?
 - In this situation, we have:
 $$
-U ^ {\prime} (C) w <   V ^ {\prime} (H)
+U^{\prime} (C) w <   V^{\prime} (H)
 $$
 - Worker better off if the work less
 # Labor-Leisure: Intuition
 - Somewhere in between is a "sweet spot" where a little extra effort neither makes household better nor worse off
 - At this point we have:
 $$
-U ^ {\prime} (C) w = V ^ {\prime} (H)
+U^{\prime} (C) w = V^{\prime} (H)
 $$
 
 This is the optimum!!
 
 # Units: Utilities versus Coconuts
 $$
-U ^ {\prime} (C) w = V ^ {\prime} (H)
+U^{\prime} (C) w = V^{\prime} (H)
 $$
 - Units: utils per hour worked
 - RHS is "utils per hour worked"  $(V^{\prime}(H))$
 - LHS is "coconuts per hour worked"  $(w)$  times "utils per coconut"  $(U^{\prime}(C))$ . Multiplies together these become "utils per hour worked"
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w
 $$
 - Units: coconuts per hour worked
 - RHS: "coconuts per hour worked" (w)
@@ -1047,7 +1047,7 @@ $$
 # Household's Problem
 - This equation can be graphically represented by a "curve" in (H,w) space
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w
 $$
 
 What is the slope of this curve?
@@ -1062,11 +1062,11 @@ Hours, H
 # Labor Market Equilibrium
 - Firm's problem yields labor demand:
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 - Household's problem yields labor supply:
 $$
-\frac {V ^ {\prime} (L)}{U ^ {\prime} (C)} = w
+\frac{V^{\prime} (L)}{U^{\prime} (C)} = w
 $$
 
 (Recall:  $L = H$  when  $N = 1$ )
@@ -1111,32 +1111,32 @@ Richer workers chooses more consumption and more leisure
 - If  $C$  is constant,  $V^{\prime}(H)$  must rise
 - This implies that  $H$  must rise since  $V''(H) > 0$
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w
 $$
 # Income Effect
 - How does an increase in consumption affect labor supply holding wages fixed? (e.g., due to winning the lottery)
 $$
-\uparrow C \Rightarrow \downarrow U ^ {\prime} (C) \Rightarrow \uparrow \frac {V ^ {\prime} (H)}{U ^ {\prime} (C)}
+\uparrow C \Rightarrow \downarrow U^{\prime} (C) \Rightarrow \uparrow \frac{V^{\prime} (H)}{U^{\prime} (C)}
 $$
 $$
-U ^ {\prime \prime} (C) <   0
+U^{\prime \prime} (C) <   0
 $$
 - To balance this effect, we must have
 $$
-\downarrow V ^ {\prime} (H) \underset {\uparrow} {\Rightarrow} \downarrow H
+\downarrow V^{\prime} (H) \underset {\uparrow} {\Rightarrow} \downarrow H
 $$
 $$
-V ^ {\prime \prime} (H) > 0
+V^{\prime \prime} (H) > 0
 $$
 - Thus, the income effect leads to a fall in hours worked
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w
 $$
 # Increase in the Wage
 - Recall that  $C = wH + T$  (in our simple model)
 So, we have:
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (w H + T)} = w
+\frac{V^{\prime} (H)}{U^{\prime} (w H + T)} = w
 $$
 - This mean that an increase in the wage has both an income and substitution effect
 - $w$  on RHS is responsible for substitution effect
@@ -1200,11 +1200,11 @@ T = 0
 $$
 - In this case,  $\frac{V^{\prime}(H)}{U^{\prime}(C)} = w$  becomes
 $$
-\psi \frac {w H}{1 - H} = w
+\psi \frac{w H}{1 - H} = w
 $$
 - Which simplifies to
 $$
-\frac {H}{1 - H} = \frac {1}{\psi}
+\frac{H}{1 - H} = \frac{1}{\psi}
 $$
 - Wage has no effect on labor supply!
 - Income and substitution effects exactly equal
@@ -1237,10 +1237,10 @@ Notes: The table reports percentage differences versus the United States in outp
 # Accounting for Income Levels
 - Useful to break income differences into a few components
 $$
-Y _ {i t} = A _ {i t} ^ {1 - a} K _ {i t} ^ {a} H _ {i t} ^ {1 - a} \rightarrow \left(\frac {Y _ {i t}}{N _ {i t}}\right) ^ {1 - a} = A _ {i t} ^ {1 - a} \left(\frac {K _ {i t}}{Y _ {i t}}\right) ^ {a} \left(\frac {H _ {i t}}{N _ {i t}}\right) ^ {1 - a}
+Y_{i t} = A_{i t}^{1 - a} K_{i t}^{a} H_{i t}^{1 - a} \rightarrow \left(\frac{Y_{i t}}{N_{i t}}\right)^{1 - a} = A_{i t}^{1 - a} \left(\frac{K_{i t}}{Y_{i t}}\right)^{a} \left(\frac{H_{i t}}{N_{i t}}\right)^{1 - a}
 $$
 $$
-\ln y _ {i t} = \ln A _ {i t} + \frac {a}{1 - a} \ln \frac {k _ {i t}}{y _ {i t}} + \ln h _ {i t}
+\ln y_{i t} = \ln A_{i t} + \frac{a}{1 - a} \ln \frac{k_{i t}}{y_{i t}} + \ln h_{i t}
 $$
 - Decomposes output per working age person into three factors – 1) Productivity factor, 2) Capital factor, 3) Labor factor
 # Accounting for Income Levels
@@ -1264,10 +1264,10 @@ Notes: The table reports log differences versus the United States multiplied by 
 Figure 12: Annual Hours Worked per Working-Age Person
 # Hours in France vs. U.S.
 $$
-\frac {H _ {t} E _ {t}}{N _ {A t}} = H _ {t} \frac {E _ {t}}{L _ {t}} \frac {L _ {t}}{N _ {A t}}
+\frac{H_{t} E_{t}}{N_{A t}} = H_{t} \frac{E_{t}}{L_{t}} \frac{L_{t}}{N_{A t}}
 $$
 $$
-\begin{array}{l} \Delta \ln \left(\frac {H _ {t} E _ {t}}{N _ {A t}}\right) \\ = \Delta \ln H _ {t} + \Delta \ln \left(\frac {E _ {t}}{L _ {t}}\right) \\ + \Delta \ln \left(\frac {L _ {t}}{N _ {A t}}\right) \\ \end{array}
+\begin{array}{l} \Delta \ln \left(\frac{H_{t} E_{t}}{N_{A t}}\right) \\ = \Delta \ln H_{t} + \Delta \ln \left(\frac{E_{t}}{L_{t}}\right) \\ + \Delta \ln \left(\frac{L_{t}}{N_{A t}}\right) \\ \end{array}
 $$
 Table 3: Decomposition of Hours Worked Per Working-Age Person
 <table><tr><td></td><td colspan="4">Log Changes since 1970 × 100</td></tr><tr><td></td><td>HE/NA</td><td>H</td><td>E/L</td><td>L/Na</td></tr><tr><td colspan="5">Panel A: France</td></tr><tr><td>1985</td><td>-29</td><td>-19</td><td>-7</td><td>-3</td></tr><tr><td>2000</td><td>-28</td><td>-25</td><td>-6</td><td>3</td></tr><tr><td>2015</td><td>-29</td><td>-27</td><td>-9</td><td>7</td></tr><tr><td colspan="5">Panel B: United States</td></tr><tr><td>1985</td><td>5</td><td>-4</td><td>-2</td><td>11</td></tr><tr><td>2000</td><td>13</td><td>-4</td><td>1</td><td>16</td></tr><tr><td>2015</td><td>6</td><td>-7</td><td>0</td><td>13</td></tr></table>
@@ -1303,11 +1303,11 @@ Higher minimum wages
 - Budget constraint:  $(1 + \tau_{c})C = (1 - \tau_{l})wH + T$
 - Labor supply:
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w \frac {1 - \tau_ {l}}{1 + \tau_ {c}}
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w \frac{1 - \tau_{l}}{1 + \tau_{c}}
 $$
 # Labor Supply and Taxes
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w \frac {1 - \tau_ {l}}{1 + \tau_ {c}}
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w \frac{1 - \tau_{l}}{1 + \tau_{c}}
 $$
 - After tax wage:  $w \frac{1 - \tau_{l}}{1 + \tau_{c}} < w$
 - Why not just  $w(1 - \tau_{l})$ , i.e., take-home pay?
@@ -1317,19 +1317,19 @@ $$
 # Tax Wedge
 - Let's simplify our notation a little
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w \frac {1 - \tau_ {l}}{1 + \tau_ {c}}
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w \frac{1 - \tau_{l}}{1 + \tau_{c}}
 $$
 - Define the overall tax wedge as
 $$
-(1 - \tau) = \left(1 - \frac {\tau_ {l} + \tau_ {c}}{1 + \tau_ {c}}\right) = \frac {1 - \tau_ {l}}{1 + \tau_ {c}}
+(1 - \tau) = \left(1 - \frac{\tau_{l} + \tau_{c}}{1 + \tau_{c}}\right) = \frac{1 - \tau_{l}}{1 + \tau_{c}}
 $$
 - Using this overall tax wedge we get
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w (1 - \tau)
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w (1 - \tau)
 $$
 # Taxes and Labor Supply
 $$
-\frac {V ^ {\prime} (H)}{U ^ {\prime} (C)} = w (1 - \tau)
+\frac{V^{\prime} (H)}{U^{\prime} (C)} = w (1 - \tau)
 $$
 - After tax wage:  $w(1 - \tau)$
 - How does this affect labor supply?
@@ -1361,52 +1361,52 @@ Real world probably somewhere between two polar cases discussed above
 - To make quantitative predictions, we need to be more precise about utility function of households
 - We assume:
 $$
-U (C) - V (H) = \ln C - \psi \frac {H ^ {1 - \eta^ {- 1}}}{1 - \eta^ {- 1}}
+U (C) - V (H) = \ln C - \psi \frac{H^{1 - \eta^{- 1}}}{1 - \eta^{- 1}}
 $$
 This implies
 $$
-U ^ {\prime} (C) = \frac {1}{C} \quad \text {a n d} V ^ {\prime} (H) = \psi H ^ {\eta^ {- 1}}
+U^{\prime} (C) = \frac{1}{C} \quad \text{an d} V^{\prime} (H) = \psi H^{\eta^{- 1}}
 $$
 # How Much Do Taxes Depress Labor Supply?
 - Labor supply is then:
 $$
-\psi C H ^ {\eta^ {- 1}} = w (1 - \tau)
+\psi C H^{\eta^{- 1}} = w (1 - \tau)
 $$
 - In the production chapter we derived labor demand:
-$$ w = (1 - a) \frac {Y}{L}
+$$ w = (1 - a) \frac{Y}{L}
 $$
 Combining these we have
 $$
-\psi C H ^ {\eta - 1} = (1 - a) \frac {Y}{L} (1 - \tau)
+\psi C H^{\eta - 1} = (1 - a) \frac{Y}{L} (1 - \tau)
 $$
 # How Much Do Taxes Depress Labor Supply?
 $$
-\psi C H ^ {\eta^ {- 1}} = (1 - a) \frac {Y}{L} (1 - \tau)
+\psi C H^{\eta^{- 1}} = (1 - a) \frac{Y}{L} (1 - \tau)
 $$
 - Recall that  $L = N H$  and we normalize  $N$  to 1
 - Since all tax revenue is transferred back lump sum, the household budget constraint becomes  $C = wH$
 - This and  $w = (1 - a)\frac{Y}{L}$  implies  $C = (1 - a)Y$
 Using these expressions we get:
 $$
-\psi C H ^ {\eta - 1} = \frac {C}{H} (1 - \tau)
+\psi C H^{\eta - 1} = \frac{C}{H} (1 - \tau)
 $$
 # How Much Do Taxes Depress Labor Supply?
 - Rearranging yields:
 $$
-H ^ {1 + \eta^ {- 1}} = (1 - \tau) \psi^ {- 1}
+H^{1 + \eta^{- 1}} = (1 - \tau) \psi^{- 1}
 $$
 - Taking logs yields:
 $$
-\ln H = \frac {\eta}{\eta + 1} \ln (1 - \tau) - \frac {\eta}{\eta + 1} \ln \psi
+\ln H = \frac{\eta}{\eta + 1} \ln (1 - \tau) - \frac{\eta}{\eta + 1} \ln \psi
 $$
 - Taking a difference between US and France:
 $$
-\ln H _ {F r} - \ln H _ {U S} = \frac {\eta}{\eta + 1} (\ln (1 - \tau_ {F r}) - \ln (1 - \tau_ {U S}))
+\ln H_{F r} - \ln H_{U S} = \frac{\eta}{\eta + 1} (\ln (1 - \tau_{F r}) - \ln (1 - \tau_{U S}))
 $$
 (note that  $(\eta^{-1} + 1)^{-1} = \frac{\eta}{\eta + 1}$ )
 # Key Determinant
 $$
-\ln H _ {F r} - \ln H _ {U S} = \frac {\eta}{\eta + 1} \left(\ln (1 - \tau_ {F r}) - \ln (1 - \tau_ {U S})\right)
+\ln H_{F r} - \ln H_{U S} = \frac{\eta}{\eta + 1} \left(\ln (1 - \tau_{F r}) - \ln (1 - \tau_{U S})\right)
 $$
 - Clearly  $\eta$  is a key parameter
 - $\eta$  is called the Frisch elasticity of labor supply
@@ -1517,11 +1517,11 @@ What did our model imply about this?
 # Increase in Productivity
 - Increase in productivity shifts labor demand out
 $$
-(1 - a) A K ^ {a} L ^ {- a} = w
+(1 - a) A K^{a} L^{- a} = w
 $$
 - Increases wage
 - Permanent increase in productivity shifts labor supply back (income effect)
-$$ w U ^ {\prime} (C) = V ^ {\prime} (H)
+$$ w U^{\prime} (C) = V^{\prime} (H)
 $$
 - Increases wage even more
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/371ee66f88c1c1fe78e0b3591e99ed57f1f7934e0d57749c32525f3187d6095d.jpg)
@@ -1675,24 +1675,24 @@ Economics is mostly "organized common sense".
 - They also have access to knowledge of the two technologies:
 - Production function for coconuts:
 $$
-Y _ {C} = F _ {C} (L _ {C}, N _ {C})
+Y_{C} = F_{C} (L_{C}, N_{C})
 $$
 - Production function for shelter:
 $$
-Y _ {S} = F _ {S} (L _ {S}, N _ {S})
+Y_{S} = F_{S} (L_{S}, N_{S})
 $$
 # Preferences
 - We represent the preferences of Robinson Crusoe and Friday by utility functions
 - Robinson Crusoe's utility function:
 $$
-U _ {R} \big (X _ {C, R}, X _ {S, R}, X _ {Z, R} \big)
+U_{R} \big (X_{C, R}, X_{S, R}, X_{Z, R} \big)
 $$
 - $X_{C,R}$  denotes the consumption of coconuts by R
 - $X_{S,R}$  denotes the consumption of shelter by R
 - $X_{Z,R}$  denotes the "consumption" of leisure by  $R$
 - Friday's utility function:
 $$
-U _ {F} \left(X _ {C, F}, X _ {S, F}, X _ {Z, F}\right)
+U_{F} \left(X_{C, F}, X_{S, F}, X_{Z, F}\right)
 $$
 # An Allocation
 
@@ -1739,7 +1739,7 @@ We define an allocation as some particular outcome for all endogenous quantities
 # Utilitarian Optimal Outcome
 - Add up everyone's utility (weighted sum):
 $$
-\theta_ {R} U _ {R} \big (X _ {C, R}, X _ {S, R}, X _ {Z, R} \big) + \theta_ {F} U _ {F} \big (X _ {C, F}, X _ {S, F}, X _ {Z, F} \big)
+\theta_{R} U_{R} \big (X_{C, R}, X_{S, R}, X_{Z, R} \big) + \theta_{F} U_{F} \big (X_{C, F}, X_{S, F}, X_{Z, F} \big)
 $$
 - Rank allocations by this weighted sum
 - Allocation that maximizes this weighted sum is utilitarian optimal outcome
@@ -1766,7 +1766,7 @@ $$
 # Exchange Efficiency
 - Useful notation:
 $$
-U _ {R, C} ^ {*} = \frac {\partial}{\partial X _ {R , C}} U _ {R} \big (X _ {C, R} ^ {*}, X _ {S, R} ^ {*}, X _ {Z, R} ^ {*} \big)
+U_{R, C}^{*} = \frac{\partial}{\partial X_{R , C}} U_{R} \big (X_{C, R}^{*}, X_{S, R}^{*}, X_{Z, R}^{*} \big)
 $$
 - i.e.  $U_{R,C}^{*}$  denotes the partial derivative of  $U_{R}$  with respect to  $X_{C,R}$  at the point  $\left(X_{C,R}^{*}, X_{S,R}^{*}, X_{Z,R}^{*}\right)$
 - We will use the same type of notation for other partial derivatives of both the utility functions and the production functions
@@ -1775,19 +1775,19 @@ $$
 Robinson Crusoe's utility:
 
 $$
-U _ {R} \big (X _ {C, R} ^ {*} - \eta \varepsilon , X _ {S, R} ^ {*} + \varepsilon , X _ {Z, R} ^ {*} \big)
+U_{R} \big (X_{C, R}^{*} - \eta \varepsilon , X_{S, R}^{*} + \varepsilon , X_{Z, R}^{*} \big)
 $$
 - Let's differentiate Robinson Crusoe's utility with respect to  $\varepsilon$  and evaluate at  $\varepsilon = 0$ :
 $$
-\frac {d U _ {R}}{d \varepsilon} = - U _ {R, C} ^ {*} \eta + U _ {R, S} ^ {*}
+\frac{d U_{R}}{d \varepsilon} = - U_{R, C}^{*} \eta + U_{R, S}^{*}
 $$
 - Friday's utility:
 $$
-U _ {F} \left(X _ {C, F} ^ {*} + \eta \varepsilon , X _ {S, F} ^ {*} - \varepsilon , X _ {Z, F} ^ {*}\right)
+U_{F} \left(X_{C, F}^{*} + \eta \varepsilon , X_{S, F}^{*} - \varepsilon , X_{Z, F}^{*}\right)
 $$
 - Let's differentiate Friday's utility with respect to  $\varepsilon$  and evaluate at  $\varepsilon = 0$ :
 $$
-\frac {d U _ {F}}{d \varepsilon} = U _ {F, C} ^ {*} \eta - U _ {F, S} ^ {*}
+\frac{d U_{F}}{d \varepsilon} = U_{F, C}^{*} \eta - U_{F, S}^{*}
 $$
 # Exchange Efficiency
 - How should be choose  $\eta$ ?
@@ -1797,15 +1797,15 @@ $$
 - Why is this a good choice?
 – In that case, the change is a Pareto improvement if (and only if) it makes Friday better off!
 $$
-\frac {d U _ {R}}{d \varepsilon} = - U _ {R, C} ^ {*} \eta + U _ {R, S} ^ {*} = 0
+\frac{d U_{R}}{d \varepsilon} = - U_{R, C}^{*} \eta + U_{R, S}^{*} = 0
 $$
 $$
-\eta = \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}}
+\eta = \frac{U_{R , S}^{*}}{U_{R , C}^{*}}
 $$
 # Exchange Efficiency
 - Let's now plug this value for  $\eta$  into the marginal change in Friday's utility
 $$
-\frac {d U _ {F}}{d \varepsilon} = U _ {F, C} ^ {*} \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}} - U _ {F, S} ^ {*}
+\frac{d U_{F}}{d \varepsilon} = U_{F, C}^{*} \frac{U_{R , S}^{*}}{U_{R , C}^{*}} - U_{F, S}^{*}
 $$
 - What must be true about this expression if the initial allocation is Pareto efficient?
 - It must be equal to zero (i.e. the derivative of Friday's utility with respect to  $\varepsilon$  must be zero at the optimum)
@@ -1813,14 +1813,14 @@ $$
 # Exchange Efficiency
 - Exchange efficiency therefore implies:
 $$
-\frac {d U _ {F}}{d \varepsilon} = U _ {F, C} ^ {*} \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}} - U _ {F, S} ^ {*} = 0
+\frac{d U_{F}}{d \varepsilon} = U_{F, C}^{*} \frac{U_{R , S}^{*}}{U_{R , C}^{*}} - U_{F, S}^{*} = 0
 $$
 $$
-\frac {U _ {F , S} ^ {*}}{U _ {F , C} ^ {*}} = \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}}
+\frac{U_{F , S}^{*}}{U_{F , C}^{*}} = \frac{U_{R , S}^{*}}{U_{R , C}^{*}}
 $$
 # Exchange Efficiency
 $$
-\frac {U _ {F , S} ^ {*}}{U _ {F , C} ^ {*}} = \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}}
+\frac{U_{F , S}^{*}}{U_{F , C}^{*}} = \frac{U_{R , S}^{*}}{U_{R , C}^{*}}
 $$
 - $U_{F, C}^{*}$  is utility  $F$  gets from one extra coconut
 - $U_{F,S}^{*}$  is utility  $F$  gets from one extra unit of shelter
@@ -1829,7 +1829,7 @@ $$
 - $U_{F,S}^{*} / U_{F,C}^{*}$  is  $\#$  of coconuts that  $F$  is willing to give up to get 1 extra unit of shelter (marginal rate of substitution)
 # Exchange Efficiency
 $$
-\frac {U _ {F , S} ^ {*}}{U _ {F , C} ^ {*}} = \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}}
+\frac{U_{F , S}^{*}}{U_{F , C}^{*}} = \frac{U_{R , S}^{*}}{U_{R , C}^{*}}
 $$
 - Intuition: # of coconuts R would be willing to give up for an extra unit of shelter must be same as for F. Why?
 - Otherwise there is scope for mutually advantageous trade
@@ -1842,11 +1842,11 @@ $$
 - Marginal Cost?  $U_{R, Z}^{*}$
 - Optimality necessitates?
 $$
-U _ {R, C} ^ {*} F _ {C, L} ^ {*} = U _ {R, Z} ^ {*} \qquad \mathrm {o r} \qquad \frac {U _ {R , Z} ^ {*}}{U _ {R , C} ^ {*}} = F _ {C, L} ^ {*}
+U_{R, C}^{*} F_{C, L}^{*} = U_{R, Z}^{*} \qquad \mathrm{or} \qquad \frac{U_{R , Z}^{*}}{U_{R , C}^{*}} = F_{C, L}^{*}
 $$
 # Production Efficiency Intuition
 $$
-\frac {U _ {R , Z} ^ {*}}{U _ {R , C} ^ {*}} = F _ {C, L} ^ {*}
+\frac{U_{R , Z}^{*}}{U_{R , C}^{*}} = F_{C, L}^{*}
 $$
 - Intuition: # of coconuts R is willing to give up for an extra hour of leisure must equal # of coconuts one can produce using an extra hour of labor
 - Otherwise R can be made better off by working either more or less
@@ -1869,7 +1869,7 @@ These conditions are listed in draft chapter
 - Marginal cost:  $U_{R, C}^{*} F_{C, N}^{*}$
 - Efficiency necessitates?
 $$
-U _ {R, S} ^ {*} F _ {S, N} ^ {*} = U _ {R, C} ^ {*} F _ {C, N} ^ {*} \mathrm {o r} \frac {U _ {R , C} ^ {*}}{U _ {R , S} ^ {*}} = \frac {F _ {S , N} ^ {*}}{F _ {C , N} ^ {*}}
+U_{R, S}^{*} F_{S, N}^{*} = U_{R, C}^{*} F_{C, N}^{*} \mathrm{or} \frac{U_{R , C}^{*}}{U_{R , S}^{*}} = \frac{F_{S , N}^{*}}{F_{C , N}^{*}}
 $$
 # Pareto Efficiency
 
@@ -1883,17 +1883,17 @@ Exchange efficiency
 Exchange Efficiency:
 
 $$
-\frac {U _ {F , S} ^ {*}}{U _ {F , C} ^ {*}} = \frac {U _ {R , S} ^ {*}}{U _ {R , C} ^ {*}}
+\frac{U_{F , S}^{*}}{U_{F , C}^{*}} = \frac{U_{R , S}^{*}}{U_{R , C}^{*}}
 $$
 
 Efficient use of land:
 
 $$
-\frac {U _ {R , C} ^ {*}}{U _ {R , S} ^ {*}} = \frac {F _ {S , N} ^ {*}}{F _ {C , N} ^ {*}}
+\frac{U_{R , C}^{*}}{U_{R , S}^{*}} = \frac{F_{S , N}^{*}}{F_{C , N}^{*}}
 $$
 - Production efficiency:
 $$
-\frac {U _ {R , Z} ^ {*}}{U _ {R , C} ^ {*}} = F _ {C, L} ^ {*}
+\frac{U_{R , Z}^{*}}{U_{R , C}^{*}} = F_{C, L}^{*}
 $$
 
 (and analogous conditions for  $F$  and  $S$ )
@@ -1914,7 +1914,7 @@ Is there an alternative?
 - $p$  is marginal cost of buying shelter (in units of coconuts)
 - Robinson Crusoe will set these equal to each other. I.e., trade shelter for coconuts until:
 $$
-\frac {U _ {R , S}}{U _ {R , C}} = p
+\frac{U_{R , S}}{U_{R , C}} = p
 $$
 # Product Market
 
@@ -1922,13 +1922,13 @@ What will Friday do in this market?
 
 - Also trade shelter for coconuts until:
 $$
-\frac {U _ {F , S}}{U _ {F , C}} = p
+\frac{U_{F , S}}{U_{F , C}} = p
 $$
 
 What does this imply about exchange efficiency?
 
 $$
-\frac {U _ {F , S}}{U _ {F , C}} = p = \frac {U _ {R , S}}{U _ {R , C}}
+\frac{U_{F , S}}{U_{F , C}} = p = \frac{U_{R , S}}{U_{R , C}}
 $$
 - A competitive market for trading shelter for coconuts, thus, yields exchange efficiency in shelter versus coconuts!
 # Labor Market
@@ -1946,7 +1946,7 @@ What will owner of coconut technology do?
 # Labor Market
 - A competitive labor market will therefore yield production efficiency
 $$
-\frac {U _ {R , Z}}{U _ {R , C}} = w = F _ {C, L}
+\frac{U_{R , Z}}{U_{R , C}} = w = F_{C, L}
 $$
 - Same logic for other production efficiency conditions
 # Land Market
@@ -1956,20 +1956,20 @@ What will coconut producers do?
 What will shelter producers do?
 - Demand land until  $pF_{S,N} = r$
 $$
-\begin{array}{l} p F _ {S, N} = F _ {C, N} \\ \Rightarrow \frac {U _ {R , S}}{U _ {R , C}} F _ {S, N} = F _ {C, N} \\ \Rightarrow \frac {U _ {R , S}}{U _ {R , C}} = \frac {F _ {C , N}}{F _ {S , N}} \\ \end{array}
+\begin{array}{l} p F_{S, N} = F_{C, N} \\ \Rightarrow \frac{U_{R , S}}{U_{R , C}} F_{S, N} = F_{C, N} \\ \Rightarrow \frac{U_{R , S}}{U_{R , C}} = \frac{F_{C , N}}{F_{S , N}} \\ \end{array}
 $$
 - A competitive land market will therefore yield efficient allocation of land
 # Competitive Markets Can Achieve Efficiency
 - Goods market yields exchange efficiency:
 $$
-\frac {U _ {F , S}}{U _ {F , C}} = p = \frac {U _ {R , S}}{U _ {R , C}}
+\frac{U_{F , S}}{U_{F , C}} = p = \frac{U_{R , S}}{U_{R , C}}
 $$
 - Labor market yields production efficiency:
 $$
-\frac {U _ {R , Z}}{U _ {R , C}} = w = F _ {C, L}
+\frac{U_{R , Z}}{U_{R , C}} = w = F_{C, L}
 $$
 - Land market yields efficient use of land:
-$$ p F _ {S, N} = r = F _ {C, N} \Rightarrow \frac {U _ {R , S}}{U _ {R , C}} = \frac {F _ {C , N}}{F _ {S , N}}
+$$ p F_{S, N} = r = F_{C, N} \Rightarrow \frac{U_{R , S}}{U_{R , C}} = \frac{F_{C , N}}{F_{S , N}}
 $$
 # First Welfare Theorem
 
@@ -2063,37 +2063,37 @@ We have studied:
 - Robinson Crusoe's budget constraints are:
 In period 1?
 $$
-C _ {1} + B = Y _ {1}
+C_{1} + B = Y_{1}
 $$
 
 In period 2?
 
 $$
-C _ {2} = Y _ {2} + (1 + R) B
+C_{2} = Y_{2} + (1 + R) B
 $$
 # Limits on Saving and Borrowing
 - What is the most Robinson Crusoe can save?
 $$
-B \leq Y _ {1}
+B \leq Y_{1}
 $$
 - What is the most Robinson Crusoe can borrow?
 - As much as he can pay off in period 2:
 $$
-(1 + R) B \geq - Y _ {2} \mathrm {w h i c h i m p l i e s} B \geq - \frac {Y _ {2}}{(1 + R)}
+(1 + R) B \geq - Y_{2} \mathrm{wh ic hi mp li es} B \geq - \frac{Y_{2}}{(1 + R)}
 $$
 # Utility Function
 - In general, Robinson Crusoe's utility function can be written
 $$
-U (C _ {1}, C _ {2})
+U (C_{1}, C_{2})
 $$
 - We will, however, specialize and consider the utility function
 $$
-U \left(C _ {1}\right) + \beta U \left(C _ {2}\right)
+U \left(C_{1}\right) + \beta U \left(C_{2}\right)
 $$
 - Here,  $\beta$  is called Robinson Crusoe's subjective discount factor
 # Interpretation of  $\beta$
 $$
-U (C _ {1}) + \beta U (C _ {2})
+U (C_{1}) + \beta U (C_{2})
 $$
 
 What is the interpretation of  $\beta$ ?
@@ -2105,14 +2105,14 @@ What is the interpretation of  $\beta$ ?
 # Consumption-Savings Model
 - Robinson Crusoe maximizes
 $$
-U (C _ {1}) + \beta U (C _ {2})
+U (C_{1}) + \beta U (C_{2})
 $$
 - Subject to:
 $$
-C _ {1} + B = Y _ {1}
+C_{1} + B = Y_{1}
 $$
 $$
-C _ {2} = Y _ {2} + (1 + R) B
+C_{2} = Y_{2} + (1 + R) B
 $$
 
 (and limits on borrowing and saving)
@@ -2123,7 +2123,7 @@ $$
 # Solving Model: Plug and Chug
 1. Combine budget constraints into one "intertemporal" budget constraint:
 $$
-C _ {1} + \frac {1}{1 + R} C _ {2} = Y _ {1} + \frac {1}{1 + R} Y _ {2}
+C_{1} + \frac{1}{1 + R} C_{2} = Y_{1} + \frac{1}{1 + R} Y_{2}
 $$
 
 This eliminates  $B$  from the household's problem
@@ -2135,31 +2135,31 @@ What does "present value" mean?
 - How much does it cost at time 1 to purchase the right to one coconut in period 2?
 - Price must be equal to the number of coconuts you need to store in period 1 to get one coconut in period 2. Which is?
 $$
-\frac {1}{1 + R}
+\frac{1}{1 + R}
 $$
 - We therefore say that the present value in period 1 of the right to one coconut in period 2 is  $1 / (1 + R)$  coconuts
 # Solving Model
 2. Plug intertemporal budget constraint into objective function:
 $$
-U (C _ {1}) + \beta U (C _ {2})
+U (C_{1}) + \beta U (C_{2})
 $$
 $$
-U \left(C _ {1}\right) + \beta U \left((1 + R) Y _ {1} + Y _ {2} - (1 + R) C _ {1}\right)
+U \left(C_{1}\right) + \beta U \left((1 + R) Y_{1} + Y_{2} - (1 + R) C_{1}\right)
 $$
 - This eliminates  $C_2$  from the household's problem
 Now we have a simple optimization problem with one choice variable
 - How is this solved?
 # Solving Model
 $$
-U (C _ {1}) + \beta U \big ((1 + R) Y _ {1} + Y _ {2} - (1 + R) C _ {1} \big)
+U (C_{1}) + \beta U \big ((1 + R) Y_{1} + Y_{2} - (1 + R) C_{1} \big)
 $$
 - Differentiate and set to zero:
 $$
-U ^ {\prime} (C _ {1}) - \beta (1 + R) U ^ {\prime} (C _ {2}) = 0
+U^{\prime} (C_{1}) - \beta (1 + R) U^{\prime} (C_{2}) = 0
 $$
 - Rearrange:
 $$
-U ^ {\prime} (C _ {1}) = \beta (1 + R) U ^ {\prime} (C _ {2})
+U^{\prime} (C_{1}) = \beta (1 + R) U^{\prime} (C_{2})
 $$
 - This equation is called the "consumption Euler equation"
 # Euler Equation by Variational Argument
@@ -2169,7 +2169,7 @@ $$
 - Marginal benefit:  $\beta U^{\prime}\left(C_{2}\right)(1 + R)$
 - Robinson Crusoe must set these equal to each other:
 $$
-U ^ {\prime} \left(C _ {1}\right) = \beta (1 + R) U ^ {\prime} \left(C _ {2}\right)
+U^{\prime} \left(C_{1}\right) = \beta (1 + R) U^{\prime} \left(C_{2}\right)
 $$
 # Log Utility
 - To gain further insight, we assume
@@ -2180,15 +2180,15 @@ $$
 This implies
 
 $$
-U ^ {\prime} (C) = \frac {1}{C}
+U^{\prime} (C) = \frac{1}{C}
 $$
 - Consumption Euler equation becomes
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 # Consumption Growth
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 - How does growth in income  $(Y_{2} / Y_{1})$  affect Robinson Crusoe's consumption growth?
 - It doesn't!!!
@@ -2203,12 +2203,12 @@ $$
 - So, Robinson Crusoe should transfer consumption to period 1 and increase utility
 # Consumption Smoothing
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 - Suppose for simplicity that  $\beta (1 + R) = 1$
 This implies that:
 $$
-C _ {1} = C _ {2}
+C_{1} = C_{2}
 $$
 - Irrespective of relative size of  $Y_{1}$  and  $Y_{2}$
 - Robinson Crusoe wants to smooth his consumption over time because marginal utility is diminishing
@@ -2218,7 +2218,7 @@ Macroeconomics, 2nd Ed
 Copyright © 2011 W. W. Norton & Company, Inc.
 # Consumption Growth
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 - Holding  $\beta$  fixed, how does consumptions growth vary with  $R$ ?
 - The higher is the return on saving, the higher is the growth rate of consumption
@@ -2227,10 +2227,10 @@ $$
 # Solving for Level of Consumption
 - With log utility we have:
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 $$
-C _ {1} + \frac {1}{1 + R} C _ {2} = Y _ {1} + \frac {1}{1 + R} Y _ {2}
+C_{1} + \frac{1}{1 + R} C_{2} = Y_{1} + \frac{1}{1 + R} Y_{2}
 $$
 - This is two equations in two unknown.
 - What are the unknowns?  $C_{1}$  and  $C_{2}$
@@ -2238,7 +2238,7 @@ $$
 # Level of Consumption
 - Solving the two equations on the previous slide yields:
 $$
-C _ {1} = \frac {1}{1 + \beta} \left(Y _ {1} + \frac {1}{1 + R} Y _ {2}\right)
+C_{1} = \frac{1}{1 + \beta} \left(Y_{1} + \frac{1}{1 + R} Y_{2}\right)
 $$
 - Consumption at time 1 is a fraction of the present value of life-time income
 - Consumption at time 1 only depends on current income in so far as it affects the present value of life-time income
@@ -2248,12 +2248,12 @@ $$
 - Let's assume for simplicity that  $\beta = 1$
 - Then we have:
 $$
-C _ {1} = \frac {1}{4 5} \sum_ {t = 1} ^ {4 5} \left(\frac {1}{1 + R}\right) ^ {t - 1} Y _ {t}
+C_{1} = \frac{1}{4 5} \sum_{t = 1}^{4 5} \left(\frac{1}{1 + R}\right)^{t - 1} Y_{t}
 $$
 - For simplicity: No initial wealth/debt and no retirement period
 # Consumption and Income
 $$
-C _ {1} = \frac {1}{4 5} \sum_ {t = 1} ^ {4 5} \left(\frac {1}{1 + R}\right) ^ {t - 1} Y _ {t}
+C_{1} = \frac{1}{4 5} \sum_{t = 1}^{4 5} \left(\frac{1}{1 + R}\right)^{t - 1} Y_{t}
 $$
 - Again, consumption is a fraction of present value of life-time income
 - Does not depend on shape of income profile
@@ -2275,14 +2275,14 @@ b)  $20 - 40\%$ c)  $40 - 60\%$
 d)  $60 - 80\%$ e)  $80 - 100\%$
 # Consumption and Income
 $$
-C _ {1} = \frac {1}{4 5} \sum_ {t = 1} ^ {4 5} \left(\frac {1}{1 + R}\right) ^ {t - 1} Y _ {t}
+C_{1} = \frac{1}{4 5} \sum_{t = 1}^{4 5} \left(\frac{1}{1 + R}\right)^{t - 1} Y_{t}
 $$
 - Say you unexpectedly get a large bonus in your first year of working life (very high  $Y_{1}$ )
 - Suppose this doesn't change your beliefs about income in future years
 - How large a fraction should you consume of this windfall within a year and how much should you save?
 # Marginal Propensity to Consume
 $$
-C _ {1} = \frac {1}{4 5} \sum_ {t = 1} ^ {4 5} \left(\frac {1}{1 + R}\right) ^ {t - 1} Y _ {t}
+C_{1} = \frac{1}{4 5} \sum_{t = 1}^{4 5} \left(\frac{1}{1 + R}\right)^{t - 1} Y_{t}
 $$
 - An extra dollar of income today only raises consumption today by about  $\approx 2\%$  (1/45)
 - Marginal propensity to consume (MPC) is said to be  $2 \%$
@@ -2301,7 +2301,7 @@ $$
 - Water is not forward-looking
 # Forward-Looking Behavior
 - 60 years ago, economists modeled people as behaving much like water (today's consumption depending on yesterday's consumption and current income)
-- The idea that people display forward-looking behavior is one of the most important ideas of  $20^{\text {th }}$  century macroeconomics
+- The idea that people display forward-looking behavior is one of the most important ideas of  $20^{\text{th }}$  century macroeconomics
 - Pioneered by Milton Friedman and Robert Lucas among others
 # Rational Expectations
 - Today, most economists model people as forming "rational expectations" about the future and acting optimally given these expectations.
@@ -2321,19 +2321,19 @@ Real world is probably somewhere in between:
 # Consumption-Savings: Review
 - Consumption Euler Equation:
 $$
-U ^ {\prime} (C _ {1}) = \beta (1 + R) U ^ {\prime} (C _ {2})
+U^{\prime} (C_{1}) = \beta (1 + R) U^{\prime} (C_{2})
 $$
 - Marginal benefit of saving an extra dollar equal to marginal cost
 - With  $U(C) = \log C$ :
 $$
-\frac {C _ {2}}{C _ {1}} = \beta (1 + R)
+\frac{C_{2}}{C_{1}} = \beta (1 + R)
 $$
 - Consumption growth unrelated to income growth
 - Determined by interest rate and discount factor
 # Consumption-Savings: Review
 - Level of consumption if Robinson Crusoe lives for two periods:
 $$
-C _ {1} = \frac {1}{1 + \beta} \left(Y _ {1} + \frac {1}{1 + R} Y _ {2}\right)
+C_{1} = \frac{1}{1 + \beta} \left(Y_{1} + \frac{1}{1 + R} Y_{2}\right)
 $$
 - Consumption at time  $t$  is a fraction of the present value of life-time income
 - Consumption at time  $t$  only depends on current income in so far as it affects the present value of life-time income
@@ -2387,7 +2387,7 @@ John Maynard Keynes introduced idea of the consumption function in the 1930's
 
 - Consumption a function of current income
 $$
-C _ {t} = a + b Y _ {t}
+C_{t} = a + b Y_{t}
 $$
 - $b$  denotes marginal propensity to consume
 $-0 < b < 1$ , MPC between zero and one
@@ -2476,7 +2476,7 @@ Source: Clark (2010)
 # Malthus Model: Production
 # 1. Production Function:
 $$
-Y _ {t} = A _ {t} D ^ {a} L _ {t} ^ {1 - a}
+Y_{t} = A_{t} D^{a} L_{t}^{1 - a}
 $$
 - $Y_{t}$  denotes output at time t
 - $A_{t}$  denotes productivity at time t
@@ -2487,13 +2487,13 @@ $$
 # Malthus Model: Labor Demand
 # 2. Labor Demand:
 - We assume that there is a competitive labor market. As in lecture 2, firms will hire labor to the point at which wage is equal to marginal product of labor
-$$ w _ {t} = (1 - a) A _ {t} \left(\frac {D}{L _ {t}}\right) ^ {a}
+$$ w_{t} = (1 - a) A_{t} \left(\frac{D}{L_{t}}\right)^{a}
 $$
 # Malthus Model: Labor Supply
 # 3. Labor Supply:
 - Labor supply equals hours per person times population:
 $$
-L _ {t} = H _ {t} N _ {t}
+L_{t} = H_{t} N_{t}
 $$
 - For simplicity:  $H_{t} = H$  (hours constant)
 - We abstract from the labor-leisure decision discussed in lecture 3
@@ -2503,7 +2503,7 @@ $$
 Population growth governed by real wage:
 
 $$
-N _ {t + 1} = \frac {w _ {t}}{w ^ {s}} N _ {t}
+N_{t + 1} = \frac{w_{t}}{w^{s}} N_{t}
 $$
 - $w^{S}$  "subsistence" wage
 - Population will grow when standard of living is above subsistence
@@ -2516,7 +2516,7 @@ $$
 # Malthus Model: Population Growth
 - Rewrite equation as:
 $$
-N _ {t + 1} = \frac {w _ {t}}{w ^ {s}} N _ {t} \quad \rightarrow \quad \frac {N _ {t + 1}}{N _ {t}} = \frac {w _ {t}}{w ^ {s}}
+N_{t + 1} = \frac{w_{t}}{w^{s}} N_{t} \quad \rightarrow \quad \frac{N_{t + 1}}{N_{t}} = \frac{w_{t}}{w^{s}}
 $$
 - Population grows whenever wages are above subsistence ( $w_{t} > w^{s}$ )
 - Population shrinks whenever wages are below subsistence ( $w_{t} < w^{s}$ )
@@ -2527,15 +2527,15 @@ One more element important to make sense of data in middle ages: Plagues
 - Plagues: Exogenous shock to population growth  $\xi_{t}$
 - Population growth equation becomes:
 $$
-\frac {N _ {t + 1}}{N _ {t}} = \left(\frac {w _ {t}}{w ^ {s}}\right) \xi_ {t}
+\frac{N_{t + 1}}{N_{t}} = \left(\frac{w_{t}}{w^{s}}\right) \xi_{t}
 $$
 - Years with no plague  $\xi_{t} = 1$
 Years with plague  $\xi_{t} < 1$
 # The Malthus Model: Key Equations
-$$ w _ {t} = (1 - a) A _ {t} \left(\frac {D}{H N _ {t}}\right) ^ {a}
+$$ w_{t} = (1 - a) A_{t} \left(\frac{D}{H N_{t}}\right)^{a}
 $$
 $$
-\frac {N _ {t + 1}}{N _ {t}} = \left(\frac {w _ {t}}{w ^ {s}}\right) \xi_ {t}
+\frac{N_{t + 1}}{N_{t}} = \left(\frac{w_{t}}{w^{s}}\right) \xi_{t}
 $$
 
 How many endogenous variables?
@@ -2549,14 +2549,14 @@ Population growth equation links period  $t$  and period  $t + 1$
 # Population Dynamics
 - Let's plug the labor demand equation into the population growth equation :
 $$
-\frac {N _ {t + 1}}{N _ {t}} = \left(\frac {w _ {t}}{w ^ {s}}\right) \xi_ {t}
+\frac{N_{t + 1}}{N_{t}} = \left(\frac{w_{t}}{w^{s}}\right) \xi_{t}
 $$
 $$
-\frac {N _ {t + 1}}{N _ {t}} = \left(\frac {(1 - a) A _ {t}}{w ^ {s}}\right) \left(\frac {D}{H N _ {t}}\right) ^ {a} \xi_ {t}
+\frac{N_{t + 1}}{N_{t}} = \left(\frac{(1 - a) A_{t}}{w^{s}}\right) \left(\frac{D}{H N_{t}}\right)^{a} \xi_{t}
 $$
 # Population Dynamics
 $$
-N _ {t + 1} = \phi A _ {t} \xi_ {t} N _ {t} ^ {1 - a}
+N_{t + 1} = \phi A_{t} \xi_{t} N_{t}^{1 - a}
 $$
 - Difference equation for dynamics of population
 - We solve it graphically
@@ -2567,14 +2567,14 @@ $$
 
 # Population Dynamics
 $$
-N _ {t + 1} = \phi A _ {t} \xi_ {t} N _ {t} ^ {1 - a}
+N_{t + 1} = \phi A_{t} \xi_{t} N_{t}^{1 - a}
 $$
 - Suppose for simplicity that
 $$
-A _ {t} = 1 \mathrm {a n d} \xi_ {t} = 1
+A_{t} = 1 \mathrm{an d} \xi_{t} = 1
 $$
 $$
-N _ {t + 1} = \phi N _ {t} ^ {1 - a}
+N_{t + 1} = \phi N_{t}^{1 - a}
 $$
 - If  $\phi N_{t}^{1 - a} > N_{t}$  then  $N_{t + 1} > N_{t}$
 - If  $\phi N_{t}^{1 - a} < N_{t}$  then  $N_{t + 1} < N_{t}$
@@ -2582,7 +2582,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/0582f5d753a9e57676444bc5ebab6101895bb2afd29fd6f25cc3a1600fb509c2.jpg)
 # Steady State Population
 $$
-N _ {t + 1} = \phi A _ {t} \xi_ {t} N _ {t} ^ {1 - a}
+N_{t + 1} = \phi A_{t} \xi_{t} N_{t}^{1 - a}
 $$
 - A steady state for  $N_{t}$  is a value for  $N_{t}$  at which  $N_{t+1} = N_{t}$ , i.e., the population is "steady"
 - Population will reach such a point after long period of no "shocks" (e.g.,  $\xi_{t} = 1$  and  $A_{t} = 1$ )
@@ -2591,15 +2591,15 @@ $$
 # Solving for Steady State
 1. Suppose there is a steady state  $\overline{N}$ . Then  $N_{t+1} = N_t = \overline{N}$ . So, replace  $N_{t+1}$  and  $N_t$  with  $\overline{N}$  in population dynamics equation. Also, set shocks to normal values (i.e.,  $\xi_t = 1$ ):
 $$
-\overline {{N}} = \phi A _ {t} \overline {{N}} ^ {1 - a}
+\overline {{N}} = \phi A_{t} \overline {{N}}^{1 - a}
 $$
 2. Solve for  $\overline{N}$ :
 $$
-\overline {{N}} = (\phi A _ {t}) ^ {\frac {1}{a}}
+\overline {{N}} = (\phi A_{t})^{\frac{1}{a}}
 $$
 # Real Wages in the Malthus Model
 - Labor demand:
-$$ w _ {t} = (1 - a) A _ {t} \left(\frac {D}{H N _ {t}}\right) ^ {a}
+$$ w_{t} = (1 - a) A_{t} \left(\frac{D}{H N_{t}}\right)^{a}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/56dd9b0487354f1b6da8417e673857b9be90ece4aa9baf195a390b880f3f1d79.jpg)
@@ -2610,10 +2610,10 @@ Graphical analysis consists of four key plots:
 
 1. Population dynamics plot ( $N_{t+1}$  against  $N_t$ )
 $$
-N _ {t + 1} = \phi A _ {t} \xi_ {t} N _ {t} ^ {1 - a}
+N_{t + 1} = \phi A_{t} \xi_{t} N_{t}^{1 - a}
 $$
 2. Labor demand plot ( $w_{t}$  against  $N_{t}$ )
-$$ w _ {t} = (1 - a) A _ {t} \left(\frac {D}{H N _ {t}}\right) ^ {a}
+$$ w_{t} = (1 - a) A_{t} \left(\frac{D}{H N_{t}}\right)^{a}
 $$
 3. Time-series plot of population ( $N_{t}$  against  $t$ )
 4. Time-series plot of wages ( $w_{t}$  against  $t$ )
@@ -2697,7 +2697,7 @@ Economy "recovers" from plagues
 12501640:
 
 - Real wages and population moved up and down a stable labor demand curve
-$$ w _ {t} = \phi w ^ {s} A _ {t} \frac {1}{N _ {t} ^ {a}}
+$$ w_{t} = \phi w^{s} A_{t} \frac{1}{N_{t}^{a}}
 $$
 
 What does this imply about changes in productivity in England from 1250 to 1640?
@@ -2783,7 +2783,7 @@ University of California, Berkeley
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/e215ea4a853a59054eae48abe31b9b74be237b34f2434917e54ec491dd886664.jpg)
 
-# England in the  $17^{\text {th }}$  Century
+# England in the  $17^{\text{th }}$  Century
 - Two revolutions: 1640s and 1688
 - Civil War in 1640's:
 — Parliamentarians overthrow Charles I and set up Commonwealth
@@ -2889,7 +2889,7 @@ Source: Estimate of literacy rate of husbandmen in London and Middlesex
 - Can we provide any "hard evidence" for it?
 - Quite difficult
 - Becker and Woessmann (2009) provide interesting attempt
-- Did Protestantism cause growth in  $19^{\text {th }}$  century Prussia?
+- Did Protestantism cause growth in  $19^{\text{th }}$  century Prussia?
 - Max Weber: Protestant Ethic
 - But perhaps literacy is key channel
 # Protestant Prosperity
@@ -2905,7 +2905,7 @@ Figure 8: Protestant Population Share in Prussia in 1871
 1. First Stage: Is distance to Wittenberg correlated with Protestantism?
 2. Balance Tests: Were areas close to Wittenberg different in other ways?
 3. Reduced Form: Is distance to Wittenberg correlated with prosperity?
-- Becker and Woessmann use data on Prussian counties in late  $19^{\text {th }}$  century
+- Becker and Woessmann use data on Prussian counties in late  $19^{\text{th }}$  century
 # Is Distance to Wittenberg Different in Other Ways?
 - Becker and Woessmann assume: Nothing special about Wittenberg when it comes to prosperity other than it being center of Protestant revolution
 - Can they corroborate this assumption?
@@ -2914,7 +2914,7 @@ Table 3: Was Wittenberg a Random Place?
 <table><tr><td>Dependent Variable:</td><td>Imperial City in 1517</td><td>Urbanization in 1500</td><td>University in 1517</td><td>School in 1517</td></tr><tr><td rowspan="2">Distance to Wittenberg (in 100 km)</td><td>0.0034</td><td>0.00006</td><td>-0.0019</td><td>-0.0073</td></tr><tr><td>(0.0071)</td><td>(0.00013)</td><td>(0.0047)</td><td>(0.0099)</td></tr><tr><td>Number of Observations</td><td>452</td><td>452</td><td>452</td><td>333</td></tr><tr><td>R2</td><td>0.0005</td><td>0.0004</td><td>0.0004</td><td>0.002</td></tr></table>
 Notes: These estimates are taken from Table IV in Becker and Woessmann (2009). Standard errors are in parentheses. The dependent variables are: an indicator for whether a county was a free imperial city, urban population per  $\mathrm{km}^2$ , indicator for whether county had a university, and indicator for whether the county had a school.
 $$
-Y _ {i} = \alpha + \beta \mathrm {D I S T} _ {i} + X _ {i} ^ {\prime} \gamma + \epsilon_ {i}
+Y_{i} = \alpha + \beta \mathrm{DI ST}_{i} + X_{i}^{\prime} \gamma + \epsilon_{i}
 $$
 # Distance to Wittenberg and Prosperity
 - Final step: Show that distance to Wittenberg is correlated with prosperity
@@ -2923,7 +2923,7 @@ Table 4: Does Distance to Wittenberg Predict Prosperity
 <table><tr><td>Dependent Variable:</td><td>Income Tax per capita</td><td>Log Teacher Income</td><td>Share Manuf. and Services</td></tr><tr><td rowspan="2">Distance to Wittenberg (in 100 km)</td><td>-6.0</td><td>-1.00</td><td>-0.78</td></tr><tr><td>(2.3)</td><td>(0.48)</td><td>(0.36)</td></tr><tr><td>Number of Observations</td><td>426</td><td>452</td><td>452</td></tr></table>
 Notes: These estimates are produced using replication code and data provided by Ludger Woessmann. They are the reduced form estimates that correspond to the instrumental variables (IV) estimates presented in Table V of Becker and Woessmann (2009) except that I have included "missing eduction info" as an additional control for consistency with the first stage reported in Table 2. Income tax per capita is measured in pfennig. Standard errors are in parentheses. The control variables included in the regression are: \% age below 10, \% Jews, \% females, \% born in municipality, \% of Prussian origin, average household size, ln(population size), population growth from 1867-1871 in, \% missing eduction info, \% blind, \% deaf-mute, \% insane.
 $$
-\mathrm {P R O S P} _ {i} = \alpha + \beta \mathrm {D I S T} _ {i} + X _ {i} ^ {\prime} \gamma + \epsilon_ {i}
+\mathrm{PR OS P}_{i} = \alpha + \beta \mathrm{DI ST}_{i} + X_{i}^{\prime} \gamma + \epsilon_{i}
 $$
 # THE AGRICULTURAL REVOLUTION
 # Agricultural Revolution
@@ -2982,7 +2982,7 @@ Agricultural Revolution happens in places with high urban wages
 — Royal courts gradually protected freeholds from lords (Common Law)
 - Black Death led to collapse of serfdom and early enclosures
 - Crown reacted to expropriation by gradual protection of tenant farmers
-- By  $17^{\text {th }}$  century: Rise of yeoman farmers with substantial proprietary interest in the soil (and thus incentive to innovate)
+- By  $17^{\text{th }}$  century: Rise of yeoman farmers with substantial proprietary interest in the soil (and thus incentive to innovate)
 - Contrast: More intense serfdom in E. Europe after Black Death
 # HIGH WAGES AND CHEAP COAL
 # Why Britain?
@@ -3080,7 +3080,7 @@ Robert Solow addressed this question in a seminal 1956 article
 # Production
 - Firm's production function:
 $$
-Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3}
+Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3}
 $$
 - Firms hire labor and rent capital in competitive markets (same as in lecture 2)
 - Households:
@@ -3098,16 +3098,16 @@ $$
 - Investment?
 - Well, it has to equal savings!
 $$
-I _ {t} = \bar {s} Y _ {t}
+I_{t} = \bar {s} Y_{t}
 $$
 - Consumption?
 - Whatever is not saved is consumed
 $$
-C _ {t} = Y _ {t} - I _ {t}
+C_{t} = Y_{t} - I_{t}
 $$
 # Capital Accumulation
 $$
-K _ {t + 1} = K _ {t} + I _ {t} - \bar {d} K _ {t}
+K_{t + 1} = K_{t} + I_{t} - \bar {d} K_{t}
 $$
 - Capital tomorrow is equal to:
 - Capital today
@@ -3130,10 +3130,10 @@ Copyright © 2008 W. W. Norton & Company
 4. Consumption:
 5. Capital accumulation:
 $$
-\begin{array}{l} Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3} \\ L _ {t} = \overline {{L}} \\ I _ {t} = \bar {s} Y _ {t} \\ C _ {t} = Y _ {t} - I _ {t} \\ \end{array}
+\begin{array}{l} Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3} \\ L_{t} = \overline {{L}} \\ I_{t} = \bar {s} Y_{t} \\ C_{t} = Y_{t} - I_{t} \\ \end{array}
 $$
 $$
-K _ {t + 1} = K _ {t} + I _ {t} - \bar {d} K _ {t}
+K_{t + 1} = K_{t} + I_{t} - \bar {d} K_{t}
 $$
 # What about Labor and Capital Demand?
 - We didn't talk about:
@@ -3145,10 +3145,10 @@ $$
 # Solving the Solow Model
 1. Combine:
 $$
-I _ {t} = \bar {s} Y _ {t} \quad \mathrm {a n d} \quad K _ {t + 1} = K _ {t} + I _ {t} - \bar {d} K _ {t}
+I_{t} = \bar {s} Y_{t} \quad \mathrm{an d} \quad K_{t + 1} = K_{t} + I_{t} - \bar {d} K_{t}
 $$ to get:
 $$
-K _ {t + 1} - K _ {t} = \bar {s} Y _ {t} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} Y_{t} - \bar {d} K_{t}
 $$
 - Interpretation:
 LHS: Change in capital stock
@@ -3156,17 +3156,17 @@ RHS: “Net” investment (investment minus depreciations)
 # Solving the Solow Model
 2. Combine:
 $$
-K _ {t + 1} - K _ {t} = \bar {s} Y _ {t} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} Y_{t} - \bar {d} K_{t}
 $$ and
 $$
-Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3} \quad \mathrm {a s w e l l a s} \quad L _ {t} = \bar {L}
+Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3} \quad \mathrm{as we ll as} \quad L_{t} = \bar {L}
 $$ to get:
 $$
-K _ {t + 1} - K _ {t} = \bar {s} \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3} - \bar {d} K_{t}
 $$
 # Evolution of Capital in Solow Model
 $$
-K _ {t + 1} - K _ {t} = \bar {s} \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3} - \bar {d} K_{t}
 $$
 - This is the key equation in the Solow Model
 - Describes the evolution of the capital stock
@@ -3174,11 +3174,11 @@ $$
 # Drawing the Solow Graph
 - Investment:
 $$
-I _ {t} = \bar {s} Y _ {t} = \bar {s} \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3}
+I_{t} = \bar {s} Y_{t} = \bar {s} \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3}
 $$
 - Depreciation:
 $$
-\bar {d} K _ {t}
+\bar {d} K_{t}
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/d578b04cc5b5db3debb5796ea172546a46949fc45a24c45253790d4399b55b16.jpg)
 Investment, depreciation
@@ -3192,7 +3192,7 @@ Investment, Depreciation
 - Investment is greater than depreciation
 - So  $\Delta K_{t} > 0$  because
 $$
-\Delta K _ {t} = \bar {s} Y _ {t} - d K _ {t}
+\Delta K_{t} = \bar {s} Y_{t} - d K_{t}
 $$
 - Then since  $\Delta K_{\mathrm{t}} > 0$ ,  $K_{\mathrm{t}}$  increases from  $K_{0}$  to  $K_{1} > K_{0}$
 # Now imagine if we start at a  $K_{0}$  here:
@@ -3202,7 +3202,7 @@ Investment, Depreciation
 - Saving = investment is now less than depreciation
 - So  $\Delta K_{t}<0$  because
 $$
-\Delta K _ {t} = \bar {s} Y _ {t} - d K _ {t}
+\Delta K_{t} = \bar {s} Y_{t} - d K_{t}
 $$
 - Then since  $\Delta K_{t} < 0$ ,  $K_{t}$  decreases from  $K_{0}$  to  $K_{1} < K_{0}$
 # Transition Dynamics and Steady State
@@ -3214,23 +3214,23 @@ $$
 - Point at which capital stops growing is called the steady state
 # Solving for Steady State Capital
 $$
-K _ {t + 1} - K _ {t} = \bar {s} \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3} - \bar {d} K_{t}
 $$
 - Definition of steady state: Point were
 $$
-K _ {t + 1} = K _ {t} = \overline {{K}}
+K_{t + 1} = K_{t} = \overline {{K}}
 $$
 - Key idea: Replace all  $K_{t+1}$  and  $K_t$  with  $\overline{K}$
 $$
-\bar {s} \overline {{A}} \overline {{L}} ^ {2 / 3} \overline {{K}} ^ {1 / 3} = \bar {d} \overline {{K}}
+\bar {s} \overline {{A}} \overline {{L}}^{2 / 3} \overline {{K}}^{1 / 3} = \bar {d} \overline {{K}}
 $$
 $$
-\overline {{K}} = \left(\frac {\overline {{s}} \overline {{A}}}{\overline {{d}}}\right) ^ {3 / 2} \overline {{L}}
+\overline {{K}} = \left(\frac{\overline {{s}} \overline {{A}}}{\overline {{d}}}\right)^{3 / 2} \overline {{L}}
 $$
 # Output in the Solow Model
 - Output is given by:
 $$
-Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3}
+Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3}
 $$
 - When capital grows, so does output
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/6bd777e0a50013d023b8ad8a0812ab914d1e2a82f212db352956d96a7b5c6256.jpg)
@@ -3238,10 +3238,10 @@ Capital,  $K_{t}$
 # Consumption in the Solow Model
 - Consumption is given by:
 $$
-C _ {t} = Y _ {t} - I _ {t}
+C_{t} = Y_{t} - I_{t}
 $$
 $$
-\begin{array}{l} C _ {t} = (1 - \bar {s}) Y _ {t} \\ = (1 - \bar {s}) \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3} \\ \end{array}
+\begin{array}{l} C_{t} = (1 - \bar {s}) Y_{t} \\ = (1 - \bar {s}) \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3} \\ \end{array}
 $$
 - Also grows with capital stock
 Investment, depreciation, and output
@@ -3280,7 +3280,7 @@ $$
 $$
 - Steady state output:
 $$
-\overline {{Y}} = \overline {{A}} \overline {{L}} ^ {2 / 3} \overline {{K}} ^ {1 / 3}
+\overline {{Y}} = \overline {{A}} \overline {{L}}^{2 / 3} \overline {{K}}^{1 / 3}
 $$
 - Steady state investment:
 $$
@@ -3292,12 +3292,12 @@ $$
 \bar {C} = \bar {Y} - \bar {I}
 $$
 $$
-\bar {C} = \bar {A} \bar {L} ^ {2 / 3} \bar {K} ^ {1 / 3} - \bar {d} \bar {K}
+\bar {C} = \bar {A} \bar {L}^{2 / 3} \bar {K}^{1 / 3} - \bar {d} \bar {K}
 $$
 - To maximize consumption:
 - Differentiate with respect to  $\overline{K}$  and set to zero
 $$
-\begin{array}{l} \frac {1}{3} \bar {A} \bar {L} ^ {2 / 3} \bar {K} ^ {- 2 / 3} = \bar {d} \\ M P K = \bar {d} \\ \end{array}
+\begin{array}{l} \frac{1}{3} \bar {A} \bar {L}^{2 / 3} \bar {K}^{- 2 / 3} = \bar {d} \\ M P K = \bar {d} \\ \end{array}
 $$
 # Golden Rule Level of Capital
 Steady state Output, Investment
@@ -3326,7 +3326,7 @@ What does the Solow model teach us about long run growth?
 - Capital and output converge to a constant level in the Solow model
 - What feature of the model generates this result?
 $$
-K _ {t + 1} - K _ {t} = \bar {s} \bar {A} \bar {L} ^ {2 / 3} K _ {t} ^ {1 / 3} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} \bar {A} \bar {L}^{2 / 3} K_{t}^{1 / 3} - \bar {d} K_{t}
 $$
 # Diminishing Returns to Capital
 - Diminishing returns to investment in capital
@@ -3361,11 +3361,11 @@ The gap between the financing gap model and the actual outcome in Zambia
 # Population Growth in Solow Model
 What if we have population growth?
 $$
-L _ {t + 1} = L _ {t} (1 + \bar {n})
+L_{t + 1} = L_{t} (1 + \bar {n})
 $$
 - Then we have:
 $$
-\begin{array}{l} K _ {t + 1} - K _ {t} = \bar {s} Y _ {t} - \bar {d} K _ {t} \\ Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3} \\ \end{array}
+\begin{array}{l} K_{t + 1} - K_{t} = \bar {s} Y_{t} - \bar {d} K_{t} \\ Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3} \\ \end{array}
 $$
 (same as before except  $L_{t}$  as opposed to  $\overline{L}$ )
 - How do we solve the model in this case?
@@ -3376,37 +3376,37 @@ $$
 - Write entire model in terms of per capita variables
 - Let's do this for the production function:
 $$
-Y _ {t} = \bar {A} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3}
+Y_{t} = \bar {A} K_{t}^{1 / 3} L_{t}^{2 / 3}
 $$
 It becomes:
-$$ y _ {t} = \bar {A} k _ {t} ^ {1 / 3}
+$$ y_{t} = \bar {A} k_{t}^{1 / 3}
 $$ where lower case letters denote per capita (e.g.,  $y_{t} = Y_{t} / L_{t}$ )
 # Solving the Model with Pop Growth
 - Capital accumulation:
 $$
-K _ {t + 1} - K _ {t} = \bar {s} Y _ {t} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} Y_{t} - \bar {d} K_{t}
 $$
 - Divide by  $L_{t}$ :
 $$
-\frac {K _ {t + 1}}{L _ {t}} - \frac {K _ {t}}{L _ {t}} = \bar {s} \frac {Y _ {t}}{L _ {t}} - \bar {d} \frac {K _ {t}}{L _ {t}}
+\frac{K_{t + 1}}{L_{t}} - \frac{K_{t}}{L_{t}} = \bar {s} \frac{Y_{t}}{L_{t}} - \bar {d} \frac{K_{t}}{L_{t}}
 $$
 - Problem: What do we do about  $K_{t + 1} / L_t$ ?
 # Solving the Model with Pop Growth
 - Multiply and divide by  $L_{t + 1}$
 $$
-\frac {K _ {t + 1}}{L _ {t + 1}} \frac {L _ {t + 1}}{L _ {t}} - \frac {K _ {t}}{L _ {t}} = \bar {s} \frac {Y _ {t}}{L _ {t}} - \bar {d} \frac {K _ {t}}{L _ {t}}
+\frac{K_{t + 1}}{L_{t + 1}} \frac{L_{t + 1}}{L_{t}} - \frac{K_{t}}{L_{t}} = \bar {s} \frac{Y_{t}}{L_{t}} - \bar {d} \frac{K_{t}}{L_{t}}
 $$
 - Use population growth equation:
-$$ k _ {t + 1} (1 + \bar {n}) - k _ {t} = \bar {s} y _ {t} - \bar {d} k _ {t}
+$$ k_{t + 1} (1 + \bar {n}) - k_{t} = \bar {s} y_{t} - \bar {d} k_{t}
 $$
 - Subtract  $\bar{n} k_{t}$  from both sides
 $$
-(1 + \bar {n}) (k _ {t + 1} - k _ {t}) = \bar {s} y _ {t} - (\bar {d} + \bar {n}) k _ {t}
+(1 + \bar {n}) (k_{t + 1} - k_{t}) = \bar {s} y_{t} - (\bar {d} + \bar {n}) k_{t}
 $$
 # Per Capita Steady State
 - Finally, divide through by  $(1 + \bar{n})$
 $$
-(k _ {t + 1} - k _ {t}) = \frac {1}{1 + \bar {n}} \left[ \bar {s} y _ {t} - (\bar {d} + \bar {n}) k _ {t} \right]
+(k_{t + 1} - k_{t}) = \frac{1}{1 + \bar {n}} \left[ \bar {s} y_{t} - (\bar {d} + \bar {n}) k_{t} \right]
 $$
 - This yields a steady state for per capita variables
 - In steady state:
@@ -3414,42 +3414,42 @@ $$
 - What will growth rate of the level of output, capital and consumption be?
 # Steady State with Population Growth
 $$
-(k _ {t + 1} - k _ {t}) = \frac {1}{1 + \bar {n}} \left[ \bar {s} y _ {t} - (\bar {d} + \bar {n}) k _ {t} \right]
+(k_{t + 1} - k_{t}) = \frac{1}{1 + \bar {n}} \left[ \bar {s} y_{t} - (\bar {d} + \bar {n}) k_{t} \right]
 $$
 $$
-0 = \frac {1}{1 + \bar {n}} \left[ \bar {s} \bar {y} - (\bar {d} + \bar {n}) \bar {k} \right]
+0 = \frac{1}{1 + \bar {n}} \left[ \bar {s} \bar {y} - (\bar {d} + \bar {n}) \bar {k} \right]
 $$
 $$
-0 = \left[ \bar {s} \bar {A} \bar {k} ^ {1 / 3} - (\bar {d} + \bar {n}) \bar {k} \right]
+0 = \left[ \bar {s} \bar {A} \bar {k}^{1 / 3} - (\bar {d} + \bar {n}) \bar {k} \right]
 $$
 $$
-\overline {{k}} = \left(\frac {\overline {{s}} \overline {{A}}}{\overline {{d}} + \overline {{n}}}\right) ^ {3 / 2}
+\overline {{k}} = \left(\frac{\overline {{s}} \overline {{A}}}{\overline {{d}} + \overline {{n}}}\right)^{3 / 2}
 $$
-$$ y _ {t} = \bar {A} k _ {t} ^ {1 / 3}
-$$
-$$
-\bar {y} = \bar {A} \bar {k} ^ {1 / 3}
+$$ y_{t} = \bar {A} k_{t}^{1 / 3}
 $$
 $$
-\bar {y} = \left(\frac {\bar {s}}{\bar {d} + \bar {n}}\right) ^ {1 / 2} \bar {A} ^ {3 / 2}
+\bar {y} = \bar {A} \bar {k}^{1 / 3}
+$$
+$$
+\bar {y} = \left(\frac{\bar {s}}{\bar {d} + \bar {n}}\right)^{1 / 2} \bar {A}^{3 / 2}
 $$
 - How does population growth  $(\overline{n})$  affect steady state output and capital per capita? (Why?)
 # Growth in TFP
 - Let's add TFP growth as well:
 $$
-A _ {t + 1} = A _ {t} (1 + \bar {g})
+A_{t + 1} = A_{t} (1 + \bar {g})
 $$
 One more little change:
 $$
-Y _ {t} = A _ {t} ^ {2 / 3} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3}
+Y_{t} = A_{t}^{2 / 3} K_{t}^{1 / 3} L_{t}^{2 / 3}
 $$
 - Think of this as a change of units for  $A_{t}$  (simplifies algebra)
 - We also have:
 $$
-K _ {t + 1} - K _ {t} = \bar {s} Y _ {t} - \bar {d} K _ {t}
+K_{t + 1} - K_{t} = \bar {s} Y_{t} - \bar {d} K_{t}
 $$
 $$
-L _ {t + 1} = L _ {t} (1 + \bar {n})
+L_{t + 1} = L_{t} (1 + \bar {n})
 $$
 # How Do We Solve This Model?
 - Two things growing!
@@ -3457,19 +3457,19 @@ $$
 - Divide by variables that are growing:  $L_{t}A_{t}$
 - Capital and output per “effective” worker:
 $$
-\widehat {k} _ {t} = \frac {K _ {t}}{L _ {t} A _ {t}} \qquad \widehat {y} _ {t} = \frac {Y _ {t}}{L _ {t} A _ {t}}
+\widehat {k}_{t} = \frac{K_{t}}{L_{t} A_{t}} \qquad \widehat {y}_{t} = \frac{Y_{t}}{L_{t} A_{t}}
 $$
 # Write Model in Per Effective Worker Variables
 - Similar algebra as before yields:
 $$
-\hat {y} _ {t} = \hat {k} _ {t} ^ {1 / 3}
+\hat {y}_{t} = \hat {k}_{t}^{1 / 3}
 $$
 $$
-\widehat {k} _ {t + 1} - \widehat {k} _ {t} = \frac {1}{(1 + \bar {n}) (1 + \bar {g})} \Big [ \bar {s} \widehat {y} _ {t} - \Big (\bar {d} - 1 + (1 + \bar {n}) (1 + \bar {g}) \Big) \widehat {k} _ {t} \Big ]
+\widehat {k}_{t + 1} - \widehat {k}_{t} = \frac{1}{(1 + \bar {n}) (1 + \bar {g})} \Big [ \bar {s} \widehat {y}_{t} - \Big (\bar {d} - 1 + (1 + \bar {n}) (1 + \bar {g}) \Big) \widehat {k}_{t} \Big ]
 $$
 # Steady State per Effective Worker
 $$
-\hat {k} _ {t + 1} - \hat {k} _ {t} = \frac {1}{(1 + \bar {n}) (1 + \bar {g})} \left[ \bar {s} \hat {y} _ {t} - \left(\bar {d} - 1 + (1 + \bar {n}) (1 + \bar {g})\right) \hat {k} _ {t} \right]
+\hat {k}_{t + 1} - \hat {k}_{t} = \frac{1}{(1 + \bar {n}) (1 + \bar {g})} \left[ \bar {s} \hat {y}_{t} - \left(\bar {d} - 1 + (1 + \bar {n}) (1 + \bar {g})\right) \hat {k}_{t} \right]
 $$
 - Model has a steady state for capital and output "per effective workers"
 - In steady state:
@@ -3477,27 +3477,27 @@ $$
 - What about output per person?
 # Growth in Per Capita Income
 $$
-\hat {y} _ {t} = \frac {Y _ {t}}{A _ {t} L _ {t}}
+\hat {y}_{t} = \frac{Y_{t}}{A_{t} L_{t}}
 $$
 - Implies:
-$$ g _ {\hat {y} _ {t}} = g _ {Y / L} - g _ {A}
+$$ g_{\hat {y}_{t}} = g_{Y / L} - g_{A}
 $$
 $$
-0 = g _ {Y / L} - g _ {A}
+0 = g_{Y / L} - g_{A}
 $$
-$$ g _ {Y / L} = g _ {A}
+$$ g_{Y / L} = g_{A}
 $$
 # Growth Rates
 - On the last slide we used the following type of growth rate rule:
-$$ y _ {t} = a _ {t} k _ {t} ^ {a} l _ {t} ^ {1 - a}
+$$ y_{t} = a_{t} k_{t}^{a} l_{t}^{1 - a}
 $$
 $$
-\ln y _ {t} = \ln a _ {t} + a \ln k _ {t} + (1 - a) \ln l _ {t}
+\ln y_{t} = \ln a_{t} + a \ln k_{t} + (1 - a) \ln l_{t}
 $$
 $$
-\ln y _ {t} - \ln y _ {t - 1} = \ln a _ {t} - \ln a _ {t - 1} + a (\ln k _ {t} - \ln k _ {t - 1}) + (1 - a) (\ln l _ {t} - \ln l _ {t - 1})
+\ln y_{t} - \ln y_{t - 1} = \ln a_{t} - \ln a_{t - 1} + a (\ln k_{t} - \ln k_{t - 1}) + (1 - a) (\ln l_{t} - \ln l_{t - 1})
 $$
-$$ g _ {y} = g _ {a} + a g _ {k} + (1 - a) g _ {l}
+$$ g_{y} = g_{a} + a g_{k} + (1 - a) g_{l}
 $$
 - Where last step uses first order approx.:  $\ln x = \ln x_0 + \frac{x - x_0}{x_0}$
 # Exogenous Growth
@@ -3521,10 +3521,10 @@ Hong Kong  $7.3\%$
 - Young (1995): Tyranny of Numbers
 # Growth Accounting
 $$
-Y _ {t} = A _ {t} K _ {t} ^ {1 / 3} L _ {t} ^ {2 / 3}
+Y_{t} = A_{t} K_{t}^{1 / 3} L_{t}^{2 / 3}
 $$
 - Take logs and a first order approximation:
-$$ g _ {Y} = g _ {A} + \frac {1}{3} g _ {K} + \frac {2}{3} g _ {L}
+$$ g_{Y} = g_{A} + \frac{1}{3} g_{K} + \frac{2}{3} g_{L}
 $$
 - Where  $g$ 's denote growth rates
 - We can measure  $g_{y}, g_{K}$ , and  $g_{L}$
@@ -3597,7 +3597,7 @@ Macroeconomics, 2nd Ed
 Copyright © 2011 W. W. Norton & Company, Inc.
 # Convergence in the Solow Model
 $$
-\bar {y} = \left(\frac {\bar {s}}{\bar {d} + \bar {n}}\right) ^ {1 / 2} \bar {A} ^ {3 / 2}
+\bar {y} = \left(\frac{\bar {s}}{\bar {d} + \bar {n}}\right)^{1 / 2} \bar {A}^{3 / 2}
 $$
 - Output should converge if  $\bar{s}, \bar{d}, \bar{n}, \bar{A}$  are the same
 - Perhaps this is more true for OECD countries than countries more generally
@@ -3622,7 +3622,7 @@ OECD countries 1960-2000
 (Barro and Sala-I-Martin, 1999, Economic Growth)
 # Conditional Convergence
 $$
-\bar {y} = \left(\frac {\bar {s}}{\bar {d} + \bar {n}}\right) ^ {1 / 2} \bar {A} ^ {3 / 2}
+\bar {y} = \left(\frac{\bar {s}}{\bar {d} + \bar {n}}\right)^{1 / 2} \bar {A}^{3 / 2}
 $$
 What if  $\bar{s}, \bar{d}, \bar{n}, \bar{A}$  are not the same?
 - We can control for differences in  $\bar{s}, \bar{d}, \bar{n}, \bar{A}$
@@ -3685,7 +3685,7 @@ We need to specify a production function for each of these
 # Production of Goods
 - Very simple production function for goods:
 $$
-Y _ {t} = A _ {t} L _ {y t}
+Y_{t} = A_{t} L_{y t}
 $$
 - Goods produced with labor and knowledge (ignore capital and land for simplicity)
 - Assume good production is constant returns to scale in labor, i.e., constant returns in objects
@@ -3694,7 +3694,7 @@ $$
 # Returns to Scale
 - Since production of goods is constant returns to objects, it is increasing returns to objects + ideas
 $$
-\begin{array}{l} F (2 K, 2 L, 2 A) = 2 A (2 K) ^ {1 / 3} (2 L) ^ {2 / 3} = 2 \cdot 2 ^ {1 / 3} \cdot 2 ^ {2 / 3} \cdot A K ^ {1 / 3} L ^ {2 / 3} \\ = 4 \cdot A K ^ {1 / 3} L ^ {2 / 3} = 4 \cdot F (K, L, A). \\ \end{array}
+\begin{array}{l} F (2 K, 2 L, 2 A) = 2 A (2 K)^{1 / 3} (2 L)^{2 / 3} = 2 \cdot 2^{1 / 3} \cdot 2^{2 / 3} \cdot A K^{1 / 3} L^{2 / 3} \\ = 4 \cdot A K^{1 / 3} L^{2 / 3} = 4 \cdot F (K, L, A). \\ \end{array}
 $$
 - Growth in ideas outside logic of replication argument
 - Replication argument: constant returns to objects
@@ -3702,7 +3702,7 @@ $$
 # Production of Ideas
 - Production function for ideas
 $$
-A _ {t + 1} - A _ {t} = \theta L _ {a t} A _ {t}
+A_{t + 1} - A_{t} = \theta L_{a t} A_{t}
 $$
 - New ideas are produced with labor and existing ideas
 - "Standing on the shoulders of giants" view of knowledge production
@@ -3717,56 +3717,56 @@ $$
 # Population Growth
 - We assume that the population growth at a constant rate
 $$
-N _ {t + 1} - N _ {t} = \bar {n} N _ {t}
+N_{t + 1} - N_{t} = \bar {n} N_{t}
 $$
 - Dividing through by  $N_{t}$  yields
 $$
-\frac {N _ {t + 1} - N _ {t}}{N _ {t}} = \bar {n}
+\frac{N_{t + 1} - N_{t}}{N_{t}} = \bar {n}
 $$
-$$ g _ {N} = \bar {n}
+$$ g_{N} = \bar {n}
 $$
 # Romer Model
 1. Production of goods:
 $$
-Y _ {t} = A _ {t} L _ {y t}
+Y_{t} = A_{t} L_{y t}
 $$
 2. Production of ideas:
 $$
-A _ {t + 1} - A _ {t} = \theta L _ {a t} A _ {t}
+A_{t + 1} - A_{t} = \theta L_{a t} A_{t}
 $$
 3. Labor supply:
 $$
-L _ {a t} + L _ {y t} = N _ {t}
+L_{a t} + L_{y t} = N_{t}
 $$
 4. Allocation of labor:
 $$
-L _ {a t} = \overline {{\ell}} N _ {t}
+L_{a t} = \overline {{\ell}} N_{t}
 $$
 5. Population growth:
-$$ g _ {N} = \overline {{n}}
+$$ g_{N} = \overline {{n}}
 $$
 # Solving Romer Model
 - Notice that  $L_{at} + L_{yt} = N_t$  and  $L_{at} = \overline{\ell} N_t$  imply
 $$
-L _ {y t} = (1 - \overline {{\ell}}) N _ {t}
+L_{y t} = (1 - \overline {{\ell}}) N_{t}
 $$
 - Combining this with the production function  $Y_{t} = A_{t} L_{y t}$  yields
 $$
-Y _ {t} = A _ {t} (1 - \overline {{\ell}}) N _ {t} \Rightarrow y _ {t} = \frac {Y _ {t}}{N _ {t}} = (1 - \overline {{\ell}}) A _ {t}
+Y_{t} = A_{t} (1 - \overline {{\ell}}) N_{t} \Rightarrow y_{t} = \frac{Y_{t}}{N_{t}} = (1 - \overline {{\ell}}) A_{t}
 $$
 - Applying growth rate formulas then yields  $g_{y} = g_{A}$
 # Solving Romer Model
 - Consider the production function for knowledge:
 $$
-A _ {t + 1} - A _ {t} = \theta L _ {a t} A _ {t} \quad \Rightarrow \quad g _ {A} = \frac {A _ {t + 1} - A _ {t}}{A _ {t}} = \theta \overline {{\ell}} N _ {t}
+A_{t + 1} - A_{t} = \theta L_{a t} A_{t} \quad \Rightarrow \quad g_{A} = \frac{A_{t + 1} - A_{t}}{A_{t}} = \theta \overline {{\ell}} N_{t}
 $$
 - We thus have that
-$$ g _ {y} = g _ {A} = \theta \overline {{\ell}} N _ {t}
+$$ g_{y} = g_{A} = \theta \overline {{\ell}} N_{t}
 $$
 - This model generates long run growth!
 - Long-run growth rate proportional to the size of the population
 # Scale Effects I
-$$ g _ {y} = g _ {A} = \theta \overline {{\ell}} N _ {t}
+$$ g_{y} = g_{A} = \theta \overline {{\ell}} N_{t}
 $$
 
 As the population grows, output growth should rise
@@ -3778,7 +3778,7 @@ As the population grows, output growth should rise
 Table 1: World Population from 1,000,000 BCE to 1500 CE
 <table><tr><td>Year</td><td>Population</td><td>Growth Rate</td></tr><tr><td>-1,000,000</td><td>0.125</td><td>-</td></tr><tr><td>-300,000</td><td>1</td><td>0.000003</td></tr><tr><td>-25,000</td><td>3.34</td><td>0.000004</td></tr><tr><td>-10,000</td><td>4</td><td>0.00003</td></tr><tr><td>-5,000</td><td>5</td><td>0.00005</td></tr><tr><td>-1,000</td><td>50</td><td>0.0006</td></tr><tr><td>1</td><td>170</td><td>0.001</td></tr><tr><td>600</td><td>200</td><td>0.0003</td></tr><tr><td>1000</td><td>265</td><td>0.0007</td></tr><tr><td>1200</td><td>360</td><td>0.002</td></tr><tr><td>1500</td><td>425</td><td>0.0006</td></tr></table>
 # Scale Effects II
-$$ g _ {y} = \theta \overline {{\ell}} N _ {t}
+$$ g_{y} = \theta \overline {{\ell}} N_{t}
 $$
 - Implies that a doubling of the population should lead to a doubling of output growth
 - Actually about research effort
@@ -3791,21 +3791,21 @@ Source: Bloom, Jones, Van Reene, Webb (2020)
 - Scale effects in Romer model way too strong
 - Jones (1995) points this out and argues for alternative production function for knowledge
 $$
-A _ {t + 1} - A _ {t} = \theta L _ {a t} A _ {t} ^ {\phi}
+A_{t + 1} - A_{t} = \theta L_{a t} A_{t}^{\phi}
 $$
 Romer assumes  $\phi = 1$
 - Jones (1995) argues  $\phi < 1$
 # Jones Model
 $$
-A _ {t + 1} - A _ {t} = \theta L _ {a t} A _ {t} ^ {\phi} \Rightarrow g _ {A} = \frac {A _ {t + 1} - A _ {t}}{A _ {t}} = \theta \overline {{\ell}} N _ {t} A _ {t} ^ {\phi - 1}
+A_{t + 1} - A_{t} = \theta L_{a t} A_{t}^{\phi} \Rightarrow g_{A} = \frac{A_{t + 1} - A_{t}}{A_{t}} = \theta \overline {{\ell}} N_{t} A_{t}^{\phi - 1}
 $$
 - Suppose we take growth rates of this last equation
 - If  $g_{A}$  is constant, then its growth rate is zero. So, we have:
 $$
-0 = g _ {N} + (\phi - 1) g _ {A}
+0 = g_{N} + (\phi - 1) g_{A}
 $$
 - Rearranging then yields:
-$$ g _ {y} = g _ {A} = \frac {\bar {n}}{1 - \phi}
+$$ g_{y} = g_{A} = \frac{\bar {n}}{1 - \phi}
 $$
 - Long-run growth in  $y_{t} = Y_{t} / N_{t}$  is proportional to population growth
 # Will Growth Peter Out?
@@ -3957,18 +3957,18 @@ Policies, Rule of Law, Corruption  $\Rightarrow$  Human Capital, Physical Capita
 # Development Accounting
 - Production function for country  $i$ :
 $$
-Y _ {i} = A _ {i} ^ {1 - a} K _ {i} ^ {a} H _ {i} ^ {1 - a}
+Y_{i} = A_{i}^{1 - a} K_{i}^{a} H_{i}^{1 - a}
 $$
 - Human capital:  $H_{i} = h_{i} L_{i}$
 - Human capital per person:  $h_i$  (often proxied by years of schooling)
 - Raw labor:  $L_{i}$  (workers or hours of labor)
 - Divide by  $Y_{i}^{a}$  and then raise both sides to power  $1 / (1 - a)$ :
 $$
-Y _ {i} ^ {1 - a} = A _ {i} ^ {1 - a} \left(\frac {K _ {i}}{Y _ {i}}\right) ^ {a} H _ {i} ^ {1 - a} \rightarrow Y _ {i} = A _ {i} \left(\frac {K _ {i}}{Y _ {i}}\right) ^ {\frac {a}{1 - a}} H _ {i}
+Y_{i}^{1 - a} = A_{i}^{1 - a} \left(\frac{K_{i}}{Y_{i}}\right)^{a} H_{i}^{1 - a} \rightarrow Y_{i} = A_{i} \left(\frac{K_{i}}{Y_{i}}\right)^{\frac{a}{1 - a}} H_{i}
 $$
 # Development Accounting
 - Divide through by  $L_{i}$ :
-$$ y _ {i} = A _ {i} \left(\frac {K _ {i}}{Y _ {i}}\right) ^ {\frac {a}{1 - a}} h _ {i}
+$$ y_{i} = A_{i} \left(\frac{K_{i}}{Y_{i}}\right)^{\frac{a}{1 - a}} h_{i}
 $$
 - Decomposes output per worker  $y_{i}$  into
 - Productivity:  $A_{i}$
@@ -3976,7 +3976,7 @@ $$
 - Human capital per worker:  $h_{i}$
 - Development accounting asks how much of differences in output per worker are due to each of these three factors
 # Development Accounting
-$$ y _ {i} = A _ {i} \left(\frac {K _ {i}}{Y _ {i}}\right) ^ {\frac {a}{1 - a}} h _ {i}
+$$ y_{i} = A_{i} \left(\frac{K_{i}}{Y_{i}}\right)^{\frac{a}{1 - a}} h_{i}
 $$
 - Penn World Tables dataset gathers data on:
 - Output:  $Y_{i}$
@@ -4186,7 +4186,7 @@ Where there was little wealth and few people it made less sense to try to “ext
 - Disease environment 200 years back affects outcomes today through institutions
 # AJR's Theory
 (potential) settler mortality  $\Rightarrow$  settlements
-$\Rightarrow \begin{array}{c} \text {early} \\ \text {institutions} \end{array} \Rightarrow \begin{array}{c} \text {current} \\ \text {institutions} \end{array}$
+$\Rightarrow \begin{array}{c} \text{early} \\ \text{institutions} \end{array} \Rightarrow \begin{array}{c} \text{current} \\ \text{institutions} \end{array}$
 $\Rightarrow$  current performance.
 # Settler Mortality as an Instrument
 - AJR propose to use settler mortality as an instrument for current institutions
@@ -4453,7 +4453,7 @@ Gold and Silver were dominant forms of money for many centuries. Why?
 # Demand for Money
 - People's demand for money (gold coins) is proportional to the nominal value of output:
 $$
-M _ {t} = k P _ {t} Y _ {t}
+M_{t} = k P_{t} Y_{t}
 $$
 - $Y_{t}$  is real value of output
 - $P_{t}$  is the price level
@@ -4461,7 +4461,7 @@ $$
 - $P_{t} Y_{t}$  is the nominal value of output
 # Demand for Money
 $$
-M _ {t} = k P _ {t} Y _ {t}
+M_{t} = k P_{t} Y_{t}
 $$
 - Our money demand curve is motivated by the following ideas:
 - Amount of money people hold is increasing in nominal value of transactions they engage in
@@ -4472,14 +4472,14 @@ $$
 - Define:  $V = \frac{1}{k}$
 We can rewrite the money market equilibrium:
 $$
-M _ {t} = k P _ {t} Y _ {t} \Rightarrow M _ {t} V = P _ {t} Y _ {t}
+M_{t} = k P_{t} Y_{t} \Rightarrow M_{t} V = P_{t} Y_{t}
 $$
 - Velocity of money:
 - "Number of times each gold coin must change hands per year" (catchy but overly simplistic idea)
 This is called the "Quantity Equation"
 # What Determines Velocity?
 $$
-M _ {t} V = P _ {t} Y _ {t}
+M_{t} V = P_{t} Y_{t}
 $$
 - Initially we assume velocity is constant
 - More generally velocity determined by:
@@ -4496,7 +4496,7 @@ Opportunity cost of holding money (interest rate)
 - Country has no gold mines
 # Two Perspectives
 $$
-M _ {t} V = P _ {t} Y _ {t}
+M_{t} V = P_{t} Y_{t}
 $$
 1. Household perspective:
 - $M_{t}$  is a choice. Each household chooses how much money to hold as a function of nominal value of output
@@ -4511,7 +4511,7 @@ Money market equilibrium
 - Pub, bakery, potato farm, shoe shop, etc.
 - Production function:
 $$
-Y _ {t} = A L _ {t}
+Y_{t} = A L_{t}
 $$
 - Constant returns to scale
 - For simplicity, labor is only a factor of production
@@ -4540,7 +4540,7 @@ They decide to adjust prices a bit:
 - Demand "too" high => raise prices somewhat
 - Demand "too" low => lower prices somewhat
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {L _ {t}}{L ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{L_{t}}{L^{*}}\right)^{\theta}
 $$
 - $\theta$  captures speed of price adjustment
 # Reasons for Stickiness of Prices
@@ -4561,34 +4561,34 @@ Figure 1: Price of Nabisco Premium Saltines (16 oz)
 # Model of Medieval Economy
 Money Market Equilibrium:
 $$
-M _ {t} V = P _ {t} Y _ {t}
+M_{t} V = P_{t} Y_{t}
 $$
 - Production:
 $$
-Y _ {t} = A L _ {t}
+Y_{t} = A L_{t}
 $$
 - Price Adjustment:
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {L _ {t}}{L ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{L_{t}}{L^{*}}\right)^{\theta}
 $$
 # Simplifying the Model
 - Let's get rid of  $L_{t}$  to simplify the model
 - Desired level of production:
 $$
-Y ^ {*} = A L ^ {*}
+Y^{*} = A L^{*}
 $$
 - Use production function (and desired version) to eliminate  $L_{t}$  and  $L^{*}$  from price adjustment equation:
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta}
 $$
 # Model of Medieval Economy
 Money Market Equilibrium:
 $$
-M _ {t} V = P _ {t} Y _ {t}
+M_{t} V = P_{t} Y_{t}
 $$
 - Price Adjustment:
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta}
 $$
 - Endogenous variables:  $Y_{t}$  and  $P_{t}$
 - Exogenous variables:  $M_{t}$
@@ -4621,18 +4621,18 @@ What happens to the economy?
 - Suppose  $M_{t} = M$  and has been for a long time
 - Steady state: Nothing changing over time
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta} \mathrm {b e c o m e s} 1 = \left(\frac {Y}{Y ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta} \mathrm{be co me s} 1 = \left(\frac{Y}{Y^{*}}\right)^{\theta}
 $$
 - Steady state output:
 $$
-Y = Y ^ {*}
+Y = Y^{*}
 $$
 Equal to desired level of output
 # Steady State Before Viking Voyage
 - Steady state output  $Y = Y^{*}$
 What about steady state price level?
 $$
-M V = P Y ^ {*} \rightarrow P = \frac {M V}{Y ^ {*}}
+M V = P Y^{*} \rightarrow P = \frac{M V}{Y^{*}}
 $$
 - Notice that we have solved for  $Y$  and  $P$  as a function of exogenous variables
 # Viking Voyage Raises Money Supply
@@ -4640,15 +4640,15 @@ $$
 - Eventually gravitates to a new steady state
 - Same math as before yields:
 $$
-\widetilde {Y} = Y ^ {*} \quad \mathrm {a n d} \quad \widetilde {P} = \frac {\widetilde {M} V}{Y ^ {*}}
+\widetilde {Y} = Y^{*} \quad \mathrm{an d} \quad \widetilde {P} = \frac{\widetilde {M} V}{Y^{*}}
 $$
 - Difference in price level in steady states:
 $$
-\frac {\tilde {P}}{P} = \frac {\tilde {M}}{M}
+\frac{\tilde {P}}{P} = \frac{\tilde {M}}{M}
 $$
 # Long-Run Change in Prices
 $$
-\frac {\tilde {P}}{P} = \frac {\tilde {M}}{M} \qquad \tilde {Y} = Y = Y ^ {*}
+\frac{\tilde {P}}{P} = \frac{\tilde {M}}{M} \qquad \tilde {Y} = Y = Y^{*}
 $$
 In the long run:
 - Prices rise proportionately with the money supply
@@ -4666,66 +4666,66 @@ Classical Dichotomy: Change in the money supply leaves output unchanged in the l
 # What About the Short Run?
 - For dynamics, convenient to take logs:
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t} \quad \mathrm {a n d} \quad \frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta}
+M_{t} \bar {V} = P_{t} Y_{t} \quad \mathrm{an d} \quad \frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta}
 $$ become
 $$
-\ln M _ {t} + \ln \bar {V} = \ln P _ {t} + \ln Y _ {t}
+\ln M_{t} + \ln \bar {V} = \ln P_{t} + \ln Y_{t}
 $$
 $$
-\ln P _ {t + 1} - \ln P _ {t} = \theta (\ln Y _ {t} - \ln Y ^ {*})
+\ln P_{t + 1} - \ln P_{t} = \theta (\ln Y_{t} - \ln Y^{*})
 $$
 - Notice that model is linear in logs
 # Quantity Equation in Changes
 - Useful to write quantity equation in changes
 $$
-\ln M _ {t} + \ln V = \ln P _ {t} + \ln Y _ {t}
+\ln M_{t} + \ln V = \ln P_{t} + \ln Y_{t}
 $$
 $$
-\ln M _ {t} - \ln M _ {t - 1} + \ln V - \ln V = \ln P _ {t} - \ln P _ {t - 1} + \ln Y _ {t} - \ln Y _ {t - 1}
+\ln M_{t} - \ln M_{t - 1} + \ln V - \ln V = \ln P_{t} - \ln P_{t - 1} + \ln Y_{t} - \ln Y_{t - 1}
 $$
 $$
-\Delta \ln M _ {t} = \Delta \ln P _ {t} + \Delta \ln Y _ {t}
+\Delta \ln M_{t} = \Delta \ln P_{t} + \Delta \ln Y_{t}
 $$
 $$
-- \text {W h e r e} \Delta \ln M _ {t} = \ln M _ {t} - \ln M _ {t - 1}
+- \text{Wh er e} \Delta \ln M_{t} = \ln M_{t} - \ln M_{t - 1}
 $$
 - Notice that  $\ln V - \ln V = 0$
 # Day Before Arrival of Gold
 - Suppose Vikings arrive at  $t = 0$ .
 - In period  $t = -1$ , economy is in old steady state:
 $$
-\ln Y _ {- 1} = \ln Y ^ {*}
+\ln Y_{- 1} = \ln Y^{*}
 $$
 $$
-\ln P _ {- 1} = \ln M + \ln V - \ln Y ^ {*}
+\ln P_{- 1} = \ln M + \ln V - \ln Y^{*}
 $$
 Evening before Viking arrive:
 - Producers set prices for next day:
 $$
-\ln P _ {0} - \ln P _ {- 1} = \theta (\ln Y _ {- 1} - \ln Y ^ {*})
+\ln P_{0} - \ln P_{- 1} = \theta (\ln Y_{- 1} - \ln Y^{*})
 $$
 $$
-\ln P _ {0} = \ln P _ {- 1}
+\ln P_{0} = \ln P_{- 1}
 $$
 - i.e., no change in prices (nothing has happened yet)
 # Day Gold Arrives
 $$
-\Delta \ln M _ {0} = \Delta \ln P _ {0} + \Delta \ln Y _ {0}
+\Delta \ln M_{0} = \Delta \ln P_{0} + \Delta \ln Y_{0}
 $$
 - But we know from before that
 $$
-\Delta \ln P _ {0} = \ln P _ {0} - \ln P _ {- 1} = 0
+\Delta \ln P_{0} = \ln P_{0} - \ln P_{- 1} = 0
 $$
 (Producers didn’t change their prices for that day)
 So, we have that:
 $$
-\Delta \ln M _ {0} = \Delta \ln Y _ {0}
+\Delta \ln M_{0} = \Delta \ln Y_{0}
 $$
 - Initially, output increases as much as the money supply
 # Day Gold Arrives
 - Recall that
 $$
-\Delta \ln M _ {t} \cong \frac {M _ {t} - M _ {t - 1}}{M _ {t - 1}}
+\Delta \ln M_{t} \cong \frac{M_{t} - M_{t - 1}}{M_{t - 1}}
 $$
 - i.e., log change is approximately equal to percentage change (for small changes)
 - So, percentage change in output is the same as for money supply initially
@@ -4735,48 +4735,48 @@ $$
 - Demand was higher than they expected
 - They had to work more than they expected/wanted
 $$
-Y _ {0} > Y ^ {*} \quad (L _ {0} > L ^ {*})
+Y_{0} > Y^{*} \quad (L_{0} > L^{*})
 $$
 - Producers are not sure why:
 - Perhaps a temporary thing
 — Perhaps Vikings brought back more gold
 - Producers decide to adjust partially:
 $$
-\ln P _ {1} - \ln P _ {0} = \theta (\ln Y _ {0} - \ln Y ^ {*})
+\ln P_{1} - \ln P_{0} = \theta (\ln Y_{0} - \ln Y^{*})
 $$
 # Next Day
 - Prices higher than before:
 $$
-\begin{array}{l} \ln P _ {1} - \ln P _ {0} = \theta (\ln Y _ {0} - \ln Y ^ {*}) \\ = \theta \Delta \ln M _ {0} \\ \end{array}
+\begin{array}{l} \ln P_{1} - \ln P_{0} = \theta (\ln Y_{0} - \ln Y^{*}) \\ = \theta \Delta \ln M_{0} \\ \end{array}
 $$
 Now use money market equation to solve for output at  $t = 1$ :
 $$
-\Delta \ln M _ {1} = \Delta \ln P _ {1} + \Delta \ln Y _ {1}
+\Delta \ln M_{1} = \Delta \ln P_{1} + \Delta \ln Y_{1}
 $$
 $$
-\Delta \ln Y _ {1} = - \theta \Delta \ln M _ {0}
+\Delta \ln Y_{1} = - \theta \Delta \ln M_{0}
 $$
 $$
-\left(\Delta \ln M _ {1} = 0 \text {s i n c e n o m o r e g o l d a r r i v e s o n d a y 1}\right)
+\left(\Delta \ln M_{1} = 0 \text{si nc en om or eg ol da rr iv es on da y1}\right)
 $$
 # Next Day
 $$
-\Delta \ln Y _ {1} = - \theta \Delta \ln M _ {0}
+\Delta \ln Y_{1} = - \theta \Delta \ln M_{0}
 $$
 - Since prices rise, output starts falling back to normal level
 - This was the intention of the price setters
 - But output is still above  $Y^{*}$
 $$
-\begin{array}{l} \ln Y _ {1} - \ln Y ^ {*} = \Delta \ln Y _ {1} + \Delta \ln Y _ {0} \\ = - \theta \Delta \ln M _ {0} + \Delta \ln M _ {0} \\ = (1 - \theta) \ln M _ {0} \\ \end{array}
+\begin{array}{l} \ln Y_{1} - \ln Y^{*} = \Delta \ln Y_{1} + \Delta \ln Y_{0} \\ = - \theta \Delta \ln M_{0} + \Delta \ln M_{0} \\ = (1 - \theta) \ln M_{0} \\ \end{array}
 $$
 - Producers again want to raise their prices
 # Dynamics over Time
 - We can use equations:
 $$
-\ln M _ {t} + \ln \bar {V} = \ln P _ {t} + \ln Y _ {t}
+\ln M_{t} + \ln \bar {V} = \ln P_{t} + \ln Y_{t}
 $$
 $$
-\ln P _ {t + 1} - \ln P _ {t} = \theta (\ln Y _ {t} - \ln Y ^ {*})
+\ln P_{t + 1} - \ln P_{t} = \theta (\ln Y_{t} - \ln Y^{*})
 $$ to trace out dynamics over time
 # Dynamics of Economy after Bounty Arrives
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/f31e90518d025f9c17238745e9c305709a8cd47b9813fcde04e2a6905bf6d265.jpg)
@@ -4928,7 +4928,7 @@ Figure 8: An Estimate of the Consumer Price Index in the U.S. and Britain, 1870-
 1. Started off with a price level that was high because of war time inflation (i.e., doubt about value of Greenbacks). Resumption raise value of Greenbacks.
 2. Period of high economic growth. Production of gold didn’t keep up with increase in demand for gold
 $$
-\Delta \log P _ {t} = \Delta \log M _ {t} - \Delta \log Y _ {t}
+\Delta \log P_{t} = \Delta \log M_{t} - \Delta \log Y_{t}
 $$
 # Politics of U.S. Gold Standard
 - Persistent deflation. Largely unanticipated.
@@ -4960,7 +4960,7 @@ Figure 8: An Estimate of the Consumer Price Index in the U.S. and Britain, 1870-
 # Lesson About Gold Standard
 - Under the gold standard, inflation is dictated by world production of gold (supply of gold) relative growth in world economy (demand for gold as money) and other demand for gold
 $$
-\Delta \log P _ {t} = \Delta \log M _ {t} - \Delta \log Y _ {t}
+\Delta \log P_{t} = \Delta \log M_{t} - \Delta \log Y_{t}
 $$
 - This will not necessarily result in price stability
 - Not clear why we want supply of gold to dictate inflation
@@ -5085,23 +5085,23 @@ C: Currency
 - $D$ : Deposits
 - Monetary base:
 $$
-M _ {b} = C + R
+M_{b} = C + R
 $$
 - $M_{b}$ : Monetary base
 C: Currency
 - $R$ : Reserves
 $$
-\frac {M}{M _ {b}} = \frac {C + D}{C + R}
+\frac{M}{M_{b}} = \frac{C + D}{C + R}
 $$
 $$
-\frac {M}{M _ {b}} = \frac {C / D + 1}{C / D + R / D}
+\frac{M}{M_{b}} = \frac{C / D + 1}{C / D + R / D}
 $$
 $$
-M = \frac {C / D + 1}{C / D + R / D} M _ {b} = B _ {m} M _ {b}
+M = \frac{C / D + 1}{C / D + R / D} M_{b} = B_{m} M_{b}
 $$
 # Money Multiplier
 $$
-M = \frac {C / D + 1}{C / D + R / D} M _ {b} = B _ {m} M _ {b}
+M = \frac{C / D + 1}{C / D + R / D} M_{b} = B_{m} M_{b}
 $$
 - $B_{m}$  is the money multiplier
 - Starting with  $M_{b}$ , banking system multiplies money supply by  $B_{m}$  through fractional reserve lending
@@ -5380,7 +5380,7 @@ Economists set themselves too easy, too useless a task if in tempestuous seasons
 - We think of trend output as "potential output" or the "natural rate of output". Let's denote this as  $\bar{Y}_{t}$ .
 - We define the output gap as percentage deviations of output from potential output
 $$
-\tilde {Y} _ {t} = \frac {Y _ {t} - \bar {Y} _ {t}}{\bar {Y} _ {t}} \approx \log \left(\frac {Y _ {t}}{\bar {Y} _ {t}}\right)
+\tilde {Y}_{t} = \frac{Y_{t} - \bar {Y}_{t}}{\bar {Y}_{t}} \approx \log \left(\frac{Y_{t}}{\bar {Y}_{t}}\right)
 $$
 # The Trend: Potential Output
 - Here I plot output (real GDP) and potential output as estimated by the Congressional Budget Office
@@ -5395,11 +5395,11 @@ These differences are recessions and booms
 - Medieval Economy:
 - Money market equilibrium:
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t}
+M_{t} \bar {V} = P_{t} Y_{t}
 $$
 - Price Adjustment:
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta}
 $$
 - Many things missing:
 - No trend growth
@@ -5419,55 +5419,55 @@ Actual output:  $Y_{t} = A_{t} L_{t}$
 # Medieval Economy with Trend Growth
 - Medieval economy without trend growth
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t} \frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y ^ {*}}\right) ^ {\theta}
+M_{t} \bar {V} = P_{t} Y_{t} \frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y^{*}}\right)^{\theta}
 $$
 - Medieval economy with trend growth
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t} \frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y _ {t} ^ {*}}\right) ^ {\theta}
+M_{t} \bar {V} = P_{t} Y_{t} \frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y_{t}^{*}}\right)^{\theta}
 $$
 - Only difference is that  $Y^{*}$  becomes  $Y_{t}^{*}$
 # Business Cycle Model
 - Can we use concepts of supply and demand to think about the Medieval economy model?
 - Let's start with the money market equilibrium condition:
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t}
+M_{t} \bar {V} = P_{t} Y_{t}
 $$
 - Take logs and time differences:
 $$
-\Delta \log M _ {t} = \Delta \log P _ {t} + \Delta \log Y _ {t}
+\Delta \log M_{t} = \Delta \log P_{t} + \Delta \log Y_{t}
 $$
 # Money Market Equilibrium
 $$
-\Delta \log M _ {t} = \Delta \log P _ {t} + \Delta \log Y _ {t}
+\Delta \log M_{t} = \Delta \log P_{t} + \Delta \log Y_{t}
 $$
 
 Inflation:
 
 $$
-\Delta \log P _ {t} = \log \left(\frac {P _ {t}}{P _ {t - 1}}\right) = \log (1 + \pi_ {t}) \approx \pi_ {t}
+\Delta \log P_{t} = \log \left(\frac{P_{t}}{P_{t - 1}}\right) = \log (1 + \pi_{t}) \approx \pi_{t}
 $$
 - Output gap:
 $$
-\begin{array}{l} \Delta \log Y _ {t} = \log Y _ {t} - \log Y _ {t - 1} + \log \bar {Y} _ {t} - \log \bar {Y} _ {t} + \log \bar {Y} _ {t - 1} - \log \bar {Y} _ {t - 1} \\ = \log (Y _ {t} / \bar {Y} _ {t}) - \log (Y _ {t - 1} / \bar {Y} _ {t - 1}) + \log (\bar {Y} _ {t} / \bar {Y} _ {t - 1}) \\ \approx \tilde {Y} _ {t} - \tilde {Y} _ {t - 1} \\ \end{array}
+\begin{array}{l} \Delta \log Y_{t} = \log Y_{t} - \log Y_{t - 1} + \log \bar {Y}_{t} - \log \bar {Y}_{t} + \log \bar {Y}_{t - 1} - \log \bar {Y}_{t - 1} \\ = \log (Y_{t} / \bar {Y}_{t}) - \log (Y_{t - 1} / \bar {Y}_{t - 1}) + \log (\bar {Y}_{t} / \bar {Y}_{t - 1}) \\ \approx \tilde {Y}_{t} - \tilde {Y}_{t - 1} \\ \end{array}
 $$
 
 This yields:
 
 $$
-\Delta \log M _ {t} = \pi_ {t} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1}
+\Delta \log M_{t} = \pi_{t} + \tilde {Y}_{t} - \tilde {Y}_{t - 1}
 $$
 
 We drop this term. Think of it as a constant that doesn't contribute anything interesting to the analysis
 
 # Money Market Equilibrium as Aggregate Demand
 $$
-\Delta \log M _ {t} = \pi_ {t} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1}
+\Delta \log M_{t} = \pi_{t} + \tilde {Y}_{t} - \tilde {Y}_{t - 1}
 $$
 
 We can rewrite this as
 
 $$
-\pi_ {t} = - \tilde {Y} _ {t} + \tilde {Y} _ {t - 1} + \Delta \log M _ {t}
+\pi_{t} = - \tilde {Y}_{t} + \tilde {Y}_{t - 1} + \Delta \log M_{t}
 $$
 - Plot this relationship in  $(\pi_t, \tilde{Y}_t)$  space
 - Downward sloping locus of points
@@ -5477,19 +5477,19 @@ Inflation
 Output gap
 # Price Setting Equation
 $$
-\frac {P _ {t + 1}}{P _ {t}} = \left(\frac {Y _ {t}}{Y _ {t} ^ {*}}\right) ^ {\theta} \quad \rightarrow \quad \frac {P _ {t}}{P _ {t - 1}} = \left(\frac {Y _ {t - 1}}{Y _ {t - 1} ^ {*}}\right) ^ {\theta}
+\frac{P_{t + 1}}{P_{t}} = \left(\frac{Y_{t}}{Y_{t}^{*}}\right)^{\theta} \quad \rightarrow \quad \frac{P_{t}}{P_{t - 1}} = \left(\frac{Y_{t - 1}}{Y_{t - 1}^{*}}\right)^{\theta}
 $$
 - Replace:  $Y_{t}^{*}$  with  $\overline{Y}_t$  (i.e., assume desired output is same as potential output)
 Take logs:
 $$
-\log \left(\frac {P _ {t}}{P _ {t - 1}}\right) = \theta \log \left(\frac {Y _ {t - 1}}{\overline {{Y}} _ {t - 1}}\right)
+\log \left(\frac{P_{t}}{P_{t - 1}}\right) = \theta \log \left(\frac{Y_{t - 1}}{\overline {{Y}}_{t - 1}}\right)
 $$
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 # Short Run Aggregate Supply
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 - Very simple short-run aggregate supply relation
 What is its slope?
@@ -5535,7 +5535,7 @@ NaN. Recruitment  $(v)$
 - When  $u > v$  labor market is too slack
 - When  $u < v$  labor market is too tight
 - Productive labor is maximized when  $u = v$  which implies
-$$ u ^ {*} = \sqrt {u v}
+$$ u^{*} = \sqrt{u v}
 $$
 # Full Employment Rate of Unemployment
 
@@ -5549,7 +5549,7 @@ Source: Unemployment rate  $u$  and vacancy rate  $v$  come from figure 1. Note:
 - Useful to be able to go back and forth between output and unemployment
 - During recessions output is low and the unemployment rate is high
 - "Stable" empirical relationship:
-$$ u _ {t} - u ^ {n} = - \frac {1}{2} \tilde {Y} _ {t}
+$$ u_{t} - u^{n} = - \frac{1}{2} \tilde {Y}_{t}
 $$
 
 This is called "Okun's Law"
@@ -5573,14 +5573,14 @@ University of California, Berkeley
 # Where Do We Stand
 - Money market equilibrium / Aggregate demand:
 $$
-\Delta \log M _ {t} = \pi_ {t} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1}
+\Delta \log M_{t} = \pi_{t} + \tilde {Y}_{t} - \tilde {Y}_{t - 1}
 $$
 - Price setting equation / Short-run aggregate supply:
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 - Okun's Law:
-$$ u _ {t} - u ^ {n} = - \frac {1}{2} \tilde {Y} _ {t}
+$$ u_{t} - u^{n} = - \frac{1}{2} \tilde {Y}_{t}
 $$
 # Next Step
 - Modernize our model of aggregate demand
@@ -5591,26 +5591,26 @@ Now we make demand depend on: Interest rates
 - If you purchase an asset, you expect to get a return
 - How do we measure a return?
 - Suppose you buy an asset at time  $t$  for  $\$ P_t$
-- One period later you sell it for  $P _ {t + 1}$
+- One period later you sell it for  $P_{t + 1}$
 What is the rate of return?
 - Gross return:
 $$
-(1 + R _ {t + 1}) = \frac {P _ {t + 1}}{P _ {t}}
+(1 + R_{t + 1}) = \frac{P_{t + 1}}{P_{t}}
 $$
 - Net return:
 $$
-R _ {t + 1} = \frac {P _ {t + 1}}{P _ {t}} = \frac {P _ {t + 1} - P _ {t}}{P _ {t}}
+R_{t + 1} = \frac{P_{t + 1}}{P_{t}} = \frac{P_{t + 1} - P_{t}}{P_{t}}
 $$
 # Interest Rate at the Bank
 - Say you invest 1 in a savings account at a bank that offers a 3\% interest rate per year
 - In one year's time you will have 1.03
 - Gross return:
 $$
-\left(1 + R _ {t + 1} ^ {b}\right) = \frac {P _ {t + 1}}{P _ {t}} = \frac {1 . 0 3}{1} = 1. 0 3
+\left(1 + R_{t + 1}^{b}\right) = \frac{P_{t + 1}}{P_{t}} = \frac{1 . 0 3}{1} = 1. 0 3
 $$
 - Net return:
 $$
-R _ {t + 1} ^ {b} = \frac {P _ {t + 1} - P _ {t}}{P _ {t}} = \frac {1.03 - 1}{1} = 0.03 = 3 \%
+R_{t + 1}^{b} = \frac{P_{t + 1} - P_{t}}{P_{t}} = \frac{1.03 - 1}{1} = 0.03 = 3 \%
 $$
 # Returns over Many Periods
 
@@ -5618,7 +5618,7 @@ What if you hold the asset for many periods?
 
 - Gross return over two periods:
 $$
-\frac {P _ {t + 2}}{P _ {t}} = \frac {P _ {t + 2}}{P _ {t + 1}} \frac {P _ {t + 1}}{P _ {t}}
+\frac{P_{t + 2}}{P_{t}} = \frac{P_{t + 2}}{P_{t + 1}} \frac{P_{t + 1}}{P_{t}}
 $$
 - Product of two successive one-period gross returns
 - Gross returns multiply over time (compounding)
@@ -5636,7 +5636,7 @@ $$
 - 60 guilders said to be equivalent to 24
 - Say natives had invested proceeds at  $5 \%$ per year. How much would they have today?
 $$
-\$ 24 \times (1 + 0.05) ^ {399} \cong \$ 6,800,000,000
+\$ 24 \times (1 + 0.05)^{399} \cong \$ 6,800,000,000
 $$
 
 ("only" 3 billion when I started teaching this course in 2008)
@@ -5648,7 +5648,7 @@ $$
 - Yield to maturity: Return you would get if you held bond to maturity. (Often called "yield" or "interest rate")
 What is the yield to maturity on our simple bond?
 $$
-(1 + i _ {t}) = \frac {1}{P _ {t}}
+(1 + i_{t}) = \frac{1}{P_{t}}
 $$
 - Bond prices and bond yield move in opposite directions!!
 # Nominal vs. Real Returns
@@ -5664,14 +5664,14 @@ Real returns:
 # Real Returns
 - Deflate asset prices by price index (say CPI):
 $$
-\frac {P _ {t}}{C P I _ {t}} \qquad \frac {P _ {t + 1}}{C P I _ {t + 1}}
+\frac{P_{t}}{C P I_{t}} \qquad \frac{P_{t + 1}}{C P I_{t + 1}}
 $$
 - Calculate (ex post) return using "real" prices:
 $$
-1 + R _ {t + 1} ^ {r} = \frac {P _ {t + 1} / C P I _ {t + 1}}{P _ {t} / C P I _ {t}} = \frac {P _ {t + 1} / P _ {t}}{C P I _ {t + 1} / C P I _ {t}} = \frac {1 + R _ {t + 1} ^ {n}}{1 + \pi_ {t + 1}}
+1 + R_{t + 1}^{r} = \frac{P_{t + 1} / C P I_{t + 1}}{P_{t} / C P I_{t}} = \frac{P_{t + 1} / P_{t}}{C P I_{t + 1} / C P I_{t}} = \frac{1 + R_{t + 1}^{n}}{1 + \pi_{t + 1}}
 $$
 $$
-R _ {t + 1} ^ {r} \approx R _ {t + 1} ^ {n} - \pi_ {t + 1}
+R_{t + 1}^{r} \approx R_{t + 1}^{n} - \pi_{t + 1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/2b35b7fcd9cdd763e7a963264e2d40eb6438493354998e4d07dcebf0a8eee265.jpg)
@@ -5683,7 +5683,7 @@ Value Weighted NYSE/AMEX
 # Fisher Equation
 - Fisher equation:
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1}
+R_{t} = i_{t} - E_{t} \pi_{t + 1}
 $$
 - Fisher equation is the definition of the ex ante real interest rate
 - Ex ante real interest rate: Real interest rate people except at time  $t$  to prevail from time  $t$  to time  $t + 1$
@@ -5692,7 +5692,7 @@ $-\pi_{t+1}$  is not known until period  $t + 1$
 - What real interest rate turned out to be between times  $t$  and  $t + 1$
 # Tricky Notation
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1}
+R_{t} = i_{t} - E_{t} \pi_{t + 1}
 $$
 - $i_{t}$  and  $R_{t}$  denote the nominal and ex ante real interest rates from time  $t$  and  $t + 1$
 - $\pi_{t+1}$  denotes inflation between time  $t$  and  $t+1$
@@ -5703,7 +5703,7 @@ $$
 - Assumption (Adaptive expectations):
 Assume that people look at the past to form expectation:
 $$
-E _ {t} \pi_ {t + 1} = \pi_ {t}
+E_{t} \pi_{t + 1} = \pi_{t}
 $$
 
 Alternative: Rational Expectations
@@ -5714,11 +5714,11 @@ Alternative: Rational Expectations
 # Real Interest Rate
 - Ex ante real interest rate
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1}
+R_{t} = i_{t} - E_{t} \pi_{t + 1}
 $$
 - With adaptive expectations, this becomes
 $$
-R _ {t} = i _ {t} - \pi_ {t}
+R_{t} = i_{t} - \pi_{t}
 $$
 # Real versus Nominal
 - The difference between real and nominal is a crucial aspect of being reasonably informed about macro events
@@ -5734,14 +5734,14 @@ In Medieval economy:
 - Gold coins only available asset
 - People had desired level "real money balances":
 $$
-M _ {t} ^ {d} \bar {V} = P _ {t} Y _ {t}
+M_{t}^{d} \bar {V} = P_{t} Y_{t}
 $$
 
 19th and early 20th century:
 
 - Paper money and deposits become an important component of money supply
 $$
-M = \frac {C / D + 1}{C / D + R / D} M _ {b} = B _ {m} M _ {b}
+M = \frac{C / D + 1}{C / D + R / D} M_{b} = B_{m} M_{b}
 $$
 # Modernizing Money Demand
 - People have access to other stores of value than money
@@ -5763,24 +5763,24 @@ What is the nature of this trade-off?
 We need to incorporate nominal interest rate into our model of money demand
 # Modernizing Money Demand
 $$
-\log M _ {t} + \log V _ {t} = \log P _ {t} + \log Y _ {t}
+\log M_{t} + \log V_{t} = \log P_{t} + \log Y_{t}
 $$
 - New assumption: The velocity of money is an increasing function of the nominal interest rate
 $$
-\log V _ {t} = \phi i _ {t} - v _ {t}
+\log V_{t} = \phi i_{t} - v_{t}
 $$
 - Equivalently: money demand a decreasing function of the nominal interest rates
 - Here  $v_{t}$  is a "money demand shock", i.e., other factors that affect velocity (e.g., financial innovation (ATMs, credit cards))
 # Modern Money Demand
 - This implies that money demand becomes:
 $$
-\log M _ {t} + \log V _ {t} = \log P _ {t} + \log Y _ {t}
+\log M_{t} + \log V_{t} = \log P_{t} + \log Y_{t}
 $$
 $$
-\log M _ {t} + \phi i _ {t} - v _ {t} = \log P _ {t} + \log Y _ {t}
+\log M_{t} + \phi i_{t} - v_{t} = \log P_{t} + \log Y_{t}
 $$
 $$
-\log M _ {t} - \log P _ {t} = - \phi i _ {t} + \log Y _ {t} + v _ {t}
+\log M_{t} - \log P_{t} = - \phi i_{t} + \log Y_{t} + v_{t}
 $$
 - Downward-sloping function of nominal interest rates
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/933a195da4361c6345fb80268fc5a95885622a92cb2eb91db523ab3d8e6da274.jpg)
@@ -5792,31 +5792,31 @@ Central bank can effectively control the nominal interest rate by varying money 
 # Money Demand Shocks
 - Money demand shocks shift the money demand curve
 Unless central bank offsets this, will affect interest rate
-In  $19^{\text {th }}$  century, interest rates would rise during harvest time due to increase in money demand
+In  $19^{\text{th }}$  century, interest rates would rise during harvest time due to increase in money demand
 - No central bank to offset
 Money supply not "elastic"
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/c389b9ffdbff7d3b57d67e5d46586a27641bf2df3b9b5a279930c55da30d0a5b.jpg)
 # Money Market Equilibrium
 - We can now write money market equilibrium equation in terms of real interest rate by combining:
 $$
-\log M _ {t} - \log P _ {t} = - \phi i _ {t} + \log Y _ {t} + v _ {t}
+\log M_{t} - \log P_{t} = - \phi i_{t} + \log Y_{t} + v_{t}
 $$
 $$
-R _ {t} = i _ {t} - \pi_ {t}
+R_{t} = i_{t} - \pi_{t}
 $$
 
 This yields:
 
 $$
-\log M _ {t} - \log P _ {t} = - \phi (R _ {t} + \pi_ {t}) + \log Y _ {t} + v _ {t}
+\log M_{t} - \log P_{t} = - \phi (R_{t} + \pi_{t}) + \log Y_{t} + v_{t}
 $$
 - Rearranging yields:
 $$
-R _ {t} = \phi^ {- 1} \log Y _ {t} - \pi_ {t} + \phi^ {- 1} (v _ {t} - \log M _ {t} + \log P _ {t})
+R_{t} = \phi^{- 1} \log Y_{t} - \pi_{t} + \phi^{- 1} (v_{t} - \log M_{t} + \log P_{t})
 $$
 # LM Curve
 $$
-R _ {t} = \phi^ {- 1} \log Y _ {t} - \pi_ {t} + \phi^ {- 1} (v _ {t} - \log M _ {t} + \log P _ {t})
+R_{t} = \phi^{- 1} \log Y_{t} - \pi_{t} + \phi^{- 1} (v_{t} - \log M_{t} + \log P_{t})
 $$
 - We can plot this equation in  $(Y_{t}, R_{t})$  space
 - This curve is called the LM curve
@@ -5874,7 +5874,7 @@ Y = \alpha + \gamma (Y - T) + I + G + N X
 $$
 - A little bit of algebra then gives:
 $$
-Y = \frac {1}{1 - \gamma} [ \alpha - \gamma T + I + G + N X ]
+Y = \frac{1}{1 - \gamma} [ \alpha - \gamma T + I + G + N X ]
 $$
 
 Government purchases multiplier  $= \frac{1}{1 - \gamma}$
@@ -5935,7 +5935,7 @@ Y = C (Y, r) + I (r) + G + N X (r)
 $$
 # Consumption
 $$
-C _ {t} = a _ {c} \bar {Y} _ {t} - b _ {c} \bar {Y} _ {t} (R _ {t} - \bar {r})
+C_{t} = a_{c} \bar {Y}_{t} - b_{c} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Let's try to captures basic idea of the permanent income hypothesis:
 - Consumption not a function of current income, rather potential income since it helps forecast future (lifetime) income
@@ -5943,7 +5943,7 @@ $$
 - Slightly more sophisticated than in Jones
 # Investment
 $$
-I _ {t} = \bar {a} _ {i} \bar {Y} _ {t} - \bar {b} _ {i} \bar {Y} _ {t} (R _ {t} - \bar {r})
+I_{t} = \bar {a}_{i} \bar {Y}_{t} - \bar {b}_{i} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Same as consumption:
 - Investment a function of permanent income since it helps forecast future demand and profitability
@@ -5953,69 +5953,69 @@ $$
 - Most of imports are consumption and investment
 - So, consistency dictates that
 $$
-I M _ {t} = a _ {i m} \bar {Y} _ {t} - b _ {i m} \bar {Y} _ {t} (R _ {t} - \bar {r})
+I M_{t} = a_{i m} \bar {Y}_{t} - b_{i m} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - This is again slightly more sophisticated than in Jones
 # Government Spending and Exports
 - Government spending:
 - Assumed to be exogenous
 $$
-G _ {t} = \bar {a} _ {g} \bar {Y} _ {t}
+G_{t} = \bar {a}_{g} \bar {Y}_{t}
 $$
 - Exports:
 - Assumed to be exogenous
 $$
-E X _ {t} = \bar {a} _ {e x} \bar {Y} _ {t}
+E X_{t} = \bar {a}_{e x} \bar {Y}_{t}
 $$
 # Planned Expenditure
 $$
-P E _ {t} = C _ {t} + I _ {t} + G _ {t} + E X _ {t} - I M _ {t}
+P E_{t} = C_{t} + I_{t} + G_{t} + E X_{t} - I M_{t}
 $$
 - Consumption:
 $$
-C _ {t} = a _ {c} \bar {Y} _ {t} - b _ {c} \bar {Y} _ {t} (R _ {t} - \bar {r})
+C_{t} = a_{c} \bar {Y}_{t} - b_{c} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Investment:
 $$
-I _ {t} = \bar {a} _ {i} \bar {Y} _ {t} - \bar {b} _ {i} \bar {Y} _ {t} (R _ {t} - \bar {r})
+I_{t} = \bar {a}_{i} \bar {Y}_{t} - \bar {b}_{i} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Imports:
 $$
-I M _ {t} = a _ {i m} \bar {Y} _ {t} - b _ {i m} \bar {Y} _ {t} (R _ {t} - \bar {r})
+I M_{t} = a_{i m} \bar {Y}_{t} - b_{i m} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Government spending and exports:
 $$
-G _ {t} = \bar {a} _ {g} \bar {Y} _ {t} E X _ {t} = \bar {a} _ {e x} \bar {Y} _ {t}
+G_{t} = \bar {a}_{g} \bar {Y}_{t} E X_{t} = \bar {a}_{e x} \bar {Y}_{t}
 $$
 # IS Curve
 - In equilibrium output equals planned expenditures:
 $$
-Y _ {t} = C _ {t} + I _ {t} + G _ {t} + E X _ {t} - I M _ {t}
+Y_{t} = C_{t} + I_{t} + G_{t} + E X_{t} - I M_{t}
 $$
 - Plugging in for  $C_t, I_t, G_t, EX_t, IM_t$ :
 $$
-Y _ {t} = \bar {a} _ {P E} \bar {Y} _ {t} - \bar {b} _ {P E} \bar {Y} _ {t} (R _ {t} - \bar {r})
+Y_{t} = \bar {a}_{P E} \bar {Y}_{t} - \bar {b}_{P E} \bar {Y}_{t} (R_{t} - \bar {r})
 $$ where
 $$
 
-\begin{array}{l} \bar {a} _ {P E} = \bar {a} _ {c} + \bar {a} _ {i} + \bar {a} _ {g} + \bar {a} _ {e x} - \bar {a} _ {i m} \\ \overline {{b}} _ {P E} = \overline {{b}} _ {c} + \overline {{b}} _ {i} - \overline {{b}} _ {i m} \\ \end{array}
+\begin{array}{l} \bar {a}_{P E} = \bar {a}_{c} + \bar {a}_{i} + \bar {a}_{g} + \bar {a}_{e x} - \bar {a}_{i m} \\ \overline {{b}}_{P E} = \overline {{b}}_{c} + \overline {{b}}_{i} - \overline {{b}}_{i m} \\ \end{array}
 
 $$
 # IS Curve
 $$
 
-Y _ {t} = \bar {a} _ {P E} \bar {Y} _ {t} - \bar {b} _ {P E} \bar {Y} _ {t} (R _ {t} - \bar {r})
+Y_{t} = \bar {a}_{P E} \bar {Y}_{t} - \bar {b}_{P E} \bar {Y}_{t} (R_{t} - \bar {r})
 
 $$
 - Let's now divide through by  $\bar{Y}_{t}$  and subtract 1 from each side:
 $$
 
-\frac {Y _ {t}}{\bar {Y} _ {t}} - 1 = (\bar {a} _ {P E} - 1) - \bar {b} _ {P E} (R _ {t} - \bar {r})
+\frac{Y_{t}}{\bar {Y}_{t}} - 1 = (\bar {a}_{P E} - 1) - \bar {b}_{P E} (R_{t} - \bar {r})
 
 $$
 $$
 
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 
 $$
 # IS Curve
@@ -6028,7 +6028,7 @@ Higher interest rate lowers demand
 - Negative relationship between R and Y
 $$
 
-R \downarrow \Rightarrow C ^ {d} \uparrow \mathrm {a n d} I ^ {d} \uparrow \Rightarrow Y \uparrow
+R \downarrow \Rightarrow C^{d} \uparrow \mathrm{an d} I^{d} \uparrow \Rightarrow Y \uparrow
 
 $$
 # IS Curve
@@ -6036,19 +6036,19 @@ $$
 - Investment:
 $$
 
-I _ {t} = \bar {a} _ {i} \bar {Y} _ {t} - \bar {b} _ {i} \bar {Y} _ {t} (R _ {t} - \bar {r})
+I_{t} = \bar {a}_{i} \bar {Y}_{t} - \bar {b}_{i} \bar {Y}_{t} (R_{t} - \bar {r})
 
 $$
 • Savings:
 $$
 
-S _ {t} = Y _ {t} - \bar {a} _ {s} \bar {Y} _ {t} + \bar {b} _ {s} \bar {Y} _ {t} (R _ {t} - \bar {r})
+S_{t} = Y_{t} - \bar {a}_{s} \bar {Y}_{t} + \bar {b}_{s} \bar {Y}_{t} (R_{t} - \bar {r})
 
 $$
 Equilibrium:
 $$
 
-I _ {t} = S _ {t}
+I_{t} = S_{t}
 
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/91224e5e4e2be60c5c5ae711448446171128209cedd441be1d532ed634fdff74.jpg)
@@ -6059,20 +6059,20 @@ Increase in output from  $Y_{1}$  to  $Y_{2} > Y_{1}$
 What shifts the IS curve?
 $$
 
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 
 $$
 - Quintessential IS curve “shifter”: - Government spending shock
 In normal times:
 $$
 
-G _ {t} = \overline {{a}} _ {g} \overline {{Y}} _ {t}
+G_{t} = \overline {{a}}_{g} \overline {{Y}}_{t}
 
 $$
 - Suppose government decides to spend more:
 $$
 
-G _ {t} = \bar {a} _ {g} ^ {\prime} \bar {Y} _ {t} \mathrm {w h e r e} \bar {a} _ {g} ^ {\prime} > \bar {a} _ {g}
+G_{t} = \bar {a}_{g}^{\prime} \bar {Y}_{t} \mathrm{wh er e} \bar {a}_{g}^{\prime} > \bar {a}_{g}
 
 $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/4a0c1c0c2b59a4354797ee8cb3c0d7b10ecf880a341abb14ac1146f5de04bdfb.jpg)
@@ -6084,17 +6084,17 @@ $$
 - Consumption and investment increase
 $$
 
-C _ {t} = \bar {a} _ {c} ^ {\prime} \bar {Y} _ {t} - \bar {b} _ {c} \bar {Y} _ {t} (R _ {t} - \bar {r}), \mathrm {w h e r e} \bar {a} _ {c} ^ {\prime} > \bar {a} _ {c}
+C_{t} = \bar {a}_{c}^{\prime} \bar {Y}_{t} - \bar {b}_{c} \bar {Y}_{t} (R_{t} - \bar {r}), \mathrm{wh er e} \bar {a}_{c}^{\prime} > \bar {a}_{c}
 
 $$
 $$
 
-I _ {t} = \bar {a} _ {i} ^ {\prime} \bar {Y} _ {t} - \bar {b} _ {i} \bar {Y} _ {t} (R _ {t} - \bar {r}), \mathrm {w h e r e} \bar {a} _ {i} ^ {\prime} > \bar {a} _ {i}
+I_{t} = \bar {a}_{i}^{\prime} \bar {Y}_{t} - \bar {b}_{i} \bar {Y}_{t} (R_{t} - \bar {r}), \mathrm{wh er e} \bar {a}_{i}^{\prime} > \bar {a}_{i}
 
 $$
 $$
 
-\tilde {Y} _ {t} = \bar {a} ^ {\prime} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a}^{\prime} - \bar {b} (R_{t} - \bar {r})
 
 $$
 # What Shifts the IS Curve?
@@ -6135,7 +6135,7 @@ TABLE 3- THE RESPONSE TO ESP RECEIPT AMONG HOUSEHOLDS RECEIVING PAYMENTS
 - Assumption: A fraction of households are credit constrained and spend temporary increases in income. Aggregate consumption is then:
 $$
 
-C _ {t} = \overline {{a}} _ {c} ^ {\prime} \overline {{Y}} _ {t} + \bar {x} Y _ {t} - \overline {{b}} _ {c} \overline {{Y}} _ {t} (R _ {t} - \bar {r})
+C_{t} = \overline {{a}}_{c}^{\prime} \overline {{Y}}_{t} + \bar {x} Y_{t} - \overline {{b}}_{c} \overline {{Y}}_{t} (R_{t} - \bar {r})
 
 $$ where  $0 < \bar{x} < 1$
 
@@ -6143,7 +6143,7 @@ $$ where  $0 < \bar{x} < 1$
 - Perhaps 0.25 based on Parker et al. (2012)
 # Hand-to-Mouth Consumers
 $$
-C _ {t} = \bar {a} _ {c} ^ {\prime} \bar {Y} _ {t} + \bar {x} Y _ {t} - \bar {b} _ {c} \bar {Y} _ {t} (R _ {t} - \bar {r})
+C_{t} = \bar {a}_{c}^{\prime} \bar {Y}_{t} + \bar {x} Y_{t} - \bar {b}_{c} \bar {Y}_{t} (R_{t} - \bar {r})
 $$
 - Extra term reflects hand-to-mouth consumers
 - Since their spending rises and falls one for one with actual output (as opposed to potential output), aggregate consumption will vary with the output
@@ -6151,13 +6151,13 @@ $$
 # IS Curve with Hand-to-Mouth Consumers
 - Same steps as before yield:
 $$
-\tilde {Y} _ {t} = \bar {a} + \bar {x} \tilde {Y} _ {t} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} + \bar {x} \tilde {Y}_{t} - \bar {b} (R_{t} - \bar {r})
 $$
 $$
-(1 - \bar {x}) \tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+(1 - \bar {x}) \tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 $$
 $$
-\tilde {Y} _ {t} = \frac {1}{1 - \bar {x}} \left[ \bar {a} - \bar {b} (R _ {t} - \bar {r}) \right]
+\tilde {Y}_{t} = \frac{1}{1 - \bar {x}} \left[ \bar {a} - \bar {b} (R_{t} - \bar {r}) \right]
 $$
 - Multiplier effect: Any change in  $\bar{a}$  or  $R_{t}$  have a larger effect on the output gap than before
 # IS Curve with Hand-to-Mouth Consumers
@@ -6182,29 +6182,29 @@ Without multiplier: Output falls by  $1 \%$
 - Etc., Etc.
 - Total effect:
 $$
-1 + \bar {x} + \bar {x} ^ {2} + \bar {x} ^ {3} + \dots = \frac {1}{1 - \bar {x}}
+1 + \bar {x} + \bar {x}^{2} + \bar {x}^{3} + \dots = \frac{1}{1 - \bar {x}}
 $$
 # Where Do We Stand?
 
 Money Market (LM Curve):
 
 $$
-\log M _ {t} - \log P _ {t} = - \phi i _ {t} + \log Y _ {t} + v _ {t}
+\log M_{t} - \log P_{t} = - \phi i_{t} + \log Y_{t} + v_{t}
 $$
 - Fisher Equation:
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1}
+R_{t} = i_{t} - E_{t} \pi_{t + 1}
 $$
 - Price Setting Equation:
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 - Goods Market (IS Curve):
 $$
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 $$
 - Okun's Law:
-$$ u _ {t} - u ^ {n} = - \frac {1}{2} \tilde {Y} _ {t}
+$$ u_{t} - u^{n} = - \frac{1}{2} \tilde {Y}_{t}
 $$
 # IS-LM Model
 - Short-run model
@@ -6251,13 +6251,13 @@ Stock market crash of October 1929
 - Recall that  $M = B_{m}M_{b}$
 Determination of  $M_{b}$  on gold standard:
 $$
-M _ {b} = \frac {M _ {b}}{M _ {g}} M _ {g} = \frac {1}{\mathrm {G C R}} M _ {g}
+M_{b} = \frac{M_{b}}{M_{g}} M_{g} = \frac{1}{\mathrm{GC R}} M_{g}
 $$
 - $M_{g}$  is monetary gold, i.e., gold held at the Treasury (or central bank) to back the monetary base
 - GCR is the "gold cover ratio" amount by which central bank leverages up the monetary gold
 # Money Supply on the Gold Standard
 $$
-M = B _ {m} \frac {1}{\mathrm {G C R}} M _ {g}
+M = B_{m} \frac{1}{\mathrm{GC R}} M_{g}
 $$
 - $M_{g}$ : Determined by gold flows into or out of country
 - If goods are cheap in country, more exports than imports, and gold will flow into country
@@ -6296,7 +6296,7 @@ Cracks in the Facade
 Fig. 8.6. Central bank discount rates, January 1928-August 1930. The Reichsbank was forced to maintain a higher discount rate than those of other major central banks by the recurrent weakness of Germany's balance of payments. Source: Banking and Monetary Statistics, pp. 439, 656-659.
 # Deflationary Monetary Policy
 $$
-M = M _ {g} \times \frac {1}{\mathrm {G C R}} \times B _ {m}
+M = M_{g} \times \frac{1}{\mathrm{GC R}} \times B_{m}
 $$
 - Policy by France and U.S. to raise GCR lead to a fall in the world money supply
 What consequences does this have?
@@ -6310,7 +6310,7 @@ These monetary policy actions were likely one of the impulses causing the onset 
 - But how did an initially mild recession turn into a massive economy calamity?
 - To understand that, we need to shift our focus to  $B_{m}$
 $$
-M = M _ {g} \times \frac {1}{\mathrm {G C R}} \times B _ {m}
+M = M_{g} \times \frac{1}{\mathrm{GC R}} \times B_{m}
 $$
 # Bank Crises During the Great Depression
 Three large bank panics:
@@ -6321,7 +6321,7 @@ Three large bank panics:
 Number of banks fell from 24,000 to 14,000 between 1929 and 1933
 # Collapse of Money Multiplier
 $$
-M = M _ {g} \times \frac {1}{\mathrm {G C R}} \times B _ {m}
+M = M_{g} \times \frac{1}{\mathrm{GC R}} \times B_{m}
 $$
 - The money multiplier  $B_{m}$  collapsed during the Great Depression as people withdrew money from banks and banks raised reserve ratios
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/27fa40a27f0dfabad8f4707cbdfcd507a84dee9925c45705ba3dcff5b69db471.jpg)
@@ -6344,7 +6344,7 @@ November 8, 2002
 - Several reasons why Fed screwed up
 - Strong belief in the importance of adherence to gold standard was one important reason
 $$
-M = M _ {g} \times \frac {M _ {b}}{M _ {g}} \times \frac {M _ {b} + D}{M _ {b}}
+M = M_{g} \times \frac{M_{b}}{M_{g}} \times \frac{M_{b} + D}{M_{b}}
 $$
 - Limited scope to increase  $M_{b} / M_{g}$  (reduce GCR)
 - Legal lower limit on gold cover ratio
@@ -6356,13 +6356,13 @@ $$
 - Caused a fall in world money supply
 - Rigidity of prices led output to fall
 $$
-\Delta \log M _ {t} = \Delta \log P _ {t} + \Delta \log Y _ {t}
+\Delta \log M_{t} = \Delta \log P_{t} + \Delta \log Y_{t}
 $$
 Downturn led to banking panics
 - Fed didn't react,  $B_{m}$  fell sharply
 - Recession became a depression
 $$
-M = M _ {g} \times \frac {1}{\mathrm {G C R}} \times B _ {m}
+M = M_{g} \times \frac{1}{\mathrm{GC R}} \times B_{m}
 $$
 # Correlation versus Causation
 - How do we know correlation runs from money to output as opposed to reverse causation or some third factor?
@@ -6472,7 +6472,7 @@ FIGURE 4.6 EXTENSIVE-FORM REPRESENTATION: THESEQUENTIAL-ENTRY GAME.
 # Subgame Perfect Equilibrium
 Game has two Nash equilibria:
 $$
-- \mathbf {\nabla} (e, \bar {r}) \mathrm {a n d} (\bar {e}, r)
+- \mathbf {\nabla} (e, \bar {r}) \mathrm{an d} (\bar {e}, r)
 $$
 - $(\overline{e}, r)$  relies on a threat by P2 that is "not credible"
 - Subgame Perfect Equilibrium:
@@ -6588,29 +6588,29 @@ University of California, Berkeley
 Money Market (LM Curve):
 
 $$
-\Delta \log M _ {t} - \pi_ {t} = - \phi i _ {t} + \phi i _ {t - 1} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1} + \Delta \log v _ {t}
+\Delta \log M_{t} - \pi_{t} = - \phi i_{t} + \phi i_{t - 1} + \tilde {Y}_{t} - \tilde {Y}_{t - 1} + \Delta \log v_{t}
 $$
 - Fisher Equation:
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1}
+R_{t} = i_{t} - E_{t} \pi_{t + 1}
 $$
 - Price Setting Equation:
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 - Goods Market (IS Curve):
 $$
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 $$
 - Okun's Law:
-$$ u _ {t} - u ^ {n} = - \frac {1}{2} \tilde {Y} _ {t}
+$$ u_{t} - u^{n} = - \frac{1}{2} \tilde {Y}_{t}
 $$
 - Next: "Modernize" analysis of price setting
 # The Phillips Curve
 - A note on language: "Phillips curve", "Price setting equation", "short run aggregate supply curve" are all the same thing
 - Phillips curve in medieval economy model:
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1} \quad \mathrm {o r} \quad \pi_ {t} = - 2 \theta (u _ {t - 1} - u ^ {n})
+\pi_{t} = \theta \tilde {Y}_{t - 1} \quad \mathrm{or} \quad \pi_{t} = - 2 \theta (u_{t - 1} - u^{n})
 $$
 - Phillips curve of this form was "discovered" by A.W. Phillips in 1958 and popularized in U.S. by Paul Samuelson and Robert Solow in 1960
 # Inflation and Unemployment in U.K.
@@ -6663,7 +6663,7 @@ What is optimal policy?
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/b4ebe233f0266fb98ea68dc626abecd1496bb007d361a7da1892604d99700edb.jpg)
 Dynamics:
 $$
-\begin{array}{l} \Delta \log M _ {t} = \pi_ {t} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1} \\ \pi_ {t} = \theta \tilde {Y} _ {t - 1} \\ \end{array}
+\begin{array}{l} \Delta \log M_{t} = \pi_{t} + \tilde {Y}_{t} - \tilde {Y}_{t - 1} \\ \pi_{t} = \theta \tilde {Y}_{t - 1} \\ \end{array}
 $$
 
 Steady State:
@@ -6674,7 +6674,7 @@ $$
 # Phillips Curve in Medieval Model
 - Short run:
 $$
-\pi_ {t} = \theta \tilde {Y} _ {t - 1}
+\pi_{t} = \theta \tilde {Y}_{t - 1}
 $$
 - Long run (steady state):
 $$
@@ -6682,16 +6682,16 @@ $$
 $$
 - And combined with Okun's law:
 $$
-\bar {\pi} = - 2 \theta (\bar {u} - u ^ {n})
+\bar {\pi} = - 2 \theta (\bar {u} - u^{n})
 $$
 # Long-Run Phillips Curve in Medieval Model
 - Short-run Phillips curve:
 $$
-\pi_ {t} = - 2 \theta (u _ {t - 1} - u ^ {n})
+\pi_{t} = - 2 \theta (u_{t - 1} - u^{n})
 $$
 - Long-run Phillips curve:
 $$
-\bar {\pi} = - 2 \theta (\bar {u} - u ^ {n})
+\bar {\pi} = - 2 \theta (\bar {u} - u^{n})
 $$
 
 Inflation
@@ -6753,7 +6753,7 @@ Inflation
 # Expectations Augmented Phillips Curve
 - Friedman and Phelps' argument suggests the following modification to the price setting equation:
 $$
-\pi_ {t} = E _ {t - 1} \pi_ {t} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = E_{t - 1} \pi_{t} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - $E_{t - 1}\pi_t$  denotes the expectation at time t-1 of inflation between time t-1 and time t
 - New features:
@@ -6763,7 +6763,7 @@ $$
 # Timing of Output Gap Term
 - New expectations augmented Phillips curve involves output gap at time  $t$  rather than  $t - 1$
 $$
-\pi_ {t} = E _ {t - 1} \pi_ {t} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = E_{t - 1} \pi_{t} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - This results from a model where
 - Some prices are set one period in advance
@@ -6786,7 +6786,7 @@ We define:  $\pi_t = (P_t - P_{t-1}) / P_{t-1}$
 - Assumption (Adaptive expectations):
 Assume that people look at the past to form expectation:
 $$
-E _ {t - 1} \pi_ {t} = \pi_ {t - 1}
+E_{t - 1} \pi_{t} = \pi_{t - 1}
 $$
 
 Alternative: Rational Expectations
@@ -6797,35 +6797,35 @@ Alternative: Rational Expectations
 # Expectations Augmented Phillips Curve
 - Expectations augmented Phillips curve:
 $$
-\pi_ {t} = E _ {t - 1} \pi_ {t} + \bar {v} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = E_{t - 1} \pi_{t} + \bar {v} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - Adaptive expectations:  $E_{t - 1}\pi_t = \pi_{t - 1}$
 Combining these yields:
 $$
-\pi_ {t} = \pi_ {t - 1} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = \pi_{t - 1} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 # Expectations Augmented Phillips Curve
 - With adaptive expectations:
 $$
-\pi_ {t} = \pi_ {t - 1} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = \pi_{t - 1} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - When output is above potential…
 $$
-\tilde {Y} _ {t} > 0 \qquad \pi_ {t} > \pi_ {t - 1}
+\tilde {Y}_{t} > 0 \qquad \pi_{t} > \pi_{t - 1}
 $$
 
 … inflation is rising.
 
 - When output is below potential…
 $$
-\tilde {Y} _ {t} <   0 \qquad \pi_ {t} <   \pi_ {t - 1}
+\tilde {Y}_{t} <   0 \qquad \pi_{t} <   \pi_{t - 1}
 $$
 
 … inflation is falling
 
 # Expectations Augmented Phillips Curve
 $$
-\pi_ {t} = \pi_ {t - 1} - 2 \bar {v} (u _ {t} - u ^ {n}) + \bar {\sigma} _ {t}
+\pi_{t} = \pi_{t - 1} - 2 \bar {v} (u_{t} - u^{n}) + \bar {\sigma}_{t}
 $$
 - When  $u_{t}< u^{n}$
 Inflation
@@ -6836,7 +6836,7 @@ Inflation
 # Expectations Augmented Phillips Curve
 - Ignore supply shocks:
 $$
-\pi_ {t} = \pi_ {t - 1} + \bar {\nu} \tilde {Y} _ {t}
+\pi_{t} = \pi_{t - 1} + \bar {\nu} \tilde {Y}_{t}
 $$
 
 In this case, the Phillips curve crosses  $\tilde{Y}_t = 0$  at  $\pi_{t-1}$  (or equivalently  $u_t = u_t^n$ )
@@ -6860,7 +6860,7 @@ Copyright © 2008 W. W. Norton & Company
 - Strictly speaking it should be NIIRU or "nonincreasing inflation rate of unemployment"
 # Long Run Phillips Curve
 $$
-\pi_ {t} = \pi_ {t - 1} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = \pi_{t - 1} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - What type of long run Phillips curve does the expectations augmented Phillips curve imply?
 $$
@@ -6930,7 +6930,7 @@ Fig. 2.4 Wholesale prices in Germany.
 # The Role of Expectations
 - General model of inflation:
 $$
-\pi_ {t} = E _ {t - 1} \pi_ {t} + \bar {\nu} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = E_{t - 1} \pi_{t} + \bar {\nu} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - Two ways to lower inflation:
 - Negative output gap
@@ -6968,36 +6968,36 @@ Examples:
 # Monetary Policy and Fiscal Policy
 - "Inflation is always and everywhere a monetary phenomenon" (M. Friedman)
 $$
-M _ {t} \bar {V} = P _ {t} Y _ {t}
+M_{t} \bar {V} = P_{t} Y_{t}
 $$
 - High inflation is always and everywhere a fiscal phenomenon (attributed to T. Sargent)
 $$
-G _ {t} = T _ {t} + \Delta M _ {t}
+G_{t} = T_{t} + \Delta M_{t}
 $$
 # Cause of Inflation
 - Money creation is proximate cause of inflation
 $$
-\Delta \log M _ {t} = \Delta \log P _ {t} + \Delta \log Y _ {t} - \Delta \log V _ {t}
+\Delta \log M_{t} = \Delta \log P_{t} + \Delta \log Y_{t} - \Delta \log V_{t}
 $$
 - But what is it that causes money creation?
 - When money creation is extreme, it is often (always?) caused by fiscal pressures
 $$
-G _ {t} = T _ {t} + \Delta M _ {t}
+G_{t} = T_{t} + \Delta M_{t}
 $$
 - In that sense high inflation is a fiscal phenomenon
 # Do Bonds Help?
 - Two period world
 - Government can issue bonds in first period
 $$
-G _ {1} = T _ {1} + B _ {1} + \Delta M _ {1}
+G_{1} = T_{1} + B_{1} + \Delta M_{1}
 $$
 - Has to pay them in the second period
 $$
-G _ {2} + (1 + r) B _ {1} = T _ {2} + \Delta M _ {2}
+G_{2} + (1 + r) B_{1} = T_{2} + \Delta M_{2}
 $$
 - Government's intertemporal budget constraint:
 $$
-G _ {1} + \frac {G _ {2}}{1 + r} = T _ {1} + \frac {T _ {2}}{1 + r} + \Delta M _ {1} + \frac {\Delta M _ {2}}{1 + r}
+G_{1} + \frac{G_{2}}{1 + r} = T_{1} + \frac{T_{2}}{1 + r} + \Delta M_{1} + \frac{\Delta M_{2}}{1 + r}
 $$
 # Do Bonds Help?
 - Even if governments can issue bonds in the short run, there are ultimately only two ways to pay for its spending:
@@ -7068,7 +7068,7 @@ University of California, Berkeley
 
 # Where Do We Stand?
 $$
-\Delta \log M _ {t} - \pi_ {t} = - \phi i _ {t} + \phi i _ {t - 1} + \tilde {Y} _ {t} - \tilde {Y} _ {t - 1} + \Delta \log v _ {t}
+\Delta \log M_{t} - \pi_{t} = - \phi i_{t} + \phi i_{t - 1} + \tilde {Y}_{t} - \tilde {Y}_{t - 1} + \Delta \log v_{t}
 $$
 
 Money Market (LM Curve):
@@ -7082,7 +7082,7 @@ Fisher Equation:  $R_{t} = i_{t} - E_{t}\pi_{t + 1}$
 - In medieval economy, monetary "shocks" create inefficient booms and busts
 - Example:
 $$
-\begin{array}{l} -25 \% \text{of time:}\Delta \log M_{t} = 1\% \\ -50 \% \text{of time:}\Delta \log M _ {t} = 3 \% \\ -25 \% \text{of time:}\Delta \log M_{t} = 5 \% \\ \end{array}
+\begin{array}{l} -25 \% \text{oftime:}\Delta \log M_{t} = 1\% \\ -50 \% \text{oftime:}\Delta \log M_{t} = 3 \% \\ -25 \% \text{oftime:}\Delta \log M_{t} = 5 \% \\ \end{array}
 $$
 
 What do people expect?
@@ -7102,10 +7102,10 @@ What is optimal monetary policy?
 # Monetarism
 - Starting point:
 $$
-\log M _ {t} + \log V _ {t} = \log P _ {t} + \log Y _ {t}
+\log M_{t} + \log V_{t} = \log P_{t} + \log Y_{t}
 $$
 $$
-\Delta \log M _ {t} + \Delta \log V _ {t} = \pi_ {t} + \Delta \log Y _ {t}
+\Delta \log M_{t} + \Delta \log V_{t} = \pi_{t} + \Delta \log Y_{t}
 $$
 
 Here we allow for changing velocity of money
@@ -7139,7 +7139,7 @@ U.S. Log Velocity of M1
 - Doing this will insulate economy from money demand shocks
 # Money Demand Shocks
 $$
-\log M _ {t} - \log P _ {t} = - \phi i _ {t} + \log Y _ {t} + v _ {t}
+\log M_{t} - \log P_{t} = - \phi i_{t} + \log Y_{t} + v_{t}
 $$
 - Suppose central bank fully accommodates money demand shocks (varies money supply one-for-one with money demand shocks)
 What does this imply about the interest rate?
@@ -7196,7 +7196,7 @@ Traditionally, it would conduct "open market operations"
 # The MP Curve
 - With adaptive expectations:
 $$
-R _ {t} = i _ {t} - E _ {t} \pi_ {t + 1} \rightarrow R _ {t} = i _ {t} - \pi_ {t}
+R_{t} = i_{t} - E_{t} \pi_{t + 1} \rightarrow R_{t} = i_{t} - \pi_{t}
 $$
 - Prices (and inflation) are "sticky" in our model
 - Prices partially set in advance
@@ -7231,16 +7231,16 @@ Together, IS curve and MP curve determine output and the real interest rate
 - Sets  $R_{t}$
 - IS Curve:
 $$
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 $$
 
 Phillips Curve:
 
 $$
-\pi_ {t} = \pi_ {t - 1} + \bar {v} \tilde {Y} _ {t} + \bar {\sigma} _ {t}
+\pi_{t} = \pi_{t - 1} + \bar {v} \tilde {Y}_{t} + \bar {\sigma}_{t}
 $$
 - Okun's Law:
-$$ u _ {t} - u ^ {n} = - \frac {1}{2} \tilde {Y} _ {t}
+$$ u_{t} - u^{n} = - \frac{1}{2} \tilde {Y}_{t}
 $$
 # The Logic:
 
@@ -7271,7 +7271,7 @@ FE: Full Employment
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/6ffa521ab40f74996c55cee1cad0fa8a0b82dbbc776c7c7d9a2f234053ea51d9.jpg)
 
 $$
-\begin{array}{l} \pi_ {t} = \pi_ {t - 1} + \overline {{\nu}} \widetilde {Y} _ {t} + \overline {{o}} \longrightarrow \pi_ {t} = \pi_ {t - 1} - 2 \overline {{\nu}} (u _ {t} - \overline {{u}}) + \overline {{o}} \\ \widetilde {Y} _ {t} = - 2 (u _ {t} - \overline {{u}}) \longrightarrow \\ \end{array}
+\begin{array}{l} \pi_{t} = \pi_{t - 1} + \overline {{\nu}} \widetilde {Y}_{t} + \overline {{o}} \longrightarrow \pi_{t} = \pi_{t - 1} - 2 \overline {{\nu}} (u_{t} - \overline {{u}}) + \overline {{o}} \\ \widetilde {Y}_{t} = - 2 (u_{t} - \overline {{u}}) \longrightarrow \\ \end{array}
 $$
 # Optimal Monetary Policy
 - Friedman's View/Neo-Classical View:
@@ -7479,7 +7479,7 @@ In the hands of technocrats that value good inflation outcomes ("conservative" c
 FIG. 1a. Average Inflation
 Alesina and Summers (1993)
 # The Taylor Rule
-$$ i _ {t} = 2 \% + \pi_ {t} + 0.5 (\pi_ {t} - 2 \%) + 0.5 \tilde {Y} _ {t}
+$$ i_{t} = 2 \% + \pi_{t} + 0.5 (\pi_{t} - 2 \%) + 0.5 \tilde {Y}_{t}
 $$
 Equal. real interest rate:  $2 \%$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/996b89c7ec9d15967719e28606df480c4e8b7f356b2f1e041e1719743984cadd.jpg)
@@ -7492,7 +7492,7 @@ $$ i = 2 \% + 2.9 \% + .5(0.9 \%) + .5(-0.6 \%) = 5.7 \%
 $$
 - Actual rate:  $4.00\%$  (upper limit of target range)
 # The Taylor Rule
-$$ i _ {t} = 2 \% + \pi_ {t} + 0.5 (\pi_ {t} - 2 \%) + 0.5 \tilde {Y} _ {t}
+$$ i_{t} = 2 \% + \pi_{t} + 0.5 (\pi_{t} - 2 \%) + 0.5 \tilde {Y}_{t}
 $$
 John Taylor originally proposed this rule in a 1993 paper
 - Showed impressive fit to the data over period 1987-1992
@@ -7500,7 +7500,7 @@ John Taylor originally proposed this rule in a 1993 paper
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/694dcae8e807cd3bba6d1ca9b4e05680dd99a6742b378ffaccb5c88951f5acde.jpg)
 Figure 2: Fit of Original Taylor Rule, 1987-1992
 # The Taylor Rule
-$$ i _ {t} = 2 \% + \pi_ {t} + 0.5 (\pi_ {t} - 2 \%) + 0.5 \tilde {Y} _ {t}
+$$ i_{t} = 2 \% + \pi_{t} + 0.5 (\pi_{t} - 2 \%) + 0.5 \tilde {Y}_{t}
 $$
 - Key logic:
 - Raise nominal rate more than one-for-one with inflation
@@ -7566,13 +7566,13 @@ Source: Ulate (2021)
 - Need to be able to vary  $i_{t}$  in order to set  $R_{t}$
 - When  $i_{t} = 0$  we have:
 $$
-\begin{array}{l} {R _ {t}} = {i _ {t} - E _ {t} \pi_ {t + 1}} \\ = - E _ {t} \pi_ {t + 1} \\ = - \pi_ {t} \\ \end{array}
+\begin{array}{l} {R_{t}} = {i_{t} - E_{t} \pi_{t + 1}} \\ = - E_{t} \pi_{t + 1} \\ = - \pi_{t} \\ \end{array}
 $$
 - The low is inflation, the higher is the real interest rate
 # MP Curve at Zero Lower Bound
 - Phillips curve implies:
 $$
-R _ {t} = - \pi_ {t} = - \left(\pi_ {t - 1} + \bar {v} \tilde {Y} _ {t} + \bar {o}\right)
+R_{t} = - \pi_{t} = - \left(\pi_{t - 1} + \bar {v} \tilde {Y}_{t} + \bar {o}\right)
 $$
 Real rate is decreasing in the output gap
 - The bigger the recession becomes, the larger the real interest rate becomes!!
@@ -7580,11 +7580,11 @@ Real rate is decreasing in the output gap
 # MP Curve at Zero Lower Bound
 - IS Curve:
 $$
-\tilde {Y} _ {t} = \bar {a} - \bar {b} (R _ {t} - \bar {r})
+\tilde {Y}_{t} = \bar {a} - \bar {b} (R_{t} - \bar {r})
 $$
 Zero Lower Bound MP Curve
 $$
-R _ {t} = - \bar {\nu} \tilde {Y} _ {t} - \pi_ {t - 1} - \bar {\sigma}
+R_{t} = - \bar {\nu} \tilde {Y}_{t} - \pi_{t - 1} - \bar {\sigma}
 $$
 - Relative slope depends on  $\bar{b}$  and  $\bar{v}$
 - Problem: ZLB MP curve cannot be shifted down!
@@ -7601,7 +7601,7 @@ Billions of US$
 # Huge Increase in Monetary Base
 - Many people worried about inflation
 $$
-M _ {t} V _ {t} = P _ {t} Y _ {t}
+M_{t} V_{t} = P_{t} Y_{t}
 $$
 - Monetary base quadrupled, shouldn't this lead to huge amounts of inflation?
 - Monetary economists were confident that this was NOT the case!
@@ -7756,7 +7756,7 @@ Keynesian with hand-to-mouth: Multiplier  $>1$
 Identity:
 
 $$
-I = S _ {H} + S _ {c} + S _ {g}
+I = S_{H} + S_{c} + S_{g}
 $$
 - Investment must equal sum of household, corporate and government saving
 - Fama argues: This implies fiscal stimulus can't work
@@ -7783,7 +7783,7 @@ What are potential "confounding effects"?
 - Wars lead to large changes in gov. spending that are random from perspective of output
 - Barro and Redlick (2011) use wars to estimate fiscal multiplier:
 $$
-\frac {Y _ {t} - Y _ {t - 1}}{Y _ {t - 1}} = \alpha + \beta \frac {G _ {t} - G _ {t - 1}}{Y _ {t - 1}} + \mathrm {o t h e r v a r i a b l e s} + \varepsilon_ {t}
+\frac{Y_{t} - Y_{t - 1}}{Y_{t - 1}} = \alpha + \beta \frac{G_{t} - G_{t - 1}}{Y_{t - 1}} + \mathrm{ot he rv ar ia bl es} + \varepsilon_{t}
 $$
 - Where  $G_{t}$  is military spending
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/20eac9e938d7871d491ccf8e60d0a30391b8bec77c4965c95c889e193f1a4000.jpg)

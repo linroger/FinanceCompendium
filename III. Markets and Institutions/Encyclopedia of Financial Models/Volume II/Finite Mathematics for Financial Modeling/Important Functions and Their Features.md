@@ -45,7 +45,7 @@ For a formal treatment of continuity, we first concentrate on the behavior of  $
 We say that a function  $f(x)$  is continuous at  $x^{*}$  if, for any positive distance  $\delta$ , we obtain a related distance  $\varepsilon(\delta)$  such that
 
 $$
-\begin{array}{l} f (x ^ {*}) - \delta \leq f (x) \leq f (x ^ {*}) + \delta , \quad \text {f o r a l l} \\ x \in (x ^ {*} - \varepsilon (\delta), x ^ {*} + \varepsilon (\delta)) \\ \end{array}
+\begin{array}{l} f (x^{*}) - \delta \leq f (x) \leq f (x^{*}) + \delta , \quad \text{fo ra ll} \\ x \in (x^{*} - \varepsilon (\delta), x^{*} + \varepsilon (\delta)) \\ \end{array}
 $$
 
 What does that mean? We use Figure 3 to illustrate. (The function is  $f(x) = \sin (x)$  with  $x^{*} = 0.2$ .) At  $x^{*}$ , we have the value  $f(x^{*})$ . Now, we select a neighborhood around  $f(x^{*})$  of some arbitrary distance  $\delta$  as indicated by the dashed horizontal lines through  $f(x^{*}) - \delta$  and  $f(x^{*}) + \delta$ , respectively. From the intersections of these horizontal lines and the function graph (solid line), we extend two vertical dash-dotted lines down to the  $x$ -axis so that we obtain the two values  $x^{L}$  and  $x^{U}$ , respectively. Now, we measure the distance between  $x^{L}$  and  $x^{*}$  and also the distance between  $x^{U}$  and  $x^{*}$ . The smaller of the two yields the distance  $\varepsilon(\delta)$ . With this distance  $\varepsilon(\delta)$  on the  $x$ -axis, we obtain the environment  $(x^{*} - \varepsilon(\delta), x^{*} + \varepsilon(\delta))$  about  $x^{*}$ . (Note that  $x^{L} = x^{*} - \varepsilon_{\delta}$ , since the distance between  $x^{L}$  and  $x^{*}$  is the shorter one.) The environment is indicated by the dashed lines extending vertically above  $x^{*} - \varepsilon(\delta)$  and  $x^{*} + \varepsilon(\delta)$ , respectively. We require that all  $x$  that lie in  $(x^{*} - \varepsilon(\delta), x^{*} + \varepsilon(\delta))$  yield values  $f(x)$  inside of the environment  $[f(x^{*}) - \delta, f(x^{*}) + \delta]$ . We can see by Figure 3 that this is satisfied.
@@ -65,20 +65,20 @@ Finally, we say that the function  $f$  is continuous if it is continuous at all
 The indicator function acts like a switch. Often, it is denoted by  $1_{\mathrm{A}}(X)$  where  $A$  is the event of interest and  $X$  is a random variable. So,  $1_{\mathrm{A}}(X)$  is 1 if the event  $A$  is true, that is, if  $X$  assumes a value in  $A$ . Otherwise,  $1_{\mathrm{A}}(X)$  is 0. Formally, this is expressed as
 
 $$
-1 _ {A} (X) = \left\{ \begin{array}{l l} 1 & X \in A \\ 0 & \text {o t h e r w i s e} \end{array} \right.
+1_{A} (X) = \left\{ \begin{array}{l l} 1 & X \in A \\ 0 & \text{ot he rw is e} \end{array} \right.
 $$
 
 Usually, indicator functions are applied if we are interested in whether a certain event has occurred or not. For example, in a simple way, the value  $V$  of a company may be described by a real numbered random variable  $X$  on  $\Omega = R$  with a particular probability distribution  $P$ . Now, the value  $V$  of the company may be equal to  $X$  as long as  $X$  is greater than 0. In the case where  $X$  assumes a negative value or 0, then  $V$  is automatically 0, that is, the company is bankrupt. So, the event of interest is  $A = [0, \infty)$ , that is, we want to know whether  $X$  is still positive. Using the indicator function this can be expressed as
 
 
 $$
-1 _ {[ 0, \infty)} (X) = \left\{ \begin{array}{l l} 1 & X \in [ 0, \infty) \\ 0 & \mathrm {o t h e r w i s e} \end{array} \right.
+1_{[ 0, \infty)} (X) = \left\{ \begin{array}{l l} 1 & X \in [ 0, \infty) \\ 0 & \mathrm{ot he rw is e} \end{array} \right.
 $$
 
 Finally, the company value can be given as
 
 $$
-V = 1 _ {[ 0, \infty)} (X) \cdot X = \left\{ \begin{array}{l} X X \in [ 0, \infty) \\ 0 \text {o t h e r w i s e} \end{array} \right.
+V = 1_{[ 0, \infty)} (X) \cdot X = \left\{ \begin{array}{l} X X \in [ 0, \infty) \\ 0 \text{ot he rw is e} \end{array} \right.
 $$
 
 The company value  $V$  as a function is depicted in Figure 4. We can clearly detect the kink at  $x = 0$  where the indicator function becomes 1 and, hence,  $V = X$ .
@@ -102,7 +102,7 @@ Figure 6 Functions  $f$  and  $g$  with Slopes Measured at the Points  $(x^{*},f
 
 We begin the analysis of the graphs' slopes with function  $g$  on the top right of the figure. Let us focus on the point  $(x^{+}, g(x^{+}))$  given by the solid circle at the lower end of graph  $g$ . Now, when we move to the right by  $\Delta x_{4}$  along the horizontal dashed line, the corresponding increase in  $g$  is given by  $\Delta y_{4}$ , as indicated by the vertical dashed line. If, on the other hand, we moved to the right by the longer distance,  $\Delta x_{5}$ , the according increment of  $g$  would be given by  $\Delta y_{5}$ . (This vertical increment  $\Delta y_{5}$  is also indicated by a vertical dashed line.) Since  $g$  is linear, it has constant slope everywhere and, hence, also at the point  $(x^{+}, f(x^{+}))$ . We denote that slope by  $s_{4}$ . This implies that the ratios representing the relative increments (i.e., the slopes) have to be equal. That is,
 
-$$ s _ {4} = \frac {\Delta y _ {4}}{\Delta x _ {4}} = \frac {\Delta y _ {5}}{\Delta x _ {5}}
+$$ s_{4} = \frac{\Delta y_{4}}{\Delta x_{4}} = \frac{\Delta y_{5}}{\Delta x_{5}}
 $$
 
 Next, we focus on the graph of  $f$  on the lower left of Figure 6. Suppose we measured the slope of  $f$  at the point  $(x^{*},f(x^{*}))$ . If we extended a step along the dashed line to the right by  $\Delta x_{1}$ , the corresponding increment in  $f$  would be  $\Delta y_{1}$  as indicated by the leftmost vertical dashed line. If we moved, instead, by the longer  $\Delta x_{2}$  to the right, the corresponding increment in  $f$  would be  $\Delta y_{2}$ . And a horizontal increment of  $\Delta x_{3}$  would result in an increase of  $f$  by  $\Delta y_{3}$ .
@@ -110,20 +110,20 @@ Next, we focus on the graph of  $f$  on the lower left of Figure 6. Suppose we m
 In contrast to the graph of  $g$ , the graph of  $f$  does not exhibit the property of a constant increment  $\Delta y$  in  $f$  per unit step  $\Delta x$  to the right. That is, there is no constant slope of  $f$ , which results in the fact that the three ratios of the relative increase of  $f$  are different. To be precise, we have
 
 $$
-\frac {\Delta y _ {1}}{\Delta x _ {1}} > \frac {\Delta y _ {2}}{\Delta x _ {2}} > \frac {\Delta y _ {3}}{\Delta x _ {3}}
+\frac{\Delta y_{1}}{\Delta x_{1}} > \frac{\Delta y_{2}}{\Delta x_{2}} > \frac{\Delta y_{3}}{\Delta x_{3}}
 $$ as can be seen in Figure 6. So, the shorter our step  $\Delta x$  to the right, the steeper the slopes of the thin solid lines through  $(x^{*},f(x^{*}))$  and the corresponding points on the curve,  $(x^{*} + \Delta x_{1}$ $f(x^{*} + \Delta x_{1}))$ $(x^{*} + \Delta x_{2},f(x^{*} + \Delta x_{2}))$  ,and  $(x^{*} + \Delta x_{2},$
 
 
 $f(x^{*} + \Delta x_{2}))$  , respectively. That means that, the smaller the increment  $\Delta x$  , the higher the relative increment  $\Delta y$  of  $f$  . So, finally, if we moved only a minuscule step to the right from  $(x^{*},f(x^{*}))$  , we would obtain the steepest thin line and, consequently, the highest relative increase in  $f$  given by
 
 $$
-\frac {\Delta y}{\Delta x} \tag {1}
+\frac{\Delta y}{\Delta x} \tag {1}
 $$
 
 By letting  $\Delta x$  approach 0, we obtain the marginal increment, in case the limit of (1) exists (i.e., if the ratio has a finite limit). Formally,
 
 $$
-\frac {\Delta y}{\Delta x} \xrightarrow {\Delta x \to 0} s (x) \quad \text {w i t h} \quad - \infty <   s (x) <   \infty
+\frac{\Delta y}{\Delta x} \xrightarrow {\Delta x \to 0} s (x) \quad \text{wi th} \quad - \infty <   s (x) <   \infty
 $$
 
 This marginal increment  $s(x)$  is different, at any point on the graph of  $f$ , while we have seen that it is constant for all points on the graph of  $g$ .
@@ -133,23 +133,23 @@ This marginal increment  $s(x)$  is different, at any point on the graph of  $f$
 The limit analysis of marginal increments now brings us to the notion of a derivative that we discuss next. Earlier we introduced the limit growth rate of some continuous function at some point  $(x_0, f(x_0))$ . To represent the slope of the line through  $(x_0, f(x_0))$  and  $(x_0 + \Delta x, f(x_0 + \Delta x))$ , we define the difference quotient
 
 $$
-\frac {f \left(x _ {0} + \Delta x\right) - f \left(x _ {0}\right)}{\Delta x} \tag {2}
+\frac{f \left(x_{0} + \Delta x\right) - f \left(x_{0}\right)}{\Delta x} \tag {2}
 $$
 
 If we let  $\Delta x\to 0$  , we obtain the limit of the difference quotient (2). If this limit is not finite, then we say that it does not exist. Suppose we were not only interested in the behavior of  $f$  when moving  $\Delta x$  to the right but also wanted to analyze the reaction by  $f$  to a step  $\Delta x$  to the left. We would then obtain two limits of (2). The first with  $\Delta x^{+} > 0$  (i.e., a step to the right) would be the upper limit  $L^U$
 
 $$
-\frac {f (x _ {0} + \Delta x ^ {+}) - f (x _ {0})}{\Delta x ^ {+}} \xrightarrow {\Delta x ^ {+} \rightarrow 0} L ^ {U}
+\frac{f (x_{0} + \Delta x^{+}) - f (x_{0})}{\Delta x^{+}} \xrightarrow {\Delta x^{+} \rightarrow 0} L^{U}
 $$ and the second with  $\Delta x^{-} < 0$  (i.e., a step to the left), would be the lower limit  $L^L$
 
 
 $$
-\frac {f \left(x _ {0} + \Delta x ^ {-}\right) - f \left(x _ {0}\right)}{\left| \Delta x ^ {-} \right|} \xrightarrow {\Delta x ^ {-} \rightarrow 0} L ^ {U}
+\frac{f \left(x_{0} + \Delta x^{-}\right) - f \left(x_{0}\right)}{\left| \Delta x^{-} \right|} \xrightarrow {\Delta x^{-} \rightarrow 0} L^{U}
 $$
 
 If  $L^U$  and  $L^L$  are equal,  $L^U = L^L = L$ , then  $f$  is said to be differentiable at  $x_0$ . The limit  $L$  is the derivative of  $f$ . We commonly write the derivative in the fashion
 
-$$ f ^ {\prime} \left(x _ {0}\right) = \left. \frac {d f (x)}{d x} \right| _ {x = x _ {0}} = \left. \frac {d y}{d x} \right| _ {x = x _ {0}} \tag {3}
+$$ f^{\prime} \left(x_{0}\right) = \left. \frac{d f (x)}{d x} \right|_{x = x_{0}} = \left. \frac{d y}{d x} \right|_{x = x_{0}} \tag {3}
 $$
 
 On the right side of (3), we have replaced  $f(x)$  by the variable  $y$  as we will often do, for convenience. If the derivative (3) exists for all  $x$ , then  $f$  is said to be differentiable.
@@ -200,7 +200,7 @@ Figure 9 Approximation of the Area  $A$  between Graph of  $f(t)$  and the Horiz
 Let's approximate the area  $A$  under the function graph in Figure 9 as follows. As a first step, we dissect the interval between 0 and  $T$  into  $n$  equidistant intervals of length  $\Delta t = t_{i + 1} - t_i$  for  $i = 0,1,\ldots ,n - 1$ . For each such interval, we consider the function value  $f(t_{i + 1})$  at the rightmost point,  $t_{i + 1}$ . To obtain an estimate of the area under the graph for the respective interval, we multiply the value  $f(t_{i + 1})$  at  $t_{i + 1}$  by the interval width  $\Delta t$  yielding  $A$  ( $t_{i + 1}) = \Delta t\cdot f$  ( $t_{i + 1}$ ), which equals the area of the rectangle above interval  $i + 1$  as displayed in Figure 9. Finally, we add up the areas  $A(t_1),A(t_2),\dots,A(T)$  of all rectangles resulting in the desired estimate of the area  $A$
 
 $$
-\sum_ {i = 0} ^ {n - 1} A \left(t _ {i + 1}\right) = \sum_ {i = 0} ^ {n - 1} \Delta t \cdot f \left(t _ {i + 1}\right) \tag {4}
+\sum_{i = 0}^{n - 1} A \left(t_{i + 1}\right) = \sum_{i = 0}^{n - 1} \Delta t \cdot f \left(t_{i + 1}\right) \tag {4}
 $$
 
 We repeat the just described procedure for decreasing interval widths  $\Delta t$ .
@@ -212,14 +212,14 @@ To derive the perfect approximation of the area under the curve in Figure 9, we 
 Summation as in equation (4) of the areas of the dashes becomes infeasible. For this purpose, the integral has been introduced as the limit of (4) as  $\Delta t\to 0$  .(Conditions under which these limits exist are omitted here.) It is denoted by
 
 $$
-\int_ {0} ^ {T} f (t) d t \tag {5}
+\int_{0}^{T} f (t) d t \tag {5}
 $$ where the limits 0 and  $T$  indicate which interval the integration is performed on. In our case, the integration variable is  $t$  while the function  $f(t)$  is called the integrand. In words, equation (5) is the integral of the function  $f(t)$  over  $t$  from 0 to  $T$ . It is immaterial how we denote the integration variable. The same result as in equation (5)
 
 
 would result if we wrote
 
 $$
-\int_ {0} ^ {T} f (y) d y
+\int_{0}^{T} f (y) d y
 $$ instead. The important factors are the integrand and the integral limits.
 
 
@@ -228,7 +228,7 @@ Note that instead of using the function values of the right boundaries of the in
 If we keep 0 as the lower limit of the integral in equation (5) and vary  $T$ , then equation (5) becomes a function of the variable  $T$ . We may denote this function by
 
 $$
-F (T) = \int_ {0} ^ {T} f (t) d t \tag {6}
+F (T) = \int_{0}^{T} f (t) d t \tag {6}
 $$
 
 # Relationship Between Integral and Derivative
@@ -236,7 +236,7 @@ $$
 In equation (6) the relationship between  $f(t)$  and  $F(T)$  is as follows. Suppose we compute the derivative of  $F(T)$  with respect to  $T$  and assume that  $F(T)$  is differentiable, for  $T > 0$ . The result is
 
 $$
-F ^ {\prime} (T) = \frac {d F (T)}{d T} = f (T) \tag {7}
+F^{\prime} (T) = \frac{d F (T)}{d T} = f (T) \tag {7}
 $$
 
 Hence, from equation (7) we see that the marginal increment of the integral at any point (i.e., its derivative) is exactly equal to the integrand evaluated at the according value. This need not generally be true. But in most cases, particularly in financial modeling, this statement is valid.
@@ -245,7 +245,7 @@ The implication of this discussion for probability theory is as follows. Let  $P
 
 
 $$
-P (X \leq x) = F (x) = \int_ {- \infty} ^ {\infty} f (x) d x \tag {8}
+P (X \leq x) = F (x) = \int_{- \infty}^{\infty} f (x) d x \tag {8}
 $$
 
 Formally, the integration of  $f$  over  $x$  is always from  $-\infty$  to  $\infty$ , even if the support is not on the entire real line. This is no problem, however, since the density is zero outside the support and, hence, integration over those parts yields 0 contribution to the integral. For example, suppose that some density function were
@@ -255,7 +255,7 @@ $$ where  $h(x)$  is just some function such that  $f$  satisfies the requiremen
 
 
 $$
-\int_ {- \infty} ^ {\infty} f (x) d x = \int_ {0} ^ {\infty} f (x) d x = \int_ {0} ^ {\infty} h (x) d x \tag {10}
+\int_{- \infty}^{\infty} f (x) d x = \int_{0}^{\infty} f (x) d x = \int_{0}^{\infty} h (x) d x \tag {10}
 $$
 
 # SOME FUNCTIONS
@@ -276,7 +276,7 @@ A factorial is the product of this number and all natural numbers smaller than  
 The gamma function for nonnegative values  $x$  is defined by
 
 $$
-\Gamma (x) = \int_ {0} ^ {\infty} e ^ {- t} t ^ {x - 1} d t, \quad x \geq 0 \tag {12}
+\Gamma (x) = \int_{0}^{\infty} e^{- t} t^{x - 1} d t, \quad x \geq 0 \tag {12}
 $$
 
 The gamma function has the following properties. If the  $x$  correspond with a natural number  $n \in \mathbb{N}$  (i.e.,  $n = 1,2,\ldots$ ), then we have that equation (12) equals the factorial given by equation (11) of  $n - 1$ . Formally, this is
@@ -294,7 +294,7 @@ In Figure 10, we have displayed part of the gamma function for  $x$  values betw
 The beta function with parameters  $c$  and  $d$  is defined as
 
 $$
-\begin{array}{l} B (c, d) = \int_ {0} ^ {1} u ^ {c - 1} (1 - u) ^ {d - 1} d u \\ = \frac {\Gamma (c) \Gamma (d)}{\Gamma (c + d)} \\ \end{array}
+\begin{array}{l} B (c, d) = \int_{0}^{1} u^{c - 1} (1 - u)^{d - 1} d u \\ = \frac{\Gamma (c) \Gamma (d)}{\Gamma (c + d)} \\ \end{array}
 $$ where  $\Gamma$  is the gamma function from equation (12).
 
 
@@ -303,7 +303,7 @@ $$ where  $\Gamma$  is the gamma function from equation (12).
 The Bessel function of the third kind is defined as
 
 $$
-K _ {1} (x) = \frac {1}{2} \int_ {0} ^ {\infty} \exp \left\{- \frac {x}{2} \left(y + \frac {1}{y}\right) \right\} d y
+K_{1} (x) = \frac{1}{2} \int_{0}^{\infty} \exp \left\{- \frac{x}{2} \left(y + \frac{1}{y}\right) \right\} d y
 $$
 
 This function is often a component of other, more complex functions such as the density function of the NIG distribution.
@@ -320,7 +320,7 @@ Figure 11 Graphical Representation of the Complex Number  $z = 0.8 + 0.9i$
 
 Suppose we were to take the square root of the number  $-1$ , that is,  $\sqrt{-1}$ . So far, our calculus has no solution for this since the square root of negative numbers has not yet been introduced. However, by introducing the imaginary number  $i$ , which is defined as
 
-$$ i = \sqrt {- 1}
+$$ i = \sqrt{- 1}
 $$ we can solve square roots of any real number. Now, we can represent any number as the combination of a real  $(Re)$  part  $a$  plus some units  $b$  of  $i$ , which we refer to as the imaginary  $(Im)$  part. Then, any number  $z$  will look like
 
 
@@ -333,7 +333,7 @@ Now, we can introduce the characteristic function as some function  $\phi$  mapp
 
 
 $$
-\phi (t) = \int_ {- \infty} ^ {\infty} e ^ {i t x} f (x) d x \tag {14}
+\phi (t) = \int_{- \infty}^{\infty} e^{i t x} f (x) d x \tag {14}
 $$ which transforms the density  $f$  into some complex number at any real position  $t$ . Equation (14) is commonly referred to as the Fourier transformation of the density.
 
 

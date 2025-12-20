@@ -25,25 +25,25 @@ The starting point of VaR modeling is a time series  $Y_{1}, Y_{2}, \ldots, Y_{n
 
 Let  $\eta$  be the number of times the realized losses exceed the VaR threshold. The risk manager expects ex ante that  $\mathbb{E}(\eta) = n\alpha$ . However, ex post it is likely that  $\eta \neq n\alpha$ . For backtesting, the daily loss series implies a sequence of success or failure, depending whether the loss is greater than VaR threshold or not. The probability of failure is  $\alpha$  and therefore, with  $n$  datapoints, the probability density function of  $\eta$  is given by the binomial distribution with parameters  $\eta$  and  $\alpha$
 
-$$ p (\eta = x) = \left( \begin{array}{c} n \\ x \end{array} \right) \alpha^ {x} (1 - \alpha) ^ {n - x} \tag {1}
+$$ p (\eta = x) = \left( \begin{array}{c} n \\ x \end{array} \right) \alpha^{x} (1 - \alpha)^{n - x} \tag {1}
 $$ for  $x\in \{0,1,2,\ldots \}$  . If the sample size  $n$  is large enough, the central limit theorem implies that  $\frac{\eta - n\alpha}{\sqrt{n\alpha(1 - \alpha)}}$  follows a standard Gaussian distribution. An asymptotic confidence interval for the number of losses that will be seen  $\eta$  can then be easily calculated. For example, a  $95\%$  asymptotic confidence interval for  $\eta$  is
 
 
 $$
-\begin{array}{l} - 1. 9 6 \sqrt {n \alpha (1 - \alpha)} + n \alpha <   \eta \\ <   1. 9 6 \sqrt {n \alpha (1 - \alpha)} + n \alpha \tag {2} \\ \end{array}
+\begin{array}{l} - 1. 9 6 \sqrt{n \alpha (1 - \alpha)} + n \alpha <   \eta \\ <   1. 9 6 \sqrt{n \alpha (1 - \alpha)} + n \alpha \tag {2} \\ \end{array}
 $$
 
-From the probabilistic point of view the  $\mathrm{P / L}$  values constitute a random sample  $\{\Upsilon_1,\Upsilon_2,\dots ,\Upsilon_n\}$  with cumulative distribution function
+From the probabilistic point of view the  $\mathrm{P /L}$  values constitute a random sample  $\{\Upsilon_1,\Upsilon_2,\dots ,\Upsilon_n\}$  with cumulative distribution function
 
 $$
-F \left(y _ {1}, y _ {2}, \dots , y _ {n}; \theta\right) = \prod_ {i = 1} ^ {n} F _ {k} \left(y _ {k}; \phi_ {k}\right) = \prod_ {i = 1} ^ {n} F \left(y; \phi\right)
+F \left(y_{1}, y_{2}, \dots , y_{n}; \theta\right) = \prod_{i = 1}^{n} F_{k} \left(y_{k}; \phi_{k}\right) = \prod_{i = 1}^{n} F \left(y; \phi\right)
 $$ where the last equality follows from the IID assumptions. For the empirical calculations of VaR the reordered sample  $(Y_{[1]}, Y_{[2]}, \ldots, Y_{[n]})$ , with  $Y_{[1]} \leq Y_{[2]} \leq \ldots \leq Y_{[n]}$  is of interest because the VaR at level  $\alpha$  is equal to the negative of the  $\nu$ -th lowest value, where  $\nu = 100\alpha + 1$ . The statistic  $Y_{[1]}$  is called the first order statistic,  $Y_{[2]}$  is called the second order statistic, and so on.  $Y_{[n]}$  is called the  $n$ -th order statistic, and they are all sample quantiles. The theory of order statistics allows making calculations on sample quantiles. This translates for empirical work based on the sample above into calculating the negative of the  $\nu$ -th lowest value, where  $\nu = n\alpha + 1$ , or  $Y_{[\nu]}$ .
 
 
 The portfolio losses can be analyzed through the empirical cumulative distribution function
 
 $$
-\tilde {F} (y) = \left\{ \begin{array}{l l} 0 & \text {i f} y <   Y _ {[ 1 ]} \\ \frac {j}{n} & \text {i f} Y _ {[ j ]} \leq y <   Y _ {[ j + 1 ]} \\ 1 & \text {i f} y \geq Y _ {[ v ]} \end{array} \right. \tag {3}
+\tilde {F} (y) = \left\{ \begin{array}{l l} 0 & \text{if } y <   Y_{[ 1 ]} \\ \frac{j}{n} & \text{if } Y_{[ j ]} \leq y <   Y_{[ j + 1 ]} \\ 1 & \text{if } y \geq Y_{[ v ]} \end{array} \right. \tag {3}
 $$
 
 The inverse of this empirical cdf can be used as an estimator of VaR at  $\alpha$  level. The VaR estimator is the order statistic  $Y_{[j]}$  such that  $\frac{j - 1}{\upsilon} < \alpha \leq \frac{j}{\upsilon}$ , which is slightly different from the upper empirical cumulative distribution function value calculated as the  $Y_{[j]}$  such that  $\frac{j - 1}{\upsilon} \leq \alpha < \frac{j}{\upsilon}$ . Mausser (2001) pointed out that with 100 IID P/L values, the VaR at  $5\%$  level would be estimated by the former estimator as  $Y_{[5]}$  and by the latter as  $Y_{[6]}$ .
@@ -51,19 +51,19 @@ The inverse of this empirical cdf can be used as an estimator of VaR at  $\alpha
 One major criticism in using VaR to quantify potential losses is the inability to gauge the size of extreme losses. To overcome this problem another risk measure called expected tail loss (ETL) has been introduced. The ETL is defined as the mean losses that exceed the VaR threshold. Hence, within the same framework proposed to calculate VaR, one can determine ETL by simply estimating the mean of the sam ple censored by the VaR estimate. If  $Y_{[j]}$  is the order statistic estimator representing VaR, ETL can be estimated as the average of  $(Y_{[1]}, Y_{[2]}, \ldots, Y_{[j-1]})$ . It is important to realize that while ETL may be more informative for gauging the potential losses than VaR, from an estimation point of view ETL will always depend on VaR.
 
 
-The calculation of VaR and expected tail loss (ETL) with the order statistics methodology can be easily implemented in Matlab. Table 1 contains the VaR and ETL as estimated via the order statistics method for simulated samples using the Gaussian distribution and the  $t$  distribution for the series of  $\mathrm{P / L}$ , at various confidence levels and sample sizes. In addition, the confidence intervals determined as the  $0.025\%$  and  $0.975\%$  percentiles of the distribution of each risk measure are also included. For a given sample size, the confidence intervals for both VaR and ETL are widening with the increase in the level of confidence, as shown in Figures 1 and 2. Similar results are obtained for larger sample sizes and other distributions. For a prespecified level of confidence, the confidence intervals tend to go narrower with the increase in the sample size.
+The calculation of VaR and expected tail loss (ETL) with the order statistics methodology can be easily implemented in Matlab. Table 1 contains the VaR and ETL as estimated via the order statistics method for simulated samples using the Gaussian distribution and the  $t$  distribution for the series of  $\mathrm{P /L}$ , at various confidence levels and sample sizes. In addition, the confidence intervals determined as the  $0.025\%$  and  $0.975\%$  percentiles of the distribution of each risk measure are also included. For a given sample size, the confidence intervals for both VaR and ETL are widening with the increase in the level of confidence, as shown in Figures 1 and 2. Similar results are obtained for larger sample sizes and other distributions. For a prespecified level of confidence, the confidence intervals tend to go narrower with the increase in the sample size.
 
 # JOINT PROBABILITY DISTRIBUTIONS FOR ORDER STATISTICS
 
 If  $F_{[i]}(u) = P(Y_{[i]}\leq u)$  is the cumulative distribution function of the  $i$ -th order statistic, then it is not difficult to see that  $F_{[1]}(y) = 1 - [1 - F(y;\phi)]^n$  and  $F_{[n]}(y) = F[(y;\phi)]^n$ . Exploiting the fact that we use the quantile as a VaR estimator, Dowd (2001) suggested applying the following known result from order statistics for backtesting purposes
 
 $$
-\begin{array}{l} P (\text {e x a c t l y} j \text {v a l u e s f r o m} Y _ {1}, Y _ {2}, \dots , Y _ {n} \text {a r e} \leq y) \\ = \binom {n} {j} F (y; \phi) ^ {j} [ 1 - F (y; \phi) ] ^ {n - j} \tag {4} \\ \end{array}
+\begin{array}{l} P (\text{ex ac tl y} j \text{va lu es fr om} Y_{1}, Y_{2}, \dots , Y_{n} \text{ar e} \leq y) \\ = \binom {n} {j} F (y; \phi)^{j} [ 1 - F (y; \phi) ]^{n - j} \tag {4} \\ \end{array}
 $$ to derive the cumulative distribution function of this estimator
 
 
 $$
-F _ {[ j ]} (y) = P \left(Y _ {[ j ]} \leq y\right) = \sum_ {i = j} ^ {n} \binom {n} {i} F (y; \phi) ^ {i} [ 1 - F (y; \phi) ] ^ {n - i} \tag {5}
+F_{[ j ]} (y) = P \left(Y_{[ j ]} \leq y\right) = \sum_{i = j}^{n} \binom {n} {i} F (y; \phi)^{i} [ 1 - F (y; \phi) ]^{n - i} \tag {5}
 $$
 
 Table 1 Order Statistics for VaR and ETL for One-Day Holding Period at  $90\%$ $95\%$  and  $99\%$  Confidence Levels and Various Sample Sizes Using Standard Normal Distribution and t Distribution
@@ -75,13 +75,13 @@ Note: The number of degrees of freedom for  $t$  is chosen as the sample size mi
 In the following we shall denote  $F(y; \phi)$  by  $F(y)$ , for simplicity. David (1981) pointed to the following useful result giving an analytical formula for the distribution function of the order statistic of order  $j$ .
 
 $$
-F _ {[ j ]} (y) = \mathcal {B} _ {F (y)} (j, n - j + 1) \tag {6}
+F_{[ j ]} (y) = \mathcal {B}_{F (y)} (j, n - j + 1) \tag {6}
 $$ where  $\mathcal{B}_U(a,b) = \frac{\int_0^U t^{a - 1}(1 - t)^{b - 1}dt}{\mathrm{B}(a,b)}$  is the incomplete beta function and  $B(a,b)$  is the beta function. This helps to calculate the pdf function for those distributions that are absolute continuous with respect to a dominant probability measure. The probability density function of
 
 
 the  $j$ -th order statistics is
 
-$$ q _ {[ j ]} (y) = \frac {1}{B (j , n - j + 1)} F ^ {j - 1} (y) [ 1 - F (y) ] ^ {n - j} f (y) \tag {7}
+$$ q_{[ j ]} (y) = \frac{1}{B (j , n - j + 1)} F^{j - 1} (y) [ 1 - F (y) ]^{n - j} f (y) \tag {7}
 $$ where  $f(y) = \frac{dF}{dy}(y)$ .
 
 
@@ -101,7 +101,7 @@ $$ has a unique solution. This solution refers to the entire population and it i
 The order statistics can provide a distribution-free confidence interval for the population quantiles. Thompson (1936) showed that
 
 $$
-P \left(Y _ {[ i ]} \leq z _ {\alpha} \leq Y _ {[ j ]}\right) = \sum_ {k = i} ^ {j - 1} \binom {n} {k} \alpha^ {k} (1 - \alpha) ^ {n - k} \tag {9}
+P \left(Y_{[ i ]} \leq z_{\alpha} \leq Y_{[ j ]}\right) = \sum_{k = i}^{j - 1} \binom {n} {k} \alpha^{k} (1 - \alpha)^{n - k} \tag {9}
 $$
 
 This powerful result allows the construction of distribution-free confidence intervals for VaR. For given sample size  $n$  and VaR level  $\alpha$ , there are many combinations of  $i$  and  $j$  that make the quantity in (9) larger or equal to  $1 - a$ , the confidence level desired. There may be several combinations of order statistics  $Y_{[i]}$ ,  $Y_{[j]}$  that satisfy the relationship (9) and the risk manager may decide to select the combination leading to the shortest confidence interval. Remark that choosing the degree of confidence  $1 - a$  is independent of the level of confidence  $\alpha$  for VaR point-estimation. In other words, a  $95\%$  confidence interval for the population quantile  $z_{\alpha}$  can be calculated for  $95\%$  VaR or for  $99\%$  VaR.
@@ -118,20 +118,20 @@ Figure 2 VaR for Normal P/L versus Level of Confidence When the Sample Size Is 1
 $99\%$  VaR can be more than  $50\%$  larger than the corresponding standard error for the  $95\%$  VaR. This is the case for a model using the Gaussian distribution and it can be even worse for fat tail distributions, with the confidence intervals for the first percentile four times wider than confidence intervals for the fifth percentile. For backtesting purposes it would be ideal to do a joint analysis. Thus, the bivariate joint distribution of two order statistics will provide the confidence regions (two-dimensional sets) for pairs of VaR estimates. For example, the confidence regions for  $1\%$  VaR and  $5\%$  VaR are recovered from the bivariate joint distribution of  $\Upsilon_{[v1]}$ ,  $\Upsilon_{[v2]}$  where  $\upsilon_{1} = n\times 1 / 100 + 1$  and  $\upsilon_{2} = n\times 5 / 100 + 1$ , respectively. This distribution is fully characterized by
 
 $$
-F _ {[ i, j ]} (x, y) = P \left(Y _ {[ i ]} \leq x, Y _ {[ j ]} \leq y\right) \tag {10}
+F_{[ i, j ]} (x, y) = P \left(Y_{[ i ]} \leq x, Y_{[ j ]} \leq y\right) \tag {10}
 $$ with  $1 \leq i < j \leq n$ . The probability on the right side of equation (10) can be interpreted as the
 
 
 probability that at least  $i$  values from the entire sample  $Y_{1}, Y_{2}, \ldots, Y_{n}$  are not greater than  $x$  and at least  $j$  values from the same sample  $Y_{1}, Y_{2}, \ldots, Y_{n}$  are not greater than  $y$ . Hence
 
 $$
-\begin{array}{l} F_{[i,j]}(x,y) = \sum_{k = j}^{n}\sum_{s = i}^{k}P(\text{exactly} i\text{of} Y_{1},Y_{2},\ldots ,Y_{n}\\ \text{are} <  x\text{and} \\ \text {e x a c t l y} j \text {o f} Y _ {1}, Y _ {2}, \dots , Y _ {n} \text {a r e} \leq y) \tag {11} \\ \end{array}
+\begin{array}{l} F_{[i,j]}(x,y) = \sum_{k = j}^{n}\sum_{s = i}^{k}P(\text{exactly} i\text{of} Y_{1},Y_{2},\ldots ,Y_{n}\\ \text{are} <  x\text{and} \\ \text{ex ac tl y} j \text{of} Y_{1}, Y_{2}, \dots , Y_{n} \text{ar e} \leq y) \tag {11} \\ \end{array}
 $$
 
 As in the univariate case, see David (1981), it follows that
 
 $$
-\begin{array}{l} F _ {[ i, j ]} (x, y) = \sum_ {k = j} ^ {n} \sum_ {s = i} ^ {k} \frac {n !}{s ! (k - s) ! (n - k) !} \\ \times [ F (x) ] ^ {s} [ F (y) - F (x) ] ^ {k - s} [ 1 - F (y) ] ^ {n - k} \tag {12} \\ \end{array}
+\begin{array}{l} F_{[ i, j ]} (x, y) = \sum_{k = j}^{n} \sum_{s = i}^{k} \frac{n !}{s ! (k - s) ! (n - k) !} \\ \times [ F (x) ]^{s} [ F (y) - F (x) ]^{k - s} [ 1 - F (y) ]^{n - k} \tag {12} \\ \end{array}
 $$ for any  $x < y$ . Since for  $x \geq y$  the event  $\{Y_{[j]} \leq y\}$  implies  $Y_{[i]} \leq x$  then  $F_{[i,j]}(x,y) = F_{[j]}(y)$ .
 
 

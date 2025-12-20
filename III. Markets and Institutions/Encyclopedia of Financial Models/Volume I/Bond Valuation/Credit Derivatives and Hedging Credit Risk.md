@@ -144,7 +144,7 @@ The instantaneous probability of default can be specified as a linear function o
 $r$  and a macroeconomic factor with normally distributed return  $Z$ :
 
 $$
-\lambda (t) = \lambda_ {0} + \lambda_ {1} r (t) + \lambda_ {2} Z (t)
+\lambda (t) = \lambda_{0} + \lambda_{1} r (t) + \lambda_{2} Z (t)
 $$
 
 The constant term in this expression is an idiosyncratic term that is unique to the company. Random movements in the short rate  $r$  and the macroeconomic factor  $Z$  will cause correlated movements in the default intensities for all companies whose risk is driven by common factors. The default intensity has a term structure like the term structure of interest rates, and this entire term structure moves up and down with the business cycle as captured by the macroeconomic factors. The parameters of this reduced from model can be derived by observable histories of bond prices of each counterparty or from observable histories of credit derivatives prices using enterprise-wide risk management software.
@@ -152,7 +152,7 @@ The constant term in this expression is an idiosyncratic term that is unique to 
 Alternatively, a historical default database can be used to parameterize the term structure of default probabilities using discrete instead of continuous default probabilities, just as discrete interest rates are used in practice based on yield curve movements in continuous time. The most common approach to historical default probability estimation uses logistic regression. For each company, monthly observations are denoted 0 if the company is not bankrupt in the following month and 1 if the company does go bankrupt in the next month. Explanatory variables  $X_{i}$  are selected and the parameters  $\alpha$  and  $\beta$ , which produce the best fitting predictions of the default probability using the following logistic regression formula:
 
 $$
-\mathrm {P} [ t ] = 1 / \left[ 1 + \exp \left(- \alpha - \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \beta_ {\mathrm {i}} X _ {\mathrm {i}}\right) \right]
+\mathrm{P} [ t ] = 1 / \left[ 1 + \exp \left(- \alpha - \sum_{\mathrm{i} = 1}^{\mathrm{n}} \beta_{\mathrm{i}} X_{\mathrm{i}}\right) \right]
 $$
 
 By fitting this logistic regression for each default probability on the default probability term structure, one can build the entire cumulative and annualized default probability term structures for a large universe of corporations. Figure 3 shows the cumulative term structure of default probabilities for Washington Mutual, just prior to its failure in September 2008.
@@ -169,7 +169,7 @@ Van Deventer, Imai, and Mesler (2004) then summarize how to calculate the macroe
 
 
 $$
-\begin{array}{l} \partial v _ {l} (t, T: i) / \partial M (t) = - [ \partial \gamma_ {i} (t, T) / \partial M (t) \\ + \lambda_ {2} (1 - \delta_ {i}) (T - t) / \\ \left. \sigma_ {m} M (t) \right] v _ {l} (t, T: i) \\ \end{array}
+\begin{array}{l} \partial v_{l} (t, T: i) / \partial M (t) = - [ \partial \gamma_{i} (t, T) / \partial M (t) \\ + \lambda_{2} (1 - \delta_{i}) (T - t) / \\ \left. \sigma_{m} M (t) \right] v_{l} (t, T: i) \\ \end{array}
 $$
 
 The variable  $\nu$  is the value of risky zero-coupon debt and  $\gamma$  is the liquidity discount function representing the illiquidities often observed in the debt market. There are similar formulas in the Jarrow model for hedging

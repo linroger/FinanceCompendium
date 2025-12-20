@@ -69,19 +69,19 @@ Imagine an economy that can produce two goods, cloth and food. Instead of one fa
 How much of each good does the economy produce? The economy's output of cloth depends on how much capital and labor are used in that sector. This relationship is summarized by a production function that tells us the quantity of cloth that can be produced given any input of capital and labor. The production function for cloth can be summarized algebraically as
 
 $$
-Q _ {C} = Q _ {C} (K, L _ {C}), \tag {4-1}
+Q_{C} = Q_{C} (K, L_{C}), \tag {4-1}
 $$
 
 where  $Q_{C}$  is the economy's output of cloth,  $K$  is the economy's capital stock, and  $L_{C}$  is the labor force employed in cloth. Similarly, for food we can write the production function
 
 $$
-Q _ {F} = Q _ {F} (T, L _ {F}), \tag {4-2}
+Q_{F} = Q_{F} (T, L_{F}), \tag {4-2}
 $$
 
 where  $Q_{F}$  is the economy's output of food,  $T$  is the economy's supply of land, and  $L_{F}$  is the labor force devoted to food production. For the economy as a whole, the labor employed must equal the total labor supply  $L$ :
 
 $$
-L _ {C} + L _ {F} = L. \tag {4-3}
+L_{C} + L_{F} = L. \tag {4-3}
 $$
 
 # Production Possibilities
@@ -132,7 +132,7 @@ In the Ricardian model, where labor is the only factor of production, the produc
 Notice that when tracing  $PP$ , we shift labor from the food to the cloth sector. If we shift one person-hour of labor from food to cloth, however, this extra input will increase output in that sector by the marginal product of labor in cloth,  $MPL_{C}$ . To increase cloth output by one unit, then, we must increase labor input by  $1 / MPL_{C}$  hours. Meanwhile, each unit of labor input shifted out of food production will lower output in that sector by the marginal product of labor in food,  $MPL_{F}$ . To increase output of cloth by one unit, then, the economy must reduce output of food by  $MPL_{F} / MPL_{C}$  units. The slope of  $PP$ , which measures the opportunity cost of cloth in terms of food—that is, the number of units of food output that must be sacrificed to increase cloth output by one unit—is therefore
 
 $$
-\text {S l o p e} = - M P L _ {F} / M P L _ {C}.
+\text{Sl op e} = - M P L_{F} / M P L_{C}.
 $$
 
 We can now see why  $PP$  has the bowed shape it does. As we move from  $1'$  to  $3'$ ,  $L_{C}$  rises and  $L_{F}$  falls. We saw in Figure 4-2, however, that as  $L_{C}$  rises, the marginal product of labor in cloth falls; correspondingly, as  $L_{F}$  falls, the marginal product of labor in food rises. As more and more labor is moved to the cloth sector, each additional unit of labor becomes less valuable in the cloth sector and more valuable in the food sector: The opportunity cost (foregone food production) of each additional cloth unit rises, and  $PP$  thus gets steeper as we move down it to the right.
@@ -146,7 +146,7 @@ How much labor will be employed in each sector? To answer this, we need to look 
 First, let's focus on the demand for labor. In each sector, profit-maximizing employers will demand labor up to the point where the value produced by an additional person-hour equals the cost of employing that hour. In the cloth sector, for example, the value of an additional person-hour is the marginal product of labor in cloth multiplied by the price of one unit of cloth:  $MPL_{C} \times P_{C}$ . If  $w$  is the wage rate of labor, employers will therefore hire workers up to the point where
 
 $$
-M P L _ {C} \times P _ {C} = w. \tag {4-4}
+M P L_{C} \times P_{C} = w. \tag {4-4}
 $$
 
 But the marginal product of labor in cloth, already illustrated in Figure 4-2, slopes downward because of diminishing returns. So for any given price of cloth  $P_{C}$ , the value of that marginal product,  $MPL_{C} \times P_{C}$ , will also slope down. We can therefore think of equation (4-4) as defining the demand curve for labor in the cloth sector: If the wage rate falls, other things equal, employers in the cloth sector will want to hire more workers.
@@ -154,7 +154,7 @@ But the marginal product of labor in cloth, already illustrated in Figure 4-2, s
 Similarly, the value of an additional person-hour in food is  $MPL_{F} \times P_{F}$ . The demand curve for labor in the food sector may therefore be written
 
 $$
-M P L _ {F} \times P _ {F} = w. \tag {4-5}
+M P L_{F} \times P_{F} = w. \tag {4-5}
 $$
 
 The wage rate  $w$  must be the same in both sectors because of the assumption that labor is freely mobile between sectors. That is, because labor is a mobile factor, it will move from the low-wage sector to the high-wage sector until wages are equalized. The wage rate, in turn, is determined by the requirement that total labor demand (total employment) equals total labor supply. This equilibrium condition for labor is represented in equation (4-3).
@@ -173,13 +173,13 @@ represented by point 1. At the wage rate  $w^1$ , the sum of labor demanded in t
 A useful relationship between relative prices and output emerges clearly from this analysis of labor allocation; this relationship applies to more general situations than that described by the specific factors model. Equations (4-4) and (4-5) imply that
 
 $$
-M P L _ {C} \times P _ {C} = M P L _ {F} \times P _ {F} = w
+M P L_{C} \times P_{C} = M P L_{F} \times P_{F} = w
 $$
 
 or, rearranging, that
 
 $$
-- M P L _ {F} / M P L _ {C} = - P _ {C} / P _ {F}. \tag {4-6}
+- M P L_{F} / M P L_{C} = - P_{C} / P_{F}. \tag {4-6}
 $$
 
 The left side of equation (4-6) is the slope of the production possibility frontier at the actual production point; the right side is minus the relative price of cloth. This result tells us that at the production point, the production possibility frontier must be tangent to a line whose slope is minus the price of cloth divided by that of food. As we will see in the following chapters, this is a very general result that characterizes production responses to changes in relative prices along a production possibility frontier. It is illustrated in Figure 4-5: If the relative price of cloth is  $(P_{C} / P_{F})^{1}$ , the economy produces at point 1.
@@ -296,13 +296,13 @@ Do the gains from trade outweigh the losses? One way to try to answer this quest
 In order to show aggregate gains from trade, we need to state some basic relationships among prices, production, and consumption. In a country that cannot trade, the output of a good must equal its consumption. If  $D_{C}$  is consumption of cloth and  $D_{F}$  consumption of food, then in a closed economy,  $D_{C} = Q_{C}$  and  $D_{F} = Q_{F}$ . International trade makes it possible for the mix of cloth and food consumed to differ from the mix produced. While the amounts of each good that a country consumes and produces may differ, however, a country cannot spend more than it earns: The value of consumption must be equal to the value of production. That is,
 
 $$
-P _ {C} \times D _ {C} + P _ {F} \times D _ {F} = P _ {C} \times Q _ {C} + P _ {F} \times Q _ {F}. \tag {4-7}
+P_{C} \times D_{C} + P_{F} \times D_{F} = P_{C} \times Q_{C} + P_{F} \times Q_{F}. \tag {4-7}
 $$
 
 Equation (4-7) can be rearranged to yield the following:
 
 $$
-D _ {F} - Q _ {F} = \left(P _ {C} / P _ {F}\right) \times \left(Q _ {C} - D _ {C}\right). \tag {4-8}
+D_{F} - Q_{F} = \left(P_{C} / P_{F}\right) \times \left(Q_{C} - D_{C}\right). \tag {4-8}
 $$
 
 $D_{F} - Q_{F}$  is the economy's food imports, the amount by which its consumption of food exceeds its production. The right-hand side of the equation is the product of the relative price of cloth and the amount by which production of cloth exceeds consumption, that is, the economy's exports of cloth. The equation, then, states that imports of food equal exports of cloth times the relative price of cloth. While it does not tell us how much the economy will import or export, the equation does show that the amount the economy can afford to import is limited, or constrained, by the amount it exports. Equation (4-8) is therefore known as a budget constraint. $^{8}$
@@ -602,7 +602,7 @@ In the text, we illustrated the production function of cloth in two different wa
 In Figure 4A-1, we show once again the marginal product curve in cloth production. Suppose we employ  $L_{C}$  person-hours. How can we show the total output of cloth? Let's approximate this using the marginal product curve. First, let's ask what would happen if we used slightly fewer person-hours, say  $dL_{C}$  fewer. Then output would be less. The fall in output would be approximately
 
 $$
-d L _ {C} \times M P L _ {C},
+d L_{C} \times M P L_{C},
 $$
 
 # FIGURE 4A-1

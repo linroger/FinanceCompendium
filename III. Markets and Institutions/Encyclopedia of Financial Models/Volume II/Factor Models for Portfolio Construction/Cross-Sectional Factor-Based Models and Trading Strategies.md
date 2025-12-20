@@ -143,24 +143,24 @@ The authors emphasize several advantages in using this approach. The test is non
 
 Classical financial theory states that the average return of a stock is the payoff to investors for taking on risk. One way of expressing this risk-reward relationship is through a factor model. A factor model can be used to decompose the returns of a security into factor-specific and asset-specific returns
 
-$$ r _ {i, t} = \alpha_ {i} + \beta_ {i, 1} f _ {1, t} + \dots + \beta_ {i, K} f _ {K, t} + \varepsilon_ {i, t}
+$$ r_{i, t} = \alpha_{i} + \beta_{i, 1} f_{1, t} + \dots + \beta_{i, K} f_{K, t} + \varepsilon_{i, t}
 $$ where  $\beta_{i,1},\beta_{i,2},\ldots ,\beta_{i,K}$  are the factor exposures of stock  $i,f_{1,t},f_{2,t},\ldots ,f_{K,t}$  are the factor returns,  $\alpha_{i}$  is the average abnormal return of stock  $i$  and  $\varepsilon_{i,t}$  is the residual.
 
 
 This factor model specification is contemporaneous, that is, both left- and right-hand side variables (returns and factors) have the same time subscript,  $t$ . For trading strategies one generally applies a forecasting specification where the time subscript of the return and the factors are  $t + h$  ( $h \geq 1$ ) and  $t$ , respectively. In this case, the econometric specification becomes
 
-$$ r _ {i, t + b} = \alpha_ {i} + \beta_ {i, 1} f _ {1, t} + \dots + \beta_ {i, K} f _ {K, t} + \varepsilon_ {i, t + b}
+$$ r_{i, t + b} = \alpha_{i} + \beta_{i, 1} f_{1, t} + \dots + \beta_{i, K} f_{K, t} + \varepsilon_{i, t + b}
 $$
 
 How do we interpret a trading strategy based on a factor model? The explanatory variables represent different factors that forecast security returns, and each factor has an associated factor premium. Therefore, future security returns are proportional to the stock's exposure to the factor premium
 
 $$
-E (r _ {i, t + b} | f _ {1, t}, \dots , f _ {K, t}) = \alpha_ {i} + \boldsymbol {\beta} _ {\mathbf {i}} ^ {\prime} \mathbf {f} _ {t}
+E (r_{i, t + b} | f_{1, t}, \dots , f_{K, t}) = \alpha_{i} + \boldsymbol {\beta}_{\mathbf {i}}^{\prime} \mathbf {f}_{t}
 $$ and the variance of future stock return is given by
 
 
 $$
-\operatorname {V a r} \left(r _ {i, t + b} \mid f _ {1, t}, \dots , f _ {K, t}\right) = \beta_ {i} ^ {\prime} E \left(\mathbf {f} _ {t} \mathbf {f} _ {t} ^ {\prime}\right) \beta_ {i}
+\operatorname{Va r} \left(r_{i, t + b} \mid f_{1, t}, \dots , f_{K, t}\right) = \beta_{i}^{\prime} E \left(\mathbf {f}_{t} \mathbf {f}_{t}^{\prime}\right) \beta_{i}
 $$ where and  $\beta_{i} = (\beta_{i,1},\beta_{i,2},\dots ,\beta_{i,k})^{\prime}$  and  $\mathbf{f}_t = (f_{1,t},f_{2,t},\ldots ,f_{K,t})'$ .
 
 
@@ -201,7 +201,7 @@ To address the inference problem caused by the correlation of the residuals, Fam
 
 First, for each point in time  $t$  we perform a cross-sectional regression:
 
-$$ r _ {i, t} = \beta_ {i, t} f _ {t} + \varepsilon_ {i, t}, \quad i = 1, 2, \ldots , N
+$$ r_{i, t} = \beta_{i, t} f_{t} + \varepsilon_{i, t}, \quad i = 1, 2, \ldots , N
 $$
 
 In the academic literature, the regressions are typically performed using monthly or quarterly data, but the procedure could be used at any frequency.
@@ -209,13 +209,13 @@ In the academic literature, the regressions are typically performed using monthl
 The mean and standard errors of the time series of slopes and residuals are evaluated to determine the significance of the cross-sectional regression. We estimate  $f$  and  $\varepsilon_{i}$  as the average of their cross-sectional estimates, therefore,
 
 $$
-\hat {f} = \frac {1}{T} \sum_ {t = 1} ^ {T} \hat {f} _ {t}, \hat {\varepsilon} _ {i} = \frac {1}{T} \sum_ {t = 1} ^ {T} \hat {\varepsilon} _ {i, t}
+\hat {f} = \frac{1}{T} \sum_{t = 1}^{T} \hat {f}_{t}, \hat {\varepsilon}_{i} = \frac{1}{T} \sum_{t = 1}^{T} \hat {\varepsilon}_{i, t}
 $$
 
 The variations in the estimates determine the standard error and capture the effects of residual correlation without actually estimating the correlations. We use the standard deviations of the cross-sectional regression estimates to calculate the sampling errors for these estimates
 
 $$
-\boldsymbol {\sigma} _ {\hat {f}} ^ {2} = \frac {1}{T ^ {2}} \sum_ {t = 1} ^ {T} (\hat {f} _ {t} - \hat {f}) ^ {2}, \boldsymbol {\sigma} _ {\hat {\varepsilon} _ {i}} ^ {2} = \frac {1}{T ^ {2}} \sum_ {t = 1} ^ {T} (\hat {\varepsilon} _ {i, t} - \hat {\varepsilon} _ {i}) ^ {2}
+\boldsymbol {\sigma}_{\hat {f}}^{2} = \frac{1}{T^{2}} \sum_{t = 1}^{T} (\hat {f}_{t} - \hat {f})^{2}, \boldsymbol {\sigma}_{\hat {\varepsilon}_{i}}^{2} = \frac{1}{T^{2}} \sum_{t = 1}^{T} (\hat {\varepsilon}_{i, t} - \hat {\varepsilon}_{i})^{2}
 $$
 
 Cochrane (2005) provides a detailed analysis of this procedure and compares it to cross-sectional OLS and pooled time-series cross-sectional OLS. He shows that when the factors do not vary over time and the residuals are cross-sectionally correlated, but not correlated over time, then these procedures are all equivalent.
@@ -226,7 +226,7 @@ To determine the forecast ability of a model, practitioners commonly use a stati
 
 
 $$
-I C _ {t, t + k} = \operatorname {c o r r} \left(\mathbf {f} _ {t}, \mathbf {r} _ {t, t + k}\right)
+I C_{t, t + k} = \operatorname{co rr} \left(\mathbf {f}_{t}, \mathbf {r}_{t, t + k}\right)
 $$ where  $\mathbf{f}_t$  is a vector of cross sectional factor values at time  $t$  and  $\mathbf{r}_{t,t + k}$  is a vector of returns over the time period  $t$  to  $t + k$ .
 
 
@@ -244,12 +244,12 @@ The IC methodology has many of the same advantages as regression models. The pro
 ICs can also be used to assess the risk of factors and trading strategies. The standard deviation of the time series (with respect to  $t$ ) of ICs for a particular factor  $(\mathrm{std}(IC_{t,t + k}))$  can be interpreted as the strategy risk of a factor. Examining the time series behavior of  $\mathrm{std}(IC_{t,t + k})$  over different time periods may give a better understanding of how often a particular factor may fail. Qian and Hua show that  $\mathrm{std}(IC_{t,t + k})$  can be used to more effectively understand the active risk of investment portfolios. Their research demonstrates that ex post tracking error often exceeds the ex ante tracking provided by risk models. The difference in tracking error occurs because tracking error is a function of both ex ante tracking error from a risk model and the variability of information coefficients,  $\mathrm{std}(IC_{t,t + k})$ . They define the expected tracking error as
 
 $$
-\boldsymbol {\sigma} _ {T E} = \operatorname {s t d} \left(I C _ {t. t + k}\right) \sqrt {N} \boldsymbol {\sigma} _ {\text {m o d e l}} \operatorname {d i s} \left(\mathbf {R} _ {t}\right)
+\boldsymbol {\sigma}_{T E} = \operatorname{st d} \left(I C_{t. t + k}\right) \sqrt{N} \boldsymbol {\sigma}_{\text{mo de l}} \operatorname{di s} \left(\mathbf {R}_{t}\right)
 $$ where  $N$  is the number of stocks in the universe (breath),  $\sigma_{\mathrm{model}}$  is the risk model tracking error, and  $\mathrm{dis}(\mathbf{R_t})$  is dispersion of returns defined by
 
 
 $$
-\operatorname {d i s} \left(\mathbf {R} _ {t}\right) = \operatorname {s t d} \left(r _ {1, t}, r _ {2, t}, \dots , r _ {N, t}\right)
+\operatorname{di s} \left(\mathbf {R}_{t}\right) = \operatorname{st d} \left(r_{1, t}, r_{2, t}, \dots , r_{N, t}\right)
 $$
 
 # Example: Information Coefficients
@@ -262,7 +262,7 @@ Figure 4 Information Coefficients over Various Horizons for EBITDA/EV, Growth of
 graph shows the time series average of information coefficients:
 
 $$
-\overline {{I C}} _ {k} = \operatorname {m e a n} (\mathbf {I C} _ {\mathrm {t}, \mathrm {t} + \mathrm {k}})
+\overline {{I C}}_{k} = \operatorname{me an} (\mathbf {I C}_{\mathrm{t}, \mathrm{t} + \mathrm{k}})
 $$
 
 The graph depicts the information horizons for each factor, showing how subsequent return is realized over time. The vertical axis shows the size of the average information coefficient  $\overline{IC_k}$  for  $k = 1,2,\ldots ,15$
@@ -290,14 +290,14 @@ $$ where  $\mathbf{r}$  is an  $N$  vector of excess returns of the stocks consi
 
 
 $$
-\mathbf {V} = \mathbf {X F X} ^ {\prime} + \boldsymbol {\Delta}
+\mathbf {V} = \mathbf {X F X}^{\prime} + \boldsymbol {\Delta}
 $$ where  $\mathbf{F}$  is the  $K$  by  $K$  factor return covariance matrix and  $\Delta$  is the  $N$  by  $N$  diagonal matrix of variances of the specific returns.
 
 
 We can use the Fama-MacBeth procedure discussed earlier to estimate the factor returns over time. Each month, we perform a GLS regression to obtain
 
 $$
-\mathbf {b} = \left(\mathbf {X} ^ {\prime} \Delta^ {- 1} \mathbf {X}\right) ^ {- 1} \mathbf {X} ^ {\prime} \Delta^ {- 1} \mathbf {r}
+\mathbf {b} = \left(\mathbf {X}^{\prime} \Delta^{- 1} \mathbf {X}\right)^{- 1} \mathbf {X}^{\prime} \Delta^{- 1} \mathbf {r}
 $$
 
 OLS would give us an unbiased estimate, but since the residuals are heteroskedastic the GLS methodology is preferred and will deliver a more efficient estimate. The resulting holdings for each factor portfolio are given by the rows of  $(\mathbf{X} / \Delta^{-1}\mathbf{X})^{-1}\mathbf{X}\Delta^{-1}$ .
@@ -309,12 +309,12 @@ A second approach to build factor portfolios uses mean-variance optimization. Us
 Using the notation from the previous subsection, we denote by  $\mathbf{X}$  the set of factors. We would like to construct a portfolio that has maximum exposure to one target factor from  $\mathbf{X}$  (the alpha factor), zero exposure to all other factors, and minimum portfolio risk. Let us denote the alpha factor by  $\mathbf{X}_{\alpha}$  and all the remaining ones by  $\mathbf{X}_{\sigma}$ . Then the resulting optimization problem takes the form
 
 $$
-\begin{array}{l} \max  _ {\mathbf {w}} \left\{\mathbf {w} ^ {\prime} \mathbf {X} _ {\alpha} - \frac {1}{2} \lambda \mathbf {w} ^ {\prime} \mathbf {V} \mathbf {w} \right\} \\ \begin{array}{l l} \mathbf {s}. t & \mathbf {w} ^ {\prime} \boldsymbol {X} _ {\sigma} = 0 \end{array} \\ \end{array}
+\begin{array}{l} \max_{\mathbf {w}} \left\{\mathbf {w}^{\prime} \mathbf {X}_{\alpha} - \frac{1}{2} \lambda \mathbf {w}^{\prime} \mathbf {V} \mathbf {w} \right\} \\ \begin{array}{l l} \mathbf {s}. t & \mathbf {w}^{\prime} \boldsymbol {X}_{\sigma} = 0 \end{array} \\ \end{array}
 $$
 
 The analytical solution to this optimization problem is given by
 
-$$ h ^ {*} = \frac {1}{\lambda} {\bf V} ^ {- 1} \left[ {\bf I} - {\bf X} _ {\sigma} ({\bf X} _ {\sigma} ^ {\prime} {\bf V} ^ {- 1} {\bf X} _ {\sigma}) ^ {- 1} {\bf X} _ {\sigma} ^ {\prime} {\bf V} ^ {- 1} \right] {\bf X} _ {\alpha}
+$$ h^{*} = \frac{1}{\lambda} {\bf V}^{- 1} \left[ {\bf I} - {\bf X}_{\sigma} ({\bf X}_{\sigma}^{\prime} {\bf V}^{- 1} {\bf X}_{\sigma})^{- 1} {\bf X}_{\sigma}^{\prime} {\bf V}^{- 1} \right] {\bf X}_{\alpha}
 $$
 
 We may want to add additional constraints to the problem. Constraints are added to make factor portfolios easier to implement and meet additional objectives. Some common constraints include limitations on turnover, transaction costs, the number of assets, and liquidity preferences. These constraints $^{14}$  are typically implemented as linear inequality constraints. When no analytical solution is available to solve the optimization with linear inequality constraints, we have to resort to quadratic programming (QP).15
@@ -459,7 +459,7 @@ Sorensen, Hua, Qian, and Schoen (2004) present a process that uses an optimizati
 
 
 $$
-\mathbf {w} \propto \operatorname {c o v} (\mathbf {I C}) ^ {- 1} \times \overline {{\mathbf {I C}}}
+\mathbf {w} \propto \operatorname{co v} (\mathbf {I C})^{- 1} \times \overline {{\mathbf {I C}}}
 $$ where  $\mathbf{w}$  is the vector of factor weights,  $\overline{\mathrm{IC}}$  is the vector of the average of the risk-adjusted ICs, and  $\operatorname{cov}(\mathbf{IC})^{-1}$  is the inverse of the covariance matrix of the ICs.
 
 
@@ -481,12 +481,12 @@ We have identified 10 factors that have an ability to forecast stock returns.[21
 We determine the allocation to specific factors by solving the following optimization problem:
 
 $$
-\begin{array}{l} \min  _ {w} \mathbf {w} ^ {\prime} \sum \mathbf {w}, \quad \mathbf {w} \geq 0 \\ \sum_ {v \in \text {V a l u e}} \mathbf {w} _ {\mathbf {v}} \geq 0. 3 5 \\ \sum_ {g \in \text {G r o w t h}} \mathbf {w} _ {\mathbf {g}} \geq 0. 2 0 \\ 3 \leq \sum_ {i = 1} ^ {1 0} \bar {\mathfrak {s}} _ {i} \leq 7 \\ \end{array}
+\begin{array}{l} \min_{w} \mathbf {w}^{\prime} \sum \mathbf {w}, \quad \mathbf {w} \geq 0 \\ \sum_{v \in \text{Va lu e}} \mathbf {w}_{\mathbf {v}} \geq 0. 3 5 \\ \sum_{g \in \text{Gr ow th}} \mathbf {w}_{\mathbf {g}} \geq 0. 2 0 \\ 3 \leq \sum_{i = 1}^{1 0} \bar {\mathfrak {s}}_{i} \leq 7 \\ \end{array}
 $$ with the budget constraint
 
 
 $$
-\mathbf {w} ^ {\prime} \mathbf {e} = 1, \quad \mathbf {e} = (1, \dots , 1) ^ {\prime}
+\mathbf {w}^{\prime} \mathbf {e} = 1, \quad \mathbf {e} = (1, \dots , 1)^{\prime}
 $$ where  $\Sigma$  is the covariance matrix of factor returns, Value and Growth are the sets of value and growth factors, and  $\delta_{i}$  is equal to one if  $w_{i} > 0$  or zero otherwise.
 
 
@@ -606,16 +606,16 @@ The factors used in this entry are defined as follows. (LTM refers to the last f
 Operating income before depreciation to enterprise value  $=$  EBITDA/EV where
 
 $$
-\begin{array}{l} E B I T D A = S a l e s L T M (C o m p u s t a t I t e m 2) \\ - \text {C o s t} \\ (\text {C o m p u s t a t I t e m} 3 0) \\ - S G \& A E x p (C o m p u s t a t I t e m 1) \\ \end{array}
+\begin{array}{l} E B I T D A = S a l e s L T M (C o m p u s t a t I t e m 2) \\ - \text{Co st} \\ (\text{Co mp us ta tI te m} 3 0) \\ - S G \& A E x p (C o m p u s t a t I t e m 1) \\ \end{array}
 $$ and
 
 
 $$
-\begin{array}{l} \begin{array}{l} \mathrm {E V} = [ \text {L o n g - t e r m d e b t} (\text {C o m p u s t a t} \\ \text {I t e m 5 1}) \end{array} \\ + \text {C o m m o n s h a r e s o u t s t a n d i n g} \quad (\text {C o m p u t s t a t I t e m 6 1}) \\ \times \text {P r i c e} (\text {P R C C M}) - \text {C a s h} (\text {C o m p u s t a t I t e m 3 6}) ] \\ \end{array}
+\begin{array}{l} \begin{array}{l} \mathrm{EV} = [ \text{Lo ng -t er md eb t} (\text{Co mp us ta t} \\ \text{It em 51}) \end{array} \\ + \text{Co mm on sh ar es ou ts ta nd in g} \quad (\text{Co mp ut st at It em 61}) \\ \times \text{Pr ic e} (\text{PR CC M}) - \text{Ca sh} (\text{Co mp us ta tI te m3 6}) ] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {B k o o t p r i c e} = \text {S t o c k h o l d e r s ＂ e q u i t y t o t a l} (\text {C o m p u t s t A t I t e m 6 0}) \\ \div [ \text {C o m m o n s h a r e s o u t s t a n d i n g} (\text {C o m p u t s t a t I t e m 5 9}) \\ \times \text {P r i c e} (\mathrm {P R C C M}) ] \\ \end{array}
+\begin{array}{l} \text{Bk oo tp ri ce} = \text{St oc kh ol de rs ＂e qu it yt ot al} (\text{Co mp ut st At It em 60}) \\ \div [ \text{Co mm on sh ar es ou ts ta nd in g} (\text{Co mp ut st at It em 59}) \\ \times \text{Pr ic e} (\mathrm{PR CC M}) ] \\ \end{array}
 $$
 
 Sales to price  $=$  Sales LTM (Computstat Item 2)

@@ -28,7 +28,7 @@ Figure 1 OAS, CDS, and LCS of a Typical Bond over Time
 To decompose credit spreads, a bond's OAS is regressed against three variables: a variable reflecting expected default cost, a variable reflecting expected liquidity cost, and a market-wide variable unrelated to the bond's attributes representing the market-wide risk premium demanded by investors. Conceptually, for every time  $t$ , the cross-sectional OLS regression model is:
 
 $$
-\begin{array}{l} O A S _ {i t} = \alpha_ {t} + \beta_ {t} \text {E x p e c t e d D e f a u l t C o s t} _ {i t} \\ + \gamma_ {t} \text {E x p e c t e d L i q u i d i t y C o s t} _ {i t} + \eta_ {i t} \\ \end{array}
+\begin{array}{l} O A S_{i t} = \alpha_{t} + \beta_{t} \text{Ex pe ct ed De fa ul tC os t}_{i t} \\ + \gamma_{t} \text{Ex pe ct ed Li qu id it yC os t}_{i t} + \eta_{i t} \\ \end{array}
 $$
 
 The risk premium variable (the intercept term,  $\alpha$ ) represents a market-level risk premium, not a risk premium specific to each bond. The value of the intercept is likely, but not necessarily, to be positive, reflecting that equilibrium credit spreads are typically determined at the margin by risk-averse investors.
@@ -39,7 +39,7 @@ Credit spread decomposition is implemented empirically by running the following 
 
 
 $$
-O A S _ {i t} = \alpha_ {t} + \beta_ {t} C D S _ {i t} + \gamma_ {t} L C S _ {i t} + \eta_ {i t} \tag {1}
+O A S_{i t} = \alpha_{t} + \beta_{t} C D S_{i t} + \gamma_{t} L C S_{i t} + \eta_{i t} \tag {1}
 $$
 
 The LCS is used to measure bond-level expected liquidity cost. An issuer's CDS (with a similar spread duration as the bond) is used to measure its expected default cost (i.e., default probability and loss given default). If the CDS itself is illiquid, it will contain some illiquidity premium, thereby distorting results. So, only liquid CDS should be chosen. While an issuer's CDS can be used to measure the expected default cost of its bonds, other measures of expected default cost could be used in lieu of CDS. For example, some investors may use firm-specific fundamental information, equity prices, and macroeconomic data to estimate an issuer's default probability and recovery rate.
@@ -77,7 +77,7 @@ In principle, spread decomposition should help identify relative value opportuni
 To examine whether the realized residuals  $\hat{\eta}_{i,t}$  from (1) can help predict future OAS changes, one can examine whether the bond's future OAS changes are of the opposite sign to the sign of the residual by running the following regression and testing to see if the  $\theta^{\prime}s$  are negative.
 
 $$
-\Delta O A S _ {i t, t + j} = \alpha_ {t} + \theta_ {t} \hat {\eta} _ {i t} + \delta_ {t} \text {M o n t h D u m m y} _ {t} + e _ {i t} \tag {2}
+\Delta O A S_{i t, t + j} = \alpha_{t} + \theta_{t} \hat {\eta}_{i t} + \delta_{t} \text{Mo nt hD um my}_{t} + e_{i t} \tag {2}
 $$
 
 # Hedging a Credit Bond Portfolio
@@ -94,19 +94,19 @@ There are alternative formulations of the credit spread decomposition model. As 
 The equation below shows the spread decomposition model incorporating a bond-level liquidity risk factor,  $LCSVol_{i,t}$ . Generally, the results may show that  $LCSVol_{i,t}$  is highly significant, but absorbs part of the effect of LCS, thereby not improving the regression's adjusted  $R^2$  substantially.
 
 $$
-\begin{array}{l} O A S _ {i t} = \alpha_ {t} + \beta_ {t} C D S _ {i t} + \gamma_ {t} L C S _ {i t} + \phi_ {t} L C S V o l _ {i t} \\ + \delta_ {t} \text {M o n t h D u m m y} _ {t} + \eta_ {i t} \tag {3} \\ \end{array}
+\begin{array}{l} O A S_{i t} = \alpha_{t} + \beta_{t} C D S_{i t} + \gamma_{t} L C S_{i t} + \phi_{t} L C S V o l_{i t} \\ + \delta_{t} \text{Mo nt hD um my}_{t} + \eta_{i t} \tag {3} \\ \end{array}
 $$
 
 The credit spread decomposition model can also be estimated in differences to check if changes in the liquidity and default proxies affect changes in OAS (i.e., contemporaneous returns). The regression model below details the specification, where  $\Delta OAS_{it}$ ,  $\Delta CDS_{it}$ , and  $\Delta LCS_{it}$  refer to changes in a bond's characteristics in consecutive periods. As described above, this model of spread decomposition can be used for designing targeted hedges.
 
 $$
-\begin{array}{l} \Delta O A S _ {i t} = \alpha_ {t} + \beta_ {t} \Delta C D S _ {i t} + \gamma_ {t} \Delta L C S _ {i t} \\ + \delta_ {t} \text {M o n t h D u m m y} _ {t} + \eta_ {i t} \tag {4} \\ \end{array}
+\begin{array}{l} \Delta O A S_{i t} = \alpha_{t} + \beta_{t} \Delta C D S_{i t} + \gamma_{t} \Delta L C S_{i t} \\ + \delta_{t} \text{Mo nt hD um my}_{t} + \eta_{i t} \tag {4} \\ \end{array}
 $$
 
 Finally, the spread decomposition model may be susceptible to outliers, especially since default and liquidity are arguably more important considerations for higher spread bonds. To check this, one can run log regressions (e.g., the dependent variable is  $\log(OAS)$  instead of  $OAS$ , similarly for the independent variables), as shown below. If the conclusions from the log model are unchanged, this would indicate that outliers are not driving the results.
 
 $$
-\ln \left(O A S _ {i t}\right) = \alpha_ {t} + \beta_ {t} \ln \left(C D S _ {i t}\right) + \gamma_ {t} \ln \left(L C S _ {i t}\right) + \eta_ {i t} \tag {5}
+\ln \left(O A S_{i t}\right) = \alpha_{t} + \beta_{t} \ln \left(C D S_{i t}\right) + \gamma_{t} \ln \left(L C S_{i t}\right) + \eta_{i t} \tag {5}
 $$
 
 # KEY POINTS

@@ -27,7 +27,7 @@ tags_extracted: '2025-12-18T01:44:35.430112'
 - Incomplete markets also lead to a wedge between the exchange rate movement and the SDF differential:
 
 $$
-\Delta e _ {t + 1} = m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1}.
+\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}.
 $$
 
 - This wedge affects the exchange rate volatility, cyclicality, and currency risk premium.  
@@ -37,13 +37,13 @@ $$
 In general, the absence of complete spanning in the asset market means that the home and foreign households do not equate their SDFs state by state. So the exchange rate expression (1.16) in the complete-market case is violated:
 
 $$
-\Delta e _ {t + 1} \neq m _ {t + 1} - m _ {t + 1} ^ {*}.
+\Delta e_{t + 1} \neq m_{t + 1} - m_{t + 1}^{*}.
 $$
 
 Backus, Foresi, and Telmer [2001] introduces a wedge  $\eta$  to describe this violation:
 
 $$
-\Delta e _ {t + 1} = m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1}. \tag {5.1}
+\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}. \tag {5.1}
 $$
 
 In this section, we first develop a full general equilibrium model with incomplete markets that gives rise to the above wedge  $\eta_{t+1}$ . We then take a different, no-arbitrage approach that focuses only on the Euler equations. While incomplete spanning leads to deviations from the complete-market characterization of the exchange rate dynamics (1.16), it still respects the Euler equations for the assets that are tradable by both countries' households. For example, if home and foreign
@@ -51,13 +51,13 @@ In this section, we first develop a full general equilibrium model with incomple
 risk-free bonds are tradable, the original Euler equation (1.6) holds, i.e.,
 
 $$
-1 = \mathbb {E} _ {t} [ \exp (m _ {t + 1} + r _ {t}) ],
+1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
 $$
 
 which does not require us to introduce additional Euler equation wedges as we did in our discussion of convenience yields in Chapter 4, i.e.,
 
 $$
-\exp (- \lambda_ {t}) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + r _ {t}\right) \right].
+\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right].
 $$
 
 In this sense, the incomplete-market wedge  $\eta$  in Eq. (5.1) is conceptually distinct from the Euler equation wedge  $\lambda_{t}$ . We will further develop these model ingredients throughout this section.
@@ -77,19 +77,19 @@ For tractability, we now use some continuous-time math. There is a finite horizo
 given by
 
 $$
-\begin{array}{l} d y _ {t} = \mu_ {v} y _ {t} d t + \sigma_ {y} y _ {t} d Z _ {t} ^ {y}, \\ d y _ {t} ^ {*} = \mu_ {y ^ {*}} y _ {t} ^ {*} d t + \sigma_ {y ^ {*}} y _ {t} ^ {*} d Z _ {t} ^ {y ^ {*}}. \\ \end{array}
+\begin{array}{l} d y_{t} = \mu_{v} y_{t} d t + \sigma_{y} y_{t} d Z_{t}^{y}, \\ d y_{t}^{*} = \mu_{y^{*}} y_{t}^{*} d t + \sigma_{y^{*}} y_{t}^{*} d Z_{t}^{y^{*}}. \\ \end{array}
 $$
 
 The home households' utility is given by
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) u (c _ {t}) d t \right],
+\mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) u (c_{t}) d t \right],
 $$
 
 where  $u(c_{t}) = \gamma_{t}\log (c_{t})$  and the aggregate consumption is again a Cobb-Douglas aggregation of the home and foreign goods:  $c_{t} = (c_{H,t})^{\alpha}(c_{F,t})^{(1 - \alpha)}$ . Relative to the baseline model, here we additionally have a stochastic term  $\gamma_{t}$  which captures demand shocks. We assume that  $\gamma_{t}$  follows
 
 $$
-d \gamma_ {t} = 0 d t + \gamma_ {t} \omega d Z _ {t} ^ {\gamma},
+d \gamma_{t} = 0 d t + \gamma_{t} \omega d Z_{t}^{\gamma},
 $$
 
 which guarantees that  $\gamma_{t}$  is a strictly positive adapted stochastic process and a martingale.
@@ -97,7 +97,7 @@ which guarantees that  $\gamma_{t}$  is a strictly positive adapted stochastic p
 The foreign households' utility is given by
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) u ^ {*} (c _ {t} ^ {*}) d t \right],
+\mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) u^{*} (c_{t}^{*}) d t \right],
 $$
 
 where  $u^{*}(c_{t}^{*}) = \gamma^{*}\log (c_{t}^{*})$  and  $c_{t}^{*} = (c_{F,t}^{*})^{\alpha}(c_{H,t}^{*})^{(1 - \alpha)}$ . We assume that there are no time-varying demand shocks for foreign household, i.e.  $\gamma^{*}$  is constant.
@@ -107,31 +107,31 @@ More formally, we fix a probability space  $(\Omega, \mathcal{F}, P)$  and a giv
 The only tradable assets are the two countries' risk-free bonds, which are denominated in the local consumption bundles and have interest rates  $r_t$  and  $r_t^*$ , respectively. The real exchange rate  $\exp(e_t)$  is the conversion ratio between the home and foreign consumption bundles. 1 unit of the home bundle is worth  $\exp(e_t)$  units of the foreign bundle. Furthermore, assume that the log exchange rate follows
 
 $$
-d e _ {t} = \kappa_ {t} d t + \sigma_ {t} d Z _ {t},
+d e_{t} = \kappa_{t} d t + \sigma_{t} d Z_{t},
 $$
 
 where  $\sigma_{t} = [\sigma_{1,t},\sigma_{2,t},\sigma_{3,t}]$  is a 1 by 3 vector. By Ito's lemma, we have
 
 $$
-\begin{array}{l} d \exp (e _ {t}) = \exp (e _ {t}) \left[ \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} \right] d t + \exp (e _ {t}) \sigma_ {t} d Z _ {t}, \\ d \exp (- e _ {t}) = \exp (- e _ {t}) \left[ - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} \right] d t - \exp (- e _ {t}) \sigma_ {t} d Z _ {t}. \\ \end{array}
+\begin{array}{l} d \exp (e_{t}) = \exp (e_{t}) \left[ \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} \right] d t + \exp (e_{t}) \sigma_{t} d Z_{t}, \\ d \exp (- e_{t}) = \exp (- e_{t}) \left[ - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} \right] d t - \exp (- e_{t}) \sigma_{t} d Z_{t}. \\ \end{array}
 $$
 
 From the perspective of the home household, the instantaneous return on foreign bonds is:
 
 $$
-\left[ r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} \right] d t - \sigma_ {t} d Z _ {t}.
+\left[ r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} \right] d t - \sigma_{t} d Z_{t}.
 $$
 
 In addition, from the viewpoint of the foreign household, the instantaneous return on home bonds is:
 
 $$
-\left[ r _ {t} + \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} \right] d t + \sigma_ {t} d Z _ {t}.
+\left[ r_{t} + \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} \right] d t + \sigma_{t} d Z_{t}.
 $$
 
 The derivation of the within-period solution is identical to Section 1.A.3 in the baseline model. Let  $p_t$  denote the price of the home goods in the numérique of the home consumption bundle, and let  $p_t^*$  denote the price of the foreign goods in the numérique of the foreign consumption bundle. As a special case of the baseline model, the home households' within-period allocation satisfies
 
 $$
-c _ {H, t} = \frac {\alpha}{p _ {t}} c _ {t}, \quad c _ {F, t} = \frac {(1 - \alpha)}{p _ {t} ^ {*} \exp (- e _ {t})} c _ {t},
+c_{H, t} = \frac{\alpha}{p_{t}} c_{t}, \quad c_{F, t} = \frac{(1 - \alpha)}{p_{t}^{*} \exp (- e_{t})} c_{t},
 $$
 
 and the terms of trade are simply the ratio of prices between home and foreign goods, which is related to the real exchange rate by  $e_t = (2\alpha - 1) \text{tot}_t$ .
@@ -139,7 +139,7 @@ and the terms of trade are simply the ratio of prices between home and foreign g
 Let  $w_{t}$  denote the wealth of the home households in the home numérique. The dynamic budget constraint of the home households is
 
 $$
-d w _ {t} = w _ {t} \left[ r _ {t} + x _ {t} \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right) \right] d t - w _ {t} x _ {t} \sigma_ {t} d Z _ {t} + p _ {t} y _ {t} d t - \left[ p _ {t} c _ {H, t} + p _ {t} ^ {*} \exp (- e _ {t}) c _ {F, t} \right] d t,
+d w_{t} = w_{t} \left[ r_{t} + x_{t} \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right) \right] d t - w_{t} x_{t} \sigma_{t} d Z_{t} + p_{t} y_{t} d t - \left[ p_{t} c_{H, t} + p_{t}^{*} \exp (- e_{t}) c_{F, t} \right] d t,
 $$
 
 where  $x_{t}$  is the fraction of wealth that is invested in foreign bonds.
@@ -147,7 +147,7 @@ where  $x_{t}$  is the fraction of wealth that is invested in foreign bonds.
 Similarly, let  $w_{t}^{*}$  denote the wealth of the foreign households in the foreign numérique. The dynamic budget constraint of the foreign households is
 
 $$
-d w _ {t} ^ {*} = w _ {t} ^ {*} \left[ r _ {t} ^ {*} + x _ {t} ^ {*} \left(r _ {t} + \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t} ^ {*}\right) \right] d t + w _ {t} ^ {*} x _ {t} ^ {*} \sigma_ {t} d Z _ {t} + p _ {t} ^ {*} y _ {t} ^ {*} d t - \left[ p _ {t} \exp (e _ {t}) c _ {H, t} ^ {*} + p _ {t} ^ {*} c _ {F, t} ^ {*} \right] d t,
+d w_{t}^{*} = w_{t}^{*} \left[ r_{t}^{*} + x_{t}^{*} \left(r_{t} + \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}^{*}\right) \right] d t + w_{t}^{*} x_{t}^{*} \sigma_{t} d Z_{t} + p_{t}^{*} y_{t}^{*} d t - \left[ p_{t} \exp (e_{t}) c_{H, t}^{*} + p_{t}^{*} c_{F, t}^{*} \right] d t,
 $$
 
 where  $x_{t}^{*}$  is the fraction of wealth that is invested in home bonds.
@@ -155,7 +155,7 @@ where  $x_{t}^{*}$  is the fraction of wealth that is invested in home bonds.
 To simplify the derivation, let  $\tilde{w}_t^* \stackrel{\mathrm{def}}{=} w_t^* \exp(-e_t)$  denote the wealth of the foreign households in the home numétaire. Then, we can express foreign household's dynamic budget constraint in the home numétaire as
 
 $$
-d \tilde {w} _ {t} ^ {*} = \tilde {w} _ {t} ^ {*} \left[ r _ {t} + (1 - x _ {t} ^ {*}) \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right) \right] d t - \tilde {w} _ {t} ^ {*} (1 - x _ {t} ^ {*}) \sigma_ {t} d Z _ {t} + p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*} d t - \left[ p _ {t} c _ {H, t} ^ {*} + p _ {t} ^ {*} \exp (- e _ {t}) c _ {F, t} ^ {*} \right] d t.
+d \tilde {w}_{t}^{*} = \tilde {w}_{t}^{*} \left[ r_{t} + (1 - x_{t}^{*}) \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right) \right] d t - \tilde {w}_{t}^{*} (1 - x_{t}^{*}) \sigma_{t} d Z_{t} + p_{t}^{*} \exp (- e_{t}) y_{t}^{*} d t - \left[ p_{t} c_{H, t}^{*} + p_{t}^{*} \exp (- e_{t}) c_{F, t}^{*} \right] d t.
 $$
 
 # 5.A.2 Macro Synthesis
@@ -163,91 +163,91 @@ $$
 There are 3 exogenous processes
 
 $$
-(y _ {t}, y _ {t} ^ {*}, \gamma_ {t}) _ {t = 0} ^ {t}
+(y_{t}, y_{t}^{*}, \gamma_{t})_{t = 0}^{t}
 $$
 
 and 15 endogenous processes:
 
 $$
-(c _ {t}, c _ {H, t}, c _ {F, t}, w _ {t}, x _ {t}, p _ {t}, c _ {t} ^ {*}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}, w _ {t} ^ {*}, x _ {t} ^ {*}, p _ {t} ^ {*}, r _ {t}, r _ {t} ^ {*}, e _ {t}) _ {t = 0} ^ {T},
+(c_{t}, c_{H, t}, c_{F, t}, w_{t}, x_{t}, p_{t}, c_{t}^{*}, c_{H, t}^{*}, c_{F, t}^{*}, w_{t}^{*}, x_{t}^{*}, p_{t}^{*}, r_{t}, r_{t}^{*}, e_{t})_{t = 0}^{T},
 $$
 
 The model implies the following 15 equations in each period  $t$ , which are very similar to the equilibrium conditions in the baseline model listed in Section 1.A.6. They include 2 consumption aggregation equations,
 
 $$
-c _ {t} = (c _ {H, t}) ^ {\alpha} (c _ {F, t}) ^ {1 - \alpha},
+c_{t} = (c_{H, t})^{\alpha} (c_{F, t})^{1 - \alpha},
 $$
 
 $$
-c _ {t} ^ {*} = (c _ {F, t} ^ {*}) ^ {\alpha} (c _ {H, t} ^ {*}) ^ {1 - \alpha},
+c_{t}^{*} = (c_{F, t}^{*})^{\alpha} (c_{H, t}^{*})^{1 - \alpha},
 $$
 
 4 household budget constraints,
 
 $$
-d w _ {t} = w _ {t} \left[ r _ {t} + x _ {t} \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right) \right] d t - w _ {t} x _ {t} \sigma_ {t} d Z _ {t} + p _ {t} y _ {t} d t - \left[ p _ {t} c _ {H, t} + p _ {t} ^ {*} \exp (- e _ {t}) c _ {F, t} \right] d t,
+d w_{t} = w_{t} \left[ r_{t} + x_{t} \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right) \right] d t - w_{t} x_{t} \sigma_{t} d Z_{t} + p_{t} y_{t} d t - \left[ p_{t} c_{H, t} + p_{t}^{*} \exp (- e_{t}) c_{F, t} \right] d t,
 $$
 
 $$
-c _ {t} = p _ {t} c _ {H, t} + p _ {t} ^ {*} c _ {F, t} \exp (- e _ {t}),
+c_{t} = p_{t} c_{H, t} + p_{t}^{*} c_{F, t} \exp (- e_{t}),
 $$
 
 $$
-d w _ {t} ^ {*} = w _ {t} ^ {*} \left[ r _ {t} ^ {*} + x _ {t} ^ {*} \left(r _ {t} + \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t} ^ {*}\right) \right] d t + w _ {t} ^ {*} x _ {t} ^ {*} \sigma_ {t} d Z _ {t} + p _ {t} ^ {*} y _ {t} ^ {*} d t - \left[ p _ {t} \exp (e _ {t}) c _ {H, t} ^ {*} + p _ {t} ^ {*} c _ {F, t} ^ {*} \right] d t,
+d w_{t}^{*} = w_{t}^{*} \left[ r_{t}^{*} + x_{t}^{*} \left(r_{t} + \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}^{*}\right) \right] d t + w_{t}^{*} x_{t}^{*} \sigma_{t} d Z_{t} + p_{t}^{*} y_{t}^{*} d t - \left[ p_{t} \exp (e_{t}) c_{H, t}^{*} + p_{t}^{*} c_{F, t}^{*} \right] d t,
 $$
 
 $$
-c _ {t} ^ {*} = p _ {t} c _ {H, t} ^ {*} \exp (e _ {t}) + p _ {t} ^ {*} c _ {F, t} ^ {*},
+c_{t}^{*} = p_{t} c_{H, t}^{*} \exp (e_{t}) + p_{t}^{*} c_{F, t}^{*},
 $$
 
 2 equations that describe the households' within-period consumption choices,
 
 $$
-\frac {p _ {t}}{p _ {t} ^ {*} \exp (- e _ {t})} = \frac {\alpha}{1 - \alpha} \frac {c _ {F , t}}{c _ {H , t}} = \frac {1 - \alpha}{\alpha} \frac {c _ {F , t} ^ {*}}{c _ {H , t} ^ {*}},
+\frac{p_{t}}{p_{t}^{*} \exp (- e_{t})} = \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}},
 $$
 
 2 goods market clearing conditions,
 
 $$
-y _ {t} = c _ {H, t} + c _ {H, t} ^ {*},
+y_{t} = c_{H, t} + c_{H, t}^{*},
 $$
 
 $$
-y _ {t} ^ {*} = c _ {F, t} + c _ {F, t} ^ {*},
+y_{t}^{*} = c_{F, t} + c_{F, t}^{*},
 $$
 
 1 bond market clearing condition,
 
 $$
-w _ {t} x _ {t} = w _ {t} ^ {*} \exp (- e _ {t}) x _ {t} ^ {*},
+w_{t} x_{t} = w_{t}^{*} \exp (- e_{t}) x_{t}^{*},
 $$
 
 and 4 Euler equations,
 
 $$
-0 = \mathbb {E} _ {t} \left[ d \exp \left(m _ {t} + \int_ {0} ^ {t} r _ {u}\right) \right],
+0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t} + \int_{0}^{t} r_{u}\right) \right],
 $$
 
 $$
-0 = \mathbb {E} _ {t} \left[ d \exp \left(m _ {t} - e _ {t} + \int_ {0} ^ {t} r _ {u} ^ {*}\right) \right],
+0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t} - e_{t} + \int_{0}^{t} r_{u}^{*}\right) \right],
 $$
 
 $$
-0 = \mathbb {E} _ {t} \left[ d \exp \left(m _ {t} ^ {*} + \int_ {0} ^ {t} r _ {u} ^ {*}\right) \right],
+0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t}^{*} + \int_{0}^{t} r_{u}^{*}\right) \right],
 $$
 
 $$
-0 = \mathbb {E} _ {t} \left[ d \exp \left(m _ {t} ^ {*} + e _ {t} + \int_ {0} ^ {t} r _ {u}\right) \right],
+0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t}^{*} + e_{t} + \int_{0}^{t} r_{u}\right) \right],
 $$
 
 where the consumption-based SDFs are defined as
 
 $$
-\exp (m _ {t}) \stackrel {\text {d e f}} {=} \exp (- \delta t) \frac {\gamma_ {t} c _ {0}}{\gamma_ {0} c _ {t}},
+\exp (m_{t}) \stackrel {\text{de f}} {=} \exp (- \delta t) \frac{\gamma_{t} c_{0}}{\gamma_{0} c_{t}},
 $$
 
 $$
-\exp \left(m _ {t} ^ {*}\right) \stackrel {\text {d e f}} {=} \exp \left(- \delta t\right) \frac {c _ {0} ^ {*}}{c _ {t} ^ {*}}.
+\exp \left(m_{t}^{*}\right) \stackrel {\text{de f}} {=} \exp \left(- \delta t\right) \frac{c_{0}^{*}}{c_{t}^{*}}.
 $$
 
 # 5.A.3 Portfolio Choices
@@ -255,27 +255,27 @@ $$
 The home household's portfolio choice problem is
 
 $$
-\max  _ {c _ {t}, x _ {t}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) \gamma_ {t} \log c _ {t} d t \right]
+\max_{c_{t}, x_{t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right]
 $$
 
 $$
-\mathrm {s . t .} d w _ {t} = w _ {t} \left[ r _ {t} + x _ {t} \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right) \right] d t + (p _ {t} y _ {t} - c _ {t}) d t - w _ {t} x _ {t} \sigma_ {t} d Z _ {t}.
+\mathrm{s .t .} d w_{t} = w_{t} \left[ r_{t} + x_{t} \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right) \right] d t + (p_{t} y_{t} - c_{t}) d t - w_{t} x_{t} \sigma_{t} d Z_{t}.
 $$
 
 Similarly, noting that the log preference allows separation between the consumption choice and the numétaire, i.e.,
 
 $$
-\log c _ {t} ^ {*} = \log \tilde {c} _ {t} ^ {*} + e _ {t},
+\log c_{t}^{*} = \log \tilde {c}_{t}^{*} + e_{t},
 $$
 
 where the exchange rate  $e_t$  is unaffected by the decision of the competitive households, we can express foreign household's portfolio choice problem as
 
 $$
-\max _ {\tilde {c} _ {t} ^ {*}, x _ {t} ^ {*}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) \gamma^ {*} \log \tilde {c} _ {t} ^ {*} d t \right]
+\max_{\tilde {c}_{t}^{*}, x_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right]
 $$
 
 $$
-\mathrm {s . t .} d \tilde {w} _ {t} ^ {*} = \tilde {w} _ {t} ^ {*} \left[ r _ {t} + (1 - x _ {t} ^ {*}) \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right) \right] d t + (p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*} - \tilde {c} _ {t} ^ {*}) d t - \tilde {w} _ {t} ^ {*} (1 - x _ {t} ^ {*}) \sigma_ {t} d Z _ {t}.
+\mathrm{s .t .} d \tilde {w}_{t}^{*} = \tilde {w}_{t}^{*} \left[ r_{t} + (1 - x_{t}^{*}) \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right) \right] d t + (p_{t}^{*} \exp (- e_{t}) y_{t}^{*} - \tilde {c}_{t}^{*}) d t - \tilde {w}_{t}^{*} (1 - x_{t}^{*}) \sigma_{t} d Z_{t}.
 $$
 
 In this way, under the log preference, the optimization problems are formally equivalent to a familiar single-good consumption-investment problem [Pavlova and Rigobon, 2012].
@@ -283,23 +283,23 @@ In this way, under the log preference, the optimization problems are formally eq
 Next, to deal with the market incompleteness, we follow He and Pearson [1991] to convert the above home household's dynamic portfolio choice problem to a static variational problem:
 
 $$
-\max  _ {c _ {t}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) \gamma_ {t} \log c _ {t} d t \right] \tag {5.2}
+\max_{c_{t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right] \tag {5.2}
 $$
 
 $$
-\begin{array}{r l} \text {s . t .} & \mathbb {E} \left[ \int_ {0} ^ {T} \exp (m _ {\nu , t}) (c _ {t} - p _ {t} y _ {t}) d t \right] \leq W _ {0}, \end{array}
+\begin{array}{r l} \text{s .t .} & \mathbb {E} \left[ \int_{0}^{T} \exp (m_{\nu , t}) (c_{t} - p_{t} y_{t}) d t \right] \leq W_{0}, \end{array}
 $$
 
 where  $\exp(m_{\nu,t})$  denotes an appropriate home SDF. In incomplete markets, multiple SDFs are consistent with no arbitrage, giving rise to an infinite number of the static budget constraint. To characterize this family of SDFs, let  $\lambda_t$  denote the home country market price of risk,
 
 $$
-\lambda_ {t} = \frac {- \sigma_ {t} ^ {\prime}}{| | \sigma_ {t} | | ^ {2}} \left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right),
+\lambda_{t} = \frac{- \sigma_{t}^{\prime}}{| | \sigma_{t} | |^{2}} \left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right),
 $$
 
 which is a 3 by 1 vector. Then, the set of home SDFs can be represented as
 
 $$
-d \exp (m _ {\nu , t}) = - r _ {t} \exp (m _ {\nu , t}) d t - \left(\lambda_ {t} + \nu_ {t}\right) ^ {\prime} \exp (m _ {\nu , t}) d Z _ {t},
+d \exp (m_{\nu , t}) = - r_{t} \exp (m_{\nu , t}) d t - \left(\lambda_{t} + \nu_{t}\right)^{\prime} \exp (m_{\nu , t}) d Z_{t},
 $$
 
 where  $\nu_{t} \in \mathbb{R}^{3}$  satisfies  $\sigma_{t}\nu_{t} = 0$  for any  $t \in [0,T]$  and  $\int_0^T ||\nu_t||^2 dt < \infty$ .
@@ -307,11 +307,11 @@ where  $\nu_{t} \in \mathbb{R}^{3}$  satisfies  $\sigma_{t}\nu_{t} = 0$  for any
 It is worth noting that this family of SDFs correctly price the home and foreign bonds:
 
 $$
-\mathcal {A} \left[ \exp \left(m _ {\nu , t} + \int_ {0} ^ {t} r _ {t} d t\right) \right] = 0,
+\mathcal {A} \left[ \exp \left(m_{\nu , t} + \int_{0}^{t} r_{t} d t\right) \right] = 0,
 $$
 
 $$
-\mathcal {A} \left[ \exp \left(m _ {\nu , t} - e _ {t} + \int_ {0} ^ {t} r _ {t} ^ {*} d t\right) \right] = 0,
+\mathcal {A} \left[ \exp \left(m_{\nu , t} - e_{t} + \int_{0}^{t} r_{t}^{*} d t\right) \right] = 0,
 $$
 
 where  $\mathcal{A}[w_t]$  is the infinitesimal generator of the stochastic process  $w_t$ .
@@ -321,17 +321,17 @@ When we have three non-redundant risky assets, the markets are complete, and the
 Similarly, for foreign households, the static problem is
 
 $$
-\max  _ {\tilde {c} _ {t} ^ {*}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) \gamma^ {*} \log \tilde {c} _ {t} ^ {*} d t \right] \tag {5.3}
+\max_{\tilde {c}_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right] \tag {5.3}
 $$
 
 $$
-\begin{array}{l l} \text {s . t .} & \mathbb {E} \left[ \int_ {0} ^ {T} \exp (m _ {\tilde {\nu}, t}) (\tilde {c} _ {t} ^ {*} - p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}) d t \right] \leq \tilde {W} _ {0} ^ {*}, \end{array}
+\begin{array}{l l} \text{s .t .} & \mathbb {E} \left[ \int_{0}^{T} \exp (m_{\tilde {\nu}, t}) (\tilde {c}_{t}^{*} - p_{t}^{*} \exp (- e_{t}) y_{t}^{*}) d t \right] \leq \tilde {W}_{0}^{*}, \end{array}
 $$
 
 where
 
 $$
-d \exp (m _ {\tilde {v}, t}) = - r _ {t} \exp (m _ {\tilde {v}, t}) d t - \left(\lambda_ {t} + \tilde {v} _ {t}\right) ^ {\prime} \exp (m _ {\tilde {v}, t}) d Z _ {t}.
+d \exp (m_{\tilde {v}, t}) = - r_{t} \exp (m_{\tilde {v}, t}) d t - \left(\lambda_{t} + \tilde {v}_{t}\right)^{\prime} \exp (m_{\tilde {v}, t}) d Z_{t}.
 $$
 
 He and Pearson [1991] prove that there exists a unique individual-specific  $\nu_{t}$ , which we denote by  $\nu_{H,t}$  for home households, that minimizes their maximum expected utility in Eq. (5.2). This  $\nu_{H,t}$  is the one that makes the constraint bind. Pavlova and Rigobon [2012] refer to the home country SDF related to this  $\nu_{H,t}$  as the personalized home country SDF of the home households. Similarly, let the home country SDF related to  $\tilde{\nu}_{F,t}$  denote the personalized home country SDF of the foreign households, which is also in the unit of the home numérique.
@@ -349,23 +349,23 @@ We report the portfolios of both home and foreign consumers in the following pro
 Proposition 5.1. (1) The fraction of wealth  $x_{t}$  invested in the foreign bonds by the home households is given by
 
 $$
-x _ {t} = - \frac {w _ {t} + s _ {t}}{w _ {t}} \left(\frac {\omega \sigma_ {3 , t}}{\| \sigma_ {t} \| ^ {2}} - \frac {\left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right)}{\| \sigma_ {t} \| ^ {2}}\right) + \frac {s _ {t}}{w _ {t}} \frac {\sigma_ {t} ^ {s} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}}, \tag {5.4}
+x_{t} = - \frac{w_{t} + s_{t}}{w_{t}} \left(\frac{\omega \sigma_{3 , t}}{\| \sigma_{t} \|^{2}} - \frac{\left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right)}{\| \sigma_{t} \|^{2}}\right) + \frac{s_{t}}{w_{t}} \frac{\sigma_{t}^{s} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}}, \tag {5.4}
 $$
 
 and the fraction of wealth  $x_{t}^{*}$  invested in the home bonds by the foreign households is given by
 
 $$
-x _ {t} ^ {*} = 1 - \frac {\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} \frac {\left(r _ {t} ^ {*} - \kappa_ {t} + \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} - r _ {t}\right)}{\| \sigma_ {t} \| ^ {2}} - \frac {\tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*}} \frac {\sigma_ {t} ^ {\tilde {s} ^ {*}} \sigma_ {t} ^ {\prime}}{\| \sigma_ {t} \| ^ {2}}. \tag {5.5}
+x_{t}^{*} = 1 - \frac{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} \frac{\left(r_{t}^{*} - \kappa_{t} + \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} - r_{t}\right)}{\| \sigma_{t} \|^{2}} - \frac{\tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*}} \frac{\sigma_{t}^{\tilde {s}^{*}} \sigma_{t}^{\prime}}{\| \sigma_{t} \|^{2}}. \tag {5.5}
 $$
 
 (2) The processes  $\nu_{H}$  and  $\tilde{\nu}_{F}$ , which enter the specification of the home state price densities personalized for the home and foreign households respectively, are given by:
 
 $$
-\nu_ {H, t} = \left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) \left(- \omega i _ {3} ^ {\prime} + \frac {s _ {t}}{w _ {t} + s _ {t}} (\sigma_ {t} ^ {s}) ^ {\prime}\right),
+\nu_{H, t} = \left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) \left(- \omega i_{3}^{\prime} + \frac{s_{t}}{w_{t} + s_{t}} (\sigma_{t}^{s})^{\prime}\right),
 $$
 
 $$
-\tilde {v} _ {F, t} = \frac {\tilde {s} _ {t} ^ {*}}{\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}} \left(I _ {3} - \frac {\sigma_ {t} ^ {\prime} \sigma_ {t}}{\| \sigma_ {t} \| ^ {2}}\right) (\sigma_ {t} ^ {\tilde {s} ^ {*}}) ^ {\prime},
+\tilde {v}_{F, t} = \frac{\tilde {s}_{t}^{*}}{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}} \left(I_{3} - \frac{\sigma_{t}^{\prime} \sigma_{t}}{\| \sigma_{t} \|^{2}}\right) (\sigma_{t}^{\tilde {s}^{*}})^{\prime},
 $$
 
 where  $I_{3}$  is a 3-dimensional identity matrix.
@@ -377,13 +377,13 @@ The proof is presented in Appendix A.15. The first term on the right-hand side o
 An equilibrium in our economy is defined in a standard way: it is a collection of goods and asset prices that satisfy certain conditions
 
 $$
-\left(p _ {t}, p _ {t} ^ {*}, e _ {t}, r _ {t}, r _ {t} ^ {*}\right)
+\left(p_{t}, p_{t}^{*}, e_{t}, r_{t}, r_{t}^{*}\right)
 $$
 
 and consumption-investment policies
 
 $$
-\left(c _ {H, t}, c _ {F, t}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}, x _ {t}, x _ {t} ^ {*}\right)
+\left(c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}, x_{t}, x_{t}^{*}\right)
 $$
 
 such that (i) each consumer-investor maximizes their utility subject to the budget constraint, and (ii) goods and bond markets clear.
@@ -393,7 +393,7 @@ In the presence of incomplete markets, the equilibrium allocation is Pareto opti
 maximizes its utility subject to the resource constraints:
 
 $$
-\begin{array}{l} \max _ {c _ {H, t}, c _ {F, t}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}} \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) (u (c _ {t}) + \pi_ {t} u ^ {*} (c _ {t} ^ {*})) d t \right] \\ \begin{array}{r l} \mathbf {s}. \mathbf {t}. & c _ {H, t} + c _ {H, t} ^ {*} = y _ {t}, c _ {F, t} + c _ {F, t} ^ {*} = y _ {t} ^ {*}, \end{array} \\ \end{array}
+\begin{array}{l} \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi_{t} u^{*} (c_{t}^{*})) d t \right] \\ \begin{array}{r l} \mathbf {s}. \mathbf {t}. & c_{H, t} + c_{H, t}^{*} = y_{t}, c_{F, t} + c_{F, t}^{*} = y_{t}^{*}, \end{array} \\ \end{array}
 $$
 
 where the Pareto weight  $\pi_t$  is stochastic. It can be shown that  $\pi_t$  is simply the ratio of the marginal utilities of either good of the two countries' households, which reflects the relative importance the planner assigns to the foreign households relative to the home households.
@@ -401,19 +401,19 @@ where the Pareto weight  $\pi_t$  is stochastic. It can be shown that  $\pi_t$  
 The social planner's optimization problem implies
 
 $$
-\begin{array}{l} c _ {H, t} = \frac {\gamma_ {t} \alpha}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} y _ {t}, \quad c _ {F, t} = \frac {\gamma_ {t} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} y _ {t} ^ {*}, \tag {5.6} \\ c _ {H, t} ^ {*} = \frac {\pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} y _ {t}, c _ {F, t} ^ {*} = \frac {\pi_ {t} \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} y _ {t} ^ {*}. \\ \end{array}
+\begin{array}{l} c_{H, t} = \frac{\gamma_{t} \alpha}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} y_{t}, \quad c_{F, t} = \frac{\gamma_{t} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} y_{t}^{*}, \tag {5.6} \\ c_{H, t}^{*} = \frac{\pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} y_{t}, c_{F, t}^{*} = \frac{\pi_{t} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} y_{t}^{*}. \\ \end{array}
 $$
 
 The equilibrium terms of trade that arise in the competitive equilibrium is equal to the ratio of the marginal utilities of the home and foreign goods for either country:
 
 $$
-\begin{array}{l} \exp (t o t _ {t}) = \left(\frac {\partial u (c _ {H , t} , c _ {F , t})}{\partial c _ {H , t}}\right) / \left(\frac {\partial u (c _ {H , t} , c _ {F , t})}{\partial c _ {F , t}}\right) = \left(\frac {\gamma_ {t} \alpha}{c _ {H , t}}\right) / \left(\frac {\gamma_ {t} (1 - \alpha)}{c _ {F , t}}\right), \\ \exp (t o t _ {t}) = \left(\frac {\partial u ^ {*} (c _ {H , t} ^ {*} , c _ {F , t} ^ {*})}{\partial c _ {H , t} ^ {*}}\right) / \left(\frac {\partial u ^ {*} (c _ {H , t} ^ {*} , c _ {F , t} ^ {*})}{\partial c _ {F , t} ^ {*}}\right) = \left(\frac {\gamma^ {*} (1 - \alpha)}{c _ {H , t} ^ {*}}\right) / \left(\frac {\gamma^ {*} \alpha}{c _ {F , t} ^ {*}}\right). \\ \end{array}
+\begin{array}{l} \exp (t o t_{t}) = \left(\frac{\partial u (c_{H , t} , c_{F , t})}{\partial c_{H , t}}\right) / \left(\frac{\partial u (c_{H , t} , c_{F , t})}{\partial c_{F , t}}\right) = \left(\frac{\gamma_{t} \alpha}{c_{H , t}}\right) / \left(\frac{\gamma_{t} (1 - \alpha)}{c_{F , t}}\right), \\ \exp (t o t_{t}) = \left(\frac{\partial u^{*} (c_{H , t}^{*} , c_{F , t}^{*})}{\partial c_{H , t}^{*}}\right) / \left(\frac{\partial u^{*} (c_{H , t}^{*} , c_{F , t}^{*})}{\partial c_{F , t}^{*}}\right) = \left(\frac{\gamma^{*} (1 - \alpha)}{c_{H , t}^{*}}\right) / \left(\frac{\gamma^{*} \alpha}{c_{F , t}^{*}}\right). \\ \end{array}
 $$
 
 From either equation, plug in Eq. (5.6) and we have:
 
 $$
-\exp (t o t _ {t}) = \frac {\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \frac {y _ {t} ^ {*}}{y _ {t}}.
+\exp (t o t_{t}) = \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \frac{y_{t}^{*}}{y_{t}}.
 $$
 
 We next use the no-arbitrage valuation principle to obtain the valuation of the untraded stocks and the equilibrium wealth.
@@ -421,19 +421,19 @@ We next use the no-arbitrage valuation principle to obtain the valuation of the 
 Lemma 5.2. Equilibrium home and foreign stock prices in their respective local numériaires are given by
 
 $$
-s _ {t} = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} y _ {t}, \quad s _ {t} ^ {*} = \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} y _ {t} ^ {*},
+s_{t} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t}, \quad s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*},
 $$
 
 and the wealth of the countries in their local numéraires are given by:
 
 $$
-w _ {t} + s _ {t} = \frac {\gamma_ {t}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} s _ {t}, \quad w _ {t} ^ {*} + s _ {t} ^ {*} = \frac {\pi_ {t} \gamma^ {*}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} s _ {t} ^ {*}.
+w_{t} + s_{t} = \frac{\gamma_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} s_{t}, \quad w_{t}^{*} + s_{t}^{*} = \frac{\pi_{t} \gamma^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} s_{t}^{*}.
 $$
 
 The proof is presented in Appendix A.16. By Lemma 5.2, we can express the home and foreign wealth in the home numétaire as
 
 $$
-\begin{array}{l} w _ {t} + s _ {t} = \frac {\gamma_ {t}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} y _ {t}, \\ \tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*} = \frac {\pi_ {t} \gamma^ {*}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha} \frac {1 - \exp (- \delta (T - t))}{\delta} p _ {t} ^ {*} \exp (- e _ {t}) y _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} w_{t} + s_{t} = \frac{\gamma_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t}, \\ \tilde {w}_{t}^{*} + \tilde {s}_{t}^{*} = \frac{\pi_{t} \gamma^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} \exp (- e_{t}) y_{t}^{*}, \\ \end{array}
 $$
 
 which yield a simple interpretation of the stochastic Pareto weight  $\pi_t$ .
@@ -441,7 +441,7 @@ which yield a simple interpretation of the stochastic Pareto weight  $\pi_t$ .
 Lemma 5.3. The Pareto weight is determined by the relative wealth of the two countries' households, i.e.,  $w_{t} + s_{t}$  and  $\tilde{w}_{t}^{*} + \tilde{s}_{t}^{*}$ , scaled by their discount rates  $\gamma_{t}$  and  $\gamma^{*}$ :
 
 $$
-\pi_ {t} = \frac {\tilde {w} _ {t} ^ {*} + \tilde {s} _ {t} ^ {*}}{w _ {t} + s _ {t}} \frac {\gamma_ {t}}{\gamma^ {*}}. \tag {5.7}
+\pi_{t} = \frac{\tilde {w}_{t}^{*} + \tilde {s}_{t}^{*}}{w_{t} + s_{t}} \frac{\gamma_{t}}{\gamma^{*}}. \tag {5.7}
 $$
 
 As Eq. (5.6) shows, incomplete markets enrich the dynamics of the economy with an additional state variable  $\pi_t$ , which is determined by the wealth distribution and the discount rates. As such, path dependence naturally arises from incomplete-market models, as the wealth distribution is not easily determined by the current state variables, but rather reflects the history of the shocks to the economy.
@@ -451,75 +451,75 @@ With these results, we are now ready to characterize the equilibrium dynamics of
 Proposition 5.2. (1) In an equilibrium, the stochastic weight that the fictitious social planner assigns to the Foreign country,  $\pi_t$ , has the following dynamics:
 
 $$
-d \pi_ {t} = \pi_ {t} \left(\tilde {\nu} _ {F, t} - \nu_ {H, t}\right) ^ {\prime} d Z _ {t}.
+d \pi_{t} = \pi_{t} \left(\tilde {\nu}_{F, t} - \nu_{H, t}\right)^{\prime} d Z_{t}.
 $$
 
 If both countries' households hold their own endowment tree in period 0, we can determine  $\pi_0$  as:
 
 $$
-\pi_ {0} = \frac {\gamma_ {0}}{\gamma^ {*}}.
+\pi_{0} = \frac{\gamma_{0}}{\gamma^{*}}.
 $$
 
 (2) When such equilibrium exists, the log exchange rate dynamics follow
 
 $$
-d e _ {t} = \kappa_ {t} d t + \sigma_ {t} d Z _ {t},
+d e_{t} = \kappa_{t} d t + \sigma_{t} d Z_{t},
 $$
 
 where
 
 $$
-\frac {1}{2 \alpha - 1} \kappa_ {t} = \mu_ {y ^ {*}} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} - \frac {1}{2} \frac {\| \alpha \gamma_ {t} \omega i _ {3} + \gamma^ {*} (1 - \alpha) \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} \| ^ {2}}{(\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)) ^ {2}} + \frac {1}{2} \frac {\| (1 - \alpha) \gamma_ {t} \omega i _ {3} + \gamma^ {*} \alpha \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} \| ^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha) ^ {2}}
+\frac{1}{2 \alpha - 1} \kappa_{t} = \mu_{y^{*}} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \sigma_{y^{*}}^{2} - \frac{1}{2} \frac{\| \alpha \gamma_{t} \omega i_{3} + \gamma^{*} (1 - \alpha) \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} \|^{2}}{(\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha))^{2}} + \frac{1}{2} \frac{\| (1 - \alpha) \gamma_{t} \omega i_{3} + \gamma^{*} \alpha \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} \|^{2}}{(\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha)^{2}}
 $$
 
 $$
-\frac {1}{2 \alpha - 1} \sigma_ {t} = - \sigma_ {y} i _ {1} + \sigma_ {y ^ {*}} i _ {2} + \frac {\alpha \gamma_ {t} \omega i _ {3} + \gamma^ {*} (1 - \alpha) \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)} - \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3} + \gamma^ {*} \alpha \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}.
+\frac{1}{2 \alpha - 1} \sigma_{t} = - \sigma_{y} i_{1} + \sigma_{y^{*}} i_{2} + \frac{\alpha \gamma_{t} \omega i_{3} + \gamma^{*} (1 - \alpha) \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} - \frac{(1 - \alpha) \gamma_{t} \omega i_{3} + \gamma^{*} \alpha \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}.
 $$
 
 (3) The log home state price density based on the home household's consumption,  $m_{\nu_H,t}$ , follows
 
 $$
-d m _ {\nu_ {H}, t} = \mu_ {m, t} d t + \sigma_ {m, t} d Z _ {t},
+d m_{\nu_{H}, t} = \mu_{m, t} d t + \sigma_{m, t} d Z_{t},
 $$
 
 where
 
 $$
-\mu_ {m, t} = - \delta + \frac {\alpha - 1}{2 \alpha - 1} \kappa_ {t} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \frac {| | \alpha \gamma_ {t} \omega i _ {3} + (1 - \alpha) \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} | | ^ {2}}{(\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)) ^ {2}},
+\mu_{m, t} = - \delta + \frac{\alpha - 1}{2 \alpha - 1} \kappa_{t} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \frac{| | \alpha \gamma_{t} \omega i_{3} + (1 - \alpha) \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} | |^{2}}{(\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha))^{2}},
 $$
 
 $$
-\sigma_ {m, t} = \frac {\alpha - 1}{2 \alpha - 1} \sigma_ {t} - \sigma_ {y} i _ {1} + \frac {\alpha \gamma_ {t} \omega i _ {3} + (1 - \alpha) \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} \alpha + \pi_ {t} \gamma^ {*} (1 - \alpha)},
+\sigma_{m, t} = \frac{\alpha - 1}{2 \alpha - 1} \sigma_{t} - \sigma_{y} i_{1} + \frac{\alpha \gamma_{t} \omega i_{3} + (1 - \alpha) \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)},
 $$
 
 and the log foreign state price density based on the foreign household's consumption,  $m_{\nu_F^*,t'}^*$  follows
 
 $$
-d m _ {\nu_ {F} ^ {*}, t} ^ {*} = \mu_ {m ^ {*}, t} d t + \sigma_ {m ^ {*}, t} d Z _ {t},
+d m_{\nu_{F}^{*}, t}^{*} = \mu_{m^{*}, t} d t + \sigma_{m^{*}, t} d Z_{t},
 $$
 
 where
 
 $$
-\begin{array}{l} \mu_ {m ^ {*}, t} = - \delta + \frac {1 - \alpha}{2 \alpha - 1} \kappa_ {t} - \mu_ {y ^ {*}} + \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} + \frac {1}{2} (\| \nu_ {H, t} \| ^ {2} - \| \tilde {\nu} _ {F, t} \| ^ {2}) - \frac {1}{2} \frac {| | (1 - \alpha) \gamma_ {t} \omega i _ {3} + \alpha \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime} | | ^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha) ^ {2}}, \\ \sigma_ {m ^ {*}, t} = \frac {1 - \alpha}{2 \alpha - 1} \sigma_ {t} - \sigma_ {y ^ {*}} i _ {2} - (\tilde {\nu} _ {F, t} - \nu_ {H, t}) ^ {\prime} + \frac {(1 - \alpha) \gamma_ {t} \omega i _ {3} + \alpha \gamma^ {*} \pi_ {t} (\tilde {\nu} _ {F , t} - \nu_ {H , t}) ^ {\prime}}{\gamma_ {t} (1 - \alpha) + \pi_ {t} \gamma^ {*} \alpha}. \\ \end{array}
+\begin{array}{l} \mu_{m^{*}, t} = - \delta + \frac{1 - \alpha}{2 \alpha - 1} \kappa_{t} - \mu_{y^{*}} + \frac{1}{2} \sigma_{y^{*}}^{2} + \frac{1}{2} (\| \nu_{H, t} \|^{2} - \| \tilde {\nu}_{F, t} \|^{2}) - \frac{1}{2} \frac{| | (1 - \alpha) \gamma_{t} \omega i_{3} + \alpha \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime} | |^{2}}{(\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha)^{2}}, \\ \sigma_{m^{*}, t} = \frac{1 - \alpha}{2 \alpha - 1} \sigma_{t} - \sigma_{y^{*}} i_{2} - (\tilde {\nu}_{F, t} - \nu_{H, t})^{\prime} + \frac{(1 - \alpha) \gamma_{t} \omega i_{3} + \alpha \gamma^{*} \pi_{t} (\tilde {\nu}_{F , t} - \nu_{H , t})^{\prime}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}. \\ \end{array}
 $$
 
 Then, we can introduce a stochastic wedge  $\eta_t$  that reconciles the log exchange rate movement with the domestic and foreign consumption-based SDFs:
 
 $$
-d e _ {t} = d m _ {\nu_ {H}, t} - d m _ {\nu_ {F} ^ {*}, t} ^ {*} + d \eta_ {t}, \tag {5.8}
+d e_{t} = d m_{\nu_{H}, t} - d m_{\nu_{F}^{*}, t}^{*} + d \eta_{t}, \tag {5.8}
 $$
 
 where
 
 $$
-d \eta_ {t} = \frac {1}{2} \left(\left\| \nu_ {H, t} \right\| ^ {2} - \left\| \tilde {\nu} _ {F, t} \right\| ^ {2}\right) d t + \left(\nu_ {H, t} - \tilde {\nu} _ {F, t}\right) ^ {\prime} d Z _ {t}.
+d \eta_{t} = \frac{1}{2} \left(\left\| \nu_{H, t} \right\|^{2} - \left\| \tilde {\nu}_{F, t} \right\|^{2}\right) d t + \left(\nu_{H, t} - \tilde {\nu}_{F, t}\right)^{\prime} d Z_{t}.
 $$
 
 (4) We can then express the market price of risk  $\lambda_{t}$ , and the interest rates  $r_t$  and  $r_t^*$  as functions of exogenous state variables.
 
 $$
-\begin{array}{l} \lambda_ {t} = - \sigma_ {m, t} ^ {\prime} - v _ {H, t}, \\ r _ {t} = - \mu_ {m, t} - \frac {1}{2} \| \sigma_ {m, t} \| ^ {2}, \\ r _ {t} ^ {*} = - \sigma_ {t} \lambda_ {t} + \kappa_ {t} - \frac {1}{2} \sigma_ {t} \sigma_ {t} ^ {\prime} + r _ {t}. \\ \end{array}
+\begin{array}{l} \lambda_{t} = - \sigma_{m, t}^{\prime} - v_{H, t}, \\ r_{t} = - \mu_{m, t} - \frac{1}{2} \| \sigma_{m, t} \|^{2}, \\ r_{t}^{*} = - \sigma_{t} \lambda_{t} + \kappa_{t} - \frac{1}{2} \sigma_{t} \sigma_{t}^{\prime} + r_{t}. \\ \end{array}
 $$
 
 The proof is presented in Appendix A.17. This proposition solves the equilibrium exchange rate, SDF, and risk premium dynamics implicitly as functions of  $\nu_{H,t}$  and  $\tilde{\nu}_{F,t}$ , which are themselves functions of the exchange rate dynamics and wealth distribution. The central equation is (5.8), which shows that the exchange rate movement is no longer equal to the SDF differential as we saw in the complete-market model in Section 1.C. Instead, an additional wedge  $d\eta_t$  arises and gives to additional variations in the exchange rate. As such, we refer to the  $d\eta_t$  term as the incomplete-market wedge. However, this wedge is driven by the same fundamental shocks  $dZ_t$  that drive the SDF processes. In this sense, the additional exchange rate variations in incomplete-market models are not necessarily non-fundamental.
@@ -531,37 +531,37 @@ When the markets are complete, the model we consider reduces to a special case o
 maximizes the following objective function with a constant Pareto weight:
 
 $$
-\max  _ {c _ {H, t}, c _ {F, t}, c _ {H, t} ^ {*}, c _ {F, t} ^ {*}} \quad \mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \delta t) (u (c _ {t}) + \pi u ^ {*} (c _ {t} ^ {*})) d t \right]
+\max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \quad \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi u^{*} (c_{t}^{*})) d t \right]
 $$
 
 $$
-\begin{array}{c c} \text {s . t .} & c _ {H, t} + c _ {H, t} ^ {*} = y _ {t}, \quad c _ {F, t} + c _ {F, t} ^ {*} = y _ {t} ^ {*}, \end{array}
+\begin{array}{c c} \text{s .t .} & c_{H, t} + c_{H, t}^{*} = y_{t}, \quad c_{F, t} + c_{F, t}^{*} = y_{t}^{*}, \end{array}
 $$
 
 which implies
 
 $$
-c _ {H, t} = \frac {\gamma_ {t} \alpha}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} y _ {t}, \quad c _ {F, t} = \frac {\gamma_ {t} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} y _ {t} ^ {*},
+c_{H, t} = \frac{\gamma_{t} \alpha}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} y_{t}, \quad c_{F, t} = \frac{\gamma_{t} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} y_{t}^{*},
 $$
 
 $$
-c _ {H, t} ^ {*} = \frac {\pi \gamma^ {*} (1 - \alpha)}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} y _ {t}, c _ {F, t} ^ {*} = \frac {\pi \gamma^ {*} \alpha}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} y _ {t} ^ {*}.
+c_{H, t}^{*} = \frac{\pi \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} y_{t}, c_{F, t}^{*} = \frac{\pi \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} y_{t}^{*}.
 $$
 
 The equilibrium terms of trade that arise in the competitive equilibrium is equal to the ratio of the marginal utilities of the home and foreign goods for either country:
 
 $$
-\exp (t o t _ {t} ^ {c m}) = \left(\frac {\partial u (c _ {H , t} , c _ {F , t})}{\partial c _ {H , t}}\right) / \left(\frac {\partial u (c _ {H , t} , c _ {F , t})}{\partial c _ {F , t}}\right) = \left(\frac {\gamma_ {t} \alpha}{c _ {H , t}}\right) / \left(\frac {\gamma_ {t} (1 - \alpha)}{c _ {F , t}}\right),
+\exp (t o t_{t}^{c m}) = \left(\frac{\partial u (c_{H , t} , c_{F , t})}{\partial c_{H , t}}\right) / \left(\frac{\partial u (c_{H , t} , c_{F , t})}{\partial c_{F , t}}\right) = \left(\frac{\gamma_{t} \alpha}{c_{H , t}}\right) / \left(\frac{\gamma_{t} (1 - \alpha)}{c_{F , t}}\right),
 $$
 
 $$
-\exp (t o t _ {t} ^ {c m}) = \left(\frac {\partial u ^ {*} (c _ {H , t} ^ {*} , c _ {F , t} ^ {*})}{\partial c _ {H , t} ^ {*}}\right) / \left(\frac {\partial u ^ {*} (c _ {H , t} ^ {*} , c _ {F , t} ^ {*})}{\partial c _ {F , t} ^ {*}}\right) = \left(\frac {\gamma^ {*} (1 - \alpha)}{c _ {H , t} ^ {*}}\right) / \left(\frac {\gamma^ {*} \alpha}{c _ {F , t} ^ {*}}\right).
+\exp (t o t_{t}^{c m}) = \left(\frac{\partial u^{*} (c_{H , t}^{*} , c_{F , t}^{*})}{\partial c_{H , t}^{*}}\right) / \left(\frac{\partial u^{*} (c_{H , t}^{*} , c_{F , t}^{*})}{\partial c_{F , t}^{*}}\right) = \left(\frac{\gamma^{*} (1 - \alpha)}{c_{H , t}^{*}}\right) / \left(\frac{\gamma^{*} \alpha}{c_{F , t}^{*}}\right).
 $$
 
 From either equation, plugging in the consumption solutions, we have:
 
 $$
-\exp (t o t _ {t} ^ {c m}) = \frac {\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha} \frac {y _ {t} ^ {*}}{y _ {t}}.
+\exp (t o t_{t}^{c m}) = \frac{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha} \frac{y_{t}^{*}}{y_{t}}.
 $$
 
 Compared to the incomplete-market solution, the Pareto weight  $\pi$  in the complete-market case is a constant. After further simplification, we characterize the exchange rate dynamics in the following proposition.
@@ -569,23 +569,23 @@ Compared to the incomplete-market solution, the Pareto weight  $\pi$  in the com
 Proposition 5.3. In the complete-market case, the log exchange rate follows
 
 $$
-d e _ {t} ^ {c m} = \kappa_ {t} ^ {c m} d t + \sigma_ {t} ^ {c m} d Z _ {t},
+d e_{t}^{c m} = \kappa_{t}^{c m} d t + \sigma_{t}^{c m} d Z_{t},
 $$
 
 where
 
 $$
-\frac {1}{2 \alpha - 1} \kappa_ {t} ^ {c m} = \mu_ {y ^ {*}} - \mu_ {y} + \frac {1}{2} \sigma_ {y} ^ {2} - \frac {1}{2} \sigma_ {y ^ {*}} ^ {2} - \frac {1}{2} \frac {\alpha^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)) ^ {2}} + \frac {1}{2} \frac {(1 - \alpha) ^ {2} \gamma_ {t} ^ {2} \omega^ {2}}{(\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha) ^ {2}},
+\frac{1}{2 \alpha - 1} \kappa_{t}^{c m} = \mu_{y^{*}} - \mu_{y} + \frac{1}{2} \sigma_{y}^{2} - \frac{1}{2} \sigma_{y^{*}}^{2} - \frac{1}{2} \frac{\alpha^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha))^{2}} + \frac{1}{2} \frac{(1 - \alpha)^{2} \gamma_{t}^{2} \omega^{2}}{(\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha)^{2}},
 $$
 
 $$
-\frac {1}{2 \alpha - 1} \sigma_ {t} ^ {c m} = - \sigma_ {y} i _ {1} + \sigma_ {y ^ {*}} i _ {2} + \left(\frac {\alpha \gamma_ {t} \omega}{\gamma_ {t} \alpha + \pi \gamma^ {*} (1 - \alpha)} - \frac {(1 - \alpha) \gamma_ {t} \omega}{\gamma_ {t} (1 - \alpha) + \pi \gamma^ {*} \alpha}\right) i _ {3}.
+\frac{1}{2 \alpha - 1} \sigma_{t}^{c m} = - \sigma_{y} i_{1} + \sigma_{y^{*}} i_{2} + \left(\frac{\alpha \gamma_{t} \omega}{\gamma_{t} \alpha + \pi \gamma^{*} (1 - \alpha)} - \frac{(1 - \alpha) \gamma_{t} \omega}{\gamma_{t} (1 - \alpha) + \pi \gamma^{*} \alpha}\right) i_{3}.
 $$
 
 Moreover, the SDF dynamics satisfy
 
 $$
-d e _ {t} ^ {c m} = d m _ {t} ^ {c m} - d m _ {t} ^ {*}, ^ {c m}.
+d e_{t}^{c m} = d m_{t}^{c m} - d m_{t}^{*},^{c m}.
 $$
 
 The proof is presented in Appendix A.18. This complete-market case restores a continuous-time version of our standard risk-sharing condition (1.16) under complete markets, i.e.,  $\Delta e_{t+1} = m_{t+1} - m_{t+1}^*$ , which is in stark contrast to Eq. (5.8) under the incomplete-market case.
@@ -593,7 +593,7 @@ The proof is presented in Appendix A.18. This complete-market case restores a co
 Moreover, Eq. (5.7), reproduced below, also holds in the complete-market case:
 
 $$
-\pi = \frac {\tilde {w} _ {t} ^ {*}}{w _ {t}} \frac {\gamma_ {t}}{\gamma^ {*}}. \tag {5.9}
+\pi = \frac{\tilde {w}_{t}^{*}}{w_{t}} \frac{\gamma_{t}}{\gamma^{*}}. \tag {5.9}
 $$
 
 With a constant Pareto weight  $\pi$ , the equilibrium wealth distribution is equal to the ratio of the discount rates. As such, when markets are complete, the wealth distribution does not introduce additional state variables.
@@ -603,7 +603,7 @@ With a constant Pareto weight  $\pi$ , the equilibrium wealth distribution is eq
 The general equilibrium model above demonstrates one particular case in which the exchange rate obeys Eq. (5.1), reproduced below,
 
 $$
-\Delta e _ {t + 1} = m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1}.
+\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}.
 $$
 
 If we relax the assumption of log preference, the model becomes much more difficult to solve in closed form. In this section, we develop an alternative, no-arbitrage approach to study the properties of the exchange rate dynamics under incomplete markets. This approach is based on Backus, Foresi, and Telmer [2001], Brandt, Cochrane, and Santa-Clara [2006], Lustig and Verdelhan [2019].
@@ -615,13 +615,13 @@ As this approach leaves other markets unspecified, there is a family of exchange
 Moreover, for any given home SDF  $m_{t + 1}$
 
 $$
-m _ {t + 1} ^ {* *} \stackrel {\mathrm {d e f}} {=} m _ {t + 1} - \Delta e _ {t + 1}
+m_{t + 1}^{* *} \stackrel {\mathrm{de f}} {=} m_{t + 1} - \Delta e_{t + 1}
 $$
 
 is always a valid foreign SDF that is consistent with the asset market equilibrium. While this SDF correctly prices the tradable assets, it does not necessarily coincide with the foreign households' marginal utility growth. To the extent that we are interested in understanding the relationship between the exchange rate dynamics and the macroeconomy, we would like to focus on the home and foreign SDFs that reflect the marginal utility growth, i.e.,
 
 $$
-m _ {t + 1} = \delta \frac {u ^ {\prime} (c _ {t + 1})}{u ^ {\prime} (c _ {t})}, \qquad m _ {t + 1} ^ {*} = \delta \frac {u ^ {* ^ {\prime}} (c _ {t + 1} ^ {*})}{u ^ {* ^ {\prime}} (c _ {t} ^ {*})}.
+m_{t + 1} = \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})}, \qquad m_{t + 1}^{*} = \delta \frac{u^{*^{\prime}} (c_{t + 1}^{*})}{u^{*^{\prime}} (c_{t}^{*})}.
 $$
 
 # 5.B.1 The  $\eta$  Algebra
@@ -629,13 +629,13 @@ $$
 To explain the restrictions implied by the Euler equations, we plug in  $\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}$  to the Euler equation (1.9), reproduced below,
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {*} + \Delta e _ {t + 1} + r _ {t}) \right],
+1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
 $$
 
 to obtain
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + \eta_ {t + 1} + r _ {t}\right) \right].
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
 $$
 
 In this equation,  $m_{t+1} + \eta_{t+1}$  expresses the foreign households' SDF in the home numétaire, which prices the home risk-free rate.
@@ -643,13 +643,13 @@ In this equation,  $m_{t+1} + \eta_{t+1}$  expresses the foreign households' SDF
 Together with the Euler equation (1.6), reproduced below,
 
 $$
-1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + r _ {t}\right) \right],
+1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
 $$
 
 and assuming joint normality, they impose a restriction on the joint distribution of  $m_{t+1}$  and  $\eta_{t+1}$ :
 
 $$
-\mathbb {E} _ {t} \left[ \eta_ {t + 1} \right] + \frac {1}{2} v a r _ {t} \left(\eta_ {t + 1}\right) + c o v _ {t} \left(m _ {t + 1}, \eta_ {t + 1}\right) = 0. \tag {5.10}
+\mathbb {E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right) + c o v_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = 0. \tag {5.10}
 $$
 
 In the language of closed-economy incomplete-market models, we can say that incomplete markets allow multiple SDFs to be consistent with the asset market equilibrium, and  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  are both valid SDFs. However,  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  cannot be arbitrary. The fact that they both price the home risk-free bond implies a restriction, which is what we derived in Eq. (5.10).
@@ -657,19 +657,19 @@ In the language of closed-economy incomplete-market models, we can say that inco
 Similarly, home and foreign SDFs satisfy the following Euler equations,
 
 $$
-\begin{array}{l} 1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {*} + r _ {t} ^ {*}) \right], \\ 1 = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} ^ {*} - \eta_ {t + 1} + r _ {t} ^ {*}\right) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
 $$
 
 which imply a restriction on the joint distribution of  $m_{t + 1}^{*}$  and  $\eta_{t + 1}$ :
 
 $$
-\mathbb {E} _ {t} \left[ \eta_ {t + 1} \right] - \frac {1}{2} \operatorname {v a r} _ {t} \left(\eta_ {t + 1}\right) + \operatorname {c o v} _ {t} \left(m _ {t + 1} ^ {*}, \eta_ {t + 1}\right) = 0. \tag {5.11}
+\mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} \operatorname{va r}_{t} \left(\eta_{t + 1}\right) + \operatorname{co v}_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = 0. \tag {5.11}
 $$
 
 The restrictions (5.10) and (5.11) imply
 
 $$
-0 = \operatorname {c o v} _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1}, \eta_ {t + 1}\right) = \operatorname {c o v} _ {t} \left(\Delta e _ {t + 1}, \eta_ {t + 1}\right). \tag {5.12}
+0 = \operatorname{co v}_{t} \left(m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}, \eta_{t + 1}\right) = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, \eta_{t + 1}\right). \tag {5.12}
 $$
 
 This is the key implication of the Euler equations. The incomplete-market wedge  $\eta_{t+1}$  has to exist in the space orthogonal to the exchange rate movement  $\Delta e_{t+1}$ . Otherwise, it will affect how the exchange rate is priced, which makes the two SDFs  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  disagree on the pricing of the foreign currency.
@@ -677,13 +677,13 @@ This is the key implication of the Euler equations. The incomplete-market wedge 
 Rearranging (5.12), we obtain
 
 $$
-c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \eta_ {t + 1}\right) = - v a r _ {t} \left(\eta_ {t + 1}\right);
+c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) = - v a r_{t} \left(\eta_{t + 1}\right);
 $$
 
 that is, in order for the incomplete-market wedge  $\eta_{t+1}$  to be orthogonal to the exchange rate movement  $\Delta e_{t+1}$ , it has to be negatively correlated with the SDF differential  $m_{t+1} - m_{t+1}^*$ . Then, the exchange rate variance becomes
 
 $$
-\begin{array}{l} v a r _ {t} (\Delta e _ {t + 1}) = v a r _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*} + \eta_ {t + 1}) = v a r _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*}) + v a r _ {t} (\eta_ {t + 1}) + 2 c o v _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*}, \eta_ {t + 1}) \\ = v a r _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) - v a r _ {t} \left(\eta_ {t + 1}\right). \\ \end{array}
+\begin{array}{l} v a r_{t} (\Delta e_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*}) + v a r_{t} (\eta_{t + 1}) + 2 c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, since the incomplete-market wedge  $\eta_{t + 1}$  is negatively correlated with the SDF differential  $m_{t + 1} - m_{t + 1}^{*}$ , it reduces the exchange rate volatility relative to the volatility of the SDF differential.
@@ -693,29 +693,29 @@ In this way, using this result derived from the Euler equations (1.6)-(1.9), Lus
 Proposition 5.4. (a) The conditional exchange rate volatility can be expressed as
 
 $$
-\operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) - \operatorname {v a r} _ {t} \left(\eta_ {t + 1}\right).
+\operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - \operatorname{va r}_{t} \left(\eta_{t + 1}\right).
 $$
 
 (b) The conditional exchange rate cyclicality can be expressed as
 
 $$
-\operatorname {c o v} _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right).
+\operatorname{co v}_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right).
 $$
 
 (c) The conditional currency risk premium can be expressed as
 
 $$
-\mathbb {E} _ {t} [ r x _ {t + 1} ] = \frac {1}{2} (v a r _ {t} (m _ {t + 1} ^ {*}) - v a r _ {t} (m _ {t + 1})) + \mathbb {E} _ {t} [ \eta_ {t + 1} ].
+\mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{*}) - v a r_{t} (m_{t + 1})) + \mathbb {E}_{t} [ \eta_{t + 1} ].
 $$
 
 The proof is presented in Appendix A.19. When the markets are complete,  $\eta_{t + 1} = 0$ , and the above results reduce to the complete-market solution we considered in Section 1.C, reproduced below:
 
 $$
-v a r _ {t} (\Delta e _ {t + 1}) = v a r _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*}),
+v a r_{t} (\Delta e_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*}),
 $$
 
 $$
-\begin{array}{l} c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right), \\ \mathbb {E} _ {t} [ r x _ {t + 1} ] = \frac {1}{2} (v a r _ {t} (m _ {t + 1} ^ {*}) - v a r _ {t} (m _ {t + 1})). \\ \end{array}
+\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right), \\ \mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{*}) - v a r_{t} (m_{t + 1})). \\ \end{array}
 $$
 
 Relative to this complete-market benchmark, the presence of the incomplete-market wedge  $\eta_{t+1}$  always reduces the exchange rate volatility  $var_t(\Delta e_{t+1})$  relative to the variance of the SDF differential  $var_t(m_{t+1} - m_{t+1}^*)$ . This result shows that market incompleteness is a useful ingredient for resolving the exchange rate puzzles, as we expect the SDF volatility to be much higher than the exchange rate volatility, while the cross-country SDF correlation is not high enough to reduce  $var_t(m_{t+1} - m_{t+1}^*)$  [Brandt, Cochrane, and Santa-Clara, 2006]. In the presence of a volatile incomplete-market wedge  $\eta_{t+1}$ , the exchange rate volatility can be much lower than the SDF volatility.
@@ -727,7 +727,7 @@ Finally, in incomplete markets, the exchange rate cyclicality is still equal to 
 Lustig and Verdelhan [2019] further point out a trade-off between resolving the exchange rate volatility puzzle and the currency risk premium puzzle. The Euler equations impose restrictions on the joint dynamics of the exchange rate movement, the SDF, and  $\eta_{t+1}$ . When we rely on a volatile  $\eta_{t+1}$  to reduce the exchange rate volatility and cyclicality, we also shrink the currency risk premium. To see this dilemma, recall from Proposition 1.1, which is valid in complete and incomplete markets, that the currency risk premium can be expressed as
 
 $$
-\log \mathbb {E} _ {t} [ \exp (r x _ {t + 1}) ] = - c o v _ {t} \left(m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right).
+\log \mathbb {E}_{t} [ \exp (r x_{t + 1}) ] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right).
 $$
 
 When a volatile  $\eta_{t + 1}$  term lowers the exchange rate volatility and the covariance between the SDF and the exchange rate movement, it also
@@ -743,31 +743,31 @@ In this subsection, we develop a different decomposition of the exchange rate mo
 Without loss of generality, we can express the exchange rate movement as
 
 $$
-\Delta e _ {t + 1} = x _ {t} + y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}, \tag {5.13}
+\Delta e_{t + 1} = x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \tag {5.13}
 $$
 
 where  $\varepsilon_{t + 1}$  is a standard normal variable with a mean of 0 and a volatility of 1. This expression simply rewrites Eq. (5.1), with
 
 $$
-\eta_ {t + 1} = x _ {t} + (y _ {t} - 1) m _ {t + 1} + (z _ {t} + 1) m _ {t + 1} ^ {*} + w _ {t} \varepsilon_ {t + 1}.
+\eta_{t + 1} = x_{t} + (y_{t} - 1) m_{t + 1} + (z_{t} + 1) m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}.
 $$
 
 We identify the coefficients  $x_{t}, y_{t}, z_{t}$ , and  $w_{t}$  by assuming that the covariance between the SDFs and the residual  $\varepsilon_{t+1}$  is zero, i.e.,  $cov_{t}(m_{t+1}, \varepsilon_{t+1}) = cov_{t}(m_{t+1}^{*}, \varepsilon_{t+1}) = 0$ , which uniquely pins down
 
 $$
-y _ {t} = \frac {c o v _ {t} (\Delta e _ {t + 1} , m _ {t + 1}) v a r _ {t} (m _ {t + 1} ^ {*}) - c o v _ {t} (\Delta e _ {t + 1} , m _ {t + 1} ^ {*}) c o v _ {t} (m _ {t + 1} , m _ {t + 1} ^ {*})}{v a r _ {t} (m _ {t + 1}) v a r _ {t} (m _ {t + 1} ^ {*}) - c o v _ {t} (m _ {t + 1} , m _ {t + 1} ^ {*}) ^ {2}},
+y_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
-z _ {t} = \frac {c o v _ {t} (\Delta e _ {t + 1} , m _ {t + 1} ^ {*}) v a r _ {t} (m _ {t + 1}) - c o v _ {t} (\Delta e _ {t + 1} , m _ {t + 1}) c o v _ {t} (m _ {t + 1} , m _ {t + 1} ^ {*})}{v a r _ {t} (m _ {t + 1}) v a r _ {t} (m _ {t + 1} ^ {*}) - c o v _ {t} (m _ {t + 1} , m _ {t + 1} ^ {*}) ^ {2}},
+z_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) v a r_{t} (m_{t + 1}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
-x _ {t} = \mathbb {E} _ {t} [ \Delta e _ {t + 1} ] - y _ {t} \mathbb {E} _ {t} [ m _ {t + 1} ] - z _ {t} \mathbb {E} _ {t} [ m _ {t + 1} ^ {*} ],
+x_{t} = \mathbb {E}_{t} [ \Delta e_{t + 1} ] - y_{t} \mathbb {E}_{t} [ m_{t + 1} ] - z_{t} \mathbb {E}_{t} [ m_{t + 1}^{*} ],
 $$
 
 $$
-w _ {t} \varepsilon_ {t + 1} = \Delta e _ {t + 1} - x _ {t} - y _ {t} m _ {t + 1} - z _ {t} m _ {t + 1} ^ {*}.
+w_{t} \varepsilon_{t + 1} = \Delta e_{t + 1} - x_{t} - y_{t} m_{t + 1} - z_{t} m_{t + 1}^{*}.
 $$
 
 Intuitively, we can think of this decomposition formula as a projection of the exchange rate movement on the home and foreign SDFs. The terms  $y_{t}m_{t + 1}$  and  $z_{t}m_{t + 1}^{*}$  describe how the bilateral exchange rate loads on the SDFs in the two countries, with the coefficients  $y_{t}$  and  $z_{t}$  interpreted as the SDF-FX pass-through. When the markets are complete, the SDFs comove with the exchange rate movement one-for-one (i.e.,  $\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*}$ ), implying a full pass-through of  $y_{t} = 1$  and  $z_{t} = -1$ . As we will see later, when the markets are incomplete,  $|y_{t}|$  and  $|z_{t}|$  can take values lower than 1, reflecting a partial pass-through from the SDFs to the exchange rate.
@@ -781,29 +781,29 @@ Using this exchange rate decomposition, we can provide a different characterizat
 Proposition 5.5. (a) The conditional exchange rate volatility can be expressed as
 
 $$
-\operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right) = \operatorname {v a r} _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}\right) + \operatorname {v a r} _ {t} \left(w _ {t} \varepsilon_ {t + 1}\right).
+\operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + \operatorname{va r}_{t} \left(w_{t} \varepsilon_{t + 1}\right).
 $$
 
 (b) The conditional exchange rate cyclicality can be expressed as
 
 $$
-c o v _ {t} (m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1}) = c o v _ {t} (y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}, m _ {t + 1} - m _ {t + 1} ^ {*}).
+c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}) = c o v_{t} (y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}).
 $$
 
 (c) Using the Euler equations (1.6)-(1.9), the conditional currency risk premium can be expressed as
 
 $$
-r p _ {t} \stackrel {{d e f}} {{=}} \mathbb {E} _ {t} [ r x _ {t + 1} ] = - \frac {1}{2} c o v _ {t} \left(y _ {t} m _ {t + 1} + z _ {t} m _ {t + 1} ^ {*}, m _ {t + 1} + m _ {t + 1} ^ {*}\right).
+r p_{t} \stackrel {{d e f}} {{=}} \mathbb {E}_{t} [ r x_{t + 1} ] = - \frac{1}{2} c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right).
 $$
 
 The proof is in Appendix A.20. As a special case, when markets are complete,  $y_{t} = 1$ ,  $z_{t} = -1$  and  $\varepsilon_{t+1} = 0$ . These exchange rate moments simplify to
 
 $$
-\operatorname {v a r} _ {t} \left(\Delta e _ {t + 1} ^ {c m}\right) = \operatorname {v a r} _ {t} \left(m _ {t + 1} - m _ {*} ^ {*}\right),
+\operatorname{va r}_{t} \left(\Delta e_{t + 1}^{c m}\right) = \operatorname{va r}_{t} \left(m_{t + 1} - m_{*}^{*}\right),
 $$
 
 $$
-\begin{array}{l} c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1} ^ {c m}\right) = v a r _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right), \\ r p _ {t} ^ {c m} = - \frac {1}{2} c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, m _ {t + 1} + m _ {t + 1} ^ {*}\right) = \frac {1}{2} v a r _ {t} \left(m _ {t + 1} ^ {*}\right) - \frac {1}{2} v a r _ {t} \left(m _ {t + 1}\right), \\ \end{array}
+\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}^{c m}\right) = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right), \\ r p_{t}^{c m} = - \frac{1}{2} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right) = \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right), \\ \end{array}
 $$
 
 which recovers the complete-market solution in Section 1.C.
@@ -827,15 +827,15 @@ Then, using the Euler equations (1.6)-(1.9), we can derive the following bound o
 Proposition 5.6. The Euler equations impose the following constraints on the pass-through coefficients  $y_{t}$  and  $z_{t}$ :
 
 $$
-y _ {t} (y _ {t} - 1) v a r _ {t} (m _ {t + 1}) + z _ {t} (z _ {t} + 1) v a r _ {t} (m _ {t + 1} ^ {*}) +
+y_{t} (y_{t} - 1) v a r_{t} (m_{t + 1}) + z_{t} (z_{t} + 1) v a r_{t} (m_{t + 1}^{*}) +
 $$
 
 $$
-\left[ y _ {t} \left(z _ {t} + 1\right) + z _ {t} \left(y _ {t} - 1\right) \right] \operatorname {c o v} _ {t} \left(m _ {t + 1}, m _ {t + 1} ^ {*}\right) \leq 0 \tag {5.15}
+\left[ y_{t} \left(z_{t} + 1\right) + z_{t} \left(y_{t} - 1\right) \right] \operatorname{co v}_{t} \left(m_{t + 1}, m_{t + 1}^{*}\right) \leq 0 \tag {5.15}
 $$
 
 $$
-y _ {t} \operatorname {v a r} _ {t} \left(m _ {t + 1}\right) - z _ {t} \operatorname {v a r} _ {t} \left(m _ {t + 1} ^ {*}\right) + \left(z _ {t} - y _ {t}\right) \operatorname {c o v} _ {t} \left(m _ {t + 1}. m _ {t + 1} ^ {*}\right) = \operatorname {v a r} _ {t} \left(\Delta e _ {t + 1}\right) \tag {5.16}
+y_{t} \operatorname{va r}_{t} \left(m_{t + 1}\right) - z_{t} \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) + \left(z_{t} - y_{t}\right) \operatorname{co v}_{t} \left(m_{t + 1}. m_{t + 1}^{*}\right) = \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) \tag {5.16}
 $$
 
 The proof is in Appendix A.21. This result shows that, if we take a stance on the variances of the SDFs, we can reject some values of the pass-through coefficients by noting that they generate too much exchange rate volatility. For example, if  $y_{t} = 1$  and  $z_{t} = -1$  as in the complete-market case, Eq. (5.15) becomes  $0 \geq 0$  and Eq. (5.16) becomes  $var_{t}(m_{t + 1} - m_{t + 1}^{*}) = var_{t}(\Delta e_{t + 1})$ , which recovers the key result in Brandt, Cochrane, and Santa-Clara [2006].
@@ -854,11 +854,11 @@ This discussion shows that the pass-through coefficients  $y_{t}$  and  $z_{t}$ 
 Market incompleteness also has implications for multi-currency dynamics. As a benchmark, let us first understand the intuition from complete-market models. It suffices to consider only three countries, which we denote by 0, 1, 2. We refer to country 0 as the home country, and countries 1 and 2 as the two foreign countries. The bilateral exchange rate movements between the home country and the two foreign countries are given by
 
 $$
-\Delta e _ {t + 1} ^ {0 / 1} = m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)},
+\Delta e_{t + 1}^{0 / 1} = m_{t + 1}^{(0)} - m_{t + 1}^{(1)},
 $$
 
 $$
-\Delta e _ {t + 1} ^ {0 / 2} = m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)}.
+\Delta e_{t + 1}^{0 / 2} = m_{t + 1}^{(0)} - m_{t + 1}^{(2)}.
 $$
 
 First, Triangular arbitrage means that the bilateral exchange rates between two foreign countries are directly implied from their bilat-
@@ -866,7 +866,7 @@ First, Triangular arbitrage means that the bilateral exchange rates between two 
 eral exchange rates with the home country:
 
 $$
-\Delta e _ {t + 1} ^ {1 / 2} = \Delta e _ {t + 1} ^ {0 / 2} - \Delta e _ {t + 1} ^ {0 / 1} = m _ {t + 1} ^ {(1)} - m _ {t + 1} ^ {(2)}. \tag {5.17}
+\Delta e_{t + 1}^{1 / 2} = \Delta e_{t + 1}^{0 / 2} - \Delta e_{t + 1}^{0 / 1} = m_{t + 1}^{(1)} - m_{t + 1}^{(2)}. \tag {5.17}
 $$
 
 As a result, the three bilateral exchange rates are not mutually independent. Given the simplicity of Eq. (5.17), it suffices to understand the dynamics of the bilateral exchange rates between the home country and each foreign country. The dynamics between the two foreign countries are easily implied.
@@ -876,13 +876,13 @@ As a result, the three bilateral exchange rates are not mutually independent. Gi
 When the markets are incomplete, the simple mapping from the SDFs to the bilateral exchange rates no longer holds. It is no longer sufficient to only study the dynamics between the home country and each foreign country. To see this point, consider the Euler equations (1.6)-(1.9) for holding the home and foreign risk-free bonds. Rewriting Eq. (1.12) for countries 0 and 1, we obtain
 
 $$
-c o v _ {t} \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)} - \Delta e _ {t + 1} ^ {0 / 1}, \Delta e _ {t + 1} ^ {0 / 1}\right) = 0. \tag {5.18}
+c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.18}
 $$
 
 Similarly, for countries 0 and 2, we obtain
 
 $$
-c o v _ {t} \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)} - \Delta e _ {t + 1} ^ {0 / 2}, \Delta e _ {t + 1} ^ {0 / 2}\right) = 0. \tag {5.19}
+c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2}\right) = 0. \tag {5.19}
 $$
 
 These equations arise in a large class of two-country models in which risk-free bonds are traded. They are also part of Proposition 5.4 which characterizes the exchange rate cyclicality.
@@ -890,7 +890,7 @@ These equations arise in a large class of two-country models in which risk-free 
 Next, we consider the Euler equations for risk-free bonds between countries 1 and 2, which are
 
 $$
-\begin{array}{l} 1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {(1)} + r _ {t} ^ {(1)}) \right], \\ 1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {(1)} - \Delta e _ {t + 1} ^ {1 / 2} + r _ {t} ^ {(2)}) \right], \\ 1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {(2)} + r _ {t} ^ {(2)}) \right], \\ 1 = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {(2)} + \Delta e _ {t + 1} ^ {1 / 2} + r _ {t} ^ {(1)}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(1)} + r_{t}^{(1)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(1)} - \Delta e_{t + 1}^{1 / 2} + r_{t}^{(2)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(2)} + r_{t}^{(2)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(2)} + \Delta e_{t + 1}^{1 / 2} + r_{t}^{(1)}) \right]. \\ \end{array}
 $$
 
 The following proposition shows that these equations give rise to additional restrictions on the exchange rate dynamics [Jiang, 2023b].
@@ -898,7 +898,7 @@ The following proposition shows that these equations give rise to additional res
 Proposition 5.7. The Euler equations for risk-free bonds between countries 1 and 2 imply
 
 $$
-c o v _ {t} \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(1)} - \Delta e _ {t + 1} ^ {0 / 1}, \Delta e _ {t + 1} ^ {0 / 2}\right) + c o v _ {t} \left(m _ {t + 1} ^ {(0)} - m _ {t + 1} ^ {(2)} - \Delta e _ {t + 1} ^ {0 / 2}, \Delta e _ {t + 1} ^ {0 / 1}\right) = 0. \tag {5.20}
+c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2}\right) + c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.20}
 $$
 
 The proof is presented in Appendix A.22. This proposition shows that, while the bilateral exchange rate movements  $\Delta e_{t+1}^{0/1}$  and  $\Delta e_{t+1}^{0/2}$
@@ -914,13 +914,13 @@ What do these additional restrictions imply for the exchange rate dynamics? To a
 Let us consider a three-country extension of the Pavlova and Rigobon [2012] model we considered in Section 5.A. Again, we consider three countries labeled as 0, 1 and 2. Each country  $i$  has a unique variety of local goods, and a representative agent with log preference scaled by a demand shock  $\gamma_t^{(i)}$ :
 
 $$
-\mathbb {E} \left[ \int_ {0} ^ {T} \exp (- \rho t) \gamma_ {t} ^ {(i)} \log c _ {t} ^ {(i)} \right],
+\mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} \right],
 $$
 
 and the aggregate consumption is a Cobb-Douglas aggregate of the three countries' local goods. Specifically, let  $c_{j,t}^{(i)}$  denote country  $i$ 's agent's consumption of country  $j$ 's goods, then,
 
 $$
-\log c _ {t} ^ {(i)} = \alpha \log c _ {i, t} ^ {(i)} + \sum_ {j \neq i} \frac {1 - \alpha}{2} \log c _ {j, t} ^ {(i)}.
+\log c_{t}^{(i)} = \alpha \log c_{i, t}^{(i)} + \sum_{j \neq i} \frac{1 - \alpha}{2} \log c_{j, t}^{(i)}.
 $$
 
 Reflecting home bias towards domestic goods,  $\alpha > 1/3$ . Moreover, each country's agent receives a stochastic endowment  $y_{t}^{(i)}$  that follows a simple diffusion process.
@@ -934,7 +934,7 @@ Let  $\tilde{w}_t^{(i)}$  denote the wealth of country  $i$ 's agent, expressed 
 Proposition 5.8. The equilibrium log real exchange rate between the foreign countries 1 and 2 can be expressed as
 
 $$
-e _ {t} ^ {1 / 2} = \frac {3 \alpha - 1}{2} \left(\log \frac {\frac {1 - \alpha}{2} + \frac {\bar {w} _ {t} ^ {(1)}}{\bar {w} _ {t} ^ {(0)}} \alpha + \frac {\bar {w} _ {t} ^ {(2)}}{\bar {w} _ {t} ^ {(0)}} \frac {1 - \alpha}{2}}{\frac {1 - \alpha}{2} + \frac {\bar {w} _ {t} ^ {(1)}}{\bar {w} _ {t} ^ {(0)}} \frac {1 - \alpha}{2} + \frac {\bar {w} _ {t} ^ {(2)}}{\bar {w} _ {t} ^ {(0)}} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}}\right),
+e_{t}^{1 / 2} = \frac{3 \alpha - 1}{2} \left(\log \frac{\frac{1 - \alpha}{2} + \frac{\bar {w}_{t}^{(1)}}{\bar {w}_{t}^{(0)}} \alpha + \frac{\bar {w}_{t}^{(2)}}{\bar {w}_{t}^{(0)}} \frac{1 - \alpha}{2}}{\frac{1 - \alpha}{2} + \frac{\bar {w}_{t}^{(1)}}{\bar {w}_{t}^{(0)}} \frac{1 - \alpha}{2} + \frac{\bar {w}_{t}^{(2)}}{\bar {w}_{t}^{(0)}} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}}\right),
 $$
 
 which depends not only on the endowments  $y_{t}^{(1)}$  and  $y_{t}^{(2)}$ , but also on the endogenous wealth distribution between agents, i.e.,  $\tilde{w}_{t}^{(1)} / \tilde{w}_{t}^{(0)}$  and  $\tilde{w}_{t}^{(2)} / \tilde{w}_{t}^{(0)}$ .
@@ -944,13 +944,13 @@ The proof is presented in Appendix A.23. This expression relates the bilateral e
 In stark contrast, when the markets are complete, full risk-sharing implies the following wealth distribution:
 
 $$
-\frac {\pi^ {(i)}}{\pi^ {(0)}} = \frac {w _ {t} ^ {(i)} / \gamma_ {t} ^ {(i)}}{w _ {t} ^ {(0)} / \gamma_ {t} ^ {(0)}},
+\frac{\pi^{(i)}}{\pi^{(0)}} = \frac{w_{t}^{(i)} / \gamma_{t}^{(i)}}{w_{t}^{(0)} / \gamma_{t}^{(0)}},
 $$
 
 where  $\pi^{(i)}$  is the time-invariant Pareto weight in the social planner's optimization. Then, the log exchange rate can be expressed as
 
 $$
-e _ {t} ^ {1 / 2, c m} = \frac {3 \alpha - 1}{2} \left(\log \frac {\frac {1 - \alpha}{2} + \frac {\gamma_ {t} ^ {(1)}}{\gamma_ {t} ^ {(0)}} \frac {\pi^ {(1)}}{\pi^ {(0)}} \alpha + \frac {\gamma_ {t} ^ {(2)}}{\gamma_ {t} ^ {(0)}} \frac {\pi^ {(2)}}{\pi^ {(0)}} \frac {1 - \alpha}{2}}{\frac {1 - \alpha}{2} + \frac {\gamma_ {t} ^ {(1)}}{\gamma_ {t} ^ {(0)}} \frac {\pi^ {(1)}}{\pi^ {(0)}} \frac {1 - \alpha}{2} + \frac {\gamma_ {t} ^ {(2)}}{\gamma_ {t} ^ {(0)}} \frac {\pi^ {(2)}}{\pi^ {(0)}} \alpha} + \log \frac {y _ {t} ^ {(2)}}{y _ {t} ^ {(1)}}\right), \tag {5.21}
+e_{t}^{1 / 2, c m} = \frac{3 \alpha - 1}{2} \left(\log \frac{\frac{1 - \alpha}{2} + \frac{\gamma_{t}^{(1)}}{\gamma_{t}^{(0)}} \frac{\pi^{(1)}}{\pi^{(0)}} \alpha + \frac{\gamma_{t}^{(2)}}{\gamma_{t}^{(0)}} \frac{\pi^{(2)}}{\pi^{(0)}} \frac{1 - \alpha}{2}}{\frac{1 - \alpha}{2} + \frac{\gamma_{t}^{(1)}}{\gamma_{t}^{(0)}} \frac{\pi^{(1)}}{\pi^{(0)}} \frac{1 - \alpha}{2} + \frac{\gamma_{t}^{(2)}}{\gamma_{t}^{(0)}} \frac{\pi^{(2)}}{\pi^{(0)}} \alpha} + \log \frac{y_{t}^{(2)}}{y_{t}^{(1)}}\right), \tag {5.21}
 $$
 
 which is only a function of the country-specific endowments  $y_{t}^{(1)}$  and  $y_{t}^{(2)}$  and demand shocks  $\gamma_{t}^{(0)}, \gamma_{t}^{(1)}$ , and  $\gamma_{t}^{(2)}$ .

@@ -68,7 +68,7 @@ Our main objective is to understand how output (income) is determined in the hom
 
 The simplest model of aggregate private consumption relates household consumption  $ C $ to disposable income $ Y^{d} $. As we learned in Chapter 16, disposable income is the level of total pretax income $ Y $ received by households minus the taxes paid by households $ \overline{T} $, so that $ Y^{d} = Y - \overline{T} $. Consumers tend to consume more as their disposable income rises, a relationship that can be represented by an increasing function, called the consumption function: $ $
 
-\text {C o n s u m p t i o n} = C = C (Y - \bar {T})
+\text{Co ns um pt io n} = C = C (Y - \bar {T})
 
 $ $
 A typical consumption function of this form is graphed in Figure 18-1; it slopes upward because consumption increases when disposable income increases.
@@ -90,7 +90,7 @@ The simplest model of aggregate investment makes two key assumptions: firms can 
 
 When the expected real interest rate in the economy falls, we expect more investment projects to be undertaken. For example, at a real interest rate of  $ 10\% $, there may be only \$ 1  billion worth of profitable investment projects that firms wish to undertake; but if the real interest rate falls to  $ 5\% $, there may now be \$ 2  billion worth of profitable projects. Hence, our model assumes that investment  $ I $ is a decreasing function of the real interest rate; that is, investment falls as the real interest rate rises. $ $
 
-\text {I n v e s t m e n t} = I = I (i)
+\text{In ve st me nt} = I = I (i)
 
 $ $
 Remember that this is true only because when expected inflation is zero, the real interest rate equals the nominal interest rate. Figure 18-2 shows a typical investment function of this type. It slopes downward because as the real interest rate falls, the quantity of investment rises.
@@ -112,13 +112,13 @@ In the unlikely event that  $ G = T $ exactly, government spending exactly equal
 
 Fiscal policy is concerned with the levels of taxes  $ T $ and spending $ G $ set by the government. In this chapter, we do not study in detail why or how governments make such policy choices; we make the simple assumption that in the short run the levels of taxes and spending are set exogenously at some fixed levels, denoted by an overbar: $ $
 
-\text {G o v e n m e n t p u c h a s e s} = G = \bar {G}
+\text{Go ve nm en tp uc ha se s} = G = \bar {G}
 
 $ $
 
 $ $
 
-\mathrm {T a x e s} = T = \overline {{T}}
+\mathrm{Ta xe s} = T = \overline {{T}}
 
 $ $
 Policy makers may change these levels of taxes and spending at any time. We analyze the impact of such changes on the economy later in this chapter.
@@ -150,7 +150,7 @@ We expect an increase in rest of the world income to be associated with an incre
 Combining the three insights above, we can write the trade balance as a function of three variables: the real exchange rate, home disposable income, and rest of the world disposable income:
 $ $
 
-T B = T B (\underbrace {E \overline {{P}} ^ {*} / \overline {{P}}} _ {\text {I n c r e a s i n g f u n c t i o n}}, \underbrace {Y - \overline {{T}}} _ {\text {D e c r e a s i n g f u n c t i o n}}, \underbrace {Y ^ {*} - \overline {{T}} ^ {*}} _ {\text {I n c r e a s i n g f u n c t i o n}})
+T B = T B (\underbrace {E \overline {{P}}^{*} / \overline {{P}}}_{\text{In cr ea si ng fu nc ti on}}, \underbrace {Y - \overline {{T}}}_{\text{De cr ea si ng fu nc ti on}}, \underbrace {Y^{*} - \overline {{T}}^{*}}_{\text{In cr ea si ng fu nc ti on}})
 
 $ $
 # Headlines
@@ -242,7 +242,7 @@ By considering the home country to be the United States and the foreign "country
 
 The most common weighting scheme uses a weight equal to that country's share in the home country's trade. If there are  $ N $ foreign countries, we can write home's total trade as the sum of its trade with each foreign country: $ \text{Trade} = \text{Trade}_1 + \text{Trade}_2 + \dots + \text{Trade}_N $. Applying a trade weight to each bilateral real exchange rate's percentage change, we obtain the percentage change in home's multilateral real exchange rate or real effective exchange rate: $ $
 
-\frac {\Delta q _ {\text {effective}}}{q _ {\text {effective}}} = \underbrace {\left(\frac {\text {Trade} _ {1}}{\text {Trade}} \frac {\Delta q _ {1}}{q _ {1}}\right) + \left(\frac {\text {Trade} _ {2}}{\text {Trade}} \frac {\Delta q _ {2}}{q _ {2}}\right) + \cdots + \left(\frac {\text {Trade} _ {N}}{\text {Trade}} \frac {\Delta q _ {N}}{q _ {N}}\right)} _ {\text {Real effective exchange rate change (in %)}}
+\frac{\Delta q_{\text{effective}}}{q_{\text{effective}}} = \underbrace {\left(\frac{\text{Trade}_{1}}{\text{Trade}} \frac{\Delta q_{1}}{q_{1}}\right) + \left(\frac{\text{Trade}_{2}}{\text{Trade}} \frac{\Delta q_{2}}{q_{2}}\right) + \cdots + \left(\frac{\text{Trade}_{N}}{\text{Trade}} \frac{\Delta q_{N}}{q_{N}}\right)}_{\text{Realeffectiveexchangeratechange (in %)}}
 
 $ $
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/482a83a122926df281e60277b86eb155ef5a55e4c71b922db1875cd5b72df998.jpg)
@@ -266,19 +266,19 @@ One assumption we made was that prices are sticky in local currency. But what if
 
 For example, let the foreign country be the United States and suppose a share  $ d $ of the home-produced basket of goods is priced in U.S. dollars at a sticky dollar price $ \overline{P}_1 $. Suppose that the remaining share, $ 1 - d $, is priced, as before, in local currency at a sticky local currency price $ \overline{P}_2 $. Hence, $ $
 
-\left. \begin{array}{l} \text {P r i c e o f f o r g i n g g o o d s} \\ \text {r e l a t i v e t o d o l l a r - p r i c e d} \\ \text {h o m e g o o d s} \end{array} \right\} = \frac {E \times \bar {P} ^ {*}}{E \times \bar {P} _ {1}} = \frac {\bar {P} ^ {*}}{\bar {P} _ {1}} \text {h a s a w e i g h t} = d
+\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to do ll ar -p ri ce d} \\ \text{ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{E \times \bar {P}_{1}} = \frac{\bar {P}^{*}}{\bar {P}_{1}} \text{ha sa we ig ht} = d
 
 $ $
 
 $ $
 
-\left. \begin{array}{l} \text {P r i c e o f f o r g i n g g o o d s} \\ \text {r e l a t i v e t o l o c a l - c u r r e n c y -} \\ \text {p r i c e d h o m e g o o d s} \end{array} \right\} = \frac {E \times \bar {P} ^ {*}}{\bar {P} _ {2}} \text {h a s a w e i g h t} = 1 - d
+\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to lo ca l -c ur re nc y -} \\ \text{pr ic ed ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{\bar {P}_{2}} \text{ha sa we ig ht} = 1 - d
 
 $ $
 In this setup, what is the price of all foreign-produced goods relative to all home-produced goods (the real exchange rate)? It is the weighted sum of the relative prices of the two parts of the basket. Hence, we find
 $ $
 
-q = \text {H o m e r e a l} \quad \text {e x c h a n g e} \quad \text {r a t e} = d \frac {\bar {P} ^ {*}}{\bar {P} _ {1}} + (1 - d) \frac {E \bar {P} ^ {*}}{\bar {P} _ {2}}
+q = \text{Ho me re al} \quad \text{ex ch an ge} \quad \text{ra te} = d \frac{\bar {P}^{*}}{\bar {P}_{1}} + (1 - d) \frac{E \bar {P}^{*}}{\bar {P}_{2}}
 
 $ $
 The first term with a weight  $ d $ does not contain $ E $ because both numerator and denominator are dollar prices (already expressed in a common currency). Only the second term with a weight $ (1 - d) $ contains $ E $, since the prices are in different currencies. Thus, a $ 1\% $ increase in $ E $ will lead to only a $ (1 - d)\% $  increase in the real exchange rate.
@@ -359,7 +359,7 @@ We have now studied the determinants of each component of demand. We next put al
 
 The total aggregate supply of final goods and services is equal to total national output measured by GDP. Given our assumption that the current account equals the trade balance, gross national income  $ Y $ equals GDP: $ $
 
-\mathrm {S u p p l y} = G D P = Y
+\mathrm{Su pp ly} = G D P = Y
 
 $ $
 Aggregate demand, or just "demand," consists of all the possible sources of demand for this supply of output. In the balance of payments chapter, we studied the expenditure side of the national income accounts and saw that supply is absorbed into different uses according to the national income identity. This accounting identity always holds true. But an identity is not an economic model. A model must explain how, in equilibrium, the observed demands take on their desired or planned values and still satisfy the accounting identity. How can we construct such a model?
@@ -367,18 +367,18 @@ Aggregate demand, or just "demand," consists of all the possible sources of dema
 We may write total demand for GDP as
 $ $
 
-\mathrm {D e m a n d} = D = C + I + G + T B
+\mathrm{De ma nd} = D = C + I + G + T B
 
 $ $
 We can substitute the formulae for consumption, investment, and the trade balance presented in the first section of this chapter into this total demand equation to obtain
 $ $
 
-D = C (Y - \bar {T}) + I (i) + \bar {G} + T B (E \bar {P} ^ {*} / \bar {P}, Y - \bar {T}, Y ^ {*} - \bar {T} ^ {*})
+D = C (Y - \bar {T}) + I (i) + \bar {G} + T B (E \bar {P}^{*} / \bar {P}, Y - \bar {T}, Y^{*} - \bar {T}^{*})
 
 $ $
 Finally, in an equilibrium, demand  $ D $ must equal supply $ Y $, so from the preceding two equations we can see that the goods market equilibrium condition is $ $
 
-Y = \underbrace {C (Y - \bar {T}) + I (i) + \bar {G} + T B \left(E \bar {P} ^ {*} / \bar {P} , Y - \bar {T} , Y ^ {*} - \bar {T} ^ {*}\right)} _ {D} \tag {18-1}
+Y = \underbrace {C (Y - \bar {T}) + I (i) + \bar {G} + T B \left(E \bar {P}^{*} / \bar {P} , Y - \bar {T} , Y^{*} - \bar {T}^{*}\right)}_{D} \tag {18-1}
 
 $ $
 # Determinants of Demand
@@ -557,7 +557,7 @@ The lesson: an increase  $ P^{*} $ or a decrease in $ P $  shifts the IS curve o
 These examples show that the position of the IS curve depends on various factors that we treat as given (or exogenous). We may write this observation using the notation
 $ $
 
-I S = I S (G, T, i ^ {*}, E ^ {e}, P ^ {*}, P)
+I S = I S (G, T, i^{*}, E^{e}, P^{*}, P)
 
 $ $
 There are many other exogenous shocks to the economy that can be analyzed in a similar fashion—for example, a sudden exogenous change in consumption, investment, or the trade balance. How will the IS curve react in each case? You may have detected a pattern from the preceding discussion.
@@ -588,7 +588,7 @@ In our earlier study of the money market, we assumed that the level of output or
 
 In the short-run, the price level is assumed to be sticky at a level  $ \overline{P} $, and the money market is in equilibrium when the demand for real money balances $ L(i)Y $ equals the real money supply $ M / \overline{P} $: $ $
 
-\frac {M}{\bar {P}} = \underbrace {L (i) Y} _ {\substack {\text {Real} \\ \text {money} \\ \text {supply}}} \tag{18 - 2}
+\frac{M}{\bar {P}} = \underbrace {L (i) Y}_{\substack {\text{Real} \\ \text{money} \\ \text{supply}}} \tag{18 - 2}
 
 $ $
 Figure 18-10, panel (a), shows that real money demand  $ MD $ varies inversely with the nominal interest rate. As a result of this relationship, the demand curve for real money balances slopes downward. The real money supply $ MS $ is assumed to be fixed for now. Initially, the level of output is at $ Y_{1} $ and the money market is in equilibrium at $ 1' $, where real money demand is on $ MD_{1} $ at $ M / \overline{P} = L(i_{1})Y_{1} $ .
@@ -1078,12 +1078,12 @@ e. Assume forex market equilibrium is given by  $ i = ([1 / E] - 1) + 0.10 $ , w
 9. Assume that initially the IS curve is given by
 $ $
 
-I S _ {1}: Y = 1 2 - 1. 5 T - 3 0 i + 2 G
+I S_{1}: Y = 1 2 - 1. 5 T - 3 0 i + 2 G
 
 $ $
 and that the price level  $ P $ is 1, and the LM curve is given by $ $
 
-L M _ {1}: M = Y (1 - i)
+L M_{1}: M = Y (1 - i)
 
 $ $
 The home central bank uses the interest rate as its policy instrument. Initially, the home interest rate equals the foreign interest rate of  $ 10\% $  or 0.1. Taxes and government spending both equal 2. Call this case 1.
@@ -1095,7 +1095,7 @@ d. Assume that forex market equilibrium is given by  $ i = ([1 / E] - 1) + 0.10 
 e. There is now a foreign demand shock, such that the IS curve shifts left by 1.5 units at all levels of the interest rate, and the new IS curve is given by
 $ $
 
-I S _ {2}: Y = 1 0. 5 - 1. 5 T - 3 0 i + 2 G
+I S_{2}: Y = 1 0. 5 - 1. 5 T - 3 0 i + 2 G
 
 $ $
 The government asks the central bank to stabilize the economy at full employment. To stabilize and return output back to the desired level, according to this new IS curve, by how much must the interest rate be lowered from its initial level of 0.1? (Assume taxes and government spending remain at 2.) Call this case 2.
@@ -1121,37 +1121,37 @@ Let's look at a simple example. Consider a hypothetical two-country world in whi
 
 As we have argued, when home exports look cheaper to foreigners, the real value of home exports expressed in home units of output will unambiguously rise. This effect is described by the elasticity of home exports with respect to the home real exchange rate, denoted  $ \eta $, where $ $
 
-\frac {\Delta E X}{E X} = \eta \times \frac {\Delta q}{q} = \eta \%
+\frac{\Delta E X}{E X} = \eta \times \frac{\Delta q}{q} = \eta \%
 
 $ $
 That is, if the home country experiences a  $ 1\% $ real depreciation, its real exports (measured in home units) rise by $ \eta\% $ .
 
 The same logic applies to the foreign country, with exports  $ EX^{*} $, real exchange rate $ q^{*} = 1 / q $, and elasticity $ \eta^{*} $, so that $ $
 
-\frac {\Delta E X ^ {*}}{E X ^ {*}} = \eta^ {*} \times \frac {\Delta q ^ {*}}{q ^ {*}} = \eta^ {*} \%
+\frac{\Delta E X^{*}}{E X^{*}} = \eta^{*} \times \frac{\Delta q^{*}}{q^{*}} = \eta^{*} \%
 
 $ $
 Now consider the trade link between the two countries. Foreign exports must equal home imports, measured in any consistent units. In home, real output units
 
-Home imports in units of home output  $ = \underbrace{IM(q)}_{\substack{\text{Home imports}\\ (\text{real})}} $ Foreign exports in units of home output $ = \underbrace{(1 / P)}_{\substack{\text{Divide by home}\\ \text{price level to}\\ \text{convert to home}\\ \text{output units}}}\times \underbrace{E}_{\substack{\text{Exchange}\\ \text{rate converts}\\ \text{foreign to}\\ \text{domestic}\\ \text{currency}}} \times \underbrace{P^{*}}_{\substack{\text{Price of}\\ \text{foreign basket}\\ \text{in foreign}\\ \text{currency}}} \times \underbrace{EX^{*}(q^{*})}_{\substack{\text{Foreign exports}\\ \text{(real)}}} $  Value of foreign exports in foreign currency Value of foreign exports in home currency
+Home imports in units of home output  $ = \underbrace{IM(q)}_{\substack{\text{Homeimports}\\ (\text{real})}} $ Foreign exports in units of home output $ = \underbrace{(1 / P)}_{\substack{\text{Dividebyhome}\\ \text{pricelevelto}\\ \text{converttohome}\\ \text{outputunits}}}\times \underbrace{E}_{\substack{\text{Exchange}\\ \text{rateconverts}\\ \text{foreignto}\\ \text{domestic}\\ \text{currency}}} \times \underbrace{P^{*}}_{\substack{\text{Priceof}\\ \text{foreignbasket}\\ \text{inforeign}\\ \text{currency}}} \times \underbrace{EX^{*}(q^{*})}_{\substack{\text{Foreignexports}\\ \text{(real)}}} $  Value of foreign exports in foreign currency Value of foreign exports in home currency
 
 Equating these two terms, we find that  $ IM(q) = (EP^{*} / P)\times EX^{*}(q^{*}) $. Thus, $ $
 
-I M (q) = q \times E X ^ {*} (q ^ {*})
+I M (q) = q \times E X^{*} (q^{*})
 
 $ $
 This expression makes intuitive sense for the stylized two-country world that we are studying. It states that  $ IM $, the quantity of home imports (measured in home output units), must equal the quantity of foreign exports $ EX^{*} $ (measured in foreign output units) multiplied by a factor $ q $ that converts units of foreign goods to units of home goods (since $ q $  is the relative price of foreign goods, that is home goods per unit of foreign goods).
 
 For a small change, we may write the percentage change in the previous equation as follows. On the left is the percentage change in imports; on the right is the percentage change in  $ q $ times $ EX^{*} $, which equals the percentage change in $ q $ plus the percentage change in $ EX^{*} $: $ $
 
-\frac {\Delta I M}{I M} = \frac {\Delta q}{q} + \frac {\Delta E X ^ {*}}{E X ^ {*}} = \frac {\Delta q}{q} + \left[ \eta^ {*} \times \frac {\Delta q ^ {*}}{q ^ {*}} \right] = 1 \% + \left[ \eta^ {*} \times (- 1 \%) \right] = (1 - \eta^ {*}) \%
+\frac{\Delta I M}{I M} = \frac{\Delta q}{q} + \frac{\Delta E X^{*}}{E X^{*}} = \frac{\Delta q}{q} + \left[ \eta^{*} \times \frac{\Delta q^{*}}{q^{*}} \right] = 1 \% + \left[ \eta^{*} \times (- 1 \%) \right] = (1 - \eta^{*}) \%
 
 $ $
 What is going on here? On the home import side, two effects come into play. Foreigners export a lower volume of their more expensive goods measured in foreign output units (a volume effect of  $ -\eta^{*}\% $), but those goods will cost more for home importers in terms of home output (a price effect of $ 1\% $). The price effect follows because the real exchange rate (the relative price of the foreign goods in terms of domestic goods) has increased (by $ 1\% $ ), and this makes every unit of imports cost more in real terms.
 
 Starting from balanced trade with  $ EX = IM $, a $ 1\% $ home real depreciation will cause $ EX $ to change by $ \eta \% $ and $ IM $ to change by $ 1 - \eta^{*}\% $. The trade balance (initially zero) will increase (to become positive) if and only if the former impact on $ EX $ exceeds the latter impact on $ IM $. This occurs if and only if $ \eta > 1 - \eta^{*} $, or, equivalently, $ $
 
-\eta + \eta^ {*} > 1
+\eta + \eta^{*} > 1
 
 \$ $
 The last expression is known as the Marshall-Lerner condition: it says that the trade balance will increase only after a real depreciation if the responsiveness of trade volumes to real exchange rate changes is sufficiently large (or sufficiently elastic) to ensure that the volume effects exceed the price effects.
@@ -1164,7 +1164,7 @@ How do the predictions of our model change when a country trades with multiple c
 
 Suppose that for trade with any foreign country (say, country 1), the fractional change in home exports  $ EX_{1} $ and imports $ IM_{1} $ given a small change in the real exchange rate $ q_{1} $ is $ $
 
-\frac {\Delta E X _ {1}}{E X _ {1}} = \varepsilon \times \frac {\Delta q _ {1}}{q _ {1}}; \quad \frac {\Delta I M _ {1}}{I M _ {1}} = - \varepsilon \times \frac {\Delta q _ {1}}{q _ {1}}
+\frac{\Delta E X_{1}}{E X_{1}} = \varepsilon \times \frac{\Delta q_{1}}{q_{1}}; \quad \frac{\Delta I M_{1}}{I M_{1}} = - \varepsilon \times \frac{\Delta q_{1}}{q_{1}}
 
 $ $
 The parameter  $ \varepsilon > 0 $ is an elasticity. In this case, it is the elasticity of exports and imports with respect to the real exchange rate. When $ q $ rises by $ 1\% $ (a real depreciation), exports rise by $ \varepsilon\% $, and imports fall by $ \varepsilon\% $ . (A more complicated analysis is needed when the import and export elasticities differ; see the first appendix.)
@@ -1172,19 +1172,19 @@ The parameter  $ \varepsilon > 0 $ is an elasticity. In this case, it is the ela
 From these relationships, we find the following by rearranging:
 $ $
 
-\begin{array}{l} \Delta T B _ {1} = \Delta E X _ {1} - \Delta I M _ {1} = \varepsilon \frac {\Delta q _ {1}}{q _ {1}} E X _ {1} + \varepsilon \frac {\Delta q _ {1}}{q _ {1}} I M _ {1} \\ = \varepsilon \times \left(E X _ {1} + I M _ {1}\right) \times \frac {\Delta q _ {1}}{q _ {1}} \\ = \varepsilon \times \operatorname {T r a d e} _ {1} \times \frac {\Delta q _ {1}}{q _ {1}} \\ \end{array}
+\begin{array}{l} \Delta T B_{1} = \Delta E X_{1} - \Delta I M_{1} = \varepsilon \frac{\Delta q_{1}}{q_{1}} E X_{1} + \varepsilon \frac{\Delta q_{1}}{q_{1}} I M_{1} \\ = \varepsilon \times \left(E X_{1} + I M_{1}\right) \times \frac{\Delta q_{1}}{q_{1}} \\ = \varepsilon \times \operatorname{Tr ad e}_{1} \times \frac{\Delta q_{1}}{q_{1}} \\ \end{array}
 
 $ $
 where  $ \mathrm{Trade}_i = [EX_i + IM_i] $ is the total trade of the home country with country $ i $ .
 
 Adding up this last equation across all countries, the change in the home trade balance is given by  $ \Delta TB = \Delta TB_{1} + \Delta TB_{2} + \dots +\Delta TB_{N} $, which we can write as $ $
 
-\Delta T B = \varepsilon \times \left[ \operatorname {T r a d e} _ {1} \frac {\Delta q _ {1}}{q _ {1}} + \operatorname {T r a d e} _ {2} \frac {\Delta q _ {2}}{q _ {2}} + \dots + \operatorname {T r a d e} _ {N} \frac {\Delta q _ {N}}{q _ {N}} \right]
+\Delta T B = \varepsilon \times \left[ \operatorname{Tr ad e}_{1} \frac{\Delta q_{1}}{q_{1}} + \operatorname{Tr ad e}_{2} \frac{\Delta q_{2}}{q_{2}} + \dots + \operatorname{Tr ad e}_{N} \frac{\Delta q_{N}}{q_{N}} \right]
 
 $ $
 We normalize by total trade, where  $ \mathrm{Trade} = \mathrm{Trade}_1 + \mathrm{Trade}_2 + \dots + \mathrm{Trade}_N $, to obtain $ $
 
-\Delta T B = \varepsilon \times \text {T r a d e} \times \left[ \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {1}}{q _ {1}} + \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {2}}{q _ {2}} + \dots + \frac {\text {T r a d e} _ {1}}{\text {T r a d e}} \frac {\Delta q _ {N}}{q _ {N}} \right]
+\Delta T B = \varepsilon \times \text{Tr ad e} \times \left[ \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{1}}{q_{1}} + \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{2}}{q_{2}} + \dots + \frac{\text{Tr ad e}_{1}}{\text{Tr ad e}} \frac{\Delta q_{N}}{q_{N}} \right]
 
 $ $
 Trade-weighted average of bilateral real exchange rate changes

@@ -28,7 +28,7 @@ Figure 1 Possible Paths of the Stock Price Evolution over One Year with  $S_0 = 
 Furthermore, we know that stock returns exhibit random fluctuations called volatility. Let  $\sigma$  denote the unknown yearly rate of volatility. Here and below we have implicitly assumed that the expected return and the volatility of the stock are time independent. This assumption might be violated in practice. Formalizing our ideas about the stock price we come up with the following equation for the return of the stock in a small time interval of length  $\Delta t$ :
 
 $$
-\underbrace {\frac {S _ {t + \Delta t} - S _ {t}}{S _ {t}}} _ {\text {u r n i n p e r i o d} [ t, t + \Delta t ]} = \mu \cdot \Delta t + \underbrace {\sigma \cdot \varepsilon_ {t} ^ {\Delta t}} _ {\text {" S t o c h a s t i c n o i s e "}}
+\underbrace {\frac{S_{t + \Delta t} - S_{t}}{S_{t}}}_{\text{ur ni np er io d} [ t, t + \Delta t ]} = \mu \cdot \Delta t + \underbrace {\sigma \cdot \varepsilon_{t}^{\Delta t}}_{\text{"S to ch as ti cn oi se "}}
 $$
 
 The stochastic noise  $\sigma \cdot \varepsilon_t^{\Delta t}$  should have the following properties:
@@ -50,7 +50,7 @@ Brownian motion is a stochastic process  $(W_{t})_{t\geq 0}$  in continuous time
 The increments of Brownian motion are an appropriate candidate for the stochastic noise in our stock price model and we define:
 
 $$
-\varepsilon_ {t} ^ {\Delta t} = W _ {t + \Delta t} - W _ {t}
+\varepsilon_{t}^{\Delta t} = W_{t + \Delta t} - W_{t}
 $$
 
 From its defining properties, we know that the increments of the Brownian motion are independent and that the variance of the increments is proportional to the length of the considered time interval. Additionally, the expectation of the increments is zero.
@@ -58,26 +58,26 @@ From its defining properties, we know that the increments of the Brownian motion
 With this definition, it is possible to write the equation for the return process in the following form:
 
 $$
-\frac {S _ {t + \Delta t} - S _ {t}}{S _ {t}} = \mu \Delta t + \sigma (W _ {t + \Delta t} - W _ {t})
+\frac{S_{t + \Delta t} - S_{t}}{S_{t}} = \mu \Delta t + \sigma (W_{t + \Delta t} - W_{t})
 $$
 
 If we decrease the length  $\Delta t$  of the time interval over which the increment is considered constant, then we can switch to a "differential type" notation:
 
 $$
-\frac {d S _ {t}}{S _ {t}} = \mu \cdot d t + \sigma \cdot d W _ {t}, \quad t \geq 0
+\frac{d S_{t}}{S_{t}} = \mu \cdot d t + \sigma \cdot d W_{t}, \quad t \geq 0
 $$
 
 The process defined in the above equation is called geometric Brownian motion. In explicit notation the geometric Brownian motion possesses the following form
 
 $$
-S _ {t} = S _ {0} e ^ {\left(\mu - \frac {1}{2} \sigma^ {2}\right) t + \sigma W _ {t}}
+S_{t} = S_{0} e^{\left(\mu - \frac{1}{2} \sigma^{2}\right) t + \sigma W_{t}}
 $$ and  $S_{t}$  is lognormally distributed. This process is used in the Black-Scholes model to describe the stock price dynamic. Additionally,
 
 
 the model assumes the existence of a risk-free asset—called money market account or bond—with the following dynamic:
 
 $$
-\frac {d B _ {t}}{B _ {t}} = r \cdot d t, \quad t \geq 0 \Leftrightarrow B _ {t} = B _ {0} e ^ {r t} \cdot t \geq 0 \tag {1}
+\frac{d B_{t}}{B_{t}} = r \cdot d t, \quad t \geq 0 \Leftrightarrow B_{t} = B_{0} e^{r t} \cdot t \geq 0 \tag {1}
 $$
 
 # BLACK-SCHOLES FORMULA
@@ -87,49 +87,49 @@ Black and Scholes (1973) have shown that it is possible—under some assumptions
 The Black-Scholes option pricing model computes the fair (or theoretical) price of a European call option on a nondividend-paying stock with the following formula:
 
 $$
-C = S \Phi \left(d _ {1}\right) - X e ^ {- r T} \Phi \left(d _ {2}\right) \tag {2}
+C = S \Phi \left(d_{1}\right) - X e^{- r T} \Phi \left(d_{2}\right) \tag {2}
 $$ where
 
 
-$$ d _ {1} = \frac {\ln (S / X) + (r + 0 . 5 \sigma^ {2} T)}{\sigma \sqrt {T}} \tag {3}
+$$ d_{1} = \frac{\ln (S / X) + (r + 0 . 5 \sigma^{2} T)}{\sigma \sqrt{T}} \tag {3}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma \sqrt {T} \tag {4}
+$$ d_{2} = d_{1} - \sigma \sqrt{T} \tag {4}
 $$ where
 
 
 $$
-\ln (\cdot) = \text {n a t u r a l}
+\ln (\cdot) = \text{na tu ra l}
 $$
 
 $$
-C = \text {c a l l}
+C = \text{ca ll}
 $$
 
 $$
-S = \text {c u r r e n t}
+S = \text{cu rr en t}
 $$
 
 $$
-X = \text {s t r i k e}
+X = \text{st ri ke}
 $$
 
-$$ r = \text {s h o r t - t e r m}
+$$ r = \text{sh or t -t er m}
 $$
 
-$$ e = 2. 7 1 8 \text {(n a t u r a l a n t i l o g o f 1)}
-$$
-
-$$
-\begin{array}{l} T = \text {t i m e r e m a i n i n g t o t h e e x p i r a t i o n d a t e} \\ \text {(m e a s u r e d a s a f r a c t i o n o f a y e a r)} \end{array}
+$$ e = 2. 7 1 8 \text{(na tu ra la nt il og of 1)}
 $$
 
 $$
-\sigma = \text {e x p e c t e d} \quad \text {r e t u r n v o l a t i l y f o r t h e s t o c k} \quad \text {(s t a n d a r d} \quad \text {d e v i a t i o n o f t h e s t o c k} \quad \text {s} \quad \text {r e t u r n i n p e r c e n t p e r a n n u m)}
+\begin{array}{l} T = \text{ti me re ma in in gt ot he ex pi ra ti on da te} \\ \text{(me as ur ed as af ra ct io no fa ye ar)} \end{array}
 $$
 
 $$
-\Phi (\cdot) = \begin{array}{l} \text {t h e c u m u l a t i v e d i s t r i b u t i o n f u n c t i o n} \\ \text {o f a s t a n d a r d n o r m a l d i s t r i b u t i o n} \end{array}
+\sigma = \text{ex pe ct ed} \quad \text{re tu rn vo la ti ly fo rt he st oc k} \quad \text{(st an da rd} \quad \text{de vi at io no ft he st oc k} \quad \text{s} \quad \text{re tu rn in pe rc en tp er an nu m)}
+$$
+
+$$
+\Phi (\cdot) = \begin{array}{l} \text{th ec um ul at iv ed is tr ib ut io nf un ct io n} \\ \text{of as ta nd ar dn or ma ld is tr ib ut io n} \end{array}
 $$
 
 The option price derived from the Black-Scholes option pricing model is "fair" in the sense that if any other price existed in a market where all the assumptions of the Black-Scholes model are fulfilled, it would be possible to earn riskless arbitrage profits by taking an offsetting position in the underlying stock. That is, if the price of the call option in the market is higher than that derived from the Black-Scholes option pricing model, an investor could sell the call option and buy a certain number of shares in the underlying stock. If the reverse is true, that is, the market price of the call option is less than the "fair" price derived from the model, the investor could buy the call option and sell short a certain number of shares in the underlying stock. This process of hedging by taking a position in the underlying stock allows the investor to lock in the riskless arbitrage profit. The number of shares necessary to hedge the position changes as the factors that affect the option price change, so the hedged position must be changed constantly.
@@ -140,27 +140,27 @@ The option price derived from the Black-Scholes option pricing model is "fair" i
 To illustrate the Black-Scholes option pricing formula, assume the following values:
 
 $$
-\text {S t i k e p r i c e} = \$ 4 5
+\text{St ik ep ri ce} = \$ 4 5
 $$
 
 $$
-\text {T i m e} = 1 8 3 \text {d a y s}
+\text{Ti me} = 1 8 3 \text{da ys}
 $$
 
 $$
-\text {C u r r e n t s t o c k p r i c e} = \$ 4 7
+\text{Cu rr en ts to ck pr ic e} = \$ 4 7
 $$
 
 $$
-\text {E x p e c t e d} = \text {S t a n d a r d}
+\text{Ex pe ct ed} = \text{St an da rd}
 $$
 
 $$
-= 25 \% \text{per annum}
+= 25 \% \text{perannum}
 $$
 
 $$
-\text{Risk - free rate} = 10 \% \text{per annum}
+\text{Risk -freerate} = 10 \% \text{perannum}
 $$
 
 In terms of the values in the formula:
@@ -174,7 +174,7 @@ X = 4 5
 $$
 
 $$
-T = 0. 5 (1 8 3 \text {d a y s} / 3 6 5, \text {r o u n d e d})
+T = 0. 5 (1 8 3 \text{da ys} / 3 6 5, \text{ro un de d})
 $$
 
 $$
@@ -186,22 +186,22 @@ $$
 
 Substituting these values into equations (3) and (4):
 
-$$ d _ {1} = \frac {\ln (4 7 / 4 5) + (0 . 1 0 + 0 . 5 [ 0 . 2 5 ] ^ {2}) 0 . 5}{0 . 2 5 \sqrt {0 . 5}} = 0. 6 1 7 2
+$$ d_{1} = \frac{\ln (4 7 / 4 5) + (0 . 1 0 + 0 . 5 [ 0 . 2 5 ]^{2}) 0 . 5}{0 . 2 5 \sqrt{0 . 5}} = 0. 6 1 7 2
 $$
 
-$$ d _ {2} = 0. 6 1 7 2 - 0. 2 5 \sqrt {0 . 5} = 0. 4 4 0 4 4 3
+$$ d_{2} = 0. 6 1 7 2 - 0. 2 5 \sqrt{0 . 5} = 0. 4 4 0 4 4 3
 $$
 
 From a normal distribution table,
 
 $$
-\Phi (0. 6 1 7 2) = 0. 7 3 1 5 \quad \text {a n d} \quad \Phi (0. 4 4 0 4) = 0. 6 7 0 2
+\Phi (0. 6 1 7 2) = 0. 7 3 1 5 \quad \text{an d} \quad \Phi (0. 4 4 0 4) = 0. 6 7 0 2
 $$
 
 Then
 
 $$
-C = \$ 47(0.7315) - \$ 45(\mathrm {e} ^ {- (0.1 0) (0. 5)}) (0. 6 7 0 2) = \$ 5. 6 9
+C = \$ 47(0.7315) - \$ 45(\mathrm{e}^{- (0.1 0) (0. 5)}) (0. 6 7 0 2) = \$ 5. 6 9
 $$
 
 Table 1 shows the option value as calculated from the Black-Scholes option pricing model for different assumptions concerning (1) the standard deviation for the stock's return (that is, expected return volatility); (2) the risk-free rate; and (3) the time remaining to expiration. Notice that the option price varies directly with three
@@ -229,19 +229,19 @@ Table 2 Sensitivities of the Option Price with Respect to Each Parameter of the 
 One way to do so is to determine the derivative of the call option price with respect to the spot price of the underlying stock:
 
 $$
-\Delta = \frac {\partial C}{\partial S} = \Phi \left(d _ {1}\right) \tag {5}
+\Delta = \frac{\partial C}{\partial S} = \Phi \left(d_{1}\right) \tag {5}
 $$
 
 This quantity is called the "delta" of the option, and can be used in the following way to determine the expected price change in the option if the stock increases by about 1:
 
 $$
-\Delta C = C (S + \mathbb {S} x) - C (S) \approx \frac {\partial C}{\partial S} \Delta S = \mathbb {S} x \Phi (d _ {1}) \tag {6}
+\Delta C = C (S + \mathbb {S} x) - C (S) \approx \frac{\partial C}{\partial S} \Delta S = \mathbb {S} x \Phi (d_{1}) \tag {6}
 $$
 
 The relation given by (6) holds true for small changes in the price of the underlying. For large changes the assumed linear relationship between call and option price is not valid and we must apply a so-called convexity adjustment:
 
 $$
-\Delta C = C (S + \mathbb {S} x) - C (S) \approx \frac {\partial C}{\partial S} \mathbb {S} x + \frac {1}{2} \cdot \underbrace {\frac {\partial^ {2} C}{\partial S ^ {2}}} _ {= \Gamma} (\mathbb {S} x) ^ {2}
+\Delta C = C (S + \mathbb {S} x) - C (S) \approx \frac{\partial C}{\partial S} \mathbb {S} x + \frac{1}{2} \cdot \underbrace {\frac{\partial^{2} C}{\partial S^{2}}}_{= \Gamma} (\mathbb {S} x)^{2}
 $$
 
 Here,  $\Gamma$  denotes the "options gamma," which measures the curvature of the option price as a function of the price of the underlying stock.
@@ -355,7 +355,7 @@ Current bond price  $= \$  83.96$
 Expected return volatility  $=$  Standard deviation
 
 $$
-= 10 \% \text{per annum}
+= 10 \% \text{perannum}
 $$
 
 Risk-free rate  $= 6\%$  per annum
@@ -505,7 +505,7 @@ In general, the formula for determining the theoretical futures price given the 
 Theoretical futures price
 
 $$
-\begin{array}{l} = \text {C a s h m a r k e t p r i c e} + (\text {C a s h m a r k e t p r i c e}) \\ \times (\text {F i n a n c i n g} - \text {C a s h y i e l d}) \tag {1} \\ \end{array}
+\begin{array}{l} = \text{Ca sh ma rk et pr ic e} + (\text{Ca sh ma rk et pr ic e}) \\ \times (\text{Fi na nc in g} - \text{Ca sh yi el d}) \tag {1} \\ \end{array}
 $$
 
 In the formula given by (1), "Financing cost" is the interest rate to borrow funds and "Cash yield" is the payment received from investing in the asset as a percentage of the cash price. In our illustration, the financing cost is  $1\%$  and the cash yield is  $2\%$ .
@@ -577,7 +577,7 @@ Moreover, unlike other futures contracts, the Treasury bond and note contracts d
 Theoretical futures price adjusted for delivery options
 
 $$
-\begin{array}{l} = \text {C a s h m a t e r k p r i c e} + (\text {C a s h m a t e r k p r i c e}) \\ \times (\text {F i n a n c i n g} - \text {C a s h y i e l d}) - \text {V a l u e o f t h e} \tag {4} \\ \end{array}
+\begin{array}{l} = \text{Ca sh ma te rk pr ic e} + (\text{Ca sh ma te rk pr ic e}) \\ \times (\text{Fi na nc in g} - \text{Ca sh yi el d}) - \text{Va lu eo ft he} \tag {4} \\ \end{array}
 $$
 
 # Deliverable as a Basket of Securities
@@ -735,7 +735,7 @@ In order to examine some of the major developments in option/derivative pricing 
 Let  $(\Omega, \Sigma, \{F_t\}_{t \geq 0}, Q)$  be a filtered probability space modeling a financial market, where the filtration  $F = \{F_t\}_{t \geq 0}$  describes the flux of information and the probability measure  $Q$  denotes the risk-neutral measure; the real-world or physical measure will be denoted by  $P$ . The starting point in modeling bond prices is the assumption that there is a bank account  $B = \{B(t)\}_{t \geq 0}$  that is linked to the bank instantaneous interest rate (also called short rate, spot rate) process  $r = \{r(t)\}_{t \geq 0}$  through
 
 $$
-\begin{array}{l} d B (t) = r (t) B (t) d t \quad \text {o r} \\ B (t) = B (0) \exp \left[ \int_ {0} ^ {t} r (s) d s \right] \tag {1} \\ \end{array}
+\begin{array}{l} d B (t) = r (t) B (t) d t \quad \text{or} \\ B (t) = B (0) \exp \left[ \int_{0}^{t} r (s) d s \right] \tag {1} \\ \end{array}
 $$
 
 From a practical point of view, we can safely assume that the majority of stochastic processes representing prices of traded financial assets are adapted to the filtration  $F$  and that the short-rate process  $r = \{r(t)\}_{t\geq 0}$  is a predictable process, meaning that  $r(t)$  is  $F_{t - 1}$  measurable. This implies that  $B(t)$  is also  $F_{t - 1}$  measurable and this condition is automatically satisfied for continuous or left-continuous processes.
@@ -745,12 +745,12 @@ In this entry we consider only default-free securities. We shall denote by  $p(t
 The following relationships are well known in the fixed-income area:
 
 $$
-\begin{array}{l} 0 <   p (t, T) \leq 1, \quad r (t) = \frac {\partial \ln p (t , T)}{\partial t} | _ {T = t} \\ = - \frac {\partial \ln p (t , T)}{\partial T} | _ {T = t}, \quad \text {f o r a n y} \quad t <   T \tag {2} \\ \end{array}
+\begin{array}{l} 0 <   p (t, T) \leq 1, \quad r (t) = \frac{\partial \ln p (t , T)}{\partial t} |_{T = t} \\ = - \frac{\partial \ln p (t , T)}{\partial T} |_{T = t}, \quad \text{fo ra ny} \quad t <   T \tag {2} \\ \end{array}
 $$
 
 Let  $f(t,s)$  be the forward rate at time  $s > 0$  calculated at time  $t < s$ . The instantaneous forward rate at time  $t$  to borrow at time  $T$  can be calculated from the bond prices using
 
-$$ f (t, T) = - \frac {\partial \ln p (t , T)}{\partial T} \tag {3}
+$$ f (t, T) = - \frac{\partial \ln p (t , T)}{\partial T} \tag {3}
 $$
 
 The reverse works as well; if forward rates are known, then bond prices can be calculated via  $p(t,T) = e^{-\int_t^T f(t,s)ds}$ . The short rate is intrinsically related to the forward rates because  $r(t)\equiv f(t,t)$
@@ -777,11 +777,11 @@ One advantage of the Vasicek model is that the conditional distribution of  $r$ 
 
 
 $$
-\begin{array}{l} E _ {t} (r (s)) = \frac {\alpha}{\beta} + \left(r (t) - \frac {\alpha}{\beta}\right) e ^ {- \beta (s - t)}, \quad t \leq s \\ \operatorname {v a r} _ {t} [ r (s) ] = \frac {\sigma^ {2}}{2 \beta} \left(1 - e ^ {- 2 \beta (s - t)}\right), \quad t \leq s \tag {7} \\ \end{array}
+\begin{array}{l} E_{t} (r (s)) = \frac{\alpha}{\beta} + \left(r (t) - \frac{\alpha}{\beta}\right) e^{- \beta (s - t)}, \quad t \leq s \\ \operatorname{va r}_{t} [ r (s) ] = \frac{\sigma^{2}}{2 \beta} \left(1 - e^{- 2 \beta (s - t)}\right), \quad t \leq s \tag {7} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname {c o v} _ {t} [ r (u), r (s) ] = \frac {\sigma^ {2}}{2 \beta} e ^ {- \beta (s + u - 2 t)} (e ^ {2 \beta (u - t)} - 1), \\ t \leq u \leq s \\ \end{array}
+\begin{array}{l} \operatorname{co v}_{t} [ r (u), r (s) ] = \frac{\sigma^{2}}{2 \beta} e^{- \beta (s + u - 2 t)} (e^{2 \beta (u - t)} - 1), \\ t \leq u \leq s \\ \end{array}
 $$
 
 Another advantage is that this model can be also derived within a general equilibrium framework as illustrated by Campbell (1986).
@@ -798,7 +798,7 @@ This is the same model as Rendleman and Bartter's model (Rendleman and Bartter, 
 The Cox-Ingersoll-Ross (CIR) models (Cox, Ingersoll, and Ross, 1980, 1985) are
 
 $$
-\begin{array}{l} d r (t) = \beta (r (t)) ^ {3 / 2} d W (t) \\ d r (t) = (\alpha - \beta r (t)) d t + \sigma (r (t)) ^ {1 / 2} d W (t) \end{array} \tag {9}
+\begin{array}{l} d r (t) = \beta (r (t))^{3 / 2} d W (t) \\ d r (t) = (\alpha - \beta r (t)) d t + \sigma (r (t))^{1 / 2} d W (t) \end{array} \tag {9}
 $$
 
 CIR wrote arguably the first of several papers developing one-factor models of the term structure of interest rates. Around the same time models in the same spirit include the Vasicek, Dothan, Courtadon (1982), and Brennan and Schwartz (1979) models. The movements of longer-maturity instruments are perfectly correlated with the instantaneous short-term rates.
@@ -819,13 +819,13 @@ $$
 The Hull-White (HW) models (Hull and White, 1990, 1994, 1996) are
 
 $$
-\begin{array}{l} d r (t) = [ \alpha (t) - \beta (t) r (t) ] d t + \sigma (t) d W (t) \\ d r (t) = [ \alpha (t) - \beta (t) r (t) ] d t + \sigma (t) (r (t)) ^ {1 / 2} d W (t) \tag {12} \\ \end{array}
+\begin{array}{l} d r (t) = [ \alpha (t) - \beta (t) r (t) ] d t + \sigma (t) d W (t) \\ d r (t) = [ \alpha (t) - \beta (t) r (t) ] d t + \sigma (t) (r (t))^{1 / 2} d W (t) \tag {12} \\ \end{array}
 $$
 
 These models are two more general families of models incorporating the Vasicek model and CIR model, respectively. The first one is more often used and it can be calibrated to the observable term structure of interest rates and the volatility term structure of spot or forward rates. However, its implied volatility structures may be unrealistic. Hence, it may be wise to use a constant coefficient  $\beta (t) = \beta$  and a constant volatility parameter  $\sigma (t) = \sigma$  and then calibrate the model using only the term structure of market interest rates. It is still theoretically possible that the short rate  $r$  may go negative. The risk-neutral probability for the occurrence of such an event is
 
 $$
-Q (r (t) <   0) = N \left(- \frac {\tilde {f} (0 , t) + \frac {\sigma^ {2}}{2 \beta^ {2}} (1 - e ^ {\beta t}) ^ {2}}{\sqrt {\frac {\sigma^ {2}}{2 \beta^ {2}} (1 - e ^ {2 \beta t})}}\right) \tag {13}
+Q (r (t) <   0) = N \left(- \frac{\tilde {f} (0 , t) + \frac{\sigma^{2}}{2 \beta^{2}} (1 - e^{\beta t})^{2}}{\sqrt{\frac{\sigma^{2}}{2 \beta^{2}} (1 - e^{2 \beta t})}}\right) \tag {13}
 $$ where  $\tilde{f}(0, t)$  is the market instantaneous forward rate. In practice, this probability seems to be rather small, as empirical evidence illustrated by Brigo and Mercurio (2007) shows. However, the probability is not zero, and this may bother some analysts.
 
 
@@ -837,21 +837,21 @@ $$ and the function  $\alpha (t)$  can be calculated from a given term structure
 
 
 $$
-\alpha (t) = f _ {T} (0, t) + \beta f (0, t) + \frac {\sigma^ {2}}{2 \beta} \left(1 - e ^ {- 2 \beta t}\right) \tag {15}
+\alpha (t) = f_{T} (0, t) + \beta f (0, t) + \frac{\sigma^{2}}{2 \beta} \left(1 - e^{- 2 \beta t}\right) \tag {15}
 $$
 
 The future market price of a zero-coupon bond in this framework can be found by defining the reversion rate,  $\beta$ , the volatility, and the time period involved.
 
-$$ p \left(T _ {0}, T\right) = A \left(T _ {0}, T\right) e ^ {- B \left(T _ {0}, T\right) r \left(T _ {0}\right)} \tag {16}
+$$ p \left(T_{0}, T\right) = A \left(T_{0}, T\right) e^{- B \left(T_{0}, T\right) r \left(T_{0}\right)} \tag {16}
 $$ where  $T_{0}$  represents the forward date at which the bond is to be priced,  $T$  represents the bond's maturity date,  $t$  is a time period index typically taken to be equal to zero (that is, representing the current point in time)
 
 
 $$
-B \left(T _ {0}, T\right) = \frac {1}{\beta} \left(1 - e ^ {- \beta \left(T - T _ {0}\right)}\right) \tag {17}
+B \left(T_{0}, T\right) = \frac{1}{\beta} \left(1 - e^{- \beta \left(T - T_{0}\right)}\right) \tag {17}
 $$
 
 $$
-\begin{array}{l} \ln A \left(T _ {0}, T\right) = \ln \left(\frac {p (t , T)}{p (t , T _ {0})}\right) \\ - B \left(T _ {0}, T\right) \frac {\partial \ln p (t , T _ {0})}{\partial T} \\ - \frac {1}{4 \beta^ {3}} \sigma^ {2} \left(e ^ {- \beta (T - t)} - e ^ {- \beta (T _ {0} - t)}\right) ^ {2} \\ \times \left(e ^ {2 \beta \left(T _ {0} - t\right)} - 1\right) \tag {18} \\ \end{array}
+\begin{array}{l} \ln A \left(T_{0}, T\right) = \ln \left(\frac{p (t , T)}{p (t , T_{0})}\right) \\ - B \left(T_{0}, T\right) \frac{\partial \ln p (t , T_{0})}{\partial T} \\ - \frac{1}{4 \beta^{3}} \sigma^{2} \left(e^{- \beta (T - t)} - e^{- \beta (T_{0} - t)}\right)^{2} \\ \times \left(e^{2 \beta \left(T_{0} - t\right)} - 1\right) \tag {18} \\ \end{array}
 $$ and  $r(T)$  is the prevailing short rate at the forward date.
 
 
@@ -861,13 +861,13 @@ To illustrate how this works consider the case where we wish to find the 1-year 
 The next step requires the evaluation of  $A(1,4)$  and the expression for  $\ln A(1,4)$  can be broken down into a series of relatively straightforward calculations:
 
 $$
-\begin{array}{l} \ln \left(\frac {p (t , T)}{p (t , T _ {0})}\right) = \ln \left(\frac {p (0 , 4)}{p (0 , 1)}\right) = \ln \left(\frac {e ^ {- (4) (0 . 0 4)}}{e ^ {- (1) (0 . 0 4)}}\right) \\ = \ln \left(\frac {0 . 8 5 2 1}{0 . 9 6 0 7}\right) = - 0. 1 2 \\ \end{array}
+\begin{array}{l} \ln \left(\frac{p (t , T)}{p (t , T_{0})}\right) = \ln \left(\frac{p (0 , 4)}{p (0 , 1)}\right) = \ln \left(\frac{e^{- (4) (0 . 0 4)}}{e^{- (1) (0 . 0 4)}}\right) \\ = \ln \left(\frac{0 . 8 5 2 1}{0 . 9 6 0 7}\right) = - 0. 1 2 \\ \end{array}
 $$
 
 $B(1,4)$  has already been calculated and is equal to 2.5918. Moreover,  $\frac{\partial\ln p(t,T_0)}{\partial T_0}$  can be approximated by  $\left(\frac{\ln p(t,T_0 + \Delta t) - \ln p(t,T_0 - \Delta t)}{2\Delta t}\right)$  which, if a time interval,  $\Delta t$  , is assumed to be 0.1 years yields  $\left(\frac{\ln p(0,1 + 0.1) - \ln p(0,1 - 0.1)}{2(0.1)}\right) = -0.04$  This leaves the expression:
 
 $$
-\begin{array}{l} \frac {1}{4 \beta^ {3}} \sigma^ {2} \left(e ^ {- \beta (T - t)} - e ^ {- \beta (T _ {0} - t)}\right) ^ {2} \left(e ^ {2 \beta (T _ {0} - t)} - 1\right) \\ = \frac {1}{4 (0 . 1) ^ {3}} 0. 0 2 ^ {2} \left(e ^ {- (0. 1) (4)} - e ^ {- (0. 1) (1)}\right) ^ {2} \\ \times \left(e ^ {2 (0. 1) (1)} - 1\right) = 0. 0 0 1 2 1 7 \\ \end{array}
+\begin{array}{l} \frac{1}{4 \beta^{3}} \sigma^{2} \left(e^{- \beta (T - t)} - e^{- \beta (T_{0} - t)}\right)^{2} \left(e^{2 \beta (T_{0} - t)} - 1\right) \\ = \frac{1}{4 (0 . 1)^{3}} 0. 0 2^{2} \left(e^{- (0. 1) (4)} - e^{- (0. 1) (1)}\right)^{2} \\ \times \left(e^{2 (0. 1) (1)} - 1\right) = 0. 0 0 1 2 1 7 \\ \end{array}
 $$
 
 Combining all the above calculations we find  $\ln A(1,4) = -0.01754$  and then the one-year forward bond price is  $p(1,4) = e^{-0.01754}e^{-2.5918\ldots (0.04)} = 0.8858.$
@@ -890,7 +890,7 @@ The Dothan model, BKi model, and the exponential Vasicek model given below imply
 The Chen model (Chen, 1995) is
 
 $$
-\begin{array}{l} d r (t) = (\alpha (t) - r (t)) d t + (\sigma (t) r (t)) ^ {1 / 2} d W ^ {1} (t) \\ d \alpha (t) = (\alpha - \alpha (t)) d t + (\alpha (t)) ^ {1 / 2} d W ^ {2} (t) \\ d \sigma (t) = (\gamma - \sigma (t)) d t + (\sigma (t)) ^ {1 / 2} d W ^ {3} (t) \tag {21} \\ \end{array}
+\begin{array}{l} d r (t) = (\alpha (t) - r (t)) d t + (\sigma (t) r (t))^{1 / 2} d W^{1} (t) \\ d \alpha (t) = (\alpha - \alpha (t)) d t + (\alpha (t))^{1 / 2} d W^{2} (t) \\ d \sigma (t) = (\gamma - \sigma (t)) d t + (\sigma (t))^{1 / 2} d W^{3} (t) \tag {21} \\ \end{array}
 $$ where  $\alpha, \gamma$  are constants and  $W^1, W^2$ , and  $W^3$  are independent Wiener processes. This is an example of a three-factor model.
 
 
@@ -910,7 +910,7 @@ This model is similar to the Dothan model, being a lognormal short-rate model. T
 The Mercurio-Moraleda model (Mercurio and Moraleda, 2000) is
 
 $$
-\begin{array}{l} d r (t) = r (t) \left[ \eta (t) - \left(\lambda - \frac {\gamma}{1 + \gamma t}\right) \ln r (t) \right] d t \\ + \sigma r (t) d W (t) \tag {24} \\ \end{array}
+\begin{array}{l} d r (t) = r (t) \left[ \eta (t) - \left(\lambda - \frac{\gamma}{1 + \gamma t}\right) \ln r (t) \right] d t \\ + \sigma r (t) d W (t) \tag {24} \\ \end{array}
 $$
 
 The CIR++ model (Brigo and Mercurio, 2007) is
@@ -918,7 +918,7 @@ The CIR++ model (Brigo and Mercurio, 2007) is
 $$ r (t) = x (t) + \varphi (t)
 $$
 
-$$ d x (t) = k [ \theta - x (t) ] d t + \sigma \sqrt {x (t)} d W (t)
+$$ d x (t) = k [ \theta - x (t) ] d t + \sigma \sqrt{x (t)} d W (t)
 $$
 
 The extended exponential Vasicek model (Brigo and Mercurio, 2007) is
@@ -938,12 +938,12 @@ Therefore, the short-rate models lead to two main problems. Mean-reverting model
 The problems signaled above for the short-rate models led to the development of new classes of models, more notably the LIBOR market models or BGM developed by Brace, Gatarek, and Musiela (1997); Jamshidian (1997); and Musiela and Rutkowski (1997). This model starts with a geometric Brownian motion for the forward LIBOR rate  $L_{i}(t) \coloneqq L(t; T_{i}, T_{i+1})$ , where  $0 = T_0 < T_1 < \dots < T_n$  to acquire positivity of rates
 
 
-$$ d L _ {i} (t) = \mu_ {i} ^ {Q} (t) L _ {i} (t) d t + \sigma_ {i} (t) L _ {i} (t) d W _ {i} ^ {Q} (t) \tag {27}
+$$ d L_{i} (t) = \mu_{i}^{Q} (t) L_{i} (t) d t + \sigma_{i} (t) L_{i} (t) d W_{i}^{Q} (t) \tag {27}
 $$ where  $Q$  is the martingale measure corresponding to the numeraire  $N(t) = p(t,T_n)$ , also called the terminal measure because the numeraire is the price of the bond with the last tenor. Now  $\prod_{k = i}^{n - 1}(1 + (T_{k + 1} - T_k)L_k(t)) = \frac{p(t,T_i)}{p(t,T_n)}$  is the numeraire rebased price of a traded asset, the zero-coupon bond with maturity  $T_{i}$ . Hence, it should be a martingale and its drift must be zero. Calculating the drift with Ito calculus for all consecutive indexes  $i,i + 1$  allows the drift determination
 
 
 $$
-\mu_ {i} ^ {Q} (t) = \sum_ {\substack {k \geq i + 1 \\ k \leq n}} \frac {(T _ {k + 1} - T _ {k}) L _ {k} (t)}{\left[ 1 + \left(T _ {k + 1} - T _ {k}\right) L _ {k} (t) \right]} \sigma_ {i} (t) \sigma_ {k} (t) \rho_ {i, k} (t) \tag{28}
+\mu_{i}^{Q} (t) = \sum_{\substack {k \geq i + 1 \\ k \leq n}} \frac{(T_{k + 1} - T_{k}) L_{k} (t)}{\left[ 1 + \left(T_{k + 1} - T_{k}\right) L_{k} (t) \right]} \sigma_{i} (t) \sigma_{k} (t) \rho_{i, k} (t) \tag{28}
 $$ for all  $i \in \{0, \dots, n - 1\}$ .
 
 
@@ -993,65 +993,65 @@ $$
 
 Then
 
-$$ d \ln p (t, T) = \left[ r (t) - \frac {1}{2} \sigma^ {2} (t, T) \right] d t + \sigma (t, T) d W (t) \tag {30}
+$$ d \ln p (t, T) = \left[ r (t) - \frac{1}{2} \sigma^{2} (t, T) \right] d t + \sigma (t, T) d W (t) \tag {30}
 $$
 
 The equation for the forward rate can be derived now:
 
 $$
-\begin{array}{l} d f (t, T) = - d \left(\frac {\partial}{\partial T} \ln p (t, T)\right) = - \left(\frac {\partial}{\partial T} d \ln p (t, T)\right) \\ = - \frac {\partial}{\partial \mathrm {T}} \left\{\left[ r (t) - \frac {1}{2} \sigma^ {2} (t, T) \right] d t + \sigma (t, T) d W (t) \right\} \\ = \sigma (\mathrm {t}, \mathrm {T}) \frac {\partial \sigma (\mathrm {t} , \mathrm {T})}{\partial \mathrm {T}} d t - \frac {\partial \sigma (t , T)}{\partial T} d W (t) \tag {31} \\ \end{array}
+\begin{array}{l} d f (t, T) = - d \left(\frac{\partial}{\partial T} \ln p (t, T)\right) = - \left(\frac{\partial}{\partial T} d \ln p (t, T)\right) \\ = - \frac{\partial}{\partial \mathrm{T}} \left\{\left[ r (t) - \frac{1}{2} \sigma^{2} (t, T) \right] d t + \sigma (t, T) d W (t) \right\} \\ = \sigma (\mathrm{t}, \mathrm{T}) \frac{\partial \sigma (\mathrm{t} , \mathrm{T})}{\partial \mathrm{T}} d t - \frac{\partial \sigma (t , T)}{\partial T} d W (t) \tag {31} \\ \end{array}
 $$
 
 The Wiener process  $W = \{W(t)\}$  is symmetric, and therefore we can safely replace  $W$  with  $-W$ , so
 
-$$ d f (t, T) = \sigma (\mathrm {t}, \mathrm {T}) \frac {\partial \sigma (\mathrm {t} , \mathrm {T})}{\partial \mathrm {T}} d t + \frac {\partial \sigma (t , T)}{\partial T} d W (t) \tag {32}
+$$ d f (t, T) = \sigma (\mathrm{t}, \mathrm{T}) \frac{\partial \sigma (\mathrm{t} , \mathrm{T})}{\partial \mathrm{T}} d t + \frac{\partial \sigma (t , T)}{\partial T} d W (t) \tag {32}
 $$
 
 Applying the fundamental theorem of calculus for  $\partial \sigma (t,T) / \partial T$  leads to
 
 $$
-\sigma (t, T) - \sigma (t, t) = \int_ {t} ^ {T} \frac {\partial \sigma (t , s)}{\partial s} d s \tag {33}
+\sigma (t, T) - \sigma (t, t) = \int_{t}^{T} \frac{\partial \sigma (t , s)}{\partial s} d s \tag {33}
 $$
 
 It is obvious that  $\sigma (t,t) = 0$  and therefore the volatility of the forward rate determines the drift as well. In other words, all that is needed for the HJM methodology is the volatility of the bond prices. The short rates are easily calculated from the forward rates. Once a model for short rates is determined under the risk-neutral measure  $Q$ , the bond prices are calculated from
 
-$$ p (t, T) = E ^ {Q} \left[ e ^ {- \int_ {t} ^ {T} r (s) d s} \mid F _ {t} \right] \tag {34}
+$$ p (t, T) = E^{Q} \left[ e^{- \int_{t}^{T} r (s) d s} \mid F_{t} \right] \tag {34}
 $$
 
 Using (3) it follows that  $\int_t^T f(t,s)ds = -\ln p(t,T) = g(r(t),t,T)$  where
 
-$$ g (x, t, T) = - \ln E ^ {Q} \left[ e ^ {- \int_ {t} ^ {T} r (s) d s} | r (t) = x \right] \tag {35}
+$$ g (x, t, T) = - \ln E^{Q} \left[ e^{- \int_{t}^{T} r (s) d s} | r (t) = x \right] \tag {35}
 $$
 
 The continuous variant of the Ho-Lee model can be obtained for
 
 $$
-\begin{array}{l} g (x, t, T) = x (T - t) - \frac {1}{6} \sigma^ {2} (T - t) ^ {3} \\ + \int_ {t} ^ {T} (T - s) \alpha (s) d s \tag {36} \\ \end{array}
+\begin{array}{l} g (x, t, T) = x (T - t) - \frac{1}{6} \sigma^{2} (T - t)^{3} \\ + \int_{t}^{T} (T - s) \alpha (s) d s \tag {36} \\ \end{array}
 $$ where  $\sigma (t,T) = \sigma (T - t)$ , which implies that  $\frac{\partial f(t,T)}{\partial t} = \sigma^2 (T - t)dt + \sigma dW(t)$  so the initial forward curve is
 
 
 $$
-\begin{array}{l} f (0, T) = \frac {\partial g (r (0) , 0 , T)}{\partial T} = r (0) - \frac {1}{2} \sigma^ {2} T ^ {2} \\ + \int_ {0} ^ {T} \alpha (s) d s \tag {37} \\ \end{array}
+\begin{array}{l} f (0, T) = \frac{\partial g (r (0) , 0 , T)}{\partial T} = r (0) - \frac{1}{2} \sigma^{2} T^{2} \\ + \int_{0}^{T} \alpha (s) d s \tag {37} \\ \end{array}
 $$
 
 The short rate is given by
 
-$$ r (t) = f (0, t) + \sigma^ {2} \frac {t ^ {2}}{2} + \sigma W (t) \tag {38}
+$$ r (t) = f (0, t) + \sigma^{2} \frac{t^{2}}{2} + \sigma W (t) \tag {38}
 $$ and the price of the pure discount bond with maturity  $T$  is
 
 
 $$
-\begin{array}{l} p (t, T) = \exp \left[ - \int_ {t} ^ {T} f (t, s) d s - \sigma^ {2} t \right. \\ \left. \int_ {t} ^ {T} \left(s - \frac {t}{2}\right) d s - \sigma (T - t) W (t) \right] \tag {39} \\ \end{array}
+\begin{array}{l} p (t, T) = \exp \left[ - \int_{t}^{T} f (t, s) d s - \sigma^{2} t \right. \\ \left. \int_{t}^{T} \left(s - \frac{t}{2}\right) d s - \sigma (T - t) W (t) \right] \tag {39} \\ \end{array}
 $$
 
 Similarly, the Vasicek model is recovered for
 
 $$
-\begin{array}{l} \sigma (t, T) = \sigma e ^ {- \beta (T - t)} \text {a n d} f (0, T) \\ = \frac {\alpha}{\beta} + e ^ {- \beta T} \left(r (0) - \frac {\alpha}{\beta}\right) - \frac {\sigma^ {2}}{2 \beta^ {2}} \left(1 - e ^ {- \beta T}\right) ^ {2} \tag {40} \\ \end{array}
+\begin{array}{l} \sigma (t, T) = \sigma e^{- \beta (T - t)} \text{an d} f (0, T) \\ = \frac{\alpha}{\beta} + e^{- \beta T} \left(r (0) - \frac{\alpha}{\beta}\right) - \frac{\sigma^{2}}{2 \beta^{2}} \left(1 - e^{- \beta T}\right)^{2} \tag {40} \\ \end{array}
 $$ and this leads to
 
 
-$$ r (t) = \frac {\alpha}{\beta} + e ^ {- \beta T} \left(r (0) - \frac {\alpha}{\beta}\right) + \sigma e ^ {- \beta t} \int_ {0} ^ {t} e ^ {\beta s} d W (s) \tag {41}
+$$ r (t) = \frac{\alpha}{\beta} + e^{- \beta T} \left(r (0) - \frac{\alpha}{\beta}\right) + \sigma e^{- \beta t} \int_{0}^{t} e^{\beta s} d W (s) \tag {41}
 $$
 
 # BOND OPTION PRICING
@@ -1068,14 +1068,14 @@ Hull and White used a two-factor version of the Vasicek model to price discount 
 In this section we consider the pricing of a European option on the money fund (this is the same as a bank account when the initial value  $B(0) = 1$ ). Thus, the payoff of a European call option with exercise price  $K$  is  $\max [B(T) - K, 0]$ . The continuous version of the Ho-Lee model is assumed for the short interest rate process. The risk-neutral valuation methodology provides the solution as
 
 $$
-\begin{array}{l} c _ {B (0), T, K} = E ^ {Q} \left[ e ^ {- \int_ {0} ^ {T} r (u) d u} \max  [ B (T) - K, 0 ] \right] \\ = B (0) N \left(d _ {+}\right) - p (0, T) K N \left(d _ {-}\right) \tag {42} \\ \end{array}
+\begin{array}{l} c_{B (0), T, K} = E^{Q} \left[ e^{- \int_{0}^{T} r (u) d u} \max  [ B (T) - K, 0 ] \right] \\ = B (0) N \left(d_{+}\right) - p (0, T) K N \left(d_{-}\right) \tag {42} \\ \end{array}
 $$ where
 
 
-$$ d _ {+} = \frac {\ln \left(\frac {B (0)}{p (0 , T) K}\right) + \sigma^ {2} \frac {T ^ {3}}{6}}{\sigma \sqrt {\frac {T ^ {3}}{3}}} \text {a n d}
+$$ d_{+} = \frac{\ln \left(\frac{B (0)}{p (0 , T) K}\right) + \sigma^{2} \frac{T^{3}}{6}}{\sigma \sqrt{\frac{T^{3}}{3}}} \text{an d}
 $$
 
-$$ d _ {-} = \frac {\ln \left(\frac {B (0)}{p (0 , T) K}\right) - \sigma^ {2} \frac {T ^ {3}}{6}}{\sigma \sqrt {\frac {T ^ {3}}{3}}} = d _ {+} - \sigma \sqrt {\frac {T ^ {3}}{3}}
+$$ d_{-} = \frac{\ln \left(\frac{B (0)}{p (0 , T) K}\right) - \sigma^{2} \frac{T^{3}}{6}}{\sigma \sqrt{\frac{T^{3}}{3}}} = d_{+} - \sigma \sqrt{\frac{T^{3}}{3}}
 $$
 
 A proof of this formula is described in Epps (2000) in Section 10.2.2.
@@ -1088,36 +1088,36 @@ Discount bond options are not very liquid, but they form an elementary component
 When the short rate process  $r = \{r(t)\}$  follows the continuous time version of the Ho-Lee model given above by (10), the price at time 0 of a European call option with maturity  $T_{0}$  with exercise price  $K$  on a discount bond maturing at  $T(T_0 < T)$  is
 
 $$
-\begin{array}{l} c _ {p (0, T); T _ {0}; K} = E ^ {Q} \left[ e ^ {- \int_ {0} ^ {T} r (u) d u} \max  [ p (T _ {0}, T) - K, 0 ] \right] \\ = \mathrm {p} (0, T _ {0}) \frac {p (0 , T)}{p (0 , T _ {0})} N \left(d _ {+}\right) \\ - p \left(0, T _ {0}\right) K N \left(d _ {-}\right) \tag {43} \\ \end{array}
+\begin{array}{l} c_{p (0, T); T_{0}; K} = E^{Q} \left[ e^{- \int_{0}^{T} r (u) d u} \max  [ p (T_{0}, T) - K, 0 ] \right] \\ = \mathrm{p} (0, T_{0}) \frac{p (0 , T)}{p (0 , T_{0})} N \left(d_{+}\right) \\ - p \left(0, T_{0}\right) K N \left(d_{-}\right) \tag {43} \\ \end{array}
 $$ where
 
 
 $$
-\begin{array}{l} d _ {+} = \frac {\ln \left(\frac {p (0 , T)}{p (0 , T _ {0}) K}\right) + \sigma^ {2} \frac {(T - T _ {0}) T _ {0}}{2}}{\sigma \sqrt {(T - T _ {0}) T _ {0}}} \quad \text {a n d} \\ d _ {-} = d _ {+} - \sigma \sqrt {(T - T _ {0}) T _ {0}} \\ \end{array}
+\begin{array}{l} d_{+} = \frac{\ln \left(\frac{p (0 , T)}{p (0 , T_{0}) K}\right) + \sigma^{2} \frac{(T - T_{0}) T_{0}}{2}}{\sigma \sqrt{(T - T_{0}) T_{0}}} \quad \text{an d} \\ d_{-} = d_{+} - \sigma \sqrt{(T - T_{0}) T_{0}} \\ \end{array}
 $$
 
 A proof of this result is provided in Epps (2000). There is a similar put-call parity for European options contingent on a discount bond. If  $p_{p(0,T);T_0;K}$  is the price at  $t = 0$  of a European put option on the discount bond with maturity  $T$ , then for  $B(0) = 1$
 
 $$
-\begin{array}{l} c _ {p (0, T); T _ {0}; K} - p _ {p (0, T); T _ {0}; K} \\ = E ^ {Q} \left[ e ^ {- \int_ {0} ^ {T _ {0}} r (s) d s} (\max  [ p (T _ {0}, T) - K, 0 ] \right. \\ - \max  [ K - p (T _ {0}, T), 0) ] \\ = E ^ {Q} \left[ e ^ {- \int_ {0} ^ {T _ {0}} r (s) d s} \left[ p \left(T _ {0}, T\right) - K \right] \right] \\ = E ^ {Q} \left[ e ^ {- \int_ {0} ^ {T} r (s) d s} \right] - p (0, T _ {0}) K \\ = p (0, T) - p (0, T _ {0}) K \\ \end{array}
+\begin{array}{l} c_{p (0, T); T_{0}; K} - p_{p (0, T); T_{0}; K} \\ = E^{Q} \left[ e^{- \int_{0}^{T_{0}} r (s) d s} (\max  [ p (T_{0}, T) - K, 0 ] \right. \\ - \max  [ K - p (T_{0}, T), 0) ] \\ = E^{Q} \left[ e^{- \int_{0}^{T_{0}} r (s) d s} \left[ p \left(T_{0}, T\right) - K \right] \right] \\ = E^{Q} \left[ e^{- \int_{0}^{T} r (s) d s} \right] - p (0, T_{0}) K \\ = p (0, T) - p (0, T_{0}) K \\ \end{array}
 $$
 
 Put-call parity can be used to derive the price of a European put option:
 
 $$
-\begin{array}{l} p _ {p (0, T): T _ {0}: K} = p (0, T _ {0}) K N (- d _ {-}) \\ - p \left(0, T _ {0}\right) \frac {p (0 , T)}{p \left(0 , T _ {0}\right)} N \left(- d _ {+}\right) \tag {44} \\ \end{array}
+\begin{array}{l} p_{p (0, T): T_{0}: K} = p (0, T_{0}) K N (- d_{-}) \\ - p \left(0, T_{0}\right) \frac{p (0 , T)}{p \left(0 , T_{0}\right)} N \left(- d_{+}\right) \tag {44} \\ \end{array}
 $$
 
 Initially, the first formulas on pricing options on pure discount bonds used the Vasicek model for the term structure of interest rates. Thus, given that  $r$  follows (6), the price of a European call option with maturity  $T_{0}$  with exercise price  $K$  on a discount bond maturing at  $T$ $(T_0 < T)$  is
 
 
-$$ c _ {p (0, T); T _ {0}; K} = p (0, T) N \left(d _ {+}\right) - K p (0, T _ {0}) N \left(d _ {-}\right) \tag {45}
+$$ c_{p (0, T); T_{0}; K} = p (0, T) N \left(d_{+}\right) - K p (0, T_{0}) N \left(d_{-}\right) \tag {45}
 $$ where  $d_{+} = \frac{\ln\left(\frac{p(0,T)}{Kp(0,T_{0})}\right) + \eta^{2} / 2}{\eta}$  and  $d_{-} = d_{+} - \eta$  with  $\eta = \frac{\sigma(1 - e^{-\beta(T - T_0)})}{\beta}\sqrt{\frac{1 - e^{-2\beta T_0}}{2\beta}}$
 
 
 The put price can be obtained from put-call parity as
 
-$$ p _ {p (0, T); T _ {0}; K} = K p (0, T _ {0}) N (- d _ {-}) - p (0, T) N (d _ {+}) \tag {46}
+$$ p_{p (0, T); T_{0}; K} = K p (0, T_{0}) N (- d_{-}) - p (0, T) N (d_{+}) \tag {46}
 $$
 
 # Example: Valuing a Zero-Coupon Bond Call Option with the Vasicek Model
@@ -1125,7 +1125,7 @@ $$
 Let's consider this model for pricing a 3-year European call option on a 10-year zero-coupon bond with face value  \$1 and exercise price K equal to\$ 0.5. As in Jackson and Staunton (2001), we use for the parameters of this model the values estimated by Chan et al. (1992) for U.S. 1-month Treasury bill yield from 1964 to 1989. Thus,  $\alpha = 0.0154$ ,  $\beta = 0.1779$ , and  $\sigma = 2\%$ . In addition, the value of the short rate  $r$  at time  $t = 0$  is needed, so we take  $r_0 = 3.75\%$ . Feeding this information into the above formulas, we get the output in Table 2. Thus, the value of the European call option is
 
 $$
-\begin{array}{l} c _ {p (0, T); T _ {0}; K} = 0. 5 4 0 6 \times 0. 9 8 2 2 - 0. 5 \times 0. 8 6 5 5 \\ \times 0. 9 7 6 7 \cong 0. 1 0 8 \\ \end{array}
+\begin{array}{l} c_{p (0, T); T_{0}; K} = 0. 5 4 0 6 \times 0. 9 8 2 2 - 0. 5 \times 0. 8 6 5 5 \\ \times 0. 9 7 6 7 \cong 0. 1 0 8 \\ \end{array}
 $$
 
 A more general case is discussed by Shiryaev (1999) for single-factor Gaussian models modeling the short interest rate. These are single-factor affine models where the short rate  $r$  is also a Gauss-Markov process. The equation for this short rate process is
@@ -1138,17 +1138,17 @@ Table 2 Calculations of Elements for Pricing a European Call Option on a Zero-Co
 <table><tr><td>p(0,T0)</td><td>p(0,T)</td><td>d+</td><td>d-</td><td>N(d+)</td><td>N(d-)</td></tr><tr><td>0.8655</td><td>0.5406</td><td>2.1013</td><td>1.9926</td><td>0.9822</td><td>0.9767</td></tr></table> and we can easily recognize the first Hull-White model. The price of a European call option is also
 
 
-$$ c _ {p (0, T); T _ {0}; K} = p (0, T) N \left(d _ {+}\right) - K p (0, T _ {0}) N \left(d _ {-}\right) \tag {48}
+$$ c_{p (0, T); T_{0}; K} = p (0, T) N \left(d_{+}\right) - K p (0, T_{0}) N \left(d_{-}\right) \tag {48}
 $$ but where
 
 
 $$
-\begin{array}{l} d _ {+} = \frac {\ln \left(\frac {p (0 , T)}{K p (0 , T _ {0})}\right) + \frac {1}{2} \eta^ {2} (T _ {0} , T) B ^ {2} (T _ {0} , T)}{\eta (T _ {0} , T) B (T _ {0} , T)} \quad \text {a n d} \\ d _ {-} = d _ {+} - \eta \\ \end{array}
+\begin{array}{l} d_{+} = \frac{\ln \left(\frac{p (0 , T)}{K p (0 , T_{0})}\right) + \frac{1}{2} \eta^{2} (T_{0} , T) B^{2} (T_{0} , T)}{\eta (T_{0} , T) B (T_{0} , T)} \quad \text{an d} \\ d_{-} = d_{+} - \eta \\ \end{array}
 $$ with
 
 
 $$
-B (T _ {0}, T) = \int_ {T _ {0}} ^ {T} \frac {\varphi (s)}{\varphi (T _ {0})} d s \quad \text {a n d} \quad \varphi (s) = e ^ {- \int_ {0} ^ {s} \beta (u) d u}
+B (T_{0}, T) = \int_{T_{0}}^{T} \frac{\varphi (s)}{\varphi (T_{0})} d s \quad \text{an d} \quad \varphi (s) = e^{- \int_{0}^{s} \beta (u) d u}
 $$
 
 The price of the European put option is obviously again  $p_{p(0,T);T_0;K} = Kp(0,T_0)N(-d_-) - p(0,T)N(d_+)$ .
@@ -1160,48 +1160,48 @@ When considering the pricing of a forward pure discount bond earlier in this ent
 Breaking down  $(d_{+})$  into its component parts and evaluating each individually yields:
 
 $$
-\begin{array}{l} \ln \left(\frac {p (0 , T)}{K (p (0 , T _ {0}))}\right) = \ln \left(\frac {0 . 8 5 2 1}{(0 . 8 8 5 8) (0 . 9 6 0 7)}\right) \\ = 0, \quad B (T _ {0}, T) = 2. 5 9 1 8 \\ \end{array}
+\begin{array}{l} \ln \left(\frac{p (0 , T)}{K (p (0 , T_{0}))}\right) = \ln \left(\frac{0 . 8 5 2 1}{(0 . 8 8 5 8) (0 . 9 6 0 7)}\right) \\ = 0, \quad B (T_{0}, T) = 2. 5 9 1 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \eta = \frac {\sigma (1 - e ^ {- \beta (T - T _ {0})})}{\beta} \sqrt {\frac {1 - e ^ {- 2 \beta T _ {0}}}{2 \beta}} \\ = \frac {0 . 0 2 (1 - e ^ {- 0 . 1 (3)})}{0 . 1} \sqrt {\frac {1 - e ^ {- 2 (0 . 1) (1)}}{2 (0 . 1)}} = 0. 0 4 9 3 \\ \end{array}
+\begin{array}{l} \eta = \frac{\sigma (1 - e^{- \beta (T - T_{0})})}{\beta} \sqrt{\frac{1 - e^{- 2 \beta T_{0}}}{2 \beta}} \\ = \frac{0 . 0 2 (1 - e^{- 0 . 1 (3)})}{0 . 1} \sqrt{\frac{1 - e^{- 2 (0 . 1) (1)}}{2 (0 . 1)}} = 0. 0 4 9 3 \\ \end{array}
 $$
 
 The expression for  $(d_{+})$  reduces to
 
 $$
-\frac {\eta (T _ {0} , T) B (T _ {0} , T)}{2} = \frac {(0 . 0 4 9 3) (2 . 5 9 1 8)}{2} = 0. 6 3 9 5
+\frac{\eta (T_{0} , T) B (T_{0} , T)}{2} = \frac{(0 . 0 4 9 3) (2 . 5 9 1 8)}{2} = 0. 6 3 9 5
 $$
 
 The expression for  $d_{-}$  is  $(d_{-}) = (d_{+}) - \eta = 0.6395 - 0.0493 = 0.0146$ .  $N(d_{+})$  is found to be 0.5255 and  $N(d_{-}) = 0.5058$ . Substituting these results into the call option formula gives a premium of
 
 
 $$
-\begin{array}{l} c _ {P (0, T); T _ {0}; K} = (0. 8 5 2 1) (0. 5 2 5 5) \\ - (0. 8 8 5 8) (0. 9 6 0 8) (0. 5 0 5 8) \\ = 0. 0 1 7 3 0 \\ \end{array}
+\begin{array}{l} c_{P (0, T); T_{0}; K} = (0. 8 5 2 1) (0. 5 2 5 5) \\ - (0. 8 8 5 8) (0. 9 6 0 8) (0. 5 0 5 8) \\ = 0. 0 1 7 3 0 \\ \end{array}
 $$ or  $1.73\%$ .
 
 
 One notable exception from this general class is the CIR model. There is a closed formula for this case, too. Following Clewlow and Strickland (1998), the price at time 0 of a European pure discount bond option is
 
 $$
-\begin{array}{l} c _ {p (0, T); T _ {0}; K} = p (0, T) \chi^ {2} \left(2 \delta [ \phi + \psi + B (T _ {0}, T) ]; 2 \omega , \right. \\ \left. \frac {2 \phi^ {2} r (0) e ^ {\theta T _ {0}}}{\phi + \psi + B (T _ {0} , T)}\right) \\ - K p (0, T _ {0}) \chi^ {2} \left(2 \delta [ \phi + \psi ]; 2 \omega , \frac {2 \phi^ {2} r (0) e ^ {\theta T _ {0}}}{\phi + \psi}\right) \tag {49} \\ \end{array}
+\begin{array}{l} c_{p (0, T); T_{0}; K} = p (0, T) \chi^{2} \left(2 \delta [ \phi + \psi + B (T_{0}, T) ]; 2 \omega , \right. \\ \left. \frac{2 \phi^{2} r (0) e^{\theta T_{0}}}{\phi + \psi + B (T_{0} , T)}\right) \\ - K p (0, T_{0}) \chi^{2} \left(2 \delta [ \phi + \psi ]; 2 \omega , \frac{2 \phi^{2} r (0) e^{\theta T_{0}}}{\phi + \psi}\right) \tag {49} \\ \end{array}
 $$ where
 
 
 $$
-\theta = \sqrt {\beta^ {2} + 2 \sigma^ {2}}, \quad \phi = \frac {2 \theta}{\sigma^ {2} (e ^ {- \theta T} - 1)},
+\theta = \sqrt{\beta^{2} + 2 \sigma^{2}}, \quad \phi = \frac{2 \theta}{\sigma^{2} (e^{- \theta T} - 1)},
 $$
 
 $$
-\psi = \frac {\beta + \theta}{\sigma^ {2}}, \quad \lambda = \frac {\beta + \theta}{2}, \quad \omega = \frac {2 \beta}{\sigma^ {2}},
+\psi = \frac{\beta + \theta}{\sigma^{2}}, \quad \lambda = \frac{\beta + \theta}{2}, \quad \omega = \frac{2 \beta}{\sigma^{2}},
 $$
 
 $$
-B (t, s) = \left(\frac {e ^ {\theta (s - t)} - 1}{\lambda (e ^ {\theta (s - t)} - 1) + \theta}\right),
+B (t, s) = \left(\frac{e^{\theta (s - t)} - 1}{\lambda (e^{\theta (s - t)} - 1) + \theta}\right),
 $$
 
 $$
-\delta = \frac {\omega (\lambda T + \ln \theta - \ln [ \lambda (e ^ {\theta T} - 1) + \theta ]) - \ln (K)}{B (T _ {0} , T)}
+\delta = \frac{\omega (\lambda T + \ln \theta - \ln [ \lambda (e^{\theta T} - 1) + \theta ]) - \ln (K)}{B (T_{0} , T)}
 $$ and  $\chi^2 (.;a,b)$  is the noncentral chi-squared density with  $a$  degrees of freedom and noncentrality parameter  $b$ .
 
 
@@ -1211,7 +1211,7 @@ Let's consider the same problem as described in the example using the Vasicek mo
 
 
 $$
-\begin{array}{l} c _ {p (0, T); T _ {0}; K} = 0. 5 3 2 4 \times 1 - 0. 5 \times 0. 8 6 2 4 \\ \times 1 \cong 0. 1 0 1 2 \\ \end{array}
+\begin{array}{l} c_{p (0, T); T_{0}; K} = 0. 5 3 2 4 \times 1 - 0. 5 \times 0. 8 6 2 4 \\ \times 1 \cong 0. 1 0 1 2 \\ \end{array}
 $$
 
 # Options on Coupon-Paying Bonds
@@ -1220,7 +1220,7 @@ When short rates are modeled with single-factor models, Jamshidian (1989) proved
 
 Consider a bond paying a periodic cash payment  $\rho$  at times  $T_{1}, T_{2}, \ldots, T_{m}$ , and the principal at maturity  $T = T_{m}$ . A coupon bond can be mapped into a portfolio of discount bonds with corresponding maturities (under one source of uncertainty, that is, one factor model). The value of a coupon-bearing bond at time  $t < T_{m}$  is
 
-$$ p \left(t, T _ {1}, \dots , T _ {m}; \rho\right) = \rho \sum_ {i = i [ t ]} ^ {m} p \left(t, T _ {i}\right) + p \left(t, T _ {m}\right) \tag {50}
+$$ p \left(t, T_{1}, \dots , T_{m}; \rho\right) = \rho \sum_{i = i [ t ]}^{m} p \left(t, T_{i}\right) + p \left(t, T_{m}\right) \tag {50}
 $$ where  $i[t] = \min \{j : t < T_j\}$ .
 
 
@@ -1228,7 +1228,7 @@ Under the one-factor HJM model corresponding to the Ho-Lee model, a European opt
 
 Epps (2000) shows that
 
-$$ p \left(T _ {0}, T _ {i}\right) = \frac {p \left(0 , T _ {i}\right)}{p \left(0 , T _ {0}\right)} e ^ {\left[ - \sigma^ {2} \frac {\left(T _ {i} - T _ {0}\right) ^ {2} T _ {0}}{2} - \left(T _ {i} - T _ {0}\right) \left(r \left(T _ {0}\right) - f \left(0, T _ {0}\right)\right) \right]} \tag {51}
+$$ p \left(T_{0}, T_{i}\right) = \frac{p \left(0 , T_{i}\right)}{p \left(0 , T_{0}\right)} e^{\left[ - \sigma^{2} \frac{\left(T_{i} - T_{0}\right)^{2} T_{0}}{2} - \left(T_{i} - T_{0}\right) \left(r \left(T_{0}\right) - f \left(0, T_{0}\right)\right) \right]} \tag {51}
 $$
 
 For any strike price  $K$ , there is a value  $r_K$  of  $r(T_0)$  such that when replaced in (48) with  $t = T_0$ , implies  $p(T_0, T_1, \ldots, T_m) = K$ . Let's de
@@ -1236,13 +1236,13 @@ For any strike price  $K$ , there is a value  $r_K$  of  $r(T_0)$  such that whe
 note by  $K_{i}$  the value of  $p(T_0,T_i)$  as calculated from (49) with  $r_K$  instead of  $r(T_0)$ . Then
 
 $$
-\rho \sum_ {i = i [ T _ {0} ]} ^ {m} K _ {i} + K _ {m} = K \tag {52}
+\rho \sum_{i = i [ T_{0} ]}^{m} K_{i} + K_{m} = K \tag {52}
 $$
 
 Hence, the value at time 0 of a European call option with maturity  $T_{0}$  and strike price  $K$  on the coupon-bearing bond, under the one-factor HJM model described above, is given by
 
 $$
-\begin{array}{l} \begin{array}{l} c _ {p (0, T _ {1}, \dots , T _ {m}; \rho)} = E ^ {Q} \left\{e ^ {- \int_ {0} ^ {T _ {0}} r (s) d s} \max  [ p (T _ {0}, T _ {1}, \dots , T _ {m}; \rho) \right. \\ \left. - K, 0 ] \right\} \end{array} \\ = \rho \sum_ {i = i [ T _ {0} ]} ^ {K} E ^ {Q} \left\{e ^ {- \int_ {0} ^ {T _ {0}} r (s) d s} \max  \left[ p \left(T _ {0}, T _ {i}\right) - K _ {i}, 0 \right] \right\} \\ + E ^ {Q} \left\{e ^ {- J _ {0} ^ {T _ {0}} r (s) d s} \max  [ p (T _ {0}, T _ {m}) - K _ {m}, 0 ] \right\} \\ = \rho \sum_ {i = i [ T _ {0} ]} ^ {m} c _ {p (0, T _ {i}); T _ {0}, K _ {i}} + c _ {p (0, T _ {m}), T _ {0}; K _ {m}} \tag {53} \\ \end{array}
+\begin{array}{l} \begin{array}{l} c_{p (0, T_{1}, \dots , T_{m}; \rho)} = E^{Q} \left\{e^{- \int_{0}^{T_{0}} r (s) d s} \max  [ p (T_{0}, T_{1}, \dots , T_{m}; \rho) \right. \\ \left. - K, 0 ] \right\} \end{array} \\ = \rho \sum_{i = i [ T_{0} ]}^{K} E^{Q} \left\{e^{- \int_{0}^{T_{0}} r (s) d s} \max  \left[ p \left(T_{0}, T_{i}\right) - K_{i}, 0 \right] \right\} \\ + E^{Q} \left\{e^{- J_{0}^{T_{0}} r (s) d s} \max  [ p (T_{0}, T_{m}) - K_{m}, 0 ] \right\} \\ = \rho \sum_{i = i [ T_{0} ]}^{m} c_{p (0, T_{i}); T_{0}, K_{i}} + c_{p (0, T_{m}), T_{0}; K_{m}} \tag {53} \\ \end{array}
 $$
 
 # Example: Valuing a Coupon-Bond Call Option with the Vasicek Model
@@ -1271,30 +1271,30 @@ The value of the call option is 0.334, that is, the sum of all zero-coupon bond 
 Swaptions options allow the buyer to obtain at a future time one position in a swap contract. It is elementary that an interest rate swap, fixed for floating, can be understood as a portfolio of bonds. Let's consider here that the notional principal is 1. Then the claim on the fixed payments is the same as a bond paying coupons with the rate  $\rho$  and no principal. Let  $\tau$  be the time when the swap is conceived. The claim on the fixed income stream is worth, at time  $\tau$ ,  $\rho \sum_{i=1}^{m} p(\tau, T_i)$ . The floating income stream is made up of cash returns on holding, over the period  $[T_{i-1}, T_i]$  a discount bond with maturity  $T_i$ , which is worth  $\frac{p(T_i, T_i)}{p(T_{i-1}, T_i)} - 1$ . Thus, the value of the whole floating stream at time  $t = \tau$  is
 
 $$
-\begin{array}{l} E _ {\tau} \left(\sum_ {i = 1} ^ {m} e ^ {- \int_ {\tau} ^ {T _ {i}} r (s) d s} \frac {1 - p \left(T _ {i - 1} , T _ {i}\right)}{p \left(T _ {i - 1} , T _ {i}\right)}\right) \\ = E _ {\tau} \left(\sum_ {i = 1} ^ {m} e ^ {- \int_ {\tau} ^ {T _ {i - 1}} r (s) d s} e ^ {- \int_ {T _ {i - 1}} ^ {T _ {i}} r (s) d s} \frac {1 - p \left(T _ {i - 1} , T _ {i}\right)}{p \left(T _ {i - 1} , T _ {i}\right)}\right) \tag {54} \\ \end{array}
+\begin{array}{l} E_{\tau} \left(\sum_{i = 1}^{m} e^{- \int_{\tau}^{T_{i}} r (s) d s} \frac{1 - p \left(T_{i - 1} , T_{i}\right)}{p \left(T_{i - 1} , T_{i}\right)}\right) \\ = E_{\tau} \left(\sum_{i = 1}^{m} e^{- \int_{\tau}^{T_{i - 1}} r (s) d s} e^{- \int_{T_{i - 1}}^{T_{i}} r (s) d s} \frac{1 - p \left(T_{i - 1} , T_{i}\right)}{p \left(T_{i - 1} , T_{i}\right)}\right) \tag {54} \\ \end{array}
 $$
 
 Applying the properties of conditional expectations it follows that the above is equal to
 
 $$
-\begin{array}{l} E _ {\tau} \left\{\sum_ {i = 1} ^ {m} e ^ {- \int_ {\tau} ^ {T _ {i} - 1} r (s) d s} \left(E _ {T _ {i - 1}} e ^ {- \int_ {T _ {i} - 1} ^ {T _ {i}} r (s) d s} \left[ \frac {1 - p \left(T _ {i - 1} , T _ {i}\right)}{p \left(T _ {i - 1} , T _ {i}\right)} \right]\right) \right\} \\ = E _ {\tau} \left\{\sum_ {i = 1} ^ {m} e ^ {- \int_ {\tau} ^ {T _ {i} - 1} r (s) d s} (1 - p (T _ {i - 1}, T _ {i})) \right\} \\ = \sum_ {i = 1} ^ {m} [ p (\tau , T _ {i - 1}) - p (\tau , T _ {i}) ] = 1 - p (\tau , T _ {m}) \tag {55} \\ \end{array}
+\begin{array}{l} E_{\tau} \left\{\sum_{i = 1}^{m} e^{- \int_{\tau}^{T_{i} - 1} r (s) d s} \left(E_{T_{i - 1}} e^{- \int_{T_{i} - 1}^{T_{i}} r (s) d s} \left[ \frac{1 - p \left(T_{i - 1} , T_{i}\right)}{p \left(T_{i - 1} , T_{i}\right)} \right]\right) \right\} \\ = E_{\tau} \left\{\sum_{i = 1}^{m} e^{- \int_{\tau}^{T_{i} - 1} r (s) d s} (1 - p (T_{i - 1}, T_{i})) \right\} \\ = \sum_{i = 1}^{m} [ p (\tau , T_{i - 1}) - p (\tau , T_{i}) ] = 1 - p (\tau , T_{m}) \tag {55} \\ \end{array}
 $$
 
 Imposing the condition that the two streams have equal initial value leads to
 
 $$
-\rho \sum_ {i = 1} ^ {m} p (\tau , T _ {i}) = 1 - p (\tau , T _ {m})
+\rho \sum_{i = 1}^{m} p (\tau , T_{i}) = 1 - p (\tau , T_{m})
 $$ which is equivalent to
 
 
 $$
-\rho \sum_ {i = 1} ^ {m} p (\tau , T _ {i}) + p (\tau , T _ {m}) - 1 = 0
+\rho \sum_{i = 1}^{m} p (\tau , T_{i}) + p (\tau , T_{m}) - 1 = 0
 $$
 
 It follows then that the value of the swap at initialization is  $p(\tau, T_1, \ldots, T_m) - 1$ . Thus, the option to get a long position in the fixed leg of the swap, with a fixed payment rate  $\rho$ , is worth at time 0
 
 $$
-E _ {0} ^ {Q} \left\{e ^ {- \int_ {0} ^ {\tau} r (s) d s} \max  [ p (\tau , T _ {1}, \dots , T _ {m}) - 1, 0 ] \right\} \tag {56}
+E_{0}^{Q} \left\{e^{- \int_{0}^{\tau} r (s) d s} \max  [ p (\tau , T_{1}, \dots , T_{m}) - 1, 0 ] \right\} \tag {56}
 $$
 
 It is clear now that this is the same as a European call option on a coupon-bearing bond when the exercise price is equal to 1.
@@ -1432,7 +1432,7 @@ Black and Scholes demonstrated that the option premium could be arrived at throu
 The Model:
 
 $$
-C = S N \left(d _ {1}\right) - K e ^ {(- r t)} N \left(d _ {2}\right)
+C = S N \left(d_{1}\right) - K e^{(- r t)} N \left(d_{2}\right)
 $$
 
 $C =$  theoretical call premium
@@ -1449,11 +1449,11 @@ $\mathrm{N} =$  cumulative standard normal distribution
 
 $\mathrm{e} =$  exponential term (2.7183)
 
-$$ d _ {1} = \frac {\ln (S / K) + \left(r + \frac {s ^ {2}}{2}\right) t}{s \sqrt {t}}
+$$ d_{1} = \frac{\ln (S / K) + \left(r + \frac{s^{2}}{2}\right) t}{s \sqrt{t}}
 $$
 
 $$
-\mathrm {d} _ {2} = \mathrm {d} _ {1} - \mathrm {s} \sqrt {\mathrm {t}}
+\mathrm{d}_{2} = \mathrm{d}_{1} - \mathrm{s} \sqrt{\mathrm{t}}
 $$
 
 $s =$  standard deviation of stock returns
@@ -1480,18 +1480,18 @@ Garman and Kohlhagen (1983) extended the Black-Scholes model to cover the foreig
 Against all the above theories, there is a way to price an option without a computer model. This can be obtained by the following equation, which will give a good approximation for a European option premium. The formula is:
 
 $$
-\text {P r i c e} = \mathrm {B B} \times \text {f o r w a r d o u t r i g h t r a t e}
+\text{Pr ic e} = \mathrm{BB} \times \text{fo rw ar do ut ri gh tr at e}
 $$
 
 This is where:
 
 $$
-\begin{array}{l} A A = \text {s q u a r e} \\ \times \text {v o l a t i l i t y} \times 0. 1 9 9 4 7 \\ \end{array}
+\begin{array}{l} A A = \text{sq ua re} \\ \times \text{vo la ti li ty} \times 0. 1 9 9 4 7 \\ \end{array}
 $$ and
 
 
 $$
-\mathrm {B B} = ((\mathrm {A A} + 0. 5) \times 2) - 1
+\mathrm{BB} = ((\mathrm{AA} + 0. 5) \times 2) - 1
 $$
 
 This formula is where price is the premium for an at-the-money European option quoted in units per base currency.
@@ -1649,13 +1649,13 @@ Also, delta can be thought of as the estimated probability of exercise of the op
 Turning to calculus for the formal definition of delta, let 0 be the current time. Let  $^0 p$  and  $^0 s$  be current values for the portfolio and underlier. Delta is the first partial derivative of a portfolio's value with respect to the value of the underlier:
 
 $$
-\mathrm {d e l t a} = \frac {\partial^ {0} p}{\partial^ {0} s}
+\mathrm{de lt a} = \frac{\partial^{0} p}{\partial^{0} s}
 $$
 
 This technical definition leads to an approximation for the behavior of a portfolio.
 
 $$
-\Delta^ {0} p \approx \mathrm {d e l t a} \Delta^ {0} s
+\Delta^{0} p \approx \mathrm{de lt a} \Delta^{0} s
 $$ where  $\Delta^0 s$  is a small change in the underlier's current value, and  $\Delta^0 p$  is the corresponding change in the portfolio's current value. This is called the delta approximation.
 
 
@@ -1686,7 +1686,7 @@ The delta ratio indicates the increase in value of the option for every increase
 In the preceding example, the delta of the option is, say,  $45\%$ , which means that to hedge the position, an amount of sterling of  $45\%$  of the face value of the option will have to be bought. Therefore, if the option is for £1 million, a move up of 50 points on the rate will result in a loss of:
 
 $$
-\mathcal {L} 1 \text {m i l l i o n} \times 0. 0 0 5 0 \times 4 5
+\mathcal {L} 1 \text{mi ll io n} \times 0. 0 0 5 0 \times 4 5
 $$
 
 This will be offset by the long cash position of:
@@ -1729,13 +1729,13 @@ Thus, gamma is the change in delta per change in the underlying and is important
 For a formal definition of gamma, again turn to calculus. Gamma is the second partial derivative of a portfolio's value  ${}^{0}p$  with respect to the value  ${}^{0}s$  of the underlier:
 
 $$
-\mathrm {g a m m a} = \frac {\partial^ {2 0} p}{\partial^ {0} s ^ {2}}
+\mathrm{ga mm a} = \frac{\partial^{2 0} p}{\partial^{0} s^{2}}
 $$
 
 By incorporating gamma, there can be an improvement to the approximation for how the portfolio's value should change in response to small changes in the underlier's value:
 
 $$
-\Delta^ {0} p \approx \frac {\mathrm {g a m m a}}{2} \Delta^ {0} s ^ {2} + \mathrm {d e l t a} \Delta^ {0} s
+\Delta^{0} p \approx \frac{\mathrm{ga mm a}}{2} \Delta^{0} s^{2} + \mathrm{de lt a} \Delta^{0} s
 $$
 
 This is called the delta-gamma approximation.
@@ -1773,12 +1773,12 @@ The rate at which the time value decays with respect to time is expressed as hun
 To determine theta, assume  $t$  denotes time, and let  ${}^t p$  denote the portfolio's value at time  $t$ . Formally, theta is the partial derivative of the portfolio's value with respect to time:
 
 $$
-\mathrm {t h e t a} = \frac {\partial^ {t} p}{\partial t}
+\mathrm{th et a} = \frac{\partial^{t} p}{\partial t}
 $$ where the derivative is evaluated at time  $t = 0$ . This technical definition leads to an approximation for the behavior of a portfolio.
 
 
 $$
-\Delta^ {t} p \approx \operatorname {t h e t a} \Delta t
+\Delta^{t} p \approx \operatorname{th et a} \Delta t
 $$ where  $\Delta^t$  is a small interval of time, and  $\Delta^t p$  is the change in the portfolio's value that will
 
 
@@ -1801,7 +1801,7 @@ Vega, sometimes also called kappa, quantifies risk exposure to implied volatilit
 Vega is the first partial derivative of a portfolio's value  ${}^{0}p$  with respect to the value  ${}^{0}\sigma$  of implied volatility. This technical definition leads to an approximation for the behavior of a portfolio.
 
 $$
-\Delta^ {0} p \approx \operatorname {v e g a} \Delta^ {0} \sigma
+\Delta^{0} p \approx \operatorname{ve ga} \Delta^{0} \sigma
 $$ where, here,  $\Delta^0\sigma$  is a small change in the implied volatility from its current value, and  $\Delta p$  is the corresponding change in the portfolio's value.
 
 
@@ -1815,13 +1815,13 @@ It is generally considered to be the least important of the Greeks, but neverthe
 In formulating rho, let  ${}^{0}p$  and  ${}^{0}r$  be current values for the portfolio and underlier. Formally, rho is the partial derivative of the portfolio's value with respect to the risk-free rate:
 
 $$
-\mathrm {r h o} = \frac {\partial^ {0} p}{\partial^ {0} r}
+\mathrm{rh o} = \frac{\partial^{0} p}{\partial^{0} r}
 $$
 
 This technical definition leads to an approximation for the behavior of a portfolio.
 
 $$
-\Delta^ {0} p \approx \mathrm {r h o} \Delta^ {0} r
+\Delta^{0} p \approx \mathrm{rh o} \Delta^{0} r
 $$ where  $\Delta^0 r$  is a small change in the risk-free rate, and  $\Delta^0 p$  is the corresponding change in the portfolio's value.
 
 
@@ -1950,7 +1950,7 @@ Source: ISDA.
 
 
 $$
-\begin{array}{l} \operatorname {S p r e a d} _ {\text {O l d - R e}} > \operatorname {S p r e a d} _ {\text {M o d - M o d - R e}} > \operatorname {S p r e a d} _ {\text {M o d - R e}} \\ > \operatorname {S p r e a d} _ {\mathrm {N o - R e}} \\ \end{array}
+\begin{array}{l} \operatorname{Sp re ad}_{\text{Ol d -R e}} > \operatorname{Sp re ad}_{\text{Mo d -M od -R e}} > \operatorname{Sp re ad}_{\text{Mo d -R e}} \\ > \operatorname{Sp re ad}_{\mathrm{No -R e}} \\ \end{array}
 $$
 
 In this entry, the aim is not to determine what the spread differences should be, but to price contracts of a given type given the corresponding curve of market spreads.
@@ -2010,7 +2010,7 @@ Despite these assumptions, cash market spreads usually provide the starting poin
 Empirically, there is a high correlation between the two spread levels. The difference between where and cash LIBOR spreads trade is known as the default swap basis, defined as
 
 $$
-\text {D e f a u l t s w a p b a s i s} = S - F
+\text{De fa ul ts wa pb as is} = S - F
 $$
 
 There are now a significant number of market participants who actively trade the default swap basis, viewing it as a new relative value opportunity.3
@@ -2042,7 +2042,7 @@ Assume the risk-neutral probabilities exist. Then we can identify a series of ri
 Assume  $Q(t)$  to be the survival probability from now till some future time  $t$ . Then  $Q(t) - Q(t + \tau)$  is the default probability between  $t$  and  $t + \tau$  (that is, survive till  $t$  but default before  $t + \tau$ ). Assume defaults can only be observed at multiples of  $\tau$ . Then the total probability of default over the life of the CDS is the sum of all the per period default probabilities:
 
 $$
-\sum_ {j = 1} ^ {n} Q [ (j - 1) \tau ] - Q (j \tau) = 1 - Q (n \tau) = 1 - Q (T)
+\sum_{j = 1}^{n} Q [ (j - 1) \tau ] - Q (j \tau) = 1 - Q (n \tau) = 1 - Q (T)
 $$ where  $Q(0) = 1.0$  and  $n\tau = T$ , the maturity time of the CDS. It is no coincidence that the sum of the all the per-period default probabilities should equal one minus the total survival probability.
 
 
@@ -2058,7 +2058,7 @@ $$
 We then discount the payment of  $(1 - R)$  back to today by multiplying it by the risk-free discount factor  $P(t)$ . We then consider the likelihood of default occurring in all of the intervals by summing over all intervals. We therefore have
 
 $$
-V = (1 - R) \sum_ {j = 1} ^ {n} P (j \tau) \{Q [ (j - 1) \tau ] - Q (j \tau) \} \tag {2}
+V = (1 - R) \sum_{j = 1}^{n} P (j \tau) \{Q [ (j - 1) \tau ] - Q (j \tau) \} \tag {2}
 $$ where  $R(\cdot)$  is the expected recovery rate determined by a CDS auction which takes place soon after a credit event rate.
 
 
@@ -2068,17 +2068,17 @@ Premium payments on the premium leg of a CDS terminate as soon as a credit event
 
 
 $$
-S \sum_ {j = 1} ^ {N} \Delta_ {j} P (j \tau) Q (j \tau)
+S \sum_{j = 1}^{N} \Delta_{j} P (j \tau) Q (j \tau)
 $$ where  $\Delta_{j}$  is the corresponding year fraction in the appropriate basis convention (typically actual 360). By definition the value of the default swap spread is the value at which the premium and protection legs have the same present value. Hence, we have
 
 
 $$
-V = S \sum_ {j = 1} ^ {n} \Delta_ {j} P (j \tau) Q (j \tau)
+V = S \sum_{j = 1}^{n} \Delta_{j} P (j \tau) Q (j \tau)
 $$ giving
 
 
 $$
-S = \frac {V}{\sum_ {j = 1} ^ {n} \Delta_ {j} p (j \tau) Q (j \tau)} \tag {3}
+S = \frac{V}{\sum_{j = 1}^{n} \Delta_{j} p (j \tau) Q (j \tau)} \tag {3}
 $$ rate for senior unsecured US corporate bonds – most CDS are linked to bonds which are senior unsecured.
 
 Figure 2 depicts the general default and recovery structure. The payoff upon default of a default swap is par minus the recovery value as determined by any future ISDA auction which takes place after a credit event. As of today, the value of this recovery is unknown, we do not even know if a credit event will occur. As our model is based on the expected value of the protection leg, the recovery rate used has to be the expected value of the recovery rate conditional on a default and for this, market practitioners refer to historical recovery rates. Market convention is to use a  $40\%$  recovery rate as this is close to the average historical recovery
@@ -2118,24 +2118,24 @@ MTM = +Present value of four years of risky premium payments of 400 basis points
 To go any further we have to compute the expected present value of these 400-basis points payments. However these payments are only made until the maturity of the CDS or to the time of a credit event, whichever occurs first. To compute the MTM we therefore need to weight each premium payment by the probability that there is no credit event up until that payment date. We therefore write
 
 $$
-\mathrm {M T M} = 4 0 0 \text {b a s i s p o i n t s} \times \mathrm {R P V 0 1}
+\mathrm{MT M} = 4 0 0 \text{ba si sp oi nt s} \times \mathrm{RP V0 1}
 $$ where the RPV01 is the "risky" price value of a basis point (PV01). This is defined as the present value of a 1 basis points payment made until the contractual maturity date of the position or to
 
 
 the date of a credit event, whichever is sooner. Mathematically, we can write the RPV01 as
 
 $$
-\mathrm {R P V} 0 1 = \sum_ {j = 1} ^ {n} \Delta_ {j} p (j \tau) Q (j \tau)
+\mathrm{RP V} 0 1 = \sum_{j = 1}^{n} \Delta_{j} p (j \tau) Q (j \tau)
 $$ where  $\Delta_{j}$  is the year fraction for the payment  $j$  in the appropriate basis (typically Actual 360). For quarterly paying CDS,  $\Delta_{j}$  is usually close to or equal to 0.25. Bringing this all together, we can write the MTM value of a long protection position as
 
 
 $$
-\mathrm {M T M} = + [ S (t, T) - S (0, T) ] \times \mathrm {R P V 0 1} [ S (t, T), R ]
+\mathrm{MT M} = + [ S (t, T) - S (0, T) ] \times \mathrm{RP V0 1} [ S (t, T), R ]
 $$ and that of a short protection position as
 
 
 $$
-\mathrm {M T M} = - [ S (t, T) - S (0, T) ] \times \mathrm {R P V 0 1} [ S (t, T), R ]
+\mathrm{MT M} = - [ S (t, T) - S (0, T) ] \times \mathrm{RP V0 1} [ S (t, T), R ]
 $$ where  $S(0,T)$  is the contractual spread of the contract,  $T$  is the contractual maturity date and  $S(t,T)$  is the current par CDS spread to the contractual maturity date. It is essential to note that the RPV01 is a function of the market spread  $S(t,T)$  and the assumed recovery rate  $R$  since both are used to imply out the risk-neutral survival probabilities.
 
 
@@ -2155,7 +2155,7 @@ Market practitioners using CDS usually consider two risk measures. First is the 
 It is actually possible to make some simple approximations that make clear the dependence of the MTM on these inputs. First, we can approximate the CDS spread in terms of the risk-neutral annualized default probability  $p$ , and assumed recovery rate  $R$ , using the equation  $S = p(1 - R)$ . The interpretation is that the annualized spread received for assuming a credit risk should equal the annualized default probability times the loss on default, which in a CDS equals  $(100\% - R)$ . This approximation works very well in practice. If we assume a flat term structure of CDS spreads, approximate  $\Delta$  with  $1/4$ , then we can approximate the MTM of a long protection position as
 
 $$
-\mathrm {M T M} = \frac {[ S (t , T) - S (0 , T) ]}{4} \sum_ {j = 1} ^ {N} P (j \tau) \left[ 1 - \frac {S (t , T)}{1 - R} \right] ^ {j / 4}
+\mathrm{MT M} = \frac{[ S (t , T) - S (0 , T) ]}{4} \sum_{j = 1}^{N} P (j \tau) \left[ 1 - \frac{S (t , T)}{1 - R} \right]^{j / 4}
 $$
 
 We can immediately draw a number of conclusions from this mathematical expression for the MTM value. First, the MTM value is not a linear function of the market spread  $S(t,T)$ . In fact the MTM value of a short protection position is convex in the market spread, just as the price of a corporate bond is convex in the yield. Furthermore, it is also clear that the recovery rate sensitivity of the MTM value is large when the market spread is large. This means that where the market spread is below, say, 300 basis points, one does not have to be so precise about the recovery rate assumption. However, if spreads become large (say, 300 basis points and above) the recovery rate sensitivity becomes increasingly significant and care must be taken in making a recovery rate assumption.

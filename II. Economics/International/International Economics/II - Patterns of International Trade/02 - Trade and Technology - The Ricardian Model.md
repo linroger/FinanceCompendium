@@ -166,7 +166,7 @@ the marginal products of labor are constant. That is, regardless of how much whe
 Given this property, the slope of the PPF in Figure 2-1 can be calculated as the ratio of the quantity of cloth produced to the quantity of wheat produced at the corners, as follows:
 
 $$
-\text {S l o p e} = - \frac {5 0}{1 0 0} = - \frac {M P L _ {C} \cdot \bar {L}}{M P L _ {W} \cdot \bar {L}} = - \frac {M P L _ {C}}{M P L _ {W}} = - \frac {1}{2}
+\text{Sl op e} = - \frac{5 0}{1 0 0} = - \frac{M P L_{C} \cdot \bar {L}}{M P L_{W} \cdot \bar {L}} = - \frac{M P L_{C}}{M P L_{W}} = - \frac{1}{2}
 $$
 
 Ignoring the minus sign, the slope equals the ratio of marginal products of the two goods. The slope is also the opportunity cost of wheat, the amount of cloth that must be given up to obtain one more unit of wheat. To see this, suppose that  $Q_W$  is increased by 1 bushel. It takes one worker to produce 4 bushels of wheat, so increasing  $Q_W$  by 1 bushel means that one-quarter of a worker's time must be withdrawn from the cloth industry and shifted into wheat production. This shift would reduce cloth output by  $\frac{1}{2}$  yard, the amount of cloth that could have been produced by one-quarter of a worker's time. Thus, yard of cloth is the opportunity cost of obtaining 1 more bushel of wheat and is the slope of the PPF.
@@ -194,13 +194,13 @@ If we assume that labor is perfectly free to move between these two industries a
 We can use the equality of the wage across industries to obtain the following equation:
 
 $$
-P _ {W} \cdot M P L _ {W} = P _ {C} \cdot M P L _ {C}
+P_{W} \cdot M P L_{W} = P_{C} \cdot M P L_{C}
 $$
 
 By rearranging terms, we see that
 
 $$
-P _ {W} / P _ {C} = M P L _ {C} / M P L _ {W}
+P_{W} / P_{C} = M P L_{C} / M P L_{W}
 $$
 
 The right-hand side of this equation is the slope of the production possibilities frontier (the opportunity cost of obtaining one more bushel of wheat) and the left-hand side of the equation is the relative price of wheat, as we will explain in the next paragraph. This equation says that the relative price of wheat (on the left) and opportunity cost of wheat (on the right) must be equal in the no-trade equilibrium at point  $A$ .
@@ -272,7 +272,7 @@ Change in Production and Consumption The world relative price of wheat that we h
 Recall that Home wages paid in the wheat industry equal  $P_W \cdot MPL_W$ , and wages paid in the cloth industry equal  $P_C \cdot MPL_C$ . We know that the relative price of wheat in the trade equilibrium is  $P_W / P_C = \frac{2}{3}$ , that the marginal product of labor in the Home wheat industry is  $MPL_W = 4$ , and that the marginal product of labor in the Home cloth industry is  $MPL_C = 2$ . We can plug these numbers into the formulas for wages to compute the ratio of wages in the two industries as
 
 $$
-\frac {P _ {W} \cdot M P L _ {W}}{P _ {C} \cdot M P L _ {C}} = \left(\frac {2}{3}\right) \left(\frac {4}{2}\right) = \frac {8}{6} > 1, \text {s o t h a t} P _ {W} \cdot M P L _ {W} > P _ {C} \cdot M P L _ {C}
+\frac{P_{W} \cdot M P L_{W}}{P_{C} \cdot M P L_{C}} = \left(\frac{2}{3}\right) \left(\frac{4}{2}\right) = \frac{8}{6} > 1, \text{so th at} P_{W} \cdot M P L_{W} > P_{C} \cdot M P L_{C}
 $$
 
 This formula tells us that with the world relative price of wheat, wages paid in Home's wheat industry  $(P_W \cdot MPL_W)$  are greater than those paid in its cloth industry  $(P_C \cdot MPL_C)$ . Accordingly, all of Home's workers will want to work in the wheat industry, and no cloth will be produced. With trade, the Home economy
@@ -308,13 +308,13 @@ These two conclusions are often where the Ricardian model stops in its analysis 
 Solving for Wages Across Countries To understand how wages are determined, we go back to microeconomics. In competitive labor markets, firms will pay workers the value of their marginal product. Home produces and exports wheat, so we can think of Home workers being paid in terms of that good: their real wage is  $MPL_{W} = 4$  bushels of wheat. We refer to this payment as a "real" wage because it is measured in terms of a good that workers consume and not in terms of money. The workers can then sell the wheat they earn on the world market at the relative price of  $P_{W} / P_{C} = \frac{2}{3}$ . Thus, their real wage in terms of units of cloth is  $(P_{W} / P_{C}) \cdot MPL_{W} = \frac{2}{3} \cdot 4 = \frac{8}{3}$  yard. Summing up, the Home wage is
 
 $$
-\text {H o m e w a g e} = \left\{ \begin{array}{l} M P L _ {W} = 4 \text {b u s h e l s o f w h e a t} \\ \text {o r} \\ \left(P _ {W} / P _ {C}\right) \cdot M P L _ {W} = \frac {8}{3} \text {y a r d o f c l o t h} \end{array} \right.
+\text{Ho me wa ge} = \left\{ \begin{array}{l} M P L_{W} = 4 \text{bu sh el so fw he at} \\ \text{or} \\ \left(P_{W} / P_{C}\right) \cdot M P L_{W} = \frac{8}{3} \text{ya rd of cl ot h} \end{array} \right.
 $$
 
 What happens to Foreign wages? Foreign produces and exports cloth, and the real wage is  $MPL_{C}^{*} = 1$  yard of cloth. Because cloth workers can sell the cloth they earn for wheat on the world market at the price of  $\frac{3}{2}$ , their real wage in terms of units of wheat is  $(P_{C}^{*} / P_{W}^{*}) \cdot MPL_{C}^{*} = \frac{3}{2} \cdot 1 = \frac{3}{2}$  bushel. Thus, the Foreign wage is
 
 $$
-\text {F o r g i n w a g e} = \left\{ \begin{array}{l} \left(P _ {C} ^ {*} / P _ {W} ^ {*}\right) \cdot M P L _ {C} ^ {*} = \frac {3}{2} \text {b u s h e l s o f w h e a t} \\ \text {o r} \\ M P L _ {C} ^ {*} = 1 \text {y a r d o f c l o t h} \end{array} \right.
+\text{Fo rg in wa ge} = \left\{ \begin{array}{l} \left(P_{C}^{*} / P_{W}^{*}\right) \cdot M P L_{C}^{*} = \frac{3}{2} \text{bu sh el so fw he at} \\ \text{or} \\ M P L_{C}^{*} = 1 \text{ya rd of cl ot h} \end{array} \right.
 $$
 
 Foreign workers earn less than Home workers as measured by their ability to purchase either good. This fact reflects Home's absolute advantage in the production of both goods.

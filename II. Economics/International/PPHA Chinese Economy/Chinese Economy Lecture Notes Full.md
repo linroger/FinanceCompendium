@@ -417,7 +417,7 @@ Evidence is thus inconsistent with the conventional wisdom.
 
 S MATHEVS RECVI HS MACERATENSIS QV1 PRIMVS F SOCTETAR V E VANGELYM IN SINAS IN VEXIT OBUTEN ANNO SALVIT
 
-Mateo Ricci, in China around the early  $17^{\text {th }}$  century
+Mateo Ricci, in China around the early  $17^{\text{th }}$  century
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/0578eac0d58af4185529f848d1d3f4a7af85f6e6c4d6c52dc5baa9b2ac87efd9.jpg)
 
@@ -1080,7 +1080,7 @@ industries, a developing economy needs to:
 
 # State Monopoly of Agricultural Products
 
-- In 1953, the  $1^{\text {st }}$  Five Year Plan kicked off, which prioritized heavy industries, causing the suppression of input prices  
+- In 1953, the  $1^{\text{st }}$  Five Year Plan kicked off, which prioritized heavy industries, causing the suppression of input prices  
 - To do so, the government set below-market prices in rural areas for all farm products, so that it could sell them at low prices in cities, transferring rural surplus to urban areas
 - Government had to monopolize procurement (up to a quota), otherwise farmers sell to other buyers  
 - Had to cover all crops, otherwise farmers switch crops
@@ -1249,7 +1249,7 @@ University of Chicago
 
 # 1958-1962: Great Leap Forward
 
-- In 1958, the governments started the  $2^{\text {nd }}$  Five Year Plan
+- In 1958, the governments started the  $2^{\text{nd }}$  Five Year Plan
 - Keeps prioritizing the heavy industries
 - In fear of being classified as "rightist," growth targets were set too high in the plan by politicians:
 - Initial yearly growth plan proposed in 1956: industry growth  $9.9\%$ , crop grow  $3.6\%$ , cotton grow  $5.6\%$  
@@ -1267,7 +1267,7 @@ Divergence from Soviet model
 
 # State Monopoly of Agricultural Products
 
-- In 1953, the  $1^{\text {st }}$  Five year Plan kicked off, which prioritized heavy industries, causing the suppression of input prices  
+- In 1953, the  $1^{\text{st }}$  Five year Plan kicked off, which prioritized heavy industries, causing the suppression of input prices  
 - To do so, the government set below-market prices in rural areas for all farm products, so that it could sell them at low prices in cities, transferring rural surplus to urban areas
 - Government had to monopolize procurement (up to a quota), otherwise farmers sell to other buyers  
 - Had to cover all crops, otherwise farmers switch crops
@@ -1387,7 +1387,7 @@ A simple example of such rigid procurement rule could be one based on expected o
 # Household Registration
 
 - Historically, when certain regions suffer from famines, the rural households flee to adjacent regions in order to survive  
-- Due to the household registration system introduced during the  $1 ^ {\text {st }}$  5-year plan, refugee migration became much more difficult  
+- Due to the household registration system introduced during the  $1^{\text{st }}$  5-year plan, refugee migration became much more difficult  
 - In order to cover that fact that a famine in going on under his watch, a local politician is incentivized to keep the refugees from leaving
 
 # Explanations for Output Loss
@@ -2440,7 +2440,7 @@ University of Chicago
 # "Rule of 70"
 
 $$
-G D P _ {t + n} = G D P _ {t} (1 + g) ^ {n}
+G D P_{t + n} = G D P_{t} (1 + g)^{n}
 $$
 
 - If the economy grows by  $g\%$  every year, then it will take about  $70 / g$  years for it to double in size  

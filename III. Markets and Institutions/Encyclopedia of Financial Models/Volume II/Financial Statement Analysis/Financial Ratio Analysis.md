@@ -54,7 +54,7 @@ Return-on-investment ratios compare measures of benefits, such as earnings or ne
 Basic earning power
 
 $$
-= \frac {\text {E a r n i n g s b e f o r e i n t e r e s t a n d t a x e s}}{\text {T o t a l a s s e t s}}
+= \frac{\text{Ea rn in gs be fo re in te re st an dt ax es}}{\text{To ta la ss et s}}
 $$
 
 Table 3 Fictitious Company Statement of Cash Flows, Years Ended December 31, in Thousands
@@ -64,7 +64,7 @@ Table 3 Fictitious Company Statement of Cash Flows, Years Ended December 31, in 
 For Fictitious Corporation, for the current year:
 
 $$
-\begin{array}{l} \mathrm {B a s i c e a r n i n g p o w e r} = \frac {\mathbb {S} 2 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.1818 \text {or} 18.18 \% \\ \end{array}
+\begin{array}{l} \mathrm{Ba si ce ar ni ng po we r} = \frac{\mathbb {S} 2 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.1818 \text{or} 18.18 \% \\ \end{array}
 $$
 
 For every dollar invested in assets, Fictitious earned about 18 cents in the current year. This measure deals with earnings from operations; it does not consider how these operations are financed.
@@ -72,7 +72,7 @@ For every dollar invested in assets, Fictitious earned about 18 cents in the cur
 Another return-on-assets ratio uses net income—operating earnings less interest and taxes—instead of earnings before interest and taxes:
 
 $$
-\text {R e t u r n o n a s s e t s} = \frac {\text {N e t i n c o m e}}{\text {T o t a l a s s e t s}}
+\text{Re tu rn on as se ts} = \frac{\text{Ne ti nc om e}}{\text{To ta la ss et s}}
 $$
 
 (In actual application the same term, return on assets, is often used to describe both ratios. It is only in the actual context or through an examination of the numbers themselves that we know which return ratio is presented. We use two different terms to describe these two return-on-asset ratios in this entry simply to avoid any confusion.)
@@ -80,7 +80,7 @@ $$
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {R e t u r n o n a s s e t s} = \frac {\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.1091 \text {or} 10.91 \% \\ \end{array}
+\begin{array}{l} \text{Re tu rn on as se ts} = \frac{\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.1091 \text{or} 10.91 \% \\ \end{array}
 $$
 
 Thus, without taking into consideration how assets are financed, the return on assets for Fictitious is  $18\%$ . Taking into consideration how assets are financed, the return on assets is  $11\%$ . The difference is due to Fictitious financing part of its total assets with debt, incurring interest of \$400,000 in the current year; hence, the return-on-assets ratio excludes taxes of \$ 400,000 in the current year from earnings in the numerator.
@@ -90,13 +90,13 @@ If we look at Fictitious's liabilities and equities, we see that the assets are 
 Return on equity
 
 $$
-= \frac {\text {N e t i n c o m e}}{\text {B o o k v a l u e o f s h a r e h o l d e r s} ^ {\prime} \text {e q u i t y}}
+= \frac{\text{Ne ti nc om e}}{\text{Bo ok va lu eo fs ha re ho ld er s}^{\prime} \text{eq ui ty}}
 $$
 
 For Fictitious Corporation, there is only one type of shareholder: common. For the current year:
 
 $$
-\begin{array}{l} \text {R e t u r n o n e q u i t y} = \frac {\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 6 , 0 0 0 , 0 0 0} \\ = 0.2000 \text{or} 20.00\% \\ \end{array}
+\begin{array}{l} \text{Re tu rn on eq ui ty} = \frac{\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 6 , 0 0 0 , 0 0 0} \\ = 0.2000 \text{or} 20.00\% \\ \end{array}
 $$
 
 # Recap: Return-on-Investment Ratios
@@ -104,7 +104,7 @@ $$
 The return-on-investment ratios for Fictitious Corporation for the current year are:
 
 $$
-\begin{array}{l} \text{Basic earning power} = 18.18 \% \\ \text{Return on assets} = 10.91 \% \\ \text{Return on equity} = 20.00 \% \\ \end{array}
+\begin{array}{l} \text{Basicearningpower} = 18.18 \% \\ \text{Returnonassets} = 10.91 \% \\ \text{Returnonequity} = 20.00 \% \\ \end{array}
 $$
 
 These return-on-investment ratios indicate:
@@ -122,7 +122,7 @@ These ratios do not provide information on:
 The returns on investment ratios provides a "bottom line" on the performance of a company, but do not tell us anything about the "why" behind this performance. For an understanding of the "why," an analyst must dig a bit deeper into the financial statements. A method that is useful in examining the source of performance is the DuPont system. The DuPont system is a method of breaking down return ratios into their components to determine which areas are responsible for a firm's performance. To see how it is used, let us take a closer look at the first definition of the return on assets:
 
 $$
-\begin{array}{l} \text {B a s i c e a n n i n g p o w e r} \\ = \frac {\text {E a r n i n g s b e f o r e i n t e r e s t a n d t a x e s}}{\text {T o t a l a s s e t s}} \\ \end{array}
+\begin{array}{l} \text{Ba si ce an ni ng po we r} \\ = \frac{\text{Ea rn in gs be fo re in te re st an dt ax es}}{\text{To ta la ss et s}} \\ \end{array}
 $$
 
 Suppose the return on assets changes from  $20\%$  in one period to  $10\%$  the next period. We do not know whether this decreased return is due to a less efficient use of the firm's assets—that is, lower activity—or to less effective management of expenses (that is, lower profit margins). A lower return on assets could be due to lower activity, lower margins, or both. Because an analyst is interested in evaluating past operating performance to evaluate different aspects of the management of the firm and to predict future performance, knowing the source of these returns is valuable.
@@ -132,14 +132,14 @@ Let us take a closer look at the return on assets and break it down into its com
 Basic earning power
 
 $$
-= \frac {\text {E a r n i n g s b e f o r e i n t e r s t a n d t a x e s / R e v e n u e s}}{\text {R e v e n u e s t o t a l a s s e t s / R e v e n u e s}}
+= \frac{\text{Ea rn in gs be fo re in te rs ta nd ta xe s /R ev en ue s}}{\text{Re ve nu es to ta la ss et s /R ev en ue s}}
 $$ which is equivalent to:
 
 
 Basic earning power
 
 $$
-\begin{array}{l} = \left(\frac {\text {E a r n i n g s b e f o r e i n t e r e s t a n d t a x e s}}{\text {R e v e n u e s}}\right) \\ \left(\frac {\text {R e v e n u e s}}{\text {R e v e n u e s t o t a l a s s e t s}}\right) \\ \end{array}
+\begin{array}{l} = \left(\frac{\text{Ea rn in gs be fo re in te re st an dt ax es}}{\text{Re ve nu es}}\right) \\ \left(\frac{\text{Re ve nu es}}{\text{Re ve nu es to ta la ss et s}}\right) \\ \end{array}
 $$
 
 This says that the earning power of the company is related to profitability (in this case, operating profit) and a measure of activity (total asset turnover).
@@ -147,7 +147,7 @@ This says that the earning power of the company is related to profitability (in 
 Basic earning power
 
 $$
-= (\text {O p e r a t i n g}
+= (\text{Op er at in g}
 $$
 
 (Total asset turnover)
@@ -165,10 +165,10 @@ We see that operating profit margin declined over the two years, yet asset turno
 
 The return on assets can be broken down into its components in a similar manner:
 
-Return on assets  $= \left( \frac{\text{Net income}}{\text{Revenues}} \right)$
+Return on assets  $= \left( \frac{\text{Netincome}}{\text{Revenues}} \right)$
 
 $$
-\left(\frac {\text {R e v e n u e s}}{\text {R e v e n u e s t o t a l a s s e t s}}\right)
+\left(\frac{\text{Re ve nu es}}{\text{Re ve nu es to ta la ss et s}}\right)
 $$ or
 
 
@@ -183,7 +183,7 @@ Net income  $=$  Earnings before tax(1 - Tax rate) then
 Net income  $=$  Earnings before interest and taxes
 
 $$
-\times \left(\frac{\text{Earnings before taxes}}{\text{Earnings before interest and taxes}}\right)\quad (1 - \text{Tax rate})\\ \uparrow \\ \text{equity's share of earnings}\quad \text{tax retention}\%
+\times \left(\frac{\text{Earningsbeforetaxes}}{\text{Earningsbeforeinterestandtaxes}}\right)\quad (1 - \text{Taxrate})\\ \uparrow \\ \text{equity'sshareofearnings}\quad \text{taxretention}\%
 $$
 
 The ratio of earnings before taxes to earnings before interest and taxes reflects the interest burden of the company, whereas the term (1 - tax rate) reflects the company's tax burden.
@@ -193,20 +193,20 @@ Therefore,
 Return on assets
 
 $$
-\begin{array}{l} = \left(\frac {\text {E a r n i n g s b e f o r e i n t e r e s t a n d t a x e s}}{\text {R e v e n u e s}}\right) \\ \times \left(\frac {\text {R e v e n u e s}}{\text {R e v e n u e s t o t a l a s s e t s}}\right) \\ \times \left(\frac {\text {E a r n i n g s b e f o r e t a x e s}}{\text {E a r n i n g s b e f o r e i n t e r e s t a n d t a x e s}}\right) \\ (1 - \text {T a x r a t e}) \\ \end{array}
+\begin{array}{l} = \left(\frac{\text{Ea rn in gs be fo re in te re st an dt ax es}}{\text{Re ve nu es}}\right) \\ \times \left(\frac{\text{Re ve nu es}}{\text{Re ve nu es to ta la ss et s}}\right) \\ \times \left(\frac{\text{Ea rn in gs be fo re ta xe s}}{\text{Ea rn in gs be fo re in te re st an dt ax es}}\right) \\ (1 - \text{Ta xr at e}) \\ \end{array}
 $$ or
 
 
 Return on assets
 
 $$
-\begin{array}{l} = (\text {O p e r a t i n g} \quad \text {p r o f i t} \quad \text {m a r g i n}) (\text {T o t a l} \quad \text {a s s e t} \quad \text {t u r n o v e r}) \\ \times (\text{Equity's share of earnings})(\text{Tax retention}\%) \\ \end{array}
+\begin{array}{l} = (\text{Op er at in g} \quad \text{pr of it} \quad \text{ma rg in}) (\text{To ta l} \quad \text{as se t} \quad \text{tu rn ov er}) \\ \times (\text{Equity'sshareofearnings})(\text{Taxretention}\%) \\ \end{array}
 $$
 
 The breakdown of a return-on-equity ratio requires a bit more decomposition because instead of total assets as the denominator, the denominator in the return is shareholders' equity. Because activity ratios reflect the use of all of the assets, not just the proportion financed by equity, we need to adjust the activity ratio by the proportion that assets are financed by equity (that is, the ratio of the book value of shareholders' equity to total assets):
 
 $$
-\begin{array}{l} \text {R e t u r n o n e q u i t y = (R e t u r n o n a s s e t s)} \left(\frac {\text {T o t a l a s s e t s}}{\text {S h a r e h o l d e r ' s e q u i t y}}\right) \\ \text {R e t u r n o n e q u i t y} \\ = \left(\frac {\text {N e t i n c o m e}}{\text {R e v e n u e s}}\right) \left(\frac {\text {R e v e n u e s}}{\text {T o t a l a s s e t s}}\right) \left(\frac {\text {T o t a l a s s e t s}}{\text {S h a r e h o l d e r ' s e q u i t y}}\right) \\ \quad \uparrow \\ \quad \text {E q u i t y m u l t i p l i e r} \end{array}
+\begin{array}{l} \text{Re tu rn on eq ui ty = (Re tu rn on as se ts)} \left(\frac{\text{To ta la ss et s}}{\text{Sh ar eh ol de r 's eq ui ty}}\right) \\ \text{Re tu rn on eq ui ty} \\ = \left(\frac{\text{Ne ti nc om e}}{\text{Re ve nu es}}\right) \left(\frac{\text{Re ve nu es}}{\text{To ta la ss et s}}\right) \left(\frac{\text{To ta la ss et s}}{\text{Sh ar eh ol de r 's eq ui ty}}\right) \\ \quad \uparrow \\ \quad \text{Eq ui ty mu lt ip li er} \end{array}
 $$
 
 The ratio of total assets to shareholders' equity is referred to as the equity multiplier. The equity multiplier, therefore, captures the effects of how a company finances its assets, referred to as its financial leverage. Multiplying the total asset turnover ratio by the equity multiplier allows us to break down the return-on-equity ratios into three components: profit margin, asset turnover, and financial leverage. For example, the return on equity can be broken down into three parts:
@@ -215,7 +215,7 @@ The ratio of total assets to shareholders' equity is referred to as the equity m
 Return on equity
 
 $$
-\begin{array}{l} = (\text {N e t p r o f i t m a r g i n}) (\text {T o t a l a s s e t t u r n o v e r}) \\ (E q u i t y m u l t i p l e r) \\ \end{array}
+\begin{array}{l} = (\text{Ne tp ro fi tm ar gi n}) (\text{To ta la ss et tu rn ov er}) \\ (E q u i t y m u l t i p l e r) \\ \end{array}
 $$
 
 Applying this breakdown to Fictitious for the two years:
@@ -231,37 +231,37 @@ This decomposition allows the analyst to take a closer look at the factors that 
 For the fiscal year ending June 30, 2006,
 
 $$
-\text{Return on equity} = \frac{\text{Net income}}{\text{Total assets}} = \frac{\mathbb{S}12.599}{\mathbb{S}40.014} = 0.31486\text{or} 31.486\%
+\text{Returnonequity} = \frac{\text{Netincome}}{\text{Totalassets}} = \frac{\mathbb{S}12.599}{\mathbb{S}40.014} = 0.31486\text{or} 31.486\%
 $$
 
 Breaking return on equity into three components:
 
 $$
-\begin{array}{l} \text {R e t u r n o n e q u i t y} = \frac {\text {N e t i n c o m e}}{\text {R e v e n u e s}} \times \frac {\text {R e v e n u e s}}{\text {T o t a l a s s e t s}} \times \frac {\text {T o t a l a s s e t s}}{\text {S h a r e h o l d e r s} ^ {\prime} \text {e q u i t y}} \\ = \frac {\mathbb {S} 12.599}{\mathbb {S} 44.282} \times \frac {\mathbb {S} 44.282}{\mathbb {S} 69.597} \times \frac {\mathbb {S} 69.597}{\mathbb {S} 40.014} = 0.31486 \text {or} 31.486 \% \\ \end{array}
+\begin{array}{l} \text{Re tu rn on eq ui ty} = \frac{\text{Ne ti nc om e}}{\text{Re ve nu es}} \times \frac{\text{Re ve nu es}}{\text{To ta la ss et s}} \times \frac{\text{To ta la ss et s}}{\text{Sh ar eh ol de rs}^{\prime} \text{eq ui ty}} \\ = \frac{\mathbb {S} 12.599}{\mathbb {S} 44.282} \times \frac{\mathbb {S} 44.282}{\mathbb {S} 69.597} \times \frac{\mathbb {S} 69.597}{\mathbb {S} 40.014} = 0.31486 \text{or} 31.486 \% \\ \end{array}
 $$
 
 Breaking the return on equity into five components:
 
 $$
-\text {R e t u r n o n e q u i t y} = \left(\frac {\text {E a r n i n g s b e f o r e}}{\text {i n t e r s t a n d t a x e s}}\right) \times \left(\frac {\text {E a r n i n g s b e f o r e t a x e s}}{\text {E a r n i n g s b e f o r e}}\right) \times (1 - \text {T a x r a t e}) \times \left(\frac {\text {R e v e n u e s}}{\text {T o t a l a s s e t s}}\right) \times \left(\frac {\text {T o t a l a s s e t s}}{\text {S h a r e h o l d e r s} ^ {\prime} \text {e q u i t y}}\right)
+\text{Re tu rn on eq ui ty} = \left(\frac{\text{Ea rn in gs be fo re}}{\text{in te rs ta nd ta xe s}}\right) \times \left(\frac{\text{Ea rn in gs be fo re ta xe s}}{\text{Ea rn in gs be fo re}}\right) \times (1 - \text{Ta xr at e}) \times \left(\frac{\text{Re ve nu es}}{\text{To ta la ss et s}}\right) \times \left(\frac{\text{To ta la ss et s}}{\text{Sh ar eh ol de rs}^{\prime} \text{eq ui ty}}\right)
 $$
 
 $$
-\begin{array}{l} \text {R e t u r n o n e q u i t y} = \left(\frac {\mathbb {S} 1 8 . 2 6 2}{\mathbb {S} 4 4 . 2 8 2}\right) \times \left(\frac {\mathbb {S} 1 8 . 2 6 2}{\mathbb {S} 1 8 . 2 6 2}\right) \times (1 - 0. 3 1 0 1 0) \times \left(\frac {\mathbb {S} 4 4 . 2 8 2}{\mathbb {S} 9 . 5 9 7}\right) \times \left(\frac {\mathbb {S} 6 9 . 5 9 7}{\mathbb {S} 4 0 . 0 1 4}\right) \\ = 0. 4 1 2 4 0 \times 1. 0 \times 0. 6 8 9 9 0 \times 0. 6 3 6 2 6 \times 1. 7 3 9 3 2 \\ = 0.31486 \text{or} 31.486 \% \\ \end{array}
+\begin{array}{l} \text{Re tu rn on eq ui ty} = \left(\frac{\mathbb {S} 1 8 . 2 6 2}{\mathbb {S} 4 4 . 2 8 2}\right) \times \left(\frac{\mathbb {S} 1 8 . 2 6 2}{\mathbb {S} 1 8 . 2 6 2}\right) \times (1 - 0. 3 1 0 1 0) \times \left(\frac{\mathbb {S} 4 4 . 2 8 2}{\mathbb {S} 9 . 5 9 7}\right) \times \left(\frac{\mathbb {S} 6 9 . 5 9 7}{\mathbb {S} 4 0 . 0 1 4}\right) \\ = 0. 4 1 2 4 0 \times 1. 0 \times 0. 6 8 9 9 0 \times 0. 6 3 6 2 6 \times 1. 7 3 9 3 2 \\ = 0.31486 \text{or} 31.486 \% \\ \end{array}
 $$
 
 Comparing the components between the June 30, 2006 fiscal year and the June 30, 2005 fiscal year,
 
 $$
-\text {R e t u r n o n e q u i t y} = \left(\frac {\text {E a r n i n g s b e f o r e}}{\text {i n t e r s t a n d t a x e s}}\right) \times \left(\frac {\text {E a r n i n g s b e f o r e t a x e s}}{\text {E a r n i n g s b e f o r e}}\right) \times (1 - \text {T a x r a t e}) \times \left(\frac {\text {R e v e n u e s}}{\text {T o t a l a s s e t s}}\right) \times \left(\frac {\text {T o t a l a s s e t s}}{\text {S h a r e h o l d e r s} ^ {\prime} \text {e q u i t y}}\right)
+\text{Re tu rn on eq ui ty} = \left(\frac{\text{Ea rn in gs be fo re}}{\text{in te rs ta nd ta xe s}}\right) \times \left(\frac{\text{Ea rn in gs be fo re ta xe s}}{\text{Ea rn in gs be fo re}}\right) \times (1 - \text{Ta xr at e}) \times \left(\frac{\text{Re ve nu es}}{\text{To ta la ss et s}}\right) \times \left(\frac{\text{To ta la ss et s}}{\text{Sh ar eh ol de rs}^{\prime} \text{eq ui ty}}\right)
 $$
 
 $$
-\text{Return on equity June 30,} 2006 = 0.41240 \times 1.0 \times 0.68990 \times 0.63626 \times 1.73932 = 31.486 \%
+\text{ReturnonequityJune30,} 2006 = 0.41240 \times 1.0 \times 0.68990 \times 0.63626 \times 1.73932 = 31.486 \%
 $$
 
 $$
-\text{Return on equity June 30,} 2006 = 0.41791 \times 1.0 \times 0.73695 \times 0.56186 \times 1.47179 = 25.468 \%
+\text{ReturnonequityJune30,} 2006 = 0.41791 \times 1.0 \times 0.73695 \times 0.56186 \times 1.47179 = 25.468 \%
 $$
 
 Figure 1 The DuPont System Applied to Microsoft Corporation
@@ -296,7 +296,7 @@ We can estimate the operating cycle for Fictitious Corporation for the current y
 Average day's cost of goods sold
 
 $$
-\begin{array}{l} = \frac {\text {C o s t o f g o o d s s o l d}}{3 6 5 \text {d a y s}} \\ = \frac {\mathbb {S} 6 , 5 0 0 , 0 0 0}{3 6 5 \mathrm {d a y s}} \\ = \$ 17,808 \text {p e r d a y} \\ \end{array}
+\begin{array}{l} = \frac{\text{Co st of go od ss ol d}}{3 6 5 \text{da ys}} \\ = \frac{\mathbb {S} 6 , 5 0 0 , 0 0 0}{3 6 5 \mathrm{da ys}} \\ = \$ 17,808 \text{pe rd ay} \\ \end{array}
 $$
 
 In other words, Fictitious incurs, on average, a cost of producing goods sold of 17,808 per day.
@@ -310,7 +310,7 @@ We compute the days sales in inventory (DSI), also known as the number of days o
 Days sales in inventory
 
 $$
-\begin{array}{l} = \frac {\text {A m o u n t o f i n v e n t o r y o n h a n d}}{\text {A v e r a g e d a y ' s c o s t o f g o o d s s o l d}} \\ = \frac {\mathbb {S} 1 , 8 0 0 , 0 0 0}{\mathbb {S} 1 7 , 8 0 8 \text {p e r d a y}} = 1 0 1 \text {d a y s} \\ \end{array}
+\begin{array}{l} = \frac{\text{Am ou nt of in ve nt or yo nh an d}}{\text{Av er ag ed ay 's co st of go od ss ol d}} \\ = \frac{\mathbb {S} 1 , 8 0 0 , 0 0 0}{\mathbb {S} 1 7 , 8 0 8 \text{pe rd ay}} = 1 0 1 \text{da ys} \\ \end{array}
 $$
 
 In other words, Fictitious has approximately 101 days of goods on hand at the end of the current year. If sales continued at the same price, it would take Fictitious 101 days to run out of inventory.
@@ -325,15 +325,15 @@ We can extend the same logic for calculating the number of days between a sale�
 The average credit sales per day are:
 
 $$
-\begin{array}{l} \text {C r e d i t s a l e s p e r d a y} = \frac {\text {C r e d i t s a l e s}}{3 6 5 \text {d a y s}} \\ = \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{3 6 5 \text {d a y s}} \\ = \$ 27,397 \text {p e r d a y} \\ \end{array}
+\begin{array}{l} \text{Cr ed it sa le sp er da y} = \frac{\text{Cr ed it sa le s}}{3 6 5 \text{da ys}} \\ = \frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{3 6 5 \text{da ys}} \\ = \$ 27,397 \text{pe rd ay} \\ \end{array}
 $$
 
 Therefore, Fictitious generates \$27,397 of credit sales per day. With an ending balance of accounts receivable of \$600,000, the days sales outstanding (DSO), also known as the number of days of credit, in this ending balance is calculated by taking the ratio of the balance in the accounts receivable account to the credit sales per day:
 
-Days sales outstanding =  $\frac{\text{Accounts receivable}}{\text{Credit sales per day}}$
+Days sales outstanding =  $\frac{\text{Accountsreceivable}}{\text{Creditsalesperday}}$
 
 $$
-\begin{array}{l} = \frac {\mathbb {S} 6 0 0 , 0 0 0}{\mathbb {S} 2 7 , 3 9 7 \text {p e r d a y}} \\ = 2 2 \text {d a y s} \\ \end{array}
+\begin{array}{l} = \frac{\mathbb {S} 6 0 0 , 0 0 0}{\mathbb {S} 2 7 , 3 9 7 \text{pe rd ay}} \\ = 2 2 \text{da ys} \\ \end{array}
 $$
 
 If the ending balance of receivables at the end of the year is representative of the receivables on any day throughout the year, then it takes, on average, approximately 22 days to collect the accounts receivable. In other words, it takes 22 days for a sale to become cash.
@@ -341,7 +341,7 @@ If the ending balance of receivables at the end of the year is representative of
 Using what we have determined for the inventory cycle and cash cycle, we see that for Fictitious:
 
 $$
-\begin{array}{l} \text {O p e r a t i n g c y c l e} = \mathrm {D S I} + \mathrm {D S O} \\ = 1 0 1 \mathrm {d a y s} + 2 2 \mathrm {d a y s} \\ = 1 2 3 \mathrm {d a y s} \\ \end{array}
+\begin{array}{l} \text{Op er at in gc yc le} = \mathrm{DS I} + \mathrm{DS O} \\ = 1 0 1 \mathrm{da ys} + 2 2 \mathrm{da ys} \\ = 1 2 3 \mathrm{da ys} \\ \end{array}
 $$
 
 We also need to look at the liabilities on the balance sheet to see how long it takes a firm to pay its short-term obligations. We can apply the same logic to accounts payable as we did to accounts receivable and inventories. How long does it take a firm, on average, to go from creating a payable (buying on credit) to paying for it in cash?
@@ -349,19 +349,19 @@ We also need to look at the liabilities on the balance sheet to see how long it 
 First, we need to determine the amount of an average day's purchases on credit. If we assume all the Fictitious purchases are made on credit, then the total purchases for the year would be the cost of goods sold less any amounts included in cost of goods sold that are not purchases. For example, depreciation is included in the cost of goods sold yet is not a purchase. Since we do not have a breakdown on the company's cost of goods sold showing how much was paid for in cash and how much was on credit, let us assume for simplicity that purchases are equal to cost of goods sold less depreciation. The average day's purchases then become:
 
 $$
-\begin{array}{l} \text {A v e r a g e d a y ' s p u c p h a s e s} \\ = \frac {\text {C o s t o f g o o d s s o l d - D e p r e c i a t i o n}}{3 6 5 \text {d a y s}} \\ = \frac {\mathbb {S} 6 , 5 0 0 , 0 0 0 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{3 6 5 \text {d a y s}} \\ = \$ 15,068 \text {p e r d a y} \\ \end{array}
+\begin{array}{l} \text{Av er ag ed ay 's pu cp ha se s} \\ = \frac{\text{Co st of go od ss ol d -D ep re ci at io n}}{3 6 5 \text{da ys}} \\ = \frac{\mathbb {S} 6 , 5 0 0 , 0 0 0 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{3 6 5 \text{da ys}} \\ = \$ 15,068 \text{pe rd ay} \\ \end{array}
 $$
 
 The days payables outstanding (DPO), also known as the number of days of purchases, represented in the ending balance in accounts payable, is calculated as the ratio of the balance in the accounts payable account to the average day's purchases:
 
 $$
-\begin{array}{l} \text {D a y s p a y a b l e s o u t s t a n d i n g} \\ = \frac {\text {A c c o u n t s p a y a b l e}}{\text {A v e r a g e d a y ' s p u r c h a s e s}} \\ \end{array}
+\begin{array}{l} \text{Da ys pa ya bl es ou ts ta nd in g} \\ = \frac{\text{Ac co un ts pa ya bl e}}{\text{Av er ag ed ay 's pu rc ha se s}} \\ \end{array}
 $$
 
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {D a y s p a y a b l e s o u t s t a n d i n g} = \frac {\mathbb {S} 5 0 0 , 0 0 0}{\mathbb {S} 1 5 , 0 6 5 \text {p e r d a y}} \\ = 3 3 \mathrm {d a y s} \\ \end{array}
+\begin{array}{l} \text{Da ys pa ya bl es ou ts ta nd in g} = \frac{\mathbb {S} 5 0 0 , 0 0 0}{\mathbb {S} 1 5 , 0 6 5 \text{pe rd ay}} \\ = 3 3 \mathrm{da ys} \\ \end{array}
 $$
 
 This means that on average Fictitious takes 33 days to pay out cash for a purchase.
@@ -373,13 +373,13 @@ Cash conversion cycle  $=$  Operating cycle -DPO
 Or, substituting for the operating cycle,
 
 $$
-\mathrm {C C C} = \mathrm {D S I} + \mathrm {D S O} - \mathrm {D P O}
+\mathrm{CC C} = \mathrm{DS I} + \mathrm{DS O} - \mathrm{DP O}
 $$
 
 The cash conversion cycle for Fictitious in the current year is:
 
 $$
-C C C = 1 0 1 + 2 2 - 3 3 = 9 0 \mathrm {d a y s}
+C C C = 1 0 1 + 2 2 - 3 3 = 9 0 \mathrm{da ys}
 $$
 
 The CCC is how long it takes for the firm to get cash back from its investments in inventory and accounts receivable, considering that purchases may be made on credit. By not paying for purchases immediately (that is, using trade credit), the firm reduces its liquidity needs. Therefore, the longer the net operating cycle, the greater the required liquidity.
@@ -389,14 +389,14 @@ The CCC is how long it takes for the firm to get cash back from its investments 
 The analyst can describe a firm's ability to meet its current obligations in several ways. The current ratio indicates the firm's ability to meet or cover its current liabilities using its current assets:
 
 $$
-\text {C u r r e n t} = \frac {\text {C u r r e n t a s s e t s}}{\text {C u r r e n t l i a b i l i t i e s}}
+\text{Cu rr en t} = \frac{\text{Cu rr en ta ss et s}}{\text{Cu rr en tl ia bi li ti es}}
 $$
 
 For the Fictitious Corporation, the current ratio for the current year is the ratio of current assets, \$3 million, to current liabilities, the sum of accounts payable and other current liabilities, or \$1 million.
 
 
 $$
-\text {C u r r e n t} = \frac {\mathbb {S} 3 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} = 3. 0 \text {t i m e s}
+\text{Cu rr en t} = \frac{\mathbb {S} 3 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} = 3. 0 \text{ti me s}
 $$
 
 The current ratio of 3.0 indicates that Fictitious has three times as much as it needs to cover its current obligations during the year. However, the current ratio groups all current asset accounts together, assuming they are all as easily converted to cash. Even though, by definition, current assets can be transformed into cash within a year, not all current assets can be transformed into cash in a short period of time.
@@ -404,7 +404,7 @@ The current ratio of 3.0 indicates that Fictitious has three times as much as it
 An alternative to the current ratio is the quick ratio, also called the acid-test ratio, which uses a slightly different set of current accounts to cover the same current liabilities as in the current ratio. In the quick ratio, the least liquid of the current asset accounts, inventory, is excluded. Hence:
 
 $$
-\text {Q u i c k r a t i o} = \frac {\text {C u r r e n t a s s e t s - I n v e n t o r y}}{\text {C u r r e n t l i a b i l i t i e s}}
+\text{Qu ic kr at io} = \frac{\text{Cu rr en ta ss et s -I nv en to ry}}{\text{Cu rr en tl ia bi li ti es}}
 $$
 
 We typically leave out inventories in the quick ratio because inventories are generally perceived as the least liquid of the current assets. By leaving out the least liquid asset, the quick ratio provides a more conservative view of liquidity.
@@ -412,7 +412,7 @@ We typically leave out inventories in the quick ratio because inventories are ge
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {Q u i c k r a t i o} = \frac {\mathbb {S} 3 , 0 0 0 , 0 0 0 - \mathbb {S} 1 , 8 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} \\ = \frac {\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} = 1. 2 \mathrm {t i m e s} \\ \end{array}
+\begin{array}{l} \text{Qu ic kr at io} = \frac{\mathbb {S} 3 , 0 0 0 , 0 0 0 - \mathbb {S} 1 , 8 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} \\ = \frac{\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0} = 1. 2 \mathrm{ti me s} \\ \end{array}
 $$
 
 Still another way to measure the firm's ability to satisfy short-term obligations is the net working capital-to-sales ratio, which compares net working capital (current assets less current liabilities) with sales:
@@ -420,7 +420,7 @@ Still another way to measure the firm's ability to satisfy short-term obligation
 Net working capital-to-sales ratio
 
 $$
-= \frac {\text {N e t w o r k i n g c a p i t a l}}{\text {S a l e s}}
+= \frac{\text{Ne tw or ki ng ca pi ta l}}{\text{Sa le s}}
 $$
 
 This ratio tells us the "cushion" available to meet short-term obligations relative to sales. Consider two firms with identical working capital of \$100,000, but one has sales of \$500,000 and the other sales of 1 million. If they have identical operating cycles, this means that the firm with the greater sales has more funds flowing in and out of its current asset investments (inventories and receivables). The company with more funds flowing in and out needs a larger cushion to protect itself in case of a disruption in the cycle, such as a labor strike or unexpected delays in customer payments. The longer the operating cycle, the more of a cushion (net working capital) a firm needs for a given level of sales.
@@ -431,7 +431,7 @@ For Fictitious Corporation:
 Net working capital-to-sales-ratio
 
 $$
-= \frac {\mathbb {S} 3 , 000 , 000 - 1 , 000 , 000}{\mathbb {S} 10 , 000 , 000} = 0. 2 0 0 0 \text {or} 2 0
+= \frac{\mathbb {S} 3 , 000 , 000 - 1 , 000 , 000}{\mathbb {S} 10 , 000 , 000} = 0. 2 0 0 0 \text{or} 2 0
 $$
 
 The ratio of 0.20 tells us that for every dollar of sales, Fictitious has 20 cents of net working capital to support it.
@@ -480,7 +480,7 @@ For example, suppose the analyst wants to evaluate how well production facilitie
 Gross profit margin
 
 $$
-= \frac {\text {R e v e n u e s} - \text {C o s t o f g o o d s s o l d}}{\text {R e v e n u e s}}
+= \frac{\text{Re ve nu es} - \text{Co st of go od ss ol d}}{\text{Re ve nu es}}
 $$
 
 This ratio tells us the portion of each dollar of sales that remains after deducting production expenses. For Fictitious Corporation for the current year:
@@ -488,7 +488,7 @@ This ratio tells us the portion of each dollar of sales that remains after deduc
 Gross profit margin =  $\frac{\$10,000,000 - \$6,500,000}{\$10,000,000}$
 
 $$
-\begin{array}{l} = \frac {\mathbb {S} 3 , 5 0 0 , 0 0 0}{\mathbb {S} 1 0 , 0 0 0 , 0 0 0} \\ = 0.3500 \text {or} 35 \% \\ \end{array}
+\begin{array}{l} = \frac{\mathbb {S} 3 , 5 0 0 , 0 0 0}{\mathbb {S} 1 0 , 0 0 0 , 0 0 0} \\ = 0.3500 \text{or} 35 \% \\ \end{array}
 $$
 
 For each dollar of revenues, the firm's gross profit is 35 cents. Looking at sales and cost of goods sold, we can see that the gross profit margin is affected by:
@@ -504,7 +504,7 @@ To evaluate operating performance, we need to consider operating expenses in add
 Operating profit margin
 
 $$
-\begin{array}{l} = \frac {\text {R e v e n u e s} - \text {C o s t o f g o o d s s o l d} - \text {O p e r a t i n g e x p e s s e n s}}{\text {R e v e n u e s}} \\ = \frac {\text {R e v e n u e s e a r n i n g s b e f o r e i n t e r s t a n d t a x e s}}{\text {R e v e n u e s}} \\ \end{array}
+\begin{array}{l} = \frac{\text{Re ve nu es} - \text{Co st of go od ss ol d} - \text{Op er at in ge xp es se ns}}{\text{Re ve nu es}} \\ = \frac{\text{Re ve nu es ea rn in gs be fo re in te rs ta nd ta xe s}}{\text{Re ve nu es}} \\ \end{array}
 $$
 
 For Fictitious in the current year:
@@ -527,7 +527,7 @@ Most of these expenses are related in some way to revenues, though they are not 
 Both the gross profit margin and the operating profit margin reflect a company's operating performance. But they do not consider how these operations have been financed. To evaluate both operating and financing decisions, the analyst must compare net income (that is, earnings after deducting interest and taxes) with revenues. The result is the net profit margin:
 
 $$
-\text {N e t p r o f i t m a r g i n} = \frac {\text {N e t i n c o m e}}{\text {R e v e n u e s}}
+\text{Ne tp ro fi tm ar gi n} = \frac{\text{Ne ti nc om e}}{\text{Re ve nu es}}
 $$
 
 The net profit margin tells the analyst the net income generated from each dollar of revenues; it considers financing costs that the operating profit margin does not consider. For Fictitious for the current year:
@@ -568,14 +568,14 @@ Activity ratios—for the most part, turnover ratios—can be used to evaluate t
 The inventory turnover ratio indicates how quickly a firm has used inventory to generate the goods and services that are sold. The inventory turnover is the ratio of the cost of goods sold to inventory:
 
 
-Inventory turnover ratio  $= \frac{\text{Cost of goods sold}}{\text{Inventory}}$
+Inventory turnover ratio  $= \frac{\text{Costofgoodssold}}{\text{Inventory}}$
 
 For Fictitious for the current year:
 
-[ \text{Inventory turnover ratio} = \frac{\$6,500,000}{\$1,800,000} ]
+[ \text{Inventoryturnoverratio} = \frac{\$6,500,000}{\$1,800,000} ]
 
 $$
-= 3. 6 1 \text {t i m e s}
+= 3. 6 1 \text{ti me s}
 $$
 
 This ratio indicates that Fictitious turns over its inventory 3.61 times per year. On average, cash is invested in inventory, goods and services are produced, and these goods and services are sold 3.6 times a year. Looking back to the number of days of inventory, we see that this turnover measure is consistent with the results of that calculation: There are 101 calendar days of inventory on hand at the end of the year; dividing 365 days by 101 days, or 365/101 days, we find that inventory cycles through (from cash to sales) 3.61 times a year.
@@ -585,14 +585,14 @@ This ratio indicates that Fictitious turns over its inventory 3.61 times per yea
 In much the same way inventory turnover can be evaluated, an analyst can evaluate a firm's management of its accounts receivable and its credit policy. The accounts receivable turnover ratio is a measure of how effectively a firm is using credit extended to customers. The reason for extending credit is to increase sales. The downside to extending credit is the possibility of default—customers not paying when promised. The benefit obtained from extending credit is referred to as net credit sales—sales on credit less returns and refunds.
 
 $$
-\begin{array}{l} \text {A c c o u n t s} \\ = \frac {\text {N e t c r e d i t s a l e s}}{\text {A c c o u n t s r e c e i v a b l e}} \\ \end{array}
+\begin{array}{l} \text{Ac co un ts} \\ = \frac{\text{Ne tc re di ts al es}}{\text{Ac co un ts re ce iv ab le}} \\ \end{array}
 $$
 
 Looking at the Fictitious Corporation income statement, we see an entry for sales, but we do not know how much of the amount stated is on credit. In the case of evaluating a firm, an analyst would have an estimate of the amount of credit sales. Let us assume that the entire sales amount represents net credit sales. For Fictitious for the current year:
 
 
 $$
-\begin{array}{l} \text {A c c o u n t s} = \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 6 0 0 , 0 0 0} \\ = 1 6. 6 7 \text {t i m e s} \\ \end{array}
+\begin{array}{l} \text{Ac co un ts} = \frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 6 0 0 , 0 0 0} \\ = 1 6. 6 7 \text{ti me s} \\ \end{array}
 $$
 
 Therefore, almost 17 times in the year there is, on average, a cycle that begins with a sale on credit and finishes with the receipt of cash for that sale. In other words, there are 17 cycles of sales to credit to cash during the year.
@@ -606,13 +606,13 @@ The inventory and accounts receivable turnover ratios reflect the benefits obtai
 One way is with the total asset turnover ratio, which indicates how many times during the year the value of a firm's total assets is generated in revenues:
 
 $$
-\text {T o t a l a s s e t s t u r n o v e r} = \frac {\text {R e v e n u e s}}{\text {T o t a l a s s e t s}}
+\text{To ta la ss et st ur no ve r} = \frac{\text{Re ve nu es}}{\text{To ta la ss et s}}
 $$
 
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {T o t a l a s s e t s t u r n o v e r} = \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0. 9 1 \mathrm {t i m e s} \\ \end{array}
+\begin{array}{l} \text{To ta la ss et st ur no ve r} = \frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0. 9 1 \mathrm{ti me s} \\ \end{array}
 $$
 
 The turnover ratio of 0.91 indicated that in the current year, every dollar invested in total assets generates 91 cents of sales. Or, stated differently, the total assets of Fictitious turn over almost once during the year. Because total as sets include both tangible and intangible assets, this turnover indicates how efficiently all assets were used.
@@ -621,13 +621,13 @@ The turnover ratio of 0.91 indicated that in the current year, every dollar inve
 An alternative is to focus only on fixed assets, the long-term, tangible assets of the firm. The fixed-asset turnover is the ratio of revenues to fixed assets:
 
 $$
-\text {F i x e d a s s e t t u r n o v e r r a t i o} = \frac {\text {R e v e n u e s}}{\text {F i x e d a s s e t s}}
+\text{Fi xe da ss et tu rn ov er ra ti o} = \frac{\text{Re ve nu es}}{\text{Fi xe da ss et s}}
 $$
 
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {F i x e d a s s e t t u r n o v e r r a t i o} \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 7 , 0 0 0 , 0 0 0} \\ = 1. 4 3 \text {t i m e s} \\ \end{array}
+\begin{array}{l} \text{Fi xe da ss et tu rn ov er ra ti o} \frac{\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 7 , 0 0 0 , 0 0 0} \\ = 1. 4 3 \text{ti me s} \\ \end{array}
 $$
 
 Therefore, for every dollar of fixed assets, Fictitious is able to generate 1.43 of revenues.
@@ -637,23 +637,23 @@ Therefore, for every dollar of fixed assets, Fictitious is able to generate 1.43
 The activity ratios for Fictitious Corporation are:
 
 $$
-\text {I n v e n t o r y} = 3. 6 1 \text {t i m e s}
+\text{In ve nt or y} = 3. 6 1 \text{ti me s}
 $$
 
 $$
-\text {A c c o u n t s}
+\text{Ac co un ts}
 $$
 
 $$
-\text {r a t i o} \quad = 1 6. 6 7 \text {t i m e s}
+\text{ra ti o} \quad = 1 6. 6 7 \text{ti me s}
 $$
 
 $$
-\text {T o t a l a s s e t t u r n o v e r r a t i o} = 0. 9 1 \text {t i m e s}
+\text{To ta la ss et tu rn ov er ra ti o} = 0. 9 1 \text{ti me s}
 $$
 
 $$
-\text {F i x e d - a s s e t t u r n o v e r r a t i o} = 1. 4 3 \text {t i m e s}
+\text{Fi xe d -a ss et tu rn ov er ra ti o} = 1. 4 3 \text{ti me s}
 $$
 
 From these ratios the analyst can determine that:
@@ -678,13 +678,13 @@ Financial leverage ratios are used to assess how much financial risk the firm ha
 A ratio that indicates the proportion of assets financed with debt is the debt-to-assets ratio, which compares total liabilities (short-term + long-term debt) with total assets:
 
 $$
-\text {T o t a l d e b t - t o - a s s e t s r a t i o} = \frac {\text {D e b t}}{\text {T o t a l a s s e t s}}
+\text{To ta ld eb t -t o -a ss et sr at io} = \frac{\text{De bt}}{\text{To ta la ss et s}}
 $$
 
 For Fictitious in the current year:
 
 $$
-\begin{array}{l} \text {T o t a l d e b t - t o - a s s e t s r a t i o} = \frac {\mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.4546 \text {or} 45.46 \% \\ \end{array}
+\begin{array}{l} \text{To ta ld eb t -t o -a ss et sr at io} = \frac{\mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.4546 \text{or} 45.46 \% \\ \end{array}
 $$
 
 This ratio indicates that  $45\%$  of the firm's assets are financed with debt (both short term and long term).
@@ -693,13 +693,13 @@ Another way to look at the financial risk is in terms of the use of debt relativ
 
 
 $$
-\begin{array}{l} \text {D e b t - t o - e q u i t y r a t i o} \\ = \frac {\mathrm {D e b t}}{\mathrm {B o o k v a l u e o f s h a r e h o l d e r s ^ {\prime} e q u i t y}} \\ \end{array}
+\begin{array}{l} \text{De bt -t o -e qu it yr at io} \\ = \frac{\mathrm{De bt}}{\mathrm{Bo ok va lu eo fs ha re ho ld er s^{\prime} e q u i t y}} \\ \end{array}
 $$
 
 For Fictitious for the current year, using the book-value definition:
 
 $$
-\begin{array}{l} \text {D e b t - t o - e q u i t y r a t i o} = \frac {\mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 6 , 0 0 0 , 0 0 0} \\ = 0.8333 \text {or} 83.33 \% \\ \end{array}
+\begin{array}{l} \text{De bt -t o -e qu it yr at io} = \frac{\mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 6 , 0 0 0 , 0 0 0} \\ = 0.8333 \text{or} 83.33 \% \\ \end{array}
 $$
 
 For every 1 of book value of shareholders' equity, Fictitious uses 83 cents of debt.
@@ -733,13 +733,13 @@ One measure of a firm's ability to handle financial burdens is the interest cove
 
 
 $$
-\text {I n t e r s t c o v e r a g e r a t i o} = \frac {\text {E B I T}}{\text {I n t e r s t e x p e n s e}}
+\text{In te rs tc ov er ag er at io} = \frac{\text{EB IT}}{\text{In te rs te xp en se}}
 $$
 
 The greater the interest coverage ratio, the better able the firm is to pay its interest expense. For Fictitious for the current year:
 
 $$
-\text {I n t e r s t c o v e r a g e r a t i o} = \frac {\mathbb {S} 2 , 0 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} = 5 \text {t i m e s}
+\text{In te rs tc ov er ag er at io} = \frac{\mathbb {S} 2 , 0 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} = 5 \text{ti me s}
 $$
 
 An interest coverage ratio of 5 means that the firm's earnings before interest and taxes are five times greater than its interest payments.
@@ -749,13 +749,13 @@ The interest coverage ratio provides information about a firm's ability to cover
 What funds are available to pay debt and debt-like expenses? Start with EBIT and add back expenses that were deducted to arrive at EBIT. The ability of a firm to satisfy its fixed financial costs—its fixed charges—is referred to as the fixed-charge coverage ratio. One definition of the fixed-charge coverage considers only the lease payments:
 
 $$
-\begin{array}{l} \text {F i x e d - c h a r g e c o v e r a g e r a t i o} \\ = \frac {\text {E B I T} + \text {L e a s e} \text {e x p e n s e}}{\text {I n t e r e s t} + \text {L e a s e} \text {e x p e n s e}} \\ \end{array}
+\begin{array}{l} \text{Fi xe d -c ha rg ec ov er ag er at io} \\ = \frac{\text{EB IT} + \text{Le as e} \text{ex pe ns e}}{\text{In te re st} + \text{Le as e} \text{ex pe ns e}} \\ \end{array}
 $$
 
 For Fictitious for the current year:
 
 $$
-\begin{array}{l} \text {F i x e d - c h a r g e c o v e r a g e r a t i o} \\ = \frac {\mathbb {S} 2 , 0 0 0 , 0 0 0 + \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0 + \mathbb {S} 1 , 0 0 0 , 0 0 0} \\ = 2. 1 4 \text {t i m e s} \\ \end{array}
+\begin{array}{l} \text{Fi xe d -c ha rg ec ov er ag er at io} \\ = \frac{\mathbb {S} 2 , 0 0 0 , 0 0 0 + \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0 + \mathbb {S} 1 , 0 0 0 , 0 0 0} \\ = 2. 1 4 \text{ti me s} \\ \end{array}
 $$
 
 This ratio tells us that Fictitious's earnings can cover its fixed charges (interest and lease payments) more than two times over.
@@ -768,7 +768,7 @@ Up to now we considered earnings before interest and taxes as funds available to
 Cash flow interest coverage ratio
 
 $$
-= \frac {\text {C a s h f l o w f r o m o p e r a t i o n s} + \text {I n t e r e s t} + \text {T a x e s}}{\text {I n t e r e s t}}
+= \frac{\text{Ca sh fl ow fr om op er at io ns} + \text{In te re st} + \text{Ta xe s}}{\text{In te re st}}
 $$
 
 The amount of cash flow from operations that is in the statement of cash flows is net of interest and taxes. So we have to add back interest and taxes to cash flow from operations to arrive at the cash flow amount before interest and taxes in order to determine the cash flow available to cover interest payments.
@@ -778,7 +778,7 @@ For Fictitious for the current year:
 Cash flow interest coverage ratio
 
 $$
-\begin{array}{l} = \frac {\mathbb {S} 1 , 8 0 0 , 0 0 0 + \mathbb {S} 4 0 0 , 0 0 0 + \mathbb {S} 4 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} \\ = \frac {\mathbb {S} 2 , 6 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} = 6. 5 \text {t i m e s} \\ \end{array}
+\begin{array}{l} = \frac{\mathbb {S} 1 , 8 0 0 , 0 0 0 + \mathbb {S} 4 0 0 , 0 0 0 + \mathbb {S} 4 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} \\ = \frac{\mathbb {S} 2 , 6 0 0 , 0 0 0}{\mathbb {S} 4 0 0 , 0 0 0} = 6. 5 \text{ti me s} \\ \end{array}
 $$
 
 This coverage ratio indicates that, in terms of cash flows, Fictitious has 6.5 times more cash than is needed to pay its interest. This is a better picture of interest coverage than the five times reflected by EBIT. Why the difference? Because cash flow considers not just the accounting income, but noncash items as well. In the case of Fictitious, depreciation is a noncash charge that reduced EBIT but not cash flow from operations—it is added back to net income to arrive at cash flow from operations.

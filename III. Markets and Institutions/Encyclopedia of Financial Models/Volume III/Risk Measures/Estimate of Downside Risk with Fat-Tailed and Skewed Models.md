@@ -35,7 +35,7 @@ Lévy distributions are stable; that is, the sum of two independent random varia
 
 
 $$
-\begin{array}{l} \ln \varphi (q) = i \delta q - \gamma | q | ^ {\alpha} \left[ 1 - i \beta \frac {q}{| q |} \tan \left(\frac {\pi}{2} \alpha\right) \right] f o r \alpha \neq 1 \\ = i \delta q - \gamma | q | \left[ 1 - i \beta \frac {q}{| q |} \frac {2}{\pi} \ln | q | \right] f o r \alpha = 1 \\ \end{array}
+\begin{array}{l} \ln \varphi (q) = i \delta q - \gamma | q |^{\alpha} \left[ 1 - i \beta \frac{q}{| q |} \tan \left(\frac{\pi}{2} \alpha\right) \right] f o r \alpha \neq 1 \\ = i \delta q - \gamma | q | \left[ 1 - i \beta \frac{q}{| q |} \frac{2}{\pi} \ln | q | \right] f o r \alpha = 1 \\ \end{array}
 $$
 
 The probability density function is obtained by performing the inverse Fourier transform on the characteristic function. The four parameters associated with the Lévy stable distribution are:  $\alpha$  determines the tail weight or the distribution's kurtosis with  $0 < \alpha \leq 2$ ;  $\beta$  determines the distribution's skewness;  $\gamma$  is a scale parameter; and  $\delta$  is a location parameter. One can generate univariate stable distributed returns through a numerical software package, for example, written by John Nolan (2009). In his software, the function "stablernd()" takes four parameters,  $\alpha$ ,  $\beta$ ,  $\gamma$ , and  $\delta$ , and generates random returns that follow a Lévy stable distribution. For empirical analyses, these four parameters can be estimated by the software's function "stablefit().
@@ -69,7 +69,7 @@ P (x) = 0, \quad x <   - l;
 $$
 
 $$
-P (x) = P _ {L e v y} (x), \quad - l \leq x \leq l;
+P (x) = P_{L e v y} (x), \quad - l \leq x \leq l;
 $$
 
 $$
@@ -108,7 +108,7 @@ An attempt to address this drawback is to assume TLF innovations instead of Gaus
 The Student's  $t$ -distribution is well documented in the literature. Its probability density function is given by:
 
 $$
-P (x) = \frac {\Gamma \left(\frac {\nu + 1}{2}\right)}{\sqrt {\pi \nu} \Gamma \left(\frac {\nu}{2}\right)} \left(1 + \frac {x ^ {2}}{\nu}\right) ^ {- \frac {\nu + 1}{2}}
+P (x) = \frac{\Gamma \left(\frac{\nu + 1}{2}\right)}{\sqrt{\pi \nu} \Gamma \left(\frac{\nu}{2}\right)} \left(1 + \frac{x^{2}}{\nu}\right)^{- \frac{\nu + 1}{2}}
 $$ where  $\upsilon$  is the degrees of freedom. The Student's  $t$ -distribution coincides with the Cauchy distribution for  $\upsilon = 1$ , and approaches Gaussian for  $\upsilon \rightarrow \infty$ . Finite variance only exists for  $\upsilon > 2$ .
 
 
@@ -154,7 +154,7 @@ General autoregressive conditional heteroscedasticity (GARCH) models, first intr
 The return generating process is based on geometric Brownian motion but with the variance being a time-dependent GARCH(1,1) process, which is defined by the relation:
 
 $$
-\sigma_ {t} ^ {2} = \alpha_ {0} + \alpha_ {1} r _ {t - 1} ^ {2} + \beta_ {1} \sigma_ {t - 1} ^ {2}
+\sigma_{t}^{2} = \alpha_{0} + \alpha_{1} r_{t - 1}^{2} + \beta_{1} \sigma_{t - 1}^{2}
 $$ where  $\alpha_0, \alpha_1,$  and  $\beta_{1}$  are the control parameters of the GARCH(1,1) stochastic process.  $r_t$  is a random variable with zero mean and variance  $\sigma_t^2$ , and is characterized by a conditional probability density function  $f_{t}(x)$ , which is arbitrary but is often chosen to be Gaussian. In this entry, the innovation  $\sigma_t^2$  is assumed to be Gaussian. These three control parameters are estimated by the maximum likelihood method and shown in Table 5.
 
 

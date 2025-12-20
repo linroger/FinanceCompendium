@@ -87,7 +87,7 @@ Purchase \$250 million, say, of 20 year Treasury bonds,  $100\%$  financed at th
 Because the bonds were purchased with  $100\%$  financing, this position initially would involve no net cash outlay, and the net flow X to the Fund would be:
 
 $$
-\begin{array}{l} X = (6.77\% - \text {repo rate}) - (6.94\% - \text {libor}) \\ = (\text {libor} - \text {repo}) - (6.94 \% - 6.77 \%) \\ = (\text {l i b o r} - \text {r e p o}) - \text {S w a p s p r e a d} \\ = 2 0 - 1 7 \\ = 3 \text {b a s i e p o i n t s p e r a n n u m o n $ 2 5 0 m i l l o n , o r $ 7 5 K p e r a n n u m .} ^ {3} \\ \end{array}
+\begin{array}{l} X = (6.77\% - \text{reporate}) - (6.94\% - \text{libor}) \\ = (\text{libor} - \text{repo}) - (6.94 \% - 6.77 \%) \\ = (\text{li bo r} - \text{re po}) - \text{Sw ap sp re ad} \\ = 2 0 - 1 7 \\ = 3 \text{ba si ep oi nt sp er an nu mo n $2 50 mi ll on ,o r $7 5K pe ra nn um .}^{3} \\ \end{array}
 $$
 
 LTCM's assessment of this trade was the following: First, the trade represented nearly a "pure" arbitrage, in which the Fund would make a little money if it held the position to maturity. This was actually the worst-case outcome provided that the firm had the capital and the patience to maintain the position, and provided also that the Treasury bonds could be financed throughout at an average rate no worse than Libor - 20. (By itself, the 3 basis point net spread would be insufficient to warrant taking a position. Since the Fund would actually incur a  $1\%$  haircut on the financing of the Treasury bond, the spread represented only a  $3\%$  return on working capital.)

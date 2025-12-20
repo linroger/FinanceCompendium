@@ -453,7 +453,7 @@ households and firms engaged in international trade and investment. If these sig
 Studies Based on Interest Parity The uncovered interest parity (UIP) condition that was the basis of the discussion of exchange rate determination in Chapter 14 has also been used to study whether market exchange rates incorporate all available information. Recall that interest parity holds when the interest difference between deposits denominated in two different currencies is the market's forecast of the percentage by which the exchange rate between those currencies will change. More formally, if  $R_{t}$  is the date  $t$  interest rate on home currency deposits,  $R_{t}^{*}$  is the interest rate on foreign currency deposits,  $E_{t}$  is the exchange rate (defined as the home currency price of foreign currency), and  $E_{t+1}^{e}$  is the exchange rate that market participants expect when the deposits paying interest  $R_{t}$  and  $R_{t}^{*}$  mature, UIP states that:
 
 $$
-R _ {t} - R _ {t} ^ {*} = \left(E _ {t + 1} ^ {e} - E _ {t}\right) / E _ {t}. \tag {20-1}
+R_{t} - R_{t}^{*} = \left(E_{t + 1}^{e} - E_{t}\right) / E_{t}. \tag {20-1}
 $$
 
 Equation (20-1) implies a simple way to test whether the foreign exchange market is doing a good job of using current information to forecast exchange rates. Since the interest difference,  $R_{t} - R_{t}^{*}$ , is the market's forecast, a comparison of this predicted exchange rate change with the actual exchange rate change that subsequently occurs indicates the market's skill in forecasting.[27]
@@ -463,7 +463,7 @@ Statistical studies of the relationship between interest rate differences and la
 UIP also furnishes a test of a second implication of the hypothesis that the market uses all available information in setting exchange rates. Suppose that  $E_{t+1}$  is the actual future exchange rate people are trying to guess; then the forecast error they make in predicting future depreciation,  $u_{t+1}$ , can be expressed as actual minus expected depreciation:
 
 $$
-u _ {t + 1} = \left(E _ {t + 1} - E _ {t}\right) / E _ {t} - \left(E _ {t + 1} ^ {e} - E _ {t}\right) / E _ {t}. \tag {20-2}
+u_{t + 1} = \left(E_{t + 1} - E_{t}\right) / E_{t} - \left(E_{t + 1}^{e} - E_{t}\right) / E_{t}. \tag {20-2}
 $$
 
 If the market is making use of all available information, its forecast error,  $u_{t+1}$ , should be statistically unrelated to data known to the market on date  $t$ , when expectations formed. In other words, there should be no opportunity for the market to exploit known data to reduce its later forecast errors.
@@ -471,7 +471,7 @@ If the market is making use of all available information, its forecast error,  $
 Under UIP, we can test this hypothesis by writing  $u_{t+1}$  as actual currency depreciation less the international interest difference:
 
 $$
-u _ {t + 1} = \left(E _ {t + 1} - E _ {t}\right) / E _ {t} - \left(R _ {t} - R _ {t} ^ {*}\right). \tag {20-3}
+u_{t + 1} = \left(E_{t + 1} - E_{t}\right) / E_{t} - \left(R_{t} - R_{t}^{*}\right). \tag {20-3}
 $$
 
 Statistical methods can be used to examine whether  $u_{t+1}$  is predictable, on average, based on past information. A number of researchers have found that forecast errors, when defined as in equation (20-3), can be predicted. For example, past forecast errors, which are widely known, are useful in predicting future errors.[28]
@@ -479,7 +479,7 @@ Statistical methods can be used to examine whether  $u_{t+1}$  is predictable, o
 The Role of Risk Premiums One explanation of the research results we have described is that the foreign exchange market simply ignores easily available information in setting exchange rates. Such a finding would throw doubt on the international capital market's ability to communicate appropriate price signals. Before jumping to this conclusion, however, recall that when people are risk averse, the interest parity condition may not be a complete account of how exchange rates are determined. If, instead, bonds denominated in different currencies are imperfect substitutes for investors, the international interest rate difference equals expected currency depreciation plus a risk premium,  $\rho_t$ :
 
 $$
-R _ {t} - R _ {t} ^ {*} = \left(E _ {t + 1} ^ {e} - E _ {t}\right) / E _ {t} + \rho_ {t} \tag {20-4}
+R_{t} - R_{t}^{*} = \left(E_{t + 1}^{e} - E_{t}\right) / E_{t} + \rho_{t} \tag {20-4}
 $$
 
 (see Chapter 18). In this case, the interest difference is not necessarily the market's forecast of future depreciation. Thus, under imperfect asset substitutability, the empirical results just discussed cannot be used to draw inferences about the foreign exchange market's efficiency in processing information.

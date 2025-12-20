@@ -238,11 +238,11 @@ regs.style.format({'mean':'{:.2%}','alpha':'{:.2%}','beta':'{:.2f}'})
 
 The **Sharpe ratio** is the tradeoff of **mean excess return** against **volatility**.
 
-$$\text{Sharpe Ratio} \equiv \frac{\mux}{\sigx}$$
+$$\text{SharpeRatio} \equiv \frac{\mux}{\sigx}$$
 
 In some cases this measure is used for total returns, not excess:
 
-$$\text{Sharpe Ratio} \equiv \frac{\mu}{\sigma}$$
+$$\text{SharpeRatio} \equiv \frac{\mu}{\sigma}$$
 
 ## Treynor
 
@@ -250,7 +250,7 @@ The **Treynor ratio** is the tradeoff between **mean excess return** and **beta*
 
 This is mostly used with equities, where the beta is with regard to a broad equity benchmark, like SPY.
 
-$$\text{Treynor Ratio} \equiv \frac{\mux}{\beta}$$
+$$\text{TreynorRatio} \equiv \frac{\mux}{\beta}$$
 
 ## Information Ratio
 
@@ -265,7 +265,7 @@ as well as the **explained** portion, $\beta x$.
 
 The Information Ratio is thus the Sharpe ratio of the unexplained portion of the decomposition, $\alpha$ versus $\epsilon$.
 
-$$\text{Information Ratio} \equiv \frac{\alpha}{\sigma_\epsilon}$$
+$$\text{InformationRatio} \equiv \frac{\alpha}{\sigma_\epsilon}$$
 
 ```python
 keyX = 'SPY'

@@ -41,17 +41,17 @@ Gains and losses due to migration and FDI
 - Single labor pool:
 
 $$
-L _ {A} + L _ {M} = \overline {{L}}
+L_{A} + L_{M} = \overline {{L}}
 $$
 
 Wages in each sector:
 
 $$
-W = P _ {A} \cdot M P L _ {A}
+W = P_{A} \cdot M P L_{A}
 $$
 
 $$
-W = P _ {M} \cdot M P L _ {M}
+W = P_{M} \cdot M P L_{M}
 $$
 
 - Equilibrium occurs when  $W$  is the same in both sectors
@@ -88,7 +88,7 @@ $\circ$  Labor increase does not affect world relative prices
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/11fe0b74-1763-4c5e-aae4-ab9bd5885d53/5eae5627815e1c666acb7231900a3b6f8b625c5cb0deff6268f54930936adc8d.jpg)
 
-- Increased number of workers in New World lower  $M P L _ {L} ^ {N W}$  
+- Increased number of workers in New World lower  $M P L_{L}^{N W}$  
 - Decreased number of workers in Europe raise  $MPL_{L}^{EU}$
 
 # Shift in Production Possibilities Frontier
@@ -107,7 +107,7 @@ Capital remains fixed in each country
 - Shoe manufacturing labor intensive; computer manufacturing capital intensive
 
 $$
-\begin{array}{l} \frac {L _ {S}}{K _ {S}} > \frac {L _ {C}}{K _ {C}} e q u i v a l e n t l y, \frac {K _ {C}}{L _ {C}} > \frac {K _ {S}}{L _ {S}} \\ K _ {C} + K _ {S} = \overline {{K}} a n d L _ {C} + L _ {S} = \overline {{L}} \\ \end{array}
+\begin{array}{l} \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}} e q u i v a l e n t l y, \frac{K_{C}}{L_{C}} > \frac{K_{S}}{L_{S}} \\ K_{C} + K_{S} = \overline {{K}} a n d L_{C} + L_{S} = \overline {{L}} \\ \end{array}
 $$
 
 # Long-run Effects of Immigration – Pre-immigration

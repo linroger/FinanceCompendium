@@ -52,13 +52,13 @@ Let's continue with this example to see why the law of one price must hold when 
 The law of one price is a restatement, in terms of currencies, of a principle that was important in the trade theory portion of this book: When trade is open and costless, identical goods must trade at the same relative prices regardless of where they are sold. We remind you of that principle here because it provides one link between the domestic prices of goods and exchange rates. We can state the law of one price formally as follows: Let  $P_{\mathrm{US}}^i$  be the dollar price of good  $i$  when sold in the United States,  $P_{\mathrm{E}}^i$  the corresponding euro price in Europe. Then the law of one price implies that the dollar price of good  $i$  is the same wherever it is sold.
 
 $$
-P _ {\mathrm {U S}} ^ {i} = \left(E _ {\$ / \in}\right) \times \left(P _ {\mathrm {E}} ^ {i}\right).
+P_{\mathrm{US}}^{i} = \left(E_{\$ / \in}\right) \times \left(P_{\mathrm{E}}^{i}\right).
 $$
 
 Equivalently, the dollar/euro exchange rate is the ratio of good  $i$ 's U.S. and European money prices,
 
 $$
-E _ {\$ / \in} = P _ {\mathrm {U S}} ^ {i} / P _ {\mathrm {E}} ^ {i}.
+E_{\$ / \in} = P_{\mathrm{US}}^{i} / P_{\mathrm{E}}^{i}.
 $$
 
 # Purchasing Power Parity
@@ -70,7 +70,7 @@ The basic idea of PPP was put forth in the writings of 19th-century British econ
 To express the PPP theory in symbols, let  $P_{\mathrm{US}}$  be the dollar price of a reference commodity basket sold in the United States and  $P_{\mathrm{E}}$  the euro price of the same basket in Europe. (Assume for now that a single basket accurately measures money's purchasing power in both countries.) Then PPP predicts a dollar/euro exchange rate of
 
 $$
-E _ {\S / \in} = P _ {\mathrm {U S}} / P _ {\mathrm {E}}. \tag {16-1}
+E_{\S / \in} = P_{\mathrm{US}} / P_{\mathrm{E}}. \tag {16-1}
 $$
 
 If, for example, the reference commodity basket costs \$200 in the United States and €160 in Europe, PPP predicts a dollar/euro exchange rate of \$1.25 per euro (\$200 per basket/€160 per basket). If the U.S. price level were to triple (to \$600 per basket), so would the dollar price of a euro: PPP would imply an exchange rate of \$3.75 per euro (= \$600 per basket/€160 per basket).
@@ -78,7 +78,7 @@ If, for example, the reference commodity basket costs \$200 in the United States
 By rearranging equation (16-1) to read
 
 $$
-P _ {\mathrm {U S}} = \left(E _ {\S / \in}\right) \times \left(P _ {\mathrm {E}}\right),
+P_{\mathrm{US}} = \left(E_{\S / \in}\right) \times \left(P_{\mathrm{E}}\right),
 $$
 
 we get an alternative interpretation of PPP. The left side of this equation is the dollar price of the reference commodity basket in the United States; the right side is the dollar price of the reference basket when purchased in Europe (that is, its euro price multiplied by the dollar price of a euro). These two prices are the same if PPP holds. PPP thus asserts that all countries' price levels are equal when measured in terms of the same currency.
@@ -104,7 +104,7 @@ If the U.S. price level rises by 10 percent over a year while Europe's rises by 
 More formally, relative PPP between the United States and Europe would be written as
 
 $$
-\left(E _ {\$ / \in , t} - E _ {\$ / \in , t - 1}\right) / E _ {\$ / \in , t - 1} = \pi_ {\mathrm {U S}, t} - \pi_ {\mathrm {E}, t} \tag {16-2}
+\left(E_{\$ / \in , t} - E_{\$ / \in , t - 1}\right) / E_{\$ / \in , t - 1} = \pi_{\mathrm{US}, t} - \pi_{\mathrm{E}, t} \tag {16-2}
 $$
 
 where  $\pi_t$  denotes an inflation rate [that is,  $\pi_t = (P_t - P_{t-1}) / P_{t-1}$ , the percentage change in a price level between dates  $t$  and  $t-1$ ]. Unlike absolute PPP, relative PPP can be defined only with respect to the time interval over which price levels and the exchange rate change.
@@ -126,7 +126,7 @@ There is actually considerable controversy among macroeconomists about the sourc
 To develop the monetary approach's predictions for the dollar/euro exchange rate, we will assume that in the long run, the foreign exchange market sets the rate so that PPP holds [see equation (16-1)]:
 
 $$
-E _ {\$ / \in} = P _ {\mathrm {U S}} / P _ {\mathrm {E}}.
+E_{\$ / \in} = P_{\mathrm{US}} / P_{\mathrm{E}}.
 $$
 
 In other words, we assume the above equation would hold in a world where there are no market rigidities to prevent the exchange rate and other prices from adjusting immediately to levels consistent with full employment.
@@ -134,13 +134,13 @@ In other words, we assume the above equation would hold in a world where there a
 In Chapter 15, equation (15-5) showed how we can explain domestic price levels in terms of domestic money demands and supplies. In the United States,
 
 $$
-P _ {\mathrm {U S}} = M _ {\mathrm {U S}} ^ {s} / L \left(R _ {\mathrm {S}}, Y _ {\mathrm {U S}}\right), \tag {16-3}
+P_{\mathrm{US}} = M_{\mathrm{US}}^{s} / L \left(R_{\mathrm{S}}, Y_{\mathrm{US}}\right), \tag {16-3}
 $$
 
 while in Europe,
 
 $$
-P _ {\mathrm {E}} = M _ {\mathrm {E}} ^ {s} / L \left(R _ {\in}, Y _ {\mathrm {E}}\right). \tag {16-4}
+P_{\mathrm{E}} = M_{\mathrm{E}}^{s} / L \left(R_{\in}, Y_{\mathrm{E}}\right). \tag {16-4}
 $$
 
 As before, we have used the symbol  $M^s$  to stand for a country's money supply and  $L(R, Y)$  to stand for its aggregate real money demand, which decreases when the interest rate rises and increases when real output rises.2
@@ -172,7 +172,7 @@ The interest rate, however, is definitely not independent of the money supply gr
 As in Chapters 14 and 15, the condition of interest parity between dollar and euro assets is
 
 $$
-R _ {\$} = R _ {\Subset} + \left(E _ {\$ / \Subset} ^ {e} - E _ {\$ / \Subset}\right) / E _ {\$ / \Subset}.
+R_{\$} = R_{\Subset} + \left(E_{\$ / \Subset}^{e} - E_{\$ / \Subset}\right) / E_{\$ / \Subset}.
 $$
 
 [Recall equation (14-2) in the section on "Equilibrium in the Foreign Exchange Market."] Now let's ask how this parity condition, which must hold in the long run as well as in the short run, fits with the other parity condition we are assuming in our long-run model, purchasing power parity. According to relative PPP, the percentage change in the dollar/euro exchange rate over the next year, say, will equal the difference between the inflation rates of the United States and Europe over that year [see equation (16-2)]. Since people understand this relationship, however, it must also be true that they expect the percentage exchange rate change to equal the U.S.-Europe inflation difference. The interest parity condition written above now tells us the following: If people expect relative PPP to hold, the difference between the interest rates offered by dollar and euro deposits will equal the difference between the inflation rates expected, over the relevant horizon, in the United States and in Europe.
@@ -180,25 +180,25 @@ $$
 Some additional notation is helpful in deriving this result more formally. If  $P^e$  is the price level expected in a country for a year from today, the expected inflation rate in that country,  $\pi^e$ , is the expected percentage increase in the price level over the coming year:
 
 $$
-\pi^ {e} = (P ^ {e} - P) / P.
+\pi^{e} = (P^{e} - P) / P.
 $$
 
 If relative PPP holds, however, market participants will also expect relative PPP to hold, which means that we can replace the actual depreciation and inflation rates in equation (16-2) with the values the market expects to materialize:
 
 $$
-(E _ {\S / \in} ^ {e} - E _ {\S / \in}) / E _ {\S / \in} = \pi_ {\mathrm {U S}} ^ {e} - \pi_ {\mathrm {E}} ^ {e}.
+(E_{\S / \in}^{e} - E_{\S / \in}) / E_{\S / \in} = \pi_{\mathrm{US}}^{e} - \pi_{\mathrm{E}}^{e}.
 $$
 
 By combining this "expected" version of relative PPP with the interest parity condition
 
 $$
-R _ {\$} = R _ {\in} + (E _ {\$ / \in} ^ {e} - E _ {\$ / \in}) / E _ {\$ / \in}
+R_{\$} = R_{\in} + (E_{\$ / \in}^{e} - E_{\$ / \in}) / E_{\$ / \in}
 $$
 
 and rearranging, we arrive at a formula that expresses the international interest rate difference as the difference between expected national inflation rates:
 
 $$
-R _ {\S} - R _ {\in} = \pi_ {\mathrm {U S}} ^ {e} - \pi_ {\mathrm {E}} ^ {e}. \tag {16-5}
+R_{\S} - R_{\in} = \pi_{\mathrm{US}}^{e} - \pi_{\mathrm{E}}^{e}. \tag {16-5}
 $$
 
 If, as PPP predicts, currency depreciation is expected to offset the international inflation difference (so that the expected dollar depreciation rate is  $\pi_{\mathrm{US}}^e - \pi_{\mathrm{E}}^e$ ), the interest rate difference must equal the expected inflation difference.
@@ -429,13 +429,13 @@ No measure of the price level does this perfectly, but we must settle on some de
 Having described the reference commodity baskets used to measure price levels, we now formally define the real dollar/euro exchange rate, denoted  $q_{\mathbb{S} / \infty}$ , as the dollar price of the European basket relative to that of the American basket. We can express the real exchange rate as the dollar value of Europe's price level divided by the U.S. price level or, in symbols, as
 
 $$
-q _ {\mathbb {S} / \in} = \left(E _ {\mathbb {S} / \in} \times P _ {\mathrm {E}}\right) / P _ {\mathrm {U S}}. \tag {16-6}
+q_{\mathbb {S} / \in} = \left(E_{\mathbb {S} / \in} \times P_{\mathrm{E}}\right) / P_{\mathrm{US}}. \tag {16-6}
 $$
 
 A numerical example will clarify the concept of the real exchange rate. Imagine the European reference commodity basket costs €100 (so that P_E = €100 per European basket), the U.S. basket costs \$120 (so that P_US = \$120 per U.S. basket), and the nominal exchange rate is E$/€ = $1.20 per euro. The real dollar/euro exchange rate would then be
 
 $$
-\begin{array}{l} q _ {\$ / \in} = \frac {(\$ 1 . 2 0 \text {p e r e u r o}) \times (\€ 1 0 0 \text {p e r E u r o p e a n b a s k e t})}{(\$ 1 2 0 \text {p e r U . S . b a s k e t})} \\ = (\mathbb {S} 1 2 0 \text {p e r E u p e r o a n b a s k e t}) / (\mathbb {S} 1 2 0 \text {p e r U . S . b a s k e t}) \\ = 1 \mathrm {U . S . b a s k e t p e r E u r o p e a n b a s k e t}. \\ \end{array}
+\begin{array}{l} q_{\$ / \in} = \frac{(\$ 1 . 2 0 \text{pe re ur o}) \times (\€ 1 0 0 \text{pe rE ur op ea nb as ke t})}{(\$ 1 2 0 \text{pe rU .S .b as ke t})} \\ = (\mathbb {S} 1 2 0 \text{pe rE up er oa nb as ke t}) / (\mathbb {S} 1 2 0 \text{pe rU .S .b as ke t}) \\ = 1 \mathrm{U .S .b as ke tp er Eu ro pe an ba sk et}. \\ \end{array}
 $$
 
 A rise in the real dollar/euro exchange rate  $q_{\mathbb{S}/\in}$  (which we call a real depreciation of the dollar against the euro) can be thought of in several equivalent ways. Most obviously, (16-6) shows this change to be a fall in the purchasing power of a dollar within Europe's borders relative to its purchasing power within the United States. This change in relative purchasing power occurs because the dollar prices of European goods  $(E_{\mathbb{S}/\in} \times P_{\mathrm{E}})$  rise relative to those of U.S. goods  $(P_{\mathrm{US}})$ .
@@ -495,13 +495,13 @@ We now pull together what we have learned in this chapter and Chapter 15 to show
 Recall our definition of the real dollar/euro exchange rate as
 
 $$
-q _ {\S / \in} = (E _ {\S / \in} \times P _ {\mathrm {E}}) / P _ {\mathrm {U S}}.
+q_{\S / \in} = (E_{\S / \in} \times P_{\mathrm{E}}) / P_{\mathrm{US}}.
 $$
 
 [See equation (16-6).] If we now solve this equation for the nominal exchange rate, we get an equation that gives us the nominal dollar/euro exchange rate as the real dollar/ euro exchange rate times the U.S.-Europe price level ratio:
 
 $$
-E _ {\S / \in} = q _ {\S / \in} \times \left(P _ {\mathrm {U S}} / P _ {\mathrm {E}}\right). \tag {16-7}
+E_{\S / \in} = q_{\S / \in} \times \left(P_{\mathrm{US}} / P_{\mathrm{E}}\right). \tag {16-7}
 $$
 
 Formally speaking, the only difference between (16-7) and equation (16-1), on which we based our exposition of the monetary approach to the exchange rate, is that (16-7) accounts for possible deviations from PPP by adding the real exchange rate as an additional determinant of the nominal exchange rate. The equation implies that for a given real dollar/euro exchange rate, changes in money demand or supply in Europe or the United States affect the long-run nominal dollar/euro exchange rate as in the monetary approach. Changes in the long-run real exchange rate, however, also affect the long-run nominal exchange rate. The long-run theory of exchange rate determination implied by equation (16-7) thus includes the valid elements of the monetary approach, but in addition it corrects the monetary approach by allowing for nonmonetary factors that can cause sustained deviations from purchasing power parity.
@@ -533,7 +533,7 @@ In this section, we therefore extend our earlier discussion of the Fisher effect
 We begin by recalling that the change in  $q_{\mathbb{S}/\in}$ , the real dollar/euro exchange rate, is the deviation from relative PPP; that is, the change in  $q_{\mathbb{S}/\in}$  is the percentage change in the nominal dollar/euro exchange rate less the international difference in inflation rates between the United States and Europe. We thus arrive at the corresponding relationship among the expected change in the real exchange rate, the expected change in the nominal rate, and expected inflation:
 
 $$
-\left(q _ {\S / \in} ^ {e} - q _ {\S / \in}\right) / q _ {\S / \in} = \left[ \left(E _ {\S / \in} ^ {e} - E _ {\S / \in}\right) / E _ {\S / \in} \right] - \left(\pi_ {\mathrm {U S}} ^ {e} - \pi_ {\mathrm {E}} ^ {e}\right), \tag {16-8}
+\left(q_{\S / \in}^{e} - q_{\S / \in}\right) / q_{\S / \in} = \left[ \left(E_{\S / \in}^{e} - E_{\S / \in}\right) / E_{\S / \in} \right] - \left(\pi_{\mathrm{US}}^{e} - \pi_{\mathrm{E}}^{e}\right), \tag {16-8}
 $$
 
 where  $q_{\mathbb{S}/\in}^{e}$  (as per our usual notation) is the real exchange rate expected for a year from today.
@@ -541,13 +541,13 @@ where  $q_{\mathbb{S}/\in}^{e}$  (as per our usual notation) is the real exchang
 Now we return to the interest parity condition between dollar and euro deposits,
 
 $$
-R _ {\S} - R _ {\in} = (E _ {\S / \in} ^ {e} - E _ {\S / \in}) / E _ {\S / \in}.
+R_{\S} - R_{\in} = (E_{\S / \in}^{e} - E_{\S / \in}) / E_{\S / \in}.
 $$
 
 An easy rearrangement of (16-8) shows the expected rate of change in the nominal dollar/euro exchange rate is just the expected rate of change in the real dollar/euro exchange rate plus the U.S.-Europe expected inflation difference. Combining (16-8) with the above interest parity condition, we thus are led to the following breakdown of the international interest rate gap:
 
 $$
-R _ {\$} - R _ {\in} = \left[ \left(q _ {\$ / \in} ^ {e} - q _ {\$ / \in}\right) / q _ {\$ / \in} \right] + \left(\pi_ {\mathrm {U S}} ^ {e} - \pi_ {\mathrm {E}} ^ {e}\right). \tag {16-9}
+R_{\$} - R_{\in} = \left[ \left(q_{\$ / \in}^{e} - q_{\$ / \in}\right) / q_{\$ / \in} \right] + \left(\pi_{\mathrm{US}}^{e} - \pi_{\mathrm{E}}^{e}\right). \tag {16-9}
 $$
 
 Notice that when the market expects relative PPP to prevail,  $q_{\mathbb{S} / \in}^e = q_{\mathbb{S} / \in}$  and the first term on the right side of this equation drops out. In this special case, (16-9) reduces to the simpler (16-5), which we derived by assuming relative PPP.
@@ -565,7 +565,7 @@ We conclude this chapter by showing that when the nominal interest parity condit
 We define the expected real interest rate, denoted  $r^e$ , as the nominal interest rate,  $R$  less the expected inflation rate,  $\pi^e$ :
 
 $$
-r ^ {e} = R - \pi^ {e}.
+r^{e} = R - \pi^{e}.
 $$
 
 In other words, the expected real interest rate in a country is just the real rate of return a domestic resident expects to earn on a loan of his or her currency. The definition of the expected real interest rate clarifies the generality of the forces behind the Fisher effect: Any increase in the expected inflation rate that does not alter the expected real interest rate must be reflected, one for one, in the nominal interest rate.
@@ -573,13 +573,13 @@ In other words, the expected real interest rate in a country is just the real ra
 A useful consequence of the preceding definition is a formula for the difference in expected real interest rates between two currency areas such as the United States and Europe:
 
 $$
-r _ {\mathrm {U S}} ^ {e} - r _ {\mathrm {E}} ^ {e} = \left(R _ {\$} - \pi_ {\mathrm {U S}} ^ {e}\right) - \left(R _ {\in \epsilon} - \pi_ {\mathrm {E}} ^ {e}\right).
+r_{\mathrm{US}}^{e} - r_{\mathrm{E}}^{e} = \left(R_{\$} - \pi_{\mathrm{US}}^{e}\right) - \left(R_{\in \epsilon} - \pi_{\mathrm{E}}^{e}\right).
 $$
 
 If we rearrange equation (16-9) and combine it with the preceding equation, we get the desired real interest parity condition:
 
 $$
-r _ {\mathrm {U S}} ^ {e} - r _ {\mathrm {E}} ^ {e} = \left(q _ {\$ / \in} ^ {e} - q _ {\$ / \in}\right) / q _ {\$ / \in}. \tag {16-10}
+r_{\mathrm{US}}^{e} - r_{\mathrm{E}}^{e} = \left(q_{\$ / \in}^{e} - q_{\$ / \in}\right) / q_{\$ / \in}. \tag {16-10}
 $$
 
 Equation (16-10) looks much like the nominal interest parity condition from which it is derived, but it explains differences in expected real interest rates between the United States and Europe by expected movements in the dollar/euro real exchange rate.
@@ -701,7 +701,7 @@ As the diagram shows, the rise in the nominal dollar interest rate reduces money
 To see the exchange rate response, we turn to the lower-left quadrant. The monetary approach assumes purchasing power parity, implying that as  $P_{\mathrm{US}}$  rises (while the European price level remains constant, which we assume), the dollar/euro exchange rate  $E_{\mathbb{S} / \infty}$  must rise (a depreciation of the dollar). The lower-left quadrant of Figure 16A-1 graphs the implied relationship between U.S. real money holdings,  $M_{\mathrm{US}} / P_{\mathrm{US}}$ , and the nominal exchange rate,  $E_{\mathbb{S} / \infty}$ , given an unchanged nominal money supply in the United States and an unchanged European price level. Using PPP, we can write the equation graphed there (which is a downward-sloping hyperbola) as:
 
 $$
-E _ {\$ / \in} = P _ {\mathrm {U S}} / P _ {\mathrm {E}} = \frac {M _ {\mathrm {U S}} / P _ {\mathrm {E}}}{M _ {\mathrm {U S}} / P _ {\mathrm {U S}}}.
+E_{\$ / \in} = P_{\mathrm{US}} / P_{\mathrm{E}} = \frac{M_{\mathrm{US}} / P_{\mathrm{E}}}{M_{\mathrm{US}} / P_{\mathrm{US}}}.
 $$
 
 This equation shows that the fall in the U.S. real money supply, from  $M_{\mathrm{US}}^1 / P_{\mathrm{US}}^1$  to  $M_{\mathrm{US}}^1 / P_{\mathrm{US}}^2$ , is associated with a dollar depreciation in which the dollar/euro nominal exchange rate rises from  $E_{\mathbb{S} / \infty}^1$  to  $E_{\mathbb{S} / \infty}^2$  (shown as a movement to the left along the horizontal axis).

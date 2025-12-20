@@ -225,11 +225,11 @@ $$
 
 \begin{align*}
 
-\text { level }_{t} & =\frac{1}{10} \sum_{n=1}^{10} y_{n,             t} \\
+\text{ level }_{t} & =\frac{1}{10} \sum_{n=1}^{10} y_{n,             t} \\
 
-\text { slope }_{t} & =y_{10,             t}-y_{1,             t} \\
+\text{ slope }_{t} & =y_{10,             t}-y_{1,             t} \\
 
-\text { curvature }_{t} & =y_{5,             t}-\frac{y_{1,             t}+y_{10,             t}}{2} . \tag{7.10}
+\text{ curvature }_{t} & =y_{5,             t}-\frac{y_{1,             t}+y_{10,             t}}{2} . \tag{7.10}
 
 \end{align*}
 
@@ -241,7 +241,7 @@ $$
 
 \begin{equation*}
 
-\Delta y_{n,             t}=a+b_{n} \Delta \text { level }_{t}+c_{n} \Delta \text { slope }_{t}+d_{n} \Delta \text { curvature }_{t}+e_{t} \tag{7.11}
+\Delta y_{n,             t}=a+b_{n} \Delta \text{ level }_{t}+c_{n} \Delta \text{ slope }_{t}+d_{n} \Delta \text{ curvature }_{t}+e_{t} \tag{7.11}
 
 \end{equation*}
 
@@ -262,7 +262,7 @@ To model the risk of a bond,  or of a portfolio of bonds,  we would like to know
 
 $$
 
-r_{n,             t}=a+b_{n} \Delta \text { level }_{t}+c_{n} \Delta \text { slope }_{t}+d_{n} \Delta \text { curvature }_{t}+e_{t}
+r_{n,             t}=a+b_{n} \Delta \text{ level }_{t}+c_{n} \Delta \text{ slope }_{t}+d_{n} \Delta \text{ curvature }_{t}+e_{t}
 
 $$
 
@@ -738,7 +738,7 @@ $$
 
 \begin{equation*}
 
-\omega_{\text {bonds },             t}=0.40-\beta_{t},             \quad \omega_{\text {stocks },             t}=1-\omega_{\text {bonds },             t} . \tag{7.26}
+\omega_{\text{bonds },             t}=0.40-\beta_{t},             \quad \omega_{\text{stocks },             t}=1-\omega_{\text{bonds },             t} . \tag{7.26}
 
 \end{equation*}
 

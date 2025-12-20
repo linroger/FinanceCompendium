@@ -71,11 +71,11 @@ $\circ$  Slope at any point  $= -M P L_{A} / M P L_{M}$
 As with the Ricardian model:
 
 $$
-W = P _ {M} \times M P L _ {M} = P _ {A} \times M P L _ {A}, r e a r r a n g i n g,
+W = P_{M} \times M P L_{M} = P_{A} \times M P L_{A}, r e a r r a n g i n g,
 $$
 
 $$
-\frac {P _ {M}}{P _ {A}} = \frac {M P L _ {A}}{M P L _ {M}}
+\frac{P_{M}}{P_{A}} = \frac{M P L_{A}}{M P L_{M}}
 $$
 
 or the relative price of manufactured goods to agricultural goods equals the opportunity cost of producing another unit of agricultural goods versus manufactured goods
@@ -90,7 +90,7 @@ $\bigcirc$  Resources: labor, capital, land
 - Assume Home no-trade relative price of manufactures is lower than Foreign
 
 $$
-\frac {P _ {M}}{P _ {A}} <   \frac {P _ {M} ^ {*}}{P _ {A} ^ {*}}
+\frac{P_{M}}{P_{A}} <   \frac{P_{M}^{*}}{P_{A}^{*}}
 $$
 
 - Home's comparative advantage in manufacturing. Foreign's in agriculture
@@ -104,7 +104,7 @@ $$
 - Allow for international trade between Home and Foreign
 
 $$
-\frac {P _ {M}}{P _ {A}} <   \left(\frac {P _ {M}}{P _ {A}}\right) ^ {W} <   \frac {P _ {M} ^ {*}}{P _ {A} ^ {*}}
+\frac{P_{M}}{P_{A}} <   \left(\frac{P_{M}}{P_{A}}\right)^{W} <   \frac{P_{M}^{*}}{P_{A}^{*}}
 $$
 
 - When international trade opens, manufactures' prices will:
@@ -129,13 +129,13 @@ Home overall gains from trade
 # Home Labor Earnings
 
 $$
-\overline {{L}} = L _ {M} + L _ {A}
+\overline {{L}} = L_{M} + L_{A}
 $$
 
 Each industry hires until,
 
 $$
-W = P _ {M} \times M P L _ {M} a n d W = P _ {A} \times M P L _ {A},
+W = P_{M} \times M P L_{M} a n d W = P_{A} \times M P L_{A},
 $$
 
 labor market equilibrium occurs when labor is allocated at point  $A$  where the two labor demand curves meet.
@@ -153,7 +153,7 @@ One can think of the demand for manufacturing labor representing the limiting fa
 Consider the effect on real wages, the wage rate rises from  $W$  to  $W'$  reflecting the increase,  $\Delta P_M \times MPL_M$ , equilibrium now at  $B$
 
 $$
-\Delta W = W ^ {\prime} - W <   \Delta P _ {M} \times M P L _ {M}, W h y?
+\Delta W = W^{\prime} - W <   \Delta P_{M} \times M P L_{M}, W h y?
 $$
 
 # Increase in Price of Manufactures-- Home
@@ -163,11 +163,11 @@ $$
 # Increase in Price of Manufactures
 
 $$
-D i v i d i n g t h r o u g h b y W = P _ {M} \times M P L _ {M},
+D i v i d i n g t h r o u g h b y W = P_{M} \times M P L_{M},
 $$
 
 $$
-\begin{array}{l} o b t a i n \frac {\Delta W}{W} <   \frac {\Delta P _ {M} \times M P L _ {M}}{P _ {M} \times M P L _ {M}} = \frac {\Delta P _ {M}}{P _ {M}} \\ \frac {\Delta W}{W} i s t h e e l a s t i c i t y o f w a g e s \\ \end{array}
+\begin{array}{l} o b t a i n \frac{\Delta W}{W} <   \frac{\Delta P_{M} \times M P L_{M}}{P_{M} \times M P L_{M}} = \frac{\Delta P_{M}}{P_{M}} \\ \frac{\Delta W}{W} i s t h e e l a s t i c i t y o f w a g e s \\ \end{array}
 $$
 
 $\frac{\Delta P_M}{P_M}$  is the elasticity of the manufactured goods price.
@@ -175,7 +175,7 @@ $\frac{\Delta P_M}{P_M}$  is the elasticity of the manufactured goods price.
 Real wages have fallen in terms of manufactured goods. The price of agricultural goods is unchanged, so real wages have increased versus agricultural goods
 
 $$
-0 = \frac {\Delta P _ {A}}{P _ {A}} <   \frac {\Delta W}{W} <   \frac {\Delta P _ {M}}{P _ {M}}
+0 = \frac{\Delta P_{A}}{P_{A}} <   \frac{\Delta W}{W} <   \frac{\Delta P_{M}}{P_{M}}
 $$
 
 # Earnings of Capital and Land
@@ -185,7 +185,7 @@ Zero profit, perfectly competitive firms
 - Total payments to labor are:
 
 $$
-W \times L _ {A} + W \times L _ {M}
+W \times L_{A} + W \times L_{M}
 $$
 
 - Two methods to calculate earnings of capital and land:
@@ -199,13 +199,13 @@ $\circ$  Calculate labor payments and deduct from revenues, remainder represents
 - Calculate revenues and deduct payments to labor:
 
 $$
-\begin{array}{l} P a y m e n t s t o c a p i t a l o w n e r s = P _ {M} \times Q _ {M} - W \times L _ {M} \\ P a y m e n t s t o l a n d o w n e r s = P _ {A} \times Q _ {A} - W \times L _ {A} \\ \end{array}
+\begin{array}{l} P a y m e n t s t o c a p i t a l o w n e r s = P_{M} \times Q_{M} - W \times L_{M} \\ P a y m e n t s t o l a n d o w n e r s = P_{A} \times Q_{A} - W \times L_{A} \\ \end{array}
 $$
 
 - Returns on capital and land are:
 
 $$
-\begin{array}{l} R _ {K} = \frac {\text {P a y m e n t s t o c a p i t a l o w n e r s}}{K} = \frac {P _ {M} \times Q _ {M} - W \times L _ {M}}{K} \\ R _ {T} = \frac {\text {P a y m e n t s t o l a n d o w n e r s}}{T} = \frac {P _ {A} \times Q _ {A} - W \times L _ {A}}{T} \\ \end{array}
+\begin{array}{l} R_{K} = \frac{\text{Pa ym en ts to ca pi ta lo wn er s}}{K} = \frac{P_{M} \times Q_{M} - W \times L_{M}}{K} \\ R_{T} = \frac{\text{Pa ym en ts to la nd ow ne rs}}{T} = \frac{P_{A} \times Q_{A} - W \times L_{A}}{T} \\ \end{array}
 $$
 
 # Earnings of Capital and Land
@@ -213,7 +213,7 @@ $$
 - $R_{K}$  and  $R_{T}$  may be calculated based on marginal product of capital and land respectively
 
 $$
-R _ {K} = P _ {M} \times M P K _ {M}, R _ {T} = P _ {A} \times M P T _ {A}
+R_{K} = P_{M} \times M P K_{M}, R_{T} = P_{A} \times M P T_{A}
 $$
 
 - Either method may be used depending on available data  
@@ -237,7 +237,7 @@ $\circ$  Price increase increases quantity of labor used in manufacturing
 - To achieve labor market equilibrium:
 
 $$
-P _ {M} \uparrow \Rightarrow \left\{ \begin{array}{l} L _ {M} \uparrow , s o t h a t M P K _ {M} = \frac {R _ {K}}{P _ {M}} \uparrow \\ L _ {A} \downarrow , s o t h a t M P K _ {A} = \frac {R _ {T}}{P _ {A}} \downarrow \end{array} \right\}
+P_{M} \uparrow \Rightarrow \left\{ \begin{array}{l} L_{M} \uparrow , s o t h a t M P K_{M} = \frac{R_{K}}{P_{M}} \uparrow \\ L_{A} \downarrow , s o t h a t M P K_{A} = \frac{R_{T}}{P_{A}} \downarrow \end{array} \right\}
 $$
 
 - Real rental rate in terms manufactured goods increases – percentage increase in  $R_{K}$  exceeds percentage increase in  $P_{M}$ , allowing capital owners to purchase more manufactures  
@@ -309,15 +309,15 @@ $\mathrm{O}\left(20 \% \times 150 - 10 \% \times 50\right) / 100 = + 25 \%$
 - The following inequalities summarize the relationship among factors:
 
 $$
-F o r a n i n c r e a s e i n P _ {M}, \frac {\Delta R _ {T}}{R _ {T}} <   0 <   \frac {\Delta W}{W} <   \frac {\Delta P _ {M}}{P _ {M}} <   \frac {\Delta R _ {K}}{R _ {K}}
+F o r a n i n c r e a s e i n P_{M}, \frac{\Delta R_{T}}{R_{T}} <   0 <   \frac{\Delta W}{W} <   \frac{\Delta P_{M}}{P_{M}} <   \frac{\Delta R_{K}}{R_{K}}
 $$
 
 $$
-F o r a d e c r e a s e i n P _ {M}, \frac {\Delta R _ {K}}{R _ {K}} <   \frac {\Delta P _ {M}}{P _ {M}} <   \frac {\Delta W}{W} <   0 <   \frac {\Delta R _ {T}}{R _ {T}}
+F o r a d e c r e a s e i n P_{M}, \frac{\Delta R_{K}}{R_{K}} <   \frac{\Delta P_{M}}{P_{M}} <   \frac{\Delta W}{W} <   0 <   \frac{\Delta R_{T}}{R_{T}}
 $$
 
 $$
-F o r a n i n c r e a s e i n P _ {A}, \frac {\Delta R _ {K}}{R _ {K}} <   0 <   \frac {\Delta W}{W} <   \frac {\Delta P _ {A}}{P _ {A}} <   \frac {\Delta R _ {T}}{R _ {T}}
+F o r a n i n c r e a s e i n P_{A}, \frac{\Delta R_{K}}{R_{K}} <   0 <   \frac{\Delta W}{W} <   \frac{\Delta P_{A}}{P_{A}} <   \frac{\Delta R_{T}}{R_{T}}
 $$
 
 # Policy Application

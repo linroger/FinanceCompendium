@@ -102,7 +102,7 @@ Figure 2 Hypothetical Non-decreasing Function  $f$
 
 
 $$
-\omega_ {1} = 1 \quad \omega_ {2} = 2 \quad \omega_ {3} = 3 \quad \omega_ {4} = 4 \quad \omega_ {5} = 5 \quad \omega_ {6} = 6
+\omega_{1} = 1 \quad \omega_{2} = 2 \quad \omega_{3} = 3 \quad \omega_{4} = 4 \quad \omega_{5} = 5 \quad \omega_{6} = 6
 $$
 
 The set of all feasible outcomes is called space and is denoted by  $\Omega$ . In our example,  $\Omega = \{\omega_1, \omega_2, \omega_3, \omega_4, \omega_5, \omega_6\}$ .
@@ -199,23 +199,23 @@ There are certain peculiarities of  $P$  depending on whether  $\Omega$  is coun
 Suppose, first, that  $\Omega$  is countable. Then, we are able to assign the event  $\{\omega_i\}$  associated with an individual outcome,  $\omega_{i}$ , a nonnegative probability  $p_i = P(\{\omega_i\})$ , for all  $\omega_{i}\in \Omega$ . Moreover, the probability of any event  $E$  in the  $\sigma$ -algebra  $\mathbb{A}$  can be computed by adding the probabilities of all outcomes associated with  $E$ . That is,
 
 $$
-P (E) = \sum_ {\omega_ {i} \in E} p _ {i}
+P (E) = \sum_{\omega_{i} \in E} p_{i}
 $$
 
 In particular, we have
 
 $$
-P (\Omega) = \sum_ {\omega_ {i} \in \Omega} p _ {i} = 1
+P (\Omega) = \sum_{\omega_{i} \in \Omega} p_{i} = 1
 $$
 
 Let us resume the six-sided dice tossing experiment. The probability of each number of dots 1 through 6 is  $1/6$  or formally,
 
 $$
-P (\{\omega_ {1} \}) = P (\{\omega_ {2} \}) = \dots = P (\{\omega_ {6} \}) = 1 / 6
+P (\{\omega_{1} \}) = P (\{\omega_{2} \}) = \dots = P (\{\omega_{6} \}) = 1 / 6
 $$ or equivalently,
 
 
-$$ p _ {1} = p _ {2} = \dots = p _ {6} = 1 / 6
+$$ p_{1} = p_{2} = \dots = p_{6} = 1 / 6
 $$
 
 Suppose, instead, we have  $\Omega = \mathbb{R}$ . That is,  $\Omega$  is uncountable and our  $\sigma$ -algebra is given by the Borel  $\sigma$ -algebra,  $\mathbb{B}$ . To give the probability of the events  $E$  in  $\mathbb{B}$ , we need an additional device, given in the next definition.
@@ -237,7 +237,7 @@ So, in this case we have a function  $F$  uniquely related to  $P$  from which w
 To illustrate, the probability of the S&P 500 log return being at most  $1\%$ ,  $E = (-\infty, 0.01]$ , is given by  $F^{\mathrm{S&P}500}(0.01) = P((- \infty, 0.01])$ , while the probability of it being between  $-1\%$  and  $1\%$  is
 
 $$
-F ^ {\mathrm {S} \& \mathrm {P} 5 0 0} (0. 0 1) - F ^ {\mathrm {S} \& \mathrm {P} 5 0 0} (- 0. 0 1) = P ((- 0. 0 1, 0. 0 1 ])
+F^{\mathrm{S} \& \mathrm{P} 5 0 0} (0. 0 1) - F^{\mathrm{S} \& \mathrm{P} 5 0 0} (- 0. 0 1) = P ((- 0. 0 1, 0. 0 1 ])
 $$
 
 # RANDOM VARIABLE
@@ -256,7 +256,7 @@ So, we understand random variables as functions from some space into an image or
 Definition 7—Measurable function: Let  $(\Omega, \mathbb{A})$  and  $(\Omega', \mathbb{A}')$  be two measurable spaces. That is  $\Omega, \Omega'$  are spaces and  $\mathbb{A}, \mathbb{A}'$  their  $\sigma$ -algebrae, respectively. A function  $X: \Omega \to \Omega'$  is  $\mathbb{A}-\mathbb{A}'$ -measurable if, for any set  $E' \in \mathbb{A}'$ , we have
 
 $$
-X ^ {- 1} (E ^ {\prime}) \in \mathbb {A}
+X^{- 1} (E^{\prime}) \in \mathbb {A}
 $$
 
 In words, this means that a function from one space to another is measurable if the origin with respect to this function of each image in the  $\sigma$ -algebra of the state space can be traced in the  $\sigma$ -algebra of the domain space. Instead of  $A - A'$ -measurable, we will, henceforth, use simply measurable since, in our statements, it is clear which  $\sigma$ -algebrae are being referred to.
@@ -281,7 +281,7 @@ The random variable  $X$  is a function mapping the countable space  $\Omega$  i
 Let  $x$  be some outcome value of  $X$  in  $\Omega^{\prime}$ . Then, the corresponding outcomes from the domain space  $\Omega$  are determined by the set
 
 $$
-X ^ {- 1} (\{x \}) = \{\omega : X (\omega) = x \}
+X^{- 1} (\{x \}) = \{\omega : X (\omega) = x \}
 $$
 
 In words, we look for all outcomes  $\omega$  that are mapped to the outcome value  $x$ .
@@ -289,7 +289,7 @@ In words, we look for all outcomes  $\omega$  that are mapped to the outcome val
 For events, in general, we have the relationship
 
 $$
-X ^ {- 1} (E ^ {\prime}) = \{\omega : X (\omega) \in E ^ {\prime} \}
+X^{- 1} (E^{\prime}) = \{\omega : X (\omega) \in E^{\prime} \}
 $$ which is the set of all outcomes  $\omega$  in the domain space that are mapped by  $X$  to the event  $E^{\prime}$  in the state space. That leads us to the following definition:
 
 
@@ -297,7 +297,7 @@ Definition 8—Random variable on a countable space: Let  $(\Omega, \mathbb{A})$
 
 
 $$
-\begin{array}{l} P ^ {X} \left(E ^ {\prime}\right) = P \left(\left\{\omega : X (\omega) \in E ^ {\prime} \right\}\right) = P \left(X ^ {- 1} \left(E ^ {\prime}\right)\right) \\ = P \left(X \in E ^ {\prime}\right) \tag {2} \\ \end{array}
+\begin{array}{l} P^{X} \left(E^{\prime}\right) = P \left(\left\{\omega : X (\omega) \in E^{\prime} \right\}\right) = P \left(X^{- 1} \left(E^{\prime}\right)\right) \\ = P \left(X \in E^{\prime}\right) \tag {2} \\ \end{array}
 $$
 
 We can illustrate this with the following example from finance referred to as the "binomial stock price model." The random variable of interest will be the price of some stock. We will denote the price of the stock by  $S$ . Suppose at the beginning of period  $t$ , the price of the stock is  $\$20$  (i.e.,  $S_{t} = \$20$ ). At the beginning of the following period,  $t + 1$ , the stock price is either  $S_{t+1} = \$18$  or  $S_{t+1} = \$22$ . We model this in the following way.
@@ -311,12 +311,12 @@ Let:
 Now, we can determine the origin of the event that
 
 $$
-S _ {t + 1} = \$ 18 \text {b y} E _ {\text {d o w n}} = \{\omega : S (\omega) = \$ 1 8 \}
+S_{t + 1} = \$ 18 \text{by} E_{\text{do wn}} = \{\omega : S (\omega) = \$ 1 8 \}
 $$ and
 
 
 $$
-S _ {t + 1} = \mathbb {S} 2 2 \text {b y} E _ {\mathrm {u p}} = \{\omega : S (\omega) = \mathbb {S} 2 2 \}
+S_{t + 1} = \mathbb {S} 2 2 \text{by} E_{\mathrm{up}} = \{\omega : S (\omega) = \mathbb {S} 2 2 \}
 $$
 
 Thus, we have partitioned  $\Omega$  into the two events,  $E_{\mathrm{down}}$  and  $E_{\mathrm{up}}$ , related to the two period  $t + 1$  stock prices. With the probability measure  $P$  on  $\Omega$ , we have the probability space  $(\Omega, \mathbb{A}, P)$ . Consequently, due to equation (2), we are able to compute the probability  $P^{S}(\$18) = P(E_{\mathrm{down}})$  and  $P^{S}(\$22) = P(E_{\mathrm{up}})$ , respectively.
@@ -333,24 +333,24 @@ This brings us to the following definition:
 Definition 9—Random variable on a general possibly uncountable space: Let  $(\Omega, \mathbb{A})$  and  $(\Omega', \mathbb{A}')$  be two measurable spaces with, at least,  $\Omega$  uncountable. The map  $X \colon \Omega \to \Omega'$  is a random variable on the uncountable space  $(\Omega, \mathbb{A}, P)$  if it is measurable. That is, if, for any  $E' \in \mathbb{A}'$ , we have
 
 $$
-X ^ {- 1} (E ^ {\prime}) \in \mathbb {A}
+X^{- 1} (E^{\prime}) \in \mathbb {A}
 $$ induce probability from  $(\Omega, \mathbb{A}, P)$  on  $(\Omega', \mathbb{A}')$  by
 
 
 $$
-\begin{array}{l} P ^ {X} (E ^ {\prime}) = p (\{\omega : X (\omega) \in E ^ {\prime} \}) = P (X ^ {- 1} (E ^ {\prime})) \\ = P (X \in E ^ {\prime}) \\ \end{array}
+\begin{array}{l} P^{X} (E^{\prime}) = p (\{\omega : X (\omega) \in E^{\prime} \}) = P (X^{- 1} (E^{\prime})) \\ = P (X \in E^{\prime}) \\ \end{array}
 $$
 
 We call this the probability law or distribution of  $X$ . Typically, the probability of  $X \in E'$  is written using the following notation:
 
 $$
-P ^ {X} (E ^ {\prime}) = P (X \in E ^ {\prime})
+P^{X} (E^{\prime}) = P (X \in E^{\prime})
 $$
 
 Very often, we have the random variable  $X$  assume values that are real numbers (i.e.,  $\Omega' = \mathbb{R}$  and  $\mathbb{B}' = \mathbb{B}$ ). Then, the events in the state space are characterized by countable unions and intersections of the intervals  $(-\infty, a]$  corresponding to the events  $\{X \leq a\}$ , for real numbers  $a$ . In this case, we require that to be a random variable,  $X$  satisfies
 
 $$
-\{\omega : X (\omega) \leq a \} = X ^ {- 1} ((\infty , a ]) \in \mathbb {B}
+\{\omega : X (\omega) \leq a \} = X^{- 1} ((\infty , a ]) \in \mathbb {B}
 $$ for any real  $a$ .
 
 
@@ -366,12 +366,12 @@ Let  $(\Omega, \mathbb{A}, P)$  be the probability space with the stock price in
 Now, the probability of the call becoming worthless is determined by the event in the origin space that the stock price falls below  $K$ . Formally, that equals
 
 $$
-\begin{array}{l} P ^ {C _ {t + 1}} (0) = P \left(C _ {t + 1} \leq 0 \right\} = P \left(S _ {t + 1} \leq K \right\} \\ = P ((- \infty , K ]) \\ \end{array}
+\begin{array}{l} P^{C_{t + 1}} (0) = P \left(C_{t + 1} \leq 0 \right\} = P \left(S_{t + 1} \leq K \right\} \\ = P ((- \infty , K ]) \\ \end{array}
 $$ since the corresponding event in  $\mathbb{A}$  to a 0 value for the call option is  $(-\infty ,K]$ . Equivalently,  $C_{t + 1}^{-1}(\{0\}) = (-\infty ,K]$ . Any positive value  $c$  of  $C_{t + 1}$  is associated with zero probability since we have
 
 
 $$
-P ^ {C _ {t + 1}} (c) = P \left(C _ {t + 1} = c \right\} = P \left(S _ {t + 1} = c + K \right\} = 0
+P^{C_{t + 1}} (c) = P \left(C_{t + 1} = c \right\} = P \left(S_{t + 1} = c + K \right\} = 0
 $$ due to the relationship  $C_{t + 1} = S_{t + 1} - K$  for  $S_{t + 1} > K$ .
 
 
@@ -394,7 +394,7 @@ $$ due to the relationship  $C_{t + 1} = S_{t + 1} - K$  for  $S_{t + 1} > K$ .
 6. By convention, we never include  $\infty$  since it is not a real number.
 7. The symbol  $\mathbb{R}$  is just a mathematical abbreviation for the real numbers.
 8. The empty set is interpreted as the improbable event.
-9. We use the index in  $F^{\mathrm{S\& P500}}$  to emphasize that this distribution function is unique to the probability of events related to the S&P 500 log returns.
+9. We use the index in  $F^{\mathrm{S\&P500}}$  to emphasize that this distribution function is unique to the probability of events related to the S&P 500 log returns.
 10. Note that we do not define the outcomes of number of dots as nominal or even rank data anymore, but as numbers. That is 1 is 1, 2 is 2, and so on.
 
 

@@ -20,19 +20,19 @@ Abstract: Multifactor equity risk models are classified as statistical models, m
 Quantitative-oriented common stock portfolio managers typically employ a multifactor equity risk model in constructing and rebalancing a portfolio and then for evaluating performance. The most popular type of multifactor equity risk model used is a fundamental factor model. While some asset management firms develop their own model, most use commercially available models. In this entry we use one commer cially available model to illustrate the general features of fundamental models and how they are used to construct portfolios. In our illustration, we will use an old version of a model developed by Barra (now MSCI Barra). Although that model has been updated, the discussion and illustrations provide the essential points for appreciating the value of using multifactor equity models.
 
 $$
-R _ {f} = \text {r i s k - f r e e r a t e o f r e t u r n}
+R_{f} = \text{ri sk -f re er at eo fr et ur n}
 $$
 
 $$
-\beta_ {i, F j} = \text {s e n s i t i v i t y o f s t o c k} i \text {t o r i s k f a c t o r} j
+\beta_{i, F j} = \text{se ns it iv it yo fs to ck} i \text{to ri sk fa ct or} j
 $$
 
 $$
-R _ {F j} = \text {r a t e}
+R_{F j} = \text{ra te}
 $$
 
 $$
-\begin{array}{c} e _ {i} = \text {n o n f a c t o r (s p e c i f i c) r e t u r n o n s e c u r i t y} i \end{array}
+\begin{array}{c} e_{i} = \text{no nf ac to r (sp ec if ic)r et ur no ns ec ur it y} i \end{array}
 $$
 
 The above function is referred to as a return generating function.
@@ -48,7 +48,7 @@ Given the risk factors, information about the exposure of every stock to each ri
 Moving from individual stocks to portfolios, the predicted return for a portfolio can be computed. The exposure to a given risk factor of a portfolio is simply the weighted average of the exposure of each stock in the portfolio to that risk factor. For example, suppose a portfolio has 42 stocks. Suppose further that stocks 1 through 40 are equally weighted in the portfolio at  $2.2\%$ , stock 41 is  $5\%$  of the portfolio, and stock 42 is  $7\%$  of the portfolio. Then the exposure of the portfolio to risk factor  $j$  is
 
 $$
-\begin{array}{l} 0. 0 2 2 \beta_ {1, F j} + 0. 0 2 2 \beta_ {2, F j} + \dots + 0. 0 2 2 \beta_ {4 0, F j} \\ + 0. 0 5 0 \beta_ {4 1, F j} + 0. 0 7 \beta_ {4 2, F j} \\ \end{array}
+\begin{array}{l} 0. 0 2 2 \beta_{1, F j} + 0. 0 2 2 \beta_{2, F j} + \dots + 0. 0 2 2 \beta_{4 0, F j} \\ + 0. 0 5 0 \beta_{4 1, F j} + 0. 0 7 \beta_{4 2, F j} \\ \end{array}
 $$
 
 Table 1 Barra E3 Model Risk Definitions

@@ -47,11 +47,11 @@ $$
 
 Since  $z$  is a normally distributed Wiener process, we say the HL process is a normal process for the short rate. The solution to equation (2), assuming  $r(0) = r_0$  is given by
 
-$$ r (t) = r _ {0} + \int_ {0} ^ {t} \theta d s + \int_ {t} ^ {t} \sigma d z \tag {3a}
+$$ r (t) = r_{0} + \int_{0}^{t} \theta d s + \int_{t}^{t} \sigma d z \tag {3a}
 $$ where the integral involving  $\sigma$  is a stochastic integral. If  $\theta$  is constant this can be expressed as
 
 
-$$ r (t) = r _ {0} + \theta t + \int_ {0} ^ {t} \sigma d z \tag {3b}
+$$ r (t) = r_{0} + \theta t + \int_{0}^{t} \sigma d z \tag {3b}
 $$
 
 Equation (3b) shows that the HL process models an interest rate that can change proportionally with time  $t$  through the constant of proportionality,  $\theta$ , and a random disturbance determined by  $\sigma$ . That is, the larger  $\theta$  is in magnitude, the larger the average change in the short rate over time. This is why  $\theta$  is called the "drift in the short rate." Also, the smaller  $\theta$  is, the larger the influence of the random disturbance. The short rate can be negative in the HL process. This is a shortcoming of the model. Hull (2000) shows that  $\theta$  is related to the slope of the term structure.
@@ -59,25 +59,25 @@ Equation (3b) shows that the HL process models an interest rate that can change 
 
 To obtain a numerical approximation for equation (2) we approximate equation (2) by using equations (3a) and (3b). Letting  $t_k = k\tau$  and  $r_k \approx r(k\tau)$  gives
 
-$$ r _ {k + 1} - r _ {k} = \theta_ {k} \tau + \sigma_ {k} \Delta z _ {k}
+$$ r_{k + 1} - r_{k} = \theta_{k} \tau + \sigma_{k} \Delta z_{k}
 $$ or
 
 
-$$ r _ {k + 1} = r _ {k} + \theta_ {k} \tau + \sigma_ {k} \Delta z _ {k} \tag {4}
+$$ r_{k + 1} = r_{k} + \theta_{k} \tau + \sigma_{k} \Delta z_{k} \tag {4}
 $$ where  $\Delta z_{k}$  is a numerical (discrete) approximation to  $dz$ . Since  $dz = \varepsilon \sqrt{dt}$ , we can further approximate equation (4) by
 
 
-$$ r _ {k + 1} = r _ {k} + \theta_ {k} \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {5}
+$$ r_{k + 1} = r_{k} + \theta_{k} \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {5}
 $$ where  $\varepsilon_{k}$  is a random number given by a normal distribution  $N(0,1)$ . Equation (5) is the form of the expression that is used for  $r_{k + 1}$  to build the HL binomial tree.
 
 
 We first consider the solution to equation (5) without the stochastic term when  $\theta$  is constant. Equation (5) under these requirements is
 
-$$ r _ {k + 1} = r _ {k} + \tau \theta \tag {6a}
+$$ r_{k + 1} = r_{k} + \tau \theta \tag {6a}
 $$ and the solution is given by
 
 
-$$ r _ {k} = c + k \delta \tag {6b}
+$$ r_{k} = c + k \delta \tag {6b}
 $$ where  $c$  and  $\delta$  are constants. In particular,  $c = r_0$  and  $\delta = \theta \tau$ . It is seen from this last equation that the mean short rate in the HL process increases or decreases at a constant rate  $\theta$  over time depending on the sign of  $\theta$ . As a matter of fact, equation (6b) shows that the short rate grows without bound if  $\theta > 0$  and decreases without bound (i.e. becomes very negative) if  $\theta < 0$ .
 
 
@@ -96,17 +96,17 @@ $$ d r = (\theta - \phi r) d t \tag {8}
 $$ whose solution is given by
 
 
-$$ r (t) = \frac {\theta}{\phi} + c e ^ {- \phi t} \tag {9}
+$$ r (t) = \frac{\theta}{\phi} + c e^{- \phi t} \tag {9}
 $$ where
 
 
-$$ c = r _ {0} - \frac {\theta}{\phi} \tag {10}
+$$ c = r_{0} - \frac{\theta}{\phi} \tag {10}
 $$
 
 If  $\phi > 0$  we see from equation (9) that
 
 $$
-\lim _ {t \to \infty} r (t) = \frac {\theta}{\phi} = \mu
+\lim_{t \to \infty} r (t) = \frac{\theta}{\phi} = \mu
 $$
 
 Therefore, for positive mean reversion  $(\phi >0)$  the HW process will converge to the short rate,  $\mu$  .Due to this, the term  $\mu$  , is called the "target" or "long run mean rate." For negative mean reversion  $(\phi <  0)$  , the short rate grows exponentially over time.
@@ -130,30 +130,30 @@ $$ or
 
 
 $$
-\phi = \frac {\theta}{\mu} \tag {12}
+\phi = \frac{\theta}{\mu} \tag {12}
 $$
 
 It is seen from equations (11) and (12) that there is a strong relationship between the drift and mean reversion that can be used to reach any desired target rate. How large the mean reversion should be is an important financial question. Equations (11) and (12) can be used to set target rates. Equations (9) and (10) allow one to determine how long it takes to reach the target rate.
 
 Approximating equation (7) gives us
 
-$$ r _ {k + 1} = r _ {k} + \left(\theta_ {k} - \phi_ {k} r _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {13}
+$$ r_{k + 1} = r_{k} + \left(\theta_{k} - \phi_{k} r_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {13}
 $$
 
 If  $\theta$  and  $\phi$  are constant and we eliminate the stochastic term, then the solution to equation (13) has the form
 
-$$ r _ {k} = \alpha \beta^ {k} + \gamma
+$$ r_{k} = \alpha \beta^{k} + \gamma
 $$
 
 To determine  $\alpha, \beta,$  and  $\gamma$  we substitute this form for  $r_k$  into equation (13) under these conditions and obtain that  $\beta = (1 - \phi \tau), \gamma = \theta / \phi = \mu,$  and  $\alpha = r_0 - \mu$ . Therefore,
 
-$$ r _ {k} = \alpha (1 - \phi \tau) ^ {k} + \frac {\theta}{\phi} \tag {14}
+$$ r_{k} = \alpha (1 - \phi \tau)^{k} + \frac{\theta}{\phi} \tag {14}
 $$
 
 Note that if  $0 < \phi \tau < 2$  then  $-1 < 1 - \phi \tau < 1$  and
 
 $$
-\lim  _ {k \rightarrow \infty} r _ {k} = \frac {\theta}{\phi} = \mu
+\lim_{k \rightarrow \infty} r_{k} = \frac{\theta}{\phi} = \mu
 $$ which is the same result we obtained from equation (9) for the HW SDE. The condition  $0 < \phi \tau < 2$  is easily maintained in modeling the short rate.
 
 
@@ -184,27 +184,27 @@ $$
 From equation (3a) we have
 
 $$
-\ln r (t) = u = u (0) + \int_ {0} ^ {t} \theta (s) d s
+\ln r (t) = u = u (0) + \int_{0}^{t} \theta (s) d s
 $$ since  $u(0) = \ln r(0) = \ln r_0$
 
 
 $$
-\ln r (t) = \ln r (0) + \int_ {0} ^ {t} \theta (s) d s
+\ln r (t) = \ln r (0) + \int_{0}^{t} \theta (s) d s
 $$
 
 Taking the exponential of both sides gives us
 
-$$ r (t) = r _ {0} e ^ {\int_ {0} ^ {t} \theta (s) d s} \tag {16}
+$$ r (t) = r_{0} e^{\int_{0}^{t} \theta (s) d s} \tag {16}
 $$ showing that  $r(t) > 0$  since  $r(0) > 0$ . Therefore, if  $\theta (t) > 0$  the short rate in the KWF process can grow without bound and if  $\theta (t) < 0$  the short rate in the KWF process can decay to 0.
 
 
 From equation (5) for the HL process the discrete approximation to equation (15b) is
 
-$$ u _ {k + 1} = u _ {k} + \theta_ {k} \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {17a}
+$$ u_{k + 1} = u_{k} + \theta_{k} \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {17a}
 $$ and the exponential of this equation gives the discrete approximation to equation (15a):
 
 
-$$ r _ {k + 1} = r _ {k} e ^ {\theta_ {k} \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau}} \tag {17b}
+$$ r_{k + 1} = r_{k} e^{\theta_{k} \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau}} \tag {17b}
 $$
 
 From equation (17b) and equation (16) we see that the numerical approximation to equation (15a) has similar properties to the solution to the HL SDE. That is, if  $\theta(t) > 0$  the short rate can grow without bound and if  $\theta(t) < 0$  the short rate can decay to 0.
@@ -224,24 +224,24 @@ $$ which is the HW process for  $u$ . Again, note that  $u$  has all the same pr
 
 From equation (9) we have
 
-$$ u (t) = \frac {\theta}{\phi} + c e ^ {- \phi t}
+$$ u (t) = \frac{\theta}{\phi} + c e^{- \phi t}
 $$ and after taking exponentials
 
 
-$$ r (t) = e ^ {u (t)} = e ^ {\frac {\theta}{\phi} + c e ^ {- \phi t}} \tag {19}
+$$ r (t) = e^{u (t)} = e^{\frac{\theta}{\phi} + c e^{- \phi t}} \tag {19}
 $$
 
 For  $\phi < 0$  we see that  $r$  grows without bound and that for  $\phi > 0$
 
 $$
-\lim _ {t \to \infty} r (t) = e ^ {\frac {\theta}{\phi}} = \mu
+\lim_{t \to \infty} r (t) = e^{\frac{\theta}{\phi}} = \mu
 $$
 
 The target rate for the BK process is the exponential of the target rate for the HW process.
 
 As in the HW process, from equation (19) (or equations (9) and (10)) we see that
 
-$$ c = \ln r _ {0} - \frac {\theta}{\phi} \tag {20}
+$$ c = \ln r_{0} - \frac{\theta}{\phi} \tag {20}
 $$ in the BK process. The closer the initial rate is to the target rate, the faster the BK process converges to the target rate. From equations (19) and (20) we see that if the initial short rate is the target rate, then  $r(t) = \mu$  for all  $t$  in the BK process, which is analogous to the HW process.
 
 
@@ -253,27 +253,27 @@ $$ and
 
 
 $$
-\phi = \frac {\theta}{\ln \mu} \tag {22}
+\phi = \frac{\theta}{\ln \mu} \tag {22}
 $$
 
 We discretize  $u = \ln r$  in equation (18b) just as we did for the HW SDEs and then let  $r = e^u$ . This is analogous to how we used the HL discrete process to get the KWF discrete process. The equations corresponding to equation (13) are
 
-$$ u _ {k + 1} = u _ {k} + \left(\theta_ {k} - \phi_ {k} u _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {23a}
+$$ u_{k + 1} = u_{k} + \left(\theta_{k} - \phi_{k} u_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {23a}
 $$ or after taking the exponential of both sides of equation (23a)
 
 
-$$ r _ {k + 1} = r _ {k} e ^ {\left(\theta_ {k} - \varphi_ {k} \ln r _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau}} \tag {23b}
+$$ r_{k + 1} = r_{k} e^{\left(\theta_{k} - \varphi_{k} \ln r_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau}} \tag {23b}
 $$
 
 For constant  $\theta$  and  $\phi$  (similarly to equation (14)), the solution to equation (23b) after eliminating the stochastic term is
 
-$$ r _ {k} = e ^ {\alpha (1 - \phi r) ^ {k} + \frac {\theta}{\phi}} \tag {24}
+$$ r_{k} = e^{\alpha (1 - \phi r)^{k} + \frac{\theta}{\phi}} \tag {24}
 $$
 
 Note from equation (24) that
 
 $$
-\lim _ {k \to \infty} r _ {k} = e ^ {\frac {\theta}{\phi}} = \mu
+\lim_{k \to \infty} r_{k} = e^{\frac{\theta}{\phi}} = \mu
 $$ for  $0 < \phi \tau < 2$ . This is similar to the result we obtained from equation (14) for the HW SDEs.
 
 
@@ -290,90 +290,90 @@ $$
 
 However, in the BDT model  $\rho (t) = \frac{d}{dt}\ln \sigma (t) = \frac{\sigma'(t)}{\sigma(t)}$  giving us
 
-$$ d \ln r = \left(\theta (t) + \frac {\sigma^ {\prime} (t)}{\sigma (t)} \ln r\right) d t + \sigma (t) d z \quad (2 5 a)
+$$ d \ln r = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} \ln r\right) d t + \sigma (t) d z \quad (2 5 a)
 $$
 
 Making the substitution  $u = \ln r$  leads to
 
-$$ d u = \left(\theta (t) + \frac {\sigma^ {\prime} (t)}{\sigma (t)} u\right) d t + \sigma (t) d z \tag {25b}
+$$ d u = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} u\right) d t + \sigma (t) d z \tag {25b}
 $$
 
 Notice the similarity in equations (25) and the equations (18) of the BK model. We expect
 
 $$
-\frac {\sigma^ {\prime} (t)}{\sigma (t)}
+\frac{\sigma^{\prime} (t)}{\sigma (t)}
 $$ to behave similarly to  $-\phi (t)$  in the BK model. This expression should give mean reversion in the short rate when it is negative. That is, we expect that if  $\sigma^{\prime}(t) < 0$  (implying  $\sigma (t)$  is decreasing) then the BDT model will give mean reversion. On the other hand, when  $\sigma^{\prime}(t) > 0$  (implying  $\sigma (t)$  is increasing) the short rates in the BDT model will grow with no mean reversion. If  $\sigma (t)$  is constant in the BDT model, then  $\sigma^{\prime}(t) = 0$  so  $\rho = 0$  and equation (25a) becomes the KWF model (equation (15)). Therefore, we will only study the case of varying local volatility for the BDT model.
 
 
 Eliminating the stochastic term in equation (25) leads to
 
 $$
-\begin{array}{l} d \ln r = d u = \left(\theta (t) + \frac {\sigma^ {\prime} (t)}{\sigma (t)} u\right) d t \\ = \left(\theta (t) + \frac {\sigma^ {\prime} (t)}{\sigma (t)} \ln r\right) d t \tag {26} \\ \end{array}
+\begin{array}{l} d \ln r = d u = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} u\right) d t \\ = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} \ln r\right) d t \tag {26} \\ \end{array}
 $$
 
 Solving this equation for  $u$ , as we did in the KF and BK models, gives us
 
-$$ u (t) = \left[ \frac {u (0)}{\sigma (0)} + \int_ {0} ^ {t} \frac {\theta (s)}{\sigma (s)} d s \right] \sigma (t)
+$$ u (t) = \left[ \frac{u (0)}{\sigma (0)} + \int_{0}^{t} \frac{\theta (s)}{\sigma (s)} d s \right] \sigma (t)
 $$ or
 
 
-$$ r (t) = e ^ {\left(\frac {\log (r _ {0})}{\sigma_ {0}} + \int_ {0} ^ {t} \frac {\theta (s)}{\sigma (s)} d s\right) \sigma (t)} = e ^ {\frac {\sigma (t) \log (r _ {0})}{\sigma_ {0}}} e ^ {\sigma (t) \int_ {0} ^ {t} \frac {\theta (s)}{\sigma (s)} d s}
+$$ r (t) = e^{\left(\frac{\log (r_{0})}{\sigma_{0}} + \int_{0}^{t} \frac{\theta (s)}{\sigma (s)} d s\right) \sigma (t)} = e^{\frac{\sigma (t) \log (r_{0})}{\sigma_{0}}} e^{\sigma (t) \int_{0}^{t} \frac{\theta (s)}{\sigma (s)} d s}
 $$ or
 
 
-$$ r (t) = r _ {0} e ^ {\frac {\sigma (t) - \sigma_ {0} \log (r _ {0})}{\sigma_ {0}}} e ^ {\sigma (t) \int_ {0} ^ {t} \frac {\theta (s)}{\sigma (s)} d s} \tag {27}
+$$ r (t) = r_{0} e^{\frac{\sigma (t) - \sigma_{0} \log (r_{0})}{\sigma_{0}}} e^{\sigma (t) \int_{0}^{t} \frac{\theta (s)}{\sigma (s)} d s} \tag {27}
 $$
 
 Note that the BDT mean short rate depends on the local volatility. If the local volatility has a decreasing structure, then the first exponential term in equation (27) has a negative exponent and will cause a decrease in the short rate and vice versa if the local volatility has an increasing structure. It is important to note that mean reversion in the BDT model comes from the local volatility structure (i.e., it is endogenous).
 
 We now consider numerical solutions to the BDT process. To discretize equation (25a) for the BDT model we start off again by approximating  $du$  in equation (25b) by  $u$  to get
 
-$$ u _ {k + 1} = u _ {k} + \left(\theta_ {k} + \rho_ {k} u _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {28}
+$$ u_{k + 1} = u_{k} + \left(\theta_{k} + \rho_{k} u_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {28}
 $$
 
 The exponential of equation (28) gives us
 
-$$ r _ {k + 1} = r _ {k} e ^ {\left[ \left(\theta_ {k} + \rho_ {k} \ln r _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \right]} \tag {29}
+$$ r_{k + 1} = r_{k} e^{\left[ \left(\theta_{k} + \rho_{k} \ln r_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \right]} \tag {29}
 $$ where
 
 
 $$
-\rho_ {k} = \frac {\sigma_ {k} ^ {\prime}}{\sigma_ {k}}
+\rho_{k} = \frac{\sigma_{k}^{\prime}}{\sigma_{k}}
 $$
 
 We approximate this term by
 
 $$
-\begin{array}{c} \underline {{\sigma_ {k + 1} - \sigma_ {k}}} \\ \hline \tau \\ \hline \sigma_ {k} \end{array}
+\begin{array}{c} \underline {{\sigma_{k + 1} - \sigma_{k}}} \\ \hline \tau \\ \hline \sigma_{k} \end{array}
 $$
 
 That is, we approximate  $\sigma_k^\prime$  by a discrete approximation to the derivative. We now have
 
-$$ u _ {k + 1} = u _ {k} + \left(\theta_ {k} + \frac {\frac {\sigma_ {k + 1} - \sigma_ {k}}{\tau}}{\sigma_ {k}} u _ {k}\right) \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau}
+$$ u_{k + 1} = u_{k} + \left(\theta_{k} + \frac{\frac{\sigma_{k + 1} - \sigma_{k}}{\tau}}{\sigma_{k}} u_{k}\right) \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau}
 $$ or
 
 
-$$ u _ {k + 1} = \frac {\sigma_ {k + 1}}{\sigma_ {k}} u _ {k} + \theta_ {k} \tau + \sigma_ {k} \varepsilon_ {k} \sqrt {\tau} \tag {30}
+$$ u_{k + 1} = \frac{\sigma_{k + 1}}{\sigma_{k}} u_{k} + \theta_{k} \tau + \sigma_{k} \varepsilon_{k} \sqrt{\tau} \tag {30}
 $$
 
 If the random term is 0 equation (30) becomes
 
-$$ u _ {k + 1} = \frac {\sigma_ {k + 1}}{\sigma_ {k}} u _ {k} + \theta_ {k} \tau \tag {31}
+$$ u_{k + 1} = \frac{\sigma_{k + 1}}{\sigma_{k}} u_{k} + \theta_{k} \tau \tag {31}
 $$
 
 In particular, if
 
 $$
-\frac {\sigma_ {k + 1}}{\sigma_ {k}} = \alpha
+\frac{\sigma_{k + 1}}{\sigma_{k}} = \alpha
 $$ where  $\alpha$  is a constant then
 
 
-$$ u _ {k} = \alpha^ {k} u _ {0} + \sum_ {j = 0} ^ {k - 1} \alpha^ {j} \theta_ {k - j - 1} \tau
+$$ u_{k} = \alpha^{k} u_{0} + \sum_{j = 0}^{k - 1} \alpha^{j} \theta_{k - j - 1} \tau
 $$
 
 The exponential of this gives
 
-$$ r _ {k} = r _ {0} e ^ {(\alpha^ {k} - 1) \ln r _ {0}} e ^ {\sum_ {j = 0} ^ {k - 1} \alpha^ {j} \theta_ {k - j - 1} \tau}
+$$ r_{k} = r_{0} e^{(\alpha^{k} - 1) \ln r_{0}} e^{\sum_{j = 0}^{k - 1} \alpha^{j} \theta_{k - j - 1} \tau}
 $$
 
 This equation is interesting because  $\ln r_0 < 0$ . If  $\alpha > 1$  then the first exponential term decreases. When  $\theta < 0$  the second exponential term also decreases and the BDT short rate should approach a target rate. Conversely, when  $\theta > 0$  the second exponential term increases. In this case we can approach a target rate or the second term can dominate. If  $\alpha < 1$  then a similar situation arises. Therefore, in order to get meaningful numerical results for the BDT short rates we strongly recommend that  $\alpha$  be close to 1 and that the term structure of spot rates not have too large a slope.
@@ -404,29 +404,29 @@ Figure 1 represents a binomial short rate lattice and Figure 2 represents a trin
 Since the HW model is a more general version of the HL model we present the binomial version only for the HW. In the HW binomial lattice the expressions for  $r_{j,k}$  that correspond to equation (13) are
 
 
-$$ r _ {j, k + 1} = r _ {j, k} + \theta_ {k} \tau_ {k} - \phi_ {k} r _ {j, k} \tau_ {k} + \sigma_ {k} \sqrt {\tau} _ {k} \tag {32}
+$$ r_{j, k + 1} = r_{j, k} + \theta_{k} \tau_{k} - \phi_{k} r_{j, k} \tau_{k} + \sigma_{k} \sqrt{\tau}_{k} \tag {32}
 $$ for an up move and
 
 
-$$ r _ {j + 1, k + 1} = r _ {j, k} + \theta_ {k} \tau_ {k} - \phi_ {k} r _ {j, k} \tau_ {k} - \sigma_ {k} \sqrt {\tau_ {k}} \tag {33}
+$$ r_{j + 1, k + 1} = r_{j, k} + \theta_{k} \tau_{k} - \phi_{k} r_{j, k} \tau_{k} - \sigma_{k} \sqrt{\tau_{k}} \tag {33}
 $$ for a down move. (We are using  $\tau_{k}$  for  $\Delta t_{k}$ .)
 
 
 These equations suggest that in order to have recombination the following must be true:
 
 $$
-\tau_ {k + 1} = \tau_ {k} \frac {4 \left(\frac {\sigma_ {k}}{\sigma_ {k + 1}}\right) ^ {2}}{\left[ 1 + \sqrt {1 + 4 \left(\frac {\sigma_ {k}}{\sigma_ {k + 1}}\right) ^ {2} \tau_ {k} \phi_ {k + 1}} \right] ^ {2}} \tag {34}
+\tau_{k + 1} = \tau_{k} \frac{4 \left(\frac{\sigma_{k}}{\sigma_{k + 1}}\right)^{2}}{\left[ 1 + \sqrt{1 + 4 \left(\frac{\sigma_{k}}{\sigma_{k + 1}}\right)^{2} \tau_{k} \phi_{k + 1}} \right]^{2}} \tag {34}
 $$
 
 Equation (34) illustrates that if you want a constant time step when the local volatility is constant, the mean reversion must be 0. The recombination requirement has put the stringent condition on the HW binomial lattice that the mean reversion is determined by the local volatility. To avoid this problem within the binomial framework we must allow the time step to vary with  $k$  in equations (32) through (34). As a matter of fact, for a constant time step,
 
 $$
-\phi_ {k + 1} = \frac {\sigma_ {k} - \sigma_ {k + 1}}{\sigma_ {k} \tau} \tag {35}
+\phi_{k + 1} = \frac{\sigma_{k} - \sigma_{k + 1}}{\sigma_{k} \tau} \tag {35}
 $$ which can also be solved for  $\sigma_{k + 1}$  to give
 
 
 $$
-\sigma_ {k + 1} = \sigma_ {k} \left(1 - \phi_ {k + 1} \tau\right) \tag {36}
+\sigma_{k + 1} = \sigma_{k} \left(1 - \phi_{k + 1} \tau\right) \tag {36}
 $$
 
 Equation (36) shows that the mean reversion can be used to match any given local volatility for a constant time step. If the local volatility is decreasing the mean reversion will be positive, and if the local volatility is increasing the mean reversion will be negative. We point out that if a variable time step is used, one does not have to have mean reversion match local volatility.
@@ -436,11 +436,11 @@ Equation (36) shows that the mean reversion can be used to match any given local
 Since the BK model is a more general form of the KWF model, we only present the binomial version for the BK model. The expressions corre sponding to equations (32) and (33) of the HW model and from equation (23b) are
 
 
-$$ r _ {j, k + 1} = r _ {j, k} e ^ {\left(\theta_ {k} - \phi_ {k} \ln (r _ {j, k})\right) \tau_ {k} + \sigma_ {k} \sqrt {\tau_ {k}}} \tag {37}
+$$ r_{j, k + 1} = r_{j, k} e^{\left(\theta_{k} - \phi_{k} \ln (r_{j, k})\right) \tau_{k} + \sigma_{k} \sqrt{\tau_{k}}} \tag {37}
 $$ for an up move and
 
 
-$$ r _ {j + 1, k + 1} = r _ {j, k} e ^ {\left(\theta_ {k} - \phi_ {k} \ln (r _ {j, k})\right) \tau_ {k} - \sigma_ {k} \sqrt {\tau_ {k}}} \tag {38}
+$$ r_{j + 1, k + 1} = r_{j, k} e^{\left(\theta_{k} - \phi_{k} \ln (r_{j, k})\right) \tau_{k} - \sigma_{k} \sqrt{\tau_{k}}} \tag {38}
 $$ for a down move.
 
 
@@ -452,27 +452,27 @@ Within the binomial framework, the HW and BK models only approximate the distrib
 
 A better way to keep a constant time step and to match the appropriate distributional properties is to use a trinomial lattice instead of a binomial lattice. If we use a trinomial lattice for the HW SDEs, then from equation (13) we use
 
-$$ r _ {j, k + 1} = r _ {j, k} + \theta_ {k} \tau - \phi_ {k} r _ {j, k} \tau + \alpha_ {k} \sigma_ {k} \sqrt {\tau} \tag {39a}
+$$ r_{j, k + 1} = r_{j, k} + \theta_{k} \tau - \phi_{k} r_{j, k} \tau + \alpha_{k} \sigma_{k} \sqrt{\tau} \tag {39a}
 $$ for an up move,
 
 
-$$ r _ {j + 2, k + 1} = r _ {j, k} + \theta_ {k} \tau - \phi_ {k} r _ {j, k} \tau - \alpha_ {k} \sigma_ {k} \sqrt {\tau} \tag {39b}
+$$ r_{j + 2, k + 1} = r_{j, k} + \theta_{k} \tau - \phi_{k} r_{j, k} \tau - \alpha_{k} \sigma_{k} \sqrt{\tau} \tag {39b}
 $$ for a down move, and
 
 
-$$ r _ {j + 1, k + 1} = r _ {j, k} + \theta_ {k} \tau - \phi_ {k} r _ {j, k} \tau \tag {39c}
+$$ r_{j + 1, k + 1} = r_{j, k} + \theta_{k} \tau - \phi_{k} r_{j, k} \tau \tag {39c}
 $$ for a middle move. Similarly, if we use a trinomial lattice for the BK SDEs then from equation (23b) we use
 
 
-$$ r _ {j, k + 1} = r _ {j, k} e ^ {\left(\theta_ {k} - \phi_ {k} \ln (r _ {j, k})\right) \tau + \alpha_ {k} \sigma_ {k} \sqrt {\tau}} \tag {40a}
+$$ r_{j, k + 1} = r_{j, k} e^{\left(\theta_{k} - \phi_{k} \ln (r_{j, k})\right) \tau + \alpha_{k} \sigma_{k} \sqrt{\tau}} \tag {40a}
 $$ for an up move,
 
 
-$$ r _ {j + 2, k + 1} = r _ {j, k} e ^ {\left(\theta_ {k} - \phi_ {k} \ln (r _ {j, k})\right) \tau - \alpha_ {k} \sigma_ {k} \sqrt {\tau}} \tag {40b}
+$$ r_{j + 2, k + 1} = r_{j, k} e^{\left(\theta_{k} - \phi_{k} \ln (r_{j, k})\right) \tau - \alpha_{k} \sigma_{k} \sqrt{\tau}} \tag {40b}
 $$ for a down move, and
 
 
-$$ r _ {j + 1, k + 1} = r _ {j, k} e ^ {\left(\theta_ {k} - \phi_ {k} \ln (r _ {j, k})\right) \tau} \tag {40c}
+$$ r_{j + 1, k + 1} = r_{j, k} e^{\left(\theta_{k} - \phi_{k} \ln (r_{j, k})\right) \tau} \tag {40c}
 $$ for a middle move.
 
 
@@ -482,15 +482,15 @@ Note that a constant time step is now used. The expression  $\alpha_{k}$  is use
 
 The procedure to generate the no arbitrage equations for the binomial and trinomial lattices is outlined in the appendix. The no arbitrage polynomial for the short rates in the binomial tree is given by
 
-$$ f _ {i} = c _ {1, i} \prod_ {j = 1} ^ {i} \left(1 + r _ {j, i} \tau\right) + \sum_ {m = 1} ^ {i} c _ {m + 1, i} \prod_ {\substack {n = 1 \\ n \neq m}} ^ {i} \left(1 + r _ {n, i} \tau\right) \tag{41}
+$$ f_{i} = c_{1, i} \prod_{j = 1}^{i} \left(1 + r_{j, i} \tau\right) + \sum_{m = 1}^{i} c_{m + 1, i} \prod_{\substack {n = 1 \\ n \neq m}}^{i} \left(1 + r_{n, i} \tau\right) \tag{41}
 $$ where, for  $i\geq 3$
 
 
-$$ a _ {1, i} = \prod_ {n = 0} ^ {i - 1} \prod_ {m = 1} ^ {i} (1 + r _ {m, n} \tau)
+$$ a_{1, i} = \prod_{n = 0}^{i - 1} \prod_{m = 1}^{i} (1 + r_{m, n} \tau)
 $$
 
 $$
-\begin{array}{l l} a _ {2, i} = b _ {1, i - 1}, a _ {j, i} = b _ {j - 2, i - 1} + b _ {j - 1, i - 1}, & \text {f o r} \\ j = 3, \ldots , i, a _ {i + 1, j} = b _ {i - 1, i - 1}, \quad \text {a n d} & c _ {1, i} = \\ P _ {i + 1} a _ {1, i}, c _ {j + 1, i} = q ^ {i - j} (1 - q) ^ {j - 1} a _ {j + 1, i} & \text {f o r} \\ j = 1, \ldots , i. \end{array}
+\begin{array}{l l} a_{2, i} = b_{1, i - 1}, a_{j, i} = b_{j - 2, i - 1} + b_{j - 1, i - 1}, & \text{fo r} \\ j = 3, \ldots , i, a_{i + 1, j} = b_{i - 1, i - 1}, \quad \text{an d} & c_{1, i} = \\ P_{i + 1} a_{1, i}, c_{j + 1, i} = q^{i - j} (1 - q)^{j - 1} a_{j + 1, i} & \text{fo r} \\ j = 1, \ldots , i. \end{array}
 $$
 
 We solve equation (41) for  $\theta_{i}$  by setting  $f_{i} = 0$ . We then use  $\theta_{i}$  to compute  $r_{j,i}$  for  $j = 1,\dots ,i$  at the ith period. The bisection method will converge quickly because there is only one root between  $-1$  and 1 for the HW binomial lattice and one root between 0 and 1 for the BK binomial lattice.
@@ -504,33 +504,33 @@ $$
 For the variable time step,  $\tau_{i}$  we replace the terms  $(1 + r_{j,i}\tau)$  by  $(1 + r_{j,i}\tau)^{\tau_i / \tau}$  and the terms  $(1 + r_{n,i}\tau)$  by
 
 $$
-(1 + r _ {n, i} \tau) ^ {\tau_ {i} / \tau}
+(1 + r_{n, i} \tau)^{\tau_{i} / \tau}
 $$ in equation (41).
 
 
 Similarly, the no arbitrage polynomial for the trinomial trees is given by
 
-$$ f _ {i} = c _ {1, i} \prod_ {j = 1} ^ {2 i - 1} \left(1 + r _ {j, i} \tau\right) + \sum_ {m = 1} ^ {2 i - 1} c _ {m + 1, i} \prod_ {\substack {n = 1 \\ n \neq m}} ^ {2 i - 1} \left(1 + r _ {n, i} \tau\right) \tag{42}
+$$ f_{i} = c_{1, i} \prod_{j = 1}^{2 i - 1} \left(1 + r_{j, i} \tau\right) + \sum_{m = 1}^{2 i - 1} c_{m + 1, i} \prod_{\substack {n = 1 \\ n \neq m}}^{2 i - 1} \left(1 + r_{n, i} \tau\right) \tag{42}
 $$ where we first let
 
 
-$$ a _ {1, i} = \prod_ {j = 1} ^ {2 i - 3} (1 + r _ {j, i} \tau)
+$$ a_{1, i} = \prod_{j = 1}^{2 i - 3} (1 + r_{j, i} \tau)
 $$
 
 $$
-\begin{array}{l} a _ {2, i} = q _ {1} b _ {1, i - 1} a _ {2, i - 1,} a _ {3, i} = q _ {2} b _ {1, i - 1} a _ {2, i - 1} \\ + q _ {1} b _ {2, i - 1} a _ {3, i - 1} \\ \end{array}
+\begin{array}{l} a_{2, i} = q_{1} b_{1, i - 1} a_{2, i - 1,} a_{3, i} = q_{2} b_{1, i - 1} a_{2, i - 1} \\ + q_{1} b_{2, i - 1} a_{3, i - 1} \\ \end{array}
 $$
 
 $$
-\begin{array}{c} a _ {j, i} = q _ {3} b _ {j - 3, i - 1} a _ {j - 2, i - 1,} + q _ {2} b _ {j - 2, i - 1} a _ {j - 1 + q _ {1} b _ {j - 1} i - 1} a _ {j, i - 1}, \\ \text {f o r} j = 4, \ldots , 2 i - 2, \end{array}
+\begin{array}{c} a_{j, i} = q_{3} b_{j - 3, i - 1} a_{j - 2, i - 1,} + q_{2} b_{j - 2, i - 1} a_{j - 1 + q_{1} b_{j - 1} i - 1} a_{j, i - 1}, \\ \text{fo r} j = 4, \ldots , 2 i - 2, \end{array}
 $$
 
 $$
-\begin{array}{l} a _ {2 i - 1, i} = q _ {3} b _ {2 i - 4, i - 1} a _ {2 i - 3, i - 1} + q _ {2} b _ {2 i - 3, i - 1} a _ {2 i - 2, i - 1}, a _ {2 i, i} \\ = q _ {3} b _ {2 i - 3, i - 1} a _ {2 i - 2, i - 1} \\ \end{array}
+\begin{array}{l} a_{2 i - 1, i} = q_{3} b_{2 i - 4, i - 1} a_{2 i - 3, i - 1} + q_{2} b_{2 i - 3, i - 1} a_{2 i - 2, i - 1}, a_{2 i, i} \\ = q_{3} b_{2 i - 3, i - 1} a_{2 i - 2, i - 1} \\ \end{array}
 $$ and then let
 
 
-$$ c _ {1, i} = P _ {i + 1} a _ {1, i}, c _ {j, i} = a _ {j, i} \text {f o r} j = 2, \dots , 2 i + 1
+$$ c_{1, i} = P_{i + 1} a_{1, i}, c_{j, i} = a_{j, i} \text{fo r} j = 2, \dots , 2 i + 1
 $$
 
 We solve equation (42) for  $\theta_{i}$  by setting  $f_{i} = 0$  using the bisection method. From this the short rates for either the HW or BK trinomial lattices are determined at step  $i$ . We then let
@@ -543,33 +543,33 @@ $$ for  $n = 1,\dots ,2i - 1$  and then repeat the process. In these derivations
 
 We now briefly outline the Hull and White methodology for generating HW and BK trinomial lattices. The Hull and White methodology uses
 
-$$ r _ {j, k} = x + \left(j _ {k}\right) \Delta \rho \tag {43}
+$$ r_{j, k} = x + \left(j_{k}\right) \Delta \rho \tag {43}
 $$ for the HW trinomial lattice short rates and
 
 
-$$ r _ {j, k} = e ^ {[ x + (j _ {k}) \Delta \rho ]} \tag {44}
+$$ r_{j, k} = e^{[ x + (j_{k}) \Delta \rho ]} \tag {44}
 $$ for the BK trinomial lattice short rates.
 
 
 They choose  $\Delta \rho = \sigma \sqrt{3\tau}$  to minimize numerical error and introduce the mean reversion through the probabilities  $q_{1}, q_{2},$  and  $q_{3}$ . Specifically, they use
 
-$$ q _ {1} = \frac {1}{6} + \frac {(j _ {k}) ^ {2} \phi^ {2} \tau^ {2} + (j _ {k}) \phi \tau}{2}
+$$ q_{1} = \frac{1}{6} + \frac{(j_{k})^{2} \phi^{2} \tau^{2} + (j_{k}) \phi \tau}{2}
 $$
 
-$$ q _ {2} = \frac {2}{3} - (j _ {k}) ^ {2} \phi^ {2} \tau^ {2}
+$$ q_{2} = \frac{2}{3} - (j_{k})^{2} \phi^{2} \tau^{2}
 $$ and
 
 
-$$ q _ {3} = \frac {1}{6} + \frac {(j _ {k}) ^ {2} \phi^ {2} \tau^ {2} - (j _ {k}) \phi \tau}{2}
+$$ q_{3} = \frac{1}{6} + \frac{(j_{k})^{2} \phi^{2} \tau^{2} - (j_{k}) \phi \tau}{2}
 $$ for the up, middle, and down moves at  $r_{j,k}$ , respectively, since this matches the expected change and variance of the short rate over the next time period. However, as they point out, these probabilities must remain positive. In order to do this they "prune" the upper and lower branches of their lattice at the level  $j$  that keeps these probabilities positive. Since  $q_{2}$  is the only one that can become negative they require the following
 
 
-$$ j <   \frac {\sqrt {6}}{3 \phi \tau} \approx \frac {0 . 8 1 6}{\phi \tau}
+$$ j <   \frac{\sqrt{6}}{3 \phi \tau} \approx \frac{0 . 8 1 6}{\phi \tau}
 $$
 
 At this maximum value of  $j$ , Hull and White apply a different branching procedure with different probabilities in order to "prune" the lattice. However, as they point out, using this value of  $j$  can lead to computational problems so they actually use the first  $j$  satisfying
 
-$$ j _ {k} > \frac {3 - \sqrt {6}}{3 \phi \tau} \approx \frac {0 . 1 8 4}{\phi \tau}
+$$ j_{k} > \frac{3 - \sqrt{6}}{3 \phi \tau} \approx \frac{0 . 1 8 4}{\phi \tau}
 $$
 
 This leads to a reduction in the spread of the rates.
@@ -648,13 +648,13 @@ Table 4 Option-Adjusted Spread Results
 We first solve for  $r_{1,1}$  and  $r_{2,1}$  in Figure 1. Equating the price from the spot rate term structure with the price from the binomial lattice gives us
 
 $$
-P _ {2} = \frac {1}{\left(1 + R _ {2} \tau\right) ^ {2}} = \frac {q p _ {1 , 1} + (1 - q) p _ {2 , 1}}{1 + r _ {1 , 0} \tau} \quad (\mathrm {A} 1)
+P_{2} = \frac{1}{\left(1 + R_{2} \tau\right)^{2}} = \frac{q p_{1 , 1} + (1 - q) p_{2 , 1}}{1 + r_{1 , 0} \tau} \quad (\mathrm{A} 1)
 $$
 
 Substituting in the discount factors  $p_{j,1} = 1 / (1 + r_{j,1}\tau)$  for  $j = 1,2$  and clearing fractions we obtain
 
 $$
-\begin{array}{l} P _ {2} \left(1 + r _ {1, 0} \tau\right) \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) \\ - q \left(1 + r _ {2, 1} \tau\right) - (1 - q) \left(1 + r _ {1, 1} \tau\right) = 0 \tag {A2} \\ \end{array}
+\begin{array}{l} P_{2} \left(1 + r_{1, 0} \tau\right) \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) \\ - q \left(1 + r_{2, 1} \tau\right) - (1 - q) \left(1 + r_{1, 1} \tau\right) = 0 \tag {A2} \\ \end{array}
 $$
 
 We let  $r_{1,0} = R_1$ . This equation can now be solved for  $\theta_{1}$ .
@@ -664,20 +664,20 @@ For the next period in the binomial lattice we have from Figure 1 that
 We now introduce some variables that will help to generate the coefficients  $c_{i,k}$  for the polynomials that determine the interest rates at time period  $k$ . We start by doing it for the polynomials in equations (A4) and (A5). This is done in two steps. The first step is to notice how the coefficients are related to the interest rates at the previous time periods. Note that if we let  $a_{1,1} = 1 + r_{1,0}\tau$ ,  $a_{2,1} = -1$ , and  $a_{3,1} = -1$  then  $c_{1,1} = P_2a_{1,1}$ ,  $c_{2,1} = qa_{2,1}$ , and  $c_{3,1} = (1 - q)a_{3,1}$  in equation (A4). In order to generate equation (A5) we first let  $b_{1,1} = a_{2,1}(1 + r_{2,1}\tau)$ ,  $b_{2,1} = a_{3,1}(1 + r_{1,1}\tau)$ . We can then generate  $a_{1,2} = (1 + r_{1,0}\tau)(1 + r_{1,1}\tau)(1 + r_{2,1}\tau)$ ,  $a_{2,2} = b_{1,1}$ ,  $a_{3,2} = b_{1,1} + b_{2,1}$ , and  $a_{4,2} = b_{2,1}$ . It is now seen that  $c_{1,2} = P_3a_{1,2}$ ,  $c_{2,2} = q^2a_{2,2}$ ,  $c_{3,2} = q(1 - q)a_{3,3}$ , and  $c_{4,2} = (1 - q)^2a_{4,2}$ . We now let  $b_{1,2} = a_{3,1}(1 + r_{2,2}\tau)$
 
 $$
-P _ {3} = \frac {1}{\left(1 + R _ {3} \tau\right) ^ {3}} = \frac {q p _ {1 , 1} + (1 - q) p _ {2 , 1}}{1 + r _ {1 , 0} \tau} = \frac {q \left(\frac {q p _ {1 , 2} + (1 - q) p _ {2 , 2}}{1 + r _ {1 , 1} \tau}\right) + (1 - q) \left(\frac {q p _ {2 , 2} + (1 - q) p _ {3 , 2}}{1 + r _ {2 , 1} \tau}\right)}{1 + r _ {1 , 0} \tau}
+P_{3} = \frac{1}{\left(1 + R_{3} \tau\right)^{3}} = \frac{q p_{1 , 1} + (1 - q) p_{2 , 1}}{1 + r_{1 , 0} \tau} = \frac{q \left(\frac{q p_{1 , 2} + (1 - q) p_{2 , 2}}{1 + r_{1 , 1} \tau}\right) + (1 - q) \left(\frac{q p_{2 , 2} + (1 - q) p_{3 , 2}}{1 + r_{2 , 1} \tau}\right)}{1 + r_{1 , 0} \tau}
 $$ which reduces to
 
 
 $$
-\begin{array}{l} P _ {3} \left(1 + r _ {1, 0} \tau\right) \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {1, 2} \tau\right) \\ \times (1 + r _ {2, 2} \tau) (1 + r _ {3, 2} \tau) \\ \end{array}
+\begin{array}{l} P_{3} \left(1 + r_{1, 0} \tau\right) \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) \left(1 + r_{1, 2} \tau\right) \\ \times (1 + r_{2, 2} \tau) (1 + r_{3, 2} \tau) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} - q ^ {2} \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {2, 2} \tau\right) \left(1 + r _ {3, 1} \tau\right) \\ - q (1 - q) \left[ \left(1 + r _ {1, 1} \tau\right) + \left(1 + r _ {2, 1} \tau\right) \right] \\ \end{array}
+\begin{array}{l} - q^{2} \left(1 + r_{2, 1} \tau\right) \left(1 + r_{2, 2} \tau\right) \left(1 + r_{3, 1} \tau\right) \\ - q (1 - q) \left[ \left(1 + r_{1, 1} \tau\right) + \left(1 + r_{2, 1} \tau\right) \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \times (1 + r _ {1, 2} \tau) (1 + r _ {3, 2} \tau) - (1 - q) ^ {2} (1 + r _ {1, 1} \tau) \\ \times \left(1 + r _ {1, 2} \tau\right) \left(1 + r _ {2, 2} \tau\right) = 0 \tag {A3} \\ \end{array}
+\begin{array}{l} \times (1 + r_{1, 2} \tau) (1 + r_{3, 2} \tau) - (1 - q)^{2} (1 + r_{1, 1} \tau) \\ \times \left(1 + r_{1, 2} \tau\right) \left(1 + r_{2, 2} \tau\right) = 0 \tag {A3} \\ \end{array}
 $$
 
 We now solve equation (A3) for  $\theta_{2}$  using the bisection method.
@@ -685,12 +685,12 @@ We now solve equation (A3) for  $\theta_{2}$  using the bisection method.
 From equation (A2) and equation (A3) we can generate the remainder of the no arbitrage equations that give the short rates in the binomial lattice. Note that equation (A2) can be written as
 
 $$
-\begin{array}{l} c _ {1, 1} \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) + c _ {2, 1} \left(1 + r _ {2, 1} \tau\right) \\ + c _ {3, 1} \left(1 + r _ {1, 1} \tau\right) = 0 \tag {A4} \\ \end{array}
+\begin{array}{l} c_{1, 1} \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) + c_{2, 1} \left(1 + r_{2, 1} \tau\right) \\ + c_{3, 1} \left(1 + r_{1, 1} \tau\right) = 0 \tag {A4} \\ \end{array}
 $$ and that equation (A3) can be written as
 
 
 $$
-\begin{array}{l} c _ {1, 2} \left(1 + r _ {1, 2} \tau\right) \left(1 + r _ {2, 2} \tau\right) \left(1 + r _ {3, 2} \tau\right) \\ + c _ {2, 2} \left(1 + r _ {2, 2} \tau\right) \left(1 + r _ {3, 2} \tau\right) + c _ {3, 2} \left(1 + r _ {1, 2} \tau\right) \\ \times \left(1 + r _ {3, 2} \tau\right) + c _ {4, 2} \left(1 + r _ {1, 2} \tau\right) \left(1 + r _ {2, 2} \tau\right) = 0 \tag {A5} \\ \end{array}
+\begin{array}{l} c_{1, 2} \left(1 + r_{1, 2} \tau\right) \left(1 + r_{2, 2} \tau\right) \left(1 + r_{3, 2} \tau\right) \\ + c_{2, 2} \left(1 + r_{2, 2} \tau\right) \left(1 + r_{3, 2} \tau\right) + c_{3, 2} \left(1 + r_{1, 2} \tau\right) \\ \times \left(1 + r_{3, 2} \tau\right) + c_{4, 2} \left(1 + r_{1, 2} \tau\right) \left(1 + r_{2, 2} \tau\right) = 0 \tag {A5} \\ \end{array}
 $$
 
 $(1 + r_{3,2}\tau), b_{2,2} = a_{3,2}(1 + r_{1,2}\tau)(1 + r_{3,2}\tau)$ , and  $b_{3,2} = a_{4,2}(1 + r_{1,2}\tau)(1 + r_{2,2}\tau)$  and continue the process to obtain equation (41).
@@ -698,12 +698,12 @@ $(1 + r_{3,2}\tau), b_{2,2} = a_{3,2}(1 + r_{1,2}\tau)(1 + r_{3,2}\tau)$ , and  
 For the trinomial lattice no arbitrage polynomial we first solve for  $r_{1,1}$ ,  $r_{2,1}$ , and  $r_{3,1}$  in Figure 2. Equating the price from the spot rate term structure with the price from the trinomial lattice gives us
 
 $$
-P _ {2} = \frac {1}{(1 + R _ {2} \tau) ^ {2}} = \frac {q _ {1} p _ {1 , 1} + q _ {2} p _ {2 , 1} + q _ {3} p _ {3 , 1}}{1 + r _ {1 , 0} \tau}
+P_{2} = \frac{1}{(1 + R_{2} \tau)^{2}} = \frac{q_{1} p_{1 , 1} + q_{2} p_{2 , 1} + q_{3} p_{3 , 1}}{1 + r_{1 , 0} \tau}
 $$ which is similar to equation (A1). Proceeding as in the binomial lattice we find that
 
 
 $$
-\begin{array}{l} P _ {2} \left(1 + r _ {1, 0} \tau\right) \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) \\ - q _ {1} \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) - q _ {2} \left(1 + r _ {1, 1} \tau\right) \\ \times \left(1 + r _ {3, 1} \tau\right) - q _ {3} \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) = 0 \tag {A6} \\ \end{array}
+\begin{array}{l} P_{2} \left(1 + r_{1, 0} \tau\right) \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) \\ - q_{1} \left(1 + r_{2, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) - q_{2} \left(1 + r_{1, 1} \tau\right) \\ \times \left(1 + r_{3, 1} \tau\right) - q_{3} \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) = 0 \tag {A6} \\ \end{array}
 $$
 
 As in the binomial case,  $r_{1,0} = R_1$  and equation (A6) is solved for  $\theta_{1}$  using the bisection method.
@@ -711,12 +711,12 @@ As in the binomial case,  $r_{1,0} = R_1$  and equation (A6) is solved for  $\th
 For the next period in the trinomial lattice (Figure 2) gives us
 
 $$
-\begin{array}{l} P _ {3} = \frac {1}{(1 + R _ {3} \tau) ^ {3}} = \frac {q p _ {1 , 1} + q _ {2} p _ {2 , 1} + q _ {3} p _ {3 , 1}}{1 + r _ {1 , 0} \tau} \\ = \frac {q _ {1} \left(\frac {q _ {1} p _ {1 , 2} + q _ {2} p _ {2 , 2} + q _ {3} p _ {3 , 2}}{1 + r _ {1 , 1} \tau}\right) + q _ {2} \left(\frac {q _ {1} p _ {2 , 2} + q _ {2} p _ {3 , 2} + q _ {3} p _ {3 , 3}}{1 + r _ {2 , 1} \tau}\right) + q _ {3} \left(\frac {q _ {1} p _ {3 , 3} + q _ {2} p _ {3 , 4} + q _ {3} p _ {3 , 5}}{1 + r _ {3 , 1} \tau}\right)}{1 + r _ {1 , 0} \tau} \\ \end{array}
+\begin{array}{l} P_{3} = \frac{1}{(1 + R_{3} \tau)^{3}} = \frac{q p_{1 , 1} + q_{2} p_{2 , 1} + q_{3} p_{3 , 1}}{1 + r_{1 , 0} \tau} \\ = \frac{q_{1} \left(\frac{q_{1} p_{1 , 2} + q_{2} p_{2 , 2} + q_{3} p_{3 , 2}}{1 + r_{1 , 1} \tau}\right) + q_{2} \left(\frac{q_{1} p_{2 , 2} + q_{2} p_{3 , 2} + q_{3} p_{3 , 3}}{1 + r_{2 , 1} \tau}\right) + q_{3} \left(\frac{q_{1} p_{3 , 3} + q_{2} p_{3 , 4} + q_{3} p_{3 , 5}}{1 + r_{3 , 1} \tau}\right)}{1 + r_{1 , 0} \tau} \\ \end{array}
 $$ which simplifies to the following equation similar to equation (A3)
 
 
 $$
-\begin{array}{l} P _ {3} \left(1 + r _ {1, 0} \tau\right) \prod_ {j = 1} ^ {3} \left(1 + r _ {j, 1} \tau\right) \prod_ {j = 1} ^ {5} \left(1 + r _ {j, 2} \tau\right) \\ - q _ {1} ^ {2} \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) \prod_ {j = 2} ^ {5} \left(1 + r _ {j, 2} \tau\right) \\ - \left[ q _ {1} q _ {2} \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) + q _ {1} q _ {2} \left(1 + r _ {1, 1} \tau\right) \right. \\ \times (1 + r_{3,1}\tau)]\prod_{\substack{j = 1\\ j\neq 2}}^{5}\left(1 + r_{j,2}\tau\right) \\ - \left[ q _ {1} q _ {3} \left(1 + r _ {2, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) + q _ {2} ^ {2} \left(1 + r _ {1, 1} \tau\right) \right. \\ \times (1 + r _ {3, 1} \tau) + q _ {3} q _ {1} (1 + r _ {1, 1} \tau) (1 + r _ {2, 1} \tau) ] \\ \times \prod_ {\substack {j = 1 \\ j \neq 3}} ^ {5} \left(1 + r _ {j, 2} \tau\right) \tag{A7} \\ - \left[ q _ {2} q _ {3} \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {3, 1} \tau\right) + q _ {3} q _ {2} \left(1 + r _ {1, 1} \tau\right) \right. \\ \times (1 + r_{2,1}\tau)]\prod_{\substack{j = 1\\ j\neq 4}}^{5}\left(1 + r_{j,2}\tau\right) \\ - q _ {3} ^ {2} \left(1 + r _ {1, 1} \tau\right) \left(1 + r _ {2, 1} \tau\right) \prod_ {j = 1} ^ {4} \left(1 + r _ {j, 2} \tau\right) = 0 \\ \end{array}
+\begin{array}{l} P_{3} \left(1 + r_{1, 0} \tau\right) \prod_{j = 1}^{3} \left(1 + r_{j, 1} \tau\right) \prod_{j = 1}^{5} \left(1 + r_{j, 2} \tau\right) \\ - q_{1}^{2} \left(1 + r_{2, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) \prod_{j = 2}^{5} \left(1 + r_{j, 2} \tau\right) \\ - \left[ q_{1} q_{2} \left(1 + r_{2, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) + q_{1} q_{2} \left(1 + r_{1, 1} \tau\right) \right. \\ \times (1 + r_{3,1}\tau)]\prod_{\substack{j = 1\\ j\neq 2}}^{5}\left(1 + r_{j,2}\tau\right) \\ - \left[ q_{1} q_{3} \left(1 + r_{2, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) + q_{2}^{2} \left(1 + r_{1, 1} \tau\right) \right. \\ \times (1 + r_{3, 1} \tau) + q_{3} q_{1} (1 + r_{1, 1} \tau) (1 + r_{2, 1} \tau) ] \\ \times \prod_{\substack {j = 1 \\ j \neq 3}}^{5} \left(1 + r_{j, 2} \tau\right) \tag{A7} \\ - \left[ q_{2} q_{3} \left(1 + r_{1, 1} \tau\right) \left(1 + r_{3, 1} \tau\right) + q_{3} q_{2} \left(1 + r_{1, 1} \tau\right) \right. \\ \times (1 + r_{2,1}\tau)]\prod_{\substack{j = 1\\ j\neq 4}}^{5}\left(1 + r_{j,2}\tau\right) \\ - q_{3}^{2} \left(1 + r_{1, 1} \tau\right) \left(1 + r_{2, 1} \tau\right) \prod_{j = 1}^{4} \left(1 + r_{j, 2} \tau\right) = 0 \\ \end{array}
 $$
 
 Equation (A7) is also solved for  $\theta_{2}$  using the bisection method. We now proceed as in the binomial lattice case to generate the no arbitrage equation for  $\theta_{i}$  given in equation (42).

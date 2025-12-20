@@ -109,7 +109,7 @@ Given the loan pool's cash flow for each month on each interest rate path, the n
 
 Given the cash flows for the bond class on an interest rate path, the path's present value can be calculated. The discount rate for determining the present value is the simulated spot rate for each month on the interest rate path plus an appropriate spread. The spot rate on a path can be determined from the simulated future monthly rates. The relationship that holds between the simulated spot rate for month  $t$  on path  $n$  and the simulated future one-month rates is:
 
-$$ z _ {t} (n) = \left\{\left[ 1 + f _ {1} (n) \right] \left[ 1 + f _ {2} (n) \right] \dots \left[ 1 + f _ {t} (n) \right] \right\} ^ {1 / t} - 1
+$$ z_{t} (n) = \left\{\left[ 1 + f_{1} (n) \right] \left[ 1 + f_{2} (n) \right] \dots \left[ 1 + f_{t} (n) \right] \right\}^{1 / t} - 1
 $$
 
 Table 4 Simulated Cash Flows for the Bond Class Being Valued
@@ -133,18 +133,18 @@ $f_{j}(n) =$  simulated future one-month rate for month  $j$  on path  $n$
 Consequently, the interest rate path for the simulated future one-month rates can be converted to the interest rate path for the simulated monthly spot rates as shown in Table 5. Therefore, the present value of the cash flows for month  $t$  on interest rate path  $n$  discounted at the simulated spot rate for month  $t$  plus some spread is:
 
 $$
-\operatorname {P V} \left[ B C C _ {t} (n) \right] = \frac {B C C _ {t} (n)}{\left[ 1 + z _ {t} (n) + K \right] ^ {t}} \tag {1}
+\operatorname{PV} \left[ B C C_{t} (n) \right] = \frac{B C C_{t} (n)}{\left[ 1 + z_{t} (n) + K \right]^{t}} \tag {1}
 $$ where
 
 
 $PV[BCC_{t}(n)] =$  present value of the cash flow for the bond class for month  $t$  on path  $n$
 
-$BCC_{t}(n) = \text{cash flow for the bond class}$  for month  $t$  on path  $n$
+$BCC_{t}(n) = \text{cashflowforthebondclass}$  for month  $t$  on path  $n$
 
 $z_{t}(n) =$  spot rate for month  $t$  on path  $n$
 
 $$
-K = \mathrm {s p r e a d}
+K = \mathrm{sp re ad}
 $$
 
 The present value for path  $n$  is the sum of the present value of the cash flows for each month on path  $n$ . That is,
@@ -153,7 +153,7 @@ The present value for path  $n$  is the sum of the present value of the cash flo
 (2)
 
 $$
-\begin{array}{l} \operatorname {P V} [ \text {P a t h} (n) ] = \operatorname {P V} [ B C C _ {1} (n) ] + \operatorname {P V} [ B C C _ {2} (n) ] \\ + \dots + \mathrm {P V} [ B C C _ {M} (n) ] \\ \end{array}
+\begin{array}{l} \operatorname{PV} [ \text{Pa th} (n) ] = \operatorname{PV} [ B C C_{1} (n) ] + \operatorname{PV} [ B C C_{2} (n) ] \\ + \dots + \mathrm{PV} [ B C C_{M} (n) ] \\ \end{array}
 $$ where  $\mathrm{PV}[\mathrm{Path}(n)]$  is the present value of interest rate path  $n$ .
 
 
@@ -164,7 +164,7 @@ The present value of a given interest rate path is treated as the theoretical va
 Theoretical value
 
 $$
-= \frac {\operatorname {P V} [ \operatorname {P a t h} (1) ] + \cdots + \operatorname {P V} [ \operatorname {P a t h} (N) ]}{N} \tag {3}
+= \frac{\operatorname{PV} [ \operatorname{Pa th} (1) ] + \cdots + \operatorname{PV} [ \operatorname{Pa th} (N) ]}{N} \tag {3}
 $$ where  $N$  is the number of interest rate paths.
 
 
@@ -178,7 +178,7 @@ Moreover, it should be apparent how the Monte Carlo simulation model is driven b
 Thus far we have seen how the theoretical value of a security can be determined using the Monte Carlo simulation model. Recall that in the model, a spread  $(K)$  is added to the monthly spot rates on all the interest rate paths in Table 5 in order to determine the discount rate used for calculating the present value of the cash flows. The spread should reflect the risk associated with the security as required by the market. However, the reverse can be done. Given (1) the cash flows in Table 4 for the bond class being valued, (2) the spot rates in Table 5, and (3) the market price of the security being valued, one can determine the spread that will make the average value for the interest rate paths equal to the market price (plus accrued interest). That spread is what is referred to as the option-adjusted spread (OAS). Mathematically, OAS is the spread that will make
 
 $$
-\frac {\text {M a r k e t p r i c e} +}{\text {A c c r u e d i n t e r e s t}} = \frac {\operatorname {P V} [ \operatorname {P a t h} (1) ] + \cdots + \operatorname {P V} [ \operatorname {P a t h} (N) ]}{N} \tag {4}
+\frac{\text{Ma rk et pr ic e} +}{\text{Ac cr ue di nt er es t}} = \frac{\operatorname{PV} [ \operatorname{Pa th} (1) ] + \cdots + \operatorname{PV} [ \operatorname{Pa th} (N) ]}{N} \tag {4}
 $$ where  $N$  is the number of interest rate paths.
 
 
@@ -191,7 +191,7 @@ This spread measure is superior to the nominal spread, which gives no recognitio
 The implied cost of the option embedded in a security can be obtained by calculating the difference between the OAS and the zero-volatility spread. That is,
 
 $$
-\text {O p t i o n} = \text {Z e r o - v o l a t i l i t y s p r e a d - O A S}
+\text{Op ti on} = \text{Ze ro -v ol at il it ys pr ea d -O AS}
 $$
 
 The option cost measures the prepayment (or option) risk embedded in MBS and ABS. Note that the cost of the option is a by-product of the OAS analysis, not valued explicitly with some option pricing model.
@@ -221,7 +221,7 @@ The most obvious way to measure a bond's price sensitivity as a percentage of it
 
 
 $$
-\begin{array}{l} V _ {0} = \text {i n i t i a l v a l u e o r p r i c e o f t h e s e c u r i t y} \\ \Delta y = \text {c h a n g e i n t h e y i e l d o f t h e s e c u r i t y (i n} \quad \text {d e c i m a l)} \\ V _ {-} = \text {t h e} \quad \text {e t a m i s d e c r e a s e d} \quad \Delta y \\ V _ {+} = \text {t h e} \quad \text {e t a m i s} \quad \text {i n c r e a s e d} \quad \Delta y \\ \end{array}
+\begin{array}{l} V_{0} = \text{in it ia lv al ue or pr ic eo ft he se cu ri ty} \\ \Delta y = \text{ch an ge in th ey ie ld of th es ec ur it y (in} \quad \text{de ci ma l)} \\ V_{-} = \text{th e} \quad \text{et am is de cr ea se d} \quad \Delta y \\ V_{+} = \text{th e} \quad \text{et am is} \quad \text{in cr ea se d} \quad \Delta y \\ \end{array}
 $$
 
 There are two key points to keep in mind in the foregoing discussion. First, the change in yield referred to above is the same change in yield for all maturities. This assumption is commonly referred to as a "parallel yield curve shift assumption." Thus, the foregoing discussion about the price sensitivity of a security to interest rate changes is limited to parallel shifts in the yield curve. Second, the notation refers to the estimated value of the security. This value is obtained from a valuation model. Consequently, the resulting measure of the price sensitivity of a security to interest rate changes is only as good as the valuation model employed to obtain the estimated value of the security.
@@ -229,7 +229,7 @@ There are two key points to keep in mind in the foregoing discussion. First, the
 Now let's focus on the measure of interest. We are interested in the percentage change in the price of a security when interest rates change. This measure is referred to as duration. It can be demonstrated that duration can be estimated using the following formula:
 
 $$
-\text {D u r a t i o n} = \frac {V _ {-} - V _ {+}}{2 V _ {0} (\Delta y)} \tag {5}
+\text{Du ra ti on} = \frac{V_{-} - V_{+}}{2 V_{0} (\Delta y)} \tag {5}
 $$
 
 The duration of a security can be interpreted as the approximate percentage change in price for a 100 basis point parallel shift in the yield curve. Thus, a bond with a duration of 5 will change by approximately  $5\%$  for a 100 basis point parallel shift in the yield curve. For a 50 basis point parallel shift in the yield curve, the bond's price will change by approximately  $2.5\%$ ; for a 25 basis point parallel shift in the yield curve,  $1.25\%$ , and so on.
@@ -252,7 +252,7 @@ The reason for this result is that duration is in fact a first approximation for
 The convexity measure of a bond can be approximated using the following formula:
 
 $$
-\text {C o n v e x i t y m e a s u r e} = \frac {V _ {+} + V _ {-} - 2 V _ {0}}{2 V _ {0} (\Delta y) ^ {2}} \tag {6}
+\text{Co nv ex it ym ea su re} = \frac{V_{+} + V_{-} - 2 V_{0}}{2 V_{0} (\Delta y)^{2}} \tag {6}
 $$ where the notation is the same as used earlier for duration. When the values for the inputs in the convexity measure as given in equation (6) are obtained from a Monte Carlo simulation model, the resulting convexity is referred to as effective convexity. Note that dealers often quote convexity by dividing the convexity measure by 100.
 
 

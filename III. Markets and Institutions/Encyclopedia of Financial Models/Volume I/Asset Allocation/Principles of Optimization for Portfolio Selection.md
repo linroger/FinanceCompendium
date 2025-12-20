@@ -16,45 +16,45 @@ In this chapter, we describe the basic types of optimization problems and remark
 When there are no constraints imposed on the set of feasible solutions, we have an unconstrained optimization problem. Thus, the goal is to maximize or to minimize the objective function with respect to the function arguments without any limits on their values. We consider directly the  $n$ -dimensional case; that is, the domain of the objective function  $f$  is the  $n$ -dimensional space and the function values are real numbers,  $f:\mathbb{R}^n\to \mathbb{R}$ . Maximization is denoted by
 
 $$
-\max  f (x _ {1}, \dots , x _ {n})
+\max  f (x_{1}, \dots , x_{n})
 $$ and minimization by
 
 
 $$
-\min  f (x _ {1}, \dots , x _ {n})
+\min  f (x_{1}, \dots , x_{n})
 $$
 
 A more compact form is commonly used; for example
 
 $$
-\min  _ {x \in \mathbb {R} ^ {n}} f (x) \tag {1}
+\min_{x \in \mathbb {R}^{n}} f (x) \tag {1}
 $$ denotes that we are searching for the minimal value of the function  $f(x)$  by varying  $x$  in the entire  $n$ -dimensional space  $\mathbb{R}^n$ . A solution to problem (1) is a value of  $x = x^0$  for which the minimum of  $f$  is attained:
 
 
-$$ f _ {0} = f (x ^ {0}) = \min  _ {x \in \mathbb {R} ^ {n}} f (x)
+$$ f_{0} = f (x^{0}) = \min_{x \in \mathbb {R}^{n}} f (x)
 $$
 
 Thus, the vector  $x_0$  is such that the function takes a larger value than  $f_0$  for any other vector  $x$ ,
 
-$$ f (x ^ {0}) \leq f (x), x \in \mathbb {R} ^ {n} \tag {2}
+$$ f (x^{0}) \leq f (x), x \in \mathbb {R}^{n} \tag {2}
 $$ local minimum at  $x^0$ . This is usually denoted by
 
 Note that there may be more than one vector  $x^0$  satisfying the inequality in (2) and, therefore, the argument for which  $f_0$  is achieved may not be unique. If (2) holds, then the function is said to attain its global minimum at  $x^0$ . If the inequality in (2) holds for  $x$  belonging only to a small neighborhood of  $x^0$  and not to the entire space  $\mathbb{R}^n$ , then the objective function is said to have a
 
 
-$$ f (x ^ {0}) \leq f (x)
+$$ f (x^{0}) \leq f (x)
 $$ for all  $x$  such that  $||x - x^0 ||_2 < \epsilon$  where  $||x - x^0 ||_2$  stands for the Euclidean distance between the vectors  $x$  and  $x^0$ ,
 
 
 $$
-| | x - x ^ {0} | | _ {2} = \sqrt {\sum_ {i = 1} ^ {n} (x _ {i} - x _ {i} ^ {0}) ^ {2}}
+| | x - x^{0} | |_{2} = \sqrt{\sum_{i = 1}^{n} (x_{i} - x_{i}^{0})^{2}}
 $$ and  $\epsilon$  is some positive number. A local minimum may not be global as there may be vectors outside the small neighborhood of  $x_0$  for which the objective function attains a smaller value than  $f(x_0)$ . Figure 3 shows the graph of a function with two local maxima, one of which is the global maximum.
 
 
 There is a connection between minimization and maximization. Maximizing the objective function is the same as minimizing the negative of the objective function and then changing the sign of the minimal value:
 
 $$
-\max  _ {x \in \mathbb {R} ^ {n}} f (x) = - \min  _ {x \in \mathbb {R} ^ {n}} [ - f (x) ]
+\max_{x \in \mathbb {R}^{n}} f (x) = - \min_{x \in \mathbb {R}^{n}} [ - f (x) ]
 $$
 
 This relationship is illustrated in Figure 1. As a consequence, problems for maximization can be stated in terms of function minimization and vice versa.
@@ -67,7 +67,7 @@ Figure 1 The Relationship between Minimization and Maximization for a One-Dimens
 If the second derivatives of the objective function exist, then its local maxima and minima, often called generically local extrema, can be characterized. Denote by  $\nabla f(x)$  the vector of the first partial derivatives of the objective function evaluated at  $x$ ,
 
 $$
-\nabla f (x) = \left(\frac {\partial f (x)}{\partial x _ {1}}, \dots , \frac {\partial f (x)}{\partial x _ {n}}\right)
+\nabla f (x) = \left(\frac{\partial f (x)}{\partial x_{1}}, \dots , \frac{\partial f (x)}{\partial x_{n}}\right)
 $$
 
 This vector is called the function gradient. At each point  $x$  of the domain of the function, it shows the direction of greatest rate of increase of the function in a small neighborhood of  $x$ . If for a given  $x$  the gradient equals a vector of zeros,
@@ -78,7 +78,7 @@ $$ then the function does not change in a small neighborhood of  $x \in \mathbb{
 
 
 $$
-\left| \begin{array}{l} \frac {\partial f (x)}{\partial x _ {1}} = 0 \\ \dots \\ \frac {\partial f (x)}{\partial x _ {n}} = 0 \end{array} \right. \tag {3}
+\left| \begin{array}{l} \frac{\partial f (x)}{\partial x_{1}} = 0 \\ \dots \\ \frac{\partial f (x)}{\partial x_{n}} = 0 \end{array} \right. \tag {3}
 $$
 
 The system of equations (3) is often referred to as representing the first-order condition for the objective function extrema. However, it is only a necessary condition; that is, if the gradient is zero at a given point in the  $n$ -dimensional space, then this point may or may not be a point of a local extremum for the function. An illustration is given in Figures 2 and 3. Figure 2 shows the graph of a two-dimensional function and Figure 3 contains the contour lines of the function with the gradient calculated at a grid of points. There are three points marked with a black dot which have a zero gradient. The middle point is not a point of a local maximum even though it has a zero gradient. This point is called a sad dle point, since the graph resembles the shape of a saddle in a neighborhood of it. The left and the right points are where the function has two local maxima corresponding to the two peaks visible on the top plot. The right peak is a local maximum which is not the global one and the left peak represents the global maximum.
@@ -96,12 +96,12 @@ Note: The middle black point shows the position of the saddle point between the 
 
 
 $$
-H = \left( \begin{array}{c c c c} \frac {\partial^ {2} f (x)}{\partial x _ {1} ^ {2}} & \frac {\partial^ {2} f (x)}{\partial x _ {1} \partial x _ {2}} & \dots & \frac {\partial^ {2} f (x)}{\partial x _ {1} \partial x _ {n}} \\ \frac {\partial^ {2} f (x)}{\partial x _ {2} \partial x _ {1}} & \frac {\partial^ {2} f (x)}{\partial x _ {2} ^ {2}} & \dots & \frac {\partial^ {2} f (x)}{\partial x _ {2} \partial x _ {n}} \\ \vdots & \vdots & \ddots & \vdots \\ \frac {\partial^ {2} f (x)}{\partial x _ {n} \partial x _ {1}} & \frac {\partial^ {2} f (x)}{\partial x _ {n} \partial x _ {2}} & \dots & \frac {\partial^ {2} f (x)}{\partial x _ {n} ^ {2}} \end{array} \right) \tag {4}
+H = \left( \begin{array}{c c c c} \frac{\partial^{2} f (x)}{\partial x_{1}^{2}} & \frac{\partial^{2} f (x)}{\partial x_{1} \partial x_{2}} & \dots & \frac{\partial^{2} f (x)}{\partial x_{1} \partial x_{n}} \\ \frac{\partial^{2} f (x)}{\partial x_{2} \partial x_{1}} & \frac{\partial^{2} f (x)}{\partial x_{2}^{2}} & \dots & \frac{\partial^{2} f (x)}{\partial x_{2} \partial x_{n}} \\ \vdots & \vdots & \ddots & \vdots \\ \frac{\partial^{2} f (x)}{\partial x_{n} \partial x_{1}} & \frac{\partial^{2} f (x)}{\partial x_{n} \partial x_{2}} & \dots & \frac{\partial^{2} f (x)}{\partial x_{n}^{2}} \end{array} \right) \tag {4}
 $$ which is called the Hessian matrix or just the Hessian. The Hessian is a symmetric matrix because the order of differentiation is insignificant:
 
 
 $$
-\frac {\partial^ {2} f (x)}{\partial x _ {i} \partial x _ {j}} = \frac {\partial^ {2} f (x)}{\partial x _ {j} \partial x _ {i}}
+\frac{\partial^{2} f (x)}{\partial x_{i} \partial x_{j}} = \frac{\partial^{2} f (x)}{\partial x_{j} \partial x_{i}}
 $$
 
 The additional condition is known as the second-order condition. We will not provide the second-order condition for functions of  $n$ -dimensional arguments because it is rather technical and goes beyond the scope of the entry. We only state it for two-dimensional functions.
@@ -113,13 +113,13 @@ In the case  $n = 2$ , the following conditions hold:
 A local maximum in  $(x_{1},x_{2})$  if
 
 $$
-\frac {\partial^ {2} f (x _ {1} , x _ {2})}{\partial x _ {1} ^ {2}} <   0 \quad \text {o r} \quad \frac {\partial^ {2} f (x _ {1} , x _ {2})}{\partial x _ {2} ^ {2}} <   0
+\frac{\partial^{2} f (x_{1} , x_{2})}{\partial x_{1}^{2}} <   0 \quad \text{or} \quad \frac{\partial^{2} f (x_{1} , x_{2})}{\partial x_{2}^{2}} <   0
 $$
 
 A local minimum in  $(x_{1},x_{2})$  if
 
 $$
-\frac {\partial^ {2} f \left(x _ {1} , x _ {2}\right)}{\partial x _ {1} ^ {2}} > 0 \quad \text {o r} \quad \frac {\partial^ {2} f \left(x _ {1} , x _ {2}\right)}{\partial x _ {2} ^ {2}} > 0
+\frac{\partial^{2} f \left(x_{1} , x_{2}\right)}{\partial x_{1}^{2}} > 0 \quad \text{or} \quad \frac{\partial^{2} f \left(x_{1} , x_{2}\right)}{\partial x_{2}^{2}} > 0
 $$
 
 - If  $\nabla f(x_1, x_2) = (0, 0)$  at a given point  $(x_1, x_2)$  and the determinant of the Hessian matrix evaluated at  $(x_1, x_2)$  is negative, then the function  $f$  has a saddle point in  $(x_1, x_2)$ .
@@ -135,7 +135,7 @@ A function in mathematics can be viewed as a rule assigning to each element of a
 
 Precisely, a function  $f(x)$  is called a convex function if it satisfies the property: For a given  $\alpha \in [0,1]$  and all  $x^{1} \in \mathbb{R}^{n}$  and  $x^{2} \in \mathbb{R}^{n}$  in the function domain,
 
-$$ f \left(\alpha x ^ {1} + (1 - \alpha) x ^ {2}\right) \leq \alpha f \left(x ^ {1}\right) + (1 - \alpha) f \left(x ^ {2}\right) \tag {5}
+$$ f \left(\alpha x^{1} + (1 - \alpha) x^{2}\right) \leq \alpha f \left(x^{1}\right) + (1 - \alpha) f \left(x^{2}\right) \tag {5}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/1b4342438f3b137b48f6878a82ebc4583ae8273c28eb626390d08b11614dddc3.jpg)
@@ -145,13 +145,13 @@ The definition is illustrated in Figure 4. Basically, if a function is convex, t
 
 There is a related term to convex functions. A function  $f$  is called concave if the negative of  $f$  is convex. In effect, a function is concave if it satisfies the property: For a given  $\alpha \in [0,1]$  and all  $x^{1} \in \mathbb{R}^{n}$  and  $x^{2} \in \mathbb{R}^{n}$  in the function domain,
 
-$$ f (\alpha x ^ {1} + (1 - \alpha) x ^ {2}) \geq \alpha f (x ^ {1}) + (1 - \alpha) f (x ^ {2})
+$$ f (\alpha x^{1} + (1 - \alpha) x^{2}) \geq \alpha f (x^{1}) + (1 - \alpha) f (x^{2})
 $$
 
 If the domain  $D$  of a convex function is not the entire space  $\mathbb{R}^n$ , then the set  $D$  satisfies the property
 
 $$
-\alpha x ^ {1} + (1 - \alpha) x ^ {2} \in D \tag {6}
+\alpha x^{1} + (1 - \alpha) x^{2} \in D \tag {6}
 $$ where  $x^{1}\in D,x^{2}\in D$  ,and  $0\leq \alpha \leq 1$  .The sets which satisfy (6) are called convex sets. Thus, the domains of convex (and concave) functions should be convex sets. Geometrically, a set is convex if it contains the straight line connecting any two points belonging to the set. Rockafellar (1997) provides detailed information on the implications of convexity in optimization theory.
 
 
@@ -162,7 +162,7 @@ We summarize several important properties of convex functions:
 - The sublevel sets
 
 $$
-L _ {c} = \{x: f (x) \leq c \} \tag {7}
+L_{c} = \{x: f (x) \leq c \} \tag {7}
 $$ where  $c$  is a constant, are convex sets if  $f$  is a convex function. The converse is not true in general. Later, we provide more information about nonconvex functions with convex sublevel sets.
 
 
@@ -174,26 +174,26 @@ $$
 
 - A sum of convex functions is a convex function:
 
-$$ f (x) = f _ {1} (x) + f _ {2} (x) + \dots + f _ {k} (x)
+$$ f (x) = f_{1} (x) + f_{2} (x) + \dots + f_{k} (x)
 $$ if  $f_{i}, i = 1, \dots, k$  are convex functions.
 
 
 A simple example of a convex function is the linear function
 
-$$ f (x) = a ^ {\prime} x, \quad x \in \mathbb {R} ^ {n}
+$$ f (x) = a^{\prime} x, \quad x \in \mathbb {R}^{n}
 $$ where  $a \in \mathbb{R}^n$  is a vector of constants. In fact, the linear function is the only function which is both convex and concave. In finance, if we consider a portfolio of assets, then the expected portfolio return is a linear function of portfolio weights, in which the coefficients equal the expected asset returns.
 
 
 As a more involved example, consider the following function:
 
-$$ f (x) = \frac {1}{2} x ^ {\prime} C x, \quad x \in \mathbb {R} ^ {n} \tag {8}
+$$ f (x) = \frac{1}{2} x^{\prime} C x, \quad x \in \mathbb {R}^{n} \tag {8}
 $$ where  $C = \{c_{ij}\}_{i,j=1}^n$  is an  $n \times n$  symmetric matrix. In portfolio theory, the variance of portfolio return is a similar function of portfolio weights. In this case,  $C$  is the covariance matrix. The function defined in (8) is called a quadratic function because writing the definition in terms of the components of the argument  $X$ , we obtain
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/7e64f66f64cc2cc50e56f3da97c67898c2609ae877c690c5ce3ada4a76c9b763.jpg)
 Figure 5 The Surface of a Two-Dimensional Convex Quadratic Function
 
 
-$$ f (x) = \frac {1}{2} \bigg [ \sum_ {i = 1} ^ {n} c _ {i i} x _ {i} ^ {2} + \sum_ {i \neq j} c _ {i j} x _ {i} x _ {j} \bigg ]
+$$ f (x) = \frac{1}{2} \bigg [ \sum_{i = 1}^{n} c_{i i} x_{i}^{2} + \sum_{i \neq j} c_{i j} x_{i} x_{j} \bigg ]
 $$ which is a quadratic function of the components  $x_{i}, i = 1, \dots, n$ . The function in (8) is convex if and only if the matrix  $C$  is positive semidefinite. In fact, in this case the matrix  $C$  equals the Hessian matrix,  $C = H$ . Since the matrix  $C$  contains all parameters, we say that the quadratic function is defined by the matrix  $C$ .
 
 
@@ -219,12 +219,12 @@ $$
 
 A property of convex functions is that the sum of convex functions is a convex function. As a result of the preceding analysis, the function
 
-$$ f (x) = \lambda x ^ {\prime} C x - a ^ {\prime} x \tag {9}
+$$ f (x) = \lambda x^{\prime} C x - a^{\prime} x \tag {9}
 $$ where  $\lambda > 0$  and  $C$  is a positive semidefinite matrix, is a convex function as a sum of two convex functions. In the mean-variance efficient frontier, as formulated by Markowitz (1952), we find functions similar to (9). Let us use the properties of convex functions in order to solve the unconstrained problem of minimizing the function in (9):
 
 
 $$
-\min  _ {x \in \mathbb {R} ^ {n}} \lambda x ^ {\prime} C x - a ^ {\prime} x
+\min_{x \in \mathbb {R}^{n}} \lambda x^{\prime} C x - a^{\prime} x
 $$
 
 This function is differentiable and we can search for the global minimum by solving the first-order conditions:
@@ -235,7 +235,7 @@ $$
 
 Therefore, the value of  $x$  minimizing the objective function equals
 
-$$ x ^ {0} = \frac {1}{2 \lambda} C ^ {- 1} a
+$$ x^{0} = \frac{1}{2 \lambda} C^{- 1} a
 $$ where  $C^{-1}$  denotes the inverse of the matrix  $C$ .
 
 
@@ -244,7 +244,7 @@ $$ where  $C^{-1}$  denotes the inverse of the matrix  $C$ .
 Besides convex functions, there are other classes of functions with convenient optimal properties. An example of such a class is the class of quasi-convex functions. Formally, a function is called quasi-convex if all sublevel sets defined in (7) are convex sets. Alternatively, a function  $f(x)$  is called quasi-convex if
 
 $$
-\begin{array}{l} f \left(x ^ {1}\right) \geq f \left(x ^ {2}\right) \quad \text {i m p l i e s} \quad f (\alpha x ^ {1} + (1 - \alpha) x ^ {2}) \\ \leq f (x ^ {1}) \\ \end{array}
+\begin{array}{l} f \left(x^{1}\right) \geq f \left(x^{2}\right) \quad \text{im pl ie s} \quad f (\alpha x^{1} + (1 - \alpha) x^{2}) \\ \leq f (x^{1}) \\ \end{array}
 $$ where  $x^{1}$  and  $x^{2}$  belong to the function domain, which should be a convex set, and  $0\leq \alpha \leq 1$
 
 
@@ -274,40 +274,40 @@ In constructing optimization problems solving practical issues, it is very often
 
 
 $$
-\min  _ {x} f (x)
+\min_{x} f (x)
 $$
 
 $$
-\text {s u b j e c t} \quad x ^ {\prime} e = 1 \tag {10}
+\text{su bj ec t} \quad x^{\prime} e = 1 \tag {10}
 $$
 
 $$ x \geq 0
 $$ where
 
 
-$$ f (x) = \text {t h e}
+$$ f (x) = \text{th e}
 $$
 
-$$ e \in \mathbb {R} ^ {n} = \text {a v e c t o r o f o n e s}, e = (1, \dots , 1)
-$$
-
-$$
-\begin{array}{c} x ^ {\prime} e = \text {t h e s u m o f a l l c o m p o n e n t s o f} x, \\ x ^ {\prime} e = \sum_ {i} ^ {n} x _ {i} \end{array}
+$$ e \in \mathbb {R}^{n} = \text{av ec to ro fo ne s}, e = (1, \dots , 1)
 $$
 
 $$
-\begin{array}{l} x \geq 0 = \text {a l l c o m p o n e n t s o f t h e v e c t o r} x \in \mathbb {R} ^ {n} \\ \text {a r e n o n n e g a t i v e} \end{array}
+\begin{array}{c} x^{\prime} e = \text{th es um of al lc om po ne nt so f} x, \\ x^{\prime} e = \sum_{i}^{n} x_{i} \end{array}
+$$
+
+$$
+\begin{array}{l} x \geq 0 = \text{al lc om po ne nt so ft he ve ct or} x \in \mathbb {R}^{n} \\ \text{ar en on ne ga ti ve} \end{array}
 $$
 
 In problem (10), we are searching for the minimum of the objective function by varying  $x$  only in the set
 
 $$
-\mathbf {X} = \left\{x \in \mathbb {R} ^ {n}: \begin{array}{c} x ^ {\prime} e = 1 \\ x \geq 0 \end{array} \right\} \tag {11}
+\mathbf {X} = \left\{x \in \mathbb {R}^{n}: \begin{array}{c} x^{\prime} e = 1 \\ x \geq 0 \end{array} \right\} \tag {11}
 $$ which is also called the set of feasible points or the constraint set. A more compact notation, similar to the notation in the unconstrained problems, is sometimes used,
 
 
 $$
-\min  _ {x \in \mathbf {X}} f (x)
+\min_{x \in \mathbf {X}} f (x)
 $$ where  $\mathbf{X}$  is defined in (11).
 
 
@@ -321,20 +321,20 @@ In this section, we describe first the method of Lagrange multipliers, which is 
 Consider the following optimization problem in which the set of feasible points is defined by a number of equality constraints:
 
 $$
-\begin{array}{l} \min  _ {x} f (x) \\ \text {s u b j e c t} \quad h _ {1} (x) = 0 \\ h _ {2} (x) = 0 \tag {12} \\ \cdot \cdot \cdot \\ h _ {k} (x) = 0 \\ \end{array}
+\begin{array}{l} \min_{x} f (x) \\ \text{su bj ec t} \quad h_{1} (x) = 0 \\ h_{2} (x) = 0 \tag {12} \\ \cdot \cdot \cdot \\ h_{k} (x) = 0 \\ \end{array}
 $$
 
 The functions  $h_i(x), i = 1, \dots, k$  build up the constraint set. Note that even though the right-hand side of the equality constraints is zero in the classical formulation of the problem given in (12), this is not restrictive. If in a practical problem the right-hand side happens to be different from zero, it can be equivalently transformed; for example:
 
 $$
-\begin{array}{l} \{x \in \mathbb {R} ^ {n}: v (x) = c \} \Longleftrightarrow \{x \in \mathbb {R} ^ {n}: h _ {1} (x) \\ = v (x) - c = 0 \} \\ \end{array}
+\begin{array}{l} \{x \in \mathbb {R}^{n}: v (x) = c \} \Longleftrightarrow \{x \in \mathbb {R}^{n}: h_{1} (x) \\ = v (x) - c = 0 \} \\ \end{array}
 $$
 
 In order to illustrate the necessary condition for optimality valid for (12), let us consider the following two-dimensional example:
 
 
 $$
-\begin{array}{l} \min  _ {x \in \mathbb {R} ^ {2}} \frac {1}{2} x ^ {\prime} C x \tag {13} \\ \text {s u b j e c t} \quad x ^ {\prime} e = 1 \\ \end{array}
+\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \frac{1}{2} x^{\prime} C x \tag {13} \\ \text{su bj ec t} \quad x^{\prime} e = 1 \\ \end{array}
 $$ where the matrix is
 
 
@@ -354,7 +354,7 @@ Figure 12 The Tangential Contour Line to the Linear Constraint  $x_{1} + x_{2} =
 
 
 $$
-\nabla f \left(x ^ {0}\right) - \mu_ {1} \nabla h _ {1} \left(x ^ {0}\right) - \dots - \mu_ {k} \nabla h _ {k} \left(x ^ {0}\right) = 0 \tag {14}
+\nabla f \left(x^{0}\right) - \mu_{1} \nabla h_{1} \left(x^{0}\right) - \dots - \mu_{k} \nabla h_{k} \left(x^{0}\right) = 0 \tag {14}
 $$ where  $\mu_{i}, i = 1, \ldots, k$  are some real numbers called Lagrange multipliers and the point  $x^{0}$  is such that  $f(x^{0}) \leq f(x)$  for all  $x$  which are feasible. Note that if there are no constraints in the problem, then (14) reduces to the first-order condition we considered in unconstrained optimization. Therefore, the system of equations behind (14) can be viewed as a generalization of the first-order condition in the unconstrained case.
 
 
@@ -363,18 +363,18 @@ The method of a Lagrange multipliers basically associates a function to the prob
 1. Given the problem in (12), construct the following function:
 
 $$
-L (x, \mu) = f (x) - \mu_ {1} h _ {1} (x) - \dots - \mu_ {k} h _ {k} (x) \tag {15}
+L (x, \mu) = f (x) - \mu_{1} h_{1} (x) - \dots - \mu_{k} h_{k} (x) \tag {15}
 $$ where  $\mu = (\mu_{1},\dots ,\mu_{k})$  is the vector of Lagrange multipliers. The function  $L(x,\mu)$  is called the Lagrangian corresponding to problem (12).
 
 
 2. Calculate the partial derivatives with respect to all components of  $x$  and  $\mu$  and set them equal to zero:
 
 $$
-\begin{array}{l} \frac {\partial L (x , \mu)}{\partial x _ {i}} = \frac {\partial f (x)}{\partial x _ {i}} - \sum_ {j = 1} ^ {k} \mu_ {j} \frac {\partial h _ {j} (x)}{\partial x _ {i}} = 0, \\ i = 1, \dots , n \tag {16} \\ \end{array}
+\begin{array}{l} \frac{\partial L (x , \mu)}{\partial x_{i}} = \frac{\partial f (x)}{\partial x_{i}} - \sum_{j = 1}^{k} \mu_{j} \frac{\partial h_{j} (x)}{\partial x_{i}} = 0, \\ i = 1, \dots , n \tag {16} \\ \end{array}
 $$
 
 $$
-\frac {\partial L (x , \mu)}{\partial \mu_ {m}} = h _ {m} (x) = 0, \quad m = 1, \ldots , k
+\frac{\partial L (x , \mu)}{\partial \mu_{m}} = h_{m} (x) = 0, \quad m = 1, \ldots , k
 $$
 
 Basically, the system of equations (16) corresponds to the first-order conditions for unconstrained optimization written for the Lagrangian as a function of both  $x$  and  $\mu$ ,  $L: \mathbb{R}^{n + k} \to \mathbb{R}$ .
@@ -391,19 +391,19 @@ This analysis suggests that the method of Lagrange multipliers provides a necess
 The general form of convex programming problems is
 
 $$
-\begin{array}{l} \min  _ {x} f (x) \\ \text {s u b j e c t} \quad g _ {i} (x) \leq 0, \quad i = 1, \dots , m \tag {17} \\ h _ {j} (x) = 0, \quad j = 1, \dots , k \\ \end{array}
+\begin{array}{l} \min_{x} f (x) \\ \text{su bj ec t} \quad g_{i} (x) \leq 0, \quad i = 1, \dots , m \tag {17} \\ h_{j} (x) = 0, \quad j = 1, \dots , k \\ \end{array}
 $$ where
 
 
-$$ f (x) \qquad \qquad \text {i s a c o n v e x o b j e c t i v e f u n c t i o n}
+$$ f (x) \qquad \qquad \text{is ac on ve xo bj ec ti ve fu nc ti on}
 $$
 
 $$
-\begin{array}{l l} g _ {1} (x), \ldots , g _ {m} (x) & \text {a r e c o n v e x f u n c t i o n s} \\ & \text {d e f i n i n g t h e i n e q u a l i t y} \\ & \text {c o n s t r a i n t s} \end{array}
+\begin{array}{l l} g_{1} (x), \ldots , g_{m} (x) & \text{ar ec on ve xf un ct io ns} \\ & \text{de fi ni ng th ei ne qu al it y} \\ & \text{co ns tr ai nt s} \end{array}
 $$
 
 $$
-\begin{array}{l l} h _ {1} (x), \ldots , h _ {k} (x) & \text {a r e a f f i n e f u n c t i o n s} \\ & \text {d e f i n i n g t h e e q u a l i t y} \\ & \text {c o n s t r a i n t s} \end{array}
+\begin{array}{l l} h_{1} (x), \ldots , h_{k} (x) & \text{ar ea ff in ef un ct io ns} \\ & \text{de fi ni ng th ee qu al it y} \\ & \text{co ns tr ai nt s} \end{array}
 $$
 
 Generally, without the assumptions of convexity, problem (17) is more involved than (12) because besides the equality constraints, there are inequality constraints. The KKT condition, generalizing the method of Lagrange multipliers, is only a necessary condition for optimality in this case. However, adding the assumption of convexity makes the KKT condition necessary and sufficient.
@@ -413,7 +413,7 @@ Note that, similar to problem (12), the fact that the right-hand side of all con
 Consider the following two-dimensional optimization problem
 
 $$
-\begin{array}{l} \min  _ {x \in \mathbb {R} ^ {2}} \quad \frac {1}{2} x ^ {\prime} C x \\ \text {s u b j e c t} (x _ {1} + 2) ^ {2} + (x _ {2} + 2) ^ {2} \leq 3 \tag {18} \\ \end{array}
+\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \quad \frac{1}{2} x^{\prime} C x \\ \text{su bj ec t} (x_{1} + 2)^{2} + (x_{2} + 2)^{2} \leq 3 \tag {18} \\ \end{array}
 $$ in which
 
 
@@ -435,21 +435,21 @@ Figure 14 The Tangential Contour Line to the Feasible Set Defined by a Convex Qu
 In the two-dimensional case, when we can visualize the optimization problem, geometric reasoning guides us to finding the optimal solution point. In a higher dimensional space, plots cannot be produced and we rely on the analytic method behind the KKT conditions. The KKT conditions corresponding to the convex programming problem (17) are the following:
 
 $$
-\nabla f (x) + \sum_ {i = 1} ^ {m} \lambda_ {i} \nabla g _ {i} (x) + \sum_ {j = 1} ^ {k} \mu_ {j} \nabla h _ {j} (x) = 0
+\nabla f (x) + \sum_{i = 1}^{m} \lambda_{i} \nabla g_{i} (x) + \sum_{j = 1}^{k} \mu_{j} \nabla h_{j} (x) = 0
 $$
 
-$$ g _ {i} (x) \leq 0 \quad i = 1, \dots , m
+$$ g_{i} (x) \leq 0 \quad i = 1, \dots , m
 $$
 
-$$ h _ {j} (x) = 0 \quad j = 1, \dots , k \tag {19}
-$$
-
-$$
-\lambda_ {i} g _ {i} (x) = 0, \quad i = 1, \dots , m
+$$ h_{j} (x) = 0 \quad j = 1, \dots , k \tag {19}
 $$
 
 $$
-\lambda_ {i} \geq 0, \quad i = 1, \dots , m
+\lambda_{i} g_{i} (x) = 0, \quad i = 1, \dots , m
+$$
+
+$$
+\lambda_{i} \geq 0, \quad i = 1, \dots , m
 $$
 
 A point  $x^0$  such that  $(x^0, \lambda^0, \mu^0)$  satisfies (19) is the solution to problem (17). Note that if there are no inequality constraints, then the KKT conditions reduce to (16) in the method of Lagrange multipliers. Therefore, the KKT conditions generalize the method of Lagrange multipliers.
@@ -458,12 +458,12 @@ The gradient condition in (19) has the same interpretation as the gradient condi
 
 
 $$
-\begin{array}{l} g _ {i} (x) \leq 0 \quad i = 1, \dots , m \\ h _ {j} (x) = 0 \quad j = 1, \ldots , k \\ \end{array}
+\begin{array}{l} g_{i} (x) \leq 0 \quad i = 1, \dots , m \\ h_{j} (x) = 0 \quad j = 1, \ldots , k \\ \end{array}
 $$ guarantee that a point satisfying (19) is feasible. The next conditions
 
 
 $$
-\lambda_ {i} g _ {i} (x) = 0, \quad i = 1, \ldots , m
+\lambda_{i} g_{i} (x) = 0, \quad i = 1, \ldots , m
 $$ are called complementary slackness conditions. If an inequality constraint is satisfied as a strict inequality, then the corresponding multiplier  $\lambda_{i}$  turns into zero according to the complementary slackness conditions. In this case, the corresponding gradient  $\nabla g_{i}(x)$  has no significance in the gradient condition. This reflects the fact that the gradient condition concerns only the constraints satisfied as equalities at the solution point.
 
 
@@ -474,7 +474,7 @@ Important special cases of convex programming problems include linear programmin
 Optimization problems are said to be linear programming problems if the objective function is a linear function and the feasible set is defined by linear equalities and inequalities. Since all functions are linear, they are also convex, which means that linear programming problems are also convex problems. The definition of linear programming problems in standard form is the following:
 
 $$
-\begin{array}{l} \min  _ {x} c ^ {\prime} x \\ \text {s u b j e c t} A x \leq b \tag {20} \\ x \geq 0 \\ \end{array}
+\begin{array}{l} \min_{x} c^{\prime} x \\ \text{su bj ec t} A x \leq b \tag {20} \\ x \geq 0 \\ \end{array}
 $$ where  $A$  is an  $m \times n$  matrix of coefficients,  $c = (c_{1},\ldots ,c_{n})$  is a vector of objective function coefficients, and  $b = (b_{1},\dots,b_{m})$  is a vector of real numbers. As a result, the constraint set contains  $m$  inequalities defined by linear functions. The feasible points defined by means of linear
 
 
@@ -501,22 +501,22 @@ From computational viewpoint, the polyhedral set has a finite number of vertices
 Besides linear programming, another class of problems with simple structure is the class of quadratic programming problems. It contains optimization problems with a quadratic objective function and linear equalities and inequalities in the constraint set:
 
 $$
-\begin{array}{l l} \min  _ {x} & c ^ {\prime} x + \frac {1}{2} x ^ {\prime} H x \\ \text {s u b j e c t t o} & A x \leq b \end{array} \tag {21}
+\begin{array}{l l} \min_{x} & c^{\prime} x + \frac{1}{2} x^{\prime} H x \\ \text{su bj ec tt o} & A x \leq b \end{array} \tag {21}
 $$ where
 
 
-$$ c = (c _ {1}, \ldots , c _ {n}) \text {i s a v e c t o r o f c o e f f i c i e n t s} \text {d e f i n i n g t h e l i n e a r p a r t o f}
+$$ c = (c_{1}, \ldots , c_{n}) \text{is av ec to ro fc oe ff ic ie nt s} \text{de fi ni ng th el in ea rp ar to f}
 $$
 
 $$
-H = \{h _ {i j} \} _ {i, j = 1} ^ {n} \quad \text {i s a n} n \times n \text {m a t r i x d e f i n i n g} \quad \text {t h e q u a d r a t i c p a r t o f t h e} \quad \text {o b j e c t i v e}
+H = \{h_{i j} \}_{i, j = 1}^{n} \quad \text{is an} n \times n \text{ma tr ix de fi ni ng} \quad \text{th eq ua dr at ic pa rt of th e} \quad \text{ob je ct iv e}
 $$
 
 $$
-A = \{a _ {i j} \} \qquad \begin{array}{l} \text {i s a k \times n m a t r i x d e f i n i n g k} \\ \text {l i n e a r i n e q u a l i t i e s i n t h e} \\ \text {c o n s t r a i n t s e t} \end{array}
+A = \{a_{i j} \} \qquad \begin{array}{l} \text{is ak \timesn ma tr ix de fi ni ng k} \\ \text{li ne ar in eq ua li ti es in th e} \\ \text{co ns tr ai nt se t} \end{array}
 $$
 
-$$ b = (b _ {1}, \ldots , b _ {k}) \begin{array}{l} \text {i s a v e c t o r o f r e a l n u m b e r s} \\ \text {d e f i n i n g t h e r i g h t - h a n d s i d e} \\ \text {o f t h e l i n e a r i n e q u a l i t i e s} \end{array}
+$$ b = (b_{1}, \ldots , b_{k}) \begin{array}{l} \text{is av ec to ro fr ea ln um be rs} \\ \text{de fi ni ng th er ig ht -h an ds id e} \\ \text{of th el in ea ri ne qu al it ie s} \end{array}
 $$
 
 In optimal portfolio theory, mean-variance optimization problems in which portfolio variance is in the objective function are quadratic programming problems.

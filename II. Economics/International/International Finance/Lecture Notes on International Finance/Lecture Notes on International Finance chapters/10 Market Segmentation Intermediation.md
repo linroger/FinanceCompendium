@@ -47,13 +47,13 @@ The households' preferences are similar to those we considered in Section 6.B. H
 consumption and work. The home households' expected lifetime utility is
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} \frac {1}{1 - \gamma} c _ {t} ^ {1 - \gamma} - \frac {1}{1 + 1 / \nu} \ell_ {t} ^ {1 + 1 / \nu} \right].
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} c_{t}^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \ell_{t}^{1 + 1 / \nu} \right].
 $$
 
 Here we consider a more general aggregation function for consumption goods. The home households' consumption bundle is composed of home and foreign goods:
 
 $$
-c _ {t} = \left[ \alpha^ {1 - \eta} c _ {H, t} ^ {\eta} + (1 - \alpha) ^ {1 - \eta} c _ {F, t} ^ {\eta} \right] ^ {1 / \eta}.
+c_{t} = \left[ \alpha^{1 - \eta} c_{H, t}^{\eta} + (1 - \alpha)^{1 - \eta} c_{F, t}^{\eta} \right]^{1 / \eta}.
 $$
 
 The Cobb-Douglas aggregation function we considered in the baseline model is a special case obtained when  $\eta = 0$ . Here we consider a positive  $\eta$  to a more realistic degree of substitutability between home and foreign goods.
@@ -61,7 +61,7 @@ The Cobb-Douglas aggregation function we considered in the baseline model is a s
 We use the home households' consumption bundle as the numétaire. Recall that  $p_t$  is the price of the home good in this numétaire. We use  $k_t$  to denote the capital stock,  $z_t$  to denote the households' gross investment,  $q_t$  to denote the rental rate of capital. The home households' budget constraint is
 
 $$
-\left(w _ {t} \ell_ {t} + q _ {t} k _ {t}\right) + \exp \left(r _ {t - 1}\right) b _ {H, t - 1} = c _ {t} + z _ {t} + b _ {H, t},
+\left(w_{t} \ell_{t} + q_{t} k_{t}\right) + \exp \left(r_{t - 1}\right) b_{H, t - 1} = c_{t} + z_{t} + b_{H, t},
 $$
 
 where the households' labor income  $w_{t}\ell_{t}$  and capital income  $q_{t}k_{t}$  replace their endowment in the baseline model. Moreover, we depart from the baseline model by assuming (1) that the markets are segmented, and the households can only hold their domestic risk-free bond, and (2) that the households can invest in their capital stock.
@@ -69,7 +69,7 @@ where the households' labor income  $w_{t}\ell_{t}$  and capital income  $q_{t}k
 Capital accumulates according to the standard rule:
 
 $$
-k _ {t + 1} = (1 - d) k _ {t} + z _ {t} - \frac {\kappa}{2} \frac {\left(\Delta k _ {t + 1}\right) ^ {2}}{k _ {t}},
+k_{t + 1} = (1 - d) k_{t} + z_{t} - \frac{\kappa}{2} \frac{\left(\Delta k_{t + 1}\right)^{2}}{k_{t}},
 $$
 
 where  $d$  denotes the depreciation rate and  $\frac{\kappa}{2}\frac{(\Delta k_{t+1})^2}{k_t}$  denotes the quadratic adjustment cost.
@@ -77,19 +77,19 @@ where  $d$  denotes the depreciation rate and  $\frac{\kappa}{2}\frac{(\Delta k_
 Similarly, the foreign households maximize their expected lifetime utility:
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} \frac {1}{1 - \gamma} \left(c _ {t} ^ {*}\right) ^ {1 - \gamma} - \frac {1}{1 + 1 / \nu} \left(\ell_ {t} ^ {*}\right) ^ {1 + 1 / \nu} \right],
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \left(\ell_{t}^{*}\right)^{1 + 1 / \nu} \right],
 $$
 
 where their consumption bundle is defined as
 
 $$
-c _ {t} ^ {*} = \left[ \alpha^ {1 - \eta} (c _ {F, t} ^ {*}) ^ {\eta} + (1 - \alpha) ^ {1 - \eta} (c _ {H, t} ^ {*}) ^ {\eta} \right] ^ {1 / \eta}.
+c_{t}^{*} = \left[ \alpha^{1 - \eta} (c_{F, t}^{*})^{\eta} + (1 - \alpha)^{1 - \eta} (c_{H, t}^{*})^{\eta} \right]^{1 / \eta}.
 $$
 
 Likewise, the foreign households can only hold their domestic risk-free bond. Their budget constraint is
 
 $$
-\left(w _ {t} ^ {*} \ell_ {t} ^ {*} + q _ {t} ^ {*} k _ {t} ^ {*}\right) + \exp \left(r _ {t - 1} ^ {*}\right) b _ {F, t - 1} ^ {*} = c _ {t} ^ {*} + z _ {t} ^ {*} + b _ {F, t} ^ {*}.
+\left(w_{t}^{*} \ell_{t}^{*} + q_{t}^{*} k_{t}^{*}\right) + \exp \left(r_{t - 1}^{*}\right) b_{F, t - 1}^{*} = c_{t}^{*} + z_{t}^{*} + b_{F, t}^{*}.
 $$
 
 # 10.A.2 Firms
@@ -97,13 +97,13 @@ $$
 We consider very simple firms in this model. In the home country, the firms use capital  $k_{t}$ , labor  $\ell_{t}$ , and intermediate input which is  $x_{t}$  units of the home consumption bundle to produce  $y_{t}$  units of the home goods:
 
 $$
-y _ {t} = \left(\exp (a _ {t}) k _ {t} ^ {\vartheta} \ell_ {t} ^ {(1 - \vartheta)}\right) ^ {1 - \phi} x _ {t} ^ {\phi}.
+y_{t} = \left(\exp (a_{t}) k_{t}^{\vartheta} \ell_{t}^{(1 - \vartheta)}\right)^{1 - \phi} x_{t}^{\phi}.
 $$
 
 The firms are competitive, unlike the firms with market power that we considered in Section 6. Their revenue  $p_t y_t$  is split among the three factors of production according to their marginal products:
 
 $$
-\begin{array}{l} \ell_ {t} w _ {t} = (1 - \vartheta) (1 - \phi) p _ {t} y _ {t}, \\ k _ {t} q _ {t} = \vartheta (1 - \phi) p _ {t} y _ {t}, \\ x _ {t} = \phi p _ {t} y _ {t}. \\ \end{array}
+\begin{array}{l} \ell_{t} w_{t} = (1 - \vartheta) (1 - \phi) p_{t} y_{t}, \\ k_{t} q_{t} = \vartheta (1 - \phi) p_{t} y_{t}, \\ x_{t} = \phi p_{t} y_{t}. \\ \end{array}
 $$
 
 # 10.A.3 Segmented Markets and Financial Intermediation
@@ -113,37 +113,37 @@ As noted in the beginning of this section, market segmentation and the financial
 The noise traders buy and sell currencies to satisfy their liquidity demand. We assume that there is a measure  $n$  of identical noise traders. In period  $t$ , they hold  $n_t$  units of the home risk-free bond and  $n_t^*$  units of the foreign risk-free bond. They have a zero-cost portfolio, which means their positions in the home and foreign bonds have the same market value with opposite signs:
 
 $$
-\exp (- r _ {t}) n _ {t} = - \exp (- e _ {t}) \exp (- r _ {t} ^ {*}) n _ {t} ^ {*}. \tag {10.1}
+\exp (- r_{t}) n_{t} = - \exp (- e_{t}) \exp (- r_{t}^{*}) n_{t}^{*}. \tag {10.1}
 $$
 
 The size of their position is determined by an exogenous process:
 
 $$
-\exp (- r _ {t}) n _ {t} = n \left(\exp \left(\psi_ {t}\right) - 1\right),
+\exp (- r_{t}) n_{t} = n \left(\exp \left(\psi_{t}\right) - 1\right),
 $$
 
 where
 
 $$
-\psi_ {t + 1} = (1 - \rho_ {\psi}) \bar {\psi} + \rho_ {\psi} \psi_ {t} + \varepsilon_ {\psi , t + 1}.
+\psi_{t + 1} = (1 - \rho_{\psi}) \bar {\psi} + \rho_{\psi} \psi_{t} + \varepsilon_{\psi , t + 1}.
 $$
 
 There is also a measure  $m$  of identical financiers, who absorb the excess demand or supply of bonds from the noise traders and the households and earn a risk premium. They also hold a zero-cost portfolio. In period  $t$ , they hold  $d_t$  units of the home risk-free bond and  $d_t^*$  units of the foreign risk-free bond, which also satisfies the zero-cost constraint:
 
 $$
-\exp (- r _ {t}) d _ {t} = - \exp (- e _ {t}) \exp \left(- r _ {t} ^ {*}\right) d _ {t} ^ {*}. \tag {10.2}
+\exp (- r_{t}) d_{t} = - \exp (- e_{t}) \exp \left(- r_{t}^{*}\right) d_{t}^{*}. \tag {10.2}
 $$
 
 The financiers are myopic and maximize the CARA utility of their return:
 
 $$
-\mathbb {E} _ {0} \left[ - \frac {1}{\omega} \exp (- \omega (1 - \exp (r x _ {t + 1})) d _ {t} ^ {*}) \right],
+\mathbb {E}_{0} \left[ - \frac{1}{\omega} \exp (- \omega (1 - \exp (r x_{t + 1})) d_{t}^{*}) \right],
 $$
 
 where  $rx_{t + 1} \stackrel{\mathrm{def}}{=} \Delta e_{t + 1} + r_t - r_t^*$  is the home currency's expected excess return in log. Itskhoki and Mukhin [2021] consider the continuous-time limit of this problem, in which the optimal solution is given by
 
 $$
-d _ {t} ^ {*} = - \frac {\mathbb {E} _ {t} [ r x _ {t + 1} ] + \frac {1}{2} v a r _ {t} (\Delta e _ {t + 1})}{\omega v a r _ {t} (\Delta e _ {t + 1})}, \tag {10.3}
+d_{t}^{*} = - \frac{\mathbb {E}_{t} [ r x_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1})}{\omega v a r_{t} (\Delta e_{t + 1})}, \tag {10.3}
 $$
 
 This solution is identical to the myopic investors' optimal portfolio choice we derived in Section 9.3. Eq. (10.3) connects the currency's expected excess return to the financiers' portfolio position. These financiers absorb excess positive or negative positions in the bond market, and they charge a risk premium for providing this service. In particular, if they have a positive position in the home bond and a negative position in the foreign bond (i.e.,  $d_t^* < 0$ ), they demand a higher expected return on the home bond to earn a positive expected return on their portfolio. Conversely, if they have a negative position in the home bond and a positive position in the foreign bond (i.e.,  $d_t^* > 0$ ), they demand a higher expected return on the foreign bond to earn a positive expected return on their portfolio. In this way, their optimality condition (10.3) implies a tight link between their portfolio position and the currency's expected return.
@@ -155,7 +155,7 @@ Using the financiers' optimality condition and the market clearing conditions th
 Proposition 10.1. After log-linearization, the currency expected excess return is given by
 
 $$
-\mathbb {E} _ {t} [ r x _ {t + 1} ] \stackrel {d e f} {=} \mathbb {E} _ {t} [ \Delta e _ {t + 1} + r _ {t} - r _ {t} ^ {*} ] = \chi_ {1} \psi_ {t} - \chi_ {2} \frac {b _ {H , t} \exp (r _ {t})}{\bar {Y}}.
+\mathbb {E}_{t} [ r x_{t + 1} ] \stackrel {d e f} {=} \mathbb {E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}.
 $$
 
 The proof is in Appendix A.42. This proposition relates the required excess return to hold the home currency to the equilibrium quantity of imbalances absorbed that the financiers need to absorb,
@@ -165,13 +165,13 @@ which, by market clearing, is further determined by the bond demand of the noise
 Moreover, we can derive an exchange rate accounting formula similar to Proposition 4.2. In this log-linearized model, as we ignore the second-order terms, we effectively attribute all currency expected excess returns to the Euler equation wedge as opposed to the currency risk premium. We obtain
 
 $$
-e _ {t} = \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ r _ {t + j} - r _ {t + j} ^ {*} \right] + \sum_ {j = 0} ^ {\infty} \mathbb {E} _ {t} \left[ w _ {t + j} \right] + \bar {e}, \tag {10.4}
+e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ w_{t + j} \right] + \bar {e}, \tag {10.4}
 $$
 
 where the wedge  $w_{t+j}$  is equal to
 
 $$
-w _ {t + j} = \omega \cdot v a r _ {t + j} (\Delta e _ {t + j + 1}) d _ {t + j} ^ {*},
+w_{t + j} = \omega \cdot v a r_{t + j} (\Delta e_{t + j + 1}) d_{t + j}^{*},
 $$
 
 which can be interpreted as the financiers' price of risk,  $\omega$ , multiplied with the quantity of risk they absorb,  $var_{t+j}(\Delta e_{t+j+1}) d_{t+j}^*$ . The home currency is stronger (i.e.,  $e_t$  is higher) when the financiers have to absorb a large amount of the foreign bond (i.e.,  $d_{t+j}^*$  is large) and requires a higher compensation to hold the foreign currency, which can be triggered by a negative  $\psi_t$  shock.
@@ -181,31 +181,31 @@ which can be interpreted as the financiers' price of risk,  $\omega$ , multiplie
 Since the consumption  $c_{t}$ , the investment  $z_{t}$ , and the intermediate input  $x_{t}$  are all denominated in the home consumption bundle, it is more convenient to first figure out the total amounts of home goods (i.e.,  $y_{H,t}$ ) and foreign goods (i.e.,  $y_{F,t}$ ) that the home households and firms acquire for these objectives. These home and foreign goods are aggregated by the same CES function and satisfy the following resource constraint:
 
 $$
-c _ {t} + z _ {t} + x _ {t} = \left[ \alpha^ {1 - \eta} y _ {H, t} ^ {\eta} + (1 - \alpha) ^ {1 - \eta} y _ {F, t} ^ {\eta} \right] ^ {1 / \eta}.
+c_{t} + z_{t} + x_{t} = \left[ \alpha^{1 - \eta} y_{H, t}^{\eta} + (1 - \alpha)^{1 - \eta} y_{F, t}^{\eta} \right]^{1 / \eta}.
 $$
 
 Likewise, we have the following resource constraint for the foreign households and firms:
 
 $$
-c _ {t} ^ {*} + z _ {t} ^ {*} + x _ {t} ^ {*} = \left[ \alpha^ {1 - \eta} (y _ {F, t} ^ {*}) ^ {\eta} + (1 - \alpha) ^ {1 - \eta} (y _ {H, t} ^ {*}) ^ {\eta} \right] ^ {1 / \eta},
+c_{t}^{*} + z_{t}^{*} + x_{t}^{*} = \left[ \alpha^{1 - \eta} (y_{F, t}^{*})^{\eta} + (1 - \alpha)^{1 - \eta} (y_{H, t}^{*})^{\eta} \right]^{1 / \eta},
 $$
 
 and the home and foreign goods' market clearing conditions can be expressed as
 
 $$
-\begin{array}{l} y _ {t} = y _ {H, t} + y _ {H, t} ^ {*}, \\ y _ {t} ^ {*} = y _ {F, t} + y _ {F, t} ^ {*}. \\ \end{array}
+\begin{array}{l} y_{t} = y_{H, t} + y_{H, t}^{*}, \\ y_{t}^{*} = y_{F, t} + y_{F, t}^{*}. \\ \end{array}
 $$
 
 As for the bond market, the home and foreign bonds are in zero net supply. Their market clearing conditions can be expressed as
 
 $$
-\begin{array}{l} 0 = b _ {H, t} \exp (r _ {t}) + d _ {t} + n _ {t}, \\ 0 = b _ {F, t} ^ {*} \exp \left(r _ {t} ^ {*}\right) + d _ {t} ^ {*} + n _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} 0 = b_{H, t} \exp (r_{t}) + d_{t} + n_{t}, \\ 0 = b_{F, t}^{*} \exp \left(r_{t}^{*}\right) + d_{t}^{*} + n_{t}^{*}, \\ \end{array}
 $$
 
 Since the intermediary holds a zero-cost bond portfolio (see Eq. (10.1)), and so does the noise traders (see Eq. (10.2)), and the bonds are in zero supply, then, the market clearing condition implies that the home and foreign households combined must also hold a zero-cost bond portfolio:
 
 $$
-b _ {H, t} = - \exp (- e _ {t}) b _ {F, t} ^ {*}.
+b_{H, t} = - \exp (- e_{t}) b_{F, t}^{*}.
 $$
 
 # 10.A.5 Macro Synthesis
@@ -213,131 +213,131 @@ $$
 The exogenous variables are the productivity shocks and the noise traders' demand shocks:
 
 $$
-(a _ {t}, a _ {t} ^ {*}, \psi_ {t}) _ {t = 0} ^ {\infty}.
+(a_{t}, a_{t}^{*}, \psi_{t})_{t = 0}^{\infty}.
 $$
 
 There are 27 endogenous variables in each period  $t$ :
 
 $$
-(y _ {t}, y _ {H, t}, y _ {F, t}, c _ {t}, k _ {t}, z _ {t}, x _ {t}, \ell_ {t}, b _ {H, t}, q _ {t}, w _ {t}, r _ {t}, p _ {t}, y _ {t} ^ {*}, y _ {H, t} ^ {*}, y _ {F, t} ^ {*}, c _ {t} ^ {*}, k _ {t} ^ {*}, z _ {t} ^ {*}, x _ {t} ^ {*}, \ell_ {t} ^ {*}, b _ {F, t} ^ {*}, q _ {t} ^ {*}, w _ {t} ^ {*}, r _ {t} ^ {*}, p _ {t} ^ {*}, e _ {t}) _ {t = 0} ^ {\infty},
+(y_{t}, y_{H, t}, y_{F, t}, c_{t}, k_{t}, z_{t}, x_{t}, \ell_{t}, b_{H, t}, q_{t}, w_{t}, r_{t}, p_{t}, y_{t}^{*}, y_{H, t}^{*}, y_{F, t}^{*}, c_{t}^{*}, k_{t}^{*}, z_{t}^{*}, x_{t}^{*}, \ell_{t}^{*}, b_{F, t}^{*}, q_{t}^{*}, w_{t}^{*}, r_{t}^{*}, p_{t}^{*}, e_{t})_{t = 0}^{\infty},
 $$
 
 plus two auxiliary variables  $\exp(m_{t+1})$  and  $\exp(m_{t+1}^*)$  that denote the home and foreign SDFs/marginal utility growth:
 
 $$
-\begin{array}{l} \exp (m _ {t + 1}) = \delta \frac {u ^ {\prime} (c _ {t + 1})}{u ^ {\prime} (c _ {t})}, \\ \exp (m _ {t + 1} ^ {*}) = \delta \frac {u ^ {\prime} (c _ {t + 1} ^ {*})}{u ^ {\prime} (c _ {t} ^ {*})}. \\ \end{array}
+\begin{array}{l} \exp (m_{t + 1}) = \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})}, \\ \exp (m_{t + 1}^{*}) = \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})}. \\ \end{array}
 $$
 
 The model implies the following 28 equations in each period, one of which is redundant because the market clearing adds up to the sum of households' budget constraints. These 28 equations include 2 consumption aggregation equations,
 
 $$
-\begin{array}{l} c _ {t} + z _ {t} + x _ {t} = \left[ \alpha^ {1 - \eta} y _ {H, t} ^ {\eta} + (1 - \alpha) ^ {1 - \eta} y _ {F, t} ^ {\eta} \right] ^ {1 / \eta}, \\ c _ {t} ^ {*} + z _ {t} ^ {*} + x _ {t} ^ {*} = \left[ \alpha^ {1 - \eta} (y _ {F, t} ^ {*}) ^ {\eta} + (1 - \alpha) ^ {1 - \eta} (y _ {H, t} ^ {*}) ^ {\eta} \right] ^ {1 / \eta}, \\ \end{array}
+\begin{array}{l} c_{t} + z_{t} + x_{t} = \left[ \alpha^{1 - \eta} y_{H, t}^{\eta} + (1 - \alpha)^{1 - \eta} y_{F, t}^{\eta} \right]^{1 / \eta}, \\ c_{t}^{*} + z_{t}^{*} + x_{t}^{*} = \left[ \alpha^{1 - \eta} (y_{F, t}^{*})^{\eta} + (1 - \alpha)^{1 - \eta} (y_{H, t}^{*})^{\eta} \right]^{1 / \eta}, \\ \end{array}
 $$
 
 2 goods market clearing conditions,
 
 $$
-y _ {t} = y _ {H, t} + y _ {H, t} ^ {*},
+y_{t} = y_{H, t} + y_{H, t}^{*},
 $$
 
 $$
-y _ {t} ^ {*} = y _ {F, t} + y _ {F, t} ^ {*},
+y_{t}^{*} = y_{F, t} + y_{F, t}^{*},
 $$
 
 6 optimality conditions for within-period consumption and labor choices,
 
 $$
-\left[ \alpha^ {1 - \eta} y _ {H, t} ^ {\eta} + (1 - \alpha) ^ {1 - \eta} y _ {F, t} ^ {\eta} \right] ^ {1 / \eta - 1} \alpha^ {1 - \eta} y _ {H, t} ^ {\eta - 1} = p _ {t},
+\left[ \alpha^{1 - \eta} y_{H, t}^{\eta} + (1 - \alpha)^{1 - \eta} y_{F, t}^{\eta} \right]^{1 / \eta - 1} \alpha^{1 - \eta} y_{H, t}^{\eta - 1} = p_{t},
 $$
 
 $$
-\left[ \alpha^ {1 - \eta} y _ {H, t} ^ {\eta} + (1 - \alpha) ^ {1 - \eta} y _ {F, t} ^ {\eta} \right] ^ {1 / \eta - 1} (1 - \alpha) ^ {1 - \eta} y _ {F, t} ^ {\eta - 1} = p _ {t} ^ {*} \exp (- e _ {t}),
+\left[ \alpha^{1 - \eta} y_{H, t}^{\eta} + (1 - \alpha)^{1 - \eta} y_{F, t}^{\eta} \right]^{1 / \eta - 1} (1 - \alpha)^{1 - \eta} y_{F, t}^{\eta - 1} = p_{t}^{*} \exp (- e_{t}),
 $$
 
 $$
-\ell_ {t} ^ {1 / \nu} = c _ {t} ^ {- \gamma} w _ {t},
+\ell_{t}^{1 / \nu} = c_{t}^{- \gamma} w_{t},
 $$
 
 $$
-\begin{array}{l} \left[ \alpha^ {1 - \eta} (y _ {F, t} ^ {*}) ^ {\eta} + (1 - \alpha) ^ {1 - \eta} (y _ {H, t} ^ {*}) ^ {\eta} \right] ^ {1 / \eta - 1} \alpha^ {1 - \eta} (y _ {F, t} ^ {*}) ^ {\eta - 1} = p _ {t} ^ {*}, \\ \left[ \alpha^ {1 - \eta} (y _ {F, t} ^ {*}) ^ {\eta} + (1 - \alpha) ^ {1 - \eta} (y _ {H, t} ^ {*}) ^ {\eta} \right] ^ {1 / \eta - 1} (1 - \alpha) ^ {1 - \eta} (y _ {H, t} ^ {*}) ^ {\eta - 1} = p _ {t} \exp (e _ {t}), \\ \left(\ell_ {t} ^ {*}\right) ^ {1 / \nu} = \left(c _ {t} ^ {*}\right) ^ {- \gamma} w _ {t} ^ {*}, \\ \end{array}
+\begin{array}{l} \left[ \alpha^{1 - \eta} (y_{F, t}^{*})^{\eta} + (1 - \alpha)^{1 - \eta} (y_{H, t}^{*})^{\eta} \right]^{1 / \eta - 1} \alpha^{1 - \eta} (y_{F, t}^{*})^{\eta - 1} = p_{t}^{*}, \\ \left[ \alpha^{1 - \eta} (y_{F, t}^{*})^{\eta} + (1 - \alpha)^{1 - \eta} (y_{H, t}^{*})^{\eta} \right]^{1 / \eta - 1} (1 - \alpha)^{1 - \eta} (y_{H, t}^{*})^{\eta - 1} = p_{t} \exp (e_{t}), \\ \left(\ell_{t}^{*}\right)^{1 / \nu} = \left(c_{t}^{*}\right)^{- \gamma} w_{t}^{*}, \\ \end{array}
 $$
 
 8 equations that govern firm production and factor prices,
 
 $$
-y _ {t} = \left(\exp \left(a _ {t}\right) k _ {t} ^ {\vartheta} \ell_ {t} ^ {(1 - \vartheta)}\right) ^ {1 - \phi} x _ {t} ^ {\phi},
+y_{t} = \left(\exp \left(a_{t}\right) k_{t}^{\vartheta} \ell_{t}^{(1 - \vartheta)}\right)^{1 - \phi} x_{t}^{\phi},
 $$
 
 $$
-\ell_ {t} w _ {t} = p _ {t} (1 - \vartheta) (1 - \phi) y _ {t},
+\ell_{t} w_{t} = p_{t} (1 - \vartheta) (1 - \phi) y_{t},
 $$
 
 $$
-k _ {t} q _ {t} = p _ {t} \vartheta (1 - \phi) y _ {t},
+k_{t} q_{t} = p_{t} \vartheta (1 - \phi) y_{t},
 $$
 
 $$
-x _ {t} = p _ {t} \phi y _ {t},
+x_{t} = p_{t} \phi y_{t},
 $$
 
 $$
-y _ {t} ^ {*} = \left(\exp \left(a _ {t} ^ {*}\right) \left(k _ {t} ^ {*}\right) ^ {\vartheta} \left(\ell_ {t} ^ {*}\right) ^ {(1 - \vartheta)}\right) ^ {1 - \phi} \left(x _ {t} ^ {*}\right) ^ {\phi},
+y_{t}^{*} = \left(\exp \left(a_{t}^{*}\right) \left(k_{t}^{*}\right)^{\vartheta} \left(\ell_{t}^{*}\right)^{(1 - \vartheta)}\right)^{1 - \phi} \left(x_{t}^{*}\right)^{\phi},
 $$
 
 $$
-\ell_ {t} ^ {*} w _ {t} ^ {*} = p _ {t} ^ {*} (1 - \vartheta) (1 - \phi) y _ {t} ^ {*},
+\ell_{t}^{*} w_{t}^{*} = p_{t}^{*} (1 - \vartheta) (1 - \phi) y_{t}^{*},
 $$
 
 $$
-k _ {t} ^ {*} q _ {t} ^ {*} = p _ {t} ^ {*} \vartheta (1 - \phi) y _ {t} ^ {*},
+k_{t}^{*} q_{t}^{*} = p_{t}^{*} \vartheta (1 - \phi) y_{t}^{*},
 $$
 
 $$
-x _ {t} ^ {*} = p _ {t} ^ {*} \phi y _ {t} ^ {*},
+x_{t}^{*} = p_{t}^{*} \phi y_{t}^{*},
 $$
 
 4 equations that govern capital accumulation,
 
 $$
-z _ {t} = k _ {t + 1} - (1 - d) k _ {t} + \frac {\kappa}{2} \frac {(\Delta k _ {t + 1}) ^ {2}}{k _ {t}},
+z_{t} = k_{t + 1} - (1 - d) k_{t} + \frac{\kappa}{2} \frac{(\Delta k_{t + 1})^{2}}{k_{t}},
 $$
 
 $$
-\begin{array}{l} 1 + \kappa \frac {\Delta k _ {t + 1}}{k _ {t}} = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \left(q _ {t + 1} + 1 - d + \kappa \frac {\Delta k _ {t + 2}}{k _ {t + 1}} + \frac {\kappa}{2} \left(\frac {\Delta k _ {t + 2}}{k _ {t + 1}}\right) ^ {2}\right) \right], \\ z _ {t} ^ {*} = k _ {t + 1} ^ {*} - (1 - d) ^ {*} k _ {t} + \frac {\kappa}{2} \frac {(\Delta k _ {t + 1} ^ {*}) ^ {2}}{k _ {t} ^ {*}}, \\ \end{array}
+\begin{array}{l} 1 + \kappa \frac{\Delta k_{t + 1}}{k_{t}} = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \left(q_{t + 1} + 1 - d + \kappa \frac{\Delta k_{t + 2}}{k_{t + 1}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}}{k_{t + 1}}\right)^{2}\right) \right], \\ z_{t}^{*} = k_{t + 1}^{*} - (1 - d)^{*} k_{t} + \frac{\kappa}{2} \frac{(\Delta k_{t + 1}^{*})^{2}}{k_{t}^{*}}, \\ \end{array}
 $$
 
 $$
-1 + \kappa \frac {\Delta k _ {t + 1} ^ {*}}{k _ {t} ^ {*}} = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \left(q _ {t + 1} ^ {*} + 1 - d + \kappa \frac {\Delta k _ {t + 2} ^ {*}}{k _ {t + 1} ^ {*}} + \frac {\kappa}{2} \left(\frac {\Delta k _ {t + 2} ^ {*}}{k _ {t + 1} ^ {*}}\right) ^ {2}\right) \right],
+1 + \kappa \frac{\Delta k_{t + 1}^{*}}{k_{t}^{*}} = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \left(q_{t + 1}^{*} + 1 - d + \kappa \frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}}\right)^{2}\right) \right],
 $$
 
 3 Euler equations for households and the intermediary,
 
 $$
-1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \exp (r _ {t}) \right], \tag {10.5}
+1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right], \tag {10.5}
 $$
 
 $$
-1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \exp \left(r _ {t} ^ {*}\right) \right], \tag {10.6}
+1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp \left(r_{t}^{*}\right) \right], \tag {10.6}
 $$
 
 $$
-\mathbb {E} _ {t} \left[ \Delta e _ {t + 1} + r _ {t} - r _ {t} ^ {*} \right] = \chi_ {1} \psi_ {t} - \chi_ {2} \frac {b _ {H , t} \exp \left(r _ {t}\right)}{\bar {Y}}, \tag {10.7}
+\mathbb {E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp \left(r_{t}\right)}{\bar {Y}}, \tag {10.7}
 $$
 
 2 budget constraints for households,
 
 $$
-\left(w _ {t} \ell_ {t} + q _ {t} k _ {t}\right) + \exp \left(r _ {t - 1}\right) b _ {H, t - 1} = c _ {t} + z _ {t} + b _ {H, t},
+\left(w_{t} \ell_{t} + q_{t} k_{t}\right) + \exp \left(r_{t - 1}\right) b_{H, t - 1} = c_{t} + z_{t} + b_{H, t},
 $$
 
 $$
-\left(w _ {t} ^ {*} \ell_ {t} ^ {*} + q _ {t} ^ {*} k _ {t} ^ {*}\right) + \exp \left(r _ {t - 1} ^ {*}\right) b _ {F, t - 1} ^ {*} = c _ {t} ^ {*} + z _ {t} ^ {*} + b _ {F, t} ^ {*},
+\left(w_{t}^{*} \ell_{t}^{*} + q_{t}^{*} k_{t}^{*}\right) + \exp \left(r_{t - 1}^{*}\right) b_{F, t - 1}^{*} = c_{t}^{*} + z_{t}^{*} + b_{F, t}^{*},
 $$
 
 and 1 bond market clearing condition,
 
 $$
-b _ {H, t} = - \exp (- e _ {t}) b _ {F, t} ^ {*}. \tag {10.8}
+b_{H, t} = - \exp (- e_{t}) b_{F, t}^{*}. \tag {10.8}
 $$
 
 # 10.B Comparing Segmented Markets with Convenience Yields
@@ -345,7 +345,7 @@ $$
 The market segmentation mechanism we develop in the previous section is in fact very similar to the convenience yield model that we considered in Section 7.C. In the model with market segmentation, the households' and the intermediaries' (log-linearized) Euler equations (10.5)-(10.7) imply the following risk-sharing condition:
 
 $$
-\chi_ {1} \psi_ {t} - \chi_ {2} \frac {b _ {H , t} \exp (r _ {t})}{\bar {Y}} = \mathbb {E} _ {t} [ \Delta e _ {t + 1} - \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) ], \tag {10.9}
+\chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}} = \mathbb {E}_{t} [ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) ], \tag {10.9}
 $$
 
 which deviates from the complete-market case  $0 = \Delta e_{t + 1} - (m_{t + 1} - m_{t + 1}^{*})$  in Section 1.C by introducing a wedge on the left-hand side and by introducing the expectation operator so that the condition only holds on average.
@@ -353,35 +353,35 @@ which deviates from the complete-market case  $0 = \Delta e_{t + 1} - (m_{t + 1}
 If we replace these equations with the following Euler equations from the model with convenience yields:
 
 $$
-\exp (- \lambda_ {H, t}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} + r _ {t}) \right],
+\exp (- \lambda_{H, t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right],
 $$
 
 $$
-\exp \left(- \lambda_ {F, t}\right) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} - \Delta e _ {t + 1} + r _ {t} ^ {*}\right) \right], \tag {10.10}
+\exp \left(- \lambda_{F, t}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {10.10}
 $$
 
 $$
-\exp (- \lambda_ {F, t} ^ {*}) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} ^ {*} + r _ {t} ^ {*}\right) \right],
+\exp (- \lambda_{F, t}^{*}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
 $$
 
 $$
-\exp (- \lambda_ {H, t} ^ {*}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {*} + \Delta e _ {t + 1} + r _ {t}) \right],
+\exp (- \lambda_{H, t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
 $$
 
 change the bond market clearing condition to include the government's supply:
 
 $$
-\bar {b} _ {t} = b _ {H, t} + b _ {H, t} ^ {*},
+\bar {b}_{t} = b_{H, t} + b_{H, t}^{*},
 $$
 
 $$
-\bar {b} _ {t} ^ {*} = b _ {F, t} + b _ {F, t} ^ {*},
+\bar {b}_{t}^{*} = b_{F, t} + b_{F, t}^{*},
 $$
 
 and modify the households' budget conditions accordingly to include both home and foreign bonds, we are very close to recovering the convenience yield model. More precisely, we can log-linearize the above equations in the convenience yield model, and obtain
 
 $$
-- \left(\lambda_ {H, t} ^ {*} - \lambda_ {H, t}\right) = - \left(\lambda_ {F, t} ^ {*} - \lambda_ {F, t}\right) = \mathbb {E} _ {t} \left[ \Delta e _ {t + 1} - \left(m _ {t + 1} - m _ {t + 1} ^ {*}\right) \right]. \tag {10.11}
+- \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = - \left(\lambda_{F, t}^{*} - \lambda_{F, t}\right) = \mathbb {E}_{t} \left[ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) \right]. \tag {10.11}
 $$
 
 Both Eq. (10.9) in the segmented market model and Eq. (10.11) in the convenience yield model introduce a wedge to the risk-sharing condition, which breaks the tight link between the exchange rate and the households' marginal utilities. The difference is that, in the model with market segmentation, the wedge is driven by the portfolio imbalances born by the financiers, whereas in the model with convenience yields, the wedge is driven by the households' demand for safe assets.
@@ -393,21 +393,21 @@ To facilitate the comparison between the segmented market model and the convenie
 Their only difference is in the asset market. The Euler equations (10.5) to (10.7) in the segmented market model, reproduced below,
 
 $$
-1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \exp (r _ {t}) \right],
+1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right],
 $$
 
 $$
-1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \exp (r _ {t} ^ {*}) \right],
+1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) \right],
 $$
 
 $$
-\mathbb {E} _ {t} \big [ \Delta e _ {t + 1} + r _ {t} - r _ {t} ^ {*} \big ] = \chi_ {1} \psi_ {t} - \chi_ {2} \frac {b _ {H , t} \exp (r _ {t})}{\bar {Y}},
+\mathbb {E}_{t} \big [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \big ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}},
 $$
 
 are replaced by the Euler equations with convenience yields:
 
 $$
-\begin{array}{l} 1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \exp (r _ {t}) + \frac {\omega_ {H} b _ {H , t} ^ {- \sigma}}{c _ {t} ^ {- \gamma}} \right], \\ 1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \exp \left(- \Delta e _ {t + 1} + r _ {t} ^ {*}\right) + \frac {\omega_ {F} b _ {F , t} ^ {- \sigma}}{c _ {t} ^ {- \gamma}} \exp (e _ {t}) \right], \\ 1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \exp (r _ {t} ^ {*}) + \frac {\omega_ {F} ^ {*} (b _ {F , t} ^ {*}) ^ {- \sigma}}{(c _ {t} ^ {*}) ^ {- \gamma}} \right], \\ 1 = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \exp (\Delta e _ {t + 1} + r _ {t}) + \frac {\omega_ {H} ^ {*} (b _ {H , t} ^ {*}) ^ {- \sigma} + (\bar {c} ^ {*}) ^ {- \gamma} \theta_ {H , t} ^ {*}}{(c _ {t} ^ {*}) ^ {- \gamma}} \exp (- e _ {t}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) + \frac{\omega_{F} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
 $$
 
 This set of equations, based on Jiang [2023a] that we discussed in Section 7.C, is a simple specification of the general case described by Eq. (10.10). It allows households to freely trade both home and foreign bonds, but introduces the convenience yield wedges in their bond valuations.
@@ -415,11 +415,11 @@ This set of equations, based on Jiang [2023a] that we discussed in Section 7.C, 
 Moreover, the bond market clearing conditions are different: the convenience yield model assumes positive net supplies, and replaces Eq. (10.8) in the segmented market model by
 
 $$
-b _ {H, t} + b _ {H, t} ^ {*} = \bar {b},
+b_{H, t} + b_{H, t}^{*} = \bar {b},
 $$
 
 $$
-b _ {F, t} ^ {*} + b _ {F, t} = \bar {b} ^ {*}.
+b_{F, t}^{*} + b_{F, t} = \bar {b}^{*}.
 $$
 
 The household budget constraints are also slightly different because households can trade foreign bonds in the convenience yield model, but not in the segmented market model.
@@ -445,11 +445,11 @@ Table 10.1: Parameter Values.
 wedges  $\lambda_{F,t}^{SM}$  and  $\lambda_{H,t}^{SM,*}$  as
 
 $$
-\exp (- \lambda_ {F, t} ^ {S M}) = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1}}{c _ {t}}\right) ^ {- \gamma} \exp (- \Delta e _ {t + 1} + r _ {t} ^ {*}) \right],
+\exp (- \lambda_{F, t}^{S M}) = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) \right],
 $$
 
 $$
-\exp (- \lambda_ {H, t} ^ {S M, *}) = \mathbb {E} _ {t} \left[ \delta \left(\frac {c _ {t + 1} ^ {*}}{c _ {t} ^ {*}}\right) ^ {- \gamma} \exp (\Delta e _ {t + 1} + r _ {t}) \right],
+\exp (- \lambda_{H, t}^{S M, *}) = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) \right],
 $$
 
 and the other two wedges for domestic bond holdings,  $\lambda_{H,t}^{SM}$  and  $\lambda_{F,t}^{SM,*}$ , are always zero because the agents can freely trade their local
@@ -508,13 +508,13 @@ traders instead accumulate a long position on the U.S. bond. So, if we want to d
 Moreover, the segmented market model and the convenience yield model also generate different long-run dynamics. For example, while the dollar exchange rate and the U.S.-foreign consumption differential increase persistently upon the shock's arrival in both models, they eventually decline below the steady-state level in the segmented market model, but not in the convenience yield model. To understand this difference, let us recall the net foreign assets (NFA) dynamics (9.4), reproduced below:
 
 $$
-n f a _ {t} - n f a _ {t - 1} = t b _ {t} + (i b _ {t} + c g _ {t}).
+n f a_{t} - n f a_{t - 1} = t b_{t} + (i b_{t} + c g_{t}).
 $$
 
 In both models, the NFA shifts upon the shock's arrival, but it needs to revert to the steady-state level in the long run, which requires adjustments in either the trade balance  $tb$  or the financial flow  $ib + cg$  in subsequent periods. Formally, since  $\lim_{k\to \infty}\mathbb{E}_t[nfa_{t + k}] = \overline{nfa}$ , we can iterate the NFA dynamics (9.4) and obtain
 
 $$
-n f a _ {t} = \overline {{n f a}} - \sum_ {k = 1} ^ {\infty} [ t b _ {t + k} + (i b _ {t + k} + c g _ {t + k}) ],
+n f a_{t} = \overline {{n f a}} - \sum_{k = 1}^{\infty} [ t b_{t + k} + (i b_{t + k} + c g_{t + k}) ],
 $$
 
 which means that if the U.S. runs a negative NFA today, it has to be offset by positive trade balances or by positive financial gains relative to the foreign country [Gourinchas and Rey, 2007a]. In the segmented market model, this is achieved only by the trade channel: the negative U.S. trade balance in the near term is offset by a positive trade balance in the long term. $^{1}$
@@ -536,7 +536,7 @@ Second, the convenience yield mechanism provides an economic interpretation for 
 Third, is the bond convenience yield on the dollar bond all there is to the wedge-based view of the exchange rate dynamics? Let us return to the Euler equations (10.10) with slightly different labeling:
 
 $$
-\begin{array}{l} \exp (- \lambda_ {t}) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} + r _ {t}\right) \right], \\ \exp (- \xi_ {t}) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} - \Delta e _ {t + 1} + r _ {t} ^ {*}\right) \right], \\ \exp (- \xi_ {t} ^ {*}) = \mathbb {E} _ {t} \left[ \exp (m _ {t + 1} ^ {*} + r _ {t} ^ {*}) \right], \\ \exp \left(- \lambda_ {t} ^ {*}\right) = \mathbb {E} _ {t} \left[ \exp \left(m _ {t + 1} ^ {*} + \Delta e _ {t + 1} + r _ {t}\right) \right], \\ \end{array}
+\begin{array}{l} \exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ \exp (- \xi_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \exp (- \xi_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ \exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
 $$
 
 which emphasizes that  $\lambda_{t}$  and  $\lambda_{t}^{*}$  are the non-pecuniary utilities that home and foreign households derive from the U.S. bond, whereas  $\xi_{t}$  and  $\xi_{t}^{*}$  are the non-pecuniary utilities that home and foreign households derive from the foreign bond. Assuming joint normality, Jiang, Krishnamurthy, and Lustig [2023a] show the following result.
@@ -544,7 +544,7 @@ which emphasizes that  $\lambda_{t}$  and  $\lambda_{t}^{*}$  are the non-pecuni
 Proposition 10.2. The exchange rate's conditional cyclicality can be expressed as
 
 $$
-c o v _ {t} \left(m _ {t + 1} - m _ {t + 1} ^ {*}, \Delta e _ {t + 1}\right) = v a r _ {t} \left(\Delta e _ {t + 1}\right) + \left(\lambda_ {t} ^ {*} - \lambda_ {t}\right) - \left(\xi_ {t} ^ {*} - \xi_ {t}\right). \tag {10.12}
+c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = v a r_{t} \left(\Delta e_{t + 1}\right) + \left(\lambda_{t}^{*} - \lambda_{t}\right) - \left(\xi_{t}^{*} - \xi_{t}\right). \tag {10.12}
 $$
 
 The proof is presented in Appendix A.43. What is remarkable about this result is that the wedges  $\lambda_{t},\lambda_{t}^{*},\xi_{t},\xi_{t}^{*}$  enter the determination of the exchange rate cyclicity in their levels as opposed to their covariances with the SDFs, so that even a constant wedge can affect the exchange rate cyclicity. This is because the presence of the wedges endogenously requires the exchange rate cyclicity to adjust to be consistent with the Euler equations.
@@ -552,7 +552,7 @@ The proof is presented in Appendix A.43. What is remarkable about this result is
 If our objective is to generate a zero or negative covariance between the SDF differential and the exchange rate movement, i.e.,  $cov_{t}(m_{t,t+1} - m_{t,t+1}^{*}, \Delta s_{t+1}) \leq 0$ , which is motivated by the finding that the exchange rate is acyclical or even procyclical with respect to the local business cycles [Backus and Smith, 1993], then, our usual specification of the dollar convenience yield, under which the foreign households derive a higher non-pecuniary utility from the U.S. bond than the U.S. investors, i.e.,
 
 $$
-\lambda_ {t} ^ {*} - \lambda_ {t} > 0,
+\lambda_{t}^{*} - \lambda_{t} > 0,
 $$
 
 will not suffice. In fact, holding the exchange rate variance constant, a higher convenience yield differential would increase the covariance between the SDF differential and the exchange rate movement.
@@ -560,13 +560,13 @@ will not suffice. In fact, holding the exchange rate variance constant, a higher
 We need the foreign households to also derive higher convenience yield on the foreign bond than the U.S. households, i.e.,
 
 $$
-\left. \xi_ {t} ^ {*} - \xi_ {t} > 0, \right.
+\left. \xi_{t}^{*} - \xi_{t} > 0, \right.
 $$
 
 which could lower the exchange rate cyclicality and even make it negative, so that the foreign currency depreciates when the foreign marginal utility is high. This condition can be interpreted as the U.S. households finding it very undesirable to hold the foreign bond, which can result from a strong home bias. In fact, we can rewrite Eq. (10.12) as
 
 $$
-c o v _ {t} \left(m _ {t, t + 1} - m _ {t, t + 1} ^ {*}, \Delta s _ {t + 1}\right) = v a r _ {t} \left(\Delta s _ {t + 1}\right) + \left(\lambda_ {t} ^ {*} + \xi_ {t}\right) - \left(\xi_ {t} ^ {*} + \lambda_ {t}\right),
+c o v_{t} \left(m_{t, t + 1} - m_{t, t + 1}^{*}, \Delta s_{t + 1}\right) = v a r_{t} \left(\Delta s_{t + 1}\right) + \left(\lambda_{t}^{*} + \xi_{t}\right) - \left(\xi_{t}^{*} + \lambda_{t}\right),
 $$
 
 where  $(\lambda_t^* + \xi_t)$  are the Euler equation wedge for cross-country investments from the perspectives of both households, and  $(\xi_t^* + \lambda_t)$  are the Euler equation wedge for domestic investments from the perspectives of both households. A stronger home bias in the form of a negative convenience yield for cross-country investments in either country can make the exchange rate more pro-cyclical with respect to the local business cycles.
@@ -610,25 +610,25 @@ We again consider two countries: home and foreign. There is a unit mass of house
 Active households can trade a complete set of state-contingent claims in international markets. They behave like the households in the complete-market version of the baseline model in Section 1.C. Let  $\phi \in (0,1)$  denote the fraction of these households in each country. We use  $(a)$  to denote the active households. The active households in the home country maximize their expected lifetime utility
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} u (c _ {t} (a)) \right],
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (a)) \right],
 $$
 
 and their consumption is a Cobb-Douglas aggregate of home and foreign goods:
 
 $$
-c _ {t} (a) = (c _ {H, t} (a)) ^ {\alpha} (c _ {F, t} (a)) ^ {1 - \alpha}.
+c_{t} (a) = (c_{H, t} (a))^{\alpha} (c_{F, t} (a))^{1 - \alpha}.
 $$
 
 Inactive households have identical preferences. We use  $(i)$  to denote the inactive households. They maximize their expected lifetime utility
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} u (c _ {t} (i)) \right],
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (i)) \right],
 $$
 
 and their consumption is a Cobb-Douglas aggregate of home and foreign goods:
 
 $$
-c _ {t} (i) = \left(c _ {H, t} (i)\right) ^ {\alpha} \left(c _ {F, t} (i)\right) ^ {1 - \alpha}.
+c_{t} (i) = \left(c_{H, t} (i)\right)^{\alpha} \left(c_{F, t} (i)\right)^{1 - \alpha}.
 $$
 
 They cannot trade any financial claims. Instead, they cede their endowments to the active households and receive a stochastic transfer, which is denoted as  $\tau_{t}$  for each inactive household in the home country and  $\tau_{t}^{*}$  for each inactive household in the foreign country. Inactive households can still participate in the goods market, where they use their transfers to purchase home and foreign goods.
@@ -638,13 +638,13 @@ Because the active and inactive households in the home country have identical pr
 Let  $p_t$  denote the price of home goods in the home consumption bundle, let  $a_{t-1}(a)$  denote the financial wealth held by the active households, and let  $\exp(r_t^a)$  denote the gross return on this wealth portfolio. The home active households' budget constraint can be expressed as
 
 $$
-p _ {t} y _ {t} + \phi a _ {t - 1} (a) \exp \left(r _ {t} ^ {a}\right) = \phi \left(c _ {t} (a) + a _ {t} (a)\right) + (1 - \phi) \tau_ {t},
+p_{t} y_{t} + \phi a_{t - 1} (a) \exp \left(r_{t}^{a}\right) = \phi \left(c_{t} (a) + a_{t} (a)\right) + (1 - \phi) \tau_{t},
 $$
 
 and the home inactive households' budget constraint can be expressed as
 
 $$
-(1 - \phi) \tau_ {t} = (1 - \phi) c _ {t} (i).
+(1 - \phi) \tau_{t} = (1 - \phi) c_{t} (i).
 $$
 
 The active and inactive households in the foreign country are similarly specified. This model simplifies to the complete-market version of the baseline model in Section 1.C when the share of active households approaches 1, i.e.,  $\phi \rightarrow 1$ .
@@ -654,7 +654,7 @@ The active and inactive households in the foreign country are similarly specifie
 Because the active households have access to the complete markets, the First Welfare Theorem holds for them. We can again use the social planner approach to derive the equilibrium allocation. Specifically, the social planner maximizes a weighted sum of the active households' welfare:
 
 $$
-\mathbb {E} _ {0} \left[ \sum_ {t = 0} ^ {\infty} \delta^ {t} (\pi u (c _ {t}) + (1 - \pi) u (c _ {t} ^ {*})) \right].
+\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right].
 $$
 
 If we only consider the active agents from home and foreign countries, the transfer to the inactive households takes away resources available to them. Effectively, the resources that the social planner allocates between the active households in home and foreign countries are equal to the total endowment minus the transfer. Thus, we can
@@ -662,11 +662,11 @@ If we only consider the active agents from home and foreign countries, the trans
 write the social planner's resource constraints as
 
 $$
-y _ {t} - (1 - \phi) \left(c _ {H, t} (i) + c _ {H, t} ^ {*} (i)\right) = \phi \left(c _ {H, t} (a) + c _ {H, t} ^ {*} (a)\right),
+y_{t} - (1 - \phi) \left(c_{H, t} (i) + c_{H, t}^{*} (i)\right) = \phi \left(c_{H, t} (a) + c_{H, t}^{*} (a)\right),
 $$
 
 $$
-y _ {t} ^ {*} - (1 - \phi) \left(c _ {F, t} (i) + c _ {F, t} ^ {*} (i)\right) = \phi \left(c _ {F, t} (a) + c _ {F, t} ^ {*} (a)\right),
+y_{t}^{*} - (1 - \phi) \left(c_{F, t} (i) + c_{F, t}^{*} (i)\right) = \phi \left(c_{F, t} (a) + c_{F, t}^{*} (a)\right),
 $$
 
 where we moved the inactive households' consumption to the left-hand side in order to emphasize what is available to the active households.
@@ -674,13 +674,13 @@ where we moved the inactive households' consumption to the left-hand side in ord
 The social planner's Lagrangian is
 
 $$
-\begin{array}{l} \mathbb {E} _ {0} \left[ \sum_ {t = 1} ^ {\infty} \delta^ {t} (\pi u (c _ {t} (a)) + (1 - \pi) u (c _ {t} ^ {*} (a))) \right. \\ + \sum_ {t = 1} ^ {\infty} \zeta_ {H, t} \left(y _ {t} - \phi \left(c _ {H, t} (a) + c _ {H, t} ^ {*} (a)\right) - (1 - \phi) \left(c _ {H, t} (i) + c _ {H, t} ^ {*} (i)\right)\right) \\ \left. + \sum_ {t = 1} ^ {\infty} \zeta_ {F, t} (y _ {t} ^ {*} - \phi (c _ {F, t} (a) + c _ {F, t} ^ {*} (a)) - (1 - \phi) (c _ {F, t} (i) + c _ {F, t} ^ {*} (i))) \right], \\ \end{array}
+\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t} (a)) + (1 - \pi) u (c_{t}^{*} (a))) \right. \\ + \sum_{t = 1}^{\infty} \zeta_{H, t} \left(y_{t} - \phi \left(c_{H, t} (a) + c_{H, t}^{*} (a)\right) - (1 - \phi) \left(c_{H, t} (i) + c_{H, t}^{*} (i)\right)\right) \\ \left. + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - \phi (c_{F, t} (a) + c_{F, t}^{*} (a)) - (1 - \phi) (c_{F, t} (i) + c_{F, t}^{*} (i))) \right], \\ \end{array}
 $$
 
 which implies the following standard first-order conditions
 
 $$
-\begin{array}{l} \text {w . r . t .} c _ {H, t} (a): \quad \delta^ {t} \pi u ^ {\prime} (c _ {t} (a)) \alpha \left(\frac {c _ {F , t} (a)}{c _ {H , t} (a)}\right) ^ {1 - \alpha} = \phi \zeta_ {H, t}, \\ \text {w . r . t .} c _ {H, t} ^ {*} (a): \quad \delta^ {t} (1 - \pi) u ^ {\prime} (c _ {t} ^ {*} (a)) (1 - \alpha) \left(\frac {c _ {F , t} ^ {*} (a)}{c _ {H , t} ^ {*} (a)}\right) ^ {\alpha} = \phi \zeta_ {H, t}, \\ \begin{array}{l l} \text {w . r . t .} c _ {F, t} (a): & \delta^ {t} \pi u ^ {\prime} (c _ {t} (a)) (1 - \alpha) \left(\frac {c _ {H , t} (a)}{c _ {F , t} (a)}\right) ^ {\alpha} = \phi \zeta_ {F, t}, \end{array} \\ \text {w . r . t .} c _ {F, t} ^ {*} (a): \quad \delta^ {t} (1 - \pi) u ^ {\prime} (c _ {t} ^ {*} (a)) \alpha \left(\frac {c _ {H , t} ^ {*} (a)}{c _ {F , t} ^ {*} (a)}\right) ^ {1 - \alpha} = \phi \zeta_ {F, t}. \\ \end{array}
+\begin{array}{l} \text{w .r .t .} c_{H, t} (a): \quad \delta^{t} \pi u^{\prime} (c_{t} (a)) \alpha \left(\frac{c_{F , t} (a)}{c_{H , t} (a)}\right)^{1 - \alpha} = \phi \zeta_{H, t}, \\ \text{w .r .t .} c_{H, t}^{*} (a): \quad \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*} (a)) (1 - \alpha) \left(\frac{c_{F , t}^{*} (a)}{c_{H , t}^{*} (a)}\right)^{\alpha} = \phi \zeta_{H, t}, \\ \begin{array}{l l} \text{w .r .t .} c_{F, t} (a): & \delta^{t} \pi u^{\prime} (c_{t} (a)) (1 - \alpha) \left(\frac{c_{H , t} (a)}{c_{F , t} (a)}\right)^{\alpha} = \phi \zeta_{F, t}, \end{array} \\ \text{w .r .t .} c_{F, t}^{*} (a): \quad \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*} (a)) \alpha \left(\frac{c_{H , t}^{*} (a)}{c_{F , t}^{*} (a)}\right)^{1 - \alpha} = \phi \zeta_{F, t}. \\ \end{array}
 $$
 
 # 10.C.3 Macro Synthesis
@@ -688,29 +688,29 @@ $$
 The exogenous variables are the endowment shocks and the transfer shocks:
 
 $$
-\left(y _ {t}, y _ {t} ^ {*}, \tau_ {t}, \tau_ {t} ^ {*}\right) _ {t = 0} ^ {\infty}.
+\left(y_{t}, y_{t}^{*}, \tau_{t}, \tau_{t}^{*}\right)_{t = 0}^{\infty}.
 $$
 
 There are 14 endogenous variables in each period  $t$ :
 
 $$
-\left(c _ {t} (a), c _ {H, t} (a), c _ {F, t} (a), c _ {t} (i), c _ {H, t} (i), c _ {F, t} (i), \zeta_ {H, t}, c _ {t} ^ {*} (a), c _ {H, t} ^ {*} (a), c _ {F, t} ^ {*} (a), c _ {t} ^ {*} (i), c _ {H, t} ^ {*} (i), c _ {F, t} ^ {*} (i), \zeta_ {F, t}\right) _ {t = 0} ^ {\infty}.
+\left(c_{t} (a), c_{H, t} (a), c_{F, t} (a), c_{t} (i), c_{H, t} (i), c_{F, t} (i), \zeta_{H, t}, c_{t}^{*} (a), c_{H, t}^{*} (a), c_{F, t}^{*} (a), c_{t}^{*} (i), c_{H, t}^{*} (i), c_{F, t}^{*} (i), \zeta_{F, t}\right)_{t = 0}^{\infty}.
 $$
 
 The model implies the following 14 equations in each period, which include 4 consumption aggregation equations,
 
 $$
-\begin{array}{l} c _ {t} (a) = \left(c _ {H, t} (a)\right) ^ {\alpha} \left(c _ {F, t} (a)\right) ^ {1 - \alpha}, \\ c _ {t} ^ {*} (a) = \left(c _ {F, t} ^ {*} (a)\right) ^ {\alpha} \left(c _ {H, t} ^ {*} (a)\right) ^ {1 - \alpha}, \\ c _ {t} (i) = \left(c _ {H, t} (i)\right) ^ {\alpha} \left(c _ {F, t} (i)\right) ^ {1 - \alpha}, \\ c _ {t} ^ {*} (i) = (c _ {F, t} ^ {*} (i)) ^ {\alpha} (c _ {H, t} ^ {*} (i)) ^ {1 - \alpha}, \\ \end{array}
+\begin{array}{l} c_{t} (a) = \left(c_{H, t} (a)\right)^{\alpha} \left(c_{F, t} (a)\right)^{1 - \alpha}, \\ c_{t}^{*} (a) = \left(c_{F, t}^{*} (a)\right)^{\alpha} \left(c_{H, t}^{*} (a)\right)^{1 - \alpha}, \\ c_{t} (i) = \left(c_{H, t} (i)\right)^{\alpha} \left(c_{F, t} (i)\right)^{1 - \alpha}, \\ c_{t}^{*} (i) = (c_{F, t}^{*} (i))^{\alpha} (c_{H, t}^{*} (i))^{1 - \alpha}, \\ \end{array}
 $$
 
 2 social planner's resource constraints,
 
 $$
-y _ {t} = \phi \left(c _ {H, t} (a) + c _ {H, t} ^ {*} (a)\right) + (1 - \phi) \left(c _ {H, t} (i) + c _ {H, t} ^ {*} (i)\right),
+y_{t} = \phi \left(c_{H, t} (a) + c_{H, t}^{*} (a)\right) + (1 - \phi) \left(c_{H, t} (i) + c_{H, t}^{*} (i)\right),
 $$
 
 $$
-y _ {t} ^ {*} = \phi (c _ {F, t} (a) + c _ {F, t} ^ {*} (a)) + (1 - \phi) (c _ {F, t} (i) + c _ {F, t} ^ {*} (i)),
+y_{t}^{*} = \phi (c_{F, t} (a) + c_{F, t}^{*} (a)) + (1 - \phi) (c_{F, t} (i) + c_{F, t}^{*} (i)),
 $$
 
 4 active households' first-order conditions,
@@ -723,37 +723,37 @@ w.r.t.  $c_{F,t}^{*}(a)$ $\delta^t (1 - \pi)u'(c_t^* (a))\alpha \left(\frac{c_{H
 2 inactive households' budget constraints,
 
 $$
-\tau_ {t} = c _ {t} (i),
+\tau_{t} = c_{t} (i),
 $$
 
 $$
-\tau_ {t} ^ {*} = c _ {t} ^ {*} (i),
+\tau_{t}^{*} = c_{t}^{*} (i),
 $$
 
 2 inactive households' within-period solutions,
 
 $$
-\frac {c _ {H , t} (a)}{c _ {F , t} (a)} = \frac {c _ {H , t} (i)}{c _ {F , t} (i)},
+\frac{c_{H , t} (a)}{c_{F , t} (a)} = \frac{c_{H , t} (i)}{c_{F , t} (i)},
 $$
 
 $$
-\frac {c _ {H , t} ^ {*} (a)}{c _ {F , t} ^ {*} (a)} = \frac {c _ {H , t} ^ {*} (i)}{c _ {F , t} ^ {*} (i)}.
+\frac{c_{H , t}^{*} (a)}{c_{F , t}^{*} (a)} = \frac{c_{H , t}^{*} (i)}{c_{F , t}^{*} (i)}.
 $$
 
 This equation system does not contain equilibrium prices such as goods prices and the exchange rate, because the solution to the social planner's problem directly implies the equilibrium allocation. Once we have the equilibrium allocation, we can then use the within-period solutions to solve for the equilibrium prices. As shown in Section 1.C, the optimality conditions for the active households' optimization problem imply that the goods prices are given by
 
 $$
-p _ {t} = \alpha \left(\frac {c _ {F , t} (a)}{c _ {H , t} (a)}\right) ^ {1 - \alpha},
+p_{t} = \alpha \left(\frac{c_{F , t} (a)}{c_{H , t} (a)}\right)^{1 - \alpha},
 $$
 
 $$
-p _ {t} ^ {*} = \alpha \left(\frac {c _ {H , t} ^ {*} (a)}{c _ {F , t} ^ {*} (a)}\right) ^ {1 - \alpha},
+p_{t}^{*} = \alpha \left(\frac{c_{H , t}^{*} (a)}{c_{F , t}^{*} (a)}\right)^{1 - \alpha},
 $$
 
 and the exchange rate is given by
 
 $$
-\pi u ^ {\prime} \left(c _ {t} (a)\right) = (1 - \pi) u ^ {\prime} \left(c _ {t} ^ {*} (a)\right) \exp \left(e _ {t}\right).
+\pi u^{\prime} \left(c_{t} (a)\right) = (1 - \pi) u^{\prime} \left(c_{t}^{*} (a)\right) \exp \left(e_{t}\right).
 $$
 
 # 10.C.4 Linearized Solution
@@ -763,67 +763,67 @@ We use  $\hat{x} = \log (x / \bar{x})$  to denote the log deviation of a variabl
 Assume the households have CRRA utility with parameter  $\gamma$ . Below, we take the steady state variables as given and log linearize the system, which includes 4 consumption aggregation equations,
 
 $$
-\hat {c} _ {t} (a) = \alpha \hat {c} _ {H, t} (a) + (1 - \alpha) \hat {c} _ {F, t} (a),
+\hat {c}_{t} (a) = \alpha \hat {c}_{H, t} (a) + (1 - \alpha) \hat {c}_{F, t} (a),
 $$
 
 $$
-\hat {c} _ {t} ^ {*} (a) = \alpha \hat {c} _ {F, t} ^ {*} (a) + (1 - \alpha) \hat {c} _ {H, t} ^ {*} (a),
+\hat {c}_{t}^{*} (a) = \alpha \hat {c}_{F, t}^{*} (a) + (1 - \alpha) \hat {c}_{H, t}^{*} (a),
 $$
 
 $$
-\hat {c} _ {t} (i) = \alpha \hat {c} _ {H, t} (i) + (1 - \alpha) \hat {c} _ {F, t} (i),
+\hat {c}_{t} (i) = \alpha \hat {c}_{H, t} (i) + (1 - \alpha) \hat {c}_{F, t} (i),
 $$
 
 $$
-\hat {c} _ {t} ^ {*} (i) = \alpha \hat {c} _ {F, t} ^ {*} (i) + (1 - \alpha) \hat {c} _ {H, t} ^ {*} (i),
+\hat {c}_{t}^{*} (i) = \alpha \hat {c}_{F, t}^{*} (i) + (1 - \alpha) \hat {c}_{H, t}^{*} (i),
 $$
 
 2 social planner's resource constraints,
 
 $$
-\bar {y} \hat {y} _ {t} = \phi (\bar {c} _ {H} (a) \hat {c} _ {H, t} (a) + \bar {c} _ {H} ^ {*} (a) \hat {c} _ {H, t} ^ {*} (a)) + (1 - \phi) (\bar {c} _ {H} (i) \hat {c} _ {H, t} (i) + \bar {c} _ {H} ^ {*} (i) \hat {c} _ {H, t} ^ {*} (i)),
+\bar {y} \hat {y}_{t} = \phi (\bar {c}_{H} (a) \hat {c}_{H, t} (a) + \bar {c}_{H}^{*} (a) \hat {c}_{H, t}^{*} (a)) + (1 - \phi) (\bar {c}_{H} (i) \hat {c}_{H, t} (i) + \bar {c}_{H}^{*} (i) \hat {c}_{H, t}^{*} (i)),
 $$
 
 $$
-\bar {y} ^ {*} \hat {y} _ {t} ^ {*} = \phi (\bar {c} _ {F} (a) \hat {c} _ {F, t} (a) + \bar {c} _ {F} ^ {*} (a) \hat {c} _ {F, t} ^ {*} (a)) + (1 - \phi) (\bar {c} _ {F} (i) \hat {c} _ {F, t} (i) + \bar {c} _ {F} ^ {*} (i) \hat {c} _ {F, t} ^ {*} (i)),
+\bar {y}^{*} \hat {y}_{t}^{*} = \phi (\bar {c}_{F} (a) \hat {c}_{F, t} (a) + \bar {c}_{F}^{*} (a) \hat {c}_{F, t}^{*} (a)) + (1 - \phi) (\bar {c}_{F} (i) \hat {c}_{F, t} (i) + \bar {c}_{F}^{*} (i) \hat {c}_{F, t}^{*} (i)),
 $$
 
 4 active households' first-order conditions,
 
 $$
-w. r. t. c _ {H, t} (a): \quad - \gamma \hat {c} _ {t} (a) + (1 - \alpha) \hat {c} _ {F, t} (a) - (1 - \alpha) \hat {c} _ {H, t} (a) = \hat {\zeta} _ {H, t},
+w. r. t. c_{H, t} (a): \quad - \gamma \hat {c}_{t} (a) + (1 - \alpha) \hat {c}_{F, t} (a) - (1 - \alpha) \hat {c}_{H, t} (a) = \hat {\zeta}_{H, t},
 $$
 
 $$
-w. r. t. c _ {H, t} ^ {*} (a): - \gamma \hat {c} _ {t} ^ {*} (a) + \alpha \hat {c} _ {F, t} ^ {*} (a) - \alpha \hat {c} _ {H, t} ^ {*} (a) = \hat {\zeta} _ {H, t},
+w. r. t. c_{H, t}^{*} (a): - \gamma \hat {c}_{t}^{*} (a) + \alpha \hat {c}_{F, t}^{*} (a) - \alpha \hat {c}_{H, t}^{*} (a) = \hat {\zeta}_{H, t},
 $$
 
 $$
-\mathrm {w . r . t .} c _ {F, t} (a): \quad - \gamma \hat {c} _ {t} (a) + \alpha \hat {c} _ {H, t} (a) - \alpha \hat {c} _ {F, t} (a) = \hat {\zeta} _ {F, t},
+\mathrm{w .r .t .} c_{F, t} (a): \quad - \gamma \hat {c}_{t} (a) + \alpha \hat {c}_{H, t} (a) - \alpha \hat {c}_{F, t} (a) = \hat {\zeta}_{F, t},
 $$
 
 $$
-w. r. t. c _ {F, t} ^ {*} (a): - \gamma \hat {c} _ {t} ^ {*} (a) + (1 - \alpha) \hat {c} _ {H, t} ^ {*} (a) - (1 - \alpha) \hat {c} _ {F, t} ^ {*} (a) = \hat {\zeta} _ {F, t},
+w. r. t. c_{F, t}^{*} (a): - \gamma \hat {c}_{t}^{*} (a) + (1 - \alpha) \hat {c}_{H, t}^{*} (a) - (1 - \alpha) \hat {c}_{F, t}^{*} (a) = \hat {\zeta}_{F, t},
 $$
 
 2 inactive households' budget constraints,
 
 $$
-\hat {\tau} _ {t} = \hat {c} _ {t} (i),
+\hat {\tau}_{t} = \hat {c}_{t} (i),
 $$
 
 $$
-\hat {\tau} _ {t} ^ {*} = \hat {c} _ {t} ^ {*} (i),
+\hat {\tau}_{t}^{*} = \hat {c}_{t}^{*} (i),
 $$
 
 2 inactive households' within-period solutions,
 
 $$
-\hat {c} _ {H, t} (a) - \hat {c} _ {F, t} (a) = \hat {c} _ {H, t} (i) - \hat {c} _ {F, t} (i),
+\hat {c}_{H, t} (a) - \hat {c}_{F, t} (a) = \hat {c}_{H, t} (i) - \hat {c}_{F, t} (i),
 $$
 
 $$
-\hat {c} _ {H, t} ^ {*} (a) - \hat {c} _ {F, t} ^ {*} (a) = \hat {c} _ {H, t} ^ {*} (i) - \hat {c} _ {F, t} ^ {*} (i).
+\hat {c}_{H, t}^{*} (a) - \hat {c}_{F, t}^{*} (a) = \hat {c}_{H, t}^{*} (i) - \hat {c}_{F, t}^{*} (i).
 $$
 
 We can easily solve this system of linear equations. The solutions are given by the following proposition. For convenience, we define each country's aggregate consumption as  $c_{t} = \phi c_{t}(a) + (1 - \phi)c_{t}(i)$  and  $c_{t}^{*} = \phi c_{t}^{*}(a) + (1 - \phi)c_{t}^{*}(i)$ .
@@ -831,7 +831,7 @@ We can easily solve this system of linear equations. The solutions are given by 
 Proposition 10.3. After the log-linearization, the equilibrium consumption can be expressed as
 
 $$
-\left[ \begin{array}{c} \hat {c} _ {H, t} (a) \\ \hat {c} _ {F, t} (a) \\ \hat {c} _ {H, t} ^ {*} (a) \\ \hat {c} _ {F, t} ^ {*} (a) \end{array} \right] = A ^ {- 1} \left[ \begin{array}{c} \bar {y} \hat {y} _ {t} - (1 - \phi) \bar {c} _ {H} (i) \hat {\tau} _ {t} - (1 - \phi) \bar {c} _ {H} ^ {*} (i) \hat {\tau} _ {t} ^ {*} \\ \bar {y} ^ {*} \hat {y} _ {t} ^ {*} - (1 - \phi) \bar {c} _ {F} (i) \hat {\tau} _ {t} - (1 - \phi) \bar {c} _ {F} ^ {*} (i) \hat {\tau} _ {t} ^ {*} \\ 0 \\ 0 \end{array} \right],
+\left[ \begin{array}{c} \hat {c}_{H, t} (a) \\ \hat {c}_{F, t} (a) \\ \hat {c}_{H, t}^{*} (a) \\ \hat {c}_{F, t}^{*} (a) \end{array} \right] = A^{- 1} \left[ \begin{array}{c} \bar {y} \hat {y}_{t} - (1 - \phi) \bar {c}_{H} (i) \hat {\tau}_{t} - (1 - \phi) \bar {c}_{H}^{*} (i) \hat {\tau}_{t}^{*} \\ \bar {y}^{*} \hat {y}_{t}^{*} - (1 - \phi) \bar {c}_{F} (i) \hat {\tau}_{t} - (1 - \phi) \bar {c}_{F}^{*} (i) \hat {\tau}_{t}^{*} \\ 0 \\ 0 \end{array} \right],
 $$
 
 where  $A$  is given by
@@ -841,23 +841,23 @@ A =
 $$
 
 $$
-\left[ \begin{array}{c c c c} \phi \bar {c} _ {H} (a) + (1 - \phi) (1 - \alpha) \bar {c} _ {H} (i) & - (1 - \phi) (1 - \alpha) \bar {c} _ {H} (i) & \phi \bar {c} _ {H} ^ {*} (a) + (1 - \phi) \alpha \bar {c} _ {H} ^ {*} (i) & - (1 - \phi) \alpha \bar {c} _ {H} ^ {*} (i) \\ - (1 - \phi) \alpha \bar {c} _ {F} (i) & \phi \bar {c} _ {F} (a) + (1 - \phi) \alpha \bar {c} _ {F} (i) & - (1 - \phi) (1 - \alpha) \bar {c} _ {F} ^ {*} (i) & \phi \bar {c} _ {F} ^ {*} (a) + (1 - \phi) (1 - \alpha) \bar {c} _ {F} ^ {*} (i) \\ \alpha - 1 - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha + \gamma - \gamma \alpha & (\gamma - 1) \alpha \\ (\gamma - 1) \alpha & \alpha + \gamma - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha - 1 - \gamma \alpha \end{array} \right],
+\left[ \begin{array}{c c c c} \phi \bar {c}_{H} (a) + (1 - \phi) (1 - \alpha) \bar {c}_{H} (i) & - (1 - \phi) (1 - \alpha) \bar {c}_{H} (i) & \phi \bar {c}_{H}^{*} (a) + (1 - \phi) \alpha \bar {c}_{H}^{*} (i) & - (1 - \phi) \alpha \bar {c}_{H}^{*} (i) \\ - (1 - \phi) \alpha \bar {c}_{F} (i) & \phi \bar {c}_{F} (a) + (1 - \phi) \alpha \bar {c}_{F} (i) & - (1 - \phi) (1 - \alpha) \bar {c}_{F}^{*} (i) & \phi \bar {c}_{F}^{*} (a) + (1 - \phi) (1 - \alpha) \bar {c}_{F}^{*} (i) \\ \alpha - 1 - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha + \gamma - \gamma \alpha & (\gamma - 1) \alpha \\ (\gamma - 1) \alpha & \alpha + \gamma - \gamma \alpha & (1 - \gamma) (1 - \alpha) & \alpha - 1 - \gamma \alpha \end{array} \right],
 $$
 
 and the total consumption is given by
 
 $$
-\hat {c} _ {t} = \phi \bar {c} _ {t} (a) \hat {c} _ {t} (a) + (1 - \phi) \bar {c} _ {t} (i) \hat {c} _ {t} (i),
+\hat {c}_{t} = \phi \bar {c}_{t} (a) \hat {c}_{t} (a) + (1 - \phi) \bar {c}_{t} (i) \hat {c}_{t} (i),
 $$
 
 $$
-\hat {c} _ {t} ^ {*} = \phi \bar {c} _ {t} ^ {*} (a) \hat {c} _ {t} ^ {*} (a) + (1 - \phi) \bar {c} _ {t} ^ {*} (i) \hat {c} _ {t} ^ {*} (i),
+\hat {c}_{t}^{*} = \phi \bar {c}_{t}^{*} (a) \hat {c}_{t}^{*} (a) + (1 - \phi) \bar {c}_{t}^{*} (i) \hat {c}_{t}^{*} (i),
 $$
 
 the exchange rate is given by
 
 $$
-\hat {e} _ {t} = - \gamma \left(\hat {c} _ {t} (a) - \hat {c} _ {t} ^ {*} (a)\right). \tag {10.13}
+\hat {e}_{t} = - \gamma \left(\hat {c}_{t} (a) - \hat {c}_{t}^{*} (a)\right). \tag {10.13}
 $$
 
 The proof is in Appendix A.44. This model separates the exchange rate and the aggregate consumption by introducing market segmentation. On the one hand, as the active households have access to the complete markets, their consumption growth is tightly connected to the exchange rate movement as shown in Eq. (10.13). On the other hand, while the inactive households are insulated from the financial markets, their consumption still accounts for a large share of the aggregate consumption, leading to a disconnect between the aggregate consumption and the exchange rate.
@@ -865,25 +865,25 @@ The proof is in Appendix A.44. This model separates the exchange rate and the ag
 We consider a special case in which  $\pi = 1/2$ ,  $\bar{y} = \bar{y}^* = 1$ ,  $\bar{\tau} = \bar{\tau}^* = \alpha^\alpha (1 - \alpha)^{1 - \alpha}$ . In this case, all active and inactive households' steady-state consumption of domestic goods is  $\alpha$  and that of foreign goods is  $1 - \alpha$ :
 
 $$
-\bar {c} _ {H} (a) = \bar {c} _ {H} (i) = \bar {c} _ {F} ^ {*} (a) = \bar {c} _ {F} ^ {*} (i) = \alpha ,
+\bar {c}_{H} (a) = \bar {c}_{H} (i) = \bar {c}_{F}^{*} (a) = \bar {c}_{F}^{*} (i) = \alpha ,
 $$
 
 $$
-\bar {c} _ {F} (a) = \bar {c} _ {F} (i) = \bar {c} _ {H} ^ {*} (a) = \bar {c} _ {H} ^ {*} (i) = 1 - \alpha .
+\bar {c}_{F} (a) = \bar {c}_{F} (i) = \bar {c}_{H}^{*} (a) = \bar {c}_{H}^{*} (i) = 1 - \alpha .
 $$
 
 We further assume almost perfect home bias, i.e.,  $\alpha \rightarrow 1$ , and, for simplicity, the following correlation structure:
 
 $$
-\rho \stackrel {\text {d e f}} {=} c o r r _ {t} (\hat {\tau} _ {t + 1}, \hat {y} _ {t + 1}) = c o r r _ {t} (\hat {\tau} _ {t + 1} ^ {*}, \hat {y} _ {t + 1} ^ {*}),
+\rho \stackrel {\text{de f}} {=} c o r r_{t} (\hat {\tau}_{t + 1}, \hat {y}_{t + 1}) = c o r r_{t} (\hat {\tau}_{t + 1}^{*}, \hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_ {y} ^ {2} \stackrel {\text {d e f}} {=} v a r _ {t} (\hat {y} _ {t + 1}) = v a r _ {t} (\hat {y} _ {t + 1} ^ {*}),
+\sigma_{y}^{2} \stackrel {\text{de f}} {=} v a r_{t} (\hat {y}_{t + 1}) = v a r_{t} (\hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_ {\tau} ^ {2} \stackrel {\text {d e f}} {=} v a r _ {t} \left(\hat {\tau} _ {t + 1}\right) = v a r _ {t} \left(\hat {\tau} _ {t + 1} ^ {*}\right).
+\sigma_{\tau}^{2} \stackrel {\text{de f}} {=} v a r_{t} \left(\hat {\tau}_{t + 1}\right) = v a r_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
 $$
 
 Then, we obtain the following result:
@@ -891,29 +891,29 @@ Then, we obtain the following result:
 Proposition 10.4. Under these additional assumptions, the exchange rate and the aggregate consumption growth differential can be expressed as
 
 $$
-\hat {e} _ {t} = - \frac {\gamma}{\phi} (\hat {y} _ {t} - \hat {y} _ {t} ^ {*}) + \frac {\gamma}{\phi} (1 - \phi) (\hat {\tau} _ {t} - \hat {\tau} _ {t} ^ {*}),
+\hat {e}_{t} = - \frac{\gamma}{\phi} (\hat {y}_{t} - \hat {y}_{t}^{*}) + \frac{\gamma}{\phi} (1 - \phi) (\hat {\tau}_{t} - \hat {\tau}_{t}^{*}),
 $$
 
 $$
-\hat {c} _ {t} ^ {*} - \hat {c} _ {t} = - \left(\hat {y} _ {t} - \hat {y} _ {t} ^ {*}\right),
+\hat {c}_{t}^{*} - \hat {c}_{t} = - \left(\hat {y}_{t} - \hat {y}_{t}^{*}\right),
 $$
 
 which implies
 
 $$
-\operatorname {c o r r} _ {t} \left(\hat {e} _ {t + 1}, \hat {c} _ {t + 1} ^ {*} - \hat {c} _ {t + 1}\right) = \frac {1 - (1 - \phi) \rho \frac {\sigma_ {\tau}}{\sigma_ {y}}}{\sqrt {1 + (1 - \phi) ^ {2} \frac {\sigma_ {\tau} ^ {2}}{\sigma_ {y} ^ {2}} - 2 (1 - \phi) \rho \frac {\sigma_ {\tau}}{\sigma_ {y}}}}.
+\operatorname{co rr}_{t} \left(\hat {e}_{t + 1}, \hat {c}_{t + 1}^{*} - \hat {c}_{t + 1}\right) = \frac{1 - (1 - \phi) \rho \frac{\sigma_{\tau}}{\sigma_{y}}}{\sqrt{1 + (1 - \phi)^{2} \frac{\sigma_{\tau}^{2}}{\sigma_{y}^{2}} - 2 (1 - \phi) \rho \frac{\sigma_{\tau}}{\sigma_{y}}}}.
 $$
 
 In comparison, the active households' consumption differential can be expressed as
 
 $$
-\hat {c} _ {t + 1} ^ {*} (a) - \hat {c} _ {t + 1} (a) = \frac {1}{\phi} [ (\hat {y} _ {t + 1} ^ {*} - \hat {y} _ {t + 1}) - (1 - \phi) (\hat {\tau} _ {t + 1} ^ {*} - \hat {\tau} _ {t + 1}) ],
+\hat {c}_{t + 1}^{*} (a) - \hat {c}_{t + 1} (a) = \frac{1}{\phi} [ (\hat {y}_{t + 1}^{*} - \hat {y}_{t + 1}) - (1 - \phi) (\hat {\tau}_{t + 1}^{*} - \hat {\tau}_{t + 1}) ],
 $$
 
 which leads to a Backus-Smith correlation of 1 between the exchange rate and the active households' consumption differential:
 
 $$
-c o r r _ {t} \big (\hat {e} _ {t + 1}, \hat {c} _ {t + 1} ^ {*} (a) - \hat {c} _ {t + 1} (a) \big) = 1.
+c o r r_{t} \big (\hat {e}_{t + 1}, \hat {c}_{t + 1}^{*} (a) - \hat {c}_{t + 1} (a) \big) = 1.
 $$
 
 The proof is in Appendix A.45. If there is no inactive households, i.e.,  $\phi = 1$ , then, the consumption growth and exchange rate are perfectly correlated:  $corr_{t}(\hat{e}_{t + 1},\hat{c}_{t + 1}^{*} - \hat{c}_{t + 1}) = 1$ . We obtain the complete-market benchmark in which a low home consumption growth is associated with a high home marginal utility growth and thus a home currency appreciation.

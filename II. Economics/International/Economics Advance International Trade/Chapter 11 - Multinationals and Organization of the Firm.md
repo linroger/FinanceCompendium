@@ -48,10 +48,10 @@ assets owned by either firm. Rauch and Trindade (2000) model this informational 
 We begin our analysis with the simplest case of a capital inflow into an economy producing just one good, as in MacDougall (1960). Suppose that the production function is given by  $y = f(L, K)$ , which is linearly homogeneous and concave. Normalizing the product price at unity, the rental on capital is  $r = f_K(L, K)$ , with  $f_{KK} < 0$ . Denote the domestic capital stock by  $K_0$  and the foreign inflow of capital by  $K^*$ . The equilibrium rental in the absence of the foreign capital is shown by  $r_0$  in Figure 11.1, and in the presence of the capital inflow by  $r_1$ . The foreign capital earns the amount  $r_1K^*$ , which is taken out of the country. The increase in GDP due to the capital inflow is,
 
 $$
-\Delta \mathrm {y} = \int_ {\mathrm {K} _ {0}} ^ {\mathrm {K} _ {0} + \mathrm {K} ^ {*}} \mathrm {f} _ {\mathrm {K}} \mathrm {d K} = \mathrm {A} + \mathrm {B}. \tag {11.1}
+\Delta \mathrm{y} = \int_{\mathrm{K}_{0}}^{\mathrm{K}_{0} + \mathrm{K}^{*}} \mathrm{f}_{\mathrm{K}} \mathrm{dK} = \mathrm{A} + \mathrm{B}. \tag {11.1}
 $$
 
-Subtracting the payment to foreign capital,  $\mathrm{r_lK^* = B}$ , the net welfare gain to the home country is the area A. Thus, the inflow of foreign capital creates a welfare gain.
+Subtracting the payment to foreign capital,  $\mathrm{r_lK^* =B}$ , the net welfare gain to the home country is the area A. Thus, the inflow of foreign capital creates a welfare gain.
 
 What is the source of this gain? It is evident from Figure 11.1 that as capital enters it depresses the rental, so that the payments to foreign capital (B) are less than the total area under
 
@@ -150,13 +150,13 @@ costs in country i, and there is an additional fixed cost of establishing a plan
 We borrow the demand structure from our treatment of monopolistic competition in chapter 5. With country  $j$  having a CES utility function over the differentiated product, its demand  $c^{ij}$  for a variety sent from country  $i$  is:
 
 $$
-\mathrm {c} ^ {\mathrm {i j}} = \left(\mathrm {p} ^ {\mathrm {i j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right), \tag {11.2}
+\mathrm{c}^{\mathrm{ij}} = \left(\mathrm{p}^{\mathrm{ij}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right), \tag {11.2}
 $$
 
 $\mathrm{Y}^{\mathrm{j}}$  is country j's GDP and  $\mathbf{P}^{\mathrm{j}}$  refers to country j's overall price index, defined as:
 
 $$
-\mathrm {P} ^ {\mathrm {j}} = \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {N} ^ {\mathrm {i}} \left(\mathrm {p} ^ {\mathrm {i j}}\right) ^ {1 - \sigma}\right) ^ {1 / (1 - \sigma)}, \tag {11.3}
+\mathrm{P}^{\mathrm{j}} = \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{N}^{\mathrm{i}} \left(\mathrm{p}^{\mathrm{ij}}\right)^{1 - \sigma}\right)^{1 / (1 - \sigma)}, \tag {11.3}
 $$
 
 where  $\mathbf{N}^{\mathrm{i}}$  is the number of products exported by each country  $i = 1,\dots ,C$
@@ -164,13 +164,13 @@ where  $\mathbf{N}^{\mathrm{i}}$  is the number of products exported by each cou
 We treat labor as the only factor of production, and do not distinguish by skill type. The exporting firm in country  $i$  has the production function  $L^i = \beta y^i$ , where  $\beta$  is its marginal labor costs. Note that its plant-specific fixed costs are already covered by virtue of its home sales of this product. Revenue received from producing in country  $i$  and exporting is  $p^{ij}c^{ij} = p^i y^i$ , where output is related to consumption by  $y^i = c^{ij}T^{ij}$ . The profits from exporting are then:
 
 $$
-\mathrm {p} ^ {\mathrm {i}} \mathrm {y} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \beta \mathrm {y} ^ {\mathrm {i}} = \left(\mathrm {p} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \beta\right) \mathrm {T} ^ {\mathrm {i j}} \mathrm {c} ^ {\mathrm {i j}}. \tag {11.4}
+\mathrm{p}^{\mathrm{i}} \mathrm{y}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \beta \mathrm{y}^{\mathrm{i}} = \left(\mathrm{p}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \beta\right) \mathrm{T}^{\mathrm{ij}} \mathrm{c}^{\mathrm{ij}}. \tag {11.4}
 $$
 
 Substituting for the CES demand from (11.3), and maximizing (11.4) over the choice of the price  $p^{ij} = T^{ij}p^i$ , we readily obtain the optimal price  $p^i [1 - (1 / \sigma)] = \beta w^i$ . Substituting this back into (11.4), we obtain the maximized value of profits:
 
 $$
-p ^ {i} y ^ {i} - w ^ {i} \beta y ^ {i} = \left(\frac {p ^ {i} y ^ {i}}{\sigma}\right) = \left(\frac {p ^ {i} T ^ {i j}}{\sigma}\right) \left(\frac {p ^ {i} T ^ {i j}}{P ^ {j}}\right) ^ {- \sigma} \left(\frac {Y ^ {j}}{P ^ {j}}\right) = \frac {1}{\sigma} \left(\frac {p ^ {i} T ^ {i j}}{P ^ {j}}\right) ^ {1 - \sigma} Y ^ {j}, \tag {11.5}
+p^{i} y^{i} - w^{i} \beta y^{i} = \left(\frac{p^{i} y^{i}}{\sigma}\right) = \left(\frac{p^{i} T^{i j}}{\sigma}\right) \left(\frac{p^{i} T^{i j}}{P^{j}}\right)^{- \sigma} \left(\frac{Y^{j}}{P^{j}}\right) = \frac{1}{\sigma} \left(\frac{p^{i} T^{i j}}{P^{j}}\right)^{1 - \sigma} Y^{j}, \tag {11.5}
 $$
 
 where the second equality follows using consumption from (11.2) with  $y^i = c^{ij} T^{ij}$ , and the third by simplification. From (11.5), we see that higher transport costs reduce profits from exporting, while higher GDP abroad increase profits.
@@ -178,25 +178,25 @@ where the second equality follows using consumption from (11.2) with  $y^i = c^{
 Rather than exporting from country i, the multinational firm can instead establish a production facility in country j, and sell locally. In that case, it will face the production function  $\mathrm{L}^{\mathrm{j}} = \alpha^{\mathrm{j}} + \beta \mathrm{y}^{\mathrm{j}}$ , including the plant-specific fixed costs paid abroad. For simplicity we treat marginal labor costs  $\beta$  as equal across countries, though the wages and fixed costs can differ. There are no transport costs when producing in country j and selling locally, so with the price  $\mathfrak{p}^{\mathrm{j}}$ , the quantity sold is,
 
 $$
-\mathrm {c} ^ {\mathrm {j}} = \left(\mathrm {p} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right). \tag {11.2'}
+\mathrm{c}^{\mathrm{j}} = \left(\mathrm{p}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right). \tag {11.2'}
 $$
 
 Again, the optimal price is determined as  $p^j [1 - (1 / \sigma)] = \beta w^j$ . Using this and (11.2') to compute profits earned from the subsidiary in country  $j$ , we obtain:
 
 $$
-p ^ {j} y ^ {j} - w ^ {j} \left(\beta y ^ {j} - \alpha^ {j}\right) = \frac {1}{\sigma} \left(\frac {p ^ {j}}{P ^ {j}}\right) ^ {1 - \sigma} \left(\frac {Y ^ {j}}{P ^ {j}}\right) - w ^ {j} \alpha^ {j}. \tag {11.5'}
+p^{j} y^{j} - w^{j} \left(\beta y^{j} - \alpha^{j}\right) = \frac{1}{\sigma} \left(\frac{p^{j}}{P^{j}}\right)^{1 - \sigma} \left(\frac{Y^{j}}{P^{j}}\right) - w^{j} \alpha^{j}. \tag {11.5'}
 $$
 
 Thus, in order for the multinational based in country i to wish to establish a second plant in country j, it must be the case that (11.5') is at least as large as (11.5):
 
 $$
-\frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}} - \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \geq \frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}}. \tag {11.6}
+\frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}} - \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \geq \frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}}. \tag {11.6}
 $$
 
 Conversely, in order to be a horizontal multinational, it must be the case that it is not profitable to shut down its plant in country i and simply export from the single plant in country j. The condition to ensure that is:
 
 $$
-\frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {i}} - \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \geq \frac {1}{\sigma} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {i}}, \tag {11.6'}
+\frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{i}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{i}} - \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \geq \frac{1}{\sigma} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{i}}, \tag {11.6'}
 $$
 
 where  $\alpha^i$  is its fixed costs in country  $i$ . The left-hand side of (11.6') is the profits from operating its plant in country  $i$ , while the right-hand side is the profits from exporting from country  $j$  to  $i$ .
@@ -204,7 +204,7 @@ where  $\alpha^i$  is its fixed costs in country  $i$ . The left-hand side of (1
 So in order to have a horizontal multinational operating plants in both countries, both (11.6) and (11.6') must hold. These conditions can be re-expressed by moving the fixed costs to the right-side, multiplying each equation by  $\sigma$  and multiplying them together, in which case we obtain a single necessary condition to ensure that the multinational maintains plants in both countries:
 
 $$
-\begin{array}{l} \left[ 1 - \left(\mathrm {T} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {j i}}\right) ^ {1 - \sigma} \right] \left(\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}\right) \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {i}} \mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \\ \geq \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} + \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {i}} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} + \sigma^ {2} \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}}. \tag {11.7} \\ \end{array}
+\begin{array}{l} \left[ 1 - \left(\mathrm{T}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ji}}\right)^{1 - \sigma} \right] \left(\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}\right) \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{i}} \mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \\ \geq \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} + \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \mathrm{Y}^{\mathrm{i}} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} + \sigma^{2} \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}}. \tag {11.7} \\ \end{array}
 $$
 
 This condition is more likely to hold in the following regions of parameters:
@@ -218,7 +218,7 @@ Conditions (a) and (b) of this theorem follow by inspection of condition (11.7).
 Condition (c) require some additional explanation. Notice that product of GDP's can be rewritten as:
 
 $$
-\mathbf {Y} ^ {\mathrm {i}} \mathbf {Y} ^ {\mathrm {j}} = \left(\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}\right) ^ {2} \mathrm {s} ^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} = \left(\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}\right) ^ {2} [ 1 - (\mathrm {s} ^ {\mathrm {i}}) ^ {2} - (\mathrm {s} ^ {\mathrm {j}}) ^ {2} ] / 2, \tag {11.8}
+\mathbf {Y}^{\mathrm{i}} \mathbf {Y}^{\mathrm{j}} = \left(\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}\right)^{2} \mathrm{s}^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} = \left(\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}\right)^{2} [ 1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\mathrm{s}^{\mathrm{j}})^{2} ] / 2, \tag {11.8}
 $$
 
 where  $s^i = Y^i / (Y^i + Y^j)$  and  $s^j = Y^j / (Y^i + Y^j)$  are county  $i$  and  $j$ 's shares of GDP, with  $(s^i + s^j) = 1$ . It follows that  $1 = (s^i + s^j)^2 = (s^i)^2 + (s^j)^2 + 2s^i s^j$ , from which the last equality in (11.8) is
@@ -228,7 +228,7 @@ obtained. In chapter 5, we referred to  $[1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\
 Denoting this index by  $\mathrm{D}^{\mathrm{ij}}$ , we can divide (11.8) by  $(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})$  and rewrite it as:
 
 $$
-\begin{array}{l} \left[ 1 - \left(\mathrm {T} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {j i}}\right) ^ {1 - \sigma} \right] \left(\mathrm {Y} ^ {\mathrm {i}} + \mathrm {Y} ^ {\mathrm {j}}\right) \left(\frac {\mathrm {D} ^ {\mathrm {i j}}}{2}\right) \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {p} ^ {\mathrm {j}}}{\mathrm {P} ^ {\mathrm {i}} \mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} \\ \geq \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i}} \mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} + \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}} \mathrm {s} ^ {\mathrm {i}} \left(\frac {\mathrm {p} ^ {\mathrm {j}} \mathrm {T} ^ {\mathrm {j i}}}{\mathrm {P} ^ {\mathrm {i}}}\right) ^ {1 - \sigma} + \frac {\sigma^ {2} \mathrm {w} ^ {\mathrm {i}} \alpha^ {\mathrm {i}} \mathrm {w} ^ {\mathrm {j}} \alpha^ {\mathrm {j}}}{\left(\mathrm {Y} ^ {\mathrm {i}} + \mathrm {Y} ^ {\mathrm {j}}\right)}. \tag {11.7'} \\ \end{array}
+\begin{array}{l} \left[ 1 - \left(\mathrm{T}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ji}}\right)^{1 - \sigma} \right] \left(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}\right) \left(\frac{\mathrm{D}^{\mathrm{ij}}}{2}\right) \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{p}^{\mathrm{j}}}{\mathrm{P}^{\mathrm{i}} \mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} \\ \geq \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{i}} \mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} + \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}} \mathrm{s}^{\mathrm{i}} \left(\frac{\mathrm{p}^{\mathrm{j}} \mathrm{T}^{\mathrm{ji}}}{\mathrm{P}^{\mathrm{i}}}\right)^{1 - \sigma} + \frac{\sigma^{2} \mathrm{w}^{\mathrm{i}} \alpha^{\mathrm{i}} \mathrm{w}^{\mathrm{j}} \alpha^{\mathrm{j}}}{\left(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}\right)}. \tag {11.7'} \\ \end{array}
 $$
 
 We see that the left of (11.7') is larger when the sum of GDP's  $(\Upsilon^{\mathrm{i}} + \Upsilon^{\mathrm{j}})$  is larger, and the right is smaller. In addition, the left is larger when the size dispersion index is higher, meaning that the countries are of similar size.[13] Under these conditions, (11.7') is more likely to hold.
@@ -246,7 +246,7 @@ The knowledge-capital model has been estimated by Carr, Markusen and Maskus (200
 The equation estimated by Carr, Markusen and Maskus (2001) is:
 
 $$
-\begin{array}{l} \text {R e a l A f f i l i a t e S a l e s} = \beta_ {0} + \beta_ {1} \left(\mathrm {G D P} ^ {\mathrm {i}} + \mathrm {G D P} ^ {\mathrm {j}}\right) + \beta_ {2} \left(\mathrm {G D P} ^ {\mathrm {i}} - \mathrm {G D P} ^ {\mathrm {j}}\right) ^ {2} + \beta_ {3} \left(\text {S k i l l} ^ {\mathrm {i}} - \text {S k i l l} ^ {\mathrm {j}}\right) \\ + \beta_ {4} (\mathrm {G D P} ^ {\mathrm {i}} - \mathrm {G D P} ^ {\mathrm {j}}) (\mathrm {S k i l l} ^ {\mathrm {i}} - \mathrm {S k i l l} ^ {\mathrm {j}}) + \beta_ {5} (\alpha^ {\mathrm {j}}) + \beta_ {6} (\tau^ {\mathrm {j}}) + \beta_ {7} (\tau^ {\mathrm {j}}) (\mathrm {S k i l l} ^ {\mathrm {i}} - \mathrm {S k i l l} ^ {\mathrm {j}}) ^ {2} \\ + \beta_ {8} \left(\tau^ {\mathrm {i}}\right) + \beta_ {9} \text {D i s t a n c e} ^ {\mathrm {i j}}, \tag {11.9} \\ \end{array}
+\begin{array}{l} \text{Re al Af fi li at eS al es} = \beta_{0} + \beta_{1} \left(\mathrm{GD P}^{\mathrm{i}} + \mathrm{GD P}^{\mathrm{j}}\right) + \beta_{2} \left(\mathrm{GD P}^{\mathrm{i}} - \mathrm{GD P}^{\mathrm{j}}\right)^{2} + \beta_{3} \left(\text{Sk il l}^{\mathrm{i}} - \text{Sk il l}^{\mathrm{j}}\right) \\ + \beta_{4} (\mathrm{GD P}^{\mathrm{i}} - \mathrm{GD P}^{\mathrm{j}}) (\mathrm{Sk il l}^{\mathrm{i}} - \mathrm{Sk il l}^{\mathrm{j}}) + \beta_{5} (\alpha^{\mathrm{j}}) + \beta_{6} (\tau^{\mathrm{j}}) + \beta_{7} (\tau^{\mathrm{j}}) (\mathrm{Sk il l}^{\mathrm{i}} - \mathrm{Sk il l}^{\mathrm{j}})^{2} \\ + \beta_{8} \left(\tau^{\mathrm{i}}\right) + \beta_{9} \text{Di st an ce}^{\mathrm{ij}}, \tag {11.9} \\ \end{array}
 $$
 
 where country  $i$  refers to the headquarters of a multinational and country  $j$  to the location of its a foreign affiliate. The first variable on the right of (11.9) is the sum of country GDP's, which we expect to be positively related to the presence of horizontal multinationals, and therefore real affiliate sales ( $\beta_{1} > 0$ ). Likewise, the second variable is the squared difference in real GDP's, which measures the size dispersion, and which we expect to be negatively related to horizontal multinationals ( $\beta_{2} < 0$ ).
@@ -316,7 +316,7 @@ assume that  $f(L_{ij}, z_{ij})$  is increasing and homogeneous of degree one in
 If labor is available at the wage  $w$ , the profits obtained from this joint venture are:
 
 $$
-\mathrm {g} (\mathrm {w}, \mathrm {z} _ {\mathrm {i j}}) \equiv \max  _ {\mathrm {L} _ {\mathrm {i j}}} ^ {\max } \mathrm {f} \left(\mathrm {L} _ {\mathrm {i j}}, \mathrm {z} _ {\mathrm {i j}}\right) - \mathrm {w L} _ {\mathrm {i j}}, \tag {11.10}
+\mathrm{g} (\mathrm{w}, \mathrm{z}_{\mathrm{ij}}) \equiv \max_{\mathrm{L}_{\mathrm{ij}}}^{\max } \mathrm{f} \left(\mathrm{L}_{\mathrm{ij}}, \mathrm{z}_{\mathrm{ij}}\right) - \mathrm{wL}_{\mathrm{ij}}, \tag {11.10}
 $$
 
 where we have normalized the price of the output at unity. Under our assumption that  $f(L_{ij}, z_{ij})$  is homogeneous of degree one in its arguments, then  $g(w, z_{ij})$  will be homogeneous of degree one in  $z_{ij}$ : increasing the distance  $z_{ij}$  between producers will lead to an equi-proportionate increase in labor hired, and in output and profits. It follows that we can write total profits earned as  $g(w, z_{ij}) = z_{ij} \pi(w)$ , where  $\pi(w) \equiv g(w, 1)$ . By the envelope theorem, the amount of labor hired by the joint venture is  $L_{ij} = -z_{ij} \pi'(w) > 0$ . Increasing the wage must reduce the labor hired, so that  $dL_{ij} / dw = -z_{ij} \pi''(w) < 0$ , which means that  $\pi''(w) > 0$  so  $\pi$  is convex. For convenience in our discussion, we follow Rauch and Trindade in assuming that  $\pi(w)$  has the iso-elastic form  $\pi(w) = bw^{-\gamma}$ , with  $b, \gamma > 0$ . This form will apply if the function  $f(L_{ij}, z_{ij})$  is Cobb-Douglas. $^{19}$  To solve for the autarky equilibrium, we need to match up producers in a single country. We assume that producers are uniformly distributed around the circle in Figure 11.5, and that at each point on the circle there is a unit-mass of producers: so the total distribution of them can be thought of as a "unit cylinder." The best matches are obtained when each producer has a joint venture with the one located on the opposite side of the circle, so that  $z_{ij} = 1/2$ . The profits
@@ -324,7 +324,7 @@ where we have normalized the price of the output at unity. Under our assumption 
 earned from each of these matches are  $z_{ij} \pi(w) = \pi(w)/2$ . We assume that these are equally divided by the two participants, so each producer earns  $\pi(w)/4$  in the autarky equilibrium. The equilibrium wage is determined by equating labor demand and supply. One-half of the producers are matching with the other half (on the opposite side of the circle), so the total number of matches is  $1/2$ . It follows that home autarky labor demand is:
 
 $$
-- z _ {i j} \pi^ {\prime} \left(\mathrm {w} ^ {\mathrm {a}}\right) / 2 = - \pi^ {\prime} \left(\mathrm {w} ^ {\mathrm {a}}\right) / 4 = \mathrm {L}, \tag {11.11}
+- z_{i j} \pi^{\prime} \left(\mathrm{w}^{\mathrm{a}}\right) / 2 = - \pi^{\prime} \left(\mathrm{w}^{\mathrm{a}}\right) / 4 = \mathrm{L}, \tag {11.11}
 $$
 
 where the first equality is obtained because producers are matching with those on the opposite side of the circle ( $z_{ij} = 1/2$ ), and the second equality sets labor demand equal to the endowment  $L$  to determine the autarky wage  $w^a$ .
@@ -338,7 +338,7 @@ To this end, suppose that producers can enter into a joint venture across countr
 Given that the total payoff to a home and foreign producer who match domestically is  $[\pi(\mathrm{w}) / 4 + \pi(\mathrm{w}^{*}) / 4]$ , it is apparent that the international joint venture is equally profitable if it occurs between a home and foreign producer who are distance  $\underline{\mathbf{z}}$  apart, with,
 
 $$
-\underline {{z}} \pi (w ^ {*}) = [ \pi (w) / 4 + \pi (w ^ {*}) / 4 ] \Leftrightarrow \underline {{z}} (w ^ {*} / w) = (1 / 4) [ 1 + \pi (w) / \pi (w ^ {*}) ]. \tag {11.12}
+\underline {{z}} \pi (w^{*}) = [ \pi (w) / 4 + \pi (w^{*}) / 4 ] \Leftrightarrow \underline {{z}} (w^{*} / w) = (1 / 4) [ 1 + \pi (w) / \pi (w^{*}) ]. \tag {11.12}
 $$
 
 Under our assumption that  $\pi(\mathrm{w})$  takes on the iso-elastic form  $\mathrm{bw}^{-\gamma}$ , with  $\mathrm{b}, \gamma > 0$ , we can write  $\pi(\mathrm{w}) / \pi(\mathrm{w}^*) = (\mathrm{w}^* / \mathrm{w})^\gamma$  as an increasing function of the relative foreign wage, and likewise for  $\underline{\mathrm{z}}(\mathrm{w}^* / \mathrm{w})$ . We will confirm below that foreign wages are less than those at home in the trade
@@ -352,7 +352,7 @@ This structure of international matches is illustrated in Figure 11.5. For a dom
 We can now compute that probability  $\mathrm{P}$  that an international match is successful. This is simply the length of the interval as  $[\underline{\mathrm{z}} (\mathrm{w}^{*} / \mathrm{w}),1 / 2]$  as compared to  $[1 / 2 - \mathrm{k} / 2,1 / 2]$ , or,
 
 $$
-P = \frac {1 / 2 - \underline {{z}} (w ^ {*} / w)}{1 / 2 - (1 / 2 - k / 2)} = \frac {1 - 2 \underline {{z}} (w ^ {*} / w)}{k}. \tag {11.13}
+P = \frac{1 / 2 - \underline {{z}} (w^{*} / w)}{1 / 2 - (1 / 2 - k / 2)} = \frac{1 - 2 \underline {{z}} (w^{*} / w)}{k}. \tag {11.13}
 $$
 
 Thus, the probability of a successful international match is higher when the ratio of wages  $w^{*} / w$  is lower (meaning that  $z$  is lower), or when the uncertainty  $k$  associated with international joint ventures is reduced.
@@ -360,7 +360,7 @@ Thus, the probability of a successful international match is higher when the rat
 To determine wages we use labor market equilibrium in both countries. Home labor is demanded only by those domestic producers whose international matches were not successful, or a fraction (1-P) of home producers. The home demand for labor is therefore:
 
 $$
-- (1 - \mathrm {P}) \pi^ {\prime} (\mathrm {w}) / 4 = \mathrm {L}, \tag {11.14}
+- (1 - \mathrm{P}) \pi^{\prime} (\mathrm{w}) / 4 = \mathrm{L}, \tag {11.14}
 $$
 
 which can be compared to (11.11). Home labor demand has fallen from autarky due to producers employing labor abroad, so this results in a fall in the domestic wage,  $\mathrm{w} < \mathrm{w}^{\mathrm{a}}$ .
@@ -368,7 +368,7 @@ which can be compared to (11.11). Home labor demand has fallen from autarky due 
 Foreign labor demand has two components. The first is the demand from foreign producers whose international matches are not successful, and by analogy with (11.14), this is  $-(1 - \mathrm{P})\pi^{\prime}(\mathrm{w}^{*}) / 4$ . However, there is also labor demand from all the successful international matches. This is computed by taking the expected value of labor demand  $-\mathrm{z_{ij}}\pi^{\prime}(\mathrm{w}^{*})$  over the successful matches in the range  $z_{ij}\in (\underline{z} (\mathrm{w}^{*} / \mathrm{w}),1 / 2]$ . Therefore, the equilibrium condition in the foreign labor market is,
 
 $$
-- (1 - \mathrm {P}) \pi^ {\prime} (\mathrm {w} ^ {*}) / 4 - \left(\frac {2}{\mathrm {k}}\right) \int_ {\underline {{z}} (\mathrm {w} ^ {*} / \mathrm {w})} ^ {1 / 2} z _ {i j} \pi^ {\prime} (\mathrm {w} ^ {*}) d z _ {i j} = L ^ {*} . \tag {11.15}
+- (1 - \mathrm{P}) \pi^{\prime} (\mathrm{w}^{*}) / 4 - \left(\frac{2}{\mathrm{k}}\right) \int_{\underline {{z}} (\mathrm{w}^{*} / \mathrm{w})}^{1 / 2} z_{i j} \pi^{\prime} (\mathrm{w}^{*}) d z_{i j} = L^{*} . \tag {11.15}
 $$
 
 Notice that in the integral on the left of (11.15) we have multiplied by  $(2 / k)$ , which is the density of the uniform distribution of international matches  $z_{ij}$  over its interval  $[1 / 2 - k / 2, 1 / 2]$ , and converts that integral into an expected value.
@@ -376,7 +376,7 @@ Notice that in the integral on the left of (11.15) we have multiplied by  $(2 / 
 Then dividing (11.15) by (11.14), we obtain a single equation to determine the relative home wage:
 
 $$
-\left(\mathrm {w} / \mathrm {w} ^ {*}\right) ^ {\gamma + 1} \left[ 1 + \frac {8}{\mathrm {k} (1 - \mathrm {P})} \int_ {\underline {{\mathrm {z}}} (\mathrm {w} ^ {*} / \mathrm {w})} ^ {1 / 2} \mathrm {z} _ {\mathrm {i j}} \mathrm {d z} _ {\mathrm {i j}} \right] = \mathrm {L} ^ {*} / \mathrm {L}, \tag {11.16}
+\left(\mathrm{w} / \mathrm{w}^{*}\right)^{\gamma + 1} \left[ 1 + \frac{8}{\mathrm{k} (1 - \mathrm{P})} \int_{\underline {{\mathrm{z}}} (\mathrm{w}^{*} / \mathrm{w})}^{1 / 2} \mathrm{z}_{\mathrm{ij}} \mathrm{dz}_{\mathrm{ij}} \right] = \mathrm{L}^{*} / \mathrm{L}, \tag {11.16}
 $$
 
 where we have simplified this expression using the iso-elastic form for  $\pi (\mathrm{w})$ , so that  $\pi^{\prime}(\mathrm{w}^{*}) / \pi^{\prime}(\mathrm{w}) = (\mathrm{w} / \mathrm{w}^{*})^{\gamma +1}$ . Despite the complexity of (11.16), it is readily shown that the left-hand side is a strictly increasing function of  $(\mathrm{w} / \mathrm{w}^{*})$ , which starts at unity when  $(\mathrm{w} / \mathrm{w}^{*}) = 1$  and approaches infinity as  $(\mathrm{w} / \mathrm{w}^{*})\to \infty$ . It follows that there is a unique solution for  $(\mathrm{w} / \mathrm{w}^{*})$  from (11.16). This establishes the first part of the following theorem:
@@ -386,9 +386,9 @@ where we have simplified this expression using the iso-elastic form for  $\pi (\
 (a) The trade equilibrium with international joint ventures exists and is unique;
 (b) As  $\mathrm{k}\rightarrow 0$  so there is no uncertainly about international partners, then  $(\mathrm{w} / \mathrm{w}^{*})\rightarrow 1$
 (c)  $\mathrm{dw} / \mathrm{dk} > 0$  and  $\mathrm{dw}^{*} / \mathrm{dk} < 0$ ;
-(d)  $\mathrm{dln}(\mathrm{w / w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) < 1 / (1 + \gamma)$ , is increasing in k, and  $\lim_{k\to 0}\mathrm{dln}(\mathrm{w / w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) = 0.$
+(d)  $\mathrm{dln}(\mathrm{w /w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) < 1 / (1 + \gamma)$ , is increasing in k, and  $\lim_{k\to 0}\mathrm{dln}(\mathrm{w /w^{*}}) / \mathrm{dln}(\mathrm{L^{*} / L}) = 0.$
 
-Part (b) of this theorem is obtained by inspection of the equilibrium condition (11.16). As  $\mathrm{k} \to 0$ , the term multiplying the integral goes to infinity (meaning that  $\mathrm{w / w^*}$  goes to zero), unless the lower limit of integration approaches  $1 / 2$  so the integral goes to zero. The former case is easily ruled out as an equilibrium, so as  $\mathrm{k} \to 0$  we must have  $\underline{\mathrm{z}} \to 1 / 2$  in the lower limit of
+Part (b) of this theorem is obtained by inspection of the equilibrium condition (11.16). As  $\mathrm{k} \to 0$ , the term multiplying the integral goes to infinity (meaning that  $\mathrm{w /w^*}$  goes to zero), unless the lower limit of integration approaches  $1 / 2$  so the integral goes to zero. The former case is easily ruled out as an equilibrium, so as  $\mathrm{k} \to 0$  we must have  $\underline{\mathrm{z}} \to 1 / 2$  in the lower limit of
 
 integration, which implies that the wages approach equality. Recall that this would be the outcome in the one-sector model used earlier in the chapter under perfect capital mobility. Therefore, the matching model approaches the outcome with perfect capital mobility as the uncertainty about international partners is eliminated. Part (c) of the theorem confirms that as international uncertainty increases, the equilibrium gets monotonically farther away from wage equalization: raising  $k$  increases domestic wages and lowers foreign wages, as fewer joint ventures are pursued.
 
@@ -427,7 +427,7 @@ The outflow of capital from the point  $\overline{\mathbf{V}}^i$  will reduce pr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/1636dca807cf12a9d9a774390e13738549ec02952a2be53c4dfbc9eb0dd1b190.jpg)
 Figure 11.8
 
-payments to foreign capital, so that  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)(K + K^{*})} + \mathrm{tm(p)} - \mathrm{r(p)K^{*}}$ , where  $K^{*}$  is the foreign capital,  $\mathrm{m(p)} = \mathrm{d(p)} - \mathrm{y(p,L,K + K^{*})}$  are imports, and  $\mathrm{y(p,L,K + K^{*})}$  is production of the import good, which depends on the labor and capital endowments with the usual Rybczynski effects. Notice that national income simplifies to  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)K} + \mathrm{t[d(p)} - \mathrm{y(p,L,K + K^{*})}]$ .
+payments to foreign capital, so that  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)(K +K^{*})} + \mathrm{tm(p)} - \mathrm{r(p)K^{*}}$ , where  $K^{*}$  is the foreign capital,  $\mathrm{m(p)} = \mathrm{d(p)} - \mathrm{y(p,L,K +K^{*})}$  are imports, and  $\mathrm{y(p,L,K +K^{*})}$  is production of the import good, which depends on the labor and capital endowments with the usual Rybczynski effects. Notice that national income simplifies to  $\mathrm{I} = \mathrm{w(p)L} + \mathrm{r(p)K} + \mathrm{t[d(p)} - \mathrm{y(p,L,K +K^{*})}]$ .
 
 Then differentiate consumer utility with respect to the capital inflow  $\mathbf{K}^*$ , and sign and interpret this result, assuming that the import good is capital-intensive.
 

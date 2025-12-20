@@ -187,13 +187,13 @@ foreign residents get recorded in the balance of payments, we need to consider t
 
 make up the balance of payments. Te statistics are divided into three main sections: the current account, the
 
-capital and !nancial account, and the settlements account. Te reason for dividing the balance of payments
+capital and financial account, and the settlements account. Te reason for dividing the balance of payments
 
-into these three main parts is that the current account items refer to income flows, the capital and !nancial
+into these three main parts is that the current account items refer to income flows, the capital and financial
 
 account records changes in the assets and liabilities of the private sector and non-central-bank public sector,
 
-and the settlements account records any changes in assets and liabilities of the central bank. A simpli!ed
+and the settlements account records any changes in assets and liabilities of the central bank. A simplified
 
 example of the annual balance of payments accounts for Americana is presented in Table 2.1.
 

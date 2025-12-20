@@ -118,7 +118,7 @@ While tick data carries information about market dynamics, it is also distorted 
 To use standard econometric techniques in the presence of the bid-ask bounce, many practitioners convert the tick data to "mid-quote" format: the simple average of the latest bid and ask quotes. The mid-quote is used to approximate the price level at which the market is theoretically willing to trade if buyers and sellers agreed to meet each other halfway on the price spectrum. Mathematically, the mid-quote can be expressed as follows:
 
 $$
-\hat {q} _ {t _ {m}} ^ {m} = \frac {1}{2} \left(q _ {t _ {a}} ^ {a} + q _ {t _ {b}} ^ {b}\right) \text {w h e r e} t _ {m} = \left\{ \begin{array}{l} t _ {a}, \text {i f} t _ {a} \geq t _ {b} \\ t _ {b}, \text {o t h e r w i s e} \end{array} \right. \tag {1}
+\hat {q}_{t_{m}}^{m} = \frac{1}{2} \left(q_{t_{a}}^{a} + q_{t_{b}}^{b}\right) \text{wh er e} t_{m} = \left\{ \begin{array}{l} t_{a}, \text{if } t_{a} \geq t_{b} \\ t_{b}, \text{ot he rw is e} \end{array} \right. \tag {1}
 $$
 
 The latter condition for  $t_m$  reflects the continuous updating of the mid-quote estimate:  $\hat{q}_{t_m}^m$  is updated whenever the latest best bid,  $q_{t_b}^b$ , or best ask quote,  $q_{t_a}^a$ , arrives, at  $t_b$  or  $t_a$  respectively.
@@ -126,7 +126,7 @@ The latter condition for  $t_m$  reflects the continuous updating of the mid-quo
 Another way to sample tick quotes into a cohesive data series is by weighing the latest best bid and best ask quotes by their accompanying order sizes:
 
 $$
-\tilde {q} _ {t} ^ {s} = \frac {q _ {t _ {b}} ^ {b} s _ {t _ {a}} ^ {a} + q _ {t _ {a}} ^ {a} s _ {t _ {b}} ^ {b}}{s _ {t _ {a}} ^ {a} + s _ {t _ {b}} ^ {b}} \tag {2}
+\tilde {q}_{t}^{s} = \frac{q_{t_{b}}^{b} s_{t_{a}}^{a} + q_{t_{a}}^{a} s_{t_{b}}^{b}}{s_{t_{a}}^{a} + s_{t_{b}}^{b}} \tag {2}
 $$ where  $q_{t_b}^b$  and  $s_{t_b}^b$  is the best bid quote and the best bid available size recorded at time  $t_b$  (when  $q_{t_b}^b$  became the best bid), and  $q_{t_a}^a$  and  $s_{t_a}^a$  is the best bid quote and the best bid available size recorded at time  $t_a$ .
 
 
@@ -138,20 +138,20 @@ As Figures 4 and 5 show, the basic mid- quote distribution is constrained by the
 
 In addition to real-time adjustments to bid-ask data, researchers deploy forecasting techniques to estimate the impending bid-ask spread and adjust for it in models ahead of time. Future realizations of the bid-ask spread can be estimated using the model suggested by Roll (1984), where the price of an asset at time  $t$ ,  $p_t$ , is assumed to equal an unobservable fundamental value,  $m_t$ , offset by a value equal to half of the bid-ask spread,  $s$ . The price offset is positive when the next market order is a buy, and negative when the trade is a sell, as shown in equation (3):
 
-$$ p _ {t} = m _ {t} + \frac {s}{2} I _ {t} \tag {3}
-$$ where  $I_{t} = \left\{ \begin{array}{ll}1, & \text{market buy at ask}\\ -1, & \text{market sell at bid} \end{array} \right.$
+$$ p_{t} = m_{t} + \frac{s}{2} I_{t} \tag {3}
+$$ where  $I_{t} = \left\{ \begin{array}{ll}1, & \text{marketbuyatask}\\ -1, & \text{marketsellatbid} \end{array} \right.$
 
 
 If either a buy or a sell order can arrive next with equal probability, then  $E[I_t] = 0$ , and  $E[\Delta p_t] = 0$ , absent changes in the fundamental asset value,  $m_t$ . The covariance of subsequent price changes, however, is different from 0:
 
 $$
-\operatorname {c o v} \left[ \Delta p _ {t}, \Delta p _ {t + 1} \right] = E \left[ \Delta p _ {t} \Delta p _ {t + 1} \right] = - \frac {s ^ {2}}{4} \tag {4}
+\operatorname{co v} \left[ \Delta p_{t}, \Delta p_{t + 1} \right] = E \left[ \Delta p_{t} \Delta p_{t + 1} \right] = - \frac{s^{2}}{4} \tag {4}
 $$
 
 As a result, the future expected spread can be estimated as follows:
 
 $$
-\begin{array}{l} E [ s ] = 2 \sqrt {- \operatorname {c o v} \left[ \Delta p _ {t} , \Delta p _ {t + 1} \right]} \text {w h e n e v e r} \\ \operatorname {c o v} \left[ \Delta p _ {t}, \Delta p _ {t + 1} \right] <   0 \\ \end{array}
+\begin{array}{l} E [ s ] = 2 \sqrt{- \operatorname{co v} \left[ \Delta p_{t} , \Delta p_{t + 1} \right]} \text{wh en ev er} \\ \operatorname{co v} \left[ \Delta p_{t}, \Delta p_{t + 1} \right] <   0 \\ \end{array}
 $$
 
 Figure 4 Bid-Ask Aggregation Techniques on Data for SPDR S&P 500 ETF (ticket SPY) Recorded by NYSE Arca on November 9, 2009, from 14:00:16:400 to 14:00:02:000 GMT
@@ -189,13 +189,13 @@ As shown in Figure 7, panels (a) and (b), the two quote-sampling methods produce
 Mathematically, the two sampling methods can be expressed as follows:
 
 $$
-\text {Q u o t e s a m p l i n g u s i n g c l o s i n g p r i c e s :} \hat {q} _ {t} = q _ {t, \text {l a s t}} \tag {5}
+\text{Qu ot es am pl in gu si ng cl os in gp ri ce s :} \hat {q}_{t} = q_{t, \text{la st}} \tag {5}
 $$
 
 Quote sampling using linear interpolation:
 
 $$
-\hat {q} _ {t} = q _ {t, l a s t} + \left(q _ {t, n e x t} - q _ {t, l a s t}\right) \frac {t - t _ {l a s t}}{t _ {n e x t} - t _ {l a s t}} \tag {6}
+\hat {q}_{t} = q_{t, l a s t} + \left(q_{t, n e x t} - q_{t, l a s t}\right) \frac{t - t_{l a s t}}{t_{n e x t} - t_{l a s t}} \tag {6}
 $$ where  $\hat{q}_t$  is the resulting sampled quote,  $t$  is the desired sampling time (start of a new minute, for example),  $t_{last}$  is the timestamp of the last observed quote prior to the sampling time  $t$ ,  $q_{t, last}$  is the value of the last quote prior to the sampling time  $t$ ,  $t_{next}$  is the timestamp of the first observed quote after the sampling time  $t$ ,
 
 
@@ -238,7 +238,7 @@ Duration models are used to estimate the factors affecting the time between any 
 Durations are often modeled using Poisson processes that assume that sequential events, like quote arrivals, occur independently of one another. The number of arrivals between any two time points  $t$  and  $(t + \tau)$  is assumed to have a Poisson distribution. In a Poisson process,  $\lambda$  arrivals occur per unit time. In other words, the arrivals occur at an average rate of  $(1 / \lambda)$ . The average arrival rate may be assumed to hold constant, or it may vary with time. If the average arrival rate is constant, the probability of observing exactly  $k$  arrivals between times  $t$  and  $(t + \tau)$  is
 
 $$
-\begin{array}{l} P [ (N (t + \tau) - N (t)) = k ] = \frac {1}{k !} e ^ {- \lambda \tau} (\lambda \tau) ^ {k}, \\ k = 0, 1, 2, \dots \tag {7} \\ \end{array}
+\begin{array}{l} P [ (N (t + \tau) - N (t)) = k ] = \frac{1}{k !} e^{- \lambda \tau} (\lambda \tau)^{k}, \\ k = 0, 1, 2, \dots \tag {7} \\ \end{array}
 $$
 
 Diamond and Verrecchia (1987) and Easley and O'Hara (1992) were the first to suggest that the duration between subsequent ticks carries information. Their models posit that in the presence of short-sale constraints, intertrade duration can indicate the presence of good news; in markets of securities where short selling is disallowed, the shorter the intertrade duration, the higher is the likelihood of unobserved good news. The reverse also holds: In markets with limited short selling and normal liquidity levels, the longer the duration between subsequent trade arrivals, the higher the probability of yet-unobserved bad news. A complete absence of trades, however, indicates a lack of news.

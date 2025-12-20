@@ -49,13 +49,13 @@ For each cash flow estimated, the same interest rate can be used to calculate th
 Once the expected (estimated) cash flows and the appropriate interest rate or interest rates that should be used to discount the cash flows are determined, the final step in the valuation process is to value the cash flows. The present value of an expected cash flow to be received  $t$  years from now using a discount rate  $i$  is:
 
 $$
-\text {P r e s e n t v a l u e} _ {t} = \frac {\text {E x p e c t e d c a s h f l o w i n p e r i o d} ^ {t}}{(1 + i) ^ {t}}
+\text{Pr es en tv al ue}_{t} = \frac{\text{Ex pe ct ed ca sh fl ow in pe ri od}^{t}}{(1 + i)^{t}}
 $$
 
 The value of a financial asset is then the sum of the present value of all the expected cash flows. Specifically, assuming that there are  $N$  expected cash flows:
 
 $$
-\begin{array}{c} \text {V a l u e = P r e s e n t v a l u e _ {1} + P r e s e n t v a l u e _ {2} + \cdots} \\ \hskip 1 4. 2 2 6 3 7 8 p t + \text {P r e s e n t v a l u e} _ {N} \end{array}
+\begin{array}{c} \text{Va lu e =P re se nt va lu e_{1} + P r e s e n t v a l u e_{2} + \cdots} \\ \hskip 1 4. 2 2 6 3 7 8 p t + \text{Pr es en tv al ue}_{N} \end{array}
 $$
 
 # Determining a Bond's Value
@@ -69,7 +69,7 @@ The adjustment for the discount rate is easy to accomplish but tricky to interpr
 We now have everything in place to value a semiannual coupon-paying bond. The present value of an annuity is equal to:
 
 $$
-\text {A n n u i t y p a m e m e n t} \times \left[ \frac {1 - \frac {1}{(1 + r) ^ {\mathrm {n o . o f y e a r s}}}}{r} \right]
+\text{An nu it yp am em en t} \times \left[ \frac{1 - \frac{1}{(1 + r)^{\mathrm{no .o fy ea rs}}}}{r} \right]
 $$ where  $r$  is the annual discount rate.
 
 
@@ -78,7 +78,7 @@ Applying this formula to a semiannual-pay bond, the annuity payment is one half 
 Semiannual coupon payment
 
 $$
-\times \left[ \frac {1 - \frac {1}{(1 + i) ^ {\mathrm {n o . o f y e a r s} \times 2}}}{i} \right]
+\times \left[ \frac{1 - \frac{1}{(1 + i)^{\mathrm{no .o fy ea rs} \times 2}}}{i} \right]
 $$ where  $i$  is the semiannual discount rate  $(r / 2)$ . Notice that in the formula, for the number of periods we use the number of years multiplied by 2 since a period in our illustration is six months.
 
 
@@ -87,7 +87,7 @@ The present value of the maturity value is just the present value of a lump sum 
 Present value of the maturity value
 
 $$
-= \frac {\mathbb {S} 1 0 0}{(1 + i) ^ {\mathrm {N o . o f y e a r s} \times 2}}
+= \frac{\mathbb {S} 1 0 0}{(1 + i)^{\mathrm{No .o fy ea rs} \times 2}}
 $$
 
 We will illustrate the calculation by valuing our 4-year,  $6\%$  coupon bond assuming that the relevant discount rate is  $7\%$ . The data are summarized below:
@@ -101,7 +101,7 @@ Number of years to maturity  $= 4$
 The present value of the coupon payments is:
 
 $$
-\$ 3 \times \left[ \frac {1 - \frac {1}{(1 . 0 3 5) ^ {4 \times 2}}}{0 . 0 3 5} \right] = \$ 2 0. 6 2 1 9
+\$ 3 \times \left[ \frac{1 - \frac{1}{(1 . 0 3 5)^{4 \times 2}}}{0 . 0 3 5} \right] = \$ 2 0. 6 2 1 9
 $$
 
 This number tells us that the coupon payments contribute 20.6219 to the bond's value.
@@ -126,7 +126,7 @@ Finally, let's suppose that the discount rate is equal to the coupon rate. That 
 For a zero-coupon bond, there is only one cash flow—the repayment of principal at maturity. The value of a zero-coupon bond that matures  $N$  years from now is:
 
 $$
-\frac {\text {M a t u r i t y v a l u e}}{(1 + i) ^ {N \times 2}}
+\frac{\text{Ma tu ri ty va lu e}}{(1 + i)^{N \times 2}}
 $$ where  $i$  is the semiannual discount rate.
 
 
@@ -135,7 +135,7 @@ The expression presented above states that the price of a zero-coupon bond is si
 To illustrate, the value of a 10-year zero-coupon bond with a maturity value of  \$100 discounted at a 6.4\%$  interest rate is 53.2606, as presented below:
 
 $$
-\begin{array}{l} i = 0. 0 3 2 = (0. 0 6 4 / 2) \\ N = 1 0 \\ \frac {\mathbb {S} 1 0 0}{(1 . 0 3 2) ^ {1 0 \times 2}} = \mathbb {S} 5 3. 2 6 0 6 \\ \end{array}
+\begin{array}{l} i = 0. 0 3 2 = (0. 0 6 4 / 2) \\ N = 1 0 \\ \frac{\mathbb {S} 1 0 0}{(1 . 0 3 2)^{1 0 \times 2}} = \mathbb {S} 5 3. 2 6 0 6 \\ \end{array}
 $$
 
 # Valuing a Bond between Coupon Payments
@@ -148,13 +148,13 @@ In order to value a bond with a settlement date between coupon payments, we must
 
 Computing the Full Price When valuing a bond purchased with a settlement date between coupon payment dates, the first step is to determine the fractional periods between the settlement date and the next coupon date. Using the appropriate day count convention, this is determined as follows:
 
-$$ w \text {p e r i o d s} = \frac {\text {D a y s b e t w e e n s e t t l e m e n t d a t e}}{\text {a n d n e x t c o u p o n p a y m e n t d a t e}}
+$$ w \text{pe ri od s} = \frac{\text{Da ys be tw ee ns et tl em en td at e}}{\text{an dn ex tc ou po np ay me nt da te}}
 $$
 
 Then the present value of each expected future cash flow to be received  $t$  periods from now using a discount rate  $i$  assuming the next coupon payment is  $w$  periods from now (settlement date) is:
 
 $$
-\text {P r e s e n t v a l u e} _ {t} = \frac {\text {E x p e c t e d c a s h f l o w}}{(1 + i) ^ {t - 1 + w}}
+\text{Pr es en tv al ue}_{t} = \frac{\text{Ex pe ct ed ca sh fl ow}}{(1 + i)^{t - 1 + w}}
 $$ method." In the Street method, as can be seen in the previous expression, coupon interest is compounded over the fractional period  $w$ .
 
 Note for the first coupon payment subsequent to the settlement date,  $t = 1$  so the exponent is just  $w$ . This procedure for calculating the present value when a bond is purchased between coupon payments is called the "Street
@@ -169,15 +169,15 @@ To illustrate the calculation, suppose that a U.S. Treasury note maturing on Dec
 Then  $w$  is 0.2120 periods (39/184). The present value of each cash flow assuming that each is discounted at a  $4.9\%$  annual discount rate is
 
 $$
-\begin{array}{l} \text {P e r i o d 1 : P r e s e n t v a l u e} _ {1} = \frac {\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5) ^ {0 . 2 1 2 0}} \\ = \$ 2. 1 7 6 1 \\ \end{array}
+\begin{array}{l} \text{Pe ri od 1 :P re se nt va lu e}_{1} = \frac{\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5)^{0 . 2 1 2 0}} \\ = \$ 2. 1 7 6 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {P e r i o d 2 : P r e s e n t v a l u e} _ {2} = \frac {\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5) ^ {1 . 2 1 2 0}} \\ = \$ 2. 1 2 4 3 \\ \end{array}
+\begin{array}{l} \text{Pe ri od 2 :P re se nt va lu e}_{2} = \frac{\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5)^{1 . 2 1 2 0}} \\ = \$ 2. 1 2 4 3 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text {P e r i o d 3 : P r e s e n t v a l u e} _ {3} = \frac {\mathbb {S} 1 0 2 . 1 8 7 5}{(1 . 0 2 4 5) ^ {2 . 2 1 2 0}} \\ = \$ 96.8498 \\ \end{array}
+\begin{array}{l} \text{Pe ri od 3 :P re se nt va lu e}_{3} = \frac{\mathbb {S} 1 0 2 . 1 8 7 5}{(1 . 0 2 4 5)^{2 . 2 1 2 0}} \\ = \$ 96.8498 \\ \end{array}
 $$
 
 The sum of the present values of the cash flows is 101.1502. This price is referred to as the full price (or the dirty price).
@@ -202,7 +202,7 @@ $\mathrm{AI} =$  Semiannual coupon payment  $\times (1 - w)$
 Accordingly, using a 4.375 Treasury note with a settlement date of November 22, 2006, the portion of the next coupon payment that was accrued interest was:
 
 $$
-\begin{array}{l} \$ 2.1875 \times (1 - 0.7880) = \$ 1.7238 (\text {p e r} \$ 100 \text {o f} \\ \text {p a r v a l u e)} \\ \end{array}
+\begin{array}{l} \$ 2.1875 \times (1 - 0.7880) = \$ 1.7238 (\text{pe r} \$ 100 \text{of} \\ \text{pa rv al ue)} \\ \end{array}
 $$
 
 Once we know the full price and the accrued interest, we can determine the clean price. The clean price is the price quoted in the market and represents the bond's value to the new bondholder. The clean price is computed as follows:
@@ -228,13 +228,13 @@ $\Rightarrow$  Price  $=$  Par value
 Coupon rate  $<$  Yield required by market
 
 $$
-\Rightarrow \text {P r i c e} <   \text {P a r v a l u e (d i s c o u n t)}
+\Rightarrow \text{Pr ic e} <   \text{Pa rv al ue (di sc ou nt)}
 $$
 
 Coupon rate  $>$  Yield required by market
 
 $$
-\Rightarrow \text {P r i c e} > \text {P a r v a l u e (p r e m i u m)}
+\Rightarrow \text{Pr ic e} > \text{Pa rv al ue (pr em iu m)}
 $$
 
 This agrees with what we found for the 4-year,  $6\%$  coupon bond:
@@ -317,7 +317,7 @@ Table 1. This security is a Treasury bill and is issued as a zero-coupon instrum
 The present value of the cash flows is then:
 
 $$
-\frac {1 . 7 5}{(1 + z _ {1}) ^ {1}} + \frac {1 . 7 5}{(1 + z _ {2}) ^ {2}} + \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}}
+\frac{1 . 7 5}{(1 + z_{1})^{1}} + \frac{1 . 7 5}{(1 + z_{2})^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}}
 $$ where
 
 
@@ -327,13 +327,13 @@ $z_{3} =$  one-half the 1.5-year theoretical spot rate
 
 Since the 6-month spot rate is  $3\%$  and the 1-year spot rate is  $3.30\%$ , we know that:
 
-$$ z _ {1} = 0. 0 1 5 0 \quad \text {a n d} \quad z _ {2} = 0. 0 1 6 5
+$$ z_{1} = 0. 0 1 5 0 \quad \text{an d} \quad z_{2} = 0. 0 1 6 5
 $$
 
 We can compute the present value of the 1.5-year coupon Treasury security as:
 
 $$
-\begin{array}{l} \frac {1 . 7 5}{(1 + z _ {1}) ^ {1}} + \frac {1 . 7 5}{(1 + z _ {2}) ^ {2}} + \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}} = \frac {1 . 7 5}{(1 . 0 1 5) ^ {1}} \\ + \frac {1 . 7 5}{(1 . 0 1 6 5) ^ {2}} + \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}} \\ \end{array}
+\begin{array}{l} \frac{1 . 7 5}{(1 + z_{1})^{1}} + \frac{1 . 7 5}{(1 + z_{2})^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = \frac{1 . 7 5}{(1 . 0 1 5)^{1}} \\ + \frac{1 . 7 5}{(1 . 0 1 6 5)^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} \\ \end{array}
 $$
 
 Since the price of the 1.5-year coupon Treasury security is equal to its par value (see
@@ -341,7 +341,7 @@ Since the price of the 1.5-year coupon Treasury security is equal to its par val
 Table 1), the following relationship must hold
 
 $$
-\frac {1 . 7 5}{(1 . 0 1 5) ^ {1}} + \frac {1 . 7 5}{(1 . 0 1 6 5) ^ {2}} + \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}} = 1 0 0
+\frac{1 . 7 5}{(1 . 0 1 5)^{1}} + \frac{1 . 7 5}{(1 . 0 1 6 5)^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 1 0 0
 $$
 
 If we had not been working with a par yield curve, the equation would have been set to the market price for the 1.5-year issue rather than par value.
@@ -351,7 +351,7 @@ Note we are treating the 1.5 year par bond as if it were a portfolio of three ze
 We can solve for the theoretical 1.5-year spot rate as follows:
 
 $$
-\begin{array}{l} 1. 7 2 4 1 + 1. 6 9 3 6 + \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}} = 1 0 0 \\ \frac {1 0 1 . 7 5}{(1 + z _ {3}) ^ {3}} = 9 6. 5 8 2 2 \\ (1 + z _ {3}) ^ {3} = \frac {1 0 1 . 7 5}{9 6 . 5 8 2 2} \\ (1 + z _ {3}) ^ {3} = 1. 0 5 3 5 1 \\ z _ {3} = 0. 0 1 7 5 2 7 \\ = 1.7527 \% \\ \end{array}
+\begin{array}{l} 1. 7 2 4 1 + 1. 6 9 3 6 + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 1 0 0 \\ \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 9 6. 5 8 2 2 \\ (1 + z_{3})^{3} = \frac{1 0 1 . 7 5}{9 6 . 5 8 2 2} \\ (1 + z_{3})^{3} = 1. 0 5 3 5 1 \\ z_{3} = 0. 0 1 7 5 2 7 \\ = 1.7527 \% \\ \end{array}
 $$
 
 Doubling this yield we obtain the bond-equivalent yield of  $3.5053\%$ , which is the theoretical 1.5-year spot rate. This is the rate that the market would apply to a 1.5-year zero-coupon Treasury security if, in fact, such a security existed. In other words, all Treasury cash flows to be received 1.5 years from now should be valued (that is, discounted) at  $3.5053\%$ .
@@ -366,31 +366,31 @@ Given the theoretical 1.5-year spot rate, we can obtain the theoretical 2-year s
 The present value of the cash flows is then:
 
 $$
-\frac {1 . 9 5}{(1 + z _ {1}) ^ {1}} + \frac {1 . 9 5}{(1 + z _ {2}) ^ {2}} + \frac {1 . 9 5}{(1 + z _ {3}) ^ {3}} + \frac {1 0 1 . 9 5}{(1 + z _ {4}) ^ {4}}
+\frac{1 . 9 5}{(1 + z_{1})^{1}} + \frac{1 . 9 5}{(1 + z_{2})^{2}} + \frac{1 . 9 5}{(1 + z_{3})^{3}} + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}}
 $$ where  $z_4 =$  one-half of the 2-year theoretical spot rate.
 
 
 Since the 6-month spot rate, 1-year spot rate, and 1.5-year spot rate are  $3.00\%$ ,  $3.30\%$ , and  $3.5053\%$ , respectively, then:
 
-$$ z _ {1} = 0. 0 1 5 0 \quad z _ {2} = 0. 0 1 6 5 \quad z _ {3} = 0. 0 1 7 5 2 7
+$$ z_{1} = 0. 0 1 5 0 \quad z_{2} = 0. 0 1 6 5 \quad z_{3} = 0. 0 1 7 5 2 7
 $$
 
 Therefore, the present value of the 2-year coupon Treasury security is:
 
 $$
-\begin{array}{l} \frac {1 . 9 5}{(1 . 0 1 5 0) ^ {1}} + \frac {1 . 9 5}{(1 . 0 1 6 5) ^ {2}} + \frac {1 . 9 5}{(1 . 0 1 7 5 2 7) ^ {3}} \\ + \frac {1 0 1 . 9 5}{(1 + z _ {4}) ^ {4}} = 1 0 0 \\ \end{array}
+\begin{array}{l} \frac{1 . 9 5}{(1 . 0 1 5 0)^{1}} + \frac{1 . 9 5}{(1 . 0 1 6 5)^{2}} + \frac{1 . 9 5}{(1 . 0 1 7 5 2 7)^{3}} \\ + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 1 0 0 \\ \end{array}
 $$
 
 Since the price of the 2-year coupon Treasury security is equal to par, the following relationship must hold:
 
 $$
-\begin{array}{l} \frac {1 . 9 5}{(1 . 0 1 5 0) ^ {1}} + \frac {1 . 9 5}{(1 . 0 1 6 5) ^ {2}} + \frac {1 . 9 5}{(1 . 0 1 7 5 2 7) ^ {3}} \\ + \frac {1 0 1 . 9 5}{(1 + z _ {4}) ^ {4}} = 1 0 0 \\ \end{array}
+\begin{array}{l} \frac{1 . 9 5}{(1 . 0 1 5 0)^{1}} + \frac{1 . 9 5}{(1 . 0 1 6 5)^{2}} + \frac{1 . 9 5}{(1 . 0 1 7 5 2 7)^{3}} \\ + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 1 0 0 \\ \end{array}
 $$
 
 We can solve for the theoretical 2-year spot rate as follows:
 
 $$
-\begin{array}{l} \frac {1 0 1 . 9 5}{(1 + z _ {4}) ^ {4}} = 9 4. 3 4 0 7 \\ (1 + z _ {4}) ^ {4} = \frac {1 0 1 . 9 5}{9 4 . 3 4 0 7} \\ z_{4} = 0.019582 = 1.9582\% \\ \end{array}
+\begin{array}{l} \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 9 4. 3 4 0 7 \\ (1 + z_{4})^{4} = \frac{1 0 1 . 9 5}{9 4 . 3 4 0 7} \\ z_{4} = 0.019582 = 1.9582\% \\ \end{array}
 $$
 
 Doubling this yield, we obtain the theoretical 2-year spot rate bond-equivalent yield of  $3.9164\%$ .

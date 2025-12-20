@@ -70,7 +70,7 @@ We begin our study of the effect of factor movements between countries by using 
 
 Determining the Wage Figure 5-1 shows a diagram that we used in Chapter 3 to determine the equilibrium wage paid to labor. The horizontal axis measures the total amount of labor in the economy  $ \overline{L} $, which consists of the labor used in manufacturing $ L_{M} $ and the amount used in agriculture $ L_{A} $: $ $
 
-L _ {M} + L _ {A} = \overline {{L}}
+L_{M} + L_{A} = \overline {{L}}
 
 $ $
 FIGURE 5-1
@@ -485,7 +485,7 @@ $ 1.6\% $  per year, as also shown in part A. These estimates of the falling ren
 
 But there is a second way to calculate a rental on capital besides using the marginal product. Under this second approach, we start with the price  $ P_K $ of some capital equipment. If that equipment were rented rather than purchased, what would its rental be? Let us suppose that the rental agency needs to make the same rate of return on renting the capital equipment that it would make if it invested its money in some financial asset, such as a savings account in a bank or the stock market. If it invested $ P_K $ and the asset had the interest rate of $ i $, then it could expect to earn $ P_K \cdot i $ from that asset. On the other hand, if it rents out the equipment, then that machinery also suffers wear and tear, and the rental agency needs to recover that cost, too. If $ d $ is the rate of depreciation of the capital equipment (the fraction of it that is used up each year), then to earn the same return on a financial asset as from renting out the equipment, the rental agency must receive $ P_K \cdot (i + d) $. This formula is an estimate of $ R $, the rental on capital. Dividing by an overall price index $ P $, the real rental is $ $
 
-\frac {R}{P} = \frac {P _ {K}}{P} \cdot (i + d)
+\frac{R}{P} = \frac{P_{K}}{P} \cdot (i + d)
 
 $ $
 In part B of Table 5-2, we show the growth rate in the real rental, computed from this formula, which depends on the interest rate used. In the first row, we use the bank lending rate for  $ i $, and the computed real rental grows by $ 1.6\% $ per year. In the next rows, we use two interest rates from the stock market: the return on equity (what you would earn from investing in stocks) and the earnings-price ratio (the profits that each firm earns divided by the value of its outstanding stocks). In both these latter cases, the calculated real rental falls slightly over time, by $ 0.2\% $ and $ 0.5\% $  per year, much less than the fall in the real rental in part A. According to the calculated real rentals in part B, there is little evidence of a downward fall in the rentals over time.
@@ -698,12 +698,12 @@ a. Solve for the amount of labor and capital used in each industry.
 Hint: The box diagram shown in Figure 5-7 means that the amount of labor and capital used in each industry must add up to the total for the economy, so that
 $ $
 
-K _ {C} + K _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
+K_{C} + K_{S} = 1 0 0 \text{an d} L_{C} + L_{S} = 1 0 0
 
 \$ $
 Use the facts that  $ K_{C} = 2 \cdot L_{C} $ and $ K_{S} = 0.5 \cdot L_{S} $ to rewrite these equations as $ \$
 
-2 \cdot L _ {C} + 0. 5 \cdot L _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
+2 \cdot L_{C} + 0. 5 \cdot L_{S} = 1 0 0 \text{an d} L_{C} + L_{S} = 1 0 0
 
 \$ $
 Use these two equations to solve for  $ L_{C} $ and $ L_{S} $, and then calculate the amount of capital used in each industry using $ K_{C} = 2 \cdot L_{C} $ and $ K_{S} = 0.5 \cdot L_{S} $ .

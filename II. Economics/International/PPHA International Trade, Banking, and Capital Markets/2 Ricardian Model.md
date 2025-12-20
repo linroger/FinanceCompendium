@@ -111,13 +111,13 @@ What does this say about the wage rate?
 # Home Equilibrium
 
 $$
-P _ {W} \times M P L _ {W} = P _ {C} \times M P L _ {C} = \omega ,
+P_{W} \times M P L_{W} = P_{C} \times M P L_{C} = \omega ,
 $$
 
 where  $P_W$  and  $P_C$  are the prices of wheat and cloth,  $MPL_W$  and  $MPL_C$  are the marginal productivities of labor for wheat and cloth, and  $\omega$  is the wage rate
 
 $$
-R e a r r a n g i n g, w e o b t a i n \frac {P _ {W}}{P _ {C}} = \frac {M P L _ {C}}{M P L _ {W}}
+R e a r r a n g i n g, w e o b t a i n \frac{P_{W}}{P_{C}} = \frac{M P L_{C}}{M P L_{W}}
 $$
 
 the relative price of two goods is inversely proportional to the relative marginal productivity of labor
@@ -181,7 +181,7 @@ Of wheat?  $1 / 2$ yd. cloth
 - Will be at a level where both countries can consume more of one or both goods, assume  $P_{W} / P_{C} = 2 / 3$
 
 $$
-\left(\frac {P _ {W}}{P _ {C}}\right) \times \left(\frac {M P L _ {w}}{M P L _ {C}}\right) = \left(\frac {2}{3}\right) \times \left(\frac {4}{2}\right) = \left(\frac {4}{3}\right) > 1,
+\left(\frac{P_{W}}{P_{C}}\right) \times \left(\frac{M P L_{w}}{M P L_{C}}\right) = \left(\frac{2}{3}\right) \times \left(\frac{4}{2}\right) = \left(\frac{4}{3}\right) > 1,
 $$
 
 therefore wages paid in wheat farming will exceed wages in the cloth industry

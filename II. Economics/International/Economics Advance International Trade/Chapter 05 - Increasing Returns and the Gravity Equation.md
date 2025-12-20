@@ -34,13 +34,13 @@ Spence (1976), and Dixit and Stiglitz (1977). Lancaster presented a model in whi
 We will suppose that there are  $\mathrm{i} = 1, \dots, \mathrm{N}$  product varieties, where the number  $\mathrm{N}$  will be endogenously determined. There is a fixed number  $\mathrm{L}$  of consumers, each of whom receive the following utility from consuming  $c_{\mathrm{i}}$  of each variety:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {v} \left(\mathrm {c} _ {\mathrm {i}}\right), \quad \mathrm {v} ^ {\prime} > 0, \quad \mathrm {v} ^ {\prime \prime} <   0. \tag {5.1}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{v} \left(\mathrm{c}_{\mathrm{i}}\right), \quad \mathrm{v}^{\prime} > 0, \quad \mathrm{v}^{\prime \prime} <   0. \tag {5.1}
 $$
 
 Notice that this utility function is symmetric over the product varieties, i.e. the same function  $\mathrm{v}(\mathrm{c}_{\mathrm{i}})$  applies to the consumption of each. Each consumer receives labor income of  $\mathrm{w}$ , so their budget constraint is  $\mathrm{w} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{p}_{\mathrm{i}} \mathrm{c}_{\mathrm{i}}$ . They choose consumption  $\mathrm{c}_{\mathrm{i}}$  of each variety to maximize utility in (5.1), subject to this budget constraint. The first-order conditions for this problem are:
 
 $$
-v ^ {\prime} \left(c _ {i}\right) = \lambda p _ {i}, i = 1, \dots , N, \tag {5.2}
+v^{\prime} \left(c_{i}\right) = \lambda p_{i}, i = 1, \dots , N, \tag {5.2}
 $$
 
 where  $\lambda$  is the Lagrange multiplier (i.e. the marginal utility of income).
@@ -48,13 +48,13 @@ where  $\lambda$  is the Lagrange multiplier (i.e. the marginal utility of incom
 The effect of a change in price on consumption can be derived by totally differentiating the system of equations in (5.2), together with the budget constraint. Normally, such a change in price would affect  $\lambda$ . However, it can be argued that if the number of varieties is sufficiently large, so that the budget share of each of them is small, then we can ignore the impact of a change in one price on  $\lambda$ . In that case, the effect of a change in price is simply:
 
 $$
-v ^ {\prime \prime} d c _ {i} = d p _ {i} \lambda \Rightarrow \frac {d c _ {i}}{d p _ {i}} = \frac {\lambda}{v ^ {\prime \prime}} <   0 \tag {5.3}
+v^{\prime \prime} d c_{i} = d p_{i} \lambda \Rightarrow \frac{d c_{i}}{d p_{i}} = \frac{\lambda}{v^{\prime \prime}} <   0 \tag {5.3}
 $$
 
 Using (5.2) and (5.3), we define the elasticity of demand for variety  $i$  as:
 
 $$
-\eta_ {\mathrm {i}} = - \frac {\mathrm {d} c _ {\mathrm {i}}}{\mathrm {d} p _ {\mathrm {i}}} \frac {\mathrm {p}}{c _ {\mathrm {i}}} = - \left(\frac {\mathrm {v} ^ {\prime}}{c _ {\mathrm {i}} \mathrm {v} ^ {\prime \prime}}\right) > 0. \tag {5.4}
+\eta_{\mathrm{i}} = - \frac{\mathrm{d} c_{\mathrm{i}}}{\mathrm{d} p_{\mathrm{i}}} \frac{\mathrm{p}}{c_{\mathrm{i}}} = - \left(\frac{\mathrm{v}^{\prime}}{c_{\mathrm{i}} \mathrm{v}^{\prime \prime}}\right) > 0. \tag {5.4}
 $$
 
 While the assumptions we have made on v (increasing and concave) ensure that the elasticity is positive, we do not in general know whether it is increasing or decreasing in  $c_i$ . This will turn out to be quite important, and we shall assume that  $\frac{d\eta_i}{dc_i} < 0$ , so that as we move up a demand curve (consumption falling) the elasticity rises. The reader should verify that this assumption holds for a linear demand curve, and more generally, for any demand curve that is "less convex" that a constant-elasticity curve.
@@ -62,7 +62,7 @@ While the assumptions we have made on v (increasing and concave) ensure that the
 On the production side, labor is the only resource and each firm requires the following labor to produce output of  $y_{i}$ :
 
 $$
-\mathrm {L} _ {\mathrm {i}} = \alpha + \beta \mathrm {y} _ {\mathrm {i}}, \tag {5.5}
+\mathrm{L}_{\mathrm{i}} = \alpha + \beta \mathrm{y}_{\mathrm{i}}, \tag {5.5}
 $$
 
 where  $\alpha$  is the fixed labor input needed for production, and  $\beta$  is the marginal labor input. Given the equilibrium wage  $w$ , it follows that average costs for the firms are,  $AC_{i} = wL_{i} / y_{i} = w\alpha / y_{i} + w\beta$ , while marginal costs are simply  $w\beta$ . These are both graphed in Figure 5.1.
@@ -70,11 +70,11 @@ where  $\alpha$  is the fixed labor input needed for production, and  $\beta$  i
 Monopolistic competition has two key equilibrium conditions for firms. First, each firm maximizes its own profits, requiring that marginal revenue equal marginal cost (MR=MC). Second, there is free entry whenever economic profits are positive, so in the long-run equilibrium we must have zero profits, or price equal to average cost (P=AC). In addition to these, we will add the requirement that the equilibrium is "symmetric," meaning that prices and quantities are identical across varieties. Dropping the subscript i, we therefore have the equilibrium conditions:
 
 $$
-\mathrm {M R} = \mathrm {M C}: \quad \mathrm {p} \left(1 - \frac {1}{\eta}\right) = \mathrm {w} \beta , \quad \text {o r} \quad \frac {\mathrm {p}}{\mathrm {w}} = \beta \left(\frac {\eta}{\eta - 1}\right) \tag {5.6}
+\mathrm{MR} = \mathrm{MC}: \quad \mathrm{p} \left(1 - \frac{1}{\eta}\right) = \mathrm{w} \beta , \quad \text{or} \quad \frac{\mathrm{p}}{\mathrm{w}} = \beta \left(\frac{\eta}{\eta - 1}\right) \tag {5.6}
 $$
 
 $$
-P = A C: \quad p = \left(\frac {w \alpha}{y}\right) + w \beta , \quad o r \quad \frac {p}{w} = \left(\frac {\alpha}{L c}\right) + \beta \tag {5.7}
+P = A C: \quad p = \left(\frac{w \alpha}{y}\right) + w \beta , \quad o r \quad \frac{p}{w} = \left(\frac{\alpha}{L c}\right) + \beta \tag {5.7}
 $$
 
 Notice that in (5.7), we have replaced supply of each good,  $y$ , by the demand for each good,  $Lc$ . Equations (5.6) and (5.7) form two equations to solve for the two unknowns,  $(p/w)$  and  $c$ . The first of these equations is graphed as the line PP in Figure 5.2. Our assumption that  $d\eta_i / dc_i < 0$  ensures that the PP curve is upward sloping. Turning to equation (5.7), this is graphed as the downward sloping line ZZ in Figure 5.2, which is simply the firm's average cost curve. The intersection of these two curves determines the equilibrium values of  $(p/w)$  and  $c$ . Then to determine the equilibrium number of product  $N$ , we make use of full-employment in the economy, which is stated as:
@@ -86,13 +86,13 @@ Figure 5.1
 Figure 5.2
 
 $$
-\mathrm {L} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {L} _ {\mathrm {i}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \left(\alpha + \beta \mathrm {y} _ {\mathrm {i}}\right) = \mathrm {N} (\alpha + \beta \mathrm {y}) = \mathrm {N} (\alpha + \beta \mathrm {L c}), \tag {5.8}
+\mathrm{L} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{L}_{\mathrm{i}} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \left(\alpha + \beta \mathrm{y}_{\mathrm{i}}\right) = \mathrm{N} (\alpha + \beta \mathrm{y}) = \mathrm{N} (\alpha + \beta \mathrm{Lc}), \tag {5.8}
 $$
 
 from which it follows that:
 
 $$
-N = \frac {1}{\left[ (\alpha / L) + \beta c \right]}. \tag {5.9}
+N = \frac{1}{\left[ (\alpha / L) + \beta c \right]}. \tag {5.9}
 $$
 
 The equilibrium value of  $c$  therefore determines the number of products  $N$ .
@@ -101,7 +101,7 @@ So far, we have represented the equilibrium for a single economy. But the effect
 
 Having the two identical countries trading is just like doubling the population L. This has no impact on the PP curve [since L does not appear in (5.6)], but it does shift the ZZ curve down [as can be seen from (5.7)]. Therefore, the equilibrium consumption of each variety falls, from  $c_0$  to  $c_1$ , while the real wage rises, from  $(w/p)_0$  to  $(w/p)_1$ . Consumption falls because individuals are spreading their expenditures over more product varieties, and this raises the elasticity of demand, reducing the equilibrium prices and therefore raising real wages. This is a source of gain for consumers. But there is also a second source of gain from trade, because with the rise in L and fall in c, it can be verified from (5.9) that total product variety increases. That is, the sum of varieties from both countries under free trade exceeds the number in any single country before trade.
 
-But notice that the number of varieties produced in each country necessarily falls with the opening of trade. This can be seen by noting that the fall in  $(\mathrm{p / w})$ , as firms move down their average cost curve, necessarily implies that output  $y$  increases. This means that any firm that produces both in autarky and under free trade will be selling more with trade. But the full-employment conditions for each economy is  $\mathrm{L} = \mathrm{N}(\alpha + \beta y)$ , where now  $\mathrm{L}$  is fixed. So the increase in  $y$ , as firms exploit economies of scale, necessarily implies a reduction in the number of firms in each country. This resolves the question raised at the beginning of the chapter: opening trade between countries indeed implies that firms must exit in each, while the remaining firms expand their output and take advantage of scale economies.
+But notice that the number of varieties produced in each country necessarily falls with the opening of trade. This can be seen by noting that the fall in  $(\mathrm{p /w})$ , as firms move down their average cost curve, necessarily implies that output  $y$  increases. This means that any firm that produces both in autarky and under free trade will be selling more with trade. But the full-employment conditions for each economy is  $\mathrm{L} = \mathrm{N}(\alpha + \beta y)$ , where now  $\mathrm{L}$  is fixed. So the increase in  $y$ , as firms exploit economies of scale, necessarily implies a reduction in the number of firms in each country. This resolves the question raised at the beginning of the chapter: opening trade between countries indeed implies that firms must exit in each, while the remaining firms expand their output and take advantage of scale economies.
 
 # Evidence from the Canada-U.S. Free Trade Agreement
 
@@ -122,7 +122,7 @@ Thus, productivity in Canada was increased due to free trade with the U.S. from 
 The finding that the scale of Canadian firms did not change much (on net) following the FTA can be explained from several models, as discussed in Head and Ries (1999, 2002). We note here one particularly simple theoretical result: if the elasticity of demand for product varieties is constant, then firm scale will not change at all due to tariffs or trade liberalization. A utility function that leads to this case is the constant elasticity of substitution (CES) function:
 
 $$
-\mathrm {U} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {c} _ {\mathrm {i}} ^ {(\sigma - 1) / \sigma}, \tag {5.10}
+\mathrm{U} = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{c}_{\mathrm{i}}^{(\sigma - 1) / \sigma}, \tag {5.10}
 $$
 
 The elasticity of substitution between products is equal to  $\sigma > 1$ , which also equals the elasticity of demand  $\eta$  when  $N$  is large. This implies that the markup of prices over marginal costs is fixed,  $p / (\beta w) = [\sigma / (\sigma - 1)]$ .
@@ -130,7 +130,7 @@ The elasticity of substitution between products is equal to  $\sigma > 1$ , whic
 Substituting this optimal price into the expression for profits of the firm we obtain:
 
 $$
-\mathrm {p y} - \mathrm {w} (\alpha + \beta \mathrm {y}) = \mathrm {w} \left[ \left(\frac {\beta \mathrm {y}}{\sigma - 1}\right) - \alpha \right]. \tag {5.11}
+\mathrm{py} - \mathrm{w} (\alpha + \beta \mathrm{y}) = \mathrm{w} \left[ \left(\frac{\beta \mathrm{y}}{\sigma - 1}\right) - \alpha \right]. \tag {5.11}
 $$
 
 In order to have zero profits in equilibrium, it follows that the output of firms is fixed at,
@@ -158,19 +158,19 @@ To the assumption that countries are specialized in different varieties of a fin
 Let  $s^j$  denote country  $j$ 's share of world expenditure. Assuming that trade is balanced in each country, the  $s^j$  also denotes country  $j$ 's share of world GDP, so that  $s^j = Y^j / Y^w$ . Then under the assumptions that all countries are producing different products, and demand is identical and homothetic, the exports from country  $i$  to county  $j$  of product  $k$  are given by:
 
 $$
-\mathrm {X} _ {\mathrm {k}} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {j}} \mathrm {y} _ {\mathrm {k}} ^ {\mathrm {i}} \quad . \tag {5.13}
+\mathrm{X}_{\mathrm{k}}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{j}} \mathrm{y}_{\mathrm{k}}^{\mathrm{i}} \quad . \tag {5.13}
 $$
 
 Summing over all products  $\mathbf{k}$ , we obtain:
 
 $$
-X ^ {i j} = \sum_ {k} X _ {k} ^ {i j} = s ^ {j} \sum_ {k} y _ {k} ^ {i} = s ^ {j} Y ^ {i} = \frac {Y ^ {j} Y ^ {i}}{Y ^ {w}} = s ^ {j} s ^ {i} Y ^ {w} = X ^ {j i}. \tag {5.14}
+X^{i j} = \sum_{k} X_{k}^{i j} = s^{j} \sum_{k} y_{k}^{i} = s^{j} Y^{i} = \frac{Y^{j} Y^{i}}{Y^{w}} = s^{j} s^{i} Y^{w} = X^{j i}. \tag {5.14}
 $$
 
 Summing the first and last of these terms, we therefore find that bilateral trade between two countries equals,
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}} = \left(\frac {2}{\mathrm {Y} ^ {\mathrm {w}}}\right) \mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}. \tag {5.15}
+\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}} = \left(\frac{2}{\mathrm{Y}^{\mathrm{w}}}\right) \mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}. \tag {5.15}
 $$
 
 This gives our simplest derivation of the gravity equation, where the bilateral exports from country  $i$  to country  $j$  are proportional to the product of their GDP's. This simple model has many empirical applications, and we shall discuss two.
@@ -182,7 +182,7 @@ This gives our simplest derivation of the gravity equation, where the bilateral 
 As a first application of the gravity equation, we consider the work of Helpman (1987). The goal of his work is to give an alternative characterization of the gravity equation, emphasizing the role of differential country size. Thus, consider an economic region consisting of two countries. Then holding fixed the economic size of this region, two countries of unequal size will not trade as much as would two countries of similar size. To demonstrate this, let us sum the first and last of terms in (5.14) to obtain:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}} = 2 \mathrm {s} ^ {\mathrm {i}} \mathrm {s} ^ {\mathrm {j}} \mathrm {Y} ^ {\mathrm {w}}. \tag {5.16}
+\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}} = 2 \mathrm{s}^{\mathrm{i}} \mathrm{s}^{\mathrm{j}} \mathrm{Y}^{\mathrm{w}}. \tag {5.16}
 $$
 
 It will be convenient to re-express this equation as depending on each country's share of GDP relative to each other. So let us say that these two countries belong to "region A" of the world, and denote the sum GDP of these two countries by  $\mathrm{Y}^{\mathrm{A}} = \mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}}$ . Then their relative shares of regional GDP are expressed as  $\mathrm{s}^{\mathrm{iA}} = \mathrm{Y}^{\mathrm{i}} / \mathrm{Y}^{\mathrm{A}}$ , and the GDP of region A relative to the world is  $\mathrm{s}^{\mathrm{A}} = \mathrm{Y}^{\mathrm{A}} / \mathrm{Y}^{\mathrm{w}}$ . Then (5.16) can be re-written as,  $(\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}}) / \mathrm{Y}^{\mathrm{A}} = 2\mathrm{s}^{\mathrm{iA}}\mathrm{s}^{\mathrm{jA}}\mathrm{s}^{\mathrm{A}}$ . The
@@ -198,7 +198,7 @@ therefore shown:
 If countries are completely specialized in their outputs, tastes are identical and homothetic, and there is free trade worldwide, then the volume of trade among countries in region A relative to their GDP is:
 
 $$
-\frac {\text {V o l u m e o f t r a d e i n A}}{\mathrm {G D P} ^ {\mathrm {A}}} = \mathrm {s} ^ {\mathrm {A}} \left(1 - \sum_ {\mathrm {i} \in \mathrm {A}} \left(\mathrm {s} ^ {\mathrm {i A}}\right) ^ {2}\right). \tag {5.17}
+\frac{\text{Vo lu me of tr ad ei nA}}{\mathrm{GD P}^{\mathrm{A}}} = \mathrm{s}^{\mathrm{A}} \left(1 - \sum_{\mathrm{i} \in \mathrm{A}} \left(\mathrm{s}^{\mathrm{iA}}\right)^{2}\right). \tag {5.17}
 $$
 
 We have derived this result above for the case of two countries in a region, but Helpman shows that it holds for a region of many countries. The term  $\left(1 - \sum_{\mathrm{i} \in \mathrm{A}} (\mathrm{s}^{\mathrm{iA}})^2\right)$  appearing on the right of (5.17) is a "size dispersion index." It shows how the volume of trade will be related to the relative size of countries. To understand the properties of this index, suppose that there are N countries in region A. Then the index is maximized for countries of the same relative size 1/N, in which case it equals [1-(1/N)]. Conversely, as any country has a share approaching unity, then the dispersion index also approaches zero. The theorem says that the volume of trade relative to GDP will be proportional to the dispersion index.
@@ -208,13 +208,13 @@ Helpman (1987) tests (5.17) for a group of OECD countries. In the simplest test,
 complete treatment. Let us specify the region A as any pair of countries,  $\mathrm{A} = \{\mathrm{i},\mathrm{j}\}$ . Then (5.17) is written in logs as:
 
 $$
-\ln \left(\frac {\mathbf {X} ^ {\mathrm {i j}} + \mathbf {X} ^ {\mathrm {j i}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) = \ln \left(\mathrm {s} ^ {\mathrm {i}} + \mathrm {s} ^ {\mathrm {j}}\right) + \ln \left[ 1 - \left(\frac {\mathbf {Y} ^ {\mathrm {i}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) ^ {2} - \left(\frac {\mathbf {Y} ^ {\mathrm {j}}}{\mathbf {Y} ^ {\mathrm {i}} + \mathbf {Y} ^ {\mathrm {j}}}\right) ^ {2} \right]. \tag {5.18}
+\ln \left(\frac{\mathbf {X}^{\mathrm{ij}} + \mathbf {X}^{\mathrm{ji}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right) = \ln \left(\mathrm{s}^{\mathrm{i}} + \mathrm{s}^{\mathrm{j}}\right) + \ln \left[ 1 - \left(\frac{\mathbf {Y}^{\mathrm{i}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right)^{2} - \left(\frac{\mathbf {Y}^{\mathrm{j}}}{\mathbf {Y}^{\mathrm{i}} + \mathbf {Y}^{\mathrm{j}}}\right)^{2} \right]. \tag {5.18}
 $$
 
 Debaere tests these relations using a dataset covering 1970-1989, over a sample of OECD and non-OECD countries. Recognizing that the variables also depend on time, let us write the estimating equation in (5.18) as:
 
 $$
-\ln \left(\frac {\mathrm {X} _ {\mathrm {t}} ^ {\mathrm {i j}} + \mathrm {X} _ {\mathrm {t}} ^ {\mathrm {j i}}}{\mathrm {Y} _ {\mathrm {t}} ^ {\mathrm {i}} + \mathrm {Y} _ {\mathrm {t}} ^ {\mathrm {j}}}\right) = \alpha_ {\mathrm {i j}} + \gamma \ln \left(\mathrm {s} _ {\mathrm {t}} ^ {\mathrm {i}} + \mathrm {s} _ {\mathrm {t}} ^ {\mathrm {j}}\right) + \beta \ln \left(\text {D i s p e r s i o n} _ {\mathrm {t}} ^ {\mathrm {i j}}\right), \tag {5.19}
+\ln \left(\frac{\mathrm{X}_{\mathrm{t}}^{\mathrm{ij}} + \mathrm{X}_{\mathrm{t}}^{\mathrm{ji}}}{\mathrm{Y}_{\mathrm{t}}^{\mathrm{i}} + \mathrm{Y}_{\mathrm{t}}^{\mathrm{j}}}\right) = \alpha_{\mathrm{ij}} + \gamma \ln \left(\mathrm{s}_{\mathrm{t}}^{\mathrm{i}} + \mathrm{s}_{\mathrm{t}}^{\mathrm{j}}\right) + \beta \ln \left(\text{Di sp er si on}_{\mathrm{t}}^{\mathrm{ij}}\right), \tag {5.19}
 $$
 
 where  $\alpha_{ij}$  is a fixed effect for each country pair,  $\gamma$  is a coefficient on the log sum of country shares, and  $\beta$  is a coefficient on the size dispersion index, which equals the final bracketed term on the right of (5.18). Notice that if the country shares are roughly constant over time, then the fixed effect  $\alpha_{ij}$  in (5.19) would absorb this term. This was implicitly assumed by Hummels and Levinsohn (1995), so Debaere runs two versions of (5.19): first excluding the term  $\ln(s_t^i + s_t^j)$ , which treats the country shares as constant over time; and then including this term, which allows the country share to vary over time. These two versions are shown in parts (a) and (b) of Table 5.1.
@@ -248,7 +248,7 @@ It turns out that when nominal GDP's from the IFS is used instead for the non-OE
 A second application of the gravity model, and one that has stimulated a large amount of research, came from comparing intra-national trade between Canadian provinces to international trade between Canadian provinces and U.S. states. This was the question posed by McCallum (1995) in a study using 1988 data, just before the Canada-U.S. FTA was signed. He estimated a gravity model like (5.15) where bilateral trade between Canadian provinces, or between a Canadian province and U.S. state, should depend on each of their province or state GDP's. Specifically, the regression estimated by McCallum is:
 
 $$
-\ln \left(\mathrm {X} ^ {\mathrm {i j}} + \mathrm {X} ^ {\mathrm {j i}}\right) = \alpha + \beta_ {1} \ln \mathrm {Y} ^ {\mathrm {i}} + \beta_ {2} \mathrm {Y} ^ {\mathrm {j}} + \gamma \delta^ {\mathrm {i j}} + \rho \ln \mathrm {d} ^ {\mathrm {i j}} + \varepsilon_ {\mathrm {i j}}, \tag {5.20}
+\ln \left(\mathrm{X}^{\mathrm{ij}} + \mathrm{X}^{\mathrm{ji}}\right) = \alpha + \beta_{1} \ln \mathrm{Y}^{\mathrm{i}} + \beta_{2} \mathrm{Y}^{\mathrm{j}} + \gamma \delta^{\mathrm{ij}} + \rho \ln \mathrm{d}^{\mathrm{ij}} + \varepsilon_{\mathrm{ij}}, \tag {5.20}
 $$
 
 where  $\delta^{\mathrm{ij}}$  is an indicator variable that equals unity for trade between two Canadian provinces and zero otherwise, and  $d^{\mathrm{ij}}$  is the distance between any two provinces or states. The results from estimating (5.20) using 1988 data are shown in column (1) of Table 5.2. The same regression using 1993 data is shown in column (2). Note that McCallum's dataset included trade between Canadian provinces, and provinces and states, but not trade between the U.S. states. This is added in column (3) using 1993 data, in which case we also include an indicator variable that equals one when trade is between two U.S. states and zero otherwise.
@@ -289,7 +289,7 @@ price effects, as in Anderson and van Wincoop (2001); and the use of fixed effec
 When there are border effects, such as transport costs or tariffs, then it is no longer the case that prices are equalized across countries, so the pattern of trade is more complex than in the gravity equation (5.15). The only way to sort this out is to assume a specific utility function, and we shall adopt the CES specification. We let  $c_{k}^{ij}$  denote the exports from country  $i$  to country  $j$  of good  $k$ . Because each country produces unique product varieties, the exports of good  $k$  from country  $i$  to  $j$  are identical to the consumption of good  $k$  in country  $j$ . In contrast to Krugman's model, we now let  $c_{k}^{ij}$  denote total consumption of good  $k$  in country  $j$ , rather than per-capita consumption. We will suppose that country  $i = 1,\dots,C$  produces  $N^i$  products. Then utility for country  $j$  is:
 
 $$
-U ^ {j} = \sum_ {i = 1} ^ {C} \sum_ {k = 1} ^ {N ^ {i}} \left(c _ {k} ^ {i j}\right) ^ {(\sigma - 1) / \sigma}, \tag {5.21}
+U^{j} = \sum_{i = 1}^{C} \sum_{k = 1}^{N^{i}} \left(c_{k}^{i j}\right)^{(\sigma - 1) / \sigma}, \tag {5.21}
 $$
 
 The triple-index on consumption is a bit unwieldy, but this can be simplified by assuming that all products exported by country  $i$  sell for the same price  $p^{ij}$  in country  $j$ . These prices are inclusive of transport costs from country  $i$  to  $j$ , on a c.i.f. (cost, insurance, freight) basis. In contrast, the local prices  $p^i$  for goods produced in country  $i$  are net of any transport costs, on a f.o.b. (free on board) basis. Let us model the relationship between these as:  $p^{ij} = T^{ij}p^i$ , where  $T^{ii} = 1$  and  $T^{ij} \geq 1$ , indicating that  $T^{ij}$  units of the product must be shipped to country  $j$  in order for
@@ -299,7 +299,7 @@ one unit to arrive; the amount  $(\mathrm{T}^{\mathrm{ij}} - 1)$  "melts" along 
 With equal transport costs across varieties, then consumption in country  $j$  is also equal over all the products  $k = 1,\ldots ,N^{\dot{1}}$  sold by country  $i$ , so that  $c_{k}^{ij} = c^{ij}$ . Then the utility function is simplified as:
 
 $$
-U ^ {j} = \sum_ {i = 1} ^ {C} N ^ {i} \left(c ^ {i j}\right) ^ {(\sigma - 1) / \sigma} \tag {5.22}
+U^{j} = \sum_{i = 1}^{C} N^{i} \left(c^{i j}\right)^{(\sigma - 1) / \sigma} \tag {5.22}
 $$
 
 where  $c^{ij}$  now denotes the consumption of any product sent from country  $i$  to country  $j$ .
@@ -307,7 +307,7 @@ where  $c^{ij}$  now denotes the consumption of any product sent from country  $
 The representative consumer in country  $j$  maximizes (5.22) subject to the budget constraint:
 
 $$
-Y ^ {j} = \sum_ {i = 1} ^ {C} N ^ {i} p ^ {i j} c ^ {i j} \tag {5.23}
+Y^{j} = \sum_{i = 1}^{C} N^{i} p^{i j} c^{i j} \tag {5.23}
 $$
 
 where  $\mathbf{Y}^{\mathrm{j}}$  is aggregate expenditure and income in country j (we will assume balanced trade).
@@ -315,19 +315,19 @@ where  $\mathbf{Y}^{\mathrm{j}}$  is aggregate expenditure and income in country
 Maximizing (5.22) subject to (5.23), we can derive the following expression for the demand for each product  $c^{ij,8}$ :
 
 $$
-\mathrm {c} ^ {\mathrm {i j}} = \left(\mathrm {p} ^ {\mathrm {i j}} / \mathrm {P} ^ {\mathrm {j}}\right) ^ {- \sigma} \left(\mathrm {Y} ^ {\mathrm {j}} / \mathrm {P} ^ {\mathrm {j}}\right), \tag {5.24}
+\mathrm{c}^{\mathrm{ij}} = \left(\mathrm{p}^{\mathrm{ij}} / \mathrm{P}^{\mathrm{j}}\right)^{- \sigma} \left(\mathrm{Y}^{\mathrm{j}} / \mathrm{P}^{\mathrm{j}}\right), \tag {5.24}
 $$
 
 where  $\mathbf{P}^{\mathrm{j}}$  refers to country j's overall price index, defined as:
 
 $$
-\mathrm {P} ^ {\mathrm {j}} = \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \mathrm {N} ^ {\mathrm {i}} \left(\mathrm {p} ^ {\mathrm {i j}}\right) ^ {1 - \sigma}\right) ^ {1 / (1 - \sigma)}. \tag {5.25}
+\mathrm{P}^{\mathrm{j}} = \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \mathrm{N}^{\mathrm{i}} \left(\mathrm{p}^{\mathrm{ij}}\right)^{1 - \sigma}\right)^{1 / (1 - \sigma)}. \tag {5.25}
 $$
 
 To compare this with our earlier derivation of gravity equation in (5.15), let us express the total value of exports from country  $i$  to  $j$ . This will be  $\mathrm{X}^{ij} \equiv \mathrm{N}^i \mathrm{p}^{ij} \mathrm{c}^{ij}$ , or from (5.24) and (5.25),
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {N} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {p} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}. \tag {5.26}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{N}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{p}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma}. \tag {5.26}
 $$
 
 # Estimating the Gravity Equation
@@ -337,7 +337,7 @@ $$
 In order to estimate (5.26), we should recognize that the "true" number of products  $\mathbf{N}^{\mathrm{i}}$  in each country is unobservable. One approach, then, is to solve for this using the zero-profit conditions. Assuming that labor is the only factor of production and using the same production functions as in Krugman (1979), it follows that firm output is fixed as in (5.12). Then GDP in country i is  $\mathbf{Y}^{\mathrm{i}} = \mathbf{N}^{\mathrm{i}}\mathbf{p}^{\mathrm{i}}\overline{\mathbf{y}}$ , and substituting this into (5.26) we obtain,
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {p} ^ {\mathrm {i}} \bar {\mathrm {y}}} \left(\frac {\mathrm {p} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} = \frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {p} ^ {\mathrm {i} \sigma} \bar {\mathrm {y}}} \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\mathrm {P} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}, \tag {5.26'}
+\mathrm{X}^{\mathrm{ij}} = \frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{p}^{\mathrm{i}} \bar {\mathrm{y}}} \left(\frac{\mathrm{p}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma} = \frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{p}^{\mathrm{i} \sigma} \bar {\mathrm{y}}} \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\mathrm{P}^{\mathrm{j}}}\right)^{1 - \sigma}, \tag {5.26'}
 $$
 
 where we use  $\mathfrak{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathfrak{p}^{\mathrm{i}}$  to obtain the last expression. The approach of Bergstrand (1985, 1989) and Baier and Bergstrand (2001) is to estimate (5.26') directly, where the variables on the right are country GDP's, tariffs and transport costs  $\mathbf{T}^{\mathrm{ij}}$  (measured with IFS data), and country prices  $\mathfrak{p}^{\mathrm{i}}$  or  $\mathbf{P}^{\mathrm{j}}$  (measured with GDP deflators).
@@ -345,13 +345,13 @@ where we use  $\mathfrak{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathfrak{p}
 Specifically, taking the logs and first-differences of the variables in (5.26'), we obtain the estimating equation,
 
 $$
-\Delta \ln X ^ {i j} = \Delta \ln \left(Y ^ {i} Y ^ {j}\right) + (1 - \sigma) \Delta \ln T ^ {i j} - \sigma \Delta \ln p ^ {i} + (\sigma - 1) \Delta \ln P ^ {j}. \tag {5.27}
+\Delta \ln X^{i j} = \Delta \ln \left(Y^{i} Y^{j}\right) + (1 - \sigma) \Delta \ln T^{i j} - \sigma \Delta \ln p^{i} + (\sigma - 1) \Delta \ln P^{j}. \tag {5.27}
 $$
 
 The term  $(\mathrm{Y}^{\mathrm{i}}\mathrm{Y}^{\mathrm{j}})$  appearing in (5.27) can be further decomposed as  $(\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})^{2}(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$ , where  $\mathrm{s}^{\mathrm{i}}$  and  $\mathrm{s}^{\mathrm{j}}$  here denote the shares of each country's GDP relative to their sum, i.e.  $\mathrm{s}^{\mathrm{i}} = \mathrm{Y}^{\mathrm{i}} / (\mathrm{Y}^{\mathrm{i}} + \mathrm{Y}^{\mathrm{j}})$ , and similarly for  $\mathrm{s}^{\mathrm{j}}$ . Therefore, we can re-write (5.27) as,
 
 $$
-\Delta \ln X ^ {i j} = 2 \Delta \ln \left(Y ^ {i} + Y ^ {j}\right) + \Delta \ln \left(s ^ {i} s ^ {j}\right) + (1 - \sigma) \Delta \ln T ^ {i j} - \sigma \Delta \ln p ^ {i} + (\sigma - 1) \Delta \ln P ^ {j}. \tag {5.27'}
+\Delta \ln X^{i j} = 2 \Delta \ln \left(Y^{i} + Y^{j}\right) + \Delta \ln \left(s^{i} s^{j}\right) + (1 - \sigma) \Delta \ln T^{i j} - \sigma \Delta \ln p^{i} + (\sigma - 1) \Delta \ln P^{j}. \tag {5.27'}
 $$
 
 In this formulation, we see that the growth of trade depends on changes in transport costs, changes in the sum of GDP, changes in relative country size measured by  $(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$ , and changes in the prices of each country, measured with GDP deflators. Because  $\mathrm{s}^{\mathrm{i}} + \mathrm{s}^{\mathrm{j}} = 1$ , then squaring both sides we obtain,  $\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}} = [1 - (\mathrm{s}^{\mathrm{i}})^{2} - (\mathrm{s}^{\mathrm{j}})^{2}] / 2$ , so the variable  $(\mathrm{s}^{\mathrm{i}}\mathrm{s}^{\mathrm{j}})$  in (5.27') is the same as Helpman's size dispersion index in (5.17).
@@ -359,7 +359,7 @@ In this formulation, we see that the growth of trade depends on changes in trans
 Using data for 16 OECD countries, and taking differences between the averages in 1958-60 and 1986-88, Baier and Bergstrand (2001, p. 19) estimate the following regression (with standard errors in parentheses):
 
 $$
-\Delta \ln X ^ {i j} = 0. 0 5 + 2. 3 7 \Delta \ln \left(Y ^ {i} + Y ^ {j}\right) + 0. 6 0 \Delta \ln \left(s ^ {i} s ^ {j}\right) - 4. 4 9 \Delta \ln \left(1 + \tau^ {i j}\right) - 3. 1 9 \Delta \ln \left(1 + a ^ {i j}\right)
+\Delta \ln X^{i j} = 0. 0 5 + 2. 3 7 \Delta \ln \left(Y^{i} + Y^{j}\right) + 0. 6 0 \Delta \ln \left(s^{i} s^{j}\right) - 4. 4 9 \Delta \ln \left(1 + \tau^{i j}\right) - 3. 1 9 \Delta \ln \left(1 + a^{i j}\right)
 $$
 
 $$
@@ -379,7 +379,7 @@ $$
 $$
 
 $$
-- 0. 6 8 \Delta \ln \mathrm {Y} ^ {\mathrm {j}} - 0. 2 5 \Delta \ln \left(\mathrm {p} ^ {\mathrm {i}} / \mathrm {P} ^ {\mathrm {j}}\right) - 0. 0 8 \ln \mathrm {X} _ {0} ^ {\mathrm {i j}}, \quad \mathrm {R} ^ {2} = 0. 4 0, \mathrm {N} = 2 4 0. \tag {5.28}
+- 0. 6 8 \Delta \ln \mathrm{Y}^{\mathrm{j}} - 0. 2 5 \Delta \ln \left(\mathrm{p}^{\mathrm{i}} / \mathrm{P}^{\mathrm{j}}\right) - 0. 0 8 \ln \mathrm{X}_{0}^{\mathrm{ij}}, \quad \mathrm{R}^{2} = 0. 4 0, \mathrm{N} = 2 4 0. \tag {5.28}
 $$
 
 $$
@@ -409,7 +409,7 @@ Notice that these three variables (sum of GDP's, tariffs and transport costs) ex
 An objection to using published price indexes to measure  $\mathfrak{p}^1$  and  $\mathbf{P}^j$  is that these indexes may not accurately reflect the "true" border effects. That is, the myriad of costs (in money, time and currency risk) involved in making transactions across the border are probably not reflected in aggregate price indexes.[10] So instead of using data to measure prices, we might want to model the c.i.f. prices  $\mathfrak{p}^{\mathrm{ij}}$  as differing from the f.o.b. prices  $\mathfrak{p}^i$  due to distance and other factors, as with:
 
 $$
-\ln \mathrm {T} ^ {\mathrm {i j}} = \tau^ {\mathrm {i j}} + \rho \ln \mathrm {d} ^ {\mathrm {i j}} + \varepsilon_ {\mathrm {i j}}, \tag {5.29}
+\ln \mathrm{T}^{\mathrm{ij}} = \tau^{\mathrm{ij}} + \rho \ln \mathrm{d}^{\mathrm{ij}} + \varepsilon_{\mathrm{ij}}, \tag {5.29}
 $$
 
 where  $d^{ij}$  is the distance between country  $i$  and  $j$ ,  $\tau^{ij}$  is any other "border effect" associated with selling from country  $i$  to  $j$ , and  $\varepsilon_{ij}$  is a random error. We should think of  $\rho$  and  $\tau^{ij}$  as being estimated, though we will have to explain how this is done. Generally,  $T^{ij}$  is meant to include all effects limiting trade between countries  $i$  and  $j$ , so referring to it as "iceberg" transportation costs is something of a misuse of language.
@@ -419,7 +419,7 @@ Substituting (5.29) back into the gravity equation (5.26) to eliminate the terms
 Notice that with the iceberg transportation costs, the output of the firm exceeds the net amount received by consumer, since these are related by:
 
 $$
-\mathrm {y} ^ {\mathrm {i}} = \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \mathrm {c} ^ {\mathrm {i j}} \mathrm {T} ^ {\mathrm {i j}}. \tag {5.30}
+\mathrm{y}^{\mathrm{i}} = \sum_{\mathrm{j} = 1}^{\mathrm{C}} \mathrm{c}^{\mathrm{ij}} \mathrm{T}^{\mathrm{ij}}. \tag {5.30}
 $$
 
 Multiplying this by the price  $p^i$ , we obtain  $p^i y^i = \sum_{j=1}^{C} p^{ij} c^{ij}$ , which is an equality between the value of output of the firm (using the f.o.b. prices but before the output has "melted") and the expenditure of consumers (using the c.i.f. prices but after the quantity delivered has "melted"). In principle, we can use the market clearing conditions (5.30) to solve for the unknown prices  $p^i$ . Rather than obtain an explicit solution for prices, Anderson and van Wincoop (2001) make use of a convenient implicit solution. To develop their result, we again denote country  $i$ 's GDP by  $Y^i = N^i p^i y^i$ , world GDP by  $Y^w = \sum_{j=1}^{C} Y^j$ , and country  $i$ 's share by  $s^i = Y^i / Y^w$ .
@@ -429,13 +429,13 @@ Multiplying this by the price  $p^i$ , we obtain  $p^i y^i = \sum_{j=1}^{C} p^{i
 Suppose that the transportation costs are symmetric,  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$ . Then an implicit solution to the market clearing conditions (5.30) is:
 
 $$
-\widetilde {\mathrm {p}} ^ {\mathrm {i}} \equiv \left(\mathrm {s} ^ {\mathrm {i}} / \mathrm {N} ^ {\mathrm {i}}\right) ^ {1 / (1 - \sigma)} / \widetilde {\mathrm {P}} ^ {\mathrm {i}}, \tag {5.31}
+\widetilde {\mathrm{p}}^{\mathrm{i}} \equiv \left(\mathrm{s}^{\mathrm{i}} / \mathrm{N}^{\mathrm{i}}\right)^{1 / (1 - \sigma)} / \widetilde {\mathrm{P}}^{\mathrm{i}}, \tag {5.31}
 $$
 
 in which case the price indexes are solved as:
 
 $$
-\left(\widetilde {P} ^ {j}\right) ^ {1 - \sigma} = \sum_ {i = 1} ^ {C} s ^ {i} \left(T ^ {i j} / \widetilde {P} ^ {i}\right) ^ {1 - \sigma}. \tag {5.32}
+\left(\widetilde {P}^{j}\right)^{1 - \sigma} = \sum_{i = 1}^{C} s^{i} \left(T^{i j} / \widetilde {P}^{i}\right)^{1 - \sigma}. \tag {5.32}
 $$
 
 # Proof:
@@ -443,13 +443,13 @@ $$
 We will show that substituting (5.31) into the price index (5.25), and substituting (5.31) into the market clearing conditions (5.30), both lead to equation (5.32). First, substituting  $\widetilde{\mathfrak{p}}^{\mathrm{ij}} = \widetilde{\mathfrak{p}}^{\mathrm{i}}\mathbf{T}^{\mathrm{ij}}$ $= \left(\mathrm{s}^{\mathrm{i}} / \mathrm{N}^{\mathrm{i}}\right)^{1 / (1 - \sigma)}\mathrm{T}^{\mathrm{ij}} / \widetilde{\mathrm{P}}^{\mathrm{i}}$  into (5.25), we immediately obtain (5.32). Second, rewrite the market clearing conditions (5.30) as,
 
 $$
-Y ^ {i} = N ^ {i} p ^ {i} y ^ {i} = N ^ {i} p ^ {i} \sum_ {j = 1} ^ {C} c ^ {i j} T ^ {i j} = N ^ {i} \sum_ {j = 1} ^ {C} c ^ {i j} p ^ {i j} = N ^ {i} \sum_ {j = 1} ^ {C} \left(p ^ {i} T ^ {i j} / P ^ {j}\right) ^ {1 - \sigma} Y ^ {j}, \tag {5.33}
+Y^{i} = N^{i} p^{i} y^{i} = N^{i} p^{i} \sum_{j = 1}^{C} c^{i j} T^{i j} = N^{i} \sum_{j = 1}^{C} c^{i j} p^{i j} = N^{i} \sum_{j = 1}^{C} \left(p^{i} T^{i j} / P^{j}\right)^{1 - \sigma} Y^{j}, \tag {5.33}
 $$
 
 where the final equality makes use of (5.24) and  $\mathbf{p}^{\mathrm{ij}} = \mathbf{T}^{\mathrm{ij}}\mathbf{p}^{\mathrm{i}}$ . Then substituting (5.31) into the final expression of (5.33), we obtain,
 
 $$
-\mathrm {Y} ^ {\mathrm {i}} = \mathrm {s} ^ {\mathrm {i}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {C}} \left(\mathrm {T} ^ {\mathrm {i j}} / \tilde {\mathrm {P}} ^ {\mathrm {i}} \tilde {\mathrm {P}} ^ {\mathrm {j}}\right) ^ {1 - \sigma} \mathrm {Y} ^ {\mathrm {j}}. \tag {5.34}
+\mathrm{Y}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \sum_{\mathrm{j} = 1}^{\mathrm{C}} \left(\mathrm{T}^{\mathrm{ij}} / \tilde {\mathrm{P}}^{\mathrm{i}} \tilde {\mathrm{P}}^{\mathrm{j}}\right)^{1 - \sigma} \mathrm{Y}^{\mathrm{j}}. \tag {5.34}
 $$
 
 Summing this over  $i = 1, \ldots, C$ , we have,  $Y^w = \sum_{j=1}^{C} (T^{ij} / \widetilde{P}^i \widetilde{P}^j)^{1 - \sigma} Y^j$ , which is identical to (5.32) provided that  $T^{ij} = T^{ji}$ . QED
@@ -457,7 +457,7 @@ Summing this over  $i = 1, \ldots, C$ , we have,  $Y^w = \sum_{j=1}^{C} (T^{ij} 
 To see the usefulness of this result, substitute (5.31) into the gravity equation (5.26) to obtain:
 
 $$
-\mathrm {X} ^ {\mathrm {i j}} = \mathrm {s} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}} \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\widetilde {\mathrm {P}} ^ {\mathrm {i}} \widetilde {\mathrm {P}} ^ {\mathrm {j}}}\right) ^ {1 - \sigma} = \left(\frac {\mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}}{\mathrm {Y} ^ {\mathrm {w}}}\right) \left(\frac {\mathrm {T} ^ {\mathrm {i j}}}{\widetilde {\mathrm {P}} ^ {\mathrm {i}} \widetilde {\mathrm {P}} ^ {\mathrm {j}}}\right) ^ {1 - \sigma}. \tag {5.35}
+\mathrm{X}^{\mathrm{ij}} = \mathrm{s}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}} \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\widetilde {\mathrm{P}}^{\mathrm{i}} \widetilde {\mathrm{P}}^{\mathrm{j}}}\right)^{1 - \sigma} = \left(\frac{\mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}}{\mathrm{Y}^{\mathrm{w}}}\right) \left(\frac{\mathrm{T}^{\mathrm{ij}}}{\widetilde {\mathrm{P}}^{\mathrm{i}} \widetilde {\mathrm{P}}^{\mathrm{j}}}\right)^{1 - \sigma}. \tag {5.35}
 $$
 
 This is a remarkably simple equation, whereby bilateral trade between countries depends on their GDP's and also their implicit price indexes. Anderson and van Wincoop call  $\widetilde{\mathbf{P}}^{\mathrm{i}}$  "indexes of multilateral resistance," because they depend on the transport costs  $\mathbf{T}^{\mathrm{ij}}$  in (5.32). These indexes are unobserved, but Anderson and van Wincoop argue that we can solve for them by using equation (5.32) in combination with a formula for the transportation costs such as (5.29').
@@ -465,7 +465,7 @@ This is a remarkably simple equation, whereby bilateral trade between countries 
 Specifically, the estimation strategy of Anderson and van Wincoop is to move the GDP terms from the right to the left of (5.35), take logs and substitute (5.29) for the transportation costs, obtaining (without the constant term  $\mathbf{Y}^{\mathrm{w}}$ ):
 
 $$
-\ln (\mathrm {X} ^ {\mathrm {i j}} / \mathrm {Y} ^ {\mathrm {i}} \mathrm {Y} ^ {\mathrm {j}}) = \rho (1 - \sigma) \ln \mathrm {d} ^ {\mathrm {i j}} + (1 - \sigma) \tau^ {\mathrm {i j}} + \ln (\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} + \ln (\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1} + (1 - \sigma) \varepsilon_ {\mathrm {i j}}. \tag {5.36}
+\ln (\mathrm{X}^{\mathrm{ij}} / \mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}) = \rho (1 - \sigma) \ln \mathrm{d}^{\mathrm{ij}} + (1 - \sigma) \tau^{\mathrm{ij}} + \ln (\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} + \ln (\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1} + (1 - \sigma) \varepsilon_{\mathrm{ij}}. \tag {5.36}
 $$
 
 The dependent variable on the left is bilateral trade relative to the product of GDP's. On the right we have distance between regions i and j, followed by all other border effects  $(1 - \sigma)\tau^{\mathrm{ij}}$ , and then the multilateral resistance terms  $(\widetilde{\mathbf{P}}^{\mathrm{i}})^{\sigma - 1}$ . These terms can be solved from (5.32)
@@ -475,7 +475,7 @@ once we know the transportation costs  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\
 To perform this estimation, we need to be more specific about the form of the border effects  $(1 - \sigma)\tau^{ij}$  in (5.36). Recall that in McCallum's (1995) gravity equation in (5.20), we introduced an indicator variable  $\delta^{\mathrm{ij}}$  that equaled unity for trade between two Canadian provinces, and zero otherwise. Anderson and van Wincoop instead work with an indicator variable that is  $(1 - \delta^{\mathrm{ij}})$ , or unity for trade between the U.S. and Canada, and zero otherwise. Introducing the coefficient  $\gamma$  on this variable, we replace  $(1 - \sigma)\tau^{\mathrm{ij}}$  with  $\gamma(1 - \delta^{\mathrm{ij}})$  in (5.36) and also use the coefficient  $\alpha = \rho(1 - \sigma)$  on distance, to obtain:
 
 $$
-\ln \left(X ^ {i j} / Y ^ {i} Y ^ {j}\right) = \alpha \ln d ^ {i j} + \gamma \left(1 - \delta^ {i j}\right) + \ln \left(\widetilde {P} ^ {i}\right) ^ {\sigma - 1} + \ln \left(\widetilde {P} ^ {j}\right) ^ {\sigma - 1} + (1 - \sigma) \varepsilon_ {i j}. \tag {5.37}
+\ln \left(X^{i j} / Y^{i} Y^{j}\right) = \alpha \ln d^{i j} + \gamma \left(1 - \delta^{i j}\right) + \ln \left(\widetilde {P}^{i}\right)^{\sigma - 1} + \ln \left(\widetilde {P}^{j}\right)^{\sigma - 1} + (1 - \sigma) \varepsilon_{i j}. \tag {5.37}
 $$
 
 Their estimates of (5.37) are shown in column (4) of Table 5.2. Notice that the provincial and states GDP terms have their coefficients constrained at unity, since they have been brought to the left of (5.37). The coefficient on the indicator variable on cross-border trade in column (4) is estimated at  $\hat{\gamma} = -1.65$ . This can be compared to the estimates on the indicator variables for intra-Canada trade and intra-U.S. trade, in column (3), of 2.75 and 0.40, respectively. We certainly expect the indicator variables in columns (3) and (4) to have coefficients that are opposite in sign, since in the one case we are measuring intranational trade and in the other case
@@ -489,7 +489,7 @@ We would like to turn the coefficient  $\hat{\gamma} = -1.65$  into an estimate 
 Taking exponents of (5.37), and comparing this equation with and without border effects, the ratio of trade in these two cases is therefore, $^{12}$
 
 $$
-\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}} = \left[ \mathrm {e} ^ {\hat {\gamma} (1 - \delta^ {\mathrm {i j}})} \right] \frac {\left(\tilde {\mathrm {P}} ^ {\mathrm {i}}\right) ^ {\sigma - 1} \left(\tilde {\mathrm {P}} ^ {\mathrm {j}}\right) ^ {\sigma - 1}}{\left(\overline {{\mathrm {P}}} ^ {\mathrm {i}}\right) ^ {\sigma - 1} \left(\overline {{\mathrm {P}}} ^ {\mathrm {j}}\right) ^ {\sigma - 1}}. \tag {5.38}
+\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}} = \left[ \mathrm{e}^{\hat {\gamma} (1 - \delta^{\mathrm{ij}})} \right] \frac{\left(\tilde {\mathrm{P}}^{\mathrm{i}}\right)^{\sigma - 1} \left(\tilde {\mathrm{P}}^{\mathrm{j}}\right)^{\sigma - 1}}{\left(\overline {{\mathrm{P}}}^{\mathrm{i}}\right)^{\sigma - 1} \left(\overline {{\mathrm{P}}}^{\mathrm{j}}\right)^{\sigma - 1}}. \tag {5.38}
 $$
 
 For example, consider intra-Canadian trade, where  $\delta^{ij} = 1$  so the first term on the right of (5.38) vanishes. Anderson and van Wincoop find that (5.38) equals 4.3, meaning that intra-Canadian trade is 4.3 times larger with the border effects than without. $^{13}$  In addition, for the United States, Anderson and van Wincoop find that intra-U.S. trade is 1.05 times larger with the border effects than without. Finally, they find that cross-border trade is 0.41 times smaller with the border effects than without. All these numbers are computed from the ratio on the right of (5.38), averaged across the provinces or states in Canada or the U.S., as appropriate. With intra-Canadian trade being 4.3 times higher due to the border effect, and cross-border trade being 0.41 times smaller, it is immediate that intra-Canadian trade is  $4.3 / 0.41 = 10.5$  times higher than cross-border trade. This estimate is shown near the bottom of column (4) in Table 5.2, along with its standard error. The analogous calculation for the U.S. shows that intra-American trade is  $1.05 / 0.41 = 2.6$  times higher than cross-border trade, which is again shown at the bottom of column (4).
@@ -509,7 +509,7 @@ Since the multilateral indexes in (5.37) are unobserved, rather than calculating
 exporter, and zero otherwise; and let  $\delta_2^j$  denote an indicator variable that is unity if region  $j$  is the importer, and zero otherwise. Then the gravity equation in (5.37) can be re-written as:
 
 $$
-\ln \left(X ^ {i j} / Y ^ {i} Y ^ {j}\right) = \alpha \ln d ^ {i j} + \gamma (1 - \delta^ {i j}) + \beta_ {1} ^ {i} \delta_ {1} ^ {i} + \beta_ {2} ^ {i} \delta_ {2} ^ {i} + (1 - \sigma) \varepsilon_ {i j}, \tag {5.39}
+\ln \left(X^{i j} / Y^{i} Y^{j}\right) = \alpha \ln d^{i j} + \gamma (1 - \delta^{i j}) + \beta_{1}^{i} \delta_{1}^{i} + \beta_{2}^{i} \delta_{2}^{i} + (1 - \sigma) \varepsilon_{i j}, \tag {5.39}
 $$
 
 where the coefficients  $\beta_{1}^{i} = \ln (\widetilde{\mathbf{P}}^{i})^{\sigma -1}$  and  $\beta_{2}^{j} = \ln (\widetilde{\mathbf{P}}^{j})^{\sigma -1}$  on the source and destination indicator variables estimate the multilateral indexes.
@@ -533,13 +533,13 @@ We will make the same assumptions on the differentiated good as in Krugman's ori
 On the demand side, we assume that a fixed share of income  $\phi$  is spent on the differentiated product, which provides utility given by the CES function in (5.21) or (5.22). Therefore, demand for each differentiated product is still given by (5.25), but replacing income  $\mathbf{Y}^{\mathrm{j}}$  by the amount  $\phi \mathbf{L}^{\mathrm{j}}$  actually spent on the differentiated product, we obtain:
 
 $$
-c ^ {i j} = \left(p ^ {i j} / P ^ {j}\right) ^ {- \sigma} \phi L ^ {j} / P ^ {j}. \tag {5.40}
+c^{i j} = \left(p^{i j} / P^{j}\right)^{- \sigma} \phi L^{j} / P^{j}. \tag {5.40}
 $$
 
 The output of firms is still given by (5.30),  $y^{i} = \sum_{j=1}^{C} c^{ij} T^{ij}$ . Because of the CES utility function, this output will be fixed in a zero-profit equilibrium,  $\overline{y} = (\sigma - 1)\alpha / \beta$ , as obtained in (5.12). So in principle, the number of products in each country can be derived from the market clearing conditions:
 
 $$
-\bar {y} = \sum_ {j = 1} ^ {C} c ^ {i j} T ^ {i j}, \quad i = 1, \dots , C, \tag {5.41}
+\bar {y} = \sum_{j = 1}^{C} c^{i j} T^{i j}, \quad i = 1, \dots , C, \tag {5.41}
 $$
 
 where consumption depends on the price indexes  $\mathbf{P}^{\mathrm{j}}$  given by (5.25), which depend on the number of products.
@@ -547,7 +547,7 @@ where consumption depends on the price indexes  $\mathbf{P}^{\mathrm{j}}$  given
 Rather than solving for the number of products in each country, we will instead solve for the change in these as country size  $\mathrm{L}^{\mathrm{j}}$  varies. The fact that the firm outputs are fixed on the left of (5.41) implies that some combination of the consumptions in each country must also be fixed, on the right. As a guess, let us suppose that consumption of every variety in each country is fixed. Under our framework where wages are equalized across countries, the prices  $\mathfrak{p}^{\mathrm{i}}$  and  $\mathfrak{p}^{\mathrm{ij}}$  are also fixed. Then we can totally differentiate (5.40) holding  $c^{\mathrm{ij}}$  fixed to obtain,
 
 $$
-0 = (\sigma - 1) \hat {\mathrm {P}} ^ {\mathrm {j}} + \hat {\mathrm {L}} ^ {\mathrm {j}} \Rightarrow \hat {\mathrm {P}} ^ {\mathrm {j}} = - \hat {\mathrm {L}} ^ {\mathrm {j}} / (\sigma - 1), \tag {5.42}
+0 = (\sigma - 1) \hat {\mathrm{P}}^{\mathrm{j}} + \hat {\mathrm{L}}^{\mathrm{j}} \Rightarrow \hat {\mathrm{P}}^{\mathrm{j}} = - \hat {\mathrm{L}}^{\mathrm{j}} / (\sigma - 1), \tag {5.42}
 $$
 
 where  $\hat{z} = \mathrm{dz} / z$  for any variable. Thus, price indexes in each country  $j$  will fall in direct proportion to the rise in country GDP. Recall from (5.25) that the price indexes depend on the number of products in each country. Thus, provided that there is a change in the number of products consistent with  $\hat{\mathbf{P}}^{\mathrm{j}}$  in (5.42), then our initial assumption that the consumption  $c^{\mathrm{ij}}$  are fixed is indeed correct.
@@ -555,13 +555,13 @@ where  $\hat{z} = \mathrm{dz} / z$  for any variable. Thus, price indexes in eac
 To determine the change in the number of products, let us differentiate (5.25) to obtain,
 
 $$
-\hat {\mathrm {P}} ^ {\mathrm {j}} = \left(\frac {1}{1 - \sigma}\right) \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \hat {\mathrm {N}} ^ {\mathrm {i}} \phi^ {\mathrm {i j}}\right), \tag {5.43}
+\hat {\mathrm{P}}^{\mathrm{j}} = \left(\frac{1}{1 - \sigma}\right) \left(\sum_{\mathrm{i} = 1}^{\mathrm{C}} \hat {\mathrm{N}}^{\mathrm{i}} \phi^{\mathrm{ij}}\right), \tag {5.43}
 $$
 
 where  $\phi^{\mathrm{ij}} = (\mathrm{N}^{\mathrm{ij}}\mathrm{p}^{\mathrm{ij}}\mathrm{c}^{\mathrm{ij}}) / (\phi \mathrm{Y}^{\mathrm{j}})$  denotes the share of products from country i in the differentiated goods purchased by country j, with  $\sum_{\mathrm{i} = 1}^{\mathrm{C}}\phi^{\mathrm{ij}} = 1$ . Combining (5.42) and (5.43), we obtain an extremely simple relationship between the change in GDP of each country and the change in the number of products,
 
 $$
-\hat {\mathrm {L}} ^ {\mathrm {j}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {C}} \hat {\mathrm {N}} ^ {\mathrm {i}} \phi^ {\mathrm {i j}}. \tag {5.44}
+\hat {\mathrm{L}}^{\mathrm{j}} = \sum_{\mathrm{i} = 1}^{\mathrm{C}} \hat {\mathrm{N}}^{\mathrm{i}} \phi^{\mathrm{ij}}. \tag {5.44}
 $$
 
 We can use (5.44) to solve for the change in number of product  $\hat{\mathbf{N}}^{\mathrm{i}}$  provided that the matrix of expenditure shares  $\Phi = [\phi^{\mathrm{ij}}]$  is invertible. This will be true, for example, if each country purchases a larger share of the differentiated product from itself than from other countries, so that  $\phi^{\mathrm{ij}} > \phi^{\mathrm{ij}}$  for  $\mathrm{i} \neq \mathrm{j}$ , as we shall assume.
@@ -569,13 +569,13 @@ We can use (5.44) to solve for the change in number of product  $\hat{\mathbf{N}
 When there are just two countries, we can express (5.44) in matrix notation as:
 
 $$
-(\hat {\mathrm {N}} ^ {1}, \hat {\mathrm {N}} ^ {2}) \left( \begin{array}{l l} \phi^ {1 1} & \phi^ {1 2} \\ \phi^ {2 1} & \phi^ {2 2} \end{array} \right) = (\hat {\mathrm {L}} _ {1}, \hat {\mathrm {L}} _ {2}) \Rightarrow (\hat {\mathrm {N}} _ {1}, \hat {\mathrm {N}} _ {2}) = \frac {(\hat {\mathrm {L}} _ {1} , \hat {\mathrm {L}} _ {2})}{| \Phi |} \left( \begin{array}{c c} \phi^ {2 2} & - \phi^ {1 2} \\ - \phi^ {2 1} & \phi^ {1 1} \end{array} \right) \tag {5.45}
+(\hat {\mathrm{N}}^{1}, \hat {\mathrm{N}}^{2}) \left( \begin{array}{l l} \phi^{1 1} & \phi^{1 2} \\ \phi^{2 1} & \phi^{2 2} \end{array} \right) = (\hat {\mathrm{L}}_{1}, \hat {\mathrm{L}}_{2}) \Rightarrow (\hat {\mathrm{N}}_{1}, \hat {\mathrm{N}}_{2}) = \frac{(\hat {\mathrm{L}}_{1} , \hat {\mathrm{L}}_{2})}{| \Phi |} \left( \begin{array}{c c} \phi^{2 2} & - \phi^{1 2} \\ - \phi^{2 1} & \phi^{1 1} \end{array} \right) \tag {5.45}
 $$
 
 where  $|\Phi|$  denotes the determinant of the 2x2 matrix above. This determinant can be alternatively expressed as:
 
 $$
-\begin{array}{l} \left| \Phi \right| = \phi^ {1 1} \phi^ {2 2} - \phi^ {1 2} \phi^ {2 1} \\ = \phi^ {1 1} \left(1 - \phi^ {1 2}\right) - \phi^ {1 2} \left(1 - \phi^ {1 1}\right) \tag {5.46} \\ = \phi^ {1 1} - \phi^ {1 2} = \phi^ {2 2} - \phi^ {2 1} \\ \end{array}
+\begin{array}{l} \left| \Phi \right| = \phi^{1 1} \phi^{2 2} - \phi^{1 2} \phi^{2 1} \\ = \phi^{1 1} \left(1 - \phi^{1 2}\right) - \phi^{1 2} \left(1 - \phi^{1 1}\right) \tag {5.46} \\ = \phi^{1 1} - \phi^{1 2} = \phi^{2 2} - \phi^{2 1} \\ \end{array}
 $$
 
 where we have repeatedly made use of the fact that  $\phi^{1j} + \phi^{2j} = 1$ , i.e. the consumption shares of products from both sources to country  $j$  sum to unity. This determinant is positive under our assumption that  $\phi^{jj} > \phi^{ij}$  for  $i \neq j$ .
@@ -583,7 +583,7 @@ where we have repeatedly made use of the fact that  $\phi^{1j} + \phi^{2j} = 1$ 
 To fix ideas, suppose that country 1 and 2 start off as identical, with equal transport costs between them. Similar to Krugman's model at the beginning of this chapter, trade between the identical countries will lead them to export equal numbers of the differentiated product to each other:  $\mathrm{N}^{1} = \mathrm{N}^{2}$  and trade is balanced in the differentiated good. Now suppose that the labor endowment of country 1 grows, with no change in country 2, so that  $\hat{\mathrm{L}}^{1} > 0$ , and  $\hat{\mathrm{L}}^{2} = 0$ . Then we can solve for the changing number of products from (5.45) and (5.46) as,
 
 $$
-\hat {\mathrm {N}} ^ {1} = \frac {\phi^ {2 2}}{\left(\phi^ {2 2} - \phi^ {2 1}\right)} \hat {\mathrm {L}} ^ {1} > \hat {\mathrm {L}} ^ {1} > 0 \quad \text {a n d} \quad \hat {\mathrm {N}} ^ {2} = \frac {- \phi^ {1 2}}{| \Phi |} <   0. \tag {5.47}
+\hat {\mathrm{N}}^{1} = \frac{\phi^{2 2}}{\left(\phi^{2 2} - \phi^{2 1}\right)} \hat {\mathrm{L}}^{1} > \hat {\mathrm{L}}^{1} > 0 \quad \text{an d} \quad \hat {\mathrm{N}}^{2} = \frac{- \phi^{1 2}}{| \Phi |} <   0. \tag {5.47}
 $$
 
 Thus, the number of products in the larger country will grow by more than the increase in country size, while those in the smaller country will shrink. Because consumption  $c^{\mathrm{ij}}$  and prices
@@ -639,13 +639,13 @@ Let  $\hat{\gamma}$  denote the estimated coefficient of the border indicator in
 The multilateral resistance terms in (5.38) are obtained from (5.32) using the transportation costs  $\mathrm{T}^{\mathrm{ij}} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}(1 - \delta^{\mathrm{ij}})}$  (i.e. including border effects) to compute  $(\widetilde{\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}$ , while using  $\mathrm{T}^{\mathrm{ij}} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}$  (i.e. just distance) to compute  $(\overline{\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}$ . Taking the geometric mean of trade  $\mathrm{X}^{\mathrm{ij}}$  between Canadian provinces with border effects, and the predicted value  $\overline{\mathrm{X}}^{\mathrm{ij}}$  without border effects, we obtain from (5.38):
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\bar {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\bar {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.48}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\bar {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\bar {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.48}
 $$
 
 With CA={1,...,10} Canadian provinces, they can each sell to 9 others, making N=90 bilateral flows in (5.38a). (Notice that we exclude i=j from the calculations in (5.48), since we are not considering sales by a province to itself.) In each of the bilateral flows, two indexes appear on the right, so there are a total of 180 multilateral indexes in the numerator and in the denominator of (5.48). Since each of the 10 provinces appears on the right of (5.48) an equal number of times, i.e.  $180/10 = 18$  times, this expression can be simplified as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i} \in \mathrm {C A}} \left(\frac {\left(\widetilde {\mathrm {P}} ^ {\mathrm {i}}\right) ^ {\sigma - 1}}{\left(\overline {{\mathrm {P}}} ^ {\mathrm {i}}\right) ^ {\sigma - 1}}\right) ^ {1 / 5}, \tag {5.48'}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i} \in \mathrm{CA}} \left(\frac{\left(\widetilde {\mathrm{P}}^{\mathrm{i}}\right)^{\sigma - 1}}{\left(\overline {{\mathrm{P}}}^{\mathrm{i}}\right)^{\sigma - 1}}\right)^{1 / 5}, \tag {5.48'}
 $$
 
 where the exponent on the right is obtained as  $18 / 90 = 1 / 5$ .
@@ -653,13 +653,13 @@ where the exponent on the right is obtained as  $18 / 90 = 1 / 5$ .
 Using the same approach for the U.S. = {1,...,30} American states in the sample, we can compute that average trade between them with and without border effects as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {(\widetilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\widetilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.49}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{(\widetilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\widetilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1} (\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.49}
 $$
 
 where now  $\mathrm{N} = 30 \cdot 29 = 860$ . Again, for each bilateral flow there are two multilateral indexes in the numerator and denominator on the right, so each of these indexes appears  $860 \cdot 2 = 1,720$  times. Since each of the 30 states appears on the right of (5.49) an equal number of times, i.e.  $1720 / 30 = 58$  times, this expression can be simplified as,
 
 $$
-\prod_ {\mathrm {i}, \mathrm {j} \in \mathrm {U S}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \prod_ {\mathrm {i} \in \mathrm {U S}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1}}\right) ^ {1 / 1 5}, \tag {5.49'}
+\prod_{\mathrm{i}, \mathrm{j} \in \mathrm{US}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \prod_{\mathrm{i} \in \mathrm{US}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1}}\right)^{1 / 1 5}, \tag {5.49'}
 $$
 
 where the exponent on the right is obtained as  $58 / 680 = 1 / 15$ .
@@ -667,13 +667,13 @@ where the exponent on the right is obtained as  $58 / 680 = 1 / 15$ .
 Finally, consider the effects on cross-border trade. In this case  $\delta^{\mathrm{ij}} = 0$ , so the term  $(\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}(1 - \delta^{\mathrm{ij}})} = (\mathrm{d}^{\mathrm{ij}})^{\hat{\alpha}}\mathrm{e}^{\hat{\gamma}}$  appears in (5.38). The ratio of U.S.-to-Canada exports with the border effects and without is given by:
 
 $$
-\prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \left[ \mathrm {e} ^ {\hat {\gamma} (1 - \delta^ {\mathrm {i j}})} \right] \prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {(\widetilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\widetilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1} (\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / \mathrm {N}}. \tag {5.50}
+\prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \left[ \mathrm{e}^{\hat {\gamma} (1 - \delta^{\mathrm{ij}})} \right] \prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{(\widetilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} (\widetilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1} (\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / \mathrm{N}}. \tag {5.50}
 $$
 
 On the left side, we average the flow from the U.S. to Canada, so  $N = 30 \cdot 10 = 300$ . On the right side, each pair of state-provinces appears an equal number of times, which means that each province appears 30 times and each state appears 10 times. It follows that we can re-write this expression as:
 
 $$
-\prod_ {\mathrm {i} \in \mathrm {U S}, \mathrm {j} \in \mathrm {C A}} \left(\frac {\mathrm {X} ^ {\mathrm {i j}}}{\overline {{\mathrm {X}}} ^ {\mathrm {i j}}}\right) ^ {1 / \mathrm {N}} = \left(\mathrm {e} ^ {\hat {\gamma}}\right) \prod_ {\mathrm {i} \in \mathrm {U S}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {i}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {i}}) ^ {\sigma - 1}}\right) ^ {1 / 3 0} \prod_ {\mathrm {j} \in \mathrm {C A}} \left(\frac {(\tilde {\mathrm {P}} ^ {\mathrm {j}}) ^ {\sigma - 1}}{(\overline {{\mathrm {P}}} ^ {\mathrm {j}}) ^ {\sigma - 1}}\right) ^ {1 / 1 0}, (5. 5 0 ^ {\prime})
+\prod_{\mathrm{i} \in \mathrm{US}, \mathrm{j} \in \mathrm{CA}} \left(\frac{\mathrm{X}^{\mathrm{ij}}}{\overline {{\mathrm{X}}}^{\mathrm{ij}}}\right)^{1 / \mathrm{N}} = \left(\mathrm{e}^{\hat {\gamma}}\right) \prod_{\mathrm{i} \in \mathrm{US}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{i}})^{\sigma - 1}}\right)^{1 / 3 0} \prod_{\mathrm{j} \in \mathrm{CA}} \left(\frac{(\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1}}{(\overline {{\mathrm{P}}}^{\mathrm{j}})^{\sigma - 1}}\right)^{1 / 1 0}, (5. 5 0^{\prime})
 $$
 
 where the exponent on the U.S. multilateral indexes is obtained as  $10 / 300 = 1 / 30$ , and the exponent on the Canadian provinces is obtained as  $30 / 300 = 1 / 10$ .
@@ -686,10 +686,10 @@ We also need to compute the ratio of Canada-to-U.S. exports with the border effe
 5.2 In Krugman's monopolistic competition model, suppose that the utility function takes on the CES form shown in (5.10), rewritten for simplicity with two goods as:
 
 $$
-\mathrm {U} \left(\mathrm {c} _ {1}, \mathrm {c} _ {2}\right) = \mathrm {c} _ {1} ^ {\theta} + \mathrm {c} _ {2} ^ {\theta}, \quad 0 <   \theta = (\sigma - 1) / \sigma <   1.
+\mathrm{U} \left(\mathrm{c}_{1}, \mathrm{c}_{2}\right) = \mathrm{c}_{1}^{\theta} + \mathrm{c}_{2}^{\theta}, \quad 0 <   \theta = (\sigma - 1) / \sigma <   1.
 $$
 
-Maximize this subject to the budget constraint,  $\mathrm{p_1c_1 + p_2c_2\leq I}$
+Maximize this subject to the budget constraint,  $\mathrm{p_1c_1 +p_2c_2\leqI}$
 
 (a) Obtain an expression for the relative demand  $c_1 / c_2$  as a function of prices.
 (b) The elasticity of substitution is defined as  $\mathrm{d}\ln (\mathrm{c}_1 / \mathrm{c}_2) / \mathrm{d}\ln (\mathrm{p}_2 / \mathrm{p}_1)$ . What is the value of the elasticity of substitution for this utility function?
@@ -706,13 +706,13 @@ How are your answers to (a) and (b) affected if the fixed costs in industry 1 us
 5.4 Consider the translog expenditure function:
 
 $$
-\ln \mathrm {E} (\mathrm {p}, \mathrm {U}) = \ln \mathrm {U} + \mathrm {a} _ {0} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {a} _ {\mathrm {i}} \ln \mathrm {p} _ {\mathrm {i}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {N}} \mathrm {b} _ {\mathrm {i j}} \ln \mathrm {p} _ {\mathrm {i}} \ln \mathrm {p} _ {\mathrm {j}}, \tag {5.51}
+\ln \mathrm{E} (\mathrm{p}, \mathrm{U}) = \ln \mathrm{U} + \mathrm{a}_{0} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{a}_{\mathrm{i}} \ln \mathrm{p}_{\mathrm{i}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{j} = 1}^{\mathrm{N}} \mathrm{b}_{\mathrm{ij}} \ln \mathrm{p}_{\mathrm{i}} \ln \mathrm{p}_{\mathrm{j}}, \tag {5.51}
 $$
 
 where:
 
 $$
-a _ {i} = 1 / N, b _ {i i} = - \gamma (N - 1) / N, a n d b _ {i j} = \gamma / N f o r i \neq j, w i t h i, j = 1, \dots , N, \tag {5.52}
+a_{i} = 1 / N, b_{i i} = - \gamma (N - 1) / N, a n d b_{i j} = \gamma / N f o r i \neq j, w i t h i, j = 1, \dots , N, \tag {5.52}
 $$
 
 where  $\gamma > 0$ . Use this expenditure function to answer:

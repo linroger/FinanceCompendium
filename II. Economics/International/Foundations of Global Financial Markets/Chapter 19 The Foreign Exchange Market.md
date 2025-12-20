@@ -122,13 +122,13 @@ Let's look at what happens when the spot exchange rate changes between two curre
 Barring any government restrictions, riskless arbitrage will ensure that the exchange rate between two countries will be the same in both countries. The theoretical exchange rate between two countries other than the United States can be inferred from their exchange rates with the U.S. dollar. Rates computed in this way are referred to as theoretical cross rates. They would be computed as follows for two countries, X and Y:
 
 $$
-\text {T h e o t e r i c a l c r o s s r a t e} = \frac {\text {Q u o t e i n A m e r i c a n t e r m s o f c u r r e n c y X}}{\text {Q u o t e i n A m e r i c a n t e r m s o f c u r r e n c y Y}}
+\text{Th eo te ri ca lc ro ss ra te} = \frac{\text{Qu ot ei nA me ri ca nt er ms of cu rr en cy X}}{\text{Qu ot ei nA me ri ca nt er ms of cu rr en cy Y}}
 $$
 
 To illustrate, let's calculate the theoretical cross rate between Japanese yen and British pound on August 11, 2018. The spot exchange rate for the two currencies in American terms was 1.27691 per British pound and 0.00902 per Japanese yen. Then the number of units of yen (currency Y) per unit of British points (currency X) is
 
 $$
-\frac {\mathbb {S} 1 . 2 7 6 9 1}{\mathbb {S} 0 . 0 0 9 0 2} = 1 4 1. 5 6 4 3 \text {y e n p e r B r i t h i p o u n d}.
+\frac{\mathbb {S} 1 . 2 7 6 9 1}{\mathbb {S} 0 . 0 0 9 0 2} = 1 4 1. 5 6 4 3 \text{ye np er Br it hi po un d}.
 $$
 
 That is, it would take 141.5643 yen to obtain one British pound. Taking the reciprocal gives the number of British pounds exchangeable for one Japanese yen. In our example, it is 0.0071.

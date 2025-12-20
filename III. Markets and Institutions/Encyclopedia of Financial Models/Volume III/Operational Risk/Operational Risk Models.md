@@ -35,7 +35,7 @@ In this section we will provide a brief look at the seven top-down approaches sh
 Multifactor equity pricing models, also referred to as multifactor models, can be utilized to perform a global analysis of banking risks and may be used for the purpose of integrated risk management, in particular for publicly traded firms. The stock return process  $R_{t}$  can be estimated by regressing stock return on a large number of external risk factor indexes  $I_{t}$  related to market risk, credit risks, and other nonoperational risks (such as interest rate fluctuations, stock price movements, and macroeconomic effects). Operational risk is then measured as the volatility of the residual term. Such models rely on the assumption that operational risk is the residual banking risk, after credit and market risks are accounted for.
 
 $$
-R _ {t} = a _ {t} + b _ {1} I _ {1 t} + \dots + b _ {n} I _ {n t} + \varepsilon_ {t}
+R_{t} = a_{t} + b_{1} I_{1 t} + \dots + b_{n} I_{n t} + \varepsilon_{t}
 $$ in which  $\varepsilon_{t}$  is the residual term, a proxy for operational risk.
 
 
@@ -97,12 +97,12 @@ The second group of process-based models encompasses reliability models. These m
 If  $f(t)$  is the density of a loss amount occurring at time  $t$ , then the reliability of the system is the probability of survival up to time  $t$ , denoted by  $R(t)$  and calculated as
 
 $$
-R (t) = 1 - \int_ {0} ^ {t} f (s) d s
+R (t) = 1 - \int_{0}^{t} f (s) d s
 $$
 
 The hazard rate (or the failure rate),  $h(t)$ , is the rate at which losses occur per unit of time  $t$ , defined as
 
-$$ h (t) = \frac {f (t)}{R (t)}
+$$ h (t) = \frac{f (t)}{R (t)}
 $$
 
 In practical applications, it is often convenient to use the Poisson-type arrival model to describe the occurrence of operational loss events. Under the simple Poisson model with the intensity rate  $\lambda$  (which represents the average number of events in any point of time), the interarrival times between the events (i.e., the time intervals between any two consecutive points of time in which an event takes place) follow an exponential distribution having density of form  $f(t) = \lambda \mathrm{e}^{-\lambda t}$  with mean interarrival time equal to  $1 / \lambda$ . The parameter  $\lambda$  is then the hazard rate for the simple Poisson process.
@@ -111,7 +111,7 @@ In practical applications, it is often convenient to use the Poisson-type arriva
 Finally, the third group of process-based models is multifactor causal models. These models can be used for performing the factor analysis of operational risk. These are regression-type models that examine the sensitivity of aggregate operational losses (or, alternatively, VaR) to various internal risk factors (or risk drivers). Multifactor causal models have been discussed in the VaR and operational risk literature.[15] Examples of control factors include system downtime in minutes per day, number of employees in the back office, data quality (such as the ratio of the number of transactions with no input errors to the total number of transactions), total number of transactions, skill levels, product complexity, level of automation, customer satisfaction, and so on. Cruz (2002) suggests using manageable explanatory factors. In multifactor causal models, operational losses OR, or VaR, in a particular business unit at a point  $t$ , are regressed on a number of control factors:
 
 $$
-O R _ {t} = a _ {t} + b _ {1} X _ {1 t} + \dots + b _ {n} X _ {n t} + \varepsilon_ {t}
+O R_{t} = a_{t} + b_{1} X_{1 t} + \dots + b_{n} X_{n t} + \varepsilon_{t}
 $$ where  $X_{k}, k = 1,2,\ldots,n$ , are the explanatory variables, and  $b^{\prime}s$  are the estimated coefficients. The model is forward-looking (or ex ante) as operational risk drivers are predictive of future losses. Extensions to the simple regression model may include autoregressive models, regime-switching models, ARMA/GARCH models, and others.
 
 

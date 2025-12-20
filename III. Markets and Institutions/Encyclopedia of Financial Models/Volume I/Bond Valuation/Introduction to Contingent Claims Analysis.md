@@ -47,16 +47,16 @@ Let  $A(0) =$  denote the time 0 price of stock A and  $B(0) =$  the time 0 pric
 
 
 $$
-1 0 C _ {1} + 8 C _ {2} = \$ 6
+1 0 C_{1} + 8 C_{2} = \$ 6
 $$
 
 $$
-7 C _ {1} + 9 C _ {2} = \$ 5
+7 C_{1} + 9 C_{2} = \$ 5
 $$ which can be solved to obtain
 
 
 $$
-C _ {1} = \mathrm {\$} \frac {7}{1 7}, \quad C _ {2} = \mathrm {\$} \frac {4}{1 7}
+C_{1} = \mathrm{\$} \frac{7}{1 7}, \quad C_{2} = \mathrm{\$} \frac{4}{1 7}
 $$
 
 We can use the same reasoning to find the risk-free rate of return that must obtain in this market. Since a risk-free instrument is one that offers the same payoff irrespective of which state of the world obtains, we wish to find a combination of the two stocks that gives the same time 1 payoff, here denoted  $k$ , in either state of the world. That is, the following equation must be solved for  $\alpha$ :
@@ -78,7 +78,7 @@ $$ so that α = 1/2. The riskless payoff is then 1/2(10) + 1/2(7) = \$8.50, and 
 
 
 $$
-\frac {\mathbb {S} 8 . 5 0 - \mathbb {S} 5 . 5 0}{\mathbb {S} 5 . 5 0} = \frac {6}{1 1} = 5 4. 5 5
+\frac{\mathbb {S} 8 . 5 0 - \mathbb {S} 5 . 5 0}{\mathbb {S} 5 . 5 0} = \frac{6}{1 1} = 5 4. 5 5
 $$
 
 Of course, this is not necessarily a realistic number for a risk-free rate of interest. (Whether it is realistic or not depends on the length of the time period under consideration, a matter we have left unspecified.) However, our purpose here is to develop illustrative calculations to display relations between contingent claims, and for this purpose particular sizes of numbers are not really important.
@@ -86,13 +86,13 @@ Of course, this is not necessarily a realistic number for a risk-free rate of in
 Another way of making a riskless investment is to buy one of each available unit claim, that is, one claim on state 1 and one claim on state 2. Such a portfolio gives a certain payoff of 1 for an investment cost of
 
 $$
-\$ \frac {4}{1 7} + \$ \frac {7}{1 7} = \$ \frac {1 1}{1 7}
+\$ \frac{4}{1 7} + \$ \frac{7}{1 7} = \$ \frac{1 1}{1 7}
 $$
 
 The rate of return on this investment is then
 
 $$
-\frac {\frac {\mathrm {S} 1 - \mathrm {S} \frac {1 1}{1 7}}{\mathrm {S} \frac {1 1}{1 7}} = \frac {1 7 - 1 1}{1 1} = \frac {6}{1 1} = 5 4 . 5 5 \%
+\frac{\frac{\mathrm{S} 1 - \mathrm{S} \frac{1 1}{1 7}}{\mathrm{S} \frac{1 1}{1 7}} = \frac{1 7 - 1 1}{1 1} = \frac{6}{1 1} = 5 4 . 5 5 \%
 $$ just as before.
 
 
@@ -106,7 +106,7 @@ Table 1 Summary of Terminal Wealth in Two States
 
 We can also use another way to calculate the value of the claims' combinations at time 1. We can write the equation of the straight line in Figure 1 as
 
-$$ w _ {2} = a - b w _ {1}
+$$ w_{2} = a - b w_{1}
 $$ so that for the time 1 price of stock A we have
 
 
@@ -132,12 +132,12 @@ Figure 1 Market Opportunity Line, Showing Implied Prices of Unit Claims. Note:  
 To illustrate, consider point  w_{1} = \1,457 ,  w_{2} = 0 . Let  n_{A}  be the number of shares of stock  A  and  n_{B}  the number of shares of stock  B  purchased. If state 1 occurs, the terminal wealth will be
 
 $$
-1 0 n _ {A} + 7 n _ {B} = \$ 1, 4 5 7
+1 0 n_{A} + 7 n_{B} = \$ 1, 4 5 7
 $$ while if state 2 occurs, we must have
 
 
 $$
-8 n _ {A} + 9 n _ {B} = 0
+8 n_{A} + 9 n_{B} = 0
 $$
 
 Solving these equations simultaneously, we find nB = 343. If the investor sells short 343 shares of stock B at the current price of \$5, he or she will receive \$1,715. Combining this with the initial wealth of \$600 gives \$2,315, so this investor may buy $2,315/$6 = 386 nA at \$6 per share. If state 1 eventuates, the investor will receive $3,860 ($10 for the 386 shares) but now must pay $2,401 ($7 for 343 shares) for stock B shares to cover the short position. The net terminal wealth is $3,860 - $2,401 = \$1,459 (difference due to rounding), as required. In state 2, the terminal wealth will be equal to \$3,088 (386 shares times \$8 per share) reduced by the cost to repurchase stock B to cover the short position, 343 shares at \$9 per share or \$3,087. Therefore, the net terminal wealth is equal to zero (the calculations show it is 1 but that is due to rounding).

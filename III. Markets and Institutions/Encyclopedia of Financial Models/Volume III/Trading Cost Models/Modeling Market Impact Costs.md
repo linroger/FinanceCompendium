@@ -70,7 +70,7 @@ The volume-weighted average price is calculated as follows. Suppose that it was 
 We denote by  $\chi$  the indicator function that takes on the value 1 or  $-1$  if an order is a buy or sell order, respectively. Formally, we now express the three types of measures of market impact (MI) as follows
 
 $$
-\begin{array}{l} M I _ {\mathrm {p r e}} = \left(\frac {p ^ {\mathrm {e x}}}{p ^ {\mathrm {p r e}}} - 1\right) \chi \\ M I _ {\text {p o s t}} = \left(\frac {p ^ {\text {e x}}}{p ^ {\text {p o s t}}} - 1\right) \chi \\ MI_{\text{VWAP}} = \left(\frac{\sum\limits_{i = 1}^{k}V_{i}\cdot P_{i}^{ex}}{\sum\limits_{i = 1}^{k}V_{i}} /p^{\text{pre}} - 1\right)\chi \\ \end{array}
+\begin{array}{l} M I_{\mathrm{pr e}} = \left(\frac{p^{\mathrm{ex}}}{p^{\mathrm{pr e}}} - 1\right) \chi \\ M I_{\text{po st}} = \left(\frac{p^{\text{ex}}}{p^{\text{po st}}} - 1\right) \chi \\ MI_{\text{VWAP}} = \left(\frac{\sum\limits_{i = 1}^{k}V_{i}\cdot P_{i}^{ex}}{\sum\limits_{i = 1}^{k}V_{i}} /p^{\text{pre}} - 1\right)\chi \\ \end{array}
 $$ where  $p^{ex}$ ,  $p^{pre}$ , and  $p^{\mathrm{post}}$  denote the execution price, pre-trade price, and post-trade price of the stock, and  $k$  denotes the number of transactions in a particular security on the trade date. Using this definition, for a stock with market impact  $MI$  the resulting market impact cost for a trade of size  $V$ ,  $MIC$ , is given by
 
 
@@ -81,7 +81,7 @@ $$
 It is also common to adjust market impact for general market movements. For example, the pre-trade market impact with market adjustment would take the form
 
 $$
-M I _ {\text {p r e}} = \left(\frac {p ^ {\text {e x}}}{p ^ {\text {p r e}}} - \frac {p _ {M} ^ {\text {e x}}}{p _ {M} ^ {\text {p r e}}}\right) \chi
+M I_{\text{pr e}} = \left(\frac{p^{\text{ex}}}{p^{\text{pr e}}} - \frac{p_{M}^{\text{ex}}}{p_{M}^{\text{pr e}}}\right) \chi
 $$ where  $p_{M}^{\mathrm{ex}}$  represent the value of the index at the time of the execution, and  $p_{M}^{\mathrm{pre}}$  the price of the index at the time before the trade. Market-adjusted market impact for the post-trade and same-day trade benchmarks are calculated in an analogous fashion.
 
 
@@ -154,12 +154,12 @@ Different market sectors show different trading behaviors. For instance, Bikker 
 One of the most common approaches in practice and in the literature in modeling market impact is through a linear factor model of the form:
 
 $$
-M I _ {t} = \alpha + \sum_ {i = 1} ^ {I} \beta_ {i} x _ {i} + \varepsilon_ {t}
+M I_{t} = \alpha + \sum_{i = 1}^{I} \beta_{i} x_{i} + \varepsilon_{t}
 $$ where  $\alpha, \beta_{i}$  are the factor loadings and  $x_{i}$  are the factors. Frequently, the error term  $\varepsilon_{t}$  is assumed to be independently and identically distributed. Recall that the resulting market impact cost of a trade of (dollar) size  $V$  is then given by  $MIC_{t} = MI_{t} \cdot V$ . However, extensions of this model including conditional volatility specifications are also possible. By analyzing both the mean and the volatility of the market impact, we can better understand and manage the trade-off between the two. For example, Bikker and Spierdijk use a specification where the error terms are jointly and serially uncorrelated with mean zero, satisfying
 
 
 $$
-\operatorname {V a r} \left(\varepsilon_ {t}\right) = \exp \left(\gamma + \sum_ {i = 1} ^ {J} \delta_ {j} z _ {j}\right)
+\operatorname{Va r} \left(\varepsilon_{t}\right) = \exp \left(\gamma + \sum_{i = 1}^{J} \delta_{j} z_{j}\right)
 $$ where  $\gamma, \delta_j$ , and  $z_j$  are the volatility, factor loadings, and factors, respectively.
 
 
@@ -170,7 +170,7 @@ Consider, for example, factors related to trade size (e.g., trade size and trade
 Chen, Stanzl, and Watanabe (2002) suggest to model the nonlinear effects of trade size (dollar trade size  $V$ ) in a market impact model by using the Box-Cox transformation; that is,
 
 $$
-M I (V _ {t}) = \alpha_ {b} + \beta_ {b} \frac {V _ {t} ^ {\lambda_ {b}} - 1}{\lambda_ {b}} + \varepsilon_ {t}
+M I (V_{t}) = \alpha_{b} + \beta_{b} \frac{V_{t}^{\lambda_{b}} - 1}{\lambda_{b}} + \varepsilon_{t}
 $$ where  $t$  and  $\tau$  represent the time of transaction for the buys and the sells, respectively. In their
 
 
@@ -179,7 +179,7 @@ specification, they assumed that  $\varepsilon_{t}$  and  $\varepsilon_{\tau}$  
 In their data sample (NYSE and Nasdaq trades between January 1993 and June 1993), Chen, Stanzl, and Watanabe report that for small companies the curvature parameters  $\lambda_{b}$ ,  $\lambda_{s}$  are close to zero, whereas for larger companies they are not far away from 0.5. Observe that for  $\lambda_{b} = \lambda_{s} = 1$  market impact is linear in the dollar trade size. Moreover, when  $\lambda_{b} = \lambda_{s} = 0$  the impact function is logarithmic by the virtue of
 
 $$
-\lim  _ {\lambda \rightarrow 0} \frac {V ^ {\lambda} - 1}{\lambda} = \ln (\lambda)
+\lim_{\lambda \rightarrow 0} \frac{V^{\lambda} - 1}{\lambda} = \ln (\lambda)
 $$
 
 As just mentioned, market impact is also a function of the characteristics of the particular exchange where the securities are traded as well as of the trading style of the investor. These characteristics can also be included in the general specification outlined previously. For example, Keim and Madhavan (1996, 1997) proposed the following two different market impact specifications
@@ -187,7 +187,7 @@ As just mentioned, market impact is also a function of the characteristics of th
 1.  $MI = \alpha +\beta_{1}\chi_{\mathrm{OTC}} + \beta_{2}\frac{1}{p} +\beta_{3}|q| + \beta_{4}|q|^{2}+$
 
 $$
-\beta_ {5} | q | ^ {3} + \beta_ {6} \chi_ {U p} + \varepsilon
+\beta_{5} | q |^{3} + \beta_{6} \chi_{U p} + \varepsilon
 $$ where
 
 
@@ -200,7 +200,7 @@ $q =$  the number of shares traded over the number of shares outstanding.
 $\chi_{\mathrm{Up}} = \mathrm{a}$  dummy variable equal to one if the trade is done in the upstairs market or zero otherwise.
 
 $$
-\begin{array}{l} 2. M I = \alpha + \beta_ {1} \chi_ {\text {N a s d a q}} + \beta_ {2} q + \beta_ {3} \ln (M C a p) + \\ \beta_ {4} \frac {1}{p} + \beta_ {5} \chi_ {\mathrm {T e c h}} + \beta_ {6} \chi_ {\mathrm {I n d e x}} + \varepsilon \\ \end{array}
+\begin{array}{l} 2. M I = \alpha + \beta_{1} \chi_{\text{Na sd aq}} + \beta_{2} q + \beta_{3} \ln (M C a p) + \\ \beta_{4} \frac{1}{p} + \beta_{5} \chi_{\mathrm{Te ch}} + \beta_{6} \chi_{\mathrm{In de x}} + \varepsilon \\ \end{array}
 $$ where
 
 

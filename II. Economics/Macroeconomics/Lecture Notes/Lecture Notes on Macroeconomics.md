@@ -143,10 +143,10 @@ Consider the handout labeled "The First Measured Century." It presents graphs fo
 
 Omitted in Spring 2002: An important distinction that I have made implicitly above is the separation of variables into a trend component and a cyclical component. The trend component can be thought of informally as the long-run average behavior of the variable, and the cyclical component deviations from that trend. For inflation and unemployment, the trend components appear to be horizontal lines (with possible shifts in the level of the line for both over time). When one assumes that a model like the Solow growth model explains the long-run growth rate of output, but not the short run, one is already doing such a division. There has been a debate in recent years over whether it is appropriate to do such a division; some claim that variables like output, rather than having a deterministic trend, as is claimed in the Solow model (where the trend component, in log terms, is just proportional to time), instead have a stochastic trend. Algebraically, the two cases are:
 
-$$ y _ {t} = \alpha + \beta t + \epsilon_ {t} \tag {1}
+$$ y_{t} = \alpha + \beta t + \epsilon_{t} \tag {1}
 $$ for the deterministic trend case, and
 
-$$ y _ {t} = \beta + y _ {t - 1} + \epsilon_ {t} \tag {2}
+$$ y_{t} = \beta + y_{t - 1} + \epsilon_{t} \tag {2}
 $$ in the stochastic trend case (a random walk with drift).<sup>1</sup> $y_{t} = \ln(GDP)$ measured at time $t$. In the first case, $\beta t$ is the trend component or GDP and $\epsilon_{t}$ is the deviation around the trend. Changes in $\epsilon_{t}$ cause temporary variations in GDP, but do not affect the long-run level of $y_{t}$, which is only determined by $\alpha + \beta t$, trend growth. In contrast, in the second specification changes in $\epsilon_{t}$ permanently affect the level of $y_{t}$.
 
 In the stochastic-trend case, it may be more appropriate in some instances to study the long-run and the short-run together. This was one of the motivations of the RBC literature. For the purposes of this course, I am going to sidestep this debate, partly because it requires some heavy-duty econometrics to fully understand, but primarily because many macroeconomists have concluded that even if output does have a stochastic trend, analyzes assuming it has a deterministic trend will give many of the right answers. This is because computing $\Delta y_{t} = y_{t} - y_{t - 1}$ gives the same answer in both cases, so that any finite-sample time series with average growth rate of $\beta$ can be represented by both processes. For more information, see the first chapter of Blanchard and Fischer.]
@@ -184,7 +184,7 @@ For rates, such as interest rates, we need to subtract the rate of inflation. Th
 
 $$
 
-1 + r _ {t} = \frac {\left(1 + i _ {t}\right) P _ {t}}{P _ {t + 1}}. \tag {1.1}
+1 + r_{t} = \frac{\left(1 + i_{t}\right) P_{t}}{P_{t + 1}}. \tag {1.1}
 
 $$
 
@@ -246,13 +246,13 @@ We'd like to minimize this- to do so, find the first-order condition with respec
 
 $$
 
-0 = - i \frac {PY}{2} N ^ {- 2} + PF \tag {1.2}
+0 = - i \frac{PY}{2} N^{- 2} + PF \tag {1.2}
 
 $$ which implies:
 
 $$
 
-N = \sqrt {\frac {i Y}{2 F}} \tag {1.3}
+N = \sqrt{\frac{i Y}{2 F}} \tag {1.3}
 
 $$
 
@@ -260,7 +260,7 @@ The amount withdrawn each time is $\frac{PY}{N}$, so average nominal money holdi
 
 $$
 
-M = \frac {PY}{2 N} = P \sqrt {\frac {YF}{2 i}} \tag {1.4}
+M = \frac{PY}{2 N} = P \sqrt{\frac{YF}{2 i}} \tag {1.4}
 
 $$
 
@@ -307,7 +307,7 @@ With discount factor $\theta$, the time-zero present value of felicities is:
 
 $$
 
-\sum_ {t = 0} ^ {\infty} \left(\frac {1}{1 + \theta}\right) ^ {t} U \left(C _ {t}, \frac {M _ {t}}{P _ {t}}\right) \tag {1.5}
+\sum_{t = 0}^{\infty} \left(\frac{1}{1 + \theta}\right)^{t} U \left(C_{t}, \frac{M_{t}}{P_{t}}\right) \tag {1.5}
 
 $$
 
@@ -323,7 +323,7 @@ Hence we can write each period's budget constraint as:
 
 $$
 
-C _ {t} + K _ {t} + \frac {M _ {t}}{P _ {t}} = F \left(K _ {t - 1}\right) + K _ {t - 1} + \frac {M _ {t - 1}}{P _ {t}} + X _ {t} \tag {1.6}
+C_{t} + K_{t} + \frac{M_{t}}{P_{t}} = F \left(K_{t - 1}\right) + K_{t - 1} + \frac{M_{t - 1}}{P_{t}} + X_{t} \tag {1.6}
 
 $$
 
@@ -335,7 +335,7 @@ Assume that the transfer is provided by the government, which also supplies nomi
 
 $$
 
-\frac {M _ {t} - M _ {t - 1}}{P _ {t}} = X _ {t}. \tag {1.7}
+\frac{M_{t} - M_{t - 1}}{P_{t}} = X_{t}. \tag {1.7}
 
 $$
 
@@ -345,31 +345,31 @@ Form the Lagrangian and differentiate with respect to the three choice variables
 
 $$
 
-\left(\frac {1}{1 + \theta}\right) ^ {t} U _ {C _ {t}} \left(C _ {t}, \frac {M _ {t}}{P _ {t}}\right) - \lambda_ {t} = 0 \tag {1.8}
+\left(\frac{1}{1 + \theta}\right)^{t} U_{C_{t}} \left(C_{t}, \frac{M_{t}}{P_{t}}\right) - \lambda_{t} = 0 \tag {1.8}
 
 $$
 
 $$
 
-\frac {1}{P _ {t}} \left(\frac {1}{1 + \theta}\right) ^ {t} U _ {M _ {t}} \left(C _ {t}, \frac {M _ {t}}{P _ {t}}\right) - \frac {\lambda_ {t}}{P _ {t}} + \frac {\lambda_ {t + 1}}{P _ {t + 1}} = 0 \tag {1.9}
+\frac{1}{P_{t}} \left(\frac{1}{1 + \theta}\right)^{t} U_{M_{t}} \left(C_{t}, \frac{M_{t}}{P_{t}}\right) - \frac{\lambda_{t}}{P_{t}} + \frac{\lambda_{t + 1}}{P_{t + 1}} = 0 \tag {1.9}
 
 $$
 
 $$
-- \lambda_ {t} + \lambda_ {t + 1} \left(1 + F ^ {\prime} \left(K _ {t}\right)\right) = 0. \tag {1.10}
+- \lambda_{t} + \lambda_{t + 1} \left(1 + F^{\prime} \left(K_{t}\right)\right) = 0. \tag {1.10}
 $$
 
 In addition, there are two transversality conditions for capital and money:
 
 $$
 
-\overline {{\lim t \rightarrow 0 \left(\frac {1}{1 + \theta}\right) ^ {t} \lambda_ {t} K _ {t} = 0}} \tag {1.11}
+\overline {{\lim t \rightarrow 0 \left(\frac{1}{1 + \theta}\right)^{t} \lambda_{t} K_{t} = 0}} \tag {1.11}
 
 $$
 
 $$
 
-\overline {{\lim t \rightarrow 0 \left(\frac {1}{1 + \theta}\right) ^ {t} \lambda_ {t} \frac {M _ {t}}{P _ {t}} = 0.}} \tag {1.12}
+\overline {{\lim t \rightarrow 0 \left(\frac{1}{1 + \theta}\right)^{t} \lambda_{t} \frac{M_{t}}{P_{t}} = 0.}} \tag {1.12}
 
 $$
 
@@ -383,7 +383,7 @@ We can obtain the intertemporal condition by solving out for $\lambda_{t}$ and $
 
 $$
 
-U _ {\mathcal {C} _ {t}} = \frac {1 + r _ {t}}{1 + \theta} U _ {\mathcal {C} _ {t + 1}} \tag {1.13}
+U_{\mathcal {C}_{t}} = \frac{1 + r_{t}}{1 + \theta} U_{\mathcal {C}_{t + 1}} \tag {1.13}
 
 $$
 
@@ -391,7 +391,7 @@ The intratemporal condition can similarly be obtained by solving out for $\lambd
 
 $$
 
-U _ {M _ {t}} = \left(1 - \frac {\frac {P _ {t}}{P _ {t + 1}}}{1 + r _ {t}}\right) U _ {\mathcal {C} _ {t}}. \tag {1.14}
+U_{M_{t}} = \left(1 - \frac{\frac{P_{t}}{P_{t + 1}}}{1 + r_{t}}\right) U_{\mathcal {C}_{t}}. \tag {1.14}
 
 $$
 
@@ -399,7 +399,7 @@ Also, let's note that if we substitute the government's budget constraint into t
 
 $$
 
-C _ {t} + \Delta K _ {t} = F \left(K _ {t - 1}\right), \tag {1.15}
+C_{t} + \Delta K_{t} = F \left(K_{t - 1}\right), \tag {1.15}
 
 $$ or $C_t + I_t = Y_t$, the national income accounting identity.
 
@@ -408,7 +408,7 @@ The consumption condition looks identical to the standard consumption Euler equa
 To explore the implications of this, let's assume a particular form of the felicity function:
 
 $$
-U \left(C _ {t}, m _ {t}\right) = \frac {\left(C _ {t} m _ {t} ^ {\alpha}\right) ^ {1 - \sigma}}{1 - \sigma}, \tag {1.16}
+U \left(C_{t}, m_{t}\right) = \frac{\left(C_{t} m_{t}^{\alpha}\right)^{1 - \sigma}}{1 - \sigma}, \tag {1.16}
 $$ where for convenience we've set $m_t = \frac{M_t}{P_t}$
 
 This function has the advantage that if $\alpha = 0$, we revert to the standard CRRA utility function. Also note that in the general case where $\alpha \neq 0$ that consumption and real balances are nonseparable; this will turn out to be important later.
@@ -417,21 +417,21 @@ By inserting these expressions into the first-order conditions, and using the re
 
 $$
 
-\left(\frac {C _ {t}}{C _ {t + 1}}\right) ^ {- \sigma} = \frac {1 + r _ {t}}{1 + \theta} \left(\frac {m _ {t + 1}}{m _ {t}}\right) ^ {\alpha (1 - \sigma)} \tag {1.17}
+\left(\frac{C_{t}}{C_{t + 1}}\right)^{- \sigma} = \frac{1 + r_{t}}{1 + \theta} \left(\frac{m_{t + 1}}{m_{t}}\right)^{\alpha (1 - \sigma)} \tag {1.17}
 
 $$
 
-$$ m _ {t} = \alpha \left(1 + \frac {1}{i _ {t}}\right) C _ {t} \tag {1.18}
+$$ m_{t} = \alpha \left(1 + \frac{1}{i_{t}}\right) C_{t} \tag {1.18}
 $$
 
 Finally, taking logs, we can rewrite the two equations as follows:
 
 $$
-\Delta \ln \left(C _ {t + 1}\right) = \frac {r _ {t} - \theta}{\sigma} + \frac {\alpha (1 - \sigma)}{\sigma} \Delta \ln \left(m _ {t + 1}\right) \tag {1.19}
+\Delta \ln \left(C_{t + 1}\right) = \frac{r_{t} - \theta}{\sigma} + \frac{\alpha (1 - \sigma)}{\sigma} \Delta \ln \left(m_{t + 1}\right) \tag {1.19}
 $$
 
 $$
-\ln (m _ {t}) = \ln (\alpha) - \ln (i _ {t}) + \ln (C _ {t}), \tag {1.20}
+\ln (m_{t}) = \ln (\alpha) - \ln (i_{t}) + \ln (C_{t}), \tag {1.20}
 $$ where we've used the approximation that $\ln(1 + x_t) \approx x_t$ for small $x_t$.
 
 These two equations have nice economic interpretations. The first one is the standard discrete-time expression for consumption growth from the Ramsey model, with the addition of a term for growth of real balances. Note that in a steady state where consumption and real balances are not growing (recall that there is no population growth or technical progress), we have the standard condition that $r_t = \theta$. This pins down the steady-state capital stock and thus steady-state output. From (11), we can then get steady state consumption. All three values are exactly the same as in the model without money. Hence, in the long-run steady-state, this model obeys the classical dichotomy; no real variable is affected by money growth (although, as we will see below, the level of utility is). Out of steady-state, note that growth of real balances does affect consumption growth, if $\alpha \neq 0$. This arises from the fact that money is both a store of value and provides utility through transactions services.
@@ -448,14 +448,14 @@ For an easier way of solving this model, let's derive the intertemporal consumpt
 First, let's consider the experiment of, along the optimal path, reducing consumption by one unit in period $t$, investing it in capital, and consuming the proceeds next period. To first order, the utility change from reducing consumption in $t$ is: $-U_{C_t}$. The returns from investing in capital are $1 + r_t$. The utility change from consuming the proceeds, discounted back to period $t$, are: $\frac{1 + r_t}{1 + \theta} U_{C_{t+1}}$. If we were on the optimal path to consumption, first-order changes for small perturbations leave the discounted value of utility unchanged, so the sum of the above changes is zero, or:
 
 $$
-- U _ {C _ {t}} + \frac {1 + r _ {t}}{1 + \theta} U _ {C _ {t + 1}} = 0. \tag {1.21}
+- U_{C_{t}} + \frac{1 + r_{t}}{1 + \theta} U_{C_{t + 1}} = 0. \tag {1.21}
 $$
 
 For the intertemporal condition, let's consider the experiment of, again along the optimal path, reducing consumption in period $t$ by one unit, putting the proceeds in the form of money, and consuming the resulting real amount next period. To first order, the utility change from reducing consumption in $t$ is again: $-U_{C_t}$. One unit of consumption is $P_t$ units of nominal money $M_t$, or 1 unit of real balances $m_t$, yielding utility change of $U_{M_t}$. Next period, $P_t$ dollars have a real value of $\frac{P_t}{P_{t+1}}$, yielding a
 (discounted) utility change of $\frac{1}{1+\theta} \frac{P_t}{P_{t+1}} U_{C_{t+1}}$. These again sum to zero, yielding:
 
 $$
-- U _ {C _ {t}} + U _ {M _ {t}} + \frac {1}{1 + \theta} \frac {P _ {t}}{P _ {t + 1}} U _ {C _ {t + 1}} = 0. \tag {1.22}
+- U_{C_{t}} + U_{M_{t}} + \frac{1}{1 + \theta} \frac{P_{t}}{P_{t + 1}} U_{C_{t + 1}} = 0. \tag {1.22}
 $$
 
 By substituting in the consumption Euler equation, we can proceed as in the previous section.
@@ -466,7 +466,7 @@ Assume that instantaneous utility per person is given by $u(c, m)$, where $m = \
 
 $$
 
-V = \int_ {0} ^ {\infty} u (c, m) e ^ {- \theta t} dt. \tag {1.23}
+V = \int_{0}^{\infty} u (c, m) e^{- \theta t} dt. \tag {1.23}
 
 $$
 
@@ -477,7 +477,7 @@ Given this income, they can choose to consume it, accumulate capital or accumula
 
 $$
 
-C + \dot {K} + \frac {\dot {M}}{P} = w N + r K + X \tag {1.24}
+C + \dot {K} + \frac{\dot {M}}{P} = w N + r K + X \tag {1.24}
 
 $$
 
@@ -485,7 +485,7 @@ We can convert the third term on the left-hand-side into changes in real balance
 
 $$
 
-C + \dot {K} + \left(\frac {\dot {M}}{P}\right) = w N + r K - \pi \frac {M}{P} + X \tag {1.25}
+C + \dot {K} + \left(\frac{\dot {M}}{P}\right) = w N + r K - \pi \frac{M}{P} + X \tag {1.25}
 
 $$ which illustrates the fact derived above for the Baumol-Tobin model that real balances have a return equal to minus the rate of inflation. This may be written in per-capita terms as:
 
@@ -505,10 +505,10 @@ Let's also note that the growth in real balances per person, $\frac{\dot{m}}{m}$
 Before we close the model, let's note that we have enough information to solve the consumer's optimization problem. The solution is characterized by the following first-order conditions from the Hamiltonian:9
 First for $m$ and $c$
 
-$$ u _ {c} (c, m) = \lambda \tag {1.28}
+$$ u_{c} (c, m) = \lambda \tag {1.28}
 $$
 
-$$ u _ {m} (c, m) = \lambda (r + \pi) \tag {1.29}
+$$ u_{m} (c, m) = \lambda (r + \pi) \tag {1.29}
 $$
 
 Then from the asset accumulation equation:
@@ -520,7 +520,7 @@ $$
 Note: I've done something a little sneaky here. When I did this, I wrote the Hamiltonian as:
 
 $$
-H = u (c, m) e ^ {- \theta t} + \lambda e ^ {- \theta t} [ w + x + (r - n) a - (c + (r + \pi) m) ] \qquad (1.31)
+H = u (c, m) e^{- \theta t} + \lambda e^{- \theta t} [ w + x + (r - n) a - (c + (r + \pi) m) ] \qquad (1.31)
 $$
 
 That is, I replaced the usual Lagrange multiplier with one multiplied by $e^{-\theta t}$. This is known as the present-value version of the Lagrange multiplier. This won't alter the results (remember, $\lambda$ is a function of time, so multiplying it by another function of time isn't going to change its properties). It's convenient to work with because it allows us to collapse the whole Hamiltonian expression to a time discount term multiplied by something which looks like a usual Lagrangian.
@@ -542,14 +542,14 @@ What's the revenue from printing money? Money is issued at rate $\dot{M}$; the r
 First, as usual differentiate the first-order condition for consumption with respect to time, to obtain:
 
 $$
-\dot {\lambda} = u _ {cc} (c, m) \dot {c} + u _ {cm} (c, m) \dot {m} \tag {1.32}
+\dot {\lambda} = u_{cc} (c, m) \dot {c} + u_{cm} (c, m) \dot {m} \tag {1.32}
 $$
 
 Combine this with the third first-order condition to obtain the following equation of motion:
 
 $$
-\frac {\dot {c}}{c} = \frac {\left(\theta + n - f ^ {\prime}
-(k) \right) u _ {c}}{u _ {cc} c} - \frac {u _ {cm} m}{u _ {cc} c} \frac {\dot {m}}{m}. \tag {1.33}
+\frac{\dot {c}}{c} = \frac{\left(\theta + n - f^{\prime}
+(k) \right) u_{c}}{u_{cc} c} - \frac{u_{cm} m}{u_{cc} c} \frac{\dot {m}}{m}. \tag {1.33}
 $$
 
 Note that the first term is exactly the same as in the standard Ramsey growth model.
@@ -565,10 +565,10 @@ In the steady-state, per-capita consumption, capital and real balances are not g
 
 $\dot{c} = \dot{m} = \dot{k} = 0)$. This implies that:
 
-$$ f ^ {\prime} \left(k ^ {*}\right) = \theta + n \tag {1.35}
+$$ f^{\prime} \left(k^{*}\right) = \theta + n \tag {1.35}
 $$ and:
 
-$$ c ^ {*} = f \left(k ^ {*}\right) - nk \tag {1.36}
+$$ c^{*} = f \left(k^{*}\right) - nk \tag {1.36}
 $$
 
 The condition that real balances per person not grow in the steady state (i.e. $\frac{\dot{m}}{m} = 0$ ) also implies that the rate of inflation is pinned down by:
@@ -597,7 +597,7 @@ Note that another characteristic of the steady state is that the growth rate of 
 (inflation) + the growth rate of output (population growth). This is a version of a more general proposition, called the Quantity Theory of Money, which states that nominal balances are proportional to nominal income, or $MV = PY$, where $V$ is a constant of proportionality known as velocity. $V$ has this name because it tells us how much a given quantity of money circulates through the income for a given stock of transactions (nominal income). Note that this proposition implies that
 
 $$
-\frac {\dot {M}}{M} + \frac {\dot {V}}{V} = \frac {\dot {P}}{P} + \frac {\dot {Y}}{Y} \tag {1.38}
+\frac{\dot {M}}{M} + \frac{\dot {V}}{V} = \frac{\dot {P}}{P} + \frac{\dot {Y}}{Y} \tag {1.38}
 $$ which yields the result of the first sentence, assuming that $\frac{\dot{V}}{V} = 0$.
 
 Where does this result come from, and what is its relation to theories of the demand for money? Suppose we think of money demand as $\frac{M}{P} = L(i, Y)$, and assume a unit income elasticity so that we may write it as $\frac{M}{P} = L(i)Y$. Then we see that if we define $V = 1 / L(i)$, we have the quantity theory.
@@ -621,36 +621,36 @@ We've seen how money can be integrated into a growth model, and a little bit of 
 
 $$
 
-\ln M _ {t} - \ln P _ {t} = - \alpha \left(i _ {t}\right) + \ln Y _ {t} \tag {1.39}
+\ln M_{t} - \ln P_{t} = - \alpha \left(i_{t}\right) + \ln Y_{t} \tag {1.39}
 
 $$
 
 Now, recall from the Fisher equation that $i_{t} = r_{t} + E_{t}\pi_{t + 1}$, where $E_{t}$ denotes expectations taken with respect to the information set at time $t$ and that $\pi_{t + 1} = \frac{P_{t + 1} - P_t}{P_t}$. Recall that for $x$ near 1, $\ln
 (x) = x - 1\$. Hence we may rewrite $\pi_{t + 1}$ as $\ln (P_{t + 1}) - \ln (P_t)$, so that $E_{t}\pi_{t + 1}$ is approximately $E_{t}[ln(P_{t + 1})] - \ln (P_{t})$. Given this, we can rewrite the money demand equation as (now using lower case letters to indicate logs):
 
-$$ m _ {t} - p _ {t} = - \alpha \left(r _ {t} + E _ {t} p _ {t + 1} - p _ {t}\right) + y _ {t} \tag {1.40}
+$$ m_{t} - p_{t} = - \alpha \left(r_{t} + E_{t} p_{t + 1} - p_{t}\right) + y_{t} \tag {1.40}
 $$
 
 Let's ignore the real interest and output terms, and normalize them to zero, since they're exogenous (we could alternatively write them as a constant and not change the subsequent results). Then we have that:
 
-$$ m _ {t} - p _ {t} = - \alpha \left(E _ {t} p _ {t + 1} - p _ {t}\right) \tag {1.41}
+$$ m_{t} - p_{t} = - \alpha \left(E_{t} p_{t + 1} - p_{t}\right) \tag {1.41}
 $$
 
 This says that if we knew the expected future price level and the current stock of money, that would tell us where the current price level has to be. The big question is then how to get the expected future price level. We will get it by assuming rational expectations, that is that people form expectations of the price level using the model. How do we apply this?
 
 Well, first let's solve the above equation for $p_t$:
 
-$$ p _ {t} = \frac {\alpha}{1 + \alpha} E _ {t} p _ {t + 1} + \frac {1}{1 + \alpha} m _ {t} \tag {1.42}
+$$ p_{t} = \frac{\alpha}{1 + \alpha} E_{t} p_{t + 1} + \frac{1}{1 + \alpha} m_{t} \tag {1.42}
 $$
 
 Now, let's lead it one period, to obtain:
 
-$$ p _ {t + 1} = \frac {\alpha}{1 + \alpha} E _ {t + 1} p _ {t + 2} + \frac {1}{1 + \alpha} m _ {t + 1} \tag {1.43}
+$$ p_{t + 1} = \frac{\alpha}{1 + \alpha} E_{t + 1} p_{t + 2} + \frac{1}{1 + \alpha} m_{t + 1} \tag {1.43}
 $$ and let's take expectations:
 
 $$
 
-E _ {t} p _ {t + 1} = \frac {\alpha}{1 + \alpha} E _ {t} \left(E _ {t + 1} p _ {t + 2}\right) + \frac {1}{1 + \alpha} E _ {t} m _ {t + 1}. \tag {1.44}
+E_{t} p_{t + 1} = \frac{\alpha}{1 + \alpha} E_{t} \left(E_{t + 1} p_{t + 2}\right) + \frac{1}{1 + \alpha} E_{t} m_{t + 1}. \tag {1.44}
 
 $$
 
@@ -658,10 +658,10 @@ Now, using the law of iterated expectations, $E_{t}(E_{t + 1}p_{t + 2}) = E_{t}p
 
 Let's substitute this into our original equation for $p_t$, to obtain:
 
-$$ p _ {t} = \left(\frac {\alpha}{1 + \alpha}\right) ^ {2} E _ {t} p _ {t + 2} + \frac {1}{1 + \alpha} \left(m _ {t} + \frac {\alpha}{1 + \alpha} E _ {t} m _ {t + 1}\right) \tag {1.45}
+$$ p_{t} = \left(\frac{\alpha}{1 + \alpha}\right)^{2} E_{t} p_{t + 2} + \frac{1}{1 + \alpha} \left(m_{t} + \frac{\alpha}{1 + \alpha} E_{t} m_{t + 1}\right) \tag {1.45}
 $$ repeating this operation, we obtain:
 
-$$ p _ {t} = \lim _ {n \rightarrow \infty} \left(\frac {\alpha}{1 + \alpha}\right) ^ {n} E _ {t} p _ {t + n} + \frac {1}{1 + \alpha} \left(m _ {t} + \frac {\alpha}{1 + \alpha} E _ {t} m _ {t + 1} + \left(\frac {\alpha}{1 + \alpha}\right) ^ {2} E _ {t} m _ {t + 2} + \dots\right) \tag {1.46}
+$$ p_{t} = \lim_{n \rightarrow \infty} \left(\frac{\alpha}{1 + \alpha}\right)^{n} E_{t} p_{t + n} + \frac{1}{1 + \alpha} \left(m_{t} + \frac{\alpha}{1 + \alpha} E_{t} m_{t + 1} + \left(\frac{\alpha}{1 + \alpha}\right)^{2} E_{t} m_{t + 2} + \dots\right) \tag {1.46}
 $$
 
 If we assume that the expected path of the price level is nonexplosive, so that the first term goes to zero, $^{15}$ then we're left with only the second parenthetical term.
@@ -696,19 +696,19 @@ The second part is real balances, which decreases with increased money growth be
 Let's do this by using the Cagan money demand function, which specifies that:
 
 $$
-\frac {M}{P} = Y e ^ {\alpha (- r - \pi)} \tag {1.47}
+\frac{M}{P} = Y e^{\alpha (- r - \pi)} \tag {1.47}
 $$
 
 If we substitute this into the expression for seigniorage, and note that the rate of inflation is just equal to the growth rate of the money stock in steady state, we can write the expression for seigniorage as just:
 
 $$
-Y \pi e ^ {\alpha (- r - \pi)} \tag {1.48}
+Y \pi e^{\alpha (- r - \pi)} \tag {1.48}
 $$
 
 Choosing the rate of inflation which maximizes this has the first order condition:
 
 $$
-Y (1 - \alpha \pi) e ^ {\alpha (- r - \pi)} = 0 \tag {1.49}
+Y (1 - \alpha \pi) e^{\alpha (- r - \pi)} = 0 \tag {1.49}
 $$
 
 Thus seigniorage is zero when $\pi = 0$, is maximized when $\pi = \frac{1}{\alpha}$ and then decreases thereafter, although it never goes to zero. Seigniorage has a Laffer curve, like any other kind of tax.
@@ -766,7 +766,7 @@ Inflation can actually be beneficial by increasing the flexibility of wages and 
 2. (Old final question) Suppose that per capita money demand is given by the standard Baumol-Tobin model:
 
 $$
-\frac {M}{P} = \sqrt {\frac {FY}{2 i}} \tag {1.50}
+\frac{M}{P} = \sqrt{\frac{FY}{2 i}} \tag {1.50}
 $$
 
 Where $Y$ is real income per capita, $M$ is nominal money balances per capita, $P$ is the price level, $i$ is the nominal interest rate, and $F$ is the cost of going to the bank. Inflation is equal to zero and the real interest rate is constant. Suppose that total real income in this economy is growing at a rate of $10\%$ per year. For each of the two cases below, calculate the rate at which the money supply must be growing, and describe what is happening to velocity over time.
@@ -778,7 +778,7 @@ Where $Y$ is real income per capita, $M$ is nominal money balances per capita, $
 3. Consider an economy with a money demand function:
 
 $$
-\frac {M}{P} = Y e ^ {- i} \tag {1.51}
+\frac{M}{P} = Y e^{- i} \tag {1.51}
 $$
 
 Assume that the real interest rate is $5\%$, Y is growing at $3\%$ and money is growing at a rate of $20\%$ (and that people expect it to keep growing at this rate). All of a sudden, the growth rate of money falls to zero (and people expect it to remain at zero). What will happen to the price level? To the rate of inflation? Draw a picture of the log of the price level.
@@ -786,7 +786,7 @@ Assume that the real interest rate is $5\%$, Y is growing at $3\%$ and money is 
 4. (Old midterm question) Consider the problem of maximizing seigniorage in a growing economy. Money demand is given by:
 
 $$
-\frac {M}{P} = Y e ^ {- i} \tag {1.52}
+\frac{M}{P} = Y e^{- i} \tag {1.52}
 $$
 
 The real rate of interest is zero. Output grows exogenously at rate $g$. Find the rate of inflation which maximizes steady-state seigniorage as a fraction of output. Explain why the seigniorage-maximizing rate of output depends on the growth rate of output.
@@ -796,7 +796,7 @@ The real rate of interest is zero. Output grows exogenously at rate $g$. Find th
 What money she does not spend on mortgage payments she consumes. She is unable to borrow for purposes other than buying a house. Her utility from non-housing consumption is:
 
 $$
-V = \int_ {0} ^ {\infty} e ^ {- \theta t} cdt \tag {1.53}
+V = \int_{0}^{\infty} e^{- \theta t} cdt \tag {1.53}
 $$ where her time discount rate is $\theta$. Note that the instantaneous utility function is assumed to be linear.
 
 (a) Find the path of her real mortgage payments
@@ -816,12 +816,12 @@ What would be the value to this person, expressed in terms of real income in the
 
 8. Assume the money demand function is (in logs):
 
-$$ m _ {t} - p _ {t} = - \alpha \left(E _ {t} p _ {t + 1} - p _ {t}\right) \tag {1.54}
+$$ m_{t} - p_{t} = - \alpha \left(E_{t} p_{t + 1} - p_{t}\right) \tag {1.54}
 $$ and that expected inflation is set equal to last period's inflation:
 
 $$
 
-\left(E _ {t} p _ {t + 1} - p _ {t}\right) = \left(p _ {t} - p _ {t - 1}\right) \tag {1.55}
+\left(E_{t} p_{t + 1} - p_{t}\right) = \left(p_{t} - p_{t - 1}\right) \tag {1.55}
 
 $$
 
@@ -829,24 +829,24 @@ Solve for the price level in period $t$ as a function of the level of the money 
 
 9. (Old final exam question) Assume that money demand in each period is given by:
 
-$$ m _ {t} - p _ {t} = \gamma - \alpha \left(E _ {t} p _ {t + 1} - p _ {t}\right) \tag {1.56}
+$$ m_{t} - p_{t} = \gamma - \alpha \left(E_{t} p_{t + 1} - p_{t}\right) \tag {1.56}
 $$ where $m$ and $p$ are the logs of the money supply and the price level. It is known with certainty from time zero that the pattern of the money supply will be as follows: for periods $0, \ldots, s$ $m = 1$. For periods $s + 1, \ldots, \infty$ $m = 2$. Solve for the price level in period $s$.
 
 10. Suppose that the demand for money is described by the following familiar model:
 
-$$ m _ {t} - p _ {t} = - \alpha \left(E _ {t} p _ {t + 1} - p _ {t}\right) \tag {1.57}
+$$ m_{t} - p_{t} = - \alpha \left(E_{t} p_{t + 1} - p_{t}\right) \tag {1.57}
 $$
 
 Suppose that at time $T - 1$, the stock of money is $\bar{M}_1$, and is expected to remain at that level for the indefinite future. Now, at time $T$, the stock of money is raised to level $\bar{M}_2$, and it is expected to remain there for the indefinite future. Derive the price level for periods $T - 1, T, T + 1, T + 2, \ldots$.
 
 11. Consider an economy in which money has been growing at rate $\mu$ for some time and is expected to continue to grow at that rate, so that:
 
-$$ m _ {t} = \mu + m _ {t - 1} + \epsilon_ {t} \tag {1.58}
+$$ m_{t} = \mu + m_{t - 1} + \epsilon_{t} \tag {1.58}
 $$ where $m_t = \ln(M_t)$ and $\epsilon_t$ is iid with zero mean. Money demand is described by the familiar function:
 
 $$
 
-\frac {M _ {t}}{P _ {t}} = Y _ {t} e ^ {- \alpha \left(r _ {t} + E _ {t} \frac {P _ {t + 1} - P _ {t}}{P _ {t}}\right)}. \tag {1.59}
+\frac{M_{t}}{P_{t}} = Y_{t} e^{- \alpha \left(r_{t} + E_{t} \frac{P_{t + 1} - P_{t}}{P_{t}}\right)}. \tag {1.59}
 
 $$
 
@@ -856,7 +856,7 @@ You may normalize any irrelevant exogenous variables as you see fit. Assume the 
 
 Now suppose that a monetary reform is announced at time $T$. If the reform is successful, the money stock will be:
 
-$$ m _ {t} = m _ {t - 1} + \epsilon_ {t} \tag {1.60}
+$$ m_{t} = m_{t - 1} + \epsilon_{t} \tag {1.60}
 $$ from time $T + 1$ onwards. The reform has probability $\theta$ of success. If it is unsuccessful, the money supply process remains unchanged from the previous equation, and it is believed that the reform will not be tried again.
 
 (b) What is the new price level at time $T$ after the announcement has been made?
@@ -873,7 +873,7 @@ Now suppose it is believed that if the reform fails, it will be tried once and o
 
 $$
 
-\frac {M}{P} = Y e ^ {- \alpha i}.
+\frac{M}{P} = Y e^{- \alpha i}.
 
 $$
 
@@ -887,13 +887,13 @@ Assume the Fisher equation relating nominal and real interest rates holds. Suppo
 
 13. Consider the following variant of the Sargent and Wallace/Brock model of forward determination of the price level:
 
-$$ m _ {t} - p _ {t} = - \alpha \left(r _ {t} + \left(E _ {t} \left(p _ {t + 1}\right) - p _ {t}\right)\right) + y _ {t} \tag {1.61}
+$$ m_{t} - p_{t} = - \alpha \left(r_{t} + \left(E_{t} \left(p_{t + 1}\right) - p_{t}\right)\right) + y_{t} \tag {1.61}
 $$
 
-$$ y _ {t} = - \beta r _ {t} \tag {1.62}
+$$ y_{t} = - \beta r_{t} \tag {1.62}
 $$
 
-$$ y _ {t} = d \left(p _ {t} - E _ {t - 1} p _ {t}\right), \tag {1.63}
+$$ y_{t} = d \left(p_{t} - E_{t - 1} p_{t}\right), \tag {1.63}
 $$ where all notation is standard and all variables (except for $r_t$ ) are in natural logs.
 
 (a) Provide economic interpretations for these equations.
@@ -979,7 +979,7 @@ $$
 
 $$
 
-\frac {M}{P} = L (r, Y) \tag {2.2}
+\frac{M}{P} = L (r, Y) \tag {2.2}
 
 $$
 
@@ -989,31 +989,31 @@ We can plot these relationships in a graph with the two endogenous variables on 
 
 This yields the usual predictions that expansionary fiscal policy (i.e. $G$ up or $T$ down) will increase output and raise real interest rates (crowding out). Expansionary monetary policy will increase output and lower real interest rates (Figure 2.3). We can state these results more formally by totally differentiating the two equations, to yield:
 
-$$ d Y = C ^ {\prime} (d Y - d T) + I ^ {\prime} dr + d G \tag {2.3}
+$$ d Y = C^{\prime} (d Y - d T) + I^{\prime} dr + d G \tag {2.3}
 $$
 
-$$ d \left(\frac {M}{P}\right) = L _ {r} dr + L _ {Y} dy, \tag {2.4}
+$$ d \left(\frac{M}{P}\right) = L_{r} dr + L_{Y} dy, \tag {2.4}
 $$ where derivatives are indicated by primes or subscripts, as appropriate. We can solve out for $dY$ and $dr$, either by direct substitution, or by using Cramer's rule. Either way, solving out for $dY$ obtains:
 
-$$ d Y = - \left(\Gamma C ^ {\prime}\right) d T + \Gamma d G + \Gamma \frac {I ^ {\prime}}{L _ {r}} d \left(\frac {M}{P}\right) \tag {2.5}
+$$ d Y = - \left(\Gamma C^{\prime}\right) d T + \Gamma d G + \Gamma \frac{I^{\prime}}{L_{r}} d \left(\frac{M}{P}\right) \tag {2.5}
 $$ where
 
 $$
 
-\Gamma = \frac {L _ {r}}{L _ {r} \left(1 - C ^ {\prime}\right) + I ^ {\prime} L _ {Y}} \tag {2.6}
+\Gamma = \frac{L_{r}}{L_{r} \left(1 - C^{\prime}\right) + I^{\prime} L_{Y}} \tag {2.6}
 
 $$
 
 If the LM curve is nearly horizontal, so that $\frac{L_Y}{L_r}$ is nearly zero, then approximately $\Gamma = \frac{1}{1 - C'}$, and
 
-$$ d Y = \frac {- C ^ {\prime}}{1 - C ^ {\prime}} d T + \frac {1}{1 - C ^ {\prime}} d G \tag {2.7}
+$$ d Y = \frac{- C^{\prime}}{1 - C^{\prime}} d T + \frac{1}{1 - C^{\prime}} d G \tag {2.7}
 $$
 
 The term $\frac{1}{1 - C'}$ is known as the Keynesian multiplier. Note that since $C'$, the marginal propensity to consume out of disposable income, is less than one, this number is greater than one. Thus changes in government spending have a more than one-for one effect on output.
 
 This works through an expenditure mechanism. The initial increase in spending, $dG$ represents income to someone. Some fraction of this income, $C' dG$ is spent. This additional spending is also income to someone; these people spend some fraction $C'$ of it, so that their increased spending is $(C')^2 dG$. The process continues, so that the total increase in expenditure (and therefore output) is:
 
-$$ d G + C ^ {\prime} d G + \left(C ^ {\prime}\right) ^ {2} d G + \left(C ^ {\prime}\right) ^ {3} d G + \dots \tag {2.8}
+$$ d G + C^{\prime} d G + \left(C^{\prime}\right)^{2} d G + \left(C^{\prime}\right)^{3} d G + \dots \tag {2.8}
 $$ which simplifies to: $\frac{1}{1 - C'} dG$, as above.
 
 Note that the assumption $\frac{L_Y}{L_r} \approx 0$ implies that the effects of monetary policy on output are small. This conclusion was disputed by a group of economists who believed that most short-run fluctuations in output were due to shocks to the money supply. Because of this view, they were known as Monetarists; their leader was Milton Friedman (who, with Anna Schwartz, wrote an 800 page monetary history of the United States referred to in the previous chapter). Although at the time, their views were seen as a significant challenge to Keynesian views, from today's perspective the controversy can simply be categorized as disagreement over the magnitudes of derivatives within the Keynesian model. Thus, Monetarists believe $C'$ to be small, and Keynesians believed it to be large. Monetarists believed $L_r$ to be small, an implication one would get from the quantity theory of money, while Keynesians believe it to be large. Today, the Monetarist perspective has been largely accepted, and money is seen as an important component of models of economic fluctuations.
@@ -1042,11 +1042,11 @@ For now, let's look at the completely static case, and assume that $E[\frac{\dot
 
 $$
 Y = C (Y - T) + I
-(r) + G + NX \left(\frac {e P}{P ^ {*}}\right) \tag {2.10}
+(r) + G + NX \left(\frac{e P}{P^{*}}\right) \tag {2.10}
 $$
 
 $$
-\frac {M}{P} = L \left(i ^ {*}, Y\right) \tag {2.11}
+\frac{M}{P} = L \left(i^{*}, Y\right) \tag {2.11}
 $$
 
 Here, the exogenous variables are $G, T, M, P, P*$ and $i*$ and the endogenous $Y$ and $e$. Plot the two relationships with $Y$ on the horizontal and $e$ on the vertical axes. The IS relationship is a downward-sloping relationship and the LM relationship is a vertical line (Figure 2.5).
@@ -1058,13 +1058,13 @@ In the first case, fiscal policy or other shocks to the IS curve simply leads to
 In the case of fixed exchange rates, the opposite is true. There cannot be independent monetary policy, because the central bank must use monetary policy to keep the nominal exchange rate at the same level as before. Any increase in the money supply must be completely counteracted. Conversely, increase in fiscal policy are very effective, because the central bank must then increase monetary policy in order to bring the exchange rate back to its previous level. Now, let's turn to the dynamic case, where expected appreciations are no longer zero. Invert the LM curve, and substitute in for the nominal interest rate to write:
 
 $$
-E \left[ \frac {\dot {e}}{e} \right] = i ^ {*} - i \left(\frac {M}{P}, Y\right) \tag {2.12}
+E \left[ \frac{\dot {e}}{e} \right] = i^{*} - i \left(\frac{M}{P}, Y\right) \tag {2.12}
 $$
 
 Let's also assume that output adjusts sluggishly, so that
 
 $$
-\dot {Y} = \phi [ A (Y, \frac {e P}{P *}) - Y ] \tag {2.13}
+\dot {Y} = \phi [ A (Y, \frac{e P}{P *}) - Y ] \tag {2.13}
 $$ where $A$ denotes absorption, the level of domestic demand, and $\frac{\partial A}{\partial Y} < 1$.<sup>8</sup>
 
 This gives us a dynamic system in two variables. We can solve for the two steady-state conditions (namely, $\dot{Y} = 0$ and $\dot{e} = 0$ ) and plot them as follows:((Figure 2.6).
@@ -1104,7 +1104,7 @@ In fact, it need not have done any such thing. It has turned out that if one rep
 
 $$
 
-\pi = \pi^ {e} + f
+\pi = \pi^{e} + f
 
 (u) + \epsilon \tag {2.14}
 
@@ -1139,7 +1139,7 @@ The first group of economists who attempted to reform Keynesian economics tried 
 The economy consists of a representative agent, a representative firm, and the government. Assume the representative agent has the following utility function, defined over leisure, consumption and real monetary balances:
 
 $$
-U = C ^ {\alpha} \left(\frac {M}{P}\right) ^ {\beta} - L ^ {\gamma}. \tag {2.15}
+U = C^{\alpha} \left(\frac{M}{P}\right)^{\beta} - L^{\gamma}. \tag {2.15}
 $$
 
 $L$ is labor supply, so that $-L^{\gamma}$ represents the disutility of working (which could alternatively be represented by the utility of leisure). The time endowment is $\bar{L}$.
@@ -1147,7 +1147,7 @@ $L$ is labor supply, so that $-L^{\gamma}$ represents the disutility of working 
 Her budget constraint in real terms is:
 
 $$
-C + \frac {M}{P} = \frac {M ^ {\prime}}{P} + \frac {W}{P} L + \Pi \tag {2.16}
+C + \frac{M}{P} = \frac{M^{\prime}}{P} + \frac{W}{P} L + \Pi \tag {2.16}
 $$ where $M'$ is initial nominal money holdings and $\Pi$ is profit. The production function is $Y = L^{\eta}$. The firm maximizes profit, $\Pi = Y - \frac{W}{P} L$.
 
 The government is completely passive, and simply supplies money to equal demand; there will be no seigniorage in equilibrium.
@@ -1160,50 +1160,50 @@ Suppose that prices and wages are purely flexible. The first order conditions fo
 
 $$
 
-\alpha C ^ {\alpha - 1} \left(\frac {M}{P}\right) ^ {\beta} = \lambda \tag {2.17}
+\alpha C^{\alpha - 1} \left(\frac{M}{P}\right)^{\beta} = \lambda \tag {2.17}
 
 $$
 
 $$
 
-\beta C ^ {\alpha} \left(\frac {M}{P}\right) ^ {\beta - 1} = \lambda \tag {2.18}
+\beta C^{\alpha} \left(\frac{M}{P}\right)^{\beta - 1} = \lambda \tag {2.18}
 
 $$
 
 $$
 
-\gamma L ^ {\gamma - 1} = \frac {W}{P} \lambda - \nu \tag {2.19}
+\gamma L^{\gamma - 1} = \frac{W}{P} \lambda - \nu \tag {2.19}
 
 $$ where $\lambda$ and $\nu$ are the Lagrange multipliers associated with the budget constraint and the time endowment constraint respectively. The time endowment constraint will not bind, so that $\nu = 0$.
 
 The first two first-order conditions can be combined to yield:
 
 $$
-\frac {M}{P} = \frac {\beta}{\alpha} C \tag {2.20}
+\frac{M}{P} = \frac{\beta}{\alpha} C \tag {2.20}
 $$
 
 We can use the definition of profits to rewrite the budget constraint as:
 
 $$
-C + \frac {M}{P} = \frac {M ^ {\prime}}{P} + Y \tag {2.21}
+C + \frac{M}{P} = \frac{M^{\prime}}{P} + Y \tag {2.21}
 $$
 
 Using the optimality condition for $\frac{M}{P}$ derived above, and the national income accounting identity, we can then solve for aggregate demand:
 
 $$
-Y = \frac {\alpha}{\beta} \frac {M}{P} \tag {2.22}
+Y = \frac{\alpha}{\beta} \frac{M}{P} \tag {2.22}
 $$
 
 We can also use the condition that labor demand equal labor supply to solve for the level of output. Labor demand comes from profit maximization, which implies:
 
 $$
-L = \left(\frac {1}{\eta} \frac {W}{P}\right) ^ {\frac {1}{\eta - 1}} \tag {2.23}
+L = \left(\frac{1}{\eta} \frac{W}{P}\right)^{\frac{1}{\eta - 1}} \tag {2.23}
 $$
 
 For labor supply, one can combine the first order conditions for $C$ and $L$, and using the production function and the fact that $Y = C$, after some tedious manipulations one can solve for the level of $L^S$ as:
 
 $$
-L = \left(\frac {\gamma}{\alpha^ {1 - \beta} \beta^ {\beta}}\right) ^ {\frac {1}{\eta (\alpha + \beta - 1) + 1 - \gamma}} \left(\frac {W}{P}\right) ^ {\frac {1}{- 1 + \gamma - \eta (\alpha + \beta - 1)}} \tag {2.24}
+L = \left(\frac{\gamma}{\alpha^{1 - \beta} \beta^{\beta}}\right)^{\frac{1}{\eta (\alpha + \beta - 1) + 1 - \gamma}} \left(\frac{W}{P}\right)^{\frac{1}{- 1 + \gamma - \eta (\alpha + \beta - 1)}} \tag {2.24}
 $$
 
 Equating the two, one can see that the equilibrium level of $L$ will be a function of the parameters $\eta$, $\alpha$, $\beta$ and $\gamma$, and not of $M$. Hence equilibrium supply is constant. Money is neutral, as expected.
@@ -1239,13 +1239,13 @@ The consumer's three first-order conditions remain the same, but now $\nu \neq 0
 Hence aggregate demand is still:
 
 $$
-Y ^ {D} = \frac {\alpha}{\beta} \frac {M}{P} \tag {2.25}
+Y^{D} = \frac{\alpha}{\beta} \frac{M}{P} \tag {2.25}
 $$
 
 We may determine aggregate supply from the production function and the fact that firms are on their labor demand curves, so that
 
 $$
-Y ^ {S} = \left(\frac {1}{\eta} \frac {\bar {W}}{P}\right) ^ {\frac {\eta}{\eta - 1}}. \tag {2.26}
+Y^{S} = \left(\frac{1}{\eta} \frac{\bar {W}}{P}\right)^{\frac{\eta}{\eta - 1}}. \tag {2.26}
 $$
 
 This is upward sloping in $P$. Money is again non-neutral. In terms of the graphical analysis, an increase in $M$ leads to a shift outwards in the demand curve. Were the price level to increase (as would happen in the Walrasian benchmark case), this would imply a lower real wage, and therefore a greater degree of labor demanded and therefore employed. So output also increases.
@@ -1279,12 +1279,12 @@ The model consists of a large number of competitive markets. As an analogy, they
 
 Assume that the supply curve for market $i$ is:
 
-$$ y _ {it} = b \left(p _ {it} - E _ {t} p _ {t}\right) \tag {2.27}
+$$ y_{it} = b \left(p_{it} - E_{t} p_{t}\right) \tag {2.27}
 $$ where the $E_{t}$ denotes the expectation taken conditional on the information set at time $t$, which is assumed to include all variables through time $t - 1$ and $p_{it}$. This supply curve is rather ad hoc, but it has the justification that the firm cares about its relative real price.
 
 Aggregate demand is as usual assumed from the quantity theory to be:
 
-$$ y _ {t} = m _ {t} - p _ {t}, \tag {2.28}
+$$ y_{t} = m_{t} - p_{t}, \tag {2.28}
 $$ where log velocity has been normalized to zero.
 
 Now, we need to think about $E_{t}p_{t}$ and how it is computed.
@@ -1297,13 +1297,13 @@ Given the observed $p_{it}$, the consumer has to decide how much of the observed
 
 $$
 
-E _ {t} p _ {t} = \theta p _ {it} + (1 - \theta) \hat {E} p \tag {2.29}
+E_{t} p_{t} = \theta p_{it} + (1 - \theta) \hat {E} p \tag {2.29}
 
 $$ where
 
 $$
 
-\theta = \frac {\hat {\sigma_ {p} ^ {2}}}{\hat {\sigma_ {p} ^ {2}} + \hat {\sigma_ {z} ^ {2}}} \tag {2.30}
+\theta = \frac{\hat {\sigma_{p}^{2}}}{\hat {\sigma_{p}^{2}} + \hat {\sigma_{z}^{2}}} \tag {2.30}
 
 $$
 
@@ -1311,7 +1311,7 @@ In words, the expected change in price is partly attributed to a change in the p
 
 Note that this implies that the supply curve is:
 
-$$ y _ {it} = b (1 - \theta) \left(p _ {it} - \hat {E} p\right) \tag {2.31}
+$$ y_{it} = b (1 - \theta) \left(p_{it} - \hat {E} p\right) \tag {2.31}
 $$
 
 If the variance of the price level (i.e. the variance of monetary shocks) were extremely high relative to the variance of idiosyncratic shocks, this means that $\theta$ would be close to one, and output would not vary. In other words, since most shocks were aggregate demand shocks, there would be no reason to supply more output, because it's very likely that any given observe change in prices is due to changes in the money stock and not changes in relative demand for the good.
@@ -1320,12 +1320,12 @@ The opposite happens if there is a high variance to the idiosyncratic shocks.
 
 If we aggregate over consumers by summing over the $i$ (which, given the loglinearity assumed here, means that we are using the geometric mean of output, rather than the average), we get that
 
-$$ y _ {t} = \beta \left(p _ {t} - \hat {E} p\right) \tag {2.32}
+$$ y_{t} = \beta \left(p_{t} - \hat {E} p\right) \tag {2.32}
 $$ where $\beta = b(1 - \theta)$
 
 Combining this with aggregate demand, and solving for $\hat{E} p$ and $P_{t}$, we get:
 
-$$ y _ {t} = \frac {\beta}{1 + \beta} \left(m _ {t} - E _ {t} m _ {t}\right) \tag {2.33}
+$$ y_{t} = \frac{\beta}{1 + \beta} \left(m_{t} - E_{t} m_{t}\right) \tag {2.33}
 $$
 
 This has a very striking implication: only unanticipated shocks to the money supply have an effect on output. Any shocks which were anticipated will be correctly perceived to have resulted in changes to the price level, and no one will change his or her supply of goods.
@@ -1365,24 +1365,24 @@ We will first consider a model in which the level of the price or wage is determ
 Assume the production function $Y_{t} = L_{t}^{1 - \gamma}$. The profit-maximizing condition that the marginal product of labor equal the real wage for this production function is then:
 
 $$
-(1 - \gamma) L _ {t} ^ {- \gamma} = \frac {W _ {t}}{P _ {t}} \tag {2.34}
+(1 - \gamma) L_{t}^{- \gamma} = \frac{W_{t}}{P_{t}} \tag {2.34}
 $$
 
 After taking logs, this implies:
 
-$$ l _ {t} = \frac {1}{\gamma} \ln (1 - \gamma) - \frac {1}{\gamma} \left(w _ {t} - p _ {t}\right) \tag {2.35}
+$$ l_{t} = \frac{1}{\gamma} \ln (1 - \gamma) - \frac{1}{\gamma} \left(w_{t} - p_{t}\right) \tag {2.35}
 $$
 
 Define $\alpha = \frac{1}{\gamma}\ln (1 - \gamma)$ and $\beta = \frac{1}{\gamma}$. Then we can show that
 
-$$ y _ {t} = \frac {\beta - 1}{\beta} \alpha - (\beta - 1) \left(w _ {t} - p _ {t}\right) \tag {2.36}
+$$ y_{t} = \frac{\beta - 1}{\beta} \alpha - (\beta - 1) \left(w_{t} - p_{t}\right) \tag {2.36}
 $$
 
 Below, even though we will have fixed wages, we will assume that firms are always on their labor demand curves. In the context of the previous models, this implies that the real wage is assumed to be above the market-clearing level.
 
 Assume that aggregate demand follows the usual quantity-theoretic formulation:
 
-$$ y _ {t} = m _ {t} - p _ {t} + v _ {t} \tag {2.37}
+$$ y_{t} = m_{t} - p_{t} + v_{t} \tag {2.37}
 $$
 
 Finally, we will need to specify how wages are set. Let's consider two cases: one in which wages are set one period in advance, one in which they are set two periods in advance.
@@ -1393,7 +1393,7 @@ In this case, we shall assume that $w_{t} = E_{t - 1}p_{t}$, so that the expecte
 
 (log) real wage is set to zero (a convenient normalization). Note that this implies that we can rewrite output as:
 
-$$ y _ {t} = \frac {\beta - 1}{\beta} \alpha - (\beta - 1) \left(E _ {t - 1} p _ {t} - p _ {t}\right) \tag {2.38}
+$$ y_{t} = \frac{\beta - 1}{\beta} \alpha - (\beta - 1) \left(E_{t - 1} p_{t} - p_{t}\right) \tag {2.38}
 $$
 
 But this is exactly the same as the Lucas Supply curve, derived above. Again, unexpected inflation will be associated with higher output than usual, but only for one period. Only unanticipated money will matter, and then only for one period.
@@ -1404,53 +1404,53 @@ This is a nice result, because it confirms the results of the Lucas model, but i
 
 Now assume that wages must be set two periods in advance; i.e. wages are set at time $t$ for periods $t + 1$ and $t + 2$. We will also assume that not all wages are set at the same time: half of the wages will be set every other period. This implies that the wage at period $t$ is equal to:
 
-$$ w _ {t} = \frac {1}{2} \left(E _ {t - 1} p _ {t} + E _ {t - 2} p _ {t}\right), \tag {2.39}
+$$ w_{t} = \frac{1}{2} \left(E_{t - 1} p_{t} + E_{t - 2} p_{t}\right), \tag {2.39}
 $$ because half of the economy's wages were set at time $t - 1$ and half at time $t - 2$.
 
 By substituting this into the supply expression for output and equating it to aggregate demand, one can show that the system reduces to:
 
-$$ p _ {t} = \frac {1 - \beta}{\beta^ {2}} \alpha + \frac {\beta - 1}{2 \beta} \left(E _ {t - 1} p _ {t} + E _ {t - 2} p _ {t}\right) + \frac {1}{\beta} \left(m _ {t} + v _ {t}\right) \tag {2.40}
+$$ p_{t} = \frac{1 - \beta}{\beta^{2}} \alpha + \frac{\beta - 1}{2 \beta} \left(E_{t - 1} p_{t} + E_{t - 2} p_{t}\right) + \frac{1}{\beta} \left(m_{t} + v_{t}\right) \tag {2.40}
 $$
 
 This is an expectational difference equation. As we did in the section on money and prices, let's try to solve it by recursive substitutionthat is, by taking expectations as of times $t - 1$ and $t - 2$, and plugging the results back into the initial equation. Solving for the two expectations yields:
 
 $$
-E _ {t - 1} p _ {t} = \frac {1 - \beta}{\beta^ {2}} \alpha + \frac {\beta - 1}{2 \beta} (E _ {t - 1} p _ {t} + E _ {t - 2} p _ {t}) + \frac {1}{\beta} E _ {t - 1} (m _ {t} + v _ {t}) \qquad (2.41)
+E_{t - 1} p_{t} = \frac{1 - \beta}{\beta^{2}} \alpha + \frac{\beta - 1}{2 \beta} (E_{t - 1} p_{t} + E_{t - 2} p_{t}) + \frac{1}{\beta} E_{t - 1} (m_{t} + v_{t}) \qquad (2.41)
 $$ and
 
 $$
 
-E _ {t - 2} p _ {t} = \frac {1 - \beta}{\beta^ {2}} \alpha + \frac {\beta - 1}{\beta} \left(E _ {t - 2} p _ {t}\right) + \frac {1}{\beta} E _ {t - 2} \left(m _ {t} + v _ {t}\right) \tag {2.42}
+E_{t - 2} p_{t} = \frac{1 - \beta}{\beta^{2}} \alpha + \frac{\beta - 1}{\beta} \left(E_{t - 2} p_{t}\right) + \frac{1}{\beta} E_{t - 2} \left(m_{t} + v_{t}\right) \tag {2.42}
 
 $$ where the second result has used the law of iterated expectations. We can see from this that the second expression can be solved for $E_{t - 2}p_t$, and then plugged into the first to solve for $E_{t - 1}p_t$. The results are:
 
 $$
-E _ {t - 2} p _ {t} = \frac {1 - \beta}{\beta} \alpha + E _ {t - 2} \left(m _ {t} + v _ {t}\right) \tag {2.43}
+E_{t - 2} p_{t} = \frac{1 - \beta}{\beta} \alpha + E_{t - 2} \left(m_{t} + v_{t}\right) \tag {2.43}
 $$ and:
 
 $$
 
-E _ {t - 1} p _ {t} = \frac {1 - \beta}{\beta} \alpha + \frac {\beta - 1}{1 + \beta} E _ {t - 2} \left(m _ {t} + v _ {t}\right) + \frac {2}{1 + \beta} E _ {t - 1} \left(m _ {t} + v _ {t}\right) \tag {2.44}
+E_{t - 1} p_{t} = \frac{1 - \beta}{\beta} \alpha + \frac{\beta - 1}{1 + \beta} E_{t - 2} \left(m_{t} + v_{t}\right) + \frac{2}{1 + \beta} E_{t - 1} \left(m_{t} + v_{t}\right) \tag {2.44}
 
 $$
 
 Substituting, this implies:
 
-$$ p _ {t} = \frac {1 - \beta}{\beta} \alpha + \frac {\beta - 1}{1 + \beta} E _ {t - 2} \left(m _ {t} + v _ {t}\right) + \frac {\beta - 1}{\beta (1 + \beta)} E _ {t - 1} \left(m _ {t} + v _ {t}\right) + \frac {1}{\beta} \left(m _ {t} + v _ {t}\right) \tag {2.45}
+$$ p_{t} = \frac{1 - \beta}{\beta} \alpha + \frac{\beta - 1}{1 + \beta} E_{t - 2} \left(m_{t} + v_{t}\right) + \frac{\beta - 1}{\beta (1 + \beta)} E_{t - 1} \left(m_{t} + v_{t}\right) + \frac{1}{\beta} \left(m_{t} + v_{t}\right) \tag {2.45}
 $$
 
 This expression gives the price level in terms of levels and expectations of exogenous variables. It is as far as we may go in solving for it, without specifying stochastic processes for $m_t$ and $v_t$.
 
 We can plug this back into aggregate demand, and show that output is the following:
 
-$$ y _ {t} = \frac {\beta - 1}{\beta} (\alpha + (m _ {t} + v _ {t}) - \frac {\beta - 1}{1 + \beta} E _ {t - 2} (m _ {t} + v _ {t}) - \frac {\beta}{\beta (1 + \beta)} E _ {t - 1} (m _ {t} + v _ {t})). \tag {2.46}
+$$ y_{t} = \frac{\beta - 1}{\beta} (\alpha + (m_{t} + v_{t}) - \frac{\beta - 1}{1 + \beta} E_{t - 2} (m_{t} + v_{t}) - \frac{\beta}{\beta (1 + \beta)} E_{t - 1} (m_{t} + v_{t})). \tag {2.46}
 $$
 
 Assume for simplicity that for all $s$, $E_{t - s}v_t = 0$, so that velocity is unpredictable.
 
 We can then rewrite the answer as:
 
-$$ y _ {t} = \frac {(\beta - 1) \alpha}{\beta} + \frac {(\beta - 1)}{\beta} \left(m _ {t} - E _ {t - 1} m _ {t}\right) + \frac {\beta - 1}{1 + \beta} \left(E _ {t - 1} m _ {t} - E _ {t - 2} m _ {t}\right) + \frac {\beta - 1}{\beta} v _ {t} \tag {2.47}
+$$ y_{t} = \frac{(\beta - 1) \alpha}{\beta} + \frac{(\beta - 1)}{\beta} \left(m_{t} - E_{t - 1} m_{t}\right) + \frac{\beta - 1}{1 + \beta} \left(E_{t - 1} m_{t} - E_{t - 2} m_{t}\right) + \frac{\beta - 1}{\beta} v_{t} \tag {2.47}
 $$
 
 Note that the first term here is like that of the Lucas model, again. But now we have the second term, which states that a fraction $\frac{\beta - 1}{1 + \beta}$ of changes in $m$ which become known at time $t - 1$ pass into output. In other words, expected money matters, and is passed into output.
@@ -1467,21 +1467,21 @@ The next model we will consider assumes that wages are not only set in advance f
 
 As before, assume that aggregate demand is determined by:
 
-$$ y _ {t} = m _ {t} - p _ {t} \tag {2.48}
+$$ y_{t} = m_{t} - p_{t} \tag {2.48}
 $$
 
 (where velocity is eliminated for simplicity).
 
 Also assume that:
 
-$$ p _ {t} = \frac {1}{2} \left(w _ {t} + w _ {t - 1}\right) \tag {2.49}
+$$ p_{t} = \frac{1}{2} \left(w_{t} + w_{t - 1}\right) \tag {2.49}
 $$
 
 This may be justified by looking at it as a markup equation. If production is CRS, marginal cost will be the wage. The wage at $t$ is the average of the two contracts in effect at $t$; that set at $t$, and that set at $t - 1$. The preceding equation then simply says that the markup of price over marginal cost is unity.
 
 Assume wages are set in the following manner:
 
-$$ w _ {t} = \frac {1}{2} \left(w _ {t - 1} + E _ {t} w _ {t + 1}\right) + \frac {a}{2} \left(y _ {t} + E _ {t} y _ {t + 1}\right) \tag {2.50}
+$$ w_{t} = \frac{1}{2} \left(w_{t - 1} + E_{t} w_{t + 1}\right) + \frac{a}{2} \left(y_{t} + E_{t} y_{t + 1}\right) \tag {2.50}
 $$
 
 The first term may be thought of as reflecting a desire by workers to have their wages be equal to those of the other workers in the economy. Over the two periods that this worker's contract is in effect, the other workers will be receiving $w_{t-1}$ and $E_t w_{t+1}$ respectively.
@@ -1490,12 +1490,12 @@ The second term reflects the fact that excess demand puts upward pressure on nom
 
 One can first substitute in the expression for prices into aggregate demand, and then substitute the aggregate demand expression into the wage-setting equation. This will yield the following expectational difference equation in wages and the money stock:
 
-$$ w _ {t} = \frac {2 - a}{2 (2 + a)} \left(w _ {t - 1} + E _ {t} w _ {t + 1}\right) + \frac {a}{2 + a} \left(m _ {t} + E _ {t} m _ {t + 1}\right) \tag {2.51}
+$$ w_{t} = \frac{2 - a}{2 (2 + a)} \left(w_{t - 1} + E_{t} w_{t + 1}\right) + \frac{a}{2 + a} \left(m_{t} + E_{t} m_{t + 1}\right) \tag {2.51}
 $$
 
 Define $A = \frac{2 - a}{2(2 + a)}$. Then the expression for $w_{t}$ is:
 
-$$ w _ {t} = A \left(w _ {t - 1} + E _ {t} w _ {t + 1}\right) + \frac {1 - 2 A}{2} \left(m _ {t} + E _ {t} m _ {t + 1}\right) \tag {2.52}
+$$ w_{t} = A \left(w_{t - 1} + E_{t} w_{t + 1}\right) + \frac{1 - 2 A}{2} \left(m_{t} + E_{t} m_{t + 1}\right) \tag {2.52}
 $$
 
 Recursive substitution will not be helpful in solving this problem (try it and seethe fact that this is a second-order difference equation makes it more difficult). We must thus turn to other methods. There are two commonly used methods:
@@ -1510,26 +1510,26 @@ Note that we can write $w_{t-1} = Lw_t$, and $LE_tw_{t+1} = E_tw_t = w_t$, which
 Given this, and letting $I$ denote the identity operator, we can factor the expression above as follows:
 
 $$
-(I - AL - AL ^ {- 1}) w _ {t} = \frac {1 - 2 A}{2} (I + L ^ {- 1}) m _ {t} \tag {2.53}
+(I - AL - AL^{- 1}) w_{t} = \frac{1 - 2 A}{2} (I + L^{- 1}) m_{t} \tag {2.53}
 $$
 
 The first parenthetical term is simply a polynomial in $\mathrm{L}$, which we may factor into:
 
 $$
-(I - \lambda L ^ {- 1}) (I - \lambda L) \frac {A}{\lambda} w _ {t} = \frac {1 - 2 A}{2} (I + L ^ {- 1}) m _ {t} \tag {2.54}
+(I - \lambda L^{- 1}) (I - \lambda L) \frac{A}{\lambda} w_{t} = \frac{1 - 2 A}{2} (I + L^{- 1}) m_{t} \tag {2.54}
 $$ where
 
 $$
 
-\lambda = \frac {1 + (1 - 4 A ^ {2}) ^ {. 5}}{2 A}, \tag {2.55}
+\lambda = \frac{1 + (1 - 4 A^{2})^{. 5}}{2 A}, \tag {2.55}
 
 $$ which is less than one. In order to solve this, we would like to get rid of the $E_{t}w_{t + 1}$ term. We see that we may do this by using the fact that:
 
 $$
-\frac {1}{I - \lambda L ^ {- 1}} = I + \lambda L ^ {- 1} + (\lambda L ^ {- 1}) ^ {2} + (\lambda L ^ {- 1}) ^ {3} + \dots \tag {2.56}
+\frac{1}{I - \lambda L^{- 1}} = I + \lambda L^{- 1} + (\lambda L^{- 1})^{2} + (\lambda L^{- 1})^{3} + \dots \tag {2.56}
 $$ and multiplying through on both sides. If we do so, we will see that we get the following expression:
 
-$$ w _ {t} = \lambda w _ {t - 1} + \frac {\lambda}{A} \frac {1 - 2 A}{2} (m _ {t} + (1 + \lambda) (E _ {t} m _ {t + 1} + \lambda E _ {t} m _ {t} + 2 + \lambda^ {2} E _ {t} m _ {t + 3} + \dots)) \tag {2.57}
+$$ w_{t} = \lambda w_{t - 1} + \frac{\lambda}{A} \frac{1 - 2 A}{2} (m_{t} + (1 + \lambda) (E_{t} m_{t + 1} + \lambda E_{t} m_{t} + 2 + \lambda^{2} E_{t} m_{t + 3} + \dots)) \tag {2.57}
 $$
 
 In words, the wage depends on the lagged wage on the expected future path of the money stock.
@@ -1538,7 +1538,7 @@ We could plug this into the expression for the price level and then into aggrega
 
 $m_{t} = m_{t - 1} + x_{t}$, where $x_{t}$ is serially uncorrelated. Then, $E_{t}m_{t + i} = m_{t}$. If we do this, and also set the supply shock $u_{t}$ equal to zero, we get:
 
-$$ y _ {t} = \lambda y _ {t - 1} + \frac {1 + \lambda}{2} x _ {t} \tag {2.58}
+$$ y_{t} = \lambda y_{t - 1} + \frac{1 + \lambda}{2} x_{t} \tag {2.58}
 $$
 
 (where the algebra may be obtained by looking at Romer, pp. 290-291).
@@ -1575,7 +1575,7 @@ If we let $P$ be the relative price of the consumption good, we may write the bu
 
 $$
 
-PC = L _ {0} - L + \Pi - T \tag {2.60}
+PC = L_{0} - L + \Pi - T \tag {2.60}
 
 $$
 
@@ -1583,7 +1583,7 @@ Cobb-Douglas utility implies that the solution to the consumer's maximization pr
 
 $$
 
-PC = \alpha \left(L _ {0} + \Pi - T\right) \tag {2.61}
+PC = \alpha \left(L_{0} + \Pi - T\right) \tag {2.61}
 
 $$
 
@@ -1597,7 +1597,7 @@ Total expenditure on the consumption good in this economy is then $Y = PC + G$, 
 
 $$
 
-Y = \alpha \left(L _ {0} + \Pi - T\right) + G \tag {2.62}
+Y = \alpha \left(L_{0} + \Pi - T\right) + G \tag {2.62}
 
 $$
 
@@ -1609,7 +1609,7 @@ Assume that firms have an IRS production function. They must pay a fixed cost $F
 
 $$
 
-TC = F + c Q _ {i} \tag {2.63}
+TC = F + c Q_{i} \tag {2.63}
 
 $$
 
@@ -1617,7 +1617,7 @@ Now assume that the market is imperfectly competitive. The firms play some game 
 
 $$
 
-\mu = \frac {P - c}{P} \tag {2.64}
+\mu = \frac{P - c}{P} \tag {2.64}
 
 $$
 
@@ -1635,7 +1635,7 @@ Our two equilibrium conditions are:
 
 $$
 
-Y = \alpha \left(L _ {0} + \Pi - T\right) + G \tag {2.66}
+Y = \alpha \left(L_{0} + \Pi - T\right) + G \tag {2.66}
 
 $$
 
@@ -1685,17 +1685,17 @@ We will assume that each consumer has a utility function
 
 $$
 
-U _ {i} = \left(\frac {C _ {i}}{g}\right) ^ {g} \left(\frac {\frac {M _ {i}}{P}}{1 - g}\right) ^ {1 - g} - \frac {1}{\gamma} L _ {i} ^ {\gamma} \tag {2.68}
+U_{i} = \left(\frac{C_{i}}{g}\right)^{g} \left(\frac{\frac{M_{i}}{P}}{1 - g}\right)^{1 - g} - \frac{1}{\gamma} L_{i}^{\gamma} \tag {2.68}
 
 $$ where $g$ is a constant, $M_{i}$ is individual money holdings and $C_{i}$ is the following index over all the consumption goods:
 
 $$
-C _ {i} = N ^ {\frac {1}{1 - \eta}} \left(\sum_ {j = 1} ^ {N} C _ {ji} ^ {\frac {\eta - 1}{\eta}}\right) ^ {\frac {\eta}{\eta - 1}} \tag {2.69}
+C_{i} = N^{\frac{1}{1 - \eta}} \left(\sum_{j = 1}^{N} C_{ji}^{\frac{\eta - 1}{\eta}}\right)^{\frac{\eta}{\eta - 1}} \tag {2.69}
 $$ and the price index is defined over the prices of the individual goods to be:
 
 $$
 
-P = \left(\frac {1}{N} \sum_ {i = 1} ^ {N} P _ {i} ^ {1 - \eta}\right) ^ {\frac {1}{1 - \eta}} \tag {2.70}
+P = \left(\frac{1}{N} \sum_{i = 1}^{N} P_{i}^{1 - \eta}\right)^{\frac{1}{1 - \eta}} \tag {2.70}
 
 $$
 
@@ -1707,14 +1707,14 @@ The consumer's nominal budget constraint is:
 
 $$
 
-\sum_ {j} P _ {j} C _ {ji} + M _ {i} = \Pi_ {i} + WL _ {i} + \bar {M} _ {i} \tag {2.71}
+\sum_{j} P_{j} C_{ji} + M_{i} = \Pi_{i} + WL_{i} + \bar {M}_{i} \tag {2.71}
 
 $$ where $\Pi_{i}$ is profits and $\bar{M}_i$ is individual initial money holdings.
 
 One can work out that the demand for each good by consumer $i$ is:
 
 $$
-C _ {ji} = \left(\frac {P _ {j}}{P}\right) ^ {- \eta} \left(\frac {g I _ {i}}{NP}\right) \tag {2.72}
+C_{ji} = \left(\frac{P_{j}}{P}\right)^{- \eta} \left(\frac{g I_{i}}{NP}\right) \tag {2.72}
 $$ where $I_{i} = \pi_{i} + wL_{i} + \bar{M}_{i}$. This comes from the fact that utility is Cobb-Douglas in $C$ and $M$, so that total nominal consumption is a constant fraction $g$ of income $I_{i}$.
 
 It follows that $C_i = g\frac{I_i}{P}$ and that $\frac{M_i}{P} = (1 - g)\frac{I_i}{P}$.
@@ -1723,7 +1723,7 @@ This implies that we can rewrite utility as:
 
 $$
 
-U _ {i} = \frac {I _ {i}}{P} - \frac {1}{\gamma} L _ {i} ^ {\gamma} \tag {2.73}
+U_{i} = \frac{I_{i}}{P} - \frac{1}{\gamma} L_{i}^{\gamma} \tag {2.73}
 
 $$
 
@@ -1733,7 +1733,7 @@ Now note that we can obtain the total level produced for an individual good by s
 
 $$
 
-Y _ {j} = \left(\frac {P _ {j}}{P}\right) ^ {- \eta} \frac {g}{N} \sum_ {i} \frac {I _ {i}}{P} \tag {2.74}
+Y_{j} = \left(\frac{P_{j}}{P}\right)^{- \eta} \frac{g}{N} \sum_{i} \frac{I_{i}}{P} \tag {2.74}
 
 $$
 
@@ -1741,7 +1741,7 @@ If we use the facts that $\frac{I_i}{P} = \frac{P_i}{P} Y_i + \frac{M_i}{P}$ and
 
 $$
 
-Y = \frac {g}{1 - g} \left(\frac {\bar {M}}{P}\right) \tag {2.75}
+Y = \frac{g}{1 - g} \left(\frac{\bar {M}}{P}\right) \tag {2.75}
 
 $$
 
@@ -1751,7 +1751,7 @@ We can use our expression for total real wealth, $\sum_{i}\frac{I_i}{P}$ to subs
 
 $$
 
-Y _ {i} = \left(\frac {P _ {i}}{P}\right) ^ {- \eta} \frac {Y}{N} \tag {2.76}
+Y_{i} = \left(\frac{P_{i}}{P}\right)^{- \eta} \frac{Y}{N} \tag {2.76}
 
 $$
 
@@ -1759,7 +1759,7 @@ Substitute this back into the utility function, to obtain the following:
 
 $$
 
-U _ {i} = \left(\frac {P _ {i}}{P} - \frac {W}{P}\right) \left(\frac {P _ {i}}{P}\right) ^ {- \eta} \frac {Y}{N} + \frac {W}{P} L _ {i} - \frac {1}{\gamma} L _ {i} ^ {\gamma} \tag {2.77}
+U_{i} = \left(\frac{P_{i}}{P} - \frac{W}{P}\right) \left(\frac{P_{i}}{P}\right)^{- \eta} \frac{Y}{N} + \frac{W}{P} L_{i} - \frac{1}{\gamma} L_{i}^{\gamma} \tag {2.77}
 
 $$
 
@@ -1769,7 +1769,7 @@ First, for $P_{i}$:
 
 $$
 
-\frac {P _ {i}}{P} = \frac {\eta}{\eta - 1} \frac {W}{P} \tag {2.78}
+\frac{P_{i}}{P} = \frac{\eta}{\eta - 1} \frac{W}{P} \tag {2.78}
 
 $$
 
@@ -1779,7 +1779,7 @@ The second condition is:
 
 $$
 
-\frac {W}{P} = L _ {i} ^ {\gamma - 1} \tag {2.79}
+\frac{W}{P} = L_{i}^{\gamma - 1} \tag {2.79}
 
 $$
 
@@ -1787,13 +1787,13 @@ To see the full import of the last equation, let's note that the symmetry of the
 
 $$
 
-\frac {Y}{N} = \left(\frac {\eta - 1}{\eta}\right) ^ {\frac {1}{\gamma - 1}} \tag {2.80}
+\frac{Y}{N} = \left(\frac{\eta - 1}{\eta}\right)^{\frac{1}{\gamma - 1}} \tag {2.80}
 
 $$ and:
 
 $$
 
-P = \frac {g}{1 - g} \frac {\bar {M}}{Y} \tag {2.81}
+P = \frac{g}{1 - g} \frac{\bar {M}}{Y} \tag {2.81}
 
 $$
 
@@ -1814,10 +1814,10 @@ Because all firms are better off under the first equilibrium, that equilibrium i
 
 Let's think about dynamic versions of these models. In logs, we can write individual demand functions, which is what these monopolistically competitive firms care about, as:
 
-$$ y _ {i}
+$$ y_{i}
 (t) = m
 (t) - p
-(t) - \eta \left(p _ {i}
+(t) - \eta \left(p_{i}
 (t) - p
 (t) \right) \tag {2.82}
 $$
@@ -1863,31 +1863,31 @@ This is a very active and large area of research. Among the topics within it:
 
 1. Suppose the economy is described by the following aggregate demand and supply curves:
 
-$$ y _ {t} = m _ {t} - p _ {t} + v _ {t} \tag {2.83}
+$$ y_{t} = m_{t} - p_{t} + v_{t} \tag {2.83}
 $$
 
-$$ y _ {t} = \alpha \left(p _ {t} - E _ {t - 1} p _ {t}\right) + \epsilon_ {t} \tag {2.84}
+$$ y_{t} = \alpha \left(p_{t} - E_{t - 1} p_{t}\right) + \epsilon_{t} \tag {2.84}
 $$ where $v_{t}$ and $\epsilon_{t}$ are iid disturbances. Suppose that private agents are misinformed, and believe that the economy is described by the same aggregate demand curve as above, but the following aggregate supply curve:
 
-$$ y _ {t} = \beta \left(p _ {t} - E _ {t - 1} p _ {t}\right) + \epsilon_ {t} \tag {2.85}
+$$ y_{t} = \beta \left(p_{t} - E_{t - 1} p_{t}\right) + \epsilon_{t} \tag {2.85}
 $$ where $\beta \neq \alpha$
 
 (a) Will this ignorance lead to any real effects of anticipated money under any of the following monetary policies? (Where relevant, assume the central bank knows the true aggregate supply curve, but people believe the other aggregate supply curve).
 
-$$ m _ {t} = \bar {m} + u _ {t} \tag {2.86}
+$$ m_{t} = \bar {m} + u_{t} \tag {2.86}
 $$
 
-$$ m _ {t} = \rho m _ {t - 1} + u _ {t} \tag {2.87}
+$$ m_{t} = \rho m_{t - 1} + u_{t} \tag {2.87}
 $$
 
-$$ m _ {t} = - cy _ {t - 1} + u _ {t} \tag {2.88}
+$$ m_{t} = - cy_{t - 1} + u_{t} \tag {2.88}
 $$
 
 Here, $u_{t}$ is a random error, and $0 < \rho < 1$.
 
 (b) Now suppose agents make a different mistake. They think the supply function is:
 
-$$ y _ {t} = \alpha \left(p _ {t} - E _ {t - 2} p _ {t}\right) + \epsilon_ {t} \tag {2.89}
+$$ y_{t} = \alpha \left(p_{t} - E_{t - 2} p_{t}\right) + \epsilon_{t} \tag {2.89}
 $$
 
 Answer the same question as in
@@ -1935,7 +1935,7 @@ For each of the two shocks, state whether the real wage and labor are procyclica
 4. Consider a firm with the following loss function:
 
 $$
-\Pi \left(p _ {i}, p, m\right) = - \gamma \left(p _ {i} - p - \alpha (m - p)\right) ^ {2}, \tag {2.90}
+\Pi \left(p_{i}, p, m\right) = - \gamma \left(p_{i} - p - \alpha (m - p)\right)^{2}, \tag {2.90}
 $$ where $P_{i}$ is the firm's nominal price, $p$ is a price index, $m$ is the money supply and $\gamma$ and $\alpha$ are positive constants. All variables are in logs. Suppose that initially $P_{i} = p = m = 0$.
 
 (a) Suppose the firm incurs a fixed cost $\beta$ each time it alters its nominal price. Characterize the optimal policy in the face of a once and for all change in $m$ given that the price index remains constant and that the firm discounts future losses at rate $r$. How does this policy depend on the curvature of the loss function $(\gamma)$ and the discount rate $(r)$?
@@ -1971,7 +1971,7 @@ Now assume that the nominal wage is permanently fixed at $W = \bar{W}$. In solvi
 
 6. Consider the following dynamic, perfect-foresight version of the IS-LM model:
 
-$$ r = R - \frac {\dot {R}}{\rho} \tag {2.91}
+$$ r = R - \frac{\dot {R}}{\rho} \tag {2.91}
 $$
 
 $$ r = \alpha y - \beta m \tag {2.92}
@@ -1994,13 +1994,13 @@ $$ where $R$ is the long-term interest rate, $r$ is the short-term interest rate
 
 $$
 
-\frac {\dot {q}}{q} + \frac {\pi}{q} = r \tag {2.95}
+\frac{\dot {q}}{q} + \frac{\pi}{q} = r \tag {2.95}
 
 $$
 
 $$
 
-\pi = \alpha_ {0} + \alpha_ {1} y \tag {2.96}
+\pi = \alpha_{0} + \alpha_{1} y \tag {2.96}
 
 $$
 
@@ -2046,7 +2046,7 @@ The traditional case for rules has focused on the uncertainty associated with ec
 
 Suppose there is some variable $X_{t}$ which the policymaker wishes to stabilize. Let $Z_{t}$ denote the behavior of that variable when economic policy is applied, and let $Y_{t}$ be the effects of the policy on the variable. Then $Z_{t} = X_{t} + Y_{t}$, or the behavior of the variable under policy = the behavior without policy + the effects of the policy. Stabilization policy will only be effective when $\sigma_z^2 < \sigma_x^2$, or the variance of the variable under policy is lower than the variance without policy. From the definitions of $X, Y$ and $Z$ we see that $\sigma_z^2 = \sigma_x^2 + \sigma_y^2 + 2r_{xy}\sigma_x\sigma_y$, where $r_{xy}$ is the correlation between $x$ and $y$. Hence policy is only stabilizing if
 
-$$ r _ {xy} < - \frac {1}{2} \frac {\sigma_ {y}}{\sigma_ {x}} \tag {3.1}
+$$ r_{xy} < - \frac{1}{2} \frac{\sigma_{y}}{\sigma_{x}} \tag {3.1}
 $$
 
 First, note that this implies that policy must be countercyclical. Second, note that the requirements this condition places on policy may be hard to fulfill in practice. If the standard deviation of the effects of the policy is equal to the standard deviation of the policy variable itself, then the policy must go in the right direction at least half of the time (i.e. the correlation must be between -0.5 and -1). The presence of lags may result in policymakers stimulating the economy as a recovery is already beginning or dampening it as it reaches its peak.
@@ -2055,28 +2055,28 @@ Note that this condition is more easily met the smaller the effects of policy on
 
 The following example makes the same point in the context of a model in which the effects of monetary policy on the economy aren't known with certainty. Suppose that it is known that output $y$ and money $m$ have the following relationship:
 
-$$ y _ {t} = a
-(L) y _ {t - 1} + b
-(L) m _ {t} + \epsilon_ {t}, \tag {3.2}
+$$ y_{t} = a
+(L) y_{t - 1} + b
+(L) m_{t} + \epsilon_{t}, \tag {3.2}
 $$ where $\epsilon_{t}$ is iid, and $a(L)$ and $b(L)$ are both lag polynomials. Suppose that policy (i.e. $m_{t}$ ) must be set before $\epsilon_{t}$ is observed, and the goal is to minimize the variance of $y$.
 
 The optimal variance-minimizing policy is, assuming $a(L)$ and $b(L)$ are known:
 
-$$ m _ {t} = - b
-(L) ^ {- 1} a
-(L) y _ {t - 1}, \tag {3.3}
+$$ m_{t} = - b
+(L)^{- 1} a
+(L) y_{t - 1}, \tag {3.3}
 $$ which implies $y_{t} = \epsilon_{t}$. Thus monetary policy removes all persistence in output. This may be viewed as a somewhat complicated monetary-policy rule. It is also a discretionary outcome, since it is what would be chosen if there were reoptimization each period.
 
 This may have some undesirable consequences. First, suppose that $a(L) = a_0$ and $b(L) = b_0 + b_1L$. Then the optimal policy is to set $m_t = -\frac{b_1}{b_0} m_{t-1} - \frac{a_0}{b_0} y_{t-1}$. If $b_1 > b_0$, we have an unstable difference equation- $m_t$ will be increasing in absolute value at an explosive rate. Policy each period will become larger and larger, as at each period a "correction" is applied to last period's policy.
 
 This may not be problematic if $a(L)$ and $b(L)$ are known with certainty. If they are not known, however, the overcorrections may well end up destabilizing output by causing larger and larger swings. To see this, suppose that the Fed follows the monetary rule given above, but the true behavior of output is given by:
 
-$$ y _ {t} = a _ {0} y _ {t - 1} + b _ {0} m _ {t} + (b _ {1} + v) m _ {t - 1} + \epsilon_ {t}, \tag {3.4}
+$$ y_{t} = a_{0} y_{t - 1} + b_{0} m_{t} + (b_{1} + v) m_{t - 1} + \epsilon_{t}, \tag {3.4}
 $$ where $v$ is some constant.
 
 The resulting equation for output is:
 
-$$ y _ {t} = vm _ {t - 1} + \epsilon_ {t} \tag {3.5}
+$$ y_{t} = vm_{t - 1} + \epsilon_{t} \tag {3.5}
 $$
 
 Note that under the assumptions above, $m_t$ is nonstationary, and is in fact explosive: the growth rate of $m_t$, $m_t - m_{t-1}$, is growing.
@@ -2085,7 +2085,7 @@ Hence the variance of $y_{t}$, which is equal to $v^{2}\text{var}(m_{t - 1}) + \
 
 Now consider the policy of just setting $m_t = \bar{m}$ for all $t$. Then,
 
-$$ y _ {t} = a _ {0} y _ {t - 1} + b _ {0} \bar {m} + (b _ {1} + v) \bar {m} + \epsilon_ {t}, \tag {3.6}
+$$ y_{t} = a_{0} y_{t - 1} + b_{0} \bar {m} + (b_{1} + v) \bar {m} + \epsilon_{t}, \tag {3.6}
 $$ so that $var(y_{t}) = \frac{1}{1 - a_{0}^{2}} var(\epsilon)$.
 
 This variance will be smaller than the variance of the 'optimal policy' for some values of $t$. Thus having a passive policy of setting the money stock to a constant may in fact be more stabilizing than the optimal policy in the presence of parameter uncertainty.
@@ -2116,7 +2116,7 @@ In the second period, some level of government spending may be provided, which c
 
 Utility is:
 
-$$ u \left(c _ {1}, c _ {2}, n _ {2}, g _ {2}\right) = \ln c _ {1} + \delta \left(\ln c _ {2} + \alpha \ln (\bar {n} - n _ {2}) + \beta \ln g _ {2}\right) \tag {3.7}
+$$ u \left(c_{1}, c_{2}, n_{2}, g_{2}\right) = \ln c_{1} + \delta \left(\ln c_{2} + \alpha \ln (\bar {n} - n_{2}) + \beta \ln g_{2}\right) \tag {3.7}
 $$
 
 We will consider four ways in which this level of government spending may be provided. We will assume throughout that it is the goal of the government to maximize the representative consumer's utility.
@@ -2125,25 +2125,25 @@ We will consider four ways in which this level of government spending may be pro
 
 In this method, we will assume that the government can directly control the amount of capital accumulated and labor supplied. The aggregate resource constraints the economy faces are:
 
-$$ c _ {1} + k _ {2} \leq k _ {1} r \tag {3.8}
+$$ c_{1} + k_{2} \leq k_{1} r \tag {3.8}
 $$
 
-$$ c _ {2} + g _ {2} \leq k _ {2} r + n _ {2} a \tag {3.9}
+$$ c_{2} + g_{2} \leq k_{2} r + n_{2} a \tag {3.9}
 $$
 
 We get the following utility-maximizing solution, which is presented so that subsequent solutions may be contrasted with it:
 
-$$ c _ {1} = \frac {rk _ {1} + a \frac {\bar {n}}{r}}{1 + \delta (1 + \alpha + \beta)} \tag {3.10}
+$$ c_{1} = \frac{rk_{1} + a \frac{\bar {n}}{r}}{1 + \delta (1 + \alpha + \beta)} \tag {3.10}
 $$
 
-$$ c _ {2} = c _ {1} \delta r \tag {3.11}
+$$ c_{2} = c_{1} \delta r \tag {3.11}
 $$
 
 $$
-\bar {n} - n _ {2} = c _ {2} \frac {\alpha}{a} \tag {3.12}
+\bar {n} - n_{2} = c_{2} \frac{\alpha}{a} \tag {3.12}
 $$
 
-$$ g _ {2} = c _ {2} \beta \tag {3.13}
+$$ g_{2} = c_{2} \beta \tag {3.13}
 $$
 
 Note that the intraand intertemporal optimality conditions for the choice of labor supply and consumption (the middle two equations) are exactly the same as they would be in the absence of government spending. Thus, the government spending is provided without any distortion, in effect from a lump-sum tax on first-period consumption.
@@ -2156,28 +2156,28 @@ Assume for now that the government can precommit to its tax policies. That is, i
 
 2. Then we can consider the problem as follows: Consumers maximize their utility subject to the budget constraints
 
-$$ c _ {1} + k _ {2} \leq k _ {1} r \tag {3.14}
+$$ c_{1} + k_{2} \leq k_{1} r \tag {3.14}
 $$
 
-$$ c _ {2} \leq k _ {2} r _ {2} ^ {e} + n _ {2} a \left(1 - \tau_ {2} ^ {e}\right), \tag {3.15}
+$$ c_{2} \leq k_{2} r_{2}^{e} + n_{2} a \left(1 - \tau_{2}^{e}\right), \tag {3.15}
 $$ where the $e$ superscripts denote expected variables.
 
 The solution for this is:
 
-$$ c _ {1} = \frac {k _ {1} r + a \frac {\bar {n}}{r _ {2} ^ {e}} \left(1 - \tau_ {2} ^ {e}\right)}{1 + \delta (1 + \alpha)} \tag {3.16}
+$$ c_{1} = \frac{k_{1} r + a \frac{\bar {n}}{r_{2}^{e}} \left(1 - \tau_{2}^{e}\right)}{1 + \delta (1 + \alpha)} \tag {3.16}
 $$
 
-$$ c _ {2} = \delta r _ {2} ^ {e} c _ {1} \tag {3.17}
+$$ c_{2} = \delta r_{2}^{e} c_{1} \tag {3.17}
 $$
 
-$$ n _ {2} = \bar {n} - c _ {2} \frac {\alpha}{a \left(1 - \tau_ {2} ^ {e}\right)} \tag {3.18}
+$$ n_{2} = \bar {n} - c_{2} \frac{\alpha}{a \left(1 - \tau_{2}^{e}\right)} \tag {3.18}
 $$
 
 Note that both taxes introduce distortions. The capital tax distorts the tradeoff between first and second period consumption. The labor tax distorts the tradeoff between consumption and leisure in the second period as well as reducing the level of first and second period consumption. The labor tax is thus more distortionary.
 
 The government takes these decisions as given, and maximizes the consumer's utility (or, strictly speaking, indirect utility where we have inserted the solutions to the consumer's problem into the utility function) subject to the government budget constraint:
 
-$$ g _ {2} = k _ {2} \left(r - r _ {2}\right) + n _ {2} a \tau_ {2} \tag {3.19}
+$$ g_{2} = k_{2} \left(r - r_{2}\right) + n_{2} a \tau_{2} \tag {3.19}
 $$
 
 From this, one can derive an optimal level of taxes on labor and capital income, and can show that the level of government spending provided is $g_{2} = c_{2}\beta$. In principle, ex post the government might have liked to have simply used the capital tax, since the labor tax is more distortionary.
@@ -2193,19 +2193,19 @@ To think about both cases, let us consider the problems of the consumer and gove
 The consumer chooses $c_{2}$ and $n_{2}$ to maximize second-period utility:
 
 $$
-\ln c _ {2} + \alpha \ln (\bar {n} - n _ {2}) + \beta \ln g _ {2} \tag {3.20}
+\ln c_{2} + \alpha \ln (\bar {n} - n_{2}) + \beta \ln g_{2} \tag {3.20}
 $$ subject to the second period budget constraint:
 
-$$ c _ {2} \leq k _ {2} r _ {2} + n _ {2} a (1 - \tau_ {2}) \tag {3.21}
+$$ c_{2} \leq k_{2} r_{2} + n_{2} a (1 - \tau_{2}) \tag {3.21}
 $$
 
 The implied solution is:
 
-$$ c _ {2} = \frac {k _ {2} r _ {2} + \bar {n} a (1 - \tau_ {2})}{1 + \alpha} \tag {3.22}
+$$ c_{2} = \frac{k_{2} r_{2} + \bar {n} a (1 - \tau_{2})}{1 + \alpha} \tag {3.22}
 $$
 
 $$
-\bar {n} - n _ {2} = c _ {2} \frac {\alpha}{a (1 - \tau_ {2})} \tag {3.23}
+\bar {n} - n_{2} = c_{2} \frac{\alpha}{a (1 - \tau_{2})} \tag {3.23}
 $$
 
 The government also maximizes second period
@@ -2242,20 +2242,20 @@ There are many examples of policies which involve time-inconsistency issues. Pat
 
 Suppose aggregate supply is determined by the following Lucas-style supply curve:
 
-$$ y = \bar {y} + b (\pi - \pi^ {e}) \tag {3.24}
+$$ y = \bar {y} + b (\pi - \pi^{e}) \tag {3.24}
 $$
 
 To think about policy, we will need to specify society's preferences over inflation and output. We will not derive this explicitly from utility, but simply make the assumption that society has the following quadratic loss function:
 
 $$
-L = \frac {1}{2} (y - k \bar {y}) ^ {2} + \frac {1}{2} a (\pi - \pi^ {*}) ^ {2}, \tag {3.25}
+L = \frac{1}{2} (y - k \bar {y})^{2} + \frac{1}{2} a (\pi - \pi^{*})^{2}, \tag {3.25}
 $$ where $k > 1$. Thus, society has some optimal level of inflation $\pi^{*}$, which one might derive from optimal tax considerations (i.e. through seigniorage); this may be set to zero without loss of generality. We will also assume that society desires a level of output which is above the natural rate $\bar{y}$. This assumption is crucial to the model, as we will see below. It may be justified by assuming that tax distortions or imperfect competition make output too low, or one may believe that the natural rate of unemployment is too high. The monetary authority therefore has an incentive to try to generate unexpected inflation to raise output above the natural rate.
 
 Using the Phillips curve to substitute for $y$, we may rewrite the loss function as:
 
 $$
 
-\frac {1}{2} \left((1 - k) \bar {y} + b \left(\pi - \pi^ {e}\right)\right) ^ {2} + \frac {1}{2} a \left(\pi - \pi^ {*}\right) ^ {2} \tag {3.26}
+\frac{1}{2} \left((1 - k) \bar {y} + b \left(\pi - \pi^{e}\right)\right)^{2} + \frac{1}{2} a \left(\pi - \pi^{*}\right)^{2} \tag {3.26}
 
 $$
 
@@ -2269,7 +2269,7 @@ Taking the first-order condition for the above loss function implies:
 
 $$
 
-\pi = \frac {b ^ {2}}{a + b ^ {2}} \pi^ {e} + \frac {b}{a + b ^ {2}} (k - 1) \bar {y} + \frac {a}{a + b ^ {2}} \pi^ {*} \tag {3.27}
+\pi = \frac{b^{2}}{a + b^{2}} \pi^{e} + \frac{b}{a + b^{2}} (k - 1) \bar {y} + \frac{a}{a + b^{2}} \pi^{*} \tag {3.27}
 
 $$
 
@@ -2277,7 +2277,7 @@ In a rational expectations equilibrium, $\pi = \pi^{e}$, i.e. actual and expecte
 
 $$
 
-\pi = \pi^ {*} + \frac {b}{a} (k - 1) \bar {y} \tag {3.28}
+\pi = \pi^{*} + \frac{b}{a} (k - 1) \bar {y} \tag {3.28}
 
 $$
 
@@ -2296,7 +2296,7 @@ Suppose the loss function for society is:
 
 $$
 
-L = \frac {1}{2} (y - k \bar {y}) ^ {2} + \frac {1}{2} a _ {1} (\pi - \pi^ {*}) ^ {2} \tag {3.29}
+L = \frac{1}{2} (y - k \bar {y})^{2} + \frac{1}{2} a_{1} (\pi - \pi^{*})^{2} \tag {3.29}
 
 $$
 
@@ -2304,7 +2304,7 @@ Now suppose the central banker has the loss function
 
 $$
 
-L = \frac {1}{2} (y - k \bar {y}) ^ {2} + \frac {1}{2} a _ {2} (\pi - \pi^ {*}) ^ {2} \tag {3.30}
+L = \frac{1}{2} (y - k \bar {y})^{2} + \frac{1}{2} a_{2} (\pi - \pi^{*})^{2} \tag {3.30}
 
 $$ and we have the same Phillips curve as before.
 
@@ -2312,13 +2312,13 @@ Under the no precommitment solution, our solution to the level of inflation now 
 
 $$
 
-\pi = \pi^ {*} + \frac {b}{a _ {2}} (k - 1) \bar {y} \tag {3.31}
+\pi = \pi^{*} + \frac{b}{a_{2}} (k - 1) \bar {y} \tag {3.31}
 
 $$ whereas the solution if the central banker has society's preferences would be:
 
 $$
 
-\pi = \pi^ {*} + \frac {b}{a _ {1}} (k - 1) \bar {y} \tag {3.32}
+\pi = \pi^{*} + \frac{b}{a_{1}} (k - 1) \bar {y} \tag {3.32}
 
 $$
 
@@ -2336,7 +2336,7 @@ For simplicity, let us work with a social welfare function rather than a loss fu
 
 $$
 
-W _ {t} = \left(y _ {t} - \bar {y}\right) - \frac {1}{2} a \pi_ {t} ^ {2}. \tag {3.33}
+W_{t} = \left(y_{t} - \bar {y}\right) - \frac{1}{2} a \pi_{t}^{2}. \tag {3.33}
 
 $$
 
@@ -2344,7 +2344,7 @@ Note that this still implies that output above the natural rate is desirable, wh
 
 This equals, after substituting our usual Phillips curve,
 
-$$ b \left(\pi_ {t} - \pi_ {t} ^ {e}\right) - \frac {1}{2} a \pi_ {t} ^ {2} \tag {3.34}
+$$ b \left(\pi_{t} - \pi_{t}^{e}\right) - \frac{1}{2} a \pi_{t}^{2} \tag {3.34}
 $$
 
 Assume the discount rate for society is $\beta$, so that the goal is to maximize $W = W_{1} + \beta W_{2}$.
@@ -2368,7 +2368,7 @@ Note that the Type 2 central banker never has an incentive to pretend to be a Ty
 Given this, the value of his objective function for the two periods is:
 
 $$
-W _ {INF} = \left[ b \left(\frac {b}{a} - \pi_ {1} ^ {e}\right) - \frac {1}{2} a \left(\frac {b}{a}\right) ^ {2} \right] - \beta \frac {1}{2} a \left(\frac {b}{a}\right) ^ {2} \tag {3.35}
+W_{INF} = \left[ b \left(\frac{b}{a} - \pi_{1}^{e}\right) - \frac{1}{2} a \left(\frac{b}{a}\right)^{2} \right] - \beta \frac{1}{2} a \left(\frac{b}{a}\right)^{2} \tag {3.35}
 $$
 
 The other possibility is to choose $\pi = 0$. The two possible classes of solution for this game-theoretic model would be for him to play either $\pi_1 = 0$ or $\pi_1 = \frac{b}{a}$ with certainty, or for him to randomize between the two outcomes. The randomization case is the more general one, so we will examine that one.
@@ -2378,12 +2378,12 @@ Let $q$ be the probability that the Type 1 central banker sets $\pi_1 = 0$. Supp
 2. Recall that the prior probability of being a Type 1 central banker was $p$. We can work out the posterior probability by Bayes' Rule:
 
 $$
-P (T ype 1 \mid \pi = 0) = \frac {P (\pi = 0 \mid T ype 1) P (T ype 1)}{P (\pi = 0 \mid T ype 1) P (T ype 1) + P (\pi = 0 \mid T ype 2) P (T ype 2)} \tag {3.36}
+P (T ype 1 \mid \pi = 0) = \frac{P (\pi = 0 \mid T ype 1) P (T ype 1)}{P (\pi = 0 \mid T ype 1) P (T ype 1) + P (\pi = 0 \mid T ype 2) P (T ype 2)} \tag {3.36}
 $$ which implies:
 
 $$
 
-P (T ype 1 \mid \pi = 0) = \frac {qp}{qp + (1 - p)} \tag {3.37}
+P (T ype 1 \mid \pi = 0) = \frac{qp}{qp + (1 - p)} \tag {3.37}
 
 $$
 
@@ -2393,7 +2393,7 @@ Expected inflation in period two is then $\pi_2^e = P(Type1|\pi = 0)\frac{b}{a} 
 
 $$
 
-\pi_ {2} ^ {e} = \frac {pq}{(1 - p) + pq} \frac {b}{a} < \frac {b}{a} \tag {3.38}
+\pi_{2}^{e} = \frac{pq}{(1 - p) + pq} \frac{b}{a} < \frac{b}{a} \tag {3.38}
 
 $$
 
@@ -2401,9 +2401,9 @@ We can then rewrite the objective function in the case when the central banker r
 
 $$
 
-W _ {0}
+W_{0}
 
-(q) = b \left(- \pi_ {1} ^ {e}\right) + \beta \left[ b \left(\frac {b}{a} - \frac {pq}{1 - p + pq} \frac {b}{a}\right) - \frac {1}{2} a \left(\frac {b}{a}\right) ^ {2} \right] \tag {3.39}
+(q) = b \left(- \pi_{1}^{e}\right) + \beta \left[ b \left(\frac{b}{a} - \frac{pq}{1 - p + pq} \frac{b}{a}\right) - \frac{1}{2} a \left(\frac{b}{a}\right)^{2} \right] \tag {3.39}
 
 $$
 
@@ -2411,7 +2411,7 @@ This simplifies to:
 
 $$
 
-\frac {b ^ {2}}{a} \beta \left[ \frac {1}{2} - \frac {pq}{1 - p + pq} \right] - b \pi_ {1} ^ {e} \tag {3.40}
+\frac{b^{2}}{a} \beta \left[ \frac{1}{2} - \frac{pq}{1 - p + pq} \right] - b \pi_{1}^{e} \tag {3.40}
 
 $$
 
@@ -2437,32 +2437,32 @@ Lucas observed that it was in general unwise to believe that the parameters in t
 
 Suppose that the following AS and AD equations describe the economy:
 
-$$ y _ {t} = \alpha \left(p _ {t} - E _ {t - 1} p _ {t}\right) \tag {3.41}
+$$ y_{t} = \alpha \left(p_{t} - E_{t - 1} p_{t}\right) \tag {3.41}
 $$
 
-$$ y _ {t} = m _ {t} - p _ {t} \tag {3.42}
+$$ y_{t} = m_{t} - p_{t} \tag {3.42}
 $$
 
 Suppose that the Fed's monetary policy is initially
 
-$$ m _ {t} = \mu_ {1} + m _ {t - 1} + \epsilon_ {t} \tag {3.43}
+$$ m_{t} = \mu_{1} + m_{t - 1} + \epsilon_{t} \tag {3.43}
 $$ where $\epsilon_{t}$ is an iid shock reflecting the Fed's inability to completely control the money supply.
 
 By substitution, we can easily show that:
 
-$$ y _ {t} = \frac {\alpha}{1 + \alpha} \left(m _ {t} - E _ {t - 1} m _ {t}\right) \tag {3.44}
+$$ y_{t} = \frac{\alpha}{1 + \alpha} \left(m_{t} - E_{t - 1} m_{t}\right) \tag {3.44}
 $$
 
 Using the stochastic process above, we can show that $m_{t} - E_{t-1}m_{t} = (m_{t} - m_{t-1}) - \mu_{1}$, and hence that the relationship between output and observed money is:
 
-$$ y _ {t} = \frac {\alpha}{1 + \alpha} \left(m _ {t} - m _ {t - 1}\right) - \frac {\alpha}{1 + \alpha} \mu_ {1} \tag {3.45}
+$$ y_{t} = \frac{\alpha}{1 + \alpha} \left(m_{t} - m_{t - 1}\right) - \frac{\alpha}{1 + \alpha} \mu_{1} \tag {3.45}
 $$
 
 In other words, the following graph (Figure 3.2).
 
 Suppose the Fed doesn't know that the economy is described by the Lucas supply curve, but just estimates the relationship between output and money growth from the above equation. There appears to be a stable relationship between output and money growth; this would lead one to believe that increasing the rate of money growth would lead to higher output. But note that if the Fed attempts to exploit this, by for example setting $m_{t} = \mu_{2} + m_{t - 1} + \epsilon_{t}$, where $\mu_{2} > \mu_{1}$, what will happen is that the relationship between money and output will change to:
 
-$$ y _ {t} = \frac {\alpha}{1 + \alpha} \left(m _ {t} - m _ {t - 1}\right) - \frac {\alpha}{1 + \alpha} \mu_ {2} \tag {3.46}
+$$ y_{t} = \frac{\alpha}{1 + \alpha} \left(m_{t} - m_{t - 1}\right) - \frac{\alpha}{1 + \alpha} \mu_{2} \tag {3.46}
 $$
 
 In other words, the intercept will shift, and you won't in fact get any more output (Figure 3.3).
@@ -2488,7 +2488,7 @@ These links arise from a consideration of the government budget constraint. The 
 If we let $D$ denote the stock of government debt, the flow budget constraint can be written as:
 
 $$
-\dot {D} = r D + G - T - \frac {\dot {M}}{P} \tag {3.47}
+\dot {D} = r D + G - T - \frac{\dot {M}}{P} \tag {3.47}
 $$
 
 In words, this says that the budget deficit is equal to expenditures (government purchases + interest on the debt) less revenues (taxes + seigniorage).
@@ -2498,12 +2498,12 @@ Suppose the government at some point wants to maintain a stock of debt which is 
 We can show that:
 
 $$
-\left(\frac {\dot {D}}{Y}\right) = (r - \gamma) \frac {D}{Y} + \frac {G - T - \frac {\dot {M}}{P}}{Y} \tag {3.48}
+\left(\frac{\dot {D}}{Y}\right) = (r - \gamma) \frac{D}{Y} + \frac{G - T - \frac{\dot {M}}{P}}{Y} \tag {3.48}
 $$ where $\gamma = \frac{\dot{Y}}{Y}$. Hence a constant debt-GDP ratio implies that $\left(\frac{\dot{D}}{Y}\right) = 0$, or:
 
 $$
 
-D = \frac {G - T - \frac {\dot {M}}{P}}{\gamma - r} \tag {3.49}
+D = \frac{G - T - \frac{\dot {M}}{P}}{\gamma - r} \tag {3.49}
 
 $$
 
@@ -2535,7 +2535,7 @@ Suppose we are in an economy in which aggregate supply is described by the follo
 
 $$
 
-\pi_ {t} = \phi \pi_ {t} ^ {e} + (1 - \phi) \pi_ {t - 1} + \alpha \left(y _ {t} - \bar {y} _ {t}\right) \tag {3.50}
+\pi_{t} = \phi \pi_{t}^{e} + (1 - \phi) \pi_{t - 1} + \alpha \left(y_{t} - \bar {y}_{t}\right) \tag {3.50}
 
 $$
 
@@ -2545,7 +2545,7 @@ The Central Bank's loss function over output and inflation is:
 
 $$
 
-L _ {t} = a \pi_ {t} ^ {2} + \left(y _ {t} - k \bar {y} _ {t}\right) ^ {2}, \tag {3.51}
+L_{t} = a \pi_{t}^{2} + \left(y_{t} - k \bar {y}_{t}\right)^{2}, \tag {3.51}
 
 $$ where $k > 1$
 
@@ -2588,7 +2588,7 @@ $$
 $$ m - p = fy - hi \tag {3.53}
 $$
 
-$$ y - \bar {y} = b \left(p - p ^ {e}\right), \tag {3.54}
+$$ y - \bar {y} = b \left(p - p^{e}\right), \tag {3.54}
 $$ where $m$ denotes the
 (log) nominal money stock, $g$ denotes
 (log) government purchases, $i$ the nominal interest rate and $p^e$ denotes the expected price level. Assume expectations are formed rationally
@@ -2597,7 +2597,7 @@ Suppose the government has the following quadratic loss function over output and
 
 $$
 
-L = \frac {1}{2} (y - k \bar {y}) ^ {2} + \frac {\beta}{2} (p - p ^ {*}) ^ {2}, \tag {3.55}
+L = \frac{1}{2} (y - k \bar {y})^{2} + \frac{\beta}{2} (p - p^{*})^{2}, \tag {3.55}
 
 $$ where $k > 1$
 
@@ -2648,13 +2648,13 @@ Because the U. S. is expected to run large budget surpluses over the next decade
 
 $$
 
-U \left(\left\{C _ {i} \right\}, \frac {M}{P}\right) = \left[ \left(\sum_ {i = 1} ^ {N} C _ {i} ^ {\frac {E - 1}{E}}\right) ^ {\frac {E - 1}{E}} \right] ^ {\theta} \left(\frac {M}{P}\right) ^ {1 - \theta}, \tag {3.1}
+U \left(\left\{C_{i} \right\}, \frac{M}{P}\right) = \left[ \left(\sum_{i = 1}^{N} C_{i}^{\frac{E - 1}{E}}\right)^{\frac{E - 1}{E}} \right]^{\theta} \left(\frac{M}{P}\right)^{1 - \theta}, \tag {3.1}
 
 $$ where
 
 $$
 
-P = \left(\frac {1}{N} \sum_ {i = 1} ^ {N} P _ {i} ^ {1 - E}\right) ^ {\frac {1}{1 - E}}. \tag {3.2}
+P = \left(\frac{1}{N} \sum_{i = 1}^{N} P_{i}^{1 - E}\right)^{\frac{1}{1 - E}}. \tag {3.2}
 
 $$
 
@@ -2664,7 +2664,7 @@ There are $N$ firms, each of which produces one good using production function
 
 $$
 
-Y _ {i} = \gamma \left(L _ {i} - f\right) \tag {3.3}
+Y_{i} = \gamma \left(L_{i} - f\right) \tag {3.3}
 
 $$
 
@@ -2679,7 +2679,7 @@ Now assume that real wages are determined by the following profit-sharing arrang
 
 $$
 
-\frac {W}{P} = \frac {\omega}{P} + \lambda \left(\frac {\Pi_ {i}}{L _ {i}}\right), \tag {3.4}
+\frac{W}{P} = \frac{\omega}{P} + \lambda \left(\frac{\Pi_{i}}{L_{i}}\right), \tag {3.4}
 
 $$ where $\omega$ and $\lambda$ are parameters and $\Pi_{i}$ denotes firm $i$ 's real profits.
 
@@ -2701,14 +2701,14 @@ $$ where $\omega$ and $\lambda$ are parameters and $\Pi_{i}$ denotes firm $i$ 's
 
 8. Consider the following simple model of the economy:
 
-$$ m _ {t} - p _ {t} = - \alpha \left(r _ {t} + E _ {t} \pi_ {t + 1}\right) + \beta y _ {t} \tag {3.5}
+$$ m_{t} - p_{t} = - \alpha \left(r_{t} + E_{t} \pi_{t + 1}\right) + \beta y_{t} \tag {3.5}
 $$
 
-$$ y _ {t} = cy _ {t} - dr _ {t} \tag {3.6}
+$$ y_{t} = cy_{t} - dr_{t} \tag {3.6}
 $$
 
 $$
-\pi_ {t} = \pi_ {t - 1} + \theta y _ {t}, \tag {3.7}
+\pi_{t} = \pi_{t - 1} + \theta y_{t}, \tag {3.7}
 $$ where all variables are in logs and $\pi_t = p_t - p_{t-1}$.
 
 (a) Provide economic interpretations for these equations
@@ -2757,7 +2757,7 @@ If we let $p_K$ denote the price of capital, we can write the total cost per uni
 
 $$
 
-\frac {R}{P} = rp _ {K} + \delta p _ {K} - \dot {p _ {K}} \tag {4.2}
+\frac{R}{P} = rp_{K} + \delta p_{K} - \dot {p_{K}} \tag {4.2}
 
 $$
 
@@ -2795,7 +2795,7 @@ If the interest rate is constant at $r$, the firm then solves the following prob
 
 $$
 
-\max _ {I, K} \int_ {0} ^ {\infty} e ^ {- rt} (\Pi
+\max_{I, K} \int_{0}^{\infty} e^{- rt} (\Pi
 
 (K) - C
 
@@ -2812,7 +2812,7 @@ First, let's set up the Hamiltonian, in present value terms:
 
 $$
 
-H = e ^ {- rt} [ \Pi
+H = e^{- rt} [ \Pi
 
 (K) - C
 
@@ -2826,9 +2826,9 @@ Let's work out the two first-order conditions:
 
 $$
 
-\frac {\partial H}{\partial I} = 0 \Rightarrow q = C ^ {\prime}
+\frac{\partial H}{\partial I} = 0 \Rightarrow q = C^{\prime}
 
-(I) = 1 + d ^ {\prime}
+(I) = 1 + d^{\prime}
 
 (I) \tag {4.8}
 
@@ -2836,7 +2836,7 @@ $$
 
 $$
 
-\frac {\partial H}{\partial K} = - \left(qe ^ {- rt}\right) \Rightarrow \Pi^ {\prime}
+\frac{\partial H}{\partial K} = - \left(qe^{- rt}\right) \Rightarrow \Pi^{\prime}
 
 (K) - \delta q = rq - \dot {q} \tag {4.9}
 
@@ -2850,7 +2850,7 @@ The second first-order condition may be rearranged to yield:
 
 $$
 
-\dot {q} = (r + \delta) q - \Pi^ {\prime}
+\dot {q} = (r + \delta) q - \Pi^{\prime}
 
 (K) \tag {4.10}
 
@@ -2866,7 +2866,7 @@ Note that we can rewrite the first order condition involving $q$ to yield:
 
 $$
 
-(r + \delta) q - \dot {q} = \Pi^ {\prime}
+(r + \delta) q - \dot {q} = \Pi^{\prime}
 
 (K) \tag {4.11}
 
@@ -2876,7 +2876,7 @@ As before, this asset pricing equation says that the required rate of return les
 
 To solve for the price of an additional unit of capital, $q$, we need simply to solve for the differential equation for $q$ we derived above:
 
-$$ q = \int_ {0} ^ {\infty} e ^ {- (r + \delta) t} \Pi^ {\prime}
+$$ q = \int_{0}^{\infty} e^{- (r + \delta) t} \Pi^{\prime}
 (K) dt \tag {4.12}
 $$
 
@@ -2893,7 +2893,7 @@ Note that even if we write $q$ in this present-value way, and specify investment
 The two equations of motion, again, are:
 
 $$
-\dot {q} = (r + \delta) q - \Pi^ {\prime}
+\dot {q} = (r + \delta) q - \Pi^{\prime}
 (K) \tag {4.13}
 $$
 
@@ -2921,7 +2921,7 @@ Let $N =$ size of the adult population. Changes in this will shift housing deman
 The equation for housing demand is:
 
 $$
-H ^ {D} = f
+H^{D} = f
 (R) N, \tag {4.15}
 $$ where $f' < 0$, and of course, since the market clears, $H^{D} = H$.
 
@@ -2941,7 +2941,7 @@ This just says that the rental rate is a negative function of the amount of hous
 
 How is the price set? Let $p$ be the price of a unit, and $r$ the interest rate. Then:
 
-$$ r + \delta = \frac {(R
+$$ r + \delta = \frac{(R
 (h) + \dot {p})}{p}. \tag {4.17}
 $$
 
@@ -2959,7 +2959,7 @@ So this is the usual sort of differential equation for an asset price. We still 
 So we have to look at housing investment. The role of $q$ in this model will be played by the price of housing: the higher is $p$, the higher will be housing investment. Further, total investment will depend on the number of people in the economy, so we will make investment per person a function of $\mathrm{P}$:
 
 $$
-\frac {I}{N} = \pi
+\frac{I}{N} = \pi
 (p) . \tag {4.19}
 $$
 
@@ -2979,7 +2979,7 @@ $$ which implies:
 
 $$
 
-\frac {\dot {H}}{N} = \pi
+\frac{\dot {H}}{N} = \pi
 
 (p) - \delta h. \tag {4.22}
 
@@ -3084,7 +3084,7 @@ Finally, we assume that it would be profitable for each firm to invest. That is,
 
 $$
 
-\theta_ {i} x - F > z _ {i}, i = 1,2 \tag {4.26}
+\theta_{i} x - F > z_{i}, i = 1,2 \tag {4.26}
 
 $$
 
@@ -3100,7 +3100,7 @@ I said firms could borrow at a given interest rate. In practice, this assumes th
 The fraction of firms which succeed is:
 
 $$
-\theta^ {P} = q \theta_ {1} + (1 - q) \theta_ {2} \tag {4.28}
+\theta^{P} = q \theta_{1} + (1 - q) \theta_{2} \tag {4.28}
 $$
 
 (Note: $\theta_{1} < \theta^{P} < \theta_{2}$
@@ -3108,12 +3108,12 @@ $$
 Assume lenders are competitive, and have zero expected profit, that they have access to funds at zero interest and are risk neutral. Then in the pooling equilibrium,
 
 $$
-F - C = \theta^ {P} (F - C) \left(1 + R ^ {P}\right) \tag {4.29}
+F - C = \theta^{P} (F - C) \left(1 + R^{P}\right) \tag {4.29}
 $$ which implies:
 
 $$
 
-1 + R ^ {P} = \frac {1}{\theta^ {P}} \tag {4.30}
+1 + R^{P} = \frac{1}{\theta^{P}} \tag {4.30}
 
 $$
 
@@ -3121,7 +3121,7 @@ What about firms? Assume they too are risk neutral, so that firms will want to b
 
 $$
 
-\theta_ {i} [ x - (F - C) \left(1 + R ^ {P}\right) ] > z _ {i} + C \tag {4.31}
+\theta_{i} [ x - (F - C) \left(1 + R^{P}\right) ] > z_{i} + C \tag {4.31}
 
 $$
 
@@ -3129,7 +3129,7 @@ We can substitute this into the previous equation to get (after some rewriting):
 
 $$
 
-\theta_ {i} x - F - \frac {\left(\theta_ {i} - \theta^ {P}\right) (F - C)}{\theta^ {P}} \geq z _ {i} \tag {4.32}
+\theta_{i} x - F - \frac{\left(\theta_{i} - \theta^{P}\right) (F - C)}{\theta^{P}} \geq z_{i} \tag {4.32}
 
 $$
 
@@ -3145,13 +3145,13 @@ The zero-profit condition for lenders is:
 
 $$
 
-(F - C) = \theta_ {1} (F - C) \left(1 + R ^ {S}\right) \tag {4.33}
+(F - C) = \theta_{1} (F - C) \left(1 + R^{S}\right) \tag {4.33}
 
 $$ which implies that:
 
 $$
 
-R ^ {S} = \frac {1}{\theta_ {1}} - 1 > R ^ {P} \tag {4.34}
+R^{S} = \frac{1}{\theta_{1}} - 1 > R^{P} \tag {4.34}
 
 $$
 
@@ -3161,7 +3161,7 @@ The condition for each firm to want to invest is now:
 
 $$
 
-\theta_ {1} [ x - \frac {(F - C)}{\theta_ {1}} ] \geq z _ {1} + C \tag {4.35}
+\theta_{1} [ x - \frac{(F - C)}{\theta_{1}} ] \geq z_{1} + C \tag {4.35}
 
 $$
 
@@ -3169,7 +3169,7 @@ Type 2 firms didn't want to invest at the pooling equilibrium, and so they won't
 
 $$
 
-\theta_ {1} x - F \geq z _ {1} \tag {4.36}
+\theta_{1} x - F \geq z_{1} \tag {4.36}
 
 $$ which is true by assumption.
 
@@ -3245,7 +3245,7 @@ Suppose the economy has one good, three periods, and a continuum of agents. Each
 
 $$
 
-U \equiv \pi_ {1} u \left(C _ {1}\right) + \rho \pi_ {2} u \left(C _ {2}\right) \tag {4.38}
+U \equiv \pi_{1} u \left(C_{1}\right) + \rho \pi_{2} u \left(C_{2}\right) \tag {4.38}
 
 $$
 
@@ -3261,7 +3261,7 @@ At time 0, the level of investment $I$ in the illiquid asset is chosen to maximi
 
 $$
 
-C _ {1} = LI + 1 - I \tag {4.39}
+C_{1} = LI + 1 - I \tag {4.39}
 
 $$
 
@@ -3269,7 +3269,7 @@ If it is revealed ex post that they must consume at date 2, then:
 
 $$
 
-C _ {2} = RI + 1 - I. \tag {4.40}
+C_{2} = RI + 1 - I. \tag {4.40}
 
 $$
 
@@ -3283,13 +3283,13 @@ Suppose there is a bond market in period $t = 1$, in which $p$ units of the good
 
 $$
 
-C _ {1} = p RI + 1 - I \tag {4.41}
+C_{1} = p RI + 1 - I \tag {4.41}
 
 $$
 
 $$
 
-C _ {2} = RI + \frac {1 - I}{p} \tag {4.42}
+C_{2} = RI + \frac{1 - I}{p} \tag {4.42}
 
 $$
 
@@ -3302,19 +3302,19 @@ The optimal social allocation is obtained by maximizing expected utility subject
 
 $$
 
-\pi_ {1} C _ {1} = 1 - I \tag {4.43}
+\pi_{1} C_{1} = 1 - I \tag {4.43}
 
 $$
 
 $$
 
-\pi_ {2} C _ {2} = RI \tag {4.44}
+\pi_{2} C_{2} = RI \tag {4.44}
 
 $$ where we have used the fact that we have a continuum of agents.
 
 The first order condition is:
 
-$$ u ^ {\prime} \left(C _ {1}\right) = \rho R u ^ {\prime} \left(C _ {2}\right) \tag {4.45}
+$$ u^{\prime} \left(C_{1}\right) = \rho R u^{\prime} \left(C_{2}\right) \tag {4.45}
 $$
 
 It is unlikely that this will be satisfied by the market allocation. If we assume concave utility, it is likely that $u'(1) > \rho Ru'(R)$, so that the optimal $C_1 > 1$. This is to ensure consumers against the shock that they must consume at time 1.
@@ -3358,24 +3358,24 @@ Formally, the firm's problem is to chose $T$ to maximize
 $$
 F
 (V) = (V
-(T) - I) e ^ {- \mu T} \tag {4.46}
+(T) - I) e^{- \mu T} \tag {4.46}
 $$
 
 Substituting the expression for $V(t)$, this becomes:
 
 $$
-\left(e ^ {(\alpha - \mu) T} - I e ^ {- \mu T}\right) \tag {4.47}
+\left(e^{(\alpha - \mu) T} - I e^{- \mu T}\right) \tag {4.47}
 $$
 
 Solving the first-order condition with respect to $t$ implies an optimum value for $T$ of:
 
 $$
-T = \frac {1}{\alpha} \ln \left(\frac {I \mu}{\mu - \alpha}\right), \tag {4.48}
+T = \frac{1}{\alpha} \ln \left(\frac{I \mu}{\mu - \alpha}\right), \tag {4.48}
 $$ and a project value of:
 
 $$
 
-\frac {I \mu}{\mu - \alpha}. \tag {4.49}
+\frac{I \mu}{\mu - \alpha}. \tag {4.49}
 
 $$
 
@@ -3396,7 +3396,7 @@ $$
 
 F
 
-(V) = \max _ {T} E _ {t} \left[ \left(V _ {T} - I\right) e ^ {- \mu (T - t)} \right] \tag {4.51}
+(V) = \max_{T} E_{t} \left[ \left(V_{T} - I\right) e^{- \mu (T - t)} \right] \tag {4.51}
 
 $$ where $\mu$ is the discount rate.
 
@@ -3408,23 +3408,23 @@ To solve this maximization problem, it will be convenient to use the following a
 The return under these two alternatives must be equal. Therefore an optimality condition for the above problem is:
 
 $$
-\mu F d t = E _ {t} d F \tag {4.52}
+\mu F d t = E_{t} d F \tag {4.52}
 $$
 
 Now we must compute $dF$, using the definitions of $F$ and $V$ given above. Since $F$ is a function of a Wiener process, we must use Itô's lemma to solve for the derivative. We can write:
 
-$$ d F = F _ {V} d V + \frac {1}{2} F _ {V V} (d V) ^ {2} \tag {4.53}
+$$ d F = F_{V} d V + \frac{1}{2} F_{V V} (d V)^{2} \tag {4.53}
 $$
 
 Substituting for $dV$, one obtains:
 
-$$ d F = \alpha V F _ {V} d t + \sigma V F _ {V} d W + \frac {1}{2} \sigma^ {2} V ^ {2} F _ {V V} d t \tag {4.54}
+$$ d F = \alpha V F_{V} d t + \sigma V F_{V} d W + \frac{1}{2} \sigma^{2} V^{2} F_{V V} d t \tag {4.54}
 $$
 
 Now $E_{t}dZ = 0$, since increments of a Wiener process are standard normal. Thus, $$E_{t}dF = (\alpha VF_{V} + \frac{1}{2}\sigma^{2}V^{2}F_{VV})d_{t}$$. We may then rewrite the asset-pricing relationship as:
 
 $$
-\mu F = \alpha VF _ {V} + \frac {1}{2} \sigma^ {2} V ^ {2} F _ {VV} \tag {4.55}
+\mu F = \alpha VF_{V} + \frac{1}{2} \sigma^{2} V^{2} F_{VV} \tag {4.55}
 $$
 
 This is a differential equation in $F$. We need boundary conditions for this equation. We will have three:
@@ -3437,35 +3437,35 @@ Solving differential equations like this generally involves guessing a solution 
 
 $$
 F
-(V) = a _ {1} V ^ {b _ {1}} + a _ {2} V ^ {b _ {2}}, \tag {4.56}
+(V) = a_{1} V^{b_{1}} + a_{2} V^{b_{2}}, \tag {4.56}
 $$ where $a_1, a_2, b_1$ and $b_2$ are parameters to be determined.
 
 To obtain the solution, substitute $F(V)$ into the equation. This yields the following quadratic equations in $b_{1}$ and $b_{2}$:
 
 $$
 
-\frac {1}{2} \sigma^ {2} b _ {1} ^ {2} + \left(\alpha - \frac {1}{2} \sigma^ {2}\right) b _ {1} - \mu = 0 \tag {4.57}
+\frac{1}{2} \sigma^{2} b_{1}^{2} + \left(\alpha - \frac{1}{2} \sigma^{2}\right) b_{1} - \mu = 0 \tag {4.57}
 
 $$
 
 $$
 
-\frac {1}{2} \sigma^ {2} b _ {2} ^ {2} + \left(\alpha - \frac {1}{2} \sigma^ {2}\right) b _ {2} - \mu = 0 \tag {4.58}
+\frac{1}{2} \sigma^{2} b_{2}^{2} + \left(\alpha - \frac{1}{2} \sigma^{2}\right) b_{2} - \mu = 0 \tag {4.58}
 
 $$
 
 These equations are identical. Thus, there are two possible solutions corresponding to the two roots of the quadratic equation. One root will be positive, the other negative. Applying the first boundary condition can eliminate the negative root. The other one is:
 
-$$ b _ {1} = \frac {1}{2} - \frac {\mu - r}{\sigma^ {2}} + \left(\left[ \frac {\alpha}{\sigma^ {2}} - \frac {1}{2} \right] ^ {2} + 2 \left(\frac {\mu}{\sigma^ {2}}\right)\right) ^ {\frac {1}{2}} > 1. \tag {4.59}
+$$ b_{1} = \frac{1}{2} - \frac{\mu - r}{\sigma^{2}} + \left(\left[ \frac{\alpha}{\sigma^{2}} - \frac{1}{2} \right]^{2} + 2 \left(\frac{\mu}{\sigma^{2}}\right)\right)^{\frac{1}{2}} > 1. \tag {4.59}
 $$
 
 We can solve for $a_1$ and $V^*$ using the other two boundary conditions. One can readily verify from the two conditions and the general form of the solution that:
 
 $$
-V ^ {*} = \frac {b _ {1}}{b _ {1} - 1} I \tag {4.60}
+V^{*} = \frac{b_{1}}{b_{1} - 1} I \tag {4.60}
 $$ and
 
-$$ a _ {1} = \frac {V ^ {*} - I}{V ^ {* b _ {1}}} \tag {4.61}
+$$ a_{1} = \frac{V^{*} - I}{V^{* b_{1}}} \tag {4.61}
 $$
 
 The key point of this solution is that $V^{*} > I$, or that the option value is again indeed positive. Thus, one should wait until $V^{*} > I$ before exercising the option. One can also show that $V^{*}$ and $F(V)$ are increasing in $\sigma$. In other words, more uncertainty increases the value of investing, but decreases the actual amount of investment. The Dixit and Pindyck article contains more comparative statics. Dixit (JPE 1989) gives a similar model of entry which also allows for exit and allows for the price of output rather than the value of the project to be the primitive variable.
@@ -3483,38 +3483,38 @@ He looks at the effects of uncertainty in the price of output on investment.
 Suppose a firm has a Cobb-Douglas production function $Y_{t} = L_{t}^{\alpha}K_{t}^{1 - \alpha}$. The output price is $p_t$, which follows the following geometric Brownian motion:
 
 $$
-\frac {dp _ {t}}{p _ {t}} = \sigma d W \tag {4.62}
+\frac{dp_{t}}{p_{t}} = \sigma d W \tag {4.62}
 $$ where $dW$ is again the increment to a Wiener process. The wage is $w$, and investment has the convex cost function $\gamma I_t^\beta$, where $\beta > 1$. The capital accumulation equation is $\frac{dK_t}{d_{t}} = I_t - \delta K_t$.
 
 The value of the firm is the present value of cash flows (i.e. profits), and can therefore be written as:
 
 $$
 
-V (K _ {t}, p _ {t}) = \max E _ {t} \int_ {t} ^ {\infty} [ p _ {s} L _ {s} ^ {\alpha} K _ {s} ^ {1 - \alpha} - w L _ {s} - \gamma I _ {s} ^ {\beta} ] e ^ {- r (s - t)} ds \tag {4.63}
+V (K_{t}, p_{t}) = \max E_{t} \int_{t}^{\infty} [ p_{s} L_{s}^{\alpha} K_{s}^{1 - \alpha} - w L_{s} - \gamma I_{s}^{\beta} ] e^{- r (s - t)} ds \tag {4.63}
 
 $$ subject to the laws of motion of $K$ and $p$.
 
 This maximization problem has the following Bellman equation:
 
-$$ r V \left(K _ {t}, p _ {t}\right) dt = \max \left(p _ {t} L _ {t} ^ {\alpha} K _ {t} ^ {1 - \alpha} - w L _ {t} - \gamma I _ {t} ^ {\beta}\right) dt + E _ {t} d V \tag {4.64}
+$$ r V \left(K_{t}, p_{t}\right) dt = \max \left(p_{t} L_{t}^{\alpha} K_{t}^{1 - \alpha} - w L_{t} - \gamma I_{t}^{\beta}\right) dt + E_{t} d V \tag {4.64}
 $$ which again states that the value of the asset equals the flow return $+$ the expected capital gain.
 
 To solve the maximization problem on the right-hand-side, we first need to solve for $E_{t}\frac{dV}{d_{t}}$. By Ito's Lemma,
 
-$$ d V = V _ {K} d K + V _ {p} dp + \frac {1}{2} V _ {KK} (d K) ^ {2} + \frac {1}{2} V _ {pp}
-(dp) ^ {2} + V _ {p K}
+$$ d V = V_{K} d K + V_{p} dp + \frac{1}{2} V_{KK} (d K)^{2} + \frac{1}{2} V_{pp}
+(dp)^{2} + V_{p K}
 (dp) (d K) \tag {4.65}
 $$
 
 Substituting in for $dK$ and $dp$, and using the facts that $E(dz) = 0$, $E($d_{t}$)^2 = 0$ and $E($d_{t}$)(dz) = 0$ implies that the second, third and fifth terms on the right-hand side go away, leaving us with:
 
 $$
-E _ {t} (d V) = \left[ \left(I _ {t} - \delta K _ {t}\right) V _ {K} + \frac {1}{2} p _ {t} \sigma^ {2} V _ {pp} \right] dt \tag {4.66}
+E_{t} (d V) = \left[ \left(I_{t} - \delta K_{t}\right) V_{K} + \frac{1}{2} p_{t} \sigma^{2} V_{pp} \right] dt \tag {4.66}
 $$
 
 Substituting yields:
 
-$$ r V = \max p _ {t} L _ {t} ^ {\alpha} K _ {t} ^ {1 - \alpha} - w L _ {t} - \gamma I _ {t} ^ {\beta} + \left(I _ {t} - \delta K _ {t}\right) V _ {K} + \frac {1}{2} p _ {t} ^ {2} \sigma^ {2} V _ {pp} \tag {4.67}
+$$ r V = \max p_{t} L_{t}^{\alpha} K_{t}^{1 - \alpha} - w L_{t} - \gamma I_{t}^{\beta} + \left(I_{t} - \delta K_{t}\right) V_{K} + \frac{1}{2} p_{t}^{2} \sigma^{2} V_{pp} \tag {4.67}
 $$
 
 The maximization problem with respect to $L_{t}$ simply involves the usual condition that the marginal product of labor is set equal to the real wage. After some tedious algebra, one can show that the first two terms reduce to:
@@ -3525,23 +3525,23 @@ $hp_{t}^{\frac{1}{1 - \alpha}}K_{t}$, where $h = 1 - \alpha (\frac{\alpha}{w})^{
 
 The first order conditions with respect to It imply $\gamma \beta I_{t}^{\beta - 1} = V_{K}$. Substituting, we get that the resulting Bellman equation is:
 
-$$ r V (K, p) = hp ^ {\frac {1}{1 - \alpha}} K + (\beta - 1) \gamma I ^ {\beta} - \delta KV _ {K} + \frac {1}{2} p \sigma^ {2} V _ {pp} \tag {4.68}
+$$ r V (K, p) = hp^{\frac{1}{1 - \alpha}} K + (\beta - 1) \gamma I^{\beta} - \delta KV_{K} + \frac{1}{2} p \sigma^{2} V_{pp} \tag {4.68}
 $$ where I have suppressed the $t$ subscripts.
 
 Noting that $I$ is a function of $V_{K}$, one can see that the above is a nonlinear second-order partial differential equation in $V$. Fortunately, Abel has cooked the model so that it has a solution, which is the following complicated expression:
 
 $$
 
-V (K, p) = q K + \frac {\beta - 1) \gamma \left(\frac {q}{\beta \gamma}\right) ^ {\frac {\beta}{\beta - 1}}}{r - \frac {\beta (1 - \alpha + \alpha \beta) \sigma^ {2}}{2 (1 - \alpha) ^ {2} (\beta - 1) ^ {2}}} \tag {4.69}
+V (K, p) = q K + \frac{\beta - 1) \gamma \left(\frac{q}{\beta \gamma}\right)^{\frac{\beta}{\beta - 1}}}{r - \frac{\beta (1 - \alpha + \alpha \beta) \sigma^{2}}{2 (1 - \alpha)^{2} (\beta - 1)^{2}}} \tag {4.69}
 
 $$ where:
 
-$$ q = \frac {hp ^ {\frac {1}{1 - \alpha}}}{r + \delta - \frac {\alpha \sigma^ {2}}{2 (1 - \alpha) ^ {2}}} \tag {4.70}
+$$ q = \frac{hp^{\frac{1}{1 - \alpha}}}{r + \delta - \frac{\alpha \sigma^{2}}{2 (1 - \alpha)^{2}}} \tag {4.70}
 $$ and one can show that:
 
 $$
 
-I _ {t} = \left(\frac {q}{\beta \gamma}\right) ^ {\frac {1}{\beta - 1}} \tag {4.71}
+I_{t} = \left(\frac{q}{\beta \gamma}\right)^{\frac{1}{\beta - 1}} \tag {4.71}
 
 $$
 
@@ -3555,7 +3555,7 @@ The general cookbook formula for solving such problems is:
 
 $$
 
-J \left(x _ {0}\right) = \max E _ {0} \int_ {0} ^ {\infty} e ^ {- \rho t} f \left(x _ {t}, u _ {t}\right) dt \tag {4.72}
+J \left(x_{0}\right) = \max E_{0} \int_{0}^{\infty} e^{- \rho t} f \left(x_{t}, u_{t}\right) dt \tag {4.72}
 
 $$
 
@@ -3568,25 +3568,25 @@ $$ which is just a stochastic version of the Hamiltonian optimal control problem
 
 $$
 
-\rho J \left(x _ {t}\right) dt = \max \left[ f \left(x _ {t}, u _ {t}\right) dt + E \left(d J \left(x _ {t}\right)\right) \right] \tag {4.74}
+\rho J \left(x_{t}\right) dt = \max \left[ f \left(x_{t}, u_{t}\right) dt + E \left(d J \left(x_{t}\right)\right) \right] \tag {4.74}
 
 $$ which states intuitively that the annuity value of the asset (the left-hand side) equals the flow return plus the expected capital gain from holding the asset.
 
 3. Use Ito's lemma to get $dJ$:
 
-$$ d J \left(x _ {t}\right) = J ^ {\prime} \left(x _ {t}\right) dx _ {t} + \frac {1}{2} J ^ {\prime \prime} \left(x _ {t}\right) \left(d X _ {t}\right) ^ {2} \tag {4.75}
+$$ d J \left(x_{t}\right) = J^{\prime} \left(x_{t}\right) dx_{t} + \frac{1}{2} J^{\prime \prime} \left(x_{t}\right) \left(d X_{t}\right)^{2} \tag {4.75}
 $$
 
 4. Take expectations to get EdJ
 
 $$
-E d J \left(x _ {t}\right) = \alpha J ^ {\prime} \left(x _ {t}\right) dt + \frac {1}{2} \beta^ {2} J ^ {\prime \prime} \left(x _ {t}\right) \tag {4.76}
+E d J \left(x_{t}\right) = \alpha J^{\prime} \left(x_{t}\right) dt + \frac{1}{2} \beta^{2} J^{\prime \prime} \left(x_{t}\right) \tag {4.76}
 $$
 
 5. Substitute $EdJ$ into the Bellman equation
 
 $$
-\rho J \left(x _ {t}\right) = \max \left[ f \left(x _ {t}, u _ {t}\right) + \alpha J ^ {\prime} \left(x _ {t}\right) + \frac {1}{2} \beta^ {2} J ^ {\prime \prime} \left(x _ {t}\right) \right] \tag {4.77}
+\rho J \left(x_{t}\right) = \max \left[ f \left(x_{t}, u_{t}\right) + \alpha J^{\prime} \left(x_{t}\right) + \frac{1}{2} \beta^{2} J^{\prime \prime} \left(x_{t}\right) \right] \tag {4.77}
 $$
 
 6. Take the first order condition with respect to the control variable $u$. This gives $u = g(J, J', J'')$.
@@ -3623,9 +3623,9 @@ Why?
 
 $$
 
-\begin{array}{l} H = \text {stock} \\ R = \text {rentalrate} \\ p = \mathrm {price ofaunitofhousing} \\ N = \text {sizeof the adultpopulation} \\ h = H / N \text {(housingpercapita)} \\ R = R
+\begin{array}{l} H = \text{stock} \\ R = \text{rentalrate} \\ p = \mathrm{priceofaunitofhousing} \\ N = \text{sizeoftheadultpopulation} \\ h = H / N \text{(housingpercapita)} \\ R = R
 
-(h) R ^ {\prime} < 0 \text {(rentasafunctionofhousingpercapita)} \\ r = \text {required} \\ \end{array}
+(h) R^{\prime} < 0 \text{(rentasafunctionofhousingpercapita)} \\ r = \text{required} \\ \end{array}
 
 $$
 
@@ -3665,7 +3665,7 @@ Derive the condition under which the pooling equilibrium is the only possible eq
 
 $$
 
-\frac {d \pi}{\pi} = \alpha dt + \sigma d W \tag {4.81}
+\frac{d \pi}{\pi} = \alpha dt + \sigma d W \tag {4.81}
 
 $$ where $W$ is a standard Brownian motion (i.e. continuous time random walk). To invest in the project, the firm must pay a fixed amount $I$, which is not recoverable. The discount rate is $\rho$.
 
@@ -3809,23 +3809,23 @@ The first model is due to Robert Solow. Assume production is given by $Y = AF(e(
 The firm's objective is profit maximization. We will assume that it can choose both the wage and the level of employment; it is free to do both provided it has some monopsony power in the labor market and the real wage is at least at the market-clearing level. The firm's problem is then:
 
 $$
-\left\{\frac {W}{P} ^ {\max } \right\}, \{L \} \Pi = AF \left(e \left(\frac {W}{P}\right) L\right) - \frac {W}{P} L \tag {5.1}
+\left\{\frac{W}{P}^{\max } \right\}, \{L \} \Pi = AF \left(e \left(\frac{W}{P}\right) L\right) - \frac{W}{P} L \tag {5.1}
 $$
 
 The first-order conditions for optimization are:
 
 $$
-AF ^ {\prime} \left(e \left(\frac {W}{P}\right) L\right) e ^ {\prime} \left(\frac {W}{P}\right) = 1 \tag {5.2}
+AF^{\prime} \left(e \left(\frac{W}{P}\right) L\right) e^{\prime} \left(\frac{W}{P}\right) = 1 \tag {5.2}
 $$
 
 $$
-AF ^ {\prime} \left(e \left(\frac {W}{P}\right) L\right) e \left(\frac {W}{P}\right) = \frac {W}{P}. \tag {5.3}
+AF^{\prime} \left(e \left(\frac{W}{P}\right) L\right) e \left(\frac{W}{P}\right) = \frac{W}{P}. \tag {5.3}
 $$
 
 Combining them yields the following condition:
 
 $$
-\frac {W}{P} \frac {e ^ {\prime} (\frac {W}{P})}{e (\frac {W}{P})} = 1. \tag {5.4}
+\frac{W}{P} \frac{e^{\prime} (\frac{W}{P})}{e (\frac{W}{P})} = 1. \tag {5.4}
 $$
 
 The real wage is now no longer determined by the condition that labor demand equal labor supply, but instead by the condition that the elasticity of effort with respect to the real wage equal one. The intuition for this is that the firm cares about effective labor, $e\left(\frac{W}{P}\right)L$. The cost of each unit of effective labor is $\frac{\frac{W}{P}}{e\left(\frac{W}{P}\right)}$. At the point where the elasticity of effort is equal to one, changes in the real wage don't change the cost of effective labor
@@ -3849,46 +3849,46 @@ Assume that per unit time, jobs break up at rate $b$. Formally, one can think of
 Let $V_{S}$ denote the value to the worker of being employed. We are going to derive this value by thinking of being in this state as an asset. If the working is shirking, he will receive wage $w$. Next period, he will be in one of two states. He will either still be employed, but shirking; this has value $V_{S}$, and occurs with probability $1 - (b + q)$. Alternatively, he will have been caught shirking, and will be unemployed; this has value $V_{U}$ and occurs with probability $b + q$. The expression for $V_{S}$ is then:
 
 $$
-V _ {S} = W + \frac {1}{1 + r} \left[ (b + q) V _ {U} + (1 - (b + q)) V _ {S} \right]. \tag {5.5}
+V_{S} = W + \frac{1}{1 + r} \left[ (b + q) V_{U} + (1 - (b + q)) V_{S} \right]. \tag {5.5}
 $$
 
 By similar reasoning, one can deriving that the value of being employed but not shirking, $V_{E}$, is as follows:
 
 $$
-V _ {E} = W - \bar {e} + \frac {1}{1 + r} [ b V _ {U} + (1 - b) V _ {E} ]. \tag {5.6}
+V_{E} = W - \bar {e} + \frac{1}{1 + r} [ b V_{U} + (1 - b) V_{E} ]. \tag {5.6}
 $$
 
 We can rearrange these two to obtain the following:
 
 $$
-V _ {S} = \frac {1 + r}{r + b + q} W + \frac {b + q}{r + b + q} V _ {U} \tag {5.7}
+V_{S} = \frac{1 + r}{r + b + q} W + \frac{b + q}{r + b + q} V_{U} \tag {5.7}
 $$
 
 $$
-V _ {E} = \frac {1 + r}{r + b} (W - \bar {e}) + \frac {b}{r + b} V _ {U}. \tag {5.8}
+V_{E} = \frac{1 + r}{r + b} (W - \bar {e}) + \frac{b}{r + b} V_{U}. \tag {5.8}
 $$
 
 To solve for the level of the real wage at which workers will not be willing to shirk, equate these two expressions. This yields:
 
 $$
-W = \bar {e} \frac {r + b + q}{q} + \frac {r}{1 + r} V _ {U}. \tag {5.9}
+W = \bar {e} \frac{r + b + q}{q} + \frac{r}{1 + r} V_{U}. \tag {5.9}
 $$
 
 Assume that firms pay this level of the wage, so that there is no shirking. Then the worker's choice is between been unemployed, or being employed and exerting effort. We may write the value of these two states as:
 
 $$
-V _ {U} = \frac {1}{1 + r} [ a V _ {E} + (1 - a) V _ {U} ] \tag {5.10}
+V_{U} = \frac{1}{1 + r} [ a V_{E} + (1 - a) V_{U} ] \tag {5.10}
 $$
 
 $$
-V _ {E} = W - \bar {e} + \frac {1}{1 + r} [ b V _ {U} + (1 - b) V _ {E} ], \tag {5.11}
+V_{E} = W - \bar {e} + \frac{1}{1 + r} [ b V_{U} + (1 - b) V_{E} ], \tag {5.11}
 $$ where the second expression is the same as before.
 
 This allows us to solve explicitly for the level of the wage by solving out for $V_U$. Doing so gives a value for $W$ of:
 
 $$
 
-W = \bar {e} + \frac {\bar {e} (a + b + r)}{q}. \tag {5.12}
+W = \bar {e} + \frac{\bar {e} (a + b + r)}{q}. \tag {5.12}
 
 $$
 
@@ -3900,7 +3900,7 @@ $$
 Substituting this into the expression for the wage, we obtain the condition that:
 
 $$
-W = \bar {e} + \frac {\bar {e} \left[ \frac {b L}{L - L} + b + r \right]}{q} \tag {5.14}
+W = \bar {e} + \frac{\bar {e} \left[ \frac{b L}{L - L} + b + r \right]}{q} \tag {5.14}
 $$
 
 This is plotted in Figure 5.1, along with labor supply and the condition that the marginal product of labor equal the real wage. Equilibrium is determined by where the marginal product intersects the wage expression given above, rather than where labor supply equals labor demand. Intuitively, firms must pay above the market-clearing level to induce people not to shirk.
@@ -3952,7 +3952,7 @@ Let's see the technical version of this model:
 Let's think about the fraction of the population trading at any point in time. This fraction, $e$, will increase as people find new production opportunities which they accept, and decrease as those who have produced successfully complete trades. The fraction of successful trading opportunities is $aG(c^{*})$, and there are $(1 - e)$ in the population who can take advantage of such opportunities. Similarly, the fraction of successful trades is $b(e)$, and there are $e$ people in the economy who can trade. Therefore,
 
 $$
-\dot {e} = a (1 - e) G \left(c ^ {*}\right) - eb
+\dot {e} = a (1 - e) G \left(c^{*}\right) - eb
 (e) . \tag {5.15}
 $$
 
@@ -3962,10 +3962,10 @@ One can show that the steady-state level of $e$ is increasing in the value of $c
 
 Next, we need to specify how $c^*$ is determined. Let $W_e$ and $W_u$ be the present value of utility for those with and without $y$ units of output.
 
-$$ r W _ {e} = b \left(y - W _ {e} + W _ {u}\right) \tag {5.16}
+$$ r W_{e} = b \left(y - W_{e} + W_{u}\right) \tag {5.16}
 $$
 
-$$ r W _ {u} = a \int_ {0} ^ {c ^ {*}} \left(W _ {e} - W _ {u} - c\right) d G
+$$ r W_{u} = a \int_{0}^{c^{*}} \left(W_{e} - W_{u} - c\right) d G
 (c) \tag {5.17}
 $$
 
@@ -3973,7 +3973,7 @@ These equations come from the fact that the flow return from remaining in the sa
 
 One can combine these by noting that
 
-$$ c ^ {*} = W _ {e} - W _ {u} = \frac {by + a \int_ {0} ^ {c ^ {*}} cd G}{r + b + a G \left(c ^ {*}\right)} \tag {5.18}
+$$ c^{*} = W_{e} - W_{u} = \frac{by + a \int_{0}^{c^{*}} cd G}{r + b + a G \left(c^{*}\right)} \tag {5.18}
 $$
 
 From which one can show that $\frac{dc^*}{de} > 0$.
@@ -3995,7 +3995,7 @@ We will start with the Murphy, Shleifer and Vishny paper "Industrialization and 
 	- There is a representative agent with a Cobb-Douglas utility function. This function is defined over a continuum of goods indexed by $q \in [0,1]$:
 
 $$
-\int_ {0} ^ {1} \ln x
+\int_{0}^{1} \ln x
 (q) dq \tag {5.19}
 $$
     - Cobb-Douglas utility implies a constant expenditure share; in this case, if total income is $y$, the consumer spends $y$ on each good (The total number of goods is normalized to one).
@@ -4016,7 +4016,7 @@ $$
 	- Profits are:
 
 $$
-\pi = \frac {\alpha - 1}{\alpha} y - F \equiv ay - F \tag {5.20}
+\pi = \frac{\alpha - 1}{\alpha} y - F \equiv ay - F \tag {5.20}
 $$ where $a$ is the markup of price over marginal cost.
 
 #
@@ -4033,7 +4033,7 @@ $$ where $a$ is the markup of price over marginal cost.
 
 $$
 
-\pi = y \left(1 - \frac {1 + v}{\alpha}\right) - F (1 + v) \tag {5.21}
+\pi = y \left(1 - \frac{1 + v}{\alpha}\right) - F (1 + v) \tag {5.21}
 
 $$
     - If no one industrializes, there are no profits, and aggregate demand $y = L$.
@@ -4133,7 +4133,7 @@ Now supposed the unskilled workers are unionized. Assume that the union gets to 
 
 $$
 
-\left(\frac {\hat {U}}{\bar {U}}\right) \frac {\left(\frac {W _ {U}}{P}\right) ^ {1 - \theta}}{1 - \theta} + \left(1 - \frac {\hat {U}}{\bar {U}}\right) UI \tag {5.22}
+\left(\frac{\hat {U}}{\bar {U}}\right) \frac{\left(\frac{W_{U}}{P}\right)^{1 - \theta}}{1 - \theta} + \left(1 - \frac{\hat {U}}{\bar {U}}\right) UI \tag {5.22}
 
 $$ where $\hat{U}$ is the number of unskilled workers employed and $UI$ is the
 
@@ -4175,12 +4175,12 @@ Many macroeconomic problems have the form:
 
 $$
 \begin{array}{l} \left\{u
-(t) \right\} V (0, x _ {0}) = \int_ {0} ^ {\infty} e ^ {- rt} J (x
+(t) \right\} V (0, x_{0}) = \int_{0}^{\infty} e^{- rt} J (x
 (t) , u
 (t) , t) dt (23) \\. \ni. \quad \dot {x}
 (t) = f (x
 (t) , u
-(t) , t) (24) \\ x (0) = x _ {0}. (25) \\ \end{array}
+(t) , t) (24) \\ x (0) = x_{0}. (25) \\ \end{array}
 $$
 
 Here, $x(t)$ is the state variable, and $u(t)$ is the control variable.
@@ -4188,7 +4188,7 @@ Here, $x(t)$ is the state variable, and $u(t)$ is the control variable.
 One way of solving the problem is to form an equivalent of the Lagrangian, the (present-value) Hamiltonian:
 
 $$
-H = e ^ {- rt} \left[ J \left(\left(x
+H = e^{- rt} \left[ J \left(\left(x
 (t) , u
 (t) , t\right)\right) + q
 (t) f (x
@@ -4200,13 +4200,13 @@ Necessary conditions for optimality are:
 
 $$
 
-\frac {\partial H}{\partial u} = 0 \Longrightarrow J _ {u} + qf _ {u} = 0 \tag {27}
+\frac{\partial H}{\partial u} = 0 \Longrightarrow J_{u} + qf_{u} = 0 \tag {27}
 
 $$
 
 $$
 
-\frac {\partial H}{\partial x} = - \left[ qe ^ {- rt} \right] \Longrightarrow - \dot {q} + rq = J _ {x} + qf _ {x} \tag {28}
+\frac{\partial H}{\partial x} = - \left[ qe^{- rt} \right] \Longrightarrow - \dot {q} + rq = J_{x} + qf_{x} \tag {28}
 
 $$
 
@@ -4217,7 +4217,7 @@ In Harl Ryder's class, you will see a full treatment of both necessary and suffi
 Foremost among these techniques is Bellman's principle of optimality. This states that:
 
 $$
-- V _ {t} (t, x) = \max _ {u} [ J (x, u, t) + V _ {x} (t, x) f (x, u, t) ]. \tag {29}
+- V_{t} (t, x) = \max_{u} [ J (x, u, t) + V_{x} (t, x) f (x, u, t) ]. \tag {29}
 $$
 
 $V$ denotes the maximized value of the program. For any values of the state variables $t$ and $x$, the change in the value of the program over time has to equal the flow return $J+$ the change in the value of the program induced by $x$ changing.
@@ -4228,7 +4228,7 @@ $$
 
 \left\{u
 
-(t) \right\} V \left(0, x _ {0}\right) = \int_ {0} ^ {\infty} e ^ {- rt} \frac {C ^ {1 - \sigma} - 1}{1 - \sigma} dt \tag {30}
+(t) \right\} V \left(0, x_{0}\right) = \int_{0}^{\infty} e^{- rt} \frac{C^{1 - \sigma} - 1}{1 - \sigma} dt \tag {30}
 
 $$
 
@@ -4240,7 +4240,7 @@ $$
 
 $$
 
-$$ k (0) = k _ {0}. \tag {32}
+$$ k (0) = k_{0}. \tag {32}
 $$
 
 In this case, $J = \frac{C^{1 - \sigma} - 1}{1 - \sigma}, f = f(k) - c - \delta k, x = k$ and $u = c$.
@@ -4248,11 +4248,11 @@ In this case, $J = \frac{C^{1 - \sigma} - 1}{1 - \sigma}, f = f(k) - c - \delta 
 Sufficient conditions for optimality are then:
 
 $$
-\frac {\partial H}{\partial u} = 0 \Longrightarrow c ^ {- \sigma} = q \tag {33}
+\frac{\partial H}{\partial u} = 0 \Longrightarrow c^{- \sigma} = q \tag {33}
 $$
 
 $$
-\frac {\partial H}{\partial x} = - \left[ qe ^ {- rt} \right] \Longrightarrow - \dot {q} + rq = q \left[ f ^ {\prime}
+\frac{\partial H}{\partial x} = - \left[ qe^{- rt} \right] \Longrightarrow - \dot {q} + rq = q \left[ f^{\prime}
 (k) - \delta \right] \tag {34}
 $$ and the transversality condition $t \to \infty e^{-$r_{t}$} q(t) k(t) = 0$.
 
@@ -4260,7 +4260,7 @@ By time-differentiating the first condition and inserting it into the second, we
 
 $$
 
-\frac {\dot {c}}{c} = \frac {\left(f ^ {\prime}
+\frac{\dot {c}}{c} = \frac{\left(f^{\prime}
 
 (k) - (r + \delta)\right)}{\sigma} \tag {35}
 
@@ -4303,7 +4303,7 @@ First, we must define a stochastic process $X - t$ as follows:
 
 $$
 
-X _ {t} = X _ {0} + \int_ {0} ^ {t} \sigma_ {s} d W _ {s} + \int_ {0} ^ {t} \mu_ {s} ds, \tag {36}
+X_{t} = X_{0} + \int_{0}^{t} \sigma_{s} d W_{s} + \int_{0}^{t} \mu_{s} ds, \tag {36}
 
 $$ where $dW_{s}$ is the increment of a Wiener process.
 
@@ -4311,34 +4311,34 @@ This simply says that process $X$ can be written as the sum of realizations of a
 
 It is often useful to write this in differential form:
 
-$$ d X _ {t} = \sigma_ {t} d W _ {t} + \mu_ {t} dt. \tag {37}
+$$ d X_{t} = \sigma_{t} d W_{t} + \mu_{t} dt. \tag {37}
 $$
 
 The next question is how to compute differentials of functions of these stochastic processes; i.e. what is $df(X_{t})$? The answer is given by Itô's Lemma:
 
 If $dX_{t} = \sigma_{t}dW_{t} + \mu_{t}$d_{t}$$, then:
 
-$$ d f = \left(\sigma_ {t} f ^ {\prime} \left(X _ {t}\right)\right) d W _ {t} + \left(\mu_ {t} f ^ {\prime} \left(X _ {t}\right) + \frac {1}{2} \sigma_ {t} ^ {2} f ^ {\prime \prime} \left(X _ {t}\right)\right) d t. \tag {38}
+$$ d f = \left(\sigma_{t} f^{\prime} \left(X_{t}\right)\right) d W_{t} + \left(\mu_{t} f^{\prime} \left(X_{t}\right) + \frac{1}{2} \sigma_{t}^{2} f^{\prime \prime} \left(X_{t}\right)\right) d t. \tag {38}
 $$
 
 Note that the standard non-stochastic version of this would not have the second term in parentheses, $\frac{1}{2}\sigma_t^2 f''(X_t)$.
 
 As an example of how this works, consider the function $F(X_{t}) = X_{t}^{2}$ for the process $dX_{t} = \sigma dW_{t} + \mu $d_{t}$$. Then, $f^{\prime}(X_{t}) = 2X_{t}$ and $f^{\prime \prime}(X_{t}) = 2$. Hence
 
-$$ df \left(X _ {t}\right) = \left(2 \sigma X _ {t}\right) d W _ {t} + \left(2 \mu X _ {t} + \sigma^ {2}\right) dt \tag {39}
+$$ df \left(X_{t}\right) = \left(2 \sigma X_{t}\right) d W_{t} + \left(2 \mu X_{t} + \sigma^{2}\right) dt \tag {39}
 $$
 
 In most economic problems we deal with in Ec208, we will often be taking conditional expectations of the differential. The important point to note here is that because increments in the Brownian motion are independent with zero mean, $E_{t}dW_{t} = 0$. Hence the general expression for $df$ derived above simplifies to:
 
 $$
-E _ {t} df = \left(\mu_ {t} f ^ {\prime} \left(X _ {t}\right) + \frac {1}{2} \sigma_ {t} ^ {2} f ^ {\prime \prime} \left(X _ {t}\right)\right) dt, \tag {40}
+E_{t} df = \left(\mu_{t} f^{\prime} \left(X_{t}\right) + \frac{1}{2} \sigma_{t}^{2} f^{\prime \prime} \left(X_{t}\right)\right) dt, \tag {40}
 $$ which is just a standard second-order differential equation in $X_{t}$, which can be solved with a standard technique, if it is solvable at all.
 
 For functions of two independent Brownian motions, $f(X_{1t}, X_{2t})$, where $X_{1t} = \sigma_{1t} dW_t + \mu_{1t} $d_{t}$$ and $X_{2t} = \sigma_{2t} dW_t + \mu_{2t} $d_{t}$$,
 
 $$
 
-\begin{array}{l} df = \left(\sigma_ {1 t} \frac {\partial f}{\partial X _ {1 t}}\right) d W _ {1 t} + \left(\sigma_ {2 t} \frac {\partial f}{\partial X _ {2 t}}\right) d W _ {2 t} \\ + \left(\mu_ {1 t} \frac {\partial f}{\partial X _ {1 t}} + \mu_ {2 t} \frac {\partial f}{\partial X _ {2 t}} + \frac {1}{2} \sigma_ {1 t} ^ {2} \frac {\partial^ {2} f}{\partial X _ {1 t} ^ {2}} + \frac {1}{2} \sigma_ {2 t} ^ {2} \frac {\partial^ {2} f}{\partial X _ {2 t} ^ {2}} + \sigma_ {1 t} \sigma_ {2 t} \frac {\partial^ {2} f}{\partial X _ {1 t} \partial X _ {2 t}}\right) dt. \tag {41} \\ \end{array}
+\begin{array}{l} df = \left(\sigma_{1 t} \frac{\partial f}{\partial X_{1 t}}\right) d W_{1 t} + \left(\sigma_{2 t} \frac{\partial f}{\partial X_{2 t}}\right) d W_{2 t} \\ + \left(\mu_{1 t} \frac{\partial f}{\partial X_{1 t}} + \mu_{2 t} \frac{\partial f}{\partial X_{2 t}} + \frac{1}{2} \sigma_{1 t}^{2} \frac{\partial^{2} f}{\partial X_{1 t}^{2}} + \frac{1}{2} \sigma_{2 t}^{2} \frac{\partial^{2} f}{\partial X_{2 t}^{2}} + \sigma_{1 t} \sigma_{2 t} \frac{\partial^{2} f}{\partial X_{1 t} \partial X_{2 t}}\right) dt. \tag {41} \\ \end{array}
 
 $$
 
@@ -4346,12 +4346,12 @@ This can be obtained from a standard Taylor Series expansion.
 
 The product rule for independent Brownian motions works the same as in the standard calculus case, so that:
 
-$$ d \left(X _ {1 t} X _ {2 t}\right) = X _ {1 t} d X _ {2 t} + X _ {2 t} d X _ {1 t} \tag {42}
+$$ d \left(X_{1 t} X_{2 t}\right) = X_{1 t} d X_{2 t} + X_{2 t} d X_{1 t} \tag {42}
 $$
 
 If $W_{1t} = W_{2t}$, however, the results are different. In that case, the differential is:
 
-$$ d \left(X _ {1 t} X _ {2 t}\right) = X _ {1 t} d X _ {2 t} + X _ {2 t} d X _ {1 t} + \sigma_ {1 t} \sigma_ {2 t} dt, \tag {43}
+$$ d \left(X_{1 t} X_{2 t}\right) = X_{1 t} d X_{2 t} + X_{2 t} d X_{1 t} + \sigma_{1 t} \sigma_{2 t} dt, \tag {43}
 $$ since $(dW_{t})^{2} = $d_{t}$$ by the multiplication laws for Brownian motions.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/b0885640-f709-4931-afd6-9c5bae2b99c1/84cbdfa5e126fc88699f74f80499a58a58e3f9f0ad6c4f31edea77604c285962.jpg)
 Figure 1.1

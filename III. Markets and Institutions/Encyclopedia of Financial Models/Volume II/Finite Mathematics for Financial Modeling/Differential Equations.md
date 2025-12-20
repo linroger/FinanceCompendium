@@ -23,7 +23,7 @@ The solutions to a differential equation or system of differential equations can
 A solution of a differential equation is a function that satisfies the given condition. For example, the condition
 
 $$
-Y ^ {\prime \prime} (x) + \alpha Y ^ {\prime} (x) + \beta Y (x) - b (x) = 0
+Y^{\prime \prime} (x) + \alpha Y^{\prime} (x) + \beta Y (x) - b (x) = 0
 $$ equates to zero a linear relationship between an unknown function  $Y(x)$ , its first and second derivatives  $Y'(x), Y''(x)$ , and a known function  $b(x)$ . (In some equations we will denote the first and second derivatives by a single and double prime, respectively.) The unknown function  $Y(x)$  is the solution of the equation that is to be determined.
 
 
@@ -35,12 +35,12 @@ There are two broad types of differential equations: ordinary differential equat
 In full generality, an ordinary differential equation (ODE) can be expressed as the following relationship:
 
 $$
-F [ x, Y (x), Y ^ {1} (x), \dots , Y ^ {(n)} (x) ] = 0
+F [ x, Y (x), Y^{1} (x), \dots , Y^{(n)} (x) ] = 0
 $$ where  $Y^{(m)}(x)$  denotes the  $m$ -th derivative of an unknown function  $Y(x)$ . If the equation can be solved for the  $n$ -th derivative, it can be put in the form:
 
 
 $$
-Y ^ {(n)} (x) = G [ x, Y (x), Y ^ {(1)} (x), \ldots , Y ^ {(n - 1)} (x) ]
+Y^{(n)} (x) = G [ x, Y (x), Y^{(1)} (x), \ldots , Y^{(n - 1)} (x) ]
 $$
 
 # Order and Degree of an ODE
@@ -50,17 +50,17 @@ A differential equation is classified in terms of its order and its degree. The 
 For example, the following ordinary differential equations are first-degree differential equations of different orders:
 
 $$
-\begin{array}{l} Y ^ {(1)} (x) - 1 0 Y (x) + 4 0 = 0 \quad (\text {o r d e r} 1) \\ \begin{array}{c} 4 Y ^ {(3)} (x) + Y ^ {(2)} (x) + Y ^ {(1)} (x) - 0. 5 Y (x) + 1 0 0 = 0 \\ \text {(o r d e r 3)} \end{array} \\ \end{array}
+\begin{array}{l} Y^{(1)} (x) - 1 0 Y (x) + 4 0 = 0 \quad (\text{or de r} 1) \\ \begin{array}{c} 4 Y^{(3)} (x) + Y^{(2)} (x) + Y^{(1)} (x) - 0. 5 Y (x) + 1 0 0 = 0 \\ \text{(or de r3)} \end{array} \\ \end{array}
 $$
 
 The following ordinary differential equations are of order 3 and fifth degree:
 
 $$
-\begin{array}{l} 4 [ Y ^ {(3)} (x) ] ^ {5} + [ Y ^ {(2)} (x) ] ^ {2} + Y ^ {(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
+\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{2} + Y^{(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 4 [ Y ^ {(3)} (x) ] ^ {5} + [ Y ^ {(2)} (x) ] ^ {3} + Y ^ {(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
+\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{3} + Y^{(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
 $$
 
 When an ordinary differential equation is of the first degree, it is said to be a linear ordinary differential equation.
@@ -70,13 +70,13 @@ When an ordinary differential equation is of the first degree, it is said to be 
 Let's return to the general ODE. A solution of this equation is any function  $y(x)$  such that:
 
 $$
-F [ x, y (x), y ^ {(1)} (x), \dots , y ^ {(n)} (x) ] = 0
+F [ x, y (x), y^{(1)} (x), \dots , y^{(n)} (x) ] = 0
 $$
 
 In general there will be not one but an infinite family of solutions. For example, the equation
 
 $$
-Y ^ {(1)} (x) = \alpha Y (x)
+Y^{(1)} (x) = \alpha Y (x)
 $$ admits, as a solution, all the functions of the form
 
 
@@ -88,7 +88,7 @@ To identify one specific solution among the possible infinite solutions that sat
 Given an ODE of order  $n$ , to ensure the uniqueness of solutions it will generally be necessary to specify a starting point and the initial value of  $n-1$  derivatives. It can be demonstrated, given the differential equation
 
 $$
-F [ x, Y (x), Y ^ {(1)} (x), \ldots , Y ^ {(n)} (x) ] = 0
+F [ x, Y (x), Y^{(1)} (x), \ldots , Y^{(n)} (x) ] = 0
 $$ that if the function  $F$  is continuous and all of its partial derivatives up to order  $n$  are continuous in some region containing the values  $y_0,\ldots ,y_0^{(n - 1)}$ , then there is a unique solution  $y(x)$  of the equation in some interval  $I = (M\leq x\leq L)$  such that  $y_{0} = Y(x_{0}),\dots,y_{0}^{(n - 1)} = Y^{(n - 1)}(x_{0})$  Note that this theorem states that there is an interval in which the solution exists. Existence and uniqueness of solutions in a given interval
 
 
@@ -96,7 +96,7 @@ is a more delicate matter and must be examined for different classes of equation
 
 The general solution of a differential equation of order  $n$  is a function of the form
 
-$$ y = \varphi (x, C _ {1}, \dots , C _ {n})
+$$ y = \varphi (x, C_{1}, \dots , C_{n})
 $$ that satisfies the following two conditions:
 
 
@@ -113,12 +113,12 @@ Differential equations can be combined to form systems of differential equations
 
 
 $$
-\left\{ \begin{array}{l} \frac {d y _ {1}}{d x} = f _ {1} (x, y _ {1}, \ldots , y _ {n}) \\ \frac {d y _ {2}}{d x} = f _ {2} (x, y _ {1}, \ldots , y _ {n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac {d y _ {n}}{d x} = f _ {n} (x, y _ {1}, \ldots , y _ {n}) \end{array} \right.
+\left\{ \begin{array}{l} \frac{d y_{1}}{d x} = f_{1} (x, y_{1}, \ldots , y_{n}) \\ \frac{d y_{2}}{d x} = f_{2} (x, y_{1}, \ldots , y_{n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac{d y_{n}}{d x} = f_{n} (x, y_{1}, \ldots , y_{n}) \end{array} \right.
 $$
 
 Solving this system means finding a set of functions  $y_{1},\ldots ,y_{n}$  that satisfy the system as well as the initial conditions:
 
-$$ y _ {1} (x _ {0}) = y _ {1 0}, \dots , y _ {n} (x _ {0}) = y _ {n 0}
+$$ y_{1} (x_{0}) = y_{1 0}, \dots , y_{n} (x_{0}) = y_{n 0}
 $$
 
 Systems of orders higher than one can be reduced to first-order systems in a straightforward way by adding new variables defined as the derivatives of existing variables. As a consequence, an  $n$ -th order differential equation can be transformed into a first-order system of  $n$  equations. Conversely, a system of first-order differential equations is equivalent to a single  $n$ -th order equation.
@@ -126,47 +126,47 @@ Systems of orders higher than one can be reduced to first-order systems in a str
 To illustrate this point, let's differentiate the first equation to obtain
 
 $$
-\frac {d ^ {2} y _ {1}}{d x ^ {2}} = \frac {\partial f _ {1}}{\partial x} + \frac {\partial f _ {1}}{\partial y _ {1}} \frac {d y _ {1}}{d x} + \dots + \frac {\partial f _ {1}}{\partial y _ {n}} \frac {d y _ {n}}{d x}
+\frac{d^{2} y_{1}}{d x^{2}} = \frac{\partial f_{1}}{\partial x} + \frac{\partial f_{1}}{\partial y_{1}} \frac{d y_{1}}{d x} + \dots + \frac{\partial f_{1}}{\partial y_{n}} \frac{d y_{n}}{d x}
 $$
 
 Replacing the derivatives
 
 $$
-\frac {d y _ {1}}{d x}, \dots , \frac {d y _ {n}}{d x}
+\frac{d y_{1}}{d x}, \dots , \frac{d y_{n}}{d x}
 $$ with their expressions  $f_{1},\ldots ,f_{n}$  from the system's equations, we obtain
 
 
 $$
-\frac {d ^ {2} y _ {1}}{d x ^ {2}} = F _ {2} (x, y _ {1}, \ldots , y _ {n})
+\frac{d^{2} y_{1}}{d x^{2}} = F_{2} (x, y_{1}, \ldots , y_{n})
 $$
 
 If we now reiterate this process, we arrive at the  $n$ -th order equation:
 
 $$
-\frac {d ^ {(n)} y _ {1}}{d x ^ {(n)}} = F _ {n} (x, y _ {1}, \dots , y _ {n})
+\frac{d^{(n)} y_{1}}{d x^{(n)}} = F_{n} (x, y_{1}, \dots , y_{n})
 $$
 
 We can thus write the following system:
 
 $$
-\left\{ \begin{array}{l} \frac {d y _ {1}}{d x} = f _ {1} (x, y _ {1}, \ldots , y _ {n}) \\ \frac {d ^ {2} y _ {1}}{d x ^ {2}} = F _ {2} (x, y _ {1}, \ldots , y _ {n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac {d ^ {(n)} y _ {1}}{d x ^ {(n)}} = F _ {n} (x, y _ {1}, \ldots , y _ {n}) \end{array} \right.
+\left\{ \begin{array}{l} \frac{d y_{1}}{d x} = f_{1} (x, y_{1}, \ldots , y_{n}) \\ \frac{d^{2} y_{1}}{d x^{2}} = F_{2} (x, y_{1}, \ldots , y_{n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac{d^{(n)} y_{1}}{d x^{(n)}} = F_{n} (x, y_{1}, \ldots , y_{n}) \end{array} \right.
 $$
 
 We can express  $y_{2},\ldots ,y_{n}$  as functions of  $x,y_{1},$ $y_1^{\prime},\ldots ,y_1^{(n - 1)}$  by solving, if possible, the system formed with the first  $n - 1$  equations:
 
 $$
-\left\{ \begin{array}{l l} y _ {2} = \varphi_ {2} (x, y _ {1}, y _ {1} ^ {\prime}, \ldots , y _ {1} ^ {(n - 1)}) \\ y _ {3} = \varphi_ {3} (x, y _ {1}, y _ {1} ^ {\prime}, \ldots , y _ {1} ^ {(n - 1)}) \\ \cdot \\ \cdot \\ \cdot \\ y _ {n} = \varphi_ {n} (x, y _ {1}, y _ {1} ^ {\prime}, \ldots , y _ {1} ^ {(n - 1)}) \end{array} \right.
+\left\{ \begin{array}{l l} y_{2} = \varphi_{2} (x, y_{1}, y_{1}^{\prime}, \ldots , y_{1}^{(n - 1)}) \\ y_{3} = \varphi_{3} (x, y_{1}, y_{1}^{\prime}, \ldots , y_{1}^{(n - 1)}) \\ \cdot \\ \cdot \\ \cdot \\ y_{n} = \varphi_{n} (x, y_{1}, y_{1}^{\prime}, \ldots , y_{1}^{(n - 1)}) \end{array} \right.
 $$
 
 Substituting these expressions into the  $n$ -th equation of the previous system, we arrive at the single equation:
 
 $$
-\frac {d ^ {(n)} y _ {1}}{d x ^ {(n)}} = \Phi (x, y _ {1} ^ {\prime}, \ldots , y _ {1} ^ {(n - 1)})
+\frac{d^{(n)} y_{1}}{d x^{(n)}} = \Phi (x, y_{1}^{\prime}, \ldots , y_{1}^{(n - 1)})
 $$
 
 Solving, if possible, this equation, we find the general solution
 
-$$ y _ {1} = y _ {1} (x, C _ {1}, \dots , C _ {n})
+$$ y_{1} = y_{1} (x, C_{1}, \dots , C_{n})
 $$
 
 Substituting this expression for  $y_{1}$  into the previous system,  $y_{2},\ldots ,y_{n}$  can be computed.
@@ -176,59 +176,59 @@ Substituting this expression for  $y_{1}$  into the previous system,  $y_{2},\ld
 Let's now consider the methods for solving two types of common differential equations: equations with separable variables and equations of linear type. Let's start with equations with separable variables. Consider the equation
 
 $$
-\frac {d y}{d x} = f (x) g (y)
+\frac{d y}{d x} = f (x) g (y)
 $$
 
 This equation is said to have separable variables because it can be written as an equality between two sides, each depending on only  $y$  or only  $x$ . We can rewrite our equation in the following way:
 
 $$
-\frac {d y}{g (y)} = f (x) d x
+\frac{d y}{g (y)} = f (x) d x
 $$
 
 This equation can be regarded as an equality between two differentials in  $y$  and  $x$  respectively. Their indefinite integrals can differ only by a constant. Integrating the left side with respect to  $y$  and the right side with respect to  $x$ , we obtain the general solution of the equation:
 
 $$
-\int \frac {d y}{g (y)} = \int f (x) d x + C
+\int \frac{d y}{g (y)} = \int f (x) d x + C
 $$
 
 For example, if  $g(y) \equiv y$ , the previous equation becomes
 
 $$
-\frac {d y}{y} = f (x) d x
+\frac{d y}{y} = f (x) d x
 $$ whose solution is
 
 
 $$
-\begin{array}{l} \int \frac {d y}{y} = \int f (x) d x + C \Rightarrow \\ \log y = \int f (x) d x + C \Rightarrow y = A \exp (\int f (x) d x) \\ \end{array}
+\begin{array}{l} \int \frac{d y}{y} = \int f (x) d x + C \Rightarrow \\ \log y = \int f (x) d x + C \Rightarrow y = A \exp (\int f (x) d x) \\ \end{array}
 $$ where  $A = \exp (C)$
 
 
 A differential equation of this type describes the continuous compounding of time-varying interest rates. Consider, for example, the growth of capital  $C$  deposited in a bank account that earns the variable but deterministic rate  $r = f(t)$ . When interest rates  $R_{i}$  are constant for discrete periods of time  $\Delta t_{i}$ , compounding is obtained by purely algebraic formulas as follows:
 
 $$
-R _ {i} \Delta t _ {i} = \frac {C (t _ {i}) - C (t _ {i - \Delta t _ {i}})}{C (t _ {i - \Delta t _ {i}})}
+R_{i} \Delta t_{i} = \frac{C (t_{i}) - C (t_{i - \Delta t_{i}})}{C (t_{i - \Delta t_{i}})}
 $$
 
 Solving for  $C(t_{i})$ :
 
 $$
-C \left(t _ {i}\right) = \left(1 + R _ {i} \Delta t _ {i}\right) C \left(t _ {i - \Delta t _ {i}}\right)
+C \left(t_{i}\right) = \left(1 + R_{i} \Delta t_{i}\right) C \left(t_{i - \Delta t_{i}}\right)
 $$
 
 By recursive substitution we obtain
 
 $$
-\begin{array}{l} C \left(t _ {i}\right) = \left(1 + R _ {i} \Delta t _ {i}\right) \left(1 + R _ {i - 1} \Delta t _ {i - 1}\right) \dots \\ (1 + R _ {1} \Delta t _ {1}) C (t _ {0}) \\ \end{array}
+\begin{array}{l} C \left(t_{i}\right) = \left(1 + R_{i} \Delta t_{i}\right) \left(1 + R_{i - 1} \Delta t_{i - 1}\right) \dots \\ (1 + R_{1} \Delta t_{1}) C (t_{0}) \\ \end{array}
 $$
 
 However, market interest rates are subject to rapid change. In the limit of very short time intervals, the instantaneous rate  $r(t)$  would be defined as the limit, if it exists, of the discrete interest rate:
 
-$$ r (t) = \lim  _ {\Delta t \rightarrow 0} \frac {C (t + \Delta t) - C (t)}{\Delta t C (t)}
+$$ r (t) = \lim_{\Delta t \rightarrow 0} \frac{C (t + \Delta t) - C (t)}{\Delta t C (t)}
 $$
 
 The above expression can be rewritten as a simple first-order differential equation in  $C$ :
 
-$$ r (t) C (t) = \frac {d C (t)}{d t}
+$$ r (t) C (t) = \frac{d C (t)}{d t}
 $$
 
 In a simple intuitive way, the above equation can be obtained considering that in the elementary time  $dt$  the bank account increments by the amount  $dC = C(t)r(t)dt$ . In this equation, variables are separable. It admits the family of solutions:
@@ -243,14 +243,14 @@ $$ where  $A$  is the initial capital.
 Linear differential equations are equations of the following type:
 
 $$
-\begin{array}{l} a _ {n} (x) y ^ {(n)} + a _ {n - 1} (x) y ^ {(n - 1)} + \dots + a _ {1} (x) y ^ {(1)} \\ + a _ {0} (x) y + b (x) = 0 \\ \end{array}
+\begin{array}{l} a_{n} (x) y^{(n)} + a_{n - 1} (x) y^{(n - 1)} + \dots + a_{1} (x) y^{(1)} \\ + a_{0} (x) y + b (x) = 0 \\ \end{array}
 $$
 
 If the function  $b$  is identically zero, the equation is said to be homogeneous.
 
 In cases where the coefficients  $a$ 's are constant, Laplace transforms provide a powerful method for solving linear differential equations. (Laplace transforms are one of two popular integral transforms—the other being Fourier transforms—used in financial modeling. Integral transforms are operations that take any function into another function of a different variable through an improper integral.) Consider, without loss of generality, the following linear equation with constant coefficients:
 
-$$ a _ {n} y ^ {(n)} + a _ {n - 1} y ^ {(n - 1)} + \dots + a _ {1} y ^ {(1)} + a _ {0} y = b (x)
+$$ a_{n} y^{(n)} + a_{n - 1} y^{(n - 1)} + \dots + a_{1} y^{(1)} + a_{0} y = b (x)
 $$ together with the initial conditions:  $y(0) = y_0, \ldots, y^{(n-1)}(0) = y_0^{(n-1)}$ . In cases in which the initial point is not the origin, by a variable transformation we can shift the origin.
 
 
@@ -259,21 +259,21 @@ $$ together with the initial conditions:  $y(0) = y_0, \ldots, y^{(n-1)}(0) = y_
 For one-sided Laplace transforms the following formulas hold:
 
 $$
-\mathcal {L} \left(\frac {d f (x)}{d x}\right) = s \mathcal {L} [ f (x) ] - f (0)
+\mathcal {L} \left(\frac{d f (x)}{d x}\right) = s \mathcal {L} [ f (x) ] - f (0)
 $$
 
 $$
-\begin{array}{l} \mathcal {L} \left(\frac {d ^ {n} f (x)}{d x ^ {n}}\right) = s ^ {n} \mathcal {L} [ f (x) ] - s ^ {n - 1} f (0) - \dots \\ - f ^ {(n - 1)} (0) \\ \end{array}
+\begin{array}{l} \mathcal {L} \left(\frac{d^{n} f (x)}{d x^{n}}\right) = s^{n} \mathcal {L} [ f (x) ] - s^{n - 1} f (0) - \dots \\ - f^{(n - 1)} (0) \\ \end{array}
 $$
 
 Suppose that a function  $y = y(x)$  satisfies the previous linear equation with constant coefficients and that it admits a Laplace transform. Apply one-sided Laplace transform to both sides of the equation. If  $Y(s) = \mathcal{L}[y(x)]$ , the following relationships hold:
 
 $$
-\begin{array}{l} L \left(a _ {n} y ^ {(n)} + a _ {n - 1} y ^ {(n - 1)} + \dots + a _ {1} y ^ {(1)} + a _ {0} y\right) \\ = L [ b (x) ] \\ \end{array}
+\begin{array}{l} L \left(a_{n} y^{(n)} + a_{n - 1} y^{(n - 1)} + \dots + a_{1} y^{(1)} + a_{0} y\right) \\ = L [ b (x) ] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} a _ {n} \left[ s ^ {n} Y (s) - s ^ {n - 1} y ^ {(1)} (0) - \dots - y ^ {(n - 1)} (0) \right] \\ + a _ {n - 1} \left[ s ^ {n - 1} Y (s) - s ^ {n - 2} y ^ {(1)} (0) - \dots - y ^ {(n - 2)} (0) \right] \\ + \dots + a _ {0} Y (s) = B (s) \\ \end{array}
+\begin{array}{l} a_{n} \left[ s^{n} Y (s) - s^{n - 1} y^{(1)} (0) - \dots - y^{(n - 1)} (0) \right] \\ + a_{n - 1} \left[ s^{n - 1} Y (s) - s^{n - 2} y^{(1)} (0) - \dots - y^{(n - 2)} (0) \right] \\ + \dots + a_{0} Y (s) = B (s) \\ \end{array}
 $$
 
 Solving this equation for  $Y(s)$ , that is,  $Y(s) = g[s,y^{(t)}(0),\ldots ,y^{(n - 1)}(0)]$  the inverse Laplace transform  $y(t) = \mathcal{L}^{-1}[Y(s)]$  uniquely determines the solution of the equation.
@@ -293,7 +293,7 @@ Key to this method of numerical solution is the fact that ODEs subject to initia
 To illustrate the finite difference method, consider the following simple ordinary differential equation and its solution in a finite interval:
 
 $$
-\begin{array}{l} f ^ {\prime} (x) = f (x) \\ \frac {d f}{f} = d x \\ \log f (x) = x + C \\ f (x) = \exp (x + C) \\ \end{array}
+\begin{array}{l} f^{\prime} (x) = f (x) \\ \frac{d f}{f} = d x \\ \log f (x) = x + C \\ f (x) = \exp (x + C) \\ \end{array}
 $$
 
 As shown, the closed-form solution of the equation is obtained by separation of variables, that is, by transforming the original equation into another equation where the function  $f$  appears only on the left side and the variable  $x$  only on the right side.
@@ -305,15 +305,15 @@ Figure 1 Numerical Solutions of the Equation  $f' = f$  with the Euler Approxima
 Suppose that we replace the derivative with its forward finite difference approximation and solve
 
 $$
-\frac {f (x _ {i + 1}) - f (x _ {i})}{x _ {i + 1} - x _ {i}} = f (x _ {i})
+\frac{f (x_{i + 1}) - f (x_{i})}{x_{i + 1} - x_{i}} = f (x_{i})
 $$
 
-$$ f \left(x _ {i + 1}\right) = \left[ 1 + \left(x _ {i + 1} - x _ {i}\right) \right] f \left(x _ {i}\right)
+$$ f \left(x_{i + 1}\right) = \left[ 1 + \left(x_{i + 1} - x_{i}\right) \right] f \left(x_{i}\right)
 $$
 
 If we assume that the step size is constant for all  $i$ :
 
-$$ f (x _ {i}) = [ 1 + \Delta x ] ^ {i} f (x _ {0})
+$$ f (x_{i}) = [ 1 + \Delta x ]^{i} f (x_{0})
 $$
 
 The replacement of derivatives with finite differences is often called the Euler approximation. The differential equation is replaced by a recursive formula based on approximating the derivative with a finite difference. The  $i$ -th value of the solution is computed from the  $i-1$ -th value. Given the initial value of the func tion  $f$ , the solution of the differential equation can be arbitrarily approximated by choosing a sufficiently small interval. Figure 1 illustrates this computation for different values of  $\Delta x$ .
@@ -321,42 +321,42 @@ The replacement of derivatives with finite differences is often called the Euler
 
 In the previous example of a first-order linear equation, only one initial condition was involved. Let's now consider a second-order equation:
 
-$$ f ^ {\prime \prime} (x) = k f (x) = 0
+$$ f^{\prime \prime} (x) = k f (x) = 0
 $$
 
 This equation describes oscillatory motion, such as the elongation of a pendulum or the displacement of a spring.
 
 To approximate this equation we must approximate the second derivative. This could be done, for example, by combining difference quotients as follows:
 
-$$ f ^ {\prime} (x) \approx \frac {f (x + \Delta x) - f (x)}{\Delta x}
+$$ f^{\prime} (x) \approx \frac{f (x + \Delta x) - f (x)}{\Delta x}
 $$
 
-$$ f ^ {\prime} (x + \Delta x) \approx \frac {f (x + 2 \Delta x) - f (x + \Delta x)}{\Delta x}
+$$ f^{\prime} (x + \Delta x) \approx \frac{f (x + 2 \Delta x) - f (x + \Delta x)}{\Delta x}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/563d3cd3df71d3cca53279bb80fcd9b11a80dfce51fb767d72d8d96ddcfa7c9b.jpg)
 Figure 2 Numerical Solution of the Equation  $f^{\prime \prime} + f = 0$  with the Euler Approximation
 
 $$
-\begin{array}{l} f ^ {\prime \prime} (x) \approx \frac {f ^ {\prime} (x + \Delta x) - f ^ {\prime} (x)}{\Delta x} \\ = \frac {\frac {f (x + 2 \Delta x) - f (x - \Delta x)}{\Delta x} - \frac {f (x + \Delta x) - f (x)}{\Delta x}}{\Delta x} \\ = \frac {f (x + 2 \Delta x) - 2 f (x + \Delta x) + f (x)}{(\Delta x) ^ {2}} \\ \end{array}
+\begin{array}{l} f^{\prime \prime} (x) \approx \frac{f^{\prime} (x + \Delta x) - f^{\prime} (x)}{\Delta x} \\ = \frac{\frac{f (x + 2 \Delta x) - f (x - \Delta x)}{\Delta x} - \frac{f (x + \Delta x) - f (x)}{\Delta x}}{\Delta x} \\ = \frac{f (x + 2 \Delta x) - 2 f (x + \Delta x) + f (x)}{(\Delta x)^{2}} \\ \end{array}
 $$
 
 With this approximation, the original equation becomes
 
 $$
-\begin{array}{l} f ^ {\prime \prime} (x) + k f (x) \approx \\ \frac {f (x + 2 \Delta x) - 2 f (x + \Delta x) + f (x)}{(\Delta x) ^ {2}} + k f (x) = 0 \\ \end{array}
+\begin{array}{l} f^{\prime \prime} (x) + k f (x) \approx \\ \frac{f (x + 2 \Delta x) - 2 f (x + \Delta x) + f (x)}{(\Delta x)^{2}} + k f (x) = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} f (x + 2 \Delta x) - 2 f (x + \Delta x) + (1 + k (\Delta x) ^ {2}) f (x) \\ = 0 \end{array}
+\begin{array}{l} f (x + 2 \Delta x) - 2 f (x + \Delta x) + (1 + k (\Delta x)^{2}) f (x) \\ = 0 \end{array}
 $$
 
 We can thus write the approximation scheme:
 
-$$ f (x + \Delta x) = f (x) + \Delta x f ^ {\prime} (x)
+$$ f (x + \Delta x) = f (x) + \Delta x f^{\prime} (x)
 $$
 
-$$ f (x + 2 \Delta x) = 2 f (x + \Delta x) - (1 + k (\Delta x) ^ {2}) f (x)
+$$ f (x + 2 \Delta x) = 2 f (x + \Delta x) - (1 + k (\Delta x)^{2}) f (x)
 $$
 
 Given the increment  $\Delta x$  and the initial values  $f(0), f'(0)$ , using the above formulas we can recursively compute  $f(0 + \Delta x), f(0 + 2\Delta x)$ , and so on. Figure 2 illustrates this computation.
@@ -364,28 +364,28 @@ Given the increment  $\Delta x$  and the initial values  $f(0), f'(0)$ , using t
 In practice, the Euler approximation scheme is often not sufficiently precise and more sophisticated approximation schemes are used. For example, a widely used approximation scheme is the Runge-Kutta method. We give an example of the Runge-Kutta method in the case of the equation  $f'' + f = 0$  which is equivalent to the linear system:
 
 $$
-\begin{array}{l} x ^ {\prime} = y \\ y ^ {\prime} = - x \\ \end{array}
+\begin{array}{l} x^{\prime} = y \\ y^{\prime} = - x \\ \end{array}
 $$
 
 In this case the Runge-Kutta approximation scheme is the following:
 
 $$
-\begin{array}{l} k _ {1} = h y (i) \\ h _ {1} = - h x (i) \\ k _ {2} = h \left[ y (i) + \frac {1}{2} h _ {1} \right] \\ h _ {2} = - h \left[ x (i) + \frac {1}{2} k _ {1} \right] \\ k _ {3} = h \left[ y (i) + \frac {1}{2} h _ {2} \right] \\ h _ {3} = - h \left[ x (i) + \frac {1}{2} k _ {2} \right] \\ \end{array}
+\begin{array}{l} k_{1} = h y (i) \\ h_{1} = - h x (i) \\ k_{2} = h \left[ y (i) + \frac{1}{2} h_{1} \right] \\ h_{2} = - h \left[ x (i) + \frac{1}{2} k_{1} \right] \\ k_{3} = h \left[ y (i) + \frac{1}{2} h_{2} \right] \\ h_{3} = - h \left[ x (i) + \frac{1}{2} k_{2} \right] \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/7af9bf30047e6c1ef97f9b2c7f7096790da2cd75a69fedba2dbebfd16b2a7d66.jpg)
 Figure 3 Numerical Solution of the Equation  $f' = f$  with the Runge-Kutta Method After 10 Steps
 
-$$ k _ {4} = h \left[ y (i) + h _ {3} \right]
+$$ k_{4} = h \left[ y (i) + h_{3} \right]
 $$
 
-$$ h _ {4} = - h [ x (i) + k _ {3} ]
+$$ h_{4} = - h [ x (i) + k_{3} ]
 $$
 
-$$ x (i + 1) = x (i) + \frac {1}{6} \left(k _ {1} + 2 k _ {2} + 2 k _ {3} + k _ {4}\right)
+$$ x (i + 1) = x (i) + \frac{1}{6} \left(k_{1} + 2 k_{2} + 2 k_{3} + k_{4}\right)
 $$
 
-$$ y (i + 1) = y (i) + \frac {1}{6} \left(h _ {1} + 2 h _ {2} + 2 h _ {3} + h _ {4}\right)
+$$ y (i + 1) = y (i) + \frac{1}{6} \left(h_{1} + 2 h_{2} + 2 h_{3} + h_{4}\right)
 $$
 
 Figures 3 and 4 illustrate the results of this method in the two cases  $f' = f$  and  $f'' + f = 0$ .
@@ -396,7 +396,7 @@ In the case of boundary conditions, one cannot write a direct recursive scheme; 
 
 
 $$
-\left\{ \begin{array}{l} f (\Delta x) = f _ {0} + \delta \Delta x \\ f (2 \Delta x) = 2 f (\Delta x) - (1 + k (\Delta x) ^ {2}) f _ {0} \\ f (3 \Delta x) = 2 f (2 \Delta x) - (1 + k (\Delta x) ^ {2}) f (\Delta x) \\ \cdot \\ \cdot \\ \cdot \\ f _ {1 0 0 0} = 2 f (9 9 9 \Delta x) - (1 + k (\Delta x) ^ {2}) f (9 9 8 \Delta x) \end{array} \right.
+\left\{ \begin{array}{l} f (\Delta x) = f_{0} + \delta \Delta x \\ f (2 \Delta x) = 2 f (\Delta x) - (1 + k (\Delta x)^{2}) f_{0} \\ f (3 \Delta x) = 2 f (2 \Delta x) - (1 + k (\Delta x)^{2}) f (\Delta x) \\ \cdot \\ \cdot \\ \cdot \\ f_{1 0 0 0} = 2 f (9 9 9 \Delta x) - (1 + k (\Delta x)^{2}) f (9 9 8 \Delta x) \end{array} \right.
 $$
 
 This is a system of 1,000 equations in 1,000 unknowns. Solving the system we compute the entire solution. In this system two equations, the first and the last, are linked to boundary values; all other equations are transfer equations that express the dynamics (or the law) of the system. This is a general feature of boundary value problems. We will encounter it again when discussing numerical solutions of partial differential equations.
@@ -422,7 +422,7 @@ Consider an equilibrium solution of a dynamical system, that is, a solution that
 Consider a system of  $n$  equations of first order. (As noted above, systems of higher orders can always be reduced to first-order systems by enlarging the set of variables.) Suppose that we can write the system explicitly in the first derivatives as follows:
 
 $$
-\left\{ \begin{array}{l} \frac {d y _ {1}}{d x} = f _ {1} (x, y _ {1}, \ldots , y _ {n}) \\ \frac {d y _ {2}}{d x} = f _ {2} (x, y _ {1}, \ldots , y _ {n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac {d y _ {n}}{d x} = f _ {n} (x, y _ {1}, \ldots , y _ {n}) \end{array} \right.
+\left\{ \begin{array}{l} \frac{d y_{1}}{d x} = f_{1} (x, y_{1}, \ldots , y_{n}) \\ \frac{d y_{2}}{d x} = f_{2} (x, y_{1}, \ldots , y_{n}) \\ \cdot \\ \cdot \\ \cdot \\ \frac{d y_{n}}{d x} = f_{n} (x, y_{1}, \ldots , y_{n}) \end{array} \right.
 $$
 
 If the equations are all linear, a complete theory of stability has been developed. Essentially, linear dynamical systems are stable except possibly at singular points where solutions might diverge. In particular, a characteristic of linear systems is that they incur only small changes in the solution as a result of small changes in the initial conditions.
@@ -454,7 +454,7 @@ To illustrate the notion of a partial differential equation (PDE), let's start w
 
 
 $$
-\begin{array}{l} F \left(x, y, \frac {\partial f}{\partial x}, \frac {\partial f}{\partial y}, \dots , \frac {\partial^ {(i)} f}{\partial^ {(k)} x \partial^ {(i - k)} y}\right) \\ = 0, 0 \leq k \leq i, 0 \leq i \leq n \\ \end{array}
+\begin{array}{l} F \left(x, y, \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \dots , \frac{\partial^{(i)} f}{\partial^{(k)} x \partial^{(i - k)} y}\right) \\ = 0, 0 \leq k \leq i, 0 \leq i \leq n \\ \end{array}
 $$
 
 A solution of the previous equation will be any function that satisfies the equation.
@@ -468,7 +468,7 @@ Different equations will require and admit different types of boundary and initi
 Let's consider the diffusion equation. This equation describes the propagation of the probability density of stock prices under the random-walk hypothesis:
 
 $$
-\frac {\partial f}{\partial t} = a ^ {2} \frac {\partial^ {2} f}{\partial x ^ {2}}
+\frac{\partial f}{\partial t} = a^{2} \frac{\partial^{2} f}{\partial x^{2}}
 $$
 
 The Black-Scholes equation, which describes the evolution of option prices, can be reduced to the diffusion equation.
@@ -484,7 +484,7 @@ $$ f (0, x) = \phi (x), 0 \leq x \leq l
 $$ and boundary conditions,
 
 
-$$ f (t, 0) = f _ {1} (t), \quad f (t, l) = f _ {2} (t), \quad 0 \leq t \leq T
+$$ f (t, 0) = f_{1} (t), \quad f (t, l) = f_{2} (t), \quad 0 \leq t \leq T
 $$
 
 The functions  $f_{1}, f_{2}$  are assumed to be continuous and  $f_{1}(0) = \phi(0), f_{2}(0) = \phi(l)$ .
@@ -498,71 +498,71 @@ The first boundary value problem of the diffusion equation can be solved exactly
 If we substitute the previous tentative solution in the diffusion equation
 
 $$
-{\frac {\partial f}{\partial t}} = a ^ {2} {\frac {\partial^ {2} f}{\partial x ^ {2}}}
+{\frac{\partial f}{\partial t}} = a^{2} {\frac{\partial^{2} f}{\partial x^{2}}}
 $$ we obtain an equation where the left side depends only on  $t$  while the right side depends
 
 
 only on  $x$ :
 
 $$
-\frac {d h (t)}{d t} g (x) = a ^ {2} h (t) \frac {d ^ {2} g (x)}{d x ^ {2}}
+\frac{d h (t)}{d t} g (x) = a^{2} h (t) \frac{d^{2} g (x)}{d x^{2}}
 $$
 
 $$
-\frac {d h (t)}{d t} \frac {1}{h (t)} = a ^ {2} \frac {d ^ {2} g (x)}{d x ^ {2}} \frac {1}{g (x)}
+\frac{d h (t)}{d t} \frac{1}{h (t)} = a^{2} \frac{d^{2} g (x)}{d x^{2}} \frac{1}{g (x)}
 $$
 
 This condition can be satisfied only if the two sides are equal to a constant. The original diffusion equation is therefore transformed into two ordinary differential equations:
 
 $$
-\frac {1}{a ^ {2}} \frac {d h (t)}{d t} = b h (t)
+\frac{1}{a^{2}} \frac{d h (t)}{d t} = b h (t)
 $$
 
 $$
-\frac {d ^ {2} g (x)}{d x ^ {2}} = b g (x)
+\frac{d^{2} g (x)}{d x^{2}} = b g (x)
 $$ with boundary conditions  $g(0) = g(l) = 0$ . From the above equations and boundary conditions, it can be seen that  $b$  can assume only the negative values,
 
 
-$$ b = - \frac {k ^ {2} \pi^ {2}}{l ^ {2}}, k = 1, 2, \dots
+$$ b = - \frac{k^{2} \pi^{2}}{l^{2}}, k = 1, 2, \dots
 $$ while the functions  $g$  can only be of the form
 
 
-$$ g (x) = B _ {k} \sin \frac {k \pi}{l} x
+$$ g (x) = B_{k} \sin \frac{k \pi}{l} x
 $$
 
 Substituting for  $h$ , we obtain
 
-$$ h (t) = B _ {k} ^ {\prime} \exp \left(- \frac {a ^ {2} k ^ {2} \pi^ {2}}{l ^ {2}} t\right)
+$$ h (t) = B_{k}^{\prime} \exp \left(- \frac{a^{2} k^{2} \pi^{2}}{l^{2}} t\right)
 $$
 
 Therefore, we can see that there are denumerably infinite solutions of the diffusion equation of the form
 
-$$ f _ {x} (t, x) = C _ {k} \exp \left(- \frac {a ^ {2} k ^ {2} \pi^ {2}}{l ^ {2}} t\right) \sin \frac {k \pi}{l} x
+$$ f_{x} (t, x) = C_{k} \exp \left(- \frac{a^{2} k^{2} \pi^{2}}{l^{2}} t\right) \sin \frac{k \pi}{l} x
 $$
 
 All these solutions satisfy the boundary conditions  $f(t,0) = f(t,l) = 0$ . By linearity, we know that the infinite sum
 
 $$
-\begin{array}{l} f (t, x) = \sum_ {k = 1} ^ {\infty} f _ {k} (t, x) \\ = \sum_ {k = 1} ^ {\infty} C _ {k} \exp \left(- \frac {a ^ {2} k ^ {1} \pi^ {2}}{l ^ {2}} t\right) \sin \frac {k \pi}{l} x \\ \end{array}
+\begin{array}{l} f (t, x) = \sum_{k = 1}^{\infty} f_{k} (t, x) \\ = \sum_{k = 1}^{\infty} C_{k} \exp \left(- \frac{a^{2} k^{1} \pi^{2}}{l^{2}} t\right) \sin \frac{k \pi}{l} x \\ \end{array}
 $$ will satisfy the diffusion equation. Clearly  $f(t,x)$  satisfies the boundary conditions  $f(t,0) = f(t,l) = 0$ . In order to satisfy the initial condition, given that  $\phi (x)$  is bounded and continuous and
 
 
 that  $\phi (0) = \phi (l) = 0$  , it can be demonstrated that the coefficients  $C_s$  can be uniquely determined through the following integrals, which are called the Fourier integrals:
 
 $$
-C _ {k} = \frac {2}{L} \int_ {0} ^ {L} \phi (\xi) \sin \left(\frac {\pi k}{L} \xi\right) d \xi
+C_{k} = \frac{2}{L} \int_{0}^{L} \phi (\xi) \sin \left(\frac{\pi k}{L} \xi\right) d \xi
 $$
 
 The previous method applies to the first boundary value problem but cannot be applied to the Cauchy problem, which admits only an initial condition. It can be demonstrated that the solution of the Cauchy problem can be expressed in terms of a convolution with a Green's function. In particular, it can be demonstrated that the solution of the Cauchy problem can be written in closed form as follows:
 
-$$ f (t, x) = \frac {1}{2 \sqrt {\pi}} \int_ {- \infty} ^ {\infty} \frac {\phi (\xi)}{\sqrt {t}} \exp \left\{- \frac {(x - \xi) ^ {2}}{4 t} \right\} d \xi
+$$ f (t, x) = \frac{1}{2 \sqrt{\pi}} \int_{- \infty}^{\infty} \frac{\phi (\xi)}{\sqrt{t}} \exp \left\{- \frac{(x - \xi)^{2}}{4 t} \right\} d \xi
 $$ for  $t > 0$  and  $f(0,x) = \phi (x)$ . It can be demonstrated that the Black-Scholes equation, which
 
 
 is an equation of the form
 
 $$
-\frac {\partial f}{\partial t} + \frac {1}{2} \sigma^ {2} x ^ {2} \frac {\partial^ {2} f}{\partial x ^ {2}} + r x \frac {\partial f}{\partial x} - r f = 0
+\frac{\partial f}{\partial t} + \frac{1}{2} \sigma^{2} x^{2} \frac{\partial^{2} f}{\partial x^{2}} + r x \frac{\partial f}{\partial x} - r f = 0
 $$ can be reduced through transformation of variables to the standard diffusion equation to be solved with the Green's function approach.
 
 
@@ -581,17 +581,17 @@ Figure 6 Solution of the First Boundary Problem by the Finite Difference Method
 The Cauchy problem of the diffusion equation is an example of initial conditions. The simplest discretization scheme for the diffusion equation replaces derivatives with their difference quotients. As for ordinary differential equations, the discretization scheme can be written as follows:
 
 $$
-\frac {\partial f}{\partial t} \approx \frac {f (t + \Delta t , x) - f (t , x)}{\Delta t}
+\frac{\partial f}{\partial t} \approx \frac{f (t + \Delta t , x) - f (t , x)}{\Delta t}
 $$
 
 $$
-\frac {\partial^ {2} f}{\partial x ^ {2}} \approx \frac {f (t , x + \Delta x) - 2 f (t , x) + f (t , x - \Delta x)}{(\Delta x) ^ {2}}
+\frac{\partial^{2} f}{\partial x^{2}} \approx \frac{f (t , x + \Delta x) - 2 f (t , x) + f (t , x - \Delta x)}{(\Delta x)^{2}}
 $$
 
 In the case of the Cauchy problem, this approximation scheme defines the forward recursive algorithm. It can be proved that the algorithm is stable only if the Courant-Friedrichs-Lewy (CFL) conditions
 
 $$
-\Delta t <   \frac {(\Delta x) ^ {2}}{2 a ^ {2}}
+\Delta t <   \frac{(\Delta x)^{2}}{2 a^{2}}
 $$ are satisfied.
 
 

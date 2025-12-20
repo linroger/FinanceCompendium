@@ -150,7 +150,7 @@ The central bank can succeed in holding the exchange rate fixed only if its fina
 To begin, we consider how equilibrium in the foreign exchange market can be maintained when the central bank fixes the exchange rate permanently at the level  $E^0$ . The foreign exchange market is in equilibrium when the interest parity condition holds, that is, when the domestic interest rate,  $R$ , equals the foreign interest rate,  $R^*$ , plus  $(E^e - E) / E$ , the expected rate of depreciation of the domestic currency against foreign currency. However, when the exchange rate is fixed at  $E^0$  and market participants expect it to remain fixed, the expected rate of domestic currency depreciation is zero. The interest parity condition therefore implies that  $E^0$  is today's equilibrium exchange rate only if
 
 $$
-R = R ^ {*}.
+R = R^{*}.
 $$
 
 Because no exchange rate change is expected by participants in the foreign exchange market, they are content to hold the available supplies of domestic and foreign currency deposits only if these offer the same interest rate.[6]
@@ -162,7 +162,7 @@ To ensure equilibrium in the foreign exchange market when the exchange rate is f
 To hold the domestic interest rate at  $R^{*}$ , the central bank's foreign exchange intervention must adjust the money supply so that  $R^{*}$  equates aggregate real domestic money demand and the real money supply:
 
 $$
-M ^ {s} / P = L (R ^ {*}, Y).
+M^{s} / P = L (R^{*}, Y).
 $$
 
 Given  $P$  and  $Y$ , this equilibrium condition tells what the money supply must be if a permanently fixed exchange rate is to be consistent with asset market equilibrium at a foreign interest rate of  $R^{*}$ .
@@ -357,19 +357,19 @@ does not change. To understand how sterilized intervention can alter the riskine
 When domestic and foreign currency bonds are perfect substitutes, the foreign exchange market is in equilibrium only if the (uncovered) interest parity condition (UIP) holds:
 
 $$
-R = R ^ {*} + \left(E ^ {e} - E\right) / E. \tag {18-1}
+R = R^{*} + \left(E^{e} - E\right) / E. \tag {18-1}
 $$
 
 When domestic and foreign currency bonds are imperfect substitutes, however, the condition above does not hold in general. Instead, equilibrium in the foreign exchange market requires that the domestic interest rate equal the expected domestic currency return on foreign bonds plus a risk premium,  $\rho$ , that reflects the difference between the riskiness of domestic and foreign bonds:
 
 $$
-R = R ^ {*} + \left(E ^ {e} - E\right) / E + \rho . \tag {18-2}
+R = R^{*} + \left(E^{e} - E\right) / E + \rho . \tag {18-2}
 $$
 
 Notice that if covered interest parity (CIP) holds true, then condition (14-3) from Chapter 14 will apply. If at the same time UIP does not hold, however, then condition (14-4) will not hold either. Instead, combining expressions (14-3) and (18-2), we see that instead of (14-4), the forward exchange rate satisfies
 
 $$
-(F - E) / E = (E ^ {e} - E) / E + \rho .
+(F - E) / E = (E^{e} - E) / E + \rho .
 $$
 
 In words, under imperfect asset substitutability, the forward premium on a currency equals its expected depreciation rate plus the risk premium. The preceding derivation assumed that CIP holds; but if it does not, the determination of the forward exchange rate becomes even more complex, as we will discuss in Chapter 20.
@@ -663,7 +663,7 @@ Considerations of risk make it reasonable to assume that an individual's demand 
 We summarize this assumption by writing individual  $i$ 's demand for domestic currency bonds,  $B_{i}^{d}$ , as an increasing function of the rate-of-return difference between domestic and foreign bonds,
 
 $$
-B _ {i} ^ {d} = B _ {i} ^ {d} \left[ R - R ^ {*} - \left(E ^ {e} - E\right) / E \right].
+B_{i}^{d} = B_{i}^{d} \left[ R - R^{*} - \left(E^{e} - E\right) / E \right].
 $$
 
 Of course,  $B_{i}^{d}$  also depends on other factors specific to individual  $i$ , such as her wealth and income. The demand for domestic currency bonds can be negative or positive, and in the former case, individual  $i$  is a net borrower in the home currency, that is, a supplier of domestic currency bonds.
@@ -671,7 +671,7 @@ Of course,  $B_{i}^{d}$  also depends on other factors specific to individual  $
 To find the aggregate private demand for domestic currency bonds, we need only add up individual demands  $B_{i}^{d}$  for all individuals  $i$  in the world. This summation gives the aggregate demand for domestic currency bonds,  $B^{d}$ , which is also an increasing function of the expected rate-of-return difference in favor of domestic currency assets. Therefore,
 
 $$
-\begin{array}{l} \text {D e m a n d} = B ^ {d} \left[ R - R ^ {*} - \left(E ^ {e} - E\right) / E \right] \\ = \text {s u m} i \\ \end{array}
+\begin{array}{l} \text{De ma nd} = B^{d} \left[ R - R^{*} - \left(E^{e} - E\right) / E \right] \\ = \text{su m} i \\ \end{array}
 $$
 
 Since some private individuals may be borrowing, and therefore supplying bonds,  $B^{d}$  should be interpreted as the private sector's net demand for domestic currency bonds.
@@ -681,7 +681,7 @@ Since some private individuals may be borrowing, and therefore supplying bonds, 
 Since we are interpreting  $B^{d}$  as the private sector's net demand for domestic currency bonds, the appropriate supply variable to define market equilibrium is the net supply of domestic currency bonds to the private sector, that is, the supply of bonds that are not the liability of any private individual or firm. Net supply therefore equals the value of domestic currency government bonds held by the public,  $B$ , less the value of domestic currency assets held by the central bank,  $A$ :
 
 $$
-\mathrm {S u p p l y} = B - A.
+\mathrm{Su pp ly} = B - A.
 $$
 
 $A$  must be subtracted from  $B$  to find the net supply of bonds because purchases of bonds by the central bank reduce the supply available to private investors. (More generally, we would also subtract from  $B$  domestic currency assets held by foreign central banks.)
@@ -691,7 +691,7 @@ $A$  must be subtracted from  $B$  to find the net supply of bonds because purch
 The risk premium,  $\rho$ , is determined by the interaction of supply and demand. We define the risk premium as
 
 $$
-\rho = R - R ^ {*} - (E ^ {e} - E) / E,
+\rho = R - R^{*} - (E^{e} - E) / E,
 $$
 
 that is, as the expected return difference between domestic and foreign bonds (the deviation from UIP). We can therefore write the private sector's net demand for domestic currency bonds as an increasing function of  $\rho$ . Figure 18A1-1 shows this relationship by drawing the demand curve for domestic currency bonds with a positive slope.
@@ -715,7 +715,7 @@ You should recognize that our discussion of risk premium determination is an ove
 One way to capture this possibility would be to generalize equation (18-3) in the text and express the risk premium instead as
 
 $$
-\rho = \rho (B - A, B ^ {*} - A ^ {*}),
+\rho = \rho (B - A, B^{*} - A^{*}),
 $$
 
 where  $B^{*} - A^{*}$  is the net stock of foreign currency bonds that the public must hold. In this extended formulation, a rise in  $B - A$  still raises  $\rho$ , but a rise in  $B^{*} - A^{*}$  causes  $\rho$  to fall by making foreign bonds relatively riskier.
@@ -755,7 +755,7 @@ Do we get to an equilibrium by assuming instead that speculators buy out the off
 Only if foreign reserves hit zero precisely at time  $T$  are asset markets continually in equilibrium. As noted above, time  $T$  is defined by the condition
 
 $$
-E _ {T} ^ {S} = E ^ {0},
+E_{T}^{S} = E^{0},
 $$
 
 which states that if reserves suddenly drop to zero at time  $T$ , the exchange rate remains initially at its pegged level, and only subsequently floats upward.
@@ -771,25 +771,25 @@ The close link discussed in Chapter 18 between a country's balance of payments a
 The monetary approach can be illustrated through a simple model linking the balance of payments to developments in the money market. To begin, recall that the money market is in equilibrium when the real money supply equals real money demand, that is, when
 
 $$
-M ^ {s} / P = L (R, Y).
+M^{s} / P = L (R, Y).
 $$
 
 Now let  $F^{*}$  denote the central bank's foreign assets (measured in domestic currency) and  $A$  its domestic assets (domestic credit). If  $\mu$  is the money multiplier that defines the relation between total central bank assets  $(F^{*} + A)$  and the money supply, then
 
 $$
-M ^ {s} = \mu (F ^ {*} + A).
+M^{s} = \mu (F^{*} + A).
 $$
 
 The change in central bank foreign assets over any time period,  $\Delta F^{*}$ , equals the balance of payments (for a nonreserve currency country). By combining the preceding two equations, we can express the central bank's foreign assets as
 
 $$
-F ^ {*} = (1 / \mu) P L (R, Y) - A.
+F^{*} = (1 / \mu) P L (R, Y) - A.
 $$
 
 If we assume that  $\mu$  is a constant, the balance of payments surplus is
 
 $$
-\Delta F ^ {*} = (1 / \mu) \Delta [ P L (R, Y) ] - \Delta A.
+\Delta F^{*} = (1 / \mu) \Delta [ P L (R, Y) ] - \Delta A.
 $$
 
 The last equation summarizes the monetary approach. The first term on its right-hand side reflects changes in nominal money demand and tells us that, all else equal, an increase in money demand will bring about a balance of payments surplus and an accompanying increase in the money supply that maintains money market equilibrium. The second term in the balance of payments equation reflects supply factors in the money market. An increase in domestic credit raises money supply relative to money demand, all else equal: So the balance of payments must go into deficit to reduce the money supply and restore money market equilibrium.

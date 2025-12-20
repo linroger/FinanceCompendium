@@ -116,7 +116,7 @@ Amount in U.S. dollars one year from now = CX 166,210 × F.
 The investor will be indifferent between the two alternatives if the number of U.S. dollars is 107,000:
 
 $$
-\$ 107,000 = \mathrm {C X} 1 6 6,2 1 0 \times F.
+\$ 107,000 = \mathrm{CX} 1 6 6,2 1 0 \times F.
 $$
 
 Solving, we find that  F  is equal to 0.6438. Thus, if one year from now, the spot exchange rate is 0.6438 for one unit of country X's currency, then the two alternatives will produce the same number of U.S. dollars. If more than 0.6438\$ can be exchanged for one unit of country X's currency, then the investor receives more than \$107,000 at the end of one year. An exchange rate of \$0.6500 for one unit of country X's currency, for example, would produce $108,037 (CX 166,210 × $0.6500). The opposite is true if less than $0.6438$ can be exchanged for one unit of country X's currency. For example, if the future exchange rate is \$0.6400, the investor would receive $106,374 (CX 166,210 × $0.6400).
@@ -162,7 +162,7 @@ $i_{\mathrm{B}} =$  interest rate on an investment maturing at time  $t$  in cou
 Then
 
 $$
-I (1 + i _ {\mathrm {A}}) = (I / S) (1 + i _ {\mathrm {B}}) F.
+I (1 + i_{\mathrm{A}}) = (I / S) (1 + i_{\mathrm{B}}) F.
 $$
 
 To illustrate, let country A be the United States and country B represent country X. In our example, we have:
@@ -177,10 +177,10 @@ $$
 F = \$ 0.6438,
 $$
 
-$$ i _ {\mathrm {A}} = 0. 0 7,
+$$ i_{\mathrm{A}} = 0. 0 7,
 $$
 
-$$ i _ {\mathrm {B}} = 0. 0 9.
+$$ i_{\mathrm{B}} = 0. 0 9.
 $$
 
 Then, according to interest rate parity, this relationship holds:
@@ -198,7 +198,7 @@ Interest rate parity can also be expressed as:
 
 $$
 
-(1 + i _ {\mathrm {A}}) = (F / S) (1 + i _ {\mathrm {B}}).
+(1 + i_{\mathrm{A}}) = (F / S) (1 + i_{\mathrm{B}}).
 
 $$
 
@@ -206,7 +206,7 @@ Rewriting the equation, we obtain the theoretical forward rate implied by the in
 
 $$
 
-F = S \left(\frac {1 + i _ {A}}{1 + i _ {B}}\right).
+F = S \left(\frac{1 + i_{A}}{1 + i_{B}}\right).
 
 $$
 

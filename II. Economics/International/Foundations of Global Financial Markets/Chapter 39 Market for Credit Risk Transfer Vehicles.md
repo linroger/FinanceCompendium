@@ -190,7 +190,7 @@ $200,000,000 \times$  Swap rate (in decimal)  $\times$  (Actual no. of days in q
 
 After a credit event occurs for one reference entity, the notional amount declines from  \$200 million to\$ 199,840,000. The new notional amount is equal to 99.2\% of the 200 million, because each reference entity for the DJ.CDX.NA.IG is weighted by 0.8\%. Thus, the revised quarterly swap premium payment until the maturity date or until another credit event occurs for one of the other 124 reference entities is
 
-$199,840,000 \times \text{Swap rate (in decimal)} \times (\text{Actual no. of days in quarter/360}).$
+$199,840,000 \times \text{Swaprate (indecimal)} \times (\text{Actualno.ofdaysinquarter/360}).$
 
 As of this writing, the settlement term for a CDS index is physical settlement. However, the market is considering moving to cash settlement. The reason is because of the cost of delivering an odd lot of the bonds of the reference entity in the case of a credit event. For example, in our hypothetical CDS index, if a credit event occurs, the protection buyer would have to deliver to the protection seller bonds of the reference entity with a face value of 160,000. Neither the protection buyer nor the protection seller would like to deal with such a small position.
 

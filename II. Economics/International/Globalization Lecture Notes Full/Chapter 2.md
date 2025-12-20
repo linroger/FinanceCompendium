@@ -146,7 +146,7 @@ The Production Possibility Frontier shows the maximum amount of one good that an
 The PPF for Mexico in our example is given by the equation
 
 $$
-\begin{array}{l} a _ {A} ^ {*} \cdot Q _ {A} ^ {*} + a _ {M} ^ {*} \cdot Q _ {M} ^ {*} = \bar {L} ^ {*}, \\ . 2 \cdot Q _ {A} ^ {*} + 6 0 \cdot Q _ {M} ^ {*} = 1, 8 0 0, 0 0 0, \\ \end{array}
+\begin{array}{l} a_{A}^{*} \cdot Q_{A}^{*} + a_{M}^{*} \cdot Q_{M}^{*} = \bar {L}^{*}, \\ . 2 \cdot Q_{A}^{*} + 6 0 \cdot Q_{M}^{*} = 1, 8 0 0, 0 0 0, \\ \end{array}
 $$ where  $Q_A^*$  is Mexico's output of avocado and  $Q_M^*$  is its output of motorcycles. The product  $a_A^* \cdot Q_A^*$  is Mexico's employment in avocado growing, and  $a_M^* \cdot Q_M^*$  is Mexico's employment in motorcycle manufacturing. Suppose Mexico chooses to make no motorcycles, then  $Q_M^* = 0$  and  $Q_A^* = \bar{L} / a_M^* = 1,800,000 / 60 = 30,000$  motorcycles, the extreme production possibility we saw before. Now let's look at a less extreme production mix. Suppose Mexico is still a closed economy with no trade and its residents are happy with a production of just 15,000 motorcycles. How many avocados can Mexico's labor force produce at most now? To make 15,000 motorcycles,  $a_M^* \cdot Q_M^* = 60 \cdot 15,000 = 900,000$  workers must be allocated to motorcycle manufacturing. The remaining workers, another 900,000, are then employed in agriculture. At a unit labor requirement of  $a_A^* = .2$ , the agricultural workers can grow exactly 4.5 million avocados (900,000/.2 = 4,500,000).
 
 
@@ -170,11 +170,11 @@ Here is an algebraic way to compute the slope: Note that one more motorcycle req
 
 California's PPF is
 
-$$ a _ {A} \cdot Q _ {A} + a _ {M} \cdot Q _ {M} = \bar {L},
+$$ a_{A} \cdot Q_{A} + a_{M} \cdot Q_{M} = \bar {L},
 $$
 
 $$
-. 1 8 \cdot Q _ {A} + 1 8 \cdot Q _ {M} = 1, 8 0 0, 0 0 0,
+. 1 8 \cdot Q_{A} + 1 8 \cdot Q_{M} = 1, 8 0 0, 0 0 0,
 $$ and the right panel in Figure 2.1 depicts California's PPF. In the example, its slope is 10 million avocados per 100,000 motorcycles, or  $100/1$ .
 
 
@@ -255,7 +255,7 @@ $P_{i} = a_{i}w$ . Perfect competition therefore implies that
 
 $$
 
-P _ {i} = a _ {i} w
+P_{i} = a_{i} w
 
 $$ in equilibrium. Producers just break even.
 
@@ -264,7 +264,7 @@ Let's go back to our example. Once California's economy opens up to free trade, 
 
 $$
 
-\frac {P _ {M} ^ {W}}{P _ {A} ^ {W}} > \frac {a _ {M}}{a _ {A}}.
+\frac{P_{M}^{W}}{P_{A}^{W}} > \frac{a_{M}}{a_{A}}.
 
 $$
 
@@ -272,7 +272,7 @@ What will producers in California do? They will have to specialize in one or the
 
 $$
 
-\frac {P _ {M} ^ {W}}{a _ {M}} = w > \frac {P _ {A} ^ {W}}{a _ {A}}
+\frac{P_{M}^{W}}{a_{M}} = w > \frac{P_{A}^{W}}{a_{A}}
 
 $$ by the above relationship between the relative world price and opportunity costs. In other words, avocado growing is no longer viable in the economy when there is motorcycle production. When markets are free and the relative world price of a motorcycle exceeds California's opportunity cost to make one, then the economy completely specializes in the production of motorcycles. Conversely, the foreign economy completely specializes in avocado cultivation.
 
@@ -282,7 +282,7 @@ The left panel of Figure 2.2 depicts the global equilibrium with free trade. The
 
 $$
 
-\frac {a _ {M} ^ {*}}{a _ {A} ^ {*}} > \frac {P _ {M} ^ {W}}{P _ {A} ^ {W}} > \frac {a _ {M}}{a _ {A}}.
+\frac{a_{M}^{*}}{a_{A}^{*}} > \frac{P_{M}^{W}}{P_{A}^{W}} > \frac{a_{M}}{a_{A}}.
 
 $$
 
@@ -332,7 +332,7 @@ Instead of performing the double comparisons separately, Balassa (1965) introduc
 
 $$
 
-R C A _ {i} ^ {\mathrm {C o u n t r y}} \equiv \frac {X _ {i} ^ {\mathrm {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\mathrm {C o u n t r y}}}{X _ {i} ^ {\mathrm {W o r l d}} / \sum_ {k} X _ {k} ^ {\mathrm {W o r l d}}},
+R C A_{i}^{\mathrm{Co un tr y}} \equiv \frac{X_{i}^{\mathrm{Co un tr y}} / \sum_{k} X_{k}^{\mathrm{Co un tr y}}}{X_{i}^{\mathrm{Wo rl d}} / \sum_{k} X_{k}^{\mathrm{Wo rl d}}},
 
 $$ dividing the share of an industry's exports in a given country by the country's total exports, and then dividing the industry's worldwide exports by the global total exports. The revealed comparative advantage measure equals 1 if the industry's trade share in a country is identical to that in the rest of the world. Then the industry exhibits neither a comparative advantage nor a comparative disadvantage. An RCA measure of 0 indicates the industry is at a strong comparative disadvantage. If the measure is large, the industry has a strong comparative advantage. The measure does a good job ranking industries that export products. The measure cannot be used, however, to rank non-exporting industries with a weak or no comparative advantage.
 
@@ -418,7 +418,7 @@ C5.1. A measure of comparative advantage is the Balassa measure of revealed comp
 
 $$
 
-R C A _ {i} ^ {\mathrm {C o u n t r y}} \equiv \frac {X _ {i} ^ {\mathrm {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\mathrm {C o u n t r y}}}{X _ {i} ^ {\mathrm {W o r l d}} / \sum_ {k} X _ {k} ^ {\mathrm {W o r l d}}}.
+R C A_{i}^{\mathrm{Co un tr y}} \equiv \frac{X_{i}^{\mathrm{Co un tr y}} / \sum_{k} X_{k}^{\mathrm{Co un tr y}}}{X_{i}^{\mathrm{Wo rl d}} / \sum_{k} X_{k}^{\mathrm{Wo rl d}}}.
 
 $$
 
@@ -428,7 +428,7 @@ C5.2. Explain the Balassa measure of comparative advantage
 
 $$
 
-R C A _ {i} ^ {\text {C o u n t r y}} \equiv \frac {X _ {i} ^ {\text {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\text {C o u n t r y}}}{X _ {i} ^ {\text {W o r l d}} / \sum_ {k} X _ {k} ^ {\text {W o r l d}}}.
+R C A_{i}^{\text{Co un tr y}} \equiv \frac{X_{i}^{\text{Co un tr y}} / \sum_{k} X_{k}^{\text{Co un tr y}}}{X_{i}^{\text{Wo rl d}} / \sum_{k} X_{k}^{\text{Wo rl d}}}.
 
 $$
 
@@ -438,7 +438,7 @@ C5.3. Suppose the world is exactly like in Ricardo's trade model: There are only
 
 $$
 
-R C A _ {i} ^ {\text {C o u n t r y}} \equiv \frac {X _ {i} ^ {\text {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\text {C o u n t r y}}}{X _ {i} ^ {\text {W o r l d}} / \sum_ {k} X _ {k} ^ {\text {W o r l d}}}
+R C A_{i}^{\text{Co un tr y}} \equiv \frac{X_{i}^{\text{Co un tr y}} / \sum_{k} X_{k}^{\text{Co un tr y}}}{X_{i}^{\text{Wo rl d}} / \sum_{k} X_{k}^{\text{Wo rl d}}}
 
 $$ takes the same value for both countries' exporting industries regardless of their unit labor requirements. What is the value? Note:  $\sum_{k} X_{k}^{\text{World}} = X_{k=1} + X_{k=2}^{*}$  when the countries completely specialize and  $X_{k=1} = X_{k=2}^{*}$  and the trade between them is balanced
 
@@ -453,7 +453,7 @@ Q.2. Suppose Chile and Brazil both excel in the production of copper and beef. B
 Q.3. There are two goods, burgers and cars, and there are two countries, Uruguay and Brazil. Brazil's labor force is able to work 1 million hours a year and can either produce 300,000 cars or 30 million burgers, or a linear combination of the two. Uruguay's labor force is able to work 50,000 hours a year and can either produce 10,000 cars or 5 million burgers, or a combination of the two. Which country has an absolute advantage producing cars, and which country has an absolute advantage producing burgers? Which country has a comparative advantage producing cars, and which country has a comparative advantage producing burgers? What is the opportunity cost of producing burgers in terms of cars in Uruguay and in Brazil? Suppose Uruguay and Brazil are the only countries that trade in the world. What is the Balassa measure of revealed comparative advantage for Uruguay's car industry? What is it in the burger industry? The Balassa measure of revealed comparative advantage for good  $i$  is
 
 $$
-R C A _ {i} \equiv \frac {X _ {i} ^ {\mathrm {C o u n t r y}} / \sum_ {k} X _ {k} ^ {\mathrm {C o u n t r y}}}{X _ {i} ^ {\mathrm {W o r l d}} / \sum_ {k} X _ {k} ^ {\mathrm {W o r l d}}},
+R C A_{i} \equiv \frac{X_{i}^{\mathrm{Co un tr y}} / \sum_{k} X_{k}^{\mathrm{Co un tr y}}}{X_{i}^{\mathrm{Wo rl d}} / \sum_{k} X_{k}^{\mathrm{Wo rl d}}},
 $$ where  $X_{i}$  are exports.
 
 

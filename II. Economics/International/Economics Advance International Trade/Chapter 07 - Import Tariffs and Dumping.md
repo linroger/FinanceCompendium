@@ -64,7 +64,7 @@ $c_0^h + U^h(c^h)$ , where  $c_0^h$  is the consumption of a numeraire good, and
 Let  $c^h = d^h(p)$  denote the optimal vector of consumption for each individual, with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd^h(p)$ . Then we can define social welfare as the sum of individual utilities,
 
 $$
-\mathrm {W} (\mathrm {p}, \mathrm {I}) \equiv \sum_ {\mathrm {h} = 1} ^ {\mathrm {H}} \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} ^ {\mathrm {h}} (\mathrm {p}) + \mathrm {U} ^ {\mathrm {h}} [ \mathrm {d} ^ {\mathrm {h}} (\mathrm {p}) ], \tag {7.1}
+\mathrm{W} (\mathrm{p}, \mathrm{I}) \equiv \sum_{\mathrm{h} = 1}^{\mathrm{H}} \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d}^{\mathrm{h}} (\mathrm{p}) + \mathrm{U}^{\mathrm{h}} [ \mathrm{d}^{\mathrm{h}} (\mathrm{p}) ], \tag {7.1}
 $$
 
 where total income is  $\mathrm{I} = \sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{I}^{\mathrm{h}}$ . Notice that the sum over individuals of the last two terms on the right of (7.1) gives consumer surplus. By the envelope theorem, the derivative of (7.1) is the negative of total consumption,  $\partial \mathrm{W} / \partial \mathrm{p} = \sum_{\mathrm{h} = 1}^{\mathrm{H}} - \mathrm{d}^{\mathrm{h}}(\mathrm{p}) \equiv -\mathrm{d}(\mathrm{p})$ . Thus, we can use the social welfare function just like an indirect utility function for the economy as a whole.
@@ -74,7 +74,7 @@ Let us further simplify the analysis by supposing that there is only a single im
 Output of the good in question is denoted by the scalar  $y$ , which may be produced by competitive or imperfectly competitive firms. We suppose that the industry costs of producing the good are denoted by  $C(y)$ , with marginal costs  $C'(y)$ . Imports are denoted by the scalar  $m = d(p) - y$ , where  $d'(p) < 0$  from the assumption that  $U^h$  is strictly concave for all  $h$ . We assume that revenue raised from the tariff,  $tm$ , is redistributed back to consumers, who are also each entitled to profits from the import-competing industry, which are  $py - C(y)$ . It follows that social welfare is written as,
 
 $$
-\mathrm {W} [ \mathrm {p}, \mathrm {L} + \mathrm {t m} + \mathrm {p y} - \mathrm {C} (\mathrm {y}) ] \equiv \mathrm {W} (\mathrm {t}). \tag {7.2}
+\mathrm{W} [ \mathrm{p}, \mathrm{L} + \mathrm{tm} + \mathrm{py} - \mathrm{C} (\mathrm{y}) ] \equiv \mathrm{W} (\mathrm{t}). \tag {7.2}
 $$
 
 This general expression for social welfare holds under perfect or imperfect competition. In the former case, it is common to refer to profits [py - C(y)] as producer surplus, i.e. the return to fixed factors of production in the industry. In the latter case, we denote profits of the domestic industry by  $\pi = \mathrm{py} - \mathrm{C}(\mathrm{y})$ , and will need to specify how these depend on actions of foreign firms. We will be considering three cases: (i) perfect competition in the home and foreign industries; (ii) foreign monopoly, with no domestic import-competing firms; (iii) duopoly, with one home firm and one foreign firm engaged in either Cournot or Bertrand competition. A fourth case of monopolistic competition is discussed by Helpman (1990), and is not covered here. We begin with perfect competition, where we distinguish a small importing country, meaning that the world price  $p^*$  is fixed even as the tariff varies, and a large country, whose tariff affects the foreign price  $p^*$ .
@@ -82,10 +82,10 @@ This general expression for social welfare holds under perfect or imperfect comp
 In each case, we are interested in how social welfare in (7.2) varies with the tariff. To determine this, let us first derive a general expression for the change in welfare. Treating the price  $p$  and output  $y$  as depending on the tariff, we can totally differentiate (7.2) to obtain:
 
 $$
-\begin{array}{l} \frac {\mathrm {d W}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) \frac {\mathrm {d p}}{\mathrm {d t}} + \mathrm {m} + \left(\mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} + \mathrm {y}\right) \frac {\mathrm {d p}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}} \\ = \mathrm {m} \left(1 - \frac {\mathrm {d p}}{\mathrm {d t}}\right) + \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}} \tag {7.3} \\ = t \frac {d m}{d p} \frac {d p}{d t} - m \frac {d p ^ {*}}{d t} + [ p - C ^ {\prime} (y) ] \frac {d y}{d t}. \\ \end{array}
+\begin{array}{l} \frac{\mathrm{dW}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) \frac{\mathrm{dp}}{\mathrm{dt}} + \mathrm{m} + \left(\mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} + \mathrm{y}\right) \frac{\mathrm{dp}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}} \\ = \mathrm{m} \left(1 - \frac{\mathrm{dp}}{\mathrm{dt}}\right) + \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}} \tag {7.3} \\ = t \frac{d m}{d p} \frac{d p}{d t} - m \frac{d p^{*}}{d t} + [ p - C^{\prime} (y) ] \frac{d y}{d t}. \\ \end{array}
 $$
 
-The second line of (7.3) follows by noting that  $\mathrm{y - d(p) = m}$  and combining terms, while the third line follows because  $\mathbf{p} = \mathbf{p}^{*} + \mathbf{t}$ , so that  $[1-(\mathrm{dp/dt})] = -\mathrm{dp}^{*}/\mathrm{dt}$ .
+The second line of (7.3) follows by noting that  $\mathrm{y -d(p) =m}$  and combining terms, while the third line follows because  $\mathbf{p} = \mathbf{p}^{*} + \mathbf{t}$ , so that  $[1-(\mathrm{dp/dt})] = -\mathrm{dp}^{*}/\mathrm{dt}$ .
 
 We will be discussing each of the terms on the last line of (7.3) throughout this chapter, but note here the similarity between these terms and those derived in the previous chapter. The first term on the last line of (7.3) can be interpreted as the efficiency cost of the tariff, much like the term  $t^{1'}(m^1 - m^0)$  in chapter 6; the second term is the effect of the tariff on the foreign price  $p^*$ , or the terms of trade effect, like  $(p^{*0} - p^{*1})'m^0$  in chapter 6; and the third term reflects the change in industry output times the price-cost margin, like  $(p - \widetilde{p})'(y - y^a)$  in chapter 6. This third term reflects the fact that with imperfect competition there is a gap between the price or consumer valuation of a product, and the marginal costs to firms. This distortion due to monopolistic pricing creates an efficiency loss, and any increase in domestic output will therefore offset that loss and serve to raise welfare.
 
@@ -94,19 +94,19 @@ We will be discussing each of the terms on the last line of (7.3) throughout thi
 Holding  $\mathfrak{p}^*$  fixed, we already argued in the previous chapter that "free trade is better than restricted trade for a small country." In other words, the optimal tariff is zero. We now provide a more direct demonstration of this result, and also show how the welfare loss due to a tariff can be measured. Under perfect competition profits are maximized when  $\mathfrak{p} = \mathrm{C}'(\mathfrak{y})$ , so the final term in (7.3) is zero. When world prices are fixed and domestic prices given by  $\mathfrak{p} = \mathfrak{p}^* + \mathfrak{t}$ , then  $\mathrm{dp}^*/\mathrm{dt} = 0$  and  $\mathrm{dp}/\mathrm{dt} = 1$ . Using these various relations in (7.3), we readily obtain:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}}. \tag {7.4}
+\frac{\mathrm{dW}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}}. \tag {7.4}
 $$
 
 Evaluating this expression at a zero tariff, we have:
 
 $$
-\left. \frac {\mathrm {d W}}{\mathrm {d t}} \right| _ {\mathrm {t} = 0} = 0. \tag {7.4'}
+\left. \frac{\mathrm{dW}}{\mathrm{dt}} \right|_{\mathrm{t} = 0} = 0. \tag {7.4'}
 $$
 
 This proves that social welfare has a critical point at a zero tariff, but we still need to determine whether this is a maximum or not. Differentiating (7.4) and evaluating at  $t = 0$ ,
 
 $$
-\left. \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d t} ^ {2}} \right| _ {\mathrm {t} = 0} = \frac {\mathrm {d m}}{\mathrm {d p}} <   0, \tag {7.5}
+\left. \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{dt}^{2}} \right|_{\mathrm{t} = 0} = \frac{\mathrm{dm}}{\mathrm{dp}} <   0, \tag {7.5}
 $$
 
 where this sign is obtained because  $\mathrm{dm} / \mathrm{dp} = \mathrm{d}'(\mathrm{p}) - (1 / \mathrm{C}^{\prime \prime})$ , with  $\mathrm{d}'(\mathrm{p}) < 0$  from concavity of the utility functions and  $\mathrm{C}'' > 0$  from the second-order condition for profit maximization. This proves that the critical point at  $\mathfrak{t} = 0$  is a local maximum, and in fact, it is also a global maximum since with  $\mathrm{dm} / \mathrm{dp} < 0$  then  $\mathfrak{t} = 0$  is the only tariff at which (7.4) equals zero. Therefore, the optimal tariff for a small country is zero.
@@ -114,13 +114,13 @@ where this sign is obtained because  $\mathrm{dm} / \mathrm{dp} = \mathrm{d}'(\m
 It is relatively easy to obtain an expression for the loss in welfare from applying a tariff. To do so, let us take a second-order Taylor series approximation of welfare, around the free trade point,
 
 $$
-\mathrm {W} (t) \approx \mathrm {W} (0) + t \frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} \bigg | _ {t = 0} + \frac {1}{2} t ^ {2} \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d t} ^ {2}} \bigg | _ {t = 0}. \tag {7.6}
+\mathrm{W} (t) \approx \mathrm{W} (0) + t \frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} \bigg |_{t = 0} + \frac{1}{2} t^{2} \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{dt}^{2}} \bigg |_{t = 0}. \tag {7.6}
 $$
 
 Evaluating this using (7.4') and (7.5), we see that,
 
 $$
-\mathrm {W} (t) - \mathrm {W} (0) \approx \frac {1}{2} t ^ {2} \frac {\mathrm {d} ^ {2} \mathrm {W}}{\mathrm {d} t ^ {2}} \Bigg | _ {t = 0} = \frac {1}{2} t ^ {2} \frac {\mathrm {d m}}{\mathrm {d p}} = \frac {1}{2} \Delta \mathrm {p} \Delta \mathrm {m} <   0. \tag {7.7}
+\mathrm{W} (t) - \mathrm{W} (0) \approx \frac{1}{2} t^{2} \frac{\mathrm{d}^{2} \mathrm{W}}{\mathrm{d} t^{2}} \Bigg |_{t = 0} = \frac{1}{2} t^{2} \frac{\mathrm{dm}}{\mathrm{dp}} = \frac{1}{2} \Delta \mathrm{p} \Delta \mathrm{m} <   0. \tag {7.7}
 $$
 
 The final expression in (7.7) is negative since the tariff reduces imports, so the welfare loss equals one-half times the increase in price times the change in imports. This loss is illustrated in Figure 7.1. In panel (a) we show the domestic demand curve D and supply curve S, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_0$  and supply at  $y_0$ , so imports are  $\mathrm{m}_0 = \mathrm{c}_0 - \mathrm{y}_0$ . This is shown in panel (b), which graphs the import demand curve  $\mathrm{M} = \mathrm{D} - \mathrm{S}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal export supply curve X, which intersects M at the equilibrium imports  $\mathrm{m}_0$ .
@@ -146,7 +146,7 @@ longer purchased (i.e.  $c_0 - c_1$ ), while the area (b) is interpreted as the 
 So we see that the deadweight loss of the tariff can be measured by a triangle under the import demand curve. Since both the height and the base of the triangle depend on the tariff, the area of the triangle itself is of the second-order of smalls for a small tariff, i.e. the deadweight loss in (7.7) depends on the square of the tariff. Notice that we can re-write (7.7) to measure the deadweight loss as a fraction of import expenditure:
 
 $$
-\frac {\mathrm {W} (\mathrm {t}) - \mathrm {W} (0)}{\mathrm {p m}} \approx \frac {1}{2} \left(\frac {\mathrm {t}}{\mathrm {p}}\right) ^ {2} \left(\frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {m}}\right). \tag {7.7'}
+\frac{\mathrm{W} (\mathrm{t}) - \mathrm{W} (0)}{\mathrm{pm}} \approx \frac{1}{2} \left(\frac{\mathrm{t}}{\mathrm{p}}\right)^{2} \left(\frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{m}}\right). \tag {7.7'}
 $$
 
 For example, with a  $10\%$  tariff and an import demand elasticity of 2, the deadweight loss relative to import expenditure will be  $1\%$ . As is typical for triangle calculations, we see that the deadweight loss is quite small for moderate tariffs. This fact has led many researchers to conclude that a formula like (7.7') does not capture the inefficiencies present in import substitution regimes. We will be investigating some reasons why the deadweight loss of trade restrictions may well be greater than (7.7'). This can occur if foreign firms anticipate the tariffs, as with antidumping duties (discussed later in this chapter), or if quotas are used instead of tariffs (discussed in the next chapter), or due to the effect of tariffs on decreasing the variety of import products available. This latter effect has been emphasized by Feenstra (1992) and Romer (1994). Both authors provide simple formulas to compute welfare losses due to a reduction in import varieties, and these are much greater than (7.7'). In addition, Feenstra (1988b) and Klenow and Rodríguez-Clare (1997) provide estimates of the welfare gain due to new import varieties, which can be substantial.
@@ -158,7 +158,7 @@ For a large country, we suppose that the world price of imports depends on the t
 The domestic price of the import good is  $p = p^* + t$ , so now  $dp^*/dt \neq 0$  and  $dp/dt \neq 1$ . We still have  $p = C'(y)$  under perfect competition, so (7.3) becomes,
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}} - \mathrm {m} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}}. \tag {7.8}
+\frac{\mathrm{dW}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}} - \mathrm{m} \frac{\mathrm{dp}^{*}}{\mathrm{dt}}. \tag {7.8}
 $$
 
 The first term is interpreted as the marginal deadweight loss from the tariff; and the second term is the terms of trade effect of the tariff, i.e. the reduction in the price of  $\mathfrak{p}^*$  times the amount of imports. The sign of  $\mathrm{dp}^{*} / \mathrm{dt}$  can be determined from Figure 7.2. In panel (a), we show the domestic demand curve D and supply curve S, which lead to the import demand curve M=D-S in panel (b). Also shown is the foreign supply curve X, which we assume is upward sloping. The initial equilibrium foreign and domestic price is  $\mathsf{p}_0^* = \mathsf{p}_0$ . The tariff shift up the export supply curve to  $\mathrm{X} + \mathrm{t}$ , which intersects import demand at the new domestic price  $\mathsf{p} = \mathsf{p}^* + \mathrm{t}$ . It is clear from the diagram that the increase in the domestic price from  $\mathsf{p}_0$  to  $\mathsf{p}^* + \mathrm{t}$  is less than the amount of the tariff t, which implies that the new foreign price  $\mathsf{p}^*$  is less than its initial value  $\mathsf{p}_0^*$ . This is a terms of trade gain for the importing country.
@@ -166,7 +166,7 @@ The first term is interpreted as the marginal deadweight loss from the tariff; a
 Using the result that  $\mathrm{dp}^{*} / \mathrm{dt} < 0$ , we obtain from (7.8),
 
 $$
-\left. \frac {\mathrm {d W}}{\mathrm {d t}} \right| _ {\mathrm {t} = 0} = - \mathrm {m} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} > 0, \tag {7.9}
+\left. \frac{\mathrm{dW}}{\mathrm{dt}} \right|_{\mathrm{t} = 0} = - \mathrm{m} \frac{\mathrm{dp}^{*}}{\mathrm{dt}} > 0, \tag {7.9}
 $$
 
 so that a small tariff will necessarily raise welfare. The change in welfare in Figure 7.2 is:
@@ -184,7 +184,7 @@ This does not apply to the terms of trade gain e, however, which depends on t ra
 The optimal tariff  $t^*$  is computed where (7.8) equals zero:
 
 $$
-\frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} = 0 \quad \Rightarrow \quad \frac {\mathrm {t} ^ {*}}{\mathrm {p} ^ {*}} = \left(\frac {\mathrm {d p} ^ {*} \mathrm {m}}{\mathrm {d t} \mathrm {p} ^ {*}}\right) / \left(\frac {\mathrm {d m} \mathrm {d p}}{\mathrm {d p} \mathrm {d t}}\right). \tag {7.10}
+\frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} = 0 \quad \Rightarrow \quad \frac{\mathrm{t}^{*}}{\mathrm{p}^{*}} = \left(\frac{\mathrm{dp}^{*} \mathrm{m}}{\mathrm{dt} \mathrm{p}^{*}}\right) / \left(\frac{\mathrm{dm} \mathrm{dp}}{\mathrm{dp} \mathrm{dt}}\right). \tag {7.10}
 $$
 
 To interpret this expression, we simplify it in two different ways:
@@ -194,7 +194,7 @@ To interpret this expression, we simplify it in two different ways:
 Substituting this into (7.10) we obtain,
 
 $$
-\frac {t ^ {*}}{p ^ {*}} = \left(\frac {d p ^ {*}}{d t} \frac {x}{p ^ {*}}\right) / \left(\frac {d x}{d t}\right) = 1 / \left(\frac {d x}{d p ^ {*}} \frac {p ^ {*}}{x}\right), \tag {7.11}
+\frac{t^{*}}{p^{*}} = \left(\frac{d p^{*}}{d t} \frac{x}{p^{*}}\right) / \left(\frac{d x}{d t}\right) = 1 / \left(\frac{d x}{d p^{*}} \frac{p^{*}}{x}\right), \tag {7.11}
 $$
 
 where the second term is obtained because  $\left(\frac{\mathrm{dx}}{\mathrm{dt}}\Bigg{/}\frac{\mathrm{dp}^*}{\mathrm{dt}}\right) = \frac{\mathrm{dx}}{\mathrm{dp}^*}$ , which is the slope of the foreign export supply curve. Thus, (7.11) states that the optimal percentage tariff,  $t^{*} / p^{*}$ , equals the inverse of the elasticity of foreign export supply.
@@ -204,7 +204,7 @@ This is a good formula for comparing the case of a small country, where the elas
 (2) An alternative way of writing (7.10) is to just rearrange terms, obtaining:
 
 $$
-\frac {t ^ {*}}{p} = \left(\frac {\mathrm {d m}}{\mathrm {d p}} \frac {p}{m}\right) ^ {- 1} \left(\frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} / \frac {\mathrm {d p}}{\mathrm {d t}}\right). \tag {7.12}
+\frac{t^{*}}{p} = \left(\frac{\mathrm{dm}}{\mathrm{dp}} \frac{p}{m}\right)^{- 1} \left(\frac{\mathrm{dp}^{*}}{\mathrm{dt}} / \frac{\mathrm{dp}}{\mathrm{dt}}\right). \tag {7.12}
 $$
 
 Now the optimal tariff equals the inverse of the elasticity of import demand supply, times the ratio of the change in the relative foreign and domestic price of imports. Since the import demand elasticity is negative, and presuming that  $\mathrm{dp} / \mathrm{dt} > 0$  (which we will confirm below), then the optimal tariff is positive provided that  $\mathrm{dp}^* / \mathrm{dt} < 0$ .
@@ -220,27 +220,27 @@ We turn now to the case of a single foreign exporter, selling into the home mark
 Let  $x$  denote the sales of the exporting firm into the home market, which equals home consumption, so  $x = d(p)$ . We will invert this expression and work with the inverse demand curve,  $p = p(x)$ , with  $p' < 0$ . The price received by the foreign exporter is  $p^* = p(x) - t$ , so that foreign profits are:
 
 $$
-\pi^ {*} (\mathrm {x}) = \mathrm {x} [ \mathrm {p} (\mathrm {x}) - \mathrm {t} ] - \mathrm {C} ^ {*} (\mathrm {x}), \tag {7.13}
+\pi^{*} (\mathrm{x}) = \mathrm{x} [ \mathrm{p} (\mathrm{x}) - \mathrm{t} ] - \mathrm{C}^{*} (\mathrm{x}), \tag {7.13}
 $$
 
 where  $\mathbf{C}^* (\mathbf{x})$  are foreign costs. Maximizing this over the choice of  $\mathbf{x}$ , the first order condition is,
 
 $$
-\pi^ {* ^ {\prime}} (\mathrm {x}) = \mathrm {p} (\mathrm {x}) + \mathrm {x p} ^ {\prime} (\mathrm {x}) - [ \mathrm {C} ^ {* ^ {\prime}} (\mathrm {x}) + \mathrm {t} ] = 0. \tag {7.14}
+\pi^{*^{\prime}} (\mathrm{x}) = \mathrm{p} (\mathrm{x}) + \mathrm{xp}^{\prime} (\mathrm{x}) - [ \mathrm{C}^{*^{\prime}} (\mathrm{x}) + \mathrm{t} ] = 0. \tag {7.14}
 $$
 
-The term  $\mathrm{p(x) + xp'(x)}$  is just marginal revenue, while  $C^{*'}(x) + t$  is marginal costs inclusive of the tariff, and these are equalized to maximize profits.
+The term  $\mathrm{p(x) +xp'(x)}$  is just marginal revenue, while  $C^{*'}(x) + t$  is marginal costs inclusive of the tariff, and these are equalized to maximize profits.
 
 Totally differentiating (7.14) we obtain  $\pi^{*''}(\mathbf{x})\mathrm{d}\mathbf{x} - \mathrm{d}\mathbf{t} = 0$  , so that,
 
 $$
-\frac {\mathrm {d} x}{\mathrm {d} t} = \frac {1}{\pi^ {* ^ {\prime \prime}} (x)} <   0, \tag {7.15}
+\frac{\mathrm{d} x}{\mathrm{d} t} = \frac{1}{\pi^{*^{\prime \prime}} (x)} <   0, \tag {7.15}
 $$
 
 where the sign is obtained from the second-order condition for profit maximization. It follows that the change in the import price is,
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d t}} = \mathrm {p} ^ {\prime} (\mathrm {x}) \frac {\mathrm {d x}}{\mathrm {d t}} = \frac {\mathrm {p} ^ {\prime} (\mathrm {x})}{\pi^ {*} {} ^ {\prime \prime} (\mathrm {x})} > 0. \tag {7.16}
+\frac{\mathrm{dp}}{\mathrm{dt}} = \mathrm{p}^{\prime} (\mathrm{x}) \frac{\mathrm{dx}}{\mathrm{dt}} = \frac{\mathrm{p}^{\prime} (\mathrm{x})}{\pi^{*} {}^{\prime \prime} (\mathrm{x})} > 0. \tag {7.16}
 $$
 
 Not surprisingly, the tariff inclusive price  $p = p^* + t$  rises. We are interested in whether it rises less than the amount of the tariff, i.e. whether the pass-through of the tariff is less than complete. Notice that with  $p = p^* + t$ , then  $dp/dt < 1$  if and only if  $dp^*/dt < 0$ . Thus, "partial pass-through" of the tariff to domestic prices is equivalent to having the foreign firm absorb part of the tariff, which is a term of trade gain.
@@ -248,31 +248,31 @@ Not surprisingly, the tariff inclusive price  $p = p^* + t$  rises. We are inter
 Noting that the numerator and denominator of (7.16) are both negative, then  $\mathrm{dp} / \mathrm{dt} < 1$  if and only if,
 
 $$
-p ^ {\prime} (x) > \pi^ {* *} (x) = 2 p ^ {\prime} (x) + x p ^ {\prime \prime} (x) - C ^ {* \prime \prime} (x). \tag {7.17}
+p^{\prime} (x) > \pi^{* *} (x) = 2 p^{\prime} (x) + x p^{\prime \prime} (x) - C^{* \prime \prime} (x). \tag {7.17}
 $$
 
 The left side of (7.17) is the slope of the inverse demand curve, while the right side is interpreted as the slope of the marginal revenue curve,  $[2p'(x) + xp''(x)]$ , less the slope of marginal costs. Suppose that marginal costs are constant,  $C^{*} = 0$ . Then (7.17) will hold if and only if,
 
 $$
-p ^ {\prime} (x) + x p ^ {\prime \prime} (x) <   0, \tag {7.17'}
+p^{\prime} (x) + x p^{\prime \prime} (x) <   0, \tag {7.17'}
 $$
 
 which guarantees that marginal revenue is steeper than demand. This condition will hold for linear or concave demand curves, or for any demand curve that is not "too convex."
 
 To illustrate these results, in Figure 7.3 we show the initial equilibrium with the domestic and foreign price of  $p_0$ . With the increase in the marginal costs due to the tariff  $t$ , the import price rises to  $p_1$ . Provided that the marginal revenue is steeper than demand, we see this increase in price is less than  $t$ , so that the foreign price received by the exporters falls,  $p_1 - t < p_0$ . In that case,  $dp^{*} / dt < 0$  and then the optimal tariff from (7.8) is positive. The change in welfare is shown in Figure 7.3 by  $-(c + d)$  consumer surplus loss + (c+e) revenue gain = (e-d), which is positive if the tariff is sufficiently small.
 
-If marginal revenue is flatter than demand, however, then  $\mathrm{dp}^* / \mathrm{dt} > 0$  and the optimal policy is an import subsidy. We regard this as a relatively unusual case, but it is certainly possible. For example, if the elasticity of demand is constant, then since marginal revenue is  $\mathrm{mr(x) = p(x)[1 - (1 / \eta)]}$ , so we have that  $-\mathrm{mr}'(\mathrm{x}) = -\mathrm{p}'(\mathrm{x})[1 - (1 / \eta)] < -\mathrm{p}'(\mathrm{x})$ , and it follows that marginal revenue is flatter than demand.
+If marginal revenue is flatter than demand, however, then  $\mathrm{dp}^* / \mathrm{dt} > 0$  and the optimal policy is an import subsidy. We regard this as a relatively unusual case, but it is certainly possible. For example, if the elasticity of demand is constant, then since marginal revenue is  $\mathrm{mr(x) =p(x)[1 - (1 / \eta)]}$ , so we have that  $-\mathrm{mr}'(\mathrm{x}) = -\mathrm{p}'(\mathrm{x})[1 - (1 / \eta)] < -\mathrm{p}'(\mathrm{x})$ , and it follows that marginal revenue is flatter than demand.
 
 We next check whether an ad valorem tariff  $\tau$  leads to similar results. The net of tariff price received by the foreign exporters is now  $p^* = p(x) / (1 + \tau)$ , so that profits are:
 
 $$
-\pi^ {*} (\mathrm {x}) = \frac {\mathrm {x p} (\mathrm {x})}{(1 + \mathrm {t})} - \mathrm {C} ^ {*} (\mathrm {x}). \tag {7.18}
+\pi^{*} (\mathrm{x}) = \frac{\mathrm{xp} (\mathrm{x})}{(1 + \mathrm{t})} - \mathrm{C}^{*} (\mathrm{x}). \tag {7.18}
 $$
 
 Maximizing this over the choice of  $x$ , the first order condition is  $p + xp' = (1 + \tau)C^{*'}$ , which can be written as,
 
 $$
-p (x) \left(1 - \frac {1}{\eta}\right) = (1 + \tau) C ^ {* ^ {\prime}} (x), \tag {7.19}
+p (x) \left(1 - \frac{1}{\eta}\right) = (1 + \tau) C^{*^{\prime}} (x), \tag {7.19}
 $$
 
 using the elasticity  $\eta (\mathrm{x}) = (\mathrm{dx} / \mathrm{dp})(\mathrm{p} / \mathrm{x}) = \mathrm{p} / \mathrm{xp}'(\mathrm{x}).$
@@ -285,13 +285,13 @@ Figure 7.3
 determine the change in the foreign price  $\mathfrak{p}^*$  , rewrite (7.19) as,
 
 $$
-p ^ {*} = \frac {p (x)}{(1 + \tau)} = \left(\frac {\eta}{\eta - 1}\right) C ^ {* \prime} (x). \tag {7.19'}
+p^{*} = \frac{p (x)}{(1 + \tau)} = \left(\frac{\eta}{\eta - 1}\right) C^{* \prime} (x). \tag {7.19'}
 $$
 
 Consider the case where the exporter's marginal costs  $C^{*'}(x)$  are constant. Then differentiating (7.19'), we obtain,
 
 $$
-\frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} = \left[ \frac {\eta^ {\prime}}{\eta - 1} - \frac {\eta \eta^ {\prime}}{(\eta - 1) ^ {2}} \right] \frac {\mathrm {d x}}{\mathrm {d} \tau} C ^ {* \prime} = - \frac {\eta^ {\prime} (\mathrm {x})}{(\eta - 1) ^ {2}} \frac {\mathrm {d x}}{\mathrm {d} \tau} C ^ {* \prime}. \tag {7.20}
+\frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} = \left[ \frac{\eta^{\prime}}{\eta - 1} - \frac{\eta \eta^{\prime}}{(\eta - 1)^{2}} \right] \frac{\mathrm{dx}}{\mathrm{d} \tau} C^{* \prime} = - \frac{\eta^{\prime} (\mathrm{x})}{(\eta - 1)^{2}} \frac{\mathrm{dx}}{\mathrm{d} \tau} C^{* \prime}. \tag {7.20}
 $$
 
 Using the fact that  $\mathrm{dx} / \mathrm{d}\tau < 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  when  $\eta'(x) < 0$ , meaning that the elasticity of demand increases as consumption of the importable falls. In that case the tariff leads to a fall in the price-cost margin set by the foreign exporter, so that  $\mathfrak{p}^*$  falls, which is a terms of trade gains for the importer. Thus, we summarize our results with:
@@ -312,21 +312,21 @@ Let us now introduce a domestic firm that is competing with the foreign firm in 
 We let  $x$  denote the sales of the foreign exporter in the domestic market, and  $y$  denote the sales of the home firm, so total consumption is  $z = x + y$ . As before, we invert the demand curve  $z = d(p)$  to obtain inverse demand  $p = p(z)$ , with  $p' < 0$ . Profits of the foreign and home firms are then,
 
 $$
-\pi^ {*} = x [ p (z) - t ] - C ^ {*} (x), \tag {7.21a}
+\pi^{*} = x [ p (z) - t ] - C^{*} (x), \tag {7.21a}
 $$
 
 $$
-\pi = \mathrm {y p} (\mathrm {z}) - \mathrm {C} (\mathrm {y}), \tag {7.21b}
+\pi = \mathrm{yp} (\mathrm{z}) - \mathrm{C} (\mathrm{y}), \tag {7.21b}
 $$
 
 Maximizing these over the choice of  $x$  and  $y$ , respectively, the first order conditions are:
 
 $$
-\pi_ {\mathrm {x}} ^ {*} = \mathrm {p} (\mathrm {z}) + \mathrm {x p} ^ {\prime} (\mathrm {z}) - \left[ \mathrm {C} ^ {* \prime} (\mathrm {x}) + \mathrm {t} \right] = 0. \tag {7.22a}
+\pi_{\mathrm{x}}^{*} = \mathrm{p} (\mathrm{z}) + \mathrm{xp}^{\prime} (\mathrm{z}) - \left[ \mathrm{C}^{* \prime} (\mathrm{x}) + \mathrm{t} \right] = 0. \tag {7.22a}
 $$
 
 $$
-\pi_ {\mathrm {y}} = \mathrm {p} (\mathrm {z}) + \mathrm {y p} ^ {\prime} (\mathrm {z}) - \mathrm {C} ^ {\prime} (\mathrm {y}) = 0. \tag {7.22b}
+\pi_{\mathrm{y}} = \mathrm{p} (\mathrm{z}) + \mathrm{yp}^{\prime} (\mathrm{z}) - \mathrm{C}^{\prime} (\mathrm{y}) = 0. \tag {7.22b}
 $$
 
 The second-order conditions are  $\pi_{\mathrm{xx}}^{*} = 2\mathrm{p}^{\prime} + \mathrm{x}\mathrm{p}^{\prime \prime} - \mathrm{C}^{* \prime \prime} < 0$  and  $\pi_{\mathrm{yy}} = 2\mathrm{p}^{\prime} + \mathrm{y}\mathrm{p}^{\prime \prime} - \mathrm{C}^{\prime \prime} < 0$ . In addition, we assume that the stability condition  $\pi_{\mathrm{xx}}^{*}\pi_{\mathrm{yy}} - \pi_{\mathrm{xy}}^{*}\pi_{\mathrm{yx}} > 0$  holds.
@@ -338,19 +338,19 @@ as a function of foreign sales  $x$ , written as a reaction curve  $y = r(x)$ . 
 With the tariff, the foreign firm will reduce the amount it wishes to export (from (7.22b),  $\mathrm{dx} / \mathrm{dt} = 1 / \pi_{\mathrm{xx}}^{*} < 0$ ), and its reaction curve shifts down to  $\mathbf{R}'\mathbf{R}'$ , as shown in Figure 7.5. The equilibrium therefore shifts from point C to point D, involving reduced sales of export sales x but increased domestic sales y, together with increased home profits. To determine the effect on the domestic prices we need to calculate the impact on total sales  $z = x + y$ , and then on p(z). To determine this, it is convenient to sum the first-order conditions, obtaining,
 
 $$
-2 p (z) + z p ^ {\prime} (z) = C ^ {\prime} (y) + \left[ C ^ {* ^ {\prime}} (x) + t \right]. \tag {7.23}
+2 p (z) + z p^{\prime} (z) = C^{\prime} (y) + \left[ C^{*^{\prime}} (x) + t \right]. \tag {7.23}
 $$
 
 Suppose that domestic and foreign marginal costs are both constant. Then we can totally differentiate (7.23) to obtain:
 
 $$
-\frac {\mathrm {d} z}{\mathrm {d} t} = \frac {1}{[ 3 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) ]}, \tag {7.24a}
+\frac{\mathrm{d} z}{\mathrm{d} t} = \frac{1}{[ 3 p^{\prime} (z) + z p^{\prime \prime} (z) ]}, \tag {7.24a}
 $$
 
 and,
 
 $$
-\frac {\mathrm {d p}}{\mathrm {d t}} = \frac {\mathrm {p} ^ {\prime} (\mathrm {z})}{[ 3 \mathrm {p} ^ {\prime} (\mathrm {z}) + \mathrm {z p} ^ {\prime \prime} (\mathrm {z}) ]}. \tag {7.24b}
+\frac{\mathrm{dp}}{\mathrm{dt}} = \frac{\mathrm{p}^{\prime} (\mathrm{z})}{[ 3 \mathrm{p}^{\prime} (\mathrm{z}) + \mathrm{zp}^{\prime \prime} (\mathrm{z}) ]}. \tag {7.24b}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/b5e315da4406d8725d188e781d5dc7a95f4c48db7bfeb9a4ca777f57de83ad43.jpg)
@@ -362,7 +362,7 @@ Figure 7.5
 From (7.24a) we see that imports fall due to the tariff if  $3\mathrm{p}'(\mathrm{z}) + \mathrm{zp}''(\mathrm{z}) < 0$ . In that case the numerator and denominator of (7.24b) are both negative, so that  $\mathrm{dp/dt} < 1$  if,
 
 $$
-p ^ {\prime} (z) > 3 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) \Leftrightarrow 2 p ^ {\prime} (z) + z p ^ {\prime \prime} (z) <   0. \tag {7.25}
+p^{\prime} (z) > 3 p^{\prime} (z) + z p^{\prime \prime} (z) \Leftrightarrow 2 p^{\prime} (z) + z p^{\prime \prime} (z) <   0. \tag {7.25}
 $$
 
 The condition on the right of (7.25) states that marginal revenue for the market as a whole, which is  $\mathfrak{p}(\mathbf{z}) + \mathbf{z}\mathbf{p}'(\mathbf{z})$ , slopes down. This is a significantly weaker condition than (7.17'), which involved a comparison of the slopes of marginal revenue and demand; now, we only need to check the slope of marginal revenue, and most demand curves will satisfy (7.25). This includes the constant elasticity curve, for which  $\mathrm{mr}'(\mathrm{z}) = \mathrm{p}'(\mathrm{z})[1 - (1 / \eta)] < 0$ . When (7.25) is satisfied, then  $\mathrm{dz/dt} < 0$  in (7.24) and  $\mathrm{dp/dt} < 1$  in (7.24a), so there is a beneficial terms of trade impact  $(\mathrm{dp}^*/\mathrm{dt} < 0)$  for the importing country.
@@ -370,7 +370,7 @@ The condition on the right of (7.25) states that marginal revenue for the market
 Checking social welfare, we again use the general change in social welfare in (7.3), rewritten here using foreign exports (x) rather than home imports (m):
 
 $$
-\frac {\mathrm {d} \mathrm {W}}{\mathrm {d t}} = \mathrm {t} \frac {\mathrm {d x}}{\mathrm {d t}} - \mathrm {x} \frac {\mathrm {d p} ^ {*}}{\mathrm {d t}} + [ \mathrm {p} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d t}}, \tag {7.3'}
+\frac{\mathrm{d} \mathrm{W}}{\mathrm{dt}} = \mathrm{t} \frac{\mathrm{dx}}{\mathrm{dt}} - \mathrm{x} \frac{\mathrm{dp}^{*}}{\mathrm{dt}} + [ \mathrm{p} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{dt}}, \tag {7.3'}
 $$
 
 where the final term reflects the change in domestic output from equilibrium point C to point D. The first term on the right of (7.3) vanishes for small tariffs, and the second term is positive when (7.25) holds, so that a positive tariff improves the terms of trade. For the third term, in the typical case where both reaction curves are downward sloping, with the home curve cutting the foreign curve from above as shown in Figure 7.5, then we will have  $\mathrm{dy} / \mathrm{dt} > 0$ : the tariff will lead to an increase in domestic output, which brings an additional terms of trade gain. In this case, the optimal tariff is unambiguously positive.
@@ -381,10 +381,10 @@ The idea that imperfect competition might justify the "strategic" use of trade p
 
 In addition, Horstmann and Markusen (1986) argue the “profit shifting” motive for the tariff disappears if there is free entry into the domestic industry with Cournot competition. That is, suppose we allow free entry of home firms. Then the tariff, which would cause an incipient
 
-rise in profits, leads to the entry of domestic firms until profits are returned to zero. Domestic welfare is written in this case as,  $\mathrm{W[p,L + tm + N(py - C(y))]}$ , where  $\mathbf{N}$  is the number of domestic firms, but with profits equal to zero this becomes  $\mathrm{W(p,L + tm)}$ . Differentiating this with respect to the tariff  $t$ , we obtain the total change in utility:
+rise in profits, leads to the entry of domestic firms until profits are returned to zero. Domestic welfare is written in this case as,  $\mathrm{W[p,L +tm +N(py -C(y))]}$ , where  $\mathbf{N}$  is the number of domestic firms, but with profits equal to zero this becomes  $\mathrm{W(p,L +tm)}$ . Differentiating this with respect to the tariff  $t$ , we obtain the total change in utility:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) \frac {\mathrm {d p}}{\mathrm {d t}} + \mathrm {m} + \mathrm {t} \frac {\mathrm {d m}}{\mathrm {d p}} \frac {\mathrm {d p}}{\mathrm {d t}}. \tag {7.26}
+\frac{\mathrm{dW}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) \frac{\mathrm{dp}}{\mathrm{dt}} + \mathrm{m} + \mathrm{t} \frac{\mathrm{dm}}{\mathrm{dp}} \frac{\mathrm{dp}}{\mathrm{dt}}. \tag {7.26}
 $$
 
 This very simple expression is the alternative to (7.3) when profits are identically zero. For small tariffs, the final term vanishes, so the change in welfare depends on a comparison of the first two terms. It is immediate that welfare of the importing country increases for a small tariff if and only if  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . The interpretation of this condition is that the pass-through of the tariff to domestic prices must be less than the import share  $\mathrm{m} / \mathrm{d}(\mathrm{p})$ . Thus, having a terms of trade gain due to the tariff (meaning that  $\mathrm{dp} / \mathrm{dt} < 1$ ) is no longer sufficient to obtain a welfare improvement; instead, we must have  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . We will be reviewing estimates of the pass-through later in the chapter, and it is not unusual to find that  $50 - 75\%$  of a tariff is reflected in the import price. Under Cournot competition and free entry, this would be welfare improving (due to tariff revenue raised) only in an industry where the import share exceeds this magnitude.
@@ -398,21 +398,21 @@ Let us momentarily depart from our assumption at the beginning of this chapter t
 With an ad valorem tariff of  $\tau$  on imports, their domestic price is  $p = p^{*}(1 + \tau)$ . So profits of the foreign and home firms are:
 
 $$
-\pi^ {*} = \frac {\mathrm {p d} ^ {*} (\mathrm {p} , \mathrm {q} , \mathrm {I})}{(1 + \tau)} - \mathrm {C} ^ {*} [ \mathrm {d} ^ {*} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ]. \tag {7.27a}
+\pi^{*} = \frac{\mathrm{pd}^{*} (\mathrm{p} , \mathrm{q} , \mathrm{I})}{(1 + \tau)} - \mathrm{C}^{*} [ \mathrm{d}^{*} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ]. \tag {7.27a}
 $$
 
 $$
-\pi = \operatorname {q d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) - \mathrm {C} [ \mathrm {d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ], \tag {7.27b}
+\pi = \operatorname{qd} (\mathrm{p}, \mathrm{q}, \mathrm{I}) - \mathrm{C} [ \mathrm{d} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ], \tag {7.27b}
 $$
 
 Maximizing these over the choice of  $p$  and  $q$ , respectively, treating total expenditure  $I$  as fixed, the first-order conditions  $\pi_{p}^{*} = \pi_{q} = 0$  can be simplified as:
 
 $$
-p \left(1 - \frac {1}{\eta^ {*}}\right) = (1 + \tau) C ^ {*} [ d ^ {*} (p, q, I) ], \tag {7.28a}
+p \left(1 - \frac{1}{\eta^{*}}\right) = (1 + \tau) C^{*} [ d^{*} (p, q, I) ], \tag {7.28a}
 $$
 
 $$
-\mathrm {q} \left(1 - \frac {1}{\eta}\right) = \mathrm {C} ^ {\prime} [ \mathrm {d} (\mathrm {p}, \mathrm {q}, \mathrm {I}) ], \tag {7.28b}
+\mathrm{q} \left(1 - \frac{1}{\eta}\right) = \mathrm{C}^{\prime} [ \mathrm{d} (\mathrm{p}, \mathrm{q}, \mathrm{I}) ], \tag {7.28b}
 $$
 
 where  $\eta^{*}\equiv -(\partial d^{*}(p,q,I) / \partial p)(p / d^{*})$  and  $\eta \equiv -(\partial d(p,q,I) / \partial q)(q / d)$  are the (positive)
@@ -426,7 +426,7 @@ Given the domestic price  $q$ , income  $I$  and the tariff, we can use (7.28a) 
 The assumption that we used earlier to ensure that the ad valorem tariff led to a fall in the import price  $p^*$ , or a terms of trade gain, was that the elasticity of demand was decreasing in quantity. Since we are now thinking of the elasticities as function of relative prices, the analogous assumption would be  $\eta^{*'}(p/q) > 0$  and  $\eta'(q/p) > 0$ ; that is, elasticities increase as the relative price of that good rises. Treating foreign and domestic marginal costs as constant in (7.29), this assumption will ensure that both reaction curves  $p = r^*(q, \tau)$  and  $q = r(p)$  slope upwards, as shown in Figure 7.6. As the relative price of the competing good rises, the elasticity falls, and each firm will charge a higher price for their own good. Furthermore, there is a dampened response of each price to that of the competing good, so that  $\frac{dp}{dq} \frac{q}{p} = r_q^*(q, \tau) \frac{q}{p} < 1$ ,
 
 $$
-\text {a n d} \frac {\mathrm {d q}}{\mathrm {d p}} \frac {\mathrm {p}}{\mathrm {q}} = \mathrm {r} _ {\mathrm {p}} (\mathrm {p}) \frac {\mathrm {p}}{\mathrm {q}} <   1.
+\text{an d} \frac{\mathrm{dq}}{\mathrm{dp}} \frac{\mathrm{p}}{\mathrm{q}} = \mathrm{r}_{\mathrm{p}} (\mathrm{p}) \frac{\mathrm{p}}{\mathrm{q}} <   1.
 $$
 
 Suppose that the ad valorem tariff  $\tau$  increases. From the second-order conditions for profit maximization, we will have an increase in the tariff-inclusive import price  $p$ , from (7.30a). In Figure 7.7, the foreign reaction curve shifts rightward to  $\mathbf{R}'\mathbf{R}'$ . This leads to an induced increase in the domestic price  $q$ , and a further increase in the import price  $p$ , until the new equilibrium is reached at point D. We are interested in whether the percentage increase in  $p$  is less than the amount of the tariff, that is,  $(\mathrm{dp} / \mathrm{d}\tau)(1 + \tau) / p < 1$ , which will ensure that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  so that there is a term of trade gain. It turns out that the assumptions we have already made, that  $\eta^{*'}(p / q) > 0$  and  $\eta'(q / p) > 0$ , are enough to guarantee this outcome. These conditions are analogous to what we used above to ensure that the ad valorem tariff on a foreign monopolist led to a fall in the import price  $p^*$ , or a term of trade gain. Thus, whether there is a single foreign firm, or a duopoly in the import market, the key condition to ensure a term of trade gain is that the elasticity of demand is increasing in price or decreasing in quantity. This condition holds for any demand curve that is "less convex" than a constant-elasticity demand curve.
@@ -434,7 +434,7 @@ Suppose that the ad valorem tariff  $\tau$  increases. From the second-order con
 To demonstrate the effect of the tariff on  $\mathfrak{p}^*$ , write the import price net of the tariff as  $\mathfrak{p}^* = \mathfrak{p} / (1 + \tau)$ . From (7.28a) this equals,
 
 $$
-p ^ {*} \left(1 - \frac {1}{\eta^ {*}}\right) = C ^ {* ^ {\prime}}. \tag {7.29}
+p^{*} \left(1 - \frac{1}{\eta^{*}}\right) = C^{*^{\prime}}. \tag {7.29}
 $$
 
 Totally differentiate this holding marginal cost constant, to obtain:
@@ -446,15 +446,15 @@ Figure 7.6
 Figure 7.7
 
 $$
-\frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} \left(1 - \frac {1}{\eta^ {*}}\right) + \left(\frac {\eta^ {* ^ {\prime}}}{\eta^ {* ^ {2}}}\right) \frac {\mathrm {d} (\mathrm {p} / \mathrm {q})}{\mathrm {d} \tau} = 0 \Rightarrow \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} = - \left[ \frac {\eta^ {* ^ {\prime}}}{\eta^ {*} (\eta^ {*} - 1)} \right] \frac {\mathrm {d} (\mathrm {p} / \mathrm {q})}{\mathrm {d} \tau}. \tag {7.30}
+\frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} \left(1 - \frac{1}{\eta^{*}}\right) + \left(\frac{\eta^{*^{\prime}}}{\eta^{*^{2}}}\right) \frac{\mathrm{d} (\mathrm{p} / \mathrm{q})}{\mathrm{d} \tau} = 0 \Rightarrow \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} = - \left[ \frac{\eta^{*^{\prime}}}{\eta^{*} (\eta^{*} - 1)} \right] \frac{\mathrm{d} (\mathrm{p} / \mathrm{q})}{\mathrm{d} \tau}. \tag {7.30}
 $$
 
-Since we have assumed that  $\eta^{*} > 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  provided that  $\mathrm{d(p/q) / d\tau} > 0$ , that is, provided that the tariff leads to a higher increase in the price of the importable than the domestic good. But this condition is easily confirmed from Figure 7.7. With a rightward shift of the foreign reaction curve, and a dampened response of the domestic price  $q$ , the new equilibrium given by point D will lie below a ray from the origin going through the initial equilibrium given by point B. In other words, the relative price of the importable  $(p/q)$  must rise, and it follows from (7.30) that the net-of-tariff foreign price falls, which is a terms of trade gain for the importer.
+Since we have assumed that  $\eta^{*} > 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  provided that  $\mathrm{d(p/q) /d\tau} > 0$ , that is, provided that the tariff leads to a higher increase in the price of the importable than the domestic good. But this condition is easily confirmed from Figure 7.7. With a rightward shift of the foreign reaction curve, and a dampened response of the domestic price  $q$ , the new equilibrium given by point D will lie below a ray from the origin going through the initial equilibrium given by point B. In other words, the relative price of the importable  $(p/q)$  must rise, and it follows from (7.30) that the net-of-tariff foreign price falls, which is a terms of trade gain for the importer.
 
-To calculate the change in social welfare under Bertrand duopoly, we re-write the social welfare function as  $\mathrm{W[p,q,L + \tau p^*x + qy - C(y)]}$ , including both the import price  $p = p^{*}(1 + \tau)$  and domestic price  $q$ . Totally differentiating this, and using similar steps as in (7.3), we find that the welfare change due to the change in the ad valorem tariff is:
+To calculate the change in social welfare under Bertrand duopoly, we re-write the social welfare function as  $\mathrm{W[p,q,L + \taup^*x +qy -C(y)]}$ , including both the import price  $p = p^{*}(1 + \tau)$  and domestic price  $q$ . Totally differentiating this, and using similar steps as in (7.3), we find that the welfare change due to the change in the ad valorem tariff is:
 
 $$
-\frac {\mathrm {d W}}{\mathrm {d} \tau} = \tau \mathrm {p} ^ {*} \frac {\mathrm {d x}}{\mathrm {d} \tau} - \mathrm {x} \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau} + [ \mathrm {q} - \mathrm {C} ^ {\prime} (\mathrm {y}) ] \frac {\mathrm {d y}}{\mathrm {d} \tau}. \tag {7.31}
+\frac{\mathrm{dW}}{\mathrm{d} \tau} = \tau \mathrm{p}^{*} \frac{\mathrm{dx}}{\mathrm{d} \tau} - \mathrm{x} \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau} + [ \mathrm{q} - \mathrm{C}^{\prime} (\mathrm{y}) ] \frac{\mathrm{dy}}{\mathrm{d} \tau}. \tag {7.31}
 $$
 
 The first term on the right of (7.31) vanishes for small tariffs, and the second term is positive when  $\eta^{*'}(\mathrm{p/q}) > 0$  and  $\eta'(\mathrm{q/p}) > 0$ , so there is a terms of trade gain. The third term in (7.31) depends on the change in equilibrium output from point B to point D, and is of ambiguous sign in general: the increase in prices from point B to point D reduces demand, while the fall in  $(\mathrm{p/q})$  shifts demand towards the domestic good, so the effect on domestic output depends on the
@@ -488,31 +488,31 @@ than complete, and averages about 0.6 (Goldberg and Knetter, 1997, p. 1250), tho
 To obtained an estimating equation, let us begin with the first-order condition of a typical foreign exporter, in (7.28a), where we treat foreign marginal costs  $C^*$  as constant, and re-write this as  $c^*$ , in the foreign currency. We need to convert this to the domestic currency using an expected exchange rate  $e$ , so we re-write (7.28a) as:
 
 $$
-p \left(1 - \frac {1}{\eta^ {*}}\right) = (1 + \tau) e c ^ {*}. \tag {7.32}
+p \left(1 - \frac{1}{\eta^{*}}\right) = (1 + \tau) e c^{*}. \tag {7.32}
 $$
 
-Using the assumption that the income elasticity of demand is unity, we express the elasticity of import demand,  $\eta^{*}(\mathrm{p / q})$ , as a function of the import/domestic price ratio. More generally,  $\eta^{*}(\mathrm{p,q,I})$  will depend on consumer income, too, but is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathbf{I})$ . So treating the domestic price, income, tariff rate, exchange rate and foreign marginal cost as parameters, (7.32) is one equation in one unknown – the import price  $p$ . We can therefore solve for the import prices as a function of the parameters,
+Using the assumption that the income elasticity of demand is unity, we express the elasticity of import demand,  $\eta^{*}(\mathrm{p /q})$ , as a function of the import/domestic price ratio. More generally,  $\eta^{*}(\mathrm{p,q,I})$  will depend on consumer income, too, but is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathbf{I})$ . So treating the domestic price, income, tariff rate, exchange rate and foreign marginal cost as parameters, (7.32) is one equation in one unknown – the import price  $p$ . We can therefore solve for the import prices as a function of the parameters,
 
 $$
-p = \phi [ (1 + \tau) e c ^ {*}, q, I ]. \tag {7.33}
+p = \phi [ (1 + \tau) e c^{*}, q, I ]. \tag {7.33}
 $$
 
 With  $\eta^{*}(\mathfrak{p},\mathfrak{q},\mathrm{I})$  homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathrm{I})$ , it is readily verified that  $\phi[(1+\tau)\mathrm{ec}^*,\mathfrak{q},\mathrm{I}]$  is homogeneous of degree one in its arguments. This is our first testable hypothesis, which checks the overall specification of the pricing equation. Second, notice that we have written the tariff, exchange rate and marginal costs as multiplied together in the arguments of  $\phi[(1+\tau)\mathrm{ec}^*,\mathfrak{q},\mathrm{I}]$ , because that is how they appear in the first-order condition (7.32). This is another testable hypothesis. To implement both these tests, let us specify (7.33) as a log-linear function of its arguments, which are indexed by time  $t$ :
 
 $$
-\ln p _ {t} = \alpha_ {t} + \sum_ {i = 0} ^ {L} \beta_ {i} \ln \left(c _ {t} ^ {*} s _ {t - i}\right) + \beta \ln \left(1 + \tau_ {t}\right) + \sum_ {j = 1} ^ {M} \gamma_ {j} \ln q _ {j t} + \delta \ln I _ {t} + \varepsilon_ {t}. \tag {7.34}
+\ln p_{t} = \alpha_{t} + \sum_{i = 0}^{L} \beta_{i} \ln \left(c_{t}^{*} s_{t - i}\right) + \beta \ln \left(1 + \tau_{t}\right) + \sum_{j = 1}^{M} \gamma_{j} \ln q_{j t} + \delta \ln I_{t} + \varepsilon_{t}. \tag {7.34}
 $$
 
 The first term on the right of (7.34),  $\alpha_{t}$ , is a simple quadratic function of time, which will allow import price to change in a smooth fashion for reasons not specified elsewhere in the equation. To obtain the second term, we specify that the expected exchange rate  $e_t$  is a weighted average of lagged spot rates,  $s_{t-i}$ ,  $i = 0,1,\ldots,L$  (in $/yen). This allows us to write  $\ln(c_t^* s_{t-i})$  as having the coefficients  $\beta_i$ ,  $i = 0,1,\ldots,L$ , the sum of which will indicate the total pass-through of the exchange rate to import prices. Next, we write the ad valorem tariff  $\ln(1 + \tau_t)$  as having the coefficient  $\beta$ , which is the pass-through of the tariff. The hypothesis of symmetric pass-through of the tariff and exchange rate is therefore tested as:
 
 $$
-\sum_ {i = 0} ^ {L} \beta_ {i} = \beta . \tag {7.35a}
+\sum_{i = 0}^{L} \beta_{i} = \beta . \tag {7.35a}
 $$
 
-The next terms appearing on the right of (7.34) are the price of domestic or rival import products,  $j = 1, \dots, M$ . For Japanese imports, this would include the average price of U.S. products, as well as German imported cars or motorcycles. Finally, total consumer expenditure on the broad category of transportation equipment is included as a measure of "income." Notice that if the income elasticity of demand is unity, then the foreign elasticity  $\eta^{*}(\mathrm{p / q})$  does not depend on I, and neither will the optimal price  $p_t$  in (7.34), so  $\delta = 0$ . In any case, the hypothesis that the whole equation is homogeneous of degree one can be tested by:
+The next terms appearing on the right of (7.34) are the price of domestic or rival import products,  $j = 1, \dots, M$ . For Japanese imports, this would include the average price of U.S. products, as well as German imported cars or motorcycles. Finally, total consumer expenditure on the broad category of transportation equipment is included as a measure of "income." Notice that if the income elasticity of demand is unity, then the foreign elasticity  $\eta^{*}(\mathrm{p /q})$  does not depend on I, and neither will the optimal price  $p_t$  in (7.34), so  $\delta = 0$ . In any case, the hypothesis that the whole equation is homogeneous of degree one can be tested by:
 
 $$
-\sum_ {\mathrm {i} = 0} ^ {\mathrm {L}} \beta_ {\mathrm {i}} + \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \gamma_ {\mathrm {j}} + \delta = 1 \tag {7.35b}
+\sum_{\mathrm{i} = 0}^{\mathrm{L}} \beta_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{M}} \gamma_{\mathrm{j}} + \delta = 1 \tag {7.35b}
 $$
 
 The results of estimating (7.34) using quarterly data for U.S. imports are shown in Table 7.2. The first row indicates the sample period of quarterly data used for each product. There are two distinct samples used for heavyweight motorcycles. The first sample consists of interview data reported by the United States ITC (1983, Table 8 and 1983-84). The advantage of this data is that it gives the unit-value of imports for consumption, inclusive of duty, for the major Japanese importers (Honda, Suzuki and Yamaha). However, the disadvantage is that the data end in 1984:4 and include a small amount of German heavyweight motorcycles within the reported unit-value. A second source was collected at the border by the U.S. Dept of Commerce giving the unit-value of imports shipments, distinguishing Japanese and German heavyweight cycles up to 1987:1. $^{14}$  We experiment with both data sources, and also the pooled sample.
@@ -572,23 +572,23 @@ From this setup, it is apparent that if we had an equilibrium where the c.i.f. p
 To answer this, denote the marginal cost of producing in either country by  $c$ . The fixed costs of production are  $\alpha$ . A firm located in country  $i$  and selling to country  $j$  will face "iceberg" transport costs, so the marginal cost of delivering one unit abroad is  $cT$ . The home firms solve the profit maximization problem:
 
 $$
-\max  _ {\mathrm {y} _ {\mathrm {i}}, \mathrm {y} _ {\mathrm {i}} ^ {*}} \pi = [ \mathrm {p} (\mathrm {z}) - \mathrm {c} ] \mathrm {y} _ {\mathrm {i}} + [ \mathrm {p} ^ {*} (\mathrm {z} ^ {*}) - \mathrm {c T} ] \mathrm {y} _ {\mathrm {i}} ^ {*} - \alpha , \tag {7.36}
+\max_{\mathrm{y}_{\mathrm{i}}, \mathrm{y}_{\mathrm{i}}^{*}} \pi = [ \mathrm{p} (\mathrm{z}) - \mathrm{c} ] \mathrm{y}_{\mathrm{i}} + [ \mathrm{p}^{*} (\mathrm{z}^{*}) - \mathrm{cT} ] \mathrm{y}_{\mathrm{i}}^{*} - \alpha , \tag {7.36}
 $$
 
 with the first-order conditions,
 
 $$
-\pi_ {\mathrm {y} _ {\mathrm {i}}} = \mathrm {p} (\mathrm {z}) + \mathrm {y} _ {\mathrm {i}} \mathrm {p} ^ {\prime} (\mathrm {z}) - \mathrm {c} = 0, \tag {7.37a}
+\pi_{\mathrm{y}_{\mathrm{i}}} = \mathrm{p} (\mathrm{z}) + \mathrm{y}_{\mathrm{i}} \mathrm{p}^{\prime} (\mathrm{z}) - \mathrm{c} = 0, \tag {7.37a}
 $$
 
 $$
-\pi_ {y _ {i} ^ {*}} = p ^ {*} (z ^ {*}) + y _ {i} ^ {*} p ^ {* \prime} (z ^ {*}) - c T = 0. \tag {7.37b}
+\pi_{y_{i}^{*}} = p^{*} (z^{*}) + y_{i}^{*} p^{* \prime} (z^{*}) - c T = 0. \tag {7.37b}
 $$
 
 Divide these conditions by  $p'(z)z$  and  $p^*(z^*)z^*$ , respectively, and impose the symmetry condition that every home firm is selling the same amount in each of the home and foreign markets, so  $y_i = y$  and  $y_i^* = y^*$ . Then the first-order conditions are written as:
 
 $$
-p \left(1 - \frac {\left(\mathrm {y} / \mathrm {z}\right)}{\eta}\right) = c, \quad p ^ {*} \left(1 - \frac {\left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right)}{\eta^ {*}}\right) = c \mathrm {T}, \tag {7.38}
+p \left(1 - \frac{\left(\mathrm{y} / \mathrm{z}\right)}{\eta}\right) = c, \quad p^{*} \left(1 - \frac{\left(\mathrm{y}^{*} / \mathrm{z}^{*}\right)}{\eta^{*}}\right) = c \mathrm{T}, \tag {7.38}
 $$
 
 where  $\eta = z / p'(z)p$  and  $\eta^{*} = z^{*} / p^{*}(z^{*})p^{*}$  are the home and foreign demand elasticities.
@@ -596,7 +596,7 @@ where  $\eta = z / p'(z)p$  and  $\eta^{*} = z^{*} / p^{*}(z^{*})p^{*}$  are the
 In a similar manner, we can derive the first-order conditions for the foreign firms,
 
 $$
-p ^ {*} \left(1 - \frac {\left(x ^ {*} / z ^ {*}\right)}{\eta^ {*}}\right) = c, p \left(1 - \frac {(x / z)}{\eta}\right) = c T \tag {7.39}
+p^{*} \left(1 - \frac{\left(x^{*} / z^{*}\right)}{\eta^{*}}\right) = c, p \left(1 - \frac{(x / z)}{\eta}\right) = c T \tag {7.39}
 $$
 
 where each of these firms is selling  $\mathbf{x}^*$  in its own market and  $\mathbf{x}$  in the home market.
@@ -604,33 +604,33 @@ where each of these firms is selling  $\mathbf{x}^*$  in its own market and  $\m
 By adding up the market shares of all firms selling in each country, we must obtain:
 
 $$
-\begin{array}{l} N (y / z) + N ^ {*} (x / z) = 1, \\ \mathrm {N} \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right) + \mathrm {N} ^ {*} \left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right) = 1. \tag {7.40} \\ \end{array}
+\begin{array}{l} N (y / z) + N^{*} (x / z) = 1, \\ \mathrm{N} \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right) + \mathrm{N}^{*} \left(\mathrm{x}^{*} / \mathrm{z}^{*}\right) = 1. \tag {7.40} \\ \end{array}
 $$
 
 Notice that we can write this simple system in matrix notation as:
 
 $$
-\left(\mathrm {N}, \mathrm {N} ^ {*}\right) \left[ \begin{array}{l l} (\mathrm {y} / \mathrm {z}) & \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right) \\ (\mathrm {x} / \mathrm {z}) & \left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right) \end{array} \right] = (1, 1), \tag {7.40'}
+\left(\mathrm{N}, \mathrm{N}^{*}\right) \left[ \begin{array}{l l} (\mathrm{y} / \mathrm{z}) & \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right) \\ (\mathrm{x} / \mathrm{z}) & \left(\mathrm{x}^{*} / \mathrm{z}^{*}\right) \end{array} \right] = (1, 1), \tag {7.40'}
 $$
 
 which can be inverted to solve for the number of firms in each country:
 
 $$
-\begin{array}{l} \left. \right.\left.\left(\mathrm {N}, \mathrm {N} ^ {*}\right) = \frac {(1 , 1)}{\mathrm {D}} \left[\begin{array}{l l}\left(\mathrm {x} ^ {*} / \mathrm {z} ^ {*}\right)&- \left(\mathrm {y} ^ {*} / \mathrm {z} ^ {*}\right)\\- (\dots)&- (\dots)\end{array}\right] \Rightarrow \right. \quad \mathrm {N} = \frac {1}{\mathrm {D}} \left(\frac {\mathrm {x} ^ {*}}{\mathrm {z} ^ {*}} - \frac {\mathrm {x}}{\mathrm {z}}\right), \tag {7.41} \\ \mathbf {N} ^ {*} = \frac {1}{\mathbf {D}} \left(\frac {\mathbf {y}}{\mathbf {z}} - \frac {\mathbf {y} ^ {*}}{\mathbf {z} ^ {*}}\right), \\ \end{array}
+\begin{array}{l} \left. \right.\left.\left(\mathrm{N}, \mathrm{N}^{*}\right) = \frac{(1 , 1)}{\mathrm{D}} \left[\begin{array}{l l}\left(\mathrm{x}^{*} / \mathrm{z}^{*}\right)&- \left(\mathrm{y}^{*} / \mathrm{z}^{*}\right)\\- (\dots)&- (\dots)\end{array}\right] \Rightarrow \right. \quad \mathrm{N} = \frac{1}{\mathrm{D}} \left(\frac{\mathrm{x}^{*}}{\mathrm{z}^{*}} - \frac{\mathrm{x}}{\mathrm{z}}\right), \tag {7.41} \\ \mathbf {N}^{*} = \frac{1}{\mathbf {D}} \left(\frac{\mathbf {y}}{\mathbf {z}} - \frac{\mathbf {y}^{*}}{\mathbf {z}^{*}}\right), \\ \end{array}
 $$
 
 where  $D$  is the determinant of the  $2 \times 2$  matrix of market shares shown in (7.40'). From the first-order conditions (7.38) and (7.39) it is clear that  $(y / z) > (x / z)$  and  $(x^{*} / z^{*}) > (y^{*} / z^{*})$ , so that local
 
 sales in each county exceed imports (due to the assumption of equal marginal costs but positive transport costs). This ensures that  $\mathbf{D} > 0$ .
 
-Notice that the solutions for  $\mathbf{N}$  and  $\mathbf{N}^*$  from (7.41) are not guaranteed to be positive, though this occurs if each firm sells more in its local market than in its export market,  $(\mathrm{y / z}) > (\mathrm{y}^* / \mathrm{z}^*)$  and  $(\mathrm{x}^* / \mathrm{z}^*) > (\mathrm{x / z})$ . To determine when this will be the case, let us make the simplifying assumption that the elasticity of demand is equal in the two markets,  $\eta = \eta^*$ . Then we can substitute the market shares from the first-order conditions (7.38) and (7.39) into (7.41), and use  $\eta = \eta^*$  to obtain:
+Notice that the solutions for  $\mathbf{N}$  and  $\mathbf{N}^*$  from (7.41) are not guaranteed to be positive, though this occurs if each firm sells more in its local market than in its export market,  $(\mathrm{y /z}) > (\mathrm{y}^* / \mathrm{z}^*)$  and  $(\mathrm{x}^* / \mathrm{z}^*) > (\mathrm{x /z})$ . To determine when this will be the case, let us make the simplifying assumption that the elasticity of demand is equal in the two markets,  $\eta = \eta^*$ . Then we can substitute the market shares from the first-order conditions (7.38) and (7.39) into (7.41), and use  $\eta = \eta^*$  to obtain:
 
 $$
-N = \frac {\eta}{D} \left(\frac {c T}{p} - \frac {c}{p ^ {*}}\right) > 0 \text {i f a n d o n l y i f} p / T <   p ^ {*} \tag {7.42a}
+N = \frac{\eta}{D} \left(\frac{c T}{p} - \frac{c}{p^{*}}\right) > 0 \text{if an do nl yi f} p / T <   p^{*} \tag {7.42a}
 $$
 
 $$
-N ^ {*} = \frac {\eta}{D} \left(\frac {c T}{p ^ {*}} - \frac {c}{p}\right) > 0 \text {i f a n d o n l y i f} p ^ {*} / T <   p. \tag {7.42b}
+N^{*} = \frac{\eta}{D} \left(\frac{c T}{p^{*}} - \frac{c}{p}\right) > 0 \text{if an do nl yi f} p^{*} / T <   p. \tag {7.42b}
 $$
 
 Thus, we have obtained the following result:
@@ -654,7 +654,7 @@ Figure 7.8
 
 foreign firm will indeed sell to the home market. $^{18}$  Suppose that imports are  $(\mathrm{z}_1 - \mathrm{y}_1)$ , and these reduce the home price to  $\mathfrak{p}_1$ . This brings a rise in global welfare of the area shown (the top triangle of this area is consumer surplus in the importing country, and the remainder is profits of the foreign exporter), but a loss in global welfare due to added transport costs shown by the rectangle. A similar diagram would apply in the foreign country. The relative sizes of these areas are ambiguous, so we do not know whether trade raises or lowers global welfare.
 
-However, with free entry of firms in both countries, Brander and Krugman argue that global welfare necessary improves due to free trade. The welfare function with multiple firms is  $\mathrm{W(p,L + tm + N\pi)}$ , where  $\pi$  is the profits of each home firm, but with profits equal to zero this becomes  $\mathrm{W(p,L + tm)}$ . Furthermore, comparing autarky and free trade we have zero tariff revenue in each case, so welfare is just  $\mathrm{W(p,L)}$ . Thus, welfare will rise going from autarky to free trade if and only if the import price falls. Brander and Krugman argue that this is indeed the case: with import competition, prices unambiguously fall, so welfare in both countries improves. The fall in prices is also reflected in a fall in average costs (since price equals average costs from zero profits), which implies the output of each firm increases going from autarky to free trade. So similar to the monopolistic competition model of chapter 5, we have that trade brings gains due to the exercise of economies of scale. But unlike the monopolistic competition model, these gains come despite the fact that trade is intrinsically wasteful due to the homogeneous product and transportation costs.
+However, with free entry of firms in both countries, Brander and Krugman argue that global welfare necessary improves due to free trade. The welfare function with multiple firms is  $\mathrm{W(p,L +tm +N\pi)}$ , where  $\pi$  is the profits of each home firm, but with profits equal to zero this becomes  $\mathrm{W(p,L +tm)}$ . Furthermore, comparing autarky and free trade we have zero tariff revenue in each case, so welfare is just  $\mathrm{W(p,L)}$ . Thus, welfare will rise going from autarky to free trade if and only if the import price falls. Brander and Krugman argue that this is indeed the case: with import competition, prices unambiguously fall, so welfare in both countries improves. The fall in prices is also reflected in a fall in average costs (since price equals average costs from zero profits), which implies the output of each firm increases going from autarky to free trade. So similar to the monopolistic competition model of chapter 5, we have that trade brings gains due to the exercise of economies of scale. But unlike the monopolistic competition model, these gains come despite the fact that trade is intrinsically wasteful due to the homogeneous product and transportation costs.
 
 # Impact of Anti-Dumping Duties
 
@@ -668,7 +668,7 @@ In the first stage of an investigation, which we call period 1, the DOC compares
 
 own home price of  $p^*$ . If  $p_1 / T < p^*$  then there is pricing at "less than fair value." In nearly  $95\%$  of cases brought before the DOC, it concludes that this occurs and recommends duties in period 2 of  $(1 + \tau_2) = p^*/(p_1 / T) > 1$ .
 
-Notice that the duty applied in period 2 depends on the price charged by the exporter in period 1. In this sense, we must treat the anti-dumping duty as endogenous, and the exporter will have an incentive to raise its period 1 price so as to lower the period 2 duty.[19] Furthermore, this increase in price occurs even before the duty has been imposed, so that the importing country does not collect any tariff revenues. This increase in the import price amounts to a pure terms of trade loss for the importer. Because there is no tariff revenue collected, and still allowing for free entry of home firms, the welfare criterion is modified from  $\mathrm{W(p,L + tm)}$  to  $\mathrm{W(p,L)}$ . Thus, any increase in the import price leads to a welfare loss.
+Notice that the duty applied in period 2 depends on the price charged by the exporter in period 1. In this sense, we must treat the anti-dumping duty as endogenous, and the exporter will have an incentive to raise its period 1 price so as to lower the period 2 duty.[19] Furthermore, this increase in price occurs even before the duty has been imposed, so that the importing country does not collect any tariff revenues. This increase in the import price amounts to a pure terms of trade loss for the importer. Because there is no tariff revenue collected, and still allowing for free entry of home firms, the welfare criterion is modified from  $\mathrm{W(p,L +tm)}$  to  $\mathrm{W(p,L)}$ . Thus, any increase in the import price leads to a welfare loss.
 
 There is evidence that this investigation stage of dumping actions does indeed lead to an impact on imports, though this is often measured by the effect on quantities rather than prices. Using a sample of all antidumping cases in the United States from 1980-85, Staiger and Wolak (1992) find that the initiation of an investigation has a substantial impact on imports, reducing them by about one-half as much as that would have occurred under duties. The implication is that import prices must increase, leading to a loss for the importer.
 
@@ -687,10 +687,10 @@ Notice that these duties can be re-written as  $(1 + \tau_{3}) = (1 + \tau_{2})[
 amount of the period 2 duty. In the above notation, a charge of dumping is avoided in period 2 if and only if,
 
 $$
-p _ {2} / \left[ T \left(1 + \tau_ {2}\right) \right] \geq p ^ {*} \Leftrightarrow p _ {2} \geq p ^ {*} T \left(1 + \tau_ {2}\right) > p _ {1} \left(1 + \tau_ {2}\right), \tag {7.43}
+p_{2} / \left[ T \left(1 + \tau_{2}\right) \right] \geq p^{*} \Leftrightarrow p_{2} \geq p^{*} T \left(1 + \tau_{2}\right) > p_{1} \left(1 + \tau_{2}\right), \tag {7.43}
 $$
 
-where the last inequality is obtained because dumping occurred in period 1,  $\mathrm{p_1 / T < p^*}$
+where the last inequality is obtained because dumping occurred in period 1,  $\mathrm{p_1 /T <p^*}$
 
 Using the last inequalities in (7.43), we see that to avoid continuing anti-dumping duties the import price must rise between period by the amount  $\mathsf{p}_2 / \mathsf{p}_1 > (1 + \tau_2)$ , so there is more than complete pass-through of the period 2 duty. This hypothesis receives strong support from Blonigen and Haynes (2002). They estimate that the pass-through of the initial anti-dumping duties can be as high as  $160\%$  for the cases that are subject to an administrative review. This occurs because, as explained above, the DOC removes existing tariffs from import prices when computing the dumping margin. So in order to avoid duties after an administrative review, the tariff-inclusive price must rise by more than the amount of duties.
 
@@ -744,7 +744,7 @@ The same is not true of the anti-dumping provisions of GATT. As we have argued, 
 7.8 Consider the problem of an exporting firm facing the threat of an anti-dumping duty. Given the period 1 import price chosen by the exporting firm, the duty imposed in period 2 equals  $(1 + \tau_{2}) = p^{*} / p_{1}$  whenever  $p_1 < p^*$ . This tariff is imposed with probability  $\theta$ , and conversely, with probability (1- $\theta$ ) there will be no duty. Denote the value of period 2 profits when the duty is imposed by  $\pi_2^*(\tau_2)$ , where from problem 7.7 we have that  $\pi_2^*(\tau_2) < 0$ . Let  $\pi_2^*(0)$  denote the maximized value of period 2 profits for the foreign firm in the case of zero duty. Then the period 1 problem can be stated as:
 
 $$
-\max  _ {p _ {1}} \pi^ {*} \left(p _ {1}, q _ {1}\right) + \delta \left[ \theta \pi_ {2} ^ {*} \left(\tau_ {2}\right) + (1 - \theta) \pi_ {2} ^ {*} (0) \right] \quad \text {s . t .} \quad \left(1 + \tau_ {2}\right) = p ^ {*} / p _ {1}. \tag {7.44}
+\max_{p_{1}} \pi^{*} \left(p_{1}, q_{1}\right) + \delta \left[ \theta \pi_{2}^{*} \left(\tau_{2}\right) + (1 - \theta) \pi_{2}^{*} (0) \right] \quad \text{s .t .} \quad \left(1 + \tau_{2}\right) = p^{*} / p_{1}. \tag {7.44}
 $$
 
 We suppose that the home firm chooses  $q_1$ , under Bertrand competition. Derive the first-order conditions for the home and foreign firms, and show that the threatened duty leads to an increase in the foreign price  $p_1$ .

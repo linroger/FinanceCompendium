@@ -137,7 +137,7 @@ $Y - T$  represents disposable income and
 $S_{p} = Y - T - C$  is private savings, substituting  $S_{p}$  in and moving  $G - T$  to the left hand side, we obtain
 
 $$
-(S _ {p} - I) + (T - G) = E X - I M
+(S_{p} - I) + (T - G) = E X - I M
 $$
 
 # Interpreting the Trade Balance

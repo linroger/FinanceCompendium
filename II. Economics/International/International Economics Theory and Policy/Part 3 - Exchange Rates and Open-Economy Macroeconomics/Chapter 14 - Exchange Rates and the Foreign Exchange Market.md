@@ -60,19 +60,19 @@ Rates are derived from WM Reuters Spot Rates and MorningStar (latest rates at ti
 The answer is found by multiplying the price of the sweater in pounds, 50, by the price of a pound in terms of dollars—the dollar's exchange rate against the pound. At an exchange rate of \$1.50 per pound (expressed in American terms), the dollar price of the sweater is
 
 $$
-(1. 5 0 \mathrm {~ S} / \mathrm {E}) \times (\mathrm {E} 5 0) = \mathrm {S} 7 5.
+(1. 5 0 \mathrm{~S} / \mathrm{E}) \times (\mathrm{E} 5 0) = \mathrm{S} 7 5.
 $$
 
 A change in the dollar/pound exchange rate would alter the sweater's dollar price. At an exchange rate of 1.25 per pound, the sweater would cost only
 
 $$
-(1. 2 5 \mathrm {~\$} / \mathrm {£}) \times (\mathrm {£} 5 0) = \mathrm {~\$} 6 2. 5 0,
+(1. 2 5 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 5 0) = \mathrm{~\$} 6 2. 5 0,
 $$
 
 assuming its price in terms of pounds remained the same. At an exchange rate of \$1.75 per pound, the sweater's dollar price would be higher, equal to
 
 $$
-(1. 7 5 \mathrm {~\$} / \mathrm {£}) \times (\mathrm {£} 5 0) = \mathrm {~\$} 8 7. 5 0.
+(1. 7 5 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 5 0) = \mathrm{~\$} 8 7. 5 0.
 $$
 
 Changes in exchange rates are described as depreciations or appreciations. A depreciation of the pound against the dollar is a fall in the dollar price of pounds, for example, a change in the exchange rate from  \$1.50 per pound to\$ 1.25 per pound. The preceding example shows that all else equal, a depreciation of a country's currency makes its goods cheaper for foreigners. A rise in the pound's price in terms of dollars—for example, from \$1.50 per pound to \$1.75 per pound—is an appreciation of the pound against the dollar. All else equal, an appreciation of a country's currency makes its goods more expensive for foreigners.
@@ -261,15 +261,15 @@ In our example, the sum of the euro interest rate (5 percent) and the expected d
 We summarize our discussion by introducing some notation:
 
 $$
-R _ {\in} = \text {t o d a y ' s i n t e r s t r a t e}
+R_{\in} = \text{to da y 's in te rs tr at e}
 $$
 
 $$
-E _ {\mathbb {S} / \in} = \text {t o d a y ’ s d o l l a r / e u r o}
+E_{\mathbb {S} / \in} = \text{to da y ’s do ll ar /e ur o}
 $$
 
 $$
-E _ {\S / \in} ^ {e} = \text {d o l l a r / e u r o e x c h a n g e r a t e} (\text {n u m b e r o f d o l l a r s p e r e u r o}) \text {e x p e c t e d} \text {t o p r e v a i l a y e a r f r o m t o d a y}.
+E_{\S / \in}^{e} = \text{do ll ar /e ur oe xc ha ng er at e} (\text{nu mb er of do ll ar sp er eu ro}) \text{ex pe ct ed} \text{to pr ev ai la ye ar fr om to da y}.
 $$
 
 (The superscript  $e$  attached to this last exchange rate indicates that it is a forecast of the future exchange rate based on what people know today.)
@@ -277,13 +277,13 @@ $$
 Using these symbols, we write the expected rate of return on a euro deposit, measured in terms of dollars, as the sum of (1) the euro interest rate and (2) the expected rate of dollar depreciation against the euro:
 
 $$
-R _ {\in} + \left(E _ {\S / \in} ^ {e} - E _ {\S / \in}\right) / E _ {\S / \in}.
+R_{\in} + \left(E_{\S / \in}^{e} - E_{\S / \in}\right) / E_{\S / \in}.
 $$
 
 This expected return is what must be compared with the interest rate on one-year dollar deposits,  $R_{\S}$ , in deciding whether dollar or euro deposits offer the higher expected rate of return. The expected rate of return difference between dollar and euro deposits is therefore equal to  $R_{\S}$  less the previous expression,
 
 $$
-R _ {\$} - \left[ R _ {\in} + \left(E _ {\$ / \in} ^ {e} - E _ {\$ / e}\right) / E _ {\$ / e} \right] = R _ {\$} - R _ {\in} - \left(E _ {\$ / e} ^ {e} - E _ {\$ / e}\right) / E _ {\$ / e}. \tag {14-1}
+R_{\$} - \left[ R_{\in} + \left(E_{\$ / \in}^{e} - E_{\$ / e}\right) / E_{\$ / e} \right] = R_{\$} - R_{\in} - \left(E_{\$ / e}^{e} - E_{\$ / e}\right) / E_{\$ / e}. \tag {14-1}
 $$
 
 When the difference above is positive, dollar deposits yield the higher expected rate of return; when it is negative, euro deposits yield the higher expected rate of return.
@@ -293,7 +293,7 @@ Table 14-3 carries out some illustrative comparisons. In case 1, the interest di
 This exact formula can be rewritten, however, as
 
 $$
-R _ {\epsilon} + \left(E _ {\S / \epsilon} ^ {c} - E _ {\S / \epsilon}\right) / E _ {\S / \epsilon} + R _ {\epsilon} \times \left(E _ {\S / \epsilon} ^ {e} - E _ {\S / \epsilon}\right) / E _ {\S / \epsilon}.
+R_{\epsilon} + \left(E_{\S / \epsilon}^{c} - E_{\S / \epsilon}\right) / E_{\S / \epsilon} + R_{\epsilon} \times \left(E_{\S / \epsilon}^{e} - E_{\S / \epsilon}\right) / E_{\S / \epsilon}.
 $$
 
 The expression above is very close to the formula derived from the simple rule when, as is usually the case, the product  $R_{\in} \times (E_{\S/\in}^{\varepsilon} - E_{\S/\in}) / E_{\S/\in}$  is a small number.
@@ -311,7 +311,7 @@ In case 4, there is a 2 percent interest difference in favor of euro deposits, b
 So far, we have been translating all returns into dollar terms. But the rate of return differentials we calculated would have been the same had we chosen to express returns in terms of euros or in terms of some third currency. Suppose, for example, we wanted to measure the return on dollar deposits in terms of euros. Following our simple rule, we would add to the dollar interest rate  $R_{\mathbb{S}}$  the expected rate of depreciation of the euro against the dollar. But the expected rate of depreciation of the euro against the dollar is approximately the expected rate of appreciation of the dollar against the euro, that is, the expected rate of depreciation of the dollar against the euro with a minus sign in front of it. This means that in terms of euros, the return on a dollar deposit is
 
 $$
-R _ {\S} - (E _ {\S / \in} ^ {e}) - E _ {\S / \in}) / E _ {\S / \in}.
+R_{\S} - (E_{\S / \in}^{e}) - E_{\S / \in}) / E_{\S / \in}.
 $$
 
 The difference between the expression above and  $R_{\in}$  is identical to the right-hand side of equation (14-1). Thus, it makes no difference to our comparison whether we measure returns in terms of dollars or euros, as long as we measure them both in terms of the same currency.
@@ -349,7 +349,7 @@ Only when all expected rates of return are equal—that is, when the interest pa
 To represent interest parity between dollar and euro deposits symbolically, we use equation (14-1), which shows the difference between the two assets' expected rates of return measured in dollars. The expected rates of return are equal when
 
 $$
-R _ {\S} = R _ {\in} + \left(E _ {\S / \in} ^ {e} - E _ {\S / \in}\right) / E _ {\S / \in}. \tag {14-2}
+R_{\S} = R_{\in} + \left(E_{\S / \in}^{e} - E_{\S / \in}\right) / E_{\S / \in}. \tag {14-2}
 $$
 
 You probably suspect that when dollar deposits offer a higher return than euro deposits, the dollar will appreciate against the euro as investors all try to shift their funds into dollars. Conversely, the dollar should depreciate against the euro when it is euro deposits that initially offer the higher return. This intuition is exactly correct. To understand the mechanism at work, however, we must take a careful look at how exchange rate changes like these help to maintain equilibrium in the foreign exchange market.
@@ -404,7 +404,7 @@ Equilibrium in the foreign exchange market is at point 1, where the expected dol
 The equilibrium dollar/euro rate is the one indicated by the intersection of the two schedules at point 1,  $E_{\mathbb{S} / \infty}^{\mathrm{l}}$ . At this exchange rate, the returns on dollar and euro deposits are equal, so that the interest parity condition (14-2),
 
 $$
-R _ {\S} = R _ {\in} + (E _ {\S / \in} ^ {e} - E _ {\S / \in} ^ {1}) / E _ {\S / \in} ^ {1},
+R_{\S} = R_{\in} + (E_{\S / \in}^{e} - E_{\S / \in}^{1}) / E_{\S / \in}^{1},
 $$
 
 is satisfied.
@@ -511,25 +511,25 @@ We answer this question as we did in the chapter. A €1 deposit costs \$1.05 to
 More formally, we can express the covered return on euro deposits as
 
 $$
-\frac {F _ {\S / \in} (1 + R _ {\in}) - E _ {\S / \in}}{E _ {\S / \in}},
+\frac{F_{\S / \in} (1 + R_{\in}) - E_{\S / \in}}{E_{\S / \in}},
 $$
 
 which is approximately equal to
 
 $$
-R _ {\epsilon} + \frac {F _ {\S / \epsilon} - E _ {\S / \epsilon}}{E _ {\S / \epsilon}}
+R_{\epsilon} + \frac{F_{\S / \epsilon} - E_{\S / \epsilon}}{E_{\S / \epsilon}}
 $$
 
 when the product  $R_{\in} \times (F_{\S/\in} - E_{\S/\in}) / E_{\S/\in}$  is a small number. The covered interest parity condition can therefore be written
 
 $$
-R _ {\$} = R _ {\in} + \left(F _ {\$ / \in} - E _ {\$ / \in}\right) / E _ {\$ / \in}. \tag {14-3}
+R_{\$} = R_{\in} + \left(F_{\$ / \in} - E_{\$ / \in}\right) / E_{\$ / \in}. \tag {14-3}
 $$
 
 The quantity
 
 $$
-(F _ {\S / \in} - E _ {\S / \in}) / E _ {\S / \in}
+(F_{\S / \in} - E_{\S / \in}) / E_{\S / \in}
 $$
 
 is called the forward premium on euros against dollars. (It is also called the forward discount on dollars against euros.) Using this terminology, we can state the covered interest parity condition as follows: The interest rate on dollar deposits equals the interest rate on euro deposits plus the forward premium on euros against dollars (the forward discount on dollars against euros).
@@ -555,13 +555,13 @@ proceeds forward to complete the round trip out of dollars and back. In importan
 By comparing the uncovered interest parity (UIP) condition,
 
 $$
-R _ {\S} = R _ {\in} + \left(E _ {\S / \in} ^ {e} - E _ {\S / \in}\right) / E _ {\S / \in},
+R_{\S} = R_{\in} + \left(E_{\S / \in}^{e} - E_{\S / \in}\right) / E_{\S / \in},
 $$
 
 with the covered interest parity condition, you will find that both conditions can be true at the same time only if the one-year forward rate quoted today equals the spot exchange rate people expect to materialize a year from today:
 
 $$
-F _ {\S / \in} = E _ {\S / \in} ^ {e}. \tag {14-4}
+F_{\S / \in} = E_{\S / \in}^{e}. \tag {14-4}
 $$
 
 This makes intuitive sense. When two parties agree to trade foreign exchange on a date in the future, the exchange rate they agree on is the spot rate they expect to prevail on that date. The important difference between covered and uncovered transactions should be kept in mind, however. Covered transactions do not involve exchange rate risk, whereas uncovered transactions do. This important distinction means that the simple equality between forward rates and expected future spot rates need not hold in theory; Chapter 18 will take this topic up. And as we have noted, UIP does not seem to hold in practice either, for reasons we will explore in Chapter 20.

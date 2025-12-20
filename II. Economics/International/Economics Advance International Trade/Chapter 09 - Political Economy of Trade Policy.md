@@ -34,7 +34,7 @@ Used in many applications, the median voter model presumes that policies are est
 As in chapter 7, we will suppose that each individual has a quasi-linear utility function given by  $c_0^h + U(c^h)$ , where  $c_0^h$  is consumption of a numeraire export good, and  $c^h$  is the consumption of the import good for consumer  $h = 1, \ldots, L$ . (We use  $L$  rather than  $H$  to denote the number of consumers, since  $L$  also equals the number of workers). Consumers all have the same increasing and strictly concave utility function  $U$ , so they have the same optimal consumption  $c^h = d(p)$ ,  $d'(p) < 0$ , with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd(p)$ . Then individual utility is,
 
 $$
-\mathrm {V} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} (\mathrm {p}) + \mathrm {U} [ \mathrm {d} (\mathrm {p}) ] . \tag {9.1}
+\mathrm{V} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d} (\mathrm{p}) + \mathrm{U} [ \mathrm{d} (\mathrm{p}) ] . \tag {9.1}
 $$
 
 Both the export and import goods are produced using labor and capital. The total endowments of labor and capital are L and K, respectively. The fixed world price of the import is denoted by  $p^*$ , and this good has a specific tariff of t, so the domestic price is  $p = p^* + t$ . We let  $y(p)$  denote the supply of the import-competing good, with  $y'(p) > 0$ . Imports are then  $m(p) =$
@@ -42,19 +42,19 @@ Both the export and import goods are produced using labor and capital. The total
 $\mathrm{d}(\mathfrak{p})\mathrm{L} - \mathrm{y}(\mathfrak{p})$ , and tariff revenue collected is  $\mathrm{T} = \mathrm{tm}(\mathrm{p})$ , which is redistributed with a poll subsidy. We will suppose that individual h has one unit of labor and  $\mathbf{K}^{\mathrm{h}}$  units of capital,  $h = 1,\dots ,L$ , so that individual income is,  $\mathrm{I}^{\mathrm{h}} = \mathrm{w} + \mathrm{rK}^{\mathrm{h}} + (\mathrm{T} / \mathrm{L})$ . We can re-express this as,
 
 $$
-I ^ {h} = \frac {1}{L} \left(w L + r K ^ {h} L + T\right) = \frac {1}{L} \left(w L + \rho^ {h} r K + T\right), \tag {9.2}
+I^{h} = \frac{1}{L} \left(w L + r K^{h} L + T\right) = \frac{1}{L} \left(w L + \rho^{h} r K + T\right), \tag {9.2}
 $$
 
 where  $\rho^{\mathrm{h}} = \mathrm{K}^{\mathrm{h}} / (\mathrm{K} / \mathrm{L})$  is the capital/labor ratio for the individual in question relative to the overall capital/labor ratio in the economy. Total GDP in the economy is  $G = y_0(p) + py(p) = wL + rK$ . It follows that we can re-write individual income in (9.2) as:
 
 $$
-I ^ {h} = \frac {1}{L} [ w L + r K + (\rho^ {h} - 1) r K + T ] = \frac {1}{L} [ (\rho^ {h} - 1) r K + y _ {0} (p) + p y (p) + T ]. \tag {9.2'}
+I^{h} = \frac{1}{L} [ w L + r K + (\rho^{h} - 1) r K + T ] = \frac{1}{L} [ (\rho^{h} - 1) r K + y_{0} (p) + p y (p) + T ]. \tag {9.2'}
 $$
 
 Differentiating individual utility in (9.1) with respect to the tariff, we obtain:
 
 $$
-\begin{array}{l} \frac {\mathrm {d} \mathrm {V} ^ {\mathrm {h}}}{\mathrm {d t}} = - \mathrm {d} (\mathrm {p}) + \frac {\mathrm {d I} ^ {\mathrm {h}}}{\mathrm {d t}} \\ = \left(\rho^ {\mathrm {h}} - 1\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} + \left[ \frac {\mathrm {y} (\mathrm {p})}{\mathrm {L}} - \mathrm {d} (\mathrm {p}) \right] + \frac {1}{\mathrm {L}} \frac {\mathrm {d T}}{\mathrm {d p}} \tag {9.3} \\ = \left(\rho^ {\mathrm {h}} - 1\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} + \frac {\mathrm {t}}{\mathrm {L}} \mathrm {m} ^ {\prime} (\mathrm {p}), \\ \end{array}
+\begin{array}{l} \frac{\mathrm{d} \mathrm{V}^{\mathrm{h}}}{\mathrm{dt}} = - \mathrm{d} (\mathrm{p}) + \frac{\mathrm{dI}^{\mathrm{h}}}{\mathrm{dt}} \\ = \left(\rho^{\mathrm{h}} - 1\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} + \left[ \frac{\mathrm{y} (\mathrm{p})}{\mathrm{L}} - \mathrm{d} (\mathrm{p}) \right] + \frac{1}{\mathrm{L}} \frac{\mathrm{dT}}{\mathrm{dp}} \tag {9.3} \\ = \left(\rho^{\mathrm{h}} - 1\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} + \frac{\mathrm{t}}{\mathrm{L}} \mathrm{m}^{\prime} (\mathrm{p}), \\ \end{array}
 $$
 
 where the first line follows from Roy's Identity, the second line using (9.2'), and the third line using tariff revenue of  $\mathrm{T} = \mathrm{t}[\mathrm{d}(\mathrm{p})\mathrm{L} - \mathrm{y}(\mathrm{p})] = \mathrm{tm}(\mathrm{p})$ .
@@ -64,7 +64,7 @@ If the tariff is determined by majority vote, then the tariff prevailing will be
 $\mathrm{V}^{\mathrm{m}} = \mathrm{V}(\mathrm{p},\mathrm{I}^{\mathrm{m}})$ , this tariff will satisfy  $\mathrm{dV^{m} / dt} = 0$  and  $\mathrm{d}^2\mathrm{V}^{\mathrm{m}} / \mathrm{dt}^2 < 0$ . Setting (9.3) equal to zero, this tariff is:
 
 $$
-t ^ {m} = \left(1 - \rho^ {m}\right) \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {m} ^ {\prime} (\mathrm {p})}, \tag {9.4}
+t^{m} = \left(1 - \rho^{m}\right) \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{m}^{\prime} (\mathrm{p})}, \tag {9.4}
 $$
 
 where  $\rho^{\mathrm{m}}$  is the capital/labor ratio for the median individual h relative to the overall capital/labor endowment for the economy. This ratio is less than one for all countries (Alesina and Rodrik, 1994), so that  $\rho^{\mathrm{m}} < 1$ . Then since  $\mathfrak{m}'(\mathfrak{p}) < 0$ , we see that the tariff  $\mathfrak{t}^{\mathrm{m}}$  is positive when the import good is labor-intensive, so that  $\mathrm{dr} / \mathrm{dp} < 0$ , but negative when the import good is capital-intensive, so that  $\mathrm{dr} / \mathrm{dp} > 0$ . In other words, import tariffs should be used in capital-abundant industrialized countries, but import subsidies in labor-abundant developing countries.
@@ -72,7 +72,7 @@ where  $\rho^{\mathrm{m}}$  is the capital/labor ratio for the median individual
 In practice, import subsidies are rarely observed, despite this prediction from the median voter model. There are many reasons for this, some of which we will investigate later in this section. Setting aside this most obvious limitation of the median voter model, Dutt and Mitra (2002) ask whether there is some other prediction that might accord better with real world evidence. In particular, suppose that we compare countries with varying degrees of inequality, which we measure by  $(1 - \rho^{\mathrm{m}})$ , i.e. with lower values of the median voter's capital/labor endowment  $\rho^{\mathrm{m}}$ , corresponding to higher inequality. Then differentiating the first-order condition  $\frac{\mathrm{dV}^{\mathrm{m}}}{\mathrm{dt}} = 0$ , we obtain  $\frac{\mathrm{d}^2\mathrm{V}^{\mathrm{m}}}{\mathrm{dt}^2}\mathrm{dt} + \frac{\mathrm{d}^2\mathrm{V}^{\mathrm{m}}}{\mathrm{d}(1 - \rho^{\mathrm{m}})\mathrm{dt}}\mathrm{d}(1 - \rho^{\mathrm{m}}) = 0$ , so that from (9.3):
 
 $$
-\frac {\mathrm {d t} ^ {\mathrm {m}}}{\mathrm {d} \left(1 - \rho^ {\mathrm {m}}\right)} = \frac {\mathrm {d r}}{\mathrm {d p}} \frac {\mathrm {K}}{\mathrm {L}} / \frac {\mathrm {d} ^ {2} \mathbf {V} ^ {\mathrm {m}}}{\mathrm {d t} ^ {2}}, \tag {9.5}
+\frac{\mathrm{dt}^{\mathrm{m}}}{\mathrm{d} \left(1 - \rho^{\mathrm{m}}\right)} = \frac{\mathrm{dr}}{\mathrm{dp}} \frac{\mathrm{K}}{\mathrm{L}} / \frac{\mathrm{d}^{2} \mathbf {V}^{\mathrm{m}}}{\mathrm{dt}^{2}}, \tag {9.5}
 $$
 
 where  $\mathrm{d}^2\mathrm{V}^\mathrm{m} / \mathrm{d}t^2 < 0$  from the second-order condition.
@@ -82,13 +82,13 @@ It follows that for capital-abundant countries importing the labor-intensive goo
 Dutt and Mitra test this prediction by running the regression:
 
 $$
-\mathrm {T R} ^ {\mathrm {i}} = \alpha_ {0} + \alpha_ {1} \mathrm {I N E Q} ^ {\mathrm {i}} + \alpha_ {2} \mathrm {I N E Q} ^ {\mathrm {i}} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}} + \alpha_ {3} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}} + \mathrm {X} ^ {\mathrm {i}} \beta + \varepsilon_ {\mathrm {i}}, \tag {9.6}
+\mathrm{TR}^{\mathrm{i}} = \alpha_{0} + \alpha_{1} \mathrm{IN EQ}^{\mathrm{i}} + \alpha_{2} \mathrm{IN EQ}^{\mathrm{i}} (\mathrm{K} / \mathrm{L})^{\mathrm{i}} + \alpha_{3} (\mathrm{K} / \mathrm{L})^{\mathrm{i}} + \mathrm{X}^{\mathrm{i}} \beta + \varepsilon_{\mathrm{i}}, \tag {9.6}
 $$
 
 where  $\mathrm{TR}^{\mathrm{i}}$  is an measure of trade restrictions in country i, INEQ $^{\mathrm{i}}$  is an index of income inequality in that country, (K/L) $^{\mathrm{i}}$  is the capital/labor ratio in country i, and  $\mathbf{X}^{\mathrm{i}}$  is a matrix of other control variables. Taking the partial derivative of  $\mathrm{TR}^{\mathrm{i}}$  with respect to INEQ $^{\mathrm{i}}$ , we obtain,
 
 $$
-\frac {\partial \mathrm {T R} ^ {\mathrm {i}}}{\partial \mathrm {I N E Q} ^ {\mathrm {i}}} = \alpha_ {1} + \alpha_ {2} (\mathrm {K} / \mathrm {L}) ^ {\mathrm {i}}. \tag {9.6'}
+\frac{\partial \mathrm{TR}^{\mathrm{i}}}{\partial \mathrm{IN EQ}^{\mathrm{i}}} = \alpha_{1} + \alpha_{2} (\mathrm{K} / \mathrm{L})^{\mathrm{i}}. \tag {9.6'}
 $$
 
 The prediction from the median voter is that this derivative should be negative for low levels of the capital/labor ratio  $(\mathrm{K} / \mathrm{L})^{\mathrm{i}}$ , but positive for higher levels of the capital/labor ratio. This will occur if  $\alpha_{1} < 0$  and  $\alpha_{2} > 0$ , with the turning point between the negative and positive derivatives occurring where (9.6') equals zero, or at the capital/labor ratio  $(\mathrm{K} / \mathrm{L})^{\mathrm{i}} = -\alpha_{1} / \alpha_{2} > 0$ .
@@ -104,17 +104,17 @@ The median voter model assumes that policies are determined by majority vote. Th
 We assume that there are  $N$  goods plus the numeraire commodity. On the demand side, consumer utility functions are  $c_0^h + \sum_{i=1}^{N} u_i(c_i^h)$ , where  $c_0^h$  is the numeraire export good, and  $c_i^h$  is the consumption of good  $i = 1, \dots, N$ . Maximizing utility subject to the budget constraint gives the per-capita consumption  $d_i(p_i)$  of each good,  $i = 1, \dots, N$ , with remaining income spent on the numeraire good,  $c_0^h = I^h - p'd(p)$ . We let  $d(p) = [d_1(p_1), \dots, d_N(p_N)]$  denote the vector of per-capita consumptions, depending on prices  $p = (p_1, \dots, p_N)$ . Then individual utility is similar to that in (9.1),
 
 $$
-\mathrm {V} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} - \mathrm {p} ^ {\prime} \mathrm {d} (\mathrm {p}) + \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \mathrm {u} _ {\mathrm {i}} \left[ \mathrm {d} _ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) \right]. \tag {9.7}
+\mathrm{V} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} - \mathrm{p}^{\prime} \mathrm{d} (\mathrm{p}) + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \mathrm{u}_{\mathrm{i}} \left[ \mathrm{d}_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) \right]. \tag {9.7}
 $$
 
 Notice that the last two terms on the right of (9.7) give per-capita consumer surplus, or
 
 $$
-S (p) \equiv \sum_ {i = 1} ^ {N} u _ {i} \left[ d _ {i} \left(p _ {i}\right) \right] - p ^ {\prime} d (p), \text {s o t h a t c o n s u m e r w e l f a r e c a n b e w r i t t e n a s :}
+S (p) \equiv \sum_{i = 1}^{N} u_{i} \left[ d_{i} \left(p_{i}\right) \right] - p^{\prime} d (p), \text{so th at co ns um er we lf ar ec an be wr it te na s :}
 $$
 
 $$
-\mathrm {V} ^ {\mathrm {h}} (\mathrm {p}, \mathrm {I} ^ {\mathrm {h}}) \equiv \mathrm {I} ^ {\mathrm {h}} + \mathrm {S} (\mathrm {p}), \tag {9.7'}
+\mathrm{V}^{\mathrm{h}} (\mathrm{p}, \mathrm{I}^{\mathrm{h}}) \equiv \mathrm{I}^{\mathrm{h}} + \mathrm{S} (\mathrm{p}), \tag {9.7'}
 $$
 
 with  $\partial S(p) / \partial p_i = -d_i(p_i)$ , by Roy's Identity.
@@ -122,41 +122,41 @@ with  $\partial S(p) / \partial p_i = -d_i(p_i)$ , by Roy's Identity.
 On the production side, each of the N industries has the production function  $y_{i} = f_{i}(L_{i},K_{i})$ , where capital  $K_{i}$  is specific to each sector. The numeraire commodity is produced with one unit of labor, so wages are fixed at unity. Given the product price  $p_{i}$  in each sector, the return to the specific factor in that sector is,
 
 $$
-\pi_ {i} \left(p _ {i}\right) = \max  _ {L _ {i}} \left[ p _ {i} f _ {i} \left(L _ {i}, K _ {i}\right) - L _ {i} \right]. \tag {9.8}
+\pi_{i} \left(p_{i}\right) = \max_{L_{i}} \left[ p_{i} f_{i} \left(L_{i}, K_{i}\right) - L_{i} \right]. \tag {9.8}
 $$
 
-From (9.8) we can determine the optimal outputs  $\pi_{\mathrm{i}}^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}_{\mathrm{i}}(\mathfrak{p}_{\mathrm{i}})$  in each industry. The international prices of the goods are fixed at  $\mathsf{p_i^*}$ , and each industry may receive a specific trade policy of  $\mathsf{t_i}$ ,  $i = 1,\ldots ,N$ , where  $\mathsf{t_i} > (< )$  0 indicates a tariff (subsidy) in an import industry, and a subsidy (tariff) in an export industry. Imports of each good are then  $\mathsf{m_i(p_i)} = \mathsf{d_i(p_i)L} - \mathsf{y_i(p_i)}$  (which are negative for exports), and tariff revenue collected is  $\mathrm{T(p) = \sum_{i = 1}^{N}(p_i - p_i^*)m_i(p_i)}$ . We assume that this revenue is redistributed by a poll subsidy of (T/L) per person.
+From (9.8) we can determine the optimal outputs  $\pi_{\mathrm{i}}^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}_{\mathrm{i}}(\mathfrak{p}_{\mathrm{i}})$  in each industry. The international prices of the goods are fixed at  $\mathsf{p_i^*}$ , and each industry may receive a specific trade policy of  $\mathsf{t_i}$ ,  $i = 1,\ldots ,N$ , where  $\mathsf{t_i} > (< )$  0 indicates a tariff (subsidy) in an import industry, and a subsidy (tariff) in an export industry. Imports of each good are then  $\mathsf{m_i(p_i)} = \mathsf{d_i(p_i)L} - \mathsf{y_i(p_i)}$  (which are negative for exports), and tariff revenue collected is  $\mathrm{T(p) = \sum_{i =1}^{N}(p_i - p_i^*)m_i(p_i)}$ . We assume that this revenue is redistributed by a poll subsidy of (T/L) per person.
 
 The specific factor in each industry  $i$  is owned by  $H_i$  members of the population, so that  $H = \sum_{i=1}^{N} H_i$  is the total number of persons owning some capital. For simplicity, we suppose that every individual also owns one unit of labor. The total population is  $L$ , so there are an additional  $(L - H) \geq 0$  persons who own one unit of labor but no capital. The owners of specific capital in each industry earn the return  $\pi_i(p_i)$  from (9.8), and obtain their wages of unity plus consumer
 
 surplus, along with re-distributed tariff revenue. Summing these various terms, the owners of specific capital in industry i earn:
 
 $$
-\mathrm {W} _ {\mathrm {i}} (\mathrm {p}) = \pi_ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) + \mathrm {H} _ {\mathrm {i}} [ 1 + \mathrm {S} (\mathrm {p}) ] + \left(\mathrm {H} _ {\mathrm {i}} / \mathrm {L}\right) \mathrm {T} (\mathrm {p}), \quad \mathrm {i} = 1, \dots , \mathrm {N}. \tag {9.9a}
+\mathrm{W}_{\mathrm{i}} (\mathrm{p}) = \pi_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) + \mathrm{H}_{\mathrm{i}} [ 1 + \mathrm{S} (\mathrm{p}) ] + \left(\mathrm{H}_{\mathrm{i}} / \mathrm{L}\right) \mathrm{T} (\mathrm{p}), \quad \mathrm{i} = 1, \dots , \mathrm{N}. \tag {9.9a}
 $$
 
 The remaining (L - H) persons obtain their wages plus consumer surplus, and re-distributed tariff revenue, so their welfare is:
 
 $$
-\mathrm {W} _ {0} (\mathrm {p}) = (\mathrm {L} - \mathrm {H}) [ 1 + \mathrm {S} (\mathrm {p}) ] + [ (\mathrm {L} - \mathrm {H}) / \mathrm {L} ] \mathrm {T} (\mathrm {p}). \tag {9.9b}
+\mathrm{W}_{0} (\mathrm{p}) = (\mathrm{L} - \mathrm{H}) [ 1 + \mathrm{S} (\mathrm{p}) ] + [ (\mathrm{L} - \mathrm{H}) / \mathrm{L} ] \mathrm{T} (\mathrm{p}). \tag {9.9b}
 $$
 
 Summing (9.9) over all workers and industries, we obtain total welfare,
 
 $$
-\mathrm {W} (\mathrm {p}) = \sum_ {\mathrm {i} = 0} ^ {\mathrm {N}} \mathrm {W} _ {\mathrm {i}} (\mathrm {p}) = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \pi_ {\mathrm {i}} \left(\mathrm {p} _ {\mathrm {i}}\right) + \mathrm {L} [ 1 + \mathrm {S} (\mathrm {p}) ] + \mathrm {T} (\mathrm {p}). \tag {9.10}
+\mathrm{W} (\mathrm{p}) = \sum_{\mathrm{i} = 0}^{\mathrm{N}} \mathrm{W}_{\mathrm{i}} (\mathrm{p}) = \sum_{\mathrm{i} = 1}^{\mathrm{N}} \pi_{\mathrm{i}} \left(\mathrm{p}_{\mathrm{i}}\right) + \mathrm{L} [ 1 + \mathrm{S} (\mathrm{p}) ] + \mathrm{T} (\mathrm{p}). \tag {9.10}
 $$
 
 We suppose that a subset of the industries  $j \in J_{o}$  are organized into lobbies, while the complementary set  $j \in J_{u}$  are unorganized industries, with  $J_{o} \cup J_{u} = \{1,\dots,N\}$ . The purpose of each lobby is to provide contributions to the government in return for influencing the tariff/subsidy schedule. Specifically, they announce a campaign contribution schedule  $R_{j}(p)$  that they are willing to pay, depending on the vector of prices  $p_{i} = p_{i}^{*} + t_{i}$  prevailing across the industries,  $i = 1,\ldots ,N$ . The government values campaign contributions, but also weighs these against the consumer welfare of all individuals. Giving social welfare the weight of  $\alpha >0$ , Grossman and Helpman assume that the government chooses tariffs and subsidies  $t_i$  to maximize,
 
 $$
-G (p) = \sum_ {j \in J _ {0}} R _ {j} (p) + \alpha W (p). \tag {9.11}
+G (p) = \sum_{j \in J_{0}} R_{j} (p) + \alpha W (p). \tag {9.11}
 $$
 
 The key question is how the lobbies in industries  $j \in J_o$  determine their campaign contributions. The answer to this comes from the work of Bernheim and Whinston (1986). They argue that in the Nash equilibrium of the game we have described – with each lobby optimally choosing its contribution schedule  $R_j(p)$  taking as given the schedules of the other groups, and knowing that the tariffs will be chosen to maximize (9.11) – then the lobbies can do no better than to select a contribution schedule of the form:
 
 $$
-R _ {j} (p) = \max  \left\{0, W _ {j} (p) - B _ {j} \right\}, \quad j \in J _ {o}, \tag {9.12}
+R_{j} (p) = \max  \left\{0, W_{j} (p) - B_{j} \right\}, \quad j \in J_{o}, \tag {9.12}
 $$
 
 where  $\mathrm{B_j}$  is a constant. $^3$  Bernheim and Whinston refer to this as a truthful contribution schedule, since it reflects the true welfare levels  $\mathrm{W_j(p)}$  obtained by the lobby for various tariffs. They argue that a truthful Nash equilibrium, where each lobby uses a schedule like (9.12), is included among the equilibria of the game.
@@ -164,7 +164,7 @@ where  $\mathrm{B_j}$  is a constant. $^3$  Bernheim and Whinston refer to this 
 Accepting this result of Bernheim and Whinston (1986), we can substitute (9.12) into (9.11) to obtain:
 
 $$
-\mathrm {G} (\mathrm {p}) = \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {o}}} [ (1 + \alpha) \mathrm {W} _ {\mathrm {j}} (\mathrm {p}) - \mathrm {B} _ {\mathrm {j}} ] + \sum_ {\mathrm {j} \notin \mathrm {J} _ {\mathrm {o}}} \alpha \mathrm {W} _ {\mathrm {j}} (\mathrm {p}), \tag {9.11'}
+\mathrm{G} (\mathrm{p}) = \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} [ (1 + \alpha) \mathrm{W}_{\mathrm{j}} (\mathrm{p}) - \mathrm{B}_{\mathrm{j}} ] + \sum_{\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}} \alpha \mathrm{W}_{\mathrm{j}} (\mathrm{p}), \tag {9.11'}
 $$
 
 where the summation over  $\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}$  also include the welfare  $\mathrm{W}_0$  of workers with no capital. Notice that this statement of the government's objective function indicates that it gives differential weights to the welfare of organized and unorganized industries: the organized lobbies have the weight  $(1 + \alpha)$ , whereas other industries plus workers have the weight  $\alpha$ .
@@ -172,49 +172,49 @@ where the summation over  $\mathrm{j} \notin \mathrm{J}_{\mathrm{o}}$  also incl
 Choosing the tariffs  $t_i$  to maximize (9.11') is equivalent to choosing the domestic prices  $p_j$ ,  $j \in J_o$  to maximize this. Before computing the first-order condition, we can differentiate welfare for an organized industry, unorganized industry and workers as:
 
 $$
-\frac {\partial \mathrm {W} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {j}}} = \mathrm {y} _ {\mathrm {j}} - \mathrm {H} _ {\mathrm {j}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {H} _ {\mathrm {j}}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \text {f o r j \in J _ {o}}, \tag {9.12a}
+\frac{\partial \mathrm{W}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{j}}} = \mathrm{y}_{\mathrm{j}} - \mathrm{H}_{\mathrm{j}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{H}_{\mathrm{j}}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \text{fo rj \inJ_{o}}, \tag {9.12a}
 $$
 
 $$
-\frac {\partial \mathrm {W} _ {\mathrm {i}}}{\partial \mathrm {p} _ {\mathrm {j}}} = - \mathrm {H} _ {\mathrm {i}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {H} _ {\mathrm {i}}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \text {f o r i \in J _ {u}}, \tag {9.12b}
+\frac{\partial \mathrm{W}_{\mathrm{i}}}{\partial \mathrm{p}_{\mathrm{j}}} = - \mathrm{H}_{\mathrm{i}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{H}_{\mathrm{i}}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \text{fo ri \inJ_{u}}, \tag {9.12b}
 $$
 
 $$
-\frac {\partial \mathrm {W} _ {0}}{\partial \mathrm {p} _ {\mathrm {j}}} = - (\mathrm {L} - \mathrm {H}) \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + \left(\frac {\mathrm {L} - \mathrm {H}}{\mathrm {L}}\right) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \tag {9.12c}
+\frac{\partial \mathrm{W}_{0}}{\partial \mathrm{p}_{\mathrm{j}}} = - (\mathrm{L} - \mathrm{H}) \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + \left(\frac{\mathrm{L} - \mathrm{H}}{\mathrm{L}}\right) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \tag {9.12c}
 $$
 
-where  $\mathrm{m_j = d_j(p_j)L - y_j(p_j)}$  is the imports of good j (which is negative for exports).
+where  $\mathrm{m_j =d_j(p_j)L -y_j(p_j)}$  is the imports of good j (which is negative for exports).
 
 Then multiply (9.12a) by  $(1 + \alpha)$ , and (9.12b) and (9.12c) by  $\alpha$ , and sum these over all organized and unorganized industries to obtain:
 
 $$
-\frac {\partial \mathrm {G}}{\partial \mathrm {p} _ {\mathrm {j}}} = (1 + \alpha) \mathrm {y} _ {\mathrm {j}} - \sum_ {\mathrm {j} \in \mathrm {J} _ {\mathrm {o}}} \mathrm {H} _ {\mathrm {j}} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) - \alpha \mathrm {L} \mathrm {d} _ {\mathrm {j}} (\mathrm {p}) + (\lambda_ {\mathrm {o}} + \alpha) \left[ \mathrm {m} _ {\mathrm {j}} + \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}} \right], \quad \mathrm {j} \in \mathrm {J} _ {\mathrm {o}}, \tag {9.13}
+\frac{\partial \mathrm{G}}{\partial \mathrm{p}_{\mathrm{j}}} = (1 + \alpha) \mathrm{y}_{\mathrm{j}} - \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} \mathrm{H}_{\mathrm{j}} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) - \alpha \mathrm{L} \mathrm{d}_{\mathrm{j}} (\mathrm{p}) + (\lambda_{\mathrm{o}} + \alpha) \left[ \mathrm{m}_{\mathrm{j}} + \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}} \right], \quad \mathrm{j} \in \mathrm{J}_{\mathrm{o}}, \tag {9.13}
 $$
 
 where  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} (\mathrm{H}_{\mathrm{j}} / \mathrm{L})$  denotes the fraction of the population owning a specific factor in an organized industry, and this first-order condition holds for an organized industry j. For an industry that is not organized into a lobby, the term  $(1 + \alpha) y_{j}$  that appears first on the right would be replaced by  $\alpha y_{j}$ , since the unorganized industry receives the weight  $\alpha$  rather than  $(1 + \alpha)$  in the government's objective function.
 
-We can make use of the definition of imports,  $\mathrm{m_j = d_j(p_j)L - y_j}$ , to simplify (9.13) as:
+We can make use of the definition of imports,  $\mathrm{m_j =d_j(p_j)L -y_j}$ , to simplify (9.13) as:
 
 $$
-\frac {\mathrm {d} \mathrm {G}}{\mathrm {d p} _ {\mathrm {j}}} = \mathrm {y} _ {\mathrm {j}} \left(1 - \lambda_ {\mathrm {o}}\right) + \left(\alpha + \lambda_ {\mathrm {o}}\right) \left(\mathrm {p} _ {\mathrm {j}} - \mathrm {p} _ {\mathrm {j}} ^ {*}\right) \frac {\mathrm {d m} _ {\mathrm {j}}}{\mathrm {d p} _ {\mathrm {j}}}, \quad \mathrm {j} \in \mathrm {J} _ {\mathrm {o}}, \tag {9.14}
+\frac{\mathrm{d} \mathrm{G}}{\mathrm{dp}_{\mathrm{j}}} = \mathrm{y}_{\mathrm{j}} \left(1 - \lambda_{\mathrm{o}}\right) + \left(\alpha + \lambda_{\mathrm{o}}\right) \left(\mathrm{p}_{\mathrm{j}} - \mathrm{p}_{\mathrm{j}}^{*}\right) \frac{\mathrm{dm}_{\mathrm{j}}}{\mathrm{dp}_{\mathrm{j}}}, \quad \mathrm{j} \in \mathrm{J}_{\mathrm{o}}, \tag {9.14}
 $$
 
 while for an industry without a lobby, the term  $y_{j} (1 - \lambda_{o})$  on the right is replaced by  $-y_{j} \lambda_{o}$ . Setting (9.14) and the modified condition for the unorganized industry equal to zero, we solve for the equilibrium tariffs  $t_{j} = (p_{j} - p_{j}^{*}), j = 1, \dots, N$ , as:
 
 $$
-\frac {t _ {j}}{p _ {j}} = - \left(\frac {\delta_ {j} - \lambda_ {o}}{\alpha + \lambda_ {o}}\right) \left(\frac {y _ {j}}{m _ {j}}\right) \left(\frac {\partial m _ {j}}{\partial p _ {j}} \frac {p _ {j}}{m _ {j}}\right) ^ {- 1}, \quad \text {w h e r e} \delta_ {j} = \left\{ \begin{array}{l l} 1 & \text {f o r} j \in J _ {o} \\ 0 & \text {o t h e r w i s e} \end{array} . \right. \tag {9.15}
+\frac{t_{j}}{p_{j}} = - \left(\frac{\delta_{j} - \lambda_{o}}{\alpha + \lambda_{o}}\right) \left(\frac{y_{j}}{m_{j}}\right) \left(\frac{\partial m_{j}}{\partial p_{j}} \frac{p_{j}}{m_{j}}\right)^{- 1}, \quad \text{wh er e} \delta_{j} = \left\{ \begin{array}{l l} 1 & \text{fo r} j \in J_{o} \\ 0 & \text{ot he rw is e} \end{array} . \right. \tag {9.15}
 $$
 
 This simple equation linking the tariffs/subsidies to underlying determinants is the key prediction of the "protection for sale" model of Grossman and Helpman (1994). To interpret it, notice that the import elasticity appearing in (9.15) is negative, while  $\delta_{\mathrm{j}}$  is an indicator variable that equal unity for organized industries j, and zero otherwise. Recall that  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\mathrm{o}}} (\mathrm{H}_{\mathrm{j}} / \mathrm{L})$  equals the fraction of the population owning a specific factor in an organized industry. Then by inspection, for  $0 < \lambda_{\mathrm{o}} < 1$  the tariffs in (9.15) are negative (i.e. import subsidies or export taxes) for unorganized industries, but are positive (i.e. import tariffs or export subsidies) for industries organized into a lobby. On the other hand, if either  $\lambda = 0$  or  $\lambda = 1$  (no individuals or all individuals belong to a lobby), then the tariffs in (9.15) are all zero, so free trade is the political optimum.
 
 The result that unorganized industries receive import subsidies or export taxes serves as a way to lower their domestic prices and therefore benefit consumers. The fact that these instruments are seldom observed in reality may reflect political opposition to them, or some
 
-other reason. We do not take this to be a refutation of the "protection for sale" model, any more than we took the fact that tariffs are used in both capital-scarce and capital-abundant countries to be a refutation of the median voter model. Instead, to test the "protection for sale" model we look for other correlations implied by (9.15). Notice that the magnitude of the tariffs or subsidies depends on the ratio of production to imports  $(\mathrm{y_j / m_j})$ , and also on the inverse of the import demand elasticity. Having higher domestic production relative to imports will lead to higher import tariffs or export subsidies for organized industries (since then  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = 1 - \lambda_{\mathrm{o}} > 0$ ), but lower import tariffs or export subsidies for unorganized industries (where  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = -\lambda_{\mathrm{o}} < 0$ ). These are the key predictions that will be tested.
+other reason. We do not take this to be a refutation of the "protection for sale" model, any more than we took the fact that tariffs are used in both capital-scarce and capital-abundant countries to be a refutation of the median voter model. Instead, to test the "protection for sale" model we look for other correlations implied by (9.15). Notice that the magnitude of the tariffs or subsidies depends on the ratio of production to imports  $(\mathrm{y_j /m_j})$ , and also on the inverse of the import demand elasticity. Having higher domestic production relative to imports will lead to higher import tariffs or export subsidies for organized industries (since then  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = 1 - \lambda_{\mathrm{o}} > 0$ ), but lower import tariffs or export subsidies for unorganized industries (where  $\delta_{\mathrm{j}} - \lambda_{\mathrm{o}} = -\lambda_{\mathrm{o}} < 0$ ). These are the key predictions that will be tested.
 
 Goldberg and Maggi (1999) denote the import demand elasticity (measured as a positive number) by  $\mathrm{e_j}$ , and multiply (9.15) by this magnitude to obtain:
 
 $$
-\mathrm {e} _ {\mathrm {j}} \left(\frac {\mathrm {t} _ {\mathrm {j}}}{\mathrm {p} _ {\mathrm {j}}}\right) = \beta_ {0} + \beta_ {1} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) + \beta_ {2} \delta_ {\mathrm {j}} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) + \varepsilon_ {\mathrm {j}}, \tag {9.16}
+\mathrm{e}_{\mathrm{j}} \left(\frac{\mathrm{t}_{\mathrm{j}}}{\mathrm{p}_{\mathrm{j}}}\right) = \beta_{0} + \beta_{1} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) + \beta_{2} \delta_{\mathrm{j}} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) + \varepsilon_{\mathrm{j}}, \tag {9.16}
 $$
 
 where  $\beta_{1} = -[\lambda_{0} / (\alpha +\lambda_{0})]$ ,  $\beta_{2} = 1 / (\alpha +\lambda_{0})$ , and  $\beta_{0}$  is a constant term. Notice that  $\beta_{1} < 0$  indicates how the trade barriers vary with the output/import ratio in any industry, while  $\beta_{2} > 0$  reflects the additional impact of having the industry organized as a lobby. So a change in the output/import ratio in an unorganized industry affects the trade barrier by  $\beta_{1} < 0$ , and in an organized industry affects the trade barrier by  $(\beta_{1} + \beta_{2}) > 0$ .
@@ -238,29 +238,29 @@ Recall that  $\lambda_{\mathrm{o}} \equiv \sum_{\mathrm{j} \in \mathrm{J}_{\math
 Substituting  $\lambda_{\mathrm{o}} = \lambda_{\mathrm{k}}\mathfrak{n}_{\mathrm{o}}$  into (9.16), the predicted trade policies are:
 
 $$
-\frac {t _ {j}}{p _ {j}} = - \left(\frac {\delta_ {j} - \lambda_ {k} n _ {o}}{\alpha + \lambda_ {k} n _ {o}}\right) \left(\frac {y _ {j}}{m _ {j}}\right) \left(\frac {\partial m _ {j}}{\partial p _ {j}} \frac {p _ {j}}{m _ {j}}\right) ^ {- 1}, \quad \text {w h e r e} \delta_ {j} = \left\{ \begin{array}{l} 1 \text {f o r} j \in J _ {o} \\ 0 \text {o t h e r w i s e} \end{array} . \right. \tag {9.17}
+\frac{t_{j}}{p_{j}} = - \left(\frac{\delta_{j} - \lambda_{k} n_{o}}{\alpha + \lambda_{k} n_{o}}\right) \left(\frac{y_{j}}{m_{j}}\right) \left(\frac{\partial m_{j}}{\partial p_{j}} \frac{p_{j}}{m_{j}}\right)^{- 1}, \quad \text{wh er e} \delta_{j} = \left\{ \begin{array}{l} 1 \text{fo r} j \in J_{o} \\ 0 \text{ot he rw is e} \end{array} . \right. \tag {9.17}
 $$
 
-In the Grossman-Helpman model, a rise in either  $\lambda_{k}$  or  $n_o$  will lower  $(\mathrm{t_j / p_j})$  across all industries in (9.17). That is, holding the import demand elasticity and output/import ratio constant, we have:
+In the Grossman-Helpman model, a rise in either  $\lambda_{k}$  or  $n_o$  will lower  $(\mathrm{t_j /p_j})$  across all industries in (9.17). That is, holding the import demand elasticity and output/import ratio constant, we have:
 
 $$
-\frac {\mathrm {d} \left(\mathrm {t} _ {\mathrm {j}} / \mathrm {p} _ {\mathrm {j}}\right)}{\mathrm {d} \left(\lambda_ {\mathrm {k}} \mathrm {n} _ {\mathrm {o}}\right)} = \frac {\left(\alpha + \delta_ {\mathrm {j}}\right)}{\left(\alpha + \lambda_ {\mathrm {k}} \mathrm {n} _ {\mathrm {o}}\right) ^ {2}} \left(\frac {\mathrm {y} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) \left(\frac {\partial \mathrm {m} _ {\mathrm {j}}}{\partial \mathrm {p} _ {\mathrm {j}}} \frac {\mathrm {p} _ {\mathrm {j}}}{\mathrm {m} _ {\mathrm {j}}}\right) ^ {- 1} <   0, \tag {9.18}
+\frac{\mathrm{d} \left(\mathrm{t}_{\mathrm{j}} / \mathrm{p}_{\mathrm{j}}\right)}{\mathrm{d} \left(\lambda_{\mathrm{k}} \mathrm{n}_{\mathrm{o}}\right)} = \frac{\left(\alpha + \delta_{\mathrm{j}}\right)}{\left(\alpha + \lambda_{\mathrm{k}} \mathrm{n}_{\mathrm{o}}\right)^{2}} \left(\frac{\mathrm{y}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right) \left(\frac{\partial \mathrm{m}_{\mathrm{j}}}{\partial \mathrm{p}_{\mathrm{j}}} \frac{\mathrm{p}_{\mathrm{j}}}{\mathrm{m}_{\mathrm{j}}}\right)^{- 1} <   0, \tag {9.18}
 $$
 
-where the sign of (9.18) follows because the import demand elasticity is negative (or for exports, this supply elasticity is positive but  $(\mathrm{y_j / m_j})$  is negative). Continuing to hold this elasticity constant, if we also allow the output/import ratio to respond, then this would reinforce the negative sign on (9.18): the rise in either  $\lambda_{\mathrm{k}}$  or  $\mathfrak{n}_0$  will lower  $(\mathrm{t_j / p_j})$  as in (9.18), which lowers the domestic prices  $\mathrm{p_j} = \mathrm{p_j^* + t_j}$ , and further lowers the output/import ratio  $(\mathrm{y_j / m_j})$ .
+where the sign of (9.18) follows because the import demand elasticity is negative (or for exports, this supply elasticity is positive but  $(\mathrm{y_j /m_j})$  is negative). Continuing to hold this elasticity constant, if we also allow the output/import ratio to respond, then this would reinforce the negative sign on (9.18): the rise in either  $\lambda_{\mathrm{k}}$  or  $\mathfrak{n}_0$  will lower  $(\mathrm{t_j /p_j})$  as in (9.18), which lowers the domestic prices  $\mathrm{p_j} = \mathrm{p_j^* +t_j}$ , and further lowers the output/import ratio  $(\mathrm{y_j /m_j})$ .
 
-Now let us work this thought experiment in reverse. A decline in  $\lambda_{\mathrm{k}}$  corresponds to fewer people owning the stock of capital, which is a more unequal income distribution. This would raise  $(\mathrm{t_j / p_j})$  across all industries as in (9.18) and also raise all domestic prices, meaning that import tariffs and export subsidies rise in organized industries, while import subsidies and export taxes are reduced in unorganized import industries. It can be argued that this has a greater beneficial impact to the organized industries receiving protection than for the unorganized industries. $^6$  That would create an incentive for new groups to enter, so if  $\mathfrak{n}_0$  is treated as endogenous then it would rise. But that would offset the initial decline in  $\lambda_{\mathrm{k}}$ , since the increase in  $\mathfrak{n}_0$  would lower  $(\mathrm{t_j / p_j})$  in (9.17). So with the number of lobbies treated as endogenous, it is no longer clear whether a more unequal income distribution leads to more or less protection. That is the issue that Mitra (1999) aims to resolve.
+Now let us work this thought experiment in reverse. A decline in  $\lambda_{\mathrm{k}}$  corresponds to fewer people owning the stock of capital, which is a more unequal income distribution. This would raise  $(\mathrm{t_j /p_j})$  across all industries as in (9.18) and also raise all domestic prices, meaning that import tariffs and export subsidies rise in organized industries, while import subsidies and export taxes are reduced in unorganized import industries. It can be argued that this has a greater beneficial impact to the organized industries receiving protection than for the unorganized industries. $^6$  That would create an incentive for new groups to enter, so if  $\mathfrak{n}_0$  is treated as endogenous then it would rise. But that would offset the initial decline in  $\lambda_{\mathrm{k}}$ , since the increase in  $\mathfrak{n}_0$  would lower  $(\mathrm{t_j /p_j})$  in (9.17). So with the number of lobbies treated as endogenous, it is no longer clear whether a more unequal income distribution leads to more or less protection. That is the issue that Mitra (1999) aims to resolve.
 
-To model the entry of groups, we impose a high degree of symmetry on the model. We already assumed  $\mathrm{K_i}$  and  $\mathrm{H_i}$  do not vary across industries, and further assume that demand and production functions are symmetric across products, as are international prices. Then the tariff/subsidies computed from (9.16) will be  $\mathrm{t_o / p_o}$  for all organized industries, and  $\mathrm{t_u / p_u}$  for all unorganized industries. These policies depend on the product  $\mathrm{n_o}\lambda_{\mathrm{k}}$  from (9.17), reflecting on the fraction of organized industries (which will be endogenous), and the fraction of population that owns capital (which is exogenous). These policies fully determine the welfare  $\mathrm{W_o(n_o\lambda_k)}$  to capital-owners in organized industries, and welfare  $\mathrm{W_u(n_o\lambda_k)}$  to capital-owners in unorganized industries, as in (9.9a). The gross benefits to forming a lobby are then:
+To model the entry of groups, we impose a high degree of symmetry on the model. We already assumed  $\mathrm{K_i}$  and  $\mathrm{H_i}$  do not vary across industries, and further assume that demand and production functions are symmetric across products, as are international prices. Then the tariff/subsidies computed from (9.16) will be  $\mathrm{t_o /p_o}$  for all organized industries, and  $\mathrm{t_u /p_u}$  for all unorganized industries. These policies depend on the product  $\mathrm{n_o}\lambda_{\mathrm{k}}$  from (9.17), reflecting on the fraction of organized industries (which will be endogenous), and the fraction of population that owns capital (which is exogenous). These policies fully determine the welfare  $\mathrm{W_o(n_o\lambda_k)}$  to capital-owners in organized industries, and welfare  $\mathrm{W_u(n_o\lambda_k)}$  to capital-owners in unorganized industries, as in (9.9a). The gross benefits to forming a lobby are then:
 
 $$
-\Delta \mathrm {W} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) \equiv \mathrm {W} _ {\mathrm {o}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) - \mathrm {W} _ {\mathrm {u}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right), \tag {9.19}
+\Delta \mathrm{W} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) \equiv \mathrm{W}_{\mathrm{o}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) - \mathrm{W}_{\mathrm{u}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right), \tag {9.19}
 $$
 
 while the net benefits are obtained by subtracting the cost of political contributions:
 
 $$
-\mathrm {N B} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) \equiv \Delta \mathrm {W} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right) - \mathrm {R} _ {\mathrm {o}} \left(\mathrm {n} _ {\mathrm {o}} \lambda_ {\mathrm {k}}\right). \tag {9.20}
+\mathrm{NB} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) \equiv \Delta \mathrm{W} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right) - \mathrm{R}_{\mathrm{o}} \left(\mathrm{n}_{\mathrm{o}} \lambda_{\mathrm{k}}\right). \tag {9.20}
 $$
 
 Following Mitra, some properties of these schedules can be derived. Given the symmetry we have assumed, the gross benefits in (9.19) are simply the difference between the returns to the fixed factors in organized and unorganized industries:  $\Delta W(\mathrm{n_o}\lambda_{\mathrm{k}}) = \pi (\mathrm{p_o}) - \pi (\mathrm{p_u}) > 0$ . We argued above that as  $\lambda_{\mathrm{k}}$  declines, leading to a rise in the tariff/subsidies as in (9.18), this creates a greater beneficial on the organized than unorganized industries, so that  $\pi (\mathrm{p_o}) - \pi (\mathrm{p_u})$  increases and gross benefits rise. $^7$  Thus,  $\Delta W^{\prime}(\mathrm{n_o}\lambda_{\mathrm{k}}) < 0$ .
@@ -269,7 +269,7 @@ For net benefits, Mitra investigates the determinants of the truthful contributi
 
 What about the costs of forming a lobby? In addition to the political contributions, there may be some significant costs of grass-roots organizing and communication between members so as to overcome the free-rider problem. Let us denote these costs (measured in terms of the numeraire good) by  $\mathrm{C}(\mathrm{n}_0)$ , where we assume that  $\mathrm{C}'(\mathrm{n}_0) \geq 0$ , so the cost of creating a new lobby is non-decreasing in the number of lobbies already there. This cost schedule is also illustrated in Figures 9.1 and 9.2. Then we suppose that lobbies form up to the point where net benefits just equal to the costs of creating a new lobby, which is illustrated by the lobbies  $\mathrm{n}_0$  in both figures.
 
-Now consider the effect of a fall in  $\lambda_{\mathrm{k}}$ , which is a worsening of the income distribution. The impact effect from (9.17) (holding  $\mathfrak{n}_{\mathrm{o}}$  constant) would be an increase in  $(\mathrm{t_j / p_j})$  and higher domestic prices for all industries. This creates addition gains to organizing an industry, and in Figures 9.1 and 9.2, the net benefits schedule rises to  $\mathrm{NB^{\prime}}$ . Equivalently, net benefits remain the same if along with the decline in  $\lambda_{\mathrm{k}}$  there is an equi-proportional increase in  $\mathfrak{n}_{\mathrm{o}}$ , so that the net benefit curves shifting rightwards by the amount  $-\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}} = \mathrm{dn}_{\mathrm{o}} / \mathrm{n}_{\mathrm{o}}$ .
+Now consider the effect of a fall in  $\lambda_{\mathrm{k}}$ , which is a worsening of the income distribution. The impact effect from (9.17) (holding  $\mathfrak{n}_{\mathrm{o}}$  constant) would be an increase in  $(\mathrm{t_j /p_j})$  and higher domestic prices for all industries. This creates addition gains to organizing an industry, and in Figures 9.1 and 9.2, the net benefits schedule rises to  $\mathrm{NB^{\prime}}$ . Equivalently, net benefits remain the same if along with the decline in  $\lambda_{\mathrm{k}}$  there is an equi-proportional increase in  $\mathfrak{n}_{\mathrm{o}}$ , so that the net benefit curves shifting rightwards by the amount  $-\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}} = \mathrm{dn}_{\mathrm{o}} / \mathrm{n}_{\mathrm{o}}$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/ffaef204239a390a00832e2db94f2d725573efd3fc4057ef97aec3127d374900.jpg)
 Figure 9.1
@@ -277,9 +277,9 @@ Figure 9.1
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/3fd6f4c7ad76f1a55deccdc7255926fc665e65743a577ddeeea7a1f8438805a8.jpg)
 Figure 9.2
 
-In Figure 9.1, where the cost of organizing lobbies is increasing, the induced increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is clearly less than the rightward shift of the NB schedule. Therefore,  $\mathrm{dn_o / n_o < -d\lambda_k / \lambda_k}$ , and it follows that  $\mathrm{dn_o / n_o + d\lambda_k / \lambda_k < 0}$ , so that  $\mathrm{n_o\lambda_k}$  falls in equilibrium. This leads to an increase in the trade policies  $(\mathrm{t_j / p_j})$  from (9.17), so that organized industries receive higher import tariffs or export subsidies, and unorganized industries have reduced import subsidies or export taxes. Overall, there is a rise in domestic prices, and in this sense the net level of protection has increased due to the more concentrated income distribution and increased lobbying.
+In Figure 9.1, where the cost of organizing lobbies is increasing, the induced increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is clearly less than the rightward shift of the NB schedule. Therefore,  $\mathrm{dn_o /n_o < -d\lambda_k / \lambda_k}$ , and it follows that  $\mathrm{dn_o /n_o +d\lambda_k / \lambda_k <0}$ , so that  $\mathrm{n_o\lambda_k}$  falls in equilibrium. This leads to an increase in the trade policies  $(\mathrm{t_j /p_j})$  from (9.17), so that organized industries receive higher import tariffs or export subsidies, and unorganized industries have reduced import subsidies or export taxes. Overall, there is a rise in domestic prices, and in this sense the net level of protection has increased due to the more concentrated income distribution and increased lobbying.
 
-In Figure 9.2, by contrast, the cost of organizing lobbies is constant. In that case the increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is just equal to the rightward shift of the NB schedule, so that  $\mathrm{dn_o / n_o} = -\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}}$  and  $\mathrm{n_o}\lambda_{\mathrm{k}}$  is unchanged in equilibrium. Therefore the trade policies from (9.17) are also unchanged. We see that the overall impact of income inequality on protection is very sensitive to the structure of lobbying costs  $C(\mathrm{n_o})$ , which could reflect a wide range of legal and political features in a country. It would be difficult, then, to predict the effects of changes in income distribution on protection either within or across countries. This finding makes it all the more remarkable that in the median voter model, discussed earlier, Dutt and Mitra (2002) find a systematic (though non-monotonic) relationship between trade barriers and inequality. Obtaining such time-series or cross-country empirical results from the "protection for sale" model would be more difficult. That model is ideally suited, however, to explaining cross-industry trade protection, as we have already discussed.
+In Figure 9.2, by contrast, the cost of organizing lobbies is constant. In that case the increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is just equal to the rightward shift of the NB schedule, so that  $\mathrm{dn_o /n_o} = -\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}}$  and  $\mathrm{n_o}\lambda_{\mathrm{k}}$  is unchanged in equilibrium. Therefore the trade policies from (9.17) are also unchanged. We see that the overall impact of income inequality on protection is very sensitive to the structure of lobbying costs  $C(\mathrm{n_o})$ , which could reflect a wide range of legal and political features in a country. It would be difficult, then, to predict the effects of changes in income distribution on protection either within or across countries. This finding makes it all the more remarkable that in the median voter model, discussed earlier, Dutt and Mitra (2002) find a systematic (though non-monotonic) relationship between trade barriers and inequality. Obtaining such time-series or cross-country empirical results from the "protection for sale" model would be more difficult. That model is ideally suited, however, to explaining cross-industry trade protection, as we have already discussed.
 
 # Two-Country Model
 
@@ -292,13 +292,13 @@ Home and foreign prices differ due to tariffs in both countries. Suppose that th
 Using these prices, market clearing means that home imports equal foreign exports:
 
 $$
-\mathrm {m} \left(\mathrm {p} ^ {\mathrm {w}} \tau\right) = \mathrm {x} ^ {*} \left(\mathrm {p} ^ {\mathrm {w}} / \tau^ {*}\right) \quad \Rightarrow \quad \mathrm {p} ^ {\mathrm {w}} \left(\tau , \tau^ {*}\right). \tag {9.21}
+\mathrm{m} \left(\mathrm{p}^{\mathrm{w}} \tau\right) = \mathrm{x}^{*} \left(\mathrm{p}^{\mathrm{w}} / \tau^{*}\right) \quad \Rightarrow \quad \mathrm{p}^{\mathrm{w}} \left(\tau , \tau^{*}\right). \tag {9.21}
 $$
 
 This equation determines the world equilibrium price  $p^{\mathrm{W}}(\tau, \tau^{*})$ , depending the tariff in each country. Under the standard assumptions on the import demand and export supply curves, it is readily confirmed that:
 
 $$
-\frac {\mathrm {d p} ^ {\mathrm {w}}}{\mathrm {d} \tau} <   0 <   \frac {\mathrm {d p}}{\mathrm {d} \tau}, \quad \text {a n d} \quad \frac {\mathrm {d p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} > 0 > \frac {\mathrm {d p} ^ {*}}{\mathrm {d} \tau^ {*}}. \tag {9.22}
+\frac{\mathrm{dp}^{\mathrm{w}}}{\mathrm{d} \tau} <   0 <   \frac{\mathrm{dp}}{\mathrm{d} \tau}, \quad \text{an d} \quad \frac{\mathrm{dp}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} > 0 > \frac{\mathrm{dp}^{*}}{\mathrm{d} \tau^{*}}. \tag {9.22}
 $$
 
 In other words, the home tariff lowers the world price of imports for the home country and raises the domestic price, while the foreign tariff raises the world price of its exports and lowers its local price of the export good.
@@ -306,7 +306,7 @@ In other words, the home tariff lowers the world price of imports for the home c
 Let us now consider the government objective function in each country. In the median vote model the objective function was welfare of the median voter  $\mathrm{V}(\mathrm{p},\mathrm{I}^{\mathrm{m}})$ , where from (9.2') income of the median voter was:  $\mathrm{I}^{\mathrm{m}} = [(\rho^{\mathrm{m}} - 1)\mathrm{r}(\mathrm{p})\mathrm{K} + \mathrm{y}_0(\mathrm{p}) + \mathrm{py}(\mathrm{p}) + \mathrm{T}]$ . Using the ad valorem tariffs defined above, tariff revenue in this expression is  $\mathrm{T} = (\tau - 1)\mathrm{p}^{\mathrm{w}}[\mathrm{d}(\mathrm{p}) - \mathrm{y}(\mathrm{p})]$ . Because domestic prices are  $\mathfrak{p} = \mathfrak{p}^{\mathrm{w}}\tau$ , we can substitute this into tariff revenue and income, and obtain an expression for income that depends on the world price and domestic tariff,  $\mathrm{I}^{\mathrm{m}}(\mathrm{p}^{\mathrm{w}},\tau)$ . It follows that the objective of the home government is:
 
 $$
-\mathrm {G} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) = \mathrm {V} \left[ \mathrm {p} ^ {\mathrm {w}} \tau , \mathrm {I} ^ {\mathrm {m}} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) \right]. \tag {9.23}
+\mathrm{G} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) = \mathrm{V} \left[ \mathrm{p}^{\mathrm{w}} \tau , \mathrm{I}^{\mathrm{m}} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) \right]. \tag {9.23}
 $$
 
 Thus, the objective function of the home government can be written as a function of the world prices, and the tariff. Bagwell and Staiger argue that this formulation of the objective function is general enough to encompass a number of models, including the median voter model and the "protection for sale" model of Grossman and Helpman.[10]
@@ -314,13 +314,13 @@ Thus, the objective function of the home government can be written as a function
 Furthermore, it is readily verified that the tariffs in the median voter model (equation 9.4) or in the "protection for sale" model (equation 9.15), satisfy the first-order condition:
 
 $$
-\mathrm {G} _ {\tau} \left(\mathrm {p} ^ {\mathrm {w}}, \tau\right) = 0. \tag {9.24a}
+\mathrm{G}_{\tau} \left(\mathrm{p}^{\mathrm{w}}, \tau\right) = 0. \tag {9.24a}
 $$
 
 That is, these tariffs are obtained by maximizing the government's objective while treating the world price  $\mathfrak{p}^{\mathrm{w}}$  as fixed. For the foreign country there will be an analogous objective function  $G^{*}(p^{w},\tau^{*})$ , with first-order condition for the tariff:
 
 $$
-\mathrm {G} _ {\tau} ^ {*} \left(\mathrm {p} ^ {\mathrm {w}}, \tau^ {*}\right) = 0. \tag {9.24b}
+\mathrm{G}_{\tau}^{*} \left(\mathrm{p}^{\mathrm{w}}, \tau^{*}\right) = 0. \tag {9.24b}
 $$
 
 Bagwell and Staiger refer to the tariffs satisfying (9.24) as politically optimal.
@@ -328,13 +328,13 @@ Bagwell and Staiger refer to the tariffs satisfying (9.24) as politically optima
 However, the tariffs satisfying (9.24) will generally not be chosen by a government that recognizes its ability to influence the terms of trade. Instead, the tariffs would be chosen in the two countries to achieve:
 
 $$
-\frac {\mathrm {d}}{\mathrm {d} \tau} \mathrm {G} \left[ \mathrm {p} ^ {\mathrm {w}} \left(\tau , \tau^ {*}\right), \tau \right] = \mathrm {G} _ {\mathrm {p}} \frac {\partial \mathrm {p} ^ {\mathrm {w}}}{\partial \tau} + \mathrm {G} _ {\tau} = 0, \tag {9.25a}
+\frac{\mathrm{d}}{\mathrm{d} \tau} \mathrm{G} \left[ \mathrm{p}^{\mathrm{w}} \left(\tau , \tau^{*}\right), \tau \right] = \mathrm{G}_{\mathrm{p}} \frac{\partial \mathrm{p}^{\mathrm{w}}}{\partial \tau} + \mathrm{G}_{\tau} = 0, \tag {9.25a}
 $$
 
 and in the foreign country,
 
 $$
-\frac {\mathrm {d}}{\mathrm {d} \tau} \mathrm {G} ^ {*} [ \mathrm {p} ^ {\mathrm {w}} (\tau , \tau^ {*}), \tau^ {*} ] = \mathrm {G} _ {\mathrm {p}} ^ {*} \frac {\partial \mathrm {p} ^ {\mathrm {w}}}{\partial \tau^ {*}} + \mathrm {G} _ {\tau^ {*}} ^ {*} = 0. \tag {9.25b}
+\frac{\mathrm{d}}{\mathrm{d} \tau} \mathrm{G}^{*} [ \mathrm{p}^{\mathrm{w}} (\tau , \tau^{*}), \tau^{*} ] = \mathrm{G}_{\mathrm{p}}^{*} \frac{\partial \mathrm{p}^{\mathrm{w}}}{\partial \tau^{*}} + \mathrm{G}_{\tau^{*}}^{*} = 0. \tag {9.25b}
 $$
 
 Notice the obvious difference between the politically optimal tariffs in (9.24), and the first-order conditions (9.25) that incorporate the terms of trade effects. Bagwell and Staiger refer to the tariffs satisfying (9.25) as the Nash equilibrium tariffs, since they are the best response by each country given the tariff choice of the other.
@@ -342,13 +342,13 @@ Notice the obvious difference between the politically optimal tariffs in (9.24),
 The question then arises as to how the politically optimal tariffs (which ignore the terms of trade effects) compare with the Nash equilibrium tariffs (which incorporate these effects). To make this comparison, it is convenient to define the reduced form government objective functions as,
 
 $$
-\widetilde {G} (\tau , \tau^ {*}) \equiv G \left[ p ^ {w} (\tau , \tau^ {*}), \tau \right], \tag {9.26a}
+\widetilde {G} (\tau , \tau^{*}) \equiv G \left[ p^{w} (\tau , \tau^{*}), \tau \right], \tag {9.26a}
 $$
 
 and in the foreign country,
 
 $$
-\tilde {\mathrm {G}} ^ {*} (\tau , \tau^ {*}) \equiv \mathrm {G} ^ {*} [ \mathrm {p} ^ {\mathrm {w}} (\tau , \tau^ {*}), \tau^ {*} ]. \tag {9.26b}
+\tilde {\mathrm{G}}^{*} (\tau , \tau^{*}) \equiv \mathrm{G}^{*} [ \mathrm{p}^{\mathrm{w}} (\tau , \tau^{*}), \tau^{*} ]. \tag {9.26b}
 $$
 
 These give the objectives as functions of the tariffs in the two countries. Notice that the Nash equilibrium in (9.25a) can be equivalently written as  $\widetilde{G}_{\tau} = 0$ , which defines the best home response  $\tau = r(\tau^{*})$  to the foreign tariff. Similarly, the Nash equilibrium in (9.25b) can be written as,  $\widetilde{G}_{\tau^{*}}^{*} = 0$ , which defines the best foreign response  $\tau^{*} = r^{*}(\tau)$  to the home tariff.
@@ -375,7 +375,7 @@ Grossman and Helpman (1995a) demonstrate part (a) by explicitly calculating the 
 To demonstrate part (b) of this theorem, let us calculate the condition for tangency of the iso-curves of  $\widetilde{G}(\tau, \tau^*)$  and  $\widetilde{G}^*(\tau, \tau^*)$ . This is  $\widetilde{G}_{\tau} / \widetilde{G}_{\tau^*} = \widetilde{G}_{\tau}^* / \widetilde{G}_{\tau^*}^*$ . Using the definition of these reduced-form objective functions in (9.26), we can re-write this tangency condition as:
 
 $$
-\frac {\mathrm {G} _ {\tau} + \mathrm {G} _ {\mathrm {p}} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau}{\mathrm {G} _ {\mathrm {p}} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau^ {*}} = \frac {\mathrm {G} _ {\mathrm {p}} ^ {*} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau}{\mathrm {G} _ {\tau^ {*}} ^ {*} + \mathrm {G} _ {\mathrm {p}} ^ {*} \partial \mathrm {p} ^ {\mathrm {w}} / \partial \tau^ {*}}. \tag {9.27}
+\frac{\mathrm{G}_{\tau} + \mathrm{G}_{\mathrm{p}} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau}{\mathrm{G}_{\mathrm{p}} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau^{*}} = \frac{\mathrm{G}_{\mathrm{p}}^{*} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau}{\mathrm{G}_{\tau^{*}}^{*} + \mathrm{G}_{\mathrm{p}}^{*} \partial \mathrm{p}^{\mathrm{w}} / \partial \tau^{*}}. \tag {9.27}
 $$
 
 Now substitute in the condition for the politically optimal tariffs,  $\mathrm{G}_{\tau} = \mathrm{G}_{\tau^{*}}^{*} = 0$ . Then (9.27)
@@ -389,7 +389,7 @@ How is reciprocity applied in practice? Bagwell and Staiger suggest the followin
 and  $\mathbf{x}^{*0} = \mathbf{m}^{0}$ . Therefore, Bagwell and Staiger's definition of reciprocity implies:
 
 $$
-\underbrace {\mathrm {p} ^ {\mathrm {w} 0} \Delta \mathrm {m} = \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {1} - \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {0}} _ {\Delta \text {H o m e i m p o r t s}} = \underbrace {\Delta \mathrm {m} ^ {*} = \mathrm {p} ^ {\mathrm {w} 1} \mathrm {m} ^ {1} - \mathrm {p} ^ {\mathrm {w} 0} \mathrm {m} ^ {0}} _ {\Delta \text {F o r g i n i m p o r t s}}. \tag {9.28}
+\underbrace {\mathrm{p}^{\mathrm{w} 0} \Delta \mathrm{m} = \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{1} - \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{0}}_{\Delta \text{Ho me im po rt s}} = \underbrace {\Delta \mathrm{m}^{*} = \mathrm{p}^{\mathrm{w} 1} \mathrm{m}^{1} - \mathrm{p}^{\mathrm{w} 0} \mathrm{m}^{0}}_{\Delta \text{Fo rg in im po rt s}}. \tag {9.28}
 $$
 
 By inspection, this equality is satisfied if and only if world prices are constant,  $\mathfrak{p}^{\mathrm{w1}} = \mathfrak{p}^{\mathrm{w0}}$ . So the implication of reciprocity in the two-country model is that mutual tariff reductions should leave the world price unchanged.
@@ -397,7 +397,7 @@ By inspection, this equality is satisfied if and only if world prices are consta
 Totally differentiating the world price  $\mathfrak{p}^{\mathrm{w}}(\tau, \tau^{*})$ , it is unchanged when:
 
 $$
-\frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau} \mathrm {d} \tau + \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} \mathrm {d} \tau^ {*} = 0 \quad \Rightarrow \quad \frac {\mathrm {d} \tau}{\mathrm {d} \tau^ {*}} = - \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau^ {*}} / \frac {\mathrm {d} \mathrm {p} ^ {\mathrm {w}}}{\mathrm {d} \tau} > 0, \tag {9.29}
+\frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau} \mathrm{d} \tau + \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} \mathrm{d} \tau^{*} = 0 \quad \Rightarrow \quad \frac{\mathrm{d} \tau}{\mathrm{d} \tau^{*}} = - \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau^{*}} / \frac{\mathrm{d} \mathrm{p}^{\mathrm{w}}}{\mathrm{d} \tau} > 0, \tag {9.29}
 $$
 
 where the positive sign follows from the inequalities in (9.22). The locus of tariffs along which the world price  $p^{\mathrm{W}}(\tau, \tau^{*})$  is held fixed at its Nash-equilibrium level is illustrated by PP in Figure 9.4. Since this line has a positive slope, and the iso-curves of  $\tilde{G}(\tau, \tau^{*})$  and  $\tilde{G}^{*}(\tau, \tau^{*})$  have slopes of infinity and zero at point N, the PP locus clearly falls inside the region bounded by those iso-curve. Therefore, reciprocal reductions in tariffs from the Nash equilibrium raise the government objective function for both countries. This result provides strong justification for the GATT principle of reciprocity.
@@ -482,16 +482,16 @@ introduce here the idea that they may enter a market to "jump the tariff," i.e. 
 Consumers are assumed to have preferences over an additively separable numeraire good  $\mathrm{d}_0$ , and a CES aggregate denoted by  $\mathrm{D}$ ,
 
 $$
-\mathrm {U} = \mathrm {d} _ {0} + \left(\frac {\gamma}{\gamma - 1}\right) \mathrm {D} ^ {(\gamma - 1) / \gamma}, \quad \gamma > 0, \gamma \neq 1, \tag {9.30a}
+\mathrm{U} = \mathrm{d}_{0} + \left(\frac{\gamma}{\gamma - 1}\right) \mathrm{D}^{(\gamma - 1) / \gamma}, \quad \gamma > 0, \gamma \neq 1, \tag {9.30a}
 $$
 
 where the CES aggregate is,
 
 $$
-\mathrm {D} = \left[ \mathrm {N} _ {\mathrm {h}} \mathrm {d} _ {\mathrm {h}} ^ {(\sigma - 1) / \sigma} + \left(\mathrm {N} _ {\mathrm {f}} - \mathrm {M}\right) \mathrm {d} _ {\mathrm {f}} ^ {(\sigma - 1) / \sigma} + \mathrm {M d} _ {\mathrm {m}} ^ {(\sigma - 1) / \sigma} \right] ^ {\sigma / (\sigma - 1)}, \sigma > 1. \tag {9.30b}
+\mathrm{D} = \left[ \mathrm{N}_{\mathrm{h}} \mathrm{d}_{\mathrm{h}}^{(\sigma - 1) / \sigma} + \left(\mathrm{N}_{\mathrm{f}} - \mathrm{M}\right) \mathrm{d}_{\mathrm{f}}^{(\sigma - 1) / \sigma} + \mathrm{Md}_{\mathrm{m}}^{(\sigma - 1) / \sigma} \right]^{\sigma / (\sigma - 1)}, \sigma > 1. \tag {9.30b}
 $$
 
-The values  $\mathrm{d_j}$  denotes consumption of the differentiated varieties from sources:  $\mathrm{j = h}$  (home firms), of which there are  $\mathbf{N_h}$  in number;  $\mathrm{j = f}$  (foreign imported products), of which there are  $(\mathbf{N_f} - \mathbf{M})$ ; and  $\mathrm{j = m}$  (multinationals in China) of which there are  $\mathbf{M}$ . As usual,  $\sigma$  is the elasticity of substitution across individual varieties, while  $\gamma$  is the elasticity of demand for the aggregate good D, and we add the restriction that  $\sigma > \gamma$ .
+The values  $\mathrm{d_j}$  denotes consumption of the differentiated varieties from sources:  $\mathrm{j =h}$  (home firms), of which there are  $\mathbf{N_h}$  in number;  $\mathrm{j =f}$  (foreign imported products), of which there are  $(\mathbf{N_f} - \mathbf{M})$ ; and  $\mathrm{j =m}$  (multinationals in China) of which there are  $\mathbf{M}$ . As usual,  $\sigma$  is the elasticity of substitution across individual varieties, while  $\gamma$  is the elasticity of demand for the aggregate good D, and we add the restriction that  $\sigma > \gamma$ .
 
 Branstetter and Feenstra (2002) suppose that the domestic industry is owned by the government, as with state-owned firms in China. The profits earned by these firms receive extra weight in the government's objective function.[16] The presence of multinationals presents a
 
@@ -508,7 +508,7 @@ Each foreign firm faces the decision of whether to supply locally through import
 The net profits earned locally are thus  $(1 - \tau)\pi_{\mathrm{m}} - \mathrm{F}$ , where  $\pi_{\mathrm{m}} = \mathrm{p}_{\mathrm{m}}\mathrm{d}_{\mathrm{m}} / \sigma$  is profits under the standard CES markup-pricing rule. Alternately, the multinational could just export to the home country, and earn  $\pi_{\mathrm{f}} = \mathrm{p}_{\mathrm{f}}\mathrm{d}_{\mathrm{f}} / \sigma$ . Thus, entry will occur if and only if  $(1 - \tau)\pi_{\mathrm{m}} - \mathrm{F} \geq \pi_{\mathrm{f}}$ . This condition is written as:
 
 $$
-(1 - \tau) \frac {\mathrm {p} _ {\mathrm {m}} \mathrm {d} _ {\mathrm {m}}}{\sigma} - \mathrm {F} \geq \frac {\mathrm {p} _ {\mathrm {f}} \mathrm {d} _ {\mathrm {f}}}{\sigma}. \tag {9.31}
+(1 - \tau) \frac{\mathrm{p}_{\mathrm{m}} \mathrm{d}_{\mathrm{m}}}{\sigma} - \mathrm{F} \geq \frac{\mathrm{p}_{\mathrm{f}} \mathrm{d}_{\mathrm{f}}}{\sigma}. \tag {9.31}
 $$
 
 Entry is influenced through the profits tax  $\tau$  and the specific tariff  $t$ , so the number of multinational firms is written as a function  $\mathbf{M}(\tau, t)$ . Multinationals react in the expected manner to changes in these policies: when (9.31) holds as an equality, then  $\mathrm{dM} / \mathrm{d}\tau < 0$  and  $\mathrm{dM} / \mathrm{dt} > 0$ .
@@ -516,7 +516,7 @@ Entry is influenced through the profits tax  $\tau$  and the specific tariff  $t
 We now define the government's objective function over the various interest groups, beginning with consumer/worker utility  $U$ , which receives a weight of  $\alpha$ . The profits of the home state-owned firms are  $N_{h}\pi_{h} = N_{h}p_{h}d_{h} / \sigma$ , which accrue to the regional and national government. We give revenue from state-owned firms a weight  $\beta$  in the objective function. Finally, the government extracts rents  $M\tau \pi_{m}$  from the multinationals, and also collects tariff revenue of  $(N_{f} - M)td_{f}$ . These two sources of revenue are each given weights of unity. The objective function for each province is then defined by,
 
 $$
-\mathrm {G} (\mathrm {M}, \tau , \mathrm {t}) \equiv \alpha \mathrm {U} + \beta \mathrm {N} _ {\mathrm {h}} \pi_ {\mathrm {h}} + \mathrm {M} \tau \pi_ {\mathrm {m}} + (\mathrm {N} _ {\mathrm {f}} - \mathrm {M}) \mathrm {t d} _ {\mathrm {f}}, \tag {9.32}
+\mathrm{G} (\mathrm{M}, \tau , \mathrm{t}) \equiv \alpha \mathrm{U} + \beta \mathrm{N}_{\mathrm{h}} \pi_{\mathrm{h}} + \mathrm{M} \tau \pi_{\mathrm{m}} + (\mathrm{N}_{\mathrm{f}} - \mathrm{M}) \mathrm{td}_{\mathrm{f}}, \tag {9.32}
 $$
 
 where the multinationals entering each province are endogenously determined from (9.31).
@@ -524,13 +524,13 @@ where the multinationals entering each province are endogenously determined from
 We suppose that the central and the provincial governments jointly determine the rents appropriated from the multinationals. The central government also chooses the tariff rate. Denoting provinces by the subscript i, we let  $\mathrm{G_i}[\mathrm{M_i}(\tau_i,t),\tau_i,t]$  denote the objective function (9.32) for each. Then the profit tax and tariff are chosen to solve:
 
 $$
-\max  _ {\tau_ {i}, t} \sum_ {i} G _ {i} \left[ M _ {i} \left(\tau_ {i}, t\right), \tau_ {i}, t \right]. \tag {9.33}
+\max_{\tau_{i}, t} \sum_{i} G_{i} \left[ M_{i} \left(\tau_{i}, t\right), \tau_{i}, t \right]. \tag {9.33}
 $$
 
 We solve (9.33) over the choice of the profits tax rate  $\tau_{\mathrm{i}}$ , while a discussion of the solution for tariffs  $t$  is in Branstetter and Feenstra (2002). Differentiating (9.33), the first-order condition is that  $\partial \mathrm{G_i} / \partial \mathrm{M_i} = -\mathrm{M_i}\pi_{\mathrm{mi}} / (\partial \mathrm{M_i} / \partial \tau_{\mathrm{i}})$ . This means that the gain from attracting one more multinational  $(\partial \mathrm{G_i} / \partial \mathrm{M_i})$  is just balanced against the fall in the revenue  $\tau_{\mathrm{i}}\mathrm{M}_{\mathrm{i}}\pi_{\mathrm{mi}}$  when the tax rate is lowered to attract another multinational. That is, the regions are acting as monopsonists in attracting foreign capital. This first-order condition for the choice of  $\tau_{\mathrm{i}}$  can be written as:19
 
 $$
-\mathrm {s} _ {\mathrm {m i}} = - \beta \mathrm {s} _ {\mathrm {h i}} + \eta \left(\frac {\mathrm {w} _ {\mathrm {i}} - 1}{\mathrm {w} _ {\mathrm {i}}}\right) + \alpha (\sigma - 1) \left(\frac {\mathrm {w} _ {\mathrm {i}} - 1}{\mathrm {w} _ {\mathrm {i}}}\right) \left(\mathrm {s} _ {\mathrm {h i}} + \mathrm {s} _ {\mathrm {f i}}\right) - \sigma \left(\frac {\mathrm {t}}{\mathrm {p} _ {\mathrm {f}}}\right) \mathrm {s} _ {\mathrm {f i}} + \left(\frac {\mathrm {M} _ {\mathrm {i}}}{\mathrm {N} _ {\mathrm {f}} - \mathrm {M} _ {\mathrm {i}}}\right) \mathrm {s} _ {\mathrm {f i}} + \varepsilon_ {\mathrm {i}}, (9. 3 4)
+\mathrm{s}_{\mathrm{mi}} = - \beta \mathrm{s}_{\mathrm{hi}} + \eta \left(\frac{\mathrm{w}_{\mathrm{i}} - 1}{\mathrm{w}_{\mathrm{i}}}\right) + \alpha (\sigma - 1) \left(\frac{\mathrm{w}_{\mathrm{i}} - 1}{\mathrm{w}_{\mathrm{i}}}\right) \left(\mathrm{s}_{\mathrm{hi}} + \mathrm{s}_{\mathrm{fi}}\right) - \sigma \left(\frac{\mathrm{t}}{\mathrm{p}_{\mathrm{f}}}\right) \mathrm{s}_{\mathrm{fi}} + \left(\frac{\mathrm{M}_{\mathrm{i}}}{\mathrm{N}_{\mathrm{f}} - \mathrm{M}_{\mathrm{i}}}\right) \mathrm{s}_{\mathrm{fi}} + \varepsilon_{\mathrm{i}}, (9. 3 4)
 $$
 
 where  $s_j$ ,  $j = h, f, m$  denotes the share of provincial consumption purchased from home state-owned firms, imported products, or multinational products, respectively, and  $\varepsilon_i$  is a term involving unobserved profit levels that is treated as a random error.
@@ -597,7 +597,7 @@ In the model of Mitra (1999), organized and unorganized industries are treated a
 9.1 Consider the return to the specific-factor in sector i, from (9.8):
 
 $$
-\pi (\mathrm {p _ {i}}) = \max _ {\mathrm {L _ {i}}} [ \mathrm {p _ {i} f (L _ {i} , K) - L _ {i}} ],
+\pi (\mathrm{p_{i}}) = \max_{\mathrm{L_{i}}} [ \mathrm{p_{i} f (L_{i} , K) - L_{i}} ],
 $$
 
 where we assume that  $\mathrm{f_{LL}} < 0$ . By differentiating the first-order condition for this problem and using  $\pi^{\prime}(\mathfrak{p}_{\mathrm{i}}) = \mathbf{y}(\mathfrak{p}_{\mathrm{i}})$ , show that profits are a convex function of the industry price.
@@ -605,7 +605,7 @@ where we assume that  $\mathrm{f_{LL}} < 0$ . By differentiating the first-order
 9.2 Replace  $\lambda_{\mathrm{k}}\mathrm{n}_{\mathrm{o}}$  with  $\lambda_{\mathrm{o}}$  in (9.17), and rewrite the optimal tariff  $\mathfrak{t}_0 > 0$  and subsidy  $\mathfrak{t}_{\mathfrak{u}} < 0$  as,
 
 $$
-\mathrm {t} _ {\mathrm {j}} = \left(\frac {\delta_ {\mathrm {j}} - \lambda_ {\mathrm {o}}}{\alpha + \lambda_ {\mathrm {o}}}\right) \mathrm {y} (\mathrm {p} _ {\mathrm {j}}) \left| \frac {\partial \mathrm {m}}{\partial \mathrm {p} _ {\mathrm {j}}} \right| ^ {- 1}, \quad \text {w h e r e} \delta_ {\mathrm {o}} = 1 \text {a n d} \delta_ {\mathrm {u}} = 0.
+\mathrm{t}_{\mathrm{j}} = \left(\frac{\delta_{\mathrm{j}} - \lambda_{\mathrm{o}}}{\alpha + \lambda_{\mathrm{o}}}\right) \mathrm{y} (\mathrm{p}_{\mathrm{j}}) \left| \frac{\partial \mathrm{m}}{\partial \mathrm{p}_{\mathrm{j}}} \right|^{- 1}, \quad \text{wh er e} \delta_{\mathrm{o}} = 1 \text{an d} \delta_{\mathrm{u}} = 0.
 $$
 
 Output depends on the industry price, but for convenience, we treat the import derivative as fixed and equal across industries. Then compute  $\frac{\mathrm{dt}_0}{\mathrm{d}\lambda_0}$  and  $\frac{\mathrm{dt}_u}{\mathrm{d}\lambda_0}$ , and show that  $\left|\frac{\mathrm{dt}_0}{\mathrm{d}\lambda_0}\right| > \left|\frac{\mathrm{dt}_u}{\mathrm{d}\lambda_0}\right|$ .
@@ -627,25 +627,25 @@ What formula is used for  $\alpha$ , and for its variance and standard error? Ju
 Hint: Consider the easier case of taking the difference between  $\alpha$  and  $\beta$ . Then:
 
 $$
-\operatorname {v a r} (\alpha - \beta) = \operatorname {E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ] ^ {2} = \operatorname {E} \operatorname {f} (\alpha , \beta),
+\operatorname{va r} (\alpha - \beta) = \operatorname{E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ]^{2} = \operatorname{E} \operatorname{f} (\alpha , \beta),
 $$
 
 where  $f(\alpha, \beta)$  is the quadratic function indicated. To compute this expected value, we take a second-order Taylor series expansion:
 
 $$
-\begin{array}{l} f (\alpha , \beta) \approx f (\overline {{\alpha}}, \overline {{\beta}}) + f _ {\alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) + f _ {\beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) \\ + \frac {1}{2} \mathrm {f} _ {\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) ^ {2} + \frac {1}{2} \mathrm {f} _ {\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) ^ {2} + \mathrm {f} _ {\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) (\beta - \overline {{\beta}}). \\ \end{array}
+\begin{array}{l} f (\alpha , \beta) \approx f (\overline {{\alpha}}, \overline {{\beta}}) + f_{\alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) + f_{\beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}}) \\ + \frac{1}{2} \mathrm{f}_{\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}})^{2} + \frac{1}{2} \mathrm{f}_{\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\beta - \overline {{\beta}})^{2} + \mathrm{f}_{\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) (\alpha - \overline {{\alpha}}) (\beta - \overline {{\beta}}). \\ \end{array}
 $$
 
 It follows that,
 
 $$
-\operatorname {E f} (\alpha , \beta) \approx \frac {1}{2} \mathrm {f} _ {\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_ {\alpha} ^ {2} + \frac {1}{2} \mathrm {f} _ {\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_ {\beta} ^ {2} + \mathrm {f} _ {\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) \operatorname {c o v} (\alpha , \beta).
+\operatorname{Ef} (\alpha , \beta) \approx \frac{1}{2} \mathrm{f}_{\alpha \alpha} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_{\alpha}^{2} + \frac{1}{2} \mathrm{f}_{\beta \beta} (\overline {{\alpha}}, \overline {{\beta}}) \sigma_{\beta}^{2} + \mathrm{f}_{\alpha \beta} (\overline {{\alpha}}, \overline {{\beta}}) \operatorname{co v} (\alpha , \beta).
 $$
 
 So computing the derivatives of the quadratic function  $f(\alpha, \beta)$ , we obtain,
 
 $$
-\operatorname {v a r} (\alpha - \beta) = \operatorname {E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ] ^ {2} \approx \sigma_ {\alpha} ^ {2} + \sigma_ {\beta} ^ {2} - 2 \operatorname {c o v} (\alpha , \beta).
+\operatorname{va r} (\alpha - \beta) = \operatorname{E} [ (\alpha - \beta) - (\overline {{\alpha}} - \overline {{\beta}}) ]^{2} \approx \sigma_{\alpha}^{2} + \sigma_{\beta}^{2} - 2 \operatorname{co v} (\alpha , \beta).
 $$
 
 Now given the formula for  $\alpha$ , use the same approach to justify its variance.

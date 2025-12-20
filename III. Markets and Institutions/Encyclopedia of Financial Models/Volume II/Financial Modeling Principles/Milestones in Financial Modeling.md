@@ -39,7 +39,7 @@ A lasting contribution of Pareto is the formulation of a law of income distribut
 
 
 $$
-\operatorname {L o g} N = A + s \log I
+\operatorname{Lo g} N = A + s \log I
 $$ where  $A$  and  $s$  are appropriate constants.
 
 

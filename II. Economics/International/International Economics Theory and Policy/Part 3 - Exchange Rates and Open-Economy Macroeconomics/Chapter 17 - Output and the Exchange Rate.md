@@ -52,7 +52,7 @@ In this chapter, we view the amount a country's residents wish to consume as dep
 are all measured in terms of domestic output units.) With this assumption, a country's desired consumption level can be written as a function of disposable income:
 
 $$
-C = C (Y ^ {d}).
+C = C (Y^{d}).
 $$
 
 Because each consumer naturally demands more goods and services as his or her real income rises, we expect consumption to increase as disposable income increases at the aggregate level, too. Thus, consumption demand and disposable income are positively related. However, when disposable income rises, consumption demand generally rises by less because part of the income increase is saved.
@@ -64,13 +64,13 @@ The current account balance, viewed as the demand for a country's exports less t
 We express a country's current account balance as a function of its currency's real exchange rate,  $q = \mathrm{EP}^{*} / P$ , and of domestic disposable income,  $Y^{d}$ :
 
 $$
-C A = C A (E P ^ {*} / P, Y ^ {d}).
+C A = C A (E P^{*} / P, Y^{d}).
 $$
 
 As a reminder of the discussion in Chapter 16, note that the domestic currency prices of representative foreign and domestic expenditure baskets are, respectively,  $EP^*$  and  $P$ , where  $E$  (the nominal exchange rate) is the price of foreign currency in terms of domestic currency,  $P^*$  is the foreign price level, and  $P$  is the home price level. The real exchange rate  $q$ , defined as the price of the foreign basket in terms of the domestic one, is therefore  $EP^* / P$ . If, for example, the representative basket of European goods and services costs  $\in 40(P^*)$ , the representative U.S. basket costs  $\\(50(P)$ , and the dollar/euro exchange rate is  $\$ 1.10 \) per euro ( $E$ ), then the price of the European basket in terms of U.S. baskets is
 
 $$
-\begin{array}{l} E P ^ {*} / P = \frac {(1 . 1 0 \mathbb {S} / \mathbb {E}) \times (4 0 \mathbb {E} / \text {E u r o p e a n b a s k e t})}{(5 0 \mathbb {S} / \text {U . S . b a s k e t})} \\ = 0. 8 8 \mathrm {U . S . b a s k e t s} / \text {E u r o p e a n b a s k e t}. \\ \end{array}
+\begin{array}{l} E P^{*} / P = \frac{(1 . 1 0 \mathbb {S} / \mathbb {E}) \times (4 0 \mathbb {E} / \text{Eu ro pe an ba sk et})}{(5 0 \mathbb {S} / \text{U .S .b as ke t})} \\ = 0. 8 8 \mathrm{U .S .b as ke ts} / \text{Eu ro pe an ba sk et}. \\ \end{array}
 $$
 
 Real exchange rate changes affect the current account because they reflect changes in the prices of domestic goods and services relative to foreign goods and services. Disposable income affects the current account through its effect on total spending by domestic consumers. To understand how these real exchange rate and disposable income effects work, it is helpful to look separately at the demand for a country's exports,  $EX$ , and the demand for imports by the country's residents,  $IM$ . As we saw in Chapter 13, the current account is related to exports and imports by the identity
@@ -106,13 +106,13 @@ Table 17-1 summarizes our discussion of how real exchange rate and disposable in
 We now combine the four components of aggregate demand to get an expression for total aggregate demand, denoted  $D$ :
 
 $$
-D = C (Y - T) + I + G + C A \left(E P ^ {*} / P, Y - T\right),
+D = C (Y - T) + I + G + C A \left(E P^{*} / P, Y - T\right),
 $$
 
 where we have written disposable income  $Y^{d}$  as output,  $Y$ , less taxes,  $T$ . This equation shows that aggregate demand for home output can be written as a function of the real exchange rate, disposable income, investment demand, and government spending:
 
 $$
-D = D (E P ^ {*} / P, Y - T, I, G).
+D = D (E P^{*} / P, Y - T, I, G).
 $$
 
 We now want to see how aggregate demand depends on the real exchange rate and domestic GNP given the level of taxes,  $T$ , investment demand,  $I$ , and government purchases,  $G$ .<sup>5</sup>
@@ -142,7 +142,7 @@ Aggregate demand is a function of the real exchange rate  $(EP^{*} / P)$ , dispo
 Having discussed the factors that influence the demand for an open economy's output, we now study how output is determined in the short run. We show that the output market is in equilibrium when real domestic output,  $Y$ , equals the aggregate demand for domestic output:
 
 $$
-Y = D \left(E P ^ {*} / P, Y - T, I, G\right). \tag {17-1}
+Y = D \left(E P^{*} / P, Y - T, I, G\right). \tag {17-1}
 $$
 
 The equality of aggregate supply and demand therefore determines the short-run equilibrium output level.<sup>6</sup>
@@ -237,13 +237,13 @@ In Chapter 14, we studied the interest parity condition, which states that the f
 For a given expected future exchange rate,  $E^{e}$ , the interest parity condition describing foreign exchange market equilibrium is the analog of equation (14-2),
 
 $$
-R = R ^ {*} + (E ^ {e} - E) / E,
+R = R^{*} + (E^{e} - E) / E,
 $$
 
 where  $R$  is the interest rate on domestic currency deposits and  $R^{*}$  is the interest rate on foreign currency deposits. In Chapter 15, we saw that the domestic interest rate satisfying the interest parity condition must also equate the real domestic money supply,  $M^{s} / P$ , to aggregate real money demand [see equation (15-4)]:
 
 $$
-M ^ {s} / P = L (R, Y).
+M^{s} / P = L (R, Y).
 $$
 
 You will recall that aggregate real money demand,  $L(R, Y)$ , rises when the interest rate falls because a fall in  $R$  makes interest-bearing nonmoney assets less attractive to hold. (Conversely, a rise in the interest rate lowers real money demand.) A rise in real output,  $Y$ , increases real money demand by raising the volume of monetary transactions people must carry out (and a fall in real output reduces real money demand by reducing people's transactions needs).
@@ -596,13 +596,13 @@ Seeing signs of economic recovery, the BOJ raised interest rates slightly starti
 The dilemma a central bank faces when the economy is in a liquidity trap slowdown can be seen by considering the interest parity condition when the domestic interest rate  $R = 0$ ,
 
 $$
-R = 0 = R ^ {*} + (E ^ {e} - E) / E.
+R = 0 = R^{*} + (E^{e} - E) / E.
 $$
 
 Assume for the moment that the expected future exchange rate,  $E^{e}$ , is fixed. Suppose the central bank raises the domestic money supply so as to depreciate the currency temporarily (that is, to raise  $E$  today but return the exchange rate to the level  $E^{e}$  later). The interest parity condition shows that  $E$  cannot rise once  $R = 0$  because the interest rate would have to become negative. Instead, despite the increase in the money supply, the exchange rate remains steady at the level
 
 $$
-E = E ^ {e} / (1 - R ^ {*}).
+E = E^{e} / (1 - R^{*}).
 $$
 
 The currency cannot depreciate further.
@@ -742,7 +742,7 @@ We assume in the chapter that private consumption demand is a function of dispos
 The discussion in Chapter 6 assumed that consumers' welfare depends on present consumption demand  $D_P$  and future consumption demand  $D_F$ . If present income is  $Q_P$  and future income is  $Q_F$ , consumers can use borrowing or saving to allocate their consumption over time in any way consistent with the intertemporal budget constraint
 
 $$
-D _ {P} + D _ {F} / (1 + r) = Q _ {P} + Q _ {F} / (1 + r),
+D_{P} + D_{F} / (1 + r) = Q_{P} + Q_{F} / (1 + r),
 $$
 
 where  $r$  is the real rate of interest.
@@ -772,7 +772,7 @@ The chapter assumed a real depreciation of a country's currency improves its cur
 To start, write the current account, measured in domestic output units, as the difference between exports and imports of goods and services similarly measured:
 
 $$
-C A (E P ^ {*} / P, Y ^ {d}) = E X (E P ^ {*} / P) - I M (E P ^ {*} / P, Y ^ {d}).
+C A (E P^{*} / P, Y^{d}) = E X (E P^{*} / P) - I M (E P^{*} / P, Y^{d}).
 $$
 
 Here, export demand is written as a function of  $EP^{*} / P$  alone because foreign income is being held constant.
@@ -780,7 +780,7 @@ Here, export demand is written as a function of  $EP^{*} / P$  alone because for
 Let  $q$  denote the real exchange rate  $EP^{*} / P$ , and let  $EX^{*}$  denote domestic imports measured in terms of foreign, rather than domestic, output. The notation  $EX^{*}$  is used because domestic imports from abroad, measured in foreign output, equal the volume of foreign exports to the home country. If we identify  $q$  with the price of foreign products in terms of domestic products, then  $IM$  and  $EX^{*}$  are related by
 
 $$
-I M = q \times E X ^ {*},
+I M = q \times E X^{*},
 $$
 
 that is, imports measured in domestic output = (domestic output units/foreign output unit) × (imports measured in foreign output units).<sup>21</sup>
@@ -788,13 +788,13 @@ that is, imports measured in domestic output = (domestic output units/foreign ou
 We can therefore express the current account as
 
 $$
-C A (q, Y ^ {d}) = E X (q) - q \times E X ^ {*} (q, Y ^ {d}).
+C A (q, Y^{d}) = E X (q) - q \times E X^{*} (q, Y^{d}).
 $$
 
 Now let  $EX_{q}$  stand for the effect of a rise in  $q$  (a real depreciation) on export demand, and let  $EX_{q}^{*}$  stand for the effect of a rise in  $q$  on import volume. Thus,
 
 $$
-E X _ {q} = \Delta E X / \Delta q, E X _ {q} ^ {*} = \Delta E X ^ {*} / \Delta q.
+E X_{q} = \Delta E X / \Delta q, E X_{q}^{*} = \Delta E X^{*} / \Delta q.
 $$
 
 As we saw in the chapter,  $EX_{q}$  is positive (a real depreciation makes home products relatively cheaper and stimulates exports) while  $EX_{q}^{*}$  is negative (a relative cheapening of home products reduces domestic import demand). Using these definitions, we can now ask how a rise in  $q$  affects the current account, all else equal.
@@ -802,13 +802,13 @@ As we saw in the chapter,  $EX_{q}$  is positive (a real depreciation makes home
 If superscript 1 indicates the initial value of a variable while superscript 2 indicates its value after  $q$  has changed by  $\Delta q = q^2 - q^1$ , then the change in the current account caused by a real exchange rate change  $\Delta q$  is
 
 $$
-\begin{array}{l} \Delta C A = C A ^ {2} - C A ^ {1} = \left(E X ^ {2} - q ^ {2} \times E X ^ {* 2}\right) - \left(E X ^ {1} - q ^ {1} \times E X ^ {* 1}\right) \\ = \Delta \mathrm {E X} - \left(q ^ {2} \times \Delta \mathrm {E X} ^ {*}\right) - \left(\Delta q \times \mathrm {E X} ^ {* 1}\right). \\ \end{array}
+\begin{array}{l} \Delta C A = C A^{2} - C A^{1} = \left(E X^{2} - q^{2} \times E X^{* 2}\right) - \left(E X^{1} - q^{1} \times E X^{* 1}\right) \\ = \Delta \mathrm{EX} - \left(q^{2} \times \Delta \mathrm{EX}^{*}\right) - \left(\Delta q \times \mathrm{EX}^{* 1}\right). \\ \end{array}
 $$
 
 Dividing through by  $\Delta q$  gives the current account's response to a change in  $q$ ,
 
 $$
-\Delta C A / \Delta q = E X _ {q} - \left(q ^ {2} \times E X _ {q} ^ {*}\right) - E X ^ {* 1}.
+\Delta C A / \Delta q = E X_{q} - \left(q^{2} \times E X_{q}^{*}\right) - E X^{* 1}.
 $$
 
 This equation summarizes the two current account effects of a real depreciation discussed in the text, the volume effect and the value effect. The terms involving  $EX_{q}$  and  $EX_{q}^{*}$  represent the volume effect, the effect of the change in  $q$  on the number of output units exported and imported. These terms are always positive because  $EX_{q} > 0$  and  $EX_{q}^{*} < 0$ . The last term in the previous expression,  $EX^{*1}$ , represents the value effect, and it is preceded by a minus sign. This last term tells us that a rise in  $q$  worsens the current account to the extent that it raises the domestic output value of the initial volume of imports.
@@ -816,25 +816,25 @@ This equation summarizes the two current account effects of a real depreciation 
 We are interested in knowing when the right-hand side of the preceding equation is positive, so that a real depreciation causes the current account balance to increase. To answer this question, we first define the elasticity of export demand with respect to  $q$ ,
 
 $$
-\eta = (q ^ {1} / E X ^ {1}) E X _ {q},
+\eta = (q^{1} / E X^{1}) E X_{q},
 $$
 
 and the elasticity of import demand with respect to  $q$ ,
 
 $$
-\eta^ {*} = - \left(q ^ {1} / E X ^ {* 1}\right) E X _ {q} ^ {*}.
+\eta^{*} = - \left(q^{1} / E X^{* 1}\right) E X_{q}^{*}.
 $$
 
 (The definition of  $\eta^*$  involves a minus sign because  $EX_q^* < 0$ , and we are defining trade elasticities as positive numbers.) Returning to our equation for  $\Delta CA / \Delta q$ , we multiply its right-hand side by  $(q^1 / EX^1)$  to express it in terms of trade elasticities. Then, if the current account is initially zero (that is,  $EX^1 = q^1 \times EX^{*1}$ ), this last step shows that  $\Delta CA / \Delta q$  is positive when
 
 $$
-\eta + (q ^ {2} / q ^ {1}) \eta^ {*} - 1 > 0.
+\eta + (q^{2} / q^{1}) \eta^{*} - 1 > 0.
 $$
 
 If the change in  $q$  is assumed to be small, so that  $q^2 \approx q^1$ , the condition for an increase in  $q$  to improve the current account is
 
 $$
-\eta + \eta^ {*} > 1.
+\eta + \eta^{*} > 1.
 $$
 
 This is the Marshall-Lerner condition, which states that if the current account is initially zero, a real currency depreciation causes a current account surplus if the sum of the relative price elasticities of export and import demand exceeds 1. (If the current account is not zero initially, the condition becomes more complex.) In applying the Marshall-Lerner condition, remember that its derivation assumes that disposable income is held constant when  $q$  changes.
@@ -860,7 +860,7 @@ The IS-LM model assumes that investment, and some forms of consumer purchases (s
 In the IS-LM model, aggregate demand is therefore written as a function of the real exchange rate, disposable income, and the real interest rate,
 
 $$
-\begin{array}{l} D (E P ^ {*} / P, Y - T, R - \pi^ {e}) = C (Y - T, R - \pi^ {e}) + I (R - \pi^ {e}) \\ + G + C A \left(E P ^ {*} / P, Y - T, R - \pi^ {e}\right), \\ \end{array}
+\begin{array}{l} D (E P^{*} / P, Y - T, R - \pi^{e}) = C (Y - T, R - \pi^{e}) + I (R - \pi^{e}) \\ + G + C A \left(E P^{*} / P, Y - T, R - \pi^{e}\right), \\ \end{array}
 $$
 
 where  $\pi^e$  is the expected inflation rate and  $R - \pi^e$  therefore is the expected real interest rate. The model assumes that  $\mathrm{P} P^*$ ,  $G, T, R^*$ , and  $E^e$  are all given. (To simplify the notation, we've left  $G$  out of the aggregate demand function D.)
@@ -868,7 +868,7 @@ where  $\pi^e$  is the expected inflation rate and  $R - \pi^e$  therefore is th
 To find the  $IS$  curve of  $R$  and  $Y$  combinations such that aggregate demand equals output,
 
 $$
-Y = D \left(E P ^ {*} / P, Y - T, R - \pi^ {e}\right),
+Y = D \left(E P^{*} / P, Y - T, R - \pi^{e}\right),
 $$
 
 we must first write this output market equilibrium condition so that it does not depend on  $E$ .
@@ -876,25 +876,25 @@ we must first write this output market equilibrium condition so that it does not
 We solve for  $E$  using the interest parity condition,  $R = R^{*} + (E^{e} - E) / E$ . If we solve this equation for  $E$ , the result is
 
 $$
-E = E ^ {e} / (1 + R - R ^ {*}).
+E = E^{e} / (1 + R - R^{*}).
 $$
 
 Substitution of this expression into the aggregate demand function shows that we can express the condition for output market equilibrium as
 
 $$
-Y = D \left[ E ^ {e} P ^ {*} / P \left(1 + R - R ^ {*}\right), Y - T, R - \pi^ {e} \right].
+Y = D \left[ E^{e} P^{*} / P \left(1 + R - R^{*}\right), Y - T, R - \pi^{e} \right].
 $$
 
 To get a complete picture of how output changes affect goods market equilibrium, we must remember that the inflation rate in the economy depends positively on the gap between actual output, Y, and "full-employment" output,  $Y^{f}$ . We therefore write  $\pi^e$  as an increasing function of that gap:
 
 $$
-\pi^ {e} = \pi^ {e} (Y - Y ^ {f}).
+\pi^{e} = \pi^{e} (Y - Y^{f}).
 $$
 
 Under this assumption on expectations, the goods market is in equilibrium when
 
 $$
-Y = D \left[ E ^ {e} P ^ {*} / P \left(1 + R - R ^ {*}\right), Y - T, R - \pi^ {e} \left(Y - Y ^ {f}\right) \right].
+Y = D \left[ E^{e} P^{*} / P \left(1 + R - R^{*}\right), Y - T, R - \pi^{e} \left(Y - Y^{f}\right) \right].
 $$
 
 This condition shows that a fall in the nominal interest rate  $R$  raises aggregate demand through two channels: (1) Given the expected future exchange rate, a fall in  $R$  causes a domestic currency depreciation that improves the current account. (2) Given expected inflation, a fall in  $R$  directly encourages consumption and investment spending that falls only partly on imports. Only the second of these channels—the effect of the interest rate on spending—would be present in a closed-economy IS-LM model.

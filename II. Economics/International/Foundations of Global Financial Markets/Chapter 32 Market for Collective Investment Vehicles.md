@@ -133,13 +133,13 @@ Open-end funds, commonly referred to simply as mutual funds, are portfolios of s
 Additionally, the value or price of each share of the portfolio, called the net asset value (NAV), equals the market value of the portfolio minus the liabilities of the mutual fund divided by the number of shares owned by the fund's investors:
 
 $$
-\mathrm {N A V} = \frac {\text {M a r k e t v a l u e o f p o r t f o l i o - L i a b i l i t i e s}}{\text {N u m b e r o f s h a r e s o u t s t a n d i n g}}.
+\mathrm{NA V} = \frac{\text{Ma rk et va lu eo fp or tf ol io -L ia bi li ti es}}{\text{Nu mb er of sh ar es ou ts ta nd in g}}.
 $$
 
 For example, suppose that a mutual fund with 10 million shares outstanding has a portfolio with a market value of \$215 million and liabilities of \$15 million. The NAV is
 
 $$
-\mathrm {N A V} = \frac {\mathbb {S} 2 1 5 , 0 0 0 , 0 0 0 - \mathbb {S} 1 5 , 0 0 0 , 0 0 0}{1 0 , 0 0 0 , 0 0 0} = \mathbb {S} 2 0. 0 0.
+\mathrm{NA V} = \frac{\mathbb {S} 2 1 5 , 0 0 0 , 0 0 0 - \mathbb {S} 1 5 , 0 0 0 , 0 0 0}{1 0 , 0 0 0 , 0 0 0} = \mathbb {S} 2 0. 0 0.
 $$
 
 The mutual fund's NAV or price of the fund is determined only once each day, at the close of the day. For example, the NAV for a stock mutual fund is determined from the closing stock prices for the day. Finally, all new investments into the mutual fund or withdrawals from the fund during the day are priced at the closing NAV (investments made after the end of the day or on a nonbusiness day are priced at the next day's closing NAV).

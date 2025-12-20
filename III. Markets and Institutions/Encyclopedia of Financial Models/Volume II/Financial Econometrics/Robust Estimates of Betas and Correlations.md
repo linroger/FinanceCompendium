@@ -21,7 +21,7 @@ This pictorial representation has become so firmly embedded in our consciousness
 We start our exploration of OLS with Figure 2, which plots the same set of points as Figure 1, but now, instead of drawing a single line of best fit through the entire data set, we choose two specific points,  $(x_{i},y_{i})$  and  $(x_{j},y_{j})$ , draw the unique straight line joining them and project it back till it intersects the Y axis. This line has slope  $\beta_{ij}$  and intercept  $\alpha_{ij}$ , where  $\beta_{ij}$  and  $\alpha_{ij}$  are given by:
 
 $$
-\beta_ {i j} = \frac {y _ {i} - y _ {j}}{x _ {i} - x _ {j}}, \tag {1}
+\beta_{i j} = \frac{y_{i} - y_{j}}{x_{i} - x_{j}}, \tag {1}
 $$ and
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/68991a278e4001bddeaba98fd17945d4951f152aec33a8c8abf788bbbfccbae0.jpg)
@@ -29,18 +29,18 @@ Figure 2 Ordinary Least Squares—Alternative Depiction
 
 
 $$
-\alpha_ {i j} = \frac {x _ {i} \times y _ {j} - x _ {j} \times y _ {i}}{x _ {i} - x _ {j}} \tag {2}
+\alpha_{i j} = \frac{x_{i} \times y_{j} - x_{j} \times y_{i}}{x_{i} - x_{j}} \tag {2}
 $$
 
 On comparing Figures 1 and 2, it is clear that  $\beta_{OLS}$  must necessarily lie between  $\min_{i,j} \beta_{ij}$  and  $\max_{i,j} \beta_{ij}$ , both endpoints inclusive, and that  $\alpha_{OLS}$  must likewise lie between  $\min_{i,j} \alpha_{ij}$  and  $\max_{i,j} \alpha_{ij}$ . The OLS slope and intercept can therefore be written as weighted averages of all  $\binom{N}{2} = \frac{N(N-1)}{2}$  pairwise slopes and intercepts for some nonnegative sets of weights, that is,
 
 $$
-\beta_ {O L S} = \sum_ {i} \sum_ {j} w _ {i j} \beta_ {i j}, \quad \sum_ {i} \sum_ {j} w _ {i j} = 1, \quad w _ {i j} \geq 0 \tag {3}
+\beta_{O L S} = \sum_{i} \sum_{j} w_{i j} \beta_{i j}, \quad \sum_{i} \sum_{j} w_{i j} = 1, \quad w_{i j} \geq 0 \tag {3}
 $$ and
 
 
 $$
-\alpha_ {O L S} = \sum_ {i} \sum_ {j} v _ {i j} \alpha_ {i j}, \quad \sum_ {i} \sum_ {j} v _ {i j} = 1, v _ {i j} \geq 0 \tag {4}
+\alpha_{O L S} = \sum_{i} \sum_{j} v_{i j} \alpha_{i j}, \quad \sum_{i} \sum_{j} v_{i j} = 1, v_{i j} \geq 0 \tag {4}
 $$
 
 In any particular situation, these weights are not unique, as equations (3) and (4) are enormously overdetermined, and we therefore seek a set of strictly positive weights that simultaneously solves both equations for an arbitrary collection of points. Such a set of weights can be identified using some clever guesswork motivated by the following observation: If  $(x_{i},y_{i})$  and  $(x_{j},y_{j})$  are close together, then any error in either ordinate will induce significant errors in  $\beta_{ij}$  and  $\alpha_{ij}$ . Pairs of points that are far apart are much less susceptible to this problem. We ought, therefore, to overweight slopes and intercepts derived from pairs of points that are far apart relative to those that are derived from pairs of points that are close together.
@@ -48,18 +48,18 @@ In any particular situation, these weights are not unique, as equations (3) and 
 Next, as all the error is concentrated in the abscissae, and as the ordinates are known with certainty, the weights must be a function only of  $(x_{i} - x_{j})$  —they cannot depend on  $(y_{i} - y_{j})$ . Finally, the function must be even, because some weights would be negative if it were odd. Some tedious and not particularly enlightening alge bra shows our intuition to be correct, that is,
 
 
-$$ w _ {i j} = v _ {i j} = \frac {\left(x _ {i} - x _ {j}\right) ^ {2}}{\sum_ {k} \sum_ {l} \left(x _ {k} - x _ {l}\right) ^ {2}} \tag {5}
+$$ w_{i j} = v_{i j} = \frac{\left(x_{i} - x_{j}\right)^{2}}{\sum_{k} \sum_{l} \left(x_{k} - x_{l}\right)^{2}} \tag {5}
 $$
 
 It follows that
 
 $$
-\beta_ {O L S} = \frac {\sum_ {i} \sum_ {j} \beta_ {i j} \left(x _ {i} - x _ {j}\right) ^ {2}}{\sum_ {k} \sum_ {l} \left(x _ {k} - x _ {l}\right) ^ {2}} \tag {6}
+\beta_{O L S} = \frac{\sum_{i} \sum_{j} \beta_{i j} \left(x_{i} - x_{j}\right)^{2}}{\sum_{k} \sum_{l} \left(x_{k} - x_{l}\right)^{2}} \tag {6}
 $$ and
 
 
 $$
-\alpha_ {O L S} = \frac {\sum_ {i} \sum_ {j} \alpha_ {i j} \left(x _ {i} - x _ {j}\right) ^ {2}}{\sum_ {k} \sum_ {l} \left(x _ {k} - x _ {l}\right) ^ {2}} \tag {7}
+\alpha_{O L S} = \frac{\sum_{i} \sum_{j} \alpha_{i j} \left(x_{i} - x_{j}\right)^{2}}{\sum_{k} \sum_{l} \left(x_{k} - x_{l}\right)^{2}} \tag {7}
 $$
 
 Equations (6) and (7) yield OLS' first little secret—the line of best fit is just an appropriately weighted average of all possible lines that could be drawn using this data set! While this argument does not readily extend to the multivariate case, it does give us a fresh perspective on OLS, which now stands exposed as a clever and computationally efficient weighting scheme over the set of unique straight lines drawn through all possible pairs of points. A proof of this result, which is usually credited to Sen (1968), can be found in Heitman and Ord (1985).
@@ -67,7 +67,7 @@ Equations (6) and (7) yield OLS' first little secret—the line of best fit is j
 Its second little secret lies in its focus on squared errors. Why should it be the second, and not the fourth or the sixty-fourth power of the error that is minimized? To answer this question, recall the way in which the OLS slope and intercept are defined:
 
 $$
-\begin{array}{l} \alpha_ {O L S}, \beta_ {O L S} = \arg \min _ {i} e r r o r _ {i} ^ {2} \\ = \arg \min  \sum_ {i} \left(y _ {i} - \alpha_ {O L S} - \beta_ {O L S} \times x _ {i}\right) ^ {2} \tag {8} \\ \end{array}
+\begin{array}{l} \alpha_{O L S}, \beta_{O L S} = \arg \min_{i} e r r o r_{i}^{2} \\ = \arg \min  \sum_{i} \left(y_{i} - \alpha_{O L S} - \beta_{O L S} \times x_{i}\right)^{2} \tag {8} \\ \end{array}
 $$
 
 Solving this minimization problem requires us to compute the partial derivatives of the sum of squared errors with respect to  $\alpha_{OLS}$  and  $\beta_{OLS}$ , and to equate the resulting expressions to 0. This results in a set of linear equations that can be solved in closed form (the solution was known to both Gauss and Lagrange). If, however, the error is raised to a power other than two, we would have to solve a set of nonlinear equations, which do not, in general, admit a closed form solution—they must be solved numerically on a computer, a tool that neither Gauss nor Lagrange had access to. That said, raising the error to any even power (or even making it the argument of any even function) and then performing the indicated minimization numerically will result in a line that is optimal under that measure, though its slope and intercept will not, in general, equal the OLS slope and intercept.
@@ -85,12 +85,12 @@ Theil (1950) and Sen (1968) propose a novel solution to this problem—they prop
 Formally, the Theil-Sen estimates of slope and intercept are given by:
 
 $$
-\beta_ {T S} = \operatorname {m e d i a n} _ {i, j} \left\{\beta_ {i j} \right\} \tag {9}
+\beta_{T S} = \operatorname{me di an}_{i, j} \left\{\beta_{i j} \right\} \tag {9}
 $$ and
 
 
 $$
-\alpha_ {T S} = \underset {i, j} {\text {m e d i a n}} \left\{y _ {i} - \beta_ {T S} \times x _ {i} \right\} \tag {10}
+\alpha_{T S} = \underset {i, j} {\text{me di an}} \left\{y_{i} - \beta_{T S} \times x_{i} \right\} \tag {10}
 $$
 
 This regression has been widely studied. Peng, Wang, and Wang (2008), for example, show that it is strongly consistent and supereficient, and derive its asymptotic distribution. Interestingly, the median has long been used as a robust estimator of the mean for symmetric distributions, but this appears to be the first known application of the median to the estimation of regression coefficients.
@@ -132,7 +132,7 @@ The beta of an asset  $Y$  with respect to the market portfolio  $X$  plays a ce
 1965; and Mossin, 1966), and is defined to be
 
 $$
-\beta_ {Y \mid X} = \frac {\operatorname {C o v} (X , Y)}{\sigma_ {X} ^ {2}} \tag {11}
+\beta_{Y \mid X} = \frac{\operatorname{Co v} (X , Y)}{\sigma_{X}^{2}} \tag {11}
 $$
 
 This quantity is, of course, just the slope coefficient in a univariate regression, and is precisely what OLS estimates. The application of the Theil-Sen regression algorithm to the estimation of beta is obvious—the Theil-Sen estimate of slope ought to provide us a more robust estimate of the historical of a security than the corresponding OLS estimate.
@@ -152,7 +152,7 @@ The Theil-Sen estimate of beta can be further adjusted for the effects of nonsyn
 The Dimson correction sums contemporaneous and lagged betas for the asset to create an overall beta that accounts for the fact that an asset may have both a contemporaneous and a lagged response to market shocks, that is,
 
 $$
-\beta_ {Y | X} ^ {\text {D i m s o n}} = \sum_ {i = 0} ^ {k} \beta_ {Y _ {t} | X _ {t - i}} \tag {12}
+\beta_{Y | X}^{\text{Di ms on}} = \sum_{i = 0}^{k} \beta_{Y_{t} | X_{t - i}} \tag {12}
 $$
 
 When using daily data,  $k$  is commonly set to 4 (i.e., one week's data), and when using monthly data, it is most commonly set to 1, so as not to pick up spurious responses from shocks in the distant past.
@@ -161,11 +161,11 @@ Vasicek's (1973) correction is a Bayesian correction, which allows the user to r
 
 
 $$
-\beta_ {Y \mid X} ^ {\text {V a s i c e k}} = w _ {Y} \times \beta_ {Y \mid X} + (1 - w _ {Y}) \times \beta_ {\text {a v e r a g e}} \tag {13}
+\beta_{Y \mid X}^{\text{Va si ce k}} = w_{Y} \times \beta_{Y \mid X} + (1 - w_{Y}) \times \beta_{\text{av er ag e}} \tag {13}
 $$ where
 
 
-$$ w _ {Y} = \frac {\sigma_ {\text {C r o s s - S e c t i o n a l}} ^ {2}}{\sigma_ {\beta (Y \mid X)} ^ {2} + \sigma_ {\text {C r o s s - S e c t i o n a l}} ^ {2}} \tag {14}
+$$ w_{Y} = \frac{\sigma_{\text{Cr os s -S ec ti on al}}^{2}}{\sigma_{\beta (Y \mid X)}^{2} + \sigma_{\text{Cr os s -S ec ti on al}}^{2}} \tag {14}
 $$
 
 $\sigma_{\beta (Y|X)}^2$  is the variance of  $\beta_{Y|X}$ , and  $\sigma_{\text{Cross-Sectional}}^2$  is the cross-sectional variance of the betas of the entire universe of securities under consideration at this point in time. A particularly simple and reasonably effective implementation of this method sets  $w_{Y} = 0.5$  for all assets and at all points in time. Both techniques see use in the enhanced estimation of beta across a wide range of asset classes in Frazzini and Pedersen (2010).
@@ -175,12 +175,12 @@ $\sigma_{\beta (Y|X)}^2$  is the variance of  $\beta_{Y|X}$ , and  $\sigma_{\tex
 To derive a robust estimate of the correlation coefficient, we rewrite and re-interpret the expression for the correlation coefficient in a novel way, and then show how it can be estimated using two Theil-Sen regressions. Recall the definition of the correlation between two random variables  $X$  and  $Y$ :
 
 $$
-\rho_ {X, Y} = \frac {\operatorname {C o v} (X , Y)}{\sigma_ {X} \times \sigma_ {Y}} \tag {15}
+\rho_{X, Y} = \frac{\operatorname{Co v} (X , Y)}{\sigma_{X} \times \sigma_{Y}} \tag {15}
 $$ where  $\text{Cov}(X, Y)$  is the covariance between  $X$  and  $Y$ , and  $\sigma_X$  and  $\sigma_Y$  are the standard deviations of  $X$  and  $Y$ , respectively. This expression can be rewritten as
 
 
 $$
-\begin{array}{l} \rho_ {X, Y} = \sqrt {\frac {C o v (X , Y) ^ {2}}{\sigma_ {X} ^ {2} \times \sigma_ {Y} ^ {2}}} \\ = \sqrt {\frac {\operatorname {C o v} (X , Y)}{\sigma_ {X} ^ {2}} \times \frac {\operatorname {C o v} (X , Y)}{\sigma_ {Y} ^ {2}}} \tag {16} \\ = \sqrt {\beta_ {Y | X} \times \beta_ {X | Y}} \\ \end{array}
+\begin{array}{l} \rho_{X, Y} = \sqrt{\frac{C o v (X , Y)^{2}}{\sigma_{X}^{2} \times \sigma_{Y}^{2}}} \\ = \sqrt{\frac{\operatorname{Co v} (X , Y)}{\sigma_{X}^{2}} \times \frac{\operatorname{Co v} (X , Y)}{\sigma_{Y}^{2}}} \tag {16} \\ = \sqrt{\beta_{Y | X} \times \beta_{X | Y}} \\ \end{array}
 $$
 
 Table 3 Distribution of Theil-Sen Estimates of Correlation vs. Standard Maximum Likelihood Estimate: Normally Distributed Random Variables
@@ -194,7 +194,7 @@ But when we don't know which way the causation flows, or even if the relationshi
 The application of the Theil-Sen regression to the robust estimation of correlation is now obvious. Given two random vectors,  $X$  and  $Y$ , first regress  $X$  on  $Y$ , and then regress  $Y$  on  $X$ , using the Theil-Sen regression both times. The geometric mean of the two slopes is a robust estimate of the correlation coefficient, that is,
 
 $$
-\rho_ {X, Y} ^ {\text {R o b u s t}} = \sqrt {\beta_ {Y | X} ^ {\text {T h e i l - S e n}} \times \beta_ {X | Y} ^ {\text {T h e i l - S e n}}} \tag {17}
+\rho_{X, Y}^{\text{Ro bu st}} = \sqrt{\beta_{Y | X}^{\text{Th ei l -S en}} \times \beta_{X | Y}^{\text{Th ei l -S en}}} \tag {17}
 $$
 
 When the random vectors are drawn from a normal distribution and are not corrupted by noise, we expect that this approach will work just as well as the standard maximum likelihood estimator. In the presence of outliers, or if distribution of  $X$  and  $Y$  is highly skewed, it ought to do much better. And so it is, as the data in Tables 3 and 4 demonstrate.
@@ -220,7 +220,7 @@ Lindskog (2000), Rousseeuw and Molenberghs (1993), and Higham (2002) describe a 
 We first define two operators,  $P_{S}(A)$  and  $P_{U}(A)$  that can be applied to any symmetric matrix  $A$ . As  $A$  is symmetric, it admits a spectral decomposition  $A = QDQ^{T}$ , where  $Q$  is orthogonal, and  $D = \text{diag}(\lambda_i)$  is a square matrix whose diagonal elements are the eigenvalues of  $A$ , and whose off-diagonal elements are 0.  $P_{S}(A)$  and  $P_{U}(A)$  are defined via
 
 $$
-\begin{array}{l} P _ {S} (A) = Q D ^ {*} Q ^ {T}, D _ {i j} ^ {*} = \max  \left(D _ {i j}, 0\right), \text {a n d} \\ P _ {U} (A) = \operatorname {S e t} D _ {i i} = 1, \text {i . e . r e p l a c e a l l d i a g o n a l} \end{array} \tag {19}
+\begin{array}{l} P_{S} (A) = Q D^{*} Q^{T}, D_{i j}^{*} = \max  \left(D_{i j}, 0\right), \text{an d} \\ P_{U} (A) = \operatorname{Se t} D_{i i} = 1, \text{i .e .r ep la ce al ld ia go na l} \end{array} \tag {19}
 $$ elements of D by 1. (20)
 
 
@@ -244,12 +244,12 @@ d.  $\Delta S_{k} = X_{k} - R_{k}$ e.  $Y_{k} = P_{U}(X_{k})$
 It is but a short step from estimating a robust nonnegative definite correlation matrix to estimating a similarly robust nonnegative definite covariance matrix. Given robust estimates of the volatility of each security, say  $\sigma_{i}^{Robust}$ , we can form a matrix whose diagonal elements are the robust volatilities of the assets, and whose off-diagonal elements are all 0, that is,
 
 $$
-\Sigma = \left[ \begin{array}{c c c c} \sigma_ {1} ^ {\text {R o b u s t}} & 0 & . & 0 \\ 0 & . & . & . \\ . & . & . & 0 \\ 0. & . & 0 & \sigma_ {N} ^ {\text {R o b u s t}} \end{array} \right] \tag {21}
+\Sigma = \left[ \begin{array}{c c c c} \sigma_{1}^{\text{Ro bu st}} & 0 & . & 0 \\ 0 & . & . & . \\ . & . & . & 0 \\ 0. & . & 0 & \sigma_{N}^{\text{Ro bu st}} \end{array} \right] \tag {21}
 $$ and we can then define a robust nonnegative definite covariance matrix  $\hat{C}$  via:
 
 
 $$
-\hat {C} = \Sigma \rho^ {*} \Sigma \tag {22}
+\hat {C} = \Sigma \rho^{*} \Sigma \tag {22}
 $$
 
 If the correlation matrix is nonnegative definite, the covariance matrix described in equation (22) is nonnegative definite as well. Rousseeuw and Croux (1993) describe a number of robust estimators of volatility, their preferred one being  $Q_{N}(X)$ , which is defined to be 2.222 times the 25th percentile of the set of distances  $\left\{\left|x_{i} - x_{j}\right|, i < j\right\}$ . They explore the properties of this estimator, which is similar in spirit to the Hodges-Lehmann (1963) estimate of the mean, show that its efficiency for the normal distribution is high (82\%), and that it is robust to errors of arbitrary size in approximately half the points.

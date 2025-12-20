@@ -15,7 +15,7 @@ Since the early 1980s there has been a marked change in the pattern of wage paym
 First, we could estimate a GDP or cost function for the U.S. economy, or for specific industries, and compute the Stolper-Samuelson effect of a change in traded goods prices. We will discuss this approach at several points throughout the chapter. Second, we could proceed as in the Heckscher-Ohlin-Vanek (HOV) model and compute the change in the factor content of trade and associated changes in factor prices. Theoretically, this second approach is justified by Deardorff and Staiger (1988), who show that:
 
 $$
-\left(\mathrm {w} ^ {2} - \mathrm {w} ^ {1}\right) \left(\mathrm {F} ^ {2} - \mathrm {F} ^ {1}\right) \geq 0, \tag {4.1}
+\left(\mathrm{w}^{2} - \mathrm{w}^{1}\right) \left(\mathrm{F}^{2} - \mathrm{F}^{1}\right) \geq 0, \tag {4.1}
 $$
 
 where  $\mathbf{w}^{\mathrm{i}}$  are equilibrium wages in a country in two equilibria  $\mathrm{i} = 1,2$ , and  $\mathbf{F}^{\mathrm{i}}$  is the factor-content of exports for that country. Equation (4.1) is interpreted as saying that a higher content of imports for some factor  $\mathrm{k}$ ,  $\mathrm{F}_{\mathrm{k}}^{2} < \mathrm{F}_{\mathrm{k}}^{1} < 0$  so  $(\mathrm{F}_{\mathrm{k}}^{2} - \mathrm{F}_{\mathrm{k}}^{1}) < 0$ , will tend to be associated with a falling wage for that factor,  $(\mathrm{w}_{\mathrm{k}}^{2} - \mathrm{w}_{\mathrm{k}}^{1}) < 0$ . The same would be true for the direct import of a factor, as with immigration. Among the most careful assessment of these effects for the United States,
@@ -104,7 +104,7 @@ Mexico, where assembly of the inputs and other production activities take place 
 We will suppose that the two inputs  $y_{i}$ ,  $i = 1,2$ , are each produced using unskilled labor  $(L_{i})$ , skilled labor  $(H_{i})$ , and capital  $(K_{i})$ , with concave and linearly homogeneous production functions,
 
 $$
-\mathrm {y} _ {\mathrm {i}} = \mathrm {f} _ {\mathrm {i}} \left(\mathrm {L} _ {\mathrm {i}}, \mathrm {H} _ {\mathrm {i}}, \mathrm {K} _ {\mathrm {i}}\right), \quad \mathrm {i} = 1, 2. \tag {4.2}
+\mathrm{y}_{\mathrm{i}} = \mathrm{f}_{\mathrm{i}} \left(\mathrm{L}_{\mathrm{i}}, \mathrm{H}_{\mathrm{i}}, \mathrm{K}_{\mathrm{i}}\right), \quad \mathrm{i} = 1, 2. \tag {4.2}
 $$
 
 For example, the unskilled-labor intensive input  $y_{1}$  might represent the activities done within a factory, while the skilled-labor intensive input  $y_{2}$  might represent the research and development activities within the industry, as well as marketing and after-sales service. These are both needed to produce the final manufacturing product. But some of the activities done within the factory can instead be outsourced, i.e. imported from abroad; and conversely, the services associated with research, development and marketing can be exported to support production activities abroad. We therefore let  $x_{1} < 0$  denote the imports of input 1, and  $x_{2} > 0$  denote the exports of input 2. Also let  $p_{i}$  denote the price of each input,  $i = 1,2$ , and let  $p = (p_{1},p_{2})$  denote the price vector of the traded intermediate inputs.
@@ -112,13 +112,13 @@ For example, the unskilled-labor intensive input  $y_{1}$  might represent the a
 The production of the final good is given by  $y_{n} = f_{n}(y_{1} - x_{1}, y_{2} - x_{2})$ , where this production function "bundles together" the amounts of goods 1 and 2 available, and is also concave and linearly homogeneous. We ignore any additional labor and capital inputs used in this bundling activity, so that the total factor usage in the manufacturing industry is,
 
 $$
-\mathrm {L} _ {1} + \mathrm {L} _ {2} = \mathrm {L} _ {\mathrm {n}}, \quad \mathrm {H} _ {1} + \mathrm {H} _ {2} = \mathrm {H} _ {\mathrm {n}}, \quad \mathrm {K} _ {1} + \mathrm {K} _ {2} = \mathrm {K} _ {\mathrm {n}}. \tag {4.3}
+\mathrm{L}_{1} + \mathrm{L}_{2} = \mathrm{L}_{\mathrm{n}}, \quad \mathrm{H}_{1} + \mathrm{H}_{2} = \mathrm{H}_{\mathrm{n}}, \quad \mathrm{K}_{1} + \mathrm{K}_{2} = \mathrm{K}_{\mathrm{n}}. \tag {4.3}
 $$
 
 We can now solve for the optimal output in the industry, which includes the three activities. With perfect competition, the value of output from the final good, plus net trade, will be maximized subject to the resource constraints:
 
 $$
-\mathrm {G} _ {\mathrm {n}} \left(\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}, \mathrm {p} _ {\mathrm {n}}, \mathrm {p}\right) \equiv \max  _ {\mathrm {x} _ {\mathrm {i}}, \mathrm {L} _ {\mathrm {i}}, \mathrm {H} _ {\mathrm {i}}, \mathrm {K} _ {\mathrm {i}}} \quad \mathrm {p} _ {\mathrm {n}} \mathrm {f} _ {\mathrm {n}} \left(\mathrm {y} _ {1} - \mathrm {x} _ {1}, \mathrm {y} _ {2} - \mathrm {x} _ {2}\right) + \mathrm {p} _ {1} \mathrm {x} _ {1} + \mathrm {p} _ {2} \mathrm {x} _ {2}, \tag {4.4}
+\mathrm{G}_{\mathrm{n}} \left(\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}, \mathrm{p}_{\mathrm{n}}, \mathrm{p}\right) \equiv \max_{\mathrm{x}_{\mathrm{i}}, \mathrm{L}_{\mathrm{i}}, \mathrm{H}_{\mathrm{i}}, \mathrm{K}_{\mathrm{i}}} \quad \mathrm{p}_{\mathrm{n}} \mathrm{f}_{\mathrm{n}} \left(\mathrm{y}_{1} - \mathrm{x}_{1}, \mathrm{y}_{2} - \mathrm{x}_{2}\right) + \mathrm{p}_{1} \mathrm{x}_{1} + \mathrm{p}_{2} \mathrm{x}_{2}, \tag {4.4}
 $$
 
 subject to (4.2), (4.3),
@@ -135,13 +135,13 @@ chapter 1: the special feature of Figure 4.3 is that we now think of these activ
 How will the drop in the relative price of imported inputs affect factor prices? To answer this, we can use the zero-profit conditions for producing inputs 1 and 2, which are,
 
 $$
-p _ {i} = c _ {i} (w, q, r). \tag {4.5}
+p_{i} = c_{i} (w, q, r). \tag {4.5}
 $$
 
 These conditions must hold in order for the locally produced inputs  $y_{i}$ ,  $i = 1,2$ , to be competitive with those available from abroad, at the international prices  $p_{i}$ . Totally differentiating (4.5) and using the Jones' algebra (as in chapter 1), we can express the percentage change in factor prices  $\hat{w}$ ,  $\hat{q}$ , and  $\hat{r}$  as functions of the percentage change in prices  $\hat{p}_{i}$ :
 
 $$
-\hat {\mathrm {p}} _ {\mathrm {i}} = \theta_ {\mathrm {i L}} \hat {\mathrm {w}} + \theta_ {\mathrm {i H}} \hat {\mathrm {q}} + \theta_ {\mathrm {i K}} \hat {\mathrm {r}}, \tag {4.6}
+\hat {\mathrm{p}}_{\mathrm{i}} = \theta_{\mathrm{iL}} \hat {\mathrm{w}} + \theta_{\mathrm{iH}} \hat {\mathrm{q}} + \theta_{\mathrm{iK}} \hat {\mathrm{r}}, \tag {4.6}
 $$
 
 where  $\theta_{ij}$  is the cost-share of factor  $j$  in activity  $i$ , with  $\sum_{j} \theta_{ij} = 1$ .
@@ -151,7 +151,7 @@ Treating the change in the traded price  $\hat{\mathbf{p}}_{\mathrm{i}}$  as exo
 Let us assume that capital has equal cost shares in the two industries, so that  $\theta_{1\mathrm{K}} = \theta_{2\mathrm{K}}$ . Using this, we take the difference between the two equations in (4.6) to obtain,
 
 $$
-\hat {\mathrm {p}} _ {1} - \hat {\mathrm {p}} _ {2} = (\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}}) \hat {\mathrm {w}} + (\theta_ {1 \mathrm {H}} - \theta_ {2 \mathrm {H}}) \hat {\mathrm {q}} = (\theta_ {1 \mathrm {L}} - \theta_ {2 \mathrm {L}}) (\hat {\mathrm {w}} - \hat {\mathrm {q}}), \tag {4.7}
+\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} = (\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) \hat {\mathrm{w}} + (\theta_{1 \mathrm{H}} - \theta_{2 \mathrm{H}}) \hat {\mathrm{q}} = (\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) (\hat {\mathrm{w}} - \hat {\mathrm{q}}), \tag {4.7}
 $$
 
 where the second equality follows since with equal cost shares of capital, the total cost shares of labor are also equal, so that  $(\theta_{1L} + \theta_{1H}) = (\theta_{2L} + \theta_{2H}) \Rightarrow (\theta_{1L} - \theta_{2L}) = -(\theta_{1H} - \theta_{2H})$ . With activity 1 assumed to be unskilled-labor intensive, we have that  $(\theta_{1L} - \theta_{2L}) > 0$ . Thus, (4.7) says that a decrease in the relative price of imported intermediate input,  $\hat{p}_1 - \hat{p}_2 < 0$ , leads to a decrease in the relative wage of unskilled labor,  $(\hat{w} - \hat{q}) = (\hat{p}_1 - \hat{p}_2) / (\theta_{1L} - \theta_{2L}) < 0$ .
@@ -174,12 +174,12 @@ The model we have presented above can be readily extended to incorporate a conti
 
 Rather than listing these activities in their temporal order, we will instead list them in increasing order of skilled/unskilled labor, where for example, the least skill-intensive activity is assembly and the most skill-intensive activity is R&D. Letting  $\mathrm{x(z)}$  denote the quantity produced of each
 
-one of these inputs, we let  $\mathrm{a_H(z)}$  and  $\mathrm{a_L(z)}$  denote the skilled and unskilled labor, respectively, needed to produce one unit of  $\mathrm{x(z)}$ . As stated, we will order the activities  $\mathrm{z}$  so that  $\mathrm{a_H(z) / a_L(z)}$  is non-decreasing in  $\mathrm{z}$ .
+one of these inputs, we let  $\mathrm{a_H(z)}$  and  $\mathrm{a_L(z)}$  denote the skilled and unskilled labor, respectively, needed to produce one unit of  $\mathrm{x(z)}$ . As stated, we will order the activities  $\mathrm{z}$  so that  $\mathrm{a_H(z) /a_L(z)}$  is non-decreasing in  $\mathrm{z}$ .
 
 We will suppose that there are two countries, with the foreign country denoted by an asterisk. The production functions for producing the two inputs are assumed to be the same up to a Hick's-neutral productivity parameter in each country:
 
 $$
-\mathrm {x} (\mathrm {z}) = \mathrm {A} \left[ \min  \left\{\frac {\mathrm {L} (\mathrm {z})}{\mathrm {a} _ {\mathrm {L}} (\mathrm {z})}, \frac {\mathrm {H} (\mathrm {z})}{\mathrm {a} _ {\mathrm {H}} (\mathrm {z})} \right\} \right] ^ {\theta} \mathrm {K} ^ {1 - \theta}, \quad \mathrm {z} \in [ 0, 1 ]. \tag {4.8}
+\mathrm{x} (\mathrm{z}) = \mathrm{A} \left[ \min  \left\{\frac{\mathrm{L} (\mathrm{z})}{\mathrm{a}_{\mathrm{L}} (\mathrm{z})}, \frac{\mathrm{H} (\mathrm{z})}{\mathrm{a}_{\mathrm{H}} (\mathrm{z})} \right\} \right]^{\theta} \mathrm{K}^{1 - \theta}, \quad \mathrm{z} \in [ 0, 1 ]. \tag {4.8}
 $$
 
 Thus, the amount of skilled and unskilled labor  $\mathrm{H(z)}$  and  $\mathrm{L(z)}$  are used in the home country to produce input  $\mathbf{z}$ , using a Leontief technology between these two types of labor, and then a Cobb-Douglas technology between labor overall and capital  $\mathrm{K}$ . The parameter  $\theta$  denotes the share of labor in the costs of producing each input. The foreign production function is the same, except with a different productivity parameter  $\mathrm{A^{*}}$ .
@@ -187,13 +187,13 @@ Thus, the amount of skilled and unskilled labor  $\mathrm{H(z)}$  and  $\mathrm{
 Rather than working with the production functions for the inputs in (4.8), it will be convenient to work with the dual unit-cost function:
 
 $$
-\mathrm {c} (\mathrm {w}, \mathrm {q}, \mathrm {r}, \mathrm {z}) = \mathrm {B} [ \mathrm {w a} _ {\mathrm {L}} (\mathrm {z}) + \mathrm {q a} _ {\mathrm {H}} (\mathrm {z}) ] ^ {\theta} \mathrm {r} _ {\mathrm {i}} ^ {1 - \theta}, \tag {4.9}
+\mathrm{c} (\mathrm{w}, \mathrm{q}, \mathrm{r}, \mathrm{z}) = \mathrm{B} [ \mathrm{wa}_{\mathrm{L}} (\mathrm{z}) + \mathrm{qa}_{\mathrm{H}} (\mathrm{z}) ]^{\theta} \mathrm{r}_{\mathrm{i}}^{1 - \theta}, \tag {4.9}
 $$
 
 where  $c(w, q, r, z)$  denotes the costs of producing one unit of  $x(z)$  in the home country, given the wage of unskilled labor  $w$ , the wage of skilled labor  $q$ , and the rental on capital  $r$ . The inputs can be produced in either country, and are then combined into the production of a final product. The production function for the final good is assumed to be a Cobb-Douglas function over all the inputs:
 
 $$
-\ln \mathrm {Y} = \int_ {0} ^ {1} \alpha (\mathrm {z}) \ln \mathrm {x} (\mathrm {z}) \mathrm {d z}, \quad \text {w i t h} \quad \int_ {0} ^ {1} \alpha (\mathrm {z}) \mathrm {d z} = 1. \tag {4.10}
+\ln \mathrm{Y} = \int_{0}^{1} \alpha (\mathrm{z}) \ln \mathrm{x} (\mathrm{z}) \mathrm{dz}, \quad \text{wi th} \quad \int_{0}^{1} \alpha (\mathrm{z}) \mathrm{dz} = 1. \tag {4.10}
 $$
 
 Notice that in (4.10) we have not included labor as an input, so the final good is assembled "costlessly" from all the individual inputs  $z \in [0,1]$ . This means that we do not need to keep track of which country the assembly takes place, because there is zero value-added (and zero demand for labor) in this activity.
@@ -201,7 +201,7 @@ Notice that in (4.10) we have not included labor as an input, so the final good 
 In general, firms doing the assembly will wish to source the inputs from the minimum cost location. To determine this, we will make the following assumption on factor prices:
 
 $$
-\frac {\mathrm {q}}{\mathrm {w}} <   \frac {\mathrm {q} ^ {*}}{\mathrm {w} ^ {*}}, \quad \text {a n d} \quad \mathrm {r} <   \mathrm {r} ^ {*} \quad . \tag {4.11}
+\frac{\mathrm{q}}{\mathrm{w}} <   \frac{\mathrm{q}^{*}}{\mathrm{w}^{*}}, \quad \text{an d} \quad \mathrm{r} <   \mathrm{r}^{*} \quad . \tag {4.11}
 $$
 
 The first assumption in (4.11) states that the relative wage of skilled labor is lower at home than abroad, which is realistic if the home country is skilled-labor abundant, like the U.S.: despite the increase in the relative wage of skilled labor in the United States during the past two decades, it is still much lower than in Mexico. The second assumption states that the rental on capital is lower at home, so that if capital is able to move, it will want to re-locate abroad. This is also realistic if the home country is capital abundant, and will provide the basis for some comparative statics we shall consider.
@@ -210,12 +210,12 @@ With assumption (4.11), we can graphically illustrate the problem of choosing th
 
 Figure 4.5. Then the question is: how does the locus of unit-costs  $c^*(w^*, q^*, r^*, z)$  abroad, which we denote by  $C^*C^*$  related to that at home?
 
-If the unit-costs of all activities were lower at home, for example, then all inputs would be produced there, and vice-versa if all unit-costs are lower abroad. We are interested in the case where there is some "production sharing" across the countries, so assume that the curves  $\mathrm{C}^*\mathrm{C}^*$  and CC intersect at least once, and denote this input by  $z^{*}$ , with  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{*}) = c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{*})$ . Then consider an activity  $z^{\prime} > z^{*}$  with slightly higher skilled/unskilled labor requirements. Because of our assumptions that  $(\mathrm{q / w}) < (\mathrm{q}^{*} / \mathrm{w}^{*})$ , the higher skilled/unskilled requirements should have a greater impact on foreign costs than on home costs. We therefore expect that  $c(\mathrm{w},\mathrm{r},\mathrm{q},\mathrm{z}^{\prime}) < c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} > z^{*}$ . Similarly, we expect that the converse is also true,  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{\prime}) > c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} < z^{*}$ . Thus, the loci  $\mathrm{C}^*\mathrm{C}^*$  and CC can intersect at most once, as shown in Figure 4.5. $^{11}$  The similarity of this analysis with the model of Dornbusch, Fisher and Samuelson (1980) in the previous chapter will be clear to the reader, where we used nearly the same diagrams.
+If the unit-costs of all activities were lower at home, for example, then all inputs would be produced there, and vice-versa if all unit-costs are lower abroad. We are interested in the case where there is some "production sharing" across the countries, so assume that the curves  $\mathrm{C}^*\mathrm{C}^*$  and CC intersect at least once, and denote this input by  $z^{*}$ , with  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{*}) = c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{*})$ . Then consider an activity  $z^{\prime} > z^{*}$  with slightly higher skilled/unskilled labor requirements. Because of our assumptions that  $(\mathrm{q /w}) < (\mathrm{q}^{*} / \mathrm{w}^{*})$ , the higher skilled/unskilled requirements should have a greater impact on foreign costs than on home costs. We therefore expect that  $c(\mathrm{w},\mathrm{r},\mathrm{q},\mathrm{z}^{\prime}) < c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} > z^{*}$ . Similarly, we expect that the converse is also true,  $c(\mathrm{w},\mathrm{q},\mathrm{r},\mathrm{z}^{\prime}) > c(\mathrm{w}^{*},\mathrm{q}^{*},\mathrm{r}^{*},\mathrm{z}^{\prime})$  for  $z^{\prime} < z^{*}$ . Thus, the loci  $\mathrm{C}^*\mathrm{C}^*$  and CC can intersect at most once, as shown in Figure 4.5. $^{11}$  The similarity of this analysis with the model of Dornbusch, Fisher and Samuelson (1980) in the previous chapter will be clear to the reader, where we used nearly the same diagrams.
 
 Given this unique intersection, we see that foreign unit-costs are less than those at home for all  $z' < z^*$ , so that the foreign country will specialize in the products  $[0, z^*)$ , whereas home unit-costs are less than those abroad for all  $z' > z^*$ , so the home country will specialize in  $(z^*, 1]$ . Using this information, we can then calculate the demand for labor in each country. At home, for example, the relative demand for skilled/unskilled labor is:
 
 $$
-D (z ^ {*}) = \frac {\int_ {z ^ {*}} ^ {1} \frac {\partial c}{\partial q} x (z) d z}{\int_ {z ^ {*}} ^ {1} \frac {\partial c}{\partial w} x (z) d z}. \tag {4.12}
+D (z^{*}) = \frac{\int_{z^{*}}^{1} \frac{\partial c}{\partial q} x (z) d z}{\int_{z^{*}}^{1} \frac{\partial c}{\partial w} x (z) d z}. \tag {4.12}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/b50c4223bd86e6900dc9190ce50f81b064aeaef4476e28bb7def2e7e39382c2a.jpg)
@@ -229,7 +229,7 @@ Because the final good is "costlessly" assembled from the intermediate inputs, w
 The equilibrium conditions for the world economy are that supply equal demand in the market for skilled and unskilled labor in each country, as well as for capital, when each country is producing the range of products for which they have minimum cost. In terms of our diagrams, we will have  $z^*$  determined by Figure 4.5, which is then used to draw the relative demand for labor in each country. Supposing the endowments of labor and capital are fixed, the relative wage is determined by the intersection of supply and demand in Figure 4.6 for each country, which feeds back into the cost loci CC and  $C^*C^*$  in Figure 4.6, to determine  $z^*$ . When all these curves intersect simultaneously, we can do a final calculation to determine the rental on capital in each country. The wage bill at home is  $wL + qH$ . Because wages make up the fraction  $\theta$  of total costs, it follows that GDP in each country is  $(wL + qH)/\theta$ . Multiplying this by (1-θ), the cost share of capital, we therefore obtain:
 
 $$
-\frac {(\mathrm {w L} + \mathrm {q H})}{\theta} (1 - \theta) = \mathrm {r K}. \tag {4.13}
+\frac{(\mathrm{wL} + \mathrm{qH})}{\theta} (1 - \theta) = \mathrm{rK}. \tag {4.13}
 $$
 
 With the capital endowment  $\mathrm{K}$  fixed on the right of (4.13), this equation determines the rental rate at home, with the analogous equation holding abroad.
@@ -256,20 +256,20 @@ and that “vertical specialization” accounts for more than  $50\%$  of the gr
 
 Summarizing our argument so far, the decision of companies to purchase intermediate inputs from overseas will most certainly affect their employment at home, and can be expected to differentially affect skilled versus unskilled workers. With firms in industrial countries facing a higher relative wage for unskilled labor than that found abroad, the activities that are outsourced would be those that use a large amount of unskilled labor, such as assembly of components and other repetitive tasks. Moving these activities overseas will reduce the relative demand for unskilled labor in the industrial country, in much the same way as replacing these workers with automated production. This means that outsourcing has a qualitatively similar effect on reducing the relative demand for unskilled labor within an industry as does skilled-biased technological change, such as the increased use of computers. Thus, determining which of these is most important is an empirical question.
 
-We will examine two methods that have been used to estimate the effects of trade versus technological change on wages and employment. The first method estimates the demand for skilled and unskilled labor. Let us return to the simple three-good, three-factor model introduced above, where we derived the revenue function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  in (4.4) for each industry  $n = 1,\dots,N$ , where  $p = (p_1,p_2)$  is the vector of imported input prices. It will be convenient to work with a "short-run" cost function that is dual to (4.4). Note that the function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  is linearly homogeneous in prices, so we can alternatively write it as  $\mathrm{p_nG_n(L_n,H_n,K_n,1,p / p_n)}$ . Thus, a natural measure of real value-added is,
+We will examine two methods that have been used to estimate the effects of trade versus technological change on wages and employment. The first method estimates the demand for skilled and unskilled labor. Let us return to the simple three-good, three-factor model introduced above, where we derived the revenue function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  in (4.4) for each industry  $n = 1,\dots,N$ , where  $p = (p_1,p_2)$  is the vector of imported input prices. It will be convenient to work with a "short-run" cost function that is dual to (4.4). Note that the function  $\mathrm{G_n(L_n,H_n,K_n,p_n,p)}$  is linearly homogeneous in prices, so we can alternatively write it as  $\mathrm{p_nG_n(L_n,H_n,K_n,1,p /p_n)}$ . Thus, a natural measure of real value-added is,
 
 $$
-\mathrm {Y} _ {\mathrm {n}} = \mathrm {G} _ {\mathrm {n}} \left(\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}, 1, \mathrm {p} / \mathrm {p} _ {\mathrm {n}}\right). \tag {4.14}
+\mathrm{Y}_{\mathrm{n}} = \mathrm{G}_{\mathrm{n}} \left(\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}, 1, \mathrm{p} / \mathrm{p}_{\mathrm{n}}\right). \tag {4.14}
 $$
 
 This measure of output is nearly the same as  $y_{n}$ , except it now includes real net exports.
 
-Provided that the underlying production functions  $\mathrm{f_i}$ ,  $\mathrm{i = 1,2,n}$ , are increasing and concave, then the function  $\mathbf{G}_{\mathrm{n}}$  will also be increasing and concave in  $(\mathbf{L}_{\mathrm{n}},\mathbf{H}_{\mathrm{n}},\mathbf{K}_{\mathrm{n}})$ .
+Provided that the underlying production functions  $\mathrm{f_i}$ ,  $\mathrm{i =1,2,n}$ , are increasing and concave, then the function  $\mathbf{G}_{\mathrm{n}}$  will also be increasing and concave in  $(\mathbf{L}_{\mathrm{n}},\mathbf{H}_{\mathrm{n}},\mathbf{K}_{\mathrm{n}})$ .
 
 Then the short-run cost function, obtained when the level of capital and output are fixed, is defined as:
 
 $$
-C _ {n} (w, q, K _ {n}, Y _ {n}, p / p _ {n}) \equiv \min  _ {L _ {n}, H _ {n}} w L _ {n} + q H _ {n}, \text {s u b j e c t} \tag {4.15}
+C_{n} (w, q, K_{n}, Y_{n}, p / p_{n}) \equiv \min_{L_{n}, H_{n}} w L_{n} + q H_{n}, \text{su bj ec t} \tag {4.15}
 $$
 
 Notice that we have included the relative price of traded inputs  $\mathrm{p} / \mathrm{p}_{\mathrm{n}}$  in this cost function since they also appear in the revenue function (4.14). More generally, any structural variables that shift the production function and therefore affect costs should be included as arguments. In the model discussed above with a continuum of input, the range of inputs imported into each country should appear as an argument in (4.15). That is, it is not enough to just keep track of import prices – we also need to keep track of newly imported intermediate inputs. In practice, we will measure this by the expenditure on imported inputs for each industry, though this does not fully capture the idea of newly imported inputs.[13] We will denote all such variables that affect costs in industry  $\mathfrak{n}$  by the vector  $\mathbf{z}_{\mathrm{n}}$ ; in addition to imported inputs, this can include expenditures on computers and other new types of capital equipment. We therefore rewrite the cost function in (4.15) as  $C_{\mathrm{n}}(\mathrm{w},\mathrm{q},\mathrm{K}_{\mathrm{n}},\mathrm{Y}_{\mathrm{n}},\mathrm{z}_{\mathrm{n}})$ .
@@ -277,7 +277,7 @@ Notice that we have included the relative price of traded inputs  $\mathrm{p} / 
 The next step is to choose a functional form for costs. As in our discussion of the GDP function in chapter 3, a convenient choice is the translog cost function, which is written in a general notation (dropping the industry subscript n) as,
 
 $$
-\begin{array}{l} \ln C = \alpha_ {0} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \alpha_ {\mathrm {i}} \ln w _ {\mathrm {i}} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \beta_ {\mathrm {k}} \ln x _ {\mathrm {k}} + \frac {1}{2} \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {M}} \gamma_ {\mathrm {i j}} \ln w _ {\mathrm {i}} \ln w _ {\mathrm {j}} \tag {4.16} \\ + \frac {1}{2} \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \sum_ {\ell = 1} ^ {\mathrm {K}} \delta_ {\mathrm {k} \ell} \ln \mathrm {x} _ {\mathrm {k}} \ln \mathrm {x} _ {\ell} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {M}} \sum_ {\mathrm {k} = 1} ^ {\mathrm {K}} \phi_ {\mathrm {i k}} \ln \mathrm {w} _ {\mathrm {i}} \ln \mathrm {x} _ {\mathrm {k}} \\ \end{array}
+\begin{array}{l} \ln C = \alpha_{0} + \sum_{\mathrm{i} = 1}^{\mathrm{M}} \alpha_{\mathrm{i}} \ln w_{\mathrm{i}} + \sum_{\mathrm{k} = 1}^{\mathrm{K}} \beta_{\mathrm{k}} \ln x_{\mathrm{k}} + \frac{1}{2} \sum_{\mathrm{i} = 1}^{\mathrm{M}} \sum_{\mathrm{j} = 1}^{\mathrm{M}} \gamma_{\mathrm{ij}} \ln w_{\mathrm{i}} \ln w_{\mathrm{j}} \tag {4.16} \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{K}} \sum_{\ell = 1}^{\mathrm{K}} \delta_{\mathrm{k} \ell} \ln \mathrm{x}_{\mathrm{k}} \ln \mathrm{x}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{M}} \sum_{\mathrm{k} = 1}^{\mathrm{K}} \phi_{\mathrm{ik}} \ln \mathrm{w}_{\mathrm{i}} \ln \mathrm{x}_{\mathrm{k}} \\ \end{array}
 $$
 
 where  $\mathrm{w_i}$  denotes the wages of the optimally chosen inputs  $\mathrm{i} = 1, \dots, \mathrm{M}$ , and  $\mathrm{x_k}$  denotes either the quantities of the fixed inputs or outputs  $\mathrm{k} = 1, \dots, \mathrm{K}$ , or any other shift parameters. In terms of the cost function in (4.15), there are just two optimally chosen factors – skilled and unskilled labor – while capital and output are treated as fixed in the short run.
@@ -285,7 +285,7 @@ where  $\mathrm{w_i}$  denotes the wages of the optimally chosen inputs  $\mathr
 The usefulness of the translog function comes from computing its first derivatives,  $\partial \ln C / \partial \ln w_{i} = (\partial C / \partial w_{i})(w_{i} / C)$ . Because  $\partial C / \partial w_{i}$  equals the demand for the chosen input  $i$ , it follows that  $(\partial C / \partial w_{i})(w_{i} / C)$  equals the payments to factor  $i$  relative to total costs, which we denote by the cost-shares  $s_i$ . Thus, differentiating (4.16) with respect to  $\ln w_{i}$ , we obtain,
 
 $$
-s _ {i} = \alpha_ {i} + \sum_ {j = 1} ^ {M} \gamma_ {i j} \ln w _ {j} + \sum_ {k = 1} ^ {K} \phi_ {i k} \ln x _ {k}, \quad i = 1, \dots , M. \tag {4.17}
+s_{i} = \alpha_{i} + \sum_{j = 1}^{M} \gamma_{i j} \ln w_{j} + \sum_{k = 1}^{K} \phi_{i k} \ln x_{k}, \quad i = 1, \dots , M. \tag {4.17}
 $$
 
 Given annual data on factor cost shares, wages, and fixed inputs and outputs, this set of linear equations can be estimated over time for a given industry to obtain the coefficients  $\gamma_{\mathrm{ij}}$  and  $\phi_{\mathrm{ik}}$ .
@@ -295,7 +295,7 @@ Alternatively, the equations can be estimated for a single year, or the change b
 Returning now to the notation  $C_n(w, q, K_n, Y_n, z_n)$  as in (4.15), we have two chosen inputs - skilled and unskilled labor. Focusing on the share equation for skilled labor, it will depend on wages for both types of labor, as well capital, output, and all other structural variables,  $z_n$ . When (4.17) is estimated by pooling data across industries, as in Berman, Bound and Griliches (1994) for example, it is felt the cross-industry variation in wages has little information: wages differ across industries principally due to quality-variation of workers, so we do not expect high-wage industries to economize on those (high-quality) workers. Accordingly, the wage terms are typically dropped from the right of (4.17) when pooling data across industries. This leaves just fixed capital, output, and other structural variables. Taking the difference between two years, the estimating equation for the wage-share of skilled labor ( $s_{nH}$ ) in industries  $n = 1, \ldots, N$  becomes:
 
 $$
-\Delta \mathrm {s} _ {\mathrm {n H}} = \phi_ {0} + \phi_ {\mathrm {K}} \Delta \ln \mathrm {K} _ {\mathrm {n}} + \phi_ {\mathrm {Y}} \Delta \ln \mathrm {Y} _ {\mathrm {n}} + \phi_ {\mathrm {z}} ^ {\prime} \Delta \mathrm {z} _ {\mathrm {n}}, \quad \mathrm {n} = 1, \dots , \mathrm {N}, \tag {4.18}
+\Delta \mathrm{s}_{\mathrm{nH}} = \phi_{0} + \phi_{\mathrm{K}} \Delta \ln \mathrm{K}_{\mathrm{n}} + \phi_{\mathrm{Y}} \Delta \ln \mathrm{Y}_{\mathrm{n}} + \phi_{\mathrm{z}}^{\prime} \Delta \mathrm{z}_{\mathrm{n}}, \quad \mathrm{n} = 1, \dots , \mathrm{N}, \tag {4.18}
 $$
 
 where  $z_{n}$  denotes the vector of structural variables that shifts costs, and  $\phi_{z}$  is the corresponding vector of coefficients. In particular, when the wage-share of skilled labor is increasing, we are interested in determining how much of that increase is due to changes in capital, output, and the structural variables.
@@ -319,7 +319,7 @@ In column (1) of Table 4.4, we report the mean values of the dependent and indep
 
 The results for computers depend on the specification. Measuring computer services and other high-tech capital as a share of the capital stock using ex post rental prices, we see they account for  $13\%$  of the shift towards nonproduction labor. Measuring these shares using ex ante rental prices, we see that that computers and other high-tech capital explain only  $8\%$  of this shift.
 
-payments to capital are constructed as a residual,  $\mathrm{rK_n = pY_n - wL_n}$ . Next, we need some measure of the physical capital stock  $\mathbf{K}_{\mathrm{n}}$ , which is typically constructed from investment data  $\mathrm{I}_{\mathrm{n}}$  using the perpetual inventory method:  $\mathrm{K_{nt} = (1 - \delta)K_{nt - 1} + I_{nt}}$ , where  $\delta$  is a depreciation rate for capital. Then using the constructed physical capital in year t, and the total payments to capital in year t, these are divided to obtain the ex post rental on capital in year t:  $\mathrm{r_t = (pY_{nt} - wL_{nt}) / K_{nt}}$ . Then using the purchase price of capital  $\mathrm{p_{kt}}$ , the implied ex post rate of return to capital would be constructed as  $\rho_{t} = (\mathrm{r}_{t} / \mathrm{p}_{kt}) - \delta +[(\mathrm{p}_{kt + 1} - \mathrm{p}_{kt}) / \mathrm{p}_{kt}]$ . Thus, the ex post rate of return includes the rental relative to the purchase price, minus depreciation, plus any capital gains or losses on the capital equipment. In contrast, an ex ante rate of return would ignore the capital gains or losses. Thus, if we chose  $\rho^{*}$  as a "safe" rate of return such as on a bond, then the corresponding ex ante rental price would be obtained by ignoring capital gains and computing  $\mathrm{r_t}$  from the equation,  $\mathrm{r_t = (\rho^* + \delta)p_{kt}}$ . The formulas used for the rental prices becomes more complicated when we take into account business taxes, and when there are multiple types of capital. For further details see Harper, Berndt and Wood (1989).
+payments to capital are constructed as a residual,  $\mathrm{rK_n =pY_n -wL_n}$ . Next, we need some measure of the physical capital stock  $\mathbf{K}_{\mathrm{n}}$ , which is typically constructed from investment data  $\mathrm{I}_{\mathrm{n}}$  using the perpetual inventory method:  $\mathrm{K_{nt} = (1 - \delta)K_{nt - 1} + I_{nt}}$ , where  $\delta$  is a depreciation rate for capital. Then using the constructed physical capital in year t, and the total payments to capital in year t, these are divided to obtain the ex post rental on capital in year t:  $\mathrm{r_t = (pY_{nt} - wL_{nt}) / K_{nt}}$ . Then using the purchase price of capital  $\mathrm{p_{kt}}$ , the implied ex post rate of return to capital would be constructed as  $\rho_{t} = (\mathrm{r}_{t} / \mathrm{p}_{kt}) - \delta +[(\mathrm{p}_{kt + 1} - \mathrm{p}_{kt}) / \mathrm{p}_{kt}]$ . Thus, the ex post rate of return includes the rental relative to the purchase price, minus depreciation, plus any capital gains or losses on the capital equipment. In contrast, an ex ante rate of return would ignore the capital gains or losses. Thus, if we chose  $\rho^{*}$  as a "safe" rate of return such as on a bond, then the corresponding ex ante rental price would be obtained by ignoring capital gains and computing  $\mathrm{r_t}$  from the equation,  $\mathrm{r_t = (\rho^* + \delta)p_{kt}}$ . The formulas used for the rental prices becomes more complicated when we take into account business taxes, and when there are multiple types of capital. For further details see Harper, Berndt and Wood (1989).
  The share of computer spending in investment is obtained from the Census of Manufactures, which simply asked firms to report what percentage of new investment was devoted to computers. This variable has been used previously by Berman, Bound and Griliches (1994) and Autor, Katz and Krueger (1998).
 
 In both cases, the contribution of computers and other high-tech capital is less than the contribution of outsourcing. In contrast, when computers are measured by their share of investment (and the high-technology capital share is also included), we see that these variables account for  $31\%$  of the shift toward nonproduction labor, which exceeds the contribution of outsourcing. Thus, whether outsourcing is more or less important than computers depends on whether the latter are measured as a share of the capital stock, or as a share of investment. Regardless of the specification, however, it is fair to conclude that both outsourcing and expenditure on computers and other high technology capital are important explanations of the shift towards nonproduction labor in the U.S., with their exact magnitudes depending on how they are measured.
@@ -333,7 +333,7 @@ In the specification (4.18), outsourcing changes the relative wage by shifting o
 The second empirical technique we will discuss assumes that both types of labor, as well as capital, are being optimally chosen. So we abandon the "short run" cost function in (4.15), and instead use the more familiar long-run cost function for the industry:
 
 $$
-\mathrm {C} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {Y} _ {\mathrm {n}}, \mathrm {p} / \mathrm {p} _ {\mathrm {n}}\right) \equiv \min  _ {\mathrm {L} _ {\mathrm {n}}, \mathrm {H} _ {\mathrm {n}}, \mathrm {K} _ {\mathrm {n}}} \mathrm {w} _ {\mathrm {n}} \mathrm {L} _ {\mathrm {n}} + \mathrm {q} _ {\mathrm {n}} \mathrm {H} _ {\mathrm {n}} + \mathrm {r} _ {\mathrm {n}} \mathrm {K} _ {\mathrm {n}}, \text {s u b j e c t t o (4 . 1 4)}. \tag {4.19}
+\mathrm{C}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{Y}_{\mathrm{n}}, \mathrm{p} / \mathrm{p}_{\mathrm{n}}\right) \equiv \min_{\mathrm{L}_{\mathrm{n}}, \mathrm{H}_{\mathrm{n}}, \mathrm{K}_{\mathrm{n}}} \mathrm{w}_{\mathrm{n}} \mathrm{L}_{\mathrm{n}} + \mathrm{q}_{\mathrm{n}} \mathrm{H}_{\mathrm{n}} + \mathrm{r}_{\mathrm{n}} \mathrm{K}_{\mathrm{n}}, \text{su bj ec tt o (4 .1 4)}. \tag {4.19}
 $$
 
 Notice that in (4.19) we have allowed the factor prices  $\mathrm{w_n}$ ,  $\mathrm{q_n}$ , and  $\mathbf{r}_{\mathrm{n}}$  to differ across the
@@ -353,7 +353,7 @@ Since the revenue function (4.14) is linearly homogeneous in inputs, then we can
 the cost function in (4.19) as,
 
 $$
-\mathrm {C} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {Y} _ {\mathrm {n}}, \mathrm {z} _ {\mathrm {n}}\right) = \mathrm {Y} _ {\mathrm {n}} \mathrm {c} _ {\mathrm {n}} \left(\mathrm {w} _ {\mathrm {n}}, \mathrm {q} _ {\mathrm {n}}, \mathrm {r} _ {\mathrm {n}}, \mathrm {z} _ {\mathrm {n}}\right), \tag {4.20}
+\mathrm{C}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{Y}_{\mathrm{n}}, \mathrm{z}_{\mathrm{n}}\right) = \mathrm{Y}_{\mathrm{n}} \mathrm{c}_{\mathrm{n}} \left(\mathrm{w}_{\mathrm{n}}, \mathrm{q}_{\mathrm{n}}, \mathrm{r}_{\mathrm{n}}, \mathrm{z}_{\mathrm{n}}\right), \tag {4.20}
 $$
 
 where  $c_{n}(w_{n}, q_{n}, r_{n}, z_{n})$  denotes the unit-cost function. The zero-profit conditions in the industries
@@ -361,7 +361,7 @@ where  $c_{n}(w_{n}, q_{n}, r_{n}, z_{n})$  denotes the unit-cost function. The 
 are therefore expressed as,
 
 $$
-p _ {n} = c _ {n} \left(w _ {n}, q _ {n}, r _ {n}, z _ {n}\right), \quad n = 1, \dots , N. \tag {4.21}
+p_{n} = c_{n} \left(w_{n}, q_{n}, r_{n}, z_{n}\right), \quad n = 1, \dots , N. \tag {4.21}
 $$
 
 Throughout this book, we have examined how changes in product prices affect factor
@@ -373,7 +373,7 @@ prices reflect more than just changes in factor prices. Indeed, taking the diffe
 log change in factor and product prices, we can define total factor productivity as,
 
 $$
-\mathrm {T F P} _ {\mathrm {n}} \equiv \left(\theta_ {\mathrm {n L}} \Delta \ln \mathrm {w} _ {\mathrm {n}} + \theta_ {\mathrm {n H}} \Delta \ln \mathrm {q} _ {\mathrm {n}} + \theta_ {\mathrm {n K}} \Delta \ln \mathrm {r} _ {\mathrm {n}}\right) - \Delta \ln \mathrm {p} _ {\mathrm {n}}, \tag {4.22}
+\mathrm{TF P}_{\mathrm{n}} \equiv \left(\theta_{\mathrm{nL}} \Delta \ln \mathrm{w}_{\mathrm{n}} + \theta_{\mathrm{nH}} \Delta \ln \mathrm{q}_{\mathrm{n}} + \theta_{\mathrm{nK}} \Delta \ln \mathrm{r}_{\mathrm{n}}\right) - \Delta \ln \mathrm{p}_{\mathrm{n}}, \tag {4.22}
 $$
 
 where the cost-shares of the three factors sum to unity,  $\theta_{\mathrm{nL}} + \theta_{\mathrm{nH}} + \theta_{\mathrm{nK}} = 1$ , and  $\Delta$  denotes the
@@ -385,13 +385,13 @@ prices, so that (4.22) is positive. Note that this is the "dual" definition of p
 Shuffling the terms in (4.22) slightly, we obtain the equation,
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \Delta \ln w _ {n} + \theta_ {n H} \Delta \ln q _ {n} + \theta_ {n K} \Delta \ln r _ {n}, n = 1, \dots , N. \tag {4.23}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \Delta \ln w_{n} + \theta_{n H} \Delta \ln q_{n} + \theta_{n K} \Delta \ln r_{n}, n = 1, \dots , N. \tag {4.23}
 $$
 
 We consider estimating (4.23) as a linear regression across industries, where the data are the change in log prices, total factor productivity, and the factor cost-shares  $\theta_{\mathrm{nj}}$ , while the change in factor-prices are estimated as regression coefficients. That is, we estimate the implied change in factor-prices  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  from the regression:
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \beta_ {L} + \theta_ {n H} \beta_ {H} + \theta_ {n K} \beta_ {K} + \varepsilon_ {n}, n = 1, \dots , N, \tag {4.24}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \beta_{L} + \theta_{n H} \beta_{H} + \theta_{n K} \beta_{K} + \varepsilon_{n}, n = 1, \dots , N, \tag {4.24}
 $$
 
 where  $\varepsilon_{\mathrm{n}}$  is an error term, specified more fully below. We interpret the coefficients  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  as the change in factor prices that are "mandated by" the change in product prices, which is the dependent variable in (4.24). We hope to find that the estimate factor prices changes  $\beta_{\mathrm{L}}, \beta_{\mathrm{H}}$ , and  $\beta_{\mathrm{K}}$  from this regression are quite close to their actual changes, and if so, we can conclude that a Stolper-Samuelson linkage between product and factor prices works empirically. Baldwin and Hilton (1984) were among the first to estimate this price regression, and there are many recent applications of it (Baldwin and Cain, 2000, Slaughter, 2000), as discussed below.
@@ -415,13 +415,13 @@ The estimates in Table 4.5 are troubling because they show that slight changes i
 To achieve this, let us make the transition from (4.23) to an estimating equation more carefully. First, notice that we can rewrite (4.23) as,
 
 $$
-\Delta \ln p _ {n} = - T F P _ {n} + \theta_ {n L} \overline {{\Delta \ln w}} + \theta_ {n H} \overline {{\Delta \ln q}} + \theta_ {n K} \overline {{\Delta \ln r}} + \varepsilon_ {n}, \tag {4.25}
+\Delta \ln p_{n} = - T F P_{n} + \theta_{n L} \overline {{\Delta \ln w}} + \theta_{n H} \overline {{\Delta \ln q}} + \theta_{n K} \overline {{\Delta \ln r}} + \varepsilon_{n}, \tag {4.25}
 $$
 
 where,
 
 $$
-\varepsilon_ {\mathrm {n}} \equiv \theta_ {\mathrm {n L}} \left(\Delta \ln \mathrm {w} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {w}}}\right) + \theta_ {\mathrm {n H}} \left(\Delta \ln \mathrm {q} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {q}}}\right) + \theta_ {\mathrm {n K}} \left(\Delta \ln \mathrm {r} _ {\mathrm {n}} - \overline {{\Delta \ln \mathrm {r}}}\right). \tag {4.26}
+\varepsilon_{\mathrm{n}} \equiv \theta_{\mathrm{nL}} \left(\Delta \ln \mathrm{w}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{w}}}\right) + \theta_{\mathrm{nH}} \left(\Delta \ln \mathrm{q}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{q}}}\right) + \theta_{\mathrm{nK}} \left(\Delta \ln \mathrm{r}_{\mathrm{n}} - \overline {{\Delta \ln \mathrm{r}}}\right). \tag {4.26}
 $$
 
 That is, we replace the industry wage changes on the right of (4.23) by the average wage changes, and incorporate the difference between these two into an error term. In economic terms,  $\varepsilon_{n}$  reflects interindustry wage differentials: i.e., the difference between wages paid in each industry and the manufacturing average. It is well known that these wage differentials vary systematically across industries, with capital-intensive industries paying higher wages.
@@ -433,13 +433,13 @@ equation will match the actual factor price changes or not: the estimates of  $\
 To correct this problem, we can simply include the error term  $\varepsilon_{\mathrm{n}}$  as an additional regressor in the equation, reflecting the change in interindustry wage differentials. It is convenient to combine  $\varepsilon_{\mathrm{n}}$  with  $\mathrm{TFP}_{\mathrm{n}}$ , obtaining a measure of "effective" TFP:
 
 $$
-\begin{array}{l} \mathrm {E T F P} _ {\mathrm {n}} \equiv \mathrm {T F P} _ {\mathrm {n}} - \varepsilon_ {\mathrm {n}} \\ = \left(\theta_ {\mathrm {n L}} \overline {{\Delta \ln \mathrm {w}}} + \theta_ {\mathrm {n H}} \overline {{\Delta \ln \mathrm {q}}} + \theta_ {\mathrm {n K}} \overline {{\Delta \ln \mathrm {r}}}\right) - \Delta \ln \mathrm {p} _ {\mathrm {n}}. \tag {4.27} \\ \end{array}
+\begin{array}{l} \mathrm{ET FP}_{\mathrm{n}} \equiv \mathrm{TF P}_{\mathrm{n}} - \varepsilon_{\mathrm{n}} \\ = \left(\theta_{\mathrm{nL}} \overline {{\Delta \ln \mathrm{w}}} + \theta_{\mathrm{nH}} \overline {{\Delta \ln \mathrm{q}}} + \theta_{\mathrm{nK}} \overline {{\Delta \ln \mathrm{r}}}\right) - \Delta \ln \mathrm{p}_{\mathrm{n}}. \tag {4.27} \\ \end{array}
 $$
 
 Thus, this measure of effective productivity shows how the average manufacturing factor-price changes, weighted using the cost-share in each industry, differ from the change in product price of that industry. Making use of (4.27), the regression in (4.24) is written once again as,
 
 $$
-\Delta \ln p _ {n} = - E T F P _ {n} + \theta_ {n L} \beta_ {L} + \theta_ {n H} \beta_ {H} + \theta_ {n K} \beta_ {K}, \quad n = 1, \dots , N. \tag {4.28}
+\Delta \ln p_{n} = - E T F P_{n} + \theta_{n L} \beta_{L} + \theta_{n H} \beta_{H} + \theta_{n K} \beta_{K}, \quad n = 1, \dots , N. \tag {4.28}
 $$
 
 Now, there is no error term at all in this regression, so it ought to provide a perfect fit when estimated. This will not be exactly true in our data, since we are using the primal rather than the dual measure of TFP to construct effective TFP in (4.28). These priors are confirmed in columns (4) and (5) of Table 4.5. In column (4), we constrain the coefficients on the materials and energy shares to equal unity, while in column (5), we allow these coefficients to differ from unity. In either specification, the coefficients on the labor and capital shares are extremely close to the actual average annual percentage changes in factor prices, which are  $4.7\%$  for production labor,  $5.4\%$  for nonproduction labor, and  $4.0\%$  for capital. Thus, when we properly estimate (4.28), we end up with an identity!
@@ -449,17 +449,17 @@ Summarizing our results so far, we started with the goal of estimating the zero-
 To make further progress, Feenstra and Hanson (1999) propose a two-step estimation procedure. In the first step, we combine the variables  $\Delta \ln p_{n} + \mathrm{ETF}P_{n}$ , which appear in (4.28), and regress these on the structural variables  $z_{n}$ . Supposing that there are only two structural variables,  $z_{1n}$  and  $z_{2n}$ , we therefore run the regression:
 
 $$
-\Delta \ln p _ {n} + E T F P _ {n} = \alpha_ {0} + \alpha_ {1} \Delta z _ {1 n} + \alpha_ {2} \Delta z _ {2 n}, n = 1, \dots , N. \tag {4.29}
+\Delta \ln p_{n} + E T F P_{n} = \alpha_{0} + \alpha_{1} \Delta z_{1 n} + \alpha_{2} \Delta z_{2 n}, n = 1, \dots , N. \tag {4.29}
 $$
 
 In the second step, we then take the estimated coefficients  $\hat{\alpha}_{1}$  and  $\hat{\alpha}_{2}$ , and use these to construct the dependent variables for the regressions,
 
 $$
-\hat {\alpha} _ {1} \Delta z _ {1 n} = \theta_ {n L} \beta_ {1 L} + \theta_ {n H} \beta_ {1 H} + \theta_ {n K} \beta_ {1 K}, \quad \text {a n d ,} \tag {4.30a}
+\hat {\alpha}_{1} \Delta z_{1 n} = \theta_{n L} \beta_{1 L} + \theta_{n H} \beta_{1 H} + \theta_{n K} \beta_{1 K}, \quad \text{an d ,} \tag {4.30a}
 $$
 
 $$
-\hat {\alpha} _ {2} \Delta z _ {2 n} = \theta_ {n L} \beta_ {2 L} + \theta_ {n H} \beta_ {2 H} + \theta_ {n K} \beta_ {2 K}, n = 1, \dots , N. \tag {4.30b}
+\hat {\alpha}_{2} \Delta z_{2 n} = \theta_{n L} \beta_{2 L} + \theta_{n H} \beta_{2 H} + \theta_{n K} \beta_{2 K}, n = 1, \dots , N. \tag {4.30b}
 $$
 
 That is, we use the estimated coefficients  $\hat{\alpha}_{1}$  and  $\hat{\alpha}_{2}$ , times each structural variable as the dependent variables in (4.30), and regress these on the factor cost-shares. The coefficients obtained from the second-stage regression,  $\beta_{1\mathrm{L}}, \beta_{1\mathrm{H}}, \beta_{1\mathrm{K}}$  and  $\beta_{2\mathrm{L}}, \beta_{2\mathrm{H}}, \beta_{2\mathrm{K}}$ , are interpreted as the portion of the total change in factor-prices that are explained by each structural variable. In this way, we are taking the total change in factor-prices, and decomposing it into parts that are explained by each structural variable.
@@ -521,12 +521,12 @@ skill-intensive nontraded goods in the U.S. as well as a decrease in the price o
 
 4.1 Download the NBER productivity dataset at http://www.nber.org/nberces/nbprod96.htm, compute the relative wage and relative employment for 1958 - 1996, and reconstruct Figure 4.1 and 4.2. Note: Given this data, you need to first compute the wage rates in production and nonproduction sectors using the following formula:
 
-Production worker wage rate =  $\frac{\sum_{i} production_{i}\text{production}_{i}\text{worker wage}_{i}}{\sum_{i} production_{i}\text{workers}_{i}}$ ,
+Production worker wage rate =  $\frac{\sum_{i} production_{i}\text{production}_{i}\text{workerwage}_{i}}{\sum_{i} production_{i}\text{workers}_{i}}$ ,
 
-Non production worker wage rate =  $\frac{\sum_{\mathrm{i}} \text{Non production worker wage bill}}{\sum_{\mathrm{i}} \text{Non production workers}_{\mathrm{i}}}$
+Non production worker wage rate =  $\frac{\sum_{\mathrm{i}} \text{Nonproductionworkerwagebill}}{\sum_{\mathrm{i}} \text{Nonproductionworkers}_{\mathrm{i}}}$
 
 $$
-\begin{array}{l} = \frac {\sum_ {i} (\text {t o t a l p a y r o l l} _ {i} - \text {p r o d u c t i o n w o r k e r w a g e b i l l} _ {i})}{\sum_ {i} (\text {t o t a l e m p l o y m e n t} _ {i} - \text {p r o d u c t i o n w o r k e r s} _ {i})} \\ \mathbf {i} = \text {i n d u s t r y} \\ \end{array}
+\begin{array}{l} = \frac{\sum_{i} (\text{to ta lp ay ro ll}_{i} - \text{pr od uc ti on wo rk er wa ge bi ll}_{i})}{\sum_{i} (\text{to ta le mp lo ym en t}_{i} - \text{pr od uc ti on wo rk er s}_{i})} \\ \mathbf {i} = \text{in du st ry} \\ \end{array}
 $$
 
 4.2 Store the files for this chapter in the directory: c:\Empirical_Exercise\Chapter_4/. Run the program "Problem_4_2.do" to reproduce the regressions in Table 4.4 (which is simplified from Table III in Feenstra and Hanson, 1999). Then answer: what weights are used in these regressions, and how are the results affected if these weights are not used?

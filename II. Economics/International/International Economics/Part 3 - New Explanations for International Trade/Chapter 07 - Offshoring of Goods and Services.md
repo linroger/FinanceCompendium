@@ -602,13 +602,13 @@ $ 0.5(\Delta P_{C}\cdot Q_{C}) = \Delta W_{H}\cdot H_{C} + \Delta W_{L}\cdot L_{
 
 Dividing the equations by  $ (\Delta P_{C} \cdot Q_{C}) $ and $ (\Delta P_{R} \cdot Q_{R}) $, respectively, we can rewrite the equations as $ \$
 
-0. 5 \left[ \frac {\Delta P _ {C}}{P _ {C}} \right] = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {W _ {H} \cdot H _ {C}}{P _ {C} \cdot Q _ {C}}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {W _ {L} \cdot L _ {C}}{P _ {C} \cdot Q _ {C}}\right),
+0. 5 \left[ \frac{\Delta P_{C}}{P_{C}} \right] = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{W_{H} \cdot H_{C}}{P_{C} \cdot Q_{C}}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{W_{L} \cdot L_{C}}{P_{C} \cdot Q_{C}}\right),
 
 $ $
 for components
 $ $
 
-\begin{array}{l} 0. 5 \Big [ \frac {\Delta P _ {R}}{P _ {R}} \Big ] = \Big (\frac {\Delta W _ {H}}{W _ {H}} \Big) \Big (\frac {W _ {H} \cdot H _ {R}}{P _ {R} \cdot Q _ {R}} \Big) + \Big (\frac {\Delta W _ {L}}{W _ {L}} \Big) \Big (\frac {W _ {L} \cdot L _ {R}}{P _ {R} \cdot Q _ {R}} \Big), \\ \text {f o r R \& D} \end{array}
+\begin{array}{l} 0. 5 \Big [ \frac{\Delta P_{R}}{P_{R}} \Big ] = \Big (\frac{\Delta W_{H}}{W_{H}} \Big) \Big (\frac{W_{H} \cdot H_{R}}{P_{R} \cdot Q_{R}} \Big) + \Big (\frac{\Delta W_{L}}{W_{L}} \Big) \Big (\frac{W_{L} \cdot L_{R}}{P_{R} \cdot Q_{R}} \Big), \\ \text{fo rR \&D} \end{array}
 
 $ $
 Use the cost shares and price change data in these formulas to get
@@ -620,7 +620,7 @@ $ $
 for components
 $ \$
 
-0 = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {4 0}{1 0 0}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {1 0}{1 0 0}\right),
+0 = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{4 0}{1 0 0}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{1 0}{1 0 0}\right),
 
 $ $
 for R&D

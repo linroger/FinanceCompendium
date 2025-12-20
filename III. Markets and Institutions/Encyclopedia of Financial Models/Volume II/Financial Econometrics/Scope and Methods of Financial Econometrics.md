@@ -28,17 +28,17 @@ In a dynamic model, the mathematical relationship between variables at different
 
 Consider the time series of a stock price  $p_t$ , that is, the series formed with the prices of that stock taken at fixed points in time, say daily. Let's now write a simple econometric model of the prices of a stock as follows:
 
-$$ p _ {t + 1} = \mu + \rho p _ {t} + \varepsilon_ {t + 1} \tag {1}
+$$ p_{t + 1} = \mu + \rho p_{t} + \varepsilon_{t + 1} \tag {1}
 $$
 
 This model tells us that if we consider any time  $t + 1$ , the price of that stock at time  $t + 1$  is equal to a constant plus the price in the previous moment  $t$  multiplied by  $\rho$  plus a zero-mean random disturbance independent from the past, which always has the same statistical characteristics. If we want to apply this model to real-world price processes, the constants  $\mu$  and  $\rho$  must be estimated. The parameter  $\mu$  determines the trend and  $\rho$  defines the dependence between the prices. Typically  $\rho$  is less than but close to 1. A random disturbance of the type shown in the above equation is called a white noise.
 
 If we know the initial price  $p_0$  at time  $t = 0$ , using a computer program to generate random numbers, we can simulate a path of the price process with the following recursive equations:
 
-$$ p _ {1} = \mu + \rho p _ {0} + \varepsilon_ {1}
+$$ p_{1} = \mu + \rho p_{0} + \varepsilon_{1}
 $$
 
-$$ p _ {2} = \mu + \rho p _ {1} + \varepsilon_ {2}
+$$ p_{2} = \mu + \rho p_{1} + \varepsilon_{2}
 $$
 
 That is, we can compute the price at time  $t = 1$  from the initial price  $p_0$  and a computer-generated random number  $\varepsilon_{1}$  and then use this new price to compute the price at time  $t = 2$ , and so on. The  $\varepsilon_{i}$  are independent and identically distributed random variables with zero mean. Typical choices for the distribution of  $\varepsilon$  are normal distribution,  $t$ -distribution, and stable non-Gaussian distribution. The distribution parameters are estimated from the sample.
@@ -46,7 +46,7 @@ That is, we can compute the price at time  $t = 1$  from the initial price  $p_0
 It is clear that if we have a DGP we can generate any path. An econometric model that involves two or more different times can be regarded as a DGP. However, there is a more general way of looking at econometric models that encompasses both static and dynamic models. That is, we can look at econometric models from a perspective other than that of the recursive generation of stochastic paths. In fact, we can rewrite our previous model as follows:
 
 
-$$ p _ {t + 1} - \mu - \rho p _ {t} = \varepsilon_ {t + 1} \tag {2}
+$$ p_{t + 1} - \mu - \rho p_{t} = \varepsilon_{t + 1} \tag {2}
 $$
 
 This formulation shows that, if we consider any two consecutive instants of time, there is a combination of prices that behave as random noise. More in general, an econometric model can be regarded as a mathematical device that reconstructs a noise sequence from empirical data.
@@ -99,7 +99,7 @@ As we have seen, econometric models are mathematical relationships between diffe
 To answer this, it is generally necessary to consider jointly the linearity of models, the distributional assumptions, and the number of time lags to introduce. The simplest models are linear models with a small number of lags under the assumption that variables are normal variables. A widely used example of normal linear models are regression models where returns are linearly regressed on lagged factors under the assumption that noise terms are normally distributed. A model of this type can be written as:
 
 
-$$ r _ {t + 1} = \beta f _ {t} + \varepsilon_ {t + 1} \tag {3}
+$$ r_{t + 1} = \beta f_{t} + \varepsilon_{t + 1} \tag {3}
 $$ where  $r_t$  are the returns at time  $t$  and  $ft$  are factors, that is, economic or financial variables. Given the linearity of the model, if factors and noise are jointly normally distributed, returns are also normally distributed.
 
 
@@ -156,11 +156,11 @@ As observed above, the ability to correctly forecast expected returns does not i
 
 Regression models appear to form the core of the modeling efforts to predict future returns at many asset management firms. Regression models regress returns on a number of predictors. Stated otherwise, future returns are a function of the value of present and past predictors. Predictors include financial ratios such as earning-to-price ratio or book-to-price ratio and other fundamental quantities; predictors might also include behavioral variables such as market sentiment. A typical formula of a regressive model is the following:
 
-$$ r _ {i, t + 1} = \alpha_ {i} + \sum_ {j = 1} \beta_ {i j} f _ {j, t} + \varepsilon_ {i, t + 1} \tag {4}
+$$ r_{i, t + 1} = \alpha_{i} + \sum_{j = 1} \beta_{i j} f_{j, t} + \varepsilon_{i, t + 1} \tag {4}
 $$ where
 
 
-$$ r _ {i, t + 1} = \frac {P _ {i , t + 1} - P _ {i , t}}{P _ {i , t}}
+$$ r_{i, t + 1} = \frac{P_{i , t + 1} - P_{i , t}}{P_{i , t}}
 $$ is the return at time  $t + 1$  of the  $i$ -th asset, and the  $f_{j,t}$  are factors observed at time  $t$ . While regressions are generally linear, nonlinear models are also used.
 
 
@@ -186,11 +186,11 @@ However, in most cases, the process of constructing portfolios is entrusted to h
 
 Another form of risk oversight, perhaps the most diffused in portfolio management, assesses portfolio exposures to specific risk factors. As portfolio management is often performed relative to a benchmark and risk is defined as underperformance relative to the benchmark, it is important to understand the sensitivity of portfolios to different risk factors. This type of risk oversight does not entail the forecasting of returns. The risk manager uses various statistical techniques to estimate how portfolios move in function of different risk factors. In most cases, linear regressions are used. A typical model will have the following form:
 
-$$ r _ {i, t} = \alpha_ {i} + \sum_ {j = 1} ^ {s} \beta_ {i j} f _ {j, t} + \varepsilon_ {i, t} \tag {5}
+$$ r_{i, t} = \alpha_{i} + \sum_{j = 1}^{s} \beta_{i j} f_{j, t} + \varepsilon_{i, t} \tag {5}
 $$ where
 
 
-$$ r _ {i, t} = \frac {P _ {i , t} - P _ {i , t - 1}}{P _ {i , t - 1}}
+$$ r_{i, t} = \frac{P_{i , t} - P_{i , t - 1}}{P_{i , t - 1}}
 $$ is the return observed at time  $t$  of the  $i$ -th asset, and the  $f_{j,t}$  are factors observed at time  $t$ . Note that this model is fundamentally different from a regressive model with time lags as given by (4).
 
 

@@ -61,7 +61,7 @@ The value of the dollar tends to rise as domestic interest rates rise relative t
 
 Open interest parity is an equilibrium relationship governing interest returns when investments are made in the securities of different countries, recognizing that purchase of foreign securities first requires purchase of foreign currency. To a U.S. investor, the gross return, in dollars, after 1 year if a \(100 investment is made in the United States at an annual interest rate of r is given by: \)100(1 + r). By contrast, the gross return, in dollars, after 1 year if a \$100 investment is made abroad at a foreign annual interest rate of r and a current exchange rate of e and expected exchange rate at the end of the year of E(e) is given by: \)100e(1 + r_f)/E(e); the numerator gives the gross return in foreign currency after 1 year and the denominator converts the foreign currency amount back into dollars.
 
-Assuming that financial investors care only about the expected rate of return (and thus ignore default risk), these two dollar returns must be equal in equilibrium; if not, then worldwide investors would change their investment directions until the two returns were equal. Setting the two dollar return expressions equal to each other and using the mathematical approximation that  $(1 + \mathrm{r}) / (1 + \mathrm{r_f}) = 1 + \mathrm{r - r_f}$  it follows that:  $\mathrm{r} - \mathrm{r_f} = \mathrm{(e - E(e)) / E(e)}$ . This implies that if the domestic interest rate equals the foreign rate, the current and expected future exchange value of the dollar are equal. If the domestic interest rate were to rise relative to the foreign rate (so that  $\mathrm{r} > \mathrm{r_f}$ ), the current value of the exchange rate would have to rise relative to the expected future value (in which case the market would expect the exchange value of the dollar to depreciate, i.e., it would expect  $\mathrm{E(e) < e}$ ). The equilibrium relationship can be re-written:  $\mathrm{e} = \mathrm{E(e)} + \mathrm{E(e)[r - r_f]}$  which is the form of our exchange rate equation below assuming that  $\mathrm{E(e)}$  is a constant, for simplicity (the constant is labeled  $\mathbf{e}_0$  as the intercept and  $\mathbf{e}_{\mathrm{r}}$  when multiplying  $\mathbf{r} - \mathbf{r}_{\mathrm{f}}$ ).
+Assuming that financial investors care only about the expected rate of return (and thus ignore default risk), these two dollar returns must be equal in equilibrium; if not, then worldwide investors would change their investment directions until the two returns were equal. Setting the two dollar return expressions equal to each other and using the mathematical approximation that  $(1 + \mathrm{r}) / (1 + \mathrm{r_f}) = 1 + \mathrm{r -r_f}$  it follows that:  $\mathrm{r} - \mathrm{r_f} = \mathrm{(e -E(e)) /E(e)}$ . This implies that if the domestic interest rate equals the foreign rate, the current and expected future exchange value of the dollar are equal. If the domestic interest rate were to rise relative to the foreign rate (so that  $\mathrm{r} > \mathrm{r_f}$ ), the current value of the exchange rate would have to rise relative to the expected future value (in which case the market would expect the exchange value of the dollar to depreciate, i.e., it would expect  $\mathrm{E(e) <e}$ ). The equilibrium relationship can be re-written:  $\mathrm{e} = \mathrm{E(e)} + \mathrm{E(e)[r -r_f]}$  which is the form of our exchange rate equation below assuming that  $\mathrm{E(e)}$  is a constant, for simplicity (the constant is labeled  $\mathbf{e}_0$  as the intercept and  $\mathbf{e}_{\mathrm{r}}$  when multiplying  $\mathbf{r} - \mathbf{r}_{\mathrm{f}}$ ).
 
 7. Initial discussion of how monetary policy affects aggregate demand: Traditionally the Fed has changed interest rates (its policy rate which in turn affects other interest rates). For example, to stimulate the economy the Fed lowers interest rates, except when
 
@@ -89,7 +89,7 @@ I denotes real private investment expenditures (business plus residential)
 
 G denotes real government expenditures (not including transfer payments)
 
-$\mathrm{NX} = \mathrm{X - M}$  denotes real exports minus imports (i.e., real net exports)
+$\mathrm{NX} = \mathrm{X -M}$  denotes real exports minus imports (i.e., real net exports)
 
 T,  $\mathrm{T}^{\mathrm{e}}$  denotes current and expected future taxes minus transfer payments, real
 
@@ -118,7 +118,7 @@ $I_0$  is assumed to capture exogenous investment-related variables such as busi
 By substituting equations 2 - 5 into equation 1 and solving the result for  $r$  as a function of  $Y$ , we get the following linear equation that mathematically defines the IS curve: [appendix 1 contains a complete derivation for students interested in technical details]:
 
 $$
-r = (\text {m e s s y n e g a t i v e s l o p e c o e f f i c i e n t}) Y + (\text {m e s s y i n c t e r m})
+r = (\text{me ss yn eg at iv es lo pe co ef fi ci en t}) Y + (\text{me ss yi nc te rm})
 $$
 
 Conclusion: higher domestic real interest rates reduce aggregate demand; the downward sloping curve in (Y, r) space that captures all combinations of real rates and GDP consistent with equilibrium in the market for new goods and services is called the IS curve.
@@ -134,7 +134,7 @@ curve rather than a shift of the curve. What happens to the curve when "m" chang
 # Monetary Policy
 
 $$
-1. \mathrm {r} = \mathrm {M} (\pi - \pi^ {*}, \mathrm {Y} - \mathrm {Y} _ {\mathrm {p}}) = \mathrm {r} ^ {*} + \mathrm {r} _ {\pi} (\pi - \pi^ {*}) + \mathrm {r} _ {\mathrm {y}} (\mathrm {Y} - \mathrm {Y} _ {\mathrm {p}})
+1. \mathrm{r} = \mathrm{M} (\pi - \pi^{*}, \mathrm{Y} - \mathrm{Y}_{\mathrm{p}}) = \mathrm{r}^{*} + \mathrm{r}_{\pi} (\pi - \pi^{*}) + \mathrm{r}_{\mathrm{y}} (\mathrm{Y} - \mathrm{Y}_{\mathrm{p}})
 $$
 
 The Fed is assumed to raise real interest rates when price inflation on goods and services,  $\pi$ , rises relative to its target,  $\pi^{*}$ , and when the output gap (difference between actual and potential GDP) rises. I have linearized the Fed's policy response function, M, after the second equals sign; in this expression,  $r^*$  is exogenous, although it depends on a host of factors in more complicated formulations. Also  $r_{\pi}$  and  $r_{y}$  are positive constants. For example,  $r_{y} = dr / d(Y - Y_{p})$  and is interpreted as the impact of a change in the output gap on the real interest rate. Also, all variables are taken as of time t (today) but for simplicity I have not included time subscripts.
@@ -165,7 +165,7 @@ Modeling the supply side of the macro economy is more controversial than the dem
 
 # Wage setting:
 
-$\mathrm{W} = \mathrm{A}^{\mathrm{e}}\mathrm{P}^{\mathrm{e}}\mathrm{f}(\mathrm{u},\mathrm{z})$  where  $\mathrm{df / du < 0}$ . Simplify by linearizing the  $\mathrm{f(.)}$  function as follows:  $\mathrm{f(.)} = 1 - \alpha \mathrm{u} + \mathrm{z}$ , and thus we get:  $\mathrm{W} = \mathrm{A}^{\mathrm{e}}\mathrm{P}^{\mathrm{e}}(1 - \alpha \mathrm{u} + \mathrm{z})$
+$\mathrm{W} = \mathrm{A}^{\mathrm{e}}\mathrm{P}^{\mathrm{e}}\mathrm{f}(\mathrm{u},\mathrm{z})$  where  $\mathrm{df /du <0}$ . Simplify by linearizing the  $\mathrm{f(.)}$  function as follows:  $\mathrm{f(.)} = 1 - \alpha \mathrm{u} + \mathrm{z}$ , and thus we get:  $\mathrm{W} = \mathrm{A}^{\mathrm{e}}\mathrm{P}^{\mathrm{e}}(1 - \alpha \mathrm{u} + \mathrm{z})$
 
 Here, W denotes the nominal wage rate;  $\mathrm{P}^{\mathrm{e}}$  denotes the expected price level; u denotes the unemployment rate;  $\mathrm{A}^{\mathrm{e}}$  is the expected level of a measure of labor productivity (discussed in more detail below); z denotes other labor-market factors, like the generosity of unemployment insurance benefits, the level of the minimum wage, and the degree of employment protection. We define the unemployment rate as  $u = 1 - N / L$ , where  $N$  is employment and  $L$  is the size of the labor force (assumed exogenous). We define  $z$  in such a way that  $\mathrm{df} / \mathrm{dz} > 0$ ;  $\alpha$  is a positive constant.
 
@@ -181,7 +181,7 @@ If there was perfect competition in the goods market, the price of output would 
 
 Blanchard simplifies by assuming constant returns to labor in production, i.e.,  $\mathrm{F}(\mathrm{N}) =$
 
-$\mathrm{NK}_0$ . Thus,  $\mathrm{Y} = \mathrm{ANK}_0$ . [Note: unit labor costs are defined as  $\mathrm{WN / Y}$ , which equals  $\mathrm{W / AK_0}$  in Blanchard's model.] This implies that the marginal product of labor is a constant, "AK," and that the unemployment rate,  $\mathrm{u} = 1 - \mathrm{N / L} = 1 - \mathrm{Y / AK_0L}$ . Without further loss of generality Blanchard assumes  $\mathrm{A} = 1$  (and we will also assume initially that  $\mathrm{K_0} = 1$ ), so that  $\mathrm{Y} = \mathrm{N}$ . This implies that  $\mathrm{AF^{\prime}(N)} = 1$  since both A and F(N) equal 1; and thus the marginal cost of production is simply, W, the wage rate that the firm is facing. Thus the competitive firm would set  $P = W$ ; if A and  $K_{0}$  do not equal 1 the firm would set  $P = W / AK_{0}$ .
+$\mathrm{NK}_0$ . Thus,  $\mathrm{Y} = \mathrm{ANK}_0$ . [Note: unit labor costs are defined as  $\mathrm{WN /Y}$ , which equals  $\mathrm{W /AK_0}$  in Blanchard's model.] This implies that the marginal product of labor is a constant, "AK," and that the unemployment rate,  $\mathrm{u} = 1 - \mathrm{N /L} = 1 - \mathrm{Y /AK_0L}$ . Without further loss of generality Blanchard assumes  $\mathrm{A} = 1$  (and we will also assume initially that  $\mathrm{K_0} = 1$ ), so that  $\mathrm{Y} = \mathrm{N}$ . This implies that  $\mathrm{AF^{\prime}(N)} = 1$  since both A and F(N) equal 1; and thus the marginal cost of production is simply, W, the wage rate that the firm is facing. Thus the competitive firm would set  $P = W$ ; if A and  $K_{0}$  do not equal 1 the firm would set  $P = W / AK_{0}$ .
 
 However, many goods markets are not competitive, and firms charge a price in excess of marginal cost. That is,  $P = (1 + m)W / AK_{0}$ , where  $m$  denotes the percentage "markup" of prices over (unit labor) cost. For example, if  $m = 0.1$  then prices are marked up 10 percent over (unit labor) cost. This equation implies that  $W / P = AK_{0} / (1 + m)$ . Thus, the real wage,  $W / P$ , is constant unless the markup, technology or fixed capital stock changes.
 
@@ -192,7 +192,7 @@ Combining Wage Setting and Price Setting: Aggregate Supply
 Combining the above key equations, with A and  $\mathrm{K}_0$  not equal to 1, we get:
 
 $$
-\mathrm {P} = (1 + \mathrm {m}) \mathrm {W} / \mathrm {A K} _ {0} = (1 + \mathrm {m}) \left(\mathrm {A} ^ {\mathrm {e}} / \mathrm {A K} _ {0}\right) \mathrm {P} ^ {\mathrm {e}} (1 - \alpha \mathrm {u} + z) \text {w h e r e u} = 1 - \mathrm {Y} / \mathrm {A K} _ {0} \mathrm {L}.
+\mathrm{P} = (1 + \mathrm{m}) \mathrm{W} / \mathrm{AK}_{0} = (1 + \mathrm{m}) \left(\mathrm{A}^{\mathrm{e}} / \mathrm{AK}_{0}\right) \mathrm{P}^{\mathrm{e}} (1 - \alpha \mathrm{u} + z) \text{wh er eu} = 1 - \mathrm{Y} / \mathrm{AK}_{0} \mathrm{L}.
 $$
 
 Thus,  $\mathrm{P} = (1 + \mathrm{m})(\mathrm{A}^{\mathrm{e}} / \mathrm{AK}_{0})\mathrm{P}^{\mathrm{e}}[1 + \mathrm{z} - \alpha +\alpha \mathrm{Y} / \mathrm{AK}_{0}\mathrm{L}]$
@@ -209,12 +209,12 @@ We can ask a similar question about the expected price level: Given all the info
 
 Here are some handy results about inflation and expected inflation:
 
-(i)  $(\mathrm{P_t - P_{t - 1}) / P_{t - 1} = P_t / P_{t - 1} - 1 = \pi_t}$ . This implies:  $\mathrm{P_t / P_{t - 1}} = 1 + \pi_t$  
-(ii) Similarly, we can show that:  $\mathrm{P}_{\mathrm{t}}^{\mathrm{e}} / \mathrm{P}_{\mathrm{t - 1}} = 1 + \pi_{\mathrm{t}}^{\mathrm{e}}$
+(i)  $(\mathrm{P_t -P_{t -1}) / P_{t - 1} = P_t / P_{t - 1} - 1 = \pi_t}$ . This implies:  $\mathrm{P_t /P_{t -1}} = 1 + \pi_t$  
+(ii) Similarly, we can show that:  $\mathrm{P}_{\mathrm{t}}^{\mathrm{e}} / \mathrm{P}_{\mathrm{t -1}} = 1 + \pi_{\mathrm{t}}^{\mathrm{e}}$
 
-Now recall the AS relationship above:  $\mathrm{P_t = (1 + m)P_t^e(1 - \alpha u_t + z)}$  where I have added time subscripts. Notice that an increase in the expected price level leads to an increase in the actual price level at time t. But an increase in the expected price level for today  $(\mathrm{P}_{\mathrm{t}}^{\mathrm{e}})$  also leads to an increase in the expected rate of inflation for today  $(\pi_{\mathrm{t}}^{\mathrm{e}})$ ; this follows from the above definition of the expected rate of inflation. Moreover, an increase in the actual price level today leads to an increase in the today's actual rate of inflation. Thus, the AS relationship implies an increase in the expected rate of inflation for today  $(\pi_{\mathrm{t}}^{\mathrm{e}})$  leads to an increase in today's actual rate of inflation  $(\pi_{\mathrm{t}})$ .
+Now recall the AS relationship above:  $\mathrm{P_t = (1 +m)P_t^e(1 - \alphau_t +z)}$  where I have added time subscripts. Notice that an increase in the expected price level leads to an increase in the actual price level at time t. But an increase in the expected price level for today  $(\mathrm{P}_{\mathrm{t}}^{\mathrm{e}})$  also leads to an increase in the expected rate of inflation for today  $(\pi_{\mathrm{t}}^{\mathrm{e}})$ ; this follows from the above definition of the expected rate of inflation. Moreover, an increase in the actual price level today leads to an increase in the today's actual rate of inflation. Thus, the AS relationship implies an increase in the expected rate of inflation for today  $(\pi_{\mathrm{t}}^{\mathrm{e}})$  leads to an increase in today's actual rate of inflation  $(\pi_{\mathrm{t}})$ .
 
-Now divide both sides of the above AS relationship by  $\mathrm{P}_{\mathrm{t - 1}}$  and use our two handy results above. We get:  $1 + \pi_{\mathrm{t}} = (1 + \pi_{\mathrm{t}}^{\mathrm{e}})(1 + \mathrm{m})(1 - \alpha \mathrm{u}_{\mathrm{t}} + \mathrm{z})$
+Now divide both sides of the above AS relationship by  $\mathrm{P}_{\mathrm{t -1}}$  and use our two handy results above. We get:  $1 + \pi_{\mathrm{t}} = (1 + \pi_{\mathrm{t}}^{\mathrm{e}})(1 + \mathrm{m})(1 - \alpha \mathrm{u}_{\mathrm{t}} + \mathrm{z})$
 
 Next, divide both sides by  $(1 + \pi_{\mathrm{t}}^{\mathrm{e}})(1 + \mathrm{m})$  . We thus get:
 
@@ -248,7 +248,7 @@ whether the model is applicable to analyzing the impact of the corona-virus late
 
 Also, in the long run  $(\mathrm{P} = \mathrm{P}^{\mathrm{c}})$ , the wage setting relationship becomes:  $\mathrm{W} = \mathrm{P}(1 - \alpha \mathrm{u} + \mathrm{z})$ . This defines a downward sloping line in (u, W/P) space.
 
-In long run equilibrium the price setting relationship is unchanged:  $\mathrm{P} = (1 + \mathrm{m})\mathrm{W}$  which implies  $\mathrm{W / P} = 1 / (1 + \mathrm{m})$ . This gives a horizontal line in  $(\mathrm{u}, \mathrm{W / P})$  space.
+In long run equilibrium the price setting relationship is unchanged:  $\mathrm{P} = (1 + \mathrm{m})\mathrm{W}$  which implies  $\mathrm{W /P} = 1 / (1 + \mathrm{m})$ . This gives a horizontal line in  $(\mathrm{u}, \mathrm{W /P})$  space.
 
 The intersection of these two curves defines the natural rate of unemployment,  $u_{n} = u^{*}$ , also called the structural rate of unemployment. Algebraically, it is given by:  $u_{n} = (m + z + mz) / \alpha (1 + m)$  which is  $(m + z) / \alpha$ , approximately (assuming that  $m$  is small).
 
@@ -262,9 +262,9 @@ With only a slight modification, we can analyze the long-run impact of shocks to
 
 Luddites were workers in the textile industry in the early 1800s in England who destroyed machines they thought threatened their jobs. The word, luddite, now refers to a person opposed to new technology. In France in the 1800s it is alleged (the historical fact is somewhat controversial) that workers destroyed machines with their wooden shoes, called sabots; hence the modern terms of saboteur and sabotage. In the 1990s, France passed a law reducing the normal workweek from 39 to 35 hours because of concern that technological progress meant not enough work for all workers to have full-time jobs.
 
-To analyze the issue in the long run  $(\mathrm{P = P^e}$  and  $\mathrm{A} = \mathrm{A}^{\mathrm{e}})$ , we use the wage setting relationship:  $\mathrm{W} = \mathrm{AP}(1 - \alpha \mathrm{u} + z)$  where A is not equal to 1. This defines a downward sloping line in (u, W/P) space given by:  $\mathrm{W / P = A(1 - \alpha u + z)}$
+To analyze the issue in the long run  $(\mathrm{P =P^e}$  and  $\mathrm{A} = \mathrm{A}^{\mathrm{e}})$ , we use the wage setting relationship:  $\mathrm{W} = \mathrm{AP}(1 - \alpha \mathrm{u} + z)$  where A is not equal to 1. This defines a downward sloping line in (u, W/P) space given by:  $\mathrm{W /P =A(1 - \alphau +z)}$
 
-In long run equilibrium the price setting relationship becomes:  $\mathrm{P} = (1 + \mathrm{m})\mathrm{W / A}$  (assuming  $\mathrm{K_0} = 1$ ), which implies  $\mathrm{W / P} = \mathrm{A} / (1 + \mathrm{m})$ . This gives a horizontal line in (u, W/P) space.
+In long run equilibrium the price setting relationship becomes:  $\mathrm{P} = (1 + \mathrm{m})\mathrm{W /A}$  (assuming  $\mathrm{K_0} = 1$ ), which implies  $\mathrm{W /P} = \mathrm{A} / (1 + \mathrm{m})$ . This gives a horizontal line in (u, W/P) space.
 
 Notice that A enters multiplicatively in both the equilibrium wage and price setting relationships.
 
@@ -283,7 +283,7 @@ Now back to our basic model.
 The final issue on the supply side of the model is the adjustment of price level and inflation expectations. We will make the major assumption that expectations of the price level and price inflation are sticky or fixed in the short run; indeed the short run is defined as the period during which price expectations are fixed. As we will see, this assumption allows exogenous shifts in aggregate demand to affect output, relative to its natural (or potential level) in the short run. All other "prices" in the model, such as wages, the price of output, and interest rates are fully flexible even in the short run. In addition, we will assume that inflation (and price level) expectations adjust adaptively over time; this means that individuals will adjust up (down) their expectations of inflation only if actual inflation exceeds (is less than) what had been expected to occur. Mathematically, we can model adaptive inflation expectations as follows:
 
 $$
-\Delta \pi_ {\mathrm {t}} ^ {\mathrm {e}} = \pi_ {\mathrm {t}} ^ {\mathrm {e}} - \pi_ {\mathrm {t} - 1} ^ {\mathrm {e}} = \beta (\pi_ {\mathrm {t} - 1} - \pi_ {\mathrm {t} - 1} ^ {\mathrm {e}}) \quad 0 \leq \beta \leq 1
+\Delta \pi_{\mathrm{t}}^{\mathrm{e}} = \pi_{\mathrm{t}}^{\mathrm{e}} - \pi_{\mathrm{t} - 1}^{\mathrm{e}} = \beta (\pi_{\mathrm{t} - 1} - \pi_{\mathrm{t} - 1}^{\mathrm{e}}) \quad 0 \leq \beta \leq 1
 $$
 
 For example, if people expected a  $3\%$  inflation rate  $(= \pi_{t-1}^{e})$  and if actual inflation  $(= \pi_{t-1})$  turned out to be  $4\%$  in period t-1, then they would "adapt" to the  $1\%$  forecast error by increasing their expectation of inflation for the next period by  $1/2\%$  (if  $\beta = 1/2$ ). Thus, the revised expectation of inflation would be  $3 - 1/2\%$ $[= \pi_{t}^{e} = \pi_{t-1}^{e} + 1/2 (\pi_{t-1} - \pi_{t-1}^{e})]$ .
@@ -291,14 +291,14 @@ For example, if people expected a  $3\%$  inflation rate  $(= \pi_{t-1}^{e})$  a
 We can re-write the expression for adaptive expectations as follows:
 
 $$
-\pi_ {t} ^ {e} = \beta (\pi_ {t - 1}) + (1 - \beta) \pi_ {t - 1} ^ {e}
+\pi_{t}^{e} = \beta (\pi_{t - 1}) + (1 - \beta) \pi_{t - 1}^{e}
 $$
 
 When written this way, it is seen that expected inflation this period is based on past information. For example, Blanchard implicitly assumes  $\beta = 1$  (which appears to hold empirically for much of the post-war period in the U.S. until the beginning of the
 
 financial crisis in 2007), in which case the expected rate of inflation this period equals last period's actual inflation rate. Thus, if there is an aggregate demand shock this period, inflation expectations will not adjust until next period (even though actual inflation will change this period, as we will see in the next section). For example, if the Fed announces a new target rate of inflation,  $\pi^{*}$ , this period there will be no immediate impact on inflation expectations; in this sense, Fed announcements are not fully credible in this model (unlike in rational expectations models in which full credibility--i.e,  $\pi^{\mathrm{c}} = \pi^{*}$  -- allows the Fed announcement of a new target inflation to have an immediate impact on inflation expectations and hence on aggregate supply). The lack of an immediate response in our model is the implication of the "stickiness" assumption.
 
-[[Technical note: For students interested in understanding more about the inner workings of our model, it is helpful to pull the prior analysis together in order to really understand how it is possible for output to exceed its potential or natural level in the short run. This is useful background for our subsequent analysis of the effects of the pandemic. To simplify suppose output equals its potential level initially and that there is a positive demand shock (rightward shift in AD curve) putting upward pressure on prices. Since the production function,  $\mathrm{Y} = \mathrm{ANK}_0$  always holds, it must be that employment,  $\mathrm{N}$ , rises above its natural level (given A and  $\mathrm{K}_0$ ) or that the unemployment rate falls below its natural level in order that output rises above potential. From price setting we know that the real wage,  $\mathrm{W / P}$ , is constant (given the supply-side exogenous variables: m, A, and  $\mathrm{K}_0$ ). This does not mean that wages and prices separately are constant; in fact each rises by the same percentage amount as a result of the demand shock. From wage setting we know:  $\mathrm{W / P} = (\mathrm{P}^{\mathrm{e}} / \mathrm{P}) (1 - \alpha u + z)$ . Since  $\mathrm{W / P}$  is constant when there is a demand shock and  $\mathrm{P}^{\mathrm{e}}$  is given in the short run, the right hand side must be constant and thus a decline in u must accompany an increase in  $\mathrm{P}$ . Put another way, firms respond to higher prices by increasing employment of workers and boosting output above potential in the short run with fixed price level and inflation expectations.]
+[[Technical note: For students interested in understanding more about the inner workings of our model, it is helpful to pull the prior analysis together in order to really understand how it is possible for output to exceed its potential or natural level in the short run. This is useful background for our subsequent analysis of the effects of the pandemic. To simplify suppose output equals its potential level initially and that there is a positive demand shock (rightward shift in AD curve) putting upward pressure on prices. Since the production function,  $\mathrm{Y} = \mathrm{ANK}_0$  always holds, it must be that employment,  $\mathrm{N}$ , rises above its natural level (given A and  $\mathrm{K}_0$ ) or that the unemployment rate falls below its natural level in order that output rises above potential. From price setting we know that the real wage,  $\mathrm{W /P}$ , is constant (given the supply-side exogenous variables: m, A, and  $\mathrm{K}_0$ ). This does not mean that wages and prices separately are constant; in fact each rises by the same percentage amount as a result of the demand shock. From wage setting we know:  $\mathrm{W /P} = (\mathrm{P}^{\mathrm{e}} / \mathrm{P}) (1 - \alpha u + z)$ . Since  $\mathrm{W /P}$  is constant when there is a demand shock and  $\mathrm{P}^{\mathrm{e}}$  is given in the short run, the right hand side must be constant and thus a decline in u must accompany an increase in  $\mathrm{P}$ . Put another way, firms respond to higher prices by increasing employment of workers and boosting output above potential in the short run with fixed price level and inflation expectations.]
 
 # Major Uses of Macroeconomic Model
 
@@ -382,7 +382,7 @@ The negative demand-side shock offsets the inflation pressure, but reinforces th
 
 The qualitative impact of the demand and supply side shocks on prices is ambiguous unless we know the relative sizes of the shocks. Actual data for both the total and core CPI revealed that there was a significant drop in consumer price inflation (to negative levels) in March, April, and May 2020. This suggests that the demand shock was a bit larger than the supply shock, at least during the early stages of the pandemic. From our model of inflation (see page 12), the decline in prices implies that output declines more than potential, i.e., the output gap, Y - Y* declines.
 
-Moreover, our model also would predict a decline in wage growth; this follows from our price setting equation (see page 10):  $\mathrm{W / P = AK_0 / (1 + m)}$ . The initial decline in the capital stock should lead to a smaller real wage and hence smaller wage growth given the slowdown in price inflation. In fact, labor compensation growth slowed during the recession months of 2020 (and has increased since). [Full disclosure: although nominal wage growth declined, the real wage actually rose in the second quarter of 2020; if our model is correct then the price markup factor,  $m$ , must have fallen temporarily.]
+Moreover, our model also would predict a decline in wage growth; this follows from our price setting equation (see page 10):  $\mathrm{W /P =AK_0 / (1 +m)}$ . The initial decline in the capital stock should lead to a smaller real wage and hence smaller wage growth given the slowdown in price inflation. In fact, labor compensation growth slowed during the recession months of 2020 (and has increased since). [Full disclosure: although nominal wage growth declined, the real wage actually rose in the second quarter of 2020; if our model is correct then the price markup factor,  $m$ , must have fallen temporarily.]
 
 From the monetary policy rule (with both  $\mathrm{r}_{\pi}$  and  $\mathrm{r}_{y}$  not equal to zero) the decline in both inflation and the output gap implies a reduction in the real interest rate. Indeed, the Fed lowered the federal funds rate from about 1.5% to zero in mid-March, 2020--largely in response to the declines in output and employment--and has kept it near zero through early 2022. Recall however that it is primarily long-term interest rates--such as corporate bond rates, auto loan rates, and mortgage interest rates--that have an impact on the interest-rate-sensitive components of aggregate demand. Each of those rates can be thought of as the sum of a corresponding Treasury security rate and a premium that serves as compensation for default risk (discussed in depth in Econ 111). The Fed action was accompanied by a marked reduction of at least 1 percentage point in Treasury interest rates across the maturity spectrum. In addition there was a sizable reduction (nearly 1 percentage point) in corporate bond and mortgage interest rates; these reductions lasted through the end of 2020. Any financial market elevation of default risk premiums owing to the pronounced slowdown in economic activity was outweighed by the general decline in Treasury rates.
 
@@ -414,11 +414,11 @@ Keynesians view recessions as being caused by negative shocks to consumption and
 4. During a recession, output is less than its natural level because demand pressure has weakened and thus, when firms adjust their prices, they will cut them (movement down the AS curve); this is consistent with the business cycle fact that inflation tends to slow during or just after recessions.
 5. The model does not explain the mildly procyclical nature of the real wage in a world whose short-run fluctuations are dominated by demand-side shocks.
 
-Indeed, the real wage is constant in the face of demand shocks in the model [recall that  $\mathrm{W / P} = 1 / (1 + \mathrm{m})$ ); it depends on the markup, which itself is unresponsive to cyclical fluctuations in Blanchard's model of price setting.
+Indeed, the real wage is constant in the face of demand shocks in the model [recall that  $\mathrm{W /P} = 1 / (1 + \mathrm{m})$ ); it depends on the markup, which itself is unresponsive to cyclical fluctuations in Blanchard's model of price setting.
 
 6. Similarly the model does not explain the procyclical behavior of labor productivity. Recall in Blanchard's simplified model,  $\mathrm{Y} = \mathrm{N}$ , and hence labor productivity, or  $\mathrm{Y} / \mathrm{N}$ , is constant. In a slightly more complicated model that allows for diminishing marginal productivity of labor, an increase in employment during demand-lead cyclical expansions, e.g., should reduce average labor productivity because of diminishing marginal productivity. Thus, an expanded Keynesian model predicts that average labor productivity is countercyclical, contrary to the business cycle "fact." To address this issue, Keynesians have modified their models to include labor hoarding. During recessions, firms are seen as utilizing their workforce less intensively (rather than engaging in layoffs, which are costly); hence measured labor productivity declines (hours worked remain the same, but marketable output declines). Of course, as mentioned in class, the experience of the recessions of 2007-2009 and 2020 raises serious questions about whether labor productivity is, in fact, procyclical.
 
-Here is a simple framework that allows for labor hoarding. Consider the modified Cobb-Douglas production function:  $\mathrm{Y} = (\mu_{\mathrm{k}}\mathrm{K})^{\alpha}(\mu_{\mathrm{n}}\mathrm{N})^{1 - \alpha}$  where the  $\mu$ 's denote the utilization rates of capital and labor, respectively, and  $0\leq \alpha \leq 1$  . The utilization rates measure how intensively the capital and labor inputs are used; for example, a waitress at a restaurant is used very intensively during the normal lunch and dinner hours but far less intensively at other times. In the case of labor, for example, the product of the utilization rate and the amount of labor (think of the latter as the number of hours worked) defines "labor services." Thus output depends on capital services and labor services. Also note that we can write the average product of labor,  $\mathrm{Y / N}$  ,as  $(\mu_{\mathrm{k}}\mathrm{K})^{\alpha}(\mu_{\mathrm{n}})^{1 - \alpha} / \mathrm{N}^{\alpha}$
+Here is a simple framework that allows for labor hoarding. Consider the modified Cobb-Douglas production function:  $\mathrm{Y} = (\mu_{\mathrm{k}}\mathrm{K})^{\alpha}(\mu_{\mathrm{n}}\mathrm{N})^{1 - \alpha}$  where the  $\mu$ 's denote the utilization rates of capital and labor, respectively, and  $0\leq \alpha \leq 1$  . The utilization rates measure how intensively the capital and labor inputs are used; for example, a waitress at a restaurant is used very intensively during the normal lunch and dinner hours but far less intensively at other times. In the case of labor, for example, the product of the utilization rate and the amount of labor (think of the latter as the number of hours worked) defines "labor services." Thus output depends on capital services and labor services. Also note that we can write the average product of labor,  $\mathrm{Y /N}$  ,as  $(\mu_{\mathrm{k}}\mathrm{K})^{\alpha}(\mu_{\mathrm{n}})^{1 - \alpha} / \mathrm{N}^{\alpha}$
 
 Thus as employment (N) declines during recessions, the average product of labor should rise according to the production function with diminishing average (and marginal) productivity of labor. However, there is ample evidence that the utilization rate of labor  $(\mu_{\mathrm{n}})$  declines during recessions as those workers retained by firms are given some tasks--such as maintenance--that do not boost output as normally measured. Thus measured output per hour worked declines during recessions (if the utilization rate declines enough). This phenomenon is called labor hoarding and occurs because it is cheaper for firms to retain workers than to incur firing and re-hiring costs. Thus the procyclicality of the utilization rate of labor can lead to the procyclicality of measured labor productivity.
 
@@ -460,19 +460,19 @@ Here are the equations representing goods market equilibrium (from page 5):
 First substitute equation 5 into equation 4 (eliminating "ex") and then substitute the resulting modified equation 4 along with equations 2 and 3 into equation 1:
 
 $$
-\begin{array}{l} Y = \left[ C _ {0} + c _ {y} (Y - T) + c _ {y e} (Y - T) ^ {e} - c _ {r} r \right] + \left[ I _ {0} + i _ {y} Y + i _ {y e} Y ^ {e} - i _ {r} r \right] + G + \left[ N _ {0} - n _ {y} Y \right. \\ \mathrm {n} _ {\mathrm {y e}} \mathrm {Y} ^ {\mathrm {e}} - \mathrm {n} _ {\mathrm {e}} \left(\mathrm {e} _ {0} + \mathrm {e} _ {\mathrm {r}} (\mathrm {r} - \mathrm {r} _ {\mathrm {f}})\right) ]. \\ \end{array}
+\begin{array}{l} Y = \left[ C_{0} + c_{y} (Y - T) + c_{y e} (Y - T)^{e} - c_{r} r \right] + \left[ I_{0} + i_{y} Y + i_{y e} Y^{e} - i_{r} r \right] + G + \left[ N_{0} - n_{y} Y \right. \\ \mathrm{n}_{\mathrm{ye}} \mathrm{Y}^{\mathrm{e}} - \mathrm{n}_{\mathrm{e}} \left(\mathrm{e}_{0} + \mathrm{e}_{\mathrm{r}} (\mathrm{r} - \mathrm{r}_{\mathrm{f}})\right) ]. \\ \end{array}
 $$
 
 Now combine all terms in  $r$  on the right hand side and place everything else on the left:
 
 $$
-\begin{array}{l} Y \left(1 - c _ {y} - i _ {y} + n _ {y}\right) - \left[ C _ {0} - c _ {y} (T) - c _ {y e} (T) ^ {e} \right] - \left[ I _ {0} + i _ {y e} Y ^ {e} \right] - G - \left[ N _ {0} - n _ {y e} Y ^ {e} - n _ {e} e _ {0} + n _ {e} e _ {r} f _ {r} \right. \\ = - c _ {r} r - i _ {r} r - n _ {e} r \\ \end{array}
+\begin{array}{l} Y \left(1 - c_{y} - i_{y} + n_{y}\right) - \left[ C_{0} - c_{y} (T) - c_{y e} (T)^{e} \right] - \left[ I_{0} + i_{y e} Y^{e} \right] - G - \left[ N_{0} - n_{y e} Y^{e} - n_{e} e_{0} + n_{e} e_{r} f_{r} \right. \\ = - c_{r} r - i_{r} r - n_{e} r \\ \end{array}
 $$
 
 Now multiply both sides by  $\mathrm{D} = [1 / (-\mathrm{c}_{\mathrm{r}} - \mathrm{i}_{\mathrm{r}} - \mathrm{n}_{\mathrm{e}}\mathrm{e}_{\mathrm{r}})]$  , which is a negative number:
 
 $$
-\begin{array}{l} r = D Y \left(1 - c _ {y} - i _ {y} + n _ {y}\right) + D \left\{\left[ C _ {0} - c _ {y} (T) - c _ {y e} (T) ^ {e} \right] - \left[ I _ {0} + i _ {y e} Y ^ {e} \right] - G - \left[ N _ {0} - n _ {y e} Y ^ {e} - n _ {e} e _ {0} + \right. \right. \\ \left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left. \text {e} _ {\mathrm {e}} \right. \text {r} _ {\mathrm {r}}\right) ] \right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right] \\ \end{array}
+\begin{array}{l} r = D Y \left(1 - c_{y} - i_{y} + n_{y}\right) + D \left\{\left[ C_{0} - c_{y} (T) - c_{y e} (T)^{e} \right] - \left[ I_{0} + i_{y e} Y^{e} \right] - G - \left[ N_{0} - n_{y e} Y^{e} - n_{e} e_{0} + \right. \right. \\ \left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left. \text{e}_{\mathrm{e}} \right. \text{r}_{\mathrm{r}}\right) ] \right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right]\right] \\ \end{array}
 $$
 
 This equation defines the IS curve. The messy slope coefficient, i.e. the coefficient of Y is given by:  $\mathrm{D}(1 - \mathrm{c}_{\mathrm{y}} - \mathrm{i}_{\mathrm{y}} + \mathrm{n}_{\mathrm{y}}) = (1 - \mathrm{c}_{\mathrm{y}} - \mathrm{i}_{\mathrm{y}} + \mathrm{n}_{\mathrm{y}}) / (-\mathrm{c}_{\mathrm{r}} - \mathrm{i}_{\mathrm{r}} - \mathrm{n}_{\mathrm{e}}\mathrm{e}_{\mathrm{r}}) < 0$ . [Technically, this requires that  $1 - \mathrm{c}_{\mathrm{y}} - \mathrm{i}_{\mathrm{y}} + \mathrm{n}_{\mathrm{y}} > 0$ , which we assume.] In other words, the IS curve is a downward sloping straight line in the (Y, r) plane. See if you can give an economic interpretation of  $(-\mathrm{c}_{\mathrm{r}} - \mathrm{i}_{\mathrm{r}} - \mathrm{n}_{\mathrm{e}}\mathrm{e}_{\mathrm{r}})$ .
@@ -480,7 +480,7 @@ This equation defines the IS curve. The messy slope coefficient, i.e. the coeffi
 The messy intercept term of the IS curve is given by:
 
 $$
-\mathrm {D} \{- \left[ \mathrm {C} _ {\mathrm {0}} - \mathrm {c} _ {\mathrm {y}} (\mathrm {T}) - \mathrm {c} _ {\mathrm {y e}} (\mathrm {T}) ^ {\mathrm {e}} \right] - \left[ \mathrm {I} _ {\mathrm {0}} + \mathrm {i} _ {\mathrm {y e}} \mathrm {Y} ^ {\mathrm {e}} \right] - \mathrm {G} - \left[ \mathrm {N} _ {\mathrm {0}} - \mathrm {n} _ {\mathrm {y e}} \mathrm {Y} ^ {\mathrm {e}} - \mathrm {n} _ {\mathrm {e}} \mathrm {e} _ {\mathrm {0}} + \mathrm {n} _ {\mathrm {e}} \mathrm {e} _ {\mathrm {r}} \mathrm {r} _ {\mathrm {f}} \right] \}.
+\mathrm{D} \{- \left[ \mathrm{C}_{\mathrm{0}} - \mathrm{c}_{\mathrm{y}} (\mathrm{T}) - \mathrm{c}_{\mathrm{ye}} (\mathrm{T})^{\mathrm{e}} \right] - \left[ \mathrm{I}_{\mathrm{0}} + \mathrm{i}_{\mathrm{ye}} \mathrm{Y}^{\mathrm{e}} \right] - \mathrm{G} - \left[ \mathrm{N}_{\mathrm{0}} - \mathrm{n}_{\mathrm{ye}} \mathrm{Y}^{\mathrm{e}} - \mathrm{n}_{\mathrm{e}} \mathrm{e}_{\mathrm{0}} + \mathrm{n}_{\mathrm{e}} \mathrm{e}_{\mathrm{r}} \mathrm{r}_{\mathrm{f}} \right] \}.
 $$
 
 Now consider an example. What happens to the IS curve, for a given level of output, if G increases, for example. From the IS equation we get by differentiation (technically by partial differentiation for a given value of Y):
@@ -494,7 +494,7 @@ Similarly, a reduction in G shifts the IS curve downward under one interpretatio
 From appendix 1, the equation for the IS curve is given by:
 
 $$
-\begin{array}{l} \mathrm {r} = \mathrm {D Y} (1 - \mathrm {c _ {y}} - \mathrm {i _ {y}} + \mathrm {n _ {y}}) + \mathrm {D} \{- [ \mathrm {C _ {0}} - \mathrm {c _ {y}} (\mathrm {T}) - \mathrm {c _ {y e}} (\mathrm {T}) ^ {\mathrm {e}} ] - [ \mathrm {I _ {0}} + \mathrm {i _ {y e}} \mathrm {Y} ^ {\mathrm {e}} ] - \mathrm {G} - [ \mathrm {N _ {0}} - \mathrm {n _ {y e}} \mathrm {Y} ^ {\mathrm {e}} - \mathrm {n _ {e}} \mathrm {e _ {0}} + \\ \mathrm {n _ {e}} \mathrm {e _ {r}} \mathrm {r f _ {t}} ] \}, \text {w h e r e} \mathrm {D} = [ 1 / (- \mathrm {c _ {r}} - \mathrm {i _ {r}} - \mathrm {n _ {e}} \mathrm {e _ {r}}) ]. \end{array}
+\begin{array}{l} \mathrm{r} = \mathrm{DY} (1 - \mathrm{c_{y}} - \mathrm{i_{y}} + \mathrm{n_{y}}) + \mathrm{D} \{- [ \mathrm{C_{0}} - \mathrm{c_{y}} (\mathrm{T}) - \mathrm{c_{ye}} (\mathrm{T})^{\mathrm{e}} ] - [ \mathrm{I_{0}} + \mathrm{i_{ye}} \mathrm{Y}^{\mathrm{e}} ] - \mathrm{G} - [ \mathrm{N_{0}} - \mathrm{n_{ye}} \mathrm{Y}^{\mathrm{e}} - \mathrm{n_{e}} \mathrm{e_{0}} + \\ \mathrm{n_{e}} \mathrm{e_{r}} \mathrm{rf_{t}} ] \}, \text{wh er e} \mathrm{D} = [ 1 / (- \mathrm{c_{r}} - \mathrm{i_{r}} - \mathrm{n_{e}} \mathrm{e_{r}}) ]. \end{array}
 $$
 
 The equation for the MP line with  $\mathrm{r_y} = 0$  is given by:
@@ -502,7 +502,7 @@ The equation for the MP line with  $\mathrm{r_y} = 0$  is given by:
 $\mathrm{r} = \mathrm{r}^{*} + \mathrm{r}_{\pi}(\pi - \pi^{*})$ . Substitute the right hand side of this expression for  $\mathbf{r}$  in the IS equation, then solve the resulting expression for  $\pi$  and we get:
 
 $$
-\begin{array}{l} \pi = - (1 / r _ {\pi}) r ^ {*} + \pi^ {*} + (1 / r _ {\pi}) D Y (1 - c _ {y} - i _ {y} + n _ {y}) + (1 / r _ {\pi}) D \left\{- [ C _ {0} - c _ {y} (T) - c _ {y e} (T) ^ {e} ] - [ I _ {0} + \right. \\ \mathrm {i} _ {\mathrm {y e}} \mathrm {Y} ^ {\mathrm {e}} ] - \mathrm {G} - \left[ \mathrm {N} _ {0} - \mathrm {n} _ {\mathrm {y e}} \mathrm {Y} ^ {\mathrm {e}} - \mathrm {n} _ {\mathrm {e}} \mathrm {e} _ {\mathrm {o}} + \mathrm {n} _ {\mathrm {e}} \mathrm {e} _ {\mathrm {r}} \mathrm {r} _ {\mathrm {f}} \right] \\ \end{array}
+\begin{array}{l} \pi = - (1 / r_{\pi}) r^{*} + \pi^{*} + (1 / r_{\pi}) D Y (1 - c_{y} - i_{y} + n_{y}) + (1 / r_{\pi}) D \left\{- [ C_{0} - c_{y} (T) - c_{y e} (T)^{e} ] - [ I_{0} + \right. \\ \mathrm{i}_{\mathrm{ye}} \mathrm{Y}^{\mathrm{e}} ] - \mathrm{G} - \left[ \mathrm{N}_{0} - \mathrm{n}_{\mathrm{ye}} \mathrm{Y}^{\mathrm{e}} - \mathrm{n}_{\mathrm{e}} \mathrm{e}_{\mathrm{o}} + \mathrm{n}_{\mathrm{e}} \mathrm{e}_{\mathrm{r}} \mathrm{r}_{\mathrm{f}} \right] \\ \end{array}
 $$
 
 This equation mathematically defines the AD curve, i.e., the relationship between  $\pi$  and Y when simultaneously the goods market is in equilibrium and when the Fed is following the monetary policy rule, given the exogenous variables  $G$ ,  $C_0$ ,  $r^*$ ,  $\pi^*$ , etc.
@@ -514,7 +514,7 @@ slope  $= (1 / \mathrm{r}_{\pi})\mathrm{D}(1 - \mathrm{c}_{\mathrm{y}} - \mathrm
 The AD curve shifts whenever any of the exogenous variables (that make up the intercept term) change. For example, the curve shifts up if G rises (for any given value of Y):
 
 $$
-\mathrm {d} \pi / \mathrm {d G} = - (1 / \mathrm {r} _ {\pi}) \mathrm {D} > 0.
+\mathrm{d} \pi / \mathrm{dG} = - (1 / \mathrm{r}_{\pi}) \mathrm{D} > 0.
 $$
 
 Alternatively, we could have solved for  $\mathrm{Y}$  in terms of  $\pi$  and shown that an increase in G shifts the AD curve to the right (for any give level of inflation). By contrast, a reduction in G shifts the AD curve leftward under one interpretation and downward under the other interpretation.
@@ -528,23 +528,23 @@ By contrast, in the short run with inflation expectations fixed, output is affec
 AD:  $\pi = I_{\mathrm{D}} + m_{\mathrm{D}}Y$ , where  $I_{\mathrm{D}}$  denotes the intercept and  $m_{\mathrm{D}}$  the slope of the AD curve. [Recall that  $Y = mX + b$  is the equation of a straight line in the  $(X,Y)$  plane.]
 
 $$
-\begin{array}{l} \text {F r o m a p p e n d i x 2 : I _ {D} = - (1 / r _ {\pi}) r ^ {*} + \pi^ {*} + (1 / r _ {\pi}) D \{- [ C _ {0} - c _ {y} (T) - c _ {y e} (T) ^ {e} ] - [ I _ {0} +} \\ \left. i _ {y e} Y ^ {e} \right] - G - \left[ N _ {0} - n _ {y e} Y ^ {e} - n _ {e} e _ {0} + n _ {e} e _ {r} r _ {f} \right] \}. \quad A n d, \end{array}
+\begin{array}{l} \text{Fr om ap pe nd ix 2 :I_{D} = - (1 / r_{\pi}) r^{*} + \pi^{*} + (1 / r_{\pi}) D \{- [ C_{0} - c_{y} (T) - c_{y e} (T)^{e} ] - [ I_{0} +} \\ \left. i_{y e} Y^{e} \right] - G - \left[ N_{0} - n_{y e} Y^{e} - n_{e} e_{0} + n_{e} e_{r} r_{f} \right] \}. \quad A n d, \end{array}
 $$
 
 $$
-\mathrm {m} _ {\mathrm {b}} = \left(1 / \mathrm {r} _ {\pi}\right) \mathrm {D} \left(1 - \mathrm {c} _ {\mathrm {y}} - \mathrm {i} _ {\mathrm {y}} + \mathrm {n} _ {\mathrm {y}}\right) <   0.
+\mathrm{m}_{\mathrm{b}} = \left(1 / \mathrm{r}_{\pi}\right) \mathrm{D} \left(1 - \mathrm{c}_{\mathrm{y}} - \mathrm{i}_{\mathrm{y}} + \mathrm{n}_{\mathrm{y}}\right) <   0.
 $$
 
 AS:  $\pi = \mathrm{I}_{\mathrm{s}} + \mathrm{m}_{\mathrm{s}}\mathrm{Y}$  where  $\mathrm{I_s}$  denotes the intercept and  $\mathfrak{m}_{\mathrm{s}}$  the slope of the AS curve.
 
 $$
-I _ {S} = \pi_ {t} ^ {e} + a ^ {\prime} - (\alpha / A L) Y ^ {*} \text {w h e r e} Y ^ {*} = [ 1 - (m + z) / \alpha ] A L; \text {a n d ,} m _ {s} = (\alpha / A L) > 0.
+I_{S} = \pi_{t}^{e} + a^{\prime} - (\alpha / A L) Y^{*} \text{wh er e} Y^{*} = [ 1 - (m + z) / \alpha ] A L; \text{an d ,} m_{s} = (\alpha / A L) > 0.
 $$
 
 Substitute the expression for  $\pi$  from the AS curve into the equation for the AD curve:
 
 $$
-\mathrm {I} _ {\mathrm {S}} + \mathrm {m} _ {\mathrm {S}} \mathrm {Y} = \mathrm {I} _ {\mathrm {D}} + \mathrm {m} _ {\mathrm {D}} \mathrm {Y}. \text {N o w s o l v e f o r Y}.
+\mathrm{I}_{\mathrm{S}} + \mathrm{m}_{\mathrm{S}} \mathrm{Y} = \mathrm{I}_{\mathrm{D}} + \mathrm{m}_{\mathrm{D}} \mathrm{Y}. \text{No ws ol ve fo rY}.
 $$
 
 $\mathbf{Y} = (\mathbf{I}_{\mathbf{D}} - \mathbf{I}_{\mathbf{s}}) / (\mathbf{m}_{\mathbf{s}} - \mathbf{m}_{\mathbf{d}})$ . This is the short-run equilibrium value for output. (Notice that the denominator--the difference in slopes of the two curves--is positive.)

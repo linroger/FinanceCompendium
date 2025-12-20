@@ -61,7 +61,7 @@ We are now ready to define the actual and expected return of a risky asset and a
 The actual return on a portfolio of assets over some specific time period is straightforward to calculate using the formula:
 
 $$
-R _ {p} = w _ {1} R _ {1} + w _ {2} R _ {2} + \dots + w _ {G} R _ {G} \tag {1}
+R_{p} = w_{1} R_{1} + w_{2} R_{2} + \dots + w_{G} R_{G} \tag {1}
 $$ where
 
 
@@ -76,7 +76,7 @@ $G =$  number of assets in the portfolio
 In shorthand notation, equation (1) can be expressed as follows:
 
 $$
-R _ {p} = \sum_ {g = 1} ^ {G} w _ {g} R _ {g} \tag {2}
+R_{p} = \sum_{g = 1}^{G} w_{g} R_{g} \tag {2}
 $$
 
 Equation (2) states that the return on a portfolio  $(R_{p})$  of  $G$  assets is equal to the sum over all individual assets' weights in the portfolio times their respective return. The portfolio return  $R_{p}$  is sometimes called the holding period return or the ex post return.
@@ -94,7 +94,7 @@ w_{3} = \11 million/\$25 million=0.44, or 44\% and R_{3} = 5\%
 Notice that the sum of the weights is equal to 1. Substituting into equation (1), we get the holding period portfolio return,
 
 $$
-R _ {p} = 0.24 (12 \%) + 0.32 (10 \%) + 0.44 (5 \%) = 8.28 \%
+R_{p} = 0.24 (12 \%) + 0.32 (10 \%) + 0.44 (5 \%) = 8.28 \%
 $$
 
 # The Expected Return of a Portfolio of Risky Assets
@@ -103,7 +103,7 @@ Equation (1) shows how to calculate the actual return of a portfolio over some s
 
 
 $$
-E \left(R _ {p}\right) = w _ {1} E \left(R _ {1}\right) + w _ {2} E \left(R _ {2}\right) + \dots + w _ {G} E \left(R _ {G}\right) \tag {3}
+E \left(R_{p}\right) = w_{1} E \left(R_{1}\right) + w_{2} E \left(R_{2}\right) + \dots + w_{G} E \left(R_{G}\right) \tag {3}
 $$
 
 The  $E()$  signifies expectations, and  $E(R_P)$  is sometimes called the ex ante return, or the expected portfolio return over some specific time period.
@@ -113,20 +113,20 @@ The expected return,  $E(R_{i})$ , on a risky asset  $i$  is calculated as follo
 In our case, the random variable is the uncertain return of asset  $i$ . Having specified a probability distribution for the possible rates of return, the expected value of the rate of return for asset  $i$  is the weighted average of the possible outcomes. Finally, rather than use the term "expected value of the return of an asset," we simply use the term "expected return." Mathematically, the expected return of asset  $i$  is expressed as
 
 $$
-E \left(R _ {i}\right) = p _ {1} R _ {1} + p _ {2} R _ {2} + \dots + p _ {N} R _ {N} \tag {4}
+E \left(R_{i}\right) = p_{1} R_{1} + p_{2} R_{2} + \dots + p_{N} R_{N} \tag {4}
 $$ where
 
 
 $$
-R _ {n} = \text {t h e n t h p o s s i b l e r a t e o f r e t u r n f o r a s s e t} i
+R_{n} = \text{th en th po ss ib le ra te of re tu rn fo ra ss et} i
 $$
 
 $$
-\begin{array}{l} p _ {n} = \text {t h e p r o b a b i l i t y o f a t t a i n i n g t h e r a t e o f r e t u r n R _ {n} f o r a s s e t i} \end{array}
+\begin{array}{l} p_{n} = \text{th ep ro ba bi li ty of at ta in in gt he ra te of re tu rn R_{n} f o r a s s e t i} \end{array}
 $$
 
 $$
-N = \text {t h e n u m b e r o f p o s s i b l e o u t c o m e s f o r t h e}
+N = \text{th en um be ro fp os si bl eo ut co me sf or th e}
 $$
 
 How do we specify the probability distribution of returns for an asset? We shall see later
@@ -139,7 +139,7 @@ Table 1 Probability Distribution for the Rate of Return for Stock XYZ
 Substituting into equation (4) we get
 
 $$
-\begin{array}{l} E \left(R _ {X Y Z}\right) = 0.18 (12 \%)+ 0.24 (10 \%)+ 0.29 (8 \% \\ +0.16(4\%) + 0.13(-4\%) \\ = 7 \% \\ \end{array}
+\begin{array}{l} E \left(R_{X Y Z}\right) = 0.18 (12 \%)+ 0.24 (10 \%)+ 0.29 (8 \% \\ +0.16(4\%) + 0.13(-4\%) \\ = 7 \% \\ \end{array}
 $$
 
 Thus,  $7\%$  is the expected return or mean of the probability distribution for the rate of return on stock XYZ.
@@ -157,18 +157,18 @@ The variance of a random variable is a measure of the dispersion or variability 
 The equation for the variance of the expected return for asset  $i$ , denoted  $\operatorname{var}(R_i)$ , is
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {i}\right) = p _ {1} \left[ r _ {1} - E \left(R _ {i}\right) \right] ^ {2} + p _ {2} \left[ r _ {2} - E \left(R _ {i}\right) \right] ^ {2} + \dots \\ + p _ {N} \left[ r _ {N} - E \left(R _ {i}\right) \right] ^ {2} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{i}\right) = p_{1} \left[ r_{1} - E \left(R_{i}\right) \right]^{2} + p_{2} \left[ r_{2} - E \left(R_{i}\right) \right]^{2} + \dots \\ + p_{N} \left[ r_{N} - E \left(R_{i}\right) \right]^{2} \\ \end{array}
 $$ or
 
 
 $$
-\operatorname {v a r} \left(R _ {i}\right) = \sum_ {n = 1} ^ {N} p _ {n} \left[ r _ {n} - E \left(R _ {i}\right) \right] ^ {2} \tag {5}
+\operatorname{va r} \left(R_{i}\right) = \sum_{n = 1}^{N} p_{n} \left[ r_{n} - E \left(R_{i}\right) \right]^{2} \tag {5}
 $$
 
 Using the probability distribution of the return for stock XYZ, we can illustrate the calculation of the variance:
 
 $$
-\begin{array}{l} \operatorname {var} \left(R _ {\mathrm {XYZ}}\right) = 0.18 \left(12 \% - 7 \%\right) ^ {2} + 0.24 \left(10 \% - 7 \%\right) ^ {2} \\ +0.29(8\% -7\%) ^ {2} + 0.16(4\% -7\%) ^ {2} \\ +0.13(-4\% -7\%) ^ {2} = 24.1\% \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{\mathrm{XYZ}}\right) = 0.18 \left(12 \% - 7 \%\right)^{2} + 0.24 \left(10 \% - 7 \%\right)^{2} \\ +0.29(8\% -7\%)^{2} + 0.16(4\% -7\%)^{2} \\ +0.13(-4\% -7\%)^{2} = 24.1\% \\ \end{array}
 $$
 
 The variance associated with a distribution of returns measures the tightness with which the distribution is clustered around the mean or expected return. Markowitz argued that this tightness or variance is equivalent to the uncertainty or riskiness of the investment. If an asset is riskless, it has an expected return dispersion of zero. In other words, the return (which is also the expected return in this case) is certain, or guaranteed.
@@ -176,13 +176,13 @@ The variance associated with a distribution of returns measures the tightness wi
 Since the variance is squared units, as we know from earlier in this section, it is common to see the variance converted to the standard deviation by taking the positive square root:
 
 $$
-S D (R _ {i}) = \sqrt {\operatorname {V a r} (R _ {i})}
+S D (R_{i}) = \sqrt{\operatorname{Va r} (R_{i})}
 $$
 
 For stock XYZ, then, the standard deviation is
 
 $$
-S D \left(R _ {X Y Z}\right) = \sqrt {24.1 \%} = 4.9 \%
+S D \left(R_{X Y Z}\right) = \sqrt{24.1 \%} = 4.9 \%
 $$
 
 The variance and standard deviation are conceptually equivalent; that is, the larger the variance or standard deviation, the greater the investment risk. (A criticism of the variance or standard deviation as a measure is discussed later in this entry.)
@@ -192,11 +192,11 @@ The variance and standard deviation are conceptually equivalent; that is, the la
 Equation (5) gives the variance for an individual asset's return. The variance of a portfolio consisting of two assets is a little more difficult to calculate. It depends not only on the variance of the two assets, but also upon how closely the returns of one asset track those of the other asset. The formula is
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {p}\right) = w _ {i} ^ {2} \operatorname {v a r} \left(R _ {i}\right) + w _ {j} ^ {2} \operatorname {v a r} \left(R _ {j}\right) \\ + 2 w _ {i} w _ {j} \operatorname {c o v} \left(R _ {i}, R _ {j}\right) \tag {6} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{i}^{2} \operatorname{va r} \left(R_{i}\right) + w_{j}^{2} \operatorname{va r} \left(R_{j}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) \tag {6} \\ \end{array}
 $$ where
 
 
-$\operatorname{cov}(R_i, R_j) = \text{covariance between the return for assets } i$  and  $j$
+$\operatorname{cov}(R_i, R_j) = \text{covariancebetweenthereturnforassets } i$  and  $j$
 
 In words, equation (6) states that the variance of the portfolio return is the sum of the squared weighted variances of the two assets plus two times the weighted covariance between the two assets. We will see that this equation can be generalized to the case where there are more than two assets in the portfolio.
 
@@ -210,7 +210,7 @@ Table 2 Probability Distribution for the Rate of Return for Asset XYZ and Asset 
 
 
 $$
-\begin{array}{l} \operatorname {c o v} \left(R _ {i}, R _ {j}\right) = p _ {1} \left[ r _ {i 1} - E \left(R _ {i}\right) \right] \left[ r _ {j 1} - E \left(R _ {j}\right) \right] \\ + p _ {2} \left[ r _ {i 2} - E (R _ {i}) \right] \left[ r _ {j 2} - E (R _ {j}) \right] + \dots \\ + p _ {N} \left[ r _ {i N} - E \left(R _ {i}\right) \right] \left[ r _ {j N} - E \left(R _ {j}\right) \right] \tag {7} \\ \end{array}
+\begin{array}{l} \operatorname{co v} \left(R_{i}, R_{j}\right) = p_{1} \left[ r_{i 1} - E \left(R_{i}\right) \right] \left[ r_{j 1} - E \left(R_{j}\right) \right] \\ + p_{2} \left[ r_{i 2} - E (R_{i}) \right] \left[ r_{j 2} - E (R_{j}) \right] + \dots \\ + p_{N} \left[ r_{i N} - E \left(R_{i}\right) \right] \left[ r_{j N} - E \left(R_{j}\right) \right] \tag {7} \\ \end{array}
 $$ where
 
 
@@ -223,7 +223,7 @@ $N =$  the number of possible outcomes for the rate of return
 To illustrate the calculation of the covariance between two assets, we use the two stocks in Table 2. The first is stock XYZ from Table 1 that we used earlier to illustrate the calculation of the expected return and the standard deviation. The other hypothetical stock is stock ABC, whose data are shown in Table 2. Substituting the data for the two stocks from Table 2 in equation (7), the covariance between stocks XYZ and ABC is calculated as follows:
 
 $$
-\begin{array}{l} \operatorname {c o v} \left(R _ {X Y Z}, R _ {A B C}\right) \\ = 0.18(12\% -7\%) (21\% -10\%) \\ +0.24(10\% -7\%) (14\% -10\%) + 0.29(8\%) \\ -7\%)(9\% -10\%) + 0.16(4\% -7\%)(4\% -10\%) \\ +0.13(-4\% -7\%)(-3\% -10\%) = 0.3396\% \\ \end{array}
+\begin{array}{l} \operatorname{co v} \left(R_{X Y Z}, R_{A B C}\right) \\ = 0.18(12\% -7\%) (21\% -10\%) \\ +0.24(10\% -7\%) (14\% -10\%) + 0.29(8\%) \\ -7\%)(9\% -10\%) + 0.16(4\% -7\%)(4\% -10\%) \\ +0.13(-4\% -7\%)(-3\% -10\%) = 0.3396\% \\ \end{array}
 $$
 
 # Relationship between Covariance and Correlation
@@ -231,13 +231,13 @@ $$
 The correlation is related to the covariance between the expected returns for two assets. Specifically, the correlation between the returns for assets  $i$  and  $j$  is defined as the covariance of the two assets divided by the product of their standard deviations:
 
 $$
-\operatorname {c o r} \left(R _ {i}, R _ {j}\right) = \operatorname {c o v} \left(R _ {i}, R _ {j}\right) / \left[ S D \left(R _ {i}\right) S D \left(R _ {j}\right) \right] \tag {8}
+\operatorname{co r} \left(R_{i}, R_{j}\right) = \operatorname{co v} \left(R_{i}, R_{j}\right) / \left[ S D \left(R_{i}\right) S D \left(R_{j}\right) \right] \tag {8}
 $$
 
 Dividing the covariance between the returns of two assets by the product of their standard deviations results in the correlation between the returns of the two assets. Because the correlation is a standardized number (i.e., it has been corrected for differences in the standard deviation of the returns), the correlation is comparable across different assets. The correlation between the returns for stock XYZ and stock ABC is
 
 $$
-\operatorname {cor} \left(R _ {X Y Z}, R _ {A B C}\right) = 0.3396 \% / \left(4.9 \% \times 7.3 \%\right) \approx 0.95
+\operatorname{cor} \left(R_{X Y Z}, R_{A B C}\right) = 0.3396 \% / \left(4.9 \% \times 7.3 \%\right) \approx 0.95
 $$
 
 The correlation coefficient can have values ranging from  $+1.0$ , denoting perfect comovement in the same direction, to  $-1.0$ , denoting perfect comovement in the opposite direction. Also note that because the standard deviations are always positive, the correlation can only be negative if the covariance is a negative number. A correlation of zero implies that the returns are uncorrelated.
@@ -247,14 +247,14 @@ The correlation coefficient can have values ranging from  $+1.0$ , denoting perf
 So far we have defined the risk of a portfolio consisting of two assets. The extension to three assets— $i, j,$  and  $k$ —is as follows:
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {p}\right) = w _ {i} ^ {2} \operatorname {v a r} \left(R _ {i}\right) + w _ {j} ^ {2} \operatorname {v a r} \left(R _ {j}\right) + w _ {k} ^ {2} \operatorname {v a r} \left(R _ {k}\right) \\ + 2 w _ {i} w _ {j} \operatorname {c o v} \left(R _ {i}, R _ {j}\right) + 2 w _ {i} w _ {k} \operatorname {c o v} \left(R _ {i}, R _ {k}\right) \\ + 2 w _ {j} w _ {k} \operatorname {c o v} \left(R _ {j}, R _ {k}\right) \tag {9} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{i}^{2} \operatorname{va r} \left(R_{i}\right) + w_{j}^{2} \operatorname{va r} \left(R_{j}\right) + w_{k}^{2} \operatorname{va r} \left(R_{k}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) + 2 w_{i} w_{k} \operatorname{co v} \left(R_{i}, R_{k}\right) \\ + 2 w_{j} w_{k} \operatorname{co v} \left(R_{j}, R_{k}\right) \tag {9} \\ \end{array}
 $$
 
 In words, equation (9) states that the variance of the portfolio return is the sum of the squared weighted variances of the individual assets plus two times the sum of the weighted pairwise covariances of the assets. In general, for a portfolio with  $G$  assets, the portfolio variance is given by
 
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {p}\right) = \sum_ {g = 1} ^ {G} w _ {g} ^ {2} \operatorname {v a r} \left(R _ {g}\right) \\ + \sum_ {\substack {g = 1 \\ \text{and}} \sum_ {\substack {h = 1 \\ h \neq g}} ^ {G} w _ {g} w _ {h} \operatorname {cov} \left(R _ {g}, R _ {h}\right)} \tag{10} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = \sum_{g = 1}^{G} w_{g}^{2} \operatorname{va r} \left(R_{g}\right) \\ + \sum_{\substack {g = 1 \\ \text{and}} \sum_{\substack {h = 1 \\ h \neq g}}^{G} w_{g} w_{h} \operatorname{cov} \left(R_{g}, R_{h}\right)} \tag{10} \\ \end{array}
 $$
 
 # PORTFOLIO DIVERSIFICATION
@@ -290,42 +290,42 @@ In our two-asset portfolio, assume that asset C and asset D are available with e
 If an equal  $50\%$  weighting is assigned to both stocks C and D, the expected portfolio return can be calculated as shown:
 
 $$
-E \left(R _ {p}\right) = 0.50 (12 \%) + 0.50 (18 \%) = 15 \%
+E \left(R_{p}\right) = 0.50 (12 \%) + 0.50 (18 \%) = 15 \%
 $$
 
 The variance of the return on the two-stock portfolio from equation (6), using decimal form rather than percentage form for the standard deviation inputs, is
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {p}\right) = w _ {C} ^ {2} \operatorname {v a r} \left(R _ {C}\right) + w _ {D} ^ {2} \operatorname {v a r} \left(R _ {D}\right) \\ + 2 w _ {C} w _ {D} \operatorname {c o v} \left(R _ {C}, R _ {D}\right) \\ = (0. 5) ^ {2} (0. 3 0) ^ {2} + (0. 5) ^ {2} (0. 4 0) ^ {2} \\ + 2 (0. 5) (0. 5) \operatorname {c o v} \left(R _ {C}, R _ {D}\right) \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{C}^{2} \operatorname{va r} \left(R_{C}\right) + w_{D}^{2} \operatorname{va r} \left(R_{D}\right) \\ + 2 w_{C} w_{D} \operatorname{co v} \left(R_{C}, R_{D}\right) \\ = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) \operatorname{co v} \left(R_{C}, R_{D}\right) \\ \end{array}
 $$
 
 From equation (8),
 
 $$
-\operatorname {c o r} \left(R _ {C}, R _ {D}\right) = \operatorname {c o v} \left(R _ {C}, R _ {D}\right) / \left[ S D \left(R _ {C}\right) S D \left(R _ {D}\right) \right]
+\operatorname{co r} \left(R_{C}, R_{D}\right) = \operatorname{co v} \left(R_{C}, R_{D}\right) / \left[ S D \left(R_{C}\right) S D \left(R_{D}\right) \right]
 $$ so
 
 
 $$
-\operatorname {c o v} \left(R _ {C}, R _ {D}\right) = S D \left(R _ {C}\right) S D \left(R _ {D}\right) \operatorname {c o r} \left(R _ {C}, R _ {D}\right)
+\operatorname{co v} \left(R_{C}, R_{D}\right) = S D \left(R_{C}\right) S D \left(R_{D}\right) \operatorname{co r} \left(R_{C}, R_{D}\right)
 $$
 
 Since  $SD(R_{C}) = 0.30$  and  $SD(R_{D}) = 0.40$ , then
 
 $$
-\operatorname {c o v} \left(R _ {C}, R _ {D}\right) = (0. 3 0) (0. 4 0) \operatorname {c o r} \left(R _ {C}, R _ {D}\right)
+\operatorname{co v} \left(R_{C}, R_{D}\right) = (0. 3 0) (0. 4 0) \operatorname{co r} \left(R_{C}, R_{D}\right)
 $$
 
 Substituting into the expression for  $\operatorname{var}(R_p)$ , we get
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(R _ {p}\right) = (0. 5) ^ {2} (0. 3 0) ^ {2} + (0. 5) ^ {2} (0. 4 0) ^ {2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \operatorname {c o r} \left(R _ {C}, R _ {D}\right) \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \operatorname{co r} \left(R_{C}, R_{D}\right) \\ \end{array}
 $$
 
 Taking the square root of the variance gives
 
 $$
-\begin{array}{l} S D (R _ {p}) \\ = \sqrt { \begin{array}{c} (0. 5) ^ {2} (0. 3 0) ^ {2} + (0. 5) ^ {2} (0. 4 0) ^ {2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \mathrm {c o r} (R _ {C}, R _ {D}) \end{array} } \\ = \sqrt {0 . 0 6 2 5 + (0 . 0 6) \operatorname {c o r} \left(R _ {C} + R _ {D}\right)} \tag {11} \\ \end{array}
+\begin{array}{l} S D (R_{p}) \\ = \sqrt{ \begin{array}{c} (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \mathrm{co r} (R_{C}, R_{D}) \end{array} } \\ = \sqrt{0 . 0 6 2 5 + (0 . 0 6) \operatorname{co r} \left(R_{C} + R_{D}\right)} \tag {11} \\ \end{array}
 $$
 
 # The Effect of the Correlation of Asset Returns on Portfolio Risk

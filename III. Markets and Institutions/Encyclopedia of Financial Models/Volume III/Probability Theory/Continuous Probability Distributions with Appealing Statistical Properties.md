@@ -58,7 +58,7 @@ Let  $X_{1}, X_{2}, \ldots, X_{n}$  be identically distributed random variables 
 Then, we have
 
 $$
-\frac {\sum_ {i = 1} ^ {n} X _ {i} - n \cdot \mu}{\sigma \sqrt {n}} \xrightarrow {D} N (0, 1) \tag {2}
+\frac{\sum_{i = 1}^{n} X_{i} - n \cdot \mu}{\sigma \sqrt{n}} \xrightarrow {D} N (0, 1) \tag {2}
 $$ as the number  $n$  approaches infinity. The  $D$  above the convergence arrow in equation (2) indicates that the distribution function of the left expression converges to the standard normal distribution.
 
 
@@ -94,7 +94,7 @@ With respect to Property 2, we give two examples. First, let us present the effe
 Consider the binomial stock price model. At time  $t = 0$ , the stock price was  $S_0 = \20$ . At time  $t = 1$ , the stock price was either up or down by  $10\%$  so that the resulting price was either  $S_0 = \$ 18  or  $S_0 = \22$ . Both up- and down movement occurred with probability  $P($ \$18) =  P($ \22) = 0.5 . Now we extend the model to an arbitrary number of  $n$  days. Suppose each day  $i, i = 1, 2, \ldots, n$ , the stock price developed in the same manner as on the first day. That is, the price is either up  $10\%$  with  $50\%$  probability or down  $10\%$  with the same probability. If on day  $i$  the price is up, we denote this by  $X_i = 1$  and  $X_i = 0$  if the price is down. The  $X_i$  are, hence,  $B(0.5)$  random variables. After, say, 50 days, we have a total of  $Y = X_1 + X_2 + \ldots + X_{50}$  up-movements. Note that because of the assumed independence of the  $X_i$ , that  $Y$  is a  $B(50, 0.5)$  random variable with mean  $n \cdot p = 25$  and variance  $n \cdot p \cdot (1 - p) = 12.5$ . Let us introduce
 
 $$
-Z _ {5 0} = \frac {Y - 2 5}{\sqrt {1 2 . 5}}
+Z_{5 0} = \frac{Y - 2 5}{\sqrt{1 2 . 5}}
 $$
 
 From the comments regarding equation (2), we can assume that  $Z_{50}$  is approximately  $N(25,12.5)$  distributed. So, the probability of at most 15 up-movements, for example, is given by  $P(Y \leq 15) = \Phi((15 - 25) / \sqrt{12.5}) = 0.23\%$ . By comparison, the probability of no more than five up-movements is equal to  $P(Y \leq 5) = \Phi((5 - 25) / \sqrt{12.5}) = 0\%$ .
@@ -107,12 +107,12 @@ As another example, let  $X$  be some random variable representing a quantitativ
 After one day, the stock price is modeled to depend on the dynamic  $X$  as follows
 
 $$
-S _ {1} = S _ {0} \cdot e ^ {X}
+S_{1} = S_{0} \cdot e^{X}
 $$ where  $S_{1}$  is the stock price after one day. The exponent  $X$  in this presentation is referred to as a logarithmic return in contrast to a multiplicative return  $R$  obtained from the formula  $R = S_{1} / S_{0} - 1$ . So, for example, if  $X = 0.01$ ,  $S_{1}$  is equal to  $e^{0.01} \cdot S_{0}$ . That is almost equal to  $1.01 \cdot S_{0}$ , which corresponds to an increase of  $1\%$  relative to  $S_{0}$ . The probability of  $X$  being, for instance, no greater than 0.01 after one day is given by
 
 
 $$
-\begin{array}{l} P (X \leq 0. 0 1) = \int_ {- \infty} ^ {0. 0 1} f (x) d x \\ = \int_ {- \infty} ^ {0. 0 1} \frac {1}{\sqrt {2 \pi} \sqrt {0 . 2}} e ^ {- \frac {x ^ {2}}{2 \cdot 0 . 2}} d x \approx 0. 5 1 \\ \end{array}
+\begin{array}{l} P (X \leq 0. 0 1) = \int_{- \infty}^{0. 0 1} f (x) d x \\ = \int_{- \infty}^{0. 0 1} \frac{1}{\sqrt{2 \pi} \sqrt{0 . 2}} e^{- \frac{x^{2}}{2 \cdot 0 . 2}} d x \approx 0. 5 1 \\ \end{array}
 $$
 
 Consequently, after one day, the stock price increases, at most, by  $1\%$  with  $51\%$  probability, that is,  $P(S_{1} \leq 1.01 \cdot S_{0}) \approx 0.51$ .
@@ -121,7 +121,7 @@ Next, suppose we are interested in a five-day outlook where the daily dynamics  
 
 
 $$
-P (Y \leq 0. 0 1) = \int_ {- \infty} ^ {0. 0 1} \frac {1}{\sqrt {2 \pi} \sqrt {1}} e ^ {- \frac {y ^ {2}}{2 . 1}} d y \approx 0. 5 0
+P (Y \leq 0. 0 1) = \int_{- \infty}^{0. 0 1} \frac{1}{\sqrt{2 \pi} \sqrt{1}} e^{- \frac{y^{2}}{2 . 1}} d y \approx 0. 5 0
 $$
 
 We see that the fivefold variance results in a greater likelihood to exceed the threshold 0.01, that is,
@@ -133,13 +133,13 @@ $$
 We model the stock price after five days as
 
 $$
-S _ {5} = S _ {0} \cdot e ^ {Y} = S _ {0} \cdot e ^ {X _ {1} + X _ {2} + \ldots + X _ {5}}
+S_{5} = S_{0} \cdot e^{Y} = S_{0} \cdot e^{X_{1} + X_{2} + \ldots + X_{5}}
 $$
 
 So, after five days, the probability for the stock price to have increased by no more than  $1\%$  relative to  $S_0$  is equal to
 
 $$
-P (S _ {5} \leq e ^ {0. 0 1} \cdot S _ {0}) = P (S _ {5} \leq 1. 0 1 \cdot S _ {0}) \approx 0. 5 0
+P (S_{5} \leq e^{0. 0 1} \cdot S_{0}) = P (S_{5} \leq 1. 0 1 \cdot S_{0}) \approx 0. 5 0
 $$
 
 There are two reasons why in finance logarithmic returns are commonly used. First, logarithmic returns are often easier to handle than multiplicative returns. Second, if we consider returns that are attributed to ever shorter periods of time (e.g., from yearly to monthly to weekly to daily and so on), the resulting compounded return after some fixed amount of time can be expressed as a logarithmic return. The theory behind this can be obtained from any introductory book on calculus.
@@ -154,7 +154,7 @@ Because  $Z$  is squared, the chi-square distributed random variable assumes onl
 In general, the chi-square distribution is characterized by the degrees of freedom  $n$ , which assume the values 1, 2, ..., Let  $X_{1}, X_{2}, \ldots, X_{n}$  be  $n \chi^2(1)$  distributed random variables that are all independent of each other. Then their sum,  $S$ , is
 
 $$
-S = \sum_ {i = 1} ^ {n} X _ {i} \sim \chi^ {2} (n) \tag {3}
+S = \sum_{i = 1}^{n} X_{i} \sim \chi^{2} (n) \tag {3}
 $$
 
 In words, the sum is again distributed chi-square but this time with  $n$  degrees of freedom. The corresponding mean is  $E(X) = n$ , and the variance equals  $Var(X) = 2 \cdot n$ . So, the mean and variance are directly related to the degrees of freedom.
@@ -162,14 +162,14 @@ In words, the sum is again distributed chi-square but this time with  $n$  degre
 From the relationship in equation (3), we see that the degrees of freedom equal the number of independent  $\chi^2(1)$  distributed  $X_i$  in the sum. If we have  $X_1 \sim \chi^2(n_1)$  and  $X_2 \sim \chi^2(n_2)$ , it follows that
 
 $$
-X _ {1} + X _ {2} \sim \chi^ {2} \left(n _ {1} + n _ {2}\right) \tag {4}
+X_{1} + X_{2} \sim \chi^{2} \left(n_{1} + n_{2}\right) \tag {4}
 $$
 
 From property (4), we have that chi-square distributions have Property 2; that is, they are stable under summation in the sense that the sum of any two chi-squared distributed random variables is itself chi-square distributed.
 
 The chi-square density function with  $n$  degrees of freedom is given by
 
-$$ f (x) = \left\{ \begin{array}{c c} f (x) = \frac {1}{2 ^ {n / 2} \Gamma \left(n / 2\right)} \cdot e ^ {- x / 2} \cdot x ^ {n / 2 - 1}, & x \geq 0 \\ 0 & x <   0 \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{c c} f (x) = \frac{1}{2^{n / 2} \Gamma \left(n / 2\right)} \cdot e^{- x / 2} \cdot x^{n / 2 - 1}, & x \geq 0 \\ 0 & x <   0 \end{array} \right.
 $$ for  $n = 1,2,\ldots$  where  $\Gamma (\cdot)$  is the gamma function. Figure 3 shows a few examples of the chi-square density function with varying degrees of freedom. As can be observed, the chi-square distribution is skewed to the right.
 
 
@@ -181,7 +181,7 @@ As an example of an application of the chi-square distribution, we present a sim
 Figure 3 Density Functions of Chi-Square Distributions for Various Degrees of Freedom  $n$
 
 
-$$ r _ {t} = X _ {1} ^ {2} + X _ {2} ^ {2} + \dots + X _ {d} ^ {2}
+$$ r_{t} = X_{1}^{2} + X_{2}^{2} + \dots + X_{d}^{2}
 $$ where  $d$  is some positive integer number. In addition, each  $X_{i}$  is given as a standard normal random variable independent of all other dynamics. Then, the resulting short rate  $r_t$  is chi-square distributed with  $d$  degrees of freedom, that is,  $r_t \sim \chi^2(d)$ .
 
 
@@ -197,7 +197,7 @@ An important continuous probability distribution when the population variance of
 The  $t$ -distribution is a mixture of the normal and chi-square distributions. To derive the distribution, let  $X$  be distributed standard normal, that is,  $X \sim N(0,1)$ , and  $S$  be chi-square distributed with  $n$  degrees of freedom, that is,  $S \sim \chi^2(n)$ . Furthermore, if  $X$  and  $Y$  are independent of each other (which is to be understood as not influencing the outcome of the other), then
 
 $$
-Z = \frac {X}{\sqrt {S / n}} \sim t (n) \tag {5}
+Z = \frac{X}{\sqrt{S / n}} \sim t (n) \tag {5}
 $$
 
 In words, equation (5) states that the resulting random variable  $Z$  is Student's  $t$ -distributed with  $n$  degrees of freedom. The degrees of freedom are inherited from the chi-square distribution of  $S$ .
@@ -205,31 +205,31 @@ In words, equation (5) states that the resulting random variable  $Z$  is Studen
 How can we interpret equation (5)? Suppose we have a population of normally distributed values with zero mean. The corresponding normal random variable may be denoted as  $X$ . If one also knows the standard deviation of  $X$ ,
 
 $$
-\sigma = \sqrt {V a r (X)}
+\sigma = \sqrt{V a r (X)}
 $$ with  $X / \sigma$ , we obtain a standard normal random variable.
 
 
 However, if  $\sigma$  is not known, we have to use, for example,
 
 $$
-\sqrt {S / n} = \sqrt {1 / n \cdot (X _ {1} ^ {2} + X _ {2} ^ {2} + \cdots + X _ {n} ^ {2})}
+\sqrt{S / n} = \sqrt{1 / n \cdot (X_{1}^{2} + X_{2}^{2} + \cdots + X_{n}^{2})}
 $$ instead where  $X_1^2, X_2^2, \dots, X_n^2$  are  $n$  random variables identically distributed as  $X$ . Moreover,  $X_1, X_2, \dots, X_n$  have to assume values independently of each other. Then, the distribution of
 
 
 $$
-X / \sqrt {S / n}
+X / \sqrt{S / n}
 $$ is the  $t$  -distribution with  $n$  degrees of freedom, that is,
 
 
 $$
-X / \sqrt {S / n} \sim t (n)
+X / \sqrt{S / n} \sim t (n)
 $$
 
 By dividing by  $\sigma$  or  $S / n$ , we generate rescaled random variables that follow a standardized distribution. Quantities similar to  $X / \sqrt{S / n}$  play an important role in parameter estimation.
 
 The density function is defined as
 
-$$ f (x) = \frac {1}{\sqrt {n \cdot \pi}} \cdot \frac {\Gamma \left(\frac {n + 1}{2}\right)}{\Gamma \left(\frac {n}{2}\right)} \cdot \left(1 + \frac {x ^ {2}}{n}\right) ^ {- \frac {n + 1}{2}} \tag {6}
+$$ f (x) = \frac{1}{\sqrt{n \cdot \pi}} \cdot \frac{\Gamma \left(\frac{n + 1}{2}\right)}{\Gamma \left(\frac{n}{2}\right)} \cdot \left(1 + \frac{x^{2}}{n}\right)^{- \frac{n + 1}{2}} \tag {6}
 $$ where the gamma function  $\Gamma$  is incorporated again. The density function is symmetric and has support (i.e., is positive) on all  $R$ .
 
 
@@ -252,7 +252,7 @@ This can be understood as follows. When we rescale  $X$  by dividing by  $\sqrt{
 The mean of the Student's  $t$  random variable is zero, that is  $E(X) = 0$ , while the variance is a function of the degrees of freedom  $n$  as follows
 
 $$
-\sigma^ {2} = \operatorname {V a r} (X) = \frac {n}{n - 2}
+\sigma^{2} = \operatorname{Va r} (X) = \frac{n}{n - 2}
 $$
 
 For  $n = 1$  and 2, there is no finite variance. Distributions with such small degrees of freedom generate extreme movements quite frequently relative to higher degrees of freedom. Precisely for this reason, stock price returns are often found to be modeled quite well using distributions with small degrees of freedom, or alternatively, large variances.
@@ -263,12 +263,12 @@ Let us resume the example at the end of the presentation of the normal distribut
 
 
 $$
-\sqrt {\frac {1}{5} \cdot \left(Y _ {- 1} ^ {2} + Y _ {- 2} ^ {2} + \cdots + Y _ {- 5} ^ {2}\right)}
+\sqrt{\frac{1}{5} \cdot \left(Y_{- 1}^{2} + Y_{- 2}^{2} + \cdots + Y_{- 5}^{2}\right)}
 $$ where the  $Y_{-1}^2, Y_{-2}^2, \ldots, Y_{-5}^2$  are the five independent weekly returns immediately prior to  $Y$ . The resulting rescaled weekly returns
 
 
 $$
-Z = \frac {Y}{\sqrt {Y _ {- 1} ^ {2} + Y _ {- 2} ^ {2} + \cdots + Y _ {- 5} ^ {2}}}
+Z = \frac{Y}{\sqrt{Y_{- 1}^{2} + Y_{- 2}^{2} + \cdots + Y_{- 5}^{2}}}
 $$ then are  $t(5)$  distributed. The probability of  $Y$  not exceeding a value of 0.01 is now
 
 
@@ -300,14 +300,14 @@ Our next distribution is the  $F$ -distribution. It is defined as follows. Let  
 Furthermore, assuming  $X$  and  $Y$  to be independent, then the ratio
 
 $$
-F \left(n _ {1}, n _ {2}\right) = \frac {X / n _ {1}}{Y / n _ {2}} \tag {7}
+F \left(n_{1}, n_{2}\right) = \frac{X / n_{1}}{Y / n_{2}} \tag {7}
 $$ has an  $F$ -distribution with  $n_1$  and  $n_2$  degrees of freedom inherited from the underlying chi-square distributions of  $X$  and  $Y$ , respectively. We see that the random variable in equation (7) assumes nonnegative values only because neither  $X$  nor  $Y$  are ever negative. Hence, the support is on the nonnegative real numbers. Also like the chi-square distribution, the  $F$ -distribution is skewed to the right.
 
 
 The  $F$ -distribution has a rather complicated looking density function of the form
 
 $$
-\begin{array}{l} f (x) \\ = \left\{ \begin{array}{c c} \frac {F \left(\frac {n _ {1} + n _ {2}}{2}\right)}{F \left(\frac {n _ {1}}{2}\right) F \left(\frac {N _ {2}}{2}\right)} \cdot \left(\frac {n _ {1}}{n _ {2}}\right) ^ {n _ {1 / 2}} \cdot \frac {x ^ {n _ {1 / 2} - 1}}{\left[ 1 + x \cdot \frac {n _ {1}}{2} \right] ^ {\frac {n _ {1} + n _ {2}}{2}}}, & x \geq 0 \\ 0 & x <   0 \end{array} \right. \tag {8} \\ \end{array}
+\begin{array}{l} f (x) \\ = \left\{ \begin{array}{c c} \frac{F \left(\frac{n_{1} + n_{2}}{2}\right)}{F \left(\frac{n_{1}}{2}\right) F \left(\frac{N_{2}}{2}\right)} \cdot \left(\frac{n_{1}}{n_{2}}\right)^{n_{1 / 2}} \cdot \frac{x^{n_{1 / 2} - 1}}{\left[ 1 + x \cdot \frac{n_{1}}{2} \right]^{\frac{n_{1} + n_{2}}{2}}}, & x \geq 0 \\ 0 & x <   0 \end{array} \right. \tag {8} \\ \end{array}
 $$
 
 Figure 6 displays the density function (8) for various degrees of freedom. As the degrees of freedom  $n_1$  and  $n_2$  increase, the function graph becomes more peaked and less asymmetric while the tails lose mass.
@@ -315,12 +315,12 @@ Figure 6 displays the density function (8) for various degrees of freedom. As th
 The mean is given by
 
 $$
-E (X) = \frac {n _ {2}}{n _ {2} - 2}, \quad \text {f o r} n _ {2} > 2 \tag {9}
+E (X) = \frac{n_{2}}{n_{2} - 2}, \quad \text{fo r} n_{2} > 2 \tag {9}
 $$ while the variance equals
 
 
 $$
-\sigma^ {2} = \operatorname {V a r} (X) = \frac {2 n _ {2} ^ {2} \left(n _ {1} + n _ {2} - 2\right)}{n _ {1} \left(n _ {2} - 2\right) ^ {2} \left(n _ {2} - 4\right)}, \text {f o r} n _ {2} > 4 \tag {10}
+\sigma^{2} = \operatorname{Va r} (X) = \frac{2 n_{2}^{2} \left(n_{1} + n_{2} - 2\right)}{n_{1} \left(n_{2} - 2\right)^{2} \left(n_{2} - 4\right)}, \text{fo r} n_{2} > 4 \tag {10}
 $$ the first chi-square random variable, while the variance in equation (10) is influenced by the degrees of freedom of both random variables.
 
 Note that according to equation (9), the mean is not affected by the degrees of freedom  $n_1$  of
@@ -333,14 +333,14 @@ Figure 6 Density Function of the  $F$ -Distribution for Various Degrees of Freed
 
 The exponential distribution is characterized by the positive real-valued parameter  $\lambda$ . In brief, we use the notation  $\mathrm{Exp}(\lambda)$ . An exponential random variable assumes nonnegative values only. The density defined for  $\lambda > 0$  by
 
-$$ f (x) = \left\{ \begin{array}{c} \lambda \cdot e ^ {- \lambda x},   x \geq 0 \\ 0 \qquad x <   0 \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{c} \lambda \cdot e^{- \lambda x},   x \geq 0 \\ 0 \qquad x <   0 \end{array} \right.
 $$ is right skewed. Figure 7 presents the density function for various parameter values  $\lambda$ .
 
 
 The distribution function is obtained by simple integration as
 
 $$
-F (x) = 1 - e ^ {- \lambda x}
+F (x) = 1 - e^{- \lambda x}
 $$
 
 For identical parameter values as in Figure 7, we have plots of the exponential distribution function shown in Figure 8.
@@ -349,12 +349,12 @@ For this distribution, both the mean and variance are relatively simple function
 
 
 $$
-E (X) = \frac {1}{\lambda}
+E (X) = \frac{1}{\lambda}
 $$ and for the variance
 
 
 $$
-V a r (X) = \frac {1}{\lambda^ {2}}
+V a r (X) = \frac{1}{\lambda^{2}}
 $$
 
 There is an inverse relationship between the exponential distribution and the Poisson distribution. Suppose we have a Poisson random variable  $N$  with parameter  $\lambda$ , i.e.,  $N \sim Poi(\lambda)$ , counting the occurrences of some event within a time frame of length  $T$ . Furthermore, let  $X_1, X_2, \ldots$  be the  $Exp(\lambda)$  distributed interarrival times between the individual occurrences. That is between time zero and the first event,  $X_1$  units of time have passed, between the first event and the second,  $X_2$  units of time have elapsed, and so on. Now, over these  $T$  units of time, we expect  $T \cdot \lambda = T \cdot E(N)$  events to occur. Alternatively, we have an average of  $T / (T \cdot \lambda) = 1 / \lambda = E(X)$  units of time to wait between occurrences.
@@ -366,13 +366,13 @@ Figure 7 Exponential Density Function for Various Parameter Values  $\lambda$
 
 
 $$
-\tau = \sum_ {i} ^ {n} X _ {i} \leq T \tag {11}
+\tau = \sum_{i}^{n} X_{i} \leq T \tag {11}
 $$
 
 A result of this relationship is
 
 $$
-E (N) = \lambda = \frac {1}{E (X)}
+E (N) = \lambda = \frac{1}{E (X)}
 $$
 
 The exponential distribution is commonly referred to as a distribution with a "no memory" property in the context of life-span that ends due to some break.
@@ -390,7 +390,7 @@ Finally, an additional property of the exponential distribution is its relations
 In applications in finance, the parameter  $\lambda$  often has the meaning of a default rate, default intensity, or hazard rate. This can be understood by observing the ratio
 
 $$
-\frac {P (X \in (t , t + d t ])}{d t \cdot P (X > t)} \tag {12}
+\frac{P (X \in (t , t + d t ])}{d t \cdot P (X > t)} \tag {12}
 $$ which expresses the probability of the event of interest such as default of some company occurring between time  $t$  and  $t + dt$  given that it has not happened by time  $t$ , relative to the length of the horizon,  $dt$ . Now, let the length of the interval,  $dt$ , approach zero, and this ratio in equation (12) will have  $\lambda$  as its limit.
 
 
@@ -400,12 +400,12 @@ The exponential distribution is often used in credit risk models where the numbe
 Consider, for example, a portfolio of bonds. Moreover, we consider the number of defaults in this portfolio in one year to be some Poisson random variable with parameter  $\lambda = 5$ , that is, we expect five defaults per year. The same parameter, then, represents the default intensity of the exponentially distributed time between two successive defaults, that is,  $\tau \sim Exp(5)$ , so that on average, we have to wait  $E(\tau) = 1 / 5$  of a year or 2.4 months. For example, the probability of less than three months (i.e.,  $1 / 4$  of a year) between two successive defaults is given by
 
 $$
-P (\tau \leq 0. 2 5) = 1 - e ^ {- 5. 0. 2 5} = 0. 7 1 3 5
+P (\tau \leq 0. 2 5) = 1 - e^{- 5. 0. 2 5} = 0. 7 1 3 5
 $$ or roughly  $71\%$ . Now, the probability of no default in any given year is then
 
 
 $$
-P (\tau > 1) = e ^ {- 5. 1} = 0. 0 0 6 7
+P (\tau > 1) = e^{- 5. 1} = 0. 0 0 6 7
 $$ or  $0.67\%$ .
 
 
@@ -415,7 +415,7 @@ The simplest continuous distribution we are going to introduce is the rectangula
 
 The support is on the real interval  $[a, b]$ . The density function is given by
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {1}{b - a}, & a \leq x \leq b \\ 0 & x \notin [ a, b ] \end{array} \right. \tag {13}
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{b - a}, & a \leq x \leq b \\ 0 & x \notin [ a, b ] \end{array} \right. \tag {13}
 $$
 
 We see that this density function is always constant, either zero or between the bounds  $a$  and  $b$ , equal to the inverse of the interval width. Figure 9 displays the density function (13) for some general parameters  $a$  and  $b$ .
@@ -426,17 +426,17 @@ Figure 9 Density Function of a  $Re(a,b)$  Distribution
 Through integration, the distribution function and the variance is a function of the form
 
 $$
-F (x) = \left\{ \begin{array}{c c} 0 & x <   a \\ \frac {1}{b - a} & a \leq x \leq b \\ 1 & x > b \end{array} \right. \tag {14}
+F (x) = \left\{ \begin{array}{c c} 0 & x <   a \\ \frac{1}{b - a} & a \leq x \leq b \\ 1 & x > b \end{array} \right. \tag {14}
 $$
 
 The mean is equal to
 
 $$
-E (X) = \frac {a + b}{2}
+E (X) = \frac{a + b}{2}
 $$
 
 $$
-\operatorname {V a r} (X) = \frac {(b - a) ^ {2}}{1 2}
+\operatorname{Va r} (X) = \frac{(b - a)^{2}}{1 2}
 $$
 
 In Figure 10, we have the distribution function given by equation (14) with some general parameters  $a$  and  $b$ . By analyzing the plot, we can see that the distribution function is not differentiable at  $a$  or  $b$ , since the derivatives of  $F$  do not exist for these values. At any other real value  $x$ , the derivative exists (being 0) and is continuous. We say in the latter case that  $f$  is smooth there.
@@ -454,25 +454,25 @@ Next we introduce the gamma distribution for positive, real-valued random variab
 
 The density function is given by
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {\lambda (\lambda x) ^ {c - 1} \exp \{- \lambda x \}}{\Gamma (c)}, & x > 0 \\ 0 & x \leq 0 \end{array} \right. \tag {15}
+$$ f (x) = \left\{ \begin{array}{c c} \frac{\lambda (\lambda x)^{c - 1} \exp \{- \lambda x \}}{\Gamma (c)}, & x > 0 \\ 0 & x \leq 0 \end{array} \right. \tag {15}
 $$ with gamma function  $\Gamma$ . A plot of the density function from equation (15) is provided in
 
 
 Figure 11. The distribution function is
 
 $$
-F (x) = \left\{ \begin{array}{c c} 0 & x <   0 \\ \int^ {\lambda x} u ^ {c - 1} e ^ {- u} d u \\ \frac {0}{b ^ {c} \Gamma (c)}, & x \geq 0 \end{array} \right.
+F (x) = \left\{ \begin{array}{c c} 0 & x <   0 \\ \int^{\lambda x} u^{c - 1} e^{- u} d u \\ \frac{0}{b^{c} \Gamma (c)}, & x \geq 0 \end{array} \right.
 $$
 
 The mean is
 
 $$
-E (X) = \frac {c}{\lambda}
+E (X) = \frac{c}{\lambda}
 $$ with variance
 
 
 $$
-V a r (X) = \frac {c}{\lambda^ {2}}
+V a r (X) = \frac{c}{\lambda^{2}}
 $$
 
 # Erlang Distribution
@@ -480,7 +480,7 @@ $$
 A special case is the Erlang distribution, which arises for natural number values of the parameter  $c$ , that is,  $c \in \mathbb{N}$ . The intuition behind it is as follows. Suppose we have  $c$  exponential random variables with the same parameter  $\lambda$ , that is,  $X_{1}, X_{2}, \ldots, X_{c} \sim Exp(\lambda)$  all being independent of each other. Then the sum of these
 
 $$
-S = \sum_ {i = 1} ^ {c} X _ {i}
+S = \sum_{i = 1}^{c} X_{i}
 $$ is distributed  $G a(\lambda, c)$  such that the resulting distribution function is
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/89b00dc6c617e7166ccfaec40eab079da59dd022364a5e128f15b8efaac1cf14.jpg)
@@ -488,7 +488,7 @@ Figure 12 Density Function of a Beta Distribution  $Be(c, d)$
 
 
 $$
-F (s) = \left\{ \begin{array}{c c} 0 & s <   0 \\ 1 - e ^ {- \lambda s} \sum_ {i = 1} ^ {c - 1} \frac {(\lambda s) ^ {i}}{i !}, & s \geq 0 \end{array} \right.
+F (s) = \left\{ \begin{array}{c c} 0 & s <   0 \\ 1 - e^{- \lambda s} \sum_{i = 1}^{c - 1} \frac{(\lambda s)^{i}}{i !}, & s \geq 0 \end{array} \right.
 $$
 
 So, when we add the identically  $Exp(\lambda)$  distributed interarrival times until the  $c$  th default, for example, the resulting combined waiting time is Erlang distributed with parameters  $c$  and  $\lambda$ .
@@ -499,7 +499,7 @@ The beta distribution is characterized by the two parameters  $c$  and  $d$  tha
 
 The density function is defined by
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {1}{B (c , d)} x ^ {c - 1} (1 - x) ^ {d - 1}, & 0 \leq x \leq 1 \\ 0 & \text {e l s e} \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{B (c , d)} x^{c - 1} (1 - x)^{d - 1}, & 0 \leq x \leq 1 \\ 0 & \text{el se} \end{array} \right.
 $$ where  $B(c,d)$  denotes the beta function with parameters  $c$  and  $d$ . The density function may assume various different shapes depending on  $c$  and  $d$ . For a few exemplary values, we present the plots in Figure 12. As we can see, for  $c = d$ , the density function is symmetric about  $x = 0.5$ .
 
 
@@ -508,7 +508,7 @@ $$ where  $B(c,d)$  denotes the beta function with parameters  $c$  and  $d$ . T
 Another important distribution in finance is the log-normal distribution. It is connected to the normal distribution via the following relationship. Let  $Y$  be a normal random variable with mean  $\mu$  and variance  $\sigma^2$ . Then the random variable
 
 $$
-X = e ^ {\Upsilon}
+X = e^{\Upsilon}
 $$ is log-normally distributed with parameters  $\mu$  and  $\sigma^2$ . In brief, we denote this distribution by  $X \sim Ln(\mu, \sigma^2)$ .
 
 
@@ -517,26 +517,26 @@ Figure 13 Density Function of the Log-Normal Distribution for Various Values of 
 
 Since the exponential function  $e^{Y} = \exp(Y)$  only yields positive values, the support of the log-normal distribution is on the positive half of the real line only, as will be seen by its density function given by
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac {1}{x \sigma \sqrt {2 \pi}} e ^ {\frac {(\ln x - \mu) ^ {2}}{2 \sigma^ {2}}}, & x > 0 \\ 0 & \text {e l s e} \end{array} \right. \tag {16}
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{x \sigma \sqrt{2 \pi}} e^{\frac{(\ln x - \mu)^{2}}{2 \sigma^{2}}}, & x > 0 \\ 0 & \text{el se} \end{array} \right. \tag {16}
 $$ which looks strikingly similar to the normal density function given by (2). Figure 13 depicts the density function for several parameter values.
 
 
 This density function results in the log-normal distribution function
 
 $$
-F (x) = \Phi \left(\frac {\ln x - \mu}{\sigma}\right)
+F (x) = \Phi \left(\frac{\ln x - \mu}{\sigma}\right)
 $$ where  $\Phi (\cdot)$  is the distribution function of the standard normal distribution. (This is the result of the one-to-one relationship between the values of a log-normal and a standard normal random variable.) A plot of the distribution function for different parameter values can be found in Figure 14.
 
 
 Mean and variance of a log-normal random variable are
 
 $$
-E (X) = e ^ {\left(\mu + \sigma^ {2} / 2\right)} \tag {17}
+E (X) = e^{\left(\mu + \sigma^{2} / 2\right)} \tag {17}
 $$ and
 
 
 $$
-\operatorname {V a r} (X) = e ^ {\sigma^ {2}} \left(e ^ {\sigma^ {2}} - 1\right) e ^ {2 \mu} \tag {18}
+\operatorname{Va r} (X) = e^{\sigma^{2}} \left(e^{\sigma^{2}} - 1\right) e^{2 \mu} \tag {18}
 $$
 
 # Application to Modeling Asset Returns
@@ -550,48 +550,48 @@ Figure 14 Distribution Function of the Log-Normal Distribution for Various Param
 
 
 $$
-\sqrt [ n ]{\prod_ {i = 1} ^ {n} X _ {i}} \sim L n (\mu , \sigma^ {2})
+\sqrt [ n ]{\prod_{i = 1}^{n} X_{i}} \sim L n (\mu , \sigma^{2})
 $$ where the product sign is defined as
 
 
 $$
-\prod_ {i = 1} ^ {n} X _ {i} \equiv X _ {1} \times X _ {2} \times \dots \times X _ {n}
+\prod_{i = 1}^{n} X_{i} \equiv X_{1} \times X_{2} \times \dots \times X_{n}
 $$
 
 As an example, we consider a very simplified stock price model. Let  S = \100  be today's stock price of some company. We model tomorrow's price  S_{1}  as driven by the 1-day dynamic  X  from the previous example of the normal distribution. In particular, the model is
 
 $$
-S _ {1} = S _ {0} \cdot e ^ {X}
+S_{1} = S_{0} \cdot e^{X}
 $$
 
 By some slight manipulation of the above equation, we see that the ratio of tomorrow's price over today's price
 
 
 $$
-\frac {S _ {1}}{S _ {0}} = e ^ {X}
+\frac{S_{1}}{S_{0}} = e^{X}
 $$ follows a log-normal distribution with parameters  $\mu$  and  $\sigma$ , that is,  $S_{1} / S_{0} \sim LN(\mu, \sigma^{2})$ . We may now be interested in the probability that tomorrow's price is greater than 120; that is,
 
 
 $$
-\begin{array}{l} P \left(S _ {1} > 1 2 0\right) = P \left(S _ {0} e ^ {X} > 1 2 0\right) \\ = P (1 0 0 \cdot e ^ {X} > 1 2 0) \\ \end{array}
+\begin{array}{l} P \left(S_{1} > 1 2 0\right) = P \left(S_{0} e^{X} > 1 2 0\right) \\ = P (1 0 0 \cdot e^{X} > 1 2 0) \\ \end{array}
 $$
 
 This corresponds to
 
 $$
-\begin{array}{l} P \left(\frac {S _ {1}}{S _ {0}} > \frac {1 2 0}{S _ {0}}\right) = P \left(e ^ {X} > 1. 2 0\right) \\ = 1 - P \left(e ^ {X} \leq 1. 2 0\right) \\ = 1 - F (1. 2) \\ = 1 - 0. 8 1 9 0 = 0. 1 8 1 0 \\ \end{array}
+\begin{array}{l} P \left(\frac{S_{1}}{S_{0}} > \frac{1 2 0}{S_{0}}\right) = P \left(e^{X} > 1. 2 0\right) \\ = 1 - P \left(e^{X} \leq 1. 2 0\right) \\ = 1 - F (1. 2) \\ = 1 - 0. 8 1 9 0 = 0. 1 8 1 0 \\ \end{array}
 $$ where in the third equation on the right-hand side, we have applied the log-normal cumulative probability distribution function F. So, in roughly 18\% of the scenarios, tomorrow's stock price S_{1} will exceed the price of today, S_{0} = \100,
 
 
 by at least  $20\%$ . From equation (17), the mean of the ratio is
 
 $$
-E \left(\frac {S _ {1}}{S _ {0}}\right) = \mu_ {S _ {1} / S _ {0}} = e ^ {0 + \frac {0 . 2}{2}} = 1. 1 0 5 2
+E \left(\frac{S_{1}}{S_{0}}\right) = \mu_{S_{1} / S_{0}} = e^{0 + \frac{0 . 2}{2}} = 1. 1 0 5 2
 $$ implying that we have to expect tomorrow's stock price to be roughly  $10\%$  greater than today, even though the dynamic  $X$  itself has an expected value of 0. Finally, equation (18) yields the variance
 
 
 $$
-V a r \left(\frac {S _ {1}}{S _ {0}}\right) = \sigma_ {S _ {1 / S _ {0}}} ^ {2} = e ^ {0. 2} (e ^ {0. 2} - 1) = 0. 2 7 0 4
+V a r \left(\frac{S_{1}}{S_{0}}\right) = \sigma_{S_{1 / S_{0}}}^{2} = e^{0. 2} (e^{0. 2} - 1) = 0. 2 7 0 4
 $$ which is only slightly larger than that of the dynamic  $X$  itself.
 
 

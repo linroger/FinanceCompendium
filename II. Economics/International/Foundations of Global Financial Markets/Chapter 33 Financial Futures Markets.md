@@ -306,7 +306,7 @@ This contract is traded on an index-price basis. The index-price basis on which 
 The minimum price fluctuation (tick) for this contract is 0.01 (or 0.0001 in terms of LIBOR). As a result, the price value of a basis point for this contract is \$25, found as follows. The simple interest on \$1 million for 90 days is equal to
 
 $$
-\$ 1,000,000 \times (\text {L I B O R} \times 9 0 / 3 6 0).
+\$ 1,000,000 \times (\text{LI BO R} \times 9 0 / 3 6 0).
 $$
 
 If LIBOR changes by one basis point (0.0001), then $1,000,000 × (0.0001 × 90/360) = $25.

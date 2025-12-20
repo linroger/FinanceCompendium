@@ -63,23 +63,23 @@ To call MATLAB's editor in order to create or edit M-files, select Desktop > Edi
 MATLAB can perform many kinds of different mathematical operations, such as addition  $(+)$ , multiplication  $(^{\star}$  or . $^{\star}$ ), square root (sqrt or sqrtm), and power  $(^{\wedge})$ . These commands can be entered at the command prompt. For example, typing
 
 $$
-\gg 3 ^ {\star} \operatorname {s q r t} (4) + 1 5
+\gg 3^{\star} \operatorname{sq rt} (4) + 1 5
 $$ and pressing Enter produces the output
 
 
 $$
-\begin{array}{c} \text {a n s} = \\ 2 1 \end{array}
+\begin{array}{c} \text{an s} = \\ 2 1 \end{array}
 $$
 
 To suppress output, use the semicolon  $(\cdot)$ . For example, entering
 
 $$
-\gg 3 ^ {*} \operatorname {s q r t} (4) + 1 5;
+\gg 3^{*} \operatorname{sq rt} (4) + 1 5;
 $$ does not result in any visible output in the command window. However, MATLAB still performs the calculation. To see this, let us assign the value of the above expression to a variable, ExpressionValue:
 
 
 $$
-\gg \text {E x p r i s s i o n V a l u e} = 3 ^ {*} \operatorname {s q r t} (4) + 1 5;
+\gg \text{Ex pr is si on Va lu e} = 3^{*} \operatorname{sq rt} (4) + 1 5;
 $$
 
 Then, typing ExpressionValue at the command prompt, you get
@@ -101,7 +101,7 @@ $$ produces a horizontal vector array (one row)  $\mathbf{x}$  that contains the
 The semicolon  $(\cdot)$  is used to create new rows. To create a vertical vector array y with the same entries, you can enter
 
 $$
->> \mathrm {y} = [ 2; 3; 4; 6 ]
+>> \mathrm{y} = [ 2; 3; 4; 6 ]
 $$ or press Enter after entering each number. (MATLAB treats semicolons and carriage returns in array declarations as new lines.) The different syntax is useful depending on the source for downloading the data that populate the arrays.
 
 
@@ -143,7 +143,7 @@ To multiply two arrays, you can simply use the multiplication command  $\star$ .
 
 
 $$
-\gg \mathrm {x} ^ {\star} \mathrm {X}
+\gg \mathrm{x}^{\star} \mathrm{X}
 $$
 
 ??? Error using  $= = >$  mtimes
@@ -153,11 +153,11 @@ Inner matrix dimensions must agree.
 To multiply  $\mathbf{x}$  and  $\mathbf{X}$  correctly, you can instead type
 
 $$
-\gg \mathrm {X} ^ {*} \mathrm {X} ^ {\prime}
+\gg \mathrm{X}^{*} \mathrm{X}^{\prime}
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -167,11 +167,11 @@ $$
 If you need to perform an element-by-element multiplication of two arrays (of equal sizes), use the  $\cdot^{*}$  operator. For example,
 
 $$
-\gg X. ^ {\star} X
+\gg X.^{\star} X
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -185,11 +185,11 @@ $$
 Note that this is different from the matrix product. The matrix product would produce the following result:
 
 $$
-\gg \mathrm {X} ^ {\prime} \star \mathrm {X}
+\gg \mathrm{X}^{\prime} \star \mathrm{X}
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -215,7 +215,7 @@ $$
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -241,7 +241,7 @@ $$
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -255,7 +255,7 @@ $$
 $$
 
 $$
-\text {a n s} =
+\text{an s} =
 $$
 
 $$
@@ -269,7 +269,7 @@ $$
 Similarly, the second row of  $\mathbf{X}$  can be obtained as
 
 $$
-\begin{array}{l} \gg X (2,:) \\ \text {a n s} = \\ \begin{array}{c c c c} 5 & 6 & 7 & 8 \end{array} \\ \end{array}
+\begin{array}{l} \gg X (2,:) \\ \text{an s} = \\ \begin{array}{c c c c} 5 & 6 & 7 & 8 \end{array} \\ \end{array}
 $$
 
 # IMPORTANT MATLAB FUNCTIONS
@@ -525,21 +525,21 @@ To illustrate how plot works, suppose we would like to plot the standard normal 
 The command
 
 $$
-\gg x = \text {l i n s p a c e} (- 6, 6, 1 0 0)
+\gg x = \text{li ns pa ce} (- 6, 6, 1 0 0)
 $$ creates a vector  $\mathbf{x}$  with 100 values, equally spaced between the minimum value -6 and the maximum value +6. (In reality, the normal distribution stretches from negative infinity to positive infinity, but it is highly unlikely that we will obtain realizations that are greater than 6 standard deviations away from the mean of 0, so we focus on plotting the center of the distribution.)
 
 
 The command
 
 $$
-\gg \mathrm {y} = \operatorname {n o r m p d f} (\mathrm {x})
+\gg \mathrm{y} = \operatorname{no rm pd f} (\mathrm{x})
 $$ computes the values of the normal probability distribution function for every value in the array for x.
 
 
 To plot x versus y, use
 
 $$
-\gg \operatorname {p l o t} (x, y)
+\gg \operatorname{pl ot} (x, y)
 $$
 
 The result is the graph in Figure 2.
@@ -547,7 +547,7 @@ The result is the graph in Figure 2.
 You can play with the options for the graph. For example,
 
 $$
-\begin{array}{l} \text {p l o t (x , y , ' r : p ')}; \text {t i t l e (\prime N o r m a l P D F ')}; \\ \text {x l a b e l (\prime x ')}; \text {y l a b e l (\prime p d f ')} \end{array}
+\begin{array}{l} \text{pl ot (x ,y , 'r :p ')}; \text{ti tl e (\primeN or ma lP DF ')}; \\ \text{xl ab el (\primex ')}; \text{yl ab el (\primep df ')} \end{array}
 $$ plots the same graph as a red dotted line with a pentagram symbol, labels the horizontal (x) and the vertical (y) axes, and creates a title for the graph (see Figure 3).
 
 
@@ -735,7 +735,7 @@ The vector of decision variables for this optimization problem can be defined as
 Let the vector of expected returns be  $\mu = (20.69\%, 5.87\%, 10.52\%, 2.43\%)$ . Then, the objective function can be written as
 
 $$
-\begin{array}{l} f (x) = \mu^ {\prime} x = (20.69 \%)\cdot x _ {1} + (5.87 \%)\cdot x _ {2} \\ + (10.52 \%) \cdot x _ {3} + (2.43 \%) \cdot x _ {4} \\ \end{array}
+\begin{array}{l} f (x) = \mu^{\prime} x = (20.69 \%)\cdot x_{1} + (5.87 \%)\cdot x_{2} \\ + (10.52 \%) \cdot x_{3} + (2.43 \%) \cdot x_{4} \\ \end{array}
 $$
 
 It represents the optimal expected dollar amount at the end of the year.
@@ -745,7 +745,7 @@ There are also several constraints.
 1. The total amount invested should be 10 million. This can be formulated as x₁ + x₂ + x₃ + x₄ = 10,000,000.
 2. The total amount invested in Fund 1 and Fund 3 cannot be more than  $60\%$  of the total investment ( $\$ 6$  million). This can be written as
 
-$$ x _ {1} + x _ {3} \leq 6, 0 0 0, 0 0 0
+$$ x_{1} + x_{3} \leq 6, 0 0 0, 0 0 0
 $$
 
 3. The average risk level of the portfolio cannot be more than 2. This constraint can be expressed as
@@ -753,19 +753,19 @@ $$
 4*(proportion of investment with risk level 4) + 2*(proportion of investment with risk level 2) + 1*(proportion of investment with risk level 1) ≤ 1 or, mathematically,
 
 $$
-\frac {4 \cdot x _ {1} + 2 \cdot x _ {2} + 2 \cdot x _ {3} + 1 \cdot x _ {4}}{x _ {1} + x _ {2} + x _ {3} + x _ {4}} \leq 2
+\frac{4 \cdot x_{1} + 2 \cdot x_{2} + 2 \cdot x_{3} + 1 \cdot x_{4}}{x_{1} + x_{2} + x_{3} + x_{4}} \leq 2
 $$
 
 In this particular example we know that the total amount  $x_{1} + x_{2} + x_{3} + x_{4} = 10,000,000$ , so the constraint can be formulated as
 
 $$
-4 \cdot x _ {1} + 2 \cdot x _ {2} + 2 \cdot x _ {3} + 1 \cdot x _ {4} \leq 2 \cdot 1 0, 0 0 0, 0 0 0
+4 \cdot x_{1} + 2 \cdot x_{2} + 2 \cdot x_{3} + 1 \cdot x_{4} \leq 2 \cdot 1 0, 0 0 0, 0 0 0
 $$
 
 1. The maximum investment in each fund cannot be more than 40\% of the total amount (\ 4,000,000). These constraints can be written as
 
 $$
-\begin{array}{l} x _ {1} \leq 4, 0 0 0, 0 0 0, x _ {2} \leq 4, 0 0 0, 0 0 0, x _ {3} \leq 4, 0 0 0, 0 0 0, \\ x _ {4} \leq 4, 0 0 0, 0 0 0. \\ \end{array}
+\begin{array}{l} x_{1} \leq 4, 0 0 0, 0 0 0, x_{2} \leq 4, 0 0 0, 0 0 0, x_{3} \leq 4, 0 0 0, 0 0 0, \\ x_{4} \leq 4, 0 0 0, 0 0 0. \\ \end{array}
 $$
 
 2. Given the no short selling requirement, the amounts invested in each fund cannot be negative. These are nonnegativity constraints:  $x_{1} \geq 0, x_{2} \geq 0, x_{3} \geq 0, x_{4} \geq 0$ .
@@ -773,13 +773,13 @@ $$
 The final optimization formulation can be written in matrix form. The objective function is
 
 $$
-\max  _ {x _ {1}, x _ {2}, x _ {3}, x _ {4}} \left[ \begin{array}{c c c c} 0. 2 0 6 9 & 0. 0 5 8 7 & 0. 1 0 5 2 & 0. 0 2 4 3 \end{array} \right] \cdot \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ x _ {3} \\ x _ {4} \end{array} \right]
+\max_{x_{1}, x_{2}, x_{3}, x_{4}} \left[ \begin{array}{c c c c} 0. 2 0 6 9 & 0. 0 5 8 7 & 0. 1 0 5 2 & 0. 0 2 4 3 \end{array} \right] \cdot \left[ \begin{array}{c} x_{1} \\ x_{2} \\ x_{3} \\ x_{4} \end{array} \right]
 $$
 
 Let us organize the constraints into groups according to their signs. This will be useful when we input the constraints into MATLAB.
 
 $$
-\begin{array}{l} \operatorname {E q u a l i t y} (=): \left[ \begin{array}{l l l l} 1 & 1 & 1 & 1 \end{array} \right] \cdot \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ x _ {3} \\ x _ {4} \end{array} \right] = 1 0, 0 0 0, 0 0 0 \\ \text {I n e q u a l i t y} (\leq): \left[ \begin{array}{c c c c} 1 & 0 & 1 & 0 \\ 4 & 2 & 2 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{array} \right] \cdot \left[ \begin{array}{c} x _ {1} \\ x _ {2} \\ x _ {3} \\ x _ {4} \end{array} \right] \leq \left[ \begin{array}{c} 6, 0 0 0, 0 0 0 \\ 2 0, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \end{array} \right] \\ \end{array}
+\begin{array}{l} \operatorname{Eq ua li ty} (=): \left[ \begin{array}{l l l l} 1 & 1 & 1 & 1 \end{array} \right] \cdot \left[ \begin{array}{c} x_{1} \\ x_{2} \\ x_{3} \\ x_{4} \end{array} \right] = 1 0, 0 0 0, 0 0 0 \\ \text{In eq ua li ty} (\leq): \left[ \begin{array}{c c c c} 1 & 0 & 1 & 0 \\ 4 & 2 & 2 & 1 \\ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{array} \right] \cdot \left[ \begin{array}{c} x_{1} \\ x_{2} \\ x_{3} \\ x_{4} \end{array} \right] \leq \left[ \begin{array}{c} 6, 0 0 0, 0 0 0 \\ 2 0, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \\ 4, 0 0 0, 0 0 0 \end{array} \right] \\ \end{array}
 $$
 
 Nonnegativity  $(\geq)$  :  $\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} \geq \begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \end{bmatrix}$
@@ -869,10 +869,10 @@ $$
 \left. \begin{array}{l l l} 4 & 2 & 2 & 1 \end{array} \right]
 $$
 
-$$ b = [ 6 0 0 0 0 0 0 2 0 0 0 0 0 0 ] ^ {\prime}
+$$ b = [ 6 0 0 0 0 0 0 2 0 0 0 0 0 0 ]^{\prime}
 $$
 
-$$ u b = 4 0 0 0 0 0 0 ^ {*} o n e s (n u m A s s e t s, 1)
+$$ u b = 4 0 0 0 0 0 0^{*} o n e s (n u m A s s e t s, 1)
 $$ with all other input arrays remaining the same.
 
 
@@ -901,18 +901,18 @@ The optimization model can be saved as a script in an M-file by selecting File |
 The classical mean-variance portfolio optimization problem as introduced by Harry Markowitz (1952) is to minimize the variance of portfolio return subject to the constraint that the expected portfolio return is at a certain level. Let us consider a slight variation of the problem, in which we require that the expected return is at least at a certain level  $r_{\mathrm{target}}$ . The mathematical formulation is
 
 $$
-\begin{array}{l} \min  _ {\mathbf {w}} \quad \mathbf {w} ^ {\prime} \Sigma \mathbf {w} \\ \begin{array}{c c} \text {s . t .} & \mathbf {w} ^ {\prime} \boldsymbol {\mu} \geq r _ {\text {t a r g e t}} \end{array} \\ \mathsf {w} ^ {\prime} \iota = 1 \\ \end{array}
+\begin{array}{l} \min_{\mathbf {w}} \quad \mathbf {w}^{\prime} \Sigma \mathbf {w} \\ \begin{array}{c c} \text{s .t .} & \mathbf {w}^{\prime} \boldsymbol {\mu} \geq r_{\text{ta rg et}} \end{array} \\ \mathsf {w}^{\prime} \iota = 1 \\ \end{array}
 $$ where  $\mathbf{w}$  is the vector of portfolio weights (to be determined),  $\mu$  is the vector of expected returns,  $\pmb{\Sigma}$  is the covariance matrix of returns, and  $\iota$  is a vector of ones of appropriate dimension.
 
 
 The minimum variance portfolio allocation problem is a quadratic optimization problem with linear constraints. The quadprog function in MATLAB solves exactly problems of this kind:
 
 $$
-\min  _ {x} \frac {1}{2} x ^ {\prime} H x + f ^ {\prime} x
+\min_{x} \frac{1}{2} x^{\prime} H x + f^{\prime} x
 $$
 
 $$
-\begin{array}{l l} \text {s . t .} & \mathbf {A x} \leq \mathbf {b} \end{array}
+\begin{array}{l l} \text{s .t .} & \mathbf {A x} \leq \mathbf {b} \end{array}
 $$
 
 $$
@@ -929,7 +929,7 @@ quadprog (H, f, A, b, Aeq, beq, lb, ub).
 It is easy to see how to match the two formulations:
 
 $$
-\begin{array}{l} \cdot \quad x = w \\ \cdot f = 0 \\ \bullet \mathbf {H} = 2 \boldsymbol {\Sigma} \\ \cdot \mathrm {A} = - \mu^ {\prime} \\ \bullet \quad \mathbf {b} = - r _ {\text {t a r g e t}} \\ \cdot \mathrm {A e q} = \iota^ {\prime} \\ \bullet \mathrm {b e q} = 1 \\ \bullet \mathbf {l b} = - \text {i n f i n i t y} \\ \bullet \mathbf {u b} = \text {i n f i n i t y} \\ \end{array}
+\begin{array}{l} \cdot \quad x = w \\ \cdot f = 0 \\ \bullet \mathbf {H} = 2 \boldsymbol {\Sigma} \\ \cdot \mathrm{A} = - \mu^{\prime} \\ \bullet \quad \mathbf {b} = - r_{\text{ta rg et}} \\ \cdot \mathrm{Ae q} = \iota^{\prime} \\ \bullet \mathrm{be q} = 1 \\ \bullet \mathbf {l b} = - \text{in fi ni ty} \\ \bullet \mathbf {u b} = \text{in fi ni ty} \\ \end{array}
 $$
 
 ```matlab numAssets = 2;
@@ -956,7 +956,7 @@ A = -transpose(muVec); b = -targetReturn;
 For example, the inequality constraint
 
 $$
-\mathbf {w} ^ {\prime} \mu \geq r _ {\text {t a r g e t}}
+\mathbf {w}^{\prime} \mu \geq r_{\text{ta rg et}}
 $$ in the mean-variance formulation is mapped to the inequality constraint assumed by the quad-prog function
 
 
@@ -966,7 +966,7 @@ $$ by rewriting the mean-variance constraint as
 
 
 $$
-- \mathbf {w} ^ {\prime} \boldsymbol {\mu} \leq - r _ {\text {t a r g e t}}
+- \mathbf {w}^{\prime} \boldsymbol {\mu} \leq - r_{\text{ta rg et}}
 $$ and setting  $\mathbf{A} = -\mu^{\prime}$  and  $\mathbf{b} = -r_{\mathrm{target}}$
 
 
@@ -1022,21 +1022,21 @@ We show how to use MATLAB's Statistics Toolbox to compute the price of a Europea
 
 The evolution of the asset price at time  $t$ ,  $S_{t}$  can be described by the equation
 
-$$ d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t}
+$$ d S_{t} = \mu S_{t} d t + \sigma S_{t} d W_{t}
 $$ where  $W_{t}$  is standard Brownian motion and  $\mu$  and  $\sigma$  are the drift and the volatility of the process, respectively. For technical reasons (absence of arbitrage), when pricing an option, the drift  $\mu$  is replaced by the risk-free rate  $r$ .
 
 
 Under the assumption for the random process followed by the asset price, the value of the asset price  $S_{T}$  at time  $T$  given the asset price  $S_{t}$  at time  $t$  can be computed as
 
 $$
-S _ {T} = S _ {t} e ^ {(r - \frac {1}{2} \sigma^ {2}) \cdot (T - t) + \sigma \cdot \sqrt {(T - t)} \cdot \tilde {\varepsilon}}
+S_{T} = S_{t} e^{(r - \frac{1}{2} \sigma^{2}) \cdot (T - t) + \sigma \cdot \sqrt{(T - t)} \cdot \tilde {\varepsilon}}
 $$ where  $\tilde{\varepsilon}$  is a standard normal random variable. (If the stock pays a continuously compounded dividend yield of  $q$ , then we use  $(r - q - 0.5\cdot \sigma^2)$  instead of  $(r - 0.5\cdot \sigma^2)$  as the drift term.)
 
 
 The price of the option can be approximated by creating scenarios for the stock price  $S_{T}$  at time  $T$ , computing the discounted payoffs of the option, and finding the expected payoff of the option. Suppose we generate  $N$  scenarios for  $\tilde{\varepsilon}$ :  $\varepsilon^{(1)},\ldots ,\varepsilon^{(N)}$ . Then, the price of a European call option with strike price  $K$  will be
 
 $$
-\begin{array}{l} C _ {t} = e ^ {- r (T - t)} \cdot \sum_ {n = 1} ^ {N} \frac {1}{N} \\ \cdot \max \left\{S _ {t} e ^ {(r - \frac {1}{2} \sigma^ {2}) \cdot (T - t) + \sigma \cdot \sqrt {(T - t)} \cdot \varepsilon^ {(n)}} - K, 0 \right\} \\ \end{array}
+\begin{array}{l} C_{t} = e^{- r (T - t)} \cdot \sum_{n = 1}^{N} \frac{1}{N} \\ \cdot \max \left\{S_{t} e^{(r - \frac{1}{2} \sigma^{2}) \cdot (T - t) + \sigma \cdot \sqrt{(T - t)} \cdot \varepsilon^{(n)}} - K, 0 \right\} \\ \end{array}
 $$
 
 The expression above is the expected value of the option payoffs; that is, the weighted average of the option payoffs. The "weight," or the probability of each scenario, is  $1 / N$ .

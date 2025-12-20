@@ -67,7 +67,7 @@ share of the total trade of the United States with the EU. As you can see, the s
 Looking at world trade as a whole, economists have found that an equation of the following form predicts the volume of trade between any two countries fairly accurately,
 
 $$
-T _ {i j} = A \times Y _ {i} \times Y _ {j} / D _ {i j}, \tag {2-1}
+T_{i j} = A \times Y_{i} \times Y_{j} / D_{i j}, \tag {2-1}
 $$
 
 where  $A$  is a constant term,  $T_{ij}$  is the value of trade between country  $i$  and country  $j$ ,  $Y_i$  is country  $i$ 's GDP,  $Y_j$  is country  $j$ 's GDP, and  $D_{ij}$  is the distance between the two countries. That is, the value of trade between any two countries is proportional, other things equal, to the product of the two countries' GDPs and diminishes with the distance between the two countries.
@@ -79,7 +79,7 @@ with distance, the trade between any two countries is, other things equal, propo
 Economists often estimate a somewhat more general gravity model of the following form:
 
 $$
-T _ {i j} = A \times Y _ {i} ^ {a} \times Y _ {j} ^ {b} / D _ {i j} ^ {c}. \tag {2-2}
+T_{i j} = A \times Y_{i}^{a} \times Y_{j}^{b} / D_{i j}^{c}. \tag {2-2}
 $$
 
 This equation says that the three things that determine the volume of trade between two countries are the size of the two countries' GDPs and the distance between the countries, without specifically assuming that trade is proportional to the product of the two GDPs and inversely proportional to distance. Instead,  $a$ ,  $b$ , and  $c$  are chosen to fit the actual data as closely as possible. If  $a$ ,  $b$ , and  $c$  were all equal to 1, equation (2-2) would be the same as equation (2-1). In fact, estimates often find that (2-1) is a pretty good approximation.

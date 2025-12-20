@@ -39,11 +39,11 @@ To introduce the notion of the "good" and "bad" inflation varieties, we start by
 Inflation is particularly relevant for assets whose payoffs are fixed in dollars, such as nominal Treasury bonds. Let  $i_t$  and  $i_t^{(2)}$  denote the interest rates on oneand two-period default-free nominal bonds, i.e., bonds that promise to pay one dollar one or two periods in the future. The corresponding bond prices are then given by  $\exp(-i_t)$  and  $\exp\left(-2i_t^{(2)}\right)$ . Similarly, let  $r$  denote the real risk-free rate, or the interest rate on a default-free bond that promises to pay one unit of real consumption next period. The real risk-free rate is assumed to be constant for simplicity. We use  $\pi_t$  to denote log inflation from time  $t - 1$  to time  $t$ , and use lower-case letters to denote logs throughout. Using the notation  $\pi_t^e \equiv E_t\pi_{t + 1}$  and assuming that inflation and the SDF are jointly log-normal, the oneand two-period nominal interest rates can be written as
 
 $$
-i _ {t} = \underbrace {r + E _ {t} \pi_ {t + 1}} _ {\text {F i s h e r E q u a t i o n}} + \underbrace {C o v _ {t} \left(m _ {t + 1} , \pi_ {t + 1}\right)} _ {\text {R i s k P r e m i u m}} - \frac {1}{2} \sigma_ {\pi} ^ {2}, \tag {1}
+i_{t} = \underbrace {r + E_{t} \pi_{t + 1}}_{\text{Fi sh er Eq ua ti on}} + \underbrace {C o v_{t} \left(m_{t + 1} , \pi_{t + 1}\right)}_{\text{Ri sk Pr em iu m}} - \frac{1}{2} \sigma_{\pi}^{2}, \tag {1}
 $$
 
 $$
-i _ {t} ^ {(2)} - \underbrace {\frac {i _ {t} + E _ {t} i _ {t + 1}}{2}} _ {\text {E x p e c t a t i o n s H y p o t h e s i s}} = \underbrace {\frac {1}{2} C o v _ {t} \left(m _ {t + 1} , \pi_ {t + 1} ^ {e}\right)} _ {\text {R i s k P r e m i u m}} - \left(\frac {1}{2} C o v _ {t} \left(\pi_ {t + 1}, \pi_ {t + 1} ^ {e}\right) + \frac {1}{4} V a r \left(\pi_ {t + 1} ^ {e}\right)\right) (2)
+i_{t}^{(2)} - \underbrace {\frac{i_{t} + E_{t} i_{t + 1}}{2}}_{\text{Ex pe ct at io ns Hy po th es is}} = \underbrace {\frac{1}{2} C o v_{t} \left(m_{t + 1} , \pi_{t + 1}^{e}\right)}_{\text{Ri sk Pr em iu m}} - \left(\frac{1}{2} C o v_{t} \left(\pi_{t + 1}, \pi_{t + 1}^{e}\right) + \frac{1}{4} V a r \left(\pi_{t + 1}^{e}\right)\right) (2)
 $$
 
 We call inflation dynamics that lead to positive long-term bond risk premia "bad" inflation, and inflation dynamics that lead to negative bond risk premia "good" inflation. Equation (2) shows that "bad" inflation corresponds to the case where  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) > 0$  and "good" inflation corresponds to  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) < 0$ .<sup>2</sup>
@@ -64,7 +64,7 @@ Equation (2) develops the inflation risk premium for the two-period bond as a st
 Can we express the notion of "good" and "bad" inflation in terms of the business cycle properties of inflation? Under constant relative risk aversion (CRRA) preferences over aggregate consumption, utility of the representative agent is given by  $U(C_{t}) = \frac{C_{t}^{1 - \gamma}}{1 - \gamma}$ , with risk aversion parameter  $\gamma$ . The log SDF specializes to  $m_{t + 1} = \log \left(\beta \frac{U'(C_{t + 1})}{U'(C_t)}\right) = \log \beta -\gamma (c_{t + 1} - c_t)$ , where  $\beta$  is a constant discount rate and  $c_{t + 1}$  denotes log real consumption at time  $t + 1$ . This SDF implies that a financial asset is more valuable to investors if real payouts are high in states of the world when future consumption is low, and additional consumption is valuable. The risk premium for the two-period nominal bond then becomes
 
 $$
-C o v _ {t} \left(m _ {t + 1}, \pi_ {t + 1} ^ {e}\right) = - \gamma C o v _ {t} \left(c _ {t + 1}, \pi_ {t + 1} ^ {e}\right). \tag {3}
+C o v_{t} \left(m_{t + 1}, \pi_{t + 1}^{e}\right) = - \gamma C o v_{t} \left(c_{t + 1}, \pi_{t + 1}^{e}\right). \tag {3}
 $$
 
 The risk premium in equation (3) shows that inflation is of the "bad" variety if inflation expectations rise when consumption growth is low, giving rise to the so-called "stagflation." As a result, in recessions, prices of nominal Treasury bonds fall together with risky consumption claims such as stocks. Thus, bonds also become risky, and investors require a positive risk
@@ -78,15 +78,15 @@ How should stocks depend on inflation? The early literature hypothesized that si
 To understand which fundamental economic shocks generate "good" vs. "bad" inflation, we revisit the workhorse three-equation New Keynesian model from macroeconomics. The traditional New Keynesian model can be summarized by the following three log-linearized equations<sup>4</sup>
 
 $$
-\textbf {E u l e r E q u a t i o n :} x _ {t} = (1 - \rho^ {x}) E _ {t} x _ {t + 1} + \rho^ {x} x _ {t - 1} - \psi (i _ {t} - E _ {t} \pi_ {t + 1}) + v _ {x, t}, \quad (4)
+\textbf {E u l e r E q u a t i o n :} x_{t} = (1 - \rho^{x}) E_{t} x_{t + 1} + \rho^{x} x_{t - 1} - \psi (i_{t} - E_{t} \pi_{t + 1}) + v_{x, t}, \quad (4)
 $$
 
 $$
-\text {P h i l l i p s C u r v e :} \quad \pi_ {t} = \kappa x _ {t} + \left(1 - \rho^ {\pi}\right) E _ {t} \pi_ {t + 1} + \rho^ {\pi} \pi_ {t - 1} + v _ {\pi , t}, \tag {5}
+\text{Ph il li ps Cu rv e :} \quad \pi_{t} = \kappa x_{t} + \left(1 - \rho^{\pi}\right) E_{t} \pi_{t + 1} + \rho^{\pi} \pi_{t - 1} + v_{\pi , t}, \tag {5}
 $$
 
 $$
-\text {M o n e t a r y P o l i c y R u l e :} \quad i _ {t} = \rho^ {i} i _ {t - 1} + \left(1 - \rho^ {i}\right) \left(\gamma^ {x} x _ {t} + \gamma^ {\pi} \pi_ {t}\right). \tag {6}
+\text{Mo ne ta ry Po li cy Ru le :} \quad i_{t} = \rho^{i} i_{t - 1} + \left(1 - \rho^{i}\right) \left(\gamma^{x} x_{t} + \gamma^{\pi} \pi_{t}\right). \tag {6}
 $$
 
 Because we are interested in comovements between inflation and output, a constant risk premium is suppressed along with all other constants without loss of generality. Here,  $x_{t}$  denotes the output gap, or log real output relative to a frictionless price benchmark, and is the main indicator of whether the economy is in an expansion or a recession. The simplest models also assume that consumption equals output, so  $x_{t}$  should be thought of as closely linked to the real consumption that determines the SDF in consumption-based models of asset prices.
@@ -276,39 +276,39 @@ Woodford, M. (2003). Interest and Prices. Princeton University Press.
 The real log SDF  $(m_{t + 1})$  is assumed to be conditionally normal. The one-period real bond price satisfies
 
 $$
-e x p \left(- r _ {t}\right) = E _ {t} \left[ e x p \left(m _ {t + 1}\right) \right] = e x p \left(E _ {t} m _ {t + 1} + \frac {1}{2} V a r _ {t} m _ {t + 1}\right). \tag {A.7}
+e x p \left(- r_{t}\right) = E_{t} \left[ e x p \left(m_{t + 1}\right) \right] = e x p \left(E_{t} m_{t + 1} + \frac{1}{2} V a r_{t} m_{t + 1}\right). \tag {A.7}
 $$
 
 The real risk-free rate is
 
 $$
-r _ {t} = - E _ {t} m _ {t + 1} - \frac {1}{2} \operatorname {V a r} _ {t} m _ {t + 1}. \tag {A.8}
+r_{t} = - E_{t} m_{t + 1} - \frac{1}{2} \operatorname{Va r}_{t} m_{t + 1}. \tag {A.8}
 $$
 
 Assuming joint log-normality of inflation and log SDF, the one-period nominal bond price equals
 
 $$
-\begin{array}{l} e x p \left(- i _ {t}\right) = E _ {t} \left[ e x p \left(m _ {t + 1} - \pi_ {t + 1}\right) \right] (A.9) \\ = \exp \left(E _ {t} m _ {t + 1} - E _ {t} \pi_ {t + 1} + \frac {1}{2} \operatorname {V a r} _ {t} m _ {t + 1} - \operatorname {C o v} _ {t} \left(m _ {t + 1}, \pi_ {t + 1}\right) + \frac {1}{2} \sigma_ {\pi} ^ {2}\right). (A.10) \\ \end{array}
+\begin{array}{l} e x p \left(- i_{t}\right) = E_{t} \left[ e x p \left(m_{t + 1} - \pi_{t + 1}\right) \right] (A.9) \\ = \exp \left(E_{t} m_{t + 1} - E_{t} \pi_{t + 1} + \frac{1}{2} \operatorname{Va r}_{t} m_{t + 1} - \operatorname{Co v}_{t} \left(m_{t + 1}, \pi_{t + 1}\right) + \frac{1}{2} \sigma_{\pi}^{2}\right). (A.10) \\ \end{array}
 $$
 
 Taking logs and multiplying by minus one gives the nominal one-period yield
 
 $$
-\begin{array}{l} i _ {t} = - E _ {t} m _ {t + 1} + E _ {t} \pi_ {t + 1} - \frac {1}{2} \operatorname {V a r} _ {t} m _ {t + 1} + \operatorname {C o v} _ {t} \left(m _ {t + 1} \pi_ {t + 1}\right) - \frac {1}{2} \sigma_ {\pi} ^ {2} (A.11) \\ = r _ {t} + E _ {t} \pi_ {t + 1} + C o v _ {t} \left(m _ {t + 1}, \pi_ {t + 1}\right) - \frac {1}{2} \sigma_ {\pi} ^ {2}. (A.12) \\ \end{array}
+\begin{array}{l} i_{t} = - E_{t} m_{t + 1} + E_{t} \pi_{t + 1} - \frac{1}{2} \operatorname{Va r}_{t} m_{t + 1} + \operatorname{Co v}_{t} \left(m_{t + 1} \pi_{t + 1}\right) - \frac{1}{2} \sigma_{\pi}^{2} (A.11) \\ = r_{t} + E_{t} \pi_{t + 1} + C o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) - \frac{1}{2} \sigma_{\pi}^{2}. (A.12) \\ \end{array}
 $$
 
 The two-period nominal bond price equals
 
 $$
-\exp \left(- 2 i _ {t} ^ {(2)}\right) = E _ {t} [ \exp \left(m _ {t + 1} - \pi_ {t + 1} - i _ {t + 1}\right) ] \tag {A.13}
+\exp \left(- 2 i_{t}^{(2)}\right) = E_{t} [ \exp \left(m_{t + 1} - \pi_{t + 1} - i_{t + 1}\right) ] \tag {A.13}
 $$
 
 $$
-\begin{array}{l} = e x p \left(E _ {t} m _ {t + 1} - E _ {t} \pi_ {t + 1} - E _ {t} i _ {t + 1} + \frac {1}{2} V a r _ {t} m _ {t + 1} + \frac {1}{2} \sigma_ {\pi} ^ {2} + \frac {1}{2} V a r _ {t} i _ {t + 1} \right. \\ - C o v _ {t} \left(\pi_ {t + 1}, m _ {t + 1}\right) - C o v _ {t} \left(i _ {t + 1}, m _ {t + 1}\right) + C o v _ {t} \left(i _ {t + 1}, \pi_ {t + 1}\right)) \tag {A.14} \\ \end{array}
+\begin{array}{l} = e x p \left(E_{t} m_{t + 1} - E_{t} \pi_{t + 1} - E_{t} i_{t + 1} + \frac{1}{2} V a r_{t} m_{t + 1} + \frac{1}{2} \sigma_{\pi}^{2} + \frac{1}{2} V a r_{t} i_{t + 1} \right. \\ - C o v_{t} \left(\pi_{t + 1}, m_{t + 1}\right) - C o v_{t} \left(i_{t + 1}, m_{t + 1}\right) + C o v_{t} \left(i_{t + 1}, \pi_{t + 1}\right)) \tag {A.14} \\ \end{array}
 $$
 
 $$
-= \exp \left(- i _ {t} - E _ {t} i _ {t + 1} + \frac {1}{2} \operatorname {V a r} _ {t} i _ {t + 1} - \operatorname {C o v} _ {t} \left(i _ {t + 1}, m _ {t + 1}\right) + \operatorname {C o v} _ {t} \left(i _ {t + 1}, \pi_ {t + 1}\right)\right). 1 5)
+= \exp \left(- i_{t} - E_{t} i_{t + 1} + \frac{1}{2} \operatorname{Va r}_{t} i_{t + 1} - \operatorname{Co v}_{t} \left(i_{t + 1}, m_{t + 1}\right) + \operatorname{Co v}_{t} \left(i_{t + 1}, \pi_{t + 1}\right)\right). 1 5)
 $$
 
 where above we substitute in for the one-period nominal rate from (A.12).
@@ -316,7 +316,7 @@ where above we substitute in for the one-period nominal rate from (A.12).
 Taking logs and multiplying by  $-\frac{1}{2}$  gives
 
 $$
-i _ {t} ^ {(2)} - \frac {1}{2} (i _ {t} + E _ {t} i _ {t + 1}) = - \frac {1}{4} V a r _ {t} i _ {t + 1} + \frac {1}{2} C o v _ {t} (i _ {t + 1}, m _ {t + 1}) - \frac {1}{2} C o v _ {t} (i _ {t + 1}, \pi_ {t + 1}) \quad (\mathrm {A}. 1 6)
+i_{t}^{(2)} - \frac{1}{2} (i_{t} + E_{t} i_{t + 1}) = - \frac{1}{4} V a r_{t} i_{t + 1} + \frac{1}{2} C o v_{t} (i_{t + 1}, m_{t + 1}) - \frac{1}{2} C o v_{t} (i_{t + 1}, \pi_{t + 1}) \quad (\mathrm{A}. 1 6)
 $$
 
 Substituting in for the one-period nominal rate next period  $i_{t+1}$  from (A.12) and using the assumption
@@ -324,7 +324,7 @@ Substituting in for the one-period nominal rate next period  $i_{t+1}$  from (A.
 tion that the variance and covariance terms are time-invariant gives:
 
 $$
-\begin{array}{l} i _ {t} ^ {(2)} - \frac {1}{2} \left(i _ {t} + E _ {t} i _ {t + 1}\right) = - \frac {1}{4} \operatorname {V a r} _ {t} \left(r _ {t + 1} + E _ {t + 1} \pi_ {t + 2}\right) (A.17) \\ + \frac {1}{2} C o v _ {t} (r _ {t + 1} + E _ {t + 1} \pi_ {t + 2}, m _ {t + 1}) - \frac {1}{2} C o v _ {t} (r _ {t + 1} + E _ {t + 1} \pi_ {t + 2}, \pi_ {t + 1}) \\ = \frac {1}{2} \operatorname {C o v} _ {t} \left(E _ {t + 1} \pi_ {t + 2}, m _ {t + 1}\right) (A.18) \\ - \frac {1}{2} \operatorname {C o v} _ {t} \left(E _ {t + 1} \pi_ {t + 2}, \pi_ {t + 1}\right) - \frac {1}{4} \operatorname {V a r} _ {t} \left(E _ {t + 1} \pi_ {t + 2}\right), (A.19) \\ \end{array}
+\begin{array}{l} i_{t}^{(2)} - \frac{1}{2} \left(i_{t} + E_{t} i_{t + 1}\right) = - \frac{1}{4} \operatorname{Va r}_{t} \left(r_{t + 1} + E_{t + 1} \pi_{t + 2}\right) (A.17) \\ + \frac{1}{2} C o v_{t} (r_{t + 1} + E_{t + 1} \pi_{t + 2}, m_{t + 1}) - \frac{1}{2} C o v_{t} (r_{t + 1} + E_{t + 1} \pi_{t + 2}, \pi_{t + 1}) \\ = \frac{1}{2} \operatorname{Co v}_{t} \left(E_{t + 1} \pi_{t + 2}, m_{t + 1}\right) (A.18) \\ - \frac{1}{2} \operatorname{Co v}_{t} \left(E_{t + 1} \pi_{t + 2}, \pi_{t + 1}\right) - \frac{1}{4} \operatorname{Va r}_{t} \left(E_{t + 1} \pi_{t + 2}\right), (A.19) \\ \end{array}
 $$
 
 where moving to the last equality we rearrange terms and make the additional assumption that the real risk-free rate is constant. We thus obtain the simplified expression (2) in the main paper, with  $\pi_{t + 1}^{e} = E_{t + 1}\pi_{t + 2}$ .
