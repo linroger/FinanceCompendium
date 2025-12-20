@@ -4526,13 +4526,13 @@ $$
 The second partial derivatives are the following:
 
 $$
-\begin{array}{l} \frac {\partial^ {2} \mathbf {m}}{\partial \varphi^ {2}} = \frac {\partial \left(\frac {1}{\overline {{\mathbf {U} ^ {\prime} [ \mathbf {m} _ {(\varphi)} ]}}}\right)}{\partial \varphi} = - \frac {\mathbf {U} ^ {\prime \prime} (\mathbf {m})}{[ \mathbf {m} _ {(\varphi)} ] ^ {2}} \frac {\mathrm {d} \mathbf {m}}{\mathrm {d} \varphi} = - \frac {\mathbf {U} ^ {\prime \prime} (\mathbf {m})}{[ \mathbf {U} ^ {\prime} (\mathbf {m}) ] ^ {3}} \tag {4.55} \\ \frac {\mathrm {d} ^ {2} \varphi}{\mathrm {d m} ^ {2}} = \frac {\mathrm {d}}{\mathrm {d} \varphi} \frac {1}{\mathbf {U} ^ {\prime} [ \mathbf {m} (\varphi) ]} = - \frac {\mathbf {U} ^ {\prime \prime} (\mathbf {m})}{[ \mathbf {m} (\varphi) ] ^ {2}} \frac {\mathrm {d} \mathbf {m}}{\mathrm {d} \varphi} = - \frac {\mathbf {U} ^ {\prime \prime} (\mathbf {m})}{[ \mathbf {U} ^ {\prime} (\mathbf {m}) ] ^ {3}} \\ \end{array}
+\begin{array}{l} \frac{\partial^{2} \mathbf{m}}{\partial \varphi^{2}} = \frac{\partial\left(\frac{1}{\overline{\mathbf{U}^{\prime}[\mathbf{m}_{(\varphi)}]}}\right)}{\partial \varphi} = - \frac{\mathbf{U}^{\prime\prime}(\mathbf{m})}{[\mathbf{m}_{(\varphi)}]^{2}} \frac{\mathrm{d}\mathbf{m}}{\mathrm{d}\varphi} = - \frac{\mathbf{U}^{\prime\prime}(\mathbf{m})}{[\mathbf{U}^{\prime}(\mathbf{m})]^{3}} \tag{4.55} \\ \frac{\mathrm{d}^{2}\varphi}{\mathrm{d}m^{2}} = \frac{\mathrm{d}}{\mathrm{d}\varphi} \frac{1}{\mathbf{U}^{\prime}[\mathbf{m}(\varphi)]} = - \frac{\mathbf{U}^{\prime\prime}(\mathbf{m})}{[\mathbf{m}(\varphi)]^{2}} \frac{\mathrm{d}\mathbf{m}}{\mathrm{d}\varphi} = - \frac{\mathbf{U}^{\prime\prime}(\mathbf{m})}{[\mathbf{U}^{\prime}(\mathbf{m})]^{3}} \\ \end{array}
 $$
 
 The second derivative is negative because the risk aversion is assumed and therefore:
 
 $$
-- \frac {\mathrm {U} ^ {\prime \prime} (\mathrm {m})}{\left[ \mathrm {U} ^ {\prime} (\mathrm {m}) \right] ^ {3}} > 0 \tag {4.56}
+- \frac{\mathrm{U}^{\prime\prime}(\mathrm{m})}{\left[\mathrm{U}^{\prime}(\mathrm{m})\right]^{3}} > 0 \tag{4.56}
 $$
 
 On the basis of the signs of the first and second derivatives, the curves in the plane  $(\varphi ,m)$  are increasing function (for  $m$  ) and convex (for  $\varphi$  ), as shown in Fig. 4.6 (adapted from Castellani et al. 2005).
@@ -4564,7 +4564,7 @@ It is quite clear that in the absence of constraints on risk  $(\varphi)$  and e
 Within the set of opportunities  $(W)$  a key role is played by the opportunity of frontier: it can be defined as the opportunity that minimizes the risk for a given level of the expected value. The constrained optimization problem can be defined as follows (Castellani et al. 2005):
 
 $$
-\left\{ \begin{array}{l} \min  _ {\mathrm {w} \in \mathrm {W}} \Phi (\mathrm {w}) \\ \mathrm {E} (\mathrm {w}) = \mathrm {m} _ {0} \end{array} \right. \tag {4.57}
+\left\{ \begin{array}{l} \min_{\mathrm{w} \in \mathrm{W}} \Phi(\mathrm{w}) \\ \mathrm{E}(\mathrm{w}) = \mathrm{m}_{0} \end{array} \right. \tag{4.57}
 $$
 
 where the first is the function to minimize and the second is the constraint.
@@ -4578,7 +4578,7 @@ By solving the constrained optimization of Eq. (4.57) for all values of  $m_0$  
 The efficient opportunity can be defined for every opportunity on the frontier of the opportunities  $(\mathcal{B})$  which has a maximum expected value  $(m)$  for the same risk level  $(\varphi)$ . Therefore, the efficient opportunity is the solution of the constrained optimization problem, as follows (Castellani et al. 2005):
 
 $$
-\left\{ \begin{array}{l} \max  _ {\mathrm {w} \in \mathcal {B}} \mathrm {E} (\mathrm {w}) \\ \Phi (\mathrm {w}) = \varphi_ {0} \end{array} \right. \tag {4.58}
+\left\{ \begin{array}{l} \max_{\mathrm{w} \in \mathcal{B}} \mathrm{E}(\mathrm{w}) \\ \Phi(\mathrm{w}) = \varphi_{0} \end{array} \right. \tag{4.58}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/11da29215bf28b9ff4aecb93569fc0fbdee79167c570ae7216aff2509620cdf8.jpg)
@@ -4617,7 +4617,7 @@ Case 2) more than two assets in the portfolio;
 Assuming two assets in the portfolio. Therefore, the investor has to share his wealth between asset  $A_{1}$  and asset  $A_{2}$ . The current wealth of the investor to be invested, is the constraint: it does not change but it can only be shared between the two assets. Formally (Saltari 2011):
 
 $$
-\mathrm {P} _ {1} ^ {\mathrm {A}} \mathrm {A} _ {1} + \mathrm {P} _ {2} ^ {\mathrm {A}} \mathrm {A} _ {2} = \mathrm {P} _ {1} ^ {\mathrm {A}} \overline {{\mathrm {A} _ {1}}} + \mathrm {P} _ {2} ^ {\mathrm {A}} \overline {{\mathrm {A} _ {2}}} = \mathrm {w} \tag {4.59}
+\mathrm{P}_{1}^{\mathrm{A}} \mathrm{A}_{1} + \mathrm{P}_{2}^{\mathrm{A}} \mathrm{A}_{2} = \mathrm{P}_{1}^{\mathrm{A}} \overline{\mathrm{A}_{1}} + \mathrm{P}_{2}^{\mathrm{A}} \overline{\mathrm{A}_{2}} = \mathrm{w} \tag{4.59}
 $$
 
 where:
@@ -4630,7 +4630,7 @@ where:
 The current portion of wealth invested in the i-th asset  $(\alpha_{i})$  is equal to:
 
 $$
-\alpha_ {\mathrm {i}} = \frac {\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}} \mathrm {A} _ {\mathrm {i}}}{\mathrm {w}} \quad \text {o r} \quad \alpha_ {\mathrm {i}} = \frac {\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}} \bar {\mathrm {A}} _ {\mathrm {i}}}{\mathrm {w}} \tag {4.60}
+\alpha_{\mathrm{i}} = \frac{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}} \mathrm{A}_{\mathrm{i}}}{\mathrm{w}} \quad \text{or} \quad \alpha_{\mathrm{i}} = \frac{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}} \bar{\mathrm{A}}_{\mathrm{i}}}{\mathrm{w}} \tag{4.60}
 $$
 
 where, the first is defined according to the amount of the i-th Asset purchased by the investor, while the second according to the amount of the i-th Asset held by the investor.
@@ -4650,7 +4650,7 @@ $$
 and on the basis of Eq. (4.60), we have:
 
 $$
-\alpha_ {1} + \alpha_ {2} = 1 \tag {4.61}
+\alpha_{1} + \alpha_{2} = 1 \tag{4.61}
 $$
 
 The expected return of each Asset is function of the states of nature  $(s)$ . For simplicity, assuming that only two states are possible:  $s = 1; s = 2$ . The matrix
@@ -4662,11 +4662,11 @@ The  $z_{i,s}$  is the expected return of the i-th asset (for  $i = 1,2$ ) when 
 Therefore, the portfolio's expected return is function of the portion of the current wealth invested in each of the two assets, as well as the expected return of the two assets as function of the states of nature. Formally (Saltari 2011):
 
 $$
-y _ {1} = A _ {1} z _ {1, 1} + A _ {2} z _ {2, 1} \quad \text {f o r} s = 1 \left(y _ {s} = y _ {1}\right) \tag {4.62}
+y_{1} = A_{1} z_{1,1} + A_{2} z_{2,1} \quad \text{for} s = 1\left(y_{s} = y_{1}\right) \tag{4.62}
 $$
 
 $$
-y _ {2} = A _ {1} z _ {1, 2} + A _ {2} z _ {2, 2} \quad \text {f o r} s = 2 \left(y _ {s} = y _ {2}\right)
+y_{2} = A_{1} z_{1,2} + A_{2} z_{2,2} \quad \text{for} s = 2\left(y_{s} = y_{2}\right)
 $$
 
 where:
@@ -4697,19 +4697,19 @@ Table 4.2 Matrix expected return—state of nature
 <table><tr><td colspan="4">Matrix expected return—states of nature</td></tr><tr><td rowspan="2" colspan="2"></td><td colspan="2">States of nature</td></tr><tr><td>State of nature 1(s = 1)</td><td>State of nature 1(s = 1)</td></tr><tr><td rowspan="2">Expected return</td><td>Asset 1 (i = 1)</td><td>zi,s = z1,1</td><td>zi,s = z1,2</td></tr><tr><td>Asset 2 (i = 2)</td><td>zi,s = z2,1</td><td>zi,s = z2,2</td></tr></table>
 
 $$
-\mathrm {r} _ {\mathrm {i}, \mathrm {s}} = \frac {\mathrm {z} _ {\mathrm {i} , \mathrm {s}} - \mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}}}{\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}}} = \frac {\mathrm {z} _ {\mathrm {i} , \mathrm {s}}}{\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}}} - 1 \tag {4.64}
+\mathrm{r}_{\mathrm{i}, \mathrm{s}} = \frac{\mathrm{z}_{\mathrm{i}, \mathrm{s}} - \mathrm{P}_{\mathrm{i}}^{\mathrm{A}}}{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}}} = \frac{\mathrm{z}_{\mathrm{i}, \mathrm{s}}}{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}}} - 1 \tag{4.64}
 $$
 
 The total return of the i-th asset when the state of nature  $\mathrm{s}(R_{i,s})$  is achieved, is equal to:
 
 $$
-1 + \mathrm {r} _ {\mathrm {i}, \mathrm {s}} = \frac {\mathrm {Z} _ {\mathrm {i} , \mathrm {s}}}{\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}}} \equiv \mathrm {R} _ {\mathrm {i}, \mathrm {s}} \rightarrow \mathrm {R} _ {\mathrm {i}, \mathrm {s}} \equiv 1 + \mathrm {r} _ {\mathrm {i}, \mathrm {s}} \tag {4.65}
+1 + \mathrm{r}_{\mathrm{i}, \mathrm{s}} = \frac{\mathrm{Z}_{\mathrm{i}, \mathrm{s}}}{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}}} \equiv \mathrm{R}_{\mathrm{i}, \mathrm{s}} \rightarrow \mathrm{R}_{\mathrm{i}, \mathrm{s}} \equiv 1 + \mathrm{r}_{\mathrm{i}, \mathrm{s}} \tag{4.65}
 $$
 
 Therefore, Eq. (4.63) can be rewritten as follows (Saltari 2011):
 
 $$
-\begin{array}{l} y _ {1} = \left[ \alpha_ {1} R _ {1, 1} + \alpha_ {2} R _ {2, 1} \right] w \quad \text {f o r} s = 1 \left(y _ {s} = y _ {1}\right) \tag {4.66} \\ \begin{array}{l} y _ {1} = \left[ \alpha_ {1} R _ {1, 1} + \alpha_ {2} R _ {2, 1} \right] w \quad \text {f o r} s = 2 \left(y _ {s} = y _ {2}\right) \end{array} \\ \end{array}
+\begin{array}{l} y_{1} = \left[\alpha_{1} R_{1,1} + \alpha_{2} R_{2,1}\right] w \quad \text{for} s = 1\left(y_{s} = y_{1}\right) \tag{4.66} \\ \begin{array}{l} y_{1} = \left[\alpha_{1} R_{1,1} + \alpha_{2} R_{2,1}\right] w \quad \text{for} s = 2\left(y_{s} = y_{2}\right) \end{array} \\ \end{array}
 $$
 
 where:
@@ -4720,7 +4720,7 @@ where:
 In general, we have:
 
 $$
-\mathrm {y} _ {\mathrm {s}} = \alpha_ {\mathrm {i}} \mathrm {R} _ {\mathrm {i}, \mathrm {s}} \mathrm {w} \quad \mathrm {i} = 1, 2; \mathrm {s} = 1, 2 \tag {4.67}
+\mathrm{y}_{\mathrm{s}} = \alpha_{\mathrm{i}} \mathrm{R}_{\mathrm{i}, \mathrm{s}} \mathrm{w} \quad \mathrm{i} = 1, 2; \mathrm{s} = 1, 2 \tag{4.67}
 $$
 
 Therefore, the portfolio's return is function of the state of nature  $(s = 1,2)$  that it is achieved and of the total return of the two assets  $(R_{1,s};R_{2,s})$  on the basis of the wealth portion invested in each of them  $(\alpha_{1}w;\alpha_{2}w)$ .
@@ -4758,13 +4758,13 @@ It is worth noting that to assume that points  $C$  and  $D$  cannot be exceeded
 By assuming the absence of short selling, and therefore by considering the segment  $AB$  only, the sum of the portions of wealth invested in the two assets must be equal to the total wealth of the investor, as follows:
 
 $$
-\alpha_ {1} + \alpha_ {2} = 1 \tag {4.68}
+\alpha_{1} + \alpha_{2} = 1 \tag{4.68}
 $$
 
 The constraint can be expressed based on one of the two assets. Therefore, based on the Eq. (4.68) the wealth portion invested in the asset  $2(\alpha_{2})$  can be expressed as function of the wealth portion invested in the asset  $1(\alpha_{1})$  as the follows:
 
 $$
-\alpha_ {2} = 1 - \alpha_ {1} \tag {4.69}
+\alpha_{2} = 1 - \alpha_{1} \tag{4.69}
 $$
 
 By substituting Eq. (4.66) can be rewritten as follows:
@@ -4788,11 +4788,11 @@ $$
 and then:
 
 $$
-\mathbf {y} _ {1} = \left[ \begin{array}{l} \alpha_ {1} \left(\mathbf {R} _ {1, 1} - \mathbf {R} _ {2, 1}\right) + \mathbf {R} _ {2, 1} \end{array} \right] \mathrm {w} \quad \text {f o r s = 1 (y _ {s} = y _ {1})} \tag {4.70}
+\mathbf{y}_{1} = \left[ \begin{array}{l} \alpha_{1} \left(\mathbf{R}_{1,1} - \mathbf{R}_{2,1}\right) + \mathbf{R}_{2,1} \end{array} \right] \mathrm{w} \quad \text{for s = 1 (y_{s} = y_{1})} \tag{4.70}
 $$
 
 $$
-\mathrm {y} _ {2} = \left[ \alpha_ {1} \left(\mathrm {R} _ {1, 2} - \mathrm {R} _ {2, 2}\right) + \mathrm {R} _ {2, 2} \right] \mathrm {w} \quad \text {f o r s} = 2 \left(\mathrm {y} _ {\mathrm {s}} = \mathrm {y} _ {2}\right)
+\mathrm{y}_{2} = \left[ \alpha_{1} \left(\mathrm{R}_{1,2} - \mathrm{R}_{2,2}\right) + \mathrm{R}_{2,2} \right] \mathrm{w} \quad \text{for s} = 2 \left(\mathrm{y}_{\mathrm{s}} = \mathrm{y}_{2}\right)
 $$
 
 It is possible to define the relationship between  $y_{1}$  and  $y_{2}$  on the basis of the constraint. By solving the first equation for  $\alpha_{1}$ , we have:
@@ -4822,7 +4822,7 @@ $$
 and then:
 
 $$
-\mathrm {y} _ {2} = \frac {\mathrm {R} _ {1 , 2} - \mathrm {R} _ {2 , 2}}{\mathrm {R} _ {1 , 1} - \mathrm {R} _ {2 , 1}} \left[ \mathrm {y} _ {1} - \mathrm {w R} _ {2, 1} \right] + \mathrm {w R} _ {2, 2} \tag {4.71}
+\mathrm{y}_{2} = \frac{\mathrm{R}_{1,2} - \mathrm{R}_{2,2}}{\mathrm{R}_{1,1} - \mathrm{R}_{2,1}} \left[ \mathrm{y}_{1} - \mathrm{wR}_{2,1} \right] + \mathrm{wR}_{2,2} \tag{4.71}
 $$
 
 Equation (4.72) defines the relationship between  $y_{1}$  and  $y_{2}$  based on the constraint. It can be defined as the constraint's equation (Saltari 2011). The ratio  $(R_{1,2} - R_{2,2}) / (R_{1,1} - R_{2,1})$  defines the slope of the constraint.
@@ -4837,7 +4837,7 @@ It is worth noting that the portfolio's return is function of two variables:
 Formally, a problem of constrained optimization can be defined, as follows (Saltari 2011):
 
 $$
-\left\{ \begin{array}{l} \max  _ {\alpha_ {1}, \alpha_ {2}} E (U) = \pi_ {1} U \left(y _ {1}\right) + \pi_ {2} U \left(y _ {2}\right) \\ \alpha_ {1} + \alpha_ {2} = 1 \end{array} \right. \tag {4.72}
+\left\{ \begin{array}{l} \max_{\alpha_{1},\alpha_{2}} E(U) = \pi_{1} U \left(y_{1}\right) + \pi_{2} U \left(y_{2}\right) \\ \alpha_{1} + \alpha_{2} = 1 \end{array} \right. \tag{4.72}
 $$
 
 where the first is the equation to be maximized and the second is the constraint.
