@@ -4500,7 +4500,7 @@ $$
 The utility function is always increasing (the first derivative is always positive). Then it is an injective function (one-to-one function) and its inverse is equal to:
 
 $$
-\mathrm {m} (\varphi) = \mathrm {U} ^ {- 1} (\varphi + \bar {\mathrm {U}}) \tag {4.52}
+\mathrm{m}(\varphi) = \mathrm{U}^{-1}(\varphi + \bar{\mathrm{U}}) \tag{4.52}
 $$
 
 Note that by placing the risk equal to zero  $(\varphi = 0)$ , we have:
@@ -4514,13 +4514,13 @@ Representing the intersection between the curve level  $U(\varphi, m) = \bar{U}$
 Based on the implicit function, the two first partial derivatives are the following:
 
 $$
-\begin{array}{l} \frac {\partial \mathrm {m}}{\partial \varphi} = - \frac {\frac {\partial \mathrm {U}}{\partial \varphi}}{\frac {\partial \mathrm {U}}{\partial \mathrm {m}}} = - \frac {- 1}{\mathrm {U} ^ {\prime} (\mathrm {m})} = \frac {1}{\mathrm {U} ^ {\prime} (\mathrm {m})} \tag {4.53} \\ \frac {\partial \varphi}{\partial \mathrm {m}} = - \frac {\frac {\partial \mathrm {U}}{\partial \varphi}}{\frac {\partial \mathrm {U}}{\partial \mathrm {m}}} = - \frac {- 1}{\mathrm {U} ^ {\prime} (\mathrm {m})} = \frac {1}{\mathrm {U} ^ {\prime} (\mathrm {m})} \\ \end{array}
+\begin{array}{l} \frac{\partial \mathrm{m}}{\partial \varphi} = - \frac{\frac{\partial \mathrm{U}}{\partial \varphi}}{\frac{\partial \mathrm{U}}{\partial \mathrm{m}}} = - \frac{-1}{\mathrm{U}^{\prime}(\mathrm{m})} = \frac{1}{\mathrm{U}^{\prime}(\mathrm{m})} \tag{4.53} \\ \frac{\partial \varphi}{\partial \mathrm{m}} = - \frac{\frac{\partial \mathrm{U}}{\partial \varphi}}{\frac{\partial \mathrm{U}}{\partial \mathrm{m}}} = - \frac{-1}{\mathrm{U}^{\prime}(\mathrm{m})} = \frac{1}{\mathrm{U}^{\prime}(\mathrm{m})} \\ \end{array}
 $$
 
 The first derivative is always positive because the function is increasing, and therefore:
 
 $$
-\frac {1}{\mathrm {U} ^ {\prime} (\mathrm {m})} > 0 \tag {4.54}
+\frac{1}{\mathrm{U}^{\prime}(\mathrm{m})} > 0 \tag{4.54}
 $$
 
 The second partial derivatives are the following:
