@@ -1532,7 +1532,7 @@ $$
 Define
 
 $$
-\operatorname{MaxVar} [ \mu , \mu + \epsilon ] = \max_{p \in [ \mu , \mu + \epsilon ]} V a r_{p}
+\operatorname{MaxVar} [ \mu , \mu + \epsilon ] = \max_{p \in [ \mu , \mu + \epsilon ]} \operatorname{Var}_{p}
 $$
 
 which provides a lower bound on the second derivative for  $\delta$  between 0 and  $\epsilon$ .
@@ -1548,7 +1548,7 @@ which leads to a nicer version of the Chernoff bound.
 Theorem 2.3. (Nicer Form of the Chernoff Bound) Assume that  $X \in [0,1]$  and  $EX = \mu$ . Fix  $\epsilon$ . Define:
 
 $$
-\operatorname{MaxVar} [ \mu ,\mu +\epsilon ] = \max_{p\in [\mu ,\mu +\epsilon ]}Var_{p}
+\operatorname{MaxVar} [ \mu ,\mu +\epsilon ] = \max_{p\in [\mu ,\mu +\epsilon ]}\operatorname{Var}_{p}
 $$
 
 as before (i.e. it is the maximal variance (of  $\{0,1\}$  variable) between  $\mu$  and  $\mu +\epsilon$ ).

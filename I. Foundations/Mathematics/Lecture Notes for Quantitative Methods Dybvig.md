@@ -217,13 +217,13 @@ Proof.
 In intermediate micro, one starts with a utility function,  $u$ , that represents preferences, that is,  $x \succsim y$  iff  $u(x) \geq u(y)$ , and then derives demand behavior,  $x(p, m)$  from the solutions to
 
 $$
-\max  u (x) \text {s u b j e c t} p \cdot x \leq m, x \in \mathbb {R} _ {+} ^ {\ell}.
+\max u(x)\text{ subject to }p\cdot x\leq m,\ x\in\mathbb{R}_{+}^{\ell}.
 $$
 
 The demand function,  $x(p,m)$ , is unaffected by monotonic transformations of  $u$ , that is, if  $f: \mathbb{R} \to \mathbb{R}$  satisfies  $[[r > s] \Rightarrow [f(r) > f(s)]$  and  $v(x) \coloneqq f(u(x))$ , then  $x(p,m)$  also solves the problem
 
 $$
-\max  v (x) \text {s u b j e c t} p \cdot x \leq m, x \in \mathbb {R} _ {+} ^ {\ell}.
+\max v(x)\text{ subject to }p\cdot x\leq m,\ x\in\mathbb{R}_{+}^{\ell}.
 $$
 
 Utility functions do not measure anything. They are no more than a convenient device to represent preferences.
@@ -246,10 +246,10 @@ Lemma 1.4.4. If  $K$  is convex, then for all  $\epsilon >0$ ,  $\overline{K}\su
 
 1.4.3. A worked example.  $Y = \{(y_{1}, y_{2}) : y_{1} \leq 0, y_{2} \leq \sqrt{|y_{1}|}\}$ ,  $\Pi_{Y}(p) := \sup \{p \cdot y : y \in Y\}$ , find the input demand function, the supply function, the profit function, show that the profit function is convex, "application" to stability of prices, refer to homework on derivative tests.
 
-Given a convex profit function  $\Pi(\cdot)$ ,  $Y_{\Pi} \coloneqq \{y : \forall p > 0, p \cdot y \leq \Pi(p)\}$ , relate to convex-closed sets, do the work in the example to show the basic duality result for profit functions,
+Given a convex profit function  $\Pi(\cdot)$ ,  $Y_{\Pi}\coloneqq\{y:\forall p>0,\ p\cdot y\leq\Pi(p)\}$ , relate to convex-closed sets, do the work in the example to show the basic duality result for profit functions,
 
 $$
-Y = Y _ {\Pi_ {Y}}.
+Y=Y_{\Pi_{Y}}.
 $$
 
 This means that I can give you a profit function and I have implicitly specified the technology, or I can give you a technology, and I have implicitly specified the profit function, and these two representations are (loosely) duals of each other.
@@ -279,24 +279,24 @@ Another important duality result is that the derivative of the support function 
 Problem 1.1. Show that the sequence of  $x_{t}$
 
 $$
-0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 \dots
+01010101010101010101\dots
 $$
 
-has  $V_{\lim \inf}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
+has  $V_{\lim\inf}(x)=0<V_1(x)=V_2(x)=\frac{1}{2}$ .
 
 Problem 1.2. Show that the sequence of  $x_{t}$
 
 $$
-\underbrace {1 1} _ {2 ^ {1}} \underbrace {0 0 0 0} _ {2 ^ {2}} \underbrace {1 1 1 1 1 1 1 1} _ {2 ^ {3}} \dots
+\underbrace{11}_{2^{1}}\underbrace{0000}_{2^{2}}\underbrace{11111111}_{2^{3}}\dots
 $$
 
 is a permutation of the sequence
 
 $$
-0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 \dots .
+01010101010101010101\dots
 $$
 
-Further show that  $V_{\mathrm{liminf}}^{average}(x) = \frac{1}{3} < V_{\mathrm{limsup}}^{average}(x) = \frac{2}{3}$ , and that  $V_{3}(x) = 0$ .
+Further show that  $V_{\mathrm{liminf}}^{average}(x)=\frac{1}{3}<V_{\mathrm{limsup}}^{average}(x)=\frac{2}{3}$ , and that  $V_{3}(x)=0$ .
 
 Problem 1.3. Let  $Y = \{(y_{1}, y_{2}) : y_{1} \leq 0, y_{2} \leq \log(1 - y_{1})\}$ , find the supply and demand function, the profit function  $\Pi_{Y}$ , and explicitly show that  $Y = Y_{\Pi_{Y}}$ .
 
@@ -338,16 +338,16 @@ A symmetric matrix  $n \times n$  matrix  $\mathbf{A} = (a_{ij})_{i,j=1,\dots,n}
 
 Theorem 1.6.1. A twice continuously differentiable  $f: \mathbb{R}^n \to \mathbb{R}$  defined on an open, convex set  $C$  is concave (respectively strictly concave) iff for all  $x^\circ \in C$ $D_x^2 f(x^\circ)$  is negative semi-definite (respectively negative definite).
 
-The principal sub-matrices of a symmetric  $n \times n$  matrix  $\mathbf{A} = (a_{ij})_{i,j=1,\ldots,n}$  are the  $m \times m$  matrices  $(a_{ij})_{i,j=1,\ldots,m}$ ,  $m \leq n$ . Thus, the 3 principal sub-matrices of the  $3 \times 3$  matrix
+The principal sub-matrices of a symmetric  $n \times n$  matrix  $\mathbf{A}=(a_{ij})_{i,j=1,\ldots,n}$  are the  $m\times m$  matrices  $(a_{ij})_{i,j=1,\ldots,m}$ ,  $m\leq n$ . Thus, the 3 principal sub-matrices of the  $3\times 3$  matrix
 
 $$
-\mathbf {A} = \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right]
+\mathbf{A}=\left[\begin{array}{lll}3&0&0\\0&4&\sqrt{3}\\0&\sqrt{3}&6\end{array}\right]
 $$
 
 are
 
 $$
-\left[ \begin{array}{l} 3 \end{array} \right], \quad \left[ \begin{array}{l l} 3 & 0 \\ 0 & 4 \end{array} \right], \mathrm {a n d} \quad \left[ \begin{array}{l l l} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right].
+\left[\begin{array}{l}3\end{array}\right],\quad\left[\begin{array}{ll}3&0\\0&4\end{array}\right],\mathrm{ and }\quad\left[\begin{array}{lll}3&0&0\\0&4&\sqrt{3}\\0&\sqrt{3}&6\end{array}\right].
 $$
 
 Theorem 1.6.2. A matrix  $\mathbf{A}$  is negative semi-definite (respectively negative definite) iff the sign of  $m$ th principal sub-matrix is either 0 or  $-1^{m}$  (respectively, the sign of the  $m$ th principal sub-matrix is  $-1^{m}$ ). It is positive semi-definite (respectively positive definite) if you replace " $-1^{m}$ " with " $+1^{m}$ " throughout.
@@ -405,10 +405,10 @@ Lemma 1.6.3.  $\mathbf{A} = \lambda x$ ,  $x \neq 0$ , iff  $(\mathbf{A} - \lamb
 
 Proof: You should know why this is true. If not, you need some more review.
 
-Define  $g(\lambda) = |\mathbf{A} - \lambda \mathbf{I}|$  so that  $g$  is an  $n$ 'th degree polynomial in  $\lambda$ . The fundamental theorem of algebra tells us that any  $n$ 'th degree polynomial has  $n$  roots, counting multiplicities, in the complex plane. To be a bit more concrete, this means that there are complex numbers  $\lambda_i$ ,  $i = 1, \ldots, n$  such that
+Define  $g(\lambda)=|\mathbf{A}-\lambda\mathbf{I}|$  so that  $g$  is an  $n$'th degree polynomial in  $\lambda$ . The fundamental theorem of algebra tells us that any  $n$'th degree polynomial has  $n$  roots, counting multiplicities, in the complex plane. To be a bit more concrete, this means that there are complex numbers  $\lambda_i$ ,  $i=1,\ldots,n$  such that
 
 $$
-g (y) = (\lambda_ {1} - y) (\lambda_ {2} - y) \dots (\lambda_ {n} - y).
+g(y)=(\lambda_{1}-y)(\lambda_{2}-y)\dots(\lambda_{n}-y).
 $$
 
 The "counting multiplicities" phrase means that the  $\lambda_{i}$  need not be distinct.
@@ -428,7 +428,7 @@ Proof: The eigenvalue part: Suppose that  $\lambda$  is an eigenvalue and  $x$  
 (1)
 
 $$
-\mathbf {A} x = \lambda x.
+\mathbf{A}x=\lambda x.
 $$
 
 Taking the complex conjugate of both sides,
@@ -436,63 +436,63 @@ Taking the complex conjugate of both sides,
 (2)
 
 $$
-\mathbf {A} x ^ {*} = \lambda^ {*} x ^ {*}
+\mathbf{A}x^{*}=\lambda^{*}x^{*}
 $$
 
 because  $\mathbf{A}$  has only real entries.
 
 $$
-[ \mathbf {A} x = \lambda x ] \Rightarrow [ (x ^ {*}) ^ {T} \mathbf {A} x = (x ^ {*}) ^ {T} \lambda x = \lambda x ^ {T} x ^ {*} ],
+[\mathbf{A}x=\lambda x]\Rightarrow[(x^{*})^{T}\mathbf{A}x=(x^{*})^{T}\lambda x=\lambda x^{T}x^{*}],
 $$
 
 $$
-\left[ \mathbf {A} x ^ {*} = \lambda^ {*} x ^ {*} \right] \Rightarrow \left[ x ^ {T} \mathbf {A} x ^ {*} = x ^ {T} \lambda^ {*} x ^ {*} = \lambda^ {*} x ^ {T} x ^ {*} \right].
+\left[\mathbf{A}x^{*}=\lambda^{*}x^{*}\right]\Rightarrow\left[x^{T}\mathbf{A}x^{*}=x^{T}\lambda^{*}x^{*}=\lambda^{*}x^{T}x^{*}\right].
 $$
 
 Subtracting,
 
 $$
-\left(x ^ {*}\right) ^ {T} \mathbf {A} x - x ^ {T} \mathbf {A} x ^ {*} = (\lambda - \lambda^ {*}) x ^ {T} x ^ {*}.
+(x^{*})^{T}\mathbf{A}x-x^{T}\mathbf{A}x^{*}=(\lambda-\lambda^{*})x^{T}x^{*}.
 $$
 
 Since the matrix  $\mathbf{A}$  is symmetric,
 
 $$
-\left(\boldsymbol {x} ^ {*}\right) ^ {T} \mathbf {A} \boldsymbol {x} - \boldsymbol {x} ^ {T} \mathbf {A} \boldsymbol {x} ^ {*} = 0.
+(x^{*})^{T}\mathbf{A}x-x^{T}\mathbf{A}x^{*}=0.
 $$
 
-Since  $x \neq 0$ ,  $x^T x^* \neq 0$ . Therefore,
+Since  $x\neq 0$ ,  $x^Tx^{*}\neq 0$ . Therefore,
 
 $$
-[ (\lambda - \lambda^ {*}) x ^ {T} x ^ {*} = 0 ] \Rightarrow [ (\lambda - \lambda^ {*}) = 0 ],
+[(\lambda-\lambda^{*})x^{T}x^{*}=0]\Rightarrow[(\lambda-\lambda^{*})=0],
 $$
 
 which can only happen if  $\lambda$  is a real number.
 
 The eigenvector part: From the previous part, all eigenvalues are real. Since  $\mathbf{A}$  is real, this implies that all eigenvectors are also real.
 
-Let  $\lambda_i \neq \lambda_j$  be distinct eigenvalues and  $x_i, x_j$  their associated eigenvectors so that
+Let  $\lambda_i\neq\lambda_j$  be distinct eigenvalues and  $x_i,\ x_j$  their associated eigenvectors so that
 
 $$
-\mathbf {A} x _ {i} = \lambda_ {i} x _ {i}, \quad \mathbf {A} x _ {j} = \lambda_ {j} x _ {j}.
+\mathbf{A}x_{i}=\lambda_{i}x_{i},\quad\mathbf{A}x_{j}=\lambda_{j}x_{j}.
 $$
 
 Pre-multiplying by the appropriate vectors,
 
 $$
-x _ {j} ^ {T} \mathbf {A} x _ {i} = \lambda_ {i} x _ {j} ^ {T} x _ {i}, \quad x _ {i} ^ {T} \mathbf {A} x _ {j} = \lambda_ {j} x _ {i} ^ {T} x _ {j}.
+x_{j}^{T}\mathbf{A}x_{i}=\lambda_{i}x_{j}^{T}x_{i},\quad x_{i}^{T}\mathbf{A}x_{j}=\lambda_{j}x_{i}^{T}x_{j}.
 $$
 
-We know that  $x_{i}^{T}x_{j} = x_{j}^{T}x_{i}$  (by properties of dot products). Because  $\mathbf{A}$  is symmetric,
+We know that  $x_{i}^{T}x_{j}=x_{j}^{T}x_{i}$  (by properties of dot products). Because  $\mathbf{A}$  is symmetric,
 
 $$
-x _ {j} ^ {T} \mathbf {A} x _ {i} = x _ {i} ^ {T} \mathbf {A} x _ {j}.
+x_{j}^{T}\mathbf{A}x_{i}=x_{i}^{T}\mathbf{A}x_{j}.
 $$
 
 Combining,
 
 $$
-(\lambda_ {i} - \lambda_ {j}) x _ {j} ^ {T} x _ {i} = 0.
+(\lambda_{i}-\lambda_{j})x_{j}^{T}x_{i}=0.
 $$
 
 Since  $(\lambda_i - \lambda_j) \neq 0$ , we conclude that  $x_i \cdot x_j = 0$ , the orthogonality we were looking for.
@@ -506,7 +506,7 @@ A careful proof shows that if  $\mathbf{A}$  has an eigenvalue  $\lambda_{i}$  w
 Problem 1.16. Find eigenvalues and eigenvectors for
 
 $$
-\left[ \begin{array}{c c} 4 & \sqrt {3} \\ \sqrt {3} & 6 \end{array} \right] a n d \left[ \begin{array}{c c c} 3 & 0 & 0 \\ 0 & 4 & \sqrt {3} \\ 0 & \sqrt {3} & 6 \end{array} \right].
+\left[\begin{array}{cc}4&\sqrt{3}\\\sqrt{3}&6\end{array}\right]\text{ and }\left[\begin{array}{ccc}3&0&0\\0&4&\sqrt{3}\\0&\sqrt{3}&6\end{array}\right].
 $$
 
 Let  $\lambda_1, \ldots, \lambda_n$  be the eigenvalues of  $\mathbf{A}$  (repeating any multiplicities), and let  $u_1, \ldots, u_n$  be a corresponding set of orthonormal eigenvectors. Let  $\mathbf{Q} = (u_1, \ldots, u_n)$  be the matrix with the eigenvectors as columns. Note that  $\mathbf{Q}^T\mathbf{Q} = \mathbf{I}$  so that  $\mathbf{Q}^{-1} = \mathbf{Q}^T$ . A matrix with its transpose being its inverse is an orthogonal matrix. Let  $\Lambda$  be the  $n \times n$  matrix with  $\Lambda_{ii} = \lambda_i$  and with 0's in the off-diagonal.
@@ -521,10 +521,10 @@ Proof:  $z^T\mathbf{A}z = z^T\mathbf{Q}^T\boldsymbol{\Lambda}\mathbf{Q}z = v^T\b
 
 1.6.5. The alternating signs determinant test for concavity. Now we have enough matrix algebra background to prove what we set out prove,  $\mathbf{A}$  is negative semi-definite (respectively negative definite) iff the sign of  $m$ 'th principal sub-matrix is either 0 or  $-1^m$  (respectively, the sign of the  $m$ 'th principal sub-matrix is  $-1^m$ ).
 
-We defined  $g(y) = |\mathbf{A} - y\mathbf{I}|$  so that  $g$  is an  $n$ 'th degree polynomial in  $\lambda$ , and used the fundamental theorem of algebra (and some calculation) to tell us that
+We defined  $g(y)=|\mathbf{A}-y\mathbf{I}|$  so that  $g$  is an  $n$'th degree polynomial in  $\lambda$ , and used the fundamental theorem of algebra (and some calculation) to tell us that
 
 $$
-g (y) = (\lambda_ {1} - y) (\lambda_ {2} - y) \dots (\lambda_ {n} - y)
+g(y)=(\lambda_{1}-y)(\lambda_{2}-y)\dots(\lambda_{n}-y)
 $$
 
 where the  $\lambda_{i}$  are the eigenvalues of  $\mathbf{A}$ . Note that  $g(0) = |\mathbf{A} - 0\mathbf{I}| = |\mathbf{A}| = \lambda_1\cdot \lambda_2\cdot \cdot \cdot \lambda_n$ , that is,
@@ -537,10 +537,10 @@ Recall that the principal sub-matrices of a symmetric  $n \times n$  matrix  $\m
 
 Problem 1.18. A is negative definite iff for all  $m \leq n$  and all non-zero  $x$  having only the first  $m$  components not equal to 0,  $x^T\mathbf{A}x < 0$ .
 
-Looking at  $m = 1$ , we must check if
+Looking at  $m=1$ , we must check if
 
 $$
-(x _ {1}, 0, 0, \ldots , 0) \left[ \begin{array}{c c c c} a _ {1 1} & a _ {1 2} & \dots & a _ {1 n} \\ a _ {2 1} & a _ {2 2} & \dots & a _ {2 n} \\ \vdots & \vdots & & \vdots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right] \left( \begin{array}{c} x _ {1} \\ 0 \\ 0 \\ \vdots \\ 0 \end{array} \right) = a _ {1 1} x _ {1} ^ {2} <   0.
+(x_{1},0,0,\ldots,0)\left[\begin{array}{cccc}a_{11}&a_{12}&\dots&a_{1n}\\a_{21}&a_{22}&\dots&a_{2n}\\\vdots&\vdots&&\vdots\\a_{n1}&a_{n2}&\dots&a_{nn}\end{array}\right]\left(\begin{array}{c}x_{1}\\0\\0\\\vdots\\0\end{array}\right)=a_{11}x_{1}^{2}<0.
 $$
 
 This is true iff the first principal sub-matrix of  $\mathbf{A}$  has the same sign as  $-1^{m} = -1^{1} = -1$ .

@@ -830,7 +830,7 @@ Previously, we mentioned Poisson processes before through a connection with the 
 Proposition 8.4 (Conditional arrival times). If  $T_{n+1} = t$ , then the conditional joint distribution of  $(T_1, T_2, \ldots, T_n)$  are the order statistics of i.i.d. uniform random variables multiplied by  $t$ , i.e.,
 
 $$
-\left[ \left(T _ {1}, \ldots , T _ {n}\right) \mid T _ {n + 1} = t \right] \sim \left(t U _ {(1)}, \ldots , t U _ {(n)}\right),
+\left[ \left(T_{1}, \ldots , T_{n}\right) \mid T_{n+1} = t \right] \sim \left(t U_{(1)}, \ldots , t U_{(n)}\right),
 $$
 
 where  $U_{1},\ldots ,U_{n}\sim \mathrm{Unif}$
@@ -838,7 +838,7 @@ where  $U_{1},\ldots ,U_{n}\sim \mathrm{Unif}$
 Proof. This stems from distribution representations and the Beta-Gamma calculus. Observe that
 
 $$
-\frac {T _ {k}}{T _ {n + 1}} = \frac {X _ {1} + X _ {2} + \cdots + X _ {k}}{X _ {1} + X _ {2} + \cdots + X _ {n + 1}}.
+\frac{T_{k}}{T_{n+1}} = \frac{X_{1} + X_{2} + \cdots + X_{k}}{X_{1} + X_{2} + \cdots + X_{n+1}}.
 $$
 
 The right-hand side is precisely the representation from Proposition 7.8 for the joint distribution of uniform order statistics  $U_{(k)}$ .
@@ -852,19 +852,19 @@ Exercise 8.1. Cut a stick of unit length at  $n$  randomly chosen points. This w
 Proof. Use the order statistics of the uniform distribution. This tells us that in the joint distribution, the  $k$ -th cut point can be represented as
 
 $$
-\frac {X _ {1} + \cdots + X _ {k}}{X _ {1} + \cdots + X _ {n + 1}},
+\frac{X_{1} + \cdots + X_{k}}{X_{1} + \cdots + X_{n+1}},
 $$
 
 where  $X_{1},\ldots ,X_{n + 1}$  are i.i.d.  $\sim$  Expo. Then, apply the Renyi representation of the exponential distribution, which tells us that
 
 $$
-X _ {(1)} \sim \frac {1}{n + 1} Y _ {1}; X _ {(2)} - X _ {(1)} \sim \frac {1}{n} Y _ {2}; \ldots ; X _ {(n + 1)} - X _ {(n)} \sim Y _ {n + 1};
+X_{(1)} \sim \frac{1}{n+1} Y_{1}; X_{(2)} - X_{(1)} \sim \frac{1}{n} Y_{2}; \ldots ; X_{(n+1)} - X_{(n)} \sim Y_{n+1};
 $$
 
 where  $Y_{1},\ldots ,Y_{n}$  are also i.i.d.  $\sim$  Expo. Finally, we can conclude that the length of the shortest segment is simply distributed as
 
 $$
-\frac {X _ {(1)}}{X _ {(1)} + \cdots + X _ {(n + 1)}} = \frac {\frac {1}{n + 1} Y _ {1}}{Y _ {1} + \cdots + Y _ {n + 1}} = \frac {1}{n + 1} \operatorname {B e t a} (1, n).
+\frac{X_{(1)}}{X_{(1)} + \cdots + X_{(n+1)}} = \frac{\frac{1}{n+1} Y_{1}}{Y_{1} + \cdots + Y_{n+1}} = \frac{1}{n+1} \operatorname{Beta}(1, n).
 $$
 
 This has mean  $\frac{1}{(n + 1)^2}$ .
@@ -872,7 +872,7 @@ This has mean  $\frac{1}{(n + 1)^2}$ .
 Note. By a slight modification of the above argument, using linearity of expectation, we can see that the expected value of the length of the  $k$ -th largest segment is simply
 
 $$
-\frac {1}{n + 1} \left(\frac {1}{n + 1} + \dots + \frac {1}{k}\right).
+\frac{1}{n+1} \left(\frac{1}{n+1} + \dots + \frac{1}{k}\right).
 $$
 
 In the next lecture, we will begin discussing expected value through Lebesgue integration!
@@ -924,7 +924,7 @@ When people typically define expected value, they usually do it separately eithe
 Definition 9.7 (Riemann integral). Recall that the Riemann integral of  $f:[a,b]\to \mathbb{R}$  is defined as a limit of Riemann sums
 
 $$
-\int_ {a} ^ {b} f (x) \mathrm {d} x = \lim _ {n \to \infty} \sum_ {i = 0} ^ {n - 1} f (t _ {i}) (x _ {i + 1} - x _ {i}),
+\int_{a}^{b} f(x) \mathrm{d} x = \lim_{n \to \infty} \sum_{i=0}^{n-1} f(t_{i}) (x_{i+1} - x_{i}),
 $$
 
 where  $a = x_0 < x_1 < x_2 < \dots < x_n = b$ , and for each  $i$ ,  $t_i \in [x_i, x_{i+1}]$ .
@@ -934,7 +934,7 @@ This definition of Riemann integral clearly does not work when you have a discre
 Definition 9.8 (Riemann-Stieltjes integral). The Riemann-Stieltjes integral of  $f:[a,b]\to \mathbb{R}$  with respect to a non-decreasing integrator function  $g:[a,b]\to \mathbb{R}$  is
 
 $$
-\int_ {a} ^ {b} f (x) \mathrm {d} g (x) = \lim _ {n \to \infty} \sum_ {i = 0} ^ {n - 1} f (t _ {i}) (g (x _ {i + 1}) - g (x _ {i})),
+\int_{a}^{b} f(x) \mathrm{d} g(x) = \lim_{n \to \infty} \sum_{i=0}^{n-1} f(t_{i}) (g(x_{i+1}) - g(x_{i})),
 $$
 
 where  $a = x_0 < x_1 < x_2 < \dots < x_n = b$ , and for each  $i$ ,  $t_i \in [x_i, x_{i+1}]$ .
@@ -964,7 +964,7 @@ Last week we introduced the Riemann-Stieltjes and Lebesgue integrals, for the pu
 Recall our two main integral definitions, shown below:
 
 $$
-\mathbf {E} \left[ X \right] = \int_ {- \infty} ^ {\infty} x \mathrm {d} F (x), \qquad \mathbf {E} \left[ X \right] = \int_ {\Omega} X (\omega) P (\mathrm {d} \omega).
+\mathbf{E} \left[X \right] = \int_{-\infty}^{\infty} x \mathrm{d} F(x), \qquad \mathbf{E} \left[X \right] = \int_{\Omega} X(\omega) P(\mathrm{d} \omega).
 $$
 
 The first is a mild generalization of our familiar Riemann integral from high school Calculus, while the second is the venerable Lebesgue integral, which is general enough to work on any measurable domain (not necessarily just the reals!). In general, when an integral is written, you can choose whichever definition as they are consistent where defined.
@@ -972,7 +972,7 @@ The first is a mild generalization of our familiar Riemann integral from high sc
 Example 10.1 (Indicator of  $\mathbb{Q}$ ). Consider the indicator function  $I_{\mathbb{Q}}: \mathbb{R} \to \{0,1\}$ , which is 1 on all the rationals and 0 everywhere else. This function is not Riemann integrable (non-convergent) on any nonzero interval of the reals, yet it is Lebesgue integrable. In fact, because the rationals are countable,
 
 $$
-\int_ {\mathbb {R}} I _ {\mathbb {Q}} (x) \lambda (\mathrm {d} x) = 0,
+\int_{\mathbb{R}} I_{\mathbb{Q}}(x) \lambda(\mathrm{d} x) = 0,
 $$
 
 where  $\lambda$  is the Lebesgue measure.15
@@ -984,11 +984,11 @@ Proposition 10.2 (Linearity of expectation). For r.v.s  $X$  and  $Y$ ,  $\mathb
 This is not an obvious statement, and proving it requires some work. We can also generalize to countably infinite sums of random variables, as linearity still holds under some mild regularizing assumptions. Joe uses this as an example of the difference between the Riemann and Lebesgue definitions of expected value. Compare the statement of linearity in both senses:
 
 $$
-\int_ {- \infty} ^ {\infty} t f _ {X + Y} (t) \mathrm {d} t = \int_ {- \infty} ^ {\infty} x f _ {X} (x) \mathrm {d} x + \int_ {\infty} ^ {\infty} y f _ {Y} (y) \mathrm {d} y,
+\int_{-\infty}^{\infty} t f_{X+Y}(t) \mathrm{d} t = \int_{-\infty}^{\infty} x f_{X}(x) \mathrm{d} x + \int_{-\infty}^{\infty} y f_{Y}(y) \mathrm{d} y,
 $$
 
 $$
-\int_ {\Omega} (X + Y) (\omega) P (\mathrm {d} \omega) = \int_ {\Omega} X (\omega) P (\mathrm {d} \omega) + \int_ {\Omega} Y (\omega) P (\mathrm {d} \omega).
+\int_{\Omega} (X + Y)(\omega) P(\mathrm{d} \omega) = \int_{\Omega} X(\omega) P(\mathrm{d} \omega) + \int_{\Omega} Y(\omega) P(\mathrm{d} \omega).
 $$
 
 Either statement requires a formal mathematical proof, but the second statement (in terms of the Lebesgue integral) is much more intuitive to read, as the integrating factor  $\omega$  is the same.
@@ -998,7 +998,7 @@ Example 10.3 (Simple random variables). Consider a simple random variable  $X = 
 For an additional clarification about Definition 9.9, consider the following equivalent description of the nonnegative case. This isn't written in the book yet, but there's a really clean formula for the simple random variables approximating any nonnegative random variable  $X$ . We can just take a monotone sequence of random variables:
 
 $$
-X _ {n} = \min  \left(n, 2 ^ {- n} \lfloor 2 ^ {n} X \rfloor\right).
+X_{n} = \min \left(n, 2^{-n} \lfloor 2^{n} X \rfloor\right).
 $$
 
 It's not hard to show that this is equivalent to the step in the definition of the Lebesgue integral that uses a supremum over simple random variables. Basically, all this does is cut off the values of  $X$  at  $n$ , then quantize it to the first  $n$  digits of its binary representation. However, this definition can be much easier to use in an actual computation.
@@ -1006,7 +1006,7 @@ It's not hard to show that this is equivalent to the step in the definition of t
 Example 10.4 (Darth Vader rule). For any nonnegative random variable  $Y$ , the following formula for the expectation holds:
 
 $$
-\mathbf {E} \left[ Y \right] = \int_ {0} ^ {\infty} P (Y > y) \mathrm {d} y.
+\mathbf{E} \left[Y \right] = \int_{0}^{\infty} P(Y > y) \mathrm{d} y.
 $$
 
 Proof. First we will show this for the Lebesgue definition of expected value. If  $Y$  is an indicator random variable  $I_A$ , then the right-hand side integral just becomes  $P(A)$ , which follows immediately. Next, if  $Y$  is simple, then we proceed simply by breaking up the variable into its canonical form and writing a double sum. After some manipulation (swapping the order of sums), this works. Finally, we can generalize to all nonnegative random variables by using the monotone convergence theorem, which lets us swap the order of lim and  $\mathbf{E}$ .
@@ -1014,13 +1014,13 @@ Proof. First we will show this for the Lebesgue definition of expected value. If
 For completeness, we also sketch the proof when the left-hand side has  $\mathbf{E}[Y]$  defined according to the Riemann-Stieltjes definition. Recall by definition that
 
 $$
-\mathbf {E} \left[ Y \right] = \int_ {- \infty} ^ {\infty} y \mathrm {d} F (y) = \int_ {- \infty} ^ {\infty} \int_ {0} ^ {y} \mathrm {d} x \mathrm {d} F (y).
+\mathbf{E} \left[Y \right] = \int_{-\infty}^{\infty} y \mathrm{d} F(y) = \int_{-\infty}^{\infty} \int_{0}^{y} \mathrm{d} x \mathrm{d} F(y).
 $$
 
 Writing it in this form, it's clear that this statement just becomes a consequence of Fubini's theorem. Swapping the order of the integrals yields our desired result:
 
 $$
-\int_ {- \infty} ^ {\infty} \int_ {0} ^ {y} \mathrm {d} x \mathrm {d} F (y) = \int_ {0} ^ {\infty} \int_ {x} ^ {\infty} \mathrm {d} F (y) \mathrm {d} x = \int_ {0} ^ {\infty} P (Y > y) \mathrm {d} y.
+\int_{-\infty}^{\infty} \int_{0}^{y} \mathrm{d} x \mathrm{d} F(y) = \int_{0}^{\infty} \int_{x}^{\infty} \mathrm{d} F(y) \mathrm{d} x = \int_{0}^{\infty} P(Y > y) \mathrm{d} y.
 $$
 
 # 10.2 Convergence Theorems in Analysis

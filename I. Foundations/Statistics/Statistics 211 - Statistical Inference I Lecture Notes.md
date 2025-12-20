@@ -657,7 +657,7 @@ Among other uses, the score function is useful for finding maximum likelihood es
 Definition 6.2 (Differentiating under the integral). Given a family of densities parameterized by  $\theta$  for a random variable  $Y$  with respect to measure  $\mu$ , we say that a function  $g_{\theta}(y)$  satisfies the  $m$ -th order EDI condition if
 
 $$
-\frac {\partial^ {m}}{\partial \theta^ {m}} \int_ {\mu} g _ {\theta} (y) \mathrm {d} y = \int_ {\mu} \frac {\mathrm {d} ^ {m}}{\mathrm {d} \theta^ {m}} g _ {\theta} (y) \mathrm {d} y.
+\frac{\partial^m}{\partial \theta^m} \int_{\mu} g_{\theta} (y) \mathrm{d} y = \int_{\mu} \frac{\mathrm{d}^m}{\mathrm{d} \theta^m} g_{\theta} (y) \mathrm{d} y.
 $$
 
 This is a useful regularity condition, and there are various real analysis results that can be used to prove this, such as the dominated convergence theorem. However, the proof of this result lies in measure theory that is out of scope for this class, so we will take the liberty of assuming necessary EDI conditions without justification.<sup>5</sup>
@@ -670,7 +670,7 @@ We will define a couple core regularity conditions on a model  $\{f_{\theta}(y):
 Proposition 6.3. For a model  $f_{\theta}(y)$  satisfying (A.1) and (A.2), if  $f_{\theta}$  is differentiable on its support and the first-order EDI holds, then for all  $\theta \in \Theta$ ,
 
 $$
-\mathbf {E} _ {\theta} \left[ S (Y, \theta) \right] = 0.
+\mathbf{E}_{\theta} \left[ S (Y, \theta) \right] = 0.
 $$
 
 Proof. Pretty trivial argument, we just apply Definition 6.2 and notice that the total integral of  $f_{\theta}(y)$  over all  $y$  is 1, so it does not change based on the value of  $\theta$ .
@@ -688,19 +688,19 @@ Intuitively, if a random variable carries a lot of information about its paramet
 Definition 6.4 (Fisher information). The Fisher information for a model  $Y \sim f_{\theta}(y)$  is a function of the parameter  $\theta$  given by
 
 $$
-I (\theta) = \mathbf {E} _ {\theta} \left[ S ^ {2} (Y, \theta) \right].
+I (\theta) = \mathbf{E}_{\theta} \left[ S^2 (Y, \theta) \right].
 $$
 
 Proposition 6.5. For a model  $f_{\theta}(y)$  satisfying (A.1) and (A.2), such that  $f_{\theta}$  is twice-differentiable with respect to  $\theta$  on its support and satisfies the second-order EDI,
 
 $$
-I (\theta) = - \mathbf {E} _ {\theta} \left[ \frac {\partial^ {2}}{\partial \theta^ {2}} \log f _ {\theta} (Y) \right].
+I (\theta) = - \mathbf{E}_{\theta} \left[ \frac{\partial^2}{\partial \theta^2} \log f_{\theta} (Y) \right].
 $$
 
 Proof. Observe that by the chain rule and product rule,
 
 $$
-I (\theta) = \mathbf {E} _ {\theta} \left[ \frac {f _ {\theta} ^ {\prime \prime} (Y)}{f _ {\theta} (Y)} - \left(\frac {f _ {\theta} ^ {\prime} (Y)}{f _ {\theta} (Y)}\right) ^ {2} \right].
+I (\theta) = \mathbf{E}_{\theta} \left[ \frac{f_{\theta}^{\prime \prime} (Y)}{f_{\theta} (Y)} - \left(\frac{f_{\theta}^{\prime} (Y)}{f_{\theta} (Y)}\right)^2 \right].
 $$
 
 By moving the derivative out of the integral sign, the first term goes to zero. Meanwhile, the second term equals the Fisher information, so we conclude.
@@ -712,7 +712,7 @@ Now, let's go through some examples to get a feeling for the Fisher information 
 Example 6.6. If  $Y_{1}, \ldots, Y_{n} \sim \mathrm{Pois}(\lambda)$ , then
 
 $$
-I _ {1} (\lambda) = - \mathbf {E} _ {\lambda} \left[ \frac {\partial^ {2}}{\partial \lambda^ {2}} \log \left(\frac {\lambda^ {Y _ {1}} e ^ {- \lambda}}{Y _ {1} !}\right) \right] = \frac {1}{\lambda}.
+I_1 (\lambda) = - \mathbf{E}_{\lambda} \left[ \frac{\partial^2}{\partial \lambda^2} \log \left(\frac{\lambda^{Y_1} e^{- \lambda}}{Y_1 !}\right) \right] = \frac{1}{\lambda}.
 $$
 
 Therefore, the Fisher information is  $I_{n}(\lambda) = \frac{n}{\lambda}$ .
@@ -724,7 +724,7 @@ Finally, we conclude with the big result about Fisher information, which is a lo
 Theorem 6.8 (Cramér-Rao bound). Given a model  $\{f_{\theta}(y):\theta \in \Theta \}$  such that (A.1) and (A.2) hold, let  $g(\theta)$  be a differentiable parametric function, and let  $T(Y)$  be an unbiased estimator for  $g(\theta)$ . Then, if  $f_{\theta}$  is differentiable on its support and satisfies the first-order EDI, and  $I(\theta) > 0$
 
 $$
-\mathbf {V a r} _ {\theta} \left[ T \right] \geq \frac {(g ^ {\prime} (\theta)) ^ {2}}{I (\theta)}.
+\mathbf{Var}_{\theta} \left[ T \right] \geq \frac{(g^{\prime} (\theta))^2}{I (\theta)}.
 $$
 
 A similar result holds for the case when  $\theta$  is a vector, but it is an inequality between matrices.
@@ -732,19 +732,19 @@ A similar result holds for the case when  $\theta$  is a vector, but it is an in
 Proof. First, note that
 
 $$
-\begin{array}{l} \operatorname {C o v} _ {\theta} (S (Y, \theta), T (Y)) = \mathbf {E} _ {\theta} [ S (Y, \theta) T (Y) ] - \mathbf {E} _ {\theta} [ S (Y, \theta) ] \mathbf {E} _ {\theta} [ T (Y) ] \\ = \int \frac {\partial \log f _ {\theta} (y)}{\partial \theta} T (y) f _ {\theta} (y) d y \\ = \int \frac {\partial f _ {\theta} (y)}{\partial \theta} T (y) d y \\ = \frac {\partial}{\partial \theta} \int T (y) f _ {\theta} (y) d y \\ = \frac {\partial}{\partial \theta} \mathbf {E} _ {\theta} [ T (Y) ] \\ = g ^ {\prime} (\theta). \\ \end{array}
+\begin{array}{l} \operatorname{Cov}_{\theta} (S (Y, \theta), T (Y)) = \mathbf{E}_{\theta} [ S (Y, \theta) T (Y) ] - \mathbf{E}_{\theta} [ S (Y, \theta) ] \mathbf{E}_{\theta} [ T (Y) ] \\ = \int \frac{\partial \log f_{\theta} (y)}{\partial \theta} T (y) f_{\theta} (y) d y \\ = \int \frac{\partial f_{\theta} (y)}{\partial \theta} T (y) d y \\ = \frac{\partial}{\partial \theta} \int T (y) f_{\theta} (y) d y \\ = \frac{\partial}{\partial \theta} \mathbf{E}_{\theta} [ T (Y) ] \\ = g^{\prime} (\theta). \\ \end{array}
 $$
 
 Furthermore, as we showed previously,  $\mathbf{Var}_{\theta}[S(Y,\theta)] = I(\theta)$ . Therefore, by the Cauchy-Schwarz inequality,
 
 $$
-\operatorname {C o v} _ {\theta} (S (Y, \theta), T (Y)) ^ {2} \leq \operatorname {V a r} _ {\theta} [ S (Y, \theta) ] \operatorname {V a r} _ {\theta} [ T (Y) ].
+\operatorname{Cov}_{\theta} (S (Y, \theta), T (Y))^2 \leq \operatorname{Var}_{\theta} [ S (Y, \theta) ] \operatorname{Var}_{\theta} [ T (Y) ].
 $$
 
 Substituting in our results above, we get
 
 $$
-(g ^ {\prime} (\theta)) ^ {2} \leq I (\theta) \operatorname {V a r} _ {\theta} [ T (Y) ].
+(g^{\prime} (\theta))^2 \leq I (\theta) \operatorname{Var}_{\theta} [ T (Y) ].
 $$
 
 The Cramér-Rao lower bound will give us a goal to aim towards in the case when we want to find low-variance unbiased estimators. It is not always realizable, but it is still very important, and it is most of the reason behind why we care about Fisher information.
@@ -768,7 +768,7 @@ The above examples were of unbiased estimators, but there is a variant of the Cr
 Proposition 7.3 (Asymptotic Cramér-Rao). Given an estimator  $T_{n}(\mathbf{Y})$  of  $g(\theta)$ , if
 
 $$
-\sqrt {n} (T _ {n} - g (\theta)) \stackrel {d} {\to} \mathcal {N} (0, v (\theta)),
+\sqrt{n} (T_n - g (\theta)) \stackrel{d}{\to} \mathcal{N} (0, v (\theta)),
 $$
 
 then the asymptotic variance  $v(\theta) \geq \frac{(g'(\theta))^2}{I_1(\theta)}$ .
@@ -790,11 +790,11 @@ Sometimes, for heavy-tailed distributions like the Cauchy distribution,  $k$ -th
 Example 7.6 (MOM for  $\mathcal{N}(\mu, \sigma^2)$ ). The method of moments estimator for the normal distribution  $\mathcal{N}(\mu, \sigma^2)$  is
 
 $$
-\hat {\mu} _ {\mathrm {M O M}} = \overline {{Y}},
+\hat{\mu}_{\mathrm{MOM}} = \overline{{Y}},
 $$
 
 $$
-\hat {\sigma} _ {\mathrm {M O M}} ^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} (Y _ {i} - \overline {{Y}}) ^ {2}.
+\hat{\sigma}_{\mathrm{MOM}}^2 = \frac{1}{n} \sum_{i = 1}^{n} (Y_i - \overline{{Y}})^2.
 $$
 
 Note that the empirical variance appears, but it lacks the more subtle  $\frac{1}{n - 1}$  correction factor.

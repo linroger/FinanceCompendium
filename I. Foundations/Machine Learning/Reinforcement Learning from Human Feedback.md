@@ -1697,7 +1697,7 @@ Where  $r_j$  represents the reward for the j-th completion.
 Using the argmax method, we select the best completion for the prompt:
 
 $$
-S (R) = \arg \max  _ {j \in [ 1, N ]} r _ {j} \tag {30}
+S(R) = \arg \max_{j \in [1,N]} r_{j} \tag{30}
 $$
 
 Using the Top-K method is normally done with Top-1, reducing to the same method.
@@ -1717,19 +1717,19 @@ For definitions of symbols, see the problem setup chapter.
 Reinforcement learning algorithms are designed to maximize the future, discounted reward across a trajectory of states,  $s \in S$ , and actions,  $a \in \mathcal{A}$  (for more notation, see Chapter 3, Definitions). The objective of the agent, often called the return, is the sum of discounted, future rewards (where  $\gamma \in [0,1)$  is a factor that prioritizes near term rewards) at a given time  $t$ :
 
 $$
-G _ {t} = R _ {t + 1} + \gamma R _ {t + 2} + \dots = \sum_ {k = 0} ^ {\infty} \gamma^ {k} R _ {t + k + 1}. \tag {31}
+G_{t} = R_{t+1} + \gamma R_{t+2} + \dots = \sum_{k=0}^{\infty} \gamma^{k} R_{t+k+1}. \tag{31}
 $$
 
 The return definition can also be estimated as:
 
 $$
-G _ {t} = \gamma G _ {t + 1} + R _ {t + 1}. \tag {32}
+G_{t} = \gamma G_{t+1} + R_{t+1}. \tag{32}
 $$
 
 This return is the basis for learning a value function  $V(s)$  that is the estimated future return given a current state:
 
 $$
-V (s) = \mathbb {E} \left[ G _ {t} \mid S _ {t} = s \right]. \tag {33}
+V(s) = \mathbb{E} \left[ G_{t} \mid S_{t} = s \right]. \tag{33}
 $$
 
 All policy gradient algorithms solve an objective for such a value function induced from a specific policy,  $\pi (a|s)$ .
@@ -1737,13 +1737,13 @@ All policy gradient algorithms solve an objective for such a value function indu
 Where  $d_{\pi}(s)$  is the stationary distribution of states induced by policy  $\pi(a \mid s)$ , the optimization is defined as:
 
 $$
-J (\theta) = \sum_ {s} d _ {\pi} (s) V _ {\pi} (s), \tag {34}
+J(\theta) = \sum_{s} d_{\pi} (s) V_{\pi} (s), \tag{34}
 $$
 
 The core of policy gradient algorithms is computing the gradient with respect to the finite time expected return over the current policy. With this expected return,  $J$ , the parameter update can be computed as follows, where  $\alpha$  is the learning rate:
 
 $$
-\theta \leftarrow \theta + \alpha \nabla_ {\theta} J (\theta) \tag {35}
+\theta \leftarrow \theta + \alpha \nabla_{\theta} J(\theta) \tag{35}
 $$
 
 The core implementation detail is how to compute said gradient.
@@ -1751,47 +1751,47 @@ The core implementation detail is how to compute said gradient.
 Another way to pose the RL objective we want to maximize is as follows:
 
 $$
-J (\theta) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} [ R (\tau) ], \tag {36}
+J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} [ R(\tau) ], \tag{36}
 $$
 
 where  $\tau = (s_0, a_0, s_1, a_1, \ldots)$  is a trajectory and  $R(\tau) = \sum_{t=0}^{\infty} r_t$  is the total reward of the trajectory. Alternatively, we can write the expectation as an integral over all possible trajectories:
 
 $$
-J (\theta) = \int_ {\tau} p _ {\theta} (\tau) R (\tau) d \tau \tag {37}
+J(\theta) = \int_{\tau} p_{\theta} (\tau) R(\tau) d\tau \tag{37}
 $$
 
 Notice that we can express the trajectory probability as follows:
 
 $$
-p _ {\theta} (\tau) = p \left(s _ {0}\right) \prod_ {t = 0} ^ {\infty} \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) p \left(s _ {t + 1} \mid s _ {t}, a _ {t}\right), \tag {38}
+p_{\theta} (\tau) = p \left(s_{0}\right) \prod_{t=0}^{\infty} \pi_{\theta} \left(a_{t} \mid s_{t}\right) p \left(s_{t+1} \mid s_{t}, a_{t}\right), \tag{38}
 $$
 
 If we take the gradient of the objective (eq. 36) with respect to the policy parameters  $\theta$ :
 
 $$
-\nabla_ {\theta} J (\theta) = \int_ {\tau} \nabla_ {\theta} p _ {\theta} (\tau) R (\tau) d \tau \tag {39}
+\nabla_{\theta} J(\theta) = \int_{\tau} \nabla_{\theta} p_{\theta} (\tau) R(\tau) d\tau \tag{39}
 $$
 
 Notice that we can use the log-derivative trick in order to rewrite the gradient of the integral as an expectation:
 
 $$
-\nabla_ {\theta} \log p _ {\theta} (\tau) = \frac {\nabla_ {\theta} p _ {\theta} (\tau)}{p _ {\theta} (\tau)} \quad \text {(f r o m c h a i n r u l e)} \tag {40}
+\nabla_{\theta} \log p_{\theta} (\tau) = \frac{\nabla_{\theta} p_{\theta} (\tau)}{p_{\theta} (\tau)} \quad \text{(from chain rule)} \tag{40}
 $$
 
 $$
-\Longrightarrow \nabla_ {\theta} p _ {\theta} (\tau) = p _ {\theta} (\tau) \nabla_ {\theta} \log p _ {\theta} (\tau) \quad \text {(r e a r r a n g i n g)}
+\Longrightarrow \nabla_{\theta} p_{\theta} (\tau) = p_{\theta} (\tau) \nabla_{\theta} \log p_{\theta} (\tau) \quad \text{(rearranging)}
 $$
 
 Using this log-derivative trick:
 
 $$
-\begin{array}{l} \nabla_ {\theta} J (\theta) = \int_ {\tau} \nabla_ {\theta} p _ {\theta} (\tau) R (\tau) d \tau \\ = \int_ {\tau} p _ {\theta} (\tau) \nabla_ {\theta} \log p _ {\theta} (\tau) R (\tau) d \tau \tag {41} \\ = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \nabla_ {\theta} \log p _ {\theta} (\tau) R (\tau) \right] \\ \end{array}
+\begin{array}{l} \nabla_{\theta} J(\theta) = \int_{\tau} \nabla_{\theta} p_{\theta} (\tau) R(\tau) d\tau \\ = \int_{\tau} p_{\theta} (\tau) \nabla_{\theta} \log p_{\theta} (\tau) R(\tau) d\tau \tag{41} \\ = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \nabla_{\theta} \log p_{\theta} (\tau) R(\tau) \right] \\ \end{array}
 $$
 
 Expanding the log probability of the trajectory:
 
 $$
-\log p _ {\theta} (\tau) = \log p (s _ {0}) + \sum_ {t = 0} ^ {\infty} \log \pi_ {\theta} (a _ {t} | s _ {t}) + \sum_ {t = 0} ^ {\infty} \log p (s _ {t + 1} | s _ {t}, a _ {t})
+\log p_{\theta} (\tau) = \log p(s_{0}) + \sum_{t=0}^{\infty} \log \pi_{\theta} (a_{t} | s_{t}) + \sum_{t=0}^{\infty} \log p(s_{t+1} | s_{t}, a_{t})
 $$
 
 Now, if we take the gradient of the above we get:
@@ -1803,19 +1803,19 @@ only  $\nabla_{\theta}\log \pi_{\theta}(a_t|s_t)$  survives
 Therefore, the gradient of the log probability of the trajectory simplifies to:
 
 $$
-\nabla_ {\theta} \log p _ {\theta} (\tau) = \sum_ {t = 0} ^ {\infty} \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t})
+\nabla_{\theta} \log p_{\theta} (\tau) = \sum_{t=0}^{\infty} \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t})
 $$
 
 Substituting this back in eq. 41, we get:
 
 $$
-\nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \sum_ {t = 0} ^ {\infty} \nabla_ {\theta} \log \pi_ {\theta} (a _ {t} | s _ {t}) R (\tau) \right]
+\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{\infty} \nabla_{\theta} \log \pi_{\theta} (a_{t} | s_{t}) R(\tau) \right]
 $$
 
 Quite often, people use a more general formulation of the policy gradient:
 
 $$
-g = \nabla_ {\theta} J (\theta) = \mathbb {E} _ {\tau \sim \pi_ {\theta}} \left[ \sum_ {t = 0} ^ {\infty} \nabla_ {\theta} \log \pi_ {\theta} \left(a _ {t} \mid s _ {t}\right) \Psi_ {t} \right] \tag {42}
+g = \nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ \sum_{t=0}^{\infty} \nabla_{\theta} \log \pi_{\theta} \left(a_{t} \mid s_{t}\right) \Psi_{t} \right] \tag{42}
 $$
 
 Where  $\Psi_t$  can be the following (where the rewards can also often be discounted by  $\gamma$ ), a taxonomy adopted from Schulman et al. 2015 [142]:
