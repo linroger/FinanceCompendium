@@ -665,7 +665,7 @@ $$\bar{f}(t,\tau)=f(t,t+\tau)$$
 
 The multi-factor HJM framework is implemented with this SDE:
 
-$$d\bar{f}(t,\tau)=(\sum_{i=1}^k \bar{v}_i(t,\tau)\int_0^\tau {v}_i(t,s)ds+\frac{\delta\bar{f}(t,\tau)}{\delta\tau})dt + \sigma_{i=1}^k \bar{v}_i(t,\tau)dX_i$$
+$$d\bar{f}(t,\tau)=(\sum_{i=1}^k \bar{v}_i(t,\tau)\int_0^\tau v_i(t,s)ds+\frac{\delta\bar{f}(t,\tau)}{\delta\tau})dt + \sigma_{i=1}^k \bar{v}_i(t,\tau)dX_i$$
 
 We simulate by $f(t+dt)=f(t) + d\bar{f}$   where Musiela HJM SDE is $d\bar{f} =  m(t)dt+\sum(v_i*\phi*\sqrt{dt})+\frac{dF}{d\tau}dt$
 
