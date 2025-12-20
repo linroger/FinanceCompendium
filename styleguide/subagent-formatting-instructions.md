@@ -56,7 +56,9 @@ Split the document by **level 1 markdown headers** (`# Header`), grouping them i
 ---
 title: Document Title in Title Case
 parent_directory: Parent Directory Name
-formatted: 
+formatted: 2025-20-12 11:03:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
   - most important concept
   - core methodology
@@ -79,7 +81,10 @@ cssclasses: academia
 - **REMOVE** the `key_concepts` field if present (redundant)
 - **REMOVE** linter-generated fields like `linter-yaml-title-alias` 
 - Exactly ONE blank line after the closing `---` before content
-
+- formatted: Use current date/time in `YYYY-MM-DD HH:MM:SS AM/PM` format. Time when document formatting is complete
+- parent_directory: Name of the immediate parent folder in the vault
+formatter_agent: model used to format document
+cli_ tool: tool used for formatting
 **If frontmatter is missing:** Create it based on the document's H1 title and content.
 
 ### Phase 4: Chunk-by-Chunk Processing
