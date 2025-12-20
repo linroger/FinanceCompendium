@@ -243,8 +243,9 @@
       "agent-client:Open agent client": false
     }
   },
-  "active": "3d84da3e214a1981",
+  "active": "cc2fc89a7b785e6c",
   "lastOpenFiles": [
+    "scripts/update_bead_descriptions.py",
     "Untitled 1.md",
     "II. Economics/International/International Finance/International Finance Full chapters/01 Foreign Exchange Market.md",
     "scripts/Join Split Lines.scpt",
@@ -280,7 +281,6 @@
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/notification.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/stop.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/chat.json",
-    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/6. IntroStochCalc A Brief Introduction to Stochastic Calculus.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

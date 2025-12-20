@@ -4857,7 +4857,7 @@ $$
 The first order conditions are the following:
 
 $$
-\left\{ \begin{array}{l} \frac {\partial \mathcal {L}}{\partial \alpha_ {1}} = \pi_ {1} U ^ {\prime} (y _ {1}) w R _ {1, 1} + \pi_ {2} U ^ {\prime} (y _ {2}) w R _ {1, 2} - \lambda = 0 \\ \frac {\partial \mathcal {L}}{\partial \alpha_ {2}} = \pi_ {1} U ^ {\prime} (y _ {1}) w R _ {2, 1} + \pi_ {2} U ^ {\prime} (y _ {2}) w R _ {2, 2} - \lambda = 0 \\ \frac {\partial \mathcal {L}}{\partial \lambda} = 1 - (\alpha_ {1} + \alpha_ {2}) = 0 \end{array} \right. \tag {4.73}
+\left\{ \begin{array}{l} \frac{\partial\mathcal{L}}{\partial\alpha_{1}} = \pi_{1} U^{\prime}(y_{1}) wR_{1,1} + \pi_{2} U^{\prime}(y_{2}) wR_{1,2} - \lambda = 0 \\ \frac{\partial\mathcal{L}}{\partial\alpha_{2}} = \pi_{1} U^{\prime}(y_{1}) wR_{2,1} + \pi_{2} U^{\prime}(y_{2}) wR_{2,2} - \lambda = 0 \\ \frac{\partial\mathcal{L}}{\partial\lambda} = 1 - (\alpha_{1} + \alpha_{2}) = 0 \end{array} \right. \tag{4.73}
 $$
 
 By solving the first and the second equation for  $\lambda$ , we have:
@@ -4887,7 +4887,7 @@ $$
 and by substituting we have:
 
 $$
-\frac {\pi_ {1} \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {1}\right) \mathrm {z} _ {1 , 1} + \pi_ {2} \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {2}\right) \mathrm {z} _ {1 , 2}}{\mathrm {P} _ {1} ^ {\mathrm {A}}} = \frac {\pi_ {1} \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {1}\right) \mathrm {z} _ {2 , 1} + \pi_ {2} \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {2}\right) \mathrm {z} _ {2 , 2}}{\mathrm {P} _ {2} ^ {\mathrm {A}}} \tag {4.74}
+\frac{\pi_{1} \mathrm{U}^{\prime}\left(\mathrm{y}_{1}\right) \mathrm{z}_{1,1} + \pi_{2} \mathrm{U}^{\prime}\left(\mathrm{y}_{2}\right) \mathrm{z}_{1,2}}{\mathrm{P}_{1}^{\mathrm{A}}} = \frac{\pi_{1} \mathrm{U}^{\prime}\left(\mathrm{y}_{1}\right) \mathrm{z}_{2,1} + \pi_{2} \mathrm{U}^{\prime}\left(\mathrm{y}_{2}\right) \mathrm{z}_{2,2}}{\mathrm{P}_{2}^{\mathrm{A}}} \tag{4.74}
 $$
 
 The equality (4.74) shows that for the optimal allocation, the investor shares his wealth between the two assets so that the last euro invested in asset 1 has the same expected marginal utility of the last euro invested in asset 2 (Saltari 2011).
@@ -4897,19 +4897,19 @@ The equality (4.74) shows that for the optimal allocation, the investor shares h
 Assuming that there are more than two assets in portfolio. In this case, the investor has to share his wealth (w) among n assets  $(n > 2)$ . The budget constrain can be formalized as follows (Saltari 2011):
 
 $$
-\sum_ {i = 1} ^ {n} P _ {i} ^ {A} A _ {i} = w \tag {4.75}
+\sum_{i=1}^{n} P_{i}^{A} A_{i} = w \tag{4.75}
 $$
 
 By dividing the first and second terms for wealth (w), and considering the Eq. (4.60), the Eq. (4.75) can be expressed in terms of the share of wealth invested in each assets, as follows:
 
 $$
-\sum_ {i = 1} ^ {n} \frac {\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}} \mathrm {A} _ {\mathrm {i}}}{w} = \frac {\mathrm {w}}{w} \rightarrow \frac {\mathrm {P} _ {\mathrm {i}} ^ {\mathrm {A}} \mathrm {A} _ {\mathrm {i}}}{w} = \alpha_ {i} \rightarrow \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} = 1
+\sum_{i=1}^{n} \frac{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}} \mathrm{A}_{\mathrm{i}}}{w} = \frac{\mathrm{w}}{w} \rightarrow \frac{\mathrm{P}_{\mathrm{i}}^{\mathrm{A}} \mathrm{A}_{\mathrm{i}}}{w} = \alpha_{i} \rightarrow \sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}} = 1
 $$
 
 By considering Eq. (2.67), we have:
 
 $$
-\mathrm {y} _ {\mathrm {s}} = \alpha_ {\mathrm {i}} \mathrm {R} _ {\mathrm {i}, \mathrm {s}} \mathrm {w} \rightarrow \mathrm {y} _ {\mathrm {s}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {N}} \alpha_ {\mathrm {i}} \mathrm {R} _ {\mathrm {i}, \mathrm {s}} \mathrm {w} \rightarrow \mathrm {y} _ {\mathrm {s}} = \mathrm {w} \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \mathrm {R} _ {\mathrm {i}, \mathrm {s}}
+\mathrm{y}_{\mathrm{s}} = \alpha_{\mathrm{i}} \mathrm{R}_{\mathrm{i},\mathrm{s}} \mathrm{w} \rightarrow \mathrm{y}_{\mathrm{s}} = \sum_{\mathrm{i}=1}^{\mathrm{N}} \alpha_{\mathrm{i}} \mathrm{R}_{\mathrm{i},\mathrm{s}} \mathrm{w} \rightarrow \mathrm{y}_{\mathrm{s}} = \mathrm{w} \sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}} \mathrm{R}_{\mathrm{i},\mathrm{s}}
 $$
 
 and by considering Eq. (2.65), we have:
@@ -5001,13 +5001,13 @@ $$
 Consequently, by considering the first and the second equation we have:
 
 $$
-\sum_ {s = 1} ^ {S} \pi_ {s} U ^ {\prime} \left(y _ {s}\right) w R _ {i, s} = \sum_ {s = 1} ^ {S} \pi_ {s} U ^ {\prime} \left(y _ {s}\right) w R _ {0}
+\sum_{s=1}^{S} \pi_{s} U^{\prime}\left(y_{s}\right) w R_{i,s} = \sum_{s=1}^{S} \pi_{s} U^{\prime}\left(y_{s}\right) w R_{0}
 $$
 
 and then:
 
 $$
-\sum_ {s = 1} ^ {S} \pi_ {s} \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {\mathrm {s}}\right) \mathrm {w} \left(\mathrm {R} _ {\mathrm {i}, s} - \mathrm {R} _ {0}\right) = 0 \leftrightarrow \mathrm {E} \left[ \mathrm {U} ^ {\prime} \left(\mathrm {y} _ {\mathrm {s}}\right) \mathrm {w} \left(\mathrm {R} _ {\mathrm {i}, s} - \mathrm {R} _ {0}\right) \right] = 0 \quad \mathrm {i} = 1, 2, \dots , n \tag {4.82}
+\sum_{s=1}^{S} \pi_{s} \mathrm{U}^{\prime}\left(\mathrm{y}_{\mathrm{s}}\right) \mathrm{w} \left(\mathrm{R}_{\mathrm{i},s} - \mathrm{R}_{0}\right) = 0 \leftrightarrow \mathrm{E}\left[ \mathrm{U}^{\prime}\left(\mathrm{y}_{\mathrm{s}}\right) \mathrm{w} \left(\mathrm{R}_{\mathrm{i},s} - \mathrm{R}_{0}\right) \right] = 0 \quad \mathrm{i} = 1, 2, \dots , n \tag{4.82}
 $$
 
 where the two forms are equivalent.
@@ -5031,13 +5031,13 @@ Use of the separation theorem requires several conditions. Specifically, it is n
 Specifically, the absolute risk aversion coefficient for the utility function in the class HARA can be defined as follows:
 
 $$
-\lambda_ {\left(\mathrm {y} _ {\mathrm {s}}\right)} = - \frac {\mathrm {U} ^ {\prime \prime} \left(\mathrm {y} _ {\mathrm {s}}\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {y} _ {\mathrm {s}}\right)} = \frac {1}{\left(\mathrm {c} + \mathrm {d y} _ {\mathrm {s}}\right)} \quad \text {w i t h} c \text {a n d} d \text {c o n s t a n t}
+\lambda_{\left(\mathrm{y}_{\mathrm{s}}\right)} = - \frac{\mathrm{U}^{\prime\prime}\left(\mathrm{y}_{\mathrm{s}}\right)}{\mathrm{U}^{\prime}\left(\mathrm{y}_{\mathrm{s}}\right)} = \frac{1}{\left(\mathrm{c} + \mathrm{d}\mathrm{y}_{\mathrm{s}}\right)} \quad \text{with} c \text{and} d \text{constant}
 $$
 
 and the absolute risk tolerance coefficient is equal to (Saltari 2011):
 
 $$
-\tau_ {(y _ {s})} = \frac {1}{\lambda_ {(y _ {s})}} = - \frac {U ^ {\prime} (y _ {s})}{U ^ {\prime \prime} (y _ {s})} = c + d y _ {s}
+\tau_{(y_{s})} = \frac{1}{\lambda_{(y_{s})}} = - \frac{U^{\prime}(y_{s})}{U^{\prime\prime}(y_{s})} = c + d y_{s}
 $$
 
 # References
@@ -5103,7 +5103,7 @@ The efficient portfolio must satisfy the Pareto optimal condition: it is impossi
 By considering a portfolio  $(A)$  with mean  $\mu_{A}$  and variance  $\sigma_A^2$  and a portfolio  $(B)$  with mean  $\mu_B$  and variance  $\sigma_B^2$ , the portfolio  $(A)$  dominates (it is strictly preferred) the portfolio  $(B)$  if one of the following two conditions is achieved:
 
 $$
-\mathrm {A} \succ \mathrm {B} \quad \text {i f} \left\{ \begin{array}{c} \mu_ {\mathrm {A}} > \mu_ {\mathrm {B}}; \quad \sigma_ {\mathrm {A}} ^ {2} \leq \sigma_ {\mathrm {B}} ^ {2} \\ \text {o r} \\ \sigma_ {\mathrm {A}} ^ {2} <   \sigma_ {\mathrm {B}} ^ {2}; \quad \mu_ {\mathrm {A}} \geq \mu_ {\mathrm {B}} \end{array} \right.
+\mathrm{A} \succ \mathrm{B} \quad \text{if} \left\{ \begin{array}{c} \mu_{\mathrm{A}} > \mu_{\mathrm{B}}; \quad \sigma_{\mathrm{A}}^{2} \leq \sigma_{\mathrm{B}}^{2} \\ \text{or} \\ \sigma_{\mathrm{A}}^{2} <   \sigma_{\mathrm{B}}^{2}; \quad \mu_{\mathrm{A}} \geq \mu_{\mathrm{B}} \end{array} \right.
 $$
 
 This approach simplifies the problem of portfolio selection. There are two main advantages: first, it does not require specification about probability distribution; second, it is simple and intuitive because it is only based on the mean and variance. However, it is also true that this approach neglects a lot of relevant information about the probability distribution.
@@ -5149,13 +5149,13 @@ The problem of the estimate of the portfolio expected return has a simple soluti
 Assuming a portfolio of two assets denoted as Asset 1 and Asset 2 and assuming that the wealth invested in the portfolio is equal to  $w$  and that the weights of the two assets are  $\alpha_{1}$  and  $\alpha_{2}$  respectively, the result is:
 
 $$
-w _ {1} + w _ {2} = w \rightarrow \alpha_ {1} = \frac {w _ {1}}{w}; \quad \alpha_ {2} = \frac {w _ {2}}{w} \rightarrow \alpha_ {1} + \alpha_ {2} = 1 \tag {5.1}
+w_{1} + w_{2} = w \rightarrow \alpha_{1} = \frac{w_{1}}{w}; \quad \alpha_{2} = \frac{w_{2}}{w} \rightarrow \alpha_{1} + \alpha_{2} = 1 \tag{5.1}
 $$
 
 Assuming that the expected return of the two assets in the state of nature  $s$  are equal to  $R_{1,s}$  for Asset 1 and  $R_{2,s}$  for the Asset 2, the expected return of the portfolio  $(y_s)$  can be defined as follows (Saltari 2011):
 
 $$
-\mathbf {y} _ {\mathrm {s}} = \mathrm {w} \left(\alpha_ {1} \mathrm {R} _ {1, \mathrm {s}} + \alpha_ {2} \mathrm {R} _ {2, \mathrm {s}}\right) \tag {5.2}
+\mathbf{y}_{\mathrm{s}} = \mathrm{w} \left(\alpha_{1} \mathrm{R}_{1,\mathrm{s}} + \alpha_{2} \mathrm{R}_{2,\mathrm{s}}\right) \tag{5.2}
 $$
 
 In Eq. (5.2) the weights assigned to the two assets  $(\alpha_{1};\alpha_{2})$  are the only unknown variables. The choice of the couple  $(\alpha_{1};\alpha_{2})$  allows for definition of the optimal portfolio.
@@ -5163,7 +5163,7 @@ In Eq. (5.2) the weights assigned to the two assets  $(\alpha_{1};\alpha_{2})$  
 In order to simplify, assuming that the wealth invested in the portfolio is equal to  $1$  ( $w = 1$ ), Eq. (5.2) can be re-written as follows (Saltari 2011):
 
 $$
-\mathrm {E} \left(\mathrm {y} _ {\mathrm {s}}\right) = \alpha_ {1} \mathrm {E} \left(\mathrm {R} _ {1, \mathrm {s}}\right) + \alpha_ {2} \mathrm {E} \left(\mathrm {R} _ {2, \mathrm {s}}\right)
+\mathrm{E}\left(\mathrm{y}_{\mathrm{s}}\right) = \alpha_{1} \mathrm{E}\left(\mathrm{R}_{1,\mathrm{s}}\right) + \alpha_{2} \mathrm{E}\left(\mathrm{R}_{2,\mathrm{s}}\right)
 $$
 
 # 5.1 Diversified Portfolio
@@ -5171,7 +5171,7 @@ $$
 and by considering that  $\operatorname{E}(.)\equiv \mu (.)$  , we have:
 
 $$
-\mu_ {\mathrm {P}} = \alpha_ {1} \mu_ {1} + \alpha_ {2} \mu_ {2} \tag {5.3}
+\mu_{\mathrm{P}} = \alpha_{1} \mu_{1} + \alpha_{2} \mu_{2} \tag{5.3}
 $$
 
 Equation (5.3) shows that the portfolio expected return  $(\mu_P)$  is equal to the linear combination of the expected returns of the two assets  $(\mu_1; \mu_2)$  weighted on the basis of their weights  $(\alpha_1; \alpha_2)$  in the portfolio.
@@ -5184,13 +5184,13 @@ To further understand the relevance of Eq. (5.3) is possible to define the probl
 These due conditions can be formalized as follows:
 
 $$
-\begin{array}{l} \alpha + (1 - \alpha) = 1 \rightarrow \left\{\begin{array}{l l}\alpha_ {2} = \alpha\\\alpha_ {1} = 1 - \alpha\end{array}\quad 0 <   \alpha <   1 \right. \tag {5.4} \\ \sigma_ {2} ^ {2} > \sigma_ {1} ^ {2} (\sigma_ {2} > \sigma_ {1}) \leftrightarrow \mu_ {2} > \mu_ {1} \\ \end{array}
+\begin{array}{l} \alpha + (1 - \alpha) = 1 \rightarrow \left\{\begin{array}{l l}\alpha_{2} = \alpha\\\alpha_{1} = 1 - \alpha\end{array}\quad 0 <   \alpha <   1 \right. \tag{5.4} \\ \sigma_{2}^{2} > \sigma_{1}^{2} (\sigma_{2} > \sigma_{1}) \leftrightarrow \mu_{2} > \mu_{1} \\ \end{array}
 $$
 
 On the basis of the conditions (5.4), Eq. (5.3) can be re-written as follows:
 
 $$
-\mu_ {\mathrm {P}} = \mu_ {1} + \alpha \left(\mu_ {2} - \mu_ {1}\right) \tag {5.5}
+\mu_{\mathrm{P}} = \mu_{1} + \alpha \left(\mu_{2} - \mu_{1}\right) \tag{5.5}
 $$
 
 Equation (5.5) shows three main results:
@@ -5217,7 +5217,7 @@ Fig. 5.1 Portfolio expected return as function of wealth invested in the riskier
 In general, for  $N$  assets in the portfolio, the portfolio expected return  $(\mathrm{E}(\mathrm{R}_{\mathrm{P}})\equiv \mu_{\mathrm{P}})$  is equal to the weighted average of the expected returns of the assets in portfolio  $(\mathrm{E}(\mathrm{R_k})\equiv \mu_k)$ . Their weights are equal to the share of wealth invested in each one  $(\alpha_{k} = w_{k} / w)$  as follows:
 
 $$
-\mathrm {E} \left(\mathrm {R} _ {\mathrm {P}}\right) = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \mathrm {E} \left(\mathrm {R} _ {\mathrm {k}}\right) \leftrightarrow \mu_ {\mathrm {P}} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \mu_ {\mathrm {k}} \quad \text {w i t h} \alpha_ {\mathrm {k}} = \frac {\mathrm {w} _ {\mathrm {k}}}{\mathrm {w}} \tag {5.6}
+\mathrm{E}\left(\mathrm{R}_{\mathrm{P}}\right) = \sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \mathrm{E}\left(\mathrm{R}_{\mathrm{k}}\right) \leftrightarrow \mu_{\mathrm{P}} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \mu_{\mathrm{k}} \quad \text{with} \alpha_{\mathrm{k}} = \frac{\mathrm{w}_{\mathrm{k}}}{\mathrm{w}} \tag{5.6}
 $$
 
 # Portfolio Variance
@@ -5229,7 +5229,7 @@ Generally, the portfolio variance  $\left(\sigma_P^2\right)$  is equal to the ex
 # 5.1 Diversified Portfolio
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left(\mathrm {R} _ {\mathrm {p}} - \mu_ {\mathrm {p}}\right) ^ {2}
+\sigma_{\mathrm{P}}^{2} = \mathrm{E}\left(\mathrm{R}_{\mathrm{p}} - \mu_{\mathrm{p}}\right)^{2}
 $$
 
 Considering that:
@@ -5241,7 +5241,7 @@ $$
 and by substituting, we have:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left(\mathrm {R} _ {\mathrm {p}} - \mu_ {\mathrm {p}}\right) ^ {2} = \mathrm {E} \left(\sum_ {k = 1} ^ {n} \alpha_ {k} R _ {k} - \sum_ {k = 1} ^ {n} \alpha_ {k} \mu_ {k}\right) ^ {2} \tag {5.7}
+\sigma_{\mathrm{P}}^{2} = \mathrm{E}\left(\mathrm{R}_{\mathrm{p}} - \mu_{\mathrm{p}}\right)^{2} = \mathrm{E}\left(\sum_{k=1}^{n} \alpha_{k} R_{k} - \sum_{k=1}^{n} \alpha_{k} \mu_{k}\right)^{2} \tag{5.7}
 $$
 
 The analysis of the portfolio's variance can be performed on the basis of two main cases:
@@ -5254,19 +5254,19 @@ Case 2) more than two assets in the portfolio.
 Assuming a portfolio built on two assets: Asset 1 and Asset 2. Their weights are  $\alpha_{1}$  and  $\alpha_{2}$  respectively. On the basis of Eq. (5.7), the portfolio's variance  $(\sigma_{\mathrm{P}}^{2})$  is equal to:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left[ \alpha_ {1} \mathrm {R} _ {1} + \alpha_ {2} \mathrm {R} _ {2} - \left(\alpha_ {1} \mu_ {1} + \alpha_ {2} \mu_ {2}\right) \right] ^ {2}
+\sigma_{\mathrm{P}}^{2} = \mathrm{E}\left[ \alpha_{1} \mathrm{R}_{1} + \alpha_{2} \mathrm{R}_{2} - \left(\alpha_{1} \mu_{1} + \alpha_{2} \mu_{2}\right) \right]^{2}
 $$
 
 and then:
 
 $$
-\begin{array}{l} \sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left[ \alpha_ {1} \left(\mathrm {R} _ {1} - \mu_ {1}\right) + \alpha_ {2} \left(\mathrm {R} _ {2} - \mu_ {2}\right) \right] ^ {2} \\ \sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left[ \left(\alpha_ {1} \left(\mathrm {R} _ {1} - \mu_ {1}\right)\right) ^ {2} + \left(\alpha_ {2} \left(\mathrm {R} _ {2} - \mu_ {2}\right)\right) ^ {2} + 2 \left(\alpha_ {1} \left(\mathrm {R} _ {1} - \mu_ {1}\right)\right) \left(\alpha_ {2} \left(\mathrm {R} _ {2} - \mu_ {2}\right)\right) \right] \\ \sigma_ {\mathrm {P}} ^ {2} = \mathrm {E} \left[ \alpha_ {1} ^ {2} \left(\mathrm {R} _ {1} - \mu_ {1}\right) ^ {2} + \alpha_ {2} ^ {2} \left(\mathrm {R} _ {2} - \mu_ {2}\right) ^ {2} + 2 \alpha_ {1} \alpha_ {2} \left(\mathrm {R} _ {1} - \mu_ {1}\right) \left(\mathrm {R} _ {2} - \mu_ {2}\right) \right] \\ \end{array}
+\begin{array}{l} \sigma_{\mathrm{P}}^{2} = \mathrm{E}\left[ \alpha_{1} \left(\mathrm{R}_{1} - \mu_{1}\right) + \alpha_{2} \left(\mathrm{R}_{2} - \mu_{2}\right) \right]^{2} \\ \sigma_{\mathrm{P}}^{2} = \mathrm{E}\left[ \left(\alpha_{1} \left(\mathrm{R}_{1} - \mu_{1}\right)\right)^{2} + \left(\alpha_{2} \left(\mathrm{R}_{2} - \mu_{2}\right)\right)^{2} + 2 \left(\alpha_{1} \left(\mathrm{R}_{1} - \mu_{1}\right)\right) \left(\alpha_{2} \left(\mathrm{R}_{2} - \mu_{2}\right)\right) \right] \\ \sigma_{\mathrm{P}}^{2} = \mathrm{E}\left[ \alpha_{1}^{2} \left(\mathrm{R}_{1} - \mu_{1}\right)^{2} + \alpha_{2}^{2} \left(\mathrm{R}_{2} - \mu_{2}\right)^{2} + 2 \alpha_{1} \alpha_{2} \left(\mathrm{R}_{1} - \mu_{1}\right) \left(\mathrm{R}_{2} - \mu_{2}\right) \right] \\ \end{array}
 $$
 
 Considering that: (i) the expected value of the sum of the returns is equal to the sum of the expected value of each return; and (ii) the expected value of the return for a constant is equal to the constant for the expected value of the return, the results are:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha_ {1} ^ {2} \mathrm {E} \left[ \left(\mathrm {R} _ {1} - \mu_ {1}\right) ^ {2} \right] + \alpha_ {2} ^ {2} \mathrm {E} \left[ \left(\mathrm {R} _ {2} - \mu_ {2}\right) ^ {2} \right] + 2 \alpha_ {1} \alpha_ {2} \mathrm {E} [ (\mathrm {R} _ {1} - \mu_ {1}) (\mathrm {R} _ {2} - \mu_ {2}) ]
+\sigma_{\mathrm{P}}^{2} = \alpha_{1}^{2} \mathrm{E}\left[ \left(\mathrm{R}_{1} - \mu_{1}\right)^{2} \right] + \alpha_{2}^{2} \mathrm{E}\left[ \left(\mathrm{R}_{2} - \mu_{2}\right)^{2} \right] + 2 \alpha_{1} \alpha_{2} \mathrm{E}[ (\mathrm{R}_{1} - \mu_{1}) (\mathrm{R}_{2} - \mu_{2}) ]
 $$
 
 and by considering that:
@@ -5278,23 +5278,23 @@ $$
 We have:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha_ {1} ^ {2} \sigma_ {1} ^ {2} + \alpha_ {2} ^ {2} \sigma_ {2} ^ {2} + 2 \alpha_ {1} \alpha_ {2} \sigma_ {1, 2} \tag {5.8}
+\sigma_{\mathrm{P}}^{2} = \alpha_{1}^{2} \sigma_{1}^{2} + \alpha_{2}^{2} \sigma_{2}^{2} + 2 \alpha_{1} \alpha_{2} \sigma_{1,2} \tag{5.8}
 $$
 
 Considering that the correlation coefficient  $\left(\rho_{1,2}\right)$  is equal to the ratio between the covariance of the assets' expected returns  $\left(\sigma_{1,2}\right)$  and the product of their standard deviations  $\left(\sigma_{1} \sigma_{2}\right)$ , we have:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha_ {1} ^ {2} \sigma_ {1} ^ {2} + \alpha_ {2} ^ {2} \sigma_ {2} ^ {2} + 2 \alpha_ {1} \alpha_ {2} \rho_ {1, 2} \sigma_ {1} \sigma_ {2} \tag {5.9}
+\sigma_{\mathrm{P}}^{2} = \alpha_{1}^{2} \sigma_{1}^{2} + \alpha_{2}^{2} \sigma_{2}^{2} + 2 \alpha_{1} \alpha_{2} \rho_{1,2} \sigma_{1} \sigma_{2} \tag{5.9}
 $$
 
 $$
-\rho_ {1, 2} = \frac {\sigma_ {1 , 2}}{\sigma_ {1} \sigma_ {2}} \rightarrow \sigma_ {1, 2} = \rho_ {1, 2} \sigma_ {1} \sigma_ {2}
+\rho_{1,2} = \frac{\sigma_{1,2}}{\sigma_{1} \sigma_{2}} \rightarrow \sigma_{1,2} = \rho_{1,2} \sigma_{1} \sigma_{2}
 $$
 
 On the basis of the correlation coefficient  $(\rho_{1,2})$ , the portfolio variance can be defined in terms of correlation rather than in terms of covariance. In this case, Eq. (5.8) can be re-written as follows:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha_ {1} ^ {2} \sigma_ {1} ^ {2} + \alpha_ {2} ^ {2} \sigma_ {2} ^ {2} + 2 \alpha_ {1} \alpha_ {2} \rho_ {1, 2} \sigma_ {1} \sigma_ {2} \tag {5.10}
+\sigma_{\mathrm{P}}^{2} = \alpha_{1}^{2} \sigma_{1}^{2} + \alpha_{2}^{2} \sigma_{2}^{2} + 2 \alpha_{1} \alpha_{2} \rho_{1,2} \sigma_{1} \sigma_{2} \tag{5.10}
 $$
 
 As shown in Eq. (5.10) a key role is played by the covariance (and therefore by correlation) between the assets' expected returns. There are three basic cases:
@@ -5306,13 +5306,13 @@ As shown in Eq. (5.10) a key role is played by the covariance (and therefore by 
 Equation (5.10) can be rewritten on the basis of the conditions (5.4) as follows:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha^ {2} \sigma_ {2} ^ {2} + (1 - \alpha) ^ {2} \sigma_ {1} ^ {2} + 2 \alpha (1 - \alpha) \rho_ {1, 2} \sigma_ {1} \sigma_ {2} \tag {5.11}
+\sigma_{\mathrm{P}}^{2} = \alpha^{2} \sigma_{2}^{2} + (1 - \alpha)^{2} \sigma_{1}^{2} + 2 \alpha (1 - \alpha) \rho_{1,2} \sigma_{1} \sigma_{2} \tag{5.11}
 $$
 
 and by explicating, we have:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha^ {2} \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} + \alpha^ {2} \sigma_ {1} ^ {2} - 2 \alpha \sigma_ {1} ^ {2} + 2 \alpha \rho_ {1, 2} \sigma_ {1} \sigma_ {2} - 2 \alpha^ {2} \rho_ {1, 2} \sigma_ {1} \sigma_ {2}
+\sigma_{\mathrm{P}}^{2} = \alpha^{2} \sigma_{2}^{2} + \sigma_{1}^{2} + \alpha^{2} \sigma_{1}^{2} - 2 \alpha \sigma_{1}^{2} + 2 \alpha \rho_{1,2} \sigma_{1} \sigma_{2} - 2 \alpha^{2} \rho_{1,2} \sigma_{1} \sigma_{2}
 $$
 
 Equation (5.11) draws a curve. On the basis of the first order condition, and then by pointing the first derivative equal to zero, the stationary point is achieved. If the second derivative is positive, the stationary point is a minimum of the curve.
@@ -5320,7 +5320,7 @@ Equation (5.11) draws a curve. On the basis of the first order condition, and th
 The first derivative of the portfolio variance  $\left(\sigma_{\mathrm{P}}^{2}\right)$ , compared with part of wealth  $(\alpha)$  invested in the riskier asset (Asset 2), is equal to:
 
 $$
-\frac {\partial \sigma_ {P} ^ {2}}{\partial \alpha} = 2 \alpha \sigma_ {2} ^ {2} + 2 \alpha \sigma_ {1} ^ {2} - 2 \sigma_ {1} ^ {2} + 2 \rho_ {1, 2} \sigma_ {1} \sigma_ {2} - 4 \alpha \rho_ {1, 2} \sigma_ {1} \sigma_ {2}
+\frac{\partial \sigma_{P}^{2}}{\partial \alpha} = 2 \alpha \sigma_{2}^{2} + 2 \alpha \sigma_{1}^{2} - 2 \sigma_{1}^{2} + 2 \rho_{1,2} \sigma_{1} \sigma_{2} - 4 \alpha \rho_{1,2} \sigma_{1} \sigma_{2}
 $$
 
 # 5.1 Diversified Portfolio
@@ -5328,25 +5328,25 @@ $$
 and then the first derivative is equal to:
 
 $$
-\frac {\partial \sigma_ {\mathrm {P}} ^ {2}}{\partial \alpha} = \alpha \sigma_ {2} ^ {2} + \alpha \sigma_ {1} ^ {2} - \sigma_ {1} ^ {2} + \rho_ {1, 2} \sigma_ {1} \sigma_ {2} - 2 \alpha \rho_ {1, 2} \sigma_ {1} \sigma_ {2} \tag {5.12}
+\frac{\partial \sigma_{\mathrm{P}}^{2}}{\partial \alpha} = \alpha \sigma_{2}^{2} + \alpha \sigma_{1}^{2} - \sigma_{1}^{2} + \rho_{1,2} \sigma_{1} \sigma_{2} - 2 \alpha \rho_{1,2} \sigma_{1} \sigma_{2} \tag{5.12}
 $$
 
 Placing the first derivative equal to zero, and by solving for  $\alpha$ , the stationary point is achieved, as follows:
 
 $$
-\begin{array}{l} \frac {\partial \sigma_ {P} ^ {2}}{\partial \alpha} = 0 \rightarrow \alpha \sigma_ {2} ^ {2} + \alpha \sigma_ {1} ^ {2} - \sigma_ {1} ^ {2} + \rho_ {1, 2} \sigma_ {1} \sigma_ {2} - 2 \alpha \rho_ {1, 2} \sigma_ {1} \sigma_ {2} = 0 \\ \alpha = \frac {\sigma_ {1} ^ {2} - \rho_ {1 , 2} \sigma_ {1} \sigma_ {2}}{\sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} - 2 \rho_ {1 , 2} \sigma_ {1} \sigma_ {2}} \tag {5.13} \\ \end{array}
+\begin{array}{l} \frac{\partial \sigma_{P}^{2}}{\partial \alpha} = 0 \rightarrow \alpha \sigma_{2}^{2} + \alpha \sigma_{1}^{2} - \sigma_{1}^{2} + \rho_{1,2} \sigma_{1} \sigma_{2} - 2 \alpha \rho_{1,2} \sigma_{1} \sigma_{2} = 0 \\ \alpha = \frac{\sigma_{1}^{2} - \rho_{1,2} \sigma_{1} \sigma_{2}}{\sigma_{2}^{2} + \sigma_{1}^{2} - 2 \rho_{1,2} \sigma_{1} \sigma_{2}} \tag{5.13} \\ \end{array}
 $$
 
 The second derivative is equal to:
 
 $$
-\frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} = \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} - 2 \rho_ {1, 2} \sigma_ {1} \sigma_ {2} \tag {5.14}
+\frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} = \sigma_{2}^{2} + \sigma_{1}^{2} - 2 \rho_{1,2} \sigma_{1} \sigma_{2} \tag{5.14}
 $$
 
 The sign of the second derivative is the function of the correlation coefficient  $(\rho_{1,2})$ . Consider the three extreme cases of the correlation  $(\rho_{1,2} = +1; -1; 0)$ . If:
 
 $$
-\begin{array}{l} \rho_ {1, 2} = + 1 \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} = \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} - 2 \sigma_ {1} \sigma_ {2} = (\sigma_ {2} - \sigma_ {1}) ^ {2} \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} > 0 \\ \rho_ {1, 2} = - 1 \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} = \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} + 2 \sigma_ {1} \sigma_ {2} = (\sigma_ {2} + \sigma_ {1}) ^ {2} \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} > 0 \tag {5.15} \\ \rho_ {1, 2} = 0 \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} = \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} \rightarrow \frac {\partial^ {2} \sigma_ {\mathrm {P}} ^ {2}}{\partial^ {2} \alpha} > 0 \\ \end{array}
+\begin{array}{l} \rho_{1,2} = +1 \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} = \sigma_{2}^{2} + \sigma_{1}^{2} - 2 \sigma_{1} \sigma_{2} = (\sigma_{2} - \sigma_{1})^{2} \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} > 0 \\ \rho_{1,2} = -1 \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} = \sigma_{2}^{2} + \sigma_{1}^{2} + 2 \sigma_{1} \sigma_{2} = (\sigma_{2} + \sigma_{1})^{2} \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} > 0 \tag{5.15} \\ \rho_{1,2} = 0 \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} = \sigma_{2}^{2} + \sigma_{1}^{2} \rightarrow \frac{\partial^{2} \sigma_{\mathrm{P}}^{2}}{\partial^{2} \alpha} > 0 \\ \end{array}
 $$
 
 In the first case  $\left(\rho_{1,2} = +1\right)$  the second derivative is positive because  $\sigma_2 > \sigma_1$  (Asset 2 is riskier than Asset 1). Also in the first case, as in the second case  $\left(\rho_{1,2} = -1\right)$ , it is a square of polynomial and therefore the second derivative is positive by definition. In the last case  $\left(\rho_{1,2} = 0\right)$ , the second derivative is positive by definition because the variances, and therefore the standard deviation, are positive.
@@ -5514,7 +5514,7 @@ possible portfolios obtained by the changes in the correlations between the asse
 If there is no correlation between the expected returns of the two assets is negative  $\left(\rho_{1,2} = 0\right)$ , Eq. (5.11) can be rewritten as follows:
 
 $$
-\sigma_ {P} ^ {2} = \alpha^ {2} \sigma_ {2} ^ {2} + (1 - \alpha) ^ {2} \sigma_ {1} ^ {2} + 2 \alpha (1 - \alpha) (0) \sigma_ {1} \sigma_ {2}
+\sigma_{P}^{2} = \alpha^{2} \sigma_{2}^{2} + (1 - \alpha)^{2} \sigma_{1}^{2} + 2 \alpha (1 - \alpha) (0) \sigma_{1} \sigma_{2}
 $$
 
 and then:
