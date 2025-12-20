@@ -365,13 +365,13 @@ Problem 1.10. Suppose that  $f:(a,b)\to \mathbb{R}$  is twice continuously diffe
 1. Show that if  $f''(x) \leq 0$  for all  $x \in (a, b)$ , then  $f$  is concave. \[Hint: We know that  $f'$  is non-increasing. Pick  $x, y$  with  $a < x < y < b$  and pick  $\alpha \in (0, 1)$ , define  $z = \alpha x + (1 - \alpha)y$ . Note that  $(z - x) = (1 - \alpha)(y - x)$  and  $(y - z) = \alpha(y - x)$ . Show]
 
 $$
-\begin{array}{l} f (z) - f (x) = \int_ {x} ^ {z} f ^ {\prime} (t) d t \geq f ^ {\prime} (z) (z - x) = f ^ {\prime} (z) (1 - \alpha) (y - x), \\ f (y) - f (z) = \int_ {z} ^ {y} f ^ {\prime} (t) d t \leq f ^ {\prime} (z) (y - z) = f ^ {\prime} (z) \alpha (y - x). \\ \end{array}
+\begin{array}{l}f(z)-f(x)=\int_{x}^{z}f^{\prime}(t)\mathrm{d}t\geq f^{\prime}(z)(z-x)=f^{\prime}(z)(1-\alpha)(y-x),\\f(y)-f(z)=\int_{z}^{y}f^{\prime}(t)\mathrm{d}t\leq f^{\prime}(z)(y-z)=f^{\prime}(z)\alpha(y-x).\\\end{array}
 $$
 
 Therefore,
 
 $$
-f (z) \geq f (x) + f ^ {\prime} (z) (1 - \alpha) (y - x), f (z) \geq f (y) - f ^ {\prime} (z) \alpha (y - x).
+f(z)\geq f(x)+f^{\prime}(z)(1-\alpha)(y-x),\ f(z)\geq f(y)-f^{\prime}(z)\alpha(y-x).
 $$
 
 Multiply the lhs by  $\alpha$ , the rhs by  $(1 - \alpha)$ , and …
@@ -781,29 +781,29 @@ Proof:  $\Psi(W) \in C_b$  by the Theorem of the Maximum. The rest is the usual 
 
 Since  $C_b(X)$  is a complete metric, we can apply
 
-Theorem 3.2.5 (Contraction Mapping). If  $f: Y \to Y$  is a contraction mapping and  $Y$  is a complete metric space, then there exists a unique  $y^*$  such that  $f(y^*) = y^*$ . Further, for any  $y_0 \in Y$ , the inductively defined sequence  $y^n = f(y_{n-1})$  converges to  $y^*$ .
+Theorem 3.2.5 (Contraction Mapping). If  $f:Y\to Y$  is a contraction mapping and  $Y$  is a complete metric space, then there exists a unique  $y^*$  such that  $f(y^*)=y^*$ . Further, for any  $y_0\in Y$ , the inductively defined sequence  $y^n=f(y_{n-1})$  converges to  $y^*$ .
 
-Proof: Step 1 — if such a  $y^{*}$  exists, it is unique. To see why, suppose that  $f(y^{*}) = y^{*}$  and  $f(y') = y'$  so that  $d(y^{*},y') = d(f(y^{*}),f(y'))$ . By the definition of a contraction mapping,  $d(y^{*},y') \leq \beta d(f(y^{*}),f(y'))$  for some  $\beta < 1$ . Combining,  $d(y^{*},y') \leq \beta d(y^{*},y')$ , and this is only possible if  $d(y^{*},y') = 0$ .
+Proof: Step 1 — if such a  $y^{*}$  exists, it is unique. To see why, suppose that  $f(y^{*})=y^{*}$  and  $f(y')=y'$  so that  $d(y^{*},y')=d(f(y^{*}),f(y'))$ . By the definition of a contraction mapping,  $d(y^{*},y')\leq\beta d(f(y^{*}),f(y'))$  for some  $\beta<1$ . Combining,  $d(y^{*},y')\leq\beta d(y^{*},y')$ , and this is only possible if  $d(y^{*},y')=0$ .
 
-Step 2 — existence. Pick an arbitrary  $y \in Y$ . Inductively define  $f^0(y) = y$  and  $f^n(y) = f(f^{n-1}(y))$ . Applying the definition of a contraction mapping  $n$  times, we have
+Step 2 — existence. Pick an arbitrary  $y\in Y$ . Inductively define  $f^0(y)=y$  and  $f^n(y)=f(f^{n-1}(y))$ . Applying the definition of a contraction mapping  $n$  times, we have
 
 $$
-d (f ^ {n + m} (y), f ^ {n} (y)) \leq \beta^ {n} d (f ^ {m} (y), y).
+d(f^{n+m}(y),f^{n}(y))\leq\beta^{n}d(f^{m}(y),y).
 $$
 
 Using the triangle inequality  $m$  times, we have
 
 $$
-\beta^ {n} d (f ^ {m} (y), y) \leq \beta^ {n} [ d (f ^ {m} (y), f ^ {m - 1} (y)) + \dots + d (f (y), y) ].
+\beta^{n}d(f^{m}(y),y)\leq\beta^{n}[d(f^{m}(y),f^{m-1}(y))+\dots+d(f(y),y)].
 $$
 
 By the definition of a contraction mapping,
 
 $$
-\beta^ {n} \left[ d \left(f ^ {m} (y), f ^ {m - 1} (y)\right) + \dots + d (f (y), y) \right] \leq \beta^ {n} d (f (y), y) [ 1 + \beta + \dots + \beta^ {m - 1} ].
+\beta^{n}\left[d(f^{m}(y),f^{m-1}(y))+\dots+d(f(y),y)\right]\leq\beta^{n}d(f(y),y)[1+\beta+\dots+\beta^{m-1}].
 $$
 
-This last term,  $\beta^n d(f(y), y)[1 + \beta + \dots + \beta^{m-1}]$ , goes to 0 as  $n \uparrow \infty$ . Since  $Y$  is complete, there exists a  $y^*$  such that  $y^* = \lim_n f^n(y) = \lim_n f^{n+1}(y)$ . Because the function  $f$  is continuous,  $f(y^*) = f(\lim_n f^n(y)) = \lim_n f^{n+1}(y) = y^*$ .
+This last term,  $\beta^nd(f(y),y)[1+\beta+\dots+\beta^{m-1}]$ , goes to 0 as  $n\uparrow\infty$ . Since  $Y$  is complete, there exists a  $y^*$  such that  $y^*=\lim_nf^n(y)=\lim_nf^{n+1}(y)$ . Because the function  $f$  is continuous,  $f(y^*)=f(\lim_nf^n(y))=\lim_nf^{n+1}(y)=y^*$ .
 
 Discuss starting at  $W\equiv 0$  and applying  $\Psi$
 
@@ -870,7 +870,7 @@ In general, we would like to know about the likelihood that our estimator is ver
 The Best MSE estimators are biased, the better ones are called "shrunken" estimators. Suppose that  $\hat{\theta} \in \mathbb{R}_{++}$  is an unbiased estimator of a location parameter  $\theta \in \mathbb{R}_{++}$  based on an iid. sample  $X_{i}, i = 1, \ldots, n$ . The question to be asked is what multiple of  $\hat{\theta}$  minimizes mean squared error? To answer the question, we take a detour through the following calculation:
 
 $$
-\begin{array}{l} (3) \quad E (\hat {\theta} - \theta) ^ {2} = E ((\hat {\theta} - E \hat {\theta}) + (E \hat {\theta} - \theta)) ^ {2} \\ = E (\hat {\theta} - E \hat {\theta}) ^ {2} + E (E \hat {\theta} - \theta) ^ {2} + 2 E (\hat {\theta} - E \hat {\theta}) (E \hat {\theta} - \theta) \\ = \operatorname {V a r} (\hat {\theta}) + \operatorname {B i a s} ^ {2} (\hat {\theta}), \tag {5} \\ \end{array}
+\begin{array}{l}(3)\quad E(\hat{\theta}-\theta)^{2}=E((\hat{\theta}-E\hat{\theta})+(E\hat{\theta}-\theta))^{2}\\=E(\hat{\theta}-E\hat{\theta})^{2}+E(E\hat{\theta}-\theta)^{2}+2E(\hat{\theta}-E\hat{\theta})(E\hat{\theta}-\theta)\\=\operatorname{Var}(\hat{\theta})+\operatorname{Bias}^{2}(\hat{\theta}),\tag{5}\\\end{array}
 $$
 
 where the last equality happens because  $E\hat{\theta}$  is unbiased.
@@ -878,13 +878,13 @@ where the last equality happens because  $E\hat{\theta}$  is unbiased.
 We now apply this to the class of estimators  $a\hat{\theta}$  where  $\hat{\theta}$  is unbiased. Define
 
 $$
-f (a) = E (a \hat {\theta} - \theta) ^ {2} = a ^ {2} \mathrm {V a r} (\hat {\theta}) + \theta^ {2} (a - 1) ^ {2}.
+f(a)=E(a\hat{\theta}-\theta)^{2}=a^{2}\mathrm{Var}(\hat{\theta})+\theta^{2}(a-1)^{2}.
 $$
 
-Let  $v = \operatorname{Var}(\hat{\theta})$ , so that  $f(a) = a^2v + \theta^2(a - 1)^2$ . Because  $f$  is a quadratic in  $a$  with positive coefficients on  $a^2$ , the first order conditions are sufficient for a maximum. Taking derivatives,  $\frac{1}{2}f'(a) = av + \theta^2(a - 1)$  so that
+Let  $v=\operatorname{Var}(\hat{\theta})$ , so that  $f(a)=a^2v+\theta^2(a-1)^2$ . Because  $f$  is a quadratic in  $a$  with positive coefficients on  $a^2$ , the first order conditions are sufficient for a maximum. Taking derivatives,  $\frac{1}{2}f'(a)=av+\theta^2(a-1)$  so that
 
 $$
-a ^ {*} = \frac {\theta^ {2}}{v + \theta^ {2}} = \frac {1}{1 + v ^ {\circ}} <   1,
+a^{*}=\frac{\theta^{2}}{v+\theta^{2}}=\frac{1}{1+v^{\circ}}<1,
 $$
 
 where  $v^{\circ} \coloneqq \frac{v}{\theta^{2}}$  (which is known as the standardized variation of  $\hat{\theta}$ ). Thus, the optimal MSE (Mean Squared Error) estimator which is a linear function of  $\hat{\theta}$  is given by  $a^{*}\hat{\theta}$ . Because  $a^{*} < 1$ , these are sometimes called shrunken estimators.
@@ -893,10 +893,10 @@ Note that as  $v^{\circ}$  becomes large,  $a^{*}$  becomes small. As  $n \uparr
 
 4.3. Bayesians. Another way to look at the whole problem gives very direct answers to questions about the value of  $Prob(|\widehat{p}_n - p| > r)$  and, more generally, the distribution of  $\widehat{p}_n$ . This approach is called Bayesian statistics†, and, at its best, it sensibly uses the prior knowledge we have about the problem at hand.
 
-Suppose that we know that the true value of  $\theta$  (changing the notation for  $p$  here) is in the interval  $[\frac{1}{2}, 1]$ , and that intervals of equal size in  $[\frac{1}{2}, 1]$  are equally likely, that is, our prior distribution† is  $U[\frac{1}{2}, 1]$ . The posterior density as a function of the data is
+Suppose that we know that the true value of  $\theta$  (changing the notation for  $p$  here) is in the interval  $[\frac{1}{2},1]$ , and that intervals of equal size in  $[\frac{1}{2},1]$  are equally likely, that is, our prior distribution† is  $U[\frac{1}{2},1]$ . The posterior density as a function of the data is
 
 $$
-P (\boldsymbol {\theta} | \mathbf {x}) = k _ {x} \boldsymbol {\theta} \cdot \Pi_ {i} \boldsymbol {\theta} ^ {X _ {i}} (1 - \boldsymbol {\theta}) ^ {1 - X _ {i}}, \quad \boldsymbol {\theta} \in [ \frac {1}{2}, 1 ],
+P(\theta|\mathbf{x})=k_{x}\theta\cdot\prod_{i}\theta^{X_{i}}(1-\theta)^{1-X_{i}},\quad\theta\in\left[\frac{1}{2},1\right],
 $$
 
 where  $k_{x}$  is some constant chosen to make  $\int_{[\frac{1}{2},1]}kP(\theta |\mathbf{x})d\theta = 1$ . Take logarithms and maximize over  $[\frac{1}{2},1]$  to find the Bayesian MLE estimator, watch out for corner solutions.

@@ -1134,7 +1134,7 @@ The connection between these definitions is that  $\mathbf{E}[Y\mid X = x] = \ma
 Note. To be very rigorous about definitions, assume that  $Y: \Omega \to \mathbb{R}$  is a random variable, and  $\mathcal{G} \subseteq \mathcal{F}$  is a  $\sigma$ -subalgebra. Then  $\mathbf{E}[Y \mid \mathcal{G}]$  is also a function  $\Omega \to \mathbb{R}$ , defined in terms of an averaging operator across all atomic sets in  $\mathcal{G}$ . In other words, we already have that  $Y$  is a  $\mathcal{F}$ -measurable function, but by applying a certain averaging map, we can make it  $\mathcal{G}$ -measurable, which is a stronger condition because  $\mathcal{G}$  is coarser than  $\mathcal{F}$ . Mathematically, we have for all  $G \in \mathcal{G}$  that
 
 $$
-\int_ {G} \mathbf {E} [ Y | \mathcal {G} ] \mathrm {d} P = \int_ {G} Y \mathrm {d} P.
+\int_{G} \mathbf{E}[Y \mid \mathcal{G}] \mathrm{d} P = \int_{G} Y \mathrm{d} P.
 $$
 
 Therefore, the equation that  $\mathbf{E}[Y\mid X] = g(X)$  is actually somewhat of an abuse of notation according to this  $\sigma$ -algebra definition, but it makes the definition much easier to think about!
@@ -1144,7 +1144,7 @@ For more intuition about conditional expectation, you can also think of it as a 
 Definition 11.3 (Conditional expectation). The conditional expectation  $\mathbf{E}[Y\mid X]$  is the (almost surely) unique function  $g(X)$  that uncorrelates  $Y - g(X)$  from  $h(X)$  for all all bounded, measurable functions  $h:\mathbb{R}\to \mathbb{R}$ . In other words,
 
 $$
-\mathbf {E} \left[ (Y - g (X)) h (X) \right] = 0.
+\mathbf{E} \left[(Y - g(X)) h(X) \right] = 0.
 $$
 
 This makes sense intuitively, as you can pushforward the Lebesgue integral from the underlying  $\sigma$ -algebra  $\mathcal{F}$  to the  $\sigma$ -subalgebra  $\sigma(X) \subset \mathcal{F}$ , which makes  $h(X)$  a constant and  $Y - g(X)$  zero. Anyway, this is the property we'd really like for conditional expectation to have. Let's now see if this definition is actually valid, i.e., showing existence and uniqueness! For what follows, let's assume (for the sake of convenience) that all r.v.s have finite variance.
@@ -1156,7 +1156,7 @@ We care about this completeness condition because in function spaces, which are 
 Proposition 11.5. Zero-centered random variables, i.e., such that  $\mathbf{E}[X] = 0$ , form a Hilbert space under the covariance inner product
 
 $$
-\langle X, Y \rangle = \operatorname {C o v} (X, Y) = \mathbf {E} [ X Y ].
+\langle X, Y \rangle = \operatorname{Cov}(X, Y) = \mathbf{E}[XY].
 $$
 
 This assumes that we consider two random variables to be equivalent if they are almost surely equal.
@@ -1166,13 +1166,13 @@ It's a well-known fact that quotient Hilbert spaces exist. Using some kind of ar
 Proposition 11.6 (Adam's law). For any random variables  $X$  and  $Y$ ,
 
 $$
-\mathbf {E} \left[ \mathbf {E} \left[ Y \mid X \right] \right] = \mathbf {E} \left[ Y \right].
+\mathbf{E} \left[\mathbf{E} \left[Y \mid X \right] \right] = \mathbf{E} \left[Y \right].
 $$
 
 Proof. This follows immediately from the conditional expectation property written above. In particular, if we set  $h(X) = 1$ , then the property reduces to
 
 $$
-\mathbf {E} \left[ Y - \mathbf {E} \left[ Y \mid X \right] \right] = 0,
+\mathbf{E} \left[Y - \mathbf{E} \left[Y \mid X \right] \right] = 0,
 $$
 
 and the rest follows from linearity of expectation.
@@ -1180,19 +1180,19 @@ and the rest follows from linearity of expectation.
 Proposition 11.7 (Eve's law). For all random variables  $X, Y$ ,
 
 $$
-\operatorname {V a r} [ Y ] = \mathbf {E} [ \operatorname {V a r} [ Y \mid X ] ] + \operatorname {V a r} [ \mathbf {E} [ Y \mid X ] ].
+\operatorname{Var}[Y] = \mathbf{E}[\operatorname{Var}[Y \mid X]] + \operatorname{Var}[\mathbf{E}[Y \mid X]].
 $$
 
 Proof. Without loss of generality, assume that  $\mathbf{E}[Y] = 0$ . By Adam's law,
 
 $$
-\operatorname {V a r} \left[ Y \right] = \mathbf {E} \left[ Y ^ {2} \right] = \mathbf {E} \left[ \mathbf {E} \left[ Y ^ {2} \mid X \right] \right].
+\operatorname{Var} \left[Y \right] = \mathbf{E} \left[Y^{2} \right] = \mathbf{E} \left[\mathbf{E} \left[Y^{2} \mid X \right] \right].
 $$
 
 Also,  $\mathbf{E}[Y\mid X]$  has mean zero by assumption. Then, observe that
 
 $$
-\begin{array}{l} \mathbf {E} \left[ \mathbf {E} \left[ Y ^ {2} \mid X \right] \right] = \mathbf {E} \left[ \mathbf {E} \left[ Y ^ {2} - \mathbf {E} [ Y ] ^ {2} \mid X \right] + \mathbf {E} [ Y \mid X ] ^ {2} \right] \\ = \mathbf {E} [ \operatorname {V a r} [ Y \mid X ] ] + \operatorname {V a r} [ \mathbf {E} [ Y \mid X ] ]. \\ \end{array}
+\begin{array}{l} \mathbf{E} \left[\mathbf{E} \left[Y^{2} \mid X \right] \right] = \mathbf{E} \left[\mathbf{E} \left[Y^{2} - \mathbf{E}[Y]^{2} \mid X \right] + \mathbf{E}[Y \mid X]^{2} \right] \\ = \mathbf{E}[\operatorname{Var}[Y \mid X]] + \operatorname{Var}[\mathbf{E}[Y \mid X]]. \\ \end{array}
 $$
 
 That concludes a very brief foray into conditional expectation and some of its properties.

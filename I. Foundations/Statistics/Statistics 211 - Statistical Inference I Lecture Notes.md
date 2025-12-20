@@ -927,23 +927,23 @@ Theorem 8.1. Let  $Y_{1},\ldots ,Y_{n}\sim f_{\theta_{0}}$ , and assume that  $\
 (v) There exists a function  $M(y)$ , possibly dependent on  $\theta_0$ , such that for all  $\theta$  in a neighborhood of  $\theta_0$ ,
 
 $$
-\left| \frac {\partial^ {3} \log f _ {\theta} (y)}{\partial \theta^ {3}} \right| \leq M (y), a n d
+\left| \frac{\partial^3 \log f_{\theta} (y)}{\partial \theta^3} \right| \leq M (y), \text{and}
 $$
 
 $$
-\mathbf {E} _ {\theta_ {0}} \left[ M (Y) \right] <   \infty .
+\mathbf{E}_{\theta_0} \left[ M (Y) \right] <   \infty .
 $$
 
 (vi) The score function is zero at  $\theta_0$ , i.e.,
 
 $$
-\mathbf {E} _ {\theta_ {0}} \left[ \left. \frac {\partial \log f _ {\theta} (Y)}{\partial \theta} \right| _ {\theta = \theta_ {0}} \right] = 0.
+\mathbf{E}_{\theta_0} \left[ \left. \frac{\partial \log f_{\theta} (Y)}{\partial \theta} \right|_{\theta = \theta_0} \right] = 0.
 $$
 
 (vii) The Fisher information satisfies
 
 $$
-0 <   I _ {1} (\theta_ {0}) = - \mathbf {E} _ {\theta_ {0}} \left[ \left. \frac {\partial^ {2} \log f _ {\theta} (Y _ {1})}{\partial \theta^ {2}} \right| _ {\theta = \theta_ {0}} \right].
+0 <   I_1 (\theta_0) = - \mathbf{E}_{\theta_0} \left[ \left. \frac{\partial^2 \log f_{\theta} (Y_1)}{\partial \theta^2} \right|_{\theta = \theta_0} \right].
 $$
 
 Then, there exists a consist zero  $\hat{\theta}_n$  of the score function  $S_{n}$ , such that  $S_{n}(\hat{\theta}_{n}) = 0$ . As  $n\to \infty$
