@@ -1531,19 +1531,19 @@ These prompts can come from many sources, but most popularly they come from the 
 For each prompt  $x_{i}$ , we generate  $N$  completions. We can represent this as a matrix:
 
 $$
-Y = \left[ \begin{array}{c c c c} y _ {1, 1} & y _ {1, 2} & \dots & y _ {1, N} \\ y _ {2, 1} & y _ {2, 2} & \dots & y _ {2, N} \\ \vdots & \vdots & \ddots & \vdots \\ y _ {M, 1} & y _ {M, 2} & \dots & y _ {M, N} \end{array} \right]
+Y = \left[ \begin{array}{cccc} y_{1,1} & y_{1,2} & \dots & y_{1,N} \\ y_{2,1} & y_{2,2} & \dots & y_{2,N} \\ \vdots & \vdots & \ddots & \vdots \\ y_{M,1} & y_{M,2} & \dots & y_{M,N} \end{array} \right]
 $$
 
 where  $y_{i,j}$  represents the  $j$ -th completion for the  $i$ -th prompt. Now, we pass all of these prompt-completion pairs through a reward model, to get a matrix of rewards. We'll represent the rewards as a matrix  $\mathbf{R}$ :
 
 $$
-R = \left[ \begin{array}{c c c c} r _ {1, 1} & r _ {1, 2} & \dots & r _ {1, N} \\ r _ {2, 1} & r _ {2, 2} & \dots & r _ {2, N} \\ \vdots & \vdots & \ddots & \vdots \\ r _ {M, 1} & r _ {M, 2} & \dots & r _ {M, N} \end{array} \right]
+R = \left[ \begin{array}{cccc} r_{1,1} & r_{1,2} & \dots & r_{1,N} \\ r_{2,1} & r_{2,2} & \dots & r_{2,N} \\ \vdots & \vdots & \ddots & \vdots \\ r_{M,1} & r_{M,2} & \dots & r_{M,N} \end{array} \right]
 $$
 
 Each reward  $r_{i,j}$  is computed by passing the completion  $y_{i,j}$  and its corresponding prompt  $x_{i}$  through a reward model  $\mathcal{R}$ :
 
 $$
-r _ {i, j} = \mathcal {R} (y _ {i, j} | x _ {i})
+r_{i,j} = \mathcal{R} (y_{i,j} | x_{i})
 $$
 
 # 10.1.2 Selecting Top-N Completions

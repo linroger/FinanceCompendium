@@ -921,7 +921,7 @@ is an M-estimator of  $\pmb{\beta}$ . However,  $\hat{\pmb{\beta}}^{\mathrm{LS}}
 EXAMPLE 3.3.2: In the regression setup of Example 3.2.3, we could instead consider the least absolute deviation estimator
 
 $$
-\hat{\boldsymbol{\beta}}^{\text{LAD}} = \operatorname *{arg  min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\left\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\right\|_{1},
+\hat{\boldsymbol{\beta}}^{\text{LAD}} = \operatorname *{arg min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\left\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\right\|_{1},
 $$
 
 where  $\| \pmb{u}\| _1 = \sum_{i=1}^k |u_i|$  for any  $\pmb{u}\in \mathbb{R}^k$ . Then  $\hat{\beta}^{\mathrm{LAD}}$  is another M-estimator.
@@ -929,7 +929,7 @@ where  $\| \pmb{u}\| _1 = \sum_{i=1}^k |u_i|$  for any  $\pmb{u}\in \mathbb{R}^k
 EXAMPLE 3.3.3: In the regression setup of Example 3.2.3, we could instead consider the lasso estimator
 
 $$
-\hat{\boldsymbol{\beta}}^{\text{LASSO}} = \operatorname *{arg  min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\Bigl(\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\|_{2}^{2} + \lambda \| \boldsymbol{\beta}\|_{1}\Bigr),
+\hat{\boldsymbol{\beta}}^{\text{LASSO}} = \operatorname *{arg min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\Bigl(\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\|_{2}^{2} + \lambda \| \boldsymbol{\beta}\|_{1}\Bigr),
 $$
 
 where  $\lambda > 0$  is some fixed constant.
@@ -953,19 +953,19 @@ Before we can discuss the Bayesian approach to estimation, we must first motivat
 Suppose we have a jar that contains 99 fair coins and a single unfair coin that is rigged to come up as heads with probability  $3/4$ . We draw one coin at random from the jar, and we let  $U$  be the heads probability of the coin we draw. Then
 
 $$
-f^{(U)} (u) = \left\{\begin{array}{l l} 1 / 2 & \text{withprobability99/100} \\ 3 / 4 & \text{withprobability1/100}, \end{array} \right.
+f^{(U)} (u) = \left\{\begin{array}{ll} 1 / 2 & \text{withprobability99/100} \\ 3 / 4 & \text{withprobability1/100}, \end{array} \right.
 $$
 
 and hence the pmf of  $U$  is
 
 $$
-f^{(U)} (u) = \left\{\begin{array}{c l} 99 / 10 0 & \text{if} u = 1 / 2, \\ 1 / 10 0 & \text{if} u = 3 / 4. \end{array} \right.
+f^{(U)} (u) = \left\{\begin{array}{cl} 99 / 10 0 & \text{if} u = 1 / 2, \\ 1 / 10 0 & \text{if} u = 3 / 4. \end{array} \right.
 $$
 
 After selecting a coin, we flip it five times, and we let  $X$  count the number of heads in these flips. Then for  $x \in \{0, 1, \ldots, 5\}$ , the conditional pmf of  $X$  given  $U$  is
 
 $$
-f^{(X | U)} (x \mid u) = \left\{\begin{array}{l l} \frac{5 !}{x ! (5 - x) !} \Big (\frac{1}{2} \Big) ^{x} \Big (\frac{1}{2} \Big) ^{5 - x} & \text{if} u = \frac{1}{2}, \\ \frac{5 !}{x ! (5 - x) !} \Big (\frac{3}{4} \Big) ^{x} \Big (\frac{1}{4} \Big) ^{5 - x} & \text{if} u = \frac{3}{4}. \end{array} \right.
+f^{(X | U)} (x \mid u) = \left\{\begin{array}{ll} \frac{5 !}{x ! (5 - x) !} \Big (\frac{1}{2} \Big) ^{x} \Big (\frac{1}{2} \Big) ^{5 - x} & \text{if} u = \frac{1}{2}, \\ \frac{5 !}{x ! (5 - x) !} \Big (\frac{3}{4} \Big) ^{x} \Big (\frac{1}{4} \Big) ^{5 - x} & \text{if} u = \frac{3}{4}. \end{array} \right.
 $$
 
 Now suppose we wish to determine the probability that we have drawn the unfair coin conditional on the fact that we observe that all five flips are heads. This is simply
@@ -1765,7 +1765,7 @@ $$
 noting that  $E_{\theta}[\ell_{\pmb{X}}^{\prime}(\theta)] = 0$  by Lemma 6.2.1. Now observe that  $\ell_{\pmb{X}}^{\prime}(\theta) = L_{\pmb{X}}^{\prime}(\theta) / L_{\pmb{X}}(\theta)$ , so
 
 $$
-\operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] = E_{\theta} \biggl [ \tilde{\xi} \frac{L_{\boldsymbol{X}} ^{\prime} (\theta)}{L_{\boldsymbol{X}} (\theta)} \biggr ] = \left\{\begin{array}{l l} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta)   d \boldsymbol{x} & \text{if} \boldsymbol{X} \text{iscontinuous,} \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta) & \text{if} \boldsymbol{X} \text{isdiscrete,} \end{array} \right.
+\operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] = E_{\theta} \biggl [ \tilde{\xi} \frac{L_{\boldsymbol{X}} ^{\prime} (\theta)}{L_{\boldsymbol{X}} (\theta)} \biggr ] = \left\{\begin{array}{ll} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta)   d \boldsymbol{x} & \text{if} \boldsymbol{X} \text{iscontinuous,} \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta) & \text{if} \boldsymbol{X} \text{isdiscrete,} \end{array} \right.
 $$
 
 noting that  $\left[L_{\boldsymbol{x}}^{\prime}(\theta) / L_{\boldsymbol{x}}(\theta)\right]L_{\boldsymbol{x}}(\theta) = L_{\boldsymbol{x}}^{\prime}(\theta)$ . Then due to the regularity conditions, we have
@@ -1898,7 +1898,7 @@ Note: The process of applying the Rao-Blackwell theorem to a naïve unbiased est
 EXAMPLE 7.2.3: In Example 7.2.1, we stated that an unbiased estimator of  $\zeta = \exp(-\lambda)$  is  $\tilde{\zeta} = n^{-1}\sum_{i=1}^{n}I_{\{0\}}(X_i)$ . However, consider the even simpler unbiased estimator defined by
 
 $$
-\tilde{\zeta} _{1} = I_{\{0 \}} (X_{1}) = \left\{\begin{array}{l l} 0 & \text{if} X_{1} = 0, \\ 1 & \text{if} X_{1} > 0. \end{array} \right.
+\tilde{\zeta} _{1} = I_{\{0 \}} (X_{1}) = \left\{\begin{array}{ll} 0 & \text{if} X_{1} = 0, \\ 1 & \text{if} X_{1} > 0. \end{array} \right.
 $$
 
 Suppose we now apply the Rao-Blackwell theorem to the unbiased estimator  $\tilde{\zeta}_1$  with the sufficient statistic  $Y = \sum_{i=1}^{n} X_i$ . Then
@@ -2053,7 +2053,7 @@ Note: We will write  $\mathrm{Power}(\theta)$  to avoid any notational confusion
 Notice that the power function provides the probabilities of both error types:
 
 $$
-\operatorname{Power} (\theta) = P_{\theta} (\boldsymbol{X} \in R) = \left\{\begin{array}{l l} P_{\theta} (\text{typeIerror}) & \text{if} \theta \in \Theta_{0}, \\ 1 - P_{\theta} (\text{typeIIerror}) & \text{if} \theta \in \Theta_{1}. \end{array} \right.
+\operatorname{Power} (\theta) = P_{\theta} (\boldsymbol{X} \in R) = \left\{\begin{array}{ll} P_{\theta} (\text{typeIerror}) & \text{if} \theta \in \Theta_{0}, \\ 1 - P_{\theta} (\text{typeIIerror}) & \text{if} \theta \in \Theta_{1}. \end{array} \right.
 $$
 
 Note: When people use the word "power" in the context of hypothesis tests, they usually mean  $1 - P_{\theta}$  (type II error), i.e., they mean the values of  $\operatorname{Power}(\theta)$  for  $\theta \in \Theta_1$ . The definition of the power function above is simply the logical extension to  $\theta \in \Theta_0$  as well. Note, however, that it is actually bad if  $\operatorname{Power}(\theta)$  is large for  $\theta \in \Theta_0$ .
@@ -2562,7 +2562,7 @@ Unlike a Wald test, a score test does not involve the maximum likelihood estimat
 EXAMPLE 10.2.2: Let  $X_{1}, \ldots, X_{n}$  be iid continuous random variables with pdf
 
 $$
-f_{\theta} (x) = \left\{\begin{array}{l l} \frac{\theta}{(\theta + x) ^{2}} & \text{if} x \geq 0, \\ 0 & \text{if} x <   0, \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{ll} \frac{\theta}{(\theta + x) ^{2}} & \text{if} x \geq 0, \\ 0 & \text{if} x < 0, \end{array} \right.
 $$
 
 where  $\theta > 0$  is unknown. The score function is
@@ -2795,7 +2795,7 @@ $$
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . This inequality holds if and only if
 
 $$
-\left(X - n \theta\right) ^{2} <   c n \theta (1 - \theta) \iff \left(n^{2} + c n\right) \theta^{2} - 2 n (X + c) \theta + X^{2} <   0.
+\left(X - n \theta\right) ^{2} <   c n \theta (1 - \theta) \iff \left(n^{2} + c n\right) \theta^{2} - 2 n (X + c) \theta + X^{2} < 0.
 $$
 
 By the quadratic formula, this inequality holds if and only if
@@ -2853,35 +2853,35 @@ Asymptotic confidence intervals based on the likelihood ratio test can also be c
 $\triangleright$  SOLUTION: First, note that
 
 $$
-Y = \left\{\begin{array}{l l} 0 & \text{if} \quad 0 \leq X <   1 / 2, \\ 1 & \text{if} 1 / 2 <   X <   3 / 2, \\ 2 & \text{if} 3 / 2 <   X <   5 / 2, \\ 3 & \text{if} 5 / 2 <   X <   7 / 2, \\ 4 & \text{if} 7 / 2 <   X \leq 4. \end{array} \right.
+Y = \left\{\begin{array}{ll} 0 & \text{if} \quad 0 \leq X < 1 / 2, \\ 1 & \text{if} 1 / 2 < X < 3 / 2, \\ 2 & \text{if} 3 / 2 < X < 5 / 2, \\ 3 & \text{if} 5 / 2 < X < 7 / 2, \\ 4 & \text{if} 7 / 2 < X \leq 4. \end{array} \right.
 $$
 
 The value of  $Y$  is not clear if  $X \in \{1/2, 3/2, 5/2, 7/2\}$ , but  $P(X \in \{1/2, 3/2, 5/2, 7/2\}) = 0$ , so this ambiguity is irrelevant. Now note that the cdf of  $X$  is
 
 $$
-F (x) = P (X \leq x) = \left\{\begin{array}{l l} 0 & \text{if} x <   0, \\ x^{2} / 16 & \text{if} 0 \leq x \leq 4, \\ 1 & \text{if} x > 4, \end{array} \right.
+F (x) = P (X \leq x) = \left\{\begin{array}{ll} 0 & \text{if} x < 0, \\ x^{2} / 16 & \text{if} 0 \leq x \leq 4, \\ 1 & \text{if} x > 4, \end{array} \right.
 $$
 
 and thus the pmf of  $Y$  is
 
 $$
-p (0) = P (Y = 0) = P (0 \leq X <   1 / 2) = F (1 / 2) - F (0) = 1 / 64 - 0 = 1 / 64,
+p (0) = P (Y = 0) = P (0 \leq X < 1 / 2) = F (1 / 2) - F (0) = 1 / 64 - 0 = 1 / 64,
 $$
 
 $$
-p (1) = P (Y = 1) = P (1 / 2 <   X <   3 / 2) = F (3 / 2) - F (1 / 2) = 9 / 64 - 1 / 64 = 1 / 8,
+p (1) = P (Y = 1) = P (1 / 2 < X < 3 / 2) = F (3 / 2) - F (1 / 2) = 9 / 64 - 1 / 64 = 1 / 8,
 $$
 
 $$
-p (2) = P (Y = 2) = P (3 / 2 <   X <   5 / 2) = F (5 / 2) - F (3 / 2) = 25 / 64 - 9 / 64 = 1 / 4,
+p (2) = P (Y = 2) = P (3 / 2 < X < 5 / 2) = F (5 / 2) - F (3 / 2) = 25 / 64 - 9 / 64 = 1 / 4,
 $$
 
 $$
-p (3) = P (Y = 3) = P (5 / 2 <   X <   7 / 2) = F (7 / 2) - F (5 / 2) = 49 / 64 - 25 / 64 = 3 / 8,
+p (3) = P (Y = 3) = P (5 / 2 < X < 7 / 2) = F (7 / 2) - F (5 / 2) = 49 / 64 - 25 / 64 = 3 / 8,
 $$
 
 $$
-p (4) = P (Y = 4) = P (7 / 2 <   X <   4) = F (4) - F (7 / 2) = 1 - 49 / 64 = 15 / 64,
+p (4) = P (Y = 4) = P (7 / 2 < X < 4) = F (4) - F (7 / 2) = 1 - 49 / 64 = 15 / 64,
 $$
 
 with  $p(y) = 0$  for all  $y \notin \{0,1,2,3,4\}$ .
@@ -2921,7 +2921,7 @@ $\triangleright$  SOLUTION TO (b): No,  $X$  and  $Y$  are not independent since
 $\triangleright$  SOLUTION: The cdf of  $X$  is
 
 $$
-F^{(X)} (x) = \left\{\begin{array}{l l} 0 & \text{if} x \leq 0, \\ 1 - \exp (- x) & \text{if} x > 0. \end{array} \right.
+F^{(X)} (x) = \left\{\begin{array}{ll} 0 & \text{if} x \leq 0, \\ 1 - \exp (- x) & \text{if} x > 0. \end{array} \right.
 $$
 
 Then the cdf of  $Y$  is  $F^{(Y)}(y) = P(Y \leq y) = P(X \leq y^2) = F^{(X)}(y^2) = 1 - \exp(-y^2)$  if  $y > 0$ , with  $F^{(Y)}(y) = 0$  if  $y \leq 0$ . We then differentiate to find that the pdf of  $Y$  is  $f^{(Y)}(y) = 2y\exp(-y^2)$  if  $y > 0$ , with  $f^{(Y)}(y) = 0$  if  $y \leq 0$ .
@@ -3174,7 +3174,7 @@ Observe that the likelihood  $L_{\pmb{x}}(\theta)$  is strictly positive and str
 $\triangleright$  SOLUTION TO (b): We could instead simply take the pdf to be
 
 $$
-f_{\theta} (x) = \left\{\begin{array}{l l} \exp (\theta - x) & \text{if} x \geq \theta , \\ 0 & \text{if} x <   \theta . \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{ll} \exp (\theta - x) & \text{if} x \geq \theta , \\ 0 & \text{if} x <   \theta . \end{array} \right.
 $$
 
 Then  $L_{\pmb{x}}(m) = 1$ , so the likelihood attains its maximum at  $\theta = m$ . Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = m = \min_{1 \leq i \leq n} X_i$ .
@@ -3270,7 +3270,7 @@ $\triangleright$  SOLUTION TO (b): In part (a) of problem 9, the maximum likelih
 3. Let  $X_{1}, \ldots, X_{n}$  be iid random variables with a continuous uniform distribution on  $[0, \theta]$ , where  $\theta > 0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{\begin{array}{l l} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3337,7 +3337,7 @@ where  $\gamma_{n} = n / (b + n)$ . Clearly  $\gamma_{n} = 1 / (1 + n^{-1}b) \to
 3. Let  $X_{1},\ldots ,X_{n}$  be iid random variables with a continuous uniform distribution on  $[0,\theta ]$ , where  $\theta >0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{\begin{array}{l l} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{ll} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3405,7 +3405,7 @@ which is some polynomial function of  $\theta$ . For  $\tilde{\xi}$  to be unbia
 $\triangleright$  SOLUTION TO (a): The likelihood is
 
 $$
-L_{x} (N) = \frac{1}{N} I_{\{1, \ldots , N \}} (x) = \frac{1}{N} I_{\{x, x + 1, \ldots \}} (N) = \left\{\begin{array}{l l} 0 & \text{if} N <   x, \\ \frac{1}{N} & \text{if} N \geq x. \end{array} \right.
+L_{x} (N) = \frac{1}{N} I_{\{1, \ldots , N \}} (x) = \frac{1}{N} I_{\{x, x + 1, \ldots \}} (N) = \left\{\begin{array}{ll} 0 & \text{if} N <   x, \\ \frac{1}{N} & \text{if} N \geq x. \end{array} \right.
 $$
 
 Then clearly  $L_{x}(N)$  is maximized at  $N = x$ , so the MLE of  $N$  is  $\hat{N} = X$ .
@@ -3457,7 +3457,7 @@ for all  $N > 1$ . (Note that if  $N = 1$ , then both estimators have an MSE of 
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde{\theta} (X) = \left\{\begin{array}{l l} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3475,7 +3475,7 @@ where  $t_0,t_1\in \mathbb{R}$
 
 5. DeGroot & Schervish 8.8.14.
 
-6. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Bin}(1,\theta)$  , where  $0 <   \theta <  1$  and  $\theta$  is unknown.
+6. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Bin}(1,\theta)$  , where  $0 <   \theta < 1$  and  $\theta$  is unknown.
 
 (a) Find the Fisher information  $I(\theta)$  for the sample.  
 (b) We have shown before that the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = n^{-1}\sum_{i=1}^{n}X_{i}$ . Use your answer to part (a) to state the asymptotic distribution of  $\hat{\theta}$ . Does it agree with the result obtained by using the central limit theorem?
@@ -3483,7 +3483,7 @@ where  $t_0,t_1\in \mathbb{R}$
 7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$ , where the  $\operatorname{Pareto}(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{\begin{array}{l l} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3500,7 +3500,7 @@ Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde{\theta} (X) = \left\{\begin{array}{l l} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{ll} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3542,7 +3542,7 @@ so the weighted average MSE is minimized by taking  $t_0 = 1/3$  and  $t_1 = 2/3
 $\triangleright$  SOLUTION TO (d): By Theorem 5.2.6 from the notes, the weighted average MSE with weighting function  $w(\theta)$  is minimized by the posterior mean that results from a Bayesian analysis with prior  $\pi (\theta) = w(\theta)$ . Now note that  $w(\theta) = 1$  for  $0\leq \theta \leq 1$  is the pdf of a  $\operatorname{Beta}(1,1)$  distribution. Then we can simply reuse the result from Examples 4.2.1 and 4.3.1 of the notes, in which we found that the posterior mean of  $\theta$  for a  $\operatorname{Bin}(n,\theta)$  likelihood and a  $\operatorname{Beta}(a,b)$  prior on  $\theta$  is
 
 $$
-\hat{\theta} ^{B} (X) = E (\theta \mid X) = \frac{x + a}{n + a + b} = \frac{x + 1}{3} = \left\{\begin{array}{l l} 1 / 3 & \text{if} X = 0, \\ 2 / 3 & \text{if} X = 1, \end{array} \right.
+\hat{\theta} ^{B} (X) = E (\theta \mid X) = \frac{x + a}{n + a + b} = \frac{x + 1}{3} = \left\{\begin{array}{ll} 1 / 3 & \text{if} X = 0, \\ 2 / 3 & \text{if} X = 1, \end{array} \right.
 $$
 
 noting that  $n = a = b = 1$
@@ -3688,7 +3688,7 @@ A
 7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$  , where the Pareto  $(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{\begin{array}{l l} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{ll} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3815,7 +3815,7 @@ for all  $p > 0$ . You may use any of these facts without proof.
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f_{\lambda} (x) = \left\{\begin{array}{l l} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x <   0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
@@ -3886,7 +3886,7 @@ $$
 Then for all  $p\geq 6$
 
 $$
-\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) \leq \frac{2 p}{\pi (p - 2)} = \frac{2}{\pi} \left(1 - \frac{2}{p}\right) ^{- 1} \leq \frac{2}{\pi} \left(1 - \frac{2}{6}\right) ^{- 1} = \frac{3}{\pi} <   1.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) \leq \frac{2 p}{\pi (p - 2)} = \frac{2}{\pi} \left(1 - \frac{2}{p}\right) ^{- 1} \leq \frac{2}{\pi} \left(1 - \frac{2}{6}\right) ^{- 1} = \frac{3}{\pi} < 1.
 $$
 
 For  $p = 5$ , we have
@@ -3990,7 +3990,7 @@ Thus, the size of the test is  $(3 / 4)^n$ .
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f_{\lambda} (x) = \left\{\begin{array}{l l} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x <   0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{ll} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
@@ -4052,7 +4052,7 @@ A
 $\triangleright$  SOLUTION: Note that there are only four possible values of  $(X_{1},X_{2})$ , i.e., the sample space consists of only four points. If  $\theta = 1 / 3$ , then
 
 $$
-(X_{1}, X_{2}) = \left\{\begin{array}{l l} (0, 0) & \text{withprobability4/9,} \\ (0, 1) & \text{withprobability2/9,} \\ (1, 0) & \text{withprobability2/9,} \\ (1, 1) & \text{withprobability1/9.} \end{array} \right.
+(X_{1}, X_{2}) = \left\{\begin{array}{ll} (0, 0) & \text{withprobability4/9,} \\ (0, 1) & \text{withprobability2/9,} \\ (1, 0) & \text{withprobability2/9,} \\ (1, 1) & \text{withprobability1/9.} \end{array} \right.
 $$
 
 Thus, the only tests with size  $2/9$  exactly are the test that rejects  $H_0$  if and only if  $(X_1, X_2) = (0, 1)$  and the test that rejects  $H_0$  if and only if  $(X_1, X_2) = (1, 0)$ .

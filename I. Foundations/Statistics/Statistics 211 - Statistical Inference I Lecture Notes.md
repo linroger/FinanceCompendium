@@ -471,7 +471,7 @@ First, we prove the theorem from the end of last lecture. It should hopefully be
 Proof of Theorem 3.8. Let  $T'$  be another sufficient statistic for  $\theta$ . Then, for any  $x$  and  $y$  such that  $T'(x) = T'(y)$ , we have by the factorization theorem that
 
 $$
-\frac {f _ {\theta} (x)}{f _ {\theta} (y)} = \frac {g _ {\theta} (T ^ {\prime} (x)) h (x)}{g _ {\theta} (T ^ {\prime} (y)) h (y)} = \frac {h (x)}{h (y)}.
+\frac{f_{\theta} (x)}{f_{\theta} (y)} = \frac{g_{\theta} (T^{\prime} (x)) h (x)}{g_{\theta} (T^{\prime} (y)) h (y)} = \frac{h (x)}{h (y)}.
 $$
 
 This is free of  $\theta$ , so by the minimal sufficiency assumption,  $T(x) = T(y)$ . Therefore, we conclude that  $T(x)$  is a function of  $T'(x)$  because its fibers are at least as coarse.
@@ -481,7 +481,7 @@ Intuitively, another way of thinking about minimal sufficiency is that the fiber
 Example 4.1. Let  $Y_{1},\ldots ,Y_{n}\sim \mathcal{N}(\mu ,\sigma^{2})$  . Then, using the normal distribution density,
 
 $$
-\frac {f _ {\theta} (x)}{f _ {\theta} (y)} = \exp \left[ - \frac {1}{2 \sigma^ {2}} \left(\sum_ {i} x _ {i} ^ {2} - \sum_ {i} y _ {i} ^ {2}\right) + \frac {\mu}{\sigma^ {2}} \left(\sum_ {i} x _ {i} - \sum_ {i} y _ {i}\right) \right].
+\frac{f_{\theta} (x)}{f_{\theta} (y)} = \exp \left[ - \frac{1}{2 \sigma^2} \left(\sum_i x_i^2 - \sum_i y_i^2\right) + \frac{\mu}{\sigma^2} \left(\sum_i x_i - \sum_i y_i\right) \right].
 $$
 
 This quotient of probability densities is independent of our parameters  $(\mu, \sigma)$  if and only if the first and second empirical moments for  $x$  and  $y$  are equal. Therefore,  $T(y) = \left(\sum_{i} y_{i}^{2}, \sum_{i} y_{i}\right)$  is minimal.
@@ -493,7 +493,7 @@ There is a different but related special case of sufficiency that we describe no
 Definition 4.2 (Complete sufficient statistic). A sufficient statistic  $T(\theta)$  for  $\theta$  is called complete if the only unbiased estimator of zero that is a function of  $T$  is the zero function. More precisely, if for all  $\theta$ ,
 
 $$
-\mathbf {E} _ {\theta} \left[ h (T (Y)) \right] = 0,
+\mathbf{E}_{\theta} \left[ h (T (Y)) \right] = 0,
 $$
 
 then  $h(T) = 0$  almost surely.
@@ -503,7 +503,7 @@ This means that any function whose expectation is independent of  $\theta$  must
 Example 4.3. Consider i.i.d. Bernoulli random variables. Consider  $T(y) = \sum_{i=1}^{n} y_i$ , the sum of these random variables, which is a sufficient statistic for the Bernoulli parameter  $p$ . It is also complete sufficient, since if there is a function  $h(T)$  such that  $\mathbf{E}_p[h(T)] = 0$  for all  $p \in (0,1)$ , then
 
 $$
-\sum_ {k = 0} ^ {n} h (k) \binom {n} {k} p ^ {k} (1 - p) ^ {n - k} = 0.
+\sum_{k = 0}^{n} h (k) \binom{n}{k} p^k (1 - p)^{n - k} = 0.
 $$
 
 This is an  $n$ -th degree polynomial in  $\frac{p}{1 - p} \in (0, \infty)$ . For this to vanish at all values of  $p$ , each coefficient must be zero, so  $h(k) = 0$  for all  $k$ .

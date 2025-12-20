@@ -700,13 +700,13 @@ We can verify in the above representation that indeed,  $B_{1} \perp B_{2}$ . Th
 Example 7.3. Let's try to compute the mean of the beta distribution. Note that independent random variables are uncorrelated, so by definition
 
 $$
-\frac {G _ {\alpha}}{G _ {\alpha} + G _ {\beta}} \perp G _ {\alpha} + G _ {\beta} \Rightarrow \mathbf {E} \left[ \frac {G _ {\alpha}}{G _ {\alpha} + G _ {\beta}} \right] \mathbf {E} \left[ G _ {\alpha} + G _ {\beta} \right] = \mathbf {E} \left[ G _ {\alpha} \right].
+\frac{G_{\alpha}}{G_{\alpha} + G_{\beta}} \perp G_{\alpha} + G_{\beta} \Rightarrow \mathbf{E} \left[\frac{G_{\alpha}}{G_{\alpha} + G_{\beta}} \right] \mathbf{E} \left[G_{\alpha} + G_{\beta} \right] = \mathbf{E} \left[G_{\alpha} \right].
 $$
 
 Rearranging this equation yields
 
 $$
-\mathbf {E} \left[ \frac {G _ {\alpha}}{G _ {\alpha} + G _ {\beta}} \right] = \frac {\mathbf {E} \left[ G _ {\alpha} \right]}{\mathbf {E} \left[ G _ {\alpha} + G _ {\beta} \right]} = \frac {\alpha}{\alpha + \beta}.
+\mathbf{E} \left[\frac{G_{\alpha}}{G_{\alpha} + G_{\beta}} \right] = \frac{\mathbf{E} \left[G_{\alpha} \right]}{\mathbf{E} \left[G_{\alpha} + G_{\beta} \right]} = \frac{\alpha}{\alpha + \beta}.
 $$
 
 # 7.2 The Normal Distribution and Box-Muller
@@ -716,11 +716,11 @@ Recall some basic properties of the normal distribution. If  $Z_{1} \sim \mathca
 Proposition 7.4 (Box-Muller transform). If  $U_{1}, U_{2} \sim \mathrm{Unif}$  and  $U_{1} \perp U_{2}$ , then define
 
 $$
-Z _ {1} = \sqrt {- 2 \log U _ {1}} \cos (2 \pi U _ {2}),
+Z_{1} = \sqrt{-2 \log U_{1}} \cos(2 \pi U_{2}),
 $$
 
 $$
-Z _ {2} = \sqrt {- 2 \log U _ {1}} \sin (2 \pi U _ {2}).
+Z_{2} = \sqrt{-2 \log U_{1}} \sin(2 \pi U_{2}).
 $$
 
 It follows that  $Z_{1}, Z_{2}$  are i.i.d.  $\sim \mathcal{N}(0,1)$ .

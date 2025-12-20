@@ -319,7 +319,7 @@ $$
 Then we can apply Itô's Lemma to  $Y_{t} \coloneqq \exp (\gamma t)X_{t}$  to obtain
 
 $$
-\begin{array}{l} d Y _ {t} = \exp (\gamma t) d X _ {t} + X _ {t} d (\exp (\gamma t)) \\ = \exp (\gamma t) \left[ \left[ - \gamma \left(X _ {t} - \mu t\right) + \mu \right] d t + \sigma d W _ {t}\right) + X _ {t} \gamma \exp (\gamma t) d t \\ = \exp (\gamma t) ([ \gamma \mu t + \mu ] d t + \sigma d W _ {t}) \\ \end{array}
+\begin{array}{l} d Y_{t} = \exp (\gamma t) d X_{t} + X_{t} d (\exp (\gamma t)) \\ = \exp (\gamma t) \left[ \left[ - \gamma \left(X_{t} - \mu t\right) + \mu \right] d t + \sigma d W_{t}\right] + X_{t} \gamma \exp (\gamma t) d t \\ = \exp (\gamma t) ([ \gamma \mu t + \mu ] d t + \sigma d W_{t}) \\ \end{array}
 $$
 
 so that

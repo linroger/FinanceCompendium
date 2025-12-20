@@ -367,7 +367,7 @@ $$
 Now, it should be clear that equation (3) and the formula for delta are true:
 
 $$
-S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} = X e^{- r T} \frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \text { a n d} \frac{\partial c}{\partial S} = N \left(d_{1}\right)
+S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} = X e^{- r T} \frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \text{ and } \frac{\partial c}{\partial S} = N \left(d_{1}\right)
 $$
 
 # Gamma
