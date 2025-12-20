@@ -3615,7 +3615,7 @@ Rather than choosing a fixed scale, one can integrate over all scales, as shown 
 Theorem 1.1. Assume that all  $\mathcal{F}_{x_{1:n}}\subset \mathbb{R}^n$ . Let  $\hat{\Re}_n(\mathcal{F})$  be the empirical Rademacher number of  $\mathcal{F}$  on  $x_{1:n}$ . We have:
 
 $$
-\hat {\mathfrak {R}}_{n} (\mathcal {F}) \leq \inf_{\alpha \geq 0} \left(4 \alpha + 1 2 \int_{\alpha}^{\infty} \sqrt{\frac{\log N_{2} (\epsilon , \mathcal {F} , x_{1 : n})}{n}} d \epsilon\right)
+\hat {\mathfrak {R}}_{n} (\mathcal {F}) \leq \inf_{\alpha \geq 0} \left(4 \alpha + 12 \int_{\alpha}^{\infty} \sqrt{\frac{\log N_{2} (\epsilon , \mathcal {F} , x_{1 : n})}{n}} d \epsilon\right)
 $$
 
 This theorem is subtly different from the discretization theorem. It is stated in terms of the 2-norm covering number rather than the 1-norm covering number. Also note that we do not restrict the range of  $f \in \mathcal{F}$ .

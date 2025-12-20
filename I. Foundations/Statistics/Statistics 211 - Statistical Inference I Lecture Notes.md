@@ -523,7 +523,7 @@ Proposition 4.5. If a minimal sufficient statistic for some parameter  $\theta$ 
 Proof. Let  $T$  and  $M$  be sufficient statistics such that  $T$  is complete and  $M$  is minimal. We would like to prove that  $T$  is also minimal. The key observation is to consider the function
 
 $$
-h (T) = \mathbf {E} _ {\theta} [ T \mid M ] - T.
+h (T) = \mathbf{E}_{\theta} [ T \mid M ] - T.
 $$
 
 This is well-defined, since  $T$  is a function of  $M$  because  $M$  is a minimal sufficient statistic. Note that  $\mathbf{E}_{\theta}[h(T)] = 0$  by the law of iterated expectation. Since  $T$  is complete, we know that  $h(T) = 0$  almost surely, and the equality case of Theorem 3.6 implies that  $T$  is a function of  $M$ .
@@ -545,7 +545,7 @@ Proof. Let  $W$  and  $\tilde{W}$  be two unbiased estimators of  $g(\theta)$ , 
 Let  $h(T) = \phi (T) - \tilde{\phi} (T)$ , which means that  $\mathbf{E}_{\theta}[h(T)] = 0$ . By complete sufficiency,  $\phi (T) = \tilde{\phi} (T)$  almost surely. Now, assume for the sake of contradiction that  $W$  and  $\tilde{W}$  are both UMVUEs, and that  $W$  is a function of  $T$ , but  $\tilde{W}$  is not a function of  $T$ . Then,  $W = \phi$ , but
 
 $$
-\mathbf {V a r} _ {\boldsymbol {\theta}} \left[ W \right] = \mathbf {V a r} _ {\boldsymbol {\theta}} \left[ \phi \right] = \mathbf {V a r} _ {\boldsymbol {\theta}} \left[ \tilde {\phi} \right] \leq \mathbf {V a r} _ {\boldsymbol {\theta}} \left[ \tilde {W} \right] <   \mathbf {V a r} _ {\boldsymbol {\theta}} \left[ W \right].
+\mathbf{Var}_{\boldsymbol{\theta}} \left[ W \right] = \mathbf{Var}_{\boldsymbol{\theta}} \left[ \phi \right] = \mathbf{Var}_{\boldsymbol{\theta}} \left[ \tilde{\phi} \right] \leq \mathbf{Var}_{\boldsymbol{\theta}} \left[ \tilde{W} \right] <   \mathbf{Var}_{\boldsymbol{\theta}} \left[ W \right].
 $$
 
 This is a contradiction, so any unbiased estimator of  $g(\theta)$  is a UMVUE. Furthermore, this is unique, since we can just apply the Rao-Blackwell sledgehammer to arrive at a contradiction if multiple UMVUEs exist.
@@ -561,7 +561,7 @@ Recall that Proposition 4.5 implies that if the minimal and complete sufficient 
 Example 5.1. Let  $Y_{1}, \ldots, Y_{n} \sim \mathrm{Pois}(\lambda)$ . Then, we know that  $T = \sum_{i=1}^{n} Y_{i}$  is a complete sufficient statistic for  $\lambda$ . Note that  $Y_{1}$  is an unbiased estimator for  $\lambda$ , and  $Y_{1} \mid T \sim \mathrm{Bin}(T, \frac{1}{n})$ , so
 
 $$
-\mathbf {E} _ {\lambda} \left[ Y _ {1} \mid T \right] = \frac {T}{n}
+\mathbf{E}_{\lambda} \left[ Y_1 \mid T \right] = \frac{T}{n}
 $$
 
 is an unbiased estimator of  $\lambda$  that is a function of the CSS  $T$ , so it is the unique UMVUE for  $\lambda$ .

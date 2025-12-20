@@ -1575,7 +1575,7 @@ This  $R_{flat}$  vector has length  $M \times N$ , where M is the number of pro
 Now, we can define a selection function  $S_K$  that selects the indices of the K highest values in  $R_{flat}$ :
 
 $$
-S _ {K} (R _ {\text {f l a t}}) = \operatorname {a r g s o r t} (R _ {\text {f l a t}}) [ - K: ]
+S_{K} (R_{\text{flat}}) = \operatorname{argsort} (R_{\text{flat}}) [-K:]
 $$
 
 where argsort returns the indices that would sort the array in ascending order, and we take the last K indices to get the K highest values.
@@ -1585,7 +1585,7 @@ To get our selected completions, we need to map these flattened indices back to 
 10.1.2.3 Selection Example Consider the case where we have the following situation, with 5 prompts and 4 completions. We will show two ways of selecting the completions based on reward.
 
 $$
-R = \left[ \begin{array}{l l l l} 0. 7 & 0. 3 & 0. 5 & 0. 2 \\ 0. 4 & 0. 8 & 0. 6 & 0. 5 \\ 0. 9 & 0. 3 & 0. 4 & 0. 7 \\ 0. 2 & 0. 5 & 0. 8 & 0. 6 \\ 0. 5 & 0. 4 & 0. 3 & 0. 6 \end{array} \right]
+R = \left[ \begin{array}{llll} 0.7 & 0.3 & 0.5 & 0.2 \\ 0.4 & 0.8 & 0.6 & 0.5 \\ 0.9 & 0.3 & 0.4 & 0.7 \\ 0.2 & 0.5 & 0.8 & 0.6 \\ 0.5 & 0.4 & 0.3 & 0.6 \end{array} \right]
 $$
 
 First, per prompt. Intuitively, we can highlight the reward matrix as follows:

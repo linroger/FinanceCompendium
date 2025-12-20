@@ -337,7 +337,7 @@ $$
 Once again, note that  $X_{t}$  does not appear on the right-hand-side of (15) so that we have indeed solved the SDE. We also obtain  $\operatorname{E}[X_t] = X_0 e^{-\gamma t} + \mu t$  and
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(X _ {t}\right) = \operatorname {V a r} \left(\sigma e ^ {- \gamma t} \int_ {0} ^ {t} e ^ {\gamma s} d W _ {s}\right) = \sigma^ {2} e ^ {- 2 \gamma t} \operatorname {E} \left[ \left(\int_ {0} ^ {t} e ^ {\gamma s} d W _ {s}\right) ^ {2} \right] \\ = \sigma^ {2} e ^ {- 2 \gamma t} \int_ {0} ^ {t} e ^ {2 \gamma s} d s \quad (\text {b y I t o ' s l s o m e t r y}) \\ = \frac {\sigma^ {2}}{2 \gamma} \left(1 - e ^ {- 2 \gamma t}\right). \\ \end{array}
+\begin{array}{l} \operatorname{Var} \left(X_{t}\right) = \operatorname{Var} \left(\sigma e^{- \gamma t} \int_{0}^{t} e^{\gamma s} d W_{s}\right) = \sigma^{2} e^{- 2 \gamma t} \operatorname{E} \left[ \left(\int_{0}^{t} e^{\gamma s} d W_{s}\right)^{2} \right] \\ = \sigma^{2} e^{- 2 \gamma t} \int_{0}^{t} e^{2 \gamma s} d s \quad (\text{by Ito's Isometry}) \\ = \frac{\sigma^{2}}{2 \gamma} \left(1 - e^{- 2 \gamma t}\right). \\ \end{array}
 $$
 
 These moments should be compared with the corresponding moments for  $\log (S_t)$  in the previous example.
