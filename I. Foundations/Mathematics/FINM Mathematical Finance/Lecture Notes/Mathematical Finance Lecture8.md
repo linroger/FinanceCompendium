@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 8: The Cameron-Martin Formula and Barrier Options"
-tags:
+title: 'Lecture 8: The Cameron-Martin Formula and Barrier Options'
+tags: null
 aliases:
-  - The Cameron-Martin Formula and Barrier Options
+- The Cameron-Martin Formula and Barrier Options
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 8: The Cameron-Martin Formula and Barrier Options"
+linter-yaml-title-alias: 'Lecture 8: The Cameron-Martin Formula and Barrier Options'
+primary_tags:
+- exponential martingale
+- geometric brownian motion
+- subsequent lecture
+secondary_tags:
+- several exotic options
+- cameron martin formula
+- cameron martin introduction
+- certain threshold value
+- driving brownian motion
+- brownian motion
+tags_extracted: '2025-12-18T17:58:15.284513'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 8: THE CAMERON-MARTIN FORMULA AND BARRIER OPTIONS

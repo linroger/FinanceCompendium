@@ -1,3 +1,34 @@
+---
+title: Chapter 15 - The Ultimate Tourist Guide to Bondistan
+tags:
+  - fixed_income
+  - bonds
+  - treasury
+  - derivatives
+  - credit
+  - swaps
+  - futures
+  - mbs
+  - tips
+  - yield_curve
+  - duration
+  - convexity
+  - credit_risk
+parent_directory: IV. Fixed Income
+key_concepts:
+  - bond_mathematics
+  - duration_convexity
+  - yield_curve_analysis
+  - credit_spreads
+  - interest_rate_risk
+  - swap_valuation
+  - futures_hedging
+  - mortgage_backed_securities
+  - inflation_protection
+  - forward_rates
+cssclasses: academia
+---
+
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/48dbe13e3e3904ebc9f2875ec836d1c3cd4b386e481cd5dcdb66578fb7b341f1.jpg)
 
 # The Ultimate Tourist Guide to Bondistan
@@ -210,12 +241,12 @@ On Bloomberg there's an ancient screen called PFI<GO> that lets you look at comp
 Compounding means one cashflow is grown at an assumed rate for the remaining life of the investment.
 
 $$
-F V = P V ^ {*} [ 1 + (y / f) ] ^ {n}
+FV = PV^{*}[1 + (y/f)]^n
 $$
 
 y = annual percentage yield
 
-$f =$  frequency of payouts (annual = 1, semi = 2, etc)
+$f$ = frequency of payouts (annual = 1, semi = 2, etc)
 
 $n =$  number of periods to reinvest. This is directly affected by f.
 
@@ -277,11 +308,11 @@ $$
 
 If I know a future cashflow amount (FV) and the rate I'm reinvesting my money in (y), I can figure out what that future cashflow is in today's terms. This is basically how you derive a bond's price based on yield.
 
-The term  $[1 + (y / f)]^n$  is what I am DISCOUNTING the future cashflows by.
+The term  $[1 + (y/f)]^n$  is what I am DISCOUNTING the future cashflows by.
 
-If you assume the future cashflow is \(1, then discounting it to present gives me a DISCOUNT FACTOR for every future dollar. We can then easily use this DF to then discount whatever notional value of cashflows we have (i.e., quickly discount any number of bonds we have in a portfolio).
+If you assume the future cashflow is $1$, then discounting it to present gives me a DISCOUNT FACTOR for every future dollar. We can then easily use this DF to then discount whatever notional value of cashflows we have (i.e., quickly discount any number of bonds we have in a portfolio).
 
-Discount Factor  $(\mathrm{DF}) = 1 / [1 + (\mathrm{y} / \mathrm{f})]^{\mathrm{n}}$
+Discount Factor  $\text{DF} = 1/[1 + (y/f)]^n$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/2e198c4d65f09f9248bd496afa32a31418635d2ba41dbd8c2cf2d57abfdd44b3.jpg)
 

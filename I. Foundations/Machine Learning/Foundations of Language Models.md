@@ -1,11 +1,44 @@
 ---
 parent_directory: Machine Learning
-title: "Foundations of Large Language Models"
-tags:
+title: Foundations of Large Language Models
+tags: null
 aliases:
-  - "Foundations of Language Models"
-  - "Large Language Models"
+- Foundations of Language Models
+- Large Language Models
 cssclasses: academia
+primary_tags:
+- evaluation methods
+- specific examples
+- longer inputs
+- larger language models
+- well-trained llm
+- simplest approaches
+- more general discussion
+- model gradient
+secondary_tags:
+- model's processing capabilities
+- new dataset
+- two segments
+- attentive language models
+- classification tasks
+- above prompt
+- too much reading difficulty
+- many studies
+- iterative methods
+- performance metrics
+- input fields
+- positional embedding model
+- broad concept
+- broad instruction-following mappings
+- llm-generated instructions
+- intermediate step
+- optimization systems
+- approach works
+- probabilities implementation
+- real-world problems
+- high-quality outputs
+tags_extracted: '2025-12-18T17:55:29.462717'
+tags_method: max_quality_v1
 ---
 
 # Foundations of Large Language Models

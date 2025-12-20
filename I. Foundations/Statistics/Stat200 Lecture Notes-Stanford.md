@@ -1,3 +1,32 @@
+---
+primary_tags:
+- success/failure probability
+- some basic statistical concepts
+- univariate expectations
+- two particularly important statistics
+- observed value
+- possible values
+secondary_tags:
+- one or more unknown parameters
+- sample mean
+- likelihood ratio statistic
+- some calculations
+- more than one random variable
+- every other sufficient statistic
+- different log-likelihoods
+- likelihood estimation
+- pareto distribution
+- likelihood many
+- both a random variable
+- sample values
+- prior variance
+- hypothesis value
+- exponential likelihood
+- actual random variables
+tags_extracted: '2025-12-18T18:00:40.057488'
+tags_method: max_quality_v1
+---
+
 # Lecture 0: Course Introduction
 
 We begin the course with an overview of the ideas and themes to be discussed this quarter.

@@ -1,12 +1,19 @@
 ---
 aliases:
-  - The Instruments of Trade Policy
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- The Instruments of Trade Policy
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 09: The Instruments of Trade Policy"
-linter-yaml-title-alias: "Chapter 09: The Instruments of Trade Policy"
+title: 'Chapter 09: The Instruments of Trade Policy'
+linter-yaml-title-alias: 'Chapter 09: The Instruments of Trade Policy'
+primary_tags:
+- trade policy instruments
+- effects tariff
+secondary_tags:
+- effects trade policy summary
+- trade policy
+tags_extracted: '2025-12-18T01:46:55.260495'
 ---
 
 # Chapter 09 The Instruments of Trade Policy

@@ -1,3 +1,15 @@
+---
+primary_tags:
+- evidence robert feenstra university
+- marginal labor costs contents
+secondary_tags:
+- advanced international trade theory
+- trade theory evidence
+- trade theory empirical
+- recent research international trade
+tags_extracted: '2025-12-18T00:15:19.718693'
+---
+
 # Advanced International Trade: Theory and Evidence
 
 (c) Robert C. Feenstra

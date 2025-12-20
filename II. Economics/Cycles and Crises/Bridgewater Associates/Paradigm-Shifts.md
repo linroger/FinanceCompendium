@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Paradigm Shifts
-tags:
-key_concepts:
+- Paradigm Shifts
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
 title: Paradigm Shifts
 linter-yaml-title-alias: Paradigm Shifts
+primary_tags:
+- cash demand
+- easing paradigm rate cuts
+- paradigm shifts investment principles
+- central banks economic forces
+- 1980s falling inflation
+secondary_tags:
+- 1970s inflation hedge assets
+- paradigm shift explain
+- economic paradigms
+- buying financial assets paradigm
+- end decade fed
+- paradigm shift debtors
+- easing paradigm rate
+- inflation obvious cause pinch
+- currencies weakening facto wealth
+- paradigm characterized large debt
+- likely monetary policy shifts
+- inflation led big paradigm
+tags_extracted: '2025-12-18T00:04:39.459803'
 ---
 
 # Paradigm Shifts

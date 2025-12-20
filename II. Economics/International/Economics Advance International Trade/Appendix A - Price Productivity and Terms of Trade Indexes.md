@@ -1,3 +1,22 @@
+---
+primary_tags:
+- family indexed theoretical gdp
+- productivity terms trade indexes
+- cost function indexed period
+- appendix price productivity
+secondary_tags:
+- theoretical price indexes laspeyres
+- paasche quantity index empirical
+- index formula depending prices
+- factor productivity geometric
+- price index total factor
+- formula like econometrics understanding
+- appendix measuring countries bilateral
+- book relied index numbers
+- geometric mean price ratios
+tags_extracted: '2025-12-18T00:14:09.517219'
+---
+
 # Appendix A: Price, Productivity and Terms of Trade Indexes
 
 At various points throughout this book we have relied on index numbers to measure prices or total factor productivity. There is a good deal of theory, dating back more than a hundred years, that we can rely on to guide us in the choice of index number formula. Like econometrics, an understanding of index numbers can be very helpful in empirical research. Unlike econometrics, these methods are seldom taught. So in this Appendix we present a self-contained treatment of index numbers, focusing on price indexes.

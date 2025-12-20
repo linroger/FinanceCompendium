@@ -1,3 +1,26 @@
+---
+primary_tags:
+- demand curve foreign home
+- market firm marginal cost
+- firms produce goods differentiated
+- markets effects trade cost
+- world market firms produce
+secondary_tags:
+- explain firms engage global
+- firms internal economies
+- differentiation lead international trade
+- firms respond differently international
+- figure equilibrium automobile market
+- economy exporting sourcing intermediate
+- effects larger market
+- production decisions monopolistic firm
+- foreign sourcing decisions multinational
+- produced monopolistically competitive
+- foreign direct investment economies
+- integrating markets creates market
+tags_extracted: '2025-12-18T00:51:59.920248'
+---
+
 # FIRMS IN THE GLOBAL ECONOMY: EXPORT AND FOREIGN SOURCING DECISIONS AND MULTINATIONAL ENTERPRISES
 
 In this chapter, we continue to explore how economies of scale generate incentives for international specialization and trade. We now focus on economies of scale that are internal to the firm. As mentioned in Chapter 7, this form of increasing returns leads to a market structure that features imperfect competition. Internal economies of scale imply that a firm's average cost of production decreases the more output it produces. Perfect competition that drives the price of a good down to marginal cost would imply losses for those firms because they would not be able to recover the higher costs incurred from producing the initial units of output.<sup>1</sup> As a result, perfect competition would force those firms out of the market, and this process would continue until an equilibrium featuring imperfect competition is attained.

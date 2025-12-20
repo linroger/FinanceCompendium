@@ -1,3 +1,14 @@
+---
+primary_tags:
+- functions cardinality
+- proofs sets
+secondary_tags:
+- learning mathematical topics
+- split chapters
+tags_extracted: '2025-12-18T17:57:27.482794'
+tags_method: max_quality_v1
+---
+
 # Everything You Always Wanted to Know About Mathematics
 
 This directory contains the split chapters from "Everything You Always Wanted to Know About Mathematics" by Brendan W. Sullivan.

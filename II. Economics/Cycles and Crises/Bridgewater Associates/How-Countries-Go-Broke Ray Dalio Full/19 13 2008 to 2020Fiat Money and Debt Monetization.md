@@ -1,9 +1,22 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 19_13_2008_to_2020Fiat_Money_and_Debt_Monetization
+primary_tags:
+- private sector debt problems
+- debt crisis
+- interest rates
+secondary_tags:
+- debt monetization
+- global financial crisis
+- global crisis
+- free-market demand
+- money printing
+- private market lending
+tags_extracted: '2025-12-18T18:03:58.398302'
+tags_method: max_quality_v1
 ---
 
 # 19_13_2008_to_2020Fiat_Money_and_Debt_Monetization

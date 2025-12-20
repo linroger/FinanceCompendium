@@ -1,16 +1,22 @@
 ---
-aliases:
-  - Mutual Funds and Other Investment Companies
+title: "Chapter 04 - Mutual Funds and Other Investment Companies"
 tags:
+  - mutual_funds
+  - investment_companies
+  - net_asset_value
+  - exchange_traded_funds
+  - portfolio_management
 key_concepts:
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
+  - "Investment companies and their functions"
+  - "Net asset value (NAV) calculation"
+  - "Types of investment companies: UITs, closed-end, open-end"
+  - "Mutual fund investment policies and costs"
+  - "Exchange-traded funds (ETFs) characteristics"
+parent_directory: "V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction"
 cssclasses: academia
-title: "Chapter 4: Mutual Funds and Other Investment Companies"
 ---
 
-# Mutual Funds and Other Investment Companies
-
-# 4
+# Chapter 04 - Mutual Funds and Other Investment Companies
 
 THE PREVIOUS CHAPTER introduced you to the mechanics of trading securities and the structure of the markets in which they trade. Commonly, however, individual investors do not trade securities directly for their own accounts. Instead, they direct their funds to investment companies that purchase securities on their behalf. The most important of these financial intermediaries are mutual funds and exchange-traded funds, to which we devote most of this chapter. We also touch briefly on other types of investment companies.
 
@@ -33,20 +39,20 @@ Investment companies perform several important functions for their investors:
 While investment companies pool assets of individual investors, they also need to divide claims to those assets among those investors. Investors buy shares in investment companies, and ownership is proportional to the number of shares purchased. The value of each share is called the net asset value (NAV). Net asset value equals assets minus liabilities expressed on a per-share basis:
 
 $$
-\text {N e t a s s e t v a l u e} = \frac {\text {M a r k e t v a l u e o f a s s e t s - L i a b i l i t i e s}}{\text {S h a r e s o u t s t a n d i n g}}
+\text{Net asset value} = \frac{\text{Market value of assets - Liabilities}}{\text{Shares outstanding}}
 $$
 
-# Example 4.1 Net Asset Value
+**Example 4.1 Net Asset Value**
 
 Consider a mutual fund that manages a portfolio of securities worth  \$120 million. Suppose the fund owes\$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
 
 $$
-\text {N e t a s s e t v a l u e} = \frac {\mathbb {S} 1 2 0 \text {m i l l o n - S 5 m i l l o n}}{5 \text {m i l l o n s h a r e s}} = \mathbb {S} 2 3 \text {p e r s h a r e}
+\text{Net asset value} = \frac {\$120 \text{million} - \$5 \text{million}}{5 \text{million shares}} = \$23 \text{per share}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/90e1ba7d620b78699b954f2cacd8765261c5333ce9b8433b623c13c00e5d0de0.jpg)
 
-# Concept Check 4.1
+**Concept Check 4.1**
 
 Consider these data from the October 2021 annual report of Fidelity's Focused Stock Fund. (All values are in millions.) What was the net asset value of the fund?
 
@@ -56,24 +62,24 @@ Liabilities: 81.8
 
 Shares: 101.1
 
-# 4.2 Types of Investment Companies
+## 4.2 Types of Investment Companies
 
 In the United States, investment companies are classified by the Investment Company Act of 1940 as either unit investment trusts or managed investment companies. The portfolios of unit investment trusts are essentially fixed and thus are called "unmanaged." In contrast, managed companies are so named because securities in their investment portfolios are continually bought and sold: The portfolios are managed. Managed companies are further classified as either closed-end or open-end. Open-end companies are what we commonly call mutual funds.
 
 
-# Unit Investment Trusts
+### Unit Investment Trusts
 
 Unit investment trusts are pools of money invested in a portfolio that is fixed for the life of the fund. To form a unit investment trust, a sponsor, typically a brokerage firm, buys a portfolio of securities that are deposited into a trust. It then sells shares, or "units," in the trust, called redeemable trust certificates. All income and payments of principal from the portfolio are paid out by the fund's trustees (a bank or trust company) to the shareholders.
 
 There is little active management of a unit investment trust because once established, the portfolio composition is fixed; hence, these trusts are referred to as unmanaged. Trusts tend to invest in relatively uniform types of assets; for example, one trust may invest in municipal bonds, another in corporate bonds. The uniformity of the portfolio is consistent with the lack of active management. The trusts provide investors a vehicle to purchase a pool of one particular type of asset that can be included in an overall portfolio as desired.
 
-Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  \$5 million of assets may sell 5,000 shares to the public at a price of\$ 1,030 per share, which (assuming the trust has no liabilities) represents a  $3\%$  premium over the net asset value of the securities held by the trust. The  $3\%$  premium is the trustee's fee for establishing the trust.
+Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  \$5 million of assets may sell 5,000 shares to the public at a price of\$ 1,030 per share, which (assuming the trust has no liabilities) represents a $3\%$ premium over the net asset value of the securities held by the trust. The $3\%$ premium is the trustee's fee for establishing the trust.
 
-Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  \$105 billion in 1990 to only\$ 78 billion in 2021.
+Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  \$105 billion in 1990 to only \$78 billion in 2021.
 
-# Managed Investment Companies
+### Managed Investment Companies
 
-There are two types of managed companies: closed-end and open-end. In both cases, the fund's board of directors, which is elected by shareholders, hires a management company to manage the portfolio for an annual fee that typically ranges from  $.2\%$  to  $1.25\%$  of assets. In many cases the management company is the firm that organized the fund. For example, Fidelity Management and Research Corporation sponsors many Fidelity mutual funds and is responsible for managing the portfolios. It assesses a management fee on each Fidelity fund. In other cases, a mutual fund will hire an outside portfolio manager. For example, Vanguard has hired Wellington Management as the investment adviser for its Wellington Fund. Most management companies have contracts to manage several funds.
+There are two types of managed companies: closed-end and open-end. In both cases, the fund's board of directors, which is elected by shareholders, hires a management company to manage the portfolio for an annual fee that typically ranges from  $0.2\%$ to $1.25\%$  of assets. In many cases the management company is the firm that organized the fund. For example, Fidelity Management and Research Corporation sponsors many Fidelity mutual funds and is responsible for managing the portfolios. It assesses a management fee on each Fidelity fund. In other cases, a mutual fund will hire an outside portfolio manager. For example, Vanguard has hired Wellington Management as the investment adviser for its Wellington Fund. Most management companies have contracts to manage several funds.
 
 Open-end funds stand ready to redeem or issue shares at their net asset value (although both purchases and redemptions may involve sales charges). When investors in open-end funds wish to "cash out" their shares, they sell them back to the fund at NAV. In contrast, closed-end funds do not redeem or issue shares. Investors who wish to cash out must sell their shares to other investors. Shares of closed-end funds are traded on organized exchanges and can be purchased through brokers just like other
 
@@ -94,7 +100,7 @@ Figure 4.1 lists a few closed-end funds. The first column gives the name and tic
 The common divergence of price from net asset value, often by wide margins, is a puzzle that has yet to be fully explained. To see why this is a puzzle, consider a closed-end fund selling for less than net asset value. By selling all the assets in the portfolio, the fund would realize proceeds equal to net asset value, thus immediately increasing the wealth of its investors. Despite this apparent profit opportunity, sizable discounts seem to persist for long periods of time.
 
 
-Moreover, fund premiums or discounts tend to dissipate over time, so funds selling at a discount receive a boost to their rate of return as the discount shrinks. Pontiff estimates that a fund selling at a  $20\%$  discount would have an expected 12-month return more than  $6\%$  greater than funds selling at net asset value.
+Moreover, fund premiums or discounts tend to dissipate over time, so funds selling at a discount receive a boost to their rate of return as the discount shrinks. Pontiff estimates that a fund selling at a $20\%$ discount would have an expected 12-month return more than $6\%$ greater than funds selling at net asset value.
 
 Interestingly, while many closed-end funds sell at a discount from net asset value, the prices of these funds when originally issued are often above NAV. This is a further puzzle, as it is hard to explain why investors would purchase these newly issued funds at a premium to NAV when the shares tend to fall to a discount shortly after issue.
 
@@ -102,7 +108,7 @@ In contrast to closed-end funds, the price of open-end funds will never fall bel
 
 Unlike closed-end funds, open-end mutual funds do not trade on organized exchanges. Instead, investors simply buy shares from and liquidate through the investment company at net asset value. Thus, the number of outstanding shares of these funds changes daily. In 2021, about 280 billion of assets were held in closed-end funds.
 
-# Exchange-Traded Funds
+### Exchange-Traded Funds
 
 Exchange-traded funds (ETFs) are similar in several respects to open-end mutual funds. Like mutual funds, most ETFs are classified and regulated as investment companies. Also like mutual funds, they offer investors a prorated ownership share of a portfolio of stocks, bonds, or other assets and report net asset value each day.
 
@@ -110,7 +116,7 @@ However, in contrast to mutual funds, where investors buy and redeem shares dire
 
 ETFs were first issued in the United States in 1993 and until about 2008, offered exclusively portfolios designed to track various market indexes. While indexed ETFs still dominate the market, they have since been joined by hundreds of actively managed funds. The ETF market has experienced tremendous growth: By early 2022, ETFs with over 5.4 trillion in assets under management traded in the United States. We discuss these securities in more detail later in the chapter.
 
-# Other Investment Organizations
+### Other Investment Organizations
 
 Some intermediaries are not formally organized or regulated as investment companies but nevertheless serve similar functions. Three of the more important are commingled funds, real estate investment trusts, and hedge funds.
 
@@ -118,7 +124,7 @@ Commingled Funds Commingled funds are partnerships of investors that pool funds.
 
 Commingled funds are similar in form to open-end mutual funds. Instead of shares, though, the fund offers units, which are bought and sold at net asset value. A bank or insurance company may offer an array of different commingled funds, for example, a money market fund, a bond fund, and a common stock fund.
 
-Real Estate Investment Trusts (REITs) A REIT is similar to a closed-end fund. REITs invest in real estate or loans secured by real estate. Besides issuing shares, they raise capital by borrowing from banks and issuing bonds or mortgages. Most of them are highly leveraged, with a typical debt ratio of  $70\%$ .
+Real Estate Investment Trusts (REITs) A REIT is similar to a closed-end fund. REITs invest in real estate or loans secured by real estate. Besides issuing shares, they raise capital by borrowing from banks and issuing bonds or mortgages. Most of them are highly leveraged, with a typical debt ratio of $70\%$ .
 
 There are two principal kinds of REITs. Equity trusts invest in real estate directly, whereas mortgage trusts invest primarily in mortgage and construction loans. REITs generally are established by banks, insurance companies, or mortgage companies, which then serve as investment managers to earn a fee.
 
@@ -126,13 +132,13 @@ Hedge Funds Like mutual funds, hedge funds are vehicles that allow private inves
 
 Hedge funds by design are empowered to invest in a wide range of investments, with various funds focusing on derivatives, distressed firms, currency speculation, convertible bonds, emerging markets, merger arbitrage, and so on. Other funds may jump from one asset class to another as perceived investment opportunities shift.
 
-Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  \$50 billion in 1990 to about\$ 4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
+Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  \$50 billion in 1990 to about \$4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
 
-# 4.3 Mutual Funds
+## 4.3 Mutual Funds
 
-Mutual funds are the common name for open-end investment companies. This is the dominant investment company today, accounting for about  $80\%$  of investment company assets. Assets under management in the U.S. mutual fund industry were approximately  $\$23.9$  trillion in early 2021, with nearly another  $\$40$  trillion managed by non-U.S. mutual and exchange-traded funds.
+Mutual funds are the common name for open-end investment companies. This is the dominant investment company today, accounting for about $80\%$ of investment company assets. Assets under management in the U.S. mutual fund industry were approximately  $\$23.9$ trillion in early 2021, with nearly another  $\$40$ trillion managed by non-U.S. mutual and exchange-traded funds.
 
-# Investment Policies
+### Investment Policies
 
 Each mutual fund has a specified investment policy, which is described in the fund's prospectus. For example, money market mutual funds hold the short-term, low-risk instruments of the money market (see Chapter 2 for a review of these securities), while bond funds hold fixed-income securities. Some funds have even more narrowly defined mandates. For example, some bond funds will hold primarily Treasury bonds, others primarily mortgage-backed securities.
 
@@ -162,12 +168,12 @@ Many balanced funds are in fact funds of funds. These are mutual funds that prim
 
 Asset Allocation and Flexible Funds These funds are similar to balanced funds in that they hold both stocks and bonds. However, asset allocation funds may dramatically vary the proportions allocated to each market in accord with the portfolio manager's forecast of the relative performance of each sector. Hence, these funds are engaged in market timing and are not designed to be low-risk investment vehicles.
 
-Index Funds An index fund tries to match the performance of a broad market index. The fund buys shares in securities included in a particular index in proportion to each security's representation in that index. For example, the Vanguard 500 Index Fund is a mutual fund that replicates the composition of the Standard & Poor's 500 stock price index. Because the S&P 500 is a value-weighted index, the fund buys shares in each S&P 500 company in proportion to the market value of that company's outstanding equity. Investment in an index fund is a low-cost way for small investors to pursue a passive investment strategy—that is, to invest without engaging in security analysis. About  $40\%$  of the assets in mutual and exchange-traded funds in 2021 were indexed. While the majority of these were in equity funds, index funds can be tied to nonequity indexes as well. For example, Vanguard offers a bond index fund and a real estate index fund.
+Index Funds An index fund tries to match the performance of a broad market index. The fund buys shares in securities included in a particular index in proportion to each security's representation in that index. For example, the Vanguard 500 Index Fund is a mutual fund that replicates the composition of the Standard & Poor's 500 stock price index. Because the S&P 500 is a value-weighted index, the fund buys shares in each S&P 500 company in proportion to the market value of that company's outstanding equity. Investment in an index fund is a low-cost way for small investors to pursue a passive investment strategy—that is, to invest without engaging in security analysis. About $40\%$ of the assets in mutual and exchange-traded funds in 2021 were indexed. While the majority of these were in equity funds, index funds can be tied to nonequity indexes as well. For example, Vanguard offers a bond index fund and a real estate index fund.
 
 
 Table 4.1 breaks down the number of mutual funds by investment orientation. Sometimes a fund name describes its investment policy. For example, Vanguard's GNMA fund invests in mortgage-backed securities, the Municipal Intermediate fund invests in intermediate-term municipal bonds, and the High-Yield Corporate bond fund invests in large part in speculative grade, or "junk," bonds with high yields. However, names of common stock funds often reflect little or nothing about their investment policies. Examples are Vanguard's Windsor and Wellington funds.
 
-# How Funds Are Sold
+### How Funds Are Sold
 
 Mutual funds are generally marketed to the public either directly by the fund underwriter or indirectly through brokers acting on behalf of the underwriter. Direct-marketed funds are sold through the mail, various offices of the fund, over the phone, or, more so, over the Internet. Investors contact the fund directly to purchase shares.
 
@@ -185,34 +191,34 @@ About half of fund sales today are distributed through a sales force. Brokers or
 
 Many funds also are sold through "financial supermarkets" that sell shares in funds of many complexes. Instead of charging customers a sales commission, the broker splits management fees with the mutual fund company. Another advantage is unified record keeping for all funds purchased from the supermarket, even if the funds are offered by different complexes. On the other hand, many contend that these supermarkets result in higher expense ratios because mutual funds pass along the costs of participating in these programs in the form of higher management fees.
 
-# 4.4 Costs of Investing in Mutual Funds
+## 4.4 Costs of Investing in Mutual Funds
 
-# Fee Structure
+### Fee Structure
 
 An individual investor choosing a mutual fund should consider not only the fund's stated investment policy and past performance but also its management fees and other expenses. Comparative data on virtually all important aspects of mutual funds are available on Morningstar's Web site at www.morningstar.com. You should be aware of four general classes of fees.
 
-Operating Expenses Operating expenses are the costs incurred by the mutual fund in operating the portfolio, including administrative expenses and advisory fees paid to the investment manager. These expenses, usually expressed as a percentage of total assets under management, may range from  $.2\%$  to  $1.5\%$  annually. Shareholders do not receive an explicit bill for these operating expenses; instead, the expenses periodically are deducted from the assets of the fund. Shareholders pay for these expenses through the reduced value of the portfolio.
+Operating Expenses Operating expenses are the costs incurred by the mutual fund in operating the portfolio, including administrative expenses and advisory fees paid to the investment manager. These expenses, usually expressed as a percentage of total assets under management, may range from $0.2\%$ to $1.5\%$ annually. Shareholders do not receive an explicit bill for these operating expenses; instead, the expenses periodically are deducted from the assets of the fund. Shareholders pay for these expenses through the reduced value of the portfolio.
 
 The simple average of the expense ratio of all equity funds in the U.S. was  $1.16\%$  in 2020. But larger funds tend to have lower expense ratios, so the average expense ratio weighted by assets under management is considerably smaller, .50\%. (These expense ratios all include 12b-1 fees, if any, which are discussed shortly.) Not surprisingly, the average expense ratio of actively managed funds is considerably higher than that of indexed funds, .71\% versus .06\% (weighted by assets under management).
 
 In addition to operating expenses, many funds assess fees to pay for marketing and distribution costs. These charges are used primarily to pay the brokers or financial advisers who sell the funds to the public. One can avoid these expenses by buying shares directly from the fund sponsor, but many investors are willing to incur these distribution fees in return for the advice they may receive from their broker.
 
-Front-End Load A front-end load is a commission or sales charge paid when you purchase the shares. These charges, which are used primarily to pay the brokers who sell the funds, may not exceed 8.5\%, but in practice they are rarely higher than 6\%. Low-load funds have loads that range up to 3\% of invested funds. No-load funds have no front-end sales charges. Loads effectively reduce the amount of money invested. For example, each 1,000 paid for a fund with a 6\% load incurs a sales charge of \$ 60 and fund investment of only \$ 940. You need cumulative returns of 6.4\% of your net investment (60/940 = .064) just to break even.
+Front-End Load A front-end load is a commission or sales charge paid when you purchase the shares. These charges, which are used primarily to pay the brokers who sell the funds, may not exceed 8.5\%, but in practice they are rarely higher than 6\%. Low-load funds have loads that range up to 3\% of invested funds. No-load funds have no front-end sales charges. Loads effectively reduce the amount of money invested. For example, each \$1,000 paid for a fund with a 6\% load incurs a sales charge of \$60 and fund investment of only \$940. You need cumulative returns of 6.4\% of your net investment (60/940 = .064) just to break even.
 
-Back-End Load A back-end load is a redemption, or "exit," fee incurred when you sell your shares. Typically, funds that impose back-end loads reduce them by 1 percentage point for every year the funds are left invested. Thus, an exit fee that starts at  $4\%$  would fall to  $2\%$  by the start of your third year. These charges are known more formally as "contingent deferred sales loads."
+Back-End Load A back-end load is a redemption, or "exit," fee incurred when you sell your shares. Typically, funds that impose back-end loads reduce them by 1 percentage point for every year the funds are left invested. Thus, an exit fee that starts at $4\%$ would fall to $2\%$  by the start of your third year. These charges are known more formally as "contingent deferred sales loads."
 
-12b-1 Charges The Securities and Exchange Commission allows the managers of so-called 12b-1 funds to use fund assets to pay for distribution costs such as advertising, promotional literature including annual reports and prospectuses, and, most important, commissions paid to brokers who sell the fund to investors. These 12b-1 fees are named after the SEC rule that permits use of these plans. Funds may use 12b-1 charges instead of, or in addition to, front-end loads to generate the fees with which to pay brokers. As with operating expenses, investors are not explicitly billed for 12b-1 charges. Instead, the fees are deducted from the assets of the fund. Therefore, 12b-1 fees (if any) must be added to operating expenses to obtain the true annual expense ratio of the fund. The SEC requires that all funds include in the prospectus a consolidated expense table that summarizes all relevant fees. The 12b-1 fees are limited to  $1\%$  of a fund's average net assets per year. $^3$
+12b-1 Charges The Securities and Exchange Commission allows the managers of so-called 12b-1 funds to use fund assets to pay for distribution costs such as advertising, promotional literature including annual reports and prospectuses, and, most important, commissions paid to brokers who sell the fund to investors. These 12b-1 fees are named after the SEC rule that permits use of these plans. Funds may use 12b-1 charges instead of, or in addition to, front-end loads to generate the fees with which to pay brokers. As with operating expenses, investors are not explicitly billed for 12b-1 charges. Instead, the fees are deducted from the assets of the fund. Therefore, 12b-1 fees (if any) must be added to operating expenses to obtain the true annual expense ratio of the fund. The SEC requires that all funds include in the prospectus a consolidated expense table that summarizes all relevant fees. The 12b-1 fees are limited to $1\%$ of a fund's average net assets per year. $^3$
 
-Many funds offer "classes" that represent ownership in the same portfolio of securities, but with different combinations of fees. Typically, Class A shares have front-end loads and a small 12b-1 fee, often around  $25\%$ . Class C shares rely more on 12b-1 fees, commonly  $1\%$ , and often charge a modest back-end load. Class I shares are sold to institutional investors. These are sometimes called class Y shares and carry no loads or 12b-1 fees.
+Many funds offer "classes" that represent ownership in the same portfolio of securities, but with different combinations of fees. Typically, Class A shares have front-end loads and a small 12b-1 fee, often around $0.25\%$ . Class C shares rely more on 12b-1 fees, commonly $1\%$ , and often charge a modest back-end load. Class I shares are sold to institutional investors. These are sometimes called class Y shares and carry no loads or 12b-1 fees.
 
-# Example 4.2 Fees for Various Classes
+**Example 4.2 Fees for Various Classes**
 
 The table below lists fees for different classes of the BNY Mellon (formerly Dreyfus) High Yield Fund in 2021. Notice the trade-off between the front-end loads versus 12b-1 charges in the choice between Class A and Class C shares. Class I shares are sold only to institutional investors and carry lower fees.
 
-<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at  $4.5\%$  for investments less than \$50,000 and tapers to zero for investments more than \$ 1 million.
+<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at $4.5\%$ for investments less than \$50,000 and tapers to zero for investments more than \$ 1 million.
 
 
-bDepending on years until holdings are sold. Exit fee is  $1 \%$  for shares redeemed within one year of purchase.
+bDepending on years until holdings are sold. Exit fee is $1\%$ for shares redeemed within one year of purchase.
 
 cIncluding annual service fee.
 
@@ -224,27 +230,27 @@ Each investor must choose the best combination of fees. Obviously, pure no-load 
 
 If you do buy a fund through a broker, the choice between paying a load and paying 12b-1 fees will depend primarily on your expected time horizon. Loads are paid only once for each purchase, whereas 12b-1 fees are paid annually. Thus, if you plan to hold your fund for a long time, a one-time load may be preferable to recurring 12b-1 charges.
 
-# Fees and Mutual Fund Returns
+### Fees and Mutual Fund Returns
 
 The rate of return on a mutual fund investment is the increase or decrease in net asset value plus income distributions such as dividends or distributions of capital gains, all expressed as a fraction of net asset value at the beginning of the investment period. If we denote the net asset value at the start and end of the period as  $\mathrm{NAV}_0$  and  $\mathrm{NAV}_1$ , respectively, then
 
 $$
-\text {R a t e} = \frac {\mathrm {N A V} _ {1} - \mathrm {N A V} _ {0} + \text {I n c o m e a n d c a p i t a l g a i n d i s t r i b u t i o n s}}{\mathrm {N A V} _ {0}}
+\text{Rate} = \frac{\mathrm{NAV}_1 - \mathrm{NAV}_0 + \text{Income and capital gain distributions}}{\mathrm{NAV}_0}
 $$
 
 For example, if a fund has an initial NAV of  \$20 at the start of the month, makes income distributions of$ .15 and capital gain distributions of $.05, and ends the month with NAV of \$20.10, the monthly rate of return is
 
 $$
-\text{Rate of return} = \frac {\mathbb {S} 20.10 - \mathbb {S} 20.00 + \mathbb {S}. 15 + \mathbb {S}. 05}{\mathbb {S} 20.00} = . 015, \text {or} 1.5 \%
+\text{Rate of return} = \frac{\$20.10 - \$20.00 + \$.15 + \$.05}{\$20.00} = .015, \text{or } 1.5\%
 $$
 
 Notice that this measure of the rate of return ignores any commissions such as front-end loads paid to purchase the fund.
 
 On the other hand, the rate of return is affected by the fund's expenses and 12b-1 fees. This is because such charges are periodically deducted from the portfolio, which reduces net asset value. Thus, the investor's rate of return equals the gross return on the underlying portfolio minus the total expense ratio.
 
-# Example 4.3 Fees and Net Returns
+**Example 4.3 Fees and Net Returns**
 
-To see how expenses can affect rate of return, consider a fund with \$100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by  $10\%$ . The expense ratio, including 12b-1 fees, is  $1\%$ . What is the rate of return for an investor in the fund?
+To see how expenses can affect rate of return, consider a fund with \$100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by $10\%$ . The expense ratio, including 12b-1 fees, is $1\%$ . What is the rate of return for an investor in the fund?
 
 The initial NAV equals \$100 million/10 million shares = \$10 per share. In the absence of expenses, fund assets would grow to \$110 million and NAV would grow to \$11 per share, for a 10\% rate of return. However, the expense ratio of the fund is 1\%. Therefore, \$1 million will be deducted from the fund to pay these fees, leaving the portfolio worth only \$109 million and NAV equal to 10.90. The rate of return on the fund is only 9\%, which equals the gross return on the underlying portfolio minus the total expense ratio.
 
@@ -259,9 +265,9 @@ Impact of costs on investment performance
 Notes:
 
 1. Fund A is no-load with .25\% expense ratio.
-2. Fund B is no-load with  $1.25\%$  expense ratio.
-3. Fund C has a  $6\%$  load on purchases and a  $8\%$  expense ratio.
-4. Gross return on all funds is  $10\%$  per year before expenses.
+2. Fund B is no-load with $1.25\%$ expense ratio.
+3. Fund C has a $6\%$ load on purchases and a $0.8\%$ expense ratio.
+4. Gross return on all funds is $10\%$ per year before expenses.
 
 Fees can have a big effect on performance. Table 4.2 considers an investor who starts with 10,000 and can choose among three funds that all earn an annual 10\% return on investment before fees but have different fee structures. The table shows the cumulative amount in each fund after several investment horizons. Fund A has total operating expenses of .25\%, no load, and no 12b-1 charges. This might represent a low-cost producer like Vanguard. Fund B has no load but has .75\% in management expenses and .5\% in 12b-1 fees. This level of charges is fairly typical of actively managed equity funds. Finally, Fund C has .80\% in management expenses, has no 12b-1 charges, but assesses a 6\% front-end load on purchases.
 
@@ -269,34 +275,34 @@ Note the substantial return advantage of low-cost Fund A. Moreover, that differe
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/1bcde4a8036970f48e059b978fdac14976080c2c92db6e55b20df4228515ea9a.jpg)
 
-# Concept Check 4.2
+**Concept Check 4.2**
 
-The Equity Fund sells Class A shares with a front-end load of  $4 \%$ and Class C shares with 12b- 1 fees of .5\% annually as well as back- end load fees that start at  $5 \%$ and fall by  $1 \%$ for each full year the investor holds the portfolio (until the fifth year). Assume the rate of return on the fund portfolio net of operating expenses is  $10 \%$ annually. What will be the value of a 10,000 investment in Class A and Class C shares if the shares are sold after (a) 1 year, (b) 4 years, and (c) 10 years? Which fee structure provides higher net proceeds at the end of each investment horizon?
+The Equity Fund sells Class A shares with a front-end load of $4\%$ and Class C shares with 12b- 1 fees of .5\% annually as well as back- end load fees that start at $5\%$ and fall by $1\%$ for each full year the investor holds the portfolio (until the fifth year). Assume the rate of return on the fund portfolio net of operating expenses is $10\%$ annually. What will be the value of a \$10,000 investment in Class A and Class C shares if the shares are sold after (a) 1 year, (b) 4 years, and (c) 10 years? Which fee structure provides higher net proceeds at the end of each investment horizon?
 
 Although expenses can have a big impact on net investment performance, it is sometimes difficult for the investor in a mutual fund to measure true expenses accurately. This is because of the practice of paying for some expenses in soft dollars. A portfolio manager earns soft-dollar credits with a brokerage firm by directing the fund's trades to that broker. On the basis of those credits, the broker will pay for some of the mutual fund's expenses, such as databases, computer hardware, or stock-Quotation systems. The soft-dollar arrangement means that the stockbroker effectively returns part of the trading commission to the fund. Purchases made with soft dollars are not included in the fund's expenses, so funds with extensive soft-dollar arrangements may report artificially low expense ratios to the public. However, the fund may have paid its broker needlessly high commissions to obtain its soft-dollar "rebate." The impact of the higher trading commission shows up in net investment performance rather than the reported expense ratio.
 
-# 4.5 Taxation of Mutual Fund Income
+## 4.5 Taxation of Mutual Fund Income
 
 Investment returns of mutual funds are granted "pass-through status" under the U.S. tax code, meaning that taxes are paid only by the investor in the mutual fund, not by the fund itself. The income is treated as passed through to the investor as long as the fund meets several requirements, most notably that virtually all income is distributed to shareholders. A fund's short-term capital gains, long-term capital gains, and dividends are passed through to investors as though the investor earned the income directly.
 
 The pass-through of investment income has one important disadvantage for individual investors. If you manage your own portfolio, you decide when to realize capital gains and losses on any security; therefore, you can time those realizations to efficiently manage your tax liabilities. When you invest through a mutual fund, however, the timing of security sales is out of your control, which reduces your ability to engage in tax management.[5]
 
-A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a  \$100 million portfolio with\$ 50 million in sales of some securities and purchases of other securities would have a turnover rate of 50\%. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
+A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a \$100 million portfolio with \$50 million in sales of some securities and purchases of other securities would have a turnover rate of $50\%$. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
 
-Until recently, turnover rates in equity funds typically were around  $50\%$  when weighted by assets under management. By contrast, a low-turnover fund such as an index fund may have turnover as low as  $2\%$ , which is both tax-efficient and economical with respect to trading costs. However, in the last decade, asset-weighted average turnover has dropped considerably, falling to  $32\%$  in 2020. Part of this decline probably reflects the shift from actively managed to indexed funds.
+Until recently, turnover rates in equity funds typically were around $50\%$  when weighted by assets under management. By contrast, a low-turnover fund such as an index fund may have turnover as low as $2\%$ , which is both tax-efficient and economical with respect to trading costs. However, in the last decade, asset-weighted average turnover has dropped considerably, falling to $32\%$ in 2020. Part of this decline probably reflects the shift from actively managed to indexed funds.
 
 SEC rules require funds to disclose the tax impact of portfolio turnover. Funds must include in their prospectus after-tax returns for the past 1-, 5-, and 10-year periods. Marketing literature that includes performance data also must include after-tax results. The after-tax returns are computed accounting for the impact of the taxable distributions of income and capital gains passed through to the investor, assuming the investor is in the maximum federal tax bracket.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0890e45fc0c25f0caca2f8ae1db633d88cb44e871f3af3ec5bb87b23120232c3.jpg)
 
-# Concept Check 4.3
+**Concept Check 4.3**
 
-An investor's portfolio currently is worth  \$1 million. During the year, the investor sells 400 shares of Etsy at a price of\$ 200 per share and 1,600 shares of Cisco at a price of \$50 per share. The proceeds are used to buy 1,000 shares of Apple at \$160 per share.
+An investor's portfolio currently is worth \$1 million. During the year, the investor sells 400 shares of Etsy at a price of \$200 per share and 1,600 shares of Cisco at a price of \$50 per share. The proceeds are used to buy 1,000 shares of Apple at \$160 per share.
 
 a. What is the portfolio turnover rate?
-b. If the shares in Etsy originally were purchased for  \$175 each and those in Cisco were purchased for\$ 40, and the investor's tax rate on capital gains income is 20\%, how much extra will the investor owe on this year's taxes as a result of these transactions?
+b. If the shares in Etsy originally were purchased for  \$175 each and those in Cisco were purchased for\$ 40, and the investor's tax rate on capital gains income is $20\%$, how much extra will the investor owe on this year's taxes as a result of these transactions?
 
-# 4.6 Exchange-Traded Funds
+## 4.6 Exchange-Traded Funds
 
 Exchange-traded funds (ETFs), first introduced in 1993, are offshoots of mutual funds that allow investors to trade entire portfolios just as they do shares of stock. The first ETF was the "spider," a nickname for SPDR, or Standard & Poor's Depository Receipt, which is a unit investment trust holding a portfolio matching the S&P 500 Index. Unlike mutual funds, which can be bought or sold only at the end of the day when NAV is calculated, investors can trade spiders throughout the day, just like any other share of stock. Spiders gave rise to many similar products such as "diamonds" (based on the Dow Jones Industrial Average, ticker DIA), "cubes" (based on the NASDAQ 100 index, ticker QQQ), and "WEBS" (World Equity Benchmark Shares, which are shares in portfolios of foreign stock market indexes). By 2022, about 9.5 trillion was invested in more than 2,200 U.S. ETFs.
 
@@ -335,7 +341,7 @@ There are some disadvantages to ETFs, however. First, while mutual funds can be 
 
 At least two problems were exposed in this episode. First, when markets are not working properly, it can be hard to measure the net asset value of the ETF portfolio, especially for ETFs that track less liquid assets. And, reinforcing this problem, some ETFs may be supported by only a very small number of dealers. If they drop out of the market during a period of turmoil, prices may swing wildly.
 
-# 4.7 Mutual Fund Investment Performance: A First Look
+## 4.7 Mutual Fund Investment Performance: A First Look
 
 We noted earlier that one of the benefits of mutual funds for the individual investor is the ability to delegate management of the portfolio to investment professionals. The investor retains control over the broad features of the overall portfolio through the asset allocation decision: Each individual chooses the percentages of the portfolio to invest in bond funds versus equity funds versus money market funds, and so forth, but can leave the specific security selection decisions within each investment class to fund managers. Shareholders hope that these portfolio managers can achieve better investment performance than they could obtain on their own.
 
@@ -345,7 +351,7 @@ Measuring portfolio risk properly and using such measures to choose an appropria
 
 Here we use as a benchmark for the performance of equity fund managers the rate of return on the Wilshire 5000 index. Recall from Chapter 2 that this is a value-weighted index of the roughly 3,500 actively traded stocks in the U.S. The performance of the Wilshire 5000 is a useful benchmark with which to evaluate professional managers because it corresponds to a simple passive investment strategy: Buy all the shares in the index in proportion to their outstanding market value. Moreover, this is a feasible strategy for even small investors because the Vanguard Group offers an index fund (its Total Stock Market Portfolio) designed to replicate the performance of the CRSP U.S. Total Market Index, which is almost identical to the Wilshire 5000 index. Using the Wilshire 5000 index as a benchmark, we may pose the problem of evaluating the performance of mutual fund portfolio managers this way: How does the typical performance of actively managed equity mutual funds compare to the performance of a passively managed portfolio that simply replicates the composition of a broad index of the stock market?
 
-Casual comparisons of the performance of the Wilshire 5000 index versus that of professionally managed mutual funds reveal disappointing results for active managers. Figure 4.4 shows that the asset-weighted average return on domestic U.S. equity funds was below the return on the Wilshire index in 30 of the 50 years from 1971 to 2020. The average annual return on the index was  $12.49\%$ , which was  $96\%$  greater than that of the average mutual fund.[7]
+Casual comparisons of the performance of the Wilshire 5000 index versus that of professionally managed mutual funds reveal disappointing results for active managers. Figure 4.4 shows that the asset-weighted average return on domestic U.S. equity funds was below the return on the Wilshire index in 30 of the 50 years from 1971 to 2020. The average annual return on the index was $12.49\%$, which was $96\%$ greater than that of the average mutual fund.[7]
 
 Figure 4.4 Rates of return on actively managed U.S. equity funds versus Wilshire 5000 index, 1971-2020.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/f8cdf73ca2385bf992c31c1e336770797b50a58a7e3f336c4d53afb2983bbaa8.jpg)
@@ -354,11 +360,11 @@ Source: For Wilshire returns, see www.wilshire.com. For active fund returns, see
 
 This result may seem surprising. After all, it would not seem unreasonable to expect that professional money managers should be able to outperform a very simple rule such as "hold an indexed portfolio." As it turns out, however, there may be good reasons to expect such a result. We explore them in detail in Chapter 11, where we discuss the efficient market hypothesis.
 
-# 4.8 Information on Mutual Funds
+## 4.8 Information on Mutual Funds
 
 The first place to find information on a mutual fund is in its prospectus. The Securities and Exchange Commission requires that the prospectus describe the fund's investment objectives and policies in a concise "Statement of Investment Objectives" as well as in lengthy discussions of investment policies and risks. The fund's investment adviser and
 
-Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of  $0.04\%$  (for investments above \$3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than  $15\%$ . This reduction would not erase the difference in average performance.
+Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of $0.04\%$  (for investments above \$3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than $15\%$ . This reduction would not erase the difference in average performance.
 
 its portfolio manager are also described. The prospectus also presents the costs associated with purchasing shares in the fund in a fee table. Sales charges such as front-end and back-end loads as well as annual operating expenses such as management fees and 12b-1 fees are detailed in the fee table.
 
@@ -368,13 +374,13 @@ With thousands of funds to choose from, it can be difficult to find and select t
 
 The top panel summarizes some of the fund's key characteristics, for example, its expense ratio (1.09\%), turnover rate (126\%), and dividend yield (zero). Included here is Morningstar's famous style box. In it, Morningstar evaluates style along two dimensions: One is the size of the firms held in the portfolio as measured by the market value of outstanding equity; the other is a value/growth measure. Morningstar defines value stocks as those with low ratios of market price per share to various measures of value. It puts stocks on a growth-value continuum based on the ratios of stock price to the firm's earnings, book value, sales, cash flow, and dividends. Value stocks are those with a low price relative to these measures of value. In contrast, growth stocks have high ratios, suggesting that investors in these firms must believe that the firm will experience rapid growth to justify the prices at which the stocks sell. In Figure 4.5, the shaded box in the bottom right of the Investment Style grid shows that Fidelity's Small Cap Fund tends to hold smaller firms (bottom row) and growth stocks (right column).
 
-The bottom panel shows various statistics on the fund's investment performance in each of the last 10 years. You can compare returns to two benchmarks, either the other funds in the same small/growth category or a relevant stock market index, in this case, the Russell 2000 Growth Index. The rows labeled  $+/-$  Category or  $+/-$  Index present annual return differentials relative to each benchmark. The following rows show the fund's quartile as well as its percentile rank within its comparison group. The fund has been extremely successful, with performance in the top half of its comparison group in every year since 2013. This performance has earned the fund a 4-star rating. Of course, we are all accustomed to the disclaimer that "past performance is not a reliable measure of future results," and this is presumably true as well of Morningstar's star ratings. Indeed, performance so far in 2021 has been disappointing.
+The bottom panel shows various statistics on the fund's investment performance in each of the last 10 years. You can compare returns to two benchmarks, either the other funds in the same small/growth category or a relevant stock market index, in this case, the Russell 2000 Growth Index. The rows labeled $+/-$ Category or $+/-$ Index present annual return differentials relative to each benchmark. The following rows show the fund's quartile as well as its percentile rank within its comparison group. The fund has been extremely successful, with performance in the top half of its comparison group in every year since 2013. This performance has earned the fund a 4-star rating. Of course, we are all accustomed to the disclaimer that "past performance is not a reliable measure of future results," and this is presumably true as well of Morningstar's star ratings. Indeed, performance so far in 2021 has been disappointing.
 
-More data on the performance of the fund are provided in the graph in the middle of the figure. The top plot shows that an investment in the fund would have accumulated to a total return about  $25\%$  greater than the ones provided by either benchmark.
+More data on the performance of the fund are provided in the graph in the middle of the figure. The top plot shows that an investment in the fund would have accumulated to a total return about $25\%$ greater than the ones provided by either benchmark.
 
 More information on the fund is given in other Morningstar pages.
 
-# Fidelity® Small Cap Growth FCPGX ★★★★ Bronze
+**Fidelity® Small Cap Growth FCPGX ★★★★ Bronze**
 
 Analyst rating as of Oct 15, 2020
 
@@ -384,7 +390,7 @@ Analyst rating as of Oct 15, 2020
 
 USD | NAV as of Jul 21, 2021 | 1-Day Return as of Jul 21, 2021, 5.26 PM GMT-04:00
 
-# Morningstar's Analysis ① Analyst Take ESG Commitment Level Ratings
+**Morningstar's Analysis ① Analyst Take ESG Commitment Level Ratings**
 
 Process Oct 15, 2020
 
@@ -404,7 +410,7 @@ Nicholas Goralka
 
 Analyst
 
-# This high-turnover strategy has some merit.
+**This high-turnover strategy has some merit.**
 
 Summary by Nicholas Goralka Oct 15, 2020
 
@@ -418,7 +424,7 @@ Growth of 10,000
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/481dacedf3b0eca87874637e0fce6443b8fc5310657a42f22cd678677a24b7c5.jpg)
 YTD Investment as of Jul 21, 2021 | Category: Small Growth as of Jul 21, 2021 | Index: Russell 2000 Growth TR USD as of Jul 21, 2021
 
-# Figure 4.5 Morningstar report
+**Figure 4.5 Morningstar report**
 
 Source: www.morningstar.com, July 22, 2021.
 
@@ -432,7 +438,8 @@ Source: www.morningstar.com, July 22, 2021.
 6. Income earned on mutual fund portfolios is not taxed at the level of the fund. Instead, as long as the fund meets certain requirements for pass-through status, the income is treated as being earned by the investors in the fund.
 7. The average rate of return of the average equity mutual fund in the last 50 years has been below that of a passive index fund holding a portfolio to replicate a broad-based index like the S&P 500 or Wilshire 5000. Some of the reasons for this disappointing record are the costs incurred by actively managed funds, such as the expense of conducting the research to guide stock-picking activities, and trading costs due to higher portfolio turnover.
 
-# SUMMARY investment company net asset value (NAV) unit investment trust open-end fund
+**SUMMARY**
+investment company net asset value (NAV) unit investment trust open-end fund
 
 
 closed-end fund load
@@ -441,7 +448,7 @@ hedge fund funds of funds
 12b-1 fees soft dollars
 turnover exchange-traded funds (ETFs)
 
-# KEY TERMS
+**KEY TERMS**
 
 1. Would you expect a typical open-end fixed-income mutual fund to have higher or lower operating expenses than a fixed-income unit investment trust? Why?
 2. What are some comparative advantages of investing in the following?
@@ -450,14 +457,14 @@ a. Unit investment trusts.
 b. Open-end mutual funds.
 $c$ . Individual stocks and bonds that you choose for yourself.
 
-# PROBLEM SETS
+**PROBLEM SETS**
 
 3. Open-end equity mutual funds commonly keep a small fraction of total investments in very liquid money market assets. Closed-end funds do not have to maintain such a position in "cash-equivalent" securities. What difference between open-end and closed-end funds might account for their differing policies?
 4. Balanced funds, life-cycle funds, and asset allocation funds all invest in both the stock and bond markets. What are the differences among these types of funds?
 5. Why can closed-end funds sell at prices that differ from net asset value while open-end funds do not?
 6. What are the advantages and disadvantages of exchange-traded funds versus mutual funds?
- 7. An open-end fund has a net asset value of 10.70 per share. It is sold with a front-end load of 6\%. What is the offering price?
- 8. If the offering price of an open-end fund is 12.30 per share and the fund is sold with a front-end load of 5\%, what is its net asset value?
+ 7. An open-end fund has a net asset value of 10.70 per share. It is sold with a front-end load of $6\%$. What is the offering price?
+ 8. If the offering price of an open-end fund is 12.30 per share and the fund is sold with a front-end load of $5\%$, what is its net asset value?
 9. The composition of the Fingroup Fund portfolio is as follows:
 
 <table><tr><td>Stock</td><td>Shares</td><td>Price</td></tr><tr><td>A</td><td>200,000</td><td>35</td></tr><tr><td>B</td><td>300,000</td><td>40</td></tr><tr><td>C</td><td>400,000</td><td>20</td></tr><tr><td>D</td><td>600,000</td><td>25</td></tr></table>
@@ -472,7 +479,7 @@ b. If the fund sells for 36 per share, what is its premium or discount as a perc
 
 12. Corporate Fund started the year with a net asset value of \$12.50. By year-end, its NAV equaled \$12.10. The fund paid year-end distributions of income and capital gains of 1.50. What was the (pretax) rate of return to an investor in the fund?
 
-13. A closed-end fund starts the year with a net asset value of \$12.00. By year-end, NAV equals \$12.10. At the beginning of the year, the fund was selling at a 2\% premium to NAV. By the end of the year, the fund is selling at a 7\% discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
+13. A closed-end fund starts the year with a net asset value of \$12.00. By year-end, NAV equals \$12.10. At the beginning of the year, the fund was selling at a $2\%$ premium to NAV. By the end of the year, the fund is selling at a $7\%$ discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
 
 a. What is the rate of return to an investor in the fund during the year?
 b. What would have been the rate of return to an investor who held the same securities as the fund manager during the year?
@@ -482,29 +489,29 @@ b. What would have been the rate of return to an investor who held the same secu
 $b$ . What are some differences between hedge funds and mutual funds?
 c. What are some differences between equity and mortgage REITs?
 
-15. Consider a mutual fund with \$200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of \$2 million. The stocks included in the fund's portfolio increase in price by 8\%, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of 1\%, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
+15. Consider a mutual fund with \$200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of \$2 million. The stocks included in the fund's portfolio increase in price by $8\%$, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of $1\%$, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
  16. The New Fund had average daily assets of \$2.2 billion last year. The fund sold \$400 million worth of stock and purchased 500 million during the year. What was its turnover ratio?
-17. If New Fund's expense ratio (see the previous problem) was  $1.1\%$  and the management fee was  $7\%$ , what were the total fees paid to the fund's investment managers during the year? What were other administrative expenses?
- 18. You purchased 1,000 shares of the New Fund at a price of 20 per share at the beginning of the year. You paid a front-end load of 4\%. The securities in which the fund invests increase in value by 12\% during the year. The fund's expense ratio is 1.2\%. What is your rate of return on the fund if you sell your shares at the end of the year?
-19. Loaded-Up Fund charges a 12b-1 fee of  $1.0\%$  and maintains an expense ratio of .75\%. Economy Fund charges a front-end load of  $2\%$  but has no 12b-1 fee and has an expense ratio of .25\%. Assume the rate of return on both funds' portfolios (before any fees) is  $6\%$  per year. How much will an investment in each fund grow to after: a. 1 year?
+17. If New Fund's expense ratio (see the previous problem) was $1.1\%$ and the management fee was $0.7\%$ , what were the total fees paid to the fund's investment managers during the year? What were other administrative expenses?
+ 18. You purchased 1,000 shares of the New Fund at a price of 20 per share at the beginning of the year. You paid a front-end load of 4\%. The securities in which the fund invests increase in value by $12\%$ during the year. The fund's expense ratio is $1.2\%$. What is your rate of return on the fund if you sell your shares at the end of the year?
+19. Loaded-Up Fund charges a 12b-1 fee of $1.0\%$ and maintains an expense ratio of $0.75\%$. Economy Fund charges a front-end load of $2\%$  but has no 12b-1 fee and has an expense ratio of $0.25\%$. Assume the rate of return on both funds' portfolios (before any fees) is $6\%$ per year. How much will an investment in each fund grow to after: a. 1 year?
 
 b. 3 years?
 c. 10 years?
 
-20. City Street Fund has a portfolio of  \$450 million and liabilities of\$ 10 million.
+20. City Street Fund has a portfolio of \$450 million and liabilities of \$10 million.
 
 $a$ . If 44 million shares are outstanding, what is net asset value?
 $b$ . If a large investor redeems 1 million shares, what happens to the (i) portfolio value, (ii) shares outstanding, and (iii) NAV?
 
-21. The Investments Fund sells Class A shares with a front-end load of  $6\%$  and Class C shares with 12b-1 fees of  $5\%$  annually as well as back-end load fees that start at  $5\%$  and fall by  $1\%$  for each full year the investor holds the portfolio (until the fifth year). Assume the portfolio rate of return net of operating expenses is  $10\%$  annually. If you plan to sell the fund after 4 years, are Class A or Class C shares the better choice for you? What if you plan to sell after 15 years?
-22. You are considering an investment in a mutual fund with a  $4\%$  load and an expense ratio of .5\%. You can invest instead in a bank CD paying  $6\%$  interest.
+21. The Investments Fund sells Class A shares with a front-end load of $6\%$ and Class C shares with 12b-1 fees of $0.5\%$ annually as well as back-end load fees that start at $5\%$ and fall by $1\%$  for each full year the investor holds the portfolio (until the fifth year). Assume the portfolio rate of return net of operating expenses is $10\%$ annually. If you plan to sell the fund after 4 years, are Class A or Class C shares the better choice for you? What if you plan to sell after 15 years?
+22. You are considering an investment in a mutual fund with a $4\%$ load and an expense ratio of $0.5\%$. You can invest instead in a bank CD paying $6\%$ interest.
 
 a. If you plan to invest for 2 years, what annual rate of return must the fund portfolio earn for you to be better off in the fund than in the CD? Assume annual compounding of returns.
 b. How does your answer change if you plan to invest for 6 years? Why does your answer change?
-c. Now suppose that instead of a front-end load the fund assesses a 12b-1 fee of .75\% per year. What annual rate of return must the fund portfolio earn for you to be better off in the fund than in the CD? Does your answer in this case depend on your time horizon?
+c. Now suppose that instead of a front-end load the fund assesses a 12b-1 fee of $0.75\%$ per year. What annual rate of return must the fund portfolio earn for you to be better off in the fund than in the CD? Does your answer in this case depend on your time horizon?
 
-23. Suppose that every time a fund manager trades stock, transaction costs such as commissions and bid-ask spreads amount to  $.4\%$  of the value of the trade. If the portfolio turnover rate is  $50\%$ , by how much is the total return of the portfolio reduced by trading costs?
-24. You expect a tax-free municipal bond portfolio to provide a rate of return of  $4\%$ . Management fees of the fund are  $6\%$ . What fraction of portfolio income is given up to fees? If the management fees for an equity fund also are  $6\%$ , but you expect a portfolio return of  $12\%$ , what fraction of portfolio income is given up to fees? Why might management fees be a bigger factor in your investment decision for bond funds than for stock funds? Can your conclusion help explain why unmanaged unit investment trusts tend to focus on the fixed-income market?
+23. Suppose that every time a fund manager trades stock, transaction costs such as commissions and bid-ask spreads amount to $0.4\%$ of the value of the trade. If the portfolio turnover rate is $50\%$ , by how much is the total return of the portfolio reduced by trading costs?
+24. You expect a tax-free municipal bond portfolio to provide a rate of return of $4\%$ . Management fees of the fund are $6\%$ . What fraction of portfolio income is given up to fees? If the management fees for an equity fund also are $6\%$, but you expect a portfolio return of $12\%$ , what fraction of portfolio income is given up to fees? Why might management fees be a bigger factor in your investment decision for bond funds than for stock funds? Can your conclusion help explain why unmanaged unit investment trusts tend to focus on the fixed-income market?
 
 25. Use Figure 4.5 to answer the following questions about Fidelity's Small Cap Growth fund.
 
@@ -512,7 +519,7 @@ $a$ . What is the fund's investment style. Is it consistent with the fund's name
 $b$ . In what quartile was the fund's 2020 return compared to other firms with the same investment style?
 c. What has been the consistency of the fund's comparative performance? Can you explain why Morningstar has awarded the fund a four-star ranking?
 d. Morningstar characterizes the fund's expense ratio as average. Do you agree? What considerations go into thinking about the correct benchmark for this statistic for this fund?
-e. What is the fund's most recent turnover ratio? If the cost of a trade for small stocks was .25\% of the assets bought or sold, by how much did trading costs reduce the fund's net returns?
+e. What is the fund's most recent turnover ratio? If the cost of a trade for small stocks was $0.25\%$ of the assets bought or sold, by how much did trading costs reduce the fund's net returns?
 
 26. Here is a partial reproduction of Morningstar's report on the FMI (Fiduciary Management Inc.) Large Cap Investor fund.
 
@@ -536,7 +543,7 @@ Open</td><td>TTM Yield
 
 <table><tr><td>Total Return \%</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td><td>2021</td><td>YTD</td></tr><tr><td>Investment</td><td>14.86</td><td>30.48</td><td>12.36</td><td>-2.44</td><td>13.79</td><td>19.19</td><td>-3.88</td><td>23.66</td><td>10.24</td><td>18.64</td><td>-6.36</td></tr><tr><td>Category</td><td>14.96</td><td>31.50</td><td>10.96</td><td>-1.07</td><td>10.37</td><td>20.44</td><td>-6.27</td><td>28.78</td><td>15.83</td><td>26.07</td><td>-5.94</td></tr><tr><td>Index</td><td>16.24</td><td>33.20</td><td>13.32</td><td>0.92</td><td>11.59</td><td>21.71</td><td>-4.52</td><td>31.61</td><td>21.11</td><td>26.44</td><td>-6.88</td></tr><tr><td>Quartile Rank</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Percentile Rank</td><td>58</td><td>67</td><td>39</td><td>69</td><td>12</td><td>71</td><td>20</td><td>90</td><td>84</td><td>93</td><td>53</td></tr></table>
 
-# E-INVESTMENTS EXERCISES
+**E-INVESTMENTS EXERCISES**
 
 Go to www.morningstar.com. Select the Research tab and then Mutual Funds. Under Tools, you can find a link to Basic Fund Screener (which requires free registration). In the screener, you can set desired criteria along several dimensions. Set the criteria you desire, then click on the Show Results tab. If you get no funds that meet all of your criteria, choose the criterion that is least important to you and relax that constraint. Continue the process until you have several funds to compare.
 
@@ -553,9 +560,9 @@ f. Do you need to eliminate any of the funds from consideration due to a minimum
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8bae597414fd02f60369c946d5f303d6ab5e34bd722180805a12169b9c9a50b8.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
+**SOLUTIONS TO CONCEPT CHECKS**
 
-1. NAV =  $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.102. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to \$9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only 9.5\%. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
+1. NAV = $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.10$. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to \$9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only $9.5\%$. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
 
 <table><tr><td></td><td>Class A Shares</td><td>Class C Shares</td></tr><tr><td>Horizon</td><td>$9,600 × (1.10)ⁿ</td><td>$10,000 × (1.095)ⁿ × (1 – Percentage exit fee)</td></tr><tr><td>1 year</td><td>$10,560</td><td>$10,000 × (1.095) × (1 – .04) = \$10,512</td></tr><tr><td>4 years</td><td>$14,055</td><td>$10,000 × (1.095)⁴ × (1 – .01) = \$14,233</td></tr><tr><td>10 years</td><td>$24,900</td><td>$10,000 × (1.095)¹⁰ = 24,782</td></tr></table>
 
@@ -563,7 +570,7 @@ For a very short horizon such as 1 year, the Class A shares are the better choic
 
 For moderate horizons such as 4 years, the Class C shares dominate because the front-end load of the Class A shares is more costly than the 12b-1 fees and the now-smaller exit fee. For long horizons of 10 years or more, Class A again dominates. In this case, the one-time front-end load is less expensive than the continuing 12b-1 fees.
 
-3. a. Turnover  = \ 160,000  in trades per  \$ 1  million of portfolio value  = 16\% .
+3. a. Turnover = \$160,000 in trades per \$1 million of portfolio value = $16\%$.
 
-b. Realized capital gains are  $25 \times 400 = \$ 10,000$ on Etsy and $10 × 1,600 = $16,000 on Cisco. The tax owed on the capital gains is therefore .20 × \$26,000 = 5,200.
+b. Realized capital gains are $25 \times 400 = \$10,000$ on Etsy and $10 \times 1,600 = \$16,000$ on Cisco. The tax owed on the capital gains is therefore $0.20 \times \$26,000 = \$5,200$.
 

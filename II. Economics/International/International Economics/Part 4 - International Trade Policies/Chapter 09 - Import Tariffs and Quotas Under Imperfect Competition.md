@@ -1,12 +1,37 @@
 ---
 aliases:
-  - Import Tariffs and Quotas Under Imperfect Competition
-tags:
-key_concepts:
+- Import Tariffs and Quotas Under Imperfect Competition
+tags: null
+key_concepts: null
 parent_directory: Part 4 - International Trade Policies
 cssclasses: academia
 title: Chapter 09 - Import Tariffs and Quotas Under Imperfect Competition
 linter-yaml-title-alias: Chapter 09 - Import Tariffs and Quotas Under Imperfect Competition
+primary_tags:
+- shanghai volkswagen local monopoly
+- industry tariff argument chapter
+- analyze effect import tariff
+- tariffs quotas imperfect competition
+- foreign competitor import
+- safeguard tariff result itc
+secondary_tags:
+- automobiles sold china
+- shanghai gm producers
+- chinese partner shanghai automotive
+- detroit partly designed shanghai
+- shanghai volkswagen 1990s outdated
+- markups shanghai volkswagen highest
+- charged shanghai gm
+- rules favor antidumping duties
+- audi models produced shanghai
+- high tariffs quotas eliminated
+- china save gm hint
+- tariffs quotas foreign cars
+- discussed trade policy recently
+- imports caused material injury
+- brought trade cases china
+- international trade monopoly
+tags_extracted: '2025-12-18T00:39:20.307540'
 ---
 
 # Import Tariffs and Quotas Under Imperfect Competition

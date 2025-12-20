@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: FIGURE 22-13
 linter-yaml-title-alias: FIGURE 22-13
+primary_tags:
+- loan market equilibrium volatility
+- global recovery remains unclear
+- imf complacency
+- financial crisis aftermath
+- rate crises 2008
+- threat monetary regime convertibility
+secondary_tags:
+- talk imf irrelevance overdone
+- debt levels higher volatility
+- demand volatility rises loan
+- repayment likely volatility
+- volatility means country
+- level volatility
+- means higher probability default
+- volatility causes demand
+- loan demand curve
+- imf world needs economic
+- economy wealth destroyed panic
+- isn good thing imf
+- global financial crisis primarily
+- rate rises defaults likely
+- buffered economies global shock
+- markets thing imf bretton
+tags_extracted: '2025-12-18T00:48:14.414797'
 ---
 
 An Increase in Volatility What happens if the country has a higher level of volatility  $V'$ ? We now show how the loan supply and demand curves will shift to  $LS(V')$  and  $LD(V')$ , as shown in Figure 22-13.

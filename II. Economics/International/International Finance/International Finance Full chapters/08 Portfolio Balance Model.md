@@ -1,12 +1,28 @@
 ---
 aliases:
-  - Portfolio Balance Model
-tags:
-key_concepts:
+- Portfolio Balance Model
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 8: Portfolio Balance Model"
-linter-yaml-title-alias: "Chapter 8: Portfolio Balance Model"
+title: 'Chapter 8: Portfolio Balance Model'
+linter-yaml-title-alias: 'Chapter 8: Portfolio Balance Model'
+primary_tags:
+- portfolios implications exchange rate
+- balance model domestic rate
+- current account model following
+- international finance features model
+secondary_tags:
+- fxos domestic foreign bonds
+- portfolio balance model concept
+- risk holding foreign bond
+- omo fxo exchange rate
+- foreign rates equal exchange
+- risk sole currency risk
+- foreign bonds causes disequilibrium
+- models assume domestic foreign
+- shown figure fxo exchange
+tags_extracted: '2025-12-18T01:32:45.641530'
 ---
 
 # CHAPTER 8

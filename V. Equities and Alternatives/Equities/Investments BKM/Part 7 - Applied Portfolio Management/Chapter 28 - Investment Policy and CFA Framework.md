@@ -4,11 +4,32 @@ aliases:
   - Investment Policy and the Framework of the CFA Institute
 parent_directory: Part 7 - Applied Portfolio Management
 cssclasses: academia
+tags:
+  - CFA Institute Framework
+  - Investment Policy Statement
+  - Portfolio Management Process
+  - Asset Allocation
+  - Investment Objectives
+  - Investment Constraints
+  - Risk Tolerance
+  - Individual Investors
+  - Institutional Investors
+  - Pension Funds
+  - Tax Considerations
+  - Investment Management
+key_concepts:
+  - CFA Institute investment management process
+  - Investment Policy Statement (IPS)
+  - Investment objectives and constraints
+  - Strategic asset allocation
+  - Individual vs institutional investors
+  - Risk tolerance assessment
+  - Tax-deferred investment options
+  - Pension fund types and strategies
+  - Portfolio monitoring and rebalancing
 ---
 
 # Investment Policy and the Framework of the CFA Institute
-
-# 28
 
 TRANSLATING THE ASPIRATIONS and circumstances of diverse households into appropriate investment decisions is a daunting task. Financial advisors must translate vague and nonquantitative concerns into concrete investment decisions. The task is equally difficult for institutions, most of which have many stakeholders and often are regulated by various authorities. The investment process is not easily reduced to a simple or mechanical algorithm.
 
@@ -21,7 +42,7 @@ The basic framework involves dividing the investment process into four stages: s
 
 We examine how the special circumstances of both individuals as well as institutions such as pension funds affect investment decisions. We also will see how the tax system can affect investment decisions.
 
-# 28.1 The Investment Management Process
+## The Investment Management Process
 
 The CFA Institute divides the process of investment management into three main elements that constitute a dynamic feedback loop: planning, execution, and feedback. Figure 28.1 and Table 28.1 describe the steps in that process. As shorthand, you might think of planning as focused largely on establishing the inputs necessary for decision making. These include data about the client as well as the capital market, resulting in very broad policy guidelines (the strategic asset allocation). Execution fleshes out the details of optimal asset allocation and security selection. Finally, feedback is the process of adapting to changes in expectations and objectives as well as to changes in portfolio composition that result from changes in market prices.
 
@@ -32,24 +53,24 @@ Table 28.1 indicates that the management planning process starts by analyzing on
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/827286f6b5377b4244c3c534d84146b449be8b3bc29a86a9f2e3140b0b7c5d27.jpg)
 Figure 28.1 CFA Institute investment management process
 
-# I. Planning
+## Planning
 
-A. Identifying and specifying the investor's objectives and constraints
-B. Creating the Investment Policy Statement (see Table 28.2)
-C. Forming capital market expectations
-D. Creating the strategic asset allocation (target, minimum, and baseline asset-class weights)
+- Identifying and specifying the investor's objectives and constraints
+- Creating the Investment Policy Statement (see Table 28.2)
+- Forming capital market expectations
+- Creating the strategic asset allocation (target, minimum, and baseline asset-class weights)
 
-# II. Execution: Portfolio construction and revision
+## Execution: Portfolio construction and revision
 
-A. Asset allocation (including tactical) and portfolio optimization (combining assets to meet risk and return objectives)
-B. Security selection
-C. Implementation and execution
+- Asset allocation (including tactical) and portfolio optimization (combining assets to meet risk and return objectives)
+- Security selection
+- Implementation and execution
 
-# III. Feedback
+## Feedback
 
-A. Monitoring (investor, economic, and market input factors)
-B. Rebalancing
-C. Performance evaluation
+- Monitoring (investor, economic, and market input factors)
+- Rebalancing
+- Performance evaluation
 
 # Table 28.1
 
@@ -88,11 +109,11 @@ Add the number of points for all seven questions. Add one point if you choose th
 
 Source: Securities Industry and Financial Markets Association.
 
-# 28.2 Investor Objectives
+## Investor Objectives
 
 Objectives and constraints vary widely across investor types. We begin with a brief overview of the broad objectives that characterize eight major categories of investors, focusing on their return objectives and tolerance for risk.
 
-# Individual Investors
+### Individual Investors
 
 The basic factors affecting an individual investor's objectives usually arise from that person's stage in the life cycle. The first significant investment decision commonly concerns education, which is an investment in "human capital." The major asset most people have during their early working years is the earning power derived from their skills. At this stage of life, the financial risk due to illness or injury is far greater than that associated with the rate of return on their portfolios of financial assets. Therefore, the most important financial decisions concern insurance against the possibility of disability or death.
 
@@ -101,19 +122,29 @@ As one ages and accumulates savings to provide for consumption during retirement
 
 Questionnaires such as the one in the nearby box suggest that risk aversion increases as investors near retirement age. With age, individuals lose the potential to recover from disastrous investment performance. When they are young, they can respond to a loss by working harder (or further into their old age) and saving more of their income. But as retirement approaches, investors have less time to recalibrate their financial plans—hence, their decreasing tolerance for risk.
 
-Personal Trusts Personal trusts are established when an individual confers legal title to property to another person or institution (the trustee) to manage that property for one or more beneficiaries. The trustee is usually a bank, a lawyer, or an investment professional. Investment of a trust is subject to trust laws, as well as "prudent investor" rules that limit investments to those that a prudent person would select.
+### Personal Trusts
+
+Personal trusts are established when an individual confers legal title to property to another person or institution (the trustee) to manage that property for one or more beneficiaries. The trustee is usually a bank, a lawyer, or an investment professional. Investment of a trust is subject to trust laws, as well as "prudent investor" rules that limit investments to those that a prudent person would select.
 
 Objectives for personal trusts normally are more limited in scope than those of individual investors. Because of their fiduciary responsibility, personal trust managers typically are more risk averse than are individual investors. Certain asset classes such as options and futures contracts, for example, and strategies such as short-selling or buying on margin are ruled out.
 
-Mutual Funds Mutual funds are pools of investors' money. They invest in ways specified in their prospectuses and issue shares to investors entitling them to a pro rata portion of the income generated by the funds. The return requirement and risk tolerance across mutual funds are highly variable because funds segment the investor market. Various funds appeal to distinct investor groups and will adopt a return requirement and risk tolerance that fit a particular market niche. For example, income funds cater to the conservative investor, while high-growth funds seek out the more risk-tolerant ones. Tax-free bond funds segment the market by tax bracket. A mutual fund's orientation is spelled out in its prospectus.
+### Mutual Funds
 
-Pension Funds Pension fund objectives depend on the type of pension plan. There are two basic types: defined contribution plans and defined benefit plans. Defined contribution plans [e.g., 401(k) plans] are in effect tax-deferred retirement savings accounts, with the employee bearing all the risk and receiving all the return from the plan's assets. These plans are called defined contribution because the firm's only obligation is to make the stipulated contributions to the employee's retirement account. The employee is responsible for directing the management of the assets, usually by selecting among several investment funds in which the assets can be placed. Therefore, objectives for defined contribution plans are similar to those that would pertain to each individual investor.
+Mutual funds are pools of investors' money. They invest in ways specified in their prospectuses and issue shares to investors entitling them to a pro rata portion of the income generated by the funds. The return requirement and risk tolerance across mutual funds are highly variable because funds segment the investor market. Various funds appeal to distinct investor groups and will adopt a return requirement and risk tolerance that fit a particular market niche. For example, income funds cater to the conservative investor, while high-growth funds seek out the more risk-tolerant ones. Tax-free bond funds segment the market by tax bracket. A mutual fund's orientation is spelled out in its prospectus.
 
-In defined benefit plans, by contrast, the employer has an obligation to provide a specified annual retirement benefit. That benefit is defined by a formula that typically takes into account years of service and the level of salary or wages. For example, the employer may pay the retired employee a yearly amount equal to  $2\%$  of the employee's final annual salary for each year of service. Employees who had worked for 30 years would then receive an annual benefit equal to  $60\%$  of their final salary. The payments are an obligation of the employer, and the assets in the pension fund provide collateral for the promised benefits. If the investment performance of the assets is poor, the firm is obligated to make up the shortfall by contributing additional assets to the fund. Therefore, many defined benefit plans take an assumed rate of return for the asset portfolio as their return objective, with the risk surrounding investment performance borne by the firm. We discuss pension plans more fully later in this chapter.
+### Pension Funds
 
-Endowment Funds Endowment funds are organizations chartered to use their money for specific nonprofit purposes. They are financed by gifts from one or more sponsors and are typically managed by educational, cultural, and charitable organizations or by independent foundations established to carry out the fund's specific purposes. Generally, the investment objective is to produce a steady flow of income subject to only a moderate degree of risk. Moreover, because these funds often are envisioned as lasting for generations, they also seek to at least maintain the real value of the asset portfolio. Trustees of an endowment fund, however, can specify other objectives as dictated by specific circumstances.
+Pension fund objectives depend on the type of pension plan. There are two basic types: defined contribution plans and defined benefit plans. Defined contribution plans [e.g., 401(k) plans] are in effect tax-deferred retirement savings accounts, with the employee bearing all the risk and receiving all the return from the plan's assets. These plans are called defined contribution because the firm's only obligation is to make the stipulated contributions to the employee's retirement account. The employee is responsible for directing the management of the assets, usually by selecting among several investment funds in which the assets can be placed. Therefore, objectives for defined contribution plans are similar to those that would pertain to each individual investor.
 
-Life Insurance Companies Life insurance companies generally try to invest so as to hedge their liabilities, which are defined by the policies they write. The company can reduce risk by investing in assets that will return more in the event the insurance policy coverage becomes more expensive.
+In defined benefit plans, by contrast, the employer has an obligation to provide a specified annual retirement benefit. That benefit is defined by a formula that typically takes into account years of service and the level of salary or wages. For example, the employer may pay the retired employee a yearly amount equal to $2\%$ of the employee's final annual salary for each year of service. Employees who had worked for 30 years would then receive an annual benefit equal to $60\%$ of their final salary. The payments are an obligation of the employer, and the assets in the pension fund provide collateral for the promised benefits. If the investment performance of the assets is poor, the firm is obligated to make up the shortfall by contributing additional assets to the fund. Therefore, many defined benefit plans take an assumed rate of return for the asset portfolio as their return objective, with the risk surrounding investment performance borne by the firm. We discuss pension plans more fully later in this chapter.
+
+### Endowment Funds
+
+Endowment funds are organizations chartered to use their money for specific nonprofit purposes. They are financed by gifts from one or more sponsors and are typically managed by educational, cultural, and charitable organizations or by independent foundations established to carry out the fund's specific purposes. Generally, the investment objective is to produce a steady flow of income subject to only a moderate degree of risk. Moreover, because these funds often are envisioned as lasting for generations, they also seek to at least maintain the real value of the asset portfolio. Trustees of an endowment fund, however, can specify other objectives as dictated by specific circumstances.
+
+### Life Insurance Companies
+
+Life insurance companies generally try to invest so as to hedge their liabilities, which are defined by the policies they write. The company can reduce risk by investing in assets that will return more in the event the insurance policy coverage becomes more expensive.
 
 For example, if the company writes a policy that pays a death benefit linked to the consumer price index, then the company is subject to inflation risk. It might search for assets expected to return more when the rate of inflation rises, thus hedging the price-index linkage of the policy.
 
@@ -123,9 +154,13 @@ The interest rate embedded in the schedule of cash value accumulation promised u
 
 During the inflationary years of the 1970s and early 1980s, when many older whole-life policies carried contractual borrowing rates far lower than those available in the capital markets, policyholders borrowed heavily against the cash value to invest in money market mutual funds paying double-digit yields. In response, the insurance industry came up with two new policy types: variable life and universal life. Under a variable life policy, the insured's premium buys a fixed death benefit plus a cash value that can be invested in a variety of mutual funds. With a universal life policy, policyholders can increase or reduce the premium or death benefit according to their needs. Furthermore, the interest rate on the cash value component changes with market interest rates. One important advantage of variable and universal life insurance policies is that earnings on the cash value are not taxed until the money is withdrawn.
 
-Non-Life Insurance Companies Non-life insurance companies such as property and casualty insurers have investable funds primarily because they pay claims after they collect policy premiums. Typically, they are conservative in their attitude toward risk. A common thread in the objectives of pension plans and insurance companies is the need to hedge predictable long-term liabilities. Investment strategies typically call for hedging these liabilities with bonds of various maturities.
+### Non-Life Insurance Companies
 
-Banks Most bank investments are loans to businesses and consumers, and most of their liabilities are accounts of depositors. As investors, banks try to match the risk of assets to liabilities while earning a profitable spread between the lending and borrowing rates.
+Non-life insurance companies such as property and casualty insurers have investable funds primarily because they pay claims after they collect policy premiums. Typically, they are conservative in their attitude toward risk. A common thread in the objectives of pension plans and insurance companies is the need to hedge predictable long-term liabilities. Investment strategies typically call for hedging these liabilities with bonds of various maturities.
+
+### Banks
+
+Most bank investments are loans to businesses and consumers, and most of their liabilities are accounts of depositors. As investors, banks try to match the risk of assets to liabilities while earning a profitable spread between the lending and borrowing rates.
 
 Most liabilities of banks and thrift institutions are checking accounts, time or savings deposits, and certificates of deposit (CDs). Checking account funds may be withdrawn at any time, so they are of the shortest maturity. Time or savings deposits are of various maturities. Some time deposits may extend as long as several years, but, on average, they have fairly short maturity. CDs are bonds of various maturities that the bank issues to investors. While the range of maturities is from 90 days to 10 years, the average is about one year.
 
@@ -143,7 +178,7 @@ Matrix of investor objectives
 
 Table 28.4
 
-# 28.3 Investor Constraints
+## Investor Constraints
 
 Even with identical attitudes toward risk, different households and institutions might choose different investment portfolios because of their differing circumstances. These circumstances, which include tax status, requirements for liquidity or a flow of income from the portfolio, or various regulatory restrictions, impose constraints on investor choice. Together, objectives and constraints determine investment policy.
 
@@ -151,11 +186,11 @@ Some constraints arise from an investor's particular circumstances. For example,
 
 Table 28.5 presents a matrix summarizing the main constraints for each of the eight types of investors. The following discussion elaborates on these constraints.
 
-# Liquidity
+### Liquidity
 
 Liquidity is the ease (and speed) with which an asset can be sold and still fetch a fair price. It is a relationship between the time dimension (how long will it take to sell) and the price dimension (any discount from intrinsic value) of an investment asset. (See the discussion of liquidity in Chapter 9.)
 
-When a quantitative measure of liquidity is necessary, one thinks of the discount when an immediate sale is unavoidable. Cash and money market instruments such as Treasury bills and commercial paper, where the bid-ask spread is a small fraction of  $1\%$ , are the most liquid assets, and real estate is among the least liquid. Office buildings and manufacturing structures can potentially experience a  $50\%$  liquidity discount.
+When a quantitative measure of liquidity is necessary, one thinks of the discount when an immediate sale is unavoidable. Cash and money market instruments such as Treasury bills and commercial paper, where the bid-ask spread is a small fraction of $1\%$, are the most liquid assets, and real estate is among the least liquid. Office buildings and manufacturing structures can potentially experience a $50\%$ liquidity discount.
 
 Both individual and institutional investors must consider how likely they are to dispose of assets at short notice. From this likelihood, they establish the minimum level of liquid assets they require in the investment portfolio.
 
@@ -167,11 +202,11 @@ Matrix of constraints
 
 * The mutual fund itself does not pay taxes, as all investment income is “passed through” to investors. However, it may pay attention to taxes on behalf of its investors.
 
-# Investment Horizon
+### Investment Horizon
 
 This is the planned liquidation date of the investment or substantial part of it. Examples of an individual investment horizon could be the time to fund a child's college education or the retirement date for a wage earner. For a university endowment, an investment horizon could relate to the time to fund a major campus construction project. Horizon needs to be considered when investors choose between assets of various maturities, such as bonds, which pay off at specified future dates. For example, the maturity date of a bond might make it a more attractive investment if it coincides with a date on which cash is needed. This idea is analogous to the matching principle from corporate finance: Strive to match financing maturity to the economic life of the financed asset.
 
-# Regulations
+### Regulations
 
 Professional and institutional investors are constrained by many regulations. First and foremost is the prudent investor rule. That is, professional investors have a responsibility to restrict investments to assets that would have been approved by a prudent investor. The law is purposefully nonspecific. The asset manager must stand ready to defend an investment policy, and interpretation may differ according to the standards of the times.
 
@@ -181,11 +216,11 @@ Critics of the new regulation argue that it is too vague about how brokers shoul
 
 Also, specific regulations apply to various institutional investors. For instance, U.S. mutual funds are subject to regulations that put upper bounds on the allowed use of leverage or investments in illiquid securities and lower bounds on some measures of diversification.
 
-# Tax Considerations
+### Tax Considerations
 
 Tax consequences are central to investment decisions. The performance of any investment strategy is measured by how much it yields after taxes. For household and institutional investors who face significant tax rates, tax sheltering and deferral of tax obligations may be pivotal in their investment strategy. We put off an extensive discussion of tax considerations until later in the chapter.
 
-# Unique Needs
+### Unique Needs
 
 Virtually every investor faces special circumstances. Imagine husband-and-wife aeronautical engineers holding high-paying jobs in the same aerospace corporation. The entire human capital of that household is tied to a single player in a rather cyclical industry. This couple would need to hedge the risk of a deterioration of the economic well-being of the aerospace industry by investing in assets that will yield more if such deterioration materializes.
 
@@ -202,7 +237,7 @@ A particular constraint for mutual funds arises from investor response to the fu
 
 Pension funds are heavily regulated by the Employee Retirement Income Security Act of 1974 (ERISA). This law revolutionized savings for retirement in the U.S. and remains a major piece of social legislation. Thus, for pension funds, regulatory constraints are relatively important. Also, mature pension funds are required to pay out more than young funds and hence need more liquidity.
 
-Life insurance companies are subject to complex regulation. The corporate tax rate, which currently is  $21\%$ , also applies to insurance company investment income, so taxes are an important concern.
+Life insurance companies are subject to complex regulation. The corporate tax rate, which currently is $21\%$, also applies to insurance company investment income, so taxes are an important concern.
 
 Property and casualty insurance, like term life insurance, is written on a short-term basis. Most policies must be renewed annually, which means property and casualty insurance companies are subject to short-term horizon constraints.
 
@@ -210,14 +245,15 @@ The short horizon constraint for banks comes from the interest rate risk compone
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/9b58d7d52f30b64903a3faea3774557c9c0db482f5ae1351656d3383c45733e2.jpg)
 
-# Concept Check 28.1 a. Think about the financial circumstances of your closest relative in your parents' generation (e.g., your parents' household if you are fortunate enough to have them around). Write down the objectives and constraints for their investment decisions.
+### Concept Check 28.1
 
+a. Think about the financial circumstances of your closest relative in your parents' generation (e.g., your parents' household if you are fortunate enough to have them around). Write down the objectives and constraints for their investment decisions.
 
 b. Now consider the financial situation of your closest friend or relative who is in about 35 years old. Write down the objectives and constraints that would fit that individual's investment decision.
 
 c. How much of the difference between the two statements is due to the age of the investors?
 
-# 28.4 Policy Statements
+## Policy Statements
 
 Once objectives and constraints are determined, an investment policy that suits the investor can be formulated. That policy must reflect an appropriate risk-return profile as well as address needs for liquidity, income generation, and tax positioning. Institutional investors such as pension plans and endowments often must issue formal statements of their investment policy. These policy statements should be based on, and often make explicit, the objectives and constraints of the investment fund.
 
@@ -225,25 +261,25 @@ The investment policy statement (IPS) serves as a strategic guide to the plannin
 
 The nearby box suggests desirable components of an investment policy statement for use with individual and/or high net worth investors. Not every component will be appropriate for every investor or every situation, and there may be other components that are desirable for inclusion reflecting unique investor circumstances.
 
-# Sample Policy Statements for Individual Investors
+### Sample Policy Statements for Individual Investors
 
 Perhaps the best way to get a concrete feel for deriving actual policy statements is to consider a sample of such statements for a variety of investors. Therefore, we next present several examples.
 
-# 1. Scope and Purpose
+### 1. Scope and Purpose
 
-# 1a. Define the context:
+#### 1a. Define the context:
 
 A preamble is often useful to relate information about the investor and/or the source of wealth as a way of establishing the context in which an investment program will be implemented.
 
 Example: "The assets of the Leveaux family trusts trace back to the establishment of Leveaux Vintners in 1902 by Claude Leveaux. In 1979, LVX Industries was purchased by the British conglomerate FoodCo. Michelle Leveaux established the Leveaux Foundation with 100 million of the sale proceeds, and much of the remainder constituted the Leveaux Family Trusts, which are the subject of this investment policy statement."
 
-# 1b. Define the investor:
+#### 1b. Define the investor:
 
 Define who the investor is, be it a natural person or legal/corporate entity.
 
 Example: "This Investment Policy Statement governs the personal investment portfolios of Mr. Chen Guangping."
 
-# 1c. Define the structure:
+#### 1c. Define the structure:
 
 Set forth key responsibilities and actors.
 
@@ -295,7 +331,7 @@ Set forth a "standard of care" for those serving as adviser. Regulations in diff
 
 Example: "Fuji Advisors acts as a fiduciary in its capacity as adviser to the Takesumi Family Accounts, and acknowledges that all advice and decisions rendered must reflect first and foremost the best interests of its clients."
 
-# 2. Governance
+### 2. Governance
 
 2a. Specify who is responsible for determining investment policy, executing investment policy, and monitoring the results of implementation of the policy. The IPS assigns responsibility for all stages of investment policy development and implementation.
 2b. Describe the process for review and updating of the IPS. A process for refreshing the IPS as investor circumstances and/or market conditions change should be clearly identified in advance.
@@ -319,7 +355,7 @@ Example: "The investment program governed by the IPS is intended to supplement t
 
 State the overall investment performance objective. Careful specification of the overall investment performance objective is likely to incorporate descriptions of general funding needs as well as relations to key factors (such as inflation, spending rate, etc.).
 
-Example: "The financial plan developed for Margarita Mendez indicates a required real growth rate of  $4\%$  to satisfy her future obligations and allow her to retire in 2034 as planned."
+Example: "The financial plan developed for Margarita Mendez indicates a required real growth rate of $4\%$ to satisfy her future obligations and allow her to retire in 2034 as planned."
 
 Identify performance objectives for each asset class eligible for investment. The investment policy statement should set forth all permissible asset classes in which the portfolio may be invested. Some investors may wish to risk-adjust the benchmark return and portfolio return for purposes of comparison.
 
@@ -327,7 +363,7 @@ Example: "The Family Trust accounts may invest in U.S. equity, U.S. fixed income
 
 Define distribution/spending assumptions or policies. Spending or distributions from the portfolio should be defined.
 
-Example: "Based on the overall expected portfolio return of  $7.5\%$ , fees of  $1.2\%$ , inflation of  $2.8\%$ , and an effective tax rate of  $32\%$  of total appreciation, the Linzer Trust Portfolio may support an annual spending rate of  $1.2\%$  of the portfolio market value while retaining potential for capital preservation or nominal growth."
+Example: "Based on the overall expected portfolio return of $7.5\%$, fees of $1.2\%$, inflation of $2.8\%$, and an effective tax rate of $32\%$ of total appreciation, the Linzer Trust Portfolio may support an annual spending rate of $1.2\%$ of the portfolio market value while retaining potential for capital preservation or nominal growth."
 
 Define a policy portfolio to serve as a basis for performance and risk assessments. An asset allocation policy should designate target allocations to each asset class, with allowable ranges around the targets.
 
@@ -336,7 +372,7 @@ Define a policy portfolio to serve as a basis for performance and risk assessmen
 Describe the investor's general philosophy regarding tolerance of risk. The IPS should acknowledge the assumption of risk and the potential for returns associated with risk to be both positive and negative over time. Relevant risks are usually myriad, and may include liquidity, legal, political, regulatory, longevity, mortality, business, and/or health risks.
 
 
-Example: "Tower Advisors understands that an absolute loss in any 12-month period of more than  $-33\%$  is intolerable."
+Example: "Tower Advisors understands that an absolute loss in any 12-month period of more than $-33\%$ is intolerable."
 
 3d. Describe relevant constraints. Investors must address a variety of constraints that affect their investment programs. Such constraints may reflect legal or regulatory imperatives or may reflect internal policies.
 
@@ -348,7 +384,7 @@ Example: "The basis for evaluation of relative success in achieving investment o
 
 Identify any requirements for maintaining liquidity. Investors may have short- or medium-term needs for cash, which should be specified in the IPS.
 
-Example: "Up to  $15\%$  of the market value of the portfolio should be invested such that it could be liquidated upon five days' notice without suffering capital depreciation."
+Example: "Up to $15\%$ of the market value of the portfolio should be invested such that it could be liquidated upon five days' notice without suffering capital depreciation."
 
 Identify to what extent, if any, tax considerations shall affect investment decision making. The investor's general tax situation as well as specific tax issues should be accounted for in the investment policy statement.
 
@@ -358,7 +394,7 @@ Example: "Management of the Aquilla Family Foundation account is subject to the 
 
 Specify any policies related to leverage. The ability to leverage portfolios may be constrained by policy or relevant statute.
 
-Example: "At the discretion of Tower Advisors as investment manager, the Xie Weng portfolio may be marginined up to  $50\%$  of its value."
+Example: "At the discretion of Tower Advisors as investment manager, the Xie Weng portfolio may be marginined up to $50\%$ of its value."
 
 3e. Describe other considerations relevant to investment strategy.
 
@@ -382,26 +418,27 @@ Boundaries of acceptable variations from target should be specified.
 
 Example for an Individual Investor: "On the first business day of each new quarter, the investment adviser for the Jensen personal accounts will propose rebalancing transactions to return the accounts to their target allocations, and shall execute these transactions within two business days."
 
-# 28.5 Asset Allocation
+## Asset Allocation
 
 Consideration of their objectives and constraints leads investors to a set of investment policies. The policies column in Table 28.3 lists the various dimensions of portfolio management policymaking—asset allocation, diversification, risk and tax positioning, and income generation. By far the most important part of policy determination is asset allocation, that is, deciding how much of the portfolio to invest in each major asset category.
 
 We can view the process of asset allocation as consisting of the following steps:
 
 1. Specify asset classes to be included in the portfolio. The major classes usually considered are the following:
-
-$a$ . Money market instruments (usually called cash).
-$b$ . Fixed-income securities (usually called bonds).
-c. Stocks, both U.S. and non-U.S.
-d. Real estate.
-e. Precious metals.
-$f$ . Alternative assets such as private equity or hedge funds.
+   - Money market instruments (usually called cash).
+   - Fixed-income securities (usually called bonds).
+   - Stocks, both U.S. and non-U.S.
+   - Real estate.
+   - Precious metals.
+   - Alternative assets such as private equity or hedge funds.
 
 2. Specify capital market expectations. This step consists of using both historical data and economic analysis to determine your expectations of future rates of return over the relevant holding period on the assets to be considered for inclusion in the portfolio. (Look back at Figure 28.1 and Table 28.1, and you will see that the CFA Institute classifies this part of the planning process as the formation of "capital market expectations.")
+
 3. Derive the efficient portfolio frontier. This step consists of finding portfolios that achieve the maximum expected return for any given degree of risk.
+
 4. Find the optimal asset mix. This step consists of selecting the efficient portfolio that best meets your risk and return objectives while satisfying the constraints you face. Given the risk-return positioning of the investor and the set of expectations, an optimal asset mix may be formed (see Panel II, Execution, in Table 28.1).
 
-# Top-Down Asset Allocation for Institutional Investors
+### Top-Down Asset Allocation for Institutional Investors
 
 Individual investors need not concern themselves with organizational efficiency. But professional investors with large amounts to invest must structure asset allocation activities to decentralize some of the decision making.
 
@@ -410,9 +447,9 @@ Common features of large organizations are the investment committee and the asse
 
 The investment committee has responsibility for broad asset allocation. While the investment manager might have some leeway to tilt the portfolio toward or away from one or another asset class, the investment committee establishes the benchmark allocation that largely determines the risk characteristics of the portfolio. The task of choosing specific securities from the approved universe is more fully delegated to the investment manager.
 
-Figure 28.2 illustrates the stages of the portfolio choice process for Palatial Investments, a hypothetical firm that invests internationally. The first two stages are asset allocation choices. The broadest choice is in the weighting of the portfolio between U.S. and Japanese securities. Palatial has chosen a weight of  $75\%$  in the United States and  $25\%$  in Japan. The allocation of the portfolio across asset classes may now be determined. For example,  $15\%$  of the U.S. portfolio is invested in cash equivalents,  $40\%$  in fixed income, and  $45\%$  in equity. The asset-class weights are, in general, a policy decision of the investment committee, although investment managers might have some authority to alter the asset allocation to limited degrees based on their expectations concerning the investment performance of various asset classes. Finally, security selection within each country is determined by the portfolio manager from the approved universe. For example,  $45\%$  of funds held in the U.S. equity market will be placed in IBM,  $35\%$  in GM, and  $20\%$  in ExxonMobil. (We show only three securities in the figure because of space limitations. Obviously a 1 billion fund will hold securities of many more firms.)
+Figure 28.2 illustrates the stages of the portfolio choice process for Palatial Investments, a hypothetical firm that invests internationally. The first two stages are asset allocation choices. The broadest choice is in the weighting of the portfolio between U.S. and Japanese securities. Palatial has chosen a weight of $75\%$ in the United States and $25\%$ in Japan. The allocation of the portfolio across asset classes may now be determined. For example, $15\%$ of the U.S. portfolio is invested in cash equivalents, $40\%$ in fixed income, and $45\%$ in equity. The asset-class weights are, in general, a policy decision of the investment committee, although investment managers might have some authority to alter the asset allocation to limited degrees based on their expectations concerning the investment performance of various asset classes. Finally, security selection within each country is determined by the portfolio manager from the approved universe. For example, $45\%$ of funds held in the U.S. equity market will be placed in IBM, $35\%$ in GM, and $20\%$ in ExxonMobil. (We show only three securities in the figure because of space limitations. Obviously a 1 billion fund will hold securities of many more firms.)
 
-These ever-finer decisions determine the proportion of each individual security in the overall portfolio. As an example, consider the proportion of Palatial's portfolio invested in ExxonMobil,  $6.75\%$ . This fraction results from the following decisions: First, the United States receives a weight of  $75\%$  of the overall portfolio, and equities comprise  $45\%$  of the U.S. component of the portfolio. These are asset allocation choices. ExxonMobil comprises  $20\%$  of the U.S. equity component of the portfolio. This is a security selection choice. Therefore, ExxonMobil's weight in the overall portfolio is  $.75 \times .45 \times .20 = .0675$ , or  $6.75\%$ . If the entire portfolio is \$1 billion, \$67,500,000 will be invested in ExxonMobil. If ExxonMobil is selling for 45 a share, 1.5 million shares must be purchased. The bottom line in Figure 28.2 shows the percentage of the overall portfolio held in each asset.
+These ever-finer decisions determine the proportion of each individual security in the overall portfolio. As an example, consider the proportion of Palatial's portfolio invested in ExxonMobil, $6.75\%$. This fraction results from the following decisions: First, the United States receives a weight of $75\%$ of the overall portfolio, and equities comprise $45\%$ of the U.S. component of the portfolio. These are asset allocation choices. ExxonMobil comprises $20\%$ of the U.S. equity component of the portfolio. This is a security selection choice. Therefore, ExxonMobil's weight in the overall portfolio is $.75 \times .45 \times .20 = .0675$, or $6.75\%$. If the entire portfolio is \$1 billion, \$67,500,000 will be invested in ExxonMobil. If ExxonMobil is selling for 45 a share, 1.5 million shares must be purchased. The bottom line in Figure 28.2 shows the percentage of the overall portfolio held in each asset.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/e5d6e0fae5a7672ec347bb7ab360a6c1600ed4380a404498e9986c24488973db.jpg)
 Figure 28.2 Asset allocation and security selection for Palatial Investments
@@ -420,7 +457,7 @@ Figure 28.2 Asset allocation and security selection for Palatial Investments
 
 This example illustrates a top-down approach that is consistent with the needs of large organizations. The top managers set the overall policy of the portfolio by specifying asset allocation guidelines. Lower-level portfolio managers fill in the details with their security selection decisions.
 
-# Monitoring and Revising the Portfolio
+### Monitoring and Revising the Portfolio
 
 Choosing the investment portfolio requires the investor to set objectives, acknowledge constraints, determine asset-class proportions, and perform security analysis. Is the process ever finished and behind us? By the time we have completed all of these steps, many of the inputs we have used will be out of date. Moreover, investor circumstances as well as objectives change over time. Therefore, the investment process requires that we continually monitor and update our portfolios. This is the task of rebalancing, part of the feedback process described earlier in Table 28.1 and Figure 28.1.
 
@@ -428,11 +465,11 @@ Asset allocation also will change over time as the investment performance of dif
 
 Therefore, investing is a dynamic process, meaning that you must continually update and reevaluate your decisions over time.
 
-# 28.6 Managing Portfolios of Individual Investors
+## Managing Portfolios of Individual Investors
 
 Now that we have outlined general considerations for investment policy, we can look at the particular issues that confront a range of investors. We begin with issues relevant to individuals.
 
-# Investment in Residence
+### Investment in Residence
 
 The first major economic asset many people acquire is their own house. Deciding to buy rather than rent a residence qualifies as an investment decision.
 
@@ -440,7 +477,7 @@ An important consideration in assessing the risk and return aspects of this inve
 
 The second kind of risk is that the particular house or apartment where you live may not always be available to you. By buying, you guarantee its availability.
 
-# Saving for Retirement and the Assumption of Risk
+### Saving for Retirement and the Assumption of Risk
 
 People save and invest money to provide for future consumption and leave an estate. The primary aim of lifetime savings is to allow maintenance of the customary standard of living after retirement. As Figure 28.3 suggests, your retirement consumption depends on your life expectancy at that time. Life expectancy, conditional on retirement at age 66, www.glasbergen.com. Copyright 2000 by Randy Glasbergen. Reprinted by permission of Randy Glasbergen.
 
@@ -450,7 +487,7 @@ Figure 28.3 Long life expectancy is a double-edged sword
 
 approximates 86 years, so the average retiree needs to prepare a 20-year nest egg as well as sufficient savings to cover unexpected health care costs or the "risk" of living longer and outlasting your savings. Investment income may also increase the welfare of one's heirs, favorite charity, or both.
 
-# Retirement Planning Models
+### Retirement Planning Models
 
 There are many online retirement planners. You can find links to several of them at the American Savings Educational Council (ASEC) website: www .choosefosave.org/calculators/. (ASEC is a program of the Employee Benefit Research Institute. Look for their calculator under the Tools tab.) These calculators all follow similar logic. First, estimate the value of your total assets as of the date you retire. This will depend on your current assets, your projected savings rate, and the projected rate of return. Using this forecast of retirement wealth, an assumed interest rate at retirement, and a life expectancy, you can calculate the annual income annuity your retirement wealth can generate. Then you add the income you might continue to receive in retirement, for example, from
 
@@ -460,7 +497,7 @@ Figure 28.4 shows the results of this sort of analysis from ASEC's "Ballpark E\$
 
 This is actually a very simple example of available calculators. Others can determine appropriate interest rates for you based on market data and can enforce consistency across your inputs (e.g., between interest and inflation rates). In addition, rather than a single scenario, they can perform statistical simulation models that allow for uncertainty in wage growth, rates of return, inflation rates, and so on, thus providing for probabilistic assessments of the likelihood of meeting retirement goals.
 
-# Target Date Funds
+### Target Date Funds
 
 A target-date retirement fund (TDRF) is a fund composed of other funds, diversified across stocks, bonds, and money market accounts, in which the asset allocation becomes progressively more conservative as the investor approaches retirement. TDRFs are often advocated as a simple solution to the complex task of determining the appropriate asset allocation among funds in 401(k) plans, IRAs, and other personal investment accounts. TDRFs are marketed as enabling individuals to put their investment plans on autopilot. Once you choose a fund with a target year matching your investment horizon, the life-cycle manager gradually moves some of your money out of stocks and into bonds as your retirement date nears.
 
@@ -469,7 +506,7 @@ Figure 28.4 Sample output from American Savings Educational Council (ASEC) Retir
 
 Source: http://www.choosetosave.org/ballpark/index.cfm.
 
-# Tax Sheltering and Asset Allocation
+### Tax Sheltering and Asset Allocation
 
 Three important tax deferral options can meaningfully affect optimal asset allocation for individual investors. Tax deferral generally refers to putting off investment taxes until the future, thus allowing your portfolio to grow at a tax-free or at least tax-advantaged rate.
 
@@ -482,7 +519,7 @@ Finally, investment products such as tax-deferred annuities offered by life insu
 
 The Tax-Deferral Option A fundamental feature of the U.S. Internal Revenue Code is that tax on a capital gain on an asset is payable only when the asset is sold; this is its tax-deferral option. The investor therefore can control the timing of the tax payment. This conveys a benefit to stock investments.
 
-To see this, compare IBM stock with an IBM bond. Suppose both offer an expected total (pretax) return of  $12\%$ . The stock has a dividend yield of  $4\%$  and expected price appreciation of  $8\%$ , whereas the bond pays an interest rate of  $12\%$ . The bond investor must pay tax on the bond's interest in the year it is earned, whereas the stockholder pays tax only on the dividend and defers paying capital gains tax until the stock is sold.
+To see this, compare IBM stock with an IBM bond. Suppose both offer an expected total (pretax) return of $12\%$. The stock has a dividend yield of $4\%$ and expected price appreciation of $8\%$, whereas the bond pays an interest rate of $12\%$. The bond investor must pay tax on the bond's interest in the year it is earned, whereas the stockholder pays tax only on the dividend and defers paying capital gains tax until the stock is sold.
 
 Suppose one invests 1,000 for five years. Although in reality interest is taxed as ordinary income while capital gains and dividends are taxed at a rate of only 15\% for many investors,[2] to isolate the benefit of tax deferral, we will assume that all investment income is taxed at 15\%. The bond will earn an after-tax return of 12\% \times (1 - .15) = 10.2\%. The after-tax accumulation at the end of five years is
 
@@ -490,7 +527,7 @@ $$
 \$ 1,000 \times 1.102 ^ {5} = \$ 1,625.20
 $$
 
-For the stock, the dividend yield after taxes is  $4\% \times (1 - .15) = 3.4\%$ . Because no taxes are paid on the  $8\%$  annual capital gain until year 5, the before-tax accumulation will be
+For the stock, the dividend yield after taxes is $4\% \times (1 - .15) = 3.4\%$. Because no taxes are paid on the $8\%$ annual capital gain until year 5, the before-tax accumulation will be
 
 $$
 \$ 1,000 \times (1 + .034 + .08) ^ {5} = 1,000 (1.114) ^ {5} = \$ 1,715.64
@@ -527,11 +564,11 @@ To see this point, consider an investor who has  \$200,000 of wealth, of which\$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/605d78efd2f5e9a0cf26e19e72f36da733efeec9db461ad81209389d5742d7fc.jpg)
 
-# Concept Check 28.2
+### Concept Check 28.2
 
-Suppose our investor earns a  $10\%$  per year rate of interest on bonds and a  $15\%$  per year return on stocks, with all earnings reinvested. In five years, she will withdraw all her funds and spend them. By how much will she increase her final accumulation if she shifts all bonds into the retirement account and holds all stocks outside the retirement account? Assume the tax rate on interest income as well as the tax rate on ordinary income is  $28\%$ , while the tax rate on capital gains is  $15\%$ . Also assume that equity income is entirely in the form of capital gains, on which taxes are not paid until the investor cashes in the fund in five years.
+Suppose our investor earns a $10\%$ per year rate of interest on bonds and a $15\%$ per year return on stocks, with all earnings reinvested. In five years, she will withdraw all her funds and spend them. By how much will she increase her final accumulation if she shifts all bonds into the retirement account and holds all stocks outside the retirement account? Assume the tax rate on interest income as well as the tax rate on ordinary income is $28\%$, while the tax rate on capital gains is $15\%$. Also assume that equity income is entirely in the form of capital gains, on which taxes are not paid until the investor cashes in the fund in five years.
 
-Traditional IRA and  $401(\mathrm{k})$  plans allow investors to avoid taxes on current income because the funds contributed to the retirement plan are not taxed in the current year. But all the proceeds (both the original contribution and the subsequent investment earnings) are taxed at withdrawal. In contrast, Roth plans allow investors to contribute after-tax income to the retirement plan (so there is no tax break in the current year), but they then avoid taxation of future investment income. To compare the plans, think about an employee in a  $30\%$  tax bracket with \$10,000 in income that will be invested in either a traditional or Roth tax-sheltered plan. Assume that the invested funds will earn  $8\%$  per year and be invested for 20 years, at which point the worker will retire.
+Traditional IRA and $401(\mathrm{k})$ plans allow investors to avoid taxes on current income because the funds contributed to the retirement plan are not taxed in the current year. But all the proceeds (both the original contribution and the subsequent investment earnings) are taxed at withdrawal. In contrast, Roth plans allow investors to contribute after-tax income to the retirement plan (so there is no tax break in the current year), but they then avoid taxation of future investment income. To compare the plans, think about an employee in a $30\%$ tax bracket with \$10,000 in income that will be invested in either a traditional or Roth tax-sheltered plan. Assume that the invested funds will earn $8\%$ per year and be invested for 20 years, at which point the worker will retire.
 
 Suppose first that the 10,000 is put in a traditional IRA or 401(k) plan. The worker actually forgoes only 7,000 in current consumption, as 30\% of that money would have been taxed had it not been sheltered in the retirement plan. The 10,000 will grow after 20 years to 10,000 \times 1.08^{20} = \46,609.57 . But when the worker withdraws the funds, they are fully taxable, so net-of-tax proceeds are only \46,609.57 \times (1 - .30) = \32,626.70
 
@@ -560,17 +597,17 @@ To invest in this product, you pay either a single premium or a series of premiu
 
 Variable life insurance policies offer a death benefit that is the greater of the stated face value or the market value of the investment base. In other words, the death benefit may rise with favorable investment performance, but it will not drop below the guaranteed face value.
 
-The insured can gain access to the investment without having to pay income tax by borrowing against the cash surrender value. Policy loans of up to  $90\%$  of the cash value are available at any time at a contractually specified interest rate.
+The insured can gain access to the investment without having to pay income tax by borrowing against the cash surrender value. Policy loans of up to $90\%$ of the cash value are available at any time at a contractually specified interest rate.
 
 A universal life insurance policy is similar to a variable life policy except that, instead of having a choice of portfolios to invest in, the policyholder earns a rate of interest that is set by the insurance company and changed periodically as market conditions change. The disadvantage of universal life insurance is that the company sets the policyholder's rate of return, and, although companies may change the rate in response to competitive pressures, changes are not automatic.
 
-# 28.7 Pension Funds
+## Pension Funds
 
 Pension plans are defined by the terms specifying the "who," "when," and "how much," for both the plan benefits and the plan contributions used to pay for those benefits. The pension fund of the plan is the cumulation of assets created from contributions and the investment earnings on those contributions, less any payments of benefits from the fund. In the U.S., contributions to the fund by either employer or employee are tax-deductible, and investment income of the fund is not taxed. Distributions from the fund, whether to the employer or the employee, are taxed as ordinary income. There are two "pure" types of pension plans: defined contribution and defined benefit.
 
-# Defined Contribution Plans
+### Defined Contribution Plans
 
-In a defined contribution plan, a formula specifies contributions made by and on behalf of employees but does not promise the benefits to which they will be entitled. Contribution rules usually are specified as a predetermined fraction of salary (e.g., the employer contributes  $5\%$  of the employee's annual wages to the plan), although that fraction need not be constant over the course of an employee's career. The pension fund consists of a set of individual investment accounts, one for each employee. Pension benefits are not specified. The employee often has some choice over both the level of contributions and the way the account is invested.
+In a defined contribution plan, a formula specifies contributions made by and on behalf of employees but does not promise the benefits to which they will be entitled. Contribution rules usually are specified as a predetermined fraction of salary (e.g., the employer contributes $5\%$ of the employee's annual wages to the plan), although that fraction need not be constant over the course of an employee's career. The pension fund consists of a set of individual investment accounts, one for each employee. Pension benefits are not specified. The employee often has some choice over both the level of contributions and the way the account is invested.
 
 Often, the employee can invest from a menu of mutual funds. The employee bears all the investment risk, and the employer has no legal obligation beyond making its periodic contributions.
 
@@ -578,15 +615,15 @@ A defined contribution plan is nearly identical to a tax-qualified individual re
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/1aee9c26723ffc997d40decbf0301a6d5374ebca82b5f564b8b269056251c3a3.jpg)
 
-# Concept Check 28.3
+### Concept Check 28.3
 
 An employee is 45 years old. Her salary is  \$60,000 per year, and she has\$ 100,000 accumulated in her self-directed defined contribution pension plan. Each year she contributes 5\% of her salary to the plan, and her employer matches it with another 5\%. She plans to retire at age 65.
 
-Her retirement plan offers a choice of two funds: a guaranteed return fund that pays a risk-free real interest rate of  $3\%$  per year and a stock index fund that has an expected real rate of return of  $6\%$  per year and a standard deviation of  $20\%$ . Her current asset mix in the plan is  $\$50,000$  in the guaranteed fund and  $\$50,000$  in the stock index fund. She plans to reinvest all investment earnings in each fund in that same fund and to allocate her annual contribution equally between the two funds. If her salary grows at the same rate as the cost of living (so her real contributions to each fund will be constant), how much can she expect to have at retirement? How much can she be sure of having?
+Her retirement plan offers a choice of two funds: a guaranteed return fund that pays a risk-free real interest rate of $3\%$ per year and a stock index fund that has an expected real rate of return of $6\%$ per year and a standard deviation of $20\%$. Her current asset mix in the plan is $\$50,000$ in the guaranteed fund and $\$50,000$ in the stock index fund. She plans to reinvest all investment earnings in each fund in that same fund and to allocate her annual contribution equally between the two funds. If her salary grows at the same rate as the cost of living (so her real contributions to each fund will be constant), how much can she expect to have at retirement? How much can she be sure of having?
 
-# Defined Benefit Plans
+### Defined Benefit Plans
 
-Whereas defined contribution plans specify the contributions made on behalf of employees, defined benefit plans specify the retirement benefits to which the employee is entitled. The firm is responsible for ensuring that funding will be adequate to provide those benefits. The benefit formula typically takes into account years of service for the employer and level of wages or salary (e.g., an employer might pay an employee for life, beginning at age 65, a yearly amount equal to  $2\%$  of final annual wage for each year of service). The employer (called the plan sponsor) or an insurance company hired by the sponsor guarantees the benefits and thus absorbs the investment risk.
+Whereas defined contribution plans specify the contributions made on behalf of employees, defined benefit plans specify the retirement benefits to which the employee is entitled. The firm is responsible for ensuring that funding will be adequate to provide those benefits. The benefit formula typically takes into account years of service for the employer and level of wages or salary (e.g., an employer might pay an employee for life, beginning at age 65, a yearly amount equal to $2\%$ of final annual wage for each year of service). The employer (called the plan sponsor) or an insurance company hired by the sponsor guarantees the benefits and thus absorbs the investment risk.
 
 As measured by the value of total pension liabilities, the defined benefit form still dominates in most countries around the world. However, the strong trend since the mid-1970s has been for sponsors, at least in the private sector, to choose the defined contribution form when starting new plans. But the two plan types are not mutually exclusive. Some sponsors adopt defined benefit plans as their primary plan, in which participation is mandatory, and supplement them with voluntary defined contribution plans.
 
@@ -594,11 +631,11 @@ With defined benefit plans, there is an important distinction between the pensio
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/68f8f5425b98a0c179c47728179f1d1b34c8476964c504b3d45fbc9118804603.jpg)
 
-# Concept Check 28.4
+### Concept Check 28.4
 
 An employee currently earning 60,000 a year is 40 years old and has been working for the firm for 15 years. The pension plan promises benefits in retirement of 2 \%of final salary times years of service. If normal retirement age is 65, the interest rate is 8 \%, and the employee’s life expectancy is 85, what is the present value of the accrued pension benefit?
 
-# Pension Investment Strategies
+### Pension Investment Strategies
 
 The special tax status of pension funds creates the same incentive for both defined contribution and defined benefit plans to tilt their asset mix toward assets with the largest spread between pretax and after-tax rates of return. In a defined contribution plan, because the participant bears all the investment risk, the optimal asset mix also depends on the risk tolerance of the participant.
 
@@ -608,7 +645,7 @@ If the present value of promised pension benefits exceeds the market value of it
 
 Investing in Equities If the only goal guiding corporate pension policy were shareholder wealth maximization, it is hard to understand why a financially sound pension sponsor would invest in equities at all. The tax advantage of a pension fund stems from the ability of the sponsor to earn the pretax interest rate on pension investments. To maximize the value of this tax shelter, it is necessary to invest entirely in assets offering the highest pretax interest rate. These will be the most tax disadvantaged assets, meaning that corporate pension funds should invest entirely in taxable bonds and other fixed-income investments.
 
-Yet we know that, in general, pension funds invest from  $40\%$  to  $60\%$  of their portfolios in equity securities. Even a casual perusal of the practitioner literature suggests that they do so for a variety of reasons—some, but not all, legitimate. There are three possible correct reasons.
+Yet we know that, in general, pension funds invest from $40\%$ to $60\%$ of their portfolios in equity securities. Even a casual perusal of the practitioner literature suggests that they do so for a variety of reasons—some, but not all, legitimate. There are three possible correct reasons.
 
 The first possibility is that corporate management views the pension plan as a trust for the employees and manages fund assets as if it were a defined contribution plan. It believes that a successful policy of investment in equities might allow it to pay extra benefits to employees and is therefore worth taking the risk.
 
@@ -618,28 +655,26 @@ For an underfunded plan of a corporation in financial distress, there is another
 
 An incorrect, but common justification for a pension fund to invest in equities is that the expected rate of return on the pension-fund asset portfolio is often (albeit inappropriately) used to obtain the discount rate applied to find the present value of pension liabilities. By investing in higher risk-higher expected return securities, the discount rate is increased, which produces a lower present value of liabilities, and thus a rosier view of pension funding. But this reasoning is surely incorrect. The appropriate discount rate of the pension obligations depends on their risk, not the assets held to fund them. The asset composition of the pension fund should not be allowed to affect the assessment of the funding status of the plan.
 
-# SUMMARY
+## Summary
 
 1. When the principles of portfolio management are discussed, it is useful to distinguish among eight classes of investors:
-
-$a$  Individual investors.
-b. Personal trusts.
-c. Mutual funds.
-$d$  . Pension funds.
-e. Endowment funds.
-$f$ . Life insurance companies.
-g. Non-life insurance companies.
-h. Banks.
+   - Individual investors.
+   - Personal trusts.
+   - Mutual funds.
+   - Pension funds.
+   - Endowment funds.
+   - Life insurance companies.
+   - Non-life insurance companies.
+   - Banks.
 
 In general, these groups have somewhat different investment objectives, constraints, and portfolio policies.
 
 2. To some extent, most institutional investors seek to match the risk-and-return characteristics of their investment portfolios to the characteristics of their liabilities.
 3. The process of asset allocation includes the following steps:
-
-$a$  . Specifying the asset classes to be included.
-b. Defining capital market expectations.
-c. Specifying the investor's objectives and constraints.
-d. Determining the asset allocation that gives the best risk-return trade-off consistent with the investor's particular circumstances.
+   - Specifying the asset classes to be included.
+   - Defining capital market expectations.
+   - Specifying the investor's objectives and constraints.
+   - Determining the asset allocation that gives the best risk-return trade-off consistent with the investor's particular circumstances.
 
 4. For investors who must pay taxes on their investment income, the process of asset allocation is complicated by the fact that they pay income taxes only on certain kinds of investment income. Interest income on munis is exempt from tax, and high-tax-bracket investors will prefer to hold them rather than short- and long-term taxable bonds. The more complex aspect of taxes is the fact that capital gains are taxable only if realized through the sale of an asset during the holding period.
 
@@ -649,18 +684,27 @@ d. Determining the asset allocation that gives the best risk-return trade-off co
 7. When allocating investment funds between tax-protected and other accounts, investors will minimize their overall tax burden by holding the least tax-advantaged asset (e.g., bonds) in their tax-protected accounts [e.g., IRAs or 401(k) plans]. The general investment rule is to hold the least tax-advantaged assets in the tax-protected plan and the most tax-advantaged assets outside of it.
 8. Pension plans are either defined contribution plans or defined benefit plans. Defined contribution plans are in effect retirement funds held in trust for the employee by the employer. The employees in such plans bear all the risk of the plan's assets and often have some choice in the allocation of those assets. Defined benefit plans give the employees a claim to a money-fixed annuity at retirement. The annuity level is determined by a formula that takes into account years of service and the employee's wage or salary history.
 
-risk-return trade-off personal trusts
-defined contribution plans defined benefit plans
-endowment funds whole-life insurance policy
-term insurance variable life policy
+### Key Terms
 
-universal life policy liquidity
-investment horizon prudent investor rule
-asset universe tax-deferral option
-
-tax-protected retirement plans deferred annuities
-fixed annuities variable annuities
-immunization
+- risk-return trade-off
+- personal trusts
+- defined contribution plans
+- defined benefit plans
+- endowment funds
+- whole-life insurance policy
+- term insurance
+- variable life policy
+- universal life policy
+- liquidity
+- investment horizon
+- prudent investor rule
+- asset universe
+- tax-deferral option
+- tax-protected retirement plans
+- deferred annuities
+- fixed annuities
+- variable annuities
+- immunization
 
 KEY TERMS
 
@@ -668,9 +712,9 @@ KEY TERMS
 
 2. What is the least-risky asset for each of the following investors?
 
-$a$ . A person investing for her 3-year-old child's college tuition.
-b. A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are not inflation-protected.
-c. A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are inflation-protected.
+- A person investing for her 3-year-old child's college tuition.
+- A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are not inflation-protected.
+- A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are inflation-protected.
 
 3. George More is a participant in a defined contribution pension plan that offers a fixed-income fund and a common stock fund as investment choices. He is 40 years old and has an accumulation of  \$100,000 in each of the funds. He currently contributes\$ 1,500 per year to each. He plans to retire at age 65, and his life expectancy is age 80.
 
@@ -678,13 +722,13 @@ a. Assuming a  $3\%$  per year real earnings rate for the fixed-income fund and 
 b. What will be the expected real retirement annuity from each account, assuming these same real earnings rates?
 c. If George wanted a retirement annuity of 30,000 per year from the fixed-income fund, by how much would he have to increase his annual contributions?
 
-PROBLEM SETS
+### Problem Sets
 
 4. The difference between a Roth IRA and a traditional IRA is that in a Roth IRA taxes are paid on the income that is contributed, but the withdrawals at retirement are tax-free. In a traditional IRA, however, the contributions reduce your taxable income, but the withdrawals at retirement are taxable. Assume you plan to devote 5,000 to retirement savings in each year. You will retire in 30 years and expect to live for an additional 20 years after retirement.
 
-a. Assume the before-tax interest rate is  $5\%$ . What will be your after-tax 20-year retirement consumption stream if you choose to save in a traditional IRA? Assume your tax rate is fixed at  $30\%$ .
-b. What will be your 20-year retirement consumption stream if you choose to save in a Roth IRA?
-c. Which provides better expected results if you expect your tax rate on wage as well as all investment income to decrease from  $30\%$  today to  $25\%$  at retirement?
+- Assume the before-tax interest rate is $5\%$. What will be your after-tax 20-year retirement consumption stream if you choose to save in a traditional IRA? Assume your tax rate is fixed at $30\%$.
+- What will be your 20-year retirement consumption stream if you choose to save in a Roth IRA?
+- Which provides better expected results if you expect your tax rate on wage as well as all investment income to decrease from $30\%$ today to $25\%$ at retirement?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/dd4a49dd0032a46de0e5dd80fc201187a9bbf79be6c25f057333858ea3a9f587.jpg)
 
@@ -745,10 +789,10 @@ d. Taxes.
 
 3. The aspect least likely to be included in the portfolio management process is
 
-$a$ . Identifying an investor's objectives, constraints, and preferences.
-$b$ . Organizing the management process itself.
-$c$ . Implementing strategies regarding the choice of assets to be used.
-$d$ . Monitoring market conditions, relative values, and investor circumstances.
+- Identifying an investor's objectives, constraints, and preferences.
+- Organizing the management process itself.
+- Implementing strategies regarding the choice of assets to be used.
+- Monitoring market conditions, relative values, and investor circumstances.
 
 4. Sam Short, CFA, has recently joined the investment management firm of Green, Spence, and Smith (GSS). For several years, GSS has worked for a broad array of clients, including employee benefit plans, wealthy individuals, and charitable organizations. Also, the firm expresses expertise in managing stocks, bonds, cash reserves, real estate, venture capital, and
 
@@ -884,7 +928,7 @@ Recommend the most appropriate allocation range for each of the asset classes in
 
 Note: No calculations are required.
 
-# E-INVESTMENTS EXERCISES
+### E-Investments Exercises
 
 Vanguard offers suggestions about portfolio asset proportions based on your time frame and attitude toward risk: Start with its questionnaire and then proceed to its recommendations. See investor.vanguard.com/calculator-tools/investor-questionnaire/. After you run the calculator with your preferences, change your inputs slightly to see what effect that would have on the results.
 
@@ -892,7 +936,7 @@ Many mutual fund companies offer retirement planning calculators and tools on th
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/e83e9139f0688ae612294544337d0b9fde220f9df0ea5ae257e1d857b9493064.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
+### Solutions to Concept Checks
 
 1. Identify the elements that are life cycle-driven in the two schemes of objectives and constraints.
 2. If the investor keeps her present asset allocation, she will have the following amounts to spend after taxes five years from now:

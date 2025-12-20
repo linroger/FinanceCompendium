@@ -1,12 +1,25 @@
 ---
 aliases:
-  - Miscellaneous Monte Carlo Topics
-tags:
-key_concepts:
-parent_directory: "[[MFE Monte-Carlo Simulation]]"
+- Miscellaneous Monte Carlo Topics
+tags: null
+key_concepts: null
+parent_directory: '[[MFE Monte-Carlo Simulation]]'
 cssclasses: academia
-title: "Monte Carlo Miscellaneous Topics - MasterSlides"
-linter-yaml-title-alias: "Monte Carlo Miscellaneous Topics - MasterSlides"
+title: Monte Carlo Miscellaneous Topics - MasterSlides
+linter-yaml-title-alias: Monte Carlo Miscellaneous Topics - MasterSlides
+primary_tags:
+- total loss
+- risk measure
+- capital allocation problem
+secondary_tags:
+- monte simulation topics
+- capital allocations
+- monte pricing allocation
+- overall portfolio loss
+- simulated portfolio losses
+- bermudan option
+tags_extracted: '2025-12-18T17:59:37.326133'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

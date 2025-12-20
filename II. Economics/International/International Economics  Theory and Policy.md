@@ -1,11 +1,18 @@
 ---
 aliases: International Economics Theory and Policy
-tags:
-key_concepts:
-parent_directory: "[[International]]"
+tags: null
+key_concepts: null
+parent_directory: '[[International]]'
 cssclasses: academia
-title: "International Economics: Theory and Policy"
+title: 'International Economics: Theory and Policy'
 linter-yaml-title-alias: International Economics Theory and Policy
+primary_tags:
+- advantage ricardian model
+- global economy export
+secondary_tags:
+- policy international trade theory
+- international economics theory
+tags_extracted: '2025-12-18T00:48:30.782211'
 ---
 
 # International Economics: Theory and Policy

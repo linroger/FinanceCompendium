@@ -1,3 +1,32 @@
+---
+primary_tags:
+- each indifference curve
+- any utility function
+- high-school economics students
+- cost functions
+- where and are arbitrary constants
+- mc method
+secondary_tags:
+- utility maximisation
+- demand function
+- theory questions
+- new knowledge
+- utility measures
+- basic notations
+- simplest demand function
+- top three equations
+- closest possible corner point
+- part theory
+- standard cost function
+- firm 4 firm's costs
+- constant concavity
+- inefficient or not maximal use
+- first one
+- final equation
+tags_extracted: '2025-12-18T17:56:14.912371'
+tags_method: max_quality_v1
+---
+
 # A Short Introduction to Mathematical Economics
 
 Ilia Rivkin

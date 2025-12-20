@@ -1,9 +1,22 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 20_14_Since_2020-Pandemic_and_Big_Fiscal_Deficits_Mon
+primary_tags:
+- fiscal policy
+- other countries
+- write downs
+secondary_tags:
+- quantitative easing
+- independent mandate
+- long-term big cycle
+- free-market capitalist system
+- rate changes
+- big changes
+tags_extracted: '2025-12-18T18:04:12.167905'
+tags_method: max_quality_v1
 ---
 
 # 20_14_Since_2020-Pandemic_and_Big_Fiscal_Deficits_Mon

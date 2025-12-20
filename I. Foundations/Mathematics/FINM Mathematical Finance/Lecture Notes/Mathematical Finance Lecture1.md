@@ -1,14 +1,31 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 1: The Fundamental Theorem of Arbitrage Pricing"
-tags:
+title: 'Lecture 1: The Fundamental Theorem of Arbitrage Pricing'
+tags: null
 aliases:
-  - The Fundamental Theorem of Arbitrage Pricing
+- The Fundamental Theorem of Arbitrage Pricing
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 1: The Fundamental Theorem of Arbitrage Pricing"
+linter-yaml-title-alias: 'Lecture 1: The Fundamental Theorem of Arbitrage Pricing'
+primary_tags:
+- black scholes theory
+- arbitrage-free market
+- particular market scenario
+- single underlying asset stock
+secondary_tags:
+- efficient market hypothesis
+- black-scholes theory
+- arbitrage pricing market
+- market hypothesis
+- arbitrage pricing
+- two possible market scenarios
+- fundamental theorem see
+- various derivative securities
+- market expectation
+tags_extracted: '2025-12-18T17:57:37.692268'
+tags_method: max_quality_v1
 ---
 
 # THE FUNDAMENTAL THEOREM OF ARBITRAGE PRICING

@@ -1,12 +1,20 @@
 ---
 aliases:
-  - International Monetary Systems: A Historical Overview
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- International Monetary Systems: A Historical Overview
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 19: International Monetary Systems: A Historical Overview"
-linter-yaml-title-alias: "Chapter 19: International Monetary Systems: A Historical Overview"
+title: 'Chapter 19: International Monetary Systems: A Historical Overview'
+linter-yaml-title-alias: 'Chapter 19: International Monetary Systems: A Historical
+  Overview'
+primary_tags:
+- standard great depression 606
+- 19 international monetary
+secondary_tags:
+- monetary systems historical overview
+- international monetary systems
+tags_extracted: '2025-12-18T01:47:16.522659'
 ---
 
 # 19 International Monetary Systems: A Historical Overview 589

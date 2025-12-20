@@ -1,3 +1,22 @@
+---
+primary_tags:
+- united states example
+- world trade overview
+- world trade economists equation
+- trade quadruple past decades
+secondary_tags:
+- trade countries gravity
+- discussion causes world trade
+- 2019 countries trade
+- economies value trade united
+- explain large trade
+- 2015 data world trade
+- implications future international trade
+- benefits costs international trade
+- international trade ratio
+tags_extracted: '2025-12-18T00:48:51.242138'
+---
+
 # WORLD TRADE: AN OVERVIEW
 
 In 2019, the world as a whole produced goods and services worth about  \$88 trillion at current prices. Of this total, about 30 percent was sold across national borders: World trade in goods and services was almost\$ 25 trillion. That's a whole lot of exporting and importing.

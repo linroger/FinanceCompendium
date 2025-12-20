@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Depository Institutions Activities and Characteristics
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Depository Institutions Activities and Characteristics
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 06: Depository Institutions Activities and Characteristics"
-linter-yaml-title-alias: "Chapter 06: Depository Institutions Activities and Characteristics"
+title: 'Chapter 06: Depository Institutions Activities and Characteristics'
+linter-yaml-title-alias: 'Chapter 06: Depository Institutions Activities and Characteristics'
+primary_tags:
+- investment banking firms insurance
+- role fdic
+- federal government depositor perspective
+- depository institutions activities characteristics
+- financial entities excluded fdic
+secondary_tags:
+- pricing insured depository institutions
+- institutions bank regulation
+- roles fdic
+- regulatory classified insured depository
+- institution federal deposit insurance
+- financial fdic broad authority
+- income federal regulators depository
+- banking activities chapter federal
+- federal deposit insurance corporation
+- regulates supervises national banks
+- financial holding companies
+- based deposit insurance assessment
+tags_extracted: '2025-12-18T00:18:01.407577'
 ---
 
 # Depository Institutions: Activities and Characteristics

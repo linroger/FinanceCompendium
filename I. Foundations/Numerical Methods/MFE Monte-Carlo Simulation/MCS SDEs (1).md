@@ -1,12 +1,29 @@
 ---
 aliases:
-  - Simulating Stochastic Differential Equations
-tags:
-key_concepts:
-parent_directory: "[[MFE Monte-Carlo Simulation]]"
+- Simulating Stochastic Differential Equations
+tags: null
+key_concepts: null
+parent_directory: '[[MFE Monte-Carlo Simulation]]'
 cssclasses: academia
 title: Monte Carlo Simulation of Stochastic Differential Equations
 linter-yaml-title-alias: Monte Carlo Simulation of Stochastic Differential Equations
+primary_tags:
+- better scheme
+- euler (often) scheme
+- stochastic differential equations
+- continuous-time path
+secondary_tags:
+- jump-diffusion process
+- variance reduction
+- optimal allocation
+- diffusion processes
+- diffusion process
+- several other discretization schemes
+- multilevel scheme
+- corresponding discretized scheme
+- pure diffusion discretization
+tags_extracted: '2025-12-18T17:59:52.115811'
+tags_method: max_quality_v1
 ---
 
 # Simulating Stochastic Differential Equations

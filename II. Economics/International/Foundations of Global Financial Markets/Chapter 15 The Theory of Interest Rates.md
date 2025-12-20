@@ -1,12 +1,32 @@
 ---
 aliases:
-  - The Theory of Interest Rates
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- The Theory of Interest Rates
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 15: The Theory of Interest Rates"
-linter-yaml-title-alias: "Chapter 15: The Theory of Interest Rates"
+title: 'Chapter 15: The Theory of Interest Rates'
+linter-yaml-title-alias: 'Chapter 15: The Theory of Interest Rates'
+primary_tags:
+- nominal rates fisher law
+- rates liquidity preference theory
+- negative rates different purposes
+- year treasury note yields
+- historical rates united states
+secondary_tags:
+- 15 theory rates contents
+- funds theory rates theory
+- fisher theory meaning liquidity
+- fisher theory rates preferences
+- investment assets fisher theory
+- liquidity preference theory originally
+- understanding rates principle
+- keynes theory determination
+- produces loanable funds theory
+- united states based yields
+- consumption determination rates role
+- loans equilibrium demand
+tags_extracted: '2025-12-18T00:20:14.302582'
 ---
 
 # 15

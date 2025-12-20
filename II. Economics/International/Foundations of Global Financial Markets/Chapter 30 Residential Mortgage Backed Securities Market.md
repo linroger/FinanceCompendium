@@ -1,23 +1,26 @@
 ---
 title: Chapter 30 - Residential Mortgage Backed Securities Market
 primary_tags:
-  - residential mortgage backed securities
-  - mortgage pass through securities
-  - prepayment risk
-  - collateralized mortgage obligations
-  - agency rmbs market
+- maturity investment shorten considerably
+- subprime loans excess spread
+- residential mortgage market provide
+- prepayment risk makes pass
+- pass securities collateralized mortgage
 secondary_tags:
-  - mortgage securitization
-  - conditional prepayment rate
-  - public securities association benchmark
-  - sequential pay tranches
-  - private label rmbs
-  - subprime mortgage crisis
-  - credit enhancement
-  - planned amortization class
-  - stripped mortgage backed securities
-  - average life calculation
+- ginnie mae guarantees securities
+- mbs ginnie mae provides
+- collateral future losses excess
+- enhancement subprime mortgage crisis
+- extension risk invest pass
+- partially prepay mortgages
+- mortgages pass rate
+- assumes prepayment rates low
+- subprime rmbs overcollateralization hypothetical
+- rate pass securities
+- prepayments slow homeowners refinance
+- losses form credit enhancement
 cssclasses: academia
+tags_extracted: '2025-12-18T00:26:14.375869'
 ---
 
 # Residential Mortgage-Backed Securities Market
@@ -374,7 +377,7 @@ Prepayment for month  $t = \mathrm{SMM} \times$  (Beginning mortgage balance for
 For example, suppose that an investor owns a pass-through in which the remaining mortgage balance at the beginning of some month is \$290 million. Assuming that the SMM is 0.5143\% and the scheduled principal payment is \$3 million, the estimated prepayment for the month is
 
 $$
-0. 0 0 5 1 4 3 \times (\$ 2 9 0, 0 0 0, 0 0 0 - \$ 3, 0 0 0, 0 0 0) = \$ 1, 4 7 6, 0 4 1.
+0.005143 \times (\$290,000,000 - \$3,000,000) = \$1,476,041.
 $$
 
 The Public Securities Association (PSA) prepayment benchmark is expressed as a monthly series of annual prepayment rates. The PSA benchmark assumes that prepayment rates are low for newly originated mortgages and then speed up as the mortgages become seasoned.
@@ -402,7 +405,7 @@ For month 5:
 
 $$
 
-\begin{array}{l} \mathrm{CPR} = 6\% (5 / 30) = 1\% = 0.01, \\ \mathrm {S M M} = 1 - (1 - 0. 0 1) ^ {1 / 1 2} \\ = 1 - (0. 9 9) ^ {0. 0 8 3 3 3 3} = 0. 0 0 0 8 3 7. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% (5 / 30) = 1\% = 0.01, \\ \mathrm{SMM} = 1 - (1 - 0.01)^{1/12} \\ = 1 - (0.99)^{0.083333} = 0.000837. \\ \end{array}
 
 $$
 
@@ -410,7 +413,7 @@ For month 20:
 
 $$
 
-\begin{array}{l} \mathrm{CPR} = 6\% (20 / 30) = 4\% = 0.04, \\ \mathrm {S M M} = 1 - (1 - 0. 0 4) ^ {1 / 1 2} \\ = 1 - (0. 9 6) ^ {0. 0 8 3 3 3 3} = 0. 0 0 3 3 9 6. \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% (20 / 30) = 4\% = 0.04, \\ \mathrm{SMM} = 1 - (1 - 0.04)^{1/12} \\ = 1 - (0.96)^{0.083333} = 0.003396. \\ \end{array}
 
 $$
 
@@ -424,7 +427,7 @@ $$
 
 $$
 
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 6) ^ {1 / 1 2} \\ = 1 - (0. 9 8 3 5) ^ {0. 0 8 3 3 3 3} = 0. 0 0 1 3 8 6. \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.06)^{1/12} \\ = 1 - (0.94)^{0.083333} = 0.004868. \\ \end{array}
 
 $$
 
@@ -440,13 +443,13 @@ $$
 
 $$
 
-1 6 5 \mathrm {P S A} = 1. 6 5 (0. 0 1) = 0. 0 1 6 5,
+165\mathrm{PSA} = 1.65(0.01) = 0.0165,
 
 $$
 
 $$
 
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 1 6 5) ^ {1 / 1 2} \\ = 1 - (0. 9 8 3 5) ^ {0. 0 8 3 3 3 3} = 0. 0 0 1 3 8 6. \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.0165)^{1/12} \\ = 1 - (0.9835)^{0.083333} = 0.001386. \\ \end{array}
 
 $$
 
@@ -460,13 +463,13 @@ $$
 
 $$
 
-1 6 5 \mathrm {P S A} = 1. 6 5 (0. 0 4) = 0. 0 6 6,
+165\mathrm{PSA} = 1.65(0.04) = 0.066,
 
 $$
 
 $$
 
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 6 6) ^ {1 / 1 2} \\ = 1 - (0. 9 3 4) ^ {0. 0 8 3 3 3 3} = 0. 0 0 5 6 7 4. \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.066)^{1/12} \\ = 1 - (0.934)^{0.083333} = 0.005674. \\ \end{array}
 
 $$
 
@@ -480,7 +483,7 @@ $$
 
 $$
 
-\begin{array}{l} 1 6 5 \mathrm {P S A} = 1. 6 5 (0. 0 6) = 0. 0 9 9, \\ \mathrm {S M M} = 1 - (1 - 0. 0 9 9) ^ {1 / 1 2} \\ = 1 - (0. 9 0 1) ^ {0. 0 8 3 3 3 3} = 0. 0 0 8 6 5. \\ \end{array}
+\begin{array}{l} 165\mathrm{PSA} = 1.65(0.06) = 0.099, \\ \mathrm{SMM} = 1 - (1 - 0.099)^{1/12} \\ = 1 - (0.901)^{0.083333} = 0.00865. \\ \end{array}
 
 $$
 
@@ -523,7 +526,7 @@ Average Life The stated maturity of a mortgage pass-through security is an inapp
 
 $$
 
-\text {A v e r a g e l i f e} = \sum_ {t = 1} ^ {T} \frac {t \times \text {P r i n c i p a l r e c e i v e d a t t i m e} t}{1 2 (\text {T o t a l p r i n c i p a l})},
+\text{Average life} = \sum_{t = 1}^{T} \frac{t \times \text{Principal received at time} t}{12(\text{Total principal})},
 
 $$ where  $T$  is the number of months.
 

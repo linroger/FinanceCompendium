@@ -1,12 +1,32 @@
 ---
 aliases:
-  - International Monetary System
-tags:
-key_concepts:
+- International Monetary System
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 11: International Monetary System"
-linter-yaml-title-alias: "Chapter 11: International Monetary System"
+title: 'Chapter 11: International Monetary System'
+linter-yaml-title-alias: 'Chapter 11: International Monetary System'
+primary_tags:
+- financial integration holds governments
+- bretton woods 11 features
+- effective tax
+- currency turmoil crises post
+- capital movements undesirable tax
+secondary_tags:
+- international monetary chapter outline
+- studied chapter bretton woods
+- reform international monetary 11
+- 11 brief history bretton
+- caused panic international investors
+- financial markets likely tax
+- tax prevent stabilizing
+- did bretton woods break
+- exchange rate systems cause
+- debate reform international financial
+- international finance interesting point
+- avoid breakdown international monetary
+tags_extracted: '2025-12-18T01:33:21.728275'
 ---
 
 # CHAPTER 11

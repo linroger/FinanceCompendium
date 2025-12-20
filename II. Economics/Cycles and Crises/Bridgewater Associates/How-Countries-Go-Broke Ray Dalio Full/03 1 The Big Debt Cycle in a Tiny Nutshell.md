@@ -1,11 +1,33 @@
 ---
 aliases:
-  - The Big Debt Cycle in a Tiny Nutshell
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Big Debt Cycle in a Tiny Nutshell
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "03 - Chapter 1: The Big Debt Cycle in a Tiny Nutshell"
+title: '03 - Chapter 1: The Big Debt Cycle in a Tiny Nutshell'
+primary_tags:
+- net selling
+- debt credit
+- asset prices
+- following five stages
+- concluding observations
+secondary_tags:
+- big cycle
+- other big cycles
+- very brief but complete description
+- next two chapters
+- lower incomes
+- comprehensive picture
+- central governments' debts
+- a) money
+- debt contraction
+- most cases
+- both debt restructurings
+- self-reinforcing, debt-contraction dynamic
+tags_extracted: '2025-12-18T18:02:09.178643'
+tags_method: max_quality_v1
 ---
 
 # 03_1_The_Big_Debt_Cycle_in_a_Tiny_Nutshell

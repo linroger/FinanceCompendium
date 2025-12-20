@@ -1,14 +1,42 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "Notes for Quantitative Methods: Advanced Mathematics from an Elementary Point of View"
-tags:
+title: 'Notes for Quantitative Methods: Advanced Mathematics from an Elementary Point
+  of View'
+tags: null
 aliases:
-  - Quantitative Methods: Advanced Mathematics from an Elementary Point of View
+- Quantitative Methods: Advanced Mathematics from an Elementary Point of View
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Notes for Quantitative Methods: Advanced Mathematics from an Elementary Point of View"
+linter-yaml-title-alias: 'Notes for Quantitative Methods: Advanced Mathematics from
+  an Elementary Point of View'
+primary_tags:
+- some examples
+- random vectors
+- lower variance
+- statistics part
+- exponential distributions
+- two possible estimators
+secondary_tags:
+- 11.3.continuity 19
+- some review
+- basic problem
+- ', the likelihood'
+- neyman pearson lemma
+- cauchy schwartz inequality
+- discrete and cts distributions
+- complete metric spaces
+- closed form formula
+- explicit calculations
+- linear functions
+- maximum likelihood
+- axiomatic approach
+- next estimator
+- negative exponential distribution
+- hidden variables
+tags_extracted: '2025-12-18T17:58:36.922753'
+tags_method: max_quality_v1
 ---
 
 # NOTES FOR QUANTITATIVE METHODS:

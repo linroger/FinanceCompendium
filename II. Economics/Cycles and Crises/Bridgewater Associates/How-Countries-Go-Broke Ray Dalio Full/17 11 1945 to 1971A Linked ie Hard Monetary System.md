@@ -1,9 +1,26 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 17_11_1945_to_1971A_Linked_ie_Hard_Monetary_System
+primary_tags:
+- f. kennedy
+- real money
+- prior world order
+- bretton woods system
+secondary_tags:
+- bretton woods
+- current big cycle
+- new world monetary system
+- changing world order
+- designated hard asset
+- big cycle
+- hard asset
+- bretton woods agreement
+- gold-linked mp0 system
+tags_extracted: '2025-12-18T18:03:41.068614'
+tags_method: max_quality_v1
 ---
 
 # 17_11_1945_to_1971A_Linked_ie_Hard_Monetary_System

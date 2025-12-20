@@ -1,14 +1,31 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lectures 3 & 4: Martingales"
-tags:
+title: 'Lectures 3 & 4: Martingales'
+tags: null
 aliases:
-  - Martingales
+- Martingales
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lectures 3 & 4: Martingales"
+linter-yaml-title-alias: 'Lectures 3 & 4: Martingales'
+primary_tags:
+- modern probability
+- martingales introduction
+- stopping formula
+- traded assets
+secondary_tags:
+- discounted price processes
+- martingale theory
+- stock price martingale
+- considerable utility
+- price processes
+- market termination
+- expected value
+- all martingales
+- arbitrage-free market
+tags_extracted: '2025-12-18T17:57:55.335887'
+tags_method: max_quality_v1
 ---
 
 # LECTURES 3 AND 4: MARTINGALES

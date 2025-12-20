@@ -1,11 +1,23 @@
 ---
 aliases: Introduction
-tags:
-key_concepts:
-parent_directory: "[[International Economics  Theory and Policy]]"
+tags: null
+key_concepts: null
+parent_directory: '[[International Economics  Theory and Policy]]'
 cssclasses: academia
-title: "Chapter 01: Introduction"
+title: 'Chapter 01: Introduction'
 linter-yaml-title-alias: Introduction
+primary_tags:
+- finance discipline economics
+- economies international trade
+- world economy time
+secondary_tags:
+- study international trade finance
+- united states international economics
+- global economy created linkages
+- 19th century trade theory
+- unprecedented importance international economic
+- trade theorists pointed international
+tags_extracted: '2025-12-18T00:48:36.164807'
 ---
 
 # INTRODUCTION

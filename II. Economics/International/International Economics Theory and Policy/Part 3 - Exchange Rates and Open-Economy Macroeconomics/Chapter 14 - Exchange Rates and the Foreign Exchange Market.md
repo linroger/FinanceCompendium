@@ -1,3 +1,22 @@
+---
+primary_tags:
+- price approach exchange rate
+- rates theories foreign
+- euros quickly difference
+- rate alter sweater dollar
+secondary_tags:
+- jeans seen exchange rate
+- different currencies american
+- british sweatersexchange rate
+- prices exchange rates carnegie
+- international currency economic
+- dollar euro essays jean
+- does change dollar depreciates
+- analysis foreign exchange market
+- year dollar
+tags_extracted: '2025-12-18T00:53:11.542753'
+---
+
 # EXCHANGE RATES AND THE FOREIGN EXCHANGE MARKET: AN ASSET APPROACH
 
 In July 2011, the U.S. dollar's price against a basket of major foreign currencies reached a low point at a time when the United States was struggling with high unemployment and low growth. In April 2020, however, the dollar's value was higher than at any point in the previous 15 years—about 43 percent above its low point—at a time when the U.S. economy had the highest unemployment since the Great Depression. What changes in the U.S. and world economy could possibly have driven such a dramatic change in the foreign exchange market? In this chapter, we will begin our study of the causes and effects of exchange rate changes.

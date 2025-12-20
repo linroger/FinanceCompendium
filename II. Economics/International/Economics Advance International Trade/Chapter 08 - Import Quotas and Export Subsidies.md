@@ -1,3 +1,22 @@
+---
+primary_tags:
+- discussed later chapter uruguay
+- effects import price welfare
+- competition conclusion export
+- chapter panel figure domestic
+secondary_tags:
+- import tariffs quotas subsidies
+- export subsidies models
+- quota tariff comparable effects
+- trade policies differing effects
+- subsidies principle applied imports
+- 1965 equivalence tariffs quotas
+- subsidies policy instruments differ
+- quota government exporting country
+- quotas differ occurs foreign
+tags_extracted: '2025-12-18T00:14:57.054327'
+---
+
 # Chapter 8: Import Quotas and Export Subsidies
 
 In addition to import tariffs, quotas and subsidies are widely used forms of trade policy. Quotas and subsidies can in principle be applied to either imports or exports, but we will focus here on import quotas and export subsidies. How do these policy instruments differ from tariffs, and does this depend on the type of competition in the market? These are the questions we shall investigate in this chapter.

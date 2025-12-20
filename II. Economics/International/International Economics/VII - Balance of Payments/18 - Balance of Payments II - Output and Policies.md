@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Fixed Versus Floating: International Monetary Experience"
-linter-yaml-title-alias: "Fixed Versus Floating: International Monetary Experience"
+title: 'Fixed Versus Floating: International Monetary Experience'
+linter-yaml-title-alias: 'Fixed Versus Floating: International Monetary Experience'
+primary_tags:
+- wealth losses net foreign
+- large exposure foreign currency
+- criteria fixed exchange rate
+- theory pairs countries
+- hyperinflation economy usually point
+- experienced crises large depreciations
+secondary_tags:
+- versus floating international monetary
+- currency depreciation affects wealth
+- countries gold standard floated
+- depreciations liability dollarization countries
+- losses foreign currency debt
+- exchange rate depreciations changes
+- currency liabilities suffered large
+- effects wealth countries countries
+- exchange rate different points
+- dollars external liabilities
+- shows impact exchange rate
+- dollarization countries saw large
+- argument favor fixed exchange
+- gold standard orthodoxy argued
+- gold standard bilateral
+- exchange rate crises
+tags_extracted: '2025-12-18T00:46:56.035259'
 ---
 
 # Fixed Versus Floating: International Monetary Experience

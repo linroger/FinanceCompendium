@@ -1,3 +1,26 @@
+---
+primary_tags:
+- product sell countries
+- monopolistic competition foreign trade
+- productivity wages mexico panel
+- mexico china world economy
+- increasing returns scale monopolistic
+secondary_tags:
+- international trade increasing returns
+- attribute peso crisis mexico
+- foreign trade highly
+- wages recovered effects peso
+- crisis mexico joining nafta
+- nafta revisited
+- economies trade nations
+- free trade expand range
+- lose nafta average productivity
+- gains flow trade liberalization
+- reason international trade
+- monopolistic competition model did
+tags_extracted: '2025-12-18T00:38:30.711496'
+---
+
 # Increasing Returns to Scale and Monopolistic Competition
 
 Foreign trade, then, ... [is] highly beneficial to a country, as it increases the amount and variety of the objects on which revenue may be expended.

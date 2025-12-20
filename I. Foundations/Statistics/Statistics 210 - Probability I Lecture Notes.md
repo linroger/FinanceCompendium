@@ -1,3 +1,32 @@
+---
+primary_tags:
+- 10.2 convergence theorems
+- 12.1 conditional covariance
+- lindeberg clt
+- unpublished draft
+- graduate level probability class
+- october 13th
+secondary_tags:
+- level probability classes
+- measure theoretic details
+- infinite monkey theorem
+- convergence theorem yields
+- if , then proof
+- bounded stopping time
+- formal mathematical proof
+- last collector's item
+- exponential distributions
+- illustrative example
+- first real lecture
+- other order statistics
+- riemann integral
+- ssrw example
+- special notation
+- problem exercise
+tags_extracted: '2025-12-18T18:01:04.964753'
+tags_method: max_quality_v1
+---
+
 # Statistics 210: Probability I
 
 Eric K. Zhang ekzhang@college.harvard.edu

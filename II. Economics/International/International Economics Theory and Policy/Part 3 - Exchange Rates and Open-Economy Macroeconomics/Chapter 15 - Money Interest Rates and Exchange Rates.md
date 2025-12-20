@@ -1,3 +1,26 @@
+---
+primary_tags:
+- currencies similarly permanent
+- money supply causes proportional
+- monetary influences exchange rate
+- long run money supply
+- testing long run theories
+secondary_tags:
+- exchange rates chapter 14
+- study exchange rate determination
+- countries change money supply
+- determinants currency exchange rate
+- chapter theories determinants money
+- future exchange rates depend
+- monetary factors influence output
+- country money supply affect
+- model links exchange rates
+- exchange rate given expectations
+- equilibrium rate interaction money
+- money markets rates determined
+tags_extracted: '2025-12-18T00:53:18.914878'
+---
+
 # MONEY, INTEREST RATES, AND EXCHANGE RATES
 
 Chapter 14 showed how the exchange rate between currencies depends on two factors—the interest that can be earned on deposits of those currencies and the expected future exchange rate. To understand fully the determination of exchange rates, however, we have to learn how interest rates themselves are determined and how expectations of future exchange rates are formed. In this and the next two chapters, we examine these topics by building an economic model that links exchange rates, interest rates, and other important macroeconomic variables such as the inflation rate and output.

@@ -1,3 +1,32 @@
+---
+primary_tags:
+- machine learning
+- c) majority
+- (fixed design) risk
+- linear functions
+- simple example
+- decision space/parameter space
+secondary_tags:
+- e.g. the learning algorithm
+- average prediction loss
+- worst case analysis
+- linear prediction
+- linear least squares regression
+- function value
+- last term
+- '''experts'' setting'
+- i.e. eg
+- 3.1 risk bounds
+- least squares algorithm
+- few examples
+- algorithms behavior
+- l2 case
+- real valued function classes
+- batch instructor
+tags_extracted: '2025-12-18T18:00:48.869679'
+tags_method: max_quality_v1
+---
+
 Risk vs Risk: Some differences between Statistics and ML Terminology
 
 Instructor: Sham Kakade

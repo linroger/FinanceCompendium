@@ -1,3 +1,36 @@
+---
+primary_tags:
+- semidefinite functions
+- following mixture model
+- (stochastic) gradient descent
+- references 107 4 kernel methods
+- vc dimension
+- 5.7 online mirror descent
+- general loss functions
+secondary_tags:
+- (lecture 1) 4 1.2 asymptotics
+- pac-bayesian bounds
+- asymptotic expressions
+- ': remark'
+- single hypothesis pac-bayesian theorem
+- (weak convergence
+- online learner
+- existing online learning algorithms
+- multivariate gaussian distribution
+- general bregman divergence
+- inverse moment mapping
+- effective hypothesis space
+- predictive inference
+- every kernel
+- expected loss hessian
+- powerful, parameter estimation
+- general notion
+- l2 regularization low-rank kernel approximations
+- mean estimator
+tags_extracted: '2025-12-18T18:00:31.068029'
+tags_method: max_quality_v1
+---
+
 # CS229T/STAT231: Statistical Learning Theory (Winter 2016)
 
 Percy Liang

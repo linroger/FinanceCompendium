@@ -1,3 +1,42 @@
+---
+primary_tags:
+- hybrid td algorithms
+- kernel classifiers
+- corticostriatal spike-timing-dependent plasticity
+- related ideas
+- eligibility trace version
+- 2.2 action-value methods
+- predicted returns
+- contents preface
+- reinforcement learning principles
+secondary_tags:
+- estimated transition probability
+- all such intermediate methods
+- all these action nodes
+- complex function approximators
+- learning processes
+- third machine learning paradigm
+- horizon tasks
+- classification tasks
+- deepmind's dqn
+- first action
+- reinforced behavior
+- careful reading
+- bias example
+- systems yearbook
+- larger behaving agent
+- digital simulation
+- improvement steps
+- associative, or contextual, bandit problems
+- rf algorithms
+- feature weights
+- early proponent
+- reward signal frames
+- numerous methods
+tags_extracted: '2025-12-18T17:55:54.162720'
+tags_method: max_quality_v1
+---
+
 # Reinforcement Learning
 
 An Introduction

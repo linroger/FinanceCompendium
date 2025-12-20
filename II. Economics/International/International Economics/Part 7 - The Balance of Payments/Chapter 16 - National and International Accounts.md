@@ -1,12 +1,34 @@
 ---
 aliases:
-  - National and International Accounts - Income, Wealth, and the Balance of Payments
-tags:
-key_concepts:
+- National and International Accounts - Income, Wealth, and the Balance of Payments
+tags: null
+key_concepts: null
 parent_directory: Part 7 - The Balance of Payments
 cssclasses: academia
-title: Chapter 16 - National and International Accounts - Income, Wealth, and the Balance of Payments
-linter-yaml-title-alias: Chapter 16 - National and International Accounts - Income, Wealth, and the Balance of Payments
+title: Chapter 16 - National and International Accounts - Income, Wealth, and the
+  Balance of Payments
+linter-yaml-title-alias: Chapter 16 - National and International Accounts - Income,
+  Wealth, and the Balance of Payments
+primary_tags:
+- national international accounts
+- assets fall value
+- valuation effects capital gains
+- expenditure trade balance
+- external wealth simpler expression
+secondary_tags:
+- changes value total wealth
+- conclusions barter international transactions
+- expression total value wealth
+- economy international flows
+- previous notation accounted valuation
+- country balance payments
+- transactions countries undertaken impact
+- george pays american express
+- payments economic resources exchanged
+- valuation effects depreciating assets
+- money foreign
+- capital losses arising changes
+tags_extracted: '2025-12-18T00:41:22.021140'
 ---
 
 # National and International Accounts: Income, Wealth, and the Balance of Payments

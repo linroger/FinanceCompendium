@@ -1,12 +1,24 @@
 ---
 aliases:
-  - Preliminaries Two-Sector Models
-tags:
-key_concepts:
+- Preliminaries Two-Sector Models
+tags: null
+key_concepts: null
 parent_directory: II. Economics/International/Economics Advance International Trade
 cssclasses: academia
-title: "Chapter 1: Preliminaries - Two-Sector Models"
-linter-yaml-title-alias: "Chapter 1: Preliminaries - Two-Sector Models"
+title: 'Chapter 1: Preliminaries - Two-Sector Models'
+linter-yaml-title-alias: 'Chapter 1: Preliminaries - Two-Sector Models'
+primary_tags:
+- world relative demand
+- goods factor labor ricardian
+- p2 f2 l2 k2
+secondary_tags:
+- trade patterns ricardian model
+- international trade equilibrium
+- pattern international trade countries
+- goods produced countries argued
+- sector models
+- labor capital production functions
+tags_extracted: '2025-12-18T00:14:14.907818'
 ---
 
 # Chapter 1: Preliminaries: Two-Sector Models

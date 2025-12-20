@@ -1,10 +1,40 @@
 ---
 parent_directory: Machine Learning
-title: "Algorithms for Optimization"
-tags:
+title: Algorithms for Optimization
+tags: null
 aliases:
-  - "Algorithms for Optimization"
+- Algorithms for Optimization
 cssclasses: academia
+primary_tags:
+- design index
+- pricing scheme
+- some basic operations
+- simplest approaches
+- second copy
+- any local minima
+- domain specialization
+secondary_tags:
+- any constraints
+- contents preface
+- local rounding errors
+- bracketing process
+- robust optimization
+- a.1.2 julia
+- certain directions
+- level optimizer
+- simple two-dimensional function
+- search algorithm
+- start type
+- complex-step derivative approximation
+- truncated gaussian distribution
+- region approach
+- solving discrete programming problems
+- algorithm 4.5
+- node probabilities
+- two types
+- commonly used method
+tags_extracted: '2025-12-18T17:55:06.386043'
+tags_method: max_quality_v1
 ---
 
 # Algorithms for Optimization

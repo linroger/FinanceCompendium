@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Topics in International Macroeconomics
 linter-yaml-title-alias: Topics in International Macroeconomics
+primary_tags:
+- international macroeconomics
+- arbitrage home foreign arbitrage
+- parity debt default global
+secondary_tags:
+- theory exchange rates forex
+- parity exchange rates
+- exchange rates learned long
+- long run theory
+- macroeconomics economics science thinking
+- model real exchange
+tags_extracted: '2025-12-18T00:47:56.624716'
 ---
 
 # Topics in International Macroeconomics

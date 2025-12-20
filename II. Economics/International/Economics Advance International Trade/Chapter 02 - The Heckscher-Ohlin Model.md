@@ -1,12 +1,28 @@
 ---
 aliases:
-  - The Heckscher-Ohlin Model
-tags:
-key_concepts:
+- The Heckscher-Ohlin Model
+tags: null
+key_concepts: null
 parent_directory: II. Economics/International/Economics Advance International Trade
 cssclasses: academia
-title: "Chapter 2: The Heckscher-Ohlin Model"
-linter-yaml-title-alias: "Chapter 2: The Heckscher-Ohlin Model"
+title: 'Chapter 2: The Heckscher-Ohlin Model'
+linter-yaml-title-alias: 'Chapter 2: The Heckscher-Ohlin Model'
+primary_tags:
+- goods factors model formulation
+- factor endowments free trade
+- aimed analysis taking account
+- chapter heckscher ohlin model
+secondary_tags:
+- ohlin model countries goods
+- free trade ho model
+- goods countries based differences
+- model let consider countries
+- ohlin samuelson hos model
+- goods countries answered heckscher
+- factor prices equalized countries
+- trade patterns
+- panel equilibrium foreign
+tags_extracted: '2025-12-18T00:14:20.294729'
 ---
 
 # Chapter 2: the Heckscher-Ohlin Model

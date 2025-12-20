@@ -1,11 +1,31 @@
 ---
 aliases: Market for Credit Risk Transfer Vehicles
-tags:
-key_concepts:
-parent_directory: "[[Foundations of Global Financial Markets]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 39: Market for Credit Risk Transfer Vehicles"
+title: 'Chapter 39: Market for Credit Risk Transfer Vehicles'
 linter-yaml-title-alias: Market for Credit Risk Transfer Vehicles
+primary_tags:
+- credit risk encompasses default
+- rate swaps used cdo
+- transaction synthetic collateralized debt
+- credit risk transfer vehicles
+- collateralization trades intermediaries
+secondary_tags:
+- credit derivative purpose
+- crt vehicle credit derivatives
+- loan obligation cdo collateral
+- synthetic cdos credit linked
+- default swaps cdss
+- transfer risk clean market
+- loans cdo referred collateralized
+- manager uses rate swaps
+- risk loan originated sell
+- collateralized debt obligation difference
+- cds index credit risk
+- referred arbitrage transaction motivation
+tags_extracted: '2025-12-18T00:28:49.534514'
 ---
 
 # 39

@@ -1,3 +1,22 @@
+---
+primary_tags:
+- global economy patterns
+- economics introduction international trade
+- tiger tortoise 575 gni
+- international macroeconomics 859
+secondary_tags:
+- trade technology ricardian model
+- pattern international trade 40
+- world trade trade compared
+- 304 free trade equilibrium
+- trade policies chapter
+- macroeconomics chapter 12
+- comparative advantage created
+- industry trade gravity
+- financial globalization 609 chapter
+tags_extracted: '2025-12-18T00:31:29.651298'
+---
+
 # International Economics
 
 PART 1 Introduction to International Trade

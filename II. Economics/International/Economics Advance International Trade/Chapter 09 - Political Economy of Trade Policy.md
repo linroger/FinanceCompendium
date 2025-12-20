@@ -1,3 +1,22 @@
+---
+primary_tags:
+- countries autarky argument path
+- chapter political economy trade
+- multilateral free trade question
+- welfare determining trade policy
+secondary_tags:
+- bilateral free trade assumed
+- sequential regional multilateral agreements
+- multilateral agreement median voters
+- free trade assumed veto
+- country block multilateral
+- policies politically motivated tariffs
+- voter country benefits bilateral
+- free trade models
+- trade agreements versus multilateral
+tags_extracted: '2025-12-18T00:15:10.647134'
+---
+
 # Chapter 9 – Political Economy of Trade Policy
 
 In the previous two chapters we have covered the basic analysis of trade policies, including models of imperfect competition. The idea that non-competitive markets give rise to opportunities for governments to gain from trade policies has been an important line of research. It has ultimately been concluded, however, that such opportunities for "strategic" use of trade policy are very limited. This raises the obvious question of why trade policies are used so often? One answer is that such policies are politically motivated: tariffs are granted in response to demands by special interest groups, such as industries and unions. The research issue is to understand how such demands are mediated through the political process. In this chapter we outline research on the political economy of protection, including the median voter model of Mayer (1984) and the "protection for sale" model of Grossman and Helpman (1994).

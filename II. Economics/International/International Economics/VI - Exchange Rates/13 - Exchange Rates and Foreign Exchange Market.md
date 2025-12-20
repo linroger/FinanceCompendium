@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Exchange Rates I: The Monetary Approach in the Long Run"
-linter-yaml-title-alias: "Exchange Rates I: The Monetary Approach in the Long Run"
+title: 'Exchange Rates I: The Monetary Approach in the Long Run'
+linter-yaml-title-alias: 'Exchange Rates I: The Monetary Approach in the Long Run'
+primary_tags:
+- supply korea rate
+- monetary approach exchange rates
+- certain price foreign money
+- answer questions 1970 dollar
+secondary_tags:
+- exchange rates prices long
+- exchange rates raises question
+- foreign country inflation
+- conclusions example canadian prices
+- currency remains comparable baskets
+- monetary model longer assumed
+- 1990 canadian dollar depreciated
+- basket exchange rates prices
+- country combining monetary theory
+tags_extracted: '2025-12-18T00:45:28.115334'
 ---
 
 # Exchange Rates I: The Monetary Approach in the Long Run

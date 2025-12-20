@@ -1,11 +1,20 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Principles For Navigating Big Debt Crises - Chapter Breakdown
 linter-yaml-title-alias: Principles For Navigating Big Debt Crises - Chapter Breakdown
+primary_tags:
+- term big
+- classic deflationary debt cycle
+secondary_tags:
+- navigating big debt crises
+- archetypal pattern debt crises
+- banking crisis deflation fdr
+- big debt cycle md
+tags_extracted: '2025-12-18T00:12:00.441459'
 ---
 
 # Principles For Navigating Big Debt Crises - Chapter Breakdown

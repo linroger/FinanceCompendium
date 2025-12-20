@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "22"
-linter-yaml-title-alias: "22"
+title: '22'
+linter-yaml-title-alias: '22'
+primary_tags:
+- circuit breakers trading limit
+- institutional investors differ traditional
+- stock trading market structures
+- responsibility division trading markets
+- broker determining execute trade
+- market orders entrusted brokers
+secondary_tags:
+- 22 equity trading venues
+- 22 securities exchange act
+- trading market regulation
+- equity markets regulation
+- stocks specialists act broker
+- nyse assigned specialists
+- evolution stock markets institutionalization
+- trading floor serve fiduciaries
+- market volatility rules involve
+- trading venues united states
+- breaker rules adopted sec
+- specialist stock enters order
+- type market structure order
+- trading specialist able determine
+- trading crowd order specialist
+- volatility determining trading halts
+tags_extracted: '2025-12-18T00:21:29.449231'
 ---
 
 # 22

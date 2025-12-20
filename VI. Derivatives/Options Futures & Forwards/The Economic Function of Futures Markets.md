@@ -1,6 +1,12 @@
-The economic function of futures markets
+---
+title: Chapter 07 - The Economic Function of Futures Markets
+tags: [futures-markets, commodity-markets, hedging, risk-management, storage-theory, commodity-finance]
+parent_directory: VI. Derivatives/Options Futures & Forwards
+key_concepts: [futures-markets, hedging, storage-theory, commodity-pricing, risk-aversion, loan-markets]
+cssclasses: [academia]
+---
 
-# The economic function of futures markets
+# The Economic Function of Futures Markets
 
 JEFFREY WILLIAMS
 
@@ -20,7 +26,7 @@ www.cambridge.org
 
 Information on this title: www.cambridge.org/9780521389341
 
-$\odot$  Cambridge University Press 1986
+$\copyright$ Cambridge University Press 1986
 
 This publication is in copyright. Subject to statutory exception and to the provisions of relevant collective licensing agreements, no reproduction of any part may take place without the written permission of Cambridge University Press.
 
@@ -44,91 +50,89 @@ ISBN 978-0-521-38934-1 paperback
 
 page vii
 
-1 An introduction to futures markets 1
+## 1 An introduction to futures markets
 
-1.1 Clearinghouses 4  
-1.2 Margin money 10  
-1.3 The spreads among futures prices 16  
-1.4 The importance of spreads to futures markets 20  
-1.5 The behavior of spreads 22  
-1.6 Spreads and storage 33  
+1.1 Clearinghouses 4
+1.2 Margin money 10
+1.3 The spreads among futures prices 16
+1.4 The importance of spreads to futures markets 20
+1.5 The behavior of spreads 22
+1.6 Spreads and storage 33
 1.7 An outline of the remaining chapters 38
 
-2 Equivalent ways to borrow and lend commodities 41
+## 2 Equivalent ways to borrow and lend commodities
 
-2.1 Implicit markets 42  
-2.2 The equilibrium relationship for loan markets 48  
-2.3 Methods of lending shares of stock 50  
-2.4 Loan markets for commodities 55  
-2.5 Repurchase agreements, straddles, and spreads 60  
-2.6 Hedging 65  
-2.7 Basis trading 70  
+2.1 Implicit markets 42
+2.2 The equilibrium relationship for loan markets 48
+2.3 Methods of lending shares of stock 50
+2.4 Loan markets for commodities 55
+2.5 Repurchase agreements, straddles, and spreads 60
+2.6 Hedging 65
+2.7 Basis trading 70
 2.8 Futures markets as implicit loan markets 74
 
-3 Futures markets and risk aversion 77
+## 3 Futures markets and risk aversion
 
-3.1 The dominance of the perspective of risk aversion 79  
-3.2 The theory of normal backwardation 81  
-3.3 A critique of the theory of normal backwardation 84  
-3.4 The portfolio theory of hedging 90  
-3.5 Misconceptions in the portfolio theory of hedging 92  
-3.6 Not hedging as a response to risk aversion 100  
-3.7 The risk of lifting a hedge 103  
-3.8 Basis risk 106  
+3.1 The dominance of the perspective of risk aversion 79
+3.2 The theory of normal backwardation 81
+3.3 A critique of the theory of normal backwardation 84
+3.4 The portfolio theory of hedging 90
+3.5 Misconceptions in the portfolio theory of hedging 92
+3.6 Not hedging as a response to risk aversion 100
+3.7 The risk of lifting a hedge 103
+3.8 Basis risk 106
 3.9 Conclusion: Risk-averse dealers' use of futures markets 109
 
 vi
 
 # Contents
 
-4 The demand to borrow commodities 111
+## 4 The demand to borrow commodities
 
-4.1 Pure storage and speculative storage 112  
-4.2 The transactions demand for inventories 115  
-4.3 The precautionary demand for inventories 118  
-4.4 Market parlance and inventory control theory 124  
-4.5 The demand for accessibility 127  
-4.6 The explanation of spreads 130  
-4.7 The demand for accessibility and the supply of storage 137  
+4.1 Pure storage and speculative storage 112
+4.2 The transactions demand for inventories 115
+4.3 The precautionary demand for inventories 118
+4.4 Market parlance and inventory control theory 124
+4.5 The demand for accessibility 127
+4.6 The explanation of spreads 130
+4.7 The demand for accessibility and the supply of storage 137
 4.8 The reasons for borrowing commodities 142
 
-5 The contribution of futures markets 150
+## 5 The contribution of futures markets
 
-5.1 The demand for access in general equilibrium 151  
-5.2 Warehouse receipts and grain banks 154  
-5.3 The economic function of futures markets 156  
-5.4 Futures markets and forward markets 162  
-5.5 Futures markets and organized markets 168  
-5.6 Transactional reasons for implicit loan markets 171  
+5.1 The demand for access in general equilibrium 151
+5.2 Warehouse receipts and grain banks 154
+5.3 The economic function of futures markets 156
+5.4 Futures markets and forward markets 162
+5.5 Futures markets and organized markets 168
+5.6 Transactional reasons for implicit loan markets 171
 5.7 Legal reasons for implicit loan markets 174
 
-6 The optimal number of futures markets 180
+## 6 The optimal number of futures markets
 
-6.1 The number of economically justifiable markets 182  
-6.2 The number of trading locations 189  
-6.3 The number of grades 198  
-6.4 The number of months within a year actively traded 204  
-6.5 The number of years ahead actively traded 209  
-6.6 Comparison with other explanations 220  
+6.1 The number of economically justifiable markets 182
+6.2 The number of trading locations 189
+6.3 The number of grades 198
+6.4 The number of months within a year actively traded 204
+6.5 The number of years ahead actively traded 209
+6.6 Comparison with other explanations 220
 6.7 Summary: Economically justifiable futures markets 228
 
-7 Conclusion: The economic function of futures markets 230
+## 7 Conclusion: The economic function of futures markets
 
-7.1 The role of risk 230  
-7.2 Tests of the various theories 232  
+7.1 The role of risk 230
+7.2 Tests of the various theories 232
 7.3 A stylized representation of the function of futures markets 236
 
-Glossary of trade terms 238  
-Reference list 247  
+Glossary of trade terms 238
+Reference list 247
 Index 257
 
 The recent boom in futures trading has sparked in turn a surge in books on speculation in futures contracts, on the historical patterns in commodity prices, and on the mechanics of futures trading. I hope with this book to contribute something different. I have not tried to set up a system that would predict the prices for different delivery dates and locations but have instead concentrated on explaining the patterns among them. I have done so by connecting these patterns to general economic principles rather than by taking an empirical approach. The reader should not expect, therefore, to find interviews with processors and commodity dealers, nor surveys of the ways they use futures markets. Still, I hope it is clear that these handlers of commodities remain the centerpiece of my study, because they, rather than speculators or brokers, have the greatest effect on the patterns in prices and on the viability of futures markets.
 
 This book offers a new explanation of the function of futures markets: that dealers use them as part of an implicit method of borrowing and lending commodities. My argument counters the heretofore accepted wisdom that dealers in commodities employ futures markets to insure their inventories against the risk of fluctuating prices. Futures markets are believed to be most closely related to insurance markets, yet the appropriate analogy should be money markets. Futures prices for different delivery dates serve to express a term structure of commodity-specific interest rates, in much the same way money markets do for money.
 
-Futures markets have too often been examined in isolation from other markets in the economy. Although such an emphasis on futures markets' special characteristics is appropriate for grasping the mechanics of futures trading, it is nonetheless myopic, and it inadvertently misrepresents the economic function of futures markets. That more fundamental subject is better comprehended through studying what futures markets have in common with other institutions. This book establishes many parallels between them, by demonstrating the economic effect of complex trades whatever their names, by applying to dealers in commodities models long used in
-
-other areas of economics, and by considering the variety among commodity markets themselves.
+Futures markets have too often been examined in isolation from other markets in the economy. Although such an emphasis on futures markets' special characteristics is appropriate for grasping the mechanics of futures trading, it is nonetheless myopic, and it inadvertently misrepresents the economic function of futures markets. That more fundamental subject is better comprehended through studying what futures markets have in common with other institutions. This book establishes many parallels between them, by demonstrating the economic effect of complex trades whatever their names, by applying to dealers in commodities models long used in other areas of economics, and by considering the variety among commodity markets themselves.
 
 Some readers may resist the notion of loans in and interest rates for commodities. Precisely because it is so wrenching to discard the perspective of price insurance, this book includes a chapter demonstrating the internal inconsistencies of the prevailing theory. The book also contrasts the competing explanations of several specific topics, such as the subject of why futures markets exist for particular commodities and not for others.
 
@@ -141,6 +145,30 @@ This book developed from my doctoral dissertation at Yale University. I would, t
 # An introduction to futures markets
 
 The hurly-burly of futures markets provides economists with a prime example of order arising from seeming chaos. The workings of commodity exchanges, such as margin rules, clearinghouses, and arcane terminology, result from the unplanned evolution of complex institutions. Futures prices are likewise the result of the interaction of brokers, speculators, and dealers in commodities, with no one firm or individual able to control prices. Yet the institutional features display compelling logic and futures prices remarkable consistency in their patterns. Because they exemplify competitive markets, futures markets bring into focus many areas of theoretical interest in economics, such as the role of risk aversion in people's decisions, the behavior of those storing commodities, and the market system's ability to digest information.
+
+A study of the function of futures markets, therefore, can investigate the operation of actual markets as well as broader theoretical topics. This particular study aims mainly at theoretical topics rather than purely institutional questions such as the response of futures markets to changes in legal precepts. This study begins with the premise that understanding the motives of handlers of commodities is central to understanding futures markets. Without the business of handlers of commodities, futures markets wither away (Working 1954), contrary to the popular impression of the importance of speculation. Concentration on handlers of commodities illuminates two fundamental issues in particular: the reasons why futures prices have the patterns they do and the reasons why so few futures markets exist.
+
+Handler of commodities range from flour millers and soybean exporters to dealers in Treasury securities and mortgages. Because industries processing agricultural commodities or minerals are often easier to comprehend, the examples used here will mainly be about conventional primary commodities. The insights gained about agricultural processors' use of futures markets apply with little modification to those handling financial instruments.
+
+Currently, economists draw on an analogy with insurance markets, where risk aversion takes center stage, for their understanding of
+
+why dealers in commodities use futures markets. This study seeks to replace that analogy with one of money markets. Dealers use futures markets as an implicit method of borrowing and lending their commodities. Because of the inflexibilities of transporting and processing commodities, they have sufficient reason to use futures markets even if they are neutral toward risk. Economists should approach firms' use of futures markets with the tools they have developed to study financial intermediation rather than the tools they have developed to study risk aversion. The patterns among futures prices can best be comprehended from the perspective of interest rates rather than insurance premiums. Economists have misunderstood the function of futures markets.
+
+Of course, these theoretical discussions should never ignore the institutional realities. For example, a theoretical analysis can determine which commodities have the potential to develop futures trading, but the success of an actual market still depends crucially on such factors as the proper design of contractual terms for delivery, the trust traders need for dealing with one another, and the number of interested speculators. Accordingly, this first chapter introduces both the mechanics of futures trading and the theoretical subjects to be explored at length in later chapters.
+
+To the individual unfamiliar with commodity exchanges, the jumble of figures and terms found in newspaper coverage of futures markets must be a cryptogram. Indeed, "cash price," "futures," "shorts," and "longs," terms whose meanings are not immediately apparent, are parts of a code that must be broken in order to understand futures markets. Cash price, for example, does not refer solely to transactions requiring immediate payment of cash. Although most often "cash" refers to the immediate transfer of ownership of goods already at a specific location, some trades in the cash market are on credit, and others call for goods to be delivered and paid for several months later. A common synonym for cash price is "spot price," the word "spot" abridging the best description of the transaction—an exchange of cash for a commodity on the spot. Similarly, the terms "futures" and "futures markets" are difficult to decipher. "Futures," formally an abbreviation of the phrase "contract for future delivery," refers to contracts calling for delivery of a standard quantity and quality of a commodity to a particular location during a specified period in the future. Although the contracts stipulate the month for delivery, the seller chooses the exact day of
+
+delivery. $^2$  Futures markets like the Chicago Board of Trade are institutions that allow for such standardized contracts to be traded at high volume with low cost, in part because such contracts can be canceled before the time of delivery simply by negotiating an offsetting contract. In effect, the contracts themselves are bought and sold. A trader who has sold a contract, that is, has committed himself to deliver, is called a "short." A trader who has bought a contract, which commits him to accept delivery, is a "long." $^3$
+
+The pressure of finding trading partners, simplifying negotiations, and reducing operating expenses of the exchange all work to keep the number of distinct contracts for a particular commodity to a minimum. Usually the exchanges, sometimes in their bylaws, limit the number of contracts to six or eight different delivery months. But actually the exchanges show far greater concern with promoting trading, there rarely being from their perspective sufficient trading over the full range of contracts and commodities.
+
+For the market in a particular commodity to be legitimately called a futures market, contracts in several delivery months must be traded simultaneously in reasonable daily volume, say at least a few hundred per delivery month and several thousand collectively. The daily volume of the most active futures markets is on the order of 50,000 contracts, occasionally reaching 100,000 contracts. The majority of functioning futures markets, forty or fifty in number, are for agricultural products like corn, feeder cattle, cotton, and cocoa, or for metals such as gold and copper. The mid-1970s saw the beginning of a boom in new contracts calling for delivery of financial instruments like Swiss francs or U.S. Treasury bonds. Although dealings in contracts for such financial instruments have endured, attempts by the major exchanges to establish markets for many commodities, from frozen turkeys to silver coins, have failed. Other once active markets, such as the egg market on the Chicago Mercantile Exchange and the wool tops market on the New York Cotton Exchange, have died.
+
+Despite the large number of contracts bought and sold on an active futures market during a typical day, the change in the total open interest, the number of contracts outstanding at the close of
+
+the day's trading, is small, usually within a range of  $-500$  to  $+500$  contracts. The open interest changes slowly because many traders taking a position in the market just replace those who are leaving. Meanwhile, other traders called "day traders" and "scalpers," whose volume of trading is high, close out their positions at the end of each day by obtaining contracts that offset the holdings they have already accumulated. Viable futures markets typically have average daily volume on the order of one fifth or one fourth their open interest, although the most active markets by attracting many day traders and scalpers sustain daily volume of one half their open interest.
+
+Contracts for delivery in more distant months generally have a lower volume and smaller open interest. The exception is the contract calling for delivery in the current month. Before a contract becomes eligible for delivery, most traders offset it entirely or "roll over" their position into a more distant delivery month. Indeed, surprisingly few contracts for future delivery end in delivery. In the more actively traded commodities, usually less than one or two percent of the peak open interest in a contract culminates in delivery. A formal exchange like the Chicago Board of Trade greatly facilitates this practice of canceling contracts by devoting much of its energy to the settlement of contracts through offset rather than delivery of the physical commodity.
 
 A study of the function of futures markets, therefore, can investigate the operation of actual markets as well as broader theoretical topics. This particular study aims mainly at theoretical topics rather than purely institutional questions such as the response of futures markets to changes in legal precepts. This study begins with the premise that understanding the motives of handlers of commodities is central to understanding futures markets. Without the business of handlers of commodities, futures markets wither away (Working 1954), contrary to the popular impression of the importance of speculation. Concentration on handlers of commodities illuminates two fundamental issues in particular: the reasons why futures prices have the patterns they do and the reasons why so few futures markets exist.
 

@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "35"
-linter-yaml-title-alias: "35"
+title: '35'
+linter-yaml-title-alias: '35'
+primary_tags:
+- cash market transactions futures
+- strike price underlying asset
+- pricing futures contract arbitrage
+- options theoretical price option
+- hedge ratio calculate
+secondary_tags:
+- 35 pricing futures options
+- hedge riskless payoffs solving
+- arbitrage model price convergence
+- magnitude outcome deriving hedge
+- futures price differ theoretical
+- option pricing models deriving
+- futures price obtain equation
+- futures options contracts contents
+- transactions pricing options basic
+- hedge hold regardless price
+- basic principle hedged portfolio
+- portfolio riskless return equal
+tags_extracted: '2025-12-18T00:27:58.956377'
 ---
 
 # 35

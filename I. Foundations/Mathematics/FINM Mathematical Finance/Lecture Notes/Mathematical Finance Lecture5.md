@@ -1,14 +1,31 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 5: Brownian Motion"
-tags:
+title: 'Lecture 5: Brownian Motion'
+tags: null
 aliases:
-  - Brownian Motion
+- Brownian Motion
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 5: Brownian Motion"
+linter-yaml-title-alias: 'Lecture 5: Brownian Motion'
+primary_tags:
+- passage time
+- time-changed brownian motion
+- traded assets
+- ito calculus
+secondary_tags:
+- pricing and hedging derivative securities
+- continuous-time martingales
+- quadratic variation
+- same strategy
+- borel cantelli lemma
+- brownian paths
+- brownian scaling
+- ; consequently, the probability
+- ', the distribution'
+tags_extracted: '2025-12-18T17:58:00.593734'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 5: BROWNIAN MOTION

@@ -1,3 +1,13 @@
+---
+primary_tags:
+- trade intermediate inputs wages
+- empiricalexercise chapter4
+secondary_tags:
+- relative wages international trade
+- inputs wages early 1980s
+tags_extracted: '2025-12-18T00:14:24.713743'
+---
+
 # Chapter 4: Trade in Intermediate Inputs and Wages
 
 Since the early 1980s there has been a marked change in the pattern of wage payments in the United States: the wage of skilled relative to unskilled workers experienced a sustained increase, that continued through the 1990s. A similar pattern was observed in other countries. This led to a great deal of research on the possible causes of the change in relative wages. From the material we have already covered, we can identify three methods to determine whether the change in relative wages is due to international trade.

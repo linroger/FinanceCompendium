@@ -1,11 +1,20 @@
 ---
-aliases:
+title: Chapter 05 - Forward And Futures Prices
 tags:
+  - forward-pricing
+  - futures-contracts
+  - investment-assets
+  - arbitrage-strategies
+  - cost-of-carry
+  - commodity-futures
+parent_directory: VI. Derivatives
 key_concepts:
-parent_directory:
+  - forward and futures pricing
+  - investment vs consumption assets
+  - arbitrage arguments
+  - cost of carry
+  - convenience yield
 cssclasses: academia
-title: 5.1 INVESTMENT ASSETS VS. CONSUMPTION ASSETS
-linter-yaml-title-alias: 5.1 INVESTMENT ASSETS VS. CONSUMPTION ASSETS
 ---
 
 # 5.1 INVESTMENT ASSETS VS. CONSUMPTION ASSETS

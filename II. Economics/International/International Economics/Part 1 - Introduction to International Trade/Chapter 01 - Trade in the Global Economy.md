@@ -1,3 +1,26 @@
+---
+primary_tags:
+- economics trade global
+- fdi oecd countries key
+- lower wages industrial countries
+- trade sent countries recessions
+- trade countries 2010 years
+secondary_tags:
+- world gdp ratio trade
+- trade gdp 2010 1980
+- worldwide trade migration
+- 27 worldwide trade occurs
+- countries figure happened cause
+- cause slow trade fall
+- possible explain trade countries
+- global economic
+- years world economy reach
+- effects international trade
+- unlike trade occurs oecd
+- countries recessions led fall
+tags_extracted: '2025-12-18T00:37:24.678982'
+---
+
 # International Economics
 
 # Trade in the Global Economy

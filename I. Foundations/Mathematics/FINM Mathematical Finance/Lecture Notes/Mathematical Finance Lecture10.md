@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 10: Change of Measure and the Girsanov Theorem"
-tags:
+title: 'Lecture 10: Change of Measure and the Girsanov Theorem'
+tags: null
 aliases:
-  - Change of Measure and the Girsanov Theorem
+- Change of Measure and the Girsanov Theorem
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 10: Change of Measure and the Girsanov Theorem"
+linter-yaml-title-alias: 'Lecture 10: Change of Measure and the Girsanov Theorem'
+primary_tags:
+- brownian motion
+- continuous paths
+- (constant) drift
+secondary_tags:
+- girsanov theorem
+- different probability measures
+- absolutely continuous probability measures
+- very special probability measures
+- nearly all probability measures
+- girsanov's theorem
+tags_extracted: '2025-12-18T17:57:44.186528'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 10: CHANGE OF MEASURE AND THE GIRSANOV THEOREM

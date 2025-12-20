@@ -1,28 +1,26 @@
 ---
 title: Chapter 29 - The Residential Mortgage Market
 primary_tags:
-  - residential mortgage market
-  - mortgage origination
-  - mortgage types
-  - mortgage risks
-  - secondary mortgage market
+- prepayment penalty mortgage type
+- principal repayment monthly amortization
+- payment month following formula
+- loan risks associated origination
+- mortgage market origination residential
 secondary_tags:
-  - mortgage servicing
-  - credit risk
-  - prepayment risk
-  - mortgage-backed securities
-  - adjustable rate mortgages
-  - fixed rate mortgages
-  - mortgage refinancing
-  - loan to value ratio
-  - payment to income ratio
-  - mortgage securitization
-  - government sponsored enterprises
-  - fannie mae
-  - freddie mac
-  - ginnie mae
-  - mortgage mathematics
+- mortgages mortgage origination process
+- calculate portion monthly mortgage
+- origination mortgage servicers types
+- mortgage involves payment principal
+- loan classified prime ratios
+- residential mortgages chapter 30
+- amortization schedule original balance
+- repayment month example
+- mortgage payment scheduled
+- monthly mortgage payments recalculated
+- suppose month 12 mortgage
+- table a29 referred amortization
 cssclasses: academia
+tags_extracted: '2025-12-18T00:24:17.325755'
 ---
 
 # Chapter 29 - The Residential Mortgage Market

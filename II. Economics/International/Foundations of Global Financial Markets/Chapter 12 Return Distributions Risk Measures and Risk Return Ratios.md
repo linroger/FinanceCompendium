@@ -1,12 +1,33 @@
 ---
 aliases:
-  - Return Distributions Risk Measures and Risk Return Ratios
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Return Distributions Risk Measures and Risk Return Ratios
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 12: Return Distributions, Risk Measures, and Risk-Return Ratios"
-linter-yaml-title-alias: "Chapter 12: Return Distributions, Risk Measures, and Risk-Return Ratios"
+title: 'Chapter 12: Return Distributions, Risk Measures, and Risk-Return Ratios'
+linter-yaml-title-alias: 'Chapter 12: Return Distributions, Risk Measures, and Risk-Return
+  Ratios'
+primary_tags:
+- risk return ratios contents
+- correlation covariance correlations covariance
+- tempered stable distributions suggested
+- developed dividing covariance variance
+- probability distribution asset returns
+secondary_tags:
+- random variables covariance
+- normal distribution means portfolio
+- distributions covariance correlations portfolio
+- finance covariance equivalently correlation
+- portfolio selection theory chapter
+- portfolio risk measures value
+- reward risk ratio explained
+- asset pricing derived purpose
+- covariance average joint
+- theory risk management property
+- risk multidimensionality risk asymmetry
+- unlike covariance correlation coefficient
+tags_extracted: '2025-12-18T00:19:27.338625'
 ---
 
 # 12

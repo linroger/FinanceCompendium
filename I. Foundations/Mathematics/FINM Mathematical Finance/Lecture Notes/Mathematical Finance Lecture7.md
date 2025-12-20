@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 7: Black-Scholes Theory"
-tags:
+title: 'Lecture 7: Black-Scholes Theory'
+tags: null
 aliases:
-  - Black-Scholes Theory
+- Black-Scholes Theory
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 7: Black-Scholes Theory"
+linter-yaml-title-alias: 'Lecture 7: Black-Scholes Theory'
+primary_tags:
+- scholes theory introduction
+- call option
+- share prices
+secondary_tags:
+- famous black-scholes formula
+- black-scholes(-merton) model
+- subsequent lectures
+- riskless asset cash bond
+- stock and cash bond
+- itô formula
+tags_extracted: '2025-12-18T17:58:10.479926'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 7: BLACK-SCHOLES THEORY

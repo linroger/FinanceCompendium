@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: CHAPTER 4
 linter-yaml-title-alias: CHAPTER 4
+primary_tags:
+- open economy equilibrium model
+- policy floating exchange rates
+- international capital markets
+- macroeconomic policy internal
+- raise rates hong
+secondary_tags:
+- external balance monetary policy
+- adjustment monetary scal policy
+- policies impact open economy
+- exchange rates influence
+- monetary policy perfect capital
+- exchange rates contrast scal
+- monetary policy achieve internal
+- open economy derivation bp
+- open economy fundamental di
+- capital inflow policy
+- policies hand policies devaluation
+- sa sy 80 macroeconomic
+tags_extracted: '2025-12-18T01:30:58.911514'
 ---
 
 # CHAPTER 4

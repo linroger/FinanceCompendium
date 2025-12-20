@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Table of Contents
 linter-yaml-title-alias: Table of Contents
+primary_tags:
+- cycle archetypal big debt
+- currency weakening capital flows
+- asset weaker economic activity
+- rates dangerous currency dynamic
+- redistributions debt burdens deleveragings
+- economy reflationary deleveraging
+secondary_tags:
+- principles navigating big debt
+- perspectives big debt crises
+- currency weakness causes inflation
+- debt cycles existed long
+- debt crisis template archetypal
+- classic deflationary debt cycle
+- debt crises come cycles
+- debt crises ray dalio
+- debt cycle bubble
+- economic conditions currency defense
+- debt crisis economic weakness
+- reinforcing wealth falls
+- weakness money leaves country
+- depressions currency crises phases
+- amcs steps restructure debt
+- stronger currency debt
+tags_extracted: '2025-12-18T00:08:11.093293'
 ---
 # Principles for Navigating Big Debt Crises
 ### RAY DALIO

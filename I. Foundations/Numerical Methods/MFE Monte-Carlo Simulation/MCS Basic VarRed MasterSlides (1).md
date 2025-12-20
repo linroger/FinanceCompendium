@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "IEOR E4703: Monte-Carlo Simulation"
-linter-yaml-title-alias: "IEOR E4703: Monte-Carlo Simulation"
+title: 'IEOR E4703: Monte-Carlo Simulation'
+linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+primary_tags:
+- conditional monte carlo algorithm
+- other variance reduction methods
+- simulation variates efficiency
+secondary_tags:
+- outline simulation variates efficiency
+- standard simulation algorithm
+- control variate simulation algorithm
+- following antithetic variate simulation algorithm
+- good simulation algorithm
+- usual simulation algorithm
+tags_extracted: '2025-12-18T17:59:17.124315'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

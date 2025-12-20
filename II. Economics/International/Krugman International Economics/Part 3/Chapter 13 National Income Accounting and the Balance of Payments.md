@@ -1,12 +1,20 @@
 ---
 aliases:
-  - National Income Accounting and the Balance of Payments
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- National Income Accounting and the Balance of Payments
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 13: National Income Accounting and the Balance of Payments"
-linter-yaml-title-alias: "Chapter 13: National Income Accounting and the Balance of Payments"
+title: 'Chapter 13: National Income Accounting and the Balance of Payments'
+linter-yaml-title-alias: 'Chapter 13: National Income Accounting and the Balance of
+  Payments'
+primary_tags:
+- income identity open economy
+- accounts 352 national product
+secondary_tags:
+- 13 national income accounting
+- 350 national income accounts
+tags_extracted: '2025-12-18T01:47:00.745085'
 ---
 
 # 13 National Income Accounting and the Balance of Payments 350

@@ -1,3 +1,31 @@
+---
+primary_tags:
+- proportions theory free trade
+- labor foreign scarce factor
+- differences country factor abundance
+- food economy labor
+- trade theories including factor
+- resource differences trade chapter
+secondary_tags:
+- factor proportions theory trade
+- trade induces convergence relative
+- economy produces cloth food
+- factors home foreign trade
+- relative price cloth economy
+- ohlin model labor factor
+- exports brought factor proportions
+- capital food sector cloth
+- cloth sector expansion economy
+- multiple countries factors production
+- resources trade heckscher ohlin
+- factor production ricardian model
+- sector relationship relative goods
+- factor intensively countries tend
+- income distribution effects international
+- heckscher ohlin model
+tags_extracted: '2025-12-18T00:51:11.122095'
+---
+
 # RESOURCES AND TRADE: THE HECKSCHER-OHLIN MODEL
 
 If labor were the only factor of production, as the Ricardian model assumes, comparative advantage could arise only because of international differences in labor productivity. In the real world, however, while trade is partly explained by differences in labor productivity, it also reflects differences in countries' resources. Canada exports forest products to the United States not because its lumberjacks are more productive relative to their U.S. counterparts but because sparsely populated Canada has more forested land per capita than the United States. Thus, a realistic view of trade must allow for the importance not just of labor but also of other factors of production such as land, capital, and mineral resources.

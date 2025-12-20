@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Introduction to Exchange Rates and the Foreign Exchange Market
 linter-yaml-title-alias: Introduction to Exchange Rates and the Foreign Exchange Market
+primary_tags:
+- country appreciation does
+- france trading dollars
+- observer consider dollar euro
+- introduction exchange rates foreign
+secondary_tags:
+- exchange rates affect large
+- foreign exchange market chapter
+- criticize activities foreign exchange
+- roiling world currency market
+- currencies great practical importance
+- trade influencing prices
+- depreciation european perspective lesson
+- rate market
+- chapter fall rupee
+tags_extracted: '2025-12-18T00:45:18.944489'
 ---
 
 # Introduction to Exchange Rates and the Foreign Exchange Market

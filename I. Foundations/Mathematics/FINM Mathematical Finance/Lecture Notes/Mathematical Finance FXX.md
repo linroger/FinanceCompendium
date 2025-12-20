@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Foreign Exchange & Stochastic Calculus"
-tags:
+title: Foreign Exchange & Stochastic Calculus
+tags: null
 aliases:
-  - Foreign Exchange & Stochastic Calculus
+- Foreign Exchange & Stochastic Calculus
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Foreign Exchange & Stochastic Calculus"
+linter-yaml-title-alias: Foreign Exchange & Stochastic Calculus
+primary_tags:
+- fluctuations models
+- currency exchange processes
+- us money market
+secondary_tags:
+- foreign exchange models
+- exchange models
+- risk neutral measure
+- risk-neutral probability measure
+- tradeable asset
+- stochastic process
+tags_extracted: '2025-12-18T17:57:32.464976'
+tags_method: max_quality_v1
 ---
 
 # Stochastic Calculus

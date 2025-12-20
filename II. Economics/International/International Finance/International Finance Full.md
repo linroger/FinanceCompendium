@@ -1,13 +1,45 @@
 ---
-parent_directory:
+parent_directory: null
 title: INTERNATIONAL FINANCE
-tags:
-aliases:
+tags: null
+aliases: null
 parent_folder: Global-Markets
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
 linter-yaml-title-alias: INTERNATIONAL FINANCE
+primary_tags:
+- news exchange rate model
+- forward contract currency exchanged
+- devaluation income absorption
+- currencies relation ppp
+- debt service percentage exports
+- title international finance
+- exchange limits exposure dealing
+- expansionary fxo response
+secondary_tags:
+- currency dornbusch model assumed
+- international capital eurobond market
+- currency forward premium
+- coordination making countries worse
+- differences currency futures contract
+- expectation devaluation cost government
+- relative purchasing power parity
+- eurocurrency eurobond markets ways
+- countries notes ation hypothesis
+- asian crisis case imf
+- concept exchange rate overshooting
+- equilibrium gains international coordination
+- variables affected expected devaluation
+- international finance recession argentinian
+- exchange rate consistent equilibrium
+- ppp inflation rate japan
+- rate theory understanding exchange
+- peso devalued
+- international macroeconomic
+- mortgage loan led predatory
+- relative ppp te absolute
+tags_extracted: '2025-12-18T01:43:38.112923'
 ---
 
 ---

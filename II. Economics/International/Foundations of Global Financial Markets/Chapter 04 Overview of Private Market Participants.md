@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "4"
-linter-yaml-title-alias: "4"
+title: '4'
+linter-yaml-title-alias: '4'
+primary_tags:
+- participant entitled accrued pension
+- faced financial institution pbgc
+- investment corp types
+- corporation establish pension fund
+- private market participants financial
+secondary_tags:
+- institutions asset managers participate
+- nonfinancial corporations participate financial
+- pension plans learning objectives
+- does participate financial market
+- markets role households
+- pension plans sponsored corporations
+- role financial sector savings
+- germany private pension sector
+- understand role pension
+- longer liability plan participants
+- sponsor function pbgc explain
+- pension investments denmark specialized
+tags_extracted: '2025-12-18T00:17:17.997346'
 ---
 
 # 4

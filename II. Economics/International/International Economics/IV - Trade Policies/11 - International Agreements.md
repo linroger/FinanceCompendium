@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: The Global Macroeconomy
 linter-yaml-title-alias: The Global Macroeconomy
+primary_tags:
+- governance affect economic outcomes
+- currencies crises globalization finance
+- global macroeconomy
+- current exchange rates different
+secondary_tags:
+- macroeconomy barbarism remains transactions
+- exchange rate data
+- money changes nation external
+- emerging market countries highest
+- current accounts dollars countries
+- countries highest spreads dollar
+- countries actual data imf
+- different international economic
+- dollarization 427 income capita
+tags_extracted: '2025-12-18T00:36:10.618742'
 ---
 
 # The Global Macroeconomy

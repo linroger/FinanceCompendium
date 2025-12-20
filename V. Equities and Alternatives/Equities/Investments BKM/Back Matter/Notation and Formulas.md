@@ -1,164 +1,180 @@
 ---
+title: "Notation and Formulas"
 aliases:
   - Notation and Formulas
 tags:
+  - finance
+  - notation
+  - formulas
+  - investments
+  - bkm
 key_concepts:
+  - financial notation
+  - investment formulas
+  - risk measures
+  - portfolio theory
+  - market equilibrium
+  - fixed-income analysis
+  - equity analysis
+  - derivative assets
+  - performance evaluation
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
 cssclasses: academia
-title: "Notation and Formulas"
 ---
 
 # Commonly Used Notation
 
-$b$  Retention or plowback ratio
+$b$ Retention or plowback ratio
 
-C Call option value
+$C$ Call option value
 
-CF Cash flow
+$CF$ Cash flow
 
-$\mathbf{Cov}(\boldsymbol {r}_i,\boldsymbol {r}_j)$  Covariance between returns on securities  $i$  and  $j$
+$\operatorname{Cov}(r_i, r_j)$ Covariance between returns on securities $i$ and $j$
 
-D Duration
+$D$ Duration
 
-$e$  2.718, the base for the natural logarithm, used for continuous compounding
+$e$ 2.718, the base for the natural logarithm, used for continuous compounding
 
-$e_{it}$  The firm-specific return, also called the residual return, of security  $i$  in period  $t$
+$e_{it}$ The firm-specific return, also called the residual return, of security $i$ in period $t$
 
-E Exchange rate
+$E$ Exchange rate
 
-$E(x)$  Expected value of random variable  $x$
+$E(x)$ Expected value of random variable $x$
 
-$f$  （204 Forward rate of interest
+$f$ Forward rate of interest
 
-F Futures price
+$F$ Futures price
 
-Growth rate of dividends
+$g$ Growth rate of dividends
 
-Hedge ratio for an option, commonly called the option's delta
+$H$ Hedge ratio for an option, commonly called the option's delta
 
-$\pmb{i}$  Inflation rate
+$i$ Inflation rate
 
-Market capitalization rate, the required rate of return on a firm's stock
+$k$ Market capitalization rate, the required rate of return on a firm's stock
 
-In Natural logarithm function
+$\ln$ Natural logarithm function
 
-M The market portfolio
+$M$ The market portfolio
 
-$N(d)$  Cumulative normal function, the probability that a standard normal random variable will have value less than  $d$
+$N(d)$ Cumulative normal function, the probability that a standard normal random variable will have value less than $d$
 
-$\mathbf{p}$  Probability
+$p$ Probability
 
-Put value
+$P$ Put value
 
-P/E Price-to-earnings multiple
+$P/E$ Price-to-earnings multiple
 
-PV Present value
+$PV$ Present value
 
-Rate of return on a security; for fixed-income securities,  $r$  may denote the rate of interest for a particular period
+$r$ Rate of return on a security; for fixed-income securities, $r$ may denote the rate of interest for a particular period
 
-$r_f$  The risk-free rate of interest
+$r_f$ The risk-free rate of interest
 
-$r_{M}$  The rate of return on the market portfolio
+$r_M$ The rate of return on the market portfolio
 
-ROE Return on equity, incremental economic earnings per dollar reinvested in the firm
+$ROE$ Return on equity, incremental economic earnings per dollar reinvested in the firm
 
-$S_{p}$  Sharpe ratio, also called the reward-to-volatility ratio; the excess expected return divided by the standard deviation
+$S_p$ Sharpe ratio, also called the reward-to-volatility ratio; the excess expected return divided by the standard deviation
 
-Time
+$t$ Time
 
-$T_{p}$  Treynor's measure for a portfolio, excess expected return divided by beta
+$T_p$ Treynor's measure for a portfolio, excess expected return divided by beta
 
-V Intrinsic value of a firm, the present value of future dividends per share
+$V$ Intrinsic value of a firm, the present value of future dividends per share
 
-$X$  Exercise price of an option
+$X$ Exercise price of an option
 
-Yield to maturity
+$y$ Yield to maturity
 
-$\alpha$  Rate of return beyond the value that would be forecast from the market's return and the systematic risk of the security
+$\alpha$ Rate of return beyond the value that would be forecast from the market's return and the systematic risk of the security
 
-$\pmb{\beta}$  Systematic or market risk of a security
+$\beta$ Systematic or market risk of a security
 
-$\pmb{\rho}_{ij}$  Correlation coefficient between returns on securities  $i$  and  $j$
+$\rho_{ij}$ Correlation coefficient between returns on securities $i$ and $j$
 
-Standard deviation
+$\sigma$ Standard deviation
 
-$\sigma^2$  Variance
+$\sigma^2$ Variance
 
-# Measures of Risk
+## Measures of Risk
 
-Variance of returns:  $\sigma^2 = \sum_s p(s)[r(s) - E(r)]^2$
+Variance of returns: $\sigma^2 = \sum_s p(s)[r(s) - E(r)]^2$
 
-Standard deviation:  $\sigma = \sqrt{\sigma^2}$
+Standard deviation: $\sigma = \sqrt{\sigma^2}$
 
-Covariance between returns:  $\operatorname{Cov}(r_i, r_j) = \sum_s p(s) [r_i(s) - E(r_i)] [r_j(s) - E(r_j)]$
+Covariance between returns: $\operatorname{Cov}(r_i, r_j) = \sum_s p(s) [r_i(s) - E(r_i)] [r_j(s) - E(r_j)]$
 
-Beta of security  $i\colon \beta_{i} = \frac{\operatorname{Cov}(r_{i},r_{M})}{\operatorname{Var}(r_{M})}$
+Beta of security $i$: $\beta_i = \frac{\operatorname{Cov}(r_i, r_M)}{\operatorname{Var}(r_M)}$
 
-# Portfolio Theory
+## Portfolio Theory
 
-Expected rate of return on a portfolio with weights  $w_{i}$  in each security:  $E(r_{p}) = \sum_{i = 1}^{n}w_{i}E(r_{i})$
+Expected rate of return on a portfolio with weights $w_i$ in each security: $E(r_p) = \sum_{i=1}^n w_i E(r_i)$
 
-Variance of portfolio rate of return:  $\sigma_p^2 = \sum_{j=1}^{n} \sum_{i=1}^{n} w_j w_i \operatorname{Cov}(r_i, r_j)$
+Variance of portfolio rate of return: $\sigma_p^2 = \sum_{j=1}^n \sum_{i=1}^n w_j w_i \operatorname{Cov}(r_i, r_j)$
 
-# Market Equilibrium
+## Market Equilibrium
 
-The CAPM security market line:  $E(r_{i}) = r_{f} + \beta_{i}[E(r_{M}) - r_{f}]$
+The CAPM security market line: $E(r_i) = r_f + \beta_i[E(r_M) - r_f]$
 
-Multifactor security market line (in excess returns):  $E(R_{i}) = \beta_{iM}E(R_{M}) + \sum_{k = 1}^{K}\beta_{ik}E(R_{k})$
+Multifactor security market line (in excess returns): $E(R_i) = \beta_{iM}E(R_M) + \sum_{k=1}^K \beta_{ik}E(R_k)$
 
-# Fixed-Income Analysis
+## Fixed-Income Analysis
 
 Present value of 1:
 
-Discrete period compounding:  $\mathrm{PV} = 1 / (1 + r)^T$
+Discrete period compounding: $\mathrm{PV} = 1 / (1 + r)^T$
 
-Continuous compounding:  $\mathrm{PV} = e^{-r_{\mathrm{cc}}T}$
+Continuous compounding: $\mathrm{PV} = e^{-r_{\mathrm{cc}}T}$
 
-Forward rate of interest for period  $T$ :  $f_{T} = \frac{(1 + y_{T})^{T}}{(1 + y_{T - 1})^{T - 1}} - 1$
+Forward rate of interest for period $T$: $f_T = \frac{(1 + y_T)^T}{(1 + y_{T-1})^{T-1}} - 1$
 
-Real interest rate:  $r_{\mathrm{real}} = \frac{1 + r_{\mathrm{nom}}}{1 + i} - 1$ where  $r_{\mathrm{nom}}$  is the nominal interest rate and  $i$  is the inflation rate
+Real interest rate: $r_{\mathrm{real}} = \frac{1 + r_{\mathrm{nom}}}{1 + i} - 1$ where $r_{\mathrm{nom}}$ is the nominal interest rate and $i$ is the inflation rate
 
 
-Duration of a security:  $D = \sum_{t=1}^{T} t \times \frac{CF_t}{(1 + y)^t} / \text{Price}$
+Duration of a security: $D = \sum_{t=1}^T t \times \frac{CF_t}{(1 + y)^t} / \text{Price}$
 
-Modified duration:  $D^{*} = D / (1 + y)$
+Modified duration: $D^* = D / (1 + y)$
 
-# Equity Analysis
+## Equity Analysis
 
-Constant growth dividend discount model:  $V_{0} = \frac{D_{1}}{k - g}$
+Constant growth dividend discount model: $V_0 = \frac{D_1}{k - g}$
 
-Sustainable growth rate of dividends:  $g = \mathrm{ROE} \times b$
+Sustainable growth rate of dividends: $g = \mathrm{ROE} \times b$
 
-Price/earnings multiple:  $P / E = \frac{1 - b}{k - \mathrm{ROE} \times b}$
+Price/earnings multiple: $P/E = \frac{1 - b}{k - \mathrm{ROE} \times b}$
 
 $$
-\mathrm {R O E} = (1 - \text {T a x r a t e}) \left[ \mathrm {R O A} + (\mathrm {R O A} - \text {I n t e r s t r a t e}) \frac {\text {D e b t}}{\text {E q u i t y}} \right]
+\mathrm{ROE} = (1 - \text{Tax rate}) \left[ \mathrm{ROA} + (\mathrm{ROA} - \text{Interest rate}) \frac{\text{Debt}}{\text{Equity}} \right]
 $$
 
-# Derivative Assets
+## Derivative Assets
 
-Put-call parity:  $P = C - S_{0} + \mathrm{PV}(X + \mathrm{dividends})$
+Put-call parity: $P = C - S_0 + \mathrm{PV}(X + \mathrm{dividends})$
 
-Black-Scholes formula (with constant dividend yield):  $C = Se^{-\delta T}N(d_1) - Xe^{-rT}N(d_2)$
+Black-Scholes formula (with constant dividend yield): $C = Se^{-\delta T}N(d_1) - Xe^{-rT}N(d_2)$
 
-$$ d _ {1} = \frac {\ln (S / X) + (r - \delta + \sigma^ {2} / 2) T}{\sigma \sqrt {T}}
+$$
+d_1 = \frac{\ln(S/X) + (r - \delta + \sigma^2/2)T}{\sigma\sqrt{T}}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma \sqrt {T}
+$$
+d_2 = d_1 - \sigma\sqrt{T}
 $$
 
-Spot-futures parity:  $F_{0} = S_{0}(1 + r - d)^{T}$
+Spot-futures parity: $F_0 = S_0(1 + r - d)^T$
 
-Interest rate parity (direct exchange rate quotes):  $F_{0} = E_{0}\left(\frac{1 + r_{\mathrm{US}}}{1 + r_{\mathrm{foreign}}}\right)^{T}$
+Interest rate parity (direct exchange rate quotes): $F_0 = E_0\left(\frac{1 + r_{\mathrm{US}}}{1 + r_{\mathrm{foreign}}}\right)^T$
 
-# Performance Evaluation
+## Performance Evaluation
 
-Sharpe ratio:  $S_{p} = \frac{\overline{r}_{p} - \overline{r}_{f}}{\sigma_{p}}$
+Sharpe ratio: $S_p = \frac{\overline{r}_p - \overline{r}_f}{\sigma_p}$
 
-Treynor's measure:  $T_{p} = \frac{\overline{r}_{p} - \overline{r}_{f}}{\beta_{p}}$
+Treynor's measure: $T_p = \frac{\overline{r}_p - \overline{r}_f}{\beta_p}$
 
-Jensen's alpha:  $\alpha_{p} = \overline{r}_{p} - [\overline{r}_{f} + \beta_{p}(\overline{r}_{M} - \overline{r}_{f})]$
+Jensen's alpha: $\alpha_p = \overline{r}_p - [\overline{r}_f + \beta_p(\overline{r}_M - \overline{r}_f)]$
 
-Information ratio:  $\frac{\alpha_p}{\sigma(e_p)}$
+Information ratio: $\frac{\alpha_p}{\sigma(e_p)}$
 
-Geometric average return:  $r_{G} = \left[(1 + r_{1})(1 + r_{2})\dots (1 + r_{T})\right]^{1 / T} - 1$
+Geometric average return: $r_G = \left[(1 + r_1)(1 + r_2)\dots(1 + r_T)\right]^{1/T} - 1$

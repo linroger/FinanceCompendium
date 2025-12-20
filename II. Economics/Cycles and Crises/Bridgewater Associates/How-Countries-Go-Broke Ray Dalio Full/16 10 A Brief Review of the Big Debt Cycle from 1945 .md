@@ -1,9 +1,26 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 16_10_A_Brief_Review_of_the_Big_Debt_Cycle_from_1945_
+primary_tags:
+- us treasury
+- 10-year nominal bond yield
+- big cycle way
+- monetary policy phases
+secondary_tags:
+- current big debt cycle
+- previously explained debt/credit template
+- some brief deleveragings
+- own big debt cycles
+- unexpected developments
+- classic big debt cycles
+- last 100 years
+- debt market
+- year rate
+tags_extracted: '2025-12-18T18:03:29.840796'
+tags_method: max_quality_v1
 ---
 
 # 16_10_A_Brief_Review_of_the_Big_Debt_Cycle_from_1945_

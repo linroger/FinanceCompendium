@@ -1,11 +1,31 @@
 ---
 aliases: Over-the-Counter Interest Rate Derivatives
-tags:
-key_concepts:
-parent_directory: "[[Foundations of Global Financial Markets]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 37: Over-the-Counter Interest Rate Derivatives"
+title: 'Chapter 37: Over-the-Counter Interest Rate Derivatives'
 linter-yaml-title-alias: Over-the-Counter Interest Rate Derivatives
+primary_tags:
+- swaps rate cap floor
+- risk component swap spread
+- 37 issuing securities eurodollar
+- mann floating rate securities
+- forward rate agreements swaps
+secondary_tags:
+- life rate swap does
+- rate swap market role
+- swaps rate caps floors
+- versus receiving libor flat
+- 37 counter rate derivatives
+- swaps risk return characteristics
+- swap spread means dealer
+- treasuries year swap spread
+- spread libor dealer determines
+- counterparty pay libor swap
+- floating payment risk using
+- eurodollar futures market swaps
+tags_extracted: '2025-12-18T00:28:30.081935'
 ---
 
 # 37

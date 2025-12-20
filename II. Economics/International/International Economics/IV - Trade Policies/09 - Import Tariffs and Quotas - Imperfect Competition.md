@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Import Tariffs and Quotas Under Imperfect Competition
 linter-yaml-title-alias: Import Tariffs and Quotas Under Imperfect Competition
+primary_tags:
+- previous nash equilibrium boeing
+- loses subsidy foreign importing
+- world deadweight loss subsidy
+- cases 2007 caused
+- quotas affect trade
+- equilibrium european welfare boeing
+- costs brazilian industries relied
+secondary_tags:
+- tariffs quotas imperfect competition
+- loss compared export subsidies
+- contrast tariff import quota
+- loss impact export tariff
+- export tariff lose
+- equilibrium boeing produces airbus
+- tariffs quotas previous chapter
+- export subsidy price home
+- illustrates effect export tariff
+- subsidies affect nash equilibrium
+- subsidy decision produce boeing
+- free trade nash
+- boeing cost advantage airbus
+- country terms trade gain
+- infant industry tariff argument
+- dumping case increase price
+- produce nash equilibrium european
+- producing countries lose theoretical
+- analyze effect import tariff
+tags_extracted: '2025-12-18T00:35:32.694433'
 ---
 
 # Import Tariffs and Quotas Under Imperfect Competition

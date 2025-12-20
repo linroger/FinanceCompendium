@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: international economics
 linter-yaml-title-alias: international economics
+primary_tags:
+- chapter trade global economy
+- 20 underbrace text
+- loan market equilibrium volatility
+- global macroeconomic events modern
+- workers taa program reauthorized
+- economics introduction international trade
+- equilibrium point debt level
+secondary_tags:
+- frac underbrace frac
+- dots frac delta underbrace
+- chapter crises introduction macroeconomics
+- loan supply curve
+- international macroeconomics developed
+- theta underbrace underbrace theta
+- repayment probability loan market
+- 2013 macroeconomists learn crisis
+- international trade migration
+- trade occurs foreign
+- times underbrace left
+- overline underbrace overline overline
+- global financial crisis primarily
+- quad geq underbrace
+- precrisis global economy help
+- macroeconomy 2007 2013
+- delta right text underbrace
+- withdrawal fiscal stimulus european
+- modern economic history particular
+tags_extracted: '2025-12-18T00:37:11.708697'
 ---
 # International Economics
 ## Part 1. Introduction to International Trade

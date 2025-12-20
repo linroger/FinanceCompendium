@@ -1,12 +1,38 @@
 ---
 aliases:
-  - Quantitative Methods
-tags:
-key_concepts:
-parent_directory: "[[Numerical Methods]]"
+- Quantitative Methods
+tags: null
+key_concepts: null
+parent_directory: '[[Numerical Methods]]'
 cssclasses: academia
-title: "Notes for Quantitative Methods - Stinchcombe"
-linter-yaml-title-alias: "Notes for Quantitative Methods - Stinchcombe"
+title: Notes for Quantitative Methods - Stinchcombe
+linter-yaml-title-alias: Notes for Quantitative Methods - Stinchcombe
+primary_tags:
+- explicit calculations
+- higher variance
+- neyman pearson lemma
+- possible values
+- statistics part
+- complete metric spaces
+secondary_tags:
+- exponential distributions
+- random vectors
+- discrete and cts distributions
+- 11.3.continuity 19
+- cauchy schwartz inequality
+- orthogonal eigenvectors
+- some review
+- maximum likelihood
+- some examples
+- axiomatic approach
+- basic problem
+- linear functions
+- two possible estimators
+- next estimator
+- e.g. binomial
+- compact subsets
+tags_extracted: '2025-12-18T18:00:20.055669'
+tags_method: max_quality_v1
 ---
 
 # NOTES FOR QUANTITATIVE METHODS:

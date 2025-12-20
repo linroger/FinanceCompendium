@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Warren E. Buffett, 2015
 linter-yaml-title-alias: Warren E. Buffett, 2015
+primary_tags:
+- parts supplier corporation
+- transaction value
+- relative share performance
+- buffett's offer
+secondary_tags:
+- composite index
+- trading price
+- purchase price
+- pcp's income statement
+- share price
+- rolls royce
+- bid price appropriate
+- berkshire hathaway inc. letter
+- google finance
+tags_extracted: '2025-12-18T04:00:23.963236'
+tags_method: max_quality_v1
 ---
 
 # Warren E. Buffett, 2015

@@ -1,9 +1,26 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 21_15_Chinas_Big_Cycle_from_1945-49_Until_Now_in_a_Ti
+primary_tags:
+- big cycle
+- big debt issue
+- china's domestic order
+- relative powers
+secondary_tags:
+- 1945-49 period
+- us's big cycle
+- about 15 minutes
+- following charts
+- both china
+- big cycle way
+- new strong leaders
+- late february
+- big debt/financial, internal order
+tags_extracted: '2025-12-18T18:04:22.919620'
+tags_method: max_quality_v1
 ---
 
 # 21_15_Chinas_Big_Cycle_from_1945-49_Until_Now_in_a_Ti

@@ -1,12 +1,24 @@
 ---
 aliases:
-  - Fixed Floating Managed Exchange Rates
-tags:
-key_concepts:
+- Fixed Floating Managed Exchange Rates
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 10: Fixed Floating Managed Exchange Rates"
-linter-yaml-title-alias: "Chapter 10: Fixed Floating Managed Exchange Rates"
+title: 'Chapter 10: Fixed Floating Managed Exchange Rates'
+linter-yaml-title-alias: 'Chapter 10: Fixed Floating Managed Exchange Rates'
+primary_tags:
+- floating look economic rationale
+- exchange rate flexibility chapter
+- determining choice exchange rate
+secondary_tags:
+- floating managed exchange rates
+- exchange rate regimes case
+- single currency optimal
+- currency area theory attempts
+- compared xed exchange rates
+- designed limit exchange rate
+tags_extracted: '2025-12-18T01:33:05.791872'
 ---
 
 # CHAPTER 10

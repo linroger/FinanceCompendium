@@ -1,3 +1,22 @@
+---
+primary_tags:
+- subsidies explain affect trade
+- tariff trade policy measured
+- effect national welfare separated
+- domestic monopoly power
+secondary_tags:
+- effects trade policy
+- nation trade policy example
+- 17 trade policy instruments
+- nations trade describing causes
+- instruments trade policy learning
+- question nation trade
+- trade policy usefully summarized
+- country setting tariff welfare
+- tariffs quotas instruments trade
+tags_extracted: '2025-12-18T00:52:15.257844'
+---
+
 # THE INSTRUMENTS OF TRADE POLICY
 
 Previous chapters have answered the question "Why do nations trade?" by describing the causes and effects of international trade and the functioning of a trading world economy. While this question is interesting in itself, its answer is even more interesting if it also helps answer the question "What should a nation's trade policy be?" For example, the grittiest part of the Brexit, Britain's withdrawal from the European Union (EU) negotiations is over trade. Its tariff, quota, and subsidy rules are fixed by its EU membership. Thus, the EU, Britain, and certain third countries are faced with a dilemma of possibilities of trade. Outside the customs union of the EU, Britain would face tariffs and non-tariff barriers, which could add between 2 and 15 percent to the cost of exports, depending on the product.

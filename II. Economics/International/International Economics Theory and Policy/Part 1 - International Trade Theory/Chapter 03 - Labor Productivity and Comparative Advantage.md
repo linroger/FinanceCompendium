@@ -1,3 +1,22 @@
+---
+primary_tags:
+- economy produce fewer things
+- comparative advantage ricardian model
+- countries eventually opened economies
+- chapters described comparative advantage
+secondary_tags:
+- productivity labor known ricardian
+- international differences productivity labor
+- samuelson comparative advantage trade
+- relationship relative productivity trade
+- international trade ricardian factor
+- comparative advantage winter
+- trade david ricardo principles
+- model international trade works
+- misconceptions comparative advantage shortage
+tags_extracted: '2025-12-18T00:49:04.794167'
+---
+
 # LABOR PRODUCTIVITY AND COMPARATIVE ADVANTAGE: THE RICARDIAN MODEL
 
 Countries engage in international trade for two basic reasons, each of which contributes to their gains from trade. First, countries trade because they are different from each other. Nations, like individuals, can benefit from their differences by reaching an arrangement in which each does the things it does relatively well. Second, countries trade to achieve economies of scale in production. That is, if each country produces only a limited range of goods, it can produce each of these goods at a larger scale and hence more efficiently than if it tried to produce everything. In the real world, patterns of international trade reflect the interaction of both these motives. As a first step toward understanding the causes and effects of trade, however, it is useful to look at simplified models in which only one of these motives is present.

@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: CHAPTER 2
 linter-yaml-title-alias: CHAPTER 2
+primary_tags:
+- economy te foreign
+- balance surplus means country
+- international finance balance payments
+- foreign trade multiplier analysis
+secondary_tags:
+- country balance payments statistics
+- analysing country balance payments
+- resident country purposes balance
+- open economy multiplier increases
+- concepts balance payments disequilibrium
+- essential balance payments analysis
+- equilibrium open economy important
+- balance payments pen economy
+- transactions balance payments meant
+tags_extracted: '2025-12-18T01:30:04.421791'
 ---
 
 # CHAPTER 2

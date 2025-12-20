@@ -1,11 +1,29 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Simulation Efficiency and an Introduction to Variance Reduction Methods
-linter-yaml-title-alias: Simulation Efficiency and an Introduction to Variance Reduction Methods
+linter-yaml-title-alias: Simulation Efficiency and an Introduction to Variance Reduction
+  Methods
+primary_tags:
+- computational effort
+- conditional variance formula
+- usual simulation algorithm
+- other variance reduction techniques
+secondary_tags:
+- some simple variance reduction techniques
+- other variance reduction methods
+- variance reduction technique
+- 1.1 measuring simulation efficiency
+- monte-carlo estimators
+- monte carlo estimator
+- following antithetic variate simulation algorithm
+- monte carlo algorithm
+- standard simulation algorithm
+tags_extracted: '2025-12-18T18:00:11.395056'
+tags_method: max_quality_v1
 ---
 
 # Simulation Efficiency and an Introduction to Variance Reduction Methods

@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "IEOR E4703: Monte-Carlo Simulation"
-linter-yaml-title-alias: "IEOR E4703: Monte-Carlo Simulation"
+title: 'IEOR E4703: Monte-Carlo Simulation'
+linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+primary_tags:
+- variance reductions
+- set approx
+- stratified sampling algorithm
+- independent variables
+secondary_tags:
+- carlo simulation
+- estimating conditional expectations importance
+- tilted density
+- importance sampling density
+- original simulation method
+- carlo approaches
+- sampling algorithm
+- original and importance sampling densities
+- significant variance reduction
+tags_extracted: '2025-12-18T17:59:12.452841'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

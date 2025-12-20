@@ -1,3 +1,26 @@
+---
+primary_tags:
+- trade dollarization factor
+- fx model open economy
+- rates macroeconomic policies short
+- exchange rate does change
+- exchange rate home goods
+secondary_tags:
+- output exchange rates macroeconomic
+- dollars relative price imports
+- increase real exchange rate
+- prominently currency used trade
+- open economy stabilization policy
+- examples goods dollar
+- real exchange rates expression
+- similar nominal exchange rates
+- dollar invoicing common
+- trade balance response shocks
+- currency basic model
+- weakly changes real exchange
+tags_extracted: '2025-12-18T00:43:05.656538'
+---
+
 # Balance of Payments Ii: Output, Exchange Rates, and Macroeconomic Policies in the Short Run
 
 If demand shifts from the products of country  $ B $ to the products of country $ A $, a depreciation by country $ B $ or an appreciation by country $ A $ would correct the external imbalance and also relieve unemployment in country $ B $ and restrain inflation in country $ A $ . This is the most favorable case for flexible exchange rates based on national currencies.

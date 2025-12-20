@@ -2,30 +2,25 @@
 aliases:
   - The Investment Environment
 tags:
+  - investment_environment
+  - financial_assets
+  - real_assets
+  - risk_return_tradeoff
+  - financial_markets
 key_concepts:
+  - Real vs Financial Assets
+  - Risk-Return Trade-off
+  - Financial Market Efficiency
+  - Investment Process
+  - Financial Crisis 2008
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
 cssclasses: academia
-title: "Chapter 1: The Investment Environment"
+title: "Chapter 01 - The Investment Environment"
 ---
 
 # The Investment Environment
 
-# 1
-
-AN INVESTMENT IS the current commitment of money or other resources in the expectation of reaping future benefits. For example, you might purchase shares of stock anticipating that the future proceeds will justify both the time your money is tied up as well as the risk of the investment. The time you will spend studying this text (not to mention its cost) also is an investment. You are forgoing either current leisure or the income you could be earning at a job in the expectation that your future career will be sufficiently enhanced to justify this commitment of time and effort. While these two investments differ in many ways, they share one key attribute that is central to all investments: You sacrifice something of value now, expecting to reap the benefits later.
-
-This text can help you become an informed practitioner of investments. We will focus on investments in securities such as stocks, bonds, or derivatives contracts, but much of what we discuss will be useful in the analysis of any type of investment. The text will provide you with background in the organization of various securities markets; will survey the valuation and risk management principles useful in particular markets, such as those for bonds or stocks; and will introduce you to the principles of portfolio construction.
-
-Broadly speaking, this chapter addresses several topics that will provide perspective for the material that is to come later. First, before delving into the topic of "investments," we consider the role of financial assets in the economy. We discuss the relationship between securities and the "real" assets that actually produce goods and services for consumers, and we consider why financial assets are important to the functioning of a developed economy.
-
-Given this background, we then take a first look at the types of decisions that confront investors as they assemble a portfolio of assets. These investment decisions are made in an environment where higher returns usually can be obtained only at the price of greater risk and in which it is rare to find assets that are so mispriced as to be obvious bargains. These themes—the risk-return trade-off and the efficient pricing of financial assets—are central to the investment process, so it is worth pausing for a brief discussion of their implications as we begin the text. These implications will be fleshed out in much greater detail in later chapters.
-
-We provide an overview of the organization of security markets as well as its key participants. Finally, we discuss the financial crisis that began playing out in 2007 and peaked in 2008. The crisis dramatically illustrated the connections between the financial system and the "real" side of the economy. We look at the origins of the crisis and the lessons that may be drawn
-
-
-about systemic risk. We close the chapter with an overview of the remainder of the text.
-
-# 1.1 Real Assets versus Financial Assets
+## 1.1 Real Assets versus Financial Assets
 
 The material wealth of a society is ultimately determined by the productive capacity of its economy, that is, the goods and services its members can create. This capacity is a function of the real assets of the economy: the land, buildings, machines, and knowledge that can be used to produce goods and services.
 
@@ -35,7 +30,7 @@ While real assets generate net income to the economy, financial assets simply de
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/56883cc699a6667bcf48b31fad9687cdfc68e62aa4eaaba91288c8b32051e416.jpg)
 
-# Concept Check 1.1
+**Concept Check 1.1**
 
 Are the following assets real or financial?
 
@@ -46,11 +41,29 @@ e. A 5 bill
 The distinction between real and financial assets is apparent when we compare the balance sheet of U.S. households, shown in Table 1.1, with the composition of national wealth in the United States, shown in Table 1.2. Household wealth includes financial assets such as bank accounts, corporate stock, or bonds. However, these securities, which are financial assets of households, are liabilities of the issuers of the securities. For example, a bond that you treat as an asset because it gives you a claim on interest income and repayment of principal from Toyota is a liability of Toyota, which is obligated to make these payments. Your asset is Toyota's liability. Therefore, when we aggregate over all balance sheets, these claims cancel out, leaving only real assets as the net wealth of the economy. National wealth consists of structures, equipment, inventories of goods, and land.
 
 
-You might wonder why real assets held by households in Table 1.1 amount to \$44,599 billion, while total real assets in the domestic economy (Table 1.2) are far larger, at \$86,282 billion. A big part of the difference reflects the fact that real assets held by firms, for example, property, plant, and equipment, are included as financial assets of the household sector, specifically through the value of corporate equity and other stock market investments. Also, Table 1.2 includes assets of noncorporate businesses. Finally, there are some differences in valuation methods. For example, equity and stock investments in Table 1.1 are measured by market value, whereas plant and equipment in Table 1.2 are valued at replacement cost.
+You might wonder why real assets held by households in Table 1.1 amount to $44,599 billion, while total real assets in the domestic economy (Table 1.2) are far larger, at $86,282 billion. A big part of the difference reflects the fact that real assets held by firms, for example, property, plant, and equipment, are included as financial assets of the household sector, specifically through the value of corporate equity and other stock market investments. Also, Table 1.2 includes assets of noncorporate businesses. Finally, there are some differences in valuation methods. For example, equity and stock investments in Table 1.1 are measured by market value, whereas plant and equipment in Table 1.2 are valued at replacement cost.
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Real estate</td><td>\$ 37,558</td><td>24.4\%</td><td>Mortgages</td><td>\$ 11,331</td><td>7.4\%</td></tr><tr><td>Consumer durables</td><td>6362</td><td>4.1\%</td><td>Consumer credit</td><td>4,163</td><td>2.7\%</td></tr><tr><td>Other</td><td>679</td><td>0.4\%</td><td>Bank and other loans</td><td>1,125</td><td>0.7\%</td></tr><tr><td>Total real assets</td><td>\$ 44,599</td><td>28.9\%</td><td>Other</td><td>624</td><td>0.4\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$ 17,244</td><td>11.2\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and money market shares</td><td>\$ 17,374</td><td>11.3\%</td><td></td><td></td><td></td></tr><tr><td>Life insurance reserves</td><td>1,854</td><td>1.2\%</td><td></td><td></td><td></td></tr><tr><td>Pension reserves</td><td>29,876</td><td>19.4\%</td><td></td><td></td><td></td></tr><tr><td>Corporate equity</td><td>28,285</td><td>18.3\%</td><td></td><td></td><td></td></tr><tr><td>Equity in noncorp. business</td><td>13,114</td><td>8.5\%</td><td></td><td></td><td></td></tr><tr><td>Mutual fund shares</td><td>11,661</td><td>7.6\%</td><td></td><td></td><td></td></tr><tr><td>Debt securities</td><td>5,772</td><td>3.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>1,626</td><td>1.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$109,562</td><td>71.1\%</td><td>Net worth</td><td>136,917</td><td>88.8\%</td></tr><tr><td>TOTAL</td><td>$154,161</td><td>100.0\%</td><td></td><td>$154,161</td><td>100.0\%</td></tr></table>
+| Assets | $ Billion | % Total | Liabilities and Net Worth | $ Billion | % Total |
+|--------|-----------|---------|---------------------------|-----------|---------|
+| **Real assets** | | | **Liabilities** | | |
+| Real estate | $37,558 | 24.4% | Mortgages | $11,331 | 7.4% |
+| Consumer durables | 6,362 | 4.1% | Consumer credit | 4,163 | 2.7% |
+| Other | 679 | 0.4% | Bank and other loans | 1,125 | 0.7% |
+| **Total real assets** | **$44,599** | **28.9%** | Other | 624 | 0.4% |
+| | | | **Total liabilities** | **$17,244** | **11.2%** |
+| **Financial assets** | | | | | |
+| Deposits and money market shares | $17,374 | 11.3% | | | |
+| Life insurance reserves | 1,854 | 1.2% | | | |
+| Pension reserves | 29,876 | 19.4% | | | |
+| Corporate equity | 28,285 | 18.3% | | | |
+| Equity in noncorp. business | 13,114 | 8.5% | | | |
+| Mutual fund shares | 11,661 | 7.6% | | | |
+| Debt securities | 5,772 | 3.7% | | | |
+| Other | 1,626 | 1.1% | | | |
+| **Total financial assets** | **$109,562** | **71.1%** | **Net worth** | **136,917** | **88.8%** |
+| **TOTAL** | **$154,161** | **100.0%** | | **$154,161** | **100.0%** |
 
-# Table 1.1
+**Table 1.1**
 
 Balance sheet of U.S. households
 
@@ -58,7 +71,14 @@ Note: Column sums may differ from total because of rounding error.
 
 Source: Flow of Funds Accounts of the United States, Board of Governors of the Federal Reserve System, June 2021.
 
-<table><tr><td>Assets</td><td>$ Billion</td></tr><tr><td>Commercial real estate</td><td>\$20,842.9</td></tr><tr><td>Residential real estate</td><td>45,816.3</td></tr><tr><td>Equipment &amp; intellectual property</td><td>10,316.2</td></tr><tr><td>Inventories</td><td>2,944.5</td></tr><tr><td>Consumer durables</td><td>6,361.9</td></tr><tr><td>TOTAL</td><td>86,282</td></tr></table>
+| Assets | $ Billion |
+|--------|-----------|
+| Commercial real estate | $20,842.9 |
+| Residential real estate | 45,816.3 |
+| Equipment & intellectual property | 10,316.2 |
+| Inventories | 2,944.5 |
+| Consumer durables | 6,361.9 |
+| **TOTAL** | **86,282** |
 
 Note: Column sums may differ from total because of rounding error.
 
@@ -66,13 +86,13 @@ Source: Flow of Funds Accounts of the United States, Board of Governors of the
 
 Federal Reserve System, June 2021.
 
-# Table 1.2
+**Table 1.2**
 
 Domestic net worth
 
 We will focus almost exclusively on financial assets. But keep in mind that the successes or failures of these financial assets ultimately depend on the performance of the underlying real assets.
 
-# 1.2 Financial Assets
+## 1.2 Financial Assets
 
 It is common to distinguish among three broad types of financial assets: fixed income, equity, and derivatives. Fixed-income or debt securities promise either a fixed stream of income or a stream of income determined by a specified formula. For example, a corporate bond typically promises the bondholder a fixed amount of interest each year. Other so-called floating-rate bonds promise payments that depend on current interest rates. For example, a bond may pay an interest rate fixed at 2 percentage points above the rate paid on U.S. Treasury bills. Unless the borrower is declared bankrupt, the payments on these securities are either fixed or determined by formula. For this reason, the investment performance of debt securities typically is least closely tied to the financial condition of the issuer.
 
@@ -85,17 +105,17 @@ Finally, derivative securities such as options and futures contracts provide pay
 
 Derivatives have become an integral part of the investment environment. One use of derivatives, perhaps the primary use, is to hedge risks or transfer them to other parties. This is done successfully every day, and the use of these securities for risk management is so commonplace that the multitrillion-dollar market in derivative assets is routinely taken for granted. Derivatives also can be used to take highly speculative positions, however. Every so often, one of these positions blows up, resulting in well-publicized losses of hundreds of millions of dollars. While these losses attract considerable attention, they are in fact the exception to the more common use of such securities as risk management tools. Derivatives will continue to play an important role in portfolio construction and the financial system. We will return to this topic later in the text.
 
-Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over  \$2 trillion of currency is traded each day and worldwide trading volume exceeds\$ 6 trillion.
+Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over \$2 trillion of currency is traded each day and worldwide trading volume exceeds \$6 trillion.
 
 Investors also might invest directly in some real assets. For example, dozens of commodities are traded on exchanges such as the New York Mercantile Exchange or the Chicago Board of Trade. You can buy or sell corn, wheat, natural gas, gold, silver, and so on.
 
 Commodity and derivative markets allow firms to adjust their exposure to various business risks. For example, a construction firm may lock in the price of copper by buying copper futures contracts, thus eliminating the risk of a jump in the price of its raw materials. Wherever there is uncertainty, investors may be interested in trading, either to speculate or to lay off their risks, and a market may arise to meet that demand.
 
-# 1.3 Financial Markets and the Economy
+## 1.3 Financial Markets and the Economy
 
 We stated earlier that real assets determine the wealth of an economy, while financial assets merely represent claims on real assets. Nevertheless, financial assets and the markets in which they trade play several crucial roles in developed economies. Financial assets allow us to make the most of the economy's real assets.
 
-# The Informational Role of Financial Markets
+### The Informational Role of Financial Markets
 
 Stock prices reflect investors' collective assessment of a firm's current performance and future prospects. When the market is more optimistic about the firm, its share price will rise. That higher price makes it easier for the firm to raise capital and therefore encourages investment. In this manner, stock prices play a major role in the allocation of capital in market economies, directing it to the firms and applications with the greatest perceived potential. For example, in 2021, big investors poured huge investments into startup firms focusing on new battery technologies that could store energy created by renewables such as wind or solar power. The prospect of big profits if this technology pans out prompted investors to allocate their funds toward these ventures. This dynamic was a good example of market incentives directing capital to applications where there is the prospect of a large payoff.
 
@@ -105,19 +125,19 @@ The process seems highly wasteful. But we need to be careful about our standard 
 
 You may well be skeptical about resource allocation through markets. But if you are, take a moment to think about the alternatives. Would a central planner make fewer mistakes? Would you prefer that Congress make these decisions? To paraphrase Winston Churchill's comment about democracy, markets may be the worst way to allocate capital except for all the others that have been tried.
 
-# Consumption Timing
+### Consumption Timing
 
 Some individuals are earning more than they currently wish to spend. Others, for example, retirees, spend more than they currently earn. How can you shift your purchasing power from high-earnings to low-earnings periods of life? One way is to "store" your wealth in financial assets. In high-earnings periods, you can invest your savings in financial assets such as stocks and bonds. In low-earnings periods, you can sell these assets to provide funds for your consumption needs. By so doing, you can "shift" your consumption over the course of your lifetime, thereby allocating your consumption to periods that provide the greatest satisfaction. Thus, financial markets allow individuals to separate decisions concerning current consumption from constraints that otherwise would be imposed by current earnings.
 
-# Allocation of Risk
+### Allocation of Risk
 
 Virtually all real assets involve some risk. When Toyota builds its auto plants, for example, it cannot know for sure what cash flows those plants will generate. Financial markets and the diverse financial instruments traded in those markets allow investors with the greatest taste for risk to bear that risk, while other, less risk-tolerant individuals can, to a greater extent, stay on the sidelines. For example, if Toyota raises the funds to build its auto plant by selling both stocks and bonds to the public, the more optimistic or risk-tolerant investors can buy shares of its stock, while the more conservative ones can buy its bonds. Because the bonds promise to provide a fixed payment, the stockholders bear most of the business risk but reap potentially higher rewards. Thus, capital markets allow the risk that is inherent to all investments to be borne by the investors most willing to bear it.
 
 This allocation of risk also benefits the firms that need to raise capital to finance their investments. When investors are able to select security types with the risk-return characteristics that best suit their preferences, each security can be sold for the best possible price. This facilitates the process of building the economy's stock of real assets.
 
-# Separation of Ownership and Management
+### Separation of Ownership and Management
 
-Many businesses are owned and managed by the same individual. This simple organization is well suited to small businesses and, in fact, was the most common form of business organization before the Industrial Revolution. Today, however, with global markets and large-scale production, the size and capital requirements of firms have skyrocketed. For example, at the end in 2021, Chevron listed on its balance sheet about  \$156 billion of property, plant, and equipment and total assets of\$ 240 billion. Corporations of such size simply cannot exist as owner-operated firms. Chevron actually has tens of thousands of stockholders with an ownership stake in the firm proportional to their holdings of shares.
+Many businesses are owned and managed by the same individual. This simple organization is well suited to small businesses and, in fact, was the most common form of business organization before the Industrial Revolution. Today, however, with global markets and large-scale production, the size and capital requirements of firms have skyrocketed. For example, at the end in 2021, Chevron listed on its balance sheet about \$156 billion of property, plant, and equipment and total assets of \$240 billion. Corporations of such size simply cannot exist as owner-operated firms. Chevron actually has tens of thousands of stockholders with an ownership stake in the firm proportional to their holdings of shares.
 
 Such a large group of individuals obviously cannot actively participate in the day-to-day management of the firm. Instead, they elect a board of directors that in turn hires and supervises the management of the firm. This structure means that the owners and managers of the firm are different parties. This gives the firm a stability that the owner-managed firm cannot achieve. For example, if some stockholders decide they no longer wish to hold shares in the firm, they can sell their shares to other investors, with no impact on the management of the firm. Thus, financial assets and the ability to buy and sell those assets in the financial markets allow for easy separation of ownership and management.
 
@@ -148,25 +168,25 @@ Finally, bad performers are subject to the threat of takeover. If the board of d
 
 However, in recent years, the odds of a successful proxy contest have increased along with the rise of so-called activist investors. These are large and deep-pocketed investors, often hedge funds, that identify firms they believe to be mismanaged in some respect. They buy large positions in shares of those firms and then campaign for slots on the board of directors and/or for specific reforms.
 
-# Example 1.1 Activist Investors and Corporate Control
+**Example 1.1 Activist Investors and Corporate Control**
 
 Here are a few of the better-known activist investors, along with a sample of their more notable initiatives:
 
 - Nelson Peltz, Brian. Brian gained a seat on General Electric's board of directors and pressured the company to cut costs, to return capital to shareholders, for example, through stock buybacks, and to downsize the firm.
-William Ackman, Pershing Square. Took  $8.3\%$  stake in software company ADP, where he pushed for management changes.
+William Ackman, Pershing Square. Took $8.3\%$ stake in software company ADP, where he pushed for management changes.
 - Dan Loeb, Third Point. Took large position in Royal Dutch Shell and pressed the company to split into two independent firms, one focusing on its legacy business lines, such as oil exploration and refining, and the other on low-carbon and renewable energy sources.
 - Carl Icahn. One of the earliest and most combative of activist investors. Pushed HP to accept a takeover bid made by Xerox.
-- Christer Gardell, Cevian Capital. Cevian is the largest activist firm in Europe. In 2021, it built up a  $5\%$  stake in the insurer Avian and then pressured the company to commit to deeper cost reductions and to pay out  $\pounds 5$  billion in dividends or stock repurchases.
+- Christer Gardell, Cevian Capital. Cevian is the largest activist firm in Europe. In 2021, it built up a $5\%$ stake in the insurer Avian and then pressured the company to commit to deeper cost reductions and to pay out $\pounds 5$ billion in dividends or stock repurchases.
 Paul Singer, Elliott Management. Built up a large stake in the U.K. drug manufacturer GlaxoSmithKline after GSK's disappointing performance in the development of a Covid vaccination. Elliott is now expected to demand a large say in the firm's future management.
 - Engine No. 1. A newcomer to the field, this formerly little-known fund gained the backing of large institutional investors like BlackRock and Vanguard and won three seats on the board of ExxonMobil, filling them with candidates with backgrounds in green energy and operational expertise.
 
 Aside from proxy contests, the real takeover threat is from other firms. If one firm observes another underperforming, it can acquire the underperforming business and replace management with its own team. The stock price should rise to reflect the prospects of improved performance, which provides an incentive for firms to engage in such takeover activity.
 
-# Corporate Governance and Corporate Ethics
+## Corporate Governance and Corporate Ethics
 
 We've argued that securities markets can play an important role in facilitating the deployment of capital to the most productive uses. But market signals will help to allocate capital efficiently only if investors are acting on accurate information. We say that markets need to be transparent for investors to make informed decisions. If firms can mislead the public about their prospects, then much can go wrong.
 
-Despite the many mechanisms to align incentives of shareholders and managers, the three years from 2000 through 2002 were filled with a seemingly unending series of scandals that collectively signaled a crisis in corporate governance and ethics. For example, the telecom firm WorldCom overstated its profits by at least  \$3.8 billion by improperly classifying expenses as investments. When the true picture emerged, it resulted in the largest bankruptcy in U.S. history, at least until Lehman Brothers smashed that record in 2008. The next-largest U.S. bankruptcy was Enron, which used its now-notorious "special-purpose entities" to move debt off its own books and similarly present a misleading picture of its financial status. Unfortunately, these firms had plenty of company. Other firms such as Rite Aid, HealthSouth, Global Crossing, and Qwest Communications also manipulated and misstated their accounts to the tune of billions of dollars. And the scandals were hardly limited to the United States. Parmalat, the Italian dairy firm, claimed to have a\$ 4.8 billion bank account that turned out not to exist. These episodes suggest that agency and incentive problems are far from solved, and that transparency is far from complete.
+Despite the many mechanisms to align incentives of shareholders and managers, the three years from 2000 through 2002 were filled with a seemingly unending series of scandals that collectively signaled a crisis in corporate governance and ethics. For example, the telecom firm WorldCom overstated its profits by at least \$3.8 billion by improperly classifying expenses as investments. When the true picture emerged, it resulted in the largest bankruptcy in U.S. history, at least until Lehman Brothers smashed that record in 2008. The next-largest U.S. bankruptcy was Enron, which used its now-notorious "special-purpose entities" to move debt off its own books and similarly present a misleading picture of its financial status. Unfortunately, these firms had plenty of company. Other firms such as Rite Aid, HealthSouth, Global Crossing, and Qwest Communications also manipulated and misstated their accounts to the tune of billions of dollars. And the scandals were hardly limited to the United States. Parmalat, the Italian dairy firm, claimed to have a \$4.8 billion bank account that turned out not to exist. These episodes suggest that agency and incentive problems are far from solved, and that transparency is far from complete.
 
 Other scandals of that period included systematically misleading and overly optimistic research reports put out by stock market analysts. (Their favorable analysis was traded for the promise of future investment banking business, and analysts were commonly compensated not for their accuracy or insight, but for their role in garnering investment banking business for their firms.) Additionally, initial public offerings were allocated to corporate executives as a quid pro quo for personal favors or the promise to direct future business back to the manager of the IPO.
 
@@ -175,25 +195,25 @@ What about the auditors who were supposed to be the watchdogs of the firms? Here
 
 In 2002, in response to the spate of ethics scandals, Congress passed the Sarbanes-Oxley Act, commonly referred to as SOX, to tighten the rules of corporate governance and disclosure. For example, the act requires corporations to have more independent directors, that is, more directors who are not themselves managers (or affiliated with managers). The act also requires each CFO to personally vouch for the corporation's accounting statements, provides for an oversight board to oversee the auditing of public companies, and prohibits auditors from providing various other services to clients.
 
-# 1.4 The Investment Process
+## 1.4 The Investment Process
 
 Investors' portfolios are simply their collections of investment assets. Once a portfolio is established, it is updated or "rebalanced" by selling existing securities and using the proceeds to buy new securities, by investing additional funds to increase the overall size of the portfolio, or by selling securities to decrease the size of the portfolio.
 
 Investment assets can be categorized into broad asset classes, such as stocks, bonds, real estate, commodities, and so on. Investors make two types of decisions in constructing their portfolios. The asset allocation decision is the choice among these broad asset classes, while the security selection decision is the choice of which particular securities to hold within each asset class.
 
-"Top-down" portfolio construction starts with asset allocation. For example, an individual who currently holds all of his money in a bank account would first decide what proportion of the overall portfolio ought to be moved into stocks, bonds, and so on. In this way, the broad features of the portfolio are established. For example, while the average annual return on the common stock of large firms since 1926 has been about  $12\%$  per year, the average return on U.S. Treasury bills has been less than  $4\%$ . On the other hand, stocks are far riskier, with annual returns (as measured by the Standard & Poor's 500 index) that have ranged as low as  $-46\%$  and as high as  $55\%$ . In contrast, T-bills are effectively risk-free: You know what interest rate you will earn when you buy them. Therefore, the decision to allocate your investments to the stock market or to the money market where Treasury bills are traded will have great ramifications for both the risk and the return of your portfolio. A top-down investor first makes this and other crucial asset allocation decisions before turning to the decision of the particular securities to be held in each asset class.
+"Top-down" portfolio construction starts with asset allocation. For example, an individual who currently holds all of his money in a bank account would first decide what proportion of the overall portfolio ought to be moved into stocks, bonds, and so on. In this way, the broad features of the portfolio are established. For example, while the average annual return on the common stock of large firms since 1926 has been about $12\%$ per year, the average return on U.S. Treasury bills has been less than $4\%$. On the other hand, stocks are far riskier, with annual returns (as measured by the Standard & Poor's 500 index) that have ranged as low as $-46\%$ and as high as $55\%$. In contrast, T-bills are effectively risk-free: You know what interest rate you will earn when you buy them. Therefore, the decision to allocate your investments to the stock market or to the money market where Treasury bills are traded will have great ramifications for both the risk and the return of your portfolio. A top-down investor first makes this and other crucial asset allocation decisions before turning to the decision of the particular securities to be held in each asset class.
 
 Security analysis involves the valuation of particular securities that might be included in the portfolio. For example, an investor might ask whether Merck or Pfizer is more attractively priced. Both bonds and stocks must be evaluated for investment attractiveness, but valuation is far more difficult for stocks because a stock's performance usually is far more sensitive to the prospects of the issuing firm.
 
 In contrast to top-down portfolio management is a "bottom-up" strategy in which the portfolio is constructed from securities that seem attractively priced without as much concern for the resultant asset allocation. Such a technique can result in unintended bets on one or another sector of the economy. For example, it might turn out that the portfolio ends up with a very heavy representation of firms in one industry, from one part of the country, or with exposure to one source of uncertainty. However, a bottom-up strategy does focus the portfolio on the assets that seem to offer the most attractive investment opportunities.
 
-# 1.5 Markets Are Competitive
+## 1.5 Markets Are Competitive
 
 Financial markets are highly competitive. Thousands of intelligent and well-backed analysts constantly scour securities markets searching for the best buys. This competition means that we should expect to find few, if any, "free lunches," securities that are so underpriced that they represent obvious bargains. This no-free-lunch proposition has several implications. Let's examine two.
 
-# The Risk-Return Trade-Off
+### The Risk-Return Trade-Off
 
-Investors invest for anticipated future returns, but those returns rarely can be predicted precisely. There will almost always be risk associated with investments. Actual or realized returns will almost always deviate from the expected return anticipated at the start of the investment period. For example, in 1931 (the worst calendar year for the market since 1926), the S&P 500 index fell by  $46\%$ . In 1933 (the best year), the index gained  $55\%$ . You can be sure that investors did not anticipate such extreme performance at the start of either of these years.
+Investors invest for anticipated future returns, but those returns rarely can be predicted precisely. There will almost always be risk associated with investments. Actual or realized returns will almost always deviate from the expected return anticipated at the start of the investment period. For example, in 1931 (the worst calendar year for the market since 1926), the S&P 500 index fell by $46\%$. In 1933 (the best year), the index gained $55\%$. You can be sure that investors did not anticipate such extreme performance at the start of either of these years.
 
 Naturally, if all else could be held equal, investors would prefer investments with the highest expected return. However, the no-free-lunch rule tells us that all else cannot be equal. If you want higher expected returns, you will have to pay a price in terms of accepting higher investment risk. If any particular asset offered a higher expected return imposing without extra risk, investors would rush to buy it, with the result that its price would be driven up. Individuals considering investing in the asset at the now-higher price will find the investment less attractive. The price will rise until expected return is no more than commensurate with risk. At this point, investors can anticipate a "fair" return relative to the asset's risk, but no more. Similarly,
 
@@ -203,7 +223,7 @@ if returns were independent of risk, there would be a rush to sell high-risk ass
 
 Of course, this discussion leaves several important questions unanswered. How should one measure the risk of an asset? What should be the quantitative trade-off between risk (properly measured) and expected return? One would think that risk would have something to do with the volatility of an asset's returns, but this guess turns out to be only partly correct. When we mix assets into diversified portfolios, we need to consider the interplay among assets and the effect of diversification on the risk of the entire portfolio. Diversification means that many assets are held in the portfolio so that the exposure to any particular asset is limited. The effect of diversification on portfolio risk, the implications for the proper measurement of risk, and the risk-return relationship are the topics of Part Two. These topics are the subject of what has come to be known as modern portfolio theory. The development of this theory brought two of its pioneers, Harry Markowitz and William Sharpe, Nobel Prizes.
 
-# Efficient Markets
+### Efficient Markets
 
 Another implication of the no-free-lunch proposition is that we should rarely expect to find bargains in the security markets. We will spend all of Chapter 11 examining the theory and evidence concerning the hypothesis that financial markets process all available information about securities quickly and efficiently, that is, that the security price usually reflects all the information available to investors concerning its value. According to this hypothesis, as new information about a security becomes available, its price quickly adjusts so that at any time, the security price equals the market consensus estimate of the value of the security. If this were so, there would be neither underpriced nor overpriced securities.
 
@@ -211,7 +231,7 @@ One interesting implication of this "efficient market hypothesis" concerns the c
 
 If the efficient market hypothesis were taken to the extreme, there would be no point in active security analysis; only fools would commit resources to actively analyze securities. Without ongoing security analysis, however, prices eventually would depart from "correct" values, creating new incentives for experts to move in. Therefore, even in environments as competitive as the financial markets, we may observe only near-efficiency, and profit opportunities may exist for especially diligent and creative investors. In Chapter 12, we examine such challenges to the efficient market hypothesis, and this motivates our discussion of active portfolio management in Part Seven. Nevertheless, our discussions of security analysis and portfolio construction generally must account for the likelihood of nearly efficient markets.
 
-# 1.6 The Players
+## 1.6 The Players
 
 From a bird's-eye view, there would appear to be three major players in the financial markets:
 
@@ -221,7 +241,7 @@ From a bird's-eye view, there would appear to be three major players in the fina
 
 Corporations and governments do not sell all or even most of their securities directly to individuals. For example, about half of all stock is held by large financial institutions such as pension funds, mutual funds, insurance companies, and banks. These financial institutions stand between the security issuer (the firm) and the ultimate owner of the security (the individual investor). For this reason, they are called financial intermediaries. Similarly, corporations do not market their own securities to the public. Instead, they hire agents, called investment bankers, to represent them to the investing public. Let's examine the roles of these intermediaries.
 
-# Financial Intermediaries
+### Financial Intermediaries
 
 Households want desirable investments for their savings, yet the small (financial) size of most households makes direct investment difficult. A small investor seeking to lend money to businesses that need to finance investments doesn't advertise in the local newspaper to find a willing and desirable borrower. Moreover, an individual lender would not be able to diversify across borrowers to reduce risk. Finally, an individual lender is not equipped to assess and monitor the credit risk of borrowers.
 
@@ -231,9 +251,27 @@ For example, a bank raises funds by borrowing (taking deposits) and lending that
 
 Financial intermediaries are distinguished from other businesses in that both their assets and their liabilities are overwhelmingly financial. Table 1.3 presents the aggregated balance sheet of commercial banks, one of the largest sectors of financial intermediaries. Notice that the balance sheet includes only very small amounts of real assets. Compare Table 1.3 to the aggregated balance sheet of the nonfinancial corporate sector in Table 1.4, for which
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment and premises</td><td>\$ 187.5</td><td>0.8\%</td><td>Deposits</td><td>\$18,458.8</td><td>81.8\%</td></tr><tr><td>Other real estate</td><td>4.4</td><td>0.0\%</td><td>Debt and other borrowed funds</td><td>595.6</td><td>2.6\%</td></tr><tr><td>Total real assets</td><td>\$ 191.9</td><td>0.9\%</td><td>Federal funds and repurchase agreements</td><td>297.8</td><td>1.3\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>959.1</td><td>4.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$20,311.2</td><td>90.0\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cash</td><td>\$ 3,628.6</td><td>16.1\%</td><td></td><td></td><td></td></tr><tr><td>Investment securities</td><td>5,479.3</td><td>24.3\%</td><td></td><td></td><td></td></tr><tr><td>Loans and leases</td><td>10,610.7</td><td>47.0\%</td><td></td><td></td><td></td></tr><tr><td>Other financial assets</td><td>1,371.4</td><td>6.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$21,090.1</td><td>93.5\%</td><td></td><td></td><td></td></tr><tr><td>Other assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intangible assets</td><td>\$ 392.0</td><td>1.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>890.2</td><td>3.9\%</td><td></td><td></td><td></td></tr><tr><td>Total other assets</td><td>\$ 1,282.2</td><td>5.7\%</td><td>Net worth</td><td>\$ 2,253.0</td><td>10.0\%</td></tr><tr><td>TOTAL</td><td>\$22,564.2</td><td>100.0\%</td><td></td><td>22,564.2</td><td>100.0\%</td></tr></table>
+| Assets | $ Billion | % Total | Liabilities and Net Worth | $ Billion | % Total |
+|--------|-----------|---------|---------------------------|-----------|---------|
+| **Real assets** | | | **Liabilities** | | |
+| Equipment and premises | $187.5 | 0.8% | Deposits | $18,458.8 | 81.8% |
+| Other real estate | 4.4 | 0.0% | Debt and other borrowed funds | 595.6 | 2.6% |
+| **Total real assets** | **$191.9** | **0.9%** | Federal funds and repurchase agreements | 297.8 | 1.3% |
+| | | | Other | 959.1 | 4.3% |
+| | | | **Total liabilities** | **$20,311.2** | **90.0%** |
+| **Financial assets** | | | | | |
+| Cash | $3,628.6 | 16.1% | | | |
+| Investment securities | 5,479.3 | 24.3% | | | |
+| Loans and leases | 10,610.7 | 47.0% | | | |
+| Other financial assets | 1,371.4 | 6.1% | | | |
+| **Total financial assets** | **$21,090.1** | **93.5%** | | | |
+| **Other assets** | | | | | |
+| Intangible assets | $392.0 | 1.7% | | | |
+| Other | 890.2 | 3.9% | | | |
+| **Total other assets** | **$1,282.2** | **5.7%** | **Net worth** | **$2,253.0** | **10.0%** |
+| **TOTAL** | **$22,564.2** | **100.0%** | | **22,564.2** | **100.0%** |
 
-# Table 1.3
+**Table 1.3**
 
 Balance sheet of FDIC-insured commercial banks and savings institutions
 
@@ -241,9 +279,24 @@ Note: Column sums may differ from total because of rounding error.
 
 Source: Federal Deposit Insurance Corporation, www.fdic.gov, June 2021.
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment &amp; intellectual property</td><td>\$ 8,428</td><td>16.6\%</td><td>Debt securities</td><td>\$ 7,387</td><td>14.5\%</td></tr><tr><td>Real estate</td><td>14,859</td><td>29.2\%</td><td>Bank loans &amp; mortgages</td><td>1,772</td><td>3.5\%</td></tr><tr><td>Inventories</td><td>2,687</td><td>5.3\%</td><td>Other loans</td><td>2,077</td><td>4.1\%</td></tr><tr><td>Total real assets</td><td>\$25,974</td><td>51.1\%</td><td>Trade debt</td><td>3,121</td><td>6.1\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>10,319</td><td>20.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$24,676</td><td>48.5\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and cash</td><td>\$ 2,326</td><td>4.6\%</td><td></td><td></td><td></td></tr><tr><td>Marketable securities</td><td>4,032</td><td>7.9\%</td><td></td><td></td><td></td></tr><tr><td>Trade and consumer credit</td><td>4,296</td><td>8.4\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>14,229</td><td>28.0\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$24,883</td><td>48.9\%</td><td>Net worth</td><td>$26,181</td><td>51.5\%</td></tr><tr><td>TOTAL</td><td>$50,856</td><td>100.0\%</td><td></td><td>50,856</td><td>100.0\%</td></tr></table>
+| Assets | $ Billion | % Total | Liabilities and Net Worth | $ Billion | % Total |
+|--------|-----------|---------|---------------------------|-----------|---------|
+| **Real assets** | | | **Liabilities** | | |
+| Equipment & intellectual property | $8,428 | 16.6% | Debt securities | $7,387 | 14.5% |
+| Real estate | 14,859 | 29.2% | Bank loans & mortgages | 1,772 | 3.5% |
+| Inventories | 2,687 | 5.3% | Other loans | 2,077 | 4.1% |
+| **Total real assets** | **$25,974** | **51.1%** | Trade debt | 3,121 | 6.1% |
+| | | | Other | 10,319 | 20.3% |
+| | | | **Total liabilities** | **$24,676** | **48.5%** |
+| **Financial assets** | | | | | |
+| Deposits and cash | $2,326 | 4.6% | | | |
+| Marketable securities | 4,032 | 7.9% | | | |
+| Trade and consumer credit | 4,296 | 8.4% | | | |
+| Other | 14,229 | 28.0% | | | |
+| **Total financial assets** | **$24,883** | **48.9%** | **Net worth** | **$26,181** | **51.5%** |
+| **TOTAL** | **$50,856** | **100.0%** | | **50,856** | **100.0%** |
 
-# Table 1.4
+**Table 1.4**
 
 Balance sheet of U.S. nonfinancial corporations real assets are about half of all assets. The contrast arises because intermediaries simply move funds from one sector to another. In fact, the primary social function of such intermediaries is to channel household savings to the business sector.
 
@@ -262,7 +315,7 @@ Like mutual funds, hedge funds also pool and invest the money of many clients. B
 
 Economies of scale also explain the proliferation of analytic services available to investors. Newsletters, databases, and brokerage house research services all engage in research to be sold to a large client base. This setup arises naturally. Investors clearly want information, but with small portfolios to manage, they do not find it economical to personally gather all of it. Hence, a profit opportunity emerges: A firm can perform this service for many clients and charge for it.
 
-# Investment Bankers
+### Investment Bankers
 
 Just as economies of scale and specialization create profit opportunities for financial intermediaries, these economies also create niches for firms that perform specialized services for businesses. Firms raise much of their capital by selling securities such as stocks and bonds to the public. Because these firms do not do so frequently, however, investment bankers that specialize in such activities can offer their services at a cost below that of maintaining an in-house security issuance division. In this role, they are called underwriters.
 
@@ -270,7 +323,7 @@ Investment bankers advise the issuing corporation on the prices it can charge fo
 
 For most of the last century, investment banks and commercial banks in the U.S. were separated by law. While those regulations were effectively eliminated in 1999, the industry
 
-# Separating Commercial Banking from Investment Banking
+### Separating Commercial Banking from Investment Banking
 
 Until 1999, the Glass-Steagall Act had prohibited banks in the United States from both accepting deposits and underwriting securities. In other words, it forced a separation of the investment and commercial banking industries. But when Glass-Steagall was repealed, many large commercial banks began to transform themselves into "universal banks" that could offer a full range of commercial and investment banking services. In some cases, commercial banks started their own investment banking divisions from scratch, but more frequently they expanded through merger. For example, Chase Manhattan acquired J.P. Morgan to form JPMorgan Chase. Similarly, Citigroup acquired Salomon Smith Barney to offer wealth management, brokerage, investment banking, and asset management services to its clients. Most of Europe had never forced the separation of commercial and investment banking, so their giant banks such as Credit Suisse, Deutsche Bank, HSBC, and UBS had long been universal banks. Until 2008, however, the standalone investment banking sector in the U.S. remained large and apparently vibrant, including such storied names as Goldman Sachs, Morgan-Stanley, Merrill Lynch, and Lehman Brothers.
 
@@ -285,7 +338,7 @@ Proprietary trading is a core activity for investment banks, so limitations on t
 
 known as "Wall Street" until 2008 was still composed of large, independent investment banks such as Goldman Sachs, Merrill Lynch, and Lehman Brothers. But that stand-alone model came to an abrupt end in September 2008, when all the remaining major U.S. investment banks were absorbed into commercial banks, declared bankruptcy, or reorganized as commercial banks. The nearby box presents a brief introduction to these events.
 
-# Venture Capital and Private Equity
+### Venture Capital and Private Equity
 
 While large firms can raise funds directly from the stock and bond markets with help from their investment bankers, smaller and younger firms that have not yet issued securities to the public do not have that option. Start-up companies rely instead on bank loans and investors who are willing to invest in them in return for an ownership stake in the firm. The equity investment in these young companies is called venture capital (VC). Sources of venture capital are dedicated venture capital funds, wealthy individuals known as angel investors, and institutions such as pension funds.
 
@@ -295,13 +348,13 @@ The management company usually sits on the start-up company's board of directors
 
 Venture capital investors commonly take an active role in the management of a start-up firm. Other active investors may engage in similar hands-on management but focus instead on firms that are in distress or firms that may be bought up, "improved," and sold for a profit. Collectively, these investments in firms that do not trade on public stock exchanges are known as private equity investments.
 
-# Fintech, Financial Innovation, and Decentralized Finance
+### Fintech, Financial Innovation, and Decentralized Finance
 
 Surveying the major actors on the financial scene highlighted in this section, it is clear that when the needs of market participants create profit opportunities, markets tend to evolve to provide those desired services. Sometimes, those innovations are spurred by technological advances that make possible previously infeasible products. Fintech is the application of technology to financial markets, and it has changed many aspects of the financial landscape.
 
 While we have focused on financial intermediaries, technology allowing individuals to interact directly has led to some financial disintermediation. This trend toward the elimination of the intermediary has been dubbed decentralized finance or DeFi.
 
-Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to  \$40,000 or business loans up to\$ 300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
+Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to \$40,000 or business loans up to \$300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
 
 Robo Advice While the very wealthy can afford to hire financial advisors, most investors do not have enough assets to justify that inevitably expensive guidance. Robo advisors seek to bring affordable advice to a wide swath of investors. You begin by filling out an online questionnaire about your financial situation and risk tolerance. A computer algorithm then recommends an investment portfolio, which usually will consist of low cost mutual or exchange-traded funds. It may also periodically rebalance your account as the value of each fund fluctuates.
 
@@ -310,13 +363,13 @@ Blockchains We are all accustomed to financial transactions that are recorded in
 In contrast, blockchains provide a record of transactions that is distributed over a network of connected computers. No single administrator controls it, so there is no single target for potential hackers to attack. Instead, the network sets up a protocol by which new transactions can be securely added to a public distributed ledger. The identities of each party to the transaction can be masked, allowing for anonymity. The ledger is essentially a list of transactions recorded in a "blockchain," and each transaction results in a time-stamped update to the block. Distributing the blockchain across a dispersed network makes it harder for any hacker to attack its integrity. When the ledger is public, it is difficult to either bypass or manipulate the historical record of agreed-to transactions, and crucially, there is no need for the trusted administrator that lies at the heart of a centralized ledger.
 
 
-Blockchain technology is most associated with cryptocurrency such as Bitcoin (see following discussion), but it is ideally suited for a wider range of secure digital transactions. For example, they might include secure sharing of medical data or supply chain monitoring. Blockchains are probably best thought of more generally as databases that allow verification of information by a decentralized network of participants. As such, they can play a potentially large role in facilitating decentralized finance, providing data and enabling "smart contracts" in which software can authorize transactions in response to a particular triggering event without human intervention.
+Blockchain technology is most associated with cryptocurrency such as Bitcoin (see following discussion), but it is ideally suited for a wider range of secure digital transactions. For example, they might include secure sharing of medical data or supply chain monitoring. Blockchains are probably best thought of more generally as databases that allow verification of information by a decentralized network of participants. As such, they can play a potentially large role in facilitating decentralized finance, providing data and enabling "smart contracts" in which software can authorize transactions in a response to a particular triggering event without human intervention.
 
 Another recent blockchain innovation is the NFT, or non-fungible token, which is proof of ownership of a digital asset such as a digital work of art or even an original video of a sports event.
 
 Cryptocurrencies Cryptocurrencies, for example, Bitcoin or Ethereum, use blockchain technology to create payment systems that bypass traditional channels such as credit cards, debit cards, or checks. This alternative system offers greater security and anonymity for financial transactions. Bitcoin was introduced in 2009, but it has since been joined by many other digital currencies; in 2021, there were approximately 4,000 different cryptocurrencies. But many of these have essentially no or negligible trading volume and almost all are far smaller (in terms of total outstanding value) than Bitcoin or Ethereum.
 
-Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below  \$30,000 to more than\$ 63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
+Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below \$30,000 to more than \$63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
 
 A more recent innovation in this regard is the stablecoin. This is a cryptocurrency that the issuer pledges to redeem for a conventional currency (e.g., the U.S. dollar) on demand. The largest stablecoin today is Tether. Stable-dollar cryptocurrencies typically are backed by holdings of dollars, often held by a third-party custodian, which ensures the ability to convert into dollars. In other cases, the collateral might be other assets or cryptocurrencies, but that generally requires overcollaterization to compensate for the risk of fluctuations in the value of the collateral. Without adequate collateralization, stable coins are vulnerable to "runs" in which a wave of investors attempt to withdraw their money at once. The Fed and other regulators have expressed concern with the potential for runs and are considering new regulatory approaches to limit that risk.
 
@@ -326,11 +379,11 @@ Digital tokens A variation on cryptocurrency is the digital token issued in an i
 
 Digital currency As cryptocurrencies have become more familiar, sovereign governments have begun to contemplate developing digital currencies issued by their own central banks. For example, a government might pay tax refunds directly into its citizen's digital wallets (rather than mailing checks or arranging for direct deposit into a conventional bank account). Similarly, citizens could pay bills by transferring funds from their wallets directly into those of their creditors. Like cryptocurrencies, this system would bypass the traditional financial system, as well as its associated fees and relatively slow clearing mechanisms. But unlike them, it would not be subject to the problem of fluctuating value. China is already running trials of a digital yuan, and the Fed announced in 2021 that it would study the feasibility of a digital currency for the United States. Some of the major unanswered questions for digital currency surround security, privacy, and government access to financial activity. Nevertheless, it seems possible that digital currencies will soon become part of the financial landscape.
 
-# 1.7 The Financial Crisis of 2008-2009
+## 1.7 The Financial Crisis of 2008-2009
 
 This chapter has laid out the broad outlines of the financial system, as well as some of the links between the financial side of the economy and the "real" side in which goods and services are produced. The financial crisis of 2008 illustrated in a painful way the intimate ties between these two sectors. We present in this section a capsule summary of the crisis, attempting to draw some lessons about the role of the financial system as well as the causes and consequences of what has become known as systemic risk. Some of these issues are complicated; we consider them briefly here but will return to them in greater detail later in the text once we have more context for analysis.
 
-# Antecedents of the Crisis
+### Antecedents of the Crisis
 
 In early 2007, most observers thought it inconceivable that within two years, the world financial system would be facing its worst crisis since the Great Depression. At the time, the economy seemed to be marching from strength to strength. The last significant macroeconomic threat had been from the implosion of the high-tech bubble in 2000-2002. But the Federal Reserve responded to an emerging recession by aggressively reducing interest rates. Figure 1.1 shows that Treasury bill rates dropped drastically between 2001 and 2004, and the LIBOR rate, which was the interest rate at which major money-center banks at the time loaned to each other, fell in tandem. These actions appeared to have been successful, and the recession was short-lived and mild.
 
@@ -353,14 +406,14 @@ Figure 1.3 The Case-Shiller index of U.S. housing prices
 Source: Case Shiller Composite Housing Price Index, www.us.spindices.com.
 
 
-# Changes in Housing Finance
+### Changes in Housing Finance
 
 Prior to 1970, most mortgage loans would come from a local lender such as a neighborhood savings bank or credit union. A homeowner would borrow funds for a home purchase and repay the loan over a long period, commonly 30 years. A typical thrift institution would have as its major asset a portfolio of these long-term home loans, while its major liability would be the accounts of its depositors. This landscape began to change when Fannie Mae (FNMA, or Federal National Mortgage Association) and Freddie Mac (FHLMC, or Federal Home Loan Mortgage Corporation) began buying mortgage loans from originators and bundling them into large pools that could be traded like any other financial asset. These pools, which were essentially claims on the underlying mortgages, were soon dubbed mortgage-backed securities, and the process was called securitization. Fannie and Freddie quickly became the behemoths of the mortgage market, between them buying around half of all mortgages originated by the private sector.
 
 
 Figure 1.4 illustrates how cash flows passed from the original borrower to the ultimate investor in a mortgage-backed security. The loan originator, for example, the savings and loan, might make a 100,000 home loan to a homeowner. The homeowner would repay principal and interest (P&I) on the loan over 30 years. But then the originator would sell the mortgage to Freddie Mac or Fannie Mae and recover the cost of the loan. The originator could continue to service the loan (collect monthly payments from the homeowner) for a small servicing fee, but the loan payments net of that fee would be passed along to the agency. In turn, Freddie or Fannie would pool the loans into mortgage-backed securities and sell the securities to investors such as pension funds or mutual funds. The agency (Fannie or Freddie) typically would guarantee the credit or default risk of the loans included in each pool, for which it would retain a guarantee fee before passing along the rest of the cash flow to the ultimate investor. Because the mortgage cash flows were passed along from the homeowner to the lender to Fannie or Freddie to the investor, the mortgage-backed securities were also called pass-throughs.
 
-Until the last decade, the vast majority of securitized mortgages were held or guaranteed by Freddie Mac or Fannie Mae. These were low-risk conforming mortgages, meaning that eligible loans for agency securitization couldn't be too big, and homeowners had to meet underwriting criteria establishing their ability to repay the loan. For example, the ratio of loan amount to house value could be no more than  $80\%$ . But securitization gave rise to a new market niche for mortgage lenders: the "originate to distribute" (versus originate to hold) business model.
+Until the last decade, the vast majority of securitized mortgages were held or guaranteed by Freddie Mac or Fannie Mae. These were low-risk conforming mortgages, meaning that eligible loans for agency securitization couldn't be too big, and homeowners had to meet underwriting criteria establishing their ability to repay the loan. For example, the ratio of loan amount to house value could be no more than $80\%$. But securitization gave rise to a new market niche for mortgage lenders: the "originate to distribute" (versus originate to hold) business model.
 
 Whereas conforming loans were pooled almost entirely through Freddie Mac and Fannie Mae, once the securitization model took hold, it created an opening for a new product: securitization by private firms of nonconforming "subprime" loans with higher default risk. One important difference between the government agency pass-throughs and these so-called private-label pass-throughs was that the investor in the private-label pool would bear the risk that homeowners might default on their loans. Thus, originating mortgage brokers had little incentive to perform due diligence on the loan as long as the loans could be sold to an investor. These investors, of course, had no direct contact with the borrowers, and they could not perform detailed underwriting concerning loan quality. Instead, they relied on borrowers' credit scores, which steadily came to replace conventional underwriting.
 
@@ -370,15 +423,15 @@ Figure 1.4 Cash flows in a mortgage pass-through security
 
 A strong trend toward low-documentation and then no-documentation loans, entailing little verification of a borrower's ability to carry a loan, soon emerged. Other subprime underwriting standards quickly deteriorated. For example, allowed leverage on home loans rose dramatically. When housing prices began falling, these loans were quickly "underwater," meaning that the house was worth less than the loan balance, and many homeowners decided to walk away from their loans.
 
-Adjustable-rate mortgages (ARMs) also grew in popularity. These loans offered borrowers low initial or "teaser" interest rates, but these rates eventually would reset to current market interest yields, for example, the Treasury bill rate plus  $3\%$ . Many of these borrowers "maxed out" their borrowing capacity at the teaser rate, yet, as soon as the loan rate was reset, their monthly payments would soar.
+Adjustable-rate mortgages (ARMs) also grew in popularity. These loans offered borrowers low initial or "teaser" interest rates, but these rates eventually would reset to current market interest yields, for example, the Treasury bill rate plus $3\%$. Many of these borrowers "maxed out" their borrowing capacity at the teaser rate, yet, as soon as the loan rate was reset, their monthly payments would soar.
 
 Despite these obvious risks, the ongoing increase in housing prices over the last decade seemed to lull many investors into complacency, with a widespread belief that continually rising home prices would bail out poorly performing loans. But starting in 2004, the ability of refinancing to save a loan began to diminish. First, higher interest rates put payment pressure on homeowners who had taken out adjustable-rate mortgages. Second, as Figure 1.3 shows, housing prices peaked by 2006, so homeowners' ability to refinance a loan using built-up equity in the house declined. Mortgage default rates began to surge in 2007. The crisis was ready to shift into high gear.
 
-# Mortgage Derivatives
+### Mortgage Derivatives
 
 One might ask: Who was willing to buy all of these risky subprime mortgages? Securitization, restructuring, and credit enhancement provide a big part of the answer. New risk-shifting tools enabled investment banks to carve out AAA-rated securities from original-issue "junk" loans. Collateralized debt obligations, or CDOs, were among the most important and eventually damaging of these innovations.
 
-CDOs were designed to concentrate the credit (i.e., default) risk of a bundle of loans on one class of investors, leaving the other investors in the pool relatively protected from that risk. The idea was to prioritize claims on loan repayments by dividing the pool into senior versus junior slices, called tranches. The senior tranches had first claim on repayments from the entire pool. Junior tranches would be paid only after the senior ones had received their cut. For example, if a pool were divided into two tranches, with  $70\%$  of the pool allocated to the senior tranche and  $30\%$  allocated to the junior one, the senior investors would be repaid in full as long as  $70\%$  or more of the loans in the pool performed, that is, as long as the default rate on the pool remained below  $30\%$ . Even with pools composed of risky subprime loans, default rates above  $30\%$  seemed extremely unlikely, and thus senior tranches were frequently granted the highest (i.e., AAA) rating by the major credit rating agencies, Moody's, Standard & Poor's, and Fitch. Large amounts of AAA-rated securities were thus carved out of pools of low-rated mortgages. (We will describe CDOs in more detail in Chapter 14.)
+CDOs were designed to concentrate the credit (i.e., default) risk of a bundle of loans on one class of investors, leaving the other investors in the pool relatively protected from that risk. The idea was to prioritize claims on loan repayments by dividing the pool into senior versus junior slices, called tranches. The senior tranches had first claim on repayments from the entire pool. Junior tranches would be paid only after the senior ones had received their cut. For example, if a pool were divided into two tranches, with $70\%$ of the pool allocated to the senior tranche and $30\%$ allocated to the junior one, the senior investors would be repaid in full as long as $70\%$ or more of the loans in the pool performed, that is, as long as the default rate on the pool remained below $30\%$. Even with pools composed of risky subprime loans, default rates above $30\%$ seemed extremely unlikely, and thus senior tranches were frequently granted the highest (i.e., AAA) rating by the major credit rating agencies, Moody's, Standard & Poor's, and Fitch. Large amounts of AAA-rated securities were thus carved out of pools of low-rated mortgages. (We will describe CDOs in more detail in Chapter 14.)
 
 Of course, we know now that these ratings were wrong. The senior-subordinated structure of CDOs provided less protection to senior tranches than investors anticipated. When housing prices across the entire country began to fall, defaults in all regions increased, and the hoped-for benefits from spreading risks geographically never materialized.
 
@@ -389,15 +442,15 @@ Finally, agency problems became apparent. The ratings agencies were paid to prov
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c42836364663d433371c714fb3d84bca353f7d092c156acfb57fa4482d9c3fc1.jpg)
 
-# Concept Check 1.2
+**Concept Check 1.2**
 
 When Freddie Mac and Fannie Mae pooled mortgages into securities, they guaranteed the underlying mortgage loans against homeowner defaults. In contrast, there were no guarantees on the mortgages pooled into subprime mortgage-backed securities, so investors were the ones bearing the credit risk. Were either of these arrangements necessarily a better way to manage and allocate default risk?
 
-# Credit Default Swaps
+### Credit Default Swaps
 
 In parallel to the CDO market, the market in credit default swaps also exploded in this period. A credit default swap, or CDS, is in essence an insurance contract against the default of one or more borrowers. (We will describe these in more detail in Chapter 14.) The purchaser of the swap pays an annual premium (like an insurance premium) for protection from credit risk. Credit default swaps became an alternative method of credit enhancement, seemingly allowing investors to buy subprime loans and insure their safety. But in practice, some swap issuers ramped up their exposure to credit risk to unsupported levels, without sufficient capital to back those obligations. For example, the large insurance company AIG alone sold more than 400 billion of CDS contracts on subprime mortgages.
 
-# The Rise of Systemic Risk
+### The Rise of Systemic Risk
 
 By 2007, the financial system displayed several troubling features. Many large banks and related financial institutions had adopted an apparently profitable financing scheme: borrowing short term at low interest rates to finance holdings in higher-yielding, long-term illiquid assets.[8] But this business model was precarious: By relying primarily on short-term loans for their funding, these firms needed to constantly refinance their positions (i.e., borrow additional funds as the loans matured), or else face the necessity of quickly selling off their less-liquid asset portfolios, which would be difficult in times of financial stress. Moreover, these institutions were highly leveraged and had little capital as a buffer against losses. Even small portfolio losses could drive their net worth negative, at which point no one would be willing to renew outstanding loans or extend new ones.
 
@@ -406,7 +459,7 @@ Another source of fragility was widespread investor reliance on "credit enhancem
 
 This new financial model was brimming with systemic risk, a potential breakdown of the financial system when problems in one market spill over and disrupt others. When lenders such as banks have limited capital and are afraid of further losses, they may rationally choose to hoard their capital instead of lending it to customers such as small firms, thereby exacerbating funding problems for their customary borrowers.
 
-# The Shoe Drops
+### The Shoe Drops
 
 By fall 2007, housing price declines were widespread (Figure 1.3), mortgage delinquencies increased, and the stock market entered its own free fall (Figure 1.2). Many investment banks, which had large investments in mortgages, also began to totter.
 
@@ -419,9 +472,9 @@ The freezing up of credit markets was the end of any dwindling possibility that 
 
 The crisis was not limited to the United States. Housing markets throughout the world fell, and many European banks had to be rescued by their governments, which were themselves heavily in debt. As the cost of the bank bailouts mounted, the ability of these governments to repay their own debts came into doubt. In this way, the banking crisis spiraled into a sovereign debt crisis.
 
-Greece was the hardest hit. Its government debt of about  \$460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around\$ 130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
+Greece was the hardest hit. Its government debt of about $460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around $130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
 
-# The Dodd-Frank Reform Act
+### The Dodd-Frank Reform Act
 
 The crisis engendered many calls for reform of Wall Street. These eventually led to the passage in 2010 of the Dodd-Frank Wall Street Reform and Consumer Protection Act, which contains several mechanisms to mitigate systemic risk.
 
@@ -435,7 +488,7 @@ The incentives of the bond rating agencies are also a sore point. Few are happy 
 
 Recent legislation has resulted in a partial rollback of the Dodd-Frank Act. In 2018 Congress passed the Economic Growth, Regulatory Relief and Consumer Protection Act, exempting most small to medium-sized banks from Dodd-Frank rules, including stress tests. Some large banks (but not the largest) are no longer deemed "systemically important," which brings about closer oversight and higher capital requirements. The 2018 act also exempts smaller banks from the Volcker Rule. Dodd-Frank remains under attack by some members of Congress, and future pullbacks are certainly possible. Regardless of these possible revisions, the crisis surely made clear the essential role of the financial system in the functioning of the real economy.
 
-# 1.8 Outline of the Text
+## 1.8 Outline of the Text
 
 The text has seven parts, which are fairly independent and may be studied in a variety of sequences. Part One is an introduction to financial markets, instruments, and trading of securities. This part also describes the mutual fund industry.
 
@@ -455,122 +508,26 @@ Part Seven is an introduction to active investment management. It shows how diff
 
 6. The financial crisis of 2008 demonstrated the importance of systemic risk. Systemic risk can be limited by transparency that allows traders and investors to assess the risk of their counterparties; capital requirements to prevent trading participants from being brought down by potential losses; frequent settlement of gains or losses to prevent losses from accumulating beyond an institution's ability to bear them; incentives to discourage excessive risk taking; and accurate and unbiased analysis by those charged with evaluating security risk.
 
-# KEY TERMS investment
+**Key Terms**
 
-
-real assets financial assets
-
-
-fixed-income (debt) securities equity
-
-
-derivative securities agency problem
-
-
-asset allocation security selection
-
-
-security analysis risk-return trade-off
-
-
-passive management active management
-
-
-financial intermediaries investment companies
-
-
-investment bankers primary market
-
-
-secondary market venture capital (VC)
-
-
-private equity securitization
-
-
-systemic risk
-
-# PROBLEM SETS
-
-1. Financial engineering has been disparaged as nothing more than paper shuffling. Critics argue that resources used for rearranging wealth (i.e., bundling and unbundling financial assets) might be better spent on creating wealth (i.e., creating real assets). Evaluate this criticism. Are any benefits realized by creating an array of derivative securities from various primary securities?
-2. Why would you expect securitization to take place only in highly developed capital markets?
-3. What is the relationship between securitization and the role of financial intermediaries in the economy? What happens to financial intermediaries as securitization progresses?
-4. Although we stated that real assets constitute the true productive capacity of an economy, it is hard to conceive of a modern economy without well-developed financial markets and security types. How would the productive capacity of the U.S. economy be affected if there were no markets in which to trade financial assets?
-5. Firms raise capital from investors by issuing shares in the primary markets. Does this imply that corporate financial managers can ignore trading of previously issued shares in the secondary market?
-6. Suppose housing prices across the world double.
-
-$a$  .Is society any richer for the change?
-$b$ . Are homeowners wealthier?
-c. Can you reconcile your answers to  $(a)$  and  $(b)$ ? Is anyone worse off as a result of the change?
-
-7. Lanni Products is a start-up computer software development firm. It currently owns computer equipment worth \$30,000 and has cash on hand of \$20,000 contributed by Lanni's owners. For each of the following transactions, identify the real and/or financial assets that trade hands. Are any financial assets created or destroyed in the transaction?
-
-a. Lanni takes out a bank loan. It receives 50,000 in cash and signs a note promising to pay back the loan over 3 years.
-b. Lanni uses the cash from the bank plus 20,000 of its own funds to finance the development of new financial planning software.
-c. Lanni sells the software product to Microsoft, which will market it to the public under the Microsoft name. Lanni accepts payment in the form of 500 shares of Microsoft stock.
- d. Lanni sells the shares of stock for 280 per share and uses part of the proceeds to pay off the bank loan.
-
-8. Reconsider Lanni Products from the previous problem.
-
-a. Prepare its balance sheet just after it gets the bank loan. What is the ratio of real assets to total assets?
-b. Prepare the balance sheet after Lanni spends the 70,000 to develop its software product. What is the ratio of real assets to total assets?
-c. Prepare the balance sheet after Lanni accepts the payment of shares from Microsoft. What is the ratio of real assets to total assets?
-
-9. Examine the balance sheet of commercial banks in Table 1.3.
-
-a. What is the ratio of real assets to total assets?
-$b$ . What is the ratio of real assets to total assets for nonfinancial firms (Table 1.4)?
-$c$ . Why should this difference be expected?
-
-10. Consider Figure 1A, which describes an issue of American gold certificates.
-
-$a$  .Is this issue a primary or secondary market transaction?
-$b$ . Are the certificates primitive or derivative assets?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/5e2bc7c2a754cb05e5ebf04386a4866a6931fe691cd321c93bd832078920e1ac.jpg)
-Figure 1A A gold-backed security
-
-11. Discuss the advantages and disadvantages of the following forms of managerial compensation in terms of mitigating agency problems, that is, potential conflicts of interest between managers and shareholders.
-
-$a$  A fixed salary.
-$b$  .Stock in the firm that must be held for five years.
-c. A salary linked to the firm's profits.
-
-12. Oversight by large institutional investors or creditors is one mechanism to reduce agency problems. Why don't individual investors in the firm have the same incentive to keep an eye on management?
-13. Give an example of three financial intermediaries and explain how they act as a bridge between small investors and large capital markets or corporations.
-14. The average rate of return on investments in large stocks has outpaced that on investments in Treasury bills by about  $8\%$  since 1926. Why, then, does anyone invest in Treasury bills?
-15. What are some advantages and disadvantages of top-down versus bottom-up investing styles?
- 16. You see an advertisement for a book that claims to show how you can make 1 million with no risk and with no money down. Will you buy the book?
-17. Why do financial assets show up as a component of household wealth but not of national wealth? Why do financial assets still matter for the material well-being of an economy?
-
-18. Wall Street firms have traditionally compensated their traders with a share of the trading profits that they generated. How might this practice have affected traders' willingness to assume risk? What agency problem can this practice engender?
-
-19. What reforms to the financial system might reduce its exposure to systemic risk?
-
-# E-INVESTMENTS EXERCISES
-
-1. Log on to finance.yahoo.com and enter the ticker symbol RRD in the Quote Lookup box to find information about R.R. Donnelley & Sons.
-
-a. Click on Profile. What is Donnelly's main line of business?
-b. Now go to Statistics. How many shares of the company's stock are outstanding? What is the total market value of the firm? What were its profits in the most recent fiscal year?
-c. Look up Major Holders of the company's stock. What fraction of total shares is held by insiders?
-d. Now go to Analysis. What is the average estimate for next quarter's earnings per share by the analysts covering this firm? How does that compare to the current quarter's earnings?
-e. Look at the company's Balance Sheet. What were its total assets at the end of the most recent fiscal year?
-2. a. Go to the Securities and Exchange Commission Web site, www.sec.gov. What is the mission of the SEC? What information and advice does the SEC offer to beginning investors?
-b. Go to the FINRA Web site, www.finra.org. What is its mission? What information and advice does it offer to beginners?
-c. Go to the IOSCO Web site, www iosco.org. What is its mission? What information and advice does it offer to beginners?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/34adb387e09d776ca58969290adc1853fb56c1ff89db160417a7a5a082bb069a.jpg)
-
-# SOLUTIONS TO CONCEPT CHECKS
-
-1. a. Real b. Financial
-
-
-c. Real d. Real
-
-
-e. Financial
-
-2. The central issue is the incentive and ability to monitor the quality of loans when originated as well as over time. Freddie and Fannie clearly had incentive to monitor the quality of conforming loans that they had guaranteed, and their ongoing relationships with mortgage originators gave them opportunities to evaluate track records over extended periods of time. In the subprime mortgage market, the ultimate investors in the securities (or the CDOs backed by those securities), who were bearing the credit risk, should not have been willing to invest in loans with a disproportionate likelihood of default. If they properly understood their exposure to default risk, then the (correspondingly low) prices they would have been willing to pay for these securities would have imposed discipline on the mortgage originators and servicers. The fact that they were willing to hold such large positions in these risky securities suggests that they did not appreciate the extent of their exposure. Maybe they were led astray by overly optimistic projections for housing prices or by biased assessments from the credit-reporting agencies. In principle, either arrangement for default risk could have provided the appropriate discipline on the mortgage originators; in practice, however, the informational advantages of Freddie and Fannie probably made them the better "recipients" of default risk. The lesson is that information and transparency are some of the preconditions for well-functioning markets.
-
+- Real assets
+- Financial assets
+- Fixed-income (debt) securities
+- Equity
+- Derivative securities
+- Agency problem
+- Asset allocation
+- Security selection
+- Security analysis
+- Risk-return trade-off
+- Passive management
+- Active management
+- Financial intermediaries
+- Investment companies
+- Investment bankers
+- Primary market
+- Secondary market
+- Venture capital (VC)
+- Private equity
+- Securitization
+- Systemic risk

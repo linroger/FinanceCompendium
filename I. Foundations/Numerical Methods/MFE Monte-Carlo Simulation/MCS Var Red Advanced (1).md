@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Further Variance Reduction Methods
 linter-yaml-title-alias: Further Variance Reduction Methods
+primary_tags:
+- expectations importance sampling
+- iid samples
+- global alpha fund
+- original simulation method
+secondary_tags:
+- further variance reduction methods
+- variance reduction
+- variance reductions
+- rare event
+- steep losses
+- deviation example
+- another example
+- stratified estimator
+- further guidance
+tags_extracted: '2025-12-18T18:00:04.811964'
+tags_method: max_quality_v1
 ---
 
 # Further Variance Reduction Methods

@@ -1,11 +1,45 @@
 ---
-aliases:
-  - Table of Contents
-tags:
-key_concepts:
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM
+title: Front Matter and Table of Contents
+primary_tags:
+  - investment management
+  - portfolio theory
+  - asset pricing
+  - financial markets
+  - securities analysis
+  - derivatives pricing
+  - risk management
+  - performance evaluation
+secondary_tags:
+  - capital asset pricing model
+  - efficient market hypothesis
+  - behavioral finance
+  - fixed income securities
+  - bond portfolio management
+  - equity valuation models
+  - financial statement analysis
+  - options markets
+  - futures markets
+  - international diversification
+  - alternative investments
+  - hedge funds
+  - private equity
+  - technical analysis
+  - arbitrage pricing theory
+  - term structure models
+  - interest rate risk
+  - portfolio optimization
+  - index models
+  - market efficiency
+  - mutual funds
+  - exchange traded funds
+  - venture capital
+  - leveraged buyouts
+  - investment policy
+  - cfa institute framework
+  - performance attribution
+  - market timing
+  - risk adjusted returns
 cssclasses: academia
-title: "Front Matter and Table of Contents"
 ---
 
 # Investments
@@ -425,19 +459,35 @@ Appendix A: Risk Aversion, Expected Utility, and the St. Petersburg Paradox 196
 7.1 Diversification and Portfolio Risk 202
 7.2 Portfolios of Two Risky Assets 203
 7.3 Asset Allocation with Stocks, Bonds, and Bills 211
+
 Asset Allocation with Two Risky Asset Classes
-7.4 The Markowitz Portfolio Optimization Model 216 Security Selection / Capital Allocation and the Separation Property / The Power of Diversification / Asset Allocation and Security Selection
-7.5 Risk Pooling, Risk Sharing, and Time Diversification 225 Risk Sharing versus Risk Pooling / Time Diversification End of Chapter Material 228-238 Appendix A: A Spreadsheet Model for Efficient Diversification 238 Appendix B: Review of Portfolio Statistics 243
+7.4 The Markowitz Portfolio Optimization Model 216
+
+Security Selection / Capital Allocation and the Separation Property / The Power of Diversification / Asset Allocation and Security Selection
+7.5 Risk Pooling, Risk Sharing, and Time Diversification 225
+
+Risk Sharing versus Risk Pooling / Time Diversification
+
+End of Chapter Material 228-238
+
+Appendix A: A Spreadsheet Model for Efficient Diversification 238
+
+Appendix B: Review of Portfolio Statistics 243
 
 # Chapter 8
 
 # Index Models 251
 
-8.1 A Single-Factor Security Market 252 The Input List of the Markowitz Model / Systematic versus Firm-Specific Risk
+8.1 A Single-Factor Security Market 252
+
+The Input List of the Markowitz Model / Systematic versus Firm-Specific Risk
 8.2 The Single-Index Model 254
+
 The Regression Equation of the Single-Index Model / The Expected Return-Beta Relationship / Risk and Covariance in the Single-Index Model / The Set of Estimates Needed for the Single-Index Model / The Index Model and Diversification
 8.3 Estimating the Single-Index Model 261
+
 The Security Characteristic Line for U.S. Steel / The Explanatory Power of U.S. Steel's SCL / The Estimate of Alpha / The Estimate of Beta / Firm-Specific Risk
+
 Typical Results from Index Model Regressions
 8.4 The Industry Version of the Index Model 265
 Predicting Betas
@@ -459,8 +509,10 @@ End of Chapter Material 277-282
 # The Capital Asset Pricing Model 283
 
 9.1 The Capital Asset Pricing Model 283
+
 The Market Portfolio / The Passive Strategy Is Efficient / The Risk Premium of the Market Portfolio / Expected Returns on Individual Securities / The Security Market Line / The CAPM and the Single-Index Market
 9.2 Assumptions and Extensions of the CAPM 294
+
 Identical Input Lists / Risk-Free Borrowing and the Zero-Beta Model / Labor Income and Other Nontraded Assets / A Multiperiod Model and Hedge Portfolios / A Consumption-Based CAPM / Liquidity and the CAPM
 9.3 Issues in Testing the CAPM 304
 9.4 The CAPM and the Investment Industry 305
@@ -475,7 +527,10 @@ End of Chapter Material 306-314
 Factor Models of Security Returns
 
 10.2 Arbitrage Pricing Theory 318
-Arbitrage, Risk Arbitrage, and Equilibrium / Diversification in a Single-Factor Security Market / Well-Diversified Portfolios / The Security Market Line of the APT Individual Assets and the APT Well-Diversified Portfolios in Practice
+
+Arbitrage, Risk Arbitrage, and Equilibrium / Diversification in a Single-Factor Security Market / Well-Diversified Portfolios / The Security Market Line of the APT
+
+Individual Assets and the APT / Well-Diversified Portfolios in Practice
 10.3 The APT and the CAPM 326
 10.4 A Multifactor APT 326
 
@@ -511,9 +566,7 @@ Returns over Short Horizons / Returns over Long Horizons
 
 Predictors of Broad Market Returns / Semistrong Tests: Market Anomalies
 
-The Small-Firm Effect / The Neglected-Firm and
-
-Liquidity Effects / Book-to-Market Ratios / Post
+The Small-Firm Effect / The Neglected-Firm and Liquidity Effects / Book-to-Market Ratios / Post
 
 Earnings-Announcement Price Drift / Other Predictors of Stock Returns
 
@@ -885,7 +938,7 @@ Two-State Option Pricing / Generalizing the Two-State Approach / Making the Valu
 
 21.4 Black-Scholes Option Valuation 730
 
-The Black-Scholes Formula / Implied Volatility/ Dividends and Call Option Valuation / Put Option Valuation / Dividends and Put Option Valuation
+The Black-Scholes Formula / Implied Volatility / Dividends and Call Option Valuation / Put Option Valuation / Dividends and Put Option Valuation
 
 21.5 Using the Black-Scholes Formula 738
 
@@ -917,9 +970,7 @@ The Spot-Futures Parity Theorem / Spreads / Forward versus Futures Pricing
 
 22.5 Futures Prices versus Expected Spot Prices 784
 
-Expectations Hypothesis / Normal Backwardation /
-
-Contango / Modern Portfolio Theory
+Expectations Hypothesis / Normal Backwardation / Contango / Modern Portfolio Theory
 
 End of Chapter Material 786-790
 
@@ -929,17 +980,11 @@ End of Chapter Material 786-790
 
 23.1 Foreign Exchange Futures 791
 
-The Markets / Interest Rate Parity / Direct versus Indirect
-
-Quotes / Using Futures to Manage Exchange Rate Risk
+The Markets / Interest Rate Parity / Direct versus Indirect Quotes / Using Futures to Manage Exchange Rate Risk
 
 23.2 Stock-Index Futures 799
 
-The Contracts / Creating Synthetic Stock Positions: An
-
-Asset Allocation Tool / Index Arbitrage / Using Index
-
-Futures to Hedge Market Risk
+The Contracts / Creating Synthetic Stock Positions: An Asset Allocation Tool / Index Arbitrage / Using Index Futures to Hedge Market Risk
 
 23.3 Interest Rate Futures 804
 
@@ -963,9 +1008,7 @@ End of Chapter Material 817-826
 
 # PART VII
 
-# Applied Portfolio
-
-# Management 827
+# Applied Portfolio Management 827
 
 # Chapter 24
 
@@ -973,21 +1016,11 @@ End of Chapter Material 817-826
 
 24.1 The Conventional Theory of Performance Evaluation 827
 
-Average Rates of Return / Time-Weighted Returns versus
-
-Dollar-Weighted Returns / Adjusting Returns for Risk /
-
-Risk-Adjusted Performance Measures / The Sharpe Ratio for Overall Portfolios
+Average Rates of Return / Time-Weighted Returns versus Dollar-Weighted Returns / Adjusting Returns for Risk / Risk-Adjusted Performance Measures / The Sharpe Ratio for Overall Portfolios
 
 The  $\mathbf{M}^2$  Measure and the Sharpe Ratio
 
-The Treynor Ratio / The Information Ratio / The Role of Alpha in Performance Measures / Implementing
-
-Performance Measurement: An Example / Realized
-
-Returns versus Expected Returns / Selection Bias and
-
-Portfolio Evaluation
+The Treynor Ratio / The Information Ratio / The Role of Alpha in Performance Measures / Implementing Performance Measurement: An Example / Realized Returns versus Expected Returns / Selection Bias and Portfolio Evaluation
 
 24.2 Style Analysis 839
 
@@ -997,17 +1030,11 @@ Performance Manipulation and the Morningstar Risk-Adjusted Rating
 
 24.4 Market Timing 845
 
-The Potential Value of Market Timing / Valuing Market
-
-Timing as a Call Option / The Value of Imperfect
-
-Forecasting
+The Potential Value of Market Timing / Valuing Market Timing as a Call Option / The Value of Imperfect Forecasting
 
 24.5 Performance Attribution Procedures 850
 
-Asset Allocation Decisions / Sector and Security Selection
-
-Decisions / Summing Up Component Contributions
+Asset Allocation Decisions / Sector and Security Selection Decisions / Summing Up Component Contributions
 
 End of Chapter Material 855-866
 
@@ -1017,18 +1044,11 @@ End of Chapter Material 855-866
 
 25.1 Global Markets for Equities 867
 
-Developed Countries / Emerging Markets / Market
-
-Capitalization and GDP / Home-Country Bias
+Developed Countries / Emerging Markets / Market Capitalization and GDP / Home-Country Bias
 
 25.2 Exchange Rate Risk and International Diversification 871
 
-Exchange Rate Risk / Investment Risk in International
-
-Markets / International Diversification / Are Benefits from International Diversification Preserved in
-
-
-Bear Markets?
+Exchange Rate Risk / Investment Risk in International Markets / International Diversification / Are Benefits from International Diversification Preserved in Bear Markets?
 
 25.3 Political Risk 882
 
@@ -1180,17 +1200,11 @@ Investment in Residence / Saving for Retirement and the Assumption of Risk / Ret
 
 Target Date Funds / Tax Sheltering and Asset Allocation
 
-The Tax-Deferral Option / Tax-Protected Retirement
-
-Plans / Deferred Annuities / Variable and Universal
-
-Life Insurance
+The Tax-Deferral Option / Tax-Protected Retirement Plans / Deferred Annuities / Variable and Universal Life Insurance
 
 # 28.7 Pension Funds 981
 
-Defined Contribution Plans / Defined Benefit Plans /
-
-Pension Investment Strategies
+Defined Contribution Plans / Defined Benefit Plans / Pension Investment Strategies
 
 Investing in Equities
 

@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Trade and Resources: The Heckscher-Ohlin Model"
-linter-yaml-title-alias: "Trade and Resources: The Heckscher-Ohlin Model"
+title: 'Trade and Resources: The Heckscher-Ohlin Model'
+linter-yaml-title-alias: 'Trade and Resources: The Heckscher-Ohlin Model'
+primary_tags:
+- computers free trade equilibrium
+- countries abundant factor production
+- capital labor goods
+- trade countries using heckscher
+- united states accounted gdp
+- resources heckscher ohlin model
+secondary_tags:
+- trade equilibrium relative
+- international trade goods assumption
+- sloping foreign import
+- heckscher ohlin theorem goods
+- prices compared trade foreign
+- free trade equilibrium lies
+- export supply curve computers
+- theorem think china exporting
+- domestic production foreign trade
+- price free trade
+- abundance share gdp according
+- capital abundance hard estimate
+- trade data provided usda
+- theorem assumption labor capital
+- ohlin model suppose countries
+- paradox effective labor abundance
+tags_extracted: '2025-12-18T00:32:29.730963'
 ---
 
 # Trade and Resources: The Heckscher-Ohlin Model

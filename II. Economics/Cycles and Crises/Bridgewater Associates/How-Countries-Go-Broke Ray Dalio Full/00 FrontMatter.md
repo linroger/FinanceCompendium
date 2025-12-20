@@ -1,12 +1,10 @@
 ---
-aliases:
-  - Front Matter
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+aliases: [Front Matter]
+tags: [big_debt_cycles, economic_policy, macroeconomics, monetary_policy, financial_crisis]
+key_concepts: [big_debt_cycles, overall_big_cycle, economic_policy, monetary_orders, geopolitical_cycles]
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
 cssclasses: academia
-title: "00 - Front Matter"
-linter-yaml-title-alias: Front Matter
+title: "How Countries Go Broke - Front Matter"
 ---
 
 # HOW COUNTRIES GO BROKE
@@ -25,66 +23,38 @@ I wrote this book to pass along what I have found to be invaluable, timeless, an
 
 The material in this book complements and helps complete my explanations of the understandings and principles conveyed in my other books, most importantly Principles for Navigating Big Debt Crises and Principles for Dealing with the Changing World Order. Because that's a lot of interrelated stuff, I am putting all that and more into an AI avatar of myself that you can easily communicate directly with. If you want to try that out, you can sign up at principles.com.
 
-## INTRODUCTION
+## Table of Contents
 
-1
+### PART I: OVERVIEW OF THE BIG DEBT CYCLE
 
-<toc>
-## PART I
+1. The Big Debt Cycle in a Tiny Nutshell (Page 13)
+2. The Mechanics in Words and Concepts (Page 35)
+3. The Mechanics in Numbers and Equations (Page 65)
 
-## OVERVIEW OF THE BIG DEBT CYCLE
+### PART II: THE ARCHETYPICAL SEQUENCE LEADING TO CENTRAL GOVERNMENTS AND CENTRAL BANKS GOING BROKE
 
-1 The Big Debt Cycle in a Tiny Nutshell 13
+4. The Archetypical Sequence (Page 97)
+5. The Private Sector and Central Government Debt Crisis (Stages 1-4) (Page 105)
+6. The Crisis Spills over to the Central Bank (Stages 5-6) (Page 135)
+7. The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached, and a New Cycle Can Begin (Stages 7-9) (Page 145)
+8. The Overall Big Cycle (Page 163)
 
-2 The Mechanics in Words and Concepts 35
+### PART III: LOOKING BACK
 
-3 The Mechanics in Numbers and Equations 65
+9. From 1865 to 1945 in a Tiny Nutshell (Page 187)
+10. A Brief Review of the Big Debt Cycle from 1945 to Now (Page 195)
+11. 1945 to 1971—A Linked (i.e., Hard) Monetary System (Page 213)
+12. 1971 to 2008—A Fiat Money, Interest-Rate-Driven Monetary Policy (Page 223)
+13. 2008 to 2020—Fiat Money and Debt Monetization (Page 245)
+14. Since 2020-Pandemic and Big Fiscal Deficits Monetized (Page 255)
+15. China's Big Cycle from 1945-49 Until Now in a Tiny Nutshell (Page 267)
+16. The Japanese Case and the Lessons It Provides (Page 289)
 
-## PART II
+### PART IV: LOOKING AHEAD
 
-## THE ARCHETYPICAL SEQUENCE LEADING TO CENTRAL GOVERNMENTS AND CENTRAL BANKS GOING BROKE
-
-4 The Archetypical Sequence 97
-
-5 The Private Sector and Central Government Debt Crisis (Stages 1-4) 105
-
-6 The Crisis Spills over to the Central Bank (Stages 5-6) 135
-
-7 The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached, and a New Cycle Can Begin (Stages 7-9) 145
-
-8 The Overall Big Cycle 163
-
-## PART III
-
-## LOOKING BACK
-
-9 From 1865 to 1945 in a Tiny Nutshell 187
-
-10 A Brief Review of the Big Debt Cycle from 1945 to Now 195
-
-11 1945 to 1971—A Linked (i.e., Hard) Monetary System 213
-
-12 1971 to 2008—A Fiat Money, Interest-Rate-Driven Monetary Policy 223
-
-13 2008 to 2020—Fiat Money and Debt Monetization 245
-
-14 Since 2020-Pandemic and Big Fiscal Deficits Monetized 255
-
-15 China's Big Cycle from 1945-49 Until Now in a Tiny Nutshell 267
-
-16 The Japanese Case and the Lessons It Provides 289
-
-## PART IV
-
-## LOOKING AHEAD
-
-17 What My Indicators Show 325
-
-18 My $3 \%$ 3-Part Solution 335
-
-19 What the Future Looks Like to Me 359
-
-</toc>
+17. What My Indicators Show (Page 325)
+18. My $3\%$ 3-Part Solution (Page 335)
+19. What the Future Looks Like to Me (Page 359)
 
 ## HOW TO READ THIS BOOK
 

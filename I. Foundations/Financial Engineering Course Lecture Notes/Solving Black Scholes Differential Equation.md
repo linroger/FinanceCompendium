@@ -1,12 +1,22 @@
 ---
 aliases:
-  - "Solving the Black-Scholes Differential Equation"
-tags:
-key_concepts:
+- Solving the Black-Scholes Differential Equation
+tags: null
+key_concepts: null
 parent_directory: Financial Engineering Course Lecture Notes
 cssclasses: academia
-title: "Solving the Black-Scholes Differential Equation"
-linter-yaml-title-alias: "Solving the Black-Scholes Differential Equation"
+title: Solving the Black-Scholes Differential Equation
+linter-yaml-title-alias: Solving the Black-Scholes Differential Equation
+primary_tags:
+- following derivatives
+- special case
+secondary_tags:
+- black scholes equation
+- black-scholes equation
+- scholes equation
+- classic heat equation
+tags_extracted: '2025-12-18T17:54:58.312626'
+tags_method: max_quality_v1
 ---
 
 # Solving the Black-Scholes Differential Equation

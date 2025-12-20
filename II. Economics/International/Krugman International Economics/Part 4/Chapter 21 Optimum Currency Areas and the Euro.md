@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Optimum Currency Areas and the Euro
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Optimum Currency Areas and the Euro
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 21: Optimum Currency Areas and the Euro"
-linter-yaml-title-alias: "Chapter 21: Optimum Currency Areas and the Euro"
+title: 'Chapter 21: Optimum Currency Areas and the Euro'
+linter-yaml-title-alias: 'Chapter 21: Optimum Currency Areas and the Euro'
+primary_tags:
+- 692 european single currency
+- driven european monetary cooperation
+secondary_tags:
+- 21 optimum currency
+- single currency evolved 694
+tags_extracted: '2025-12-18T01:47:22.626391'
 ---
 
 # 21 Optimum Currency Areas and the Euro 692

@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Proof of Selected Results
 linter-yaml-title-alias: Proof of Selected Results
+primary_tags:
+- countries journal finance
+- proof assuming complete markets
+- dollar aea papers proceedings
+- international finance discussion paper
+- countercyclical currency risk premia
+secondary_tags:
+- equations market clearing conditions
+- arbitrage review financial studies
+- equilibrium conditions imply log
+- proof asset returns
+- plugging steady states yields
+- risk american economic review
+- trade journal monetary economics
+- keynesian framework applications
+- available ssrn 2023a zhengyang
+- euler equations risk free
+- bias equities consumption journal
+- theorem econometrica 87
+tags_extracted: '2025-12-18T01:45:42.402990'
 ---
 
 # Proof of Selected Results

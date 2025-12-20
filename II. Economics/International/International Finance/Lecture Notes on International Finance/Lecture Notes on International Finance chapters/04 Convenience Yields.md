@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Convenience Yields
 linter-yaml-title-alias: Convenience Yields
+primary_tags:
+- yields reflect currencies non
+- currency risk premium
+- types rate spreads key
+secondary_tags:
+- treasury convenience yield
+- bond convenience yield wedge
+- currency returns bond convenience
+- convenience yield currency risk
+- treasury yield home country
+- wedge exchange rate
+tags_extracted: '2025-12-18T01:44:30.823415'
 ---
 
 # Convenience Yields

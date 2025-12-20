@@ -1,6 +1,607 @@
+---
+title: The Efficient Market Hypothesis
+primary_tags:
+  - efficient market hypothesis
+  - random walk theory
+  - market efficiency
+  - event studies
+  - market anomalies
+secondary_tags:
+  - technical analysis
+  - fundamental analysis
+  - passive investment strategy
+  - index funds
+  - momentum effect
+  - reversal effect
+  - small firm effect
+  - book to market ratio
+  - insider trading
+  - mutual fund performance
+  - information processing
+  - market psychology
+  - price discovery
+  - information asymmetry
+  - market competition
+  - resource allocation
+  - portfolio management
+  - risk premium
+  - behavioral finance
+  - market predictability
+  - abnormal returns
+  - cumulative abnormal returns
+  - market microstructure
+  - liquidity effects
+  - neglected firm effect
+  - earnings announcements
+  - analyst recommendations
+  - performance persistence
+  - market bubbles
+  - speculative behavior
+  - information leakage
+  - trading strategies
+  - market efficiency tests
+  - empirical finance
+  - asset pricing models
+  - factor models
+  - style investing
+  - contrarian strategies
+  - data mining
+  - statistical arbitrage
+  - market timing
+  - security analysis
+  - investment policy
+  - market regulation
+  - disclosure requirements
+  - information costs
+  - competition effects
+  - market equilibrium
+  - price formation
+  - market completeness
+  - arbitrage opportunities
+  - market friction
+  - transaction costs
+  - bid ask spreads
+  - market depth
+  - price impact
+  - informed trading
+  - liquidity provision
+  - market making
+  - price efficiency
+  - information incorporation
+  - market learning
+  - adaptive markets
+  - market evolution
+  - regulatory oversight
+  - market transparency
+  - information dissemination
+  - market structure
+  - trading mechanisms
+  - price discovery process
+  - market quality
+  - efficiency measurement
+  - performance evaluation
+  - benchmark construction
+  - risk adjustment
+  - alpha generation
+  - skill vs luck
+  - performance attribution
+  - style analysis
+  - factor exposure
+  - market segmentation
+  - cross sectional returns
+  - time series predictability
+  - volatility clustering
+  - market microstructure noise
+  - high frequency trading
+  - algorithmic trading
+  - market impact costs
+  - implementation shortfall
+  - portfolio optimization
+  - diversification benefits
+  - systematic risk
+  - idiosyncratic risk
+  - market integration
+  - global markets
+  - emerging markets
+  - developed markets
+  - market development
+  - financial innovation
+  - technological change
+  - market adaptation
+  - evolutionary finance
+  - market complexity
+  - nonlinear dynamics
+  - chaos theory
+  - fractal markets
+  - multifractal analysis
+  - market stability
+  - systemic risk
+  - market crashes
+  - financial crises
+  - market resilience
+  - recovery mechanisms
+  - adaptive behavior
+  - learning effects
+  - market memory
+  - path dependence
+  - hysteresis effects
+  - regime shifts
+  - structural breaks
+  - market transitions
+  - evolutionary processes
+  - selection mechanisms
+  - survival strategies
+  - competitive advantage
+  - information advantage
+  - analytical skills
+  - research capabilities
+  - technological resources
+  - human capital
+  - organizational learning
+  - knowledge management
+  - information processing capacity
+  - decision making under uncertainty
+  - risk assessment
+  - uncertainty quantification
+  - probability assessment
+  - bayesian updating
+  - belief revision
+  - expectation formation
+  - market expectations
+  - consensus forecasts
+  - disagreement effects
+  - heterogeneous beliefs
+  - information heterogeneity
+  - opinion dynamics
+  - social learning
+  - herd behavior
+  - information cascades
+  - social influence
+  - network effects
+  - contagion effects
+  - spillover effects
+  - cross market effects
+  - intermarket relationships
+  - market linkages
+  - transmission mechanisms
+  - contagion channels
+  - systemic connections
+  - market interdependence
+  - global integration
+  - market convergence
+  - efficiency convergence
+  - development patterns
+  - maturation processes
+  - institutional development
+  - regulatory evolution
+  - market infrastructure
+  - technological infrastructure
+  - information systems
+  - data availability
+  - computational resources
+  - analytical tools
+  - research methodologies
+  - empirical methods
+  - statistical techniques
+  - econometric models
+  - time series analysis
+  - cross sectional analysis
+  - panel data methods
+  - nonparametric methods
+  - semiparametric models
+  - machine learning
+  - artificial intelligence
+  - big data analytics
+  - alternative data
+  - satellite imagery
+  - mobile phone data
+  - social media sentiment
+  - web scraping
+  - data mining techniques
+  - pattern recognition
+  - predictive modeling
+  - forecasting methods
+  - trend analysis
+  - cycle detection
+  - seasonal patterns
+  - calendar effects
+  - announcement effects
+  - event driven strategies
+  - news based trading
+  - sentiment analysis
+  - text mining
+  - natural language processing
+  - computational linguistics
+  - information extraction
+  - knowledge discovery
+  - data visualization
+  - exploratory analysis
+  - hypothesis testing
+  - statistical inference
+  - confidence intervals
+  - significance testing
+  - p values
+  - effect sizes
+  - power analysis
+  - sample size determination
+  - sampling methods
+  - bootstrap methods
+  - monte carlo simulation
+  - resampling techniques
+  - cross validation
+  - out of sample testing
+  - backtesting procedures
+  - validation methods
+  - robustness checks
+  - sensitivity analysis
+  - specification tests
+  - model selection
+  - information criteria
+  - goodness of fit
+  - model evaluation
+  - performance metrics
+  - accuracy measures
+  - precision metrics
+  - recall measures
+  - f1 scores
+  - area under curve
+  - receiver operating characteristics
+  - precision recall curves
+  - calibration plots
+  - reliability diagrams
+  - scoring rules
+  - probability calibration
+  - uncertainty bounds
+  - prediction intervals
+  - forecast intervals
+  - confidence bands
+  - error analysis
+  - bias variance tradeoff
+  - overfitting prevention
+  - regularization methods
+  - shrinkage techniques
+  - variable selection
+  - feature engineering
+  - dimensionality reduction
+  - principal components
+  - factor analysis
+  - independent components
+  - cluster analysis
+  - classification methods
+  - regression techniques
+  - time series forecasting
+  - volatility modeling
+  - correlation analysis
+  - dependence modeling
+  - copula methods
+  - tail risk modeling
+  - extreme value theory
+  - risk management
+  - portfolio risk
+  - market risk
+  - credit risk
+  - operational risk
+  - liquidity risk
+  - systemic risk modeling
+  - stress testing
+  - scenario analysis
+  - monte carlo risk simulation
+  - value at risk
+  - conditional value at risk
+  - expected shortfall
+  - tail value at risk
+  - spectral risk measures
+  - coherent risk measures
+  - risk allocation
+  - risk budgeting
+  - risk monitoring
+  - risk reporting
+  - risk governance
+  - regulatory compliance
+  - basel accords
+  - capital requirements
+  - leverage ratios
+  - liquidity requirements
+  - stress testing frameworks
+  - resolution planning
+  - living wills
+  - systemic importance
+  - too big to fail
+  - moral hazard
+  - adverse selection
+  - information asymmetry problems
+  - principal agent problems
+  - incentive alignment
+  - contract design
+  - mechanism design
+  - market design
+  - auction theory
+  - game theory
+  - strategic behavior
+  - nash equilibrium
+  - bayesian games
+  - signaling games
+  - screening mechanisms
+  - adverse selection mitigation
+  - moral hazard reduction
+  - incentive compatibility
+  - individual rationality
+  - participation constraints
+  - budget balance
+  - efficiency properties
+  - welfare implications
+  - market failures
+  - government intervention
+  - regulatory policy
+  - competition policy
+  - antitrust enforcement
+  - market structure regulation
+  - conduct regulation
+  - prudential regulation
+  - conduct of business rules
+  - consumer protection
+  - investor protection
+  - market integrity
+  - fair dealing
+  - best execution
+  - market abuse
+  - insider dealing
+  - market manipulation
+  - false reporting
+  - fraud detection
+  - surveillance systems
+  - enforcement mechanisms
+  - penalty structures
+  - deterrence effects
+  - compliance monitoring
+  - regulatory reporting
+  - transparency requirements
+  - disclosure obligations
+  - market data reporting
+  - trade reporting
+  - transaction reporting
+  - position reporting
+  - large exposure reporting
+  - concentration limits
+  - position limits
+  - trading limits
+  - risk limits
+  - exposure limits
+  - concentration risk
+  - counterparty risk
+  - settlement risk
+  - operational risk controls
+  - internal controls
+  - risk management systems
+  - governance frameworks
+  - board oversight
+  - senior management responsibility
+  - risk culture
+  - risk appetite
+  - risk tolerance
+  - risk capacity
+  - risk limits framework
+  - limit monitoring
+  - limit breaches
+  - escalation procedures
+  - remediation actions
+  - corrective measures
+  - supervisory actions
+  - enforcement actions
+  - penalties and sanctions
+  - criminal prosecution
+  - civil penalties
+  - administrative sanctions
+  - regulatory settlements
+  - deferred prosecution agreements
+  - non prosecution agreements
+  - compliance undertakings
+  - remediation programs
+  - supervisory colleges
+  - cross border cooperation
+  - international coordination
+  - regulatory harmonization
+  - standard setting
+  - best practices
+  - industry standards
+  - professional standards
+  - ethical standards
+  - codes of conduct
+  - professional ethics
+  - fiduciary duties
+  - duty of care
+  - duty of loyalty
+  - conflicts of interest
+  - personal account dealing
+  - outside business interests
+  - gift and entertainment policies
+  - anti bribery measures
+  - anti corruption programs
+  - know your customer
+  - customer due diligence
+  - enhanced due diligence
+  - ongoing monitoring
+  - suspicious activity reporting
+  - anti money laundering
+  - combating terrorist financing
+  - sanctions compliance
+  - watchlist screening
+  - transaction monitoring
+  - behavioral detection
+  - pattern recognition
+  - anomaly detection
+  - red flag indicators
+  - risk based approach
+  - customer risk profiling
+  - geographic risk assessment
+  - product risk assessment
+  - delivery channel risk
+  - correspondent banking
+  - payable through accounts
+  - nested relationships
+  - shell companies
+  - beneficial ownership
+  - ultimate beneficial owner
+  - control persons
+  - politically exposed persons
+  - senior foreign political figures
+  - family members
+  - close associates
+  - head of international organizations
+  - domestic politically exposed persons
+  - international organization officials
+  - sanctions lists
+  - united nations sanctions
+  - european union sanctions
+  - office of foreign assets control
+  - bureau of industry and security
+  - financial sanctions
+  - trade sanctions
+  - arms embargoes
+  - travel bans
+  - asset freezes
+  - sectoral sanctions
+  - comprehensive sanctions
+  - limited sanctions
+  - targeted sanctions
+  - smart sanctions
+  - sanctions evasion
+  - circumvention techniques
+  - shell company networks
+  - front companies
+  - nominee arrangements
+  - trust structures
+  - complex ownership chains
+  - cross border transactions
+  - trade based money laundering
+  - black market peso exchange
+  - informal value transfer systems
+  - hawala networks
+  - hundi systems
+  - fei chien
+  - underground banking
+  - parallel banking
+  - alternative remittance systems
+  - money service businesses
+  - currency exchange houses
+  - check cashers
+  - money transmitters
+  - prepaid access providers
+  - virtual currency businesses
+  - cryptocurrency exchanges
+  - digital asset service providers
+  - virtual asset service providers
+  - travel rule compliance
+  - record keeping requirements
+  - retention policies
+  - retrieval capabilities
+  - audit trails
+  - transaction reconstruction
+  - evidence preservation
+  - legal holds
+  - litigation readiness
+  - regulatory inquiries
+  - investigation support
+  - law enforcement cooperation
+  - information sharing
+  - financial intelligence units
+  - suspicious transaction reports
+  - currency transaction reports
+  - cross border fund transfers
+  - wire transfer reporting
+  - funds transfer record keeping
+  - sequential wire transfers
+  - cover payments
+  - message authentication
+  - straight through processing
+  - payment system oversight
+  - systemically important payment systems
+  - retail payment systems
+  - large value payment systems
+  - real time gross settlement
+  - deferred net settlement
+  - hybrid systems
+  - liquidity saving mechanisms
+  - queue management
+  - gridlock resolution
+  - collateral management
+  - intraday liquidity
+  - end of day processing
+  - settlement finality
+  - irrevocability
+  - zero hour rules
+  - insolvency protection
+  - netting arrangements
+  - multilateral netting
+  - bilateral netting
+  - novation
+  - substitution
+  - central counterparties
+  - clearing houses
+  - settlement agents
+  - custodians
+  - depositories
+  - central securities depositories
+  - international central securities depositories
+  - securities settlement systems
+  - delivery versus payment
+  - payment versus payment
+  - foreign exchange settlement
+  - herstatt risk
+  - settlement risk
+  - principal risk
+  - replacement cost risk
+  - liquidity risk
+  - operational risk
+  - legal risk
+  - systemic risk
+  - cross border settlement
+  - correspondent banking
+  - nostro accounts
+  - vostro accounts
+  - loro accounts
+  - mirror accounts
+  - omnibus accounts
+  - segregated accounts
+  - fiduciary accounts
+  - trust accounts
+  - escrow arrangements
+  - conditional payments
+  - contingent payments
+  - guarantee arrangements
+  - standby letters of credit
+  - performance bonds
+  - bid bonds
+  - advance payment guarantees
+  - retention money guarantees
+  - warranty guarantees
+  - maintenance guarantees
+  - customs guarantees
+  - tax guarantees
+  - judicial guarantees
+  - arbitration guarantees
+  - mediation guarantees
+  - settlement guarantees
+  - transaction guarantees
+  - trade finance
+  - letters of credit
+  - documentary collections
+  - trade guarantees
+  - forfaiting
+  - factoring
+  - invoice discounting
+  - supply chain finance
+  - reverse factoring
+  - dynamic discounting
+  - early payment programs
+  - working capital optimization
+  - cash management
+  - liquidity management
+---
+
 # The Efficient Market Hypothesis
 
-# 11
+## Chapter 11
 
 ONE OF THE early applications of computers in economics in the 1950s was to analyze economic time series. Business cycle theorists felt that tracing the evolution of several economic variables over time would clarify and predict the progress of the economy through boom-and-bust periods. A natural candidate for analysis was the behavior of stock market prices over time. Assuming that stock prices reflect the prospects of the firm, recurrent patterns of peaks and troughs in economic performance ought to show up in those prices.
 

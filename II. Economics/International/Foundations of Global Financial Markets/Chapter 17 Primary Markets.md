@@ -1,12 +1,28 @@
 ---
 aliases:
-  - Primary Markets
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Primary Markets
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 17: Primary Markets"
-linter-yaml-title-alias: "Chapter 17: Primary Markets"
+title: 'Chapter 17: Primary Markets'
+linter-yaml-title-alias: 'Chapter 17: Primary Markets'
+primary_tags:
+- markets integration fundraising implications
+- ipo primary market involves
+- public offering requirements
+- accredited investor satisfies net
+secondary_tags:
+- 17 primary markets contents
+- securities primary market google
+- securities laws dealing primary
+- regulation primary market defining
+- difference primary secondary markets
+- box 17 securities act
+- private offerings securities differ
+- 17 illustration auction ipo
+- cover secondary market regulation
+tags_extracted: '2025-12-18T00:20:29.007991'
 ---
 
 # 17

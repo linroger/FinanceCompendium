@@ -1,14 +1,41 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Term Asset-Backed Securities Loan Facility
+primary_tags:
+  - federal reserve facilities
+  - asset backed securities
+  - term loan facility
+secondary_tags:
+  - credit facility
+  - asset backed securities loan
+  - federal reserve act
+  - special purpose vehicle
+  - asset class
+  - haircut schedule
+  - collateral valuation
+  - loan terms
+  - market conditions
+  - credit needs
+  - asset backed securities
+  - treasury department
+  - equity investment
+  - eligible borrowers
+  - eligible collateral
+  - credit exposures
+  - interest rates
+  - loan maturity
+  - non recourse loans
+  - program termination
+  - basis points
+  - weighted average life
+  - cash flows
+  - interest payments
+cssclasses: academia
 ---
+
 
 # Term Asset-Backed Securities Loan Facility
 
-Effective July 28,  $2020^{1}$
+Effective July 28, 2020^1^
 
 Facility: The TALF is a credit facility authorized under section 13(3) of the Federal Reserve Act intended to help meet the credit needs of consumers and businesses by facilitating the issuance of asset-backed securities ("ABS") and improving the market conditions for ABS more generally. The TALF will serve as a funding backstop to facilitate the issuance of eligible ABS on or after March 23, 2020.
 
@@ -26,16 +53,16 @@ All or substantially all of the credit exposures underlying the eligible ABS mus
 
 Eligible collateral must be ABS where the underlying credit exposures are one of the following:
 
-NaN. Auto loans and leases;  
-NaN. Student loans;  
-NaN. Credit card receivables (both consumer and corporate);  
-NaN. Equipment loans and leases;  
-NaN. Floorplan loans;  
-NaN. Premium finance loans for property and casualty insurance;  
-NaN. Certain small business loans that are guaranteed by the Small Business Administration;  
-NaN. Leveraged loans; or
+1. Auto loans and leases;
+2. Student loans;
+3. Credit card receivables (both consumer and corporate);
+4. Equipment loans and leases;
+5. Floorplan loans;
+6. Premium finance loans for property and casualty insurance;
+7. Certain small business loans that are guaranteed by the Small Business Administration;
+8. Leveraged loans; or
 
-# 9) Commercial mortgages.
+9. **Commercial mortgages.**
 
 Eligible collateral will not include ABS that bear interest payments that step up or step down to predetermined levels on specific dates. In addition, the underlying credit exposures of eligible collateral must not include exposures that are themselves cash ABS or synthetic ABS.
 
@@ -49,9 +76,9 @@ Restrictions on CLO loan substitution: Only static Close will be eligible collat
 
 Collateral Valuation: Haircut schedule is below. The haircut schedule is consistent with the haircut scheduled used for the TALF established in 2008.
 
-Pricing: For Close, the interest rate will be 150 basis points over the 30-day average secured overnight financing rate ("SOFR"). For SBA Pool Certificates (7(a) loans), the interest rate will be the top of the federal funds target range plus 75 basis points. For SBA Development Company Participation Certificates (504 loans), the interest rate will be 75 basis points over the 3-year fed funds overnight index swap ("Is") rate.
+Pricing: For Close, the interest rate will be 150 basis points over the 30-day average secured overnight financing rate ("SOFR"). For SBA Pool Certificates (7(a) loans), the interest rate will be the top of the federal funds target range plus 75 basis points. For SBA Development Company Participation Certificates (504 loans), the interest rate will be 75 basis points over the 3-year fed funds overnight index swap ("I/S") rate.
 
-For all other eligible ABS, the interest rate will be 125 basis points over the 2-year Is rate for securities with a weighted average life less than two years, or 125 basis points over the 3-year Is rate for securities with a weighted average life of two years or greater.
+For all other eligible ABS, the interest rate will be 125 basis points over the 2-year I/S rate for securities with a weighted average life less than two years, or 125 basis points over the 3-year I/S rate for securities with a weighted average life of two years or greater.
 
 Fees: The SPV will assess an administrative fee equal to 10 basis points of the loan amount on the settlement date for collateral.
 
@@ -63,7 +90,7 @@ Prepayment: Loans made under the TALF will be pre-payable in whole or in part at
 
 Program Termination: No new credit extensions will be made after December 31, 2020, unless the TALF is extended by the Board of Governors of the Federal Reserve System and the Department of the Treasury.
 
-# Haircut Schedule:
+## Haircut Schedule:
 
 ABS Average Life (years)*  
 

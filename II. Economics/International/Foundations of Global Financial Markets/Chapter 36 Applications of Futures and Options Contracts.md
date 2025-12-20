@@ -1,11 +1,31 @@
 ---
 aliases: Applications of Futures and Options Contracts
-tags:
-key_concepts:
-parent_directory: "[[Foundations of Global Financial Markets]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 36: Applications of Futures and Options Contracts"
+title: 'Chapter 36: Applications of Futures and Options Contracts'
 linter-yaml-title-alias: Applications of Futures and Options Contracts
+primary_tags:
+- using futures options discuss
+- allow investors hedge risks
+- markets example suppose pension
+- futures options markets created
+- hedging futures contracts applications
+secondary_tags:
+- differences hedging futures options
+- futures used enhance portfolio
+- options institutional investor use
+- stock index futures institutional
+- rate futures various ways
+- futures options contracts contents
+- futures options discuss quotation
+- instruments facilitate asset allocation
+- hedging futures
+- securities using futures permits
+- hedge position using stock
+- explains general principles hedging
+tags_extracted: '2025-12-18T00:28:06.149037'
 ---
 
 # 36

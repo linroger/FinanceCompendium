@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Currency Crises East Asian Crisis
-tags:
-key_concepts:
+- Currency Crises East Asian Crisis
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 17: Currency Crises East Asian Crisis"
-linter-yaml-title-alias: "Chapter 17: Currency Crises East Asian Crisis"
+title: 'Chapter 17: Currency Crises East Asian Crisis'
+linter-yaml-title-alias: 'Chapter 17: Currency Crises East Asian Crisis'
+primary_tags:
+- play asian crisis mentioned
+- models currency crises 17
+- 1997 spread asian dollardenominated
+- severe international investors
+- crises east asian financial
+secondary_tags:
+- causes currency financial crises
+- asian financial crises 1997
+- currency financial crises occurred
+- 2002 currency crises east
+- 450 currency crises east
+- generation financial crisis models
+- crisis deterioration macroeconomic fundamentals
+- 17 run asian crisis
+- explain financial crises occur
+- ai baht devaluation
+- speculative attacks crisis
+- collapse exchange rate country
+tags_extracted: '2025-12-18T01:38:40.219712'
 ---
 
 # CHAPTER 17

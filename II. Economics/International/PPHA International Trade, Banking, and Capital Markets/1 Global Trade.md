@@ -1,13 +1,22 @@
 ---
-parent_directory:
+parent_directory: null
 title: International Trade and Globalization
-tags:
-aliases:
+tags: null
+aliases: null
 parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
 linter-yaml-title-alias: International Trade and Globalization
+primary_tags:
+- exports country sells countries
+- entering country
+secondary_tags:
+- international trade banking capital
+- capital markets introduction global
+- international trade principal
+- trade balance represents
+tags_extracted: '2025-12-18T01:50:00.994962'
 ---
 
 International Trade Banking and Capital Markets:

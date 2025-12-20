@@ -1,3 +1,26 @@
+---
+primary_tags:
+- arguments free trade tariffs
+- tariff policy
+- policy income distribution important
+- gatt customs unions
+- political economy views trade
+secondary_tags:
+- trade policy economic welfare
+- trade policies cost benefit
+- trade policy course 2018
+- lower tariff median voter
+- identify arguments free trade
+- optimal tariff argument governments
+- external tariffs free trade
+- trump trade war
+- preferential trading agreements allowed
+- tariffs trade policies figure
+- free trade 279 preferential
+- trade policy argue imperfections
+tags_extracted: '2025-12-18T00:52:26.790879'
+---
+
 # THE POLITICAL ECONOMY OF TRADE POLICY
 
 Over the course of 2018 and 2019 the United States and China engaged in a trade war, a series of tariff increases on both sides in which each nation asserted that it was responding to the other nation's previous actions. By the end of 2019 the average U.S. tariff on imports from China had risen from  $3\%$  to  $21\%$ , while the average Chinese tariff on U.S. exports had risen from  $8\%$  to  $21\%$ .

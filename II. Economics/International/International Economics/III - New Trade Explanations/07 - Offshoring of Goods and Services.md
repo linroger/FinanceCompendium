@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Offshoring of Goods and Services
 linter-yaml-title-alias: Offshoring of Goods and Services
+primary_tags:
+- offshore subsidiaries mattel
+- american sold cell
+- offshoring ways differs trade
+secondary_tags:
+- services trade increased
+- offshoring conclusions general electric
+- americans perceive offshoring actual
+- chapter suggests offshoring
+- overseas firms does outsourcing
+- phone produced likely countries
+tags_extracted: '2025-12-18T00:33:47.617836'
 ---
 
 # Offshoring of Goods and Services

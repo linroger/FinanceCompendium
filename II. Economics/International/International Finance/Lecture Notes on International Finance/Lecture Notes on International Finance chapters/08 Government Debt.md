@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Government Debt
 linter-yaml-title-alias: Government Debt
+primary_tags:
+- market value government debt
+- government bond portfolio transversality
+- government debt portfolio equation
+- understanding asset prices
+secondary_tags:
+- government debt valuation sustainability
+- yield implies government finance
+- debt determines value based
+- government debt important reserve
+- assets government debt fact
+- surpluses future debt risk
+- explanation public debt
+- returns government bonds maturity
+- nominal risk free debt
+tags_extracted: '2025-12-18T01:44:58.214507'
 ---
 
 # Government Debt

@@ -1,88 +1,95 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
 cssclasses: academia
-title: "Technical Note No. 12*  "
-linter-yaml-title-alias: "Technical Note No. 12*  "
+title: "Technical Note 12 - Cumulative Non-Central Chi Square Distribution"
+tags:
+  - non_central_chi_square
+  - statistical_distributions
+  - gamma_function
+  - numerical_methods
+  - derivatives_pricing
+  - probability_calculations
+key_concepts:
+  - "Ding's algorithm for non-central chi square distribution"
+  - "Gamma function computation and properties"
+  - "Cumulative probability series expansion"
+parent_directory: "Technical Notes from Options, Futures, and Other Derivatives"
 ---
 
-# Technical Note No. 12*  
+# Technical Note 12 - Cumulative Non-Central Chi Square Distribution
 
 Options, Futures, and Other Derivatives  
 John Hull
 
-# The Calculation of the Cumulative Non-Central Chi Square Distribution
+## The Calculation of the Cumulative Non-Central Chi Square Distribution
 
-We present an algorithm proposed by Ding (1992).<sup>1</sup> Suppose that the non-centrality parameter is  $v$  and the number of degrees of freedom is  $k$  and we require the cumulative probability that the variable will be less than  $z$ . We define
-
-$$
-t _ {0} = \frac {1}{\Gamma (k / 2 + 1)} \left(\frac {z}{2}\right) ^ {k / 2} \exp \left(- \frac {z}{2}\right)
-$$
+We present an algorithm proposed by Ding (1992).<sup>1</sup> Suppose that the non-centrality parameter is $v$ and the number of degrees of freedom is $k$ and we require the cumulative probability that the variable will be less than $z$. We define
 
 $$
-t _ {i} = t _ {i - 1} \frac {z}{k + 2 i}
+t_{0} = \frac{1}{\Gamma(k/2 + 1)} \left(\frac{z}{2}\right)^{k/2} \exp\left(-\frac{z}{2}\right)
+$$
+
+$$
+t_{i} = t_{i-1} \frac{z}{k + 2i}
 $$
 
 We also define
 
 $$
-w _ {0} = u _ {0} = \exp (- v / 2)
+w_{0} = u_{0} = \exp(-v/2)
 $$
 
 $$
-u _ {i} = \frac {u _ {i - 1} v}{2 i}
+u_{i} = \frac{u_{i-1} v}{2i}
 $$
 
 $$
-w _ {i} = w _ {i - 1} + u _ {i}
+w_{i} = w_{i-1} + u_{i}
 $$
 
-The required probability that the variable with the non-central chi square distribution will be less than  $z$  is
+The required probability that the variable with the non-central chi square distribution will be less than $z$ is
 
 $$
-\sum_ {i = 0} ^ {\infty} w _ {i} t _ {i}
+\sum_{i=0}^{\infty} w_{i} t_{i}
 $$
 
 By taking a sufficient number of terms in this series the required accuracy can be obtained.
 
-# The Gamma Function
+## The Gamma Function
 
-In the above formulas  $\Gamma(.)$  is the gamma function. It has the property that  $\Gamma(n) = (n - 1)!$  when  $n$  is an integer. In general  $\Gamma(x + 1) = x\Gamma(x)$ . The computation of the gamma function is discussed in Numerical Recipes.².
+In the above formulas $\Gamma(\cdot)$ is the gamma function. It has the property that $\Gamma(n) = (n-1)!$ when $n$ is an integer. In general $\Gamma(x+1) = x\Gamma(x)$. The computation of the gamma function is discussed in Numerical Recipes.²
 
 $$
-\Gamma (x) = \left[ \frac {\sqrt {2 \pi}}{x} \left(p _ {0} + \sum_ {n = 1} ^ {6} \frac {p _ {n}}{x + n}\right) \right] (x + 5. 5) ^ {x + 0. 5} e ^ {- (x + 5. 5)}
+\Gamma(x) = \left[ \frac{\sqrt{2\pi}}{x} \left(p_{0} + \sum_{n=1}^{6} \frac{p_{n}}{x + n}\right) \right] (x + 5.5)^{x + 0.5} e^{-(x + 5.5)}
 $$
 
 where
 
 $$
-p _ {0} = 1. 0 0 0 0 0 0 0 0 0 1 9 0 0 1 5
+p_{0} = 1.000000000190015
 $$
 
 $$
-p _ {1} = 7 6. 1 8 0 0 9 1 7 2 9 4 7 1 4 6
+p_{1} = 76.18009172947146
 $$
 
 $$
-p _ {2} = - 8 6. 5 0 5 3 2 0 3 2 9 4 1 6 7 7
+p_{2} = -86.50532032941677
 $$
 
 $$
-p _ {3} = 2 4. 0 1 4 0 9 8 2 4 0 8 3 0 9 1
+p_{3} = 24.01409824083091
 $$
 
 $$
-p _ {4} = - 1. 2 3 1 7 3 9 5 7 2 4 5 0 1 5 5
+p_{4} = -1.231739572450155
 $$
 
 $$
-p _ {5} = 1. 2 0 8 6 5 0 9 7 3 8 6 6 1 7 9 \times 1 0 ^ {- 3}
+p_{5} = 1.208650973866179 \times 10^{-3}
 $$
 
 $$
-p _ {6} = - 5. 3 9 5 2 3 9 3 8 4 9 5 3 \times 1 0 ^ {- 6}
+p_{6} = -5.395239384953 \times 10^{-6}
 $$
 
-To avoid overflow problems it is best to compute  $\ln \Gamma (x)$  rather than  $\Gamma (x)$ .
+To avoid overflow problems it is best to compute $\ln\Gamma(x)$ rather than $\Gamma(x)$.

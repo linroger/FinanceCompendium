@@ -1,3 +1,31 @@
+---
+primary_tags:
+- balance payments gains
+- household cope economic shocks
+- external wealth position argentina
+- financial globalization save rainy
+- norway took advantage openness
+- suppose argentina year debt
+secondary_tags:
+- gains financial globalization large
+- country investment capital accumulation
+- argentina invests 84
+- financially open countries
+- countries deal shocks
+- external wealth year assume
+- countries marginal product high
+- shock responses illustrate financial
+- 05 200 argentina fund
+- question international macroeconomics
+- households limit country borrow
+- trade balances external wealth
+- hurricanes intertemporal trade capital
+- financial challenges
+- peak current account deficit
+- damage financial dealings household
+tags_extracted: '2025-12-18T00:42:53.808504'
+---
+
 # Balance of Payments I: the Gains from Financial Globalization
 
 Save for a rainy day.

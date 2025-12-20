@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Controversies in Trade Policy
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Controversies in Trade Policy
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 12: Controversies in Trade Policy"
-linter-yaml-title-alias: "Chapter 12: Controversies in Trade Policy"
+title: 'Chapter 12: Controversies in Trade Policy'
+linter-yaml-title-alias: 'Chapter 12: Controversies in Trade Policy'
+primary_tags:
+- 328 imperfect competition
+- controversies trade policy
+secondary_tags:
+- 12 controversies trade policy
+- arguments activist trade policy
+tags_extracted: '2025-12-18T01:46:58.613271'
 ---
 
 12 Controversies in Trade Policy 327

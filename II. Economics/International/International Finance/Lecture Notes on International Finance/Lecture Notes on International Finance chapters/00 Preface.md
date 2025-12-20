@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "0"
-linter-yaml-title-alias: "0"
+title: '0'
+linter-yaml-title-alias: '0'
+primary_tags:
+- course macroeconomics asset pricing
+- international macroeconomics finance connect
+- exchange rates capital
+secondary_tags:
+- preface international macroeconomics finance
+- issues international macroeconomics finance
+- international macroeconomics finance like
+- macroeconomics finance include trade
+- international macroeconomics finance subfield
+- levels issues international macroeconomics
+tags_extracted: '2025-12-18T01:43:40.765205'
 ---
 
 # 0

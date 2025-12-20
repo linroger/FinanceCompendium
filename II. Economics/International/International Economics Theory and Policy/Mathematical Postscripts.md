@@ -1,11 +1,27 @@
 ---
 aliases: Mathematical Postscripts
-tags:
-key_concepts:
-parent_directory: "[[International Economics  Theory and Policy]]"
+tags: null
+key_concepts: null
+parent_directory: '[[International Economics  Theory and Policy]]'
 cssclasses: academia
-title: "Mathematical Postscripts"
+title: Mathematical Postscripts
 linter-yaml-title-alias: Mathematical Postscripts
+primary_tags:
+- factor prices cost production
+- labor unit output curvature
+- mathematical postscripts
+- cost capital labor inputs
+secondary_tags:
+- equations factor proportions model
+- labor factor price equations
+- production explained chapter mathematical
+- capital labor factors production
+- infinitesimal change capital labor
+- effect relative quantities capital
+- diversification postscript develops model
+- coefficients chosen minimize capital
+- production cost equation 5p
+tags_extracted: '2025-12-18T00:48:46.223614'
 ---
 
 # Mathematical Postscripts

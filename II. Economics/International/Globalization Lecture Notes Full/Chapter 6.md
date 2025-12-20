@@ -1,11 +1,27 @@
 ---
 aliases: Intermediate Input Trade and Offshoring
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 6: Intermediate Input Trade and Offshoring"
+title: 'Chapter 6: Intermediate Input Trade and Offshoring'
 linter-yaml-title-alias: Intermediate Input Trade and Offshoring
+primary_tags:
+- drink final consumption
+- global supply chain coffee
+- foreign sourced intermediate inputs
+- incomes let start coffee
+secondary_tags:
+- trade offshoring just cup
+- explain trade intermediate
+- coffee developed countries roughly
+- harvest beans coffee traded
+- stages intermediate production offshoring
+- goods exported
+- assumptions classic trade theory
+- offshoring costs
+- higher growers countries theory
+tags_extracted: '2025-12-18T00:30:14.992409'
 ---
 
 # Chapter 6

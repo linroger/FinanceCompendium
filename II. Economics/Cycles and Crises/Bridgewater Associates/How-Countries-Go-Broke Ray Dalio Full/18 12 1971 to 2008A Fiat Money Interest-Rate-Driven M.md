@@ -1,9 +1,26 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 18_12_1971_to_2008A_Fiat_Money_Interest-Rate-Driven_M
+primary_tags:
+- rate changes
+- last two short-term debt cycles
+- most important differences
+- early 1980s
+secondary_tags:
+- mp1 monetary era
+- 1979-82 monetary policy changes
+- declining inflation
+- debt/economic crises
+- cpi inflation rate
+- 1970s interest rates
+- immediate inflationary effects
+- classic debt busts
+- (i.e., inflation
+tags_extracted: '2025-12-18T18:03:52.970596'
+tags_method: max_quality_v1
 ---
 
 # 18_12_1971_to_2008A_Fiat_Money_Interest-Rate-Driven_M

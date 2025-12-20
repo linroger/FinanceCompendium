@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Global Imbalances and the Exorbitant Privilege
 linter-yaml-title-alias: Global Imbalances and the Exorbitant Privilege
+primary_tags:
+- capital flow dynamics reserve
+- asymmetry international financial vs
+- accounts open allow risk
+secondary_tags:
+- global imbalances exorbitant privilege
+- global financial markets
+- equilibrium allocations exchange rate
+- monetary core periphery structure
+- exchange rate insurance view
+- centrality global financial
+tags_extracted: '2025-12-18T01:44:51.673994'
 ---
 
 # Global Imbalances and the Exorbitant Privilege

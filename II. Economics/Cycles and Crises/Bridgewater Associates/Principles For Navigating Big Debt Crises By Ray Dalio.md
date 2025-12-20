@@ -1,13 +1,47 @@
 ---
 aliases:
-  - Big Debt Crises
-  - Archetypal Big Debt Cycle
-tags:
-key_concepts:
+- Big Debt Crises
+- Archetypal Big Debt Cycle
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: "Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt Cycle"
-linter-yaml-title-alias: "Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt Cycle"
+title: 'Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt
+  Cycle'
+linter-yaml-title-alias: 'Principles For Navigating Big Debt Crises - Part 1: The
+  Archetypal Big Debt Cycle'
+primary_tags:
+- debt cycle archetypal deflationary
+- rates dangerous currency dynamic
+- april 1921 inflation germany
+- home price gains
+- wealth depression normal recessions
+- principles navigating big debt
+- march 13 daily observations
+- mortgages rose quickly subprime
+secondary_tags:
+- march 13 subprime
+- currency weakness causes inflation
+- cycles debt crises
+- debt cycles existed long
+- debt crisis template archetypal
+- 1931 1932 federal reserve
+- debt cycle bubble
+- currency borrowing stronger currency
+- reinforcing wealth falls
+- consumption borrowed mortgages
+- economic conditions currency defense
+- amcs steps restructure debt
+- report rise bad mortgage
+- credit growth supervisors took
+- 1922 expectations reparation
+- money undermine demand currency
+- banks hoover administration
+- home loans sell investors
+- weakness money leaves
+- mortgages grabbing headlines
+- debts summarized situation march
+tags_extracted: '2025-12-18T00:05:35.069870'
 ---
 
 Principles

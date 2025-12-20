@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Appendix A
 linter-yaml-title-alias: Appendix A
+primary_tags:
+- proper combinatorial argument
+- induction a.3.1 principle
+- some subsets
+- a.1 sets a.1.1
+secondary_tags:
+- set builder notation
+- a.1.4 set
+- some sets
+- two different sets
+- finite sets if
+- other sets
+- a.1.4 power set
+- indexed set operations
+- any mathematical statement
+tags_extracted: '2025-12-18T17:56:25.850818'
+tags_method: max_quality_v1
 ---
 
 # Appendix A

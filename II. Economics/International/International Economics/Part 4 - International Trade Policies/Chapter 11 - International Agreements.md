@@ -1,12 +1,33 @@
 ---
 aliases:
-  - International Agreements - Trade, Labor, and the Environment
-tags:
-key_concepts:
+- International Agreements - Trade, Labor, and the Environment
+tags: null
+key_concepts: null
 parent_directory: Part 4 - International Trade Policies
 cssclasses: academia
 title: Chapter 11 - International Agreements - Trade, Labor, and the Environment
-linter-yaml-title-alias: Chapter 11 - International Agreements - Trade, Labor, and the Environment
+linter-yaml-title-alias: Chapter 11 - International Agreements - Trade, Labor, and
+  the Environment
+primary_tags:
+- tariff offset production externality
+- social gain free trade
+- world trade organization seattle
+- free trade supply mexico
+- asia example importing auto
+secondary_tags:
+- protesters seattle international agreements
+- production externality negative
+- cost externality free trade
+- negative consumption externalities addition
+- wto protests environment
+- agreements environment rulings wto
+- trade reduces externality compared
+- agreements labor issues international
+- labor environment seattle riot
+- reflects social cost externality
+- wto environmentalists
+- trade labor environment
+tags_extracted: '2025-12-18T00:39:48.518504'
 ---
 
 # International Agreements: Trade, Labor, and the Environment

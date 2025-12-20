@@ -1,3 +1,26 @@
+---
+primary_tags:
+- resources heckscher ohlin model
+- world effective labor compared
+- sloping foreign import
+- united states accounted wages
+- exports exchange computers equilibrium
+secondary_tags:
+- trade equilibrium trade triangle
+- trade figure equilibrium relative
+- labor united states abundance
+- labor abundance share gdp
+- international trade goods assumption
+- countries population figure labor
+- computers free trade determined
+- trade countries using heckscher
+- labor share factor
+- worldwide wages exceeds share
+- free trade equilibrium lies
+- labor compared economy
+tags_extracted: '2025-12-18T00:38:05.189988'
+---
+
 # Trade and Resources: the Heckscher-ohlin Model
 
 God did not bestow all products upon all parts of the earth, but distributed His gifts over different regions, to the end that men might cultivate a social relationship because one would have need of the help of another. And so He called commerce into being, that all men might be able to have common enjoyment of the fruits of the earth, no matter where produced.

@@ -1,22 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: []
+tags: [futures_trading, hedging_strategies, derivatives, risk_management, commodity_futures]
+key_concepts: [futures_contracts, hedging, basis_risk, margin_requirements, performance_bonds]
+parent_directory: "VI. Derivatives"
 cssclasses: academia
-title: "8"
-linter-yaml-title-alias: "8"
+title: "Chapter 08 - An Introduction to Futures Trading and Hedging Using Futures"
 ---
 
-Chapter Title: An introduction to futures trading and hedging using futures
+# Chapter 08 - An Introduction to Futures Trading and Hedging Using Futures
 
-Book Title: Essentials of Financial Management
+**Book Title:** Essentials of Financial Management
 
-# 8
-
-# An introduction to futures trading and hedging using futures
-
-# 8.1 Introduction to futures
+## 8.1 Introduction to futures
 
 In section 7.2 we covered forward contracts that allowed a company to remove exchange-rate risk by agreeing a price now for delivery (or receipt) in the future. These contracts are traded over the counter and are a private transaction between the company and the bank. Now imagine if a company had agreed to buy a currency at a certain price and the exchange rate had moved in an advantageous direction. The forward contract could be considered to have value, but it is impossible to release this value. Futures contracts solve this problem.
 
@@ -36,7 +31,7 @@ At the time of writing, the data for gold for the available contracts were:
 
 That is, trading takes place in the current month (December 2015), the next two calendar months (January and February 2016) and any April and any June.
 
-Hence if you went long on the December 2015 contract at a price of  \$1,062.4 per troy ounce, you would acquire the obligation to buy 100 troy ounces of gold on the delivery date. If you went short you would acquire the obligation to sell 100 troy ounces of gold (of minimum 995 fineness) at a price of\$ 1,062.4 per troy ounce by the delivery date. Note that the largest volume is for the contract within the February, April, August and October cycle.
+Hence if you went long on the December 2015 contract at a price of  \$1,062.4 per troy ounce, you would acquire the obligation to buy 100 troy ounces of gold on the delivery date. If you went short you would acquire the obligation to sell 100 troy ounces of gold (of minimum 995 fineness) at a price of \$1,062.4 per troy ounce by the delivery date. Note that the largest volume is for the contract within the February, April, August and October cycle.
 
 The furthest contract maturity in December 2015 was for the contract expiring in December 2021, that is, 72 months (6 years) away.
 
@@ -59,18 +54,18 @@ It would be rather clumsy if investor A had to deal directly with investor B, si
 If in the example above the corn futures positions are established at 350 cents per bushel and the price moved to 400 cents per bushel, then the profit/loss facing investor A and B would be:
 
 $$
-\text {I n v e s t o r A :} 1 0 \times 5, 0 0 0 \times [ 4 0 0 - 3 5 0 ] / 1 0 0 = + \$ 2 5, 0 0 0
+\text{Investor A: } 10 \times 5,000 \times [400 - 350] / 100 = +\$25,000
 $$
 
 $$
-\text {I n v e s t o r B :} - 1 0 \times 5, 0 0 0 \times [ 4 0 0 - 3 5 0 ] / 1 0 0 = - \$ 2 5, 0 0 0
+\text{Investor B: } -10 \times 5,000 \times [400 - 350] / 100 = -\$25,000
 $$
 
 It follows that investor A's receiving their profit is dependent upon investor B. In order to guarantee fulfilment of these obligations, futures traders are required to deposit a performance bond, more commonly known as margin. There are three different types of margin: initial margin, maintenance margin and variation margin. The initial margin is an amount, per contract, that must be deposited when a futures contract is instigated.
 
-At the end of each day, the profits/losses for each futures position are calculated. This in turn will change the balance of the margin account. The process of calculating the daily profit or loss on a futures position is known as "marking to market". If you have gone long (bought) a futures contract at a price  $\mathsf{P}(0)$ , then at the end of the day there will be a positive or negative cash flow to your account in the amount of:
+At the end of each day, the profits/losses for each futures position are calculated. This in turn will change the balance of the margin account. The process of calculating the daily profit or loss on a futures position is known as "marking to market". If you have gone long (bought) a futures contract at a price $\mathsf{P}(0)$, then at the end of the day there will be a positive or negative cash flow to your account in the amount of:
 
-[P(1)-P(0)] x face value of the contract where  $P(1)$  is the settlement price at the end of the trading day.
+[P(1)-P(0)] x face value of the contract where $P(1)$ is the settlement price at the end of the trading day.
 
 If you go short (sell), the cash flows are the reverse of those above.
 
@@ -84,11 +79,11 @@ $$
 
 If, via the marking to market process, the margin account falls below the maintenance margin level, then investors are required to top the margin account up to the initial margin level. The amount of cash paid is referred to as variation margin.
 
-Each corn contract is for 5,000 bushels, which at 350 cents per bushel equates to  \$17,500. With initial margin set at\$ 850, for speculators, this makes the initial margin equal to about 5\%, which makes speculation using futures extremely attractive.
+Each corn contract is for 5,000 bushels, which at 350 cents per bushel equates to  \$17,500. With initial margin set at \$850, for speculators, this makes the initial margin equal to about 5\%, which makes speculation using futures extremely attractive.
 
 # Example
 
-Assume you are a speculator and on 2 October 2017 you go long (i.e. buy) ten December 2017 gold futures contracts at an opening price of  \$1,275.8 per troy ounce. Each contract has a face value of 100 troy ounces. There is an initial margin of\$ 4,900 per contract.
+Assume you are a speculator and on 2 October 2017 you go long (i.e. buy) ten December 2017 gold futures contracts at an opening price of  \$1,275.8 per troy ounce. Each contract has a face value of 100 troy ounces. There is an initial margin of \$4,900 per contract.
 
 Over the next few days the settlement prices are:
 
@@ -113,7 +108,7 @@ Due to the accumulated losses, the margin account, before any variation margin p
 Accumulated profit can be found using the initial price and the last price:
 
 $$
-1 0 \times 1 0 0 \times [ \$ 1, 2 8 4. 6 0 - \$ 1, 2 7 5. 8 0 ] = \$ 8, 8 0 0.
+10 \times 100 \times [\$1,284.60 - \$1,275.80] = \$8,800.
 $$
 
 Note the final margin balance equals the initial margin plus accumulated profit and loss plus variation margin:
@@ -175,64 +170,63 @@ If a company was using this contract to hedge a change in the price of cotton an
 
 # 8.6 Basis
 
-If the spot asset is sold or purchased at a date that differs from the expiration date, then the price on the futures contract will not necessarily be equal to the spot price. The difference between the futures price and the spot price is called the basis: basis  $=$  spot price - futures price
+If the spot asset is sold or purchased at a date that differs from the expiration date, then the price on the futures contract will not necessarily be equal to the spot price. The difference between the futures price and the spot price is called the basis: basis $=$ spot price - futures price
 
 The basis tends to narrow as expiration nears, converging to zero at the delivery date.
 
 Under normal conditions, the futures price is higher than the cash price. Why? The futures price should incorporate the costs that the seller would incur for buying the commodity and storing it until delivery. These costs are called costs-of-carry.
 
-The fair price of a future is then cash price  $+$  cost of carry.
+The fair price of a future is then cash price $+$ cost of carry.
 
 If futures are fairly priced the basis will be negative, a position known as contango.
 
 In exceptional circumstances, the opposite situation might occur and the cash price would be higher than the futures price. For example, this could be due to temporary scarcity of a commodity in the spot market causing an increase in the spot price. This situation is known as backwardation.
 
-Consider the situation where a company knows that an asset will be sold, in the spot market, at some future date,  $t_1$ . In order to mitigate the risk of a price fall, the company instigates a short futures position at the futures price,  $F_0$ . If the resultant selling price is  $S_1$  and the corresponding futures prices is  $F_1$  then the net revenue from selling this asset is:
+Consider the situation where a company knows that an asset will be sold, in the spot market, at some future date, $t_1$. In order to mitigate the risk of a price fall, the company instigates a short futures position at the futures price, $F_0$. If the resultant selling price is $S_1$ and the corresponding futures prices is $F_1$ then the net revenue from selling this asset is:
 
 $$
-\mathrm {S} _ {1} + \left[ - \left(\mathrm {F} _ {1} - \mathrm {F} _ {0}\right) \right]
+\mathrm{S}_1 + \left[ - \left(\mathrm{F}_1 - \mathrm{F}_0\right) \right]
 $$
 
-If we define the basis at time  $t_1$  as:
-
-$$ b _ {1} = S _ {1} - F _ {1}
-$$ then the net revenue can be expressed as:
-
+If we define the basis at time $t_1$ as:
 
 $$
-
-S _ {1} + \left(F _ {0} - F _ {1}\right) = F _ {0} + b _ {1}
+b_1 = S_1 - F_1
+$$
+then the net revenue can be expressed as:
 
 $$
+S_1 + \left(F_0 - F_1\right) = F_0 + b_1
+$$
 
-The initial futures, price,  $F_0$ , is known when the hedge is instigated, but  $b_1$  is not. Herein lies the uncertainty surrounding hedging and the so-called basis risk.
+The initial futures, price, $F_0$, is known when the hedge is instigated, but $b_1$ is not. Herein lies the uncertainty surrounding hedging and the so-called basis risk.
 
 # Example
 
-Returning to the data in the previous wheat example, assume that the initial spot and futures prices are not equal. Previously we assumed that both the spot and futures prices were 461 cents per bushel. Now we will assume that the spot price is lower than the futures price at 420 cents per bushel. The basis is then -41 cents per bushel and we are in a situation of contango. If the spot price falls to 340 cents per bushel and the futures price drops to 350 cents per bushel, then we have the following outcome: exposure  $= {50},{000}$  bushels,face value  $= 5,{000}$  bushels
+Returning to the data in the previous wheat example, assume that the initial spot and futures prices are not equal. Previously we assumed that both the spot and futures prices were 461 cents per bushel. Now we will assume that the spot price is lower than the futures price at 420 cents per bushel. The basis is then -41 cents per bushel and we are in a situation of contango. If the spot price falls to 340 cents per bushel and the futures price drops to 350 cents per bushel, then we have the following outcome: exposure $= 50,000$ bushels, face value $= 5,000$ bushels
 
 
-number of contracts  $= 10$
+number of contracts $= 10$
 
-$S_0 = 420$  cents per bushel
+$S_0 = 420$ cents per bushel
 
-$F_{0} = 461$  cents per bushel
+$F_0 = 461$ cents per bushel
 
-$S_{1} = 340$  cents per bushel
+$S_1 = 340$ cents per bushel
 
-$F_{1} = 350$  cents per bushel
+$F_1 = 350$ cents per bushel
 
-Therefore  $b_{1} = -10$  cents  $= -\$ 0.1$
+Therefore $b_1 = -10$ cents $= -\$0.1$
 
-Revenue from selling wheat at  $S_{1}$ :
+Revenue from selling wheat at $S_1$:
 
-50,000 bushels × 340 cents per bushel = \$170,000 profit from futures position  $= -10 \times 5,000 \times [350 - 461] / 100 = \$ 55,500$
+50,000 bushels × 340 cents per bushel = \$170,000 profit from futures position $= -10 \times 5,000 \times [350 - 461] / 100 = \$55,500$
 
 
 net revenue = \$225,500 net revenue per bushel = \$4.51 per bushel
 
 
-Or F_0 + b_1 = \4.61 + (-\0.1) = \$4.51
+Or $F_0 + b_1 = \$4.61 + (-\$0.1) = \$4.51$
 
 Exposure = 50,000 bushels
 
@@ -242,38 +236,38 @@ The spreadsheet for this exercise can be found here. Please ensure you click on 
 
 Note further that basis can lead to an improvement or worsening of a hedge. In our example it is worsened by 10 cents, but if the basis is reversed when the hedge is closed, and the market goes into backwardation, then the revenue would be increased.
 
-Consider instead a situation where a company knows it will buy an asset at time  $t_1$  and in order to avoid a rise in costs takes out a long futures position at time  $t_1$ . The price paid is  $S_1$  and the profit on the futures position is then  $(F_1 - F_0)$ .
+Consider instead a situation where a company knows it will buy an asset at time $t_1$ and in order to avoid a rise in costs takes out a long futures position at time $t_1$. The price paid is $S_1$ and the profit on the futures position is then $(F_1 - F_0)$.
 
 The effective price obtained for the asset with hedging is therefore:
 
-$S_{2} - (F_{1} - F_{0}) = F_{0} + b_{1}$  (note we subtract the profit on the futures position)
+$S_1 - (F_1 - F_0) = F_0 + b_1$ (note we subtract the profit on the futures position)
 
 # Example
 
-Returning to the data in the oil refinery example, now assume that the initial spot and futures prices are not equal. Previously we assumed that both the spot and futures prices were  \$49.92 per barrel. Now we will assume that the spot price is lower than the futures price at\$ 49.42 per barrel. The basis is then -\$0.50 per barrel and we are in a situation of contango. If the futures price rises to \$60 per barrel, and the spot price rises to \$59.80 per barrel, then we have the following outcome: exposure  $= 100,000$  barrels, face value  $= 1,000$  barrels
+Returning to the data in the oil refinery example, now assume that the initial spot and futures prices are not equal. Previously we assumed that both the spot and futures prices were \$49.92 per barrel. Now we will assume that the spot price is lower than the futures price at \$49.42 per barrel. The basis is then -\$0.50 per barrel and we are in a situation of contango. If the futures price rises to \$60 per barrel, and the spot price rises to \$59.80 per barrel, then we have the following outcome: exposure $= 100,000$ barrels, face value $= 1,000$ barrels
 
 
-number of contracts  $= 100$
+number of contracts $= 100$
 
-$S_{0} = 49.42$  per barrel
+$S_0 = 49.42$ per barrel
 
-F0 = 49.92 \$ per barrel
+$F_0 = \$49.92$ per barrel
 
-$S_{1} = 59.80$  per barrel
+$S_1 = \$59.80$ per barrel
 
-$F_{1} = 60$  per barrel
+$F_1 = \$60$ per barrel
 
-Therefore  b_{1} = -\ 0.3  per barrel
+Therefore $b_1 = -\$0.3$ per barrel
 
-Cost of buying crude oil at  $S_{1}$ :
+Cost of buying crude oil at $S_1$:
 
-100,000 barrels x \$59.80 per barrel = \$5,980,000 profit from futures position  $= + 100 \times 1,000 \times [60 - 49.92] = \$ 1,008,000$
+100,000 barrels x \$59.80 per barrel = \$5,980,000 profit from futures position $= +100 \times 1,000 \times [60 - 49.92] = \$1,008,000$
 
 
 net cost = \$4,972,000 net cost per barrel = \$49.72
 
 
-Or F_0 + b_1 = \49.92 + (-\0.2) = \$49.72.
+Or $F_0 + b_1 = \$49.92 + (-\$0.2) = \$49.72$.
 
 <table><tr><td colspan="2">Exposure = 100,000 barrels</td></tr><tr><td>N = 100</td><td>F0 = \$49.92 per barrel</td></tr><tr><td>FV = 1,000 barrels</td><td>S0 = \$49.42 per barrel</td></tr><tr><td></td><td>b0 = -\$0.5 per barrel</td></tr><tr><td></td><td>F1 = \$60 per barrel</td></tr><tr><td></td><td>S1 = \$59.80 per barrel</td></tr><tr><td></td><td>b1 = -\$0.2 per barrel</td></tr><tr><td>Spot cost</td><td>\$5,980,000</td></tr><tr><td>Profit/Loss from futures position</td><td>\$1,008,000</td></tr><tr><td>Net cost</td><td>\$4,972,000</td></tr><tr><td>Net cost (per barrel)</td><td>\$49.72</td></tr><tr><td>Net cost (per barrel)</td><td>49.72 using formula</td></tr></table>
 
@@ -284,9 +278,7 @@ The spreadsheet for this exercise can be found here. Please ensure you click on 
 In the previous two examples we have considered minimising net cost or maximising net revenue as the aim of the hedge. An alternative outlook is to consider the hedge efficiency:
 
 $$
-
-H e d g e E f f i c i e n c y = \left| \frac {G a i n o r L o s s o n f u t u r e s p o s i t i o n}{L o s s o r G a i n o n s p o t p o s i t i o n} \right|
-
+\text{Hedge Efficiency} = \left| \frac{\text{Gain or Loss on futures position}}{\text{Loss or Gain on spot position}} \right|
 $$
 
 It is usual to refer to the efficiency of a hedge as a percentage. The vertical lines indicate absolute values. Effectively we are measuring how much we were able to balance the scales shown earlier.
@@ -294,48 +286,41 @@ It is usual to refer to the efficiency of a hedge as a percentage. The vertical 
 In the earlier wheat example, the initial spot price was 420 cents per bushel but the actual spot price was 340 cents per bushel. Had we been able to sell the wheat at 420 cents we would have realised revenue of \$210,000, whereas we actually realised \$170,000. In addition, the profit on our futures position was 55,500. It follows that the hedge efficiency is:
 
 $$
-
-H e d g e E f f i c i e n c y = \left| \frac {+ \ 55,500}{\ 170,000 - \$ 210,000} \right| = \frac {\$ 55.000}{-\$ 40,000} = 138.75 \%
-
+\text{Hedge Efficiency} = \left| \frac{+\$55,500}{\$170,000 - \$210,000} \right| = \frac{\$55,000}{-\$40,000} = 138.75\%
 $$
 
-Here the spot price fell from 420 cents per bushel to 340 cents per bushel, a fall of 80 cents, but the futures price fell from 461 cents per bushel to 350 cents per bushel, a fall of 111 cents. It is evident that the fall in the spot price was less than the fall in the futures price, which explains why the hedge efficiency is greater than  $100\%$ .
+Here the spot price fell from 420 cents per bushel to 340 cents per bushel, a fall of 80 cents, but the futures price fell from 461 cents per bushel to 350 cents per bushel, a fall of 111 cents. It is evident that the fall in the spot price was less than the fall in the futures price, which explains why the hedge efficiency is greater than $100\%$.
 
 Using our earlier notation, the hedge efficiency can also be found by the following equation:
 
 $$
-
-1 + \frac {\left(b _ {0} - b _ {1}\right)}{\left(S _ {1} - S _ {0}\right)} = 1 + \frac {\left(- 41 - (- 10)\right)}{(340 - 420)} = 1 + \frac {- 31}{- 80} = 138.75 \%
-
+1 + \frac{(b_0 - b_1)}{(S_1 - S_0)} = 1 + \frac{(-41 - (-10))}{(340 - 420)} = 1 + \frac{-31}{-80} = 138.75\%
 $$
 
 # Example
 
 Consider the case of a wheat farmer who anticipates selling 50,000 bushels of wheat in March. The face value of wheat futures contracts traded on the CME is 5,000 bushels. What is the hedge efficiency using the following data?
 
-initial futures price  $= 420$  cents per bushel initial basis  $= +15$  cents per bushel
+initial futures price $= 420$ cents per bushel initial basis $= +15$ cents per bushel
 
 
-final futures price  $= 350$  cents per bushel final basis  $= 0$  cents per bushel
+final futures price $= 350$ cents per bushel final basis $= 0$ cents per bushel
 
 
 $$
-
-F _ {0} = 4 2 0, S _ {0} = b _ {0} + F _ {0} = 1 5 + 4 2 0 = 4 3 5
-
+F_0 = 420, S_0 = b_0 + F_0 = 15 + 420 = 435
 $$
 
 $$
-
-F _ {1} = 3 5 0, S _ {1} - b _ {1} + F _ {0} = 3 5 0 + 0 = 3 5 0
-
-$$ hedge efficiency  $= 1 + (15 - 0) / (350 - 435) = 1 + (15 / -85) = 82.35\%$
+F_1 = 350, S_1 = b_1 + F_1 = 350 + 0 = 350
+$$
+hedge efficiency $= 1 + (15 - 0) / (350 - 435) = 1 + (15 / -85) = 82.35\%$
 
 # Alternatively: expected revenue = 217,500
 
-actual revenue = 175,000 change in revenue = -\42,500
+actual revenue = 175,000 change in revenue = -\$42,500
 
-profit on futures position = 35,000 hedge efficiency = \ 35,000 / \ 42,500 = 82.35\%
+profit on futures position = 35,000 hedge efficiency = \$35,000 / \$42,500 = 82.35\%
 
 # Activity 8.1
 
@@ -357,20 +342,20 @@ It is evident from the above that there exists a positive relationship between t
 
 The r-squared value of 0.688 indicates how good a "fit" the trendline is. It is apparent that the majority of circles are in the north-east and south-west quadrants. If we take the square root of the r-squared figure we obtain the correlation between the two series as 0.829, which indicates strong positive correlation. It follows that to hedge the price risk of a rise in the price of jet kerosene, an airline could buy crude oil futures. Then, as the price of crude oil goes up, it will profit on its futures contracts and this will offset the associated increase in the price of jet kerosene.
 
-On 29 July 2016, the price of a Brent crude oil futures contract expiring in September 2017 (it actually expired in July 2017) was  \$48.17/bl. The price of jet kerosene was\$ 400 per metric tonne. Each crude oil futures contract is worth 1,000 barrels of oil. An airline would therefore need to buy 793 contracts (i.e. 793,000/1,000).
+On 29 July 2016, the price of a Brent crude oil futures contract expiring in September 2017 (it actually expired in July 2017) was \$48.17/bl. The price of jet kerosene was \$400 per metric tonne. Each crude oil futures contract is worth 1,000 barrels of oil. An airline would therefore need to buy 793 contracts (i.e. 793,000/1,000).
 
 If the price of crude oil is higher in July 2017, then the airline will gain on the futures contracts. However, the price of jet kerosene will also have risen. Ideally, the increased cost of jet kerosene will be offset by a profit on the futures position. Alternatively, if the price of crude oil is lower in July 2017, then the airline will suffer a loss on the futures contracts. However, this will be cancelled out by a gain in buying the jet kerosene at a lower price. If crude oil and jet kerosene move in a 1-for-1 manner, then the increased (reduced) costs will be exactly cancelled out by a gain (loss) on the futures contracts.
 
-On 31 July when the 2017 contract expired, the price of jet kerosene was  \$529 per metric tonne and the price of the crude oil future was\$ 52.65 per barrel.
+On 31 July when the 2017 contract expired, the price of jet kerosene was \$529 per metric tonne and the price of the crude oil future was \$52.65 per barrel.
 
 The outcome can then be evaluated as follows:
 
 <table><tr><td colspan="2">Exposure = 100,000 metric tonnes/
 793,000 barrels</td></tr><tr><td colspan="2">FV = 1,000 barrels</td></tr><tr><td>N = 793</td><td>793</td></tr><tr><td>Expected cost (as of 29 July 2016)</td><td>\$40,000,000</td></tr><tr><td>Actual cost (as of 31 July 2017)</td><td>\$52,900,000</td></tr><tr><td>Change in cost</td><td>\$12,900,000</td></tr><tr><td>P/L on future</td><td>\$3,552,640</td></tr><tr><td>Hedge efficiency</td><td>27.54\%</td></tr><tr><td>Effective cost</td><td>\$49,347,360</td></tr><tr><td>Effective cost (per barrel)</td><td>\$62.23</td></tr></table>
 
-To use the basis analysis requires more work, as the spot price is in  per metric tonne but the future is in  per barrel. But if you divide the spot price by 7.93 then you can verify the effective price ( per bl) as  F_0 + b_1  and the hedge efficiency as  1 + \left[ \frac{(b_0 - b_1)}{S_1 - S_0} \right]
+To use the basis analysis requires more work, as the spot price is in \$ per metric tonne but the future is in \$ per barrel. But if you divide the spot price by 7.93 then you can verify the effective price (\$ per bl) as $F_0 + b_1$ and the hedge efficiency as $1 + \left[ \frac{(b_0 - b_1)}{S_1 - S_0} \right]$
 
-<table><tr><td>S0 = \$50.44 per barrel</td></tr><tr><td>F0 = \$48.17 per barrel</td></tr><tr><td>b0 = \$2.27 per barrel</td></tr><tr><td>S1 = \$66.71 per barrel</td></tr><tr><td>F1 = \$52.65 per barrel</td></tr><tr><td>b1 = \$14.06 per barrel</td></tr><tr><td>Effective cost = F0 + b1 = 62.23 per barrel</td></tr><tr><td>Hedge efficiency = 1 = [(b0 - b1)/(S1 - S0)] = 27.54\%</td></tr></table>
+<table><tr><td>$S_0 = \$50.44$ per barrel</td></tr><tr><td>$F_0 = \$48.17$ per barrel</td></tr><tr><td>$b_0 = \$2.27$ per barrel</td></tr><tr><td>$S_1 = \$66.71$ per barrel</td></tr><tr><td>$F_1 = \$52.65$ per barrel</td></tr><tr><td>$b_1 = \$14.06$ per barrel</td></tr><tr><td>Effective cost = $F_0 + b_1 = \$62.23$ per barrel</td></tr><tr><td>Hedge efficiency = $1 + [(b_0 - b_1)/(S_1 - S_0)] = 27.54\%$</td></tr></table>
 
 This example illustrates that hedging in the real world is much more complicated than our stylised wheat and crude oil examples presented earlier. The undoing of the jet kerosene hedge was that rather than narrowing, the basis widened to 14.06 per barrel.
 

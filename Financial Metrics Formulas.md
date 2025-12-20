@@ -1,523 +1,278 @@
-### Total Shares Outstanding
+---
+title: Financial Metrics Formulas
+tags:
+  - financial_metrics
+  - accounting_ratios
+  - corporate_finance
+  - valuation
+key_concepts:
+  - equity_valuation_metrics
+  - financial_ratio_analysis
+  - enterprise_value_calculations
+parent_directory: FinanceCompendium
+cssclasses: academia
+---
 
-Total Shares Outstanding = Common Shares Outstanding is defined as the Number of Common Shares issued excluding Common shares held in Treasury.
+# Financial Metrics Formulas
 
-### Weighted Avg. Shares Outstanding
+**Total Shares Outstanding** - Common Shares Outstanding is defined as the Number of Common Shares issued excluding Common shares held in Treasury.
 
-Weighted Avg. Shares Outstanding = Basic Weighted Average Shares Outstanding represents the number of basic weighted average shares outstanding during the period.
+**Weighted Avg. Shares Outstanding** - Basic Weighted Average Shares Outstanding represents the number of basic weighted average shares outstanding during the period.
 
-### Weighted Avg. Shares Outstanding Dil.
+**Weighted Avg. Shares Outstanding Dil.** - Diluted Weighted Average Shares Outstanding represents the number of diluted weighted average shares outstanding during the period. 
 
-Weighted Avg. Shares Outstanding Dil = Diluted Weighted Average Shares Outstanding represents the number of diluted weighted average shares outstanding during the period. 
+**Return on Total Capital** - NOPAT / Average Total Capital for the period, where Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
 
-### Return on Total Capital
+**Fixed Asset Turnover** - Total Revenues / Average Net Property, Plant and Equipment for the period.
 
-Return on Total Capital = NOPAT / Average Total Capital for the period, where Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
+**Asset Turnover** - Total Revenues / Average Total Assets for the period.
 
-### Fixed Asset Turnover
+**Receivables Turnover** - Total Revenues / Average Accounts Receivable, Total for the period.
 
-Fixed Asset Turnover = Total Revenues / Average Net Property, Plant and Equipment for the period.
+**Days Sales Outstanding** - $\text{Average Accounts Receivable, Total} / (\text{Revenues} \times \text{Number of Days in the Period})$
 
-### Asset Turnover
+**Inventory Turnover** - Cost of Goods Sold, Total / Average Inventory for the period.
 
-Asset Turnover = Total Revenues / Average Total Assets for the period.
+**Days Inventory Outstanding** - $\text{Average Inventory} / (\text{Cost of Goods Sold, Total} \times \text{Number of Days in the Period})$
 
-### Receivables Turnover
+**Days Payables Outstanding** - $\text{Average Accounts Payable, Total} / [(\text{Cost of Goods Sold, Total} + \text{Inventory}_t - \text{Inventory}_{t-1}) \times \text{Number of Days in the Period}]$
 
-Receivables Turnover = Total Revenues / Average Accounts Receivable, Total for the period.
+**Cash Conversion Cycle** - $\text{Days Inventory Outstanding} + \text{Days Sales Outstanding} - \text{Days Payables Outstanding}$
 
-### Days Sales Outstanding
+**Debt / Equity** - $\text{Total Debt} / \text{Total Equity}$
 
-Days Sales Outstanding = Average Accounts Receivable, Total / (Revenues * Number of Days in the Period)
+**Net Debt / EBITDA** - $\text{Net Debt} / \text{EBITDA (Standard Definition)}$
 
-### Inventory Turnover
+**Total Debt** - Total interest-bearing current and long-term debt and leases.
 
-Inventory Turnover = Cost of Goods Sold, Total / Average Inventory for the period.
+**Net Debt** - Total interest-bearing current and long-term debt and leases less cash and equivalents, short-term investments and marketable securities.
 
-### Days Inventory Outstanding
+**Current Ratio** - $\text{Total Current Assets} / \text{Total Current Liabilities}$
 
-Days Inventory Outstanding = Average Inventory / (Cost of Goods Sold, Total * Number of Days in the Period)
+**Quick Ratio** - $(\text{Total Cash And Short Term Investments} + \text{Accounts Receivable, Total} + \text{Finance Division Accounts Receivable} + \text{Finance Division Cash and Cash Equivalents} + \text{Finance Division Short Term Investments} + \text{Other Receivables}) / \text{Total Current Liabilities}$
 
-### Days Payables Outstanding
+**Total Debt / Capitalization** - $\text{Total Debt} / \text{Total Capital}$, where Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
 
-Days Payables Outstanding = Average Accounts Payable, Total / [(Cost of Goods Sold, Total + Inventory(t) - Inventory(t-1)) * Number of Days in the Period]
+**Long Term Debt / Capitalization** - $\text{Long-Term Debt} / \text{Total Capital}$, where Long-Term Debt equals the sum of Long-Term Debt, Long-Term Leases and Non-Current Finance Division Debt and Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
 
-### Cash Conversion Cycle
+**Long-Term Debt / Equity** - $\text{Long-Term Debt} / \text{Total Equity}$, where Long-Term Debt equals the sum of Long-Term Debt, Long-Term Leases and Non-Current Finance Division Debt.
 
-Cash Conversion Cycle = Days Inventory Outstanding + Days Sales Outstanding - Days Payables Outstanding
+**EBIT / Interest Expense** - $\text{EBIT} / \text{Interest Expense, Total}$
 
-### Debt / Equity
+**EBITDA / Interest Expense** - $\text{EBITDA (Standard Definition)} / \text{Interest Expense, Total}$
 
-Debt / Equity = Total Debt / Total Equity
+**(EBITDA - Capex) / Interest Expense** - $(\text{EBITDA (Standard Definition)} - \text{Capital Expenditure}) / \text{Interest Expense, Total}$
 
-### Net Debt / EBITDA 
+**Gross Profit Margin** - $\text{Gross Profit} / \text{Total Revenues}$
 
-Net Debt / EBITDA = Net Debt / EBITDA (Standard Definition)
+**EBITDA Margin** - $(\text{EBIT} + \text{D\&A for EBITDA}) / \text{Total Revenues}$
 
-### Total Debt
+**Operating Margin** - $\text{EBIT} / \text{Total Revenues}$
 
-Total Debt = Total interest-bearing current and long-term debt and leases.
+**Net Profit Margin** - $\text{Net Income} / \text{Total Revenues}$
 
-### Net Debt
+**Revenue per Share** - $\text{Total Revenues} / \text{Basic Weighted Average Shares Outstanding}$
 
-Net Debt = Total interest-bearing current and long-term debt and leases less cash and equivalents, short-term investments and marketable securities.
+**EPS** - $\text{Net Income to Common Incl. Extra Items} / \text{Basic Weighted Average Shares Outstanding}$
 
-### Current Ratio
+**EPS Diluted** - $(\text{Diluted Net Income} + \text{Earnings Of Discontinued Operations} + \text{Extraordinary Item \& Accounting Change}) / \text{Diluted Weighted Average Shares Outstanding}$
 
-Current Ratio = Total Current Assets / Total Current Liabilities
+**FFO per Share** - FFO Per Share represents the FFO per share that is reported by the company.
 
-### Quick Ratio
+**Adjusted FFO per Share** - Adjusted FFO Per Share represents the adjusted FFO per share (AFFO) that is reported by the company.
 
-Quick Ratio = (Total Cash And Short Term Investments + Accounts Receivable, Total + Finance Division Accounts Receivable + Finance Division Cash and Cash Equivalents + Finance Division Short Term Investments + Other Receivables) / Total Current Liabilities
+**Book Value per Share** - $\text{Total Common Equity} / \text{Total Shares Outstanding on Balance Sheet Date}$
 
-### Total Debt / Capitalization
+**Tangible Book Value per Share** - $\text{Tangible Book Value} / \text{Total Shares Outstanding on Balance Sheet Date}$
 
-Total Debt / Capitalization = Total Debt / Total Capital, where Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
+**Cash per Share** - $\text{Cash and Equivalents} / \text{Total Shares Outstanding on Balance Sheet Date}$
 
-### Long Term Debt / Capitalization
+**Effective Tax Rate** - $\text{Income Tax Expense} / \text{EBT, Inc. Unusual Items}$
 
-Long Term Debt / Capitalization = Long-Term Debt / Total Capital, where Long-Term Debt equals the sum of Long-Term Debt, Long-Term Leases and Non-Current Finance Division Debt and Total Capital equals the sum of Total Preferred and Common Equity, Total Debt, and Minority Interests.
+**Total Employees** - $\text{Full Time Employees} + (\text{Part Time Employees} \times 0.5)$
 
-### Long-Term Debt / Equity
+**EBITDA** - $\text{EBIT} + \text{D\&A for EBITDA}$
 
-Long-Term Debt / Equity = Long-Term Debt / Total Equity, where Long-Term Debt equals the sum of Long-Term Debt, Long-Term Leases and Non-Current Finance Division Debt.
+**Unlevered Free Cash Flow** - EBIT * (1 - Statutory Tax Rate) + Depreciation & Amortization, Total + Amortization of Deferred Charges, Total - Capital Expenditure + Sale (Purchase) of Intangible Assets + Total Stock-Based Compensation - Amortization of Debt Issuance Costs - Change in Net Working Capital - Changes in Other Operating Activities, where Statutory Tax Rate = 23.5% on a combined basis.
 
-### EBIT / Interest Expense 
+**Levered Free Cash Flow** - EBIT * (1 - Statutory Tax Rate) - Interest Expense, Total * (1 - Statutory Tax Rate) + Depreciation & Amortization, Total + Amortization of Deferred Charges, Total - Capital Expenditure + Sale (Purchase) of Intangible Assets + Total Stock-Based Compensation - Change in Net Working Capital - Changes in Other Operating Activities, where Statutory Tax Rate = 23.5% on a combined basis.
 
-EBIT / Interest Expense = EBIT / Interest Expense, Total
+**NOPAT** - $\text{EBIT} \times (1 - \text{Effective Tax Rate})$, where Effective Tax Rate = Income Tax Expense / EBT, Inc. Unusual Items
 
-### EBITDA / Interest Expense
+**Market Cap** - Market Cap is based on the last close share price and the last close number of outstanding stocks.
 
-EBITDA / Interest Expense = EBITDA (Standard Definition) / Interest Expense, Total
+**Stock Price** - Stock Price is based on the last close share price.
 
-### (EBITDA - Capex) / Interest Expense
+**Total Enterprise Value (TEV)** - $\text{Market Capitalization} + \text{Book Value of Total Debt} + \text{Book Value of Preferred Stock} + \text{Book Value of Minority Interest} - \text{Cash \& Short Term Investments} - \text{Long Term Marketable Securities}$
 
-(EBITDA - Capex) / Interest Expense = (EBITDA (Standard Definition) - Capital Expenditure) / Interest Expense, Total
+**DPS** - Dividends Per Share (DPS) represents gross dividend per common share declared in the form of cash. This includes any cash dividends declared on various classes of common stock (i.e., Class A, Class B) that are listed.
 
-### Gross Profit Margin
+**Dividend Yield** - $(\text{Dividends Per Share (DPS)} / \text{Financial Period Share Price Close}) \times 100\%$
 
-Gross Profit Margin = Gross Profit / Total Revenues
+**Debt Paydown Yield** - $(\text{Total Debt Repaid} - \text{Total Debt Issued}) / \text{Last Close Market Cap}$
 
-### EBITDA Margin
+**Buyback Yield** - $(\text{Repurchase of Common Stock} - \text{Issuance of Common Stock}) / \text{Last Close Market Cap}$
 
-EBITDA Margin = (EBIT + D&A for EBITDA) / Total Revenues
+**Shareholder Yield** - $\text{Dividend Yield} + \text{Debt Paydown Yield} + \text{Buyback Yield}$
 
-### Operating Margin
+**Revenue 1Y Growth** - $\text{Total Revenues}_t / \text{Total Revenues}_{t-1} - 1$
 
-Operating Margin = EBIT / Total Revenues
+**Revenue 3Y CAGR** - $(\text{Total Revenues}_t / \text{Total Revenues}_{t-3})^{1/3} - 1$
 
-### Net Profit Margin
+**Revenue 5Y CAGR** - $(\text{Total Revenues}_t / \text{Total Revenues}_{t-5})^{1/5} - 1$
 
-Net Profit Margin = Net Income / Total Revenues
+**Revenue 10Y CAGR** - $(\text{Total Revenues}_t / \text{Total Revenues}_{t-10})^{1/10} - 1$
 
-### Revenue per Share
+**Diluted EPS 1Y Growth** - $\text{Diluted EPS}_{t} / \text{Diluted EPS}_{t-1} - 1$ (Continuing Operations)
 
-Revenue per Share = Total Revenues / Basic Weighted Average Shares Outstanding
+**Diluted EPS 3Y CAGR** - $(\text{Diluted EPS}_{t} / \text{Diluted EPS}_{t-3})^{1/3} - 1$ (Continuing Operations)
 
-### EPS
+**Diluted EPS 5Y CAGR** - $(\text{Diluted EPS}_{t} / \text{Diluted EPS}_{t-5})^{1/5} - 1$ (Continuing Operations)
 
-EPS = Net Income to Common Incl. Extra Items / Basic Weighted Average Shares Outstanding
+**Diluted EPS 10Y CAGR** - $(\text{Diluted EPS}_{t} / \text{Diluted EPS}_{t-10})^{1/10} - 1$ (Continuing Operations)
 
-### EPS Diluted
+**DPS 1Y Growth** - $\text{Dividends Per Share}_t / \text{Dividends Per Share}_{t-1} - 1$
 
-EPS Diluted = (Diluted Net Income + Earnings Of Discontinued Operations + Extraordinary Item & Accounting Change) / Diluted Weighted Average Shares Outstanding
+**DPS 3Y CAGR** - $(\text{Dividends Per Share}_t / \text{Dividends Per Share}_{t-3})^{1/3} - 1$
 
-### FFO per Share
+**DPS 5Y CAGR** - $(\text{Dividends Per Share}_t / \text{Dividends Per Share}_{t-5})^{1/5} - 1$
 
-FFO per Share = FFO Per Share represents the FFO per share that is reported by the company.
+**DPS 10Y CAGR** - $(\text{Dividends Per Share}_t / \text{Dividends Per Share}_{t-10})^{1/10} - 1$
 
-### Adjusted FFO per Share
+**Cash From Operations 1Y Growth** - $\text{Cash from Operations}_t / \text{Cash from Operations}_{t-1} - 1$
 
-Adjusted FFO per Share = Adjusted FFO Per Share represents the adjusted FFO per share (AFFO) that is reported by the company.
+**Cash From Operations 3Y CAGR** - $(\text{Cash from Operations}_t / \text{Cash from Operations}_{t-3})^{1/3} - 1$
 
-### Book Value per Share
+**Cash From Operations 5Y CAGR** - $(\text{Cash from Operations}_t / \text{Cash from Operations}_{t-5})^{1/5} - 1$
 
-Book Value per Share = Total Common Equity / Total Shares Outstanding on Balance Sheet Date
+**Cash From Operations 10Y CAGR** - $(\text{Cash from Operations}_t / \text{Cash from Operations}_{t-10})^{1/10} - 1$
 
-### Tangible Book Value per Share
+**Free Cash Flow** - $\text{Cash from Operations} - \text{Capital Expenditure}$
 
-Tangible Book Value per Share = Tangible Book Value / Total Shares Outstanding on Balance Sheet Date
+**Free Cash Flow Margin** - $(\text{Cash from Operations} - \text{Capital Expenditure}) / \text{Total Revenues}$
 
-### Cash per Share
+**Payout Ratio** - $(\text{Dividends Per Share (DPS)} / \text{Basic EPS from Continuing Operations}) \times 100\%$
 
-Cash per Share = Cash and Equivalents / Total Shares Outstanding on Balance Sheet Date
+**Payables Turnover** - $365 / \text{Average Days Payable Outstanding for the period}$.
 
-### Effective Tax Rate
+**Operating Cycle** - $\text{Days Sales Outstanding} + \text{Days Inventory Outstanding}$
 
-Effective Tax Rate = Income Tax Expense / EBT, Inc. Unusual Items
+**Cash Ratio** - $\text{Cash and Equivalents} / \text{Total Current Liabilities}$
 
-### Total Employees
+**Debt Ratio** - $\text{Total Debt} / \text{Total Assets}$
 
-Total Employees = Full Time Employees + (Part Time Employees * 0.5)
+**Assets to Equity** - $\text{Total Assets} / \text{Total Equity}$
 
-### EBITDA
+**Cash Flow to Debt Ratio** - $\text{Cash from Operations} / \text{Total Debt}$
 
-EBITDA = EBIT + D&A for EBITDA
+**Operating Cash Flow per Share** - $\text{Cash from Operations} / \text{Diluted Weighted Average Shares Outstanding}$
 
-### Unlevered Free Cash Flow
+**Free Cash Flow per Share** - $(\text{Cash from Operations} - \text{Capital Expenditure}) / \text{Diluted Weighted Average Shares Outstanding}$
 
-Unlevered Free Cash Flow = EBIT * (1 - Statutory Tax Rate) + Depreciation & Amortization, Total + Amortization of Deferred Charges, Total - Capital Expenditure + Sale (Purchase) of Intangible Assets + Total Stock-Based Compensation - Amortization of Debt Issuance Costs - Change in Net Working Capital - Changes in Other Operating Activities, where Statutory Tax Rate = 23.5% on a combined basis.
+**CapEx per Share** - $\text{Capital Expenditure} / \text{Diluted Weighted Average Shares Outstanding}$
 
-### Levered Free Cash Flow
+**Revenue per Employee** - $\text{Total Revenues} / \text{Average Employees for the period}$.
 
-Levered Free Cash Flow = EBIT _* (1 - Statutory Tax Rate) - Interest Expense, Total *_ (1 - Statutory Tax Rate) + Depreciation & Amortization, Total + Amortization of Deferred Charges, Total - Capital Expenditure + Sale (Purchase) of Intangible Assets + Total Stock-Based Compensation - Change in Net Working Capital - Changes in Other Operating Activities, where Statutory Tax Rate = 23.5% on a combined basis.
+**Gross Profit per Employee** - $\text{Gross Profit} / \text{Average Employees for the period}$.
 
-### NOPAT
+**Operating Profit per Employee** - $\text{Operating Income} / \text{Average Employees for the period}$.
 
-EBIT * (1 - Effective Tax Rate), where Effective Tax Rate = Income Tax Expense / EBT, Inc. Unusual Items
+**Net Income per Employee** - $\text{Net Income} / \text{Average Employees for the period}$.
 
-### Market Cap
+**Free Cash Flow per Employee** - $(\text{Cash from Operations} - \text{Capital Expenditure}) / \text{Average Employees for the period}$.
 
-Market Cap = Market Cap is based on the last close share price and the last close number of outstanding stocks.
+**Pre-Tax Profit Margin** - $\text{EBT, Incl. Unusual Items} / \text{Total Revenues}$
 
-### Stock Price
+**OCF / Net Income** - $\text{Cash from Operations} / \text{Net Income}$
 
-Stock Price = Stock Price is based on the last close share price.
+**OCF / Sales** - $\text{Cash from Operations} / \text{Total Revenues}$
 
-### Total Enterprise Value (TEV)
+**FCF / OCF** - $(\text{Cash from Operations} - \text{Capital Expenditure}) / \text{Cash from Operations}$
 
-Total Enterprise Value (TEV) = Market Capitalization + Book Value of Total Debt + Book Value of Preferred Stock + Book Value of Minority Interest - Cash & Short Term Investments - Long Term Marketable Securities
+**SG&A to Revenue** - $\text{Selling General \& Admin Expenses, Total} / \text{Total Revenues}$
 
-### DPS
+**R&D to Revenue** - $\text{R\&D Expenses} / \text{Total Revenues}$
 
-DPS = Dividends Per Share (DPS) represents gross dividend per common share declared in the form of cash. This includes any cash dividends declared on various classes of common stock (i.e., Class A, Class B) that are listed.
+**CapEx to OCF** - $\text{Capital Expenditure} / \text{Cash from Operations}$
 
-### Dividend Yield
+**CapEx to Revenue** - $\text{Capital Expenditure} / \text{Total Revenues}$
 
-Dividend Yield = Dividends Per Share (DPS) / Financial Period Share Price Close * 100
+**CapEx to Depreciation** - $\text{Capital Expenditure} / \text{Depreciation \& Amortization, Total}$
 
-### Debt Paydown Yield
+**Stock-based Comp to Revenue** - $\text{Stock-Based Compensation} / \text{Total Revenues}$
 
-(Total Debt Repaid - Total Debt Issued) / Last Close Market Cap
+**Return on Assets** - $\text{NOPAT} / \text{Average Total Assets for the period}$.
 
-### Buyback Yield
+**Return on Equity** - $\text{Net Income} / \text{Average Total Equity for the period}$.
 
-(Repurchase of Common Stock - Issuance of Common Stock) / Last Close Market Cap
+**Return on Capital Employed** - $\text{EBIT} / \text{Average Capital Employed}$, where Capital Employed equals Total Assets - Total Current Liabilities
 
-### Shareholder Yield
+**Return on Invested Capital** - $\text{NOPAT} / \text{Average Invested Capital for the period}$, where Invested Capital equals Total Assets - Accounts Payable - Accrued Expense - Excess Cash
 
-Dividend Yield + Debt Paydown Yield + Buyback Yield
+**Long-term Debt to Assets** - $(\text{Finance Division Debt Non Current} + \text{Long-Term Debt} + \text{Long Term Leases}) / \text{Total Assets}$
 
-### Revenue 1Y Growth
+**Intangibles to Total Assets** - $\text{Other Intangibles, Total} / \text{Total Assets}$
 
-Revenue 1Y Growth = Total Revenues(t) / Total Revenues(t-1) - 1
+**Net Current Asset Value** - $\text{Total Current Assets} - \text{Total Liabilities} - \text{Minority Interest} - \text{Total Preferred Equity}$
 
-### Revenue 3Y CAGR
+**Return on Tangible Assets** - $\text{Net Income} / (\text{Total Assets} - \text{Other Intangibles, Total} - \text{Total Liabilities})$
 
-Revenue 3Y CAGR = (Total Revenues(t) / Total Revenues(t-3)) ^ (1/3) - 1
+**EV/Sales** - Last Close TEV / LTM Total Revenue
 
-### Revenue 5Y CAGR
+**Forward EV/Sales** - Last Close TEV / Consensus Mean Total Revenue
 
-Revenue 5Y CAGR = (Total Revenues(t) / Total Revenues(t-5)) ^ (1/5) - 1
+**P/S** - Last Close Market Cap / LTM Total Revenue
 
-### Revenue 10Y CAGR
+**Forward P/S** - Last Close Market Cap / Consensus Mean Total Revenue
 
-Revenue 10Y CAGR = (Total Revenues(t) / Total Revenues(t-10)) ^ (1/10) - 1
+**P/E** - Last Close Price / LTM Diluted EPS Before Extra Items
 
-### Diluted EPS 1Y Growth
+**Forward P/E** - Last Close Price / Consensus Mean EPS (GAAP)
 
-Diluted EPS 1Y Growth = Diluted EPS - Continuing Operations(t) / Diluted EPS - Continuing Operations(t-1) - 1
+**PEG Ratio** - $(\text{Last Close Price} / \text{Earnings}) / (\text{Primary EPS Estimate}) - 1$ Yr. Annual Growth %
 
-### Diluted EPS 3Y CAGR 
+**Earnings Yield** - $1 / (\text{Last Close Price} / \text{LTM Diluted EPS Before Extra Items})$
 
-Diluted EPS 3Y CAGR = (Diluted EPS - Continuing Operations(t) / Diluted EPS - Continuing Operations(t-3)) ^ (1/3) - 1
+**Forward Earnings Yield** - $1 / (\text{Last Close Price} / \text{Consensus Mean EPS (GAAP)})$
 
-### Diluted EPS 5Y CAGR
+**EV/FCF** - $\text{Last Close TEV} / \text{LTM Unlevered Free Cash Flow}$
 
-Diluted EPS 5Y CAGR = (Diluted EPS - Continuing Operations(t) / Diluted EPS - Continuing Operations(t-5)) ^ (1/5) - 1
+**Forward EV/FCF** - $\text{Last Close TEV} / \text{Consensus Mean Free Cash Flow}$
 
-### Diluted EPS 10Y CAGR
+**FCF Yield** - $(\text{Operating Cash Flow} - \text{Capital Expenditures}) / \text{Last Close Market Cap}$
 
-Diluted EPS 10Y CAGR = (Diluted EPS - Continuing Operations(t) / Diluted EPS - Continuing Operations(t-10)) ^ (1/10) - 1
+**Forward FCF Yield** - $1 / (\text{Last Close Market Cap} / \text{Consensus Mean Free Cash Flow})$
 
-### DPS 1Y Growth
+**P/FCF** - $\text{Last Close Market Cap} / (\text{Operating Cash Flow} - \text{Capital Expenditures})$
 
-DPS 1Y Growth = Dividends Per Share(t) / Dividends Per Share(t-1) - 1
+**Forward P/FCF** - $\text{Last Close Market Cap} / \text{Consensus Mean Free Cash Flow}$
 
-### DPS 3Y CAGR
+**EV/EBITDA** - $\text{Last Close TEV} / \text{LTM EBITDA (Incl. Equity Income from Affiliates)}$
 
-DPS 3Y CAGR = (Dividends Per Share(t) / Dividends Per Share(t-3)) ^ (1/3) - 1
+**Forward EV/EBITDA** - $\text{Last Close TEV} / \text{Consensus Mean EBITDA}$
 
-### DPS 5Y CAGR
+**EV/EBIT** - $\text{Last Close TEV} / \text{LTM EBIT (Incl. Equity Income from Affiliates)}$
 
-DPS 5Y CAGR = (Dividends Per Share(t) / Dividends Per Share(t-5)) ^ (1/5) - 1
+**Forward EV/EBIT** - $\text{Last Close TEV} / \text{Consensus Mean EBIT}$
 
-### DPS 10Y CAGR
+**EV/OCF** - $\text{Last Close TEV} / \text{LTM Cash from Operations}$
 
-DPS 10Y CAGR = (Dividends Per Share(t) / Dividends Per Share(t-10)) ^ (1/10) - 1
+**Forward EV to OCF** - $\text{Last Close TEV} / \text{Consensus Mean Cash from Operations}$
 
-### Cash From Operations 1Y Growth
+**P/OCF** - $\text{Last Close Market Cap} / \text{LTM Cash from Operations}$
 
-Cash From Operations 1Y Growth = Cash from Operations(t) / Cash from Operations(t-1) - 1
+**Forward P/OCF** - $\text{Last Close Market Cap} / \text{Consensus Mean Cash from Operations}$
 
-### Cash From Operations 3Y CAGR
+**P/B** - $\text{Last Close Price} / \text{Book Value}$
 
-Cash From Operations 3Y CAGR = (Cash from Operations(t) / Cash from Operations(t-3)) ^ (1/3) - 1
+**P/Gross Profit** - $\text{Last Close Market Cap} / \text{LTM Gross Profit}$
 
-### Cash From Operations 5Y CAGR
+**EV/Gross Profit** - $\text{Last Close TEV} / \text{LTM Gross Profit}$
 
-Cash From Operations 5Y CAGR = (Cash from Operations(t) / Cash from Operations(t-5)) ^ (1/5) - 1
+**P/FFO** - $\text{Last Close Market Cap} / \text{LTM Reported FFO}$
 
-### Cash From Operations 10Y CAGR
+**Forward Price / FFO** - $\text{Last Close Market Cap} / \text{Consensus Mean FFO (REIT)}$
 
-Cash From Operations 10Y CAGR = (Cash from Operations(t) / Cash from Operations(t-10)) ^ (1/10) - 1
+**P/Adjusted FFO** - $\text{Last Close Market Cap} / \text{LTM Reported Adjusted FFO}$
 
-### Free Cash Flow
-
-Free Cash Flow = Cash from Operations - Capital Expenditure
-
-### Free Cash Flow Margin
-
-Free Cash Flow Margin = (Cash from Operations - Capital Expenditure) / Total Revenues
-
-### Payout Ratio
-
-Payout Ratio = Dividends Per Share (DPS) / Basic EPS from Continuing Operations * 100
-
-### Payables Turnover
-
-Payables Turnover = 365 / Average Days Payable Outstanding for the period.
-
-### Operating Cycle 
-
-Operating Cycle = Days Sales Outstanding + Days Inventory Outstanding
-
-### Cash Ratio 
-
-Cash Ratio = Cash and Equivalents / Total Current Liabilities
-
-### Debt Ratio
-
-Debt Ratio = Total Debt / Total Assets
-
-### Assets to Equity
-
-Assets to Equity = Total Assets / Total Equity
-
-### Cash Flow to Debt Ratio
-
-Cash Flow to Debt Ratio = Cash from Operations / Total Debt
-
-### Operating Cash Flow per Share
-
-Operating Cash Flow per Share = Cash from Operations / Diluted Weighted Average Shares Outstanding
-
-### Free Cash Flow per Share
-
-Free Cash Flow per Share = (Cash from Operations - Capital Expenditure) / Diluted Weighted Average 
-
-Shares Outstanding
-
-### CapEx per Share
-
-CapEx per Share = Capital Expenditure / Diluted Weighted Average Shares Outstanding
-
-### Revenue per Employee
-
-Revenue per Employee = Total Revenues / Average Employees for the period.
-
-### Gross Profit per Employee
-
-Gross Profit per Employee = Gross Profit / Average Employees for the period.
-
-### Operating Profit per Employee
-
-Operating Profit per Employee = Operating Income / Average Employees for the period.
-
-### Net Income per Employee
-
-Net Income per Employee = Net Income / Average Employees for the period.
-
-### Free Cash Flow per Employee
-
-Free Cash Flow per Employee = (Cash from Operations - Capital Expenditure) / Average Employees for the period.
-
-### Pre-Tax Profit Margin
-
-Pre-Tax Profit Margin = EBT, Incl. Unusual Items / Total Revenues
-
-### OCF / Net Income
-
-OCF / Net Income = Cash from Operations / Net Income
-
-### OCF / Sales
-
-OCF / Sales = Cash from Operations / Total Revenues
-
-### FCF / OCF
-
-FCF / OCF = (Cash from Operations - Capital Expenditure) / Cash from Operations
-
-### SG&A to Revenue
-
-SG&A to Revenue = Selling General & Admin Expenses, Total / Total Revenues
-
-### R&D to Revenue
-
-R&D to Revenue = R&D Expenses / Total Revenues
-
-### CapEx to OCF
-
-CapEx to OCF = Capital Expenditure / Cash from Operations
-
-### CapEx to Revenue
-
-CapEx to Revenue = Capital Expenditure / Total Revenues
-
-### CapEx to Depreciation
-
-CapEx to Depreciation = Capital Expenditure / Depreciation & Amortization, Total
-
-Stock-based Comp to Revenue = Stock-Based Compensation / Total Revenues
-
-### Return on Assets
-
-Return on Assets = NOPAT / Average Total Assets for the period.
-
-### Return on Equity
-
-Return on Equity = Net Income / Average Total Equity for the period.
-
-### Return on Capital Employed
-
-Return on Capital Employed = EBIT / Average Capital Employed, where Capital Employed equals Total Assets - Total Current Liabilities
-
-### Return on Invested Capital 
-
-Return on Invested Capital = NOPAT / Average Invested Capital for the period, where Invested Capital equals Total Assets - Accounts Payable - Accrued Expense - Excess Cash
-
-### Long-term Debt to Assets
-
-Long-term Debt to Assets = (Finance Division Debt Non Current + Long-Term Debt + Long Term Leases) / Total Assets
-
-### Intangibles to Total Assets
-
-Intangibles to Total Assets = Other Intangibles, Total / Total Assets
-
-### Net Current Asset Value
-
-Net Current Asset Value = Total Current Assets - Total Liabilities - Minority Interest - Total Preferred Equity
-
-### Return on Tangible Assets
-
-Return on Tangible Assets = Net Income / (Total Assets - Other Intangibles, Total - Total Liabilities)
-
-### EV/Sales
-
-EV/Sales = Last Close TEV / LTM Total Revenue
-
-### Forward EV/Sales
-
-Forward EV/Sales = Last Close TEV / Consensus Mean Total Revenue
-
-### P/S
-
-P/S = Last Close Market Cap / LTM Total Revenue
-
-### Forward P/S
-
-Forward P/S = Last Close Market Cap / Consensus Mean Total Revenue
-
-### P/E 
-
-P/E = Last Close Price / LTM Diluted EPS Before Extra Items
-
-### Forward P/E
-
-Forward P/E = Last Close Price / Consensus Mean EPS (GAAP)
-
-### PEG Ratio
-
-(Last Close Price / Earnings) / (Primary EPS Estimate) - 1 Yr. Annual Growth %)
-
-### Earnings Yield
-
-Earnings Yield = 1 / (Last Close Price / LTM Diluted EPS Before Extra Items)
-
-### Forward Earnings Yield
-
-Forward Earnings Yield = 1 / (Last Close Price / Consensus Mean EPS (GAAP))
-
-### EV/FCF
-
-EV/FCF = Last Close TEV / LTM Unlevered Free Cash Flow
-
-### Forward EV/FCF
-
-Forward EV/FCF = Last Close TEV / Consensus Mean Free Cash Flow
-
-### FCF Yield
-
-FCF Yield = (Operating Cash Flow - Capital Expenditures) / Last Close Market Cap
-
-### Forward FCF Yield 
-
-Forward FCF Yield = 1 / (Last Close Market Cap / Consensus Mean Free Cash Flow)
-
-### P/FCF
-
-P/FCF = Last Close Market Cap / (Operating Cash Flow - Capital Expenditures)
-
-### Forward P/FCF
-
-Forward P/FCF = Last Close Market Cap / Consensus Mean Free Cash Flow
-
-### EV/EBITDA
-
-EV/EBITDA = Last Close TEV / LTM EBITDA (Incl. Equity Income from Affiliates)
-
-### Forward EV/EBITDA
-
-Forward EV/EBITDA = Last Close TEV / Consensus Mean EBITDA
-
-### EV/EBIT
-
-EV/EBIT = Last Close TEV / LTM EBIT (Incl. Equity Income from Affiliates)
-
-### Forward EV/EBIT
-
-Forward EV/EBIT = Last Close TEV / Consensus Mean EBIT
-
-### EV/OCF
-
-EV/OCF = Last Close TEV / LTM Cash from Operations
-
-### Forward EV to OCF
-
-Forward EV to OCF = Last Close TEV / Consensus Mean Cash from Operations
-
-### P/OCF
-
-P/OCF = Last Close Market Cap / LTM Cash from Operations
-
-### Forward P/OCF 
-
-Forward P/OCF = Last Close Market Cap / Consensus Mean Cash from Operations
-
-### P/B
-
-P/B = Last Close Price / Book Value
-
-### P/Gross Profit
-
-P/Gross Profit = Last Close Market Cap / LTM Gross Profit
-
-### EV/Gross Profit
-
-EV/Gross Profit = Last Close TEV / LTM Gross Profit
-
-### P/FFO
-
-P/FFO = Last Close Market Cap / LTM Reported FFO
-
-### Forward Price / FFO
-
-Forward Price / FFO = Last Close Market Cap / Consensus Mean FFO (REIT)
-
-### P/Adjusted FFO
-
-P/Adjusted FFO = Last Close Market Cap / LTM Reported Adjusted FFO
-
-### Forward P/Adjusted FFO
-
-Forward P/Adjusted FFO = Last Close Market Cap / Consensus Mean Adjusted FFO (REIT)
+**Forward P/Adjusted FFO** - $\text{Last Close Market Cap} / \text{Consensus Mean Adjusted FFO (REIT)}$

@@ -1,12 +1,37 @@
 ---
 aliases:
-  - Overview of Risks and Their Management
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Overview of Risks and Their Management
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 10: Overview of Risks and Their Management"
-linter-yaml-title-alias: "Chapter 10: Overview of Risks and Their Management"
+title: 'Chapter 10: Overview of Risks and Their Management'
+linter-yaml-title-alias: 'Chapter 10: Overview of Risks and Their Management'
+primary_tags:
+- risks include credit risk
+- general categories financial risk
+- analysis derives credit score
+- broadening instruments risk management
+- theory practice distinction risk
+- risk market instruments controlling
+secondary_tags:
+- 10 overview risks management
+- financing risk systemic financial
+- systemic financial risk
+- different types funding risk
+- scoring models credit risk
+- idiosyncratic risk financial risk
+- financial risk management involves
+- difference systematic risk idiosyncratic
+- risk diversifiable risk
+- credit analysis use different
+- investors access credit analysis
+- instruments reallocate financial risks
+- credit risk reinvestment risk
+- providers formulating credit scoring
+- finance technology transfer risk
+- financial market financial innovation
+tags_extracted: '2025-12-18T00:18:56.557734'
 ---
 
 # 10

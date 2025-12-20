@@ -1,3 +1,27 @@
+---
+primary_tags:
+- (random walk
+- random variable
+- 9/21/11 5 lecture
+- ', observation'
+- probability lectures
+secondary_tags:
+- 10/3/11 10 lecture
+- bayesian inference
+- 11/4/11 21 lecture
+- all the probabilities
+- equal likelihood
+- simple random sample
+- 11/7/11 example
+- direct proof
+- following questions
+- any proof
+- wang university
+- any random variable
+tags_extracted: '2025-12-18T18:00:56.397296'
+tags_method: max_quality_v1
+---
+
 # Statistics 110—Intro to Probability
 
 Lectures by Joe Blitzstein

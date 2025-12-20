@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "31"
-linter-yaml-title-alias: "31"
+title: '31'
+linter-yaml-title-alias: '31'
+primary_tags:
+- refinancing balloon payment
+- property indexes public commercial
+- mortgage backed securities ed
+- reasons investing commercial
+- commercial mortgages held funds
+secondary_tags:
+- commercial real estate markets
+- commercial property types multifamily
+- reit market cmbss
+- types included major reit
+- yield maintenance charge called
+- sectors real estate
+- real estate equity structured
+- nontraded reits private commercial
+- cmbs commercial mortgage
+- charge treasury flat yield
+- market listed property companies
+- invest public equity commercial
+tags_extracted: '2025-12-18T00:26:27.835049'
 ---
 
 # 31

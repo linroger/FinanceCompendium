@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: The News
 linter-yaml-title-alias: The News
+primary_tags:
+- 1922 german debt grows
+- spot forward currency relationship
+- 2001 early 2006 fed
+- permanent stabilization fact germany
+- 1921 deteriorating economic conditions
+- markets prices risky assets
+- increase german inflation reichsbank
+secondary_tags:
+- devaluation started sell
+- german inflation paper currency
+- doubted central bank rentenbank
+- real investment reached prewar
+- records broken german inflation
+- inflationary depressions weimar germany
+- german currency doomed
+- depressions happening europe communist
+- currency depends credibility institutions
+- international faith german finance
+- currency late 1922 onward
+- late 1931 caused banks
+- 1923 german bank rate
+- bank rate currency inflation
+- sterling devaluation central banks
+- bubble late 1990s economy
+- holding currency debt history
+- currency detailed discussion rentenmark
+- equilibrium reached end october
+tags_extracted: '2025-12-18T00:11:21.742386'
 ---
 
 There is a critical relationship between a) the interest rate difference and b) the spot/forward currency relationship. The amount the currency is expected to decline is priced into how much less the forward price is below the spot price. For example, if the market expects the currency to fall by 5 percent over a year, it will need that currency to yield a 5 percent higher interest rate. The math is even starker when depreciation is expected over short periods of time. If the market expects a 5 percent depreciation over a month, than it will need that currency to yield a 5 percent higher interest rate over that month—and a 5 percent monthly interest is equivalent to an annual interest rate of about 80 percent In 1914, German government debt was insignificant. By 1918, Germany had amassed a total local currency debt stock of 100 billion marks, about 130 percent of German GDP.

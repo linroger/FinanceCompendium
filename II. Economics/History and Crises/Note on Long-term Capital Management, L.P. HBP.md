@@ -1,13 +1,29 @@
 ---
 aliases:
-  - Long-Term Capital Management
-  - LTCM Case Study
-tags:
-key_concepts:
+- Long-Term Capital Management
+- LTCM Case Study
+tags: null
+key_concepts: null
 parent_directory: II. Economics/History and Crises
 cssclasses: academia
 title: Long-Term Capital Management, L.P. (A)
 linter-yaml-title-alias: Long-Term Capital Management, L.P. (A)
+primary_tags:
+- fund faced capital requirements
+- convergence ltcm larger trades
+- ltcm regulated financial
+- firm future fund
+secondary_tags:
+- long term capital management
+- ltcm 1997 fund risk
+- fund ltcm received
+- ltcm principals employees investors
+- firms exhibit ltcm
+- ltcm estimates fund liquidity
+- ltcm took long position
+- capital requirements se ltcm
+- reasons ltcm did disclose
+tags_extracted: '2025-12-18T00:12:51.658696'
 ---
 
 # Long-Term Capital Management, L.P. (A)

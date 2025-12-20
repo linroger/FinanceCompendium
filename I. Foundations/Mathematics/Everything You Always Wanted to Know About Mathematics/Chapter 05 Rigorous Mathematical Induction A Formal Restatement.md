@@ -1,11 +1,37 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 5
 linter-yaml-title-alias: Chapter 5
+primary_tags:
+- conditional statements
+- then proof
+- later examples
+- even natural numbers
+- rigorous induction
+- stronger result
+secondary_tags:
+- mathematical induction
+- other examples
+- 5.4 strong induction
+- strong induction
+- following statements
+- good induction proofs
+- following questions
+- principle proof
+- theorem statement
+- usual introductory matter
+- good proof
+- strong induction proof
+- underlying principle
+- only sequence
+- some number
+- some argument
+tags_extracted: '2025-12-18T17:57:00.045159'
+tags_method: max_quality_v1
 ---
 
 # Chapter 5

@@ -1,3 +1,26 @@
+---
+primary_tags:
+- trade makes different assumptions
+- standard model economy produces
+- peterson institute international economics
+- imports gdp percent
+- trade model production possibilities
+secondary_tags:
+- different models international trade
+- trade reduce real income
+- trade decline relative
+- fluctuations terms trade european
+- production model sectors differences
+- share imports income european
+- parameters affect world economy
+- trade differential effects
+- percent change terms trade
+- trade measured empirically averaging
+- assumptions determinants production
+- economy faces trade consumption
+tags_extracted: '2025-12-18T00:51:29.377057'
+---
+
 # THE STANDARD TRADE MODEL
 
 Previous chapters developed several different models of international trade, each of which makes different assumptions about the determinants of production possibilities. To bring out important points, each of these models leaves out aspects of reality that the others stress. These models are:

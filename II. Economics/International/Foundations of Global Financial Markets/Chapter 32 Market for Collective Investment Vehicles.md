@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "32"
-linter-yaml-title-alias: "32"
+title: '32'
+linter-yaml-title-alias: '32'
+primary_tags:
+- firm venture capital fund
+- etfs dividend income capital
+- arbitrageurs retained etf
+- etfs based different
+- taxation rics etfs types
+secondary_tags:
+- venture capital firm general
+- etfs hedge funds attributes
+- venture capital fund commit
+- venture capital fund typically
+- taxes sell etf
+- capital venture fund structured
+- collective investment vehicles contents
+- does invest venture capital
+- redeeming etf shares objective
+- discrepancy etf nav share
+- capital calls venture capital
+- liquid assets uses etfs
+tags_extracted: '2025-12-18T00:26:53.004349'
 ---
 
 # 32

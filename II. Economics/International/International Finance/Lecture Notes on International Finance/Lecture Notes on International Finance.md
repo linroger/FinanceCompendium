@@ -1,11 +1,40 @@
 ---
 title: Lecture Notes On International Finance
-tags:
-aliases:
+tags: null
+aliases: null
 parent_folder: Global-Markets
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
+primary_tags:
+- covariance term currency pairs
+- differential currency risk premium
+- factor structure currency returns
+- return government market timing
+- studying international portfolio dynamics
+- smith correlation active households
+- exchange rates random walks
+secondary_tags:
+- lecture notes international finance
+- response triffin critique bretton
+- consumption real exchange rates
+- modeling currency risk premia
+- euler equations exchange rate
+- risk premium affects currency
+- relationship rates currency risk
+- movement volatile currency risk
+- fiscal capacity understand timing
+- asset pricing euler equations
+- currency exposure factor
+- collapse bretton woods paradoxically
+- normality foreign households euler
+- risk premium home currency
+- identical risk premia foreign
+- exchange rate movement common
+- currency excess return model
+- comovement shows international finance
+- premium decomposition exchange rate
+tags_extracted: '2025-12-18T01:46:40.862753'
 ---
 # Zhengyang Jiang
 

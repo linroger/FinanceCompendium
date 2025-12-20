@@ -1,9 +1,26 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 22_16_The_Japanese_Case_and_the_Lessons_It_Provides
+primary_tags:
+- excess reserves
+- heavily indebted reserve currency country
+- domestic deflationary pressures
+- japan's debt service
+secondary_tags:
+- debt cycle transpiring
+- both the big debt cycle
+- big cycle
+- debt level japan
+- very interesting one
+- debt problem
+- huge debt burden
+- debt ex-cb (jpy, tin
+- debt components
+tags_extracted: '2025-12-18T18:04:27.910893'
+tags_method: max_quality_v1
 ---
 
 # 22_16_The_Japanese_Case_and_the_Lessons_It_Provides

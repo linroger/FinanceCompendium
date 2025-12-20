@@ -1,12 +1,28 @@
 ---
 aliases:
-  - Central Banks
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Central Banks
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 07: Central Banks"
-linter-yaml-title-alias: "Chapter 07: Central Banks"
+title: 'Chapter 07: Central Banks'
+linter-yaml-title-alias: 'Chapter 07: Central Banks'
+primary_tags:
+- 27 securitization
+- monetary control
+- banking functions
+- objectives central banks purpose
+secondary_tags:
+- monetary policy central banks
+- example central bank federal
+- chapter understand central bank
+- supply process federal reserve
+- intermediate targets fed policy
+- money supply examine goals
+- federal reserve system77 source
+- monetary banking systems large
+- reserves operating targets monetary
+tags_extracted: '2025-12-18T00:18:05.620871'
 ---
 
 # 7

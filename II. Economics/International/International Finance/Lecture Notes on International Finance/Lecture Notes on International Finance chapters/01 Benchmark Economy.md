@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: A Benchmark Economy
 linter-yaml-title-alias: A Benchmark Economy
+primary_tags:
+- joint normality foreign
+- implies consumption ratio foreign
+- home bias consumption markets
+- consumption saving intertemporally example
+secondary_tags:
+- households optimal international risk
+- equilibrium exchange rate economy
+- international real business cycles
+- benchmark economy summary
+- foreign consumption bundles period
+- foreign households determined equilibrium
+- empirically developed countries currencies
+- households implied exchange rate
+- euler equations households trade
+tags_extracted: '2025-12-18T01:43:52.433987'
 ---
 
 # A Benchmark Economy

@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Discussion - Homework 5
 linter-yaml-title-alias: Discussion - Homework 5
+primary_tags:
+- time-series averages
+- testing factor pricing
+secondary_tags:
+- modern pricing
+- load data
+tags_extracted: '2025-12-18T04:08:51.130151'
+tags_method: max_quality_v1
 ---
 
 # Discussion - Homework 5

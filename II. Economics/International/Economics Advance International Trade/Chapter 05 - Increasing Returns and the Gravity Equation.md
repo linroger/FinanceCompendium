@@ -1,3 +1,26 @@
+---
+primary_tags:
+- country derived market clearing
+- trade models allowing increasing
+- assumptions countries producing different
+- empirical exercises canada trade
+- chapter increasing returns gravity
+secondary_tags:
+- fixed effects gravity equation
+- gravity equation monopolistic competition
+- prices obtain explicit solution
+- simple equation bilateral trade
+- gdp terms coefficients constrained
+- equation assumption free trade
+- gdp country share theorem
+- idea increasing returns reason
+- explaining growth trade oecd
+- trade complex gravity
+- market effect make assumptions
+- competition model country exporting
+tags_extracted: '2025-12-18T00:14:39.142657'
+---
+
 # Chapter 5: Increasing Returns and the Gravity Equation
 
 In this chapter, we make a significant departure from earlier trade models by allowing for increasing returns to scale. The idea that increasing returns might be a reason for trade between countries was well recognized by Bertil Ohlin (1933) and also Frank Graham (1923), and has been the motivation for policy actions. $^{1}$  In Canada, for example, extensive policy discussions in the 1960s argued that Canadian firms would benefit from unrestricted access to the U.S. market. It was believed that the Canadian market was too small to allow manufacturing industries to operate at a minimum efficient scale, and that with access to the U.S. market, firms could move down their average costs curves, which is a gain in efficiency. $^{2}$  Indeed, this was a principal reason that Canada entered in a free trade agreement with the United States in 1989: to give its firms free access to the large American market. As promising as this line of argument is, however, it contains a puzzle: as firms in Canada and the U.S. move down their average cost curves due to access to the other market, surely not all firms can expand output that much, since who would buy it? Thus, an expansion by some firms seems to suggest that others will need to exit the market entirely. So we need a model to sort out these various effects.

@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "5"
-linter-yaml-title-alias: "5"
+title: '5'
+linter-yaml-title-alias: '5'
+primary_tags:
+- debt rating major cras
+- debt ratings foreign currency
+- role financial markets
+- markets credit rating systems
+- foreign government policies analyzes
+secondary_tags:
+- credit rating agencies role
+- rating organization regulation cras
+- government local currency debt
+- political risk sovereign debt
+- debt instruments cras provide
+- regulation cras different credit
+- debt obligation assigned rating
+- learning objectives role cras
+- obligation foreign currency control
+- dependence ratings investors regulators
+- debt differ extent assessing
+- governments cras consider factors
+tags_extracted: '2025-12-18T00:17:37.218293'
 ---
 
 # 5

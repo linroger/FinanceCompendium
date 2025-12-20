@@ -1,11 +1,29 @@
 ---
 aliases:
-  - The Overall Big Cycle
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Overall Big Cycle
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "12 - Chapter 8: The Overall Big Cycle"
+title: '12 - Chapter 8: The Overall Big Cycle'
+primary_tags:
+- no intrinsic value
+- monetary, political, and geopolitical orders
+- big changes
+- big debt cycle changes
+secondary_tags:
+- big cycle
+- (i.e., the changing world order
+- otherwise unimaginable possible developments
+- four other big forces
+- both the big debt cycle
+- all the big developments
+- big cyclical swings
+- much bigger effects
+- big beneficial changes
+tags_extracted: '2025-12-18T18:03:01.371260'
+tags_method: max_quality_v1
 ---
 
 # 12_8_The_Overall_Big_Cycle

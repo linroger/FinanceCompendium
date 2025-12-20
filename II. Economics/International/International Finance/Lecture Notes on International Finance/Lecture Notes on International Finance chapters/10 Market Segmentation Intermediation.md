@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Market Segmentation and Financial Intermediation
 linter-yaml-title-alias: Market Segmentation and Financial Intermediation
+primary_tags:
+- investment relative marginal product
+- exchange rate active households
+- model separates exchange rate
+- market segmentation financial intermediary
+- financial markets consumption
+secondary_tags:
+- asset markets segmented countries
+- model domestic financial intermediation
+- exchange rate volatility financiers
+- aggregate risk foreign
+- lower exchange rate volatility
+- volatility international capital flows
+- consumption pricing financial assets
+- segmentation financial intermediation studied
+- assumptions exchange rate aggregate
+- consumption incentivizing foreign households
+- convenience yield model foreign
+- model market segmentation households
+tags_extracted: '2025-12-18T01:45:17.353516'
 ---
 
 # Market Segmentation and Financial Intermediation

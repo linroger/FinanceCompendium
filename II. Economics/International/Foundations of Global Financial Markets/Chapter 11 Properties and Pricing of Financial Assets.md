@@ -1,12 +1,24 @@
 ---
 aliases:
-  - Properties and Pricing of Financial Assets
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Properties and Pricing of Financial Assets
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 11: Properties and Pricing of Financial Assets"
-linter-yaml-title-alias: "Chapter 11: Properties and Pricing of Financial Assets"
+title: 'Chapter 11: Properties and Pricing of Financial Assets'
+linter-yaml-title-alias: 'Chapter 11: Properties and Pricing of Financial Assets'
+primary_tags:
+- assets moneyness divisibility denomination
+- asset discount rate
+- cash flow term
+secondary_tags:
+- financial assets effect maturity
+- reversibility affects asset value
+- change rates financial assets
+- price sensitivity financial asset
+- determining duration financial asset
+- asset value
+tags_extracted: '2025-12-18T00:19:15.282886'
 ---
 
 # 11

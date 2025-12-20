@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Import Tariffs and Quotas Under Perfect Competition
 linter-yaml-title-alias: Import Tariffs and Quotas Under Perfect Competition
+primary_tags:
+- supply effect tariff import
+- tariffs united states countries
+- quotas chinese exports
+- tires exporting countries
+- supply curve home firms
+- countries restrict imports textile
+secondary_tags:
+- tariff tires applied china
+- free trade equilibrium
+- tires applied china discriminatory
+- tariffs steel tires international
+- tariff panel result equilibrium
+- steel tire tariffs focuses
+- steel elected tariffs
+- supply home import demand
+- tariffs quotas perfect competition
+- mfa free trade
+- import quotas conclusions steel
+- export supply curve shifts
+- declined apply tariffs cases
+- import demand curves point
+- tariff applied country explain
+- apparel products china expiration
+tags_extracted: '2025-12-18T00:34:31.270156'
 ---
 
 # Import Tariffs and Quotas Under Perfect Competition

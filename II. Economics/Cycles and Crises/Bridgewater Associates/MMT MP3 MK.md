@@ -1,12 +1,34 @@
 ---
 aliases:
-  - Monetary Policy 3 and Modern Monetary Theory
-tags:
-key_concepts:
+- Monetary Policy 3 and Modern Monetary Theory
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary Theory (MMT)"
-linter-yaml-title-alias: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary Theory (MMT)"
+title: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary
+  Theory (MMT)"
+linter-yaml-title-alias: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)"
+  and "Modern Monetary Theory (MMT)"
+primary_tags:
+- quantitative easing ineffective achieving
+- world globalized 1930s debt
+- look carefully monetary policy
+- modern monetary theory mmt
+- fiscal policy work differently
+secondary_tags:
+- monetary policy mp3 study
+- monetary policy new type
+- economics especially monetary fiscal
+- differently future focus monetary
+- countries example japan 1930s
+- freeing monetary policy
+- japan depression began
+- policy create money
+- debt problems expensive currency
+- policy deficits monetized contemporary
+- collapse currency eventually led
+- fed action 1930s smaller
+tags_extracted: '2025-12-18T00:03:52.556916'
 ---
 
 # It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary Theory (MMT)"

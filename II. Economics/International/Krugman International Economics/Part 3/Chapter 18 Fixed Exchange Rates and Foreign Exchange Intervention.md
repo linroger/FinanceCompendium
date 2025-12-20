@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Fixed Exchange Rates and Foreign Exchange Intervention
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Fixed Exchange Rates and Foreign Exchange Intervention
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 18: Fixed Exchange Rates and Foreign Exchange Intervention"
-linter-yaml-title-alias: "Chapter 18: Fixed Exchange Rates and Foreign Exchange Intervention"
+title: 'Chapter 18: Fixed Exchange Rates and Foreign Exchange Intervention'
+linter-yaml-title-alias: 'Chapter 18: Fixed Exchange Rates and Foreign Exchange Intervention'
+primary_tags:
+- foreign exchange intervention money
+- 543 study fixed exchange
+secondary_tags:
+- foreign exchange intervention 543
+- 18 fixed exchange rates
+tags_extracted: '2025-12-18T01:47:12.919818'
 ---
 
 # 18 Fixed Exchange Rates and Foreign Exchange Intervention 543

@@ -1,3 +1,26 @@
+---
+primary_tags:
+- figure 10 foreign production
+- ricardo assumed value exports
+- trade equilibrium derived
+- home wages foreign wheat
+- exported wine industry portugal
+secondary_tags:
+- ricardian model england exported
+- trade technology ricardian
+- world relative price wheat
+- trade level wages country
+- supply curve wheat
+- labor productivity
+- exports wheat points panel
+- explain ricardian model
+- labor result explains countries
+- produce wheat labor happens
+- does home exports compare
+- mercantilism mercantilists believed exporting
+tags_extracted: '2025-12-18T00:37:30.611582'
+---
+
 # Trade and Technology: the Ricardian Model
 
 England exported cloth in exchange for wine, because, by so doing her industry was rendered more productive to her; she had more cloth and wine than if she had manufactured both for herself; and Portugal imported cloth and exported wine, because the industry of Portugal could be more beneficially employed for both countries in producing wine. . .

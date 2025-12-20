@@ -1,11 +1,32 @@
 ---
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "Chapter 27.19: What the Future Looks Like to Me"
+title: 'Chapter 27.19: What the Future Looks Like to Me'
 aliases:
-  - What the Future Looks Like to Me
+- What the Future Looks Like to Me
+primary_tags:
+- future believe
+- political parties country say
+- measures internal political conflicts
+- knowing possible timeless
+- future early investment
+secondary_tags:
+- 2719whatthefuturelooksliketome future looks
+- predestined future looks like
+- political splits country deep
+- effect dynamics future
+- average global levels political
+- principles navigating big debt
+- strong conflicts people
+- polarization 1900 global political
+- political polarization index
+- populist conflicts hard right
+- history extreme factionalism
+- domestic international politics unstable
+tags_extracted: '2025-12-18T00:02:54.445289'
 ---
 
 # 27_19_What_the_Future_Looks_Like_to_Me

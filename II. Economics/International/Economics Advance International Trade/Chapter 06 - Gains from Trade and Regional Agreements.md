@@ -1,3 +1,22 @@
+---
+primary_tags:
+- continent applying optimal tariffs
+- irrelevant transportation costs continents
+- regional agreements continents welfare
+- gains group countries marginal
+secondary_tags:
+- free trade pareto gains
+- regional trade agreements theory
+- welfare global free trade
+- trade equilibrium includes lump
+- agreement continent transportation costs
+- krugman example world divided
+- imperfect competition larger country
+- tariffs regional free trade
+- gains principle possible commodity
+tags_extracted: '2025-12-18T00:14:49.403401'
+---
+
 # Chapter 6: Gains from Trade and Regional Agreements
 
 In earlier chapters we suggested that trade brings gains to a country, but at the same time, there are both winners and losers. The Stolper-Samuelson theorem made that especially clear. In the Heckscher-Ohlin model the abundant factor gains from trade (through the rise in the relative export price increasing the real return to that factor, used intensively in exports), while the scarce factor loses from trade (through the fall in the relative import price lowering the real return to that factor). Can we be sure that the gains always exceed the losses? That is the topic of this chapter.

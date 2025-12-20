@@ -1,3 +1,26 @@
+---
+primary_tags:
+- domestic credit reserves vertical
+- floating central bank balance
+- exchange rate pegs break
+- understanding exchange rate crises
+- pegging andean peso dollar
+secondary_tags:
+- supply level central bank
+- money supply point reserves
+- money supply fixed exchange
+- rate crises pegs
+- peg cycle crises
+- peso dollar assume following
+- political costs crises exchange
+- exchange rate regimes makes
+- liabilities central bank chooses
+- peso runs reserves nominal
+- peg sufficient liquidity foreign
+- line points domestic credit
+tags_extracted: '2025-12-18T00:43:55.386138'
+---
+
 # Exchange Rate Crises: How Pegs Work and How They Break
 
 Global capital markets pose the same kinds of problems that jet planes do. They are faster, more comfortable, and they get you where you are going better. But the crashes are much more spectacular.

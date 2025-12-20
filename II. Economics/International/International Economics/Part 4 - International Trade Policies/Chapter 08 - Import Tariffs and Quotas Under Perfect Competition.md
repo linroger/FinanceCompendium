@@ -1,3 +1,26 @@
+---
+primary_tags:
+- tariffs quotas perfect competition
+- suppose tariff applies imports
+- tariff elasticity foreign export
+- surplus reduction tariff gains
+- elimination steel tariffs president
+secondary_tags:
+- effect tariff home economy
+- steel tariff tires led
+- small country optimal tariff
+- world price affected import
+- import quotas conclusions steel
+- welfare cost importing country
+- unchanged tariff applied importing
+- curve using foreign market
+- tariff 252 large country
+- positive formula optimal tariff
+- country implication steel tariffs
+- elastic optimal tariff home
+tags_extracted: '2025-12-18T00:38:59.009634'
+---
+
 # Import Tariffs and Quotas Under Perfect Competition
 
 Over a thousand Americans are working today because we stopped a surge in Chinese tires.

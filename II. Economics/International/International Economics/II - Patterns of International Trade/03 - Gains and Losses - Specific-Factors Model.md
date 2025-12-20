@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Gains and Losses from Trade in the Specific-Factors Model
 linter-yaml-title-alias: Gains and Losses from Trade in the Specific-Factors Model
+primary_tags:
+- gains international trade conclusion
+- gains bolivia
+- generates gains factors losses
+- real wage rises
+- control natural resources evo
+secondary_tags:
+- trade specific factors model
+- coffee higher fair trade
+- model explain gains trade
+- production industries lose trade
+- wage 68 trade adjustment
+- opening trade exceed losses
+- differentials fair trade price
+- opening country trade factor
+- coffee pricing envisioned
+- bolivian government foreign companies
+- agricultural sector gains specific
+- trade economists
+tags_extracted: '2025-12-18T00:32:09.819592'
 ---
 
 # Gains and Losses from Trade in the Specific-Factors Model

@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Specific Factors and Income Distribution
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Specific Factors and Income Distribution
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 04: Specific Factors and Income Distribution"
-linter-yaml-title-alias: "Chapter 04: Specific Factors and Income Distribution"
+title: 'Chapter 04: Specific Factors and Income Distribution'
+linter-yaml-title-alias: 'Chapter 04: Specific Factors and Income Distribution'
+primary_tags:
+- economy 103 summary
+- income distribution gains trade
+secondary_tags:
+- specific factors income distribution
+- trade specific factors model
+tags_extracted: '2025-12-18T01:46:46.291061'
 ---
 
 # 4 Specific Factors and Income Distribution 77

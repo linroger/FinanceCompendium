@@ -1,12 +1,20 @@
 ---
+title: Part I Overview of the Big Debt Cycle
 aliases:
   - Part I
-tags:
-key_concepts:
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
 cssclasses: academia
-title: "01 - Part I: Overview of the Big Debt Cycle"
+primary_tags:
+  - big debt cycle
+  - economic cycles
+  - debt crisis
+secondary_tags:
+  - credit creation
+  - debt monetization
+  - deleveraging
+  - central banking
+  - financial crisis
+  - monetary policy
 ---
 
-# 01_PART_I
-## PART I
+# Part I: Overview of the Big Debt Cycle

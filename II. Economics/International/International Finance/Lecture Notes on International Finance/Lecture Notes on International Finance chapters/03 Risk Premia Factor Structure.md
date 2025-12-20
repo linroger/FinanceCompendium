@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Risk Premia and Factor Structure
 linter-yaml-title-alias: Risk Premia and Factor Structure
+primary_tags:
+- premium holds countries time
+- risk premia rate dynamics
+- risk premia foreign perspectives
+- fama regression coefficient defined
+secondary_tags:
+- factor structure currency returns
+- modeling currency risk premia
+- currency risk premium corresponding
+- currency risk premium volatile
+- differential currency risk
+- currency loadings risk factors
+- exchange rate variance countries
+- risk premia country higher
+- currency returns adopt arbitrage
+tags_extracted: '2025-12-18T01:44:20.172513'
 ---
 
 # Risk Premia and Factor Structure

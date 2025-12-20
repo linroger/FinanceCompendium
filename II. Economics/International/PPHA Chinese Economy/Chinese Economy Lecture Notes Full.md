@@ -1,13 +1,25 @@
 ---
-parent_directory:
+parent_directory: null
 title: Lecture 1
-tags:
-aliases:
+tags: null
+aliases: null
 parent_folder: Lecture Notes Advanced Financial Analysis and Valuation
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
 linter-yaml-title-alias: Lecture 1
+primary_tags:
+- expropriating foreign capital
+- lecture chinese economy introduction
+- economies started earlier
+secondary_tags:
+- economy introduction shaoda
+- vs china gdp 1978
+- logic lessons china growth
+- china history late 20th
+- year imply china
+- 2030 china 1952
+tags_extracted: '2025-12-18T01:49:47.096117'
 ---
 
 # Lecture 1

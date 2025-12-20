@@ -1,80 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 28 - Financing Market for Small Medium Sized and Entrepreneurial Enterprises
+primary_tags:
+- angel investors earn attractive
+- startup firms instead benefits
+- bankruptcy shortfall quarterly dividend
+- liquidation proceeds preferred stock
+- seed stage financing role
+- markets financing smes
+secondary_tags:
+- 28 financing market
+- angel investors startup performance
+- actual returns angel investments
+- angel venture capital
+- correlated level angel investors
+- angel investments study sponsored
+- venture funds important
+- return invested angel group
+- invest startups potential
+- par value referred liquidation
+- preferred stockholders company required
+- survive years angel funding
+- preferred stock dividend payment
+- smes countries
+- common stock debt obligation
+- exist venture capitalists motivation
 cssclasses: academia
-title: "28"
-linter-yaml-title-alias: "28"
+tags_extracted: '2025-12-18T00:23:56.995225'
 ---
 
-# 28
+# Chapter 28 - Financing Market for Small Medium Sized and Entrepreneurial Enterprises
 
-Financing Market for Small, Medium-Sized, and Entrepreneurial Enterprises
-
-# CONTENTS
-
-Learning Objectives
-
-Definition of Small and Medium-Sized Enterprises
-
-Government Programs and Initiatives
-
-Stages of Development and Financing for a Business Venture
-
-Sources for Seed Stage Financing
-
-Government-Supported Funding Programs
-
-Types of funding arrangements
-
-Angel Investors, Angel Groups, and Super Angels
-
-Equity Crowdfunding Platforms
-
-Seed Accelerators
-
-Expansion Financing
-
-Venture Capitalists
-
-Corporate Venture Capitalists
-
-Online Venture Capital Funds
-
-Institutional Investors: Mutual Funds and Hedge Funds
-
-Initial Public Offering
-
-Advantages of going public
-
-Disadvantages of going public
-
-Equity Dilutive Securities Used for New Ventures
-
-Convertible Preferred Stock
-
-Dividends
-
-Liquidation preferences
-
-Conversion provision
-
-Convertible Note
-
-Conversion terms
-
-Conversion discount
-
-Conversion valuation cap
-
-Debt with Warrants
-
-# Key Points
-
-# Questions
-
-# Learning Objectives
+## Learning Objectives
 - the importance of the small and medium-sized enterprises (SMEs) and new ventures to an economy;
 - the difficulties of SMEs and new ventures in obtaining funding;
 - government programs and initiatives for providing funding for SMEs and new ventures;
@@ -93,7 +49,7 @@ The specific definition of what an SME is varies from country to country. Althou
 
 In this chapter, we describe the markets for financing SMEs and new ventures as well as the financing instruments used by new ventures.
 
-# Definition of Small and Medium-Sized Enterprises
+## Definition of Small and Medium-Sized Enterprises
 
 There is no universal definition of what an SME is. The definition is important, because it may impact the ability of an enterprise to qualify for access to financing programs in a country and those available from suprionals. In a country, it may impact an enterprise's tax status and regulatory treatment.
 
@@ -117,7 +73,7 @@ There are further categorizations of SMEs that might be adopted. The European Un
 
 <table><tr><td>Characteristic</td><td>Micro</td><td>Small</td><td>Medium-Sized</td></tr><tr><td rowspan="3">Number of employees and Revenue2 (in € million) or Balance sheet (in € million)</td><td>&lt;10</td><td>&lt;50</td><td>&lt;250</td></tr><tr><td>≤2</td><td>≤10</td><td>≤50</td></tr><tr><td>≤2</td><td>≤10</td><td>≤43</td></tr></table>
 
-# Government Programs and Initiatives
+## Government Programs and Initiatives
 
 It is well known that the financing market available to SMEs is characterized by market failures and market imperfections. The failure of the market system to provide funding for SMEs as a result of the global financial crisis that began in 2008 has highlighted this shortcoming. Market imperfections in this market has resulted in information asymmetries and high transaction costs for the small loan size typically sought by SMEs. These undesirable characteristics of this market leads to a suboptimal allocation of capital. Recognizing the importance of SMEs and new ventures to the growth of their economies, governments and regional bodies have developed policies for making access to financing easier for these enterprises while also protecting investors. The failure of governments to intervene to support SMEs and entrepreneurial ventures in the manufacturing sector, for example, has lead to two adverse impacts. The first is an underinvestment in research and development (R&D) that can impede the creation of new jobs and products. The second is that because SME manufacturers are less likely than larger firms to implement and adopt new technology and to invest in worker training and education, SME productivity improvements are slower than they would be with government support.
 
@@ -132,7 +88,7 @@ The European Union's "Small Business Act" for Europe is its major policy initiat
 
 As we discuss the varying funding sources later this chapter, we'll give examples of government programs, agencies, and initiatives.
 
-# Stages of Development and Financing for a Business Venture
+## Stages of Development and Financing for a Business Venture
 
 Below we describe the stages of a privately held company in terms of the milestones achieved, according to the American Institute of Certified Public Accountants. This categorization of a business venture is important for understanding the sources of financing available to entrepreneurs.
 
@@ -163,11 +119,11 @@ In the seed stage, it is difficult for founders to obtain debt financing from ba
 
 Expansion stage financing includes the last five stages of business development and financing described above. It is funding for the purpose of expanding the company's business by expanding production and acquiring customers based on its marketing strategy. Financing here includes bridge loans, second round financing (also called Series B round), third round financing (also called Series C round), and so on. Additional rounds of financing may be necessary if the company does not have a liquidating event after several rounds of financing. As explained later in this chapter, the entry of a new investor group, institutional investors, has allowed ventures to raise funds via an IPO, which provides substantial funds for a company to expand without the need to go public.
 
-# Sources for Seed Stage Financing
+## Sources for Seed Stage Financing
 
 After the abovementioned sources are exhausted, seed finance can come from one or more of the following: government-supported funding via agencies, programs, and initiatives; angel investors, angel groups, and super angels; and seed accelerators.
 
-# Government-Supported Funding Programs
+## Government-Supported Funding Programs
 
 National governments have recognized the need to support SMEs and new venture enterprises for the reasons described earlier in this chapter. The types of government-supported funding programs that have been used by countries make financing more accessible to SMEs and new ventures are loan guarantees, direct credit loans, loan subsidies, grant programs, and preferable tax treatment for lenders to SMEs. In 2008, the World Bank reported the results of a study on bank financing for SMEs in developed and developing countires. $^{8}$  One focus of the survey, which included 91 banks, is on the role of government loan programs. The study found that six of the seven developed countries and 32 of the 45 developing countries had government programs to foster financing for SMEs. The study concluded that guarantee programs are the most common government program used by developed and developing countries to support SME financing. The second most popular program in developed programs was interest rate subsidies. In contrast, for developing countries, the second most common program was direct credit programs.
 
@@ -230,23 +186,23 @@ The above findings are the returns for individual ventures. When looking at ange
 
 Instead of studying actual returns on angel investments, in a study sponsored by the Federal Reserve Bank of Atlanta, DeGennaro and Dwyer investigate the expected returns that drive investments.[23] For their sample of 588 angel investments during 1972–2007, which contains 419 investments that were completed by the end of 2007 (i.e., exited investments),[24] they found that angel investors can expect to earn net returns of  $70\%$  in excess of the risk-free rate of return available in the market for an average holding period of 3.67 years. This is roughly the same profile that has been found for venture capitalists.[25]
 
-# Equity Crowdfunding Platforms
+## Equity Crowdfunding Platforms
 
 Crowdfunding is the practice of raising funds for a startup from a large number of investors who invest small sums. Typically, the funds are raised via the Internet. There are two types of crowdfunding: reward (donation) crowdfunding and equity crowdfunding.[26] Our focus here is on equity crowdfunding, which allows investors to obtain an equity interest in a startup company.
 
 Any startup that is interested in raising equity capital has to comply with its home country's securities regulations. In the United States, for example, startup companies must comply with the general solicitation and advertising as set forth by the SEC. Prior to April 5, 2012, equity crowdfunding was not allowed in the United States. However, provisions in the Jumpstart Our Business Starts Act (JOBS Act) made possible the soliciting of funds by startups, allowing for equity crowdfunding. Since that time, numerous equity crowdfunding platforms have been started.
 
-# Seed Accelerators
+## Seed Accelerators
 
-Seed accelerators provide a vehicle for founders to launch a company in a high-tech industry. They do so by providing seed stage financing in exchange for a small equity stake in the startup. The amount of funding available from accelerators ranges from  $20,000 to$ 100,000 in exchange for 2–10\% equity in the company. Funding is in the form of a convertible note, the same instrument used by angel investors and described later in this chapter.
+Seed accelerators provide a vehicle for founders to launch a company in a high-tech industry. They do so by providing seed stage financing in exchange for a small equity stake in the startup. The amount of funding available from accelerators ranges from  \$20,000 to \$100,000 in exchange for 2–10\% equity in the company. Funding is in the form of a convertible note, the same instrument used by angel investors and described later in this chapter.
 
 What is key for founders who are considering seed accelerators is the opportunity to gain access not only to needed funding but also to other potential investors, training in a short period of time, temporary office space, and access to a team of experts. By providing mentoring for founders, seed accelerators prepare founders to present their ideas for a product or service to potential venture capitalists. At the conclusion of the program (i.e., on graduation from the program), there is a "demo day," where founders can make presentations to potential investors and the press.
 
-# Expansion Financing
+## Expansion Financing
 
 Until about 2010, the primary sources for expansion financing have been traditional venture capital firms, corporate venture capital firms, and online venture capital funds. The most recent entrants providing financing for startup companies in the very late stages are institutional investors, such as mutual funds and closed-end investment companies.
 
-# Venture Capitalists
+## Venture Capitalists
 
 According to the National Venture Capital Association (NVCA), venture capital firms are "professional, institutional managers of risk capital that enables and supports the most innovative and promising companies."27 The funds invested in a startup business are in the form of equity. The investments are typically made in a series or in rounds that typically occur every two years, based on predetermined milestones being reached by the startup company. The equity investments are typically highly illiquid and have little value until the company matures, which is expected to take from five to eight years after the company is launched.
 
@@ -285,7 +241,7 @@ The potential benefits to the corporate venture fund's parent company are threef
 
 Empirical evidence reported by Hyunsung Daniel Kang and Vikram Nanda based on an analysis of technological and financial returns generated by investments by 796 corporate venture funds in the bio-pharmaceutical industry between 1985 and 2006 support this third benefit. They find that the technological advances attributable to investments made by corporate venture funds did increase the parent corporation's value. However, in contrast to the positive spillover effect generated by technology on corporate value, they found that financial returns had a negligible effect.[35]
 
-Online Venture Capital Funds
+## Online Venture Capital Funds
 
 In May 2012, a platform was launched by FundersClub that allows accredited investors to become equity holders in startup ventures by selecting ventures online.[36] At the time of launch, FundersClub had 5,000 members (i.e., accredited investors). It offers two types of funds to its members: single-company funds and multiccompany funds that are managed by FundersClub. For a single-company fund, the member selects from a prescreened list of startup companies whose investment profile is provided. In contrast, for a multiccompany funds, an investor is investing in a portfolio of yet to be determined startup companies, where the companies to be selected are based on an investment strategy formulated and then executed by the FundersClub investment committee.[37]
 
@@ -293,7 +249,7 @@ Although at the time of launch, 500 of the 5,000 members of FundersClub invested
 
 The FundersClub platform might seem like crowdfunding as described earlier in this chapter. However, it is not crowdfunding, because investors in crowdfunding each invest a sum in one company on an individual basis. Instead, FundersClub pools the amount invested by individuals and then creates a VC fund to either invest in a single startup company or a portfolio of startup companies. Hence, this investment approach is no different than what traditional venture capitalists do when creating VC funds and can be correctly described as an "on-line VC fund." To avoid potential conflicts of interest in the selection of startups included in one of the funds, FundersClub does not charge startup companies to be included on its platform.
 
-Institutional Investors: Mutual Funds and Hedge Funds
+## Institutional Investors: Mutual Funds and Hedge Funds
 
 The latest entrants providing expansion financing for new ventures prior to an IPO, acquisition, or merger are institutional investors. These investors include mutual funds and hedge funds.
 
@@ -309,13 +265,15 @@ As the need for financing increases as the company grows, the founders turn to t
 
 The decision to go public begins with discussions with the company's financial advisor to determine whether the company is a suitable candidate to go public and whether market conditions are right for an IPO. Financial advisors know what investors will consider when acquiring the shares in an IPO. For example, in some industries, a company may be able to go public only by exhibiting a long history of strong financial performance, including revenue and earnings growth. (However, a short history of performance may be acceptable for going public for a companies in certain high-tech industries.) In addition, the founders must determine the trading location for their shares (i.e., an exchange or OTC market). In the case of a company whose stock is listed on an exchange, there are listing requirements that the exchange specifies. With respect to timing, market conditions may be such that IPOs coming to market face low a stock valuation. Such unfavorable conditions would encourage a postponement of an IPO until market conditions improve.
 
-Advantages of going public There are two principal advantages of a company going public. First, publicly traded common stock provides liquidity for the shares owned by founders as well as investors and employees who are shareholders. For some founders who desire to harvest or cash out on the value that they created by building the company, an IPO is allows them to do so.
+### Advantages of going public
+There are two principal advantages of a company going public. First, publicly traded common stock provides liquidity for the shares owned by founders as well as investors and employees who are shareholders. For some founders who desire to harvest or cash out on the value that they created by building the company, an IPO is allows them to do so.
 
 Second, founders can use shares as a form of currency, allowing them to make acquisitions needed to expand their business as well as to attract key executives by offering stock options. The shares are a form of currency because they have a market price, making it unnecessary in transactions involving an acquisition or the hiring of a key officer to negotiate the value of the shares that are used in an exchange. Management of targeted companies that founders seek to acquire and key officers the founders seek to attract have a clearly defined idea of what is being offered by looking at the market value of the shares.
 
 Two other alleged advantages are cited for going public. The first is that publicly traded companies have greater access to alternative financing sources, such as bank loans and bond financing. The second is that a publicly traded company is viewed as more prestigious than a private company, providing greater exposure of its offerings to the public and suppliers, as well as greater exposure to the public investing community.
 
-Disadvantages of going public Some factors make going public less appealing to founders. First, a publicly traded company must comply with the regulatory requirements for reporting companies. For example, in the United States, SEC regulatory requirements result in the occurrence of ongoing costs beyond the initial costs (legal, accounting, and banker fees) associated with an IPO, as well as listing fees charged by an exchange if that is the trading venue selected. The costs of being a public company have increased in the United States as a result of the Sarbanes-Oxley Act of 2002. Second, there are implicit costs that involve the time spent by founders preparing the information that a reporting company must provide on a periodic basis to public investors.
+### Disadvantages of going public
+Some factors make going public less appealing to founders. First, a publicly traded company must comply with the regulatory requirements for reporting companies. For example, in the United States, SEC regulatory requirements result in the occurrence of ongoing costs beyond the initial costs (legal, accounting, and banker fees) associated with an IPO, as well as listing fees charged by an exchange if that is the trading venue selected. The costs of being a public company have increased in the United States as a result of the Sarbanes-Oxley Act of 2002. Second, there are implicit costs that involve the time spent by founders preparing the information that a reporting company must provide on a periodic basis to public investors.
 
 Another concern is the potential loss of confidentiality, a third disadvantage for some companies of taking a private company public. In the United States, a reporting company in its prospectus in its IPO and in its Form 10-K is required to disclose information that founders might view as highly sensitive to its operations or business strategy. The information that is not required from private companies but is from public ones includes information about products, customers, R&D, and management strategies.
 
@@ -323,7 +281,7 @@ The potential loss of control and flexibility when making business decisions as 
 
 Finally, founders who remain with the company after the IPO will experience pressure to perform as expected by shareholders and the financial community to achieve targeted financial metrics, such as earnings per share and earnings growth per share. This often results in the shifting of focus of founders from building a stronger company to achieving short-term financial targets at the expense of long-term performance.
 
-# Equity Dilutive Securities Used for New Ventures
+## Equity Dilutive Securities Used for New Ventures
 
 The financial instruments that can be issued to raise funds are classified as either equity or debt. For most publicly traded nonfinancial corporations, equity is the larger component of the capital structure. For startup companies, equity (or equity-type debt) is typically an even larger component of the capital structure—particularly in the early stages of financing—than it is for publicly traded nonfinancial corporations. This decision about its capital structure (i.e., how much should be financed by equity versus debt) is typically forced on the founders because of the limited sources of pure debt financing available. By "pure debt" financing refers to debt where the creditors are not entitled to convert the debt for equity. As a startup enters into its later stages, there are opportunities to issue pure debt.
 
@@ -341,13 +299,15 @@ Preferred stock comes with provisions that convey rights, preferences, and privi
 
 We now describe the different features of preferred stock.
 
-Dividends The par value together with the preferred stock dividend rate determines the dollar amount of the dividends that would be paid if there are sufficient earnings to pay preferred stockholders. For example, suppose that a company's preferred stock has a par value of 100 per share and a dividend rate of 6\%. Multiplying the par value of 100 by the 6\% dividend rate gives the annual dividend amount (6 in our example) that the company agrees to pay its preferred stockholders.
+### Dividends
+The par value together with the preferred stock dividend rate determines the dollar amount of the dividends that would be paid if there are sufficient earnings to pay preferred stockholders. For example, suppose that a company's preferred stock has a par value of 100 per share and a dividend rate of 6\%. Multiplying the par value of 100 by the 6\% dividend rate gives the annual dividend amount (6 in our example) that the company agrees to pay its preferred stockholders.
 
 A company is under no legal obligation to pay preferred stockholders any dividends. However, in such instances, there is typically a provision that imposes restrictions on management when dividends have not been paid. One such provision conveys preferred stockholders voting rights to elect some members to the issuer's board of directors. This feature is called "contingent voting rights," because the voting rights are contingent on a missed dividend payment. Despite this adverse impact, the legal consequences for failing to make a preferred stock dividend payment are not as dire as when a company fails to pay creditors the interest payment due to them. In that case, the company is legally obligated to repay the principal immediately (i.e., pay off the debt obligation), and failure to do so may result in bankruptcy.
 
 If there is a shortfall in the quarterly dividend payment to preferred stockholders, is the company required to make up the shortfall in future quarters? The answer depends on how this situation is provided for in the preferred stock agreement. Preferred stock can be either cumulative or noncumulative preferred stock. For cumulative preferred stock, the dividend payment accrues until it is fully paid, and therefore common stockholders cannot receive any dividends until that is done. In the case of noncumulative preferred stock, any shortfall in a quarterly dividend payment is lost. As noted earlier, dividends are typically not paid by startups. Consequently, preferred stock issued by a startup company typically will be cumulative preferred stock, where the unpaid dividends will be added to the preferred stock's par value.
 
-Liquidation preferences During a liquidating event, the par value is the amount that the holder is entitled to receive before common stockholders can receive any amount of the liquidation proceeds. Typically, a liquidating event is defined broadly in the agreement. It is not limited to the actual liquidation of the company as a result of bankruptcy or dissolution. Instead, it will typically include the sale of the company and a change of control. In practice, startups often will not have much in proceeds if there is a liquidation event that results in the bankruptcy of the company.
+### Liquidation preferences
+During a liquidating event, the par value is the amount that the holder is entitled to receive before common stockholders can receive any amount of the liquidation proceeds. Typically, a liquidating event is defined broadly in the agreement. It is not limited to the actual liquidation of the company as a result of bankruptcy or dissolution. Instead, it will typically include the sale of the company and a change of control. In practice, startups often will not have much in proceeds if there is a liquidation event that results in the bankruptcy of the company.
 
 The preference granted to preferred stockholders in the case of a liquidating event is considered to be this type of security's key provision, as well as impacting subsequent rounds of financing. To illustrate the importance of the preference granted, let's consider the case of a liquidating event where a company is sold for  \$22 million (after all costs associated with the sale) and assume the following for the pre-sale capital structure: par value of preferred stock of\$ 5 million and debt of 2 million. Once creditors are paid their \$2 million, the amount available to all equity investors (preferred stockholders and common stockholders) is \$20 million. Now the question is how the \$20 million is allocated between the preferred stockholders and common stockholders. If the preferred stockholders are not permitted to participate in any proceeds above the amount of their par value when there is a liquidation event, then the preferred stock is said to be "nonparticipating preferred stock" (or "1× liquidation preference"). In our illustration, the distribution of proceeds resulting from the sale would be as follows: \$5 million to preferred stockholders and 15 million to common stockholders.
 
@@ -373,19 +333,22 @@ Common stockholders:
 
 A hybrid of the two types of preferred stock just described is one in which participation takes place, but it is capped at a specified amount. This form of preferred stock is referred to as capped participating preferred stock or partially participating preferred stock. For example, in our previous illustration, suppose that the preferred stockholders are entitled to share equally in liquidation proceeds up to \$8 million. Then the preferred stockholders would receive \$8 million, and the common stockholders would receive the balance of 12 million.
 
-Conversion provision The optional conversion feature in a preferred stock offering often granted to investors in a startup company typically grants the investor the right to convert to the company's common shares. Restrictions may be imposed on when the conversion must occur. Typically, conversion is mandatory if certain events occur, such as an IPO. There are provisions to protect investors against dilution of their potential equity position.
+### Conversion provision
+The optional conversion feature in a preferred stock offering often granted to investors in a startup company typically grants the investor the right to convert to the company's common shares. Restrictions may be imposed on when the conversion must occur. Typically, conversion is mandatory if certain events occur, such as an IPO. There are provisions to protect investors against dilution of their potential equity position.
 
-# Convertible Note
+## Convertible Note
 
 A convertible note is typically issued to investors in the early stages of financing of a startup prior to a first ("Series A") round of financing. Unlike convertible preferred stock, which is a form of equity, a convertible note is a form of debt. The holder of the convertible note either has the option to exchange the note for an equity position or automatically has the position converted into an equity position if there is a Series A round of financing. The equity position received by the holder of a convertible note is typically preferred stock.
 
-Conversion terms Let's first look at a traditional convertible note issued by a mature corporation. The traditional convertible note gives the investor the right to convert into the issuer's common stock. The number of common stock shares into which the convertible note can be converted is called the "conversion ratio." Typically, the conversion ratio is fixed over the life of the convertible note. If the par value of the convertible note is  \$1,000 and the conversion ratio is 20:1, then the investor is entitled to convert the note into 20 shares of common stock. Effectively the price that the investor would be paying for each share of common stock by exercising the conversion privilege (i.e., the "conversion price") is\$ 50 per share.
+### Conversion terms
+Let's first look at a traditional convertible note issued by a mature corporation. The traditional convertible note gives the investor the right to convert into the issuer's common stock. The number of common stock shares into which the convertible note can be converted is called the "conversion ratio." Typically, the conversion ratio is fixed over the life of the convertible note. If the par value of the convertible note is  \$1,000 and the conversion ratio is 20:1, then the investor is entitled to convert the note into 20 shares of common stock. Effectively the price that the investor would be paying for each share of common stock by exercising the conversion privilege (i.e., the "conversion price") is\$ 50 per share.
 
 When used for seed financing by a startup, the conversion note differs in two ways. First, the conversion is typically into preferred stock and not common stock as in the case of a traditional convertible note. Moreover, the preferred stock is convertible preferred stock. So the exercise of the conversion privilege gives the investor the right to convert into a security that, in turn, has the right to eventually convert into common stock. Because a convertible debt can ultimately result in the issuance of more common stock, it is a form of an equity dilutive security.
 
 The second difference is the price paid for the preferred stock when conversion occurs. The price that an investor will have to pay for the preferred stock shares if conversion occurs is based on a provision set forth in the convertible note offering. There could be a conversion discount or a conversion valuation cap. As explained below, both these provisions are included for the benefit of convertible note investors to compensate them for the substantial risks that they accepted by being early investors.
 
-Conversion discount Early investors in a startup who purchase the convertible note do so in anticipation of generating an attractive return, if the startup performs well and its common stock price increases. Consequently, there must be provisions in the convertible note offering that allow investors to be compensated for accepting this risk exposure at the early stages of the startup. In addition, that reward should be potentially greater than that given to investors who invest in later financing rounds of the startup. In other words, when later investors (such as venture capitalists) make a determination of the value of the startup to purchase the shares of the preferred stock, investors in the convertible note want to be able to purchase the preferred shares at a lower price, because they were the initial bearers of the high risks associated with a startup company.
+### Conversion discount
+Early investors in a startup who purchase the convertible note do so in anticipation of generating an attractive return, if the startup performs well and its common stock price increases. Consequently, there must be provisions in the convertible note offering that allow investors to be compensated for accepting this risk exposure at the early stages of the startup. In addition, that reward should be potentially greater than that given to investors who invest in later financing rounds of the startup. In other words, when later investors (such as venture capitalists) make a determination of the value of the startup to purchase the shares of the preferred stock, investors in the convertible note want to be able to purchase the preferred shares at a lower price, because they were the initial bearers of the high risks associated with a startup company.
 
 The provision that allows convertible note investors to do just that is the conversion discount, which specifies the discount at which convertible note investors can buy the preferred stock shares below what Series A investors pay for their preferred stock shares. Here is an example of how it works, assuming a  $25\%$  conversion discount.
 
@@ -397,17 +360,18 @@ A startup company may not necessarily raise all funds via convertible notes at o
 
 Unlike a traditional convertible note, where the investors benefit from a rise in the value of the company, although investors in a startup's convertible note also benefit from an increase in valuation, investors do not want to see it rise that much by the Series A round of financing. The higher the valuation placed by the Series A investors is, the fewer shares of preferred stock will be received.
 
-Conversion valuation cap A conversion valuation cap is the maximum dollar amount that can be used for determining the conversion price that the holder of the convertible note has to pay for the right to convert into preferred stock. The reason that this provision benefits the investor is that a lower price can be paid for the preferred stock than Series A investors pay.
+### Conversion valuation cap
+A conversion valuation cap is the maximum dollar amount that can be used for determining the conversion price that the holder of the convertible note has to pay for the right to convert into preferred stock. The reason that this provision benefits the investor is that a lower price can be paid for the preferred stock than Series A investors pay.
 
 To illustrate, suppose that an investor owns \$300,000 par value of a convertible note with a conversion valuation cap of \$6 million, and the company is raising funds in a Series A financing. Suppose further that the pre-money valuation (recall that this is the valuation before angel financing) is \$8 million in this financing for preferred stock with a par value of \$1. At the time of financing, assume that the accrued interest for the convertible note is \$60,000. The conversion valuation cap of \$6 million means that the conversion price for the convertible noteholders to purchase the preferred stock is adjusted below that paid by the Series A investors. The procedure to obtain the adjustment is found by dividing the conversion valuation cap (\$6 million in our example) by the pre-money valuation (\$8 million in our illustration). In our illustration, the adjustment is then 75\%. Thus the convertible note investors will pay 75\% of what is paid by the Series A investors to buy the preferred stock. Because Series A investors pay \$1 per share of preferred stock, the convertible note investors pay only \$0.75. And so because the convertible note investors are converting \$360,000 (principal plus accrued interest), they will receive 480,000 prefer stock shares (\$360,000/0.75).
 
-# Debt with Warrants
+## Debt with Warrants
 
 Another form of debt that is an equity dilutive security is debt with warrants to purchase the company's common stock. A warrant is a form of option that grants the warrant holder the right to exercise it and receive a specified security. Often this type of financing is raised in the later stages of a company to obtain financing between rounds of financing (i.e., bridge financing).
 
 For example, a company might issue convertible debt with warrants to purchase up to 15\% of the common stock. This is referred to as "convertible debt with 15\% warrant coverage." Suppose that the par value of this convertible debt is \$5 million. Then investors in this convertible debt with warrants have the right to purchase \$750,000 (0.15 × 5 million) of the issuer's common stock. The exercise price for the warrants is determined by what investors in the next round of financing agree to pay for the common stock. Thus, what is important is that investors are confident that there will be another round of financing to determine the conversion price. This is why such financing is used less often in the very early stages of financing but occurs later on in bridge financing, when the company has already gone through several rounds of financing. However, some observrs have suggested tweaks in the convertible debt with warrant structure to increase its use in certain early stage financing situations.
 
-# Key Points
+## Key Points
 - Every country has its own definition of what a small and medium-sized enterprise (SME) is.
 - The governments of different countries and international organizations establish their own guidelines for defining SMEs.
 - The metrics used in classifying an enterprise as an SME include the number of employees, level of sales (revenue), and total assets.
@@ -450,7 +414,7 @@ For example, a company might issue convertible debt with warrants to purchase up
 - A convertible note, typically issued to investors in the early stages of financing (prior to a Series A round), is a form of debt.
 - Convertible noteholders can have either the option to exchange the note for an equity position or automatically has the position converted into an equity position if there is a Series A round of financing.
 
-# Questions
+## Questions
 
 1. How is an SME defined?
 2. The following is a quote from the World Bank and FIRST Initiative:
@@ -537,7 +501,3 @@ b. What is capped participating preferred stock?
 39. For simplicity, we are ignoring the possibility that the amount due to preferred stockholders would reflect the dividends that may have accumulated since the issuance of the preferred stock.
 40. World Bank and FIRST Initiative, Principles for Public Credit Guarantee Schemes for SMEs (Washington, DC: World Bank, 2015).
 41. "Mutual Funds Moonlight as Venture Capitalists: Firms Are Pushing into Silicon Valley at a Record Pace," Wall Street Journal, April 20, 2014.
-
-# VII
-
-REAL ESTATE MARKETS

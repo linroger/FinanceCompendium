@@ -1,3 +1,18 @@
+---
+primary_tags:
+- infer individual taste
+- random products consumers general
+- optimal prices estimated jointly
+secondary_tags:
+- appendix discrete choice models
+- choice models discrete
+- nonlinear income discrete choice
+- discrete choice literature implies
+- aggregated individual choice
+- discrete choice purchased quantity
+tags_extracted: '2025-12-18T00:14:12.237080'
+---
+
 # Appendix B: Discrete Choice Models
 
 Discrete choice models are commonly taught in econometrics, but the economic generality of these models is sometimes unclear. This is especially true when we consider models that incorporate not just demand but also the optimal prices charged by firms under imperfect competition. In that case, we want to derive demand and prices in a mutually consistent fashion, as will be discussed in this Appendix.

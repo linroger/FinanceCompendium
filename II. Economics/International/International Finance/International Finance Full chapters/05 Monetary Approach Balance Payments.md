@@ -1,12 +1,28 @@
 ---
 aliases:
-  - Monetary Approach Balance Payments
-tags:
-key_concepts:
+- Monetary Approach Balance Payments
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 5: Monetary Approach Balance Payments"
-linter-yaml-title-alias: "Chapter 5: Monetary Approach Balance Payments"
+title: 'Chapter 5: Monetary Approach Balance Payments'
+linter-yaml-title-alias: 'Chapter 5: Monetary Approach Balance Payments'
+primary_tags:
+- money positive function domestic
+- quantity theory money basis
+- stable demand money function
+- exchange rates monetary approach
+secondary_tags:
+- monetary approach balance payments
+- chapter simple monetary model
+- demand nominal money balances
+- postulate monetary approach
+- equilibrium monetary
+- mind monetary model referring
+- money balances greater reason
+- monetarists use quantity theory
+- monetary approach argues devaluation
+tags_extracted: '2025-12-18T01:31:35.148124'
 ---
 
 # CHAPTER 5

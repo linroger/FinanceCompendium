@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Puzzles: Challenges to Making Sense of Data"
-linter-yaml-title-alias: "Puzzles: Challenges to Making Sense of Data"
+title: 'Puzzles: Challenges to Making Sense of Data'
+linter-yaml-title-alias: 'Puzzles: Challenges to Making Sense of Data'
+primary_tags:
+- realized currency
+- comovement shows international finance
+- exchange rate movement cyclicality
+- understand government debt
+secondary_tags:
+- exchange rate data puzzles
+- exchange rate movement sdfs
+- international risk sharing puzzle
+- movement volatility developed economies
+- volatility puzzle unconditional variance
+- conduct decomposition currency risk
+- volatility exchange rate
+- puzzle models risk
+- return comovement exhibit puzzling
+tags_extracted: '2025-12-18T01:44:14.951689'
 ---
 
 # Puzzles: Challenges to Making Sense of Data

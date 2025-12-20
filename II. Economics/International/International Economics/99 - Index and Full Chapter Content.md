@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: international economics
 linter-yaml-title-alias: international economics
+primary_tags:
+- left right underbrace text
+- debt repayment likely volatility
+- imf bailout argentina
+- country witnessed banking crises
+- industry wages reflect
+- argentina net external debt
+- automobile industry china buying
+secondary_tags:
+- 16 14 text underbrace
+- underbrace left begin array
+- expertise did lenovo acquire
+- external conditions argentina macroeconomic
+- times underbrace left
+- economics trade global
+- array frac leq underbrace
+- left argentina worse debt
+- debt level country defaults
+- handle eurozone financial instability
+- volatility borrowing country output
+- overline underbrace overline overline
+- theta underbrace underbrace theta
+- higher volatility default region
+- workers eligible trade adjustment
+- tag 17 underbrace
+- underbrace substack text trade
+- probability output repayment region
+- region hasn vanished debt
+tags_extracted: '2025-12-18T00:30:51.593634'
 ---
 
 Index I-1

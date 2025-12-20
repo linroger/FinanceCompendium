@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "34"
-linter-yaml-title-alias: "34"
+title: '34'
+linter-yaml-title-alias: '34'
+primary_tags:
+- greater long position example
+- 34 options markets contents
+- differences options futures contracts
+- options market institutional
+secondary_tags:
+- 34 holds buyers options
+- options writing selling
+- role options markets options
+- trading futures options reasons
+- characteristics options buying options
+- option contract basic features
+- sharing arrangements options contracts
+- aspects non options markets
+- market does futures market
+tags_extracted: '2025-12-18T00:27:47.021235'
 ---
 
 # 34

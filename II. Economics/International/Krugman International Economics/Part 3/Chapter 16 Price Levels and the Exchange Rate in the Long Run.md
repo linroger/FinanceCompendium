@@ -1,12 +1,20 @@
 ---
 aliases:
-  - Price Levels and the Exchange Rate in the Long Run
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Price Levels and the Exchange Rate in the Long Run
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 16: Price Levels and the Exchange Rate in the Long Run"
-linter-yaml-title-alias: "Chapter 16: Price Levels and the Exchange Rate in the Long Run"
+title: 'Chapter 16: Price Levels and the Exchange Rate in the Long Run'
+linter-yaml-title-alias: 'Chapter 16: Price Levels and the Exchange Rate in the Long
+  Run'
+primary_tags:
+- parity 454 relationship ppp
+- patterns price level measurement
+secondary_tags:
+- purchasing power parity
+- run exchange rate model
+tags_extracted: '2025-12-18T01:47:07.482396'
 ---
 
 # 16 Price Levels and the Exchange Rate in the Long Run 452

@@ -1,11 +1,21 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Doob Decomposition
 linter-yaml-title-alias: Doob Decomposition
+primary_tags:
+- other stochastic processes
+- doob-meyer decomposition
+secondary_tags:
+- doob decomposition martingale processes
+- decomposition martingale processes
+- martingale processes
+- predictable drift process
+tags_extracted: '2025-12-18T17:56:19.842983'
+tags_method: max_quality_v1
 ---
 
 # Doob Decomposition

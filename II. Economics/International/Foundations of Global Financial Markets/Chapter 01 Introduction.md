@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "1"
-linter-yaml-title-alias: "1"
+title: '1'
+linter-yaml-title-alias: '1'
+primary_tags:
+- role financial markets classification
+- debt versus equity instruments
+- role derivative instruments financial
+- financial markets entities country
+- contract type derivative
+secondary_tags:
+- assets financial markets role
+- contracts called derivative instruments
+- types derivative instruments futures
+- functions financial assets distinction
+- financial markets differences primary
+- futures forward contract type
+- reasons globalization financial markets
+- classes financial markets developed
+- referred institutionalization financial markets
+- derivative instruments allow market
+- called factor markets purpose
+- financial instruments type
+tags_extracted: '2025-12-18T00:16:16.391082'
 ---
 
 # 1

@@ -1,9 +1,25 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 26_18_My_3__3-Part_Solution
+primary_tags:
+- democrats reached question
+- different outcomes government debt
+- changes deficit achieving goal
+- rate changes deficit
+secondary_tags:
+- 2618my33 partsolution solution chapter
+- solution make government debt
+- baseline scenario government debt
+- cut deficit rectify problem
+- government debt income ratio
+- effects different spending
+- rate stabilize debt change
+- goal stabilizing government debts
+- spending tax rate changes
+tags_extracted: '2025-12-18T00:02:42.215415'
 ---
 
 # 26_18_My_3__3-Part_Solution

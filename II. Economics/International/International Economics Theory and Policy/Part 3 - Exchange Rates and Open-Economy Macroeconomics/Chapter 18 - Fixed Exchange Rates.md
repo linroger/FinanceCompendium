@@ -1,3 +1,31 @@
+---
+primary_tags:
+- macroeconomic policies sterilized intervention
+- effect exchange rate monetary
+- exchange rate mechanism
+- policy fixed exchange rate
+- effect foreign exchange intervention
+- currency devalued economy equilibrium
+secondary_tags:
+- money supply effects devaluation
+- exchange rate fiscal expansion
+- foreign exchange intervention affects
+- exchange rate monetary policy
+- stabilization policies fixed exchange
+- understand fixed exchange rates
+- intervention hold exchange rate
+- devaluation allows government
+- expansion money supply effects
+- exchange rate flexibility
+- caused devaluation proportional increase
+- fiscal policy affect
+- floating exchange rates governments
+- exchange rates macroeconomic policies
+- monetary policy influenced exchange
+- money supply explains fiscal
+tags_extracted: '2025-12-18T00:54:13.360532'
+---
+
 # FIXED EXCHANGE RATES AND FOREIGN EXCHANGE INTERVENTION
 
 In the past several chapters, we developed a model that helps us understand how a country's exchange rate and national income are determined by the interaction of asset and output markets. Using that model, we saw how monetary and fiscal policies can be used to maintain full employment and a stable price level.

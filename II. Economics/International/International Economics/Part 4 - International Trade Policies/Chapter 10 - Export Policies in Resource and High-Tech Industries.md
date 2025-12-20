@@ -1,12 +1,33 @@
 ---
 aliases:
-  - Export Policies in Resource and High-technology Industries
-tags:
-key_concepts:
+- Export Policies in Resource and High-technology Industries
+tags: null
+key_concepts: null
 parent_directory: Part 4 - International Trade Policies
 cssclasses: academia
 title: Chapter 10 - Export Policies in Resource and High-technology Industries
-linter-yaml-title-alias: Chapter 10 - Export Policies in Resource and High-technology Industries
+linter-yaml-title-alias: Chapter 10 - Export Policies in Resource and High-technology
+  Industries
+primary_tags:
+- european union a380 ultimately
+- export tariff net effect
+- country tariff shifts export
+- subsidies airbus boeing 13
+- export production subsidies policies
+secondary_tags:
+- boeing airbus dispute
+- does export tariff produce
+- a380 ultimately pay boeing
+- repair defect boeing believes
+- export subsidies determine profits
+- airbus produced competitor 787
+- tariff produce overall loss
+- wings body a380 aircraft
+- tariff home government earns
+- sales subtracting exports home
+- large exporting country does
+- trade supply effect export
+tags_extracted: '2025-12-18T00:39:39.556475'
 ---
 
 # Export Policies in Resource and High-technology Industries

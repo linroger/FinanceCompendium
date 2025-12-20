@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "International Agreements: Trade, Labor, and the Environment"
-linter-yaml-title-alias: "International Agreements: Trade, Labor, and the Environment"
+title: 'International Agreements: Trade, Labor, and the Environment'
+linter-yaml-title-alias: 'International Agreements: Trade, Labor, and the Environment'
+primary_tags:
+- minimum wage activism did
+- offset production externality negative
+- tariff cost imported parts
+- agreements environment rulings wto
+- protesters seattle international agreements
+- auto mexico establishment nafta
+secondary_tags:
+- cost externality free trade
+- wto protests environment
+- world trade organization seattle
+- discuss international agreements environment
+- labor environment seattle riot
+- diversion asia mexico nafta
+- reflects social cost externality
+- effect nafta country welfare
+- united states trade creation
+- agreements labor issues international
+- effect garment industry
+- nafta counterintuitive result normally
+- imports nafta conclude
+- column nafta cost
+- auto asia free trade
+- example suppose joining nafta
+tags_extracted: '2025-12-18T00:35:46.633695'
 ---
 
 # International Agreements: Trade, Labor, and the Environment

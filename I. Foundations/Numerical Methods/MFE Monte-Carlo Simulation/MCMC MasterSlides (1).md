@@ -1,11 +1,32 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "IEOR E4703: Monte-Carlo Simulation"
-linter-yaml-title-alias: "IEOR E4703: Monte-Carlo Simulation"
+title: 'IEOR E4703: Monte-Carlo Simulation'
+linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+primary_tags:
+- exponential distributions
+- bayesian theorem
+- bayesian modeling additional references
+- matteson's statistics and data analysis
+- output analysis
+secondary_tags:
+- bayesian models
+- conjugate priors
+- metropolis hastings algorithm
+- mcmc diagnostics
+- gibbs sampler markov chain
+- bayes's theorem
+- mcmc important
+- bayesian versions
+- hamiltonian monte-carlo
+- data analysis
+- empirical bayes
+- simulated samples
+tags_extracted: '2025-12-18T17:59:07.528519'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

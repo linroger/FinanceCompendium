@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: CHAPTER 1
 linter-yaml-title-alias: CHAPTER 1
+primary_tags:
+- currency currency according market
+- spot currency depreciates rates
+- forward exchange markets decide
+- pounds foreign exchange
+secondary_tags:
+- chapter foreign exchange market
+- outline introduction exchange rate
+- forward pounds speculators average
+- indicated forward exchange rate
+- quote rates foreign currency
+- market exchange rate definitions
+- ective exchange rates national
+- depreciation dollar london selling
+- exchange rate net sellers
+tags_extracted: '2025-12-18T01:29:55.742656'
 ---
 
 # CHAPTER 1

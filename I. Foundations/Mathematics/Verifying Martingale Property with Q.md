@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "Verifying the Martingale Property for Subsequent Periods"
-tags:
+title: Verifying the Martingale Property for Subsequent Periods
+tags: null
 aliases:
-  - Verifying the Martingale Property for Subsequent Periods
+- Verifying the Martingale Property for Subsequent Periods
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Verifying the Martingale Property for Subsequent Periods"
+linter-yaml-title-alias: Verifying the Martingale Property for Subsequent Periods
+primary_tags:
+- time axis
+- risk-neutral probabilities
+- required martingale property
+secondary_tags:
+- martingale properties
+- other risk-neutral probabilities
+- discounted stock price
+- bond numeraire
+- subsequent periods
+- expected value
+tags_extracted: '2025-12-18T17:58:50.694849'
+tags_method: max_quality_v1
 ---
 
 # Verifying the Martingale Property for Subsequent Periods

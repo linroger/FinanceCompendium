@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Portfolio Choice and Asset Demand
 linter-yaml-title-alias: Portfolio Choice and Asset Demand
+primary_tags:
+- rebalancing trading variations asset
+- wealth dynamics international nfa
+- portfolio choices capital flows
+- international portfolio dynamics
+secondary_tags:
+- portfolio choice asset demand
+- country asset class demand
+- trade portfolio choice theory
+- countries choose portfolios portfolios
+- household portfolio net foreign
+- capital flow dynamics country
+- foreign assets difference
+- allocation decisions aggregate international
+- trade balance aggregate financial
+tags_extracted: '2025-12-18T01:45:10.716586'
 ---
 
 # Portfolio Choice and Asset Demand

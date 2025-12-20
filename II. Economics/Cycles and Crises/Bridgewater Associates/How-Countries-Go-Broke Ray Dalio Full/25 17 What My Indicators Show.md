@@ -1,9 +1,21 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 25_17_What_My_Indicators_Show
+primary_tags:
+- 15 world debt external
+- fx reserves reduces risk
+- risks view like measuring
+secondary_tags:
+- shows indicators major countries
+- 2517whatmyindicatorsshow indicators making assessments
+- debts denominated currency risk
+- risk rating central bank
+- indicators risks central governments
+- government debt risks chart
+tags_extracted: '2025-12-18T00:02:33.160588'
 ---
 
 # 25_17_What_My_Indicators_Show

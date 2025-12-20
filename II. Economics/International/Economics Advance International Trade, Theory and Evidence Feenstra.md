@@ -1,13 +1,38 @@
 ---
 aliases:
-  - Advanced International Trade
-  - Feenstra Trade Theory
-tags:
-key_concepts:
+- Advanced International Trade
+- Feenstra Trade Theory
+tags: null
+key_concepts: null
 parent_directory: II. Economics/International
 cssclasses: academia
-title: "Advanced International Trade: Theory and Evidence"
-linter-yaml-title-alias: "Advanced International Trade: Theory and Evidence"
+title: 'Advanced International Trade: Theory and Evidence'
+linter-yaml-title-alias: 'Advanced International Trade: Theory and Evidence'
+primary_tags:
+- goods factors assume away
+- goods produced countries argued
+- trade equilibrium
+- specific price increases regression
+- advanced international trade theory
+- analysis similar sector model
+secondary_tags:
+- trade theory evidence
+- trade theory empirical
+- recent research international trade
+- handbook international trade
+- countries differing factor endowments
+- international trade equilibrium relative
+- trade pattern ho model
+- course international trade assume
+- interpreted slope marginal revenue
+- differentiated product sector produced
+- hedonic regression japanese cars
+- trade factors substitute trade
+- inverse demand curve right
+- panel equilibrium foreign
+- autarky equilibrium abroad assumption
+- discussed chapter trade policy
+tags_extracted: '2025-12-18T00:16:00.597556'
 ---
 
 # Advanced International Trade: Theory and Evidence

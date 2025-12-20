@@ -1,3 +1,31 @@
+---
+primary_tags:
+- stability argument pegging gold
+- countries gold standard floated
+- choice exchange rate regime
+- monetary experience conclusions pegged
+- costs arose endogenously countries
+- versus floating international monetary
+secondary_tags:
+- inflationary consequences floating countries
+- fixed versus floating regimes
+- gold standard countries experiencing
+- history international monetary arrangements
+- exchange rate different points
+- argument favor fixed exchange
+- 1920s choosing peg currencies
+- gold standard bilateral trade
+- integration fixed exchange rates
+- countries trilemma resolved shift
+- period bretton
+- gold standard strict monetary
+- 1914 stabilization costs pegging
+- theory pairs countries
+- monetary policies different
+- gold standard 1920s 1930s
+tags_extracted: '2025-12-18T00:43:16.907141'
+---
+
 # Fixed Versus Floating: International Monetary Experience
 
 In truth, the gold standard is already a barbarous relic. All of us, from the Governor of the Bank of England downwards, are now primarily interested in preserving the stability of business, prices, and employment, and are not likely, when the choice is forced on us, deliberately to sacrifice these to the outworn dogma. . . . Advocates of the ancient standard do not observe how remote it now is from the spirit and the requirements of the age.

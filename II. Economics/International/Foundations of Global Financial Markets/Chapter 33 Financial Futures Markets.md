@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "33"
-linter-yaml-title-alias: "33"
+title: '33'
+linter-yaml-title-alias: '33'
+primary_tags:
+- sharing price risk futures
+- forward contracts role
+- futures exchanges investors want
+- futures contracts come margin
+- futures contracts financial markets
+secondary_tags:
+- p500 futures contract cme
+- derivatives classified futures forwards
+- size futures contract settlement
+- single stock futures traded
+- futures contract short required
+- futures security indexes narrow
+- futures contract sold instead
+- futures contracts controlling long
+- single stock futures type
+- open futures position
+- stock futures 20 different
+- insurance arrangement derivatives
+tags_extracted: '2025-12-18T00:27:30.058869'
 ---
 
 # 33

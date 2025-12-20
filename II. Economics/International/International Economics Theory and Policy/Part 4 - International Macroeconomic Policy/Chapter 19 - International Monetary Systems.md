@@ -1,3 +1,26 @@
+---
+primary_tags:
+- monetary policy autonomy question
+- fixed exchange rate arrangements
+- international monetary systems
+- 1970s eventually brought bretton
+- bretton woods period policy
+secondary_tags:
+- exchange rate inflexibility bretton
+- theory speculative currency crises
+- external balance economy displaced
+- policy exchange rate stability
+- currency devalued level domestic
+- external constraints foreign exchange
+- disequilibrium countries pegged currencies
+- policies explain bretton
+- exchange rate policies change
+- 1914 world monetary order
+- euro likely policy coordination
+- exchange rate realignments fearing
+tags_extracted: '2025-12-18T00:54:22.608308'
+---
+
 # INTERNATIONAL MONETARY SYSTEMS: A HISTORICAL OVERVIEW
 
 In Chapters 17 and 18, we saw how a single country can use monetary, fiscal, and exchange rate policies to change the levels of employment and production within its borders. Although this analysis usually assumes that macroeconomic conditions in the rest of the world are not affected by the actions of the country we are studying, that assumption is not, in general, a valid one: Any change in the home country's real exchange rate automatically implies an opposite change in foreign real exchange rates, and any shift in overall domestic spending is likely to change domestic demand for foreign goods. Unless the home country is insignificantly small, developments within its borders affect macroeconomic conditions abroad and therefore complicate the task of foreign policy makers.

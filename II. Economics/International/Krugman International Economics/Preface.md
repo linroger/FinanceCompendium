@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: PART 1 International Trade Theory 36
 linter-yaml-title-alias: PART 1 International Trade Theory 36
+primary_tags:
+- 12 controversies trade
+- international trade theory
+secondary_tags:
+- trade theory 36 world
+- trade model
+tags_extracted: '2025-12-18T01:47:27.365456'
 ---
 
 Preface 19

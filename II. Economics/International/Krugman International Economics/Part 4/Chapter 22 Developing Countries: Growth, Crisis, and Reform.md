@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "22 Developing Countries: Growth, Crisis, and Reform 732"
-linter-yaml-title-alias: "22 Developing Countries: Growth, Crisis, and Reform 732"
+title: '22 Developing Countries: Growth, Crisis, and Reform 732'
+linter-yaml-title-alias: '22 Developing Countries: Growth, Crisis, and Reform 732'
+primary_tags:
+- east asian economic
+- financial inflows developing countries
+secondary_tags:
+- developing countries growth crisis
+- lessons developing country crises
+tags_extracted: '2025-12-18T01:47:24.083729'
 ---
 
 # 22 Developing Countries: Growth, Crisis, and Reform 732

@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Elementary Review of Mathematics for Finance
 linter-yaml-title-alias: Elementary Review of Mathematics for Finance
+primary_tags:
+- constituent securities
+- two derivatives
+- financial analysis
+- following expression
+secondary_tags:
+- math classes
+- domestic stocks
+- international bonds
+- such symbols
+- third derivative
+- common algebraic functions
+- various finance applications
+- major formulas
+- product notation
+tags_extracted: '2025-12-18T04:08:56.402780'
+tags_method: max_quality_v1
 ---
 
 # Elementary Review of Mathematics for Finance

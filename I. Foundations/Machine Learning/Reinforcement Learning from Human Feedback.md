@@ -1,3 +1,36 @@
+---
+primary_tags:
+- current language models
+- deepseekmath paper details
+- implicit reward model learning
+- post-training techniques
+- general machine learning
+- related ideas
+- no 2025-05-21 hunyuan
+secondary_tags:
+- large scale reinforcement learning
+- related works
+- future rlhf
+- tool use models
+- target reward
+- direct-alignment objectives
+- core piece
+- evaluation datasets
+- helpful language models
+- larger language models
+- model l(θ
+- (e.g., success/failure
+- better formats
+- training time
+- implementation challenges
+- reward ensembles
+- reliable and specific feedback data
+- reward function
+- noukhovitch et al
+tags_extracted: '2025-12-18T17:56:01.547355'
+tags_method: max_quality_v1
+---
+
 Reinforcement Learning from Human Feedback A short introduction to RLHF and post-training focused on language models.
 
 Nathan Lambert

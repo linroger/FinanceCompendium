@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Currency Derivatives
-tags:
-key_concepts:
+- Currency Derivatives
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 13: Currency Derivatives"
-linter-yaml-title-alias: "Chapter 13: Currency Derivatives"
+title: 'Chapter 13: Currency Derivatives'
+linter-yaml-title-alias: 'Chapter 13: Currency Derivatives'
+primary_tags:
+- swap market forward futures
+- currency futures options contracts
+- value spot rate 40
+- differences currency forward
+- growth derivative markets 13
+secondary_tags:
+- chapter 13 currency derivatives
+- hedging purposes 13 symmetry
+- 13 differences options futures
+- option pricing formula 13
+- option sterling assume
+- exchange traded 13 exchange
+- chance option exercised value
+- options swaps intrinsic time
+- distinguishing characteristics swap market
+- relationship determinants currency option
+- formula let consider dollar
+- versus forward contract hedging
+tags_extracted: '2025-12-18T01:33:48.160751'
 ---
 
 # CHAPTER 13

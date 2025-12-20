@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Portfolio Selection Theory
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Portfolio Selection Theory
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 13: Portfolio Selection Theory"
-linter-yaml-title-alias: "Chapter 13: Portfolio Selection Theory"
+title: 'Chapter 13: Portfolio Selection Theory'
+linter-yaml-title-alias: 'Chapter 13: Portfolio Selection Theory'
+primary_tags:
+- theory referred mean variance
+- behavior making portfolio allocation
+- portfolio theory certain assumptions
+- theory markowitz portfolio theory
+- criticisms portfolio theory
+secondary_tags:
+- theory deals selection portfolios
+- portfolio selection theory contents
+- portfolio theory tells achieve
+- theory behavioral finance theory
+- risk capital market theory
+- determining portfolio risk diversification
+- markowitz portfolio theory differs
+- criticisms portfolio theory focus
+- portfolio theory standard deviation
+- portfolio theory normative theory
+- selection optimal portfolio different
+- portfolio estimation errors
+tags_extracted: '2025-12-18T00:19:33.662070'
 ---
 
 # 13

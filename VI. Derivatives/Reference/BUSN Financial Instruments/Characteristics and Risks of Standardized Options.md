@@ -1,195 +1,146 @@
 ---
-parent_directory:
-title: Characteristics and Risks of Standardized Options
-tags:
-aliases:
-parent_folder: 2024 Financial Instruments
-subfolder:
-key_concepts:
+parent_directory: "VI. Derivatives/Reference/BUSN Financial Instruments"
+title: "Chapter 06 - Characteristics and Risks of Standardized Options"
+tags: [options, derivatives, risk_management, standardized_options, financial_instruments]
+aliases: ["Options Disclosure Document", "ODD"]
+parent_folder: "2024 Financial Instruments"
+subfolder: "VI. Derivatives/Reference/BUSN Financial Instruments"
+key_concepts: ["options_nomenclature", "option_risks", "exercise_and_settlement", "index_options", "debt_options", "foreign_currency_options", "binary_options", "range_options", "flexible_options", "credit_default_options"]
 cssclasses: academia
 ---
-
 # Characteristics and Risks of Standardized Options
 
-BOX EXCHANGE LLC
+- BOX EXCHANGE LLC
+  - 101 Arch Street, Suite 601
+  - Boston, Massachusetts 02110
 
-101 Arch Street, Suite 601
+- CBOE BZX EXCHANGE, INC.
+  - 433 W. Van Buren Street
+  - Chicago, Illinois 60607
 
-Boston, Massachusetts 02110
+- CBOE C2 EXCHANGE, INC.
+  - 433 W. Van Buren Street
+  - Chicago, Illinois 60607
 
-CBOE BZX EXCHANGE, INC.
+- CBOE EDGX EXCHANGE, INC.
+  - 433 W. Van Buren Street
+  - Chicago, Illinois 60607
 
-433 W. Van Buren Street
+- CBOE EXCHANGE, INC.
+  - 433 W. Van Buren Street
+  - Chicago, Illinois 60607
 
-Chicago, Illinois 60607
+- MIAMI INTERNATIONAL SECURITIES EXCHANGE, LLC
+  - 7 Roszel Road, Suite 1A
+  - Princeton, NJ 08540
 
-CBOE C2 EXCHANGE, INC.
+- MIAX EMERALD, LLC
+  - 7 Roszel Road, Suite 1A
+  - Princeton, NJ 08540
 
-433 W. Van Buren Street
+- MIAX PEARL, LLC
+  - 7 Roszel Road, Suite 1A
+  - Princeton, NJ 08540
 
-Chicago, Illinois 60607
+- NASDAQ BX, INC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-CBOE EDGX EXCHANGE, INC.
+- NASDAQ GEMX, LLC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-433 W. Van Buren Street
+- NASDAQISE,LLC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-Chicago, Illinois 60607
+- NASDAQ MRX, LLC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-CBOE EXCHANGE, INC.
+- THE NASDAQ OPTIONS MARKET LLC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-433 W. Van Buren Street
+- NASDAQ PHLX LLC
+  - 2929 Walnut Street
+  - Philadelphia, Pennsylvania 19104
 
-Chicago, Illinois 60607
+- NYSE AMERICAN OPTIONS
+  - 11 Wall Street
+  - New York, NY 10005
 
-MIAMI INTERNATIONAL
-
-SECURITIES EXCHANGE, LLC
-
-7 Roszel Road, Suite 1A
-
-Princeton, NJ 08540
-
-MIAX EMERALD, LLC
-
-7 Roszel Road, Suite 1A
-
-Princeton, NJ 08540
-
-MIAX PEARL, LLC
-
-7 Roszel Road, Suite 1A
-
-Princeton, NJ 08540
-
-NASDAQ BX, INC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-NASDAQ GEMX, LLC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-NASDAQISE,LLC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-NASDAQ MRX, LLC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-THE NASDAQ OPTIONS MARKET LLC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-NASDAQ PHLX LLC
-
-2929 Walnut Street
-
-Philadelphia, Pennsylvania 19104
-
-NYSE AMERICAN OPTIONS
-
-11 Wall Street
-
-New York, NY 10005
-
-NYSE ARCA, INC.
-
-11 Wall Street
-
-New York, NY 10005
+- NYSE ARCA, INC.
+  - 11 Wall Street
+  - New York, NY 10005
 
 # Contents
 
-Chapter I—Introduction 3  
-Chapter II-Options Nomenclature 6  
-Chapter III-Options on Equity Securities 18  
-Features of Stock Options 18  
-Chapter IV-Index Options 24  
-About Indexes 24  
-Stock Indexes 24  
-Dividend Indexes 26  
-Variability Indexes 26  
-Strategy-Based Indexes 28  
-Relative Performance Indexes 29  
-Foreign Currency Indexes 30  
-Information Concerning Underlying Indexes 31  
-Features of Index Options 32  
-Adjustment of Index Options 33  
-Chapter V—Debt Options and Credit Default Options 35  
-Rates, Yields and Prices of Debt Securities 35  
-Treasury Securities 36  
-Yield-Based Options 37  
-Options on Conventional Index-Linked Securities 38  
-Credit Default Options and Credit Default Basket Options 40  
-Adjustment of Credit Default Options. 41  
-Chapter VI-Foreign Currency Options 44  
-Market for Foreign Currencies 44  
-Special Characteristics of Foreign Currency Options 45  
-Special Features of Dollar-Denominated Foreign Currency Options 45  
-Non-Rate-Modified Cash-Settled Foreign Currency Options 46  
-Cross-Rate Foreign Currency Options 47  
-Special Features of Cross-Rate Options 48  
-Cash-Settled Foreign Currency Options 49  
-Rate-Modified Cash-Settled Foreign Currency Options 50
+- **Chapter I** — Introduction
+- **Chapter II** — Options Nomenclature
+- **Chapter III** — Options on Equity Securities
+  - Features of Stock Options
+- **Chapter IV** — Index Options
+  - About Indexes
+  - Stock Indexes
+  - Dividend Indexes
+  - Variability Indexes
+  - Strategy-Based Indexes
+  - Relative Performance Indexes
+  - Foreign Currency Indexes
+  - Information Concerning Underlying Indexes
+  - Features of Index Options
+  - Adjustment of Index Options
+- **Chapter V** — Debt Options and Credit Default Options
+  - Rates, Yields and Prices of Debt Securities
+  - Treasury Securities
+  - Yield-Based Options
+  - Options on Conventional Index-Linked Securities
+  - Credit Default Options and Credit Default Basket Options
+  - Adjustment of Credit Default Options
+- **Chapter VI** — Foreign Currency Options
+  - Market for Foreign Currencies
+  - Special Characteristics of Foreign Currency Options
+  - Special Features of Dollar-Denominated Foreign Currency Options
+  - Non-Rate-Modified Cash-Settled Foreign Currency Options
+  - Cross-Rate Foreign Currency Options
+  - Special Features of Cross-Rate Options
+  - Cash-Settled Foreign Currency Options
+  - Rate-Modified Cash-Settled Foreign Currency Options
 
-# Chapter VII—Flexibly Structured Options 52
+## Chapter VII — Flexibly Structured Options
 
-Special Features of Flexibly Structured Options 52
+- Special Features of Flexibly Structured Options
 
-# Chapter VIII—Exercise and Settlement 55
+## Chapter VIII — Exercise and Settlement
 
-How to Exercise 55
+- How to Exercise
+- Assignment
+- Settlement
 
-Assignment 56
+## Chapter IX — Tax Considerations, Transaction Costs and Margin Requirements
 
-Settlement 56
+- Transaction Costs
+- Margin Requirements
 
-# Chapter IX—Tax Considerations, Transaction Costs and Margin Requirements 58
+## Chapter X — Principal Risks of Options Positions
 
-Tax Considerations 58
+- Risks of Option Holders
+- Risks of Option Writers
+- Other Risks
+- Special Risks of Index Options
+- Special Risks of Debt Options
+- Special Risks of Foreign Currency Options
+- Special Risks of Flexibly Structured Options
+- Special Risks of Credit Default Options
+- Special Risks of Binary Options (Other Than Credit Default Options)
+- Special Risks of Range Options
 
-Transaction Costs 58
+## Chapter XI — Scope and Limitations of This Document
 
-Margin Requirements 58
+# Notice of Current Amendment (March 2023)
 
-# Chapter X—Principal Risks of Options Positions 60
-
-Risks of Option Holders. 61
-
-Risks of Option Writers 63
-
-Other Risks. 67
-
-Special Risks of Index Options 70
-
-Special Risks of Debt Options 77
-
-Special Risks of Foreign Currency Options 80
-
-Special Risks of Flexibly Structured Options 82
-
-Special Risks of Credit Default Options 83
-
-Special Risks of Binary Options (Other Than Credit Default Options) 85
-
-Special Risks of Range Options 86
-
-# Chapter XI-Scope and Limitations of This Document 87
-
-# Notice of Current Amendment (March 2023) 90
-
-# Archive of ODD Changes 93
+# Archive of ODD Changes
 
 # Introduction
 
@@ -245,7 +196,7 @@ The OCC system is designed so that the performance of all options is between OCC
 
 EXERCISE PRICE — In the case of a physical delivery option, the exercise price (which is sometimes called the "strike price") is the price at which the option holder has the right either to purchase or to sell the underlying interest.
 
-EXAMPLE: A physical delivery XYZ 40 call option gives the option holder the right to purchase 100 shares of XYZ stock at an exercise price of  \$40 a share. A physical delivery XYZ 40 put option gives the option holder the right to sell 100 shares of XYZ common stock at an exercise price of\$ 40 a share.
+EXAMPLE: A physical delivery XYZ 40 call option gives the option holder the right to purchase 100 shares of XYZ stock at an exercise price of \$40 a share. A physical delivery XYZ 40 put option gives the option holder the right to sell 100 shares of XYZ common stock at an exercise price of \$40 a share.
 
 The exercise price of a cash-settled option (other than a binary option or a range option) is the base for the determination of the amount of cash, if any, that the option holder is entitled to receive upon exercise (see the discussion of "Cash Settlement Amount and Exercise Settlement Value" below). The exercise price of a binary option is the value or level of the underlying interest above, below, or, in some cases, at which the option will be in the money at expiration, thereby causing the fixed cash settlement amount to become payable (see the "Binary Option" definition below). In the case of a range option, the exercise price is the option's range length (see the "Range Option" definition below).
 
@@ -271,7 +222,7 @@ RANGE OPTION—A range option is a European-style, cash-settled option that has 
 
 UNIT OF TRADING; CONTRACT SIZE—The unit of trading (which is sometimes referred to as the contract size) of a physical delivery option is the amount of the underlying interest that is subject to being purchased or sold upon the exercise of a single option contract. For example, the unit of trading for most options on equity securities is 100 shares. Thus, a physical delivery XYZ 50 call will give its holder the right upon exercise to purchase 100 shares of XYZ at \$50 per share. If the option is trading at a premium of, say, \$4 per share, then the aggregate premium for a single option contract would be \$400.
 
-The contract size of a cash-settled option other than a binary option or a range option is determined by the multiplier that is fixed by the options market on which the options series is traded. The multiplier determines the aggregate value of each point of the difference between the exercise price of the option and the exercise settlement value of the underlying interest. For example, a multiplier of 100 means that for each point by which a cash-settled option is in the money upon exercise, there is a  \$100 increase in the cash settlement amount. Similarly, if an option with a multiplier of 100 is trading at a premium of, say,\$ 4, then the aggregate premium for a single option contract would be \$400. As another example, a multiplier of 1 means that for each point by which a cash-settled option is in the money upon exercise, there is a \$1 increase in the cash settlement amount. Similarly, if an option with a multiplier of 1 is trading at a premium of, say, \$4, then the aggregate premium for a single option contract would be \$4. The contract size of a range option is determined by the option's multiplier and its maximum range exercise value. The contract size of a binary option is its cash settlement amount, which is fixed by the options market for any series of binary options at or before the opening of trading in that series. Some options markets define the cash settlement amount for binary options as being the multiplier times a fixed settlement value. Other options markets define the cash settlement amount for binary options without reference to a multiplier.
+The contract size of a cash-settled option other than a binary option or a range option is determined by the multiplier that is fixed by the options market on which the options series is traded. The multiplier determines the aggregate value of each point of the difference between the exercise price of the option and the exercise settlement value of the underlying interest. For example, a multiplier of 100 means that for each point by which a cash-settled option is in the money upon exercise, there is a \$100 increase in the cash settlement amount. Similarly, if an option with a multiplier of 100 is trading at a premium of, say, \$4, then the aggregate premium for a single option contract would be \$400. As another example, a multiplier of 1 means that for each point by which a cash-settled option is in the money upon exercise, there is a \$1 increase in the cash settlement amount. Similarly, if an option with a multiplier of 1 is trading at a premium of, say, \$4, then the aggregate premium for a single option contract would be \$4. The contract size of a range option is determined by the option's multiplier and its maximum range exercise value. The contract size of a binary option is its cash settlement amount, which is fixed by the options market for any series of binary options at or before the opening of trading in that series. Some options markets define the cash settlement amount for binary options as being the multiplier times a fixed settlement value. Other options markets define the cash settlement amount for binary options without reference to a multiplier.
 
 EXERCISE—If the holder of a physical delivery option wishes to buy (in the case of a call) or sell (in the case of a put) the underlying interest at the exercise price—or, in the case of a cash-settled option, to receive the cash settlement amount—his option must be exercised. In order to exercise most options, option holders must give exercise instructions to their brokerage firm in accordance with the firm's procedures prior to the firm's exercise cut-off time. The exercise process is discussed in Chapter VIII. Every option holder should understand this process and should learn his brokerage firm's procedures concerning exercise, and its exercise cut-off time, for each option she may buy.
 
@@ -285,9 +236,9 @@ When an option has been exercised, OCC will assign the exercise in accordance wi
 
 CASH SETTLEMENT AMOUNT, SETTLEMENT CURRENCY and EXERCISE SETTLEMENT VALUE—The cash settlement amount is the amount of cash that the holder of a cash-settled option is entitled to receive upon exercise. In the case of a cash-settled option other than a binary option or a range option, it is the amount by which the exercise settlement value of the underlying interest of a cash-settled call exceeds the exercise price, or the amount by which the exercise price of a cash-settled put exceeds the exercise settlement value of the underlying interest, multiplied by the multiplier for the option.
 
-EXAMPLE: Assume that a holder of a cash-settled call on the XYZ index that has an exercise price of 80 exercises it when the exercise settlement value of the index is 85. If the multiplier for XYZ index options is 100, the assigned writer would be obligated to pay, and the exercising holder would be entitled to receive, a cash settlement amount of $500 ($85 minus \$80 multiplied by 100 = \$500).
+EXAMPLE: Assume that a holder of a cash-settled call on the XYZ index that has an exercise price of 80 exercises it when the exercise settlement value of the index is 85. If the multiplier for XYZ index options is 100, the assigned writer would be obligated to pay, and the exercising holder would be entitled to receive, a cash settlement amount of \$500 ((\$85 - \$80) × 100 = \$500).
 
-EXAMPLE: Assume that a holder of a cash-settled call on the XYZ index that has an exercise price of 80 exercises it when the exercise settlement value of the index is 85. If the multiplier for XYZ index options is 1, the assigned writer would be obligated to pay, and the exercising holder would be entitled to receive, a cash settlement amount of $5 ($85 minus \$80 multiplied by 1 = \$5).
+EXAMPLE: Assume that a holder of a cash-settled call on the XYZ index that has an exercise price of 80 exercises it when the exercise settlement value of the index is 85. If the multiplier for XYZ index options is 1, the assigned writer would be obligated to pay, and the exercising holder would be entitled to receive, a cash settlement amount of \$5 ((\$85 - \$80) × 1 = \$5).
 
 In the case of a binary option, the cash settlement amount is determined by the relevant listing options market and, whether or not established through use of a multiplier, is fixed and does not vary (except in the case of certain adjustments described below) regardless of the amount by which the exercise settlement value exceeds (in the case of a binary call option) or is less than (in the case of a binary put option) the exercise price.
 
@@ -361,15 +312,15 @@ In the case of an option other than a binary option, the intrinsic value reflect
 
 Time value is whatever the premium of the option is in addition to its intrinsic value. Time value is that part of the premium that reflects the time remaining before expiration. An American-style option may ordinarily be expected to trade for no less than its intrinsic value prior to its expiration, although occasionally an American-style option will trade at less than its intrinsic value. Because European-style options (including binary options and range options) and capped options are not exercisable at all times, they are more likely than American-style options to trade at less than their intrinsic value when they are not exercisable.
 
-EXAMPLE OF A CALL WITH INTRINSIC VALUE: At a time when the current market price of XYZ stock is  \$46 a share, an XYZ 40 call would have an intrinsic value of\$ 6 a share. If the market price of the stock were to decline to \$44, the intrinsic value of the call would be only \$4. Should the price of the stock drop to \$40 or below, the call would no longer have any intrinsic value.
+EXAMPLE OF A CALL WITH INTRINSIC VALUE: At a time when the current market price of XYZ stock is \$46 a share, an XYZ 40 call would have an intrinsic value of \$6 a share. If the market price of the stock were to decline to \$44, the intrinsic value of the call would be only \$4. Should the price of the stock drop to \$40 or below, the call would no longer have any intrinsic value.
 
-EXAMPLE OF A PUT WITH INTRINSIC VALUE: At a time when the current market price of XYZ stock is  \$46 a share, an XYZ 50 put would have an intrinsic value of\$ 4 a share. Were the market price of XYZ stock to increase to \$50 or above, the put would no longer have any intrinsic value.
+EXAMPLE OF A PUT WITH INTRINSIC VALUE: At a time when the current market price of XYZ stock is \$46 a share, an XYZ 50 put would have an intrinsic value of \$4 a share. Were the market price of XYZ stock to increase to \$50 or above, the put would no longer have any intrinsic value.
 
 EXAMPLE OF TIME VALUE: At a time when the market price of XYZ stock is \$40 a share, an XYZ 40 call may have a current market price of, say, \$2 a share. This is entirely time value.
 
 An option with intrinsic value may often have some time value as well—that is, the market price of the option may be greater than its intrinsic value. This could occur with an option of any style.
 
-EXAMPLE: With the market price of XYZ stock at  \$45 a share, an XYZ 40 call may have a current market price of\$ 6 a share, reflecting an intrinsic value of \$5 a share and a time value of \$1 a share.
+EXAMPLE: With the market price of XYZ stock at \$45 a share, an XYZ 40 call may have a current market price of \$6 a share, reflecting an intrinsic value of \$5 a share and a time value of \$1 a share.
 
 An option's time value is influenced by several factors (as discussed above under "Premium"), including the length of time remaining until expiration. An option is a "wasting" asset; if it is not sold or exercised prior to its expiration, it will become worthless. As a consequence, all else remaining the same, the time value of an option usually decreases as the option approaches expiration, and this decrease accelerates as the time to expiration shortens. However, there may be occasions when the market price of an option may be lower than the market price of another option that has less time remaining to expiration but that is similar in all other respects.
 
@@ -395,9 +346,9 @@ EXAMPLE: A 310 XYZ capped put index option has a cap interval of 20, and therefo
 
 CASH SETTLEMENT AMOUNT—This is the cash amount that the holder of a cash-settled capped option is entitled to receive upon the exercise of the option. In the case of a capped option that has been automatically exercised, the cash settlement amount is equal to the cap interval times the multiplier for the option, even if the automatic exercise value on the day that the automatic exercise feature is triggered exceeds (in the case of a call) or is less than (in the case of a put) the cap price. If the capped option is voluntarily exercised at expiration, the cash settlement amount is determined in the same manner as for other styles of cash-settled options.
 
-EXAMPLE: A 360 ABC capped call index option has a cap interval of 30 and a multiplier of 100. The automatic exercise value of the ABC index is 396 on a particular trading day. The call option is automatically exercised, and the cash settlement amount is \$3000 (equal to the cap interval of 30 times the multiplier of 100).
+EXAMPLE: A 360 ABC capped call index option has a cap interval of 30 and a multiplier of 100. The automatic exercise value of the ABC index is 396 on a particular trading day. The call option is automatically exercised, and the cash settlement amount is \$3000 (equal to the cap interval of 30 × the multiplier of 100).
 
-EXAMPLE: A 360 ABC capped call index option has a cap interval of 30 and a multiplier of 100. The automatic exercise value of the ABC index never equals or exceeds the cap price of 390 during the life of the option, and the exercise settlement value of the option is 367 on the final trading day. Upon exercise of the option, the holder is entitled to receive a cash settlement amount of \$700 (equal to the multiplier of 100 times the difference between the exercise settlement value of 367 and the exercise price of 360).
+EXAMPLE: A 360 ABC capped call index option has a cap interval of 30 and a multiplier of 100. The automatic exercise value of the ABC index never equals or exceeds the cap price of 390 during the life of the option, and the exercise settlement value of the option is 367 on the final trading day. Upon exercise of the option, the holder is entitled to receive a cash settlement amount of \$700 (equal to the multiplier of 100 × the difference between the exercise settlement value of 367 and the exercise price of 360).
 
 A delayed start option is an option that does not have an exercise price when first introduced for trading but instead has an exercise price setting formula pursuant to which the exercise price will be fixed on a specified future date. The following is a description of the terminology applicable to delayed start options:
 
@@ -431,7 +382,7 @@ Adjustments may be made to certain of the standardized terms of outstanding stoc
 
 As a general rule, no adjustment is made for ordinary cash dividends or cash distributions. A cash dividend or distribution will generally be considered "ordinary," regardless of size, if OCC believes
 
-that it was declared pursuant to a policy or practice of paying such dividends or distributions on a quarterly or other regular basis. No adjustment will normally be made for any cash dividend or distribution that amounts to less than \(0.125 per underlying share. For contracts originally listed with a unit of trading larger than 100 shares, no adjustment normally would be made for any cash dividends or distributions that amount to less than \)12.50 per contract. As an exception to the general rule, options on fund shares will generally be adjusted for capital gains distributions even if made on a regular basis, and adjustments may be made for certain other distributions in respect of fund shares in special circumstances described in OCC's rules, provided in each case that the amount of the adjustment would be \)0.125 or more per fund share. Determinations whether to adjust for cash dividends or distributions not covered by the preceding rules, or when other special circumstances apply, are made on a case-by-case basis.
+that it was declared pursuant to a policy or practice of paying such dividends or distributions on a quarterly or other regular basis. No adjustment will normally be made for any cash dividend or distribution that amounts to less than \$0.125 per underlying share. For contracts originally listed with a unit of trading larger than 100 shares, no adjustment normally would be made for any cash dividends or distributions that amount to less than \$12.50 per contract. As an exception to the general rule, options on fund shares will generally be adjusted for capital gains distributions even if made on a regular basis, and adjustments may be made for certain other distributions in respect of fund shares in special circumstances described in OCC's rules, provided in each case that the amount of the adjustment would be \$0.125 or more per fund share. Determinations whether to adjust for cash dividends or distributions not covered by the preceding rules, or when other special circumstances apply, are made on a case-by-case basis.
 
 Because stock options are not generally adjusted for ordinary cash dividends and distributions, covered writers of calls are entitled to retain dividends and distributions earned on the underlying securities during the time prior to exercise. However, a call holder becomes entitled to the dividend if he exercises the option prior to the ex-dividend date even though the assigned writer may not be notified that he was assigned an exercise until after the ex-date. Because call holders may seek to "capture" an impending dividend by exercising, a call writer's chances of being assigned an exercise may increase as the ex-date for a dividend on the underlying security approaches.
 
@@ -443,25 +394,25 @@ EXAMPLE: Before a 2-for-1 stock split, an investor holds an option on 100 shares
 
 Other stock dividends, stock distributions and stock splits may result in an adjustment in the number of underlying shares and the exercise price.
 
-EXAMPLE: An investor bought an XYZ 50 option—either a call or a put—and XYZ Corporation subsequently effected a 3-for-2 stock distribution. Instead of covering 100 shares of stock at an exercise price of \$50 a share, each outstanding option could be adjusted to cover 150 shares at an exercise price of \$33.33 per share. The aggregate exercise price remains substantially the same before and after the adjustment ($50 x 100 = $5,000 and $33.33 x 150 = $4,999.50).
+EXAMPLE: An investor bought an XYZ 50 option—either a call or a put—and XYZ Corporation subsequently effected a 3-for-2 stock distribution. Instead of covering 100 shares of stock at an exercise price of \$50 a share, each outstanding option could be adjusted to cover 150 shares at an exercise price of \$33.33 per share. The aggregate exercise price remains substantially the same before and after the adjustment (\$50 × 100 = \$5,000 and \$33.33 × 150 = \$4,999.50).
 
 As a general rule, adjustments in exercise prices are rounded to the nearest exercise price increment, and adjustments in the number of underlying shares are rounded down to eliminate fractional shares. In the latter case, the property deliverable upon exercise may be adjusted to include the value of the eliminated fractional share, as determined by OCC.
 
-Note that in the preceding example where the exercise price of the adjusted XYZ option was rounded down, the exercising put holder or assigned call writer would lose \( \\(0.50 \) as a result of the rounding. Rounding up could result in losses to exercising call holders and assigned put writers.
+Note that in the preceding example where the exercise price of the adjusted XYZ option was rounded down, the exercising put holder or assigned call writer would lose \$0.50 as a result of the rounding. Rounding up could result in losses to exercising call holders and assigned put writers.
 
 A reverse stock split, combination of shares, or similar event will generally result in an adjustment in the number of shares deliverable upon exercise, while the aggregate exercise price remains unchanged.
 
-EXAMPLE: An investor holds a call option covering 100 shares of XYZ stock with an exercise price of 50 resulting in an aggregate exercise price for the contract of $5,000 ($50 x 100). After a 1-for-10 reverse split, the deliverable could be reduced to 10 shares while the nominal exercise price remained \$50. In that case, upon exercise of the adjusted option, the investor would still pay $5,000 ($50 x 100, not \$50 x 10), but would receive 10 shares of XYZ stock instead of 100.
+EXAMPLE: An investor holds a call option covering 100 shares of XYZ stock with an exercise price of 50 resulting in an aggregate exercise price for the contract of \$5,000 (\$50 × 100). After a 1-for-10 reverse split, the deliverable could be reduced to 10 shares while the nominal exercise price remained \$50. In that case, upon exercise of the adjusted option, the investor would still pay \$5,000 (\$50 × 100, not \$50 × 10), but would receive 10 shares of XYZ stock instead of 100.
 
 An adjustment that substitutes cash for all, such as in the case of a cash merger or other event whereby the underlying security is converted solely to cash, or part of the deliverable security will eliminate or reduce the time value of the option, and therefore the option may lose significant value, both immediately and at exercise, as a result of the adjustment.
 
-EXAMPLE: Because of an all cash merger involving XYZ Corporation, the stock held by XYZ's owners is extinguished in return for a payment of \$50 in cash per XYZ share. In response to the corporate action on the underlying security, XYZ options generally will be adjusted to require the delivery of \$50 per share upon exercise. As a result, an XYZ call option with an exercise price of \$40 will lose all of its time value and the option's value will only reflect the intrinsic value of $10 ($50 - $40 = $10). Additionally, an XYZ call option with an exercise price of \$60 will become worthless because the exercise price exceeds the \$50 cash settlement delivery amount.
+EXAMPLE: Because of an all cash merger involving XYZ Corporation, the stock held by XYZ's owners is extinguished in return for a payment of \$50 in cash per XYZ share. In response to the corporate action on the underlying security, XYZ options generally will be adjusted to require the delivery of \$50 per share upon exercise. As a result, an XYZ call option with an exercise price of \$40 will lose all of its time value and the option's value will only reflect the intrinsic value of \$10 (\$50 - \$40 = \$10). Additionally, an XYZ call option with an exercise price of \$60 will become worthless because the exercise price exceeds the \$50 cash settlement delivery amount.
 
-EXAMPLE: An investor bought a \$50 put option representing the obligation to deliver 100 shares of Company A stock upon exercise. Company A subsequently effected a 1-for-3 reverse stock split and the terms of the reverse split provided for payment of cash in lieu of fractional shares, using a value of \$60 per share for this purpose. As a general rule, any adjustment in the number of underlying shares is rounded to eliminate fractional shares, so the number of shares to be delivered could be adjusted to 33 shares (100 x \(^{1/3} = 33^{1/3}\), with the \(^{1/3}\) fractional share rounded down as part of the adjustment to eliminate fractional shares) plus $20 cash in lieu of the \(^{1/3}\) fractional share (\(60 x \)\frac{1}{3}\)) if cash is paid in lieu of such fractional share. Because this cash delivery obligation is generally fixed at the time of adjustment, the investor would lose the time value of the fractional share. This option may continue to trade until expiration, with the deliverable at exercise or expiration being 33 shares plus $20 cash.
+EXAMPLE: An investor bought a \$50 put option representing the obligation to deliver 100 shares of Company A stock upon exercise. Company A subsequently effected a 1-for-3 reverse stock split and the terms of the reverse split provided for payment of cash in lieu of fractional shares, using a value of \$60 per share for this purpose. As a general rule, any adjustment in the number of underlying shares is rounded to eliminate fractional shares, so the number of shares to be delivered could be adjusted to 33 shares (100 × ⅓ = 33⅓, with the ⅓ fractional share rounded down as part of the adjustment to eliminate fractional shares) plus \$20 cash in lieu of the ⅓ fractional share (\$60 × ⅓)) if cash is paid in lieu of such fractional share. Because this cash delivery obligation is generally fixed at the time of adjustment, the investor would lose the time value of the fractional share. This option may continue to trade until expiration, with the deliverable at exercise or expiration being 33 shares plus \$20 cash.
 
 The obligation to make a fixed cash payment in lieu of a fractional share could result, depending on the relative size of the fixed cash obligation, in an immediate reduction in the value of the option and at exercise could result in the option being less valuable or worthless in comparison to the value it would have had in the absence of the adjustment. If a stock underlying the option undergoes multiple reverse splits prior to expiration, it will become increasingly likely that one of those reverse stock splits eventually will create a fractional share.
 
-As a general rule, no adjustment is made for ordinary stock dividends or distributions. A stock dividend or distribution will generally be considered "ordinary" if (i) the number of shares distributed does not exceed  $10\%$  of the number of shares outstanding on the declaration date and (ii) it is declared pursuant to a policy or practice of paying such dividends or distributions on a quarterly basis.
+As a general rule, no adjustment is made for ordinary stock dividends or distributions. A stock dividend or distribution will generally be considered "ordinary" if (i) the number of shares distributed does not exceed 10% of the number of shares outstanding on the declaration date and (ii) it is declared pursuant to a policy or practice of paying such dividends or distributions on a quarterly basis.
 
 Distributions of property other than the underlying security may result in the adjustment of outstanding options to include the distributed property.
 
@@ -495,9 +446,9 @@ Adjustments in the terms of binary stock options will ordinarily be made for sto
 
 If OCC determines to make an adjustment to binary stock options to reflect a stock dividend, stock distribution, or stock split, the exercise price of the option will ordinarily be proportionately reduced—regardless of whether a whole number of shares, or other than a whole number of shares, of the underlying security is issued. OCC has discretion to make exceptions to the general rules described above.
 
-EXAMPLE: Before a 2-for-1 stock split, an investor holds one ABC binary stock option with an exercise price of \$50 that pays a cash settlement amount of \$100 if the exercise settlement value of ABC at expiration is above the exercise price. After adjustment for the split, the investor will still hold one ABC binary stock option that pays a cash settlement amount if the exercise settlement value of ABC at expiration is above the exercise price, but the exercise price will be $25 (i.e., $50 divided by two). Thus, if the exercise settlement value of ABC stock at expiration, on a post-split basis, is above \$25, the investor will receive \$100.
+EXAMPLE: Before a 2-for-1 stock split, an investor holds one ABC binary stock option with an exercise price of \$50 that pays a cash settlement amount of \$100 if the exercise settlement value of ABC at expiration is above the exercise price. After adjustment for the split, the investor will still hold one ABC binary stock option that pays a cash settlement amount if the exercise settlement value of ABC at expiration is above the exercise price, but the exercise price will be \$25 (i.e., \$50 ÷ 2). Thus, if the exercise settlement value of ABC stock at expiration, on a post-split basis, is above \$25, the investor will receive \$100.
 
-An investor holds an XYZ binary stock option with an exercise price of \$50 that pays a cash settlement amount of \$100 if the exercise settlement value of XYZ stock is below the exercise price. XYZ announces a 2.5-for-1 stock split. The exercise price will be adjusted to equal $20 ($50 divided by 2.5). If the exercise settlement value of XYZ stock at expiration is below \$20, the investor will receive \$100. Exercise prices of binary stock options will generally be rounded to the nearest adjustment increment (or up in the event the adjusted price is equidistant between two adjustment increments).
+An investor holds an XYZ binary stock option with an exercise price of \$50 that pays a cash settlement amount of \$100 if the exercise settlement value of XYZ stock is below the exercise price. XYZ announces a 2.5-for-1 stock split. The exercise price will be adjusted to equal \$20 (\$50 ÷ 2.5). If the exercise settlement value of XYZ stock at expiration is below \$20, the investor will receive \$100. Exercise prices of binary stock options will generally be rounded to the nearest adjustment increment (or up in the event the adjusted price is equidistant between two adjustment increments).
 
 Conversely, in the event of a reverse stock split or combination of shares, the exercise price will be proportionately increased.
 
@@ -579,7 +530,7 @@ Strategy-based indexes are complex, and their calculations may involve the use o
 
 Strategy-based indexes measure the returns from investment strategies involving the purchase and sale of various securities. All of the securities purchased and sold pursuant to the strategy are deemed to be the component securities of the strategy-based index. As of December 2009, the only strategy-based index on which options are approved to be traded is a buy-write index measuring the return on a hypothetical "buy-write" strategy involving the simultaneous writing of call options on a stock index and purchase of the component securities of that index. Under the hypothetical strategy, a succession of at the money index call options with one month to expiration are assumed to be written, and the proceeds (i.e., the premiums received) from writing the options are assumed to be invested in a weighted basket of the component securities that mirrors the index. Dividends received from ownership of the component securities of the index are similarly assumed to be reinvested in the basket of securities. The options are deemed held until expiration, and new call options are assumed to be written on the business day immediately after the settlement value is determined. All options written under the buy-write strategy are deemed to have been assigned an exercise notice on the expiration date if in the money on that date, and to have expired without value if out of the money on the expiration date. The buy-write index measures the cumulative gross rate of return of the strategy since the inception of the index. The index will therefore rise during periods when the strategy is profitable and decline when it is unprofitable. The following example illustrates the calculation of the buy-write index.
 
-EXAMPLE: Assume that the buy-write index has a value of 800 on January 1. The return from the buy-write strategy, taking into account the returns of the component securities of the stock index and of the options assumed to be written on the index, is  $0.5\%$  and  $1\%$  on January 2 and 3, respectively. The index value at the end of a given trading day is equal to the previous closing value of the index multiplied by one plus the rate of return for that trading day. In this example, the value of the buy-write index at the close of trading on January 3 would be 812.04 (800 x 1.005 x 1.01). Assume that the return of the buy-write strategy on January 4, again taking into account the returns of the component securities of the stock index and of the options assumed written on that index, is a negative  $0.7\%$ . The value of the buy-write index at the close of trading on January 4 would be 806.36 (812.04 x .993).
+EXAMPLE: Assume that the buy-write index has a value of 800 on January 1. The return from the buy-write strategy, taking into account the returns of the component securities of the stock index and of the options assumed to be written on the index, is 0.5% and 1% on January 2 and 3, respectively. The index value at the end of a given trading day is equal to the previous closing value of the index multiplied by one plus the rate of return for that trading day. In this example, the value of the buy-write index at the close of trading on January 3 would be 812.04 (800 × 1.005 × 1.01). Assume that the return of the buy-write strategy on January 4, again taking into account the returns of the component securities of the stock index and of the options assumed written on that index, is a negative 0.7%. The value of the buy-write index at the close of trading on January 4 would be 806.36 (812.04 × .993).
 
 The calculation of the buy-write index, as in the case of any strategy-based index, requires the making of assumptions about, for example, the timing of transactions involved with a particular strategy and the prices received or paid for the securities traded (which are determined using market data for specified time periods). The index is calculated throughout the trading day using reported values for the reference index and reported premium values for the options as well as the value of any ordinary dividends payable on the component securities. The calculation of the index assumes that transactions can be continuously executed, i.e., that there will be no market disruptions, and may use assumed prices equal to volume-weighted average prices, which may not be the same as the prices an investor employing the strategy would pay or receive. Detailed information regarding calculation of the buy-write index is available from the exchange on which the options are traded. A special opening value for the reference index is used in calculating the index on the date that a new option is written to replace an expiring option, which is known as a roll date, and special procedures are used on roll dates to reflect the hypothetical transactions that are assumed to take place on those dates.
 
@@ -589,7 +540,7 @@ A relative performance index measures the relative performance—generally the r
 
 (one or both of which could be non-leveraged fund shares). One of the components in each pair is referred to as the target component and the second is referred to as the benchmark component. The index is calculated by measuring the total return of the target component relative to the total return of the benchmark component. The index will rise as and to the extent that the target component outperforms the benchmark component, and will fall as and to the extent that the opposite occurs. The value of the relative performance index will be set to a base value, such as 100, initially. The following example illustrates the calculation of a relative performance index.
 
-EXAMPLE: Assume that a relative performance index has an initial base value of 100. If the total return of the target component in one day is  $10\%$  and the total return of the benchmark component in the one day period is  $9\%$ , the index value of the relative performance index at the end of the one day period would equal  $100 \times (1 + 10\%) / (1 + 9\%) = 100.92$ . If the total return of the target component in the one day period is  $9\%$  and the total return of the benchmark component in the one day period is  $10\%$ , the index value of the relative performance index at the end of the one day period would equal  $100 \times (1 + 9\%) / (1 + 10\%) = 99.09$ .
+EXAMPLE: Assume that a relative performance index has an initial base value of 100. If the total return of the target component in one day is 10% and the total return of the benchmark component in the one day period is 9%, the index value of the relative performance index at the end of the one day period would equal 100 × (1 + 10%) / (1 + 9%) = 100.92. If the total return of the target component in the one day period is 9% and the total return of the benchmark component in the one day period is 10%, the index value of the relative performance index at the end of the one day period would equal 100 × (1 + 9%) / (1 + 10%) = 99.09.
 
 The example above illustrates only a scenario where the total return assumed is for a one day period. Other periods would yield different results. Market participants should contact the exchange on which these options are traded for a more complete description of the index calculation methodology.
 
@@ -605,7 +556,7 @@ ways. Accordingly, there may be situations in which foreign currency indexes are
 
 EXAMPLE: On the starting or "base" date of a new foreign currency index representing a basket of four currency pairs measured against the U.S. dollar — e.g., the price of euros in terms of U.S. dollars is expressed as EUR/USD, the price of British Pounds in terms of U.S. dollars is expressed as GBP/USD, the price of U.S. dollars in terms of Japanese yen is expressed as USD/JPY and the price of Australian dollars in terms of U.S. dollars is expressed as AUD/USD — the index may be set to be equally weighted so that each component currency pair has equal influence on the overall index value. This may be accomplished by assuming a  \$10,000 position in each component currency pair. The index value would be calculated by multiplying (or dividing, in the case of a USD/JPY currency pair) each currency pair position by the spot exchange rate for the currency pair. The value, in dollars, of each foreign currency would be deducted from\$ 20,000. This method is used in order to effectively invert the value of the currency pair, so that the index value will increase when the value of the U.S. dollar increases and decrease when the value of the U.S. dollar decreases. The sum of the resulting differences would be divided by the "divisor." The divisor is a number that is fixed on the base date—in this example, four—selected so that the index value on the base date equals 10,000. Accordingly, if the value of the U.S. dollar against the Euro increases by 2% the next day (i.e., the value of the EUR/USD position decreases to \$9,800 from \$10,000, which subtracted from \$20,000 equals \$10,200), while the GBP/USD, USD/JPY and AUD/USD exchange rates remained the same, the index level would rise to 10,050 ((10,200 + 10,000 + 10,000 + 10,000)/4).
 
-The base of the foreign currency index may be adjusted from time to time if certain "rebalancing events" occur, as determined by the index provider. An index might be structured so that it is not rebalanced unless the exchange rate for one of the component currency pairs drops by more than  $90\%$  from its original base or upon the occurrence of extraordinary events in the global currency markets. Adjustments in the base level of an index or other similar changes are within the discretion of the publisher of the index and will not ordinarily cause any adjustment in the terms of outstanding index options. However, OCC has authority to make adjustments if the publisher of the underlying index makes a change in the index's composition or method of calculation that, in OCC's determination, may cause significant discontinuity in the index level.
+The base of the foreign currency index may be adjusted from time to time if certain "rebalancing events" occur, as determined by the index provider. An index might be structured so that it is not rebalanced unless the exchange rate for one of the component currency pairs drops by more than 90% from its original base or upon the occurrence of extraordinary events in the global currency markets. Adjustments in the base level of an index or other similar changes are within the discretion of the publisher of the index and will not ordinarily cause any adjustment in the terms of outstanding index options. However, OCC has authority to make adjustments if the publisher of the underlying index makes a change in the index's composition or method of calculation that, in OCC's determination, may cause significant discontinuity in the index level.
 
 # Information Concerning Underlying Indexes
 
@@ -657,7 +608,7 @@ The principal risks of holders and writers of debt options and credit default op
 
 To understand debt options, an investor should understand the relationship between the rates or yields, which are different ways of expressing return on debt securities, and prices of debt securities. (Coupon interest rates of a debt security express return as a percentage of the principal amount (par value) of the security. Yields express return (or projected return) as a percentage of the amount invested.) This relationship, simply stated, is that prices of debt securities move inversely to changes in rates. Declining rates, whether on long-term bonds or money market instruments, will generally cause prices of outstanding debt securities to increase. Conversely, rising rates across a particular maturity spectrum will generally cause the prices of outstanding debt securities of that maturity to decline.
 
-EXAMPLE: A 30-year Treasury bond pays interest at a  $12\%$  coupon rate. The only time prior to maturity that investors will pay a price of 100 (that is,  $100\%$  of par value) for the bond is when the prevailing yield on such long-term Treasury bonds is exactly  $12\%$ . Should rates move higher to, say,  $14\%$  for such Treasury bonds, the price of an outstanding  $12\%$  bond would have to decline to about 86 in order for the bond to yield  $14\%$ . If rates on such bonds subsequently decline to  $10\%$ , the price of the  $12\%$  bond could be expected to rise substantially above par, since it would yield  $10\%$  at a price of 120.
+EXAMPLE: A 30-year Treasury bond pays interest at a 12% coupon rate. The only time prior to maturity that investors will pay a price of 100 (that is, 100% of par value) for the bond is when the prevailing yield on such long-term Treasury bonds is exactly 12%. Should rates move higher to, say, 14% for such Treasury bonds, the price of an outstanding 12% bond would have to decline to about 86 in order for the bond to yield 14%. If rates on such bonds subsequently decline to 10%, the price of the 12% bond could be expected to rise substantially above par, since it would yield 10% at a price of 120.
 
 Price-based call options become more valuable as the prices of the underlying debt securities increase, and price-based puts become more valuable as the prices of the underlying debt securities decline. The relationship between interest rate changes, prices, and the value of price-based debt options can be expressed as follows:
 
@@ -679,13 +630,13 @@ Unlike Treasury bonds and notes, Treasury bills do not pay interest. Instead, th
 
 Return on Treasury bills is commonly expressed in terms of a discount rate which represents an annualization (based on a 360-day year) of the percentage discount at which the bills are sold.
 
-EXAMPLE: If a 13-week (91-day) Treasury bill with a principal amount of  \$1,000,000 is sold for\$ 970,000, the actual discount would be  \$30,000 or 3\%$  and the discount rate would be approximately 11.9% (360/91 times 3%).
+EXAMPLE: If a 13-week (91-day) Treasury bill with a principal amount of  \$1,000,000 is sold for\$ 970,000, the actual discount would be  \$30,000 or 3% and the discount rate would be approximately 11.9% (360/91 × 3%).
 
 Bills are auctioned by the Treasury on a regular basis, typically at weekly intervals for 13-week and 26-week bills and every four weeks for 52-week bills. While dealers maintain secondary markets in all outstanding Treasury bills, activity tends to center in the most recently auctioned issues. These are commonly referred to as the "current" 13-week, 26-week, and "year" bills, respectively.
 
 # Yield-Based Options
 
-The underlying yield of yield-based options is the annualized yield to maturity of the most recently issued Treasury security of a designated maturity—e.g., 30-year, 10-year, 5-year—based upon quotations or prices determined in accordance with a method specified by the options market on which the option is traded. If such security is a Treasury bill, the underlying yield is the annualized discount of the Treasury bill. (A discount represents a percentage of principal amount, rather than a return on investment, and is therefore not a true yield.) Underlying yield is stated in terms of a yield indicator, which is the percentage yield multiplied by ten. For example, if the yield is based on a Treasury bill having an annualized discount of  $8.715\%$ , the yield indicator would be 87.15.
+The underlying yield of yield-based options is the annualized yield to maturity of the most recently issued Treasury security of a designated maturity—e.g., 30-year, 10-year, 5-year—based upon quotations or prices determined in accordance with a method specified by the options market on which the option is traded. If such security is a Treasury bill, the underlying yield is the annualized discount of the Treasury bill. (A discount represents a percentage of principal amount, rather than a return on investment, and is therefore not a true yield.) Underlying yield is stated in terms of a yield indicator, which is the percentage yield multiplied by ten. For example, if the yield is based on a Treasury bill having an annualized discount of 8.715%, the yield indicator would be 87.15.
 
 The designated maturity of the Treasury security from which the underlying yield may be determined is a standardized term of a yield-based option. The specific Treasury security having that maturity is not fixed; rather, the underlying yield is derived from the outstanding security of the designated maturity that has the longest remaining life. Newly-auctioned securities having the longest remaining life will replace old issues on the first trading day following their auction. Thus, the specific Treasury security from which the underlying yield is derived may change during the life of the option. Because yield-based options are European-style options, investors ordinarily will know prior to the time an option is exercisable the specific Treasury security from which its exercise settlement value will be determined. However, an option may often be traded for weeks or months before that specific security is auctioned by the Treasury. During that time, trading in the option will be based upon the yield for the Treasury security of the designated maturity that then has the longest remaining life.
 
@@ -695,7 +646,7 @@ Current bid and asked quotations for recently issued Treasury securities of part
 
 The aggregate cash settlement amount that the assigned writer of a yield-based option is obligated to pay the exercising option holder is the difference between the exercise price of the option and the exercise settlement value of the underlying yield on the last trading day before expiration, as reported by a designated reporting authority, multiplied by the multiplier for the option. Different yield-based options may have different multipliers.
 
-The exercise prices of yield-based options are expressed in terms of the yield indicator. For example, an exercise price of 82.50 would represent a yield of  $8.25\%$ .
+The exercise prices of yield-based options are expressed in terms of the yield indicator. For example, an exercise price of 82.50 would represent a yield of 8.25%.
 
 Each point of premium will correspond to .1% in yield. The dollar value of the premium for a single yield-based option will equal the quoted premium multiplied by the dollar value of the option multiplier. Thus, a premium of 2½ would equal a premium of \$250 for an option having a multiplier of 100, or \$5000 for an option having a multiplier of 2000.
 
@@ -759,11 +710,11 @@ reference entity are redeemed and there are no other debt obligations of the ref
 
 Adjustment of credit default options for a complete redemption. If there is a complete redemption affecting a credit default option, the option will cease trading on the date that the redemption event is confirmed by the listing options market. Expiration of the option will be accelerated to a specified number of days following the confirmation date of the redemption, and the option will expire unexercised if, prior to such expiration, no credit event is confirmed to have occurred prior to the effective date of the redemption event.
 
-EXAMPLE: Company XYZ is the reference entity for a credit default option contract and its  $8\%$  May 15, 2022 bond issue is the only reference obligation. During the life of the option, Company XYZ redeems the  $8\%$  May 15, 2022 bond issue and there are no other obligations of Company XYZ that the listing options market deems to be suitable for specifying as successor reference obligations. The option will cease trading on the confirmation date, and its expiration date will be accelerated. If no credit event is confirmed to have occurred within the covered period, the option will expire worthless.
+EXAMPLE: Company XYZ is the reference entity for a credit default option contract and its 8% May 15, 2022 bond issue is the only reference obligation. During the life of the option, Company XYZ redeems the 8% May 15, 2022 bond issue and there are no other obligations of Company XYZ that the listing options market deems to be suitable for specifying as successor reference obligations. The option will cease trading on the confirmation date, and its expiration date will be accelerated. If no credit event is confirmed to have occurred within the covered period, the option will expire worthless.
 
 Adjustment of credit default basket options for a complete redemption. In the case of a single or multiple payout credit default basket option, if a complete redemption event occurs with respect to one of the reference entities in the basket and no credit event is confirmed, pursuant to the rules of the listing options market, to have occurred prior to the effective date of such redemption event, the options will be adjusted by removing the affected reference entity from the basket of reference entities. When a reference entity is deleted from the basket of reference entities because of a redemption event, the cash settlement amount of the option will be reduced by an amount reflecting the weight of the deleted reference entity in the basket. The relative weights of the other components in the basket will remain unchanged, although each will represent a proportionally larger percentage of the adjusted cash settlement amount.
 
-EXAMPLE: Company XYZ is one of ten reference entities for a class of multiple payout credit default option contracts and its  $8\%$  May 15, 2022 bond issue is specified as its only reference obligation. Company XYZ was assigned a weight of  $15\%$  when the credit default option was opened for trading. During the life of the option, Company XYZ redeems the  $8\%$  May 15, 2022 bond issue. No reference obligations remain and the listing options market determines that there are no other outstanding debt obligations of the issuer suitable for specification as reference obligations. The basket component will be removed from the credit default basket, and the cash settlement amount will be reduced by  $15\%$ .
+EXAMPLE: Company XYZ is one of ten reference entities for a class of multiple payout credit default option contracts and its 8% May 15, 2022 bond issue is specified as its only reference obligation. Company XYZ was assigned a weight of 15% when the credit default option was opened for trading. During the life of the option, Company XYZ redeems the 8% May 15, 2022 bond issue. No reference obligations remain and the listing options market determines that there are no other outstanding debt obligations of the issuer suitable for specification as reference obligations. The basket component will be removed from the credit default basket, and the cash settlement amount will be reduced by 15%.
 
 Succession Event Adjustments. A succession event occurs when one or more new entities assume one or more reference obligations of a reference entity or become the obligor with respect to any obligation that is substituted for the original reference obligations. This may occur, for example, when a reference entity is merged into a new entity or spins off a part of its business into a new entity. If, as the result of a succession event, more than one entity is the obligor of the original reference obligations, or obligations that were substituted for the original reference obligations, all of those obligors, including, as the case may be, the original reference entity, are referred to as successor reference entities.
 
@@ -771,11 +722,11 @@ Adjustment of credit default options after a succession event. Where a successio
 
 new reference entity. Where a succession event results in more than one successor reference entity, the credit default option may be adjusted by dividing it into two or more options.
 
-EXAMPLE: Company XYZ is the reference entity for a credit default option contract, and its  $8\%$  May 15, 2022 bond issue is the only reference obligation. During the life of the option, Company XYZ spins off Company LMN. Company XYZ remains the obligor with respect to  $70\%$  of the principal amount of the original reference obligation. Company LMN becomes the obligor of a new reference obligation that is issued to holders of the remaining  $30\%$  of the original reference obligation. Company XYZ and LMN are identified by the listing options market as the successor entities. Following the succession event, the credit default option based on Company XYZ is adjusted into two separate credit default option contracts that specify Company XYZ and Company LMN as reference entities. The cash settlement amount of the original credit default option and the premium multiplier are allocated between the new credit default options in accordance with the 70/30 division of the reference obligation as specified by the listing options market.
+EXAMPLE: Company XYZ is the reference entity for a credit default option contract, and its 8% May 15, 2022 bond issue is the only reference obligation. During the life of the option, Company XYZ spins off Company LMN. Company XYZ remains the obligor with respect to 70% of the principal amount of the original reference obligation. Company LMN becomes the obligor of a new reference obligation that is issued to holders of the remaining 30% of the original reference obligation. Company XYZ and LMN are identified by the listing options market as the successor entities. Following the succession event, the credit default option based on Company XYZ is adjusted into two separate credit default option contracts that specify Company XYZ and Company LMN as reference entities. The cash settlement amount of the original credit default option and the premium multiplier are allocated between the new credit default options in accordance with the 70/30 division of the reference obligation as specified by the listing options market.
 
 Adjustment of credit default basket options after a succession event. When a succession event occurs with respect to a reference entity that is included in a single payout or multiple payout credit default basket option, the listing options market will ordinarily adjust the option by replacing the affected reference entity with the successor entity or entities, and, if one or more new obligations are issued to replace some or all of the existing reference obligations, the new obligations will be substituted as the reference obligations. The listing options market will specify the weight of each new reference entity, and the sum of the weights will equal the weight of the original reference entity.
 
-EXAMPLE: Company XYZ is one of ten equally weighted reference entities for a multiple payout default basket option and its  $8\%$  May 15, 2022 bond issue and its  $8.5\%$  September 1, 2030 bond issue are specified as its only reference obligations. During the life of the option, Company XYZ spins off Company LMN. Company XYZ remains the obligor for the 2022 bond issue and LMN becomes the obligor of a debt security issued to holder of the 2030 bond issue. The listing options market adjusts the option by specifying XYZ and LMN as the successor reference entities. The reference obligations are the original 2022 bond issue and the replacement for the 2030 bond issue. The listing options market determines the appropriate basket weight for the successor reference entities is  $7.5\%$  and  $2.5\%$ . The sum of the newly specified weights equals the  $10\%$  weight of the predecessor basket reference entity (Company XYZ) replaced by the successor reference entities (Company XYZ and Company LMN).
+EXAMPLE: Company XYZ is one of ten equally weighted reference entities for a multiple payout default basket option and its 8% May 15, 2022 bond issue and its 8.5% September 1, 2030 bond issue are specified as its only reference obligations. During the life of the option, Company XYZ spins off Company LMN. Company XYZ remains the obligor for the 2022 bond issue and LMN becomes the obligor of a debt security issued to holder of the 2030 bond issue. The listing options market adjusts the option by specifying XYZ and LMN as the successor reference entities. The reference obligations are the original 2022 bond issue and the replacement for the 2030 bond issue. The listing options market determines the appropriate basket weight for the successor reference entities is 7.5% and 2.5%. The sum of the newly specified weights equals the 10% weight of the predecessor basket reference entity (Company XYZ) replaced by the successor reference entities (Company XYZ and Company LMN).
 
 # Foreign Currency Options
 
@@ -1060,7 +1011,7 @@ If each option is held for six months and, if it is profitable, is either sold o
 
 <table><tr><td>Price of XYZ stock at expiration of option</td><td colspan="2">Investor A</td><td colspan="2">Investor B</td><td colspan="2">Investor C</td></tr><tr><td></td><td>Profit or Loss</td><td>% Return</td><td>Profit or Loss</td><td>% Return</td><td>Profit or Loss</td><td>% Return</td></tr><tr><td>62…</td><td>+ 1,200</td><td>+ 24%</td><td>+ 773</td><td>+ 15.5%</td><td>+ 7,000</td><td>+ 140%</td></tr><tr><td>58…</td><td>+ 800</td><td>+ 16%</td><td>+ 373</td><td>+ 7.5%</td><td>+ 3,000</td><td>+ 60%</td></tr><tr><td>54…</td><td>+ 400</td><td>+ 8%</td><td>-27</td><td>- 0.5%</td><td>- 1,000</td><td>- 20%</td></tr><tr><td>50…</td><td>0</td><td>0</td><td>-427</td><td>- 8.5%</td><td>- 5,000</td><td>- 100%</td></tr><tr><td>46…</td><td>- 400</td><td>-8%</td><td>-427</td><td>- 8.5%</td><td>- 5,000</td><td>- 100%</td></tr><tr><td>42…</td><td>- 800</td><td>- 16%</td><td>-427</td><td>- 8.5%</td><td>- 5,000</td><td>- 100%</td></tr><tr><td>38…</td><td>- 1,200</td><td>- 24%</td><td>-427</td><td>- 8.5%</td><td>- 5,000</td><td>- 100%</td></tr></table>
 
-The table demonstrates how increased leverage results in greater profit potential on the upside and greater risk of loss on the downside. Investor C, as the most leveraged investor, would realize the highest percentage return if the price of XYZ increased to 62, but would incur a  $20\%$  loss even if the price of XYZ increased to 54 (assuming he did not sell his options while they had significant remaining time value), and would lose all of his investment if the price of XYZ stayed at or below 50.
+The table demonstrates how increased leverage results in greater profit potential on the upside and greater risk of loss on the downside. Investor C, as the most leveraged investor, would realize the highest percentage return if the price of XYZ increased to 62, but would incur a 20% loss even if the price of XYZ increased to 54 (assuming he did not sell his options while they had significant remaining time value), and would lose all of his investment if the price of XYZ stayed at or below 50.
 
 Only the first two paragraphs of this numbered section 1 are applicable to binary options and range options. The amount by which a binary option is in the money does not affect the value of the option (and therefore the option holder's profit or loss) upon exercise. In the case of a range option, the value of the option is based on where the level of the underlying index falls within the range length at expiration, and not on the difference between the level of the underlying index and a discrete exercise price. Furthermore, as discussed below under the caption "Special Risks of Range Options," the value of a range option does not always move in the same direction as the underlying interest.
 

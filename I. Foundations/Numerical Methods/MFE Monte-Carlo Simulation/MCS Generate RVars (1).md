@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Generating Random Variables and Stochastic Processes
 linter-yaml-title-alias: Generating Random Variables and Stochastic Processes
+primary_tags:
+- other approaches
+- multivariate normal distributions
+- composition method
+- cholesky decomposition method
+secondary_tags:
+- random variables
+- random variable
+- acceptance rejection method
+- brownian motions
+- some random variables
+- random vector
+- poisson variable
+- monte carlo integration
+- poisson process a
+tags_extracted: '2025-12-18T17:59:21.904229'
+tags_method: max_quality_v1
 ---
 
 # Generating Random Variables and Stochastic Processes

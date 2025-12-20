@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: CHAPTER 3
 linter-yaml-title-alias: CHAPTER 3
+primary_tags:
+- balance payments empirical evidence
+- deficit elasticity absorption approaches
+- elasticity exchange rate
+secondary_tags:
+- elasticity approach balance payments
+- chapter elasticity absorption
+- devaluation pass effect
+- price elasticity demand imports
+- necessary elasticity condition devaluation
+- domestic output domestic absorption
+tags_extracted: '2025-12-18T01:30:25.321117'
 ---
 
 # CHAPTER 3

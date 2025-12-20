@@ -1,11 +1,27 @@
 ---
 aliases: Introduction
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 1: Introduction"
+title: 'Chapter 1: Introduction'
 linter-yaml-title-alias: Introduction
+primary_tags:
+- californian technology
+- chapter introduction
+- people issa rural india
+- f5 world bank
+secondary_tags:
+- outer space visit planet
+- residents earth
+- country187018901910199020002010 quot new world
+- global division labor people
+- earth time wish study
+- expositionthree recurring themes countries
+- global change textbook make
+- humankind achieved
+- globalization began second world
+tags_extracted: '2025-12-18T00:28:57.414398'
 ---
 
 # Chapter 1

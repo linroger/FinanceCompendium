@@ -1,3 +1,22 @@
+---
+primary_tags:
+- reason difference external economies
+- industries characterized economies
+- presence external economies scale
+- scale production numbers advantage
+secondary_tags:
+- external economies scale trade
+- advantage economies scale countries
+- advantage versus external economies
+- external advantages large firms
+- chapter internal economies theory
+- advantage international trade patterns
+- scale analysis trade
+- trade countries differ resources
+- roles external economies knowledge
+tags_extracted: '2025-12-18T00:51:41.276518'
+---
+
 # EXTERNAL ECONOMIES OF SCALE AND THE INTERNATIONAL LOCATION OF PRODUCTION
 
 In Chapter 3, we pointed out that there are two reasons why countries specialize and trade. First, countries differ either in their resources or in their technology and specialize in the things they do relatively well; second, economies of scale (or increasing returns) make it advantageous for each country to specialize in the production of only a limited range of goods and services. Chapters 3 through 6 considered models in which all trade is based on comparative advantage; that is, differences between countries are the only reason for trade. This chapter introduces the role of economies of scale.

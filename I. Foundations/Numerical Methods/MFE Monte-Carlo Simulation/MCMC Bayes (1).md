@@ -1,11 +1,32 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: MCMC and Bayesian Modeling
 linter-yaml-title-alias: MCMC and Bayesian Modeling
+primary_tags:
+- conditional posterior distribution
+- hamiltonian monte-carlo
+- 4.2 mcmc convergence diagnostics
+- i.e. stationary, distribution
+- sampling gibbs
+secondary_tags:
+- bayesian models
+- metropolis hastings algorithm
+- mcmc diagnostics
+- empirical bayes
+- gibbs sampling proceeds
+- bayes's theorem
+- following mcmc algorithm
+- bayesian versions
+- gibbs sampler markov chain
+- markov chain monte-carlo
+- so-called hamiltonian dynamics
+- parameter uncertainty
+tags_extracted: '2025-12-18T17:59:02.480603'
+tags_method: max_quality_v1
 ---
 
 # MCMC and Bayesian Modeling

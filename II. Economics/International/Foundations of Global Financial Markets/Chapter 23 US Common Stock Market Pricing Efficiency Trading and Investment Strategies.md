@@ -1,16 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
 cssclasses: academia
-title: "23"
-linter-yaml-title-alias: "23"
+title: 'Chapter 23 - US Common Stock Market Pricing Efficiency Trading and Investment Strategies'
+tags:
+- stock_market_pricing_efficiency
+- trading_costs
+- high_frequency_trading
+- market_efficiency
+- investment_strategies
+- equity_valuation
+- market_indexes
+- trading_mechanisms
+key_concepts:
+- Stock market pricing efficiency and forms of efficiency
+- Trading costs and market microstructure
+- High-frequency trading strategies and impact
+- Equity asset classification by capitalization and style
+- Stock market index construction and weighting methods
+- Investment strategies for common stock
+parent_directory: 'II. Economics/International/Foundations of Global Financial Markets'
 ---
 
-# 23
-
-U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment Strategies
+# Chapter 23 - US Common Stock Market Pricing Efficiency Trading and Investment Strategies
 
 # CONTENTS
 
@@ -124,9 +134,9 @@ Market cap = Price per share × Number of shares.
 
 The calculation seems straightforward enough, except that "Number of shares" must be defined.
 
-Two methods are used to calculate a company's market cap: the full-market cap method and free(float cap method. In the full market cap method, the number of shares used to calculate a company's market cap is all shares outstanding. In the free(float cap method, the number of shares used is the number of shares available in the market. The reason the number of shares available in the market differs from the free float is that there are shares given to, for example, top management, board members, and key employees. Thus, market cap based on the free(float cap method will produce a lower market cap than that using the full-market cap method.
+Two methods are used to calculate a company's market cap: the full-market cap method and free-float cap method. In the full market cap method, the number of shares used to calculate a company's market cap is all shares outstanding. In the free-float cap method, the number of shares used is the number of shares available in the market. The reason the number of shares available in the market differs from the free float is that there are shares given to, for example, top management, board members, and key employees. Thus, market cap based on the free-float cap method will produce a lower market cap than that using the full-market cap method.
 
-Many services that calculate market caps for purposes of constructing a stock market index use the free-flat market cap method. The reason for using this method to construct a stock market index is that it provides a better indication of the stock market trends, because only those shares available for trade are considered. That is, only the shares of stocks that are available for trading are included.
+Many services that calculate market caps for purposes of constructing a stock market index use the free-float market cap method. The reason for using this method to construct a stock market index is that it provides a better indication of the stock market trends, because only those shares available for trade are considered. That is, only the shares of stocks that are available for trading are included.
 
 The following are classified as asset classes for stocks based on market capitalization:
 
@@ -189,13 +199,13 @@ The third decision that must be made is the method used for weighting the indivi
 
 Three weighting methods have been traditionally used. The first method is price weighting; that is, using one share of each stock chosen (or the same number of shares). The second method is equal weighting; that is, using equal dollar values (e.g., 100) of each stock in the index. The third method is market capitalization weighting (price multiplied by the number of shares outstanding), that is, equal "cap weighting" values of each stock in the index.
 
-Consider an example where two stocks are chosen to be in an index. Each of these three weighting methods is used to construct a weighted average of these two stock prices. Only the variables used as the weights differ. In our example, we will use two hypothetical stocks, A and B, with prices  \$5 and\$ 25, respectively, and market caps of \$20 billion and \$50 billion, respectively, as shown in table 23.1. The weights calculated according to each method are shown in the table in parentheses. The asset allocations (the percentage of each stock in the index) of A and B for each of the three weighting methods are also shown in the table. These numbers represent the fraction of the index in stocks A and B (i.e., the weight assigned to each stock). There is a considerable range of weights for A and B, depending on the weighting method used: from 16.7\% (for price weighted) to 50\% (for equal weighted) for Stock A.
+Consider an example where two stocks are chosen to be in an index. Each of these three weighting methods is used to construct a weighted average of these two stock prices. Only the variables used as the weights differ. In our example, we will use two hypothetical stocks, A and B, with prices \$5 and \$25, respectively, and market caps of \$20 billion and \$50 billion, respectively, as shown in table 23.1. The weights calculated according to each method are shown in the table in parentheses. The asset allocations (the percentage of each stock in the index) of A and B for each of the three weighting methods are also shown in the table. These numbers represent the fraction of the index in stocks A and B (i.e., the weight assigned to each stock). There is a considerable range of weights for A and B, depending on the weighting method used: from 16.7\% (for price weighted) to 50\% (for equal weighted) for Stock A.
 
 Table 23.1 Stock weights by index weighting methods—hypothetical data.
 
 <table><tr><td>Stock</td><td>Price Weighted</td><td>Equal Weighted</td><td>Market Cap Weighted</td></tr><tr><td>A</td><td>16.7\% (5/30)</td><td>50\%</td><td>28.6\% (20/70)</td></tr><tr><td>B</td><td>83.3\% (25/30)</td><td>50\%</td><td>71.4\% (50/70)</td></tr><tr><td>Total</td><td>100\%</td><td>100\%</td><td>100\%</td></tr></table>
 
-Table 23.2 provides an example of actual data for calculating these indexes for a stock universe consisting of only two stocks—Alphabet (formerly Google) and Ford Motor—which, let's assume, represent the entire stock market. The data are from May 21, 2016. Again, the three different indexes can be calculated from the data for these two stocks using the three different weighting methods. Note that the weight for Alphabet varies from  $98.2\%$  to  $89.0\%$  to  $50\%$  for the three weighting methods. The weights for Ford Motor vary from  $0.098\%$  to  $50\%$ . This example shows the very significant changes in the assigned weights for portfolios using these different weighting methods.
+Table 23.2 provides an example of actual data for calculating these indexes for a stock universe consisting of only two stocks—Alphabet (formerly Google) and Ford Motor—which, let's assume, represent the entire stock market. The data are from May 21, 2016. Again, the three different indexes can be calculated from the data for these two stocks using the three different weighting methods. Note that the weight for Alphabet varies from $98.2\%$ to $89.0\%$ to $50\%$ for the three weighting methods. The weights for Ford Motor vary from $0.098\%$ to $50\%$. This example shows the very significant changes in the assigned weights for portfolios using these different weighting methods.
 
 Table 23.2 Stock index weighting methods—actual data.
 

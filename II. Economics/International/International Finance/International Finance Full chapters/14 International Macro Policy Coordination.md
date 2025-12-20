@@ -1,12 +1,32 @@
 ---
 aliases:
-  - International Macro Policy Coordination
-tags:
-key_concepts:
+- International Macro Policy Coordination
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 14: International Macro Policy Coordination"
-linter-yaml-title-alias: "Chapter 14: International Macro Policy Coordination"
+title: 'Chapter 14: International Macro Policy Coordination'
+linter-yaml-title-alias: 'Chapter 14: International Macro Policy Coordination'
+primary_tags:
+- monetary policy coordination negligible
+- international macroeconomic policy coordination
+- interdependence economies reason
+- international coordination country equilibrium
+- chapter 14 international macroeconomic
+secondary_tags:
+- benefits international policy coordination
+- international policy coordination dependent
+- case international macroeconomic
+- model employed coordinating countries
+- agreement successful international macroeconomic
+- coordination membership bretton
+- gains international monetary policy
+- monetary union imf oecd
+- exchange rate means coordination
+- potential gains monetary cooperation
+- economy macroeconomic noem models
+- global coordination european monetary
+tags_extracted: '2025-12-18T01:34:02.442154'
 ---
 
 # CHAPTER 14

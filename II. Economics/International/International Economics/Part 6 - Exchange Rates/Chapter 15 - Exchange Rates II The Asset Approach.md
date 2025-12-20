@@ -1,12 +1,33 @@
 ---
 aliases:
-  - Exchange Rates II - The Asset Approach in the Short Run
-tags:
-key_concepts:
+- Exchange Rates II - The Asset Approach in the Short Run
+tags: null
+key_concepts: null
 parent_directory: Part 6 - Exchange Rates
 cssclasses: academia
 title: Chapter 15 - Exchange Rates II - The Asset Approach in the Short Run
-linter-yaml-title-alias: Chapter 15 - Exchange Rates II - The Asset Approach in the Short Run
+linter-yaml-title-alias: Chapter 15 - Exchange Rates II - The Asset Approach in the
+  Short Run
+primary_tags:
+- equilibrium money foreign
+- predate euro 1999 denmark
+- theory guide exchange rate
+- exchange rate long run
+- year expected dollar return
+secondary_tags:
+- ii asset approach short
+- danish rate tracked ecb
+- country monetary approach used
+- exchange rate determination long
+- renunciation monetary independence danish
+- wartime theory exchange rates
+- pre 1999 countries pegging
+- eurozone 1999 rates like
+- purchasing power parity theory
+- holds exchange rate equal
+- peg fixed rate relative
+- chapter monetary approach exchange
+tags_extracted: '2025-12-18T00:41:04.192674'
 ---
 
 # Exchange Rates Ii: the Asset Approach in the Short Run

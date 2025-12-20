@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "IEOR E4703: Monte-Carlo Simulation"
-linter-yaml-title-alias: "IEOR E4703: Monte-Carlo Simulation"
+title: 'IEOR E4703: Monte-Carlo Simulation'
+linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+primary_tags:
+- computational resources
+- jump-diffusion process
+- somewhat erratic convergence
+secondary_tags:
+- monte carlo scheme
+- barrier crossings scheme
+- diffusion processes techniques allocation
+- carlo simulation
+- jump processes
+- diffusion processes
+tags_extracted: '2025-12-18T17:59:58.230570'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

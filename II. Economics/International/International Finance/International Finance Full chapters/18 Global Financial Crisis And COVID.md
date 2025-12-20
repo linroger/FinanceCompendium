@@ -1,12 +1,37 @@
 ---
 aliases:
-  - Global Financial Crisis And COVID
-tags:
-key_concepts:
+- Global Financial Crisis And COVID
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 18: Global Financial Crisis And COVID"
-linter-yaml-title-alias: "Chapter 18: Global Financial Crisis And COVID"
+title: 'Chapter 18: Global Financial Crisis And COVID'
+linter-yaml-title-alias: 'Chapter 18: Global Financial Crisis And COVID'
+primary_tags:
+- global financial crisis
+- global cost credit crunch
+- innovations linked financial crisis
+- financial crisis covid019
+- 2009 report imf estimated
+- international finance problem cds
+secondary_tags:
+- aig collapse
+- pandemic number financial innovations
+- billion outbreak credit crunch
+- derivatives 18 credit crunch
+- innovation collateralized debt obligations
+- institutions paid premiums aig
+- 482 global financial crisis
+- financial effects crisis clear
+- mortgages usa impact
+- financial crisis theory instruments
+- crisis impact
+- pandemic chapter outline 18
+- finance great deal crisis
+- crucial role credit crunch
+- 2008 losses cdss instigated
+- financial institutions 18 22
+tags_extracted: '2025-12-18T01:39:28.933079'
 ---
 
 # CHAPTER 18

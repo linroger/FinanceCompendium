@@ -1,14 +1,31 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 2: Multiperiod Models and Trees"
-tags:
+title: 'Lecture 2: Multiperiod Models and Trees'
+tags: null
 aliases:
-  - Multiperiod Models and Trees
+- Multiperiod Models and Trees
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 2: Multiperiod Models and Trees"
+linter-yaml-title-alias: 'Lecture 2: Multiperiod Models and Trees'
+primary_tags:
+- period models
+- many arbitrage pricing problems
+- trading periods
+- continuous rebalancing
+secondary_tags:
+- trees introduction models
+- introduction models
+- multiperiod market
+- pricing problems
+- trading period
+- arbitrage pricing
+- 2-period market
+- stronger hypothesis
+- every multiperiod market
+tags_extracted: '2025-12-18T17:57:50.521006'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 2: MULTIPERIOD MODELS AND TREES

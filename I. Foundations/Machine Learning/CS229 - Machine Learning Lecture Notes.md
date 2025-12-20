@@ -1,11 +1,41 @@
 ---
 parent_directory: Machine Learning
-title: "CS229 - Machine Learning Lecture Notes"
-tags:
+title: CS229 - Machine Learning Lecture Notes
+tags: null
 aliases:
-  - "CS229 Lecture Notes"
-  - "Machine Learning Lecture Notes"
+- CS229 Lecture Notes
+- Machine Learning Lecture Notes
 cssclasses: academia
+primary_tags:
+- 5-th degree
+- existing training algorithms
+- other gradient-based optimizers
+- vector-valued inputs
+- optional reading
+- multivariate gaussian distribution
+- best approximation
+secondary_tags:
+- 4.1 gaussian discriminant analysis
+- corresponding word embeddings
+- backpropagation algorithm
+- gradient descent algorithm
+- likelihood estimation
+- support machine
+- prediction example
+- value approximation section
+- large training and test errors
+- conv2d s
+- most commonly used model
+- any vector
+- 6.7 regularization
+- joint likelihood
+- significantly smaller variance
+- three derived features
+- each model times
+- elementary differentiable functions
+- real-world problems
+tags_extracted: '2025-12-18T17:55:15.304707'
+tags_method: max_quality_v1
 ---
 
 # CS229 Lecture Notes

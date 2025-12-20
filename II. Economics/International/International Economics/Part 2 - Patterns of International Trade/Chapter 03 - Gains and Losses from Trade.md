@@ -1,3 +1,26 @@
+---
+primary_tags:
+- rental earned factor
+- displaced trade today era
+- goods change real
+- gains loses trade
+- gains bolivia
+secondary_tags:
+- trade specific factors model
+- rent fact increases means
+- output increase real rental
+- rentals capital land impact
+- factors production gain real
+- rental capital exceeds percentage
+- effect opening trade rental
+- price agriculture change rental
+- means real rental capital
+- production gains contrary shown
+- conclusion increase relative
+- agricultural good rises probably
+tags_extracted: '2025-12-18T00:37:48.195330'
+---
+
 # Gains and Losses from Trade in the Specific-factors Model
 
 The time has come, the awaited day, a historic day in which Bolivia retakes absolute control of our natural resources.

@@ -1,14 +1,44 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "Stochastic Calculus: An Introduction with Applications"
-tags:
+title: 'Stochastic Calculus: An Introduction with Applications'
+tags: null
 aliases:
-  - Stochastic Calculus: An Introduction with Applications
+- Stochastic Calculus: An Introduction with Applications
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Stochastic Calculus: An Introduction with Applications"
+linter-yaml-title-alias: 'Stochastic Calculus: An Introduction with Applications'
+primary_tags:
+- 4.6 exercise
+- borel-canelli lemma
+- orthogonal random variables
+- quadratic variation
+- if , then proof
+- 7.3 simulation
+- sufficient assumptions
+secondary_tags:
+- square-integrable martingale
+- multidimensional brownian motion
+- black scholes equation
+- bounded first and second derivatives
+- 2.8 quadratic variation
+- coin-tossing random variables
+- some heuristic derivations
+- optional sampling theorem ii
+- independent standard brownian motions
+- other examples
+- same assumptions
+- riemann integral
+- simple example
+- next exercise
+- discrete process
+- suitable processes show
+- fractional brownian
+- time processes
+- same exercise
+tags_extracted: '2025-12-18T17:58:44.474403'
+tags_method: max_quality_v1
 ---
 
 # Stochastic Calculus: An Introduction with Applications

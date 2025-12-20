@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Latin American Debt Crisis
-tags:
-key_concepts:
+- Latin American Debt Crisis
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 15: Latin American Debt Crisis"
-linter-yaml-title-alias: "Chapter 15: Latin American Debt Crisis"
+title: 'Chapter 15: Latin American Debt Crisis'
+linter-yaml-title-alias: 'Chapter 15: Latin American Debt Crisis'
+primary_tags:
+- crisis management phase factors
+- developing countries servicing debts
+- 15 latin american debt
+- indebted middle income countries
+- latin american debt crisis
+secondary_tags:
+- chapter 15 latin american
+- debtors located latin america
+- latin american countries
+- lending latin american countries
+- debt crisis management overall
+- income developing countries 15
+- income countries simics argentina
+- initially placed debtor countries
+- debt crisis chapter outline
+- strategy avoidance financial crisis
+- debt crisis 15 10
+- crisis international banking averted
+tags_extracted: '2025-12-18T01:37:52.443522'
 ---
 
 # CHAPTER 15

@@ -1,46 +1,22 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 27 - Market for Asset Backed Securities
+primary_tags:
+- asset backed securities created
+- originated loans critical role
+- bonds backed residential mortgage
+secondary_tags:
+- securitization market market
+- securitization used corporations chapter
+- creation securitized products primarily
+- securitization use
+- purpose vehicle regulation securitization
+- securitization following financial crisis
 cssclasses: academia
-title: "27"
-linter-yaml-title-alias: "27"
+parent_directory: International_Foundations_of_Global_Financial_Markets
+tags_extracted: '2025-12-18T00:23:29.320703'
 ---
 
-# 27
-
 # Market for Asset-Backed Securities
-
-# CONTENTS
-
-# Learning Objectives
-
-Securitization and the Creation of a Securitized Product
-
-The Parties to a Securitization
-
-Securitized Products Created and Transaction Structure
-
-Benefits of Securitization to Financial Markets
-
-# Concerns about Securitization
-
-Need for the Development of an Accommodating Legal Structure
-
-Role of the SPV
-
-Legal Challenge in the United States
-
-# Securitization Regulation
-
-Securitization as a Corporate Risk Management Tool
-
-Key Points
-
-Questions
-
-# Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -66,9 +42,9 @@ The credit department of FAF Lab Equipment Inc. makes the decision as to whether
 
 Moreover, FAF Lab Equipment Inc. may have a department that is responsible for servicing the loan. Servicing involves collecting payments from borrowers, notifying borrowers who may be delinquent, and, when necessary, recovering and disposing of the collateral (the laboratory equipment, in our illustration) if the borrower fails to make the contractual loan payments. Although the servicer of the loans need not be the originator of the loans, in our illustration, FAF Lab Equipment Inc. is the servicer.
 
-Now let's get to how these loans are used in a securitization transaction. We assume that FAF Lab Equipment Inc. has more than  \$300 million of installment sales contracts. We further assume that FAF Lab Equipment Inc. wants to raise\$ 300 million. Rather than issuing corporate bonds for 300 million, the treasurer of the corporation decides to raise the funds through a securitization. To do so, FAF Lab Equipment Inc. will set up a legal entity referred to as a special-purpose vehicle (SPV). At this point we will not explain the purpose of this legal entity, but it will become clear later that the SPV is critical in a securitization transaction.
+Now let's get to how these loans are used in a securitization transaction. We assume that FAF Lab Equipment Inc. has more than $300 million of installment sales contracts. We further assume that FAF Lab Equipment Inc. wants to raise $300 million. Rather than issuing corporate bonds for 300 million, the treasurer of the corporation decides to raise the funds through a securitization. To do so, FAF Lab Equipment Inc. will set up a legal entity referred to as a special-purpose vehicle (SPV). At this point we will not explain the purpose of this legal entity, but it will become clear later that the SPV is critical in a securitization transaction.
 
-In our illustration, the SPV that is set up is called "FAF Asset Trust" (FAFAT). FAF Lab Equipment Inc. will then sell to FAFAT  \$300 million of the loans. FAF Lab Equipment Inc. will receive from FAFAT\$ 300 million in cash, the amount of funds it wanted to raise. FAFAT obtains the \$300 million by selling securities that are backed by the \$300 million of loans. The securities are the asset-backed securities mentioned above.
+In our illustration, the SPV that is set up is called "FAF Asset Trust" (FAFAT). FAF Lab Equipment Inc. will then sell to FAFAT $300 million of the loans. FAF Lab Equipment Inc. will receive from FAFAT $300 million in cash, the amount of funds it wanted to raise. FAFAT obtains the $300 million by selling securities that are backed by the $300 million of loans. The securities are the asset-backed securities mentioned above.
 
 In the prospectus for a securitization issued in the United States, these securities are usually referred to as "certificates."
 
@@ -84,21 +60,21 @@ The end result of a securitization is the creation of securities that are generi
 
 A securitization has transaction structure. This refers to the securities created, the rules that set forth the way in which the losses are to be distributed among the securities in the structure, the rules for the distribution of interest each month among the securities in the structure, and the rules for the distribution of principal repayment among the securities in the structures. The rules are referred to as the structure "waterfall."
 
-Let's look at some different types of structure, starting with a simple one using the FAF Lab Equipment Inc. sale of receivables to FAFAT—the SPV and issuer of the securities. Suppose in the bond structure there are three bond classes, A, B, and C. Recall that the total amount of the receivables in that hypothetical securitization transaction is  \$300 million and that the par amount of the bond classes sold is the same amount. Let's assume that the par value of bond class A is\$ 260 million, bond class B is \$30 million, and bond class C is \$10 million, and that the rules for the distribution of the losses from the pool of receivables backing this securitization are as follows:
+Let's look at some different types of structure, starting with a simple one using the FAF Lab Equipment Inc. sale of receivables to FAFAT—the SPV and issuer of the securities. Suppose in the bond structure there are three bond classes, A, B, and C. Recall that the total amount of the receivables in that hypothetical securitization transaction is $300 million and that the par amount of the bond classes sold is the same amount. Let's assume that the par value of bond class A is $260 million, bond class B is $30 million, and bond class C is $10 million, and that the rules for the distribution of the losses from the pool of receivables backing this securitization are as follows:
 
 - Losses on the pool of receivables are first allocated to bond class C up to 10 million (the par amount of that bond class).
-- Subsequent losses on the pool of receivables are then allocated to bond class B up to  \$30 million (the par amount of that bond class) above the\$ 10 million loss absorbed by bond class C.
+- Subsequent losses on the pool of receivables are then allocated to bond class B up to $30 million (the par amount of that bond class) above the $10 million loss absorbed by bond class C.
 - Finally, should losses on the pool of receivables exceed 40 million, losses are then absorbed by bond class A.
 
 For the distribution of principal when it is paid by the borrowers, the rules are:
 
 - Pay bond class A with all principal received up to the amount of its par value (260 million).
-- Once bond class A is fully repaid its par amount of  \$260 million, the principal received is distributed to bond class B up to its par value of\$ 30 million.
+- Once bond class A is fully repaid its par amount of $260 million, the principal received is distributed to bond class B up to its par value of $30 million.
 - Finally, after bond class B is paid off, any additional principal is paid to bond class C.
 
-Let's consider what happens under different situations with respect to losses on the pool of receivables. Suppose that the total loss for the pool of receivables over the life of the securities is \$6 million. In this case, bond class A and bond class B will be repaid their par value in full. However, bond class C will absorb the loss of \$6 million and therefore receive only \$4 million of the \$10 million par value. If the total loss for the pool of receivables over the life of the securities is \$28 million, then bond class C receives no principal, and bond class A receives the entire principal. However, bond class B must absorb the loss above \$10 million that is absorbed by bond class C. That amount is \$18 million (\$28 million - \$10 million). Consequently, bond class B will receive only \$12 million of its par value (\$30 million - \$18 million). Finally, let's consider the case where the loss is \$60 million. In this case, neither bond class B nor bond class C will receive any principal, and bond class A must absorb the excess losses that the two other bond classes absorbed. That excess is \$20 million (= \$60 million - \$10 million - \$30 million), and therefore bond class A will receive \$240 in principal rather than its par amount of 260 million.
+Let's consider what happens under different situations with respect to losses on the pool of receivables. Suppose that the total loss for the pool of receivables over the life of the securities is $6 million. In this case, bond class A and bond class B will be repaid their par value in full. However, bond class C will absorb the loss of $6 million and therefore receive only $4 million of the $10 million par value. If the total loss for the pool of receivables over the life of the securities is $28 million, then bond class C receives no principal, and bond class A receives the entire principal. However, bond class B must absorb the loss above $10 million that is absorbed by bond class C. That amount is $18 million ($28 million - $10 million). Consequently, bond class B will receive only $12 million of its par value ($30 million - $18 million). Finally, let's consider the case where the loss is $60 million. In this case, neither bond class B nor bond class C will receive any principal, and bond class A must absorb the excess losses that the two other bond classes absorbed. That excess is $20 million (= $60 million - $10 million - $30 million), and therefore bond class A will receive $240 in principal rather than its par amount of 260 million.
 
-Notice what has happened in this structure. Bond class C is providing credit support against losses from the pool of receivables for bond class A and bond class B up to \$10 million. Moreover, bond class B is providing credit support against losses from the pool of receivables for bond class A up to an additional \$30 million above that provided by bond class C. For this reason, we say that bond class B and bond class C are "subordinated" bond classes. Because bond class C is the first to absorb the losses, it is referred to as the "first-loss" piece. We also say that because bond class A is not providing credit support for the other two bond classes, it is the senior bond class. The structure itself is a senior-subordinated structure.
+Notice what has happened in this structure. Bond class C is providing credit support against losses from the pool of receivables for bond class A and bond class B up to $10 million. Moreover, bond class B is providing credit support against losses from the pool of receivables for bond class A up to an additional $30 million above that provided by bond class C. For this reason, we say that bond class B and bond class C are "subordinated" bond classes. Because bond class C is the first to absorb the losses, it is referred to as the "first-loss" piece. We also say that because bond class A is not providing credit support for the other two bond classes, it is the senior bond class. The structure itself is a senior-subordinated structure.
 
 We discuss the credit risk and the senior-subordinated structure in the next section. Here we note only that each bond class will receive a credit rating. The senior bond class will receive the highest credit rating, and the two subordinated bond classes will receive lower credit ratings. More specifically, bond class B will receive a lower credit rating than bond class A but a higher credit rating than bond class C, because bond class B is being provided credit support by bond class C.
 
@@ -125,11 +101,11 @@ In this example, it should be clear that the senior bond classes are not providi
 1. There are no losses for the pool of receivables through year 3, but in the first month of year 4, the pool suffers a 60 million loss.
 2. The principal paid to bond class A1 through year 3 is 70 million.
 
-Thus as of the end of the first month in year 4, the two subordinated bond classes are wiped out (i.e., will not receive any principal). The principal due (before adjustment for the losses) is the same as when the securitization was issued, with the exception that bond class A1 has a par value that is reduced by the \$60 million principal paid to that bond class. That is, the par value is \$90 million (\$150 million - \$60 million). So we now have the following situation before the adjustment for the loss of receivables above and beyond what was allocated to the two bond classes:
+Thus as of the end of the first month in year 4, the two subordinated bond classes are wiped out (i.e., will not receive any principal). The principal due (before adjustment for the losses) is the same as when the securitization was issued, with the exception that bond class A1 has a par value that is reduced by the $60 million principal paid to that bond class. That is, the par value is $90 million ($150 million - $60 million). So we now have the following situation before the adjustment for the loss of receivables above and beyond what was allocated to the two bond classes:
 
 <table><tr><td>Bond Class</td><td>Par Value ($ millions)</td></tr><tr><td>A1 (senior)</td><td>90</td></tr><tr><td>A2 (senior)</td><td>60</td></tr><tr><td>A3 (senior)</td><td>30</td></tr><tr><td>A4 (senior)</td><td>20</td></tr><tr><td>Total</td><td>200</td></tr></table>
 
-The four senior bond classes must be allocated the loss not absorbed by the two subordinate bond classes. That amount is \$20 million: the loss of \$60 million minus the \$40 million that the two subordinated bond classes absorbed. Because the par value at the beginning of year 4 is \$200 for all senior bond classes in total, that means each senior bond class has to be allocated 10\% of the loss (\$20 million to be allocated divided by \$200 million in par value for the senior bonds). So the principal owed to each bond class is as follows:
+The four senior bond classes must be allocated the loss not absorbed by the two subordinate bond classes. That amount is $20 million: the loss of $60 million minus the $40 million that the two subordinated bond classes absorbed. Because the par value at the beginning of year 4 is $200 for all senior bond classes in total, that means each senior bond class has to be allocated 10% of the loss ($20 million to be allocated divided by $200 million in par value for the senior bonds). So the principal owed to each bond class is as follows:
 
 <table><tr><td>Bond Class</td><td>Par Value ($ millions)</td></tr><tr><td>A1 (senior)</td><td>81</td></tr><tr><td>A2 (senior)</td><td>54</td></tr><tr><td>A3 (senior)</td><td>27</td></tr><tr><td>A4 (senior)</td><td>18</td></tr><tr><td>Total</td><td>180</td></tr></table>
 
@@ -193,7 +169,7 @@ It is important to understand why a securitization may have a lower funding cost
 
 An actual example of the cost reduction benefit of securitization should make this clear. Our example is that of Ford Motor Company, an automobile manufacturer. Beginning in 2000, there were concerns that the credit rating of Ford would be downgraded. The company has a captive finance company, Ford Motor Credit, whose credit rating would also be downgraded. However, the captive finance company had the ability to securitize its auto loans to customers, and it issued a securitized bond. What
 
-Ford Motor Credit did was reduce its exposure from \$42 billion to \$8 billion of standard corporate bond issuance, substituting the sale of securitized automobile loans that carried the highest credit rating, triple A. In fact, from 2000 to mid-2003, Ford Motor Credit increased securitizations to \$55 billion (28\% of its total funding) from \$25 billion (13\% of its total funding). Also, even though the credit ratings of not only Ford Motor Company but also the other major auto manufacturers were downgraded in May 2005, the credit ratings on several of the securitization transactions of these automobile manufacturers were not downgraded. In fact, some were upgraded.
+Ford Motor Credit did was reduce its exposure from $42 billion to $8 billion of standard corporate bond issuance, substituting the sale of securitized automobile loans that carried the highest credit rating, triple A. In fact, from 2000 to mid-2003, Ford Motor Credit increased securitizations to $55 billion (28% of its total funding) from $25 billion (13% of its total funding). Also, even though the credit ratings of not only Ford Motor Company but also the other major auto manufacturers were downgraded in May 2005, the credit ratings on several of the securitization transactions of these automobile manufacturers were not downgraded. In fact, some were upgraded.
 
 Understanding this important decoupling of the credit risk of the entity needing funds and the bond classes issued by the SPV should make it clear that the SPV's legal role is critical. This occurs in the United States because of the treatment of SPVs by the legal system. That is, despite several challenges that have occurred (discussed next), the assets in a properly structured securitization belong to the SPV, not to the entity that sold the assets to the SPV in exchange for funds.
 
@@ -235,7 +211,7 @@ Beyond the potential funding benefits is another important benefit from securiti
 
 First let's consider interest rate risk. The loans or receivables backing a securitization are debt obligations or fixed income instruments. Consequently, if the loans or receivables remain on the books of the originator, their value declines if interest rates increase. That is, the originator of the portfolio of loans or receivables is exposed to interest rate risk. However, if that portfolio of loans or receivables is removed from the originator's balance sheet by being used as collateral for a securitization, the originator no longer is exposed to the interest rate risk associated with those loans or receivables.
 
-Second, the credit risk associated with the portfolio of loans and receivables is removed. To understand why, consider once again Ford Motor Company and its captive finance subsidiary, Ford Motor Credit. Since 2000, Ford Motor Credit has used securitization to reduce its portfolio of automobile loans. By doing so, it has reduced its exposure to the credit risk associated with those loans (i.e., the risk that the borrower will default). At the end of 2001, Ford Motor Credit carried  \$208 million in auto loans and realized first quarter credit losses of\$ 912 million. By 2003, credit losses for the first quarter had declined to \$493 million, with loans on the balance sheet down by \$28 million to 180 million.
+Second, the credit risk associated with the portfolio of loans and receivables is removed. To understand why, consider once again Ford Motor Company and its captive finance subsidiary, Ford Motor Credit. Since 2000, Ford Motor Credit has used securitization to reduce its portfolio of automobile loans. By doing so, it has reduced its exposure to the credit risk associated with those loans (i.e., the risk that the borrower will default). At the end of 2001, Ford Motor Credit carried $208 million in auto loans and realized first quarter credit losses of $912 million. By 2003, credit losses for the first quarter had declined to $493 million, with loans on the balance sheet down by $28 million to 180 million.
 
 Third, consider managing the other risks associated with a portfolio of loans or receivables. Let's look once again at securitization as done in the automobile industry. As explained later in this chapter, not only are loans used in a securitization, so also are leases (the asset being lease receivables). In an automobile lease, the user of the automobile (referred to as the "lessee") makes payments to the owner of the automobile (called the "lessor") over the term of the lease. At the end of the lease term, the lessee has the option either to buy the automobile at a predetermined fixed price or to return it to the lessor. The market value of the leased automobile at the end of the lease term is referred to as its "residual value." The lessee's decision at the end of the lease term depends on the market value of the automobile compared to the predetermined fixed price set forth in the lease agreement. If the market value is less than the predetermined fixed price, the lessee will return to the automobile to the lessor. The lessor therefore then owns a portfolio of automobiles whose market value is below what was expected when the leases were originated. This risk in a lease transaction from the perspective of the lessor or originator is called "residual risk." This risk is removed when a securitization is created, because the risk is passed on to the investors in the securitized bonds.
 
@@ -268,67 +244,4 @@ Third, consider managing the other risks associated with a portfolio of loans or
 - The abuses and problems associated with securitization identified by the global financial crisis were addressed in the United States by the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010, which required the SEC to adopt several rules regarding securitization.
 - In addition to the opportunity to raise funds at a lower cost through securitization, securitization offers corporate issuers the ability to diversify funding sources and a vehicle for transferring risk (i.e., it is a corporate risk management tool).
 
-# Questions
-
-1. How has asset securitization resulted in financial disintermediation?
-2. Why is the entity seeking to raise funds through a securitization referred to as the "seller" or the "originator"?
-3. What is a special-purpose vehicle (SPV)?
-4. What is meant by the "servicing of loans"?
-5. What is meant by the "moral hazard" associated with the securitization of loans?
-6. What is meant by a securitization's "waterfall"?
-7. In a securitization structure, explain the following: a. first-loss piece.
-
-b. senior bonds.
-
-8. What is meant by a "senior-subordinated structure"?
-9. A financial corporation with a BBB credit rating has a consumer loan portfolio. An investment banker suggests that this corporation consider issuing an ABS where the collateral for the security would be the consumer loan portfolio. What would be the advantage of issuing an ABS rather than a corporate bond for which the consumer loan portfolio serves as collateral?
-10. In achieving the benefits associated with a securitization, why is the SPV important to the transaction?
-11. What is the difference between credit tranching and time tranching, and how are they used to create securities that are more appealing to investors?
-12. The following statement appeared in the executive summary of a report by a global joint initiative:
-
-The securitization and structured credit markets have become critically important to the global capital markets, and thereby also to the world economies. The absence of well-functioning securitization markets negatively impacts consumers, banks, issuers and investors, resulting in lower economic activity and fewer than needed new jobs being created in the future. The price of credit is likely to be higher for the consumer and the availability scarcer. Banks will no longer have a tool to reduce risk and diversify their financing sources to free up capital for other activities. Investors will encounter rising difficulty in gaining exposure to an asset class that has become a significant part of their portfolios.[9]
-
-a. Explain why "securitization and structured credit markets have become critically important to the global capital markets, and thereby also to the world economies."
-
-b. Explain why the "price of credit is likely to be higher for the consumer and the availability scarcer."
-
-c. Explain why banks "will no longer have a tool to reduce risk and diversify their financing sources to free up capital for other activities."
-
-13. The following appeared in an International Monetary Fund working paper by Miguel Segoviano, Bradley Jones, Peter Lindner, and Johannes Blankenheim:
-
-Securitization, like other forms of financial innovation, has costs and benefits associated with it. There are conditions under which securitization can be a net benefit for the financial system and vice versa. As such, securitization as a concept is neither inherently good nor bad per se—a point underscored by the marked variation in the performance of different classes of securitized assets during and after the global financial crisis (GFC). This point of departure stands in contrast to some of the more polarizing views associated with securitization, which were advanced in the aftermath of the GFC.[10]
-
-What are the costs associated with securitization that the quotation is referring to?
-
-14. In the publication cited in the previous question, the following statement appeared:
-
-The Originate-to-Distribute Model associated with the boom in securitization meant that originators often had little or no economic interest ("skin in the game") in the loans that were written and, therefore, did not always have a strong incentive to originate loans that borrowers could realistically repay, as long as there was a buyer for the loans.
-
-What is meant by the "Originate-to-Distribute Model"?
-
-15. When describing the response of European regulators to the abuses attributable to securitization that caused the financial crisis, Steven Schwarcz wrote: "To avoid a recurrence of the allegedly flawed originate-to-distribute model, the originator or sponsor must retain an unhedged material net economic interest in the securitization of at least  $5\%$ . What does this mean?
-16. Securitization plays a critical role in financial markets in terms of the functions that have historically been provided by financial intermediation. Explain how securitization: a. provides maturity intermediation.
-
-b. reduces risk through diversification.
-
-c. reduces the costs of transacting and information processing.
-
-# 17. The following quotation is from Theodor Baums:
-
-The slowest process of all has been the process of establishing the legal framework for securitization in individual countries. Those countries which have been successful in doing so have found themselves home to many special purpose vehicles issuing securities backed by assets from their own and/or foreign countries. Nevertheless for most countries the process has been slow up to now.[12]
-
-Explain what the author is referring to in the above quotation.
-
-1. For further discussion of the role of the trustee in a securitization, see Karen Cook and F. Jim Della Sala, "The Role of the Trustee in Asset-Backed Securities," in Handbook of Structured Financial Products, ed. Frank J. Fabozzi (Hoboken, NJ: John Wiley & Sons, 1998), chapter 7.
-2. Henry M. Paulson, Jr., "Current Housing and Mortgage Market Developments," speech, Georgetown University Law Center, Washington, DC, October 16, 2007, HP-612.
-3. José Manuel González-Páramo, speech, Global ABS Conference 2008, Cannes, June 1, 2008.
-4. Eiichi Sekine, Kei Kodachi, and Tetsuya Kamiyama, "The Development and Future of Securitization in Asia," Nomura Institute of Capital Markets Research, paper presented at the Fourth Annual Brookings-Tokyo Club-Wharton Conference, Washington, DC, October 16, 2008.
-5. John Walsh, speech delivered at the American Securitization Forum Annual Conference, January 24, 2012, available at http://www.occ.gov/news-issuances/speeches/2012/pub-speech-2012-11.pdf.
-6. Steven L. Schwarcz, "Securitization and Post-Crisis Financial Regulation," Cornell Law Review Online 101 (2016): 115-139. https://scholarship.law.duke.edu/faculty_scholarship/3558/.
-7. There are exemptions to the risk retention rule. Securitizers are not required to retain credit risk when all of the pooled assets are "qualified residential mortgages." The definition of a qualified residential mortgage is left to certain federal banking agencies.
-8. From p. 50 of Toyota's 2013 Form 10-K, available at http://www toyotafinancial.com/consumer/ShowBinary/BEA\%20Repository/tfs/en_US/document/Fiscal_2013(Form_10K.pdf.
-9. Securities Industry and Financial Markets Association, American Securitization Forum, European Securitisation Forum, and Australian Securitisation Forum, "Restoring Confidence in the Securitization Markets," Executive Summary, December 3, 2008.
-10. Miguel Segoviano, Bradley Jones, Peter Lindner, and Johannes Blankenheim, "Securitization: Lessons Learned and the Road Ahead," IMF Working Paper WP/13/255 (Washington, DC: International Monetary Fund, November 2013), Introduction.
-11. Schwarcz, "Securitization and Post-Crisis Financial Regulation."
-12. Theodor Baums, "Asset Securitization in Europe," in Forum International, volume 20 (Alphen aan den Rijn, Netherlands: Kluwer Law and Taxation Publishers, 1990).
 

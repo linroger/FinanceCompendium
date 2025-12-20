@@ -1,9 +1,16 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 24_LOOKING_AHEAD
+primary_tags:
+- 24lookingahead looking ahead parts
+- chapter 17 recommended
+secondary_tags:
+- outlined big debt cycle
+- book outlined big debt
+tags_extracted: '2025-12-18T00:02:25.809323'
 ---
 
 # 24_LOOKING_AHEAD

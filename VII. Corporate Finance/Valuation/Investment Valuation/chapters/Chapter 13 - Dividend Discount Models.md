@@ -1,11 +1,9 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+tags: [dividend_discount_model, equity_valuation, gordon_growth_model, two_stage_model, three_stage_model]
+key_concepts: [dividend_discount_models, gordon_growth_model, two_stage_ddm, three_stage_ddm, stock_valuation]
+parent_directory: Investment Valuation
 cssclasses: academia
-title: Dividend Discount Models
-linter-yaml-title-alias: Dividend Discount Models
+title: Chapter 13 - Dividend Discount Models
 ---
 
 # Dividend Discount Models
@@ -14,36 +12,36 @@ In the strictest sense, the only cash flow you receive when you buy shares in a 
 
 This chapter explores the general model as well as specific versions of it tailored for different assumptions about future growth. It also examines issues in using the dividend discount model and the results of studies that have looked at its efficacy.
 
-# THE GENERAL MODEL
+## The General Model
 
 When an investor buys stock, he or she generally expects to get two types of cash flows—dividends during the period the stock is held and an expected price at the end of the holding period. Since this expected price is itself determined by future dividends, the value of a stock is the present value of dividends through infinity:
 
 $$
-\text {V a l u e p e r s h a r e o f s t o c k} = \sum_ {\mathrm {t} = 1} ^ {\mathrm {t} = \infty} \frac {\mathrm {E} (\mathrm {D P S} _ {\mathrm {t}})}{\left(1 + \mathrm {k} _ {\mathrm {e}}\right) ^ {\mathrm {t}}}
-$$ where  $\mathrm{DPS}_{\mathrm{r}} =$  Expected dividends per share
+\text{Value per share of stock} = \sum_{\mathrm{t} = 1}^{\mathrm{t} = \infty} \frac{\mathrm{E}(\mathrm{DPS}_{\mathrm{t}})}{\left(1 + \mathrm{k}_{\mathrm{e}}\right)^{\mathrm{t}}}
+$$ 
+
+where $\mathrm{DPS}_{\mathrm{t}} =$ Expected dividends per share
 
 
 $$
-
-\mathrm {k} _ {\mathrm {e}} = \text {C o s t}
-
+\mathrm{k}_{\mathrm{e}} = \text{Cost of equity}
 $$
 
 The rationale for the model lies in the present value rule—the value of any asset is the present value of expected future cash flows, discounted at a rate appropriate to the riskiness of the cash flows being discounted.
 
 There are two basic inputs to the model—expected dividends and the cost on equity. To obtain the expected dividends, we make assumptions about expected future growth rates in earnings and payout ratios. The required rate of return on a stock is determined by its riskiness, measured differently in different models—the market beta in the capital asset pricing model (CAPM) and the factor betas in the arbitrage and multifactor models. The model is flexible enough to allow for time-varying discount rates, where the time variation is because of expected changes in interest rates or risk across time.
 
-# VERSIONS OF THE MODEL
+## Versions of the Model
 
 Since projections of dollar dividends cannot be made through infinity, several versions of the dividend discount model have been developed based on different assumptions about future growth. We will begin with the simplest—a model designed to value stock in a stable growth firm that pays out what it can afford to in dividends—and then look at how the model can be adapted to value companies in high growth that may be paying little or no dividends.
 
-# The Gordon Growth Model
+### The Gordon Growth Model
 
 The Gordon growth model can be used to value a firm that is in "steady state" with dividends growing at a rate that can be sustained forever.
 
-The Model The Gordon growth model relates the value of a stock to its expected dividends in the next time period, the cost of equity, and the expected growth rate in dividends.
+**The Model** The Gordon growth model relates the value of a stock to its expected dividends in the next time period, the cost of equity, and the expected growth rate in dividends.
 
-Value of stock  $=$  Expected dividends next period/(Cost of equity - Expected growth rate in perpetuity)
+Value of stock = Expected dividends next period/(Cost of equity - Expected growth rate in perpetuity)
 
 What Is a Stable Growth Rate? While the Gordon growth model provides a simple approach to valuing equity, its use is limited to firms that are growing at a stable growth rate. There are two insights worth keeping in mind when estimating a stable growth rate. First, since the growth rate in the firm's dividends is expected to last forever, the firm's other measures of performance (including earnings) can also be expected to grow at the same rate. To see why, consider the consequences in the long term of a firm whose earnings grow 2 percent a year forever, while its dividends grow at 3 percent. Over time, the dividends will exceed earnings. If a firm's earnings grow at a faster rate than dividends in the long term, the payout ratio, in the long term, will converge toward zero, which is also not a steady state. Thus, though the model's requirement is for the expected growth rate in dividends, analysts should be able to substitute in the expected growth rate in earnings and get precisely the same result, if the firm is truly in steady state.
 
@@ -52,9 +50,7 @@ The second issue relates to what growth rate is reasonable as a stable growth ra
 The return on equity (ROE) that we assume in perpetuity should reflect not what the company may have made last year nor what it is expected to make next year, but, rather, a longer-term estimate. The estimate of ROE matters because the payout ratio in stable growth has to be consistent:
 
 $$
-
-\text {P a y o u t r a t i o} = \mathrm {g} / \mathrm {R O E}
-
+\text{Payout ratio} = \mathrm{g} / \mathrm{ROE}
 $$
 
 The cost of equity has to be consistent with the firm being mature; if a beta is being used, it should be close to 1.
@@ -62,9 +58,7 @@ The cost of equity has to be consistent with the firm being mature; if a beta is
 Limitations of the Model As most analysts discover quickly, the Gordon growth model is extremely sensitive to assumptions about the growth rate, as long as other inputs to the model (payout ratio, cost of equity) are kept constant. Consider a stock with an expected dividend per share next period of 2.50, a cost of equity of 15 percent, and an expected growth rate of 5 percent forever. The value of this stock is:
 
 $$
-
-\text {V a l u e} = 2. 5 0 / (1. 1 5 - . 0 5) = \$ 2 5
-
+\text{Value} = 2.50 / (1.15 - 0.05) = \$25
 $$
 
 Note, however, the sensitivity of this value to estimates of the growth rate in Figure 13.1. As the growth rate approaches the cost of equity, the value per
@@ -91,9 +85,9 @@ We will be valuing Con Ed using a stable growth dividend discount model because 
 The firm operates in a region where the population and power usage have leveled off over the past few decades.
 The regulatory authorities will restrict price increases to be about the inflation rate.
 The firm has had a stable mix of debt and equity funding its operations for decades.
-■ Con Ed has a clientele of dividend-loving investors, and attempts to pay out as much as it can in dividends. During the period 2006-2010, the firm returned about  $95\%$  of its free cash flows to equity (FCFE) as dividends.
+- Con Ed has a clientele of dividend-loving investors, and attempts to pay out as much as it can in dividends. During the period 2006-2010, the firm returned about  $95\%$  of its free cash flows to equity (FCFE) as dividends.
 
-To value the company using the stable growth dividend discount model, we start with the earnings per share of  \$3.47 that the firm reported for 2010 and the dividends per share of\$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
+To value the company using the stable growth dividend discount model, we start with the earnings per share of \$3.47 that the firm reported for 2010 and the dividends per share of \$2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
 
 $$
 
@@ -104,9 +98,7 @@ $$
 Capping the growth rate at the risk-free rate of  $3.5\%$ , we generated a value per share of 57.46.
 
 $$
-
-\begin{array}{l} \text {V a l u e p e r s h a r e} = \frac {\text {E x p e c t e d D i v i d e n d s p e r s h a r e n e x t y \text {y e a r}}}{\text {C o s t o f E q u i t y - E x p e c t e d g r o w t h r a t e}} \\ = \frac {\mathbb {S} 2 . 2 2 (1 . 0 3 5)}{(0 . 7 5 - 0 . 3 5)} = \mathbb {S} 5 7. 4 6 \\ \end{array}
-
+\begin{array}{l} \text{Value per share} = \frac{\text{Expected Dividends per share next year}}{\text{Cost of Equity - Expected growth rate}} \\ = \frac{\$2.22(1.035)}{(0.075 - 0.035)} = \$57.46 \\ \end{array}
 $$
 
 We check to see whether the expected growth rate was consistent with fundamentals for Con Ed.
@@ -128,9 +120,7 @@ The value for Con Ed is different from the market price, and this is likely to b
 To examine the magnitude of the difference between the market price and your estimate of value, you can hold the other variables constant and change the growth rate in your valuation until the value converges on the price. Figure 13.2 estimates value as a function of the expected growth rate (assuming a beta of 0.80 and current dividends per share of 2.22). Solving for the expected growth rate that provides the current price, we get:
 
 $$
-
-\$ 53.47 = \$ 2.22(1 + \mathrm {g})
-
+\$53.47 = \$2.22(1 + \mathrm{g})
 $$
 
 The growth rate in earnings and dividends would have to be 3.21 percent a year to justify the stock price of 53.47. This growth rate is called an implied growth rate. Since we estimate growth from fundamentals, this allows us to estimate an implied return on equity:
@@ -163,9 +153,7 @@ The cost of equity was estimated using a beta of 0.90 (reflecting the average be
 Finally, we assume a stable growth rate of  $2\%$  (set just above the expected inflation rate) and valued the equity:
 
 $$
-
-\text {V a l u e o f e q u i t y} = \frac {5 , 2 7 0 (1 . 0 2)}{(. 0 8 2 -. 2)} = 8 6, 6 9 2 \text {m i l l i o n e u r o s}
-
+\text{Value of equity} = \frac{5,270(1.02)}{(0.082 - 0.02)} = 86,692 \text{million euros}
 $$
 
 Total SA had a market capitalization of 97,286 million euros at the time of the valuation, making it over-valued by about  $12.2\%$ .
@@ -187,16 +175,14 @@ Extraordinary growth rate:  $\mathrm{g}\%$  each year for n years Stable growth:
 Value of the stock  $= \mathrm{PV}$  of dividends during extraordinary phase + PV of terminal price
 
 $$
-
-P _ {0} = \sum_ {t = 1} ^ {t = n} \frac {\mathrm {D P S} _ {t}}{\left(1 + k _ {\mathrm {e} , \mathrm {h g}}\right) ^ {t}} + \frac {P _ {n}}{\left(1 + k _ {\mathrm {e} , \mathrm {h g}}\right) ^ {n}}
-
+P_{0} = \sum_{t = 1}^{t = n} \frac{\mathrm{DPS}_{t}}{\left(1 + k_{\mathrm{e}, \mathrm{hg}}\right)^{t}} + \frac{P_{n}}{\left(1 + k_{\mathrm{e}, \mathrm{hg}}\right)^{n}}
 $$
 
 $$
+\text{where } \mathrm{P}_{\mathrm{n}} = \frac{\mathrm{DPS}_{\mathrm{n} + 1}}{\mathrm{k}_{\mathrm{e}, \mathrm{st}} - \mathrm{g}_{\mathrm{n}}}
+$$ 
 
-\text {w h e r e} \mathrm {P} _ {\mathrm {n}} = \frac {\mathrm {D P S} _ {\mathrm {n} + 1}}{\mathrm {k} _ {\mathrm {e} , \mathrm {s t}} - \mathrm {g} _ {\mathrm {n}}}
-
-$$ where  $\mathrm{DPS}_{\mathrm{r}} =$  Expected dividends per share in year t
+where $\mathrm{DPS}_{\mathrm{t}} =$ Expected dividends per share in year t
 
 $k_{e} =$  Cost of equity (hg: high growth period; st: stable growth period)
 
@@ -218,9 +204,7 @@ Calculating the Terminal Price The same constraint that applies to the growth ra
 In addition, the payout ratio has to be consistent with the estimated growth rate. If the growth rate is expected to drop significantly after the initial growth phase, the payout ratio should be higher in the stable phase than in the growth phase. A stable firm can pay out more of its earnings in dividends than a growing firm. One way of estimating this new payout ratio is to use the fundamental growth model described in Chapter 12:
 
 $$
-
-\begin{array}{l} \text {E x p e c t e d g r o w t h} = \text {R e t e n t i o n r a t i o} \times \text {R e t u r n o n e q u i t y} \\ = (1 - \text {P a y o u t r a t i o}) \times \text {R e t u r n} \\ \end{array}
-
+\begin{array}{l} \text{Expected growth} = \text{Retention ratio} \times \text{Return on equity} \\ = (1 - \text{Payout ratio}) \times \text{Return} \\ \end{array}
 $$
 
 Algebraic manipulation yields the following stable period payout ratio:
@@ -342,9 +326,7 @@ FIGURE 13.3 Stock Buybacks and Dividends: Aggregate for U.S. Firms—1989 to 201
 
 
 $$
-
-\begin{array}{l} \text {A u g m e n t e d d i v i d e n d p a y o u t} = (\text {D i v i d e n d s} + \text {S t o c k b u y b a c k s} \\ \hskip 1 4. 2 2 6 3 7 8 p t - \text {L o n g - t e r m d e b t i s s u e s}) / \text {N e t i n c o m e} \end{array}
-
+\begin{array}{l} \text{Augmented dividend payout} = (\text{Dividends} + \text{Stock buybacks} \\ \quad - \text{Long-term debt issues}) / \text{Net income} \end{array}
 $$
 
 Adjusting the payout ratio to include stock buybacks will have ripple effects on estimated growth and the terminal value. In particular, the modified growth rate in earnings per share can be written as:
@@ -364,9 +346,7 @@ The augmented dividend payout is higher than the dividend payout ratio in each y
 How would this play out in a valuation of Coca-Cola? Using the higher augmented payout ratio will result in higher cash flows to stockholders in the high growth phase, which should increase value. This effect, however, will be partly or even fully offset by a lower fundamental growth rate. In the case of Coca-Cola, where we will assume a return on equity of  $25\%$ , the expected growth rate using the higher augmented payout ratio can be computed as follows:
 
 $$
-
-\begin{array}{l} \text {E x p e c t e d g r o w t h r a t e} = \mathrm {R O E} \times (1 - \text {A u g m e n t e d p a y o u t r a t i o}) \\ = 25 \% (1 - .636) = 9.1 \% \\ \end{array}
-
+\begin{array}{l} \text{Expected growth rate} = \mathrm{ROE} \times (1 - \text{Augmented payout ratio}) \\ = 25\% (1 - 0.636) = 9.1\% \\ \end{array}
 $$
 
 In contrast, using the conventional payout ratio would have yielded an expected growth rate of more than  $12.5\%$ .
@@ -380,17 +360,13 @@ Cost of equity  $=$  Riskless rate + Risk premium  $= 5.4\% + 4\% = 9.4\%$
 Expected dividends next year  $=$  (Dividend yield  $\times$  Value of the index)
 
 $$
-
-\begin{array}{l} (1 + \text {E x p e c t e d g r o w t h r a t e}) \\ = (. 0 5 \times 7 0 0) (1. 0 4) = 3 6. 4 \\ \end{array}
-
+\begin{array}{l} (1 + \text{Expected growth rate}) \\ = (0.05 \times 700)(1.04) = 36.4 \\ \end{array}
 $$
 
 Value of the index  $=$  Expected dividends next year
 
 $$
-
-\begin{array}{l} / (\text {C o s t} - \text {E x p e c t e d g r o w t h r a t e}) \\ = 3 6. 4 / (. 0 9 4 -. 0 4) = 6 7 4 \\ \end{array}
-
+\begin{array}{l} / (\text{Cost} - \text{Expected growth rate}) \\ = 36.4 / (0.094 - 0.04) = 674 \\ \end{array}
 $$
 
 At its existing level of 700, the market is slightly overpriced.
@@ -412,9 +388,7 @@ $$
 After year 5, earnings and dividends are expected to grow at  $3.29\%$ , the same nominal rate as the economy (assumed to be equal to the risk-free rate). The value that we obtained for the index follows:
 
 $$
-
-\text {V a l u e o f i n d e x} = \frac {2 4 . 7 3}{1 . 0 8 5} + \frac {2 6 . 4 4}{1 . 0 8 5 ^ {2}} + \frac {2 8 . 2 8}{1 . 0 8 5 ^ {3}} + \frac {3 0 . 2 5}{1 . 0 8 5 ^ {4}} + \frac {3 2 . 3 5}{1 . 0 8 5 ^ {5}} + \frac {3 2 . 3 5 (1 . 0 3 2 9)}{(. 0 8 5 - . 0 3 2 9) 1 . 0 8 5 ^ {5}} = 5 6 0. 1 5
-
+\text{Value of index} = \frac{24.73}{1.085} + \frac{26.44}{1.085^{2}} + \frac{28.28}{1.085^{3}} + \frac{30.25}{1.085^{4}} + \frac{32.35}{1.085^{5}} + \frac{32.35(1.0329)}{(0.085 - 0.0329)1.085^{5}} = 560.15
 $$
 
 This suggest that the index was massively over valued on January 1, 2011.
@@ -422,9 +396,7 @@ This suggest that the index was massively over valued on January 1, 2011.
 Since many of the companies in the index have chosen to return cash in the form of stock buybacks, rather than dividends, a more realistic estimate of value would incorporate these expected buybacks. To do so, we added the buybacks in 2010 to the dividends to arrive at a value of 53.96 for augmented dividends on the index. Applying the same parameters that we used for conventional dividends (growth rate of  $6.95\%$  for the next five years and  $3.29\%$  beyond year 5), we estimate a new value for the index:
 
 $$
-
-\text {V a l u e o f i n d e x} = \frac {5 7 . 7 2}{1 . 0 8 5} + \frac {6 1 . 7 3}{1 . 0 8 5 ^ {2}} + \frac {6 6 . 0 2}{1 . 0 8 5 ^ {3}} + \frac {7 0 . 6 0}{1 . 0 8 5 ^ {4}} + \frac {7 5 . 5 1}{1 . 0 8 5 ^ {5}} + \frac {7 5 . 5 1 (1 . 0 3 2 9)}{(. 0 8 5 - . 0 3 2 9) 1 . 0 8 5 ^ {5}} = 1, 3 0 7. 4 8
-
+\text{Value of index} = \frac{57.72}{1.085} + \frac{61.73}{1.085^{2}} + \frac{66.02}{1.085^{3}} + \frac{70.60}{1.085^{4}} + \frac{75.51}{1.085^{5}} + \frac{75.51(1.0329)}{(0.085 - 0.0329)1.085^{5}} = 1,307.48
 $$
 
 With buybacks incorporated, the index looks slightly undervalued (by about  $4\%$ ).
@@ -462,13 +434,13 @@ In making these estimates, though, we have to remain consistent. For instance, t
 In Illustration 13.3, we valued P&G using a two-stage dividend discount model at  \$68.90. We first value the assets in place using current earnings\$ 3.82 and assume that all earnings are paid out as dividends. We also use the stable growth cost of equity as the discount rate.
 
 $$
-\text {V a l u e o f a s s e t s i n p l a c e} = \text {C u r r e n t E P S / r} = \$ 3. 8 2 / . 0 8 5 = \$ 4 4. 9 4
+\text{Value of assets in place} = \text{Current EPS / r} = \$3.82 / 0.085 = \$44.94
 $$
 
 To estimate the value of stable growth, we assume that the expected growth rate will be  $3\%$  and that the payout ratio is the stable period payout ratio of  $75\%$ :
 
 $$
-\begin{array}{l} \text {V a l u e} = \text {C u r r e n t} \quad \mathrm {E P S} \times \text {S t a b l e} \quad \text {p a y o u t} \quad \text {r a t i o} \times (1 + \mathrm {g} _ {\mathrm {n}}) / (\mathrm {r} - \mathrm {g} _ {\mathrm {n}}) \\ - \text {V a l u e o f a s s e t s i n p l a c e} \\ = \$ 3. 8 2 \times . 7 5 \times 1. 0 3 / (. 0 8 5 -. 0 3) - \$ 4 4. 9 4 = \$ 8. 7 1 \\ \end{array}
+\begin{array}{l} \text{Value} = \text{Current } \mathrm{EPS} \times \text{Stable payout ratio} \times (1 + \mathrm{g}_{\mathrm{n}}) / (\mathrm{r} - \mathrm{g}_{\mathrm{n}}) \\ - \text{Value of assets in place} \\ = \$3.82 \times 0.75 \times 1.03 / (0.085 - 0.03) - \$44.94 = \$8.71 \\ \end{array}
 $$
 
 Value of extraordinary growth = \ 68.90 - \ 44.94 - \ 8.71 = \$ 15.25
@@ -528,11 +500,11 @@ $$
 $$
 
 $$
-\text {V a l u e o f e x t r a o r d i n a r y g r o w t h} = \frac {(9 . 8) (5 / 2) (0 . 0 6 - 0 . 0 3)}{0 . 0 9 - 0 . 0 3} = 1 2 \text {p e n c e}
+\text{Value of extraordinary growth} = \frac{(9.8)(5/2)(0.06 - 0.03)}{0.09 - 0.03} = 12 \text{pence}
 $$
 
 $$
-\text {V a l u e o f s t o c k} = 1 6 8 \text {p e n c e} + 1 2 \text {p e n c e} = 1 8 0 \text {p e n c e}
+\text{Value of stock} = 168 \text{pence} + 12 \text{pence} = 180 \text{pence}
 $$
 
 The stock was trading at 173.3 pence in May 2011, making it slightly under-valued.
@@ -541,7 +513,7 @@ The stock was trading at 173.3 pence in May 2011, making it slightly under-value
 
 DDMH.xls: This spreadsheet allows you to value a firm, with an initial period when the high growth declines to stable growth, using expected dividends.
 
-# Three-Stage Dividend Discount Model
+### Three-Stage Dividend Discount Model
 
 The three-stage dividend discount model combines the features of the two-stage model and the H model. It allows for an initial period of high growth, a transitional period where growth declines, and a final stable growth phase. It is the most general of the models because it does not impose any restrictions on the payout ratio.
 
@@ -554,8 +526,17 @@ The value of the stock is then the present value of expected dividends during th
 FIGURE 13.5 Expected Growth in the Three-Stage Dividend Discount Model
 
 $$
-\begin{array}{c} \mathrm {P} _ {0} = \sum_ {\mathrm {t} = 1} ^ {\mathrm {t} = \mathrm {n} 1} \frac {\mathrm {E P S} _ {0} \times \left(1 + \mathrm {g} _ {\mathrm {a}}\right) ^ {\mathrm {t}} \times \Pi_ {\mathrm {a}}}{\left(1 + \mathrm {k} _ {\mathrm {e} , \mathrm {h g}}\right) ^ {\mathrm {t}}} + \sum_ {\mathrm {t} = \mathrm {n} 1 + 1} ^ {\mathrm {t} = \mathrm {n} 2} \frac {\mathrm {D P S} _ {\mathrm {t}}}{\left(1 + \mathrm {k} _ {\mathrm {e} , \mathrm {t}}\right) ^ {\mathrm {t}}} + \frac {\mathrm {E P S} _ {\mathrm {n} 2} \left(1 + \mathrm {g} _ {\mathrm {n}}\right) \times \Pi_ {\mathrm {n}}}{\left(\mathrm {k} _ {\mathrm {e} , \mathrm {s t}} - \mathrm {g} _ {\mathrm {n}}\right) \left(1 + \mathrm {r}\right) ^ {\mathrm {n}}} \\ \text {H i g h - g r o w t h p h a s e} \quad \text {T r a n s i t i o n} \quad \text {S t a b l e g r o w t h p h a s e} \end{array}
-$$ where  $\mathrm{EPS}_{\mathrm{t}} =$  Earnings per share in year t  $\mathrm{DPS}_{\mathrm{t}} =$  Dividends per share in year t  $\mathbf{g}_{\mathrm{a}} =$  Growth rate in high-growth phase (lasts n1 periods)  $\mathbf{g}_{\mathrm{n}} =$  Growth rate in stable phase  $\Pi_{\mathrm{a}} =$  Payout ratio in high-growth phase  $\Pi_{\mathrm{n}} =$  Payout ratio in stable growth phase  $\mathrm{k_e} =$  Cost of equity in high growth (hg), transition (t), and stable growth (st)
+\begin{array}{c} \mathrm{P}_{0} = \sum_{\mathrm{t} = 1}^{\mathrm{t} = \mathrm{n}_1} \frac{\mathrm{EPS}_{0} \times \left(1 + \mathrm{g}_{\mathrm{a}}\right)^{\mathrm{t}} \times \Pi_{\mathrm{a}}}{\left(1 + \mathrm{k}_{\mathrm{e}, \mathrm{hg}}\right)^{\mathrm{t}}} + \sum_{\mathrm{t} = \mathrm{n}_1 + 1}^{\mathrm{t} = \mathrm{n}_2} \frac{\mathrm{DPS}_{\mathrm{t}}}{\left(1 + \mathrm{k}_{\mathrm{e}, \mathrm{t}}\right)^{\mathrm{t}}} + \frac{\mathrm{EPS}_{\mathrm{n}_2} \left(1 + \mathrm{g}_{\mathrm{n}}\right) \times \Pi_{\mathrm{n}}}{\left(\mathrm{k}_{\mathrm{e}, \mathrm{st}} - \mathrm{g}_{\mathrm{n}}\right) \left(1 + \mathrm{r}\right)^{\mathrm{n}}} \\ \text{High-growth phase} \quad \text{Transition} \quad \text{Stable growth phase} \end{array}
+$$ 
+
+where:
+- $\mathrm{EPS}_{\mathrm{t}} =$ Earnings per share in year t
+- $\mathrm{DPS}_{\mathrm{t}} =$ Dividends per share in year t
+- $\mathbf{g}_{\mathrm{a}} =$ Growth rate in high-growth phase (lasts n₁ periods)
+- $\mathbf{g}_{\mathrm{n}} =$ Growth rate in stable phase
+- $\Pi_{\mathrm{a}} =$ Payout ratio in high-growth phase
+- $\Pi_{\mathrm{n}} =$ Payout ratio in stable growth phase
+- $\mathrm{k_e} =$ Cost of equity in high growth (hg), transition (t), and stable growth (st)
 
 
 Assumptions This model removes many of the constraints imposed by other versions of the dividend discount model. In return, however, it requires a much larger number of inputs—year-specific payout ratios, growth rates, and betas. For firms where there is substantial noise in the estimation process, the errors in these inputs can overwhelm any benefits that accrue from the additional flexibility in the model.
@@ -567,7 +548,7 @@ Firms Model Works Best For This model's flexibility makes it a useful model for 
 
 To value Coca-Cola in May 2011, we used a three-stage dividend discount model, partly because we expect the firm to maintain a growth rate higher than the economy for the next few years and partly because it has a history of paying substantial dividends. It has had a low debt ratio and has shown no indications that it plans to alter its approach to financing.
 
-In 2010, the company reported earnings per share of  \$3.56 and paid out\$ 1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
+In 2010, the company reported earnings per share of \$3.56 and paid out \$1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
 
 Expected ROE for next 5 years  $= 25\%$
 
@@ -612,17 +593,13 @@ Cumulated cost of equity for year  $7 = (1.0845)^{5}$  (1.0856)  $(1.0867) = 1.7
 The value per share at the end of year 10 can now be obtained:
 
 $$
-
-\begin{array}{l} \text {V a l u e p e r s h a r e a t e n d o f y e a r 1 0} = \frac {\text {E x p e c t e d D P S i n y e a r 1 1}}{\text {S t a b l e c o s t o f e q u i t y - S t a b l e g r o w t h r a t e}} \\ = \frac {\mathbb {S} 7 . 1 7 (1 . 0 3) (\cdot 8 0)}{(. 0 9 - . 0 3)} = \mathbb {S} 9 8. 4 2 \\ \end{array}
-
+\begin{array}{l} \text{Value per share at end of year 10} = \frac{\text{Expected DPS in year 11}}{\text{Stable cost of equity - Stable growth rate}} \\ = \frac{\$7.17(1.03)(0.80)}{(0.09 - 0.03)} = \$98.42 \\ \end{array}
 $$
 
 Discounting the terminal value back at the cumulated cost of equity for year 10 and adding to the present value of dividends, we get a value per share of 67.15.
 
 $$
-
-\begin{array}{l} \text {V a l u e p e r s h a r e} = \mathrm {P V} \text {o f d i v i d e n d s} + \mathrm {P V} \text {o f t e r m a l p r i c e} \\ = \$ 20.89 + \$ 98.42 / 2.2850 = \$ 67.15 \\ \end{array}
-
+\begin{array}{l} \text{Value per share} = \mathrm{PV} \text{ of dividends} + \mathrm{PV} \text{ of terminal price} \\ = \$20.89 + \$98.42 / 2.2850 = \$67.15 \\ \end{array}
 $$
 
 Coca-Cola was trading at 68.22 in May 2011, making it fairly valued.
@@ -631,7 +608,7 @@ Coca-Cola was trading at 68.22 in May 2011, making it fairly valued.
 
 DDM3st.xls: This spreadsheet allows you to value a firm with a period of high growth followed by a transition period where growth declines to a stable growth rate.
 
-# A TROUBLESHOOTING GUIDE: WHAT IS WRONG WITH THIS MODEL? (THREE-STAGE DDM)
+#### A Troubleshooting Guide: What is Wrong With This Model? (Three-Stage DDM)
 
 If This Is Your Problem
 - If you are getting too low a value from this model:
@@ -657,30 +634,30 @@ Use a growth rate less than the riskfree rate.
 
 Use shorter high growth and transition periods.
 
-# ISSUES IN USING THE DIVIDEND DISCOUNT MODEL
+## Issues in Using the Dividend Discount Model
 
 The dividend discount model's primary attraction is its simplicity and its intuitive logic. There are many analysts, however, who view its results with suspicion because of limitations that they perceive it to possess. The model, they claim, is not really useful in valuation except for a limited number of stable, high-dividend-paying stocks. This section examines some of the areas where the dividend discount model is perceived to fall short.
 
-# Valuing Non-Dividend-Paying or Low-Dividend-Paying Stocks
+### Valuing Non-Dividend-Paying or Low-Dividend-Paying Stocks
 
 The conventional wisdom is that the dividend discount model cannot be used to value a stock that pays low or no dividends. It is wrong. If the dividend payout ratio is adjusted to reflect changes in the expected growth rate, a value can be obtained even for non-dividend-paying firms. Thus, a high-growth firm, paying no dividends currently, can still be valued based on dividends that it is expected to pay out when the growth rate declines. If the payout ratio is not adjusted to reflect changes in the growth rate, however, the dividend discount model will underestimate the value of non-dividend-paying or low-dividend-paying stocks.
 
-# Is the Model Too Conservative in Estimating Value?
+### Is the Model Too Conservative in Estimating Value?
 
 A standard critique of the dividend discount model is that it provides too conservative an estimate of value. This criticism is predicated on the notion that the value is determined by more than the present value of expected dividends. For instance, it is argued that the dividend discount model does not reflect the value of "unutilized assets." There is no reason, however, that these unutilized assets cannot be valued separately and added on to the value from the dividend discount model. Some of the assets that are supposedly ignored by the dividend discount model, such as the value of brand names, can be dealt with fairly simply within the context of the model.
 
 
 A more legitimate criticism of the model is that it does not incorporate other ways of returning cash to stockholders (such as stock buybacks). If you use the augmented version of the dividend discount model, this criticism can also be countered.
 
-# Contrarian Nature of the Model
+### Contrarian Nature of the Model
 
 The dividend discount model is also considered by many to be a contrarian model. As the market rises, fewer and fewer stocks, they argue, will be found to be undervalued using the dividend discount model. This is not necessarily true. If the market increase is due to an improvement in economic fundamentals, such as higher expected growth in the economy and/or lower interest rates, there is no reason, a priori, to believe that the values from the dividend discount model will not increase by an equivalent amount. If the market increase is not due to fundamentals, the dividend discount model values will not follow suit, but that is more a sign of strength than weakness. The model is signaling that the market is overvalued relative to dividends and cash flows, and the cautious investor will pay heed.
 
-# TESTS OF THE DIVIDEND DISCOUNT MODEL
+### Tests of the Dividend Discount Model
 
 The ultimate test of a model lies in how well it works at identifying undervalued and overvalued stocks. The dividend discount model has been tested and the results indicate that it does, in the long term, provide for excess returns. It is unclear, however, whether this is because the model is good at finding undervalued stocks or because it proxies for well-known empirical irregularities in returns relating to price-earnings ratios and dividend yields.
 
-# Simple Test of the Dividend Discount Model
+#### Simple Test of the Dividend Discount Model
 
 A simple study of the dividend discount model was conducted by Sorensen and Williamson, where they valued 150 stocks from the S&P 400 in December 1980 using the dividend discount model. They used the difference between the market price at that time and the model value to form five portfolios based on the degree of under or over valuation. They made fairly broad assumptions in using the dividend discount model:
 
@@ -694,7 +671,7 @@ The returns on these five portfolios were estimated for the following two years 
 
 The undervalued portfolio had a positive excess return of 16 percent per annum between 1981 and 1983, while the overvalued portfolio had a negative excess return of 15 percent per annum during the same time period. Other studies that focus only on the dividend discount model come to similar conclusions. In the long term, undervalued and overvalued stocks from the dividend discount model outperform and underperform, respectively, the market index on a risk-adjusted basis.
 
-# Caveats on the Use of the Dividend Discount Model
+#### Caveats on the Use of the Dividend Discount Model
 
 The dividend discount model provides impressive results in the long term. There are, however, three considerations in generalizing the findings from these studies:
 
@@ -720,79 +697,7 @@ Tax Disadvantages from High-Dividend Stocks Portfolios created with the dividend
 
 In summary, the dividend discount model's impressive results in studies looking at past data have to be considered with caution. For a tax-exempt investment with a long time horizon, the dividend discount model is a good tool (though it may not be the only one) to pick stocks. For a taxable investor, the benefits are murkier, since the tax consequences of the strategy have to be considered. For investors with shorter time horizons, the dividend discount model may not deliver on its promised excess returns because of the year-to-year volatility in its performance.
 
-# CONCLUSION
+## Conclusion
 
 When you buy stock in a publicly traded firm, the only cash flow you receive directly from this investment is expected dividends. The dividend discount model builds on this simple proposition and argues that the value of a stock then has to be the present value of expected dividends over time. Dividend discount models can range from simple growing perpetuity models such as the Gordon growth model, where a stock's value is a function of its expected dividends next year, the cost of equity, and the stable growth rate, to complex three-stage models, where payout ratios and growth rates change over time. While the model is often criticized as being of limited value, it has proven to be surprisingly adaptable and useful in a wide range of circumstances. It may be a conservative model that finds fewer and fewer undervalued firms as market prices rise relative to fundamentals (earnings, dividends, etc.); but that can also be viewed as a strength. Tests of the model also seem to indicate its usefulness in gauging value, though much of its effectiveness may be derived from its finding low-PE-ratio, high-dividend-yield stocks to be undervalued.
-
-# QUESTIONS AND SHORT PROBLEMS
-
-In the problems following, use an equity risk premium of 5.5 percent if none is specified.
-
-1. Respond true or false to the following statements relating to the dividend discount model: a. The dividend discount model cannot be used to value a high-growth company that pays no dividends.
-
-
-True False b. The dividend discount model will undervalue stocks, because it is too conservative.
-
-
-True False c. The dividend discount model will find more undervalued stocks when the overall stock market is depressed.
-
-
-True False d. Stocks that are undervalued using the dividend discount model have generally made significant positive excess returns over long time periods (five years or more).
-
-
-True False e. Stocks that pay high dividends and have low price-earnings ratios are more likely to come out as undervalued using the dividend discount model.
-
-
-True False
-
-2. Ameritech Corporation paid dividends per share of 3.56 in 1992, and dividends are expected to grow 5.5\% a year forever. The stock has a beta of 0.90, and the Treasury bond rate is 6.25\%. (Risk premium is 5.5\%.) a. What is the value per share, using the Gordon growth model?
-
-
-b. The stock was trading for 80 per share. What would the growth rate in dividends have to be to justify this price?
-
-3. Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of  \$1.50 in 1993 and paid dividends per share of\$ 0.42. In 1993, the firm also reported the following:
-
-Net income = \ 30 million
-
-Interest expense = 0.8 million
-
-Book value of debt = 7.6 million
-
-Book value of equity = 160 million
-
-The firm faced a corporate tax rate of  $38.5\%$ . (The market value debt-to-equity ratio is  $5\%$ . The Treasury bond rate is  $7\%$ .)
-
-The firm expected to maintain these financial fundamentals from 1994 to 1998, after which it was expected to become a stable firm, with an earnings growth rate of  $6\%$ . The firm's financial characteristics were expected to approach industry averages after 1998. The industry averages were as follows:
-
-Return on capital  $= 12.5\%$
-
-Debt/equity ratio  $= 25\%$
-
-Interest rate on debt  $= 7\%$
-
-Church & Dwight had a beta of 0.85 in 1993, and the unlevered beta was not expected to change over time.
-
-a. What is the expected growth rate in earnings, based on fundamentals, for the high-growth period (1994 to 1998)?
-b. What is the expected payout ratio after 1998?
-c. What is the expected beta after 1998?
-d. What is the expected price at the end of 1998?
-e. What is the value of the stock, using the two-stage dividend discount model?
-f. How much of this value can be attributed to extraordinary growth? To stable growth?
-
-4. Oneida Inc, the world's largest producer of stainless steel and silverplated flatware, reported earnings per share of \$0.80 in 1993, and paid dividends per share of \$0.48 in that year. The firm was expected to report earnings growth of 25\% in 1994, after which the growth rate was expected to decline linearly over the following six years to 7\% in 1999. The stock was expected to have a beta of 0.85. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
-
-a. Estimate the value of stable growth, using the H model.
-b. Estimate the value of extraordinary growth, using the H model.
-c. What are the assumptions about dividend payout in the H model?
-
-5. Medtronic Inc., the world's largest manufacturer of implantable biomedical devices, reported earnings per share in 1993 of  \$3.95, and paid dividends per share of\$ 0.68. Its earnings were expected to grow 16\% from 1994 to 1998, but the growth rate was expected to decline each year after that to a stable growth rate of 6\% in 2003. The payout ratio was expected to remain unchanged from 1994 to 1998, after which it would increase each year to reach 60\% in steady state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
-
-a. Assuming that the growth rate declines linearly (and the payout ratio increases linearly) from 1999 to 2003, estimate the dividends per share each year from 1994 to 2003.
-b. Estimate the expected price at the end of 2003.
-c. Estimate the value per share, using the three-stage dividend discount model.
-
-6. Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned \$100 million last year and paid out 20\% of its earnings as dividends. The firm also has bought back \$180 million of stock over the past four years, in varying amounts each year. The firm is in stable growth, expects to grow 5\% a year in perpetuity, and has a cost of equity of 12\%.
-
-a. Assuming that the dividend payout ratio will not change over time, estimate the value of equity.
-b. How would your answer change if your dividend payout ratio is modified to include stock buybacks?
 

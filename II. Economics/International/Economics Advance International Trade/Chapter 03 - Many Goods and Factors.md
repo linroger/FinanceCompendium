@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Many Goods and Factors
-tags:
-key_concepts:
+- Many Goods and Factors
+tags: null
+key_concepts: null
 parent_directory: II. Economics/International/Economics Advance International Trade
 cssclasses: academia
-title: "Chapter 3: Many Goods and Factors"
-linter-yaml-title-alias: "Chapter 3: Many Goods and Factors"
+title: 'Chapter 3: Many Goods and Factors'
+linter-yaml-title-alias: 'Chapter 3: Many Goods and Factors'
+primary_tags:
+- number goods factors called
+- stolper samuelson rybczynski theorems
+secondary_tags:
+- goods factors heckscher ohlin
+- hov model studied
+tags_extracted: '2025-12-18T00:14:22.297726'
 ---
 
 # Chapter 3: Many Goods and Factors

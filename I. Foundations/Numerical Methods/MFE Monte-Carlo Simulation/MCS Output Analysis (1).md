@@ -1,12 +1,25 @@
 ---
 aliases:
-  - Output Analysis and Run-Length Control
-tags:
-key_concepts:
-parent_directory: "[[MFE Monte-Carlo Simulation]]"
+- Output Analysis and Run-Length Control
+tags: null
+key_concepts: null
+parent_directory: '[[MFE Monte-Carlo Simulation]]'
 cssclasses: academia
 title: Monte Carlo Output Analysis and Run-Length Control
 linter-yaml-title-alias: Monte Carlo Output Analysis and Run-Length Control
+primary_tags:
+- large numbers
+- output analysis
+- bootstrap approximation
+secondary_tags:
+- approximate confidence intervals
+- given confidence level
+- approximate interval
+- bootstrap samples
+- bootstrap interval
+- bootstrap method
+tags_extracted: '2025-12-18T17:59:42.312007'
+tags_method: max_quality_v1
 ---
 
 # Output Analysis and Run-Length Control

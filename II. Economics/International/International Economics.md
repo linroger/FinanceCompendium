@@ -1,3 +1,41 @@
+---
+primary_tags:
+- purchasing power parity principle
+- trade equilibrium trade triangle
+- effect export subsidy
+- determining labor capital
+- financial instability
+- tariffs quotas assumption
+- example european direct investment
+- markup charged shanghai gm
+- labor abundance share gdp
+secondary_tags:
+- economics introduction international trade
+- exports exchange computers equilibrium
+- tariffs quotas reduce welfare
+- world used gold standard
+- demand exchange rate effects
+- wages countries higher labor
+- mattel engaging foreign outsourcing
+- nominal anchor faced economic
+- trade technology ricardian model
+- international trade goods assumption
+- effect fdi rentals wages
+- capital income volatility country
+- trade equilibrium foreign relative
+- shoes point trade equilibrium
+- international nonmarket transfers goods
+- ranking terms wages countries
+- effect export quota home
+- figures trade triangles countries
+- capital 1947 labor abundance
+- determination real wage
+- budget constraint open economy
+- hyperinflation adopt dollarization
+- reason tariffs used deadweight
+tags_extracted: '2025-12-18T01:27:35.863368'
+---
+
 # International Economics
 
 PART 1 Introduction to International Trade

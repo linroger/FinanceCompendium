@@ -1,12 +1,22 @@
 ---
 aliases:
-  - Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational
+    Enterprises
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises"
-linter-yaml-title-alias: "Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises"
+title: 'Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions
+  and Multinational Enterprises'
+linter-yaml-title-alias: 'Chapter 08: Firms in the Global Economy: Export and Foreign
+  Sourcing Decisions and Multinational Enterprises'
+primary_tags:
+- competition trade
+- patterns foreign direct investment
+secondary_tags:
+- foreign sourcing decisions multinational
+- firms global economy
+tags_extracted: '2025-12-18T01:46:53.342677'
 ---
 
 8 Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises 196

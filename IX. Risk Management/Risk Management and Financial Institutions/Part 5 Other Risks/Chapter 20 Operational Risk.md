@@ -1,11 +1,32 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 20
 linter-yaml-title-alias: Chapter 20
+primary_tags:
+- operational risk management
+- some big losses
+- '"the quantification'
+- large profit
+- advanced measurement approach
+secondary_tags:
+- standardized measurement approach
+- risk losses
+- operational risk exposures
+- risk indicators
+- operational risk committee
+- one 200 million euro loss
+- central operational risk management group
+- société générale
+- high loss
+- loss events
+- 20.5.3 e
+- loss distributions
+tags_extracted: '2025-12-18T04:04:35.135323'
+tags_method: max_quality_v1
 ---
 
 # Chapter 20

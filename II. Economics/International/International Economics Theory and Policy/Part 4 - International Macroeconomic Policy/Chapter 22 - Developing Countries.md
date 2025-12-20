@@ -1,3 +1,31 @@
+---
+primary_tags:
+- capital outflows restrictions particularly
+- developing countries growth crisis
+- foreigners possible resulting liquidity
+- insights international macroeconomics
+- developing countries reformed economies
+- financial crises typically international
+secondary_tags:
+- developing country borrowing cause
+- capital flow controls provocatively
+- controls financial inflows imf
+- chapter 19 developing countries
+- income prevents developing countries
+- dubious high growth economies
+- institutional weaknesses developing economies
+- countries led default crises
+- growth countries chapter studies
+- developed economies consequences
+- controls irrespective exchange rate
+- hypothesis argued developing countries
+- stability importance developing countries
+- rate regime effect asian
+- motive limits financial inflows
+- liberalized capital movements considered
+tags_extracted: '2025-12-18T00:55:59.280173'
+---
+
 # DEVELOPING COUNTRIES: GROWTH, CRISIS, AND REFORM
 
 Until now, we have studied macroeconomic interactions between industrialized market economies like those of the United States and Western Europe. Richly endowed with capital and skilled labor, these politically stable countries generate high levels of income for their residents. And their markets, compared to those of some poorer countries, have long been relatively free of direct government control.

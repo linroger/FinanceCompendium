@@ -1,11 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 7
 linter-yaml-title-alias: Chapter 7
+primary_tags:
+- two types
+- proof techniques
+- bijective functions
+- some examples
+- any number
+- all elements
+- infinite sets
+secondary_tags:
+- specific cardinalities
+- chapter development
+- such a function
+- same cardinality
+- one final example
+- few examples
+- specific example
+- other examples
+- third version
+- previous proof
+- formal definitions
+- one such comparison
+- relevant techniques
+- output values
+- another set
+- similar manner
+- underlying relation
+- identify function
+- following theorem
+tags_extracted: '2025-12-18T17:57:14.798485'
+tags_method: max_quality_v1
 ---
 
 # Chapter 7

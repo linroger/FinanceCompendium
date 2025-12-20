@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Incomplete Markets
 linter-yaml-title-alias: Incomplete Markets
+primary_tags:
+- markets incomplete countries
+- rate dynamics general absence
+- yields enrich effects market
+secondary_tags:
+- market incompleteness exchange rate
+- incomplete market wedge eq
+- effects market incompleteness exchange
+- market incompleteness individual level
+- sdf incomplete markets multiple
+- incomplete markets vs convenience
+tags_extracted: '2025-12-18T01:44:35.430112'
 ---
 
 # Incomplete Markets

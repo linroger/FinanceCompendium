@@ -1,11 +1,22 @@
 ---
 aliases:
-  - The Crisis Spills over to the Central Bank
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Crisis Spills over to the Central Bank
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "10 - Chapter 6: The Crisis Spills over to the Central Bank (Stages 5-6)"
+title: '10 - Chapter 6: The Crisis Spills over to the Central Bank (Stages 5-6)'
+primary_tags:
+- money printing
+- interest rates
+secondary_tags:
+- debt crisis
+- print money
+- very short-term interest rate
+- central bank
+tags_extracted: '2025-12-18T18:02:44.859856'
+tags_method: max_quality_v1
 ---
 
 # 10_6_The_Crisis_Spills_over_to_the_Central_Bank_Stage

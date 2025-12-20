@@ -1,3 +1,22 @@
+---
+primary_tags:
+- chapter let labor flow
+- intra firm trade foreign
+- economic organization
+- chapter 11 multinationals
+secondary_tags:
+- multinational activity
+- multinationals organization firm despite
+- multinationals interaction relative country
+- multinational firm assumed ratio
+- model vertical multinationals occur
+- chapter discussed trade intermediate
+- fdi occurs firm chooses
+- essential multinational firm
+- countries multinational enterprise investment
+tags_extracted: '2025-12-18T00:15:18.794477'
+---
+
 # Chapter 11: Multinationals and Organization of the Firm
 
 Despite the fact that this book is about international trade, we have so far not introduced any role for traders. There has been little scope for firms, let alone economic organization more generally, to have any significant influence on trade patterns between countries. This contradicts the empirical fact that a good deal of trade occurs internally within firms located across countries. For the U.S., for example, about one-third of exports and over  $40\%$  of imports consist of intra-firm trade between a U.S. or foreign firm and their affiliates – see Table 11.1. When a firm operates in several countries it is a multinational enterprise, and the investment made in the foreign country is referred to as foreign direct investment (FDI). The first goal of this chapter is to introduce these features into our earlier trade models.

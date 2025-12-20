@@ -1,12 +1,19 @@
 ---
 aliases:
-  - The Political Economy of Trade Policy
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- The Political Economy of Trade Policy
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 10: The Political Economy of Trade Policy"
-linter-yaml-title-alias: "Chapter 10: The Political Economy of Trade Policy"
+title: 'Chapter 10: The Political Economy of Trade Policy'
+linter-yaml-title-alias: 'Chapter 10: The Political Economy of Trade Policy'
+primary_tags:
+- 286 box politicians sale
+- political argument free trade
+secondary_tags:
+- political economy trade policy
+- 10 political economy trade
+tags_extracted: '2025-12-18T01:46:56.653080'
 ---
 
 # Chapter 10 The Political Economy of Trade Policy

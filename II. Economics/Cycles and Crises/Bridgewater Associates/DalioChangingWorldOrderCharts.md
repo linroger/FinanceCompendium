@@ -1,12 +1,29 @@
 ---
 aliases:
-  - The Changing World Order Charts
-tags:
-key_concepts:
+- The Changing World Order Charts
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: "Principles for Dealing with The Changing World Order - Charts"
+title: Principles for Dealing with The Changing World Order - Charts
 linter-yaml-title-alias: The Changing World Order Charts
+primary_tags:
+- unemployment rate
+- ▲ resource-allocation efficiency
+- ↗ wealth/oppportunity/values gap narrow
+- big cycle
+secondary_tags:
+- log) global real gdp
+- reserve currency status
+- conflict deaths
+- other countries
+- resource allocation efficiency
+- empires china
+- china conflict
+- internal conflict average
+- xinhai revolution chn
+tags_extracted: '2025-12-18T18:01:51.047933'
+tags_method: max_quality_v1
 ---
 
 # Principles for Dealing with THE CHANGING WORLD ORDER

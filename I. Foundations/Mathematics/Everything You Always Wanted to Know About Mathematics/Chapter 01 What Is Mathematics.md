@@ -1,11 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 1
 linter-yaml-title-alias: Chapter 1
+primary_tags:
+- mit prof. fox
+- mathematical arguments
+- specific example
+- new things
+- even cases
+- three words
+- two types
+secondary_tags:
+- one final example
+- such statements
+- good proof
+- proof writers
+- new mathematical discoveries
+- any number
+- mathematical induction
+- difficult task
+- three numbers
+- friendly tip
+- word problems
+- related ideas
+- mathematician gödel
+- only answer/s. problem
+- other arguments
+- some context-dependent ingenuity
+- even natural numbers
+- any one topic
+- whole numbers
+tags_extracted: '2025-12-18T17:56:32.693767'
+tags_method: max_quality_v1
 ---
 
 # Chapter 1

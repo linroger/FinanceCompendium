@@ -1,12 +1,28 @@
 ---
 aliases:
-  - Purchasing Power Parity Theory
-tags:
-key_concepts:
+- Purchasing Power Parity Theory
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 6: Purchasing Power Parity Theory"
-linter-yaml-title-alias: "Chapter 6: Purchasing Power Parity Theory"
+title: 'Chapter 6: Purchasing Power Parity Theory'
+linter-yaml-title-alias: 'Chapter 6: Purchasing Power Parity Theory'
+primary_tags:
+- goods conversely theory applicable
+- relative ppp ppp
+- goods arbitrage role international
+- chapter purchasing power parity
+secondary_tags:
+- ppp theory law price
+- ppp hypothesis exchange rates
+- theory floating exchange rate
+- according absolute ppp yen
+- undervaluation currencies relation ppp
+- explaining divergences ppp
+- ppp tradable goods equivalent
+- absolute ppp weaker variation
+- currency measurement prices equal
+tags_extracted: '2025-12-18T01:31:56.855854'
 ---
 
 # CHAPTER 6

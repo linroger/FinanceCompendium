@@ -1,11 +1,29 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Estimating Risk Parameters and Costs of Financing
-linter-yaml-title-alias: Estimating Risk Parameters and Costs of Financing
+primary_tags:
+  - risk parameter estimation
+  - cost of equity
+  - cost of debt
+  - cost of capital
+  - beta estimation
+secondary_tags:
+  - capital asset pricing model
+  - regression analysis
+  - market risk
+  - firm specific risk
+  - unlevered beta
+  - bottom up beta
+  - accounting beta
+  - synthetic ratings
+  - default risk
+  - debt valuation
+  - hybrid securities
+  - capital structure
+  - market value weights
+  - book value vs market value
+  - gross debt vs net debt
+  - small firm premium
+cssclasses: academia
 ---
 
 # Estimating Risk Parameters and Costs of Financing
@@ -27,7 +45,7 @@ The chapter begins by estimating the equity risk in a firm and using the equity 
 The cost of equity is the rate of return investors require on an equity investment in a firm. The risk and return models described in Chapter 4 need a riskless rate and a risk premium (in the CAPM) or premiums (in the APM and multifactor models), which were estimated in the last chapter. They also need measures of a firm's exposure to market risk in the form of betas. These inputs are used to arrive at an expected return on an equity investment:
 
 $$
-\text {E x p e c t e d} = \text {R i s k l e s s} + \text {B e t a} (\text {R i s k}
+\text{Expected} = \text{Riskless} + \text{Beta}(\text{Risk}
 $$
 
 This expected return to equity investors includes compensation for the market risk in the investment and is the cost of equity. This section concentrates on the estimation of the beta of a firm. While much of the discussion is directed at the CAPM, it can be extended to apply to the arbitrage pricing and multifactor models, as well.
@@ -45,7 +63,7 @@ R _ {j} = a + b R _ {m}
 $$ where  $a =$  Intercept from the regression
 
 
-$$ b = \text {S l o p e} = \text {C o v a r i a n c e} \left(R _ {\mathrm {j}}, R _ {\mathrm {m}}\right) / \sigma_ {\mathrm {m}} ^ {2}
+$$ b = \text{Slope} = \text{Covariance}(R_{\mathrm{j}}, R_{\mathrm{m}}) / \sigma_{\mathrm{m}}^{2}
 $$
 
 The slope of the regression corresponds to the beta of the stock and measures the riskiness of the stock.
@@ -83,16 +101,14 @@ Boeing Company is a firm in both the aerospace and defense businesses, and has b
 1. The returns to a stockholder in Boeing are computed month by month from January 1996 to December 2000. These returns include both dividends and price appreciation and are defined as follows:
 
 $$
-\text {S t o c k} _ {\text {B o e i n g}, j} = \left(\text {P r i c e} _ {\text {B o e i n g}, j} - \text {P r i c e} _ {\text {B o e i n g}, j - 1} + \text {D i v i d e n d s} _ {j}\right) / \text {P r i c e} _ {\text {B o e i n g}, j - 1}
+\text{Stock}_{\text{Boeing},j} = (\text{Price}_{\text{Boeing},j} - \text{Price}_{\text{Boeing},j-1} + \text{Dividends}_{j}) / \text{Price}_{\text{Boeing},j-1}
 $$ where Stock return  $\text{return}_{\text{Boeing},j} =$  Returns to a stockholder in Boeing in month  $j$ $\text{Price}_{\text{Boeing},j} =$  Price of Boeing stock at the end of month  $j$ $\text{Dividends}_j =$  Dividends on Boeing stock in month  $j$
 
 
 Dividends are added to the returns of the month in which stockholders are entitled to the dividend.3 2. The returns on the S&P 500 market index are computed for each month of the period, using the level of the index at the end of each month and the monthly dividend on stocks in the index.
 
 $$
-
-\text {M a r k e t} \quad \text {r e t u r n} _ {\mathrm {j}} = \left(\text {I n d e x} _ {\mathrm {j}} - \text {I n d e x} _ {\mathrm {j - 1}} + \text {D i v i d e n d s} _ {\mathrm {j}}\right) / \text {I n d e x} _ {\mathrm {j - 1}}
-
+\text{Market return}_{\mathrm{j}} = (\text{Index}_{\mathrm{j}} - \text{Index}_{\mathrm{j-1}} + \text{Dividends}_{\mathrm{j}}) / \text{Index}_{\mathrm{j-1}}
 $$ where index is the level of the index at the end of month  $j$  and dividends is the dividends paid on the index in month  $j$ . Although the S&P 500 and the NYSE Composite are the most widely used indexes for U.S. stocks, they are, at best, imperfect proxies for the market portfolio in the CAPM, which is supposed to include all assets.
 
 Figure 8.1 graphs monthly returns on Boeing against returns on the S&P 500 index from January 1996 to December 2000.
@@ -114,7 +130,7 @@ $$
 This analysis suggests that Boeing performed  $0.36\%$  better than expected, when expectations are based on the CAPM, on a monthly basis between January 1996 and December 2000. This results in an annualized excess return of approximately  $4.41\%$ .
 
 $$
-\begin{array}{l} \text {A n n u a l i z e d e x c e s s r e t u r n} = (1 + \text {M o n t h l y e x c e s s r e t u r n}) ^ {1 2} - 1 \\ = (1 - .0036)^{12} - 1 = 4.41\% \\ \end{array}
+\begin{array}{l} \text{Annualized excess return} = (1 + \text{Monthly excess return})^{12} - 1 \\ = (1 + 0.0036)^{12} - 1 = 4.41\% \\ \end{array}
 $$
 
 Note, however, that this does not imply that Boeing would be a good investment in the future.
@@ -188,7 +204,7 @@ While the time period used is identical to the one used in our earlier regressio
 Second, Bloomberg also computes what it calls an adjusted beta, which is estimated as follows:
 
 $$
-\text {A d j u s t e d} = \text {R a w} (0. 6 7) + 1. 0 0 (0. 3 3)
+\text{Adjusted} = \text{Raw}(0.67) + 1.00(0.33)
 $$
 
 These weights (0.67 and 0.33) do not vary across stocks, and this process pushes all estimated betas toward 1. Most services employ similar procedures to adjust betas toward 1. In doing so, they are drawing on empirical evidence that suggests that the betas for most companies, over time, tend to move toward the average beta, which is 1. This may be explained by the fact that firms get more diversified in their product mix and client base as they get larger. While we agree with the notion that betas move toward 1 over time, the weighting process used by most services strikes us as arbitrary and not particularly useful.
@@ -519,25 +535,19 @@ Since financial leverage multiplies the underlying business risk, it stands to r
 From the regression for the period from 1996 to 2000, Boeing had a historical beta of 0.56. Since this regression uses stock prices of Boeing over this period, we began by estimating the average debt-to-equity ratio between 1996 and 2000, using market values for debt and equity.
 
 $$
-
-\text{Average debt-to-equity ratio between 1996 and} 2000 = 15.56 \%
-
+\text{Average debt-to-equity ratio between 1996 and 2000} = 15.56\%
 $$
 
 The beta over the 1996-2000 period reflects this average leverage. To estimate the unlevered beta over the period, a marginal tax rate of  $35\%$  is used:
 
 $$
-
-\begin{array}{l} \text {U n l e v e r e d} \beta a = \text {C u r r e n t} \beta a / [ 1 + (1 - \text {T a x} \text {r a t e}) (\text {A v e r a g e} \text {d e b t} / \text {E q u i t y}) ] \\ = 0. 5 6 / [ 1 + (1 - 0. 3 5) (0. 1 5 5 6) ] = 0. 5 1 \\ \end{array}
-
+\begin{array}{l} \text{Unlevered}\ \beta = \text{Current}\ \beta / [1 + (1 - \text{Tax rate})(\text{Average debt}/\text{Equity})] \\ = 0.56 / [1 + (1 - 0.35)(0.1556)] = 0.51 \\ \end{array}
 $$
 
 The unlevered beta for Boeing over the 1996-2000 period is 0.51. The levered beta at different levels of debt can then be estimated:
 
 $$
-
-\text {L e v e r e d} = \text {U n l e v e r e d} \beta a \times [ 1 + (1 - \text {T a x r a t e}) (\text {D e b t / E q u i t y}) ]
-
+\text{Levered}\ \beta = \text{Unlevered}\ \beta \times [1 + (1 - \text{Tax rate})(\text{Debt}/\text{Equity})]
 $$
 
 For instance, if Boeing were to increase its debt equity ratio to  $10\%$ , its equity beta will be:
@@ -551,9 +561,7 @@ $$
 If the debt equity ratio were raised to  $25\%$ , the equity beta would be:
 
 $$
-
-\text {L e v e r e d b e t a} (@ 25 \% \mathrm {D} / \mathrm {E}) = 0. 5 1 \times [ 1 + (1 - 0. 3 5) (0. 2 5) ] = 0. 5 9
-
+\text{Levered beta} (@ 25\% \mathrm{D}/\mathrm{E}) = 0.51 \times [1 + (1 - 0.35)(0.25)] = 0.59
 $$
 
 The following table summarizes the beta estimates for different levels of financial leverage ranging from  $0\%$  to  $90\%$  debt.
@@ -577,9 +585,7 @@ Step 2: Find other publicly traded firms in each business and obtain their regre
 Step 3: Estimate the average unlevered beta for the business by unlevering the average (or median) beta for the firms by their average (or median) debt-to-equity ratio. Alternatively, we could estimate the unlevered beta for each firm and then compute the average of the unlevered betas. The first approach is preferable because unlevering an erroneous regression beta is likely to compound the error.
 
 $$
-
-\text {U n l e v e r e d b e t a} _ {\text {b u s i n e s s}} = \text {B e t a} _ {\text {c o m p a r a b l e f i r m s}} / [ 1 + (1 - t) (\mathrm {D} / \mathrm {E} \text {r a t i o} _ {\text {c o m p a r a b l e f i r m s}}) ]
-
+\text{Unlevered beta}_{\text{business}} = \text{Beta}_{\text{comparable firms}} / [1 + (1 - t)(\mathrm{D}/\mathrm{E}\ \text{ratio}_{\text{comparable firms}})]
 $$
 
 Step 4: Estimate an unlevered beta for the firm being analyzed, taking a weighted average of the unlevered betas for the businesses it operates in, using the proportion of firm value derived from each business as the weights. If values are not available, use operating income or revenues as weights. This weighted average is called the bottom-up unlevered beta.
@@ -862,18 +868,14 @@ Having said this, it is often difficult to obtain the information needed to esti
 Having estimated the riskless rate and the risk premium(s) in Chapter 7 and the beta(s) in this chapter, we can now estimate the expected return from investing in equity at any firm. In the CAPM, this expected return can be written as:
 
 $$
-
-\text {E x p e c t e d} = \text {R i s k l e s s} + \text {B e t a} \times \text {E x p e c t e d}
-
+\text{Expected} = \text{Riskless} + \text{Beta} \times \text{Expected}
 $$ where the riskless rate would be the rate on a long-term government bond; the beta would be either the historical, fundamental, or accounting betas described earlier; and the risk premium would be either the historical premium or an implied premium.
 
 
 In the arbitrage pricing and multifactor model, the expected return would be written as follows:
 
 $$
-
-\text {E x p e c t e d} = \text {R i s k l e s s} + \sum_ {\mathrm {j} - 1} ^ {\mathrm {j} = \mathrm {n}} \beta_ {\mathrm {j}} \times \text {R i s k} \text {p r e m i u m} _ {\mathrm {j}}
-
+\text{Expected} = \text{Riskless} + \sum_{\mathrm{j}=1}^{\mathrm{n}} \beta_{\mathrm{j}} \times \text{Risk premium}_{\mathrm{j}}
 $$ where the riskless rate is the long-term government bond rate;  $\beta_{j}$  is the beta relative to factor  $j$ , estimated using historical data or fundamentals; and risk premium  $j$  is the risk premium relative to factor  $j$ , estimated using historical data.
 
 The expected return on an equity investment in a firm, given its risk, has implications for both equity investors in the firm and the managers of the firm. For equity investors, it is the rate they need to earn to be compensated for the risk they have taken in investing in the equity of the firm. If, after analyzing an investment, they conclude they cannot make this return, they would not buy this investment; alternatively, if they decide they can make a higher return, they would make the investment. For managers in the firm, the return investors need to make to break even on their equity investments becomes the return they have to try to deliver to keep these investors from becoming restive and rebellious. Thus, it becomes the rate they have to beat in terms of returns on their equity investments in projects. In other words, this is the cost of equity to the firm.
@@ -883,7 +885,7 @@ The expected return on an equity investment in a firm, given its risk, has impli
 Now that we have an estimate of beta of 0.9585 for Boeing, based on the bottom-up estimates, we can estimate its cost of equity. To make the estimate, we used the prevailing Treasury bond rate of  $5\%$  and a historical risk premium of  $5.51\%$ .
 
 $$
-\text {Cost of equity} = 5.00 \% + 0.9585(5.51 \%) = 10.28 \%
+\text{Cost of equity} = 5.00\% + 0.9585(5.51\%) = 10.28\%
 $$
 
 There are two points to make about this estimate. The first is that the cost of equity would have been significantly lower if we had chosen to use the implied equity premium on December 31, 2000, which was about  $2.87\%$  (see Chapter 7).
@@ -911,19 +913,19 @@ Cost of equity for Embraer  $= 3.8\% +0.88(4.00\% +3.66\%) = 10.54\%$
 Again, there are several points that are worth making on this estimate. The first is that this cost of equity can be expected to change over time as Brazil matures as a market and country risk declines. The second is that we have assumed that betas measure exposure to country risk. A company like Embraer that derives the bulk of its revenues outside Brazil could argue that it is less exposed to country risk. In the preceding section, we introduced the concept of lambda and came up with two estimates for Embraer: 0.15, using revenue exposure, and 0.27, using the regression of Embraer stock returns against the Brazilian dollar bond. We will use the latter to compute the cost of equity:
 
 $$
-\begin{array}{l} \text {C o s t} = \text {R i s k - f r e e r a t e} + \text {B e t a (M u t e r m a r k e t r i s k p r e m i u m)} \\ + \lambda (\text {C o u n t r y} \\ = 3.8\% +0.88(4.00\%) + 0.27(3.66\%) = 8.31\% \\ \end{array}
+\begin{array}{l} \text{Cost} = \text{Risk-free rate} + \text{Beta(Mature market risk premium)} \\ + \lambda(\text{Country risk premium}) \\ = 3.8\% + 0.88(4.00\%) + 0.27(3.66\%) = 8.31\% \\ \end{array}
 $$
 
 The final point is that the cost of equity in dollar terms can be converted into a nominal Brazilian real (BR) cost of equity fairly simply by considering the differences in expected inflation rates in Brazil and the United States. For instance, if the expected inflation rate in Brazil is  $6\%$  and the expected inflation rate in the United States is  $2\%$ , the cost of equity in nominal BR is as follows:
 
 $$
-\begin{array}{l} \text {C o s t} = \text {e q u i t y} _ {\text {n o m i n a l B R}} = (1 + \text {C o s t} \text {o f e q u i t y} _ {\S}) (\text {I n f l a t i o n r a t e} _ {\text {B r a i z}} / \text {I n f l a t i o n r a t e} _ {\text {U . S .}}) - 1 \\ = (1.0831)(1.06 / 1.02) - 1 = 12.56 \% \\ \end{array}
+\begin{array}{l} \text{Cost of equity}_{\text{nominal BR}} = (1 + \text{Cost of equity}_{\$}) (\text{Inflation rate}_{\text{Brazil}} / \text{Inflation rate}_{\text{U.S.}}) - 1 \\ = (1.0831)(1.06 / 1.02) - 1 = 12.56\% \\ \end{array}
 $$
 
 Implicitly, we assume that BR risk-free rates around the world are the same with this approach and that the risk premium scales up with inflation as well. The alternative is to estimate a cost of equity from scratch, beginning with a nominal BR risk-free rate (which was  $8\%$  at the time of this analysis) and adding the premiums from before:
 
 $$
-\begin{array}{l} \text {C o s t} = \text {e q u i t y} _ {\text {n o m i a l B R}} = \text {R i s k - f r e e r a t e} + \text {B e t a} (\text {M a t u r e m a t k e r} \\ + \lambda (\text {C o u n t r y} \\ = 8 \% + 0.88(4.00 \%) + 0.27(3.66\%) = 12.51 \% \\ \end{array}
+\begin{array}{l} \text{Cost of equity}_{\text{nominal BR}} = \text{Risk-free rate} + \text{Beta}(\text{Mature market risk premium}) \\ + \lambda(\text{Country risk premium}) \\ = 8\% + 0.88(4.00\%) + 0.27(3.66\%) = 12.51\% \\ \end{array}
 $$
 
 Substituting a real risk-free rate in the equation would yield a real cost of equity. Thus, if we assume that the real risk-free rate is  $1.5\%$  (the rate on an inflation-adjusted TIPS bond), the real cost of equity would have been:
@@ -939,7 +941,7 @@ Chapter 6 presented evidence of a small firm premium—small market-cap stocks e
 Cost of equity for small cap stock  $=$  Risk-free rate + Beta
 
 $$
-\begin{array}{l} \times \text {M a r k e t} \\ + \text {S m a l l} \\ = 3.5 \% + 1.2 \times 5 \% + 4 \% \\ = 13.5 \% \\ \end{array}
+\begin{array}{l} \times \text{Market risk premium} \\ + \text{Small firm premium} \\ = 3.5\% + 1.2 \times 5\% + 4\% \\ = 13.5\% \\ \end{array}
 $$
 
 We would introduce four notes of caution with this approach. First, this opens the door to a series of adjustments that you could make to the cost of equity, reflecting the numerous inefficiencies cited in Chapter 6. For instance, you could estimate a low PE premium, a low price-to-book premium, and a high dividend yield premium and add them all to the cost of equity. If our objective in valuation is to uncover market mistakes, it would be a mistake to start off with the presumption that markets are right in their assessments in the first place. Second, a better way of incorporating the small firm premium would be to identify the reasons for the premium and then develop more direct measures of risk. For instance, assume that the higher risk of small cap stocks comes from the higher operating leverage that these firms have, relative to their larger competitors. You could adjust the betas for operating leverage (as we did a few pages ago for Vans Shoes) and use the higher betas for small firms. Third, the small cap premium of 4 percent that we estimated from historical data comes with a significant standard error (of approximately 2 percent). Thus, the true small cap premium can be 8 percent or 0 percent. Fourth, even if your company is a small company today and deserves a small cap premium, assuming a high growth rate for your firm will make it a large cap firm eventually. It follows that you would expect the small cap premium to fade over time.
@@ -1265,13 +1267,7 @@ The cost of capital is a weighted average of the costs of the different componen
 
 The cost of capital is useful at two levels. On a composite basis, it is what these firms have to make collectively on their investments to break even. It is also the appropriate discount rate to use to discount expected future cash flows to arrive at an estimate of firm value.
 
-# QUESTIONS AND SHORT PROBLEMS
 
-In the problems following, use an equity risk premium of 5.5 percent if none is specified and a tax rate of 40 percent where no tax rate is provided.
-
-1. In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time was 5.8\%, and the Treasury bond rate was 6.4\%. The firm had debt outstanding of \$1.7 billion and a market value of equity of \$1.5 billion; the corporate marginal tax rate was 36\%. (The historical risk premium for stocks over Treasury bills is 8.5\% and the risk premium for stocks over Treasury bonds is 5.5\%).
-
-a. Estimate the expected return on the stock for a short-term investor in the company.
 
 b. Estimate the expected return on the stock for a long-term investor in the company.
 

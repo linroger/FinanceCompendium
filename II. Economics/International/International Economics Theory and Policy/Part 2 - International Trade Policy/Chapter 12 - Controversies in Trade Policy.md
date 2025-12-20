@@ -1,3 +1,22 @@
+---
+primary_tags:
+- workers themes response economists
+- theory international trade
+- problem arguments activist trade
+- controversies trade policy seen
+secondary_tags:
+- controversies international trade
+- trade policy arguments
+- curve growing concern globalization
+- role disputes international trade
+- effects globalization debate played
+- response economists developing country
+- chapter describes controversies international
+- difficult discussion globalization really
+- wto globalization environment concerns
+tags_extracted: '2025-12-18T00:52:50.910677'
+---
+
 # CONTROVERSIES IN TRADE POLICY
 
 As we have seen, the theory of international trade policy, like the theory of international trade itself, has a long, intellectual tradition. Experienced international economists tend to have a cynical attitude toward people who come along with "new" issues in trade—the general feeling tends to be that most supposedly new concerns are simply old fallacies in new bottles.

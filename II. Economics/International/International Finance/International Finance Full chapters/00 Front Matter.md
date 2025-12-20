@@ -1,13 +1,22 @@
 ---
-parent_directory:
+parent_directory: null
 title: INTERNATIONAL FINANCE
-tags:
-aliases:
+tags: null
+aliases: null
 parent_folder: Global-Markets
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
 linter-yaml-title-alias: INTERNATIONAL FINANCE
+primary_tags:
+- xiii balance payments theory
+- rate indices 1980 2020
+secondary_tags:
+- title international finance
+- international macroeconomic
+- imf balance payments
+- dollar eurobond issue 306
+tags_extracted: '2025-12-18T01:29:35.714839'
 ---
 
 ---

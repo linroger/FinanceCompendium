@@ -1,3 +1,22 @@
+---
+primary_tags:
+- suppose opening trade relative
+- firms countries produce higher
+- offshoring creates
+- formulas left frac delta
+secondary_tags:
+- left frac cdot cdot
+- service offshoring possible country
+- service offshoring gains compared
+- offshoring conclusions general electric
+- price change data formulas
+- americans perceive offshoring actual
+- cost shares price
+- foreign outsourcing versus
+- right solve equations
+tags_extracted: '2025-12-18T00:38:42.456272'
+---
+
 # Offshoring of Goods and Services
 
 One facet of increased services trade is the increased use of offshore outsourcing in which a company relocates labor-intensive service-industry functions to another country. . . . When a good or service is produced more cheaply abroad, it makes more sense to import it than to make or provide it domestically.

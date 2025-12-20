@@ -1,9 +1,19 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: 14_LOOKING_BACK
+primary_tags:
+- two big cycles
+- analogous ways
+secondary_tags:
+- 14lookingback looking back
+- roughly the last two centuries
+- looking back
+- last 180 years
+tags_extracted: '2025-12-18T18:03:09.854251'
+tags_method: max_quality_v1
 ---
 
 # 14_LOOKING_BACK

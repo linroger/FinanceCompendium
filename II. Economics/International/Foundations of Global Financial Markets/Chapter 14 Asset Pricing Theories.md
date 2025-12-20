@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Asset Pricing Theories
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Asset Pricing Theories
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 14: Asset Pricing Theories"
-linter-yaml-title-alias: "Chapter 14: Asset Pricing Theories"
+title: 'Chapter 14: Asset Pricing Theories'
+linter-yaml-title-alias: 'Chapter 14: Asset Pricing Theories'
+primary_tags:
+- market portfolio graph sml
+- asset pricing model
+- assets capital market theory
+- risk beta asset
+- market case risk return
+secondary_tags:
+- capital markets behavioral assumptions
+- capm arbitrage pricing theory
+- asset pricing model capm
+- returns portfolio theory described
+- cml market model equilibrium
+- expected returns tests capm
+- cml equation capital asset
+- portfolios empirical tests
+- implications theory portfolio theory
+- asset return variability diversified
+- fund separation theorem assumption
+- asset market econometrica 34
+tags_extracted: '2025-12-18T00:19:56.090281'
 ---
 
 # 14

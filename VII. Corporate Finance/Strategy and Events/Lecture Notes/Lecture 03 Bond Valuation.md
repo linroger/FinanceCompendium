@@ -2,11 +2,21 @@
 aliases:
   - Bond Valuation
 tags:
+  - bond_valuation
+  - fixed_income
+  - corporate_finance
+  - yield_to_maturity
+  - duration
+  - term_structure
 key_concepts:
-parent_directory: Lecture Notes
+  - bond valuation methods
+  - yield to maturity calculations
+  - duration and interest rate sensitivity
+  - term structure of interest rates
+  - spot rates vs forward rates
+parent_directory: "Lecture Notes"
 cssclasses: academia
-title: Lecture 03 Bond Valuation
-linter-yaml-title-alias: Bond Valuation
+title: Lecture 03 - Bond Valuation
 ---
 
 Dave Schabes
@@ -30,23 +40,23 @@ January 10, 2023
 
 - Coupon – payments due at each coupon date
 
-$\circ$  Originally attached to the certificate  
+  - Originally attached to the certificate
 
 - Cut off and redeemed (hence the term "coupon clippers")
 - Interest typically paid semi-annually
 - Coupon = Coupon Rate X Face Value / Number of Coupon Payments per Year
 
-$\circ$ 100 x 11.75% / 2 =  $5.875 per$ 100 bond held
+  - 100 x 11.75\% / 2 =  $5.875 per$ 100 bond held
 
 # OAT Text Example Updated for October 2021 Purchase
 
-- Five year French bond yield -0.449% in June 2021  
+- Five year French bond yield -0.449\% in June 2021
 - Final maturity of OAT issued October 25, 1993 due October 10, 2025
 
 <table><tr><td></td><td></td><td>Cash Payments</td><td></td><td></td></tr><tr><td>2021</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td></tr><tr><td>6.00</td><td>6.00</td><td>6.00</td><td>6.00</td><td>106.00</td></tr></table>
 
 $$
-\begin{array}{l} P V = \frac {6 . 0 0}{. 9 9 5 5 1} + \frac {6 . 0 0}{. 9 9 5 5 1 ^ {2}} + \frac {6 . 0 0}{. 9 9 5 5 1 ^ {3}} + \frac {6 . 0 0}{. 9 9 5 5 1 ^ {4}} + \frac {1 0 6 . 0 0}{. 9 9 5 5 1 ^ {5}} \\ = \epsilon 1 3 2. 6 9 \\ \end{array}
+\begin{array}{l} PV = \frac{6.00}{.99551} + \frac{6.00}{.99551^{2}} + \frac{6.00}{.99551^{3}} + \frac{6.00}{.99551^{4}} + \frac{106.00}{.99551^{5}} \\ = \epsilon 132.69 \\ \end{array}
 $$
 
 - Despite loss of three years of interest (€18), price declined only €12.30 since market interest rates declined from 0.3% to -0.449%
@@ -56,19 +66,19 @@ $$
 - Since a bond is an annuity plus a final payment of principal:
 
 $$
-P V = C P N \times \frac {1}{y} \times \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}}
+PV = CPN \times \frac{1}{y} \times \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{FV}{(1 + y)^{N}}
 $$
 
 Using June 2021 data:
 
 $$
-\begin{array}{l} P V = 6. 0 0 \times \left(\frac {1}{-. 0 0 4 4 9}\right) \times \left(1 - \frac {1}{. 9 9 5 5 1 ^ {5}}\right) + \frac {1 0 0}{. 9 9 5 5 1 ^ {5}} \\ = 3 0. 4 1 + 1 0 2. 2 8 = \epsilon 1 3 2. 6 9 \\ \end{array}
+\begin{array}{l} PV = 6.00 \times \left(\frac{1}{-.00449}\right) \times \left(1 - \frac{1}{.99551^{5}}\right) + \frac{100}{.99551^{5}} \\ = 30.41 + 102.28 = \epsilon 132.69 \\ \end{array}
 $$
 
 Using data from January 2023 when the three year interest rate was  $2.88\%$ :
 
 $$
-P V = 6. 0 0 \times \left(\frac {1}{. 0 2 8 8}\right) \times \left(1 - \frac {1}{1 . 0 2 8 8 ^ {3}}\right) + \frac {1 0 0}{1 . 0 2 8 8 ^ {3}}
+PV = 6.00 \times \left(\frac{1}{.0288}\right) \times \left(1 - \frac{1}{1.0288^{3}}\right) + \frac{100}{1.0288^{3}}
 $$
 
 17.01 + 91.83 = €108.84, and received €12.00 in coupon payments
@@ -77,18 +87,18 @@ $$
 
 - Yield to Maturity (YTM) -  $y$  in the equation above
 
-$\circ$  Bond's rate of return based on its current market price  
+  - Bond's rate of return based on its current market price
 
 - "Yield to call" and "yield to worst"
 - Current Yield
-- Coupon/Price = €6.00/€132.69 = 4.52%
+- Coupon/Price = €6.00/€132.69 = 4.52\%
 
 # Calculating YTM
 
 For a Zero Coupon Bond:
 
 $$
-Y T M = \left(\frac {F V}{P}\right) ^ {\frac {1}{n}} - 1,
+YTM = \left(\frac{FV}{P}\right)^{\frac{1}{n}} - 1,
 $$
 
 where  $FV$  is the face value at maturity,  $P$  is the current price and  $n$  is the number of remaining periods until maturity
@@ -96,10 +106,10 @@ where  $FV$  is the face value at maturity,  $P$  is the current price and  $n$ 
 - For a coupon bond
 
 $$
-P = C P N \times \frac {1}{y} \times \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}}
+P = CPN \times \frac{1}{y} \times \left(1 - \frac{1}{(1 + y)^{N}}\right) + \frac{FV}{(1 + y)^{N}}
 $$
 
-○ Cannot be solved directly – use Excel IRR function
+  - Cannot be solved directly – use Excel IRR function
 
 # Calculating YTM – Examples
 
@@ -133,19 +143,20 @@ $$
 
 - Coupon note or bond:
 
-○ Trading "at par" – price equal to face value (e.g., 100)  
+  - Trading "at par" – price equal to face value (e.g., 100)
 
 - Trading "below par" or "at a discount to par" below 100
 
-Current yield is below YTM  
+  - Current yield is below YTM
 
-- Creates a capital gain at maturity
+  - Creates a capital gain at maturity
 
-○ Trading "above par" or "at a premium"
+  - Trading "above par" or "at a premium"
 
-Current yield exceeds YTM  
+  - Current yield exceeds YTM
 
-- Creates a capital loss
+  - Creates a capital loss
+
 - Pure discount bond, note or bill – no coupon
 
 # Bond Price Terms
@@ -154,19 +165,19 @@ Current yield exceeds YTM
 - Asked (Offered) Price – where bond dealer will sell a bond  
 - Clean Price – the quoted bond price, without accrued interest
 
-$\mathrm{O}$  This is what is quoted.
+  - This is what is quoted.
 
 - Dirty or Invoice Price – the price with accrued interest  
 - Amount of cash you actually have to provide
 
 # Invoice Price vs Clean Price
 
-- Five year note issued December 30, 2022. Clean price: 100. Pays  $5 \%$ coupon rate paid semiannually: June 30 and December 30  
+- Five year note issued December 30, 2022. Clean price: 100. Pays  $5\%$ coupon rate paid semiannually: June 30 and December 30  
 Purchase April 5:  
 - How much do we pay?
 
 $$
-= 1 0 0 + 1 0 0 * \frac {\left(. 0 5 * \frac {9 6}{1 8 2}\right)}{2} = 1 0 0 + 1. 3 2 = 1 0 1. 3 2
+= 100 + 100 * \frac{\left(.05 * \frac{96}{182}\right)}{2} = 100 + 1.32 = 101.32
 $$
 
 - We pay this because we take ownership of the coupon for the entire period from December 30, 2022 to June 30, 2023
@@ -216,7 +227,7 @@ FIGURE 3.2 Plot of bond prices as a function of the interest rate. The price of 
 - Various, slightly different measures of duration – sensitivity of price to interest rate changes
 
 $$
-\mathrm {D u r a t i o n} = \sum_ {t = 1} ^ {n} \left(\frac {P V (C _ {t}) \times t}{P}\right),
+\mathrm{Duration} = \sum_{t=1}^{n} \left(\frac{PV(C_{t}) \times t}{P}\right),
 $$
 
 where  $\text{Price} = \sum PV(C_t)$ , and  $C_t$  are the instrument's cash flows at time  $t$
@@ -246,12 +257,12 @@ Modified Duration = Duration/(1 + YTM), with some caveats
 
 - Spot rate, discount rate, zero coupon rate
 
-○ Three different terms with the same meaning  
+  - Three different terms with the same meaning  
 
 - Rate used to discount a single cash flow on a given date
 - The Law of One Price:
 - Cash flows (of identical risk) delivered on a given date must have the same spot rate  
-$\circ$  If untrue, there would be a risk-free arbitrage opportunity
+  - If untrue, there would be a risk-free arbitrage opportunity
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/224965de60810f0726c5f796425d581d9f28d136342ee38a007f429a7cf3a37c.jpg)  
 Term Structure of Interest Rates
@@ -269,25 +280,23 @@ Term Structure of Interest Rates
 - Calculate the discount factor:
 
 $$
-D i s c o u n t F a c t o r = \frac {1}{(1 + r _ {n}) ^ {n}},
+Discount Factor = \frac{1}{(1 + r_{n})^{n}},
 $$
 
 $$
-e.g.,DF_{3}ifr_{3} = 5\% ,
+e.g., DF_{3} if r_{3} = 5\% ,
 $$
 
 $$
-D F _ {3} = 1 / (1 +. 0 5) ^ {3} = . 8 6 3 8
+DF_{3} = 1 / (1 + .05)^{3} = .8638
 $$
 
 # The Law of One Price
 
 - The law of one price states that, given efficient market conditions, there are no pure arbitrage opportunities
-- Any set of future identical cashflows must be priced the same – have identical present values  
-Since real world markets do not meet efficient market assumptions, there are some arbitrage opportunities available
+- Any set of future identical cashflows must be priced the same – have identical present values. Since real world markets do not meet efficient market assumptions, there are some arbitrage opportunities available
 
-- Only realizable on a statistical basis  
-High cost to access these opportunities
+- Only realizable on a statistical basis. High cost to access these opportunities
 
 Table 3.6 The law of one price applied to government bonds  
 
@@ -297,12 +306,12 @@ Table 3.6 The law of one price applied to government bonds
 
 - Spot rate –discount single payment received on a date
 
-$\circ$  Must be inferred in most cases
+  - Must be inferred in most cases
 
 - Limited number of discount (single payment) bills  
 Notes and bonds make multiple coupon payments
 
-○ STRIPS – Separate Trading of Registered Interest and Principal of Securities
+  - STRIPS – Separate Trading of Registered Interest and Principal of Securities
 
 - Separates principal only portion of coupon notes and bonds which trade regularly  
 - Allows creation of zero coupon (spot) yield curve
@@ -311,16 +320,16 @@ Notes and bonds make multiple coupon payments
 
 - Inverted yield curves
 
-$\mathrm{O}$  Implied forward rates
+  - Implied forward rates
 
 One year spot rate:  $20 \%$  
 Two year spot rate:  $7 \%$
 
 $$
-\begin{array}{l} D F _ {1} = \frac {1}{1 . 2 0} = . 8 3 3, D F _ {2} = \frac {1}{1 . 0 7 ^ {2}} = . 8 7 3 \\ \text {i m p l i e s} D F _ {\frac {2}{1}} = 1. 0 4 8 1 o r \\ \end{array}
+\begin{array}{l} DF_{1} = \frac{1}{1.20} = .833, DF_{2} = \frac{1}{1.07^{2}} = .873 \\ \text{implies} DF_{\frac{2}{1}} = 1.0481 \text{or} \\ \end{array}
 $$
 
-a negative 4.59% interest rate for one year in one year
+a negative 4.59\% interest rate for one year in one year
 
 - While this example is obvious, building spot yield curves is complex and relies on assumptions to exclude arbitrage opportunities
 
@@ -328,10 +337,10 @@ a negative 4.59% interest rate for one year in one year
 
 - Why does the term structure exist?
 
-$\mathrm{O}$  Liquidity preference  
-$\circ$  Expectations theory  
-$\bigcirc$  Risk  
-$\circ$  Inflation (Deflation) risk
+  - Liquidity preference
+  - Expectations theory
+  - Risk
+  - Inflation (Deflation) risk
 
 - Prices reflect future view of all market participants
 
@@ -340,7 +349,7 @@ $\circ$  Inflation (Deflation) risk
 Real return  $(r_{real})$ :
 
 $$
-r _ {r e a l} = \frac {1 + r _ {n o m i n a l}}{1 + i} - 1, w h e r e,
+r_{real} = \frac{1 + r_{nominal}}{1 + i} - 1, \text{where},
 $$
 
 $r_{\text {nominal }}$  is the stated (contractual) rate of return,

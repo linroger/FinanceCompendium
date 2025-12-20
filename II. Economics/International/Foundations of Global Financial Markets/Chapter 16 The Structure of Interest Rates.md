@@ -1,12 +1,32 @@
 ---
 aliases:
-  - The Structure of Interest Rates
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- The Structure of Interest Rates
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 16: The Structure of Interest Rates"
-linter-yaml-title-alias: "Chapter 16: The Structure of Interest Rates"
+title: 'Chapter 16: The Structure of Interest Rates'
+linter-yaml-title-alias: 'Chapter 16: The Structure of Interest Rates'
+primary_tags:
+- rate curve determined treasury
+- yield curve different theories
+- different yields maturity
+- bond market classified type
+- discount cash flow bond
+secondary_tags:
+- term structure rates structure
+- appropriate yield discount
+- spot rate curve theoretical
+- yield curve determinants shape
+- using treasury yield curve
+- value bond calculated discounting
+- difference liquidity treasury market
+- yield spread typical relationship
+- maturity periodcash flow
+- treasury security maturity financial
+- forward rates relationship spot
+- appropriate time period cash
+tags_extracted: '2025-12-18T00:20:24.943298'
 ---
 
 # 16

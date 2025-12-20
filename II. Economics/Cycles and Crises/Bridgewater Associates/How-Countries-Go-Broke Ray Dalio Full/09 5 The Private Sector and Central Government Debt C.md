@@ -1,11 +1,34 @@
 ---
 aliases:
-  - The Private Sector and Central Government Debt Crisis
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Private Sector and Central Government Debt Crisis
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "09 - Chapter 5: The Private Sector and Central Government Debt Crisis (Stages 1-4)"
+title: '09 - Chapter 5: The Private Sector and Central Government Debt Crisis (Stages
+  1-4)'
+primary_tags:
+- debt crisis
+- big cycle
+- future cuts
+- most importantly banks
+- global geopolitical orders
+secondary_tags:
+- domestic political orders
+- country's central bank
+- two big types
+- private sector
+- last 100 years
+- archetypical sequence
+- government's debt
+- greater detail
+- even more borrowing
+- another currency
+- i.e., too much debt
+- several years
+tags_extracted: '2025-12-18T18:02:32.076693'
+tags_method: max_quality_v1
 ---
 
 # 09_5_The_Private_Sector_and_Central_Government_Debt_C

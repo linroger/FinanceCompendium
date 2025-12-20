@@ -1,3 +1,15 @@
+---
+primary_tags:
+- goods flows knowledge empirically
+- endogenous growth link trade
+secondary_tags:
+- chapter 10 trade endogenous
+- trade growth long question
+- growth terms trade
+- ricardo developed dynamic model
+tags_extracted: '2025-12-18T00:15:12.796940'
+---
+
 # Chapter 10: Trade and Endogenous Growth
 
 The link between trade and growth has long been a question of interest from both a theoretical and policy point of view. David Ricardo developed a dynamic model of corn and velvet production, with corn produced by land and labor and velvet produced with labor alone. $^{1}$  The need to pay labor from a "wage fund" established prior to production prevents all labor from being employed initially (i.e. there is a liquidity constraint on firms). Ricardo showed that in autarky the gradual expansion of the wage fund and growth of velvet production would lower its relative price, until a long-run equilibrium was reached. Opening trade, however, would allow the relative price of velvet to be maintained at world levels, thereby benefiting capitalists at the expense of landowners. This remarkable model has many of the issues that are of interest in modern discussions of trade and growth: the possibility that growth will be associated with continual changes in prices, and conversely, the impact of trade on prices and growth rates themselves.

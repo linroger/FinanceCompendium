@@ -1,12 +1,21 @@
 ---
 aliases:
-  - External Economies of Scale and the International Location of Production
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- External Economies of Scale and the International Location of Production
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 07: External Economies of Scale and the International Location of Production"
-linter-yaml-title-alias: "Chapter 07: External Economies of Scale and the International Location of Production"
+title: 'Chapter 07: External Economies of Scale and the International Location of
+  Production'
+linter-yaml-title-alias: 'Chapter 07: External Economies of Scale and the International
+  Location of Production'
+primary_tags:
+- international location production external
+- production external economies
+secondary_tags:
+- location production external economies
+- chapter 07 external economies
+tags_extracted: '2025-12-18T01:46:50.783274'
 ---
 
 # Chapter 07 External Economies of Scale and the International Location of Production

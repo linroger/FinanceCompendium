@@ -1,12 +1,29 @@
 ---
 aliases:
-  - Estimating the Greeks
-tags:
-key_concepts:
-parent_directory: "[[MFE Monte-Carlo Simulation]]"
+- Estimating the Greeks
+tags: null
+key_concepts: null
+parent_directory: '[[MFE Monte-Carlo Simulation]]'
 cssclasses: academia
 title: Monte Carlo Greeks Estimation
 linter-yaml-title-alias: Monte Carlo Greeks Estimation
+primary_tags:
+- monte carlo methods
+- unbiased estimators
+- black scholes framework
+- pathwise derivative
+secondary_tags:
+- first approach
+- carlo methods
+- unbiased pathwise estimator
+- finite differences
+- sensitivities results
+- following example
+- each approach
+- such securities
+- simple example
+tags_extracted: '2025-12-18T17:59:26.826138'
+tags_method: max_quality_v1
 ---
 
 # Estimating the Greeks

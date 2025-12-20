@@ -1,120 +1,88 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
 cssclasses: academia
-title: "26"
-linter-yaml-title-alias: "26"
+title: Chapter 26 - Corporate Debt Markets
+tags: [corporate_bonds, bank_loans, debt_markets, high_yield_bonds, leveraged_loans, medium_term_notes, lease_financing, insolvency_law]
+key_concepts: [corporate_borrowing_alternatives, credit_risk_types, bond_features, high_yield_bonds, leveraged_loans, mtns, lease_financing, bankruptcy_proceedings]
+parent_directory: Foundations of Global Financial Markets
 ---
 
-# 26
+# Chapter 26 - Corporate Debt Markets
 
-# Corporate Debt Markets
+## Contents
 
-# CONTENTS
+## Learning Objectives
 
-# Learning Objectives
+## Bank Loans
 
-# Bank Loans
+### ### Syndicated Bank Loans
 
-Syndicated Bank Loans
+#### #### Secondary Market for Syndicated Bank Loans
 
-Secondary Market for Syndicated Bank Loans
+## Corporate Bonds
 
-# Corporate Bonds
+### Classification of the Global Corporate Bond Market
 
-Classification of the Global Corporate Bond Market
+### Basic Features of a Corporate Bond Issue
 
-Basic Features of a Corporate Bond Issue
+#### Maturity of bonds
 
-Maturity of bonds
+#### Security for bonds
 
-Security for bonds
+#### Provisions for paying off bonds
 
-Provisions for paying off bonds
+## Bond Features
 
-Bond Features
+### Convertible and exchangeable bonds
 
-Convertible and exchangeable bonds
+### Issues of debt with warrants
 
-Issues of debt with warrants ifiable bonds
+#### Zero-coupon bonds
 
-Zero-coupon bonds
+### Floating-rate securities
 
-Floating-rate securities
+### Inflation-indexed bonds
 
-Inflation-indexed bonds
+### Dual-currency bonds
 
-Dual-currency bonds
+## Adjusting Yields for Different Interest Payment Frequencies
 
-Adjusting Yields for Different Interest Payment Frequencies
+## High-Yield Sector
 
-High-Yield Sector
+### Role of high-yield bonds in financial markets
 
-Role of high-yield bonds in financial markets
+### High-yield bond structures
 
-High-yield bond structures
+## Corporate Issuance in the Eurobond Market
 
-Corporate Issuance in the Eurobond Market
+## Asian Corporate Bond Market
 
-Asian Corporate Bond Market
+## The Secondary Corporate Bond Market and Its Regulation
 
-The Secondary Corporate Bond Market and Its Regulation
+### Electronic bond trading
 
-Electronic bond trading
+## Medium-Term Notes
 
-# Medium-Term Notes
+### The Primary Market
 
-The Primary Market
+### Structured MTNs
 
-Structured MTNs
+## Lease Financing
 
-# Lease Financing
+## Insolvency Laws
 
-# Insolvency Laws
+### Issues Covered by Insolvency Laws
 
-Issues Covered by Insolvency Laws
+### The U.S. Bankruptcy System
 
-The U.S. Bankruptcy System
+#### Priority: Theory and practice
 
-Priority: Theory and practice
+## Key Points
 
-# Key Points
-
-# Questions
-
-# Learning Objectives
-
-After reading this chapter, you will understand:
-
-- the debt financing alternatives available to corporations;
-- the different forms of credit risk: default risk, credit spread risk, and downgrade risk;
-- what event risk and headline risk are;
-- the importance of credit ratings;
-- the basic provisions in the Bankruptcy Reform Act of 1978;
-- the difference between a liquidation and a reorganization;
-- the principle of absolute priority in a bankruptcy;
-- what a bank loan is and the difference between an investment-grade bank loan and a leveraged bank loan;
-- the market for leveraged loans;
-- what a syndicated loan is;
-- the two ways a syndicated loan can be sold: assignment and participation;
-- the basic terms of a loan agreement;
-- the key provisions of a corporate bond issue;
-- features of corporate bonds and the reason for their inclusion;
-- the secondary market for corporate bonds, including the different types of electronic bond trading systems;
-- the high-yield bond sector of the corporate bond market;
-- the different type of bond structures used in the high-yield bond market;
-- the difference between high-yield bonds and leveraged loans;
-- the difference between preferred stock, corporate debt, and common stock;
-- what a medium-term note is, and the characteristics of a structured note;
-- defaults and recoveries on corporate bonds;
-- what a lease financing transaction is; and
-- the difference between a single-investor lease and a leveraged lease.
+## Questions
 
 Corporate debt obligations include six financial instruments: (1) commercial paper, (2) bank loans market, (3) bonds, (4) medium-term notes, (5) asset-backed securities, and (6) equipment leases. Our focus in this chapter is on the bank loans, bonds, and medium-term notes. Commercial paper was covered in chapter 25, and asset-backed securities will be covered in chapter 27. At the end of this chapter, we discuss the bankruptcy or insolvency laws as they relate to corporate creditors.
 
-# Bank Loans
+## Bank Loans
 
 As an alternative to the issuance of securities, a corporation can raise funds by borrowing from a bank. Until recently, in many countries, the dominant form of corporate borrowing was bank loans, because corporate bond markets were not yet well developed.
 
@@ -122,17 +90,15 @@ A corporation may use any of five sourcing alternatives: (1) a domestic bank in 
 
 The market classifies bank loans to corporate borrowers into two categories: investment-grade loans and leveraged loans. An investment-grade loan is a bank loan made to corporate borrowers that have an investment-grade rating. These loans are typically originated and held by the originating bank in its portfolio, because these loans are revolving lines of credit. In such a loan arrangement, a bank sets a maximum amount that can be borrowed by a corporation, and the corporation can take down any part of that amount and repay it at any time. Because of the ability of the corporate borrower to repay at any time and the absence of a maturity date for the loan, an investment-grade bank loan is not sold by the originating bank to institutional investors.
 
-In contrast, a leveraged loan is a bank loan to a corporation that has a below-investment-grade rating. A leveraged loan has a maturity and the interest rate is floating, the reference rate being the LIBOR. In fact, when market participants refer to corporate bank loans, they typically mean a leveraged loan. These loans can be sold to institutional investors. In the next section, we discuss a corporate bond issued by corporations with a below-investment-grade rating called a "high-yield bond." A corporation may have as its debt obligations both leveraged loans and high-yield bonds. Later in this chapter, we discuss the difference between a leveraged loan and a high-yield bond.
+In contrast, a leveraged loan is a bank loan to a corporation that has a below-investment-grade rating. A leveraged loan has a maturity and the interest rate is floating, the reference rate being the $\text{LIBOR}$. In fact, when market participants refer to corporate bank loans, they typically mean a leveraged loan. These loans can be sold to institutional investors. In the next section, we discuss a corporate bond issued by corporations with a below-investment-grade rating called a "high-yield bond." A corporation may have as its debt obligations both leveraged loans and high-yield bonds. Later in this chapter, we discuss the difference between a leveraged loan and a high-yield bond.
 
 Syndicated Bank Loans
 
 A syndicated bank loan is one in which a group (or syndicate) of banks provides funds to the borrower. Roughly \$2.5 trillion of financing to U.S. companies is provided by syndicated loans, with the size of a syndicated loan ranging from \$20 million to more than 2 billion. Consequently, the need for a group of banks arises, because the amount sought by a borrower might be too large for any one bank to be exposed to the borrower's credit risk. Therefore, the syndicated bank loan is used by borrowers who seek to raise a large amount of funds in the bank loan market rather than through the issuance of securities.
 
-The syndication may include using the securitization process to create collateralized loan obligations, discussed in chapter 39, and is therefore an important part of the corporate bank loan market. Another important component of this market is loans that provide short-term or backstop financing for corporations that are seeking funds until a more permanent
+The syndication may include using the securitization process to create collateralized loan obligations, discussed in chapter 39, and is therefore an important part of the corporate bank loan market. Another important component of this market is loans that provide short-term or backstop financing for corporations that are seeking funds until a more permanent source of financing can be obtained. Such loans are referred to as bridge loans if a loan is provided and bridge loan commitments if the agreement is to provide a future loan. Together, bridge loans and bridge loan commitments are referred to as bridge loan facilities.
 
-source of financing can be obtained. Such loans are referred to as bridge loans if a loan is provided and bridge loan commitments if the agreement is to provide a future loan. Together, bridge loans and bridge loan commitments are referred to as bridge loan facilities.
-
-Syndicated bank loans are called senior bank loan loans because of their priority position over subordinated lenders (bondholders) with respect to repayment of interest and principal. The interest rate on a syndicated bank loan is a rate that floats, which means that the loan rate is based on some reference rate. The loan rate is periodically reset at the reference rate plus a spread. The reference rate is typically LIBOR, although it could be the prime rate (the rate that a bank charges its most creditworthy customers) or the rate on CDs. The term of the loan is fixed. A syndicated loan is typically structured so that it is amortized according to a predetermined schedule, and repayment of principal begins after a specified number of years (typically not longer than five or six years). Structures in which no repayment of the principal is made until the maturity date can be arranged and are referred to as bullet loans.
+Syndicated bank loans are called senior bank loan loans because of their priority position over subordinated lenders (bondholders) with respect to repayment of interest and principal. The interest rate on a syndicated bank loan is a rate that floats, which means that the loan rate is based on some reference rate. The loan rate is periodically reset at the reference rate plus a spread. The reference rate is typically $\text{LIBOR}$, although it could be the prime rate (the rate that a bank charges its most creditworthy customers) or the rate on CDs. The term of the loan is fixed. A syndicated loan is typically structured so that it is amortized according to a predetermined schedule, and repayment of principal begins after a specified number of years (typically not longer than five or six years). Structures in which no repayment of the principal is made until the maturity date can be arranged and are referred to as bullet loans.
 
 A syndicated loan is arranged by either a bank or a securities house. The arranger then lines up the syndicate. Each bank in the syndicate provides the funds for which it has committed. The banks in the syndicate have the right to sell their parts of the loan subsequently to other banks.
 
@@ -167,12 +133,9 @@ Regulatory authorities in the country where the bond is issued impose certain ru
 
 In the 1980s, governments generally relaxed or abolished these restrictions to open up bond markets to issuers.
 
-The external corporate bond market, also called the international corporate bond market, is that part of a country's external financial market that includes bonds with the following distinguishing features: they are underwritten by an international syndicate;
+The external corporate bond market, also called the international corporate bond market, is that part of a country's external financial market that includes bonds with the following distinguishing features: they are underwritten by an international syndicate; at issuance, they are offered simultaneously to investors in more than one country; they are issued outside the jurisdiction of any single country; and they are in unregistered form.
 
-- at issuance, they are offered simultaneously to investors in more than one country; they are issued outside the jurisdiction of any single country; and
-they are in unregistered form.
-
-# Basic Features of a Corporate Bond Issue
+### Basic Features of a Corporate Bond Issue
 
 The essential features of a corporate bond issue are relatively simple. The corporate issuer promises to pay a specified percentage of par value (known as the coupon payment) on designated dates and to repay par or principal value of the bond at maturity. In some countries, such as the United States, interest payments are made semiannually; in other countries, the interest payments are made annually. Failure to pay either principal or interest when due constitutes legal default, and court proceedings can be instituted to enforce the contract. Bondholders, as creditors, have a prior legal claim over common and preferred stockholders with regard to both income and assets of the corporation for the principal and interest due them.
 
@@ -180,11 +143,13 @@ The promises of corporate bond issuers and the rights of investors who buy their
 
 A bond's indenture clearly outlines three important aspects: its maturity, its security, and its provisions for retirement.
 
-Maturity of bonds Most corporate bonds are term bonds; that is, they run for a term of years and then become due and payable. Term bonds are often referred to as having bullet maturity, or simply, bullet bonds. Any amount of the liability not paid off prior to maturity must be paid off at that time. The bond's term may be long or short. Generally, obligations due less than 10 years from the date of issue are called notes.
+#### Maturity of bonds
+Most corporate bonds are term bonds; that is, they run for a term of years and then become due and payable. Term bonds are often referred to as having bullet maturity, or simply, bullet bonds. Any amount of the liability not paid off prior to maturity must be paid off at that time. The bond's term may be long or short. Generally, obligations due less than 10 years from the date of issue are called notes.
 
 Most corporate borrowings take the form of bonds due in 20 to 30 years. Term bonds may be retired by payment at final maturity or retired prior to maturity if provided for in the indenture. Some corporate bond issues are so arranged that specified principal amounts become due on specified dates prior to maturity. Such issues are called "serial bonds." Equipment trust certificates (discussed later) are structured as serial bonds.
 
-Security for bonds Either real property (using a mortgage) or personal property may be pledged to offer security beyond that of the general credit standing of the issuer. A mortgage bond grants the bondholders a lien against the pledged assets. A lien is a legal right to sell mortgaged property to satisfy unpaid obligations to bondholders. In practice, the foreclosure and sale of mortgaged property are unusual. If a default occurs, usually a financial reorganization of the issuer makes the provision for settlement of the debt to bondholders. However, the mortgage lien is important, because it gives the mortgage bondholders a strong bargaining position relative to other creditors when determining the terms of a reorganization in a bankruptcy. (We discuss reorganization later in this chapter.)
+#### Security for bonds
+Either real property (using a mortgage) or personal property may be pledged to offer security beyond that of the general credit standing of the issuer. A mortgage bond grants the bondholders a lien against the pledged assets. A lien is a legal right to sell mortgaged property to satisfy unpaid obligations to bondholders. In practice, the foreclosure and sale of mortgaged property are unusual. If a default occurs, usually a financial reorganization of the issuer makes the provision for settlement of the debt to bondholders. However, the mortgage lien is important, because it gives the mortgage bondholders a strong bargaining position relative to other creditors when determining the terms of a reorganization in a bankruptcy. (We discuss reorganization later in this chapter.)
 
 Some companies do not own fixed assets or other real property, and so they have nothing on which they can give a mortgage lien to secure bondholders. Instead, these firms own securities of other companies and thus are holding companies. The firms whose shares are owned are subsidiaries. To satisfy the desire of bondholders for security, the holding companies pledge stocks, notes, bonds, or whatever other kind of financial instruments they own. These assets are termed "collateral" (or "personal property"), and bonds secured by such assets are called "collateral trust bonds."
 
@@ -200,7 +165,8 @@ The type of corporate security issued determines the cost to the issuer. For a g
 
 Note that a superior legal status will not prevent bondholders from suffering financial loss when the issuer's ability to generate cash flow adequate to pay its obligations is seriously eroded.
 
-Provisions for paying off bonds Most corporate issues contain a call provision allowing the issuer the option to buy back all or part of the issue prior to maturity. Some issues carry a sinking fund provision, which specifies that the issuer must retire a predetermined amount of the issue periodically.
+#### Provisions for paying off bonds
+Most corporate issues contain a call provision allowing the issuer the option to buy back all or part of the issue prior to maturity. Some issues carry a sinking fund provision, which specifies that the issuer must retire a predetermined amount of the issue periodically.
 
 When negotiating the terms of a new bond issue, an important question is whether the issuer has the right to redeem the entire amount of bonds outstanding on a date before maturity. Issuers generally want this right, because they recognize that at some time in the future, the general level of interest rates may fall sufficiently below the issue's coupon rate that redeeming the issue and replacing it with another issue carrying a lower coupon rate would be attractive. For reasons discussed later in this chapter, this right represents a disadvantage to the bondholder.
 
@@ -212,19 +178,24 @@ If the issuer has the choice to retire all or part of an issue prior to maturity
 
 Corporate bond indentures may require the issuer to retire a specified portion of an issue each year. This sinking fund provision for the repayment of the debt may be designed to liquidate all of a bond issue by the maturity date, or it may call for the liquidation of only a part of the total by the end of the term. If only a part of the outstanding bond is paid before retirement, the remainder is called a balloon maturity. The purpose of the sinking fund provision is to reduce credit risk. Generally, the issuer may satisfy the sinking fund requirement by either (1) making a cash payment of the face amount of the bonds to be retired to the corporate trustee, which then calls the bonds for redemption using a lottery, or (2) delivering to the trustee bonds with a total face value equal to the amount that must be retired from bonds purchased in the open market.
 
-# Bond Features
+## Bond Features
 
 Here we look at the different type of bond features that have been used by corporations throughout the world. We discuss unique structures for issuers of high-yield corporate bonds later.
 
-Convertible and exchangeable bonds The conversion provision in a corporate bond issue grants the bondholder the right to convert the bond to a predetermined number of shares of common stock of the issuer. A convertible bond is therefore a corporate bond with a call option to buy the common stock of the issuer. An exchangeable bond grants the bondholder the right to exchange the bond for the common stock of a firm other than the issuer of the bond. For example, Ford Motor Credit exchangeable bonds are exchangeable for the common stock of its parent company, Ford Motor Company.
+### Convertible and exchangeable bonds
+The conversion provision in a corporate bond issue grants the bondholder the right to convert the bond to a predetermined number of shares of common stock of the issuer. A convertible bond is therefore a corporate bond with a call option to buy the common stock of the issuer. An exchangeable bond grants the bondholder the right to exchange the bond for the common stock of a firm other than the issuer of the bond. For example, Ford Motor Credit exchangeable bonds are exchangeable for the common stock of its parent company, Ford Motor Company.
 
-Issues of debt with warrants Warrants may be attached as a part of a bond issue. A warrant grants the holder the right to purchase a designated security at a specified price from the issuer of the bond. A warrant is simply a call option. It may permit the holder to purchase the common stock of the issuer of the debt or the common stock of a firm other than the issuer's. Or the warrant may grant the holder the right to purchase a debt obligation of the issuer. Generally, warrants can be detached from the bond and sold separately. Typically, when exercising the warrant, an investor may choose either to pay cash or to offer the debt (valued at par) that was part of the offering. A major difference between warrants and convertible or exchangeable bonds is that an investor exercising the option provided by the latter must turn the bond in to the issuer.
+### Issues of debt with warrants
+Warrants may be attached as a part of a bond issue. A warrant grants the holder the right to purchase a designated security at a specified price from the issuer of the bond. A warrant is simply a call option. It may permit the holder to purchase the common stock of the issuer of the debt or the common stock of a firm other than the issuer's. Or the warrant may grant the holder the right to purchase a debt obligation of the issuer. Generally, warrants can be detached from the bond and sold separately. Typically, when exercising the warrant, an investor may choose either to pay cash or to offer the debt (valued at par) that was part of the offering. A major difference between warrants and convertible or exchangeable bonds is that an investor exercising the option provided by the latter must turn the bond in to the issuer.
 
-Putable bonds A putable bond grants the bondholder the right to sell the issue back to the issuer at par value on designated dates. The advantage to the bondholder is that if interest rates rise after the issue date, thereby reducing the market value of the bond, the bondholder can sell the bond back to the issuer for par.
+### Putable bonds
+A putable bond grants the bondholder the right to sell the issue back to the issuer at par value on designated dates. The advantage to the bondholder is that if interest rates rise after the issue date, thereby reducing the market value of the bond, the bondholder can sell the bond back to the issuer for par.
 
-Zero-coupon bonds Zero-coupon bonds are, just as the name implies, bonds without coupon payments or a stated interest rate. In the Treasury market, the U.S. government does not issue zero-coupon bonds. Dealers strip issues and create these bonds from the cash flow of a coupon Treasury bond. Corporations, however, can and do issue zero-coupon bonds. The first such public offering was in the spring of 1981. From the investor's perspective, the attractiveness of a zero-coupon bond is that the investor who holds the bond to the maturity date will realize a predetermined return on the bond, unlike a coupon bond, where the actual return realized, if the bond is held to maturity, depends on the rate at which coupon payments can be reinvested.
+### Zero-coupon bonds
+Zero-coupon bonds are, just as the name implies, bonds without coupon payments or a stated interest rate. In the Treasury market, the U.S. government does not issue zero-coupon bonds. Dealers strip issues and create these bonds from the cash flow of a coupon Treasury bond. Corporations, however, can and do issue zero-coupon bonds. The first such public offering was in the spring of 1981. From the investor's perspective, the attractiveness of a zero-coupon bond is that the investor who holds the bond to the maturity date will realize a predetermined return on the bond, unlike a coupon bond, where the actual return realized, if the bond is held to maturity, depends on the rate at which coupon payments can be reinvested.
 
-Floating-rate securities The coupon interest on floating-rate securities is reset periodically to follow changes in the level of some predetermined benchmark rate. For example, the coupon rate may be reset every six months to a rate equal to a spread of 100 basis points over the six-month Treasury bill rate.
+### Floating-rate securities
+The coupon interest on floating-rate securities is reset periodically to follow changes in the level of some predetermined benchmark rate. For example, the coupon rate may be reset every six months to a rate equal to a spread of 100 basis points over the six-month Treasury bill rate.
 
 Floating-rate securities are attractive to some institutional investors, because they allow the purchase of an asset with an income stream that closely matches the floating nature of the income of specific liabilities. Certain floating-rate instruments are viewed by some investors as a passive substitute for short-term investments, particularly that part of a short-term portfolio that is more or less consistently maintained at certain minimum levels. Thus, floating-rate securities save on the costs of constantly rolling over short-term securities as they reach maturity.
 
@@ -234,11 +205,13 @@ Also, in the presence of inflation, a floating-rate security (rolled over, if ne
 
 Other features may be included in a floating-rate issue. For example, many floating-rate issues include a put option. Some issues are exchangeable either automatically at a certain date (often five years after issuance) or at the option of the issuer into fixed-rate securities. A few issues are convertible into the common stock of the issuer. Many floating-rate issues have a ceiling or maximum interest rate for the coupon rate; some have a floor or minimum interest rate for the coupon rate.
 
-Inflation-indexed bonds Corporate inflation-indexed bonds have interest or principal linked to a nationally recognized inflation measure, such as the U.S. consumer price index (U.S. CPI) in the United States, the Eurozone's Harmonised Index of Consumer Prices (excluding tobacco), the U.K.'s Retail Price Index, and France's CPI (excluding tobacco). As explained in chapter 20, these issues are referred to as "Treasury inflation protected securities," or TIPS. Outside the United States, bond coupon rates are linked to the rate of inflation and are referred to as linkers.
+### Inflation-indexed bonds
+Corporate inflation-indexed bonds have interest or principal linked to a nationally recognized inflation measure, such as the U.S. consumer price index (U.S. CPI) in the United States, the Eurozone's Harmonised Index of Consumer Prices (excluding tobacco), the U.K.'s Retail Price Index, and France's CPI (excluding tobacco). As explained in chapter 20, these issues are referred to as "Treasury inflation protected securities," or TIPS. Outside the United States, bond coupon rates are linked to the rate of inflation and are referred to as linkers.
 
-Dual-currency bonds Some issues pay coupon interest in one currency and the principal in a different currency. Such issues are called dual-currency issues. For the first type of dual-currency bond, the exchange rate that is used to convert the principal and coupon payments into a specific currency is specified at the time the bond is issued. The second type differs from the first in that the applicable exchange rate is the rate that prevails at the time a cash flow is made (i.e., at the spot exchange rate at the time a payment is made). A third type offers to either the investor or the issuer the choice of currency. These bonds are commonly referred to as option currency bonds.
+### Dual-currency bonds
+Some issues pay coupon interest in one currency and the principal in a different currency. Such issues are called dual-currency issues. For the first type of dual-currency bond, the exchange rate that is used to convert the principal and coupon payments into a specific currency is specified at the time the bond is issued. The second type differs from the first in that the applicable exchange rate is the rate that prevails at the time a cash flow is made (i.e., at the spot exchange rate at the time a payment is made). A third type offers to either the investor or the issuer the choice of currency. These bonds are commonly referred to as option currency bonds.
 
-# Adjusting Yields for Different Interest Payment Frequencies
+## Adjusting Yields for Different Interest Payment Frequencies
 
 For a bond that pays coupon interest, the frequency with which the issuer makes interest payments varies by country. Although yield measures, such as the yield to maturity, are not very useful for assessing the potential return from investing in a bond, market convention is used for calculating yield.
 
@@ -290,7 +263,7 @@ Deferred-interest bonds are the most common type of deferred coupon structure. T
 
 As explained earlier in this chapter, leveraged loans are bank loans in which the borrower is a noninvestment-grade borrower. Hence, leveraged loans and high-yield bonds are alternative sources of debt for noninvestment-grade borrowers. Here we summarize the distinguishing characteristics of these sources of debt funding.
 
-The coupon rate on high-yield bonds is typically a fixed interest rate. For leveraged loans, it is a floating rate, with the most common reference rate being the three-month LIBOR. High-yield bonds usually have a maturity of 10 years and are noncallable until three or five years after issuance. Leveraged loans are shorter term, usually five to eight years, and offer no call protection: They are callable at any time.
+The coupon rate on high-yield bonds is typically a fixed interest rate. For leveraged loans, it is a floating rate, with the most common reference rate being the three-month $\text{LIBOR}$. High-yield bonds usually have a maturity of 10 years and are noncallable until three or five years after issuance. Leveraged loans are shorter term, usually five to eight years, and offer no call protection: They are callable at any time.
 
 In the capital structure, leveraged loans are the most senior bonds, and high-yield bonds are subordinated to bank loans. With respect to covenants, they are stronger for leveraged loans than for high-yield bonds, which is one of the reasons corporate borrowers prefer to issue bonds. Finally, as we explain below, investors are concerned with the amount that can be recovered in the case of a default. Historically, the average recovery rate for defaulted leveraged loans is much higher than that for defaulted high-yield bonds.
 
@@ -310,13 +283,13 @@ It has become increasingly difficult to classify a bond issue as a foreign bond 
 
 Although Eurobonds are typically registered on a national stock exchange (the most common being the Luxembourg, London, or Zurich exchanges), the bulk of all trading is in the over-the-counter (OTC) market. Listing is purely to circumvent restrictions imposed on some institutional investors who are prohibited from purchasing securities that are not listed on an exchange. Some of the stronger issuers privately place issues with international institutional investors.
 
-# Asian Corporate Bond Market
+## Asian Corporate Bond Market
 
 The principal market for raising capital in the debt market in Asian countries has been via traditional bank borrowing. Following the global financial crisis, however, corporations have made greater use of the bond market to diversify their funding sources. Measured in terms of the amount of corporate bonds outstanding relative to the size (in terms of GDP) of a country's economy, five countries have outstanding bonds exceeding  $50\%$  of GDP and are viewed as having advanced bond markets: Hong Kong, Singapore, South Korea, Malaysia, and Taiwan.[9] China, India, Indonesia, and Thailand are countries in the early stages of development of their corporate bond market, but there are signs that these markets will grow rapidly. For example, China doubled the share of corporate bonds outstanding relative to GDP in 2009-2013, making it the largest regional corporate bond market in terms of U.S. dollars.
 
 The Asian corporate bond market is divided into two sectors, based on whether the currency of denomination of the issue is a foreign currency or the local currency. Corporate bonds denominated in a foreign currency are referred to as the regional corporate bonds, whereas corporate bonds denominated in the country's own currency are referred to as local currency bonds. The foreign currency for most regional corporate bonds is the U.S. dollar. The corporate issuers in this market are global and top-tier local corporate entities. Approximately  $83\%$  of Asian non-financial corporate bonds markets are denominated in their local currencies.[10]
 
-The Secondary Corporate Bond Market and Its Regulation
+## The Secondary Corporate Bond Market and Its Regulation
 
 As with all bonds, the principal secondary market for corporate bonds is the OTC market. The major concern is market transparency.
 
@@ -326,13 +299,14 @@ The European Union has passed various legal acts dealing with financial markets.
 
 MiFID II introduces a market structure framework that ensures that trading, wherever appropriate, takes place on regulated platforms. The regulation calls for the reporting of post-trade information in as close to real time as possible. Markets in Financial Instruments Regulation allows waivers to the reporting requirements based on certain factors, with the specific rules regarding waivers (as well as delayed reporting) left to the European Securities and Markets Authority to formulate. Improved transparency was established by rules to enhance the effective consolidation and disclosure of trading data. These rules oblige trading venues to make available to market participants preand post-trade data at a reasonable cost and to do so by establishing a consolidated tape mechanism for post-trade data.
 
-Electronic bond trading Traditionally, corporate bond trading has been an OTC market conducted by telephone and based on broker-dealer trading desks that take principal positions in corporate bonds to fulfill the buy and sell orders of their customers. There has been a transition away from this traditional form of bond trading and toward electronic trading.
+### Electronic bond trading
+Traditionally, corporate bond trading has been an OTC market conducted by telephone and based on broker-dealer trading desks that take principal positions in corporate bonds to fulfill the buy and sell orders of their customers. There has been a transition away from this traditional form of bond trading and toward electronic trading.
 
 Electronic bond trading makes up about  $30\%$  of corporate bond trading. The major advantages of electronic trading over traditional corporate bond trading in the OTC market are (1) the ability to provide liquidity to the markets, (2) enhanced price discovery (particularly for less liquid markets), (3) the use of new technologies, and (4) trading and portfolio management efficiencies. As an example of the advantage, a portfolio manager can load buy and sell orders on a website, trade from these orders, and then clear the orders.
 
 There are five types of electronic corporate bond trading systems. Auction systems allow participants with a low market share to conduct electronic auctions of securities offerings for both new issues in the primary market and secondary market offerings. Auction systems are not typically used. Cross-matching systems bring dealers and institutional investors together in electronic trading networks that provide real-time or periodic cross-matching sessions. Buy and sell orders are executed automatically when matched. Interdealer systems allow dealers to execute transactions electronically with other dealers through the anonymous services of "brokers' brokers." The clients of dealers are not involved in interdealer systems. Multidealer systems allow customers with consolidated orders from two or more dealers to execute from among multiple quotes. Multidealer systems, also called client-to-dealer systems, typically display to customers the best bid or offer price of those posted by all dealers. The participating dealer usually acts as the principal in the transaction. Single-dealer systems permit investors to execute transactions directly with the specific dealer desired; this dealer acts as a principal in the transaction, with investor access to the dealer, which increasingly has been through the Internet. Thus, single-dealer systems simply replace telephone contact between a single dealer and a customer with Internet contact.
 
-# Medium-Term Notes
+## Medium-Term Notes
 
 A medium-term note (MTN) is a corporate debt instrument with the unique characteristic that such notes are offered continuously to investors by an agent of the issuer. Investors can select from several maturity ranges: nine months to one year, more than one year to 18 months, more than 18 months to two years, and so on, up to 30 years. MTNs are registered with the SEC under Rule 415 (the shelf registration rule), which gives a corporation maximum flexibility for issuing securities on a continuous basis.
 
@@ -340,21 +314,21 @@ The term "medium-term note" to describe this corporate debt instrument is mislea
 
 In 1982, Rule 415 was adopted, making it easier for issuers to sell registered securities on a continuous basis.
 
-Borrowers have flexibility when designing MTNs to satisfy their own needs. They can issue fixedor floating-rate debt. The coupon payments can be denominated in U.S dollars or in a foreign currency.
+Borrowers have flexibility when designing MTNs to satisfy their own needs. They can issue fixed or floating-rate debt. The coupon payments can be denominated in U.S. dollars or in a foreign currency.
 
 When the treasurer of a corporation contemplates an offering of either MTNs or corporate bonds, two factors affect the decision. The most obvious is the cost of the funds raised after consideration of registration and distribution costs. This cost is referred to as the all-in-cost of funds. The second is the flexibility afforded to the issuer in structuring the offering. The growth in the MTN market is evidence of the relative advantage of MTNs with respect to cost and flexibility for some offerings. However, some corporations raise funds by issuing both bonds and MTNs, which would indicate that no absolute advantage can be gained in all instances and market environments.
 
 MTNs are rated by credit rating agencies. About  $99\%$  of all MTNs issued receive an investment-grade rating at the time of issuance.
 
-# The Primary Market
+### The Primary Market
 
 MTNs differ from corporate bonds in the way that they are distributed to investors when initially sold. Although some investment-grade corporate bond issues are sold on a best-efforts basis, typically they are underwritten by investment bankers. The traditional method of distribution for MTNs is on a best-efforts basis by either an investment banking firm or other broker-dealers acting as agents. Another difference between corporate bonds and MTNs when they are offered is that MTNs are usually sold in relatively small amounts on a continuous or an intermittent basis, whereas corporate bonds are sold in large, discrete offerings.
 
-In the United States, a corporation that wants an MTN program will file a shelf registration with the SEC for the offering of securities. The SEC registration for MTN offerings is between  \$100 and\$ 1 billion, but once the total is sold, the issuer can file another shelf registration. The registration includes a list of the investment banking firms, usually two to four, that the corporation has engaged to act as agents to distribute the MTNs. The large New York-based investment banking firms dominate the distribution market for MTNs.
+In the United States, a corporation that wants an MTN program will file a shelf registration with the SEC for the offering of securities. The SEC registration for MTN offerings is between \$100 and \$1 billion, but once the total is sold, the issuer can file another shelf registration. The registration includes a list of the investment banking firms, usually two to four, that the corporation has engaged to act as agents to distribute the MTNs. The large New York-based investment banking firms dominate the distribution market for MTNs.
 
-The issuer then posts rates over a range of maturities: for example, nine months to one year, one year to 18 months, 18 months to two years, and annually thereafter. Usually, an issuer will post rates as a spread over a Treasury security of comparable maturity. The rate offering schedule can be changed at any time by the issuer either in response to changing market conditions or because the issuer has raised the desired amount of funds at a given maturity. In the latter case, the issuer can either not post a rate for that maturity range or lower the rate. The agents then make the offering rate schedule available to their investor base interested in MTNs. An investor interested in the offering contacts the agent. In turn, the agent contacts the issuer to confirm the terms of the transaction. Because the maturity range in the offering rate schedule does not specify a specific maturity date, the investor can choose the final maturity subject to approval by the issuer. The minimum size an investor can purchase of an MTN offering typically ranges from  \$1 million to\$ 25 million.
+The issuer then posts rates over a range of maturities: for example, nine months to one year, one year to 18 months, 18 months to two years, and annually thereafter. Usually, an issuer will post rates as a spread over a Treasury security of comparable maturity. The rate offering schedule can be changed at any time by the issuer either in response to changing market conditions or because the issuer has raised the desired amount of funds at a given maturity. In the latter case, the issuer can either not post a rate for that maturity range or lower the rate. The agents then make the offering rate schedule available to their investor base interested in MTNs. An investor interested in the offering contacts the agent. In turn, the agent contacts the issuer to confirm the terms of the transaction. Because the maturity range in the offering rate schedule does not specify a specific maturity date, the investor can choose the final maturity subject to approval by the issuer. The minimum size an investor can purchase of an MTN offering typically ranges from \$1 million to \$25 million.
 
-# Structured MTNs
+### Structured MTNs
 
 It is common today for issuers of MTNs to couple their offerings with transactions in the derivative markets (options, futures/forward contracts, swaps, caps, and floors) so as to create debt obligations with more interesting risk/return features than are available in the corporate bond market. Specifically, an issue may have a floating rate over all or part of the life of the security, and the coupon reset formula may be based on a benchmark interest rate, equity index or individual stock price, a foreign exchange rate, or a commodity index.
 
@@ -362,7 +336,7 @@ Some MTNs even offer coupon reset formulas that vary inversely with a benchmark 
 
 MTNs created when the issuer simultaneously transacts in the derivative markets are called structured notes. The most common derivative instrument used when creating structured notes is a swap—a derivative instrument that we discussed in chapter 37. The motivation for issuing a structured note is that investors are willing to pay a premium for such securities and, as a result, the issuer will realize a lower funding cost than by just issuing a standard MTN or corporate bond.
 
-# Lease Financing
+## Lease Financing
 
 The market for lease financing is a segment of the larger market for equipment financing. Any type of equipment that can be purchased with borrowed funds can also be leased. Our interest here is in the leasing of equipment that can be classified as a big-ticket item (i.e., equipment costing more than 5 million). Included in this group are commercial aircraft, large ships, large quantities of production equipment, and energy facilities. A special type of leasing arrangement, known as a leveraged lease, is used when financing such equipment.
 
@@ -374,11 +348,11 @@ The two ways in which a lessor can finance the purchase of the equipment are, fi
 
 In a leveraged lease transaction, it is necessary for a party to arrange for the equity and the debt portions of the funding involved. The same party can arrange both. The equity portion is typically provided by one or more institutional investors. The debt portion is arranged with a bank. Because leveraged lease transactions are for large-ticket items, the bank debt is typically arranged as a syndicated bank loan. For example, the financing of aircraft is normally accomplished through leveraged lease financing.
 
-# Insolvency Laws
+## Insolvency Laws
 
 Every country has its own insolvency laws or bankruptcy laws for dealing with corporations having financial difficulties paying off their creditors and the treatment of corporate creditors. We first review the general issues covered by the bankruptcy laws in all countries. However, we cannot provide a description of every country's insolvency laws. Because many countries base their bankruptcy procedures on the U.S. bankruptcy system, we will review this system.
 
-# Issues Covered by Insolvency Laws
+### Issues Covered by Insolvency Laws
 
 Insolvency or bankruptcy laws deal with the following issues:
 
@@ -394,7 +368,7 @@ There is a priority of payments to creditors. Most countries follow priority rul
 
 A common objective of the bankruptcy laws in most countries is the ability to allow the business entity to work out with creditors a financial plan to enable it to satisfy some creditor obligations and remain in business as a new business entity. This is referred to a reorganization of the business entity. Bankruptcy rules deal with how reorganization is to take place. Some holders of claims against the bankrupt business entity receive cash in exchange for their claims, others may receive new securities in the new business entity that results from the reorganization, and others may receive a combination of both cash and new securities in the resulting business entity. In contrast to a reorganization is the liquidation of a business entity. In a liquidation, all the assets of the bankrupt business entity will be distributed to the holders of claims, and no business entity will come into existence.
 
-The U.S. Bankruptcy System
+### The U.S. Bankruptcy System
 
 The law governing bankruptcy in the United States is the Bankruptcy Reform Act of 1978 and its amendments. This act sets forth the rules for a corporation to be either liquidated or reorganized. Another purpose of the bankruptcy act is to give a corporation time to decide whether to reorganize or liquidate, and then the necessary time to formulate a plan to accomplish either decision. The time is allowed because when a corporation files for bankruptcy, the act grants the corporation protection from creditors who seek to collect their claims. The petition for bankruptcy can be filed either by the company itself (i.e., a voluntary bankruptcy) or by its creditors (an involuntary bankruptcy). A company that files for protection under the bankruptcy act generally becomes a "debtor in possession" and continues to operate its business under the supervision of the court.
 
@@ -418,7 +392,7 @@ Consequently, although investors in the debt of a corporation may feel that they
 
 Fabozzi, Howe, Makabe, and Sudo examined the extent of violation of the absolute priority rule among three broad groups—secured creditors, unsecured creditors, and equity holders—and among various types of debt and equity securities.[22] They also provide evidence on which asset class bears the cost of violations of absolute priority, and an initial estimate of total distributed value relative to liquidation value. Their findings suggest that unsecured creditors bear a disproportionate cost of reorganization, senior unsecured creditors may bear a disproportionate cost relative to the junior unsecured creditors, and equity holders often benefit from violations of absolute priority.
 
-# Key Points
+## Key Points
 - Corporate debt obligations include commercial paper, bank loans, bonds, medium-term notes, asset-backed securities, and equipment leases.
 - Corporate debt obligations take priority over holders of a corporation's common stock in the case of bankruptcy.
 - Corporate bank loans, an alternative to the issuance of securities, are classified as investment-grade loans and leveraged bank loans.
@@ -461,7 +435,7 @@ Leasing is a form of bank borrowing that is basically a vehicle by which tax ben
 - In theory, creditors receive distributions based on the absolute priority rule to the extent that assets are available, meaning that senior creditors are paid in full before junior creditors are paid anything.
 - In practice, the absolute priority rule holds in the case of liquidations, but this rule is typically violated in a reorganization.
 
-# Questions
+## Questions
 
 1. a. Bank loans are classed into investment-grade and leveraged bank loans. Explain the difference between these two types of loans.
 b. Which of the two types of bank loans can be sold and traded in the secondary market?

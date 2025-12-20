@@ -1,24 +1,29 @@
 ---
-aliases:
+aliases: []
 tags:
+  - derivatives
+  - financial_instruments
+  - futures
+  - forwards
+  - options
+  - swaps
+  - hedging
 key_concepts:
-parent_directory:
+  - derivative_instruments
+  - risk_management
+  - forward_contracts
+  - options_pricing
+  - swaps
+parent_directory: "VI. Derivatives"
 cssclasses: academia
-title: YieldCurve.com
-linter-yaml-title-alias: YieldCurve.com
+title: "Understanding Derivatives in Financial Markets"
 ---
 
-# YieldCurve.com
-
-# Learning Curve
-
-# UNDERSTANDING DERIVATIVES
+# Understanding Derivatives
 
 Brian Eales
 
 London Metropolitan University
-
-# Understanding Derivatives
 
 Derivative instruments have been a feature of modern financial markets for several decades. They play a vital role in managing the risk of underlying securities such as bonds, equity, equity indexes, currency, short-term interest rate asset or liability positions. In the commodity markets they have, in general, been around for a great deal longer. In modern times the Chicago Board of Trade, for example, was set up in 1848 for the exchange trading of agricultural products such as wheat and corn. The Exchange put in place a mechanism that would play an important role in helping the agricultural community to plan for the future by enabling users of derivatives to lock-in the prices they will receive for their goods before they were even ready for harvesting. In 1865 the Chicago Board formally established its General Rules. This opened the floodgates for spot and forward trading of commodities – which ultimately would be delivered to an end user – and in 1870 the New York Cotton Exchange was established.
 
@@ -28,20 +33,18 @@ Just what are these derivatives, though, and what role or roles do they play? A 
 
 The major derivative instruments, which in some respects may be regarded as building blocks, can be categorised as follows:
 
-futures  
-forwards  
-
-- swaps, and  
-options
+- futures
+- forwards
+- swaps, and
+- options
 
 Each instrument has its own characteristics, which offer advantages in using them but bring with them disadvantages. The disadvantages may not always be apparent to the end user and these days it is crucial that end users are made aware of the risks associated with the derivative contracts they enter into and are made aware of the instrument's appropriateness for the purpose it is to perform.
 
 Why should market participants seek to use derivatives? There are several answers to this question: derivatives may be used to:
 
-speculate;  
-
-- hedge a portfolio of shares, bonds, foreign currency, etc.;  
- undertake arbitrage - i.e. benefit from mispricing;  
+- speculate;
+- hedge a portfolio of shares, bonds, foreign currency, etc.;
+- undertake arbitrage - i.e. benefit from mispricing;
 - engineer or structure desired positions.
 
 Each of these functions will be described in detail in later chapters.
@@ -53,7 +56,7 @@ Figure 1. Effects of diversification on portfolio risk
 
 From Figure 1 it can be seen that, up to a point, the inclusion of additional risky assets reduces the overall risk of the portfolio. However, beyond a certain point risk reduction hardly occurs but an identifiable risk still remains. This component of risk is known by several names: market risk, systematic risk and non-diversifiable risk, as indicated on the figure. It is the hedging of this form of risk to which some derivatives are directed.
 
-These days a great deal of effort is directed towards constructing portfolios that mimic the behaviour of a specially constructed index with minimum tracking error. Such portfolios are described as index-tracking portfolios and – in the case of zero-tracking error<sup>2</sup> – enjoy a portfolio beta of one (i.e.  $\beta p = 1$ ). They replicate market movements up and down exactly. Even if  $\beta p \neq 1$  but is very close derivatives on the appropriate index should be able to serve as very good hedge vehicles.
+These days a great deal of effort is directed towards constructing portfolios that mimic the behaviour of a specially constructed index with minimum tracking error. Such portfolios are described as index-tracking portfolios and – in the case of zero-tracking error<sup>2</sup> – enjoy a portfolio beta of one (i.e. $\beta_p = 1$). They replicate market movements up and down exactly. Even if $\beta_p \neq 1$ but is very close derivatives on the appropriate index should be able to serve as very good hedge vehicles.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/56b202ea2db03b5505bb1b0aae6bb50570f35c37a946c500bb4c322882fff1dc.jpg)  
 Figure 2. Long equity index position
@@ -89,51 +92,51 @@ The diagram below shows the rollover investment problem:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/c53cda7ef7ac1555995ab95062e0a99966112345ea27876fd670cc88d9f1f005.jpg)
 
-The question mark indicates that we do not know with certainty at what rate we will be able to reinvest when the first  $n_1$  days have elapsed. Given that the spot rates  $r_{01}$  and  $r_{02}$  are known, an implied forward rate  $\mathrm{r}_{12}$  can be calculated using equation (1.1).
+The question mark indicates that we do not know with certainty at what rate we will be able to reinvest when the first $n_1$ days have elapsed. Given that the spot rates $r_{01}$ and $r_{02}$ are known, an implied forward rate $\mathrm{r}_{12}$ can be calculated using equation (1.1).
 
 $$
-r _ {1 2} = \left[ \left(\frac {1 + r _ {o 2} \frac {\mathrm {n} _ {2} \text {d a y s}}{\text {D a y s i n y e a r}}}{1 + r _ {o 1} \frac {n _ {1} \text {d a y s}}{\text {D a y s i n y e a r}}}\right) - 1 \right] \left(\frac {\text {D a y s i n y e a r}}{n _ {2} - n _ {1}}\right) \tag {1.1}
+r_{12} = \left[ \left(\frac{1 + r_{o2} \frac{\mathrm{n}_2 \text{days}}{\text{Days in year}}}{1 + r_{o1} \frac{n_1 \text{days}}{\text{Days in year}}}\right) - 1 \right] \left(\frac{\text{Days in year}}{n_2 - n_1}\right) \tag{1.1}
 $$
 
 These implied rates play an important role in the valuation of plain vanilla as well as more complex swap structures.
 
 Generally, the pricing of a forward contract can be regarded as the interplay between two strategies. In the case of a forward interest rate derivative, a fair forward price could be obtained by using the strategies in Table 1.
 
-For there to be no profit accruing at some specified forward date to either of the counterparties, the two strategies should have equal values at the maturity of the contract. Thus when the contract is held for  $n_1 / 365$  days, the value of Strategy 1 at maturity will be:
+For there to be no profit accruing at some specified forward date to either of the counterparties, the two strategies should have equal values at the maturity of the contract. Thus when the contract is held for $n_1 / 365$ days, the value of Strategy 1 at maturity will be:
 
 $$
-S _ {t} - S _ {0} - S _ {0} (r - q) \left(n _ {1} / 3 6 5\right) \tag {1.2}
+S_t - S_0 - S_0 (r - q) \left(n_1 / 365\right) \tag{1.2}
 $$
 
 Where
 
-$S_{t}$  represents the value of  $\mathbf{S}_{\mathrm{o}}$  at maturity, T;
+$S_t$ represents the value of $\mathbf{S}_o$ at maturity, T;
 
-$r$  represents all the annualised costs of holding the assest(including the interest on the borrowed funds, storage, deterioration, insurance, etc);
+$r$ represents all the annualised costs of holding the asset (including the interest on the borrowed funds, storage, deterioration, insurance, etc);
 
-$q$  represents the annualised return on the asset.
+$q$ represents the annualised return on the asset.
 
-Note that both  $r$  and  $q$  are expressed as proportions.
+Note that both $r$ and $q$ are expressed as proportions.
 
 <table><tr><td>Strategy 1</td><td>Strategy 2</td></tr><tr><td>Borrow funds and buy one unit of the underlying security at price So.</td><td>Buy a forward contract at price F.</td></tr></table>
 
 The value of Strategy 2 at maturity will be the difference between the purchase price of the forward contract at initiation and the realised spot price at maturity as shown in equation (1.3):
 
 $$
-S _ {T} - F. \tag {1.3}
+S_T - F. \tag{1.3}
 $$
 
 Since there is to be no profit, equation (1.2) must be equal to equation (1.3) at maturity.
 
 $$
-S _ {T} - F = S _ {T} - S _ {O} - S _ {O} (r - q) \left(n _ {l} / 3 6 5\right)
+S_T - F = S_T - S_O - S_O (r - q) \left(n_l / 365\right)
 $$
 
 $$
-F = S _ {0} + S _ {0} (r - q) \left(n _ {1} / 3 6 5\right). \tag {1.4}
+F = S_0 + S_0 (r - q) \left(n_1 / 365\right). \tag{1.4}
 $$
 
-This same approach can be adopted for the pricing of a futures contract. Notice that if  $r > q$  then  $F$  today will be higher than today's spot or cash market quote, and if  $r < q$  the reverse is true. In either case this difference between the spot and forward, futures quote is called basis (sometimes raw basis). In the case of futures contracts the basis at some future point in time is, more often than not, unknown - when the contract is closed out before maturity, for example. This leads to the problem of basis risk mentioned earlier.
+This same approach can be adopted for the pricing of a futures contract. Notice that if $r > q$ then $F$ today will be higher than today's spot or cash market quote, and if $r < q$ the reverse is true. In either case this difference between the spot and forward, futures quote is called basis (sometimes raw basis). In the case of futures contracts the basis at some future point in time is, more often than not, unknown - when the contract is closed out before maturity, for example. This leads to the problem of basis risk mentioned earlier.
 
 # Options
 
@@ -177,18 +180,18 @@ Figure 9(b): Bond callable
 The profile of the callable bond presented in Figure 9(a) and 9(b) can be synthesised as follows. Buy a five-year bullet bond with the same coupon, maturity and credit rating as the callable bond. The profile of this instrument is depicted in Figure 1.10(a). The second step, carried out simultaneously, is to write a put option on a swap (a put swaption or receiver swaption) for the appropriate future period and strike price. If the put swaption is exercised then the writer of the option will pay fixed and receive floating. There are three scenarios that can be employed to analyse the outcome of the replication process:
 
 1. Interest rates rise and the bond is not called. Replication strategy: the bullet bond pays coupons until maturity, in the absence of default. The put swaption will expire worthless since the holder of the receiver swaption would be contracting to pay higher floating rates and this would be irrational.
-2. Interest rates remain unchanged at the point that the bond becomes callable and the bond is not called. Replication strategy: as in 1.  
+2. Interest rates remain unchanged at the point that the bond becomes callable and the bond is not called. Replication strategy: as in 1.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/30f3a370c193e393bfc3107ab0405149381e33ee0a8b9128dd012fb745a82208.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/30f3a370c193e393bfc3107ab0405149381e33ee0a8b9128dd012fb745a82208.jpg)
 Figure 10(a): Bullet bond
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/30a35843c66ea3230fa591aa2b7b516e2722b17012ea0b74180fd4c931580ec2.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/30a35843c66ea3230fa591aa2b7b516e2722b17012ea0b74180fd4c931580ec2.jpg)
 Figure 10(b): Swaption payout
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/99e828e5d1501fb88f098efc585962b6503c7031a9590bf704761961df0e5069.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/9fa9d42e-ea7b-4acd-95ee-7315392c7b19/99e828e5d1501fb88f098efc585962b6503c7031a9590bf704761961df0e5069.jpg)
 Figure 10(c): Synthetic
 
-4. Interest rates fall and the bond is called. Replication strategy: the bullet bond continues to pay coupons, but the put swaption is exercised. The holder of the receiver swaption pays low floating rates and receives the contracted strike rate. This is funded by the bullet bond's fixed coupon.
+3. Interest rates fall and the bond is called. Replication strategy: the bullet bond continues to pay coupons, but the put swaption is exercised. The holder of the receiver swaption pays low floating rates and receives the contracted strike rate. This is funded by the bullet bond's fixed coupon.
 
 A swap diagrammatic representation of this is shown in Figure 11. Finally there is the counterparty risk aspect. The risk is that the counterparty to a transaction will fail to meet its obligation to pay coupons when due, to pay the redemption value or will fail to honour both of these obligations. If the instrument in question is a bond, the only way to cover that risk is to sell the bond but, of course, if the market recognises the risk of default the bid price is likely to be low. To this end credit derivatives have been introduced, and, despite initial problems concerning definitions for legal purposes, have gained acceptance in financial markets.
 
@@ -201,5 +204,3 @@ Figure 12: Total return swap (TRS)
 There are several types of credit derivatives available. The most common are: credit default swaps and options, total return swaps, credit-linked notes, asset swaps and credit spread instruments. It is interesting to observe that a total return swap can also be used as a means of increasing an asset's liquidity. By way of example consider a financial institution with a loan portfolio that is regarded as being too large. For operational reasons, or pragmatic reasons, it is impossible to recall the loans and hence there is both credit and liquidity risk. In order to reduce the identified risks and increase liquidity the institution embarks on a total return swap for one of its large loans. The institution becomes the total return payer and receives a floating interest rate payment, LIBOR, say, in return.
 
 Figure 12 illustrates the structure of this transaction. The bank will receive interest payments from the reference loan along with any fees or costs associated with the running of the loan and will pass these on to the investor counterparty so long as they are positive. In any period, if the return on the loan becomes negative, that negative return must be paid by the investor to the bank. In addition the bank will receive LIBOR on a period-by-period basis. Thus by entering this transaction the bank has succeeded in reducing its exposure to counterparty risk and has improved its liquidity position.
-
-\*

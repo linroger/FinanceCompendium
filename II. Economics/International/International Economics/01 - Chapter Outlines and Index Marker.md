@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: PART 1 Introduction to International Trade
 linter-yaml-title-alias: PART 1 Introduction to International Trade
+primary_tags:
+- introduction international trade preface
+- trade equilibrium 51 application
+- trade resources heckscher
+- map foreign direct investment
+secondary_tags:
+- determining pattern international trade
+- trade global economy
+- 40 international trade equilibrium
+- world trade trade compared
+- trade technology ricardian model
+- industry trade gravity equation
+- example trade creation
+- trade equilibrium 306 tariff
+- comparative advantage
+tags_extracted: '2025-12-18T00:30:21.917072'
 ---
 
 # PART 1 Introduction to International Trade

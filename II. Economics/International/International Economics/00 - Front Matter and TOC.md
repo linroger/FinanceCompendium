@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: international economics
 linter-yaml-title-alias: international economics
+primary_tags:
+- trade specific factors model
+- international economics introduction
+secondary_tags:
+- economics introduction international trade
+- economy patterns international trade
+tags_extracted: '2025-12-18T00:30:16.991104'
 ---
 
 # international economics

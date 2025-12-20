@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Scope:** Manual formatting remediation for FinanceCompendium vault documents
-**Mandatory:** This is a HIGH-TOUCH, FULLY MANUAL task. NO SCRIPTS OR AUTOMATION PERMITTED.
+**Mandatory:** This is a HIGH-TOUCH, FULLY MANUAL task to read through and fix formatting issues in the markdown notes with targeted edits to the documents, not blanket scripts that make edits across documents without even viewing them first. . NO SCRIPTS OR AUTOMATION PERMITTED.
 
 ---
 
@@ -196,6 +196,10 @@ If the document has a TOC at the top with dotted leaders:
 - Delete the header and all content following it
 
 ---
+# d2 diagrams
+
+While reading through the document in chunks, proactively add d2 diagrams to help visualize complex concepts, phenomena, or to show cause effect relationships or to break down complex concepts into their constituent parts, or to create flowcharts, decision diagrams, or other diagrams that help visualize concepts. The reader has a strong preference for visual learning, and adding d2 diagrams to help visualize the notes will help the user get a more intuitive grasp of the complex topics being discussed. Make liberal use of d2 diagrams by adding them to the notes to help visualize the concepts in the notes. Wrap d2 diagrams in code blocks with the code language d2. A style reference for d2 diagrams is available at ‘/Users/rogerlin/Reserve/FinanceCompendium/styleguide/d2styleguide.md’ should you need it.
+—-
 
 ## 🏷️ Tag Generation Methodology
 

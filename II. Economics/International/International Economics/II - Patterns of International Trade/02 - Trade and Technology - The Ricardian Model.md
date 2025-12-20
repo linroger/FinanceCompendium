@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Trade and Technology: The Ricardian Model"
-linter-yaml-title-alias: "Trade and Technology: The Ricardian Model"
+title: 'Trade and Technology: The Ricardian Model'
+linter-yaml-title-alias: 'Trade and Technology: The Ricardian Model'
+primary_tags:
+- disadvantage goods represent foreign
+- cloth exported wine industry
+- comparative advantage producing wheat
+- advantage country produce labor
+- ricardian model trade
+secondary_tags:
+- export wine exchange cloth
+- england exported cloth exchange
+- differences countries focus ricardian
+- trade benefit country ricardo
+- cloth wine portugal marginal
+- foreign wheat cloth industries
+- cloth country require labour
+- time advantageous export wine
+- relative price wheat foreign
+- comparative advantage good lower
+- country comparative advantage wine
+- china comparative advantage apparel
+tags_extracted: '2025-12-18T00:31:57.561182'
 ---
 
 # Trade and Technology: The Ricardian Model

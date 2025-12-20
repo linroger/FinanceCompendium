@@ -1,26 +1,48 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 25 Global Short Term Funding and Investing Markets
+parent_directory: II. Economics/International/Foundations of Global Financial Markets
+primary_tags:
+- securitization used spv finance
+- market interbank funding market
+- cds dollar obligations
+- securitization issuing cp fund
+- funding collateral pool receivables
+- fdic raises cost funds
+secondary_tags:
+- bank using repo market
+- securities abss corporations use
+- purpose vehicle spv fund
+- lending market provided study
+- receivables issuing abcp spv
+- liabilities bank reserve requirements
+- issuance cd kept reserves
+- international banking cd yields
+- participants global financial market
+- collateral parties market doing
+- borrows lends locking spread
+- investing abcp rollover risk
+- market funds types mmfs
+- rates unsecured lending markets
+- termed sovereign risk premium
+- bank pays domestic cd
 cssclasses: academia
-title: "25"
-linter-yaml-title-alias: "25"
+tags_extracted: '2025-12-18T00:22:47.299139'
 ---
 
 # 25
 
 Global Short-Term Funding and Investing Markets
 
-# CONTENTS
 
-# Learning Objectives
+## CONTENTS
 
-# Interbank Funding Market
+## Learning Objectives
+
+## Interbank Funding Market
 
 Interbank Lending Rates Federal funds rate and central bank interest rates Unsecured interbank offered rate benchmarks Future of the interbank funding market
 
-# Repo Market
+## Repo Market
 
 Credit Risk
 
@@ -30,7 +52,7 @@ Determinants of the Repo Rate
 
 Negative repo rates
 
-# Commercial Paper Market
+## Commercial Paper Market
 
 Issuers in the CP Market
 
@@ -44,11 +66,11 @@ Yields on CP
 
 Non-U.S. CP Markets
 
-# Large-Denomination Negotiable Certificates of Deposit
+## Large-Denomination Negotiable Certificates of Deposit
 
 CD Issuers CD Yields
 
-# Banker's Acceptances
+## Banker's Acceptances
 
 Illustration of the Creation of a BA
 
@@ -58,15 +80,15 @@ Eligible BAs
 
 Credit Risk
 
-# Money Market Funds
+## Money Market Funds
 
 Types of MMFs
 
 SEC MMF Rules Adopted and Proposed as a Result of the Financial Crisis
 
-# Key Points
+## Key Points
 
-# Questions
+## Questions
 
 Appendix: Asset-Backed Commercial Paper
 
@@ -74,7 +96,7 @@ Risks Associated with Investing in ABCP
 
 This chapter is coauthored with Steven V. Mann.
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -106,7 +128,7 @@ In this chapter, we describe the various private money market instruments traded
 
 What is important in reviewing private money market instruments is not just the first role cited above—that is, the appeal of the various instruments from the perspective of an investor—but also the last two roles. As we have mentioned frequently in this book, liquidity is an important issue for financial and nonfinancial corporations. When we described in chapter 2 government bailouts during the recent financial crisis as well as historically, the problem encountered by the entity needing assistance was liquidity. Indeed, liquidity was the chief culprit in the financial crisis that began in 2007, which then caused a global recession in 2008–2009. Private money market instruments must be purchased by investors willing to accept the associated credit risk. Since the recent financial crisis, major shifts have occurred in the structure and regulation of the money market. These changes are highlighted in this chapter.
 
-# Interbank Funding Market
+## Interbank Funding Market
 
 Prior to the financial crisis that began with the subprime mortgage crisis in 2007, the most immediate liquidity source for banks was the interbank funding market (also referred to as the interbank lending market). As the name indicates, this is the market where banks lend funds to one another, although there is some participation in this market by nondepository institutions. Two types of lending take place between banks in this market: unsecured and secured lending. In the unsecured sector of the market, lending is done through the federal funds market. In the secured sector, lending is done through repurchase agreements that we describe later in this chapter; this sector is referred to as the repo market.
 
@@ -142,7 +164,7 @@ To calculating LIBOR, a panel of large banks estimates the interest rate at whic
 
 The Euro Overnight Index Average is the average overnight Euribor. It is compiled as an average of rates charged by 35 contributing banks on overnight unsecured loans denominated in euros. The contributing banks include EU banks and large international banks from non-EU countries that are part of the Eurozone.
 
-Understanding how the official LIBOR for each maturity and currency is calculated is important. Every panel bank reports to Thomson Reuters at 11 a.m. London time every working day the interest rate at which it would expect to be able to raise a substantial loan in the interbank money market at that time. Because not every panel bank borrows a substantial amount for each maturity (or any maturity, for that matter) every day, the calculation is not based on actual loan transactions. From the rates reported by the panel banks, Thomson Reuters eliminates the lowest and highest  $25\%$  and then averages the remaining reported rates to obtain the official LIBOR for a given maturity and currency.
+Understanding how the official LIBOR for each maturity and currency is calculated is important. Every panel bank reports to Thomson Reuters at 11 a.m. London time every working day the interest rate at which it would expect to be able to raise a substantial loan in the interbank money market at that time. Because not every panel bank borrows a substantial amount for each maturity (or any maturity, for that matter) every day, the calculation is not based on actual loan transactions. From the rates reported by the panel banks, Thomson Reuters eliminates the lowest and highest $25\%$ and then averages the remaining reported rates to obtain the official LIBOR for a given maturity and currency.
 
 LIBOR is a key interest rate, because it is used as a reference interest rate for an estimated 360 trillion of derivative contracts. Moreover, it is used to set rates on commercial business loans, consumer loans, and mortgage loans for residential and commercial property. Consequently, LIBOR is viewed as the most important benchmark interest rate in the global financial market. As such, its calculation is extremely important for all participants in the financial market.
 
@@ -160,7 +182,7 @@ Consequently, the economic and financial conditions resulted in an environment i
 
 Several studies have provided empirical support for the freezing of the interbank funding market globally. For example, Gary Gorton and Andrew Metrick found that in the repo market, bank policies that involved increasing the amount of collateral required effectively caused a run in the repo market, particularly for loans involving low-credit-quality assets.[9] A different conclusion about the survival of the interbank lending market is provided in a study by Gara Afonso, Anna Kovner, and Antoinette Schoar, who investigated the response of the fed funds market to the bankruptcy of Lehman Brothers.[10] They found that the average amount of borrowing was stable, even though the fed funds rate increased significantly and the terms of the lending agreements became more sensitive to the risk characteristics of the borrowing bank. They argue that the market did not freeze, but also that it did not expand to meet the increased demand by banks needing liquidity.
 
-# Repo Market
+## Repo Market
 
 A repurchase agreement (or simply repo) is the sale of a security with a commitment by the seller to buy the security back from the purchaser at a specified price at a designated future date. Basically, a repurchase agreement is a collateralized loan where the collateral is a security or a pool of assets. The collateral in a repo can be money market instruments, Treasury securities, federal agency securities, mortgage-backed securities, asset-backed securities, or a pool of loans. As noted in our discussion of the interbank funding market, repurchase agreements were used by banks to make loans to other banks.
 
@@ -174,9 +196,9 @@ The following formula is used to calculate the dollar interest on a repo transac
 
 Dollar interest = Dollar principal × Repo rate × Repo term/360.
 
-Notice that the interest is computed on a 360-day basis. In our example, at a repo rate of  $3.5\%$  and a repo term of one day (overnight), the dollar interest is  $\$ 972.22$ , derived as follows:
+Notice that the interest is computed on a 360-day basis. In our example, at a repo rate of $3.5\%$ and a repo term of one day (overnight), the dollar interest is $\$972.22$, derived as follows:
 
-Dollar interest = 10,000,000 \times 0.035 \times 1/360 = \972.22
+Dollar interest = 10,000,000 \times 0.035 \times 1/360 = \$972.22
 
 The advantage to the dealer of using the repo market for borrowing on a short-term basis is that the rate is less than the cost of bank financing. We explain why later in this section. From the customer's perspective, the repo market offers an attractive yield on a short-term secured transaction that is highly liquid.
 
@@ -202,11 +224,11 @@ Another method is for the borrower to deliver the collateral to the lender's cus
 
 With this understanding of repos, we can appreciate the run in the repo market that Gorton and Metrick report occurred in the interbank funding market during the 2008-2009 financial crisis. During the crisis, banks raised the amount of the haircut on repos, particularly when the collateral was illiquid, low-credit-quality assets, such as a pool of subprime mortgage loans. To see the impact of increasing the haircut, consider once again a dealer firm that borrows \$20 million using collateral with a market value of \$20.8 million and a margin of 4\%. The proceeds received by the borrower come to \$20 million. Suppose that at the end of the term, the lender wants a 10\% margin rather than 4\%. Then for collateral of \$20.8 million, the margin or haircut would be $18,909,091 ($20.8 million/1.10) instead of \$20 million. That is, \$1,090,909 less in proceeds will be received by the dealer firm from the repo agreement. Now suppose that the dealer firm in our illustration is a bank and is using the repo market to obtain funds. Hence, the bank will receive 1,090,909 less in proceeds as a result of a higher haircut, which, as argued by Gorton and Metrick, is effectively a run on the repo market.
 
-# Participants in the Market
+## Participants in the Market
 
 Because it is used by dealer firms (investment banking firms and money center banks acting as dealers) to finance positions and cover short positions, the repo market represents one of the largest sectors of the money market. Financial and nonfinancial firms participate in the market as both sellers and buyers of collateral, depending on the circumstances they face. Depository institutions (commercial banks and thrifts) are typically net sellers of collateral (i.e., net borrowers of funds); money market funds (MMFs), bank trust departments, municipalities, and corporations are typically net buyers of collateral (i.e., providers of funds).
 
-Even though banks and dealer firms use the repo market as the primary means for financing inventory and covering short positions, they also use the repo market to run a matched book by taking on repos and reverse repos with the same maturity. A dealer firm uses a matched book to capture the spread at which it enters into the repo and reverse repo agreements. For example, suppose that a dealer firm enters into a term repo of 10 days with an MMF and a reverse repo with a thrift for 10 days in which the collateral is identical. In this transaction, the dealer firm borrows funds from the MMF and lends money to the thrift. If the repo rate is  $3.5\%$  and the reverse repo rate is  $3.55\%$ , the dealer firm borrows at  $3.5\%$  and lends at  $3.55\%$ , locking in a spread of  $0.05\%$  (five basis points).
+Even though banks and dealer firms use the repo market as the primary means for financing inventory and covering short positions, they also use the repo market to run a matched book by taking on repos and reverse repos with the same maturity. A dealer firm uses a matched book to capture the spread at which it enters into the repo and reverse repo agreements. For example, suppose that a dealer firm enters into a term repo of 10 days with an MMF and a reverse repo with a thrift for 10 days in which the collateral is identical. In this transaction, the dealer firm borrows funds from the MMF and lends money to the thrift. If the repo rate is $3.5\%$ and the reverse repo rate is $3.55\%$, the dealer firm borrows at $3.5\%$ and lends at $3.55\%$, locking in a spread of $0.05\%$ (five basis points).
 
 Another participant is the repo broker. To understand the role of the repo broker, suppose a dealer firm shorts 50 million of a security. It then surveys its regular customers to determine whether it can borrow by means of a reverse repo the security it shorted. Suppose that it cannot find a customer willing to do a repo transaction (a repo from the customer's point of view, a reverse repo from the dealer's). At that point, the dealer firm uses the services of a repo broker.
 
@@ -214,7 +236,7 @@ The Federal Reserve is also involved in the repo market. The Fed influences shor
 
 Note the language used to describe the transactions of the Fed in the repo market. When the Fed lends funds based on collateral, we call it a "system" or "customer repo," not a "reverse repo." Borrowing funds using collateral is called a "matched sale," not a "repo." The jargon is confusing, which is why we used the terms "buying collateral" and "selling collateral" to describe what parties in the market are doing.
 
-# Determinants of the Repo Rate
+## Determinants of the Repo Rate
 
 Repo rates vary from transaction to transaction, depending on the following factors:
 
@@ -243,7 +265,7 @@ Repo interest -€953.16 = €9,803,9212.57 × (-0.0025) × 14/360.
 
 When repo rates are positive, there is an incentive for the dealer (i.e., the seller) to deliver collateral on the purchase date. A dealer failing to deliver the collateral will not receive the purchase price until the collateral is delivered. The dealer—regardless of whether the collateral is delivered—is obligated to pay the full amount of the repo interest to the customer (i.e., the buyer) on the repurchase date. Paying interest on cash not available for use provides a strong incentive to deliver the collateral. When repo rates are negative, the incentive to deliver the collateral on the purchase date is gone. In fact, negative repo rates reward failure of delivery, because the repurchase price is less than the purchase price.
 
-# Commercial Paper Market
+## Commercial Paper Market
 
 Commercial paper (CP) is a short-term unsecured promissory note issued in the open market that represents the obligation of the issuing corporation. The issuers of CP typically have a high credit rating. Both domestic and foreign corporations issue CP in the United States. CP issued by foreign entities is called a Yankee CP. MMFs purchase roughly one-third of all CP issued. Pension funds, state and local governments, and nonfinancial corporations seeking short-term investments purchase the balance. Little secondary trading of CP takes place. Typically, an investor in CP is an entity that plans to hold it until maturity, which is understandable, because an investor can purchase CP in a direct transaction with the issuer, who sells paper with the specific maturity that the investor desires.
 
@@ -259,7 +281,7 @@ Commercial paper ratings.
 
 <table><tr><td colspan="4">Commercial Rating Agency</td></tr><tr><td>Category</td><td>Fitch</td><td>Moody&#x27;s</td><td>Standard &amp; Poor&#x27;s</td></tr><tr><td>Superior</td><td>F1+ or F1</td><td>P1</td><td>A1+ or A1</td></tr><tr><td>Satisfactory</td><td>F2</td><td>P2</td><td>A2</td></tr><tr><td>Adequate</td><td>F3</td><td>P3</td><td>A3</td></tr><tr><td>Speculative</td><td>F4</td><td>NP</td><td>B or C</td></tr><tr><td>Defaulted</td><td>F5</td><td>NP</td><td>D</td></tr></table>
 
-# Issuers in the CP Market
+## Issuers in the CP Market
 
 The CP market is categorized by sector according to the type of issuer: financial corporations, nonfinancial corporations, and asset-backed commercial paper (ABCP). As shown in the following table, as of October 2017, in the United States there was U.S.  \$1,009.5 trillion of CP outstanding, according to the Federal Reserve. The breakdown between the various categories of commercial paper both domestic and foreign was (in billions of U.S. dollars):$ [13]
 
@@ -269,7 +291,7 @@ As we can see from the table above, financial entities are the dominant issuers 
 
 The appendix to this chapter describes the asset-backed commercial paper market.
 
-Although financial entities now dominate the issuance of CP, nonfinancial corporations dominated the CP market in the early years of its development. The major issuers were utility and transportation companies. By 1992, the financial sector dominated the market. At the beginning of the financial crisis, in mid-2007, the financial sector accounted for more than  $92\%$  of CP issuance.[14]
+Although financial entities now dominate the issuance of CP, nonfinancial corporations dominated the CP market in the early years of its development. The major issuers were utility and transportation companies. By 1992, the financial sector dominated the market. At the beginning of the financial crisis, in mid-2007, the financial sector accounted for more than $92\%$ of CP issuance.[14]
 
 Identifying the reasons for the shift in dominance from nonfinancial sector issuers to financial sector issuers has been the focus of several studies. One study found that the shift could be attributed to three factors.[15] The first factor was nonfinancial companies' aggressive pursuit of policies to reduce their holdings in inventory. As holdings declined, there was less need to obtain short-term borrowing (such as CP) to fund inventory positions. The second factor was an increased tendency of nonfinancial companies to take advantage of relatively low interest rates to issue long-term bonds. This corporate management financial strategy removed the uncertainty about the risk of having to refinance at future interest rates that might be higher. Finally, the credit quality of issuers decreased, and the tolerance of investors for credit risk also decreased.
 
@@ -281,11 +303,11 @@ CP is classified as either directly placed paper or dealer placed paper. Directl
 
 Dealer-placed CP requires the services of an agent to sell an issuer's paper. CP agents are large securities dealer firms and subsidiaries of bank holding companies. Typically, nonfinancial companies and smaller financial companies use this avenue for issuing CP, because the amount and frequency at which they need to borrow cannot justify maintaining a sales force. The agent distributes the paper on a best-efforts underwriting basis (for more on best-efforts underwriting, see chapter 9) by investment banking firms.
 
-# Tier 1 and Tier 2 Paper
+## Tier 1 and Tier 2 Paper
 
 A major investor in CP is MMFs, which we describe later. The SEC imposes restrictions on the investments made by these entities. Specifically, Rule 2a-7 of the Investment Company Act of 1940 limits the credit risk exposure of money market mutual funds by restricting their investments to "eligible" paper. Eligibility is defined in terms of the CP credit ratings shown in table 25.2. To be eligible paper, the issue must carry one of the two highest ratings (1 or 2) from at least two of the nationally recognized statistical rating organizations. Tier 1 paper is defined as eligible paper that is rated 1 by at least two of the rating organizations; Tier 2 paper security is defined as eligible paper that is not a Tier 1 security.
 
-MMFs may hold no more than  $5\%$  of their assets in the Tier 1 paper of any individual issuer and no more than  $1\%$  of their assets in the Tier 2 paper of any individual issuer. Furthermore, holdings of Tier 2 paper may not represent more than  $5\%$  of the fund's assets.
+MMFs may hold no more than $5\%$ of their assets in the Tier 1 paper of any individual issuer and no more than $1\%$ of their assets in the Tier 2 paper of any individual issuer. Furthermore, holdings of Tier 2 paper may not represent more than $5\%$ of the fund's assets.
 
 From its beginnings until 1970, the CP market grew continuously, with no real crisis. In June 1970, a major issuer of CP at the time, Penn Central Railroad, with 84 million outstanding, faced financial difficulties, which raised concerns in the CP market. Because of the importance of the CP market, the federal government provided assistance that permitted Penn Central to repay maturing CP. The plan failed, and one year, later Penn Central filed for bankruptcy.
 
@@ -293,11 +315,11 @@ Despite recessionary periods, the years that followed the Penn Central episode s
 
 Because of the importance of this market, federal programs were enacted by the U.S. Department of the Treasury and the Fed to address two potential problems caused by the failures in the CP market. The first problem was the concern that financial issuers of CP would not make timely payments to investors on their obligation at the maturity date and would thereby extend the maturity date. To deal with this concern, the Fed instituted several lending programs during the financial crisis, but the two principal ones dealing with the CP market were the Commercial Paper
 
-Funding Facility and the Asset-Backed Commercial Paper Money Market Fund Liquidity Facility, both created in September 2008. The programs involved the purchase by the Fed of CP, the first time in the Fed's history that it had been a purchaser of this type of asset. The Fed's participation, which began at the end of October 2008, stabilized the CP market. As a result of the Fed's participation, it became the largest single investor in CP by January 2009. The Fed held  $22\%$  of outstanding CP at that time, but it subsequently reduced its holdings to  $3.4\%$  by October 2009.[18]
+Funding Facility and the Asset-Backed Commercial Paper Money Market Fund Liquidity Facility, both created in September 2008. The programs involved the purchase by the Fed of CP, the first time in the Fed's history that it had been a purchaser of this type of asset. The Fed's participation, which began at the end of October 2008, stabilized the CP market. As a result of the Fed's participation, it became the largest single investor in CP by January 2009. The Fed held $22\%$ of outstanding CP at that time, but it subsequently reduced its holdings to $3.4\%$ by October 2009.[18]
 
 The second problem lay in the potential impact on the major holders of commercial MMFs. As explained later, these collective investment vehicles are designed to maintain a net asset value (NAV) of 1. The concern was that these funds would suspend redemption of shares as a consequence of problems with their CP holdings. When we discuss MMFs later in the chapter, we will describe what the federal government did to address the second concern.
 
-# Yields on CP
+## Yields on CP
 
 CP may be issued in either a discount form or an interest-bearing form. In a discount form, the investor buys the paper at less than face value and when it matures receives the face value. The difference between the face value and the purchase price is the interest. When the paper is issued in interest-bearing form, it is purchased from the issuer at face value and a specified interest rate. At maturity, the investor receives the face value plus the accrued interest based on the specified interest rate.
 
@@ -313,7 +335,7 @@ A CD may be nonnegotiable or negotiable. In the former case, the initial deposit
 
 Our focus here is on the large-denomination negotiable CDs, and we refer to them simply as "CDs." The largest group of investors in such CDs consists of MMFs.
 
-# CD Issuers
+## CD Issuers
 
 CDs can be classified into four categories, according to the issuing institution. First are CDs issued by domestic banks. Second are CDs denominated in U.S. dollars but issued outside the United States. These CDs are called Eurodollar CDs, or euro CDs. A third category of CD is the Yankee CD, a CD denominated in U.S. dollars and issued by a foreign bank with a branch in the United States. Finally, thrift CDs are issued by S&Ls and savings banks.
 
@@ -335,7 +357,7 @@ Euro CDs offer a higher yield than domestic CDs for three reasons. First, the Fe
 
 CD yields are higher than yields on Treasury securities of the same maturity. The spread is due mainly to the credit risk that a CD investor is exposed to and the fact that CDs offer less liquidity. The spread resulting from credit risk varies with both economic conditions and confidence in the banking system, increasing during a "flight to quality" (which means investors shift their funds in significant amounts to debt of high quality or little risk) or a crisis in the banking system.
 
-# Banker's Acceptances
+## Banker's Acceptances
 
 A banker's acceptance (BA) is a financial instrument created to facilitate commercial trade transactions. This financial instrument is referred to as a BA because the issuing bank accepts the ultimate responsibility to repay a loan to the holder of the financial instrument. The use of BAs to finance a commercial transaction is referred to as acceptance financing, and BAs are accordingly sometimes referred to as "acceptances."
 
@@ -363,11 +385,11 @@ At this point, the holder of this BA is the Berlin Bank. It has two choices. It 
 
 Now the holder of this BA is Hoboken Bank. It has two choices: retain the BA as an investment as part of its loan portfolio or sell it to an investor. Suppose that Hoboken Bank chooses the latter, and that High-Caliber Money Market Fund is seeking a high-quality investment with the same maturity as that of the BA. Hoboken Bank sells the BA to the MMF at the present value of  \$300,000. Rather than sell the instrument directly to an investor, Hoboken Bank could sell it to a dealer, who would then resell it to an investor, such as an MMF. In either case, at the maturity date, the MMF presents the BA to Hoboken Bank, receiving\$ 300,000, which the bank in turn recovers from Car Imports.
 
-# Accepting Banks
+## Accepting Banks
 
 Banks that create BAs are called accepting banks. Banker's acceptances can be distributed through a dealer market, which involves 15 to 20 large firms, most of which are headquartered in New York City. The larger regional banks maintain their own sales forces to sell the BAs they create but will use dealers to distribute those they cannot sell.
 
-# Eligible BAs
+## Eligible BAs
 
 The Board of Governors of the Federal Reserve classifies a BA as either an eligible or an ineligible BA. The classification is important. There are two types of eligible BAs. The first is an eligible BA that a bank uses as collateral for a loan at the Fed's discount window. Regulation A of the Fed sets forth the eligibility requirements. The second type of eligible BA is one that the Federal Open Market Committee is permitted to purchase. Regulation B sets forth the eligibility requirements.
 
@@ -377,11 +399,11 @@ Eligibility is also important because the Fed imposes a reserve requirement on f
 
 Although the Fed no longer purchases BAs as part of its open market operations, this has not always been the case. There is a history of the Fed's participation in the BA market dating back to the beginning of the creation of the Federal Reserve System in 1916 with the goal of developing this sector of the money market to compete with the banks in London. At that time, the Fed actively discounted BAs and purchased eligible BAs. In fact, during one period in U.S. history, the Fed's open market policy involved the purchase of only BAs.[21]
 
-# Credit Risk
+## Credit Risk
 
 Investing in BAs exposes the investor to the credit risk that neither the borrower nor the accepting bank will be able to pay the principal due at the maturity date. The market interest rates that BAs offer investors reflect this risk, because BAs have higher yields than risk-free Treasury bills. A yield may also include a premium for relative illiquidity. The yield on a BA has such a premium because its secondary market is far less developed than that of a Treasury bill. Hence, the spread between rates on BAs and rates on Treasury bills represents a combined reward to investors for bearing the higher risk and relative illiquidity of a BA. That spread is not constant over time. The change in the spread reveals shifting investor valuation of the risk and illiquidity differences between the assets.
 
-# Money Market Funds
+## Money Market Funds
 
 Now that we have described money market instruments, we conclude this chapter by discussing a major institutional investor that participates in the money market: MMFs. In chapter 32, we explain mutual funds (open-end funds), a type of registered investment vehicle and one type of collective investment vehicle. In the category of mutual funds is one type that invests only in financial instruments that have a maturity of one year or less. These mutual funds are called money market funds and are approaching 3 trillion under management.
 
@@ -389,7 +411,7 @@ Although we have mentioned the role of MMFs as investors many times throughout t
 
 MMFs are regulated by the SEC because of their crucial role in the financial system. For example, earlier we described SEC Rule 2a-7, which restricts the types of CP that can be purchased by MMFs. Because of the problems that occurred with MMFs in the 2008–2009 financial crisis, legislation has been adopted and other legislation proposed for regulating MMFs, as we discuss later in this section.
 
-# Types of MMFs
+## Types of MMFs
 
 MMFs are classified according to the types of money market instruments in which the fund manager may invest. The first classification is based on the tax treatment of the money market instruments that may be included in the portfolio. Taxable MMFs invest in the private money market instruments described earlier in this chapter, as well as in Treasury securities and federal agency securities. Tax-free MMFs invest in the money market instruments issued by state and local governments, which are described in chapter 32.
 
@@ -405,7 +427,7 @@ Because of the importance of the money market to the financial market and, in tu
 
 In 2008 one prime MMF, the Reserve Primary Fund, a  \$65 billion fund, became the second MMF to break the buck. The reason for this was the investment of this fund in CP by Lehman Brothers Holdings Inc. We recall here that reserve funds can invest in CP in addition to Treasury and federal agency financial instruments. Reserve Primary Fund, which had a\$ 785 million position in Lehman's CP when that firm failed on September 15, 2008, did not have sufficient assets to ensure that holders of their shares could redeem them at \$1 per share. The failure of Lehman Brothers resulted in a share price (NAV) of \$0.97, a loss of 3\%. As a result, there were massive redemptions, the equivalent to a run on a bank. To meet the demand for redemptions, the fund's portfolio manager liquidated investments in a money market that was already in a panic mode. The problem faced by the Reserve Primary Fund then spread to other MMFs, resulting in redemptions of about 310 billion from prime MMFs (primarily by institutional investors) during the week of Lehman Brothers' failure.[22]
 
-However, at least two studies have reported that many more MMFs were in danger of breaking the buck were it not for the support of the MMF's sponsors. In a 2012 Staff Report by the Federal Reserve Bank of New York, the authors of the report found that in September and October 2008, the losses for at least 29 MMFs were large enough to cause them to break the buck without the support of the sponsor of the MMF.[23] The average loss would have been  $2.2\%$ . They found that at least five MMFs experienced losses of  $3\%$  of assets. The Prime Reserve Fund, as noted above, lost  $3\%$ . A 2012 study by the Federal Reserve Bank of Boston that examined 341 prime MMFs from 2007 to 2011 found that at least 21 funds were spared breaking the buck because of sponsorship support.[24] Each of the 21 MMFs received support of about  $0.5\%$  of the fund's assets to maintain an NAV of 1.
+However, at least two studies have reported that many more MMFs were in danger of breaking the buck were it not for the support of the MMF's sponsors. In a 2012 Staff Report by the Federal Reserve Bank of New York, the authors of the report found that in September and October 2008, the losses for at least 29 MMFs were large enough to cause them to break the buck without the support of the sponsor of the MMF.[23] The average loss would have been $2.2\%$. They found that at least five MMFs experienced losses of $3\%$ of assets. The Prime Reserve Fund, as noted above, lost $3\%$. A 2012 study by the Federal Reserve Bank of Boston that examined 341 prime MMFs from 2007 to 2011 found that at least 21 funds were spared breaking the buck because of sponsorship support.[24] Each of the 21 MMFs received support of about $0.5\%$ of the fund's assets to maintain an NAV of 1.
 
 Because of the important role of MMFs as suppliers of capital to financial and nonfinancial corporations, the money market froze, and corporations that relied on the issuance of CP faced funding problems. The rippling impact of the failure of the Reserve Primary Fund on the MMF industry and the money market itself resulted in government intervention. The announcement of the U.S. Department of the Treasury of its Temporary Treasury Money Market Guarantee Program in September 19, 2008, which would temporarily provide a guarantee for all MMFs, halted the run on MMFs.
 
@@ -430,7 +452,7 @@ The PWG report identified several policy options for further reducing the risks 
 
 In July 2014, the SEC adopted its new MMF rules in an 869-page release. The two critical rules are (1) institutional prime and institutional tax-exempt MMFs are required to value their portfolio securities at market value and sell and redeem shares based on a floating NAV, and (2) government MMFs and retail MMFs are permitted to continue to seek to maintain a stable NAV at 1.
 
-# Key Points
+## Key Points
 - Money market instruments are debt obligations that at issuance have a maturity of one year or less.
 - The interbank funding market (interbank lending market) is the market where unsecured and secured loans are made between banks.
 - Unsecured lending in the interbank funding market is done in the federal funds market.
@@ -471,7 +493,7 @@ Generally, CP has a maturity of less than 90 days.
 - New rules adopted by the SEC to improve the safety of MMFs are based on whether the fund is an institutional prime, an institutional tax-exempt, a government, or a retail MMF.
 - Institutional prime and institutional tax-exempt MMFs must be valued at a floating-rate NAV. Government and retail MMFs are still required to maintain a constant NAV of 1.
 
-# Questions
+## Questions
 
 1. What is the interbank funding market?
 2. How does interbank funding by banks using the federal funds market differ from that in the repo market?
@@ -538,7 +560,7 @@ A key distinction between the traditional securitization as described in chapter
 
 Banks have been the major issuers of ABCP, maintaining ongoing ABCP programs. These are runs on the balance sheet of an entity established by the bank called an ABCP conduit, which is a thinly capitalized SPV. It is the conduit that continues to add more receivables and to fund their purchase by issuing ABCP. Although banks have been the major issuers of ABCP, nonbank entities have also issued CP. ABCP conduits have been classified as either single-seller ABCP conduits or multiple-seller ABCP conduits based on the number of originators that provided receivables to the pool.
 
-# Risks Associated with Investing in ABCP
+## Risks Associated with Investing in ABCP
 
 The rollover risk to the holder of an ABCP is the same as that for investors in CP issued by nonfinancial corporations and financial corporations: the inability to find investors who are willing to purchase newly issued ABCP when the current ABCP matures. And it is for the same reason that liquidity support is needed for ABCP, just as it is for CP issued by nonfinancial corporations and financial corporations. ABCP is classified according to the type of liquidity support and can be either fully supported or partly supported by the bank that sponsors the ABCP program.
 

@@ -1,3 +1,26 @@
+---
+primary_tags:
+- worldwide pattern macroeconomic activity
+- international reserve assets incurring
+- microeconomics macroeconomics concerned effective
+- discussion international economics unemployment
+- called official foreign exchange
+secondary_tags:
+- dollar assets considered international
+- banks hold foreign reserves
+- central banks official reserve
+- international economy world
+- growth determined like microeconomics
+- reasons individual countries fortunes
+- additional dollar reserves net
+- decisions individuals macroeconomics analyzes
+- implications official international reserve
+- japan international reserves rise
+- scarce resources microeconomics
+- factories idle macroeconomics studies
+tags_extracted: '2025-12-18T00:53:03.534147'
+---
+
 # NATIONAL INCOME ACCOUNTING AND THE BALANCE OF PAYMENTS
 
 Between 2014 and 2019, the world economy's total real product grew at an annual average rate of nearly 3.5 percent per year. Global growth was reasonably stable, fluctuating in a range between about 3.9 percent (in 2017) and 2.9 percent (in 2019). As the COVID-19 pandemic emerged in 2020, however, world economic growth suddenly turned sharply negative, with many economies shrinking by amounts unprecedented since the Great Depression of the 1930s. Unemployment rose sharply everywhere, including in the United States, but some countries (such as several in East Asia) suffered much less compared with others. Can economic analysis help us to understand the behavior of the global economy and the reasons why individual countries' fortunes often differ?

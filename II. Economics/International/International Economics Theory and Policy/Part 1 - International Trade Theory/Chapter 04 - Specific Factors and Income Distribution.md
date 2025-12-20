@@ -1,3 +1,31 @@
+---
+primary_tags:
+- effects international labor mobility
+- potential benefits trade model
+- factor production country labor
+- wage differences countries driven
+- trade affect income distribution
+- wage terms cloth rise
+secondary_tags:
+- specific factors income distribution
+- trade income distribution believe
+- ricardian model international trade
+- migration labor similar causes
+- relative income capitalists
+- sectors equalized international migration
+- affects factors labor capital
+- trade factor mobility
+- specific factors model assumes
+- international trade strong effects
+- sectors changes country labor
+- main reasons international trade
+- real wage foreign obstacles
+- incomes different factors
+- affects income distribution apparel
+- trade distributional effects trade
+tags_extracted: '2025-12-18T00:49:26.882706'
+---
+
 # SPECIFIC FACTORS AND INCOME DISTRIBUTION
 
 As we saw in Chapter 3, international trade can be mutually beneficial to the nations engaged in it. Yet throughout history, governments have protected sectors of the economy from import competition. Even before the recent spurt in protectionism under the Trump administration (see the box in this chapter for more details), the United States limited imports of apparel, textiles, sugar, ethanol, and dairy products, among many other commodities. During presidential reelection cycles, punitive tariffs are often imposed on import of goods produced in key political swing states.<sup>1</sup> If trade is such a good thing for the economy, why is there opposition to its effects? To understand the politics of trade, it is necessary to look at the effects of trade not just on a country as a whole but on the distribution of income within that country.

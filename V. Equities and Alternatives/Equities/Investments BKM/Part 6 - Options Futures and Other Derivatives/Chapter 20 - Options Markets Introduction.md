@@ -1,6 +1,37 @@
-# Options Markets: Introduction
+---
+title: Options Markets Introduction
+primary_tags:
+  - options markets
+  - derivative securities
+  - call options
+  - put options
+  - option strategies
+secondary_tags:
+  - option pricing
+  - option contracts
+  - option expiration
+  - option payoff
+  - option profit
+  - option strategies
+  - protective put
+  - covered call
+  - straddle
+  - spread
+  - collar
+  - put-call parity
+  - convertible bonds
+  - callable bonds
+  - warrants
+  - exotic options
+  - asian options
+  - barrier options
+  - lookback options
+  - currency-translated options
+  - digital options
+cssclasses: academia
+---
 
-# 20
+# Options Markets Introduction
 
 DERIVATIVE SECURITIES, OR more simply derivatives, play an important role in financial markets. These are securities whose payoffs are determined by, or “derive from,” the prices of other securities.
 
@@ -28,20 +59,20 @@ The purchase price of the option is called the premium. It represents the compen
 Sellers of call options, who are said to write calls, receive premium income now as payment against the possibility they will be required at some later date to deliver the asset in return for an exercise price less than its market value. If the option is left to expire worthless, the call writer's profit is the premium collected when the option was initially sold. But if the call is exercised, the profit is the premium income minus the difference between the value of the stock that must be delivered and the exercise price paid for those shares. If that difference is larger than the initial premium, the writer incurs a loss.
 
 
-Figure 20.1 is a small sample of listed stock option quotations for Microsoft on September 10, 2021. The most recent price for the company's stock is  \$295.71. The figure shows prices of options with exercise prices of$ 290, $300, and \$310 and with expiration dates in October and December. We can use the information in this figure to work out the gains or losses on various option positions as a function of the stock price on the expiration date.
+Figure 20.1 is a small sample of listed stock option quotations for Microsoft on September 10, 2021. The most recent price for the company's stock is \$295.71. The figure shows prices of options with exercise prices of \$290, \$300, and \$310 and with expiration dates in October and December. We can use the information in this figure to work out the gains or losses on various option positions as a function of the stock price on the expiration date.
 
 # Example 20.1 Profits and Losses on a Call Option
 
 Figure 20.1 shows that the October 1, 2021, expiration call on a share of Microsoft with an exercise price of  \$300 sells on September 10 for\$ 3.60. Until the expiration date, the call holder can exercise the option to buy shares of Microsoft for \$300. Because the stock price on September 10 is only  \$295.71, however, it clearly would not make sense at the moment to exercise the option to buy at\$ 300. Indeed, if Microsoft remains below  \$300 by the expiration date, the call will be left to expire worthless. However, if Microsoft sells above\$ 300 at expiration, the call holder will benefit by exercising. For example, if Microsoft sells for \$302 on October 1, the option holder will exercise the right to pay \$300 for a stock worth \$302. The value of each option on the expiration date would then be
 
 $$
-\text {V a l u e} = \text {S t o c k p r i c e - E x e r c i s e p r i c e} = \$ 3 0 2 - \$ 3 0 0 = \$ 2
+\text{Value} = \text{Stock price} - \text{Exercise price} = \$302 - \$300 = \$2
 $$
 
 Despite the  \$2 payoff at expiration, the call holder still realizes a loss of\$ 1.60 on the investment because the initial purchase price was 3.60:
 
 $$
-\text {P r o f i t} = \text {F i n a l v a l u e - O r i g i n a l i n v e s t m e n t} = \\ 2. 0 0 - \\ 3. 6 0 = - \\ 1. 6 0
+\text{Profit} = \text{Final value} - \text{Original investment} = \$2.00 - \$3.60 = -\$1.60
 $$
 
 Nevertheless, exercise of the call is optimal at expiration if the stock price exceeds the exercise price because the exercise proceeds will offset at least part of the purchase price. The call buyer will clear a profit if Microsoft is selling above 303.60 at the expiration date. At that stock price, the net proceeds from exercise will just cover the original cost of the call.
@@ -52,7 +83,7 @@ A put option gives its holder the right to sell an asset for a specified exercis
 
 Now consider the October 1, 2021, expiration put option on Microsoft with an exercise price of \$300, selling on September 10 for \$7.82. It entitles its owner to sell a share of Microsoft for \$300 at any time until October 1. If the put holder buys a share of Microsoft and immediately exercises the right to sell it at \$300, the exercise proceeds will be $300 - $295.71 = \$4.29. Obviously, an investor who pays \$7.82 for the put has no intention of exercising it immediately. If, on the other hand, Microsoft is selling for only 291 at expiration, the put will turn out to be a profitable investment. Its value at expiration will be
 
-Put value at expiration = Exercise price - Stock price =  $300 -$ 291 = \$9 and the investor's profit will be $9 - $7.82 = \$1.18. This is a holding period return of $1.18/$7.82 = .151, or 15.1\%—over only 22 days! Obviously, put sellers on October 1 (who are on the other side of the transaction) do not consider this outcome very likely.
+Put value at expiration = Exercise price - Stock price = \$300 - \$291 = \$9 and the investor's profit will be \$9 - \$7.82 = \$1.18. This is a holding period return of \$1.18/\$7.82 = 0.151, or 15.1\%—over only 22 days! Obviously, put sellers on October 1 (who are on the other side of the transaction) do not consider this outcome very likely.
 
 
 An option is said to be in the money when its exercise would produce a positive cash flow. Therefore, a call option is in the money when the asset price is greater than the exercise price, and a put option is in the money when the asset price is less than the exercise price. Conversely, a call is out of the money when the asset price is less than the exercise price; no one would exercise the right to pay the strike price for a stock when its market value is less than that amount. A put option is out of the money when the exercise price is less than the asset price. Options are at the money when the exercise price and asset price are equal.
@@ -88,7 +119,7 @@ An American option allows its holder to exercise the right to purchase (if a cal
 Because options convey the right to buy or sell shares at a stated price, stock splits would radically alter their value if the terms of the options contract were not adjusted to account for the split. For example, suppose AppX stock is currently selling at \$150. If the firm announces a 2-for-1 split, its share price will fall to about \$75. A call option with exercise price \$150 would be just about worthless, with virtually no possibility that the stock would sell at more than \$150 before the options expired.
 
 
-To account for a stock split, the exercise price is reduced by a multiple of the split, and the number of options held is increased by that factor. For example, each original call option with exercise price of  \$150 would be altered after a 2-for-1 split to two new options, with each new option carrying an exercise price of\$ 75. A similar adjustment is made for stock dividends of more than 10\%; the number of shares covered by each option is increased in proportion to the stock dividend, and the exercise price is reduced by that proportion.
+To account for a stock split, the exercise price is reduced by a multiple of the split, and the number of options held is increased by that factor. For example, each original call option with exercise price of \$150 would be altered after a 2-for-1 split to two new options, with each new option carrying an exercise price of \$75. A similar adjustment is made for stock dividends of more than 10\%; the number of shares covered by each option is increased in proportion to the stock dividend, and the exercise price is reduced by that proportion.
 
 In contrast to stock dividends, cash dividends do not affect the terms of an option contract. Because payment of a cash dividend reduces the selling price of the stock without inducing offsetting adjustments in the option contract, the value of the option is affected by dividend policy. Other things being equal, call option values are lower for high-dividend payout policies because such policies slow the rate of increase of stock prices; conversely, put values are higher for high-dividend payouts. (Of course, the option values do not necessarily rise or fall on the dividend payment or ex-dividend dates. Dividend payments are anticipated, so the effect of the payment already is built into the original option price.)
 
@@ -136,15 +167,15 @@ Interest Rate Options Options are traded on Treasury notes and bonds of various 
 Recall that a call option gives the right to purchase a security at the exercise price. Suppose you hold a call option on FinCorp stock with an exercise price of  \$100, and FinCorp is selling at\$ 110 on the option's expiration date. You can exercise your option to purchase the stock at \$100 and simultaneously sell the shares at the market price of \$110, clearing \$10 per share. Yet if the shares are selling below \$100, you can let the call expire, realizing no further gain or loss. The value of the call at expiration therefore equals
 
 $$
-\text {P a y o f t} = \left\{ \begin{array}{l l} S _ {T} - X & \text {i f} S _ {T} > X \\ 0 & \text {i f} S _ {T} \leq X \end{array} \right.
-$$ where  $S_{T}$  is the value of the stock at expiration and  $X$  is the exercise price. This formula emphasizes the option property because the payoff cannot be negative. The call is exercised only if  $S_{T}$  exceeds  $X$ . If  $S_{T}$  is less than  $X$ , the option expires with zero value. The loss to the option holder in this case equals the price originally paid to acquire the option. More generally, the profit to the option holder is the option payoff at expiration minus the original purchase price.
+\text{Payoff} = \left\{ \begin{array}{ll} S_T - X & \text{if } S_T > X \\ 0 & \text{if } S_T \leq X \end{array} \right.
+$$ where $S_T$ is the value of the stock at expiration and $X$ is the exercise price. This formula emphasizes the option property because the payoff cannot be negative. The call is exercised only if $S_T$ exceeds $X$. If $S_T$ is less than $X$, the option expires with zero value. The loss to the option holder in this case equals the price originally paid to acquire the option. More generally, the profit to the option holder is the option payoff at expiration minus the original purchase price.
 
 
-The value at expiration of the call with exercise price  $\$ 100$  is given by the schedule:
+The value at expiration of the call with exercise price $\$100$ is given by the schedule:
 
 <table><tr><td>Stock price</td><td>$90</td><td>$100</td><td>$110</td><td>$120</td><td>130</td></tr><tr><td>Option value</td><td>0</td><td>0</td><td>10</td><td>20</td><td>30</td></tr></table>
 
-For stock prices at or below  \$100, the option is worthless. Above\$ 100, the option is worth the excess of the stock price over \$100. The option's value increases by \$1 for each dollar increase in the stock price. This relationship is depicted in Figure 20.2.
+For stock prices at or below \$100, the option is worthless. Above \$100, the option is worth the excess of the stock price over \$100. The option's value increases by \$1 for each dollar increase in the stock price. This relationship is depicted in Figure 20.2.
 
 The solid line is the value of the call at expiration. The net profit equals the expiration value of the call less its initial price. Suppose the call cost  \$14. Then the profit to the call holder would be given by the dashed (bottom) line of Figure 20.2. At option expiration, if the stock price is less than or equal to\$ 100, the investor's loss is 14.
 

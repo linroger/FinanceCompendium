@@ -1,12 +1,21 @@
 ---
 aliases:
-  - Universal Basic Income Primer
-tags:
-key_concepts:
+- Universal Basic Income Primer
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
 title: Primer on Universal Basic Income
 linter-yaml-title-alias: Primer on Universal Basic Income
+primary_tags:
+- receipt life ubi isn
+- basic income ubi general
+secondary_tags:
+- universal basic income
+- unconditional cash transfers mean
+- ubi income earned
+- implement ubi united states
+tags_extracted: '2025-12-18T00:04:42.149670'
 ---
 
 # Primer on Universal Basic Income

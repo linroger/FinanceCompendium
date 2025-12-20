@@ -1,14 +1,22 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "Translating Between Probability and Sets"
-tags:
+title: Translating Between Probability and Sets
+tags: null
 aliases:
-  - Translating Between Probability and Sets
+- Translating Between Probability and Sets
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Translating Between Probability and Sets"
+linter-yaml-title-alias: Translating Between Probability and Sets
+primary_tags:
+- all possible outcomes
+- all cards
+secondary_tags:
+- some random experiment
+- actual outcome
+tags_extracted: '2025-12-18T17:58:52.835942'
+tags_method: max_quality_v1
 ---
 
 # Translating Between Probability and Sets Stat 110

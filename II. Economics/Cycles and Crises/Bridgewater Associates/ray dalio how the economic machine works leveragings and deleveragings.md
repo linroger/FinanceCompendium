@@ -1,13 +1,40 @@
 ---
 aliases:
-  - How the Economic Machine Works
-  - Leveragings and Deleveragings
-tags:
-key_concepts:
+- How the Economic Machine Works
+- Leveragings and Deleveragings
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: "Productivity and Structural Reform: Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed"
-linter-yaml-title-alias: "Productivity and Structural Reform: Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed"
+title: 'Productivity and Structural Reform: Why Countries Succeed & Fail, and What
+  Should Be Done So Failing Countries Succeed'
+linter-yaml-title-alias: 'Productivity and Structural Reform: Why Countries Succeed
+  & Fail, and What Should Be Done So Failing Countries Succeed'
+primary_tags:
+- countries economic health
+- understanding predicting growth countries
+- adjusting differences observed productivity
+- self reliance impact
+- particularly developed countries likely
+- countries income level innovation
+secondary_tags:
+- evidence believe self sufficiency
+- societies self sufficient high
+- effect income self sufficiency
+- self sufficiency varies country
+- success indicators countries productivity
+- country scored measure innovation
+- innovation commercialism near countries
+- growth equal general countries
+- country correlated subsequent economic
+- productivity structural reform
+- self sufficiency work ethic
+- measure innovation commercialism outputs
+- examined aggregate indicator correlated
+- developed world adjusted income
+- future growth culturecorrelation
+- prognosis country growth rates
+tags_extracted: '2025-12-18T00:12:41.377809'
 ---
 
 # Productivity and Structural Reform: Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed

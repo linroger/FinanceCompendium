@@ -1,12 +1,37 @@
 ---
 aliases:
-  - European Monetary System Union
-tags:
-key_concepts:
+- European Monetary System Union
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 16: European Monetary System Union"
-linter-yaml-title-alias: "Chapter 16: European Monetary System Union"
+title: 'Chapter 16: European Monetary System Union'
+linter-yaml-title-alias: 'Chapter 16: European Monetary System Union'
+primary_tags:
+- eurobond proposal particular
+- ecb uses intermediate monetary
+- european monetary ems commenced
+- countries exchange rate union
+- emu eurozone
+- raising powers repayment bonds
+secondary_tags:
+- chapter 16 european monetary
+- eurozone countries transition costs
+- european monetary union chapter
+- policies ecb target rate
+- creating single currency europe
+- external equilibrium eurozone
+- european monetary union talked
+- grexit apparent ecb policy
+- snake european monetary cooperation
+- deficits member state monetary
+- ecb governing
+- european debt
+- new european currency called
+- ecu single currency diverging
+- eu joined commencement emu
+- debt switch eurobonds discount
+tags_extracted: '2025-12-18T01:38:18.450482'
 ---
 
 # CHAPTER 16

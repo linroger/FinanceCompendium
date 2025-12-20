@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Table of Contents
 linter-yaml-title-alias: Table of Contents
+primary_tags:
+- currency debt crises
+- reflation period peru 1986
+- bubble period encouraged borrowing
+- financial crisis hungary suffered
+- economic conditions ecuador
+- peru experienced bubble driven
+- gdp ugly period
+secondary_tags:
+- debt crises ray dalio
+- debt crises deleveragings highlight
+- debt crisis argentina suffered
+- debt crisis typically involves
+- deleveraging debt gdp went
+- crises typically deflationary deleveraging
+- bubble pressures argentina dependence
+- attribution reflation period indonesia
+- gdp leaving argentina
+- united states experienced bubble
+- crisis peak debt
+- deleveraging debt gdp
+- currency weakness contributed high
+- economic conditions peru
+- nominal income rising ecuador
+- 1980s latin american debt
+- attribution reflation period ecuador
+- debt foreign currencies gdp
+- economic conditions indonesia
+tags_extracted: '2025-12-18T00:11:59.313109'
 ---
 
 DEBT

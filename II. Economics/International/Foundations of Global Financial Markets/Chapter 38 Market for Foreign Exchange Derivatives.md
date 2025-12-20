@@ -1,11 +1,27 @@
 ---
 aliases: Market for Foreign Exchange Derivatives
-tags:
-key_concepts:
-parent_directory: "[[Foundations of Global Financial Markets]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 38: Market for Foreign Exchange Derivatives"
+title: 'Chapter 38: Market for Foreign Exchange Derivatives'
 linter-yaml-title-alias: Market for Foreign Exchange Derivatives
+primary_tags:
+- explains spot exchange rate
+- fx market includes spot
+- futures contracts currency option
+- counterparty agreeing sell underlying
+secondary_tags:
+- market foreign exchange derivatives
+- exchanges fx forward market
+- objectives fx forward contracts
+- foreign exchange derivatives contents
+- pricing fx futures contracts
+- contracts fx swaps
+- fx risk topic covered
+- currency swap maturity
+- market facts fx markets
+tags_extracted: '2025-12-18T00:28:36.992602'
 ---
 
 # Market for Foreign Exchange Derivatives

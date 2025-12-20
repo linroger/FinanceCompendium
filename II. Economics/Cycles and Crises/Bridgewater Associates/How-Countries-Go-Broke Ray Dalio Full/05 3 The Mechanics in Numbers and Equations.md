@@ -1,11 +1,33 @@
 ---
 aliases:
-  - The Mechanics in Numbers and Equations
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Mechanics in Numbers and Equations
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "05 - Chapter 3: The Mechanics in Numbers and Equations"
+title: '05 - Chapter 3: The Mechanics in Numbers and Equations'
+primary_tags:
+- rate differences
+- (e.g., reserves
+- private debt problems
+- 053themechanicsinnumbersand_equations the mechanics
+- debt mechanics
+secondary_tags:
+- debt problem
+- high debt levels
+- lesser amounts
+- low savings
+- a) inflation rates
+- government burdens
+- ( additional inflation
+- debt revenue
+- debt level future payments
+- total amount
+- money supply
+- 3) revenue growth
+tags_extracted: '2025-12-18T18:02:27.022804'
+tags_method: max_quality_v1
 ---
 
 # 05_3_The_Mechanics_in_Numbers_and_Equations

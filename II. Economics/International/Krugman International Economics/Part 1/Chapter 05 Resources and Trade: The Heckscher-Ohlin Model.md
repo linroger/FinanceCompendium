@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Resources and Trade: The Heckscher-Ohlin Model
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Resources and Trade: The Heckscher-Ohlin Model
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 05: Resources and Trade: The Heckscher-Ohlin Model"
-linter-yaml-title-alias: "Chapter 05: Resources and Trade: The Heckscher-Ohlin Model"
+title: 'Chapter 05: Resources and Trade: The Heckscher-Ohlin Model'
+linter-yaml-title-alias: 'Chapter 05: Resources and Trade: The Heckscher-Ohlin Model'
+primary_tags:
+- evidence heckscher ohlin model
+- trade income inequality
+secondary_tags:
+- resources trade
+- international trade factor economies
+tags_extracted: '2025-12-18T01:46:47.987134'
 ---
 
 # 5 Resources and Trade: The Heckscher-Ohlin Model 113

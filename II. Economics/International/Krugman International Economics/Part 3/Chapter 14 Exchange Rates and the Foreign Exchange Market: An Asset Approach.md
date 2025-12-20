@@ -1,12 +1,20 @@
 ---
 aliases:
-  - Exchange Rates and the Foreign Exchange Market: An Asset Approach
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Exchange Rates and the Foreign Exchange Market: An Asset Approach
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 14: Exchange Rates and the Foreign Exchange Market: An Asset Approach"
-linter-yaml-title-alias: "Chapter 14: Exchange Rates and the Foreign Exchange Market: An Asset Approach"
+title: 'Chapter 14: Exchange Rates and the Foreign Exchange Market: An Asset Approach'
+linter-yaml-title-alias: 'Chapter 14: Exchange Rates and the Foreign Exchange Market:
+  An Asset Approach'
+primary_tags:
+- 382 exchange rates
+- expectations current exchange
+secondary_tags:
+- 14 exchange rates foreign
+- exchange market asset approach
+tags_extracted: '2025-12-18T01:47:02.451601'
 ---
 
 # 14 Exchange Rates and the Foreign Exchange Market: An Asset Approach 381

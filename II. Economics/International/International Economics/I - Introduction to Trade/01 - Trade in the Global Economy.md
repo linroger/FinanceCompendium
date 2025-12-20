@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Trade in the Global Economy
 linter-yaml-title-alias: Trade in the Global Economy
+primary_tags:
+- greenland expected benefit exporting
+- automobile industry china buying
+- arctic circle possible shrinkage
+- expertise did lenovo acquire
+- acquire management international expertise
+secondary_tags:
+- trade global economy
+- fdi china 2009 purchase
+- international expertise ibm
+- purchasing volvo ford chinese
+- reverse vertical fdi china
+- knowledge chinese firms actively
+- venture abroad acquiring assets
+- firms learn foreign
+- acquiring technical knowledge chinese
+- labor lenovo engaged fdi
+- fdi acquire inexpensive labor
+- worldwide trade question asked
+tags_extracted: '2025-12-18T00:31:35.051796'
 ---
 
 # Trade in the Global Economy

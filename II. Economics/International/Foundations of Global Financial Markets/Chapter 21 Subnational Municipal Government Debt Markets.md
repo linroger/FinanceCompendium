@@ -1,64 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 21 - Subnational Municipal Government Debt Markets
+tags: [municipal_bonds, subnational_debt, government_finance, infrastructure_finance, public_private_partnerships]
 cssclasses: academia
-title: "21"
-linter-yaml-title-alias: "21"
+key_concepts: ["Subnational government financing", "Municipal bond markets", "Infrastructure financing", "Public-private partnerships", "Credit risk assessment"]
 ---
 
-# 21
+# Chapter 21 - Subnational Municipal Government Debt Markets
 
-Subnational (Municipal) Government Debt Markets
+## Contents
 
-# CONTENTS
+- Learning Objectives
+- Central Government Control of Municipal Borrowing
+- Structure of a Municipal Credit Market
+- Bank Lending Model
+- Bond Issuance Model
+- Multilateral Financial Institution Arrangements
+- Infrastructure Financing via Project Finance and Public-Private Partnerships
+- Municipal Green Bond Issuance
+- U.S. Municipal Securities Market
+- Types and Features of Municipal Bonds
+  - Tax-backed debt
+  - Revenue bonds
+  - Hybrid and special bond structures
+- Municipal Notes
+- Default Risk
+- Factors considered by credit rating agencies when assigning ratings
+- Municipal bankruptcy
+- Secondary Market for Municipal Bonds
+- Yields on Tax-Exempt Municipal Bonds
+- Chinese Municipal Bond Market
+- Key Points
+- Questions
 
-Learning Objectives
-
-Central Government Control of Municipal Borrowing
-
-Structure of a Municipal Credit Market
-
-Bank Lending Model
-
-Bond Issuance Model
-
-Multilateral Financial Institution Arrangements
-
-Infrastructure Financing via Project Finance and Public-Private Partnerships
-
-Municipal Green Bond Issuance
-
-U.S. Municipal Securities Market
-
-Types and Features of Municipal Bonds
-
-Tax-backed debt
-
-Revenue bonds
-
-Hybrid and special bond structures
-
-Municipal Notes
-
-Default Risk
-
-Factors considered by credit rating agencies when assigning ratings
-
-Municipal bankruptcy
-
-Secondary Market for Municipal Bonds
-
-Yields on Tax-Exempt Municipal Bonds
-
-Chinese Municipal Bond Market
-
-Key Points
-
-Questions
-
-Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -78,7 +52,7 @@ After reading this chapter, you will understand:
 - the secondary market for municipal bonds; and
 - the actions taken by the People's Republic of China to create a sustainable municipal bond market.
 
-Subnational governments include states, regions, provinces, counties, and municipalities, as well as local utilities companies either owned or regulated by these entities. In the United States, the SEC has reported that there are about 44,000 state and local entities that issue securities. Dexia reports that the number of subnational governments in the European Union is 90,380, which included 89,149 municipalities, 981 entities referred to as "intermediary entities" (which includes departments and provinces), and 250 regions. For the 27 member countries in the European Union,  $80\%$  of the 89,149 municipalities are located in five countries: France (41\%), Germany (13\%), Spain (9\%), Italy (9\%), and Czech Republic (7\%).
+Subnational governments include states, regions, provinces, counties, and municipalities, as well as local utilities companies either owned or regulated by these entities. In the United States, the SEC has reported that there are about 44,000 state and local entities that issue securities. Dexia reports that the number of subnational governments in the European Union is 90,380, which included 89,149 municipalities, 981 entities referred to as "intermediary entities" (which includes departments and provinces), and 250 regions. For the 27 member countries in the European Union, $80\%$ of the 89,149 municipalities are located in five countries: France ($41\%$), Germany ($13\%$), Spain ($9\%$), Italy ($9\%$), and Czech Republic ($7\%$).
 
 Subnational governments need to obtain proceeds to fulfill their delegated responsibilities. They traditionally derive their revenue from one or more of the following sources: (1) tax revenue (income taxes, property taxes, and sales taxes); (2) share of revenue from the central government; (3) fees and charges on local services provided; (4) asset sales; (5) investment income; and (6) grants from nongovernmental organizations.
 
@@ -86,17 +60,17 @@ To obtain the necessary funding to operate a subnational government, the revenue
 
 In this chapter, we describe the issues concerning the development of subnational or municipal debt markets, including the two types of models for obtaining debt. These structures include the bank lending model and the bond issuance model. The first model mentioned has severe limitations, and therefore the major push in many countries is to develop the municipal bond market. Because the U.S. municipal bond market is an example of a well-developed bond issuance market, we describe this market in considerable detail in this chapter.
 
-# Central Government Control of Municipal Borrowing
+## Central Government Control of Municipal Borrowing
 
 A key issue that arises regarding the raising of funds in the financial markets by subnational governments is whether central governments should regulate subnational borrowing. The argument has been made that such regulation is unnecessary, because investors in financial markets will discipline subnational borrowing. Excessive borrowing as perceived by market participants would be discouraged as borrowing costs rise. Bank borrowing would become too expensive.
 
 This view, however, is based on assumptions that if not true would require central government control over subnational borrowers. The assumptions include (1) lenders have sufficient information about the subnationalals that they are providing funding for; (2) local governments respond in an appropriate manner to private market signals, thus avoiding being shut out of the credit market; and (3) lenders believe that there will be a central government bailout should the subnational default. Given that it is not likely that these assumptions will hold in real world markets, it is argued that the development of a credit market for subnationalals would benefit from some central government regulations and control.[2]
 
-# Structure of a Municipal Credit Market
+## Structure of a Municipal Credit Market
 
 Central governments have two models from which to develop their subnational debt markets. The first is via bank lending, and the second is the issuance of municipal bonds. Bank lending to subnationalals is the primary source for funding subnationalals today in Europe and Asia, but in North America, the primary source is municipal bonds. Of course, a hybrid of the two can be used.
 
-# Bank Lending Model
+## Bank Lending Model
 
 Some banks specialize in lending to subnationalals. The largest one is Credit Local de France, which is now part of the Dexia Group. These banks have offered loans for investment projects of from 15 to 30 years. Municipal banks seek to establish a permanent partnership with subnationalals. The typical services that they provide to supplement their lending include preparing and structuring budgets, planning and designing investment projects that a subnational is considering financing, managing the subnational's finances, and serving as an intermediary between the subnational and central government in matters related to tax-sharing arrangements and grant allocations.
 
@@ -104,7 +78,7 @@ Municipal banks often are granted certain advantages in performing their role of
 
 The environment has been changing for municipal banks due to financial sector deregulation. Legal monopolies are disappearing, forcing municipal banks to compete with other financial institutions to borrow funds. As a result of financial sector deregulation, municipal banks have lost access to below-market interest rates, again requiring that they complete with financial institutions (in particular, commercial banks). The type of relationship banking that existed when municipal banks dominated has disappeared, and subnationalals now must compete with corporate and consumer borrowers for available funding. Commercial banks traditionally have been less likely sources for funding long-term infrastructure projects. For this reason, central governments have fostered the development of a municipal bond market.
 
-# Bond Issuance Model
+## Bond Issuance Model
 
 Raising funds via the issuance of bonds is quite a different avenue for fund raising than is borrowing from municipal banks. Although investment bankers do seek to establish long-term relationships with a subnational, each time a subnational comes to market with a bond offering, competition among investment bankers dictates who would be the underwriter of that issue. This type of competition, particularly for subnationals who frequently come to market with a bond offering, is likely to result in a lower funding cost.
 
@@ -114,17 +88,17 @@ The development of the municipal bond market in any country requires the introdu
 
 The U.S. municipal bond market is the model that has proved to be highly successful in facilitating funding for states, counties, and townships. Later in this chapter, we focus on the U.S. municipal bond market, which is a highly successful municipal debt market.
 
-# Multilateral Financial Institution Arrangements
+## Multilateral Financial Institution Arrangements
 
 Multilateral financial institutions, which are also referred to as supranationals, include the International Monetary Fund, the World Bank Group, the European Bank for Reconstruction and Development, the European Investment Bank, the Asian Development Bank, and the Global
 
-Environmental Fund. It has been argued that the greatest need for infrastructure financing in developing markets is Asia because of its rate of urbanization. The Asian Development Bank estimated that  \$8 trillion worth of infrastructure projects would be needed in Asia simply to maintain the region's economic growth rates. Recognizing this growing need for infrastructure financing, in 2015 China led the creation of the Asian Infrastructure Investment Bank. This bank has 57 founding member countries that committed\$ 100 billion in capital to fund infrastructure projects in the region. China contributed 30 million. Japan has committed to inject a significant amount.
+Environmental Fund. It has been argued that the greatest need for infrastructure financing in developing markets is Asia because of its rate of urbanization. The Asian Development Bank estimated that \$8 trillion worth of infrastructure projects would be needed in Asia simply to maintain the region's economic growth rates. Recognizing this growing need for infrastructure financing, in 2015 China led the creation of the Asian Infrastructure Investment Bank. This bank has 57 founding member countries that committed \$100 billion in capital to fund infrastructure projects in the region. China contributed \$30 million. Japan has committed to inject a significant amount.
 
 The experience of multilateral institutions in fostering the development of a sustainable bond municipal debt market is sort of a puzzle. Take the case of Brazil, which has used loans from multilateral institutions for more than 30 years to develop a municipal debt market. Despite the many successes of this type of financing in terms of low rates of nonperforming municipal loans and investment projects that have been successful, market observers believe that Brazil "is as far away as ever from having a functioning local credit market."4 Brazil's subnationalals are not allowed to issue bonds, and because private banks view lending to subnationalals as too risky, they do not make intermediateand long-term loans. To obtain any other type of borrowing, central government approval is required on a case-by-case basis.
 
 To foster infrastructure financing in developing economies, multilateral institutions use public-private partnerships and project finance initiatives, which we discuss next.
 
-# Infrastructure Financing via Project Finance and Public-Private Partnerships
+## Infrastructure Financing via Project Finance and Public-Private Partnerships
 
 The substantial worldwide need for financing infrastructure projects and the constraints on the budgets of subnationalals has resulted in some countries turning to the private sector. This is done by either a public-private partnership or direct financing of projects (referred to as project finance initiatives). These alternative funding arrangements are attractive, because they typically do not appear as part of a subnational's budget. For this reason, they are referred to as "off-budget" mechanisms.
 
@@ -134,11 +108,11 @@ The key distinction between a PPP and a PFI is that a PPP describes the overarch
 
 Although there are many reasons for a subnational using PPP and PFI to finance infrastructure projects, one of the major ones is that these arrangements will lower interest cost compared with the same project financed through the public sector.
 
-The largest PPP in the United States is the 4 billion LaGuardia Airport Terminal B redevelopment project in New York. The partnership is between the LaGuardia Gateway Partners, and the subnational entity is the Port Authority of New York and New Jersey. The purpose of the PPP is to build a new state-of-the-art 1.3 million square foot LaGuardia Airport Central Terminal B and manage the terminal operations to better meet the needs of the 15 million passengers who use the terminal each year and the four airlines who use the terminal as their home (American Airlines, United, Southwest, and Air Canada). The LaGuardia Gateway Partners include
+The largest PPP in the United States is the \$4 billion LaGuardia Airport Terminal B redevelopment project in New York. The partnership is between the LaGuardia Gateway Partners, and the subnational entity is the Port Authority of New York and New Jersey. The purpose of the PPP is to build a new state-of-the-art 1.3 million square foot LaGuardia Airport Central Terminal B and manage the terminal operations to better meet the needs of the 15 million passengers who use the terminal each year and the four airlines who use the terminal as their home (American Airlines, United, Southwest, and Air Canada). The LaGuardia Gateway Partners include
 
 Vantage Airport Group, Skanska, Meridiam, and JLC Infrastructure, which are responsible for the development of the terminal and providing the equity investment. Vantage Airport Group is responsible for managing the terminal's operations.
 
-# Municipal Green Bond Issuance
+## Municipal Green Bond Issuance
 
 Green bonds are issued by supranationals, development banks, governments, and corporations. The largest issuers are the European Investment Bank, the International Bank for Reconstruction and Development, the African Development Bank, and the International Finance Corporation.
 
@@ -148,7 +122,7 @@ The bonds are issued in response to specific investor demand for a triple-A-rate
 
 Voluntary transparency and disclosure guidelines, referred to as the Green Bond Principles, have been formulated for the purpose of promoting the integrity and development of the green bond market.[11] The broad categories of potentially eligible green projects to which the bond proceeds can be applied, as suggested by the Green Bond Principles, include (but are not limited to) renewable energy, energy efficiency (including energy-efficient buildings), sustainable waste management, sustainable land use (including sustainable forestry and agriculture), biodiversity conservation, clean transportation, and clean water or drinking water. Green bonds are classified, mostly by intended use, into four types: green proceeds bonds, green revenue bonds, green project bonds, and green securitized bonds.[12]
 
-# U.S. Municipal Securities Market
+## U.S. Municipal Securities Market
 
 U.S. municipal securities are issued by state and local governments and by the entities that they establish. All states issue municipal securities. Local governments include cities and counties. Political subdivisions of municipalities that issue securities include school districts and special districts for fire prevention, water, sewer, and other purposes. Public agencies or instrumentalities include authorities and commissions.
 
@@ -160,7 +134,7 @@ Historically, investors in municipal securities have included retail investors, 
 
 Retail investors either directly or indirectly through their ownership of collective investment vehicles (i.e., mutual funds, closed-end funds, or exchange-traded funds) own  $75\%$  of the municipal securities outstanding. More recently, hedge funds, arbitrageurs, life insurance companies, and foreign banks have become important participants. These investors are not interested in the tax-exempt feature. Instead, their primary interest is in opportunities to benefit from leveraged strategies that seek to generate capital gains.
 
-# Types and Features of Municipal Bonds
+## Types and Features of Municipal Bonds
 
 The two basic types of municipal security structures are tax-backed debt and revenue bonds. Other securities share characteristics of tax-backed debt and revenue bonds.[14]
 
@@ -184,9 +158,9 @@ Insured bonds, in addition to being secured by the issuer's revenue, are also ba
 
 Because municipal bond insurance reduces credit risk for the investor, the marketability of certain municipal securities can be greatly expanded. Municipal securities that benefit most from the insurance would include lower-quality bonds; bonds issued by smaller governmental units not widely known in the financial community; bonds that have a sound, though complex and difficult-to-understand security structure; and bonds issued by infrequent local government borrowers who do not have a general market following among investors. Of course, a major factor for an issuer in obtaining bond insurance is that its creditworthiness without the insurance is substantially lower than what it would be with the insurance. That is, the interest cost savings are only of sufficient magnitude to offset the cost of the insurance premium when the underlying creditworthiness of the issuer is lower.
 
-Municipal bond insurance was first introduced in 1971 and until 2008 was a common form of credit enhancement. From 2000 to 2007, more than half of municipal securities issues were insured bonds or had some other form of credit enhancement. As a result of the financial crisis that began in 2007 that resulted in substantial payouts for insured mortgage-backed securities (not municipal securities), the issuance of insured bonds fell dramatically as the credit ratings of the monoline insurers were downgraded. For a monoline insurer to insure a municipal bond so that it receives the highest investment-grade rating, triple A (AAA by S&P and Fitch; Aaa by Moody's), the insurer must have a triple A rating. Because they were all downgraded to below triple A, insured municipal securities ceased. The Bond Buyer reports that in 2005,  $57\%$  municipal securities were insured, but in 2010 and 2011, that figure was only  $5.2\%$  and  $6.2\%$ , respectively.[15] In fact, for the years 2009, 2010, and 2011, only  $17\%$  of municipal securities had some form of private credit enhancement.[16] Although private credit enhancement has declined, public credit enhancement has increased.
+Municipal bond insurance was first introduced in 1971 and until 2008 was a common form of credit enhancement. From 2000 to 2007, more than half of municipal securities issues were insured bonds or had some other form of credit enhancement. As a result of the financial crisis that began in 2007 that resulted in substantial payouts for insured mortgage-backed securities (not municipal securities), the issuance of insured bonds fell dramatically as the credit ratings of the monoline insurers were downgraded. For a monoline insurer to insure a municipal bond so that it receives the highest investment-grade rating, triple A (AAA by S&P and Fitch; Aaa by Moody's), the insurer must have a triple A rating. Because they were all downgraded to below triple A, insured municipal securities ceased. The Bond Buyer reports that in 2005, $57\%$ municipal securities were insured, but in 2010 and 2011, that figure was only $5.2\%$ and $6.2\%$, respectively.[15] In fact, for the years 2009, 2010, and 2011, only $17\%$ of municipal securities had some form of private credit enhancement.[16] Although private credit enhancement has declined, public credit enhancement has increased.
 
-Although originally issued as either revenue or general obligation bonds, municipalities are sometimes prerefunded and are called prerefunded municipal securities. (They are also called refunded bonds.) A prerefunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. A portfolio of securities guaranteed by the U.S. government is placed in a trust. The portfolio is assembled so that the cash flows from the securities match the obligations that the issuer must pay. For example, suppose that a municipality has a  $5\%$ $\$ 100$  million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of  $\$ 2.5$  million every 6 months for the next 12 years and  $\$ 100$  million 12 years from now. If the issuer wants to prerefund this issue, it purchases a portfolio of U.S. government obligations with cash flows of  $\$ 2.5$  million every 6 months for the next 12 years and  $\$ 100$  million 12 years from now.
+Although originally issued as either revenue or general obligation bonds, municipalities are sometimes prerefunded and are called prerefunded municipal securities. (They are also called refunded bonds.) A prerefunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. A portfolio of securities guaranteed by the U.S. government is placed in a trust. The portfolio is assembled so that the cash flows from the securities match the obligations that the issuer must pay. For example, suppose that a municipality has a $5\%$ \$100 million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of \$2.5 million every 6 months for the next 12 years and \$100 million 12 years from now. If the issuer wants to prerefund this issue, it purchases a portfolio of U.S. government obligations with cash flows of \$2.5 million every 6 months for the next 12 years and \$100 million 12 years from now.
 
 Once this portfolio of securities whose cash flows match those of the municipality's obligation is in place, the prerefunded bonds are no longer secured as either general obligation or revenue bonds. The bonds are now supported by cash flows from the portfolio or securities held in an escrow fund. Such bonds, if escrowed with securities guaranteed by the U.S.
 
@@ -212,11 +186,16 @@ The commercial paper/VRDO hybrid is customized to meet the cash flow needs of an
 
 Investors in municipal securities are exposed to default risk—the risk that the issuer fails to meet its contractual obligations. Default rates are less than for corporate bonds of the same maturity and with the same initial credit rating. For example, a study by Moody's of default rates through 2012 found that the cumulative default rate after 10 years for municipal and corporate bonds was as follows:[17]
 
-<table><tr><td>Initial Rating</td><td>Municipal Securities (\%)</td><td>Corporate Bonds (\%)</td></tr><tr><td>AAA</td><td>0.00</td><td>0.50</td></tr><tr><td>AA</td><td>0.01</td><td>0.92</td></tr><tr><td>A</td><td>0.05</td><td>2.48</td></tr><tr><td>BBB</td><td>0.30</td><td>4.74</td></tr></table>
+| Initial Rating | Municipal Securities (%) | Corporate Bonds (%) |
+| :------------- | :----------------------- | :------------------ |
+| AAA            | 0.00                     | 0.50                |
+| AA             | 0.01                     | 0.92                |
+| A              | 0.05                     | 2.48                |
+| BBB            | 0.30                     | 4.74                |
 
-Moody's also looked at the default rate by the different sectors of the municipal market from 1970 to 2012. General obligations had lower default rates than did revenue bonds. The default rate was about  $7\%$ . The revenue bond that had the highest default rate was the housing sector with a default rate of  $40\%$ , followed by the hospital and health care sector with a  $30\%$  default rate.
+Moody's also looked at the default rate by the different sectors of the municipal market from 1970 to 2012. General obligations had lower default rates than did revenue bonds. The default rate was about $7\%$. The revenue bond that had the highest default rate was the housing sector with a default rate of $40\%$, followed by the hospital and health care sector with a $30\%$ default rate.
 
-As will be explained in chapter 26, default rates alone do not indicate a debt obligation's default risk. Moody's reported that for 1970-2012, the ultimate recovery for municipal securities averaged about  $62\%$ . In the case of senior unsecured corporate bonds (which provide a better comparison than all corporate bonds), the ultimate recovery rate was much lower ( $49\%$ ) for 1987-2012. The range of recovery rates for municipal securities was from  $2\%$  to  $100\%$ .
+As will be explained in chapter 26, default rates alone do not indicate a debt obligation's default risk. Moody's reported that for 1970-2012, the ultimate recovery for municipal securities averaged about $62\%$. In the case of senior unsecured corporate bonds (which provide a better comparison than all corporate bonds), the ultimate recovery rate was much lower ($49\%$) for 1987-2012. The range of recovery rates for municipal securities was from $2\%$ to $100\%$.
 
 Spiotto provides a history of municipal bond defaults as well as the causes and nature of defaults.[18] These include:
 
@@ -230,7 +209,7 @@ Spiotto provides a history of municipal bond defaults as well as the causes and 
 
 Bear in mind that a default does not mean a municipal bankruptcy, nor does a bankruptcy mean a default. That is, a municipality can default on an issue but the default may not result in a bankruptcy filing; a municipal bankruptcy filing may not result in a default of the municipality on its debt. In fact, historically, very few municipalities that have filed for bankruptcy have actually defaulted.
 
-Factors considered by credit rating agencies when assigning ratings Many institutional investors in the municipal bond market rely on their own in-house municipal credit analysts for determining the creditworthiness of a municipal issue; other investors rely on the CRAs. The assigned rating system is the same as that used for corporate bonds that we will discuss in chapter 26. The credit rating for the central government acts as a ceiling for the rating on the credit rating of its subnationalals. Although it is not unprecedented, it is rare to see a subnational with a higher rating than its sovereign.
+Many institutional investors in the municipal bond market rely on their own in-house municipal credit analysts for determining the creditworthiness of a municipal issue; other investors rely on the CRAs. The assigned rating system is the same as that used for corporate bonds that we will discuss in chapter 26. The credit rating for the central government acts as a ceiling for the rating on the credit rating of its subnationalals. Although it is not unprecedented, it is rare to see a subnational with a higher rating than its sovereign.
 
 To evaluate general obligation bonds, the CRAs assess information in four basic categories. The first category includes information on the issuer's debt structure and overall debt burden. The second category relates to the issuer's ability and political discipline to maintain sound budgetary policy. The focus of attention here usually is on the issuer's general operating funds and whether it has maintained balanced budgets over three to five years. The third category involves determining the specific local taxes and intergovernmental revenues available to the issuer, as well as obtaining historical information both on tax collection rates (which are important when looking at property tax levies) and the dependence of local budgets on specific revenue sources. The fourth and last category of information necessary for the credit analysis is an assessment of the issuer's overall socioeconomic environment. The determinants for this category include trends in local employment distribution and composition, population growth, real estate property valuation, and personal income, among other economic factors.
 
@@ -246,10 +225,10 @@ Because of the Tenth Amendment, a U.S. bankruptcy judge does not have the same p
 
 As of 2017, the four largest municipal Chapter 9 bankruptcies are:
 
-- City of Detroit, Michigan, filed in 2013 due to its inability to satisfy unfunded pension obligations: 18 billion.
-- Jefferson City, Alabama, filed in 2011 because of a failed investment strategy (bets on interest rate) leading to losses: 4 billion.
+- City of Detroit, Michigan, filed in 2013 due to its inability to satisfy unfunded pension obligations: \$18 billion.
+- Jefferson City, Alabama, filed in 2011 because of a failed investment strategy (bets on interest rate) leading to losses: \$4 billion.
 - Orange County, California, filed in 1994 due to losses of more than \$1 billion on leveraged investments in exotic mortgage-backed security products: \$2 billion.
-- Stockton, California, filed in 2012 due to difficulties satisfying pension obligations: 1 billion.
+- Stockton, California, filed in 2012 due to difficulties satisfying pension obligations: \$1 billion.
 
 # Secondary Market for Municipal Bonds
 
@@ -261,7 +240,7 @@ As noted earlier, more than  $75\%$  of the outstanding principal amount of muni
 
 Investors typically have limited access to pretrade information. Generally, municipal bond dealers do not make available firm bid and ask quotations available to the public. Pretrade information might be available to investors from alternative trading systems, such as electronic communication networks made available to municipal bond dealers. Trades are typically executed for customers on a principal basis (i.e., the municipal bond dealer buys and sells from its own inventory). For customer trades not executed in that way, the dealer will either search the OTC market to execute the trade or use an alternative trading system. In general, particularly for retail investors, the cost of transacting is higher than in other investment-grade bond markets due to the lack of market transparency.
 
-Roughly  $43\%$  of the trading in the municipal securities in 2012 and 2013 was executed through five bond dealers, according to data compiled by the MSRB.[23] Roughly two-thirds of all trades were executed by 20 bond dealers.
+Roughly $43\%$ of the trading in the municipal securities in 2012 and 2013 was executed through five bond dealers, according to data compiled by the MSRB.[23] Roughly two-thirds of all trades were executed by 20 bond dealers.
 
 The SEC study of the municipal securities market made several recommendations for improving the secondary market and providing greater investor protection. The two major areas where improvements have been suggested are ongoing disclosure and improving market structure.
 
@@ -279,7 +258,8 @@ The People's Republic of China is making a major push to create a sustainable mu
 
 Another important financing vehicle that has been used in China since the global financial crisis is the "local government-backed unit." These units are used to fund infrastructure projects. A local government-backed unit is a state-owned enterprise with a local government as the only shareholder. To create a unit, the local government transfers land, utilities, or infrastructure to the unit in exchange for equity ownership. Just like regular corporations, the local government-backed unit raises capital from bank loans or the sale of debt instruments. Local governments service the debt through the sale of land. They are not permitted to use tax revenue to fund the debt.[24]
 
-# Key Points
+## Key Points
+
 - Subnational governments include states, regions, provinces, counties, municipalities, as well as local utilities companies either owned or regulated by these entities.
 - To obtain the necessary funding to operate a subnational government, revenue sources of funding are combined with some debt arrangement (bank borrowing or the issuance of bonds).
 - A major issue faced by subnationalals in developing and developed countries is how to obtain debt funding for large-scale investments in infrastructure.
@@ -343,7 +323,7 @@ b. Give two reasons an issuing municipality would want to prerefund an outstandi
 
 What is a tax anticipation note?
 
-18. The four largest tobacco companies in the United States reached a settlement with 46 state attorney generals to pay a total of 206 billion over the following 25 years. States and municipalities, New York City being the first, sold bonds backed by the future payments of tobacco companies. What are these bonds called?
+18. The four largest tobacco companies in the United States reached a settlement with 46 state attorney generals to pay a total of \$206 billion over the following 25 years. States and municipalities, New York City being the first, sold bonds backed by the future payments of tobacco companies. What are these bonds called?
 19. Why are municipal bankruptcies (Chapter 9) rare?
 20. When describing the development of the Chinese municipal bond market, the following statement appeared on NBC:
 
@@ -378,6 +358,6 @@ Explain why these actions would be important in the development of China's munic
 25. Idaho State Treasurer's Office, Title 63, Revenue and Taxation, chapter 32, "Anticipation of Revenue by State." https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title63/T63CH32.pdf.
 26. Mia Tahara-Stubbs, "China's Muni Bond Market Set for Take Off," *CNBC online*, May 5, 2015. https://www.cnbc.com/2015/05/05/chinas-muni-bond-market-set-to-explode.html.
 
-# VI
+---
 
-CORPORATE FUNDING MARKETS
+**Note:** This chapter is part of the Corporate Funding Markets section.

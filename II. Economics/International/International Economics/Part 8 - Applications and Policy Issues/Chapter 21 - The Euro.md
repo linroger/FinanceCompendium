@@ -1,3 +1,31 @@
+---
+primary_tags:
+- european currency unit precursor
+- collective burden sharing eurozone
+- eurozone thought
+- financial bubbles countries
+- criteria joining monetary union
+- idea ecb bailouts politically
+secondary_tags:
+- inflation countries maastricht criteria
+- costs breaking eurozone bad
+- currency central parity
+- historical political logic euro
+- financial conflicts eurozone risk
+- erm defined currency central
+- inflation criticism convergence criteria
+- rules countries desire monetary
+- parities erm euro members
+- currency union policy
+- oca criteria eurozone selected
+- common currency fits political
+- fiscal rules monetary union
+- ec entered 1990s
+- eurozone people born different
+- transition took place euros
+tags_extracted: '2025-12-18T00:44:40.587724'
+---
+
 # The Euro
 
 There is no future for the people of Europe other than in union.

@@ -1,3 +1,26 @@
+---
+primary_tags:
+- growth asian economies
+- labor capital countries movement
+- real wage discuss productivity
+- productivity growth contradicts
+- 1980 boatloads refugees cuba
+secondary_tags:
+- rental indication productivity growth
+- capital showing theoretical results
+- growth capital accumulation
+- average growth real
+- singapore real wages
+- singapore zero productivity growth
+- capital flows conclusions cubans
+- labor migration described mariel
+- 1960s capital accumulation productivity
+- wage real rental zero
+- calculated real rental falls
+- calculating foreign income
+tags_extracted: '2025-12-18T00:38:10.117419'
+---
+
 # Movement of Labor and Capital Between Countries
 
 Amidst growing dissent, housing and job shortages as well as a plummeting economy, Cuban Premier Fidel Castro withdrew his guards from the Peruvian embassy in Havana on April 4, 1980. . . . Less than 48 hours after the guards were removed, throngs of Cubans crowded into the lushly landscaped gardens at the embassy, requesting asylum. . . . By mid-April, Carter issued a Presidential Memorandum allowing up to 3,500 refugees sanctuary in the U.S. . . . But the Carter Administration was taken by surprise when on April 21, refugees started arriving on Florida's shores—their numbers would eventually reach 125,000.

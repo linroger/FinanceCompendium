@@ -1,4 +1,12 @@
-# Credit Derivatives
+---
+title: Chapter 31 - Credit Derivatives
+tags: [credit_derivatives, credit_risk, default_swaps, total_return_swaps, credit_linked_notes, portfolio_management, fixed_income]
+parent_directory: Derivatives
+key_concepts: [credit risk, credit default swaps, credit derivatives, total return swaps, credit-linked notes]
+cssclasses: academia
+---
+
+# Chapter 31 - Credit Derivatives
 
 Moorad Choudhry*
 
@@ -16,22 +24,20 @@ In this chapter we provide a description of the main types of credit derivatives
 
 Credit derivatives allow investors to manage the credit risk exposure of their portfolios or asset holdings, essentially by providing insurance against a deterioration in credit quality of the borrowing entity. $^{1}$  If there is a technical default by the borrower $^{2}$  or an actual default on the loan itself and the bond is marked down in price, the losses suffered by the investor can be recouped in part or in full through the payout made by the credit derivative.
 
-
 Credit risk is the risk that a borrowing entity will default on a loan, either through inability to maintain the interest servicing or because of bankruptcy or insolvency leading to inability to repay the principal itself. When technical or actual default occurs, bondholders suffer a loss as the value of their asset declines, and the potential greatest loss is that of the entire asset.
 
 The extent of credit risk fluctuates as the fortunes of borrowers change in line with their own economic circumstances and the macroeconomic business cycle. The magnitude of risk is described by a firm's credit rating. Rating agencies undertake a formal analysis of the borrower, after which a rating is announced. The issues considered in the rating analysis include:
 
-■ the financial position of the firm itself, for example, its balance sheet position and anticipated cash flows and revenues;
-■ other firm-specific issues such as the quality of the management and succession planning;
-■ an assessment of the firm's ability to meet scheduled interest and principal payments, both in its domestic and foreign currencies; the outlook for the industry as a whole, and competition within it;
-■ general assessments for the domestic economy.
+- the financial position of the firm itself, for example, its balance sheet position and anticipated cash flows and revenues;
+- other firm-specific issues such as the quality of the management and succession planning;
+- an assessment of the firm's ability to meet scheduled interest and principal payments, both in its domestic and foreign currencies; the outlook for the industry as a whole, and competition within it;
+- general assessments for the domestic economy.
 
 Another measure of credit risk is the credit risk premium, which is the difference between yields on the same-currency government benchmark bonds and corporate bonds. This premium is the compensation required by investors for holding bonds that are not default-free. The credit premium required will fluctuate as individual firms and sectors are perceived to offer improved or worsening credit risk, and as the general health of the economy improves or worsens.
 
 # Credit Risk and Credit Derivatives
 
 Credit derivatives are financial contracts designed to reduce or eliminate credit risk exposure by providing insurance against losses suffered due to credit events. A payout under a credit derivative is triggered by a credit event. As banks define default in different ways, the terms under which a credit derivative is executed usually include a specification of what constitutes a credit event.
-
 
 The principle behind credit derivatives is straightforward. Investors desire exposure to nondefault-free debt because of the higher returns that this offers. However such exposure brings with it concomitant credit risk. This can be managed with credit derivatives. At the same time, the exposure itself can be taken on synthetically if, for instance, there are compelling reasons why a cash market position cannot be established. The flexibility of credit derivatives provides users with a number of advantages and as they are over-the-counter (OTC) products, they can be designed to meet specific user requirements.
 
@@ -65,15 +71,16 @@ The occurrence of a specified credit event will trigger payment of the default p
 
 The following may be specified as credit events in the legal documentation between counterparties:
 
-■ downgrade in S&P and/or Moody's credit rating below a specified minimum level;
-■ financial or debt restructuring, for example occasioned under administration or as required under U.S. bankruptcy protection;
-■ bankruptcy or insolvency of the reference asset obligor;
-■ default on payment obligations, such as bond coupon and continued nonpayment after a specified time period.
-■ technical default, for example the nonpayment of interest or coupon when it falls due; a change in credit spread payable by the obligor above a specified maximum level.
+- downgrade in S&P and/or Moody's credit rating below a specified minimum level;
+- financial or debt restructuring, for example occasioned under administration or as required under U.S. bankruptcy protection;
+- bankruptcy or insolvency of the reference asset obligor;
+- default on payment obligations, such as bond coupon and continued nonpayment after a specified time period;
+- technical default, for example the nonpayment of interest or coupon when it falls due; a change in credit spread payable by the obligor above a specified maximum level.
 
 The 1999 ISDA credit default swap documentation specifies bankruptcy, failure to pay, obligation default, debt moratorium, and restructuring to be credit events. Note that it does not specify a rating downgrade to be a credit event.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/53d467105c6e726cc4bc9deccd047caae4977456e6e713e63494144b17574a1b.jpg)
+![EXHIBIT 31.1 Credit Default Swap](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/53d467105c6e726cc4bc9deccd047caae4977456e6e713e63494144b17574a1b.jpg)
+
 EXHIBIT 31.1 Credit Default Swap
 
 # CREDIT DERIVATIVE INSTRUMENTS
@@ -85,7 +92,6 @@ We now review some of the more common credit derivative instruments.
 The most common credit derivative is the credit default swap, credit swap, or default swap. This is a bilateral contract in which a periodic fixed fee or a one-off premium is paid to a protection seller, in return for which the seller will make a payment on the occurrence of a specified credit event. The fee is usually quoted as a basis point multiplier of the nominal value. The swap can refer to a single asset, known as the reference asset or underlying asset, or a basket of assets. The default payment can be paid in whatever way suits the protection buyer or both counterparties. For example it may be linked to the change in price of the reference asset or another specified asset, it may be fixed at a predetermined recovery rate, or it may be in the form of actual delivery of the reference asset at a specified price. The basic structure is illustrated at Exhibit 31.1.
 
 The credit default swap enables one party to transfer its credit exposure to another party. Banks may use default swaps to trade sovereign and corporate credit spreads without trading the actual assets themselves; for example someone who has gone long a default swap (the protection buyer) will gain if the reference asset obligor suffers a rating downgrade or defaults, and can sell the default swap at a profit if he can find a buyer counterparty. This is because the cost of protection on the reference asset will have increased as a result of the credit event. The original buyer of the default swap need never have owned a bond issued by the reference asset obligor.
-
 
 The maturity of the credit swap does not have to match the maturity of the reference asset and in most cases does not. On default the swap is terminated and default payment by the protection seller or guarantor is calculated and handed over. The guarantor may have the asset delivered to him and pay the nominal value, or may cash settle the swap contract.
 
@@ -99,16 +105,15 @@ Reference credit: XYZ plc 5-year bond
 
 Credit event: The business day following occurrence of specified credit event
 
-Default payment: Nominal value of bond  $\times$  [100 - price of bond after credit event]
+Default payment: Nominal value of bond $\times$ [100 - price of bond after credit event]
 
-Swap premium:  $3.35\%$
+Swap premium: $3.35\%$
 
-Assume that midway into the life of the swap there is a technical default on the XYZ plc 5-year bond, such that its price now stands at  \$28. Under the terms of the swap the protection buyer delivers the bond to the seller, who pays out\$ 7.2 million to the buyer.
+Assume that midway into the life of the swap there is a technical default on the XYZ plc 5-year bond, such that its price now stands at $28. Under the terms of the swap the protection buyer delivers the bond to the seller, who pays out $7.2 million to the buyer.
 
 # Credit Options
 
 Credit options are also bilateral OTC financial contracts. A credit option is a contract designed to meet specific hedging or speculative requirements of an entity, which may purchase or sell the option to meet its objectives. A credit call option gives the buyer the right without the obligation to purchase the underlying credit-sensitive asset, or a credit spread, at a specified price and specified time (or period of time). A credit put option gives the buyer the right without the obligation to sell the underlying credit-sensitive asset or credit spread. By purchasing credit options banks and other institutions can take a view on credit spread movements for the cost of the option premium only, without recourse to actual loans issued by an obligor. The writer of credit options seeks to earn premium income.
-
 
 Credit option terms are similar to those used for conventional equity options. A call option written on a stock grants the purchaser the right but not the obligation to purchase a specified amount of the stock at a set price and time. A credit option can be used by bond investors to hedge against a decline in the price of specified bonds, in the event of a credit event such as a ratings downgrade. The investor would purchase an option whose payoff profile is a function of the credit quality of the bond, so that a loss on the bond position is offset by the payout from the option.
 
@@ -120,8 +125,7 @@ Exotic credit options are options that have one or more of their parameters chan
 
 Credit-linked notes exist in a number of forms, but all of them contain a link between the return they pay and the credit-related performance of the underlying reference asset. A standard credit-linked note is a security, usually issued by an investment-graded entity, that has an interest payment and fixed maturity structure similar to a vanilla bond. The performance of the note however, including the maturity value, is linked to the performance of specified underlying assets as well as that of the issuing entity. The notes are often used by borrowers to hedge against credit risk, and by investors to enhance the yield received on their holdings. Essentially credit-linked notes are hybrid instruments that combine a credit derivative with a vanilla bond. The credit-linked note pays regular coupons, however the credit derivative element is usually set to allow the issuer to decrease the principal amount if a credit event occurs.
 
-
-For example consider an issuer of credit cards that wants to fund its (credit card) loan portfolio via an issue of debt. In order to reduce the credit risk of the loans, it issues a 2-year credit-linked note. The principal amount of the bond is  $100\%$  as usual, and it pays a coupon of  $7.50\%$ , which is 200 basis points above the 2-year benchmark yield. If, however, the incidence of bad debt amongst credit card holders exceeds  $10\%$  then the terms state that note holders will only receive back £85 per £100 nominal. The credit card issuer has in effect purchased a credit option that lowers its liability in the event that it suffers from a specified credit event, which in this case is an above-expected incidence of bad debts. The credit card bank has issued the credit-linked note to reduce its credit exposure, in the form of this particular type of credit insurance. If the incidence of bad debts is low, the note is redeemed at par. However if there is a high incidence of such debt, the bank will only have to repay a part of its loan liability.
+For example consider an issuer of credit cards that wants to fund its (credit card) loan portfolio via an issue of debt. In order to reduce the credit risk of the loans, it issues a 2-year credit-linked note. The principal amount of the bond is $100\%$ as usual, and it pays a coupon of $7.50\%$, which is 200 basis points above the 2-year benchmark yield. If, however, the incidence of bad debt amongst credit card holders exceeds $10\%$ then the terms state that note holders will only receive back £85 per £100 nominal. The credit card issuer has in effect purchased a credit option that lowers its liability in the event that it suffers from a specified credit event, which in this case is an above-expected incidence of bad debts. The credit card bank has issued the credit-linked note to reduce its credit exposure, in the form of this particular type of credit insurance. If the incidence of bad debts is low, the note is redeemed at par. However if there is a high incidence of such debt, the bank will only have to repay a part of its loan liability.
 
 Investors may wish to purchase the credit-linked note because the coupon paid on it will be above what the credit card bank would pay on a vanilla bond it issued, and higher than other comparable investments in the market. In addition, such notes are usually priced below par on issue. Assuming the notes are eventually redeemed at par, investors will also have realized a substantial capital gain.[7]
 
@@ -129,33 +133,33 @@ Investors may wish to purchase the credit-linked note because the coupon paid on
 
 A total return swap (TRS), sometimes known as a total rate of return swap or TR swap, is an agreement between two parties to exchange the total return from a financial asset between them. This is designed to transfer the credit risk from one party to the other. It is one of the principal instruments used by banks and other financial instruments to manage their credit risk exposure, and as such, is a credit derivative. One definition of a TRS states that a TRS is a swap agreement in which the total return of a bank loan or credit-sensitive security is exchanged for some other cash flow, usually tied to LIBOR or some other loan or credit-sensitive security.[8]
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/5805a19b1e851c087a36a904468e977833d601794616ff14fae51821c8db35bb.jpg)
+![EXHIBIT 31.2 Total Return Swap](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/5805a19b1e851c087a36a904468e977833d601794616ff14fae51821c8db35bb.jpg)
+
 EXHIBIT 31.2 Total Return Swap
 
 In some versions of a TRS the underlying reference asset is actually sold to the counterparty, with a corresponding swap transaction agreed alongside; in other versions there is no physical change of ownership of the underlying asset. The TRS trade itself can be to any maturity term, that is, it need not match the maturity of the underlying security. In a TRS the total return from the underlying asset is paid over to the counterparty in return for a fixed or floating cash flow. This makes it slightly different to other credit derivatives, as the payments between counterparties to a TRS are connected to changes in the market value of the underlying asset, as well as changes resulting from the occurrence of a credit event.
 
 Exhibit 31.2 illustrates a generic TR swap. The two counterparties are labelled as banks, but the party termed "Bank A" can be any financial institution, including cash-rich fixed income portfolio managers such as insurance companies and hedge funds. In Exhibit 31.2 Bank A has contracted to pay the "total return" on a specified reference asset, while simultaneously receiving a LIBOR-based return from Bank B. The reference or underlying asset can be a bank loan such as a corporate loan or a sovereign or corporate bond. The total return payments from Bank A include the interest payments on the underlying loan as well as any appreciation in the market value of the asset. Bank B will pay the LIBOR-based return; it will also pay any difference if there is a depreciation in the price of the asset. The economic effect is as if Bank B owned the underlying asset, and as such, TR swaps are synthetic loans or securities. A significant feature is that Bank A will usually hold the underlying asset on its balance sheet, so that if this asset was originally on Bank B's balance sheet, this is a means by which the latter can have the asset removed from its balance sheet for the term of the TR swap. If we assume Bank A has access to LIBOR funding, it will receive a spread on this from Bank B. Under the terms of the swap, Bank B will pay the difference between the initial market value and any depreciation, so it is sometimes termed the "guarantor" while Bank A is the "beneficiary."
 
-
 The total return on the underlying asset is made up of the interest payments and any change in the market value if there is capital appreciation. The value of an appreciation may be cash settled, or alternatively there may be physical delivery of the reference asset on maturity of the swap, in return for a payment of the initial asset value by the total return "receiver." The maturity of the TR swap need not be identical to that of the reference asset, and in fact it is rare for it to be so.
 
 The swap element of the trade will usually pay on a quarterly or semiannual basis, with the underlying asset being revalued or marked-to-market on the refixing dates. The asset price is obtained from an independent third-party source such as Bloomberg or Reuters, or as the average of a range of market quotes. If the obligor of the reference asset defaults, the swap may be terminated immediately, with a net present value payment changing hands according to what this value is, or it may be continued with each party making appreciation or depreciation payments as appropriate. This second option is only available if there is a market for the asset, which is unlikely in the case of a bank loan. If the swap is terminated, each counterparty will be liable to the other for accrued interest plus any appreciation or depreciation of the asset. Commonly under the terms of the trade, the guarantor bank has the option to purchase the underlying asset from the beneficiary bank, and then deal directly with the loan defaulter.
 
-There are a number of reasons why portfolio managers may wish to enter into TR swap arrangements. One of these is to reduce or remove credit risk. Using TR swaps as a credit derivative instrument, a party can remove exposure to an asset without having to sell it. In a vanilla TR swap, the total return payer retains the rights to the reference asset, although in some cases servicing and voting rights may be transferred. The total return receiver gains an exposure to the reference asset without having to pay out the cash proceeds that would be required to purchase it. As the maturity of the swap rarely matches that of the asset, the swap receiver may gain from the positive funding or carry that derives from being able to roll over short-term funding of a longer-term asset.[10] The total return payer on the other hand benefits from protection against market and credit risk for a specified period of time, without having to liquidate the asset itself. On maturity of the swap the total return payer may reinvest the asset if it continues to own it, or it may sell the asset in the open market. Thus the instrument may be considered to be a synthetic repo. $^{11}$  A TR swap agreement entered into as a credit derivative is a means by which banks can take on unfunded off-balance sheet credit exposure. Higher-rated banks that have access to LIBID funding can benefit by funding on-balance sheet assets that are credit protected through a credit derivative such as a TR swap, assuming the net spread of asset income over credit protection premium is positive.
-
+There are a number of reasons why portfolio managers may wish to enter into TR swap arrangements. One of these is to reduce or remove credit risk. Using TR swaps as a credit derivative instrument, a party can remove exposure to an asset without having to sell it. In a vanilla TR swap, the total return payer retains the rights to the reference asset, although in some cases servicing and voting rights may be transferred. The total return receiver gains an exposure to the reference asset without having to pay out the cash proceeds that would be required to purchase it. As the maturity of the swap rarely matches that of the asset, the swap receiver may gain from the positive funding or carry that derives from being able to roll over short-term funding of a longer-term asset.[10] The total return payer on the other hand benefits from protection against market and credit risk for a specified period of time, without having to liquidate the asset itself. On maturity...
 
 A TR swap conducted as a synthetic repo is usually undertaken to effect the temporary removal of assets from the balance sheet. This may be desired for a number of reasons, for example if the institution is due to be analyzed by credit rating agencies or if the annual external audit is due shortly. Another reason a bank may wish to temporarily remove lower credit-quality assets from its balance sheet is if it is in danger of breaching capital limits in between the quarterly return periods. In this case, as the return period approaches, lower quality assets may be removed from the balance sheet by means of a TR swap, which is set to mature after the return period has passed.
 
 Banks have employed a number of methods to price credit derivatives and TR swaps. Space does not permit an in-depth discussion of the different pricing techniques here. Essentially the pricing of credit derivatives is linked to that of other instruments; however the main difference between credit derivatives and other off-balance sheet products such as equity, currency, or bond derivatives is that the latter can be priced and hedged with reference to the underlying asset, which can be problematic when applied to credit derivatives. Credit products pricing uses statistical data on likelihood of default, probability of payout, level of risk tolerance, and a pricing model. With a TR swap the basic concept is that one party "funds" an underlying asset and transfers the total return of the asset to another party, in return for a (usually) floating return that is a spread over LIBOR. This spread is a function of: the credit rating of the swap counterparty;
 
 the amount and value of the reference asset; the credit quality of the reference asset;
+
 the funding costs of the beneficiary bank; any required profit margin;
 
 the capital charge associated with the TR swap.
 
 The TR swap counterparties must consider a number of risk factors associated with the transaction, which include: the probability that the TR beneficiary may default while the reference asset has declined in value, and
 
-■ the reference asset obligor defaults, followed by default of the TR swap receiver before payment of the depreciation has been made to the payer or "provider".
+- the reference asset obligor defaults, followed by default of the TR swap receiver before payment of the depreciation has been made to the payer or "provider".
 
 The first risk measure is a function of the probability of default by the TR swap receiver and the market volatility of the reference asset, while the second risk is related to the joint probability of default of both factors as well as the recovery probability of the asset.
 
@@ -167,7 +171,8 @@ Credit derivatives have allowed market participants to separate and disaggregate
 
 Asset managers can derive premium income by trading credit exposures in the form of derivatives issued with synthetic structured notes. The multitranching aspect of structured products enables specific credit exposures (credit spreads and outright default), and their expectations to be sold to meet specific areas of demand. By using structured notes such as credit-linked notes tied to the assets in the reference pool of the portfolio manager, the trading of credit exposures is crystallized as added yield on the asset manager's fixed income portfolio. In this way the portfolio manager has enabled other market participants to gain an exposure to the credit risk of a pool of assets but not to any other aspects of the portfolio, and without the need to hold the assets themselves.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/c69b16c9e41194bd6f058567f8b370b271dcf5d0dd505e8fd90c99eee67c5ca9.jpg)
+![EXHIBIT 31.3 Reducing Credit Exposure](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/c69b16c9e41194bd6f058567f8b370b271dcf5d0dd505e8fd90c99eee67c5ca9.jpg)
+
 EXHIBIT 31.3 Reducing Credit Exposure
 
 # Reducing Credit Exposure
@@ -190,7 +195,6 @@ Another possibility is synthetic exposure to foreign currency and money markets.
 
 Credit derivatives can be used to trade credit spreads. Assume that an investor has negative views on a certain emerging market government bond credit spread relative to U.K. gilts. The simplest way to reflect this view would be to go long a credit default swap on the sovereign, paying X basis points. Assuming that the investor's view is correct and the sovereign bonds decrease in price as their credit spread widens, the premium payable on the credit swap will increase. The investor's swap can then be sold into the market at this higher premium.
 
-
 # Application of Total Return Swaps
 
 Total return swaps are widely used by a range of different market participants including bank and repo market makers. We summarize some applications by portfolio managers in this section.
@@ -199,13 +203,14 @@ Total return swaps are widely used by a range of different market participants i
 
 A capital structure arbitrage describes an arrangement whereby investors exploit mispricing between the yields received on two different loans by the same issuer. Assume that the reference entity has both a commercial bank loan and a subordinated bond issue outstanding, but that the former pays LIBOR plus 330 basis points while the latter pays LIBOR plus 230 basis points. An investor enters into a total return swap in which it effectively is purchasing the bank loan and selling short the bond. The nominal amounts will be at a ratio, for argument's sake let us say 2:1, as the bonds will be more price-sensitive to changes in credit status than the loans.
 
-The trade is illustrated in Exhibit 31.4. The investor receives the "total return" on the bank loan, while simultaneously paying the return on the bond in addition to LIBOR plus 30 basis points, which is the price of the TR swap. The swap generates a net spread of 175 basis points, given by  $[(100\mathrm{bps}\times \frac{1}{2}) + 250\mathrm{bps}\times \frac{1}{2})]$ .
+The trade is illustrated in Exhibit 31.4. The investor receives the "total return" on the bank loan, while simultaneously paying the return on the bond in addition to LIBOR plus 30 basis points, which is the price of the TR swap. The swap generates a net spread of 175 basis points, given by $[(100\mathrm{bps}\times \frac{1}{2}) + 250\mathrm{bps}\times \frac{1}{2}]$.
 
 # Synthetic Repo
 
 A portfolio manager believes that a particular bond that it does not hold is about to decline in price. To reflect this view the portfolio manager may do one of the following.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/80d4b256889067cfe154318df0c45534bfe0364e59e3400cdfcf758212f3b3b7.jpg)
+![EXHIBIT 31.4 Total Return Swap in Capital Structure Arbitrage](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/80d4b256889067cfe154318df0c45534bfe0364e59e3400cdfcf758212f3b3b7.jpg)
+
 EXHIBIT 31.4 Total Return Swap in Capital Structure Arbitrage
 
 Sell the Bond in the Market and Cover the Resulting Short Position in Repo The cash flow out is the coupon on the bond, with capital gain if the bond falls in price. Assume that the repo rate is floating, say LIBOR plus a spread. The manager must be aware of the funding costs of the trade, so that unless the bond can be covered in repo at general collateral rates,[14] the funding will be at a loss. The yield on the bond must also be lower than the LIBOR plus spread received in the repo.
@@ -230,7 +235,7 @@ The bank debt of Conseco, a corporate entity, was restructured in August 2000. T
 
 # Risks of Synthetic Positions and Cash Positions Compared
 
-Consider two investors in XYZ, one of whom owns bonds issued by XYZ while the other holds a credit-linked note (CLN) referenced to XYZ. Following a deterioration in its debt situation, XYZ violates a number of covenants on its bank loans, but its bonds are unaffected. XYZ's bank accelerates the bank loan, but the bonds continue to trade at 85 cents on the dollar, coupons are paid, and the bond is redeemed in full at maturity. However the default swap underlying the CLN cites "obligation acceleration" (of either bond or loan) as a credit event, so the holder of the CLN receives  $85\%$  of par in cash settlement and the CLN is terminated. However the cash investor receives all the coupons and the par value of the bonds on maturity.
+Consider two investors in XYZ, one of whom owns bonds issued by XYZ while the other holds a credit-linked note (CLN) referenced to XYZ. Following a deterioration in its debt situation, XYZ violates a number of covenants on its bank loans, but its bonds are unaffected. XYZ's bank accelerates the bank loan, but the bonds continue to trade at 85 cents on the dollar, coupons are paid, and the bond is redeemed in full at maturity. However the default swap underlying the CLN cites "obligation acceleration" (of either bond or loan) as a credit event, so the holder of the CLN receives $85\%$ of par in cash settlement and the CLN is terminated. However the cash investor receives all the coupons and the par value of the bonds on maturity.
 
 These two examples illustrate how, as credit default swaps are defined to pay out in the event of a very broad range of definitions of a "credit event," portfolio managers may suffer losses as a result of occurrences that are not captured by one or more of the ratings agencies' rating of the reference asset. This results in a potentially greater risk for the portfolio manager compared to his position were he to actually hold the underlying reference asset. Essentially, therefore, it is important for the range of definitions of a "credit event" to be fully understood by counterparties, so that holders of default swaps are not taking on greater risk than is intended.
 
@@ -272,7 +277,6 @@ CTAs may invest in both exchange-traded futures contracts and forward contracts.
 
 Organized futures trading began in the United States in the 1800s with the founding of the Chicago Board of Trade (CBOT) in 1848. It was founded by 82 grain merchants and the first exchange floor was above a flour store. Originally, it was a cash market where grain traders came to buy and sell supplies of flour, timothy seed, and hay.
 
-
 In 1851, the earliest futures contract in the United States was recorded for the forward delivery of 3,000 bushels of corn, and two years later, the CBOT established the first standard futures contract in corn. Since then, the heart and soul of the CBOT has been its futures contracts on agricultural crops grown primarily in the midwestern states: corn, wheat, and soybeans. Therefore, commodity futures exchanges were founded initially by grain producers and buyers to hedge the price risk associated with the harvest and sale of crops.
 
 Other futures exchanges were established for similar reasons. The Chicago Mercantile Exchange (CME), for example, lists futures contracts on livestock. Chicago was once famous for its stockyards where cattle and hogs were herded to the market. Ranchers and buyers came to the CME to hedge the price risk associated with the purchase and sale of cattle and hogs.
@@ -287,16 +291,15 @@ As the wealth of America grew, a new type of futures contract has gained importa
 
 The creation of a futures contract that was designed to hedge financial risk as opposed to commodity price risk opened up a whole new avenue of asset management for traders, analysts, and portfolio managers. Now, it is more likely that a financial investor will flock to the futures exchanges to hedge her investment portfolio than a grain purchaser will trade to hedge commodity price risk. Since 1975, more and more financial futures contracts have been listed on the futures exchanges. For instance, in 1997 stock index futures and options on the Dow Jones 30 Industrial Companies were first listed on the CBOT. The S&P 500 stock index futures and options (first listed in 1983) are the most heavily traded contracts on the CME. Additionally, currency futures were introduced on the CME in the 1970s (originally listed as part of the International Monetary Market).
 
-With the advent of financial futures contracts more and more managed futures trading strategies were born. However, the history of managed futures products goes back more than 50 years.
+With the advent of financial futures contracts more and more managed futures trading strategies were born. However, the history of manag...
 
 The first public futures fund began trading in 1948 and was active until the 1960s. This fund was established before financial futures contracts were invented, and consequently, traded primarily in agricultural commodity futures contracts. The success of this fund spawned other managed futures vehicles, and a new industry was born.
 
-The managed futures industry has grown from just  \$1 billion under management in 1985 to\$ 35 billion of funds invested in managed futures products in 2000. The stock market's return to more rational pricing in 2000 helped fuel increased interest in managed futures products. Still, managed futures products are a fraction of the estimated size of the hedge fund marketplace of $400 to $500 billion. Yet, issues of capacity are virtually nonexistent in the managed futures industry compared to the hedge fund marketplace where the best hedge funds are closed to new investors.
+The managed futures industry has grown from just  $1 billion under management in 1985 to$ 35 billion of funds invested in managed futures products in 2000. The stock market's return to more rational pricing in 2000 helped fuel increased interest in managed futures products. Still, managed futures products are a fraction of the estimated size of the hedge fund marketplace of $400 to $500 billion. Yet, issues of capacity are virtually nonexistent in the managed futures industry compared to the hedge fund marketplace where the best hedge funds are closed to new investors.
 
 Similar to hedge funds, CTAs and CPOs charge both management fees and performance fees. The standard "1 and 20" (1\% management fee and 20\% incentive fee) are equally applicable to the managed futures industry although management fees can range from 0\% to 3\% and incentive fees from 10\% to 35\%.
 
 Unfortunately, until the early 1970s, the managed futures industry was largely unregulated. Anyone could advise an investor as to the merits of investing in commodity futures, or form a fund for the purpose of investing in the futures markets. Recognizing the growth of this industry, and the lack of regulation associated with it, in 1974 Congress promulgated the Commodity Exchange Act (CEA) and created the Commodity Futures Trading Commission (CFTC).
-
 
 Under the CEA, Congress first defined the terms Commodity Pool Operator and Commodity Trading Advisor. Additionally, Congress established standards for financial reporting, offering memorandum disclosure, and bookkeeping. Further, Congress required CTAs and CPOs to register with the CFTC. Last, upon the establishment of the National Futures Association (NFA) as the designated self-regulatory organization for the managed futures industry, Congress required CTAs and CPOs to undergo periodic educational training.
 
@@ -311,13 +314,11 @@ There are two key questions with respect to managed futures:
 
 The case for managed futures products as a viable investment is mixed. Elton, Gruber, and Rentzler, in three separate studies, examine the returns to public commodity pools. In their first study, they conclude that publicly offered commodity funds are not attractive either as standalone investments or as additions to a portfolio containing stocks and/or bonds. In their second study, they find that the historical return data reported in the prospectuses of publicly offered commodity pools are not indicative of the returns that these funds actually earn once they go public. In fact, they conclude that the performance discrepancies are so large that the prospectus numbers are seriously misleading. In their last study, they did not find any evidence that would support the addition of commodity pools to a portfolio of stocks and bonds and that commodity funds did not provide an attractive hedge against inflation. Last, they find that the distribution of returns to public commodity pools to be negatively skewed. Therefore, the opportunity for very large negative returns is greater than for large positive returns.
 
-
 Irwin, Krukemeyer, and Zulaf, $^{3}$  Schneeweis, Savanyana, and McCarthy, $^{4}$  and Edwards and Park $^{5}$  also conclude that public commodity funds offer little value to investors as either stand-alone investments or as an addition to a stock and bond portfolio. However, Irwin and Brorsen find that public commodity funds provide an expanded efficient investment frontier. $^{6}$
 
 For private commodity pools, Edwards and Park find that an equally weighted index of commodity pools have a sufficiently high Sharpe Ratio to justify them as either a stand-alone investment or as part of a diversified portfolio. Conversely, Schneeweis et al. conclude that private commodity pools do not have value as stand-alone investments but they are worthwhile additions to a stock and bond portfolio.
 
 With respect to separate accounts managed by CTAs, McCarthy, Schneeweis, and Spurgin find that an allocation to an equally weighted index of CTAs provides valuable diversification benefits to a portfolio of stocks and bonds. In a subsequent study, Schneeweis, Spurgin, and Potter find that a portfolio allocation to a dollar weighted index of CTAs results in a higher portfolio Sharpe ratio. Edwards and Park find that an index of equally weighted CTAs performs well as both a stand-alone investment and as an addition to a diversified portfolio.[11]
-
 
 An important aspect of any investment is the predictability of returns over time. If returns are predictable, then an investor can select a commodity pool or a CTA with consistently superior performance. Considerable time and effort has been devoted to studying the managed futures industry to determine the predictability and consistency of returns. Unfortunately, the results are not encouraging.
 
@@ -339,16 +340,16 @@ Managed futures traders have one goal in mind: to capitalize on price trends. Mo
 
 In this chapter we use the Mount Lucas Management Index (MLMI) as a benchmark by which to judge CTA performance. The MLMI is a passive futures index. It applies a mechanical and transparent rule for capitalizing on price trends in the futures markets. It does not represent active trading. Instead, it applies a consistent rule for buying or selling futures contracts depending upon the current price trend in any particular commodity futures market. In addition, the MLMI invests across agricultural, currency, financial, energy, and metal futures contracts. Therefore, it provides a good benchmark by which to examine the four managed futures strategies.
 
-Exhibit 32.1 shows the distribution of returns for the MLMI. The distribution is negatively skewed. Therefore, a simple or naive trend following strategy will produce a distribution of returns that has more neg- ative return observations below the median than positive observations above the median. In reviewing the distribution of returns for managed futures strategies, we keep in mind that the returns are generated from active management. One demonstration of skill is the ability to shift a distribution of returns from a negative skew to a positive skew. Therefore, if CTAs do in fact have skill, we would expect to see distribution of returns with a positive skew.
-
+Exhibit 32.1 shows the distribution of returns for the MLMI. The distribution is negatively skewed. Therefore, a simple or naive trend following strategy will produce a distribution of returns that has more negative return observations below the median than positive observations above the median. In reviewing the distribution of returns for managed futures strategies, we keep in mind that the returns are generated from active management. One demonstration of skill is the ability to shift a distribution of returns from a negative skew to a positive skew. Therefore, if CTAs do in fact have skill, we would expect to see distribution of returns with a positive skew.
 
 Further, the passive MLMI strategy produces a distribution of returns with considerable leptokurtosis. This indicates that the tails of the distribution have greater probability mass than a normal, bell-shaped distribution. This indicates that a passive trend following strategy has significant exposure to outlier events. Consequently, we would expect to observe similar leptokurtosis associated with managed futures.
 
-Last, the average return for the MLMI strategy was  $0.73\%$  per month. If managed futures strategies can add value, we would expect them to outperform the average monthly return earned by the naive MLMI strategy.
+Last, the average return for the MLMI strategy was $0.73\%$ per month. If managed futures strategies can add value, we would expect them to outperform the average monthly return earned by the naive MLMI strategy.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/44e9d6bf1ec47e1adea459866a7c6e3730a15a263c486368316ad4543dccd2be.jpg)
+![EXHIBIT 32.1 Distribution of Returns for the MLMI](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/44e9d6bf1ec47e1adea459866a7c6e3730a15a263c486368316ad4543dccd2be.jpg)
+
 EXHIBIT 32.1 Distribution of Returns for the MLMI
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/aa455a4283b0d4c811f417d643661c95c73d5d2dae8b0b3aee4d0f18dafeec9f.jpg)
-EXHIBIT 32.2 Barclays Agricultural CTA Returns
+![EXHIBIT 32.2 Barclays Agricultural CTA Returns](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/aa455a4283b0d4c811f417d643661c95c73d5d2dae8b0b3aee4d0f18dafeec9f.jpg)
 
+EXHIBIT 32.2 Barclays Agricultural CTA Returns

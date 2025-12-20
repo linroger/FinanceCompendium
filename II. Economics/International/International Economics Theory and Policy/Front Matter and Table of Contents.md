@@ -1,11 +1,18 @@
 ---
 aliases: Front Matter and Table of Contents
-tags:
-key_concepts:
-parent_directory: "[[International Economics  Theory and Policy]]"
+tags: null
+key_concepts: null
+parent_directory: '[[International Economics  Theory and Policy]]'
 cssclasses: academia
-title: "Front Matter and Table of Contents"
+title: Front Matter and Table of Contents
 linter-yaml-title-alias: Front Matter and Table of Contents
+primary_tags:
+- countries growth crisis reform732mathematical
+- exchange rates open economy
+secondary_tags:
+- contents international trade theory
+- trade model
+tags_extracted: '2025-12-18T00:48:37.492531'
 ---
 
 # Front Matter and Table of Contents

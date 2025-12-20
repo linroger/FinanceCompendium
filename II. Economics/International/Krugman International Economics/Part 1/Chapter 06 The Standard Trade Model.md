@@ -1,12 +1,19 @@
 ---
 aliases:
-  - The Standard Trade Model
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- The Standard Trade Model
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 06: The Standard Trade Model"
-linter-yaml-title-alias: "Chapter 06: The Standard Trade Model"
+title: 'Chapter 06: The Standard Trade Model'
+linter-yaml-title-alias: 'Chapter 06: The Standard Trade Model'
+primary_tags:
+- standard trade model
+- world relative
+secondary_tags:
+- 149 standard model trading
+- production possibilities trade
+tags_extracted: '2025-12-18T01:46:49.867142'
 ---
 
 # 6 The Standard Trade Model 149

@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Monetary and Fiscal Policies
 linter-yaml-title-alias: Monetary and Fiscal Policies
+primary_tags:
+- policies macro monetary literature
+- exchange rate monetary fiscal
+- real exchange rate equilibrium
+- policies affect equilibrium consumption
+- equilibrium consumption nominal rates
+secondary_tags:
+- model monetary fiscal policies
+- effects monetary policy let
+- nominal rate policy
+- real effects fiscal policy
+- government surpluses equilibrium consumption
+- fiscal policies affect exchange
+- consumption dynamics terms fiscal
+- expenditures real effects monetary
+- effects productivity shocks equilibrium
+- exchange rate dynamics channels
+- consumption flexible price
+- yield monetary policies refer
+tags_extracted: '2025-12-18T01:44:49.131655'
 ---
 
 # Monetary and Fiscal Policies

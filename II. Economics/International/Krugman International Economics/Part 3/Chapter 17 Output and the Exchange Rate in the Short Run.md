@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Output and the Exchange Rate in the Short Run
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Output and the Exchange Rate in the Short Run
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 17: Output and the Exchange Rate in the Short Run"
-linter-yaml-title-alias: "Chapter 17: Output and the Exchange Rate in the Short Run"
+title: 'Chapter 17: Output and the Exchange Rate in the Short Run'
+linter-yaml-title-alias: 'Chapter 17: Output and the Exchange Rate in the Short Run'
+primary_tags:
+- aggregate demand open economy
+- formulation 511 permanent shifts
+secondary_tags:
+- exchange rate aggregate demand
+- 17 output exchange rate
+tags_extracted: '2025-12-18T01:47:09.344123'
 ---
 
 # Chapter 17 Output and the Exchange Rate in the Short Run

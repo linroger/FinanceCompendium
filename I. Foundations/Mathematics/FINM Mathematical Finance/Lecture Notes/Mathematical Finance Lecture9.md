@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 9: A Model for Foreign Exchange"
-tags:
+title: 'Lecture 9: A Model for Foreign Exchange'
+tags: null
 aliases:
-  - A Model for Foreign Exchange
+- A Model for Foreign Exchange
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 9: A Model for Foreign Exchange"
+linter-yaml-title-alias: 'Lecture 9: A Model for Foreign Exchange'
+primary_tags:
+- bretton woods agreement
+- exchange rate process
+- dollar/pound sterling exchange rate
+secondary_tags:
+- .4 british pounds
+- exchange contracts
+- exchange contract
+- simplest model
+- 2.5 u. s. dollars
+- forward exchange contract
+tags_extracted: '2025-12-18T17:58:19.993174'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 9: A MODEL FOR FOREIGN EXCHANGE

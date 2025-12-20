@@ -1,11 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 8
 linter-yaml-title-alias: Chapter 8
+primary_tags:
+- more formal statement
+- each value
+- exactly different ways
+- a.1 sets a.1.1
+- specific example
+- any idea
+- counting question
+secondary_tags:
+- interesting problems
+- finite set theory
+- all elements
+- binomial coefficient
+- any number
+- good proof
+- non-finite partition
+- some prior instance
+- three numbers
+- maximum possible value
+- following outcome
+- other stuff
+- general statements
+- proof's main idea
+- i.e. permutations
+- repeated instances
+- two properties
+- more condensed form
+- new and helpful proof strategy
+tags_extracted: '2025-12-18T17:57:22.612275'
+tags_method: max_quality_v1
 ---
 
 # Chapter 8

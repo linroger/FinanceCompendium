@@ -1,11 +1,37 @@
 ---
 aliases: Comparative Advantage, Competitiveness, and the Terms of Trade
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 3: Comparative Advantage, Competitiveness, and the Terms of Trade"
-linter-yaml-title-alias: Comparative Advantage, Competitiveness, and the Terms of Trade
+title: 'Chapter 3: Comparative Advantage, Competitiveness, and the Terms of Trade'
+linter-yaml-title-alias: Comparative Advantage, Competitiveness, and the Terms of
+  Trade
+primary_tags:
+- gravity equation relates trade
+- relevance country characteristics trade
+- globalization based comparative advantage
+- country competitiveness generating employment
+- globalization contrast economies
+- gaps competitiveness country economy
+secondary_tags:
+- trade barriers gravity specification
+- globalized great doubling
+- used gravity equation estimation
+- mexico comparative advantage manufacturing
+- gravity equation level country
+- competitiveness terms trade great
+- table exports comparative advantage
+- industry weakest comparative advantage
+- country trade flows confounding
+- doubling workers comparative advantage
+- doubling world economy principle
+- countries produce commodities good
+- manufacturing competitiveness comparable
+- productivity growth world globalized
+- sectoral competitiveness sector labor
+- outcome globalization prior globalization
+tags_extracted: '2025-12-18T00:29:49.872977'
 ---
 
 # Chapter 3

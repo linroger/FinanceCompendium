@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Bridgewater®
 linter-yaml-title-alias: Bridgewater®
+primary_tags:
+- chávez program nationalizations resulted
+- major emerging country populists
+- industrialization perón carried
+- farmers came government
+- argentines centralized economic
+secondary_tags:
+- report examination populism phenomenon
+- populism phenomenon typically germinates
+- trends clear populism surged
+- populist support today compares
+- communists labor unions perón
+- way rise populism
+- past populist
+- world populism index latest
+- chávez imposed capital controls
+- helped galvanize supporters chávez
+- justicialista perónist economy asserts
+- year chávez took
+tags_extracted: '2025-12-18T00:07:13.590929'
 ---
 
 # Bridgewater®

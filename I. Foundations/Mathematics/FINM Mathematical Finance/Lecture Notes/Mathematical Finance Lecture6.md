@@ -1,14 +1,31 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "Lecture 6: The Itô Calculus"
-tags:
+title: 'Lecture 6: The Itô Calculus'
+tags: null
 aliases:
-  - The Itô Calculus
+- The Itô Calculus
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "Lecture 6: The Itô Calculus"
+linter-yaml-title-alias: 'Lecture 6: The Itô Calculus'
+primary_tags:
+- appropriate model
+- sde proof
+- no time change
+- geometric brownian motion
+secondary_tags:
+- stock price model
+- brownian motion
+- price processes
+- finite quadratic variation
+- time martingale
+- continuous paths
+- brownian path
+- process martingale
+- price behavior
+tags_extracted: '2025-12-18T17:58:05.504559'
+tags_method: max_quality_v1
 ---
 
 # LECTURE 6: THE ITÔ CALCULUS

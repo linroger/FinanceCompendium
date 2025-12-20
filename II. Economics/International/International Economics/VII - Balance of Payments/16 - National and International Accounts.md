@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Balance of Payments I: The Gains from Financial Globalization"
-linter-yaml-title-alias: "Balance of Payments I: The Gains from Financial Globalization"
+title: 'Balance of Payments I: The Gains from Financial Globalization'
+linter-yaml-title-alias: 'Balance of Payments I: The Gains from Financial Globalization'
+primary_tags:
+- investment process limits country
+- country positive initial wealth
+- relationship aid inflows country
+- household cope economic shocks
+- oil boom provides good
+- financial globalization save rainy
+secondary_tags:
+- financial globalization doesn work
+- aid directed countries better
+- balance payments gains
+- investment implies consumption creates
+- aid squandered reasons
+- global capital markets
+- low output implies capital
+- financial liberalization large barriers
+- benefits financial globalization
+- foreign aid administered little
+- doubts vast amounts aid
+- developing countries financial openness
+- investment inefficiency global level
+- capital markets failing criticism
+- saving decisions norwegians did
+- slowly access global capital
+tags_extracted: '2025-12-18T00:46:19.702773'
 ---
 
 # Balance of Payments I: The Gains from Financial Globalization

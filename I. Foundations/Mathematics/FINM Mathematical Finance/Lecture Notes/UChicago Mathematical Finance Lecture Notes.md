@@ -1,14 +1,40 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: "UChicago Mathematical Finance Complete Lecture Notes"
-tags:
+title: UChicago Mathematical Finance Complete Lecture Notes
+tags: null
 aliases:
-  - UChicago Mathematical Finance Complete Lecture Notes
+- UChicago Mathematical Finance Complete Lecture Notes
 parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "UChicago Mathematical Finance Complete Lecture Notes"
+linter-yaml-title-alias: UChicago Mathematical Finance Complete Lecture Notes
+primary_tags:
+- risk-neutral probability measure
+- two possible market scenarios
+- fluctuation rates
+- useful special cases
+- following lemma
+- simple example
+secondary_tags:
+- efficient market hypothesis
+- black scholes argument
+- fundamental theorem see
+- any probability distribution
+- any such market
+- simple examples
+- no discounting
+- forwards contracts
+- every multiperiod market
+- traded assets
+- guaranteed profit
+- future rates
+- probability zero
+- only one constraint
+- wiener measure
+- terminal value
+tags_extracted: '2025-12-18T17:58:26.599366'
+tags_method: max_quality_v1
 ---
 
 # THE FUNDAMENTAL THEOREM OF ARBITRAGE PRICING

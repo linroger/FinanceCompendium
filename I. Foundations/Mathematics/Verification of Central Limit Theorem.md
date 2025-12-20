@@ -1,14 +1,22 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "A Verification of the Central Limit Theorem"
-tags:
+title: A Verification of the Central Limit Theorem
+tags: null
 aliases:
-  - Verification of the Central Limit Theorem
+- Verification of the Central Limit Theorem
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "A Verification of the Central Limit Theorem"
+linter-yaml-title-alias: A Verification of the Central Limit Theorem
+primary_tags:
+- distribution function
+- standard normal distribution
+secondary_tags:
+- central limit theorem
+- mean and standard deviation
+tags_extracted: '2025-12-18T17:58:45.970596'
+tags_method: max_quality_v1
 ---
 
 # A Verification of the Central Limit Theorem

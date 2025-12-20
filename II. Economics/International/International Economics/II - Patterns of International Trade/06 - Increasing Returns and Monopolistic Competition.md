@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Increasing Returns to Scale and Monopolistic Competition
 linter-yaml-title-alias: Increasing Returns to Scale and Monopolistic Competition
+primary_tags:
+- equilibrium trade exit
+- international trade increasing returns
+- monopolistic competition model did
+- nafta estimate gain consumers
+- scale monopolistic competition foreign
+- golf clubs countries answer
+secondary_tags:
+- increasing returns scale monopolistic
+- competition foreign trade highly
+- competition equilibrium trade long
+- trade equilibrium point firm
+- imports exports industry monopolistic
+- states nafta source gains
+- effects trade monopolistic
+- figure long run monopolistic
+- import variety beneficial impact
+- equilibrium trade figure shifted
+- growth export variety mexico
+- gains trade expansion varieties
+- demand figure free trade
+- trade equilibrium country use
+- goods explain countries import
+- continue grow year nafta
+tags_extracted: '2025-12-18T00:33:37.001740'
 ---
 
 # Increasing Returns to Scale and Monopolistic Competition

@@ -1,3 +1,18 @@
+---
+primary_tags:
+- exogenously imposed exporting firms
+- tariffs dumping various reasons
+- import tariffs trade policies
+secondary_tags:
+- competition exports albeit subsidies
+- tariffs countries temporarily escape
+- protection antidumping provision wto
+- anti dumping duties
+- clause tariffs countries
+- tariffs quotas situations markets
+tags_extracted: '2025-12-18T00:14:53.836062'
+---
+
 # Chapter 7: Import Tariffs and Dumping
 
 There are various reasons why countries use import tariffs and other types of trade policies. Nearly all countries have used these instruments in early stages of their development to foster the growth of domestic industries, in what is called import substitution. Such policies have been heavily criticized for protecting inefficient domestic industries from international competition. Many countries have later switched to an export promotion regime, under which industries are expected to meet international competition through exports, albeit with subsidies (hopefully temporary) given to exporters. The more than 140 members of the WTO have all committed to abandon such heavily regulated trade regimes, and move towards substantially freer trade. One question, then, is whether the use of import tariffs and other trade policies at early stages of the development process has any rationale at all, especially when other markets (such as for capital) might not be functioning well. While this is too big a question to deal with adequately in this chapter, we will briefly discuss the rationale for temporary tariffs in what is called “infant industry” protection.

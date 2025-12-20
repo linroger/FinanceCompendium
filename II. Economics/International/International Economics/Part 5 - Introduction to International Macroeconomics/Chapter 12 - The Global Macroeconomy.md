@@ -1,12 +1,28 @@
 ---
 aliases:
-  - The Global Macroeconomy
-tags:
-key_concepts:
+- The Global Macroeconomy
+tags: null
+key_concepts: null
 parent_directory: Part 5 - Introduction to International Macroeconomics
 cssclasses: academia
 title: Chapter 12 - The Global Macroeconomy
 linter-yaml-title-alias: Chapter 12 - The Global Macroeconomy
+primary_tags:
+- economic theory compelling
+- fall billions external wealth
+- real economy changes exchange
+- transactions civilized nations
+secondary_tags:
+- global macroeconomy
+- macroeconomy barbarism remains transactions
+- globalization finance debts deficits
+- benefits financial globalization key
+- working global economy causes
+- understanding country economy
+- finance william shakespeare
+- monies countries financially integrated
+- international capital flows affect
+tags_extracted: '2025-12-18T00:40:02.728184'
 ---
 
 # The Global Macroeconomy

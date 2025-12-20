@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Modern Exchange Rate Models
-tags:
-key_concepts:
+- Modern Exchange Rate Models
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 7: Modern Exchange Rate Models"
-linter-yaml-title-alias: "Chapter 7: Modern Exchange Rate Models"
+title: 'Chapter 7: Modern Exchange Rate Models'
+linter-yaml-title-alias: 'Chapter 7: Modern Exchange Rate Models'
+primary_tags:
+- rate determination flexible price
+- exchange rate determination assets
+- monetary models provide explanation
+- monetary exchange rate model
+- monetary policy role
+secondary_tags:
+- determinant exchange rates
+- exchange rate depends
+- money supply exchange rate
+- output induced monetary
+- exchange rate theory explicitly
+- dornbusch 1976a monetary model
+- dornbusch model foreign rate
+- markets equilibrium exchange rate
+- parity te monetary models
+- exchange rate equation synthesizes
+- exchange rate frankel
+- monetary shock does
+tags_extracted: '2025-12-18T01:32:40.206389'
 ---
 
 # CHAPTER 7

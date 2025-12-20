@@ -1,11 +1,26 @@
 ---
 aliases:
-  - The Prior Big Debt Crisis Recedes and a New Equilibrium Is Reached
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- The Prior Big Debt Crisis Recedes and a New Equilibrium Is Reached
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "11 - Chapter 7: The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached, and a New Cycle Can Begin (Stages 7-9)"
+title: '11 - Chapter 7: The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached,
+  and a New Cycle Can Begin (Stages 7-9)'
+primary_tags:
+- central bank holdings
+- debt restructurings
+- archetypical case
+secondary_tags:
+- debt crisis
+- big cycle
+- new equilibrium
+- end stages
+- debt write-downs
+- beautiful deleveraging
+tags_extracted: '2025-12-18T18:02:49.339892'
+tags_method: max_quality_v1
 ---
 
 # 11_7_The_Prior_Big_Debt_Crisis_Recedes_a_New_Equilibr

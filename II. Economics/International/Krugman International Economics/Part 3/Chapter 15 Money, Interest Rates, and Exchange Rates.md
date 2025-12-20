@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Money, Interest Rates, and Exchange Rates
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Money, Interest Rates, and Exchange Rates
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 15: Money, Interest Rates, and Exchange Rates"
-linter-yaml-title-alias: "Chapter 15: Money, Interest Rates, and Exchange Rates"
+title: 'Chapter 15: Money, Interest Rates, and Exchange Rates'
+linter-yaml-title-alias: 'Chapter 15: Money, Interest Rates, and Exchange Rates'
+primary_tags:
+- money market
+- money supply demand 423
+secondary_tags:
+- money supply exchange rate
+- rates 417 money defined
+tags_extracted: '2025-12-18T01:47:04.809201'
 ---
 
 # 15 Money, Interest Rates, and Exchange Rates 417

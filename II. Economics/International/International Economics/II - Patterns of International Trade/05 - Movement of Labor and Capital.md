@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Movement of Labor and Capital Between Countries
 linter-yaml-title-alias: Movement of Labor and Capital Between Countries
+primary_tags:
+- gains labor capital countries
+- effect fdi rentals wages
+- equilibrium wage effect
+- model wages change immigration
+- labor capital question similar
+- equilibrium home foreign production
+secondary_tags:
+- income emigration benefits foreign
+- wage rental effect immigration
+- graduates impact immigration wages
+- income fdi benefits source
+- fdi effects analogous immigration
+- immigration benefits host country
+- difference home foreign wage
+- represents gains foreign wage
+- earnings foreign income fdi
+- fdi inflow capital benefits
+- national wages clarifying theory
+- global gains immigration fdi
+- immigrants include immigrant earnings
+- answer migration benefited workers
+- labor capital countries movement
+- investment fdi 144 equilibrium
+tags_extracted: '2025-12-18T00:33:05.764752'
 ---
 
 # Movement of Labor and Capital Between Countries

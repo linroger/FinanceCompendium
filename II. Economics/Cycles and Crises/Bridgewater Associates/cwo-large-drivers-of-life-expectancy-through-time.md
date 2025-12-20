@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Largest Events Driving Changes to Life Expectancy Through Time
-linter-yaml-title-alias: Largest Events Driving Changes to Life Expectancy Through Time
+linter-yaml-title-alias: Largest Events Driving Changes to Life Expectancy Through
+  Time
+primary_tags:
+- conflict1850 64china201 madras faminefamine1876
+- africa15038 fall yuan dynastyinternal
+secondary_tags:
+- life expectancy changed time
+- largest events drove historical
+tags_extracted: '2025-12-18T00:12:08.583069'
 ---
 
 # Largest Events Driving Changes to Life Expectancy Through Time

@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "3"
-linter-yaml-title-alias: "3"
+title: '3'
+linter-yaml-title-alias: '3'
+primary_tags:
+- objectives financial institutions role
+- financial institutions asset management
+- depositor effectively indirect investment
+- institutions liability typeamount
+secondary_tags:
+- assets liabilities financial intermediaries
+- intermediaries asset management firms
+- intermediaries different financial institutions
+- management financial intermediaries
+- maturity intermediation implications financial
+- asset management firm
+- holding claim financial intermediary
+- financial intermediaries transform maturity
+- company financial intermediary explain
+tags_extracted: '2025-12-18T00:16:57.348399'
 ---
 
 # 3

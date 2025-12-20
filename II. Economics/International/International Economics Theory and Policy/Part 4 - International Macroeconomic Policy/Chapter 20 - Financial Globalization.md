@@ -1,3 +1,26 @@
+---
+primary_tags:
+- foreign exchange market chapter
+- liquid assets bank depends
+- financial globalization opportunity crisis
+- financial institutions international markets
+- explain ratio introduced
+secondary_tags:
+- crises causes banking
+- globalized banks branched
+- international capital market earlier
+- banks holding assets risky
+- worldwide financial
+- bank problems easily spread
+- bank troubles result generalized
+- bank ability withstand panic
+- financial crisis think
+- international financial integration understand
+- risk international asset
+- affect ratio international asset
+tags_extracted: '2025-12-18T00:54:52.793341'
+---
+
 # FINANCIAL GLOBALIZATION: OPPORTUNITY AND CRISIS
 
 If a financier named Rip van Winkle had gone to sleep in the 1960s and awakened today, he would have been shocked by changes in both the nature and the scale of international financial activity. In the early 1960s, for example, most banking business was purely domestic, involving the currency and customers of the bank's home country. Five decades later, many banks were deriving a large share of their profits from international activities. To his surprise, Rip would have found that he could locate branches of Citibank in São Paulo, Brazil, and branches of Britain's Barclays Bank in New York. He would also have discovered that it had long since become routine for a branch of an American bank located in London to accept a deposit denominated in Japanese yen from a Swedish corporation or to lend Swiss francs to a Dutch manufacturer. Finally, he would have noticed much greater participation by nonbank financial institutions in international markets and a huge expansion in the sheer volume of global transactions.

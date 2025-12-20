@@ -1,12 +1,38 @@
 ---
 aliases:
-  - Exchange Rates I - The Monetary Approach in the Long Run
-tags:
-key_concepts:
+- Exchange Rates I - The Monetary Approach in the Long Run
+tags: null
+key_concepts: null
 parent_directory: Part 6 - Exchange Rates
 cssclasses: academia
 title: Chapter 14 - Exchange Rates I - The Monetary Approach in the Long Run
-linter-yaml-title-alias: Chapter 14 - Exchange Rates I - The Monetary Approach in the Long Run
+linter-yaml-title-alias: Chapter 14 - Exchange Rates I - The Monetary Approach in
+  the Long Run
+primary_tags:
+- exchange rates adjust purchasing
+- according long run monetary
+- exchange rates monetary approach
+- serbia inflation 1992
+- conclusions example canadian prices
+- 1946 prices doubling average
+secondary_tags:
+- money includes currency circulation
+- definition money
+- austria hyperinflation 1921 1922
+- monetary approach exchange rates
+- measure liquid money compared
+- certain price foreign money
+- vary headlines hyperinflation century
+- money unit
+- definition money called base
+- inflation united states europe
+- money need equilibrium money
+- money transactions purposes
+- money rates prices long
+- currency remains comparable baskets
+- dollars rose true canadian
+- purchasing power parity hyperinflations
+tags_extracted: '2025-12-18T00:40:50.419162'
 ---
 
 # Exchange Rates I: the Monetary Approach in the Long Run

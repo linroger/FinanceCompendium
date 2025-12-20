@@ -1,12 +1,24 @@
 ---
 aliases:
-  - The Foreign Exchange Market
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- The Foreign Exchange Market
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 19: The Foreign Exchange Market"
-linter-yaml-title-alias: "Chapter 19: The Foreign Exchange Market"
+title: 'Chapter 19: The Foreign Exchange Market'
+linter-yaml-title-alias: 'Chapter 19: The Foreign Exchange Market'
+primary_tags:
+- derivatives described chapter 38
+- rate market foreign exchange
+- foreign currency example
+secondary_tags:
+- foreign exchange market contents
+- market foreign exchange risk
+- composition foreign exchange
+- market derivatives markets role
+- fx risk specify
+- turnover market participants fx
+tags_extracted: '2025-12-18T00:20:48.858498'
 ---
 
 # 19

@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Exchange Rates II: The Asset Approach in the Short Run"
-linter-yaml-title-alias: "Exchange Rates II: The Asset Approach in the Short Run"
+title: 'Exchange Rates II: The Asset Approach in the Short Run'
+linter-yaml-title-alias: 'Exchange Rates II: The Asset Approach in the Short Run'
+primary_tags:
+- expectations empirically challenge wars
+- exchange rates theory
+- exchange market wartime theory
+- equilibrium foreign
+- country monetary approach used
+secondary_tags:
+- exchange rate long run
+- ii asset approach short
+- expectations change exchange rates
+- monetary independence danish
+- theory guide exchange rate
+- theory capital mobility parity
+- arbitrage expectations developed theory
+- war currencies
+- autonomy likely postwar currency
+- currency rate dictated victors
+- common currency equalized
+- short run theory
+tags_extracted: '2025-12-18T00:45:40.747996'
 ---
 
 # Exchange Rates II: The Asset Approach in the Short Run

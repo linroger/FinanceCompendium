@@ -1,11 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 6
 linter-yaml-title-alias: Chapter 6
+primary_tags:
+- each line
+- any relation
+- many interesting properties
+- mathematical induction
+- set builder notation
+- i) reflexive
+- any two integers
+secondary_tags:
+- equivalence relations
+- mathematical rigor
+- following questions
+- different relation
+- strong induction
+- (nonempty) set
+- number-theoretic results
+- at least one cube
+- and term
+- another set
+- two-dimensional set and related pairs
+- optional reading
+- first equation
+- i.e. equivalence classes
+- theorem statement
+- order relation
+- one-dimensional set
+- special properties
+- previous theorem
+tags_extracted: '2025-12-18T17:57:07.233751'
+tags_method: max_quality_v1
 ---
 
 # Chapter 6

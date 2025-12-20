@@ -1,11 +1,33 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run"
-linter-yaml-title-alias: "Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run"
+title: 'Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies
+  in the Short Run'
+linter-yaml-title-alias: 'Balance of Payments II: Output, Exchange Rates, and Macroeconomic
+  Policies in the Short Run'
+primary_tags:
+- versus fiscal policy
+- fx model open economy
+- stimulus 2009
+- fiscal stimulus major weaknesses
+- government spending great deal
+secondary_tags:
+- output exchange rates macroeconomic
+- balance payments ii output
+- fiscal stimulus suppose american
+- collapse consumption expenditure
+- stimulus money arra conclusions
+- open economy stabilization policy
+- rates macroeconomic policies short
+- policy great recession
+- monetary policy weaken currency
+- q4 potential gdp fiscal
+- shift trade balance curve
+- money market equilibrium
+tags_extracted: '2025-12-18T00:46:25.935086'
 ---
 
 # Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run

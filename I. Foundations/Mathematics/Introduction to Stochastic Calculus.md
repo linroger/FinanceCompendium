@@ -1,14 +1,27 @@
 ---
 parent_directory: I. Foundations/Mathematics
-title: "A Brief Introduction to Stochastic Calculus"
-tags:
+title: A Brief Introduction to Stochastic Calculus
+tags: null
 aliases:
-  - Brief Introduction to Stochastic Calculus
+- Brief Introduction to Stochastic Calculus
 parent_folder: Mathematics
-subfolder:
-key_concepts:
+subfolder: null
+key_concepts: null
 cssclasses: academia
-linter-yaml-title-alias: "A Brief Introduction to Stochastic Calculus"
+linter-yaml-title-alias: A Brief Introduction to Stochastic Calculus
+primary_tags:
+- stochastic calculus
+- any continuous stochastic process
+- quadratic variation
+secondary_tags:
+- financial engineering and mathematical finance
+- stochastic differential equations
+- stochastic integrals
+- black scholes formula
+- black-scholes formula
+- stochastic process
+tags_extracted: '2025-12-18T17:58:31.348378'
+tags_method: max_quality_v1
 ---
 
 # A Brief Introduction to Stochastic Calculus

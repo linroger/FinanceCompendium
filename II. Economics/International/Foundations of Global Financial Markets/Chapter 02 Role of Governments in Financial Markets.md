@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "2"
-linter-yaml-title-alias: "2"
+title: '2'
+linter-yaml-title-alias: '2'
+primary_tags:
+- country central bank regulation
+- fail interconnectedness financial institutions
+- role governments financial markets
+- government bailouts financial regulators
+- bailouts zombie banks large
+secondary_tags:
+- financial regulation various roles
+- microprudential government policies regulation
+- macroprudential policy systemic financial
+- bank regulation financial markets
+- markets including financial intermediaries
+- meant systemic financial risk
+- breakup large banks did
+- form regulation financial firms
+- large banks fed considered
+- financial crisis limited use
+- large firm failure cause
+- financial institutions believes government
+tags_extracted: '2025-12-18T00:16:29.267938'
 ---
 
 # 2

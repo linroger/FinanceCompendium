@@ -2,29 +2,58 @@
 parent_directory: II. Economics/History and Crises/PPHA History of Financial Crises
 title: History of Financial Crises Lecture Notes
 tags:
-  - banking_panics_and_runs
-  - silicon_valley_bank_crisis_2023
-  - great_depression_1929_1933
-  - south_sea_bubble_1720
-  - unit_banking_fragility
-  - federal_reserve_monetary_policy
-  - liquidity_crises
-  - deposit_insurance
+- banking_panics_and_runs
+- silicon_valley_bank_crisis_2023
+- great_depression_1929_1933
+- south_sea_bubble_1720
+- unit_banking_fragility
+- federal_reserve_monetary_policy
+- liquidity_crises
+- deposit_insurance
 aliases:
-  - Financial Crises Lecture Notes
+- Financial Crises Lecture Notes
 parent_folder: History of Financial Crises
-subfolder:
+subfolder: null
 key_concepts:
-  - solvency_vs_liquidity_distinction
-  - demand_deposits_as_money
-  - bank_runs_and_systemic_contagion
-  - restriction_of_convertibility
-  - lender_of_last_resort
-  - quantity_theory_of_money
-  - fragmented_unit_banking_structure
-  - high_powered_money_monetary_base
+- solvency_vs_liquidity_distinction
+- demand_deposits_as_money
+- bank_runs_and_systemic_contagion
+- restriction_of_convertibility
+- lender_of_last_resort
+- quantity_theory_of_money
+- fragmented_unit_banking_structure
+- high_powered_money_monetary_base
 cssclasses: academia
 linter-yaml-title-alias: History of Financial Crises Lecture Notes
+primary_tags:
+- central banks skeptical
+- piketty digression income inequality
+- time theories banking crises
+- specific political circumstances banks
+- wage gap later 20th
+- trust cos deposited reserves
+- money banking isaac newton
+secondary_tags:
+- crises shaped financial
+- course history financial crises
+- starting 1970s income inequality
+- reserves ny banks losing
+- financial crises silicon valley
+- crises teach money
+- includes treasury cash deposits
+- theory banking crisis
+- inequality started rise interesting
+- coase theorem idea externalities
+- enhance lives central banks
+- currency reserves banking helped
+- economic theory regulation known
+- characteristics banks consequence
+- interesting wage gap split
+- panic ny treasury
+- populism democracies constrain
+- interbank connections externalities banks
+- interior banks worried panic
+tags_extracted: '2025-12-18T00:14:03.814408'
 ---
 
 # Why We Care About Financial Crises: Silicon Valley Bank

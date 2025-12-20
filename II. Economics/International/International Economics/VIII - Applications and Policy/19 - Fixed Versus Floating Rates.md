@@ -1,11 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "Exchange Rate Crises: How Pegs Work and How They Break"
-linter-yaml-title-alias: "Exchange Rate Crises: How Pegs Work and How They Break"
+title: 'Exchange Rate Crises: How Pegs Work and How They Break'
+linter-yaml-title-alias: 'Exchange Rate Crises: How Pegs Work and How They Break'
+primary_tags:
+- lecture contractionary currency crashes
+- sufficient liquidity foreign currency
+- fixed central bank
+- political costs crises exchange
+- forex market defend peg
+secondary_tags:
+- understanding exchange rate crises
+- exchange rate pegs break
+- level fixed money demand
+- money supply alternative view
+- exchange rate floating central
+- rate crises pegs
+- peg cycle crises
+- suppose central bank increases
+- exchange rate regimes makes
+- peg central bank rate
+- circulation outside central bank
+- currency central bank example
+tags_extracted: '2025-12-18T00:47:10.288052'
 ---
 
 # Exchange Rate Crises: How Pegs Work and How They Break

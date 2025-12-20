@@ -1,11 +1,31 @@
 ---
 aliases: The Principle of Comparative Advantage
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 2: The Principle of Comparative Advantage"
+title: 'Chapter 2: The Principle of Comparative Advantage'
 linter-yaml-title-alias: The Principle of Comparative Advantage
+primary_tags:
+- early economist formulate principle
+- principle comparative advantage
+- producing cars country comparative
+- industry burger industry balassa
+- dividing industry worldwide
+secondary_tags:
+- comparative advantage producing burgers
+- comparative advantage uruguay
+- country absolute advantage producing
+- globalization naomi klein economic
+- advantage determines free trade
+- food production country
+- uruguay car industry burger
+- principle states trade
+- industries produce constant returns
+- comparative advantage regions choice
+- strongest comparative advantage agriculture
+- countries labor forces equally
+tags_extracted: '2025-12-18T00:29:17.347950'
 ---
 
 # Chapter 2

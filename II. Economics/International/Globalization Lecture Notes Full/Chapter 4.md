@@ -1,11 +1,31 @@
 ---
 aliases: Trade, Endowments, and the Income Distribution
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 4: Trade, Endowments, and the Income Distribution"
+title: 'Chapter 4: Trade, Endowments, and the Income Distribution'
 linter-yaml-title-alias: Trade, Endowments, and the Income Distribution
+primary_tags:
+- skill economy time answer
+- equation international trade good
+- globalization explain income inequality
+- trade endowments income distribution
+- factor intensities countries differ
+secondary_tags:
+- trade theories explain inequality
+- chapter distribution incomes countries
+- schooling intensity brazil occupations
+- trade theory brazil comparative
+- ohlin trade theory comparative
+- observed shifts country inequality
+- skill abundant country compared
+- trade theory
+- equilibrium terms trade improve
+- trade theory consistent gravity
+- production consumptions improving terms
+- trade wages direction freer
+tags_extracted: '2025-12-18T00:30:09.459259'
 ---
 
 # Chapter 4

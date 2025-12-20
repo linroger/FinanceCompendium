@@ -1,11 +1,20 @@
 ---
 aliases: Capital Flows and the Current Account
-tags:
-key_concepts:
-parent_directory: "[[Globalization Lecture Notes Full]]"
+tags: null
+key_concepts: null
+parent_directory: '[[Globalization Lecture Notes Full]]'
 cssclasses: academia
-title: "Chapter 14: Capital Flows and the Current Account"
+title: 'Chapter 14: Capital Flows and the Current Account'
 linter-yaml-title-alias: Capital Flows and the Current Account
+primary_tags:
+- c3 question
+- main national
+secondary_tags:
+- capital flows current account
+- capital flows trade chapter
+- trade surplus export success
+- international capital flows economic
+tags_extracted: '2025-12-18T00:29:00.184531'
 ---
 
 # Chapter 14

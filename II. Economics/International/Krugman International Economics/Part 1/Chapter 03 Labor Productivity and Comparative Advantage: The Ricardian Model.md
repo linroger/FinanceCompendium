@@ -1,12 +1,20 @@
 ---
 aliases:
-  - Labor Productivity and Comparative Advantage: The Ricardian Model
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Labor Productivity and Comparative Advantage: The Ricardian Model
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 03: Labor Productivity and Comparative Advantage: The Ricardian Model"
-linter-yaml-title-alias: "Chapter 03: Labor Productivity and Comparative Advantage: The Ricardian Model"
+title: 'Chapter 03: Labor Productivity and Comparative Advantage: The Ricardian Model'
+linter-yaml-title-alias: 'Chapter 03: Labor Productivity and Comparative Advantage:
+  The Ricardian Model'
+primary_tags:
+- productivity comparative advantage ricardian
+- determining relative price trade
+secondary_tags:
+- labor productivity comparative advantage
+- comparative advantage ricardian model
+tags_extracted: '2025-12-18T01:46:44.185556'
 ---
 
 # 3 Labor Productivity and Comparative Advantage: The Ricardian Model 50

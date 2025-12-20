@@ -1,3 +1,26 @@
+---
+primary_tags:
+- real exchange rate theory
+- long run exchange rates
+- long run trends causes
+- countries labor relative capital
+- countries purchasing power parity
+secondary_tags:
+- exchange rates relative ppp
+- exchange rates theory relationship
+- labor greater rich countries
+- intensive relative tradables labor
+- explain purchasing power parity
+- level inflation affect exchange
+- reason exchange rate changes
+- supply currencies influenced rates
+- ppp implies international differences
+- agents influence exchange rates
+- wage countries international difference
+- currencies does affect long
+tags_extracted: '2025-12-18T00:53:33.429721'
+---
+
 # PRICE LEVELS AND THE EXCHANGE RATE IN THE LONG RUN
 
 At the end of 1970, you could have bought 358 Japanese yen with a single American dollar; by Christmas 1980, a dollar was worth only 203 yen. Despite a temporary comeback during the 1980s, the dollar's price in yen slumped below 110 the summer of 2020. Many investors found these price changes difficult to predict, and as a result fortunes were lost—and made—in the foreign exchange market. What economic forces lie behind such dramatic long-term movements in exchange rates?

@@ -1,12 +1,37 @@
 ---
 aliases:
-  - The Changing World Order
-tags:
-key_concepts:
+- The Changing World Order
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
 title: The Changing World Order
 linter-yaml-title-alias: The Changing World Order
+primary_tags:
+- big cycle china currency
+- movement democratize china developed
+- currencies people world like
+- reserve currency power
+- brought experiences chinese people
+- gold dollar denominated debt
+secondary_tags:
+- prevailing world order cycles
+- economically countries used money
+- changing world order chapter
+- dollar accounts world international
+- dollar based monetary
+- helped china immensely said
+- currency probably important
+- view china unfairly
+- contents changing world
+- things helped world dollarized
+- support independence explained chinese
+- half international transactions dollar
+- americans borrow money
+- global lending dollars american
+- currency 115 changing world
+- accounts global reserves half
+tags_extracted: '2025-12-18T00:07:01.421216'
 ---
 
 # The Changing World Order

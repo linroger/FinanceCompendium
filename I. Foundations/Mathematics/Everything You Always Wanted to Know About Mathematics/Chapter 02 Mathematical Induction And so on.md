@@ -1,11 +1,37 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 2
 linter-yaml-title-alias: Chapter 2
+primary_tags:
+- different proofs
+- induction puzzle
+- some equations
+- mathematical rigor
+- fibonacci numbers
+- following questions
+secondary_tags:
+- mathematical induction
+- two example puzzles
+- puzzles learning
+- mathematically inductive definition
+- main goals
+- inductive structure
+- (3) challenge
+- few examples
+- last section
+- recursive program inductive
+- first one
+- any verbal explanations
+- some geometric arguments
+- new facts
+- geometric puzzle
+- one point
+tags_extracted: '2025-12-18T17:56:39.144721'
+tags_method: max_quality_v1
 ---
 
 # Chapter 2

@@ -1,12 +1,19 @@
 ---
 aliases:
-  - Financial Globalization: Opportunity and Crisis
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+- Financial Globalization: Opportunity and Crisis
+tags: null
+key_concepts: null
+parent_directory: '[[Krugman International Economics]]'
 cssclasses: academia
-title: "Chapter 20: Financial Globalization: Opportunity and Crisis"
-linter-yaml-title-alias: "Chapter 20: Financial Globalization: Opportunity and Crisis"
+title: 'Chapter 20: Financial Globalization: Opportunity and Crisis'
+linter-yaml-title-alias: 'Chapter 20: Financial Globalization: Opportunity and Crisis'
+primary_tags:
+- trade 654 risk aversion
+- 653 international capital market
+secondary_tags:
+- financial globalization opportunity crisis
+- 20 financial globalization
+tags_extracted: '2025-12-18T01:47:19.432359'
 ---
 
 # 20 Financial Globalization: Opportunity and Crisis 653

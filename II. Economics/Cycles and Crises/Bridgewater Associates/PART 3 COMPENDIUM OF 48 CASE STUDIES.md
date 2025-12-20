@@ -1,12 +1,41 @@
 ---
 aliases:
-  - Compendium of 48 Case Studies
-tags:
-key_concepts:
+- Compendium of 48 Case Studies
+tags: null
+key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: "Part 3: Compendium of 48 Case Studies"
-linter-yaml-title-alias: "Part 3: Compendium of 48 Case Studies"
+title: 'Part 3: Compendium of 48 Case Studies'
+linter-yaml-title-alias: 'Part 3: Compendium of 48 Case Studies'
+primary_tags:
+- currency weakness contributed high
+- american debt crisis argentina
+- peru experienced bubble driven
+- crisis peak gdp period
+- economic conditions ecuador
+- bubble debt crisis roots
+- attribution reflation period argentina
+secondary_tags:
+- navigating big debt crises
+- debt crises ray dalio
+- bubble pressures argentina
+- currency debt crises
+- attribution reflation period indonesia
+- deleveraging debt gdp went
+- debt levels left argentina
+- peru experienced classic hyperinflationary
+- rising inflation argentina financial
+- debt crisis typically involves
+- attribution reflation period ecuador
+- united states experienced bubble
+- sample debt crises deleveragings
+- financial crisis hungary suffered
+- attribution reflation period peru
+- 1980s latin american debt
+- nominal income rising ecuador
+- rising indonesia lower currency
+- economic conditions indonesia
+tags_extracted: '2025-12-18T00:04:20.558291'
 ---
 
 Principles

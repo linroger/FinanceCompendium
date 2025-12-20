@@ -1,3 +1,13 @@
+---
+primary_tags:
+- economic policy difference countries
+- trade policy objectives specifying
+secondary_tags:
+- trade policies economic development
+- analyzed instruments trade policy
+tags_extracted: '2025-12-18T00:52:39.001554'
+---
+
 # TRADE POLICY IN DEVELOPING COUNTRIES
 
 So far, we have analyzed the instruments of trade policy and its objectives without specifying the context—that is, without saying much about the country undertaking these policies. Each country has its own distinctive history and issues, but in discussing economic policy, one difference between countries becomes obvious: their income levels. As Table 11-1 suggests, nations differ greatly in their per-capita incomes. At one end of the spectrum are the developed or advanced nations, a club whose members include Western Europe, several countries largely settled by Europeans (including the United States), and Japan; these countries have per-capita incomes that in some cases exceed \$60,000 per year. Most of the world's population, however, lives in nations that are substantially poorer. The income range among these developing countries<sup>1</sup> is very wide. Some former developing countries, like South Korea, have graduated to advanced-country status. Others, such as Bangladesh, remain desperately poor. Nonetheless, for virtually all developing countries, the attempt to close the income gap with more advanced nations has been a central concern of economic policy.

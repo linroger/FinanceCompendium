@@ -1,24 +1,33 @@
+---
+title: Equity Valuation Models
+primary_tags:
+  - equity valuation models
+  - dividend discount models
+secondary_tags:
+  - price earnings ratios
+  - free cash flow valuation
+  - valuation by comparables
+  - book value limitations
+cssclasses: academia
+---
+
 # Equity Valuation Models
 
-# 18
+## 18
 
 AS OUR DISCUSSION of market efficiency indicated, finding undervalued securities will never be easy. Still, there are enough chinks in the armor of the efficient market hypothesis that the search for such securities should not be dismissed out of hand. Moreover, it is the ongoing search for mispriced securities that maintains a nearly efficient market. Even minor mispricing would allow stock market analysts to earn their salary.
 
-This chapter describes the valuation models that stock market analysts use to uncover mispriced securities. The models presented are the go-to tools used by fundamental analysts, those who use information concerning the current and prospective profitability of a company to assess its fair market value. We start with a discussion of alternative measures of the value of a company. From there, we progress to quantitative tools called dividend discount models, used to estimate the value of a firm as an ongoing concern. Next we turn to price-earnings, or P/E, ratios, explaining why they are of such interest to analysts but also highlighting some of their shortcomings. We explain how P/E ratios are tied to dividend valuation models and, more generally, to the growth prospects of the firm.
+This chapter describes the valuation models that stock market analysts use to uncover mispriced securities. The models presented are the go-to tools used by fundamental analysts, those who use information concerning the current and prospective profitability of a company to assess its fair market value. We start with a discussion of alternative measures of the value of a company. From there, we progress to quantitative tools called dividend discount models, used to estimate the value of a firm as an ongoing concern. Next we turn to price-earnings, or P/E, ratios, explaining why they are of such interest to analysts but also highlighting some of their shortcomings. We explain how P/E ratios are tied to dividend valuation models and, more generally, to the growth prospects of the firm. We close the chapter with a discussion and extended example of free cash flow models used by analysts to value firms based on forecasts of the cash flows that will be generated from the firms' business endeavors. Finally, we apply the several valuation tools covered in the chapter to a real firm and find some disparity in their conclusions—a conundrum that will confront any security analyst—and consider reasons for these discrepancies.
 
-
-We close the chapter with a discussion and extended example of free cash flow models used by analysts to value firms based on forecasts of the cash flows that will be generated from the firms' business endeavors. Finally, we apply the several valuation tools covered in the chapter to a real firm and find some disparity in their conclusions—a conundrum that will confront any security analyst—and consider reasons for these discrepancies.
-
-# 18.1 Valuation by Comparables
+## 18.1 Valuation by Comparables
 
 The purpose of fundamental analysis is to identify stocks that are mispriced relative to some measure of "true" or intrinsic value that can be derived from observable financial data. There are many convenient sources of relevant data. For U.S. companies, the Securities and Exchange Commission provides information at its EDGAR Web site, www.sec.gov/edgar.shtml. The SEC requires all public companies (except foreign companies and companies with less than 10 million in assets and 500 shareholders) to file registration statements, periodic reports, and other forms electronically through EDGAR. Anyone can access and download this information. Many Web sites such as finance.yahoo.com, money.msn.com, or finance.google.com also provide analysis and data derived from the EDGAR reports.
 
-
-Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is  \$287.12, and the total market value or capitalization of those shares (called market cap for short) is\$ 2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
+Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is \$287.12, and the total market value or capitalization of those shares (called market cap for short) is \$2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
 
 These valuation ratios are commonly used to assess the valuation of one firm compared to others in the same industry, and we will consider all of them. The column to the right gives comparable ratios for other firms in the software applications industry. For example, an analyst might note that Microsoft's price/earnings ratio is below the industry average. However, its ratio of market value to book value, the net worth of the company as reported on the balance sheet, as well as its price-to-sales and PEG ratios, are above industry norms. Clearly, rigorous valuation models will be necessary to sort through these conflicting signals of value.
 
-# Limitations of Book Value
+## Limitations of Book Value
 
 Shareholders in a firm are sometimes called "residual claimants," which means that the value of their stake is what is left over when the liabilities of the firm are subtracted
 
@@ -42,14 +51,14 @@ This idea is popular among economists, and the ratio of market price to replacem
 
 Although focusing on the balance sheet can give some useful information about a firm's liquidation value or its replacement cost, the analyst must usually turn to expected future cash flows for a better estimate of the firm's value as a going concern. We therefore turn to the quantitative models that analysts use to value common stock based on forecasts of future earnings and dividends.
 
-# 18.2 Intrinsic Value versus Market Price
+## 18.2 Intrinsic Value versus Market Price
 
 The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of \$4; the current price of a share,  $P_0$ , is \$48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
 
 The expected holding-period return is  $E(D_{1})$  plus the expected price appreciation,  $E(P_{1}) - P_{0}$ , all divided by the current price,  $P_{0}$ :
 
 $$
-\begin{array}{l} \text {E x p e c t e d H P R} = E (r) = \frac {E \left(D _ {1}\right) + \left[ E \left(P _ {1}\right) - P _ {0} \right]}{P _ {0}} \\ = \frac {4 + (52 - 48)}{48} = . 167, \text {or} 16.7 \% \\ \end{array}
+\begin{array}{l} \text{Expected HPR} = E(r) = \frac{E\left(D_{1}\right) + \left[E\left(P_{1}\right) - P_{0}\right]}{P_{0}} \\ = \frac{4 + (52 - 48)}{48} = .167, \text{or } 16.7\% \\ \end{array}
 $$
 
 Thus, the stock's expected holding-period return is the sum of the expected dividend yield,  $E(D_1) / P_0$ , and the expected rate of price appreciation, the capital gains yield,  $[E(P_1) - P_0] / P_0$ .
@@ -58,22 +67,23 @@ But what rate of return do investors require of ABC stock? The CAPM states that 
 
 Suppose that  $r_f = 6\%$ ,  $E(r_M) - r_f = 5\%$ , and the beta of ABC is 1.2. Then according to the CAPM, the value of  $k$  is
 
-$$ k = 6 \% +1.2\times 5 \% = 12 \%
+$$
+k = 6\% + 1.2 \times 5\% = 12\%
 $$
 
 The expected holding-period return on ABC,  $16.7\%$ , therefore exceeds the required rate of return by a margin of  $4.7\%$ . Naturally, the investor will want to include more of ABC stock in the portfolio than a passive strategy would indicate.
 
 Another way to see this is to compare the intrinsic value of a share to its market price. The intrinsic value, denoted  $V_{0}$ , is defined as the present value of all the cash flows the investor will receive (on a per-share basis), including dividends as well as the proceeds from the ultimate sale of the stock, discounted at the appropriate risk-adjusted interest rate,  $k$ . If the intrinsic value, or the investor's own estimate of what the stock is really worth, exceeds the market price, the stock is considered undervalued and a good investment.
 
-# Example 18.1 Price versus Intrinsic Value
+## Example 18.1 Price versus Intrinsic Value
 
 For ABC, using a 1-year investment horizon and a forecast that the stock can be sold at the end of the year at price P_{1} = \52, the intrinsic value is
 
 $$
-V _ {0} = \frac {E (D _ {1}) + E (P _ {1})}{1 + k} = \frac {\mathbb {S} 4 + \mathbb {S} 5 2}{1 . 1 2} = \mathbb {S} 5 0
+V_{0} = \frac{E(D_{1}) + E(P_{1})}{1 + k} = \frac{\$4 + \$52}{1.12} = \$50
 $$
 
-Equivalently, at a price of 50, the stock would provide the investor a 12 \%expected rate of return—just equal to the required rate of return. However, the actual stock price, \$ 48, is less than intrinsic value. At this price, it provides better than a fair rate of return relative to its risk. Using the terminology of the CAPM, ABC is a positive- alpha stock, and investors will want to buy more of it than they would following a passive strategy.
+Equivalently, at a price of 50, the stock would provide the investor a 12\% expected rate of return—just equal to the required rate of return. However, the actual stock price, \$48, is less than intrinsic value. At this price, it provides better than a fair rate of return relative to its risk. Using the terminology of the CAPM, ABC is a positive- alpha stock, and investors will want to buy more of it than they would following a passive strategy.
 
 Symmetrically, if the intrinsic value turns out to be less than the current market price, investors should buy less of it than under the passive strategy. It might even pay to go short on ABC stock, as we discussed in Chapter 3.
 
@@ -81,7 +91,7 @@ In equilibrium, the market price will reflect the intrinsic value estimates of a
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/85cc69d56cdb45927ab579259dd9a24aca5faa1a7db8cf073476640306e78623.jpg)
 
-# Concept Check 18.1
+## Concept Check 18.1
 
 You expect the price of IBX stock to be \$59.77 per share a year from now. Its current market price is \$50, and you expect it to pay a dividend one year from now of 2.15 per share.
 
@@ -89,24 +99,24 @@ a. What are the stock's expected dividend yield, its rate of price appreciation 
 b. If the stock has a beta of 1.15, the risk-free rate is  $6\%$  per year, and the expected rate of return on the market portfolio is  $14\%$  per year, what is the required rate of return on IBX stock?
 c. What is the intrinsic value of IBX stock, and how does it compare to the current market price?
 
-# 18.3 Dividend Discount Models
+## 18.3 Dividend Discount Models
 
 Consider an investor who buys a share of Steady State Electronics stock, planning to hold it for one year. The intrinsic value of the share is the present value of the dividend to be received at the end of the first year,  $D_{1}$ , and the expected sales price,  $P_{1}$ . We will henceforth use the simpler notation  $P_{1}$  instead of  $E(P_{1})$  to avoid clutter. Keep in mind, though, that future prices and dividends are unknown, and we are dealing with expected, not certain, values. We've already established
 
 $$
-V _ {0} = \frac {D _ {1} + P _ {1}}{1 + k} \tag {18.1}
+V_{0} = \frac{D_{1} + P_{1}}{1 + k} \tag{18.1}
 $$
 
 Although this year's dividends are fairly predictable given a company's history, you might ask how we can estimate  $P_{1}$ , the year-end price. According to Equation 18.1,  $V_{1}$  (the year-end intrinsic value) will be
 
 $$
-V _ {1} = \frac {D _ {2} + P _ {2}}{1 + k}
+V_{1} = \frac{D_{2} + P_{2}}{1 + k}
 $$
 
 If we assume the stock will be selling for its intrinsic value next year, then  $V_{1} = P_{1}$ , and we can substitute this value for  $P_{1}$  into Equation 18.1 to find
 
 $$
-V _ {0} = \frac {D _ {1}}{1 + k} + \frac {D _ {2} + P _ {2}}{(1 + k) ^ {2}}
+V_{0} = \frac{D_{1}}{1 + k} + \frac{D_{2} + P_{2}}{(1 + k)^{2}}
 $$
 
 This equation may be interpreted as the present value of dividends plus sales price for a 2-year holding period. Of course, now we need to come up with a forecast of  $P_{2}$ . Continuing in the same way, we can replace  $P_{2}$  by  $(D_{3} + P_{3}) / (1 + k)$ , which relates  $P_{0}$  to the value of dividends plus the expected sales price for a 3-year holding period.
@@ -114,64 +124,64 @@ This equation may be interpreted as the present value of dividends plus sales pr
 More generally, for a holding period of  $H$  years, we can write the stock value as the present value of dividends over the  $H$  years, plus the ultimate sale price,  $P_{H}$ :
 
 $$
-V _ {0} = \frac {D _ {1}}{1 + k} + \frac {D _ {2}}{(1 + k) ^ {2}} + \dots + \frac {D _ {H} + P _ {H}}{(1 + k) ^ {H}} \tag {18.2}
+V_{0} = \frac{D_{1}}{1 + k} + \frac{D_{2}}{(1 + k)^{2}} + \dots + \frac{D_{H} + P_{H}}{(1 + k)^{H}} \tag{18.2}
 $$
 
 Notice the similarity between this formula and the bond valuation formula we encountered in Chapter 14. Each relates price to the present value of a stream of payments (coupons in the case of bonds, dividends in the case of stocks) and a final payment (the face value of the bond, or the sales price of the stock). The key differences for stocks are the uncertainty of dividends, the lack of a fixed maturity date, and the unknown sales price at the horizon date. Indeed, one can continue to substitute for price indefinitely, to conclude
 
 $$
-V _ {0} = \frac {D _ {1}}{1 + k} + \frac {D _ {2}}{(1 + k) ^ {2}} + \frac {D _ {3}}{(1 + k) ^ {3}} + \dots \tag {18.3}
+V_{0} = \frac{D_{1}}{1 + k} + \frac{D_{2}}{(1 + k)^{2}} + \frac{D_{3}}{(1 + k)^{3}} + \dots \tag{18.3}
 $$
 
 Equation 18.3 states that the stock price should equal the present value of all expected future dividends into perpetuity. This formula is called the dividend discount model (DDM) of stock prices.
 
 It is tempting, but incorrect, to interpret Equation 18.3 as saying that the DDM focuses exclusively on dividends and ignores capital gains as a motive for investing in stock. Indeed, we assume explicitly in Equation 18.1 that capital gains (as reflected in the expected sales price,  $P_{1}$ ) are part of the stock's value. The reason only dividends appear in Equation 18.3 is not that investors ignore capital gains. It is instead that those capital gains will reflect dividend forecasts at the time the stock is sold. That is why in Equation 18.2 we can write the stock price as the present value of dividends plus sales price for any horizon date.  $P_{H}$  is the present value at time  $H$  of all dividends expected to be paid after the horizon date. That value is then discounted back to today, time 0. The DDM asserts that stock prices are determined ultimately by the cash flows accruing to stockholders, and those are dividends.
 
-# The Constant-Growth DDM
+## The Constant-Growth DDM
 
 Equation 18.3 as it stands is still not very useful because it requires dividend forecasts for every year into the indefinite future. To make the DDM practical, we need some simplifying assumptions. A useful and common first pass is to assume that dividends are trending upward at a stable growth rate that we will call  $g$ . For example, if  $g = .05$ , and the most recently paid dividend was  $D_0 = 3.81$ , expected future dividends are
 
 $$
-\begin{array}{l} D _ {1} = D _ {0} (1 + g) = 3. 8 1 \times 1. 0 5 = 4. 0 0 \\ D _ {2} = D _ {0} (1 + g) ^ {2} = 3. 8 1 \times (1. 0 5) ^ {2} = 4. 2 0 \\ D _ {3} = D _ {0} (1 + g) ^ {3} = 3. 8 1 \times (1. 0 5) ^ {3} = 4. 4 1 \\ \end{array}
+\begin{array}{l} D_{1} = D_{0}(1 + g) = 3.81 \times 1.05 = 4.00 \\ D_{2} = D_{0}(1 + g)^{2} = 3.81 \times (1.05)^{2} = 4.20 \\ D_{3} = D_{0}(1 + g)^{3} = 3.81 \times (1.05)^{3} = 4.41 \\ \end{array}
 $$ and so on. Assuming constant growth in Equation 18.3, we can write intrinsic value as
 
 
 $$
-V _ {0} = \frac {D _ {0} (1 + g)}{1 + k} + \frac {D _ {0} (1 + g) ^ {2}}{(1 + k) ^ {2}} + \frac {D _ {0} (1 + g) ^ {3}}{(1 + k) ^ {3}} + \dots
+V_{0} = \frac{D_{0}(1 + g)}{1 + k} + \frac{D_{0}(1 + g)^{2}}{(1 + k)^{2}} + \frac{D_{0}(1 + g)^{3}}{(1 + k)^{3}} + \dots
 $$
 
 This equation can be simplified to
 
 $$
-V _ {0} = \frac {D _ {0} (1 + g)}{k - g} = \frac {D _ {1}}{k - g} \tag {18.4}
+V_{0} = \frac{D_{0}(1 + g)}{k - g} = \frac{D_{1}}{k - g} \tag{18.4}
 $$
 
 Notice that we calculate intrinsic value by dividing  $D_{1}$  (not  $D_{0}$ ) by  $k - g$ . If the market capitalization rate for Steady State is  $12\%$ , the intrinsic value of a share of Steady State stock is
 
 $$
-\frac {\mathbb {S} 3 . 8 1 (1 + . 0 5)}{\cdot 1 2 - . 0 5} = \frac {\mathbb {S} 4 . 0 0}{\cdot 1 2 - . 0 5} = \mathbb {S} 5 7. 1 4
+\frac{\$3.81(1 + .05)}{.12 - .05} = \frac{\$4.00}{.12 - .05} = \$57.14
 $$
 
 Equation 18.4 is called the constant-growth DDM, or the Gordon model, after Myron Gordon, who popularized it. It should remind you of the formula for the present value of a perpetuity. If dividends were expected not to grow, then the dividend stream would be a simple perpetuity, and the valuation formula would be  $V_{0} = D_{1} / k$ . Equation 18.4 generalizes the perpetuity formula for the case of a growing perpetuity. For any given value of  $D_{1}$ , as  $g$  increases, the stock price also rises.
 
-# Example 18.2 Preferred Stock and the DDM
+## Example 18.2 Preferred Stock and the DDM
 
 Preferred stock that pays a fixed dividend can be valued using the constant-growth dividend discount model. The growth rate of dividends is simply zero. For example, to value a preferred stock paying a fixed dividend of 2 per share when the discount rate is 8\%, we compute
 
 $$
-V _ {0} = \frac {\mathbb {S} 2}{. 0 8 - 0} = \mathbb {S} 2 5
+V_{0} = \frac{\$2}{.08 - 0} = \$25
 $$
 
 Here is a proof. By definition,
 
 $$
-V _ {0} = \frac {D _ {1}}{1 + k} + \frac {D _ {1} (1 + g)}{(1 + k) ^ {2}} + \frac {D _ {1} (1 + g) ^ {2}}{(1 + k) ^ {3}} + \dots \tag {a}
+V_{0} = \frac{D_{1}}{1 + k} + \frac{D_{1}(1 + g)}{(1 + k)^{2}} + \frac{D_{1}(1 + g)^{2}}{(1 + k)^{3}} + \dots \tag{a}
 $$
 
 Multiplying through by  $(1 + k) / (1 + g)$ , we obtain
 
 $$
-\frac {(1 + k)}{(1 + g)} V _ {0} = \frac {D _ {1}}{(1 + g)} + \frac {D _ {1}}{(1 + k)} + \frac {D _ {1} (1 + g)}{(1 + k) ^ {2}} + \dots \tag {b}
+\frac{(1 + k)}{(1 + g)} V_{0} = \frac{D_{1}}{(1 + g)} + \frac{D_{1}}{1 + k} + \frac{D_{1}(1 + g)}{(1 + k)^{2}} + \dots \tag{b}
 $$
 
 Subtracting equation (a) from equation (b), we find that
@@ -186,25 +196,25 @@ $$
 $$
 
 $$
-V _ {0} = \frac {D _ {1}}{k - g}
+V_{0} = \frac{D_{1}}{k - g}
 $$
 
 Recall from introductory finance that the present value of a \$1-per-year perpetuity is 1/k. For example, if k = 10\%, the value of the perpetuity is \$1/.10 = 10. Notice that if g = 0 in Equation 18.4, the constant-growth DDM formula is the same as the perpetuity formula.
 
-# Example 18.3 The Constant-Growth DDM
+## Example 18.3 The Constant-Growth DDM
 
 High Flyer Industries has just paid its annual dividend of 3 per share. The dividend is expected to grow at a constant rate of 8 \% indefinitely. The beta of High Flyer stock is 1.0, the risk-free rate is 6 \%, and the market risk premium is 8 \%. What is the intrinsic value of the stock? What would be your estimate of intrinsic value if you believed that the stock was riskier, with a beta of 1.25?
 
-Because a  \$3 dividend has just been paid and the growth rate of dividends is 8\%$ , the forecast for the year-end dividend is 3 \times 1.08 = $3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
+Because a \$3 dividend has just been paid and the growth rate of dividends is 8\%, the forecast for the year-end dividend is 3 \times 1.08 = \$3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
 
 $$
-V _ {0} = \frac {D _ {1}}{k - g} = \frac {\mathbb {S} 3 . 2 4}{. 1 4 -. 0 8} = \mathbb {S} 5 4
+V_{0} = \frac{D_{1}}{k - g} = \frac{\$3.24}{.14 - .08} = \$54
 $$
 
 If the stock is perceived to be riskier, its value must be lower. At the higher beta, the market capitalization rate is  $6\% + 1.25 \times 8\% = 16\%$ , and the stock is worth only
 
 $$
-\frac {\mathbb {S} 3 . 2 4}{. 1 6 -. 0 8} = \mathbb {S} 4 0. 5 0
+\frac{\$3.24}{.16 - .08} = \$40.50
 $$
 
 The constant-growth DDM is valid only when  $g$  is less than  $k$ . If dividends were expected to grow forever at a rate faster than  $k$ , the value of the stock would be infinite. If an analyst derives an estimate of  $g$  greater than  $k$ , that growth rate must be unsustainable in the long run. The appropriate valuation model to use in this case is a multistage DDM such as those discussed below.
@@ -218,42 +228,42 @@ The constant-growth DDM is so widely used by stock market analysts that it is wo
 Another implication of the constant-growth model is that the stock price is expected to grow at the same rate as dividends. To see this, suppose Steady State stock is selling at its intrinsic value of \$57.14, so that  $V_{0} = P_{0}$ . Then
 
 $$
-P _ {0} = \frac {D _ {1}}{k - g}
+P_{0} = \frac{D_{1}}{k - g}
 $$
 
 Notice that price is proportional to dividends. Therefore, next year, when the dividends paid to Steady State stockholders are expected to be higher by  $g = 5\%$ , price also should increase by  $5\%$ . To confirm this, we can write
 
 $$
-D _ {2} = \ 4 (1. 0 5) = \ 4. 2 0
+D_{2} = \$4(1.05) = \$4.20
 $$
 
 $$
-P _ {1} = \frac {D _ {2}}{k - g} = \frac {\mathbb {S} 4 . 2 0}{. 1 2 -. 0 5} = \mathbb {S} 6 0. 0 0
+P_{1} = \frac{D_{2}}{k - g} = \frac{\$4.20}{.12 - .05} = \$60.00
 $$ which is  $5\%$  higher than the current price of 57.14. To generalize,
 
 
 $$
-P _ {1} = \frac {D _ {2}}{k - g} = \frac {D _ {1} (1 + g)}{k - g} = \frac {D _ {1}}{k - g} (1 + g) = P _ {0} (1 + g)
+P_{1} = \frac{D_{2}}{k - g} = \frac{D_{1}(1 + g)}{k - g} = \frac{D_{1}}{k - g}(1 + g) = P_{0}(1 + g)
 $$
 
 Therefore, the DDM implies that when dividends grow at a constant rate, the rate of price appreciation in any year will equal that growth rate,  $g$ . For a stock whose market price equals its intrinsic value  $(V_0 = P_0)$ , the expected holding-period return will be
 
 $$
-\begin{array}{l} E (r) = \text {D i v i d e n d y i e l d} + \text {C a p i t a l g a i n s y i e l d} \\ = \frac {D _ {1}}{P _ {0}} + \frac {P _ {1} - P _ {0}}{P _ {0}} = \frac {D _ {1}}{P _ {0}} + g \tag {18.5} \\ \end{array}
+\begin{array}{l} E(r) = \text{Dividend yield} + \text{Capital gains yield} \\ = \frac{D_{1}}{P_{0}} + \frac{P_{1} - P_{0}}{P_{0}} = \frac{D_{1}}{P_{0}} + g \tag{18.5} \\ \end{array}
 $$
 
 This formula allows us to infer the market capitalization rate, for if the stock is selling at its intrinsic value, then  $E(r) = k$ , implying that  $k = D_{1} / P_{0} + g$ . By observing the dividend yield,  $D_{1} / P_{0}$ , and estimating the (assumed steady) growth rate of dividends, we can compute  $k$ . This equation is also known as the discounted cash flow (DCF) formula.
 
 This approach is often used in rate hearings for regulated public utilities. The regulatory agency responsible for approving utility pricing decisions is mandated to allow the firms to charge just enough to cover costs plus a "fair" profit, that is, one that allows a competitive return on the investment the firm has made in its productive capacity. In turn, that return is taken to be the expected return investors require on the stock of the firm. The  $D_{1} / P_{0} + g$  formula allows us to infer that required return.
 
-# Example 18.4 The Constant-Growth Model
+## Example 18.4 The Constant-Growth Model
 
 Suppose that Steady State Electronics wins a major contract for its new computer chip. The very profitable contract will enable it to increase the growth rate of dividends from  $5 \%$ to  $6 \%$ without reducing the current dividend from the projected value of 4.00 per share. What will happen to the stock price? What will happen to future expected rates of return on the stock?
 
 The stock price ought to increase in response to the good news about the contract, and indeed it does. The stock price jumps from its original value of 57.14 to a post-announcement price of
 
 $$
-\frac {D _ {1}}{k - g} = \frac {\mathbb {S} 4 . 0 0}{. 1 2 -. 0 6} = \mathbb {S} 6 6. 6 7
+\frac{D_{1}}{k - g} = \frac{\$4.00}{.12 - .06} = \$66.67
 $$
 
 Investors who are holding the stock when the good news about the contract is announced will receive a substantial windfall.
@@ -261,21 +271,21 @@ Investors who are holding the stock when the good news about the contract is ann
 On the other hand, at the new price, the expected rate of return on the stock is  $12\%$ , just as it was before the new contract was announced:
 
 $$
-E (r) = \frac {D _ {1}}{P _ {0}} + g = \frac {\mathbb {S} 4.00}{\mathbb {S} 66.67} + . 06 = . 12, \text {or} 12 \%
+E(r) = \frac{D_{1}}{P_{0}} + g = \frac{\$4.00}{\$66.67} + .06 = .12, \text{or } 12\%
 $$
 
 This makes sense. Once the news about the contract is reflected in the stock price, the expected rate of return will be consistent with the risk of the stock. Because that risk has not changed, neither should the expected rate of return.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/ade427a3f95bc31be588bda195600d2785246f8ed394e941c9ad13f7c89899f5.jpg)
 
-# Concept Check 18.2 a. IBX's stock dividend at the end of this year is expected to be 2.15, and it is expected to grow at 11.2\% per year forever. If the required rate of return on IBX stock is 15.2\% per year, what is its intrinsic value?
+## Concept Check 18.2
 
 b. If IBX's current market price equals this intrinsic value, what is next year's expected price?
 c. If an investor buys IBX stock now and plans to sell it after receiving the 2.15 dividend a year from now, what is the expected capital gain (i.e., price appreciation) in percentage terms? What are the dividend yield and the expected holding-period return?
 
-# Convergence of Price to Intrinsic Value
+## Convergence of Price to Intrinsic Value
 
-Suppose that the current market price of ABC stock from Example 18.1 is only  \$48 per share and, therefore, that the stock is undervalued by\$ 2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
+Suppose that the current market price of ABC stock from Example 18.1 is only \$48 per share and, therefore, that the stock is undervalued by \$2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
 
 One fairly common assumption is that the discrepancy will never disappear and that the market price will trend upward at rate  $g$  forever. This implies that the discrepancy between intrinsic value and market price also will grow at the same rate. In our example:
 
@@ -284,7 +294,7 @@ One fairly common assumption is that the discrepancy will never disappear and th
 Under this assumption, the expected HPR will exceed the required rate because the dividend yield is higher than it would be if  $P_0$  were equal to  $V_0$ . In our example, the dividend yield would be  $8.33\%$  instead of  $8\%$ , so the expected HPR would be  $12.33\%$  rather than  $12\%$ :
 
 $$
-E (r) = \frac {D _ {1}}{P _ {0}} + g = \frac {\mathbb {S} 4}{\mathbb {S} 4 8} +. 0 4 = . 0 8 3 3 +. 0 4 = . 1 2 3 3
+E(r) = \frac{D_{1}}{P_{0}} + g = \frac{\$4}{\$48} + .04 = .0833 + .04 = .1233
 $$
 
 An investor who identifies this undervalued stock can get an expected dividend that exceeds the required yield by 33 basis points. This excess return is earned each year, and the market price never catches up to intrinsic value.
@@ -299,9 +309,9 @@ The assumption of complete catch-up to intrinsic value produces a much larger 1-
 
 Many stock analysts assume that a stock's price will approach its intrinsic value gradually over time—for example, over a 5-year period. This puts their expected 1-year HPR somewhere between the bounds of  $12.33\%$  and  $16.67\%$ .
 
-# Stock Prices and Investment Opportunities
+## Stock Prices and Investment Opportunities
 
-Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of  \$5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of\$ 5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
+Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of \$5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of \$5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
 
 Now suppose one of the firms, Growth Prospects, engages in projects that generate a return on investment of  $15\%$ , which is greater than the required rate of return,  $k = 12.5\%$ . It would be foolish for such a company to pay out all of its earnings as dividends. If Growth Prospects retains or plows back some of its earnings into its profitable projects, it can earn a  $15\%$  rate of return for its shareholders, whereas if it pays out all earnings as dividends, it forgoes the projects, leaving shareholders to invest the dividends in other opportunities at an expected rate of only  $12.5\%$ . Suppose, therefore, that Growth Prospects chooses a lower dividend payout ratio (the fraction of earnings paid out as dividends), reducing payout from  $100\%$  to  $40\%$ , maintaining a plowback ratio (the fraction of earnings reinvested in the firm) at  $60\%$ . The plowback ratio is also referred to as the earnings retention ratio.
 
@@ -312,11 +322,12 @@ The dividend of the company, therefore, will be 2 (40\% of 5 earnings) instead o
 
 Figure 18.1 illustrates the dividend streams generated by Growth Prospects under two dividend policies. A low-reinvestment-rate plan allows the firm to pay higher initial dividends but results in a lower dividend growth rate. Eventually, a high-reinvestment-rate plan will provide higher dividends. If the dividend growth generated by the reinvested earnings is high enough, the stock will be worth more under the high-reinvestment strategy.
 
-How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = \$15 million. There are 3 million shares of stock outstanding, so earnings per share are \$5, as posited above. If 60\% of the $15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = $9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
+How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = \$15 million. There are 3 million shares of stock outstanding, so earnings per share are \$5, as posited above. If 60\% of the \$15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = \$9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
 
 Now endowed with  $9\%$  more assets, the company earns  $9\%$  more income and pays out  $9\%$  higher dividends. The growth rate of the dividends, therefore, is
 
-$$ g = \mathrm {R O E} \times b = . 1 5 \times . 6 0 = . 0 9
+$$
+g = \mathrm{ROE} \times b = .15 \times .60 = .09
 $$
 
 For a given ROE and plowback ratio, the firm can grow at this rate indefinitely, so  $g$  is called the sustainable growth rate.
@@ -324,12 +335,13 @@ For a given ROE and plowback ratio, the firm can grow at this rate indefinitely,
 If the stock price equals its intrinsic value, and the ROE and payout ratios are consistent with the long-run capabilities of the firm, the stock should sell at
 
 $$
-P _ {0} = \frac {D _ {1}}{k - g} = \frac {\mathbb {S} 2}{. 1 2 5 -. 0 9} = \mathbb {S} 5 7. 1 4
+P_{0} = \frac{D_{1}}{k - g} = \frac{\$2}{.125 - .09} = \$57.14
 $$
 
 We can derive this relationship more generally by noting that with a fixed ROE, earnings (which equal ROE × book value) will grow at the same rate as the book value of the firm. Abstracting from issuance of new shares of stock, the growth rate of book value equals reinvested earnings/book value. Therefore,
 
-$$ g = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {B o o k v a l u e}} = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {T o t a l e a r n i n g s}} \times \frac {\text {T o t a l e a r n i n g s}}{\text {B o o k v a l u e}} = b \times \text {R O E}
+$$
+g = \frac{\text{Reinvested earnings}}{\text{Book value}} = \frac{\text{Reinvested earnings}}{\text{Total earnings}} \times \frac{\text{Total earnings}}{\text{Book value}} = b \times \text{ROE}
 $$
 
 When Growth Prospects pursued a no-growth policy and paid out all earnings as dividends, the stock price was only \$40. Therefore, you can think of \$40 as the value per share of the assets the company already has in place.
@@ -365,37 +377,38 @@ $$ which is no different from the no-growth strategy.
 When Cash Cow reduced dividends to free funds for reinvestment, it generated only enough growth to maintain the stock price at its current level. This makes sense: If the firm's projects yield only what investors can earn on their own, shareholders cannot be made better off by a high-reinvestment-rate policy. This demonstrates that "growth" is not the same as growth opportunities. To justify reinvestment, the firm must engage in projects with better prospective returns than those shareholders can find elsewhere. Notice also that the PVGO of Cash Cow is zero:  $\mathrm{PVGO} = P_0 - E_1 / k = 40 - 40 = 0$ . With ROE = k, there is no gain from plowing funds back into the firm. In fact, this is why firms with considerable cash flow but limited investment prospects are called "cash cows." The cash these firms generate is best taken out of, or "milked from," the firm.
 
 
-# Example 18.5 Growth Opportunities
+## Example 18.5 Growth Opportunities
 
 Takeover Target is run by entrenched management that stubbornly insists on reinvesting 60\% of its earnings in projects that provide an ROE of 10\%, despite the fact that the firm's capitalization rate is k = 15\%. The firm's year-end dividend will be \$2 per share, paid out of earnings of \$5 per share. At what price will the stock sell? What is the present value of growth opportunities? Why would such a firm be a takeover target for another firm?
 
 Given current management's investment policy, the dividend growth rate will be
 
-$$ g = R O E \times b = 10 \% \times .60 = 6 \%
+$$
+g = \mathrm{ROE} \times b = 10\% \times .60 = 6\%
 $$ and the stock price should be
 
 
 $$
-P _ {0} = \frac {\mathbb {S} 2}{. 1 5 -. 0 6} = \mathbb {S} 2 2. 2 2
+P_{0} = \frac{\$2}{.15 - .06} = \$22.22
 $$
 
 The present value of growth opportunities is
 
 $$
-\begin{array}{l} P V G O = \text {P r i c e p e r s h a r e - N o - g r o w t h v a l u e p e r s h a r e} \\ = \mathbb {S} 2 2. 2 2 - E _ {1} / k = \mathbb {S} 2 2. 2 2 - 5. 1 5 = - \mathbb {S} 1 1. 1 1 \\ \end{array}
+\begin{array}{l} \mathrm{PVGO} = \text{Price per share} - \text{No-growth value per share} \\ = \$22.22 - E_{1}/k = \$22.22 - \$33.33 = -\$11.11 \\ \end{array}
 $$
 
 PVGO is negative. This is because the net present value of the firm's projects is negative: The rate of return on those assets is less than the opportunity cost of capital.
 
-Such a firm would be vulnerable to takeover because another firm could buy the firm for the market price of 22.22 per share and increase the value of the firm by changing its investment policy. For example, if the new management simply paid out all earnings as dividends, the value of the firm would increase to its no-growth value, E_{1} / k = \5/.15 = \$33.33.
+Such a firm would be vulnerable to takeover because another firm could buy the firm for the market price of 22.22 per share and increase the value of the firm by changing its investment policy. For example, if the new management simply paid out all earnings as dividends, the value of the firm would increase to its no-growth value, E_{1}/k = \$5/.15 = \$33.33.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0e7c505b7b67d78509313c44e2aac3a97e9b06122969996cc143a8b7b1cce256.jpg)
 
-# Concept Check 18.3 a. Calculate the price of a firm with a plowback ratio of .60 if its ROE is  $20\%$ ; the coming year's earnings,  $E_{1}$ , will be \$5 per share; and  $k = 12.5\%$ .
+## Concept Check 18.3
 
 b. What if ROE is  $10\%$ , which is less than the market capitalization rate? Compare the firm's price in this instance to that of a firm with the same ROE and  $E_{1}$  but a plowback ratio of  $b = 0$ .
 
-# Life Cycles and Multistage Growth Models
+## Life Cycles and Multistage Growth Models
 
 As useful as the constant-growth DDM formula is, you need to remember that it is based on a strong simplifying assumption, namely, that the dividend growth rate will be constant forever. In fact, firms typically pass through life cycles with very different dividend profiles in different phases. In early years, there are ample opportunities for profitable reinvestment in the company. Payout ratios are low, and growth is correspondingly rapid.
 
@@ -422,24 +435,25 @@ Toyota's beta appears at the circled A, its recent stock price at the B, the per
 
 Value Line projects fairly rapid growth in the near term, with dividends increasing at about 7.6\% per year, from 4.45 in 2022 to 5.55 in 2025. This growth rate cannot be sustained indefinitely. We can obtain dividend inputs for this initial period by using the explicit forecasts for 2022 and 2025 and linear interpolation for the years between:
 
-<table><tr><td>2022</td><td>$4.45</td><td>2024</td><td>$5.18</td></tr><tr><td>2023</td><td>$4.81</td><td>2025</td><td>$5.55</td></tr></table>
+<table><tr><td>2022</td><td>\$4.45</td><td>2024</td><td>\$5.18</td></tr><tr><td>2023</td><td>\$4.81</td><td>2025</td><td>\$5.55</td></tr></table>
 
 Now let us assume the dividend growth rate levels off in 2025. What is a good guess for that steady-state growth rate? Value Line forecasts a dividend payout ratio of  $34\%$  and an ROE of  $9\%$ , implying long-term growth will be
 
-$$ g = \mathrm {ROE} \times b = 9 \% \times (1 -.34) = 5.94 \%
+$$
+g = \mathrm{ROE} \times b = 9\% \times (1 - .34) = 5.94\%
 $$ which Value Line rounds off to  $6\%$ .
 
 
 Our estimate of Toyota's intrinsic value using an investment horizon of 2025 is therefore obtained from Equation 18.2, which we restate here:
 
 $$
-\begin{array}{l} V _ {2 0 2 1} = \frac {D _ {2 0 2 2}}{1 + k} + \frac {D _ {2 0 2 3}}{(1 + k) ^ {2}} + \frac {D _ {2 0 2 4}}{(1 + k) ^ {3}} + \frac {D _ {2 0 2 5} + P _ {2 0 2 5}}{(1 + k) ^ {4}} \\ = \frac {4 . 4 5}{1 + k} + \frac {4 . 8 1}{(1 + k) ^ {2}} + \frac {5 . 1 8}{(1 + k) ^ {3}} + \frac {5 . 5 5 + P _ {2 0 2 5}}{(1 + k) ^ {4}} \\ \end{array}
+\begin{array}{l} V_{2021} = \frac{D_{2022}}{1 + k} + \frac{D_{2023}}{(1 + k)^{2}} + \frac{D_{2024}}{(1 + k)^{3}} + \frac{D_{2025} + P_{2025}}{(1 + k)^{4}} \\ = \frac{4.45}{1 + k} + \frac{4.81}{(1 + k)^{2}} + \frac{5.18}{(1 + k)^{3}} + \frac{5.55 + P_{2025}}{(1 + k)^{4}} \\ \end{array}
 $$
 
 Here,  $P_{2025}$  represents the forecast price at which we can sell our shares at the end of 2025, when dividends are assumed to enter their constant-growth phase. That price, according to the constant-growth DDM, should be
 
 $$
-P _ {2 0 2 5} = \frac {D _ {2 0 2 6}}{k - g} = \frac {D _ {2 0 2 5} (1 + g)}{k - g} = \frac {5 . 5 5 \times 1 . 0 6}{k - . 0 6}
+P_{2025} = \frac{D_{2026}}{k - g} = \frac{D_{2025}(1 + g)}{k - g} = \frac{5.55 \times 1.06}{k - .06}
 $$
 
 The only variable remaining to be determined to calculate intrinsic value is the market capitalization rate,  $k$ .
@@ -455,23 +469,24 @@ Source: Value Line Investment Survey, May 14, 2021. Reprinted with permission of
 Suppose that the market risk premium was forecast at  $8\%$ , roughly in line with its historical average. This would imply that the forecast for the market return was
 
 $$
-\text {Risk - free rate} + \text {Market risk premium} = 2 \% + 8 \% = 10 \%
+\text{Risk-free rate} + \text{Market risk premium} = 2\% + 8\% = 10\%
 $$
 
 Therefore, we can solve for the market capitalization rate as
 
-$$ k = r _ {f} + \beta [ E (r _ {M}) - r _ {f} ] = 2 \% + .8 \times (10 \% - 2 \%) = 8.4 \%
+$$
+k = r_{f} + \beta[E(r_{M}) - r_{f}] = 2\% + .8 \times (10\% - 2\%) = 8.4\%
 $$
 
 Our forecast for the stock price in 2025 is thus
 
 $$
-P _ {2 0 2 5} = \frac {\mathbb {S} 5 . 5 5 \times 1 . 0 6}{. 0 8 4 -. 0 6} = \mathbb {S} 2 4 5. 1 3
+P_{2025} = \frac{\$5.55 \times 1.06}{.084 - .06} = \$245.13
 $$ and today's estimate of intrinsic value is
 
 
 $$
-V _ {2 0 2 1} = \frac {4 . 4 5}{1 . 0 8 4} + \frac {4 . 8 1}{(1 . 0 8 4) ^ {2}} + \frac {5 . 1 8}{(1 . 0 8 4) ^ {3}} + \frac {5 . 5 5 + 2 4 5 . 1 3}{(1 . 0 8 4) ^ {4}} = \$ 1 9 3. 8 1
+V_{2021} = \frac{4.45}{1.084} + \frac{4.81}{(1.084)^{2}} + \frac{5.18}{(1.084)^{3}} + \frac{5.55 + 245.13}{(1.084)^{4}} = \$193.81
 $$
 
 We know from the Value Line report that Toyota's actual price was 152.23 (at the circled B). Our intrinsic value analysis indicates that the stock was considerably underpriced. Should we increase our holdings?
@@ -486,11 +501,11 @@ The exercise highlights the importance of performing sensitivity analysis. Your 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/62a58af57b9cb7531b189138e9e417bc78a68b9102e3cc54f854e754d91d0cf4.jpg)
 
-# Concept Check 18.4
+## Concept Check 18.4
 
 Confirm that the intrinsic value of Toyota using  $g = 5 \%$  is  $\$ 140.42$ . (Hint: First calculate the stock price in 2025. Then calculate the present value of all interim dividends plus the present value of the 2025 sales price.)
 
-# Multistage Growth Models
+## Multistage Growth Models
 
 The two-stage growth model that we just considered is a good start toward realism, but clearly we can do even better by allowing our valuation model to accommodate more flexible patterns of growth. Multistage growth models allow dividends to grow at several different rates as the firm matures. Many analysts use three-stage growth models. They may assume an initial period of high dividend growth (or instead make year-by-year forecasts of dividends for the short term), a final period of sustainable growth, and a transition period between, during which dividend growth rates taper off from the initial rapid rate to the ultimate sustainable rate. These models are conceptually no harder to work with than a two-stage model, but they require many more calculations and can be tedious to do by hand. But they are tailor-made for Excel.
 
@@ -500,25 +515,25 @@ Each dividend in the transition period is the previous year's dividend times tha
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td></tr><tr><td>1</td><td colspan="2">Inputs for Toyota</td><td></td><td>Year</td><td>Dividend</td><td>Div growth</td><td>Term value</td><td>Investor CF</td><td></td></tr><tr><td>2</td><td>beta</td><td>0.8</td><td></td><td>2022</td><td>4.45</td><td></td><td></td><td>4.45</td><td></td></tr><tr><td>3</td><td>mkt_prem</td><td>0.08</td><td></td><td>2023</td><td>4.81</td><td></td><td></td><td>4.81</td><td></td></tr><tr><td>4</td><td>rf</td><td>0.02</td><td></td><td>2024</td><td>5.18</td><td></td><td></td><td>5.18</td><td></td></tr><tr><td>5</td><td>k_equity</td><td>0.0840</td><td></td><td>2025</td><td>5.55</td><td></td><td></td><td>5.55</td><td></td></tr><tr><td>6</td><td>term_growth</td><td>0.050</td><td></td><td>2026</td><td>5.97</td><td>0.0764</td><td></td><td>5.97</td><td></td></tr><tr><td>7</td><td></td><td></td><td></td><td>2027</td><td>6.41</td><td>0.0738</td><td></td><td>6.41</td><td></td></tr><tr><td>8</td><td></td><td></td><td></td><td>2028</td><td>6.87</td><td>0.0711</td><td></td><td>6.87</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td>2029</td><td>7.34</td><td>0.0685</td><td></td><td>7.34</td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td>2030</td><td>7.83</td><td>0.0658</td><td></td><td>7.83</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td>2031</td><td>8.32</td><td>0.0632</td><td></td><td>8.32</td><td></td></tr><tr><td>12</td><td>Value line</td><td></td><td></td><td>2032</td><td>8.82</td><td>0.0606</td><td></td><td>8.82</td><td></td></tr><tr><td>13</td><td>forecasts of</td><td></td><td></td><td>2033</td><td>9.33</td><td>0.0579</td><td></td><td>9.33</td><td></td></tr><tr><td>14</td><td>annual dividends</td><td></td><td></td><td>2034</td><td>9.85</td><td>0.0553</td><td></td><td>9.85</td><td></td></tr><tr><td>15</td><td></td><td></td><td></td><td>2035</td><td>10.37</td><td>0.0526</td><td></td><td>10.37</td><td></td></tr><tr><td>16</td><td></td><td></td><td></td><td>2036</td><td>10.89</td><td>0.0500</td><td></td><td>10.89</td><td></td></tr><tr><td>17</td><td>Transitional period</td><td></td><td></td><td>2037</td><td>11.43</td><td>0.0500</td><td>353.05</td><td>364.48</td><td></td></tr><tr><td>18</td><td>with slowing dividend</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>growth</td><td></td><td></td><td></td><td></td><td></td><td></td><td>157.00</td><td>= PV of CF</td></tr><tr><td>20</td><td></td><td colspan="3">Beginning of constant</td><td colspan="3">E17 * (1+ F17)/(B5-F17)</td><td></td><td></td></tr><tr><td>21</td><td></td><td colspan="2">growth period</td><td></td><td></td><td></td><td></td><td colspan="2">NPV(B5,H2:H17)</td></tr></table>
 
-# Spreadsheet 18.1
+## Spreadsheet 18.1
 
 A three-stage growth model for Toyota
 
-# Excel
+## Excel
 
 Please visit us at www.mhhe.com/Bodie13e
 
 
-# 18.4 The Price-Earnings Ratio
+## 18.4 The Price-Earnings Ratio
 
-# The Price-Earnings Ratio and Growth Opportunities
+## The Price-Earnings Ratio and Growth Opportunities
 
 Much of the real-world discussion of stock market valuation concentrates on the firm's price-earnings multiple, the ratio of price per share to earnings per share, commonly called the P/E ratio. Our discussion of growth opportunities shows why stock market analysts focus on the P/E ratio. Both Cash Cow and Growth Prospects had earnings per share (EPS) of 5, but Growth Prospects reinvested 60\% of earnings in projects with an ROE of 15\%, whereas Cash Cow paid out all earnings as dividends. Cash Cow had a price of \$40, giving it a P/E multiple of 40/5 = 8.0, whereas Growth Prospects sold for \$57.14, giving it a multiple of 57.14/5 = 11.4. This observation suggests the P/E ratio might reflect expected growth opportunities.
 
 We can see how growth opportunities show up in P/E ratios by rearranging Equation 18.6 to
 
 $$
-\frac {P _ {0}}{E _ {1}} = \frac {1}{k} \left(1 + \frac {\text {P V G O}}{E / k}\right) \tag {18.7}
+\frac{P_{0}}{E_{1}} = \frac{1}{k} \left(1 + \frac{\text{PVGO}}{E/k}\right) \tag{18.7}
 $$
 
 When PVGO = 0, Equation 18.7 shows that  $P_0 = E_1 / k$ . The stock is valued like a non-growing perpetuity of  $E_1$ , and the P/E ratio is just  $1 / k$ . However, as PVGO becomes an increasingly dominant contributor to price, the P/E ratio can rise dramatically.
@@ -530,7 +545,7 @@ The ratio of PVGO to  $E / k$  has a straightforward interpretation. It is the r
 Google (Alphabet) is already a highly profitable firm, but its forward P/E ratio of about 26.4 in early 2022 indicates that it still has substantial growth opportunities. If its market capitalization rate is about  $10\%$ , then we can use Equation 18.7 to infer the ratio of its growth opportunities to assets in place:
 
 $$
-\frac {P _ {0}}{E _ {1}} = \frac {1}{k} \left[ 1 + \frac {\mathrm {P V G O}}{E / k} \right] = \frac {1}{. 1 0} \left[ 1 + \frac {\mathrm {P V G O}}{\mathrm {P V (A s s e t s i n p l a c e)}} \right] = 2 6. 4
+\frac{P_{0}}{E_{1}} = \frac{1}{k} \left[1 + \frac{\mathrm{PVGO}}{E/k}\right] = \frac{1}{.10} \left[1 + \frac{\mathrm{PVGO}}{\mathrm{PV(Assets\ in\ place)}}\right] = 26.4
 $$
 
 We solve to show that PVGO/PV(Assets in place) = 1.64. So Google's anticipated future investment opportunities are valued by the market at about two-thirds its existing business.
@@ -543,12 +558,12 @@ We conclude that the P/E ratio reflects the market's optimism concerning a firm'
 There is a way to make these insights more precise. Look again at the constant-growth DDM formula,  $P_0 = D_1 / (k - g)$ . Now recall that dividends equal the earnings that are not reinvested in the firm:  $D_1 = E_1(1 - b)$ . Recall also that  $g = \mathrm{ROE} \times b$ . Hence, substituting for  $D_1$  and  $g$ , we find that
 
 $$
-P _ {0} = \frac {E _ {1} (1 - b)}{k - \mathrm {R O E} \times b}
+P_{0} = \frac{E_{1}(1 - b)}{k - \mathrm{ROE} \times b}
 $$ implying the P/E ratio is
 
 
 $$
-\frac {P _ {0}}{E _ {1}} = \frac {1 - b}{k - \mathrm {R O E} \times b} \tag {18.8}
+\frac{P_{0}}{E_{1}} = \frac{1 - b}{k - \mathrm{ROE} \times b} \tag{18.8}
 $$
 
 It is easy to verify that the P/E ratio increases with ROE. This makes sense because high-ROE projects give the firm good opportunities for growth. We also can verify that the P/E ratio increases for higher plowback,  $b$ , as long as ROE exceeds  $k$ . This too makes sense. When a firm has good investment opportunities, the market will reward it with a higher P/E multiple if it exploits those opportunities more aggressively by plowing back more earnings into those opportunities.
@@ -557,7 +572,7 @@ However, growth is not desirable for its own sake. Examine Table 18.3, where we 
 
 This pattern has a simple interpretation. When the expected ROE is less than the required return,  $k$ , investors prefer that the firm pay out earnings as dividends rather than reinvest earnings in the firm at an inadequate rate of return. That is, for ROE lower than  $k$ , the value of the firm falls as plowback increases. Conversely, when ROE exceeds  $k$ , the firm offers attractive investment opportunities, so the value of the firm is enhanced as those opportunities are more fully exploited by increasing the plowback ratio.
 
-# Table 18.3
+## Table 18.3
 
 Effect of ROE and plowback on growth and the P/E ratio
 
@@ -573,7 +588,7 @@ Notwithstanding these fine points, P/E ratios frequently are taken as proxies fo
 
 The p/e ratio of any company that's fairly priced will equal its growth rate. I'm talking here about growth rate of earnings here. . . . If the p/e ratio of Coca Cola is 15, you'd expect the company to be growing at about  $15\%$  per year, etc. But if the p/e ratio is less than the growth rate, you may have found yourself a bargain. $^{8}$
 
-# Example 18.7 P/E Ratio versus Growth Rate
+## Example 18.7 P/E Ratio versus Growth Rate
 
 Let's try Lynch's rule of thumb. Assume that
 
@@ -585,19 +600,21 @@ $b = .4$  (a typical value for the plowback ratio in the United States)
 
 Therefore,  $r_{M} = r_{f} +$  market risk premium  $= 8\% + 8\% = 16\%$ , and  $k = 16\%$  for an average  $(\beta = 1)$  company. If we approximate ROE by  $16\%$  (the same value as the expected return on the stock), we conclude that
 
-$$ g = \mathrm {ROE} \times b = 16 \% \times .4 = 6.4 \%
+$$
+g = \mathrm{ROE} \times b = 16\% \times .4 = 6.4\%
 $$ and
 
 
 $$
-\frac {P}{E} = \frac {1 - . 4}{. 1 6 -. 0 6 4} = 6. 2 6
+\frac{P}{E} = \frac{1 - .4}{.16 - .064} = 6.26
 $$
 
 Thus, the P/E ratio and  $g$  are about equal using these assumptions, consistent with the rule of thumb.
 
 However, this rule of thumb, like almost all others, will not work in all circumstances. For example, the yield on long-term Treasury bonds today is more like  $2.0\%$ , so a comparable forecast of  $r_M$  would be
 
-$$ r _ {f} + \text {Market risk premium} = 2.0 \% + 8 \% = 10.0 \%
+$$
+r_{f} + \text{Market risk premium} = 2.0\% + 8\% = 10.0\%
 $$
 
 If we continue to focus on a firm with  $\beta = 1$ , and if ROE still is about the same as  $k$ , then
@@ -607,14 +624,14 @@ $$ while
 
 
 $$
-\frac {P}{E} = \frac {1 - . 4}{. 1 0 - . 0 4} = 1 0
+\frac{P}{E} = \frac{1 - .4}{.10 - .04} = 10
 $$
 
 The P/E ratio and  $g$  now diverge and the PEG ratio is now 2.5. Nevertheless, lower-than-average PEG ratios are still widely seen as signaling potential underpricing.
 
 The importance of growth opportunities is most evident in the valuation of start-up firms. For example, the market value of Tesla stock in 2021 was more than the combined value of Ford, GM, Honda, and Toyota. Yet its net income was less than one-tenth their combined income. The market was placing a huge value on Tesla's growth opportunities, reflecting in large part the competitive advantage it enjoyed from its big head start on electric cars and related battery technology.
 
-Of course, when company valuation is determined primarily by growth opportunities, those values can be very sensitive to reassessments of such prospects. For example, when Meta Platforms (the parent company of Facebook) reduced its forecast of revenue growth and a decline in users on February 3, 2022, its share price dropped by  $26\%$  in one day. The company's market capitalization fell by more than  $\$230$  billion, the largest-ever one-day dollar decline.
+Of course, when company valuation is determined primarily by growth opportunities, those values can be very sensitive to reassessments of such prospects. For example, when Meta Platforms (the parent company of Facebook) reduced its forecast of revenue growth and a decline in users on February 3, 2022, its share price dropped by  $26\%$  in one day. The company's market capitalization fell by more than \$230 billion, the largest-ever one-day dollar decline.
 
 As perceptions of future prospects wax and wane, share price can swing wildly, as Facebook illustrates. Growth prospects are intrinsically difficult to tie down; ultimately, however, those prospects drive the value of the most dynamic firms in the economy.
 
@@ -622,7 +639,7 @@ The nearby box contains a simple valuation analysis. Facebook's 2012 IPO was amo
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b404809e9425371ddd8d10c798adecf30afde470d2b5e377022df51f0c1bfa05.jpg)
 
-# Concept Check 18.5
+## Concept Check 18.5
 
 ABC stock has an expected ROE of  $12\%$  per year, expected earnings per share of  $\$ 2$ , and expected dividends of  $\$ 1.50$  per share. Its market capitalization rate is  $10\%$  per year.
 
@@ -652,11 +669,11 @@ The president of IPOdesktop.com, which analyzes IPOs for investors, estimated Fa
 
 However, much higher estimates also were offered. For example, an analyst at Wedge Partners believed the value could top \$100 billion. If Facebook traded at 15 to 18 times next year's EBITDA (expected earnings before interest, taxes, and certain noncash charges), it would result in a stock valuation of around \$89 billion. But if Facebook could generate faster growth in ad spending, that could justify a multiple as high as 20 times EBITDA, implying a \$110 billion valuation. By comparison, more mature companies such as Microsoft or Google traded at 7-10 times EBITDA. IPOdesktop was unconvinced, pointing out that at a \$100 billion valuation, Facebook would be worth about half as much as Google, even though Google's sales and profits were 10 times that of Facebook.
 
-In the end, based on its IPO price, the market valued Facebook at about 90 billion.
+In the end, based on its IPO price, the market valued Facebook at about \$90 billion.
 
 *The valuation estimates cited in this box appeared in Randall Smith, "Facebook's 100 Billion Question," *The Wall Street Journal*, February 3, 2012.
 
-# Pitfalls in P/E Analysis
+## Pitfalls in P/E Analysis
 
 No description of P/E analysis is complete without mentioning some of its pitfalls. First, consider that the denominator in the P/E ratio is accounting earnings, which are influenced by somewhat arbitrary rules such as the use of historical cost in depreciation and inventory valuation. In times of high inflation, historic cost depreciation and inventory costs will tend to underrepresent true economic values because the replacement cost of both goods and capital equipment will rise with the general level of prices. As Figure 18.3 demonstrates, P/E ratios generally have been inversely related to the inflation rate. In part, this reflects the market's assessment that earnings in high inflation periods are of "lower quality," artificially distorted by inflation, and warranting lower P/E ratios.
 
@@ -685,7 +702,7 @@ Nevertheless, Figures 18.4 and 18.5 demonstrate a clear relation between P/E rat
 
 This analysis suggests that P/E ratios should vary across industries, and in fact they do. Figure 18.6 shows P/E ratios for a sample of industries. Notice that some of the industries with the highest multiples—such as online retail or biotech—have attractive investment opportunities and relatively high growth rates, whereas the industries with the lowest ratios—for example, steel, chemicals, or tobacco—are in more mature or less profitable industries with limited growth opportunities. The relationship between P/E and growth is not perfect, which is not surprising in light of the pitfalls discussed in this section, but as a general rule, the P/E multiple does appear to track growth opportunities.
 
-# The Cyclically Adjusted P/E Ratio
+## The Cyclically Adjusted P/E Ratio
 
 To avoid the problems associated with using P/E ratios over different phases of the business cycle, Robert Shiller suggests a "cyclically adjusted" P/E ratio (CAPE). His idea is to divide the stock price by an estimate of sustainable long-term earnings rather than current earnings. He proposes using average inflation-adjusted earnings over an extended period, for example, 10 years.
 
@@ -709,15 +726,15 @@ Figure 18.7 CAPE versus conventional P/E ratio for the S&P 500
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/2c5a532fff49720776212aeff402418bfab63f3e0348674811a5cc504c2393a1.jpg)
 Source: Graph constructed using data obtained from Prof. Robert Shiller's Web site, www.econ.yale.edu/~shiller/data.htm
 
-# Combining P/E Analysis and the DDM
+## Combining P/E Analysis and the DDM
 
-Some analysts use P/E ratios in conjunction with earnings forecasts to estimate the price of a stock at an investor's horizon date. The Toyota analysis in Figure 18.2 shows that Value Line forecast a P/E ratio for 2025 of 12. EPS for 2025 was forecast at 16.35, implying a price in 2025 of 12 \times 16.35 = 196.20. Given this estimate for the 2025 sales price, we would compute intrinsic value in 2021 as
+Some analysts use P/E ratios in conjunction with earnings forecasts to estimate the price of a stock at an investor's horizon date. The Toyota analysis in Figure 18.2 shows that Value Line forecast a P/E ratio for 2025 of 12. EPS for 2025 was forecast at 16.35, implying a price in 2025 of 12 \times 16.35 = \$196.20. Given this estimate for the 2025 sales price, we would compute intrinsic value in 2021 as
 
 $$
-V _ {2 0 2 1} = \frac {4 . 4 5}{1 . 0 8 4} + \frac {4 . 8 1}{(1 . 0 8 4) ^ {2}} + \frac {5 . 1 8}{(1 . 0 8 4) ^ {3}} + \frac {5 . 5 5 + 1 9 6 . 2 0}{(1 . 0 8 4) ^ {4}} = \$ 1 5 8. 3 8
+V_{2021} = \frac{4.45}{1.084} + \frac{4.81}{(1.084)^{2}} + \frac{5.18}{(1.084)^{3}} + \frac{5.55 + 196.20}{(1.084)^{4}} = \$158.38
 $$
 
-# Other Comparative Valuation Ratios
+## Other Comparative Valuation Ratios
 
 The price-earnings ratio is an example of a comparative valuation ratio. Such ratios are used to assess the valuation of one firm versus another based on a fundamental indicator such as earnings. For example, an analyst might compare the P/E ratios of two firms in the same industry to test whether the market is valuing one firm "more aggressively" than the other. Other comparative ratios that are commonly used include the price-to-book ratio, the price-to-cash-flow ratio, and the price-to-sales ratio.
 
@@ -770,7 +787,7 @@ As in the dividend discount model, free cash flow models use a terminal value to
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td></tr><tr><td>1</td><td></td><td></td><td>2021</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>A. Input Data</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>P/E</td><td></td><td>12.50</td><td>12.38</td><td>12.25</td><td>12.13</td><td>12.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Cap spending/share</td><td></td><td>25.80</td><td>8.50</td><td>14.35</td><td>20.20</td><td>26.05</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>LT Debt ($M)</td><td></td><td>109,000</td><td>26,000</td><td>53,833</td><td>81,667</td><td>109,500</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Shares (million)</td><td></td><td>1,375</td><td>1,880</td><td>1,707</td><td>1,533</td><td>1,360</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>EPS</td><td></td><td>15.15</td><td>7.60</td><td>10.52</td><td>13.43</td><td>16.35</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Working capital</td><td></td><td>7,000</td><td>3,000</td><td>5,000</td><td>7,000</td><td>9,000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td colspan="2">B. Cash Flow Calculations</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>Profits ($M, after tax)</td><td></td><td>21,100</td><td>14,325</td><td>17,083</td><td>19,842</td><td>22,600</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>Interest ($M, after tax)</td><td></td><td>2,153</td><td>514</td><td>1,063</td><td>1,613</td><td>2,163</td><td colspan="6">= (1-tax_rate) × r_debt × LT debt</td></tr><tr><td>13</td><td>Chg working cap ($M)</td><td></td><td></td><td>-4,000</td><td>2,000</td><td>2,000</td><td>2,000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>Depreciation ($M)</td><td></td><td>16,000</td><td>18,000</td><td>17,833</td><td>17,667</td><td>17,500</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td>Cap Spending ($M)</td><td></td><td></td><td>15,980</td><td>22,463</td><td>28,945</td><td>35,428</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="6">Terminal value</td></tr><tr><td>17</td><td>FCFF ($M)</td><td></td><td></td><td>20,859</td><td>11,517</td><td>8,176</td><td>4,835</td><td>332,621</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>18</td><td>FCFE ($M)</td><td></td><td></td><td>-62,655</td><td>38,287</td><td>34,396</td><td>30,505</td><td>210,868</td><td colspan="5">assumes fixed debt ratio after 2023</td></tr><tr><td>19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td colspan="2">C. Discount Rate Calculations</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>21</td><td>Current beta</td><td>0.8</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="5">from Value Line</td></tr><tr><td>22</td><td>Unlevered beta</td><td>0.603</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="5">current beta/[1 + (1-tax)*debt/equity]</td></tr><tr><td>23</td><td>Terminal growth</td><td>0.05</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>24</td><td>tax_rate</td><td>0.21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>25</td><td>r_debt</td><td>0.025</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="5">YTM on LT debt</td></tr><tr><td>26</td><td>Risk-free rate</td><td>0.02</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>27</td><td>Market risk prem</td><td>0.08</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>28</td><td>MV equity</td><td></td><td>263,750</td><td></td><td></td><td></td><td>271,200</td><td></td><td colspan="5">Row 3 × Row 11</td></tr><tr><td>29</td><td>Debt/Value</td><td></td><td>0.2924</td><td>0.2912</td><td>0.2900</td><td>0.2888</td><td>0.2876</td><td></td><td colspan="5">linear trend from initial to final value</td></tr><tr><td>30</td><td>Levered beta</td><td></td><td>0.8000</td><td>0.7989</td><td>0.7977</td><td>0.7966</td><td>0.7955</td><td></td><td colspan="5">unlevered beta × [1 + (1-tax)*debt/equity]</td></tr><tr><td>31</td><td>k_equity</td><td></td><td>0.0840</td><td>0.0839</td><td>0.0838</td><td>0.0837</td><td>0.0836</td><td>0.0836</td><td colspan="5">from CAPM and levered beta</td></tr><tr><td>32</td><td>WACC</td><td></td><td>0.0652</td><td>0.0652</td><td>0.0652</td><td>0.0652</td><td>0.0653</td><td>0.0653</td><td colspan="5">(1-t)*r_debt*D/V + k_equity*(1-D/V)</td></tr><tr><td>33</td><td>PV factor for FCFF</td><td></td><td>1.0000</td><td>0.9388</td><td>0.8813</td><td>0.8273</td><td>0.7766</td><td>0.7766</td><td colspan="5">Discount each year at WACC</td></tr><tr><td>34</td><td>PV factor for FCFE</td><td></td><td>1.0000</td><td>0.9226</td><td>0.8512</td><td>0.7855</td><td>0.7248</td><td>0.7248</td><td colspan="5">Discount each year at k_equity</td></tr><tr><td>35</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>36</td><td>D. Present Values</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Intrinsic val</td><td>Equity val</td><td colspan="3">Intrin/share</td></tr><tr><td>37</td><td>PV(FCFF)</td><td></td><td></td><td>19,581</td><td>10,150</td><td>6,764</td><td>3,755</td><td>258,318</td><td></td><td>298,568</td><td>189,568</td><td colspan="2">137.87</td></tr><tr><td>38</td><td>PV(FCFE)</td><td></td><td></td><td>-57,805</td><td>32,592</td><td>27,017</td><td>22,112</td><td>152,847</td><td></td><td>176,763</td><td>176,763</td><td colspan="2">128.56</td></tr></table>
 
-# Spreadsheet 18.2
+## Spreadsheet 18.2
 
 Free cash flow valuation of Toyota on a multiple of EBIT, book value, earnings, or free cash flow. As a general rule, estimates of intrinsic value depend critically on terminal value.
 
@@ -788,7 +805,7 @@ The free cash flow to equity approach yields a similar intrinsic value for the s
 
 Spreadsheet 18.2 is available in Connect or through your course instructor.
 
-# Comparing the Valuation Models
+## Comparing the Valuation Models
 
 In principle, the free cash flow approach is fully consistent with the dividend discount model and should provide the same estimate of intrinsic value. This was demonstrated in two famous papers by Modigliani and Miller.[13] However, in practice, you will find that values from these models may differ, sometimes substantially. This is due to the fact that in practice, analysts are always forced to make simplifying assumptions. For example, how long will it
 
@@ -819,7 +836,7 @@ What should we make of these differences? There is an important lesson here. Mod
 
 On balance, therefore, this valuation exercise suggests that finding bargains is not generally going to be easy. Although applying these models is straightforward, establishing proper inputs is not. This should not be surprising. In even a moderately efficient market, finding profit opportunities will be more involved than analyzing financial data for a few hours. These models are extremely useful to analysts, however, because they provide ballpark estimates of intrinsic value. More than that, they force rigorous thought about underlying assumptions and highlight the variables with the greatest impact on value and the greatest payoff to further analysis.
 
-# The Problem with DCF Models
+## The Problem with DCF Models
 
 Our estimates of Toyota's intrinsic value are all based on discounted cash flow (DCF) models, in which we calculate the present value of forecasted cash flows and a terminal sales price at some future date. It is clear from our calculations that most of the action in these models is in the terminal value and that this value can be highly sensitive to even small changes in some input values (see, e.g., Concept Check 18.4). Therefore, you must recognize that DCF valuation estimates are almost always going to be imprecise. Growth opportunities and future growth rates are especially hard to pin down.
 
@@ -830,13 +847,13 @@ A somewhat less reliable component of value is the economic profit on assets alr
 
 Finally, the least reliable components of value are growth opportunities, the purported ability of firms like Apple to invest in positive-NPV ventures that contribute to high market valuations today. Value investors don't deny that such opportunities exist, but they are skeptical that precise values can be attached to them and, therefore, tend to be less willing to make investment decisions that depend on the value of those opportunities. We saw earlier that a good chunk of the market's assessment of Facebook's growth opportunities disappeared in one day when it reported disappointing earnings growth.
 
-# 18.6 The Aggregate Stock Market
+## 18.6 The Aggregate Stock Market
 
 The most popular approach to valuing the overall stock market is the earnings multiplier approach applied at the aggregate level. The first step is to forecast corporate profits for the coming period. Then we derive an estimate of the earnings multiplier, the aggregate P/E ratio, based on a forecast of long-term interest rates. The product of the two forecasts is the estimate of the end-of-period level of the market.
 
 The forecast of the P/E ratio of the market is sometimes derived from a graph similar to that in Figure 18.9, which plots the earnings yield (earnings per share divided by price per share, the reciprocal of the P/E ratio) of the S&P 500 and the yield to maturity on 10-year Treasury bonds. The two series clearly move together over time and suggest that this relationship and the current yield on 10-year Treasury bonds could help in forecasting the earnings yield on the S&P 500. Given the earnings yield, a forecast of earnings could be used to predict the level of the S&P in some future period. Let's illustrate with a simple example.
 
-# Example 18.8 Forecasting the Aggregate Stock Market
+## Example 18.8 Forecasting the Aggregate Stock Market
 
 In 2021, the forecast for 12-month earnings per share for the S&P 500 portfolio was about 196.36. The 10-year Treasury bond yield was about 1.75\%. As a first approach, we might posit that the spread between the earnings yield and the Treasury yield, which had averaged about 2\% in the previous three years, will remain at that level by the end of the year. Given a Treasury yield of 1.75\%, this would imply an earnings yield for the S&P of 3.75\%, and a P/E ratio of 1/.0375 = 26.67. Our forecast for the level of the S&P index would then be 196.36 \times 26.67 = 5,236. Given a current value for the S&P 500 of 4,420, this would imply a 1-year capital gain on the index of 816/4,420 = 18.5\%.
 
@@ -848,7 +865,7 @@ Figure 18.9 Earnings yield of S&P 500 versus 10-year Treasury-bond yield
 Table 18.4
 S&P 500 index forecasts under various scenarios
 
-<table><tr><td></td><td>Pessimistic Scenario</td><td>Most Likely Scenario</td><td>Optimistic Scenario</td></tr><tr><td>Treasury bond yield</td><td>2.25\%</td><td>1.75\%</td><td>1.25\%</td></tr><tr><td>Earnings yield</td><td>4.25\%</td><td>3.75\%</td><td>3.25\%</td></tr><tr><td>Resulting P/E ratio</td><td>23.53</td><td>26.67</td><td>30.77</td></tr><tr><td>EPS forecast</td><td>$196.36</td><td>$196.36</td><td>196.36</td></tr><tr><td>Forecast for S&amp;P 500</td><td>4,620</td><td>5,236</td><td>6,042</td></tr></table>
+<table><tr><td></td><td>Pessimistic Scenario</td><td>Most Likely Scenario</td><td>Optimistic Scenario</td></tr><tr><td>Treasury bond yield</td><td>2.25\%</td><td>1.75\%</td><td>1.25\%</td></tr><tr><td>Earnings yield</td><td>4.25\%</td><td>3.75\%</td><td>3.25\%</td></tr><tr><td>Resulting P/E ratio</td><td>23.53</td><td>26.67</td><td>30.77</td></tr><tr><td>EPS forecast</td><td>\$196.36</td><td>\$196.36</td><td>\$196.36</td></tr><tr><td>Forecast for S&amp;P 500</td><td>4,620</td><td>5,236</td><td>6,042</td></tr></table>
 
 Forecast for the earnings yield on the S&P 500 equals Treasury bond yield plus  $2.0\%$ . The P/E ratio is the reciprocal of the forecast earnings yield.
 
@@ -867,14 +884,16 @@ $$
 
 This version of the DDM assumes a constant value for  $g$ . There are more sophisticated multistage versions of the model for more-complex environments. When the constant-growth assumption is reasonably satisfied and the stock is selling for its intrinsic value, the formula can be inverted to infer the market capitalization rate for the stock:
 
-$$ k = \frac {D _ {1}}{P _ {0}} + g
+$$
+k = \frac{D_{1}}{P_{0}} + g
 $$
 
 5. The constant-growth dividend discount model is best suited for firms that are expected to exhibit stable growth rates over the foreseeable future. In reality, however, firms progress through life cycles. In early years, attractive investment opportunities are ample and the firm responds with high plowback ratios and rapid dividend growth. Eventually, however, growth rates level off to more sustainable values. Three-stage growth models are well suited to such a pattern. These models allow for an initial period of rapid growth, a final period of steady dividend growth, and a middle, or transition, period in which the dividend growth rate declines from its initial high rate to the lower sustainable rate.
 6. Stock market analysts devote considerable attention to a company's price-to-earnings ratio. The P/E ratio reflects the market's assessment of the firm's growth opportunities. Firms with no growth opportunities should have a P/E ratio that is the reciprocal of the capitalization rate,  $k$ . As growth opportunities become a progressively more important component of the total value of the firm, the P/E ratio will increase.
 7. The expected growth rate of earnings is related both to the firm's expected profitability and to its dividend policy. The relationship can be expressed as
 
-$$ g = (\text {R O E} \times (1 - \text {D i v i d e n d p a y o u t r a t i o})
+$$
+g = \text{ROE} \times (1 - \text{dividend payout ratio})
 $$
 
 8. You can relate any DDM to a simple capitalized earnings model by comparing the expected ROE on future investments to the market capitalization rate,  $k$ . If the two rates are equal, then the stock's intrinsic value equals expected earnings per share (EPS) divided by  $k$ .
@@ -882,9 +901,9 @@ $$
 10. The free cash flow approach is the one used most often in corporate finance. The analyst first estimates the value of the firm as the present value of expected future free cash flows to the entire firm and then subtracts the value of all claims other than equity. Alternatively, free cash flows to equity can be discounted at a rate appropriate to the risk of the stock.
 11. The models presented in this chapter can be used to explain and forecast the behavior of the aggregate stock market. The key macroeconomic variables that determine the level of stock prices in the aggregate are interest rates and corporate profits.
 
-# SUMMARY
+## SUMMARY
 
-# KEY TERMS book value
+## KEY TERMS
 
 liquidation value replacement cost
 Tobin's  $q$ intrinsic value (of a share)
@@ -897,7 +916,7 @@ sustainable growth rate present value of growth opportunities (PVGO)
 two-stage dividend discount model price-earnings multiple
 earnings management
 
-# KEY EQUATIONS
+## KEY EQUATIONS
 
 Intrinsic value:  $V_{0} = \frac{D_{1}}{1 + k} + \frac{D_{2}}{(1 + k)^{2}} + \dots + \frac{D_{H} + P_{H}}{(1 + k)^{H}}$
 
@@ -913,7 +932,7 @@ $\mathrm{FCFF} = \mathrm{EBIT}(1 - t_c) + \mathrm{Depreciation} - \mathrm{Capita
 
 Free cash flow to equity: FCFE = FCFF - Interest expense  $\times (1 - t_{c}) +$  Increases in net debt
 
-# PROBLEM SETS
+## PROBLEM SETS
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/004cea65f06f6785fe10101b1f6984a78378f2866d7d512003e9f319510a891d.jpg)
 

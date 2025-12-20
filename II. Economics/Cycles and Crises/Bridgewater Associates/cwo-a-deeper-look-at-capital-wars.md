@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Capital Wars from 1600 to the Present
 linter-yaml-title-alias: Capital Wars from 1600 to the Present
+primary_tags:
+- financial sanctions russia past
+- war pre 1900 capital
+- assets liquidated fund war
+secondary_tags:
+- capital conflicts
+- capital warfare blocking trade
+- decades historical capital wars
+- geopolitical capital wars instance
+- capital wars important lever
+- prior war escalating
+tags_extracted: '2025-12-18T00:12:05.992751'
 ---
 
 # Capital Wars from 1600 to the Present

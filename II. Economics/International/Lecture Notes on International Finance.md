@@ -1,3 +1,35 @@
+---
+primary_tags:
+- end array theta left
+- literature currency risks returns
+- lecture notes international finance
+- monetary triffin dilemma bretton
+- covariance term currency
+- normality foreign households euler
+- exchange rate cyclicality resolutions
+secondary_tags:
+- left log theta log
+- modeling currency risk premia
+- equilibrium currency risk premium
+- affects currency risk premium
+- journal international money finance
+- array beta frac theta
+- array frac alpha
+- households optimal international risk
+- international finance january 23
+- currency returns adopt arbitrage
+- stochastic properties exchange rate
+- foreign investors sdf covariance
+- currency return level jensen
+- views reserve currency paradigm
+- asset market view euler
+- equilibrium allocation home foreign
+- array mathbb left exp
+- left sum infty deltak
+- dollar exchange rate countercyclicality
+tags_extracted: '2025-12-18T01:49:39.851889'
+---
+
 # Zhengyang Jiang
 
 Kellogg School of Management, Northwestern University, and NBER

@@ -1,12 +1,38 @@
 ---
 aliases:
-  - Insurance Companies
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Insurance Companies
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 08: Insurance Companies"
-linter-yaml-title-alias: "Chapter 08: Insurance Companies"
+title: 'Chapter 08: Insurance Companies'
+linter-yaml-title-alias: 'Chapter 08: Insurance Companies'
+primary_tags:
+- pension fund
+- both life insurers
+- principal objectives
+- cash value products
+- regulatory structure
+- insurance types
+secondary_tags:
+- other collective investment products
+- risk catastrophe bonds
+- stock insurance companies
+- insurance property
+- investment level
+- mutual insurance types
+- mutual insurance company
+- term care insurance
+- insurance companies association
+- life insurance policy subject
+- each distinguishable category
+- life expectancies
+- account options
+- trade association
+- bond issuer
+- other market participants
+tags_extracted: '2025-12-18T04:09:02.011350'
+tags_method: max_quality_v1
 ---
 
 # 8

@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Secondary Markets
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Secondary Markets
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 18: Secondary Markets"
-linter-yaml-title-alias: "Chapter 18: Secondary Markets"
+title: 'Chapter 18: Secondary Markets'
+linter-yaml-title-alias: 'Chapter 18: Secondary Markets'
+primary_tags:
+- secondary market issuer asset
+- selling market timing cost
+- perfect market characteristics short
+- pricing efficiency refers market
+- executed market price efficient
+secondary_tags:
+- characteristics secondary markets
+- term efficient capital market
+- function securities markets explain
+- importance financial markets theoretical
+- internally efficient market
+- markets contents learning
+- market brokers necessary role
+- capital market distinction operationally
+- operating characteristics capital market
+- pricing efficiency market participants
+- order driven market structure
+- markets later chapters function
+tags_extracted: '2025-12-18T00:20:45.275968'
 ---
 
 # 18

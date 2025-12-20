@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Mathematical Postscripts 778
 linter-yaml-title-alias: Mathematical Postscripts 778
+primary_tags:
+- demand stability
+- 778 goods prices factor
+secondary_tags:
+- mathematical postscripts 778
+- factor proportions model 778
+tags_extracted: '2025-12-18T01:46:42.861909'
 ---
 
 # Mathematical Postscripts 778

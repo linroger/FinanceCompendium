@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Lecture Notes in International Trade
 linter-yaml-title-alias: Lecture Notes in International Trade
+primary_tags:
+- labor country respectively factor
+- economy trade policy
+- wage home comparative advantage
+- goods demand home labor
+- production good relative demand
+- produced average labor
+secondary_tags:
+- lecture notes international trade
+- students economics international trade
+- allocation capital labor computers
+- home productivity relative foreign
+- international trade world economy
+- production function exhibiting increasing
+- relative wage foreign produce
+- country absolute advantage goods
+- model international trade
+- cars outputtotal labor inputaverage
+- supply labor determines relative
+- comparative advantage example relative
+- determination capital labor ratio
+- countries analyze trade
+- growth world trade period
+- labor ratio used goods
+tags_extracted: '2025-12-18T01:48:06.843431'
 ---
 
 # Lecture Notes in International Trade

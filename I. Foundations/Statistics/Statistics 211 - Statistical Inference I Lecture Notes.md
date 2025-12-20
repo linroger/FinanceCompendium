@@ -1,3 +1,32 @@
+---
+primary_tags:
+- next class
+- some considerations
+- 6.2 fisher information
+- point and interval estimation
+- (complete class theorem
+- likelihood estimation
+secondary_tags:
+- empirical bayes
+- frequentist and bayesian decision analysis
+- minimal sufficiency
+- 1.1 class overview
+- 20.3 bayesian decision analysis
+- fisher information
+- likelihood ratio statistic
+- composite hypothesis
+- ancillary statistic
+- some hypothesis test
+- 7.2 method
+- predictive inference
+- relative fisher information
+- second method
+- frequentist coverage
+- (least favorable sequence
+tags_extracted: '2025-12-18T18:01:14.096257'
+tags_method: max_quality_v1
+---
+
 # Statistics 211: Statistical Inference I
 
 Eric K. Zhang ekzhang@college.harvard.edu

@@ -1,11 +1,32 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "National and International Accounts: Income, Wealth, and the Balance of Payments"
-linter-yaml-title-alias: "National and International Accounts: Income, Wealth, and the Balance of Payments"
+title: 'National and International Accounts: Income, Wealth, and the Balance of Payments'
+linter-yaml-title-alias: 'National and International Accounts: Income, Wealth, and
+  the Balance of Payments'
+primary_tags:
+- economy international flows
+- balance seen open economy
+- public saving government tax
+- money sent country
+- national international accounts
+secondary_tags:
+- conclusions barter international transactions
+- transactions relate national income
+- deficits cause current account
+- economic transactions countries
+- emigration capital transmission
+- exports called trade balance
+- external wealth conclusions
+- gdp paid foreign
+- rise public saving decline
+- balance payments money
+- macroeconomist measure economic transactions
+- economic resources exchanged
+tags_extracted: '2025-12-18T00:45:47.640534'
 ---
 
 # National and International Accounts: Income, Wealth, and the Balance of Payments

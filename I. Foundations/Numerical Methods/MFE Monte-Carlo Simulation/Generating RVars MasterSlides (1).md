@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
-title: "IEOR E4703: Monte-Carlo Simulation"
-linter-yaml-title-alias: "IEOR E4703: Monte-Carlo Simulation"
+title: 'IEOR E4703: Monte-Carlo Simulation'
+linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+primary_tags:
+- acceptance-rejection (ar) algorithm
+- monte carlo integration
+- inverse transform approach
+secondary_tags:
+- carlo integration generating variables
+- monte integration
+- random variables
+- random variable
+- some random variables
+- random vectors
+tags_extracted: '2025-12-18T17:58:57.570728'
+tags_method: max_quality_v1
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

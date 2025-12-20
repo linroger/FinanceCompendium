@@ -1,3 +1,31 @@
+---
+primary_tags:
+- profits currencies period
+- international macroeconomics
+- carry trade sharpe ratios
+- yen carry trade australian
+- defaulting dollarizing government imf
+- exchange rates short run
+secondary_tags:
+- positive strategy yen depreciated
+- debt default global macroeconomy
+- hypothesis carry trade profits
+- currencies equally weighted portfolio
+- imf bailout argentina
+- trade returns volatility sharpe
+- risk premium compensates lenders
+- exchange rate sum carry
+- lending rate equals risk
+- returns strategies positive currencies
+- example periods sharp yen
+- portfolio trades strategy supposes
+- returns forex market risk
+- foundation exchange rate theory
+- borrowed low rate currency
+- 1998 australian dollar lost
+tags_extracted: '2025-12-18T00:45:15.805627'
+---
+
 # Topics in International Macroeconomics
 
 Economics is a science of thinking in terms of models joined to the art of choosing models which are relevant to the contemporary world.

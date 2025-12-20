@@ -1,19 +1,52 @@
 ---
-aliases:
-  - Investments BKM
-tags:
-key_concepts:
-parent_directory: V. Equities and Alternatives/Equities
+title: Investments BKM
+primary_tags:
+  - investment theory
+  - portfolio management
+  - asset pricing
+  - security analysis
+  - risk management
+  - financial markets
+  - capital allocation
+  - portfolio optimization
+  - market efficiency
+  - behavioral finance
+secondary_tags:
+  - fixed income securities
+  - equity valuation
+  - derivatives pricing
+  - mutual funds
+  - efficient frontier
+  - capital asset pricing model
+  - arbitrage pricing theory
+  - market microstructure
+  - performance evaluation
+  - international diversification
+  - alternative assets
+  - active portfolio management
+  - investment policy
+  - CFA framework
+  - term structure models
+  - bond portfolio management
+  - option pricing theory
+  - futures markets
+  - swaps and derivatives
+  - credit risk management
+  - financial statement analysis
+  - macroeconomic analysis
+  - industry analysis
+  - venture capital
+  - private equity
 cssclasses: academia
-title: "Investments BKM"
 ---
 
 # Investments
-# Brief Contents
 
-# PARTI
+## Brief Contents
 
-# Introduction 1
+## PART I
+
+### Introduction 1
 
 1
 
@@ -27,15 +60,11 @@ Asset Classes and Financial Instruments 31
 
 How Securities Are Traded 61
 
-4
+4. Mutual Funds and Other Investment Companies 99
 
-Mutual Funds and Other Investment
+### PART II
 
-Companies 99
-
-# PART II
-
-# Portfolio Theory and Practice 125
+##### Portfolio Theory and Practice 125
 
 5
 
@@ -53,9 +82,9 @@ Efficient Diversification 201
 
 Index Models 251
 
-# PART III
+### PART III
 
-# Equilibrium in Capital Markets 283
+##### Equilibrium in Capital Markets 283
 
 9
 
@@ -77,9 +106,9 @@ Behavioral Finance and Technical Analysis 381
 
 Empirical Evidence on Security Returns 409
 
-# PART IV
+#### PART IV
 
-# Fixed-Income Securities 439
+### Fixed-Income Securities 439
 
 14
 
@@ -93,9 +122,9 @@ The Term Structure of Interest Rates 481
 
 Managing Bond Portfolios 509
 
-# PART V
+## PART V
 
-# Security Analysis 551
+### Security Analysis 551
 
 17
 
@@ -109,9 +138,9 @@ Equity Valuation Models 583
 
 Financial Statement Analysis 629
 
-# PART VI
+### PART VI
 
-# Options, Futures, and Other Derivatives 673
+###### Options, Futures, and Other Derivatives 673
 
 20
 
@@ -129,9 +158,9 @@ Futures Markets 763
 
 Futures, Swaps, and Risk Management 791
 
-# PART VII
+### PART VII
 
-# Applied Portfolio Management 827
+### Applied Portfolio Management 827
 
 24
 
@@ -145,39 +174,19 @@ International Diversification 867
 
 Alternative Assets 895
 
-27
+27. The Theory of Active Portfolio Management 935
 
-The Theory of Active Portfolio
+28. Investment Policy and the Framework of the CFA Institute 959
 
-Management 935
 
-28
 
-Investment Policy and the Framework of the
+#
 
-CFA Institute 959
+## PART I
 
-# REFERENCES TO CFA PROBLEMS 995
+### Introduction 1
 
-GLOSSARY G-1
-
-NAME INDEX I
-
-SUBJECT INDEX I-4
-
-NOTATION, FORMULAS F-1
-
-# Contents
-
-Preface xvi
-
-# PARTI
-
-# Introduction 1
-
-Chapter 1
-
-# The Investment Environment 1
+### Chapter 1: The Investment Environment 1
 
 1.1 Real Assets versus Financial Assets 2
 1.2 Financial Assets 3
@@ -192,9 +201,7 @@ The Risk-Return Trade-Off/ Efficient Markets
 
 1.6 The Players 13
 
-Financial Intermediaries / Investment Bankers / Venture Capital and Private Equity / Fintech, Financial Innovation, and Decentralized Finance
-
-Robo Advice / Blockchains / Cryptocurrencies / Digital Tokens / Digital Currency
+Financial Intermediaries / Investment Bankers / Venture Capital and Private Equity / Fintech, Financial Innovation, and Decentralized Finance / Robo Advice / Blockchains / Cryptocurrencies / Digital Tokens / Digital Currency
 
 1.7 The Financial Crisis of 2008-2009 19
 
@@ -204,9 +211,7 @@ Antecedents of the Crisis / Changes in Housing Finance / Mortgage Derivatives / 
 
 End of Chapter Material 27-30
 
-# Chapter 2
-
-# Asset Classes and Financial Instruments 31
+### Chapter 2: Asset Classes and Financial Instruments 31
 
 2.1 The Money Market 31
 
@@ -230,9 +235,7 @@ Options/Futures Contracts
 
 End of Chapter Material 56-60
 
-# Chapter 3
-
-# How Securities Are Traded 61
+### Chapter 3: How Securities Are Traded 61
 
 3.1 How Firms Issue Securities 61
 
@@ -264,9 +267,7 @@ NASDAQ / The New York Stock Exchange / ECNs
 
 3.5 New Trading Strategies 76
 
-Algorithmic Trading / High-Frequency Trading / Dark
-
-Pools / Internalization / Bond Trading
+Algorithmic Trading / High-Frequency Trading / Dark Pools / Internalization / Bond Trading
 
 3.6 Globalization of Stock Markets 80
 
@@ -284,19 +285,13 @@ Insider Trading
 
 End of Chapter Material 93-98
 
-Chapter 4
-
-# Mutual Funds and Other Investment Companies 99
+### Chapter 4: Mutual Funds and Other Investment Companies 99
 
 4.1 Investment Companies 99
 
 4.2 Types of Investment Companies 100
 
-Unit Investment Trusts / Managed Investment
-
-Companies / Exchange-Traded Funds / Other Investment
-
-Organizations
+Unit Investment Trusts / Managed Investment Companies / Exchange-Traded Funds / Other Investment Organizations
 
 Commingled Funds / Real Estate Investment Trusts
 
@@ -306,13 +301,7 @@ Commingled Funds / Real Estate Investment Trusts
 
 Investment Policies
 
-Money Market Funds / Equity Funds / Sector
-
-Funds / Bond Funds / International Funds /
-
-Balanced Funds / Asset Allocation and Flexible
-
-Funds / Index Funds
+Money Market Funds / Equity Funds / Sector Funds / Bond Funds / International Funds / Balanced Funds / Asset Allocation and Flexible Funds / Index Funds
 
 How Funds Are Sold
 
@@ -320,9 +309,7 @@ How Funds Are Sold
 
 Fee Structure
 
-Operating Expenses / Front-End Load / Back-End
-
-Load / 12b-1 Charges
+Operating Expenses / Front-End Load / Back-End Load / 12b-1 Charges
 
 Fees and Mutual Fund Returns
 
@@ -330,9 +317,7 @@ Fees and Mutual Fund Returns
 
 4.6 Exchange-Traded Funds 112
 
-4.7 Mutual Fund Investment Performance:
-
-A First Look 115
+4.7 Mutual Fund Investment Performance: A First Look 115
 
 4.8 Information on Mutual Funds 116
 
@@ -393,21 +378,15 @@ A Global View of the Historical Record
 
 5.8 Normality and Long-Term Investments 156
 
-Short-Run versus Long-Run Risk / Forecasts for the
-
-Long Haul
+Short-Run versus Long-Run Risk / Forecasts for the Long Haul
 
 End of Chapter Material 160-166
 
-# Chapter 6
-
-# Capital Allocation to Risky Assets 167
+### Chapter 6: Capital Allocation to Risky Assets 167
 
 6.1 Risk and Risk Aversion 168
 
-Risk, Speculation, and Gambling / Risk Aversion and
-
-Utility Values / Estimating Risk Aversion
+Risk, Speculation, and Gambling / Risk Aversion and Utility Values / Estimating Risk Aversion
 
 6.2 Capital Allocation across Risky and Risk-Free Portfolios 173
 6.3 The Risk-Free Asset 176
@@ -418,9 +397,7 @@ Non-normal Returns
 End of Chapter Material 187-195
 Appendix A: Risk Aversion, Expected Utility, and the St. Petersburg Paradox 196
 
-# Chapter 7
-
-# Efficient Diversification 201
+### Chapter 7: Efficient Diversification 201
 
 7.1 Diversification and Portfolio Risk 202
 7.2 Portfolios of Two Risky Assets 203
@@ -429,9 +406,7 @@ Asset Allocation with Two Risky Asset Classes
 7.4 The Markowitz Portfolio Optimization Model 216 Security Selection / Capital Allocation and the Separation Property / The Power of Diversification / Asset Allocation and Security Selection
 7.5 Risk Pooling, Risk Sharing, and Time Diversification 225 Risk Sharing versus Risk Pooling / Time Diversification End of Chapter Material 228-238 Appendix A: A Spreadsheet Model for Efficient Diversification 238 Appendix B: Review of Portfolio Statistics 243
 
-# Chapter 8
-
-# Index Models 251
+### Chapter 8: Index Models 251
 
 8.1 A Single-Factor Security Market 252 The Input List of the Markowitz Model / Systematic versus Firm-Specific Risk
 8.2 The Single-Index Model 254
@@ -454,9 +429,7 @@ End of Chapter Material 277-282
 
 # Equilibrium in Capital Markets 283
 
-# Chapter 9
-
-# The Capital Asset Pricing Model 283
+### Chapter 9: The Capital Asset Pricing Model 283
 
 9.1 The Capital Asset Pricing Model 283
 The Market Portfolio / The Passive Strategy Is Efficient / The Risk Premium of the Market Portfolio / Expected Returns on Individual Securities / The Security Market Line / The CAPM and the Single-Index Market
@@ -466,9 +439,7 @@ Identical Input Lists / Risk-Free Borrowing and the Zero-Beta Model / Labor Inco
 9.4 The CAPM and the Investment Industry 305
 End of Chapter Material 306-314
 
-# Chapter 10
-
-# Arbitrage Pricing Theory and Multifactor Models of Risk and Return 315
+### Chapter 10: Arbitrage Pricing Theory and Multifactor Models of Risk and Return 315
 
 10.1 Multifactor Models: A Preview 316
 
@@ -485,9 +456,7 @@ Estimating and Implementing a Three-Factor SML/ Extensions of the Three-Factor M
 
 End of Chapter Material 334-340
 
-Chapter 11
-
-# The Efficient Market Hypothesis 341
+### Chapter 11: The Efficient Market Hypothesis 341
 
 11.1 Random Walks and Efficient Markets 342
 
@@ -529,11 +498,7 @@ Stock Market Analysts / Mutual Fund Managers / So, Are Markets Efficient?
 
 End of Chapter Material 374-380
 
-Chapter 12
-
-# Behavioral Finance and Technical
-
-# Analysis 381
+### Chapter 12: Behavioral Finance and Technical Analysis 381
 
 12.1 The Behavioral Critique 382
 
@@ -569,9 +534,7 @@ A Warning
 
 End of Chapter Material 401-408
 
-Chapter 13
-
-# Empirical Evidence on Security Returns 409
+### Chapter 13: Empirical Evidence on Security Returns 409
 
 13.1 Two-Pass Tests of Asset Pricing 410
 
@@ -593,17 +556,15 @@ Size and B/M as Risk Factors / Behavioral Explanations / Momentum: A Fourth Fact
 
 13.5 The Equity Premium Puzzle 429
 
-Expected versus Realized Returns /Survivorship Bias / Extensions to the CAPM May Mitigate the Equity Premium Puzzle/Liquidity and the Equity Premium Puzzle/ Behavioral Explanations of the Equity Premium Puzzle
+Expected versus Realized Returns / Survivorship Bias / Extensions to the CAPM May Mitigate the Equity Premium Puzzle / Liquidity and the Equity Premium Puzzle / Behavioral Explanations of the Equity Premium Puzzle
 
 End of Chapter Material 435-438
 
-PART IV
+## PART IV
 
-# Fixed-Income Securities 439
+### Fixed-Income Securities 439
 
-Chapter 14
-
-# Bond Prices and Yields 439
+### Chapter 14: Bond Prices and Yields 439
 
 14.1 Bond Characteristics 440
 
@@ -611,21 +572,17 @@ Treasury Bonds and Notes
 
 Accrued Interest and Quoted Bond Prices
 
-# Contents
+
 
 Corporate Bonds
 
-Call Provisions on Corporate Bonds / Convertible
-
-Bonds / Puttable Bonds / Floating-Rate Bonds
+Call Provisions on Corporate Bonds / Convertible Bonds / Puttable Bonds / Floating-Rate Bonds
 
 Preferred Stock / Other Domestic Issuers / International
 
 Bonds / Innovation in the Bond Market
 
-Maturity / Inverse Floaters / Asset-Backed Bonds /
-
-Catastrophe Bonds / Indexed Bonds
+Maturity / Inverse Floaters / Asset-Backed Bonds / Catastrophe Bonds / Indexed Bonds
 
 14.2 Bond Pricing 446
 
@@ -633,36 +590,21 @@ Bond Pricing between Coupon Dates
 
 14.3 Bond Yields 451
 
-Yield to Maturity / Yield to Call / Realized Compound
-
-Return versus Yield to Maturity
+Yield to Maturity / Yield to Call / Realized Compound Return versus Yield to Maturity
 
 14.4 Bond Prices over Time 458
 
-Yield to Maturity versus Holding-Period Return / Zero
-
-Coupon Bonds and Treasury Strips / After-Tax Returns
+Yield to Maturity versus Holding-Period Return / Zero Coupon Bonds and Treasury Strips / After-Tax Returns
 
 14.5 Default Risk and Bond Pricing 463
 
-Junk Bonds / Determinants of Bond Safety / Bond dentures
+Junk Bonds / Determinants of Bond Safety / Bond Indentures / Sinking Funds / Subordination of Further Debt / Dividend Restrictions / Collateral
 
-
-Sinking Funds / Subordination of Further Debt /
-
-Dividend Restrictions / Collateral
-
-Yield to Maturity and Default Risk / Credit Default
-
-Swaps / Credit Risk and Collateralized Debt
-
-Obligations
+Yield to Maturity and Default Risk / Credit Default Swaps / Credit Risk and Collateralized Debt Obligations
 
 End of Chapter Material 474-480
 
-# Chapter 15
-
-# The Term Structure of Interest Rates 481
+### Chapter 15: The Term Structure of Interest Rates 481
 
 15.1 The Yield Curve 481
 
@@ -678,9 +620,7 @@ Returns / Forward Rates
 
 15.4 Theories of the Term Structure 491
 
-The Expectations Hypothesis / Liquidity Preference
-
-Theory / Market Segmentation
+The Expectations Hypothesis / Liquidity Preference Theory / Market Segmentation
 
 15.5 Interpreting the Term Structure 495
 
@@ -688,34 +628,21 @@ Theory / Market Segmentation
 
 End of Chapter Material 500-508
 
-# Chapter 16
-
-# Managing Bond Portfolios 509
+### Chapter 16: Managing Bond Portfolios 509
 
 16.1 Interest Rate Risk 510
 
-Interest Rate Sensitivity / Duration / What Determines
+Interest Rate Sensitivity / Duration / What Determines Duration?
 
-Duration?
-
-Rule 1 for Duration / Rule 2 for Duration / Rule 3 for
-
-Duration / Rule 4 for Duration / Rule 5 for Duration
+Rule 1 for Duration / Rule 2 for Duration / Rule 3 for Duration / Rule 4 for Duration / Rule 5 for Duration
 
 16.2 Convexity 519
 
-Why Do Investors Like Convexity? / Duration and
-
-Convexity of Callable Bonds / Duration and Convexity of
-
-Mortgage-Backed Securities
+Why Do Investors Like Convexity? / Duration and Convexity of Callable Bonds / Duration and Convexity of Mortgage-Backed Securities
 
 16.3 Passive Bond Management 527
 
-Bond-Index Funds / Immunization / Cash Flow Matching and Dedication / Other Problems with Conventional
-
-
-Immunization
+Bond-Index Funds / Immunization / Cash Flow Matching and Dedication / Other Problems with Conventional Immunization
 
 16.4 Active Bond Management 536
 
@@ -723,13 +650,11 @@ Sources of Potential Profit / Horizon Analysis
 
 End of Chapter Material 539-550
 
-# PART V
+## PART V
 
-# Security Analysis 551
+### Security Analysis 551
 
-# Chapter 17
-
-# Macroeconomic and Industry Analysis 551
+### Chapter 17: Macroeconomic and Industry Analysis 551
 
 17.1 The Global Economy 551
 
@@ -737,9 +662,7 @@ End of Chapter Material 539-550
 
 Key Economic Indicators
 
-Gross Domestic Product / Employment / Inflation /
-
-Interest Rates / Budget Deficit / Sentiment
+Gross Domestic Product / Employment / Inflation / Interest Rates / Budget Deficit / Sentiment
 
 17.3 Demand and Supply Shocks 556
 
@@ -753,26 +676,18 @@ The Business Cycle / Economic Indicators
 
 17.6 Industry Analysis 564
 
-Defining an Industry / Sensitivity to the Business Cycle /
+Defining an Industry / Sensitivity to the Business Cycle / Sector Rotation / Industry Life Cycles
 
-Sector Rotation / Industry Life Cycles
-
-Start-Up Stage / Consolidation Stage / Maturity Stage /
-
-Relative Decline
+Start-Up Stage / Consolidation Stage / Maturity Stage / Relative Decline
 
 Industry Structure and Performance
 
-Threat of Entry / Rivalry between Existing Competitors /
-
-Pressure from Substitute Products / Bargaining Power of Buyers / Bargaining Power of Suppliers
+Threat of Entry / Rivalry between Existing Competitors / Pressure from Substitute Products / Bargaining Power of Buyers / Bargaining Power of Suppliers
 
 
 End of Chapter Material 574-582
 
-# Chapter 18
-
-# Equity Valuation Models 583
+### Chapter 18: Equity Valuation Models 583
 
 18.1 Valuation by Comparables 583
 
@@ -782,16 +697,11 @@ Limitations of Book Value
 
 18.3 Dividend Discount Models 587
 
-The Constant-Growth DDM / Convergence of Price to Intrinsic Value / Stock Prices and Investment
-
-
-# Contents
-
-Opportunities / Life Cycles and Multistage Growth Models / Multistage Growth Models
+The Constant-Growth DDM / Convergence of Price to Intrinsic Value / Stock Prices and Investment Opportunities / Life Cycles and Multistage Growth Models / Multistage Growth Models
 
 18.4 The Price-Earnings Ratio 601
 
-The Price-Earnings Ratio and Growth Opportunities / P/E Ratios and Stock Risk / Pitfalls in P/E Analysis / The Cyclically Adjusted P/E Ratio / Combining P/E Analysis and the DDM / Other Comparative Valuation Ratios Price-to-Book Ratio / Price-to-Cash-Flow Ratio / Price-to-Sales Ratio / Be Creative
+The Price-Earnings Ratio and Growth Opportunities / P/E Ratios and Stock Risk / Pitfalls in P/E Analysis / The Cyclically Adjusted P/E Ratio / Combining P/E Analysis and the DDM / Other Comparative Valuation Ratios / Price-to-Book Ratio / Price-to-Cash-Flow Ratio / Price-to-Sales Ratio / Be Creative
 
 18.5 Free Cash Flow Valuation Approaches 611
 
@@ -801,9 +711,7 @@ Comparing the Valuation Models / The Problem with DCF Models
 
 End of Chapter Material 617-628
 
-# Chapter 19
-
-# Financial Statement Analysis 629
+### Chapter 19: Financial Statement Analysis 629
 
 19.1 The Major Financial Statements 629
 
@@ -813,7 +721,7 @@ The Income Statement / The Balance Sheet / The Statement of Cash Flows
 
 19.3 Profitability Measures 635
 
-Return on Assets, ROA / Return on Capital, ROC / Return on Equity, ROE / Financial Leverage and ROE / Economic Value Added
+Return on Assets (ROA) / Return on Capital (ROC) / Return on Equity (ROE) / Financial Leverage and ROE / Economic Value Added
 
 19.4 Ratio Analysis 639
 
@@ -829,20 +737,15 @@ Inventory Valuation / Depreciation / Inflation and Interest Expense / Fair Value
 
 End of Chapter Material 659-672
 
-# PART VI
+## PART VI
 
-# Options, Futures, and Other Derivatives 673
+### Options, Futures, and Other Derivatives 673
 
-# Chapter 20
-
-# Options Markets: Introduction 673
+### Chapter 20: Options Markets: Introduction 673
 
 20.1 The Option Contract 673
 
-Options Trading / American versus European Options / Adjustments in Option Contract Terms /
-
-The Options Clearing Corporation / Other
-Listed Options
+Options Trading / American versus European Options / Adjustments in Option Contract Terms / The Options Clearing Corporation / Other Listed Options
 Index Options / Futures Options / Foreign Currency Options / Interest Rate Options
 
 20.2 Values of Options at Expiration 679
@@ -867,9 +770,7 @@ Asian Options / Barrier Options / Lookback Options / Currency-Translated Options
 
 End of Chapter Material 703-714
 
-# Chapter 21
-
-# Option Valuation 715
+### Chapter 21: Option Valuation 715
 
 21.1 Option Valuation: Introduction 715
 
@@ -895,9 +796,7 @@ Hedge Ratios and the Black-Scholes Formula / Portfolio Insurance / Option Pricin
 
 End of Chapter Material 751-762
 
-# Chapter 22
-
-# Futures Markets 763
+### Chapter 22: Futures Markets 763
 
 22.1 The Futures Contract 763
 
@@ -917,29 +816,19 @@ The Spot-Futures Parity Theorem / Spreads / Forward versus Futures Pricing
 
 22.5 Futures Prices versus Expected Spot Prices 784
 
-Expectations Hypothesis / Normal Backwardation /
-
-Contango / Modern Portfolio Theory
+Expectations Hypothesis / Normal Backwardation / Contango / Modern Portfolio Theory
 
 End of Chapter Material 786-790
 
-# Chapter 23
-
-# Futures, Swaps, and Risk Management 791
+### Chapter 23: Futures, Swaps, and Risk Management 791
 
 23.1 Foreign Exchange Futures 791
 
-The Markets / Interest Rate Parity / Direct versus Indirect
-
-Quotes / Using Futures to Manage Exchange Rate Risk
+The Markets / Interest Rate Parity / Direct versus Indirect Quotes / Using Futures to Manage Exchange Rate Risk
 
 23.2 Stock-Index Futures 799
 
-The Contracts / Creating Synthetic Stock Positions: An
-
-Asset Allocation Tool / Index Arbitrage / Using Index
-
-Futures to Hedge Market Risk
+The Contracts / Creating Synthetic Stock Positions: An Asset Allocation Tool / Index Arbitrage / Using Index Futures to Hedge Market Risk
 
 23.3 Interest Rate Futures 804
 
@@ -947,39 +836,27 @@ Hedging Interest Rate Risk
 
 23.4 Swaps 806
 
-Swaps and Balance Sheet Restructuring / The Swap
-
-Dealer / Other Interest Rate Contracts / Swap Pricing /
-
-Credit Risk in the Swap Market / Credit Default Swaps
+Swaps and Balance Sheet Restructuring / The Swap Dealer / Other Interest Rate Contracts / Swap Pricing / Credit Risk in the Swap Market / Credit Default Swaps
 
 23.5 Commodity Futures Pricing 813
 
-Pricing with Storage Costs / Discounted Cash Flow
-
-Analysis for Commodity Futures
+Pricing with Storage Costs / Discounted Cash Flow Analysis for Commodity Futures
 
 End of Chapter Material 817-826
 
-# PART VII
+## PART VII
 
-# Applied Portfolio
+### Applied Portfolio Management 827
 
-# Management 827
+### Chapter 24
 
-# Chapter 24
-
-# Portfolio Performance Evaluation 827
+#### Portfolio Performance Evaluation 827
 
 24.1 The Conventional Theory of Performance Evaluation 827
 
-Average Rates of Return / Time-Weighted Returns versus
+Average Rates of Return / Time-Weighted Returns versus Dollar-Weighted Returns / Adjusting Returns for Risk / Risk-Adjusted Performance Measures / The Sharpe Ratio for Overall Portfolios
 
-Dollar-Weighted Returns / Adjusting Returns for Risk /
-
-Risk-Adjusted Performance Measures / The Sharpe Ratio for Overall Portfolios
-
-The  $\mathbf{M}^2$  Measure and the Sharpe Ratio
+The $\mathbf{M}^2$ Measure and the Sharpe Ratio
 
 The Treynor Ratio / The Information Ratio / The Role of Alpha in Performance Measures / Implementing
 
@@ -1011,24 +888,17 @@ Decisions / Summing Up Component Contributions
 
 End of Chapter Material 855-866
 
-# Chapter 25
+### Chapter 25
 
-# International Diversification 867
+#### International Diversification 867
 
 25.1 Global Markets for Equities 867
 
-Developed Countries / Emerging Markets / Market
-
-Capitalization and GDP / Home-Country Bias
+Developed Countries / Emerging Markets / Market Capitalization and GDP / Home-Country Bias
 
 25.2 Exchange Rate Risk and International Diversification 871
 
-Exchange Rate Risk / Investment Risk in International
-
-Markets / International Diversification / Are Benefits from International Diversification Preserved in
-
-
-Bear Markets?
+Exchange Rate Risk / Investment Risk in International Markets / International Diversification / Are Benefits from International Diversification Preserved in Bear Markets?
 
 25.3 Political Risk 882
 
@@ -1040,9 +910,9 @@ Performance Attribution
 
 End of Chapter Material 889-894
 
-# Chapter 26
+### Chapter 26
 
-# Alternative Assets 895
+#### Alternative Assets 895
 
 26.1 Alternative Assets 896
 
@@ -1056,11 +926,11 @@ Transparency / Investors / Investment Strategies /
 
 Liquidity / Investment Horizon / Fee Structure
 
-# Contents
+
 
 Role of Alternative Assets in Diversified Portfolios / Growth of Alternative Assets
 
-# 26.2 Hedge Funds 900
+#6.2 Hedge Funds 900
 
 Hedge Fund Strategies / Statistical Arbitrage / High-Frequency Strategies /
 
@@ -1070,15 +940,15 @@ Electronic Market Making / Electronic "Front Running"
 
 Portable Alpha
 
-# 26.3 Venture Capital and Angel Investors 905
+#### 26.3 Venture Capital and Angel Investors 905
 
 Angel Investors / Venture Capital / Venture Capital and Investment Stages / Fund Life Cycle / Private Equity Valuation / Venture Syndication / Venture Capital and Innovation
 
-# 26.4 Leveraged Buyout Funds 913
+#### 26.4 Leveraged Buyout Funds 913
 
 Leveraged Buyout Firm Structure / The Deal / Exits / Leveraged Buyouts and Innovation
 
-# 26.5 Performance Measurement for Alternative Investment Funds 916
+#### 26.5 Performance Measurement for Alternative Investment Funds 916
 
 Liquidity and Performance
 
@@ -1092,13 +962,13 @@ Grandstanding / Industry Specialization
 
 Efficient Frontier
 
-# 26.6 Fee Structure in Alternative Investments 926
+#### 26.6 Fee Structure in Alternative Investments 926
 
 Incentive Fees / Private Equity Chasing Waterfalls / Funds of Funds
 
 End of Chapter Material 928-934
 
-# Chapter 27
+### Chapter 27
 
 # The Theory of Active Portfolio Management 935
 
@@ -1114,27 +984,17 @@ Adjusting Forecasts for the Precision of Alpha / Distribution of Alpha Values / 
 
 Black-Litterman Asset Allocation Decision / Step 1: The Covariance Matrix from Historical Data / Step 2:
 
-Determination of a Baseline Forecast / Step 3:
+Determination of a Baseline Forecast / Step 3: Integrating the Manager's Private Views / Step 4: Revised (Posterior) Expectations / Step 5: Portfolio Optimization
 
-Integrating the Manager's Private Views / Step 4:
-
-Revised (Posterior) Expectations / Step 5: Portfolio
-
-Optimization
-
-# 27.4 Treynor-Black versus Black-Litterman: Complements, Not Substitutes 951
+#### 27.4 Treynor-Black versus Black-Litterman: Complements, Not Substitutes 951
 
 The BL Model as Icing on the TB Cake / Why Not Replace the Entire TB Cake with the BL Icing?
 
-# 27.5 The Value of Active Management 953
+#### 27.5 The Value of Active Management 953
 
-A Model for the Estimation of Potential Fees /
+A Model for the Estimation of Potential Fees / Results from the Distribution of Actual Information Ratios / Results from Distribution of Actual Forecasts
 
-Results from the Distribution of Actual Information
-
-Ratios / Results from Distribution of Actual Forecasts
-
-# 27.6 Concluding Remarks on Active Management 955
+#### 27.6 Concluding Remarks on Active Management 955
 
 End of Chapter Material 955-956
 
@@ -1142,73 +1002,47 @@ Appendix A: Forecasts and Realizations of Alpha 956
 
 Appendix B: The General Black-Litterman Model 957
 
-# Chapter 28
+### Chapter 28: Investment Policy and the Framework of the CFA Institute 959
 
-# Investment Policy and the Framework of the CFA Institute 959
+#### 28.1 The Investment Management Process 960
 
-# 28.1 The Investment Management Process 960
-
-# 28.2 Investor Objectives 962
+#### 28.2 Investor Objectives 962
 
 Individual Investors
 
-Personal Trusts / Mutual Funds / Pension Funds /
+Personal Trusts / Mutual Funds / Pension Funds / Endowment Funds / Life Insurance Companies / Non-Life Insurance Companies / Banks
 
-Endowment Funds / Life Insurance Companies /
+#### 28.3 Investor Constraints 966
 
-Non-Life Insurance Companies / Banks
+Liquidity / Investment Horizon / Regulations / Tax Considerations / Unique Needs
 
-# 28.3 Investor Constraints 966
-
-Liquidity / Investment Horizon / Regulations / Tax
-
-Considerations / Unique Needs
-
-# 28.4 Policy Statements 969
+#### 28.4 Policy Statements 969
 
 Sample Policy Statements for Individual Investors
 
-# 28.5 Asset Allocation 973
+#### 28.5 Asset Allocation 973
 
-Top-Down Asset Allocation for Institutional Investors /
+Top-Down Asset Allocation for Institutional Investors / Monitoring and Revising the Portfolio
 
-Monitoring and Revising the Portfolio
+#### 28.6 Managing Portfolios of Individual Investors 975
 
-# 28.6 Managing Portfolios of Individual Investors 975
+Investment in Residence / Saving for Retirement and the Assumption of Risk / Retirement Planning Models / Target Date Funds / Tax Sheltering and Asset Allocation
 
-Investment in Residence / Saving for Retirement and the Assumption of Risk / Retirement Planning Models /
+The Tax-Deferral Option / Tax-Protected Retirement Plans / Deferred Annuities / Variable and Universal Life Insurance
 
-Target Date Funds / Tax Sheltering and Asset Allocation
+#### 28.7 Pension Funds 981
 
-The Tax-Deferral Option / Tax-Protected Retirement
-
-Plans / Deferred Annuities / Variable and Universal
-
-Life Insurance
-
-# 28.7 Pension Funds 981
-
-Defined Contribution Plans / Defined Benefit Plans /
-
-Pension Investment Strategies
+Defined Contribution Plans / Defined Benefit Plans / Pension Investment Strategies
 
 Investing in Equities
 
 End of Chapter Material 984-994
 
-# REFERENCES TO CFA PROBLEMS 995
 
-# GLOSSARY G-1
 
-# NAME INDEX I
+### Chapter 1: The Investment Environment
 
-# SUBJECT INDEX I-4
 
-# NOTATION, FORMULAS F-1
-
-# The Investment Environment
-
-# 1
 
 AN INVESTMENT IS the current commitment of money or other resources in the expectation of reaping future benefits. For example, you might purchase shares of stock anticipating that the future proceeds will justify both the time your money is tied up as well as the risk of the investment. The time you will spend studying this text (not to mention its cost) also is an investment. You are forgoing either current leisure or the income you could be earning at a job in the expectation that your future career will be sufficiently enhanced to justify this commitment of time and effort. While these two investments differ in many ways, they share one key attribute that is central to all investments: You sacrifice something of value now, expecting to reap the benefits later.
 
@@ -1218,12 +1052,9 @@ Broadly speaking, this chapter addresses several topics that will provide perspe
 
 Given this background, we then take a first look at the types of decisions that confront investors as they assemble a portfolio of assets. These investment decisions are made in an environment where higher returns usually can be obtained only at the price of greater risk and in which it is rare to find assets that are so mispriced as to be obvious bargains. These themes—the risk-return trade-off and the efficient pricing of financial assets—are central to the investment process, so it is worth pausing for a brief discussion of their implications as we begin the text. These implications will be fleshed out in much greater detail in later chapters.
 
-We provide an overview of the organization of security markets as well as its key participants. Finally, we discuss the financial crisis that began playing out in 2007 and peaked in 2008. The crisis dramatically illustrated the connections between the financial system and the "real" side of the economy. We look at the origins of the crisis and the lessons that may be drawn
+We provide an overview of the organization of security markets as well as its key participants. Finally, we discuss the financial crisis that began playing out in 2007 and peaked in 2008. The crisis dramatically illustrated the connections between the financial system and the "real" side of the economy. We look at the origins of the crisis and the lessons that may be drawn about systemic risk. We close the chapter with an overview of the remainder of the text.
 
-
-about systemic risk. We close the chapter with an overview of the remainder of the text.
-
-# 1.1 Real Assets versus Financial Assets
+#### 1.1 Real Assets versus Financial Assets
 
 The material wealth of a society is ultimately determined by the productive capacity of its economy, that is, the goods and services its members can create. This capacity is a function of the real assets of the economy: the land, buildings, machines, and knowledge that can be used to produce goods and services.
 
@@ -1233,7 +1064,7 @@ While real assets generate net income to the economy, financial assets simply de
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/56883cc699a6667bcf48b31fad9687cdfc68e62aa4eaaba91288c8b32051e416.jpg)
 
-# Concept Check 1.1
+**Concept Check 1.1**
 
 Are the following assets real or financial?
 
@@ -1248,7 +1079,7 @@ You might wonder why real assets held by households in Table 1.1 amount to \$44,
 
 <table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Real estate</td><td>\$ 37,558</td><td>24.4\%</td><td>Mortgages</td><td>\$ 11,331</td><td>7.4\%</td></tr><tr><td>Consumer durables</td><td>6362</td><td>4.1\%</td><td>Consumer credit</td><td>4,163</td><td>2.7\%</td></tr><tr><td>Other</td><td>679</td><td>0.4\%</td><td>Bank and other loans</td><td>1,125</td><td>0.7\%</td></tr><tr><td>Total real assets</td><td>\$ 44,599</td><td>28.9\%</td><td>Other</td><td>624</td><td>0.4\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$ 17,244</td><td>11.2\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and money market shares</td><td>\$ 17,374</td><td>11.3\%</td><td></td><td></td><td></td></tr><tr><td>Life insurance reserves</td><td>1,854</td><td>1.2\%</td><td></td><td></td><td></td></tr><tr><td>Pension reserves</td><td>29,876</td><td>19.4\%</td><td></td><td></td><td></td></tr><tr><td>Corporate equity</td><td>28,285</td><td>18.3\%</td><td></td><td></td><td></td></tr><tr><td>Equity in noncorp. business</td><td>13,114</td><td>8.5\%</td><td></td><td></td><td></td></tr><tr><td>Mutual fund shares</td><td>11,661</td><td>7.6\%</td><td></td><td></td><td></td></tr><tr><td>Debt securities</td><td>5,772</td><td>3.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>1,626</td><td>1.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$109,562</td><td>71.1\%</td><td>Net worth</td><td>136,917</td><td>88.8\%</td></tr><tr><td>TOTAL</td><td>$154,161</td><td>100.0\%</td><td></td><td>$154,161</td><td>100.0\%</td></tr></table>
 
-# Table 1.1
+**Table 1.1**
 
 Balance sheet of U.S. households
 
@@ -1264,13 +1095,13 @@ Source: Flow of Funds Accounts of the United States, Board of Governors of the
 
 Federal Reserve System, June 2021.
 
-# Table 1.2
+**Table 1.2**
 
 Domestic net worth
 
 We will focus almost exclusively on financial assets. But keep in mind that the successes or failures of these financial assets ultimately depend on the performance of the underlying real assets.
 
-# 1.2 Financial Assets
+### 1.2 Financial Assets
 
 It is common to distinguish among three broad types of financial assets: fixed income, equity, and derivatives. Fixed-income or debt securities promise either a fixed stream of income or a stream of income determined by a specified formula. For example, a corporate bond typically promises the bondholder a fixed amount of interest each year. Other so-called floating-rate bonds promise payments that depend on current interest rates. For example, a bond may pay an interest rate fixed at 2 percentage points above the rate paid on U.S. Treasury bills. Unless the borrower is declared bankrupt, the payments on these securities are either fixed or determined by formula. For this reason, the investment performance of debt securities typically is least closely tied to the financial condition of the issuer.
 
@@ -1283,7 +1114,7 @@ Finally, derivative securities such as options and futures contracts provide pay
 
 Derivatives have become an integral part of the investment environment. One use of derivatives, perhaps the primary use, is to hedge risks or transfer them to other parties. This is done successfully every day, and the use of these securities for risk management is so commonplace that the multitrillion-dollar market in derivative assets is routinely taken for granted. Derivatives also can be used to take highly speculative positions, however. Every so often, one of these positions blows up, resulting in well-publicized losses of hundreds of millions of dollars. While these losses attract considerable attention, they are in fact the exception to the more common use of such securities as risk management tools. Derivatives will continue to play an important role in portfolio construction and the financial system. We will return to this topic later in the text.
 
-Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over  \$2 trillion of currency is traded each day and worldwide trading volume exceeds\$ 6 trillion.
+Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over \$2 trillion of currency is traded each day and worldwide trading volume exceeds \$6 trillion.
 
 Investors also might invest directly in some real assets. For example, dozens of commodities are traded on exchanges such as the New York Mercantile Exchange or the Chicago Board of Trade. You can buy or sell corn, wheat, natural gas, gold, silver, and so on.
 
@@ -1293,7 +1124,7 @@ Commodity and derivative markets allow firms to adjust their exposure to various
 
 We stated earlier that real assets determine the wealth of an economy, while financial assets merely represent claims on real assets. Nevertheless, financial assets and the markets in which they trade play several crucial roles in developed economies. Financial assets allow us to make the most of the economy's real assets.
 
-# The Informational Role of Financial Markets
+#### The Informational Role of Financial Markets
 
 Stock prices reflect investors' collective assessment of a firm's current performance and future prospects. When the market is more optimistic about the firm, its share price will rise. That higher price makes it easier for the firm to raise capital and therefore encourages investment. In this manner, stock prices play a major role in the allocation of capital in market economies, directing it to the firms and applications with the greatest perceived potential. For example, in 2021, big investors poured huge investments into startup firms focusing on new battery technologies that could store energy created by renewables such as wind or solar power. The prospect of big profits if this technology pans out prompted investors to allocate their funds toward these ventures. This dynamic was a good example of market incentives directing capital to applications where there is the prospect of a large payoff.
 
@@ -1303,17 +1134,17 @@ The process seems highly wasteful. But we need to be careful about our standard 
 
 You may well be skeptical about resource allocation through markets. But if you are, take a moment to think about the alternatives. Would a central planner make fewer mistakes? Would you prefer that Congress make these decisions? To paraphrase Winston Churchill's comment about democracy, markets may be the worst way to allocate capital except for all the others that have been tried.
 
-# Consumption Timing
+#### Consumption Timing
 
 Some individuals are earning more than they currently wish to spend. Others, for example, retirees, spend more than they currently earn. How can you shift your purchasing power from high-earnings to low-earnings periods of life? One way is to "store" your wealth in financial assets. In high-earnings periods, you can invest your savings in financial assets such as stocks and bonds. In low-earnings periods, you can sell these assets to provide funds for your consumption needs. By so doing, you can "shift" your consumption over the course of your lifetime, thereby allocating your consumption to periods that provide the greatest satisfaction. Thus, financial markets allow individuals to separate decisions concerning current consumption from constraints that otherwise would be imposed by current earnings.
 
-# Allocation of Risk
+#### Allocation of Risk
 
 Virtually all real assets involve some risk. When Toyota builds its auto plants, for example, it cannot know for sure what cash flows those plants will generate. Financial markets and the diverse financial instruments traded in those markets allow investors with the greatest taste for risk to bear that risk, while other, less risk-tolerant individuals can, to a greater extent, stay on the sidelines. For example, if Toyota raises the funds to build its auto plant by selling both stocks and bonds to the public, the more optimistic or risk-tolerant investors can buy shares of its stock, while the more conservative ones can buy its bonds. Because the bonds promise to provide a fixed payment, the stockholders bear most of the business risk but reap potentially higher rewards. Thus, capital markets allow the risk that is inherent to all investments to be borne by the investors most willing to bear it.
 
 This allocation of risk also benefits the firms that need to raise capital to finance their investments. When investors are able to select security types with the risk-return characteristics that best suit their preferences, each security can be sold for the best possible price. This facilitates the process of building the economy's stock of real assets.
 
-# Separation of Ownership and Management
+#### Separation of Ownership and Management
 
 Many businesses are owned and managed by the same individual. This simple organization is well suited to small businesses and, in fact, was the most common form of business organization before the Industrial Revolution. Today, however, with global markets and large-scale production, the size and capital requirements of firms have skyrocketed. For example, at the end in 2021, Chevron listed on its balance sheet about  \$156 billion of property, plant, and equipment and total assets of\$ 240 billion. Corporations of such size simply cannot exist as owner-operated firms. Chevron actually has tens of thousands of stockholders with an ownership stake in the firm proportional to their holdings of shares.
 
@@ -1346,7 +1177,7 @@ Finally, bad performers are subject to the threat of takeover. If the board of d
 
 However, in recent years, the odds of a successful proxy contest have increased along with the rise of so-called activist investors. These are large and deep-pocketed investors, often hedge funds, that identify firms they believe to be mismanaged in some respect. They buy large positions in shares of those firms and then campaign for slots on the board of directors and/or for specific reforms.
 
-# Example 1.1 Activist Investors and Corporate Control
+#### Example 1.1 Activist Investors and Corporate Control
 
 Here are a few of the better-known activist investors, along with a sample of their more notable initiatives:
 
@@ -1360,7 +1191,7 @@ Paul Singer, Elliott Management. Built up a large stake in the U.K. drug manufac
 
 Aside from proxy contests, the real takeover threat is from other firms. If one firm observes another underperforming, it can acquire the underperforming business and replace management with its own team. The stock price should rise to reflect the prospects of improved performance, which provides an incentive for firms to engage in such takeover activity.
 
-# Corporate Governance and Corporate Ethics
+#### Corporate Governance and Corporate Ethics
 
 We've argued that securities markets can play an important role in facilitating the deployment of capital to the most productive uses. But market signals will help to allocate capital efficiently only if investors are acting on accurate information. We say that markets need to be transparent for investors to make informed decisions. If firms can mislead the public about their prospects, then much can go wrong.
 
@@ -1373,13 +1204,13 @@ What about the auditors who were supposed to be the watchdogs of the firms? Here
 
 In 2002, in response to the spate of ethics scandals, Congress passed the Sarbanes-Oxley Act, commonly referred to as SOX, to tighten the rules of corporate governance and disclosure. For example, the act requires corporations to have more independent directors, that is, more directors who are not themselves managers (or affiliated with managers). The act also requires each CFO to personally vouch for the corporation's accounting statements, provides for an oversight board to oversee the auditing of public companies, and prohibits auditors from providing various other services to clients.
 
-# 1.4 The Investment Process
+### 1.4 The Investment Process
 
 Investors' portfolios are simply their collections of investment assets. Once a portfolio is established, it is updated or "rebalanced" by selling existing securities and using the proceeds to buy new securities, by investing additional funds to increase the overall size of the portfolio, or by selling securities to decrease the size of the portfolio.
 
 Investment assets can be categorized into broad asset classes, such as stocks, bonds, real estate, commodities, and so on. Investors make two types of decisions in constructing their portfolios. The asset allocation decision is the choice among these broad asset classes, while the security selection decision is the choice of which particular securities to hold within each asset class.
 
-"Top-down" portfolio construction starts with asset allocation. For example, an individual who currently holds all of his money in a bank account would first decide what proportion of the overall portfolio ought to be moved into stocks, bonds, and so on. In this way, the broad features of the portfolio are established. For example, while the average annual return on the common stock of large firms since 1926 has been about  $12\%$  per year, the average return on U.S. Treasury bills has been less than  $4\%$ . On the other hand, stocks are far riskier, with annual returns (as measured by the Standard & Poor's 500 index) that have ranged as low as  $-46\%$  and as high as  $55\%$ . In contrast, T-bills are effectively risk-free: You know what interest rate you will earn when you buy them. Therefore, the decision to allocate your investments to the stock market or to the money market where Treasury bills are traded will have great ramifications for both the risk and the return of your portfolio. A top-down investor first makes this and other crucial asset allocation decisions before turning to the decision of the particular securities to be held in each asset class.
+Top-down portfolio construction starts with asset allocation. For example, an individual who currently holds all of his money in a bank account would first decide what proportion of the overall portfolio ought to be moved into stocks, bonds, and so on. In this way, the broad features of the portfolio are established. For example, while the average annual return on the common stock of large firms since 1926 has been about $12\%$ per year, the average return on U.S. Treasury bills has been less than $4\%$. On the other hand, stocks are far riskier, with annual returns (as measured by the Standard & Poor's 500 index) that have ranged as low as $-46\%$ and as high as $55\%$. In contrast, T-bills are effectively risk-free: You know what interest rate you will earn when you buy them. Therefore, the decision to allocate your investments to the stock market or to the money market where Treasury bills are traded will have great ramifications for both the risk and the return of your portfolio. A top-down investor first makes this and other crucial asset allocation decisions before turning to the decision of the particular securities to be held in each asset class.
 
 Security analysis involves the valuation of particular securities that might be included in the portfolio. For example, an investor might ask whether Merck or Pfizer is more attractively priced. Both bonds and stocks must be evaluated for investment attractiveness, but valuation is far more difficult for stocks because a stock's performance usually is far more sensitive to the prospects of the issuing firm.
 
@@ -1389,7 +1220,7 @@ In contrast to top-down portfolio management is a "bottom-up" strategy in which 
 
 Financial markets are highly competitive. Thousands of intelligent and well-backed analysts constantly scour securities markets searching for the best buys. This competition means that we should expect to find few, if any, "free lunches," securities that are so underpriced that they represent obvious bargains. This no-free-lunch proposition has several implications. Let's examine two.
 
-# The Risk-Return Trade-Off
+#### The Risk-Return Trade-Off
 
 Investors invest for anticipated future returns, but those returns rarely can be predicted precisely. There will almost always be risk associated with investments. Actual or realized returns will almost always deviate from the expected return anticipated at the start of the investment period. For example, in 1931 (the worst calendar year for the market since 1926), the S&P 500 index fell by  $46\%$ . In 1933 (the best year), the index gained  $55\%$ . You can be sure that investors did not anticipate such extreme performance at the start of either of these years.
 
@@ -1401,7 +1232,7 @@ if returns were independent of risk, there would be a rush to sell high-risk ass
 
 Of course, this discussion leaves several important questions unanswered. How should one measure the risk of an asset? What should be the quantitative trade-off between risk (properly measured) and expected return? One would think that risk would have something to do with the volatility of an asset's returns, but this guess turns out to be only partly correct. When we mix assets into diversified portfolios, we need to consider the interplay among assets and the effect of diversification on the risk of the entire portfolio. Diversification means that many assets are held in the portfolio so that the exposure to any particular asset is limited. The effect of diversification on portfolio risk, the implications for the proper measurement of risk, and the risk-return relationship are the topics of Part Two. These topics are the subject of what has come to be known as modern portfolio theory. The development of this theory brought two of its pioneers, Harry Markowitz and William Sharpe, Nobel Prizes.
 
-# Efficient Markets
+#### Efficient Markets
 
 Another implication of the no-free-lunch proposition is that we should rarely expect to find bargains in the security markets. We will spend all of Chapter 11 examining the theory and evidence concerning the hypothesis that financial markets process all available information about securities quickly and efficiently, that is, that the security price usually reflects all the information available to investors concerning its value. According to this hypothesis, as new information about a security becomes available, its price quickly adjusts so that at any time, the security price equals the market consensus estimate of the value of the security. If this were so, there would be neither underpriced nor overpriced securities.
 
@@ -1409,7 +1240,7 @@ One interesting implication of this "efficient market hypothesis" concerns the c
 
 If the efficient market hypothesis were taken to the extreme, there would be no point in active security analysis; only fools would commit resources to actively analyze securities. Without ongoing security analysis, however, prices eventually would depart from "correct" values, creating new incentives for experts to move in. Therefore, even in environments as competitive as the financial markets, we may observe only near-efficiency, and profit opportunities may exist for especially diligent and creative investors. In Chapter 12, we examine such challenges to the efficient market hypothesis, and this motivates our discussion of active portfolio management in Part Seven. Nevertheless, our discussions of security analysis and portfolio construction generally must account for the likelihood of nearly efficient markets.
 
-# 1.6 The Players
+### 1.6 The Players
 
 From a bird's-eye view, there would appear to be three major players in the financial markets:
 
@@ -1419,7 +1250,7 @@ From a bird's-eye view, there would appear to be three major players in the fina
 
 Corporations and governments do not sell all or even most of their securities directly to individuals. For example, about half of all stock is held by large financial institutions such as pension funds, mutual funds, insurance companies, and banks. These financial institutions stand between the security issuer (the firm) and the ultimate owner of the security (the individual investor). For this reason, they are called financial intermediaries. Similarly, corporations do not market their own securities to the public. Instead, they hire agents, called investment bankers, to represent them to the investing public. Let's examine the roles of these intermediaries.
 
-# Financial Intermediaries
+#### Financial Intermediaries
 
 Households want desirable investments for their savings, yet the small (financial) size of most households makes direct investment difficult. A small investor seeking to lend money to businesses that need to finance investments doesn't advertise in the local newspaper to find a willing and desirable borrower. Moreover, an individual lender would not be able to diversify across borrowers to reduce risk. Finally, an individual lender is not equipped to assess and monitor the credit risk of borrowers.
 
@@ -1460,7 +1291,7 @@ Like mutual funds, hedge funds also pool and invest the money of many clients. B
 
 Economies of scale also explain the proliferation of analytic services available to investors. Newsletters, databases, and brokerage house research services all engage in research to be sold to a large client base. This setup arises naturally. Investors clearly want information, but with small portfolios to manage, they do not find it economical to personally gather all of it. Hence, a profit opportunity emerges: A firm can perform this service for many clients and charge for it.
 
-# Investment Bankers
+#### Investment Bankers
 
 Just as economies of scale and specialization create profit opportunities for financial intermediaries, these economies also create niches for firms that perform specialized services for businesses. Firms raise much of their capital by selling securities such as stocks and bonds to the public. Because these firms do not do so frequently, however, investment bankers that specialize in such activities can offer their services at a cost below that of maintaining an in-house security issuance division. In this role, they are called underwriters.
 
@@ -1468,7 +1299,7 @@ Investment bankers advise the issuing corporation on the prices it can charge fo
 
 For most of the last century, investment banks and commercial banks in the U.S. were separated by law. While those regulations were effectively eliminated in 1999, the industry
 
-# Separating Commercial Banking from Investment Banking
+#### Separating Commercial Banking from Investment Banking
 
 Until 1999, the Glass-Steagall Act had prohibited banks in the United States from both accepting deposits and underwriting securities. In other words, it forced a separation of the investment and commercial banking industries. But when Glass-Steagall was repealed, many large commercial banks began to transform themselves into "universal banks" that could offer a full range of commercial and investment banking services. In some cases, commercial banks started their own investment banking divisions from scratch, but more frequently they expanded through merger. For example, Chase Manhattan acquired J.P. Morgan to form JPMorgan Chase. Similarly, Citigroup acquired Salomon Smith Barney to offer wealth management, brokerage, investment banking, and asset management services to its clients. Most of Europe had never forced the separation of commercial and investment banking, so their giant banks such as Credit Suisse, Deutsche Bank, HSBC, and UBS had long been universal banks. Until 2008, however, the standalone investment banking sector in the U.S. remained large and apparently vibrant, including such storied names as Goldman Sachs, Morgan-Stanley, Merrill Lynch, and Lehman Brothers.
 
@@ -1483,7 +1314,7 @@ Proprietary trading is a core activity for investment banks, so limitations on t
 
 known as "Wall Street" until 2008 was still composed of large, independent investment banks such as Goldman Sachs, Merrill Lynch, and Lehman Brothers. But that stand-alone model came to an abrupt end in September 2008, when all the remaining major U.S. investment banks were absorbed into commercial banks, declared bankruptcy, or reorganized as commercial banks. The nearby box presents a brief introduction to these events.
 
-# Venture Capital and Private Equity
+#### Venture Capital and Private Equity
 
 While large firms can raise funds directly from the stock and bond markets with help from their investment bankers, smaller and younger firms that have not yet issued securities to the public do not have that option. Start-up companies rely instead on bank loans and investors who are willing to invest in them in return for an ownership stake in the firm. The equity investment in these young companies is called venture capital (VC). Sources of venture capital are dedicated venture capital funds, wealthy individuals known as angel investors, and institutions such as pension funds.
 
@@ -1493,13 +1324,13 @@ The management company usually sits on the start-up company's board of directors
 
 Venture capital investors commonly take an active role in the management of a start-up firm. Other active investors may engage in similar hands-on management but focus instead on firms that are in distress or firms that may be bought up, "improved," and sold for a profit. Collectively, these investments in firms that do not trade on public stock exchanges are known as private equity investments.
 
-# Fintech, Financial Innovation, and Decentralized Finance
+#### Fintech, Financial Innovation, and Decentralized Finance
 
 Surveying the major actors on the financial scene highlighted in this section, it is clear that when the needs of market participants create profit opportunities, markets tend to evolve to provide those desired services. Sometimes, those innovations are spurred by technological advances that make possible previously infeasible products. Fintech is the application of technology to financial markets, and it has changed many aspects of the financial landscape.
 
 While we have focused on financial intermediaries, technology allowing individuals to interact directly has led to some financial disintermediation. This trend toward the elimination of the intermediary has been dubbed decentralized finance or DeFi.
 
-Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to  \$40,000 or business loans up to\$ 300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
+Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to \$40,000 or business loans up to \$300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
 
 Robo Advice While the very wealthy can afford to hire financial advisors, most investors do not have enough assets to justify that inevitably expensive guidance. Robo advisors seek to bring affordable advice to a wide swath of investors. You begin by filling out an online questionnaire about your financial situation and risk tolerance. A computer algorithm then recommends an investment portfolio, which usually will consist of low cost mutual or exchange-traded funds. It may also periodically rebalance your account as the value of each fund fluctuates.
 
@@ -1514,7 +1345,7 @@ Another recent blockchain innovation is the NFT, or non-fungible token, which is
 
 Cryptocurrencies Cryptocurrencies, for example, Bitcoin or Ethereum, use blockchain technology to create payment systems that bypass traditional channels such as credit cards, debit cards, or checks. This alternative system offers greater security and anonymity for financial transactions. Bitcoin was introduced in 2009, but it has since been joined by many other digital currencies; in 2021, there were approximately 4,000 different cryptocurrencies. But many of these have essentially no or negligible trading volume and almost all are far smaller (in terms of total outstanding value) than Bitcoin or Ethereum.
 
-Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below  \$30,000 to more than\$ 63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
+Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below \$30,000 to more than \$63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
 
 A more recent innovation in this regard is the stablecoin. This is a cryptocurrency that the issuer pledges to redeem for a conventional currency (e.g., the U.S. dollar) on demand. The largest stablecoin today is Tether. Stable-dollar cryptocurrencies typically are backed by holdings of dollars, often held by a third-party custodian, which ensures the ability to convert into dollars. In other cases, the collateral might be other assets or cryptocurrencies, but that generally requires overcollaterization to compensate for the risk of fluctuations in the value of the collateral. Without adequate collateralization, stable coins are vulnerable to "runs" in which a wave of investors attempt to withdraw their money at once. The Fed and other regulators have expressed concern with the potential for runs and are considering new regulatory approaches to limit that risk.
 
@@ -1524,11 +1355,11 @@ Digital tokens A variation on cryptocurrency is the digital token issued in an i
 
 Digital currency As cryptocurrencies have become more familiar, sovereign governments have begun to contemplate developing digital currencies issued by their own central banks. For example, a government might pay tax refunds directly into its citizen's digital wallets (rather than mailing checks or arranging for direct deposit into a conventional bank account). Similarly, citizens could pay bills by transferring funds from their wallets directly into those of their creditors. Like cryptocurrencies, this system would bypass the traditional financial system, as well as its associated fees and relatively slow clearing mechanisms. But unlike them, it would not be subject to the problem of fluctuating value. China is already running trials of a digital yuan, and the Fed announced in 2021 that it would study the feasibility of a digital currency for the United States. Some of the major unanswered questions for digital currency surround security, privacy, and government access to financial activity. Nevertheless, it seems possible that digital currencies will soon become part of the financial landscape.
 
-# 1.7 The Financial Crisis of 2008-2009
+### 1.7 The Financial Crisis of 2008-2009
 
 This chapter has laid out the broad outlines of the financial system, as well as some of the links between the financial side of the economy and the "real" side in which goods and services are produced. The financial crisis of 2008 illustrated in a painful way the intimate ties between these two sectors. We present in this section a capsule summary of the crisis, attempting to draw some lessons about the role of the financial system as well as the causes and consequences of what has become known as systemic risk. Some of these issues are complicated; we consider them briefly here but will return to them in greater detail later in the text once we have more context for analysis.
 
-# Antecedents of the Crisis
+#### Antecedents of the Crisis
 
 In early 2007, most observers thought it inconceivable that within two years, the world financial system would be facing its worst crisis since the Great Depression. At the time, the economy seemed to be marching from strength to strength. The last significant macroeconomic threat had been from the implosion of the high-tech bubble in 2000-2002. But the Federal Reserve responded to an emerging recession by aggressively reducing interest rates. Figure 1.1 shows that Treasury bill rates dropped drastically between 2001 and 2004, and the LIBOR rate, which was the interest rate at which major money-center banks at the time loaned to each other, fell in tandem. These actions appeared to have been successful, and the recession was short-lived and mild.
 
@@ -1551,7 +1382,7 @@ Figure 1.3 The Case-Shiller index of U.S. housing prices
 Source: Case Shiller Composite Housing Price Index, www.us.spindices.com.
 
 
-# Changes in Housing Finance
+#### Changes in Housing Finance
 
 Prior to 1970, most mortgage loans would come from a local lender such as a neighborhood savings bank or credit union. A homeowner would borrow funds for a home purchase and repay the loan over a long period, commonly 30 years. A typical thrift institution would have as its major asset a portfolio of these long-term home loans, while its major liability would be the accounts of its depositors. This landscape began to change when Fannie Mae (FNMA, or Federal National Mortgage Association) and Freddie Mac (FHLMC, or Federal Home Loan Mortgage Corporation) began buying mortgage loans from originators and bundling them into large pools that could be traded like any other financial asset. These pools, which were essentially claims on the underlying mortgages, were soon dubbed mortgage-backed securities, and the process was called securitization. Fannie and Freddie quickly became the behemoths of the mortgage market, between them buying around half of all mortgages originated by the private sector.
 
@@ -1572,7 +1403,7 @@ Adjustable-rate mortgages (ARMs) also grew in popularity. These loans offered bo
 
 Despite these obvious risks, the ongoing increase in housing prices over the last decade seemed to lull many investors into complacency, with a widespread belief that continually rising home prices would bail out poorly performing loans. But starting in 2004, the ability of refinancing to save a loan began to diminish. First, higher interest rates put payment pressure on homeowners who had taken out adjustable-rate mortgages. Second, as Figure 1.3 shows, housing prices peaked by 2006, so homeowners' ability to refinance a loan using built-up equity in the house declined. Mortgage default rates began to surge in 2007. The crisis was ready to shift into high gear.
 
-# Mortgage Derivatives
+#### Mortgage Derivatives
 
 One might ask: Who was willing to buy all of these risky subprime mortgages? Securitization, restructuring, and credit enhancement provide a big part of the answer. New risk-shifting tools enabled investment banks to carve out AAA-rated securities from original-issue "junk" loans. Collateralized debt obligations, or CDOs, were among the most important and eventually damaging of these innovations.
 
@@ -1587,15 +1418,15 @@ Finally, agency problems became apparent. The ratings agencies were paid to prov
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c42836364663d433371c714fb3d84bca353f7d092c156acfb57fa4482d9c3fc1.jpg)
 
-# Concept Check 1.2
+**Concept Check 1.2**
 
 When Freddie Mac and Fannie Mae pooled mortgages into securities, they guaranteed the underlying mortgage loans against homeowner defaults. In contrast, there were no guarantees on the mortgages pooled into subprime mortgage-backed securities, so investors were the ones bearing the credit risk. Were either of these arrangements necessarily a better way to manage and allocate default risk?
 
-# Credit Default Swaps
+#### Credit Default Swaps
 
 In parallel to the CDO market, the market in credit default swaps also exploded in this period. A credit default swap, or CDS, is in essence an insurance contract against the default of one or more borrowers. (We will describe these in more detail in Chapter 14.) The purchaser of the swap pays an annual premium (like an insurance premium) for protection from credit risk. Credit default swaps became an alternative method of credit enhancement, seemingly allowing investors to buy subprime loans and insure their safety. But in practice, some swap issuers ramped up their exposure to credit risk to unsupported levels, without sufficient capital to back those obligations. For example, the large insurance company AIG alone sold more than 400 billion of CDS contracts on subprime mortgages.
 
-# The Rise of Systemic Risk
+#### The Rise of Systemic Risk
 
 By 2007, the financial system displayed several troubling features. Many large banks and related financial institutions had adopted an apparently profitable financing scheme: borrowing short term at low interest rates to finance holdings in higher-yielding, long-term illiquid assets.[8] But this business model was precarious: By relying primarily on short-term loans for their funding, these firms needed to constantly refinance their positions (i.e., borrow additional funds as the loans matured), or else face the necessity of quickly selling off their less-liquid asset portfolios, which would be difficult in times of financial stress. Moreover, these institutions were highly leveraged and had little capital as a buffer against losses. Even small portfolio losses could drive their net worth negative, at which point no one would be willing to renew outstanding loans or extend new ones.
 
@@ -1604,7 +1435,7 @@ Another source of fragility was widespread investor reliance on "credit enhancem
 
 This new financial model was brimming with systemic risk, a potential breakdown of the financial system when problems in one market spill over and disrupt others. When lenders such as banks have limited capital and are afraid of further losses, they may rationally choose to hoard their capital instead of lending it to customers such as small firms, thereby exacerbating funding problems for their customary borrowers.
 
-# The Shoe Drops
+#### The Shoe Drops
 
 By fall 2007, housing price declines were widespread (Figure 1.3), mortgage delinquencies increased, and the stock market entered its own free fall (Figure 1.2). Many investment banks, which had large investments in mortgages, also began to totter.
 
@@ -1617,9 +1448,9 @@ The freezing up of credit markets was the end of any dwindling possibility that 
 
 The crisis was not limited to the United States. Housing markets throughout the world fell, and many European banks had to be rescued by their governments, which were themselves heavily in debt. As the cost of the bank bailouts mounted, the ability of these governments to repay their own debts came into doubt. In this way, the banking crisis spiraled into a sovereign debt crisis.
 
-Greece was the hardest hit. Its government debt of about  \$460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around\$ 130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
+Greece was the hardest hit. Its government debt of about \$460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around \$130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
 
-# The Dodd-Frank Reform Act
+#### The Dodd-Frank Reform Act
 
 The crisis engendered many calls for reform of Wall Street. These eventually led to the passage in 2010 of the Dodd-Frank Wall Street Reform and Consumer Protection Act, which contains several mechanisms to mitigate systemic risk.
 
@@ -1633,7 +1464,7 @@ The incentives of the bond rating agencies are also a sore point. Few are happy 
 
 Recent legislation has resulted in a partial rollback of the Dodd-Frank Act. In 2018 Congress passed the Economic Growth, Regulatory Relief and Consumer Protection Act, exempting most small to medium-sized banks from Dodd-Frank rules, including stress tests. Some large banks (but not the largest) are no longer deemed "systemically important," which brings about closer oversight and higher capital requirements. The 2018 act also exempts smaller banks from the Volcker Rule. Dodd-Frank remains under attack by some members of Congress, and future pullbacks are certainly possible. Regardless of these possible revisions, the crisis surely made clear the essential role of the financial system in the functioning of the real economy.
 
-# 1.8 Outline of the Text
+### 1.8 Outline of the Text
 
 The text has seven parts, which are fairly independent and may be studied in a variety of sequences. Part One is an introduction to financial markets, instruments, and trading of securities. This part also describes the mutual fund industry.
 
@@ -1653,7 +1484,7 @@ Part Seven is an introduction to active investment management. It shows how diff
 
 6. The financial crisis of 2008 demonstrated the importance of systemic risk. Systemic risk can be limited by transparency that allows traders and investors to assess the risk of their counterparties; capital requirements to prevent trading participants from being brought down by potential losses; frequent settlement of gains or losses to prevent losses from accumulating beyond an institution's ability to bear them; incentives to discourage excessive risk taking; and accurate and unbiased analysis by those charged with evaluating security risk.
 
-# KEY TERMS investment
+#### Key Terms
 
 
 real assets financial assets
@@ -1688,7 +1519,7 @@ private equity securitization
 
 systemic risk
 
-# PROBLEM SETS
+**Problem Sets**
 
 1. Financial engineering has been disparaged as nothing more than paper shuffling. Critics argue that resources used for rearranging wealth (i.e., bundling and unbundling financial assets) might be better spent on creating wealth (i.e., creating real assets). Evaluate this criticism. Are any benefits realized by creating an array of derivative securities from various primary securities?
 2. Why would you expect securitization to take place only in highly developed capital markets?
@@ -1745,7 +1576,7 @@ c. A salary linked to the firm's profits.
 
 19. What reforms to the financial system might reduce its exposure to systemic risk?
 
-# E-INVESTMENTS EXERCISES
+#### E-Investments Exercises
 
 1. Log on to finance.yahoo.com and enter the ticker symbol RRD in the Quote Lookup box to find information about R.R. Donnelley & Sons.
 
@@ -1760,7 +1591,7 @@ c. Go to the IOSCO Web site, www iosco.org. What is its mission? What informatio
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/34adb387e09d776ca58969290adc1853fb56c1ff89db160417a7a5a082bb069a.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
+#### Solutions to Concept Checks
 
 1. a. Real b. Financial
 
@@ -1772,9 +1603,9 @@ e. Financial
 
 2. The central issue is the incentive and ability to monitor the quality of loans when originated as well as over time. Freddie and Fannie clearly had incentive to monitor the quality of conforming loans that they had guaranteed, and their ongoing relationships with mortgage originators gave them opportunities to evaluate track records over extended periods of time. In the subprime mortgage market, the ultimate investors in the securities (or the CDOs backed by those securities), who were bearing the credit risk, should not have been willing to invest in loans with a disproportionate likelihood of default. If they properly understood their exposure to default risk, then the (correspondingly low) prices they would have been willing to pay for these securities would have imposed discipline on the mortgage originators and servicers. The fact that they were willing to hold such large positions in these risky securities suggests that they did not appreciate the extent of their exposure. Maybe they were led astray by overly optimistic projections for housing prices or by biased assessments from the credit-reporting agencies. In principle, either arrangement for default risk could have provided the appropriate discipline on the mortgage originators; in practice, however, the informational advantages of Freddie and Fannie probably made them the better "recipients" of default risk. The lesson is that information and transparency are some of the preconditions for well-functioning markets.
 
-# Asset Classes and Financial Instruments
+### Chapter 2: Asset Classes and Financial Instruments
 
-# 2
+### 2
 
 YOU LEARNED IN Chapter 1 that the process of building an investment portfolio usually begins by deciding how much money to allocate to broad classes of assets, such as safe money market securities or bank accounts, longer term bonds, stocks, or even asset classes like real estate or precious metals. This process is called asset allocation. Within each class the investor then selects specific assets from a more detailed menu. This is called security selection.
 
@@ -1785,11 +1616,11 @@ Financial markets are traditionally segmented into money markets and capital mar
 
 We first describe money market instruments. We then move on to debt and equity securities. We explain the structure of various stock market indexes in this chapter because market benchmark portfolios play an important role in portfolio construction and evaluation. Finally, we survey the derivative security markets for options, futures, and swap contracts.
 
-# 2.1 The Money Market
+#### 2.1 The Money Market
 
 The money market consists of very short-term, highly marketable debt securities. Many of these securities trade in large denominations and so are out of the reach of individual investors. Money market funds, however, are easily accessible to small investors.
 
-# Treasury Bills
+##### Treasury Bills
 
 U.S. Treasury bills (T-bills, or just bills, for short) are the most marketable of all money market instruments. The government borrows money by selling bills to the public. Investors buy the bills at a discount from the stated maturity (equivalently, face) value. At maturity, the government pays the investor the face value of the bill. The difference between the purchase price and ultimate maturity value constitutes the interest paid on the bills.
 
@@ -1797,10 +1628,10 @@ T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individual
 
 Figure 2.1 is a partial listing of T-bill rates. Rather than providing prices of each bill, the financial press reports yields based on those prices. You will see yields corresponding to both bid and ask prices. The ask price is the price you would have to pay to buy a T-bill from a securities dealer. The bid price is the slightly lower price you would receive if you wanted to sell a bill to a dealer. The bid-ask spread is the difference in these prices, which is the dealer's source of profit.
 
-The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with \$10,000 face value could be purchased for \$10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
+The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with \$10,000 face value could be purchased for \$10,000 × (1 - .000159) = \$9,998.41. To summarize, the price of the bill as a fraction of face value is
 
 $$
-\text {A s k p r i c e} = 1 - \text {A S K E D} \times \frac {\text {D a y s u n t i l m a t u r i t y}}{3 6 0}
+\text{Ask price} = 1 - \text{ASKED} \times \frac{\text{Days until maturity}}{360}
 $$ where the ASKED yield is expressed as a decimal (not as a percent). Similarly, with a BID yield of .055\%, a dealer would be willing to purchase the bill for  $10,000 \times (1 - .00055 \times 127 / 360) = \$ 9,998.06. $Notice that because prices and yields are inversely related, the higher bid yield reported in Figure 2.1 implies a lower bid price.$
 
 
@@ -1810,11 +1641,11 @@ Source: Wall Street Journal Online, July 14, 2021.
 
 The bank discount method for computing yields has a long tradition, but it is flawed for at least two reasons. First, it assumes that the year has only 360 days. Second, it computes the yield as a fraction of par value rather than of the price the investor paid to acquire the bill. An investor who buys the bill for the ask price and holds it until maturity will see that investment grow over 127 days by a multiple of 10,000 / \9,998.41 = 1.000159, for a gain of .0159\%. Annualizing this gain using a 365-day year results in a yield of .0159\% \times 365/127 = .0457\%, which aside from minor rounding error, is the value reported in the last column under "ASKED YIELD." This last value is called the Treasury-bill's bond-equivalent yield.
 
-# Certificates of Deposit
+##### Certificates of Deposit
 
-A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to\$ 250,000 in the event of a bank insolvency.
+A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to \$250,000 in the event of a bank insolvency.
 
-# Commercial Paper
+##### Commercial Paper
 
 Large, well-known companies often issue their own short-term unsecured debt notes rather than borrow directly from banks. These notes are called commercial paper. Very often, commercial paper is backed by a bank line of credit, which gives the borrower access to cash that can be used (if needed) to pay off the paper at maturity.
 
@@ -1824,34 +1655,34 @@ Commercial paper is considered to be a fairly safe asset because a firm's condit
 
 While most commercial paper is issued by nonfinancial firms, in the years leading up to the financial crisis, there was a sharp increase in asset-backed commercial paper issued by financial firms such as banks. This was short-term commercial paper typically used to raise funds for the issuing firm to invest in other assets, most notoriously, subprime mortgages. These assets were in turn used as collateral for the commercial paper—hence the label "asset backed." This practice led to many difficulties starting in the summer of 2007 when the subprime mortgagors began defaulting. The banks found themselves unable to issue new commercial paper to refinance their positions as the old paper matured.
 
-# Bankers' Acceptances
+##### Bankers' Acceptances
 
 A banker's acceptance starts as an order to a bank by a bank's customer to pay a sum of money at a future date, typically within six months. At this stage, it is similar to a post-dated check. When the bank endorses the order for payment as "accepted," it assumes responsibility for ultimate payment to the holder of the acceptance. At this point, the acceptance may be traded in secondary markets like any other claim on the bank. Bankers' acceptances are considered very safe because traders can substitute the bank's credit standing for their own. They are used widely in foreign trade where the creditworthiness of one trader is unknown to the trading partner. Acceptances sell at a discount from the face value of the payment order, just as T-bills sell at a discount from face value.
 
 
-# Eurodollars
+##### Eurodollars
 
 Eurodollars are dollar-denominated deposits at foreign banks or foreign branches of American banks. By locating outside the United States, these banks escape regulation by the Federal Reserve. Despite the tag “Euro,” these accounts need not be in European banks, although that is where the practice of accepting dollar-denominated deposits outside the United States began.
 
 Most Eurodollar deposits are for large sums, and most are time deposits of less than six months' maturity. A Eurodollar certificate of deposit resembles a domestic bank CD except that it is the liability of a non-U.S. branch of a bank. Firms also issue Eurodollar bonds, which are dollar-denominated bonds outside the United States, although bonds are not considered part of the money market because of their long maturities.
 
-# Repos and Reverses
+##### Repos and Reverses
 
 Dealers in government securities use repurchase agreements, also called "repos" or "RPs," as a form of short-term, usually overnight, borrowing. The dealer sells government securities to an investor on an overnight basis, with an agreement to buy back those securities the next day at a slightly higher price. The increase in the price is the overnight interest. The dealer thus takes out a one-day loan from the investor, and the securities serve as collateral.
 
 A term repo is essentially an identical transaction, except that the term of the implicit loan can be 30 days or more. Repos are considered very safe in terms of credit risk because the loans are backed by the government securities. A reverse repo is the mirror image of a repo. Here, the dealer finds an investor holding government securities and buys them, agreeing to sell them back at a specified higher price on a future date.
 
-# Federal Funds
+##### Federal Funds
 
 Just as most of us maintain deposits at banks, banks maintain deposits of their own at a Federal Reserve bank. Each member bank of the Federal Reserve System, or "the Fed," is required to maintain a minimum balance in a reserve account with the Fed. The required balance depends on the total deposits of the bank's customers. Funds in the bank's reserve account are called federal funds, or fed funds. At any time, some banks have more funds than required at the Fed. Other banks, primarily big banks in New York and other financial centers, tend to have a shortage. Banks with excess funds lend to those with a shortage. These loans, which are usually overnight transactions, are arranged at a rate of interest called the federal funds rate.
 
 Although the fed funds market arose primarily as a way for banks to transfer balances to meet reserve requirements, today the market has evolved to the point that many large banks use federal funds in a straightforward way as one component of their total sources of funding. Therefore, the fed funds rate is simply the rate of interest on very-short-term loans among banks. While most investors cannot participate in this market, the fed funds rate commands great interest as a key barometer of monetary policy.
 
-# Brokers' Calls
+##### Brokers' Calls
 
 Individuals who buy stocks on margin borrow part of the funds to pay for the stocks from their broker. The broker in turn may borrow the funds from a bank, agreeing to repay the bank immediately (on call) if the bank requests it. The rate paid on such loans is usually about  $1\%$  higher than the rate on short-term T-bills.
 
-# LIBOR and Its Replacements
+##### LIBOR and Its Replacements
 
 The London Interbank Offer Rate (LIBOR) was, until 2021, the premier short-term interest rate quoted in the European money market and served as a reference rate for a wide range of financial contracts. For example, a corporation or homeowner might have borrowed at a rate equal to LIBOR plus two percentage points. Hundreds of trillions of dollars of loans, mortgages, and derivative contracts were tied to it.
 
@@ -1867,7 +1698,7 @@ One issue with these new benchmarks is the very short-term (overnight) period of
 
 LIBOR was supposed to be fully phased out by 2021. However, the phase-out schedule has slipped a bit. While the Federal Reserve has directed banks to stop writing new contracts using LIBOR, existing contracts may remain in force until June 2023.
 
-# Yields on Money Market Instruments
+##### Yields on Money Market Instruments
 
 Although most money market securities are low risk, they are not risk-free. The securities of the money market promise yields greater than those on default-free T-bills, at least in part because of their greater risk. In addition, many investors require more liquidity; thus, they will accept lower yields on securities such as T-bills that can be quickly and cheaply sold for cash. Figure 2.2 shows that federal funds, for example, consistently have offered a yield premium over T-bills. Moreover, that premium increased with economic crises such as the energy price shocks associated with the two OPEC disturbances, the stock market crash in 1987, the collapse of Long Term Capital Management in 1998, and the financial
 
@@ -1882,14 +1713,14 @@ LIBOR is being replaced by interest rates on actual interbank loans: SOFR in the
 
 crisis of 2008-2009. If you look back to Figure 1.1 in Chapter 1, you'll see that the TED spread, the difference between the LIBOR rate and Treasury bills, also peaked during periods of financial stress as well as during the COVID crisis of 2020.
 
-# Money Market Funds
+##### Money Market Funds
 
 Money market funds are mutual funds that invest in money market instruments. They are a major conduit for the funds invested in the money market: In mid-2022, the total assets managed by these funds amounted to about 4.5 trillion. While money market funds usually pose extremely low risk to investors, the financial crisis constituted a traumatic shock to these markets. The nearby box discusses the fallout of the crisis.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/831eee50c7850c572e6b05a4861dc41b57b747a80e8ace878dfcef70fe7ffa26.jpg)
 Figure 2.2 The spread between the federal funds rate and T-bill rate
 
-# Money Market Funds and the Financial Crisis
+#### Money Market Funds and the Financial Crisis
 
 Money market funds are mutual funds that invest in the short-term debt instruments that comprise the money market. They are required to hold only short-maturity debt of the highest quality: The average maturity of their holdings must be maintained at less than 3 months. Because of this very conservative investment profile, money market funds typically experience extremely low price risk. Investors for their part usually acquire check-writing privileges with their funds and often use them as a close substitute for a bank account. This is feasible because the funds almost always maintain share value at 1.00 and pass along all investment earnings to their investors as interest.
 
@@ -1899,23 +1730,23 @@ The realization that money market funds were at risk in the credit crisis led to
 
 However, the turmoil in Wall Street's money market funds had already spilled over into "Main Street." Fearing further investor redemptions, money market funds became afraid to commit funds even over short periods, and their demand for commercial paper effectively dried up. Firms throughout the economy had come to depend on those markets as a major source of short-term finance to fund expenditures ranging from salaries to inventories. Further breakdown in the money markets would have had an immediate crippling effect on the broad economy.
 
-To end the panic and stabilize the money markets, the federal government decided to guarantee investments in money market funds. The guarantee did, in fact, calm investors and end the run, but it put the government on the hook for a potential liability of up to 3 trillion—the assets held in money market funds at the time.
+To end the panic and stabilize the money markets, the federal government decided to guarantee investments in money market funds. The guarantee did, in fact, calm investors and end the run, but it put the government on the hook for a potential liability of up to \$3 trillion—the assets held in money market funds at the time.
 
 U.S. regulators since approved a series of reforms to reduce the risks of runs on these funds. Institutional money market funds (those servicing institutions rather than private investors) are required to "float" the prices of their shares based on the value of their assets rather than maintain a fixed  \$1 value per share. This limits the incentive during a crisis for investors to compete to be the first to withdraw funds while share prices are maintained at a nonsustainable level of\$ 1. In addition, funds now have the authority to either limit redemptions or impose redemption fees of up to 2\% if a fund's assets fall by more than 30\%.
 
 In 2021, however, the SEC floated new proposals to replace the ones put in place after the financial crisis. In the face of redemptions, funds typically sell their most-liquid holdings and can be left holding less-liquid assets just as their values might be falling. With share prices fixed at 1, this gives an incentive to investors to redeem their shares quickly before the buck may be broken. The SEC thus proposed a "swing factor" on days with net redemptions. The factor is intended to assess the impact of sales on the less liquid assets still held in fund portfolios. By aligning share prices to portfolio value, investors' incentives to cash out in front of other shareholders would presumably be minimized. These proposals have elicited considerable pushback from the industry, however.
 
-To further limit volatility, the SEC also proposed an increase in the allowed share of money-market fund assets that mature within one day from  $10\%$  to  $25\%$  and in the share maturing in a week from  $30\%$  to  $50\%$ .
+To further limit volatility, the SEC also proposed an increase in the allowed share of money-market fund assets that mature within one day from $10\%$ to $25\%$ and in the share maturing in a week from $30\%$ to $50\%$.
 
 Today, there is greater concern paid to credit risk in the money market, and as a result investors now distinguish between prime and government funds. Government funds hold short-term U.S. Treasury or agency securities. Prime funds also hold other money market instruments, for example, commercial paper or CDs. For this reason, they are considered slightly riskier, and offer higher yields. We return to these funds in Chapter 4.
 
-# 2.2 The Bond Market
+#### 2.2 The Bond Market
 
 The bond market is composed of longer term borrowing or debt instruments than those that trade in the money market. This market includes Treasury notes and bonds, corporate bonds, municipal bonds, mortgage securities, and federal agency debt.
 
 These instruments are sometimes said to comprise the fixed-income capital market because most of them promise either a fixed stream of income or a stream of income that is determined according to a specific formula. In practice, these formulas can result in a flow of income that is far from fixed. Therefore, the term fixed income is probably not fully appropriate. It is simpler and more straightforward to call these securities either debt instruments or bonds.
 
-# Treasury Notes and Bonds
+##### Treasury Notes and Bonds
 
 The U.S. government borrows funds in large part by selling Treasury notes and Treasury bonds. T-notes are issued with maturities ranging up to 10 years, while bonds are issued with maturities ranging from 10 to 30 years. Both notes and bonds may be issued in increments of \$100 but far more commonly trade in denominations of \$1,000. Both notes and bonds make semiannual interest payments called coupon payments, a name derived from precomputer days, when investors would literally clip a coupon attached to the bond and present it to receive the interest payment.
 
@@ -1927,19 +1758,19 @@ Figure 2.3 Listing of Treasury bonds and notes
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/705eb1ec48c57f39815d1ca5fe69af1892abaf55559531ef11302cc41004d07b.jpg)
 Source: The Wall Street Journal Online, July 14, 2021.
 
-# Concept Check 2.1
+**Concept Check 2.1**
 
 What were the bid price, ask price, and yield to maturity of the  $2.375\%$  coupon May 2051 Treasury bond displayed in Figure 2.3? What was its ask price the previous day?
 
 <table><tr><td colspan="5">LISTING OF TREASURY ISSUES</td><td rowspan="2">ASKEDYIELD TOMATURITY</td></tr><tr><td>MATURITY</td><td>COUPON</td><td>BID</td><td>ASKED</td><td>CHANGE</td></tr><tr><td>15-Nov-21</td><td>2.000</td><td>100.206</td><td>100.212</td><td>-0.008</td><td>0.013</td></tr><tr><td>31-Mar-22</td><td>1.750</td><td>101.060</td><td>101.064</td><td>-0.006</td><td>0.056</td></tr><tr><td>15-May-25</td><td>2.125</td><td>105.252</td><td>105.256</td><td>0.058</td><td>0.592</td></tr><tr><td>15-Feb-36</td><td>4.500</td><td>138.234</td><td>138.244</td><td>0.960</td><td>1.525</td></tr><tr><td>15-Nov-40</td><td>4.250</td><td>139.160</td><td>139.180</td><td>0.158</td><td>1.815</td></tr><tr><td>15-May-51</td><td>2.375</td><td>108.224</td><td>108.244</td><td>1.128</td><td>1.984</td></tr></table>
 
-# Inflation-Protected Treasury Bonds
+##### Inflation-Protected Treasury Bonds
 
 The natural place to start building an investment portfolio is at the least risky end of the spectrum. Around the world, governments of many countries, including the United States, have issued bonds that are linked to an index of the cost of living in order to provide their citizens with an effective way to hedge inflation risk.
 
 In the United States, inflation-protected Treasury bonds are called TIPS (Treasury Inflation Protected Securities). The principal amount on these bonds is adjusted in proportion to increases in the Consumer Price Index. Therefore, they provide a constant stream of income in real (inflation-adjusted) dollars. Yields on TIPS bonds should be interpreted as real or inflation-adjusted interest rates. We return to TIPS bonds in more detail in Chapter 14.
 
-# Federal Agency Debt
+##### Federal Agency Debt
 
 Some government agencies issue their own securities to finance their activities. These agencies usually are formed to channel credit to a particular sector of the economy that Congress believes might not receive adequate credit through normal private sources.
 
@@ -1947,7 +1778,7 @@ The major mortgage-related agencies are the Federal Home Loan Bank (FHLB), the F
 
 Although the debt of federal agencies was never explicitly insured by the federal government, it had long been assumed that the government would assist an agency nearing default. Those beliefs were validated when Fannie Mae and Freddie Mac encountered severe financial distress in September 2008. With both firms on the brink of insolvency, the government stepped in, put them both into conservatorship, and assigned the Federal Housing Finance Agency to run the firms; however, it did in fact agree to make good on the firm's bonds.
 
-# International Bonds
+##### International Bonds
 
 Many firms borrow abroad, and many investors buy bonds from foreign issuers. In addition to national capital markets, there is a thriving international capital market, largely centered in London.
 
@@ -1955,7 +1786,7 @@ A Eurobond is a bond denominated in a currency other than that of the country in
 
 In contrast to bonds that are issued in foreign currencies, many firms issue bonds in foreign countries but in the currency of the investor. For example, a Yankee bond is a dollar-denominated bond sold in the United States by a non-U.S. issuer. Similarly, Samurai bonds are yen-denominated bonds sold in Japan by non-Japanese issuers.
 
-# Municipal Bonds
+##### Municipal Bonds
 
 Municipal bonds are issued by state and local governments. They are similar to Treasury and corporate bonds except that their interest income is exempt from federal income taxation. The interest income also is usually exempt from state and local taxation in the issuing state. Capital gains taxes, however, must be paid on "munis" when the bonds mature or if they are sold for more than the investor's purchase price.
 
@@ -1977,11 +1808,11 @@ An investor choosing between taxable and tax-exempt bonds must compare after-tax
 
 One way to compare bonds is to determine the interest rate on taxable bonds that would be necessary to provide an after-tax return equal to that of principals. To derive this value, we set after-tax yields equal and solve for the equivalent taxable yield of the tax-exempt bond. This is the rate a taxable bond must offer to match the after-tax yield on the tax-free municipal.
 
-$$ r _ {\text {t a x a b l e}} (1 - t) = r _ {\text {m u n i}} \tag {2.1}
-$$ or
+$$ r_{\text{taxable}} (1 - t) = r_{\text{muni}} \tag{2.1}
+$$
+or
 
-
-$$ r _ {\text {t a x a b l e}} = r _ {\text {m u n i}} / (1 - t) \tag {2.2}
+$$ r_{\text{taxable}} = r_{\text{muni}} / (1 - t) \tag{2.2}
 $$
 
 Thus, the equivalent taxable yield is simply the tax-free rate divided by  $1 - t$ . Table 2.1 presents equivalent taxable yields for several municipal yields and tax rates.
@@ -1991,7 +1822,7 @@ This table frequently appears in the marketing literature for tax-exempt mutual 
 We also can use Equation 2.1 or 2.2 to find the tax bracket at which investors are indifferent between taxable and tax-exempt bonds. The cutoff tax bracket is given by solving Equation 2.2 for the tax bracket at which after-tax yields are equal. Doing so, we find that
 
 $$
-\text {C u t o f f} = 1 - \frac {r _ {\text {m u n i}}}{r _ {\text {t a x a b l e}}} \tag {2.3}
+\text{Cutoff} = 1 - \frac{r_{\text{muni}}}{r_{\text{taxable}}} \tag{2.3}
 $$
 
 Thus, the yield ratio  $r_{\mathrm{muni}} / r_{\mathrm{taxable}}$  is a key determinant of the attractiveness of municipal bonds. The higher the yield ratio, the lower the cutoff tax bracket, and the more individuals will prefer to hold municipal debt.
@@ -2000,7 +1831,7 @@ As a rough guide to the cutoff tax bracket, Figure 2.5 plots the ratio of 20-yea
 
 <table><tr><td rowspan="2">Marginal Tax Rate</td><td colspan="5">Tax-Exempt Yield</td></tr><tr><td>1\%</td><td>2\%</td><td>3\%</td><td>4\%</td><td>5\%</td></tr><tr><td>20\%</td><td>1.25\%</td><td>2.50\%</td><td>3.75\%</td><td>5.00\%</td><td>6.25\%</td></tr><tr><td>30</td><td>1.43</td><td>2.86</td><td>4.29</td><td>5.71</td><td>7.14</td></tr><tr><td>40</td><td>1.67</td><td>3.33</td><td>5.00</td><td>6.67</td><td>8.33</td></tr><tr><td>50</td><td>2.00</td><td>4.00</td><td>6.00</td><td>8.00</td><td>10.00</td></tr></table>
 
-# Table 2.1
+**Table 2.1**
 
 Equivalent taxable yields corresponding to various tax-exempt yields and municipal bonds may be comparable, but certainly will fluctuate over time. For example, the sharp run-up in the ratio beginning in 2011 probably reflects increased concern at the time about the precarious financial condition of several states and municipalities, leading to higher credit spreads on their bonds.
 
@@ -2009,24 +1840,24 @@ Figure 2.5 Ratio of yields on municipal debt to corporate Baa-rated debt
 Source: Muni bond yields from Economic Report of the President.
 
 
-# Example 2.1 Taxable versus Tax-Exempt Yields
+#### Example 2.1 Taxable versus Tax-Exempt Yields
 
 Figure 2.5 shows that for most of the last 40 years, the ratio of tax-exempt to taxable yields fluctuated around .70. What does this imply about the cutoff tax bracket above which tax-exempt bonds provide higher after-tax yields? Equation 2.3 shows that an investor whose tax bracket (federal plus local) exceeds  $1 - .70 = .30$ , or  $30\%$ , will derive a greater after-tax yield from principals. As we pointed out, however, it is difficult to control precisely for differences in the risks of these bonds, so the cutoff tax bracket must be taken as approximate.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8ccea45b8a27b8134fb80302d6269392355e9808de9b2dafbdcb661ae2d37c48.jpg)
 
-# Concept Check 2.2
+**Concept Check 2.2**
 
 Suppose your combined federal plus state tax bracket is  $30\%$ . Would you prefer to earn a  $6\%$  taxable return or a  $4\%$  tax-free return? What is the equivalent taxable yield of the  $4\%$  tax-free yield?
 
-# Corporate Bonds
+##### Corporate Bonds
 
 Corporate bonds are the means by which private firms borrow money directly from the public. These bonds are similar in structure to Treasury issues—they typically pay semi-annual coupons over their lives and return the face value to the bondholder at maturity. They differ most importantly from Treasury bonds because of default risk, and Chapter 14 discusses this issue in considerable detail. For now, we distinguish only among secured bonds, which have specific collateral backing them in the event of firm bankruptcy; unsecured bonds, called debentures, which have no collateral; and subordinated debentures, which have a lower priority claim to the firm's assets in the event of bankruptcy.
 
 
 Corporate bonds sometimes come with options attached. Callable bonds give the firm the option to repurchase the bond from the holder at a stipulated call price. Convertible bonds give the bondholder the option to convert each bond into a stipulated number of shares of stock. These options are treated in more detail in Chapter 14.
 
-# Mortgage and Asset-Backed Securities
+##### Mortgage and Asset-Backed Securities
 
 Using mortgage-backed securities, almost anyone can invest in a portfolio of mortgage loans, and these securities have become a major component of the fixed-income market. As described in Chapter 1, a mortgage-backed security is either an ownership claim in a pool of mortgages or an obligation that is secured by such a pool. Most pass-throughs have traditionally been composed of conforming mortgages, which means that the loans must satisfy certain underwriting guidelines (standards for the creditworthiness of the borrower) before they may be purchased by Fannie Mae or Freddie Mac. In the years leading up to the financial crisis, however, a large amount of subprime mortgages, that is, riskier loans made to financially weaker borrowers, were bundled and sold by "private-label" issuers. Figure 2.6 shows that both agency and private-label mortgage-backed securities enjoyed explosive growth, at least until the crisis.
 
@@ -2042,9 +1873,9 @@ Source: Securities Industry & Financial Markets Association, www.sifma.org, June
 
 Despite these troubles, securitization has become an increasingly common staple of many credit markets. For example, car loans, student loans, home equity loans, credit card loans, and even debt of private firms now are commonly bundled into pass-through securities that can be traded in the capital market. Figure 2.7 documents the rapid growth of nonmortgage asset-backed securities, at least until 2007. After the financial crisis and during Covid, the market contracted considerably, but it is still substantial.
 
-# 2.3 Equity Securities
+#### 2.3 Equity Securities
 
-# Common Stock as Ownership Shares
+##### Common Stock as Ownership Shares
 
 Common stocks, also known as equity securities or equities, represent ownership shares in a corporation. Each share of common stock entitles its owner to one vote on any matters of corporate governance that are put to a vote at the corporation's annual meeting and to a share in the financial benefits of ownership.
 
@@ -2056,7 +1887,7 @@ We noted in Chapter 1 that such separation of ownership and control can give ris
 
 The common stock of most large corporations can be bought or sold freely on one or more stock markets. A corporation whose stock is not publicly traded is said to be private. In most privately held corporations, the owners of the firm also take an active role in its management. Therefore, takeovers are generally not an issue.
 
-# Characteristics of Common Stock
+##### Characteristics of Common Stock
 
 The two most important characteristics of common stock as an investment are its residual claim and limited liability features.
 
@@ -2066,12 +1897,12 @@ Limited liability means that the most shareholders can lose in the event of fail
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/208cd1406f0f6b8f997feb6c62636e8fb1c51b2a8eca3aa784575c27045f4058.jpg)
 
-# Concept Check 2.3 a. If you buy 100 shares of Intel stock, to what are you entitled?
+**Concept Check 2.3**\na. If you buy 100 shares of Intel stock, to what are you entitled?
 
 b. What is the most money you can make on this investment over the next year?
 c. If you pay 55 per share, what is the most money you could lose over the year?
 
-# Stock Market Listings
+##### Stock Market Listings
 
 Figure 2.8 presents key trading data for a small sample of stocks traded on the New York Stock Exchange. The NYSE is one of several markets in which investors may buy or sell shares of stock. We will examine these markets in detail in Chapter 3.
 
@@ -2088,7 +1919,7 @@ The dividend yield is only part of the return on a stock investment. It ignores 
 
 The P/E ratio, or price-earnings ratio, is the ratio of the current stock price to last year's earnings per share. The P/E ratio tells us how much stock purchasers must pay per dollar of earnings that the firm generates. For Hershey, the ratio of price to earnings is 26.42. The P/E ratio also varies widely across firms. Where the dividend yield and P/E ratio are not reported in Figure 2.8, the firms have zero dividends, or zero or negative earnings. We shall have much to say about P/E ratios in Chapter 18.
 
-# Preferred Stock
+##### Preferred Stock
 
 Preferred stock has features similar to both equity and debt. Like a bond, it promises to pay a fixed amount of income each year. In this sense, preferred stock is similar to an infinite-maturity bond, that is, a perpetuity. It also resembles a bond in that it does not convey voting power regarding the management of the firm.
 
@@ -2102,19 +1933,19 @@ Presumably, this reflects the value of the  $50\%$  dividend exclusion because t
 
 Preferred stock is issued in variations similar to those of corporate bonds. It may be callable, in which case it is said to be redeemable. It also may be convertible into common stock at some specified conversion ratio. Adjustable-rate preferred stock is another variation that, like adjustable-rate bonds, ties the dividend to current market interest rates.
 
-# Depositary Receipts
+##### Depositary Receipts
 
 American Depositary Receipts, or ADRs, are certificates traded in U.S. markets that represent ownership in shares of a foreign company. Each ADR may correspond to ownership of a fraction of a foreign share, one share, or several shares of the foreign corporation. ADRs were created to make it easier for foreign firms to satisfy U.S. security registration requirements. They are the most common way for U.S. investors to directly invest in and trade the shares of foreign corporations.
 
-# 2.4 Stock and Bond Market Indexes
+#### 2.4 Stock and Bond Market Indexes
 
-# Stock Market Indexes
+##### Stock Market Indexes
 
 The daily performance of the Dow Jones Industrial Average is a staple portion of the evening news. Although the Dow is the best-known measure of the performance of the stock market, it is only one of several indicators, and far from the best. Other more broadly based indexes are computed and published daily. In addition, several indexes of bond market performance are widely available.
 
 The ever-increasing role of international trade and investments has made indexes of foreign financial markets part of the general news as well. Thus, foreign stock exchange indexes such as the Nikkei Average of Tokyo and the Financial Times index of London have become household names.
 
-# Dow Jones Industrial Average
+##### Dow Jones Industrial Average
 
 The Dow Jones Industrial Average (DJIA) of 30 large, "blue-chip" corporations has been computed since 1896. Its long history probably accounts for its preeminence in the public mind. (The average covered only 20 stocks until 1928.)
 
@@ -2132,10 +1963,10 @@ Because the Dow corresponds to a portfolio that holds one share of each componen
 
 # Example 2.2 Price-Weighted Average
 
-Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  \$25 a share and increases to\$ 30. Stock XYZ starts at \$100 but falls to \$90.
+Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at \$25 a share and increases to \$30. Stock XYZ starts at \$100 but falls to \$90.
 
 ```txt
-Portfolio: Initial value = \ 25 + \$ 100 = \$ 125 Final value =\ 30 + \ 90 = \$ 120 Percentage change in portfolio value = -5 / 125 = -.04 = -4\% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index \doteq -2.5 / 62.5 = -.04 = -4\%
+Portfolio: Initial value = \$25 + \$100 = \$125 Final value = \$30 + \$90 = \$120 Percentage change in portfolio value = -5/125 = -.04 = -4\% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index ≈ -2.5/62.5 = -.04 = -4\%
 ```
 
 The portfolio and the index have identical  $4\%$  declines in value.
@@ -2151,7 +1982,7 @@ Suppose XYZ from Example 2.2 splits two for one so that its share price falls to
 We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to \$50. Therefore, we solve for  $d$  in the following equation:
 
 $$
-\frac {\text {P r i c e o f A B C} + \text {P r i c e o f X Y Z}}{d} = \frac {2 5 + 5 0}{d} = 6 2. 5
+\frac{\text{Price of ABC} + \text{Price of XYZ}}{d} = \frac{25 + 50}{d} = 62.5
 $$ which implies that the divisor must fall from its original value of 2.0 to a new value of 1.20.
 
 
@@ -2179,11 +2010,11 @@ Companies included in the Dow Jones Industrial Average: 1928 and 2022
 
 Table 2.4
 
-# Concept Check 2.4
+**Concept Check 2.4**
 
 Suppose the price of XYZ in Table 2.2 increases to  \$110, while ABC falls to\$ 20. Find the percentage change in the price-weighted average of these two stocks. Compare that to the percentage return of a portfolio holding one share in each company.
 
-# The Standard & Poor's 500 Index
+#### The Standard & Poor's 500 Index
 
 The Standard & Poor's Composite 500 (S&P 500) stock index represents an improvement over the Dow Jones Averages in two ways. First, it is a more broadly based index of about 500 firms. Second, it is a market-value-weighted index. For firms XYZ and ABC in Example 2.2, the S&P 500 would give ABC five times the weight given to XYZ because the market value of its outstanding equity is five times larger, \$500 million versus \$100 million.
 
@@ -2191,9 +2022,9 @@ The S&P 500 is computed by calculating the total market value of the 500 firms i
 
 Actually, most indexes today use a modified version of market-value weights. Rather than weighting by total market value, they weight by the market value of free float, that is, by the value of shares that are freely tradable among investors. For example, this procedure does not count shares held by founding families or governments. These shares are effectively not available for investors to purchase. The distinction is more important in Japan and Europe, where a higher fraction of shares are held in such nontraded portfolios.
 
-# Example 2.4 Value-Weighted Indexes
+#### Example 2.4 Value-Weighted Indexes
 
-To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  \$690 million. The initial value was\$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
+To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is \$690 million. The initial value was \$600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be $100 \times (690/600) = 115$. The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
 
 Unlike the price-weighted index, the value-weighted index gives more weight to ABC. Whereas the price-weighted index fell because it was dominated by higher-price XYZ, the value-weighted index rises because it gives more weight to ABC, the stock with the higher total market value.
 
@@ -2201,7 +2032,7 @@ Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffec
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/910d04b2f0a5d6e141f44bbb26d3daf5047e5f31e5678e1fe306ed46a42a6680.jpg)
 
-# Concept Check 2.5
+**Concept Check 2.5**
 
 Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds \$500 of ABC stock for every \$100 of XYZ stock (i.e., an index portfolio).
 
@@ -2209,19 +2040,19 @@ A nice feature of both market-value-weighted and price-weighted indexes is that 
 
 Investors can easily buy market indexes for their portfolios. One way is to purchase shares in mutual funds that hold shares in proportion to their representation in the S&P 500 or another index. These index funds earn a return equal to that of the index and so provide a low-cost passive investment strategy for equity investors. Another approach is to purchase an exchange-traded fund, or ETF, which is a portfolio of shares that can be bought or sold as a unit, just as one can buy or sell a single share of stock. Available ETFs range from portfolios that track extremely broad global market indexes all the way to narrow industry indexes. We discuss both mutual funds and ETFs in detail in Chapter 4.
 
-# Russell Indexes
+#### Russell Indexes
 
 The Russell indexes are a family of indexes that measure the performance of distinct market segments, primarily segmented by size. While the Russell 3000 measures the performance of the largest 3,000 U.S. stocks, the Russell 2500 measures the bottom 2,500 stocks included in the Russell 3000 and is thus a popular index for mid-cap to small-cap stocks ("cap" is an abbreviation for market capitalization, the total value of outstanding shares). Other indexes are the Russell 1000 (the largest 1,000 firms in the Russell 3000), the Russell Top 200 and Top 50, and the Russell Microcap (comprising the stocks ranked 2,001 through 4,000) by market cap.
 
 The stocks included in each of these indexes are updated once a year. The indexes are capitalization weighted.
 
-# Other U.S. Market-Value Indexes
+#### Other U.S. Market-Value Indexes
 
 The New York Stock Exchange publishes a market-value-weighted composite index of all NYSE-listed stocks, in addition to subindexes for industrial, utility, transportation, and financial stocks. NASDAQ computes a Composite index of more than 3,000 firms traded on the NASDAQ market. The NASDAQ 100 is a subset of the larger firms in the Composite Index, but it accounts for a large fraction of its total market capitalization.
 
 The ultimate U.S. equity index so far computed is the Wilshire 5000 index of the market value of essentially all actively traded stocks in the United States. At one point, it included more than 5,000 stocks, but today, there are only about 3,500 stocks in the index. A similar comprehensive index is published by CRSP (the Center for Research in Security Prices at the University of Chicago).
 
-# Equally Weighted Indexes
+#### Equally Weighted Indexes
 
 Market performance is sometimes measured by an equally weighted average of the returns of each stock in an index. Such an averaging technique, by placing equal weight on each return, corresponds to an implicit portfolio strategy that invests equal dollar values in each stock. This is in contrast to both price weighting (which requires equal numbers of shares of each stock) and market-value weighting (which requires investments in proportion to outstanding value).
 
@@ -2234,13 +2065,13 @@ Sample of MSCI stock indexes Source: MSCI, www.msci.com.
 Table 2.5 you would need to rebalance: Sell off some ABC stock and/or purchase more XYZ stock. Such rebalancing would be necessary to align the return on your portfolio with that on the equally weighted index.
 
 
-# Foreign and International Stock Market Indexes
+#### Foreign and International Stock Market Indexes
 
 Development in financial markets worldwide includes the construction of indexes for these markets. Among these are the Nikkei (Japan), FTSE (U.K.; pronounced "footsie"), DAX (Germany), Hang Seng (Hong Kong), and TSX (Canada).
 
 A leader in the construction of international indexes has been MSCI (Morgan Stanley Capital International), which computes dozens of country indexes and several regional indexes. Table 2.5 presents many of the indexes computed by MSCI.
 
-# Bond Market Indicators
+#### Bond Market Indicators
 
 Just as stock market indexes provide guidance concerning the performance of the overall stock market, several bond market indicators measure the performance of various categories of bonds. The most well-known indexes are those of Merrill Lynch, Barclays, and the
 
@@ -2258,7 +2089,7 @@ Citi Broad Investment Grade Bond Index. Figure 2.9 shows the components of the U
 
 The major problem with bond market indexes is that rates of return on many bonds are difficult to compute because the infrequency with which the bonds trade makes reliable up-to-date prices difficult to obtain. In practice, some prices must be estimated from bond-valuation models. These "matrix" prices may differ from true market values.
 
-# 2.5 Derivative Markets
+### 2.5 Derivative Markets
 
 Futures, options, and related derivatives contracts provide payoffs that depend on the values of other variables such as commodity prices, bond and stock prices, interest rates, or market index values. For this reason, these instruments sometimes are called derivative assets: Their values derive from the values of other assets. These assets are also called contingent claims because their payoffs are contingent on the value of other values.
 
@@ -2273,7 +2104,7 @@ When the market price exceeds the exercise price, the option holder may "call aw
 Note: Microsoft stock price on this day was 282.51.
 Source: Compiled from data downloaded from Yahoo! Finance.
 
-# Table 2.6
+**Table 2.6**
 
 Stock options on Microsoft, July 14, 2021.
 
@@ -2287,15 +2118,15 @@ Option prices also increase with time until expiration. Clearly, one would rathe
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/bf1974580215332544531b45c2636e4e22a272aae97aa52e227a634fe4c48e94.jpg)
 
-# Concept Check 2.6
+**Concept Check 2.6**
 
 What is the profit or loss per share to an investor who buys the September 17, 2021, expiration Microsoft call option with exercise price  \$285 if the stock price at the expiration date is\$ 295? What about a purchaser of the put option with the same exercise price and expiration?
 
-# Futures Contracts
+#### Futures Contracts
 
 A futures contract calls for delivery of an asset (or, in some cases, its cash value) at a specified delivery or maturity date for an agreed-upon price, called the futures price, also to be paid at contract maturity. The long position is held by the trader who commits to
 
-# Table 2.7
+**Table 2.7**
 
 Corn futures prices on the Chicago Mercantile Exchange, July 15, 2021.
 
@@ -2315,7 +2146,7 @@ The right to purchase the asset at an agreed-upon price, as opposed to the oblig
 
 Clearly, a holder of a call has a better position than the holder of a long position on a futures contract with a futures price equal to the option's exercise price. This advantage, of course, comes only at a price. Call options must be purchased; futures contracts are entered into without cost. The purchase price of an option is called the premium. It represents the compensation the purchaser of the call must pay for the ability to exercise the option only when it is profitable to do so. Similarly, the difference between a put option and a short futures position is the right, as opposed to the obligation, to sell an asset at an agreed-upon price.
 
-# SUMMARY
+**SUMMARY**
 
 1. Money market securities are very-short-term debt obligations. They are usually highly marketable and have relatively low credit risk. Their low maturities and low credit risk ensure minimal capital gains or losses. These securities trade in large denominations, but they may be purchased indirectly through money market mutual funds.
 2. Much of U.S. government borrowing is in the form of Treasury bonds and notes. These are coupon-paying bonds usually issued at or near par value. Treasury notes and bonds are similar in design to coupon-paying corporate bonds.
@@ -2349,13 +2180,13 @@ index funds derivative assets
 exercise (or strike) price put option
 futures contract
 
-# KEY TERMS
+**KEY TERMS**
 
 Equivalent taxable yield:  $\frac{r_{\mathrm{muni}}}{1 - t}$ , where  $r_{\mathrm{muni}}$  is the rate on tax-free municipal debt and  $t$  is the federal plus state combined tax rate
 
 Cutoff tax rate (for indifference to taxable versus tax-free bonds):  $1 - \frac{r_{\text{muni}}}{r_{\text{taxable}}}$
 
-# KEY EQUATIONS
+**KEY EQUATIONS**
 
 1. In what ways is preferred stock like long-term debt? In what ways is it like equity?
 2. Why are money market securities often called "cash equivalents"?
@@ -2365,7 +2196,7 @@ a. The sale of a security with a commitment to repurchase the same security at a
 $b$ . The sale of a security with a commitment to repurchase the same security at a future date left unspecified, at a designated price.
 c. The purchase of a security with a commitment to purchase more of the same security at a specified future date.
 
-# PROBLEM SETS
+**PROBLEM SETS**
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/9f6e38307456b13e6b7903d6a7c4de13e52c5cdef11922e307694f1336db34b0.jpg)
 SCHWESER
@@ -2452,7 +2283,7 @@ d.  $30\%$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/330cda6c445ba77e8b07e8e5301bf0f41623da4e07c49e876e49c04f40d2b37b.jpg)
 
-# E-INVESTMENTS EXERCISES
+**E-INVESTMENTS EXERCISES**
 
 1. You can get the Walt Disney Company's annual report (its 10-K) from the SEC's EDGAR site, www.sec.gov/edgar/searchedgar/companysearch.html, or you can find it using a simple Web search. Locate the company's Consolidated Balance Sheets and answer these questions: a. How much preferred stock is Disney authorized to issue? How much has been issued?
 
@@ -2487,9 +2318,9 @@ $b$ . Your potential gain is unlimited because the stock price has no upper boun
  5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of \$100 million + \$500 million = \$600 million and falls in value to \$110 million + \$400 million = \$510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
  6. The payoff to the call option is \$10 per share at expiration. The option cost is \$8.45 per share. The dollar profit is therefore \$1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or \$10.79.
 
-# How Securities Are Traded
+### Chapter 3: How Securities Are Traded
 
-# 3
+
 
 THIS CHAPTER WILL provide you with a broad introduction to the many venues and procedures available for trading securities in the United States and international markets. We will see that trading mechanisms range from direct negotiation among market participants to fully automated computer crossing of trade orders.
 
@@ -2498,14 +2329,14 @@ The first time a security trades is when it is issued to the public. Therefore, 
 
 We then turn to the essentials of some specific types of transactions, such as buying on margin and short-selling stocks. We close the chapter with a look at some important aspects of the regulations governing security trading, including insider trading laws, and the role of security markets as self-regulating organizations.
 
-# 3.1 How Firms Issue Securities
+### 3.1 How Firms Issue Securities
 
 Firms regularly need to raise new capital to help pay for their many investment projects. Broadly speaking, they can raise funds either by borrowing or by selling shares in the firm. Investment bankers are generally hired to manage the sale of these securities in what is called a primary market for newly issued securities. Once these securities are issued, however, investors might well wish to trade them among themselves. For example, you may decide to raise cash by selling some of your shares in Apple to another investor. This transaction would have no impact on the total outstanding number of Apple shares. Trades in existing securities take place in the so-called secondary market.
 
 Shares of publicly listed firms trade continually in markets such as the New York Stock Exchange or the NASDAQ Stock Market. There, any investor can choose to buy shares for his or her portfolio. These companies are also called publicly traded, publicly owned, or just public companies. Other firms, however, are private corporations, whose shares are held by small numbers of managers and investors. Ownership stakes in the firm are still proportional to share ownership, but those shares do not trade in public markets. While many private firms are relatively young companies that have not yet chosen to make their shares generally available to the public, others may be more established firms that are still largely owned by the company's founders or families, and others may simply have decided that private organization is preferable.
 
 
-# Privately Held Firms
+#### Privately Held Firms
 
 A privately held company is owned by a relatively small number of shareholders. These firms have fewer obligations to release financial statements and other information to the public. This saves money and frees the firm from disclosing information that might be helpful to its competitors. Some firms also believe that eliminating requirements for quarterly earnings announcements gives them more flexibility to pursue long-term goals free of shareholder pressure.
 
@@ -2517,7 +2348,7 @@ As firms increasingly chafed against the informational requirements of going pub
 
 The act also exempts smaller public companies (those with less than 1 billion in annual gross revenues) from Section 404 of the Sarbanes-Oxley Act (SOX), which would otherwise require them to report on the adequacy of the company's financial controls. This provision of SOX had drawn particular criticism as an undue burden on small firms.
 
-# Publicly Traded Companies
+#### Publicly Traded Companies
 
 When a private firm decides that it wishes to raise capital from a wide range of investors, it may decide to go public. This means that it will sell its securities to the general public and allow those investors to freely trade those shares in established securities markets.
 
@@ -2529,7 +2360,7 @@ Investment bankers advise the firm regarding the terms on which it should attemp
 
 In a typical underwriting arrangement, the investment bankers purchase the securities from the issuing company and then resell them to the public. The issuing firm sells the securities to the underwriting syndicate for the public offering price less a spread that serves as compensation to the underwriters. This procedure is called a firm commitment because the underwriters bear the risk that they won't be able to sell the stock at the planned offering price. In addition to the spread, the investment banker also may receive shares of common stock or other securities of the firm. Figure 3.1 depicts the relationships among the firm issuing the security, the lead underwriter, the underwriting syndicate, and the public.
 
-# Shelf Registration
+#### Shelf Registration
 
 An important innovation was introduced in 1982 when the SEC approved Rule 415 for seasoned offerings, which allows firms that are already publicly traded to register securities and gradually sell them to the public for three years following the initial registration. Because the securities are already registered, they can be sold on short notice, with little additional paperwork. Moreover, they can be sold in small amounts without incurring substantial flotation costs. The securities are "on the shelf," ready to be issued, which has given rise to the term shelf registration.
 
@@ -2538,11 +2369,11 @@ Figure 3.1 Relationships among a firm issuing securities, the underwriters, and 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ac2f1a7b2798054ff74fb68a4bdd16f48e08f95318526e97f0a8006076e82961.jpg)
 
-# Concept Check 3.1
+**Concept Check 3.1**
 
 Why does it make sense for shelf registration to be limited in time?
 
-# Initial Public Offerings
+#### Initial Public Offerings
 
 Investment bankers manage the issuance of new securities to the public. Once the SEC has commented on the registration statement and a preliminary prospectus has been distributed to interested investors, the investment bankers organize road shows in which they travel around the country to publicize the imminent offering. These road shows serve two purposes. First, they generate interest among potential investors and provide information about the offering. Second, they provide information to the issuing firm and its underwriters about the price at which they will be able to market the securities. Large investors communicate their interest in purchasing shares of the IPO to the underwriters; these indications of interest are called a book, and the process of polling potential investors is called bookbuilding. The book provides valuable information to the issuing firm because institutional investors often will have useful insights about the market demand for the security as well as the prospects of the firm and its competitors. Investment bankers frequently revise both their initial estimates of the offering price of a security and the number of shares offered based on feedback from the investing community.
 
@@ -2570,7 +2401,7 @@ An interesting but little-used alternative to a traditional IPO is called a dire
 
 Direct listings save companies the costs of an IPO. However, by forgoing an IPO, the firm forfeits some after-market support meant to stabilize post-issuance share prices. For example, underwriters usually set up lock-up periods that prohibit officers, directors, founders, and other pre-IPO investors from selling their shares for several months after the IPO. This prevents a wave of selling and presumably props up the stock price. To protect its own reputation as an underwriter, the investment bank may also purchase additional stock in the newly public firm to stabilize its price if it fears a post-IPO price decline.
 
-# SPACs versus Traditional IPOs
+#### SPACs versus Traditional IPOs
 
 While the IPOs we have described are the conventional way for firms to go public, 2021 was in large part the year of the SPAC: a special purpose acquisition company. The sponsor of the SPAC raises funds in its own IPO and goes public, but with no underlying commercial operations. It then searches for an acquisition target. If by the end of two years a suitable acquisition has not been found, the money must be returned to these early investors, typically hedge funds or other large institutional investors. But if the SPAC identifies an attractive target firm, it merges that firm into the already publicly traded SPAC. Of course, the ultimate acquisition is still unknown when the SPAC raises its own funds. For this reason, SPACs are often called blank-check firms. The reputation of the sponsor is therefore crucial.
 
@@ -2585,11 +2416,11 @@ Listings of new SPACs accounted for a bit more than half of the roughly 300 bill
 
 Still, regulators, in particular the SEC, seem increasingly concerned about an uneven playing field for insiders versus regular investors. Gary Gensler, head of the SEC, has asked staff for recommendations concerning disclosure, marketing practices, and sponsor liability. Press releases that create buzz about a new offering without adhering to conventional standards for financial disclosure are a particular concern.
 
-# 3.2 How Securities Are Traded
+### 3.2 How Securities Are Traded
 
 Financial markets develop to meet the needs of particular traders. Consider what would happen if organized markets did not exist. Any household wishing to invest in some type of financial asset would have to find others wishing to sell. Soon, venues where interested traders could meet would become popular. Eventually, financial markets would emerge from these meeting places. Thus, a pub in old London called Lloyd's launched the maritime insurance industry. A Manhattan curb on Wall Street became synonymous with the financial world.
 
-# Types of Markets
+#### Types of Markets
 
 We can differentiate four types of markets: direct search markets, brokered markets, dealer markets, and auction markets.
 
@@ -2605,7 +2436,7 @@ Auction Markets The most integrated market is an auction market, in which all tr
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/10a3dde61ad994fa8b16407b4c6f46e46b09c1e36a630ba147609e3fed070aa5.jpg)
 
-# Concept Check 3.2
+**Concept Check 3.2**
 
 Many assets trade in more than one type of market. What types of markets do the following trade in?
 
@@ -2616,7 +2447,7 @@ The New York Stock Exchange (NYSE) is an example of an auction market. An advant
 
 Notice that both over-the-counter dealer markets and stock exchanges are secondary markets. They are organized for investors to trade existing securities among themselves.
 
-# Types of Orders
+#### Types of Orders
 
 Before comparing alternative trading practices and competing security markets, it is helpful to begin with an overview of the types of trades an investor might wish to have executed in these markets. Broadly speaking, there are two types of orders: market orders and orders contingent on price.
 
@@ -2637,7 +2468,7 @@ Source: James J. Angel, Lawrence E. Harris, Chester S. Spatt. "Equity Trading in
 
 Figure 3.4 is a portion of the limit order book for shares in Microsoft taken from the CBOE electronic exchange (one of several electronic exchanges; more on these shortly). Notice that the best orders are at the top of the list: the offers to buy at the highest price and to sell at the lowest price. The buy and sell orders at the top of the list— \$286.95 and\$ 286.97—are called the inside quotes; they are the highest buy and lowest sell orders. The inside spread at this time was only 2 cents. However, order sizes at the inside quotes are generally small. Therefore, investors interested in larger trades face an effective spread greater than the nominal one because they cannot execute their entire trades at the inside price quotes.
 
-# Microsoft Corporation (MSFT)
+**Microsoft Corporation (MSFT)**
 
 NasdaqGS - NasdaqGS Real Time Price. Currency in USD
 
@@ -2645,11 +2476,11 @@ NasdaqGS - NasdaqGS Real Time Price. Currency in USD
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/38dc8ea126469b9737e08ed76c5eb185eb1f29f9260a143f1e0c66b9eb04e91d.jpg)
 
-# Watchlist
+**Watchlist**
 
 As of 3:45PM EST. Market open.
 
-# Order Book
+**Order Book**
 
 Top of Book
 
@@ -2660,7 +2491,7 @@ Source: markets.cboe.com.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0ad245838f931d108897c74c6f11964d9d50b29864f1ef2068372a69fa44d2b3.jpg)
 Figure 3.4 A portion of the limit order book for Microsoft on the CBOE Global Markets, August 4, 2021.
 
-# Concept Check 3.3
+**Concept Check 3.3**
 
 What type of trading order might you give to your broker in each of the following circumstances?
 
@@ -21681,7 +21512,9 @@ In Chapter 6, we introduced criteria for the investor's optimal risky portfolio.
 
 We focus here on total volatility rather than systematic risk because we are looking at the entire risky portfolio rather than a small component of it. The benchmark for acceptable performance is the Sharpe ratio of the market index because the investor can easily achieve that performance by investing in an indexed equity mutual fund. To be considered attractive, the actively managed portfolio must offer a higher Sharpe ratio than that of the market index.
 
-The  $M^2$  Measure and the Sharpe Ratio While the Sharpe ratio can be used to rank portfolio performance, its numerical value is not easy to interpret. Comparing the ratios for portfolios  $M$  and  $P$  in Concept Check 24.2, you should have found that  $S_P = .69$  and  $S_M = .73$ . This suggests that portfolio  $P$  underperformed the market index. But is a difference of .04 in the Sharpe ratio economically meaningful? We often compare rates of return, but these values are difficult to interpret.
+The $M^2$ Measure and the Sharpe Ratio
+
+While the Sharpe ratio can be used to rank portfolio performance, its numerical value is not easy to interpret. Comparing the ratios for portfolios $M$ and $P$ in Concept Check 24.2, you should have found that $S_P = .69$ and $S_M = .73$. This suggests that portfolio $P$ underperformed the market index. But is a difference of .04 in the Sharpe ratio economically meaningful? We often compare rates of return, but these values are difficult to interpret.
 
 An equivalent representation of Sharpe's ratio was proposed by Graham and Harvey, and later popularized by Leah Modigliani of Morgan Stanley and her grandfather Franco Modigliani, past winner of the Nobel Prize in Economics. Their approach has been dubbed the  $M^2$  measure (for Modigliani-squared). Like the Sharpe ratio,  $M^2$  focuses on total volatility as a measure of risk, but its risk adjustment leads to an easy-to-interpret differential return relative to the benchmark index.
 

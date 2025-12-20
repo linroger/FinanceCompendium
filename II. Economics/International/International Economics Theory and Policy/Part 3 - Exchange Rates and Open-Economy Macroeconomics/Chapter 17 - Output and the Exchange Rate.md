@@ -1,3 +1,26 @@
+---
+primary_tags:
+- behavior exchange rates
+- rate return foreign
+- exchange rate producing equilibrium
+- money market equilibrium foreign
+- short run model examine
+secondary_tags:
+- exchange rate parity condition
+- equilibrium output exchange rate
+- future exchange rate assumed
+- equilibrium point domestic currency
+- condition describing foreign exchange
+- equilibrium rise domestic output
+- exchange rate short run
+- output exchange rate effects
+- rate domestic currency implies
+- money demand implies inward
+- expected domestic currency return
+- short run canadian economies
+tags_extracted: '2025-12-18T00:53:53.172457'
+---
+
 # OUTPUT AND THE EXCHANGE RATE IN THE SHORT RUN
 
 The U.S. and Canadian economies registered similar negative rates of output growth during 2009, a year of deep global recession. But while the U.S. dollar depreciated against foreign currencies by about 8 percent over the year, the Canadian dollar appreciated by roughly 16 percent. What explains these contrasting experiences? By completing the macroeconomic model built in Chapters 14 through 16, this chapter will sort out the complicated factors that cause output, exchange rates, and inflation to change. Chapters 15 and 16 presented the connections among exchange rates, interest rates, and price levels but always assumed that output levels were determined outside the model. Those chapters gave us only a partial picture of how macroeconomic changes affect an open economy because events that change exchange rates, interest rates, and price levels may also affect output. Now we complete the picture by examining how output and the exchange rate are determined in the short run.

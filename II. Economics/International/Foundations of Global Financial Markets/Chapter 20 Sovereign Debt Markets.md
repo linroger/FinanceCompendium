@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Sovereign Debt Markets
-tags:
-key_concepts:
-parent_directory: "[[II. Economics/International/Foundations of Global Financial Markets]]"
+- Sovereign Debt Markets
+tags: null
+key_concepts: null
+parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
 cssclasses: academia
-title: "Chapter 20: Sovereign Debt Markets"
-linter-yaml-title-alias: "Chapter 20: Sovereign Debt Markets"
+title: 'Chapter 20: Sovereign Debt Markets'
+linter-yaml-title-alias: 'Chapter 20: Sovereign Debt Markets'
+primary_tags:
+- country lowest default risk
+- coupon securities called stripping
+- primary sovereign debt markets
+- repurchase agreements government markets
+- gilts gilt strips
+secondary_tags:
+- 20 sovereign debt markets
+- government markets sovereign
+- payments gilt stripped
+- 20 central government debt
+- government debt securities
+- debt markets contents
+- inflation adjusted securities sovereign
+- secondary government securities market
+- pricing debt instruments governments
+- sector government bond market
+- countries marketable debt issued
+- government securities exchange rate
+tags_extracted: '2025-12-18T00:21:04.703677'
 ---
 
 # 20

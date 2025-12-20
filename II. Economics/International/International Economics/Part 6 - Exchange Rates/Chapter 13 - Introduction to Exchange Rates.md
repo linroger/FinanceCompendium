@@ -1,12 +1,29 @@
 ---
 aliases:
-  - Introduction to Exchange Rates and the Foreign Exchange Market
-tags:
-key_concepts:
+- Introduction to Exchange Rates and the Foreign Exchange Market
+tags: null
+key_concepts: null
 parent_directory: Part 6 - Exchange Rates
 cssclasses: academia
 title: Chapter 13 - Introduction to Exchange Rates and the Foreign Exchange Market
-linter-yaml-title-alias: Chapter 13 - Introduction to Exchange Rates and the Foreign Exchange Market
+linter-yaml-title-alias: Chapter 13 - Introduction to Exchange Rates and the Foreign
+  Exchange Market
+primary_tags:
+- trading dollars euros
+- international trade influencing prices
+- depreciating falling value
+- oscar wilde importance
+secondary_tags:
+- introduction exchange rates foreign
+- foreign exchange market chapter
+- criticize activities foreign exchange
+- roiling world currency market
+- dollar terms make george
+- rates arbitrage ensures trade
+- york considering trading dollars
+- rate 2003 euro purchased
+- dollars traded day economic
+tags_extracted: '2025-12-18T00:40:05.562131'
 ---
 
 # Introduction to Exchange Rates and the Foreign Exchange Market

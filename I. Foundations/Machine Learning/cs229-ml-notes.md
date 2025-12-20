@@ -1,11 +1,41 @@
 ---
 parent_directory: Machine Learning
-title: "Machine Learning - Stanford CS229 Notes"
-tags:
+title: Machine Learning - Stanford CS229 Notes
+tags: null
 aliases:
-  - "CS229 Machine Learning"
-  - "Stanford Machine Learning Notes"
+- CS229 Machine Learning
+- Stanford Machine Learning Notes
 cssclasses: academia
+primary_tags:
+- specific algorithm
+- backpropagation algorithm
+- vector-valued inputs
+- other examples
+- feature deletions
+- problem sets
+- covariance noise
+secondary_tags:
+- gaussian discriminant analysis
+- optional reading
+- support machine
+- weak-learning algorithm
+- value function approximation
+- gradient descent algorithm
+- 10.2 backpropagation
+- all the inequalities
+- few examples
+- other gradient-based optimizers
+- likelihood estimation
+- smallest training error
+- intermediate step
+- other strategies
+- each model times
+- prediction example
+- few algebraic manipulations
+- estimated transition probabilities
+- any vector
+tags_extracted: '2025-12-18T17:56:09.180062'
+tags_method: max_quality_v1
 ---
 
 # Machine Learning

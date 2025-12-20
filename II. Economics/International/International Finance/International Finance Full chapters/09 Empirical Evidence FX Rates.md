@@ -1,12 +1,32 @@
 ---
 aliases:
-  - Empirical Evidence FX Rates
-tags:
-key_concepts:
+- Empirical Evidence FX Rates
+tags: null
+key_concepts: null
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: "Chapter 9: Empirical Evidence FX Rates"
-linter-yaml-title-alias: "Chapter 9: Empirical Evidence FX Rates"
+title: 'Chapter 9: Empirical Evidence FX Rates'
+linter-yaml-title-alias: 'Chapter 9: Empirical Evidence FX Rates'
+primary_tags:
+- observable macroeconomic fundamentals deviating
+- crucial modelling exchange rate
+- efficient market hypothesis summary
+- foreign exchange market
+- unanticipated exchange rate movements
+secondary_tags:
+- exchange market efficiency empirical
+- international finance empirical modelling
+- expectation exchange rate change
+- exchange rate movements probability
+- exchange rate behaviour te
+- empirical tests exchange rate
+- evidence forward exchange rate
+- theories exchange rate determination
+- monetarist models assume portfolio
+- foreign exchange market theoretical
+- conventional exchange rate models
+- modelling exchange rate expectations
+tags_extracted: '2025-12-18T01:33:00.998712'
 ---
 
 # CHAPTER 9

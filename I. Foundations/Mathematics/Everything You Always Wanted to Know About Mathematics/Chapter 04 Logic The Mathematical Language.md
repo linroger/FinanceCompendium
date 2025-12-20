@@ -1,11 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: Chapter 4
 linter-yaml-title-alias: Chapter 4
+primary_tags:
+- even natural numbers
+- more complicated statements
+- own truth value
+- proof techniques
+- specific examples
+- quantifier notation
+- all subsets
+secondary_tags:
+- some statements
+- then and proof
+- individual statements
+- some examples
+- mathematical induction
+- specific example
+- two types
+- either all even natural numbers
+- formal definitions
+- fellow mathematician
+- some templates
+- truth value
+- other connectives
+- well-defined yet false mathematical statement
+- some more examples
+- (demorgan's laws
+- only such a quantification
+- other examples
+- any fundamental mathematical claim
+tags_extracted: '2025-12-18T17:56:53.063780'
+tags_method: max_quality_v1
 ---
 
 # Chapter 4

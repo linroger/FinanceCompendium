@@ -1,11 +1,25 @@
 ---
 aliases:
-  - From 1865 to 1945 in a Tiny Nutshell
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+- From 1865 to 1945 in a Tiny Nutshell
+tags: null
+key_concepts: null
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
+  Ray Dalio Full
 cssclasses: academia
-title: "15 - Chapter 9: From 1865 to 1945 in a Tiny Nutshell"
+title: '15 - Chapter 9: From 1865 to 1945 in a Tiny Nutshell'
+primary_tags:
+- very brief, eight-page chapter
+- classic domestic and international cycles
+- new orders
+secondary_tags:
+- classic big debt cycles
+- monetary, political, and geopolitical orders
+- boom/bust cycles
+- big cycle
+- next major war
+- big increases
+tags_extracted: '2025-12-18T18:03:19.138611'
+tags_method: max_quality_v1
 ---
 
 # 15_9_From_1865_to_1945_in_a_Tiny_Nutshell

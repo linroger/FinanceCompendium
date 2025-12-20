@@ -1,11 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+aliases: null
+tags: null
+key_concepts: null
+parent_directory: null
 cssclasses: academia
 title: The Euro
 linter-yaml-title-alias: The Euro
+primary_tags:
+- differences symmetry eu countries
+- criteria joining monetary union
+- created central bank european
+- collective burden sharing eurozone
+- eurozone thought
+- end currency european union
+secondary_tags:
+- inflation countries maastricht criteria
+- costs breaking eurozone bad
+- historical political logic euro
+- euro countries transition pegged
+- financial conflicts eurozone risk
+- inflation criticism convergence criteria
+- rules countries desire monetary
+- currency union policy
+- oca criteria eurozone selected
+- erm countries suffered exchange
+- german currencies ended
+- fiscal rules monetary union
+- common currency fits political
+- wolf euro crisis
+- discussion inflation bias countries
+- eurozone people born different
+tags_extracted: '2025-12-18T00:47:32.077424'
 ---
 
 # The Euro
