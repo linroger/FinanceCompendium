@@ -1,37 +1,26 @@
 ---
-aliases:
-- The Big Debt Cycle in a Tiny Nutshell
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: '03 - Chapter 1: The Big Debt Cycle in a Tiny Nutshell'
+title: Chapter 1 - The Big Debt Cycle in a Tiny Nutshell
 primary_tags:
-- net selling
-- debt credit
-- asset prices
-- following five stages
-- concluding observations
+  - big debt cycle
+  - debt mechanics
+  - credit creation
+  - economic cycles
+  - debt crisis stages
 secondary_tags:
-- big cycle
-- other big cycles
-- very brief but complete description
-- next two chapters
-- lower incomes
-- comprehensive picture
-- central governments' debts
-- a) money
-- debt contraction
-- most cases
-- both debt restructurings
-- self-reinforcing, debt-contraction dynamic
-tags_extracted: '2025-12-18T18:02:09.178643'
-tags_method: max_quality_v1
+  - short term debt cycles
+  - long term debt cycles
+  - debt bubble
+  - debt contraction
+  - monetary policy
+  - credit expansion
+  - asset prices
+  - debt servicing
+  - economic expansion
+  - debt sustainability
+cssclasses: academia
 ---
 
-# 03_1_The_Big_Debt_Cycle_in_a_Tiny_Nutshell
-## DEBT CYCLE
+# Chapter 1: The Big Debt Cycle in a Tiny Nutshell
 
 Part I provides a comprehensive picture of the Big Debt Cycle, which has occurred again and again throughout history but isn't widely recognized because big shifts in it come along so infrequently, only about once in a lifetime. The purpose of this part is to describe how the natural mechanics of money, credit, debt, and economic activity, combined with human nature, add up over time to create the Big Debt Cycle. In it, I explain the stages of how the Big Debt Cycle progresses and what happens when it unravels. In the first chapter, I provide an overview of how the cycle unfolds in a nutshell, and in the following two chapters, I dive into more detail, explaining the mechanics that drive the debt cycle both in words and concepts and in numbers and equations. These chapters have a lot for both the general reader and the investor, and I'd encourage you to either read just the bold or explore the details as it suits you.
 
@@ -76,14 +65,14 @@ Think of the Big Debt Cycle's progression like the progression of a disease or a
 When net debt levels are low, money is sound, the country is competitive, and debt growth fuels productivity growth, which creates incomes that are more than enough to pay back the debts. This leads to increases in financial wealth and confidence.
 
 - Credit is the promise to deliver money. Unlike credit, which requires a payment of money at a later date, money settles transactions—i.e., if money is given, the transaction is complete, whereas if credit is given, money is owed. It's easy to create credit. Anyone can create credit, but not anyone can create money. For example, I can create credit by accepting your promise to pay me money even if you don't have the money. As a result, credit easily grows, so there is much more credit than there is money. The most effective money is both a medium of exchange and a storehold of wealth that is widely accepted around the world. At the early stage of the Big Debt Cycle, money is "hard," which means that it is a medium of exchange that is also a storehold of wealth that can't easily be increased in supply, such as gold, silver, and more recently Bitcoin. Cryptocurrencies like Bitcoin are now emerging as accepted hard currencies because they are widely accepted around the world and are limited in supply. The biggest, most common risk to money becoming an ineffective storehold of wealth is the risk that a lot of it will be created. Imagine having the ability to create money; who wouldn't be tempted to do a lot of that? Those who can always are. That creates the Big Debt Cycle. In the early part of the Big Debt Cycle, a) money is typically hard, and the paper money that circulates is convertible into the "hard money" at a fixed price, and b) there isn't a lot of paper money and debt (which is the promise to pay money) outstanding. The Big Debt Cycle consists of the building up of a) "paper money" and debt assets/liabilities relative to b) "hard money" and real assets (e.g., goods and services) and relative to the income that is required to service the debt. Basically, the Big Debt Cycle works like a Ponzi scheme or musical chairs with investors holding an increasing amount of debt assets in the belief that they can convert them into money that will have buying power to get real things, yet as the amount of the debt assets that are held up by that faith increases relative to the real things, that conversion becomes more obviously impossible until that is realized and the process of selling the debt to get the hard money and real assets begins.
-- At the early stage of the debt cycle, private and government debt and debt service ratios are 1) low relative to incomes and/or 2) low relative to liquid assets. For example, government debt and debt service are low relative to government tax revenue and/or low relative to government liquid assets (e.g., reserves and other savings such as sovereign wealth assets) that can easily be converted into money. When the Big Debt Cycle that we are in began in 1945, the ratios of US government debt and US money supply divided by the amount of gold the US government had were equal to $7\mathrm{x}$ and $1.3\mathrm{x}$, respectively, whereas now these ratios are $37\mathrm{x}$ and $6\mathrm{x}$, respectively.
+- At the early stage of the debt cycle, private and government debt and debt service ratios are 1) low relative to incomes and/or 2) low relative to liquid assets. For example, government debt and debt service are low relative to government tax revenue and/or low relative to government liquid assets (e.g., reserves and other savings such as sovereign wealth assets) that can easily be converted into money. When the Big Debt Cycle that we are in began in 1945, the ratios of US government debt and US money supply divided by the amount of gold the US government had were equal to $7\times$ and $1.3\times$, respectively, whereas now these ratios are $37\times$ and $6\times$, respectively.
 - During this early stage in the cycle, debt levels, debt growth, economic growth, and inflation are neither too hot nor too cold and finances are sound.
-- At this stage in the cycle, "risky assets" are relatively inexpensive relative to "safe" assets. That is because the memories of the prior period in which there was great damage done affect psychology and pricing. For example, in the late 1940s and early 1950s, stock earnings yields were roughly $4\mathrm{x}$ that of bond yields.
+- At this stage in the cycle, "risky assets" are relatively inexpensive relative to "safe" assets. That is because the memories of the prior period in which there was great damage done affect psychology and pricing. For example, in the late 1940s and early 1950s, stock earnings yields were roughly $4\times$ that of bond yields.
 - During this stage, there is a healthy economy and good investment returns that lead to the next stage.
 
 ### The Debt Bubble Stage
 
-### When debt and investment growth are greater than can be serviced from the incomes being produced.
+When debt and investment growth are greater than can be serviced from the incomes being produced.
 
 - In this stage, money is readily available and cheap, and there is a debt-financed economic expansion and an economic boom. Demands for and prices of goods, services, and investment assets are driven up by a lot of debt-financed buying, sentiment is very bullish, and by most conventional measures, the market is overpriced.
 - In this stage, there are typically amazing new inventions that are truly transformative that investors invest in without an ability or care to assess whether the present value of their future cash flows will be greater or less than their costs.
@@ -98,7 +87,7 @@ existing wealth. For example, bubble periods are identifiable by extensive perio
 
 ### The Top Stage
 
-### When the bubble pops and there is a debt/credit/market/economic contraction.
+When the bubble pops and there is a debt/credit/market/economic contraction.
 
 - The popping of the bubble typically occurs due to a combination of a tightening of money and the prior rate of debt growth being unsustainable. It is just that simple.
 - When the bubble pops, a self-reinforcing contraction begins so the debt problems spread very quickly, like an aggressive cancer, so it is very important for policymakers to deal with
@@ -115,7 +104,7 @@ When there is a painful bringing down of debt and debt service levels to be in l
 Spasms because borderline financial soundness is achieved before secure financial soundness.
 
 - Classically, the deleveraging process progresses as follows. Early in this recession/depression phase, central banks bring interest rates down and make credit more available. However, when a) debts are large and a debt contraction is underway, b) interest rates can't be lowered anymore (e.g., when they fall to around $0\%$), c) there is not enough demand for government debt, and d) the monetary easing is not enough to offset the self-reinforcing depressionary pressures, the central bank is forced to switch to new "tools" to stimulate the economy. Classically, to stimulate the economy, the central bank must lower interest rates to below nominal economic growth rates, inflation rates, and bond rates, but that is difficult to do when they approach $0\%$. At the same time, the central government is typically getting itself into a lot more debt because tax revenues are down and spending is up to support the private sector, yet there is not enough private sector demand to buy that debt. The central government experiences a debt squeeze in which the free-market demand for its debt falls short of the supply of it. If there is net selling of the debt, that creates a much worse problem.
-- Often in this deleveraging stage of the cycle, there is a "pushing on a string," a phrase coined by policymakers in the 1930s. It occurs late in the long-term debt cycle when central bankers struggle to convert their stimulative policies into increased spending because savers, investors, and businesses fear borrowing and spending and/or there is deflation, so the risk-free interest rate that they are getting is relatively attractive to them. At such times, it is difficult to get people to stop saving in "cash" even when interest rates go to  $0\%$  (or even below  $0\%$ ). This phase is characterized by the economy entering a deflationary, weak, or negative growth period as people and investors hoard low-risk, typically government-guaranteed cash.
+- Often in this deleveraging stage of the cycle, there is a "pushing on a string," a phrase coined by policymakers in the 1930s. It occurs late in the long-term debt cycle when central bankers struggle to convert their stimulative policies into increased spending because savers, investors, and businesses fear borrowing and spending and/or there is deflation, so the risk-free interest rate that they are getting is relatively attractive to them. At such times, it is difficult to get people to stop saving in "cash" even when interest rates go to $0\%$ (or even below $0\%$). This phase is characterized by the economy entering a deflationary, weak, or negative growth period as people and investors hoard low-risk, typically government-guaranteed cash.
 - At this stage, central banks must choose between keeping money "hard," which will lead debtors to default on their debts, which will lead to deflationary depressions, or making money "soft" by printing a lot of it, which will devalue both it and the debt. Because paying off debt with hard money causes such severe market and economic downturns, when faced with this choice, central banks always eventually choose to print and devalue money. Of course, each country's central bank can only print that country's money, which brings me to my next big point.
 - At this stage, if it has the ability to "print money," the central bank creates a substantial amount of money and credit and throws it aggressively at the markets. It typically buys government debt and private sector debt of systemically important entities that are at risk of defaulting (in order to make up for the private sector's inadequate demand for debt and to keep interest rates artificially low), and it sometimes buys equities and creates incentives for people to buy goods, services, and financial assets. At this stage, it is also typically desirable to devalue the currency because that is stimulative to the economy and raises inflation rates, thus negating the deflationary pressures. If the currency is linked to gold, silver, or something else, that link is typically broken and there is a move to a fiat monetary system. If the currency isn't linked—i.e., if the currency is already a fiat currency—devaluing it relative to other storeholds of wealth and other currencies is helpful. In some cases, the central bank's moves can drive nominal interest rates higher, either because the central bank tightens monetary policy to fight inflation or because it doesn't tighten money to fight inflation and holders of the debt don't want to buy the newly issued government debt and/or they want to sell it because it doesn't provide an adequate return. It is important to watch real and nominal interest rates and the supply and demand for debt to understand what is happening.
 - At such times, extraordinary policies to get money like imposing extraordinary taxes and capital controls become common. It has also often been the case that governments will adopt policies that would have previously seemed unimaginable, such as selectively freezing or seizing the assets of "enemy" countries or creating new forms of money. Note that I am not saying that these extraordinary measures always happen; I'm only saying that it is wise to carefully consider the possibility that they will happen.

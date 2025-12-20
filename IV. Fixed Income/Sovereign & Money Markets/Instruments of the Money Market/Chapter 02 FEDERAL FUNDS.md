@@ -1,14 +1,29 @@
 ---
-aliases:
-  - Federal Funds
-tags:
-key_concepts:
-parent_directory: IV. Fixed Income/Sovereign & Money Markets/Instruments of the Money Market
+title: Chapter 02 - Federal Funds
+primary_tags:
+  - federal funds market
+  - federal funds rate
+  - money market instruments
+  - reserve management
+  - monetary policy
+secondary_tags:
+  - overnight borrowings
+  - depository institutions
+  - reserve requirements
+  - discount window
+  - repurchase agreements
+  - interbank lending
+  - federal reserve policy
+  - reserve targeting
+  - nonborrowed reserves
+  - borrowed reserves
+  - call loan market
+  - reserve adjustment
+  - banking system
+  - interest rate controls
+  - federal funds brokers
 cssclasses: academia
-title: Chapter 2 - Federal Funds
 ---
-
-# Chapter 2
 
 # FEDERAL FUNDS
 
@@ -54,22 +69,22 @@ In some cases federal funds transactions are explicitly secured. In a secured tr
 
 To explain the determinants of the federal funds rate, we present a simple model of the market for bank reserves. In this model, which incorporates the actions of both private banks and the Federal Reserve, the funds rate is competitively determined as that value which equilibrates the aggregate supply of reserves with the aggregate demand for reserves.<sup>3</sup>
 
-The aggregate demand for bank reserves arises from the public's demand for checkable deposits against which banks hold reserves. The aggregate quantity of checkable deposits demanded by the public falls as money market interest rates rise. Hence, the derived demand for bank reserves is negatively related to market interest rates. The aggregate demand schedule for bank reserves is shown in Figure 1, where  $f$  is the funds rate and  $R$  is aggregate bank reserves.<sup>4</sup>
+The aggregate demand for bank reserves arises from the public's demand for checkable deposits against which banks hold reserves. The aggregate quantity of checkable deposits demanded by the public falls as money market interest rates rise. Hence, the derived demand for bank reserves is negatively related to market interest rates. The aggregate demand schedule for bank reserves is shown in Figure 1, where $f$ is the funds rate and $R$ is aggregate bank reserves.<sup>4</sup>
 
 The aggregate stock of reserves available to the banking system is determined by the Federal Reserve. In principle, the Federal Reserve could choose to provide
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/0289eda116acb90159a49165f713674417e07f3b163b9bf421a98c9f502364de.jpg)  
 FIGURE 1
 
-the banking system with a fixed stock of reserves. If the Federal Reserve chose this strategy, a fixed stock of reserves,  $\widetilde{\mathbf{R}}$ , would be provided through Federal Reserve purchases of government securities. The resulting funds rate would be  $f^{*}$  in Figure 1, or the rate that equilibrates the aggregate supply of and the aggregate demand for bank reserves.
+the banking system with a fixed stock of reserves. If the Federal Reserve chose this strategy, a fixed stock of reserves, $\widetilde{\mathbf{R}}$, would be provided through Federal Reserve purchases of government securities. The resulting funds rate would be $f^{*}$ in Figure 1, or the rate that equilibrates the aggregate supply of and the aggregate demand for bank reserves.
 
 Such a Federal Reserve operating procedure, known as total reserve targeting, is the focus of textbook discussions of monetary policy. The hallmark of total reserve targeting is that shifts in the market's demand for reserves are allowed to directly affect the funds rate. In practice, however, the Federal Reserve has never targeted total reserves. Instead, it has adopted operating procedures designed to smooth movements in the funds rate against unexpected shifts in reserve demand.<sup>5</sup> The simplest smoothing procedure is federal funds rate targeting, which involves selecting a narrow band, perhaps 50 basis points or less, within which the funds rate is allowed to fluctuate. Explicit federal funds rate targeting was employed by the Federal Reserve during the 1970s.
 
-The funds rate can be targeted directly by supplying, through open market purchases of U.S. Treasury securities, whatever aggregate reserves are demanded at the targeted rate. For example, if the Federal Reserve chose to peg the funds rate at  $f^{*}$  in Figure 1, it would have to accommodate a market demand for reserves of  $\overline{\mathbb{R}}$ . In principle, targeting either total reserves or the funds rate could yield the desired funds rate,  $f^{*}$ , so long as the Federal Reserve had precise knowledge of the position of the reserve demand locus.<sup>6</sup> There is, however, an important difference between these procedures. With a total reserve target, market forces directly influence the funds rate. They have no direct effect under a funds rate target. Instead, they affect only the volume of total reserves that the Federal Reserve must supply to support its chosen funds rate target.
+The funds rate can be targeted directly by supplying, through open market purchases of U.S. Treasury securities, whatever aggregate reserves are demanded at the targeted rate. For example, if the Federal Reserve chose to peg the funds rate at $f^{*}$ in Figure 1, it would have to accommodate a market demand for reserves of $\overline{\mathbb{R}}$. In principle, targeting either total reserves or the funds rate could yield the desired funds rate, $f^{*}$, so long as the Federal Reserve had precise knowledge of the position of the reserve demand locus.<sup>6</sup> There is, however, an important difference between these procedures. With a total reserve target, market forces directly influence the funds rate. They have no direct effect under a funds rate target. Instead, they affect only the volume of total reserves that the Federal Reserve must supply to support its chosen funds rate target.
 
 Federal Reserve operating procedures become more complicated when reserves are provided by bank borrowing at the Federal Reserve's discount window. Figure 2 shows the relationship between the provision of reserves and the federal funds rate when there is discount window borrowing. The locus has a vertical segment and a nonvertical segment because reserves are provided to the banking system in two forms, as nonborrowed and as borrowed reserves. Nonborrowed reserves (NBR) are supplied by the Federal Reserve through open market purchases, while borrowed reserves (BR) are provided by discount window lending.
 
-The distance between the vertical segment of the reserve provision locus and the vertical axis is determined by the volume of nonborrowed reserves. The reserve provision locus is vertical up to the point where the funds rate ( $f$ ) equals the discount rate ( $d$ ) because, when the funds rate is below the discount rate, banks have no incentive to borrow at the discount window. Conversely, when the funds rate is above the discount rate, borrowers obtain a net saving on the interest cost of reserves. This net saving consists of the differential ( $f - d$ ) between the funds rate and the discount rate. In administering the discount window the Federal Reserve imposes a noninterest cost of borrowing which rises with volume: higher borrowing increases the likelihood of costly Federal Reserve consultations with bank officials. Banks tend to borrow up to the point where the expected consultation cost of additional borrowing just offsets the net interest saving on that borrowing. Consequently, borrowing tends to be greater the larger the spread between the funds rate and the discount rate. Hence, the reserve provision locus is positively sloped for funds rates above the discount rate.
+The distance between the vertical segment of the reserve provision locus and the vertical axis is determined by the volume of nonborrowed reserves. The reserve provision locus is vertical up to the point where the funds rate ($f$) equals the discount rate ($d$) because, when the funds rate is below the discount rate, banks have no incentive to borrow at the discount window. Conversely, when the funds rate is above the discount rate, borrowers obtain a net saving on the interest cost of reserves. This net saving consists of the differential ($f - d$) between the funds rate and the discount rate. In administering the discount window the Federal Reserve imposes a noninterest cost of borrowing which rises with volume: higher borrowing increases the likelihood of costly Federal Reserve consultations with bank officials. Banks tend to borrow up to the point where the expected consultation cost of additional borrowing just offsets the net interest saving on that borrowing. Consequently, borrowing tends to be greater the larger the spread between the funds rate and the discount rate. Hence, the reserve provision locus is positively sloped for funds rates above the discount rate.
 
 Discount window borrowing plays a role in determining the funds rate whenever the Federal Reserve restricts the supply of nonborrowed reserves so that the funds rate exceeds the discount rate. In that case, the banking system's demand for reserves is partially satisfied by borrowing at the discount window. If the
 
@@ -82,7 +97,7 @@ By contrast, the Federal Reserve may choose to respond to a shift in reserve dem
 
 1982, but it has often chosen borrowing objectives flexibly in order to keep the federal funds rate trading in a narrow range around a targeted rate. It employed free reserve targeting, a procedure analytically similar to borrowed reserve targeting, throughout the 1920s and in the 1950s and 1960s.[8]
 
-As can be seen in Figure 2, the Federal Reserve's discount rate policy plays an important role in determining the funds rate when  $f$  is greater than  $d$  under either nonborrowed or borrowed reserve targeting. As is easily verified diagrammatically, with a borrowed reserve target an adjustment in the discount rate changes the funds rate one-for-one. The effect would be smaller with nonborrowed reserve targeting. Keep in mind, however, that the discount rate would be irrelevant for the determination of the funds rate if the Federal Reserve were to supply a stock of nonborrowed reserves sufficiently large so that the funds rate fell below the discount rate and banks had no incentive to borrow at the discount window. The discount rate is also irrelevant when the Federal Reserve targets the funds rate directly. Discount rate adjustments have played an important role since October 1979 in both the nonborrowed and borrowed reserve targeting periods, as they did in the 1920s, 1950s, and 1960s under free reserve targeting. In contrast, discount rate adjustments had no direct impact on the funds rate when the funds rate itself was targeted during the 1970s. In that period, however, the announcement effect associated with discount rate changes sometimes signaled Federal Reserve intentions to change the funds rate target in the future.[9]
+As can be seen in Figure 2, the Federal Reserve's discount rate policy plays an important role in determining the funds rate when $f$ is greater than $d$ under either nonborrowed or borrowed reserve targeting. As is easily verified diagrammatically, with a borrowed reserve target an adjustment in the discount rate changes the funds rate one-for-one. The effect would be smaller with nonborrowed reserve targeting. Keep in mind, however, that the discount rate would be irrelevant for the determination of the funds rate if the Federal Reserve were to supply a stock of nonborrowed reserves sufficiently large so that the funds rate fell below the discount rate and banks had no incentive to borrow at the discount window. The discount rate is also irrelevant when the Federal Reserve targets the funds rate directly. Discount rate adjustments have played an important role since October 1979 in both the nonborrowed and borrowed reserve targeting periods, as they did in the 1920s, 1950s, and 1960s under free reserve targeting. In contrast, discount rate adjustments had no direct impact on the funds rate when the funds rate itself was targeted during the 1970s. In that period, however, the announcement effect associated with discount rate changes sometimes signaled Federal Reserve intentions to change the funds rate target in the future.[9]
 
 # THE FEDERAL RESERVE, THE FEDERAL FUNDS RATE, AND MONEY MARKET RATES
 
@@ -101,13 +116,13 @@ the overnight repurchase rate, which is closely tied to the federal funds rate. 
 
 Federal funds were traded in New York as early as the summer of 1921, though trading volume was initially small, rarely exceeding \$20 million a day.[10] By 1928
 
-the volume of federal funds trading had risen to  \$100 million per day. In April of that year an article appeared in the New York Herald Tribune announcing the inclusion of the federal funds rate in the Tribune's daily table of money market conditions.$
+the volume of federal funds trading had risen to \$100 million per day. In April of that year an article appeared in the New York Herald Tribune announcing the inclusion of the federal funds rate in the Tribune's daily table of money market conditions.$
 
 As the Tribune described it, a federal funds transaction involved the exchange of a check drawn on the clearinghouse account of the borrowing bank for a check drawn on the reserve account of the lending bank. The reserve check cleared immediately upon presentation at the Reserve Bank, while the clearinghouse check took at least one day to clear. The practice thereby yielded a self-reversing, overnight loan of funds at a Federal Reserve Bank; hence, the name federal funds. By 1930, the means of trading federal funds had expanded to include wire transfers and other methods.[12]
 
 The emergence of federal funds trading constituted a financial innovation allowing banks to minimize transactions costs associated with overnight loans. By their very nature, federal funds could be lent by member banks only, since only member banks held reserves at Reserve Banks. The beneficiaries on the borrowing side were also member banks, which could receive funds immediately through their Reserve Bank accounts. Federal funds offered member banks a means of avoiding reserve requirements on interbank deposits if they could be classified as "money borrowed" rather than deposits.
 
-In September 1928 the Federal Reserve Board ruled that federal funds created by the clearing of checks as described above should be classified as nonreservable money borrowed. $^{13}$  A decision in 1930 found that federal funds created by wire transfers and other methods should also be nonreservable. $^{14}$  These decisions provided the initial regulatory underpinnings for the federal funds market of today. In both the 1928 and 1930 rulings, the Board indicated that it viewed federal funds as a substitute for member bank borrowing at the Federal Reserve discount window. It argued that because discount window borrowing was not reservable, federal funds borrowing should not be either.
+In September 1928 the Federal Reserve Board ruled that federal funds created by the clearing of checks as described above should be classified as nonreservable money borrowed. $^{13}$ A decision in 1930 found that federal funds created by wire transfers and other methods should also be nonreservable. $^{14}$ These decisions provided the initial regulatory underpinnings for the federal funds market of today. In both the 1928 and 1930 rulings, the Board indicated that it viewed federal funds as a substitute for member bank borrowing at the Federal Reserve discount window. It argued that because discount window borrowing was not reservable, federal funds borrowing should not be either.
 
 The Federal Reserve Board's decision to make federal funds nonreservable is best understood as a means of encouraging the federal funds market as an alternative to the two conventional means of reserve adjustment then in use: the discount window and the call loan market. Following World War I, aggregate borrowing at the Federal Reserve's discount window generally exceeded member bank reserves. At that time, the Federal Reserve did relatively little to discourage continuous borrowing at the window, so member banks could adjust
 
@@ -167,3 +182,61 @@ Federal Reserve Bank of Richmond
 Richmond, Virginia
 
 1998
+
+## D2 Diagrams for Federal Funds Visualization
+
+### Federal Funds Market Structure
+```d2
+# Federal Funds Market Participants
+federal_reserve: "Federal Reserve"
+depository_institutions: "Depository Institutions\n(Banks, Credit Unions, S&Ls)"
+federal_funds_broker: "Federal Funds Broker"
+borrowers: "Borrowers\n(Banks needing reserves)"
+lenders: "Lenders\n(Banks with excess reserves)"
+
+federal_reserve -> depository_institutions: "Sets Policy & Provides Reserves"
+depository_institutions <-> federal_funds_broker: "Facilitates Transactions"
+borrowers -> lenders: "Borrow Funds at Fed Funds Rate"
+lenders -> borrowers: "Lend Excess Reserves"
+```
+
+### Federal Funds Rate Determination
+```d2
+# Federal Funds Rate Determination Model
+reserve_supply: "Reserve Supply\n(Fed Policy)"
+reserve_demand: "Reserve Demand\n(Bank Needs)"
+federal_funds_rate: "Federal Funds Rate"
+discount_rate: "Discount Rate"
+
+reserve_supply -> federal_funds_rate: "Supply Curve"
+reserve_demand -> federal_funds_rate: "Demand Curve"
+federal_funds_rate -> discount_rate: "Upper Bound\n(Usually)"
+```
+
+### Federal Funds vs Other Rates
+```d2
+# Federal Funds Relationship to Other Rates
+federal_funds: "Federal Funds Rate"
+repo_rate: "Repo Rate"
+cd_rate: "CD Rate"
+commercial_paper: "Commercial Paper Rate"
+treasury_bills: "Treasury Bills Rate"
+
+federal_funds -> repo_rate: "Usually Higher (Unsecured vs Collateralized)"
+federal_funds -> cd_rate: "Benchmarks Short-term Rates"
+federal_funds -> commercial_paper: "Influences All Money Market Rates"
+federal_funds -> treasury_bills: "Risk-Free Rate Benchmark"
+```
+
+### Reserve Management Process
+```d2
+# Reserve Management via Federal Funds
+reserve_deficit: "Reserve Deficit Banks"
+reserve_excess: "Excess Reserve Banks"
+federal_funds_market: "Federal Funds Market"
+reserve_equilibrium: "Reserve Equilibrium"
+
+reserve_deficit -> federal_funds_market: "Borrow Reserves"
+reserve_excess -> federal_funds_market: "Lend Excess Reserves"
+federal_funds_market -> reserve_equilibrium: "Efficient Reserve Distribution"
+```

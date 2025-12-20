@@ -1,15 +1,40 @@
 ---
 title: Financial Metrics Formulas
-tags:
+primary_tags:
   - financial_metrics
   - accounting_ratios
   - corporate_finance
   - valuation
-key_concepts:
   - equity_valuation_metrics
   - financial_ratio_analysis
   - enterprise_value_calculations
-parent_directory: FinanceCompendium
+secondary_tags:
+  - debt_to_equity_ratio
+  - return_on_equity
+  - earnings_per_share
+  - price_earnings_ratio
+  - free_cash_flow
+  - operating_margin
+  - asset_turnover
+  - inventory_turnover
+  - debt_ratio
+  - return_on_assets
+  - return_on_invested_capital
+  - cash_conversion_cycle
+  - dividend_yield
+  - enterprise_value
+  - market_capitalization
+  - working_capital
+  - earnings_before_interest_taxes
+  - ebitda_margin
+  - book_value_per_share
+  - revenue_growth
+  - gross_profit_margin
+  - net_profit_margin
+  - current_ratio
+  - quick_ratio
+  - interest_coverage_ratio
+  - price_to_sales_ratio
 cssclasses: academia
 ---
 
@@ -276,3 +301,81 @@ cssclasses: academia
 **P/Adjusted FFO** - $\text{Last Close Market Cap} / \text{LTM Reported Adjusted FFO}$
 
 **Forward P/Adjusted FFO** - $\text{Last Close Market Cap} / \text{Consensus Mean Adjusted FFO (REIT)}$
+
+## D2 Diagrams for Financial Metrics Visualization
+
+### Cash Conversion Cycle
+```d2
+# Cash Conversion Cycle Visualization
+A: Days Inventory Outstanding
+B: Days Sales Outstanding
+C: Days Payables Outstanding
+D: Cash Conversion Cycle
+
+A -> D: Inventory to Sales
+B -> D: Sales to Cash
+C -> D: Payables Delay
+D: C + B - A
+```
+
+### Financial Ratios Hierarchy
+```d2
+# Financial Ratios Classification
+Profitability: "Profitability Ratios"
+  - ROE: "Return on Equity"
+  - ROA: "Return on Assets"
+  - ROIC: "Return on Invested Capital"
+  - ROS: "Return on Sales"
+
+Liquidity: "Liquidity Ratios"
+  - Current_Ratio: "Current Ratio"
+  - Quick_Ratio: "Quick Ratio"
+  - Cash_Ratio: "Cash Ratio"
+
+Solvency: "Solvency Ratios"
+  - Debt_Equity: "Debt to Equity"
+  - Debt_Assets: "Debt to Assets"
+  - Interest_Coverage: "Interest Coverage"
+
+Efficiency: "Efficiency Ratios"
+  - Asset_Turnover: "Asset Turnover"
+  - Inventory_Turnover: "Inventory Turnover"
+  - Receivables_Turnover: "Receivables Turnover"
+```
+
+### Valuation Multiples Framework
+```d2
+# Valuation Multiples Categories
+Valuation_Multiples: "Valuation Multiples"
+  - Equity_Multiples: "Equity Value Multiples"
+    - P_E: "P/E Ratio"
+    - P_B: "P/B Ratio"
+    - P_S: "P/S Ratio"
+    - P_FCF: "P/Free Cash Flow"
+
+  - Enterprise_Multiples: "Enterprise Value Multiples"
+    - EV_EBITDA: "EV/EBITDA"
+    - EV_EBIT: "EV/EBIT"
+    - EV_Sales: "EV/Sales"
+    - EV_OCF: "EV/Cash Flow"
+```
+
+### Earnings and Cash Flow Hierarchy
+```d2
+# Earnings and Cash Flow Metrics
+Revenue: "Total Revenue"
+EBITDA: "EBITDA"
+EBIT: "EBIT"
+EBT: "EBT"
+Net_Income: "Net Income"
+OCF: "Operating Cash Flow"
+FCF: "Free Cash Flow"
+
+Revenue -> EBITDA: "Minus Depreciation & Amortization"
+EBITDA -> EBIT: "Minus Interest"
+EBIT -> EBT: "Minus Interest Expense"
+EBT -> Net_Income: "Minus Taxes"
+OCF: "Cash from Operations"
+Revenue -> OCF: "Operations Cash Conversion"
+OCF -> FCF: "Minus Capital Expenditures"
+```

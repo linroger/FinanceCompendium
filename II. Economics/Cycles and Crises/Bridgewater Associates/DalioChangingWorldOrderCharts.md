@@ -1,40 +1,57 @@
 ---
-aliases:
-- The Changing World Order Charts
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
 title: Principles for Dealing with The Changing World Order - Charts
-linter-yaml-title-alias: The Changing World Order Charts
 primary_tags:
-- unemployment rate
-- ▲ resource-allocation efficiency
-- ↗ wealth/oppportunity/values gap narrow
-- big cycle
+  - ray dalio changing world order
+  - big cycle framework
+  - empire rise and decline
+  - global economic cycles
+  - reserve currency status
+  - internal order cycles
+  - external order cycles
+  - debt cycle dynamics
+  - wealth opportunity gaps
+  - political conflict cycles
 secondary_tags:
-- log) global real gdp
-- reserve currency status
-- conflict deaths
-- other countries
-- resource allocation efficiency
-- empires china
-- china conflict
-- internal conflict average
-- xinhai revolution chn
-tags_extracted: '2025-12-18T18:01:51.047933'
-tags_method: max_quality_v1
+  - bridgewater associates research
+  - global power determinants
+  - economic indicators
+  - military strength metrics
+  - innovation and technology
+  - education systems
+  - cost competitiveness
+  - trade dynamics
+  - financial market centers
+  - currency devaluation patterns
+  - war and conflict data
+  - population demographics
+  - gdp per capita trends
+  - inflation cycles
+  - asset returns during wars
+  - stock market closures
+  - capital controls history
+  - wealth confiscation periods
+  - dutch empire decline
+  - british empire decline
+  - united states empire
+  - china rise dynamics
+  - us china relations
+  - eurozone comparison
+  - country power scores
+  - empire score rankings
+  - z score analysis
+  - trajectory indicators
+cssclasses: academia
 ---
 
 # Principles for Dealing with THE CHANGING WORLD ORDER
 
-# RAY DALIO
+## RAY DALIO
 
 This PDF contains the charts and tables from the book for printing and easy reference.
 
-# CHAPTER 1
+## CHAPTER 1
 
-# THE BIG CYCLE IN A TINY NUTSHELL
+### THE BIG CYCLE IN A TINY NUTSHELL
 
 GLOBAL REAL GDP PER CAPITA (LOG)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/eded02e1fcdd89026948e893067940fb457909bf362a76fe305c268aeee6a280.jpg)  
@@ -83,7 +100,7 @@ Good competitiveness
 15 Internal conflict  
 16 Loss of reserve currency  
 17 Weak leadership  
-13 Civil war/revolution
+18 Civil war/revolution
 
 ROUGH QUANTITATIVE SCORING OF MEASURES BY STAGE IN CYCLE  
 
@@ -98,26 +115,25 @@ Dark red = gauge is weak/bad
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/6d5c0ae1ef550ee397b429cc401531030173e2c2a09dc8f865cd27385d0797c0.jpg)  
 CHANGES TO THE WORLD ORDER (CONCEPTUAL EXAMPLE)
 
-# End of the Old, Beginning of the New (e.g., Dutch to British)
+## End of the Old, Beginning of the New (e.g., Dutch to British)
 
-- Debt restructuring and debt crisis  
-Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"  
-External war  
-Big currency breakdown  
-New domestic and world order
+- Debt restructuring and debt crisis
+- Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"
+- External war
+- Big currency breakdown
+- New domestic and world order
 
-# End of the Old, Beginning of the New (e.g., British to US)
+## End of the Old, Beginning of the New (e.g., British to US)
 
-- Debt restructuring and debt crisis  
-Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"
+- Debt restructuring and debt crisis
+- Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"
+- External war
+- Big currency breakdown
+- New domestic and world order
 
-External war  
-Big currency breakdown  
-New domestic and world order
+## CHAPTER 2
 
-# CHAPTER 2
-
-# THE DETERMINANTS
+### THE DETERMINANTS
 
 How the Machine Works = (f)…  
 
@@ -137,15 +153,15 @@ ADDITIONAL DETERMINANTS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/1197f0becfad4ddcbd0bf0a0a1e3b03ff37d36e9f09dccd92fcfb16273b92bd1.jpg)  
 DYNAMICS TO PAY ATTENTION TO
 
-# CHAPTER 2
+## CHAPTER 2
 
-# DETERMINANTS ADDENDUM
+### DETERMINANTS ADDENDUM
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/9701b7d7db36fc257cf61c5f8206cb5d6378cced0bf9290f25ffd121ab662d0e.jpg)
 
-# CHAPTER 3
+## CHAPTER 3
 
-# THE BIG CYCLE OF MONEY, CREDIT, DEBT, AND ECONOMIC ACTIVITY
+### THE BIG CYCLE OF MONEY, CREDIT, DEBT, AND ECONOMIC ACTIVITY
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/6f39bc5ac312a9ab7311bc37a4cdaea0ae87aa0752c5fde38e7483ac55c7ccb8.jpg)  
 Type 2: Claims on Hard Money  
@@ -158,11 +174,9 @@ Type 3: Fiat Money
 Maximizes Credit,  
 Minimizes Credibility
 
-# CHAPTER 4
+## CHAPTER 4
 
-# THE CHANGING
-
-# VALUE OF MONEY
+### THE CHANGING VALUE OF MONEY
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/7baa9bbf453085903f6b85359bcaed685638e6958be2fa1be016c57ef2f6ebe9.jpg)  
 RESERVE CURRENCIES VS GOLD (SPOT FX)
@@ -200,11 +214,9 @@ REAL RETURN OF GOLD (VS CPI, LOG)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/8fdbd8a9c195b35ea57dc512e25ebd32c3d84d0ff155250bd101063c651cab1d.jpg)  
 REAL RETURN OF BILLS (VS CPI)
 
-# CHAPTER 5
+## CHAPTER 5
 
-# THE BIG CYCLE OF INTERNAL
-
-# ORDER AND DISORDER
+### THE BIG CYCLE OF INTERNAL ORDER AND DISORDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/2705823d42c286d4209f3042cdc74a05f6e96076398d2ab56b5dc400930b65e9.jpg)
 
@@ -260,11 +272,9 @@ system or
 
 regime
 
-CHAPTER 6
+## CHAPTER 6
 
-# THE BIG CYCLE OF EXTERNAL
-
-# ORDER AND DISORDER
+### THE BIG CYCLE OF EXTERNAL ORDER AND DISORDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/83d0eaa2d5e83d2e0bc2ad53209362416c84f52b4efb903f093bc91adacca7aa.jpg)  
 EST EUROPEAN DEATHS FROM CONFLICT  
@@ -287,9 +297,9 @@ REGULATIONS IMPACTING ASSETS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/2eb4895422fcc1fb6442e4099d409cc2f025b31bbe4fe00fd6780e68785d188a.jpg)  
 EQUITY RETURN INDEX (USD)
 
-# INVESTING IN LIGHT OF THE BIG CYCLE
+## INVESTING IN LIGHT OF THE BIG CYCLE
 
-# THE BUILDING BLOCKS OF A WELL-DIVERSIFIED PORTFOLIO
+### THE BUILDING BLOCKS OF A WELL-DIVERSIFIED PORTFOLIO
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/303264de2d51cc130873a8ea2151c87ab09917cae84a2a722954d614daf11faf.jpg)
 
@@ -361,11 +371,9 @@ NOMINAL PAYBACK PERIOD (YEARS)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/9637af8b0953a04b872bed9a06d4adae08db725058cf19991e5a7afc62594a1c.jpg)  
 REAL PAYBACK PERIOD (YEARS)
 
-# CHAPTER 8
+## CHAPTER 8
 
-# THE LAST 500 YEARS
-
-# IN A TINY NUTSHELL
+### THE LAST 500 YEARS IN A TINY NUTSHELL
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/83229adf06c1805196f807b1f0acdb5079429f020fe135d707a83e565ab5f006.jpg)
 
@@ -383,13 +391,9 @@ SILVER PRODUCTION FROM MEXICO AND PERU (METRIC TON)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/453ee70e27a6b374811fb7b7767b17c62f6ff6b7415556b8264c383014ba926c.jpg)  
 ROUGH COUNT OF TRIBUTARY AREAS (BASED ON TRIBUTARY VOYAGES OVER 30YR WINDOW)
 
-CHAPTER 9
+## CHAPTER 9
 
-# THE BIG CYCLE RISE AND
-
-# DECLINE OF THE DUTCH
-
-# EMPIRE AND THE GUILDER
+### THE BIG CYCLE RISE AND DECLINE OF THE DUTCH EMPIRE AND THE GUILDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/37a3ce9a2297b2032290169db17f3882d4cbb4c13d878c21f8d3e5744120172c.jpg)  
 THE NETHERLANDS: INDEX OF KEY DETERMINANTS
@@ -488,13 +492,9 @@ GOVERNMENT BOND YIELDS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/7ea4bae0c550fde90f35505f8d33804583b1167a2b572774ce684c742c6e36c8.jpg)  
 DUTCH BOND PRICES (TERM ANNUITIES)
 
-# CHAPTER 10
+## CHAPTER 10
 
-# THE BIG CYCLE RISE AND
-
-# DECLINE OF THE BRITISH
-
-# EMPIRE AND THE POUND
+### THE BIG CYCLE RISE AND DECLINE OF THE BRITISH EMPIRE AND THE POUND
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/e015c74d937bb6f9ea7dfe4c541471066cd4e7fb1eeeaa5c5eee9cb8f32250dc.jpg)  
 CHANGES TO THE WORLD ORDER (CONCEPTUAL EXAMPLE)
@@ -649,13 +649,9 @@ GDP PER CAPITA (2010 USD)
 GDP PER CAPITA  
 ITA ESP GRC
 
-# CHAPTER 11
+## CHAPTER 11
 
-# THE BIG CYCLE RISE AND
-
-# DECLINE OF THE UNITED
-
-# STATES AND THE DOLLAR
+### THE BIG CYCLE RISE AND DECLINE OF THE UNITED STATES AND THE DOLLAR
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/4ccee00a817b35635ce8196ea5daa5fc63f9b8fcbba7b06e2b58e965cc889fd1.jpg)  
 UNITED STATES: INDEX OF KEY DETERMINANTS
@@ -720,11 +716,9 @@ POLITICAL SPECTRUM 50 YEARS AGO
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/3a10688232de4c52b8149001e0e4eea43cc644703d60054699eff82e8282aec0.jpg)  
 POLITICAL SPECTRUM 2021
 
-# CHAPTER 12
+## CHAPTER 12
 
-# THE BIG CYCLE RISE OF
-
-# CHINA AND THE RENMINBI
+### THE BIG CYCLE RISE OF CHINA AND THE RENMINBI
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/35c78fcf4c2883caa47a454893558985df287ced7445f3686c0f2538cf75fec5.jpg)  
 RELATIVE STANDING OF GREAT EMPIRES
@@ -767,11 +761,9 @@ CHINA
 
 <table><tr><td></td><td>1980</td><td>Today</td><td>Change</td><td>Change (%)</td><td>1980</td><td>Today</td><td>Change</td><td>Change (%)</td></tr><tr><td>Average Years of Schooling</td><td>11.9</td><td>13.6</td><td>+1.7</td><td>+14%</td><td>4.6</td><td>7.9</td><td>+3.3</td><td>+72%</td></tr><tr><td>Govt Spending on Education (% of GDP)</td><td>5.30%</td><td>5.50%</td><td>0.20%</td><td>+4%</td><td>1.90%</td><td>5.20%</td><td>3.30%</td><td>+174%</td></tr><tr><td>Est Population w/ Tertiary Education (Mln)</td><td>25</td><td>60</td><td>+35</td><td>+140%</td><td>3</td><td>120</td><td>+117</td><td>+3,900%</td></tr><tr><td>Population w/ Tertiary Education (% Working-Age Pop)</td><td>17%</td><td>28%</td><td>11%</td><td>+68%</td><td>1%</td><td>12%</td><td>11%</td><td>+2,272%</td></tr><tr><td>Population w/ Tertiary Education (% World)</td><td>35%</td><td>15%</td><td>-20%</td><td>-57%</td><td>4%</td><td>31%</td><td>+27%</td><td>+590%</td></tr><tr><td>STEM Majors (Mln)</td><td>3</td><td>8</td><td>+5</td><td>+141%</td><td>1</td><td>21</td><td>+21</td><td>+4,120%</td></tr><tr><td>STEM Majors (% World)</td><td>29%</td><td>11%</td><td>-18%</td><td>-62%</td><td>5%</td><td>31%</td><td>+26%</td><td>+535%</td></tr></table>
 
-# CHAPTER 13
+## CHAPTER 13
 
-# US-CHINA RELATIONS
-
-# AND WARS
+### US-CHINA RELATIONS AND WARS
 
 SHARE OF CENTRAL BANK RESERVES BY CURRENCY  
 
@@ -779,9 +771,9 @@ SHARE OF CENTRAL BANK RESERVES BY CURRENCY
 
 Based on data through 2019
 
-# CHAPTER 14
+## CHAPTER 14
 
-# THE FUTURE
+### THE FUTURE
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/f68897e1-ae1d-4685-9171-311d5f969a94/a1a973399ca4f915bc18d12f369ad5a20799e48e9130a4984c4c235ecb7d7a1c.jpg)  
 GLOBAL POPULATION (MLN)

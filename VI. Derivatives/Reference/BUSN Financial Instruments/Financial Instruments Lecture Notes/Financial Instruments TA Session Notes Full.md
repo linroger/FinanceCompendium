@@ -1,50 +1,106 @@
 ---
-parent_directory:
-title: Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
-tags:
-aliases:
-parent_folder: Financial Instruments Lecture Notes
-subfolder:
-key_concepts:
+title: Financial Instruments TA Session Notes
+primary_tags:
+  - interest rate parity
+  - arbitrage strategies
+  - binomial option pricing
+  - forward rate agreement
+secondary_tags:
+  - continuously compounding interest
+  - currency swaps
+  - risk neutral valuation
+  - synthetic forward rates
+  - dynamic replication
 cssclasses: academia
-linter-yaml-title-alias: Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
 ---
 
 # Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
 
-Step 1: Compare the quoted forward rate  $F_{q}$  (data) with the synthetic no-arbitrage forward rate  $F_{0,T}$  (theory) to determine whether an arbitrage opportunity exists.
+Step 1: Compare the quoted forward rate $F_{q}$ (data) with the synthetic no-arbitrage forward rate $F_{0,T}$ (theory) to determine whether an arbitrage opportunity exists.
 
 1. Formula for synthetic no-arbitrage forward rate.
 
-$$
-F _ {0, T} = M _ {0} \cdot \exp [ ([ r _ {\$} - r _ {\epsilon} ]) \cdot T ]
-$$
+$
+F_{0, T} = M_{0} \cdot \exp [ (r_{\$} - r_{\epsilon}) \cdot T ]
+$
 
-2. Suppose quoted forward rate  $F_{q}$  is less than synthetic no-arbitrage forward rate  $F_{0,T}$ .
+2. Suppose quoted forward rate $F_{q}$ is less than synthetic no-arbitrage forward rate $F_{0,T}$.
 
-$$
-F _ {q} <   F _ {0, T}
-$$
+$
+F_{q} < F_{0, T}
+$
 
 Step 2: Determine the short position and the long position for the forward contracts that leverage the arbitrage opportunity.
 
-1. Leveraging an arbitrage opportunity requires adhering to the principle of buying at a low price and selling at a high price.  
-2. Given the price relationship  $F_{q} < F_{0,T}$ , arbitrage requires "buying" at the low quoted forward rate  $F_{q}$  and "selling" at the high synthetic forward rate  $F_{0,T}$ .  
-3. Long position: At inception  $t = 0$ , enter a forward contract committing to buy 1 EUR at maturity  $t = T$  at quoted forward rate  $F_{q}$ .  
-4. Short position: At inception  $t = 0$ , enter a forward contract committing to sell 1 EUR at maturity  $t = T$  at synthetic forward rate  $F_{0,T}$ .<sup>1</sup>
+1. Leveraging an arbitrage opportunity requires adhering to the principle of buying at a low price and selling at a high price.
+2. Given the price relationship $F_{q} < F_{0,T}$, arbitrage requires "buying" at the low quoted forward rate $F_{q}$ and "selling" at the high synthetic forward rate $F_{0,T}$.
+3. Long position: At inception $t = 0$, enter a forward contract committing to buy 1 EUR at maturity $t = T$ at quoted forward rate $F_{q}$.
+4. Short position: At inception $t = 0$, enter a forward contract committing to sell 1 EUR at maturity $t = T$ at synthetic forward rate $F_{0,T}$.
+
+```d2
+direction: right
+classes: {
+  action: {
+    style: {
+      border-radius: 5
+      fill: "#e8f5e9"
+      stroke: "#2e7d32"
+    }
+  }
+  state: {
+    shape: parallelogram
+    style: {
+      fill: "#fff3e0"
+      stroke: "#ef6c00"
+    }
+  }
+}
+
+condition: Arbitrage Condition {
+  class: state
+  label: "F_q < F_{0,T}"
+  tooltip: Quoted < Synthetic
+}
+
+strategy: Strategy {
+  class: action
+  label: "Buy Low (F_q)\nSell High (F_{0,T})"
+}
+
+t0_action: Time 0 Action {
+  class: action
+  label: "1. Borrow EUR\n2. Convert to USD\n3. Invest USD"
+}
+
+tT_action: Time T Action {
+  class: action
+  label: "1. Receive USD (Invest)\n2. Buy EUR (F_q)\n3. Repay EUR Loan"
+}
+
+profit: Risk-Free Profit {
+  class: state
+  label: "Profit > 0"
+}
+
+condition -> strategy
+strategy -> t0_action
+t0_action -> tT_action: "Wait T years"
+tT_action -> profit
+```
+
 
 Step 3: Determine profit and loss from fulfilling short position obligation and long position obligation at maturity  $t = T$ .
 
 5. Long position obligation: Pay  $F_{q}$  USD to buy 1 EUR at maturity  $t = T$ .
 
 $$
-L o s s _ {T} (\mathbb {S}) = F _ {q}
+L o s s_{T} (\mathbb {S}) = F_{q}
 $$
 
 6. Short position obligation: Sell 1 EUR at maturity  $t = T$ . To obtain 1 EUR at maturity  $t = T$ , borrow the present value equivalent, namely  $\exp(-r_{\epsilon} \cdot T)$  EUR, at inception  $t = 0$ .
 
 $$
-G a i n _ {0} (\epsilon) = \exp (- r _ {\epsilon} \cdot T)
+G a i n_{0} (\epsilon) = \exp (- r_{\epsilon} \cdot T)
 $$
 
 Step 4: Determine the counteracting investment strategy at inception  $t = 0$  that ensures profit or loss at inception  $t = 0$  is equal to zero.
@@ -52,13 +108,13 @@ Step 4: Determine the counteracting investment strategy at inception  $t = 0$  t
 1. To offset borrowing  $\exp (-r_{\epsilon} \cdot T)$  EUR at inception  $t = 0$ , invest  $\exp (-r_{\epsilon} \cdot T) \cdot M_0$  USD at the USD interest rate  $r_{\mathbb{S}}$ .
 
 $$
-L o s s _ {0} (\mathbb {S}) = \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0}
+L o s s_{0} (\mathbb {S}) = \exp (- r_{\epsilon} \cdot T) \cdot M_{0}
 $$
 
 2. The investment strategy above ensures profit or loss is zero at inception  $t = T$ .
 
 $$
-\begin{array}{l} P r o f i t _ {0} (\mathbb {S}) = G a i n _ {0} (\mathbb {E}) \cdot M _ {0} - L o s s _ {0} (\mathbb {S}) \\ = \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0} - \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0} \\ = 0 \\ \end{array}
+\begin{array}{l} P r o f i t_{0} (\mathbb {S}) = G a i n_{0} (\mathbb {E}) \cdot M_{0} - L o s s_{0} (\mathbb {S}) \\ = \exp (- r_{\epsilon} \cdot T) \cdot M_{0} - \exp (- r_{\epsilon} \cdot T) \cdot M_{0} \\ = 0 \\ \end{array}
 $$
 
 Step 5: Given the investment strategy at inception  $t = 0$ , determine the profit or loss at maturity  $t = T$ .
@@ -66,19 +122,19 @@ Step 5: Given the investment strategy at inception  $t = 0$ , determine the prof
 1. USD investment at  $t = 0$  generates proceeds at maturity  $t = T$ .
 
 $$
-\begin{array}{l} G a i n _ {T} (\$) = \underbrace {\left[ \exp \left(- r _ {\epsilon} \cdot T\right) \cdot M _ {0} \right]} _ {\text {U S D I n v e s t m e n t}} \cdot \underbrace {\exp \left(r _ {\$} \cdot T\right)} _ {\text {R e t u r n}} \\ = \exp ([ r _ {\$} - r _ {\epsilon} ] \cdot T) \cdot M _ {0} \\ \end{array}
+\begin{array}{l} G a i n_{T} (\$) = \underbrace {\left[ \exp \left(- r_{\epsilon} \cdot T\right) \cdot M_{0} \right]}_{\text{US DI nv es tm en t}} \cdot \underbrace {\exp \left(r_{\$} \cdot T\right)}_{\text{Re tu rn}} \\ = \exp ([ r_{\$} - r_{\epsilon} ] \cdot T) \cdot M_{0} \\ \end{array}
 $$
 
 2. Use the 1 EUR obtained at maturity  $t = T$  from the long position on the forward contract to repay the borrowed EUR at inception  $t = 0$ .
 
 $$
-\exp (- r _ {\epsilon} \cdot T) \cdot \exp (r _ {\epsilon} \cdot T) - 1 = 0
+\exp (- r_{\epsilon} \cdot T) \cdot \exp (r_{\epsilon} \cdot T) - 1 = 0
 $$
 
 3. Evaluate profit or loss at maturity  $t = T$ .
 
 $$
-\begin{array}{l} P r o f i t _ {T} (\mathbb {S}) = G a i n _ {T} (\mathbb {S}) - L o s s _ {T} (\mathbb {S}) \\ = \exp ([ r _ {\$} - r _ {\epsilon} ] \cdot T) \cdot M _ {0} - F _ {q} \\ = F _ {0, T} - F _ {q} \\ > 0 \\ \end{array}
+\begin{array}{l} P r o f i t_{T} (\mathbb {S}) = G a i n_{T} (\mathbb {S}) - L o s s_{T} (\mathbb {S}) \\ = \exp ([ r_{\$} - r_{\epsilon} ] \cdot T) \cdot M_{0} - F_{q} \\ = F_{0, T} - F_{q} \\ > 0 \\ \end{array}
 $$
 
 # Continuously Compounding Interest
@@ -90,25 +146,25 @@ Let  $n$  denote the discrete frequency with which interest compounds in a year.
 For a given maturity  $T$  and discrete compounding frequency  $n$ , the gross rate of return is
 
 $$
-\left(1 + \frac {r _ {d}}{n}\right) ^ {n \cdot T}
+\left(1 + \frac{r_{d}}{n}\right)^{n \cdot T}
 $$
 
 By contrast, under continuously compounding interest, the gross rate of return is
 
 $$
-\exp (r _ {c} \cdot T)
+\exp (r_{c} \cdot T)
 $$
 
 The appropriate continuously compounding interest rate  $r_c$  that aligns with the discrete compounding interest rate  $r_d$  is that which equates the two gross rates of return.
 
 $$
-\exp (r _ {c} \cdot T) = \left(1 + \frac {r _ {d}}{n}\right) ^ {n \cdot T}
+\exp (r_{c} \cdot T) = \left(1 + \frac{r_{d}}{n}\right)^{n \cdot T}
 $$
 
 Solving the equation above for the endogenous variable  $r_c$  yields the formula for the continuously compounding interest rate as a function of the discrete compounding interest rate.
 
 $$
-r _ {c} = n \cdot \ln \left[ 1 + \frac {r _ {d}}{n} \right]
+r_{c} = n \cdot \ln \left[ 1 + \frac{r_{d}}{n} \right]
 $$
 
 Note that the maturity horizon  $T$  does not affect the conversion between a discrete compounding interest rate and a continuously compounding interest rate.
@@ -133,25 +189,25 @@ Determining the forward rate of a currency security requires appealing to a no-a
 First, the investor can invest the home capital at the home interest rate until maturity. Let  $\Pi_{\mathbb{S}}(r_{\mathbb{S}},T,N)$  denote the payoff function from this investment strategy.
 
 $$
-\Pi_ {\S} (r _ {\S}, T, N) = \exp (r _ {\S} \cdot T) \cdot N
+\Pi_{\S} (r_{\S}, T, N) = \exp (r_{\S} \cdot T) \cdot N
 $$
 
 Second, the investor can convert the home capital into foreign capital, invest the foreign capital at the foreign interest rate, and convert the proceeds on the foreign capital back into the home currency at the forward rate  $F$ .
 
 $$
-\Pi_ {\epsilon} (F; r _ {\epsilon}, T, N, M) = \exp (r _ {\epsilon} \cdot T) \cdot \frac {N}{M} \cdot F
+\Pi_{\epsilon} (F; r_{\epsilon}, T, N, M) = \exp (r_{\epsilon} \cdot T) \cdot \frac{N}{M} \cdot F
 $$
 
 Note that both payoff functions,  $\Pi_{\mathbb{S}}(\cdot)$  and  $\Pi_{\epsilon}(\cdot)$ , are measured in the home currency (e.g., USD). The forward rate  $F$  adjusts so as to equate the payoffs from the two investment strategies.
 
 $$
-\Pi_ {\S} (r _ {\S}, T, N) = \Pi_ {\epsilon} (\pmb {F}; r _ {\epsilon}, T, M, N)
+\Pi_{\S} (r_{\S}, T, N) = \Pi_{\epsilon} (\pmb {F}; r_{\epsilon}, T, M, N)
 $$
 
 This equation is a "no-arbitrage" condition. Solving the no-arbitrage condition for the endogenous variable  $F$  yields the covered interest-rate parity formula for the forward rate.
 
 $$
-F = \exp [ (r _ {\$} - r _ {\epsilon}) \cdot T ] \cdot M
+F = \exp [ (r_{\$} - r_{\epsilon}) \cdot T ] \cdot M
 $$
 
 Note that the forward rate  $F$  inherits the units of the exchange rate  $M$ . Since the units of the exchange rate  $M$  is Home/Foreign (e.g., USD/EUR), it follows that the units of the forward rate  $F$  is also Home/Foreign.
@@ -188,17 +244,17 @@ b. Increase scenario:  $1 - q$
 3. Relationship between continuously compounded and annually compounded interest rates
 
 $$
-1 + \bar {r} ^ {f} = \exp \left(r ^ {f}\right)
+1 + \bar {r}^{f} = \exp \left(r^{f}\right)
 $$
 
 $$
-\frac {1}{1 + \bar {r} ^ {f}} = \exp \bigl (- r ^ {f} \bigr)
+\frac{1}{1 + \bar {r}^{f}} = \exp \bigl (- r^{f} \bigr)
 $$
 
 4. CAPM formula.
 
 $$
-\mathbb {E} [ R _ {i} ] = \bar {r} ^ {f} + \beta_ {i} \cdot \left[ \mathbb {E} [ R ^ {m} ] - r ^ {f} \right]
+\mathbb {E} [ R_{i} ] = \bar {r}^{f} + \beta_{i} \cdot \left[ \mathbb {E} [ R^{m} ] - r^{f} \right]
 $$
 
 5. Note  $\mathbb{E}[R_i]$  varies (linearly) with  $\beta_{i}$
@@ -209,13 +265,13 @@ $$
 2. Expected stock price at maturity  $t = T$  (i.e., the mean of the random variable  $S_{T,i}$ ).
 
 $$
-\mathbb {E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
+\mathbb {E}_{q} \big [ S_{T, i} \big ] = q \cdot S_{u} + (1 - q) \cdot S_{d}
 $$
 
 3. Use expected stock price return  $\mathbb{E}[R_i]$  to compute present-value as inception.
 
 $$
-(1 + \mathbb {E} [ R _ {i} ]) \cdot S _ {0, i} = \mathbb {E} \big [ S _ {T, i} \big ]
+(1 + \mathbb {E} [ R_{i} ]) \cdot S_{0, i} = \mathbb {E} \big [ S_{T, i} \big ]
 $$
 
 # 1.4. At-the-Money Option Under Dynamic Replication
@@ -224,31 +280,31 @@ $$
 2. Payoff from option at maturity  $t = T$  depends on realized stock price  $S_{T,i}$  at maturity.
 
 $$
-c \big (S _ {T, i} \big) = \left\{ \begin{array}{l l} \max  \{S _ {d} - K _ {i}, 0 \} & S _ {T, i} = S _ {d} \\ \max  \{S _ {u} - K _ {i}, 0 \} & S _ {T, i} = S _ {u} \end{array} \right.
+c \big (S_{T, i} \big) = \left\{ \begin{array}{l l} \max  \{S_{d} - K_{i}, 0 \} & S_{T, i} = S_{d} \\ \max  \{S_{u} - K_{i}, 0 \} & S_{T, i} = S_{u} \end{array} \right.
 $$
 
 3. Value of position in stocks at inception  $t = 0$ .
 
 $$
-\Delta_ {i, 0} = \frac {\operatorname* {m a x} \{S _ {u} - K _ {i} , 0 \} - \operatorname* {m a x} \{S _ {d} - K _ {i} , 0 \}}{S _ {u} - S _ {d}}
+\Delta_{i, 0} = \frac{\operatorname* {m a x} \{S_{u} - K_{i} , 0 \} - \operatorname* {m a x} \{S_{d} - K_{i} , 0 \}}{S_{u} - S_{d}}
 $$
 
 4. Value of position in bonds at inception  $t = 0$ .
 
 $$
-B _ {0} = \exp \left(- r ^ {f}\right) \cdot \left[ \max  \left\{S _ {u} - K _ {i}, 0 \right\} - \Delta_ {i, 0} \cdot S _ {u} \right]
+B_{0} = \exp \left(- r^{f}\right) \cdot \left[ \max  \left\{S_{u} - K_{i}, 0 \right\} - \Delta_{i, 0} \cdot S_{u} \right]
 $$
 
 5. Value of ATM option at inception  $t = 0$ .
 
 $$
-V _ {0} ^ {A T M} = \Delta_ {i, 0} \cdot S _ {0, i} + B _ {0}
+V_{0}^{A T M} = \Delta_{i, 0} \cdot S_{0, i} + B_{0}
 $$
 
 6. Payoff from dynamic replication portfolio at maturity  $t = T$  should replicate the payoff from the option.
 
 $$
-V _ {T, i} ^ {D R} \big (S _ {T, i} \big) = \left\{ \begin{array}{l l} \Delta_ {i, 0} \cdot S _ {d} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {d} \\ \Delta_ {i, 0} \cdot S _ {u} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {u} \end{array} \right.
+V_{T, i}^{D R} \big (S_{T, i} \big) = \left\{ \begin{array}{l l} \Delta_{i, 0} \cdot S_{d} + \exp \big (r^{f} \big) \cdot B_{0} & S_{T, i} = S_{d} \\ \Delta_{i, 0} \cdot S_{u} + \exp \big (r^{f} \big) \cdot B_{0} & S_{T, i} = S_{u} \end{array} \right.
 $$
 
 # 1.5. At-the-Money Option Under Risk Neutral Methodology
@@ -256,26 +312,26 @@ $$
 1. Risk neutral probability: The probability such that the risky asset (stock) yields an expected (gross) return equal to that of the risk-free asset (bond).
 
 $$
-q ^ {*} \cdot \frac {S _ {u}}{S _ {0}} + (1 - q ^ {*}) \cdot \frac {S _ {d}}{S _ {0}} = \exp \left(r ^ {f}\right)
+q^{*} \cdot \frac{S_{u}}{S_{0}} + (1 - q^{*}) \cdot \frac{S_{d}}{S_{0}} = \exp \left(r^{f}\right)
 $$
 
 2. Expected stock price at maturity  $t = T$  under risk neutral probability.
 
 $$
-\mathbb {E} _ {q ^ {*}} \big [ S _ {T, i} \big ] = q ^ {*} \cdot S _ {u} + (1 - q ^ {*}) \cdot S _ {d}
+\mathbb {E}_{q^{*}} \big [ S_{T, i} \big ] = q^{*} \cdot S_{u} + (1 - q^{*}) \cdot S_{d}
 $$
 
 3. Expected stock price at maturity  $t = T$  under analysts' probability.
 
 $$
-\mathbb {E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
+\mathbb {E}_{q} \big [ S_{T, i} \big ] = q \cdot S_{u} + (1 - q) \cdot S_{d}
 $$
 
 4. Question: Why may the probabilities  $(q, q^{*})$  differ?  
 5. Value of ATM option under risk neutral methodology at inception  $t = 0$ .
 
 $$
-V _ {0} ^ {A T M} = \exp \left(- r ^ {f}\right) \cdot \left[ q ^ {*} \cdot \max \{S _ {u} - K _ {i}, 0 \} + (1 - q ^ {*}) \cdot \max \{S _ {d} - K _ {i}, 0 \} \right]
+V_{0}^{A T M} = \exp \left(- r^{f}\right) \cdot \left[ q^{*} \cdot \max \{S_{u} - K_{i}, 0 \} + (1 - q^{*}) \cdot \max \{S_{d} - K_{i}, 0 \} \right]
 $$
 
 # 1.6. Option Value Comparative Statics
@@ -319,7 +375,7 @@ b. Hedge percentage:  $x \in [0,1]$ .
 3. Compute hedge jet fuel quantity in barrels for Q1 in 2008.
 
 $$
-H (C, x) = C \cdot \frac {1}{4} \cdot x \cdot \frac {1}{4 2}
+H (C, x) = C \cdot \frac{1}{4} \cdot x \cdot \frac{1}{4 2}
 $$
 
 4. Takeaway: If the oil price per barrel rises increases by $Δ between December 31, 2007, and March 31, 2008, then Southwest makes a loss of $Δ on each barrel that is hedged. Given a hedge position comprising H(C,x) barrels, Southwest makes a loss of $H(C,x) · Δ.  
@@ -331,7 +387,7 @@ trades on one lot of 1,000 oil barrels. What is the profit from the call option 
 7. Optimal number of options: The optimal number of options is that which, if the oil price per barrel rises by 1 USD between December 31, 2007, and March 31, 2008, then Southwest will make a profit of 1 USD on each barrel that is hedged.
 
 $$
-\underbrace {N \cdot 1 0 0 0 \cdot \Delta} _ {\text {P r o f i t o n P o t i o n}} = \underbrace {H (C , x) \cdot \Delta} _ {\text {L o s s f r o m I m p l i c i t S h o r t P o s i t i o n}}
+\underbrace {N \cdot 1 0 0 0 \cdot \Delta}_{\text{Pr of it on Po ti on}} = \underbrace {H (C , x) \cdot \Delta}_{\text{Lo ss fr om Im pl ic it Sh or tP os it io n}}
 $$
 
 Does the optimal number of options N depend on the USD change in the oil price per barrel given by $Δ?
@@ -348,13 +404,13 @@ $$
 2. Number options assuming one-for-one pass-through.
 
 $$
-N ^ {(1)} = \frac {H (C , x)}{1 0 0 0}
+N^{(1)} = \frac{H (C , x)}{1 0 0 0}
 $$
 
 3. Number of options assuming actual pass-through. Note that  $N^{(2)} > N^{(1)}$  since  $y > 1$ .
 
 $$
-N ^ {(2)} = \frac {H (C , x) \cdot y}{1 0 0 0}
+N^{(2)} = \frac{H (C , x) \cdot y}{1 0 0 0}
 $$
 
 4. Given the implicit short position, the expected loss on each barrel that is hedged from a $Δ change in the oil price per barrel is $H(C, x) · y · Δ. Are the number of options N(1) sufficient to offset this loss?
@@ -367,7 +423,7 @@ $$
 2. Zero-cost: Let  $c(P) > 0$  denote option price as a function of the strike price. Given a target strike price  $P_{c} > 0$  for the call option, the optimal choice of the strike price  $P_{p} > 0$  is that which yields a zero net payoff.
 
 $$
-c (P _ {p}) - c (P _ {c}) = 0
+c (P_{p}) - c (P_{c}) = 0
 $$
 
 # 1.3.2. Determining Zero Cost Collar Strategy (Part II)
@@ -376,13 +432,13 @@ $$
 2. Recall the number of call options that exactly offsets the loss from the implicit short position.
 
 $$
-\underbrace {N _ {c} \cdot 1 0 0 0 \cdot \Delta} _ {\text {P r o f i t o n C a l l O p t i o n}} = \underbrace {H (C , x) \cdot \Delta} _ {\text {L o s s f r o m I m p l i c i t S h o r t P o s i t i o n}}
+\underbrace {N_{c} \cdot 1 0 0 0 \cdot \Delta}_{\text{Pr of it on Ca ll Op ti on}} = \underbrace {H (C , x) \cdot \Delta}_{\text{Lo ss fr om Im pl ic it Sh or tP os it io n}}
 $$
 
 3. Given a strike price  $P_{c}$  for the call option and a strike price  $P_{p}$  for the put option, determine the number of put options  $N_{p}$ .
 
 $$
-N _ {c} \cdot P _ {c} = N _ {p} \cdot P _ {p}
+N_{c} \cdot P_{c} = N_{p} \cdot P_{p}
 $$
 
 # Currency Swaps
@@ -417,13 +473,13 @@ b. Home pays  $N^H = X \cdot \frac{1}{M_0}$  in  $H$  currency.
 1. Time  $t = 0$  value of the bond denominated in  $F$  currency.
 
 $$
-B _ {0} ^ {F} = \underbrace {\sum_ {t} ^ {T} \frac {c}{2} \cdot N ^ {F} \cdot Z ^ {F} (0 , t)} _ {\text {I n t e r e s t P V}} + \underbrace {N ^ {F} \cdot Z ^ {F} (0 , T)} _ {\text {P r i n c i p a l P V}}
+B_{0}^{F} = \underbrace {\sum_{t}^{T} \frac{c}{2} \cdot N^{F} \cdot Z^{F} (0 , t)}_{\text{In te re st PV}} + \underbrace {N^{F} \cdot Z^{F} (0 , T)}_{\text{Pr in ci pa lP V}}
 $$
 
 2. Time  $t = 0$  value of the bond denominated in  $H$  currency.
 
 $$
-B _ {0} ^ {H} (K) = \underbrace {\sum_ {t} ^ {T} \frac {K}{2} \cdot N ^ {H} \cdot Z ^ {H} (0 , t)} _ {\text {I n t e r e s t P V}} + \underbrace {N ^ {H} \cdot Z ^ {H} (0 , T)} _ {\text {P r i n c i p a l P V}}
+B_{0}^{H} (K) = \underbrace {\sum_{t}^{T} \frac{K}{2} \cdot N^{H} \cdot Z^{H} (0 , t)}_{\text{In te re st PV}} + \underbrace {N^{H} \cdot Z^{H} (0 , T)}_{\text{Pr in ci pa lP V}}
 $$
 
 - $K$  denotes the "swap rate," i.e. the annualized coupon rate for semi-annual payments of coupons in the  $H$  currency.  
@@ -434,19 +490,19 @@ The bond value  $B_0^H (K)$  is a function of the swap rate  $K$
 1. Time  $t = 0$  value of the swap in  $F$  currency is equal to the value of the long position in the bond denominated in the  $F$  currency minus the value of the short position in the bond denominated in the  $H$  currency, converted into the  $F$  currency using the time  $t = 0$  exchange rate  $M_0$ .
 
 $$
-V _ {0,} ^ {\mathrm {S w a p}, F} (K) = B _ {0} ^ {F} - M _ {0} \cdot B _ {0} ^ {H} (K)
+V_{0,}^{\mathrm{Sw ap}, F} (K) = B_{0}^{F} - M_{0} \cdot B_{0}^{H} (K)
 $$
 
 2. Swap rate  $K$  adjusts so as to set value of the swap at inception  $t = 0$  to zero.
 
 $$
-V _ {0,} ^ {\operatorname {S w a p}, F} (K ^ {*}) = 0
+V_{0,}^{\operatorname{Sw ap}, F} (K^{*}) = 0
 $$
 
 3. Formula for swap rate  $K^{*}$ .
 
 $$
-K ^ {*} = 2 \cdot \left[ \frac {\frac {C}{2} \cdot \sum_ {t} ^ {T} Z ^ {F} (0 , t) + Z ^ {F} (0 , T) - Z ^ {H} (0 , T)}{\sum_ {t} ^ {T} Z ^ {H} (0 , t)} \right]
+K^{*} = 2 \cdot \left[ \frac{\frac{C}{2} \cdot \sum_{t}^{T} Z^{F} (0 , t) + Z^{F} (0 , T) - Z^{H} (0 , T)}{\sum_{t}^{T} Z^{H} (0 , t)} \right]
 $$
 
 # 1.5. Swap Rate under Alternative Exchange of Principal
@@ -454,13 +510,13 @@ $$
 1. Time  $t = 0$  value of the swap in  $F$  currency has an additional component  $V_0^{\mathrm{FX},F}(\overline{M}_0)$  to account for the fact that the exchange of principal occurs at an alternative exchange rate  $\overline{M}_0$  for  $F / H$  currencies, in place of the spot exchange rate  $M_0$ .
 
 $$
-V _ {0,} ^ {\mathrm {S w a p}, F} (K) = B _ {0} ^ {F} - M _ {0} \cdot B _ {0} ^ {H} (K) + V _ {0} ^ {\mathrm {F X}, F} (\overline {{M}} _ {0})
+V_{0,}^{\mathrm{Sw ap}, F} (K) = B_{0}^{F} - M_{0} \cdot B_{0}^{H} (K) + V_{0}^{\mathrm{FX}, F} (\overline {{M}}_{0})
 $$
 
 2. Value of exchange of principal.
 
 $$
-V _ {0} ^ {\mathrm {F X}, F} (\bar {M} _ {0}) = \left(\frac {M _ {0}}{\bar {M} _ {0}} - 1\right) \cdot N ^ {F}
+V_{0}^{\mathrm{FX}, F} (\bar {M}_{0}) = \left(\frac{M_{0}}{\bar {M}_{0}} - 1\right) \cdot N^{F}
 $$
 
 # Option Pricing with Multiperiod Binomial Tree
@@ -517,19 +573,19 @@ a. Node  $u$
 b. Position in stocks ("delta").
 
 $$
-\Delta_ {u} = \frac {c _ {u u} - c _ {u d}}{S _ {u u} - S _ {u d}}
+\Delta_{u} = \frac{c_{u u} - c_{u d}}{S_{u u} - S_{u d}}
 $$
 
 c. Position in bonds (note use of discrete discounting).
 
 $$
-B _ {u} = \frac {1}{1 + r} \cdot (c _ {u u} - \Delta_ {u} \cdot S _ {u u})
+B_{u} = \frac{1}{1 + r} \cdot (c_{u u} - \Delta_{u} \cdot S_{u u})
 $$
 
 d. Value of replicating portfolio in stocks and bonds.
 
 $$
-c _ {u} := V _ {u} ^ {R P} = \Delta_ {u} \cdot S _ {u} + B _ {u}
+c_{u} := V_{u}^{R P} = \Delta_{u} \cdot S_{u} + B_{u}
 $$
 
 e. Node  $d$
@@ -537,19 +593,19 @@ e. Node  $d$
 i. Position in stocks ("delta").
 
 $$
-\Delta_ {d} = \frac {c _ {u d} - c _ {d d}}{S _ {u d} - S _ {d d}}
+\Delta_{d} = \frac{c_{u d} - c_{d d}}{S_{u d} - S_{d d}}
 $$
 
 ii. Position in bonds (note use of discrete discounting).
 
 $$
-B _ {d} = \frac {1}{1 + r} \cdot (c _ {u d} - \Delta_ {d} \cdot S _ {u d})
+B_{d} = \frac{1}{1 + r} \cdot (c_{u d} - \Delta_{d} \cdot S_{u d})
 $$
 
 iii. Value of replicating portfolio in stocks and bonds.
 
 $$
-c _ {d} := V _ {d} ^ {R P} = \Delta_ {d} \cdot S _ {d} + B _ {d}
+c_{d} := V_{d}^{R P} = \Delta_{d} \cdot S_{d} + B_{d}
 $$
 
 6. Period  $i = 0$ .
@@ -557,19 +613,19 @@ $$
 i. Position in stocks ("delta").
 
 $$
-\Delta_ {0} = \frac {c _ {u} - c _ {d}}{S _ {u} - S _ {d}}
+\Delta_{0} = \frac{c_{u} - c_{d}}{S_{u} - S_{d}}
 $$
 
 ii. Position in bonds (note use of discrete discounting).
 
 $$
-B _ {0} = \frac {1}{1 + r} \cdot (c _ {u} - \Delta_ {0} \cdot S _ {u})
+B_{0} = \frac{1}{1 + r} \cdot (c_{u} - \Delta_{0} \cdot S_{u})
 $$
 
 iii. Value of replicating portfolio in stocks and bonds.
 
 $$
-c _ {0} := V _ {0} ^ {R P} = \Delta_ {0} \cdot S _ {0} + B _ {0}
+c_{0} := V_{0}^{R P} = \Delta_{0} \cdot S_{0} + B_{0}
 $$
 
 # 1.3. Portfolio Self-Financing
@@ -579,13 +635,13 @@ $$
 3. Value of "inherited" portfolio set up at  $i = 0$ .
 
 $$
-V _ {u} ^ {1} = \Delta_ {0} \cdot S _ {u} + B _ {0} \cdot (1 + r)
+V_{u}^{1} = \Delta_{0} \cdot S_{u} + B_{0} \cdot (1 + r)
 $$
 
 4. Cost of "future" portfolio set up at  $i = 1$ .
 
 $$
-V _ {u} ^ {2} = \Delta_ {u} \cdot S _ {u} + B _ {u}
+V_{u}^{2} = \Delta_{u} \cdot S_{u} + B_{u}
 $$
 
 5. Question: What is the value of  $(V_{u}^{1} - V_{u}^{2})$ ?
@@ -615,19 +671,19 @@ iii.  $S_{dd} = d\cdot S_d$
 a. Position in stocks.
 
 $$
-\Delta_ {u} = \frac {c _ {u u} - c _ {u d}}{S _ {u u} - S _ {u d}}
+\Delta_{u} = \frac{c_{u u} - c_{u d}}{S_{u u} - S_{u d}}
 $$
 
 b. Position in bonds.
 
 $$
-B _ {u} = \frac {1}{1 + r} \cdot (c _ {u u} - \Delta_ {u} \cdot S _ {u u})
+B_{u} = \frac{1}{1 + r} \cdot (c_{u u} - \Delta_{u} \cdot S_{u u})
 $$
 
 c. Value of option.
 
 $$
-c _ {u} := V _ {u} ^ {R P} = \Delta_ {u} \cdot S _ {u} + B _ {u}
+c_{u} := V_{u}^{R P} = \Delta_{u} \cdot S_{u} + B_{u}
 $$
 
 6. Consider node  $d$  at period  $i = 1$ .
@@ -635,19 +691,19 @@ $$
 a. Position in stocks.
 
 $$
-\Delta_ {d} = \frac {c _ {d u} - c _ {d d}}{S _ {d u} - S _ {d d}}
+\Delta_{d} = \frac{c_{d u} - c_{d d}}{S_{d u} - S_{d d}}
 $$
 
 b. Position in bonds.
 
 $$
-B _ {d} = \frac {1}{1 + r} \cdot (c _ {d u} - \Delta_ {d} \cdot S _ {d u})
+B_{d} = \frac{1}{1 + r} \cdot (c_{d u} - \Delta_{d} \cdot S_{d u})
 $$
 
 c. Value of option.
 
 $$
-c _ {d} := V _ {d} ^ {R P} = \Delta_ {d} \cdot S _ {d} + B _ {d}
+c_{d} := V_{d}^{R P} = \Delta_{d} \cdot S_{d} + B_{d}
 $$
 
 7. Use stock prices without dividend at period  $i = 1$ , namely  $S_{u}^{ND} = u \cdot S_{0}$  and  $S_{d}^{ND} = d \cdot S_{0}$ , when pricing options at the initial period  $i = 0$ .
@@ -655,19 +711,19 @@ $$
 a. Position in stocks.
 
 $$
-\Delta_ {0} = \frac {c _ {u} - c _ {d}}{S _ {u} ^ {N D} - S _ {d} ^ {S D}}
+\Delta_{0} = \frac{c_{u} - c_{d}}{S_{u}^{N D} - S_{d}^{S D}}
 $$
 
 b. Position in bonds.
 
 $$
-B _ {0} = \frac {1}{1 + r} \cdot (c _ {u} - \Delta_ {0} \cdot S _ {u} ^ {N D})
+B_{0} = \frac{1}{1 + r} \cdot (c_{u} - \Delta_{0} \cdot S_{u}^{N D})
 $$
 
 c. Value of option.
 
 $$
-c _ {0} = \Delta_ {0} \cdot S _ {0} + B _ {0}
+c_{0} = \Delta_{0} \cdot S_{0} + B_{0}
 $$
 
 # Option Pricing and Implied Volatility
@@ -687,29 +743,29 @@ $$
 1. Delta hedging.
 
 $$
-d _ {1} (S, K, T, r, \sigma) = \frac {\ln \left[ \frac {S}{K} \right] + \left(r + \frac {\sigma^ {2}}{2}\right) \cdot T}{\sigma \cdot \sqrt {T}}
+d_{1} (S, K, T, r, \sigma) = \frac{\ln \left[ \frac{S}{K} \right] + \left(r + \frac{\sigma^{2}}{2}\right) \cdot T}{\sigma \cdot \sqrt{T}}
 $$
 
 $$
-d _ {2} (S, K, T, r, \sigma) = d _ {1} - \sigma \cdot \sqrt {T}
+d_{2} (S, K, T, r, \sigma) = d_{1} - \sigma \cdot \sqrt{T}
 $$
 
 2. Standard normal cumulative distribution function.
 
 $$
-\Phi (x) := \frac {1}{\sigma \cdot \sqrt {2 \pi}} \cdot \int_ {- \infty} ^ {x} \exp \left(- \frac {1}{2} \cdot u ^ {2}\right) d u
+\Phi (x) := \frac{1}{\sigma \cdot \sqrt{2 \pi}} \cdot \int_{- \infty}^{x} \exp \left(- \frac{1}{2} \cdot u^{2}\right) d u
 $$
 
 3. Call option price.
 
 $$
-c = S \cdot \Phi \big (d _ {1} (S, K, T, r, \sigma) \big) - K \cdot \exp (- r \cdot T) \cdot \Phi \big (d _ {2} (S, K, T, r, \sigma) \big)
+c = S \cdot \Phi \big (d_{1} (S, K, T, r, \sigma) \big) - K \cdot \exp (- r \cdot T) \cdot \Phi \big (d_{2} (S, K, T, r, \sigma) \big)
 $$
 
 4. Put option price.
 
 $$
-p = - S \cdot \Phi \bigl (- d _ {1} (S, K, T, r, \sigma) \bigr) + K \cdot \exp (- r \cdot T) \cdot \Phi \bigl (- d _ {2} (S, K, T, r, \sigma) \bigr)
+p = - S \cdot \Phi \bigl (- d_{1} (S, K, T, r, \sigma) \bigr) + K \cdot \exp (- r \cdot T) \cdot \Phi \bigl (- d_{2} (S, K, T, r, \sigma) \bigr)
 $$
 
 # 1.2.1. Implied Volatility
@@ -719,11 +775,11 @@ $$
 3. Answer: It is the volatility parameter that solves a non-linear equation.
 
 $$
-c = S \cdot \Phi \left(d _ {1} (S, K, T, r, \sigma_ {c} ^ {*})\right) - K \cdot \exp (- r \cdot T) \cdot \Phi \left(d _ {2} (S, K, T, r, \sigma_ {c} ^ {*})\right)
+c = S \cdot \Phi \left(d_{1} (S, K, T, r, \sigma_{c}^{*})\right) - K \cdot \exp (- r \cdot T) \cdot \Phi \left(d_{2} (S, K, T, r, \sigma_{c}^{*})\right)
 $$
 
 $$
-p = - S \cdot \Phi \left(- d _ {1} (S, K, T, r, \sigma_ {p} ^ {*})\right) + K \cdot \exp (- r \cdot T) \cdot \Phi \left(- d _ {2} (S, K, T, r, \sigma_ {p} ^ {*})\right)
+p = - S \cdot \Phi \left(- d_{1} (S, K, T, r, \sigma_{p}^{*})\right) + K \cdot \exp (- r \cdot T) \cdot \Phi \left(- d_{2} (S, K, T, r, \sigma_{p}^{*})\right)
 $$
 
 5. Use non-linear equation solve function to solve for implied volatility values  $\left(\sigma_c^*,\sigma_p^*\right)$
@@ -777,7 +833,7 @@ $C_{ddd} = \max \{S_{ddd} - K,0\}$
 6. Risk neutral probability  $q^{*}$  equates gross return on stock to gross return on risk-free asset with interest rate  $r$ .
 
 $$
-q ^ {*} \cdot u + (1 - q ^ {*}) \cdot d = \exp (r)
+q^{*} \cdot u + (1 - q^{*}) \cdot d = \exp (r)
 $$
 
 7. American call option (i) value of waiting, (ii) value of exercising, and (ii) value of option at  $t = T - 1 = 2$ :
@@ -823,7 +879,7 @@ $C_0 = \max \{C_0^{wait}, C_0^{exercise}\}$
 1. Exercise American option early at time  $t$  and node  $j$  if and only if
 
 $$
-C _ {j} ^ {e x e r c i s e} (t) > C _ {j} ^ {w a i t} (t)
+C_{j}^{e x e r c i s e} (t) > C_{j}^{w a i t} (t)
 $$
 
 # 1.2.2. Accounting for Dividends in Pricing American Options
@@ -834,7 +890,7 @@ $$
 4. Construct the binomial tree for the post-dividend stock price.
 
 $$
-S _ {p o s t} = S _ {p r e} \cdot (1 - y)
+S_{p o s t} = S_{p r e} \cdot (1 - y)
 $$
 
 5. Note pre-dividend price one period ahead depends on post-dividend price this period.

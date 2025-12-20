@@ -1,4 +1,10 @@
-# Part I Fundamental Analysis of the Company
+---
+title: Chapter 01 - Company Business Model Analysis
+tags: [business_model_analysis, corporate_strategic_formula, fundamental_analysis, competitive_advantage, corporate_finance]
+parent_directory: VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part I - Fundamental Analysis
+key_concepts: [company strategic formula, internal strategic front, external strategic front, competitive advantage, business model analysis]
+cssclasses: academia
+---
 
 # Chapter 1 Company Business Model Analysis
 
@@ -64,7 +70,7 @@ The CSF defines the strategic profile of the company, by considering two differe
 - internal strategic front: it refers to the internal structure of the company;
 - external strategic front: it refers to the structural relationships between the company and the players of its environment classified into two main groups of business players and financial players.
 
-# Internal Front of the Csf
+## Internal Front of the CSF
 
 The Internal Strategic Front (ISF) refers to the internal structure of the company. It is defined from all elements, tangible and intangible, needed for the production of goods and services. The internal structure defines the company's specific characteristics by generating its uniqueness. It gives form and substance to the CSF by establishing the uniqueness of the thinking and operation of the company. Therefore, it is the main reason for which one company is different from another.
 
@@ -72,11 +78,11 @@ The internal structure of the company must be contemporarily both "stable in the
 
 The internal structure of the company is defined on the basis of three main elements:
 
-(a) Corporate governance
-(b) Organizational architecture
-(c) Strategic resources
+- (a) Corporate governance
+- (b) Organizational architecture
+- (c) Strategic resources
 
-# (a) Corporate Governance
+### (a) Corporate Governance
 
 The corporate governance of the company refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined (Bertini 2009).
 
@@ -189,16 +195,16 @@ Human capital (or intellectual capital) refers to the people whose skills, knowl
 
 In this context, human capital is the main strategic resource for the company (Grant 1991; Itami 1988; Saloner et al. 2001; Thompson et al. 2006) and it represents the real source of the company's competitive advantage. People at all levels of the organization represent the main and deeper reason of strategic thinking and operation of the company as well as its ability to create value over time (Bertini 1995). Therefore, human capital is the most relevant element of diversification among the companies. Consequently, it gives uniqueness and non-imitability to the company's competitive advantage and is defendable over time (Barney 1991; Rumelt 1984; Wernefelt 1984; Hamel and Prahalad 1990; Itami 1988).
 
-# External Front of the Csf
+## External Front of the CSF
 
 The External Strategic Front (ESF) refers to the structural relationships between the company and external players (Coda 1988; Galeotti 2008; Galeotti and Garzella 2013). These relationships can be exchange related, if they refer to products, services and money, or conditioning if they refer to constraints, limitations and opportunities. Also, they may have both an economic content (revenues, costs, price, etc.) as well as a non-economic content (Galeotti and Garzella 2013). Company competitiveness is due to its ability to create value for all of its players simultaneously.
 
 The external players of the company can be classified into two main groups: business players and financial players. Based on differences in their nature, interests and behaviour, the external strategic front can be divided in two main parts (Coda 1988; Galeotti 2008; Galeotti and Garzella 2013):
 
-(a) Strategic Business Area;
-(b) Capital Market.
+- (a) Strategic Business Area;
+- (b) Capital Market.
 
-# (a) Strategic Business Area
+### (a) Strategic Business Area
 
 Strategic Business Area (SBA) the company refers to the real market in which it carries out the business. The company can operate in more than one business. In any case, any SBA can be defined on the basis of two main elements (Porter 1985):
 
@@ -307,7 +313,7 @@ Finally, once the market structure and the stage of its lifecycle in which it is
 
 Therefore, the company must evaluate its business according to its structural characteristics as well as the intensity of the strategic interaction among the companies.
 
-# (b) Capital Market
+### (b) Capital Market
 
 Capital Market refers to the ideal place in which a company looks for the capital, in equity and debt, needed for its survival and development over time.
 
@@ -318,7 +324,7 @@ The capital market can be defined according to two main elements:
 
 In the capital market the company competes through its financial strategy in order to acquire the capital needed, in equity and debt, at profitable conditions (Galeotti 2008).
 
-# Consonance of the Corporate Strategic Formula
+## Consonance of the Corporate Strategic Formula
 
 The CSF, as defined in its internal and external strategic front, allows for simultaneous optimisation of the company operating in the Strategic Business Area and Capital Market. The internal and the external strategic fronts are strictly connected on the basis of systemic and dynamic bidirectional relationships.
 
@@ -350,6 +356,76 @@ The internal structure of the company plays a key role in the CSF. It is the rin
 virtuous circle between them. Specifically, the distinctive resources allow for the ideation, the design and the development of a product system in line with the needs and expectations of customers in a better way than competitors. The ability of the product system to satisfy the critical factors of strategic business area, allows the company to generate, to develop and to defend a competitive advantage over competitors in the SBA over time by generating company value.
 
 The company's ability to generate value in the SBA together with an internal structure characterized by efficiency and effectiveness of the organizational and operating model and by good governance, allows the company to present itself to capital market with a risk-return profile in line with investor expectations. The positive assessment of investors allows the company to generate, to develop and to defend a competitive advantage over competitors in the capital market increasing the company's ability to attract the capital required for its development at profitable conditions.
+
+```d2
+# Company Strategic Formula (CSF) Visualization
+# Internal and External Strategic Fronts
+
+internal: {
+  label: "Internal Strategic Front (ISF)"
+  corporate_governance: "Corporate Governance"
+  organizational_architecture: "Organizational Architecture"
+  strategic_resources: "Strategic Resources"
+}
+
+external: {
+  label: "External Strategic Front (ESF)"
+  sba: "Strategic Business Area (SBA)"
+  capital_market: "Capital Market"
+}
+
+consonance: {
+  label: "Systemic-Structural-Dynamic Consonance"
+  style.fill: "#e1f5fe"
+}
+
+# Relationships
+internal -> consonance: "Internal-External\nIntegration"
+external -> consonance: "External-Internal\nIntegration"
+consonance -> internal: "Feedback Loop"
+consonance -> external: "Feedback Loop"
+
+# Internal components relationship
+corporate_governance -> organizational_architecture
+organizational_architecture -> strategic_resources
+strategic_resources -> corporate_governance
+
+# External components relationship
+sba -> capital_market: "Value Creation\nFlow"
+capital_market -> sba: "Capital\nFlow"
+```
+
+```d2
+# CSF Virtuous Circle
+# Visualization of the relationship between internal structure, business and capital markets
+
+internal_structure: {
+  label: "Internal Structure"
+  style.fill: "#f3e5f5"
+}
+
+sba: {
+  label: "Strategic Business Area\n(SBA)"
+  style.fill: "#e8f5e8"
+}
+
+capital_market: {
+  label: "Capital Market"
+  style.fill: "#e3f2fd"
+}
+
+value_creation: "Value Creation\nin SBA"
+capital_attract: "Attract Capital\nat Profitable Conditions"
+investment: "Invest in SBA"
+competitive_advantage: "Competitive Advantage"
+
+internal_structure -> value_creation: "Generate Value"
+value_creation -> capital_market: "Attract Capital"
+capital_market -> investment: "Invest Capital"
+investment -> sba: "Invest in SBA"
+sba -> competitive_advantage: "Develop Competitive\nAdvantage"
+competitive_advantage -> internal_structure: "Reinforce Internal\nStructure"
+```
 
 The company's ability to raise capital increases its investments in SBA. It reinforces its competitive advantage over competitors and increases its value in the business. In turn, the increase in cash-flows increases the company's ability to raise capital in capital markets reinforcing its competitive position. Therefore, it creates a virtuous circle between business areas and capital markets where one increases the other based on an increase of the expected cash-flows.
 
@@ -410,7 +486,52 @@ Based on these three steps, the origin of the company, where it is and where it 
 
 The analytical schemes allow for analysis of composition of the Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity. An analysis of the economic and financial dynamics requires the definition and the knowledge of the connections between them.
 
-# 1.3 Operating and Net Income
+```d2
+# Analytical Schemes for Company Performance Analysis
+
+# Three main pillars
+operating_net_income: {
+  label: "Operating & Net Income"
+  style.fill: "#fff3e0"
+}
+
+capital_invested_structure: {
+  label: "Capital Invested &\nCapital Structure"
+  style.fill: "#f3e5f5"
+}
+
+cash_flows: {
+  label: "Free Cash Flow from\nOperations & to Equity"
+  style.fill: "#e8f5e8"
+}
+
+# Relationship flow
+operating_net_income -> capital_invested_structure: "Capital Generation"
+capital_invested_structure -> cash_flows: "Cash Flow Generation"
+cash_flows -> operating_net_income: "Performance Feedback"
+
+# Sub-components
+operating_net_income: {
+  ebitda: "EBITDA"
+  ebit: "EBIT"
+  ebt: "EBT"
+  net_income: "Net Income"
+}
+
+capital_invested_structure: {
+  capex: "CAPEX"
+  nwc: "Net Working Capital"
+  equity: "Equity"
+  nfp: "Net Financial Position"
+}
+
+cash_flows: {
+  fcfo: "FCFO"
+  fcf: "FCFE"
+}
+```
+
+## 1.3 Operating and Net Income
 
 The analysis of the economic dynamic requires an analysis of the Operating Income and Net Income over time. It is the starting point for an analysis of company performance in the business over time.
 
@@ -426,6 +547,31 @@ The analytical scheme adopted to analyse the income of the company can be divide
 The aim of the analytical scheme used, as reported in Table 1.1, is to distinguish between strictly operating activities and others it can only be done with a deep analysis of each item in a financial analysis perspective. In this sense, the EBITDA and EBIT refer to Revenues and Costs strictly operating.
 
 The Gross Profit (or Gross Margin) is the difference between the revenues from the sale of products, goods and services and the related production costs.
+
+```d2
+# EBITDA to Net Income Flow Analysis
+
+revenues: "Net Sales Revenues"
+gross_profit: "Gross Profit"
+ebitda: "EBITDA"
+ebit: "EBIT"
+ebt: "EBT"
+net_income: "Net Income"
+
+revenues -> gross_profit: "Less: Direct Operating Costs"
+gross_profit -> ebitda: "Less: Operating Expenses"
+ebitda -> ebit: "Less: Depreciation & Amortization"
+ebit -> ebt: "Less: Interest Expense"
+ebt -> net_income: "Less: Taxes"
+
+style: {
+  gross_profit.style.fill: "#e8f5e8"
+  ebitda.style.fill: "#e8eaf6"
+  ebit.style.fill: "#e1f5fe"
+  ebt.style.fill: "#e0f2f1"
+  net_income.style.fill: "#fff3e0"
+}
+```
 
 Table 1.1 Analytical scheme of the Operating and Net Income
 
@@ -445,15 +591,41 @@ Merchandising companies sell tangible goods. Specifically, they sell goods in su
 
 Specifically, the cost of goods sold can be divided into two main parts: (1) purchase cost of the goods (invoice costs) less the goods returned, allowance and discounts, plus any other related costs made to make the goods ready for sale (such as shipping costs, freight-in, unpacking costs, etc.); (2) the inventories with regards to the change between the beginning and the end of inventory. By following the regular inventory method, the cost of goods sold is equal to the purchase of goods plus the beginning of inventory less the end of inventory as follows (Table 1.2).
 
-Table 1.2 Cost of goods sold in merchandising companies
+**Table 1.2 Cost of goods sold in merchandising companies**
 
-<table><tr><td>Purchase cost of goods</td></tr><tr><td>Other related costs necessary for the sale</td></tr><tr><td>(Goods returns, allowance and discounts)</td></tr><tr><td>Net purchase of goods</td></tr><tr><td>Beginning inventory</td></tr><tr><td>Goods available for sale</td></tr><tr><td>(Ending inventory)</td></tr><tr><td>Cost of goods sold</td></tr></table>
+| Item |
+|------|
+| Purchase cost of goods |
+| Other related costs necessary for the sale |
+| (Goods returns, allowance and discounts) |
+| Net purchase of goods |
+| Beginning inventory |
+| Goods available for sale |
+| (Ending inventory) |
+| Cost of goods sold |
 
 Manufacturing companies sell tangible goods. Specifically, they sell goods after an industrial process by converting raw materials and purchased parts into finished goods. Therefore, its sales costs include conversion costs as well as raw material and parts of goods that it sells. Also in this case it is necessary to consider the inventory in order to define the cost of goods sold. The inventory account can be divided into three main parts: (1) materials inventory, referring to raw materials that are to become a part of the ultimately sellable goods resulting from the manufacturing process. In this case the cost of goods sold is defined as in the case of a merchandise company; (2) work in progress inventory, referring to goods that have started through the manufacturing process but have not yet been finished. The cost is defined as the materials plus the conversion costs incurred on these items up to the end of the accounting period; (3) finished goods inventory, referring to goods that have been manufactured but have not yet been shipped to customers. In this case, the cost of goods sold is based on the total costs incurred in their production. Therefore, the cost of goods sold is defined as in the merchandising company. The only difference is that, in this case the items are recorded at their production cost rather than at their acquisition cost.
 
-Table 1.3 Cost of goods sold in manufacturing company
+**Table 1.3 Cost of goods sold in manufacturing company**
 
-<table><tr><td>Purchase cost of materials</td></tr><tr><td>Other related costs of materials</td></tr><tr><td>(Materials returns, allowance and discounts)</td></tr><tr><td>Net purchase of materials</td></tr><tr><td>Beginning inventory of materials</td></tr><tr><td>Amount of materials available for use</td></tr><tr><td>(Ending inventory of materials)</td></tr><tr><td>Costs of materials used</td></tr><tr><td>Beginning inventory of work in progress</td></tr><tr><td>Amount available goods available for use</td></tr><tr><td>(Ending inventory amount of work in progress)</td></tr><tr><td>Cost of goods manufactured</td></tr><tr><td>Beginning finished goods inventory</td></tr><tr><td>Total amount of goods available for sale</td></tr><tr><td>(Ending finished goods inventory)</td></tr><tr><td>Cost of goods sold</td></tr></table>
+| Item |
+|------|
+| Purchase cost of materials |
+| Other related costs of materials |
+| (Materials returns, allowance and discounts) |
+| Net purchase of materials |
+| Beginning inventory of materials |
+| Amount of materials available for use |
+| (Ending inventory of materials) |
+| Costs of materials used |
+| Beginning inventory of work in progress |
+| Amount available goods available for use |
+| (Ending inventory amount of work in progress) |
+| Cost of goods manufactured |
+| Beginning finished goods inventory |
+| Total amount of goods available for sale |
+| (Ending finished goods inventory) |
+| Cost of goods sold |
 
 By using the periodic inventory method and by considering all three types of inventory, the cost of goods sold can be defined as follows (Table 1.3).
 
@@ -472,7 +644,7 @@ It is important to know that by considering the behaviour of costs on the basis 
 Usually, to acquire more information about Gross Profit, it is defined as a percentage of the Revenues as follows:
 
 $$
-G r o s s P r o f i t M a r g i n = \frac {G r o s s P r o f i t}{\text {N e t O p e r a t i n g R e v e n u e s}} \tag {1.1}
+Gross\ Profit\ Margin = \frac{Gross\ Profit}{\text{Net\ Operating\ Revenues}} \tag{1.1}
 $$
 
 The Gross Profit Margin is a good preliminary indicator of the existence of a competitive advantage of the company. Normally, companies with a competitive advantage are characterized by a Gross Profit Margin higher than competitors over time. Without a competitive advantage, the competition reduces the Gross Profit Margin of the company.
@@ -528,7 +700,7 @@ It is worth noting that usually the final performance of the company is measured
 
 It is worth noting that the "congruity" of the company's Net Income for the investor in equity is measured in the financial markets according to the return request by investor for the same risk-class. Part 2 of the book focuses on this analysis.
 
-# 1.4 Capital Invested and Capital Structure
+## 1.4 Capital Invested and Capital Structure
 
 The aim of the analysis of the Capital Invested and Capital Structure is to investigate into the sources of capital and their use.
 
@@ -608,13 +780,13 @@ The non-financial debts are included in the NWC. Therefore, the NFP's constructi
 The general equation on capital requires that the Capital Invested (CI) must be equal to the Capital Structure (CS), as follows:
 
 $$
-C I = C S \tag {1.2}
+CI = CS \tag{1.2}
 $$
 
 and then:
 
 $$
-\text {C A P E X} \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} = \text {E q u i t y} + N F P \tag {1.3}
+\text{CAPEX} \pm NWC \pm \text{Surplus\ Assets} - \text{Provisions} = \text{Equity} + NFP \tag{1.3}
 $$
 
 It is important to note that Net Financial Position (NFP) plays a central role in the equation. There are two main caveats to be kept in mind.
@@ -622,7 +794,7 @@ It is important to note that Net Financial Position (NFP) plays a central role i
 First, the NFP defines the net financial debt (financial debt less the sum of financial credit, marketable securities and liquidity). Therefore, the company's Leverage (L), can be measured on the basis of the Net Financial Position (NFP) (and thus by considering its net financial debt) or the financial debt (FD) as follows:
 
 $$
-L (\%) = \frac {N F P}{E + N F P} = \frac {N F P}{C S} \quad \text {or} \quad L (\%) = \frac {F D}{E + F D} \tag{1.4}
+L (\%) = \frac{NFP}{E + NFP} = \frac{NFP}{CS} \quad \text{or} \quad L (\%) = \frac{FD}{E + FD} \tag{1.4}
 $$
 
 Therefore, only in the first case the denominator is the Capital Structure (CS). In the second case it is not the CS because it creates a misalignment between Net Working Capital and Net Financial Position and, consequently between Capital Invested and Capital Structure.
@@ -634,16 +806,16 @@ Specifically, the Net Financial Position (NFP) can be:
 - negative: the financial debts are greater than the sum between financial credits, marketable securities and liquidity. In this case, the NFP is a source of capital and then it is classified in the Capital Structure and:
 
 $$
-C A P E X \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} = \text {E q u i t y} + \text {N F P} \tag {1.5}
+CAPEX \pm NWC \pm \text{Surplus\ Assets} - \text{Provisions} = \text{Equity} + \text{NFP} \tag{1.5}
 $$
 
 - positive: the financial debts are lower than the sum between financial credits, marketable securities and liquidity. In this case, the NFP is an investment and then it is classified in the Capital Invested and:
 
 $$
-\text {C A P E X} \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} + N F P = \text {E q u i t y} \tag {1.6}
+\text{CAPEX} \pm NWC \pm \text{Surplus\ Assets} - \text{Provisions} + NFP = \text{Equity} \tag{1.6}
 $$
 
-# 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity
+## 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity
 
 The aim of the analysis of the Free Cash-flow from Operations (FCFO) and Free Cash-flow to Equity (FCFE) is to investigate into how the operating cash flows and dividends over time are defined.
 
@@ -663,55 +835,55 @@ For cash-flow determination, each item of Capital Invested and Capital Structure
 - credit: it is the same for trade receivable net, other operating receivable net, other non-operating receivables, financial credits (short and long term). The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \downarrow (\uparrow) \Delta C r e d i t s \Rightarrow \downarrow (\uparrow) C a p i t a l I n v e s t e d \Rightarrow \uparrow (\downarrow) C a s h I n \Rightarrow \uparrow (\downarrow) C a s h F l o w s \\ \downarrow (\uparrow) \Delta \text {F i n a n c i a l C r e d i t s} \Rightarrow \uparrow (\downarrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \uparrow (\downarrow) \text {C a s h I n} \\ \Rightarrow \uparrow (\downarrow) C a s h F l o w s \\ \end{array}
+\begin{array}{l} \downarrow (\uparrow) \Delta Credits \Rightarrow \downarrow (\uparrow) Capital\ Invested \Rightarrow \uparrow (\downarrow) Cash\ In \Rightarrow \uparrow (\downarrow) Cash\ Flows \\ \downarrow (\uparrow) \Delta \text{Financial\ Credits} \Rightarrow \uparrow (\downarrow) \text{Net\ Financial\ Position} \Rightarrow \uparrow (\downarrow) \text{Cash\ In} \\ \Rightarrow \uparrow (\downarrow) Cash\ Flows \\ \end{array}
 $$
 
 - debt: it is the same for the trade payable, other operating payable, other non-operating payable, financial debts (short and long term). The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \downarrow (\uparrow) \Delta D e b t s \Rightarrow \uparrow (\downarrow) C a p i t a l I n v e s t e d \Rightarrow \downarrow (\uparrow) C a s h I n \Rightarrow \downarrow (\uparrow) C a s h F l o w s \\ \downarrow (\uparrow) \Delta \text {F i n a n c i a l D e b t s} \Rightarrow \downarrow (\uparrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \\ \Rightarrow \downarrow (\uparrow) C a s h F l o w s \\ \end{array}
+\begin{array}{l} \downarrow (\uparrow) \Delta Debts \Rightarrow \uparrow (\downarrow) Capital\ Invested \Rightarrow \downarrow (\uparrow) Cash\ In \Rightarrow \downarrow (\uparrow) Cash\ Flows \\ \downarrow (\uparrow) \Delta \text{Financial\ Debts} \Rightarrow \downarrow (\uparrow) \text{Net\ Financial\ Position} \Rightarrow \downarrow (\uparrow) \text{Cash\ In} \\ \Rightarrow \downarrow (\uparrow) Cash\ Flows \\ \end{array}
 $$
 
 - inventory: it is the same for the inventory and inventory stable over time. The cash-flow movement is the following:
 
 $$
-\downarrow (\uparrow) \Delta I n v e n t o r i e s \Rightarrow \downarrow (\uparrow) C a p i t a l I n v e s t e d \Rightarrow \uparrow (\downarrow) C a s h I n \Rightarrow \uparrow (\downarrow) C a s h F l o w s
+\downarrow (\uparrow) \Delta Inventories \Rightarrow \downarrow (\uparrow) Capital\ Invested \Rightarrow \uparrow (\downarrow) Cash\ In \Rightarrow \uparrow (\downarrow) Cash\ Flows
 $$
 
 - Net Assets: it is the same for the tangible and intangible assets. The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \Delta \left[ \text {N e t A s s e t} _ {t + 1} - \left(\text {N e t A s s e t} _ {t} \pm \text {C h a n g e V a l u e} _ {t + 1} - \text {A m o r t i z a t i o n} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ > 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \\ <   0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h I n} \Rightarrow \uparrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Net\ Asset} _ {t + 1} - \left(\text{Net\ Asset} _ {t} \pm \text{Change\ Value} _ {t + 1} - \text{Amortization} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Flows} = 0 \\ > 0 \Rightarrow \uparrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Out} \Rightarrow \downarrow \text{Cash\ Flows} \\ <   0 \Rightarrow \downarrow \text{Capital\ Invested} \Rightarrow \text{Cash\ In} \Rightarrow \uparrow \text{Cash\ Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Financial Assets: it is the same for the financial assets operating and non-operating. The cash-flow movement is the following:
 
 $$
-\uparrow (\downarrow) \Delta \text {F i n a n c i a l A s s e t} \Rightarrow \uparrow (\downarrow) \text {C a p i t a l I n v e s t e d} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \Rightarrow \downarrow (\uparrow) \text {C a s h F l o w s}
+\uparrow (\downarrow) \Delta \text{Financial\ Asset} \Rightarrow \uparrow (\downarrow) \text{Capital\ Invested} \Rightarrow \downarrow (\uparrow) \text{Cash\ In} \Rightarrow \downarrow (\uparrow) \text{Cash\ Flows}
 $$
 
 It is worth noting that if the increase of financial asset is due to a reassessment of the asset, there is no cash-out but the increase of a reserve in equity. In this case, this reserve is not considered in the determination of dividends. Similarly, if the decrease of financial assets is due to the reduction in value, there is no cash-out but operating no-cash costs. In these cases, the movements of the financial assets can be summarized as follows:
 
 $$
-\begin{array}{l} \Delta \left[ \text {F i n a n c i a l A s s e t} _ {t + 1} - \left(\text {F i n a n c i a l A s s e t} _ {t} \pm \text {C h a n g e V a l u e} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ > 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \\ <   0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h I n} \Rightarrow \uparrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Financial\ Asset} _ {t + 1} - \left(\text{Financial\ Asset} _ {t} \pm \text{Change\ Value} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \uparrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Flows} = 0 \\ > 0 \Rightarrow \uparrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Out} \Rightarrow \downarrow \text{Cash\ Flows} \\ <   0 \Rightarrow \downarrow \text{Capital\ Invested} \Rightarrow \text{Cash\ In} \Rightarrow \uparrow \text{Cash\ Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Provisions: it is the same for provisions for risks and charges, taxes and for employees. The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \Delta \left[ \text {P r o v i s i o n} _ {t + 1} - \left(\text {P r o v i s i o n} _ {t} + \text {A c c r u a l s} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ <   0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Provision} _ {t + 1} - \left(\text{Provision} _ {t} + \text{Accruals} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Flows} = 0 \\ <   0 \Rightarrow \uparrow \text{Capital\ Invested} \Rightarrow \text{Cash\ Out} \Rightarrow \downarrow \text{Cash\ Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Equity: only the changes achieved in monetary terms must be considered. The cash-flow movement is the following:
 
 $$
-\begin{array}{c} \uparrow (\downarrow) \Delta E q u i t y i n m o n e y \Rightarrow \uparrow (\downarrow) C a p i t a l S t r u c t u r e \Rightarrow \uparrow (\downarrow) C a s h I n \Rightarrow \\ \uparrow (\downarrow) C a s h F l o w s \end{array}
+\begin{array}{c} \uparrow (\downarrow) \Delta Equity\ in\ money \Rightarrow \uparrow (\downarrow) Capital\ Structure \Rightarrow \uparrow (\downarrow) Cash\ In \Rightarrow \\ \uparrow (\downarrow) Cash\ Flows \end{array}
 $$
 
 - Liquidity: it is the same for the marketable securities, cash and cash equivalents. The cash-flow movement is the following:
 
 $$
-\begin{array}{c} \uparrow (\downarrow) \Delta \text {L i q u i d i t y} \Rightarrow \downarrow (\uparrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \Rightarrow \\ \downarrow (\uparrow) \text {C a s h F l o w s} \end{array}
+\begin{array}{c} \uparrow (\downarrow) \Delta \text{Liquidity} \Rightarrow \downarrow (\uparrow) \text{Net\ Financial\ Position} \Rightarrow \downarrow (\uparrow) \text{Cash\ In} \Rightarrow \\ \downarrow (\uparrow) \text{Cash\ Flows} \end{array}
 $$
 
 It is important to know that the movements of liquidity, and therefore its effects on Net Financial Position and Free Cash-flow to Equity, refer to the amount of capital that the company wants to invest in Liquidity as measured at the end of the period analysed. Therefore, all movements on liquidity used to balance all other movements on items that generate cash-in and cash-out, they are transitory only.
@@ -723,15 +895,62 @@ The main items that must be investigated are:
 - Free Cash Flow from Operations (FCFO): they are the Free Cash-flows from Operating Area as derived by the company's operating activities and they are designed to pay all investors both in equity and debt. They represent the monetary component of the Operating Income of the company. Therefore, the FCFF is function of the Operating Income (there is no difference between EBITDA and EBIT because the non-monetary costs are not considered) and dynamics in the NWC and CAPEX. They are defined "free" because they represent the cash that the company is free to distribute to debtholders and shareholders and to pay taxes by having already covered the needs for Investments and NWC;
 - Free Cash Flow to Equity (FCFE): they are the remaining free cash flows after having covered all company requirements including payments on debt, and therefore they are designed to pay the shareholders in terms of dividends. They represent the monetary component of the net income of the company. They show how the FCFF's are divided between bondholders, stockholders and taxes. If the FCFE are negative, they represent the company's capital need to continue its business. Therefore, it is the amount of the capital required for recapitalization.
 
-Table 1.5 Analytical scheme for Free Cash-Flow From Operations and Free Cash Flow to Equity
+**Table 1.5 Analytical scheme for Free Cash-Flow From Operations and Free Cash Flow to Equity**
 
-<table><tr><td>EBITDA</td></tr><tr><td>(Increase)/decrease—trade receivables net</td></tr><tr><td>Increase/(decrease)—trade payables</td></tr><tr><td>(Increase)/decrease—trade working capital (TWC)</td></tr><tr><td>(Increase)/decrease—inventory</td></tr><tr><td>(Increase)/decrease—others operating receivables net</td></tr><tr><td>Increase/(decrease) – Others Operating Payables</td></tr><tr><td>(Increase)/decrease—net working capital (NWC)</td></tr><tr><td>(Increase)/decrease—net tangible and intangible operating assets</td></tr><tr><td>(Increase)/decrease—financial operating assets</td></tr><tr><td>(Increase)/decrease—inventory stable over time</td></tr><tr><td>(Increase)/decrease—Capex</td></tr><tr><td>(Decrease)—provisions for employees</td></tr><tr><td>(Decrease)—provision for risk and charges</td></tr><tr><td>(Decrease)—provision for taxes</td></tr><tr><td>(Decrease)—provisions</td></tr><tr><td>(Current operating taxes)</td></tr><tr><td>(Operating taxes)</td></tr><tr><td>Free cash flow from operations (FCFO)</td></tr><tr><td>Increase/(decrease)—share capital in money</td></tr><tr><td>Increase/(decrease)—Equity</td></tr><tr><td>Increase/(decrease)—long-term financial debts</td></tr><tr><td>(Increase)/decrease—long-term financial credits</td></tr><tr><td>Increase/(decrease)—long-term net financial position</td></tr><tr><td>Increase/(decrease)—short-term financial debts</td></tr><tr><td>(Increase)/decrease—short-term financial credits</td></tr><tr><td>(Increase)/decrease—marketable securities</td></tr><tr><td>(Increase)/decrease—cash and cash-equivalents</td></tr><tr><td>Increase/(decrease)—short-term net financial position</td></tr><tr><td>Increase/(decrease)—net financial position (NFP)</td></tr><tr><td>Operating and non-operating financial revenues</td></tr><tr><td>(Interest on debts)</td></tr><tr><td>(Other financial costs)</td></tr><tr><td>Financial profit/(loss)</td></tr><tr><td>Non-operating and non-current operating revenues</td></tr><tr><td>(Non-operating and non-current operating costs)</td></tr><tr><td>Non-operating profit/(loss)</td></tr><tr><td>(Increase)/decrease—net tangible and intangible surplus assets</td></tr><tr><td>(Increase)/decrease—financial surplus assets</td></tr><tr><td>(Increase)/decrease—non-operating and non-current operating receivables</td></tr></table>
+| Item |
+|------|
+| EBITDA |
+| (Increase)/decrease—trade receivables net |
+| Increase/(decrease)—trade payables |
+| (Increase)/decrease—trade working capital (TWC) |
+| (Increase)/decrease—inventory |
+| (Increase)/decrease—others operating receivables net |
+| Increase/(decrease) – Others Operating Payables |
+| (Increase)/decrease—net working capital (NWC) |
+| (Increase)/decrease—net tangible and intangible operating assets |
+| (Increase)/decrease—financial operating assets |
+| (Increase)/decrease—inventory stable over time |
+| (Increase)/decrease—Capex |
+| (Decrease)—provisions for employees |
+| (Decrease)—provision for risk and charges |
+| (Decrease)—provision for taxes |
+| (Decrease)—provisions |
+| (Current operating taxes) |
+| (Operating taxes) |
+| Free cash flow from operations (FCFO) |
+| Increase/(decrease)—share capital in money |
+| Increase/(decrease)—Equity |
+| Increase/(decrease)—long-term financial debts |
+| (Increase)/decrease—long-term financial credits |
+| Increase/(decrease)—long-term net financial position |
+| Increase/(decrease)—short-term financial debts |
+| (Increase)/decrease—short-term financial credits |
+| (Increase)/decrease—marketable securities |
+| (Increase)/decrease—cash and cash-equivalents |
+| Increase/(decrease)—short-term net financial position |
+| Increase/(decrease)—net financial position (NFP) |
+| Operating and non-operating financial revenues |
+| (Interest on debts) |
+| (Other financial costs) |
+| Financial profit/(loss) |
+| Non-operating and non-current operating revenues |
+| (Non-operating and non-current operating costs) |
+| Non-operating profit/(loss) |
+| (Increase)/decrease—net tangible and intangible surplus assets |
+| (Increase)/decrease—financial surplus assets |
+| (Increase)/decrease—non-operating and non-current operating receivables |
 
-(continued)
+**(continued)**
 
-Table 1.5 (continued)
+**Table 1.5 (continued)**
 
-<table><tr><td>Increase/(decrease)—non-operating and non-current operating payables</td></tr><tr><td>(Increase)/decrease—surplus assets</td></tr><tr><td>(Current corporate taxes)</td></tr><tr><td>(Corporate taxes)</td></tr><tr><td>Free cash flow to equity (FCFE)</td></tr></table>
+| Item |
+|------|
+| Increase/(decrease)—non-operating and non-current operating payables |
+| (Increase)/decrease—surplus assets |
+| (Current corporate taxes) |
+| (Corporate taxes) |
+| Free cash flow to equity (FCFE) |
 
 # References
 
@@ -760,7 +979,7 @@ Galeotti M, Garzella S (2013) Governo strategico dell'azienda. Giappichelli, Tor
 Garzella S (2005) Ilsystemad'azienda e la valorizzazione delle "potenzialità inespresse. Giappichelli, Torino
 Garzella S (2006) Il governo delle sinergie. Sistematicità e valore nella gestione dell'azienda. Giappichelli, Torino
 
-Giannesi E (1979) Appunti di economia aziendale. Libreria Scientifica Giordano Pellegrini, Pisa Graham B, Dodd D (1940) Security analysis. McGraw-Hill Book Company Inc., New York
+Giannesi E (1979) Appunti di economia aziendale. Libreria Scientifica Giordano Pellegrini, Pisa. Graham B, Dodd D (1940) Security analysis. McGraw-Hill Book Company Inc., New York
 Grant RM (1991) Contemporary strategy analysis. Concepts, techniques, applications. Blackwell, Oxford
 Hamel G, Prahalad C (1990) The core competence of the corporation. Harvard Bus Rev, 1-15 (May-Giune)
 Harris M, Raviv A (1991) The theory of capital structure. J Financ 1:297-355

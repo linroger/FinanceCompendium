@@ -1,18 +1,39 @@
 ---
 title: Bretton Woods System Analysis
-tags:
-  - monetary_policy
-  - international_finance
-  - fixed_exchange_rates
-  - bretton_woods
-  - macroeconomics
-key_concepts:
-  - gold_dollar_standard
+primary_tags:
+  - bretton_woods_system
   - fixed_exchange_rates
   - monetary_trilemma
   - triffin_dilemma
   - international_monetary_system
-parent_directory: FinanceCompendium
+  - gold_dollar_standard
+  - international_finance
+secondary_tags:
+  - balance_of_payments
+  - foreign_exchange_intervention
+  - capital_controls
+  - international_monetary_fund
+  - reserve_currency
+  - exchange_rate_stability
+  - monetary_policy_autonomy
+  - gold_standard
+  - dollar_hegemony
+  - systemic_risk
+  - currency_crisis
+  - sterilization_policy
+  - capital_mobility
+  - monetary_autonomy
+  - exchange_rate_mechanism
+  - foreign_exchange_reserves
+  - current_account_deficit
+  - international_liquidity
+  - adjustable_peg_system
+  - dollar_convertibility
+  - gold_convertibility
+  - foreign_exchange_market
+  - central_bank_intervention
+  - international_economic_cooperation
+  - post_world_war_ii_economic_order
 cssclasses: academia
 ---
 
@@ -208,3 +229,81 @@ The functioning of the BWS dictated tight causal relationships between internati
 - **Fixed Rates and Interest Rates:** With free capital mobility assumed (even if constrained by controls), the domestic interest rate ($R$) was tethered to the international interest rate ($R^*_{\dollar}$), adjusted for the expected change in the exchange rate. Under the BWS, since the rate was fixed, the expected change was zero, meaning $R = R^*_{\dollar}$. Any attempt by the domestic central bank to set $R$ lower than $R^*_{\dollar}$ would immediately trigger capital outflow, compelling intervention that reversed the initial monetary action.
 - **Money Supply and Reserves:** For non-reserve countries, money supply growth ($M$) was dictated by the external position. Surpluses compelled central banks to buy reserves, increasing $M$; deficits forced them to sell reserves, decreasing $M$. Sterilization temporarily decoupled this relationship but was unsustainable in the long run.
 - **External Wealth and Vulnerability:** Persistent current account deficits, financed by capital inflows, increased a country's external indebtedness (negative external wealth). This accumulation of debt, particularly if denominated in foreign currency (a phenomenon known as "original sin"), left the country acutely vulnerable to capital reversal and crisis-induced devaluations, amplifying debt burdens. A central bank's reserve level (liquid savings) relative to its liabilities (money/debt) became the crucial indicator of its ability to manage external stress.
+
+## D2 Diagrams for Bretton Woods System Visualization
+
+### Bretton Woods System Structure
+```d2
+# Bretton Woods System Architecture
+gold: "Gold (Fixed at $35/oz)"
+dollar: "US Dollar"
+other_currencies: "Other Currencies"
+IMF: "International Monetary Fund"
+
+gold -> dollar: "Fixed Convertibility"
+dollar -> other_currencies: "Fixed Exchange Rates"
+other_currencies -> dollar: "Pegged to Dollar"
+IMF -> other_currencies: "Surveillance & Lending"
+```
+
+### The Monetary Trilemma
+```d2
+# The Impossible Trinity / Monetary Trilemma
+fixed_exchange_rates: "Fixed Exchange Rates"
+monetary_autonomy: "Monetary Policy Autonomy"
+capital_mobility: "Capital Mobility"
+
+fixed_exchange_rates <-> monetary_autonomy: "Conflict"
+monetary_autonomy <-> capital_mobility: "Conflict"
+fixed_exchange_rates <-> capital_mobility: "Conflict"
+
+note: "Choose only 2 of 3"
+note -> fixed_exchange_rates
+note -> monetary_autonomy
+note -> capital_mobility
+```
+
+### Capital Flow Response Mechanism
+```d2
+# Capital Flow Response Under Bretton Woods
+capital_inflow: "Capital Inflow"
+currency_appreciation: "Currency Appreciation Pressure"
+central_bank_intervention: "Central Bank Intervention"
+money_supply_expansion: "Money Supply Expansion"
+inflation: "Inflationary Pressure"
+
+capital_inflow -> currency_appreciation
+currency_appreciation -> central_bank_intervention
+central_bank_intervention -> money_supply_expansion
+money_supply_expansion -> inflation
+
+capital_outflow: "Capital Outflow"
+currency_depreciation: "Currency Depreciation Pressure"
+outflow_intervention: "Central Bank Intervention"
+money_supply_contraction: "Money Supply Contraction"
+deflation: "Deflationary Pressure"
+
+capital_outflow -> currency_depreciation
+currency_depreciation -> outflow_intervention
+outflow_intervention -> money_supply_contraction
+money_supply_contraction -> deflation
+```
+
+### Triffin Dilemma
+```d2
+# The Triffin Dilemma
+global_trade_growth: "Global Trade Growth"
+dollar_demand: "Demand for Dollars"
+us_deficit: "US Balance of Payments Deficit"
+dollar_supply: "Dollar Supply Abroad"
+gold_reserves: "US Gold Reserves"
+confidence_decline: "Declining Confidence"
+dollar_crisis: "Dollar Convertibility Crisis"
+
+global_trade_growth -> dollar_demand
+dollar_demand -> us_deficit
+us_deficit -> dollar_supply
+dollar_supply -> confidence_decline
+gold_reserves -> confidence_decline
+confidence_decline -> dollar_crisis
+```

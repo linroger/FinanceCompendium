@@ -1,24 +1,28 @@
 ---
 title: MGM Mirage 7.625% Senior Notes Due 2017 - Prospectus Supplement
-tags:
-  - corporate_bond_offering
-  - senior_notes
-  - prospectus_supplement
-  - debt_securities
-  - gaming_industry
-  - mgm_mirage
-  - fixed_income
-  - indenture_agreement
-  - underwriting
-  - debt_covenant
-  - fraudulent_conveyance
-  - book_entry_securities
-key_concepts:
-  - corporate_bond_prospectus
-  - senior_note_issuance
-  - gaming_industry_financing
-  - debt_instrument_terms
-parent_directory: III. Markets and Institutions
+primary_tags:
+  - corporate bond offering
+  - senior note issuance
+  - gaming industry financing
+  - debt securities prospectus
+  - bond indenture agreement
+  - underwriting arrangement
+secondary_tags:
+  - mgm mirage debt financing
+  - fixed income securities
+  - debt covenant restrictions
+  - fraudulent conveyance protection
+  - book entry securities
+  - subsidiary guarantees
+  - optional redemption provisions
+  - gaming regulatory compliance
+  - use of proceeds
+  - risk factors
+  - earnings to fixed charges ratio
+  - legal matters
+  - securities registration
+  - shelf registration statement
+  - debt capitalization
 cssclasses: academia
 ---
 
@@ -130,7 +134,7 @@ The following is a brief summary of some of the terms of the offering. For a mor
 | Guarantees | The notes will be unconditionally guaranteed, jointly and severally, on a senior basis by substantially all of our wholly owned U.S. subsidiaries except for U.S. holding companies of our foreign subsidiaries. |
 | Ranking | The notes and guarantees will be general unsecured senior obligations of MGM MIRAGE and each guarantor, respectively, and will rank equally with or senior to all existing or future indebtedness of MGM MIRAGE and each guarantor, respectively. See "Description of the Notes — Ranking." |
 | Optional redemption | We may redeem the notes in whole or in part at any time prior to their maturity at the redemption price described in the section "Description of the Notes — Optional Redemption." |
-| Covenants | The indenture contains covenants that, among other things, will limit our ability and, in certain instances, the ability of our subsidiaries to: • incur liens on assets to secure debt; • enter into certain sale and lease–back transactions; and • merge or consolidate with another company or sell substantially all assets. |
+| Covenants | The indenture contains covenants that, among other things, will limit our ability and, in certain instances, the ability of our subsidiaries to: - incur liens on assets to secure debt; - enter into certain sale and lease–back transactions; and - merge or consolidate with another company or sell substantially all assets. |
 | | These covenants are subject to a number of important qualifications and exceptions. See "Description of the Notes — Additional Covenants of MGM MIRAGE." |
 | Use of proceeds | We estimate that the net proceeds from this offering will be approximately $746 million. We intend to use the proceeds to repay a portion of the outstanding amount under our $7.0 billion senior credit facility and for general corporate purposes. |
 | Risk factors | See "Risk Factors" and the other information in this prospectus supplement for a discussion of the factors you should carefully consider before deciding to invest in the notes. |
@@ -371,7 +375,7 @@ Events of default in respect of the notes means any of the following:
 
 - default in the payment of any interest upon any notes when it becomes due and payable, and continuance of such default for a period of 30 days;
 - default in the payment of principal of or premium, if any, on any notes when due;
-- the acceleration of the maturity of any Indebtedness of MGM MIRAGE or any Subsidiary Guarantor (other than Non-recourse Indebtedness), at any one time, in an amount in excess of the greater of (a) $25 million and (b) 5% of Consolidated Net Tangible Assets, if such acceleration is not annulled within 30 days after written notice as provided in the indenture;
+- the acceleration of the maturity of any Indebtedness of MGM MIRAGE or any Subsidiary Guarantor (other than Non-recourse Indebtedness), at any one time, in an amount in excess of the greater of (a) $25 million and (b) 5\% of Consolidated Net Tangible Assets, if such acceleration is not annulled within 30 days after written notice as provided in the indenture;
 - entry of final judgments against MGM MIRAGE or any Subsidiary Guarantor which remain undischarged for a period of 60 days, provided that the aggregate of all such judgments exceeds $25 million and judgments exceeding $25 million remain undischarged for 60 days after notice as provided in the indenture;
 - default in the performance, or breach, of any covenants or warranties in the indenture in respect of the notes if the default continues uncured for a period of 60 days after written notice to us by the trustee or to us and the trustee by the holders of at least 25% in principal amount of the outstanding notes as provided in the indenture; or
 - certain events of bankruptcy, insolvency or reorganization.

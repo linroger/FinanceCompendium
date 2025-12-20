@@ -1,8 +1,13 @@
 ---
 title: Technical Note 11 - The Manipulation of Credit Transition Matrices
-tags: [credit_rating, transition_matrix, eigenvalues, generator_matrix]
-key_concepts: [Credit transition matrices, Matrix manipulation, Eigenvalue decomposition, Generator matrices]
-parent_directory: Technical Notes from Options, Futures, and Other Derivatives
+primary_tags:
+  - credit transition matrices
+  - matrix eigenvalue decomposition
+  - generator matrix method
+secondary_tags:
+  - credit rating changes
+  - matrix powers
+  - jarrow lando turnbull model
 cssclasses: academia
 ---
 
@@ -28,16 +33,73 @@ $$
 \mathbf{A} = \mathbf{X} \boldsymbol{\Lambda} \mathbf{X}^{-1}
 $$
 
-From this it is easy to see that the nth root of $A$ is
+From this it is easy to see that the $n$th root of $\mathbf{A}$ is
 
 $$
 \mathbf{X} \boldsymbol{\Lambda}^{*} \mathbf{X}^{-1}
 $$
 
-where $\Lambda^{*}$ is a diagonal matrix where the $i$th diagonal element is $\lambda_i^{1/n}$.
+where $\boldsymbol{\Lambda}^{*}$ is a diagonal matrix where the $i$th diagonal element is $\lambda_i^{1/n}$.
 
 Some authors such as Jarrow, Lando, and Turnbull prefer to handle this problem in terms of what is termed a generator matrix. This is a matrix $\Gamma$ such that the transition matrix for a short period of time $\Delta t$ is $\mathbf{1} + \Gamma \Delta t$ and the transition matrix for longer period of time, $t$, is
 
 $$
 \exp(t\Gamma) = \sum_{k=0}^{\infty} \frac{(t\Gamma)^k}{k!}
 $$
+
+```d2
+direction: right
+classes: {
+  process: {
+    style: {
+      border-radius: 5
+      fill: "#f0f0f0"
+      stroke: "#333"
+    }
+  }
+  math: {
+    shape: parallelogram
+    style: {
+      fill: "#e1f5fe"
+    }
+  }
+}
+
+matrix_a: Transition Matrix A {
+  class: math
+  tooltip: Annual credit rating changes
+}
+
+eigen_decomp: Eigenvalue Decomposition {
+  class: process
+  tooltip: A = X Λ X⁻¹
+}
+
+time_scaling: Scale Time Period {
+  class: process
+  label: "Calculate nth root\n(Λ* where λ_i = λ_i^(1/n))"
+}
+
+result_matrix: Short-Term Matrix {
+  class: math
+  tooltip: A^(1/n)
+}
+
+generator: Generator Matrix Γ {
+  class: math
+  tooltip: Continuous time limit
+}
+
+exp_map: Matrix Exponential {
+  class: process
+  label: "exp(tΓ)"
+}
+
+matrix_a -> eigen_decomp
+eigen_decomp -> time_scaling
+time_scaling -> result_matrix
+
+matrix_a -> generator: "Logarithm (approx)"
+generator -> exp_map
+exp_map -> result_matrix: "Arbitrary time t"
+```

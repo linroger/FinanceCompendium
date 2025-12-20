@@ -1,9 +1,38 @@
 ---
+title: Corporate Debt Markets
+primary_tags:
+  - corporate debt markets
+  - bank loans
+  - corporate bonds
+  - high yield bonds
+  - leveraged loans
+  - medium term notes
+  - lease financing
+  - bankruptcy law
+secondary_tags:
+  - syndicated bank loans
+  - bond indenture
+  - convertible bonds
+  - floating rate securities
+  - zero coupon bonds
+  - credit risk
+  - default rates
+  - recovery rates
+  - eurobond market
+  - asian corporate bonds
+  - electronic bond trading
+  - structured notes
+  - equipment trust certificates
+  - collateral trust bonds
+  - debenture bonds
+  - call provisions
+  - sinking fund provisions
+  - payment in kind bonds
+  - leveraged buyout financing
+  - absolute priority rule
+  - chapter 11 bankruptcy
+  - chapter 7 bankruptcy
 cssclasses: academia
-title: Chapter 26 - Corporate Debt Markets
-tags: [corporate_bonds, bank_loans, debt_markets, high_yield_bonds, leveraged_loans, medium_term_notes, lease_financing, insolvency_law]
-key_concepts: [corporate_borrowing_alternatives, credit_risk_types, bond_features, high_yield_bonds, leveraged_loans, mtns, lease_financing, bankruptcy_proceedings]
-parent_directory: Foundations of Global Financial Markets
 ---
 
 # Chapter 26 - Corporate Debt Markets
@@ -14,9 +43,9 @@ parent_directory: Foundations of Global Financial Markets
 
 ## Bank Loans
 
-### ### Syndicated Bank Loans
+### 
 
-#### #### Secondary Market for Syndicated Bank Loans
+#### 
 
 ## Corporate Bonds
 
@@ -78,8 +107,6 @@ parent_directory: Foundations of Global Financial Markets
 
 ## Key Points
 
-## Questions
-
 Corporate debt obligations include six financial instruments: (1) commercial paper, (2) bank loans market, (3) bonds, (4) medium-term notes, (5) asset-backed securities, and (6) equipment leases. Our focus in this chapter is on the bank loans, bonds, and medium-term notes. Commercial paper was covered in chapter 25, and asset-backed securities will be covered in chapter 27. At the end of this chapter, we discuss the bankruptcy or insolvency laws as they relate to corporate creditors.
 
 ## Bank Loans
@@ -92,7 +119,7 @@ The market classifies bank loans to corporate borrowers into two categories: inv
 
 In contrast, a leveraged loan is a bank loan to a corporation that has a below-investment-grade rating. A leveraged loan has a maturity and the interest rate is floating, the reference rate being the $\text{LIBOR}$. In fact, when market participants refer to corporate bank loans, they typically mean a leveraged loan. These loans can be sold to institutional investors. In the next section, we discuss a corporate bond issued by corporations with a below-investment-grade rating called a "high-yield bond." A corporation may have as its debt obligations both leveraged loans and high-yield bonds. Later in this chapter, we discuss the difference between a leveraged loan and a high-yield bond.
 
-Syndicated Bank Loans
+### Syndicated Bank Loans
 
 A syndicated bank loan is one in which a group (or syndicate) of banks provides funds to the borrower. Roughly \$2.5 trillion of financing to U.S. companies is provided by syndicated loans, with the size of a syndicated loan ranging from \$20 million to more than 2 billion. Consequently, the need for a group of banks arises, because the amount sought by a borrower might be too large for any one bank to be exposed to the borrower's credit risk. Therefore, the syndicated bank loan is used by borrowers who seek to raise a large amount of funds in the bank loan market rather than through the issuance of securities.
 
@@ -106,7 +133,7 @@ Syndicated loans are distributed by two methods: assignment or participation. Ea
 
 In response to the large number of bank loans issued and their strong credit protection, some commercial banks and securities houses are more willing to commit capital and resources to facilitate trading as broker-dealers. Also, these senior bank loans can be securitized through the same innovations discussed in chapter 27 for the securitization of loans and discussed further in chapter 39. Further development of the senior bank loan market will no doubt eventually erode the once-important distinction between a security and a loan: A security has long been seen as a marketable financial asset, whereas a loan has not been marketable. Interestingly, the trading of these loans is not limited to performing loans, which are loans whose borrowers are fulfilling contractual commitments. A market also exists for trading nonperforming loans—loans on which the borrowers have defaulted.
 
-Secondary Market for Syndicated Bank Loans
+#### Secondary Market for Syndicated Bank Loans
 
 Syndicated bank loans can be traded in the secondary market or securitized to create collateralized loan obligations using the securitization technology that is discussed in chapter 27. The trade association that has been the main advocate of commercial loans as an asset class is the Loan Syndications and Trading Association (LSTA). The LSTA has helped foster the development of a liquid and transparent secondary market for bank loans by establishing market practices and settlement and operational procedures. The LSTA collects quotations on U.S. loans on a daily basis.
 
@@ -422,7 +449,8 @@ Fabozzi, Howe, Makabe, and Sudo examined the extent of violation of the absolute
 - Another difference between corporate bonds and MTNs when they are offered is that MTNs are usually sold in relatively small amounts on a continuous or an intermittent basis, whereas corporate bonds are sold in large, discrete offerings.
 - In the United States, a corporation that wants an MTN program will file a shelf registration with the SEC for the offering of securities.
 - Issuers of MTNs often couple their offerings with transactions in the derivative markets (options, futures/forward contracts, swaps, caps, and floors) so as to create debt obligations with more attractive risk/return features than are available in the corporate bond market; such MTNs are referred to as "structured MTNs."
-Leasing is a form of bank borrowing that is basically a vehicle by which tax benefits can be transferred from the user of the equipment (the lessee), who may not have the capacity to utilize the tax benefits associated with equipment ownership, to another entity that can utilize them.
+
+- Leasing is a form of bank borrowing that is basically a vehicle by which tax benefits can be transferred from the user of the equipment (the lessee), who may not have the capacity to utilize the tax benefits associated with equipment ownership, to another entity that can utilize them.
 - A single-investor lease is a two-party agreement involving the lessee and the lessor.
 - In a leveraged lease, the lessor uses only a portion of its own funds to purchase the equipment and borrows the balance from a bank or group of banks.
 - Insolvency or bankruptcy laws deal with (1) who can file for bankruptcy, (2) the weight that the courts will give to creditors, equity investors, and other stakeholders in a bankruptcy proceeding, (3) whether management will be permitted to continue to manage the enterprise, (4) the type of bankruptcy arrangement permitted (liquidation or reorganization), and (5) whether there will be an automatic injunction that prevents creditors from recovering their debt when a company files for bankruptcy.

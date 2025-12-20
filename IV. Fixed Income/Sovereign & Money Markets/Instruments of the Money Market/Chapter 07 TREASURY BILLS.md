@@ -1,41 +1,159 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Treasury Bills - Characteristics and Market Structure
+primary_tags:
+  - treasury bills
+  - money market instruments
+  - government securities
+  - auction procedures
+  - yield calculations
+secondary_tags:
+  - default risk
+  - tax exempt status
+  - bid asked spread
+  - term premium
+  - primary dealers
+  - secondary market
+  - cash management bills
+  - competitive bidding
+  - noncompetitive bidding
+  - when issued trading
+  - yield spreads
+  - liquidity
 cssclasses: academia
-title: Chapter 7 TREASURY BILLS
-linter-yaml-title-alias: Chapter 7 TREASURY BILLS
 ---
 
-# Chapter 7 TREASURY BILLS
+# Treasury Bills - Characteristics and Market Structure
 
 Timothy Q. Cook
 
+## Treasury Bills Overview
+
+```d2
+# Treasury Bills Structure and Features
+direction: down
+
+# Main concept
+treasury_bills: Treasury Bills {
+  style.fill: "#4a90e2"
+  style.stroke: "#2e5c8a"
+  style.font-color: white
+  style.border-radius: 8
+}
+
+# Key characteristics
+characteristics: Investment Characteristics {
+  style.fill: "#f5f5f5"
+  style.stroke: "#9e9e9e"
+  style.border-radius: 8
+}
+
+# Four main features
+default_risk: Default Risk Free {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+  style.border-radius: 6
+}
+
+liquidity: High Liquidity {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+  style.border-radius: 6
+}
+
+tax_status: Tax Exempt Status {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+  style.border-radius: 6
+}
+
+low_min: Low Minimum Denomination {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+  style.border-radius: 6
+}
+
+# Auction process
+auction_process: Auction Process {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+  style.border-radius: 8
+}
+
+competitive: Competitive Bidding {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+  style.border-radius: 6
+}
+
+noncompetitive: Non-competitive Bidding {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+  style.border-radius: 6
+}
+
+# Maturities
+maturities: Bill Maturities {
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+  style.border-radius: 8
+}
+
+three_month: 3-Month Bills {
+  style.fill: "#e0e0e0"
+  style.border-radius: 6
+}
+
+six_month: 6-Month Bills {
+  style.fill: "#e0e0e0"
+  style.border-radius: 6
+}
+
+one_year: 1-Year Bills {
+  style.fill: "#e0e0e0"
+  style.border-radius: 6
+}
+
+# Relationships
+treasury_bills -> characteristics: has
+characteristics -> default_risk: "1"
+characteristics -> liquidity: "2"
+characteristics -> tax_status: "3"
+characteristics -> low_min: "4"
+
+treasury_bills -> auction_process: sold_via
+auction_process -> competitive: "competitive"
+auction_process -> noncompetitive: "non-competitive"
+
+treasury_bills -> maturities: available_in
+maturities -> three_month: "3-month"
+maturities -> six_month: "6-month"
+maturities -> one_year: "1-year"
+```
+
 Treasury bills are short-term securities issued by the U.S. Treasury. The Treasury sells bills at regularly scheduled auctions to refinance maturing issues and to help finance current federal deficits. It also sells bills on an irregular basis to smooth out the uneven flow of revenues from corporate and individual tax receipts. Persistent federal deficits have resulted in rapid growth in Treasury bills in recent years. At the end of 1992 the outstanding volume was \$658 billion, the largest for any money market instrument.
 
-# TREASURY BILL ISSUES
+## TREASURY BILL ISSUES
 
-Treasury bills were first authorized by Congress in 1929. After experimenting with a number of bill maturities, the Treasury in 1937 settled on the exclusive issue of three-month bills. In December 1958 these were supplemented with six-month bills in the regular weekly auctions. In 1959 the Treasury began to auction one-year bills on a quarterly basis. The quarterly auction of one-year bills was replaced in August 1963 by an auction occurring every four weeks. The Treasury in September 1966 added a nine-month maturity to the auction occurring every four weeks but the sale of this maturity was discontinued in late 1972. Since then, the only regular bill offerings have been the offerings of threeand six-month bills every week and the offerings of one-year bills every four weeks. The Treasury has increased the size of its auctions as new money has been needed to meet enlarged federal borrowing requirements. In 1992 the weekly auctions of threeand six-month bills both ranged from  \$10.2 billion to\$ 12.5 billion, and the four-week auctions of one-year bills ranged from \$12.8 billion to \$15.0 billion.
+Treasury bills were first authorized by Congress in 1929. After experimenting with a number of bill maturities, the Treasury in 1937 settled on the exclusive issue of three-month bills. In December 1958 these were supplemented with six-month bills in the regular weekly auctions. In 1959 the Treasury began to auction one-year bills on a quarterly basis. The quarterly auction of one-year bills was replaced in August 1963 by an auction occurring every four weeks. The Treasury in September 1966 added a nine-month maturity to the auction occurring every four weeks but the sale of this maturity was discontinued in late 1972. Since then, the only regular bill offerings have been the offerings of three- and six-month bills every week and the offerings of one-year bills every four weeks. The Treasury has increased the size of its auctions as new money has been needed to meet enlarged federal borrowing requirements. In 1992 the weekly auctions of three- and six-month bills both ranged from  \$10.2 billion to \$12.5 billion, and the four-week auctions of one-year bills ranged from \$12.8 billion to \$15.0 billion.
 
 In addition to its regularly scheduled sales, the Treasury raises money on an irregular basis through the sale of cash management bills, which are usually "reopenings" or sales of bills that mature on the same date as an outstanding issue of bills. $^{1}$  Cash management bills are designed to bridge low points in the
 
 Treasury's cash balances. Many cash management bills help finance the Treasury's requirements until tax payments are received. For this reason they frequently have maturities that fall after one of the five major federal tax dates. Sixty issues of cash management bills were sold in the decade from 1983 through 1992. Of these, 29 had maturities of less than one month, 21 had maturities between one month and three months, and 10 had maturities between three months and one year.
 
-Auctioning New Bills Weekly offerings of threeand six-month Treasury bills are typically announced on Tuesday. The auction is usually conducted on the following Monday, with delivery and payment on the following Thursday. Bids, or tenders, in the weekly auctions must be presented at Federal Reserve Banks or their branches, which act as agents for the Treasury, by 1:00 p.m. New York time on the day of the auction.2 Bids may be made on a competitive or noncompetitive basis. Competitive bids are generally made by large investors who are in close contact with the market. In making a competitive bid the investor states the quantity of bills he desires and the price he is willing to pay per \(100 of face value. He may enter more than one bid indicating the various quantities he is willing to take at different prices. Since September 1981 the Treasury has set a limit of 35 percent on the amount of any security offering awarded to a single bidder, and since July 1990 it has also set a 35 percent limit on the amount of bids tendered at any one yield by a single bidder.
+Auctioning New Bills Weekly offerings of three- and six-month Treasury bills are typically announced on Tuesday. The auction is usually conducted on the following Monday, with delivery and payment on the following Thursday. Bids, or tenders, in the weekly auctions must be presented at Federal Reserve Banks or their branches, which act as agents for the Treasury, by 1:00 p.m. New York time on the day of the auction.2 Bids may be made on a competitive or noncompetitive basis. Competitive bids are generally made by large investors who are in close contact with the market. In making a competitive bid the investor states the quantity of bills he desires and the price he is willing to pay per \$100 of face value. He may enter more than one bid indicating the various quantities he is willing to take at different prices. Since September 1981 the Treasury has set a limit of 35 percent on the amount of any security offering awarded to a single bidder, and since July 1990 it has also set a 35 percent limit on the amount of bids tendered at any one yield by a single bidder.
 
-In making a noncompetitive bid the investor indicates the quantity of bills desired and agrees to pay the weighted-average price of accepted competitive bids. Individuals and other small investors usually enter noncompetitive bids, which are limited to \(1 million for each new offering of threeand six-month bills. In recent years the dollar amount of noncompetitive awards as a percent of total awards has generally ranged from 10 to 25 percent of the total auction amount. As shown in Figure 1, the percent awarded to noncompetitive bids typically rises in periods of high interest rates. (A reason for this is suggested below.)
+In making a noncompetitive bid the investor indicates the quantity of bills desired and agrees to pay the weighted-average price of accepted competitive bids. Individuals and other small investors usually enter noncompetitive bids, which are limited to \$1 million for each new offering of three- and six-month bills. In recent years the dollar amount of noncompetitive awards as a percent of total awards has generally ranged from 10 to 25 percent of the total auction amount. As shown in Figure 1, the percent awarded to noncompetitive bids typically rises in periods of high interest rates. (A reason for this is suggested below.)
 
 After subscription books at the various Federal Reserve Banks and branches are closed at 1:00 p.m., the bids are tabulated and submitted to the Treasury for allocation. The Treasury first allocates whatever part of the total offering is needed to fill all the noncompetitive bids. The remainder is then allocated to those competitive bidders submitting the highest bids, ranging downward from the highest bid until the total amount offered is allocated. The "stop-out price" is the lowest price, or highest yield, at which bills are awarded. Usually only a portion of the total bids made at this price is accepted. The average issuing price is then computed as a weighted average of the competitive bids accepted.
 
-# FIGURE 1
+### FIGURE 1
 
-# Noncompetitive Bids at Weekly Auction
+### Noncompetitive Bids at Weekly Auction
 
-# Compared to Level of Rates
+### Compared to Level of Rates
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/fd69b840e13426d9ef856083226d8f1c43a6ce5a6926e6292a378253c8d41669.jpg)  
-Note: Monthly data are averages of weekly figures.  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/fd69b840e13426d9ef856083226d8f1c43a6ce5a6926e6292a378253c8d41669.jpg)
+Note: Monthly data are averages of weekly figures.
 Source: Treasury Bulletin; Federal Reserve Bulletin.
 
 In the weekly auction of March 9, 1992, for example, accepted bids for the three-month bills ranged from a high of \(98.989 per \)100 of face amount (equivalent to an annual rate of return on a discount basis of 4.00 percent) to a stop-out price of \)98.984 (4.02 percent). Accepted bids for the six-month bills ranged from \(97.917 (4.12 percent) to \)97.907 (4.14 percent). Twelve percent of the total of \$22.9 billion of bills awarded at this auction was purchased on a noncompetitive basis at the average issuing prices. This relatively small proportion was typical given the low level of interest rates prevailing at the time of the auction.
@@ -56,7 +174,7 @@ The Joint Report also recommended that following the completion of automation th
 
 Many analysts have argued that moving to a uniform (or "single") price auction is the most important reform the Treasury could make in its auction procedures. They reason that a single price auction reduces the potential risk faced by uninformed or aggressive bidders of bidding too high a price (the so-called winner's curse). Hence, they argue, the average bid in single price auctions would be higher than under the current auction procedure and the average revenue received by the Treasury would be greater. To test this theory the Treasury in September 1992 began a year-long experiment in which it used single price auctions to sell monthly new issues of two-year and five-year notes. These auctions—like regular Treasury auctions—allocated securities to investors making the highest bids, ranging downward from the highest bid to lower bids until all an issue was allocated. The only difference was that the winning bidders all paid the same price, which was the price offered by the lowest bidder to whom securities were allocated. (Vogel [1993] provides an early evaluation of the auction procedure.)
 
-# INVESTMENT CHARACTERISTICS
+## INVESTMENT CHARACTERISTICS
 
 Four investment characteristics of Treasury bills distinguish them from other money market instruments.
 
@@ -71,7 +189,7 @@ Liquidity A second characteristic of bills is their high degree of liquidity, wh
 Taxes Unlike other money market instruments, the income earned on Treasury bills is exempt from all state and local income taxes. The relationship between, say, the CD rate (RCD) and the bill rate (RTB) that leaves an investor with state income tax rate  $t$  indifferent between the two, other considerations aside, is
 
 $$
-R C D (1 - t) = R T B.
+RCD(1 - t) = RTB.
 $$
 
 From this formula it can be seen that the advantage of the tax-exempt feature for a particular investor depends on (1) the current level of interest rates and (2) the investor's state and local tax rate. For an investor to remain indifferent between bills and CDs, the before-tax yield differential  $(RCD - RTB)$  must rise if the level of interest rates rises or if the investor's tax rate increases. For example, the interest rate differential at which an investor subject to a marginal state tax rate of
@@ -80,9 +198,9 @@ From this formula it can be seen that the advantage of the tax-exempt feature fo
 
 This characteristic of bills is relevant only for some investors. Other investors, such as state and local governments, are not subject to state income taxes. Still other investors, such as commercial banks in many states, pay a "franchise" or "excise" tax that in fact requires them to pay state taxes on interest income from Treasury bills.[4]
 
-Minimum Denomination A fourth investment characteristic of Treasury bills is their relatively low minimum denomination. Prior to 1970, the minimum denomination of bills was  \$1,000. In early 1970 the Treasury raised the minimum denomination from$ 1,000 to $10,000. The Treasury made this change in order to discourage noncompetitive bids by small investors, reduce the costs of processing many small subscriptions yielding only a small volume of funds, and discourage the exodus of funds from financial intermediaries and the mortgage market. Despite the increase in the minimum denomination of bills, investors continued to shift substantial amounts of funds out of deposit institutions into the bill market in periods of high interest rates such as 1973 and 1974. Even at \$10,000 the minimum denomination of Treasury bills is far below the minimum denomination required to purchase other short-term securities, with the exception of some government-sponsored enterprise and municipal securities. Typically, it takes at least \$100,000 to purchase money market instruments such as CDs or commercial paper.
+Minimum Denomination A fourth investment characteristic of Treasury bills is their relatively low minimum denomination. Prior to 1970, the minimum denomination of bills was  \$1,000. In early 1970 the Treasury raised the minimum denomination from \$1,000 to \$10,000. The Treasury made this change in order to discourage noncompetitive bids by small investors, reduce the costs of processing many small subscriptions yielding only a small volume of funds, and discourage the exodus of funds from financial intermediaries and the mortgage market. Despite the increase in the minimum denomination of bills, investors continued to shift substantial amounts of funds out of deposit institutions into the bill market in periods of high interest rates such as 1973 and 1974. Even at \$10,000 the minimum denomination of Treasury bills is far below the minimum denomination required to purchase other short-term securities, with the exception of some government-sponsored enterprise and municipal securities. Typically, it takes at least \$100,000 to purchase money market instruments such as CDs or commercial paper.
 
-# INVESTORS
+## INVESTORS
 
 Because of their unique investment characteristics Treasury bills are held by a wide variety of investors. Available information suggests that individuals, commercial banks, the Federal Reserve, money market mutual funds, and foreigners are among the largest investors in bills. Other investors in Treasury bills are nonbank financial institutions, nonfinancial corporations, and state and local governments.
 
@@ -98,29 +216,29 @@ Money market mutual funds held  \$47 billion of Treasury bills at year-end 1992,
 
 According to Treasury Department estimates, at the end of 1992 foreigners held  \$126 billion of Treasury bills (including some nonmarketable certificates of indebtedness),\$ 105 billion of which was held by foreign official institutions.
 
-# FIGURE 2
+### FIGURE 2
 
-# The Spread Between the Three-Month CD
+### The Spread Between the Three-Month CD
 
-# and Treasury Bill Rates
+### and Treasury Bill Rates
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/77bf2c2696e0e1fa222d044c0da60ba7c9f204f90cc4b646cfe3ba331709f9c1.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/77bf2c2696e0e1fa222d044c0da60ba7c9f204f90cc4b646cfe3ba331709f9c1.jpg)
 Source: Board of Governors of the Federal Reserve System.
 
-The holdings of bills by foreign official institutions are heavily influenced by their activities in the foreign exchange markets. From 1986 through 1988, for example, these institutions were buying dollars in an attempt to limit the dollar's depreciation over this period, and as a result their holdings of bills rose sharply from  \$53 billion in December 1985 to\$ 104 billion in December 1988.
+The holdings of bills by foreign official institutions are heavily influenced by their activities in the foreign exchange markets. From 1986 through 1988, for example, these institutions were buying dollars in an attempt to limit the dollar's depreciation over this period, and as a result their holdings of bills rose sharply from  \$53 billion in December 1985 to \$104 billion in December 1988.
 
-# YIELDS
+## YIELDS
 
-Yield Calculation Treasury bill yields are generally quoted on a discount basis using a 360-day year. The yield on a discount basis is calculated by dividing the discount (the difference between the face value of the bill and its purchase price) by the face value and expressing this percentage at an annual rate, using a 360-day year. For example, in the weekly auction of March 9, 1992, discussed above, an average price of  $97.912 per$ 100 of face amount for a six-month (182-day) bill produced an annual rate of return on a discount basis of
+Yield Calculation Treasury bill yields are generally quoted on a discount basis using a 360-day year. The yield on a discount basis is calculated by dividing the discount (the difference between the face value of the bill and its purchase price) by the face value and expressing this percentage at an annual rate, using a 360-day year. For example, in the weekly auction of March 9, 1992, discussed above, an average price of  \$97.912 per \$100 of face amount for a six-month (182-day) bill produced an annual rate of return on a discount basis of
 
 $$
-(100 - 97.912 / 100) \times (360 / 182) = 4.13 \%
+\frac{(100 - 97.912)}{100} \times \frac{360}{182} = 4.13\%
 $$
 
 To calculate the true yield of a Treasury bill for comparison with other money market yields, the discount must be divided by the price and a 365-day year used. In the above example the true yield is<sup>5</sup>
 
 $$
-(100 - 97.912 / 97.912) \times (365 / 182) = 4.28 \%
+\frac{(100 - 97.912)}{97.912} \times \frac{365}{182} = 4.28\%
 $$
 
 As this example illustrates, the yield calculated on a discount basis understates the true yield of a Treasury bill.<sup>6</sup> The difference between the two yields is greater the longer the maturity of the bill and the higher the level of interest rates.
@@ -131,12 +249,10 @@ The most common explanation of the spread between Treasury bill and other money 
 
 where  $t$  is days to maturity and the interest rates are expressed in decimal form.
 
-Another possible factor influencing the spread between the bill rate and other short-term rates is the exemption of Treasury bills from state and local income tax. As noted above, the higher the level of interest rates the wider the spread between bill rates and other short-term rates that is necessary to leave an investor with a given state income tax rate indifferent between bills and other money market instruments. Consequently, as interest rates rise, this tax feature of bills induces some investors to increase their purchases of bills, thereby putting upward pressure on the spread between bill rates and other rates. Evidence in favor of this effect is that the spread typically rises in high interest rate periods and falls in low interest rate periods.
-
-This is not to say that the tax-exempt feature of bills must cause the spread to rise with the level of interest rates. As noted above, many investors in the bill market are not subject to state and local income taxes. If, however, investors subject to state income tax rate  $t$  dominate the bill market, then the observed relationship between the CD rate (RCD) and the bill rate (RTB)—taking default risk into account—will be:
+Another possible factor influencing the spread between the bill rate and other short-term rates is the exemption of Treasury bills from state and local income tax. As noted above, the higher the level of interest rates the wider the spread between bill rates and other short-term rates that is necessary to leave an investor with a given state income tax rate indifferent must cause the spread to rise with the level of interest rates. As noted above, many investors in the bill market are not subject to state and local income taxes. If, however, investors subject to state income tax rate  $t$  dominate the bill market, then the observed relationship between the CD rate (RCD) and the bill rate (RTB)—taking default risk into account—will be:
 
 $$
-R C D (1 - t) = R T B + \text{De fa ul tR is kP re mi um}.
+RCD(1 - t) = RTB + \text{Default Risk Premium}.
 $$
 
 One study (Cook and Lawler 1983) using data from 1979 through mid-1983, when the spread between the CD and Treasury bill rates was particularly volatile, found that the simple model represented by the equation above did a good job of explaining the spread in that period. This study estimated that the average value of  $t$  over that period was in the neighborhood of 8 percent, which is well within the range of state individual income tax rates on interest income. Another study (Simon 1992) using data from 1980 through 1991 estimated a value of  $t$  of 7 percent.
@@ -151,7 +267,7 @@ The most common explanation for the term premium in the bill market is that inve
 
 Special Factors Affecting Individual Bill Yields It is widely believed in the financial markets that a shortage or abundance of a particular bill issue can cause that issue's yield to differ significantly from the yields on surrounding maturities. In support of this idea, there is evidence that the announcement of a cash management bill that adds to the supply of outstanding bills of a certain maturity causes the yield on bills of this maturity to rise significantly relative to the yields on adjacent maturity bills (Simon 1991). It has also been documented that Treasury bills maturing at the end of the month tend to have lower yields than bills maturing earlier in the month (Park and Reinganum 1986). One explanation for this phenomenon is that businesses and governments make a disproportionate amount of payments at the end of the month and therefore have a preference for bills that mature at that time (Ogden 1987).
 
-# SECONDARY MARKET
+## Secondary Market
 
 The market for Treasury bills is the largest and most efficient for any money market instrument. At the heart of this market is a group of securities dealers designated by the Federal Reserve as primary dealers, who purchase a large
 
@@ -161,7 +277,7 @@ The primary dealers make markets by buying and selling securities for their own 
 
 The spread between the yields bid and asked by dealers on Treasury bills varies over time, largely depending on the volatility of interest rates. The more volatile are interest rates, the greater the spread required by dealers in compensation for the risk of taking a position. Hence, bid-asked spreads tend to rise in periods of increased interest rate volatility. For example, in October 1979 the Federal Reserve announced a change in its operating procedures that resulted in much greater volatility in short-term interest rates, and the bid-asked spread on the most actively traded three-month Treasury bills rose from 2 basis points to as high as 8 to 10 basis points. (The chapter on federal funds describes Federal Reserve operating procedures.) In late 1982 the Fed reverted to a procedure similar to its pre-October 1979 procedure and the bid-asked spread subsequently fell to 2 basis points or less.
 
-# REFERENCES
+## References
 
 Cook, Timothy Q. "Determinants of the Spread Between Treasury Bill and Private Sector Money Market Rates,"
 
@@ -171,19 +287,19 @@ ________, and Thomas Hahn. "Interest Rate Expectations and the Slope of the Mone
 
 Reserve Bank of Richmond Economic Review, vol. 76 (September/October 1990), pp. 3-26.
 
-Cook, Timothy Q., and Thomas A. Lawler. "The Behavior of the Spread Between Treasury Bill Rates and Private Money Market Rates Since 1978," Federal Reserve Bank of Richmond Economic Review, vol. 69 (November/December 1983), pp. 3-15.  
-Department of the Treasury, the Securities and Exchange Commission, and the Board of Governors of the Federal Reserve System. Joint Report on the Government Securities Market. Washington, D.C.: U.S. Government Printing Office, Superintendent of Documents, January 1992.  
-Federal Reserve Bank of New York. "Primary Dealers: Criteria and Procedures Applied to Firms Interested in Becoming and Remaining Primary Dealers," Dealer Surveillance Function, November 17, 1988.  
-Federal Reserve Bank of Richmond. Buying Treasury Securities at Federal Reserve Banks, 16th ed. Richmond: Federal Reserve Bank of Richmond, 1993.  
-General Accounting Office. Survey of the Federal Reserve System's Supervision of the Treasury Securities Market. Report prepared for the Subcommittee on Domestic Monetary Policy of the House Committee on Banking Finance and Urban Affairs. 99 Cong. 1 Sess., May 1985.  
-McCulloch, J. Huston. "The Monotonicity of the Term Premium: A Closer Look," Journal of Financial Economics, vol. 18 (March 1987), pp. 185-92.  
-McCurdy, Christopher J. "The Dealer Market for United States Government Securities," Federal Reserve Bank of New York Quarterly Review, vol. 2 (Winter 1977-78), pp. 35-47.  
-Nelson, Jane F. "Tax Anticipation Bills," in Timothy Q. Cook, ed., *Instruments of the Money Market*, 4th ed. Richmond: Federal Reserve Bank of Richmond, 1977.  
-Ogden, Joseph P. "The End of the Month as a Preferred Habitat: A Test of Operational Efficiency in the Money Market," Journal of Financial and Quantitative Analysis, vol. 22 (September 1987), pp. 329-43.  
-Park, Sang Yong, and Marc R. Reinganum. "The Puzzling Price Behavior of Treasury Bills that Mature at the Turn of Calendar Months," Journal of Financial Economics, vol. 16 (June 1986), pp. 267-83.  
-Reinhart, Vincent. "An Analysis of Potential Treasury Auction Techniques," Federal Reserve Bulletin, vol. 78 (June 1992), pp. 403-13.  
-Simon, David P. "Too Big to Fail and the TED Spread: A Contingent Claims Analysis." Division of Monetary Affairs, Board of Governors of the Federal Reserve System, September 1992.  
-"Segmentation in the Treasury Bill Market: Evidence from Cash Management Bills," Journal of Financial and Quantitative Analysis, vol. 26 (March 1991), pp. 97-108.  
+Cook, Timothy Q., and Thomas A. Lawler. "The Behavior of the Spread Between Treasury Bill Rates and Private Money Market Rates Since 1978," Federal Reserve Bank of Richmond Economic Review, vol. 69 (November/December 1983), pp. 3-15.
+Department of the Treasury, the Securities and Exchange Commission, and the Board of Governors of the Federal Reserve System. Joint Report on the Government Securities Market. Washington, D.C.: U.S. Government Printing Office, Superintendent of Documents, January 1992.
+Federal Reserve Bank of New York. "Primary Dealers: Criteria and Procedures Applied to Firms Interested in Becoming and Remaining Primary Dealers," Dealer Surveillance Function, November 17, 1988.
+Federal Reserve Bank of Richmond. Buying Treasury Securities at Federal Reserve Banks, 16th ed. Richmond: Federal Reserve Bank of Richmond, 1993.
+General Accounting Office. Survey of the Federal Reserve System's Supervision of the Treasury Securities Market. Report prepared for the Subcommittee on Domestic Monetary Policy of the House Committee on Banking Finance and Urban Affairs. 99 Cong. 1 Sess., May 1985.
+McCulloch, J. Huston. "The Monotonicity of the Term Premium: A Closer Look," Journal of Financial Economics, vol. 18 (March 1987), pp. 185-92.
+McCurdy, Christopher J. "The Dealer Market for United States Government Securities," Federal Reserve Bank of New York Quarterly Review, vol. 2 (Winter 1977-78), pp. 35-47.
+Nelson, Jane F. "Tax Anticipation Bills," in Timothy Q. Cook, ed., *Instruments of the Money Market*, 4th ed. Richmond: Federal Reserve Bank of Richmond, 1977.
+Ogden, Joseph P. "The End of the Month as a Preferred Habitat: A Test of Operational Efficiency in the Money Market," Journal of Financial and Quantitative Analysis, vol. 22 (September 1987), pp. 329-43.
+Park, Sang Yong, and Marc R. Reinganum. "The Puzzling Price Behavior of Treasury Bills that Mature at the Turn of Calendar Months," Journal of Financial Economics, vol. 16 (June 1986), pp. 267-83.
+Reinhart, Vincent. "An Analysis of Potential Treasury Auction Techniques," Federal Reserve Bulletin, vol. 78 (June 1992), pp. 403-13.
+Simon, David P. "Too Big to Fail and the TED Spread: A Contingent Claims Analysis." Division of Monetary Affairs, Board of Governors of the Federal Reserve System, September 1992.
+"Segmentation in the Treasury Bill Market: Evidence from Cash Management Bills," Journal of Financial and Quantitative Analysis, vol. 26 (March 1991), pp. 97-108.
 Vogel, Thomas T., Jr. "Dutch Auctions Appear to Be Mixed Blessing for U.S.", The Wall Street Journal, January 4, 1993, p. C1.
 
 The information in this chapter was last updated in 1993. Since the money market evolves very rapidly, recent developments may have superseded some of the content of this chapter.
@@ -193,3 +309,50 @@ Federal Reserve Bank of Richmond
 Richmond, Virginia
 
 1998
+
+## Additional D2 Diagrams for Treasury Bills
+
+### Treasury Bill Market Structure
+```d2
+# Treasury Bill Market Participants
+treasury_dept: "U.S. Treasury Department"
+primary_dealers: "Primary Dealers"
+auction_participants: "Auction Participants"
+secondary_market: "Secondary Market"
+fed_reserve: "Federal Reserve"
+
+treasury_dept -> primary_dealers: "Issues Securities"
+primary_dealers -> auction_participants: "Distribute Securities"
+auction_participants -> secondary_market: "Trade Securities"
+fed_reserve -> treasury_dept: "Monetary Policy Operations"
+```
+
+### Bill Yield Relationships
+```d2
+# Treasury Bill Yield Components
+default_free: "Default Risk Free"
+liquidity_premium: "Liquidity Premium"
+tax_advantage: "Tax Exemption"
+yield_spread: "Yield Spread vs Other Instruments"
+
+default_free -> "Lowest Risk Premium"
+liquidity_premium -> "High Liquidity = Lower Yield"
+tax_advantage -> "State Tax Exemption"
+yield_spread -> "Compared to CDs, CP, etc."
+```
+
+### Auction Process Flow
+```d2
+# Treasury Bill Auction Process
+announcement: "Tuesday Announcement"
+competitive_bids: "Competitive Bids"
+noncompetitive_bids: "Non-competitive Bids"
+allocation: "Allocation Process"
+issuance: "Thursday Issuance"
+
+announcement -> competitive_bids: "By Monday 1:00 PM"
+announcement -> noncompetitive_bids: "By Monday 1:00 PM"
+competitive_bids -> allocation: "Price Discovery"
+noncompetitive_bids -> allocation: "Average Price"
+allocation -> issuance: "Book-Entry Form"
+```

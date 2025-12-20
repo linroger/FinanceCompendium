@@ -1,13 +1,17 @@
 ---
-parent_directory:
-title: Financial Instruments
-tags:
-aliases:
-parent_folder: Financial Instruments Lecture Notes
-subfolder:
-key_concepts:
+title: Futures, Forwards and Swaps
+primary_tags:
+  - forward contracts
+  - futures contracts
+  - swap contracts
+  - no-arbitrage pricing
+secondary_tags:
+  - hedging strategies
+  - currency forwards
+  - commodity futures
+  - interest rate swaps
+  - law of one price
 cssclasses: academia
-linter-yaml-title-alias: Financial Instruments
 ---
 
 # Financial Instruments
@@ -55,6 +59,48 @@ Buy Cheap / Sell Dear
 - $\Longrightarrow$  Buy the low-priced security and sell the high-priced one.  
 - At maturity the arbitrageur is hedged, since the cash flows are the same.
 
+```d2
+direction: right
+classes: {
+  strategy: {
+    style: {
+      border-radius: 5
+      fill: "#e3f2fd"
+      stroke: "#1565c0"
+    }
+  }
+  market: {
+    shape: cylinder
+    style: {
+      fill: "#fff3e0"
+      stroke: "#ef6c00"
+    }
+  }
+}
+
+price_gap: Price Discrepancy {
+  tooltip: Security A < Security B (Identical Payoffs)
+}
+
+arbitrageur: Arbitrageur Action {
+  class: strategy
+  label: "Buy Cheap (A)\nSell Dear (B)"
+}
+
+market_response: Market Response {
+  class: market
+  label: "Price A ↑\nPrice B ↓"
+}
+
+equilibrium: Equilibrium {
+  label: "No Arbitrage\nPrice A = Price B"
+}
+
+price_gap -> arbitrageur: "Identifies"
+arbitrageur -> market_response: "Executes Trade"
+market_response -> equilibrium: "Restores"
+```
+
 # Forward Contracts
 
 - A Forward contract is an agreement between two counterparties to buy or sell a prespecified amount of goods or securities at a prespecified future date  $T$  at a prespecified price  $F$ .  
@@ -64,11 +110,11 @@ Buy Cheap / Sell Dear
 - The Profit/Loss at  $T$  are
 
 $$
-\mathrm {P / L c o u n t e r p a r y l o n g t h e f o r w a r d} = N \times (M _ {T} - F)
+\mathrm{P /Lcounterparylongtheforward} = N \times (M_{T} - F)
 $$
 
 $$
-\mathrm {P / L c o u n t e r p a r y s h o r t t h e f o r w a r d} = N \times (F - M _ {T})
+\mathrm{P /Lcounterparyshorttheforward} = N \times (F - M_{T})
 $$
 
 - For instance, the party long the forward agrees to buy at  $T$  a security for  $F$  when its value is  $M_T$ .
@@ -82,20 +128,20 @@ $$
 - Let  $M_{t} = \text{USD/EUR}$  exchange rate at  $t$ . Assume the current rate  $M_{0} = 1.2673$ , the continuously compounded (c.c.) US rate is  $r_{\S} = 5\%$  and the (c.c.) Euro rate is  $r_{e} = 3\%$ .
 
 $$
-\mathrm {D o l l a r p a y o f f a t} T = 5 \mathrm {m i l} \times M _ {T}
+\mathrm{Dollarpayoffat} T = 5 \mathrm{mil} \times M_{T}
 $$
 
 - Exchange rate risk: Euro can depreciate versus the dollar ( $M_T$  decline).
 - Hedging strategy: enter into a forward contract with a bank to exchange euros for dollars at  $T$  at an exchange rate  $F$ , say  $F = 1.28$ , decided today.
 
 $$
-\mathrm {D o l l a r P / L o f f o r w a r d c o n t r a c t a t} T = 5 \mathrm {m i l} \times (F - M _ {T})
+\mathrm{DollarP /Lofforwardcontractat} T = 5 \mathrm{mil} \times (F - M_{T})
 $$
 
 Total payoff at  $T =$  payoff from original position  $T +$  payoff of forward contract at  $T$
 
 $$
-\begin{array}{l} = (5 \mathrm {m i l} \times M _ {T}) + 5 \mathrm {m i l} \times (F - M _ {T}) \\ = \quad 5 \mathrm {m i l} \times F = \quad \$ 6. 4 \mathrm {m i l} \\ \end{array}
+\begin{array}{l} = (5 \mathrm{mil} \times M_{T}) + 5 \mathrm{mil} \times (F - M_{T}) \\ = \quad 5 \mathrm{mil} \times F = \quad \$ 6. 4 \mathrm{mil} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/15de9a37f772e436a7a7f7035d86032c495d2982a4b2eddb322d25cba15a94fc.jpg)  
@@ -129,19 +175,19 @@ source: Financial Times www.ft.com)
 1. Borrow the Present Value of 5 mil euros at the euro rate  $r_e = 3\%$ .
 
 $$
-- \Rightarrow \text {B o r r o w} \left(e ^ {- r _ {e} \times T} \times 5 \mathrm {m i l}\right) = \text {e u r o s} 4. 9 2 5 \mathrm {m i l}
+- \Rightarrow \text{Borrow} \left(e^{- r_{e} \times T} \times 5 \mathrm{mil}\right) = \text{euros} 4. 9 2 5 \mathrm{mil}
 $$
 
 2. Exchange this amount into dollars today.
 
 $$
-- \mathrm {I f} M _ {0} = 1. 2 6 7 3 \Longrightarrow \mathrm {t h e b a n k g e t s (e u r o s 4 . 9 2 5)} \times M _ {0} = \$ 6. 2 4 2 \mathrm {m i l}.
+- \mathrm{If} M_{0} = 1. 2 6 7 3 \Longrightarrow \mathrm{thebankgets (euros4 .925)} \times M_{0} = \$ 6. 2 4 2 \mathrm{mil}.
 $$
 
 3. Invest this amount in dollar deposit at rate  $r_{\S} = 5\%$ .
 
 $$
-\Longrightarrow \mathrm {T o d a y t h e b a n k n e t s 0 .}
+\Longrightarrow \mathrm{Todaythebanknets0 .}
 $$
 
 - At time  $T$  the bank:
@@ -151,7 +197,7 @@ $$
 - Gives this money to the client
 
 $$
-\Longrightarrow \text {E f f e c t i v e} F = \frac {\mathrm {S 6 . 4 m i l}}{\mathrm {E U R 5 m i l}} = 1. 2 8
+\Longrightarrow \text{Effective} F = \frac{\mathrm{S6 .4mil}}{\mathrm{EUR5mil}} = 1. 2 8
 $$
 
 # Diagram of Bank's Hedging Strategy
@@ -172,7 +218,7 @@ $6.242 e $^{5\%}$  = $6.4 mil
 Exchange Rate for firm = \$6.4mil / Eur 5 mil
 
 $$
-\begin{array}{l} = 1. 2 8 \mathbb {S} / \text {E u r} \\ = \text {q u o t e d} F \text {a t} 0 \\ \end{array}
+\begin{array}{l} = 1. 2 8 \mathbb {S} / \text{Eur} \\ = \text{quoted} F \text{at} 0 \\ \end{array}
 $$
 
 0 = today
@@ -184,7 +230,7 @@ T = 6 month
 - Indeed, what is the payoff at time  $T$  from the dollar investment in formulas?
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = \left[ \left(e ^ {- r _ {e} \times T} \times 5 \mathrm {m i l}\right) \times M _ {0} \right] \times e ^ {r _ {\S} \times T} \\ = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T} \times 5 \mathrm {m i l} \\ \Longrightarrow \mathrm {E f f e c t i v e} F = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T} \\ \end{array}
+\begin{array}{l} \mathrm{Payoffat} T = \left[ \left(e^{- r_{e} \times T} \times 5 \mathrm{mil}\right) \times M_{0} \right] \times e^{r_{\S} \times T} \\ = M_{0} \times e^{(r_{\S} - r_{e}) \times T} \times 5 \mathrm{mil} \\ \Longrightarrow \mathrm{Effective} F = M_{0} \times e^{(r_{\S} - r_{e}) \times T} \\ \end{array}
 $$
 
 - $F =$  Forward rate.
@@ -198,31 +244,31 @@ $$
 A. Invest in 6-months U.S. Treasury bills at the rate  $r_{\S} = 5\%$  yielding:
 
 $$
-\mathrm {P a y o f f} \mathrm {s t r a t e g y A a t} T = \\mathbb {S} 1 0 0 \mathrm {m i l} \times e ^ {r _ {\S} T}
+\mathrm{Payoff} \mathrm{strategyAat} T = \\mathbb {S} 1 0 0 \mathrm{mil} \times e^{r_{\S} T}
 $$
 
 B. (a) Exchange the \$100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
 
 $$
-\mathrm {P a y o f f o f s t r a t e g y B a t} T = \frac {\mathbb {S} 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
+\mathrm{PayoffofstrategyBat} T = \frac{\mathbb {S} 1 0 0 \mathrm{mil}}{M_{0}} \times e^{r_{e} T} \times F_{0, T}
 $$
 
 - Both strategies final payoffs are known at time 0. Thus, we must have
 
 $$
-\mathrm {P a y o f f o f s t r a t e g y A a t} T = \mathrm {P a y o f f o f s t r a t e g y B a t} T
+\mathrm{PayoffofstrategyAat} T = \mathrm{PayoffofstrategyBat} T
 $$
 
 or, substituting
 
 $$
-\$ 100 \mathrm {m i l} \times e ^ {r _ {\S} T} = \frac {\S 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
+\$ 100 \mathrm{mil} \times e^{r_{\S} T} = \frac{\S 1 0 0 \mathrm{mil}}{M_{0}} \times e^{r_{e} T} \times F_{0, T}
 $$
 
 - Solving for  $F_{0,T}$  gives
 
 $$
-F _ {0, T} = M _ {0} e ^ {(r _ {\S} - r _ {e}) T}
+F_{0, T} = M_{0} e^{(r_{\S} - r_{e}) T}
 $$
 
 # Forward Price: A No Arbitrage Argument
@@ -231,7 +277,7 @@ $$
 - Assume
 
 $$
-F _ {0, T} <   M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T}
+F_{0, T} <   M_{0} \times e^{(r_{\S} - r_{e}) \times T}
 $$
 
 - Arbitrageur: "Buy cheap - Sell dear"
@@ -254,7 +300,7 @@ Dollar Profit at  $T = N \times \left(M_0 \times e^{(r_{\S} - r_e \times)T} - F_
 What if
 
 $$
-F _ {0, T} > M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T}?
+F_{0, T} > M_{0} \times e^{(r_{\S} - r_{e}) \times T}?
 $$
 
 - Arbitrageur: "Buy cheap - Sell dear"
@@ -292,14 +338,14 @@ source: Financial Times www.ft.com)
 - Since  $M_0 = 1.3375$ , we obtain that for  $T = 1/12$
 
 $$
-F _ {0, T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times 1 / 1 2} = 1. 3 3 9 1
+F_{0, T} = M_{0} \times e^{(r_{\S} - r_{e}) \times 1 / 1 2} = 1. 3 3 9 1
 $$
 
 - which coincides with market forward exchange rate.  
 - The same steps for  $T = 3 / 12$  yield  $r_{\S} = 5.3145\%$  and  $r_e = 3.9237\%$ , and thus
 
 $$
-F _ {0, T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times 3 / 1 2} = 1. 3 4 2 2
+F_{0, T} = M_{0} \times e^{(r_{\S} - r_{e}) \times 3 / 1 2} = 1. 3 4 2 2
 $$
 
 - which (almost) coincides with the market forward exchange rate.  
@@ -322,7 +368,7 @@ Data Source: Bloomberg
 - The US firm can enter into the reverse forward contract with the bank, with payoff Dollar payoff at  $T$  of reverse forward contract  $= 5 \mathrm{mil} \times (M_T - F_{t,T})$
 
 $$
-- \mathrm {N o w :} F _ {t, T} = M _ {t} \times e ^ {(r _ {\S} - r _ {e}) \times (T - t)} = 1. 2 9 \times e ^ {(0. 0 5 - 0. 0 3) \times 0. 2 5} = 1. 2 9 6 \mathrm {\S / E U R}
+- \mathrm{Now :} F_{t, T} = M_{t} \times e^{(r_{\S} - r_{e}) \times (T - t)} = 1. 2 9 \times e^{(0. 0 5 - 0. 0 3) \times 0. 2 5} = 1. 2 9 6 \mathrm{\S /EUR}
 $$
 
 - The reverse contract neutralizes the former one.
@@ -332,7 +378,7 @@ $$
 Payoff at  $T$  from forward + reverse forward  $= 5\mathrm{mil}\times (F_{0,T} - M_T) + 5\mathrm{mil}\times (M_T - F_{t,T})$
 
 $$
-\begin{array}{l} = 5 \mathrm {m i l} \times (F _ {0, T} - F _ {t, T}) \\ = 5 \mathrm {m i l} \times (1. 2 8 - 1. 2 9 6) = - \$ 8 0, 0 0 0 \\ \end{array}
+\begin{array}{l} = 5 \mathrm{mil} \times (F_{0, T} - F_{t, T}) \\ = 5 \mathrm{mil} \times (1. 2 8 - 1. 2 9 6) = - \$ 8 0, 0 0 0 \\ \end{array}
 $$
 
 $\bullet \Longrightarrow$  The US firm will have to pay the bank $80,000 at  $T$ .  
@@ -340,14 +386,14 @@ $\bullet \Longrightarrow$  The US firm will have to pay the bank $80,000 at  $T$
 - The Present Value of  $-\$ 80,000$  is the value of the original forward contract to the US firm:
 
 $$
-f _ {t, T} = e ^ {- r _ {\S} \times (T - t)} \times (F _ {0, T} - F _ {t, T}) \times 5 \mathrm {m i l} = - \$ 7 9, 0 0 6. 2
+f_{t, T} = e^{- r_{\S} \times (T - t)} \times (F_{0, T} - F_{t, T}) \times 5 \mathrm{mil} = - \$ 7 9, 0 0 6. 2
 $$
 
 - Since it costs \$79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be \$79,006.2  
 - The above formula is general: The value of a forward contract to sell euros at a prespecified price  $K$  is always given by
 
 $$
-f _ {t, T} = e ^ {- r _ {\S} \times (T - t)} \times (K - F _ {t, T})
+f_{t, T} = e^{- r_{\S} \times (T - t)} \times (K - F_{t, T})
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/c4644eab05a02ff07103c895c0591dd4425b02589583e565910a024470dfaa73.jpg)  
@@ -356,7 +402,7 @@ The Value of a Forward Contract (contd.)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/828581f669cd51f46b969db2a6da63b8b58497f37ae770826b7edc1ab51dd45b.jpg)
 
 $$
-\mathrm {P / L = 5 m i l (1 . 2 8 - M _ {T})}
+\mathrm{P /L =5mil (1 .28 -M_{T})}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/8b3df1e033bafef832e1b1d46c0ab9eabe111c280267363763a135dd9d48448d.jpg)
@@ -364,7 +410,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/a3e9efa60aa671683f826b2b8e4a71e547712f81a14ac05782ff8005c6f18ec8.jpg)
 
 $$
-\mathrm {P / L = 5 m i l (M _ {T} - 1 . 2 9 6)}
+\mathrm{P /L =5mil (M_{T} - 1 . 2 9 6)}
 $$
 
 Total  $= 5$  mil (1.28 - 1.296)
@@ -382,13 +428,13 @@ $$
 1. The Forward (Delivery) Price – the price decided at time 0 to buy / sell goods (Euros) in the future – is given by
 
 $$
-F _ {0, T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) T}
+F_{0, T} = M_{0} \times e^{(r_{\S} - r_{e}) T}
 $$
 
 2. The value of an existing forward contract to deliver goods (Euros) at preset price  $K$  (determined some time in the past) is equal to the cost / profit of closing the contract:
 
 $$
-f _ {t, T} = [ K - F _ {t, T} ] \times e ^ {- r _ {\S} (T - t)}
+f_{t, T} = [ K - F_{t, T} ] \times e^{- r_{\S} (T - t)}
 $$
 
 - This is the value of forward contract to sell. What is the value of a forward contract to buy (i.e. a long forward contract?)
@@ -401,7 +447,7 @@ $$
 - Finally, an equivalent formula is obtained by substituting  $F_{t,T}$
 
 $$
-f _ {t, T} = K e ^ {- r _ {\S} (T - t)} - M _ {t} e ^ {- r _ {e} (T - t)}
+f_{t, T} = K e^{- r_{\S} (T - t)} - M_{t} e^{- r_{e} (T - t)}
 $$
 
 # Forward Contracts for other securities
@@ -428,50 +474,50 @@ Commodity:  $\%$  storage cost  $u$ , convenient yield  $y$
 
 Bond: Zero Coupon with Maturity  $T^{*} > T$
 
-$\left\{ \begin{array}{l}\mathrm{Bond:~with~Semi - annual~Coupon~}c,\mathrm{Maturity} T_{n}\\ \mathrm{Payment~dates} T_{1},\ldots ,T_{n}\mathrm{~and~with~}T_{m} = T \end{array} \right.$
+$\left\{ \begin{array}{l}\mathrm{Bond:~with~Semi -annual~Coupon~}c,\mathrm{Maturity} T_{n}\\ \mathrm{Payment~dates} T_{1},\ldots ,T_{n}\mathrm{~and~with~}T_{m} = T \end{array} \right.$
 
 Forward Price
 
 $$
-\overline {{F _ {0 , T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) T}}}
+\overline {{F_{0 , T} = M_{0} \times e^{(r_{\S} - r_{e}) T}}}
 $$
 
 $$
-\overline {{F _ {0 , T}}} = S _ {0} \times e ^ {r T}
+\overline {{F_{0 , T}}} = S_{0} \times e^{r T}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r - q) T}
+F_{0, T} = S_{0} \times e^{(r - q) T}
 $$
 
 $$
-F _ {0, T} = \left(S _ {0} - D \times e ^ {- r T _ {1}}\right) \times e ^ {r T}
+F_{0, T} = \left(S_{0} - D \times e^{- r T_{1}}\right) \times e^{r T}
 $$
 
 $$
-\overline {{F _ {0 , T} = (S _ {0} + P V (U)) \times e ^ {r T}}}
+\overline {{F_{0 , T} = (S_{0} + P V (U)) \times e^{r T}}}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r + u) T}
+F_{0, T} = S_{0} \times e^{(r + u) T}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r + u - y) T}
+F_{0, T} = S_{0} \times e^{(r + u - y) T}
 $$
 
 $$
-\overline {{F _ {0 , T} = \frac {Z (0 , T ^ {*})}{Z (0 , T)}}}
+\overline {{F_{0 , T} = \frac{Z (0 , T^{*})}{Z (0 , T)}}}
 $$
 
 $$
-F _ {0, T} = \Sigma_ {i = m + 1} ^ {n} \frac {c}{2} \times \frac {Z (0 , T _ {i})}{Z (0 , T)} + \frac {Z (0 , T _ {n})}{Z (0 , T)}
+F_{0, T} = \Sigma_{i = m + 1}^{n} \frac{c}{2} \times \frac{Z (0 , T_{i})}{Z (0 , T)} + \frac{Z (0 , T_{n})}{Z (0 , T)}
 $$
 
 - In all cases, the value of a forward contract at time  $t > 0$  (after initiation) is:
 
 $$
-f _ {t, T} = e ^ {- r (T - t)} \left[ F _ {0, T} - F _ {t, T} \right]
+f_{t, T} = e^{- r (T - t)} \left[ F_{0, T} - F_{t, T} \right]
 $$
 
 # Example 1: The Forward Price of a Stock with Known Dividend Payment
@@ -481,7 +527,7 @@ $$
 - Arbitrage argument. What if
 
 $$
-F _ {0, T} > (S _ {0} - P V (D)) e ^ {r T}?
+F_{0, T} > (S_{0} - P V (D)) e^{r T}?
 $$
 
 - Arbitrageur:
@@ -501,7 +547,7 @@ $$
 (b) repay the loan  $(S_0 - PV(D))e^{rT}$
 
 $$
-\mathrm {P a y o f f a t} T = F _ {0, T} - (S _ {0} - P V (D)) e ^ {r T} > 0
+\mathrm{Payoffat} T = F_{0, T} - (S_{0} - P V (D)) e^{r T} > 0
 $$
 
 # Example 2: The Forward Price of a Stock with Constant Dividend Yield
@@ -510,14 +556,14 @@ $$
 - Continuously compounded dividend yield  $q$
 
 $$
-- \Longrightarrow \mathrm {T o t a l d i v i d e n d i n a s m a l l i n t e r v a l} [ t, t + d t ] \mathrm {i s} D _ {t} = q \times S _ {t} \times d t
+- \Longrightarrow \mathrm{Totaldividendinasmallinterval} [ t, t + d t ] \mathrm{is} D_{t} = q \times S_{t} \times d t
 $$
 
 - Forward price:  $F_{0,T} = S_0 \times e^{(r - q)T}$  
 What if
 
 $$
-F _ {0, T} > S _ {0} \times e ^ {(r - q) T}?
+F_{0, T} > S_{0} \times e^{(r - q) T}?
 $$
 
 1. Short Forward at  $F_{0,T}$  
@@ -525,17 +571,17 @@ $$
 3. For every  $t$  reinvest the dividends in the stock.
 
 $$
-\text {C h a n g e i n n u m b e r o f s h a r e s i n a s m a l l i n t e r v a l} d t: (N _ {t + d t} - N _ {t}) = \frac {N _ {t} \times D _ {t}}{S _ {t}} = N _ {t} \times q \times d t
+\text{Changeinnumberofsharesinasmallinterval} d t: (N_{t + d t} - N_{t}) = \frac{N_{t} \times D_{t}}{S_{t}} = N_{t} \times q \times d t
 $$
 
 $$
-\mathrm {T o t a l n u m b e r o f s h a r e s b e t w e e n 0 a n d} T: N _ {T} = N _ {0} \times e ^ {q T} = e ^ {- q T} \times e ^ {q T} = 1
+\mathrm{Totalnumberofsharesbetween0and} T: N_{T} = N_{0} \times e^{q T} = e^{- q T} \times e^{q T} = 1
 $$
 
 - The arbitrageur has exactly the right amount of shares to cover the short forward position.
 
 $$
-\text {P a y o f f} T = F _ {0, T} - S _ {0} \times e ^ {(r - q) T} > 0 \tag {1}
+\text{Payoff} T = F_{0, T} - S_{0} \times e^{(r - q) T} > 0 \tag {1}
 $$
 
 # The Forward Price of Commodities
@@ -553,13 +599,13 @@ $$
 - Define the discrepancy between forward and the "theoretical" forward rate as:
 
 $$
-\begin{array}{l} B a s i s = \mathrm {T r a d e d F o r w a r d R a t e - T h e o r e t i c a l F o r w a r d R a t e} (2) \\ = F _ {t, t + m} ^ {t r a d e d} - F _ {t, t + m} (3) \\ \end{array}
+\begin{array}{l} B a s i s = \mathrm{TradedForwardRate -TheoreticalForwardRate} (2) \\ = F_{t, t + m}^{t r a d e d} - F_{t, t + m} (3) \\ \end{array}
 $$
 
 where  $m =$  maturity (e.g. 3 month, 6 months etc.), and recall
 
 $$
-F _ {t, t + m} = M _ {t} e ^ {(r _ {\S} - r _ {e}) m}
+F_{t, t + m} = M_{t} e^{(r_{\S} - r_{e}) m}
 $$
 
 - The latter relation is also called "Covered Interest Rate Parity" (CIP)  
@@ -603,7 +649,7 @@ CIP Violation during the 2007 - 2009 Financial Crisis: UKP / Dollar
 - During the crisis, from the graph, we had the basis being positive. That is:
 
 $$
-F _ {t, t + m} ^ {d a t a} > F _ {t, t + m} = M _ {t} e ^ {(r _ {\S} - r _ {e}) m}
+F_{t, t + m}^{d a t a} > F_{t, t + m} = M_{t} e^{(r_{\S} - r_{e}) m}
 $$
 
 - Recall that in this case, an arbitrage trade requires the following:
@@ -715,7 +761,7 @@ Some History
 - The party Long the futures – who agrees to buy the good at maturity – gains when prices increase, and his/her daily P/L is given by
 
 $$
-\mathrm {D a i l y P / L = C o n t r a c t S i z e \times} \left(\widehat {F} _ {t, T} - \widehat {F} _ {t - 1, T}\right)
+\mathrm{DailyP /L =ContractSize \times} \left(\widehat {F}_{t, T} - \widehat {F}_{t - 1, T}\right)
 $$
 
 - The party Short the futures – who agrees to sell the good at maturity – gains when prices decrease, and the P/L is the opposite.
@@ -762,7 +808,7 @@ Suppose that  $T = \operatorname{Mar} 2007$  and  $\widehat{F}_{0,T} = 1.28$ .
 - At maturity  $T$ :
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = (P / L) _ {1} + (P / L) _ {2} + \dots + (P / L) _ {T} \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) + 5 \mathrm {m i l} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) + \dots + 5 \mathrm {m i l} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - M _ {T}) \\ = \mathrm {P a y o f f} \mathrm {o f F o r w a r d C o n t r a c t a t} T (\mathrm {i f} \widehat {F} _ {0, T} = F _ {0, T}) \\ \end{array}
+\begin{array}{l} \mathrm{Payoffat} T = (P / L)_{1} + (P / L)_{2} + \dots + (P / L)_{T} \\ = 5 \mathrm{mil} \times (\widehat {F}_{0, T} - \widehat {F}_{1, T}) + 5 \mathrm{mil} \times (\widehat {F}_{1, T} - \widehat {F}_{2, T}) + \dots + 5 \mathrm{mil} \times (\widehat {F}_{T - 1, T} - \widehat {F}_{T, T}) \\ = 5 \mathrm{mil} \times (\widehat {F}_{0, T} - \widehat {F}_{T, T}) \\ = 5 \mathrm{mil} \times (\widehat {F}_{0, T} - M_{T}) \\ = \mathrm{Payoff} \mathrm{ofForwardContractat} T (\mathrm{if} \widehat {F}_{0, T} = F_{0, T}) \\ \end{array}
 $$
 
 # Hedging with Futures
@@ -772,23 +818,23 @@ $$
 - The correct statement of the payoff at  $T$  is in fact:
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = (P / L) _ {1} \times e ^ {r _ {\S} \times (T - d t)} + (P / L) _ {2} \times e ^ {r _ {\S} \times (T - 2 d t)} + \dots + (P / L) _ {T - 1} \times e ^ {r _ {\S} \times d t} + (P / L) _ {T} \\ - \mathrm {w h e r e} d t = 1 / 3 6 5 = 1 \mathrm {d a y (i n a n n u a l u n i t s)} \\ \end{array}
+\begin{array}{l} \mathrm{Payoffat} T = (P / L)_{1} \times e^{r_{\S} \times (T - d t)} + (P / L)_{2} \times e^{r_{\S} \times (T - 2 d t)} + \dots + (P / L)_{T - 1} \times e^{r_{\S} \times d t} + (P / L)_{T} \\ - \mathrm{where} d t = 1 / 3 6 5 = 1 \mathrm{day (inannualunits)} \\ \end{array}
 $$
 
 - To obtain the forward contract's payoff, we must tail the hedge and choose the number of contracts  $k_{t}$  per period as (recall  $\frac{5\mathrm{mil}}{125,000} = 40$ ):
 
 $$
-k _ {0} = 4 0 \times e ^ {- r _ {\S} \times (T - d t)}; k _ {1} = 4 0 \times e ^ {- r _ {\S} \times (T - 2 d t)}; \ldots ; k _ {i} = 4 0 \times e ^ {- r _ {\S} \times (T - i d t)}; \ldots ; k _ {T - 1} = 4 0
+k_{0} = 4 0 \times e^{- r_{\S} \times (T - d t)}; k_{1} = 4 0 \times e^{- r_{\S} \times (T - 2 d t)}; \ldots ; k_{i} = 4 0 \times e^{- r_{\S} \times (T - i d t)}; \ldots ; k_{T - 1} = 4 0
 $$
 
 - which yields the payoff sequence
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = \left[ 5 \mathrm {m} \times e ^ {- r _ {\S} \times (T - d t)} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) \right] \times e ^ {r _ {\S} \times (T - d t)} + \\ + \left[ 5 \mathrm {m} \times e ^ {- r _ {\S} \times (T - 2 d t)} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) \right] \times e ^ {r _ {\S} \times (T - 2 d t)} + \dots . + \left[ 5 \mathrm {m} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \right] \\ \end{array}
+\begin{array}{l} \mathrm{Payoffat} T = \left[ 5 \mathrm{m} \times e^{- r_{\S} \times (T - d t)} \times (\widehat {F}_{0, T} - \widehat {F}_{1, T}) \right] \times e^{r_{\S} \times (T - d t)} + \\ + \left[ 5 \mathrm{m} \times e^{- r_{\S} \times (T - 2 d t)} \times (\widehat {F}_{1, T} - \widehat {F}_{2, T}) \right] \times e^{r_{\S} \times (T - 2 d t)} + \dots . + \left[ 5 \mathrm{m} \times (\widehat {F}_{T - 1, T} - \widehat {F}_{T, T}) \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) + 5 \mathrm {m i l} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) + \dots + 5 \mathrm {m i l} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - M _ {T}) \\ \end{array}
+\begin{array}{l} = 5 \mathrm{mil} \times (\widehat {F}_{0, T} - \widehat {F}_{1, T}) + 5 \mathrm{mil} \times (\widehat {F}_{1, T} - \widehat {F}_{2, T}) + \dots + 5 \mathrm{mil} \times (\widehat {F}_{T - 1, T} - \widehat {F}_{T, T}) \\ = 5 \mathrm{mil} \times (\widehat {F}_{0, T} - M_{T}) \\ \end{array}
 $$
 
 # Speculating with Futures
@@ -814,7 +860,7 @@ $$
 1. Funded Speculative Position: The position is \( \\( {180162.5} = {125},{000} \times  {1.441} \) . Thus
 
 $$
-\mathrm {P r o f i t} = \\(1 8 0 1 6 2. 5 - \\)1 7 9, 0 7 5 = \$ 1 0 8 7. 5
+\mathrm{Profit} = \\(1 8 0 1 6 2. 5 - \\)1 7 9, 0 7 5 = \$ 1 0 8 7. 5
 $$
 
 $$
@@ -824,7 +870,7 @@ $$
 2. Unfunded Speculative Position through Futures:
 
 $$
-\mathrm {P r o f i t} = 1 2 5, 0 0 0 \times (1. 4 4 1 - 1. 4 3 3 4) = \$ 9 5 0
+\mathrm{Profit} = 1 2 5, 0 0 0 \times (1. 4 4 1 - 1. 4 3 3 4) = \$ 9 5 0
 $$
 
 $$
@@ -845,7 +891,7 @@ $$
 - Fact: If interest rates are constant, the futures price equals the forward price:
 
 $$
-\widehat {F} _ {t, T} = F _ {t, T}
+\widehat {F}_{t, T} = F_{t, T}
 $$
 
 Why?
@@ -898,7 +944,7 @@ Example: Hedging with Swaps
 - The payoff for every  $T = 0.5, \ldots, 2.5$  is
 
 $$
-\begin{array}{l} \mathrm {P a y o f t} T \mathrm {o f s w a p + r e v e r s e f o r w a r d = 1 m i l \times (K - M _ {T}) + 1 m i l \times (M _ {T} - F _ {0 , T})} \\ = 1 \mathrm {m i l} \times (K - F _ {0, T}) \\ \end{array}
+\begin{array}{l} \mathrm{Payoft} T \mathrm{ofswap +reverseforward =1mil \times (K -M_{T}) + 1 m i l \times (M_{T} - F_{0 , T})} \\ = 1 \mathrm{mil} \times (K - F_{0, T}) \\ \end{array}
 $$
 
 # Swap Rate
@@ -906,7 +952,7 @@ $$
 - The Present Value of these sequence of net payments is
 
 $$
-\begin{array}{l} \mathrm {P V} \mathrm {o f s w a p + r e v e r s e f o r w a r d c a s h f l o w s = e ^ {- r _ {\S} \times 0 . 5} \times 1 m i l \times (K - F _ {0 , 0 . 5}) +} \\ + e ^ {- r _ {\S} \times 1} \times 1 \mathrm {m i l} \times (K - F _ {0, 1}) + \ldots + \\ + \ldots + e ^ {- r _ {\S} \times 2. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 2. 5}) \\ \end{array}
+\begin{array}{l} \mathrm{PV} \mathrm{ofswap +reverseforwardcashflows =e^{-r_{\S} \times 0 . 5} \times 1 m i l \times (K - F_{0 , 0 . 5}) +} \\ + e^{- r_{\S} \times 1} \times 1 \mathrm{mil} \times (K - F_{0, 1}) + \ldots + \\ + \ldots + e^{- r_{\S} \times 2. 5} \times 1 \mathrm{mil} \times (K - F_{0, 2. 5}) \\ \end{array}
 $$
 
 - No arbitrage  $\Longrightarrow$  At time 0, the PV of swap + reverse forwards cash flows = 0
@@ -915,7 +961,7 @@ $$
 - We obtain one equation in one unknown  $K$
 
 $$
-\begin{array}{l} 0 = e ^ {- r _ {\S} \times 0. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 0. 5}) + e ^ {- r _ {\S} \times 1} \times 1 \mathrm {m i l} \times (K - F _ {0, 1}) + \dots + \\ + \dots + e ^ {- r _ {\S} \times 2. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 2. 5}) \\ \end{array}
+\begin{array}{l} 0 = e^{- r_{\S} \times 0. 5} \times 1 \mathrm{mil} \times (K - F_{0, 0. 5}) + e^{- r_{\S} \times 1} \times 1 \mathrm{mil} \times (K - F_{0, 1}) + \dots + \\ + \dots + e^{- r_{\S} \times 2. 5} \times 1 \mathrm{mil} \times (K - F_{0, 2. 5}) \\ \end{array}
 $$
 
 # Swap Rate
@@ -923,19 +969,19 @@ $$
 - The solution to the equation is a weighted average of forward prices:
 
 $$
-\mathrm {C u r r e n c y S w a p R a t e} = K = w _ {0. 5} F _ {0. 5} + w _ {1} F _ {0, 1} + \ldots + w _ {2. 5} F _ {0, 2. 5}
+\mathrm{CurrencySwapRate} = K = w_{0. 5} F_{0. 5} + w_{1} F_{0, 1} + \ldots + w_{2. 5} F_{0, 2. 5}
 $$
 
 - The weights  $w_{T}$  are given by the relative time value of money across maturities
 
 $$
-w _ {T} = \frac {e ^ {- r _ {\S} \times T}}{e ^ {- r _ {\S} \times 0 . 5} + e ^ {- r _ {\S} \times 1} + \ldots + e ^ {- r _ {\S} \times 2 . 5}}
+w_{T} = \frac{e^{- r_{\S} \times T}}{e^{- r_{\S} \times 0 . 5} + e^{- r_{\S} \times 1} + \ldots + e^{- r_{\S} \times 2 . 5}}
 $$
 
 - We obtain an alternative (equivalent) formulation by substituting the forward prices  $F_{0,T} = M_0 e^{(r_{\S} - r_e)T}$ :
 
 $$
-\mathrm {C u r r e n c y S w a p R a t e} = K = M _ {0} \frac {e ^ {- r _ {e} \times 0 . 5} + e ^ {- r _ {e} \times 1} + \ldots + e ^ {- r _ {e} \times 2 . 5}}{e ^ {- r _ {\S} \times 0 . 5} + e ^ {- r _ {\S} \times 1} + \ldots + e ^ {- r _ {\S} \times 2 . 5}}
+\mathrm{CurrencySwapRate} = K = M_{0} \frac{e^{- r_{e} \times 0 . 5} + e^{- r_{e} \times 1} + \ldots + e^{- r_{e} \times 2 . 5}}{e^{- r_{\S} \times 0 . 5} + e^{- r_{\S} \times 1} + \ldots + e^{- r_{\S} \times 2 . 5}}
 $$
 
 - The FX Swap rate equals the current exchange rate multiplied by the ratio of the relative borrowing costs in the two currencies.
@@ -959,19 +1005,19 @@ $$
 - As before, using a sequence of forwards to get out of the position gives
 
 $$
-\begin{array}{l} V _ {t} ^ {s w a p} = \mathrm {P V o f s w a p + r e v e r s e f o r w a r d c a s h f l o w s} \\ = e ^ {- r _ {\S} \times (T _ {1} - t)} \times (K - F _ {t, T _ {1}}) + e ^ {- r _ {\S} \times (T _ {2} - t)} \times (K - F _ {t, T _ {2}}) + \ldots + e ^ {- r _ {\S} \times (T _ {n} - t)} \times (K - F _ {t, T _ {n}}) \\ \end{array}
+\begin{array}{l} V_{t}^{s w a p} = \mathrm{PVofswap +reverseforwardcashflows} \\ = e^{- r_{\S} \times (T_{1} - t)} \times (K - F_{t, T_{1}}) + e^{- r_{\S} \times (T_{2} - t)} \times (K - F_{t, T_{2}}) + \ldots + e^{- r_{\S} \times (T_{n} - t)} \times (K - F_{t, T_{n}}) \\ \end{array}
 $$
 
 Obtaining the formula
 
 $$
-V _ {t} ^ {s w a p} = \sum_ {i = 1} ^ {n} e ^ {- r _ {\S} (T _ {i} - t)} \times (K - F _ {t, T _ {i}})
+V_{t}^{s w a p} = \sum_{i = 1}^{n} e^{- r_{\S} (T_{i} - t)} \times (K - F_{t, T_{i}})
 $$
 
 - Substituting the value of  $F_{t,T_i} = M_t \times e^{(r_{\mathbb{S}} - r_e) \times (T_i - t)}$  we obtain the equivalent formula:
 
 $$
-V _ {t} ^ {s w a p} = K \times \left(\sum_ {i = 1} ^ {n} e ^ {- r _ {\S} (T _ {i} - t)}\right) - M _ {t} \times \left(\sum_ {i = 1} ^ {n} e ^ {- r _ {e} (T _ {i} - t)}\right)
+V_{t}^{s w a p} = K \times \left(\sum_{i = 1}^{n} e^{- r_{\S} (T_{i} - t)}\right) - M_{t} \times \left(\sum_{i = 1}^{n} e^{- r_{e} (T_{i} - t)}\right)
 $$
 
 # Plain Vanilla FX Swaps
@@ -1005,23 +1051,23 @@ What is the value of the swap to the US firm?
 - Let  $B^{e}(t,T)$  and  $B^{\S}(t,T)$  be the value of the two bond (in their respective currencies).
 
 $$
-* \text {E.g. If the (c.c.) rates are constant across maturities at} r_{e} = 4\% \text {and} r_{\S} = 6\%, \text {then} B^{e}(0,T) = 100\mathrm{mil}2\% \left(e^{-r_{e}\times 0.5} + e^{-r_{e}\times 1} + \dots +e^{-r_{e}\times 5}\right) + 100\mathrm{mil}e^{-r_{e}\times 5} = EUR99,819,335
+* \text{E.g.Ifthe (c.c.)ratesareconstantacrossmaturitiesat} r_{e} = 4\% \text{and} r_{\S} = 6\%, \text{then} B^{e}(0,T) = 100\mathrm{mil}2\% \left(e^{-r_{e}\times 0.5} + e^{-r_{e}\times 1} + \dots +e^{-r_{e}\times 5}\right) + 100\mathrm{mil}e^{-r_{e}\times 5} = EUR99,819,335
 $$
 
 $$
-B ^ {\S} (0, T) = 1 0 0 \mathrm {mil} 2
+B^{\S} (0, T) = 1 0 0 \mathrm{mil} 2
 $$
 
 - The value of the swap at  $t$  is then
 
 $$
-V _ {t} ^ {s w a p} = M _ {t} \times B ^ {e} (t, T) - K \times B ^ {\$} (t, T)
+V_{t}^{s w a p} = M_{t} \times B^{e} (t, T) - K \times B^{\$} (t, T)
 $$
 
 - Therefore, at time  $t = 0$ , the value of  $K$  that makes the value of the swap equal to zero is
 
 $$
-V _ {0} ^ {\text {s w a p}} = 0 \Longrightarrow M _ {0} \times B ^ {e} (0, T) = K \times B ^ {\S} (0, T) \Longrightarrow K = M _ {0} \times \frac {B ^ {e} (0 , T)}{B ^ {\S} (0 , T)}
+V_{0}^{\text{swap}} = 0 \Longrightarrow M_{0} \times B^{e} (0, T) = K \times B^{\S} (0, T) \Longrightarrow K = M_{0} \times \frac{B^{e} (0 , T)}{B^{\S} (0 , T)}
 $$
 
 - This is the same expression we obtained earlier when the last (notional) payment is zero.  
@@ -1062,7 +1108,7 @@ Plain Vanilla FX Swaps - 4
 - Given a notional  $N$ , the floating rate payment at time  $T_{i}$  is
 
 $$
-C F (T _ {i}) = N \left(\prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \delta\right) - 1\right) \tag {4}
+C F (T_{i}) = N \left(\prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \delta\right) - 1\right) \tag {4}
 $$
 
 - where  $\delta$  is the daily interval,  $r_t$  is the reference (annualized) overnight rate, and  $n_j$  is the number of days between reset periods.  
@@ -1070,7 +1116,7 @@ $$
 - In the continuous time limit  $(\delta \to 0)$ , we have that
 
 $$
-C F \left(T _ {i}\right) = N \left(e ^ {\int_ {T _ {i - 1}} ^ {T _ {i}} r (u) d u} - 1\right) \tag {5}
+C F \left(T_{i}\right) = N \left(e^{\int_{T_{i - 1}}^{T_{i}} r (u) d u} - 1\right) \tag {5}
 $$
 
 - Is with maturity less than 1 year have only one payment at the maturity.  
@@ -1081,46 +1127,46 @@ $$
 - The value of Is is the difference between the floating leg and the fixed leg:
 
 $$
-V _ {t} ^ {O I S} = V _ {t} ^ {F l o a t i n g} - V _ {t} ^ {F i x e d} \tag {6}
+V_{t}^{O I S} = V_{t}^{F l o a t i n g} - V_{t}^{F i x e d} \tag {6}
 $$
 
 - Floating Leg: At reset dates, and assuming the payment of a principal at maturity of the swap, the value of the floating leg is par.
 - Indeed, investing the notional  $N$  in the overnight index daily gives at  $T_{i}$
 
 $$
-N \prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \Delta\right) = C F \left(T _ {i}\right) + N
+N \prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \Delta\right) = C F \left(T_{i}\right) + N
 $$
 
 - $\Longrightarrow$  we can replicate the floating payments, plus a residual of notional at maturity  $T_{i}$ , with an investment  $N$  at time 0.
 - It follows
 
 $$
-V _ {0} ^ {F l o a t i n g} = N
+V_{0}^{F l o a t i n g} = N
 $$
 
 - Fixed leg: Given a proper discount function  $Z^{OIS}(0,T_i)$ , we obtain
 
 $$
-V _ {0} ^ {F i x e d} = N c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + N Z ^ {O I S} (0, T _ {n}) \tag {7}
+V_{0}^{F i x e d} = N c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + N Z^{O I S} (0, T_{n}) \tag {7}
 $$
 
 - The value of the contract at inception is zero,  $V_0^{OIS} = 0$ .  
 - It follows from (6) then that
 
 $$
-V _ {0} ^ {O I S} = V _ {0} ^ {F l o a t i n g} - V _ {0} ^ {F i x e d} = 0 \tag {8}
+V_{0}^{O I S} = V_{0}^{F l o a t i n g} - V_{0}^{F i x e d} = 0 \tag {8}
 $$
 
 - This equation implies that the swap rate  $c$  can be computed from
 
 $$
-1 = c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + Z ^ {O I S} (0, T _ {n}) \tag {9}
+1 = c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + Z^{O I S} (0, T_{n}) \tag {9}
 $$
 
 - which gives
 
 $$
-c (T _ {n}) = \frac {1}{\Delta} \frac {1 - Z ^ {O I S} (0 , T _ {n})}{\Sigma_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i})} \tag {10}
+c (T_{n}) = \frac{1}{\Delta} \frac{1 - Z^{O I S} (0 , T_{n})}{\Sigma_{i = 1}^{n} Z^{O I S} (0 , T_{i})} \tag {10}
 $$
 
 - where we now emphasize that the coupon rate  $c$  is for a swap with maturity  $T_{n}$ , and thus write  $c(T_{n})$ .
@@ -1131,7 +1177,7 @@ $$
 - We obtain the relation:
 
 $$
-Z ^ {O I S} \left(0, T _ {i}\right) = \frac {1 - c \left(T _ {i}\right) \Delta \sum_ {j = 1} ^ {i - 1} Z ^ {O I S} \left(0 , T _ {j}\right)}{1 + c \left(T _ {i}\right) \Delta} \tag {11}
+Z^{O I S} \left(0, T_{i}\right) = \frac{1 - c \left(T_{i}\right) \Delta \sum_{j = 1}^{i - 1} Z^{O I S} \left(0 , T_{j}\right)}{1 + c \left(T_{i}\right) \Delta} \tag {11}
 $$
 
 - recalling, however, that Is with maturity less than or equal to 1 year generally have only one payment.  
@@ -1214,7 +1260,7 @@ $\Longrightarrow$  exercise the option is optimal and profit  $= S_{T} - K$
 - Thus, the payoff to the option buyer is
 
 $$
-\mathrm {P a y o f f o f a C a l l} = \max (S _ {T} - K, 0)
+\mathrm{PayoffofaCall} = \max (S_{T} - K, 0)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/1223dee8f9e76b5aa8d14cfb951c9db1af22acd06103eaf9b43e41d26dade0d4.jpg)  
@@ -1239,7 +1285,7 @@ Call Option Payoff Diagram to Call Option Writer
 * Sell the stock to the option writer for  $K > {S}_{T}$
 
 $$
-\Longrightarrow \text {E x e r c i s e t h e p u t o p i o n t o s e l l i s o p t i m a l , a n d p r o f i t} = K - S _ {T}
+\Longrightarrow \text{Exercisetheputopiontosellisoptimal ,andprofit} = K - S_{T}
 $$
 
 * The option seller must purchase the stock in exchange of a price  $K$ .
@@ -1250,13 +1296,13 @@ $$
 * Sell the stock to the option writer for  $K < S_{T}$
 
 $$
-\Longrightarrow \mathrm {w a l k a w a y f r o m t h e o p t i o n c o n t r a c t i s o p t i m a l}
+\Longrightarrow \mathrm{walkawayfromtheoptioncontractisoptimal}
 $$
 
 - Thus, the payoff of a put is as follows:
 
 $$
-\mathrm {P a y o f f o f a P u t} = \max (K - S _ {T}, 0)
+\mathrm{PayoffofaPut} = \max (K - S_{T}, 0)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/d54aa091c9218e01505493280102f5719cf69599ca5df3c1f4a97f15f5970c06.jpg)  
@@ -1336,7 +1382,7 @@ Put - Call Parity
 - We found the value of a short forward earlier, obtaining the Put Call Parity relation
 
 $$
-\Longrightarrow \operatorname {P u t} - \operatorname {C a l l} = e ^ {- r \times T} \times (K - F _ {0, T})
+\Longrightarrow \operatorname{Put} - \operatorname{Call} = e^{- r \times T} \times (K - F_{0, T})
 $$
 
 # Put - Call Parity
@@ -1345,13 +1391,13 @@ $$
 - For instance, for a non-dividend paying stock, we have
 
 $$
-\begin{array}{l} \mathrm {P u t} = \mathrm {C a l l} + e ^ {- r \times T} \times (K - F _ {0, T}) \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times F _ {0, T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times S _ {0} \times e ^ {r \times T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - S _ {0} \\ \end{array}
+\begin{array}{l} \mathrm{Put} = \mathrm{Call} + e^{- r \times T} \times (K - F_{0, T}) \\ = \mathrm{Call} + e^{- r \times T} \times K - e^{- r \times T} \times F_{0, T} \\ = \mathrm{Call} + e^{- r \times T} \times K - e^{- r \times T} \times S_{0} \times e^{r \times T} \\ = \mathrm{Call} + e^{- r \times T} \times K - S_{0} \\ \end{array}
 $$
 
 - For instance, if  $K = \$ 100$ ,  $S_{0} = \$ 100$ ,  $T = 1$ ,  $r = 5\%$  and  $Call = \$ 10.4506\$ , then
 
 $$
-\mathrm {P u t} = \$ 10.4506 + e ^ {- 5 \% \times 1} \times \$ 100 - \$ 100 = \$ 10.4506 + \$ 95.1229 - \$ 100 = \$ 5.5735
+\mathrm{Put} = \$ 10.4506 + e^{- 5 \% \times 1} \times \$ 100 - \$ 100 = \$ 10.4506 + \$ 95.1229 - \$ 100 = \$ 5.5735
 $$
 
 # Hedging with Options
@@ -1363,13 +1409,13 @@ $$
 1. It can hedge the risk by using a forward (or futures) contract on  $S$  with delivery price  $K$ .
 
 $$
-\Rightarrow \mathrm {P a y o f f} \mathrm {a t} T = S _ {T} + (K - S _ {T}) = K
+\Rightarrow \mathrm{Payoff} \mathrm{at} T = S_{T} + (K - S_{T}) = K
 $$
 
 2. It can insure against the risk by buying a put option
 
 $$
-\Rightarrow \mathrm {P a y o f f a t} T = S _ {T} + \max (K - S _ {T}, 0) = \left\{ \begin{array}{l l} S _ {T} & \mathrm {i f} S _ {T} > K \\ K & \mathrm {i f} S _ {T} <   K \end{array} \right.
+\Rightarrow \mathrm{Payoffat} T = S_{T} + \max (K - S_{T}, 0) = \left\{ \begin{array}{l l} S_{T} & \mathrm{if} S_{T} > K \\ K & \mathrm{if} S_{T} <   K \end{array} \right.
 $$
 
 - As any insurance contract, it costs money upfront to purchase options (the option's premium) - In contrast, it costs nothing to enter into forward contracts.
@@ -1386,20 +1432,20 @@ $$
 - A call option, European or American, is never worth more than the stock:
 
 $$
-\mathrm {C a l l} \leq S _ {t}
+\mathrm{Call} \leq S_{t}
 $$
 
 - A put option, European or American, is never worth more than the strike:
 
 $$
-\mathrm {P u t} \leq K
+\mathrm{Put} \leq K
 $$
 
 - Options never have negative values.  
 - A European put is never worth more than the present value of the strike price
 
 $$
-\mathrm {E u r o p e a n P u t} \leq K e ^ {- r (T - t)}
+\mathrm{EuropeanPut} \leq K e^{- r (T - t)}
 $$
 
 - Think what happens if a company goes bankrupt  $\Longrightarrow S_{t} = 0$ .
@@ -1410,21 +1456,21 @@ $$
 - Recall from Teaching Notes 2 (consider a non-dividend paying stock for simplicity):
 
 $$
-\mathrm {L o n g F o r w a r d} = e ^ {- r T} \left[ F _ {t, T} - K \right] = S _ {t} - K e ^ {- r (T - t)}
+\mathrm{LongForward} = e^{- r T} \left[ F_{t, T} - K \right] = S_{t} - K e^{- r (T - t)}
 $$
 
 $$
-\mathrm {S h o r t F o r w a r d} = e ^ {- r T} \left[ K - F _ {t, T} \right] = K e ^ {- r (T - t)} - S _ {t}
+\mathrm{ShortForward} = e^{- r T} \left[ K - F_{t, T} \right] = K e^{- r (T - t)} - S_{t}
 $$
 
 - So, we have
 
 $$
-\mathrm {C a l l} \geq \max \left(0, S _ {t} - K e ^ {- r (T - t)}\right)
+\mathrm{Call} \geq \max \left(0, S_{t} - K e^{- r (T - t)}\right)
 $$
 
 $$
-\mathrm {P u t} \geq \max \left(0, K e ^ {- r (T - t)} - S _ {t}\right)
+\mathrm{Put} \geq \max \left(0, K e^{- r (T - t)} - S_{t}\right)
 $$
 
 - Intuition:
@@ -1435,7 +1481,7 @@ $$
 - Putting together the previous bounds, we find that for a non-dividend paying stock the call option premium has to be in the shaded area
 
 $$
-S _ {t} \geq \mathrm {C a l l} \geq \max \left(0, S _ {t} - K e ^ {- r (T - t)}\right)
+S_{t} \geq \mathrm{Call} \geq \max \left(0, S_{t} - K e^{- r (T - t)}\right)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/6f5cd5d5aa00befa9774c819e330eee23ab97d5cd1176f6e02524d9a5d59488d.jpg)
@@ -1445,7 +1491,7 @@ $$
 - Putting together the previous bounds, we find that for a non-dividend paying stock the put option premium has to be in the shaded area
 
 $$
-e ^ {- r (T - t)} K \geq \mathrm {P u t} \geq \max \left(0, K e ^ {- r (T - t)} - S _ {t}\right)
+e^{- r (T - t)} K \geq \mathrm{Put} \geq \max \left(0, K e^{- r (T - t)} - S_{t}\right)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/ddf9777e947f000b2c5c377c546352a0c216cfd52ce408fbab15a7d9781e94a7.jpg)
@@ -1501,20 +1547,20 @@ What are you betting on here?
 - Consider the bull spread with puts. Its payoff is always positive for every stock price at maturity, and therefore its value today must be positive.
 
 $$
-\mathrm {P u t} (K _ {1}) - \mathrm {P u t} (K _ {2}) + (K _ {2} - K _ {1}) e ^ {- r (T - t)} \geq 0 \Longrightarrow (K _ {2} - K _ {1}) e ^ {- r (T - t)} \geq \mathrm {P u t} (K _ {2}) - \mathrm {P u t} (K _ {1})
+\mathrm{Put} (K_{1}) - \mathrm{Put} (K_{2}) + (K_{2} - K_{1}) e^{- r (T - t)} \geq 0 \Longrightarrow (K_{2} - K_{1}) e^{- r (T - t)} \geq \mathrm{Put} (K_{2}) - \mathrm{Put} (K_{1})
 $$
 
 - We also know that  $\operatorname{Put}(K_2) > \operatorname{Put}(K_1)$ , as  $K_2 > K_1$ .  
 - Therefore, we have:
 
 $$
-0 \leq \frac {\mathrm {P u t} (K _ {2}) - \mathrm {P u t} (K _ {1})}{K _ {2} - K _ {1}} \leq e ^ {- r (T - t)}
+0 \leq \frac{\mathrm{Put} (K_{2}) - \mathrm{Put} (K_{1})}{K_{2} - K_{1}} \leq e^{- r (T - t)}
 $$
 
 - Taking the limit at  $K_{2} \to K_{1}$ , we realize the middle term is the first derivative of a put option with respect to the strike price, obtaining
 
 $$
-0 \leq \frac {d P u t (K)}{d K} \leq e ^ {- r (T - t)}
+0 \leq \frac{d P u t (K)}{d K} \leq e^{- r (T - t)}
 $$
 
 - $\Longrightarrow$  One dollar increase in the strike price, increases the put price by less than the present value of one dollar.
@@ -1526,17 +1572,17 @@ $$
 - Consider the butterfly spread. The payoff is positive, so its value is always positive.
 
 $$
-\mathrm {P u t} (K _ {0}) - 2 \mathrm {P u t} (K _ {1}) + \mathrm {P u t} (K _ {2}) \geq 0
+\mathrm{Put} (K_{0}) - 2 \mathrm{Put} (K_{1}) + \mathrm{Put} (K_{2}) \geq 0
 $$
 
 $$
-\Longrightarrow (\operatorname {P u t} (K _ {2}) - \operatorname {P u t} (K _ {1})) - (\operatorname {P u t} (K _ {1}) - \operatorname {P u t} (K _ {0})) \geq 0
+\Longrightarrow (\operatorname{Put} (K_{2}) - \operatorname{Put} (K_{1})) - (\operatorname{Put} (K_{1}) - \operatorname{Put} (K_{0})) \geq 0
 $$
 
 - We assumed  $K_{1} = (K_{2} + K_{0}) / 2 \Longrightarrow K_{2} - K_{1} = K_{1} - K_{0}$ , therefore we obtain
 
 $$
-\frac {\mathrm {P u t} (K _ {2}) - \mathrm {P u t} (K _ {1})}{K _ {2} - K _ {1}} - \frac {\mathrm {P u t} (K _ {1}) - \mathrm {P u t} (K _ {0})}{K _ {1} - K _ {0}} \geq 0
+\frac{\mathrm{Put} (K_{2}) - \mathrm{Put} (K_{1})}{K_{2} - K_{1}} - \frac{\mathrm{Put} (K_{1}) - \mathrm{Put} (K_{0})}{K_{1} - K_{0}} \geq 0
 $$
 
 Slope between  $K_{1}$  and  $K_{2}$  Slope between  $K_{0}$  and  $K_{1}$
@@ -1618,7 +1664,7 @@ Booth School of Business
 - Given a (simple) expected return of  $R = 19\%$ , the market value today of the stock is
 
 $$
-S _ {0} = \frac {E [ S _ {1} ]}{1 + R} = \frac {q \times S _ {1 , u} + (1 - q) \times S _ {1 , d}}{1 + R} = \frac {. 7 \times 7 0 + . 3 \times 3 5}{1 . 1 9} = 5 0
+S_{0} = \frac{E [ S_{1} ]}{1 + R} = \frac{q \times S_{1 , u} + (1 - q) \times S_{1 , d}}{1 + R} = \frac{. 7 \times 7 0 + . 3 \times 3 5}{1 . 1 9} = 5 0
 $$
 
 - The stock tree is given by:
@@ -1632,15 +1678,15 @@ i = 1
 $$
 
 $$
-\boxed {S _ {0} = 5 0}
+\boxed {S_{0} = 5 0}
 $$
 
 $$
-\boxed {S _ {1, u} = 7 0}
+\boxed {S_{1, u} = 7 0}
 $$
 
 $$
-\boxed {S _ {1, d} = 3 5}
+\boxed {S_{1, d} = 3 5}
 $$
 
 - What are the expected return and variance of the stock return?
@@ -1650,13 +1696,13 @@ $$
 - Expected (Gross) Return:
 
 $$
-\begin{array}{l} E \left(\frac {S _ {1}}{S _ {0}}\right) = q \times \left(\frac {S _ {1 , u}}{S _ {0}}\right) + (1 - q) \times \left(\frac {S _ {1 , d}}{S _ {0}}\right) \\ = 0. 7 \times \left(\frac {7 0}{5 0}\right) + 0. 3 \times \left(\frac {3 5}{5 0}\right) \\ = 1. 1 9 \\ \end{array}
+\begin{array}{l} E \left(\frac{S_{1}}{S_{0}}\right) = q \times \left(\frac{S_{1 , u}}{S_{0}}\right) + (1 - q) \times \left(\frac{S_{1 , d}}{S_{0}}\right) \\ = 0. 7 \times \left(\frac{7 0}{5 0}\right) + 0. 3 \times \left(\frac{3 5}{5 0}\right) \\ = 1. 1 9 \\ \end{array}
 $$
 
 - Variance. From the definition of variance:
 
 $$
-\begin{array}{l} E \left\{\left[ \frac {S _ {1}}{S _ {0}} - E \left(\frac {S _ {1}}{S _ {0}}\right) \right] ^ {2} \right\} = q \times \left(\frac {S _ {1 , u}}{S _ {0}} - 1. 1 9\right) ^ {2} + (1 - q) \times \left(\frac {S _ {1 , d}}{S _ {0}} - 1. 1 9\right) ^ {2} \\ = 0. 7 \times \left(\frac {7 0}{5 0} - 1. 1 9\right) ^ {2} + 0. 3 \times \left(\frac {3 5}{5 0} - 1. 1 9\right) ^ {2} \\ \begin{array}{r l} {{=}} & {{. 1 0 2 9}} \end{array} \\ \end{array}
+\begin{array}{l} E \left\{\left[ \frac{S_{1}}{S_{0}} - E \left(\frac{S_{1}}{S_{0}}\right) \right]^{2} \right\} = q \times \left(\frac{S_{1 , u}}{S_{0}} - 1. 1 9\right)^{2} + (1 - q) \times \left(\frac{S_{1 , d}}{S_{0}} - 1. 1 9\right)^{2} \\ = 0. 7 \times \left(\frac{7 0}{5 0} - 1. 1 9\right)^{2} + 0. 3 \times \left(\frac{3 5}{5 0} - 1. 1 9\right)^{2} \\ \begin{array}{r l} {{=}} & {{. 1 0 2 9}} \end{array} \\ \end{array}
 $$
 
 - The standard deviation (volatility) is then  $= \sqrt{1029} = 0.3207$
@@ -1669,11 +1715,11 @@ $$
 * According to the tree, what is the value of a call option at  $T = 1$ ?
 
 $$
-\mathrm {I n t h e U p N o d e} = c _ {1, u} = \max  (S _ {1, u} - K, 0) = \max  (7 0 - 5 0, 0) = 2 0
+\mathrm{IntheUpNode} = c_{1, u} = \max  (S_{1, u} - K, 0) = \max  (7 0 - 5 0, 0) = 2 0
 $$
 
 $$
-\mathrm {I n t h e D o w n N o d e} = c _ {1, d} = \max (S _ {1, d} - K, 0) = \max (3 5 - 5 0, 0) = 0
+\mathrm{IntheDownNode} = c_{1, d} = \max (S_{1, d} - K, 0) = \max (3 5 - 5 0, 0) = 0
 $$
 
 * On the tree:
@@ -1687,27 +1733,27 @@ i = 1
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-c _ {0} = \ref {e q : 1}
+c_{0} = \ref {e q : 1}
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-c _ {1, u} = \max (7 0 - 5 0, 0) = 2 0
+c_{1, u} = \max (7 0 - 5 0, 0) = 2 0
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-c _ {1, d} = \max (3 5 - 5 0, 0) = 0
+c_{1, d} = \max (3 5 - 5 0, 0) = 0
 $$
 
 - What is the value of the call option  $c_0$ ?
@@ -1722,17 +1768,17 @@ $$
 - What is the value of the portfolio at time  $i = 1$ ?
 
 $$
-\mathrm {I n t h e U p N o d e} = P _ {1, u} = \Delta \times S _ {1, u} + B _ {0} \times e ^ {r} = 0. 5 7 1 4 \times 7 0 - 2 0 = 2 0
+\mathrm{IntheUpNode} = P_{1, u} = \Delta \times S_{1, u} + B_{0} \times e^{r} = 0. 5 7 1 4 \times 7 0 - 2 0 = 2 0
 $$
 
 $$
-\mathrm {I n t h e D o w n N o d e} = P _ {1, d} = \Delta \times S _ {1, d} + B _ {0} \times e ^ {r} = 0. 5 7 1 4 \times 3 5 - 2 0 = 0
+\mathrm{IntheDownNode} = P_{1, d} = \Delta \times S_{1, d} + B_{0} \times e^{r} = 0. 5 7 1 4 \times 3 5 - 2 0 = 0
 $$
 
 - But this is the payoff of the call option!
 
 $$
-\text {N o A r b i t r a g e} \Rightarrow c _ {0} = P _ {0} = \Delta \times S _ {0} + B _ {0} = 1 0. 6 5 4 7
+\text{NoArbitrage} \Rightarrow c_{0} = P_{0} = \Delta \times S_{0} + B_{0} = 1 0. 6 5 4 7
 $$
 
 - If not, "buy cheap and sell dear"
@@ -1745,7 +1791,7 @@ $$
 - The value portfolio of the arbitrageur is
 
 $$
-\Pi_ {0} = c _ {0} - \Delta \times S _ {0}
+\Pi_{0} = c_{0} - \Delta \times S_{0}
 $$
 
 - Delta Hedging  $\Longrightarrow$  whatever the stock does at  $i = 1$ , the portfolio value must be the same.
@@ -1754,17 +1800,17 @@ $$
 Value of Portfolio in Up Node = Value of Portfolio in Down Node
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d}
+\Pi_{1, u} = \Pi_{1, d}
 $$
 
 $$
-c _ {1, u} - \Delta \times S _ {1, u} = c _ {1, d} - \Delta \times S _ {1, d}
+c_{1, u} - \Delta \times S_{1, u} = c_{1, d} - \Delta \times S_{1, d}
 $$
 
 - One equation in one unknown  $(\Delta)$ :
 
 $$
-\Longrightarrow \Delta = \frac {c _ {1 , u} - c _ {1 , d}}{S _ {1 , u} - S _ {1 , d}}
+\Longrightarrow \Delta = \frac{c_{1 , u} - c_{1 , d}}{S_{1 , u} - S_{1 , d}}
 $$
 
 - That is:  $\Delta =$  sensitivity of call price to changes in the stock price.
@@ -1774,25 +1820,25 @@ $$
 - With this choice of  $\Delta$ , the portfolio  $\Pi$  has equal value in both up and down node:
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d}
+\Pi_{1, u} = \Pi_{1, d}
 $$
 
 - $\Longrightarrow$  its value at time  $i = 0$  must then be the simple riskless present value  $PV(\Pi_{1,u})$ , i.e.:
 
 $$
-\Pi_ {0} = e ^ {- r \times T} \times \Pi_ {1, u}
+\Pi_{0} = e^{- r \times T} \times \Pi_{1, u}
 $$
 
 - Recall that by definition  $\Pi_0 = c_0 - \Delta S_0$ . We now know  $\Pi_0$ , therefore, we obtain
 
 $$
-c _ {0} = \Delta S _ {0} + \Pi_ {0}
+c_{0} = \Delta S_{0} + \Pi_{0}
 $$
 
 - Compare this expression with the replicating portfolio  $P_{0} = \Delta S_{0} + B_{0}$  (which equals  $c_{0}$  by no arbitrage) we see that the position in bonds must then be
 
 $$
-B _ {0} = \Pi_ {0} = e ^ {- r T} \Pi_ {1, u} = e ^ {- r T} \left(c _ {1, u} - \Delta \times S _ {1, u}\right)
+B_{0} = \Pi_{0} = e^{- r T} \Pi_{1, u} = e^{- r T} \left(c_{1, u} - \Delta \times S_{1, u}\right)
 $$
 
 # Example
@@ -1806,47 +1852,47 @@ i = 1
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-c _ {0} =??
+c_{0} =??
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-c _ {1, u} = \max \left(7 0 - 5 0, 0\right) = 2 0
+c_{1, u} = \max \left(7 0 - 5 0, 0\right) = 2 0
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-c _ {1, d} = \max \left(3 5 - 5 0, 0\right) = 0
+c_{1, d} = \max \left(3 5 - 5 0, 0\right) = 0
 $$
 
 $$
-\Longrightarrow \Delta = \frac {c _ {1 , u} - c _ {1 , d}}{S _ {1 , u} - S _ {1 , d}} = \frac {2 0 - 0}{7 0 - 3 5} = 0. 5 7 1 4
+\Longrightarrow \Delta = \frac{c_{1 , u} - c_{1 , d}}{S_{1 , u} - S_{1 , d}} = \frac{2 0 - 0}{7 0 - 3 5} = 0. 5 7 1 4
 $$
 
 - The portfolio long the call and short  $\Delta$  stocks is valued at time  $i = 1$
 
 $$
-\Pi_ {1, u} = c _ {1, u} - \Delta \times S _ {1, u} = 2 0 - 0. 5 7 1 4 \times 7 0 = - 2 0
+\Pi_{1, u} = c_{1, u} - \Delta \times S_{1, u} = 2 0 - 0. 5 7 1 4 \times 7 0 = - 2 0
 $$
 
 $$
-\Pi_ {1, d} = c _ {1, d} - \Delta \times S _ {1, d} = 0 - 0. 5 7 1 4 \times 3 5 = - 2 0
+\Pi_{1, d} = c_{1, d} - \Delta \times S_{1, d} = 0 - 0. 5 7 1 4 \times 3 5 = - 2 0
 $$
 
 - The bond position is then
 
 $$
-B _ {0} = e ^ {- 11 \%} \times (- 20) = - 17.9167
+B_{0} = e^{- 11 \%} \times (- 20) = - 17.9167
 $$
 
 - A negative number indicates borrowing.
@@ -1862,7 +1908,7 @@ $$
 - Example: put option with strike price  $K = 50$ .
 
 $$
-- \Longrightarrow p _ {1, u} = 0 \mathrm {a n d} p _ {1, d} = \max (K - S _ {1, d}, 0) = 1 5
+- \Longrightarrow p_{1, u} = 0 \mathrm{and} p_{1, d} = \max (K - S_{1, d}, 0) = 1 5
 $$
 
 1. Delta:  $\Delta = \frac{p_{1,u} - p_{1,d}}{S_{1,u} - S_{1,d}} = \frac{0 - 15}{70 - 35} = -0.4285$  
@@ -1872,7 +1918,7 @@ $$
 - If you sold the option, the replicating portfolio is simply  $P_{0} = \Delta \times S_{0} + B_{0} = 5.4464$ . At  $t = 1$ :
 
 $$
-\begin{array}{l} - \Rightarrow P _ {1, u} = \Delta \times S _ {1, u} + e ^ {r} B _ {0} = 0, \text {o r} \\ - \Longrightarrow P _ {1, d} = \Delta \times S _ {1, d} + e ^ {r} B _ {0} = 1 5. \\ \end{array}
+\begin{array}{l} - \Rightarrow P_{1, u} = \Delta \times S_{1, u} + e^{r} B_{0} = 0, \text{or} \\ - \Longrightarrow P_{1, d} = \Delta \times S_{1, d} + e^{r} B_{0} = 1 5. \\ \end{array}
 $$
 
 # Where is the probability  $\pmb{q}$  of moving up?
@@ -1899,11 +1945,11 @@ $\ast \Longrightarrow$  The current value of  $S_{0}$  already depends on  $q$ .
 - Risk Neutral Pricing: Choose  $q^*$  so that all risky assets yield the risk free rate. - Find  $q^*$  such that
 
 $$
-E ^ {*} \left(\frac {S _ {1}}{S _ {0}}\right) = e ^ {r \times T}
+E^{*} \left(\frac{S_{1}}{S_{0}}\right) = e^{r \times T}
 $$
 
 $$
-\begin{array}{l} \Longrightarrow q ^ {*} \times \left(\frac {S _ {1 , u}}{S _ {0}}\right) + (1 - q ^ {*}) \times \left(\frac {S _ {1 , d}}{S _ {0}}\right) = e ^ {r \times T} \\ \Longrightarrow \quad q ^ {*} = \frac {S _ {0} \times e ^ {r \times T} - S _ {1 , d}}{S _ {1 , u} - S _ {1 , d}} \\ \end{array}
+\begin{array}{l} \Longrightarrow q^{*} \times \left(\frac{S_{1 , u}}{S_{0}}\right) + (1 - q^{*}) \times \left(\frac{S_{1 , d}}{S_{0}}\right) = e^{r \times T} \\ \Longrightarrow \quad q^{*} = \frac{S_{0} \times e^{r \times T} - S_{1 , d}}{S_{1 , u} - S_{1 , d}} \\ \end{array}
 $$
 
 # Risk Neutral Pricing
@@ -1911,7 +1957,7 @@ $$
 - We can now use  $q^*$  to price any derivative assets simply as the  $PV(\text{payoff})$ :
 
 $$
-\text {P r i c e} = E ^ {*} \left[ e ^ {- r T} \text {D e r i v a t i v e P a y o f f} \right] \tag {1}
+\text{Price} = E^{*} \left[ e^{- r T} \text{DerivativePayoff} \right] \tag {1}
 $$
 
 - The star  $*$  on  $E^{*}[\cdot]$  denotes the fact that we use the fake probability  $q^{*}$  to compute it.  
@@ -1921,19 +1967,19 @@ $$
 2. Call Price:
 
 $$
-c _ {0} = e ^ {- r \times T} \times E ^ {*} [ c _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times 2 0 + (1 - q ^ {*}) \times 0 ] = 1 0. 6 5 4 7
+c_{0} = e^{- r \times T} \times E^{*} [ c_{1} ] = e^{-. 1 1} \times [ q^{*} \times 2 0 + (1 - q^{*}) \times 0 ] = 1 0. 6 5 4 7
 $$
 
 3. Put Price:
 
 $$
-p _ {0} = e ^ {- r \times T} \times E ^ {*} [ p _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times 0 + (1 - q ^ {*}) \times 1 5 ] = 5. 4 4 6 4
+p_{0} = e^{- r \times T} \times E^{*} [ p_{1} ] = e^{-. 1 1} \times [ q^{*} \times 0 + (1 - q^{*}) \times 1 5 ] = 5. 4 4 6 4
 $$
 
 4. Forward contract to deliver at  $K = 50$
 
 $$
-f _ {0} = e ^ {- r \times T} \times E ^ {*} [ K - S _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times (5 0 - 7 0) + (1 - q ^ {*}) \times (5 0 - 3 5) ] = - 5. 2 0 8 3
+f_{0} = e^{- r \times T} \times E^{*} [ K - S_{1} ] = e^{-. 1 1} \times [ q^{*} \times (5 0 - 7 0) + (1 - q^{*}) \times (5 0 - 3 5) ] = - 5. 2 0 8 3
 $$
 
 - Any derivative security satisfies risk neutral pricing formula (1)
@@ -1957,7 +2003,7 @@ Price of Derivative Security  $= E^{*}\left[e^{-r\times T}\times \left(\mathrm{P
 - The profit at  $T$  from a forward contract is
 
 $$
-\mathrm {P r o f i t a t} T = S _ {T} - F _ {0, T}
+\mathrm{Profitat} T = S_{T} - F_{0, T}
 $$
 
 - It costs nothing to enter into a forward contract.  
@@ -1966,7 +2012,7 @@ $$
 * Zero, as risk does not matter.
 
 $$
-E ^ {*} \left[ S _ {T} - F _ {0, T} \right] = 0 \Longrightarrow F _ {0, T} = E ^ {*} \left[ S _ {T} \right]
+E^{*} \left[ S_{T} - F_{0, T} \right] = 0 \Longrightarrow F_{0, T} = E^{*} \left[ S_{T} \right]
 $$
 
 - If everybody is risk neutral, what should be the return on stocks?
@@ -1974,13 +2020,13 @@ $$
 * The risk free rate
 
 $$
-S _ {0} = e ^ {- r \times T} E ^ {*} [ S _ {T} ]
+S_{0} = e^{- r \times T} E^{*} [ S_{T} ]
 $$
 
 - Thus, we find
 
 $$
-F _ {0, T} = E ^ {*} \left[ S _ {T} \right] = S _ {0} \times e ^ {r \times T}
+F_{0, T} = E^{*} \left[ S_{T} \right] = S_{0} \times e^{r \times T}
 $$
 
 - The same result as in TN2.
@@ -1991,25 +2037,25 @@ $$
 - In a swap, two counterparties agree to exchange at  $T_{1}, T_{2}, \ldots, T_{n}$
 
 $$
-\mathrm {C a s h F l o w a t} T _ {i} = (S _ {T _ {i}} - K)
+\mathrm{CashFlowat} T_{i} = (S_{T_{i}} - K)
 $$
 
 - The value of the swap at time zero can be computed using the risk neutral pricing formula
 
 $$
-\begin{array}{l} V _ {0} ^ {s w a p} = \mathrm {P r e s e n t V a l u e (u s i n g} r) \mathrm {o f E x p e c t e d F u t u r e C a s h F l o w s (u s i n g} q ^ {*}) \\ = e ^ {- r \times T _ {1}} \times E ^ {*} [ S _ {T _ {1}} - K ] + e ^ {- r \times T _ {2}} \times E ^ {*} [ S _ {T _ {2}} - K ] + \ldots + e ^ {- r \times T _ {n}} \times E ^ {*} [ S _ {T _ {n}} - K ] \\ \end{array}
+\begin{array}{l} V_{0}^{s w a p} = \mathrm{PresentValue (using} r) \mathrm{ofExpectedFutureCashFlows (using} q^{*}) \\ = e^{- r \times T_{1}} \times E^{*} [ S_{T_{1}} - K ] + e^{- r \times T_{2}} \times E^{*} [ S_{T_{2}} - K ] + \ldots + e^{- r \times T_{n}} \times E^{*} [ S_{T_{n}} - K ] \\ \end{array}
 $$
 
 - From Risk Neutral Pricing formula, we know  $F_{0,T_i} = E^*[S_{T_i}]$
 
 $$
-V _ {0} ^ {s w a p} = e ^ {- r \times T _ {1}} \times [ F _ {0, T _ {1}} - K ] + e ^ {- r \times T _ {2}} \times [ F _ {0, T _ {2}} - K ] + \ldots + e ^ {- r \times T _ {n}} \times [ F _ {0, T _ {n}} - K ]
+V_{0}^{s w a p} = e^{- r \times T_{1}} \times [ F_{0, T_{1}} - K ] + e^{- r \times T_{2}} \times [ F_{0, T_{2}} - K ] + \ldots + e^{- r \times T_{n}} \times [ F_{0, T_{n}} - K ]
 $$
 
 - If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0\$  and solve for  $K$
 
 $$
-K = w _ {1} F _ {0, T _ {1}} + w _ {2} F _ {0, T _ {2}} + \ldots + w _ {n} F _ {0, T _ {n}} \quad \mathrm {w h e r e} \quad w _ {i} = \frac {e ^ {- r T _ {i}}}{e ^ {- r T _ {1}} + e ^ {- r T _ {2}} + \ldots + e ^ {- r T _ {n}}}
+K = w_{1} F_{0, T_{1}} + w_{2} F_{0, T_{2}} + \ldots + w_{n} F_{0, T_{n}} \quad \mathrm{where} \quad w_{i} = \frac{e^{- r T_{i}}}{e^{- r T_{1}} + e^{- r T_{2}} + \ldots + e^{- r T_{n}}}
 $$
 
 # Risk Neutral Pricing and Discount Rates
@@ -2025,7 +2071,7 @@ $$
 - As a final comment, we found that the forward price is
 
 $$
-F _ {0, T} = E ^ {*} [ S _ {T} ]
+F_{0, T} = E^{*} [ S_{T} ]
 $$
 
 - I.e. the forward price is the risk neutral expected future stock price.
@@ -2033,19 +2079,19 @@ $$
 - In particular, a risk adjustment has to be made. In fact, we have
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {r \times T}
+F_{0, T} = S_{0} \times e^{r \times T}
 $$
 
 - However, we also know that using the true expectations and expected return for stocks  $\mu$ :
 
 $$
-E [ S _ {T} ] = S _ {0} \times e ^ {\mu \times T}
+E [ S_{T} ] = S_{0} \times e^{\mu \times T}
 $$
 
 - Substitute, to obtain the relation
 
 $$
-F _ {0, T} = e ^ {- (\mu - r) \times T} E [ S _ {T} ]
+F_{0, T} = e^{- (\mu - r) \times T} E [ S_{T} ]
 $$
 
 - $\Rightarrow$  The forward price is the expected future stock price, discounted at the excess rate of return  $(\mu - r)$
@@ -2074,7 +2120,7 @@ source:Financial Times www.ft.com)
 - Notice in fact that if the risk premium  $\mu - r_{\S}$  is negative (e.g. if the Euro moves inversely with the US stock market) then we may well have
 
 $$
-F _ {0, 1} = e ^ {- (\mu - r _ {\S}) T} E [ M _ {1} ] = 1. 3 5 0 6 > M _ {0} \quad \mathrm {b u t} \quad E [ M _ {1} ] \leq M _ {0}
+F_{0, 1} = e^{- (\mu - r_{\S}) T} E [ M_{1} ] = 1. 3 5 0 6 > M_{0} \quad \mathrm{but} \quad E [ M_{1} ] \leq M_{0}
 $$
 
 - This example simply illustrates that the relation between forward prices and expected forward prices is complicated by the risk
@@ -2085,27 +2131,27 @@ $$
 - Consider the two step binomial tree
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ S _ {2, u u} = 1 0 0 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ S_{2, u u} = 1 0 0 \\ \end{array}
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-\begin{array}{c} S _ {2, u d} \\ S _ {2, d u} \end{array} = 5 0
+\begin{array}{c} S_{2, u d} \\ S_{2, d u} \end{array} = 5 0
 $$
 
 $$
-S _ {2, d d} = 2 5
+S_{2, d d} = 2 5
 $$
 
 - We want to price an option with maturity  $T = 2$  and strike price  $K = 50$ .  
@@ -2128,67 +2174,67 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 0 0
+S_{2, u u} = 1 0 0
 $$
 
 $$
-c _ {2, u u} = 5 0
+c_{2, u u} = 5 0
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-c _ {0} =??
+c_{0} =??
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-\Delta_ {1, u} = (5 0 - 0) / (1 0 0 - 5 0) = 1
+\Delta_{1, u} = (5 0 - 0) / (1 0 0 - 5 0) = 1
 $$
 
 $$
-B _ {1, u} = e ^ {- r} \left(c _ {2, u u} - \Delta_ {1, u} S _ {2, u u}\right) = - 4 4. 7 9 1 7
+B_{1, u} = e^{- r} \left(c_{2, u u} - \Delta_{1, u} S_{2, u u}\right) = - 4 4. 7 9 1 7
 $$
 
 $$
-c _ {1, u} = \Delta_ {1, u} \times S _ {1, u} + B _ {1, u} = 2 5. 2 0 8 3
+c_{1, u} = \Delta_{1, u} \times S_{1, u} + B_{1, u} = 2 5. 2 0 8 3
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 5 0
+S_{2, u d} = S_{2, d u} = 5 0
 $$
 
 $$
-c _ {2, u d} = c _ {2, d u} = 0
+c_{2, u d} = c_{2, d u} = 0
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-\Delta_ {1, d} = (0 - 0) / (5 0 - 2 5) = 0
+\Delta_{1, d} = (0 - 0) / (5 0 - 2 5) = 0
 $$
 
 $$
-B _ {1, d} = e ^ {- r} \left(c _ {2, d d} - \Delta_ {1, d} S _ {2, d d}\right) = 0
+B_{1, d} = e^{- r} \left(c_{2, d d} - \Delta_{1, d} S_{2, d d}\right) = 0
 $$
 
 $$
-c _ {1, d} = \Delta_ {1, d} \times S _ {1, d} + B _ {1, d} = 0
+c_{1, d} = \Delta_{1, d} \times S_{1, d} + B_{1, d} = 0
 $$
 
 $$
-S _ {2, d d} = 2 5
+S_{2, d d} = 2 5
 $$
 
 $$
-c _ {2, d d} = 0
+c_{2, d d} = 0
 $$
 
 # Methodology 1: Dynamic Replication (cntd.)
@@ -2205,35 +2251,35 @@ i = 1
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-c _ {1, u} = 2 5. 2 0 8 3
+c_{1, u} = 2 5. 2 0 8 3
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-\Delta_ {0} = (2 5. 2 0 8 3 - 0) / (7 0 - 3 5) = 0. 7 2 0 2
+\Delta_{0} = (2 5. 2 0 8 3 - 0) / (7 0 - 3 5) = 0. 7 2 0 2
 $$
 
 $$
-B _ {0} = e ^ {- r} \times (c _ {1, u} - \Delta_ {0} \times S _ {1, u}) = - 2 2. 5 8 2 4
+B_{0} = e^{- r} \times (c_{1, u} - \Delta_{0} \times S_{1, u}) = - 2 2. 5 8 2 4
 $$
 
 $$
-c _ {0} = \Delta_ {0} \times S _ {0} + B _ {0} = 1 3. 4 2 9 4
+c_{0} = \Delta_{0} \times S_{0} + B_{0} = 1 3. 4 2 9 4
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-c _ {1, d} = 0
+c_{1, d} = 0
 $$
 
 - Not exactly a piece of cake.  
@@ -2256,23 +2302,23 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 0 0
+S_{2, u u} = 1 0 0
 $$
 
 $$
-c _ {2, u u} = 5 0
+c_{2, u u} = 5 0
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 5 0
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 9 4 7
+q_{0}^{*} = 0. 5 9 4 7
 $$
 
 $$
-c _ {0} = e ^ {- r} \times q _ {0} ^ {*} \times c _ {1, u}
+c_{0} = e^{- r} \times q_{0}^{*} \times c_{1, u}
 $$
 
 $$
@@ -2280,39 +2326,39 @@ $$
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1, u} = 7 0
 $$
 
 $$
-q _ {1, u} ^ {*} = (7 0 e ^ {r} - 5 0) / (1 0 0 - 5 0) = 0. 5 6 2 8
+q_{1, u}^{*} = (7 0 e^{r} - 5 0) / (1 0 0 - 5 0) = 0. 5 6 2 8
 $$
 
 $$
-c _ {1, u} = e ^ {- r} \times q _ {1, u} ^ {*} \times c _ {2, u u} = 2 5. 2 0 8 3
+c_{1, u} = e^{- r} \times q_{1, u}^{*} \times c_{2, u u} = 2 5. 2 0 8 3
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 5 0
+S_{2, u d} = S_{2, d u} = 5 0
 $$
 
 $$
-c _ {2, u d} = c _ {2, d u} = 0
+c_{2, u d} = c_{2, d u} = 0
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1, d} = 3 5
 $$
 
 $$
-c _ {1, d} = e ^ {- r} \times E ^ {*} [ c _ {2} ] = 0
+c_{1, d} = e^{- r} \times E^{*} [ c_{2} ] = 0
 $$
 
 $$
-S _ {2, d d} = 2 5
+S_{2, d d} = 2 5
 $$
 
 $$
-c _ {2, d d} = 0
+c_{2, d d} = 0
 $$
 
 # Risk Neutral Pricing
@@ -2324,7 +2370,7 @@ $$
 - We then have
 
 $$
-V _ {i, j} = e ^ {- r \times h} \times E ^ {*} [ V _ {i + 1} | (\mathrm {t i m e}, \mathrm {n o d e}) = (i, j) ]
+V_{i, j} = e^{- r \times h} \times E^{*} [ V_{i + 1} | (\mathrm{time}, \mathrm{node}) = (i, j) ]
 $$
 
 - where  $h$  is the time interval between steps in the tree
@@ -2334,31 +2380,31 @@ $$
 - Indeed, if we know the (risk neutral) probabilities of stock prices at time  $T$ , risk neutral pricing can be applied directly using
 
 $$
-V _ {0} = e ^ {- r \times T} \times E ^ {*} [ \mathrm {P a y o f f a t} T ]
+V_{0} = e^{- r \times T} \times E^{*} [ \mathrm{Payoffat} T ]
 $$
 
 - In previous example,
 
 $$
-\begin{array}{l} * \operatorname * {P r} (S _ {2, u u}) = q _ {0} ^ {*} \times q _ {1, u} ^ {*} = 0. 3 3 4 7; \\ * \operatorname * {P r} (S _ {2, u d}) = q _ {0} ^ {*} \times (1 - q _ {1, u} ^ {*}) + (1 - q _ {0} ^ {*}) * q _ {1, d} = 0. 4 8 8 1; \mathrm {a n d} \\ * \operatorname * {P r} (S _ {2, d d}) = 0. 1 7 7 2 \\ \end{array}
+\begin{array}{l} * \operatorname * {P r} (S_{2, u u}) = q_{0}^{*} \times q_{1, u}^{*} = 0. 3 3 4 7; \\ * \operatorname * {P r} (S_{2, u d}) = q_{0}^{*} \times (1 - q_{1, u}^{*}) + (1 - q_{0}^{*}) * q_{1, d} = 0. 4 8 8 1; \mathrm{and} \\ * \operatorname * {P r} (S_{2, d d}) = 0. 1 7 7 2 \\ \end{array}
 $$
 
 - Thus, the price of the call option with strike  $K = 50$  is
 
 $$
-c _ {0} = e ^ {-. 1 1 \times 2} \times 0. 3 3 4 7 \times (1 0 0 - 5 0) = 1 3. 4 2 9 4
+c_{0} = e^{-. 1 1 \times 2} \times 0. 3 3 4 7 \times (1 0 0 - 5 0) = 1 3. 4 2 9 4
 $$
 
 - The price of a put is
 
 $$
-p _ {0} = e ^ {- 0. 1 1 \times 2} \times 0. 1 7 7 2 \times (5 0 - 2 5) = 3. 5 5 5.
+p_{0} = e^{- 0. 1 1 \times 2} \times 0. 1 7 7 2 \times (5 0 - 2 5) = 3. 5 5 5.
 $$
 
 - The price of a short forward
 
 $$
-f _ {0} = e ^ {- 0. 1 1 \times 2} \left[ 0. 3 3 4 7 \times (5 0 - 1 0 0) + 0. 4 8 8 1 \times (5 0 - 5 0) + 0. 1 7 7 2 \times (5 0 - 2 5) \right] = - 9. 8 7 4 1
+f_{0} = e^{- 0. 1 1 \times 2} \left[ 0. 3 3 4 7 \times (5 0 - 1 0 0) + 0. 4 8 8 1 \times (5 0 - 5 0) + 0. 1 7 7 2 \times (5 0 - 2 5) \right] = - 9. 8 7 4 1
 $$
 
 # Multi Step Trees
@@ -2369,7 +2415,7 @@ $$
 - That is, over a small interval of time  $h$ :
 
 $$
-E \left[ \frac {S _ {t + h}}{S _ {t}} \right] = e ^ {\mu \times h}; \quad \mathrm {a n d} \quad E \left[ \left(\frac {S _ {t + h}}{S _ {t}} - e \mu h\right) ^ {2} \right] = \sigma^ {2} \times h
+E \left[ \frac{S_{t + h}}{S_{t}} \right] = e^{\mu \times h}; \quad \mathrm{and} \quad E \left[ \left(\frac{S_{t + h}}{S_{t}} - e \mu h\right)^{2} \right] = \sigma^{2} \times h
 $$
 
 - Consider an option with maturity  $T$ .  
@@ -2382,7 +2428,7 @@ $\ast \Longrightarrow i\times h =$  calendar time on the tree.
 - Assume that the stock process follows:
 
 $$
-S _ {i + 1} = \left\{ \begin{array}{l l} S _ {i} \times u & \text {w i t h p r o b a b i l i t y} q \\ S _ {i} \times d & \text {w i t h p r o b a b i l i t y} 1 - q \end{array} \right. \tag {1}
+S_{i + 1} = \left\{ \begin{array}{l l} S_{i} \times u & \text{withprobability} q \\ S_{i} \times d & \text{withprobability} 1 - q \end{array} \right. \tag {1}
 $$
 
 - We now choose  $u, d$  and  $q$  to approximate the expected return  $\mu$  and variance  $\sigma^2$  on the tree.  
@@ -2391,13 +2437,13 @@ $$
 1. Expected Return:  $E\left(\frac{S_{i + 1}}{S_i}\right) = e^{\mu \times h}$  so that
 
 $$
-q \times u + (1 - q) \times d = e ^ {\mu \times h}
+q \times u + (1 - q) \times d = e^{\mu \times h}
 $$
 
 2. Variance:  $E\left(\left(\frac{S_{i + 1}}{S_i} - e^{\mu \times h}\right)^2\right) = \sigma^2 \times h$  which implies
 
 $$
-q \left(u - e ^ {\mu \times h}\right) ^ {2} + (1 - q) \left(d - e ^ {\mu \times h}\right) ^ {2} = \sigma^ {2} \times h
+q \left(u - e^{\mu \times h}\right)^{2} + (1 - q) \left(d - e^{\mu \times h}\right)^{2} = \sigma^{2} \times h
 $$
 
 - We have two equations and three parameters to choose  $\Longrightarrow$  we have one degree of freedom left. The following assumption gives symmetry to the problem.
@@ -2413,7 +2459,7 @@ $$
 - These three equations in three unknowns give the solution:
 
 $$
-u = e ^ {\sigma \times \sqrt {h}}; d = 1 / u; \mathrm {a n d} q = \frac {e ^ {\mu \times h} - d}{u - d}.
+u = e^{\sigma \times \sqrt{h}}; d = 1 / u; \mathrm{and} q = \frac{e^{\mu \times h} - d}{u - d}.
 $$
 
 - We can then use these parameters and the procedure (1) to construct our tree relatively easily.  
@@ -2438,13 +2484,13 @@ $$
 1. Compute the risk neutral probability
 
 $$
-q ^ {*} = \frac {e ^ {r \times h} - d}{u - d}
+q^{*} = \frac{e^{r \times h} - d}{u - d}
 $$
 
 2. Move backward on the tree using
 
 $$
-V _ {i, j} = e ^ {- r \times h} \times E ^ {*} [ V _ {i + 1} | (i, j) ]
+V_{i, j} = e^{- r \times h} \times E^{*} [ V_{i + 1} | (i, j) ]
 $$
 
 * where  $i, j$  is the (time, node) state on the tree.
@@ -2452,13 +2498,13 @@ $$
 - For instance, for call options, start from the end of the tree with the final condition
 
 $$
-c _ {n, j} = \max (S _ {n, j} - K, 0) \quad \mathrm {f o r} \quad j = 0, 1, \ldots , n
+c_{n, j} = \max (S_{n, j} - K, 0) \quad \mathrm{for} \quad j = 0, 1, \ldots , n
 $$
 
 - Then move backward applying
 
 $$
-c _ {i, j} = e ^ {- r \times h} \times (q ^ {*} c _ {i + 1, j} + (1 - q ^ {*}) c _ {i + 1, j + 1})
+c_{i, j} = e^{- r \times h} \times (q^{*} c_{i + 1, j} + (1 - q^{*}) c_{i + 1, j + 1})
 $$
 
 # Multi Step Trees: Example
@@ -2496,7 +2542,7 @@ Option Price
 - If each up  $u$  has probability  $q^*$ , what is the probability of reaching exactly node  $j$ ?
 
 $$
-\operatorname * {P r} \left(\mathrm {n o d e} = j \mathrm {a t} T = n \times h\right) = \left(\frac {n !}{j ! (n - j) !}\right) \times (q ^ {*}) ^ {n - j} \times (1 - q ^ {*}) ^ {j}
+\operatorname * {P r} \left(\mathrm{node} = j \mathrm{at} T = n \times h\right) = \left(\frac{n !}{j ! (n - j) !}\right) \times (q^{*})^{n - j} \times (1 - q^{*})^{j}
 $$
 
 * where  $n! = 1 \times 2 \times 3 \times \ldots \times n$  (note:  $0! = 1$ ).
@@ -2508,11 +2554,11 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/489e2851d11895d8c9dcad1064830f5c687a435d7b37a36aab4567112d646f4a.jpg)
 
 $$
-\operatorname * {P r} \left(j = 0 \mathrm {a t} T = n \times h\right) = \left(\frac {3 !}{0 ! \times 3 !}\right) \times (q ^ {*}) ^ {3} \times (1 - q ^ {*}) ^ {0} = (q ^ {*}) ^ {3}
+\operatorname * {P r} \left(j = 0 \mathrm{at} T = n \times h\right) = \left(\frac{3 !}{0 ! \times 3 !}\right) \times (q^{*})^{3} \times (1 - q^{*})^{0} = (q^{*})^{3}
 $$
 
 $$
-\operatorname * {P r} \left(j = 1 \mathrm {a t} T = n \times h\right) = \left(\frac {3 \times 2}{1 \times 2}\right) \times (q ^ {*}) ^ {2} \times (1 - q ^ {*}) = 3 (q ^ {*}) ^ {2} (1 - q ^ {*})
+\operatorname * {P r} \left(j = 1 \mathrm{at} T = n \times h\right) = \left(\frac{3 \times 2}{1 \times 2}\right) \times (q^{*})^{2} \times (1 - q^{*}) = 3 (q^{*})^{2} (1 - q^{*})
 $$
 
 # Multi Step Trees: Probability Distribution of  $S_T$
@@ -2537,7 +2583,7 @@ Log Stock Price
 - The option price from the binomial tree is given by
 
 $$
-c = E ^ {*} \left[ e ^ {- r T} \max (S _ {T} - K, 0) \right] = \sum_ {j = 1} ^ {n} e ^ {- r T} \max (S _ {n, j} - K, 0) Q _ {n, j} ^ {*}
+c = E^{*} \left[ e^{- r T} \max (S_{T} - K, 0) \right] = \sum_{j = 1}^{n} e^{- r T} \max (S_{n, j} - K, 0) Q_{n, j}^{*}
 $$
 
 - where  $Q_{n,j}^{*}$  is the risk neutral probability of  $S_{n,j}$ .<sup>2</sup>
@@ -2548,7 +2594,7 @@ $f(S_{T}) = \operatorname{Log}$  normal distribution with mean  $\mu_{T}$  and s
 - Then, we obtain the statement that as  $n$  increases, the call option is given by:
 
 $$
-c = \int_ {0} ^ {\infty} e ^ {- r T} \max (S _ {T} - K, 0) f (S _ {T}) d S _ {T}
+c = \int_{0}^{\infty} e^{- r T} \max (S_{T} - K, 0) f (S_{T}) d S_{T}
 $$
 
 - This formula leads to Black and Scholes formula, discussed in next teaching notes.
@@ -2595,7 +2641,7 @@ Booth School of Business
 - That is, if the log return during a small time interval  $h$  be  $R_{t} = \log (S_{t + h} / S_{t})$ , assume
 
 $$
-E [ R _ {t} ] = \mu \times h; E [ R _ {t} ^ {2} ] = \sigma^ {2} \times h
+E [ R_{t} ] = \mu \times h; E [ R_{t}^{2} ] = \sigma^{2} \times h
 $$
 
 - ( $\mu$  and  $\sigma$ , are the annualized expected log return and volatility)
@@ -2611,7 +2657,7 @@ $$
 - Here  $N(x)$  is the standard normal cumulative density function, and  $d_{1,t}$  is
 
 $$
-d _ {1, t} = \frac {\ln (S _ {t} / K) + (r + \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+d_{1, t} = \frac{\ln (S_{t} / K) + (r + \sigma^{2} / 2) (T - t)}{\sigma \sqrt{T - t}}
 $$
 
 - $r$  is the continuously compounded risk free rate;  $\sigma$  is the volatility of stock returns.
@@ -2623,7 +2669,7 @@ Here  $d_{2,0} = d_{1,t} - \sigma \times \sqrt{T}$
 - The portfolio so constructed has value at time 0
 
 $$
-P _ {0} = B _ {0} + \Delta_ {0} S _ {0}
+P_{0} = B_{0} + \Delta_{0} S_{0}
 $$
 
 - (it can be shown  $P_{0} > 0$ ).
@@ -2638,7 +2684,7 @@ $$
 - For instance, let  $S = K = 100$ ,  $T = 1$ ,  $r = 5\%$ ,  $\sigma = 20\%$ . Then,
 
 $$
-d _ {1} = . 3 5; d _ {2} = . 1 5; N (- d _ {1}) = 0. 3 6 3 2; N (- d _ {2}) = 0. 4 4 0 4 \Longrightarrow \Delta_ {0} = - N (- d _ {1}) = - 0. 3 6 3 2
+d_{1} = . 3 5; d_{2} = . 1 5; N (- d_{1}) = 0. 3 6 3 2; N (- d_{2}) = 0. 4 4 0 4 \Longrightarrow \Delta_{0} = - N (- d_{1}) = - 0. 3 6 3 2
 $$
 
 - Initial short position in stocks:  $\Delta \times 100 = -N(d_{1}) \times 100 = -0.3632 \times 100 = -\$36.32.$
@@ -2658,7 +2704,7 @@ New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - 
 - That is, at maturity
 
 $$
-P _ {T} = \Delta_ {T} S _ {T} + B _ {T} = \max (K - S _ {T}, 0)
+P_{T} = \Delta_{T} S_{T} + B_{T} = \max (K - S_{T}, 0)
 $$
 
 - Proof by simulation: Next two figures show that the strategy works, even when portfolio rebalancing is at daily interval  $(h = 1 / 252)$ .
@@ -2687,7 +2733,7 @@ Replicating Portfolio and Black and Scholes Price
 - Since portfolio  $P_{t}$  replicates the payoff of the put option, the value of the portfolio at any time must equal the value of the put option.
 - Why?  
 - Arbitrage: "Buy Cheap / Sell Dear".  
-- For instance, if  $P_t < \text{Put Option Premium} \Rightarrow$
+- For instance, if  $P_t < \text{PutOptionPremium} \Rightarrow$
 
 1. Sell option and set up the replicating portfolio (which costs  $P_{t}$ )  
 2. Today make (Put Option Premium  $-P_{t}) > 0$  
@@ -2696,14 +2742,14 @@ Replicating Portfolio and Black and Scholes Price
 - In particular, at time 0, the value of the option must be
 
 $$
-\begin{array}{l} \mathrm {P u t P r e m i u m a t 0 ,} p _ {0} = P _ {0} = B _ {0} + \Delta_ {0} \times S _ {0} \\ = K \times e ^ {- r T} \times N (- d _ {2, 0}) - S _ {0} \times N (- d _ {1, 0}) \\ \end{array}
+\begin{array}{l} \mathrm{PutPremiumat0 ,} p_{0} = P_{0} = B_{0} + \Delta_{0} \times S_{0} \\ = K \times e^{- r T} \times N (- d_{2, 0}) - S_{0} \times N (- d_{1, 0}) \\ \end{array}
 $$
 
 - This is the celebrated "Black and Scholes" formula for option pricing.
 - Similarly, a call option formula is given by
 
 $$
-\mathrm {C a l l P r e m i u m a t 0 ,} c _ {0} = S _ {0} \times N (d _ {1, 0}) - K \times e ^ {- r T} \times N (d _ {2, 0})
+\mathrm{CallPremiumat0 ,} c_{0} = S_{0} \times N (d_{1, 0}) - K \times e^{- r T} \times N (d_{2, 0})
 $$
 
 # Delta Hedging and Dynamic Replication
@@ -2719,13 +2765,13 @@ $$
 - What is the sensitivity of  $\Pi$  to small variations in stocks?
 
 $$
-\frac {d \Pi}{d S} = - \frac {d p}{d S} + \Delta \times 1 + 0
+\frac{d \Pi}{d S} = - \frac{d p}{d S} + \Delta \times 1 + 0
 $$
 
 - The portfolio  $\Pi$  is delta hedged ( $d\ \Pi / d\ S = 0$ ) if
 
 $$
-\Delta = \frac {d p}{d S}
+\Delta = \frac{d p}{d S}
 $$
 
 - It can be shown that indeed  $\Delta = -N(-d_{1})$  is exactly  $d p / d S$
@@ -2745,30 +2791,30 @@ $$
 - We then have
 
 $$
-d _ {1} = \frac {\log \left(\frac {S}{K}\right) + (r - \delta + \sigma^ {2} / 2) T}{\sigma \sqrt {T}} = \frac {\log \left(\frac {1 0 0}{1 0 0}\right) + (. 0 5 + (0 . 3 0) ^ {2} / 2) \times 1}{0 . 3 0 \sqrt {1}} = 0. 3 1 6 7;
+d_{1} = \frac{\log \left(\frac{S}{K}\right) + (r - \delta + \sigma^{2} / 2) T}{\sigma \sqrt{T}} = \frac{\log \left(\frac{1 0 0}{1 0 0}\right) + (. 0 5 + (0 . 3 0)^{2} / 2) \times 1}{0 . 3 0 \sqrt{1}} = 0. 3 1 6 7;
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {T} = 0. 3 1 6 7 -. 3 \sqrt {1} = 0. 0 1 6 7
+d_{2} = d_{1} - \sigma \sqrt{T} = 0. 3 1 6 7 -. 3 \sqrt{1} = 0. 0 1 6 7
 $$
 
 - Therefore  $N(d_{1}) = 0.62425$  and  $N(d_{2}) = 0.50665$ .  
 - The value of the call option is
 
 $$
-c _ {0} = S N (d _ {1}) - K e ^ {- r T} N (d _ {2}) = 1 0 0 \times 0. 6 2 4 2 5 - 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 5 0 6 6 5 = 1 4. 2 3 1 2
+c_{0} = S N (d_{1}) - K e^{- r T} N (d_{2}) = 1 0 0 \times 0. 6 2 4 2 5 - 1 0 0 \times e^{. 0 5 \times 1} \times 0. 5 0 6 6 5 = 1 4. 2 3 1 2
 $$
 
 - The value of a put option can be computed from these data by recalling that
 
 $$
-N (- d _ {1}) = 1 - N (d _ {1}) = 0. 3 7 5 7 5; \quad N (- d _ {2}) = 1 - N (d _ {2}) = 0. 4 9 3 3 5
+N (- d_{1}) = 1 - N (d_{1}) = 0. 3 7 5 7 5; \quad N (- d_{2}) = 1 - N (d_{2}) = 0. 4 9 3 3 5
 $$
 
 so that
 
 $$
-p _ {0} = - S N (- d _ {1}) + K e ^ {- r T} N (- d _ {2}) = - 1 0 0 \times 0. 3 7 5 7 5 + 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 4 9 3 3 5 = 9. 3 5 4 2
+p_{0} = - S N (- d_{1}) + K e^{- r T} N (- d_{2}) = - 1 0 0 \times 0. 3 7 5 7 5 + 1 0 0 \times e^{. 0 5 \times 1} \times 0. 4 9 3 3 5 = 9. 3 5 4 2
 $$
 
 # The Binomial Tree and Black and Scholes Formula
@@ -2793,15 +2839,15 @@ i = 1
 $$
 
 $$
-\begin{array}{l} {S _ {0}} \\ {c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ]} \end{array}
+\begin{array}{l} {S_{0}} \\ {c_{0} = e^{- r \times T} E^{*} [ \max (S_{1} - K, 0) ]} \end{array}
 $$
 
 $$
-\begin{array}{l} {S _ {1, u} = S _ {0} \times u} \\ {c _ {1, u} = \max (S _ {1} - K, 0) = S _ {1} - K} \end{array}
+\begin{array}{l} {S_{1, u} = S_{0} \times u} \\ {c_{1, u} = \max (S_{1} - K, 0) = S_{1} - K} \end{array}
 $$
 
 $$
-\begin{array}{l} {S _ {1, d} = S _ {0} \times d} \\ {c _ {1, d} = \max (S _ {1} - K, 0) = 0} \end{array}
+\begin{array}{l} {S_{1, d} = S_{0} \times d} \\ {c_{1, d} = \max (S_{1} - K, 0) = 0} \end{array}
 $$
 
 - Consider  $i = 0$  and  $i = 1$  with  $S_{1,u} = S_0 \times u$  and  $S_{1,d} = S_0 \times d$ .  
@@ -2813,25 +2859,25 @@ $$
 - The price of the option at time 0 according to risk neutral pricing is the
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ] \\ = e ^ {- r \times T} \times [ q ^ {*} \times \max (S _ {1, u} - K, 0) + (1 - q ^ {*}) \times \max (S _ {1, d} - K, 0) ] \\ = e ^ {- r \times T} \times q ^ {*} \times (S _ {1, u} - K) \\ = S _ {0} \times e ^ {- r \times T} \times q ^ {*} \times u - e ^ {- r \times T} \times K \times q ^ {*} \\ = S _ {0} \times N _ {1} - e ^ {- r \times T} \times K \times N _ {2} \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r \times T} E^{*} [ \max (S_{1} - K, 0) ] \\ = e^{- r \times T} \times [ q^{*} \times \max (S_{1, u} - K, 0) + (1 - q^{*}) \times \max (S_{1, d} - K, 0) ] \\ = e^{- r \times T} \times q^{*} \times (S_{1, u} - K) \\ = S_{0} \times e^{- r \times T} \times q^{*} \times u - e^{- r \times T} \times K \times q^{*} \\ = S_{0} \times N_{1} - e^{- r \times T} \times K \times N_{2} \\ \end{array}
 $$
 
 - where, defining by  $u_{cc}$  the annualized c.c. return from an up movement  $S_{1,u} / S_0 = e^{u_{cc}\times T} = u$
 
 $$
-N _ {1} = e ^ {- r \times T} \times q ^ {*} \times u = e ^ {(u _ {c c} - r) \times T} \times q ^ {*} \quad \mathrm {a n d} \quad N _ {2} = q ^ {*}
+N_{1} = e^{- r \times T} \times q^{*} \times u = e^{(u_{c c} - r) \times T} \times q^{*} \quad \mathrm{and} \quad N_{2} = q^{*}
 $$
 
 - The similarity with Black and Scholes formula is not coincidental
 
 $$
-\mathrm {C a l l} = S \times N (d _ {1}) - K \times e ^ {- r T} \times N (d _ {2})
+\mathrm{Call} = S \times N (d_{1}) - K \times e^{- r T} \times N (d_{2})
 $$
 
 - Interpretation:
 
 $$
-\begin{array}{l} - N _ {2} = N (d _ {2}) \mathrm {r i s k n e u t r a l p r o b a b i l i t y t o b e i n t h e m o n e y a t m a t u r i t y}; \\ - N _ {1} = N (d _ {1}) \mathrm {r i s k n e u t r a l e x p e c t e d e x c e s s r e t u r n c o n d i t i o n a l o n e x e r c i s e a t} T. \\ \end{array}
+\begin{array}{l} - N_{2} = N (d_{2}) \mathrm{riskneutralprobabilitytobeinthemoneyatmaturity}; \\ - N_{1} = N (d_{1}) \mathrm{riskneutralexpectedexcessreturnconditionalonexerciseat} T. \\ \end{array}
 $$
 
 # The Binomial Tree and Black and Scholes Formula
@@ -2839,7 +2885,7 @@ $$
 - Indeed, recall we obtained the following formula in TN 4 for a large number of steps  $n$ :
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r T} E ^ {*} [ \max (S _ {T} - K, 0) ] \\ = e ^ {- r \times T} \sum_ {j = 0} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \max (S _ {T, j} - K, 0) \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r T} E^{*} [ \max (S_{T} - K, 0) ] \\ = e^{- r \times T} \sum_{j = 0}^{n} \left(\frac{n !}{j ! (n - j) !}\right) \max (S_{T, j} - K, 0) \\ \end{array}
 $$
 
 where  $S_{T,j} = S_0 \times u^{(n - j)} \times d^j$ .  
@@ -2848,11 +2894,11 @@ where  $S_{T,j} = S_0 \times u^{(n - j)} \times d^j$ .
 - Putting all together:
 
 $$
-\begin{array}{l} c _ {0} = e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) (S _ {T, j} - K) \\ = S _ {0} \times N _ {1} - K \times e ^ {- r \times T} \times N _ {2} \\ \end{array}
+\begin{array}{l} c_{0} = e^{- r \times T} \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right) (S_{T, j} - K) \\ = S_{0} \times N_{1} - K \times e^{- r \times T} \times N_{2} \\ \end{array}
 $$
 
 $$
-\mathrm {w i t h} N _ {1} = \left(e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \times u ^ {(n - j)} \times d ^ {j}\right) \quad \mathrm {a n d} N _ {2} = \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right)
+\mathrm{with} N_{1} = \left(e^{- r \times T} \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right) \times u^{(n - j)} \times d^{j}\right) \quad \mathrm{and} N_{2} = \sum_{j = a}^{n} \left(\frac{n !}{j ! (n - j) !}\right)
 $$
 
 - It can be shown that  $N_{1} \to N(d_{1})$  and  $N_{2} \to N(d_{2})$  as  $n \to \infty$  
@@ -2892,7 +2938,7 @@ Replicating Portfolio and Black and Scholes Price
 
 # 1. Options with known dividend.
 
-- Define  $S^{*} = S - PV(D)$  where  $PV(D) = \text{Present Value of Dividends before Expiration}$ .  
+- Define  $S^{*} = S - PV(D)$  where  $PV(D) = \text{PresentValueofDividendsbeforeExpiration}$ .  
 - Use Black and Scholes formula with  $S^*$  instead of  $S$ .
 
 # 2. Options with known dividend yield  $q$ .
@@ -2900,11 +2946,11 @@ Replicating Portfolio and Black and Scholes Price
 - Define  $S^{*} = S \times e^{-q \times T}$  and use Black and Scholes formula as usual.
 
 $$
-c = S e ^ {- q T} N (d _ {1}) - K e ^ {- r T} N (d _ {2}); \quad p = K e ^ {- r T} N (- d _ {2}) - S e ^ {- q T} N (- d _ {1})
+c = S e^{- q T} N (d_{1}) - K e^{- r T} N (d_{2}); \quad p = K e^{- r T} N (- d_{2}) - S e^{- q T} N (- d_{1})
 $$
 
 $$
-d _ {1} = \frac {\ln (S / K) + (r - q + \sigma^ {2} / 2) T}{\sigma \sqrt {T}}; d _ {2} = d _ {1} - \sigma \sqrt {T}
+d_{1} = \frac{\ln (S / K) + (r - q + \sigma^{2} / 2) T}{\sigma \sqrt{T}}; d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
 # 3. Options on currencies
@@ -2920,11 +2966,11 @@ $$
 - Substituting this in the previous formula:
 
 $$
-c = e ^ {- r T} [ F N (d _ {1}) - K N (d _ {2}) ]; \quad p = e ^ {- r T} [ K N (- d _ {2}) - F N (- d _ {1}) ]
+c = e^{- r T} [ F N (d_{1}) - K N (d_{2}) ]; \quad p = e^{- r T} [ K N (- d_{2}) - F N (- d_{1}) ]
 $$
 
 $$
-d _ {1} = \frac {\ln (F / K) + (\sigma^ {2} / 2) T}{\sigma \sqrt {T}}; d _ {2} = d _ {1} - \sigma \sqrt {T}
+d_{1} = \frac{\ln (F / K) + (\sigma^{2} / 2) T}{\sigma \sqrt{T}}; d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
 # Risks in Options and the Greeks
@@ -2935,13 +2981,13 @@ $$
 1. Delta: Sensitivity of option to changes in underlying
 
 $$
-\Delta = \frac {d \mathrm {O p t i o n P r i c e}}{d S} = \left\{ \begin{array}{l l} N (d _ {1}) & \mathrm {f o r C a l l s} \\ - N (- d _ {1}) & \mathrm {f o r P u t s} \end{array} \right.
+\Delta = \frac{d \mathrm{OptionPrice}}{d S} = \left\{ \begin{array}{l l} N (d_{1}) & \mathrm{forCalls} \\ - N (- d_{1}) & \mathrm{forPuts} \end{array} \right.
 $$
 
 2. Gamma: Sensitivity of Delta  $\Delta$  to changes in the underlying. For both calls and puts:
 
 $$
-\Gamma = \frac {d \Delta}{d S} = \frac {N ^ {\prime} (d _ {1})}{S \sigma \sqrt {T}} \quad \mathrm {w i t h} N ^ {\prime} (x) = \frac {e ^ {- x ^ {2}} 2}{\sqrt {2 \pi}}
+\Gamma = \frac{d \Delta}{d S} = \frac{N^{\prime} (d_{1})}{S \sigma \sqrt{T}} \quad \mathrm{with} N^{\prime} (x) = \frac{e^{- x^{2}} 2}{\sqrt{2 \pi}}
 $$
 
 - $\Longrightarrow$ $\Gamma =$  curvature of option price with respect to stock  $S$ ;
@@ -2959,7 +3005,7 @@ Risks in Options and the Greeks
 3. Theta: Sensitivity of option to passage of time  $t$
 
 $$
-\Theta = \frac {d \mathrm {O p t i o n P r i c e}}{d t} = \mathrm {L o n g u g l y f o r m u l a}
+\Theta = \frac{d \mathrm{OptionPrice}}{d t} = \mathrm{Longuglyformula}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/eafbd8e52441496256ad362b0d5685f15ecb986dc5028e40f85f83acbe8bd61c.jpg)  
@@ -3001,7 +3047,7 @@ Call Option Profile versus Payoff at T with high dividend yield
 4. Rho: Change in option price due to a change in interest rate  $r$
 
 $$
-\mathrm {R h o} = \frac {d \mathrm {O p t i o n P r i c e}}{d r} = \left\{ \begin{array}{l l} K T e ^ {- r T} N (d _ {2}) > 0 & \mathrm {f o r C a l l s} \\ - K T e ^ {- r T} N (- d _ {2}) <   0 & \mathrm {f o r P u t s} \end{array} \right.
+\mathrm{Rho} = \frac{d \mathrm{OptionPrice}}{d r} = \left\{ \begin{array}{l l} K T e^{- r T} N (d_{2}) > 0 & \mathrm{forCalls} \\ - K T e^{- r T} N (- d_{2}) <   0 & \mathrm{forPuts} \end{array} \right.
 $$
 
 - Intuition: it all depends on whether the option holder will pay  $K$  (call) or receive  $K$  (put). The PV of  $K$  declines as  $r$  increases, yielding the result.
@@ -3011,7 +3057,7 @@ $$
 5. Vega: Change in option price due to a change in volatility  $\sigma$
 
 $$
-\mathrm {V e g a} = \frac {d \mathrm {O p t i o n P r i c e}}{d \sigma} = S \sqrt {T} N ^ {\prime} (d _ {1}) > 0
+\mathrm{Vega} = \frac{d \mathrm{OptionPrice}}{d \sigma} = S \sqrt{T} N^{\prime} (d_{1}) > 0
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/606722f046a27fb0b41466bf52fffdbca2cc6cda3be57c365634e6f6c88af42d.jpg)
@@ -3027,7 +3073,7 @@ $$
 - Payoff at maturity: Principal plus Supplemental Redemption Amount (SRA), if positive.
 
 $$
-S R A = \$ 10 \times 116 \% \times \frac {\text {Final Index Value} - \text {Initial Index Value}}{\text {Initial Index Value}}
+S R A = \$ 10 \times 116 \% \times \frac{\text{FinalIndexValue} - \text{InitialIndexValue}}{\text{InitialIndexValue}}
 $$
 
 - Index : S&P 500, renormalized to have Initial Index Value = \$10.
@@ -3053,7 +3099,7 @@ The Capital Protected Note's Payoff
 - The value of the security is
 
 $$
-\begin{array}{l} V a l u e = e ^ {- r T} \S 1 0 + 1. 1 6 \times C a l l (1 0, 1 0, r, \delta , \sigma , T) \\ = \$ 7. 9 7 6 4 + 1. 1 6 \times \$ 1. 7 \\ = \$ 9. 9 4 8 3 \\ \end{array}
+\begin{array}{l} V a l u e = e^{- r T} \S 1 0 + 1. 1 6 \times C a l l (1 0, 1 0, r, \delta , \sigma , T) \\ = \$ 7. 9 7 6 4 + 1. 1 6 \times \$ 1. 7 \\ = \$ 9. 9 4 8 3 \\ \end{array}
 $$
 
 - Close to \$10  
@@ -3071,7 +3117,7 @@ $$
 - Given the call  $\Delta = e^{-\delta T}N(d_1) = 0.5747$ , we have:
 
 $$
-\begin{array}{l} \mathrm {P o s i t i o n i n (n o r m a l i z e d) S \& P 5 0 0 = 0 . 5 7 4 7 ;} \\ \mathrm {B o n d P o s i t i o n} = C a l l (1 0, 1 0, r, \delta , \sigma , T) - \Delta \times S _ {0} \\ = 1. 7 - \Delta \times 1 0 = - 4. 0 4 7 \\ \end{array}
+\begin{array}{l} \mathrm{Positionin (normalized)S \&P500 =0 .5747 ;} \\ \mathrm{BondPosition} = C a l l (1 0, 1 0, r, \delta , \sigma , T) - \Delta \times S_{0} \\ = 1. 7 - \Delta \times 1 0 = - 4. 0 4 7 \\ \end{array}
 $$
 
 - That is, for each call option, invest  $0.5747 \times \$10 = 5.747$  in stock and borrow  $\$ 4.047$ .
@@ -3098,13 +3144,13 @@ Value of Replicating Portfolio  $= 0.5747 \times 10 - 4.047 = 1.7$
 - Consider a portfolio  $\Pi$  which is short the  $T$ -dated call  $Call(S, T)$  (as the one implicit in the CPN), long  $N$  stock and long also  $N^c$  of  $T_1$ -date calls  $Call(S, T_1)$
 
 $$
-\Pi = - C a l l (S, T) + N \times S + N ^ {c} \times C a l l (S, T _ {1})
+\Pi = - C a l l (S, T) + N \times S + N^{c} \times C a l l (S, T_{1})
 $$
 
 - We want to hedge both the sensitivity of  $\Pi$  to changes in the stock  $\left(\frac{d\Pi}{dS} = 0\right)$  and the change in such sensitivity to changes in the stock, that is, the convexity
 
 $$
-\frac {d \left(\frac {d \Pi}{d S}\right)}{d S} = \frac {d \Pi^ {2}}{d S ^ {2}} = 0
+\frac{d \left(\frac{d \Pi}{d S}\right)}{d S} = \frac{d \Pi^{2}}{d S^{2}} = 0
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/6da3cd93d5f897e3428b16c6bdbaaf2c3554e65e11ce87ccd97734be8d0cb525.jpg)  
@@ -3115,17 +3161,17 @@ Delta Hedging: The Capital Protected Note
 - The Delta-Gamma hedge then requires:
 
 $$
-\frac {d \Pi}{d S} = 0 \Longrightarrow - \frac {d C a l l (S , T)}{d S} + N + N ^ {c} \times \frac {d C a l l (S , T _ {1})}{d S} = 0 \qquad (\mathrm {D e l t a H e d g i n g})
+\frac{d \Pi}{d S} = 0 \Longrightarrow - \frac{d C a l l (S , T)}{d S} + N + N^{c} \times \frac{d C a l l (S , T_{1})}{d S} = 0 \qquad (\mathrm{DeltaHedging})
 $$
 
 $$
-\frac {d ^ {2} \Pi}{d S ^ {2}} = 0 \Longrightarrow - \frac {d ^ {2} C a l l (S , T)}{d S ^ {2}} + N ^ {c} \times \frac {d ^ {2} C a l l (S , T _ {1})}{d S ^ {2}} = 0 \qquad (\mathrm {G a m m a H e d g i n g})
+\frac{d^{2} \Pi}{d S^{2}} = 0 \Longrightarrow - \frac{d^{2} C a l l (S , T)}{d S^{2}} + N^{c} \times \frac{d^{2} C a l l (S , T_{1})}{d S^{2}} = 0 \qquad (\mathrm{GammaHedging})
 $$
 
 - Using the notation  $\Delta(S, T)$  and  $\Gamma(S, T)$  to indicate the Delta and Gamma of the option with maturity  $T$ , solving the two equations in two unknowns we obtain:
 
 $$
-N ^ {c} = \frac {\Gamma (S , T)}{\Gamma (S , T _ {1})}; N = \Delta (S, T) - N ^ {c} \times \Delta (S, T _ {1})
+N^{c} = \frac{\Gamma (S , T)}{\Gamma (S , T_{1})}; N = \Delta (S, T) - N^{c} \times \Delta (S, T_{1})
 $$
 
 - Note that the position in stocks is smaller (if  $N^c > 0$ ) than in the case of only Delta-hedging, as we now have to also hedge the position in the short-term call option, which is used to hedge against Gamma.
@@ -3139,21 +3185,21 @@ C a l l (S, T) = 1. 7; \Gamma (S, T) = 0. 0 8 0 1 6; \Delta (S, T) = 0. 5 7 4 7
 $$
 
 $$
-C a l l (S, T _ {1}) = 0. 6 4 4 3; \quad \Gamma (S, T _ {1}) = 0. 2 5 7 5; \quad \Delta (S, T _ {1}) = 0. 5 5 1 2
+C a l l (S, T_{1}) = 0. 6 4 4 3; \quad \Gamma (S, T_{1}) = 0. 2 5 7 5; \quad \Delta (S, T_{1}) = 0. 5 5 1 2
 $$
 
 we obtain
 
 $$
-\mathrm {P o s i t i o n i n s h o r t - t e r m c a l l} = N ^ {c} = 0. 3 1 1 3;
+\mathrm{Positioninshort -termcall} = N^{c} = 0. 3 1 1 3;
 $$
 
 $$
-\mathrm {P o s i t i o n i n s t o c k} = N = 0. 4 0 3 1;
+\mathrm{Positioninstock} = N = 0. 4 0 3 1;
 $$
 
 $$
-\mathrm {P o s i t i o n i n b o n d s} = 1. 7 - N \times S - N ^ {c} \times C a l l (S, T _ {1}) = - 2. 5 3 1 5
+\mathrm{Positioninbonds} = 1. 7 - N \times S - N^{c} \times C a l l (S, T_{1}) = - 2. 5 3 1 5
 $$
 
 - Next figure plots the CPN for various stock prices, along with the Delta hedge portfolio and the Delta-Gamma hedge portfolio.
@@ -3177,13 +3223,13 @@ Delta-Gamma Hedging: The Capital Protected Note
 - We know that  $\Delta = N(d_{1})$  is the sensitivity of a call option price to changes in the stock price
 
 $$
-\frac {d \mathrm {C a l l}}{d S} = N (d _ {1})
+\frac{d \mathrm{Call}}{d S} = N (d_{1})
 $$
 
 - What is the percentage sensitivity of the call price to percentage change in the stock price?
 
 $$
-\begin{array}{l} \frac {\% \mathrm {age} \text {Change in Call}}{\% \mathrm {agee} \text {Change in Stock}} = \frac {\left(\frac {d \mathrm {Call}}{\mathrm {Call}}\right)}{\left(\frac {d S}{S}\right)} \\ = \frac {S}{\mathrm {C a l l}} \times \frac {d \mathrm {C a l l}}{d S} \\ = \frac {S}{\mathrm {C a l l}} \times N (d _ {1}) \\ = \frac {S N (d _ {1})}{S N (d _ {1}) - K e ^ {- r T} N (d _ {2})} \\ > 1 \\ \end{array}
+\begin{array}{l} \frac{\% \mathrm{age} \text{ChangeinCall}}{\% \mathrm{agee} \text{ChangeinStock}} = \frac{\left(\frac{d \mathrm{Call}}{\mathrm{Call}}\right)}{\left(\frac{d S}{S}\right)} \\ = \frac{S}{\mathrm{Call}} \times \frac{d \mathrm{Call}}{d S} \\ = \frac{S}{\mathrm{Call}} \times N (d_{1}) \\ = \frac{S N (d_{1})}{S N (d_{1}) - K e^{- r T} N (d_{2})} \\ > 1 \\ \end{array}
 $$
 
 - $\Rightarrow$  In percentage, call options move more than the underlying stock
@@ -3195,7 +3241,7 @@ What is the risk premium on an option?
 - Recall that a call option is given by a portfolio of stocks and bonds
 
 $$
-\mathrm {C a l l} = \Delta \times S + B
+\mathrm{Call} = \Delta \times S + B
 $$
 
 - As for any portfolio,
@@ -3206,13 +3252,13 @@ Return on a portfolio  $=$  weighted average of the returns of the individual as
 - That is, let  $R_C$  be the return on the call,  $R_S$  the return on stock, and  $R_B$  the return on bonds over a small interval of time
 
 $$
-R _ {C} = w \times R _ {S} + (1 - w) \times R _ {B}
+R_{C} = w \times R_{S} + (1 - w) \times R_{B}
 $$
 
 where the weight on stock is
 
 $$
-w = \frac {\text {Position in Stock}}{\text {Value of Portfolio}} = \frac {\Delta \times S}{\text {Call}} = \frac {\% \text {age Change in Call}}{\% \text {agee Change in Stock}}
+w = \frac{\text{PositioninStock}}{\text{ValueofPortfolio}} = \frac{\Delta \times S}{\text{Call}} = \frac{\% \text{ageChangeinCall}}{\% \text{ageeChangeinStock}}
 $$
 
 # Options' Beta and Expected Returns
@@ -3221,7 +3267,7 @@ $$
 - Developing the return equation and using also the notation  $w = \beta$ , we obtain
 
 $$
-(R _ {C} - R _ {B}) = \beta \times (R _ {S} - R _ {B})
+(R_{C} - R_{B}) = \beta \times (R_{S} - R_{B})
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/b46b88ff8e21b01b3ef4b03fc80bbc1b502c626b72e288ffb58dccfc2c72e5f5.jpg)
@@ -3253,13 +3299,13 @@ Example: Volatility of 4000 Call Expiring on 12/17/2021
 - The Risk / Return characteristics of an investment is often measured by the Sharpe Ratio
 
 $$
-\mathrm {S h a r p e R a t i o} = \frac {\mathrm {E x p e c t e d E x c e s s R e t u r n}}{\mathrm {V o l a t i l i t y}}
+\mathrm{SharpeRatio} = \frac{\mathrm{ExpectedExcessReturn}}{\mathrm{Volatility}}
 $$
 
 - The Sharpe Ratio of a Call option is therefore
 
 $$
-\begin{array}{l} \mathrm {S h a r p e R a t i o o f C a l l} = \frac {\mathrm {E x p e c t e d E x c e s s R e t u r n C a l l}}{\mathrm {V o l a t i l i t y C a l l}} \\ = \frac {E [ R _ {C} - R _ {B} ]}{\sigma_ {C}} \\ = \frac {\beta E [ R _ {S} - R _ {B} ]}{\beta \sigma_ {S}} \\ = \mathrm {S h a r p e R a t i o o f S t o c k} \\ \end{array}
+\begin{array}{l} \mathrm{SharpeRatioofCall} = \frac{\mathrm{ExpectedExcessReturnCall}}{\mathrm{VolatilityCall}} \\ = \frac{E [ R_{C} - R_{B} ]}{\sigma_{C}} \\ = \frac{\beta E [ R_{S} - R_{B} ]}{\beta \sigma_{S}} \\ = \mathrm{SharpeRatioofStock} \\ \end{array}
 $$
 
 - The Sharpe Ratio is the same as the one of stocks (theoretically, at least)
@@ -3309,7 +3355,7 @@ Booth School of Business
 - Moneyness: is defined as the ratio of the strike price to the current stock price  $K / S$
 
 $$
-\begin{array}{l} \Rightarrow K / S <   1 \Rightarrow K <   S \Rightarrow \mathrm {p u t s a r e O T M}, \mathrm {c a l l s a r e I T M} \\ \Rightarrow K / S > 1 \Rightarrow K > S \Rightarrow \mathrm {p u t s a r e I T M}, \mathrm {c a l l s a r e O T M} \\ \end{array}
+\begin{array}{l} \Rightarrow K / S <   1 \Rightarrow K <   S \Rightarrow \mathrm{putsareOTM}, \mathrm{callsareITM} \\ \Rightarrow K / S > 1 \Rightarrow K > S \Rightarrow \mathrm{putsareITM}, \mathrm{callsareOTM} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/481b8b431ea0f005090d1a088b308f20e73ca2075d63b113872784151f56b825.jpg)
@@ -3367,7 +3413,7 @@ $\Longrightarrow$  Fat Tails: Extreme observations more likely than implied by n
 - Define:
 
 $$
-\sigma_ {I m p} \quad \mathrm {i s c h o s e n s u c h t h a t} \quad p u t ^ {m k t} (K, T) = B S P (S _ {0}, K, T, r, q, \sigma_ {I m p})
+\sigma_{I m p} \quad \mathrm{ischosensuchthat} \quad p u t^{m k t} (K, T) = B S P (S_{0}, K, T, r, q, \sigma_{I m p})
 $$
 
 - The implied volatility for this option was  $23.1\%$  
@@ -3444,7 +3490,7 @@ Option Prices across Strike Prices and maturitirs
 - E.g. Constant Elasticity of Variance model:  $\sigma(S) = \Sigma \times S^{\alpha}$
 
 $$
-\log \left(\frac {S _ {t , t + h}}{S _ {t}}\right) = \mu \times h + S _ {t} ^ {\alpha} \times \Sigma \times \epsilon_ {t}
+\log \left(\frac{S_{t , t + h}}{S_{t}}\right) = \mu \times h + S_{t}^{\alpha} \times \Sigma \times \epsilon_{t}
 $$
 
 - If  $\alpha < 0$ , a lower  $S_{t}$  implies a higher volatility.  
@@ -3458,11 +3504,11 @@ $\bullet \Longrightarrow$  implied volatility smirk
 E.g. let  $\sigma_t = \sqrt{v_t}$
 
 $$
-R _ {t, t + h} = \mu \times h + \sqrt {v _ {t}} \times \epsilon_ {1, t}
+R_{t, t + h} = \mu \times h + \sqrt{v_{t}} \times \epsilon_{1, t}
 $$
 
 $$
-\left(v _ {t + h} - v _ {t}\right) = k \times \left(\overline {{v}} - v _ {t}\right) \times h + \Sigma \times \sqrt {v _ {t}} \times \epsilon_ {2, t}
+\left(v_{t + h} - v_{t}\right) = k \times \left(\overline {{v}} - v_{t}\right) \times h + \Sigma \times \sqrt{v_{t}} \times \epsilon_{2, t}
 $$
 
 - (It is hard to ensure  $v_{t} > 0$  for every  $t$  unless interval size  $h$  is very small)
@@ -3475,7 +3521,7 @@ $$
 - Assume that sometimes big changes in stock prices occur (e.g. October 1987)
 
 $$
-R _ {t, t + h} = \mu \times h + \sigma \times \epsilon_ {t} + \omega \times Q _ {t}
+R_{t, t + h} = \mu \times h + \sigma \times \epsilon_{t} + \omega \times Q_{t}
 $$
 
 - where  $Q_{t} = 0$  most of the time, but some times  $Q_{t} = 1$  (with small probability)  
@@ -3495,7 +3541,7 @@ $$
 - Given  $S_{0} = 1502.39$ ,  $\sigma = 12.36\%$ ,  $r = 4.713\%$ ,  $\delta = 1.91\%$  and  $T = .12$ , we find  $u = \exp(\sigma \sqrt{T}) = 1.043746137$  and  $d = 1 / u = 0.958087378$ . Thus, the risk neutral probability
 
 $$
-q ^ {*} = \frac {e ^ {(r - \delta) T} - d}{u - d} = 0. 5 2 8 6 3 1 1 1 3
+q^{*} = \frac{e^{(r - \delta) T} - d}{u - d} = 0. 5 2 8 6 3 1 1 1 3
 $$
 
 - The price of the \(K = 1500\) put option come out to be \(p_0 = \\)28.394\(, higher than the traded market price \(p^{mkt}(1500,.12) = \$20.35\).
@@ -3511,31 +3557,31 @@ i = 1
 $$
 
 $$
-S _ {1, u} = 1 5 6 8. 1 1 4
+S_{1, u} = 1 5 6 8. 1 1 4
 $$
 
 $$
-p _ {1, u} = 0
+p_{1, u} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1 5 0 2. 3 9
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 2 8 6 3 1 1 1 3
+q_{0}^{*} = 0. 5 2 8 6 3 1 1 1 3
 $$
 
 $$
-p _ {0} = e ^ {- r \times 0. 1 2} \times (1 - q _ {0} ^ {*}) \times p _ {1, d} = 2 8. 3 9 4
+p_{0} = e^{- r \times 0. 1 2} \times (1 - q_{0}^{*}) \times p_{1, d} = 2 8. 3 9 4
 $$
 
 $$
-S _ {1, d} = 1 4 3 9. 4 2 1
+S_{1, d} = 1 4 3 9. 4 2 1
 $$
 
 $$
-p _ {1, d} = 6 0. 5 7 9
+p_{1, d} = 6 0. 5 7 9
 $$
 
 - An implied tree has the same logic of implied volatility: Since the model is not working using the correct inputs, we look for an alternative specification that makes it work.
@@ -3554,31 +3600,31 @@ i = 1
 $$
 
 $$
-S _ {1, u} = 1 5 5 1. 2 6
+S_{1, u} = 1 5 5 1. 2 6
 $$
 
 $$
-p _ {1, u} = 0
+p_{1, u} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1 5 0 2. 3 9
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 4 4 6
+q_{0}^{*} = 0. 5 4 4 6
 $$
 
 $$
-p _ {0} = e ^ {- r \times 0. 1 2} \times (1 - q _ {0} ^ {*}) \times p _ {1, d} = 2 0. 3 5
+p_{0} = e^{- r \times 0. 1 2} \times (1 - q_{0}^{*}) \times p_{1, d} = 2 0. 3 5
 $$
 
 $$
-S _ {1, d} = 1 4 5 5. 0 5 9
+S_{1, d} = 1 4 5 5. 0 5 9
 $$
 
 $$
-p _ {1, d} = 4 4. 9 4 1
+p_{1, d} = 4 4. 9 4 1
 $$
 
 - What do we use an implied tree for?
@@ -3591,7 +3637,7 @@ $$
 What do we choose?
 
 $$
-- S _ {2, u u}, S _ {2, u d} = S _ {2, d u} \mathrm {a n d} S _ {2, d d}.
+- S_{2, u u}, S_{2, u d} = S_{2, d u} \mathrm{and} S_{2, d d}.
 $$
 
 - It is desirable to keep the tree somewhat balanced around the starting value  $S_0$ .  
@@ -3614,87 +3660,87 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 6 7. 0 7 1 3
+S_{2, u u} = 1 5 6 7. 0 7 1 3
 $$
 
 $$
-p _ {2, u u} ^ {1} = 0
+p_{2, u u}^{1} = 0
 $$
 
 $$
-p _ {2, u u} ^ {2} = 0
+p_{2, u u}^{2} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1 5 0 2. 3 9
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 4 4 6
+q_{0}^{*} = 0. 5 4 4 6
 $$
 
 $$
-p _ {0} ^ {1} = 5 0. 2 = p ^ {m k t} (1 5 5 0,. 2 1)
+p_{0}^{1} = 5 0. 2 = p^{m k t} (1 5 5 0,. 2 1)
 $$
 
 $$
-p _ {0} ^ {2} = 1 4. 6 5 = p ^ {m k t} (1 4 5 0,. 2 1)
+p_{0}^{2} = 1 4. 6 5 = p^{m k t} (1 4 5 0,. 2 1)
 $$
 
 $$
-S _ {1, u} = 1 5 5 1. 2 6
+S_{1, u} = 1 5 5 1. 2 6
 $$
 
 $$
-q _ {1, u} ^ {*} = 0. 7 1 4 4
+q_{1, u}^{*} = 0. 7 1 4 4
 $$
 
 $$
-p _ {1, u} ^ {1} = 1 3. 5 4 1 3
+p_{1, u}^{1} = 1 3. 5 4 1 3
 $$
 
 $$
-p _ {1, u} ^ {2} = 0
+p_{1, u}^{2} = 0
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 1 5 0 2. 3 9
+S_{2, u d} = S_{2, d u} = 1 5 0 2. 3 9
 $$
 
 $$
-p _ {2, u d} ^ {1} = 4 7. 6 1
+p_{2, u d}^{1} = 4 7. 6 1
 $$
 
 $$
-p _ {2, u d} ^ {2} = 0
+p_{2, u d}^{2} = 0
 $$
 
 $$
-S _ {1, d} = 1 4 5 5. 0 5 9
+S_{1, d} = 1 4 5 5. 0 5 9
 $$
 
 $$
-q _ {1, d} ^ {*} = 0. 7 3 7 3
+q_{1, d}^{*} = 0. 7 3 7 3
 $$
 
 $$
-p _ {1, d} ^ {1} = 9 4. 6 7
+p_{1, d}^{1} = 9 4. 6 7
 $$
 
 $$
-p _ {1, d} ^ {2} = 3 2. 3 6
+p_{1, d}^{2} = 3 2. 3 6
 $$
 
 $$
-S _ {2, d d} = 1 3 3 6. 2 3 1 6
+S_{2, d d} = 1 3 3 6. 2 3 1 6
 $$
 
 $$
-p _ {2, d d} ^ {1} = 2 1 3. 7 6 8 4
+p_{2, d d}^{1} = 2 1 3. 7 6 8 4
 $$
 
 $$
-p _ {2, d d} ^ {2} = 1 1 3. 7 6 8 4
+p_{2, d d}^{2} = 1 1 3. 7 6 8 4
 $$
 
 # Conclusions
@@ -3743,7 +3789,7 @@ Booth School of Business
 - Given that  $u = e^{\sigma \sqrt{T}} = 1.34986$ , the price of any derivative security with payoff  $V(S_{1})$  can be computed as
 
 $$
-V _ {0} = E ^ {*} \left[ e ^ {- r T} V (S _ {1}) \right] = e ^ {- r T} \left[ q ^ {*} V (S _ {1, u}) + (1 - q ^ {*}) V (S _ {1, d}) \right]
+V_{0} = E^{*} \left[ e^{- r T} V (S_{1}) \right] = e^{- r T} \left[ q^{*} V (S_{1, u}) + (1 - q^{*}) V (S_{1, d}) \right]
 $$
 
 - For instance, a call option has price given by
@@ -3757,23 +3803,23 @@ i = 1
 $$
 
 $$
-S _ {0} = 1 0 0. 0 0 0
+S_{0} = 1 0 0. 0 0 0
 $$
 
 $$
-q _ {0} ^ {*} = 0. 4 5 8 7
+q_{0}^{*} = 0. 4 5 8 7
 $$
 
 $$
-c _ {0} = e ^ {- r T} \times q _ {0} ^ {*} \times c _ {1, u} = 1 5. 7 3 1
+c_{0} = e^{- r T} \times q_{0}^{*} \times c_{1, u} = 1 5. 7 3 1
 $$
 
 $$
-\begin{array}{l} S _ {1, u} = 1 3 4. 9 8 6 \\ c _ {1, u} = 3 4. 9 8 6 \\ \end{array}
+\begin{array}{l} S_{1, u} = 1 3 4. 9 8 6 \\ c_{1, u} = 3 4. 9 8 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, d} = 7 4. 0 8 2 \\ c _ {1, d} = 0 \\ \end{array}
+\begin{array}{l} S_{1, d} = 7 4. 0 8 2 \\ c_{1, d} = 0 \\ \end{array}
 $$
 
 # Monte Carlo Simulations on the Risk Neutral Trees
@@ -3790,7 +3836,7 @@ $$
 - The value of the security is the average of the realizations
 
 $$
-\widehat {V} _ {0} = \mathrm {a v e r a g e o f} \{e ^ {- r T} V (S _ {1} ^ {1}), e ^ {- r T} V (S _ {1} ^ {2}), e ^ {- r T} V (S _ {1} ^ {3}), \ldots , e ^ {- r T} V (S _ {1} ^ {N}) \} = \frac {1}{N} \sum_ {i = 1} ^ {N} e ^ {- r T} V (S _ {1} ^ {i})
+\widehat {V}_{0} = \mathrm{averageof} \{e^{- r T} V (S_{1}^{1}), e^{- r T} V (S_{1}^{2}), e^{- r T} V (S_{1}^{3}), \ldots , e^{- r T} V (S_{1}^{N}) \} = \frac{1}{N} \sum_{i = 1}^{N} e^{- r T} V (S_{1}^{i})
 $$
 
 # Monte Carlo Simulations on the Risk Neutral Trees
@@ -3809,14 +3855,14 @@ $$
 - This is computed as the standard deviation of our discounted payoff, divided by  $\sqrt{N}$ :
 
 $$
-\mathrm {s t a n d a r d e r r o r} = \frac {\mathrm {S t a n d a r d D e v i a t i o n o f} \{e ^ {- r T} V (S _ {1} ^ {1}) , e ^ {- r T} V (S _ {1} ^ {2}) , e ^ {- r T} V (S _ {1} ^ {3}) , \ldots , e ^ {- r T} V (S _ {1} ^ {N}) \}}{\sqrt {N}}
+\mathrm{standarderror} = \frac{\mathrm{StandardDeviationof} \{e^{- r T} V (S_{1}^{1}) , e^{- r T} V (S_{1}^{2}) , e^{- r T} V (S_{1}^{3}) , \ldots , e^{- r T} V (S_{1}^{N}) \}}{\sqrt{N}}
 $$
 
 - In the previous example, the standard error was  $s.e. = 5.715$
 - This implies that with  $95\%$  probability, the true value of the security is between
 
 $$
-\mathrm {C o n f i d e n c e I n t e r v a l} = [ \widehat {V _ {0}} - 2 \times s. e., \widehat {V _ {0}} + 2 \times s. e. ] = [ 5. 7 1 5, 2 8. 5 7 7 ]
+\mathrm{ConfidenceInterval} = [ \widehat {V_{0}} - 2 \times s. e., \widehat {V_{0}} + 2 \times s. e. ] = [ 5. 7 1 5, 2 8. 5 7 7 ]
 $$
 
 - Given the number of simulations, we give  $95\%$  probability that the true value is between 5.715 and 28.577, a rather large interval.
@@ -3841,33 +3887,33 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 2. 8 4 7
+S_{2, u u} = 1 5 2. 8 4 7
 $$
 
 $$
-S _ {0} = 1 0 0
+S_{0} = 1 0 0
 $$
 
 $$
-S _ {1, u} = 1 2 3. 6 3 1
+S_{1, u} = 1 2 3. 6 3 1
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 1 0 0
+S_{2, u d} = S_{2, d u} = 1 0 0
 $$
 
 $$
-S _ {1, d} = 8 0. 8 8 6
+S_{1, d} = 8 0. 8 8 6
 $$
 
 $$
-S _ {2, d d} = 6 5. 4 2 5
+S_{2, d d} = 6 5. 4 2 5
 $$
 
 - Again, the value of any derivative security with payoff  $V(S_{2})$  is given by
 
 $$
-V (S) = E ^ {*} [ e ^ {- r T} V (S _ {2}) ]
+V (S) = E^{*} [ e^{- r T} V (S_{2}) ]
 $$
 
 # Monte Carlo Simulations on the Multi-Step Risk Neutral Trees
@@ -3910,11 +3956,11 @@ Option Prices By Simulations (on the Tree)
 - For instance, Asian options have payoff given by
 
 $$
-\mathrm {A s i a n C a l l O p t i o n} = \max \left(\{\mathrm {A v e r a g e o f} S _ {t} \mathrm {f r o m 0 t o T} \} - K, 0\right)
+\mathrm{AsianCallOption} = \max \left(\{\mathrm{Averageof} S_{t} \mathrm{from0toT} \} - K, 0\right)
 $$
 
 $$
-\mathrm {A s i a n P u t O p t i o n} = \max (K - \{\mathrm {A v e r a g e o f} S _ {t} \mathrm {f r o m 0 t o T} \}, 0)
+\mathrm{AsianPutOption} = \max (K - \{\mathrm{Averageof} S_{t} \mathrm{from0toT} \}, 0)
 $$
 
 - These options are very hard to price on a tree without simulations.  
@@ -3956,13 +4002,13 @@ Asian Paths
 - Lookback Options: The final payoff depends on the maximum or minimum value achieved by the stock before maturity. For instance:
 
 $$
-g _ {T} = (\max (S _ {0}, \dots , S _ {T}) - S _ {T})
+g_{T} = (\max (S_{0}, \dots , S_{T}) - S_{T})
 $$
 
 - Asian Strike Options: The strike price is equal to the average stock price. E.g.
 
 $$
-g _ {T} = \max (S _ {T} - A v e r a g e (S _ {0}, \dots , S _ {T}), 0)
+g_{T} = \max (S_{T} - A v e r a g e (S_{0}, \dots , S_{T}), 0)
 $$
 
 # Monte Carlo Simulations without Trees
@@ -3978,7 +4024,7 @@ $$
 - Risk neutral pricing implies that over a small period
 
 $$
-E ^ {*} \left(\frac {S _ {t + h}}{S _ {t}}\right) = e ^ {r h}
+E^{*} \left(\frac{S_{t + h}}{S_{t}}\right) = e^{r h}
 $$
 
 # Monte Carlo Simulations under Log Normality
@@ -3986,19 +4032,19 @@ $$
 - One way to simulate is then to use the following algorithm
 
 $$
-S _ {t + h} = S _ {t} \times e ^ {(r - \frac {\sigma^ {2}}{2}) h + \sigma \sqrt {h} \epsilon_ {t}}
+S_{t + h} = S_{t} \times e^{(r - \frac{\sigma^{2}}{2}) h + \sigma \sqrt{h} \epsilon_{t}}
 $$
 
 - where
 
 $$
-\epsilon_ {t} \sim N (0, 1)
+\epsilon_{t} \sim N (0, 1)
 $$
 
 - The rules of the log-normal distribution imply
 
 $$
-E ^ {*} \left(\frac {S _ {t + h}}{S _ {t}}\right) = e ^ {(r - \frac {\sigma^ {2}}{2}) h + \left\{E ^ {*} [ \sigma \sqrt {h} \times \epsilon_ {t} ] + 1 / 2 V a r [ \sigma \sqrt {h} \times \epsilon_ {t} ] \right\}} = e ^ {r h}
+E^{*} \left(\frac{S_{t + h}}{S_{t}}\right) = e^{(r - \frac{\sigma^{2}}{2}) h + \left\{E^{*} [ \sigma \sqrt{h} \times \epsilon_{t} ] + 1 / 2 V a r [ \sigma \sqrt{h} \times \epsilon_{t} ] \right\}} = e^{r h}
 $$
 
 - Moreover,  $\sigma^2$  converges to the (annualized) variance of log returns  $Var[\log (S_{t + h} / S_t)]$
@@ -4040,7 +4086,7 @@ Option Prices By Simulations (Log-Normal Distribution)
 - That is, if  $S_0$  and  $N_0$  are the current prices of the two stocks, the payoff at maturity of the option is
 
 $$
-\mathrm {P a y o f f a t} T = \max \left(\frac {S _ {T}}{S _ {0}}, \frac {N _ {T}}{N _ {0}}\right)
+\mathrm{Payoffat} T = \max \left(\frac{S_{T}}{S_{0}}, \frac{N_{T}}{N_{0}}\right)
 $$
 
 - How much would pay for this security?
@@ -4048,11 +4094,11 @@ $$
 - The risk neutral processes of  $S_{t}$  and  $N_{t}$  are the same as before, so we simulate
 
 $$
-S _ {t + h} = S _ {t} \times e ^ {(r - \frac {\sigma_ {S} ^ {2}}{2}) h + \sigma_ {S} \sqrt {h} \epsilon_ {1, t}}
+S_{t + h} = S_{t} \times e^{(r - \frac{\sigma_{S}^{2}}{2}) h + \sigma_{S} \sqrt{h} \epsilon_{1, t}}
 $$
 
 $$
-N _ {t + h} = N _ {t} \times e ^ {(r - \frac {\sigma_ {N} ^ {2}}{2}) h + \sigma_ {N} \sqrt {h} \epsilon_ {2, t}}
+N_{t + h} = N_{t} \times e^{(r - \frac{\sigma_{N}^{2}}{2}) h + \sigma_{N} \sqrt{h} \epsilon_{2, t}}
 $$
 
 - If IBM and Apple are correlated stocks (as they are), we need a methodology to simulate correlated shocks  $\epsilon_{1,t},\epsilon_{2,t}$
@@ -4060,7 +4106,7 @@ $$
 * Let  $\hat{\epsilon}_t$  be a standard normal, uncorrelated with  $\epsilon_{1,t}$ . Then, define
 
 $$
-\epsilon_ {2, t} = \rho \epsilon_ {1, t} + \sqrt {1 - \rho^ {2}} \hat {\epsilon} _ {t}
+\epsilon_{2, t} = \rho \epsilon_{1, t} + \sqrt{1 - \rho^{2}} \hat {\epsilon}_{t}
 $$
 
 * Claim:  $\epsilon_{2,t}$  has zero mean, variance 1, and correlation  $\rho$  with  $\epsilon_{1,t}$  (check!)
@@ -4070,20 +4116,20 @@ $$
 - For each simulation run  $i$ , compute the discounted payoff
 
 $$
-V ^ {i} = e ^ {- r T} \max \left(\frac {S _ {T} ^ {i}}{S _ {0}}, \frac {N _ {T} ^ {i}}{N _ {0}}\right)
+V^{i} = e^{- r T} \max \left(\frac{S_{T}^{i}}{S_{0}}, \frac{N_{T}^{i}}{N_{0}}\right)
 $$
 
 - The price of the security is then
 
 $$
-\widehat {V} _ {0} = \frac {1}{n} \sum_ {i = 1} ^ {n} V ^ {i}
+\widehat {V}_{0} = \frac{1}{n} \sum_{i = 1}^{n} V^{i}
 $$
 
 - Assuming  $\sigma_{S} = \sigma_{N} = .3$ ,  $r = .02$  and  $\rho = .7$ , the value of this option is  $\widehat{V}_{0} = 1.134$ .
 - As a second example, consider an option with the payoff
 
 $$
-\mathrm {P a y o f f a t} T = \max \left(\frac {S _ {T}}{S _ {0}} - \frac {N _ {T}}{N _ {0}}, 0\right)
+\mathrm{Payoffat} T = \max \left(\frac{S_{T}}{S_{0}} - \frac{N_{T}}{N_{0}}, 0\right)
 $$
 
 - That is, it pays only when the first stock (say IBM) does better than the second (say Apple).  
@@ -4111,7 +4157,7 @@ SIMULATION OF RISK NEUTRAL PRICE PROCESS
 - Computing the " $\Delta$ " is not hard, and we use Monte Carlo simulations again.
 
 $$
-\Delta = \frac {d V (S)}{d S} \approx \frac {V (S + h) - V (S)}{h}
+\Delta = \frac{d V (S)}{d S} \approx \frac{V (S + h) - V (S)}{h}
 $$
 
 - Thus, compute  $V(S)$  and  $V(S + h)$  using MC simulations<sup>1</sup>  
@@ -4188,19 +4234,19 @@ Examples of American options
 1. American options are at least as valuable as European options
 
 $$
-C ^ {A} (S, K, t, T) \geq C ^ {E} (S, K, t, T); P ^ {A} (S, K, t, T) \geq P ^ {E} (S, K, t, T)
+C^{A} (S, K, t, T) \geq C^{E} (S, K, t, T); P^{A} (S, K, t, T) \geq P^{E} (S, K, t, T)
 $$
 
 2. American options with longer time to maturity are at least as valuable as the same option with shorter time to maturity. If  $T_{2} > T_{1}$
 
 $$
-C ^ {A} (S, K, t, T _ {2}) \geq C ^ {A} (S, K, t, T _ {1}); \qquad P ^ {A} (S, K, t, T _ {2}) \geq P ^ {A} (S, K, t, T _ {1})
+C^{A} (S, K, t, T_{2}) \geq C^{A} (S, K, t, T_{1}); \qquad P^{A} (S, K, t, T_{2}) \geq P^{A} (S, K, t, T_{1})
 $$
 
 3. An American option is at least as valuable as its intrinsic value
 
 $$
-C ^ {A} (S, K, t, T) \geq \max (S - K, 0); P ^ {A} (S, K, t, T) \geq \max (K - S, 0)
+C^{A} (S, K, t, T) \geq \max (S - K, 0); P^{A} (S, K, t, T) \geq \max (K - S, 0)
 $$
 
 # American Options: No Arbitrage Bounds
@@ -4208,7 +4254,7 @@ $$
 4. An American Call option on a non dividend paying stocks has
 
 $$
-C ^ {A} (S, K, t, T) \geq \max (S - K \times e ^ {- r (T - t)}, 0)
+C^{A} (S, K, t, T) \geq \max (S - K \times e^{- r (T - t)}, 0)
 $$
 
 - To see this, if  $S < K \times e^{-r(T - t)} \Rightarrow$  right-hand-side  $= 0$  and the inequality is obvious.  
@@ -4258,7 +4304,7 @@ Example: SPY Options
 - We know that for non dividend paying stocks
 
 $$
-C (S, K, 0, T) \geq \max (0, S - K e ^ {- r T})
+C (S, K, 0, T) \geq \max (0, S - K e^{- r T})
 $$
 
 - Since  $S - Ke^{-rT} > S - K > 0$ , selling the option is better as  $C(S, K, 0, T) > S - K$ .
@@ -4272,7 +4318,7 @@ $$
 * At  $T$ , you have
 
 $$
-S e ^ {r T} - S _ {T} + \max (S _ {T} - K, 0) = \left\{ \begin{array}{l l} S e ^ {r T} - K = (S - K) e ^ {r T} + K (e ^ {r T} - 1) & \mathrm {i f} S _ {T} > K \\ S e ^ {r T} - S _ {T} > S e ^ {r T} - K & \mathrm {i f} S _ {T} <   K \end{array} \right.
+S e^{r T} - S_{T} + \max (S_{T} - K, 0) = \left\{ \begin{array}{l l} S e^{r T} - K = (S - K) e^{r T} + K (e^{r T} - 1) & \mathrm{if} S_{T} > K \\ S e^{r T} - S_{T} > S e^{r T} - K & \mathrm{if} S_{T} <   K \end{array} \right.
 $$
 
 * Either way, it is more than  $(S - K)e^{rT}$
@@ -4325,11 +4371,11 @@ $$
 - Suppose dividends are unknown, but
 
 $$
-D ^ {+} = \max P V [ \mathrm {d i v i d e n d s u n t i l m a t u r i t y} ]
+D^{+} = \max P V [ \mathrm{dividendsuntilmaturity} ]
 $$
 
 $$
-D ^ {-} = \min P V [ \mathrm {d i v i d e n d s u n t i l m a t u r i t y} ]
+D^{-} = \min P V [ \mathrm{dividendsuntilmaturity} ]
 $$
 
 - Then
@@ -4339,7 +4385,7 @@ $$
 - The value of a call is always higher than the value of a forward contract with the same strike price (the call always pays at least as much as the forward!):
 
 $$
-\begin{array}{l} C (S, K, t, T) \geq S - P V (D) - K e ^ {- r T} \\ \geq S - D ^ {+} - K e ^ {- r T} \\ > S - K (1 - e ^ {- r T}) - K e ^ {- r T} \\ = S - K \\ \end{array}
+\begin{array}{l} C (S, K, t, T) \geq S - P V (D) - K e^{- r T} \\ \geq S - D^{+} - K e^{- r T} \\ > S - K (1 - e^{- r T}) - K e^{- r T} \\ = S - K \\ \end{array}
 $$
 
 - $\Rightarrow$  Sell the option, rather than exercise it.
@@ -4389,31 +4435,31 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 2. 8 4 7
+S_{2, u u} = 1 5 2. 8 4 7
 $$
 
 $$
-p _ {2, u u} ^ {E} = 0
+p_{2, u u}^{E} = 0
 $$
 
 $$
-\begin{array}{l} S _ {0} = 1 0 0 \\ p _ {0} ^ {E} = e ^ {- r / 2} E ^ {*} [ p _ {1} ] \\ = e ^ {- r / 2} \left(1 - q ^ {*}\right) p _ {1, d} = 9. 4 9 5 \\ \end{array}
+\begin{array}{l} S_{0} = 1 0 0 \\ p_{0}^{E} = e^{- r / 2} E^{*} [ p_{1} ] \\ = e^{- r / 2} \left(1 - q^{*}\right) p_{1, d} = 9. 4 9 5 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, u} = 1 2 3. 6 3 1 \\ p _ {1, u} ^ {E} = e ^ {- r / 2} E ^ {*} [ p _ {2} | S _ {1, u} ] = 0 \\ \end{array}
+\begin{array}{l} S_{1, u} = 1 2 3. 6 3 1 \\ p_{1, u}^{E} = e^{- r / 2} E^{*} [ p_{2} | S_{1, u} ] = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {2, u d} = S _ {2, d u} = 1 0 0 \\ p _ {2, u d} ^ {E} = p _ {2, d u} ^ {E} = 0 \\ \end{array}
+\begin{array}{l} S_{2, u d} = S_{2, d u} = 1 0 0 \\ p_{2, u d}^{E} = p_{2, d u}^{E} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, d} = 8 0. 8 8 6 \\ p _ {1, d} ^ {E} = e ^ {- r / 2} E ^ {*} [ p _ {2} | S _ {1, d} ] \\ = e ^ {- r / 2} \left(1 - q ^ {*}\right) p _ {2, d d} = 1 8. 1 1 9 \\ \end{array}
+\begin{array}{l} S_{1, d} = 8 0. 8 8 6 \\ p_{1, d}^{E} = e^{- r / 2} E^{*} [ p_{2} | S_{1, d} ] \\ = e^{- r / 2} \left(1 - q^{*}\right) p_{2, d d} = 1 8. 1 1 9 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {2, d d} = 6 5. 4 2 5 \\ p _ {2, d d} ^ {E} = 3 4. 5 7 5 \\ \end{array}
+\begin{array}{l} S_{2, d d} = 6 5. 4 2 5 \\ p_{2, d d}^{E} = 3 4. 5 7 5 \\ \end{array}
 $$
 
 # American Option: Two Step Tree
@@ -4422,7 +4468,7 @@ $$
 - At maturity  $i = 2$  the payoff of the American option is the same as the European option
 
 $$
-p _ {2, j} ^ {A} = p _ {2, j} ^ {E} \quad \mathrm {f o r} \quad j = u u, u d, d u, d d
+p_{2, j}^{A} = p_{2, j}^{E} \quad \mathrm{for} \quad j = u u, u d, d u, d d
 $$
 
 - At  $i = 1$ , at each node  $u$  and  $d$  compare the payoff if exercise with expected payoff if wait.
@@ -4433,20 +4479,20 @@ $$
 2. If wait, the value of the option is equal to the European counterpart
 
 $$
-\mathrm {V a l u e o f O p t i o n i f W a i t} = e ^ {- r / 2} E ^ {*} [ p _ {2} ^ {A} | S _ {1, d} ] = e ^ {- r / 2} E ^ {*} [ p _ {2} ^ {E} | S _ {1, d} ] = 1 8. 1 1 9
+\mathrm{ValueofOptionifWait} = e^{- r / 2} E^{*} [ p_{2}^{A} | S_{1, d} ] = e^{- r / 2} E^{*} [ p_{2}^{E} | S_{1, d} ] = 1 8. 1 1 9
 $$
 
 - Thus, exercise in node  $(1,d)$  is optimal.
 - $\Rightarrow$  The value of the option in node  $(1, d)$  is equal to 19.114. That is
 
 $$
-p _ {1, d} ^ {A} = \max (K - S _ {1, d}, \mathrm {V a l u e o f O p t i o n i f W a i t})
+p_{1, d}^{A} = \max (K - S_{1, d}, \mathrm{ValueofOptionifWait})
 $$
 
 - The value of the option at time 0 is then
 
 $$
-p _ {0} ^ {A} = e ^ {- r / 2} E ^ {*} \left[ p _ {1} ^ {A} \right] = e ^ {- r / 2} \left(1 - q ^ {*}\right) p _ {1, d} ^ {A} = 1 0. 0 1 7
+p_{0}^{A} = e^{- r / 2} E^{*} \left[ p_{1}^{A} \right] = e^{- r / 2} \left(1 - q^{*}\right) p_{1, d}^{A} = 1 0. 0 1 7
 $$
 
 # American Option: Two Step Tree
@@ -4464,31 +4510,31 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 2. 8 4 7
+S_{2, u u} = 1 5 2. 8 4 7
 $$
 
 $$
-p _ {2, u u} ^ {A} = 0
+p_{2, u u}^{A} = 0
 $$
 
 $$
-\begin{array}{l} S _ {0} = 1 0 0 \\ p _ {0} ^ {A} = \max  \left(K - S _ {0}, e ^ {- r / 2} E ^ {*} [ p _ {1} ^ {A} ]\right) \\ = e ^ {- r / 2} q ^ {*} p _ {1, d} ^ {A} = 1 0. 0 1 7 \\ \end{array}
+\begin{array}{l} S_{0} = 1 0 0 \\ p_{0}^{A} = \max  \left(K - S_{0}, e^{- r / 2} E^{*} [ p_{1}^{A} ]\right) \\ = e^{- r / 2} q^{*} p_{1, d}^{A} = 1 0. 0 1 7 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, u} = 1 2 3. 6 3 1 \\ p _ {1, u} ^ {A} = \max  \left(K - S _ {1, u}, e ^ {- r / 2} E ^ {*} [ p _ {2} ^ {A} | S _ {1, u} ]\right) \\ = 0 \\ \end{array}
+\begin{array}{l} S_{1, u} = 1 2 3. 6 3 1 \\ p_{1, u}^{A} = \max  \left(K - S_{1, u}, e^{- r / 2} E^{*} [ p_{2}^{A} | S_{1, u} ]\right) \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {2, u d} = S _ {2, d u} = 1 0 \phi \\ p _ {2, u d} ^ {A} = p _ {2, d u} ^ {A} = 0 \\ \end{array}
+\begin{array}{l} S_{2, u d} = S_{2, d u} = 1 0 \phi \\ p_{2, u d}^{A} = p_{2, d u}^{A} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, d} = 8 0. 8 8 6 \\ p _ {1, d} ^ {A} = \max  \left(K - S _ {1, d}, e ^ {- r / 2} E ^ {*} [ p _ {2} ^ {A} | S _ {1, d} ]\right) \\ = \max  (1 9. 1 1 4, 1 8. 1 1 9) = 1 9. 1 1 4 \\ \end{array}
+\begin{array}{l} S_{1, d} = 8 0. 8 8 6 \\ p_{1, d}^{A} = \max  \left(K - S_{1, d}, e^{- r / 2} E^{*} [ p_{2}^{A} | S_{1, d} ]\right) \\ = \max  (1 9. 1 1 4, 1 8. 1 1 9) = 1 9. 1 1 4 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {2, d d} = 6 5. 4 2 5 \\ p _ {2, d d} ^ {A} = 3 4. 5 7 5 \\ \end{array}
+\begin{array}{l} S_{2, d d} = 6 5. 4 2 5 \\ p_{2, d d}^{A} = 3 4. 5 7 5 \\ \end{array}
 $$
 
 # American Options. Multi Step Trees
@@ -4498,21 +4544,21 @@ $$
 - With European style derivatives, we solve for prices  $V_{i,j}$  using the rule
 
 $$
-V _ {i, j} ^ {E} = e ^ {- r \times h} \times E ^ {*} \left[ V _ {i + 1} ^ {E} | (i, j) \right]
+V_{i, j}^{E} = e^{- r \times h} \times E^{*} \left[ V_{i + 1}^{E} | (i, j) \right]
 $$
 
 - where  $h = T / n$  is the time interval between steps.
 - With American style derivatives, we solve for prices  $V_{i,j}$  using the rule
 
 $$
-V _ {i, j} ^ {A} = \max \left\{g _ {i, j}, e ^ {- r \times h} \times E ^ {*} \left[ V _ {i + 1} ^ {A} | (i, j) \right] \right\}
+V_{i, j}^{A} = \max \left\{g_{i, j}, e^{- r \times h} \times E^{*} \left[ V_{i + 1}^{A} | (i, j) \right] \right\}
 $$
 
 - where  $g_{i,j}$  is the payoff from the American derivative if exercise occurs in node  $(i,j)$
 - For instance, for the case of put options, we have
 
 $$
-p _ {i, j} ^ {A} = \max \big \{K - S _ {i, j}, e ^ {- r \times h} \times \big (q ^ {*} \times p _ {i + 1, j} ^ {A} + (1 - q ^ {*}) \times p _ {i + 1, j + 1} ^ {A} \big) \big \}
+p_{i, j}^{A} = \max \big \{K - S_{i, j}, e^{- r \times h} \times \big (q^{*} \times p_{i + 1, j}^{A} + (1 - q^{*}) \times p_{i + 1, j + 1}^{A} \big) \big \}
 $$
 
 # American Options. Multi Step Trees
@@ -4530,7 +4576,7 @@ AMERICAN
 - For instance, the  $5\%$  in the money Sep Put have (renormalized) values of
 
 $$
-p ^ {S \& P 5 0 0} (1. 0 5) = 0. 0 4 9 1 \mathrm {a n d} p ^ {S \& P 1 0 0} (1. 0 5) = 0. 0 5 4 0
+p^{S \& P 5 0 0} (1. 0 5) = 0. 0 4 9 1 \mathrm{and} p^{S \& P 1 0 0} (1. 0 5) = 0. 0 5 4 0
 $$
 
 - The three month interest rate is  $r = 0.0483$  and the dividend yield around  $\delta = 0.0191$ .  
@@ -4550,35 +4596,35 @@ BINOMIAL TREE MODEL
 - Consider the earlier example:
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ S _ {2, u u} = 1 5 2. 8 4 7 \\ p _ {2, u u} ^ {A} = 0 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ S_{2, u u} = 1 5 2. 8 4 7 \\ p_{2, u u}^{A} = 0 \\ \end{array}
 $$
 
 $$
-S _ {0} = 1 0 0
+S_{0} = 1 0 0
 $$
 
 $$
-p _ {0} ^ {A} = 1 0. 0 1 7
+p_{0}^{A} = 1 0. 0 1 7
 $$
 
 $$
-\begin{array}{l} S _ {1, u} = 1 2 3. 6 3 1 \\ p _ {1, u} ^ {A} = 0 \\ \end{array}
+\begin{array}{l} S_{1, u} = 1 2 3. 6 3 1 \\ p_{1, u}^{A} = 0 \\ \end{array}
 $$
 
 $$
-S _ {1, d} = 8 0. 8 8 6
+S_{1, d} = 8 0. 8 8 6
 $$
 
 $$
-p _ {1, d} ^ {A} = 1 9. 1 1 4
+p_{1, d}^{A} = 1 9. 1 1 4
 $$
 
 $$
-\begin{array}{l} S _ {2, u d} = S _ {2, d u} = 1 0 0 \\ p _ {2, u d} ^ {A} = p _ {2, d u} ^ {A} = 0 \\ \end{array}
+\begin{array}{l} S_{2, u d} = S_{2, d u} = 1 0 0 \\ p_{2, u d}^{A} = p_{2, d u}^{A} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {2, d d} = 6 5. 4 2 5 \\ p _ {2, d d} ^ {A} = 3 4. 5 7 5 \\ \end{array}
+\begin{array}{l} S_{2, d d} = 6 5. 4 2 5 \\ p_{2, d d}^{A} = 3 4. 5 7 5 \\ \end{array}
 $$
 
 # American Options. Dynamic Replication
@@ -4593,11 +4639,11 @@ $$
 - At time  $i = 1$  the replicating portfolio has payoffs
 
 $$
-\mathrm {I n t h e U p N o d e} P _ {1, u} = \Delta S _ {1, u} + B _ {0} e ^ {r / 2} = 0
+\mathrm{IntheUpNode} P_{1, u} = \Delta S_{1, u} + B_{0} e^{r / 2} = 0
 $$
 
 $$
-\mathrm {I n t h e D o w n N o d e} P _ {1, d} = \Delta S _ {1, d} + B _ {0} e ^ {r / 2} = 1 9. 1 1 4
+\mathrm{IntheDownNode} P_{1, d} = \Delta S_{1, d} + B_{0} e^{r / 2} = 1 9. 1 1 4
 $$
 
 - At time  $i = 1$  we need to rebalance.
@@ -4605,7 +4651,7 @@ $$
 - In the down node, the option holder is supposed to optimally exercise the option, and so we simply hand them the payoff
 
 $$
-P _ {1, d} = K - S _ {1, d} = 1 9. 1 1 4
+P_{1, d} = K - S_{1, d} = 1 9. 1 1 4
 $$
 
 - Note that the node  $(2, d)$  is never reached under the optimal exercise strategy.
@@ -4618,7 +4664,7 @@ $$
 - The value of the new replicating portfolio in node  $(1, d)$  is
 
 $$
-P _ {1, d} ^ {\mathrm {n e w}} = \Delta_ {1, d} S _ {1, d} + B _ {1, d} = 1 8. 1 1 9
+P_{1, d}^{\mathrm{new}} = \Delta_{1, d} S_{1, d} + B_{1, d} = 1 8. 1 1 9
 $$
 
 - The value of the new replicating portfolio is lower than the value  $P_{1,d} = 19.114$  obtained earlier from the initial replicating strategy.  
@@ -4669,7 +4715,7 @@ Booth School of Business
 - That is, let  $\epsilon \sim N(0,1)$ , then
 
 $$
-V _ {T} = V _ {0} \times e ^ {\left(\mu - \frac {1}{2} \sigma^ {2}\right) T + \sigma \sqrt {T} \epsilon}
+V_{T} = V_{0} \times e^{\left(\mu - \frac{1}{2} \sigma^{2}\right) T + \sigma \sqrt{T} \epsilon}
 $$
 
 - Note that Black & Scholes assumes that equity returns are log-normally distributed. This is not a coincidence.
@@ -4697,23 +4743,23 @@ Debt holders Payoff at  $T$
 - The payoff to equity holders is then the one of a call option
 
 $$
-\max (V _ {T} - F, 0)
+\max (V_{T} - F, 0)
 $$
 
 - If we denote  $E_0$  the value of equity today, we can apply Black and Scholes formula and obtain
 
 $$
-E _ {0} = \mathrm {C a l l} (V _ {0}, F, r, T, \sigma)
+E_{0} = \mathrm{Call} (V_{0}, F, r, T, \sigma)
 $$
 
 - where  $\operatorname{Call}(V_0, F, r, T, \sigma)$  is just Black & Scholes formula
 
 $$
-\mathrm {C a l l} \left(V _ {0}, F, r, T, \sigma\right) = V _ {0} N (d _ {1}) - F e ^ {- r T} N (d _ {2})
+\mathrm{Call} \left(V_{0}, F, r, T, \sigma\right) = V_{0} N (d_{1}) - F e^{- r T} N (d_{2})
 $$
 
 $$
-d _ {1} = \frac {\ln \left(\frac {V _ {0}}{F}\right) + (r + \sigma^ {2} / 2) T}{\sigma \sqrt {T}}; d _ {2} = d _ {1} - \sigma \sqrt {T}
+d_{1} = \frac{\ln \left(\frac{V_{0}}{F}\right) + (r + \sigma^{2} / 2) T}{\sigma \sqrt{T}}; d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
 # The Volatility of Levered Equity
@@ -4722,7 +4768,7 @@ $$
 - We have already investigated the volatility of an option given the volatility of the underlying (see TN 5). Applying the same reasoning, we obtain
 
 $$
-\mathrm {V o l a t i l i t y o f E q u i t y R e t u r n s} = \sigma_ {E} = \left(\frac {V N (d _ {1})}{V N (d _ {1}) - K e ^ {- r T} N (d _ {2})}\right) \times \sigma
+\mathrm{VolatilityofEquityReturns} = \sigma_{E} = \left(\frac{V N (d_{1})}{V N (d_{1}) - K e^{- r T} N (d_{2})}\right) \times \sigma
 $$
 
 - The term in parenthesis is much larger than 1, implying that equity return volatility is many times higher than the volatility of the underlying assets.
@@ -4743,13 +4789,13 @@ Volatility of Equity Returns versus Equity Value
 - The payoff to debt holders is
 
 $$
-\min (V _ {T}, F) = V _ {T} - \max (V _ {T} - F, 0)
+\min (V_{T}, F) = V_{T} - \max (V_{T} - F, 0)
 $$
 
 - The value today of this payoff is then
 
 $$
-D _ {0} = V _ {0} - E _ {0} = V _ {0} - C a l l (V _ {0}, F, r, T, \sigma)
+D_{0} = V_{0} - E_{0} = V_{0} - C a l l (V_{0}, F, r, T, \sigma)
 $$
 
 - Note that this expression also comes immediately from the balance sheet identity
@@ -4759,7 +4805,7 @@ Assets of a Firm = Debt + Equity
 - Exploiting put call parity, we can express the value of debt alternatively, and more intuitively, as
 
 $$
-D _ {0} = F e ^ {- r \times T} - P u t (V _ {0}, F, r, T, \sigma)
+D_{0} = F e^{- r \times T} - P u t (V_{0}, F, r, T, \sigma)
 $$
 
 - The value of debt is equal to the risk free debt  $F e^{-rT}$  minus a put option, representing the (risk adjusted) expected losses due to the possibility that risky assets will not be sufficient to pay the debt at maturity.
@@ -4770,23 +4816,23 @@ $$
 - From the definition of yield to maturity  $y$  for a corporate bond, we have the equality
 
 $$
-D _ {0} = e ^ {- y \times T} \times F \quad \Longrightarrow \quad F e ^ {- r \times T} - P u t (V _ {0}, F, r, T, \sigma) = e ^ {- y \times T} F
+D_{0} = e^{- y \times T} \times F \quad \Longrightarrow \quad F e^{- r \times T} - P u t (V_{0}, F, r, T, \sigma) = e^{- y \times T} F
 $$
 
 - which implies
 
 $$
-e ^ {- r \times T} - P u t \left(\frac {V _ {0}}{F}, 1, r, T, \sigma\right) = e ^ {- y \times T}
+e^{- r \times T} - P u t \left(\frac{V_{0}}{F}, 1, r, T, \sigma\right) = e^{- y \times T}
 $$
 
 $$
-1 - e ^ {r \times T} \times P u t \left(\frac {V _ {0}}{F}, 1, r, T, \sigma\right) = e ^ {- (y - r) \times T}
+1 - e^{r \times T} \times P u t \left(\frac{V_{0}}{F}, 1, r, T, \sigma\right) = e^{- (y - r) \times T}
 $$
 
 and finally
 
 $$
-\mathrm {C r e d i t S p r e a d} = y - r = - \frac {1}{T} l o g \left[ 1 - e ^ {r \times T} P u t \left(\frac {V _ {0}}{F}, 1, r, T, \sigma\right) \right]
+\mathrm{CreditSpread} = y - r = - \frac{1}{T} l o g \left[ 1 - e^{r \times T} P u t \left(\frac{V_{0}}{F}, 1, r, T, \sigma\right) \right]
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/27cfbed846329ce04bd064ce0dad7bb6cc5ab2bcbd86a1840408ba55d7f3757c.jpg)  
@@ -4819,29 +4865,29 @@ Table 1: Payoffs
 - That is, senior and junior debt and equity must satisfy
 
 $$
-\mathrm {P a y o f f o f S e n i o r D e b t} = V - \max (V - F _ {S}, 0)
+\mathrm{PayoffofSeniorDebt} = V - \max (V - F_{S}, 0)
 $$
 
 $$
-\mathrm {P a y o f f o r m e d} \mathrm {J u n i o r D e b t} = \max (V - F _ {S}, 0) - \max (V - (F _ {S} + F _ {J}), 0)
+\mathrm{Payofformed} \mathrm{JuniorDebt} = \max (V - F_{S}, 0) - \max (V - (F_{S} + F_{J}), 0)
 $$
 
 $$
-\mathrm {P a y o f f E q u i t y} = \max (V - (F _ {S} + F _ {J}), 0)
+\mathrm{PayoffEquity} = \max (V - (F_{S} + F_{J}), 0)
 $$
 
 - We have then have
 
 $$
-D _ {S, 0} = V - B S C (V, F _ {S}, r, T, \sigma)
+D_{S, 0} = V - B S C (V, F_{S}, r, T, \sigma)
 $$
 
 $$
-D _ {J, 0} = B S C (V, F _ {S}, r, T, \sigma) - B S C (V, F _ {S} + F _ {J}, r, T, \sigma)
+D_{J, 0} = B S C (V, F_{S}, r, T, \sigma) - B S C (V, F_{S} + F_{J}, r, T, \sigma)
 $$
 
 $$
-E _ {0} = B S C (V, F _ {S} + F _ {J}, r, T, \sigma)
+E_{0} = B S C (V, F_{S} + F_{J}, r, T, \sigma)
 $$
 
 - Next Figure plots  $D_{J,0}$  and  $D_{S,0}$  when  $F_{S} = F_{J} = 100$ .
@@ -4873,14 +4919,14 @@ Junior vs. Senior Debt
 - Therefore, the exercised warrants are worth
 
 $$
-\mathrm {V a l u e o f 1 S h a r e a f t e r E x e r c i s e -} K = \frac {V _ {T} + m \times K}{n + m} - K = \frac {n}{n + m} \left(\frac {V _ {T}}{n} - K\right)
+\mathrm{Valueof1ShareafterExercise -} K = \frac{V_{T} + m \times K}{n + m} - K = \frac{n}{n + m} \left(\frac{V_{T}}{n} - K\right)
 $$
 
 - The term  $V_{T} / n$  is the value of one share without the warrants. The term  $n / (n + m)$  is called "dilution adjustment".
 - Thus:
 
 $$
-\text {V a l u e o f w a r r a n t s} = \frac {n}{n + m} B S C \left(\frac {V _ {0}}{n}, K, r, \sigma , T\right)
+\text{Valueofwarrants} = \frac{n}{n + m} B S C \left(\frac{V_{0}}{n}, K, r, \sigma , T\right)
 $$
 
 # Bond and Equity Holders' Conflicts of Interest
@@ -4920,14 +4966,14 @@ Why?
 - Example: A firm has  $V = 9$  bil,  $F = 10$  bil,  $T = 5$  years,  $\sigma = .1$ ,  $r = .02$ .
 
 $$
-- \Longrightarrow E _ {0} = \$ 0. 7 7 9 3 \mathrm {a n d} D _ {0} = 8. 2 2 0 6.
+- \Longrightarrow E_{0} = \$ 0. 7 7 9 3 \mathrm{and} D_{0} = 8. 2 2 0 6.
 $$
 
 - Suppose the firm issue shares and raises \$1 bil in cash.
 - The value of assets is now  $V = 10$  bil. Given that the face value of debt did not change, what is the value of equity and debt?
 
 $$
-* \Longrightarrow E _ {0} = 1. 4 0 6 6 \mathrm {a n d} D _ {0} = 8. 5 9 3 3 7.
+* \Longrightarrow E_{0} = 1. 4 0 6 6 \mathrm{and} D_{0} = 8. 5 9 3 3 7.
 $$
 
 * Equity increased by only \$0.6272 billion but they put \$1 billion.  
@@ -4961,11 +5007,11 @@ Fig. 7. Distribution of the firm's assets value at maturity of the debt obligati
 - More specifically, they obtain
 
 $$
-\mathrm {E x p e c t e d D e f a u l t F r e q u e n c y (E D F)} = p _ {T} = \operatorname * {P r} \left[ V _ {T} <   F | V _ {0} \right] = N (- d _ {2})
+\mathrm{ExpectedDefaultFrequency (EDF)} = p_{T} = \operatorname * {P r} \left[ V_{T} <   F | V_{0} \right] = N (- d_{2})
 $$
 
 $$
-\mathrm {D i s t a n c e t o D e f a u l t (D D)} = d _ {2} = \frac {\ln \left(\frac {V _ {0}}{F}\right) + (\mu - \sigma^ {2} / 2) T}{\sigma \sqrt {T}}
+\mathrm{DistancetoDefault (DD)} = d_{2} = \frac{\ln \left(\frac{V_{0}}{F}\right) + (\mu - \sigma^{2} / 2) T}{\sigma \sqrt{T}}
 $$
 
 What are the unknowns?
@@ -4985,20 +5031,20 @@ What are the unknowns?
 - From the Black Scholes formula for equity we obtained earlier
 
 $$
-E _ {0} = \mathrm {C a l l} (V _ {0}, K, T, r, \delta , \sigma) = N (d _ {1}) V _ {0} - K e ^ {- r (T - t)} N (d _ {2})
+E_{0} = \mathrm{Call} (V_{0}, K, T, r, \delta , \sigma) = N (d_{1}) V_{0} - K e^{- r (T - t)} N (d_{2})
 $$
 
 - Note that here we may use a different  $K$ , as the horizon is different.  
 - From here, we can also compute the volatility of equity
 
 $$
-\sigma_ {E} = N \left(d _ {1}\right) \left(\frac {V _ {0}}{E _ {0}}\right) \sigma
+\sigma_{E} = N \left(d_{1}\right) \left(\frac{V_{0}}{E_{0}}\right) \sigma
 $$
 
 - Therefore, we set
 
 $$
-E _ {0} = \mathrm {M a r k e t V a l u e o f E q u i t y}; \quad \sigma_ {E} = \mathrm {V o l a t i l i t y o f E q u i t y}
+E_{0} = \mathrm{MarketValueofEquity}; \quad \sigma_{E} = \mathrm{VolatilityofEquity}
 $$
 
 - We solve two equations in the two unknown  $V_{0}$  and  $\sigma$ .
@@ -5039,7 +5085,7 @@ Model implied volatility of equity
 * This must be forecasted from fundamentals. Assume  $\mu = 15\%$ . We find:
 
 $$
-d _ {2} = 2. 6 9 \quad \mathrm {a n d} \quad p _ {T} = 3 6 \mathrm {b p}
+d_{2} = 2. 6 9 \quad \mathrm{and} \quad p_{T} = 3 6 \mathrm{bp}
 $$
 
 # Credit Risk Measurement: KMV
@@ -5140,7 +5186,7 @@ CDS Spread: Italy, Greece, and USA
 - For instance, with the credit spread formula in Merton's model discussed earlier:
 
 $$
-\mathrm {C r e d i t S p r e a d} = y - r = - \frac {1}{T} l o g \left[ 1 - e ^ {r \times T} P u t \left(\frac {V _ {0}}{F}, 1, r, T, \sigma\right) \right]
+\mathrm{CreditSpread} = y - r = - \frac{1}{T} l o g \left[ 1 - e^{r \times T} P u t \left(\frac{V_{0}}{F}, 1, r, T, \sigma\right) \right]
 $$
 
 - However, traders do not use this formula, for a number of reasons:
@@ -5252,7 +5298,7 @@ Panel B. Multiple of Global GDP
 - The Net Cash flow to counterparty A is
 
 $$
-\begin{array}{l} \mathrm {N e t C a s h F l o w a t} T = N \times \Delta \times (F - R (T _ {0}, T)) \\ = N \times (1 + F \times \Delta) \qquad (\mathrm {F i x e d L e g}) \\ - N \times (1 + R (T _ {0}, T) \times \Delta) \qquad \mathrm {(F l o a t i n g L e g)} \\ \end{array}
+\begin{array}{l} \mathrm{NetCashFlowat} T = N \times \Delta \times (F - R (T_{0}, T)) \\ = N \times (1 + F \times \Delta) \qquad (\mathrm{FixedLeg}) \\ - N \times (1 + R (T_{0}, T) \times \Delta) \qquad \mathrm{(FloatingLeg)} \\ \end{array}
 $$
 
 - We compute the value of the FRA by computing the value of each leg.
@@ -5262,7 +5308,7 @@ $$
 - Present value of fixed leg. This can be computed immediately:
 
 $$
-\mathrm {V a l u e o f F i x e d L e g} = Z (0, T) \times N \times (1 + F \times \Delta)
+\mathrm{ValueofFixedLeg} = Z (0, T) \times N \times (1 + F \times \Delta)
 $$
 
 - Present value of floating leg. This must be computed in two steps
@@ -5270,25 +5316,25 @@ $$
 1. Compute the value of cash flow  $N \times R(T_0, T)$  as of time  $T_0$ . Note that at that time we will know the rate  $R(T_0, T)$
 
 $$
-\mathrm {V a l u e o f F l o a t i n g L e g a t} T _ {0} = \frac {\mathrm {C a s h F l o w a t} T}{1 \mathrm {p e r i o d d i s c o u n t}} = N \times \frac {(1 + R (T _ {0} , T) \times \Delta)}{(1 + R (T _ {0} , T) \times \Delta)} = N
+\mathrm{ValueofFloatingLegat} T_{0} = \frac{\mathrm{CashFlowat} T}{1 \mathrm{perioddiscount}} = N \times \frac{(1 + R (T_{0} , T) \times \Delta)}{(1 + R (T_{0} , T) \times \Delta)} = N
 $$
 
 2. Obtain the value of Floating Leg at 0
 
 $$
-\mathrm {V a l u e o f F l o a t i n g L e g a t} 0 = Z (0, T _ {0}) \times N
+\mathrm{ValueofFloatingLegat} 0 = Z (0, T_{0}) \times N
 $$
 
 - Therefore, the value of the FRA is
 
 $$
-V = N \times [ Z (0, T) \times (1 + F \times \Delta) - Z (0, T _ {0}) ] = N \times Z (0, T) \times \left[ (1 + F \times \Delta) - \frac {Z (0 , T _ {0})}{Z (0 , T)} \right]
+V = N \times [ Z (0, T) \times (1 + F \times \Delta) - Z (0, T_{0}) ] = N \times Z (0, T) \times \left[ (1 + F \times \Delta) - \frac{Z (0 , T_{0})}{Z (0 , T)} \right]
 $$
 
 - The forward rate  $F$  makes this quantity equal to zero
 
 $$
-1 + F \times \Delta = \frac {Z (0 , T _ {0})}{Z (0 , T)} \Longrightarrow F = \frac {1}{\Delta} \left(\frac {Z (0 , T _ {0})}{Z (0 , T)} - 1\right)
+1 + F \times \Delta = \frac{Z (0 , T_{0})}{Z (0 , T)} \Longrightarrow F = \frac{1}{\Delta} \left(\frac{Z (0 , T_{0})}{Z (0 , T)} - 1\right)
 $$
 
 # Forward Rate Agreement: Example
@@ -5301,7 +5347,7 @@ $$
 - That is, they exchange the payment at  $T_{2} = 1$
 
 $$
-\text {N e t} T _ {2} = \frac {N}{2} \times [ F (0., 5, 1) - R (0. 5, 1) ] \tag {1}
+\text{Net} T_{2} = \frac{N}{2} \times [ F (0., 5, 1) - R (0. 5, 1) ] \tag {1}
 $$
 
 What is the forward rate?
@@ -5319,7 +5365,7 @@ $$
 - Then, at  $T_{2} = 1$ , the firm receives the payoff from the investment, plus the net payment from the FRA. In total:
 
 $$
-\begin{array}{l} \begin{array}{r l} \frac {\mathrm {T o t a l a m o u n t}}{\mathrm {a t} T _ {2}} & = \left\{\$ 1 0 0 \mathrm {m i l l i o n} \times \left[ 1 + \frac {R (0 . 5 , 1)}{2} \right] \right\} \quad (\mathrm {R e t u r n o n i n v e s t m e n t}) \end{array} \\ \left. + \left\{\frac {N}{2} \times [ F (0,. 5, 1) - R (0. 5, 1) ] \right\} \quad \mathrm {(F R A p a y m e n t)} \right. \\ = \$ 100 \text {m i l l i o n} \times \left[ 1 + \frac {F (0 , . 5 , 1)}{2} \right] \\ = \$ 102.105 \text {m i l l i o n} \\ \end{array}
+\begin{array}{l} \begin{array}{r l} \frac{\mathrm{Totalamount}}{\mathrm{at} T_{2}} & = \left\{\$ 1 0 0 \mathrm{million} \times \left[ 1 + \frac{R (0 . 5 , 1)}{2} \right] \right\} \quad (\mathrm{Returnoninvestment}) \end{array} \\ \left. + \left\{\frac{N}{2} \times [ F (0,. 5, 1) - R (0. 5, 1) ] \right\} \quad \mathrm{(FRApayment)} \right. \\ = \$ 100 \text{million} \times \left[ 1 + \frac{F (0 , . 5 , 1)}{2} \right] \\ = \$ 102.105 \text{million} \\ \end{array}
 $$
 
 - That is, the firm locked in the forward rate  $F(0,.5,1) = 4.21\%$
@@ -5329,7 +5375,7 @@ $$
 - An interest rate swap is an agreement between two counterparties, according to which at dates  $T_{1}, T_{2}, \ldots, T_{n}$ , with  $T_{i} = T_{i - 1} + \Delta$ , the counterparties exchange the net cash flows
 
 $$
-\mathrm {S w a p N e t C a s h F l o w a t} T _ {i} = N \times \Delta \times (K - R (T _ {i - 1}, T _ {i}))
+\mathrm{SwapNetCashFlowat} T_{i} = N \times \Delta \times (K - R (T_{i - 1}, T_{i}))
 $$
 
 - The swap rate  $K$  is chosen to make the value of the swap equal to zero at time 0.  
@@ -5338,7 +5384,7 @@ What is the value of the swap at 0?
 - Clearly, this specific cash flow is the same we had earlier for a FRA, and therefore
 
 $$
-\begin{array}{l} \mathrm {P V o f C a s h F l o w a t} T _ {i} = N \times Z (0, T _ {i}) \times \left[ (1 + K \times \Delta) - \frac {Z (0 , T _ {i - 1})}{Z (0 , T _ {i})} \right] \\ = N \times Z (0, T _ {i}) \times [ (1 + K \times \Delta) - (1 + F (0, T _ {i - 1}, T _ {i}) \Delta) ] \\ = N \times \Delta \times Z (0, T _ {i}) [ K - F (0, T _ {i - 1}, T _ {i}) ] \\ \end{array}
+\begin{array}{l} \mathrm{PVofCashFlowat} T_{i} = N \times Z (0, T_{i}) \times \left[ (1 + K \times \Delta) - \frac{Z (0 , T_{i - 1})}{Z (0 , T_{i})} \right] \\ = N \times Z (0, T_{i}) \times [ (1 + K \times \Delta) - (1 + F (0, T_{i - 1}, T_{i}) \Delta) ] \\ = N \times \Delta \times Z (0, T_{i}) [ K - F (0, T_{i - 1}, T_{i}) ] \\ \end{array}
 $$
 
 - where we denote  $F(0, T_{i - 1}, T_i)$  the forward rate at time 0 for a FRA between  $T_{i - 1}$  and  $T_i$ .
@@ -5348,19 +5394,19 @@ $$
 - It follows that for given  $K$ , the value of the swap is the sum of these values
 
 $$
-\mathrm {V a l u e o f S w a p} = N \times \Delta \times \sum_ {i = 1} ^ {n} Z (0, T _ {i}) \times [ K - F (0, T _ {i - 1}, T _ {i}) ]
+\mathrm{ValueofSwap} = N \times \Delta \times \sum_{i = 1}^{n} Z (0, T_{i}) \times [ K - F (0, T_{i - 1}, T_{i}) ]
 $$
 
 - The swap rate is then the  $K$  that makes the value of the swap equal to zero
 
 $$
-\sum_ {i = 1} ^ {n} Z (0, T _ {i}) \times [ K - F (0, T _ {i - 1}, T _ {i}) ] = 0 \Longrightarrow K = \sum_ {i = 1} ^ {n} w _ {i} \times F (0, T _ {i - 1}, T _ {i})
+\sum_{i = 1}^{n} Z (0, T_{i}) \times [ K - F (0, T_{i - 1}, T_{i}) ] = 0 \Longrightarrow K = \sum_{i = 1}^{n} w_{i} \times F (0, T_{i - 1}, T_{i})
 $$
 
 - where
 
 $$
-w _ {i} = \frac {Z (0 , T _ {i})}{\sum_ {i = 1} ^ {n} Z (0 , T _ {i})}
+w_{i} = \frac{Z (0 , T_{i})}{\sum_{i = 1}^{n} Z (0 , T_{i})}
 $$
 
 - The swap rate is a weighted average of forward rates.  
@@ -5404,7 +5450,7 @@ FIRM
 Swap: fixed leg
 
 $$
-\frac {\mathrm {~$ 200 m}}{2} \times 5.46 \%
+\frac{\mathrm{~$200m}}{2} \times 5.46 \%
 $$
 
 $$
@@ -5418,7 +5464,7 @@ $$
 Swap: floating leg
 
 $$
-\frac {\mathrm {s g m a l} 2 0 0 \mathrm {m}}{2} \times R (T _ {i - 1}, T _ {i})
+\frac{\mathrm{sgmal} 2 0 0 \mathrm{m}}{2} \times R (T_{i - 1}, T_{i})
 $$
 
 SWAP
@@ -5428,7 +5474,7 @@ DEALER
 Floating rate bond
 
 $$
-\frac {\$ 2 0 0 \mathrm {m}}{2} \times (R (T _ {i - 1}, T _ {i}) + 4 b p s)
+\frac{\$ 2 0 0 \mathrm{m}}{2} \times (R (T_{i - 1}, T_{i}) + 4 b p s)
 $$
 
 Net Flow  $= 0$
@@ -5491,7 +5537,7 @@ Some History
 - Given a notional  $N$ , the floating rate payment at time  $T_{i}$  is
 
 $$
-C F (T _ {i}) = N \left(\prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \delta\right) - 1\right) \tag {2}
+C F (T_{i}) = N \left(\prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \delta\right) - 1\right) \tag {2}
 $$
 
 - where  $\delta$  is the daily interval,  $r_t$  is the reference (annualized) overnight rate, and  $n_j$  is the number of days between reset periods.  
@@ -5499,7 +5545,7 @@ $$
 - In the continuous time limit  $(\delta \to 0)$ , we have that
 
 $$
-C F \left(T _ {i}\right) = N \left(e ^ {\int_ {T _ {i - 1}} ^ {T _ {i}} r (u) d u} - 1\right) \tag {3}
+C F \left(T_{i}\right) = N \left(e^{\int_{T_{i - 1}}^{T_{i}} r (u) d u} - 1\right) \tag {3}
 $$
 
 - Is with maturity less than 1 year have only one payment at the maturity.  
@@ -5510,46 +5556,46 @@ $$
 - The value of Is is the difference between the floating leg and the fixed leg:
 
 $$
-V _ {t} ^ {O I S} = V _ {t} ^ {F l o a t i n g} - V _ {t} ^ {F i x e d} \tag {4}
+V_{t}^{O I S} = V_{t}^{F l o a t i n g} - V_{t}^{F i x e d} \tag {4}
 $$
 
 - Floating Leg: At reset dates, and assuming the payment of a principal at maturity of the swap, the value of the floating leg is par.
 - Indeed, investing the notional  $N$  in the overnight index daily gives at  $T_{i}$
 
 $$
-N \prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \Delta\right) = C F \left(T _ {i}\right) + N
+N \prod_{j = 1}^{n_{j}} \left(1 + r_{t_{j}} \Delta\right) = C F \left(T_{i}\right) + N
 $$
 
 - $\Longrightarrow$  we can replicate the floating payments, plus a residual of notional at maturity  $T_{i}$ , with an investment  $N$  at time 0.
 - It follows
 
 $$
-V _ {0} ^ {F l o a t i n g} = N
+V_{0}^{F l o a t i n g} = N
 $$
 
 - Fixed leg: Given a proper discount function  $Z^{OIS}(0,T_i)$ , we obtain
 
 $$
-V _ {0} ^ {F i x e d} = N c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + N Z ^ {O I S} (0, T _ {n}) \tag {5}
+V_{0}^{F i x e d} = N c \Delta \sum_{i = 1}^{n} Z^{O I S} (0, T_{i}) + N Z^{O I S} (0, T_{n}) \tag {5}
 $$
 
 - The value of the contract at inception is zero,  $V_{0}^{OIS} = 0$ .  
 - It follows from (4) then that
 
 $$
-V _ {0} ^ {O I S} = V _ {0} ^ {F l o a t i n g} - V _ {0} ^ {F i x e d} = 0 \tag {6}
+V_{0}^{O I S} = V_{0}^{F l o a t i n g} - V_{0}^{F i x e d} = 0 \tag {6}
 $$
 
 - This equation implies that the swap rate  $c$  can be computed from
 
 $$
-1 = c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} \left(0, T _ {i}\right) + Z ^ {O I S} \left(0, T _ {n}\right) \tag {7}
+1 = c \Delta \sum_{i = 1}^{n} Z^{O I S} \left(0, T_{i}\right) + Z^{O I S} \left(0, T_{n}\right) \tag {7}
 $$
 
 - which gives
 
 $$
-c (T _ {n}) = \frac {1}{\Delta} \frac {1 - Z ^ {O I S} (0 , T _ {n})}{\Sigma_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i})} \tag {8}
+c (T_{n}) = \frac{1}{\Delta} \frac{1 - Z^{O I S} (0 , T_{n})}{\Sigma_{i = 1}^{n} Z^{O I S} (0 , T_{i})} \tag {8}
 $$
 
 - where we now emphasize that the coupon rate  $c$  is for a swap with maturity  $T_{n}$ , and thus write  $c(T_{n})$ .
@@ -5560,7 +5606,7 @@ $$
 - We obtain the relation:
 
 $$
-Z ^ {O I S} \left(0, T _ {i}\right) = \frac {1 - c \left(T _ {i}\right) \Delta \sum_ {j = 1} ^ {i - 1} Z ^ {O I S} \left(0 , T _ {j}\right)}{1 + c \left(T _ {i}\right) \Delta} \tag {9}
+Z^{O I S} \left(0, T_{i}\right) = \frac{1 - c \left(T_{i}\right) \Delta \sum_{j = 1}^{i - 1} Z^{O I S} \left(0 , T_{j}\right)}{1 + c \left(T_{i}\right) \Delta} \tag {9}
 $$
 
 - recalling, however, that Is with maturity less than or equal to 1 year generally have only one payment.  
@@ -5604,11 +5650,11 @@ These include
 - Caps and Floors: Securities that pay when rates go up (Caps) or down (Floors). Their cash flows are given by
 
 $$
-\mathrm {C a p C F a t} T _ {i} = N \times \Delta \times \max (R (T _ {i - 1}, T _ {i}) - K, 0);
+\mathrm{CapCFat} T_{i} = N \times \Delta \times \max (R (T_{i - 1}, T_{i}) - K, 0);
 $$
 
 $$
-\mathrm {F l o o r C F a t} T _ {i} = N \times \Delta \times \max (K - R (T _ {i - 1}, T _ {i}), 0)
+\mathrm{FloorCFat} T_{i} = N \times \Delta \times \max (K - R (T_{i - 1}, T_{i}), 0)
 $$
 
 * Popular derivative instruments to insure agains increases or decreases in interest rates  
@@ -5633,7 +5679,7 @@ $$
 - The Cap pays the sequence of cash flows
 
 $$
-\mathrm {C a p C F a t} T _ {i} = N \times \Delta \times \max \left(R (T _ {i - 1}, T _ {i}) - K, 0\right);
+\mathrm{CapCFat} T_{i} = N \times \Delta \times \max \left(R (T_{i - 1}, T_{i}) - K, 0\right);
 $$
 
 - where  $\Delta = T_{i} - T_{i - 1}$ . Each payment is called a caplet.  
@@ -5641,13 +5687,13 @@ $$
 - In the case of caplets, we use the forward rate directly, which is given by
 
 $$
-F (0, T _ {i - 1}, T _ {i}) = \frac {1}{\Delta} \left(\frac {Z (0 , T _ {i - 1})}{Z (0 , T _ {i})} - 1\right)
+F (0, T_{i - 1}, T_{i}) = \frac{1}{\Delta} \left(\frac{Z (0 , T_{i - 1})}{Z (0 , T_{i})} - 1\right)
 $$
 
 - The model assumes that under the proper risk-adjusted probabilities, at time  $T_{i}$
 
 $$
-R (T _ {i - 1}, T _ {i}) = F (T _ {i - 1}, T _ {i - 1}, T _ {i}) \sim L o g N o r m a l
+R (T_{i - 1}, T_{i}) = F (T_{i - 1}, T_{i - 1}, T_{i}) \sim L o g N o r m a l
 $$
 
 with Variance  $[R(T_{i - 1},T_i)] = \sigma_F^2 T_{i - 1}$  
@@ -5655,13 +5701,13 @@ with Variance  $[R(T_{i - 1},T_i)] = \sigma_F^2 T_{i - 1}$
 - Then, the Black formula (see Teaching Notes 5) has
 
 $$
-C a p l e t (T _ {i}) = Z (0, T _ {i}) \times [ F (0, T _ {i - 1}, T _ {i}) \times N (d _ {1}) - K \times N (d _ {2}) ]
+C a p l e t (T_{i}) = Z (0, T_{i}) \times [ F (0, T_{i - 1}, T_{i}) \times N (d_{1}) - K \times N (d_{2}) ]
 $$
 
 where
 
 $$
-d _ {1} = \frac {\log \left(\frac {F (0 , T _ {i - 1} , T _ {i})}{K}\right) + \frac {1}{2} \sigma_ {F} ^ {2} T _ {i - 1}}{\sigma_ {F} \sqrt {T _ {i - 1}}}; d _ {2} = d _ {1} - \sigma_ {F} \sqrt {T _ {i - 1}}
+d_{1} = \frac{\log \left(\frac{F (0 , T_{i - 1} , T_{i})}{K}\right) + \frac{1}{2} \sigma_{F}^{2} T_{i - 1}}{\sigma_{F} \sqrt{T_{i - 1}}}; d_{2} = d_{1} - \sigma_{F} \sqrt{T_{i - 1}}
 $$
 
 # Example: The Black's formula to price caps
@@ -5696,21 +5742,21 @@ $$
 - Finally, from the quoted volatility  $\sigma_{F} = 23.5\%$ , we obtain the three relevant volatilities:
 
 $$
-\sigma_ {F} \times [ \sqrt {T _ {1}}, \sqrt {T _ {2}}, \sqrt {T _ {3}} ] = 23.5 \% \times [ \sqrt {0 . 2 5}, \sqrt {0 . 5}, \sqrt {0 . 7 5} ] = [ 1 1. 7 5 \%, 1 6. 6 2 \%, 2 0. 3 5 \% ].
+\sigma_{F} \times [ \sqrt{T_{1}}, \sqrt{T_{2}}, \sqrt{T_{3}} ] = 23.5 \% \times [ \sqrt{0 . 2 5}, \sqrt{0 . 5}, \sqrt{0 . 7 5} ] = [ 1 1. 7 5 \%, 1 6. 6 2 \%, 2 0. 3 5 \% ].
 $$
 
 Using the formula for  $d_{1}$  and  $d_{2}$  we obtain
 
 $$
-d _ {1} (0. 5 0) = -. 0 2 7 7 0; d _ {2} (0. 5 0) = -. 0 3 9 4 5 \Longrightarrow \mathrm {C a p l e t} (0. 5 0) = 0. 0 1 8 4
+d_{1} (0. 5 0) = -. 0 2 7 7 0; d_{2} (0. 5 0) = -. 0 3 9 4 5 \Longrightarrow \mathrm{Caplet} (0. 5 0) = 0. 0 1 8 4
 $$
 
 $$
-d _ {1} (0. 7 5) = . 4 0 0 0; d _ {2} (0. 7 5) = . 2 3 2 8 \Longrightarrow \mathrm {C a p l e t} (0. 7 5) = 0. 0 6 1 7
+d_{1} (0. 7 5) = . 4 0 0 0; d_{2} (0. 7 5) = . 2 3 2 8 \Longrightarrow \mathrm{Caplet} (0. 7 5) = 0. 0 6 1 7
 $$
 
 $$
-d _ {1} (1) = . 7 2 1 8; d _ {2} (1) = . 5 1 8 3 \Longrightarrow \text {C a p l e t} (1) = 0. 1 0 5 7
+d_{1} (1) = . 7 2 1 8; d_{2} (1) = . 5 1 8 3 \Longrightarrow \text{Caplet} (1) = 0. 1 0 5 7
 $$
 
 obtaning
@@ -5739,19 +5785,19 @@ $$
 $$
 
 $$
-r _ {2, u u} = 0. 0 5 5 7
+r_{2, u u} = 0. 0 5 5 7
 $$
 
 $$
-r _ {1, u} = 0. 0 3 8 7
+r_{1, u} = 0. 0 3 8 7
 $$
 
 $$
-\begin{array}{c} r _ {2, u d} \\ r _ {2, d u} \end{array} = 0. 0 2 7 9
+\begin{array}{c} r_{2, u d} \\ r_{2, d u} \end{array} = 0. 0 2 7 9
 $$
 
 $$
-\begin{array}{l} r _ {0} = 0. 0 1 6 8 \\ r _ {1, d} = 0. 0 0 7 4 \\ r _ {2, d d} = 0. 0 0 0 1 \\ \end{array}
+\begin{array}{l} r_{0} = 0. 0 1 6 8 \\ r_{1, d} = 0. 0 0 7 4 \\ r_{2, d d} = 0. 0 0 0 1 \\ \end{array}
 $$
 
 # Interest Rate Trees
@@ -5759,29 +5805,29 @@ $$
 - The expected rate in six and twelve months are
 
 $$
-E \left[ r _ {1} \right] = \frac {1}{2} r _ {1, u} + \frac {1}{2} r _ {1, d} = 0. 0 2 3 0 5
+E \left[ r_{1} \right] = \frac{1}{2} r_{1, u} + \frac{1}{2} r_{1, d} = 0. 0 2 3 0 5
 $$
 
 $$
-E \left[ r _ {2} \right] = \frac {1}{4} r _ {2, u u} + \frac {1}{2} r _ {2, u d} + \frac {1}{4} r _ {2, d d} = . 0 2 7 9
+E \left[ r_{2} \right] = \frac{1}{4} r_{2, u u} + \frac{1}{2} r_{2, u d} + \frac{1}{4} r_{2, d d} = . 0 2 7 9
 $$
 
 - This tree naturally translates into a tree of one period (six months) zero coupon bonds.  
 Let
 
 $$
-Z _ {i, j} (k)
+Z_{i, j} (k)
 $$
 
 - be the value of a zero coupon bond at index time  $i$  (e.g.  $i = 1$ ), at node  $j$  (e.g.  $j = u, d \ldots$ ) and with maturity at index  $k$  (e.g.  $k = 2$ ).  
 - For instance
 
 $$
-Z _ {0} (1) = \mathrm {Z e r o a t t i m e 0 t h a t m a t u r e s a t t i m e 1}
+Z_{0} (1) = \mathrm{Zeroattime0thatmaturesattime1}
 $$
 
 $$
-Z _ {1, u} (2) = \mathrm {Z e r o a t t i m e 1 i n n o d e} u p \mathrm {t h a t m a t u r e s a t t i m e 2}
+Z_{1, u} (2) = \mathrm{Zeroattime1innode} u p \mathrm{thatmaturesattime2}
 $$
 
 # Interest Rate Trees
@@ -5789,7 +5835,7 @@ $$
 - Recall that since steps are every 6 months:
 
 $$
-Z _ {i, j} (i + 1) = e ^ {- r _ {i, j} \frac {1}{2}}
+Z_{i, j} (i + 1) = e^{- r_{i, j} \frac{1}{2}}
 $$
 
 - We obtain
@@ -5799,27 +5845,27 @@ $$
 $$
 
 $$
-Z _ {2, u u} (3) = 0. 9 7 2 5
+Z_{2, u u} (3) = 0. 9 7 2 5
 $$
 
 $$
-\boxed {Z _ {0} (1) = 0. 9 9 1 6}
+\boxed {Z_{0} (1) = 0. 9 9 1 6}
 $$
 
 $$
-\boxed {Z _ {1, u} (2) = 0. 9 8 0 8}
+\boxed {Z_{1, u} (2) = 0. 9 8 0 8}
 $$
 
 $$
-\boxed { \begin{array}{c} Z _ {2, u d} (3) \\ Z _ {2, d u} (3) \end{array} = 0. 9 8 6 1}
+\boxed { \begin{array}{c} Z_{2, u d} (3) \\ Z_{2, d u} (3) \end{array} = 0. 9 8 6 1}
 $$
 
 $$
-\boxed {Z _ {1, d} (2) = 0. 9 9 6 3}
+\boxed {Z_{1, d} (2) = 0. 9 9 6 3}
 $$
 
 $$
-\boxed {Z _ {2, d d} (3) = 0. 9 9 9 9}
+\boxed {Z_{2, d d} (3) = 0. 9 9 9 9}
 $$
 
 - Important: Note that there is a key distinction between this zero-coupon tree, and the trees for stocks in TN 4.
@@ -5829,27 +5875,27 @@ $$
 - For instance, suppose you assume that the stock process is given by  $(q = 1/2$  to move up)
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ \boxed {S _ {u u} = 9 0} \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ \boxed {S_{u u} = 9 0} \\ \end{array}
 $$
 
 $$
-S _ {u} = 7 0
+S_{u} = 7 0
 $$
 
 $$
-\boxed { \begin{array}{c} S _ {u d} \\ S _ {d u} \end{array} } = 6 0
+\boxed { \begin{array}{c} S_{u d} \\ S_{d u} \end{array} } = 6 0
 $$
 
 $$
-\boxed {S _ {0} = 5 0}
+\boxed {S_{0} = 5 0}
 $$
 
 $$
-\boxed {S _ {d} = 4 0}
+\boxed {S_{d} = 4 0}
 $$
 
 $$
-\boxed {S _ {d d} = 3 0}
+\boxed {S_{d d} = 3 0}
 $$
 
 - It is always the same security whose price is quoted along the tree.  
@@ -5865,7 +5911,7 @@ $$
 - For instance, assume that today  $t = 0$ , a zero coupon with maturity  $T = 1$  (i.e.  $i = 2$ ) trades at
 
 $$
-Z _ {0} (2) = 0. 9 7 8 1
+Z_{0} (2) = 0. 9 7 8 1
 $$
 
 - Combining this price with the previous tree, we obtain a tree for the bond maturing at  $i = 2$
@@ -5885,27 +5931,27 @@ i = 2
 $$
 
 $$
-Z _ {2, u u} (2) = 1
+Z_{2, u u} (2) = 1
 $$
 
 $$
-Z _ {0} (2) = 0. 9 7 8 1
+Z_{0} (2) = 0. 9 7 8 1
 $$
 
 $$
-Z _ {1, u} (2) = 0. 9 8 0 8
+Z_{1, u} (2) = 0. 9 8 0 8
 $$
 
 $$
-\begin{array}{l} {Z _ {2, u d} (2)} \\ {Z _ {2, d u} (2)} \end{array} = 1
+\begin{array}{l} {Z_{2, u d} (2)} \\ {Z_{2, d u} (2)} \end{array} = 1
 $$
 
 $$
-Z _ {1, d} (2) = 0. 9 9 6 3
+Z_{1, d} (2) = 0. 9 9 6 3
 $$
 
 $$
-Z _ {2, d d} (2) = 1
+Z_{2, d d} (2) = 1
 $$
 
 - This is a proper asset pricing tree, in the sense that the security along the tree is always the same, namely, the bond expiring at time  $i = 2$ .  
@@ -5918,13 +5964,13 @@ $$
 - The expected risk neutral return to invest in the  $i = 2$  bond is
 
 $$
-E ^ {*} \left[ \frac {Z _ {1} (2)}{Z _ {0} (2)} \right] = q _ {0} ^ {*} \frac {Z _ {1 , u} (2)}{Z _ {0} (2)} + (1 - q _ {0} ^ {*}) \frac {Z _ {1 , d} (2)}{Z _ {0} (2)}
+E^{*} \left[ \frac{Z_{1} (2)}{Z_{0} (2)} \right] = q_{0}^{*} \frac{Z_{1 , u} (2)}{Z_{0} (2)} + (1 - q_{0}^{*}) \frac{Z_{1 , d} (2)}{Z_{0} (2)}
 $$
 
 - Risk neutral pricing implies that this expected return must equal the safe return of an investment in a zero that matures at time  $i = 1$
 
 $$
-\underbrace {q _ {0} ^ {*} \frac {Z _ {1 , u} (2)}{Z _ {0} (2)} + (1 - q _ {0} ^ {*}) \frac {Z _ {1 , d} (2)}{Z _ {0} (2)}} = \underbrace {1} _ {Z _ {0} (1)}
+\underbrace {q_{0}^{*} \frac{Z_{1 , u} (2)}{Z_{0} (2)} + (1 - q_{0}^{*}) \frac{Z_{1 , d} (2)}{Z_{0} (2)}} = \underbrace {1}_{Z_{0} (1)}
 $$
 
 Expected Return on 2-period bond = Return on 1-period Bond
@@ -5932,7 +5978,7 @@ Expected Return on 2-period bond = Return on 1-period Bond
 -yielding
 
 $$
-q _ {0} ^ {*} = \frac {Z _ {0} (2) / Z _ {0} (1) - Z _ {1 , d} (2)}{Z _ {1 , u} (2) - Z _ {1 , d} (2)}
+q_{0}^{*} = \frac{Z_{0} (2) / Z_{0} (1) - Z_{1 , d} (2)}{Z_{1 , u} (2) - Z_{1 , d} (2)}
 $$
 
 - Note that this is the same equation we found in TN 4.
@@ -5942,13 +5988,13 @@ $$
 - Given the risk neutral probability, the value  $V_{i}$  of every traded security must satisfy
 
 $$
-V _ {0} = Z _ {0} \left(1\right) E ^ {*} \left[ V _ {1} \right]
+V_{0} = Z_{0} \left(1\right) E^{*} \left[ V_{1} \right]
 $$
 
 - For instance, in the example we have
 
 $$
-q _ {0} ^ {*} = \frac {Z _ {0} (2) / Z _ {0} (1) - Z _ {1 , d} (2)}{Z _ {1 , u} (2) - Z _ {1 , d} (2)} = \frac {0 . 9 7 8 1 / 0 . 9 9 1 6 - 0 . 9 9 6 3}{0 . 9 8 0 8 - 0 . 9 9 6 3} = 0. 6 4 3 5
+q_{0}^{*} = \frac{Z_{0} (2) / Z_{0} (1) - Z_{1 , d} (2)}{Z_{1 , u} (2) - Z_{1 , d} (2)} = \frac{0 . 9 7 8 1 / 0 . 9 9 1 6 - 0 . 9 9 6 3}{0 . 9 8 0 8 - 0 . 9 9 6 3} = 0. 6 4 3 5
 $$
 
 - Option on Interest Rate:
@@ -5956,11 +6002,11 @@ $$
 - The payoffs are:
 
 $$
-\mathrm {p a y} _ {1, u} = 1 0 0 \times \max (r _ {1, u} - \overline {{r}}, 0) = 2 1. 9 \mathrm {a n d} \mathrm {p a y} _ {1, d} = 1 0 0 \times \max (r _ {1, d} - \overline {{r}}, 0) = 0
+\mathrm{pay}_{1, u} = 1 0 0 \times \max (r_{1, u} - \overline {{r}}, 0) = 2 1. 9 \mathrm{and} \mathrm{pay}_{1, d} = 1 0 0 \times \max (r_{1, d} - \overline {{r}}, 0) = 0
 $$
 
 $$
-\begin{array}{l} \mathrm {O p t i o n} _ {0} = Z _ {0} (1) \times E ^ {*} [ \mathrm {p a y} _ {1} ] \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 2 1. 9 + 0. 3 5 6 4 5 \times 0) \\ = 1 3. 9 7 \\ \end{array}
+\begin{array}{l} \mathrm{Option}_{0} = Z_{0} (1) \times E^{*} [ \mathrm{pay}_{1} ] \\ = 0. 9 9 1 6 \times (0. 6 4 3 5 \times 2 1. 9 + 0. 3 5 6 4 5 \times 0) \\ = 1 3. 9 7 \\ \end{array}
 $$
 
 # Risk Neutral Pricing on Trees
@@ -5970,14 +6016,14 @@ $$
 - Under the risk neutral probabilities, the expected interest rate is
 
 $$
-E ^ {*} \left[ r _ {1} \right] = q _ {0} ^ {*} \times r _ {1, u} + \left(1 - q _ {0} ^ {*}\right) \times r _ {1, d} = 0. 0 2 7 5
+E^{*} \left[ r_{1} \right] = q_{0}^{*} \times r_{1, u} + \left(1 - q_{0}^{*}\right) \times r_{1, d} = 0. 0 2 7 5
 $$
 
 - If your boss asks you what is your forecast of the interest rate in six months, would you tell him  $2.75\%$ ?
 - In the real world, the expected interest rate was
 
 $$
-E \left[ r _ {1} \right] = 2.305 \% <   2.75 \% = E ^ {*} \left[ r _ {1} \right]
+E \left[ r_{1} \right] = 2.305 \% <   2.75 \% = E^{*} \left[ r_{1} \right]
 $$
 
 - Passing from the real to the risk neutral world implies increasing the expected interest rate.
@@ -6000,27 +6046,27 @@ i = 2
 $$
 
 $$
-Z _ {2, u u} (3) = 0. 9 7 2 5
+Z_{2, u u} (3) = 0. 9 7 2 5
 $$
 
 $$
-Z _ {0} (3) = 0. 9 7 8 1
+Z_{0} (3) = 0. 9 7 8 1
 $$
 
 $$
-Z _ {1, u} \left(3\right) =??
+Z_{1, u} \left(3\right) =??
 $$
 
 $$
-\begin{array}{l} Z _ {2, u d} (3) \\ Z _ {2, d u} (3) \end{array} = . 9 8 6 1
+\begin{array}{l} Z_{2, u d} (3) \\ Z_{2, d u} (3) \end{array} = . 9 8 6 1
 $$
 
 $$
-Z _ {1, d} \left(3\right) =??
+Z_{1, d} \left(3\right) =??
 $$
 
 $$
-Z _ {2, d d} (2) = . 9 9 9 9
+Z_{2, d d} (2) = . 9 9 9 9
 $$
 
 - While from the interest rate tree we find  $Z_{2,j}(3)$ , there is not an obvious way to compute  $Z_{1,j}(3)$ . - We need no arbitrage restrictions.
@@ -6030,7 +6076,7 @@ $$
 - The first no arbitrage restriction is provided by the risk neutral probability  $q_0^*$ , which implies
 
 $$
-Z _ {0} (3) = Z _ {0} (1) E ^ {*} [ Z _ {1} (3) ] = Z _ {0} (1) [ q _ {0} ^ {*} Z _ {1, u} (3) + (1 - q _ {0} ^ {*}) Z _ {1, d} (3) ]
+Z_{0} (3) = Z_{0} (1) E^{*} [ Z_{1} (3) ] = Z_{0} (1) [ q_{0}^{*} Z_{1, u} (3) + (1 - q_{0}^{*}) Z_{1, d} (3) ]
 $$
 
 - How can we compute  $Z_{1,u}(3)$  and  $Z_{1,d}(3)$ ?
@@ -6039,11 +6085,11 @@ $$
 - Since the same formula as earlier applies, we have
 
 $$
-q _ {1, u} ^ {*} = \frac {Z _ {1 , u} (3) / Z _ {1 , u} (2) - Z _ {2 , u d} (3)}{Z _ {2 , u u} (3) - Z _ {2 , u d} (3)}
+q_{1, u}^{*} = \frac{Z_{1 , u} (3) / Z_{1 , u} (2) - Z_{2 , u d} (3)}{Z_{2 , u u} (3) - Z_{2 , u d} (3)}
 $$
 
 $$
-q _ {2, d} ^ {*} = \frac {Z _ {1 , d} (3) / Z _ {1 , d} (2) - Z _ {2 , d d} (3)}{Z _ {2 , d u} (3) - Z _ {2 , d d} (3)}
+q_{2, d}^{*} = \frac{Z_{1 , d} (3) / Z_{1 , d} (2) - Z_{2 , d d} (3)}{Z_{2 , d u} (3) - Z_{2 , d d} (3)}
 $$
 
 - Choose  $Z_{1,u}(3)$  and  $Z_{1,d}(3)$  so that the current price of the bond  $Z_0(3) = 0.9615$
@@ -6056,15 +6102,15 @@ $$
 - We can find numerically (e.g. using Solver) the value  $q_{1}^{*}$  such that the price of the traded security  $Z_{0}(3) = 0.9615$  equals the "model price"
 
 $$
-\begin{array}{r l} \widehat {Z} _ {0} (3) = & Z _ {0} (1) \left\{q _ {0} ^ {*} Z _ {1, u} (3) + (1 - q _ {0} ^ {*}) Z _ {1, d} (3) \right\} \\ & \mathrm {w h e r e} \end{array}
+\begin{array}{r l} \widehat {Z}_{0} (3) = & Z_{0} (1) \left\{q_{0}^{*} Z_{1, u} (3) + (1 - q_{0}^{*}) Z_{1, d} (3) \right\} \\ & \mathrm{where} \end{array}
 $$
 
 $$
-Z _ {1, u} (3) = Z _ {1, u} (2) \left\{q _ {1} ^ {*} Z _ {2, u u} (3) + (1 - q _ {1} ^ {*}) Z _ {2, u d} (3) \right\}
+Z_{1, u} (3) = Z_{1, u} (2) \left\{q_{1}^{*} Z_{2, u u} (3) + (1 - q_{1}^{*}) Z_{2, u d} (3) \right\}
 $$
 
 $$
-Z _ {1, d} (3) = Z _ {1, d} (2) \left\{q _ {1} ^ {*} Z _ {2, d u} (3) + (1 - q _ {1} ^ {*}) Z _ {2, d d} (3) \right\}
+Z_{1, d} (3) = Z_{1, d} (2) \left\{q_{1}^{*} Z_{2, d u} (3) + (1 - q_{1}^{*}) Z_{2, d d} (3) \right\}
 $$
 
 - We find  $q_1^* = 0.5912$  which implies  $Z_{1,u}(3) == 0.959$  and  $Z_{1,d}(3) = 0.988$ .
@@ -6084,31 +6130,31 @@ i = 2
 $$
 
 $$
-Z _ {2, u u} (3) = 0. 9 7 2 5
+Z_{2, u u} (3) = 0. 9 7 2 5
 $$
 
 $$
-Z _ {1, u} (3) = 0. 9 5 9
+Z_{1, u} (3) = 0. 9 5 9
 $$
 
 $$
-Z _ {0} (3) = 0. 9 6 1 5
+Z_{0} (3) = 0. 9 6 1 5
 $$
 
 $$
-\begin{array}{c} Z _ {2, u d} (3) \\ \text {一} \end{array} = 0. 9 8 6 1
+\begin{array}{c} Z_{2, u d} (3) \\ \text{一} \end{array} = 0. 9 8 6 1
 $$
 
 $$
-Z _ {2, d u} (3)
+Z_{2, d u} (3)
 $$
 
 $$
-Z _ {1, d} (3) = 0. 9 8 8
+Z_{1, d} (3) = 0. 9 8 8
 $$
 
 $$
-Z _ {2, d d} (3) = 0. 9 9 9 9
+Z_{2, d d} (3) = 0. 9 9 9 9
 $$
 
 - In summary, building trees to price fixed income securities is not straightforward.  
@@ -6121,34 +6167,34 @@ $$
 - A famous model is the Ho Lee model.
 
 $$
-r _ {i + 1} = r _ {i} + \theta (i) \Delta \pm \sigma \sqrt {\Delta}
+r_{i + 1} = r_{i} + \theta (i) \Delta \pm \sigma \sqrt{\Delta}
 $$
 
 - where  $\Delta$  is the time step,  $\theta(i)$  is a function of time chosen to match current prices, and  $\pm \sqrt{\Delta}$  occur with  $1/2$  (risk neutral) probability.
 - This process generates a recombining tree, independently of  $\theta(i)$ . Starting from  $r_0$
 
 $$
-r _ {1, u} = r _ {0} + \theta (0) \Delta + \sigma \sqrt {\Delta}
+r_{1, u} = r_{0} + \theta (0) \Delta + \sigma \sqrt{\Delta}
 $$
 
 $$
-r _ {1, d} = r _ {0} + \theta (0) \Delta - \sigma \sqrt {\Delta}
+r_{1, d} = r_{0} + \theta (0) \Delta - \sigma \sqrt{\Delta}
 $$
 
 $$
-r _ {2, u u} = r _ {1, u} + \theta (1) \Delta + \sigma \sqrt {\Delta}
+r_{2, u u} = r_{1, u} + \theta (1) \Delta + \sigma \sqrt{\Delta}
 $$
 
 $$
-r _ {2, u d} = r _ {1, u} + \theta (1) \Delta - \sigma \sqrt {\Delta}
+r_{2, u d} = r_{1, u} + \theta (1) \Delta - \sigma \sqrt{\Delta}
 $$
 
 $$
-r _ {2, d u} = r _ {1, d} + \theta (1) \Delta + \sigma \sqrt {\Delta}
+r_{2, d u} = r_{1, d} + \theta (1) \Delta + \sigma \sqrt{\Delta}
 $$
 
 $$
-r _ {2, d d} = r _ {1, d} + \theta (1) \Delta - \sigma \sqrt {\Delta}
+r_{2, d d} = r_{1, d} + \theta (1) \Delta - \sigma \sqrt{\Delta}
 $$
 
 - It is easy to see that  $r_{2,ud} = r_{2,du} = r_0 + (\theta (0) + \theta (1))\Delta$
@@ -6190,27 +6236,27 @@ i = 2
 $$
 
 $$
-r _ {1, u} = 0. 0 4 3 3
+r_{1, u} = 0. 0 4 3 3
 $$
 
 $$
-r _ {2, u u} = 0. 0 6 3 8
+r_{2, u u} = 0. 0 6 3 8
 $$
 
 $$
-r _ {0} = 0. 0 1 6 8
+r_{0} = 0. 0 1 6 8
 $$
 
 $$
-\begin{array}{c} {r _ {2, u d}} \\ {r _ {2, d u}} \end{array} = 0. 0 3 6 1
+\begin{array}{c} {r_{2, u d}} \\ {r_{2, d u}} \end{array} = 0. 0 3 6 1
 $$
 
 $$
-r _ {1, d} = 0. 0 1 2 0
+r_{1, d} = 0. 0 1 2 0
 $$
 
 $$
-r _ {2, d d} = 0. 0 0 8 3
+r_{2, d d} = 0. 0 0 8 3
 $$
 
 # Using Risk Neutral Trees
@@ -6233,27 +6279,27 @@ i = 2
 $$
 
 $$
-Z _ {2, u u} (2) = 1
+Z_{2, u u} (2) = 1
 $$
 
 $$
-\begin{array}{l} r _ {0} = 0. 0 1 6 8 \\ Z _ {0} (2) = e ^ {- r _ {0} \Delta} \times \left(\frac {1}{2} Z _ {1, u} (2) + \frac {1}{2} Z _ {1, d} (2)\right) \\ = 0. 9 7 8 1 \\ \end{array}
+\begin{array}{l} r_{0} = 0. 0 1 6 8 \\ Z_{0} (2) = e^{- r_{0} \Delta} \times \left(\frac{1}{2} Z_{1, u} (2) + \frac{1}{2} Z_{1, d} (2)\right) \\ = 0. 9 7 8 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {1, u} = 0. 0 4 3 3 \\ Z _ {1, u} (2) = e ^ {- r _ {1, u} \Delta} \times 1 = 0. 9 7 8 6 \\ \end{array}
+\begin{array}{l} r_{1, u} = 0. 0 4 3 3 \\ Z_{1, u} (2) = e^{- r_{1, u} \Delta} \times 1 = 0. 9 7 8 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} Z _ {2, u d} (2) \underset {- 1} {\mathrm {}} \\ Z _ {2, d u} (2) \\ \end{array}
+\begin{array}{l} Z_{2, u d} (2) \underset {- 1} {\mathrm{}} \\ Z_{2, d u} (2) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r _ {1, d} = 0. 0 1 2 0 \\ Z _ {1, d} (2) = e ^ {- r _ {1, d} \Delta} \times 1 = 0. 9 9 4 0 \\ \end{array}
+\begin{array}{l} r_{1, d} = 0. 0 1 2 0 \\ Z_{1, d} (2) = e^{- r_{1, d} \Delta} \times 1 = 0. 9 9 4 0 \\ \end{array}
 $$
 
 $$
-Z _ {2, d d} (2) = 1
+Z_{2, d d} (2) = 1
 $$
 
 # Using Risk Neutral Trees
@@ -6265,67 +6311,39 @@ $$
 $$
 
 $$
-Z _ {3, u u u} (3) = 1
+Z_{3, u u u} (3) = 1
 $$
 
 $$
-r _ {0} = 0. 0 1 6 8
+r_{0} = 0. 0 1 6 8
 $$
 
 $$
-Z _ {0} (3) = 0. 9 6 0 7
+Z_{0} (3) = 0. 9 6 0 7
 $$
 
 $$
-r _ {1, u} = 0. 0 4 3 3
+r_{1, u} = 0. 0 4 3 3
 $$
 
 $$
-Z _ {1, u} (3) = 0. 9 5 4 5
+Z_{1, u} (3) = 0. 9 5 4 5
 $$
 
 $$
-r _ {2, u d} = 0. 0 3 6 1
+r_{2, u d} = 0. 0 3 6 1
 $$
 
 $$
-Z _ {2, u d} \left(3\right) = 0. 9 8 2 1
+Z_{2, u d} \left(3\right) = 0. 9 8 2 1
 $$
 
 $$
-Z _ {3, u u d} (3)
+Z_{3, u u d} (3)
 $$
 
 $$
-Z _ {3, u d u} (3)
-$$
-
-$$
-= 1
-$$
-
-$$
-r _ {1, d} = 0. 0 1 2 0
-$$
-
-$$
-Z _ {1, d} (3) = 0. 9 8 3 0
-$$
-
-$$
-r _ {2, d d} = 0. 0 0 8 3
-$$
-
-$$
-Z _ {2, d d} (3) = 0. 9 9 5 9
-$$
-
-$$
-Z _ {3, u d d} (3)
-$$
-
-$$
-Z _ {3, d d u} (3)
+Z_{3, u d u} (3)
 $$
 
 $$
@@ -6333,7 +6351,35 @@ $$
 $$
 
 $$
-Z _ {3, d d d} (3) = 1
+r_{1, d} = 0. 0 1 2 0
+$$
+
+$$
+Z_{1, d} (3) = 0. 9 8 3 0
+$$
+
+$$
+r_{2, d d} = 0. 0 0 8 3
+$$
+
+$$
+Z_{2, d d} (3) = 0. 9 9 5 9
+$$
+
+$$
+Z_{3, u d d} (3)
+$$
+
+$$
+Z_{3, d d u} (3)
+$$
+
+$$
+= 1
+$$
+
+$$
+Z_{3, d d d} (3) = 1
 $$
 
 # Risk Neutral Trees
@@ -6356,43 +6402,43 @@ $$
 - Specifically, at any time-node  $(i,j)$ , we just must add the CF
 
 $$
-P _ {i, j} = e ^ {- r _ {i, j} \Delta} \left(\frac {1}{2} P _ {i + 1, j} + \frac {1}{2} P _ {i + 1, j + 1} + C F _ {i + 1}\right)
+P_{i, j} = e^{- r_{i, j} \Delta} \left(\frac{1}{2} P_{i + 1, j} + \frac{1}{2} P_{i + 1, j + 1} + C F_{i + 1}\right)
 $$
 
 - So, for example, a 1.5 year,  $4\%$  coupon bond is just given by
 
 $$
-\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ P _ {3, u u u} (3) = 1 0 0 \\ \end{array}
+\begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ P_{3, u u u} (3) = 1 0 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \hline P _ {0} (3) \\ = e ^ {- 0. 0 1 6 8 / 2} \\ \times [ \frac {1}{2} (9 9. 3 1 + 1 0 2. 2 6) \\ + 2 ] = 1 0 1. 9 3 \\ \hline \end{array}
+\begin{array}{l} \hline P_{0} (3) \\ = e^{- 0. 0 1 6 8 / 2} \\ \times [ \frac{1}{2} (9 9. 3 1 + 1 0 2. 2 6) \\ + 2 ] = 1 0 1. 9 3 \\ \hline \end{array}
 $$
 
 $$
-\begin{array}{l} \hline P _ {1, u} (3) \\ = e ^ {- 0. 0 4 3 3 / 2} \\ \times [ \frac {1}{2} (9 8. 8 0 + 1 0 0. 1 8) \\ + 2 ] = 9 9. 3 1 \\ \hline \end{array}
+\begin{array}{l} \hline P_{1, u} (3) \\ = e^{- 0. 0 4 3 3 / 2} \\ \times [ \frac{1}{2} (9 8. 8 0 + 1 0 0. 1 8) \\ + 2 ] = 9 9. 3 1 \\ \hline \end{array}
 $$
 
 $$
-\boxed { \begin{array}{l} P _ {1, d} (3) \\ = e ^ {- 0. 0 1 2 0 / 2} \\ \times [ \frac {1}{2} (1 0 0. 1 8 + 1 0 1. 5 8) \\ + 2 ] = 1 0 2. 2 6 \end{array} }
+\boxed { \begin{array}{l} P_{1, d} (3) \\ = e^{- 0. 0 1 2 0 / 2} \\ \times [ \frac{1}{2} (1 0 0. 1 8 + 1 0 1. 5 8) \\ + 2 ] = 1 0 2. 2 6 \end{array} }
 $$
 
 $$
-\boxed { \begin{array}{c} P _ {3, u u d} (3) \\ P _ {3, u d u} (3) \end{array} = 1 0 0}
+\boxed { \begin{array}{c} P_{3, u u d} (3) \\ P_{3, u d u} (3) \end{array} = 1 0 0}
 $$
 
 $$
-\begin{array}{l} \hline P _ {2, u d} (3) \\ = e ^ {- 0. 0 3 6 1 / 2} (1 0 0 + 2) \\ = 1 0 0. 1 8 \end{array}
+\begin{array}{l} \hline P_{2, u d} (3) \\ = e^{- 0. 0 3 6 1 / 2} (1 0 0 + 2) \\ = 1 0 0. 1 8 \end{array}
 $$
 
 $$
-\begin{array}{c c} \hline P _ {2, d d} (3) \\ = e ^ {- 0. 0 0 8 3 / 2} (1 0 0 + 2) \\ = 1 0 1. 5 8 \\ \hline \end{array}
+\begin{array}{c c} \hline P_{2, d d} (3) \\ = e^{- 0. 0 0 8 3 / 2} (1 0 0 + 2) \\ = 1 0 1. 5 8 \\ \hline \end{array}
 $$
 
 - This tree gives "ex-coupon" prices.
 
 $$
-P _ {3, d d d} \left(3\right) = 1 0 0
+P_{3, d d d} \left(3\right) = 1 0 0
 $$
 
 # Example: Callable Bonds
@@ -6413,25 +6459,25 @@ $$
 - If exercises, the payoff (  $=$  value of the option) is
 
 $$
-C a l l _ {i, j} ^ {\mathrm {E x}} = P _ {i, j} - 1 0 0
+C a l l_{i, j}^{\mathrm{Ex}} = P_{i, j} - 1 0 0
 $$
 
 - If waits, the value of the option
 
 $$
-C a l l _ {i, j} ^ {\mathrm {W a i t}} = e ^ {- r _ {i, j} \Delta} E ^ {*} [ C a l l _ {i + 1} ] = e ^ {- r _ {i, j} \Delta} \left(\frac {1}{2} C a l l _ {i + 1, j} + \frac {1}{2} C a l l _ {i + 1, j + 1}\right)
+C a l l_{i, j}^{\mathrm{Wait}} = e^{- r_{i, j} \Delta} E^{*} [ C a l l_{i + 1} ] = e^{- r_{i, j} \Delta} \left(\frac{1}{2} C a l l_{i + 1, j} + \frac{1}{2} C a l l_{i + 1, j + 1}\right)
 $$
 
 - Therefore, the value at node  $i, j$  is
 
 $$
-\begin{array}{l} C a l l _ {i, j} = \max  \left(C a l l _ {i, j} ^ {\mathrm {W a i t}}, C a l l _ {i, j} ^ {\mathrm {E x}}\right) \\ = \max \left(e ^ {- r _ {i, j} \times \Delta} E ^ {*} [ C a l l _ {i + 1} ], P _ {i, j} - 1 0 0\right) \\ \end{array}
+\begin{array}{l} C a l l_{i, j} = \max  \left(C a l l_{i, j}^{\mathrm{Wait}}, C a l l_{i, j}^{\mathrm{Ex}}\right) \\ = \max \left(e^{- r_{i, j} \times \Delta} E^{*} [ C a l l_{i + 1} ], P_{i, j} - 1 0 0\right) \\ \end{array}
 $$
 
 - At maturity  $I = T / \Delta$  we have
 
 $$
-C a l l _ {I, j} = 0 \mathrm {f o r a l l} j
+C a l l_{I, j} = 0 \mathrm{forall} j
 $$
 
 # Example: Callable Bonds
@@ -6453,15 +6499,15 @@ i = 3
 $$
 
 $$
-C _ {3, u u u} \left(3\right) = 0
+C_{3, u u u} \left(3\right) = 0
 $$
 
 $$
-C _ {1, u} (3) =
+C_{1, u} (3) =
 $$
 
 $$
-= \max \left(9 9. 3 1 - 1 0 0, e ^ {-. 0 4 3 3 / 2} 0. 1 8 / 2\right)
+= \max \left(9 9. 3 1 - 1 0 0, e^{-. 0 4 3 3 / 2} 0. 1 8 / 2\right)
 $$
 
 $$
@@ -6469,35 +6515,35 @@ $$
 $$
 
 $$
-\begin{array}{l} C _ {2, u u} (3) = \\ = \max  (9 8. 8 0 - 1 0 0, 0) \\ = 0 \\ \end{array}
+\begin{array}{l} C_{2, u u} (3) = \\ = \max  (9 8. 8 0 - 1 0 0, 0) \\ = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {3, u u d} (3) \\ C _ {3, u d u} (3) \end{array} = 0
+\begin{array}{l} C_{3, u u d} (3) \\ C_{3, u d u} (3) \end{array} = 0
 $$
 
 $$
-\begin{array}{l} C _ {0} (3) = \\ = e ^ {- 0. 0 1 6 8 / 2} \\ \times \frac {1}{2} (. 0 9 + 2. 2 6) \\ = 1. 1 6 \\ \end{array}
+\begin{array}{l} C_{0} (3) = \\ = e^{- 0. 0 1 6 8 / 2} \\ \times \frac{1}{2} (. 0 9 + 2. 2 6) \\ = 1. 1 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {1, d} (3) = \\ = \max  (1 0 2. 2 6 - 1 0 0, \\ e ^ {- 0. 0 1 2 0 / 2} (1 8 + 1. 5 8) / 2) \\ = 2. 2 6 \\ \end{array}
+\begin{array}{l} C_{1, d} (3) = \\ = \max  (1 0 2. 2 6 - 1 0 0, \\ e^{- 0. 0 1 2 0 / 2} (1 8 + 1. 5 8) / 2) \\ = 2. 2 6 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {2, u d} (3) = \\ = \max  (1 0 0. 1 8 - 1 0 0, 0) \\ = 0. 1 8 \\ \end{array}
+\begin{array}{l} C_{2, u d} (3) = \\ = \max  (1 0 0. 1 8 - 1 0 0, 0) \\ = 0. 1 8 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {3, u d d} (3) - 0 \\ C _ {3, d d u} (3) \\ \end{array}
+\begin{array}{l} C_{3, u d d} (3) - 0 \\ C_{3, d d u} (3) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} C _ {2, d d} (3) \\ = \max  (1 0 1. 5 8 - 1 0 0, 0) \\ = 1. 5 8 \\ \end{array}
+\begin{array}{l} C_{2, d d} (3) \\ = \max  (1 0 1. 5 8 - 1 0 0, 0) \\ = 1. 5 8 \\ \end{array}
 $$
 
 $$
-C _ {3, d d d} (3) = 0
+C_{3, d d d} (3) = 0
 $$
 
 # Example: Callable Bonds
@@ -6508,5 +6554,5 @@ $$
 - Hence,
 
 $$
-\begin{array}{l} P _ {0} ^ {\mathrm {C a l l}} (3) = P _ {0} ^ {\mathrm {N o C a l l}} (3) - C _ {0} (3) \\ = 1 0 1. 9 3 - 1. 1 6 \\ = 1 0 0. 7 7 \\ \end{array}
+\begin{array}{l} P_{0}^{\mathrm{Call}} (3) = P_{0}^{\mathrm{NoCall}} (3) - C_{0} (3) \\ = 1 0 1. 9 3 - 1. 1 6 \\ = 1 0 0. 7 7 \\ \end{array}
 $$

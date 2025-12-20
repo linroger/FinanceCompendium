@@ -1,10 +1,10 @@
-title: "How Countries Go Broke - Big Debt Cycle by Ray Dalio"
+title: "Chapter 19 - How Countries Go Broke - Big Debt Cycle by Ray Dalio"
+primary_tags: [big_debt_cycle, debt_monetization, reserve_currency]
+secondary_tags: [economic_cycles, ray_dalio, bridgewater_associates, debt_crisis, monetary_policy]
 parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates"
-key_concepts: ["big debt cycle", "debt monetization", "reserve currency", "economic cycles"]
 cssclasses: academia
-tags: [big_debt_cycle, debt_monetization, reserve_currency, economic_cycles, ray_dalio]
+aliases: ["Big Debt Cycle", "How Countries Go Broke"]
 ---
-
 # How Countries Go Broke
 ## The Big Cycle
 ### Ray Dalio
@@ -48,7 +48,7 @@ The material in this book complements and helps complete my explanations of the 
 - [Part IV](#part-iv)
   - [Looking Ahead](#looking-ahead)
     - [17 What My Indicators Show](#chapter-17)
-    - [18 My $3\%$ 3-Part Solution](#chapter-18)
+    - [18 My 3\% 3-Part Solution](#chapter-18)
     - [19 What the Future Looks Like to Me](#chapter-19)
 
 ## How to Read This Book
@@ -78,7 +78,7 @@ Before I get into all that, I should begin by explaining where I'm coming from. 
 
 To gain my understanding, I look at many cases like a doctor studies many cases, examining the mechanics behind them to understand the cause/effect relationships that drive their progressions. I also learn from being in these experiences, reflecting on what I learn, writing it up, and having smart people read and challenge it. Then I build systems to place my bets on what I learned and have new experiences. I do that over and over and will do it until I die because I love it. Because my game has been to bet on the markets and because the debt markets drive just about everything, I have been obsessed with studying debt dynamics for decades. I believe that if you understand these dynamics, you can do very well as an investor, businessperson, or policy maker, and if you don't, you ultimately will be hurt by them.
 
-Through my research, I discovered that there are big, long-term debt cycles that have unfailingly led to big debt bubbles and busts. I saw that only about $20\\%$ of the roughly 750 debt/currency markets that have existed since 1700 remain, and that all the remaining ones have been severely devalued through the mechanistic process I am going to describe in this study. I saw how this big, long-term debt cycle was described in the Old Testament, how it repeatedly played out in Chinese dynasties over thousands of years, and how time and again it has foreshadowed the fall of empires, countries, and provinces.
+Through my research, I discovered that there are big, long-term debt cycles that have unfailingly led to big debt bubbles and busts. I saw that only about 20\\% of the roughly 750 debt/currency markets that have existed since 1700 remain, and that all the remaining ones have been severely devalued through the mechanistic process I am going to describe in this study. I saw how this big, long-term debt cycle was described in the Old Testament, how it repeatedly played out in Chinese dynasties over thousands of years, and how time and again it has foreshadowed the fall of empires, countries, and provinces.
 
 These Big Debt Cycles have always worked in timeless and universally consistent ways that are not well-understood but should be. In this study, I hope to explain how they work with such clarity that my description will serve as a template that can be used to see what is going on with, and what is likely to happen to, money and debt. While I recognize that my Big Debt Cycle template is unconventional, I am confident that it exists because I've made a lot of money using it to bet on how things would go. I am sharing it and other key concepts that have helped me because I am now at a stage of life in which I want to share what I have learned that I have found of value in the hope that it will help others, too. You can do what you like with it.
 
@@ -102,17 +102,77 @@ Chapter 19, which is the concluding chapter. I believe that, once you read about
 
 This study consists of four parts and 19 chapters. Part I describes the Big Debt Cycle, at first very simply, then in a more complete and mechanical way, and then with some equations that show the mechanics and help with making projections of what is likely to happen. Part II lays out a detailed template, derived from 35 Big Debt Cycle cases, that shows the typical sequence of events that signifies how a cycle is transpiring and shows symptoms that can help identify how far the cycle has progressed. It also contains a chapter that walks through how the Overall Big Cycle works. Part III reviews the most recent Big Debt Cycle, which started when the new monetary and world orders began at the end of World War II and brings it up to the present. In that part, in addition to looking at the Big Debt Cycle and the Overall Big Cycle with a focus on the US (because it has been the world's major reserve currency country and the world's leading power, thus making it the world's leading shaper of what one might call the American world order since 1945), I also very briefly describe the Big Cycles of both China and Japan, showing them from the 1800s until now. This will give you a more complete picture of what has happened in the world since 1945 and provide two other Big Debt Cycle cases to look at. Finally, in Part IV, I will peek into the future, looking at what my calculations say about what is required for the US to manage its debt burden and how the five big forces might unfold in the years ahead.
 
-# PART I
+## PART I
 
-# OVERVIEW OF THE BIG DEBT CYCLE
+## OVERVIEW OF THE BIG DEBT CYCLE
 
 Part I provides a comprehensive picture of the Big Debt Cycle, which has occurred again and again throughout history but isn't widely recognized because big shifts in it come along so infrequently, only about once in a lifetime. The purpose of this part is to describe how the natural mechanics of money, credit, debt, and economic activity, combined with human nature, add up over time to create the Big Debt Cycle. In it, I explain the stages of how the Big Debt Cycle progresses and what happens when it unravels. In the first chapter, I provide an overview of how the cycle unfolds in a nutshell, and in the following two chapters, I dive into more detail, explaining the mechanics that drive the debt cycle both in words and concepts and in numbers and equations. These chapters have a lot for both the general reader and the investor, and I'd encourage you to either read just the bold or explore the details as it suits you.
 
-# CHAPTER 1
+## CHAPTER 1
 
-# THE BIG DEBT CYCLE IN A TINY NUTSHELL
+### THE BIG DEBT CYCLE IN A TINY NUTSHELL
 
 My goal for this chapter is to convey a very brief but complete description of the mechanics of a typical Big Debt Cycle. If you read only one chapter to understand how debt works, this is the one to read.
+
+```d2
+# Big Debt Cycle Overview
+direction: right
+
+# Stages
+sound_money: {
+  label: "Sound Money Stage"
+  style.fill: "#90EE90"
+  style.stroke: "#228B22"
+}
+
+debt_bubble: {
+  label: "Debt Bubble Stage"
+  style.fill: "#FFD700"
+  style.stroke: "#FFA500"
+}
+
+top_stage: {
+  label: "Top Stage"
+  style.fill: "#FF6347"
+  style.stroke: "#DC143C"
+}
+
+deleveraging: {
+  label: "Deleveraging Stage"
+  style.fill: "#9370DB"
+  style.stroke: "#4B0082"
+}
+
+new_equilibrium: {
+  label: "New Equilibrium"
+  style.fill: "#87CEEB"
+  style.stroke: "#4682B4"
+}
+
+# Flow
+sound_money -> debt_bubble: {
+  label: "Credit Expansion"
+  style.stroke-dash: 3
+}
+
+debt_bubble -> top_stage: {
+  label: "Bubble Peaks"
+}
+
+top_stage -> deleveraging: {
+  label: "Crisis Begins"
+  style.stroke: "#FF0000"
+  style.stroke-width: 2
+}
+
+deleveraging -> new_equilibrium: {
+  label: "Debt Reduction"
+}
+
+new_equilibrium -> sound_money: {
+  label: "Cycle Restarts"
+  style.stroke-dash: 5
+}
 
 # HOW THE MACHINE WORKS
 
@@ -151,7 +211,7 @@ When net debt levels are low, money is sound, the country is competitive, and de
 - Credit is the promise to deliver money. Unlike credit, which requires a payment of money at a later date, money settles transactions—i.e., if money is given, the transaction is complete, whereas if credit is given, money is owed. It's easy to create credit. Anyone can create credit, but not anyone can create money. For example, I can create credit by accepting your promise to pay me money even if you don't have the money. As a result, credit easily grows, so there is much more credit than there is money. The most effective money is both a medium of exchange and a storehold of wealth that is widely accepted around the world. At the early stage of the Big Debt Cycle, money is "hard," which means that it is a medium of exchange that is also a storehold of wealth that can't easily be increased in supply, such as gold, silver, and more recently Bitcoin. Cryptocurrencies like Bitcoin are now emerging as accepted hard currencies because they are widely accepted around the world and are limited in supply. The biggest, most common risk to money becoming an ineffective storehold of wealth is the risk that a lot of it will be created. Imagine having the ability to create money; who wouldn't be tempted to do a lot of that? Those who can always are. That creates the Big Debt Cycle. In the early part of the Big Debt Cycle, a) money is typically hard, and the paper money that circulates is convertible into the "hard money" at a fixed price, and b) there isn't a lot of paper money and debt (which is the promise to pay money) outstanding. The Big Debt Cycle consists of the building up of a) "paper money" and debt assets/liabilities relative to b) "hard money" and real assets (e.g., goods and services) and relative to the income that is required to service the debt. Basically, the Big Debt Cycle works like a Ponzi scheme or musical chairs with investors holding an increasing amount of debt assets in the belief that they can convert them into money that will have buying power to get real things, yet as the amount of the debt assets that are held up by that faith increases relative to the real things, that conversion becomes more obviously impossible until that is realized and the process of selling the debt to get the hard money and real assets begins.
 - At the early stage of the debt cycle, private and government debt and debt service ratios are 1) low relative to incomes and/or 2) low relative to liquid assets. For example, government debt and debt service are low relative to government tax revenue and/or low relative to government liquid assets (e.g., reserves and other savings such as sovereign wealth assets) that can easily be converted into money. When the Big Debt Cycle that we are in began in 1945, the ratios of US government debt and US money supply divided by the amount of gold the US government had were equal to $7\\mathrm{x}$ and $1.3\\mathrm{x}$, respectively, whereas now these ratios are $37\\mathrm{x}$ and $6\\mathrm{x}$, respectively.
 - During this early stage in the cycle, debt levels, debt growth, economic growth, and inflation are neither too hot nor too cold and finances are sound.
-- At this stage in the cycle, "risky assets" are relatively inexpensive relative to "safe" assets. That is because the memories of the prior period in which there was great damage done affect psychology and pricing. For example, in the late 1940s and early 1950s, stock earnings yields were roughly $4\\mathrm{x}$ that of bond yields.
+- At this stage in the cycle, "risky assets" are relatively inexpensive relative to "safe" assets. That is because the memories of the prior period in which there was great damage done affect psychology and pricing. For example, in the late 1940s and early 1950s, stock earnings yields were roughly 4\\mathrm{x} that of bond yields.
 - During this stage, there is a healthy economy and good investment returns that lead to the next stage.
 
 ## The Debt Bubble Stage
@@ -182,7 +242,7 @@ It quickly, either to reverse it or to guide the deleveraging to its conclusion.
 
 When there is a painful bringing down of debt and debt service levels to be in line with income levels so that the debt levels are sustainable.
 
-- At the beginning of the last stage of the Big Debt Cycle when there is a big debt crisis, debt problems typically spread from the private sector to the central government and then to the central bank. ● Net selling of debt assets, especially net selling of government debt assets, is a big red flag. When that happens, conditions deteriorate quickly unless managed very well and very quickly by central governments and central banks. At that time, private holders of debt sell the debt fearing bad returns. That selling takes the form of "runs on banks." By "runs on banks," I mean the turning-in of debt assets to get real money, which lenders/banks don't have enough of. When debt problems become apparent and the holders of the debt assets sell their debt assets, that initially drives interest rates on the debt up. This makes the debt more difficult to service, hence more risky, which drives interest rates higher. At that point, the central bank typically provides money and credit to fill in for the inadequate demand, which reduces the value of money and credit and reduces credit risk.
+- At the beginning of the last stage of the Big Debt Cycle when there is a big debt crisis, debt problems typically spread from the private sector to the central government and then to the central bank. - Net selling of debt assets, especially net selling of government debt assets, is a big red flag. When that happens, conditions deteriorate quickly unless managed very well and very quickly by central governments and central banks. At that time, private holders of debt sell the debt fearing bad returns. That selling takes the form of "runs on banks." By "runs on banks," I mean the turning-in of debt assets to get real money, which lenders/banks don't have enough of. When debt problems become apparent and the holders of the debt assets sell their debt assets, that initially drives interest rates on the debt up. This makes the debt more difficult to service, hence more risky, which drives interest rates higher. At that point, the central bank typically provides money and credit to fill in for the inadequate demand, which reduces the value of money and credit and reduces credit risk.
 - The selling of the government's debt leads to a) a free-market-driven tightening of money and credit, which leads to b) a weakening of the economy, c) downward pressure on the currency, and d) declining reserves as the central bank attempts to defend the currency. Classically, these runs accelerate and feed on themselves as holders of debt assets see that, one way or another (through default or through the devaluation of their money), they will lose the buying power that they had believed was stored in these debt assets, causing great shifts in market values and wealth until debts are defaulted on, restructured, and/or monetized. Because this tightening proves too harmful for the economy, the central bank eventually simultaneously eases credit and allows a devaluation of the currency. The devaluation of money can itself be the reason to sell the debt asset because it becomes a poor storehold of wealth. So, whether there is a tightening of money that leads to debt defaults and a bad economy or an easing of money that produces a devaluation of money and debt assets, it is not good for the debt asset. This dynamic creates what is called a debt "death spiral" because it is a self-reinforcing, debt-contraction dynamic in which the rising interest rates cause problems that creditors see, leading them to sell the debt assets, which leads to even higher interest rates or the need to print more money, which devalues the money and leads to even more selling of the debt assets and the currency and so on until the spiral runs its course. When this happens to government debt, the realization that too much debt is the problem naturally leads to the inclination to cut spending and borrowing. However, because one person's spending is another person's income, cutting spending at such times typically only contributes to increases in debt-to-income ratios. That is typically when policies are shifted to a mix of debt restructurings and debt monetizations, with the mix chosen primarily dependent on how much of the debt is denominated in the country's currency. This defaulting on, restructuring of, and/or monetizing of debt reduces the debt burdens relative to incomes until a new equilibrium is reached. The movement to a stable equilibrium typically takes place via a few painful adjustments.
 
 Spasms because borderline financial soundness is achieved before secure financial soundness.
@@ -192,7 +252,7 @@ Spasms because borderline financial soundness is achieved before secure financia
 - At this stage, central banks must choose between keeping money "hard," which will lead debtors to default on their debts, which will lead to deflationary depressions, or making money "soft" by printing a lot of it, which will devalue both it and the debt. Because paying off debt with hard money causes such severe market and economic downturns, when faced with this choice, central banks always eventually choose to print and devalue money. Of course, each country's central bank can only print that country's money, which brings me to my next big point.
 - At this stage, if it has the ability to "print money," the central bank creates a substantial amount of money and credit and throws it aggressively at the markets. It typically buys government debt and private sector debt of systemically important entities that are at risk of defaulting (in order to make up for the private sector's inadequate demand for debt and to keep interest rates artificially low), and it sometimes buys equities and creates incentives for people to buy goods, services, and financial assets. At this stage, it is also typically desirable to devalue the currency because that is stimulative to the economy and raises inflation rates, thus negating the deflationary pressures. If the currency is linked to gold, silver, or something else, that link is typically broken and there is a move to a fiat monetary system. If the currency isn't linked—i.e., if the currency is already a fiat currency—devaluing it relative to other storeholds of wealth and other currencies is helpful. In some cases, the central bank's moves can drive nominal interest rates higher, either because the central bank tightens monetary policy to fight inflation or because it doesn't tighten money to fight inflation and holders of the debt don't want to buy the newly issued government debt and/or they want to sell it because it doesn't provide an adequate return. It is important to watch real and nominal interest rates and the supply and demand for debt to understand what is happening.
 - At such times, extraordinary policies to get money like imposing extraordinary taxes and capital controls become common. It has also often been the case that governments will adopt policies that would have previously seemed unimaginable, such as selectively freezing or seizing the assets of "enemy" countries or creating new forms of money. Note that I am not saying that these extraordinary measures always happen; I'm only saying that it is wise to carefully consider the possibility that they will happen.
-- This deleveraging stage is typically a painful time when debt burdens are reduced by defaults, restructurings, and/or devaluations. This is when an aggressive mix of debt restructurings and debt monetizations inevitably takes place to reduce the debt and debt service burdens relative to incomes. In a typical deleveraging, the debt-to-income ratio has to be lowered by roughly $50\%$, give or take about $20\%$. It can be done well or poorly. When it is done well, which I call a "beautiful deleveraging," central governments and central banks simultaneously do both debt restructurings and monetary stimulations in a balanced way. The restructurings reduce debt burdens and are deflationary, while the monetary stimulations also reduce debt burdens (by providing money and credit to make it easier to buy debt) but are inflationary and stimulative to the economy, so if they get the balance right, positive growth occurs with falling debt burdens and acceptable inflation. Whether done well or poorly, this is the stage of the Big Debt Cycle that reduces a lot of the debt burden and establishes the bottom that can be built on to begin the next Big Debt Cycle.
+- This deleveraging stage is typically a painful time when debt burdens are reduced by defaults, restructurings, and/or devaluations. This is when an aggressive mix of debt restructurings and debt monetizations inevitably takes place to reduce the debt and debt service burdens relative to incomes. In a typical deleveraging, the debt-to-income ratio has to be lowered by roughly 50\%, give or take about $20\%$. It can be done well or poorly. When it is done well, which I call a "beautiful deleveraging," central governments and central banks simultaneously do both debt restructurings and monetary stimulations in a balanced way. The restructurings reduce debt burdens and are deflationary, while the monetary stimulations also reduce debt burdens (by providing money and credit to make it easier to buy debt) but are inflationary and stimulative to the economy, so if they get the balance right, positive growth occurs with falling debt burdens and acceptable inflation. Whether done well or poorly, this is the stage of the Big Debt Cycle that reduces a lot of the debt burden and establishes the bottom that can be built on to begin the next Big Debt Cycle.
 
 ## The Big Debt Crisis Recedes
 
@@ -208,7 +268,7 @@ This is the type of monetary policy that existed from 1945 until 1971. This type
 
 ## Phase 2: A Fiat Money, Interest-Rate-Driven Monetary
 
-Policy (MP1). During this phase, interest rates, bank reserves, and capital requirements are also controllers of the amounts of debt/credit growth. This fiat monetary policy phase both allows more flexibility and provides less assurance that money printing won't be so large that it will devalue money and debt assets. The US was in this phase from 1971 until 2008. It ends when interest rate changes no longer work (e.g., interest rates hit $0\%$ and there is a need to ease monetary policy) and/or the private market demand for the debt being created falls short of the supply being sold so that, if the central bank did not print the money and buy the debt, money and credit would be tighter and interest rates would be higher than desired.
+Policy (MP1). During this phase, interest rates, bank reserves, and capital requirements are also controllers of the amounts of debt/credit growth. This fiat monetary policy phase both allows more flexibility and provides less assurance that money printing won't be so large that it will devalue money and debt assets. The US was in this phase from 1971 until 2008. It ends when interest rate changes no longer work (e.g., interest rates hit 0\% and there is a need to ease monetary policy) and/or the private market demand for the debt being created falls short of the supply being sold so that, if the central bank did not print the money and buy the debt, money and credit would be tighter and interest rates would be higher than desired.
 
 ## Phase 3: A Fiat Monetary System with Debt Monetization
 
@@ -247,7 +307,7 @@ If you try to focus on debt cycles precisely or focus your attention on the shor
 
 In the rest of this study, I will get into the mechanics in greater depth, show the actual sequences that have played out over 35 cases, look at how the Big Debt Cycle and Overall Big Cycle that includes the other big cycles (for instance, cycles of internal and external order) that started in 1945 and that we are currently in the late stages of have transpired relative to this template, and briefly look at the Chinese and Japanese Big Cycles and a number of other cases. The Japanese case is interesting because Japan is further along in its Big Debt Cycle. Notably, its large debt and debt monetizations have led to the depreciation of its currency and debt, which has led holders of its bonds to have losses of $45\%$ relative to holding US dollar debt since 2013 and losses of $60\%$ relative to holding gold since 2013. In the final chapters, I will share how I am processing the US relative to this template, how the US could reduce the risk of an acute debt crisis, and how I see the rough outline of future events unfolding.
 
-## CHAPTER 2
+### CHAPTER 2
 
 ### THE MECHANICS IN WORDS AND CONCEPTS
 
@@ -300,7 +360,7 @@ My approach to supply, demand, and price determination is different from the con
 
 To explain my approach to understanding prices, I start with the most basic building blocks for understanding all markets and economies, which are transactions, and then build up to the price, and I don't define supply and demand the way conventional economists do. To me, all markets and all economies are simply the aggregates of the transactions that make them up, and a transaction is simply the buyer giving money (or credit) to a seller and the seller giving a good, a service, or a financial asset to the buyer in exchange. The price equals the amount of money/credit the buyer gives divided by the quantity of whatever the seller gives in that transaction, and a market is the aggregate of those transactions. For example, a transaction to buy wheat occurs when a buyer gives a certain amount of money to a seller in exchange for a certain quantity of wheat, and a market consists of all the buyers and sellers making exchanges for the same things—i.e., the wheat market consists of different people making different transactions for different reasons over time—and these many exchanges are what determine the price. So…
 
-$\\bullet$  Price  $(P) =$  the amount spent on something (S)/the total quantity of it that is sold (Q)
+- Price $(P) =$ the amount spent on something (S)/the total quantity of it that is sold (Q)
 
 Or, more simply
 
@@ -449,7 +509,7 @@ At that part of the Big Debt Cycle, there need to be big reductions in debt liab
 
 (or providing guarantees)
 
-# 4. Transfers of money and credit from those who have more than they need to those who have less
+4. Transfers of money and credit from those who have more than they need to those who have less
 
 Policy makers typically try austerity first because that's the obvious thing to do, and it's natural to want to let those who got themselves and others into trouble bear the costs. This is a big mistake. Austerity doesn't bring debt and incomes back into balance. Cutting debts cuts investors' assets and makes them "poorer," and because one person's spending is another person's income, cutting spending cuts incomes. For that reason, cuts in debts and spending cause a commensurate cut in net worths and incomes, which is very painful. Also, as the economy contracts, government revenues typically fall at the same time as demands on the government increase, which leads deficits to increase. Seeking to be fiscally responsible at this point, governments tend to raise taxes, which is also a mistake because it further squeezes people and companies. More simply said, when there is spending that's greater than revenues and liquid liabilities that are greater than liquid assets, that produces the need to borrow and sell debt assets, which, if there's not enough demand, will produce one kind of crisis or another (e.g., either deflationary or inflationary).
 
@@ -501,7 +561,7 @@ These big rises and declines are easy to see by monitoring the 18 forces (partic
 
 Chapter 8 provides a more detailed explanation of these Big Cycle forces and how they are interrelated. But before I get to them, I will first delve into a deeper description of the Big Debt Cycle in both numbers and equations, trying to describe it in an easy-to-understand way.
 
-## CHAPTER 3
+### CHAPTER 3
 
 ### THE MECHANICS IN NUMBERS AND EQUATIONS
 
@@ -525,7 +585,7 @@ b. They show me how attractive credit conditions are for lenders relative to bor
 
 - Inevitably, equilibrium levels of 1) debts relative to incomes, 2) debt service relative to incomes, 3) nominal interest rates relative to inflation rates (i.e., real interest rates) and nominal growth rates, and 4) debts and debt service relative to savings will be approached. If you watch these ratios over time, you will see them go to extreme levels and return to more normal levels one way or another. If you understand the cause/effect relationships that drive these changes, you can understand how to navigate them and how they can be best managed. Most importantly, if you understand the painful deleveraging part, you will understand that it can be handled well (to be less painful) or handled poorly (and be very painful).
 
-These four indicators are not the only ones that matter. In Chapter 4, I'll show you how a broader set of indicators evolves through the end of the Big Debt Cycle, and in Chapter 17, I'll show you what my indicators suggest for the US today. However, the previously mentioned four are the most important ones to watch. They give us valuable information about how likely a debt squeeze is and how severe it will be when it happens. However, they cannot tell us exactly when the debt problem will occur because different conditions and different people's reactions to them lead to different lead times for the selling of debt assets and other actions that precipitate a crisis. Still, we can measure the level of risk because  $\bullet$  countries with very high debt levels, very large deficits, low savings, and very high and very fast-rising interest rates have a very high risk of a debt default or debt devaluation crisis.
+These four indicators are not the only ones that matter. In Chapter 4, I'll show you how a broader set of indicators evolves through the end of the Big Debt Cycle, and in Chapter 17, I'll show you what my indicators suggest for the US today. However, the previously mentioned four are the most important ones to watch. They give us valuable information about how likely a debt squeeze is and how severe it will be when it happens. However, they cannot tell us exactly when the debt problem will occur because different conditions and different people's reactions to them lead to different lead times for the selling of debt assets and other actions that precipitate a crisis. Still, we can measure the level of risk because  $\bullet$  - countries with very high debt levels, very large deficits, low savings, and very high and very fast-rising interest rates have a very high risk of a debt default or debt devaluation crisis.
 
 The rest of this chapter goes through a few formulaic examples to illustrate how high debt burdens compound and create problems.
 
@@ -533,10 +593,61 @@ The rest of this chapter goes through a few formulaic examples to illustrate how
 
 What follows are the mathematical relationships for measuring these indicators. These are just the commonsense constraints on the amount of debt an entity can have, expressed in equations that are the same constraints that can be expressed in words. To help you understand them, you might relate to them the same way you relate to your own debt constraints. I will explain the rules and include a few helpful guidelines. The pages that follow will explain each of these with examples. Not only can these relationships help one to identify debt problems, but they can be used to help policymakers see how to fix them and help market participants position themselves well. Feel free to skip this and come back if it's more helpful to see examples first and then the math.
 
+```d2
+# Debt Sustainability Indicators
+direction: down
+
+# Key Indicators
+debt_to_income: {
+  label: "Debt-to-Income Ratio"
+  style.fill: "#FFE4B5"
+  style.stroke: "#DEB887"
+}
+
+debt_service: {
+  label: "Debt Service-to-Income"
+  style.fill: "#FFB6C1"
+  style.stroke: "#FF69B4"
+}
+
+interest_rates: {
+  label: "Interest Rates vs Growth"
+  style.fill: "#98FB98"
+  style.stroke: "#32CD32"
+}
+
+savings_buffer: {
+  label: "Debt vs Savings"
+  style.fill: "#87CEEB"
+  style.stroke: "#4682B4"
+}
+
+# Risk Flow
+debt_to_income -> debt_service: {
+  label: "Higher debt → Higher payments"
+  style.stroke: "#FF4500"
+}
+
+debt_service -> interest_rates: {
+  label: "Payment stress → Rate pressure"
+  style.stroke: "#FF4500"
+}
+
+interest_rates -> savings_buffer: {
+  label: "Rate pressure → Depletes savings"
+  style.stroke: "#FF4500"
+}
+
+savings_buffer -> debt_to_income: {
+  label: "Less buffer → More borrowing"
+  style.stroke: "#FF4500"
+  style.stroke-dash: 3
+}
+
 1. Future debts relative to future income. The formula to estimate this is:
 
 $$
-\frac{\text{Fu tu re De bt}}{\text{Fu tu re Re ve nu e}} =
+\frac{\text{Future Debt}}{\text{Future Revenue}} =
 $$
 
 (Future Expenses Excluding Interest - Future Revenue)
@@ -629,7 +740,7 @@ As starting debt levels grow, and as deficits (i.e., borrowings) grow, future de
 
 For reference, the US government's expenditures excluding interest are projected to average about  $ 112\%$  of income over the next decade, so the primary deficit—the difference between these—is about  $ 12\%$  of income.[20] The US is also borrowing about  $ 20\%$  of its income each year to cover interest expenses on the existing debt.
 
-The US government's debt to money coming in (mostly tax income) is, as of this writing, about  $580\%$ . If we assume that interest rates equal income growth but use the actual projected primary deficit for the US (i.e., the  $12\%$  actual gap between non-interest expenses and income), the US government's debt-to-income is projected to rise by about  $120\%$ , from  $580\%$  to  $700\%$ , over the next 10 years. This would also lead to a proportional increase in the interest expense and debt service burden.
+The US government's debt to money coming in (mostly tax income) is, as of this writing, about  580\% . If we assume that interest rates equal income growth but use the actual projected primary deficit for the US (i.e., the  12\%  actual gap between non-interest expenses and income), the US government's debt-to-income is projected to rise by about  $120\%$ , from  $580\%$  to  $700\%$ , over the next 10 years. This would also lead to a proportional increase in the interest expense and debt service burden.
 
 The first table that follows shows debt levels 10 years forward for various starting debt levels and deficits. The second table shows the change relative to the starting debt level. You can see that as the starting debt level rises, and as deficits become larger, the expected debt level at the end gets higher.
 
@@ -667,7 +778,7 @@ China extensively raises financing at the local level, so I am including revenue
 
 When interest rates are higher than income growth rates, the existing debt grows relative to incomes because the debt compounds faster than incomes grow.
 
-The following tables illustrate how this works. Previously, I showed how debt grows for different starting debt levels and deficits. This time, I am assuming a starting deficit of $32\%$ of income (using the Congressional Budget Office's projected deficit over the next decade). The rows are still different starting debt levels. The columns now show the nominal interest rate minus the nominal income growth rate. The CBO projects that, over the next decade, effective interest rates will average $3.45\%$ and the US will have $3.9\%$ nominal growth. The difference is about $-0.4\%$, so this would leave the US around the red-boxed area.
+The following tables illustrate how this works. Previously, I showed how debt grows for different starting debt levels and deficits. This time, I am assuming a starting deficit of $32\%$ of income (using the Congressional Budget Office's projected deficit over the next decade). The rows are still different starting debt levels. The columns now show the nominal interest rate minus the nominal income growth rate. The CBO projects that, over the next decade, effective interest rates will average 3.45\% and the US will have 3.9\% nominal growth. The difference is about -0.4\%, so this would leave the US around the red-boxed area.
 
 The first table shows the levels of debt to income 10 years from now based on these assumptions, and the second table shows the change in debt to income over the next 10 years. As interest rates get higher than growth, debt levels grow faster. Also, as debts get higher, the impact of high interest rates gets worse much faster.
 
@@ -685,7 +796,7 @@ Assuming a Constant Primary Deficit of  $12\%$  (CBO Projection over the Next 10
 
 Assuming a constant primary deficit of $12\%$ (CBO projection over the next 10 years).
 
-Previously, I forecast that with current debts and deficits, US debt levels will rise from $580\%$ to $700\%$ of income. If I also incorporate projected interest rates relative to nominal growth, I'd expect US debt levels to rise to $650\%$ of income. You get the idea.
+Previously, I forecast that with current debts and deficits, US debt levels will rise from $580\%$ to $700\%$ of income. If I also incorporate projected interest rates relative to nominal growth, I'd expect US debt levels to rise to 650\% of income. You get the idea.
 
 Since interest rates are projected to be slightly below nominal growth, this adjustment doesn't change our debt outlook much for the US today. But you can see that if the central bank wanted to help the central government keep its debt burdens more manageable, it could push interest rates to further below nominal growth by buying the government bonds, which would cause debt burdens to grow much slower, all else equal. Of course, that wouldn't be good for the lender-creditors holding the debt assets because they would get a lower nominal interest rate and a lower real interest rate than they would have gotten. I suspect that you are beginning to get the picture of how this dynamic works and has worked in the past—i.e., why central banks created such low nominal rates (near $0\%$) and such negative real interest rates by printing money and buying government debt—and what is most likely to take place in the future if the current path isn't altered. More specifically, if debt growth remains as projected, central banks will have to push real interest rates lower, which will make debt assets less attractive for lender-creditors.
 
@@ -693,11 +804,11 @@ In an economy, there are many interrelated drivers that change interdependently.
 
 # Example 3: Interest Rates Spiral Upward to Keep Buyers in the Debt Assets
 
-In this example, I consider a government that has numbers similar to the US government now. Let's say nominal income is growing at  $3.9\%$  a year, interest rates are  $3.5\%$ , and debt levels start at  $580\%$  of government income. In this example, we'll assume that the government spends  $32\%$  more than it collects in income, including interest payments.
+In this example, I consider a government that has numbers similar to the US government now. Let's say nominal income is growing at  $3.9\%$  a year, interest rates are  3.5\% , and debt levels start at  $580\%$  of government income. In this example, we'll assume that the government spends  $32\%$  more than it collects in income, including interest payments.
 
 Since this government is running a 12\% primary deficit (i.e., excluding interest payments), it collects \$5.4 trillion in revenue and spends \$6 trillion in Year 1. It must pay \$1 trillion in interest because it started with debts at 580\% of government income, and interest rates are about 3.5\%. Let's assume that about 35\% of the existing debt is coming due this year (which is about how much US government debt matures every year) and will need to be rolled over—so \$10.5 trillion of existing debt will come due this year and will need to be paid back. In total, this government needs to sell 12.2 trillion of debt in Year 1. What happens if the public is no longer willing to buy this debt, or is a seller at current interest rates?
 
-Markets must clear, so this means that interest rates will go up until someone is willing to buy these bonds. But as the interest rates go up, that makes the government's borrowing even more expensive, meaning the problems get even worse, creating a greater desire to sell the bonds, which creates even more upward pressure on interest rates. A spiral of rising interest rates leading to worsening credit risk, leading to less demand for the debt, leading to higher interest rates is a classic debt "death spiral." In the next table, you can see how this works. In this example, I show interest rates going up by  $0.5\%$  a year while nominal growth stays flat.
+Markets must clear, so this means that interest rates will go up until someone is willing to buy these bonds. But as the interest rates go up, that makes the government's borrowing even more expensive, meaning the problems get even worse, creating a greater desire to sell the bonds, which creates even more upward pressure on interest rates. A spiral of rising interest rates leading to worsening credit risk, leading to less demand for the debt, leading to higher interest rates is a classic debt "death spiral." In the next table, you can see how this works. In this example, I show interest rates going up by  0.5\%  a year while nominal growth stays flat.
 
 If interest rates stayed flat, the government would have ended Year 10 with debts at $650\\%$ of income and interest at $22\\%$ of income. Here, relative to income, we end with debts at $865\\%$, interest at $67\\%$, and total debt service (including principal payments) of $342\\%$. Of course, if interest rates are going up because the debts are unsustainable, they'll only go up more as debts rise and become even more unsustainable. And at the same time, the high interest rates are likely constricting income growth, increasing the challenge of debt sustainability. Of course, the worst-case scenario is one where a significant additional amount of debt assets must be sold (e.g., to fund a war or social benefits in a recession), which would drive interest rates up a lot more.
 
@@ -728,9 +839,9 @@ While these factors are measurable, they are much harder to project than the pre
 
 Before we move on, I want to show you how it works for the central bank to step in and absorb excess debt supply in order to maintain interest rates and liquidity at a desired level. Let's start with our previous example and modify it slightly. Let's assume that in Year 1 the government has \$10.5 trillion of debt expiring and is issuing \$12.2 trillion of new debt to replace the expiring bonds, pay interest, and cover spending.
 
-Rather than allowing interest rates to spiral upward to generate sufficient demand for these debt assets, let's assume the central bank steps in and buys all the excess issuance, so that the private sector continues to hold no more than $600\%$ of government income in debt, and interest rates stay flat at $3.5\%$. In this example, in Year 2, the central bank will have to buy 0.1 trillion of those debt assets. In subsequent years, these purchases get larger and larger.
+Rather than allowing interest rates to spiral upward to generate sufficient demand for these debt assets, let's assume the central bank steps in and buys all the excess issuance, so that the private sector continues to hold no more than 600\% of government income in debt, and interest rates stay flat at $3.5\%$. In this example, in Year 2, the central bank will have to buy 0.1 trillion of those debt assets. In subsequent years, these purchases get larger and larger.
 
-Mechanically, to purchase these debt assets—i.e., to monetize the government debt—the central bank prints money (by creating new reserves/cash) and gives private players that money in exchange for the bonds. This increases the money supply (M0). In this example, let's assume that the money supply starts at \$5.7 trillion—so $110\%$ of the starting government income—roughly where it is today in the United States. In our example, as the central bank prints more and more to cover government shortfalls, the money supply balloons.
+Mechanically, to purchase these debt assets—i.e., to monetize the government debt—the central bank prints money (by creating new reserves/cash) and gives private players that money in exchange for the bonds. This increases the money supply (M0). In this example, let's assume that the money supply starts at \$5.7 trillion—so 110\% of the starting government income—roughly where it is today in the United States. In our example, as the central bank prints more and more to cover government shortfalls, the money supply balloons.
 
 # THE CENTRAL BANK STEPS IN
 
@@ -769,7 +880,7 @@ My next point will be too technical for some and helpfully technical for others,
 
 Also, the printed money can directly flow out of the currency, creating a selling pressure in the currency. That is, as a central bank buys bonds and gives other players cash, there is a chance that they use that cash to buy other currencies, rather than holding it or buying assets/spending in the same economy.
 
-In the next table, I show a range of outcomes for how this might work. The columns again reflect different willingness to lend by private players (as you go to the right, private players are less willing to lend to the government). The rows reflect how sensitive the currency is to the money supply. As the market sees a currency as a worse and worse store of value, we'd expect the currency to become more sensitive to the money supply because other players will be less willing to hold it. For example, let's assume that printing $1\%$ of GDP in money led to $\sim 1\%$ currency weakness, then in this example, we'd expect a $\sim 10\%$ currency depreciation. As the currency becomes more sensitive to the amount of money (i.e., M0), and as the private sector becomes less willing to lend, we'd expect to see more and more currency weakness.
+In the next table, I show a range of outcomes for how this might work. The columns again reflect different willingness to lend by private players (as you go to the right, private players are less willing to lend to the government). The rows reflect how sensitive the currency is to the money supply. As the market sees a currency as a worse and worse store of value, we'd expect the currency to become more sensitive to the money supply because other players will be less willing to hold it. For example, let's assume that printing 1\% of GDP in money led to $\sim 1\%$ currency weakness, then in this example, we'd expect a $\sim 10\%$ currency depreciation. As the currency becomes more sensitive to the amount of money (i.e., M0), and as the private sector becomes less willing to lend, we'd expect to see more and more currency weakness.
 
 # 10YR EXPECTED CHANGE IN FX
 
@@ -805,7 +916,7 @@ Future Revenue
 
 # Current Revenue * (1 + Growth Rate)
 
-In the following table, I use this formula to estimate what interest rates would stabilize debt burdens relative to incomes for the US today. I also show how each of the other available levers would have to change in order to stabilize debt burdens. You can see that to stabilize government debt burdens, the US would either need to see nominal interest fall to about  $1\%$ , see nominal economic growth average about  $6.5\%$  ( $\sim 2.5\%$  additional inflation above the  $3.9\%$  nominal growth projected by the CBO), or raise government revenue (i.e., raising taxes) by  $11\%$ . Of course, each one of these paths would be intolerably too large, so it would take the right combination of lesser amounts of these to successfully achieve the goal. In Chapter 18, "My  $3\%$  3-Part Solution," I show what I believe would be the best combinations to achieve the goal of limiting debt burdens and risks in a very tolerable way.
+In the following table, I use this formula to estimate what interest rates would stabilize debt burdens relative to incomes for the US today. I also show how each of the other available levers would have to change in order to stabilize debt burdens. You can see that to stabilize government debt burdens, the US would either need to see nominal interest fall to about  $1\%$ , see nominal economic growth average about  6.5\%  ( $\sim 2.5\%$  additional inflation above the  $3.9\%$  nominal growth projected by the CBO), or raise government revenue (i.e., raising taxes) by  11\% . Of course, each one of these paths would be intolerably too large, so it would take the right combination of lesser amounts of these to successfully achieve the goal. In Chapter 18, "My  $3\%$  3-Part Solution," I show what I believe would be the best combinations to achieve the goal of limiting debt burdens and risks in a very tolerable way.
 
 HOW THE US CAN STABILIZE DEBT-TO-INCOME IN THE NEXT 10 YEARS
 
@@ -827,31 +938,15 @@ If Raising Tax Revenue Were the Only Lever…
 
 <table><tr><td>\% Revenue Increase Required to Stabilize Debt</td><td>11\%</td></tr></table>
 
-# PART II
+## PART II
 
-# THE
-
-# ARCHETYPICAL
-
-# SEQUENCE
-
-# LEADING
-
-# TO CENTRAL
-
-# GOVERNMENTS
-
-# AND CENTRAL
-
-# BANKS GOING
-
-# BROKE
+### THE ARCHETYPICAL SEQUENCE LEADING TO CENTRAL GOVERNMENTS AND CENTRAL BANKS GOING BROKE
 
 The same basic sequence of events that leads central governments and central banks to go broke has happened repeatedly throughout history, and it isn't well understood. The purpose of Part II is to describe it so that it is well understood. In it, I provide a template of the typical case and the most important reasons for the two major types of cases: 1) those in which the debt is denominated in currency that the country's central bank can print and 2) those in which the debt is denominated in currency that the central bank can't print. Then I devote Chapter 8 to providing an overview of the five forces that make up what I call the Big Cycle, which drives all major changes in monetary systems, domestic political orders, and global geopolitical orders. After I make that clear, in Part III, I will review how this Big Cycle, starting in 1865 and continuing until now, has transpired relative to the archetypal timeless and universal template.
 
-# CHAPTER 4
+### CHAPTER 4
 
-# THE ARCHETYPICAL SEQUENCE
+#### THE ARCHETYPICAL SEQUENCE
 
 From my experiences in the markets and from examining 35 major debt crises over the last 100 years in which central governments and/or central banks went broke, I have come to understand pretty well how Big Debt Cycles transpire. What follows is the archetypal process, zooming in to the granular mechanics of what typically happens both leading up to central governments and central banks going broke and after. While I think this chapter is valuable for policymakers and investors because it provides a template for dealing with such crises, it is possibly too much for the casual reader. I suggest you read what is in bold and decide if you want to dive into the greater detail or exit and move on.
 
@@ -896,13 +991,9 @@ Because when it is there will be greater marginal inclinations to buy it and the
 
 In the next few chapters, I will show you all this happening in charts.
 
-# CHAPTER 5
+### CHAPTER 5
 
-# THE PRIVATE SECTOR AND
-
-# CENTRAL GOVERNMENT
-
-# DEBT CRISIS (STAGES 1-4)
+#### THE PRIVATE SECTOR AND CENTRAL GOVERNMENT DEBT CRISIS (STAGES 1-4)
 
 In Chapter 4, I laid out the archetypal sequence that you see across crises. This chapter will take you through the first four of the nine stages in much more detail, showing the specific markers and dynamics I saw when I looked at historical cases. I believe that this is probably very helpful for investment professionals, policymakers, and others who care about the typical sequence, timing, and other particulars of the transition into and through a debt crisis. But it is probably too technical for the casual reader. As most of the chapters in Part II are like this one, if you like this chapter, read them all. And if you don't like it, skip ahead to Chapter 8.
 
@@ -1837,7 +1928,7 @@ The bond yield consists of two parts—the expected inflation rate and the expec
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/6d726d187646ad66effd9d0845d488a8f1dcb24a259221152b7bae666c487101.jpg)
 
-In the next chart, you can see the real 10-year bond yield. In the years after 1997, I am using the real yield on a 10-year Treasury inflation-protected bond. In my opinion, the real bond yield is the most important number to watch in the financial world. That is because it shows what real return you can certainly get on your wealth (i.e., free of inflation risk and default risk),[28] which is the most foundational rate for all capital markets. To earn more than that rate, one has to do so through cleverness. Even more importantly, it is the single best indicator of whether it is better to be a borrower-debtor or a lender-creditor—e.g., when real interest rates are low, it is much easier to borrow money and convert it into profits than when real interest rates are high. As such, it is a great tool for central banks to use to modulate credit and economic activity. As shown, the real bond yield has averaged about $2\%$ over the last 100 years, which is a rate that is neither too low for borrower-debtors nor too high for lender-creditors. Periods of great differences from this $2\%$ were times of excessively cheap or excessively expensive credit/debt that contributed greatly to the big swings in the Big Debt Cycle.
+In the next chart, you can see the real 10-year bond yield. In the years after 1997, I am using the real yield on a 10-year Treasury inflation-protected bond. In my opinion, the real bond yield is the most important number to watch in the financial world. That is because it shows what real return you can certainly get on your wealth (i.e., free of inflation risk and default risk),[28] which is the most foundational rate for all capital markets. To earn more than that rate, one has to do so through cleverness. Even more importantly, it is the single best indicator of whether it is better to be a borrower-debtor or a lender-creditor—e.g., when real interest rates are low, it is much easier to borrow money and convert it into profits than when real interest rates are high. As such, it is a great tool for central banks to use to modulate credit and economic activity. As shown, the real bond yield has averaged about 2\% over the last 100 years, which is a rate that is neither too low for borrower-debtors nor too high for lender-creditors. Periods of great differences from this $2\%$ were times of excessively cheap or excessively expensive credit/debt that contributed greatly to the big swings in the Big Debt Cycle.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/7a582688e7fdd8c9ba47dc7bae67e5f3b79774a2e6a7f00e70fa1ee39aa1066f.jpg)
 
@@ -2314,7 +2405,7 @@ I am now going to look in more detail at what happened between 2020 and the pres
 - This short-term debt cycle easing began in 2020 in response to the combination of a) a COVID-induced economic crisis, b) large wealth gaps, and c) political moves to the left via the elections of a Democratic president, a Democratic-controlled House of Representatives, and a Democratic-controlled Senate. The easing took the form of huge government spending increases that led to huge government fiscal deficits and government debt sales that were much greater than free-market lender-creditors would buy, which required central banks, most importantly the Fed, to buy/monetize the debt. Other entities like banks and Japanese institutional investors also bought a lot of US Treasury debt. That stimulation increased the amount of debt/credit/money/spending by a lot. This massive MP3-type of coordination of fiscal and monetary policies that allows the government to borrow and direct money as it chooses because the central bank buys its debt with printed money is explained more completely in Principles for Navigating Big Debt Crises, if you're interested in knowing more and seeing past cases, which you can download at economicprinciples.org. That is what happened in 2020-21; as mentioned, it has happened repeatedly for similar reasons throughout history though not in our lifetime.
 - The 2020-21 debt monetization was the fourth  $^{43}$  and the largest big debt monetization since the original big debt monetization/QE in 2008 (which was the first since 1933). From the start of the easing cycle of 2008, the nominal Treasury bond yield was pushed down from  $3.7\%$  to only  $0.5\%$ , the real Treasury bond yield was pushed from  $1.4\%$  to  $-1\%$ , and the non-government nominal and real bond yields fell a lot more (because credit spreads narrowed). Money and credit became essentially free and plentiful, so the environment became great for borrower-debtors and terrible for lender-creditors and led to an orgy of borrowing and new bubbles forming. My bubble indicator, which was at only $18\%$ in 2010, rose to $75\%$ at the end of 2020, showing the bubbles in companies and assets that had little or no profits and were funded by selling equity and/or borrowing money based on promises of doing well in the future and speculative buying fever. It was analogous to the Nifty Fifty bubble in the 1970-72 period, the Japan bubble of 1989-90, and the dot-com bubble of 1999-2000. The decline in interest rates in the years following 2008 took them so low that they couldn't continue to fall, and it benefited stocks a lot. I estimate that the interest rate decline raised stock prices about $75\%$ more than they would have risen without that decline (compared to the pre-financial-crisis peak). In addition, profit margins roughly doubled on average as a result of advances in technology and globalization, which also boosted profits and profit margins. Corporate and personal taxes declined, which also helped asset prices. From the post-crisis lows of 2009 through the second quarter of 2024, the nominal value of US household wealth in financial assets (i.e., "paper wealth") rose from \$32 trillion to \$99 trillion, so there was a tripling of paper wealth.[44]
 - That debt/credit/money surge in 2020 produced a big increase in inflation, which was exacerbated by supply chain problems and external conflicts (the third of the five major forces that I will touch on at the end of this chapter).
-- That big increase in inflation led to the short-term debt cycle tightening by the Fed and the contraction in the balance sheet by having maturing debt roll off rather than buying more of it. As a result of the Fed (and other central banks), changing their short-term debt cycle mode from easing to tightening, nominal and real interest rates went from levels that were overwhelmingly favorable to borrower-debtors and detrimental to lender-creditors to levels that were more normal (e.g., a $2\%$ real bond yield). Once the tightening began, US Treasury bond nominal yields rose from $0.5\%$ to over $4\%$ and real yields rose from about $-1.1\%$ to about $2.5\%$, which hurt most asset prices, particularly those with weak or negative profits and/or needs for new equity funding. Naturally, that shift especially hurt the prices of assets that were in bubbles. My bubble indicator fell from $75\%$ (in a significant bubble) to $35\%$ (not in a bubble) and the bubble stocks in the index fell an average of $75\%$. As a result, the nominal value of wealth in stocks and bonds fell by $\sim 12\%$ in the US and the real value of wealth fell by nearly $18\%$, which were the largest declines since 2009. As cash (i.e., investing in short-term cash instruments like T-Bills) went from "trash" to "attractive," and both short-term nominal and real interest rates were brought to levels that were more attractive than they were for lender-creditors and more unattractive than they were for borrower-debtors, and the yield curve inverted, these changes had the very classic effect of lowering the present values of most investment assets' future cash flows and strengthening the dollar relative to the currencies of other countries whose central bankers were slower to tighten. In other words, the Fed's quick movement brought US dollar-denominated cash to relatively attractive levels in relation to most assets, cash denominated in other currencies, and gold. This, as usual, hurt interest-rate-sensitive sectors like commercial and residential real estate, as well as low or negative cash flow bubble companies, both public and private, though public more so. For example, the then-hot "FAANG" stocks and the tech-heavy Nasdaq fell from their peaks by around  $45\%$  and  $33\%$ , respectively. Non-public-market assets—private equity, venture capital,
+- That big increase in inflation led to the short-term debt cycle tightening by the Fed and the contraction in the balance sheet by having maturing debt roll off rather than buying more of it. As a result of the Fed (and other central banks), changing their short-term debt cycle mode from easing to tightening, nominal and real interest rates went from levels that were overwhelmingly favorable to borrower-debtors and detrimental to lender-creditors to levels that were more normal (e.g., a $2\%$ real bond yield). Once the tightening began, US Treasury bond nominal yields rose from $0.5\%$ to over $4\%$ and real yields rose from about $-1.1\%$ to about 2.5\%, which hurt most asset prices, particularly those with weak or negative profits and/or needs for new equity funding. Naturally, that shift especially hurt the prices of assets that were in bubbles. My bubble indicator fell from $75\%$ (in a significant bubble) to $35\%$ (not in a bubble) and the bubble stocks in the index fell an average of $75\%$. As a result, the nominal value of wealth in stocks and bonds fell by $\sim 12\%$ in the US and the real value of wealth fell by nearly $18\%$, which were the largest declines since 2009. As cash (i.e., investing in short-term cash instruments like T-Bills) went from "trash" to "attractive," and both short-term nominal and real interest rates were brought to levels that were more attractive than they were for lender-creditors and more unattractive than they were for borrower-debtors, and the yield curve inverted, these changes had the very classic effect of lowering the present values of most investment assets' future cash flows and strengthening the dollar relative to the currencies of other countries whose central bankers were slower to tighten. In other words, the Fed's quick movement brought US dollar-denominated cash to relatively attractive levels in relation to most assets, cash denominated in other currencies, and gold. This, as usual, hurt interest-rate-sensitive sectors like commercial and residential real estate, as well as low or negative cash flow bubble companies, both public and private, though public more so. For example, the then-hot "FAANG" stocks and the tech-heavy Nasdaq fell from their peaks by around  $45\%$  and  $33\%$ , respectively. Non-public-market assets—private equity, venture capital,
 
 and real estate assets—were not marked down commensurately as there was a great reluctance to accept the markdowns. Write-downs and having to downfundraising rounds became too painful for both the companies and the venture capital and private equity managers in these markets, so there has been, to this day, a stand-off in which sellers and buyers can't agree on prices and transaction volumes have plunged. It did not, however, weaken the economy as much as it typically would have because it was the central government that got into more debt rather than the private sector and it was the central bank that bought the debt and had the losses from holding it rather than the private sector. Also, the inflation was in wages and other compensation being earned as well as in goods and services being bought.
 

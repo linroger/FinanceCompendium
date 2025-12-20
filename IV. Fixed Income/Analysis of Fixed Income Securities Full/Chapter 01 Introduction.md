@@ -1,4 +1,25 @@
-# Chapter 1: Introduction
+---
+title: Chapter 01 - Introduction to Fixed Income Securities
+primary_tags:
+  - fixed income securities
+  - interest rate derivatives
+  - treasury securities
+  - yield curve analysis
+secondary_tags:
+  - trading conventions
+  - otc markets
+  - us treasuries
+  - libor rates
+  - credit ratings
+  - municipal bonds
+  - mortgage rates
+  - yield to maturity
+  - daycount conventions
+  - accrued interest
+cssclasses: academia
+---
+
+# Chapter 01 - Introduction to Fixed Income Securities
 
 ## 1.1 Introduction
 
@@ -492,10 +513,6 @@ y_{0,n} = \sqrt[n]{\prod_{i=1}^{n} \left(1 + f_{0,i,i+1}\right)} \tag{1.5}
 $$
 
 where $f_{t,u,v}$ represents the forward rate observed at time $t$ for a forward rate covering a future period between $u$ and $v$. Hence, $f_{0,i,i+1}$ is the forward rate observed today (traded in the marketplace today) for a future period between $i$ and $i+1$ (which is one-period forward rate). For example, $f_{012}$, $f_{023}$, $f_{034}$ are one-year forward rates, $f_{013}$, $f_{024}$ are two-year forward rates, and $f_{014}$ is a three-year forward rate.
-
-![Spot and Forward Rates](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/ff6601378c1b0dce2b0ab73ca89087cad1e7d72ca0a28698038128e0f5c51984.jpg)
-
-**Figure 1.2: Spot and Forward Rates**
 
 Finally, we note that yield to maturity = rate of return = holding period return = capitalization rate = spot rate
 

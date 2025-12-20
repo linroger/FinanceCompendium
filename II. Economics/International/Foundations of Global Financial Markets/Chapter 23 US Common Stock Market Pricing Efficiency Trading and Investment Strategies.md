@@ -1,38 +1,49 @@
 ---
+title: 'Chapter 23 US Common Stock Market Pricing Efficiency Trading and Investment Strategies'
+primary_tags:
+  - stock market pricing efficiency
+  - trading costs
+  - high frequency trading
+  - market efficiency
+  - investment strategies
+  - equity valuation
+  - market indexes
+  - trading mechanisms
+secondary_tags:
+  - equity asset classification
+  - stock market index construction
+  - index weighting methods
+  - market capitalization
+  - growth versus value stocks
+  - forms of market efficiency
+  - efficient market hypothesis
+  - random walk hypothesis
+  - active versus passive strategies
+  - indexing strategy
+  - smart beta strategy
+  - order types
+  - margin transactions
+  - transaction costs
+  - block trades
+  - program trades
+  - algorithmic trading
+  - market microstructure
 cssclasses: academia
-title: 'Chapter 23 - US Common Stock Market Pricing Efficiency Trading and Investment Strategies'
-tags:
-- stock_market_pricing_efficiency
-- trading_costs
-- high_frequency_trading
-- market_efficiency
-- investment_strategies
-- equity_valuation
-- market_indexes
-- trading_mechanisms
-key_concepts:
-- Stock market pricing efficiency and forms of efficiency
-- Trading costs and market microstructure
-- High-frequency trading strategies and impact
-- Equity asset classification by capitalization and style
-- Stock market index construction and weighting methods
-- Investment strategies for common stock
-parent_directory: 'II. Economics/International/Foundations of Global Financial Markets'
 ---
 
 # Chapter 23 - US Common Stock Market Pricing Efficiency Trading and Investment Strategies
 
-# CONTENTS
+## CONTENTS
 
-# Learning Objectives
+## Learning Objectives
 
-# Equity Asset Classes
+## Equity Asset Classes
 
 Asset Classes Based on Market Capitalization
 
 Asset Classes Based on Style
 
-# Stock Market Indexes
+## Stock Market Indexes
 
 Stock Weighting Methods
 
@@ -54,19 +65,19 @@ Wilshire indexes
 
 CBOE Volatility Index
 
-# Pricing Efficiency of the Stock Market
+## Pricing Efficiency of the Stock Market
 
 Forms of Efficiency
 
 Efficient market hypothesis and the random walk hypothesis
 
-Micro versus Macro Stock Market Efficiency
+### Micro versus Macro Stock Market Efficiency
 
-Implications of Market Efficiency for Investing in Common Stock
+### Implications of Market Efficiency for Investing in Common Stock
 
-# Common Stock Investment Strategies
+## Common Stock Investment Strategies
 
-# Common Stock Trading Arrangements
+## Common Stock Trading Arrangements
 
 Types of Orders
 
@@ -126,7 +137,7 @@ In chapter 22, we looked at the structure of the U.S. equity market, including t
 
 As explained in chapter 1, market participants talk about asset classes. Common stock or equity is one of the major asset classes. Based on studies of the performance of different categories of common stock, the market practice is to treat categories of stocks based on market capitalization and style. We discuss each category below.
 
-# Asset Classes Based on Market Capitalization
+### Asset Classes Based on Market Capitalization
 
 In the second half of the 1970s, many academic studies suggested that simple categorization of stocks should be based on size as measured by market capitalization, because these size categories produced different performance patterns. A company's market capitalization (referred to simply as "market cap") is equal to the total market value of its common stock. It is calculated as follows:
 
@@ -169,15 +180,12 @@ Step 7: Classify the remaining stocks from the universe as growth stocks.
 
 Any given growth and value style has a substyle based on some measure of size (market cap), as discussed above. The combinations of style and size are often displayed as in the following grid:
 
-Large value
+- Large value
+- Large growth
+- Small value
+- Small growth
 
-Large growth
-
-Small value
-
-Small growth
-
-The four cells shown in the above grid have different risk/return combinations. In addition to book value (B), style is often calculated as a ratio to earnings (E); that is, the style ratio is  $\mathrm{P /E}$ , the price-to-earnings ratio.
+The four cells shown in the above grid have different risk/return combinations. In addition to book value (B), style is often calculated as a ratio to earnings (E); that is, the style ratio is $\mathrm{P/E}$, the price-to-earnings ratio.
 
 # Stock Market Indexes
 
@@ -195,7 +203,74 @@ Given the stocks included in the general category, the second decision that must
 
 The third decision that must be made is the method used for weighting the individual stocks in the overall index, which we discuss next.
 
-# Stock Weighting Methods
+### Stock Weighting Methods
+
+```d2
+index weighting methods: {
+  shape: rectangle
+  style.fill: "#f0f8ff"
+  
+  price_weighted: Price Weighted {
+    description: |md
+      **One share of each stock**
+      - High-price stocks have more influence
+      - Example: DJIA
+      - Tilt toward expensive stocks
+    |
+    style.fill: "#ffe4e1"
+  }
+  
+  equal_weighted: Equal Weighted {
+    description: |md
+      **Same dollar value of each stock**
+      - Each stock has equal influence
+      - Small-cap bias
+      - Requires frequent rebalancing
+    |
+    style.fill: "#f0fff0"
+  }
+  
+  market_cap: Market Cap Weighted {
+    description: |md
+      **Weight by market capitalization**
+      - Most widely used method
+      - Macro-consistent
+      - No rebalancing needed
+      - Large-cap growth bias
+    |
+    style.fill: "#e6e6fa"
+  }
+  
+  fundamental: Fundamental Weighted {
+    description: |md
+      **Weight by fundamental factors**
+      - Earnings, book value, dividends
+      - Value tilt
+      - Alternative to market cap
+    |
+    style.fill: "#fffacd"
+  }
+}
+
+comparison: {
+  shape: rectangle
+  style.fill: "#ffffff"
+  
+  advantages: Advantages {
+    price: "Simple, historical"
+    equal: "No size bias"
+    cap: "Theoretically sound, low cost"
+    fundamental: "Value focus, no price bubble"
+  }
+  
+  disadvantages: Disadvantages {
+    price: "Arbitrary, price distortion"
+    equal: "High turnover, small-cap bias"
+    cap: "Bubble susceptibility, growth bias"
+    fundamental: "Value trap, rebalancing costs"
+  }
+}
+```
 
 Three weighting methods have been traditionally used. The first method is price weighting; that is, using one share of each stock chosen (or the same number of shares). The second method is equal weighting; that is, using equal dollar values (e.g., 100) of each stock in the index. The third method is market capitalization weighting (price multiplied by the number of shares outstanding), that is, equal "cap weighting" values of each stock in the index.
 
@@ -223,15 +298,13 @@ Both price weighted and equal-weighted indexes have significant limitations. The
 
 <table><tr><td></td><td>Price</td><td>Market Cap</td></tr><tr><td>ExxonMobil</td><td>$89.74</td><td>$372.12 billion</td></tr><tr><td>FedEx</td><td>$161.63</td><td>$43.39 billion</td></tr></table>
 
-It seems inappropriate to have an index in which FedEx has a weight  $80\%$  higher than that of ExxonMobil ( $161.63/$ 89.74 = 1.80) due simply to the fact that its price is  $80\%$  higher and even though ExxonMobil has a market cap that is more than eight times larger than that of FedEx (373.12/43.39 = 8.6).
+It seems inappropriate to have an index in which FedEx has a weight $80\%$ higher than that of ExxonMobil ($161.63/\$89.74 = 1.80) due simply to the fact that its price is $80\%$ higher and even though ExxonMobil has a market cap that is more than eight times larger than that of FedEx (373.12/43.39 = 8.6).
 
 The equal-weighted index also has a strong small-cap bias, which would cause confounding problems for an investor during a large-cap stock rally. As a result, it is not surprising that most indexes currently employ the third method—the market cap method—as the metric for size, and thus are market cap-weighted indexes.
 
 Let us return to table 23.2, which shows the index weights for Alphabet and Ford Motor for May 21, 2016, for the three weighting methodologies. Note that the resultant weights vary widely for the price weighting, equal weighting, and market cap-weighting calculations. The market cap-weighted index appears to be more reasonable than either the equal-weighted or price-weighted index.
 
-There are also theoretical arguments favoring market cap weighting. First, market cap-weighted portfolios are "macro consistent," meaning that if all investors invested in such a portfolio, all available shares in its universe would be held, and none would be left over, and so the prices would be stable equilibrium prices. With the other weighting methods, it is mathematically impossible for all investors to hold the stocks in this index portfolio at the initial prices. Thus, changes in portfolio holdings would be necessary, and security prices would change for all other weighting methods. Thus, if an investor holds a market cap-weighted portfolio and some market prices change, it is not necessary to rebalance the portfolio weights for the portfolio to continue to replicate the index—that is, the portfolio remains
-
-"indexed." Not needing to rebalance to maintain index weights is a major practical and operational advantage of market cap weighting. It also conserves transaction costs. As a result, it is not surprising that most equity portfolio families employ primarily market cap weighting. These families include S&P, Russell, MSCI, and Morningstar.
+There are also theoretical arguments favoring market cap weighting. First, market cap-weighted portfolios are "macro consistent," meaning that if all investors invested in such a portfolio, all available shares in its universe would be held, and none would be left over, and so the prices would be stable equilibrium prices. With the other weighting methods, it is mathematically impossible for all investors to hold the stocks in this index portfolio at the initial prices. Thus, changes in portfolio holdings would be necessary, and security prices would change for all other weighting methods. Thus, if an investor holds a market cap-weighted portfolio and some market prices change, it is not necessary to rebalance the portfolio weights for the portfolio to continue to replicate the index—that is, the portfolio remains "indexed." Not needing to rebalance to maintain index weights is a major practical and operational advantage of market cap weighting. It also conserves transaction costs. As a result, it is not surprising that most equity portfolio families employ primarily market cap weighting. These families include S&P, Russell, MSCI, and Morningstar.
 
 But there is a major concern about market cap weighting. As mentioned, equal weighting has a small-cap bias. Recently, it has been pointed out that market cap weighting has a large-cap growth bias with, perhaps, some resulting investment disadvantages.
 
@@ -275,7 +348,7 @@ Russell indexes Another family of nonexchange-sponsored U.S. stock indexes is th
 
 Wilshire indexes The Wilshire 5000 Total Market Index (the Wilshire 5000), sponsored by Wilshire Associates (in Santa Monica, California), is also a market cap-weighted index of most of the common stocks (including REITs) actively traded on the NYSE and Nasdaq. As of year-end 2016, the index had 3,618 stocks. This index has moderate use. Another Wilshire index, the Wilshire 4,500 Completion Index, includes the stocks in the Wilshire 5000 with the stocks in the S&P 500 removed.
 
-In this regard, the number of publicly listed stocks has declined by approximately  $50\%$  from 7,322 in 1996 to 3,671 in 2016. The major reasons for this are that the delistings due primarily to mergers, acquisitions, and private equity activity have exceeded initial public offerings.
+In this regard, the number of publicly listed stocks has declined by approximately $50\%$ from 7,322 in 1996 to 3,671 in 2016. The major reasons for this are that the delistings due primarily to mergers, acquisitions, and private equity activity have exceeded initial public offerings.
 
 CBOE Volatility Index Another index which has become very popular in the equity markets is the CBOE Volatility Index (VIX, which stands for "volatility index"). The VIX is not a stock index, but it is a stock-related index. The VIX is a measure of the implied volatility of the S&P 500 index option, which is calculated by the Chicago Board Options Exchange (CBOE) and used by stock traders. The VIX provides a measure of this option's market expectation of the S&P 500 stock market volatility over the next 30-day period. The VIX is quoted as a percentage, which is consistent with its being a volatility. A high VIX measure indicates that the stock market is expected to be very volatile and is regarded as a bearish signal. For this reason, the VIX is regarded as a "fear index." Futures and options contracts on the VIX are available from the CBOE.
 
@@ -285,7 +358,67 @@ As explained in chapter 18, a price-efficient market is one in which the securit
 
 Numerous studies have examined the pricing efficiency of the stock market. Although it is not our intent in this chapter to provide a comprehensive review of these studies, we can summarize their basic findings and their implications for investment strategies.
 
-# Forms of Efficiency
+### Forms of Efficiency
+
+```d2
+market efficiency: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  
+  weak_form: Weak Form {
+    description: |md
+      Price reflects **past price and trading volume**
+    |
+    style.fill: "#f0f8ff"
+  }
+  
+  semi_strong: Semi-Strong Form {
+    description: |md
+      Price reflects **all public information**
+      including historical prices and financial data
+    |
+    style.fill: "#f0f8ff"
+  }
+  
+  strong_form: Strong Form {
+    description: |md
+      Price reflects **all information**
+      public and private/insider
+    |
+    style.fill: "#f0f8ff"
+  }
+  
+  weak_form -> semi_strong: "more information"
+  semi_strong -> strong_form: "includes private info"
+}
+
+implications: {
+  shape: rectangle
+  style.fill: "#fff8dc"
+  
+  technical_analysis: Technical Analysis {
+    description: |md
+      **Ineffective** in weak-form efficient markets
+    |
+  }
+  
+  fundamental_analysis: Fundamental Analysis {
+    description: |md
+      **Ineffective** in semi-strong efficient markets
+    |
+  }
+  
+  insider_trading: Insider Trading {
+    description: |md
+      **Only profitable** if markets not strong-form efficient
+    |
+  }
+}
+
+market efficiency.technical_analysis -> implications.technical_analysis
+market efficiency.semi_strong -> implications.fundamental_analysis
+market efficiency.strong_form -> implications.insider_trading
+```
 
 The three different forms of pricing efficiency include (1) a weak form, (2) a semi-strong form, and (3) a strong form. The distinctions among these forms lie in the relevant information assumed to be taken into consideration in the price of the security at all times. Weak efficiency means that the price of the security reflects the past price and trading volume of the security. Semi-strong efficiency means that the price of the security fully reflects all public information, which includes (but is not limited to) historical price and trading patterns. This information includes, importantly, the financial information provided by the corporation to the SEC. Strong efficiency exists in a market where the price of a security reflects all information, whether it is publicly available or is known privately only to insiders, such as the firm's managers or directors. Of course, using inside information may be illegal.
 
@@ -300,7 +433,7 @@ Efficient market hypothesis and the random walk hypothesis The efficient market 
 Expressed mathematically, the next period's price, denoted by  $P_{t+1}$ , can be expressed as the current period's price, denoted by  $P_t$ , plus a random error term denoted by  $e_{t+1}$ :
 
 $$
-P_{t + 1} = P_{t} + e_{t + 1}.
+P_{t + 1} = P_{t} + e_{t + 1}
 $$
 
 The serial correlation coefficient is the correlation coefficient between  $P_{t+1}$  and  $P_t$ . Statistically, the serial correlation coefficient (also called the "autocorrelation coefficient") is the extent to which the price in one period is related to the next period's price.
@@ -363,7 +496,7 @@ The strategies addressed thus far have had only long positions, that is, where s
 
 Trading arrangements involve the types of orders placed by investors. We begin with the types of orders, margin transactions, trading priority rules, and transaction costs. We then discuss trading arrangements for retail trading and those for institutional investors (block trades and program trades) for coping with the trading needs of institutional investors.
 
-# Types of Orders
+### Types of Orders
 
 When an investor wants to buy or sell a share of common stock, the price and conditions under which the order is to be executed must be communicated to a broker. As explained in chapter 18, the simplest type of order is the market order, an order to be executed at the best price available in the market. If the stock is listed and traded on an organized exchange, the best price is ensured by the exchange rule that when more than one order on the same side of the buy/sell transaction reaches the market at the same time, the order with the best price is given priority. Thus, buyers bidding a higher price are given priority over those bidding a lower price, and sellers offering a lower price are given priority over those offering a higher price.
 
@@ -391,7 +524,7 @@ An important type of order that is key in a trading strategy discussed later (hi
 
 Orders are also classified by their size. One round lot is typically 100 shares of a stock. An odd lot is defined as less than a round lot. For example, an order of 75 shares of Microsoft is an odd lot order. An order of 350 shares of Microsoft includes an odd lot portion of 50 shares. A block trade is defined on the NYSE as an order of 10,000 shares of a given stock or a total market value of 200,000 or more.
 
-# Margin Transactions
+### Margin Transactions
 
 As explained in chapter 18, investors can borrow cash to buy securities and use the securities themselves as collateral. A transaction in which an investor borrows to buy shares using the shares themselves as collateral is referred to as buying on margin. The funds borrowed to buy the additional stock will be provided by the broker, and the broker gets the money from a bank. The call money rate or broker loan rate is the interest rate that banks charge brokers for funds for this purpose. The broker charges the borrowing investor the call money rate plus a service charge.
 
@@ -403,7 +536,7 @@ Let us illustrate maintenance. Assume that an investor buys 100 shares of stock 
 
 Margin practices also apply in short selling. Let's consider a similar margin example for a short position. An investor shorts (borrows and sells) 100 shares of stock at  \$60 for a total stock value of\$ 6,000. With an initial margin of 50\%, the investor must deposit \$3,000 (in addition to leaving the \$6,000 from the sale in the account). So the investor has a credit balance of \$9,000 (which does not change with the stock price, because it is in cash). However, the investor owes 100 shares of the stock at the current market price. To what level must the stock price increase to hit the maintenance margin level, assumed to be 30\% (which is the equity in the account as a percentage of the market value of the stock)? The answer is \$69.23, for a total stock value of \$6,923. If the stock is worth \$6,923, the account contains \$2,077 of equity ($9,000 - $6,923), which represents 30\% of the market value of the stock ($2,077/$6,923 = 30\%). The value of the stock that triggered the maintenance level is calculated by multiplying the credit balance by 10/13 (10/13 × \$9,000 = 6,923).
 
-# Trading (Transaction) Costs
+### Trading (Transaction) Costs
 
 Investment managers must meet performance standards, which are typically based on the total rate of return of their portfolios. The returns on their portfolios are net of transaction (or trading) costs. One-half of one percentage point in return can substantially affect a manager's record. Therefore, an important aspect of an investment strategy is controlling the transaction costs necessary to implement the strategy. The measurement of trading costs, although important, is difficult.[8]
 

@@ -1,20 +1,47 @@
-# Analytical
-
-# Corporate
-
-# Valuation
-
-Fundamental Analysis, Asset Pricing, and Company Valuation
+---
+title: Analytical Corporate Valuation - Fundamental Analysis, Asset Pricing, and Company Valuation
+primary_tags:
+  - corporate_valuation
+  - fundamental_analysis
+  - asset_pricing
+  - company_valuation
+  - capital_structure
+  - dcf_models
+secondary_tags:
+  - discounted_cash_flow
+  - cost_of_capital
+  - equity_valuation
+  - enterprise_valuation
+  - business_model_analysis
+  - financial_ratios
+  - risk_return_relationship
+  - capital_asset_pricing_model
+  - portfolio_theory
+  - utility_theory
+  - mean_variance_analysis
+  - weighted_average_cost_of_capital
+  - free_cash_flow
+  - economic_profit
+  - valuation_multiples
+  - strategic_formula
+  - corporate_governance
+  - organizational_architecture
+  - strategic_resources
+  - competitive_advantage
+  - market_efficiency
+  - diversification
+  - systematic_risk
+  - idiosyncratic_risk
+  - risk_adjusted_returns
+  - investment_analysis
+cssclasses: academia
+---
 
 # Analytical Corporate Valuation
 
-Pasquale De Luca
-
-# Analytical Corporate Valuation
-
 Fundamental Analysis, Asset Pricing, and Company Valuation
 
-Pasquale De Luca
+**Pasquale De Luca**
 
 Department of Law and Economics
 
@@ -34,7 +61,7 @@ https://doi.org/10.1007/978-3-319-93551-5
 
 Library of Congress Control Number: 2018954045
 
-$\odot$  Springer Nature Switzerland AG 2018
+$\odot$ Springer Nature Switzerland AG 2018
 
 This work is subject to copyright. All rights are reserved by the Publisher, whether the whole or part of the material is concerned, specifically the rights of translation, reprinting, reuse of illustrations, recitation, broadcasting, reproduction on microfilms or in any other physical way, and transmission or information storage and retrieval, electronic adaptation, computer software, or by similar or dissimilar methodology now known or hereafter developed.
 
@@ -48,7 +75,7 @@ A Dadi,
 che mi ha fatto scopriré la più bella e misteriosa delle equazioni,
 quella dell'amore.
 
-# Preface
+## Preface
 
 Without a doubt, finance has undertaken a central role in the strategic governance of the company. In the recent decades, finance has been characterized by a strong development in the passage from a marginal and subordinate role compared with the other primary divisions to a central role in company governance. Today, finance is not only strictly related to these classical divisions by influencing their choices and their operating processes, but also it is increasingly able to influence the company's strategies and it is not unusual that it can in itself represent the starting point of new strategies and business models.
 
@@ -56,9 +83,7 @@ This central role of finance in the life of a company is undoubtedly the result 
 
 The role of finance and its contribution is increasingly important for the survival and development of the company over time. Finance has already changed and will probably change more and more together with its paradigms, strategies and operating processes. Today, and even more in the future, it is difficult to imagine doing business without doing finance as well.
 
-This book is based on a shareholder-oriented capitalism. Consequently, the company can thrive only if it is able to create value for the shareholders over time. In the Great Recession period as derived from the financial crisis of 2007-2008, this approach could be unpopular. Indeed, in common sense and in a part of academics the recent financial crisis is usually charged to the shareholder-oriented capitalism. This is especially true in Europe for economic and business cultures. I believe that the financial crisis cannot be attributed to a shareholder-oriented capitalism but to a particular distortion. The problem is the transfer from the long-term perspective to a short-term perspective. It is in contrast with one of the most relevant fundamental principles in the shareholders' value creation perspective that states the company's capability to create shareholders' value in the long-period is not the same as the maximization of its short-term profits. Often the choice of maximizing the shareholders' value in the long-term perspective is irreconcilable with the choice of maximizing the shareholders' value in the short-term period. Consequently, if the
-
-value creation in the long-term is confused with the profit in the short-term, it generates a great problem capable of damaging shareholders' interests as well as the stakeholders' interests. Therefore, the main problem of the financial crisis is not the shareholders' value perspective but the short-term perspective of some managers.
+This book is based on a shareholder-oriented capitalism. Consequently, the company can thrive only if it is able to create value for the shareholders over time. In the Great Recession period as derived from the financial crisis of 2007-2008, this approach could be unpopular. Indeed, in common sense and in a part of academics the recent financial crisis is usually charged to the shareholder-oriented capitalism. This is especially true in Europe for economic and business cultures. I believe that the financial crisis cannot be attributed to a shareholder-oriented capitalism but to a particular distortion. The problem is the transfer from the long-term perspective to a short-term perspective. It is in contrast with one of the most relevant fundamental principles in the shareholders' value creation perspective that states the company's capability to create shareholders' value in the long-period is not the same as the maximization of its short-term profits. Often the choice of maximizing the shareholders' value in the long-term perspective is irreconcilable with the choice of maximizing the shareholders' value in the short-term period. Consequently, if the value creation in the long-term is confused with the profit in the short-term, it generates a great problem capable of damaging shareholders' interests as well as the stakeholders' interests. Therefore, the main problem of the financial crisis is not the shareholders' value perspective but the short-term perspective of some managers.
 
 The company's ability to create value for the shareholders over time is strictly related to the deep understanding of the business model of the company as well as the investors' behaviour in the capital markets. The company valuation can be considered one of the most relevant fields in which the classical paradigms of the company meet the paradigms of the capital markets. Indeed, the right company's valuation requires high competence in the fields of strategy, financial management, corporate finance and capital markets.
 
@@ -95,15 +120,16 @@ By using the DCF approach, the company value is equal to the current value of ex
 The General Equation of Value can be defined based on these three main variables as follows:
 
 $$
-W _ {F} = \sum_ {t = 1} ^ {\infty} \frac {C F _ {t}}{(1 + k) ^ {t}} \tag {1}
+W_F = \sum_{t=1}^{\infty} \frac{CF_t}{(1 + k)^t} \tag{1}
 $$
 
-where  $W_{F}$  is the company's value;  $t$  is the period-time of valuation;  $CF_{t}$  is the expected future cash-flows for each year ( $t$ );  $k$  is the cost of capital used as a discounted rate.
+where $W_F$ is the company's value; $t$ is the period-time of valuation; $CF_t$ is the expected future cash-flows for each year ($t$); $k$ is the cost of capital used as a discounted rate.
 
 Equation (1) has a great theoretical relevance. It estimates the value of the company based on expected cash-flows, arising from the fundamental analysis of the company and the cost of capital. Also, the equation defines the relationship
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/8c4422be607acb3013b58204aa9d09486e57b53c9ae4303d6994fa89b4692238.jpg)
-Fig. 1 Methodological approach
+
+**Fig. 1** Methodological approach
 
 between company value, the expected cash-flows and the cost of capital in the time of valuation.
 
@@ -131,11 +157,11 @@ June 2018
 
 Pasquale De Luca
 
-# Contents
+## Contents
 
-# Part I Fundamental Analysis of the Company
+### Part I Fundamental Analysis of the Company
 
-# 1 Company Business Model Analysis 3
+#### 1 Company Business Model Analysis 3
 
 1.1 Strategic Formula of the Company 4
 1.2 Analytical Schemes for the Analysis of Company Performance 20
@@ -145,7 +171,7 @@ Pasquale De Luca
 
 References 40
 
-# 2 Company Profitability Analysis 43
+#### 2 Company Profitability Analysis 43
 
 2.1 Analysis of Economic and Financial Dynamics 43
 2.2 Financial Ratios Analysis 47
@@ -154,7 +180,7 @@ References 40
 
 References 76
 
-# 3 Product Profitability Analysis 77
+#### 3 Product Profitability Analysis 77
 
 3.1 Direct Cost of Product 77
 3.2 Full Cost of Product 92
@@ -162,9 +188,9 @@ References 76
 
 References 116
 
-# Part Ii Risk and Return in the Capital Market
+### Part II Risk and Return in the Capital Market
 
-# 4 Utility Function Approach 119
+#### 4 Utility Function Approach 119
 
 4.1 Decision Under Uncertainty 119
 4.2 Investor Behaviour and Risk Measurement 126
@@ -174,7 +200,7 @@ References 116
 
 References 163
 
-# 5 Mean-Variance Approach 165
+#### 5 Mean-Variance Approach 165
 
 5.1 Diversified Portfolio 166
 5.2 Efficient Frontier 192
@@ -184,7 +210,7 @@ References 163
 
 References 233
 
-# 6 Capital Asset Pricing Model 237
+#### 6 Capital Asset Pricing Model 237
 
 6.1 Baseline Assumptions 237
 6.2 Intuitive Approach 239
@@ -193,9 +219,9 @@ References 233
 
 References 254
 
-# Part Iii Company Valuation
+### Part III Company Valuation
 
-# 7 Capital Structure and the Cost of Capital 261
+#### 7 Capital Structure and the Cost of Capital 261
 
 7.1 Capital Structure Choices 261
 7.2 Cost of Equity 285
@@ -204,7 +230,7 @@ References 254
 
 References 312
 
-# 8 Equity Valuation 319
+#### 8 Equity Valuation 319
 
 8.1 The General Equation of Value 319
 8.2 Dividend Discount Model 328
@@ -213,7 +239,7 @@ References 312
 
 References 364
 
-# 9 Enterprise Valuation 367
+#### 9 Enterprise Valuation 367
 
 9.1 Free Cash Flow from Operations Discounted Model 367
 9.2 Free Cash Flow from Operations Discounted Model: Cost of Capital Approach 369
@@ -223,7 +249,7 @@ References 364
 
 References 396
 
-10 Debt Valuation 399
+#### 10 Debt Valuation 399
 
 10.1 Interest Rate Rules 399
 10.2 Bond: Price and Yield 425
@@ -232,15 +258,15 @@ References 396
 
 References 449
 
-11 Conclusions 451
+#### 11 Conclusions 451
 
-# Part I Fundamental Analysis of the Company
+## Part I Fundamental Analysis of the Company
 
-# Chapter 1 Company Business Model Analysis
+### Chapter 1 Company Business Model Analysis
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/89fd56cb104edaacd180f7960e543ab6585b4f373b4531a8dd2f775bcbc0051e.jpg)
 
-Abstract This first step of the company analysis focuses on the business model. The company's "health condition" in a defined period of time and its ability to create profit over time requires an analysis based on two main elements:
+**Abstract** This first step of the company analysis focuses on the business model. The company's "health condition" in a defined period of time and its ability to create profit over time requires an analysis based on two main elements:
 
 - a qualitative analysis of the business model;
 - a quantitative analysis of the effects of the business model choices on the economic and financial dynamics over time.
@@ -260,7 +286,7 @@ The qualitative and quantitative analyses are strictly related. The competitive 
 
 economic and financial dynamics. At the same time, it is impossible to investigate into the company's ability to perform by considering the economic and financial dynamics without clearly understanding the source of the strategic choices.
 
-# 1.1 Strategic Formula of the Company
+### 1.1 Strategic Formula of the Company
 
 The company can be defined as a dynamic and open system towards the environment with which it maintains several types of relationships in order to pursue the economic and financial equilibrium to be valid over time.
 
@@ -300,7 +326,7 @@ The CSF defines the strategic profile of the company, by considering two differe
 - internal strategic front: it refers to the internal structure of the company;
 - external strategic front: it refers to the structural relationships between the company and the players of its environment classified into two main groups of business players and financial players.
 
-# Internal Front of the Csf
+## Internal Front of the Csf
 
 The Internal Strategic Front (ISF) refers to the internal structure of the company. It is defined from all elements, tangible and intangible, needed for the production of goods and services. The internal structure defines the company's specific characteristics by generating its uniqueness. It gives form and substance to the CSF by establishing the uniqueness of the thinking and operation of the company. Therefore, it is the main reason for which one company is different from another.
 
@@ -312,7 +338,7 @@ The internal structure of the company is defined on the basis of three main elem
 (b) Organizational architecture
 (c) Strategic resources
 
-# (a) Corporate Governance
+## (a) Corporate Governance
 
 The corporate governance of the company refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined (Bertini 2009).
 
@@ -434,7 +460,7 @@ The external players of the company can be classified into two main groups: busi
 (a) Strategic Business Area;
 (b) Capital Market.
 
-# (a) Strategic Business Area
+#### (a) Strategic Business Area
 
 Strategic Business Area (SBA) the company refers to the real market in which it carries out the business. The company can operate in more than one business. In any case, any SBA can be defined on the basis of two main elements (Porter 1985):
 
@@ -497,11 +523,9 @@ The differentiation strategy is more useful, the greater the heterogeneity of cu
 
 The main sources of price-premium are the following:
 
-innovative products: they are protected by patents or, however, they are difficult to copy, or both. Without either two of these protections, the innovative product can be copied and then it is not able to generate high returns over time;
+- innovative products: they are protected by patents or, however, they are difficult to copy, or both. Without either two of these protections, the innovative product can be copied and then it is not able to generate high returns over time;
 - quality: the product must be characterized by a real or perceived difference with the others and the customers are willing to pay a higher price;
-- brand: it refers to product perception of the customers based on the company's brand. The customer choice is based on the brand first of all and then on the
-
-product. However, the price-premium based on brand is difficult to distinguish from the price-premium based on quality. The two are usually highly correlated.
+- brand: it refers to product perception of the customers based on the company's brand. The customer choice is based on the brand first of all and then on the product. However, the price-premium based on brand is difficult to distinguish from the price-premium based on quality. The two are usually highly correlated.
 
 The cost advantage and price premium advantage cannot be achieved jointly. The two strategies are different in their structure and require different product characteristics that can be achieved with different internal structure characteristics of the company.
 
@@ -543,7 +567,7 @@ Finally, once the market structure and the stage of its lifecycle in which it is
 
 Therefore, the company must evaluate its business according to its structural characteristics as well as the intensity of the strategic interaction among the companies.
 
-# (b) Capital Market
+#### (b) Capital Market
 
 Capital Market refers to the ideal place in which a company looks for the capital, in equity and debt, needed for its survival and development over time.
 
@@ -554,7 +578,7 @@ The capital market can be defined according to two main elements:
 
 In the capital market the company competes through its financial strategy in order to acquire the capital needed, in equity and debt, at profitable conditions (Galeotti 2008).
 
-# Consonance of the Corporate Strategic Formula
+#### Consonance of the Corporate Strategic Formula
 
 The CSF, as defined in its internal and external strategic front, allows for simultaneous optimisation of the company operating in the Strategic Business Area and Capital Market. The internal and the external strategic fronts are strictly connected on the basis of systemic and dynamic bidirectional relationships.
 
@@ -595,7 +619,7 @@ Therefore, the Systemic-Structural-Dynamic Consonance of the CSF generates a vir
 
 It is worth noting that a key role in the company's internal structure is played by the quality of its resources and specifically human resources. They have to change continuously to keep up with environmental changes. It could be a problem on the short-term, because the internal structure elements tend to be stable. Consequently, a company culture based on changing rather than structure change in a given period of time is more effective.
 
-# 1.2 Analytical Schemes for the Analysis of Company Performance
+### 1.2 Analytical Schemes for the Analysis of Company Performance
 
 The company's ability to create profit over time requires an analysis based on two main parts:
 
@@ -634,9 +658,7 @@ Using the analytical schemes proposed in this context, the following should be b
 - they are defined based on non-financial companies. Furthermore, they can also be used for financial companies after some changes in their structures;
 - they are used to analyse the expected future economic and financial dynamics for an estimate of company value. Therefore, their application to past data is necessary to link the past and future in a coherent manner.
 
-Furthermore, for greater understanding of the economic and financial dynamics of the company over time, past values should be aligned with expected future values. The alignment procedure between past and future values regarding Operating and Net Income, Capital Invested and Capital Structure, and Free
-
-Cash-flows from Operations and Free Cash-flows to Equity, as represented in the analytical schemes used, can be achieved by a procedure based on three main steps:
+Furthermore, for greater understanding of the economic and financial dynamics of the company over time, past values should be aligned with expected future values. The alignment procedure between past and future values regarding Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flows to Equity, as represented in the analytical schemes used, can be achieved by a procedure based on three main steps:
 
 - the first step, is the collection and recognition of past values: the aim is to build Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. For this objective, the analyses should be based on the balance sheet, income statement and cash flows statement on the one side, and on the internal management accounts of the company on the other side. The combination of these two data sources allows for an analysis of the real condition of the company. An analysis of the management accounts is necessary for three main reasons: (i) they are built to support management in the decision-making phase; (ii) they are characterized by both monetary and non-monetary quantitative data; (iii) they are well known in their composition and dynamics thanks to the technique of the variance analysis implemented constantly;
 - the second step, is the "adjustment" of past values: the aim of this step is to obtain the "normalized" value of Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. The aim of the process is to define these values in stand-alone conditions of the company. Therefore, their effects on extraordinary events in the broadest sense are not considered;
@@ -646,7 +668,7 @@ Based on these three steps, the origin of the company, where it is and where it 
 
 The analytical schemes allow for analysis of composition of the Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity. An analysis of the economic and financial dynamics requires the definition and the knowledge of the connections between them.
 
-# 1.3 Operating and Net Income
+### 1.3 Operating and Net Income
 
 The analysis of the economic dynamic requires an analysis of the Operating Income and Net Income over time. It is the starting point for an analysis of company performance in the business over time.
 
@@ -663,9 +685,48 @@ The aim of the analytical scheme used, as reported in Table 1.1, is to distingui
 
 The Gross Profit (or Gross Margin) is the difference between the revenues from the sale of products, goods and services and the related production costs.
 
-Table 1.1 Analytical scheme of the Operating and Net Income
+**Table 1.1** Analytical scheme of the Operating and Net Income
 
-<table><tr><td>Net sales revenues</td></tr><tr><td>Net operating revenues</td></tr><tr><td>(Costs of raw materials, parts of products and products)</td></tr><tr><td>(Costs of production of goods and services and distribution services)</td></tr><tr><td>(Costs of direct labour on production)</td></tr><tr><td>Direct operating costs of goods and services sold</td></tr><tr><td>Gross profit</td></tr><tr><td>(Costs of research and development)</td></tr><tr><td>(Costs of marketing and sales)</td></tr><tr><td>(Costs of administration)</td></tr><tr><td>(Costs of advisory)</td></tr><tr><td>(Costs of employees)</td></tr><tr><td>(Costs of leasing and rent)</td></tr><tr><td>(Other general operating costs)</td></tr><tr><td>Indirect operating costs (cash)</td></tr><tr><td>EBITDA</td></tr><tr><td>(Amortization of intangible operating assets)</td></tr><tr><td>(Depreciation of tangible operating assets)</td></tr><tr><td>(Accruals for employees)</td></tr><tr><td>(Accruals for risk, charges and taxes)</td></tr><tr><td>(Changes in value of operating assets)</td></tr><tr><td>Operating costs (non-cash)</td></tr><tr><td>EBIT</td></tr><tr><td>Operating financial revenues</td></tr><tr><td>(Interest on debts)</td></tr><tr><td>(Other financial costs)</td></tr><tr><td>Financial profit/(loss)</td></tr><tr><td>EBT—operating</td></tr><tr><td>Non-operating and non-current operating revenues</td></tr><tr><td>Non-operating financial revenues</td></tr><tr><td>(Non-operating and non-current operating costs)</td></tr><tr><td>(Amortization and depreciation of intangible and tangible surplus assets)</td></tr><tr><td>(Changes in value of surplus assets)</td></tr><tr><td>Non-operating profit/(loss)</td></tr><tr><td>EBT</td></tr><tr><td>(Current operating taxes)</td></tr><tr><td>(Current corporate taxes)</td></tr><tr><td>Net income</td></tr></table>
+| Item |
+|------|
+| Net sales revenues |
+| Net operating revenues |
+| (Costs of raw materials, parts of products and products) |
+| (Costs of production of goods and services and distribution services) |
+| (Costs of direct labour on production) |
+| Direct operating costs of goods and services sold |
+| Gross profit |
+| (Costs of research and development) |
+| (Costs of marketing and sales) |
+| (Costs of administration) |
+| (Costs of advisory) |
+| (Costs of employees) |
+| (Costs of leasing and rent) |
+| (Other general operating costs) |
+| Indirect operating costs (cash) |
+| EBITDA |
+| (Amortization of intangible operating assets) |
+| (Depreciation of tangible operating assets) |
+| (Accruals for employees) |
+| (Accruals for risk, charges and taxes) |
+| (Changes in value of operating assets) |
+| Operating costs (non-cash) |
+| EBIT |
+| Operating financial revenues |
+| (Interest on debts) |
+| (Other financial costs) |
+| Financial profit/(loss) |
+| EBT—operating |
+| Non-operating and non-current operating revenues |
+| Non-operating financial revenues |
+| (Non-operating and non-current operating costs) |
+| (Amortization and depreciation of intangible and tangible surplus assets) |
+| (Changes in value of surplus assets) |
+| Non-operating profit/(loss) |
+| EBT |
+| (Current operating taxes) |
+| (Current corporate taxes) |
+| Net income |
 
 Net sales revenue (or more simply net sales) are the starting point. Revenues are the result of the sale of goods and services to customers. The word "net" refers to the difference between gross sales (the total invoice of goods and services) and the sales returns and allowances that refer to the sales value of goods that were returned by customers and reimbursements to customers due to faulty goods or for some other reason related to the product and service. This amount can be subtracted from sales directly.
 
@@ -681,15 +742,41 @@ Merchandising companies sell tangible goods. Specifically, they sell goods in su
 
 Specifically, the cost of goods sold can be divided into two main parts: (1) purchase cost of the goods (invoice costs) less the goods returned, allowance and discounts, plus any other related costs made to make the goods ready for sale (such as shipping costs, freight-in, unpacking costs, etc.); (2) the inventories with regards to the change between the beginning and the end of inventory. By following the regular inventory method, the cost of goods sold is equal to the purchase of goods plus the beginning of inventory less the end of inventory as follows (Table 1.2).
 
-Table 1.2 Cost of goods sold in merchandising companies
+**Table 1.2** Cost of goods sold in merchandising companies
 
-<table><tr><td>Purchase cost of goods</td></tr><tr><td>Other related costs necessary for the sale</td></tr><tr><td>(Goods returns, allowance and discounts)</td></tr><tr><td>Net purchase of goods</td></tr><tr><td>Beginning inventory</td></tr><tr><td>Goods available for sale</td></tr><tr><td>(Ending inventory)</td></tr><tr><td>Cost of goods sold</td></tr></table>
+| Item |
+|------|
+| Purchase cost of goods |
+| Other related costs necessary for the sale |
+| (Goods returns, allowance and discounts) |
+| Net purchase of goods |
+| Beginning inventory |
+| Goods available for sale |
+| (Ending inventory) |
+| Cost of goods sold |
 
 Manufacturing companies sell tangible goods. Specifically, they sell goods after an industrial process by converting raw materials and purchased parts into finished goods. Therefore, its sales costs include conversion costs as well as raw material and parts of goods that it sells. Also in this case it is necessary to consider the inventory in order to define the cost of goods sold. The inventory account can be divided into three main parts: (1) materials inventory, referring to raw materials that are to become a part of the ultimately sellable goods resulting from the manufacturing process. In this case the cost of goods sold is defined as in the case of a merchandise company; (2) work in progress inventory, referring to goods that have started through the manufacturing process but have not yet been finished. The cost is defined as the materials plus the conversion costs incurred on these items up to the end of the accounting period; (3) finished goods inventory, referring to goods that have been manufactured but have not yet been shipped to customers. In this case, the cost of goods sold is based on the total costs incurred in their production. Therefore, the cost of goods sold is defined as in the merchandising company. The only difference is that, in this case the items are recorded at their production cost rather than at their acquisition cost.
 
-Table 1.3 Cost of goods sold in manufacturing company
+**Table 1.3** Cost of goods sold in manufacturing company
 
-<table><tr><td>Purchase cost of materials</td></tr><tr><td>Other related costs of materials</td></tr><tr><td>(Materials returns, allowance and discounts)</td></tr><tr><td>Net purchase of materials</td></tr><tr><td>Beginning inventory of materials</td></tr><tr><td>Amount of materials available for use</td></tr><tr><td>(Ending inventory of materials)</td></tr><tr><td>Costs of materials used</td></tr><tr><td>Beginning inventory of work in progress</td></tr><tr><td>Amount available goods available for use</td></tr><tr><td>(Ending inventory amount of work in progress)</td></tr><tr><td>Cost of goods manufactured</td></tr><tr><td>Beginning finished goods inventory</td></tr><tr><td>Total amount of goods available for sale</td></tr><tr><td>(Ending finished goods inventory)</td></tr><tr><td>Cost of goods sold</td></tr></table>
+| Item |
+|------|
+| Purchase cost of materials |
+| Other related costs of materials |
+| (Materials returns, allowance and discounts) |
+| Net purchase of materials |
+| Beginning inventory of materials |
+| Amount of materials available for use |
+| (Ending inventory of materials) |
+| Costs of materials used |
+| Beginning inventory of work in progress |
+| Amount available goods available for use |
+| (Ending inventory amount of work in progress) |
+| Cost of goods manufactured |
+| Beginning finished goods inventory |
+| Total amount of goods available for sale |
+| (Ending finished goods inventory) |
+| Cost of goods sold |
 
 By using the periodic inventory method and by considering all three types of inventory, the cost of goods sold can be defined as follows (Table 1.3).
 
@@ -708,16 +795,16 @@ It is important to know that by considering the behaviour of costs on the basis 
 Usually, to acquire more information about Gross Profit, it is defined as a percentage of the Revenues as follows:
 
 $$
-G r o s s P r o f i t M a r g i n = \frac {G r o s s P r o f i t}{\text {N e t O p e r a t i n g R e v e n u e s}} \tag {1.1}
+\text{Gross Profit Margin} = \frac{\text{Gross Profit}}{\text{Net Operating Revenues}} \tag{1.1}
 $$
 
 The Gross Profit Margin is a good preliminary indicator of the existence of a competitive advantage of the company. Normally, companies with a competitive advantage are characterized by a Gross Profit Margin higher than competitors over time. Without a competitive advantage, the competition reduces the Gross Profit Margin of the company.
 
 A general rule (practical rather than scientific) assumes that the company is characterised by Gross Profit Margin (Buffet and Clark 2008):
 
-- equal or higher than  $40\%$  continuously over time: it has some kind of competitive advantage;
-- lower than  $40\%$ : the business of the company is characterized by a high level of competition, reducing the company's profitability;
-equal or lower than  $20\%$ : the business of the company is characterized by a very high level of competition where no company is characterized by a competitive advantage on competitors sustainable over time. If the company in this type of business does not have a competitive advantage, it normally has a low level of profitability.
+- equal or higher than $40\%$ continuously over time: it has some kind of competitive advantage;
+- lower than $40\%$ : the business of the company is characterized by a high level of competition, reducing the company's profitability;
+- equal or lower than $20\%$ : the business of the company is characterized by a very high level of competition where no company is characterized by a competitive advantage on competitors sustainable over time. If the company in this type of business does not have a competitive advantage, it normally has a low level of profitability.
 
 In order to understand further the Gross Profit Margin, a historical track record can be used considering a range between 7 and 10 years. The competitive advantage must exist and it must be sustainable over time. In this sense, the key word about the competitive advantage is "continuity" over time.
 
@@ -764,7 +851,7 @@ It is worth noting that usually the final performance of the company is measured
 
 It is worth noting that the "congruity" of the company's Net Income for the investor in equity is measured in the financial markets according to the return request by investor for the same risk-class. Part 2 of the book focuses on this analysis.
 
-# 1.4 Capital Invested and Capital Structure
+### 1.4 Capital Invested and Capital Structure
 
 The aim of the analysis of the Capital Invested and Capital Structure is to investigate into the sources of capital and their use.
 
@@ -777,9 +864,48 @@ The aim of the analytical scheme proposed is to highlight the main figures whose
 
 Table 1.4 illustrates the analytical scheme used for analysis of the Capital Invested and Capital Structure.
 
-Table 1.4 Analytical scheme of the capital invested and capital structure
+**Table 1.4** Analytical scheme of the capital invested and capital structure
 
-<table><tr><td>Net intangible operating assets</td></tr><tr><td>Net tangible operating assets</td></tr><tr><td>Financial operating assets</td></tr><tr><td>Inventory stable over time</td></tr><tr><td>Net operating capital expenditures (CAPEX)</td></tr><tr><td>Trade receivables net</td></tr><tr><td>(Trade payables)</td></tr><tr><td>Trade working capital (TWC)</td></tr><tr><td>Inventory</td></tr><tr><td>Others operating receivables net</td></tr><tr><td>(Others operating payables)</td></tr><tr><td>Net working capital (NWC)</td></tr><tr><td>Net operating capital invested (NOCI)</td></tr><tr><td>Net intangible surplus assets</td></tr><tr><td>Net tangible surplus assets</td></tr><tr><td>Financial surplus assets</td></tr><tr><td>Non-operating and non-current operating receivables</td></tr><tr><td>(Non-operating payables and non-current operating payables)</td></tr><tr><td>Surplus assets (SA)</td></tr><tr><td>(Provision for employee)</td></tr><tr><td>(Provisions for risk, charges and taxes)</td></tr><tr><td>(Provisions)</td></tr><tr><td>Capital invested (CI)</td></tr><tr><td>Share capital</td></tr><tr><td>Realized retained earnings</td></tr><tr><td>(Treasury shares)</td></tr><tr><td>Net profit (loss)</td></tr><tr><td>Equity (E)</td></tr><tr><td>Long-term financial debts</td></tr><tr><td>(Long-term financial credits)</td></tr><tr><td>Long-term net financial position (L-NFP)</td></tr><tr><td>Short-term financial debts</td></tr><tr><td>(Short-term financial credits)</td></tr><tr><td>(Marketable securities)</td></tr><tr><td>(Cash and cash-equivalent)</td></tr><tr><td>Short-term net financial position (S-NFP)</td></tr><tr><td>Net financial position (NFP)</td></tr><tr><td>Capital structure (CS)</td></tr></table>
+| Item |
+|------|
+| Net intangible operating assets |
+| Net tangible operating assets |
+| Financial operating assets |
+| Inventory stable over time |
+| Net operating capital expenditures (CAPEX) |
+| Trade receivables net |
+| (Trade payables) |
+| Trade working capital (TWC) |
+| Inventory |
+| Others operating receivables net |
+| (Others operating payables) |
+| Net working capital (NWC) |
+| Net operating capital invested (NOCI) |
+| Net intangible surplus assets |
+| Net tangible surplus assets |
+| Financial surplus assets |
+| Non-operating and non-current operating receivables |
+| (Non-operating payables and non-current operating payables) |
+| Surplus assets (SA) |
+| (Provision for employee) |
+| (Provisions for risk, charges and taxes) |
+| (Provisions) |
+| Capital invested (CI) |
+| Share capital |
+| Realized retained earnings |
+| (Treasury shares) |
+| Net profit (loss) |
+| Equity (E) |
+| Long-term financial debts |
+| (Long-term financial credits) |
+| Long-term net financial position (L-NFP) |
+| Short-term financial debts |
+| (Short-term financial credits) |
+| (Marketable securities) |
+| (Cash and cash-equivalent) |
+| Short-term net financial position (S-NFP) |
+| Net financial position (NFP) |
+| Capital structure (CS) |
 
 The Capital Invested (CI) consists of investments in Capex, Net Working Capital, Surplus Assets, less Provisions. The Capital Structure (CS) is defined by Equity and Net Financial Debt.
 
@@ -844,13 +970,13 @@ The non-financial debts are included in the NWC. Therefore, the NFP's constructi
 The general equation on capital requires that the Capital Invested (CI) must be equal to the Capital Structure (CS), as follows:
 
 $$
-C I = C S \tag {1.2}
+CI = CS \tag{1.2}
 $$
 
 and then:
 
 $$
-\text {C A P E X} \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} = \text {E q u i t y} + N F P \tag {1.3}
+CAPEX \pm NWC \pm \text{Surplus Assets} - \text{Provisions} = \text{Equity} + NFP \tag{1.3}
 $$
 
 It is important to note that Net Financial Position (NFP) plays a central role in the equation. There are two main caveats to be kept in mind.
@@ -858,7 +984,7 @@ It is important to note that Net Financial Position (NFP) plays a central role i
 First, the NFP defines the net financial debt (financial debt less the sum of financial credit, marketable securities and liquidity). Therefore, the company's Leverage (L), can be measured on the basis of the Net Financial Position (NFP) (and thus by considering its net financial debt) or the financial debt (FD) as follows:
 
 $$
-L (\%) = \frac {N F P}{E + N F P} = \frac {N F P}{C S} \quad \text {or} \quad L (\%) = \frac {F D}{E + F D} \tag{1.4}
+L(\%) = \frac{NFP}{E + NFP} = \frac{NFP}{CS} \quad \text{or} \quad L(\%) = \frac{FD}{E + FD} \tag{1.4}
 $$
 
 Therefore, only in the first case the denominator is the Capital Structure (CS). In the second case it is not the CS because it creates a misalignment between Net Working Capital and Net Financial Position and, consequently between Capital Invested and Capital Structure.
@@ -870,16 +996,16 @@ Specifically, the Net Financial Position (NFP) can be:
 - negative: the financial debts are greater than the sum between financial credits, marketable securities and liquidity. In this case, the NFP is a source of capital and then it is classified in the Capital Structure and:
 
 $$
-C A P E X \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} = \text {E q u i t y} + \text {N F P} \tag {1.5}
+CAPEX \pm NWC \pm \text{Surplus Assets} - \text{Provisions} = \text{Equity} + NFP \tag{1.5}
 $$
 
 - positive: the financial debts are lower than the sum between financial credits, marketable securities and liquidity. In this case, the NFP is an investment and then it is classified in the Capital Invested and:
 
 $$
-\text {C A P E X} \pm N W C \pm \text {S u r p l u s A s s e t s} - \text {P r o v i s i o n s} + N F P = \text {E q u i t y} \tag {1.6}
+CAPEX \pm NWC \pm \text{Surplus Assets} - \text{Provisions} + NFP = \text{Equity} \tag{1.6}
 $$
 
-# 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity
+### 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity
 
 The aim of the analysis of the Free Cash-flow from Operations (FCFO) and Free Cash-flow to Equity (FCFE) is to investigate into how the operating cash flows and dividends over time are defined.
 
@@ -899,13 +1025,13 @@ For cash-flow determination, each item of Capital Invested and Capital Structure
 - credit: it is the same for trade receivable net, other operating receivable net, other non-operating receivables, financial credits (short and long term). The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \downarrow (\uparrow) \Delta C r e d i t s \Rightarrow \downarrow (\uparrow) C a p i t a l I n v e s t e d \Rightarrow \uparrow (\downarrow) C a s h I n \Rightarrow \uparrow (\downarrow) C a s h F l o w s \\ \downarrow (\uparrow) \Delta \text {F i n a n c i a l C r e d i t s} \Rightarrow \uparrow (\downarrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \uparrow (\downarrow) \text {C a s h I n} \\ \Rightarrow \uparrow (\downarrow) C a s h F l o w s \\ \end{array}
+\begin{array}{l} \downarrow (\uparrow) \Delta Credits \Rightarrow \downarrow (\uparrow) Capital Invested \Rightarrow \uparrow (\downarrow) \text{Cash In} \Rightarrow \uparrow (\downarrow) \text{Cash Flows} \\ \downarrow (\uparrow) \Delta \text{Financial Credits} \Rightarrow \uparrow (\downarrow) \text{Net Financial Position} \Rightarrow \uparrow (\downarrow) \text{Cash In} \\ \Rightarrow \uparrow (\downarrow) \text{Cash Flows} \\ \end{array}
 $$
 
 - debt: it is the same for the trade payable, other operating payable, other non-operating payable, financial debts (short and long term). The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \downarrow (\uparrow) \Delta D e b t s \Rightarrow \uparrow (\downarrow) C a p i t a l I n v e s t e d \Rightarrow \downarrow (\uparrow) C a s h I n \Rightarrow \downarrow (\uparrow) C a s h F l o w s \\ \downarrow (\uparrow) \Delta \text {F i n a n c i a l D e b t s} \Rightarrow \downarrow (\uparrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \\ \Rightarrow \downarrow (\uparrow) C a s h F l o w s \\ \end{array}
+\begin{array}{l} \downarrow (\uparrow) \Delta Debts \Rightarrow \uparrow (\downarrow) Capital Invested \Rightarrow \downarrow (\uparrow) \text{Cash In} \Rightarrow \downarrow (\uparrow) \text{Cash Flows} \\ \downarrow (\uparrow) \Delta \text{Financial Debts} \Rightarrow \downarrow (\uparrow) \text{Net Financial Position} \Rightarrow \downarrow (\uparrow) \text{Cash In} \\ \Rightarrow \downarrow (\uparrow) \text{Cash Flows} \\ \end{array}
 $$
 
 - inventory: it is the same for the inventory and inventory stable over time. The cash-flow movement is the following:
@@ -917,25 +1043,25 @@ $$
 - Net Assets: it is the same for the tangible and intangible assets. The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \Delta \left[ \text {N e t A s s e t} _ {t + 1} - \left(\text {N e t A s s e t} _ {t} \pm \text {C h a n g e V a l u e} _ {t + 1} - \text {A m o r t i z a t i o n} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ > 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \\ <   0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h I n} \Rightarrow \uparrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Net Asset}_{t + 1} - \left(\text{Net Asset}_{t} \pm \text{Change Value}_{t + 1} - \text{Amortization}_{t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text{Capital Invested} \Rightarrow \text{Cash Flows} = 0 \\ > 0 \Rightarrow \uparrow \text{Capital Invested} \Rightarrow \text{Cash Out} \Rightarrow \downarrow \text{Cash Flows} \\ <   0 \Rightarrow \downarrow \text{Capital Invested} \Rightarrow \text{Cash In} \Rightarrow \uparrow \text{Cash Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Financial Assets: it is the same for the financial assets operating and non-operating. The cash-flow movement is the following:
 
 $$
-\uparrow (\downarrow) \Delta \text {F i n a n c i a l A s s e t} \Rightarrow \uparrow (\downarrow) \text {C a p i t a l I n v e s t e d} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \Rightarrow \downarrow (\uparrow) \text {C a s h F l o w s}
+\uparrow (\downarrow) \Delta \text{Financial Asset} \Rightarrow \uparrow (\downarrow) \text{Capital Invested} \Rightarrow \downarrow (\uparrow) \text{Cash In} \Rightarrow \downarrow (\uparrow) \text{Cash Flows}
 $$
 
 It is worth noting that if the increase of financial asset is due to a reassessment of the asset, there is no cash-out but the increase of a reserve in equity. In this case, this reserve is not considered in the determination of dividends. Similarly, if the decrease of financial assets is due to the reduction in value, there is no cash-out but operating no-cash costs. In these cases, the movements of the financial assets can be summarized as follows:
 
 $$
-\begin{array}{l} \Delta \left[ \text {F i n a n c i a l A s s e t} _ {t + 1} - \left(\text {F i n a n c i a l A s s e t} _ {t} \pm \text {C h a n g e V a l u e} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ > 0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \\ <   0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h I n} \Rightarrow \uparrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Financial Asset}_{t + 1} - \left(\text{Financial Asset}_{t} \pm \text{Change Value}_{t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \uparrow \text{Capital Invested} \Rightarrow \text{Cash Flows} = 0 \\ > 0 \Rightarrow \uparrow \text{Capital Invested} \Rightarrow \text{Cash Out} \Rightarrow \downarrow \text{Cash Flows} \\ <   0 \Rightarrow \downarrow \text{Capital Invested} \Rightarrow \text{Cash In} \Rightarrow \uparrow \text{Cash Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Provisions: it is the same for provisions for risks and charges, taxes and for employees. The cash-flow movement is the following:
 
 $$
-\begin{array}{l} \Delta \left[ \text {P r o v i s i o n} _ {t + 1} - \left(\text {P r o v i s i o n} _ {t} + \text {A c c r u a l s} _ {t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h F l o w s} = 0 \\ <   0 \Rightarrow \uparrow \text {C a p i t a l I n v e s t e d} \Rightarrow \text {C a s h O u t} \Rightarrow \downarrow \text {C a s h F l o w s} \end{array} \right. \\ \end{array}
+\begin{array}{l} \Delta \left[ \text{Provision}_{t + 1} - \left(\text{Provision}_{t} + \text{Accruals}_{t + 1}\right) \right] \\ \Rightarrow \left\{ \begin{array}{l} = 0 \Rightarrow \downarrow \text{Capital Invested} \Rightarrow \text{Cash Flows} = 0 \\ <   0 \Rightarrow \uparrow \text{Capital Invested} \Rightarrow \text{Cash Out} \Rightarrow \downarrow \text{Cash Flows} \end{array} \right. \\ \end{array}
 $$
 
 - Equity: only the changes achieved in monetary terms must be considered. The cash-flow movement is the following:
@@ -947,7 +1073,7 @@ $$
 - Liquidity: it is the same for the marketable securities, cash and cash equivalents. The cash-flow movement is the following:
 
 $$
-\begin{array}{c} \uparrow (\downarrow) \Delta \text {L i q u i d i t y} \Rightarrow \downarrow (\uparrow) \text {N e t F i n a n c i a l P o s i t i o n} \Rightarrow \downarrow (\uparrow) \text {C a s h I n} \Rightarrow \\ \downarrow (\uparrow) \text {C a s h F l o w s} \end{array}
+\begin{array}{c} \uparrow (\downarrow) \Delta \text{Liquidity} \Rightarrow \downarrow (\uparrow) \text{Net Financial Position} \Rightarrow \downarrow (\uparrow) \text{Cash In} \Rightarrow \\ \downarrow (\uparrow) \text{Cash Flows} \end{array}
 $$
 
 It is important to know that the movements of liquidity, and therefore its effects on Net Financial Position and Free Cash-flow to Equity, refer to the amount of capital that the company wants to invest in Liquidity as measured at the end of the period analysed. Therefore, all movements on liquidity used to balance all other movements on items that generate cash-in and cash-out, they are transitory only.
@@ -959,17 +1085,64 @@ The main items that must be investigated are:
 - Free Cash Flow from Operations (FCFO): they are the Free Cash-flows from Operating Area as derived by the company's operating activities and they are designed to pay all investors both in equity and debt. They represent the monetary component of the Operating Income of the company. Therefore, the FCFF is function of the Operating Income (there is no difference between EBITDA and EBIT because the non-monetary costs are not considered) and dynamics in the NWC and CAPEX. They are defined "free" because they represent the cash that the company is free to distribute to debtholders and shareholders and to pay taxes by having already covered the needs for Investments and NWC;
 - Free Cash Flow to Equity (FCFE): they are the remaining free cash flows after having covered all company requirements including payments on debt, and therefore they are designed to pay the shareholders in terms of dividends. They represent the monetary component of the net income of the company. They show how the FCFF's are divided between bondholders, stockholders and taxes. If the FCFE are negative, they represent the company's capital need to continue its business. Therefore, it is the amount of the capital required for recapitalization.
 
-Table 1.5 Analytical scheme for Free Cash-Flow From Operations and Free Cash Flow to Equity
+**Table 1.5** Analytical scheme for Free Cash-Flow From Operations and Free Cash Flow to Equity
 
-<table><tr><td>EBITDA</td></tr><tr><td>(Increase)/decrease—trade receivables net</td></tr><tr><td>Increase/(decrease)—trade payables</td></tr><tr><td>(Increase)/decrease—trade working capital (TWC)</td></tr><tr><td>(Increase)/decrease—inventory</td></tr><tr><td>(Increase)/decrease—others operating receivables net</td></tr><tr><td>Increase/(decrease) – Others Operating Payables</td></tr><tr><td>(Increase)/decrease—net working capital (NWC)</td></tr><tr><td>(Increase)/decrease—net tangible and intangible operating assets</td></tr><tr><td>(Increase)/decrease—financial operating assets</td></tr><tr><td>(Increase)/decrease—inventory stable over time</td></tr><tr><td>(Increase)/decrease—Capex</td></tr><tr><td>(Decrease)—provisions for employees</td></tr><tr><td>(Decrease)—provision for risk and charges</td></tr><tr><td>(Decrease)—provision for taxes</td></tr><tr><td>(Decrease)—provisions</td></tr><tr><td>(Current operating taxes)</td></tr><tr><td>(Operating taxes)</td></tr><tr><td>Free cash flow from operations (FCFO)</td></tr><tr><td>Increase/(decrease)—share capital in money</td></tr><tr><td>Increase/(decrease)—Equity</td></tr><tr><td>Increase/(decrease)—long-term financial debts</td></tr><tr><td>(Increase)/decrease—long-term financial credits</td></tr><tr><td>Increase/(decrease)—long-term net financial position</td></tr><tr><td>Increase/(decrease)—short-term financial debts</td></tr><tr><td>(Increase)/decrease—short-term financial credits</td></tr><tr><td>(Increase)/decrease—marketable securities</td></tr><tr><td>(Increase)/decrease—cash and cash-equivalents</td></tr><tr><td>Increase/(decrease)—short-term net financial position</td></tr><tr><td>Increase/(decrease)—net financial position (NFP)</td></tr><tr><td>Operating and non-operating financial revenues</td></tr><tr><td>(Interest on debts)</td></tr><tr><td>(Other financial costs)</td></tr><tr><td>Financial profit/(loss)</td></tr><tr><td>Non-operating and non-current operating revenues</td></tr><tr><td>(Non-operating and non-current operating costs)</td></tr><tr><td>Non-operating profit/(loss)</td></tr><tr><td>(Increase)/decrease—net tangible and intangible surplus assets</td></tr><tr><td>(Increase)/decrease—financial surplus assets</td></tr><tr><td>(Increase)/decrease—non-operating and non-current operating receivables</td></tr></table>
+| Item |
+|------|
+| EBITDA |
+| (Increase)/decrease—trade receivables net |
+| Increase/(decrease)—trade payables |
+| (Increase)/decrease—trade working capital (TWC) |
+| (Increase)/decrease—inventory |
+| (Increase)/decrease—others operating receivables net |
+| Increase/(decrease) – Others Operating Payables |
+| (Increase)/decrease—net working capital (NWC) |
+| (Increase)/decrease—net tangible and intangible operating assets |
+| (Increase)/decrease—financial operating assets |
+| (Increase)/decrease—inventory stable over time |
+| (Increase)/decrease—Capex |
+| (Decrease)—provisions for employees |
+| (Decrease)—provision for risk and charges |
+| (Decrease)—provision for taxes |
+| (Decrease)—provisions |
+| (Current operating taxes) |
+| (Operating taxes) |
+| Free cash flow from operations (FCFO) |
+| Increase/(decrease)—share capital in money |
+| Increase/(decrease)—Equity |
+| Increase/(decrease)—long-term financial debts |
+| (Increase)/decrease—long-term financial credits |
+| Increase/(decrease)—long-term net financial position |
+| Increase/(decrease)—short-term financial debts |
+| (Increase)/decrease—short-term financial credits |
+| (Increase)/decrease—marketable securities |
+| (Increase)/decrease—cash and cash-equivalents |
+| Increase/(decrease)—short-term net financial position |
+| Increase/(decrease)—net financial position (NFP) |
+| Operating and non-operating financial revenues |
+| (Interest on debts) |
+| (Other financial costs) |
+| Financial profit/(loss) |
+| Non-operating and non-current operating revenues |
+| (Non-operating and non-current operating costs) |
+| Non-operating profit/(loss) |
+| (Increase)/decrease—net tangible and intangible surplus assets |
+| (Increase)/decrease—financial surplus assets |
+| (Increase)/decrease—non-operating and non-current operating receivables |
 
 (continued)
 
-Table 1.5 (continued)
+**Table 1.5** (continued)
 
-<table><tr><td>Increase/(decrease)—non-operating and non-current operating payables</td></tr><tr><td>(Increase)/decrease—surplus assets</td></tr><tr><td>(Current corporate taxes)</td></tr><tr><td>(Corporate taxes)</td></tr><tr><td>Free cash flow to equity (FCFE)</td></tr></table>
+| Item |
+|------|
+| Increase/(decrease)—non-operating and non-current operating payables |
+| (Increase)/decrease—surplus assets |
+| (Current corporate taxes) |
+| (Corporate taxes) |
+| Free cash flow to equity (FCFE) |
 
-# References
+## References
 
 Anthony RN, Hawkins DF, Merchant KA (2011) Accounting: text and cases, 13th edn. McGraw-Hill, New York
 Barney J (1991) Firm resources and sustained competitive advantage. J Manag 17:99-120
@@ -1027,7 +1200,7 @@ Abstract In this second step of the fundamental company analysis, attention is f
 - the analysis of the main financial ratios. There are many well-known ratios in literature. In this context the most commonly used financial ratios used in the financial community are considered. They are able to complete the analysis because they are in line with the analytical schemes regarding Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity;
 - the analysis of the growth rate. The fundamental company analysis leads to investigate into the expected consistency of future economic and financial dynamics. Consequently, one of the most relevant key of the analysis is the estimate of the company's future growth rate with regards mainly to both Net Income and Operating Income.
 
-# 2.1 Analysis of Economic and Financial Dynamics
+## 2.1 Analysis of Economic and Financial Dynamics
 
 The analytical schemes showed in the previous chapter focus on the definition of the Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flow from Operations and Free Cash-flow to Equity.
 
@@ -1049,7 +1222,7 @@ Finally, it is important to point out that the increase in financial debt increa
 
 The sum between equity and financial debt defines the Capital Structure of the company. Capital sources are invested in assets, both operating and non-operating, Net Working Capital and Liquidity in order to achieve company activities.
 
-# Investments in Operating Assets
+### Investments in Operating Assets
 
 They can be distinguished in operating capital expenditure (Capex) and in Net Working Capital (NWC).
 
@@ -1077,7 +1250,7 @@ The increase in NWC (due to the increase in TWC, other operating receivables and
 
 The increase and decrease in NWC over time have direct effects on cash-flows. In cash-flow terms the increase (decrease) of receivables (both trade and other operating) and inventory are considered cash-out (cash-in) while the increase (decrease) of payables (both trade and other operating) are considered cash-in (cash-out). Therefore, the increase in NWC can be considered a cash-out and it subsequently reduces the Free Cash-flow from Operations (FCFO); otherwise, the decrease in NWC can be considered as a cash-in and then it increases the Free Cash-flow from Operations (FCFO).
 
-# Investments in Non-operating Assets
+### Investments in Non-operating Assets
 
 They refer to the investments in Surplus Assets. It is possible to distinguish between investments in tangible, intangible and financial Surplus Assets, and investments in non-operating and non-current operating receivables and payables.
 
@@ -1101,7 +1274,7 @@ If the non-operating and non-current operating receivables are higher than the n
 
 In cash-flow terms, the increase (decrease) of non-operating and non-current operating receivables can be considered as cash-out (cash-in) and the increase (decrease) of non-operating and non-current operating payables can be considered cash-in (cash-out). Therefore, the increase in Surplus Assets is a cash-out and therefore it reduces the Free Cash-flow to Equity (FCFE); otherwise, the decrease in Surplus Assets is a cash-in and thus it increases the Free Cash-flow to Equity (FCFE). Also, in this case the Free Cash-flow from Operations (FCFO) are not affected because they are not related to the core-business.
 
-# Investment in Liquidity
+### Investment in Liquidity
 
 Specific reasoning must be reserved to investments in Liquidity. It refers to the amount of cash, cash equivalent, financial credits and marketable securities that a company decides to maintain in the company. Therefore, it is not a capital source but capital invested because it is an investment decision. Indeed, liquidity is positioned in the Net Financial Position by reducing its value.
 
@@ -1111,7 +1284,7 @@ Liquidity can generate operating and non-operating financial revenues with posit
 
 In cash-flow terms, it can be considered as a cash-out. Therefore, the increase in Liquidity reduces the Free Cash-flow to Equity (FCFE).
 
-# Provisions
+### Provisions
 
 Finally, it is necessary to consider Provisions for risk and charges, taxes and employees. They reduce the Capital Invested (CI).
 
@@ -1119,7 +1292,7 @@ Accruals for provisions (employees, taxes, risk and charges) are located in the 
 
 In cash-flow terms, they only have effects if they are really used with consequent cash-out by reducing the Free Cash-flow from Operations (FCFO).
 
-# 2.2 Financial Ratios Analysis
+## 2.2 Financial Ratios Analysis
 
 The analysis of economic and financial dynamics can be improved by using some ratios. There are many ratios well-known in literature (Benninga 2014; Brealey et al. 2016; Berk and DeMarzo 2008; Damodaran 2012, 2015; Vernimmen et al. 2014; Hillier et al. 2016; Koller et al. 2015; Copeland et al. 2004; Fuller and Farrell 1987; Ross 2015). In this context the most commonly used Financial Ratios in the financial community are considered. They are able to complete the analysis because they are in line with the analytical schemes regarding Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity.
 
@@ -1132,7 +1305,8 @@ Also, it allows for outlining of the relationships among the economic and financ
 Figure 2.1 can be read starting from one of three dimensions: income (Operating Income and Net Income), capital (Capital Invested and Capital Structure), cash-flows (Free Cash-flow from Operations and Free Cash-flow to Equity).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/38976caad3725fed4fa08b18b5b914a116381f6a266f987b6b0a9780f27ad3b2.jpg)
-Fig. 2.1 Financial ratios
+
+**Fig. 2.1** Financial ratios
 
 However, it is common use to start the analysis with the economic dynamic. In this sense, the following relationships can be analysed:
 
@@ -1143,7 +1317,7 @@ However, it is common use to start the analysis with the economic dynamic. In th
 
 The analysis must be completed by considering the Operating Leverage (OL) and Financial Risk Level (FRL) jointly of Sections 1-4. The Operating Leverage relates to the relationship between operating revenues and contribution margin, while the Financial Risk Level relates to the relationship between the EBIT and Net Income due to the weight of financial cost of debt.
 
-# Section 1
+### Section 1
 
 An analysis of the relationships between Operating Revenues, Capital Invested and Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity, it can be achieved on the basis of several main ratios:
 
@@ -1156,7 +1330,7 @@ Before starting the analysis it is important to point out that Operating Revenue
 (a) Capex on Operating Revenues (COR):
 
 $$
-C O R = \frac {\text {C a p e x}}{\text {O p e r a t i n g R e v e n u e s} (\text {O R})} \tag {2.1}
+COR = \frac{\text{Capex}}{\text{Operating Revenues (OR)}} \tag{2.1}
 $$
 
 The COR ratio measures the return of capital invested in Capex on the basis of Operating Revenues. Specifically a low value of ratio means a high return of capital invested in Capex in terms of Operating Revenues. In this case, the investments in Capex are able to push-up the Operating Revenues. On the contrary, a high value of ratio means a low return of capital invested in Capex in terms of Operating Revenues. In this case, the investments in Capex are not able to push-up the Operating Revenues.
@@ -1164,7 +1338,7 @@ The COR ratio measures the return of capital invested in Capex on the basis of O
 (b) Financial Debt on Operating Revenues (FDOR):
 
 $$
-F D O R = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \leftrightarrow N F D O R = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \tag {2.2}
+FDOR = \frac{\text{Financial Debt (FD)}}{\text{Operating Revenues (OR)}} \leftrightarrow NF DOR = \frac{\text{Net Financial Position (NFP)}}{\text{Operating Revenues (OR)}} \tag{2.2}
 $$
 
 The FDOR and NFDOR ratios measure the capability of the Operating Revenues to face Financial Debt and Net Financial Position in Capital Structure. In both cases the meaning is the same. Specifically a high value of ratio means a low level of ability of Operating Revenues to face Financial Debt (FD) and Net Financial Position (NFP). On the contrary, a low value of ratio means a high capability of Operating Revenues to face Financial Debt (FD) and Net Financial Position (NFP).
@@ -1172,7 +1346,7 @@ The FDOR and NFDOR ratios measure the capability of the Operating Revenues to fa
 (c) Cash-flow on Operating Revenues (CFOR):
 
 $$
-C F O R = \frac {\text {C a s h - f l o w} (C F)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \tag {2.3}
+CFOR = \frac{\text{Cash-flow (CF)}}{\text{Operating Revenues (OR)}} \tag{2.3}
 $$
 
 The CFOR ratio measures the relationship between Cash-flow and Operating Revenues. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Revenues into Cash-flows. Specifically a
@@ -1182,10 +1356,10 @@ low value of ratio means a bad relationship between Operating Revenues and Cash-
 Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-C F O R = \frac {C F}{O R} \rightarrow \quad\begin{array}{l}C F O O R = \frac {\text {F r e e C a s h - f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\\C F E O R = \frac {\text {F r e e C a s h - f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\end{array}\tag {2.4}
+CFOR = \frac{CF}{OR} \rightarrow \quad\begin{array}{l}CFOOR = \frac{\text{Free Cash-flow from Operations (FCFO)}}{\text{Operating Revenues (OR)}}\\CFEOR = \frac{\text{Free Cash-flow to Equity (FCFE)}}{\text{Operating Revenues (OR)}}\end{array}\tag{2.4}
 $$
 
-# Section 2
+### Section 2
 
 The analysis of the relationships between Operating Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flows to Equity can focus on the following main ratios:
 
@@ -1197,7 +1371,7 @@ The analysis of the relationships between Operating Income, Capital Invested and
 (a) Return on Operating Capital Invested (ROIC):
 
 $$
-R O I C = \frac {\text {O p e r a t i n g I n c o m e} (O I)}{\text {C a p i t a l I n v e s t e d i n O p e r a t i n g A s s e t s} (C I)} \tag {2.5}
+ROIC = \frac{\text{Operating Income (OI)}}{\text{Capital Invested in Operating Assets (CI)}} \tag{2.5}
 $$
 
 The ROIC ratio defines the relationship between Operating Income (OI) and Capital Invested in Operating Assets (CI) only. It is also called Return on Investment (ROI) if all company's investments are in core-business.
@@ -1208,38 +1382,38 @@ The Capital Invested in Operating Assets is the capital sources invested to supp
 
 The Operating Income is the difference between Operating Revenues and Operating Costs. Therefore, it measures the results of the Operating activities. It can be measured by three main figures: EBITDA, EBIT and NOPAT. Therefore, the ratio can be applied in three versions:
 
-# 2.2 Financial Ratios Analysis
+## 2.2 Financial Ratios Analysis
 
 $$
-R O I C = \frac {E B I T D A}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}}
-$$
-
-$$
-R O I C = \frac {O I}{C I} \rightarrow R O I C = \frac {E B I T}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}} \tag {2.6}
+ROIC = \frac{EBITDA}{\text{Net Operating Capital Invested (NOCI)}}
 $$
 
 $$
-R O I C = \frac {N O P A T}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}}
+ROIC = \frac{OI}{CI} \rightarrow ROIC = \frac{EBIT}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.6}
+$$
+
+$$
+ROIC = \frac{NOPAT}{\text{Net Operating Capital Invested (NOCI)}}
 $$
 
 It is important to point out that if Capex is only considered as Capital Invested rather than the NOCI, it gets the Return on Assets (ROA) as follows:
 
 $$
-R O A = \frac {E B I T D A}{C a p e x}
+ROA = \frac{EBITDA}{Capex}
 $$
 
 $$
-R O A = \frac {O I}{C a p e x} \rightarrow R O A = \frac {\frac {E B I T}{C a p e x}}{N O P A T} \tag {2.7}
+ROA = \frac{OI}{Capex} \rightarrow ROA = \frac{EBIT}{Capex} \tag{2.7}
 $$
 
 $$
-R O A = \frac {N O P A T}{C a p e x}
+ROA = \frac{NOPAT}{Capex}
 $$
 
 In order to acquire more information, it is also possible to measure the Return on Capital Invested in terms of Gross Profit (GP). In this case it takes on the following ratio (ROGP):
 
 $$
-R O G P = \frac {\text {G r o s s P r o f i t} (G P)}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d} (\text {N O C I})} \tag {2.8}
+ROGP = \frac{\text{Gross Profit (GP)}}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.8}
 $$
 
 It is worth noting that in all cases, the increase of ratio is not necessarily good news. With equal Operating Income, the increase of the ratio is due to the reduction of total assets. If the reduction is due to the amortization and depreciation process, the increase of ratio is due to a reduction in investments. Most of all, the decrease of investments in Capex implies the reduction of future capabilities of the company to compete in the business and, subsequently a future reduction in Operating Income.
@@ -1253,13 +1427,13 @@ Using EBIT, the ratio can be decomposed on the basis of the Return on Sales (ROS
 Considering that the ROS is equal to the ratio between EBIT and Sales Revenues (SR), and the TCI is equal to the ratio between Sales Revenues (SR) and Net Operating Capital Invested (NOCI), the following is achieved:
 
 $$
-R O I = R O S \cdot T C I \rightarrow\begin{array}{l}R O S = \frac {E B I T}{S R}\\T C I = \frac {S R}{N O C I}\end{array}\rightarrow R O I = \frac {E B I T}{S R} \cdot \frac {S R}{N O C I} = \frac {E B I T}{N O C I} \tag {2.9}
+ROI = ROS \cdot TCI \rightarrow\begin{array}{l}ROS = \frac{EBIT}{SR}\\TCI = \frac{SR}{NOCI}\end{array}\rightarrow ROI = \frac{EBIT}{SR} \cdot \frac{SR}{NOCI} = \frac{EBIT}{NOCI} \tag{2.9}
 $$
 
 The use of EBITDA highlights the effects of the amortization and depreciation process on the Operating Income. However, it is possible to move from the EBITDA to the EBIT by considering the Net Operating Capital Invested Gross of Amortization and Depreciation (NOCIG) as following (Silvi 2012):
 
 $$
-R O I C = \frac {E B I T D A}{N O C I G} \cdot \frac {N O C I G}{N O C I} \cdot \frac {E B I T}{E B I T D A} = \frac {E B I T}{N O C I} \tag {2.10}
+ROIC = \frac{EBITDA}{NOCIG} \cdot \frac{NOCIG}{NOCI} \cdot \frac{EBIT}{EBITDA} = \frac{EBIT}{NOCI} \tag{2.10}
 $$
 
 The use of NOPAT can only be calculated if taxes splitting is not used. Indeed, the use of tax splitting allows for a distinction between operating taxes and corporate taxes. In this case, the EBIT is calculated by also considering operating taxes. Therefore it is equal to NOPAT.
@@ -1271,7 +1445,7 @@ Using NOPAT, the ROIC ratio measures the after-taxes operating profit divided by
 (b) Financial Debt on Operating Income (FDOI):
 
 $$
-F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {O p e r a t i n g I n c o m e} (O I)} \tag {2.11}
+FDOI = \frac{\text{Financial Debt (FD)}}{\text{Operating Income (OI)}} \tag{2.11}
 $$
 
 The FDOI ratio measures the company's ability to face Financial Debt (FD) through the Operating Income (OI). Generally, the greater the distance between the amount of Operating Income and the amount of Financial Debt, the lower the financial risk.
@@ -1281,25 +1455,25 @@ Considering that the Operating Income can be measured by EBITDA, EBIT and NOPAT 
 Therefore, the ratio can be applied in several versions as follows:
 
 $$
-F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{E B I T D A} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{E B I T D A}
+FDOI = \frac{\text{Financial Debt (FD)}}{EBITDA} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{EBITDA}
 $$
 
 $$
-\begin{array}{l} F D O I = \frac {F D}{O I} \rightarrow F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{E B I T} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (\text {N F P})}{E B I T} \\ F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{N O P A T} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{N O P A T} \tag {2.12} \\ \end{array}
+\begin{array}{l} FDOI = \frac{FD}{OI} \rightarrow FDOI = \frac{\text{Financial Debt (FD)}}{EBIT} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{EBIT} \\ FDOI = \frac{\text{Financial Debt (FD)}}{NOPAT} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{NOPAT} \tag{2.12} \\ \end{array}
 $$
 
 In order to acquire more information, the Gross Profit (GP) ability to face Financial Debt (FD) or Net Financial Position (NFP) can be measured. In this case, the FDGP ratio is the following:
 
 $$
-F D G P = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {G r o s s P r o f i t} (G P)} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (\text {N F P})}{\text {G r o s s P r o f i t} (G P)} \tag {2.13}
+FDGP = \frac{\text{Financial Debt (FD)}}{\text{Gross Profit (GP)}} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{\text{Gross Profit (GP)}} \tag{2.13}
 $$
 
-# 2.2 Financial Ratios Analysis
+## 2.2 Financial Ratios Analysis
 
 (c) Cost of Financial Debt on Cash-flows (CDCF):
 
 $$
-C D C F = \frac {\text {C o s t o f F i n a n c i a l D e b t} (C D)}{\text {C a s h f l o w s} (C F)} \tag {2.14}
+CDCF = \frac{\text{Cost of Financial Debt (CD)}}{\text{Cash flows (CF)}} \tag{2.14}
 $$
 
 Despite the fact that the cost of financial debt has both economic (it is a cost) and financial dynamics (it is a cash-out), in this context an analysis of its impact on financial dynamics is preferred. Indeed, the effects of cost of debt on cash-flows is very relevant because if the company cannot face the relative cash-out, it is in a default condition.
@@ -1307,19 +1481,19 @@ Despite the fact that the cost of financial debt has both economic (it is a cost
 The Cost of Financial Debt (CD) is equal to the Interest on Debt (ID) plus the other Financial Costs on Debt (FCD). Therefore:
 
 $$
-C D = I D + F C D \tag {2.15}
+CD = ID + FCD \tag{2.15}
 $$
 
 The most relevant part is related to the Interest on Debt. Also, by considering that the cash-flows can be distinguished between Free Cash-flow from Operations (FCFO) and Free Cash-flow to Equity (FCFE), it is possible to apply the ratio in several versions as follows:
 
 $$
-C D C F = \frac {C D}{C F} \rightarrow\begin{array}{l}C D C F O = \frac {C D}{F C F O} \leftrightarrow I D C F O = \frac {I D}{F C F O}\\C D C F E = \frac {C D}{F C F E} \leftrightarrow I D C F E = \frac {I D}{F C F E}\end{array}\tag {2.16}
+CDCF = \frac{CD}{CF} \rightarrow\begin{array}{l}CDCFO = \frac{CD}{FCFO} \leftrightarrow IDCFO = \frac{ID}{FCFO}\\CDCFE = \frac{CD}{FCFE} \leftrightarrow IDCFO = \frac{ID}{FCFE}\end{array}\tag{2.16}
 $$
 
 (d) Cash-flows on Operating Income (CFOI):
 
 $$
-C F O I = \frac {\text {C a s h f l o w s} (C F)}{\text {O p e r a t i n g I n c o m e} (O I)} \tag {2.17}
+CFOI = \frac{\text{Cash flows (CF)}}{\text{Operating Income (OI)}} \tag{2.17}
 $$
 
 The CFOI ratio measures the relationship between Operating Income and Cash-flows. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Income in Cash-flows. Specifically, a high value of ratio means a good relationship between Operating Income and Cash-flows; otherwise, a low value of ratio means a bad relationship between Operating Income and Cash-flows.
@@ -1327,10 +1501,10 @@ The CFOI ratio measures the relationship between Operating Income and Cash-flows
 Considering the two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-\begin{array}{l} C F O I = \frac {C F}{O T} \rightarrow \quad\begin{array}{l}C F O O I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g I n c o m e (O I)}}\\\text {F r e e C a s h f l o w t o E q u i v i e n c y (E C F E)}\end{array}\tag {2.18} \\ C F E O I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g I n c o m e (O I)}} \\ \end{array}
+\begin{array}{l} CFOI = \frac{CF}{OI} \rightarrow \quad\begin{array}{l}CFOOI = \frac{\text{Free Cash-flow from Operations (FCFO)}}{\text{Operating Income (OI)}}\\CFEOI = \frac{\text{Free Cash-flow to Equity (FCFE)}}{\text{Operating Income (OI)}}\end{array}\tag{2.18} \\ \end{array}
 $$
 
-# Section 3
+### Section 3
 
 An analysis of the relationships between Net Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity can be focus on the following main ratios:
 
@@ -1341,148 +1515,148 @@ An analysis of the relationships between Net Income, Capital Invested and Capita
 (a) Return on Equity (ROE):
 
 $$
-R O E = \frac {\text {N e t I n c o m e} (N I)}{\text {E q u i t y} (E)} \tag {2.19}
+ROE = \frac{\text{Net Income (NI)}}{\text{Equity (E)}} \tag{2.19}
 $$
 
 The ROE ratio is one of the most popular and most commonly used. It measures the return on Capital Invested in equity on the basis of Net Income.
 
 In the financial approach the return of shareholders' investment is the aim of the company and thus the ROE is the true bottom-line measure of company performance.
 
-The ROE can be defined on the basis of ROI and the Financial Leverage (L). Assuming that there are no non-operating activities, the ROI measures the return on Capital Invested in Operating Assets  $(ROI \equiv ROIC)$ . Also, the Net Income (NI) is equal to the EBIT less Interest on debt (ID) and Taxes (T):
+The ROE can be defined on the basis of ROI and the Financial Leverage (L). Assuming that there are no non-operating activities, the ROI measures the return on Capital Invested in Operating Assets $(ROI \equiv ROIC)$ . Also, the Net Income (NI) is equal to the EBIT less Interest on debt (ID) and Taxes (T):
 
 $$
-N I = E B I T - I D - T \tag {2.20}
+NI = EBIT - ID - T \tag{2.20}
 $$
 
-Considering that EBT is equal to EBIT less Interest in debt (ID), we can assume the calculation of Taxes (T) on the basis of a marginal tax rate  $(t_c)$  on EBT. Therefore:
+Considering that EBT is equal to EBIT less Interest in debt (ID), we can assume the calculation of Taxes (T) on the basis of a marginal tax rate $(t_c)$ on EBT. Therefore:
 
 $$
-E B T = E B I T - I D
-$$
-
-$$
-T = E B T \cdot t _ {c} \rightarrow T = (E B I T - I D) \cdot t _ {c}
+EBT = EBIT - ID
 $$
 
 $$
-N I = E B I T - I D - \left[ \left(E B I T - I D\right) \cdot t _ {c} \right] = \left(E B I T - I D\right) \cdot \left(1 - t _ {c}\right)
+T = EBT \cdot t_c \rightarrow T = (EBIT - ID) \cdot t_c
 $$
 
 $$
-N I = (E B I T - I D) \cdot \left(1 - t _ {c}\right) \tag {2.21}
+NI = EBIT - ID - \left[(EBIT - ID) \cdot t_c\right] = (EBIT - ID) \cdot (1 - t_c)
+$$
+
+$$
+NI = (EBIT - ID) \cdot (1 - t_c) \tag{2.21}
 $$
 
 Considering that:
 
 $$
-R O E = \frac {N I}{E} \rightarrow N I = R O E \cdot E
+ROE = \frac{NI}{E} \rightarrow NI = ROE \cdot E
 $$
 
 $$
-R O I = \frac {E B I T}{C I} \rightarrow E B I T = R O I \cdot C I
+ROI = \frac{EBIT}{CI} \rightarrow EBIT = ROI \cdot CI
 $$
 
-and by considering that the interest on debt (ID) is equal to the Cost of Debt  $(K_{D})$  multiplied by the amount of debt (D) in capital structure:
+and by considering that the interest on debt (ID) is equal to the Cost of Debt $(K_D)$ multiplied by the amount of debt (D) in capital structure:
 
 $$
-I D = D \cdot K _ {D}
+ID = D \cdot K_D
 $$
 
 By replacing it, Eq. (2.21) can be re-written as follows:
 
 $$
-R O E \cdot E = (R O I \cdot C I - D \cdot K _ {D}) \cdot \left(1 - t _ {c}\right) \tag {2.22}
+ROE \cdot E = (ROI \cdot CI - D \cdot K_D) \cdot (1 - t_c) \tag{2.22}
 $$
 
 We can assume that the entire capital, equal to Equity (E) plus Debt (D), is invested in operating assets only. In this case, the Capital Invested (CI) is equal to the Capital Structure (CS) that it is equal to the sum of Equity (E) and Debt (D):
 
 $$
-C I = C S \rightarrow C I = E + D
+CI = CS \rightarrow CI = E + D
 $$
 
 By replacing it, Eq. (2.22) can be re-written as follows:
 
 $$
-\begin{array}{l} R O E \cdot E = [ R O I \cdot (E + D) - D \cdot K _ {D} ] \cdot (1 - t _ {c}) \\ = \left[ R O I \cdot E + D \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \\ \end{array}
+\begin{array}{l} ROE \cdot E = [ROI \cdot (E + D) - D \cdot K_D] \cdot (1 - t_c) \\ = [ROI \cdot E + D \cdot (ROI - K_D)] \cdot (1 - t_c) \\ \end{array}
 $$
 
 Dividing first and second terms by Equity (E), we achieve:
 
 $$
-R O E \cdot E \cdot \frac {1}{E} = [ R O I \cdot E + D \cdot (R O I - K _ {D}) ] \cdot (1 - t _ {c}) \cdot \frac {1}{E}
+ROE \cdot E \cdot \frac{1}{E} = [ROI \cdot E + D \cdot (ROI - K_D)] \cdot (1 - t_c) \cdot \frac{1}{E}
 $$
 
 $$
-R O E = \left[ R O I \cdot \frac {E}{E} + \frac {D}{E} \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = [ROI \cdot \frac{E}{E} + \frac{D}{E} \cdot (ROI - K_D)] \cdot (1 - t_c)
 $$
 
 $$
-R O E = \left[ R O I + \frac {D}{E} \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = [ROI + \frac{D}{E} \cdot (ROI - K_D)] \cdot (1 - t_c)
 $$
 
 The ratio between Debt (D) and Equity (E) defines the Leverage (L):
 
 $$
-L = \frac {D}{E} \tag {2.23}
+L = \frac{D}{E} \tag{2.23}
 $$
 
 And subsequently:
 
 $$
-R O E = \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \tag {2.24}
+ROE = [ROI + L \cdot (ROI - K_D)] \cdot (1 - t_c) \tag{2.24}
 $$
 
-Equation (2.24) shows the relationship between ROE, ROI and Leverage (L). Specifically, it shows the multiple effects of debt on ROE. This effect can be positive or negative. It depends on the relationship between the ROI and the Cost of Debt  $(K_{D})$  on the one hand, and the amount of Debt (D) in the Capital Structure on the other hand.
+Equation (2.24) shows the relationship between ROE, ROI and Leverage (L). Specifically, it shows the multiple effects of debt on ROE. This effect can be positive or negative. It depends on the relationship between the ROI and the Cost of Debt $(K_D)$ on the one hand, and the amount of Debt (D) in the Capital Structure on the other hand.
 
 Specifically, the Financial Leverage (FL) can be defined as follows:
 
 $$
-F L = L \cdot \left(R O I - K _ {D}\right) \tag {2.25}
+FL = L \cdot (ROI - K_D) \tag{2.25}
 $$
 
 Therefore if:
 
--  $ROI > K_{D}$ : the Financial Leverage (FL) is positive. The Debt invested in the company generates a return on investment (ROI) greater than its costs ( $K_{D}$ ); therefore, the increase in ROE is due to the ROI in an unlevered case plus the positive Leverage (L) effects. Consequently, other conditions equal, greater is the Leverage (L) and higher is the ROE. In this case, the Leverage (L) is a positive multiplier. The shareholders achieve earnings created from Debt. They benefit from the positive difference between ROI and  $K_{D}$ ;
--  $ROI < K_{D}$ : the Financial Leverage (FL) is negative. The Debt invested in the company generates a return on investment (ROI) lower than its costs ( $K_{D}$ ); therefore, the decrease in ROE is due to the ROI in unlevered case plus the negative Leverage (L) effects. Consequently, other conditions equal, greater is the Leverage (L) and lower is the ROE. In this case, the Leverage (L) is a negative multiplier. The shareholders claim losses arising from debt. Their loss is due to the negative difference between ROI and  $K_{D}$ .
+- $ROI > K_D$ : the Financial Leverage (FL) is positive. The Debt invested in the company generates a return on investment (ROI) greater than its costs ($K_D$); therefore, the increase in ROE is due to the ROI in an unlevered case plus the positive Leverage (L) effects. Consequently, other conditions equal, greater is the Leverage (L) and higher is the ROE. In this case, the Leverage (L) is a positive multiplier. The shareholders achieve earnings created from Debt. They benefit from the positive difference between ROI and $K_D$;
+- $ROI < K_D$ : the Financial Leverage (FL) is negative. The Debt invested in the company generates a return on investment (ROI) lower than its costs ($K_D$); therefore, the decrease in ROE is due to the ROI in unlevered case plus the negative Leverage (L) effects. Consequently, other conditions equal, greater is the Leverage (L) and lower is the ROE. In this case, the Leverage (L) is a negative multiplier. The shareholders claim losses arising from debt. Their loss is due to the negative difference between ROI and $K_D$.
 
-Note that the ROE is an account measure. Usually, investors prefer the Total Return on Shareholders (TRS). It also takes into account market variations in stock price. Indeed, it combines the amount that shareholders gain through any increase in the share price over a given period with the sum of dividends paid to them over the period. Specifically, TRS is equal to the Percentage Change in Share Price ( $\Delta \mathrm{SP}$ ) plus the Dividend Yield ( $DY$ ) as follows:
+Note that the ROE is an account measure. Usually, investors prefer the Total Return on Shareholders (TRS). It also takes into account market variations in stock price. Indeed, it combines the amount that shareholders gain through any increase in the share price over a given period with the sum of dividends paid to them over the period. Specifically, TRS is equal to the Percentage Change in Share Price ($\Delta \mathrm{SP}$) plus the Dividend Yield ($DY$) as follows:
 
 $$
-T R S = \Delta S P + D Y \tag {2.26}
+TRS = \Delta SP + DY \tag{2.26}
 $$
 
 The Dividend Yield (DY) measures the annual dividend per share paid by the company to its shareholders expressed as a percentage of its share price. Therefore, the Dividend Yield is equal to Dividend per Share (DPS) divided by Share Price (SP), as follows:
 
 $$
-D Y = \frac {D P S}{S P} \tag {2.27}
+DY = \frac{DPS}{SP} \tag{2.27}
 $$
 
 Note that Dividends are paid typically on a quarterly basis. Therefore, they must be annualized to calculate the Implied Dividend Yield (IDY) as follows:
 
 $$
-I D Y = \frac {\text {M o s t R e c e n t Q u a r t e r l y D P S} \times 4}{\text {C u r r e n t S P}}
+IDY = \frac{\text{Most Recent Quarterly DPS} \times 4}{\text{Current SP}}
 $$
 
 The TRS can be broken down (Koller et al. 2015). The analysis of the TRS's components can be useful for greater understanding of managers' activities and for greater planning of future targets.
 
-The Percentage Change in Share Price ( $\Delta \mathrm{SP}$ ) can be expressed in terms of Percent Increase in Earnings ( $\Delta \mathrm{Er}$ ) and the Percentage Change in a Company's Price-to-Earnings Ratio ( $\Delta (\mathrm{P} / \mathrm{Er})$ ) as follows:
+The Percentage Change in Share Price ($\Delta \mathrm{SP}$) can be expressed in terms of Percent Increase in Earnings ($\Delta \mathrm{Er}$) and the Percentage Change in a Company's Price-to-Earnings Ratio ($\Delta (\mathrm{P} / \mathrm{Er})$) as follows:
 
 $$
-\Delta S P = \Delta E r + \Delta \left(\frac {P}{E r}\right) \tag {2.28}
+\Delta SP = \Delta Er + \Delta \left(\frac{P}{Er}\right) \tag{2.28}
 $$
 
 where:
 
-- the first term  $(\Delta Er)$  is the Percentage Change in Share Price due to the change in the company's fundamentals as measured by the change in earnings;
-- the second term  $\Delta(P / Er)$  is the Percentage Change in Share Price due to the change in the company's fundamentals combined with the change in price due to the investors' expectations on company earnings.
+- the first term $(\Delta Er)$ is the Percentage Change in Share Price due to the change in the company's fundamentals as measured by the change in earnings;
+- the second term $\Delta(P / Er)$ is the Percentage Change in Share Price due to the change in the company's fundamentals combined with the change in price due to the investors' expectations on company earnings.
 
 On the basis of Eq. (2.28), Eq. (2.26) can be re-written as follows:
 
 $$
-T R S = \Delta E r + \Delta \left(\frac {P}{E r}\right) + D Y \tag {2.29}
+TRS = \Delta Er + \Delta \left(\frac{P}{Er}\right) + DY \tag{2.29}
 $$
 
-Technically, there is an additional cross-term that reflects the interaction of the share price change and the  $P / Er$  change, but it is generally small and therefore it can be ignored in this context.
+Technically, there is an additional cross-term that reflects the interaction of the share price change and the $P / Er$ change, but it is generally small and therefore it can be ignored in this context.
 
 Three are the main problems of this traditional approach (Koller et al. 2015):
 
@@ -1492,74 +1666,72 @@ Three are the main problems of this traditional approach (Koller et al. 2015):
 
 However, it is possible to break down the TRS by overcoming these limits (Koller et al. 2015). Assuming that the company is financed only by equity (E). Also, assuming that the entire wealth generated is distributed in form of dividends.
 
-The Percentage Increase in Earning  $(\Delta Er)$  can be broken down into Percent Increase in Revenues  $(\Delta R)$  and in the Percent Change in Profit Margin  $(\Delta PM)$ , as follows:
+The Percentage Increase in Earning $(\Delta Er)$ can be broken down into Percent Increase in Revenues $(\Delta R)$ and in the Percent Change in Profit Margin $(\Delta PM)$, as follows:
 
 $$
-\Delta E r = \Delta R + \Delta P M \tag {2.30}
+\Delta Er = \Delta R + \Delta PM \tag{2.30}
 $$
 
-Note that the Profit Margin is equal to the Earnings divided by Revenues  $(PM = Er / R)$ . Therefore, it measures the weight of costs indirectly.
+Note that the Profit Margin is equal to the Earnings divided by Revenues $(PM = Er / R)$. Therefore, it measures the weight of costs indirectly.
 
 Technically there is an additional cross-term that reflects the interaction of these two effects, but it is small and then it can be omitted in this context allowing to focus on the key point.
 
-The Dividend Yield  $(DY)$  is equal to the Dividend amount  $(Div)$  divided by the Share Price  $(SP)$  as defined in Eq. (2.27).
+The Dividend Yield $(DY)$ is equal to the Dividend amount $(Div)$ divided by the Share Price $(SP)$ as defined in Eq. (2.27).
 
-In order to simplify the analysis without any loss of significance, it is possible to assume that all revenues immediately generate cash-in and all costs immediately generate cash-out. It implies that there is no Net Working Capital (NWC). It also assumes that there are no other cash movements other than investments. Under these assumptions, it is possible to define Dividend per Share  $(DPS)$  on the basis of Earning  $(Er)$ , growth rate  $(g_{n})$  and ROIC as follows:
-
-$$
-D P S = E r \cdot \left(1 - \frac {g _ {n}}{R O I C}\right) \tag {2.31}
-$$
-
-The Share Price (SP) can be defined on the basis of Earnings  $(Er)$  and the Price-Earning ratio as follows:
+In order to simplify the analysis without any loss of significance, it is possible to assume that all revenues immediately generate cash-in and all costs immediately generate cash-out. It implies that there is no Net Working Capital (NWC). It also assumes that there are no other cash movements other than investments. Under these assumptions, it is possible to define Dividend per Share $(DPS)$ on the basis of Earning $(Er)$, growth rate $(g_n)$ and ROIC as follows:
 
 $$
-S P = E r \cdot \left(\frac {P}{E r}\right) \tag {2.32}
+DPS = Er \cdot (1 - \frac{g_n}{ROIC}) \tag{2.31}
+$$
+
+The Share Price (SP) can be defined on the basis of Earnings $(Er)$ and the Price-Earning ratio as follows:
+
+$$
+SP = Er \cdot \left(\frac{P}{Er}\right) \tag{2.32}
 $$
 
 On the basis of Eqs. (2.31) and (2.32), Eq. (2.27) can be re-written as follows:
 
 $$
-\begin{array}{l} D Y = \frac {D P S}{S P} = \frac {E r \cdot \left(1 - \frac {g _ {n}}{R O I C}\right)}{E r \cdot \left(\frac {P}{E r}\right)} = \frac {1 - \frac {g _ {n}}{R O I C}}{\frac {P}{E r}} = \left(1 - \frac {g _ {n}}{R O I C}\right) \cdot \left(\frac {E r}{P}\right) \\ = \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) \\ \end{array}
+\begin{array}{l} DY = \frac{DPS}{SP} = \frac{Er \cdot (1 - \frac{g_n}{ROIC})}{Er \cdot \left(\frac{P}{Er}\right)} = \frac{1 - \frac{g_n}{ROIC}}{\frac{P}{Er}} = (1 - \frac{g_n}{ROIC}) \cdot \left(\frac{Er}{P}\right) \\ = \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) \\ \end{array}
 $$
 
 and then:
 
 $$
-D Y = \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) \tag {2.33}
+DY = \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) \tag{2.33}
 $$
 
 where:
 
-- the first term  $\left( \frac{Er}{P} \right)$  is the inverse of the Price-to-Earnings ratio and it is usually called the Earnings Yield (  $EY$  ) or Zero Growth Return. It represents the return an investor would earn if the company did not grow or improve its profit margin and if it paid out all its earnings in dividends. Its share price would remain constant;
-- the second term  $\left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right)$  represents the part of its earnings yield that the company must reinvest each year to achieve its growth at its level of ROIC.
+- the first term $\left(\frac{Er}{P}\right)$ is the inverse of the Price-to-Earnings ratio and it is usually called the Earnings Yield ($EY$) or Zero Growth Return. It represents the return an investor would earn if the company did not grow or improve its profit margin and if it paid out all its earnings in dividends. Its share price would remain constant;
+- the second term $\left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right)$ represents the part of its earnings yield that the company must reinvest each year to achieve its growth at its level of ROIC.
 
-On the basis of Eq. (2.30) it refers to the Percentage Increase in Earning  $(\Delta Er)$  and Eq. (2.33) refers to the Dividend Yield  $(DY)$ , Eq. (2.29) can be re-written as follows:
-
-# 2.2 Financial Ratios Analysis
+On the basis of Eq. (2.30) it refers to the Percentage Increase in Earning $(\Delta Er)$ and Eq. (2.33) refers to the Dividend Yield $(DY)$, Eq. (2.29) can be re-written as follows:
 
 $$
-T R S = \Delta R + \Delta P M + \Delta \left(\frac {P}{E r}\right) + \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right)
+TRS = \Delta R + \Delta PM + \Delta \left(\frac{P}{Er}\right) + \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right)
 $$
 
 that can be rearranged as follows:
 
 $$
-T R S = \Delta R - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) + \Delta P M + \left(\frac {E r}{P}\right) + \Delta \left(\frac {P}{E r}\right) \tag {2.34}
+TRS = \Delta R - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) + \Delta PM + \left(\frac{Er}{P}\right) + \Delta \left(\frac{P}{Er}\right) \tag{2.34}
 $$
 
 This decomposition leads to four key drivers of TRS:
 
--  $\Delta R - \left(\frac{g_n}{ROIC} \cdot \frac{E_r}{P}\right)$ : it is the value generated from revenue growth net of the capital required to grow at the company's projected ROIC;
--  $\Delta PM$ : it is the impact of the change in profit margin;
--  $\left(\frac{Er}{P}\right)$ : it is what TRS would have been, without any growth and profit margin improvements often called the Earning Yield or Zero Growth Return;
--  $\Delta\left(\frac{P}{Er}\right)$ : it is the changes in shareholders' expectations on company performance, measured by the change in its  $(P / Er)$  or other multiple earnings.
+- $\Delta R - \left(\frac{g_n}{ROIC} \cdot \frac{E_r}{P}\right)$ : it is the value generated from revenue growth net of the capital required to grow at the company's projected ROIC;
+- $\Delta PM$ : it is the impact of the change in profit margin;
+- $\left(\frac{Er}{P}\right)$ : it is what TRS would have been, without any growth and profit margin improvements often called the Earning Yield or Zero Growth Return;
+- $\Delta\left(\frac{P}{Er}\right)$ : it is the changes in shareholders' expectations on company performance, measured by the change in its $(P / Er)$ or other multiple earnings.
 
 Equation (2.34) shows that investor's expectations have a big effect on TRS. It is relevant to note that a company whose TRS has consistently outperformed the market will reach a point in which it will no longer be able to satisfy expectations reflected in its share price. From that point onwards, TRS will be lower than it was in the past, even if the company may still be creating value.
 
 (b) Financial Debt on Net Income (FDNI):
 
 $$
-F D N I = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {N e t I n c o m e} (N I)} \leftrightarrow F D N I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{\text {N e t I n c o m e} (N I)} \tag {2.35}
+FDNI = \frac{\text{Financial Debt (FD)}}{\text{Net Income (NI)}} \leftrightarrow FDNI = \frac{\text{Net Financial Position (NFP)}}{\text{Net Income (NI)}} \tag{2.35}
 $$
 
 The ratio FDNI can be applied by considering the Financial Debt (FD) or the Net Financial Position (NFPD). In both case, it measures the relationship between Net Income and Financial Debt. Generally the higher the ratio, the lower the company's ability to face Financial Debt.
@@ -1567,7 +1739,7 @@ The ratio FDNI can be applied by considering the Financial Debt (FD) or the Net 
 (c) Net Income on Capital Invested (NICI):
 
 $$
-N I C I = \frac {\text {N e t I n c o m e} (N I)}{\text {C a p i t a l I n v e s t e d} (C I)} \tag {2.36}
+NICI = \frac{\text{Net Income (NI)}}{\text{Capital Invested (CI)}} \tag{2.36}
 $$
 
 The NICI ratio defines the relationship between Net Income (NI) and the Capital Invested (CI) in the company. Therefore, it measures the return of Capital Invested on Net Income.
@@ -1575,7 +1747,7 @@ The NICI ratio defines the relationship between Net Income (NI) and the Capital 
 It is possible to measure the return of Capital Invested in Operating Assets (NOCI) on Net Income (NI). It gets the NINOI ratio as follows:
 
 $$
-N I N O C I = \frac {\text {N e t I n c o m e} (N I)}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d} (N O C I)} \tag {2.37}
+NINOI = \frac{\text{Net Income (NI)}}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.37}
 $$
 
 It is worth noting that in all cases, the increase of ratio is not necessarily good news. Net Income being equal, the increase of the ratio is due to a reduction in the capital invested. The decrease of investments implies the reduction of future company abilities to compete in the business and, therefore a future reduction in Operating and Net Income.
@@ -1583,7 +1755,7 @@ It is worth noting that in all cases, the increase of ratio is not necessarily g
 (d) Cash-flows on Net Income (CFNI):
 
 $$
-C F N I = \frac {\text {C a s h f l o w s} (C F)}{\text {N e t I n c o m e} (N I)} \tag {2.38}
+CFNI = \frac{\text{Cash flows (CF)}}{\text{Net Income (NI)}} \tag{2.38}
 $$
 
 The CFNI ratio measures the relationship between Net Income and Cash-flows. It can be considered as an indirect and approximate measure of the company's ability to transform Net Income in Cash-flows. Indeed a high value of ratio means a good relationship between Net Income and Cash-flows; otherwise, a low value of ratio means a bad relationship between Net Income and Cash-flows.
@@ -1591,10 +1763,10 @@ The CFNI ratio measures the relationship between Net Income and Cash-flows. It c
 Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-C F N I = \frac {C F}{N I} \rightarrow\begin{array}{l}C F N I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {N e t I n c o m e (N I)}}\\C F N I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {N e t I n c o m e (N I)}}\end{array}\tag {2.39}
+CFNI = \frac{CF}{NI} \rightarrow\begin{array}{l}CFNI = \frac{\text{Free Cash-flow from Operations (FCFO)}}{\text{Net Income (NI)}}\\CFNI = \frac{\text{Free Cash-flow to Equity (FCFE)}}{\text{Net Income (NI)}}\end{array}\tag{2.39}
 $$
 
-# Section 4
+### Section 4
 
 The analysis of the relationships between Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity can be focused on the following main ratios:
 
@@ -1605,50 +1777,48 @@ The analysis of the relationships between Capital Invested and Capital Structure
 (a) Equity on Cash-flows (ECF):
 
 $$
-E C F = \frac {\text {E q u i t y} (E)}{\text {C a s h f l o w s} (C F)} \tag {2.40}
+ECF = \frac{\text{Equity (E)}}{\text{Cash flows (CF)}} \tag{2.40}
 $$
 
 The ratio ECF defines the relationship between Equity (E) and the Cash-flows (CF). Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity (FCFE), the ratio can be applied in two versions:
 
-# 2.2 Financial Ratios Analysis
-
 $$
-E C F = \frac {E}{C F} \rightarrow\begin{array}{l}E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.41}
+ECF = \frac{E}{CF} \rightarrow\begin{array}{l}ECF = \frac{\text{Equity (E)}}{\text{Free Cash-flow from Operations (FCFO)}}\\ECF = \frac{\text{Equity (E)}}{\text{Free Cash-flow to Equity (FCFE)}}\end{array}\tag{2.41}
 $$
 
 (b) Financial Debt on Cash-flows (FDCF):
 
 $$
-F D C F = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {C a s h f l o w s} (C F)} \tag {2.42}
+FDCF = \frac{\text{Financial Debt (FD)}}{\text{Cash flows (CF)}} \tag{2.42}
 $$
 
 The ratio ECF defines the relationship between Financial Debt (FD) and the Cash-flows (CF). Considering that it is possible to use the Net Financial Position (NFP) instead of Financial Debt (FD), and by considering that there are two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-F D C F = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}
+FDCF = \frac{\text{Financial Debt (FD)}}{\text{Free Cash-flow from Operations (FCFO)}}
 $$
 
 $$
-F D C F = \frac {F D}{C F} \rightarrow\begin{array}{l}F D C F = \frac {\text {N e t F i n a n c i a l P o s i t i o n (N F P)}}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}\\F D C F = \frac {\text {F i n a n c i a l D e b t (F D)}}{\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}\end{array}\tag {2.43}
+FDCF = \frac{FD}{CF} \rightarrow\begin{array}{l}FDCF = \frac{\text{Net Financial Position (NFP)}}{\text{Free Cash-flow from Operations (FCFO)}}\\FDCF = \frac{\text{Financial Debt (FD)}}{\text{Free Cash-flow to Equity (FCFE)}}\end{array}\tag{2.43}
 $$
 
 $$
-F D C F = \frac {\text {N e t F i n a n c i a l P o s i t i o n (N F P)}}{\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}
+FDCF = \frac{\text{Net Financial Position (NFP)}}{\text{Free Cash-flow to Equity (FCFE)}}
 $$
 
 (c) Capex on Cash-flows (CCF):
 
 $$
-C C F = \frac {\text {C a p e x} (C)}{\text {C a s h f l o w s} (C F)} \tag {2.44}
+CCF = \frac{\text{Capex (C)}}{\text{Cash flows (CF)}} \tag{2.44}
 $$
 
 The ratio CCF defines the relationship between Capex (C) and the Cash-flows (CF). Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity (FCFE), the ratio can be applied in two versions:
 
 $$
-C C F = \frac {C}{C F} \rightarrow\begin{array}{l}C C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.45}
+CCF = \frac{C}{CF} \rightarrow\begin{array}{l}CCF = \frac{\text{Capex (c)}}{\text{Free Cash-flow from Operations (FCFO)}}\\ECF = \frac{\text{Capex (c)}}{\text{Free Cash-flow to Equity (FCFE)}}\end{array}\tag{2.45}
 $$
 
-# Operating Leverage and Financial Risk Level
+### Operating Leverage and Financial Risk Level
 
 The analysis of Sects. 2.1-2.4 must be completed by considering the Operating Leverage and Financial Risk Level (Anthony et al. 2011; Garrison et al. 2015).
 
@@ -1656,59 +1826,57 @@ The Operating Leverage (OL) of the company refers to the relationship between Op
 
 Specifically, it is function of the costs structure: the greater the rigidity of the costs structure, the greater the negative effects on the EBIT of the negative variations of the Operating Revenues.
 
-The Operating Leverage (OL) can be measured on the basis of EBIT and Volume of goods sold (V) in a lead-time  $t_0$ ;  $t_1$  as follows:
+The Operating Leverage (OL) can be measured on the basis of EBIT and Volume of goods sold (V) in a lead-time $t_0$; $t_1$ as follows:
 
 $$
-O L = \frac {\Delta (\%) E B I T}{\Delta (\%) V} = \frac {\frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}}}{\frac {V _ {1} - V _ {0}}{V _ {0}}} = \frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}} \cdot \frac {V _ {0}}{V _ {1} - V _ {0}} \tag{2.46}
+OL = \frac{\Delta (\%) EBIT}{\Delta (\%) V} = \frac{\frac{EBIT_1 - EBIT_0}{EBIT_0}}{\frac{V_1 - V_0}{V_0}} = \frac{EBIT_1 - EBIT_0}{EBIT_0} \cdot \frac{V_0}{V_1 - V_0} \tag{2.46}
 $$
 
-The EBIT can be defined on the basis of Revenue per Unit  $(R_U)$ , Variable Costs per Unit  $(VC_U)$ , Total Fixed Costs  $(FC_T)$  and Volume of sales  $(V)$  as follows:
+The EBIT can be defined on the basis of Revenue per Unit $(R_U)$, Variable Costs per Unit $(VC_U)$, Total Fixed Costs $(FC_T)$ and Volume of sales $(V)$ as follows:
 
 $$
-E B I T = \left(R _ {U} - V C _ {U}\right) \cdot V - F C _ {T} \tag {2.47}
+EBIT = (R_U - VC_U) \cdot V - FC_T \tag{2.47}
 $$
 
-Note that the difference between Revenues  $(R)$  and Variable Cost  $(VC)$  defines the Contribution Margin  $(CM)$ . Therefore, the difference between Revenue per Unit  $(R_U)$  and Variable Costs per Unit  $(VC_U)$  defines the Contribution Margin per Unit  $(CM_U)$ :
+Note that the difference between Revenues $(R)$ and Variable Cost $(VC)$ defines the Contribution Margin $(CM)$. Therefore, the difference between Revenue per Unit $(R_U)$ and Variable Costs per Unit $(VC_U)$ defines the Contribution Margin per Unit $(CM_U)$:
 
 $$
-C M = (R - V C) \leftrightarrow C M _ {U} = \left(R _ {U} - V C _ {U}\right)\rightarrow C M = C M _ {U} \cdot V = \left(R _ {U} - V C _ {U}\right) \cdot V
+CM = (R - VC) \leftrightarrow CM_U = (R_U - VC_U)\rightarrow CM = CM_U \cdot V = (R_U - VC_U) \cdot V
 $$
 
 On the basis of Eq. (2.47), Eq. (2.46) can be rewritten as follows:
 
 $$
-\begin{array}{l} O L = \frac {\left[ \left(R _ {U} - V C _ {U}\right) \cdot V _ {1} - F C _ {T} \right] - \left[ \left(R _ {U} - V C _ {U}\right) \cdot V _ {0} - F C _ {T} \right]}{\left(R _ {U} - V C _ {U}\right) \cdot V _ {0} - F C _ {T}} \cdot \frac {V _ {0}}{V _ {1} - V _ {0}} \\ = \frac {\left(R _ {U} - V C _ {U}\right) \cdot V _ {1} + \left(R _ {U} - V C _ {U}\right) \cdot V _ {0}}{\left(R _ {U} - V C _ {U}\right) \cdot V _ {0} - F C _ {T}} \cdot \frac {V _ {0}}{V _ {1} - V _ {0}} = \frac {\left(R _ {U} - V C _ {U}\right) \cdot \left(V _ {1} - V _ {0}\right)}{\left(R _ {U} - V C _ {U}\right) \cdot V _ {0} - F C _ {T}} \cdot \frac {V _ {0}}{V _ {1} - V _ {0}} \\ = \frac {\left(R _ {U} - V C _ {U}\right) \cdot V _ {0}}{\left(R _ {U} - V C _ {U}\right) \cdot V _ {0} - F C _ {T}} \\ \end{array}
+\begin{array}{l} OL = \frac{[(R_U - VC_U) \cdot V_1 - FC_T] - [(R_U - VC_U) \cdot V_0 - FC_T]}{(R_U - VC_U) \cdot V_0 - FC_T} \cdot \frac{V_0}{V_1 - V_0} \\ = \frac{(R_U - VC_U) \cdot V_1 + (R_U - VC_U) \cdot V_0}{(R_U - VC_U) \cdot V_0 - FC_T} \cdot \frac{V_0}{V_1 - V_0} = \frac{(R_U - VC_U) \cdot (V_1 - V_0)}{(R_U - VC_U) \cdot V_0 - FC_T} \cdot \frac{V_0}{V_1 - V_0} \\ = \frac{(R_U - VC_U) \cdot V_0}{(R_U - VC_U) \cdot V_0 - FC_T} \\ \end{array}
 $$
 
 and by considering that:
 
 $$
-C M = \left(R _ {U} - V C _ {U}\right) \cdot V _ {0}
+CM = (R_U - VC_U) \cdot V_0
 $$
 
 $$
-E B I T = \left(R _ {U} - V C _ {U}\right) \cdot V - F C _ {T}
+EBIT = (R_U - VC_U) \cdot V - FC_T
 $$
 
 The result is:
 
 $$
-O L = \frac {C M}{E B I T} \tag {2.48}
+OL = \frac{CM}{EBIT} \tag{2.48}
 $$
 
 Note that by expressing Eq. (2.46) for EBIT, it gets:
 
-# 2.2 Financial Ratios Analysis
-
 $$
-\Delta (\%) E B I T = O L \cdot \Delta (\%) V \tag{2.49}
+\Delta (\%) EBIT = OL \cdot \Delta (\%) V \tag{2.49}
 $$
 
-Equation (2.49) shows that the higher the Operating Leverage  $(OL)$ , the higher the variability of the EBIT to the variations in the Volume of goods sold  $(V)$ .
+Equation (2.49) shows that the higher the Operating Leverage $(OL)$, the higher the variability of the EBIT to the variations in the Volume of goods sold $(V)$.
 
-This Operating Leverage  $(OL)$  is due to two main elements:
+This Operating Leverage $(OL)$ is due to two main elements:
 
-- the variation of the Volume of goods sold  $(V)$ ;
+- the variation of the Volume of goods sold $(V)$;
 - the cost structure rigidity to be measured on the basis of relationship between fixed and variable costs.
 
 Considering these two effects, subsequently:
@@ -1725,46 +1893,46 @@ The Financial Risk level (FRL) of the company refers to the relationship between
 
 Specifically, it measures the financial risk based on the relationship between EBIT and interest on debt. The financial risk is function of the company's ability to cover the interest on debt, due to the amount of debt in the capital structure, by the operating income: the greater the amount and the risk of debt in the capital structure, the higher the interest on debt and the lower is the company ability to cover it.
 
-Assuming that the difference between EBIT and EBT is due to the interest on debt only, the financial risk can be measured by the ratio between EBIT and EBIT less Interest on Debt on the basis of a lead-time  $t_0$ ;  $t_1$  as follows:
+Assuming that the difference between EBIT and EBT is due to the interest on debt only, the financial risk can be measured by the ratio between EBIT and EBIT less Interest on Debt on the basis of a lead-time $t_0$; $t_1$ as follows:
 
 $$
-F R L = \frac {\Delta (\%) E B T}{\Delta (\%) E B I T} = \frac {\frac {E B T _ {1} - E B T _ {0}}{E B T _ {0}}}{\frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}}} = \frac {E B T _ {1} - E B T _ {0}}{E B T _ {0}} \cdot \frac {E B I T _ {0}}{E B I T _ {1} - E B I T _ {0}} \tag{2.50}
+FRL = \frac{\Delta (\%) EBT}{\Delta (\%) EBIT} = \frac{\frac{EBT_1 - EBT_0}{EBT_0}}{\frac{EBIT_1 - EBIT_0}{EBIT_0}} = \frac{EBT_1 - EBT_0}{EBT_0} \cdot \frac{EBIT_0}{EBIT_1 - EBIT_0} \tag{2.50}
 $$
 
 By considering that:
 
 $$
-E B T = E B I T - I
+EBT = EBIT - I
 $$
 
 and by changing, it gets:
 
 $$
-\begin{array}{l} F R L = \frac {\left(E B I T _ {1} - I\right) - \left(E B I T _ {0} - I\right)}{E B I T _ {0} - I} \cdot \frac {E B I T _ {0}}{E B I T _ {1} - E B I T _ {0}} \\ = \frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0} - I} \cdot \frac {E B I T _ {0}}{E B I T _ {1} - E B I T _ {0}} = \frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0} - I} \cdot \frac {E B I T _ {0}}{E B I T _ {1} - E B I T _ {0}} \\ \end{array}
+\begin{array}{l} FRL = \frac{(EBIT_1 - I) - (EBIT_0 - I)}{EBIT_0 - I} \cdot \frac{EBIT_0}{EBIT_1 - EBIT_0} \\ = \frac{EBIT_1 - EBIT_0}{EBIT_0 - I} \cdot \frac{EBIT_0}{EBIT_1 - EBIT_0} = \frac{EBIT_1 - EBIT_0}{EBIT_0 - I} \cdot \frac{EBIT_0}{EBIT_1 - EBIT_0} \\ \end{array}
 $$
 
 and then:
 
 $$
-F R L = \frac {E B I T}{E B I T - I} \tag {2.51}
+FRL = \frac{EBIT}{EBIT - I} \tag{2.51}
 $$
 
-Note that by assuming that there are no non-operating revenues and costs or financial revenues (so that EBIT less Interest on Debt is equal to EBT) and by assuming equal taxation so that variations in EBT generate equal variations in Net Income  $(NI)$ , it gets:
+Note that by assuming that there are no non-operating revenues and costs or financial revenues (so that EBIT less Interest on Debt is equal to EBT) and by assuming equal taxation so that variations in EBT generate equal variations in Net Income $(NI)$, it gets:
 
 $$
-E B I T - I = E B T = N I
+EBIT - I = EBT = NI
 $$
 
 On the basis of these assumptions, Eq. (2.51) can be re-written as follows:
 
 $$
-F R L = \frac {E B I T}{N I} \tag {2.52}
+FRL = \frac{EBIT}{NI} \tag{2.52}
 $$
 
 Note that by expressing Eq. (2.50) on the basis of EBIT, it gets:
 
 $$
-\Delta (\%) E B T = F R L \cdot \Delta (\%) E B I T \tag{2.53}
+\Delta (\%) EBT = FRL \cdot \Delta (\%) EBIT \tag{2.53}
 $$
 
 And on the basis of assumptions related Eq. (2.52), it gets:
@@ -1777,7 +1945,7 @@ The FRL measures the effects of interest on debt on Net Income dynamic: the high
 
 Therefore, the greater the FRL, the higher is the variability of the Net Income to the variances of the Volume of goods sold.
 
-# 2.3 Growth Rate Analysis
+## 2.3 Growth Rate Analysis
 
 The fundamental analysis of the firm leads to investigate into the expected consistency of the future economic and financial dynamics. Consequently, one of the most relevant keys to the analysis is an estimate of the company's future growth rate with regards to mainly both Net Income and Operating Income. Two are the mean approaches used to estimate the company's expected growth rate:
 
@@ -1790,95 +1958,93 @@ In this context, only the first approach is considered. Therefore, the growth ra
 
 The estimate of the company's growth rate based on the analysis of the historical trends requires specific knowledge of advanced statistical models. For their analysis refer to the reference literature.
 
-# Growth Rate in Net Income
+### Growth Rate in Net Income
 
-The expected Growth Rate in Net Income  $(g_{NI})$  is linked to the equity reinvested in the company and to the return on equity (Damodaran 2012).
+The expected Growth Rate in Net Income $(g_{NI})$ is linked to the equity reinvested in the company and to the return on equity (Damodaran 2012).
 
-An estimate of the expected growth rate in Net Income  $(g_{NI})$ , can be created based on:
+An estimate of the expected growth rate in Net Income $(g_{NI})$, can be created based on:
 
 - Retention Ratio (RR), measuring the percentage of earnings retained by the company;
 - Return on Equity (ROE), measuring measures the return on investment in equity.
 
-Generally, the relationship between Retention Ratio  $(RR)$ , Return on Equity  $(ROE)$  and expected Growth Rate in Net Income  $(g_{NI})$ , is characterized by a direct proportion: if the company has a high Retention Ratio and a high Return on Equity, it will have a high Growth Rate in Net Income.
+Generally, the relationship between Retention Ratio $(RR)$, Return on Equity $(ROE)$ and expected Growth Rate in Net Income $(g_{NI})$, is characterized by a direct proportion: if the company has a high Retention Ratio and a high Return on Equity, it will have a high Growth Rate in Net Income.
 
-Considering Net Income in time  $t(NI_{t})$  and in previous time  $(NI_{t - 1})$ , the Growth Rate in  $t$ -time  $(g_{NI_t})$  can be measured in simple way as follows:
-
-$$
-g _ {N I _ {t}} = \frac {N I _ {t} - N I _ {t - 1}}{N I _ {t - 1}} = \frac {N I _ {t}}{N I _ {t - 1}} - 1 \tag {2.55}
-$$
-
-It is worth noting that in order to measure the Growth Rate  $(g_{NI_t})$  with regards to a specific period time, it is possible to use the CAGR (Compound Annual Growth
-
-Rate). Denote with:  $N I_{t_n}$  is the ending value of Net Income and then its value at the end of the period considered;  $N I_{t_0}$  is the beginning value of Net Income and then its value at the start of the period considered;  $n$  is the number of years of the period considered. The CAGR is equal to:
+Considering Net Income in time $t(NI_t)$ and in previous time $(NI_{t - 1})$, the Growth Rate in $t$-time $(g_{NI_t})$ can be measured in simple way as follows:
 
 $$
-g _ {N I _ {t}} = \left(\frac {N I _ {t _ {n}}}{N I _ {t _ {0}}}\right) ^ {\left(\frac {1}{n}\right)} - 1 \tag {2.56}
+g_{NI_t} = \frac{NI_t - NI_{t - 1}}{NI_{t - 1}} = \frac{NI_t}{NI_{t - 1}} - 1 \tag{2.55}
+$$
+
+It is worth noting that in order to measure the Growth Rate $(g_{NI_t})$ with regards to a specific period time, it is possible to use the CAGR (Compound Annual Growth
+
+Rate). Denote with: $NI_{t_n}$ is the ending value of Net Income and then its value at the end of the period considered; $NI_{t_0}$ is the beginning value of Net Income and then its value at the start of the period considered; $n$ is the number of years of the period considered. The CAGR is equal to:
+
+$$
+g_{NI_t} = \left(\frac{NI_{t_n}}{NI_{t_0}}\right)^{\left(\frac{1}{n}\right)} - 1 \tag{2.56}
 $$
 
 Note that CAGR is a much more accurate measure of true growth than past earnings when year-to-year growth has been erratic.
 
 However both equations are characterized by problems. Equation (2.55) considers percentage changes in earnings in each period but it ignores compounding effects in net income; on the other hand, Eq. (2.56) considers the compounding effects by considering the first (beginning value) and last (ending value) observations but it ignores what goes on between the start and the end of the period considered. Both approaches contain problems if the Net Income is negative. In both cases the equations are not meaningful.
 
-Considering that the ROE in the  $t$ -time is equal to the ratio between Net Income in the  $t$ -time  $(NI_{t})$  and the book value of Equity in the previous time  $(E_{t-1})$  and by solving for Net Income, we have:
+Considering that the ROE in the $t$-time is equal to the ratio between Net Income in the $t$-time $(NI_t)$ and the book value of Equity in the previous time $(E_{t-1})$ and by solving for Net Income, we have:
 
 $$
-R O E _ {t} = \frac {N I _ {t}}{E _ {t - 1}} \quad \rightarrow \quad N I _ {t} = E _ {t - 1} \cdot R O E _ {t} \quad \rightarrow \quad\begin{array}{l}N I _ {t - 1} = E _ {t - 2} \cdot R O E _ {t - 1}\\N I _ {t - 2} = E _ {t - 3} \cdot R O E _ {t - 2}\\N I _ {t - 3} = E _ {t - t + 1} \cdot R O E _ {t - t}\end{array}
+ROE_t = \frac{NI_t}{E_{t - 1}} \quad \rightarrow \quad NI_t = E_{t - 1} \cdot ROE_t \quad \rightarrow \quad\begin{array}{l}NI_{t - 1} = E_{t - 2} \cdot ROE_{t - 1}\\NI_{t - 2} = E_{t - 3} \cdot ROE_{t - 2}\\NI_{t - 3} = E_{t - t + 1} \cdot ROE_{t - t}\end{array}
 $$
 
-Assuming that the company does not issue new shares and it retains part of the Net Income on the basis of Retained Earnings  $(RE)$ . In  $t$ -time Equity  $(E_{t})$  can be defined as follows:
+Assuming that the company does not issue new shares and it retains part of the Net Income on the basis of Retained Earnings $(RE)$. In $t$-time Equity $(E_t)$ can be defined as follows:
 
 $$
-\begin{array}{l} E _ {t - 1} = E _ {t - 2} + R E _ {t - 1} \\ E _ {t} = E _ {t - 1} + R E _ {t} \quad \rightarrow \quad E _ {t - 2} = E _ {t - 3} + R E _ {t - 2} \\ E _ {t - n} = E _ {t - n + 1} + R E _ {t - n} \\ \end{array}
+\begin{array}{l} E_{t - 1} = E_{t - 2} + RE_{t - 1} \\ E_t = E_{t - 1} + RE_t \quad \rightarrow \quad E_{t - 2} = E_{t - 3} + RE_{t - 2} \\ E_{t - n} = E_{t - n + 1} + RE_{t - n} \\ \end{array}
 $$
 
-By replacing  $E_{t-1}$  and  $E_{t-2}$  with their equations respectively, and by assuming that the ROE is constant over time ( $ROE \equiv ROE_{t} = ROE_{t-1} = ROE_{t-n}$ ), the equations of the Net Income in the period  $t$  and  $t-1$  can be re-written as follows:
+By replacing $E_{t-1}$ and $E_{t-2}$ with their equations respectively, and by assuming that the ROE is constant over time ($ROE \equiv ROE_t = ROE_{t-1} = ROE_{t-n}$), the equations of the Net Income in the period $t$ and $t-1$ can be re-written as follows:
 
 $$
-N I _ {t} = E _ {t - 1} \cdot R O E _ {t} = \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E _ {t} = \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E
+NI_t = E_{t - 1} \cdot ROE_t = (E_{t - 2} + RE_{t - 1}) \cdot ROE_t = (E_{t - 2} + RE_{t - 1}) \cdot ROE
 $$
 
 $$
-N I _ {t - 1} = E _ {t - 2} \cdot R O E _ {t - 1} = \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E _ {t - 1} = \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E
+NI_{t - 1} = E_{t - 2} \cdot ROE_{t - 1} = (E_{t - 3} + RE_{t - 2}) \cdot ROE_{t - 1} = (E_{t - 3} + RE_{t - 2}) \cdot ROE
 $$
 
-The difference between the Net Income in the two periods  $t$  and  $t - 1$  is equal to:
-
-# 2.3 Growth Rate Analysis
+The difference between the Net Income in the two periods $t$ and $t - 1$ is equal to:
 
 $$
-\begin{array}{l} N I _ {t} - N I _ {t - 1} = \left[ \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E \right] - \left[ \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E \right] \\ = \left(E _ {t - 2} + R E _ {t - 1} - E _ {t - 3} - R E _ {t - 2}\right) \cdot R O E \\ \end{array}
+\begin{array}{l} NI_t - NI_{t - 1} = [(E_{t - 2} + RE_{t - 1}) \cdot ROE] - [(E_{t - 3} + RE_{t - 2}) \cdot ROE] \\ = (E_{t - 2} + RE_{t - 1} - E_{t - 3} - RE_{t - 2}) \cdot ROE \\ \end{array}
 $$
 
-and by considering that  $E_{t - 2} = E_{t - 3} + RE_{t - 2}$ , we have:
+and by considering that $E_{t - 2} = E_{t - 3} + RE_{t - 2}$, we have:
 
 $$
-N I _ {t} - N I _ {t - 1} = R E _ {t - 1} \cdot R O E \tag {2.57}
+NI_t - NI_{t - 1} = RE_{t - 1} \cdot ROE \tag{2.57}
 $$
 
 By replacing Eq. (2.57), Eq. (2.55) can be re-written as follows:
 
 $$
-g _ {N I _ {t}} = \frac {N I _ {t} - N I _ {t - 1}}{N I _ {t - 1}} = \frac {R E _ {t - 1} \cdot R O E}{N I _ {t - 1}} = \frac {R E _ {t - 1}}{N I _ {t - 1}} \cdot R O E \tag {2.58}
+g_{NI_t} = \frac{NI_t - NI_{t - 1}}{NI_{t - 1}} = \frac{RE_{t - 1} \cdot ROE}{NI_{t - 1}} = \frac{RE_{t - 1}}{NI_{t - 1}} \cdot ROE \tag{2.58}
 $$
 
-The ratio between  $RE_{t-1}$  and  $NI_{t-1}$  is defined Retention Ratio on Net Income (RR). It measures the amount of equity reinvested back into the company to finance its investments in the business. By replacing this, we have:
+The ratio between $RE_{t-1}$ and $NI_{t-1}$ is defined Retention Ratio on Net Income (RR). It measures the amount of equity reinvested back into the company to finance its investments in the business. By replacing this, we have:
 
 $$
-g _ {N I} = R R \cdot R O E \tag {2.59}
+g_{NI} = RR \cdot ROE \tag{2.59}
 $$
 
-Therefore, an estimate of the growth rate on Net Income  $(g_{NI})$  can be made by estimating the expected ROE and defining the amount of the retention on Net Income.
+Therefore, an estimate of the growth rate on Net Income $(g_{NI})$ can be made by estimating the expected ROE and defining the amount of the retention on Net Income.
 
-Obviously, Eq. (2.59) can be solved by Retention Ratio  $(RR_{NI})$  as follows:
-
-$$
-R R = \frac {g N I}{R O E} \tag {2.60}
-$$
-
-It is worth noting that by assuming a constant Equity over time, the growth rate of Net Income  $(g_{NI})$  it is equal to the growth of Earnings per Share  $(g_{ES})$  as follows:
+Obviously, Eq. (2.59) can be solved by Retention Ratio $(RR_{NI})$ as follows:
 
 $$
-g _ {E S} \equiv g _ {N I} = R R \cdot R O E
+RR = \frac{gNI}{ROE} \tag{2.60}
+$$
+
+It is worth noting that by assuming a constant Equity over time, the growth rate of Net Income $(g_{NI})$ it is equal to the growth of Earnings per Share $(g_{ES})$ as follows:
+
+$$
+g_{ES} \equiv g_{NI} = RR \cdot ROE
 $$
 
 If this assumption is removed, the growth in Net Income can be different from the growth in earnings per share. If the company issues new equity to finance new projects, and if the new investments increase the Net Income, the increase in the earnings per share is not the same because the shares are changed. In this case, the relationship between Net Income and earnings per share must be redesigned.
@@ -1886,7 +2052,7 @@ If this assumption is removed, the growth in Net Income can be different from th
 By removing the assumption about the constant value of ROE over time, a new component of the growth must be considered. This additional growth is function of the changes in ROE over time. This amount has to be added to the growth rate as previously computed as follows:
 
 $$
-g _ {N I} = R R \cdot R O E + \frac {\left(R O E _ {t} - R O E _ {t - 1}\right)}{R O E _ {t - 1}} \tag {2.61}
+g_{NI} = RR \cdot ROE + \frac{(ROE_t - ROE_{t - 1})}{ROE_{t - 1}} \tag{2.61}
 $$
 
 Two main extensions of Eq. (2.59) can be considered.
@@ -1894,31 +2060,31 @@ Two main extensions of Eq. (2.59) can be considered.
 The first refers to the ROE. The ROE can be substituted in the equation by considering the joint effects of ROI and Leverage as follows:
 
 $$
-R O E = \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = [ROI + L \cdot (ROI - K_D)] \cdot (1 - t_c)
 $$
 
 $$
-g _ {N I} = g _ {N I} = R R \cdot R O E = R R \cdot \left[ \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \right] \tag {2.62}
+g_{NI} = g_{NI} = RR \cdot ROE = RR \cdot [[ROI + L \cdot (ROI - K_D)] \cdot (1 - t_c)] \tag{2.62}
 $$
 
 In this case, the effects on Growth Rate of ROI and Leverage (L) can be analysed.
 
-The second refers to the Retention Rate  $(RR)$ . It is possible to consider the Equity Reinvestment Rate (ER) rather than the Retention Rate on Net Income  $(RR)$ . Specifically, the Equity Reinvestment Rate (ER) can be defined on the basis of equity reinvested in the business in form of Capex, Net Working Capital (NWC), debt reimbursement (DR), and Net Income (NI) as follows:
+The second refers to the Retention Rate $(RR)$. It is possible to consider the Equity Reinvestment Rate (ER) rather than the Retention Rate on Net Income $(RR)$. Specifically, the Equity Reinvestment Rate (ER) can be defined on the basis of equity reinvested in the business in form of Capex, Net Working Capital (NWC), debt reimbursement (DR), and Net Income (NI) as follows:
 
 $$
-E R = \frac {\text {C a p e x} + N W C + D R}{N I} \tag {2.63}
+ER = \frac{\text{Capex} + NWC + DR}{NI} \tag{2.63}
 $$
 
 In this case, the growth rate of Net income, is equal to:
 
 $$
-g _ {N I} = E R \cdot R O E = \left(\frac {\Delta C a p e x + \Delta N W C + D R}{N I}\right) \cdot R O E \tag {2.64}
+g_{NI} = ER \cdot ROE = \left(\frac{\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot ROE \tag{2.64}
 $$
 
 These two extensions can be considered jointly as follows:
 
 $$
-\begin{array}{l} g _ {N I} = E R \cdot R O E \\ = \left(\frac {\Delta C a p e x + \Delta N W C + D R}{N I}\right) \cdot \left[ \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \right] \tag {2.65} \\ \end{array}
+\begin{array}{l} g_{NI} = ER \cdot ROE \\ = \left(\frac{\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot [[ROI + L \cdot (ROI - K_D)] \cdot (1 - t_c)] \tag{2.65} \\ \end{array}
 $$
 
 # Growth Rate in Operating Income
@@ -1933,19 +2099,19 @@ An estimate of the expected growth rate in Operating Income  $(g_{OI})$  can be 
 # 2.3 Growth Rate Analysis
 
 $$
-I R = \frac {C a p e x + N W C}{E B I T}
+IR = \frac{Capex + NWC}{EBIT}
 $$
 
 By assuming a constant ROIC over time, the expected Growth Rate in Operating Income  $(g_{OI})$  is equal to the product between the Return on Invested Capital (ROIC) and the Investment Rate (IR) as follows:
 
 $$
-g _ {O I} = I R \cdot R O I C \tag {2.66}
+g_{OI} = IR \cdot ROIC \tag{2.66}
 $$
 
 Equation (2.66) can be solved by Investment Rare (IR) as follows:
 
 $$
-I R = \frac {g O I}{R O I C} \tag {2.67}
+IR = \frac{g_{OI}}{ROIC} \tag{2.67}
 $$
 
 It is worth noting that the relationship between the Growth Rate in Operating Income, Investment Rate and the ROIC can be summarized as follows:
@@ -1976,7 +2142,7 @@ $$
 On the basis of Eq. (2.67), we have:
 
 $$
-I R = \frac {g _ {O I}}{R O I C}
+IR = \frac{g_{OI}}{ROIC}
 $$
 
 and by substituting it, we have:
@@ -2001,8 +2167,6 @@ The second and the third points can be summarized as follows: with other equal c
 a low ROIC it should focus on improving ROIC before improving Growth Rate (Koller et al. 2015).
 
 As the higher the ROIC than the cost of capital (and the longer it can sustain a rate of return on that capital greater than its cost of capital), the greater is the creation of value, therefore it is critical to understand the drivers of the ROIC and assess impacts of every strategic and investment decision on them. The drivers of the ROIC are based in the Strategic Formula of the company.
-
-# 2.4 Investment Analysis
 
 The baseline concept of present value is that a dollar received in the future is less valuable than a dollar received today.
 
@@ -2150,8 +2314,6 @@ $$
 
 and by solving for  $\alpha_{s + 1}$  we have:
 
-# 2.4 Investment Analysis
-
 $$
 \alpha_ {s + 1} = \alpha_ {s} - \frac {F (\alpha_ {s})}{\frac {\partial F (\alpha_ {s})}{\partial \alpha_ {s}}}
 $$
@@ -2235,7 +2397,7 @@ Abstract In this third step of the fundamental company analysis, attention is pl
 
 The definition of the standard product cost is a part of the problem. The other part is the analysis includes the actual product cost as function of the actual company cost. Therefore, the last part of the chapter focuses on the difference between budget and actual Net Income on the basis of the variance analysis.
 
-# 3.1 Direct Cost of Product
+### 3.1 Direct Cost of Product
 
 Profitability of the company is a function of product profitability. Therefore, to further understand the company's ability to create profit over time it is necessary to investigate into product profitability.
 
@@ -2280,7 +2442,7 @@ variable costs:
 - fixed costs:
 - semi-variable costs.
 
-# Variable Cost
+#### Variable Cost
 
 The Variable cost is an item of cost that varies, in total, directly and proportionately with volume but the variable cost per unit of volume remains constant. Therefore, the total cost is variable because the cost per unit of volume remains constant (Anthony et al. 2011).
 
@@ -2305,7 +2467,7 @@ Fig. 3.1 Total variable cost and variable cost per unit
 
 Sometimes, in specific cases, salaries of direct labour can be considered as variable costs. The direct relationship between the amount of salaries and the volume of products created is necessary. Based on these constraints, labour costs are usually considered as fixed costs.
 
-# Fixed Costs
+#### Fixed Costs
 
 The Fixed cost is an item of costs that, in total, does not change with volume. Consequently, the fixed cost per unit of volume decreases (increases) with the increase (decrease) of volume (Anthony et al. 2011).
 
@@ -2335,7 +2497,7 @@ Fig. 3.2 Total fixed cost and fixed cost per unit
 
 industrial and services expenses, leasing and rent expenses, all other costs for operating activities, amortizations and depreciations.
 
-# (c) Semi-variable Costs
+#### Semi-variable Costs
 
 Unfortunately, it is not always easy to distinguish between variable and fixed costs. There are a lot of costs that can be defined as Semi-variable costs (or semi-fixed, partly variable, mixed costs). These costs are characterized by a combination of variable and fixed costs. It does not mean that they are divided exactly in half. The total amount of the semi-variable costs varies in the same direction, but less than proportionately with, changes in the volume of products achieved (Anthony et al. 2011). The dynamics of Semi-variable cost can be represented as shown in Fig. 3.3.
 
@@ -2355,7 +2517,7 @@ Fig. 3.3 Semi-variable costs
 Denoting with:  $x = V; y = TC_{(V)}; a = FC_T; b = VC_U$  and substituting, we have:
 
 $$
-T C _ {(V)} = F C _ {T} + \left(V C _ {U} \cdot V\right) \tag {3.3}
+TC_{(V)} = FC_T + (VC_U \cdot V) \tag{3.3}
 $$
 
 On an aggregate level, by considering that  $VC_{T}$  is equal to:
@@ -2367,7 +2529,7 @@ $$
 Equation (3.3) can be rewritten as follows:
 
 $$
-T C _ {(V)} = F C _ {T} + V C _ {T} \tag {3.4}
+TC_{(V)} = FC_T + VC_T \tag{3.4}
 $$
 
 Equation (3.4) shows how the total cost at volume  $\mathrm{V} \left( TC_{(V)} \right)$  is equal to the total fixed costs  $\left( FC_{T} \right)$  plus the total variable costs  $\left( VC_{T} \right)$ .
@@ -2386,13 +2548,13 @@ Fig. 3.4 Fixed cost, variable cost and total cost
 Denoting  $TC_{U}$  the total average cost per unit of volume,  $FC_{U}$  the fixed cost per unit of volume,  $VC_{U}$  the variable cost per unit of volume, we have:
 
 $$
-T C _ {U} = F C _ {U} + V C _ {U} \tag {3.5}
+TC_{U} = FC_{U} + VC_{U} \tag{3.5}
 $$
 
 The variable cost per unit of volume  $(VC_{U})$  is constant. On the other hand, the total average cost per unit of volume  $(TC_{U})$  and the fixed cost per unit of volume  $(FC_{U})$  are functions of Volume  $V$ . Specifically,  $TC_{U}$  is equal to the total cost at a volume  $V$ $(TC_{(V)})$  divided by volume  $V$ , as well as  $FC_{U}$  is equal to total fixed cost  $(FC_{T})$  divided the volume  $V$ , as follows:
 
 $$
-T C _ {U} = \frac {T C _ {(V)}}{V} \tag {3.6}
+TC_{U} = \frac{TC_{(V)}}{V} \tag{3.6}
 $$
 
 and
@@ -2404,7 +2566,7 @@ $$
 On the basis of Eqs. (3.6) and (3.7), the (3.5) can be re-written as follows:
 
 $$
-\frac {T C _ {(V)}}{V} = \frac {F C _ {T}}{V} + V C _ {U} \leftrightarrow T C _ {U} = \frac {F C _ {T}}{V} + V C _ {U} \tag {3.8}
+\frac{TC_{(V)}}{V} = \frac{FC_{T}}{V} + VC_{U} \leftrightarrow TC_{U} = \frac{FC_{T}}{V} + VC_{U} \tag{3.8}
 $$
 
 Therefore, with an increase of volume  $(V)$  within a defined prediction capacity  $(V \leq V^{*})$  the total cost per unit of volume  $(TC_{U})$  decreases with the increase of
@@ -2419,13 +2581,13 @@ Figure 3.5 shows how the total average cost per unit of volume  $(TC_{U})$  is p
 The variable cost per unit  $(VC_{U})$  represents a constant and therefore it is independent of the volume  $(V)$  and then increases the starting point of the total cost per unit of volume. By expanding the production to the volume  $V^{*}$  and assuming that the level of volume  $V^{*}$  is infinite, the fixed cost per unit is equal to zero, the total average cost per unit of volume is equal to the variable cost per unit of volume, as follows:
 
 $$
-\lim  _ {V \rightarrow V ^ {*} = + \infty} T C _ {U} = \lim  _ {V \rightarrow V ^ {*} = + \infty} \left[ \frac {F C _ {T}}{V} + V C _ {U} \right] = V C _ {U} \tag {3.9}
+\lim_{V \rightarrow V^{*} = +\infty} TC_{U} = \lim_{V \rightarrow V^{*} = +\infty} \left[ \frac{FC_{T}}{V} + VC_{U} \right] = VC_{U} \tag{3.9}
 $$
 
 In a real world  $V^{*}$  cannot be infinite. Therefore, we have:
 
 $$
-\lim  _ {V \rightarrow V ^ {*}} T C _ {U} = \lim  _ {V \rightarrow V ^ {*}} \left[ \frac {F C _ {T}}{V} + V C _ {U} \right] = \alpha + V C _ {U} \tag {3.10}
+\lim_{V \rightarrow V^{*}} TC_{U} = \lim_{V \rightarrow V^{*}} \left[ \frac{FC_{T}}{V} + VC_{U} \right] = \alpha + VC_{U} \tag{3.10}
 $$
 
 where the value of  $\alpha$  is the fixed cost per unit of volume for use of the maximum production capacity. Therefore, it is function of the quality and characteristics of the production system and managerial skills.
@@ -2442,19 +2604,19 @@ The total average cost per unit of volume has relevant managerial implications. 
 Denoting with  $R_U$  the revenues per unit of volume,  $TC_U$  the total average cost per unit of volume,  $M_U$  the profit margin per unit of volume,  $V$  the volume of product,  $M_T$  the total margin of the company and therefore the profit (if it is positive) or loss (if it is negative) of the company, we have:
 
 $$
-M _ {U} = R _ {U} - T C _ {U} \tag {3.11}
+M_{U} = R_{U} - TC_{U} \tag{3.11}
 $$
 
 and then:
 
 $$
-M _ {U} \cdot V = R _ {U} \cdot V - T C _ {U} \cdot V \leftrightarrow M _ {U} \cdot V = \left(R _ {U} - T C _ {U}\right) \cdot V \tag {3.12}
+M_{U} \cdot V = R_{U} \cdot V - TC_{U} \cdot V \leftrightarrow M_{U} \cdot V = \left(R_{U} - TC_{U}\right) \cdot V \tag{3.12}
 $$
 
 Considering that the margin per unit of volume is the total margin  $(M_T)$ , the revenues per unit of volume for volume are the total revenues  $(R_T)$  and the total average cost per unit of volume for volume is total costs  $(C_T)$ , we have:
 
 $$
-M _ {T} = R _ {T} - C _ {T} \rightarrow\begin{array}{l l}M _ {T} = \text {P r o f i t}&\text {i f} R _ {T} > C _ {T} \rightarrow R _ {U} > T C _ {U}\\M _ {T} = \text {L o s s}&\text {i f} C _ {T} > R _ {T} \rightarrow R _ {U} <   T C _ {U}\end{array}\tag {3.13}
+M_{T} = R_{T} - C_{T} \rightarrow\begin{array}{l l}M_{T} = \text{Profit}&\text{if} R_{T} > C_{T} \rightarrow R_{U} > TC_{U}\\M_{T} = \text{Loss}&\text{if} C_{T} > R_{T} \rightarrow R_{U} < TC_{U}\end{array}\tag{3.13}
 $$
 
 The relationship between volume and costs as defined, is based on several conditions. They are truly restrictive and they must always be kept in mind to avoid misunderstandings and errors in decision processes. There are five main ones (Anthony et al. 2011):
@@ -2508,8 +2670,6 @@ C M _ {T} = C M _ {U} \cdot V \leftrightarrow C M _ {T} = \left(R _ {U} - V C _ 
 $$
 
 By distinguishing costs between variable and fixed costs, the marginal income  $(MI)$  can be computed based on the unit contribution margin as follows:
-
-# 3.1 Direct Cost of Product
 
 $$
 M I = C M _ {U} \cdot V - F C _ {T} \leftrightarrow M I = \left(R _ {U} - V C _ {U}\right) \cdot V - F C _ {T} \tag {3.16}
@@ -2627,11 +2787,11 @@ $$
 N I = \left(C M _ {U (E)} \cdot Q _ {(T)}\right) - F C _ {T} \tag {3.19}
 $$
 
-# 3.2 Full Cost of Product
+### 3.2 Full Cost of Product
 
 The full cost defines all resources used for a defined cost object that can be anything for which the cost is measured. With regards to any well defined cost object, the main difference is between direct cost and indirect cost (Anthony et al. 2011; Garrison et al. 2014).
 
-# Direct Cost
+#### Direct Cost
 
 Direct cost is a cost that is specifically "traced to", or "caused by", that "cost object". Therefore, it is always possible to identify a clear and objective causal-relationship between the cost and the cost object. The direct cost is "attributed" to the cost object because they are "directly charged" to the cost object (Anthony et al. 2011). It is possible to identify three main types of direct cost:
 
@@ -2643,7 +2803,7 @@ characterized by two main aspects: (1) the quantity of labour time and (2) the p
 
 (c) Other Direct Costs: it refers to any cost due to goods and services traced to a single cost object. The costs must be identifiable with a single cost object. The measurement of each Other Direct Cost is based on two elements: (1) the quantity of services or goods required for each cost object and (2) the price per unit of goods and services (or cost per unit of goods and services). However, most companies only classify direct materials and direct labour costs as direct costs and they consider all other costs as indirect costs.
 
-# Indirect Cost
+#### Indirect Cost
 
 Indirect costs are costs "associated with", or "caused by", two or more "cost objects jointly". Therefore, unlike the direct costs, it is not directly traced to each of the cost objects. In this case, it is not possible, or at least not feasible, to define a clear and objective causal-relationship between the cost and each cost object separately. Consequently, it is not possible or feasible, to measure directly how much of the cost is attributable to a single cost object (Anthony et al. 2011).
 
@@ -2809,7 +2969,7 @@ At the end of this sixth step of the process, all costs assigned to the Primary 
 
 Consequently, the sum of costs assigned to the Production Cost Centers must be equal to the sum of all indirect costs of product. This is the sixth checkpoint of the process.
 
-# Step 7: Definition of the Full Cost of Product
+#### Step 7: Definition of the Full Cost of Product
 
 In this last step of the process, Direct Costs with regards to Direct Material Costs, Labour Costs and Other Direct Costs should be added to the Indirect Costs assigned to each product.
 
@@ -2855,7 +3015,7 @@ over-absorbed of indirect costs: the amount of estimated indirect costs absorbed
 
 The problem of cross subsidies is strictly connected with these two phenomenon. Generally, if the indirect cost structure is quite complex, use of the allocation rate leads to understatement of some product costs and overstatement of other product costs.
 
-# 3.3 Variance Analysis
+### 3.3 Variance Analysis
 
 The procedure used to calculate the full cost as described previously, gives two types of outputs according to the definition of direct and indirect costs:
 
@@ -2920,26 +3080,24 @@ Differently, favourable variance makes Actual Net Income higher than Budget Net 
 
 Finally, note that words "standard" and "budget" refer both to the estimated data and therefore what costs and revenues should be. Usually, standard is used with per-unit cost and revenue amounts, while budget is used with total amounts of revenues and costs.
 
-# (a) Production Cost Variances
+#### (a) Production Cost Variances
 
 The production cost variances involve the analysis of the variance with regards to direct costs (direct material and direct labour) and indirect costs. Therefore, there are three main components (Anthony et al. 2011):
-
-# 3.3 Variance Analysis
 
 - Direct Material Costs;
 - Direct Labour Costs;
 - Indirect Production Costs.
 
-# Direct Material Variances
+##### Direct Material Variances
 
-The standard direct material cost per unit of product (or one unit of output)  $(\mathrm{MC}_{\mathrm{U}(\mathrm{S})})$  is equal to the standard quantity of material per unit of product  $(\mathrm{QM}_{\mathrm{U}(\mathrm{S})})$  multiplied by the standard cost (or price) of material per unit of product  $(\mathrm{C}_{\mathrm{U}(\mathrm{S})})$  (Anthony et al. 2011).
+The standard direct material cost per unit of product (or one unit of output) $(\mathrm{MC}_{\mathrm{U}(\mathrm{S})})$ is equal to the standard quantity of material per unit of product $(\mathrm{QM}_{\mathrm{U}(\mathrm{S})})$ multiplied by the standard cost (or price) of material per unit of product $(\mathrm{C}_{\mathrm{U}(\mathrm{S})})$ (Anthony et al. 2011).
 
 The total standard direct material cost  $(\mathrm{MC}_{\mathrm{T(S)}})$  for an accounting period is equal to the standard direct material cost per unit of product  $(\mathrm{MC}_{\mathrm{U(S)}})$  multiplied by the number of units of product (or output) produced actually  $(Q_{(A)})$  and then effectively in that period (Anthony et al. 2011).
 
 Formally:
 
 $$
-M C _ {U (S)} = Q M _ {U (S)} \cdot C _ {U (S)} \Rightarrow M C _ {T (S)} = M C _ {U (S)} \cdot Q _ {(A)} \tag {3.20}
+MC_{U(S)} = QM_{U(S)} \cdot C_{U(S)} \Rightarrow MC_{T(S)} = MC_{U(S)} \cdot Q_{(A)} \tag{3.20}
 $$
 
 Similarly, actual direct material cost per unit of product (or one unit of output)  $(\mathbf{MC}_{\mathrm{U(A)}})$  is equal to the actual quantity of material per unit of product  $(\mathbf{QM}_{\mathrm{U(A)}})$  multiplied by the actual cost of material per unit of product  $(\mathbf{C}_{\mathrm{U(A)}})$ .
@@ -2949,7 +3107,7 @@ The total actual direct material cost  $(\mathrm{MC}_{\mathrm{T(A)}})$  for an a
 Formally:
 
 $$
-M C _ {U (A)} = Q M _ {U (A)} \cdot C _ {U (A)} \Rightarrow M C _ {T (A)} = M C _ {U (A)} \cdot Q _ {(A)} \tag {3.21}
+MC_{U(A)} = QM_{U(A)} \cdot C_{U(A)} \Rightarrow MC_{T(A)} = MC_{U(A)} \cdot Q_{(A)} \tag{3.21}
 $$
 
 The direct material cost variance (DMV) is equal to the difference between total standard direct material cost  $(\mathrm{MC}_{\mathrm{T(S)}})$  and the total actual direct material cost  $(\mathrm{MC}_{\mathrm{T(A)}})$  for an accounting period.
@@ -2959,7 +3117,7 @@ Since the number of units of product currently produced  $(\mathrm{Q}_{(\mathrm{
 Formally:
 
 $$
-D M V = M C _ {T (S)} - M C _ {T (A)} \Rightarrow D M V = \left[ M C _ {U (S)} - M C _ {U (A)} \right] \cdot Q _ {(A)} \tag {3.22}
+DMV = MC_{T(S)} - MC_{T(A)} \Rightarrow DMV = \left[ MC_{U(S)} - MC_{U(A)} \right] \cdot Q_{(A)} \tag{3.22}
 $$
 
 Therefore, direct material cost variance is based on the actual quantity of a period (and therefore standard quantity in the budget is not relevant in the analysis) and it is function of the difference between the standard direct material cost per unit of product and the actual direct material cost per unit of product.
@@ -2971,19 +3129,19 @@ The direct material cost variance (DMV) can be divided up into two components (A
 Both total quantities are based on the number of units of product actually  $(\mathrm{Q}_{(\mathrm{A})})$  produced. Therefore, total standard quantity of material  $(\mathrm{QM}_{\mathrm{T}(\mathrm{S})})$  is equal to the standard quantity of material per unit of product  $(\mathrm{QM}_{\mathrm{U}(\mathrm{S})})$  multiplied by the number of units of product actually  $(\mathrm{Q}_{(\mathrm{A})})$ , and the total actual quantity of material  $(\mathrm{QM}_{\mathrm{T}(\mathrm{A})})$  is equal to the actual quantity of material per unit of product  $(\mathrm{QM}_{\mathrm{U}(\mathrm{A})})$  multiplied by the number of units of current product  $(\mathrm{Q}_{(\mathrm{A})})$ . Formally:
 
 $$
-\begin{array}{l} Q M _ {T (S)} = Q M _ {U (S)} \cdot Q _ {(A)} \\ Q M _ {T (A)} = Q M _ {U (A)} \cdot Q _ {(A)} \end{array} \Rightarrow Q M _ {T (S)} - Q M _ {T (A)} = \left[ Q M _ {U (S)} - Q M _ {U (A)} \right] \cdot Q _ {(A)} \tag {3.23}
+\begin{array}{l} QM_{T(S)} = QM_{U(S)} \cdot Q_{(A)} \\ QM_{T(A)} = QM_{U(A)} \cdot Q_{(A)} \end{array} \Rightarrow QM_{T(S)} - QM_{T(A)} = \left[ QM_{U(S)} - QM_{U(A)} \right] \cdot Q_{(A)} \tag{3.23}
 $$
 
 and therefore:
 
 $$
-D M V _ {(Q)} = \left[ Q M _ {T (S)} \cdot C _ {U (S)} - Q M _ {T (A)} \cdot C _ {U (S)} \right] = \left[ Q M _ {T (S)} - Q M _ {T (A)} \right] \cdot C _ {U (S)} \tag {3.24}
+DMV_{(Q)} = \left[ QM_{T(S)} \cdot C_{U(S)} - QM_{T(A)} \cdot C_{U(S)} \right] = \left[ QM_{T(S)} - QM_{T(A)} \right] \cdot C_{U(S)} \tag{3.24}
 $$
 
 or in equivalent terms:
 
 $$
-D M V _ {(Q)} = \Delta Q M _ {T (S - A)} \cdot C _ {U (S)} \tag {3.25}
+DMV_{(Q)} = \Delta QM_{T(S - A)} \cdot C_{U(S)} \tag{3.25}
 $$
 
 Equation (3.25) shows how the material usage variance is equal to delta  $(\Delta)$  between standard and actual quantity of material multiplied by standard material costs:
@@ -2994,8 +3152,6 @@ $$
 
 (2) Material cost variance (also called material price variance or price component)  $(\mathrm{DMV}_{(\mathbf{C})})$ : it is equal to the difference between standard cost (or price) of material per unit of product  $(\mathrm{C_{U(S)}})$  and the actual cost (or price) of material per unit of product  $(\mathrm{C_{U(A)}})$  multiplied by the total actual quantity of material  $(\mathrm{QM}_{\mathrm{T(A)}})$  used. Therefore, the material cost variance is equal to delta  $(\Delta)$
 
-# 3.3 Variance Analysis
-
 between standard and actual cost of material per unit of product multiplied by actual quantity of material:
 
 $$
@@ -3005,14 +3161,14 @@ $$
 Formally:
 
 $$
-D M V _ {(C)} = \left[ C _ {U (S)} - C _ {U (A)} \right] \cdot Q M _ {T (A)} \leftrightarrow D M V _ {(P)} = \Delta C _ {U (S - A)} \cdot Q M _ {T (A)} \tag {3.26}
+DMV_{(C)} = \left[ C_{U(S)} - C_{U(A)} \right] \cdot QM_{T(A)} \leftrightarrow DMV_{(P)} = \Delta C_{U(S - A)} \cdot QM_{T(A)} \tag{3.26}
 $$
 
 The distinction of Direct Material Variances in its two components, Material Usage Variance and Material Price Variance, is fundamental for the management analysis for planning and control.
 
-# Direct Labour Variances
+##### Direct Labour Variances
 
-The standard direct labour cost per unit of product (or output)  $(\mathrm{LC}_{\mathrm{UP(S)}})$  is equal to the standard labour time per unit of product (or outputs)  $(\mathrm{LT}_{\mathrm{UP(S)}})$  usually expressed in hours, multiplied by a standard labour cost (or standard rate) per unit of time  $(\mathrm{LC}_{\mathrm{UT(S)}})$ .
+The standard direct labour cost per unit of product (or output) $(\mathrm{LC}_{\mathrm{UP(S)}})$ is equal to the standard labour time per unit of product (or outputs) $(\mathrm{LT}_{\mathrm{UP(S)}})$ usually expressed in hours, multiplied by a standard labour cost (or standard rate) per unit of time $(\mathrm{LC}_{\mathrm{UT(S)}})$.
 
 Note that if workers are paid on a price-rate basis, the standard labour cost per unit of product is the rates for producing that unit.
 
@@ -3021,7 +3177,7 @@ Total standard direct labour cost  $(\mathrm{LC}_{\mathrm{T(S)}})$  of an accoun
 Formally:
 
 $$
-L C _ {U P (S)} = L T _ {U P (S)} \cdot L C _ {U T (S)} \Rightarrow L C _ {T (S)} = L C _ {U P (S)} \cdot Q _ {(A)} \tag {3.27}
+LC_{UP(S)} = LT_{UP(S)} \cdot LC_{UT(S)} \Rightarrow LC_{T(S)} = LC_{UP(S)} \cdot Q_{(A)} \tag{3.27}
 $$
 
 Similarly, actual direct labour cost per unit of product (or unit of output)  $\mathrm{(LC_{UP(A)})}$  is equal to the actual labour time per unit of product (or output)  $\mathrm{(LT_{UP(A)})}$  multiplied by actual labour cost (or standard rate) per unit of time  $\mathrm{(LC_{UT(A)})}$ .
@@ -3031,7 +3187,7 @@ The total actual direct labour cost  $(\mathrm{LC}_{\mathrm{T(A)}})$  for an acc
 Formally:
 
 $$
-L C _ {U P (A)} = L T _ {U P (A)} \cdot L C _ {U T (A)} \Rightarrow L C _ {T (A)} = L C _ {U P (A)} \cdot Q _ {(A)} \tag {3.28}
+LC_{UP(A)} = LT_{UP(A)} \cdot LC_{UT(A)} \Rightarrow LC_{T(A)} = LC_{UP(A)} \cdot Q_{(A)} \tag{3.28}
 $$
 
 The direct labour cost variance (DLV) is equal to the difference between total standard direct labour cost  $(\mathrm{LC}_{\mathrm{T(S)}})$  and the total actual direct labour cost  $(\mathrm{LC}_{\mathrm{UP(A)}})$  for an accounting period. Since the number of units of product (or output) produced
@@ -3039,7 +3195,7 @@ The direct labour cost variance (DLV) is equal to the difference between total s
 actually  $(\mathrm{Q}_{(\mathrm{A})})$  is the same in both cases, standard and actual, the difference is due to the standard direct labour cost per unit of product (or output)  $(\mathrm{LC}_{\mathrm{UP}(\mathrm{S})})$  and the actual labour time per unit of product (or output)  $(\mathrm{LT}_{\mathrm{UP}(\mathrm{A})})$ . Formally:
 
 $$
-D L V = L C _ {T (S)} - L C _ {U P (A)} \Rightarrow D L V = \left[ L C _ {U P (S)} - L C _ {U P (A)} \right] \cdot Q _ {(A)} \tag {3.29}
+DLV = LC_{T(S)} - LC_{UP(A)} \Rightarrow DLV = \left[ LC_{UP(S)} - LC_{UP(A)} \right] \cdot Q_{(A)} \tag{3.29}
 $$
 
 Therefore, direct labour cost variance is based on the actual quantity of a period (and therefore standard quantity in the budget is not relevant in the analysis) and it is function of the difference between the standard direct labour cost per unit of product (or output) and the actual direct labour cost per unit of product.
@@ -3055,7 +3211,7 @@ $$
 Formally:
 
 $$
-D L V _ {(Q)} = \left[ L T _ {U P (S)} - L T _ {U P (A)} \right] \cdot L C _ {U T (S)} \leftrightarrow D L V _ {(Q)} = \Delta L T _ {U P (S - A)} \cdot L C _ {U T (S)} \tag {3.30}
+DLV_{(Q)} = \left[ LT_{UP(S)} - LT_{UP(A)} \right] \cdot LC_{UT(S)} \leftrightarrow DLV_{(Q)} = \Delta LT_{UP(S - A)} \cdot LC_{UT(S)} \tag{3.30}
 $$
 
 (2) Labour cost variance (also called labour rate variance or labour price variance)  $(\mathrm{DLV}_{(\mathrm{C})})$ : it is equal to the difference between standard labour cost (or standard rate) per unit of time  $(\mathrm{LC}_{\mathrm{UT}(\mathrm{S})})$  and actual labour cost (or standard rate) per unit of time  $(\mathrm{LC}_{\mathrm{UT}(\mathrm{A})})$  multiplied by the actual labour time per unit of product (or output)  $(\mathrm{LT}_{\mathrm{UP}(\mathrm{A})})$ . Therefore, the labour cost variance is equal to delta  $(\Delta)$  between standard and actual of labour cost per unit of product multiplied by actual labour time per unit of product:
@@ -3067,19 +3223,17 @@ $$
 Formally:
 
 $$
-\begin{array}{l} D L V _ {(Q)} = \left[ L C _ {U T (S)} - L C _ {U T (A)} \right] \cdot L T _ {U P (A)} \leftrightarrow D L V _ {(Q)} \tag {3.31} \\ = \Delta L C _ {U T (S - A)} \cdot L T _ {U P (A)} \\ \end{array}
+\begin{array}{l} DLV_{(Q)} = \left[ LC_{UT(S)} - LC_{UT(A)} \right] \cdot LT_{UP(A)} \leftrightarrow DLV_{(Q)} \tag{3.31} \\ = \Delta LC_{UT(S - A)} \cdot LT_{UP(A)} \\ \end{array}
 $$
 
-# 3.3 Variance Analysis
-
-# Indirect Production Cost Variances
+##### Indirect Production Cost Variances
 
 Indirect Production Costs are allocated to the product through predetermined allocation rates. These rates are calculated by dividing the estimated product activity level (normal or standard volume) by the estimated total indirect costs to be incurred at that volume (Anthony et al. 2011).
 
 By distinguishing between variable indirect costs and fixed indirect costs, total indirect costs  $(\mathrm{IC_T})$  are equal to total fixed indirect costs per period  $(\mathrm{IFC_T})$  plus variable indirect cost per unit of product  $(\mathrm{IVC_U})$  multiplied by quantity of product in volume (Q), so we have:
 
 $$
-I C _ {T} = I F C _ {T} + \left(I V C _ {U} \cdot Q\right) \tag {3.31}
+IC_T = IFC_T + \left(IVC_U \cdot Q\right) \tag{3.31}
 $$
 
 Equation (3.31) represents the flexible budget straight line. It illustrates the amount of costs expected for each level of volume. Since some indirect production costs are variable, others are fixed and still others are semi-variable, total indirect production costs will be different at each volume level. Therefore, within an estimated volume range, total budget indirect production costs are expected to vary according to the equation, as shown in Fig. 3.12 (adaptation from Anthony et al. 2011).
@@ -3087,7 +3241,7 @@ Equation (3.31) represents the flexible budget straight line. It illustrates the
 The allocation rate  $(AR)$  defines the average indirect cost per unit of product at the standard quantity volume  $(Q_{S})$ . Therefore, it is found by dividing the total indirect costs at the standard volume by the standard volume and therefore the number of units represented by that volume number of units, as follows:
 
 $$
-A R = \frac {I C _ {T}}{Q _ {S}} = \frac {I F C _ {T} + (I V C _ {U} \cdot Q _ {S})}{Q _ {S}} = \frac {I F C _ {T}}{Q _ {S}} + \frac {I V C _ {U} \cdot Q _ {S}}{Q _ {S}} = \frac {I F C _ {T}}{Q _ {S}} + I V C _ {U} \tag {3.32}
+AR = \frac{IC_T}{Q_S} = \frac{IFC_T + (IVC_U \cdot Q_S)}{Q_S} = \frac{IFC_T}{Q_S} + \frac{IVC_U \cdot Q_S}{Q_S} = \frac{IFC_T}{Q_S} + IVC_U \tag{3.32}
 $$
 
 Therefore, the allocation rate  $(AR)$  is equal to the sum of the variable indirect cost per unit  $(ICVU)$  and the average fixed indirect costs per unit at standard volume  $\left(\frac{ICF}{Q_s}\right)$ . Figure 3.13 (adaptation from Anthony et al. 2011) illustrates the absorbed cost at standard volume by considering the predetermined allocation rate.
@@ -3106,7 +3260,7 @@ Fig. 3.12 Flexible budget
 The amount of total indirect costs absorbed (AIC) by the units produced is equal to the predetermined allocation rate (AR) multiplied by the actual volume (in terms of number of units) produced  $(\mathrm{Q}_{(\mathrm{A})})$ :
 
 $$
-A I C = A R \cdot Q _ {(A)} \tag {3.33}
+AIC = AR \cdot Q_{(A)} \tag{3.33}
 $$
 
 It is important to note that budget indirect costs and absorbed indirect costs will only be equal at the standard volume  $(Q_{(S)})$  in terms of number of units. Therefore (Anthony et al. 2011):
@@ -3141,20 +3295,20 @@ Therefore, the Indirect Production Cost Variance (ICV) is equal to the sum of Pr
 (b) Production Volume Variance (PVV): it is equal to absorbed costs less budgeted costs. It is always borne in mind that both the absorbed and budgeted cost amounts are based on the actual production volume of the period. Note that the production volume variance is also equal to the fixed portion of the allocation rate multiplied by the difference between actual volume and standard volume.
 (c) Spending Variance (SV): it is equal to budgeted costs less actual costs.
 
-# (b) Marketing Variances
+#### (b) Marketing Variances
 
 Usually, the marketing department focuses on two main goals: the gross margin to be achieved and the expenses limit in its budget to be respected. Based on these two goals, the marketing variance can be divided up into two parts: (i) Expenses Variances and (ii) Gross Margin Variances (Anthony et al. 2011).
 
 Expenses Variances (EV) refers to each item of marketing expense and is equal to the difference between Actual Expenses (or Cost)  $(\mathrm{E}_{(\mathrm{A})})$  and Budget Expense (or Cost)  $(\mathrm{E}_{(\mathrm{B})})$ :
 
 $$
-E V = E _ {(A)} - E _ {(B)} \tag {3.34}
+EV = E_{(A)} - E_{(B)} \tag{3.34}
 $$
 
 Gross Margin Variances (GMV) refers to the difference between Actual Gross Margin  $(\mathrm{GMV}_{(\mathrm{A})})$  and Budget Gross Margin  $(\mathrm{GMV}_{(\mathrm{B})})$  both calculated on the basis of the standard cost per unit of product:
 
 $$
-G M V = G M V _ {(A)} - G M V _ {(B)} \tag {3.35}
+GMV = GMV_{(A)} - GMV_{(B)} \tag{3.35}
 $$
 
 The Gross Margin is equal to the difference between sales revenues (equal to the sum of the multiplications for each type of product of the price per unit of product and the volume in terms of units of product) and cost of sales (equal to the sum of the multiplications for each type of product of the cost per unit of product and the volume in terms of units of product) defines the Gross Margin. Generally, the marketing department is responsible for product sales volume and unit selling prices but not for the cost per unit of product. Therefore, in order to calculate the gross margin variance the cost per unit of product used should be the standard cost. The variance between the actual and standard cost per unit of product is calculated in production variance (Anthony et al. 2011).
@@ -3167,15 +3321,15 @@ The Gross Margin Variance can be divided up into three main components (Anthony 
 Fig. 3.14 Indirect production cost variance: budgeted, absorbed and actual indirect production costs
 
 - Unit Margin Variance;
-Sales Volume Variance;
+- Sales Volume Variance;
 - Product Mix Variance.
 
-# Unit Margin Variance
+#### Unit Margin Variance
 
 It is due to the difference between budget gross margin per unit of product and actual gross margin per unit of product. Specifically, the Unit Margin Variance  $(UMV)$  is equal to the difference between actual unit margin  $(MU_{(A)})$  and budget unit margin  $(MU_{(B)})$  multiplied by actual volume  $(Q_{(A)})$ :
 
 $$
-U M V = \left(M U _ {(A)} - M U _ {(B)}\right) \cdot Q _ {(A)} \leftrightarrow M U V = \Delta M U _ {(A - B)} \cdot Q _ {(A)} \tag {3.36}
+UMV = \left(MU_{(A)} - MU_{(B)}\right) \cdot Q_{(A)} \leftrightarrow MUV = \Delta MU_{(A - B)} \cdot Q_{(A)} \tag{3.36}
 $$
 
 It is worth noting that unit margin variance can be also called the selling price variance if it is assumed that the actual unit cost turns out to be equal to the budget standard unit cost during the period (Anthony et al. 2011). Indeed, the unit margin variance  $(UMV)$  is equal to the difference between the actual unit margin  $(MU_{(A)})$  and budget unit margin  $(MU_{(B)})$ . The actual unit margin  $(MU_{(A)})$  is equal to the difference between actual unit selling price  $(UP_{(A)})$  and actual unit cost  $(UC_{(A)})$  as well as the budget unit margin  $(MU_{(B)})$  is equal to the difference between budget
@@ -3183,13 +3337,13 @@ It is worth noting that unit margin variance can be also called the selling pric
 unit selling price  $(UP_{(B)})$  and budget standard unit cost  $(UC_{(B)})$ . Substituting, we have:
 
 $$
-\begin{array}{l} U M V = M U _ {(A)} - M U _ {(B)} \rightarrow\begin{array}{l}M U _ {(A)} = U P _ {(A)} - U C _ {(A)}\\M U _ {(B)} = U P _ {(B)} - U C _ {(B)}\end{array}\rightarrow U M V \tag {3.37} \\ = \left(U P _ {(A)} - U C _ {(A)}\right) - \left(U P _ {(B)} - U C _ {(B)}\right) \\ \end{array}
+\begin{array}{l} UMV = MU_{(A)} - MU_{(B)} \rightarrow\begin{array}{l}MU_{(A)} = UP_{(A)} - UC_{(A)}\\MU_{(B)} = UP_{(B)} - UC_{(B)}\end{array}\rightarrow UMV \tag{3.37} \\ = \left(UP_{(A)} - UC_{(A)}\right) - \left(UP_{(B)} - UC_{(B)}\right) \\ \end{array}
 $$
 
 If it is assumed that actual unit cost  $(UC_{(A)})$  it is equal to the budget standard unit cost  $(UC_{(B)})$  during the period, we have:
 
 $$
-U C _ {(A)} = U C _ {(B)} \rightarrow U M V = U P _ {(A)} - U P _ {(B)} \tag {3.38}
+UC_{(A)} = UC_{(B)} \rightarrow UMV = UP_{(A)} - UP_{(B)} \tag{3.38}
 $$
 
 Therefore, in this case the unit margin variance  $(UMV)$  is caused solely by the difference between actual unit selling price  $(UP_{(A)})$  and budget unit selling price  $(UP_{(B)})$ .
@@ -3201,7 +3355,7 @@ Consequently, if the company uses the same standard unit costs during the year a
 It is due to the difference between budget sales volume (in units of product) and actual sales volume (in units of product). Specifically, the sales volume variance  $(SVV)$  is equal to the difference between actual volume  $(Q_{(A)})$  and budget volume  $(Q_{(B)})$  multiplied by budget unit margin  $(MU_{(B)})$ :
 
 $$
-S V V = \left(Q _ {(A)} - Q _ {(B)}\right) \cdot M U _ {(B)} \leftrightarrow M U V = \Delta Q _ {(A - B)} \cdot M U _ {(B)} \tag {3.38}
+SVV = \left(Q_{(A)} - Q_{(B)}\right) \cdot MU_{(B)} \leftrightarrow MUV = \Delta Q_{(A - B)} \cdot MU_{(B)} \tag{3.38}
 $$
 
 If data is available on total sales of a product by all companies, the volume variance can be divided up into industry volume variance and markets share variance (Anthony et al. 2011). This division is useful because it is possible to distinguish the variance due to changes in total industry sales, that reflect the general economic conditions and therefore they are out of management control, and the variance due to changes in company's market share that are attributable to management strategies.
@@ -3346,7 +3500,7 @@ Based on this process, the problem of the choice under uncertainty can be faced 
 Formally, the utility of the i-th decision  $(a_{i})$  can be defined as follows:
 
 $$
-\mathrm {E} [ \mathrm {U} (\mathrm {a} _ {\mathrm {i}}) ] = \pi_ {1} \mathrm {U} \left(\mathrm {y} _ {\mathrm {a} _ {\mathrm {i}}, 1}\right) + \pi_ {2} \mathrm {U} \left(\mathrm {y} _ {\mathrm {a} _ {\mathrm {i}}, 2}\right) + \dots + \pi_ {\mathrm {S}} \mathrm {U} \left(\mathrm {y} _ {\mathrm {a} _ {\mathrm {i}}, \mathrm {S}}\right) = \sum_ {\mathrm {s} = 1} ^ {\mathrm {S}} \pi_ {\mathrm {s}} \mathrm {U} \left(\mathrm {y} _ {\mathrm {a} _ {\mathrm {i}}, \mathrm {s}}\right) \tag {4.5}
+\mathrm{E}[\mathrm{U}(\mathrm{a}_{\mathrm{i}})] = \pi_{1} \mathrm{U}\left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, 1}\right) + \pi_{2} \mathrm{U}\left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, 2}\right) + \dots + \pi_{\mathrm{S}} \mathrm{U}\left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, \mathrm{S}}\right) = \sum_{\mathrm{s}=1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U}\left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, \mathrm{s}}\right) \tag{4.5}
 $$
 
 where:
@@ -3359,7 +3513,7 @@ where:
 Based on Eq. (4.5) the decision  $A$  is preferred to the decision  $B$ , only if the expected utility of the decision  $A$  is greater than the decision  $B$ , as follows:
 
 $$
-\mathrm {A} \succ \mathrm {B} \leftrightarrow \sum_ {\mathrm {s} = 1} ^ {\mathrm {S}} \pi_ {\mathrm {s}} \mathrm {U} \left(\mathrm {y} _ {\mathrm {A}, \mathrm {s}}\right) > \sum_ {\mathrm {s} = 1} ^ {\mathrm {S}} \pi_ {\mathrm {s}} \mathrm {U} \left(\mathrm {y} _ {\mathrm {B}, \mathrm {s}}\right) \tag {4.6}
+\mathrm{A} \succ \mathrm{B} \leftrightarrow \sum_{\mathrm{s}=1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U}\left(\mathrm{y}_{\mathrm{A}, \mathrm{s}}\right) > \sum_{\mathrm{s}=1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U}\left(\mathrm{y}_{\mathrm{B}, \mathrm{s}}\right) \tag{4.6}
 $$
 
 The possibility to equate the choices under uncertainty to the choices under certainty, with the consequence of using the utility functions, requires the strict adhesion of the same postulates about the investor's behaviour. These postulates define the axiomatic approach. Generally, the axioms define the baseline properties of the rational behaviour of the investor. The investor's decisions must be aligned with the axioms. The investors' behaviour can be considered as rational only if there is coherence between the investors' behaviour and the axioms and his preferences can be classified according to the utility functions (Saltari 2011).
@@ -3387,7 +3541,7 @@ Preferences are complete in the sense that, given two probability distributions,
 By assuming two probability distribution,  $p \in q$ , we have:
 
 $$
-\mathrm {p} \succcurlyeq \mathrm {q} \quad o r \quad \mathrm {q} \succcurlyeq \mathrm {p} \quad o r \quad \mathrm {p} \sim \mathrm {q} \tag {4.7}
+\mathrm{p} \succcurlyeq \mathrm{q} \quad or \quad \mathrm{q} \succcurlyeq \mathrm{p} \quad or \quad \mathrm{p} \sim \mathrm{q} \tag{4.7}
 $$
 
 The preferences are also consistent because they are transitive.
@@ -3395,7 +3549,7 @@ The preferences are also consistent because they are transitive.
 If the distribution of probability  $p$  is preferred, at least to the probability distribution of  $q$ , and if, in turn, the probability distribution  $q$  is preferred at least to the probability distribution  $r$ , then the probability distribution  $p$  is preferred at least to the probability distribution  $r$ . If the preferences are not transitive, it is not possible to identify an optimal probability distribution. Formally:
 
 $$
-\mathrm {p} \succcurlyeq \mathrm {q} \quad a n d \quad \mathrm {q} \succcurlyeq \mathrm {r} \Rightarrow \mathrm {p} \succcurlyeq \mathrm {r} \tag {4.8}
+\mathrm{p} \succcurlyeq \mathrm{q} \quad and \quad \mathrm{q} \succcurlyeq \mathrm{r} \Rightarrow \mathrm{p} \succcurlyeq \mathrm{r} \tag{4.8}
 $$
 
 # Axiom 2: Mono-tonicity
@@ -3405,7 +3559,7 @@ Given a decision, if two distributions of probability are associated with the sa
 Given two degenerate distributions  $(\delta)$ , the first providing the best result  $(\delta_{m})$  with certainty and the second providing the worst result  $(\delta_{p})$  with certainty and using  $\alpha$  and  $\beta$  to indicate the probability including between 0 and 1, and using the symbols  $o$  and  $\oplus$  to indicate how the distributions are made, we have:
 
 $$
-\alpha \circ \delta_ {\mathrm {m}} \oplus (1 - \alpha) \circ \delta_ {\mathrm {p}} \succcurlyeq \beta \circ \delta_ {\mathrm {m}} \oplus (1 - \beta) \circ \delta_ {\mathrm {p}} \Leftrightarrow \alpha \geq \beta \tag {4.9}
+\alpha \circ \delta_{\mathrm{m}} \oplus (1 - \alpha) \circ \delta_{\mathrm{p}} \succcurlyeq \beta \circ \delta_{\mathrm{m}} \oplus (1 - \beta) \circ \delta_{\mathrm{p}} \Leftrightarrow \alpha \geq \beta \tag{4.9}
 $$
 
 Therefore, given two degenerate distributions (or deterministic distribution)  $(\delta_{m}$  and  $\delta_p)$ , the preference is function of the probability  $(\alpha$  and  $\beta)$  of execution and their combination.
@@ -3424,7 +3578,7 @@ Denoted by  $r$  the degenerate distributions that assigns probability 1 to the 
 In this case, we have:
 
 $$
-\forall \mathrm {r} \in \mathrm {P} \exists \alpha \in [ 0, 1 ]: \mathrm {r} \sim \alpha \mathrm {o} \delta_ {\mathrm {m}} \oplus (1 - \alpha) \mathrm {o} \delta_ {\mathrm {p}} \tag {4.10}
+\forall \mathrm{r} \in \mathrm{P} \exists \alpha \in [0, 1]: \mathrm{r} \sim \alpha \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \alpha) \mathrm{o} \delta_{\mathrm{p}} \tag{4.10}
 $$
 
 The relationship shows that:
@@ -3443,7 +3597,7 @@ It is worth noting that the value of  $\alpha$  is the utility of  $x$ :  $\alph
 The probability distribution  $p$  is indifferent to the probability distribution  $q$  if any other probability distribution  $r$  is considered and the probability  $\alpha$  between 0 and 1, we have:
 
 $$
-\alpha \mathrm {o p} \oplus (1 - \alpha) \mathrm {o r} \sim \alpha \mathrm {o q} \oplus (1 - \alpha) \mathrm {o r} \tag {4.11}
+\alpha \mathrm{o p} \oplus (1 - \alpha) \mathrm{o r} \sim \alpha \mathrm{o q} \oplus (1 - \alpha) \mathrm{o r} \tag{4.11}
 $$
 
 Each of the two terms of the relationship can be considered as a particular probability distribution, where with probability  $\alpha$  the probability distribution  $p$  is obtained (left side of the relationship) or the probability distribution  $q$  (right side of the relationship), and with residual probability  $(1 - \alpha)$  the probability distribution  $r$  for both terms is obtained.
@@ -3459,7 +3613,7 @@ For the decision-making process only the final probability associated to the eff
 Given the two degenerate distributions  $(\delta)$ , the first that generates the best result with certainty  $(\delta_{m})$  and the second that generates the worst result with certainty  $(\delta_{p})$ , and using  $\alpha$  and  $\beta$  to indicate the probability including between 0 and 1, we have:
 
 $$
-\alpha \mathrm {o} [ \beta \mathrm {o} \delta_ {\mathrm {m}} \oplus (1 - \beta) \mathrm {o} \delta_ {\mathrm {p}} ] \oplus (1 - \alpha) \mathrm {o} \delta_ {\mathrm {p}} \sim \gamma \mathrm {o} \delta_ {\mathrm {m}} \oplus (1 - \gamma) \mathrm {o} \delta_ {\mathrm {p}} \tag {4.12}
+\alpha \mathrm{o} [\beta \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \beta) \mathrm{o} \delta_{\mathrm{p}}] \oplus (1 - \alpha) \mathrm{o} \delta_{\mathrm{p}} \sim \gamma \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \gamma) \mathrm{o} \delta_{\mathrm{p}} \tag{4.12}
 $$
 
 Therefore,  $\gamma = \alpha \beta$  is the total probability to obtain  $\delta_{m}$ . Consequently, for the investor it is indifferent to obtain  $\delta_{m}$  at one time with probability  $\gamma$ , or twice with probability  $\alpha$  and  $\beta$ .
@@ -3469,7 +3623,7 @@ Based on the axiomatic approach, if the kind of the investor's preferences respe
 The probability distribution  $p$  can be preferred to the probability distribution  $q$  only if the expected utility of  $p$  is higher than the expected utility of  $q$ . Formally:
 
 $$
-\begin{array}{l} p \succ q \Leftrightarrow \sum U (x) p (x) \geq \sum U (x) q (x) \\ p \succcurlyeq q \Leftrightarrow \sum U (x) p (x) \geq \sum U (x) q (x) \tag {4.13} \\ \mathrm {p} \sim \mathrm {q} \Leftrightarrow \sum \mathrm {U} (\mathrm {x}) \mathrm {p} (\mathrm {x}) \geq \sum \mathrm {U} (\mathrm {x}) \mathrm {q} (\mathrm {x}) \\ \end{array}
+\begin{array}{l} p \succ q \Leftrightarrow \sum U(x) p(x) \geq \sum U(x) q(x) \\ p \succcurlyeq q \Leftrightarrow \sum U(x) p(x) \geq \sum U(x) q(x) \tag{4.13} \\ \mathrm{p} \sim \mathrm{q} \Leftrightarrow \sum \mathrm{U}(\mathrm{x}) \mathrm{p}(\mathrm{x}) \geq \sum \mathrm{U}(\mathrm{x}) \mathrm{q}(\mathrm{x}) \\ \end{array}
 $$
 
 # 4.2 Investor Behaviour and Risk Measurement
@@ -3491,7 +3645,7 @@ $$
 It implies that:
 
 $$
-E (x) = x _ {1} p + x _ {2} (1 - p) = 0 \rightarrow x _ {1} p + x _ {2} (1 - p) = 0 \rightarrow\begin{array}{c}p = - \frac {x _ {2}}{\left(x _ {1} - x _ {2}\right)}\\\text {o r}\\\frac {x _ {1}}{x _ {2}} = - \frac {(1 - p)}{p}\end{array}\tag {4.14}
+E(x) = x_{1} p + x_{2} (1 - p) = 0 \rightarrow x_{1} p + x_{2} (1 - p) = 0 \rightarrow\begin{array}{c}p = - \frac{x_{2}}{(x_{1} - x_{2})}\\\text{or}\\\frac{x_{1}}{x_{2}} = - \frac{(1 - p)}{p}\end{array}\tag{4.14}
 $$
 
 One of the useful concepts is the expected utility. Considering a random variable end-of-period wealth  $W$  can have  $n$  possible value  $W_{i}$  with probability  $p_i$  so that  $\sum_{i=1}^{n} p_i = 1$ . From any wealth outcome  $W_{i}$  the form  $U(W_{i})$  denotes the utility from
@@ -3501,7 +3655,7 @@ any wealth outcome  $W_{i}$  while  $E[U(W_{i})]$  denotes the expected utility 
 The relation between the probability  $p_i$  associated to any possible wealth outcome  $W_i$ , its utility and expected utility, is the following:
 
 $$
-E [ U (W _ {i}) ] = \sum_ {i = 1} ^ {n} p _ {i} U (W _ {i}) \tag {4.15}
+E[U(W_{i})] = \sum_{i=1}^{n} p_{i} U(W_{i}) \tag{4.15}
 $$
 
 Now it is possible to analyse the relationship between the utility functions and the risk in the investor's perspective.
@@ -3519,7 +3673,7 @@ The second baseline assumption states that the utility function  $U(w)$  must be
 The third baseline assumption states that "more is always preferred to less". In mathematical terms it implies that the first derivative must always be strictly positive, as follows:
 
 $$
-\mathrm {U} \left(\mathrm {w} _ {2}\right) > U \left(\mathrm {w} _ {1}\right) \quad \forall \mathrm {w} _ {2} > \mathrm {w} _ {1} \rightarrow U ^ {\prime} (W) > 0 \tag {4.16}
+\mathrm{U}\left(\mathrm{w}_{2}\right) > U\left(\mathrm{w}_{1}\right) \quad \forall \mathrm{w}_{2} > \mathrm{w}_{1} \rightarrow U^{\prime}(W) > 0 \tag{4.16}
 $$
 
 It is true regardless of the behaviour of the investor to risk. It defines the sign of the second derivative and then the shape of their utility function. Specifically, the second derivative can be:
@@ -3542,7 +3696,7 @@ Fig. 4.1 Utility function and risk behaviour
 In the case of risk aversion, the second derivative of the utility function is negative  $(U''(w) < 0)$ . It is possible to use the Jensen's inequality. Given a function  $f(x)$  where  $x$  is a random variable,  $f(E(x)) > E[f(x)]$  only if  $f(x)$  is a function with a concave shape. If  $f(x)$  has a concave shape no one segment is capable of joining two points on the graph in any point. Therefore, the segment  $l(x) = a + bx$  lies always above the function:  $l(x) = a + bx \geq f(x)$ . The same values  $l(E(x)) = f(E(x))$  can only be found in the tangent point  $E(x)$ . Since  $l(x)$  is a linear function, it follows that:  $l(E(x)) = E(l(x))$ . Therefore  $f(E(x)) = l(E(x)) = E(l(x)) \geq E(f(x))$ . The inequality follows the condition that  $l(x) - f(x) \geq 0$ . Therefore, by considering the expectation, we have:  $E[l(x) - f(x)] \geq 0$ , and therefore  $E(l(x)) \geq E(f(x))$ . Therefore, on the basis of on the Jensen's inequality, we have:
 
 $$
-\mathrm {E} [ \mathrm {U} (\mathrm {w}) ] <   U [ \mathrm {E} (\mathrm {w}) ] \tag {4.17}
+\mathrm{E}[\mathrm{U}(\mathrm{w})] < U[\mathrm{E}(\mathrm{w})] \tag{4.17}
 $$
 
 Assuming that the random variable  $(w)$  can assume two values,  $w_{1}$  and  $w_{2}$ , with probability  $p_1$  and  $(1 - p_1)$  respectively. The  $E[U(w)]$  and  $U[E(w)]$  can be explicated as follows:
@@ -3560,7 +3714,7 @@ $$
 Substituting in Eq. (4.17), we have:
 
 $$
-\mathrm {p} _ {1} \mathrm {U} \left(\mathrm {w} _ {1}\right) + \left(1 - \mathrm {p} _ {1}\right) \mathrm {U} \left(\mathrm {w} _ {2}\right) <   U \left[ \mathrm {p} _ {1} \mathrm {w} _ {1} + \left(1 - \mathrm {p} _ {1}\right) \mathrm {w} _ {2} \right] \tag {4.18}
+\mathrm{p}_{1} \mathrm{U}\left(\mathrm{w}_{1}\right) + \left(1 - \mathrm{p}_{1}\right) \mathrm{U}\left(\mathrm{w}_{2}\right) < U\left[\mathrm{p}_{1} \mathrm{w}_{1} + \left(1 - \mathrm{p}_{1}\right) \mathrm{w}_{2}\right] \tag{4.18}
 $$
 
 Equation (4.18) implies the concave shape of the function  $U(w)$  in all of domain  $D$ , as shown in Fig. 4.2.
@@ -3606,7 +3760,7 @@ utility, the higher the initial level of wealth and then in mathematical terms i
 In the case of a risk lover (or risk seeker), the second derivative of the utility function is positive  $(U''(w) > 0)$ . In this case, we have:
 
 $$
-\mathrm {E} [ \mathrm {U} (\mathrm {w}) ] > U [ \mathrm {E} (\mathrm {w}) ] \tag {4.19}
+\mathrm{E}[\mathrm{U}(\mathrm{w})] > U[\mathrm{E}(\mathrm{w})] \tag{4.19}
 $$
 
 Assuming that the random variable  $(w)$  can assume two values,  $w_{1}$  and  $w_{2}$ , with probability  $p_1$  and  $(1 - p_1)$  respectively. The  $E[U(w)]$  and  $U[E(w)]$  can be explicated as follows:
@@ -3624,7 +3778,7 @@ $$
 Substituting in Eq. (4.19), we have:
 
 $$
-\mathrm {p} _ {1} \mathrm {U} \left(\mathrm {w} _ {1}\right) + \left(1 - \mathrm {p} _ {1}\right) \mathrm {U} \left(\mathrm {w} _ {2}\right) > U \left[ \mathrm {p} _ {1} \mathrm {w} _ {1} + \left(1 - \mathrm {p} _ {1}\right) \mathrm {w} _ {2} \right] \tag {4.20}
+\mathrm{p}_{1} \mathrm{U}\left(\mathrm{w}_{1}\right) + \left(1 - \mathrm{p}_{1}\right) \mathrm{U}\left(\mathrm{w}_{2}\right) > U\left[\mathrm{p}_{1} \mathrm{w}_{1} + \left(1 - \mathrm{p}_{1}\right) \mathrm{w}_{2}\right] \tag{4.20}
 $$
 
 Equation (4.20) implies that the convex shape of the function  $U(w)$  in all domain  $D$ , as shown in Fig. 4.3.
@@ -3666,7 +3820,7 @@ Therefore, in the case of risk seeking, the utility function is:
 In the case of risk neutral (or indifferent to risk), the second derivative of the utility function is equal to zero  $(U''(w) = 0)$ . In this case we have:
 
 $$
-\mathrm {E} [ \mathrm {U} (\mathrm {w}) ] = \mathrm {U} [ \mathrm {E} (\mathrm {w}) ] \tag {4.21}
+\mathrm{E}[\mathrm{U}(\mathrm{w})] = \mathrm{U}[\mathrm{E}(\mathrm{w})] \tag{4.21}
 $$
 
 Assuming that the random variable  $(w)$  can assume two values,  $w_{1}$  and  $w_{2}$ , with probability  $p_1$  and  $(1 - p_1)$  respectively. The  $E[U(w)]$  and  $U[E(w)]$  can be explicated as follows:
@@ -3674,7 +3828,7 @@ Assuming that the random variable  $(w)$  can assume two values,  $w_{1}$  and  
 In this case,  $U(w) = a + bw$  with  $b > 0$ . The utility function is unique unless it has a linear transformation. Therefore, we have  $a = 0$  and  $b = 1$ . Therefore,  $U(w) = w$  and consequently:
 
 $$
-\mathrm {p} _ {1} \mathrm {U} \left(\mathrm {w} _ {1}\right) + \left(1 - \mathrm {p} _ {1}\right) \mathrm {U} \left(\mathrm {w} _ {2}\right) = \mathrm {U} \left[ \mathrm {p} _ {1} \mathrm {w} _ {1} + \left(1 - \mathrm {p} _ {1}\right) \mathrm {w} _ {2} \right] \tag {4.22}
+\mathrm{p}_{1} \mathrm{U}\left(\mathrm{w}_{1}\right) + \left(1 - \mathrm{p}_{1}\right) \mathrm{U}\left(\mathrm{w}_{2}\right) = \mathrm{U}\left[\mathrm{p}_{1} \mathrm{w}_{1} + \left(1 - \mathrm{p}_{1}\right) \mathrm{w}_{2}\right] \tag{4.22}
 $$
 
 Equation (4.22) implies the linearity of the function  $U(w)$  in all of the domain  $D$ , as shown in Fig. 4.4.
@@ -3696,7 +3850,7 @@ Having defined the relationship between utility function  $U(w)$  and the risk b
 The Absolute Risk Aversion (ARA)  $(\lambda)$  is defined by the ratio between the first and second derivative of the utility function  $(U(.))$  as defined in the current monetary wealth  $(w_0)$  (it is a monetary amount) so that  $U(w_0)$ , as follows:
 
 $$
-\lambda_ {\left(\mathrm {w} _ {0}\right)} = - \frac {\mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} \tag {4.23}
+\lambda_{\left(\mathrm{w}_{0}\right)} = - \frac{\mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} \tag{4.23}
 $$
 
 The coefficient  $\lambda_{\mathrm{(w_0)}}$  measures the concavity of the utility function  $(\mathrm{U}(\mathrm{w}_0))$  in the point  $\mathbf{w}_0$ . It is the Arrow (1970)-Pratt (1964) that measures the absolute (local) risk aversion. The measure of risk aversion is defined as "local" because it is a function of the initial level of wealth. The larger  $\lambda_{\mathrm{(w_0)}}$ , the greater the degree of risk aversion.
@@ -3711,7 +3865,7 @@ The first derivative is always positive (function increasing), while the second 
 - risk aversion: the utility function  $(\mathrm{U}(\mathrm{w}_0))$  is concave. Consequently, the coefficient  $\lambda_{(\mathrm{w}_0)}$  is positive:
 
 $$
-\lambda_ {\left(\mathrm {w} _ {0}\right)} = - \frac {\left(- \mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} = \frac {\mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} > 0 \quad \forall \mathrm {w} _ {0} \in \mathrm {D} \tag {4.24}
+\lambda_{\left(\mathrm{w}_{0}\right)} = - \frac{\left(- \mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} = \frac{\mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} > 0 \quad \forall \mathrm{w}_{0} \in \mathrm{D} \tag{4.24}
 $$
 
 The coefficient  $\lambda_{\mathrm{(w_0)}}$  is always positive. It increases as the second derivative increases and therefore with an increase in the absolute risk aversion of the investor;
@@ -3719,7 +3873,7 @@ The coefficient  $\lambda_{\mathrm{(w_0)}}$  is always positive. It increases as
 - risk lover: the utility function  $(\mathrm{U}(\mathrm{w}_0))$  is convex. Consequently, the coefficient  $\lambda_{(\mathrm{w}_0)}$  is negative:
 
 $$
-\lambda_ {\left(\mathrm {w} _ {0}\right)} = - \frac {\left(+ \mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} = - \frac {\mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} <   0 \quad \forall \mathrm {w} _ {0} \in \mathrm {D} \tag {4.25}
+\lambda_{\left(\mathrm{w}_{0}\right)} = - \frac{\left(+ \mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} = - \frac{\mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} < 0 \quad \forall \mathrm{w}_{0} \in \mathrm{D} \tag{4.25}
 $$
 
 Therefore, the higher the coefficient  $\lambda_{(w_0)}$ , the higher the absolute risk aversion of the investor.
@@ -3739,13 +3893,13 @@ $$
 We have:
 
 $$
-\lambda_ {\left(\mathrm {w} _ {0}\right)} ^ {\mathrm {V}} = - \frac {\mathrm {V} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {V} ^ {\prime} \left(\mathrm {w} _ {0}\right)} = - \frac {\mathrm {a U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {a U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} = - \frac {\mathrm {U} ^ {\prime \prime} \left(\mathrm {w} _ {0}\right)}{\mathrm {U} ^ {\prime} \left(\mathrm {w} _ {0}\right)} = \lambda_ {\left(\mathrm {w} _ {0}\right)} ^ {\mathrm {U}} \tag {4.26}
+\lambda_{\left(\mathrm{w}_{0}\right)}^{\mathrm{V}} = - \frac{\mathrm{V}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{V}^{\prime}\left(\mathrm{w}_{0}\right)} = - \frac{\mathrm{a U}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{a U}^{\prime}\left(\mathrm{w}_{0}\right)} = - \frac{\mathrm{U}^{\prime\prime}\left(\mathrm{w}_{0}\right)}{\mathrm{U}^{\prime}\left(\mathrm{w}_{0}\right)} = \lambda_{\left(\mathrm{w}_{0}\right)}^{\mathrm{U}} \tag{4.26}
 $$
 
 The inverse of the Absolute Risk Aversion is defined Absolute Risk Tolerance (ART)  $(\tau)$ . Formally, it is equal to:
 
 $$
-\tau_ {\left(w _ {0}\right)} = \frac {1}{\lambda_ {\left(w _ {0}\right)}} = - \frac {U ^ {\prime} \left(w _ {0}\right)}{U ^ {\prime \prime} \left(w _ {0}\right)} \tag {4.27}
+\tau_{\left(w_{0}\right)} = \frac{1}{\lambda_{\left(w_{0}\right)}} = - \frac{U^{\prime}\left(w_{0}\right)}{U^{\prime\prime}\left(w_{0}\right)} \tag{4.27}
 $$
 
 Therefore, the higher the absolute risk aversion of the investor, the lower the absolute risk tolerance, and also, the lower the absolute risk aversion of the investor, the higher the absolute risk tolerance.
@@ -3847,7 +4001,7 @@ where  $a$  is an arbitrary constant.
 The first derivative is always positive and therefore the function is always increasing. Indeed:
 
 $$
-\mathrm {U} ^ {\prime} (\mathrm {w}) = \mathrm {b}
+\mathrm{U}^{\prime}(\mathrm{w}) = \mathrm{b}
 $$
 
 The second derivative is equal to zero. It implies that there is no concavity and then the investor is risk neutral.
@@ -3859,7 +4013,7 @@ Therefore, it implies that the risk neutral is equivalent to the linear utility 
 The function can be defined as follows:
 
 $$
-\mathrm {U} (\mathrm {w}) = \frac {1}{a} w ^ {a} \quad a \langle 1; a \neq 0; w \rangle 0 \tag {4.34}
+\mathrm{U}(\mathrm{w}) = \frac{1}{a} w^{a} \quad a < 1; a \neq 0; w > 0 \tag{4.34}
 $$
 
 The first and second derivatives are the following:
@@ -3929,7 +4083,7 @@ Therefore, the absolute risk aversion  $(\lambda_{(\mathrm{w})})$  decreases as 
 The function can be defined as follows:
 
 $$
-\mathrm {U} (\mathrm {w}) = \mathrm {a} \left(1 - e ^ {- \frac {w}{a}}\right) \quad a > 0 \tag {4.36}
+\mathrm{U}(\mathrm{w}) = \mathrm{a} \left(1 - e^{-\frac{w}{a}}\right) \quad a > 0 \tag{4.36}
 $$
 
 This is a superiorly limited exponential function. The parameter  $\underline{a}$  is the upper extremity and therefore it represents the maximum potentiality. Indeed, the function for  $\mathrm{U(w)} = a$  has a horizontal asymptote:
@@ -3967,7 +4121,7 @@ In this case, the relative risk aversion  $(\rho_{(\mathrm{w})})$  increases as 
 The function can be defined as follows:
 
 $$
-\mathrm {U} (\mathrm {w}) = \mathrm {w} - \frac {\mathrm {a}}{2} \mathrm {w} ^ {2} \quad \mathrm {a} > 0 \tag {4.37}
+\mathrm{U}(\mathrm{w}) = \mathrm{w} - \frac{\mathrm{a}}{2} \mathrm{w}^{2} \quad \mathrm{a} > 0 \tag{4.37}
 $$
 
 The first and second derivatives are the following:
@@ -3993,7 +4147,7 @@ $$
 It is relevant to know that the first derivative must be positive, and therefore the quadratic is only defined for a value of wealth  $(w)$  equal to:
 
 $$
-1 - a w > 0 \rightarrow w <   \frac {1}{a} \tag {4.38}
+1 - a w > 0 \rightarrow w < \frac{1}{a} \tag{4.38}
 $$
 
 This is known as the "bliss point".
@@ -4085,7 +4239,7 @@ $$
 In order to represent the absolute risk aversion coefficient in the same unit measures of  $k$ , the absolute risk tolerance coefficient  $(\tau_{(w_0)} = \frac{1}{\lambda_{(w_0)}})$  can be used. In this case Eq. (4.44) can be rewritten as follows:
 
 $$
-\mathrm {U} (\mathrm {k} + \mathrm {k} _ {1}) = \mathrm {k} _ {1} - \frac {1}{2 \tau_ {\left(\mathrm {w} _ {0}\right)}} \mathrm {k} _ {1} ^ {2} \tag {4.39}
+\mathrm{U}(\mathrm{k} + \mathrm{k}_{1}) = \mathrm{k}_{1} - \frac{1}{2 \tau_{\left(\mathrm{w}_{0}\right)}} \mathrm{k}_{1}^{2} \tag{4.39}
 $$
 
 Equation (4.39) can be considered as a generic quadratic utility function.
@@ -4171,7 +4325,7 @@ $$
 This equation shows how the investor chooses on the basis of two variables: mean  $E(\widetilde{W})$  and variance  $Var(\widetilde{W})$ . The relationship can be defined as follows:
 
 $$
-\operatorname {E} \left[ \mathrm {U} (\widetilde {\mathrm {W}}) \right] = \Psi \left[ \binom {+} {\mathrm {E} (\widetilde {\mathrm {W}})}; \left(\operatorname {V a r} (\widetilde {\mathrm {W}})\right) \right] \tag {4.40}
+\operatorname{E}\left[\mathrm{U}(\widetilde{\mathrm{W}})\right] = \Psi\left[\binom{+}{\mathrm{E}(\widetilde{\mathrm{W}})}; \left(\operatorname{Var}(\widetilde{\mathrm{W}})\right)\right] \tag{4.40}
 $$
 
 The function  $\Psi$  is called mean-variance indirect utility (or indirect mean-variance utility function), and it shows that:
@@ -4198,7 +4352,7 @@ $$
 Generalisation of the utility functions that can be classified in the Hyperbolic Absolute Risk Aversion (HARA) class, is the following:
 
 $$
-\mathrm {U} (\mathrm {w}) = \frac {1}{a _ {2} - 1} \left(a _ {1} + a _ {2} w\right) ^ {1 - \frac {1}{a _ {1}}} \quad w > - \frac {a _ {1}}{a _ {2}}; a _ {2} \neq 0 \tag {4.41}
+\mathrm{U}(\mathrm{w}) = \frac{1}{a_{2} - 1} \left(a_{1} + a_{2} w\right)^{1 - \frac{1}{a_{1}}} \quad w > - \frac{a_{1}}{a_{2}}; a_{2} \neq 0 \tag{4.41}
 $$
 
 where  $a_1$  and  $a_2$  are arbitrary constants able to guarantee positive value of absolute risk aversion  $(\lambda_{(\mathrm{w})})$ .
@@ -4206,7 +4360,7 @@ where  $a_1$  and  $a_2$  are arbitrary constants able to guarantee positive val
 Utility functions grouped in this class have the following absolute risk aversion  $(\lambda_{(\mathrm{w})})$ :
 
 $$
-\lambda_ {(\mathrm {w})} = \frac {1}{\mathrm {a} _ {1} + \mathrm {a} _ {2} w} \tag {4.42}
+\lambda_{(\mathrm{w})} = \frac{1}{\mathrm{a}_{1} + \mathrm{a}_{2} w} \tag{4.42}
 $$
 
 # 4.3 Utility Functions
@@ -4236,13 +4390,13 @@ The utility functions classified in the HARA group can be generalized in the cla
 The generalization of the utility functions able to be grouped in DARA class, is the following:
 
 $$
-\mathrm {U} (\mathrm {w}) = \left(w + \frac {H}{G}\right) ^ {1 - \frac {1}{G}} \tag {4.43}
+\mathrm{U}(\mathrm{w}) = \left(w + \frac{H}{G}\right)^{1 - \frac{1}{G}} \tag{4.43}
 $$
 
 where the absolute risk aversion is the following:
 
 $$
-\lambda_ {(\mathrm {w})} = \frac {1}{\mathrm {G} w + H} = \frac {1}{\mathrm {G}} \cdot \frac {1}{\mathrm {w} + \frac {H}{G}} > 0 \tag {4.44}
+\lambda_{(\mathrm{w})} = \frac{1}{\mathrm{G} w + H} = \frac{1}{\mathrm{G}} \cdot \frac{1}{\mathrm{w} + \frac{H}{G}} > 0 \tag{4.44}
 $$
 
 It is worth noting that by changing the value of  $\mathbf{G}$  and  $\mathbf{H}$  in the absolute risk aversion  $(\lambda_{(\mathrm{w})})$  it is possible to obtain other classes. Indeed:
@@ -4253,7 +4407,7 @@ It is worth noting that by changing the value of  $\mathbf{G}$  and  $\mathbf{H}
 The DARA generalization is the following:
 
 $$
-\frac {\partial \lambda_ {(\mathrm {w})}}{\partial (w)} = - \frac {\mathrm {U} ^ {\prime \prime \prime} (w) \cdot \mathrm {U} ^ {\prime} (w) - [ \mathrm {U} ^ {\prime \prime} (w) ] ^ {2}}{[ \mathrm {U} ^ {\prime} (w) ] ^ {2}} <   0 \tag {4.45}
+\frac{\partial \lambda_{(\mathrm{w})}}{\partial (w)} = - \frac{\mathrm{U}^{\prime\prime\prime}(w) \cdot \mathrm{U}^{\prime}(w) - [\mathrm{U}^{\prime\prime}(w)]^{2}}{[\mathrm{U}^{\prime}(w)]^{2}} < 0 \tag{4.45}
 $$
 
 In this case the third derivative is positive  $(\mathrm{U}^{\prime \prime \prime}(w) > 0)$ . It implies that as wealth increases, there is less absolute risk aversion.
@@ -4285,7 +4439,7 @@ The definition of this aim is simplification because the aim is based on a singl
 The utility of the expected value of wealth  $(\mathrm{U}[\mathrm{E}(\mathrm{w})])$  is equal to the sum of the expected value of the utility function  $(\mathrm{E}[\mathrm{U}(\mathrm{w})])$  and the risk  $(\Phi (\mathrm{w}))$  (Castellani et al. 2005), as follows:
 
 $$
-\mathrm {U} [ \mathrm {E} (\mathrm {w}) ] = \mathrm {E} [ \mathrm {U} (\mathrm {w}) ] + \Phi (\mathrm {w}) \tag {4.46}
+\mathrm{U}[\mathrm{E}(\mathrm{w})] = \mathrm{E}[\mathrm{U}(\mathrm{w})] + \Phi(\mathrm{w}) \tag{4.46}
 $$
 
 In a condition of risk aversion, the risk is always positive, while the risk is null in a condition of risk neutral or in the use of a degenerate variable.
@@ -4293,7 +4447,7 @@ In a condition of risk aversion, the risk is always positive, while the risk is 
 Equation (4.46) can be re-written in terms of risk  $(\Phi(w))$  or in terms of the expected value of the utility function  $(E[U(w)])$  as follows:
 
 $$
-\mathrm {U} [ \mathrm {E} (\mathrm {w}) ] = \mathrm {E} [ \mathrm {U} (\mathrm {w}) ] + \Phi (\mathrm {w}) \rightarrow\begin{array}{l}\Phi (\mathrm {w}) = \mathrm {U} [ \mathrm {E} (\mathrm {w}) ] - \mathrm {E} [ \mathrm {U} (\mathrm {w}) ]\\\mathrm {E} [ \mathrm {U} (\mathrm {w}) ] = \mathrm {U} [ \mathrm {E} (\mathrm {w}) ] - \Phi (\mathrm {w})\end{array}\tag {4.47}
+\mathrm{U}[\mathrm{E}(\mathrm{w})] = \mathrm{E}[\mathrm{U}(\mathrm{w})] + \Phi(\mathrm{w}) \rightarrow\begin{array}{l}\Phi(\mathrm{w}) = \mathrm{U}[\mathrm{E}(\mathrm{w})] - \mathrm{E}[\mathrm{U}(\mathrm{w})]\\\mathrm{E}[\mathrm{U}(\mathrm{w})] = \mathrm{U}[\mathrm{E}(\mathrm{w})] - \Phi(\mathrm{w})\end{array}\tag{4.47}
 $$
 
 Note that maximization of the expected value of the utility function  $(E[U(w)])$  is due to maximization of the expected value of the wealth  $(U[E(w)])$ , as well as minimization of the risk  $(\Phi (w))$ . Consequently, the expected value of the utility is a function of the trade-off between risk and return.
@@ -4301,17 +4455,17 @@ Note that maximization of the expected value of the utility function  $(E[U(w)])
 Specifically, for a defined level of wealth  $(w)$ , using  $m$  for the expected value of the wealth  $(m = E(w))$ ,  $\varphi$  the risk level  $(\varphi = \Phi (w))$ , and  $U$  the expected utility  $(U = E[U(w)])$ , each financial position can be defined on the basis of the trade-off between risk  $(\varphi)$  and return  $(m)$  as follows (Castellani et al. 2005);
 
 $$
-\mathrm {U} (\varphi , \mathrm {m}) = \mathrm {U} (\mathrm {m}) - \varphi \tag {4.48}
+\mathrm{U}(\varphi, \mathrm{m}) = \mathrm{U}(\mathrm{m}) - \varphi \tag{4.48}
 $$
 
 There is a subset of the plane  $(\varphi, m)$  where the set of investment opportunities can be seen. If the utility function is continuous and derivable at least twice in the plane  $(\varphi, m)$ , the two partial derivatives are the following:
 
 $$
-\frac {\partial \mathrm {U} _ {(\varphi , \mathbf {m})}}{\partial \mathbf {m}} = \mathrm {U} ^ {\prime} (\mathbf {m}) \tag {4.49}
+\frac{\partial \mathrm{U}_{(\varphi, \mathbf{m})}}{\partial \mathbf{m}} = \mathrm{U}^{\prime}(\mathbf{m}) \tag{4.49}
 $$
 
 $$
-\frac {\partial \mathbf {U} _ {(\varphi , \mathbf {m})}}{\partial \varphi} = - 1
+\frac{\partial \mathbf{U}_{(\varphi, \mathbf{m})}}{\partial \varphi} = - 1
 $$
 
 Therefore, given two points in the plane  $(\varphi ,m)$  they represent two financial positions:
@@ -4334,13 +4488,13 @@ At this stage of the analysis the main problem is related to the impossibility o
 The solution of the problem requires consideration of the objectives of  $\varphi$  and  $m$  jointly. For this objective the function  $U(\varphi, m)$  can be used. Therefore, it is necessary to derive the level set (level curve) of the space  $U(\varphi, m)$ , and then the shape of the points in the plane  $(\varphi, m)$  corresponding to the same level of the expected utility  $(\bar{U})$ , as follows (Castellani et al. 2005):
 
 $$
-\mathrm {U} (\varphi , \mathrm {m}) = \bar {\mathrm {U}} \rightarrow \bar {U} = U (m) - \varphi \tag {4.50}
+\mathrm{U}(\varphi, \mathrm{m}) = \bar{\mathrm{U}} \rightarrow \bar{U} = U(m) - \varphi \tag{4.50}
 $$
 
 and therefore:
 
 $$
-\mathrm {U} (\mathrm {m}) = \varphi + \bar {\mathrm {U}} \tag {4.51}
+\mathrm{U}(\mathrm{m}) = \varphi + \bar{\mathrm{U}} \tag{4.51}
 $$
 
 The utility function is always increasing (the first derivative is always positive). Then it is an injective function (one-to-one function) and its inverse is equal to:
@@ -14237,3 +14391,62 @@ Finally, it is relevant to note that the large use of a rigorous quantitative an
 - first, models are easier to understand if they are studied in their formal construction. The mathematical form allows us to further understand the models in their construction, assumptions, and then, in their clear capabilities and limits;
 - second, the mathematical form does not allow inappropriate manipulation of the equations and, consequently, uncorrected use of the models. Every equation is the result of a rigorous formal process and their modification can be realized only by following the same rigorous formal process;
 - third, the mathematical form does not allow for attribution of the equation meanings that are not supported by their strict formal derivation. Every equation acquires form and meanings strictly related to the mathematical process of derivation. The clear derivation step-by-step of each equation does not allow errors in the equations interpretation and, consequently, in the use of models.
+
+## D2 Diagrams for Corporate Valuation Visualization
+
+### Company Valuation Framework
+```d2
+# Corporate Valuation Components
+business_model: "Business Model"
+fundamental_analysis: "Fundamental Analysis"
+capital_markets: "Capital Markets"
+valuation_models: "Valuation Models"
+
+business_model -> fundamental_analysis: "Qualitative & Quantitative Analysis"
+fundamental_analysis -> valuation_models: "Expected Cash Flows"
+capital_markets -> valuation_models: "Cost of Capital"
+valuation_models -> "Company Value": "DCF Framework"
+```
+
+### DCF Valuation Model
+```d2
+# Discounted Cash Flow Model
+cash_flows: "Expected Future Cash Flows"
+discount_rate: "Cost of Capital"
+time_horizon: "Time Horizon"
+terminal_value: "Terminal Value"
+company_value: "Company Value"
+
+cash_flows -> discount_rate: "Risk Assessment"
+time_horizon -> terminal_value: "Perpetuity Growth"
+cash_flows -> company_value: "Present Value Sum"
+terminal_value -> company_value: "Discounted Terminal Value"
+discount_rate -> company_value: "Present Value Calculation"
+```
+
+### Capital Structure and Cost of Capital
+```d2
+# Capital Structure Components
+equity: "Cost of Equity"
+debt: "Cost of Debt"
+capital_structure: "Capital Structure (D/E)"
+wacc: "Weighted Average Cost of Capital"
+
+equity -> wacc: "Weighted by Equity Proportion"
+debt -> wacc: "Weighted by Debt Proportion"
+capital_structure -> wacc: "Determines Weights"
+```
+
+### Value Creation Framework
+```d2
+# Value Creation Components
+return_on_capital: "Return on Invested Capital"
+cost_of_capital: "Cost of Capital"
+value_creation: "Value Creation"
+capital_invested: "Capital Invested"
+
+return_on_capital -> value_creation: "Exceeds Cost of Capital"
+cost_of_capital -> value_creation: "Benchmark Rate"
+capital_invested -> return_on_capital: "Capital Allocation"
+value_creation -> "Shareholder Value": "Positive Spread"
+```

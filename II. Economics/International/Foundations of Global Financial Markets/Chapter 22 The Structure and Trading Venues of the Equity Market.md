@@ -1,103 +1,101 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '22'
-linter-yaml-title-alias: '22'
+title: The Structure and Trading Venues of the Equity Market
 primary_tags:
-- circuit breakers trading limit
-- institutional investors differ traditional
-- stock trading market structures
-- responsibility division trading markets
-- broker determining execute trade
-- market orders entrusted brokers
+  - equity market structure
+  - stock trading venues
+  - electronic trading systems
+  - market regulation
+  - alternative trading systems
+  - order execution mechanisms
 secondary_tags:
-- 22 equity trading venues
-- 22 securities exchange act
-- trading market regulation
-- equity markets regulation
-- stocks specialists act broker
-- nyse assigned specialists
-- evolution stock markets institutionalization
-- trading floor serve fiduciaries
-- market volatility rules involve
-- trading venues united states
-- breaker rules adopted sec
-- specialist stock enters order
-- type market structure order
-- trading specialist able determine
-- trading crowd order specialist
-- volatility determining trading halts
-tags_extracted: '2025-12-18T00:21:29.449231'
+  - institutional investors
+  - nyse specialists
+  - nasdaq market makers
+  - circuit breakers
+  - short selling rules
+  - insider trading regulation
+  - dark pools
+  - electronic communication networks
+  - crossing networks
+  - payment for order flow
+  - best execution
+  - market fragmentation
+  - national market system
+  - reg NMS
+  - depository receipts
+  - euro equity offerings
+cssclasses: academia
 ---
-
-# 22
 
 # The Structure and Trading Venues of the Equity Market
 
-# CONTENTS
+## CONTENTS
 
-# Learning Objectives
+## Learning Objectives
 
-# Evolution of Stock Markets and Their Institutionalization
+## Evolution of Stock Markets and Their Institutionalization
 
 Electronic Trading
 
-# Regulation of U.S. Equity Markets
+## Regulation of U.S. Equity Markets
 
-U.S. Regulatory System
+### U.S. Regulatory System
 
-Securities and Exchange Commission
+#### Securities and Exchange Commission
 
-Financial Industry Regulatory Authority
+#### Financial Industry Regulatory Authority
 
-State regulation
+#### State regulation
 
-# Stock Trading Market Structures
+## Stock Trading Market Structures
 
-Order-Driven Markets
+### Order-Driven Markets
 
-Quote-Driven Markets
+### Quote-Driven Markets
 
-Order-Driven versus Quote-Driven Markets
+### Order-Driven versus Quote-Driven Markets
 
-# U.S. Equity Trading Venues
+## U.S. Equity Trading Venues
 
-Exchange Markets for Listed Stocks
+### Exchange Markets for Listed Stocks
 
-New York Stock Exchange
+#### New York Stock Exchange
 
-Nasdaq Stock Market: Exchange Market for Unlisted Stocks
+#### Nasdaq Stock Market: Exchange Market for Unlisted Stocks
 
-Alternative Trading Systems
+### Alternative Trading Systems
 
-Electronic communications networks
+#### Electronic communications networks
 
-Crossing networks
+#### Crossing networks
 
-# Execution of an Order
+## Execution of an Order
 
-# Market Trading Regulation in the United States
+## Market Trading Regulation in the United States
 
-Regulatory Background
+### Regulatory Background
 
-Market Regulation
+### Market Regulation
 
-Market volatility rules
+#### Market volatility rules
 
-Short selling rules
+#### Short selling rules
 
-Insider trading rules
+#### Insider trading rules
 
-Other Types of Common Stock Trading Offshore Trading Rule 144A Securities Euro Equity
+### Other Types of Common Stock Trading
 
-Key Points
+#### Offshore Trading
 
-Questions
+#### Rule 144A Securities
 
-Learning Objectives
+#### Euro Equity
+
+## Key Points
+
+## Questions
+
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -157,16 +155,16 @@ Chicago, Philadelphia, Boston, National (formerly Cincinnati), and Pacific excha
 
 Four general interacting factors contributed to significant changes experienced by the equity markets throughout the world over the past 40 years:
 
-1. institutionalization of the stock market as a result of a shift away from traditional small individual investors to large institutional investors;
-2. change in trading from mutual member-owned floor trading exchanges to publicly owned computer-based trading exchanges together with automated trading systems;
-3. automation of settlement systems; and
-4. changes in government regulation of the market.
+1. Institutionalization of the stock market as a result of a shift away from traditional small individual investors to large institutional investors;
+2. Change in trading from mutual member-owned floor trading exchanges to publicly owned computer-based trading exchanges together with automated trading systems;
+3. Automation of settlement systems; and
+4. Changes in government regulation of the market.
 
 The institutionalization of the common stock market has important implications for the design of equity trading systems, because the demands made by institutional investors differ from those made by traditional small investors. Moreover, the role of the equity market in facilitating capital formation for public corporations means designing a market structure that considers not just large corporations but also small corporations and startup companies seeking to raise equity capital, a market sector that we describe in chapter 28.
 
 The nature of equity trading is currently dominated by the use of computers to generate orders as a result of advances in computer technology, through what is referred to as algorithmic trading. Because of this dominance of computer trading, the equity market has been referred to as an algorithmic marketplace, in contradistinction to how equity markets previously operated, which is called a manual market. These topics are discussed throughout this chapter.
 
-# Electronic Trading
+### Electronic Trading
 
 Traditionally, equities have been traded globally on "exchanges," which are physical locations at which individual traders conduct transactions with one another. The nature of exchanges has changed considerably over the past few decades in the United States, as summarized in table 22.1. Globally, exchanges have followed similar trends. The current overall approach to equity trading, as summarized in figure 22.1, consists of a combination of exchange trading venues and off-exchange trading systems (called "alternative trading systems" (ATS)) of equities. Consider a recent advance in trading, called electronic trading.
 
@@ -175,6 +173,64 @@ Figure 22.1
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/78414501-a7a4-403c-a5d7-6c32f2897433/0d4cd69a7c914d2e2a5685ec93b26114f857b08dc5cbbe2a97bfba52e5a8b55a.jpg)
 
 Structure of U.S. stock markets.
+
+```d2
+# U.S. Equity Market Structure
+
+Exchange Markets: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  
+  Listed Stocks: {
+    NYSE: {
+      shape: rectangle
+      Specialist System
+      Floor Trading
+      SuperDOT
+    }
+    
+    Nasdaq: {
+      shape: rectangle
+      Market Makers
+      Electronic Network
+      Three Tiers
+    }
+  }
+}
+
+Alternative Trading Systems: {
+  shape: rectangle
+  style.fill: "#f0f8e8"
+  
+  ECNs: {
+    shape: rectangle
+    Light Pools
+    Continuous Trading
+    Limit Order Book
+  }
+  
+  Crossing Networks: {
+    shape: rectangle
+    Dark Pools
+    Batch Processing
+    Anonymous Trading
+  }
+}
+
+Market Participants: {
+  shape: rectangle
+  style.fill: "#f8e8f0"
+  
+  Institutional Investors
+  Retail Investors
+  Market Makers
+  Brokers
+}
+
+Exchange Markets -> Alternative Trading Systems: Order Flow
+Market Participants -> Exchange Markets: Orders
+Market Participants -> Alternative Trading Systems: Orders
+```
 
 Electronic trading is a method of trading securities whereby traders are brought together via electronic trading platforms or networks that create a "virtual marketplace," rather than via a physical trading floor. Electronic trading has to a large extent replaced "floor trading" and telephone trading, as discussed below, wherein traders are brought together physically on a trading floor or by telephone contact, respectively.
 
@@ -204,16 +260,18 @@ The purpose of the Securities Act of 1933 and the Securities Exchange Act of 193
 
 The five general areas where the SEC has responsibility are:
 
-- interpreting and enforcing federal securities laws passed by Congress;
-- issuing new rules and amending of existing rules;
-- overseeing and monitoring the major players in the securities markets (i.e., securities firms, brokers, investment advisers, and ratings agencies);
-- overseeing private self-regulatory organizations in the securities, accounting, and auditing fields; and
-- coordinating U.S. securities regulation with other federal entities (e.g., Congress, the Department of the Treasury, and the Federal Reserve), state regulators, and foreign authorities.
+- Interpreting and enforcing federal securities laws passed by Congress;
+- Issuing new rules and amending of existing rules;
+- Overseeing and monitoring the major players in the securities markets (i.e., securities firms, brokers, investment advisers, and ratings agencies);
+- Overseeing private self-regulatory organizations in the securities, accounting, and auditing fields; and
+- Coordinating U.S. securities regulation with other federal entities (e.g., Congress, the Department of the Treasury, and the Federal Reserve), state regulators, and foreign authorities.
 
 To carry out its responsibilities, the SEC relies on its five divisions:
 
 - Division of Corporation Finance: Executing the SEC's duty for overseeing corporate disclosure of important information to investors when securities are publicly offered is this division's responsibility.
+
 - Division of Trading and Markets: This division is responsible for executing the SEC's duty to maintain fair, orderly, and efficient markets.
+
 - Division of Investment Management: The responsibility of this division is to provide investor protection and promote capital formation by using its oversight and regulatory authority over the investment management industry.
 - Division of Enforcement: This division is responsible for law enforcement function by recommending investigations of securities law violations, recommending the SEC bring civil actions in federal court or an administrative proceeding before an administrative law judge, and prosecuting these cases.
 - Division of Economic and Risk Analysis: This division provides sophisticated and data-driven economic and risk analyses to inform the SEC in its policymaking, rulemaking, enforcement, and examinations.
@@ -238,7 +296,7 @@ An exchange is often defined as a market where intermediaries meet to deliver an
 
 There are two overall market models for trading stocks. The first model is order driven, in which buy and sell orders of those public participants who are the holders of the securities establish the prices at which other public participants can trade. These orders can be either market orders or limit orders, which we describe in chapter 23. The second model is quote driven, in which intermediaries (i.e., market makers or dealers) quote the prices at which the public participants trade. Market makers provide a bid quote (to buy) and an offer quote (to sell), and they realize revenues from the spread between these quotes. Thus, market makers derive a profit from the spread and the turnover of their stocks.
 
-# Order-Driven Markets
+### Order-Driven Markets
 
 Participants in a pure order-driven market are referred to as "naturals" (the natural buyers and sellers). No intermediary participates as a trader in a pure order-driven market. Instead, the investors supply the liquidity themselves. That is, the natural buyers are the source of liquidity for the natural sellers, and vice versa. The naturals can be either buyers or sellers, each using market or limit orders.
 
@@ -292,7 +350,7 @@ Information provided by trading venues is important for market transparency. Pre
 
 Transparency is provided by reporting on the Consolidated Quote System and Consolidated Tape System (CTS). Pre-trade transparency is provided by the display of the stock's national best bid and offer (NBBO) on the Consolidated Quote System. The CTS provides post-trade transparency by providing post-trade data, which include the transaction prices and the quantities traded. These topics are considered further below.
 
-# Exchange Markets for Listed Stocks
+### Exchange Markets for Listed Stocks
 
 Traditionally, exchange markets have been physical locations that are populated by "members" that use the exchange facilities and systems to exchange or trade listed stocks. Stocks traded on an exchange are said to be listed stocks. To be listed, a company must apply and satisfy requirements established by the exchange for minimum capitalization, shareholder equity, average closing share price, and other criteria. Even after being listed, exchanges may delist a company's stock if it no longer meets the exchange requirements.
 
@@ -347,7 +405,7 @@ The Nasdaq Stock Market is composed of three market tiers: (1) the Nasdaq Global
 
 Nasdaq is essentially a telecommunications network that links thousands of geographically dispersed market-making participants. Its electronic quotation system provides price quotations to market participants on Nasdaq-listed stocks. Although it maintains no central trading floor, Nasdaq functions as an electronic "virtual trading floor." More than 4,100 common stocks trade in the Nasdaq system. More than 500 dealers, known as market makers, representing some of the world's largest securities firms, provide competing bids to buy and offers to sell Nasdaq stocks to investors. Market makers must: (1) continuously post firm two-sided quotes good for most stocks; (2) report trades promptly; (3) be ready for automatic execution against their quotes; (4) integrate customer limit orders into their proprietary quotes; and (5) give precedence to customer limit orders and not place a quote on any system different from their Nasdaq quote unless that system is linked backed into Nasdaq. Many trades are "internalized," which means that a broker-dealer firm acts as market maker when executing on a principal basis the trade of one of its customers. Although not traded on an exchange, these trades must be reported through regular means, as discussed below.
 
-# Alternative Trading Systems
+### Alternative Trading Systems
 
 As mentioned earlier, ATS are off-exchange trading venues that serve as an alternative to trading on exchanges and for after-hours trading. There are two types of ATSs, electronic communication networks and crossing networks.
 
@@ -395,7 +453,7 @@ Regulation of securities markets, such as the stock market, has three primary ob
 
 Here our discussion of stock market regulation in the United States focuses on secondary market trading regulation. Recent regulations in this area were the result of financial crises in the stock market that required a major market regulatory overhaul or of high-profile market disruptions that necessitated plugging a regulatory gap. We begin with a brief description of stock market regulation in the United States since the 1960s and then turn to the current regulators. Finally, we look at several key regulations concerned with market volatility. We continue with our review of certain stock market trading regulations in chapter 23, because they require an understanding of trading strategies that regulators have found can cause market disruption.
 
-# Regulatory Background
+### Regulatory Background
 
 In the 1960s and early 1970s, the U.S. secondary markets for stocks became increasingly fragmented. In a fragmented market, some orders for a given stock are handled differently from other orders, as explained earlier in this chapter. Thus, the treatment of the order differs, depending on where it is ultimately executed. A differential treatment of orders may also arise if those orders vary in size, even if they pertain to the same stock and are executed in the same trading venue.
 
@@ -427,7 +485,7 @@ Overall, the general issue that the SEC has faced is how to design the NMS. Shou
 
 As explained earlier in this chapter, although the market has evolved to an electronic trading platform since 1978, market fragmentation continues.
 
-# Market Regulation
+### Market Regulation
 
 Here we describe regulation involving three activities: market volatility, short selling, and insider trading. More on market regulation is provided in the next chapter after we describe the various types of trading arrangements used by investors.
 
@@ -463,7 +521,7 @@ The SEC adopted Rule 10b-5 to implement Section 10(b). This rule defines when a 
 
 The second part of Rule 10b-5, Rule 10b-5-2, applies to nonbusiness relationships' (e.g., family members' and friends') use of material nonpublic information when trading. The rule provides circumstances in which such nonbusiness relationships create what the SEC refers to as a "duty of trust or confidence" that if used by a person would be breached by the disclosure of material nonpublic information and would be considered illegal.[15]
 
-# Other Types of Common Stock Trading
+## Other Types of Common Stock Trading
 
 Other types of common stock trading vehicles and security types are available to investors.
 
@@ -495,7 +553,7 @@ Corporations may issue equities outside their home market to finance subsidiarie
 
 U.S. corporations engage in equity offerings that, in addition to the primary U.S. component, include a portion of the issuance reserved for sale in the Euromarkets. This portion of a newly issued stock is referred to as a euro-equity tranche. Similarly, European firms offer equity securities with a U.S. tranche. The innovation of the euro-equity markets was not a matter of new equity securities or structures. Instead, the innovation consisted of an efficient international system for selling and distributing equity offerings to various markets in different countries at the same time.
 
-# Key Points
+## Key Points
 - Equity securities represent an ownership interest in a corporation, giving the investor the right to receive the earnings of the corporation when those earnings are distributed in the form of dividends.
 - The two types of equity securities are common stock and preferred stock, the latter being a senior corporate security, because it has priority over the common stock in a claim on assets in a liquidation and receives a fixed dividend before common stock holders receive their dividends.
 - The equity market has changed dramatically over the past 50 years because of (1) the institutionalization of the stock market as a result of a shift away from traditional small investors to large institutional investors, (2) changes in government regulation of the market, and (3) innovation owing largely to advances in computer technology.
@@ -556,7 +614,7 @@ U.S. corporations engage in equity offerings that, in addition to the primary U.
 - The advantage of the GDR structure to the corporation is that the corporation does not have to comply with all the regulatory issuing requirements of the foreign country where the stock is to be traded.
 - New equity issues may be offered in more than one country simultaneously. The term "euro equity" is used to describe a new stock offering that is offered simultaneously in several countries by an international syndicate.
 
-# Questions
+## Questions
 
 1. "Stocks traded on the Nasdaq are nonlisted stocks." Explain why you agree or disagree with this statement.
 2. Explain why the NYSE is described as a "hybrid market."

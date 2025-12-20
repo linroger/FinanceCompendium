@@ -1,20 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 2 - Term and Volatility Structures of Interest Rates
+primary_tags:
+  - term structure models
+  - yield curve analysis
+  - volatility term structure
+  - interest rate dynamics
+secondary_tags:
+  - treasury securities
+  - forward rate curve
+  - zero coupon yield curve
+  - par yield curve
+  - treasury auction system
+  - libor curve
+  - credit curve
+  - inflation curve
+  - volatility smile
+  - volatility surface
+  - floating rate bonds
+  - bootstrapping method
+  - nelson-siegel model
+  - treasury direct
+  - on-the-run issues
 cssclasses: academia
-title: Chapter 2
-linter-yaml-title-alias: Chapter 2
 ---
 
-# Chapter 2
+# Chapter 2 - Term and Volatility Structures of Interest Rates
 
-# Term and Volatility Structures of Interest Rates
+## Term and Volatility Structures of Interest Rates
 
 The fundamental knowledge underlying the entire universe of fixed income securities lies in the term structure of interest rates (or commonly known as the yield curve) and the term structure of volatilities (or volatility curve). The former is the foundation for fixed income securities that do not have any optionality and the latter is the foundation for those that do. In this chapter, we study both term structures at a very superficial level. In a later chapter, we study the fundamental factors that lie under these two term structures.
 
-# 2.1 Introduction
+## 2.1 Introduction
 
 Different from stocks, fixed income securities are like (interest rate) derivatives – duh!, in that the contracts will expire (and cease to exist) at a given future time. As a result, for a given issuer, there are usually contracts with different expiration dates. These contracts share the same fundamental risk (issuer risk which is usually the credit risk) and yet they differ in time risk (time-to-maturity risk, or term risk). Hence there exist interesting relationships among these securities of the same issuer and often depicted in two term structures: return and volatility.
 
@@ -26,17 +42,17 @@ The information of the yield curve can be inferred from traded prices of these s
 
 To analyze the yield and volatility curves separately and in combination, we need to build an interest rate model. In this chapter, we will focus on the markets and in Chapter ?? we will discuss how an interest rate model can be used.
 
-# 2.2 What Is a Yield Curve (Term Structure of Interest Rates)?
+### 2.2 What Is a Yield Curve (Term Structure of Interest Rates)?
 
 A yield curve (or term structure of interest rates) is a collection of yields with various maturities. In Chapter 1, we have seen various interest rates. Hence theoretically each interest rate category has a yield curve of its own. However, due to (lack of) liquidity and too few contracts, it is usually not easy to see a full yield curve of any of these interest rates except for US Treasuries and LIBOR (and more recently Is).
 
-# 2.2.1 A Sample: US Treasuries
+#### 2.2.1 A Sample: US Treasuries
 
 There are a large number of US Treasury securities traded publicly, as mentioned in Chapter 1. Treasury bills, notes, and bonds are the most important Treasury securities. As of January of 2020, there are  $40\mathrm{T}$  bills,  $295\mathrm{T}$  notes and bonds, and 43 TIPS. $^{1}$
 
 Treasury securities (bills, notes, bonds, and TIPS) of chosen maturities are auctioned regularly periodically.2 As we can see from Figure 2.1, the auctioned securities are: 4-week (1-month), 8-week (2-month), 13-week (3-month), 26-week (6-month), and 52-week (1-year) T bills, and 2-year, 3-year, 5-year, 7-year, 10-year, 20-year, and 30-year T notes and bonds.
 
-# Treasury Auction System: TAAPS
+##### Treasury Auction System: TAAPS
 
 According to Investopedia:
 
@@ -46,7 +62,7 @@ Treasury auctions began in 1929 with the auctioning of 3-Month Treasury Bills. F
 
 The participants must be certified by the Treasury department. In general, commercial banks are all certified.
 
-# TreasuryDirect: retail
+##### TreasuryDirect: retail
 
 TreasuryDirect was established during the Clinton administration which argued that individuals should be able to participate Treasury auctions as well as financial institutions. Prior to that, individuals can only participate in mutual funds to own Treasury returns.
 
@@ -60,7 +76,7 @@ The individuals who participate in purchasing Treasuries via TreasuryDirect cann
 
 Figure 2.1: Treasury Auction Schedule (partial list)
 
-# On-the-run Treasuries
+##### On-the-run Treasuries
 
 These auctioned Treasuries are known as "on-the-run" issues. As time goes by and new on-the-run issues roll out, existing old on-the-run issues become "off-the-run" as then roll down in their maturities. These off-the-run issues in general have low liquidity, compared to on-the-run ones. Due to this liquidity difference, their prices are not comparable as off-the-run issues bear an extra risk (and hence their prices should be lower). Hence, when we build a Treasury yield curve, it is customary that we use only on-the-run issues. Nevertheless, some institutions will use all issues to build the yield curve.
 
@@ -76,31 +92,29 @@ The following plot is a yield curve of selected Treasuries on a given day. This 
 
 Figure 2.2: On-the-run Treasury Issues
 
-# 2.2.2 Coupon-bearing Yield Curve and Par Yield Curve
+#### 2.2.2 Coupon-bearing Yield Curve and Par Yield Curve
 
 This regards mainly US Treasury securities. US Treasuries are one of the most liquid fixed income securities traded publicly. The prices of these hundreds of Treasuries are available every day. In Chapter 1, equation (1.3) as follows:
 
 $$
-P = \frac{1}{(1 + y / 2)^{t}} \left(\frac{c}{2} + \frac{c / 2}{1 + y / 2} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 \times n}}\right) \tag {2.1}
-$$ where  $t$  is the yearfraction under the semi-annual basis (see equation (1.3) for the numerical demonstration). As a result, every Treasury issue can obtain a yield which can be plotted as the following example (taken from Chen and Scott (2002)):
+P = \frac{1}{(1 + y / 2)^{t}} \left(\frac{c}{2} + \frac{c / 2}{1 + y / 2} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2 \times n}}\right) \tag{2.1}
+$$ where $t$ is the yearfraction under the semi-annual basis (see equation (1.3) for the numerical demonstration). As a result, every Treasury issue can obtain a yield which can be plotted as the following example (taken from Chen and Scott (2002)):
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/bced175528068e6ccc20baf074b8beda824897dfe0010d5e9f4ede1fc1844ff6.jpg)
 Figure 2.3: All Treasury Issues
 
-# A Remark
+##### A Remark
 
 It should be noted that there is another yield curve calculation that takes no year-fraction into account but use the clean prices. Yields using clean prices and without yearfraction are not the correct internal rate of return of the bond.
 
-# Par Yield Curve
+##### Par Yield Curve
 
 At issuance, yearfraction is 0 and all issues are auctioned at par. As a result, the formula used in Chapter 1:
 
 $$
-
 P = \frac{c / 2}{1 + y / 2} + \frac{c / 2}{(1 + y / 2)^{2}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{n}}
-
-$$ where  $c$  is the coupon rate and the face value is set at 1. This formula has the following property:
+$$ where $c$ is the coupon rate and the face value is set at 1. This formula has the following property:
 
 $$
 P = 1 \iff c = y
@@ -108,7 +122,7 @@ $$
 
 Over time, if rates go up, then previously issued Treasuries will become less than par (discount). Conversely, if rates drop, then previously issued Treasuries will become more than par (premium). Hence at any given time, the hundreds of Treasuries are mixed with par, discount and premium issues. The plot of all these mixed yields against their corresponding times to maturity (or duration).
 
-# Constant Maturity Treasury (CMT) Curve
+##### Constant Maturity Treasury (CMT) Curve
 
 We should note that the on-the-run Treasury notes and bonds shown in Figure 2.2 are par at issuance. The prices will start fluctuating after issuance. Nevertheless they remain on-the-run until their replacements come to auction.
 
@@ -116,7 +130,7 @@ According to the Treasury Auction Schedule (Figure 2.1), a 10-year note is aucti
 
 Hence, the Treasury department "adjusts" those on-the-run prices and try to result in a par yield for each bond. As a result, we can regard CMT rates as par rates. But note that these rates are not actual market rates but computed by the Treasury department.
 
-# 2.2.3 Zero Coupon Yield Curve
+#### 2.2.3 Zero Coupon Yield Curve
 
 Zero coupon bond yield curve (or zero curve) is the most important yield curve. This is because from this yield curve, we can compute discount factors (or discount curve) for all maturities. These discount factors are used to discount cash flows of the futures. The relationship between the discount factor and the yield for any given maturity is, under continuous time,
 
@@ -124,48 +138,48 @@ $$ y_{t, T} = - \frac{\ln P (t , T)}{T - t}
 $$ or under discrete time,
 
 
-$$ y_{t, T} = \sqrt [ T - t ]{\frac{1}{P (t , T)}} - 1
+$$ y_{t, T} = \sqrt[T - t]{\frac{1}{P (t , T)}} - 1
 $$
 
-For example,  $r_0 = y_{01} = 6\%$  and  $f_{12} = 8\%$  (both annual), then  $P(0,2) = e^{-(8\% +6\%)} = 0.8694$  (continuous) or  $P(0,2) = \frac{1}{(1 + 6\%) (1 + 8\%)} = 0.8735$  (discrete). Hence, the two year yield  $y_{02} = -\frac{\ln 0.8694}{2} = 7\%$  (continuous) or  $y_{02} = \sqrt{\frac{1}{0.8735}} - 1 = 6.995\%$ .
+For example, $r_0 = y_{01} = 6\%$ and $f_{12} = 8\%$ (both annual), then $P(0,2) = e^{-(8\% +6\%)} = 0.8694$ (continuous) or $P(0,2) = \frac{1}{(1 + 6\%)(1 + 8\%)} = 0.8735$ (discrete). Hence, the two year yield $y_{02} = -\frac{\ln 0.8694}{2} = 7\%$ (continuous) or $y_{02} = \sqrt{\frac{1}{0.8735}} - 1 = 6.995\%$.
 
-# A comment
+##### A comment
 
 Note that the coupon bond price is taken by the market, which is a result of no arbitrage trading. Coupon bond price is determined by arbitrage (if zeros are available)
 
 $$
-\begin{array}{l} \Pi (t, T_{1}, \dots T_{n}; c) = c P (t, T_{1}) + c P (t, T_{2}) + \dots + (1 0 0 + c) P (t, T_{n}) \\ = c \sum_{i = 1}^{n} P (t, T_{i}) + 1 0 0 P (t, T_{n}) \\ \end{array}
-$$ where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value \$1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of \$1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.7
+\begin{array}{l} \Pi (t, T_{1}, \dots T_{n}; c) = c P (t, T_{1}) + c P (t, T_{2}) + \dots + (100 + c) P (t, T_{n}) \\ = c \sum_{i = 1}^{n} P (t, T_{i}) + 100 P (t, T_{n}) \\ \end{array}
+$$ where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value \$1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of \$1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.$^{7}$
 
 
 The yield to maturity of this coupon bond is the internal solution to:
 
 $$
 
-\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} e^{- y_{0 i} \times (T_{i} - t)} c + e^{- y_{0 n} \times (T_{n} - t)} 1 0 0
+\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} e^{- y_{0 i} \times (T_{i} - t)} c + e^{- y_{0 n} \times (T_{n} - t)} 100
 
 $$ or
 
 
 $$
 
-\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} \frac{c}{(1 + y_{0 i})^{T_{i} - t}} + \frac{1 0 0}{(1 + y_{0 n})^{T_{n} - t}}
+\Pi (t, T_{1}, T_{2}, \dots T_{n}; c) = \sum_{i = 1}^{n} \frac{c}{(1 + y_{0 i})^{T_{i} - t}} + \frac{100}{(1 + y_{0 n})^{T_{n} - t}}
 
 $$
 
-For example, a 1-yr  $7\%$  coupon bond should be sold at 100.77(100 face) because:
+For example, a 1-yr $7\%$ coupon bond should be sold at 100.77 (100 face) because:
 
 $$
 
 107 e^{-6 \%} = 100.77
 
-$$ and 2-yr  $7 \%$  should be: $^{8}$
+$$ and 2-yr $7 \%$ should be:$^{8}$
 
 $$
 7 e^{-6 \%} + 107 e^{-6 \% -8 \%} = 99.61
 $$
 
-# 2.2.4 Forward Rate Curve
+#### 2.2.4 Forward Rate Curve
 
 It is important to construct a forward rate curve, once the yield curve is constructed, as demonstrated in Chapter 1. With a spline method, we obtain a continuous function for the yield curve, and hence it is quite easy to use the continuous discounting to construct a forward rate curve.
 
@@ -181,11 +195,11 @@ $$ f (t, T) = - \frac{\partial y (t , T)}{\partial T}
 $$ which implies that the forward rate is the first order differentiation (with respect to maturity) of the yield. Or reversely, yield is an integration of the forward rate. Readers are encouraged to compare this result with the discrete result in Chapter 1.
 
 
-# 2.3 How to Fit a Yield Curve Function
+### 2.3 How to Fit a Yield Curve Function
 
 The first step toward understanding a yield curve is to fit a function through the market observed prices. There are two popular methods of doing so, each serves a purpose. The first method is bootstrapping which is suitable for on-the-run Treasury rates (and later on for LIBOR and OIS curves as well). The second method is a functional form which can be a polynomial or a particularly parameterized function (e.g. Nelson and Siegel (1987)). This method is useful if all Treasuries are considered. It is also important to note that the bootstrapping method is best used for zero-coupon bonds (i.e. zero rates) while the functional form method can blend zero-coupon bonds and coupon bonds together.
 
-# 2.3.1 Bootstrapping
+#### 2.3.1 Bootstrapping
 
 As mentioned, the bootstrapping method is best to use zero rates. Hence, to demonstrate the bootstrapping method, we use the CMT (constant maturity Treasury) rates compiled by the Treasury department. CMT rates are calculated by the US Department of Treasury and are published daily on its website at Daily Treasury Yield Curve Rates page by 6:00 PM Eastern Time each trading day.
 
@@ -205,7 +219,7 @@ Table 2.2: Cash Flows of CMTs
 
 As we can see, the method used here is piece-wise flat. Now we can see how the other methods can be used.
 
-# Piece-wise Flat
+##### Piece-wise Flat
 
 In the next few subsections, we use a hypothetical example as follows:
 
@@ -220,14 +234,14 @@ Piece-wise flat is the most fundamental method in building the yield curve. It i
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/75708748990761c2f385953e697c52a1fe364736b222f2f54c1a2c383688f429.jpg)
 Figure 2.4: Piece-wise Flat
 
-# Piece-wise Linear
+##### Piece-wise Linear
 
 Piece-wise linear is continuous but non-smooth (i.e. non-differentiable). The first order derivative is non-continuous.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/00019a63ee21e537e2557ceb7a04cbed98054aa3dc0e489cd0226cd6ba1847f9.jpg)
 Figure 2.5: Piece-wise Linear
 
-# Splines
+##### Splines
 
 The spline method is a polynomial function between any two yields.
 
@@ -288,8 +302,8 @@ $$
 
 Hence,  $b_{i}$  is:
 
-$$ b_{i} = b_{i - 1} + 2 c_{i - 1} \left(\tau_{i - 1} - \tau_{i}\right) \tag {2.9}
-$$ which relies on previous coefficients  $b_{i-1}$  and  $c_{i-1}$  only. Using this result, we can then obtain  $c_i$  by plugging it in equation (2.6).
+$$ b_{i} = b_{i - 1} + 2 c_{i - 1} \left(\tau_{i - 1} - \tau_{i}\right) \tag{2.9}
+$$ which relies on previous coefficients $b_{i-1}$ and $c_{i-1}$ only. Using this result, we can then obtain $c_i$ by plugging it in equation (2.6).
 
 
 The following is an example of a quadratic spline.
@@ -320,9 +334,9 @@ It is also often called the Hermite method. It is popular among software vendors
 
 The values of  $b_{i}$  for  $1 \leq i \leq n$ .
 
-# 2.3.2 Using a Functional Form
+#### 2.3.2 Using a Functional Form
 
-# Nelson-Siegel
+##### Nelson-Siegel
 
 The following is the Nelson and Siegel function.
 
@@ -335,57 +349,57 @@ $$
 
 The model is typically applied by fitting the zero rate curve,  $y(\tau)$ , to a set of bond prices, but one can alternatively fit a model for the forward rate curve using the formula for  $f(\tau)$ . Yet Gurkaynak, Sack, and Wright (2006) use a variation of the model to fit the par yield curve. $^{12}$
 
-# Haugen
+##### Haugen
 
 Haugen suggests the following function:
 
 $$ y (\tau) = \beta_{0} + (\beta_{1} + \beta_{2} \tau) e^{- \beta_{3} \tau}
 $$
 
-# Arbitrary Function
+##### Arbitrary Function
 
 Given that there is no theoretical foundation of any of the fitting methods, one can simply seek the function of the best fit. Hence, one can just use a polynomial function between yields and times to maturity.
 
 $$ y (\tau) = \beta_{0} + \beta_{1} \tau + \beta_{2} \tau^{2} + \dots
 $$
 
-# 2.3.3 Using a Model
+#### 2.3.3 Using a Model
 
 See the example Figure 2.3 which is a three-factor CIR model.
 
-# 2.3.4 A Discussion
+#### 2.3.4 A Discussion
 
 In this section, I demonstrate how to construct a yield curve. The example of the bootstrapping is a piece-wise flat spot curve. Although this is the standard method used by the industry (e.g. Bloomberg), it should be noted that it is not theoretically preferred. As indicated in Section 2.2.4, forward rates are differentiation of the spot rates. Hence if the spot rate curve is non-continuous (and hence non-differentiable), then the forward curve will not exist. As a result, it is more preferred that the forward curve to be piece-wise flat. Later in this chapter, we will see how bootstrapping is applied on the forward curve.
 
 The purpose of having a function for the yield curve is that now discount factor can be computed at any time to maturity. In reality cash flows arrive throughout the calendar year. In order to discount any cash flow at any given time, we must know the discount factor at that time.
 
-# 2.4 Three Hypotheses
+### 2.4 Three Hypotheses
 
-# Pure expectation hypothesis
+##### Pure expectation hypothesis
 
 There is no uncertainty of interest rates. The shape of the yield curve is entirely determined by the expectations of future interest rates.
 
-# Liquidity preference
+##### Liquidity preference
 
 This hypothesis is proposed to explain upward sloping yield curve. It adds to the pure expectation hypothesis by including liquid premiums on longer term Treasury issues. It assumes that investors demand a higher yield for a longer term Treasury issue.
 
-# Market segmentation (Preferred habitat)
+##### Market segmentation (Preferred habitat)
 
 Market segmentation or preferred habitat hypothesis argues that different bonds have different clientele who demand different yields.
 
-# Modern theories
+##### Modern theories
 
 None of the above hypotheses assumes random interest rates. Interest rates move randomly. Furthermore, the more volatile interest rates move, the more curvature is the yield curve. As a result, modern interest rate theories now replace the traditional hypotheses to explain the yield curve.
 
 One such theory is Cox-Ingersoll-Ross (1985) where interest rates that are driven by multiple economic factors move randomly. The shape of the yield curve is a function of the parameters of the model.
 
-# 2.5 How Treasury Rates Change
+### 2.5 How Treasury Rates Change
 
 As we have discussed, prices of Treasuries move around after issuance. So what cause the movements? Unlike stocks whose prices are moved in general by the fundamentals of the companies (disregarding noise trading), Treasury rates are U.S. government rates and hence the drivers must be related macroeconomic conditions of the nation.
 
 Not only is it important to understand why Treasury rates move, but it is also important to know how differently they move. That is, long term rates move very differently from short term rates (and medium term rates too). Here we examine a few popular ones.
 
-# 2.5.1 Roll Down Effect
+#### 2.5.1 Roll Down Effect
 
 As time goes by, fixed income securities become closer and closer to maturity. As a result, assuming no new issues are introduced to the market, not only will the yield curve become shorter and shorter, the shape of the yield curve will change, even if nothing else changes.
 
@@ -393,7 +407,7 @@ This roll down effect is very similar to the "time decay" (a.k.a. theta) in opti
 
 It is quite obvious to see that if there is absolutely no uncertainty, then today's forward curve will become tomorrow's yield curve. As a result, the difference between today's yields are their corresponding forward rates give the roll down effect.
 
-# 2.5.2 Curve Steepening/Flattening
+#### 2.5.2 Curve Steepening/Flattening
 
 According to Investopedia (for dummies):
 
@@ -403,7 +417,7 @@ and
 
 "A steepening curve typically indicates stronger economic activity and rising inflation expectations, and thus, higher interest rates. When the yield curve is steep, banks are able to borrow money at lower interest rates and lend at higher interest rates. An example of a steepening yield curve can be seen in a 2-year note with a  $1.5\%$  yield and a 20-year bond with a  $3.5\%$  yield. If after a month, both Treasury yields increase to  $1.55\%$  and  $3.65\%$ , respectively, the spread increases to 210 basis points, from 200 basis points."
 
-# 2.5.3 Hump
+#### 2.5.3 Hump
 
 "The humped yield curve does not happen very often, but it is an indication that some period of uncertainty or volatility may be expected in the economy. When the curve is bell-shaped, it reflects investor uncertainty about specific economic policies or conditions, or it may reflect a transition of the yield curve from a normal to inverted curve or from an inverted to normal curve. Although a humped yield curve is often an indicator of slowing economic growth, it should not be confused with an inverted yield curve. An inverted yield curve occurs when short-term rates are higher than long-term rates or, to put it another way, when long-term rates fall below short-term rates. An inverted yield curve indicates that investors expect the economy to slow or decline in the future, and this slower growth may lead to lower inflation and lower interest rates for all maturities."
 
@@ -411,7 +425,7 @@ A humped yield curve has important implications to those investors who speculate
 
 "When short-term and long-term interest rates decrease by a greater degree than intermediate-term rates, a humped yield curve known as a negative butterfly results. The connotation of a butterfly is given because the intermediate maturity sector is likened to the body of the butterfly and the short maturity and long maturity sectors are viewed as the wings of the butterfly."
 
-# 2.5.4 Inversion
+#### 2.5.4 Inversion
 
 "On rare occasions, the yield on short-term bonds is higher than the yield on long-term bonds. When this happens, the curve becomes inverted. An inverted yield curve indicates that investors will tolerate low rates now if they believe rates are going to fall even lower later on. So, investors expect lower inflation rates, and interest rates, in the future."
 
@@ -423,11 +437,11 @@ Take a look at this. On July 25, 2019:
 
 Figure 2.7: Swiss Yield Curve
 
-# 2.6 Yield Curves of Various Interest Rates
+### 2.6 Yield Curves of Various Interest Rates
 
 In Chapter 1, we discussed various interest rates. For any interest rate mentioned in Lesson 1III, there exists a yield curve to reflect how investors view the future dynamics and uncertainty of this interest rate. We give a few examples of how a yield curve is constructed.
 
-# 2.6.1 LIBOR Curve
+#### 2.6.1 LIBOR Curve
 
 According to Wikipedia (adapted):
 
@@ -496,7 +510,7 @@ Because the equation is evaluated on the coupon date of both legs, the fixed leg
 
 It is understandable that LIBOR market (interbanks), Eurodollar futures market (CME), and swap market (OTC) are quite different in may ways (market microstructure, participants, locations, regulations, etc.) and hence no one would expect their rates are consistent. As a result, when building a curve using prices from these different markets, it is expected that the curve will not be continuous. As a result of that, various smoothing techniques are used. There is no consensus to which smoothing method is best.
 
-# 2.6.2 Is Curve
+#### 2.6.2 Is Curve
 
 Due to the LIBOR scandal, Is (overnight index swap) rates have replaced LIBOR as the industry standard discount rates. The LIBOR scandal was a series of fraudulent actions connected to the Libor (London Inter-bank Offered Rate) and also the resulting investigation and reaction. LIBOR is an average interest rate calculated through submissions of interest rates by major banks across the world. The scandal arose when it was discovered that banks were falsely inflating or deflating their rates so as to profit from trades, or to give the impression that they were more creditworthy than they were. LIBOR underpins approximately 350 trillion in derivatives. It is currently administered by Intercontinental Exchange, which took over running the Libor in January 2014.
 
@@ -505,8 +519,8 @@ The most liquid instruments that can be used to build Is curve are Fed Fund Futu
 The problem is that to price these basis swaps one needs both the Is curve, to project the Fed Fund rate, and the LIBOR curve, to project the LIBOR rate. In the past one could have generated the LIBOR curve data separately, by using the single curve for both forward projection and discounting.[16]
 
 $$
-D (t, T) = \exp \left(\int_{t}^{T} r (u) d u\right) = \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{3 6 0}\right)
-$$ where  $R_{i}$  is the daily Fed Funds rate for day  $i$ ,  $n$  is the number of days, and  $T - t = \frac{n}{\text{daysperyear}}$ . Note that  $D(t,T)$  is random.
+D (t, T) = \exp \left(\int_{t}^{T} r (u) d u\right) = \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{360}\right)
+$$ where $R_{i}$ is the daily Fed Funds rate for day $i$, $n$ is the number of days, and $T - t = \frac{n}{\text{daysperyear}}$. Note that $D(t,T)$ is random.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/62f41ad0cf20544355fad6b719ee6f4b6bc453626554c3a470993147e58b24ec.jpg)
 Figure 2.11: OIS Curve
@@ -516,23 +530,23 @@ The discount function is derived from market input quotes by setting the net pre
 
 $$
 
-\mathrm{NP V} = D (t, T) w (t, T) \frac{\mathrm{da ys ti ll} T}{3 6 0} - \frac{1}{D (t , T)} \left[ \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{3 6 0}\right) - 1 \right]
+\mathrm{NPV} = D (t, T) w (t, T) \frac{\mathrm{days\ till} T}{360} - \frac{1}{D (t , T)} \left[ \prod_{i = 0}^{n - 1} \left(1 + \frac{R_{i}}{360}\right) - 1 \right]
 
 $$
 
 $$
 
-0 = \frac{1}{D (t , T)} \left[ w (t, T) \frac{\mathrm{da ys ti ll} T}{3 6 0} + 1 - \frac{1}{D (t , T)} \right]
+0 = \frac{1}{D (t , T)} \left[ w (t, T) \frac{\mathrm{days\ till} T}{360} + 1 - \frac{1}{D (t , T)} \right]
 
 $$
 
 $$
 
-D (t, T) = \frac{1}{w (t , T)^{\frac{\mathrm{da ys ti ll} T}{3 6 0}} + 1}
+D (t, T) = \frac{1}{w (t , T)^{\frac{\mathrm{days\ till} T}{360}} + 1}
 
-$$ where  $w(t,T)$  is the fixed swap rate for maturity  $T$ . By setting the NPV = 0, one can solve for the discount function for maturity  $T$ .
+$$ where $w(t,T)$ is the fixed swap rate for maturity $T$. By setting the NPV = 0, one can solve for the discount function for maturity $T$.
 
-# 2.6.3 Credit Curve
+#### 2.6.3 Credit Curve
 
 A credit curve is a term structure of credit spreads over a benchmark risk-free curve (which could be U.S. Treasuries, LIBOR, or Is). Either Treasury yield curve, LIBOR yield curve, or Is yield curve is like a "government" yield curve. The issuer represents the government. Hence ideally, we would like to have a yield curve of a company (which is an issuer). However, no company can issue enough bonds to complete a meaningful yield curve.
 
@@ -546,7 +560,7 @@ The yield curve construction method is complex and lack of consensus. An example
 
 Figure 2.12: Muni AAA Curve
 
-# 2.6.4 FX Curve
+#### 2.6.4 FX Curve
 
 Forward FX trades are very popular not only for speculators and arbitrageurs who seek trading profits but also for international corporations that would like to stabilize their revenues and costs. Corporations engage in FX forwards to lock in desired FX rates in the future.
 
@@ -558,7 +572,7 @@ A sample is given below Figure 2.13.
 
 Figure 2.13: FX Forward Quotes
 
-# 2.6.5 Inflation Curve
+#### 2.6.5 Inflation Curve
 
 Inflation curves are important for the government to monitor their monetary policies. As well-known, high expected inflation (which usually is accompanied by prosperity) urges the Central Bank to raise interest rates and reversely during recession (low inflation) the Central Bank tends to lower interest rates.
 
@@ -568,24 +582,24 @@ They were first auctioned in January 1997 after the market expressed a strong in
 
 Given that the coupons of TIPS are inflation protected (i.e. inflation-indexed), the prices of TIPS reflect how the market views the expected inflation.
 
-Coupons paid on TIPS are inflation-indexed (CPI, consumer price index). Let  $I(t)$  be the CPI index at time  $t$  and  $c_0$  is the contractual coupon rate (and the face value is assumed to be 1).
+Coupons paid on TIPS are inflation-indexed (CPI, consumer price index). Let $I(t)$ be the CPI index at time $t$ and $c_0$ is the contractual coupon rate (and the face value is assumed to be 1).
 
 $$
-\begin{array}{l} \Pi_{\mathrm{TI PS}} (t, \underline {{T}}; c_{0}) = \sum_{i = 1}^{n} c_{i} P (t, T_{i}) + c_{n} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} \frac{I (T_{i})}{I (t)} P (t, T_{i}) + \frac{I (T_{n})}{I (t)} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} P_{\text{re al}} (t, T_{i}) + P_{\text{re al}} (t, T_{n}) \\ \end{array}
-$$ where  $P_{\mathrm{real}}$  is under the real economy. Note that:
+\begin{array}{l} \Pi_{\mathrm{TIPS}} (t, \underline{T}; c_{0}) = \sum_{i = 1}^{n} c_{i} P (t, T_{i}) + c_{n} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} \frac{I (T_{i})}{I (t)} P (t, T_{i}) + \frac{I (T_{n})}{I (t)} P (t, T_{n}) \\ = \sum_{i = 1}^{n} c_{0} P_{\text{real}} (t, T_{i}) + P_{\text{real}} (t, T_{n}) \\ \end{array}
+$$ where $P_{\mathrm{real}}$ is under the real economy. Note that:
 
-
-$$
-
-\frac{- 1}{T_{i} - t} \ln P_{\mathrm{re al}} (t, T_{i}) = \left\{- (\ln I (T_{i}) - \ln I (t)) - \ln P (t, T_{i}) \right\} \frac{1}{T_{i} - t}
 
 $$
 
+\frac{- 1}{T_{i} - t} \ln P_{\mathrm{real}} (t, T_{i}) = \left\{- (\ln I (T_{i}) - \ln I (t)) - \ln P (t, T_{i}) \right\} \frac{1}{T_{i} - t}
+
 $$
 
-\iota (t, T_{i}) = y_{t, T_{i}} - y_{t, T_{i}}^{\mathrm{re al}}
+$$
 
-$$ indicating that expected inflation  $(\iota)$  is the difference between nominal and real yields. This is the usual common sense that nominal rate is equal to real rate plus inflation.
+\iota (t, T_{i}) = y_{t, T_{i}} - y_{t, T_{i}}^{\mathrm{real}}
+
+$$ indicating that expected inflation $(\iota)$ is the difference between nominal and real yields. This is the usual common sense that nominal rate is equal to real rate plus inflation.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c2a8abaffc307bf72e0a578934838d8fc38e11bf8d89ac934713fd7c6d985373.jpg)
 
@@ -593,7 +607,7 @@ Figure 3. Time Series Graph of 3y, 5y, 10y, and 20y Real CMT (Jan.1, 1999-Dec.30
 
 Figure 2.14: Real Rates Time Series (Chen, Cheng, and Liu)
 
-# 2.7 LIBOR Floater
+### 2.7 LIBOR Floater
 
 Floaters, or floating rate bonds, pay floating coupons that are indexed to some benchmark interest rate, say the 3 month LIBOR. Floating rate bonds are popular for corporations to fund their operations. Like fixed rate bonds, floaters are always priced at par at inception. The company (or the underwriter, usually an investment bank) will set the spread so that the price of the floater is at par. The spread is then called LIBOR spread. Usually the index is the 3-month LIBOR. A timeline of LIBOR is given below:
 
@@ -604,8 +618,8 @@ Figure 2.15: LIBOR Timeline
 A risk free floater is a floater whose spread is 0. That is, such a floater pays the benchmark interest rate. For such a floater, the value is always at par at coupon dates. In between coupon dates, the value can deviate slightly from par but it must converge to par when it approaches the coupon date.
 
 $$
-P = \left[ \frac{L_{1}}{(1 + L_{1})} + \frac{L_{2}}{(1 + L_{1}) (1 + L_{2})} + \dots + \frac{L_{n - 1}}{\prod_{i = 1}^{n - 1} (1 + L_{i})} + \frac{1 + L_{n}}{\prod_{i = 1}^{n} (1 + L_{i})} \right] \tag {2.13}
-$$ where  $L$  is the LIBOR that is changing over time. Note that this equation always leads to 1, because:
+P = \left[ \frac{L_{1}}{(1 + L_{1})} + \frac{L_{2}}{(1 + L_{1}) (1 + L_{2})} + \dots + \frac{L_{n - 1}}{\prod_{i = 1}^{n - 1} (1 + L_{i})} + \frac{1 + L_{n}}{\prod_{i = 1}^{n} (1 + L_{i})} \right] \tag{2.13}
+$$ where $L$ is the LIBOR that is changing over time. Note that this equation always leads to 1, because:
 
 
 $$
@@ -648,15 +662,15 @@ The equation is  $(P_0$  is used to present the time of issuance 0 and reflect t
 
 $$
 
-\begin{array}{l} P_{0} = \left[ \frac{L_{1} + s_{0}}{\left(1 + L_{1} + s_{0}\right)} + \frac{L_{2} + s_{0}}{\left(1 + L_{1} + s_{0}\right) \left(1 + L_{2} + s_{0}\right)} + \dots + \frac{1 + L_{n} + s_{0}}{\prod_{i = 1}^{n} \left(1 + L_{i} + s_{0}\right)} \right] \\ = 1 \tag {2.14} \\ \end{array}
+\begin{array}{l} P_{0} = \left[ \frac{L_{1} + s_{0}}{\left(1 + L_{1} + s_{0}\right)} + \frac{L_{2} + s_{0}}{\left(1 + L_{1} + s_{0}\right) \left(1 + L_{2} + s_{0}\right)} + \dots + \frac{1 + L_{n} + s_{0}}{\prod_{i = 1}^{n} \left(1 + L_{i} + s_{0}\right)} \right] \\ = 1 \tag{2.14} \\ \end{array}
 
-$$ where  $s_0$  is the initial spread. By the same math, we can show that the value is 1. As times goes by the default risk of the firm may change and hence the spread at time 1 is different from the initial spread. The price at time 1 will not be par if the spread has changed.
+$$ where $s_0$ is the initial spread. By the same math, we can show that the value is 1. As times goes by the default risk of the firm may change and hence the spread at time 1 is different from the initial spread. The price at time 1 will not be par if the spread has changed.
 
 $$
 \begin{array}{l} P_{1} = \left[ \frac{L_{2} + s_{0}}{(1 + L_{2} + s_{1})} + \dots + \frac{1 + L_{n} + s_{0}}{\prod_{i = 2}^{n} (1 + L_{i} + s_{0})} \right] \\ \neq 1 \\ \end{array}
 $$
 
-Note that now the numerator and the denominator have different spreads and they will not cancel each other. Hence the value will not be par. Should the spread remain the same (i.e.  $s_1 = s_0$ ), the bond price would still be at par.
+Note that now the numerator and the denominator have different spreads and they will not cancel each other. Hence the value will not be par. Should the spread remain the same (i.e. $s_1 = s_0$), the bond price would still be at par.
 
 This demonstrates that even on the coupon dates, the value of a corporate floater will not be priced at par. If the value cannot be at par on coupon dates, it will deviate from par even more in between coupon dates. Hence, corporate floaters have much more interest rate risk (duration) than the risk free floater.
 
@@ -664,17 +678,17 @@ Another way to look at it is that a corporate floater is actually a mixture of f
 
 In many high yield bonds where the spreads can be quite comparable to (or even larger than) the LIBOR, the duration can be quite long.
 
-# Remark
+##### Remark
 
 Note that corporate floaters pay semi-annual coupons and swaps have a quarterly floating leg. The formula needs to be adjusted accordingly (i.e.  $L_{i} / m$ ) and the number of coupons/periods is  $m \times n$ .
 
-# 2.8 Volatility and Volatility Term Structure
+### 2.8 Volatility and Volatility Term Structure
 
 Volatility is important in pricing options. As a result, in addition to the term structure of interest rates that depict the level of interest rates, we must also concern the volatility of various interest rates.
 
 Many models assume a constant volatility value, or flat volatility curve. Yet reality suggests that the volatility curve is non-flat. For interest rates, it is particularly not so. By construction, interest rate volatility curve is non-flat, as we shall see in the section.
 
-# 2.8.1 Volatility Smile and Volatility Term Structure in Equities
+#### 2.8.1 Volatility Smile and Volatility Term Structure in Equities
 
 Volatility is defined as the standard deviation of the log price. In equity, volatility is defined as  $\sqrt{\mathbb{V}_t(\ln S_T) / (T - t)}$  where  $t$  is current time and  $T$  is maturity time of the option. In the Black-Scholes model, this quantity is assumed to be constant,  $\sigma$ . However, empirically, a overwhelming body of evidence suggests that this is not true.
 
@@ -721,7 +735,7 @@ Combining volatility smile and term structure, practitioners watch over the enti
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/1337ca577d72b1d325309468bbe2e5ce93de0d6dab2a8b802ef308a10ef42c12.jpg)
 Figure 2.20: S&P Volatility Surface
 
-# 2.8.2 Volatility Surface in Fixed Income
+#### 2.8.2 Volatility Surface in Fixed Income
 
 Similarly, here the volatility is the standard deviation of the long bond price
 
@@ -750,7 +764,7 @@ In the above diagram, some models take "yield vols" as inputs. Yield vols are vo
 
 $$
 
-\mathbb {V} [ y_{T, s_{2}} ] = \mathbb {V} [ y_{T, s_{1}} ] + \mathbb {V} [ f_{T, s_{1}, s_{2}} ] + 2 \mathbb {K} [ y_{T, s_{1}}, f_{T, s_{1}, s_{2}} ]
+\mathbb {V} [ y_{T, s_{2}} ] = \mathbb {V} [ y_{T, s_{1}} ] + \mathbb {V} [ f_{T, s_{1}, s_{2}} ] + 2 \mathbb {Cov} [ y_{T, s_{1}}, f_{T, s_{1}, s_{2}} ]
 
 $$ and this is the relationship between two rate vols, forward vol, and the covariance between the two. To link the rate volatility to the yield volatility, we need an interest rate model. The following is the market of swaptions:
 
@@ -758,7 +772,7 @@ $$ and this is the relationship between two rate vols, forward vol, and the cova
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/801426378a82e03e7201664fccdc6a84c3411b7ffad4c8dbe34aad783e7ed460.jpg)
 Figure 2.22: Swaption Quotes
 
-# 2.8.3 Shape Restriction
+#### 2.8.3 Shape Restriction
 
 Fixed income securities have maturity dates. Near the maturity date the volatility must be small as the value of the security should be very close to the face value. However, the farther into the future, the volatility should be larger. As a result, the volatility curve for the diagonal (lower left to upper right) of the above table (given maturity times but changing T) must present a humped shape as follows:
 
@@ -784,17 +798,17 @@ $$ d_{\pm} = \frac{\ln w (t , T , s) - \ln w_{K}}{v (t , T , s)} \pm \frac{1}{2}
 $$ and  $P(t,T)$  is the discount factor,  $w(t)$  is the current swap rate,  $w_{K}$  is the strike price,  $T$  is the option maturity,  $s$  is the maturity of the swap contract, and  $v(t,T,s)$  is the volatility of the swap rate.
 
 
-# 2.8.4 Sources of Volatility
+#### 2.8.4 Sources of Volatility
 
 From option prices, we can back out the volatilities.
 
-# US Treasuries
+##### US Treasuries
 
 Available options on US Treasuries are options various interest rates and T bond futures options. Options on various Treasury interest rates (13-week, 5-year, 10-year, and 30-year) $^{20}$  are cash settled contracts but these contracts are not liquid. On the other hand, options on T bond futures are very liquid. However they contain complex delivery options (details are discussed in Chapter 9) and futures themselves are already derivatives. Hence T bond futures options are derivatives on derivatives.
 
 There are not enough options to construct a volatility surface for Treasuries, as shown in Figure 10.5.
 
-# LIBOR
+##### LIBOR
 
 However, the LIBOR market has a large number of options written on swaps (a.k.a. swaptions) which have the described structure by Figure 2.22. Hence, swaptions can provide a complete volatility surface for underlying LIBOR.
 
@@ -808,14 +822,14 @@ Figures 2.25 and 2.26 are Bloomberg screen shots of swap cash flows and swaption
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c3c916daace17d2c3985e829d9ebe73da4c36384f1b73af1d65b20f49ac641f9.jpg)
 Figure 2.26: Swaption Volatilities
 
-# FX
+##### FX
 
 FX forward curve is demonstrated in Figure 2.13. FX options are quoted quite differently from those of Treasuries or LIBOR. They are not quoted by strikes but by deltas. Also they are not quoted by a single option, but by a portfolio of options. The typical quotes of FX options are:
 
 - RR (risk reversal):  $x$  Delta Call -  $x$  Delta Put
 - BF (butterfly):  $(x$  Delta Call  $+ x$  Delta Put)  $\div 2 - \mathrm{ATM}$
 
-# over
+##### over
 
 10 delta
 25 delta
@@ -833,7 +847,7 @@ We will discuss the details of FX market in Chapter 6.
 Figure 2.27: FX Option Quotes
 Figure 2.28: FX Volatility Curve
 
-# Lognormal Vol (Black Vol) vs. Normal Vol (Basis Point Vol)
+### Lognormal Vol (Black Vol) vs. Normal Vol (Basis Point Vol)
 
 Theoretically speaking, volatility is a result of a chosen model. Identically speaking, we match an option pricing model with the market price and solve for the volatility input as the implied volatility. To obtain a lognormal vol, the model must assume lognormality of the underlying asset. Similarly, to obtain a normal vol, the model must assume normality of the underlying asset, which is quite different from a lognormal model.
 
@@ -841,16 +855,16 @@ However, a short cut can be obtained via a stochastic process formula:[21]
 
 $$
 
-\begin{array}{l} d V = \mu_{L N} V d t + \sigma_{L N} V d W \tag {2.15} \\ = \mu_{N} d t + \sigma_{N} d W \\ \end{array}
+\begin{array}{l} d V = \mu_{LN} V d t + \sigma_{LN} V d W \tag{2.15} \\ = \mu_{N} d t + \sigma_{N} d W \\ \end{array}
 
-$$ where  $W$  is a Brownian motion and  $dW$  is understood as a normal random variable with mean 0 and variance  $dt$ .
+$$ where $W$ is a Brownian motion and $dW$ is understood as a normal random variable with mean 0 and variance $dt$.
 
-As a result, if one believes that  $\sigma_{LN}$  is constant, then the asset  $V$  follows a lognormal distribution and  $\sigma_{LN}$  is the volatility (as lognormal vol). On the other hand, if one believes that  $\sigma_N$  is constant (and hence  $\sigma_{LN}$  is not) then the asset  $V$  follows a normal distribution and  $\sigma_N$  is the volatility (as normal or bp vol).
+As a result, if one believes that $\sigma_{LN}$ is constant, then the asset $V$ follows a lognormal distribution and $\sigma_{LN}$ is the volatility (as lognormal vol). On the other hand, if one believes that $\sigma_N$ is constant (and hence $\sigma_{LN}$ is not) then the asset $V$ follows a normal distribution and $\sigma_N$ is the volatility (as normal or bp vol).
 
-It is an empirical observation that when  $V$  is close to 0, then normal vol is more reasonable. If  $V$  is high, then lognormal vol is more reasonable. The two can be related via equation (2.15):
+It is an empirical observation that when $V$ is close to 0, then normal vol is more reasonable. If $V$ is high, then lognormal vol is more reasonable. The two can be related via equation (2.15):
 
 $$
-\sigma_{L N} V = \sigma_{N}
+\sigma_{LN} V = \sigma_{N}
 $$
 
-For example, a swaption option has a 0.5 lognormal volatility and the swap rate is  $2.5\%$ . Then its normal (bp) vol is  $1.25\%$ .
+For example, a swaption option has a 0.5 lognormal volatility and the swap rate is $2.5\%$. Then its normal (bp) vol is $1.25\%$.

@@ -1,29 +1,34 @@
 ---
-title: Chapter 05 - Forward And Futures Prices
-tags:
-  - forward-pricing
-  - futures-contracts
-  - investment-assets
-  - arbitrage-strategies
-  - cost-of-carry
-  - commodity-futures
-parent_directory: VI. Derivatives
-key_concepts:
-  - forward and futures pricing
-  - investment vs consumption assets
-  - arbitrage arguments
+title: Forward And Futures Prices
+primary_tags:
+  - forward pricing
+  - futures contracts
+  - investment assets
+  - arbitrage strategies
+secondary_tags:
+  - consumption assets
+  - short selling
   - cost of carry
   - convenience yield
+  - storage costs
+  - risk neutral pricing
+  - forward contract valuation
+  - currency forward contracts
+  - interest rate parity
+  - index arbitrage
+  - systematic risk
+  - normal backwardation
+  - contango
 cssclasses: academia
 ---
 
-# 5.1 INVESTMENT ASSETS VS. CONSUMPTION ASSETS
+## 5.1 INVESTMENT ASSETS VS. CONSUMPTION ASSETS
 
 When considering forward and futures contracts, it is important to distinguish between investment assets and consumption assets. An investment asset is an asset that is held solely for investment purposes by at least some traders. Stocks and bonds are clearly investment assets. Gold and silver are also examples of investment assets. Note that investment assets do not have to be held exclusively for investment. (Silver, for example, has a number of industrial uses.) However, they do have to satisfy the requirement that they are held by some traders solely for investment. A consumption asset is an asset that is held primarily for consumption. It is not normally held for investment. Examples of consumption assets are commodities such as copper, crude oil, corn, and pork bellies.
 
 As we shall see later in this chapter, we can use arbitrage arguments to determine the forward and futures prices of an investment asset from its spot price and other observable market variables. We cannot do this for consumption assets.
 
-# 5.2 SHORT SELLING
+## 5.2 SHORT SELLING
 
 Some of the arbitrage strategies presented in this chapter involve short selling. This trade, usually simply referred to as "shorting", involves selling an asset that is not owned. It is something that is possible for some—but not all—investment assets. We will illustrate how it works by considering a short sale of shares of a stock.
 
@@ -42,9 +47,9 @@ Table 5.1 Cash flows from short sale and purchase of shares.
 
 The investor is required to maintain a margin account with the broker. The margin account consists of cash or marketable securities deposited by the investor with the broker to guarantee that the investor will not walk away from the short position if the share price increases. It is similar to the margin account discussed in Chapter 2 for futures contracts. An initial margin is required and if there are adverse movements (i.e., increases) in the price of the asset that is being shorted, additional margin may be required. If the additional margin is not provided, the short position is closed out. The margin account does not represent a cost to the investor. This is because interest is usually paid on the balance in margin accounts and, if the interest rate offered is unacceptable, marketable securities such as Treasury bills can be used to meet margin requirements. The proceeds of the sale of the asset belong to the investor and normally form part of the initial margin.
 
-From time to time regulations are changed on short selling. In 1938, the uptick rule was introduced. This allowed shares to be shorted only on an "uptick"—that is, when the most recent movement in the share price was an increase. The SEC abolished the uptick rule in July 2007, but introduced an "alternative uptick" rule in February 2010. Under this rule, when the price of a stock has decreased by more than  $10\%$  in one day, there are restrictions on short selling for that day and the next. These restrictions are that the stock can be shorted only at a price that is higher than the best current bid price. Occasionally there are temporary bans on short selling. This happened in a number of countries in 2008 because it was considered that short selling contributed to the high market volatility that was being experienced.
+From time to time regulations are changed on short selling. In 1938, the uptick rule was introduced. This allowed shares to be shorted only on an "uptick"—that is, when the most recent movement in the share price was an increase. The SEC abolished the uptick rule in July 2007, but introduced an "alternative uptick" rule in February 2010. Under this rule, when the price of a stock has decreased by more than $10\%$ in one day, there are restrictions on short selling for that day and the next. These restrictions are that the stock can be shorted only at a price that is higher than the best current bid price. Occasionally there are temporary bans on short selling. This happened in a number of countries in 2008 because it was considered that short selling contributed to the high market volatility that was being experienced.
 
-# 5.3 ASSUMPTIONS AND NOTATION
+## 5.3 ASSUMPTIONS AND NOTATION
 
 In this chapter we will assume that the following are all true for some market participants:
 
@@ -57,28 +62,26 @@ Note that we do not require these assumptions to be true for all market particip
 
 The following notation will be used throughout this chapter:
 
-$T$ : Time until delivery date in a forward or futures contract (in years)
+$T$: Time until delivery date in a forward or futures contract (in years)
 
-$S_0$ : Price of the asset underlying the forward or futures contract today
+$S_0$: Price of the asset underlying the forward or futures contract today
 
-$F_0$ : Forward or futures price today
+$F_0$: Forward or futures price today
 
-$r$ : Zero-coupon risk-free rate of interest per annum, expressed with continuous compounding, for an investment maturing at the delivery date (i.e., in  $T$  years).
+$r$: Zero-coupon risk-free rate of interest per annum, expressed with continuous compounding, for an investment maturing at the delivery date (i.e., in $T$ years).
 
 The risk-free rate,  $r$ , is the interest rate at which money is borrowed or lent when there is no credit risk, so that the borrowed money is certain to be repaid. As discussed in Chapter 4, participants in derivatives markets use overnight rates and rates derived from overnight rates as risk-free rates.
 
-# 5.4 FORWARD PRICE FOR AN INVESTMENT ASSET
+## 5.4 FORWARD PRICE FOR AN INVESTMENT ASSET
 
 The easiest forward contract to value is one written on an investment asset that provides the holder with no income and for which there are no storage costs. Non-dividend-paying stocks and zero-coupon bonds are examples of such investment assets.
 
-Consider a long forward contract to purchase a non-dividend-paying stock in 3 months. Assume the current stock price is 40 and the 3-month risk-free interest rate is 5\% per annum.
+Consider a long forward contract to purchase a non-dividend-paying stock in 3 months. Assume the current stock price is 40 and the 3-month risk-free interest rate is $5\%$ per annum.
 
 Suppose first that the forward price is relatively high at \$43. An arbitrageur can borrow \$40 at the risk-free interest rate of 5\% per annum, buy one share, and short a forward contract to sell one share in 3 months. At the end of the 3 months, the arbitrageur delivers the share and receives 43. The sum of money required to pay off the loan is
 
 $$
-
-4 0 e ^ {0. 0 5 \times 3 / 1 2} = \$ 4 0. 5 0
-
+40e^{0.05 \times 3/12} = \$40.50
 $$
 
 By following this strategy, the arbitrageur locks in a profit of $43.00 - $40.50 = 2.50 at the end of the 3-month period.
@@ -86,9 +89,7 @@ By following this strategy, the arbitrageur locks in a profit of $43.00 - $40.50
 Suppose next that the forward price is relatively low at \$39. An arbitrageur can short one share, invest the proceeds of the short sale at 5\% per annum for 3 months, and take a long position in a 3-month forward contract. The proceeds of the short sale grow to 40e^0.05×3/12 or \$40.50 in 3 months. At the end of the 3 months, the arbitrageur pays 39, takes delivery of the share under the terms of the forward contract, and uses it to close out the short position. A net gain of
 
 $$
-
-\$ 40.50 - \$ 39.00 = \$ 1.50
-
+\$40.50 - \$39.00 = \$1.50
 $$ is therefore made at the end of the 3 months. The two trading strategies we have considered are summarized in Table 5.2.
 
 
@@ -99,9 +100,7 @@ Under what circumstances do arbitrage opportunities such as those in Table 5.2 n
 To generalize this example, we consider a forward contract on an investment asset with price  $S_0$  that provides no income. Using our notation,  $T$  is the time to maturity,  $r$  is the risk-free rate, and  $F_0$  is the forward price. The relationship between  $F_0$  and  $S_0$  is
 
 $$
-
-F _ {0} = S _ {0} e ^ {r T} \tag {5.1}
-
+F_{0} = S_{0} e^{rT} \tag{5.1}
 $$
 
 Table 5.2 Arbitrage opportunities when forward price is out of line with spot price for asset providing no income. (Asset price = 40; interest rate = 5\%; maturity of forward contract = 3 months.)
@@ -111,9 +110,7 @@ Table 5.2 Arbitrage opportunities when forward price is out of line with spot pr
 If  $F_0 > S_0 e^{rT}$ , arbitrageurs can buy the asset and short forward contracts on the asset. If  $F_0 < S_0 e^{rT}$ , they can short the asset and enter into long forward contracts on it. In our example,  $S_0 = 40$ ,  $r = 0.05$ , and  $T = 0.25$ , so that equation (5.1) gives
 
 $$
-
-F _ {0} = 4 0 e ^ {0. 0 5 \times 0. 2 5} = \$ 4 0. 5 0
-
+F_{0} = 40e^{0.05 \times 0.25} = \$40.50
 $$ which is in agreement with our earlier calculations.
 
 
@@ -121,12 +118,10 @@ A long forward contract and a spot purchase both lead to the asset being owned a
 
 # Example 5.1
 
-Consider a 4-month forward contract to buy a zero-coupon bond that will mature 1 year from today. (This means that the bond will have 8 months to go when the forward contract matures.) The current price of the bond is 930. We assume that the 4-month risk-free rate of interest (continuously compounded) is 6\% per annum. Because zero-coupon bonds provide no income, we can use equation (5.1) with T = 4 / 12, r = 0.06, and S_0 = 930. The forward price, F_0, is given by
+Consider a 4-month forward contract to buy a zero-coupon bond that will mature 1 year from today. (This means that the bond will have 8 months to go when the forward contract matures.) The current price of the bond is 930. We assume that the 4-month risk-free rate of interest (continuously compounded) is $6\%$ per annum. Because zero-coupon bonds provide no income, we can use equation (5.1) with $T = 4/12$, $r = 0.06$, and $S_0 = 930$. The forward price, F_0, is given by
 
 $$
-
-F _ {0} = 9 3 0 e ^ {0. 0 6 \times 4 / 1 2} = \$ 9 4 8. 7 9
-
+F_{0} = 930e^{0.06 \times 4/12} = \$948.79
 $$
 
 This would be the delivery price in a contract negotiated today.
@@ -161,26 +156,22 @@ At time  $T$ , the cash invested has grown to  $S_0e^{rT}$ . The asset is repurc
 
 As in the non-dividend-paying stock example considered earlier, we can expect the forward price to adjust so that neither of the two arbitrage opportunities we have considered exists. This means that the relationship in equation (5.1) must hold.
 
-# 5.5 KNOWN INCOME
+## 5.5 KNOWN INCOME
 
 In this section we consider a forward contract on an investment asset that will provide a perfectly predictable cash income to the holder. Examples are stocks paying known dividends and coupon-bearing bonds. We adopt the same approach as in the previous section. We first look at a numerical example and then review the formal arguments.
 
-Consider a forward contract to purchase a coupon-bearing bond whose current price is  \$900. We will suppose that the forward contract matures in 9 months. We will also suppose that a coupon payment of\$ 40 is expected on the bond after 4 months. We assume that the 4-month and 9-month risk-free interest rates (continuously compounded) are, respectively, 3\% and 4\% per annum.
+Consider a forward contract to purchase a coupon-bearing bond whose current price is  \$900. We will suppose that the forward contract matures in 9 months. We will also suppose that a coupon payment of\$ 40 is expected on the bond after 4 months. We assume that the 4-month and 9-month risk-free interest rates (continuously compounded) are, respectively, $3\%$ and $4\%$ per annum.
 
 Suppose first that the forward price is relatively high at \$910. An arbitrageur can borrow \$900 to buy the bond and enter into the forward contract to sell the bond for \$910. The coupon payment has a present value of 40e-0.03×4/12 = \$39.60. Of the $900, $39.60 is therefore borrowed at 3\% per annum for 4 months so that it can be repaid with the coupon payment. The remaining \$860.40 is borrowed at 4\% per annum for 9 months. The amount owing at the end of the 9-month period is 860.40e^0.04×0.75 = \$886.60. A sum of 910 is received for the bond under the terms of the forward contract. The arbitrageur therefore makes a net profit of
 
 $$
-
-9 1 0. 0 0 - 8 8 6. 6 0 = \$ 2 3. 4 0
-
+910.00 - 886.60 = \$23.40
 $$
 
 Suppose next that the forward price is relatively low at \$870. An investor can short the bond and enter into the forward contract to buy the bond for \$870. Of the \$900 realized from shorting the bond, \$39.60 is invested for 4 months at 3\% per annum so that it grows into an amount sufficient to pay the coupon on the bond. The remaining \$860.40 is invested for 9 months at 4\% per annum and grows to \$886.60. Under the terms of the forward contract, 870 is paid to buy the bond and the short position is closed out. The investor therefore gains
 
 $$
-
-8 8 6. 6 0 - 8 7 0 = \$ 1 6. 6 0
-
+886.60 - 870 = \$16.60
 $$
 
 The two strategies we have considered are summarized in Table 5.3. $^{3}$  The first strategy in Table 5.3 produces a profit when the forward price is greater than  \$886.60, whereas the second strategy produces a profit when the forward price is less than\$ 886.60. It follows that if there are no arbitrage opportunities then the forward price must be 886.60.
@@ -190,9 +181,7 @@ The two strategies we have considered are summarized in Table 5.3. $^{3}$  The f
 We can generalize from this example to argue that, when an investment asset will provide income with a present value of  $I$  during the life of a forward contract, we have
 
 $$
-
-F _ {0} = \left(S _ {0} - I\right) e ^ {r T} \tag {5.2}
-
+F_{0} = (S_{0} - I)e^{rT} \tag{5.2}
 $$
 
 Table 5.3 Arbitrage opportunities when 9-month forward price is out of line with spot price for asset providing known cash income. (Asset price = \$900; income of \$40 occurs at 4 months; 4-month and 9-month rates are, respectively, 3\% and 4\% per annum.)
@@ -202,9 +191,7 @@ Table 5.3 Arbitrage opportunities when 9-month forward price is out of line with
 In our example,  $S_0 = 900.00$ ,  $I = 40e^{-0.03\times 4 / 12} = 39.60$ ,  $r = 0.04$ , and  $T = 0.75$ , so that
 
 $$
-
-F _ {0} = (9 0 0. 0 0 - 3 9. 6 0) e ^ {0. 0 4 \times 0. 7 5} = \$ 8 8 6. 6 0
-
+F_{0} = (900.00 - 39.60)e^{0.04 \times 0.75} = \$886.60
 $$
 
 This is in agreement with our earlier calculation. Equation (5.2) applies to any investment asset that provides a known cash income.
@@ -216,25 +203,21 @@ If  $F_0 > (S_0 - I)e^{rT}$ , an arbitrageur can lock in a profit by buying the 
 Consider a 10-month forward contract on a stock when the stock price is  \$50. We assume that the risk-free rate of interest (continuously compounded) is 8\%$  per annum for all maturities and also that dividends of 0.75 per share are expected after 3 months, 6 months, and 9 months. The present value of the dividends,  $I$ , is
 
 $$
-
-I = 0. 7 5 e ^ {- 0. 0 8 \times 3 / 1 2} + 0. 7 5 e ^ {- 0. 0 8 \times 6 / 1 2} + 0. 7 5 e ^ {- 0. 0 8 \times 9 / 1 2} = 2. 1 6 2
-
+I = 0.75e^{-0.08 \times 3/12} + 0.75e^{-0.08 \times 6/12} + 0.75e^{-0.08 \times 9/12} = 2.162
 $$
 
 The variable  $T$  is 10 months, so that the forward price,  $F_0$ , from equation (5.2), is given by
 
 
 $$
-
-F _ {0} = (5 0 - 2. 1 6 2) e ^ {0. 0 8 \times 1 0 / 1 2} = \$ 5 1. 1 4
-
+F_{0} = (50 - 2.162)e^{0.08 \times 10/12} = \$51.14
 $$
 
 If the forward price were less than this, an arbitrageur would short the stock and buy forward contracts. If the forward price were greater than this, an arbitrageur would short forward contracts and buy the stock in the spot market.
 
-# 5.6 KNOWNYIELD
+## 5.6 KNOWNYIELD
 
-We now consider the situation where the asset underlying a forward contract provides a known yield rather than a known cash income. This means that the income is known when expressed as a percentage of the asset's price at the time the income is paid. Suppose that an asset is expected to provide a yield of  $5\%$  per annum. This could mean that income is paid once a year and is equal to  $5\%$  of the asset price at the time it is paid, in which case the yield would be  $5\%$  with annual compounding. Alternatively, it could mean that income is paid twice a year and is equal to  $2.5\%$  of the asset price at the time it is paid, in which case the yield would be  $5\%$  per annum with semiannual compounding. In Section 4.4 we explained that we will normally measure interest rates with continuous compounding. Similarly, we will normally measure yields with continuous compounding. Formulas for translating a yield measured with one compounding frequency to a yield measured with another compounding frequency are the same as those given for interest rates in Section 4.4.
+We now consider the situation where the asset underlying a forward contract provides a known yield rather than a known cash income. This means that the income is known when expressed as a percentage of the asset's price at the time the income is paid. Suppose that an asset is expected to provide a yield of $5\%$ per annum. This could mean that income is paid once a year and is equal to  $5\%$  of the asset price at the time it is paid, in which case the yield would be  $5\%$  with annual compounding. Alternatively, it could mean that income is paid twice a year and is equal to  $2.5\%$  of the asset price at the time it is paid, in which case the yield would be  $5\%$  per annum with semiannual compounding. In Section 4.4 we explained that we will normally measure interest rates with continuous compounding. Similarly, we will normally measure yields with continuous compounding. Formulas for translating a yield measured with one compounding frequency to a yield measured with another compounding frequency are the same as those given for interest rates in Section 4.4.
 
 Define  $q$  as the average yield on the asset during time  $T$ . If the income is reinvested in the asset, the number of units held grows at rate  $q$ . One unit of the asset at time zero then grows to  $e^{qT}$  units of the asset at time  $T$ . The strategy
 - Borrow  $S_{0}$  to buy one unit of the asset at time zero
@@ -243,29 +226,24 @@ Define  $q$  as the average yield on the asset during time  $T$ . If the income 
 
 
 $$
-
-S _ {0} e ^ {r T} = e ^ {q T} F _ {0}
-
-$$ or
-
-
+S_{0}e^{rT} = e^{qT}F_{0}
 $$
 
-F _ {0} = S _ {0} e ^ {(r - q) T} \tag {5.3}
+or
 
+$$
+F_{0} = S_{0}e^{(r - q)T} \tag{5.3}
 $$
 
 # Example 5.3
 
-Consider a 6-month forward contract on an asset that is expected to provide income equal to  $2\%$  of the asset price once during a 6-month period. The risk-free rate of interest (with continuous compounding) is  $10\%$  per annum. The asset price is \$25. In this case,  $S_0 = 25$ ,  $r = 0.10$ , and  $T = 0.5$ . The yield is  $4\%$  per annum with semiannual compounding. From equation (4.3), this is  $3.96\%$  per annum with continuous compounding. It follows that  $q = 0.0396$ , so that from equation (5.3) the forward price,  $F_0$ , is given by
+Consider a 6-month forward contract on an asset that is expected to provide income equal to  $2\%$  of the asset price once during a 6-month period. The risk-free rate of interest (with continuous compounding) is $10\%$ per annum. The asset price is \$25. In this case, $S_0 = 25$, $r = 0.10$, and $T = 0.5$. The yield is $4\%$ per annum with semiannual compounding. From equation (4.3), this is  $3.96\%$  per annum with continuous compounding. It follows that  $q = 0.0396$ , so that from equation (5.3) the forward price,  $F_0$ , is given by
 
 $$
-
-F _ {0} = 2 5 e ^ {(0. 1 0 - 0. 0 3 9 6) \times 0. 5} = \$ 2 5. 7 7
-
+F_{0} = 25e^{(0.10 - 0.0396) \times 0.5} = \$25.77
 $$
 
-# 5.7 VALUING FORWARD CONTRACTS
+## 5.7 VALUING FORWARD CONTRACTS
 
 The value of a forward contract at the time it is first entered into is close to zero. At a later stage, it may prove to have a positive or negative value. It is important for banks and other financial institutions to value the contract each day. (This is referred to as marking to market the contract.) Using the notation introduced earlier, we suppose  $K$  is the delivery price for a contract that was negotiated some time ago, the delivery date is  $T$  years from today, and  $r$  is the  $T$ -year risk-free interest rate. The variable  $F_0$  is the forward price that would be applicable if we negotiated the contract today. In addition, we define  $f$  to be the value of forward contract today.
 
@@ -273,23 +251,24 @@ It is important to be clear about the meaning of the variables  $F_0, K$ , and  
 
 A general result, applicable to all long forward contracts (both those on investment assets and those on consumption assets), is
 
-$$ f = \left(F _ {0} - K\right) e ^ {- r T} \tag {5.4}
+$$
+f = (F_{0} - K)e^{-rT} \tag{5.4}
 $$
 
 To see why equation (5.4) is correct, we form a portfolio today consisting of (a) a forward contract to buy the underlying asset for  $K$  at time  $T$  and (b) a forward contract to sell the asset for  $F_0$  at time  $T$ . The payoff from the portfolio at time  $T$  is  $S_T - K$  from the first contract and  $F_0 - S_T$  from the second contract. The total payoff is  $F_0 - K$  and is known for certain today. The portfolio is therefore a risk-free investment and its value today is the payoff at time  $T$  discounted at the risk-free rate or  $(F_0 - K)e^{-rT}$ . The value of the forward contract to sell the asset for  $F_0$  is worth zero because  $F_0$  is the forward price that applies to a forward contract entered into today. It follows that the value of a (long) forward contract to buy an asset for  $K$  at time  $T$  must be  $(F_0 - K)e^{-rT}$ . Similarly, the value of a (short) forward contract to sell the asset for  $K$  at time  $T$  is  $(K - F_0)e^{-rT}$ .
 
 # Example 5.4
 
-A long forward contract on a non-dividend-paying stock was entered into some time ago. It currently has 6 months to maturity. The risk-free rate of interest (with continuous compounding) is  $10\%$  per annum, the stock price is  $\$25$ , and the delivery price is  $\$24$ . In this case,  $S_0 = 25$ ,  $r = 0.10$ ,  $T = 0.5$ , and  $K = 24$ . From equation (5.1), the 6-month forward price,  $F_0$ , is given by
+A long forward contract on a non-dividend-paying stock was entered into some time ago. It currently has 6 months to maturity. The risk-free rate of interest (with continuous compounding) is $10\%$ per annum, the stock price is $\$25$, and the delivery price is $\$24$. In this case,  $S_0 = 25$ ,  $r = 0.10$ ,  $T = 0.5$ , and  $K = 24$ . From equation (5.1), the 6-month forward price,  $F_0$ , is given by
 
 $$
-F _ {0} = 2 5 e ^ {0. 1 \times 0. 5} = \$ 2 6. 2 8
+F_{0} = 25e^{0.1 \times 0.5} = \$26.28
 $$
 
 From equation (5.4), the value of the forward contract is
 
-$$ f = (2 6. 2 8 - 2 4) e ^ {- 0. 1 \times 0. 5} = \$ 2. 1 7
-
+$$
+f = (26.28 - 24)e^{-0.1 \times 0.5} = \$2.17
 $$
 
 Equation (5.4) shows that we can value a long forward contract on an asset by making the assumption that the price of the asset at the maturity of the forward contract equals the forward price  $F_0$ . To see this, note that when we make that assumption, a long forward contract provides a payoff at time  $T$  of  $F_0 - K$ . This has a present value of  $(F_0 - K)e^{-rT}$ , which is the value of  $f$  in equation (5.4). Similarly, we can value a short forward contract on the asset by assuming that the current forward price of the asset is
@@ -306,17 +285,20 @@ realized. These results are analogous to the result in Section 4.9 that we can v
 
 Using equation (5.4) in conjunction with equation (5.1) gives the following expression for the value of a forward contract on an investment asset that provides no income
 
-$$ f = S _ {0} - K e ^ {- r T} \tag {5.5}
+$$
+f = S_{0} - Ke^{-rT} \tag{5.5}
 $$
 
 Similarly, using equation (5.4) in conjunction with equation (5.2) gives the following expression for the value of a long forward contract on an investment asset that provides a known income with present value  $I$ :
 
-$$ f = S _ {0} - I - K e ^ {- r T} \tag {5.6}
+$$
+f = S_{0} - I - Ke^{-rT} \tag{5.6}
 $$
 
 Finally, using equation (5.4) in conjunction with equation (5.3) gives the following expression for the value of a long forward contract on an investment asset that provides a known yield at rate  $q$ :
 
-$$ f = S _ {0} e ^ {- q T} - K e ^ {- r T} \tag {5.7}
+$$
+f = S_{0}e^{-qT} - Ke^{-rT} \tag{5.7}
 $$
 
 When a futures price changes, the gain or loss on a futures contract is calculated as the change in the futures price multiplied by the size of the position. This gain is realized almost immediately because futures contracts are settled daily. Equation (5.4) shows that, when a forward price changes, the gain or loss is the present value of the change in the forward price multiplied by the size of the position. The difference between the gain/loss on forward and futures contracts can cause confusion on a foreign exchange trading desk (see Business Snapshot 5.2).
@@ -348,7 +330,7 @@ CME's Nikkei 225 futures contract is an example of a quanto. A quanto is a deriv
 dividends paid by the investment asset are the dividends that would be received by the holder of this portfolio. It is usually assumed that the dividends provide a known yield rather than a known cash income. If  $q$  is the dividend yield rate (expressed with continuous compounding), equation (5.3) gives the futures price,  $F_{0}$ , as
 
 $$
-F _ {0} = S _ {0} e ^ {(r - q) T} \tag {5.8}
+F_{0} = S_{0}e^{(r - q)T} \tag{5.8}
 $$
 
 This shows that the futures price increases at rate  $r - q$  with the maturity of the futures contract. In Table 3.3, the S&P 500 settlements are declining at roughly  $0.5\%$  per six months, or  $1\%$  per year. This indicates that the dividend yield anticipated by the market on the S&P 500 during the first year was about  $1\%$  per annum greater than the risk-free rate.
@@ -528,68 +510,61 @@ The result is a riskless profit at maturity of  $(S_0 + U)e^{rT} - F_0$  relativ
 This argument cannot be used for a commodity that is a consumption asset rather than an investment asset. Individuals and companies who own a consumption commodity usually plan to use it in some way. They are reluctant to sell the commodity in the spot market and buy forward or futures contracts, because forward and futures contracts cannot be used in a manufacturing process or consumed in some other way. There is therefore nothing to stop equation (5.14) from holding, and all we can assert for a consumption commodity is
 
 $$
-F _ {0} \leq \left(S _ {0} + U\right) e ^ {r T} \tag {5.15}
+F_{0} \leq (S_{0} + U)e^{rT} \tag{5.15}
 $$
 
-If storage costs are expressed as a proportion  $u$  of the spot price, the equivalent result is
+If storage costs are expressed as a proportion $u$ of the spot price, the equivalent result is
 
 $$
-F _ {0} \leq S _ {0} e ^ {(r + u) T} \tag {5.16}
+F_{0} \leq S_{0}e^{(r + u)T} \tag{5.16}
 $$
 
-# Convenience Yields
+## Convenience Yields
 
 We do not necessarily have equality in equations (5.15) and (5.16) because users of a consumption commodity may feel that ownership of the physical commodity provides benefits that are not obtained by holders of futures contracts. For example, an oil refiner is unlikely to regard a futures contract on crude oil in the same way as crude oil held in inventory. The crude oil in inventory can be an input to the refining process, whereas a futures contract cannot be used for this purpose. In general, ownership of the physical asset enables a manufacturer to keep a production process running and perhaps profit from temporary local shortages. A futures contract does not do the same. The benefits from holding the physical asset are sometimes referred to as the convenience yield provided by the commodity. If the dollar amount of storage costs is known and has a present value  $U$ , then the convenience yield  $y$  is defined such that
 
 $$
-F _ {0} e ^ {y T} = (S _ {0} + U) e ^ {r T}
+F_{0}e^{yT} = (S_{0} + U)e^{rT}
 $$
 
-If the storage costs per unit are a constant proportion,  $u$ , of the spot price, then  $y$  is defined so that
+If the storage costs per unit are a constant proportion, $u$, of the spot price, then $y$ is defined so that
 
 $$
-F _ {0} e ^ {y T} = S _ {0} e ^ {(r + u) T}
+F_{0}e^{yT} = S_{0}e^{(r + u)T}
 $$ or
 
-
 $$
-
-F _ {0} = S _ {0} e ^ {(r + u - y) T} \tag {5.17}
-
+F_{0} = S_{0}e^{(r + u - y)T} \tag{5.17}
 $$
 
 The convenience yield simply measures the extent to which the left-hand side is less than the right-hand side in equation (5.15) or (5.16). For investment assets the convenience yield must be zero; otherwise, there are arbitrage opportunities. Table 2.2 in Chapter 2 shows that, on May 21, 2020, the futures price of soybeans decreased as the maturity of the contract increased from January 2021 to May 2021. This pattern suggests that the convenience yield,  $y$ , is greater than  $r + u$  during this period.
 
 The convenience yield reflects the market's expectations concerning the future availability of the commodity. The greater the possibility that shortages will occur, the higher the convenience yield. If users of the commodity have high inventories, there is very little chance of shortages in the near future and the convenience yield tends to be low. If inventories are low, shortages are more likely and the convenience yield is usually higher.
 
-# 5.12 THE COST OF CARRY
+## 5.12 THE COST OF CARRY
 
 The relationship between futures prices and spot prices can be summarized in terms of the cost of carry. This measures the storage cost plus the interest that is paid to finance the asset less the income earned on the asset. For a non-dividend-paying stock, the cost of carry is  $r$ , because there are no storage costs and no income is earned; for a stock index, it is  $r - q$ , because income is earned at rate  $q$  on the asset. For a currency, it is  $r - r_f$ ; for a commodity that provides income at rate  $q$  and requires storage costs at rate  $u$ , it is  $r - q + u$ ; and so on.
 
 
-Define the cost of carry as  $c$ . For an investment asset, the futures price is
+Define the cost of carry as $c$. For an investment asset, the futures price is
 
 $$
-
-F _ {0} = S _ {0} e ^ {c T} \tag {5.18}
-
+F_{0} = S_{0}e^{cT} \tag{5.18}
 $$
 
 For a consumption asset, it is
 
 $$
+F_{0} = S_{0}e^{(c - y)T} \tag{5.19}
+$$ where $y$ is the convenience yield.
 
-F _ {0} = S _ {0} e ^ {(c - y) T} \tag {5.19}
-
-$$ where  $y$  is the convenience yield.
-
-# 5.13 DELIVERY OPTIONS
+## 5.13 DELIVERY OPTIONS
 
 Whereas a forward contract normally specifies that delivery is to take place on a particular day, a futures contract often allows the party with the short position to choose to deliver at any time during a certain period. (Typically the party has to give a few days' notice of its intention to deliver.) The choice introduces a complication into the determination of futures prices. Should the maturity of the futures contract be assumed to be the beginning, middle, or end of the delivery period? Even though most futures contracts are closed out prior to maturity, it is important to know when delivery would have taken place in order to calculate the theoretical futures price.
 
-If the futures price is an increasing function of the time to maturity, it can be seen from equation (5.19) that  $c > y$ , so that the benefits from holding the asset (including convenience yield and net of storage costs) are less than the risk-free rate. It is usually optimal in such a case for the party with the short position to deliver as early as possible, because the interest earned on the cash received outweighs the benefits of holding the asset. As a rule, futures prices in these circumstances should be calculated on the basis that delivery will take place at the beginning of the delivery period. If futures prices are decreasing as time to maturity increases ( $c < y$ ), the reverse is true. It is then usually optimal for the party with the short position to deliver as late as possible, and futures prices should, as a rule, be calculated on this assumption.
+If the futures price is an increasing function of the time to maturity, it can be seen from equation (5.19) that $c > y$, so that the benefits from holding the asset (including convenience yield and net of storage costs) are less than the risk-free rate. It is usually optimal in such a case for the party with the short position to deliver as early as possible, because the interest earned on the cash received outweighs the benefits of holding the asset. As a rule, futures prices in these circumstances should be calculated on the basis that delivery will take place at the beginning of the delivery period. If futures prices are decreasing as time to maturity increases ($c < y$), the reverse is true. It is then usually optimal for the party with the short position to deliver as late as possible, and futures prices should, as a rule, be calculated on this assumption.
 
-# 5.14 FUTURES PRICES AND EXPECTED FUTURE SPOT PRICES
+## 5.14 FUTURES PRICES AND EXPECTED FUTURE SPOT PRICES
 
 We refer to the market's average opinion about what the spot price of an asset will be at a certain future time as the expected spot price of the asset at that time. Suppose that it is now June and the September futures price of corn is 450 cents. It is interesting to ask what the expected spot price of corn in September is. Is it less than 450 cents, greater than 450 cents, or exactly equal to 450 cents? As illustrated in Figure 2.1, the futures price converges to the spot price at maturity. If the expected spot price is less than 450 cents, the market must be expecting the September futures price to decline, so that traders with short positions gain and traders with long positions lose. If the expected spot price is greater than 450 cents, the reverse must be true. The market must be expecting the September futures price to increase, so that traders with long positions gain while those with short positions lose.
 
@@ -603,28 +578,24 @@ The modern approach to explaining the relationship between futures prices and ex
 
 # The Risk in a Futures Position
 
-Let us consider a speculator who takes a long position in a futures contract that lasts for  $T$  years in the hope that the spot price of the asset will be above the futures price at the end of the life of the futures contract. We ignore daily settlement and assume that the futures contract can be treated as a forward contract. We suppose that the speculator puts the present value of the futures price into a risk-free investment while simultaneously taking a long futures position. The proceeds of the risk-free investment are used to buy the asset on the delivery date. The asset is then immediately sold for its market price. The cash flows to the speculator are as follows:
+Let us consider a speculator who takes a long position in a futures contract that lasts for $T$ years in the hope that the spot price of the asset will be above the futures price at the end of the life of the futures contract. We ignore daily settlement and assume that the futures contract can be treated as a forward contract. We suppose that the speculator puts the present value of the futures price into a risk-free investment while simultaneously taking a long futures position. The proceeds of the risk-free investment are used to buy the asset on the delivery date. The asset is then immediately sold for its market price. The cash flows to the speculator are as follows:
 
-Today:  $-F_{0}e^{-rT}$
+Today: $-F_{0}e^{-rT}$
 
-End of futures contract:  $+S_{T}$ where  $F_{0}$  is the futures price today,  $S_{T}$  is the price of the asset at time  $T$  at the end of the futures contract, and  $r$  is the risk-free return on funds invested for time  $T$ .
+End of futures contract: $+S_{T}$ where $F_{0}$ is the futures price today, $S_{T}$ is the price of the asset at time $T$ at the end of the futures contract, and $r$ is the risk-free return on funds invested for time $T$.
 
-How do we value this investment? The discount rate we should use for the expected cash flow at time  $T$  equals an investor's required return on the investment. Suppose that  $k$  is an investor's required return for this investment. The present value of this investment is
-
-$$
-- F _ {0} e ^ {- r T} + E (S _ {T}) e ^ {- k T}
-$$ where  $E$  denotes expected value. We can assume that all investments in securities markets are priced so that they have zero net present value. This means that
-
+How do we value this investment? The discount rate we should use for the expected cash flow at time $T$ equals an investor's required return on the investment. Suppose that $k$ is an investor's required return for this investment. The present value of this investment is
 
 $$
-- F _ {0} e ^ {- r T} + E (S _ {T}) e ^ {- k T} = 0
+- F_{0}e^{-rT} + E(S_{T})e^{-kT}
+$$ where $E$ denotes expected value. We can assume that all investments in securities markets are priced so that they have zero net present value. This means that
+
+$$
+- F_{0}e^{-rT} + E(S_{T})e^{-kT} = 0
 $$ or
 
-
 $$
-
-F _ {0} = E \left(S _ {T}\right) e ^ {(r - k) T} \tag {5.20}
-
+F_{0} = E\left(S_{T}\right)e^{(r - k)T} \tag{5.20}
 $$
 
 As we have just discussed, the returns investors require on an investment depend on its systematic risk. The investment we have been considering is in essence an investment in the asset underlying the futures contract. If the returns from this asset are uncorrelated with the stock market, the correct discount rate to use is the risk-free rate  $r$ , so we should set  $k = r$ . Equation (5.20) then gives
@@ -647,11 +618,11 @@ Table 5.5 Relationship between futures price and expected future spot price.
 
 <table><tr><td>Underlying asset</td><td>Relationship of expected return k from asset to risk-free rate r</td><td>Relationship of futures price F to expected future spot price E(ST)</td></tr><tr><td>No systematic risk</td><td>k = r</td><td>F0 = E(ST)</td></tr><tr><td>Positive systematic risk</td><td>k &gt; r</td><td>F0 &lt; E(ST)</td></tr><tr><td>Negative systematic risk</td><td>k &lt; r</td><td>F0 &gt; E(ST)</td></tr></table>
 
-# Normal Backwardation and Contango
+## Normal Backwardation and Contango
 
 When the futures price is below the expected future spot price, the situation is known as normal backwardation; and when the futures price is above the expected future spot price, the situation is known as contango. However, it should be noted that sometimes these terms are used to refer to whether the futures price is below or above the current spot price, rather than the expected future spot price.
 
-# SUMMARY
+## SUMMARY
 
 For most purposes, the futures price of a contract with a certain delivery date can be considered to be the same as the forward price for a contract with the same delivery date. It can be shown that in theory the two should be exactly the same when interest rates are perfectly predictable.
 
@@ -675,14 +646,14 @@ The concept of cost of carry is sometimes useful. The cost of carry is the stora
 
 If we assume the capital asset pricing model is true, the relationship between the futures price and the expected future spot price depends on whether the return on the asset is positively or negatively correlated with the return on the stock market. Positive correlation will tend to lead to a futures price lower than the expected future spot price, whereas negative correlation will tend to lead to a futures price higher than the expected future spot price. Only when the correlation is zero will the theoretical futures price be equal to the expected future spot price.
 
-# FURTHER READING
+## FURTHER READING
 
 Cox, J. C., J. E. Ingersoll, and S. A. Ross. "The Relation between Forward Prices and Futures Prices," Journal of Financial Economics, 9 (December 1981): 321-46.
 Jarrow, R. A., and G. S. Oldfield. "Forward Contracts and Futures Contracts," Journal of Financial Economics, 9 (December 1981): 373-82.
 Richard, S., and S. Sundaresan. "A Continuous-Time Model of Forward and Futures Prices in a Multigood Economy," Journal of Financial Economics, 9 (December 1981): 347-72.
 Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for Commodities," Journal of Finance, 55, 3 (2000) 1297-1338.
 
-# Short Concept Questions
+## Short Concept Questions
 
 5.1. What is the difference between an investment asset and a consumption asset?
 5.2. Explain what happens when an investor shorts a certain stock.
@@ -695,69 +666,12 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 5.9. Explain the meaning of cost of carry and convenience yield. What is the relationship between futures price, spot price, convenience yield, and cost of carry?
 5.10. Under what circumstances is the futures price greater than the expected future spot price according to (a) Keynes and Hicks and (b) systematic risk considerations?
 
-# Practice Questions
 
-5.11. What is the difference between the forward price and the value of a forward contract?
 
-5.12. Suppose that you enter into a 6-month forward contract on a non-dividend-paying stock when the stock price is 30 and the risk-free interest rate (with continuous compounding) is 5\% per annum. What is the forward price?
 
-5.13. A stock index currently stands at 350. The risk-free interest rate is  $4\%$  per annum (with continuous compounding) and the dividend yield on the index is  $3\%$  per annum. What should the futures price for a 4-month contract be?
 
-5.14. Explain carefully why the futures price of gold can be calculated from its spot price and other observable variables whereas the futures price of copper cannot.
 
-5.15. Explain why a foreign currency can be treated as an asset providing a known yield.
 
-5.16. Is the futures price of a stock index greater than or less than the expected future value of the index? Explain your answer.
-
-5.17. A 1-year long forward contract on a non-dividend-paying stock is entered into when the stock price is 40 and the risk-free rate of interest is 5\% per annum with continuous compounding.
-
-(a) What are the forward price and the initial value of the forward contract?
- (b) Six months later, the price of the stock is 45 and the risk-free interest rate is still 5\%. What are the forward price and the value of the forward contract?
-
-5.18. The risk-free rate of interest is  $7\%$  per annum with continuous compounding, and the dividend yield on a stock index is  $3.2\%$  per annum. The current value of the index is 150. What is the 6-month futures price?
-5.19. Assume that the risk-free interest rate is  $4\%$  per annum with continuous compounding and that the dividend yield on a stock index varies throughout the year. In February, May, August, and November, dividends are paid at a rate of  $5\%$  per annum. In other months, dividends are paid at a rate of  $2\%$  per annum. Suppose that the value of the index on July 31 is 1,300. What is the futures price for a contract deliverable in December 31 of the same year?
-5.20. Suppose that the risk-free interest rate is  $6\%$  per annum with continuous compounding and that the dividend yield on a stock index is  $4\%$  per annum. The index is standing at 400, and the futures price for a contract deliverable in four months is 405. What arbitrage opportunities does this create?
-5.21. Estimate the difference between short-term interest rates in Japan and the United States on May 21, 2020, from the information in Table 5.4.
- 5.22. The 2-month interest rates in Switzerland and the United States are, respectively, 1\% and 2\% per annum with continuous compounding. The spot price of the Swiss franc is \$1.0500. The futures price for a contract deliverable in 2 months is \$1.0500. What arbitrage opportunities does this create?
- 5.23. The spot price of silver is \$25 per ounce. The storage costs are \$0.24 per ounce per year payable quarterly in advance. Assuming that interest rates are 5\% per annum for all maturities, calculate the futures price of silver for delivery in 9 months.
-5.24. Suppose that  $F_{1}$  and  $F_{2}$  are two futures contracts on the same commodity with times to maturity,  $t_{1}$  and  $t_{2}$ , where  $t_{2} > t_{1}$ . Prove that  $F_{2} \leq F_{1} e^{r(t_{2} - t_{1})}$ , where  $r$  is the interest rate
-
-(assumed constant) and there are no storage costs. For the purposes of this problem, assume that a futures contract is the same as a forward contract.
-
-5.25. When a known future cash outflow in a foreign currency is hedged by a company using a forward contract, there is no foreign exchange risk. When it is hedged using futures contracts, the daily settlement process does leave the company exposed to some risk. Explain the nature of this risk. In particular, consider whether the company is better off using a futures contract or a forward contract when:
-
-(a) The value of the foreign currency falls rapidly during the life of the contract.
-(b) The value of the foreign currency rises rapidly during the life of the contract.
-(c) The value of the foreign currency first rises and then falls back to its initial value.
-(d) The value of the foreign currency first falls and then rises back to its initial value. Assume that the forward price equals the futures price.
-
-5.26. It is sometimes argued that a forward exchange rate is an unbiased predictor of future exchange rates. Under what circumstances is this so?
-
-5.27. Show that the growth rate in an index futures price equals the excess return on the portfolio underlying the index over the risk-free rate. Assume that the risk-free interest rate and the dividend yield are constant.
-
-5.28. Explain carefully what is meant by the expected price of a commodity on a particular future date. Suppose that the futures price for crude oil declines with the maturity of the contract at the rate of  $2\%$  per year. Assume that speculators tend to be short crude oil futures and hedgers tend to be long. What does the Keynes and Hicks argument imply about the expected future price of oil?
-
-5.29. The Value Line Index is designed to reflect changes in the value of a portfolio of over 1,600 equally weighted stocks. Prior to March 9, 1988, the change in the index from one day to the next was calculated as the geometric average of the changes in the prices of the stocks underlying the index. In these circumstances, does equation (5.8) correctly relate the futures price of the index to its cash price? If not, does the equation overstate or understate the futures price?
-
-5.30. A U.S. company is interested in using the futures contracts traded by the CME Group to hedge its Australian dollar exposure. Define  $r$  as the interest rate (all maturities) on the U.S. dollar and  $r_f$  as the interest rate (all maturities) on the Australian dollar. Assume that  $r$  and  $r_f$  are constant and that the company uses a contract expiring at time  $T$  to hedge an exposure at time  $t$  ( $T > t$ ).
-
-(a) Show that the optimal hedge ratio is  $e^{(r_f - r)(T - t)}$ , ignoring daily settlement.
-(b) Show that, when  $t$  is 1 day, the optimal hedge ratio is almost exactly  $S_0 / F_0$ , where  $S_0$  is the current spot price of the currency and  $F_0$  is the current futures price of the currency for the contract maturing at time  $T$ .
-(c) Show that the company can take account of the daily settlement of futures contracts for a hedge that lasts longer than 1 day by adjusting the hedge ratio so that it always equals the spot price of the currency divided by the futures price of the currency.
-
-5.31. What is the cost of carry for:
-
-(a) a non-dividend-paying stock
-(b) a stock index
-(c) a commodity with storage costs
-(d) a foreign currency.
-
-5.32. The spot exchange rate between the Swiss franc and U.S. dollar is 1.0404 ($ per franc). Interest rates in the United States and Switzerland are 0.25\% and 0\% per annum, respectively, with continuous compounding. The 3-month forward exchange rate was 1.0300 ($ per franc). What arbitrage strategy was possible? How does your answer change if the forward exchange rate is 1.0500 ($ per franc).
-5.33. An index is 1,200. The three-month risk-free rate is  $3\%$  per annum and the dividend yield over the next three months is  $1.2\%$  per annum. The six-month risk-free rate is  $3.5\%$  per annum and the dividend yield over the next six months is  $1\%$  per annum. Estimate the futures price of the index for three-month and six-month contracts. All interest rates and dividend yields are continuously compounded.
-5.34. Suppose the current USD/euro exchange rate is 1.2000 dollar per euro. The six-month forward exchange rate is 1.1950. The six-month USD interest rate is  $1\%$  per annum continuously compounded. Estimate the six-month euro interest rate.
- 5.35. The spot price of oil is \$50 per barrel and the cost of storing a barrel of oil for one year is \$3, payable at the end of the year. The risk-free interest rate is 5\% per annum continuously compounded. What is an upper bound for the one-year futures price of oil?
-5.36. A company that is uncertain about the exact date when it will pay or receive a foreign currency may try to negotiate with its bank a forward contract that specifies a period during which delivery can be made. The company wants to reserve the right to choose the exact delivery date to fit in with its own cash flows. Put yourself in the position of the bank. How would you price the product that the company wants?
-5.37. A company enters into a forward contract with a bank to sell a foreign currency for  $K_{1}$  at time  $T_{1}$ . The exchange rate at time  $T_{1}$  proves to be  $S_{1} (> K_{1})$ . The company asks the bank if it can roll the contract forward until time  $T_{2} (> T_{1})$  rather than settle at time  $T_{1}$ . The bank agrees to a new delivery price,  $K_{2}$ . Explain how  $K_{2}$  should be calculated.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/fef9415f941ea29745914c2a1c37ce732cb006baee2a304071b9048a782c5f47.jpg)
 
@@ -768,4 +682,71 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 So far we have covered futures contracts on commodities, stock indices, and foreign currencies. We have seen how they work, how they are used for hedging, and how futures prices are determined. We now move on to consider interest rate futures.
 
 This chapter explains the contracts that trade in the United States. Many of the other interest rate futures contracts throughout the world have been modeled on these contracts. The chapter also shows how interest rate futures contracts, when used in conjunction with the duration measure introduced in Chapter 4, can be used to hedge a company's exposure to interest rate movements.
+
+## D2 Diagrams for Forward and Futures Pricing Visualization
+
+### Forward Pricing Relationships
+```d2
+# Forward Pricing Components
+spot_price: "Spot Price (S₀)"
+risk_free_rate: "Risk-Free Rate (r)"
+time_to_maturity: "Time to Maturity (T)"
+forward_price: "Forward Price (F₀)"
+income_yield: "Income Yield (q)"
+storage_costs: "Storage Costs"
+income: "Known Income (I)"
+
+spot_price -> forward_price: "Basis of Pricing"
+risk_free_rate -> forward_price: "Cost of Carry"
+time_to_maturity -> forward_price: "Time Value"
+income_yield -> forward_price: "Reduces Forward Price"
+income -> forward_price: "Present Value Adjustment"
+storage_costs -> forward_price: "Increases Forward Price"
+```
+
+### Arbitrage Strategies
+```d2
+# Forward Arbitrage Strategies
+overpriced_forward: "Overpriced Forward (F₀ > S₀e^(rT))"
+underpriced_forward: "Underpriced Forward (F₀ < S₀e^(rT))"
+borrow_and_buy: "Borrow & Buy Spot, Sell Forward"
+lend_and_sell: "Sell Spot, Lend & Buy Forward"
+profit: "Arbitrage Profit"
+
+overpriced_forward -> borrow_and_buy: "When Forward Overpriced"
+underpriced_forward -> lend_and_sell: "When Forward Underpriced"
+borrow_and_buy -> profit: "Riskless Profit"
+lend_and_sell -> profit: "Riskless Profit"
+```
+
+### Cost of Carry Model
+```d2
+# Cost of Carry Framework
+cost_of_carry: "Cost of Carry (c)"
+convenience_yield: "Convenience Yield (y)"
+storage_costs: "Storage Costs (u)"
+interest_costs: "Interest Costs (r)"
+forward_premium: "Forward Premium/Discount"
+
+interest_costs -> cost_of_carry: "Primary Component"
+storage_costs -> cost_of_carry: "Additional Cost"
+convenience_yield -> cost_of_carry: "Reduces Net Cost"
+cost_of_carry -> forward_premium: "Determines Forward Level"
+```
+
+### Forward vs Futures Pricing
+```d2
+# Forward vs Futures Pricing Factors
+forward_contract: "Forward Contract"
+futures_contract: "Futures Contract"
+marking_to_market: "Marking to Market"
+interest_rate_correlation: "Interest Rate Correlation"
+dividend_yield: "Dividend Yield"
+pricing_difference: "Pricing Difference"
+
+forward_contract -> "No daily settlement"
+futures_contract -> marking_to_market: "Daily Settlement"
+interest_rate_correlation -> futures_contract: "Affects Pricing"
+dividend_yield -> pricing_difference: "Influences Gap"
+```
 

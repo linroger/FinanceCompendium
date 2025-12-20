@@ -1,3 +1,36 @@
+---
+title: Chapter 02 - Term and Volatility Structures of Interest Rates
+primary_tags:
+  - term structure models
+  - yield curve analysis
+  - volatility surface
+  - interest rate derivatives
+  - fixed income securities
+secondary_tags:
+  - treasury yield curve
+  - forward rate curve
+  - zero coupon bonds
+  - volatility smile
+  - libor curve
+  - ois curve
+  - credit curve
+  - inflation curve
+  - floating rate bonds
+  - bootstrapping method
+  - nelson-siegel model
+  - volatility term structure
+  - curve steepening
+  - curve flattening
+  - swaption pricing
+cssclasses: academia
+parent_directory: Fixed Income
+key_concepts:
+  - term structure of interest rates
+  - volatility term structure
+  - yield curve construction
+  - forward rate derivation
+---
+
 # Chapter 2: Term and Volatility Structures of Interest Rates
 
 The fundamental knowledge underlying the entire universe of fixed income securities lies in the term structure of interest rates (or commonly known as the yield curve) and the term structure of volatilities (or volatility curve). The former is the foundation for fixed income securities that do not have any optionality and the latter is the foundation for those that do. In this chapter, we study both term structures at a very superficial level. In a later chapter, we study the fundamental factors that lie under these two term structures.
@@ -447,17 +480,17 @@ According to Wikipedia (adapted):
 
 **Figure 2.8: LIBOR**
 
-These LBIOR rates are only up to a year (Figure 2.8). To complete the LIBOR curve, derivative contracts must be involved: Eurodollar futures and fixed-floating interest rate swaps. An example of the ED futures quotes is given in Figure 2.9. Only up to 4 years of ED futures will be selected. Beyond 4 years, industry use interest rate swaps (Figure 2.10).
+These LIBOR rates are only up to a year (Figure 2.8). To complete the LIBOR curve, derivative contracts must be involved: Eurodollar futures and fixed-floating interest rate swaps. An example of the ED futures quotes is given in Figure 2.9. Only up to 4 years of ED futures will be selected. Beyond 4 years, industry use interest rate swaps (Figure 2.10).
 
 ![EuroDollar Futures](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/0003ab4192b060cb5494792c18e2c31aefdcc6374517cff2f811638ba246be6d.jpg)
 
 **Figure 2.9: EuroDollar Futures**
 
-ED futures prices are not forward prices. The former is the risk-neutral expectation of the bond price and the latter is the ratio of two bond prices. Hence to generate LIBOR curve, we must convert the futrues prices to forward prices. There are a number of different ways to do that. The easiest way is to do a simple convexity adjustment.
+ED futures prices are not forward prices. The former is the risk-neutral expectation of the bond price and the latter is the ratio of two bond prices. Hence to generate LIBOR curve, we must convert the futures prices to forward prices. There are a number of different ways to do that. The easiest way is to do a simple convexity adjustment.
 
 $$\text{forward} = \text{futures} - \frac{1}{2} \sigma^2 \tau_i \tau_j$$
 
-where $\tau_1 = T_i - t$ and $\tau_2 = T_j - t$ are times to maturity of the futures contract and and the underlying bond respectively.¹⁵
+where $\tau_1 = T_i - t$ and $\tau_2 = T_j - t$ are times to maturity of the futures contract and the underlying bond respectively.¹⁵
 
 In Chapter 9, we have the following futures rate equation (equation (9.19)):
 
@@ -491,7 +524,7 @@ Because the equation is evaluated on the coupon date of both legs, the fixed leg
 
 #### Remark
 
-It is understandable that LIBOR market (interbanks), Eurodollar futures market (CME), and swap market (OTC) are quite different in may ways (market microstructure, participants, locations, regulations, etc.) and hence no one would expect their rates are consistent. As a result, when building a curve using prices from these different markets, it is expected that the curve will not be continuous. As a result of that, various smoothing techniques are used. There is no consensus to which smoothing method is best.
+It is understandable that LIBOR market (interbanks), Eurodollar futures market (CME), and swap market (OTC) are quite different in many ways (market microstructure, participants, locations, regulations, etc.) and hence no one would expect their rates are consistent. As a result, when building a curve using prices from these different markets, it is expected that the curve will not be continuous. As a result of that, various smoothing techniques are used. There is no consensus to which smoothing method is best.
 
 ### 2.6.2 OIS Curve
 
@@ -603,7 +636,7 @@ $$P = \frac{1 + L_1}{(1 + L_1)} = 1$$
 
 As a result, we can see that no matter how many coupons to be paid by the floater, its value is always equal to 1 plus the next coupon discounted by the LIBOR. Hence, the risk free floater is always priced at par at coupon dates. In between coupon dates, the discounting is not perfect. The cash flow is still $1 + L_1$ and yet the discounting is not a full period. For example, if we purchase the floater in exactly the middle of the period, then we could compute the value as:
 
-$$P = \frac{1 + L_1}{1 + ^{1}/_{2} L_1} > 1$$
+$$P = \frac{1 + L_1}{1 + \frac{1}{2} L_1} > 1$$
 
 While the value is no longer par, it is still very close to par. For example, if the LIBOR is 3%, then the above value is 1.014.
 
@@ -655,7 +688,7 @@ Many models assume a constant volatility value, or flat volatility curve. Yet re
 
 ### 2.8.1 Volatility Smile and Volatility Term Structure in Equities
 
-Volatility is defined as the standard deviation of the log price. In equity, volatility is defined as $\sqrt{\mathbb{V}_t(\ln S_T) / (T - t)}$ where $t$ is current time and $T$ is maturity time of the option. In the Black-Scholes model, this quantity is assumed to be constant, $\sigma$. However, empirically, a overwhelming body of evidence suggests that this is not true.
+Volatility is defined as the standard deviation of the log price. In equity, volatility is defined as $\sqrt{\mathbb{V}_t(\ln S_T) / (T - t)}$ where $t$ is current time and $T$ is maturity time of the option. In the Black-Scholes model, this quantity is assumed to be constant, $\sigma$. However, empirically, an overwhelming body of evidence suggests that this is not true.
 
 First, the literature has documented that stock returns are fat-tailed. That is, the possibility of extreme large profits and losses are more likely than what normality suggests. This causes the option prices for deep-in and deep-out-of the money to be underpriced by the Black-Scholes model. In other words, The Black-Scholes price is less than the market price using the same volatility as the at-the-money. As a result, we must jag up the volatility for in and out-of money options to match the market prices, causing a volatility smile.¹⁸ See Figure 2.17 below.
 
@@ -714,7 +747,7 @@ Given that the future time $T$ and the time to maturity $s - T$ are arbitrary, t
 
 In the above diagram, some models take "yield vols" as inputs. Yield vols are volatilities of all the yields one period (could be one month or one week) from now. In the above table, this would be the first column of the table. Note that in continuous time, $y_{T,s_2} = y_{T,s_1} + f_{T,s_1,s_2}$. As a result, we can write any yield vol as:
 
-$$\mathbb{V}[y_{T,s_2}] = \mathbb{V}[y_{T,s_1}] + \mathbb{V}[f_{T,s_1,s_2}] + 2 \mathbb{K}[y_{T,s_1}, f_{T,s_1,s_2}]$$
+$$\mathbb{V}[y_{T,s_2}] = \mathbb{V}[y_{T,s_1}] + \mathbb{V}[f_{T,s_1,s_2}] + 2 \operatorname{Cov}[y_{T,s_1}, f_{T,s_1,s_2}]$$
 
 and this is the relationship between two rate vols, forward vol, and the covariance between the two. To link the rate volatility to the yield volatility, we need an interest rate model. The following is the market of swaptions:
 
@@ -754,7 +787,7 @@ From option prices, we can back out the volatilities.
 
 #### US Treasuries
 
-Available options on US Treasuries are options various interest rates and T bond futures options. Options on various Treasury interest rates (13-week, 5-year, 10-year, and 30-year)²⁰ are cash settled contracts but these contracts are not liquid. On the other hand, options on T bond futures are very liquid. However they contain complex delivery options (details are discussed in Chapter 9) and futures themselves are already derivatives. Hence T bond futures options are derivatives on derivatives.
+Available options on US Treasuries are options on various interest rates and T bond futures options. Options on various Treasury interest rates (13-week, 5-year, 10-year, and 30-year)²⁰ are cash settled contracts, but these contracts are not liquid. On the other hand, options on T bond futures are very liquid. However they contain complex delivery options (details are discussed in Chapter 9) and futures themselves are already derivatives. Hence T bond futures options are derivatives on derivatives.
 
 There are not enough options to construct a volatility surface for Treasuries, as shown in Figure 10.5.
 
@@ -789,7 +822,7 @@ Over:
 - 75 delta
 - 90 delta
 
-The quotes are in Black volatility and one must translate the quotes to prices in order trade.
+The quotes are in Black volatility and one must translate the quotes to prices in order to trade.
 
 We will discuss the details of FX market in Chapter 6.
 
@@ -838,3 +871,61 @@ It is an empirical observation that when $V$ is close to 0, then normal vol is m
 $$\sigma_{LN} V = \sigma_N$$
 
 For example, a swaption option has a 0.5 lognormal volatility and the swap rate is 2.5%. Then its normal (bp) vol is 1.25%.
+
+## D2 Diagrams for Term Structure Visualization
+
+### Yield Curve Types
+```d2
+# Different Shapes of Yield Curves
+normal_yield: "Normal Yield Curve"
+inverted_yield: "Inverted Yield Curve"
+flat_yield: "Flat Yield Curve"
+humped_yield: "Humped Yield Curve"
+
+normal_yield -> "Steep upward slope": "Long-term > Short-term rates"
+inverted_yield -> "Downward slope": "Short-term > Long-term rates"
+flat_yield -> "Horizontal": "Similar rates across maturities"
+humped_yield -> "Rising then falling": "Medium-term rates highest"
+```
+
+### Term Structure Relationships
+```d2
+# Relationship Between Different Term Structures
+spot_rates: "Spot Rates (Zero Coupon)"
+forward_rates: "Forward Rates"
+par_rates: "Par Yields"
+discount_factors: "Discount Factors"
+
+spot_rates -> forward_rates: "Derived via differentiation"
+spot_rates -> discount_factors: "Exponential relationship"
+par_rates -> spot_rates: "Bootstrapping method"
+forward_rates -> par_rates: "Integration relationship"
+```
+
+### Yield Curve Construction Methods
+```d2
+# Yield Curve Construction Approaches
+bootstrapping: "Bootstrapping"
+nelson_siegel: "Nelson-Siegel"
+spline_methods: "Spline Methods"
+polynomial: "Polynomial Fitting"
+
+bootstrapping -> "Piece-wise flat": "Basic method"
+spline_methods -> "Quadratic/Cubic splines": "Smooth curves"
+nelson_siegel -> "Factor model": "Three-factor model"
+polynomial -> "Curve fitting": "Best fit approach"
+```
+
+### Interest Rate Risk Components
+```d2
+# Components of Interest Rate Risk
+parallel_shift: "Parallel Shift Risk"
+steepening: "Steepening/Flattening Risk"
+curvature: "Curvature Risk"
+volatility: "Volatility Risk"
+
+parallel_shift -> "Duration": "Sensitivity to level changes"
+steepening -> "Key Rate Duration": "Sensitivity to slope changes"
+curvature -> "Convexity": "Sensitivity to curvature changes"
+volatility -> "Option-adjusted measures": "Sensitivity to volatility"
+```

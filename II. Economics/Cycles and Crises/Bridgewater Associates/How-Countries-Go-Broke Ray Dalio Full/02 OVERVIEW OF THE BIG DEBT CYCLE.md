@@ -1,14 +1,16 @@
 ---
-aliases:
-  - Overview of the Big Debt Cycle
-tags:
-key_concepts:
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+title: Overview of the Big Debt Cycle
+primary_tags:
+  - big debt cycle
+  - debt dynamics
+  - economic cycles
+secondary_tags:
+  - credit cycles
+  - debt crisis
+  - monetary system
+  - financial stability
+  - macroeconomic policy
 cssclasses: academia
-title: "02 - Overview of the Big Debt Cycle"
 ---
 
-# 02_OVERVIEW_OF_THE_BIG_DEBT_CYCLE
-## OVERVIEW
-
-### OF THE BIG
+# Overview of the Big Debt Cycle

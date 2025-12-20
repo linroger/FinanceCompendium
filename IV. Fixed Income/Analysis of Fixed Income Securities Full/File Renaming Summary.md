@@ -1,3 +1,18 @@
+---
+title: File Renaming Summary
+primary_tags:
+  - file organization
+  - naming conventions
+  - project structure
+secondary_tags:
+  - fixed income securities
+  - chapter organization
+  - title case formatting
+  - documentation management
+  - file system structure
+cssclasses: academia
+---
+
 # File Renaming Summary
 
 ## Complete File Renaming - Analysis of Fixed Income Securities

@@ -1,62 +1,68 @@
 ---
+title: Chapter 24 Non US Equity Markets
+primary_tags:
+  - international equity markets
+  - emerging market investments
+  - chinese equity markets
+  - global stock indexes
+  - market classification systems
+secondary_tags:
+  - investment diversification strategies
+  - market regulation frameworks
+  - stock market indexes
+  - qualified foreign institutional investor
+  - split share structure reform
+  - shanghai hong kong stock connect
+  - a shares b shares h shares
+  - state owned enterprises
+  - market efficiency differences
+  - retail investor behavior
+  - equity market structure
+  - market capitalization weighting
+  - frontier market investments
+  - developed market indexes
+  - msci market classification
+  - ftse global indexes
+  - european stock markets
+  - asian equity markets
+  - market liquidity fragmentation
+  - financial instruments directive
+  - big bang reforms
+  - red chip companies
+  - chinese stock exchanges
+  - renminbi currency
+  - yuan denomination
 cssclasses: academia
-title: "Chapter 24 - Non US Equity Markets"
-tags: [international_equity, emerging_markets, chinese_markets, global_investing, market_regulation]
-parent_directory: "Foundations of Global Financial Markets"
-key_concepts: ["Non-US equity markets", "Chinese equity markets", "Global stock indexes", "Market classification", "Investment diversification"]
 ---
 
 # Chapter 24 - Non US Equity Markets
 
 ## Contents
 
-Learning Objectives
-
-Rationale for Investing Outside the Home Equity Market
-
-Non-U.S. Equity Markets
-
-Stock Market Indexes
-
-Exchange-Provided Indexes
-
-Non-Exchange Sponsors of International Indexes
-
-Regulation of the U.K. and European Stock Markets
-
-Market in Financial Instruments Directive
-
-The Big Bang
-
-Chinese Equity Markets
-
-Chinese Stock Market Structure
-
-Chinese currency
-
-Chinese Stock Market Regulations
-
-Split-share-structure reform
-
-Qualified Foreign Institutional Investor Program
-
-Chinese Stock Exchanges
-
-Chinese Stock Market Share Classes (A, B, and H)
-
-A-Shares versus H-Shares
-
-Red chips
-
-Shanghai-Hong Kong Stock Connect
-
-Chinese Stock Market Indexes
-
-Chinese vs U.S. Equity Markets
-
-Key Points
-
-Questions
+- Learning Objectives
+- Rationale for Investing Outside the Home Equity Market
+- Non-U.S. Equity Markets
+- Stock Market Indexes
+- Exchange-Provided Indexes
+- Non-Exchange Sponsors of International Indexes
+- Regulation of the U.K. and European Stock Markets
+- Market in Financial Instruments Directive
+- The Big Bang
+- Chinese Equity Markets
+- Chinese Stock Market Structure
+- Chinese currency
+- Chinese Stock Market Regulations
+- Split-share-structure reform
+- Qualified Foreign Institutional Investor Program
+- Chinese Stock Exchanges
+- Chinese Stock Market Share Classes (A, B, and H)
+- A-Shares versus H-Shares
+- Red chips
+- Shanghai-Hong Kong Stock Connect
+- Chinese Stock Market Indexes
+- Chinese vs U.S. Equity Markets
+- Key Points
+- Questions
 
 ## Learning Objectives
 
@@ -74,7 +80,7 @@ After reading this chapter, you will understand:
 
 In the previous two chapters, our focus was on the various aspects of the U.S. equity markets. We complete this three-chapter suite with a treatment of the non-U.S. equity markets. This chapter begins with a review of the non-U.S. equity markets—developed, emerging (developing), and frontier (pre-emerging) markets. Because the Chinese equity markets are relatively young but are very large, growing quickly, and quite complicated, we discuss the Chinese equity markets in more detail.
 
-Although non-U.S. equities have become a large component of the investment portfolio of many institutional investors, retail (individual) investors can also invest in these markets. As can be seen in table 24.1 below, North America (the United States and Canada) represented approximately $44\%$ of the Financial Times Stock Exchange (FTSE) Global All Cap Index as of April 30, 2017. Most individual investors do not typically trade non-U.S. stocks directly but instead obtain exposure via collective vehicles that invest in individual countries or regions (such as mutual funds and exchange-traded funds) and depositary receipts (ADRs and GDRs).
+Although non-U.S. equities have become a large component of the investment portfolio of many institutional investors, retail (individual) investors can also invest in these markets. As can be seen in table 24.1 below, North America (the United States and Canada) represented approximately 44\% of the Financial Times Stock Exchange (FTSE) Global All Cap Index as of April 30, 2017. Most individual investors do not typically trade non-U.S. stocks directly but instead obtain exposure via collective vehicles that invest in individual countries or regions (such as mutual funds and exchange-traded funds) and depositary receipts (ADRs and GDRs).
 
 Table 24.1 Country composition of the FTSE Global All Cap Index, April 30, 2017.
 
@@ -82,7 +88,7 @@ Table 24.1 Country composition of the FTSE Global All Cap Index, April 30, 2017.
 
 ## Rationale for Investing Outside the Home Equity Market
 
-Investors have a choice of investing solely in their home equity market or expanding their portfolio to include the stocks of companies outside their home market. For example, a French investor can invest solely in stocks of French companies and traded in the French stock market or can invest in not only French companies but also in companies trading in other European countries, Asian companies, and North American companies. Why do investors bother to invest outside their home equity market? There are several reasons for doing do.
+Investors have a choice of investing solely in their home equity market or expanding their portfolio to include the stocks of companies outside their home market. For example, a French investor can invest solely in stocks of French companies and traded in the French stock market or can invest in not only French companies but also in companies trading in other European countries, Asian companies, and North American companies. Why do investors bother to invest outside their home equity market? There are several reasons for doing so.
 
 The major reason that is often cited is that investing in the companies outside their home market is diversification. Recall our discussion in chapter 13, where we described the Markowitz efficient frontier and how that efficient frontier impacted the correlation between assets. The argument for investing outside the home market is that the stock market return correlations are less than one and therefore, there is the opportunity to "push out" the efficient frontier. "Pushing out the efficient frontier" means that a given level of expected return can be achieved at a lower level of risk. Economists have argued that this is a "free lunch." Whether they are right is an empirical question. Some studies support correlation levels between country stock market returns that can produce this outcome. However, other studies show that as the world has become more integrated, correlations have approached one, particularly during a financial crisis.
 
@@ -122,11 +128,78 @@ Source: "MSCI—Who We Are," https://www.msci.com/market-cap-weighted-indexes.
 
 Overall, less-developed countries have higher risks and higher potential returns, not an unusual trade-off when investing in financial markets.
 
+```d2
+# Market Classification Hierarchy
+
+Global Equity Markets: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  
+  Developed Markets: {
+    shape: rectangle
+    style.fill: "#d4f4d4"
+    Examples: {
+      "United States"
+      "Germany"
+      "United Kingdom"
+      "Japan"
+      "Australia"
+    }
+  }
+  
+  Emerging Markets: {
+    shape: rectangle
+    style.fill: "#fff4d4"
+    Examples: {
+      "China"
+      "Brazil"
+      "India"
+      "Russia"
+      "South Korea"
+    }
+  }
+  
+  Frontier Markets: {
+    shape: rectangle
+    style.fill: "#ffe8d4"
+    Examples: {
+      "Kenya"
+      "Vietnam"
+      "Nigeria"
+      "Pakistan"
+      "Morocco"
+    }
+  }
+}
+
+# Risk-Return Relationship
+Risk vs Return: {
+  shape: rectangle
+  style.fill: "#f4e8f8"
+  
+  "Higher Risk": {
+    "Frontier Markets"
+    "Emerging Markets"
+    "Developed Markets"
+  }
+  
+  "Higher Potential Returns": {
+    "Frontier Markets"
+    "Emerging Markets"
+    "Developed Markets"
+  }
+}
+
+Global Equity Markets.Risk vs Return: {
+  style.stroke-dash: 3
+}
+```
+
 There are several methods for classifying stock markets. In this chapter, we use the Morgan Stanley Capital International (MSCI) market classification, which is a family of indexes constructed and maintained by that organization. Its structure and current data are provided in table 24.2. MSCI's broadest index is the MSCI ACWI Index (ACWI stands for "All Country World Index"). As shown, this broad index is divided into the categories of developed markets, emerging markets, frontier markets, and standalone markets. Each is further divided into geographical regions. In general, the emerging market sector has been grouped in several different ways. The most commonly used grouping is the BRIC group. These four countries were thought to be of similar levels of development. Subsequently, South Africa was added to this group to form the BRICS. Interestingly, as of year-end 2017, China was the second largest global stock market but remains a developing market.
 
 Table 24.3 provides basic data on the 20 largest global equity exchanges.. Global equity data on a frequent basis (daily or weekly) are found for many countries, exchanges, and sectors in the Wall Street Journal, Barron's, The Economist, and Bloomberg.
 
-# Table 24.3
+### Table 24.3
 
 Twenty largest global stock exchanges by market capitalization, January 31, 2015.
 
@@ -194,7 +267,7 @@ As the Chinese equity markets mature, the abovementioned disadvantages may moder
 
 ### Chinese Stock Market Structure
 
-The structure and workings of the Chinese equity markets are quite different from those of other international exchanges. This structure is shown in figure 24.1. As shown in the figure, about  $30\%$  of Chinese stocks are listed on one of the three stock exchanges (Hong Kong, Shanghai, and Shenzhen exchanges), and  $70\%$  are not listed on an exchange. Stocks not listed on any of these exchanges are referred to as "unlisted," that is, not traded on any exchanges and traded only on private markets. The private markets are very active. Of the  $30\%$  of listed stocks, about half are government-owned companies, referred to as state-owned enterprises (SOEs), and the other half are private companies. This mix between SOEs and private companies has changed over time. SOEs are discussed further below.
+The structure and workings of the Chinese equity markets are quite different from those of other international exchanges. This structure is shown in figure 24.1. As shown in the figure, about $30\%$ of Chinese stocks are listed on one of the three stock exchanges (Hong Kong, Shanghai, and Shenzhen exchanges), and $70\%$ are not listed on an exchange. Stocks not listed on any of these exchanges are referred to as "unlisted," that is, not traded on any exchanges and traded only on private markets. The private markets are very active. Of the $30\%$ of listed stocks, about half are government-owned companies, referred to as state-owned enterprises (SOEs), and the other half are private companies. This mix between SOEs and private companies has changed over time. SOEs are discussed further below.
 
 Figure 24.1
 
@@ -202,9 +275,71 @@ Figure 24.1
 
 *The Chinese stock market and exchanges: (a) structure of the Chinese stock market; (b) Chinese stock exchanges; (c) Chinese stock indexes.*
 
+```d2
+# Chinese Stock Market Structure
+
+Chinese Stock Market: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  
+  Listed Stocks: {
+    shape: rectangle
+    style.fill: "#d4f4d4"
+    "30% of Market": {
+      "Shanghai Stock Exchange"
+      "Shenzhen Stock Exchange"
+      "Hong Kong Stock Exchange"
+    }
+    
+    Ownership: {
+      "50% State-Owned Enterprises (SOEs)"
+      "50% Private Companies"
+    }
+  }
+  
+  Unlisted Stocks: {
+    shape: rectangle
+    style.fill: "#fff4d4"
+    "70% of Market": {
+      "Private Markets"
+      "OTC Trading"
+      "Limited Transparency"
+    }
+  }
+}
+
+# Share Classes
+Share Classes: {
+  shape: rectangle
+  style.fill: "#f4e8f8"
+  
+  "A-Shares": {
+    "Renminbi Denominated"
+    "Mainland Chinese Investors"
+    "QFII Program Access"
+  }
+  
+  "B-Shares": {
+    "Foreign Currency Denominated"
+    "International Investors"
+    "USD (Shanghai) / HKD (Shenzhen)"
+  }
+  
+  "H-Shares": {
+    "Hong Kong Listed"
+    "Hong Kong Dollar Denominated"
+    "Open to All Investors"
+  }
+}
+
+Chinese Stock Market.Share Classes: {
+  style.stroke-dash: 3
+}
+```
+
 A unique aspect of the Chinese stock market is the SOEs. SOEs are legal entities that are fully or partially owned by the state and conduct commercial activities on behalf of the state. At the birth of the People's Republic of China in 1949, all businesses were SOEs. The Chinese government has sold many of its SOEs since the turn of the century. As of 2011, $35\%$ of business activity and $43\%$ of the profits in the People's Republic of China was due to companies in which the government had a majority ownership.[8] These SOEs are typically extremely large and most are located in Beijing.
 
-SOEs have played an important role in the development of the Chinese economy. In the 1980s, SOEs (the state sector) accounted for $80\%$ of the Chinese economy. However, due to the rapid increase in the private economy, by 2017, SOEs accounted for only $20\%$ of the economy.
+SOEs have played an important role in the development of the Chinese economy. In the 1980s, SOEs (the state sector) accounted for 80\% of the Chinese economy. However, due to the rapid increase in the private economy, by 2017, SOEs accounted for only 20\% of the economy.
 
 The Chinese stock market indexes capture only the listed markets, which are heavily state owned. The unlisted market is very large but is not represented in any of the indexes. This structure causes a concern about transparency.
 
@@ -220,9 +355,7 @@ The two mainland exchanges, Shanghai and Shenzhen, opened in 1990 as part of Den
 
 The last column in table 24.4 shows the designations for the Chinese stock market indexes, which are discussed below. As explained above, only stock exchange-traded stocks are included in these indexes. This raises a concern about transparency.
 
-Chinese currency China's official currency is called the renminbi (denoted by RMB). Renminbi translates to "the people's currency" in Mandarin. It was first issued in December 1948 with the establishment of the
-
-People's Republic of China. Although its official abbreviation is ¥, the common abbreviation is RMB.
+Chinese currency China's official currency is called the renminbi (denoted by RMB). Renminbi translates to "the people's currency" in Mandarin. It was first issued in December 1948 with the establishment of the People's Republic of China. Although its official abbreviation is ¥, the common abbreviation is RMB.
 
 The yuan is the base unit of account of the currency, which means that the currency is denominated in 1 yuan, 2 yuan, and so on. The yuan is denoted by ¥. An analogy with the U.S. would be between the unit of value of the Federal Reserve Note (a unit of value akin to the yuan) and the U.S. dollar (a currency akin to the renminbi). Prices are referred to in dollars, not Federal Reserve Notes.
 
@@ -257,6 +390,76 @@ As of April 2012, the combined quota for the QFII program was set at 80 billion.
 The QFII program was instrumental in including A-shares in U.S. stock indexes by MSCI, as discussed below. MSCI is moving slowly to include A-shares in its indexes, because an investor has to be part of the QFII program to invest in A-shares, which sets limits on the amount investors can invest.
 
 As indicated, QFII permits foreign investors to invest in China. The obverse of this is the Qualified Domestic Institutional Investor (QDII) program, which permits certain Chinese institutional investors (such as banks, funds, and investment companies) to invest in securities outside China. The QDII program in China was set up to provide the growing number of Chinese investors with a larger market where they could invest their funds. The Chinese stock markets were not always deep enough to provide sufficient investment markets. As an example, an institutional investor could be approved, according to QDII, to invest up to $50\%$ of its net assets into allowable foreign securities, as long as not more than $5\%$ was invested in any single security.
+
+```d2
+# QFII and QDII Programs
+
+direction: right
+
+# QFII Program
+QFII: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  title: "Qualified Foreign Institutional Investor"
+  
+  "Foreign Investors": {
+    "Institutional Investors"
+    "Fund Management Companies"
+    "Insurance Companies"
+  }
+  
+  "Investment Access": {
+    "A-Shares (RMB Denominated)"
+    "Shanghai & Shenzhen Exchanges"
+    "Quota System (80B USD)"
+  }
+  
+  "Requirements": {
+    "5+ Years Experience"
+    "5B+ Assets Under Management"
+    "CSRC Approval Required"
+  }
+}
+
+# QDII Program
+QDII: {
+  shape: rectangle
+  style.fill: "#fff4d4"
+  title: "Qualified Domestic Institutional Investor"
+  
+  "Chinese Investors": {
+    "Banks"
+    "Funds"
+    "Investment Companies"
+  }
+  
+  "Investment Access": {
+    "Foreign Securities"
+    "Up to 50% of Net Assets"
+    "Max 5% per Security"
+  }
+  
+  "Purpose": {
+    "Diversification"
+    "Access to Larger Markets"
+    "Risk Management"
+  }
+}
+
+# Capital Flow
+"Foreign Capital": {
+  shape: circle
+  style.fill: "#d4f4d4"
+}
+
+"Domestic Capital": {
+  shape: circle
+  style.fill: "#ffe8d4"
+}
+
+"Foreign Capital" -> QFII: "Inflow"
+QDII -> "Foreign Securities": "Outflow"
+```
 
 ### Chinese Stock Exchanges
 
@@ -309,9 +512,9 @@ Shanghai-Hong Kong Stock Connect Stock Connect is an investment channel that con
 
 ### Chinese Stock Market Indexes
 
-The Chinese stock market indexes are based entirely on listed stocks, that is, stocks listed on one of the exchanges. The listed stocks are approximately $50\%$ based on SOEs and $50\%$ based on private stocks. Unlisted stocks are traded in very active markets and are not traded on any exchange. The major stock indexes in China are the Hang Seng Index, the Shanghai Composite Index, the Shenzhen Component Index, and the CSI 300 Index.
+The Chinese stock market indexes are based entirely on listed stocks, that is, stocks listed on one of the exchanges. The listed stocks are approximately 50\% based on SOEs and 50\% based on private stocks. Unlisted stocks are traded in very active markets and are not traded on any exchange. The major stock indexes in China are the Hang Seng Index, the Shanghai Composite Index, the Shenzhen Component Index, and the CSI 300 Index.
 
-The Hang Seng Index (His) is a free float-adjusted market capitalization-weighted stock market index traded on the SEHK. The 50 constituent companies of the His represent about $58\%$ of the capitalization of the SEHK. The index is used to record and monitor daily changes of the largest companies. The His was started in November 1969 and is currently compiled and maintained by Hang Seng Indexes Company Limited, which is a wholly owned subsidiary of Hang Seng Bank. The 50 His stocks are also divided into four subindexes: finance, utilities, properties, and commerce and industry
+The Hang Seng Index (His) is a free float-adjusted market capitalization-weighted stock market index traded on the SEHK. The 50 constituent companies of the His represent about 58\% of the capitalization of the SEHK. The index is used to record and monitor daily changes of the largest companies. The His was started in November 1969 and is currently compiled and maintained by Hang Seng Indexes Company Limited, which is a wholly owned subsidiary of Hang Seng Bank. The 50 His stocks are also divided into four subindexes: finance, utilities, properties, and commerce and industry
 
 The Shanghai Stock Exchange Composite Index (SSE Comp) is a capitalization-weighted index that tracks the price performance of all the A-shares and B-shares listed on the SSE. The index was developed on December 19, 1990 with a base value of 100.
 
@@ -337,7 +540,7 @@ With respect to investor participation, the Chinese equity market structure is m
 
 - The reasons for investing outside one's domestic market are that it allows for better diversification (a better efficient frontier) and captures attractive returns by investing in less price efficient markets.
 - An investor can invest in stock markets in other countries not only by buying individual stocks traded in those countries but also by investing in collective investment vehicles such closed-end funds, mutual funds, and exchange-traded funds and via depositary receipts (ADRs and GDRs).
-- The non-U.S. equity markets represent almost $50\%$ of the global equity markets.
+- The non-U.S. equity markets represent almost 50\% of the global equity markets.
 - The non-U.S. equity markets are composed of the European, Pacific, and emerging markets.
 - The Big Bang in the United Kingdom made significant changes in equity trading and caused an immediate movement from floor trading to "upstairs" electronic trading.
 - The Chinese stock market is the second largest stock market globally and is composed of two mainland stock exchanges (the Shanghai and Shenzhen Stock Exchanges) and the Hong Kong Stock Exchange.
@@ -345,7 +548,7 @@ With respect to investor participation, the Chinese equity market structure is m
 - The China Securities Regulatory Commission (CSRC) is China's stock regulatory body, the analogue of the U.S. SEC.
 - The Chinese stock market is composed mainly of retail, not institutional, investors.
 - Because retail investors in the Chinese stock market are very short-term traders, who are very risk-sensitive, the Chinese markets are highly volatile.
-- The Chinese stock market is composed of $70\%$ unlisted (that is, not listed on any exchange) stocks and $30\%$ listed, exchange-traded stocks; the latter consist of approximately $50\%$ private companies and $50\%$ government, state-owned enterprises (SOEs).
+- The Chinese stock market is composed of 70\% unlisted (that is, not listed on any exchange) stocks and 30\% listed, exchange-traded stocks; the latter consist of approximately 50\% private companies and 50\% government, state-owned enterprises (SOEs).
 - There are several stock indexes, some associated with the exchanges and others developed independent of the exchanges.
 - The CSI 300 is considered to be the S&P 500 of China.
 - The renminbi (denoted by RMB) is the official currency of China. The Chinese yuan is the unit of account for the currency.
