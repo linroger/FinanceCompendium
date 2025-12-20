@@ -5877,7 +5877,7 @@ $$
 and by replacing, Eq. (5.46) can be rewritten as follows:
 
 $$
-\mathrm {P V} _ {\mathrm {M C} (\mathrm {k})} = \frac {\partial \sigma_ {\mathrm {P}} ^ {2}}{\partial \alpha_ {\mathrm {k}}} = 2 \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {k}, \mathrm {j}} = 2 \sigma_ {\mathrm {k}, \mathrm {P}} \tag {5.47}
+\mathrm{PV}_{\mathrm{MC(k)}} = \frac{\partial \sigma_{\mathrm{P}}^{2}}{\partial \alpha_{\mathrm{k}}} = 2 \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{j}} \sigma_{\mathrm{k},\mathrm{j}} = 2 \sigma_{\mathrm{k},\mathrm{P}} \tag{5.47}
 $$
 
 Finally, the  $k$ -th asset's marginal contribution to the portfolio standard deviation  $(PSD_{MC(k)})$ , is calculated based on the partial derivative of the portfolio standard deviation  $(\sigma_P)$  compared with the  $k$ -th asset's weight  $(\alpha_k)$ . It measures the  $k$ -th asset's marginal risk (in terms of standard deviation).
@@ -5885,7 +5885,7 @@ Finally, the  $k$ -th asset's marginal contribution to the portfolio standard de
 By considering that:
 
 $$
-\begin{array}{l} \sigma_ {P} = \sqrt {\sigma_ {\mathrm {P}} ^ {2}} = \sqrt {\sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} ^ {2} \sigma_ {\mathrm {i}} ^ {2} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \sum_ {\substack {\mathrm {j} = 1 \\ \mathrm {j} \neq \mathrm {i}}} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {i}, \mathrm {j}}} \\ = \left(\sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} ^ {2} \sigma_ {\mathrm {i}} ^ {2} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \sum_ {\substack {\mathrm {j} = 1 \\ \mathrm {j} \neq \mathrm {i}}} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {i}, \mathrm {j}}\right) ^ {\frac {1}{2}} \\ \end{array}
+\begin{array}{l} \sigma_{P} = \sqrt{\sigma_{\mathrm{P}}^{2}} = \sqrt{\sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}}^{2} \sigma_{\mathrm{i}}^{2} + \sum_{\mathrm{i}=1}^{\mathrm{n}} \sum_{\substack{\mathrm{j}=1 \\ \mathrm{j}\neq\mathrm{i}}}^{\mathrm{n}} \alpha_{\mathrm{i}} \alpha_{\mathrm{j}} \sigma_{\mathrm{i},\mathrm{j}}} \\ = \left(\sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}}^{2} \sigma_{\mathrm{i}}^{2} + \sum_{\mathrm{i}=1}^{\mathrm{n}} \sum_{\substack{\mathrm{j}=1 \\ \mathrm{j}\neq\mathrm{i}}}^{\mathrm{n}} \alpha_{\mathrm{i}} \alpha_{\mathrm{j}} \sigma_{\mathrm{i},\mathrm{j}}\right)^{\frac{1}{2}} \\ \end{array}
 $$
 
 $$
@@ -5895,7 +5895,7 @@ $$
 Therefore, the marginal contribution of the k-th asset to the portfolio's standard deviation is equal to:
 
 $$
-\mathrm {P S D} _ {\mathrm {M C} (\mathrm {k})} = \frac {\partial \sigma_ {P}}{\partial \alpha_ {k}} = \frac {\sigma_ {k , P}}{\sigma_ {P}} \tag {5.48}
+\mathrm{PSD}_{\mathrm{MC(k)}} = \frac{\partial \sigma_{P}}{\partial \alpha_{k}} = \frac{\sigma_{k,P}}{\sigma_{P}} \tag{5.48}
 $$
 
 It is worth noting that the constraint  $\sum_{k=1}^{n} w_k = 1$  is not considered in the partial derivatives. Consequently, the portfolio variance  $(\sigma_P^2)$  and the standard deviation  $(\sigma_P)$  are functions of  $n$  and not  $(n-1)$  assets, and therefore are all considered as variance and covariance between them. This is because only the change in the portfolio risk is relevant due to the introduction of the k-th asset (function of the covariance between its expected returns and the expected returns of all other assets considered in couples and the k-th weights in the portfolio), and not the diversification measure (Castellani et al. 2005).
