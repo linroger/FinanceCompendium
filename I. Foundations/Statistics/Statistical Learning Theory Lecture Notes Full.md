@@ -3659,7 +3659,7 @@ since  $|T_{j}| \geq |T_{j - 1}|$ .
 Continuing, and using that  $2(\alpha_{j} - \alpha_{j + 1}) = \alpha_{j}$
 
 $$
-\begin{array}{l} \hat {\Re}_{n} (\mathcal {F}) \leq \alpha_{N} + 6 \sum_{j = 1}^{N} \alpha_{j} \sqrt{\frac{\log | T_{j} |}{n}} \\ = \alpha_{N} + 6 \sum_{j = 1}^{N} \alpha_{j} \sqrt{\frac{\log N_{2} (\alpha_{j} , \mathcal {F} , x_{1 : n})}{n}} \\ \leq \alpha_{N} + 1 2 \sum_{j = 1}^{N} (\alpha_{j} - \alpha_{j + 1}) \sqrt{\frac{\log N_{2} (\alpha_{j} , \mathcal {F} , x_{1 : n})}{n}} \\ \leq \alpha_{N} + 1 2 \int_{\alpha_{N + 1}}^{\alpha_{0}} \sqrt{\frac{\log N_{2} (\alpha , \mathcal {F} , x_{1 : n})}{n}} d \alpha \\ \leq \alpha_{N} + 1 2 \int_{\alpha_{N + 1}}^{\infty} \sqrt{\frac{\log N_{2} (\alpha , \mathcal {F} , x_{1 : n})}{n}} d \alpha \\ \end{array}
+\begin{array}{l} \hat {\Re}_{n} (\mathcal {F}) \leq \alpha_{N} + 6 \sum_{j = 1}^{N} \alpha_{j} \sqrt{\frac{\log | T_{j} |}{n}} \\ = \alpha_{N} + 6 \sum_{j = 1}^{N} \alpha_{j} \sqrt{\frac{\log N_{2} (\alpha_{j} , \mathcal {F} , x_{1 : n})}{n}} \\ \leq \alpha_{N} + 12 \sum_{j = 1}^{N} (\alpha_{j} - \alpha_{j + 1}) \sqrt{\frac{\log N_{2} (\alpha_{j} , \mathcal {F} , x_{1 : n})}{n}} \\ \leq \alpha_{N} + 12 \int_{\alpha_{N + 1}}^{\alpha_{0}} \sqrt{\frac{\log N_{2} (\alpha , \mathcal {F} , x_{1 : n})}{n}} d \alpha \\ \leq \alpha_{N} + 12 \int_{\alpha_{N + 1}}^{\infty} \sqrt{\frac{\log N_{2} (\alpha , \mathcal {F} , x_{1 : n})}{n}} d \alpha \\ \end{array}
 $$
 
 Pick any  $\alpha \geq 0$ . Let  $N$  be the largest integer  $j$  such that  $\alpha_{j} \geq 2\alpha$ . Hence,  $\alpha_{N} \geq 2\alpha$  and  $\alpha_{N+1} = \alpha_{N}/2 \geq \alpha$ , so the integral from  $\alpha_{N+1}$  to  $\infty$  is upper bounded by the integral from  $\alpha$  to  $\infty$ . Also, since  $\alpha_{N+1} \leq 2\alpha$ , we have that  $\alpha_{N} \leq 4\alpha$ , which completes the proof.
@@ -3677,7 +3677,7 @@ $$
 From Dudley's Thm, we get the sharper bound that:
 
 $$
-\hat {\Re}_{n} (\mathcal {F}) \leq 1 2 \sqrt{\frac{k}{n}} \int_{0}^{1} \sqrt{\log \frac{1}{\alpha}} d \alpha \leq 1 2 \sqrt{\frac{\pi}{2}} \sqrt{\frac{k}{n}}
+\hat {\Re}_{n} (\mathcal {F}) \leq 12 \sqrt{\frac{k}{n}} \int_{0}^{1} \sqrt{\log \frac{1}{\alpha}} d \alpha \leq 12 \sqrt{\frac{\pi}{2}} \sqrt{\frac{k}{n}}
 $$
 
 Here, note that the covering number is 1 when  $\alpha > 1$ . Also, the integral can be evaluated using the change of variables  $y = e^{-y^2}$  (which ends up looking like a Gaussian).
@@ -4473,7 +4473,7 @@ Instructor: Sham Kakade
 Now assume the decision space  $D$  is a  $d$ -dimensional simplex, i.e.
 
 $$
-D = \{w | w_{i} \geq 0 \text{and} \| w \|_{1} = 1 \}
+D = \{w | w_{i} \geq 0 \text{ and } \| w \|_{1} = 1 \}
 $$
 
 The Exponentiated Gradient Descent algorithm (EG) is defined as follows: at time  $t = 1$ , choose  $w_{1}$  as the center point of this scaled simplex, namely  $w_{1,i} = \frac{1}{d}$ , and then use the update:
@@ -4507,7 +4507,7 @@ $$
 Now consider the decision space  $D$  to be a (scaled)  $d$ -dimensional simplex, i.e.
 
 $$
-D = \{w | w_{i} \geq 0 \text{and} \| w \|_{1} = D_{1} \}
+D = \{w | w_{i} \geq 0 \text{ and } \| w \|_{1} = D_{1} \}
 $$
 
 EG is modified as follows: at time  $t = 1$ , choose  $w_{1}$  as the center point of this scaled simplex, namely  $w_{1,i} = \frac{D_1}{d}$ , and then use the update:
@@ -4641,7 +4641,7 @@ $$
 The EG algorithm, referred to as 'Hedge' for this case is: at time  $t = 1$ , choose  $w^1$  as the uniform distribution, and then use the update:
 
 $$
-w_{t + 1} = \frac{w_{t} \otimes \exp (- \eta l_{t})}{Z} \quad \text{where} \quad Z = w_{t} \cdot \exp (- \eta l_{t})
+w_{t + 1} = \frac{w_{t} \otimes \exp (- \eta l_{t})}{Z} \quad \text{where } Z = w_{t} \cdot \exp (- \eta l_{t})
 $$
 
 From the guarantees of EG, we have that:

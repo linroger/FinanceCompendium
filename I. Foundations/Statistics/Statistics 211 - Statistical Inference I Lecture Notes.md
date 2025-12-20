@@ -589,7 +589,7 @@ Example 5.4 ( $\chi^2$  test). If  $Y_1, \ldots, Y_n \sim \mathcal{N}(\mu, 1)$ ,
 Example 5.5. If  $Y_{1}, \ldots, Y_{n} \sim \mathrm{Exp o}(\lambda)$ , meaning that  $f_{\lambda}(y) = \lambda e^{-\lambda y}$  for  $y \geq 0$ , then
 
 $$
-A (y) = \frac {y _ {n}}{y _ {1} + \cdots + y _ {n}}
+A (y) = \frac{y_n}{y_1 + \cdots + y_n}
 $$
 
 is ancillary because we can let  $U_{i} = \lambda Y_{i}\sim \mathrm{Exp o}(1)$ .
@@ -609,7 +609,7 @@ Theorem 5.7 (Basu's theorem). If  $T$  is a complete sufficient statistic for  $
 Proof. For any measurable set  $B$ , consider  $h_B(T) = \operatorname{Pr}_{\theta}(A \in B \mid T) - \operatorname{Pr}_{\theta}(A \in B)$ . This is a function of  $T$  that does not depend on  $\theta$ , since  $T$  is a sufficient statistic and  $A$  is ancillary. By the law of iterated expectation,
 
 $$
-\mathbf {E} _ {\theta} \left[ h _ {B} (T) \right] = \mathbf {E} _ {T} \left[ \operatorname * {P r} _ {\theta} (A \in B \mid T) \right] - \operatorname * {P r} _ {\theta} (A \in B) = 0.
+\mathbf{E}_{\theta} \left[ h_B (T) \right] = \mathbf{E}_T \left[ \operatorname*{Pr}_{\theta} (A \in B \mid T) \right] - \operatorname*{Pr}_{\theta} (A \in B) = 0.
 $$
 
 Therefore, since  $T$  is a CSS, we conclude that  $h_B(T) = 0$  almost surely, so  $T \perp A$ .
@@ -625,13 +625,13 @@ Here's the last example that we'll discuss today.
 Example 5.9. Suppose that  $Y_{1},\ldots ,Y_{n}\sim \mathcal{N}(0,\sigma^{2})$  . Let  $M$  be the median of  $Y_{1},\ldots ,Y_{n}$  . Then,
 
 $$
-\begin{array}{l} \operatorname {C o v} (\bar {Y}, M) = \operatorname {C o v} (\bar {Y}, M - \bar {Y} + \bar {Y}) \\ = \operatorname {C o v} (\bar {Y}, M - \bar {Y}) + \operatorname {C o v} (\bar {Y}, \bar {Y}). \\ \end{array}
+\begin{array}{l} \operatorname{Cov} (\bar{Y}, M) = \operatorname{Cov} (\bar{Y}, M - \bar{Y} + \bar{Y}) \\ = \operatorname{Cov} (\bar{Y}, M - \bar{Y}) + \operatorname{Cov} (\bar{Y}, \bar{Y}). \\ \end{array}
 $$
 
 However, note that  $M - \overline{Y}$  is ancillary for  $\mu$ , so by Theorem 5.7,  $\overline{Y} \perp M - \overline{Y}$ . Independence implies zero correlation, so the covariance is zero, and we conclude that
 
 $$
-\operatorname {C o v} (\bar {Y}, M) = \frac {\sigma^ {2}}{n}.
+\operatorname{Cov} (\bar{Y}, M) = \frac{\sigma^2}{n}.
 $$
 
 Exercise 5.3 (Pencil problem). Based on the example above, show that  $\operatorname{Cov}(Y_{(1)}, \overline{Y}) = \frac{\sigma^2}{n}$ .
@@ -647,7 +647,7 @@ So far we've talked about the likelihood function  $L(\theta) = f_{\theta}(y)$  
 Definition 6.1 (Score function). Given data samples  $Y = (Y_{1},\ldots ,Y_{n})$  drawn from  $f_{\theta}(y)$ , the score function  $S(y,\theta)$  is given by
 
 $$
-S (y, \theta) = \frac {\partial \log f _ {\theta} (y)}{\partial \theta} = \frac {\partial \ell (\theta)}{\partial \theta}.
+S (y, \theta) = \frac{\partial \log f_{\theta} (y)}{\partial \theta} = \frac{\partial \ell (\theta)}{\partial \theta}.
 $$
 
 Note that the score function for multiple data points equals the sum of the score functions for each individual data point.

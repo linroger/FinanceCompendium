@@ -31,37 +31,37 @@ In Section 5.2.2.2, we verified that the stock price relative to the bond (the b
 Suppose, we are given the stock price  $S_{0,1;u}$  at time 1 after an upjump at time 1. Denote  $S_{0,2;u,u}$  and  $S_{0,2;u,d}$  as the stock prices at time 2 given the outcomes  $\omega_{\mathrm{u,u}}$  (consecutive upjumps at time 1 and 2) and  $\omega_{\mathrm{u,d}}$ , respectively. Denote  $q_{1,2;u,u}$  and  $q_{1,2;u,d}$  as the risk-neutral probabilities that at time 1, the stock will have an upjump or downjump at time 2 given that it had an upjump at time 1. Let  $B_{1,2}$  (discount function) be the time 1 value of a bond that pays 1 at time 2. Analogous to equation (5.15), the forward prices from time 1 to 2 given the stock price  $S_{0,1;u}$  at time 1, must satisfy the system of equations:
 
 $$
-\left[ \begin{array}{c c} S _ {0, 2; u, u} & S _ {0, 2; u, d} \\ 1 & 1 \end{array} \right] \left[ \begin{array}{c} \psi_ {1, 2; u, u} \\ \psi_ {1, 2; u, d} \end{array} \right] = \left[ \begin{array}{c} S _ {0, 1; u} \\ B _ {1, 2} \end{array} \right]. \tag {1}
+\left[ \begin{array}{c c} S_{0, 2; u, u} & S_{0, 2; u, d} \\ 1 & 1 \end{array} \right] \left[ \begin{array}{c} \psi_{1, 2; u, u} \\ \psi_{1, 2; u, d} \end{array} \right] = \left[ \begin{array}{c} S_{0, 1; u} \\ B_{1, 2} \end{array} \right]. \tag{1}
 $$
 
 If we divide the matrix equation by  $B_{1,2}$ , and define the risk-neutral probabilities  $q_{1,2;u,u} = \psi_{1,2;u,u} / B_{1,2}$  and  $q_{1,2;u,d} = \psi_{1,2;u,d} / B_{1,2}$  as required by equation (5.12) we get:
 
 $$
-\left[ \begin{array}{c c} S _ {0, 2; u, u} & S _ {0, 2; u, d} \\ 1 & 1 \end{array} \right] \left[ \begin{array}{c} q _ {1, 2; u, u} \\ q _ {1, 2; u, d} \end{array} \right] = \left[ \begin{array}{c} S _ {0, 1; u} / B _ {1, 2} \\ 1 \end{array} \right]. \tag {2}
+\left[ \begin{array}{c c} S_{0, 2; u, u} & S_{0, 2; u, d} \\ 1 & 1 \end{array} \right] \left[ \begin{array}{c} q_{1, 2; u, u} \\ q_{1, 2; u, d} \end{array} \right] = \left[ \begin{array}{c} S_{0, 1; u} / B_{1, 2} \\ 1 \end{array} \right]. \tag{2}
 $$
 
 The first row of matrix equation (2) is the equation:
 
 $$
-S _ {0, 2; u, u} q _ {1, 2; u, u} + S _ {0, 2; u, d} q _ {1, 2; u, d} = \frac {S _ {0 , 1 ; u}}{B _ {1 , 2}}. \tag {3}
+S_{0, 2; u, u} q_{1, 2; u, u} + S_{0, 2; u, d} q_{1, 2; u, d} = \frac{S_{0,1;u}}{B_{1,2}}. \tag{3}
 $$
 
 Equation (3) can be expressed in the form:
 
 $$
-(4) \qquad E _ {\mathbb {Q}} \left[ S _ {2} \Big | \frac {S _ {0 , 1 ; u}}{B _ {1 , 2}} \right] = \frac {S _ {0 , 1 ; u}}{B _ {1 , 2}}.
+(4) \qquad E_{\mathbb{Q}} \left[ S_2 \Big | \frac{S_{0,1;u}}{B_{1,2}} \right] = \frac{S_{0,1;u}}{B_{1,2}}.
 $$
 
 We can repeat the calculation given the stock price  $S_{0,1;d}$ . Analogous to equations (3) and (4), we would obtain:
 
 $$
-S _ {0, 2; d, u} q _ {1, 2; d, u} + S _ {0, 2; d, d} q _ {1, 2; d, d} = \frac {S _ {0 , 1 ; d}}{B _ {1 , 2}}
+S_{0, 2; d, u} q_{1, 2; d, u} + S_{0, 2; d, d} q_{1, 2; d, d} = \frac{S_{0,1;d}}{B_{1,2}}
 $$
 
 and
 
 $$
-\mathrm {(6)} \qquad E _ {\mathbb {Q}} \left[ S _ {2} \middle | \frac {S _ {0 , 1 ; d}}{B _ {1 , 2}} \right] = \frac {S _ {0 , 1 ; d}}{B _ {1 , 2}}.
+\mathrm{(6)} \qquad E_{\mathbb{Q}} \left[ S_2 \middle | \frac{S_{0,1;d}}{B_{1,2}} \right] = \frac{S_{0,1;d}}{B_{1,2}}.
 $$
 
 Equations (4) and (6) together verify the martingale property going from time 1 to 2 that the expected value of the stock at time 2 given its value at time 1 (in bond numeraire) is equal to the value of the stock at time 1 (in bond numeraire).

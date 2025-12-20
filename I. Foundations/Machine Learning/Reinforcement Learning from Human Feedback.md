@@ -1591,17 +1591,17 @@ $$
 First, per prompt. Intuitively, we can highlight the reward matrix as follows:
 
 $$
-R = \left[ \begin{array}{c c c c} \mathbf {0 . 7} & 0. 3 & 0. 5 & 0. 2 \\ 0. 4 & \mathbf {0 . 8} & 0. 6 & 0. 5 \\ \mathbf {0 . 9} & 0. 3 & 0. 4 & 0. 7 \\ 0. 2 & 0. 5 & \mathbf {0 . 8} & 0. 6 \\ 0. 5 & 0. 4 & 0. 3 & \mathbf {0 . 6} \end{array} \right]
+R = \left[ \begin{array}{cccc} \mathbf{0.7} & 0.3 & 0.5 & 0.2 \\ 0.4 & \mathbf{0.8} & 0.6 & 0.5 \\ \mathbf{0.9} & 0.3 & 0.4 & 0.7 \\ 0.2 & 0.5 & \mathbf{0.8} & 0.6 \\ 0.5 & 0.4 & 0.3 & \mathbf{0.6} \end{array} \right]
 $$
 
 Using the argmax method, we select the best completion for each prompt:
 
 $$
-S (R) = \left[ \operatorname * {a r g   m a x} _ {j} r _ {i, j} \text {f o r} i \in [ 1, 4 ] \right]
+S(R) = \left[ \arg \max_{j} r_{i,j} \text{ for } i \in [1,5] \right]
 $$
 
 $$
-S (R) = [ 1, 2, 1, 3, 4 ]
+S(R) = [1, 2, 1, 3, 4]
 $$
 
 This means we would select:
@@ -1615,19 +1615,19 @@ This means we would select:
 Now, best overall. Let's highlight the top 5 overall completion pairs.
 
 $$
-R = \left[ \begin{array}{c c c c} \mathbf {0 . 7} & 0. 3 & 0. 5 & 0. 2 \\ 0. 4 & \mathbf {0 . 8} & 0. 6 & 0. 5 \\ \mathbf {0 . 9} & 0. 3 & 0. 4 & \mathbf {0 . 7} \\ 0. 2 & 0. 5 & \mathbf {0 . 8} & 0. 6 \\ 0. 5 & 0. 4 & 0. 3 & 0. 6 \end{array} \right]
+R = \left[ \begin{array}{cccc} \mathbf{0.7} & 0.3 & 0.5 & 0.2 \\ 0.4 & \mathbf{0.8} & 0.6 & 0.5 \\ \mathbf{0.9} & 0.3 & 0.4 & \mathbf{0.7} \\ 0.2 & 0.5 & \mathbf{0.8} & 0.6 \\ 0.5 & 0.4 & 0.3 & 0.6 \end{array} \right]
 $$
 
 First, we flatten the reward matrix:
 
 $$
-R _ {f l a t} = [ 0. 7, 0. 3, 0. 5, 0. 2, 0. 4, 0. 8, 0. 6, 0. 5, 0. 9, 0. 3, 0. 4, 0. 7, 0. 2, 0. 5, 0. 8, 0. 6, 0. 5, 0. 4, 0. 3, 0. 6 ]
+R_{flat} = [0.7, 0.3, 0.5, 0.2, 0.4, 0.8, 0.6, 0.5, 0.9, 0.3, 0.4, 0.7, 0.2, 0.5, 0.8, 0.6, 0.5, 0.4, 0.3, 0.6]
 $$
 
 Now, we select the indices of the 5 highest values:
 
 $$
-S _ {5} (R _ {f l a t}) = [ 8, 5, 1 4, 0, 1 1 ]
+S_{5}(R_{flat}) = [8, 5, 14, 0, 11]
 $$
 
 Mapping these back to our original matrix:
@@ -1689,7 +1689,7 @@ Here, we will show that when using simple BoN sampling over one prompt, both sel
 Let R be a reward vector for our single prompt with N completions:
 
 $$
-R = \left[ r _ {1}, r _ {2}, \dots , r _ {N} \right] \tag {29}
+R = \left[ r_{1}, r_{2}, \dots, r_{N} \right] \tag{29}
 $$
 
 Where  $r_j$  represents the reward for the j-th completion.

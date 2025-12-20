@@ -762,7 +762,7 @@ $$
 ：
 
 $$
-X _ {(n)} \sim \frac {1}{n} Y _ {1} + \frac {1}{n - 1} Y _ {2} + \frac {3}{n - 2} Y _ {3} + \dots + Y _ {n},
+X_{(n)} \sim \frac{1}{n} Y_{1} + \frac{1}{n-1} Y_{2} + \frac{3}{n-2} Y_{3} + \dots + Y_{n},
 $$
 
 where  $Y_{1},Y_{2},\ldots ,Y_{n}$  are i.i.d.  $\sim$  Expo.
@@ -774,7 +774,7 @@ One other interesting case to consider is when the distributions are uniform. In
 Proposition 7.8 (Uniform order statistics). If  $U_{1},\ldots ,U_{n}$  are i.i.d.  $\sim$  Unif, then their order statistics are jointly distributed as
 
 $$
-U _ {(j)} = \frac {X _ {1} + \cdots + X _ {j}}{X _ {1} + \cdots + X _ {n + 1}},
+U_{(j)} = \frac{X_{1} + \cdots + X_{j}}{X_{1} + \cdots + X_{n+1}},
 $$
 
 where  $X_{1},\ldots ,X_{n + 1}$  are i.i.d.  $\sim$  Expo. It immediately follows that the marginal distributions of the order statistics are  $U_{(j)}\sim \mathrm{Beta}(j,n + 1 - j)$
@@ -794,7 +794,7 @@ We introduce the Poisson distribution, which is a discrete probability distribut
 Definition 8.1 (Poisson distribution). The Poisson distribution  $\mathrm{Pois}(\lambda)$  with rate parameter  $\lambda$ , supported on  $\{0,1,2,\ldots\}$ , is defined by the probability mass function
 
 $$
-P (X = k) = \frac {e ^ {- \lambda} \lambda^ {k}}{k !}.
+P(X = k) = \frac{e^{-\lambda} \lambda^{k}}{k!}.
 $$
 
 This distribution is deeply connected to the exponential and gamma distributions.
@@ -802,7 +802,7 @@ This distribution is deeply connected to the exponential and gamma distributions
 Definition 8.2 (Poisson process). The Poisson process refers to the sequence of arrival times  $T_{1}, T_{2}, \ldots \geq 0$ , where the successive time differences  $X_{1} = T_{1}, X_{2} = T_{2} - T_{1}, X_{3} = T_{3} - T_{2}, \ldots$  are i.i.d.  $\sim \lambda^{-1}$  Expo. The marginal distribution of arrival times is
 
 $$
-T _ {n} = X _ {1} + X _ {2} + \dots + X _ {n} \sim \lambda^ {- 1} \operatorname {G a m m a} (n).
+T_{n} = X_{1} + X_{2} + \dots + X_{n} \sim \lambda^{-1} \operatorname{Gamma}(n).
 $$
 
 Furthermore, if  $N_{t} = \#$  (arrivals in  $[0,t]$ ), then the two events  $\{N_t\geq n\} = \{T_n\leq t\}$  are equivalent. This holds for general arrival processes, and we sometimes call this count-time duality. $^{10}$
@@ -812,13 +812,13 @@ Proposition 8.3. For any  $t$  in the Poisson process,  $N_{t}\sim \mathrm{Pois}
 Proof. Observe from count-time duality that
 
 $$
-P (N _ {t} = k) = P \left(T _ {k} \leq k <   T _ {k + 1}\right) = P \left(T _ {k} \leq t\right) - P \left(T _ {k + 1} \leq t\right).
+P(N_{t} = k) = P \left(T_{k} \leq t < T_{k+1}\right) = P \left(T_{k} \leq t\right) - P \left(T_{k+1} \leq t\right).
 $$
 
 Both of these latter probabilities can be expressed as a CDF of the gamma distribution. Although the incomplete gamma function is messy, applying integration by parts cracks the problem:
 
 $$
-\begin{array}{l} P \left(T _ {k} \leq t\right) - P \left(T _ {k + 1} \leq t\right) = \frac {1}{\Gamma (k)} \int_ {0} ^ {\lambda t} e ^ {- x} x ^ {k - 1} d x - \frac {1}{\Gamma (k + 1)} \int_ {0} ^ {\lambda t} e ^ {- x} x ^ {k} d x \\ = \frac {1}{\Gamma (k)} \int_ {0} ^ {\lambda t} e ^ {- x} x ^ {k - 1} d x + \frac {1}{\Gamma (k + 1)} e ^ {- \lambda t} (\lambda t) ^ {k} - \frac {k}{\Gamma (k + 1)} \int_ {0} ^ {\lambda t} e ^ {- x} x ^ {k - 1} d x \\ = \frac {e ^ {- \lambda t} (\lambda t) ^ {k}}{k !}. \\ \end{array}
+\begin{array}{l} P \left(T_{k} \leq t\right) - P \left(T_{k+1} \leq t\right) = \frac{1}{\Gamma(k)} \int_{0}^{\lambda t} e^{-x} x^{k-1} dx - \frac{1}{\Gamma(k+1)} \int_{0}^{\lambda t} e^{-x} x^{k} dx \\ = \frac{1}{\Gamma(k)} \int_{0}^{\lambda t} e^{-x} x^{k-1} dx + \frac{1}{\Gamma(k+1)} e^{-\lambda t} (\lambda t)^{k} - \frac{k}{\Gamma(k+1)} \int_{0}^{\lambda t} e^{-x} x^{k-1} dx \\ = \frac{e^{-\lambda t} (\lambda t)^{k}}{k!}. \\ \end{array}
 $$
 
 Corollary 8.3.1. Given any fixed time interval of length  $t$ , the number of Poisson arrival events in that interval is distributed  $\sim \mathrm{Pois}(\lambda t)$ . Furthermore, given two disjoint time intervals of any lengths, the number of Poisson arrival events in those intervals are independent.

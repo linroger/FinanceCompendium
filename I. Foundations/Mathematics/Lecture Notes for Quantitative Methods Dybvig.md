@@ -168,7 +168,7 @@ Other ideas of patience include taking the limit of time averages and discountin
 The sequence of  $x_{t}$
 
 $$
-0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 \dots
+01010101010101010101\dots
 $$
 
 has  $V_{\mathrm{liminf}}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
@@ -176,7 +176,7 @@ has  $V_{\mathrm{liminf}}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
 1.3.2. Marinacci's extension of the classic analyses. The sequence of  $x_{t}$
 
 $$
-\underbrace {1 1} _ {2 ^ {1}} \underbrace {0 0 0 0} _ {2 ^ {2}} \underbrace {1 1 1 1 1 1 1 1} _ {2 ^ {3}} \dots
+\underbrace{11}_{2^{1}}\underbrace{0000}_{2^{2}}\underbrace{11111111}_{2^{3}}\dots
 $$
 
 is of the form  $x_{\pi}$  for a peculiar kind of  $\pi$ . Further  $V_{\mathrm{liminf}}^{average}(x) \coloneqq \lim \inf_T \frac{1}{T} \sum_{t=1}^T x_t = \frac{1}{3} < V_{\mathrm{limsup}}^{average}(x) \coloneqq \lim \sup_T \frac{1}{T} \sum_{t=1}^T x_t = \frac{2}{3}$ . An alternate criterion combining the averaging and minimizing is  $V_3(x) \coloneqq \lim_{T \to \infty} \{\inf_{j \geq 1} \frac{1}{T} \sum_{t=1}^T x_{t+j}\}$ . Note  $V_3(x) = 0 < \frac{1}{3}$ .
@@ -186,7 +186,7 @@ The  $\pi$  above is "peculiar" because it does not preserve upper densities —
 Marinacci defines patience as invariance under permutations that preserve upper densities, and asks for all such  $\pi$ ,  $V(x) = V(x_{\pi})$ . He arrives at the Polya criterion —
 
 $$
-V _ {P o l y a} (x) := \lim _ {\epsilon \to 0} \left[ \lim _ {T} \inf \frac {1}{\epsilon T} \sum_ {t = (1 - \epsilon) T} ^ {T} x _ {t} \right].
+V_{Polya}(x):=\lim_{\epsilon\to 0}\left[\lim_{T}\inf\frac{1}{\epsilon T}\sum_{t=(1-\epsilon)T}^{T}x_{t}\right].
 $$
 
 $V_{Polya}(x)$  exists for all  $x \in \mathbb{R}^{\mathbb{N}}$ , and for  $x$  such that  $V_{\mathrm{liminf}}^{average}(x) = V_{\mathrm{limsup}}^{average}(x)$ ,  $V_{Polya}(x) = V_{\mathrm{liminf}}^{average}(x)$ .
