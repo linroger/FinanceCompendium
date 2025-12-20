@@ -5520,23 +5520,23 @@ $$
 and then:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha^ {2} \sigma_ {2} ^ {2} + (1 - \alpha) ^ {2} \sigma_ {1} ^ {2} = \alpha^ {2} \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} + \alpha^ {2} \sigma_ {1} ^ {2} - 2 \alpha \sigma_ {1} ^ {2}
+\sigma_{\mathrm{P}}^{2} = \alpha^{2} \sigma_{2}^{2} + (1 - \alpha)^{2} \sigma_{1}^{2} = \alpha^{2} \sigma_{2}^{2} + \sigma_{1}^{2} + \alpha^{2} \sigma_{1}^{2} - 2 \alpha \sigma_{1}^{2}
 $$
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \alpha^ {2} \left(\sigma_ {2} ^ {2} + \sigma_ {1} ^ {2}\right) - 2 \alpha \sigma_ {1} ^ {2} + \sigma_ {1} ^ {2} \tag {5.28}
+\sigma_{\mathrm{P}}^{2} = \alpha^{2}\left(\sigma_{2}^{2} + \sigma_{1}^{2}\right) - 2 \alpha \sigma_{1}^{2} + \sigma_{1}^{2} \tag{5.28}
 $$
 
 In this case, the vertex of the parabola can be used. In this case the minimum of the parabola is the minimum point of the portfolio's variance and standard deviation. Therefore, the part of wealth to invest in the riskier asset (Asset 2)  $\alpha$  is equal to the abscissa of the parabola's vertex as follows:
 
 $$
-\alpha = - \frac {b}{2 a} = - \frac {- 2 \sigma_ {1} ^ {2}}{2 \left(\sigma_ {2} ^ {2} + \sigma_ {1} ^ {2}\right)} = \frac {\sigma_ {1} ^ {2}}{\sigma_ {2} ^ {2} + \sigma_ {1} ^ {2}} \tag {5.29}
+\alpha = - \frac{b}{2 a} = - \frac{-2 \sigma_{1}^{2}}{2\left(\sigma_{2}^{2} + \sigma_{1}^{2}\right)} = \frac{\sigma_{1}^{2}}{\sigma_{2}^{2} + \sigma_{1}^{2}} \tag{5.29}
 $$
 
 Considering that  $\sigma_1^2$  and  $\sigma_2^2$  are variances and therefore they are positive by definition, the value of  $\alpha$  is positive ( $\alpha > 0$ ) and it is possible to move from the variance to standard deviation as follows:
 
 $$
-\alpha = \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \rightarrow \alpha^ {*} > 0 \tag {5.30}
+\alpha = \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \rightarrow \alpha^{*} > 0 \tag{5.30}
 $$
 
 Considering that  $\alpha$  is positive, the concave nature of the parabola is upwards and therefore  $\alpha$  is a minimum point. This is the same result of the negative correlation.
@@ -5562,7 +5562,7 @@ Unfortunately, in capital markets, the cases  $\rho_{1,2} = -1$  is only theoret
 In capital markets the correlation between the assets' expected returns tend to be higher than zero and lower than  $1$  ( $0 < \rho_{1,2} < +1$ ). Consequently, in the absence of short selling (and therefore for positive value of assets in the portfolio), the diversification effect is greater as the lower the level of correlation between the asset's expected returns ( $\rho \approx 0$ ). Specifically, we have:
 
 $$
-0 <   \rho_ {1, 2} \leq \frac {\sigma_ {1}}{\sigma_ {2}} \tag {5.31}
+0 <   \rho_{1,2} \leq \frac{\sigma_{1}}{\sigma_{2}} \tag{5.31}
 $$
 
 with  $\frac{\sigma_1}{\sigma_2}$  very small. In this case, the increase in wealth invested in Asset 2 (riskier asset) reduces the portfolio's variance more than the variance of the portfolio consisting of Asset 1 (the less risky asset) only. The part of wealth to be invested in Asset 2 to minimize the portfolio's variance is equal to:
@@ -5570,7 +5570,7 @@ with  $\frac{\sigma_1}{\sigma_2}$  very small. In this case, the increase in wea
 # 5.1 Diversified Portfolio
 
 $$
-\alpha = \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \tag {5.32}
+\alpha = \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \tag{5.32}
 $$
 
 For investments in Asset 2 greater than  $\alpha$ , the portfolio's variance increases.
@@ -5588,7 +5588,7 @@ In this case the covariance, and therefore the correlation, between the expected
 To calculate the portfolio's variance  $\left(\sigma_{\mathrm{P}}^{2}\right)$  it is necessary to use the Covariance Matrix  $(C)$ , as follows:
 
 $$
-C = \left[ \begin{array}{l l l l} \sigma_ {1, 1} & \sigma_ {1, 2} & \dots & \sigma_ {1, n} \\ \sigma_ {2, 1} & \sigma_ {2, 2} & \dots & \sigma_ {2, n} \\ \dots & \dots & \dots & \dots \\ \sigma_ {n, 1} & \sigma_ {n, 2} & \dots & \sigma_ {n, n} \end{array} \right] \tag {5.33}
+C = \left[ \begin{array}{llll} \sigma_{1,1} & \sigma_{1,2} & \dots & \sigma_{1,n} \\ \sigma_{2,1} & \sigma_{2,2} & \dots & \sigma_{2,n} \\ \dots & \dots & \dots & \dots \\ \sigma_{n,1} & \sigma_{n,2} & \dots & \sigma_{n,n} \end{array} \right] \tag{5.33}
 $$
 
 In order to avoid the determinant of the matrix being equal to zero, the assets' returns in the rows and columns are not characterized by: (i) elements that are null; (ii) parallels rows or columns that are equal or proportional between them; (iii) parallels rows or columns that are linear combinations of each other.
@@ -5596,19 +5596,19 @@ In order to avoid the determinant of the matrix being equal to zero, the assets'
 It is worth noting that because correlation between pairs of assets (i-th and j-th) is calculated, the first index  $(i)$  can assume  $N$  value (one of each of the assets) while the second index  $(j)$  can assume a value of  $(N - 1)$  because  $i\neq j$ . Consequently, there are  $N(N - 1)$  correlation coefficients. Also, because the correlation coefficient between  $i$  and  $j$  is equal to the correlation coefficient between  $j$  and  $i$ , it is necessary to consider  $[N(N - 1)] / 2$  correlation coefficients (for example, for 250 assets, there are 31.125 correlation coefficients to calculate). Formally:
 
 $$
-\rho_ {i, j} = [ N (N - 1) ] / 2 \tag {5.34}
+\rho_{i,j} = [N (N - 1)] / 2 \tag{5.34}
 $$
 
 The general term  $\sigma_{k,j}$  (note that  $\sigma_{k,j} = \sigma_{j,k}$  for symmetry) indicates the covariance between the expected returns of the k-th asset  $(I_k)$  and the j-th asset  $(I_j)$  in portfolio, as follows:
 
 $$
-\sigma_ {k, j} = \mathrm {E} \left[ \left(\mathrm {I} _ {\mathrm {k}} - \mu_ {\mathrm {k}}\right) \left(\mathrm {I} _ {\mathrm {j}} - \mu_ {\mathrm {j}}\right) \right] \quad \text {p e r} \quad k, j = 1, 2, \dots , n \tag {5.35}
+\sigma_{k,j} = \mathrm{E}\left[ \left(\mathrm{I}_{\mathrm{k}} - \mu_{\mathrm{k}}\right) \left(\mathrm{I}_{\mathrm{j}} - \mu_{\mathrm{j}}\right) \right] \quad \text{per} \quad k, j = 1, 2, \dots , n \tag{5.35}
 $$
 
 and  $k = j$  we have a  $(\sigma_k^2)$ , and therefore the standard deviation  $(\sigma_k)$ , as follows:
 
 $$
-\sigma_ {k, k} = E \left[\left(I _ {k} - \mu_ {k}\right)\left(I _ {k} - \mu_ {k}\right)\right] = E \left[\left(I _ {k} - \mu_ {k}\right) ^ {2} \right] = \operatorname {V a r} \left(I _ {k}\right) = \sigma_ {k} ^ {2} \rightarrow \sigma_ {k} = \sqrt {\sigma_ {k} ^ {2}} \tag {5.36}
+\sigma_{k,k} = E\left[\left(I_{k} - \mu_{k}\right)\left(I_{k} - \mu_{k}\right)\right] = E\left[\left(I_{k} - \mu_{k}\right)^{2}\right] = \operatorname{Var}\left(I_{k}\right) = \sigma_{k}^{2} \rightarrow \sigma_{k} = \sqrt{\sigma_{k}^{2}} \tag{5.36}
 $$
 
 For positive values of the variance (and therefore not considering the risk-free asset that represents a specific case because its return is sure resulting in variance being null) we have:
@@ -5628,19 +5628,19 @@ $$
 On the basis of the weight of each asset in the portfolio  $\left(\alpha_{\mathrm{k}} = \frac{\mathrm{W}_{\mathrm{k}}}{\mathrm{W}}\right.$  for  $\mathrm{k} = 1,2,\dots ,\mathrm{n})$  , it is possible to move from the Covariance Matrix  $(C)$  to the Covariance Weighted Matrix  $(C_{\alpha})$  , as follows:
 
 $$
-C _ {\alpha} = \left[ \begin{array}{c c c c} \alpha_ {1} \alpha_ {1} \sigma_ {1, 1} & \alpha_ {1} \alpha_ {2} \sigma_ {1, 2} & \dots & \alpha_ {1} \alpha_ {n} \sigma_ {1, n} \\ \alpha_ {2} \alpha_ {1} \sigma_ {2, 1} & \alpha_ {2} \alpha_ {2} \sigma_ {2, 2} & \dots & \alpha_ {2} \alpha_ {n} \sigma_ {2, n} \\ \dots & \dots & \dots & \dots \\ \alpha_ {n} \alpha_ {1} \sigma_ {n, 1} & \alpha_ {n} \alpha_ {2} \sigma_ {n, 2} & \dots & \alpha_ {n} \alpha_ {n} \sigma_ {n, n} \end{array} \right] \tag {5.37}
+C_{\alpha} = \left[ \begin{array}{cccc} \alpha_{1}\alpha_{1}\sigma_{1,1} & \alpha_{1}\alpha_{2}\sigma_{1,2} & \dots & \alpha_{1}\alpha_{n}\sigma_{1,n} \\ \alpha_{2}\alpha_{1}\sigma_{2,1} & \alpha_{2}\alpha_{2}\sigma_{2,2} & \dots & \alpha_{2}\alpha_{n}\sigma_{2,n} \\ \dots & \dots & \dots & \dots \\ \alpha_{n}\alpha_{1}\sigma_{n,1} & \alpha_{n}\alpha_{2}\sigma_{n,2} & \dots & \alpha_{n}\alpha_{n}\sigma_{n,n} \end{array} \right] \tag{5.37}
 $$
 
 Based on Eq. (5.7), the portfolio's variance  $\left(\sigma_P^2\right)$  is equal to:
 
 $$
-\begin{array}{l} \sigma_ {P} ^ {2} = E \left[ \left(R _ {P} - \mu_ {P}\right) ^ {2} \right] = \mathrm {E} \left[ \left(\sum_ {k = 1} ^ {n} \alpha_ {k} R _ {k} - \sum_ {k = 1} ^ {n} \alpha_ {k} \mu_ {k}\right) ^ {2} \right] \\ = E \left[ \left(\sum_ {k = 1} ^ {n} \alpha_ {k} \left(R _ {k} - \mu_ {k}\right)\right) ^ {2} \right] \\ \end{array}
+\begin{array}{l} \sigma_{P}^{2} = E\left[ \left(R_{P} - \mu_{P}\right)^{2} \right] = \mathrm{E}\left[ \left(\sum_{k=1}^{n} \alpha_{k} R_{k} - \sum_{k=1}^{n} \alpha_{k} \mu_{k}\right)^{2} \right] \\ = E\left[ \left(\sum_{k=1}^{n} \alpha_{k}\left(R_{k} - \mu_{k}\right)\right)^{2} \right] \\ \end{array}
 $$
 
 and therefore by adding all terms of the Covariance Weighted Matrix  $(\mathbf{C}_{\alpha})$ , the portfolio's variance  $\left(\sigma_{P}^{2}\right)$  and standard deviation  $(\sigma_{P})$  are equal to:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {k}, \mathrm {j}} \rightarrow \sigma_ {P} = \sqrt {\sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {k} , \mathrm {j}}} \tag {5.38}
+\sigma_{\mathrm{P}}^{2} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \alpha_{\mathrm{j}} \sigma_{\mathrm{k},\mathrm{j}} \rightarrow \sigma_{P} = \sqrt{\sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \alpha_{\mathrm{j}} \sigma_{\mathrm{k},\mathrm{j}}} \tag{5.38}
 $$
 
 Normally the linear correlation coefficient  $\left(\rho_{k,j}\right)$  is used instead of the covariance: while the second only indicates the presence or absence of a linear relationship between the variables, the first measures the intensity of this relationship. It
@@ -5650,25 +5650,25 @@ Normally the linear correlation coefficient  $\left(\rho_{k,j}\right)$  is used 
 is equal to the ratio between the covariance among the returns of the k-th and j-th assets  $(\sigma_{kj})$  and the product among their standard deviations  $(\sigma_k; \sigma_j)$  as follows:
 
 $$
-\rho_ {k, j} = \frac {\sigma_ {k j}}{\sigma_ {k} \sigma_ {j}} \rightarrow \sigma_ {k j} = \rho_ {k, j} \sigma_ {k} \sigma_ {j}
+\rho_{k,j} = \frac{\sigma_{kj}}{\sigma_{k} \sigma_{j}} \rightarrow \sigma_{kj} = \rho_{k,j} \sigma_{k} \sigma_{j}
 $$
 
 Using the correlation coefficient, the Correlation Matrix  $\left(C_{\rho}\right)$  can be used, as follows:
 
 $$
-\mathrm {C} _ {\rho} = \left[ \begin{array}{c c c c} 1 & \rho_ {1, 2} & \dots & \rho_ {1, \mathrm {n}} \\ \rho_ {2, 1} & 1 & \dots & \rho_ {2, \mathrm {n}} \\ \dots & \dots & \dots & \dots \\ \rho_ {\mathrm {n}, 1} & \rho_ {\mathrm {n}, 2} & \dots & 1 \end{array} \right] \tag {5.39}
+\mathrm{C}_{\rho} = \left[ \begin{array}{cccc} 1 & \rho_{1,2} & \dots & \rho_{1,\mathrm{n}} \\ \rho_{2,1} & 1 & \dots & \rho_{2,\mathrm{n}} \\ \dots & \dots & \dots & \dots \\ \rho_{\mathrm{n},1} & \rho_{\mathrm{n},2} & \dots & 1 \end{array} \right] \tag{5.39}
 $$
 
 On the basis of the Correlation Matrix the portfolio's variance  $\left(\sigma_P^2\right)$  is computed by modifying Eq. (5.38) as follows:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \alpha_ {\mathrm {j}} \rho_ {\mathrm {k}, \mathrm {j}} \sigma_ {\mathrm {k}} \sigma_ {\mathrm {j}} \rightarrow \sigma_ {\mathrm {P}} = \sqrt {\sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \alpha_ {\mathrm {j}} \rho_ {\mathrm {k} , \mathrm {j}} \sigma_ {\mathrm {k}} \sigma_ {\mathrm {j}}} \tag {5.40}
+\sigma_{\mathrm{P}}^{2} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \alpha_{\mathrm{j}} \rho_{\mathrm{k},\mathrm{j}} \sigma_{\mathrm{k}} \sigma_{\mathrm{j}} \rightarrow \sigma_{\mathrm{P}} = \sqrt{\sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \alpha_{\mathrm{j}} \rho_{\mathrm{k},\mathrm{j}} \sigma_{\mathrm{k}} \sigma_{\mathrm{j}}} \tag{5.40}
 $$
 
 For greater understanding of the diversification effects due to the covariance (and therefore correlations) between the expected returns of the  $N$  assets in portfolio, a breakdown of the double summation as derived from the Covariance Weighted Matrix  $(C_{\alpha})$  may be useful, as follows (Elton et al. 2013):
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} ^ {2} \sigma_ {\mathrm {k}} ^ {2} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\substack {\mathrm {j} = 1 \\ \mathrm {j} \neq \mathrm {k}}} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \sigma_ {\mathrm {j}} \sigma_ {\mathrm {k}, \mathrm {j}} \tag{5.41}
+\sigma_{\mathrm{P}}^{2} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}}^{2} \sigma_{\mathrm{k}}^{2} + \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\substack{\mathrm{j}=1 \\ \mathrm{j}\neq\mathrm{k}}}^{\mathrm{n}} \alpha_{\mathrm{k}} \sigma_{\mathrm{j}} \sigma_{\mathrm{k},\mathrm{j}} \tag{5.41}
 $$
 
 In the second part of Eq. (5.41) the double summation implies that the  $j \neq k$ . Indeed, for  $j = k$  it results in the variance as for the matrix symmetry we have:  $\alpha_{i,j} = \alpha_{j,i} \quad \forall i,j; i \neq j$ .
@@ -5694,7 +5694,7 @@ For greater understanding of the diversification and its effects, we can assume 
 Based on Eq. (5.41) the portfolio variance  $\left(\sigma_P^2\right)$  is equal to:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \left(\frac {1}{\mathrm {n}}\right) ^ {2} \sigma_ {\mathrm {k}} ^ {2} + \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\substack {\mathrm {j} = 1 \\ \mathrm {j} \neq \mathrm {k}}} ^ {\mathrm {n}} \left(\frac {1}{\mathrm {n}}\right) \left(\frac {1}{\mathrm {n}}\right) \sigma_ {\mathrm {k}, \mathrm {j}} \tag{5.42}
+\sigma_{\mathrm{P}}^{2} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \left(\frac{1}{\mathrm{n}}\right)^{2} \sigma_{\mathrm{k}}^{2} + \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\substack{\mathrm{j}=1 \\ \mathrm{j}\neq\mathrm{k}}}^{\mathrm{n}} \left(\frac{1}{\mathrm{n}}\right)\left(\frac{1}{\mathrm{n}}\right) \sigma_{\mathrm{k},\mathrm{j}} \tag{5.42}
 $$
 
 where:
@@ -5705,7 +5705,7 @@ where:
 Equation (5.42) can be re-arranged as follows:
 
 $$
-\sigma_{P}^{2} = \left(\frac{1}{n}\right)\sum_{k = 1}^{n}\left(\frac{\sigma_{k}^{2}}{n}\right) + \left(\frac{n - 1}{n}\right)\sum_{k = 1}^{n}\sum_{\substack{j = 1\\ j\neq k}}^{n}\left(\frac{\sigma_{kj}}{n(n - 1)}\right)
+\sigma_{P}^{2} = \left(\frac{1}{n}\right)\sum_{k=1}^{n}\left(\frac{\sigma_{k}^{2}}{n}\right) + \left(\frac{n - 1}{n}\right)\sum_{k=1}^{n}\sum_{\substack{j=1\\ j\neq k}}^{n}\left(\frac{\sigma_{kj}}{n(n - 1)}\right)
 $$
 
 The terms in brackets in the summation are mean: the first is the mean variance  $\left(\bar{\sigma}_k^2\right)$  of the expected returns of assets in portfolio, while the second is the mean
@@ -5717,13 +5717,13 @@ covariance  $\left(\overline{\sigma}_{k,j}\right)$  between the expected returns
 By replacing them, the portfolio variance can be defined as follows (Elton et al. 2013):
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \left(\frac {1}{n}\right) \bar {\sigma} _ {\mathrm {k}} ^ {2} + \left(1 - \frac {1}{n}\right) \bar {\sigma} _ {\mathrm {k}, \mathrm {j}} \leftrightarrow \sigma_ {\mathrm {P}} ^ {2} = \left(\frac {1}{n}\right) \left(\bar {\sigma} _ {\mathrm {k}} ^ {2} - \bar {\sigma} _ {\mathrm {k}, \mathrm {j}}\right) + \bar {\sigma} _ {\mathrm {k}, \mathrm {j}} \tag {5.43}
+\sigma_{\mathrm{P}}^{2} = \left(\frac{1}{n}\right) \bar{\sigma}_{\mathrm{k}}^{2} + \left(1 - \frac{1}{n}\right) \bar{\sigma}_{\mathrm{k},\mathrm{j}} \leftrightarrow \sigma_{\mathrm{P}}^{2} = \left(\frac{1}{n}\right)\left(\bar{\sigma}_{\mathrm{k}}^{2} - \bar{\sigma}_{\mathrm{k},\mathrm{j}}\right) + \bar{\sigma}_{\mathrm{k},\mathrm{j}} \tag{5.43}
 $$
 
 Equation (5.43) provides understanding of the contribution of the variance and covariance on the portfolio variance according to the increase in the number  $(n)$  of the assets. Indeed, the limits to infinity for the number of the asset  $(n)$ , are the following:
 
 $$
-\begin{array}{l} \lim  _ {n \rightarrow \infty} \frac {1}{n} \bar {\sigma} _ {k} ^ {2} = 0; \quad \lim  _ {n \rightarrow \infty} \left(1 - \frac {1}{n}\right) \bar {\sigma} _ {k, j} = \bar {\sigma} _ {k, j} \tag {5.44} \\ \lim  _ {n \rightarrow \infty} \left(\frac {1}{n}\right)\left(\bar {\sigma} _ {k} ^ {2} - \bar {\sigma} _ {k, j}\right) + \bar {\sigma} _ {k, j} = \bar {\sigma} _ {k, j} \\ \end{array}
+\begin{array}{l} \lim_{n \rightarrow \infty} \frac{1}{n} \bar{\sigma}_{k}^{2} = 0; \quad \lim_{n \rightarrow \infty}\left(1 - \frac{1}{n}\right) \bar{\sigma}_{k,j} = \bar{\sigma}_{k,j} \tag{5.44} \\ \lim_{n \rightarrow \infty}\left(\frac{1}{n}\right)\left(\bar{\sigma}_{k}^{2} - \bar{\sigma}_{k,j}\right) + \bar{\sigma}_{k,j} = \bar{\sigma}_{k,j} \\ \end{array}
 $$
 
 The limits to infinity of Eq. (5.43) show that the contribution to the portfolio variance of the variance of each asset goes to zero while the contribution of the covariance goes to the mean covariance. Consequently, the specific risk of each asset is diversified and the only relevant term for the portfolio's variance is the covariance between the expected returns of the assets considered in a pair.
@@ -5741,7 +5741,7 @@ The  $k$ -th asset's marginal contribution to the portfolio returns  $\left(PR_{
 Consider that:
 
 $$
-\mu_ {\mathrm {P}} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \mu_ {\mathrm {i}} \quad \mathrm {i} = 1, 2, 3, \dots , \mathrm {n}
+\mu_{\mathrm{P}} = \sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}} \mu_{\mathrm{i}} \quad \mathrm{i} = 1, 2, 3, \dots , \mathrm{n}
 $$
 
 It involves a lot of terms that do not contain an  $\alpha_{k}$  and only one term including  $\alpha_{k}$ . The derivatives of all terms that do not include  $\alpha_{k}$ , and therefore for each
@@ -5749,13 +5749,13 @@ It involves a lot of terms that do not contain an  $\alpha_{k}$  and only one te
 $\alpha_{i} \neq \alpha_{k}$ , are equal to zero because they are constants as far as  $\alpha_{k}$  is concerned. In this case, the term including  $\alpha_{k}$  is  $\alpha_{k}\mu_{k}$ . Therefore, the first derivative is equal to:
 
 $$
-\frac {\partial \mu_ {\mathrm {P}}}{\partial \alpha_ {\mathrm {k}}} = \frac {\partial}{\partial \alpha_ {\mathrm {k}}} \left[ \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \mu_ {\mathrm {i}} \right] = \frac {\partial}{\partial \alpha_ {\mathrm {k}}} [ \alpha_ {\mathrm {k}} \mu_ {\mathrm {k}} ] = 1 \mu_ {\mathrm {k}} = \mu_ {\mathrm {k}}
+\frac{\partial \mu_{\mathrm{P}}}{\partial \alpha_{\mathrm{k}}} = \frac{\partial}{\partial \alpha_{\mathrm{k}}}\left[ \sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}} \mu_{\mathrm{i}}\right] = \frac{\partial}{\partial \alpha_{\mathrm{k}}} [ \alpha_{\mathrm{k}} \mu_{\mathrm{k}} ] = 1\mu_{\mathrm{k}} = \mu_{\mathrm{k}}
 $$
 
 Consequently, the marginal contribution of the k-th asset to the portfolio's returns, is equal to its expected returns:
 
 $$
-\mathrm {P R} _ {\mathrm {M C (k)}} = \frac {\partial \mu_ {\mathrm {P}}}{\partial \alpha_ {\mathrm {k}}} = \mu_ {\mathrm {k}} \tag {5.45}
+\mathrm{PR}_{\mathrm{MC(k)}} = \frac{\partial \mu_{\mathrm{P}}}{\partial \alpha_{\mathrm{k}}} = \mu_{\mathrm{k}} \tag{5.45}
 $$
 
 The  $k$ -th asset's marginal contribution to the portfolio variance  $(PV_{MC(k)})$  is calculated based on the partial derivative of the portfolio variance  $(\sigma_P^2)$  with respect to the  $k$ -th asset's weight  $(\alpha_k)$ . It measures the  $k$ -th asset's marginal risk (in terms of variance).
@@ -5763,7 +5763,7 @@ The  $k$ -th asset's marginal contribution to the portfolio variance  $(PV_{MC(k
 Considering that:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} ^ {2} \sigma_ {\mathrm {i}} ^ {2} + \sum_ {\mathrm {i} = 1} ^ {\mathrm {n}} \sum_ {\substack {\mathrm {j} = 1 \\ \mathrm {j} \neq \mathrm {i}}} ^ {\mathrm {n}} \alpha_ {\mathrm {i}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {i}, \mathrm {j}}
+\sigma_{\mathrm{P}}^{2} = \sum_{\mathrm{i}=1}^{\mathrm{n}} \alpha_{\mathrm{i}}^{2} \sigma_{\mathrm{i}}^{2} + \sum_{\mathrm{i}=1}^{\mathrm{n}} \sum_{\substack{\mathrm{j}=1 \\ \mathrm{j}\neq\mathrm{i}}}^{\mathrm{n}} \alpha_{\mathrm{i}}\alpha_{\mathrm{j}}\sigma_{\mathrm{i},\mathrm{j}}
 $$
 
 We have:
@@ -5775,13 +5775,13 @@ $$
 The partial derivative of the first term follows the same principles as discussed earlier. All of the terms that do not include  $\alpha_{k}$  are constant as far as  $\alpha_{k}$  is concerned. Therefore, their derivative is zero. Consequently, the derivative of each term  $\alpha_{i}$  different from  $\alpha_{k}$ , and therefore for each  $\alpha_{\mathrm{i}} \neq \alpha_{\mathrm{k}}$ , is equal to zero. In this case, the term involving  $\alpha_{\mathrm{k}}$  is:
 
 $$
-\alpha_ {\mathrm {k}} ^ {2} \sigma_ {\mathrm {k}} ^ {2}
+\alpha_{\mathrm{k}}^{2} \sigma_{\mathrm{k}}^{2}
 $$
 
 and therefore its derivative is equal to:
 
 $$
-\frac {\partial}{\partial \alpha_ {k}} \left[ \sum_ {i = 1} ^ {n} \alpha_ {i} ^ {2} \sigma_ {i} ^ {2} \right] = \frac {\partial}{\partial \alpha_ {k}} \left[ \alpha_ {k} ^ {2} \sigma_ {k} ^ {2} \right] = 2 \alpha_ {k} \sigma_ {k} ^ {2}
+\frac{\partial}{\partial \alpha_{k}} \left[ \sum_{i=1}^{n} \alpha_{i}^{2} \sigma_{i}^{2} \right] = \frac{\partial}{\partial \alpha_{k}} \left[ \alpha_{k}^{2} \sigma_{k}^{2} \right] = 2 \alpha_{k} \sigma_{k}^{2}
 $$
 
 # 5.1 Diversified Portfolio
@@ -5815,7 +5815,7 @@ $$
 Since  $i$  and  $j$  are simply summation indicators and therefore it does not matter which one is used, and since the variance-covariance matrix is symmetric, we have:
 
 $$
-\sigma_ {i, j} = \sigma_ {j, i} \rightarrow \sigma_ {i, k} = \sigma_ {k, i} \leftrightarrow \sigma_ {k, j} = \sigma_ {j, k}
+\sigma_{i,j} = \sigma_{j,i} \rightarrow \sigma_{i,k} = \sigma_{k,i} \leftrightarrow \sigma_{k,j} = \sigma_{j,k}
 $$
 
 and therefore:
@@ -5827,7 +5827,7 @@ $$
 Consequently, the derivative of the second term is equal to:
 
 $$
-\frac {\partial}{\partial \alpha_ {k}} \left[ \sum_ {i = 1} ^ {n} \sum_ {j = 1 \atop j \neq i} ^ {n} \alpha_ {i} \alpha_ {j} \sigma_ {i, j} \right] = \sum_ {j = 1 \atop j \neq k} ^ {n} \alpha_ {j} \sigma_ {k, j} + \sum_ {j = 1 \atop j \neq k} ^ {n} \alpha_ {j} \sigma_ {k, j} = 2 \sum_ {j = 1 \atop j \neq k} ^ {n} \alpha_ {j} \sigma_ {k, j}
+\frac{\partial}{\partial \alpha_{k}} \left[ \sum_{i=1}^{n} \sum_{j=1 \atop j \neq i}^{n} \alpha_{i} \alpha_{j} \sigma_{i,j} \right] = \sum_{j=1 \atop j \neq k}^{n} \alpha_{j} \sigma_{k,j} + \sum_{j=1 \atop j \neq k}^{n} \alpha_{j} \sigma_{k,j} = 2 \sum_{j=1 \atop j \neq k}^{n} \alpha_{j} \sigma_{k,j}
 $$
 
 Summing the first and the second derivatives, the portfolio variance derivative is achieved, as follows:
@@ -5845,25 +5845,25 @@ $$
 Therefore, the marginal contribution of the k-th asset to the portfolio variance is equal to:
 
 $$
-\mathrm {P V} _ {\mathrm {M C} (\mathrm {k})} = \frac {\partial \sigma_ {\mathrm {P}} ^ {2}}{\partial \alpha_ {\mathrm {k}}} = 2 \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {j}} \sigma_ {\mathrm {k}, \mathrm {j}} \tag {5.46}
+\mathrm{PV}_{\mathrm{MC(k)}} = \frac{\partial \sigma_{\mathrm{P}}^{2}}{\partial \alpha_{\mathrm{k}}} = 2 \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{j}} \sigma_{\mathrm{k},\mathrm{j}} \tag{5.46}
 $$
 
 It is relevant to note that by considering the covariance between the portfolio returns and the k-th asset's returns  $(\sigma_{k,P})$ , we have:
 
 $$
-\sigma_ {k, P} = E \left[ \left(I _ {K} - \mu_ {k}\right) \left(I _ {P} - \mu_ {P}\right) \right]
+\sigma_{k,P} = E \left[ \left(I_{K} - \mu_{k}\right) \left(I_{P} - \mu_{P}\right) \right]
 $$
 
 and considering that:
 
 $$
-\begin{array}{l} \sigma_ {k, P} = E \left[ \left(I _ {K} - \mu_ {k}\right) \left(I _ {P} - \mu_ {P}\right) \right] = E \left[ \left(I _ {K} - \mu_ {k}\right) \sum_ {j = 1} ^ {n} \alpha_ {j} \left(I _ {j} - \mu_ {j}\right) \right] \\ = E \left[ \sum_ {j = 1} ^ {n} \alpha_ {j} \left(I _ {k} - \mu_ {k}\right) \left(I _ {j} - \mu_ {j}\right) \right] \\ = \sum_ {j = 1} ^ {n} \alpha_ {j} E \left[ \left(I _ {k} - \mu_ {k}\right) \left(I _ {j} - \mu_ {j}\right) \right] \\ \end{array}
+\begin{array}{l} \sigma_{k,P} = E \left[ \left(I_{K} - \mu_{k}\right) \left(I_{P} - \mu_{P}\right) \right] = E \left[ \left(I_{K} - \mu_{k}\right) \sum_{j=1}^{n} \alpha_{j} \left(I_{j} - \mu_{j}\right) \right] \\ = E \left[ \sum_{j=1}^{n} \alpha_{j} \left(I_{k} - \mu_{k}\right) \left(I_{j} - \mu_{j}\right) \right] \\ = \sum_{j=1}^{n} \alpha_{j} E \left[ \left(I_{k} - \mu_{k}\right) \left(I_{j} - \mu_{j}\right) \right] \\ \end{array}
 $$
 
 and considering that:
 
 $$
-E \left[ \left(I _ {k} - \mu_ {k}\right) \left(I _ {j} - \mu_ {j}\right) \right] = \sigma_ {k, j}
+E \left[ \left(I_{k} - \mu_{k}\right) \left(I_{j} - \mu_{j}\right) \right] = \sigma_{k,j}
 $$
 
 we have:
@@ -5871,7 +5871,7 @@ we have:
 # 5.1 Diversified Portfolio
 
 $$
-\sigma_ {k, P} = \sum_ {j = 1} ^ {n} \alpha_ {j} \sigma_ {k, j}
+\sigma_{k,P} = \sum_{j=1}^{n} \alpha_{j} \sigma_{k,j}
 $$
 
 and by replacing, Eq. (5.46) can be rewritten as follows:
