@@ -858,7 +858,7 @@ and this is  $\Omega (\sqrt{n})$ , for all  $\lambda$ .
 Fix some  $\lambda$ . Consider the following 'keep or kill' estimator, which uses the MLE estimate if  $\lambda_i \geq \lambda$  and 0 otherwise:
 
 $$
-[ \hat {\beta}_{P C A, \lambda} ]_{j} = \left\{ \begin{array}{l l} [ \hat {\beta}_{0} ]_{j} & \text{if} \lambda_{i} \geq \lambda \\ 0 & \text{else} \end{array} \right.
+[ \hat {\beta}_{P C A, \lambda} ]_{j} = \left\{ \begin{array}{l l} [ \hat {\beta}_{0} ]_{j} & \text{if } \lambda_{i} \geq \lambda \\ 0 & \text{else} \end{array} \right.
 $$
 
 where  $\hat{\beta}_0$  is the MLE estimator. This estimator is 0 for the small values of  $\lambda_{i}$  (those in which we are effectively regularizing more anyways).
@@ -1004,7 +1004,7 @@ $$
 and lower bound
 
 $$
-\begin{array}{l} P (X \geq \epsilon) = \int_{\epsilon}^{\infty} \frac{1}{\sqrt{2 \pi}} e^{- x^{2} / 2} d x \\ = \int_{0}^{\infty} \frac{1}{\sqrt{2 \pi}} e^{- (x + \epsilon)^{2} / 2} d x \\ \geq \int_{0}^{1} \frac{1}{\sqrt{2 \pi}} e^{- (x + \epsilon)^{2} / 2} d x \geq 0. 3 4 e^{- (2 \epsilon + \epsilon^{2}) / 2} d x \\ \geq 0. 5 e^{- (\epsilon + 1)^{2} / 2} d x. \\ \end{array}
+\begin{array}{l} P (X \geq \epsilon) = \int_{\epsilon}^{\infty} \frac{1}{\sqrt{2 \pi}} e^{- x^{2} / 2} d x \\ = \int_{0}^{\infty} \frac{1}{\sqrt{2 \pi}} e^{- (x + \epsilon)^{2} / 2} d x \\ \geq \int_{0}^{1} \frac{1}{\sqrt{2 \pi}} e^{- (x + \epsilon)^{2} / 2} d x \geq 0.34 e^{- (2 \epsilon + \epsilon^{2}) / 2} d x \\ \geq 0.5 e^{- (\epsilon + 1)^{2} / 2} d x. \\ \end{array}
 $$
 
 Therefore we have
@@ -1212,7 +1212,7 @@ is called the cumulant generating function (i.e. it is the logarithmic moment ge
 A slightly modified function is to constrain  $\lambda$  to bigger than 0. So a modified function is:
 
 $$
-\Gamma_{+} (\lambda) = \left\{ \begin{array}{l l} \Gamma (\lambda) & \text{if} \lambda > 0 \\ \infty & \text{else} \end{array} \right.
+\Gamma_{+} (\lambda) = \left\{ \begin{array}{l l} \Gamma (\lambda) & \text{if } \lambda > 0 \\ \infty & \text{else} \end{array} \right.
 $$
 
 This modification is so that when we take an inf over  $\lambda$ , we effectively are only considering the positive  $\lambda$ .
@@ -1290,7 +1290,7 @@ As we will see, the rate function governs this asymptote.
 In practice, we are often interested in "medium" deviations. By this, we often use
 
 $$
-\epsilon_{n} \rightarrow 0 \text{and} \sqrt{n} \epsilon_{n} \rightarrow \infty
+\epsilon_{n} \rightarrow 0 \text{ and } \sqrt{n} \epsilon_{n} \rightarrow \infty
 $$
 
 e.g. we typically are interested in  $\epsilon_{n}$  going to 0 at a rate slower than  $\frac{1}{\sqrt{n}}$  (this is because as  $n$  increases, we also increase the model complexity).

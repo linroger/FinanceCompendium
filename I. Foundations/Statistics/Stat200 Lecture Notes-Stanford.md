@@ -126,7 +126,7 @@ Specific types of continuous random variables include normal, exponential, beta,
 EXAMPLE 1.1.3: Let  $X$  be the amount of time in hours that an electrical component functions before breaking down. This random variable might have the pdf
 
 $$
-f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{ \begin{array}{ll} \lambda \exp(-\lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0, \end{array} \right.
+f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{\begin{array}{ll} \lambda \exp(-\lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x < 0, \end{array} \right.
 $$
 
 which we recognize as an exponential distribution. The probability that the part functions for at least  $c$  hours is  $P(X \geq 100) = \int_{c}^{\infty} f(x) \, dx = \exp(-c\lambda)$ .
@@ -197,7 +197,7 @@ Now let  $X$  and  $Y$  be continuous random variables instead.
 - The joint pdf of  $X$  and  $Y$  is a nonnegative function  $f^{(X,Y)}(x,y)$  such that
 
 $$
-\iint_A f^{(X,Y)}(x,y) \, dx \, dy = P[(X,Y) \in A] \qquad \text{for any set } A \subset \mathbb{R}^2.
+\iint_A f^{(X,Y)}(x,y) \, dx \, dy = P[(X,Y) \in A] \qquad \text{foranyset} A \subset \mathbb{R}^2.
 $$
 
 Note: When we write  $f(x,y)$  without clarification, we mean the joint pdf  $f^{(X,Y)}(x,y)$ .
@@ -245,7 +245,7 @@ If the positive part yields  $\infty$  and the negative part yields  $-\infty$ ,
 EXAMPLE 1.2.1: Let  $X$  have a  $t$  distribution with one degree of freedom (also known as a Cauchy distribution), which has the pdf  $f(x) = [\pi(1 + x^2)]^{-1}$  for all  $x \in \mathbb{R}$ . Since the pdf is symmetric about zero, it might seem as though  $E(X)$  should be zero. However, this is false:
 
 $$
-E(X) = \int_{-\infty}^{\infty} \frac{x}{\pi(1 + x^2)} \, dx = \underbrace{\int_0^{\infty} \frac{x}{\pi(1 + x^2)} \, dx}_{\text{positive part}} + \underbrace{\int_{-\infty}^0 \frac{x}{\pi(1 + x^2)} \, dx}_{\text{negative part}} = \infty - \infty.
+E(X) = \int_{-\infty}^{\infty} \frac{x}{\pi(1 + x^2)} \, dx = \underbrace{\int_0^{\infty} \frac{x}{\pi(1 + x^2)} \, dx}_{\text{positivepart}} + \underbrace{\int_{-\infty}^0 \frac{x}{\pi(1 + x^2)} \, dx}_{\text{negativepart}} = \infty - \infty.
 $$
 
 Thus,  $E(X)$  does not exist.
@@ -295,8 +295,8 @@ Two key properties of expectation are as follows:
 
 These properties can be used to derive other useful identities involving expectations, variances, and covariances. Suppose that  $a$  and  $b$  are constants.
 
-$\operatorname {Var}[a + bg(X)] = b^2\operatorname {Var}[g(X)].$  
-$\operatorname {Cov}[a + bg(X),h(Y)] = \operatorname {Cov}[g(X),a + bh(Y)] = b\operatorname {Cov}[g(X),h(Y)].$  
+$\operatorname{Var}[a + bg(X)] = b^2\operatorname{Var}[g(X)].$  
+$\operatorname{Cov}[a + bg(X),h(Y)] = \operatorname{Cov}[g(X),a + bh(Y)] = b\operatorname{Cov}[g(X),h(Y)].$  
 - If  $X$  and  $Y$  are independent, then  $\operatorname{Cov}[g(X), h(Y)] = 0$ . (The converse is false.)  
 - If  $X$  and  $Y$  are independent, then  $\operatorname{Var}(X + Y) = \operatorname{Var}(X) + \operatorname{Var}(Y)$ . A consequence of this result is that  $\operatorname{Var}(n^{-1} \sum_{i=1}^{n} X_i) = n^{-1} \operatorname{Var}(X_1)$  if  $X_1, \ldots, X_n$  are iid (independent and identically distributed).
 
@@ -384,13 +384,13 @@ Theorem 1.3.4 (Slutsky's Theorem). If  $X_{n}\to_{D}X$ ,  $Y_{n}\to_{P}b$ , and 
 
 We now state two extremely important asymptotic results: the weak law of large numbers and the central limit theorem.
 
-Theorem 1.3.5 (Weak Law of Large Numbers, or WLLN). Let  $\{X_{n}:n\geq 1\}$  be a sequence of iid random variables with  $E(|X_1|) < \infty$ . Let  $\overline{X}_n = n^{-1}\sum_{i = 1}^n X_i$ . Then  $\overline{X}_n\to_P E(X_1)$  as  $n\to \infty$ .
+Theorem 1.3.5 (Weak Law of Large Numbers, or WLLN). Let  $\{X_{n}:n\geq 1\}$  be a sequence of iid random variables with  $E(|X_1|) < \infty$ . Let  $\overline{X}_n = n^{-1}\sum_{i=1}^n X_i$ . Then  $\overline{X}_n\to_P E(X_1)$  as  $n\to \infty$ .
 
 Thus, the WLLN formalizes the intuitive notion that the expectation of a random variable may be interpreted as its long-run average.
 
 Note: Yes, there also exists a strong law of large numbers, which is similar but deals with a stronger form of convergence called almost sure convergence or convergence with probability 1. In more sophisticated versions of these theorems, the iid assumption can be relaxed much more for the weak law than for the strong law.
 
-Theorem 1.3.6 (Central Limit Theorem, or CLT). Let  $\{X_{n}:n\geq 1\}$  be a sequence of iid random variables with  $\operatorname {Var}(X_1) = \sigma^2 <  \infty$  and  $E(X_{1}) = \mu$  .Let  $\overline{X}_n = n^{-1}\sum_{i = 1}^n X_i$  . Then  $\sqrt{n}\bigl (\overline{X}_n - \mu \bigr)\rightarrow_D N(0,\sigma^2)$  as  $n\to \infty$
+Theorem 1.3.6 (Central Limit Theorem, or CLT). Let  $\{X_{n}:n\geq 1\}$  be a sequence of iid random variables with  $\operatorname{Var}(X_1) = \sigma^2 <  \infty$  and  $E(X_{1}) = \mu$  .Let  $\overline{X}_n = n^{-1}\sum_{i=1}^n X_i$  . Then  $\sqrt{n}\bigl (\overline{X}_n - \mu \bigr)\rightarrow_D N(0,\sigma^2)$  as  $n\to \infty$
 
 Informally, the central limit theorem states that for large  $n$ ,  $\overline{X}_n$  is approximately normal with mean  $\mu$  and variance  $\sigma^2 / n$ . Notice that the WLLN and CLT yield different results because the CLT scales the quantity  $\overline{X}_n - \mu$  by an extra factor of  $\sqrt{n}$ :
 
@@ -458,7 +458,7 @@ Note:  $\operatorname{Var}(\pmb{X})$  is typically called the variance-covarianc
 The various properties of univariate expectations and variances have multivariate extensions. Suppose that  $\mathbf{X}$  and  $\mathbf{Y}$  are random vectors of length  $p$ . Also suppose that  $\mathbf{a} \in \mathbb{R}^p$  and  $\mathbf{B}$  is a  $p \times p$  matrix.
 
 -  $E(\mathbf{a} + \mathbf{B}\mathbf{X}) = \mathbf{a} + \mathbf{B}E(\mathbf{X})$ , and  $E(\mathbf{X} + \mathbf{Y}) = E(\mathbf{X}) + E(\mathbf{Y})$ .  
-$\operatorname {Var}(\pmb {a} + \pmb {B}\pmb {X}) = \pmb {B}\operatorname {Var}(\pmb {X})\pmb{B}^T.$
+$\operatorname{Var}(\pmb{a} + \pmb{B}\pmb{X}) = \pmb{B}\operatorname{Var}(\pmb{X})\pmb{B}^T.$
 
 # Multivariate Normal Distribution
 
@@ -511,12 +511,12 @@ Proof. It suffices to prove the result for  $\mu = 0$  and  $\sigma^2 = 1$ . Let
 squares of its last  $n - 1$  elements is  $\sum_{i=2}^{n} Y_i^2 \sim \chi_{n-1}^2$ . Now note that the first element is  $Y_1 = n^{1/2}\overline{X}$ , so we may write
 
 $$
-\begin{array}{l} \sum_ {i = 2} ^ {n} Y _ {i} ^ {2} = \sum_ {i = 1} ^ {n} Y _ {i} ^ {2} - Y _ {1} ^ {2} = \boldsymbol {Y} ^ {T} \boldsymbol {Y} - Y _ {1} ^ {2} = \boldsymbol {X} ^ {T} \boldsymbol {A} ^ {T} \boldsymbol {A} \boldsymbol {X} - n (\overline {{X}}) ^ {2} = \boldsymbol {X} ^ {T} \boldsymbol {X} - n (\overline {{X}}) ^ {2} = \sum_ {i = 1} ^ {n} X _ {i} ^ {2} - n (\overline {{X}}) ^ {2} \\ = (n - 1) S ^ {2}. \\ \end{array}
+\begin{array}{l} \sum_{i=2} ^{n} Y_{i} ^{2} = \sum_{i=1} ^{n} Y_{i} ^{2} - Y_{1} ^{2} = \boldsymbol{Y} ^{T} \boldsymbol{Y} - Y_{1} ^{2} = \boldsymbol{X} ^{T} \boldsymbol{A} ^{T} \boldsymbol{A} \boldsymbol{X} - n (\overline{{X}}) ^{2} = \boldsymbol{X} ^{T} \boldsymbol{X} - n (\overline{{X}}) ^{2} = \sum_{i=1} ^{n} X_{i} ^{2} - n (\overline{{X}}) ^{2} \\ = (n - 1) S^{2}. \\ \end{array}
 $$
 
-Finally, note that  $Y_{1},\ldots ,Y_{n}$  are all independent, so  $Y_{1}$  and and  $\sum_{i = 2}^{n}Y_{i}^{2}$  are independent.
+Finally, note that  $Y_{1},\ldots ,Y_{n}$  are all independent, so  $Y_{1}$  and and  $\sum_{i=2}^{n}Y_{i}^{2}$  are independent.
 
-Without the normality assumption, some parts of Theorem 2.1.3 still hold, but others do not. Suppose  $X_{1},\ldots ,X_{n}$  are iid with  $E(X_{1}) = \mu$  and  $\operatorname {Var}(X_1) = \sigma^2$ , but suppose their distribution is not necessarily normal.
+Without the normality assumption, some parts of Theorem 2.1.3 still hold, but others do not. Suppose  $X_{1},\ldots ,X_{n}$  are iid with  $E(X_{1}) = \mu$  and  $\operatorname{Var}(X_1) = \sigma^2$ , but suppose their distribution is not necessarily normal.
 
 - We still have  $E(\overline{X}) = \mu$  and  $\operatorname{Var}(\overline{X}) = \sigma^2 / n$ . Also, we still have  $E(S^2) = \sigma^2$ , which agrees with Theorem 2.1.3.  
 - However, the distribution of  $\overline{X}$  is not necessarily normal (though it is approximately normal for large  $n$  by the CLT), and the distribution of  $(n - 1)S^2 / \sigma^2$  is not necessarily chi-squared. Moreover,  $\overline{X}$  and  $S^2$  are not necessarily independent.
@@ -526,7 +526,7 @@ Without the normality assumption, some parts of Theorem 2.1.3 still hold, but ot
 Let  $Z \sim N(0,1)$  and  $U \sim \chi_p^2$  be independent random variables. The distribution of the random variable
 
 $$
-\frac {Z}{\sqrt {U / p}}
+\frac{Z}{\sqrt{U / p}}
 $$
 
 is called Student's  $t$  distribution with  $p$  degrees of freedom, which we write as  $t_p$ .
@@ -534,7 +534,7 @@ is called Student's  $t$  distribution with  $p$  degrees of freedom, which we w
 Lemma 2.1.4. The pdf of the  $t_p$  distribution is, for all  $t \in \mathbb{R}$ ,
 
 $$
-f (t) = \frac {\Gamma [ (p + 1) / 2 ]}{\sqrt {\pi p} \Gamma (p / 2)} \left(1 + \frac {t ^ {2}}{p}\right) ^ {- (p + 1) / 2}.
+f (t) = \frac{\Gamma [ (p + 1) / 2 ]}{\sqrt{\pi p} \Gamma (p / 2)} \left(1 + \frac{t^{2}}{p}\right) ^{- (p + 1) / 2}.
 $$
 
 Proof. See pages 483-484 of DeGroot & Schervish.
@@ -542,7 +542,7 @@ Proof. See pages 483-484 of DeGroot & Schervish.
 Various statistical procedures (many of which we will see later this quarter) involve the random variable
 
 $$
-T = \frac {\bar {X} - \mu}{\sqrt {S ^ {2} / n}} \tag {2.1.2}
+T = \frac{\bar{X} - \mu}{\sqrt{S^{2} / n}} \tag{2.1.2}
 $$
 
 Its distribution is of considerable importance and is given by the following theorem.
@@ -562,7 +562,7 @@ A statistic  $\mathbf{Y} = r(\mathbf{X})$  is said to be sufficient for an unkno
 EXAMPLE 2.2.1: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \operatorname{Bin}(1, \theta)$ , and let  $Y = \sum_{i=1}^{n} X_i$ . Then the conditional pmf of  $X = (X_1, \ldots, X_n)$  given  $Y$  is
 
 $$
-\begin{array}{l} p _ {\theta} ^ {(\boldsymbol {X} | Y)} (\boldsymbol {x} \mid y) = \frac {P _ {\theta} \left(X _ {1} = x _ {1} , \dots , X _ {n} = x _ {n} , Y = y\right)}{P _ {\theta} (Y = y)} \\ = \frac {P _ {\theta} \left(X _ {1} = x _ {1} , \ldots , X _ {n} = x _ {n}\right)}{P _ {\theta} \left(\sum_ {i = 1} ^ {n} X _ {i} = y\right)} = \frac {\prod_ {i = 1} ^ {n} \theta^ {x _ {i}} (1 - \theta) ^ {1 - x _ {i}}}{\binom {n} {y} \theta^ {y} (1 - \theta) ^ {n - y}} = \frac {\theta^ {y} (1 - \theta) ^ {n - y}}{\binom {n} {y} \theta^ {y} (1 - \theta) ^ {n - y}} = \frac {1}{\binom {n} {y}}. \\ \end{array}
+\begin{array}{l} p_{\theta} ^{(\boldsymbol{X} | Y)} (\boldsymbol{x} \mid y) = \frac{P_{\theta} \left(X_{1} = x_{1} , \dots , X_{n} = x_{n} , Y = y\right)}{P_{\theta} (Y = y)} \\ = \frac{P_{\theta} \left(X_{1} = x_{1} , \ldots , X_{n} = x_{n}\right)}{P_{\theta} \left(\sum_{i=1} ^{n} X_{i} = y\right)} = \frac{\prod_{i=1} ^{n} \theta^{x_{i}} (1 - \theta) ^{1 - x_{i}}}{\binom{n} {y} \theta^{y} (1 - \theta) ^{n - y}} = \frac{\theta^{y} (1 - \theta) ^{n - y}}{\binom{n} {y} \theta^{y} (1 - \theta) ^{n - y}} = \frac{1}{\binom{n} {y}}. \\ \end{array}
 $$
 
 if  $y = \sum_{i=1}^{n} x_i$  (and zero if  $y \neq \sum_{i=1}^{n} x_i$ ). This does not depend on  $\theta$ , so  $Y$  is sufficient for  $\theta$ .
@@ -588,7 +588,7 @@ Now consider the case of a sample from a normal distribution. Here the sufficien
 EXAMPLE 2.2.5: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  is unknown but  $\sigma^2 > 0$  is known. The joint pdf of the sample is
 
 $$
-\begin{array}{l} f _ {\mu} (\boldsymbol {x}) = \prod_ {i = 1} ^ {n} \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left[ - \frac {(x _ {i} - \mu) ^ {2}}{2 \sigma^ {2}} \right] \\ = \frac {1}{(2 \pi \sigma^ {2}) ^ {n / 2}} \exp \left[ - \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} (x _ {i} - \mu) ^ {2} \right] \\ = \frac {1}{(2 \pi \sigma^ {2}) ^ {n / 2}} \exp \left[ - \frac {1}{2 \sigma^ {2}} \left(\sum_ {i = 1} ^ {n} x _ {i} ^ {2} - 2 \mu \sum_ {i = 1} ^ {n} x _ {i} + \mu^ {2}\right) \right] \\ = \underbrace {\exp \left[ - \frac {1}{2 \sigma^ {2}} \left(- 2 \mu \sum_ {i = 1} ^ {n} x _ {i} + \mu^ {2}\right) \right]} _ {g (y, \mu)} \underbrace {\frac {1}{(2 \pi \sigma^ {2}) ^ {n / 2}} \exp \left(- \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} x _ {i} ^ {2}\right)} _ {h (\boldsymbol {x})}, \\ \end{array}
+\begin{array}{l} f_{\mu} (\boldsymbol{x}) = \prod_{i=1} ^{n} \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left[ - \frac{(x_{i} - \mu) ^{2}}{2 \sigma^{2}} \right] \\ = \frac{1}{(2 \pi \sigma^{2}) ^{n / 2}} \exp \left[ - \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} (x_{i} - \mu) ^{2} \right] \\ = \frac{1}{(2 \pi \sigma^{2}) ^{n / 2}} \exp \left[ - \frac{1}{2 \sigma^{2}} \left(\sum_{i=1} ^{n} x_{i} ^{2} - 2 \mu \sum_{i=1} ^{n} x_{i} + \mu^{2}\right) \right] \\ = \underbrace{\exp \left[ - \frac{1}{2 \sigma^{2}} \left(- 2 \mu \sum_{i=1} ^{n} x_{i} + \mu^{2}\right) \right]} _{g (y, \mu)} \underbrace{\frac{1}{(2 \pi \sigma^{2}) ^{n / 2}} \exp \left(- \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} x_{i} ^{2}\right)} _{h (\boldsymbol{x})}, \\ \end{array}
 $$
 
 where  $y = \sum_{i=1}^{n} x_i$ . Thus,  $\sum_{i=1}^{n} X_i$  is sufficient for  $\mu$  by the factorization theorem. Note that  $\overline{X}$  is also sufficient for  $\theta$  by Theorem 2.2.3.
@@ -596,7 +596,7 @@ where  $y = \sum_{i=1}^{n} x_i$ . Thus,  $\sum_{i=1}^{n} X_i$  is sufficient for
 EXAMPLE 2.2.6: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  and  $\sigma^2 > 0$  are both unknown. The joint pdf of the sample is the same as in Example 2.2.5, but we now factor it differently:
 
 $$
-f _ {\mu} (\boldsymbol {x}) = \underbrace {\frac {1}{(2 \pi \sigma^ {2}) ^ {n / 2}} \exp \left[ - \frac {1}{2 \sigma^ {2}} \left(\sum_ {i = 1} ^ {n} x _ {i} ^ {2} - 2 \mu \sum_ {i = 1} ^ {n} x _ {i} + \mu^ {2}\right) \right]} _ {g [ (y _ {1}, y _ {2}), (\mu , \sigma^ {2}) ]},
+f_{\mu} (\boldsymbol{x}) = \underbrace{\frac{1}{(2 \pi \sigma^{2}) ^{n / 2}} \exp \left[ - \frac{1}{2 \sigma^{2}} \left(\sum_{i=1} ^{n} x_{i} ^{2} - 2 \mu \sum_{i=1} ^{n} x_{i} + \mu^{2}\right) \right]} _{g [ (y_{1}, y_{2}), (\mu , \sigma^{2}) ]},
 $$
 
 where  $y_{1} = \sum_{i=1}^{n} x_{i}$  and  $y_{2} = \sum_{i=1}^{n} x_{i}^{2}$ , and where  $h(\boldsymbol{x}) = 1$ . Thus,  $\left( \sum_{i=1}^{n} X_{i}, \sum_{i=1}^{n} X_{i}^{2} \right)$  is sufficient for  $(\mu, \sigma^{2})$  by the factorization theorem. Note that  $(\overline{X}, S^{2})$  is also sufficient for  $\theta$  by Theorem 2.2.3.
@@ -628,7 +628,7 @@ Many commonly used distributions can be written in a single general form.
 A distribution with unknown parameter  $\theta$  belongs to the exponential family if its pmf  $p_{\theta}(x)$  or pdf  $f_{\theta}(x)$  can be written as
 
 $$
-\exp \left[ \sum_ {j = 1} ^ {k} \eta_ {j} (\theta) r _ {j} (x) - \psi (\theta) \right] h (x) \tag {2.3.1}
+\exp \left[ \sum_{j=1} ^{k} \eta_{j} (\theta) r_{j} (x) - \psi (\theta) \right] h (x) \tag{2.3.1}
 $$
 
 for some  $k\geq 1$  and some functions  $\eta_1,\ldots ,\eta_k,r_1,\ldots ,r_k,\psi ,h$
@@ -636,13 +636,13 @@ for some  $k\geq 1$  and some functions  $\eta_1,\ldots ,\eta_k,r_1,\ldots ,r_k,
 EXAMPLE 2.3.1: Consider the  $N(\mu, \sigma^2)$  distribution with  $\mu \in \mathbb{R}$  unknown and  $\sigma^2 > 0$  known. The pdf of this distribution is
 
 $$
-f _ {\mu} (x) = \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left[ - \frac {(x - \mu) ^ {2}}{2 \sigma^ {2}} \right] = \exp \left(\frac {\mu}{2 \sigma^ {2}} x - \frac {\mu^ {2}}{\sigma^ {2}}\right) \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left(- \frac {x ^ {2}}{2 \sigma^ {2}}\right).
+f_{\mu} (x) = \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left[ - \frac{(x - \mu) ^{2}}{2 \sigma^{2}} \right] = \exp \left(\frac{\mu}{2 \sigma^{2}} x - \frac{\mu^{2}}{\sigma^{2}}\right) \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left(- \frac{x^{2}}{2 \sigma^{2}}\right).
 $$
 
 Then
 
 $$
-k = 1, \qquad \eta_ {1} (\mu) = \frac {\mu}{\sigma^ {2}}, \qquad r _ {1} (x) = x, \qquad \psi (\mu) - \frac {\mu^ {2}}{2 \sigma^ {2}}, \qquad h (x) = \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left(- \frac {x ^ {2}}{2 \sigma^ {2}}\right),
+k = 1, \qquad \eta_{1} (\mu) = \frac{\mu}{\sigma^{2}}, \qquad r_{1} (x) = x, \qquad \psi (\mu) - \frac{\mu^{2}}{2 \sigma^{2}}, \qquad h (x) = \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left(- \frac{x^{2}}{2 \sigma^{2}}\right),
 $$
 
 and hence this distribution belongs to the exponential family.
@@ -650,13 +650,13 @@ and hence this distribution belongs to the exponential family.
 EXAMPLE 2.3.2: Now consider the  $N(\mu, \sigma^2)$  distribution with  $\mu \in \mathbb{R}$  and  $\sigma^2 > 0$  both unknown. The pdf is the same as in Example 2.3.1, but we now break it up as
 
 $$
-f _ {\mu , \sigma^ {2}} (x) = \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left[ - \frac {(x - \mu) ^ {2}}{2 \sigma^ {2}} \right] = \exp \left[ \frac {\mu}{\sigma^ {2}} x - \frac {1}{2 \sigma^ {2}} x ^ {2} - \left(\frac {\mu^ {2}}{2 \sigma^ {2}} + \frac {1}{2} \log \sigma^ {2}\right) \right] \frac {1}{\sqrt {2 \pi}}.
+f_{\mu , \sigma^{2}} (x) = \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left[ - \frac{(x - \mu) ^{2}}{2 \sigma^{2}} \right] = \exp \left[ \frac{\mu}{\sigma^{2}} x - \frac{1}{2 \sigma^{2}} x^{2} - \left(\frac{\mu^{2}}{2 \sigma^{2}} + \frac{1}{2} \log \sigma^{2}\right) \right] \frac{1}{\sqrt{2 \pi}}.
 $$
 
 Then
 
 $$
-\begin{array}{l} k = 2, \qquad \eta_ {1} (\mu , \sigma^ {2}) = \frac {\mu}{\sigma^ {2}}, \qquad r _ {1} (x) = x, \qquad \eta_ {2} (\mu , \sigma^ {2}) = - \frac {1}{2 \sigma^ {2}}, \qquad r _ {2} (x) = x ^ {2}, \\ \psi (\mu , \sigma^ {2}) = \frac {\mu^ {2}}{2 \sigma^ {2}} + \frac {1}{2} \log \sigma^ {2}, \qquad h (x) = \frac {1}{\sqrt {2 \pi}}, \\ \end{array}
+\begin{array}{l} k = 2, \qquad \eta_{1} (\mu , \sigma^{2}) = \frac{\mu}{\sigma^{2}}, \qquad r_{1} (x) = x, \qquad \eta_{2} (\mu , \sigma^{2}) = - \frac{1}{2 \sigma^{2}}, \qquad r_{2} (x) = x^{2}, \\ \psi (\mu , \sigma^{2}) = \frac{\mu^{2}}{2 \sigma^{2}} + \frac{1}{2} \log \sigma^{2}, \qquad h (x) = \frac{1}{\sqrt{2 \pi}}, \\ \end{array}
 $$
 
 and hence this distribution belongs to the exponential family.
@@ -693,12 +693,12 @@ When we have a random sample from a distribution in the exponential family, many
 
 An iid sample from a distribution in the exponential family can always be reduced to a relatively small number of sufficient statistics by the following theorem.
 
-Theorem 2.3.3. Let  $X_{1},\ldots ,X_{n}$  be iid observations from a distribution in the exponential family with pmf or pdf as stated in (2.3.1). Then  $\left[\sum_{i = 1}^{n}r_{1}(X_{i}),\dots ,\sum_{i = 1}^{n}r_{k}(X_{i})\right]$  is a sufficient statistic for  $\theta$ .
+Theorem 2.3.3. Let  $X_{1},\ldots ,X_{n}$  be iid observations from a distribution in the exponential family with pmf or pdf as stated in (2.3.1). Then  $\left[\sum_{i=1}^{n}r_{1}(X_{i}),\dots ,\sum_{i=1}^{n}r_{k}(X_{i})\right]$  is a sufficient statistic for  $\theta$ .
 
 Proof. The joint pmf or pdf is of the sample is
 
 $$
-\prod_ {i = 1} ^ {n} \exp \left[ \sum_ {j = 1} ^ {k} \eta_ {j} (\theta) r _ {j} (x _ {i}) - \psi (\theta) \right] h (x _ {i}) = \exp \left\{\sum_ {j = 1} ^ {k} \left[ \eta_ {j} (\theta) \sum_ {i = 1} ^ {n} r _ {j} (x _ {i}) \right] - n \psi (\theta) \right\} \prod_ {i = 1} ^ {n} h (x _ {i}),
+\prod_{i=1} ^{n} \exp \left[ \sum_{j=1} ^{k} \eta_{j} (\theta) r_{j} (x_{i}) - \psi (\theta) \right] h (x_{i}) = \exp \left\{\sum_{j=1} ^{k} \left[ \eta_{j} (\theta) \sum_{i=1} ^{n} r_{j} (x_{i}) \right] - n \psi (\theta) \right\} \prod_{i=1} ^{n} h (x_{i}),
 $$
 
 and we now simply apply the factorization theorem.
@@ -720,7 +720,7 @@ Any function of the data can be considered an estimator for any parameter. Howev
 
 EXAMPLE 3.0.1: Suppose  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , and we wish to estimate  $\lambda = 1 / E(X)$ .
 
-- Estimators such as  $\hat{\lambda} = \left(\overline{X}\right)^{-1}$  or  $\hat{\lambda} = (\text{sample median})^{-1}$  might be good estimators.  
+- Estimators such as  $\hat{\lambda} = \left(\overline{X}\right)^{-1}$  or  $\hat{\lambda} = (\text{samplemedian})^{-1}$  might be good estimators.  
 - Estimators such as  $\hat{\lambda} = 1 + \left(\overline{X}\right)^3$  or  $\hat{\lambda} = 17$  are probably bad estimators.  
 - Anything involving  $\lambda$  itself is not an estimator.
 
@@ -769,7 +769,7 @@ It is often more convenient to work with the logarithm of the likelihood,  $\ell
 An estimate  $\hat{\theta}(\pmb{x})$  of  $\theta$  (with allowed parameter space  $\Theta$ ) is called a maximum likelihood estimate (MLE) of  $\theta$  if  $\hat{\theta}(\pmb{x})$  maximizes  $L_{\pmb{x}}(\theta)$ , the likelihood of  $\theta$ , over  $\Theta$ . An estimator that takes the value of the maximum likelihood estimate for every possible sample  $\pmb{X} = \pmb{x}$  is called a maximum likelihood estimator (also MLE). If the MLE is unique, then we can write
 
 $$
-\hat {\theta} ^ {\text {M L E}} = \underset {\theta \in \Theta} {\arg \max } L _ {\boldsymbol {X}} (\theta) = \underset {\theta \in \Theta} {\arg \max } \ell_ {\boldsymbol {X}} (\theta),
+\hat{\theta} ^{\text{MLE}} = \underset{\theta \in \Theta} {\arg \max} L_{\boldsymbol{X}} (\theta) = \underset{\theta \in \Theta} {\arg \max} \ell_{\boldsymbol{X}} (\theta),
 $$
 
 noting that maximizing the likelihood is equivalent to maximizing the log-likelihood. Also note that the MLE can only take values within the allowed parameter space  $\Theta$ .
@@ -785,19 +785,19 @@ Maximizing  $L_{\pmb{x}}(\theta)$ , or equivalently  $\ell_{\pmb{x}}(\theta)$ , 
 EXAMPLE 3.2.1: Suppose  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lambda)$ , where  $\lambda \geq 0$ , and we want to find the MLE of  $\lambda$ . The log-likelihood based on the sample  $\pmb{x} = (x_1, \dots, x_n)$  is
 
 $$
-\ell_ {\pmb {x}} (\lambda) = \sum_ {i = 1} ^ {n} \log \left[ \frac {\lambda^ {x _ {i}} \exp (- \lambda)}{(x _ {i}) !} \right] = - n \lambda + n \overline {{x}} \log \lambda - \sum_ {i = 1} ^ {n} \log [ (x _ {i})! ].
+\ell_{\pmb{x}} (\lambda) = \sum_{i=1} ^{n} \log \left[ \frac{\lambda^{x_{i}} \exp (- \lambda)}{(x_{i}) !} \right] = - n \lambda + n \overline{{x}} \log \lambda - \sum_{i=1} ^{n} \log [ (x_{i})! ].
 $$
 
 Then
 
 $$
-\frac {\partial}{\partial \lambda} \ell_ {\boldsymbol {x}} (\lambda) = - n + \frac {n \overline {{x}}}{\lambda} = 0 \iff \lambda = \overline {{x}}.
+\frac{\partial}{\partial \lambda} \ell_{\boldsymbol{x}} (\lambda) = - n + \frac{n \overline{{x}}}{\lambda} = 0 \iff \lambda = \overline{{x}}.
 $$
 
 It can be seen from the form of  $\ell_{\pmb{x}}(\lambda)$  that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_ {\boldsymbol {x}} (\overline {{x}}) = \max  _ {\lambda \geq 0} \ell_ {\boldsymbol {x}} (\lambda) \qquad \text {f o r a l l} \boldsymbol {x} \in \left(\mathbb {N} _ {0}\right) ^ {n},
+\ell_{\boldsymbol{x}} (\overline{{x}}) = \max_{\lambda \geq 0} \ell_{\boldsymbol{x}} (\lambda) \qquad \text{forall} \boldsymbol{x} \in \left(\mathbb{N} _{0}\right) ^{n},
 $$
 
 where  $\mathbb{N}_0 = \{0,1,2,\ldots\}$ . Thus, the maximum likelihood estimator of  $\lambda$  is  $\hat{\lambda}^{\mathrm{MLE}} = \overline{X}$ .
@@ -809,31 +809,31 @@ The definition of the maximum likelihood estimator still holds if the unknown pa
 EXAMPLE 3.2.2: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  and  $\sigma^2 > 0$  are both unknown, and we want to find the MLE of both parameters. The likelihood and log-likelihood based on the sample  $\boldsymbol{x} = (x_1, \ldots, x_n)$  are
 
 $$
-\begin{array}{l} L _ {\boldsymbol {x}} (\sigma^ {2}) = \prod_ {i = 1} ^ {n} \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \biggl [ - \frac {(x _ {i} - \mu) ^ {2}}{2 \sigma^ {2}} \biggr ] = (2 \pi \sigma^ {2}) ^ {- n / 2} \exp \biggl [ - \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} (x _ {i} - \mu) ^ {2} \biggr ], \\ \ell_ {\boldsymbol {x}} (\sigma^ {2}) = \log L _ {\boldsymbol {x}} (\sigma^ {2}) = - \frac {n}{2} \log (2 \pi) - \frac {n}{2} \log \sigma^ {2} - \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} (x _ {i} - \mu) ^ {2}. \\ \end{array}
+\begin{array}{l} L_{\boldsymbol{x}} (\sigma^{2}) = \prod_{i=1} ^{n} \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \biggl [ - \frac{(x_{i} - \mu) ^{2}}{2 \sigma^{2}} \biggr ] = (2 \pi \sigma^{2}) ^{- n / 2} \exp \biggl [ - \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} (x_{i} - \mu) ^{2} \biggr ], \\ \ell_{\boldsymbol{x}} (\sigma^{2}) = \log L_{\boldsymbol{x}} (\sigma^{2}) = - \frac{n}{2} \log (2 \pi) - \frac{n}{2} \log \sigma^{2} - \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} (x_{i} - \mu) ^{2}. \\ \end{array}
 $$
 
 Differentiating with respect to each parameter yields
 
 $$
-\begin{array}{l} \frac {\partial}{\partial \mu} \ell_ {\boldsymbol {x}} (\mu , \sigma^ {2}) = \frac {1}{\sigma^ {2}} \sum_ {i = 1} ^ {n} x _ {i} - \frac {n \mu}{\sigma^ {2}} = \frac {n}{\sigma^ {2}} (\bar {x} - \mu), \quad \frac {\partial}{\partial (\sigma^ {2})} \ell_ {\boldsymbol {x}} (\mu , \sigma^ {2}) = - \frac {n}{2 \sigma^ {2}} + \frac {1}{2 (\sigma^ {2}) ^ {2}} \sum_ {i = 1} ^ {n} (x _ {i} - \mu) ^ {2} \\ = \frac {1}{2 (\sigma^ {2}) ^ {2}} \sum_ {i = 1} ^ {n} \left[ (x _ {i} - \mu) ^ {2} - \sigma^ {2} \right]. \\ \end{array}
+\begin{array}{l} \frac{\partial}{\partial \mu} \ell_{\boldsymbol{x}} (\mu , \sigma^{2}) = \frac{1}{\sigma^{2}} \sum_{i=1} ^{n} x_{i} - \frac{n \mu}{\sigma^{2}} = \frac{n}{\sigma^{2}} (\bar{x} - \mu), \quad \frac{\partial}{\partial (\sigma^{2})} \ell_{\boldsymbol{x}} (\mu , \sigma^{2}) = - \frac{n}{2 \sigma^{2}} + \frac{1}{2 (\sigma^{2}) ^{2}} \sum_{i=1} ^{n} (x_{i} - \mu) ^{2} \\ = \frac{1}{2 (\sigma^{2}) ^{2}} \sum_{i=1} ^{n} \left[ (x_{i} - \mu) ^{2} - \sigma^{2} \right]. \\ \end{array}
 $$
 
 We now set both partial derivatives equal to zero and solve. First, note that
 
 $$
-\frac {\partial}{\partial \mu} \ell_ {\boldsymbol {x}} (\mu , \sigma^ {2}) = \frac {n}{\sigma^ {2}} (\overline {{x}} - \mu) = 0 \iff \mu = \overline {{x}}.
+\frac{\partial}{\partial \mu} \ell_{\boldsymbol{x}} (\mu , \sigma^{2}) = \frac{n}{\sigma^{2}} (\overline{{x}} - \mu) = 0 \iff \mu = \overline{{x}}.
 $$
 
 We can now substitute  $\mu = \overline{x}$  into the other partial derivative, set it equal to zero, yielding
 
 $$
-\frac {\partial}{\partial (\sigma^ {2})} \ell_ {\pmb {x}} (\mu , \sigma^ {2}) = \frac {1}{2 (\sigma^ {2}) ^ {2}} \sum_ {i = 1} ^ {n} \bigl [ (x _ {i} - \overline {{x}}) ^ {2} - \sigma^ {2} \bigr ] = 0 \iff \sigma^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} (x _ {i} - \overline {{x}}) ^ {2} = \left(\frac {n - 1}{n}\right) S ^ {2}.
+\frac{\partial}{\partial (\sigma^{2})} \ell_{\pmb{x}} (\mu , \sigma^{2}) = \frac{1}{2 (\sigma^{2}) ^{2}} \sum_{i=1} ^{n} \bigl [ (x_{i} - \overline{{x}}) ^{2} - \sigma^{2} \bigr ] = 0 \iff \sigma^{2} = \frac{1}{n} \sum_{i=1} ^{n} (x_{i} - \overline{{x}}) ^{2} = \left(\frac{n - 1}{n}\right) S^{2}.
 $$
 
 It can be seen from the form of  $\ell_{\pmb{x}}(\mu ,\sigma^{2})$  that this point is indeed the maximizer, i.e.,
 
 $$
-\ell_ {\boldsymbol {x}} \left[ \bar {x}, \left(\frac {n - 1}{n}\right) S ^ {2} \right] = \max  _ {\mu \in \mathbb {R}, \sigma^ {2} > 0} \ell_ {\boldsymbol {x}} (\mu , \sigma^ {2}). \tag {3.2.1}
+\ell_{\boldsymbol{x}} \left[ \bar{x}, \left(\frac{n - 1}{n}\right) S^{2} \right] = \max_{\mu \in \mathbb{R}, \sigma^{2} > 0} \ell_{\boldsymbol{x}} (\mu , \sigma^{2}). \tag{3.2.1}
 $$
 
 Note: The result in (3.2.1) holds for all  $\pmb{x} \in \mathbb{R}^p$  such that  $x_1, \ldots, x_n$  are not all equal. If instead  $x_1, \ldots, x_n$  are all equal, then  $(n - 1)S^2 / n = 0$ , which is outside the allowed parameter space for  $\sigma^2$ . However, since  $X_1, \ldots, X_n$  are continuous random variables,  $P(X_i = X_j) = 0$  for  $i \neq j$ , meaning that this issue arises with probability zero. Thus, we usually go ahead and define the MLE as if this situation cannot occur, despite the fact that it is technically possible.
@@ -843,10 +843,10 @@ Thus, the maximum likelihood estimators of  $\mu$  and  $\sigma^2$  are, respect
 EXAMPLE 3.2.3: Let  $\mathbf{X}$  be an  $n \times p$  matrix of known constants (not random variables, despite the capital letter), and let  $Y_{1},\ldots ,Y_{n}$  be independent random variables with
 
 $$
-Y _ {i} \sim N \left(\sum_ {j = 1} ^ {p} \beta_ {j} x _ {i j}, \sigma^ {2}\right) \qquad \text {f o r e a c h} i \in \{1, \dots , n \},
+Y_{i} \sim N \left(\sum_{j=1} ^{p} \beta_{j} x_{i j}, \sigma^{2}\right) \qquad \text{foreach} i \in \{1, \dots , n \},
 $$
 
-where  $\pmb{\beta} = (\beta_{1},\dots,\beta_{p})\in \mathbb{R}^{p}$  and  $\sigma^2 >0$  are both unknown. Let  $\mathbf{Y} = (Y_1,\ldots ,Y_n)$ . It can be shown (see, e.g., Theorem 11.5.1 of DeGroot & Schervish) that if the matrix  $\mathbf{X}$  has rank  $p$ , then the maximum likelihood estimators of  $\pmb{\beta}$  and  $\sigma^2$  are  $\hat{\pmb{\beta}}^{\mathrm{MLE}} = (\pmb{X}^T\pmb {X})^{-1}\pmb{X}^T\pmb{Y}$  and  $(\hat{\sigma}^2)^{\mathrm{MLE}} = n^{-1}\| \pmb {Y} - \pmb {X}\hat{\pmb{\beta}}^{\mathrm{MLE}}\| _2^2$ , respectively, where  $\| \pmb {u}\| _2^2 = \sum_{i = 1}^k u_i^2$  for any  $\pmb {u}\in \mathbb{R}^k$ .
+where  $\pmb{\beta} = (\beta_{1},\dots,\beta_{p})\in \mathbb{R}^{p}$  and  $\sigma^2 >0$  are both unknown. Let  $\mathbf{Y} = (Y_1,\ldots ,Y_n)$ . It can be shown (see, e.g., Theorem 11.5.1 of DeGroot & Schervish) that if the matrix  $\mathbf{X}$  has rank  $p$ , then the maximum likelihood estimators of  $\pmb{\beta}$  and  $\sigma^2$  are  $\hat{\pmb{\beta}}^{\mathrm{MLE}} = (\pmb{X}^T\pmb{X})^{-1}\pmb{X}^T\pmb{Y}$  and  $(\hat{\sigma}^2)^{\mathrm{MLE}} = n^{-1}\| \pmb{Y} - \pmb{X}\hat{\pmb{\beta}}^{\mathrm{MLE}}\| _2^2$ , respectively, where  $\| \pmb{u}\| _2^2 = \sum_{i=1}^k u_i^2$  for any  $\pmb{u}\in \mathbb{R}^k$ .
 
 Note: If the rank of  $\mathbf{X}$  is strictly less than  $p$  (which is automatically the case if  $n < p$ ), then the MLE of  $\beta$  still exists but is not unique. However, the MLE of  $\sigma^2$  does not exist (although we could take it to be zero if we expand the parameter space to  $\sigma^2 \geq 0$  and adopt the convention that a normal distribution with variance zero is simply a degenerate distribution).
 
@@ -871,7 +871,7 @@ Proof. See the proof of Theorem 7.6.2 in DeGroot & Schervish.
 EXAMPLE 3.2.6: Suppose that in Example 3.2.2, we had taken the second unknown parameter to be the standard deviation  $\sigma$  instead of the variance  $\sigma^2$ . Then the maximum likelihood estimator of  $\sigma$  would have simply been
 
 $$
-\hat {\sigma} ^ {\mathrm {M L E}} = \sqrt {\left(\hat {\sigma} ^ {2}\right) ^ {\mathrm {M L E}}} = \sqrt {\frac {(n - 1) S ^ {2}}{n}}
+\hat{\sigma} ^{\mathrm{MLE}} = \sqrt{\left(\hat{\sigma} ^{2}\right) ^{\mathrm{MLE}}} = \sqrt{\frac{(n - 1) S^{2}}{n}}
 $$
 
 by Theorem 3.2.5.
@@ -883,19 +883,19 @@ It is often the case that the maximum likelihood estimator  $\hat{\theta}^{\math
 EXAMPLE 3.2.7: Let  $x_{1}, \ldots, x_{n}$  be known constants, and let  $Y_{1}, \ldots, Y_{n}$  be independent random variables with
 
 $$
-Y _ {i} \sim \mathrm {B i n} \bigg [ 1, \frac {\exp (\alpha + \beta x _ {i})}{1 + \exp (\alpha + \beta x _ {i})} \bigg ] \qquad \mathrm {f o r e a c h} i \in \{1, \ldots , n \},
+Y_{i} \sim \mathrm{Bin} \bigg [ 1, \frac{\exp (\alpha + \beta x_{i})}{1 + \exp (\alpha + \beta x_{i})} \bigg ] \qquad \mathrm{foreach} i \in \{1, \ldots , n \},
 $$
 
 where  $\alpha \in \mathbb{R}$  and  $\beta \in \mathbb{R}$  are both unknown. (This is often called logistic regression.) The log-likelihood based on the sample  $\pmb{y} = (y_{1},\dots,y_{n})$  is
 
 $$
-\begin{array}{l} \ell_ {\boldsymbol {y}} (\alpha , \beta) = \log L _ {\boldsymbol {y}} (\alpha , \beta) = \log \prod_ {i = 1} ^ {n} \left[ \frac {\exp (\alpha + \beta x _ {i})}{1 + \exp (\alpha + \beta x _ {i})} \right] ^ {y _ {i}} \left[ \frac {1}{1 + \exp (\alpha + \beta x _ {i})} \right] ^ {1 - y _ {i}} \\ = \sum_ {i = 1} ^ {n} y _ {i} (\alpha + \beta x _ {i}) - \sum_ {i = 1} ^ {n} \log [ 1 + \exp (\alpha + \beta x _ {i}) ]. \\ \end{array}
+\begin{array}{l} \ell_{\boldsymbol{y}} (\alpha , \beta) = \log L_{\boldsymbol{y}} (\alpha , \beta) = \log \prod_{i=1} ^{n} \left[ \frac{\exp (\alpha + \beta x_{i})}{1 + \exp (\alpha + \beta x_{i})} \right] ^{y_{i}} \left[ \frac{1}{1 + \exp (\alpha + \beta x_{i})} \right] ^{1 - y_{i}} \\ = \sum_{i=1} ^{n} y_{i} (\alpha + \beta x_{i}) - \sum_{i=1} ^{n} \log [ 1 + \exp (\alpha + \beta x_{i}) ]. \\ \end{array}
 $$
 
 Differentiating with respect to  $\alpha$  and  $\beta$  yields
 
 $$
-\frac {\partial}{\partial \alpha} \ell_ {\pmb {y}} (\alpha , \beta) = \sum_ {i = 1} ^ {n} y _ {i} - \sum_ {i = 1} ^ {n} \frac {\exp (\alpha + \beta x _ {i})}{1 + \exp (\alpha + \beta x _ {i})}, \qquad \frac {\partial}{\partial \beta} \ell_ {\pmb {y}} (\alpha , \beta) = \sum_ {i = 1} ^ {n} x _ {i} y _ {i} - \sum_ {i = 1} ^ {n} \frac {x _ {i} \exp (\alpha + \beta x _ {i})}{1 + \exp (\alpha + \beta x _ {i})}.
+\frac{\partial}{\partial \alpha} \ell_{\pmb{y}} (\alpha , \beta) = \sum_{i=1} ^{n} y_{i} - \sum_{i=1} ^{n} \frac{\exp (\alpha + \beta x_{i})}{1 + \exp (\alpha + \beta x_{i})}, \qquad \frac{\partial}{\partial \beta} \ell_{\pmb{y}} (\alpha , \beta) = \sum_{i=1} ^{n} x_{i} y_{i} - \sum_{i=1} ^{n} \frac{x_{i} \exp (\alpha + \beta x_{i})}{1 + \exp (\alpha + \beta x_{i})}.
 $$
 
 Setting both partial derivatives above equal to zero yields a system of equations that cannot be solved in closed form. However, we can find a solution numerically to obtain maximum likelihood estimates  $\hat{\alpha}^{\mathrm{MLE}}$  and  $\hat{\beta}^{\mathrm{MLE}}$  for most samples  $\pmb{y} \in \{0,1\}^{p}$ . (However, no matter what the true values of  $\alpha$  and  $\beta$  are, there is a nonzero probability of obtaining a sample such that the maximum likelihood estimates do not exist.)
@@ -913,7 +913,7 @@ An estimator that is found by maximizing or minimizing some real-valued function
 EXAMPLE 3.3.1: In the regression setup of Example 3.2.3, the least squares estimator
 
 $$
-\hat {\boldsymbol {\beta}} ^ {\mathrm {L S}} = \underset {\boldsymbol {\beta} \in \mathbb {R} ^ {p}} {\arg \min } \| \boldsymbol {Y} - \boldsymbol {X} \boldsymbol {\beta} \| _ {2} ^ {2}
+\hat{\boldsymbol{\beta}} ^{\mathrm{LS}} = \underset{\boldsymbol{\beta} \in \mathbb{R} ^{p}} {\arg \min} \| \boldsymbol{Y} - \boldsymbol{X} \boldsymbol{\beta} \| _{2} ^{2}
 $$
 
 is an M-estimator of  $\pmb{\beta}$ . However,  $\hat{\pmb{\beta}}^{\mathrm{LS}} = \hat{\pmb{\beta}}^{\mathrm{MLE}}$ , so this estimator coincides with the maximum likelihood estimator.
@@ -921,22 +921,22 @@ is an M-estimator of  $\pmb{\beta}$ . However,  $\hat{\pmb{\beta}}^{\mathrm{LS}}
 EXAMPLE 3.3.2: In the regression setup of Example 3.2.3, we could instead consider the least absolute deviation estimator
 
 $$
-\hat{\boldsymbol{\beta}}^{\text{LAD}} = \operatorname *{arg  min}_{\boldsymbol {\beta}\in \mathbb{R}^{p}}\left\| \boldsymbol {Y} - \boldsymbol {X}\boldsymbol {\beta}\right\|_{1},
+\hat{\boldsymbol{\beta}}^{\text{LAD}} = \operatorname *{arg  min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\left\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\right\|_{1},
 $$
 
-where  $\| \pmb{u}\| _1 = \sum_{i = 1}^k |u_i|$  for any  $\pmb {u}\in \mathbb{R}^k$ . Then  $\hat{\beta}^{\mathrm{LAD}}$  is another M-estimator.
+where  $\| \pmb{u}\| _1 = \sum_{i=1}^k |u_i|$  for any  $\pmb{u}\in \mathbb{R}^k$ . Then  $\hat{\beta}^{\mathrm{LAD}}$  is another M-estimator.
 
 EXAMPLE 3.3.3: In the regression setup of Example 3.2.3, we could instead consider the lasso estimator
 
 $$
-\hat{\boldsymbol{\beta}}^{\text{LASSO}} = \operatorname *{arg  min}_{\boldsymbol {\beta}\in \mathbb{R}^{p}}\Bigl(\| \boldsymbol {Y} - \boldsymbol {X}\boldsymbol {\beta}\|_{2}^{2} + \lambda \| \boldsymbol {\beta}\|_{1}\Bigr),
+\hat{\boldsymbol{\beta}}^{\text{LASSO}} = \operatorname *{arg  min}_{\boldsymbol{\beta}\in \mathbb{R}^{p}}\Bigl(\| \boldsymbol{Y} - \boldsymbol{X}\boldsymbol{\beta}\|_{2}^{2} + \lambda \| \boldsymbol{\beta}\|_{1}\Bigr),
 $$
 
 where  $\lambda > 0$  is some fixed constant.
 
 REFERENCE: Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society, Series B, 58 267-288.
 
-The addition of the term  $\lambda \| \pmb {\beta}\| _1$  does several things:
+The addition of the term  $\lambda \| \pmb{\beta}\| _1$  does several things:
 
 - It typically results in an estimate for which some components are exactly zero.  
 - The nonzero components are typically smaller in absolute value than the corresponding components of  $\hat{\beta}^{\mathrm{MLE}}$  (provided the MLE exists and is unique).  
@@ -953,25 +953,25 @@ Before we can discuss the Bayesian approach to estimation, we must first motivat
 Suppose we have a jar that contains 99 fair coins and a single unfair coin that is rigged to come up as heads with probability  $3/4$ . We draw one coin at random from the jar, and we let  $U$  be the heads probability of the coin we draw. Then
 
 $$
-f ^ {(U)} (u) = \left\{ \begin{array}{l l} 1 / 2 & \text {w i t h p r o b a b i l i t y 9 9 / 1 0 0} \\ 3 / 4 & \text {w i t h p r o b a b i l i t y 1 / 1 0 0}, \end{array} \right.
+f^{(U)} (u) = \left\{\begin{array}{l l} 1 / 2 & \text{withprobability99/100} \\ 3 / 4 & \text{withprobability1/100}, \end{array} \right.
 $$
 
 and hence the pmf of  $U$  is
 
 $$
-f ^ {(U)} (u) = \left\{ \begin{array}{c l} 9 9 / 1 0 0 & \text {i f} u = 1 / 2, \\ 1 / 1 0 0 & \text {i f} u = 3 / 4. \end{array} \right.
+f^{(U)} (u) = \left\{\begin{array}{c l} 99 / 10 0 & \text{if} u = 1 / 2, \\ 1 / 10 0 & \text{if} u = 3 / 4. \end{array} \right.
 $$
 
 After selecting a coin, we flip it five times, and we let  $X$  count the number of heads in these flips. Then for  $x \in \{0, 1, \ldots, 5\}$ , the conditional pmf of  $X$  given  $U$  is
 
 $$
-f ^ {(X | U)} (x \mid u) = \left\{ \begin{array}{l l} \frac {5 !}{x ! (5 - x) !} \Big (\frac {1}{2} \Big) ^ {x} \Big (\frac {1}{2} \Big) ^ {5 - x} & \text {i f} u = \frac {1}{2}, \\ \frac {5 !}{x ! (5 - x) !} \Big (\frac {3}{4} \Big) ^ {x} \Big (\frac {1}{4} \Big) ^ {5 - x} & \text {i f} u = \frac {3}{4}. \end{array} \right.
+f^{(X | U)} (x \mid u) = \left\{\begin{array}{l l} \frac{5 !}{x ! (5 - x) !} \Big (\frac{1}{2} \Big) ^{x} \Big (\frac{1}{2} \Big) ^{5 - x} & \text{if} u = \frac{1}{2}, \\ \frac{5 !}{x ! (5 - x) !} \Big (\frac{3}{4} \Big) ^{x} \Big (\frac{1}{4} \Big) ^{5 - x} & \text{if} u = \frac{3}{4}. \end{array} \right.
 $$
 
 Now suppose we wish to determine the probability that we have drawn the unfair coin conditional on the fact that we observe that all five flips are heads. This is simply
 
 $$
-f ^ {(U | X)} (3 / 4 \mid 5) = \frac {f ^ {(U , X)} (3 / 4 , 5)}{f ^ {(X)} (5)} = \frac {f ^ {(X | U)} (5 \mid 3 / 4) f ^ {(U)} (3 / 4)}{f ^ {(X)} (5)} \approx 0. 0 7 1. \tag {4.1.1}
+f^{(U | X)} (3 / 4 \mid 5) = \frac{f^{(U , X)} (3 / 4 , 5)}{f^{(X)} (5)} = \frac{f^{(X | U)} (5 \mid 3 / 4) f^{(U)} (3 / 4)}{f^{(X)} (5)} \approx 0. 07 1. \tag{4.1.1}
 $$
 
 This calculation, called Bayes' rule, follows immediately from the definition of conditional probability. Both frequentists and Bayesians would agree that this calculation is valid.
@@ -1002,16 +1002,16 @@ We will discuss how to choose a prior later.
 
 # Posterior
 
-Once we have the prior  $\pi (\theta)$  and the likelihood  $L_{\pmb{x}}(\theta)$ , we can use Bayes' rule to find the distribution of  $\theta$  given  $\pmb {X} = \pmb{x}$ . Using our original notation for conditional pmfs or pdfs, we would write
+Once we have the prior  $\pi (\theta)$  and the likelihood  $L_{\pmb{x}}(\theta)$ , we can use Bayes' rule to find the distribution of  $\theta$  given  $\pmb{X} = \pmb{x}$ . Using our original notation for conditional pmfs or pdfs, we would write
 
 $$
-f ^ {(\theta | \boldsymbol {X})} (\theta \mid \boldsymbol {x}) = \frac {f ^ {(\boldsymbol {X} | \theta)} (\boldsymbol {x} \mid \theta) f ^ {(\theta)} (\theta)}{f ^ {(\boldsymbol {X})} (\boldsymbol {x})} \qquad \text {o r} \qquad p ^ {(\theta | \boldsymbol {X})} (\theta \mid \boldsymbol {x}) = \frac {p ^ {(\boldsymbol {X} | \theta)} (\boldsymbol {x} \mid \theta) p ^ {(\theta)} (\theta)}{p ^ {(\boldsymbol {X})} (\boldsymbol {x})}.
+f^{(\theta | \boldsymbol{X})} (\theta \mid \boldsymbol{x}) = \frac{f^{(\boldsymbol{X} | \theta)} (\boldsymbol{x} \mid \theta) f^{(\theta)} (\theta)}{f^{(\boldsymbol{X})} (\boldsymbol{x})} \qquad \text{or} \qquad p^{(\theta | \boldsymbol{X})} (\theta \mid \boldsymbol{x}) = \frac{p^{(\boldsymbol{X} | \theta)} (\boldsymbol{x} \mid \theta) p^{(\theta)} (\theta)}{p^{(\boldsymbol{X})} (\boldsymbol{x})}.
 $$
 
 Using the standard terminology of the Bayesian approach, we write this as
 
 $$
-\pi (\theta \mid \boldsymbol {x}) = \frac {L _ {\boldsymbol {x}} (\theta) \pi (\theta)}{m (\boldsymbol {x})}, \tag {4.2.1}
+\pi (\theta \mid \boldsymbol{x}) = \frac{L_{\boldsymbol{x}} (\theta) \pi (\theta)}{m (\boldsymbol{x})}, \tag{4.2.1}
 $$
 
 where  $m(\pmb{x})$  is the marginal distribution of  $\pmb{X}$  evaluated at  $\pmb{x}$  and  $\pi(\theta \mid \pmb{x})$  is called the posterior distribution of  $\theta$  conditional on  $\pmb{X} = \pmb{x}$ . The posterior is the object on which all Bayesian inference about  $\theta$  is based.
@@ -1021,7 +1021,7 @@ Note: If  $\mathbf{X}$  and  $\theta$  are both discrete, then (4.2.1) arises di
 Recall that the marginal distribution of  $\mathbf{X}$  is found by integrating or summing out  $\theta$  from the joint distribution of  $\mathbf{X}$  and  $\theta$ . The joint distribution of  $\mathbf{X}$  and  $\theta$  is simply  $L_{\mathbf{x}}(\theta)\pi (\theta)$ , the numerator of (4.2.1). Thus, the marginal distribution of  $\mathbf{X}$  is simply
 
 $$
-m (\boldsymbol {x}) = \int L _ {\boldsymbol {x}} (\theta) \pi (\theta) d \theta \qquad \text {o r} \qquad m (\boldsymbol {x}) = \sum_ {\theta \in \Theta} L _ {\boldsymbol {x}} (\theta) \pi (\theta).
+m (\boldsymbol{x}) = \int L_{\boldsymbol{x}} (\theta) \pi (\theta) d \theta \qquad \text{or} \qquad m (\boldsymbol{x}) = \sum_{\theta \in \Theta} L_{\boldsymbol{x}} (\theta) \pi (\theta).
 $$
 
 Thus, it can be seen that  $m(\pmb{x})$  is simply the normalizing constant that is needed to make the function  $L_{\pmb{x}}(\theta)\pi (\theta)$  a valid probability distribution for  $\theta$ .
@@ -1029,28 +1029,28 @@ Thus, it can be seen that  $m(\pmb{x})$  is simply the normalizing constant that
 EXAMPLE 4.2.1: Suppose  $X_1, \ldots, X_n \sim \mathrm{iid} p \sim \mathrm{Bin}(1, \theta)$ , where  $0 \leq \theta \leq 1$ , and we observe  $\mathbf{X} = \mathbf{x}$ . Now take our prior distribution for  $\theta$  to be  $\operatorname{Beta}(a, b)$ , which has pdf
 
 $$
-\pi (\theta) = \frac {\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \theta^ {a - 1} (1 - \theta) ^ {b - 1} I _ {[ 0, 1 ] (\theta)}.
+\pi (\theta) = \frac{\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \theta^{a - 1} (1 - \theta) ^{b - 1} I_{[ 0, 1 ] (\theta)}.
 $$
 
 The likelihood is
 
 $$
-L _ {\boldsymbol {x}} (\theta) = \prod_ {i = 1} ^ {n} \theta^ {x _ {i}} (1 - \theta) ^ {1 - x _ {i}} = \theta^ {\sum_ {i = 1} ^ {n} x _ {i}} (1 - \theta) ^ {n - \sum_ {i = 1} ^ {n} x _ {i}}.
+L_{\boldsymbol{x}} (\theta) = \prod_{i=1} ^{n} \theta^{x_{i}} (1 - \theta) ^{1 - x_{i}} = \theta^{\sum_{i=1} ^{n} x_{i}} (1 - \theta) ^{n - \sum_{i=1} ^{n} x_{i}}.
 $$
 
 The marginal distribution of  $\pmb{x}$  is
 
 $$
-\begin{array}{l} m (\boldsymbol {x}) = \int_ {0} ^ {1} L _ {\boldsymbol {x}} (\theta) \pi (\theta) d \theta = \frac {\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \int_ {0} ^ {1} \theta^ {\sum_ {i = 1} ^ {n} x _ {i} + a - 1} (1 - \theta) ^ {n - \sum_ {i = 1} ^ {n} x _ {i} + b - 1} d \theta \\ = \frac {\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \frac {\Gamma \left(a + \sum_ {i = 1} ^ {n} x _ {i}\right) \Gamma \left(b + n - \sum_ {i = 1} ^ {n} x _ {i}\right)}{\Gamma (a + b + n)}, \\ \end{array}
+\begin{array}{l} m (\boldsymbol{x}) = \int_{0} ^{1} L_{\boldsymbol{x}} (\theta) \pi (\theta) d \theta = \frac{\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \int_{0} ^{1} \theta^{\sum_{i=1} ^{n} x_{i} + a - 1} (1 - \theta) ^{n - \sum_{i=1} ^{n} x_{i} + b - 1} d \theta \\ = \frac{\Gamma (a + b)}{\Gamma (a) \Gamma (b)} \frac{\Gamma \left(a + \sum_{i=1} ^{n} x_{i}\right) \Gamma \left(b + n - \sum_{i=1} ^{n} x_{i}\right)}{\Gamma (a + b + n)}, \\ \end{array}
 $$
 
 where the integral is computed by noting that the integrand is an unnormalized beta pdf. Then the posterior distribution of  $\theta$  is
 
 $$
-\pi (\theta \mid \boldsymbol {x}) = \frac {L _ {\boldsymbol {x}} (\theta) \pi (\theta)}{m (\boldsymbol {x})} = \frac {\Gamma (a + \sum_ {i = 1} ^ {n} x _ {i}) \Gamma (b + n - \sum_ {i = 1} ^ {n} x _ {i})}{\Gamma (a + b + n)} \theta^ {\sum_ {i = 1} ^ {n} x _ {i} + a - 1} (1 - \theta) ^ {n - \sum_ {i = 1} ^ {n} x _ {i} + b - 1} I _ {[ 0, 1 ]} (\theta),
+\pi (\theta \mid \boldsymbol{x}) = \frac{L_{\boldsymbol{x}} (\theta) \pi (\theta)}{m (\boldsymbol{x})} = \frac{\Gamma (a + \sum_{i=1} ^{n} x_{i}) \Gamma (b + n - \sum_{i=1} ^{n} x_{i})}{\Gamma (a + b + n)} \theta^{\sum_{i=1} ^{n} x_{i} + a - 1} (1 - \theta) ^{n - \sum_{i=1} ^{n} x_{i} + b - 1} I_{[ 0, 1 ]} (\theta),
 $$
 
-which we recognize as the pdf of a  $\mathrm{Beta}\big(a + \sum_{i = 1}^{n}x_{i},b + n - \sum_{i = 1}^{n}x_{i}\big)$  distribution. Thus, the posterior distribution of  $\theta$  is  $\theta \mid \pmb {x}\sim \mathrm{Beta}\big(a + \sum_{i = 1}^{n}x_{i},b + n - \sum_{i = 1}^{n}x_{i}\big)$ .
+which we recognize as the pdf of a  $\mathrm{Beta}\big(a + \sum_{i=1}^{n}x_{i},b + n - \sum_{i=1}^{n}x_{i}\big)$  distribution. Thus, the posterior distribution of  $\theta$  is  $\theta \mid \pmb{x}\sim \mathrm{Beta}\big(a + \sum_{i=1}^{n}x_{i},b + n - \sum_{i=1}^{n}x_{i}\big)$ .
 
 # Shortcut for Finding Posteriors
 
@@ -1059,10 +1059,10 @@ There is sometimes no need to actually compute the marginal distribution  $m(\pm
 EXAMPLE 4.2.2: In Example 4.2.1, we could have simply noted that
 
 $$
-L _ {\pmb {x}} (\theta) \pi (\theta) \propto \theta^ {\sum_ {i = 1} ^ {n} x _ {i} + a - 1} (1 - \theta) ^ {n - \sum_ {i = 1} ^ {n} x _ {i} + b - 1} I _ {[ 0, 1 ]} (\theta),
+L_{\pmb{x}} (\theta) \pi (\theta) \propto \theta^{\sum_{i=1} ^{n} x_{i} + a - 1} (1 - \theta) ^{n - \sum_{i=1} ^{n} x_{i} + b - 1} I_{[ 0, 1 ]} (\theta),
 $$
 
-which we recognize as the unnormalized pdf of a  $\mathrm{Beta}\big(a + \sum_{i = 1}^{n}x_{i},b + n - \sum_{i = 1}^{n}x_{i}\big)$  distribution. Thus, we could have concluded immediately that  $\theta \mid \pmb {x}\sim \mathrm{Beta}\big(a + \sum_{i = 1}^{n}x_{i},b + n - \sum_{i = 1}^{n}x_{i}\big)$  without needing to do any further computation.
+which we recognize as the unnormalized pdf of a  $\mathrm{Beta}\big(a + \sum_{i=1}^{n}x_{i},b + n - \sum_{i=1}^{n}x_{i}\big)$  distribution. Thus, we could have concluded immediately that  $\theta \mid \pmb{x}\sim \mathrm{Beta}\big(a + \sum_{i=1}^{n}x_{i},b + n - \sum_{i=1}^{n}x_{i}\big)$  without needing to do any further computation.
 
 # Conjugate Priors
 
@@ -1071,19 +1071,19 @@ In Example 4.2.1, the prior was a beta distribution, and the posterior was anoth
 EXAMPLE 4.2.3: Let  $X_1, \ldots, X_n \mid \mu \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  is unknown but  $\sigma^2 > 0$  is known. Let the prior on  $\mu$  be  $\mu \sim N(\xi, \tau^2)$ , where  $\xi \in \mathbb{R}$  and  $\tau^2 > 0$  are known. To find the posterior of  $\mu$ , we first try the shortcut described above. Ignoring anything that is not a function of  $\mu$ , we have
 
 $$
-\begin{array}{l} L _ {\boldsymbol {x}} (\mu) \pi (\mu) \propto \exp \left[ - \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} (x _ {i} - \mu) ^ {2} \right] \exp \left[ - \frac {(\mu - \xi) ^ {2}}{2 \tau^ {2}} \right] \\ \propto \exp \left(\frac {\mu}{\sigma^ {2}} \sum_ {i = 1} ^ {n} x _ {i} - \frac {n \mu^ {2}}{2 \sigma^ {2}} - \frac {\mu^ {2}}{2 \tau^ {2}} + \frac {\xi \mu}{\tau^ {2}}\right) \\ \propto \exp \left[ - \frac {\left(n \tau^ {2} + \sigma^ {2}\right) \mu^ {2}}{2 \sigma^ {2} \tau^ {2}} + \frac {\left(n \overline {{x}} \tau^ {2} + \xi \sigma^ {2}\right) \mu}{\sigma^ {2} \tau^ {2}} \right] \\ \propto \exp \left[ - \frac {1}{2} \left(\frac {n \tau^ {2} + \sigma^ {2}}{\sigma^ {2} \tau^ {2}}\right) \left(\mu^ {2} - 2 \mu \frac {n \tau^ {2} \overline {{x}} + \sigma^ {2} \xi}{n \tau^ {2} + \sigma^ {2}}\right) \right] \\ \propto \exp \biggl [ - \frac {1}{2} \biggl (\frac {n \tau^ {2} + \sigma^ {2}}{\sigma^ {2} \tau^ {2}} \biggr) \biggl (\mu - \frac {n \tau^ {2} \overline {{x}} + \sigma^ {2} \xi}{n \tau^ {2} + \sigma^ {2}} \biggr) ^ {2} \biggr ], \\ \end{array}
+\begin{array}{l} L_{\boldsymbol{x}} (\mu) \pi (\mu) \propto \exp \left[ - \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} (x_{i} - \mu) ^{2} \right] \exp \left[ - \frac{(\mu - \xi) ^{2}}{2 \tau^{2}} \right] \\ \propto \exp \left(\frac{\mu}{\sigma^{2}} \sum_{i=1} ^{n} x_{i} - \frac{n \mu^{2}}{2 \sigma^{2}} - \frac{\mu^{2}}{2 \tau^{2}} + \frac{\xi \mu}{\tau^{2}}\right) \\ \propto \exp \left[ - \frac{\left(n \tau^{2} + \sigma^{2}\right) \mu^{2}}{2 \sigma^{2} \tau^{2}} + \frac{\left(n \overline{{x}} \tau^{2} + \xi \sigma^{2}\right) \mu}{\sigma^{2} \tau^{2}} \right] \\ \propto \exp \left[ - \frac{1}{2} \left(\frac{n \tau^{2} + \sigma^{2}}{\sigma^{2} \tau^{2}}\right) \left(\mu^{2} - 2 \mu \frac{n \tau^{2} \overline{{x}} + \sigma^{2} \xi}{n \tau^{2} + \sigma^{2}}\right) \right] \\ \propto \exp \biggl [ - \frac{1}{2} \biggl (\frac{n \tau^{2} + \sigma^{2}}{\sigma^{2} \tau^{2}} \biggr) \biggl (\mu - \frac{n \tau^{2} \overline{{x}} + \sigma^{2} \xi}{n \tau^{2} + \sigma^{2}} \biggr) ^{2} \biggr ], \\ \end{array}
 $$
 
 which we recognize as another normal distribution. Thus, the posterior distribution of  $\mu$  given  $\mathbf{X} = \mathbf{x}$  is
 
 $$
-\mu \mid \pmb {x} \sim N \left(\frac {n \tau^ {2} \overline {{x}} + \sigma^ {2} \xi}{n \tau^ {2} + \sigma^ {2}}, \frac {n \tau^ {2} + \sigma^ {2}}{\sigma^ {2} \tau^ {2}}\right).
+\mu \mid \pmb{x} \sim N \left(\frac{n \tau^{2} \overline{{x}} + \sigma^{2} \xi}{n \tau^{2} + \sigma^{2}}, \frac{n \tau^{2} + \sigma^{2}}{\sigma^{2} \tau^{2}}\right).
 $$
 
 It is perhaps more insightful to rewrite this as
 
 $$
-\mu \mid \pmb {x} \sim N \bigg [ \frac {(\sigma^ {2} / n) ^ {- 1}}{(\tau^ {2}) ^ {- 1} + (\sigma^ {2} / n) ^ {- 1}} \overline {{x}} + \frac {(\tau^ {2}) ^ {- 1}}{(\tau^ {2}) ^ {- 1} + (\sigma^ {2} / n) ^ {- 1}} \xi , \frac {1}{(\tau^ {2}) ^ {- 1} + (\sigma^ {2} / n) ^ {- 1}} \bigg ].
+\mu \mid \pmb{x} \sim N \bigg [ \frac{(\sigma^{2} / n) ^{- 1}}{(\tau^{2}) ^{- 1} + (\sigma^{2} / n) ^{- 1}} \overline{{x}} + \frac{(\tau^{2}) ^{- 1}}{(\tau^{2}) ^{- 1} + (\sigma^{2} / n) ^{- 1}} \xi , \frac{1}{(\tau^{2}) ^{- 1} + (\sigma^{2} / n) ^{- 1}} \bigg ].
 $$
 
 Note that the mean of the posterior is simply a weighted average of the sample mean  $\overline{x}$  and the prior mean  $\xi$ , with weights proportional to the inverses of the  $\sigma^2 / n$  (the variance of  $\overline{x}$ ) and the prior variance  $\tau^2$ .
@@ -1109,7 +1109,7 @@ By far the most common choice of Bayes estimate is the posterior mean  $E(\theta
 EXAMPLE 4.3.1: In Example 4.2.1, we found  $\theta \mid \pmb{x} \sim \mathrm{Beta}\big(a + \sum_{i=1}^{n} x_i, b + n - \sum_{i=1}^{n} x_i\big)$ . Then the posterior mean is simply
 
 $$
-E (\theta \mid \boldsymbol {x}) = \frac {a + \sum_ {i = 1} ^ {n} x _ {i}}{a + b + n}
+E (\theta \mid \boldsymbol{x}) = \frac{a + \sum_{i=1} ^{n} x_{i}}{a + b + n}
 $$
 
 by standard properties of the beta distribution.
@@ -1129,7 +1129,7 @@ We could also report the posterior mode as our Bayes estimate. This is is someti
 EXAMPLE 4.3.3: In Example 4.2.1, we found  $\theta \mid \pmb{x} \sim \mathrm{Beta}\big(a + \sum_{i=1}^{n} x_i, b + n - \sum_{i=1}^{n} x_i\big)$ . Then the posterior mode is simply
 
 $$
-\underset {0 \leq \theta \leq 1} {\arg \max } \pi (\theta \mid \boldsymbol {x}) = \frac {a + \sum_ {i = 1} ^ {n} x _ {i} - 1}{a + b + n - 2}
+\underset{0 \leq \theta \leq 1} {\arg \max} \pi (\theta \mid \boldsymbol{x}) = \frac{a + \sum_{i=1} ^{n} x_{i} - 1}{a + b + n - 2}
 $$
 
 by standard properties of the beta distribution.
@@ -1143,13 +1143,13 @@ The Bayes estimate is whatever the measure we report based on the observed value
 EXAMPLE 4.3.4: In Example 4.2.1, we found that the posterior mean was
 
 $$
-E (\theta \mid \boldsymbol {x}) = \frac {a + \sum_ {i = 1} ^ {n} x _ {i}}{a + b + n}.
+E (\theta \mid \boldsymbol{x}) = \frac{a + \sum_{i=1} ^{n} x_{i}}{a + b + n}.
 $$
 
 Then the Bayes estimator is simply
 
 $$
-\hat {\theta} ^ {B} = \frac {a + \sum_ {i = 1} ^ {n} X _ {i}}{a + b + n},
+\hat{\theta} ^{B} = \frac{a + \sum_{i=1} ^{n} X_{i}}{a + b + n},
 $$
 
 which is a random variable.
@@ -1173,7 +1173,7 @@ The bias of an estimator  $\hat{\theta}$  of a parameter  $\theta$  is  $\mathrm
 EXAMPLE 5.1.1: Let  $X_1, \ldots, X_n$  be iid random variables such that  $\mu = E_{\mu}(X_1)$  is finite, and let  $\overline{X}$  be the usual sample mean. Consider  $\overline{X}/2$  as an estimator of  $\mu$ . Then
 
 $$
-\mathrm {B i a s} _ {\mu} \Big (\overline {{X}} / 2 \Big) = E _ {\mu} \Big (\overline {{X}} / 2 \Big) - \mu = - \mu / 2.
+\mathrm{Bias} _{\mu} \Big (\overline{{X}} / 2 \Big) = E_{\mu} \Big (\overline{{X}} / 2 \Big) - \mu = - \mu / 2.
 $$
 
 Note that the bias is zero if  $\mu$  happens to be zero, but not if  $\mu \neq 0$ , so this estimator is biased (i.e., not unbiased).
@@ -1181,7 +1181,7 @@ Note that the bias is zero if  $\mu$  happens to be zero, but not if  $\mu \neq 
 EXAMPLE 5.1.2: Let  $X_{1},\ldots ,X_{n}$  be iid random variables such that both  $\mu = E_{\mu ,\sigma^2}\bigl (X_1\bigr)$  and  $\sigma^2 = \operatorname{Var}_{\mu ,\sigma^2}\bigl (X_1\bigr)$  are finite, and suppose  $n\geq 2$ . Let  $\overline{X}$  and  $S^2$  be the usual sample mean and sample variance, respectively. Then
 
 $$
-E _ {\mu , \sigma^ {2}} (S ^ {2}) = \frac {1}{n - 1} E _ {\mu , \sigma^ {2}} \bigg (\sum_ {i = 1} ^ {n} X _ {i} ^ {2} - n \overline {{X}} ^ {2} \bigg) = \frac {1}{n - 1} \bigg [ n (\mu^ {2} + \sigma^ {2}) - n (\mu^ {2} + \frac {\sigma^ {2}}{n}) \bigg ] = \frac {n - 1}{n - 1} \sigma^ {2} = \sigma^ {2}.
+E_{\mu , \sigma^{2}} (S^{2}) = \frac{1}{n - 1} E_{\mu , \sigma^{2}} \bigg (\sum_{i=1} ^{n} X_{i} ^{2} - n \overline{{X}} ^{2} \bigg) = \frac{1}{n - 1} \bigg [ n (\mu^{2} + \sigma^{2}) - n (\mu^{2} + \frac{\sigma^{2}}{n}) \bigg ] = \frac{n - 1}{n - 1} \sigma^{2} = \sigma^{2}.
 $$
 
 Thus,  $\mathrm{Bias}_{\mu,\sigma^2}(S^2) = \sigma^2 - \sigma^2 = 0$  for all values of  $\sigma^2$ , so  $S^2$  is an unbiased estimator of  $\sigma^2$ . Note that if the  $(n-1)^{-1}$  is replaced with  $n^{-1}$  in the definition of  $S^2$  above, then the resulting estimator has expectation  $(n-1)\sigma^2/n$  and thus is no longer unbiased.
@@ -1191,7 +1191,7 @@ Unbiasedness is not, by itself, enough to ensure that an estimator is good. Simi
 EXAMPLE 5.1.3: Return to the situation of Example 5.1.2. The estimator  $(X_{1} - X_{2})^{2} / 2$  has expectation
 
 $$
-\begin{array}{l} E _ {\mu , \sigma^ {2}} \left[ \left(X _ {1} - X _ {2}\right) ^ {2} / 2 \right] = E _ {\mu , \sigma^ {2}} \left(X _ {1} ^ {2} / 2\right) + E _ {\mu , \sigma^ {2}} \left(X _ {2} ^ {2} / 2\right) - E _ {\mu , \sigma^ {2}} \left(X _ {1}\right) E _ {\mu , \sigma^ {2}} \left(X _ {2}\right) \\ = (\mu^ {2} + \sigma^ {2}) / 2 + (\mu^ {2} + \sigma^ {2}) / 2 - \mu^ {2} = \sigma^ {2} \\ \end{array}
+\begin{array}{l} E_{\mu , \sigma^{2}} \left[ \left(X_{1} - X_{2}\right) ^{2} / 2 \right] = E_{\mu , \sigma^{2}} \left(X_{1} ^{2} / 2\right) + E_{\mu , \sigma^{2}} \left(X_{2} ^{2} / 2\right) - E_{\mu , \sigma^{2}} \left(X_{1}\right) E_{\mu , \sigma^{2}} \left(X_{2}\right) \\ = (\mu^{2} + \sigma^{2}) / 2 + (\mu^{2} + \sigma^{2}) / 2 - \mu^{2} = \sigma^{2} \\ \end{array}
 $$
 
 and is hence an unbiased estimator of  $\sigma^2$ . However, this estimator involves only the first two observations and ignores the remaining  $n - 2$  observations, so we probably would not want to use this estimator. In contrast, as shown in Example 5.1.2, the estimator  $(n - 1)S^2 / n$  has expectation  $(n - 1)\sigma^2 / n$  and is hence a biased estimator of  $\sigma^2$ . However, if  $n$  is large, then the bias is small, in which case this estimator may not be bad.
@@ -1205,19 +1205,19 @@ It can also be useful to consider the variance  $\mathrm{Var}_{\theta}(\hat{\the
 EXAMPLE 5.1.4: Return to the situation of Examples 5.1.2 and 5.1.3, and suppose further that the distribution of  $X_{1}, \ldots, X_{n}$  is normal. Then
 
 $$
-\mathrm {V a r} _ {\mu , \sigma^ {2}} (S ^ {2}) = \left(\frac {\sigma^ {2}}{n - 1}\right) ^ {2} \mathrm {V a r} _ {\mu , \sigma^ {2}} \bigg [ \frac {(n - 1) S ^ {2}}{\sigma^ {2}} \bigg ] = \left(\frac {\sigma^ {2}}{n - 1}\right) ^ {2} \big [ 2 (n - 1) \big ] = \frac {2 (\sigma^ {2}) ^ {2}}{n - 1},
+\mathrm{Var} _{\mu , \sigma^{2}} (S^{2}) = \left(\frac{\sigma^{2}}{n - 1}\right) ^{2} \mathrm{Var} _{\mu , \sigma^{2}} \bigg [ \frac{(n - 1) S^{2}}{\sigma^{2}} \bigg ] = \left(\frac{\sigma^{2}}{n - 1}\right) ^{2} \big [ 2 (n - 1) \big ] = \frac{2 (\sigma^{2}) ^{2}}{n - 1},
 $$
 
 noting that  $(n - 1)S^2 /\sigma^2\sim \chi_{n - 1}^2$  since  $X_{1},\ldots ,X_{n}\sim \mathrm{i}\mathrm{id}N(\mu ,\sigma^{2})$  . It follows that
 
 $$
-\mathrm {V a r} _ {\mu , \sigma^ {2}} \bigg [ \bigg (\frac {n - 1}{n} \bigg) S ^ {2} \bigg ] = \bigg (\frac {n - 1}{n} \bigg) ^ {2} \mathrm {V a r} _ {\mu , \sigma^ {2}} (S ^ {2}),
+\mathrm{Var} _{\mu , \sigma^{2}} \bigg [ \bigg (\frac{n - 1}{n} \bigg) S^{2} \bigg ] = \bigg (\frac{n - 1}{n} \bigg) ^{2} \mathrm{Var} _{\mu , \sigma^{2}} (S^{2}),
 $$
 
 which is smaller than the variance of  $S^2$ . The variance of the estimator  $(X_1 - X_2)^2 / 2$  can be found by noting that it is simply the sample variance of the first two observations, and thus
 
 $$
-\mathrm {V a r} _ {\mu , \sigma^ {2}} \bigg [ \frac {(X _ {1} - X _ {2}) ^ {2}}{2} \bigg ] = 2 (\sigma^ {2}) ^ {2} = (n - 1) \mathrm {V a r} _ {\mu , \sigma^ {2}} (S ^ {2}).
+\mathrm{Var} _{\mu , \sigma^{2}} \bigg [ \frac{(X_{1} - X_{2}) ^{2}}{2} \bigg ] = 2 (\sigma^{2}) ^{2} = (n - 1) \mathrm{Var} _{\mu , \sigma^{2}} (S^{2}).
 $$
 
 Unless  $n$  is very small, this estimator has much larger variance than either of the other two estimators discussed above.
@@ -1237,13 +1237,13 @@ The mean squared error of an estimator  $\hat{\theta}$  of a parameter  $\theta$
 Theorem 5.2.1. Let  $\hat{\theta}$  be an estimator of  $\theta$ . Then  $\mathrm{MSE}_{\theta}(\hat{\theta}) = [\mathrm{Bias}_{\theta}(\hat{\theta})]^2 + \mathrm{Var}_{\theta}(\hat{\theta})$ .
 
 $$
-\text {P r o o f .} \mathrm {M S E} _ {\theta} (\hat {\theta}) = E _ {\theta} \left[ (\hat {\theta} - \theta) ^ {2} \right] = \left[ E _ {\theta} (\hat {\theta} - \theta) \right] ^ {2} + \operatorname {V a r} _ {\theta} (\hat {\theta} - \theta) = \left[ \operatorname {B i a s} _ {\theta} (\hat {\theta}) \right] ^ {2} + \operatorname {V a r} _ {\theta} (\hat {\theta}).
+\text{Proof.} \mathrm{MSE} _{\theta} (\hat{\theta}) = E_{\theta} \left[ (\hat{\theta} - \theta) ^{2} \right] = \left[ E_{\theta} (\hat{\theta} - \theta) \right] ^{2} + \operatorname{Var} _{\theta} (\hat{\theta} - \theta) = \left[ \operatorname{Bias} _{\theta} (\hat{\theta}) \right] ^{2} + \operatorname{Var} _{\theta} (\hat{\theta}).
 $$
 
 EXAMPLE 5.2.2: Return to the situation of Examples 5.1.2-5.1.5. The mean squared errors of the estimators  $S^2$  and  $(n - 1)S^2 / n$  are
 
 $$
-\begin{array}{l} \mathrm {M S E} _ {\mu , \sigma^ {2}} (S ^ {2}) = \left[ \operatorname {B i a s} _ {\mu , \sigma^ {2}} (S ^ {2}) \right] ^ {2} + \operatorname {V a r} _ {\mu , \sigma^ {2}} (S ^ {2}) = \frac {2 (\sigma^ {2}) ^ {2}}{n - 1}, \\ \mathrm {M S E} _ {\mu , \sigma^ {2}} \left[ \left(\frac {n - 1}{n}\right) S ^ {2} \right] = \left\{\operatorname {B i a s} _ {\mu , \sigma^ {2}} \left[ \left(\frac {n - 1}{n}\right) S ^ {2} \right] \right\} ^ {2} + \operatorname {V a r} _ {\mu , \sigma^ {2}} \left[ \left(\frac {n - 1}{n}\right) S ^ {2} \right] \\ = \left[ \left(\frac {n - 1}{n}\right) \sigma^ {2} - \sigma^ {2} \right] ^ {2} + \frac {2 (n - 1) (\sigma^ {2}) ^ {2}}{n ^ {2}} = \frac {(2 n - 1) (\sigma^ {2}) ^ {2}}{n ^ {2}} <   \mathrm {M S E} _ {\mu , \sigma^ {2}} \left(S ^ {2}\right) \\ \end{array}
+\begin{array}{l} \mathrm{MSE} _{\mu , \sigma^{2}} (S^{2}) = \left[ \operatorname{Bias} _{\mu , \sigma^{2}} (S^{2}) \right] ^{2} + \operatorname{Var} _{\mu , \sigma^{2}} (S^{2}) = \frac{2 (\sigma^{2}) ^{2}}{n - 1}, \\ \mathrm{MSE} _{\mu , \sigma^{2}} \left[ \left(\frac{n - 1}{n}\right) S^{2} \right] = \left\{\operatorname{Bias} _{\mu , \sigma^{2}} \left[ \left(\frac{n - 1}{n}\right) S^{2} \right] \right\} ^{2} + \operatorname{Var} _{\mu , \sigma^{2}} \left[ \left(\frac{n - 1}{n}\right) S^{2} \right] \\ = \left[ \left(\frac{n - 1}{n}\right) \sigma^{2} - \sigma^{2} \right] ^{2} + \frac{2 (n - 1) (\sigma^{2}) ^{2}}{n^{2}} = \frac{(2 n - 1) (\sigma^{2}) ^{2}}{n^{2}} <   \mathrm{MSE} _{\mu , \sigma^{2}} \left(S^{2}\right) \\ \end{array}
 $$
 
 for all  $n \geq 2$ . Thus, for all  $\mu \in \mathbb{R}$  and all  $\sigma^2 > 0$ , the mean squared error of the estimator  $(n - 1)S^2 / n$  (the MLE of  $\sigma^2$  for a normal sample) is smaller than the mean squared error of the unbiased estimator  $S^2$ .
@@ -1255,7 +1255,7 @@ EXAMPLE 5.2.3: We showed in Example 5.2.2 that the unbiased sample variance  $S^
 EXAMPLE 5.2.4: Let  $\pmb{X} \sim N_p(\pmb{\mu}, \sigma^2\pmb{I}_p)$ , where  $\pmb{\mu} \in \mathbb{R}^p$  is unknown and  $\sigma^2 > 0$  is known. Then  $\pmb{X}$  itself is the maximum likelihood estimator of  $\pmb{\mu}$ , and it is unbiased. Indeed, it may seem that  $\pmb{X}$  is the only sensible estimator of  $\pmb{\mu}$ . However, it can be shown that if  $p \geq 3$ , then there exist estimators that dominate  $\pmb{X}$ , such as the James-Stein estimator
 
 $$
-\hat {\boldsymbol {\mu}} ^ {\mathrm {J S}} = \left[ 1 - \frac {(p - 2) \sigma^ {2}}{\sum_ {i = 1} ^ {p} X _ {i} ^ {2}} \right] \boldsymbol {X}.
+\hat{\boldsymbol{\mu}} ^{\mathrm{JS}} = \left[ 1 - \frac{(p - 2) \sigma^{2}}{\sum_{i=1} ^{p} X_{i} ^{2}} \right] \boldsymbol{X}.
 $$
 
 REFERENCE: James, W. and Stein, C. (1961). Estimation with quadratic loss. Proc.
@@ -1269,35 +1269,35 @@ More commonly, when comparing sensible estimators, it is often the case that one
 EXAMPLE 5.2.5: Suppose  $X \sim \operatorname{Bin}(n, \theta)$ , where  $\theta$  is unknown and  $0 \leq \theta \leq 1$ . Recall that the maximum likelihood estimator of  $\theta$  is  $\hat{\theta}^{\mathrm{MLE}} = X / n$ . Its bias and variance are
 
 $$
-\operatorname {B i a s} _ {\theta} \left(\hat {\theta} ^ {\mathrm {M L E}}\right) = E _ {\theta} \left(\frac {X}{n}\right) - \theta = 0, \quad \operatorname {V a r} _ {\theta} \left(\hat {\theta} ^ {\mathrm {M L E}}\right) = \operatorname {V a r} _ {\theta} \left(\frac {X}{n}\right) = \frac {\theta (1 - \theta)}{n},
+\operatorname{Bias} _{\theta} \left(\hat{\theta} ^{\mathrm{MLE}}\right) = E_{\theta} \left(\frac{X}{n}\right) - \theta = 0, \quad \operatorname{Var} _{\theta} \left(\hat{\theta} ^{\mathrm{MLE}}\right) = \operatorname{Var} _{\theta} \left(\frac{X}{n}\right) = \frac{\theta (1 - \theta)}{n},
 $$
 
 so its mean squared error is
 
 $$
-\mathrm {M S E} _ {\theta} \big (\hat {\theta} ^ {\mathrm {M L E}} \big) = \big [ \mathrm {B i a s} _ {\theta} \big (\hat {\theta} ^ {\mathrm {M L E}} \big) \big ] ^ {2} + \mathrm {V a r} _ {\theta} \big (\hat {\theta} ^ {\mathrm {M L E}} \big) = \frac {\theta (1 - \theta)}{n}.
+\mathrm{MSE} _{\theta} \big (\hat{\theta} ^{\mathrm{MLE}} \big) = \big [ \mathrm{Bias} _{\theta} \big (\hat{\theta} ^{\mathrm{MLE}} \big) \big ] ^{2} + \mathrm{Var} _{\theta} \big (\hat{\theta} ^{\mathrm{MLE}} \big) = \frac{\theta (1 - \theta)}{n}.
 $$
 
 If we instead put a  $\mathrm{Beta}(a,b)$  prior on  $\theta$  and conduct a Bayesian analysis, we find that the posterior mean is  $\hat{\theta}^B = (X + a) / (n + a + b)$ . Its bias and variance are
 
 $$
-\operatorname {B i a s} _ {\theta} \big (\hat {\theta} ^ {B} \big) = E _ {\theta} \bigg (\frac {X + a}{n + a + b} \bigg) - \theta = \frac {n \theta + a}{n + a + b} - \theta = \frac {(1 - \theta) a - \theta b}{n + a + b},
+\operatorname{Bias} _{\theta} \big (\hat{\theta} ^{B} \big) = E_{\theta} \bigg (\frac{X + a}{n + a + b} \bigg) - \theta = \frac{n \theta + a}{n + a + b} - \theta = \frac{(1 - \theta) a - \theta b}{n + a + b},
 $$
 
 $$
-\mathrm {V a r} _ {\theta} \big (\hat {\theta} ^ {B} \big) = \mathrm {V a r} _ {\theta} \left(\frac {X + a}{n + a + b}\right) = \frac {n \theta (1 - \theta)}{(n + a + b) ^ {2}},
+\mathrm{Var} _{\theta} \big (\hat{\theta} ^{B} \big) = \mathrm{Var} _{\theta} \left(\frac{X + a}{n + a + b}\right) = \frac{n \theta (1 - \theta)}{(n + a + b) ^{2}},
 $$
 
 so its mean squared error is
 
 $$
-\mathrm {M S E} _ {\theta} \big (\hat {\theta} ^ {B} \big) = \left[ \mathrm {B i a s} _ {\theta} \big (\hat {\theta} ^ {B} \big) \right] ^ {2} + \mathrm {V a r} _ {\theta} \big (\hat {\theta} ^ {B} \big) = \frac {\left[ (1 - \theta) a - \theta b \right] ^ {2} + n \theta (1 - \theta)}{(n + a + b) ^ {2}}.
+\mathrm{MSE} _{\theta} \big (\hat{\theta} ^{B} \big) = \left[ \mathrm{Bias} _{\theta} \big (\hat{\theta} ^{B} \big) \right] ^{2} + \mathrm{Var} _{\theta} \big (\hat{\theta} ^{B} \big) = \frac{\left[ (1 - \theta) a - \theta b \right] ^{2} + n \theta (1 - \theta)}{(n + a + b) ^{2}}.
 $$
 
 A rather stupid choice would be the constant estimator that ignores the data and just estimates  $c$  no matter what. This estimator has
 
 $$
-\operatorname {B i a s} _ {\theta} (c) = E _ {\theta} (c) - p = c - \theta , \quad \operatorname {V a r} _ {\theta} (c) = 0, \quad \operatorname {M S E} _ {\theta} (c) = [ \operatorname {B i a s} _ {\theta} (c) ] ^ {2} + \operatorname {V a r} _ {\theta} (c) = (c - \theta) ^ {2}.
+\operatorname{Bias} _{\theta} (c) = E_{\theta} (c) - p = c - \theta , \quad \operatorname{Var} _{\theta} (c) = 0, \quad \operatorname{MSE} _{\theta} (c) = [ \operatorname{Bias} _{\theta} (c) ] ^{2} + \operatorname{Var} _{\theta} (c) = (c - \theta) ^{2}.
 $$
 
 The MSE of each estimator as a function of  $\theta$  is plotted below in the case where  $n = 5$ . The Bayes estimator (posterior mean) uses  $a = b = 1/2$ . The constant estimator ignores the data and estimates  $c = 1/3$  no matter what.
@@ -1327,7 +1327,7 @@ The notion of average MSE optimality is addressed below, while the notion of bes
 Let  $w(\theta)$  be a nonnegative weighting function that describes how much we want the various values of  $\theta$  to "count" toward our weighted average MSE. Assume without loss of generality that  $\int_{\Theta} w(\theta) d\theta = 1$  or  $\sum_{\theta \in \Theta} w(\theta) = 1$  (whichever is appropriate). Then let
 
 $$
-r _ {w} (\hat {\theta}) = \int_ {\Theta} \mathrm {M S E} _ {\theta} (\hat {\theta}) w (\theta) d \theta \qquad \text {o r} \qquad r _ {w} (\hat {\theta}) = \sum_ {\theta \in \Theta} \mathrm {M S E} _ {\theta} (\hat {\theta}) w (\theta)
+r_{w} (\hat{\theta}) = \int_{\Theta} \mathrm{MSE} _{\theta} (\hat{\theta}) w (\theta) d \theta \qquad \text{or} \qquad r_{w} (\hat{\theta}) = \sum_{\theta \in \Theta} \mathrm{MSE} _{\theta} (\hat{\theta}) w (\theta)
 $$
 
 denote our weighted average MSE. The following theorem tells us how to minimize  $r_w(\hat{\theta})$ .
@@ -1337,22 +1337,22 @@ Theorem 5.2.6. Let  $\hat{\theta}^B$  denote the posterior mean of  $\theta$  un
 Proof. We provide the proof for the case where the data and parameter are both continuous. (The proofs of the other cases are similar.) Let  $f_{\theta}(\pmb{x})$  be the joint pdf of the data, where  $\pmb{x} \in \mathbb{R}^n$ , and let  $\hat{\theta} = \hat{\theta}(\pmb{x})$  be an estimator of  $\theta$  other than  $\hat{\theta}^B = \hat{\theta}^B(\pmb{x})$ . Then
 
 $$
-\begin{array}{l} r _ {w} (\hat {\theta}) = \int_ {\Theta} \mathrm {M S E} _ {\theta} (\hat {\theta}) w (\theta) d \theta = \int_ {\Theta} E _ {\theta} \left[ (\hat {\theta} - \theta) ^ {2} \right] \pi (\theta) d \theta \\ = \int_ {\Theta} \left\{\int_ {\mathbb {R} ^ {n}} \left[ \hat {\theta} (\boldsymbol {x}) - \theta \right] ^ {2} f _ {\theta} (\boldsymbol {x}) d \boldsymbol {x} \right\} \pi (\theta) d \theta \\ = \int_ {\mathbb {R} ^ {n}} \left\{\int_ {\Theta} \left[ \hat {\theta} (\boldsymbol {x}) - \theta \right] ^ {2} \pi (\theta \mid \boldsymbol {x}) d \theta \right\} m (\boldsymbol {x}) d \boldsymbol {x}, \\ \end{array}
+\begin{array}{l} r_{w} (\hat{\theta}) = \int_{\Theta} \mathrm{MSE} _{\theta} (\hat{\theta}) w (\theta) d \theta = \int_{\Theta} E_{\theta} \left[ (\hat{\theta} - \theta) ^{2} \right] \pi (\theta) d \theta \\ = \int_{\Theta} \left\{\int_{\mathbb{R} ^{n}} \left[ \hat{\theta} (\boldsymbol{x}) - \theta \right] ^{2} f_{\theta} (\boldsymbol{x}) d \boldsymbol{x} \right\} \pi (\theta) d \theta \\ = \int_{\mathbb{R} ^{n}} \left\{\int_{\Theta} \left[ \hat{\theta} (\boldsymbol{x}) - \theta \right] ^{2} \pi (\theta \mid \boldsymbol{x}) d \theta \right\} m (\boldsymbol{x}) d \boldsymbol{x}, \\ \end{array}
 $$
 
 noting that  $f_{\theta}(\pmb{x}) \pi(\theta) = \pi(\theta \mid \pmb{x}) m(\pmb{x})$ . Now write the inner integral as
 
 $$
-\begin{array}{l} \int_ {\Theta} \left[ \hat {\theta} (\boldsymbol {x}) - \theta \right] ^ {2} \pi (\theta \mid \boldsymbol {x}) d \theta = \int_ {\Theta} \left[ \hat {\theta} (\boldsymbol {x}) - \hat {\theta} ^ {B} (\boldsymbol {x}) + \hat {\theta} ^ {B} (\boldsymbol {x}) - \theta \right] ^ {2} \pi (\theta \mid \boldsymbol {x}) d \theta \\ = \left[ \hat {\theta} (\boldsymbol {x}) - \hat {\theta} ^ {B} (\boldsymbol {x}) \right] ^ {2} + 2 \left[ \hat {\theta} (\boldsymbol {x}) - \hat {\theta} ^ {B} (\boldsymbol {x}) \right] \int_ {\Theta} \left[ \hat {\theta} ^ {B} (\boldsymbol {x}) - \theta \right] \pi (\theta \mid \boldsymbol {x}) d \theta \\ + \int_ {\Theta} \left[ \hat {\theta} ^ {B} (\boldsymbol {x}) - \theta \right] ^ {2} \pi (\theta \mid \boldsymbol {x}) d \theta \\ \geq \int_ {\Theta} \left[ \hat {\theta} ^ {B} (\pmb {x}) - \theta \right] ^ {2} \pi (\theta \mid \pmb {x}) d \theta , \\ \end{array}
+\begin{array}{l} \int_{\Theta} \left[ \hat{\theta} (\boldsymbol{x}) - \theta \right] ^{2} \pi (\theta \mid \boldsymbol{x}) d \theta = \int_{\Theta} \left[ \hat{\theta} (\boldsymbol{x}) - \hat{\theta} ^{B} (\boldsymbol{x}) + \hat{\theta} ^{B} (\boldsymbol{x}) - \theta \right] ^{2} \pi (\theta \mid \boldsymbol{x}) d \theta \\ = \left[ \hat{\theta} (\boldsymbol{x}) - \hat{\theta} ^{B} (\boldsymbol{x}) \right] ^{2} + 2 \left[ \hat{\theta} (\boldsymbol{x}) - \hat{\theta} ^{B} (\boldsymbol{x}) \right] \int_{\Theta} \left[ \hat{\theta} ^{B} (\boldsymbol{x}) - \theta \right] \pi (\theta \mid \boldsymbol{x}) d \theta \\ + \int_{\Theta} \left[ \hat{\theta} ^{B} (\boldsymbol{x}) - \theta \right] ^{2} \pi (\theta \mid \boldsymbol{x}) d \theta \\ \geq \int_{\Theta} \left[ \hat{\theta} ^{B} (\pmb{x}) - \theta \right] ^{2} \pi (\theta \mid \pmb{x}) d \theta , \\ \end{array}
 $$
 
-noting that  $\int_{\Theta}[\hat{\theta}^B (\pmb {x}) - \theta ]\pi (\theta \mid \pmb {x})d\theta = 0$  . Then it follows that
+noting that  $\int_{\Theta}[\hat{\theta}^B (\pmb{x}) - \theta ]\pi (\theta \mid \pmb{x})d\theta = 0$  . Then it follows that
 
 $$
-r _ {w} (\hat {\theta}) \geq \int_ {\mathbb {R} ^ {n}} \left\{\int_ {\Theta} \left[ \hat {\theta} ^ {B} (\pmb {x}) - \theta \right] ^ {2} \pi (\theta \mid \pmb {x}) d \theta \right\} m (\pmb {x}) d \pmb {x} = \int_ {\Theta} E _ {\theta} \left[ (\hat {\theta} - \theta) ^ {2} \right] \pi (\theta) d \theta = r _ {w} (\hat {\theta} ^ {B}),
+r_{w} (\hat{\theta}) \geq \int_{\mathbb{R} ^{n}} \left\{\int_{\Theta} \left[ \hat{\theta} ^{B} (\pmb{x}) - \theta \right] ^{2} \pi (\theta \mid \pmb{x}) d \theta \right\} m (\pmb{x}) d \pmb{x} = \int_{\Theta} E_{\theta} \left[ (\hat{\theta} - \theta) ^{2} \right] \pi (\theta) d \theta = r_{w} (\hat{\theta} ^{B}),
 $$
 
-again noting that  $f_{\theta}(\pmb {x})\pi (\theta) = \pi (\theta \mid \pmb {x})m(\pmb {x}).$
+again noting that  $f_{\theta}(\pmb{x})\pi (\theta) = \pi (\theta \mid \pmb{x})m(\pmb{x}).$
 
 Note that although Theorem 5.2.6 involves the Bayes estimator and uses Bayesian notation in its proof, the result holds regardless of whether or not we actually believe in the Bayesian philosophy. Thus, we can still find Bayes estimators useful even if we are not willing to interpret them as a mean of some posterior distribution.
 
@@ -1394,7 +1394,7 @@ Note: The conditions listed in Section 6.4 are intended as a single set of condi
 
 For now, it will suffice to briefly summarize these regularity conditions as follows:
 
-- The data  $\mathbf{X} = (X_{1},\dots ,X_{n})$  is an iid sample with likelihood  $L_{\pmb{x}}(\theta) = \prod_{i = 1}^{n}L_{x_i}(\theta)$ .  
+- The data  $\mathbf{X} = (X_{1},\dots ,X_{n})$  is an iid sample with likelihood  $L_{\pmb{x}}(\theta) = \prod_{i=1}^{n}L_{x_i}(\theta)$ .  
 - The parameter space  $\Theta$  of the unknown parameter  $\theta$  is an open subset (though not necessarily a proper subset) of the real line.  
 - The set  $\mathcal{X} = \{x_1\in \mathbb{R}:L_{x_1}(\theta) > 0\}$  does not depend on  $\theta$  
 - If  $L_{x_1}(\theta_1) = L_{x_1}(\theta_2)$  for almost all  $x_1 \in \mathcal{X}$ , then  $\theta_1 = \theta_2$ .  
@@ -1421,7 +1421,7 @@ Some regularity conditions will still be required (see Section 6.4), so the resu
 Throughout the lecture, we will write derivatives of the likelihood and log-likelihood as
 
 $$
-L _ {\boldsymbol {X}} ^ {\prime} (\theta) = \frac {\partial}{\partial \theta} L _ {\boldsymbol {X}} (\theta), \qquad L _ {\boldsymbol {X}} ^ {\prime \prime} (\theta) = \frac {\partial^ {2}}{\partial \theta^ {2}} L _ {\boldsymbol {X}} (\theta), \qquad \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) = \frac {\partial}{\partial \theta} \ell_ {\boldsymbol {X}} (\theta), \qquad \ell_ {\boldsymbol {X}} ^ {\prime \prime} (\theta) = \frac {\partial^ {2}}{\partial \theta^ {2}} \ell_ {\boldsymbol {X}} (\theta).
+L_{\boldsymbol{X}} ^{\prime} (\theta) = \frac{\partial}{\partial \theta} L_{\boldsymbol{X}} (\theta), \qquad L_{\boldsymbol{X}} ^{\prime \prime} (\theta) = \frac{\partial^{2}}{\partial \theta^{2}} L_{\boldsymbol{X}} (\theta), \qquad \ell_{\boldsymbol{X}} ^{\prime} (\theta) = \frac{\partial}{\partial \theta} \ell_{\boldsymbol{X}} (\theta), \qquad \ell_{\boldsymbol{X}} ^{\prime \prime} (\theta) = \frac{\partial^{2}}{\partial \theta^{2}} \ell_{\boldsymbol{X}} (\theta).
 $$
 
 # MLE Maximizes a Random Function
@@ -1434,7 +1434,7 @@ It is important to realize where the randomness in the distribution of the MLE c
 
 # Log-Likelihoods for iid Samples are iid Sums
 
-If  $\mathbf{X} = (X_{1},\ldots ,X_{n})$  is an iid sample, then the log-likelihood is  $\ell_{\mathbf{X}}(\theta) = \sum_{i = 1}^{n}\ell_{X_i}(\theta)$ . Thus, for any particular  $\theta$ , the log-likelihood itself is a sum of iid random variables. It follows that derivatives of the log-likelihood are also sums of iid random variables.
+If  $\mathbf{X} = (X_{1},\ldots ,X_{n})$  is an iid sample, then the log-likelihood is  $\ell_{\mathbf{X}}(\theta) = \sum_{i=1}^{n}\ell_{X_i}(\theta)$ . Thus, for any particular  $\theta$ , the log-likelihood itself is a sum of iid random variables. It follows that derivatives of the log-likelihood are also sums of iid random variables.
 
 # Score and Information
 
@@ -1448,7 +1448,7 @@ The following theorem provides some helpful results related to these quantities.
 Lemma 6.2.1. Under the regularity conditions of Section 6.4,  $E_{\theta}[\ell_{\pmb{X}}^{\prime}(\theta)] = 0$ , and
 
 $$
-I (\theta) = \operatorname {V a r} _ {\theta} \left[ \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right] = - E _ {\theta} \left[ \ell_ {\boldsymbol {X}} ^ {\prime \prime} (\theta) \right] = - n E _ {\theta} \left[ \ell_ {X _ {1}} ^ {\prime \prime} (\theta) \right].
+I (\theta) = \operatorname{Var} _{\theta} \left[ \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right] = - E_{\theta} \left[ \ell_{\boldsymbol{X}} ^{\prime \prime} (\theta) \right] = - n E_{\theta} \left[ \ell_{X_{1}} ^{\prime \prime} (\theta) \right].
 $$
 
 Proof. See the proof of Theorem 8.8.1 of DeGroot & Schervish for all but the last equality. For the last equality, simply note that  $\ell_{\mathbf{X}}^{\prime \prime}(\theta) = \sum_{i=1}^{n} \ell_{X_i}^{\prime \prime}(\theta)$ , and the terms in the sum are identically distributed.
@@ -1463,7 +1463,7 @@ The quantity  $E_{\theta}[\ell_{X_1}^{\prime \prime}(\theta)]$  is often called 
 EXAMPLE 6.2.2: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lambda)$ , where  $\lambda > 0$  is unknown. Suppose we want to find the Fisher information  $I(\lambda)$ . We find
 
 $$
-\ell_ {X _ {1}} ^ {\prime \prime} (\lambda) = \frac {\partial^ {2}}{\partial \lambda^ {2}} \bigl [ - \lambda + X _ {1} \log \lambda - \log (X _ {1}!) \bigr ] = \frac {\partial}{\partial \lambda} \biggl (- 1 + \frac {X _ {1}}{\lambda} \biggr) = - \frac {X _ {1}}{\lambda^ {2}},
+\ell_{X_{1}} ^{\prime \prime} (\lambda) = \frac{\partial^{2}}{\partial \lambda^{2}} \bigl [ - \lambda + X_{1} \log \lambda - \log (X_{1}!) \bigr ] = \frac{\partial}{\partial \lambda} \biggl (- 1 + \frac{X_{1}}{\lambda} \biggr) = - \frac{X_{1}}{\lambda^{2}},
 $$
 
 so the information for the sample is  $I(\lambda) = nI_{1}(\lambda) = -nE_{\lambda}(-X_{1} / \lambda^{2}) = n / \lambda$ .
@@ -1471,7 +1471,7 @@ so the information for the sample is  $I(\lambda) = nI_{1}(\lambda) = -nE_{\lamb
 EXAMPLE 6.2.3: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  is unknown and  $\sigma^2 > 0$  is known. Suppose we want to find the Fisher information  $I(\mu)$ . We find
 
 $$
-\ell_ {X _ {1}} ^ {\prime \prime} (\mu) = \frac {\partial^ {2}}{\partial \mu^ {2}} \biggl [ - \frac {1}{2} \log (2 \pi \sigma^ {2}) - \frac {(X _ {1} - \mu) ^ {2}}{2 \sigma^ {2}} \biggr ] = \frac {\partial}{\partial \mu} \biggl (\frac {X _ {1} - \mu}{\sigma^ {2}} \biggr) = - \frac {1}{\sigma^ {2}},
+\ell_{X_{1}} ^{\prime \prime} (\mu) = \frac{\partial^{2}}{\partial \mu^{2}} \biggl [ - \frac{1}{2} \log (2 \pi \sigma^{2}) - \frac{(X_{1} - \mu) ^{2}}{2 \sigma^{2}} \biggr ] = \frac{\partial}{\partial \mu} \biggl (\frac{X_{1} - \mu}{\sigma^{2}} \biggr) = - \frac{1}{\sigma^{2}},
 $$
 
 so the information for the sample is simply  $I(\mu) = nI_{1}(\mu) = -nE_{\mu}(-1 / \sigma^{2}) = n / \sigma^{2}$ . Note that in this example, the information  $I(\mu)$  does not actually depend on  $\mu$ .
@@ -1483,37 +1483,37 @@ The following result is among the most important in all of mathematical statisti
 Theorem 6.2.4. Let  $\hat{\theta}_n$  be the maximum likelihood estimator of  $\theta$  based on the sample  $\mathbf{X}_n = (X_1, \ldots, X_n)$ . Then under the regularity conditions of Section 6.4,
 
 $$
-\sqrt {n} \left(\hat {\theta} _ {n} - \theta\right)\rightarrow_ {D} N \left[ 0, \frac {1}{I _ {1} (\theta)} \right].
+\sqrt{n} \left(\hat{\theta} _{n} - \theta\right)\rightarrow_{D} N \left[ 0, \frac{1}{I_{1} (\theta)} \right].
 $$
 
 Proof. A fully rigorous proof is beyond the scope of this course, but we can still provide the basic idea. Begin with a Taylor expansion of  $\ell_{\mathbf{X}_n}^{\prime}(\hat{\theta}_n)$  around  $\theta$ :
 
 $$
-\ell_ {\boldsymbol {X} _ {n}} ^ {\prime} (\hat {\theta} _ {n}) = \ell_ {\boldsymbol {X} _ {n}} (\theta) + (\hat {\theta} _ {n} - \theta) \ell_ {\boldsymbol {X} _ {n}} ^ {\prime \prime} (\theta) + \dots ,
+\ell_{\boldsymbol{X} _{n}} ^{\prime} (\hat{\theta} _{n}) = \ell_{\boldsymbol{X} _{n}} (\theta) + (\hat{\theta} _{n} - \theta) \ell_{\boldsymbol{X} _{n}} ^{\prime \prime} (\theta) + \dots ,
 $$
 
 where we can ignore the higher-order terms. (The justification of this claim is where most of the regularity conditions are used.) Now observe that the left-hand side is zero, so (neglecting the “…” term entirely), we may rearrange and multiply by  $\sqrt{n}$  to obtain
 
 $$
-\sqrt {n} \big (\hat {\theta} _ {n} - \theta \big) = - \sqrt {n} \left[ \frac {\ell_ {\mathbf {X} _ {n}} ^ {\prime} (\theta)}{\ell_ {\mathbf {X} _ {n}} ^ {\prime \prime} (\theta)} \right] = \frac {\sqrt {n} \left[ \frac {1}{n} \ell_ {\mathbf {X} _ {n}} ^ {\prime} (\theta) - 0 \right]}{- \frac {1}{n} \ell_ {\mathbf {X} _ {n}} ^ {\prime \prime} (\theta)}.
+\sqrt{n} \big (\hat{\theta} _{n} - \theta \big) = - \sqrt{n} \left[ \frac{\ell_{\mathbf{X} _{n}} ^{\prime} (\theta)}{\ell_{\mathbf{X} _{n}} ^{\prime \prime} (\theta)} \right] = \frac{\sqrt{n} \left[ \frac{1}{n} \ell_{\mathbf{X} _{n}} ^{\prime} (\theta) - 0 \right]}{- \frac{1}{n} \ell_{\mathbf{X} _{n}} ^{\prime \prime} (\theta)}.
 $$
 
 Then by the central limit theorem,
 
 $$
-\sqrt {n} \left[ \frac {1}{n} \ell_ {\mathbf {X} _ {n}} ^ {\prime} (\theta) - 0 \right] = \sqrt {n} \left[ \frac {1}{n} \sum_ {i = 1} ^ {n} \ell_ {X _ {i}} ^ {\prime} (\theta) - 0 \right]\rightarrow_ {D} N [ 0, I _ {1} (\theta) ],
+\sqrt{n} \left[ \frac{1}{n} \ell_{\mathbf{X} _{n}} ^{\prime} (\theta) - 0 \right] = \sqrt{n} \left[ \frac{1}{n} \sum_{i=1} ^{n} \ell_{X_{i}} ^{\prime} (\theta) - 0 \right]\rightarrow_{D} N [ 0, I_{1} (\theta) ],
 $$
 
 noting that  $E_{\theta}[\ell_{X_1}'(\theta)] = 0$  and  $\mathrm{Var}_{\theta}[\ell_{X_1}'(\theta)] = I_1(\theta)$  by Lemma 6.2.1. Next, observe that
 
 $$
-- \frac {1}{n} \ell_ {\mathbf {X} _ {n}} ^ {\prime \prime} (\theta) = - \frac {1}{n} \sum_ {i = 1} ^ {n} \ell_ {X _ {i}} ^ {\prime \prime} (\theta) \rightarrow_ {P} - E _ {\theta} \left[ \ell_ {X _ {i}} ^ {\prime \prime} (\theta) \right] = I _ {1} (\theta)
+- \frac{1}{n} \ell_{\mathbf{X} _{n}} ^{\prime \prime} (\theta) = - \frac{1}{n} \sum_{i=1} ^{n} \ell_{X_{i}} ^{\prime \prime} (\theta) \rightarrow_{P} - E_{\theta} \left[ \ell_{X_{i}} ^{\prime \prime} (\theta) \right] = I_{1} (\theta)
 $$
 
 by the weak law of large numbers. Then by Slutsky's theorem,
 
 $$
-\sqrt {n} \left(\hat {\theta} _ {n} - \theta\right)\rightarrow_ {D} N \left[ 0, \frac {1}{I _ {1} (\theta)} \right]
+\sqrt{n} \left(\hat{\theta} _{n} - \theta\right)\rightarrow_{D} N \left[ 0, \frac{1}{I_{1} (\theta)} \right]
 $$
 
 since the asymptotic variance is  $I_1(\theta) / [I_1(\theta)]^{-2} = 1 / I_1(\theta)$ .
@@ -1529,7 +1529,7 @@ EXAMPLE 6.2.5: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lam
 Note: This is where our assumption that the parameter space is an open interval becomes relevant. Since we have  $\lambda > 0$  (strictly), we have
 
 $$
-\begin{array}{l} P _ {\lambda} \left(\bar {X} _ {n} > 0 \text {f o r s o m e} n \geq 1\right) = 1 - P _ {\lambda} \left(X _ {n} = 0 \text {f o r a l l} n \geq 1\right) \\ = 1 - \prod_ {n = 1} ^ {\infty} P _ {\lambda} (X _ {i} = 0) = 1 - \prod_ {n = 1} ^ {\infty} \exp (- \lambda) = 1 - 0 = 1, \\ \end{array}
+\begin{array}{l} P_{\lambda} \left(\bar{X} _{n} > 0 \text{forsome} n \geq 1\right) = 1 - P_{\lambda} \left(X_{n} = 0 \text{forall} n \geq 1\right) \\ = 1 - \prod_{n=1} ^{\infty} P_{\lambda} (X_{i} = 0) = 1 - \prod_{n=1} ^{\infty} \exp (- \lambda) = 1 - 0 = 1, \\ \end{array}
 $$
 
 so the MLE exists for sufficiently large  $n$  with probability 1.
@@ -1537,7 +1537,7 @@ so the MLE exists for sufficiently large  $n$  with probability 1.
 Then by Theorem 6.2.4,
 
 $$
-\sqrt {n} \big (\hat {\lambda} _ {n} - \lambda \big) \rightarrow_ {D} N \Big (0, \frac {\lambda}{n} \Big).
+\sqrt{n} \big (\hat{\lambda} _{n} - \lambda \big) \rightarrow_{D} N \Big (0, \frac{\lambda}{n} \Big).
 $$
 
 (Of course, we could have obtained the same result by the central limit theorem.)
@@ -1555,13 +1555,13 @@ Recall that if  $\hat{\theta}$  is an MLE of  $\theta$ , then  $g(\hat{\theta})$
 EXAMPLE 6.2.6: Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}$  Poisson(λ), where  $\lambda >0$  is unknown. Note that each observation  $X_{i}$  has variance  $\lambda$  and hence standard deviation  $\lambda^{1 / 2}$ . The MLE of  $\lambda^{1 / 2}$  is
 
 $$
-\hat {\lambda} _ {n} ^ {1 / 2} = \left(\overline {{X}} _ {n}\right) ^ {1 / 2},
+\hat{\lambda} _{n} ^{1 / 2} = \left(\overline{{X}} _{n}\right) ^{1 / 2},
 $$
 
 so we may apply the delta method to the result of Example 6.2.5 to obtain
 
 $$
-\sqrt {n} \Big (\hat {\lambda} _ {n} ^ {1 / 2} - \lambda^ {1 / 2} \Big) \rightarrow_ {D} N \Big (0, \frac {1}{4 n} \Big),
+\sqrt{n} \Big (\hat{\lambda} _{n} ^{1 / 2} - \lambda^{1 / 2} \Big) \rightarrow_{D} N \Big (0, \frac{1}{4 n} \Big),
 $$
 
 noting that the derivative of the function  $g(\lambda) = \lambda^{1/2}$  is  $g'(\lambda) = \frac{1}{2}\lambda^{-1/2}$ .
@@ -1571,25 +1571,25 @@ noting that the derivative of the function  $g(\lambda) = \lambda^{1/2}$  is  $g
 The result of Theorem 6.2.4 generalizes to the case of multiple unknown parameters. A full treatment of this topic is beyond the scope of the course, but we can still state the basic result. Suppose we write the unknown parameters as  $\pmb{\theta} = (\theta_{1},\dots,\theta_{p})$ . First, the score function generalizes to a vector,
 
 $$
-\frac {\partial}{\partial \pmb {\theta}} \ell_ {\pmb {X}} (\pmb {\theta}) = \left( \begin{array}{c c c} \frac {\partial}{\partial \theta_ {1}} \ell_ {\pmb {X}} (\pmb {\theta}) & \dots & \frac {\partial}{\partial \theta_ {p}} \ell_ {\pmb {X}} (\pmb {\theta}) \end{array} \right) ^ {T}.
+\frac{\partial}{\partial \pmb{\theta}} \ell_{\pmb{X}} (\pmb{\theta}) = \left( \begin{array}{c c c} \frac{\partial}{\partial \theta_{1}} \ell_{\pmb{X}} (\pmb{\theta}) & \dots & \frac{\partial}{\partial \theta_{p}} \ell_{\pmb{X}} (\pmb{\theta}) \end{array} \right) ^{T}.
 $$
 
 Next, under certain generalized versions of the regularity conditions of Section 6.4, the Fisher information (now a  $p \times p$  matrix) can be calculated as
 
 $$
-I (\pmb {\theta}) = \mathrm {V a r} _ {\pmb {\theta}} \bigg [ \frac {\partial}{\partial \pmb {\theta}} \ell_ {\pmb {X}} (\pmb {\theta}) \bigg ] = - E _ {\pmb {\theta}} \bigg [ \frac {\partial^ {2}}{\partial \pmb {\theta} \partial \pmb {\theta} ^ {T}} \ell_ {\pmb {X}} (\pmb {\theta}) \bigg ] = - n E _ {\pmb {\theta}} \bigg [ \frac {\partial^ {2}}{\partial \pmb {\theta} \partial \pmb {\theta} ^ {T}} \ell_ {X _ {1}} (\pmb {\theta}) \bigg ] = - n I _ {1} (\pmb {\theta}),
+I (\pmb{\theta}) = \mathrm{Var} _{\pmb{\theta}} \bigg [ \frac{\partial}{\partial \pmb{\theta}} \ell_{\pmb{X}} (\pmb{\theta}) \bigg ] = - E_{\pmb{\theta}} \bigg [ \frac{\partial^{2}}{\partial \pmb{\theta} \partial \pmb{\theta} ^{T}} \ell_{\pmb{X}} (\pmb{\theta}) \bigg ] = - n E_{\pmb{\theta}} \bigg [ \frac{\partial^{2}}{\partial \pmb{\theta} \partial \pmb{\theta} ^{T}} \ell_{X_{1}} (\pmb{\theta}) \bigg ] = - n I_{1} (\pmb{\theta}),
 $$
 
 where
 
 $$
-\frac {\partial^ {2}}{\partial \boldsymbol {\theta} \partial \boldsymbol {\theta} ^ {T}} \ell_ {\boldsymbol {X}} (\boldsymbol {\theta}) = \left( \begin{array}{c c c} \frac {\partial^ {2}}{\partial \theta_ {1} ^ {2}} \ell_ {X _ {1}} (\theta) & \dots & \frac {\partial^ {2}}{\partial \theta_ {1} \partial \theta_ {p}} \ell_ {X _ {1}} (\theta) \\ \vdots & & \vdots \\ \frac {\partial^ {2}}{\partial \theta_ {1} \partial \theta_ {p}} \ell_ {X _ {1}} (\theta) & \dots & \frac {\partial^ {2}}{\partial \theta_ {p} ^ {2}} \ell_ {X _ {1}} (\theta) \end{array} \right)
+\frac{\partial^{2}}{\partial \boldsymbol{\theta} \partial \boldsymbol{\theta} ^{T}} \ell_{\boldsymbol{X}} (\boldsymbol{\theta}) = \left( \begin{array}{c c c} \frac{\partial^{2}}{\partial \theta_{1} ^{2}} \ell_{X_{1}} (\theta) & \dots & \frac{\partial^{2}}{\partial \theta_{1} \partial \theta_{p}} \ell_{X_{1}} (\theta) \\ \vdots & & \vdots \\ \frac{\partial^{2}}{\partial \theta_{1} \partial \theta_{p}} \ell_{X_{1}} (\theta) & \dots & \frac{\partial^{2}}{\partial \theta_{p} ^{2}} \ell_{X_{1}} (\theta) \end{array} \right)
 $$
 
 is the matrix of second partial derivatives, sometimes called the Hessian. Then, again under suitable generalizations of the regularity conditions of Section 6.4, the MLE  $\hat{\pmb{\theta}}_n$  satisfies
 
 $$
-\sqrt {n} \left(\hat {\boldsymbol {\theta}} _ {n} - \boldsymbol {\theta}\right)\rightarrow_ {D} N _ {p} \left\{\mathbf {0} _ {p}, \left[ I _ {1} (\boldsymbol {\theta}) \right] ^ {- 1} \right\}.
+\sqrt{n} \left(\hat{\boldsymbol{\theta}} _{n} - \boldsymbol{\theta}\right)\rightarrow_{D} N_{p} \left\{\mathbf{0} _{p}, \left[ I_{1} (\boldsymbol{\theta}) \right] ^{- 1} \right\}.
 $$
 
 Note: You might notice that even if we are willing to overlook the regularity conditions, there is still a problem with the statement above: we have not defined convergence in distribution for random vectors. Thus, we will have to settle for understanding the result above at a more conceptual and imprecise level.
@@ -1601,7 +1601,7 @@ Again, the material here is presented only to provide some basic exposure to the
 In some situations it may be possible to find the asymptotic distribution of estimators other than the MLE. Many sensible estimators  $\tilde{\theta}_n$  of  $\theta$  exhibit similar distributional convergence results to that of the MLE  $\hat{\theta}_n$ . Specifically, we often obtain a result of the form
 
 $$
-\sqrt {n} \left(\tilde {\theta} _ {n} - \theta\right)\rightarrow_ {D} N [ 0, v (\theta) ] \tag {6.3.1}
+\sqrt{n} \left(\tilde{\theta} _{n} - \theta\right)\rightarrow_{D} N [ 0, v (\theta) ] \tag{6.3.1}
 $$
 
 for some function  $v(\theta)$ , which can be called the asymptotic variance of  $\tilde{\theta}_n$ .
@@ -1615,31 +1615,31 @@ The asymptotic variance provides another way to compare and evaluate estimators.
 We quantify this type of asymptotic variance comparison through a quantity called the asymptotic relative efficiency (ARE) of one estimator compared to another. If  $\tilde{\theta}_n^{(1)}$  and  $\tilde{\theta}_n^{(2)}$  are estimators of  $\theta$  such that
 
 $$
-\begin{array}{l} \sqrt {n} \left[ \tilde {\theta} _ {n} ^ {(1)} - \theta \right]\rightarrow_ {D} N \left[ 0, v ^ {(1)} (\theta) \right], \\ \sqrt {n} \Big [ \tilde {\theta} _ {n} ^ {(2)} - \theta \Big ] \rightarrow_ {D} N \big [ 0, v ^ {(2)} (\theta) \big ], \\ \end{array}
+\begin{array}{l} \sqrt{n} \left[ \tilde{\theta} _{n} ^{(1)} - \theta \right]\rightarrow_{D} N \left[ 0, v^{(1)} (\theta) \right], \\ \sqrt{n} \Big [ \tilde{\theta} _{n} ^{(2)} - \theta \Big ] \rightarrow_{D} N \big [ 0, v^{(2)} (\theta) \big ], \\ \end{array}
 $$
 
 then the asymptotic relative efficiency of  $\tilde{\theta}_n^{(1)}$  compared to  $\tilde{\theta}_n^{(2)}$  is
 
 $$
-\mathrm {A R E} _ {\theta} \Big [ \tilde {\theta} _ {n} ^ {(1)}, \tilde {\theta} _ {n} ^ {(2)} \Big ] = \frac {1 / v ^ {(1)} (\theta)}{1 / v ^ {(2)} (\theta)} = \frac {v ^ {(2)} (\theta)}{v ^ {(1)} (\theta)}.
+\mathrm{ARE} _{\theta} \Big [ \tilde{\theta} _{n} ^{(1)}, \tilde{\theta} _{n} ^{(2)} \Big ] = \frac{1 / v^{(1)} (\theta)}{1 / v^{(2)} (\theta)} = \frac{v^{(2)} (\theta)}{v^{(1)} (\theta)}.
 $$
 
 EXAMPLE 6.3.1: Let  $X_{1}, \ldots, X_{n} \sim \mathrm{iid~Poisson}(\lambda)$ , where  $\lambda > 0$  is unknown. Suppose we plan to draw a new observation  $X_{\mathrm{new}}$  sometime in the future, and we want to estimate  $\zeta = P_{\lambda}(X_{\mathrm{new}} = 0) = \exp(-\lambda)$ . We know that the MLE of  $\zeta$  is  $\hat{\zeta}_{n} = \exp(-\hat{\lambda}_{n}) = \exp(-\overline{X}_{n})$ . By Theorem 6.2.4 and the delta method, we obtain
 
 $$
-\sqrt {n} \big (\hat {\zeta} _ {n} - \zeta \big) \rightarrow_ {D} N [ 0, \lambda \exp (- 2 \lambda) ].
+\sqrt{n} \big (\hat{\zeta} _{n} - \zeta \big) \rightarrow_{D} N [ 0, \lambda \exp (- 2 \lambda) ].
 $$
 
 However, another sensible estimator of  $\zeta$  is the proportion of observations that are zero in the sample, i.e.,  $\tilde{\zeta}_n = n^{-1}\sum_{i=1}^n I_{\{0\}}(X_i)$ . Note that  $I_{\{0\}}(X_1), \ldots, I_{\{0\}}(X_n) \sim \mathrm{iid} \operatorname{Bin}[1, \exp(-\lambda)]$ , so
 
 $$
-\sqrt {n} \left(\tilde {\zeta} _ {n} - \zeta\right)\rightarrow_ {D} N \{0, \exp (- \lambda) [ 1 - \exp (- \lambda) ] \}.
+\sqrt{n} \left(\tilde{\zeta} _{n} - \zeta\right)\rightarrow_{D} N \{0, \exp (- \lambda) [ 1 - \exp (- \lambda) ] \}.
 $$
 
 Then the asymptotic relative efficiency of  $\tilde{\zeta}_n$  compared to  $\hat{\zeta}_n$  is
 
 $$
-\mathrm {A R E} _ {\lambda} \big (\tilde {\zeta} _ {n}, \hat {\zeta} _ {n} \big) = \frac {1 / \{\exp (- \lambda) [ 1 - \exp (- \lambda) ] \}}{1 / [ \lambda \exp (- 2 \lambda) ]} = \frac {\lambda \exp (- 2 \lambda)}{\exp (- \lambda) [ 1 - \exp (- \lambda) ]} = \frac {\lambda}{\exp (\lambda) - 1}.
+\mathrm{ARE} _{\lambda} \big (\tilde{\zeta} _{n}, \hat{\zeta} _{n} \big) = \frac{1 / \{\exp (- \lambda) [ 1 - \exp (- \lambda) ] \}}{1 / [ \lambda \exp (- 2 \lambda) ]} = \frac{\lambda \exp (- 2 \lambda)}{\exp (- \lambda) [ 1 - \exp (- \lambda) ]} = \frac{\lambda}{\exp (\lambda) - 1}.
 $$
 
 Note that  $\mathrm{ARE}_{\lambda}(\tilde{\zeta}_n,\hat{\zeta}_n) < 1$  for all  $\lambda >0$ , meaning that  $\tilde{\zeta}_n$  has larger asymptotic variance than the MLE  $\hat{\zeta}_n$  for all parameter values. In fact, if  $\lambda$  is even moderately large, then the advantage of the MLE can be quite substantial, e.g.,  $\mathrm{ARE}_{\lambda}(\tilde{\zeta}_n,\hat{\zeta}_n)\approx 1 / 67$  if  $\lambda = 5$ .
@@ -1663,13 +1663,13 @@ Estimators that are "close enough" to the MLE as  $n \to \infty$  can also be as
 EXAMPLE 6.3.4: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lambda)$ , where  $\lambda > 0$  is unknown. It can be shown that the posterior mean of  $\lambda$  under a  $\mathrm{Gamma}(a, b)$  prior is
 
 $$
-\hat {\lambda} ^ {B} = \frac {a + \sum_ {i = 1} ^ {n} X _ {i}}{b + n} = \left(\frac {n}{b + n}\right) \overline {{X}} _ {n} + \left(\frac {b}{b + n}\right) \frac {a}{b}.
+\hat{\lambda} ^{B} = \frac{a + \sum_{i=1} ^{n} X_{i}}{b + n} = \left(\frac{n}{b + n}\right) \overline{{X}} _{n} + \left(\frac{b}{b + n}\right) \frac{a}{b}.
 $$
 
 Now observe that
 
 $$
-\begin{array}{l} \sqrt {n} \left(\hat {\lambda} ^ {B} - \lambda\right) = \sqrt {n} \left[ \left(\frac {n}{b + n}\right) \bar {X} _ {n} + \left(\frac {b}{b + n}\right) \frac {a}{b} \right] - \sqrt {n} \left[ \left(\frac {n}{b + n}\right) \lambda + \left(\frac {b}{b + n}\right) \lambda \right] \\ = \underbrace {\left(\frac {n}{b + n}\right)} _ {\rightarrow 1} \underbrace {\sqrt {n} \left(\overline {{X}} _ {n} - \lambda\right)} _ {\rightarrow_ {D} N \{0, [ I _ {1} (\lambda) ] ^ {- 1} \}} + \underbrace {\sqrt {n} \left(\frac {b}{b + n}\right)\left(\frac {a}{b} - \lambda\right)} _ {\rightarrow 0} \rightarrow_ {D} N \left[ 0, \frac {1}{I _ {1} (\lambda)} \right] \\ \end{array}
+\begin{array}{l} \sqrt{n} \left(\hat{\lambda} ^{B} - \lambda\right) = \sqrt{n} \left[ \left(\frac{n}{b + n}\right) \bar{X} _{n} + \left(\frac{b}{b + n}\right) \frac{a}{b} \right] - \sqrt{n} \left[ \left(\frac{n}{b + n}\right) \lambda + \left(\frac{b}{b + n}\right) \lambda \right] \\ = \underbrace{\left(\frac{n}{b + n}\right)} _{\rightarrow 1} \underbrace{\sqrt{n} \left(\overline{{X}} _{n} - \lambda\right)} _{\rightarrow_{D} N \{0, [ I_{1} (\lambda) ] ^{- 1} \}} + \underbrace{\sqrt{n} \left(\frac{b}{b + n}\right)\left(\frac{a}{b} - \lambda\right)} _{\rightarrow 0} \rightarrow_{D} N \left[ 0, \frac{1}{I_{1} (\lambda)} \right] \\ \end{array}
 $$
 
 by Slutsky's theorem. Thus,  $\hat{\lambda}^B$  is also asymptotically efficient.
@@ -1701,7 +1701,7 @@ Note: Some of the results above (especially consistency of the MLE) can actually
 
 The conditions are as follows:
 
-- The data  $\mathbf{X} = (X_{1},\dots ,X_{n})$  is an iid sample with likelihood  $L_{\pmb{x}}(\theta) = \prod_{i = 1}^{n}L_{x_i}(\theta)$ .  
+- The data  $\mathbf{X} = (X_{1},\dots ,X_{n})$  is an iid sample with likelihood  $L_{\pmb{x}}(\theta) = \prod_{i=1}^{n}L_{x_i}(\theta)$ .  
 - The parameter space  $\Theta$  of the unknown parameter  $\theta$  is an open subset (though not necessarily a proper subset) of the real line.  
 - The set  $\mathcal{X} = \{x_1\in \mathbb{R}:L_{x_1}(\theta) > 0\}$  does not depend on  $\theta$  
 - If  $L_{x_1}(\theta_1) = L_{x_1}(\theta_2)$  for almost all  $x_1 \in \mathcal{X}$ , then  $\theta_1 = \theta_2$ .
@@ -1715,7 +1715,7 @@ Note: This condition and the previous condition imply that the log-likelihood  $
 - Depending on whether  $\mathbf{X}$  is continuous or discrete, either
 
 $$
-\int_ {\mathcal {X} ^ {n}} L _ {\boldsymbol {x}} ^ {\prime \prime \prime} (\theta) d \boldsymbol {x} = \frac {d ^ {3}}{d \theta^ {3}} \int_ {\mathcal {X} ^ {n}} L _ {\boldsymbol {x}} (\theta) d \boldsymbol {x} \quad \text {o r} \quad \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} L _ {\boldsymbol {x}} ^ {\prime \prime \prime} (\theta) = \frac {d ^ {3}}{d \theta^ {3}} \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} L _ {\boldsymbol {x}} (\theta).
+\int_{\mathcal{X} ^{n}} L_{\boldsymbol{x}} ^{\prime \prime \prime} (\theta) d \boldsymbol{x} = \frac{d^{3}}{d \theta^{3}} \int_{\mathcal{X} ^{n}} L_{\boldsymbol{x}} (\theta) d \boldsymbol{x} \quad \text{or} \quad \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} L_{\boldsymbol{x}} ^{\prime \prime \prime} (\theta) = \frac{d^{3}}{d \theta^{3}} \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} L_{\boldsymbol{x}} (\theta).
 $$
 
 Note that the right-hand side of either equation is equal to  $(d^3 / d\theta^3)(1) = 0$ .
@@ -1723,7 +1723,7 @@ Note that the right-hand side of either equation is equal to  $(d^3 / d\theta^3)
 - For any  $\theta_0 \in \Theta$ , there exists  $\delta_{\theta_0} > 0$  and a function  $M_{\theta_0}(x)$  such that
 
 $$
-\left| \ell_ {x _ {1}} ^ {\prime \prime \prime} (\theta) \right| \leq M _ {\theta_ {0}} (x _ {1}) \quad \text {f o r a l m o s t a l l} x _ {1} \in \mathcal {X} \text {a n d a l l} \theta \in \left(\theta_ {0} - \delta_ {\theta_ {0}}, \theta_ {0} + \delta_ {\theta_ {0}}\right),
+\left| \ell_{x_{1}} ^{\prime \prime \prime} (\theta) \right| \leq M_{\theta_{0}} (x_{1}) \quad \text{foralmostall} x_{1} \in \mathcal{X} \text{andall} \theta \in \left(\theta_{0} - \delta_{\theta_{0}}, \theta_{0} + \delta_{\theta_{0}}\right),
 $$
 
 and  $E_{\theta_0}\big[M_{\theta_0}(X_1)\big] < \infty$
@@ -1753,31 +1753,31 @@ The following result provides a lower bound for the variance of any unbiased est
 Theorem 7.1.1 (Cramér-Rao Inequality). Let  $\tilde{\xi} = \tilde{\xi}(\mathbf{X})$  be an unbiased estimator of  $\xi = g(\theta)$  based on the sample  $\mathbf{X} = (X_1, \ldots, X_n)$ , where  $g: \Theta \to \mathbb{R}$  is continuously differentiable at  $\theta$  with derivative  $g'(\theta)$ . Then under the regularity conditions of Section 6.4,
 
 $$
-\operatorname {V a r} _ {\theta} (\tilde {\xi}) \geq \frac {[ g ^ {\prime} (\theta) ] ^ {2}}{I (\theta)} = \frac {[ g ^ {\prime} (\theta) ] ^ {2}}{n I _ {1} (\theta)} \quad f o r a l l \theta \in \Theta .
+\operatorname{Var} _{\theta} (\tilde{\xi}) \geq \frac{[ g^{\prime} (\theta) ] ^{2}}{I (\theta)} = \frac{[ g^{\prime} (\theta) ] ^{2}}{n I_{1} (\theta)} \quad f o r a l l \theta \in \Theta .
 $$
 
 Proof. The covariance between the random variables  $\tilde{\xi} = \tilde{\xi}(\boldsymbol{X})$  and  $\ell_{\boldsymbol{X}}'(\theta)$  is
 
 $$
-\operatorname {C o v} _ {\theta} \left[ \tilde {\xi}, \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right] = E _ {\theta} \left[ \tilde {\xi} \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right] - E _ {\theta} (\tilde {\xi}) E \left[ \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right] = E _ {\theta} \left[ \tilde {\xi} \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right],
+\operatorname{Cov} _{\theta} \left[ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right] = E_{\theta} \left[ \tilde{\xi} \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right] - E_{\theta} (\tilde{\xi}) E \left[ \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right] = E_{\theta} \left[ \tilde{\xi} \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right],
 $$
 
 noting that  $E_{\theta}[\ell_{\pmb{X}}^{\prime}(\theta)] = 0$  by Lemma 6.2.1. Now observe that  $\ell_{\pmb{X}}^{\prime}(\theta) = L_{\pmb{X}}^{\prime}(\theta) / L_{\pmb{X}}(\theta)$ , so
 
 $$
-\operatorname {C o v} _ {\theta} \bigl [ \tilde {\xi}, \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \bigr ] = E _ {\theta} \biggl [ \tilde {\xi} \frac {L _ {\boldsymbol {X}} ^ {\prime} (\theta)}{L _ {\boldsymbol {X}} (\theta)} \biggr ] = \left\{ \begin{array}{l l} \int_ {\mathbb {R} ^ {n}} \tilde {\xi} (\boldsymbol {x})   L _ {\boldsymbol {x}} ^ {\prime} (\theta)   d \boldsymbol {x} & \text {i f} \boldsymbol {X} \text {i s c o n t i n u o u s ,} \\ \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} \tilde {\xi} (\boldsymbol {x})   L _ {\boldsymbol {x}} ^ {\prime} (\theta) & \text {i f} \boldsymbol {X} \text {i s d i s c r e t e ,} \end{array} \right.
+\operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] = E_{\theta} \biggl [ \tilde{\xi} \frac{L_{\boldsymbol{X}} ^{\prime} (\theta)}{L_{\boldsymbol{X}} (\theta)} \biggr ] = \left\{\begin{array}{l l} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta)   d \boldsymbol{x} & \text{if} \boldsymbol{X} \text{iscontinuous,} \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x})   L_{\boldsymbol{x}} ^{\prime} (\theta) & \text{if} \boldsymbol{X} \text{isdiscrete,} \end{array} \right.
 $$
 
 noting that  $\left[L_{\boldsymbol{x}}^{\prime}(\theta) / L_{\boldsymbol{x}}(\theta)\right]L_{\boldsymbol{x}}(\theta) = L_{\boldsymbol{x}}^{\prime}(\theta)$ . Then due to the regularity conditions, we have
 
 $$
-\begin{array}{l} \int_ {\mathbb {R} ^ {n}} \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} ^ {\prime} (\theta) d \boldsymbol {x} = \int_ {\mathbb {R} ^ {n}} \frac {\partial}{\partial \theta} [ \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} (\theta) ] d \boldsymbol {x} = \frac {d}{d \theta} \int_ {\mathbb {R} ^ {n}} \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} (\theta) d \boldsymbol {x} = \frac {d}{d \theta} E _ {\theta} (\tilde {\xi}) = g ^ {\prime} (\theta), \\ \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} ^ {\prime} (\theta) = \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} \frac {\partial}{\partial \theta} \left[ \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} (\theta) \right] = \frac {d}{d \theta} \sum_ {\boldsymbol {x} \in \mathcal {X} ^ {n}} \tilde {\xi} (\boldsymbol {x}) L _ {\boldsymbol {x}} (\theta) = \frac {d}{d \theta} E _ {\theta} (\tilde {\xi}) = g ^ {\prime} (\theta). \\ \end{array}
+\begin{array}{l} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} ^{\prime} (\theta) d \boldsymbol{x} = \int_{\mathbb{R} ^{n}} \frac{\partial}{\partial \theta} [ \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} (\theta) ] d \boldsymbol{x} = \frac{d}{d \theta} \int_{\mathbb{R} ^{n}} \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} (\theta) d \boldsymbol{x} = \frac{d}{d \theta} E_{\theta} (\tilde{\xi}) = g^{\prime} (\theta), \\ \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} ^{\prime} (\theta) = \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \frac{\partial}{\partial \theta} \left[ \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} (\theta) \right] = \frac{d}{d \theta} \sum_{\boldsymbol{x} \in \mathcal{X} ^{n}} \tilde{\xi} (\boldsymbol{x}) L_{\boldsymbol{x}} (\theta) = \frac{d}{d \theta} E_{\theta} (\tilde{\xi}) = g^{\prime} (\theta). \\ \end{array}
 $$
 
 Thus, we have  $\operatorname{Cov}_{\theta}[\tilde{\xi}, \ell_{\mathbf{X}}'(\theta)] = g'(\theta)$  in both the continuous and discrete cases. Then
 
 $$
-\left| g ^ {\prime} (\theta) \right| = \left| \operatorname {C o v} _ {\theta} \left[ \tilde {\xi}, \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right] \right| \leq \sqrt {\operatorname {V a r} _ {\theta} \left(\tilde {\xi}\right) \operatorname {V a r} \left[ \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \right]} = \sqrt {\operatorname {V a r} _ {\theta} \left(\tilde {\xi}\right) I (\theta)},
+\left| g^{\prime} (\theta) \right| = \left| \operatorname{Cov} _{\theta} \left[ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right] \right| \leq \sqrt{\operatorname{Var} _{\theta} \left(\tilde{\xi}\right) \operatorname{Var} \left[ \ell_{\boldsymbol{X}} ^{\prime} (\theta) \right]} = \sqrt{\operatorname{Var} _{\theta} \left(\tilde{\xi}\right) I (\theta)},
 $$
 
 where the inequality is the Cauchy-Schwarz inequality. The result follows immediately.
@@ -1789,7 +1789,7 @@ The following corollary addresses the special case of unbiased estimators of  $\
 Corollary 7.1.2 (Cramér-Rao Inequality, Special Case). Let  $\tilde{\theta}$  be an unbiased estimator of  $\theta$  based on the sample  $\mathbf{X} = (X_{1},\ldots ,X_{n})$ . Then under the regularity conditions of Section 6.4,
 
 $$
-\operatorname {V a r} _ {\theta} (\tilde {\theta}) \geq \frac {1}{I (\theta)} = \frac {1}{n I _ {1} (\theta)} \quad f o r a l l \theta \in \Theta .
+\operatorname{Var} _{\theta} (\tilde{\theta}) \geq \frac{1}{I (\theta)} = \frac{1}{n I_{1} (\theta)} \quad f o r a l l \theta \in \Theta .
 $$
 
 The Cramér-Rao inequality provides an obvious way of identifying a UMVUE: if the variance of an unbiased estimator attains the lower bound stated in the inequality (for all  $\theta \in \Theta$ ), then the estimator is a UMVUE.
@@ -1797,7 +1797,7 @@ The Cramér-Rao inequality provides an obvious way of identifying a UMVUE: if th
 EXAMPLE 7.1.3: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Poisson}(\lambda)$ , where  $\lambda > 0$  is unknown. We calculated in Example 6.2.2 of Lecture 6 that the Fisher information for the sample is  $I(\lambda) = n / \lambda$ . Now observe that  $\hat{\lambda} = \overline{X}$  is clearly an unbiased estimator of  $\lambda$ , with variance
 
 $$
-\operatorname {V a r} _ {\lambda} \left(\overline {{X}}\right) = \frac {\lambda}{n} = \frac {1}{I (\lambda)},
+\operatorname{Var} _{\lambda} \left(\overline{{X}}\right) = \frac{\lambda}{n} = \frac{1}{I (\lambda)},
 $$
 
 which attains the Cramér-Rao lower bound. Thus,  $\hat{\lambda} = \overline{X}$  is a UMVUE of  $\lambda$ .
@@ -1816,21 +1816,21 @@ Depending on the situation, there may or may not exist an unbiased estimator tha
 Theorem 7.1.4. Let  $\tilde{\xi} = \tilde{\xi}(\mathbf{X})$  be an unbiased estimator of  $\xi = g(\theta)$  based on the sample  $\mathbf{X} = (X_1, \ldots, X_n)$ , where  $g: \Theta \to \mathbb{R}$  is continuously differentiable at  $\theta$  with derivative  $g'(\theta)$ . Then under the regularity conditions of Section 6.4,
 
 $$
-\operatorname {V a r} _ {\theta} (\tilde {\xi}) = \frac {[ g ^ {\prime} (\theta) ] ^ {2}}{I (\theta)} = \frac {[ g ^ {\prime} (\theta) ] ^ {2}}{n I _ {1} (\theta)} \quad f o r a l l \theta \in \Theta
+\operatorname{Var} _{\theta} (\tilde{\xi}) = \frac{[ g^{\prime} (\theta) ] ^{2}}{I (\theta)} = \frac{[ g^{\prime} (\theta) ] ^{2}}{n I_{1} (\theta)} \quad f o r a l l \theta \in \Theta
 $$
 
-if and only if there exists a function  $b:\Theta \to \mathbb{R}$  such that  $\tilde{\xi} (\pmb {X}) = g(\theta) + b(\theta)\ell_{\pmb{X}}^{\prime}(\theta)$  with probability 1 for all  $\theta \in \Theta$
+if and only if there exists a function  $b:\Theta \to \mathbb{R}$  such that  $\tilde{\xi} (\pmb{X}) = g(\theta) + b(\theta)\ell_{\pmb{X}}^{\prime}(\theta)$  with probability 1 for all  $\theta \in \Theta$
 
 Proof. Note from the proof of Theorem 7.1.1 that  $\operatorname{Var}_{\theta}(\tilde{\xi}) = [g'(\theta)]^2 / I(\theta)$  if and only if
 
 $$
-\left| \operatorname {C o v} _ {\theta} \bigl [ \tilde {\xi}, \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) \bigr ] \right| = \sqrt {\operatorname {V a r} _ {\theta} (\tilde {\xi}) \operatorname {V a r} [ \ell_ {\boldsymbol {X}} ^ {\prime} (\theta) ]}.
+\left| \operatorname{Cov} _{\theta} \bigl [ \tilde{\xi}, \ell_{\boldsymbol{X}} ^{\prime} (\theta) \bigr ] \right| = \sqrt{\operatorname{Var} _{\theta} (\tilde{\xi}) \operatorname{Var} [ \ell_{\boldsymbol{X}} ^{\prime} (\theta) ]}.
 $$
 
 For any particular  $\theta$ , this equality holds if and only if  $\tilde{\xi}(\mathbf{X}) = a + b \ell_{\mathbf{X}}'(\theta)$  with probability 1 for some constants  $a$  and  $b$ . Hence, the equality holds for all  $\theta \in \Theta$  if and only if there exist functions  $a: \Theta \to \mathbb{R}$  and  $b: \Theta \to \mathbb{R}$  such that  $\tilde{\xi}(\mathbf{X}) = a(\theta) + b(\theta) \ell_{\mathbf{X}}'(\theta)$  with probability 1 for all  $\theta \in \Theta$ . Then since  $\tilde{\xi}$  is unbiased,
 
 $$
-g (\boldsymbol {\theta}) = \xi = E _ {\boldsymbol {\theta}} (\tilde {\xi}) = a (\boldsymbol {\theta}) + b (\boldsymbol {\theta}) E _ {\boldsymbol {\theta}} [ \ell_ {\boldsymbol {X}} ^ {\prime} (\boldsymbol {\theta}) ] = a (\boldsymbol {\theta})
+g (\boldsymbol{\theta}) = \xi = E_{\boldsymbol{\theta}} (\tilde{\xi}) = a (\boldsymbol{\theta}) + b (\boldsymbol{\theta}) E_{\boldsymbol{\theta}} [ \ell_{\boldsymbol{X}} ^{\prime} (\boldsymbol{\theta}) ] = a (\boldsymbol{\theta})
 $$
 
 by Lemma 6.2.1. Thus,  $a(\theta) = g(\theta)$ .
@@ -1840,13 +1840,13 @@ Theorem 7.1.4 sometimes implies that no unbiased estimator of a particular param
 EXAMPLE 7.1.5: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , where  $\lambda > 0$  is unknown. Then
 
 $$
-\ell_ {\boldsymbol {X}} ^ {\prime} (\lambda) = \sum_ {i = 1} ^ {n} \ell_ {X _ {i}} ^ {\prime} (\lambda) = \sum_ {i = 1} ^ {n} \left(\frac {1}{\lambda} - X _ {i}\right) = \frac {n}{\lambda} - \sum_ {i = 1} ^ {n} X _ {i}.
+\ell_{\boldsymbol{X}} ^{\prime} (\lambda) = \sum_{i=1} ^{n} \ell_{X_{i}} ^{\prime} (\lambda) = \sum_{i=1} ^{n} \left(\frac{1}{\lambda} - X_{i}\right) = \frac{n}{\lambda} - \sum_{i=1} ^{n} X_{i}.
 $$
 
 Now consider any unbiased estimator  $\tilde{\lambda}$  of  $\lambda$ . The variance of  $\tilde{\lambda}$  attains the Cramér-Rao lower bound if and only if there exists a function  $b(\lambda)$  such that
 
 $$
-\tilde {\lambda} (\boldsymbol {X}) = \lambda + b (\lambda) \left(\frac {n}{\lambda} - \sum_ {i = 1} ^ {n} X _ {i}\right).
+\tilde{\lambda} (\boldsymbol{X}) = \lambda + b (\lambda) \left(\frac{n}{\lambda} - \sum_{i=1} ^{n} X_{i}\right).
 $$
 
 However, it is clear that no such function  $b(\lambda)$  exists since  $\tilde{\lambda}(\boldsymbol{X})$  cannot depend on  $\lambda$ . Thus, no unbiased estimator of  $\lambda$  attains the Cramér-Rao lower bound.
@@ -1861,7 +1861,7 @@ Note that attainment of the Cramér-Rao lower bound is a sufficient condition fo
 EXAMPLE 7.1.6: In Example 7.1.5, even though no unbiased estimator of  $\lambda$  attains the Cramér-Rao lower bound, it can be shown using more sophisticated techniques that
 
 $$
-\tilde {\lambda} = \frac {n - 1}{\sum_ {i = 1} ^ {n} X _ {i}} = \frac {n - 1}{n \overline {{X}}}
+\tilde{\lambda} = \frac{n - 1}{\sum_{i=1} ^{n} X_{i}} = \frac{n - 1}{n \overline{{X}}}
 $$
 
 is a UMVUE of  $\lambda$ . (In fact, it can also be shown that it is the unique UMVUE of  $\lambda$ .)
@@ -1879,7 +1879,7 @@ Theorem 7.2.2 (Rao-Blackwell). Let  $\tilde{\xi} = \tilde{\xi}(\mathbf{X})$  be 
 Proof. First note that  $\tilde{\xi}^{\star}$  is unbiased since  $E_{\theta}(\tilde{\xi}^{\star}) = E_{\theta}[E(\tilde{\xi} \mid \mathbf{Y})] = E_{\theta}(\tilde{\xi}) = \xi$ , where the second equality is by the law of total expectation. Next, by the law of total variance,
 
 $$
-\operatorname {V a r} _ {\theta} (\tilde {\xi}) = E _ {\theta} \left[ \operatorname {V a r} (\tilde {\xi} \mid \boldsymbol {Y}) \right] + \operatorname {V a r} _ {\theta} \left[ E (\tilde {\xi} \mid \boldsymbol {Y}) \right] \geq \operatorname {V a r} _ {\theta} \left[ E (\tilde {\xi} \mid \boldsymbol {Y}) \right] = \operatorname {V a r} _ {\theta} (\tilde {\xi} ^ {\star})
+\operatorname{Var} _{\theta} (\tilde{\xi}) = E_{\theta} \left[ \operatorname{Var} (\tilde{\xi} \mid \boldsymbol{Y}) \right] + \operatorname{Var} _{\theta} \left[ E (\tilde{\xi} \mid \boldsymbol{Y}) \right] \geq \operatorname{Var} _{\theta} \left[ E (\tilde{\xi} \mid \boldsymbol{Y}) \right] = \operatorname{Var} _{\theta} (\tilde{\xi} ^{\star})
 $$
 
 for all  $\theta \in \Theta$
@@ -1898,31 +1898,31 @@ Note: The process of applying the Rao-Blackwell theorem to a naïve unbiased est
 EXAMPLE 7.2.3: In Example 7.2.1, we stated that an unbiased estimator of  $\zeta = \exp(-\lambda)$  is  $\tilde{\zeta} = n^{-1}\sum_{i=1}^{n}I_{\{0\}}(X_i)$ . However, consider the even simpler unbiased estimator defined by
 
 $$
-\tilde {\zeta} _ {1} = I _ {\{0 \}} (X _ {1}) = \left\{ \begin{array}{l l} 0 & \text {i f} X _ {1} = 0, \\ 1 & \text {i f} X _ {1} > 0. \end{array} \right.
+\tilde{\zeta} _{1} = I_{\{0 \}} (X_{1}) = \left\{\begin{array}{l l} 0 & \text{if} X_{1} = 0, \\ 1 & \text{if} X_{1} > 0. \end{array} \right.
 $$
 
 Suppose we now apply the Rao-Blackwell theorem to the unbiased estimator  $\tilde{\zeta}_1$  with the sufficient statistic  $Y = \sum_{i=1}^{n} X_i$ . Then
 
 $$
-\begin{array}{l} E \left(\tilde {\zeta} _ {1} \mid Y = y\right) = 0 \cdot P \left(\tilde {\zeta} _ {1} = 0 \mid Y = y\right) + 1 \cdot P \left(\tilde {\zeta} _ {1} = 1 \mid Y = y\right) \\ = P \left(\tilde {\zeta} _ {1} = 1 \mid Y = y\right) \\ = P \left(X _ {1} > 0 \mid \sum_ {i = 1} ^ {n} X _ {i} = y\right) \\ = 1 - P \left(X _ {1} = 0 \mid \sum_ {i = 1} ^ {n} X _ {i} = y\right) \\ = 1 - \frac {P _ {\lambda} \left(X _ {1} = 0 , \sum_ {i = 1} ^ {n} X _ {i} = y\right)}{P _ {\lambda} \left(\sum_ {i = 1} ^ {n} X _ {i} = y\right)} \\ = 1 - \frac {P _ {\lambda} \left(X _ {1} = 0 , \sum_ {i = 2} ^ {n} X _ {i} = y\right)}{P _ {\lambda} \left(\sum_ {i = 1} ^ {n} X _ {i} = y\right)} \\ = 1 - \frac {P _ {\lambda} \left(X _ {1} = 0\right) P _ {\lambda} \left(\sum_ {i = 2} ^ {n} X _ {i} = y\right)}{P _ {\lambda} \left(\sum_ {i = 1} ^ {n} X _ {i} = y\right)}. \\ \end{array}
+\begin{array}{l} E \left(\tilde{\zeta} _{1} \mid Y = y\right) = 0 \cdot P \left(\tilde{\zeta} _{1} = 0 \mid Y = y\right) + 1 \cdot P \left(\tilde{\zeta} _{1} = 1 \mid Y = y\right) \\ = P \left(\tilde{\zeta} _{1} = 1 \mid Y = y\right) \\ = P \left(X_{1} > 0 \mid \sum_{i=1} ^{n} X_{i} = y\right) \\ = 1 - P \left(X_{1} = 0 \mid \sum_{i=1} ^{n} X_{i} = y\right) \\ = 1 - \frac{P_{\lambda} \left(X_{1} = 0 , \sum_{i=1} ^{n} X_{i} = y\right)}{P_{\lambda} \left(\sum_{i=1} ^{n} X_{i} = y\right)} \\ = 1 - \frac{P_{\lambda} \left(X_{1} = 0 , \sum_{i=2} ^{n} X_{i} = y\right)}{P_{\lambda} \left(\sum_{i=1} ^{n} X_{i} = y\right)} \\ = 1 - \frac{P_{\lambda} \left(X_{1} = 0\right) P_{\lambda} \left(\sum_{i=2} ^{n} X_{i} = y\right)}{P_{\lambda} \left(\sum_{i=1} ^{n} X_{i} = y\right)}. \\ \end{array}
 $$
 
 Now note that by basic properties of the Poisson distribution,  $\sum_{i=1}^{n} X_i \sim \mathrm{Poisson}(n\lambda)$  and  $\sum_{i=2}^{n} X_i \sim \mathrm{Poisson}[(n-1)\lambda]$ . Then we have
 
 $$
-E \big (\tilde {\zeta} _ {1} \mid Y = y \big) = 1 - \frac {\{\exp (- \lambda) \} \{\left[ (n - 1) \lambda \right] ^ {y} (y !) ^ {- 1} \exp [ - (n - 1) \lambda ] \}}{(n \lambda) ^ {y} (y !) ^ {- 1} \exp (- n \lambda)} = \left(\frac {n - 1}{n}\right) ^ {y} = \left(1 - \frac {1}{n}\right) ^ {y}.
+E \big (\tilde{\zeta} _{1} \mid Y = y \big) = 1 - \frac{\{\exp (- \lambda) \} \{\left[ (n - 1) \lambda \right] ^{y} (y !) ^{- 1} \exp [ - (n - 1) \lambda ] \}}{(n \lambda) ^{y} (y !) ^{- 1} \exp (- n \lambda)} = \left(\frac{n - 1}{n}\right) ^{y} = \left(1 - \frac{1}{n}\right) ^{y}.
 $$
 
 Thus, a better unbiased estimator of  $\zeta = \exp(-\lambda)$  is
 
 $$
-\tilde {\zeta} ^ {\star} = \left(1 - \frac {1}{n}\right) ^ {\sum_ {i = 1} ^ {n} X _ {i}}.
+\tilde{\zeta} ^{\star} = \left(1 - \frac{1}{n}\right) ^{\sum_{i=1} ^{n} X_{i}}.
 $$
 
 As an interesting observation, note that
 
 $$
-\log \tilde {\zeta} ^ {\star} = \left(\sum_ {i = 1} ^ {n} X _ {i}\right) \log \left(1 - \frac {1}{n}\right) = \overline {{X}} _ {n} \log \left[\left(1 - \frac {1}{n}\right) ^ {n} \right]\rightarrow_ {P} - \lambda
+\log \tilde{\zeta} ^{\star} = \left(\sum_{i=1} ^{n} X_{i}\right) \log \left(1 - \frac{1}{n}\right) = \overline{{X}} _{n} \log \left[\left(1 - \frac{1}{n}\right) ^{n} \right]\rightarrow_{P} - \lambda
 $$
 
 since  $\overline{X}_n\to_P\lambda$  by the weak law of large numbers and  $\log [(1 - \frac{1}{n})^n ]\rightarrow \log (\frac{1}{e}) = -1$ . Then  $\tilde{\zeta}^{\star}\rightarrow_{P}\exp (-\lambda) = \zeta$ , so  $\tilde{\zeta}^{\star}$  is a consistent estimator of  $\zeta$  as well.
@@ -1984,7 +1984,7 @@ Essentially, a hypothesis test is its rejection region, in the sense that two te
 It is common to write the rejection region  $R$  in the form
 
 $$
-R = \left\{\boldsymbol {x} \in \mathcal {S}: T (\boldsymbol {x}) \geq c \right\}, \tag {8.1.1}
+R = \left\{\boldsymbol{x} \in \mathcal{S}: T (\boldsymbol{x}) \geq c \right\}, \tag{8.1.1}
 $$
 
 where  $T$  is a real-valued function of the data and  $c\in \mathbb{R}$
@@ -1994,12 +1994,12 @@ where  $T$  is a real-valued function of the data and  $c\in \mathbb{R}$
 
 Different values of  $c$  yield different rejection regions, which we write as  $R_{c}$ .
 
-Note: Any rejection region  $R$  can be written in this form, since we can trivially take  $T(\pmb{x}) = I_R(\pmb{x})$  and  $c = 1$  (though we usually prefer to choose a test statistic that is less trivial). Thus, in particular, rejection regions of the form  $\{ \pmb{x} \in S : \tilde{T}(\pmb{x}) > \tilde{c} \}$  can always be rewritten in the form of (8.1.1) for some  $T$  and  $c$ .
+Note: Any rejection region  $R$  can be written in this form, since we can trivially take  $T(\pmb{x}) = I_R(\pmb{x})$  and  $c = 1$  (though we usually prefer to choose a test statistic that is less trivial). Thus, in particular, rejection regions of the form  $\{\pmb{x} \in S : \tilde{T}(\pmb{x}) > \tilde{c} \}$  can always be rewritten in the form of (8.1.1) for some  $T$  and  $c$ .
 
 EXAMPLE 8.1.4: Let  $X \sim \operatorname{Bin}(n, \theta)$ , where  $0 < \theta < 1$ , and consider testing  $H_0: \theta = 1/2$  versus  $H_1: \theta \neq 1/2$ . A simple test of these hypotheses is to reject  $H_0$  if and only if  $X/n$  is far enough from  $1/2$ . Then we could state the test statistic and rejection region as
 
 $$
-T (X) = \left| \frac {X}{n} - \frac {1}{2} \right|, R _ {c} = \{X \in \mathcal {S}: T (X) \geq c \},
+T (X) = \left| \frac{X}{n} - \frac{1}{2} \right|, R_{c} = \{X \in \mathcal{S}: T (X) \geq c \},
 $$
 
 where the sample space is  $\mathcal{S} = \{0,1,\dots ,n\}$  and  $c\in \mathbb{R}$
@@ -2053,7 +2053,7 @@ Note: We will write  $\mathrm{Power}(\theta)$  to avoid any notational confusion
 Notice that the power function provides the probabilities of both error types:
 
 $$
-\operatorname {P o w e r} (\theta) = P _ {\theta} (\boldsymbol {X} \in R) = \left\{ \begin{array}{l l} P _ {\theta} (\text {t y p e I e r r o r}) & \text {i f} \theta \in \Theta_ {0}, \\ 1 - P _ {\theta} (\text {t y p e I I e r r o r}) & \text {i f} \theta \in \Theta_ {1}. \end{array} \right.
+\operatorname{Power} (\theta) = P_{\theta} (\boldsymbol{X} \in R) = \left\{\begin{array}{l l} P_{\theta} (\text{typeIerror}) & \text{if} \theta \in \Theta_{0}, \\ 1 - P_{\theta} (\text{typeIIerror}) & \text{if} \theta \in \Theta_{1}. \end{array} \right.
 $$
 
 Note: When people use the word "power" in the context of hypothesis tests, they usually mean  $1 - P_{\theta}$  (type II error), i.e., they mean the values of  $\operatorname{Power}(\theta)$  for  $\theta \in \Theta_1$ . The definition of the power function above is simply the logical extension to  $\theta \in \Theta_0$  as well. Note, however, that it is actually bad if  $\operatorname{Power}(\theta)$  is large for  $\theta \in \Theta_0$ .
@@ -2122,7 +2122,7 @@ Thus, fixing a maximum probability of a type I error is equivalent to specifying
 Suppose we have a test of the hypotheses  $H_0: \theta \in \Theta_0$  and  $H_1: \theta \in \Theta_1$  that rejects  $H_0$  if and only if  $T(\mathbf{X}) \geq c$  for some test statistic  $T(\mathbf{X})$  and some critical value  $c$ . We often wish to choose  $c$  so that the test will have a specified significance level  $\alpha$  (such as  $\alpha = 0.05$ ). The test has level  $\alpha$  if
 
 $$
-P _ {\theta} \left[ T (\boldsymbol {X}) \geq c \right] \leq \alpha \quad \text {f o r a l l} \theta \in \Theta_ {0},
+P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] \leq \alpha \quad \text{forall} \theta \in \Theta_{0},
 $$
 
 so our goal is to find  $c$  such that this is the case.
@@ -2134,7 +2134,7 @@ To work with  $P_{\theta}[T(\pmb{X}) \geq c]$ , we need to know the distribution
 EXAMPLE 8.3.1: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\sigma^2 > 0$  is known, and suppose we want to test  $H_0: \mu = 5$  versus  $H_1: \mu \neq 5$ . We might take our test statistic to be
 
 $$
-T (\boldsymbol {X}) = \frac {\left| \overline {{X}} _ {n} - 5 \right|}{\sqrt {\sigma^ {2} / n}}
+T (\boldsymbol{X}) = \frac{\left| \overline{{X}} _{n} - 5 \right|}{\sqrt{\sigma^{2} / n}}
 $$
 
 because this test statistic has the same distribution has the absolute value of a  $N(0,1)$  random variable if  $H_0$  is true, i.e., if  $\mu = 5$ . An equivalent test could be obtained by taking the test statistic to be any monotonically increasing function of the test statistic above, but such a test statistic might have a more complicated distribution.
@@ -2142,7 +2142,7 @@ because this test statistic has the same distribution has the absolute value of 
 Suppose we know the distribution of  $T(\mathbf{X})$  for each  $\theta \in \Theta_0$ . Let  $F_{\theta}^{(T)}(t)$  denote the cdf of this distribution. Then our test has level  $\alpha$  if and only if  $P_{\theta}[T(\mathbf{X}) < c] \geq 1 - \alpha$  for all  $\theta \in \Theta_0$ , which holds if and only if
 
 $$
-F _ {\theta} ^ {(T)} (c) - P _ {\theta} [ T (\boldsymbol {X}) = c ] \geq 1 - \alpha \quad \mathrm {f o r a l l} \theta \in \Theta_ {0}.
+F_{\theta} ^{(T)} (c) - P_{\theta} [ T (\boldsymbol{X}) = c ] \geq 1 - \alpha \quad \mathrm{forall} \theta \in \Theta_{0}.
 $$
 
 # Simple Null Hypothesis
@@ -2150,7 +2150,7 @@ $$
 Suppose that our null hypothesis is  $H_0: \theta = \theta_0$  (i.e., suppose that  $\Theta_0 = \{\theta_0\}$ ). Then our test has level  $\alpha$  if and only if
 
 $$
-F _ {\theta_ {0}} ^ {(T)} (c) - P _ {\theta_ {0}} [ T (\boldsymbol {X}) = c ] \geq 1 - \alpha .
+F_{\theta_{0}} ^{(T)} (c) - P_{\theta_{0}} [ T (\boldsymbol{X}) = c ] \geq 1 - \alpha .
 $$
 
 Note that as long as  $0 < \alpha \leq 1$ , we can always find a value of  $c$  to satisfy this inequality since the left-hand side is a nondecreasing function of  $c$  that tends to 0 as  $c \to -\infty$  and tends to 1 as  $c \to \infty$ .
@@ -2160,7 +2160,7 @@ Note that as long as  $0 < \alpha \leq 1$ , we can always find a value of  $c$  
 Now suppose that we wish to construct a test with size  $\alpha$  (and suppose our null hypothesis is still  $H_0: \theta = \theta_0$ . Our test has size  $\alpha$  if and only if
 
 $$
-F _ {\theta_ {0}} ^ {(T)} (c) - P _ {\theta_ {0}} [ T (\boldsymbol {X}) = c ] = 1 - \alpha .
+F_{\theta_{0}} ^{(T)} (c) - P_{\theta_{0}} [ T (\boldsymbol{X}) = c ] = 1 - \alpha .
 $$
 
 It may or may not be possible to find such a test.
@@ -2168,7 +2168,7 @@ It may or may not be possible to find such a test.
 - If the distribution of  $T(\mathbf{X})$  is continuous, then the equation above reduces to
 
 $$
-F _ {\theta_ {0}} ^ {(T)} (c) = 1 - \alpha .
+F_{\theta_{0}} ^{(T)} (c) = 1 - \alpha .
 $$
 
 Since  $T(\mathbf{X})$  is continuous, its cdf  $F_{\theta_0}^{(T)}$  is continuous, and hence there always exists a value of  $c$  that satisfies this equation (as long as  $0 < \alpha < 1$ ).
@@ -2176,7 +2176,7 @@ Since  $T(\mathbf{X})$  is continuous, its cdf  $F_{\theta_0}^{(T)}$  is continu
 - If instead the distribution of  $T(\mathbf{X})$  is discrete, then the expression
 
 $$
-F _ {\theta_ {0}} ^ {(T)} (c) - P _ {\theta_ {0}} [ T (\boldsymbol {X}) = c ]
+F_{\theta_{0}} ^{(T)} (c) - P_{\theta_{0}} [ T (\boldsymbol{X}) = c ]
 $$
 
 is no longer continuous as a function of  $c$ . Then there may or may not exist a value of  $c$  for which this expression is equal to  $1 - \alpha$ . If no such  $c$  exists, then there does not exist a test with size  $\alpha$  based on the test statistic  $T(\mathbf{X})$ . In this case, we would typically try to find a test with size less than  $\alpha$  (so that it still has level  $\alpha$ ) but as close to  $\alpha$  as possible.
@@ -2188,7 +2188,7 @@ EXAMPLE 8.3.2: In Example 8.3.1, we can obtain a test with size  $\alpha$  by ta
 If the null hypothesis is composite, then it may not as easy to achieve a test with a specified level or size based on a particular test statistic  $T(\mathbf{X})$ . However, sometimes we find that
 
 $$
-\sup  _ {\theta \in \Theta_ {0}} P _ {\theta} \left[ T (\boldsymbol {X}) \geq c \right] = P _ {\theta^ {\star}} \left[ T (\boldsymbol {X}) \geq c \right] \quad \text {f o r a l l} c \in \mathbb {R}
+\sup_{\theta \in \Theta_{0}} P_{\theta} \left[ T (\boldsymbol{X}) \geq c \right] = P_{\theta^{\star}} \left[ T (\boldsymbol{X}) \geq c \right] \quad \text{forall} c \in \mathbb{R}
 $$
 
 for some  $\theta^{\star} \in \Theta_0 \cup \Theta_1$ . (Often  $\theta^{\star}$  is on the boundary of  $\Theta_0$ .) Then we can proceed as if the set  $\Theta_0$  were instead simply  $\{\theta^{\star}\}$ , i.e., as if the null hypothesis were simply  $H_0: \theta = \theta^{\star}$ .
@@ -2210,13 +2210,13 @@ EXAMPLE 8.4.1: In Example 8.3.1 and Example 8.3.2, we considered a test that rej
 Thus, if we simply report whether or not we rejected  $H_0$  at a certain level  $\alpha$ , then we have somewhat oversimplified the conclusions that can be drawn from the data. A more informative way to report the conclusions of a hypothesis test is by stating a quantity called the p-value. Let  $T(\mathbf{X})$  be a test statistic, and suppose we observe  $\mathbf{X} = \mathbf{x}_{\mathrm{obs}}$ . Then the  $p$ -value of the test for the data  $\mathbf{x}_{\mathrm{obs}}$  is
 
 $$
-p (\boldsymbol {x} _ {\mathrm {o b s}}) = \sup _ {\theta \in \Theta_ {0}} P _ {\theta} [ T (\boldsymbol {X}) \geq T (\boldsymbol {x} _ {\mathrm {o b s}}) ].
+p (\boldsymbol{x} _{\mathrm{obs}}) = \sup_{\theta \in \Theta_{0}} P_{\theta} [ T (\boldsymbol{X}) \geq T (\boldsymbol{x} _{\mathrm{obs}}) ].
 $$
 
 For a simple null hypothesis  $H_0: \theta = \theta_0$ , the p-value reduces to
 
 $$
-p (\pmb {x} _ {\mathrm {o b s}}) = P _ {\theta_ {0}} [ T (\pmb {X}) \geq T (\pmb {x} _ {\mathrm {o b s}}) ].
+p (\pmb{x} _{\mathrm{obs}}) = P_{\theta_{0}} [ T (\pmb{X}) \geq T (\pmb{x} _{\mathrm{obs}}) ].
 $$
 
 Thus, the p-value is the probability (under  $H_0$ ) of observing a test statistic value at least as large as the one that actually was observed. The following theorem shows why the p-value is useful.
@@ -2226,13 +2226,13 @@ Theorem 8.4.2. Let  $R_{c}$  be a rejection region of the form  $R_{c} = \{\pmb{
 Proof. Suppose that  $\pmb{x}_{\mathrm{obs}} \in R_c$ . Then  $T(\pmb{x}_{\mathrm{obs}}) \geq c$ , so
 
 $$
-p (\boldsymbol {x} _ {\mathrm {o b s}}) = \sup _ {\theta \in \Theta_ {0}} P _ {\theta} [ T (\boldsymbol {X}) \geq T (\boldsymbol {x} _ {\mathrm {o b s}}) ] \leq \sup _ {\theta \in \Theta_ {0}} P _ {\theta} [ T (\boldsymbol {X}) \geq c ] \leq \alpha
+p (\boldsymbol{x} _{\mathrm{obs}}) = \sup_{\theta \in \Theta_{0}} P_{\theta} [ T (\boldsymbol{X}) \geq T (\boldsymbol{x} _{\mathrm{obs}}) ] \leq \sup_{\theta \in \Theta_{0}} P_{\theta} [ T (\boldsymbol{X}) \geq c ] \leq \alpha
 $$
 
 since the test has level  $\alpha$ . Now suppose instead that  $\pmb{x}_{\mathrm{obs}} \notin R_c$ . Then  $T(\pmb{x}_{\mathrm{obs}}) < c$ , so
 
 $$
-p \left(\boldsymbol {x} _ {\mathrm {o b s}}\right) = \sup  _ {\theta \in \Theta_ {0}} P _ {\theta} \left[ T (\boldsymbol {X}) \geq T \left(\boldsymbol {x} _ {\mathrm {o b s}}\right) \right] > \alpha
+p \left(\boldsymbol{x} _{\mathrm{obs}}\right) = \sup_{\theta \in \Theta_{0}} P_{\theta} \left[ T (\boldsymbol{X}) \geq T \left(\boldsymbol{x} _{\mathrm{obs}}\right) \right] > \alpha
 $$
 
 since otherwise  $c$  would not be the smallest number such that the test associated with  $R_{c}$  has level  $\alpha$ .
@@ -2242,7 +2242,7 @@ Thus, Theorem 8.4.2 tells us that an equivalent way to make the final decision i
 Example 8.4.3: In Example 8.4.1, the observed test statistic value 1.76 has p-value
 
 $$
-p (1. 7 6) = P (| Z | \geq 1. 7 6) \approx 0. 0 7 8,
+p (1. 76) = P (| Z | \geq 1. 76) \approx 0. 07 8,
 $$
 
 where  $Z$  is a standard normal random variable.
@@ -2260,13 +2260,13 @@ There is some ambiguity here about how we should represent the data as a random 
 - Perhaps the person flipping the coin decided to flip the coin repeatedly until obtaining tails. Let  $X$  be the number of times heads is observed for such an experiment before the first tails. Then  $X \sim \operatorname{Geometric}(\theta)$ , and a sensible hypothesis test is to reject  $H_0$  if and only if  $X \geq c$  for some  $c$ . The observed value of  $X$  was  $X = 5$ , so the p-value is
 
 $$
-p (5) = P _ {\theta = 1 / 2} (X \geq 5) = \frac {1}{3 2} \approx 0. 0 3 1.
+p (5) = P_{\theta = 1 / 2} (X \geq 5) = \frac{1}{32} \approx 0. 03 1.
 $$
 
 - Perhaps the person flipping the coin instead decided to flip the coin six times and record the results. Let  $X$  be the number of times heads is observed for such an experiment. Then  $X \sim \operatorname{Bin}(6, \theta)$ , and a sensible hypothesis test is to reject  $H_0$  if and only if  $X \geq c$  for some  $c$ . The observed value of  $X$  was  $X = 5$ , so the p-value is
 
 $$
-p (5) = P _ {\theta = 1 / 2} (X \geq 5) = \frac {7}{6 4} \approx 0. 1 0 9.
+p (5) = P_{\theta = 1 / 2} (X \geq 5) = \frac{7}{64} \approx 0. 10 9.
 $$
 
 Thus, the two different representations yield very different p-values and would therefore lead to opposite conclusions at both  $\alpha = 0.05$  and  $\alpha = 0.10$ . This is troubling since there is no clear reason to prefer either representation over the other. Essentially, the result of our hypothesis test depends on knowing what the experimenter would have done under circumstances that are already known not to have occurred (e.g., whether the experimenter would have stopped flipping had tails occurred earlier than the sixth flip).
@@ -2297,7 +2297,7 @@ Until now, we have considered problems where an appropriate test statistic can b
 Let  $\Theta = \Theta_0 \cup \Theta_1$ . The likelihood ratio statistic  $\Lambda(\mathbf{X})$  is defined as
 
 $$
-\Lambda (\boldsymbol {X}) = \frac {\sup _ {\theta \in \Theta_ {0}} L _ {\boldsymbol {X}} (\theta)}{\sup _ {\theta \in \Theta} L _ {\boldsymbol {X}} (\theta)},
+\Lambda (\boldsymbol{X}) = \frac{\sup_{\theta \in \Theta_{0}} L_{\boldsymbol{X}} (\theta)}{\sup_{\theta \in \Theta} L_{\boldsymbol{X}} (\theta)},
 $$
 
 and the likelihood ratio test rejects  $H_0$  if and only if  $[\Lambda(\mathbf{X})]^{-1} \geq c$ , or equivalently,  $\Lambda(\mathbf{X}) \leq k$ , where  $c \in (0, 1)$  or  $k = c^{-1} \in (0, 1)$  is chosen to specify the level of the test.
@@ -2316,50 +2316,50 @@ The likelihood ratio statistic can be written in a more convenient form if the f
 Then
 
 $$
-\Lambda (\pmb {X}) = \frac {L _ {\pmb {X}} (\theta_ {0})}{L _ {\pmb {X}} (\hat {\theta})}.
+\Lambda (\pmb{X}) = \frac{L_{\pmb{X}} (\theta_{0})}{L_{\pmb{X}} (\hat{\theta})}.
 $$
 
 EXAMPLE 9.0.1: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , where  $\lambda > 0$ , and consider testing  $H_0 : \lambda = 2$  versus  $H_1 : \lambda \neq 2$ . The likelihood is (for  $\lambda > 0$ )
 
 $$
-L _ {\boldsymbol {X}} (\lambda) = \lambda^ {n} \exp \biggl (- \lambda \sum_ {i = 1} ^ {n} X _ {i} \biggr).
+L_{\boldsymbol{X}} (\lambda) = \lambda^{n} \exp \biggl (- \lambda \sum_{i=1} ^{n} X_{i} \biggr).
 $$
 
 Earlier in the course, we showed that the maximum likelihood estimator of  $\lambda$  is
 
 $$
-\hat {\lambda} = \frac {n}{\sum_ {i = 1} ^ {n} X _ {i}} = \left(\overline {{X}}\right) ^ {- 1}.
+\hat{\lambda} = \frac{n}{\sum_{i=1} ^{n} X_{i}} = \left(\overline{{X}}\right) ^{- 1}.
 $$
 
 Then
 
 $$
-L _ {\boldsymbol {X}} (2) = 2 ^ {n} \exp \left(- 2 \sum_ {i = 1} ^ {n} X _ {i}\right) = \exp \left[ - n \left(2 \bar {X} - \log 2\right) \right],
+L_{\boldsymbol{X}} (2) = 2^{n} \exp \left(- 2 \sum_{i=1} ^{n} X_{i}\right) = \exp \left[ - n \left(2 \bar{X} - \log 2\right) \right],
 $$
 
 $$
-L _ {\boldsymbol {X}} (\hat {\lambda}) = \left(\frac {n}{\sum_ {i = 1} ^ {n} X _ {i}}\right) ^ {n} \exp (- n) = \exp \left[ - n \left(1 + \log \overline {{X}}\right) \right].
+L_{\boldsymbol{X}} (\hat{\lambda}) = \left(\frac{n}{\sum_{i=1} ^{n} X_{i}}\right) ^{n} \exp (- n) = \exp \left[ - n \left(1 + \log \overline{{X}}\right) \right].
 $$
 
 Then the likelihood ratio statistic is
 
 $$
-\begin{array}{l} \Lambda (\boldsymbol {X}) = \frac {L _ {\boldsymbol {X}} (2)}{L _ {\boldsymbol {X}} (\hat {\lambda})} = \frac {\exp \left[ - n \left(2 \overline {{X}} - \log 2\right) \right]}{\exp \left[ - n \left(1 + \log \overline {{X}}\right) \right]} = \exp \left[ n \left(1 + \log 2 + \log \overline {{X}} - 2 \overline {{X}}\right) \right] \\ = \left[ 2 \bar {X} \exp (1 - 2 \bar {X}) \right] ^ {n}. \\ \end{array}
+\begin{array}{l} \Lambda (\boldsymbol{X}) = \frac{L_{\boldsymbol{X}} (2)}{L_{\boldsymbol{X}} (\hat{\lambda})} = \frac{\exp \left[ - n \left(2 \overline{{X}} - \log 2\right) \right]}{\exp \left[ - n \left(1 + \log \overline{{X}}\right) \right]} = \exp \left[ n \left(1 + \log 2 + \log \overline{{X}} - 2 \overline{{X}}\right) \right] \\ = \left[ 2 \bar{X} \exp (1 - 2 \bar{X}) \right] ^{n}. \\ \end{array}
 $$
 
 Thus, the likelihood ratio test of these hypotheses rejects  $H_0$  if and only if
 
 $$
-\left[ 2 \overline {{X}} \exp \big (1 - 2 \overline {{X}} \big) \right] ^ {- n} \geq c,
+\left[ 2 \overline{{X}} \exp \big (1 - 2 \overline{{X}} \big) \right] ^{- n} \geq c,
 $$
 
 or equivalently,
 
 $$
-\overline {{X}} \exp \left(- 2 \overline {{X}}\right) \leq c ^ {\star},
+\overline{{X}} \exp \left(- 2 \overline{{X}}\right) \leq c^{\star},
 $$
 
-where  $c^{\star} = (2e)^{-1}c^{-1 / n}$ . Unfortunately, it is difficult to proceed any further in closed form. We need the distribution of the test statistic to specify a level via a critical value or to calculate a p-value, but both  $[\Lambda (\pmb {X})]^{-1}$  itself and the equivalent statistic  $\overline{X}\exp (-2\overline{X})$  are difficult to work with.
+where  $c^{\star} = (2e)^{-1}c^{-1 / n}$ . Unfortunately, it is difficult to proceed any further in closed form. We need the distribution of the test statistic to specify a level via a critical value or to calculate a p-value, but both  $[\Lambda (\pmb{X})]^{-1}$  itself and the equivalent statistic  $\overline{X}\exp (-2\overline{X})$  are difficult to work with.
 
 The situation at the end of Example 9.0.1 is not unusual when deriving the form of likelihood ratio tests. It is often the case that the distribution of the likelihood ratio statistic (or of some other equivalent statistic) is difficult to actually obtain. This is partially why people sometimes prefer other approaches to constructing tests. These other approaches are typically based on asymptotic properties (including asymptotic properties of the likelihood ratio test), as we will see later.
 
@@ -2370,46 +2370,46 @@ More work is required to find the likelihood ratio test when the null hypothesis
 EXAMPLE 9.0.2: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  and  $\sigma^2 > 0$  are both unknown, and consider testing  $H_0: \mu = \mu_0$  versus  $H_1: \mu \neq \mu_0$  for some specified  $\mu_0 \in \mathbb{R}$ . The numerator of the likelihood ratio statistic is  $\sup_{\sigma^2 > 0} L_X(\mu_0, \sigma^2)$ , and evaluating this requires first finding the value of  $\sigma^2$  that maximizes  $L_X(\mu_0, \sigma^2)$ , or equivalently,  $\ell_X(\mu_0, \sigma^2)$ . Observe that
 
 $$
-\frac {\partial}{\partial \sigma^ {2}} \ell_ {\pmb {X}} (\mu_ {0}, \sigma^ {2}) = - \frac {n}{2 \sigma^ {2}} + \frac {1}{2 (\sigma^ {2}) ^ {2}} \sum_ {i = 1} ^ {n} (X _ {i} - \mu_ {0}) ^ {2} = 0 \iff \sigma^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} (X _ {i} - \mu_ {0}) ^ {2},
+\frac{\partial}{\partial \sigma^{2}} \ell_{\pmb{X}} (\mu_{0}, \sigma^{2}) = - \frac{n}{2 \sigma^{2}} + \frac{1}{2 (\sigma^{2}) ^{2}} \sum_{i=1} ^{n} (X_{i} - \mu_{0}) ^{2} = 0 \iff \sigma^{2} = \frac{1}{n} \sum_{i=1} ^{n} (X_{i} - \mu_{0}) ^{2},
 $$
 
 and it is clear that this value is indeed a maximum. Thus, the value of  $\sigma^2$  that maximizes the expression in the numerator of  $\Lambda(\mathbf{X})$  is
 
 $$
-\tilde {\sigma} _ {0} ^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} \bigl (X _ {i} - \mu_ {0} \bigr) ^ {2}.
+\tilde{\sigma} _{0} ^{2} = \frac{1}{n} \sum_{i=1} ^{n} \bigl (X_{i} - \mu_{0} \bigr) ^{2}.
 $$
 
 Now recall that the (unconstrained) maximum likelihood estimators of  $\mu$  and  $\sigma^2$  are
 
 $$
-\hat {\mu} = \overline {{X}}, \qquad \hat {\sigma} ^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} \left(X _ {i} - \overline {{X}}\right) ^ {2}.
+\hat{\mu} = \overline{{X}}, \qquad \hat{\sigma} ^{2} = \frac{1}{n} \sum_{i=1} ^{n} \left(X_{i} - \overline{{X}}\right) ^{2}.
 $$
 
 Then the likelihood ratio statistic is
 
 $$
-\begin{array}{l} \Lambda (\boldsymbol {X}) = \frac {(2 \pi \tilde {\sigma} _ {0} ^ {2}) ^ {- n / 2} \exp [ - (2 \tilde {\sigma} _ {0} ^ {2}) ^ {- 1} \sum_ {i = 1} ^ {n} (X _ {i} - \mu_ {0}) ^ {2} ]}{(2 \pi \hat {\sigma} ^ {2}) ^ {- n / 2} \exp [ - (2 \hat {\sigma} ^ {2}) ^ {- 1} \sum_ {i = 1} ^ {n} (X _ {i} - \hat {\mu}) ^ {2} ]} \\ = \frac {(\tilde {\sigma} _ {0} ^ {2}) ^ {- n / 2} \exp (- n / 2)}{(\hat {\sigma} ^ {2}) ^ {- n / 2} \exp (- n / 2)} = \left(\frac {\hat {\sigma} ^ {2}}{\tilde {\sigma} _ {0} ^ {2}}\right) ^ {n / 2} = \left[ \frac {\sum_ {i = 1} ^ {n} (X _ {i} - \overline {{X}}) ^ {2}}{\sum_ {i = 1} ^ {n} (X _ {i} - \mu_ {0}) ^ {2}} \right] ^ {n / 2}. \\ \end{array}
+\begin{array}{l} \Lambda (\boldsymbol{X}) = \frac{(2 \pi \tilde{\sigma} _{0} ^{2}) ^{- n / 2} \exp [ - (2 \tilde{\sigma} _{0} ^{2}) ^{- 1} \sum_{i=1} ^{n} (X_{i} - \mu_{0}) ^{2} ]}{(2 \pi \hat{\sigma} ^{2}) ^{- n / 2} \exp [ - (2 \hat{\sigma} ^{2}) ^{- 1} \sum_{i=1} ^{n} (X_{i} - \hat{\mu}) ^{2} ]} \\ = \frac{(\tilde{\sigma} _{0} ^{2}) ^{- n / 2} \exp (- n / 2)}{(\hat{\sigma} ^{2}) ^{- n / 2} \exp (- n / 2)} = \left(\frac{\hat{\sigma} ^{2}}{\tilde{\sigma} _{0} ^{2}}\right) ^{n / 2} = \left[ \frac{\sum_{i=1} ^{n} (X_{i} - \overline{{X}}) ^{2}}{\sum_{i=1} ^{n} (X_{i} - \mu_{0}) ^{2}} \right] ^{n / 2}. \\ \end{array}
 $$
 
 Now observe that
 
 $$
-\begin{array}{l} \sum_ {i = 1} ^ {n} \left(X _ {i} - \mu_ {0}\right) ^ {2} = \sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X} + \bar {X} - \mu_ {0}\right) ^ {2} = \sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) ^ {2} + n \left(\bar {X} - \mu_ {0}\right) ^ {2} + 2 \left(\bar {X} - \mu_ {0}\right) \sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) \\ = \sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) ^ {2} + n \left(\bar {X} - \mu_ {0}\right) ^ {2}. \\ \end{array}
+\begin{array}{l} \sum_{i=1} ^{n} \left(X_{i} - \mu_{0}\right) ^{2} = \sum_{i=1} ^{n} \left(X_{i} - \bar{X} + \bar{X} - \mu_{0}\right) ^{2} = \sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) ^{2} + n \left(\bar{X} - \mu_{0}\right) ^{2} + 2 \left(\bar{X} - \mu_{0}\right) \sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) \\ = \sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) ^{2} + n \left(\bar{X} - \mu_{0}\right) ^{2}. \\ \end{array}
 $$
 
 Then
 
 $$
-\begin{array}{l} \left[ \Lambda (\boldsymbol {X}) \right] ^ {- 1} = \left[ \frac {\sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) ^ {2} + n \left(\bar {X} - \mu_ {0}\right) ^ {2}}{\sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) ^ {2}} \right] ^ {n / 2} = \left[ 1 + \frac {n \left(\bar {X} - \mu_ {0}\right) ^ {2}}{\sum_ {i = 1} ^ {n} \left(X _ {i} - \bar {X}\right) ^ {2}} \right] ^ {n / 2} \\ = \left[ 1 + \frac {\left(\overline {{X}} - \mu_ {0}\right) ^ {2}}{\hat {\sigma} ^ {2}} \right] ^ {n / 2} = \left\{1 + \frac {\left[ T (\boldsymbol {X}) \right] ^ {2}}{n - 1} \right\} ^ {n / 2}, \\ \end{array}
+\begin{array}{l} \left[ \Lambda (\boldsymbol{X}) \right] ^{- 1} = \left[ \frac{\sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) ^{2} + n \left(\bar{X} - \mu_{0}\right) ^{2}}{\sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) ^{2}} \right] ^{n / 2} = \left[ 1 + \frac{n \left(\bar{X} - \mu_{0}\right) ^{2}}{\sum_{i=1} ^{n} \left(X_{i} - \bar{X}\right) ^{2}} \right] ^{n / 2} \\ = \left[ 1 + \frac{\left(\overline{{X}} - \mu_{0}\right) ^{2}}{\hat{\sigma} ^{2}} \right] ^{n / 2} = \left\{1 + \frac{\left[ T (\boldsymbol{X}) \right] ^{2}}{n - 1} \right\} ^{n / 2}, \\ \end{array}
 $$
 
 where
 
 $$
-T (\boldsymbol {X}) = \frac {\left| \overline {{X}} - \mu_ {0} \right|}{\sqrt {\hat {\sigma} ^ {2} / (n - 1)}} = \frac {\left| \overline {{X}} - \mu_ {0} \right|}{\sqrt {S ^ {2} / n}},
+T (\boldsymbol{X}) = \frac{\left| \overline{{X}} - \mu_{0} \right|}{\sqrt{\hat{\sigma} ^{2} / (n - 1)}} = \frac{\left| \overline{{X}} - \mu_{0} \right|}{\sqrt{S^{2} / n}},
 $$
 
-where  $S^2 = (n - 1)^{-1}\sum_{i = 1}^{n}(X_i - \overline{X})^2$  is the unbiased sample variance. Note that if  $H_0$  is true (i.e., if  $\mu = \mu_0$ ), then the distribution of  $T(\mathbf{X})$  is the distribution of the absolute value of a Student's  $t$  random variable with  $n - 1$  degrees of freedom. Finally, observe that rejecting  $H_0$  if and only if  $[\Lambda (\mathbf{X})]^{-1}\geq c$  is equivalent to rejecting  $H_0$  if and only if  $T(\mathbf{X})\geq c^{\star}$ , where  $c^{\star} = [(n - 1)(c^{2 / n} - 1)]^{1 / 2}$ . Thus, the likelihood ratio test is simply the conventional  $t$  test, and we can obtain a test with size  $\alpha$  by rejecting  $H_0$  if and only if  $T(\mathbf{X})$  exceeds the appropriate quantile of a Student's  $t$  distribution with  $n - 1$  degrees of freedom.
+where  $S^2 = (n - 1)^{-1}\sum_{i=1}^{n}(X_i - \overline{X})^2$  is the unbiased sample variance. Note that if  $H_0$  is true (i.e., if  $\mu = \mu_0$ ), then the distribution of  $T(\mathbf{X})$  is the distribution of the absolute value of a Student's  $t$  random variable with  $n - 1$  degrees of freedom. Finally, observe that rejecting  $H_0$  if and only if  $[\Lambda (\mathbf{X})]^{-1}\geq c$  is equivalent to rejecting  $H_0$  if and only if  $T(\mathbf{X})\geq c^{\star}$ , where  $c^{\star} = [(n - 1)(c^{2 / n} - 1)]^{1 / 2}$ . Thus, the likelihood ratio test is simply the conventional  $t$  test, and we can obtain a test with size  $\alpha$  by rejecting  $H_0$  if and only if  $T(\mathbf{X})$  exceeds the appropriate quantile of a Student's  $t$  distribution with  $n - 1$  degrees of freedom.
 
 # Lecture 10: Tests Based on Asymptotic Properties
 
@@ -2420,19 +2420,19 @@ A hypothesis test is only useful if we can determine a way to set its significan
 Recall that under certain regularity conditions, the asymptotic distribution of the maximum likelihood estimator is normal. More specifically, if  $\hat{\theta}_n$  is the MLE of  $\theta$ , then
 
 $$
-\sqrt {n} \big (\hat {\theta} _ {n} - \theta \big) \rightarrow_ {D} N \Bigg [ 0, \frac {1}{I _ {1} (\theta)} \Bigg ],
+\sqrt{n} \big (\hat{\theta} _{n} - \theta \big) \rightarrow_{D} N \Bigg [ 0, \frac{1}{I_{1} (\theta)} \Bigg ],
 $$
 
 where  $I_{1}(\theta)$  denotes the Fisher information per observation. Then it follows that
 
 $$
-\sqrt {n I _ {1} (\theta)} \left(\hat {\theta} _ {n} - \theta\right) = \sqrt {I (\theta)} \left(\hat {\theta} _ {n} - \theta\right)\rightarrow_ {D} N (0, 1),
+\sqrt{n I_{1} (\theta)} \left(\hat{\theta} _{n} - \theta\right) = \sqrt{I (\theta)} \left(\hat{\theta} _{n} - \theta\right)\rightarrow_{D} N (0, 1),
 $$
 
 i.e., the quantity  $[I(\theta)]^{1/2} (\hat{\theta}_n - \theta)$  has an approximate  $N(0,1)$  distribution if  $n$  is large. Also note that under suitable regularity conditions,  $I_1(\theta)$  is a continuous function of  $\theta$ , and  $\hat{\theta}_n \to_P \theta$ . Then  $I_1(\hat{\theta}_n) \to_P I_1(\theta)$ , and so
 
 $$
-\sqrt {I (\hat {\theta} _ {n})} (\hat {\theta} _ {n} - \theta) = \frac {\sqrt {I _ {1} (\hat {\theta} _ {n})}}{\sqrt {I _ {1} (\theta)}} \sqrt {n I _ {1} (\theta)} (\hat {\theta} _ {n} - \theta) \rightarrow_ {D} N (0, 1)
+\sqrt{I (\hat{\theta} _{n})} (\hat{\theta} _{n} - \theta) = \frac{\sqrt{I_{1} (\hat{\theta} _{n})}}{\sqrt{I_{1} (\theta)}} \sqrt{n I_{1} (\theta)} (\hat{\theta} _{n} - \theta) \rightarrow_{D} N (0, 1)
 $$
 
 by Slutsky's theorem. Thus, the quantity  $[I(\hat{\theta}_n)]^{1/2} (\hat{\theta}_n - \theta)$  also has an approximate  $N(0,1)$  distribution if  $n$  is large.
@@ -2442,13 +2442,13 @@ by Slutsky's theorem. Thus, the quantity  $[I(\hat{\theta}_n)]^{1/2} (\hat{\thet
 The asymptotic results above suggest two similar hypothesis testing methods that should be useful for large  $n$ . One test of  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  with approximate size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-\sqrt {I \left(\theta_ {0}\right)} \left| \hat {\theta} _ {n} - \theta_ {0} \right| \geq c, \tag {10.1.1}
+\sqrt{I \left(\theta_{0}\right)} \left| \hat{\theta} _{n} - \theta_{0} \right| \geq c, \tag{10.1.1}
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . Another test of the same hypotheses with approximate size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-\sqrt {I \left(\hat {\theta} _ {n}\right)} \left| \hat {\theta} _ {n} - \theta_ {0} \right| \geq c, \tag {10.1.2}
+\sqrt{I \left(\hat{\theta} _{n}\right)} \left| \hat{\theta} _{n} - \theta_{0} \right| \geq c, \tag{10.1.2}
 $$
 
 where  $c$  is the same as above.
@@ -2462,25 +2462,25 @@ Note: The motivation for the use of (10.1.2) instead of (10.1.1) will be become 
 EXAMPLE 10.1.1: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , where  $\lambda > 0$ , and consider testing  $H_0 : \lambda = 2$  versus  $H_1 : \lambda \neq 2$ . Earlier in the course, we showed that the maximum likelihood estimator of  $\lambda$  is
 
 $$
-\hat {\lambda} _ {n} = \frac {n}{\sum_ {i = 1} ^ {n} X _ {i}} = \left(\overline {{X}} _ {n}\right) ^ {- 1}.
+\hat{\lambda} _{n} = \frac{n}{\sum_{i=1} ^{n} X_{i}} = \left(\overline{{X}} _{n}\right) ^{- 1}.
 $$
 
 Next, note that
 
 $$
-\ell_ {\boldsymbol {X}} ^ {\prime \prime} (\lambda) = \frac {\partial^ {2}}{\partial \lambda^ {2}} \left(n \log \lambda - \lambda \sum_ {i = 1} ^ {n} X _ {i}\right) = - \frac {n}{\lambda^ {2}}
+\ell_{\boldsymbol{X}} ^{\prime \prime} (\lambda) = \frac{\partial^{2}}{\partial \lambda^{2}} \left(n \log \lambda - \lambda \sum_{i=1} ^{n} X_{i}\right) = - \frac{n}{\lambda^{2}}
 $$
 
 so  $I(\lambda) = -E_{\lambda}[\ell_{\mathbf{X}}^{\prime \prime}(\lambda)] = n / \lambda^{2}$ . Then the Wald test statistic defined by (10.1.1) is
 
 $$
-\sqrt {I (2)} \left| \hat {\lambda} _ {n} - 2 \right| = \frac {\sqrt {n}}{2} \left| \hat {\lambda} _ {n} - 2 \right| = \sqrt {n} \left| \frac {\hat {\lambda} _ {n}}{2} - 1 \right| = \sqrt {n} \left| 1 - \frac {1}{2 \overline {{X}} _ {n}} \right|,
+\sqrt{I (2)} \left| \hat{\lambda} _{n} - 2 \right| = \frac{\sqrt{n}}{2} \left| \hat{\lambda} _{n} - 2 \right| = \sqrt{n} \left| \frac{\hat{\lambda} _{n}}{2} - 1 \right| = \sqrt{n} \left| 1 - \frac{1}{2 \overline{{X}} _{n}} \right|,
 $$
 
 while the Wald test statistic defined by (10.1.2) is
 
 $$
-\sqrt {I (\hat {\lambda} _ {n})} \left| \hat {\lambda} _ {n} - 2 \right| = \frac {\sqrt {n}}{\hat {\lambda} _ {n}} \left| \hat {\lambda} _ {n} - 2 \right| = \sqrt {n} \left| 1 - \frac {2}{\hat {\lambda} _ {n}} \right| = \sqrt {n} \left| 1 - 2 \overline {{X}} _ {n} \right|.
+\sqrt{I (\hat{\lambda} _{n})} \left| \hat{\lambda} _{n} - 2 \right| = \frac{\sqrt{n}}{\hat{\lambda} _{n}} \left| \hat{\lambda} _{n} - 2 \right| = \sqrt{n} \left| 1 - \frac{2}{\hat{\lambda} _{n}} \right| = \sqrt{n} \left| 1 - 2 \overline{{X}} _{n} \right|.
 $$
 
 Each test rejects  $H_0$  if and only if its test statistic is at least as large as some critical value  $c$ . (To obtain size  $\alpha = 0.05$ , we would take  $c \approx 1.96$ .)
@@ -2490,7 +2490,7 @@ Each test rejects  $H_0$  if and only if its test statistic is at least as large
 In practice, it may be the case that the maximum likelihood estimator  $\hat{\theta}_n$  cannot be expressed in closed form but can be found numerically. In such situations, a closed-form expression for the Fisher information may be unavailable as well. For this reason, the Fisher information in the Wald test is often replaced by the quantity
 
 $$
-J _ {\pmb {X}} \left(\hat {\theta} _ {n}\right) = - \ell_ {\pmb {X}} ^ {\prime \prime} \left(\hat {\theta} _ {n}\right),
+J_{\pmb{X}} \left(\hat{\theta} _{n}\right) = - \ell_{\pmb{X}} ^{\prime \prime} \left(\hat{\theta} _{n}\right),
 $$
 
 which is called the observed information. If the MLE can be found numerically, then it is typically straightforward to compute the observed information numerically as well.
@@ -2506,7 +2506,7 @@ The following result justifies the use of the observed information.
 Lemma 10.1.2. Let  $\hat{\theta}_n$  be the maximum likelihood estimator of  $\theta$  based on the sample  $X_n$ . Then under the regularity conditions of Section 6.4 of Lecture 6,
 
 $$
-\frac {1}{n} J _ {\pmb {X} _ {n}} \big (\hat {\theta} _ {n} \big) \rightarrow_ {P} I _ {1} (\theta).
+\frac{1}{n} J_{\pmb{X} _{n}} \big (\hat{\theta} _{n} \big) \rightarrow_{P} I_{1} (\theta).
 $$
 
 Proof. The proof is beyond the scope of this course. Note that correctly proving the result requires dealing with both the random function  $J_{\mathbf{X}_n}$  and the random point  $\hat{\theta}_n$  at which the function  $J_{\mathbf{X}_n}$  is evaluated.
@@ -2518,13 +2518,13 @@ A Wald test in which the Fisher information has been replaced by the observed in
 Recall that under certain regularity conditions, the asymptotic distribution of the score function  $\ell_{\mathbf{X}}^{\prime}(\theta)$  itself is normal. More specifically,
 
 $$
-\sqrt {n} \left[ \frac {1}{n} \ell_ {\boldsymbol {X} _ {n}} ^ {\prime} (\theta) - 0 \right] = \frac {1}{\sqrt {n}} \ell_ {\boldsymbol {X} _ {n}} ^ {\prime} (\theta) \rightarrow_ {D} N [ 0, I _ {1} (\theta) ].
+\sqrt{n} \left[ \frac{1}{n} \ell_{\boldsymbol{X} _{n}} ^{\prime} (\theta) - 0 \right] = \frac{1}{\sqrt{n}} \ell_{\boldsymbol{X} _{n}} ^{\prime} (\theta) \rightarrow_{D} N [ 0, I_{1} (\theta) ].
 $$
 
 Then it follows that
 
 $$
-\frac {1}{\sqrt {n I _ {1} (\theta)}} \ell_ {\mathbf {X} _ {n}} ^ {\prime} (\theta) = \frac {1}{\sqrt {I (\theta)}} \ell_ {\mathbf {X} _ {n}} ^ {\prime} (\theta) \rightarrow_ {D} N (0, 1),
+\frac{1}{\sqrt{n I_{1} (\theta)}} \ell_{\mathbf{X} _{n}} ^{\prime} (\theta) = \frac{1}{\sqrt{I (\theta)}} \ell_{\mathbf{X} _{n}} ^{\prime} (\theta) \rightarrow_{D} N (0, 1),
 $$
 
 i.e., the quantity  $[I(\theta)]^{-1/2} \ell_{\mathbf{X}}'(\theta)$  has an approximate  $N(0,1)$  distribution if  $n$  is large.
@@ -2534,7 +2534,7 @@ i.e., the quantity  $[I(\theta)]^{-1/2} \ell_{\mathbf{X}}'(\theta)$  has an appr
 The asymptotic result above suggests a hypothesis testing method that should be useful for large  $n$ . Specifically, a test of  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  with approximate size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-\frac {1}{\sqrt {I \left(\theta_ {0}\right)}} \left| \ell_ {\mathbf {X}} ^ {\prime} \left(\theta_ {0}\right) \right| \geq c, \tag {10.2.1}
+\frac{1}{\sqrt{I \left(\theta_{0}\right)}} \left| \ell_{\mathbf{X}} ^{\prime} \left(\theta_{0}\right) \right| \geq c, \tag{10.2.1}
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ .
@@ -2546,13 +2546,13 @@ A test with rejection region defined by (10.2.1) is called a score test.
 EXAMPLE 10.2.1: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , where  $\lambda > 0$ , and consider testing  $H_0 : \lambda = 2$  versus  $H_1 : \lambda \neq 2$ . The score function is
 
 $$
-\ell_ {\pmb {X}} ^ {\prime} (\lambda) = \frac {\partial}{\partial \lambda} \bigg (n \log \lambda - \lambda \sum_ {i = 1} ^ {n} X _ {i} \bigg) = \frac {n}{\lambda} - \sum_ {i = 1} ^ {n} X _ {i} = n \bigg (\frac {1}{\lambda} - \overline {{X}} _ {n} \bigg),
+\ell_{\pmb{X}} ^{\prime} (\lambda) = \frac{\partial}{\partial \lambda} \bigg (n \log \lambda - \lambda \sum_{i=1} ^{n} X_{i} \bigg) = \frac{n}{\lambda} - \sum_{i=1} ^{n} X_{i} = n \bigg (\frac{1}{\lambda} - \overline{{X}} _{n} \bigg),
 $$
 
 where  $\overline{X}_n = n^{-1}\sum_{i=1}^n X_i$ . Next, note from Example 10.1.1 that  $I(\lambda) = n / \lambda^2$ . Then the score test statistic is
 
 $$
-\frac {1}{\sqrt {I (2)}} \left| \ell_ {\mathbf {X}} ^ {\prime} (2) \right| = \frac {1}{\sqrt {n / 4}} \left| n \left(\frac {1}{2} - \overline {{X}} _ {n}\right) \right| = \sqrt {n} \left| 1 - 2 \overline {{X}} _ {n} \right|,
+\frac{1}{\sqrt{I (2)}} \left| \ell_{\mathbf{X}} ^{\prime} (2) \right| = \frac{1}{\sqrt{n / 4}} \left| n \left(\frac{1}{2} - \overline{{X}} _{n}\right) \right| = \sqrt{n} \left| 1 - 2 \overline{{X}} _{n} \right|,
 $$
 
 and the score test rejects  $H_0$  if and only if this test statistic is at least as large as some critical value  $c$ . (To obtain size  $\alpha = 0.05$ , we would take  $c \approx 1.96$ .) Note that in this particular example, the score test coincides with one of the Wald tests from Example 10.1.1.
@@ -2562,37 +2562,37 @@ Unlike a Wald test, a score test does not involve the maximum likelihood estimat
 EXAMPLE 10.2.2: Let  $X_{1}, \ldots, X_{n}$  be iid continuous random variables with pdf
 
 $$
-f _ {\theta} (x) = \left\{ \begin{array}{l l} \frac {\theta}{(\theta + x) ^ {2}} & \text {i f} x \geq 0, \\ 0 & \text {i f} x <   0, \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{l l} \frac{\theta}{(\theta + x) ^{2}} & \text{if} x \geq 0, \\ 0 & \text{if} x <   0, \end{array} \right.
 $$
 
 where  $\theta > 0$  is unknown. The score function is
 
 $$
-\ell_ {\mathbf {X}} ^ {\prime} (\theta) = \frac {\partial}{\partial \theta} \bigg [ n \log \theta - 2 \sum_ {i = 1} ^ {n} \log \left(\theta + X _ {i}\right) \bigg ] = \frac {n}{\theta} - \sum_ {i = 1} ^ {n} \frac {2}{\theta + X _ {i}}.
+\ell_{\mathbf{X}} ^{\prime} (\theta) = \frac{\partial}{\partial \theta} \bigg [ n \log \theta - 2 \sum_{i=1} ^{n} \log \left(\theta + X_{i}\right) \bigg ] = \frac{n}{\theta} - \sum_{i=1} ^{n} \frac{2}{\theta + X_{i}}.
 $$
 
 Note that no closed-form expression for the maximum likelihood estimator exists since solving the equation
 
 $$
-\frac {n}{\theta} = \sum_ {i = 1} ^ {n} \frac {2}{\theta + X _ {i}}
+\frac{n}{\theta} = \sum_{i=1} ^{n} \frac{2}{\theta + X_{i}}
 $$
 
 for  $\theta$  symbolically is impossible if  $n$  is large. However, consider a score test of  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  for some specified  $\theta_0 > 0$ . Observe that
 
 $$
-\ell_ {\pmb {X}} ^ {\prime \prime} (\theta) = \frac {\partial}{\partial \theta} \ell_ {\pmb {X}} ^ {\prime} (\theta) = - \frac {n}{\theta^ {2}} + \sum_ {i = 1} ^ {n} \frac {2}{(\theta + X _ {i}) ^ {2}},
+\ell_{\pmb{X}} ^{\prime \prime} (\theta) = \frac{\partial}{\partial \theta} \ell_{\pmb{X}} ^{\prime} (\theta) = - \frac{n}{\theta^{2}} + \sum_{i=1} ^{n} \frac{2}{(\theta + X_{i}) ^{2}},
 $$
 
 and it can be shown by simple calculus (which we omit for brevity) that
 
 $$
-I (\theta) = - E _ {\theta} \left[ \ell_ {X} ^ {\prime \prime} (\theta) \right] = \frac {n}{\theta^ {2}} - \frac {2 n}{3 \theta^ {2}} = \frac {n}{3 \theta^ {2}}.
+I (\theta) = - E_{\theta} \left[ \ell_{X} ^{\prime \prime} (\theta) \right] = \frac{n}{\theta^{2}} - \frac{2 n}{3 \theta^{2}} = \frac{n}{3 \theta^{2}}.
 $$
 
 Then the score test statistic is
 
 $$
-\frac {1}{\sqrt {I (\theta_ {0})}} | \ell_ {\pmb {X}} ^ {\prime} (\theta_ {0}) | = \frac {1}{\sqrt {n / (3 \theta_ {0} ^ {2})}} \left| \frac {n}{\theta_ {0}} - \sum_ {i = 1} ^ {n} \frac {2}{\theta_ {0} + X _ {i}} \right| = \sqrt {3 n} \left| 1 - \frac {1}{n} \sum_ {i = 1} ^ {n} \frac {2 \theta_ {0}}{\theta_ {0} + X _ {i}} \right| = \sqrt {\frac {3}{n}} \left| \sum_ {i = 1} ^ {n} \frac {X _ {i} - \theta_ {0}}{X _ {i} + \theta_ {0}} \right|,
+\frac{1}{\sqrt{I (\theta_{0})}} | \ell_{\pmb{X}} ^{\prime} (\theta_{0}) | = \frac{1}{\sqrt{n / (3 \theta_{0} ^{2})}} \left| \frac{n}{\theta_{0}} - \sum_{i=1} ^{n} \frac{2}{\theta_{0} + X_{i}} \right| = \sqrt{3 n} \left| 1 - \frac{1}{n} \sum_{i=1} ^{n} \frac{2 \theta_{0}}{\theta_{0} + X_{i}} \right| = \sqrt{\frac{3}{n}} \left| \sum_{i=1} ^{n} \frac{X_{i} - \theta_{0}}{X_{i} + \theta_{0}} \right|,
 $$
 
 and the score test rejects  $H_0$  if and only if this test statistic is at least as large as some critical value  $c$ . (To obtain size  $\alpha = 0.05$ , we would take  $c \approx 1.96$ .) Thus, we can express a score test for this example in closed form despite the fact that no closed-form solution exists for the maximum likelihood estimator.
@@ -2604,7 +2604,7 @@ If we have already chosen to resort to asymptotic results to determine the distr
 Theorem 10.3.1. Let  $\Lambda(X_n)$  be the likelihood ratio statistic for testing  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  based on the sample  $X_n$ . Then under the regularity conditions of Section 6.4 of Lecture 6,
 
 $$
-- 2 \log \Lambda (\boldsymbol {X} _ {n}) \rightarrow_ {D} \chi_ {1} ^ {2} \quad i f \theta = \theta_ {0},
+- 2 \log \Lambda (\boldsymbol{X} _{n}) \rightarrow_{D} \chi_{1} ^{2} \quad i f \theta = \theta_{0},
 $$
 
 where  $\chi_1^2$  denotes a chi-squared random variable with one degree of freedom.
@@ -2612,19 +2612,19 @@ where  $\chi_1^2$  denotes a chi-squared random variable with one degree of free
 Proof. Let  $\hat{\theta}_n$  denote the MLE of  $\theta$ . A Taylor expansion of  $\ell_{\mathbf{X}_n}(\theta_0)$  around  $\ell_{\mathbf{X}_n}(\hat{\theta}_n)$  yields
 
 $$
-\begin{array}{l} \ell_ {\boldsymbol {X} _ {n}} (\theta_ {0}) = \ell_ {\boldsymbol {X} _ {n}} (\hat {\theta} _ {n}) + \ell_ {\boldsymbol {X} _ {n}} ^ {\prime} (\hat {\theta} _ {n}) (\theta_ {0} - \hat {\theta} _ {n}) + \frac {1}{2} \ell_ {\boldsymbol {X} _ {n}} ^ {\prime \prime} (\hat {\theta} _ {n}) (\theta_ {0} - \hat {\theta} _ {n}) ^ {2} + \dots \\ = \ell_ {\mathbf {X} _ {n}} (\hat {\theta} _ {n}) + \frac {1}{2} \ell_ {\mathbf {X} _ {n}} ^ {\prime \prime} (\hat {\theta} _ {n}) (\theta_ {0} - \hat {\theta} _ {n}) ^ {2} + \dots \\ \end{array}
+\begin{array}{l} \ell_{\boldsymbol{X} _{n}} (\theta_{0}) = \ell_{\boldsymbol{X} _{n}} (\hat{\theta} _{n}) + \ell_{\boldsymbol{X} _{n}} ^{\prime} (\hat{\theta} _{n}) (\theta_{0} - \hat{\theta} _{n}) + \frac{1}{2} \ell_{\boldsymbol{X} _{n}} ^{\prime \prime} (\hat{\theta} _{n}) (\theta_{0} - \hat{\theta} _{n}) ^{2} + \dots \\ = \ell_{\mathbf{X} _{n}} (\hat{\theta} _{n}) + \frac{1}{2} \ell_{\mathbf{X} _{n}} ^{\prime \prime} (\hat{\theta} _{n}) (\theta_{0} - \hat{\theta} _{n}) ^{2} + \dots \\ \end{array}
 $$
 
 since  $\ell_{\mathbf{X}_n}^{\prime}(\hat{\theta}_n) = 0$ . (Also note that the purpose of the regularity conditions is to allow us to ignore the higher-order terms.) Now observe that
 
 $$
-- 2 \log \Lambda (\pmb {X} _ {n}) = - 2 \log \left[ \frac {L _ {\pmb {X} _ {n}} (\theta_ {0})}{L _ {\pmb {X} _ {n}} (\hat {\theta} _ {n})} \right] = - 2 \big [ \ell_ {\pmb {X} _ {n}} (\theta_ {0}) - \ell_ {\pmb {X} _ {n}} (\hat {\theta} _ {n}) \big ] \approx - \ell_ {\pmb {X} _ {n}} ^ {\prime \prime} (\hat {\theta} _ {n}) (\theta_ {0} - \hat {\theta} _ {n}) ^ {2}
+- 2 \log \Lambda (\pmb{X} _{n}) = - 2 \log \left[ \frac{L_{\pmb{X} _{n}} (\theta_{0})}{L_{\pmb{X} _{n}} (\hat{\theta} _{n})} \right] = - 2 \big [ \ell_{\pmb{X} _{n}} (\theta_{0}) - \ell_{\pmb{X} _{n}} (\hat{\theta} _{n}) \big ] \approx - \ell_{\pmb{X} _{n}} ^{\prime \prime} (\hat{\theta} _{n}) (\theta_{0} - \hat{\theta} _{n}) ^{2}
 $$
 
 by the Taylor expansion. Then
 
 $$
-\begin{array}{l} - 2 \log \Lambda (\boldsymbol {X} _ {n}) \approx - \ell_ {\boldsymbol {X} _ {n}} ^ {\prime \prime} (\hat {\theta} _ {n}) (\theta_ {0} - \hat {\theta} _ {n}) ^ {2} = J _ {\boldsymbol {X} _ {n}} (\hat {\theta} _ {n}) (\hat {\theta} _ {n} - \theta_ {0}) ^ {2} \\ = \frac {n ^ {- 1} J _ {\mathbf {X} _ {n}} (\hat {\theta} _ {n})}{I _ {1} (\theta_ {0})} \left[ \sqrt {n I _ {1} (\theta_ {0})} (\hat {\theta} _ {n} - \theta_ {0}) \right] ^ {2}. \\ \end{array}
+\begin{array}{l} - 2 \log \Lambda (\boldsymbol{X} _{n}) \approx - \ell_{\boldsymbol{X} _{n}} ^{\prime \prime} (\hat{\theta} _{n}) (\theta_{0} - \hat{\theta} _{n}) ^{2} = J_{\boldsymbol{X} _{n}} (\hat{\theta} _{n}) (\hat{\theta} _{n} - \theta_{0}) ^{2} \\ = \frac{n^{- 1} J_{\mathbf{X} _{n}} (\hat{\theta} _{n})}{I_{1} (\theta_{0})} \left[ \sqrt{n I_{1} (\theta_{0})} (\hat{\theta} _{n} - \theta_{0}) \right] ^{2}. \\ \end{array}
 $$
 
 Finally,  $n^{-1}J_{\mathbf{X}_n}(\hat{\theta}_n) / I_1(\theta_0)\to_P1$  by Lemma 10.1.2, and  $[nI_1(\theta_0)]^{1 / 2}(\hat{\theta}_n - \theta_0)\to_D N(0,1)$  by Theorem 6.2.4 of Lecture 6. Then the result follows from Slutsky's theorem and the fact that the square of a  $N(0,1)$  random variable is a  $\chi_1^2$  random variable.
@@ -2632,7 +2632,7 @@ Finally,  $n^{-1}J_{\mathbf{X}_n}(\hat{\theta}_n) / I_1(\theta_0)\to_P1$  by Lem
 If  $n$  is large, Theorem 10.3.1 shows how to find a critical value that yields a likelihood ratio test with approximate size  $\alpha$ . Specifically, a test of  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  with approximate size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-- 2 \log \Lambda (\boldsymbol {X}) \geq C
+- 2 \log \Lambda (\boldsymbol{X}) \geq C
 $$
 
 where  $C$  is the number such that  $P(W \geq C) = \alpha$  for a  $\chi_1^2$  random variable  $W$ , or equivalently the number such that  $P(|Z| \geq C^{1/2}) = \alpha$  for a  $N(0, 1)$  random variable  $Z$ .
@@ -2642,13 +2642,13 @@ Note: This test is equivalent to taking the original critical value  $c$  for th
 EXAMPLE 10.3.2: Let  $X_1, \ldots, X_n \sim \mathrm{iid} \, \mathrm{Exp}(\lambda)$ , where  $\lambda > 0$ , and consider testing  $H_0 : \lambda = 2$  versus  $H_1 : \lambda \neq 2$ . From Example 9.0.1 of Lecture 9, the likelihood ratio statistic is
 
 $$
-\Lambda (\boldsymbol {X}) = \left[ 2 \overline {{X}} _ {n} \exp \big (1 - 2 \overline {{X}} _ {n} \big) \right] ^ {n}.
+\Lambda (\boldsymbol{X}) = \left[ 2 \overline{{X}} _{n} \exp \big (1 - 2 \overline{{X}} _{n} \big) \right] ^{n}.
 $$
 
 Note that
 
 $$
-- 2 \log \Lambda (\boldsymbol {X}) = - 2 n \big [ 1 + \log \big (2 \overline {{X}} _ {n} \big) - 2 \overline {{X}} _ {n} \big ].
+- 2 \log \Lambda (\boldsymbol{X}) = - 2 n \big [ 1 + \log \big (2 \overline{{X}} _{n} \big) - 2 \overline{{X}} _{n} \big ].
 $$
 
 To obtain a likelihood ratio test with approximate size  $\alpha$ , we should reject  $H_0$  if and only if this test statistic is at least as large as some critical value  $C$ . (To obtain size  $\alpha = 0.05$ , we would take  $C^{1/2} \approx 1.96$ , and hence  $C \approx 3.84$ .)
@@ -2685,19 +2685,19 @@ Thus, Theorem 11.1.1 essentially states that confidence intervals are, in some s
 EXAMPLE 11.1.2: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  is unknown and  $\sigma^2 > 0$  is known. A test of the hypotheses  $H_0: \mu = \mu_0$  versus  $H_1: \mu \neq \mu_0$  with size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-\frac {\left| \overline {{X}} - \mu_ {0} \right|}{\sqrt {\sigma^ {2} / n}} \geq c,
+\frac{\left| \overline{{X}} - \mu_{0} \right|}{\sqrt{\sigma^{2} / n}} \geq c,
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . Then we would not reject  $H_0$  if and only if
 
 $$
-\frac {\left| \overline {{X}} - \mu_ {0} \right|}{\sqrt {\sigma^ {2} / n}} <   c \Longleftrightarrow \overline {{X}} - c \sqrt {\frac {\sigma^ {2}}{n}} <   \mu_ {0} <   \overline {{X}} + c \sqrt {\frac {\sigma^ {2}}{n}}.
+\frac{\left| \overline{{X}} - \mu_{0} \right|}{\sqrt{\sigma^{2} / n}} <   c \Longleftrightarrow \overline{{X}} - c \sqrt{\frac{\sigma^{2}}{n}} <   \mu_{0} <   \overline{{X}} + c \sqrt{\frac{\sigma^{2}}{n}}.
 $$
 
 Thus,
 
 $$
-\left(\overline {{X}} - c \sqrt {\frac {\sigma^ {2}}{n}}, \overline {{X}} + c \sqrt {\frac {\sigma^ {2}}{n}}\right)
+\left(\overline{{X}} - c \sqrt{\frac{\sigma^{2}}{n}}, \overline{{X}} + c \sqrt{\frac{\sigma^{2}}{n}}\right)
 $$
 
 is a  $100(1 - \alpha)\%$  confidence interval for  $\mu$ .
@@ -2709,13 +2709,13 @@ Although Theorem 11.1.1 is written in terms of a single unknown parameter  $\the
 EXAMPLE 11.1.3: Let  $X_1, \ldots, X_n \sim \mathrm{iid} N(\mu, \sigma^2)$ , where  $\mu \in \mathbb{R}$  is unknown and  $\sigma^2 > 0$  is unknown. A test of the hypotheses  $H_0: \mu = \mu_0$  versus  $H_1: \mu \neq \mu_0$  with size  $\alpha$  is to reject  $H_0$  if and only if
 
 $$
-\frac {\left| \overline {{X}} - \mu_ {0} \right|}{\sqrt {S ^ {2} / n}} \geq c,
+\frac{\left| \overline{{X}} - \mu_{0} \right|}{\sqrt{S^{2} / n}} \geq c,
 $$
 
 where  $c^{\star}$  is the number such that  $P(|T| \geq c^{\star}) = \alpha$  for a random variable  $T$  that has Student's  $t$  distribution with  $n - 1$  degrees of freedom. Then
 
 $$
-\left(\overline {{X}} - c ^ {\star} \sqrt {\frac {S ^ {2}}{n}}, \overline {{X}} + c ^ {\star} \sqrt {\frac {S ^ {2}}{n}}\right)
+\left(\overline{{X}} - c^{\star} \sqrt{\frac{S^{2}}{n}}, \overline{{X}} + c^{\star} \sqrt{\frac{S^{2}}{n}}\right)
 $$
 
 is a  $100(1 - \alpha)\%$  confidence interval for  $\mu$ .
@@ -2731,19 +2731,19 @@ If the sample size is large, asymptotic results can be used to approximate sizes
 The simplest asymptotic confidence intervals are those based on Wald tests. Recall that a Wald test of  $H_0: \theta = \theta_0$  versus  $H_1: \theta \neq \theta_0$  rejects  $H_0$  if and only if
 
 $$
-\sqrt {I \left(\hat {\theta} _ {n}\right)} \left| \hat {\theta} _ {n} - \theta_ {0} \right| \geq c,
+\sqrt{I \left(\hat{\theta} _{n}\right)} \left| \hat{\theta} _{n} - \theta_{0} \right| \geq c,
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . Then we would not reject  $H_0$  if and only if
 
 $$
-\sqrt {I \left(\hat {\theta} _ {n}\right)} \left| \hat {\theta} _ {n} - \theta_ {0} \right| <   c \iff \hat {\theta} _ {n} - \frac {c}{\sqrt {I \left(\hat {\theta} _ {n}\right)}} <   \theta_ {0} <   \hat {\theta} _ {n} + \frac {c}{\sqrt {I \left(\hat {\theta} _ {n}\right)}}.
+\sqrt{I \left(\hat{\theta} _{n}\right)} \left| \hat{\theta} _{n} - \theta_{0} \right| <   c \iff \hat{\theta} _{n} - \frac{c}{\sqrt{I \left(\hat{\theta} _{n}\right)}} <   \theta_{0} <   \hat{\theta} _{n} + \frac{c}{\sqrt{I \left(\hat{\theta} _{n}\right)}}.
 $$
 
 Thus,
 
 $$
-\left(\hat {\theta} _ {n} - \frac {c}{\sqrt {I (\hat {\theta} _ {n})}}, \hat {\theta} _ {n} + \frac {c}{\sqrt {I (\hat {\theta} _ {n})}}\right)
+\left(\hat{\theta} _{n} - \frac{c}{\sqrt{I (\hat{\theta} _{n})}}, \hat{\theta} _{n} + \frac{c}{\sqrt{I (\hat{\theta} _{n})}}\right)
 $$
 
 is a  $100(1 - \alpha)\%$  confidence interval for  $\theta$ .
@@ -2759,7 +2759,7 @@ are essentially just Wald intervals.
 EXAMPLE 11.2.1: Let  $X \sim \operatorname{Bin}(n, \theta)$ , where  $0 < \theta < 1$  is unknown. The Fisher information is  $I(\theta) = n / [\theta(1 - \theta)]$ , and the maximum likelihood estimator of  $\theta$  is  $\hat{\theta}_n = X / n$  (provided that  $0 < X < n$ ). Then a  $100(1 - \alpha)\%$  confidence interval for  $\theta$  is
 
 $$
-\left(\hat {\theta} _ {n} - c \sqrt {\frac {\hat {\theta} _ {n} (1 - \hat {\theta} _ {n})}{n}}, \hat {\theta} _ {n} + c \sqrt {\frac {\hat {\theta} _ {n} (1 - \hat {\theta} _ {n})}{n}}\right),
+\left(\hat{\theta} _{n} - c \sqrt{\frac{\hat{\theta} _{n} (1 - \hat{\theta} _{n})}{n}}, \hat{\theta} _{n} + c \sqrt{\frac{\hat{\theta} _{n} (1 - \hat{\theta} _{n})}{n}}\right),
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . Note that the formula above yields  $(0, 0)$  if  $X = 0$  and  $(1, 1)$  if  $X = n$ , but the MLE  $\hat{\theta}_n$  does not exist in these cases anyway.
@@ -2769,13 +2769,13 @@ where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard no
 An alternative approach is to base asymptotic confidence intervals on score tests. Recall that a score test of  $H_0: \theta = \theta_0$  rejects  $H_0$  if and only if
 
 $$
-\frac {1}{\sqrt {I (\theta_ {0})}} \left| \ell_ {\boldsymbol {X}} ^ {\prime} \left(\theta_ {0}\right) \right| \geq c,
+\frac{1}{\sqrt{I (\theta_{0})}} \left| \ell_{\boldsymbol{X}} ^{\prime} \left(\theta_{0}\right) \right| \geq c,
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . Then we would not reject  $H_0$  if and only if
 
 $$
-\frac {1}{\sqrt {I (\theta_ {0})}} | \ell_ {\mathbf {X}} ^ {\prime} (\theta_ {0}) | <   c.
+\frac{1}{\sqrt{I (\theta_{0})}} | \ell_{\mathbf{X}} ^{\prime} (\theta_{0}) | <   c.
 $$
 
 Rewriting this inequality in terms of  $\theta_0$  is not always straightforward since  $\theta_0$  appears in two places. Typically either approximations are used or solutions are computed numerically.
@@ -2783,31 +2783,31 @@ Rewriting this inequality in terms of  $\theta_0$  is not always straightforward
 EXAMPLE 11.2.2: Let  $X \sim \operatorname{Bin}(n, \theta)$ , where  $0 < \theta < 1$  is unknown. The score function is
 
 $$
-\ell_ {X} ^ {\prime} (\theta) = \frac {X}{\theta} - \frac {n - X}{1 - \theta} = \frac {X - n \theta}{\theta (1 - \theta)},
+\ell_{X} ^{\prime} (\theta) = \frac{X}{\theta} - \frac{n - X}{1 - \theta} = \frac{X - n \theta}{\theta (1 - \theta)},
 $$
 
 and the Fisher information is  $I(\theta) = n / [\theta (1 - \theta)]$ . Then the score interval for  $\theta$  consists of those values of  $\theta$  such that
 
 $$
-\sqrt {\frac {\theta (1 - \theta)}{n}} \left| \frac {X - n \theta}{\theta (1 - \theta)} \right| = \frac {| X - n \theta |}{\sqrt {n \theta (1 - \theta)}} <   c,
+\sqrt{\frac{\theta (1 - \theta)}{n}} \left| \frac{X - n \theta}{\theta (1 - \theta)} \right| = \frac{| X - n \theta |}{\sqrt{n \theta (1 - \theta)}} <   c,
 $$
 
 where  $c$  is the number such that  $P(|Z| \geq c) = \alpha$  for a standard normal random variable  $Z$ . This inequality holds if and only if
 
 $$
-\left(X - n \theta\right) ^ {2} <   c n \theta (1 - \theta) \iff \left(n ^ {2} + c n\right) \theta^ {2} - 2 n (X + c) \theta + X ^ {2} <   0.
+\left(X - n \theta\right) ^{2} <   c n \theta (1 - \theta) \iff \left(n^{2} + c n\right) \theta^{2} - 2 n (X + c) \theta + X^{2} <   0.
 $$
 
 By the quadratic formula, this inequality holds if and only if
 
 $$
-\frac {2 n (X + c) - \sqrt {4 n ^ {2} (X + c) ^ {2} - 4 (n ^ {2} + c n) X ^ {2}}}{2 (n ^ {2} + c n)} <   \theta <   \frac {2 n (X + c) + \sqrt {4 n ^ {2} (X + c) ^ {2} - 4 (n ^ {2} + c n) X ^ {2}}}{2 (n ^ {2} + c n)}.
+\frac{2 n (X + c) - \sqrt{4 n^{2} (X + c) ^{2} - 4 (n^{2} + c n) X^{2}}}{2 (n^{2} + c n)} <   \theta <   \frac{2 n (X + c) + \sqrt{4 n^{2} (X + c) ^{2} - 4 (n^{2} + c n) X^{2}}}{2 (n^{2} + c n)}.
 $$
 
 The confidence interval implied by the above inequality is a bit of a mess. However, for the special case of a  $95\%$  confidence level, the interval above is closely approximated by
 
 $$
-\left(\tilde {\theta} _ {n} - 1. 9 6 \sqrt {\frac {\tilde {\theta} _ {n} (1 - \tilde {\theta} _ {n})}{n}}, \tilde {\theta} _ {n} + 1. 9 6 \sqrt {\frac {\tilde {\theta} _ {n} (1 - \tilde {\theta} _ {n})}{n}}\right),
+\left(\tilde{\theta} _{n} - 1. 96 \sqrt{\frac{\tilde{\theta} _{n} (1 - \tilde{\theta} _{n})}{n}}, \tilde{\theta} _{n} + 1. 96 \sqrt{\frac{\tilde{\theta} _{n} (1 - \tilde{\theta} _{n})}{n}}\right),
 $$
 
 where  $\tilde{\theta}_n = (X + 2) / (n + 4)$ . Thus, the score interval can be approximated by computing the simpler Wald interval with  $\hat{\theta}_n$  replaced by  $\tilde{\theta}_n$ . Note that  $\tilde{\theta}_n$  may be interpreted as the "sample proportion" with an additional two "imaginary" successes and an additional two "imaginary" failures added to the "real" sample.
@@ -2839,7 +2839,7 @@ Asymptotic confidence intervals based on the likelihood ratio test can also be c
 (a) Calculate  $E(X)$  and  $\operatorname{Var}(X)$ , the marginal mean and variance of  $X$ .  
 (b) Find the conditional pmf of  $Y$  given  $X$ .
 
-9. The exponential distribution and the gamma distribution are related by the following property: Let  $X_{1},\ldots ,X_{n}$  be iid  $\mathrm{Exp}(\beta)$  random variables with pdf given in Definition 5.7.3 of DeGroot & Schervish. Then  $Y_{n} = \sum_{i = 1}^{n}X_{i}$  has a Gamma  $(\alpha ,\beta)$  distribution with pdf given in Definition 5.7.2 of DeGroot & Schervish. (You may use this fact without proof.)
+9. The exponential distribution and the gamma distribution are related by the following property: Let  $X_{1},\ldots ,X_{n}$  be iid  $\mathrm{Exp}(\beta)$  random variables with pdf given in Definition 5.7.3 of DeGroot & Schervish. Then  $Y_{n} = \sum_{i=1}^{n}X_{i}$  has a Gamma  $(\alpha ,\beta)$  distribution with pdf given in Definition 5.7.2 of DeGroot & Schervish. (You may use this fact without proof.)
 
 (a) Find sequences of constants  $k_{n}$  and  $m_{n}$  such that  $k_{n}(Y_{n} - m_{n})\to_{D}N(0,1)$  as  $n\to \infty$  
 (b) Find sequences of constants  $k_{n}^{\star}$  and  $m_{n}^{\star}$  such that  $k_{n}^{\star}(Y_{n}^{-1} - m_{n}^{\star})\to_{D}N(0,1)$  as  $n\to \infty$
@@ -2853,35 +2853,35 @@ Asymptotic confidence intervals based on the likelihood ratio test can also be c
 $\triangleright$  SOLUTION: First, note that
 
 $$
-Y = \left\{ \begin{array}{l l} 0 & \text {i f} \quad 0 \leq X <   1 / 2, \\ 1 & \text {i f} 1 / 2 <   X <   3 / 2, \\ 2 & \text {i f} 3 / 2 <   X <   5 / 2, \\ 3 & \text {i f} 5 / 2 <   X <   7 / 2, \\ 4 & \text {i f} 7 / 2 <   X \leq 4. \end{array} \right.
+Y = \left\{\begin{array}{l l} 0 & \text{if} \quad 0 \leq X <   1 / 2, \\ 1 & \text{if} 1 / 2 <   X <   3 / 2, \\ 2 & \text{if} 3 / 2 <   X <   5 / 2, \\ 3 & \text{if} 5 / 2 <   X <   7 / 2, \\ 4 & \text{if} 7 / 2 <   X \leq 4. \end{array} \right.
 $$
 
 The value of  $Y$  is not clear if  $X \in \{1/2, 3/2, 5/2, 7/2\}$ , but  $P(X \in \{1/2, 3/2, 5/2, 7/2\}) = 0$ , so this ambiguity is irrelevant. Now note that the cdf of  $X$  is
 
 $$
-F (x) = P (X \leq x) = \left\{ \begin{array}{l l} 0 & \text {i f} x <   0, \\ x ^ {2} / 1 6 & \text {i f} 0 \leq x \leq 4, \\ 1 & \text {i f} x > 4, \end{array} \right.
+F (x) = P (X \leq x) = \left\{\begin{array}{l l} 0 & \text{if} x <   0, \\ x^{2} / 16 & \text{if} 0 \leq x \leq 4, \\ 1 & \text{if} x > 4, \end{array} \right.
 $$
 
 and thus the pmf of  $Y$  is
 
 $$
-p (0) = P (Y = 0) = P (0 \leq X <   1 / 2) = F (1 / 2) - F (0) = 1 / 6 4 - 0 = 1 / 6 4,
+p (0) = P (Y = 0) = P (0 \leq X <   1 / 2) = F (1 / 2) - F (0) = 1 / 64 - 0 = 1 / 64,
 $$
 
 $$
-p (1) = P (Y = 1) = P (1 / 2 <   X <   3 / 2) = F (3 / 2) - F (1 / 2) = 9 / 6 4 - 1 / 6 4 = 1 / 8,
+p (1) = P (Y = 1) = P (1 / 2 <   X <   3 / 2) = F (3 / 2) - F (1 / 2) = 9 / 64 - 1 / 64 = 1 / 8,
 $$
 
 $$
-p (2) = P (Y = 2) = P (3 / 2 <   X <   5 / 2) = F (5 / 2) - F (3 / 2) = 2 5 / 6 4 - 9 / 6 4 = 1 / 4,
+p (2) = P (Y = 2) = P (3 / 2 <   X <   5 / 2) = F (5 / 2) - F (3 / 2) = 25 / 64 - 9 / 64 = 1 / 4,
 $$
 
 $$
-p (3) = P (Y = 3) = P (5 / 2 <   X <   7 / 2) = F (7 / 2) - F (5 / 2) = 4 9 / 6 4 - 2 5 / 6 4 = 3 / 8,
+p (3) = P (Y = 3) = P (5 / 2 <   X <   7 / 2) = F (7 / 2) - F (5 / 2) = 49 / 64 - 25 / 64 = 3 / 8,
 $$
 
 $$
-p (4) = P (Y = 4) = P (7 / 2 <   X <   4) = F (4) - F (7 / 2) = 1 - 4 9 / 6 4 = 1 5 / 6 4,
+p (4) = P (Y = 4) = P (7 / 2 <   X <   4) = F (4) - F (7 / 2) = 1 - 49 / 64 = 15 / 64,
 $$
 
 with  $p(y) = 0$  for all  $y \notin \{0,1,2,3,4\}$ .
@@ -2891,7 +2891,7 @@ with  $p(y) = 0$  for all  $y \notin \{0,1,2,3,4\}$ .
 $\triangleright$  SOLUTION: Clearly we must have  $c \geq 0$  since a pdf must be nonnegative. Note that  $c = 0$  yields  $f(x) = 0$  for all  $x \in \mathbb{R}$ , and  $\int_{\mathbb{R}} 0 \, dx = 0 \neq 1$ . Thus, we must have  $c > 0$ . However, for any  $c > 0$ ,
 
 $$
-\int_ {- \infty} ^ {\infty} f (x) d x = \int_ {0} ^ {\infty} \frac {c}{1 + x} d x = c \log (1 + \infty) - c \log (1 + 0) = \infty \neq 1.
+\int_{- \infty} ^{\infty} f (x) d x = \int_{0} ^{\infty} \frac{c}{1 + x} d x = c \log (1 + \infty) - c \log (1 + 0) = \infty \neq 1.
 $$
 
 Thus, there does not exist any  $c \in \mathbb{R}$  such that  $f(x)$  is a pdf.
@@ -2903,13 +2903,13 @@ Thus, there does not exist any  $c \in \mathbb{R}$  such that  $f(x)$  is a pdf.
 $\triangleright$  SOLUTION TO (a): The marginal pdf of  $X$  is
 
 $$
-f ^ {(X)} (x) = \int_ {\mathbb {R}} f (x, y) d y = \int_ {0} ^ {1 - x ^ {2}} \frac {1 5}{4} x ^ {2} d y = \frac {1 5}{4} x ^ {2} (1 - x ^ {2})
+f^{(X)} (x) = \int_{\mathbb{R}} f (x, y) d y = \int_{0} ^{1 - x^{2}} \frac{15}{4} x^{2} d y = \frac{15}{4} x^{2} (1 - x^{2})
 $$
 
 if  $-1 \leq x \leq 1$ , with  $f^{(X)}(x) = 0$  otherwise. To find the marginal pdf of  $Y$ , note that  $\{(x, y) \in \mathbb{R}^2 : 0 \leq y \leq 1 - x^2\}$  can be written as  $\{(x, y) \in \mathbb{R}^2 : |x| \leq \sqrt{1 - y}, 0 \leq y \leq 1\}$ . Then
 
 $$
-f ^ {(Y)} (y) = \int_ {\mathbb {R}} f (x, y) d x = \int_ {- \sqrt {1 - y}} ^ {\sqrt {1 - y}} \frac {1 5}{4} x ^ {2} d x = \frac {5}{2} (1 - y) ^ {3 / 2},
+f^{(Y)} (y) = \int_{\mathbb{R}} f (x, y) d x = \int_{- \sqrt{1 - y}} ^{\sqrt{1 - y}} \frac{15}{4} x^{2} d x = \frac{5}{2} (1 - y) ^{3 / 2},
 $$
 
 if  $0 \leq y \leq 1$ , with  $f^{(Y)}(y) = 0$  otherwise.
@@ -2921,21 +2921,21 @@ $\triangleright$  SOLUTION TO (b): No,  $X$  and  $Y$  are not independent since
 $\triangleright$  SOLUTION: The cdf of  $X$  is
 
 $$
-F ^ {(X)} (x) = \left\{ \begin{array}{l l} 0 & \text {i f} x \leq 0, \\ 1 - \exp (- x) & \text {i f} x > 0. \end{array} \right.
+F^{(X)} (x) = \left\{\begin{array}{l l} 0 & \text{if} x \leq 0, \\ 1 - \exp (- x) & \text{if} x > 0. \end{array} \right.
 $$
 
 Then the cdf of  $Y$  is  $F^{(Y)}(y) = P(Y \leq y) = P(X \leq y^2) = F^{(X)}(y^2) = 1 - \exp(-y^2)$  if  $y > 0$ , with  $F^{(Y)}(y) = 0$  if  $y \leq 0$ . We then differentiate to find that the pdf of  $Y$  is  $f^{(Y)}(y) = 2y\exp(-y^2)$  if  $y > 0$ , with  $f^{(Y)}(y) = 0$  if  $y \leq 0$ .
 
 5. DeGroot & Schervish 4.1.6. Also, find  $\operatorname{Var}(1 / X)$ .
 
-$\triangleright$  SOLUTION: First,  $E(1 / X) = \int_{\mathbb{R}}(1 / x)f(x)dx = \int_0^1 (1 / x)2xdx = 2$  . To find  $\operatorname {Var}(1 / X)$  we first find  $E[(1 / X)^2 ] = \int_{\mathbb{R}}(1 / x)^2 f(x)dx = \int_0^1 (1 / x)^2 2xdx = 2\int_0^1\log x dx = 2\cdot \infty = \infty .$  Thus,  $\operatorname {Var}(X) = E[(1 / X)^2 ] - [E(1 / X)]^2 = \infty -2^2 = \infty .$
+$\triangleright$  SOLUTION: First,  $E(1 / X) = \int_{\mathbb{R}}(1 / x)f(x)dx = \int_0^1 (1 / x)2xdx = 2$  . To find  $\operatorname{Var}(1 / X)$  we first find  $E[(1 / X)^2 ] = \int_{\mathbb{R}}(1 / x)^2 f(x)dx = \int_0^1 (1 / x)^2 2xdx = 2\int_0^1\log x dx = 2\cdot \infty = \infty .$  Thus,  $\operatorname{Var}(X) = E[(1 / X)^2 ] - [E(1 / X)]^2 = \infty -2^2 = \infty .$
 
 6. DeGroot & Schervish 4.2.4. Also, find the variance of the rectangle. (The continuous uniform distribution on  $[a,b]$  has mean  $(a + b) / 2$  and variance  $(b - a)^{2} / 12$ . You may use these facts without proof.)
 
 $\triangleright$  SOLUTION: The area of the rectangle is  $XY$ , and  $E(XY) = E(X)E(Y) = (1 / 2)(7) = 7 / 2$  since  $X$  and  $Y$  are independent. To find  $\operatorname{Var}(XY)$ , we first find
 
 $$
-\begin{array}{l} E \left[ (X Y) ^ {2} \right] = E \left(X ^ {2} Y ^ {2}\right) = E \left(X ^ {2}\right) E \left(Y ^ {2}\right) = \left\{\left[ E (X) \right] ^ {2} + \operatorname {V a r} (X) \right\} \left\{\left[ E (Y) \right] ^ {2} + \operatorname {V a r} (Y) \right\} \\ = \left[ (1 / 2) ^ {2} + 1 / 1 2 \right] \left[ 7 ^ {2} + 4 / 3 \right] \\ = (1 / 3) (1 5 1 / 3) = 1 5 1 / 9. \\ \end{array}
+\begin{array}{l} E \left[ (X Y) ^{2} \right] = E \left(X^{2} Y^{2}\right) = E \left(X^{2}\right) E \left(Y^{2}\right) = \left\{\left[ E (X) \right] ^{2} + \operatorname{Var} (X) \right\} \left\{\left[ E (Y) \right] ^{2} + \operatorname{Var} (Y) \right\} \\ = \left[ (1 / 2) ^{2} + 1 / 12 \right] \left[ 7^{2} + 4 / 3 \right] \\ = (1 / 3) (15 1 / 3) = 15 1 / 9. \\ \end{array}
 $$
 
 Then  $\operatorname{Var}(XY) = E[(XY)^2] - [E(XY)]^2 = 151/9 - (7/2)^2 = 163/36$ .
@@ -2947,15 +2947,15 @@ A
 $\triangleright$  SOLUTION: First, we compute the required expectations:
 
 $$
-E (X) = \iint_ {\mathbb {R} ^ {2}} x f (x, y) d x d y = \int_ {0} ^ {1} \int_ {0} ^ {1} \left(x ^ {2} + x y\right) d x d y = \int_ {0} ^ {1} \left(\frac {1}{3} + \frac {y}{2}\right) d y = \frac {1}{3} + \frac {1}{4} = \frac {7}{1 2},
+E (X) = \iint_{\mathbb{R} ^{2}} x f (x, y) d x d y = \int_{0} ^{1} \int_{0} ^{1} \left(x^{2} + x y\right) d x d y = \int_{0} ^{1} \left(\frac{1}{3} + \frac{y}{2}\right) d y = \frac{1}{3} + \frac{1}{4} = \frac{7}{12},
 $$
 
 $$
-E (Y) = \iint_ {\mathbb {R} ^ {2}} y f (x, y) d x d y = \int_ {0} ^ {1} \int_ {0} ^ {1} \left(y ^ {2} + x y\right) d y d x = \int_ {0} ^ {1} \left(\frac {1}{3} + \frac {x}{2}\right) d x = \frac {1}{3} + \frac {1}{4} = \frac {7}{1 2},
+E (Y) = \iint_{\mathbb{R} ^{2}} y f (x, y) d x d y = \int_{0} ^{1} \int_{0} ^{1} \left(y^{2} + x y\right) d y d x = \int_{0} ^{1} \left(\frac{1}{3} + \frac{x}{2}\right) d x = \frac{1}{3} + \frac{1}{4} = \frac{7}{12},
 $$
 
 $$
-E (X Y) = \iint_ {\mathbb {R} ^ {2}} x y f (x, y) d x d y = \int_ {0} ^ {1} \int_ {0} ^ {1} \left(x ^ {2} y + x y ^ {2}\right) d x d y = \int_ {0} ^ {1} \left(\frac {y}{3} + \frac {y ^ {2}}{2}\right) d y = \frac {1}{6} + \frac {1}{6} = \frac {1}{3}.
+E (X Y) = \iint_{\mathbb{R} ^{2}} x y f (x, y) d x d y = \int_{0} ^{1} \int_{0} ^{1} \left(x^{2} y + x y^{2}\right) d x d y = \int_{0} ^{1} \left(\frac{y}{3} + \frac{y^{2}}{2}\right) d y = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}.
 $$
 
 Then  $\operatorname{Cov}(X, Y) = E(XY) - E(X)E(Y) = (1/3) - (7/12)^2 = -1/144$ .
@@ -2968,13 +2968,13 @@ Then  $\operatorname{Cov}(X, Y) = E(XY) - E(X)E(Y) = (1/3) - (7/12)^2 = -1/144$ 
 $\triangleright$  SOLUTION TO (a): By the law of total expectation,
 
 $$
-\begin{array}{l} E (X) = E \left[ E (X \mid Y) \right] = \sum_ {y = 0} ^ {1} E (X \mid Y = y) P (Y = y) \\ = E (X \mid Y = 0) P (Y = 0) + E (X \mid Y = 1) P (Y = 1) \\ = \lambda (1 - \theta) + 0 \cdot \theta = \lambda (1 - \theta). \\ \end{array}
+\begin{array}{l} E (X) = E \left[ E (X \mid Y) \right] = \sum_{y=0} ^{1} E (X \mid Y = y) P (Y = y) \\ = E (X \mid Y = 0) P (Y = 0) + E (X \mid Y = 1) P (Y = 1) \\ = \lambda (1 - \theta) + 0 \cdot \theta = \lambda (1 - \theta). \\ \end{array}
 $$
 
 By the law of total variance,
 
 $$
-\begin{array}{l} \operatorname {V a r} (X) = E [ \operatorname {V a r} (X \mid Y) ] + \operatorname {V a r} [ E (X \mid Y) ] \\ = E \left[ \operatorname {V a r} (X \mid Y) \right] + E \left\{\left[ E (X \mid Y) \right] ^ {2} \right\} - \left\{E [ E (X \mid Y) ] \right\} ^ {2} \\ = \sum_ {y = 0} ^ {1} \operatorname {V a r} (X \mid Y = y) P (Y = y) + \sum_ {y = 0} ^ {1} [ E (X \mid Y = y) ] ^ {2} P (Y = y) - [ E (X) ] ^ {2} \\ = \operatorname {V a r} (X \mid Y = 0) P (Y = 0) + \operatorname {V a r} (X \mid Y = 1) P (Y = 1) \\ + \left[ E (X \mid Y = 0) \right] ^ {2} P (Y = 0) + \left[ E (X \mid Y = 1) \right] ^ {2} P (Y = 1) - \left[ E (X) \right] ^ {2} \\ = \lambda (1 - \theta) + 0 \cdot \theta + \lambda^ {2} (1 - \theta) + 0 \cdot \theta - [ \lambda (1 - \theta) ] ^ {2} = \lambda (1 - \theta) (1 + \lambda \theta). \\ \end{array}
+\begin{array}{l} \operatorname{Var} (X) = E [ \operatorname{Var} (X \mid Y) ] + \operatorname{Var} [ E (X \mid Y) ] \\ = E \left[ \operatorname{Var} (X \mid Y) \right] + E \left\{\left[ E (X \mid Y) \right] ^{2} \right\} - \left\{E [ E (X \mid Y) ] \right\} ^{2} \\ = \sum_{y=0} ^{1} \operatorname{Var} (X \mid Y = y) P (Y = y) + \sum_{y=0} ^{1} [ E (X \mid Y = y) ] ^{2} P (Y = y) - [ E (X) ] ^{2} \\ = \operatorname{Var} (X \mid Y = 0) P (Y = 0) + \operatorname{Var} (X \mid Y = 1) P (Y = 1) \\ + \left[ E (X \mid Y = 0) \right] ^{2} P (Y = 0) + \left[ E (X \mid Y = 1) \right] ^{2} P (Y = 1) - \left[ E (X) \right] ^{2} \\ = \lambda (1 - \theta) + 0 \cdot \theta + \lambda^{2} (1 - \theta) + 0 \cdot \theta - [ \lambda (1 - \theta) ] ^{2} = \lambda (1 - \theta) (1 + \lambda \theta). \\ \end{array}
 $$
 
 An alternative approach is to calculate the marginal pmf of  $X$  and use it to find the expectation and variance directly.
@@ -2984,18 +2984,18 @@ A
 $\triangleright$  SOLUTION TO (b): First,
 
 $$
-\begin{array}{l} p ^ {(Y \mid X)} (0 \mid 0) = P (Y = 0 \mid X = 0) = \frac {P (X = 0 , Y = 0)}{P (X = 0)} \\ = \frac {P (X = 0 , Y = 0)}{P (X = 0 , Y = 0) + P (X = 0 , Y = 1)} \\ = \frac {P (X = 0 \mid Y = 0) P (Y = 0)}{P (X = 0 \mid Y = 0) P (Y = 0) + P (X = 0 \mid Y = 1) P (Y = 1)} \\ = \frac {\exp (- \lambda) (1 - \theta)}{\exp (- \lambda) (1 - \theta) + 1 \cdot \theta} = \frac {(1 - \theta) \exp (- \lambda)}{(1 - \theta) \exp (- \lambda) + \theta}. \\ \end{array}
+\begin{array}{l} p^{(Y \mid X)} (0 \mid 0) = P (Y = 0 \mid X = 0) = \frac{P (X = 0 , Y = 0)}{P (X = 0)} \\ = \frac{P (X = 0 , Y = 0)}{P (X = 0 , Y = 0) + P (X = 0 , Y = 1)} \\ = \frac{P (X = 0 \mid Y = 0) P (Y = 0)}{P (X = 0 \mid Y = 0) P (Y = 0) + P (X = 0 \mid Y = 1) P (Y = 1)} \\ = \frac{\exp (- \lambda) (1 - \theta)}{\exp (- \lambda) (1 - \theta) + 1 \cdot \theta} = \frac{(1 - \theta) \exp (- \lambda)}{(1 - \theta) \exp (- \lambda) + \theta}. \\ \end{array}
 $$
 
 It follows that
 
 $$
-p ^ {(Y \mid X)} (1 \mid 0) = 1 - \frac {(1 - \theta) \exp (- \lambda)}{(1 - \theta) \exp (- \lambda) + \theta} = \frac {\theta}{(1 - \theta) \exp (- \lambda) + \theta}.
+p^{(Y \mid X)} (1 \mid 0) = 1 - \frac{(1 - \theta) \exp (- \lambda)}{(1 - \theta) \exp (- \lambda) + \theta} = \frac{\theta}{(1 - \theta) \exp (- \lambda) + \theta}.
 $$
 
 Next, note that  $p^{(X,Y)}(x,1) = P(X = x, Y = 1) = 0$  for any  $x > 0$ . It follows immediately that  $p^{(Y|X)}(1 \mid x) = P(Y = 1 \mid X = x) = 0$  for every  $x > 0$ , and hence  $p^{(Y|X)}(0 \mid x) = 1$  for every  $x > 0$ .
 
-9. The exponential distribution and the gamma distribution are related by the following property: Let  $X_{1},\ldots ,X_{n}$  be iid  $\mathrm{Exp}(\beta)$  random variables with pdf given in Definition 5.7.3 of DeGroot & Schervish. Then  $Y_{n} = \sum_{i = 1}^{n}X_{i}$  has a  $\mathrm{Gamma}(n,\beta)$  distribution with pdf given in Definition 5.7.2 of DeGroot & Schervish. (You may use this fact without proof.)
+9. The exponential distribution and the gamma distribution are related by the following property: Let  $X_{1},\ldots ,X_{n}$  be iid  $\mathrm{Exp}(\beta)$  random variables with pdf given in Definition 5.7.3 of DeGroot & Schervish. Then  $Y_{n} = \sum_{i=1}^{n}X_{i}$  has a  $\mathrm{Gamma}(n,\beta)$  distribution with pdf given in Definition 5.7.2 of DeGroot & Schervish. (You may use this fact without proof.)
 
 (a) Find sequences of constants  $k_{n}$  and  $m_{n}$  such that  $k_{n}(Y_{n} - m_{n}) \to_{D} N(0,1)$  as  $n \to \infty$ .  
 (b) Find sequences of constants  $k_{n}^{\star}$  and  $m_{n}^{\star}$  such that  $k_{n}^{\star}(Y_{n}^{-1} - m_{n}^{\star})\to_{D}N(0,1)$  as  $n\to \infty$
@@ -3003,13 +3003,13 @@ Next, note that  $p^{(X,Y)}(x,1) = P(X = x, Y = 1) = 0$  for any  $x > 0$ . It f
 $\triangleright$  SOLUTION TO (a): Note that  $E(X_{1}) = 1 / \beta$  and  $\operatorname{Var}(X_1) = 1 / \beta^2$ . Then by the central limit theorem,
 
 $$
-\sqrt {n} \left(\frac {1}{n} Y _ {n} - \frac {1}{\beta}\right) = \sqrt {n} \left(\frac {1}{n} \sum_ {i = 1} ^ {n} X _ {i} - \frac {1}{\beta}\right)\rightarrow_ {D} N \left(0, \frac {1}{\beta^ {2}}\right)
+\sqrt{n} \left(\frac{1}{n} Y_{n} - \frac{1}{\beta}\right) = \sqrt{n} \left(\frac{1}{n} \sum_{i=1} ^{n} X_{i} - \frac{1}{\beta}\right)\rightarrow_{D} N \left(0, \frac{1}{\beta^{2}}\right)
 $$
 
 as  $n\to \infty$  , which we may rewrite as
 
 $$
-\frac {\beta}{\sqrt {n}} \left(Y _ {n} - \frac {n}{\beta}\right)\rightarrow_ {D} N (0, 1)
+\frac{\beta}{\sqrt{n}} \left(Y_{n} - \frac{n}{\beta}\right)\rightarrow_{D} N (0, 1)
 $$
 
 as  $n\to \infty$  . Thus,  $k_{n} = \beta /\sqrt{n}$  and  $m_{n} = n / \beta$
@@ -3017,13 +3017,13 @@ as  $n\to \infty$  . Thus,  $k_{n} = \beta /\sqrt{n}$  and  $m_{n} = n / \beta$
 $\triangleright$  SOLUTION TO (b): Let  $g(y) = y^{-1}$ , so that  $g'(y) = -y^{-2}$  and  $[g'(y)]^2 = y^{-4}$ . Next, note that  $(1/\beta^2)[g'(1/\beta)]^2 = (1/\beta^2)(1/\beta)^{-4} = \beta^2$ . Then by the delta method,
 
 $$
-\sqrt {n} \left[ g \left(\frac {1}{n} Y _ {n}\right) - g \left(\frac {1}{\beta}\right)\right] = \sqrt {n} \left(n Y _ {n} ^ {- 1} - \beta\right) = n ^ {3 / 2} \left(Y _ {n} ^ {- 1} - \frac {\beta}{n}\right)\rightarrow_ {D} N (0, \beta^ {2}),
+\sqrt{n} \left[ g \left(\frac{1}{n} Y_{n}\right) - g \left(\frac{1}{\beta}\right)\right] = \sqrt{n} \left(n Y_{n} ^{- 1} - \beta\right) = n^{3 / 2} \left(Y_{n} ^{- 1} - \frac{\beta}{n}\right)\rightarrow_{D} N (0, \beta^{2}),
 $$
 
 as  $n\to \infty$  , which may be rewritten as
 
 $$
-\frac {n ^ {3 / 2}}{\beta} \left(Y _ {n} ^ {- 1} - \frac {\beta}{n}\right)\rightarrow_ {D} N (0, 1)
+\frac{n^{3 / 2}}{\beta} \left(Y_{n} ^{- 1} - \frac{\beta}{n}\right)\rightarrow_{D} N (0, 1)
 $$
 
 as  $n\to \infty$  . Thus,  $k_{n}^{\star} = n^{3 / 2} / \beta$  and  $m_n^\star = \beta /n$
@@ -3076,7 +3076,7 @@ Hint: Recall how a Student's  $t$  random variable is constructed from a normal 
 $\triangleright$  SOLUTION: Let  $U_{1} = X_{1} + X_{2} + X_{3}$  and  $U_{2} = X_{4} + X_{5} + X_{6}$ . Since  $X_{1}, \ldots, X_{6} \sim \mathrm{id} N(0,1)$ , we have  $U_{1}, U_{2} \sim \mathrm{id} N(0,3)$ . Then  $U_{1} / \sqrt{3}$ ,  $U_{2} / \sqrt{3} \sim \mathrm{id} N(0,1)$ , so
 
 $$
-\frac {Y}{3} = \left(\frac {U _ {1}}{\sqrt {3}}\right) ^ {2} + \left(\frac {U _ {2}}{\sqrt {3}}\right) ^ {2} \sim \chi_ {2} ^ {2}.
+\frac{Y}{3} = \left(\frac{U_{1}}{\sqrt{3}}\right) ^{2} + \left(\frac{U_{2}}{\sqrt{3}}\right) ^{2} \sim \chi_{2} ^{2}.
 $$
 
 Thus,  $c = 1 / 3$ .
@@ -3092,7 +3092,7 @@ $\triangleright$  SOLUTION TO (a): The pdf of the Student's  $t$  distribution i
 $\triangleright$  SOLUTION TO (b): Note that  $\operatorname{Var}(T) = E(T^2) - [E(T)]^2 = E(T^2)$ . Now let  $Z$  and  $U$  be independent random variables with distributions  $Z \sim N(0,1)$  and  $U \sim \chi_{\nu}^2$ , or equivalently,  $U \sim \mathrm{Gamma}(\nu / 2, 1 / 2)$ . Then
 
 $$
-\operatorname {V a r} (T) = E (T ^ {2}) = E \left[ \left(\frac {Z}{\sqrt {U / \nu}}\right) ^ {2} \right] = \nu E \left(\frac {Z ^ {2}}{U}\right) = \nu E (Z ^ {2}) E \left(\frac {1}{U}\right) = \nu \left[ \frac {1 / 2}{(\nu / 2) - 1} \right] = \frac {\nu}{\nu - 2},
+\operatorname{Var} (T) = E (T^{2}) = E \left[ \left(\frac{Z}{\sqrt{U / \nu}}\right) ^{2} \right] = \nu E \left(\frac{Z^{2}}{U}\right) = \nu E (Z^{2}) E \left(\frac{1}{U}\right) = \nu \left[ \frac{1 / 2}{(\nu / 2) - 1} \right] = \frac{\nu}{\nu - 2},
 $$
 
 noting that  $E(Z^2) = 1$ .
@@ -3102,7 +3102,7 @@ noting that  $E(Z^2) = 1$ .
 $\triangleright$  SOLUTION: Let  $X_{1}, \ldots, X_{n} \sim \mathrm{iid} \, \mathrm{Gamma}(\alpha, \beta)$ , where  $\alpha$  is known and  $\beta > 0$  is unknown. Then the joint pdf of  $\mathbf{X} = (X_{1}, \ldots, X_{n})$  is
 
 $$
-\begin{array}{l} f _ {\beta} (\boldsymbol {x}) = \prod_ {i = 1} ^ {n} \frac {\beta^ {\alpha}}{\Gamma (\alpha)} x _ {i} ^ {\alpha - 1} \exp (- \beta x _ {i}) I _ {(0, \infty)} (x _ {i}) \\ = \underbrace {\beta^ {n \alpha} \exp \left(- n \beta \overline {{X}} _ {n}\right)} _ {g (\overline {{X}} _ {n}, \beta)} \underbrace {\left[ \Gamma (\alpha) \right] ^ {- n} \left(\prod_ {i = 1} ^ {n} x _ {i}\right) ^ {\alpha - 1} I _ {(0 , \infty)} \left(\underset {i = 1} {\overset {n} {\min}} x _ {i}\right)} _ {h (\boldsymbol {x})}. \\ \end{array}
+\begin{array}{l} f_{\beta} (\boldsymbol{x}) = \prod_{i=1} ^{n} \frac{\beta^{\alpha}}{\Gamma (\alpha)} x_{i} ^{\alpha - 1} \exp (- \beta x_{i}) I_{(0, \infty)} (x_{i}) \\ = \underbrace{\beta^{n \alpha} \exp \left(- n \beta \overline{{X}} _{n}\right)} _{g (\overline{{X}} _{n}, \beta)} \underbrace{\left[ \Gamma (\alpha) \right] ^{- n} \left(\prod_{i=1} ^{n} x_{i}\right) ^{\alpha - 1} I_{(0 , \infty)} \left(\underset{i = 1} {\overset{n} {\min}} x_{i}\right)} _{h (\boldsymbol{x})}. \\ \end{array}
 $$
 
 Thus,  $\overline{X}_n$  is sufficient for  $\beta$  by the factorization theorem.
@@ -3114,17 +3114,17 @@ A
 $\triangleright$  SOLUTION: Let  $X_{1}, \ldots, X_{n} \sim \mathrm{iid}$ $\operatorname{Unif}(a, b)$ , where  $a$  is known and  $b > a$  is unknown. Then the joint pdf of  $\mathbf{X} = (X_{1}, \ldots, X_{n})$  is
 
 $$
-f _ {b} (\pmb {x}) = \prod_ {i = 1} ^ {n} \frac {1}{b - a} I _ {(a, b)} (x _ {i}) = \underbrace {\left(b - a\right) ^ {- n} I _ {(- \infty , b)} \left(\max _ {1 \leq i \leq n} x _ {i}\right)} _ {g (\max _ {1 \leq i \leq n} x _ {i}, b)} \underbrace {I _ {(a , \infty)} \left(\min _ {1 \leq i \leq n} x _ {i}\right)} _ {h (\pmb {x})}.
+f_{b} (\pmb{x}) = \prod_{i=1} ^{n} \frac{1}{b - a} I_{(a, b)} (x_{i}) = \underbrace{\left(b - a\right) ^{- n} I_{(- \infty , b)} \left(\max_{1 \leq i \leq n} x_{i}\right)} _{g (\max_{1 \leq i \leq n} x_{i}, b)} \underbrace{I_{(a , \infty)} \left(\min_{1 \leq i \leq n} x_{i}\right)} _{h (\pmb{x})}.
 $$
 
 Thus,  $\max_{1\leq i\leq n}X_i$  is sufficient for  $b$  by the factorization theorem.
 
 5. DeGroot & Schervish 7.8.2.
 
-$\triangleright$  SOLUTION: Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname {Beta}(\alpha ,\beta)$  , where  $\alpha >0$  and  $\beta >0$  are both unknown. Then the joint pdf of  $\mathbf{X} = (X_1,\dots,X_n)$  is
+$\triangleright$  SOLUTION: Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Beta}(\alpha ,\beta)$  , where  $\alpha >0$  and  $\beta >0$  are both unknown. Then the joint pdf of  $\mathbf{X} = (X_1,\dots,X_n)$  is
 
 $$
-\begin{array}{l} f _ {\alpha , \beta} (\boldsymbol {x}) = \prod_ {i = 1} ^ {n} \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x _ {i} ^ {\alpha - 1} (1 - x _ {i}) ^ {\beta - 1} I _ {(0, 1)} (x _ {i}) \\ = \underbrace {\left[ \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} \right] ^ {n} \left(\prod_ {i = 1} ^ {n} x _ {i}\right) ^ {\alpha - 1} \left[ \prod_ {i = 1} ^ {n} (1 - x _ {i}) \right] ^ {\beta - 1}} _ {g [ (t _ {1}, t _ {2}), (\alpha , \beta) ]} \underbrace {I _ {(0 , 1)} \left(\min _ {1 \leq i \leq n} x _ {i}\right) I _ {(0 , 1)} \left(\max _ {1 \leq i \leq n} x _ {i}\right)} _ {h (\pmb {x})}, \\ \end{array}
+\begin{array}{l} f_{\alpha , \beta} (\boldsymbol{x}) = \prod_{i=1} ^{n} \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x_{i} ^{\alpha - 1} (1 - x_{i}) ^{\beta - 1} I_{(0, 1)} (x_{i}) \\ = \underbrace{\left[ \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} \right] ^{n} \left(\prod_{i=1} ^{n} x_{i}\right) ^{\alpha - 1} \left[ \prod_{i=1} ^{n} (1 - x_{i}) \right] ^{\beta - 1}} _{g [ (t_{1}, t_{2}), (\alpha , \beta) ]} \underbrace{I_{(0 , 1)} \left(\min_{1 \leq i \leq n} x_{i}\right) I_{(0 , 1)} \left(\max_{1 \leq i \leq n} x_{i}\right)} _{h (\pmb{x})}, \\ \end{array}
 $$
 
 where  $t_1 = \prod_{i=1}^n x_i$  and  $t_2 = \prod_{i=1}^n (1 - x_i)$ . Thus,  $(T_1, T_2) = [\prod_{i=1}^n X_i, \prod_{i=1}^n (1 - X_i)]$  is sufficient for  $(\alpha, \beta)$ .
@@ -3134,29 +3134,29 @@ where  $t_1 = \prod_{i=1}^n x_i$  and  $t_2 = \prod_{i=1}^n (1 - x_i)$ . Thus,  
 $\triangleright$  SOLUTION: First, the beta distribution has pdf
 
 $$
-\begin{array}{l} f (x) = \frac {\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x ^ {\alpha - 1} (1 - x) ^ {\beta - 1} I _ {(0, 1)} (x) \\ = \exp \left[ \alpha \log x + \beta \log (1 - x) + \log \Gamma (\alpha + \beta) - \log \Gamma (\alpha) - \log \Gamma (\beta) \right] \frac {1}{x (1 - x)} I _ {(0, 1)} (x). \\ \end{array}
+\begin{array}{l} f (x) = \frac{\Gamma (\alpha + \beta)}{\Gamma (\alpha) \Gamma (\beta)} x^{\alpha - 1} (1 - x) ^{\beta - 1} I_{(0, 1)} (x) \\ = \exp \left[ \alpha \log x + \beta \log (1 - x) + \log \Gamma (\alpha + \beta) - \log \Gamma (\alpha) - \log \Gamma (\beta) \right] \frac{1}{x (1 - x)} I_{(0, 1)} (x). \\ \end{array}
 $$
 
 Then
 
 $$
-k = 2, \qquad \eta_ {1} (\alpha , \beta) = \alpha , \qquad r _ {1} (x) = x, \qquad \eta_ {2} (\alpha , \beta) = \beta , \qquad r _ {2} (x) = 1 - x,
+k = 2, \qquad \eta_{1} (\alpha , \beta) = \alpha , \qquad r_{1} (x) = x, \qquad \eta_{2} (\alpha , \beta) = \beta , \qquad r_{2} (x) = 1 - x,
 $$
 
 $$
-\psi (\alpha , \beta) = \log \Gamma (\alpha) + \log \Gamma (\beta) - \log \Gamma (\alpha + \beta), \qquad h (x) = \frac {1}{x (1 - x)} I _ {(0, 1)} (x),
+\psi (\alpha , \beta) = \log \Gamma (\alpha) + \log \Gamma (\beta) - \log \Gamma (\alpha + \beta), \qquad h (x) = \frac{1}{x (1 - x)} I_{(0, 1)} (x),
 $$
 
 so this distribution belongs to the exponential family. The gamma distribution has pdf
 
 $$
-f (x) = \frac {\beta^ {\alpha}}{\Gamma (\alpha)} x ^ {\alpha - 1} \exp (- \beta x) I _ {(0, \infty)} (x) = \exp [ \alpha \log x - \beta x - \log \Gamma (\alpha) + \alpha \log \beta ] \frac {1}{x} I _ {(0, \infty)} (x).
+f (x) = \frac{\beta^{\alpha}}{\Gamma (\alpha)} x^{\alpha - 1} \exp (- \beta x) I_{(0, \infty)} (x) = \exp [ \alpha \log x - \beta x - \log \Gamma (\alpha) + \alpha \log \beta ] \frac{1}{x} I_{(0, \infty)} (x).
 $$
 
 Then
 
 $$
-\begin{array}{l} k = 2, \qquad \eta_ {1} (\alpha , \beta) = \alpha , \qquad r _ {1} (x) = \log x, \qquad \eta_ {2} (\alpha , \beta) = \beta , \qquad r _ {2} (x) = - x, \\ \psi (\alpha , \beta) = \log \Gamma (\alpha) - \alpha \log \beta , \qquad h (x) = \frac {1}{x} I _ {(0, 1)} (x), \\ \end{array}
+\begin{array}{l} k = 2, \qquad \eta_{1} (\alpha , \beta) = \alpha , \qquad r_{1} (x) = \log x, \qquad \eta_{2} (\alpha , \beta) = \beta , \qquad r_{2} (x) = - x, \\ \psi (\alpha , \beta) = \log \Gamma (\alpha) - \alpha \log \beta , \qquad h (x) = \frac{1}{x} I_{(0, 1)} (x), \\ \end{array}
 $$
 
 so this distribution also belongs to the exponential family.
@@ -3166,7 +3166,7 @@ so this distribution also belongs to the exponential family.
 $\triangleright$  SOLUTION TO (a): Let  $m = \min_{1\leq i\leq n}x_i$ . The likelihood is
 
 $$
-L _ {\boldsymbol {x}} (\theta) = \prod_ {i = 1} ^ {n} \exp (\theta - x _ {i}) I _ {(- \infty , x _ {i})} (\theta) = \exp \left(- \sum_ {i = 1} ^ {n} x _ {i}\right) \exp (n \theta) I _ {(- \infty , m)} (\theta).
+L_{\boldsymbol{x}} (\theta) = \prod_{i=1} ^{n} \exp (\theta - x_{i}) I_{(- \infty , x_{i})} (\theta) = \exp \left(- \sum_{i=1} ^{n} x_{i}\right) \exp (n \theta) I_{(- \infty , m)} (\theta).
 $$
 
 Observe that the likelihood  $L_{\pmb{x}}(\theta)$  is strictly positive and strictly increasing for  $\theta < m$ , while  $L_{\pmb{x}}(\theta) = 0$  for all  $\theta \geq m$ . Now note that  $\lim_{\theta \uparrow m} L_{\pmb{x}}(\theta) = 1$ . However, evaluating the likelihood at  $m$  itself yields  $L_{\pmb{x}}(m) = 0$ . Thus, there is no value of  $\theta$  that maximizes  $L_{\pmb{x}}(\theta)$ , and so the maximum likelihood estimator does not exist.
@@ -3174,7 +3174,7 @@ Observe that the likelihood  $L_{\pmb{x}}(\theta)$  is strictly positive and str
 $\triangleright$  SOLUTION TO (b): We could instead simply take the pdf to be
 
 $$
-f _ {\theta} (x) = \left\{ \begin{array}{l l} \exp (\theta - x) & \text {i f} x \geq \theta , \\ 0 & \text {i f} x <   \theta . \end{array} \right.
+f_{\theta} (x) = \left\{\begin{array}{l l} \exp (\theta - x) & \text{if} x \geq \theta , \\ 0 & \text{if} x <   \theta . \end{array} \right.
 $$
 
 Then  $L_{\pmb{x}}(m) = 1$ , so the likelihood attains its maximum at  $\theta = m$ . Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = m = \min_{1 \leq i \leq n} X_i$ .
@@ -3184,23 +3184,23 @@ Then  $L_{\pmb{x}}(m) = 1$ , so the likelihood attains its maximum at  $\theta =
 $\triangleright$  SOLUTION: The likelihood and log-likelihood are
 
 $$
-L _ {\boldsymbol {x}} \left(\sigma^ {2}\right) = \prod_ {i = 1} ^ {n} \frac {1}{\sqrt {2 \pi \sigma^ {2}}} \exp \left(- \frac {x _ {i} ^ {2}}{2 \sigma^ {2}}\right) = \left(2 \pi \sigma^ {2}\right) ^ {- n / 2} \exp \left(- \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} x _ {i} ^ {2}\right),
+L_{\boldsymbol{x}} \left(\sigma^{2}\right) = \prod_{i=1} ^{n} \frac{1}{\sqrt{2 \pi \sigma^{2}}} \exp \left(- \frac{x_{i} ^{2}}{2 \sigma^{2}}\right) = \left(2 \pi \sigma^{2}\right) ^{- n / 2} \exp \left(- \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} x_{i} ^{2}\right),
 $$
 
 $$
-\ell_ {\boldsymbol {x}} \big (\sigma^ {2} \big) = \log L _ {\boldsymbol {x}} \big (\sigma^ {2} \big) = - \frac {n}{2} \log (2 \pi) - \frac {n}{2} \log \sigma^ {2} - \frac {1}{2 \sigma^ {2}} \sum_ {i = 1} ^ {n} x _ {i} ^ {2}.
+\ell_{\boldsymbol{x}} \big (\sigma^{2} \big) = \log L_{\boldsymbol{x}} \big (\sigma^{2} \big) = - \frac{n}{2} \log (2 \pi) - \frac{n}{2} \log \sigma^{2} - \frac{1}{2 \sigma^{2}} \sum_{i=1} ^{n} x_{i} ^{2}.
 $$
 
 Then
 
 $$
-\frac {\partial}{\partial (\sigma^ {2})} \ell_ {\boldsymbol {x}} (\sigma^ {2}) = - \frac {n}{2 \sigma^ {2}} + \frac {1}{2 (\sigma^ {2}) ^ {2}} \sum_ {i = 1} ^ {n} x _ {i} ^ {2} = 0 \iff \sigma^ {2} = \frac {1}{n} \sum_ {i = 1} ^ {n} x _ {i} ^ {2},
+\frac{\partial}{\partial (\sigma^{2})} \ell_{\boldsymbol{x}} (\sigma^{2}) = - \frac{n}{2 \sigma^{2}} + \frac{1}{2 (\sigma^{2}) ^{2}} \sum_{i=1} ^{n} x_{i} ^{2} = 0 \iff \sigma^{2} = \frac{1}{n} \sum_{i=1} ^{n} x_{i} ^{2},
 $$
 
 and it can be seen that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_ {\pmb {x}} \bigg (\frac {1}{n} \sum_ {i = 1} ^ {n} x _ {i} ^ {2} \bigg) = \max _ {\sigma^ {2} > 0} \ell_ {\pmb {x}} \big (\sigma^ {2} \big) \qquad \mathrm {f o r a l l} \pmb {x} \in \mathbb {R} ^ {p}.
+\ell_{\pmb{x}} \bigg (\frac{1}{n} \sum_{i=1} ^{n} x_{i} ^{2} \bigg) = \max_{\sigma^{2} > 0} \ell_{\pmb{x}} \big (\sigma^{2} \big) \qquad \mathrm{forall} \pmb{x} \in \mathbb{R} ^{p}.
 $$
 
 Thus, the maximum likelihood estimator of  $\sigma^2$  is  $\hat{\sigma}^2 = n^{-1}\sum_{i=1}^{n}X_i^2$ .
@@ -3219,23 +3219,23 @@ Note: The derivative of the arcsin function is  $\frac{d}{dt} \arcsin t = (1 - t
 $\triangleright$  SOLUTION TO (a): The likelihood is  $L_{x}(\theta) = \binom{n}{x}\theta^{x}(1 - \theta)^{n - x}$ , and hence the log-likelihood is  $\ell_{x}(\theta) = \log \binom{n}{x} + x\log \theta + (n - x)\log (1 - \theta)$ . Then
 
 $$
-\frac {\partial}{\partial \theta} \ell_ {x} (\theta) = \frac {x}{\theta} - \frac {n - x}{1 - \theta} = 0 \Longleftrightarrow \theta = \frac {x}{n},
+\frac{\partial}{\partial \theta} \ell_{x} (\theta) = \frac{x}{\theta} - \frac{n - x}{1 - \theta} = 0 \Longleftrightarrow \theta = \frac{x}{n},
 $$
 
 and it can be seen that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_ {x} \left(\frac {x}{n}\right) = \max  _ {0 \leq \theta \leq 1} \ell_ {x} (\theta) \qquad \text {f o r a l l} x \in \{0, \dots , n \}.
+\ell_{x} \left(\frac{x}{n}\right) = \max_{0 \leq \theta \leq 1} \ell_{x} (\theta) \qquad \text{forall} x \in \{0, \dots , n \}.
 $$
 
 Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta}_n = X_n / n$ .
 
-$\triangleright$  SOLUTION TO (b): Write  $X_{n}$  as  $X_{n} = \sum_{i = 1}^{n}Z_{i}$ , where  $Z_{1},\ldots ,Z_{n}\sim \mathrm{iid}\operatorname {Bin}(1,\theta)$ , and note that  $E(Z_{1}) = \theta$  and  $\operatorname {Var}(Z_1) = \theta (1 - \theta)$ . Then by the central limit theorem, as  $n\to \infty$ ,  $\sqrt{n} (\hat{\theta}_n - \theta) = \sqrt{n} (n^{-1}\sum_{i = 1}^{n}Z_i - \theta)\rightarrow_D N[0,\theta (1 - \theta)]$ .  
+$\triangleright$  SOLUTION TO (b): Write  $X_{n}$  as  $X_{n} = \sum_{i=1}^{n}Z_{i}$ , where  $Z_{1},\ldots ,Z_{n}\sim \mathrm{iid}\operatorname{Bin}(1,\theta)$ , and note that  $E(Z_{1}) = \theta$  and  $\operatorname{Var}(Z_1) = \theta (1 - \theta)$ . Then by the central limit theorem, as  $n\to \infty$ ,  $\sqrt{n} (\hat{\theta}_n - \theta) = \sqrt{n} (n^{-1}\sum_{i=1}^{n}Z_i - \theta)\rightarrow_D N[0,\theta (1 - \theta)]$ .  
 $\triangleright$  SOLUTION TO (c): The maximum likelihood estimator of  $\xi = \arcsin \left(\sqrt{\theta}\right)$  is simply  $\hat{\xi}_n = \arcsin \left(\sqrt{\hat{\theta}_n}\right) = \arcsin \left(\sqrt{X_n / n}\right)$ .  
 $\triangleright$  SOLUTION TO (d): Let  $g(t) = \arcsin \left(\sqrt{t}\right)$ , which has derivative
 
 $$
-g ^ {\prime} (t) = \left[ \frac {1}{\sqrt {1 - (\sqrt {t}) ^ {2}}} \right] \left(\frac {1}{2 \sqrt {t}}\right) = \frac {1}{2 \sqrt {t (1 - t)}}.
+g^{\prime} (t) = \left[ \frac{1}{\sqrt{1 - (\sqrt{t}) ^{2}}} \right] \left(\frac{1}{2 \sqrt{t}}\right) = \frac{1}{2 \sqrt{t (1 - t)}}.
 $$
 
 Now note that  $[g'(\theta)]^2 = 1 / [4\theta(1 - \theta)]$ . Then  $\sqrt{n}(\hat{\xi}_n - \xi) = \sqrt{n}[g(\hat{\theta}_n) - g(\theta)] \to_D N(0, 1/4)$  by the delta method. Notice that the variance of the limiting distribution is the same for all values of  $\theta$  (or  $\xi$ ), unlike our result in part (b).
@@ -3248,13 +3248,13 @@ Now note that  $[g'(\theta)]^2 = 1 / [4\theta(1 - \theta)]$ . Then  $\sqrt{n}(\h
 $\triangleright$  SOLUTION TO (a): The likelihood is  $L_{y}(\theta) = (1 - \theta)^{y}\theta$ , and hence the log-likelihood is  $\ell_y(\theta) = \log L_y(\theta) = y\log (1 - \theta) + \log \theta$ . Then
 
 $$
-\frac {\partial}{\partial \theta} \ell_ {y} (\theta) = \frac {1}{\theta} - \frac {y}{1 - \theta} = 0 \Longleftrightarrow \theta = \frac {1}{y + 1},
+\frac{\partial}{\partial \theta} \ell_{y} (\theta) = \frac{1}{\theta} - \frac{y}{1 - \theta} = 0 \Longleftrightarrow \theta = \frac{1}{y + 1},
 $$
 
 and it can be seen that this critical point is indeed the maximizer, i.e.,
 
 $$
-\ell_ {y} \left(\frac {1}{y + 1}\right) = \max  _ {0 <   \theta \leq 1} \ell_ {y} (\theta) \qquad \text {f o r a l l i n t e g e r s} y \geq 0.
+\ell_{y} \left(\frac{1}{y + 1}\right) = \max_{0 <   \theta \leq 1} \ell_{y} (\theta) \qquad \text{forallintegers} y \geq 0.
 $$
 
 Thus, the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = 1 / (Y + 1)$ .
@@ -3270,7 +3270,7 @@ $\triangleright$  SOLUTION TO (b): In part (a) of problem 9, the maximum likelih
 3. Let  $X_{1}, \ldots, X_{n}$  be iid random variables with a continuous uniform distribution on  $[0, \theta]$ , where  $\theta > 0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{ \begin{array}{l l} \frac {q k ^ {q}}{\theta^ {q + 1}} & \text {i f} \theta \geq k, \\ 0 & \text {i f} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{l l} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3311,7 +3311,7 @@ where the constants  $a$ ,  $b$ , and  $c$  satisfy  $c^{-1} = \int_{\Theta}\exp
 $\triangleright$  SOLUTION: Before substituting in the specific values given in the problem, we first find the general form of the posterior for an exponential likelihood and gamma prior. Based on what the problem tells us, we have  $X_{1}, \ldots, X_{n} \sim \mathrm{iid} \, \mathrm{Exp}(\theta)$  and a Gamma  $(a, b)$  prior for  $\theta$ . Ignoring constants, the posterior of  $\theta$  is (for  $\theta > 0$ )
 
 $$
-\pi (\theta \mid \boldsymbol {x}) \propto \left[ \prod_ {i = 1} ^ {n} \theta \exp (- \theta x _ {i}) \right] \theta^ {a - 1} \exp (- b \theta) = \theta^ {a + n - 1} \exp \left[ - \left(b + \sum_ {i = 1} ^ {n} x _ {i}\right) \theta \right],
+\pi (\theta \mid \boldsymbol{x}) \propto \left[ \prod_{i=1} ^{n} \theta \exp (- \theta x_{i}) \right] \theta^{a - 1} \exp (- b \theta) = \theta^{a + n - 1} \exp \left[ - \left(b + \sum_{i=1} ^{n} x_{i}\right) \theta \right],
 $$
 
 which we recognize as an unnormalized Gamma  $(a + n, b + \sum_{i=1}^{n} x_i)$  pdf. Thus, the general form of the posterior is  $\theta \mid \boldsymbol{x} \sim \mathrm{Gamma}(a + n, b + \sum_{i=1}^{n} x_i)$ . We now substitute in the specific values given in the problem. Clearly we have  $n = 20$ , and since the problem tells us that  $\overline{x} = 3.8$ , it follows that  $\sum_{i=1}^{n} x_i = n\overline{x} = 76$ . To determine the values of  $a$  and  $b$ , note that the mean of a Gamma  $(a, b)$  distribution is  $a / b$ , while the standard deviation is  $\sqrt{a / b^2} = \sqrt{a} / b$ . The problem tells us that  $a / b = 0.2$  and  $\sqrt{a} / b = 1$ , from which it follows that  $a = 0.04$  and  $b = 0.2$ . Then the posterior distribution for this observed data set is  $\theta \mid \boldsymbol{x} \sim \mathrm{Gamma}(20.04, 76.2)$ . The posterior mean is then  $E(\theta \mid \boldsymbol{x}) = 20.04 / 76.2 \approx 0.263$ , while the posterior mode is  $\arg \max_{\theta > 0} \pi(\theta \mid \boldsymbol{x}) = (20.04 - 1) / 76.2 \approx 0.250$ .
@@ -3321,13 +3321,13 @@ which we recognize as an unnormalized Gamma  $(a + n, b + \sum_{i=1}^{n} x_i)$  
 $\triangleright$  SOLUTION: Let  $X_{1}, \ldots, X_{n} \sim \mathrm{iid}$  Poisson  $(\theta)$  conditional on  $\theta$ , and let the prior on  $\theta$  be  $\operatorname{Gamma}(a, b)$ , where we also define  $\mu_{o} = a / b$ . Ignoring constants, the posterior distribution of  $\theta$  is (for  $\theta > 0$ )
 
 $$
-\pi (\theta \mid \boldsymbol {x}) \propto \left[ \prod_ {i = 1} ^ {n} \theta^ {x _ {i}} \exp (- \theta) \right] \theta^ {a - 1} \exp (- b \theta) \propto \theta^ {\sum_ {i = 1} ^ {n} x _ {i} + a - 1} \exp [ - \theta (n + b) ],
+\pi (\theta \mid \boldsymbol{x}) \propto \left[ \prod_{i=1} ^{n} \theta^{x_{i}} \exp (- \theta) \right] \theta^{a - 1} \exp (- b \theta) \propto \theta^{\sum_{i=1} ^{n} x_{i} + a - 1} \exp [ - \theta (n + b) ],
 $$
 
 which we recognize as an unnormalized Gamma  $\left(a + \sum_{i=1}^{n} x_i, b + n\right)$  pdf. Thus, the posterior is  $\theta \mid \boldsymbol{x} \sim \mathrm{Gamma}\left(a + \sum_{i=1}^{n} x_i, b + n\right)$ , and the posterior mean of  $\theta$  is (when written as a random variable)
 
 $$
-E (\boldsymbol {\theta} \mid \boldsymbol {X}) = \frac {a + \sum_ {i = 1} ^ {n} X _ {i}}{b + n} = \left(\frac {n}{n + b}\right) \overline {{X}} _ {n} + \left(\frac {b}{n + b}\right) \frac {a}{b} = \gamma_ {n} \overline {{X}} _ {n} + (1 - \gamma_ {n}) \mu_ {0},
+E (\boldsymbol{\theta} \mid \boldsymbol{X}) = \frac{a + \sum_{i=1} ^{n} X_{i}}{b + n} = \left(\frac{n}{n + b}\right) \overline{{X}} _{n} + \left(\frac{b}{n + b}\right) \frac{a}{b} = \gamma_{n} \overline{{X}} _{n} + (1 - \gamma_{n}) \mu_{0},
 $$
 
 where  $\gamma_{n} = n / (b + n)$ . Clearly  $\gamma_{n} = 1 / (1 + n^{-1}b) \to 1$  as  $n \to \infty$ .
@@ -3337,7 +3337,7 @@ where  $\gamma_{n} = n / (b + n)$ . Clearly  $\gamma_{n} = 1 / (1 + n^{-1}b) \to
 3. Let  $X_{1},\ldots ,X_{n}$  be iid random variables with a continuous uniform distribution on  $[0,\theta ]$ , where  $\theta >0$  is unknown. Suppose we assign to  $\theta$  the prior pdf
 
 $$
-\pi (\theta) = \left\{ \begin{array}{l l} \frac {q k ^ {q}}{\theta^ {q + 1}} & \text {i f} \theta \geq k, \\ 0 & \text {i f} \theta <   k, \end{array} \right.
+\pi (\theta) = \left\{\begin{array}{l l} \frac{q k^{q}}{\theta^{q + 1}} & \text{if} \theta \geq k, \\ 0 & \text{if} \theta <   k, \end{array} \right.
 $$
 
 where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(k,q)$  distribution, and its mean is  $kq / (q - 1)$  if  $q > 1$  (and  $\infty$  if  $q \leq 1$ ). You may use these facts without proof.
@@ -3347,10 +3347,10 @@ where  $k > 0$  and  $q > 0$  are constants. Note: This is called the Pareto  $(
 $\triangleright$  SOLUTION TO (a): Ignoring constants, the posterior distribution of  $\theta$  is
 
 $$
-\pi (\theta \mid \boldsymbol {x}) \propto \left[ \prod_ {i = 1} ^ {n} \frac {1}{\theta} I _ {[ 0, \theta ]} (x _ {i}) \right] \frac {1}{\theta^ {q + 1}} I _ {[ k, \infty)} (\theta) = \frac {1}{\theta^ {q + n + 1}} I _ {[ \max \{k, x _ {1}, \dots , x _ {n} \}, \infty)} (\theta),
+\pi (\theta \mid \boldsymbol{x}) \propto \left[ \prod_{i=1} ^{n} \frac{1}{\theta} I_{[ 0, \theta ]} (x_{i}) \right] \frac{1}{\theta^{q + 1}} I_{[ k, \infty)} (\theta) = \frac{1}{\theta^{q + n + 1}} I_{[ \max \{k, x_{1}, \dots , x_{n} \}, \infty)} (\theta),
 $$
 
-which we recognize as an unnormalized Pareto  $\left(\max \{k,x_1,\ldots ,x_n\} ,q + n\right)$  pdf. Thus,  $\theta \mid \pmb {x}\sim \mathrm{Pareto}\big(\max \{k,x_1,\dots ,x_n\} ,q + n\big).$
+which we recognize as an unnormalized Pareto  $\left(\max \{k,x_1,\ldots ,x_n\} ,q + n\right)$  pdf. Thus,  $\theta \mid \pmb{x}\sim \mathrm{Pareto}\big(\max \{k,x_1,\dots ,x_n\} ,q + n\big).$
 
 (b) Find (or simply state) the posterior mean of  $\theta$
 
@@ -3377,13 +3377,13 @@ where the constants  $a$ ,  $b$ , and  $c$  satisfy  $c^{-1} = \int_{\Theta} \ex
 $\triangleright$  SOLUTION: Ignoring constants, the posterior is
 
 $$
-\begin{array}{l} \pi (\theta \mid \boldsymbol {x}) \propto \left\{\prod_ {i = 1} ^ {n} \exp [ \eta (\theta) r (x _ {i}) - \psi (\theta) ] \right\} \exp [ - a \psi (\theta) + b \eta (\theta) ] \\ \propto \exp \biggl \{- (a + n) \psi (\theta) + \biggl [ b + \sum_ {i = 1} ^ {n} r (x _ {i}) \biggr ] \eta (\theta) \biggr \}, \\ \end{array}
+\begin{array}{l} \pi (\theta \mid \boldsymbol{x}) \propto \left\{\prod_{i=1} ^{n} \exp [ \eta (\theta) r (x_{i}) - \psi (\theta) ] \right\} \exp [ - a \psi (\theta) + b \eta (\theta) ] \\ \propto \exp \biggl \{- (a + n) \psi (\theta) + \biggl [ b + \sum_{i=1} ^{n} r (x_{i}) \biggr ] \eta (\theta) \biggr \}, \\ \end{array}
 $$
 
 so the properly normalized posterior is
 
 $$
-\pi (\theta \mid \boldsymbol {x}) = \frac {\exp \left\{- (a + n) \psi (\theta) + \left[ b + \sum_ {i = 1} ^ {n} r (x _ {i}) \right] \eta (\theta) \right\}}{\int_ {\Theta} \exp \left\{- (a + n) \psi (\theta) + \left[ b + \sum_ {i = 1} ^ {n} r (x _ {i}) \right] \eta (\theta) \right\} d \theta}.
+\pi (\theta \mid \boldsymbol{x}) = \frac{\exp \left\{- (a + n) \psi (\theta) + \left[ b + \sum_{i=1} ^{n} r (x_{i}) \right] \eta (\theta) \right\}}{\int_{\Theta} \exp \left\{- (a + n) \psi (\theta) + \left[ b + \sum_{i=1} ^{n} r (x_{i}) \right] \eta (\theta) \right\} d \theta}.
 $$
 
 Thus, the posterior as the same form as the prior, with  $a$  replaced by  $a + n$ , with  $b$  replaced by  $b + \sum_{i=1}^{n} r(x_i)$ , and with  $c$  replaced by the inverse of the denominator above.
@@ -3393,7 +3393,7 @@ Thus, the posterior as the same form as the prior, with  $a$  replaced by  $a + 
 $\triangleright$  SOLUTION: Let  $\tilde{\xi}$  be any estimator of  $\xi$ . Using the hint, we can write  $E_{\theta}(\tilde{\xi})$  as
 
 $$
-E _ {\theta} \big (\tilde {\xi} \big) = \sum_ {x = 0} ^ {n} t _ {x} P _ {\theta} \big (X = x \big) = \sum_ {x = 0} ^ {n} t _ {x} \binom {n} {x} \theta^ {x} \big (1 - \theta \big) ^ {n - x},
+E_{\theta} \big (\tilde{\xi} \big) = \sum_{x=0} ^{n} t_{x} P_{\theta} \big (X = x \big) = \sum_{x=0} ^{n} t_{x} \binom{n} {x} \theta^{x} \big (1 - \theta \big) ^{n - x},
 $$
 
 which is some polynomial function of  $\theta$ . For  $\tilde{\xi}$  to be unbiased, this polynomial function of  $\theta$  must equal  $1 / \theta$  for all  $\theta \in (0,1)$ . However, this is impossible. (If it is not immediately clear why this is impossible, note that as  $\theta \downarrow 0$ , the polynomial function tends to whatever finite value it takes at zero, whereas  $1 / \theta$  tends to  $\infty$ .)
@@ -3405,7 +3405,7 @@ which is some polynomial function of  $\theta$ . For  $\tilde{\xi}$  to be unbia
 $\triangleright$  SOLUTION TO (a): The likelihood is
 
 $$
-L _ {x} (N) = \frac {1}{N} I _ {\{1, \ldots , N \}} (x) = \frac {1}{N} I _ {\{x, x + 1, \ldots \}} (N) = \left\{ \begin{array}{l l} 0 & \text {i f} N <   x, \\ \frac {1}{N} & \text {i f} N \geq x. \end{array} \right.
+L_{x} (N) = \frac{1}{N} I_{\{1, \ldots , N \}} (x) = \frac{1}{N} I_{\{x, x + 1, \ldots \}} (N) = \left\{\begin{array}{l l} 0 & \text{if} N <   x, \\ \frac{1}{N} & \text{if} N \geq x. \end{array} \right.
 $$
 
 Then clearly  $L_{x}(N)$  is maximized at  $N = x$ , so the MLE of  $N$  is  $\hat{N} = X$ .
@@ -3415,15 +3415,15 @@ Then clearly  $L_{x}(N)$  is maximized at  $N = x$ , so the MLE of  $N$  is  $\h
 $\triangleright$  SOLUTION TO (b): We have
 
 $$
-\operatorname {B i a s} _ {N} (\hat {N}) = E _ {N} (\hat {N}) - N = E _ {N} (X) - N = \frac {N + 1}{2} - N = - \left(\frac {N - 1}{2}\right),
+\operatorname{Bias} _{N} (\hat{N}) = E_{N} (\hat{N}) - N = E_{N} (X) - N = \frac{N + 1}{2} - N = - \left(\frac{N - 1}{2}\right),
 $$
 
 $$
-\operatorname {V a r} _ {N} (\hat {N}) = \operatorname {V a r} (X) = \frac {N ^ {2} - 1}{1 2},
+\operatorname{Var} _{N} (\hat{N}) = \operatorname{Var} (X) = \frac{N^{2} - 1}{12},
 $$
 
 $$
-\begin{array}{l} \mathrm {M S E} _ {N} (\hat {N}) = \left[ \operatorname {B i a s} _ {N} (\hat {N}) \right] ^ {2} + \operatorname {V a r} _ {N} (\hat {N}) \\ = \left[ - \left(\frac {N - 1}{2}\right) \right] ^ {2} + \frac {N ^ {2} - 1}{1 2} = \frac {N - 1}{1 2} \left[ 3 (N - 1) + (N + 1) \right] = \frac {(N - 1) (2 N - 1)}{6}, \\ \end{array}
+\begin{array}{l} \mathrm{MSE} _{N} (\hat{N}) = \left[ \operatorname{Bias} _{N} (\hat{N}) \right] ^{2} + \operatorname{Var} _{N} (\hat{N}) \\ = \left[ - \left(\frac{N - 1}{2}\right) \right] ^{2} + \frac{N^{2} - 1}{12} = \frac{N - 1}{12} \left[ 3 (N - 1) + (N + 1) \right] = \frac{(N - 1) (2 N - 1)}{6}, \\ \end{array}
 $$
 
 using the facts provided.
@@ -3439,13 +3439,13 @@ The question contained a mistake, as the two MSEs are actually equal if  $N = 1$
 $\triangleright$  SOLUTION TO (d): Since  $\mathrm{Bias}_N(\tilde{N}) = 0$ , we have
 
 $$
-\mathrm {M S E} _ {N} (\tilde {N}) = \operatorname {V a r} _ {N} (\tilde {N}) = \operatorname {V a r} _ {N} (2 X - 1) = 4 \operatorname {V a r} (X) = \frac {N ^ {2} - 1}{3},
+\mathrm{MSE} _{N} (\tilde{N}) = \operatorname{Var} _{N} (\tilde{N}) = \operatorname{Var} _{N} (2 X - 1) = 4 \operatorname{Var} (X) = \frac{N^{2} - 1}{3},
 $$
 
 again using the facts provided. Then simply observe that
 
 $$
-\mathrm {M S E} _ {N} (\tilde {N}) = \frac {(N - 1) (N + 1)}{3} = \frac {(N - 1) (2 N + 2)}{6} > \frac {(N - 1) (2 N - 1)}{6} = \mathrm {M S E} _ {N} (\hat {N})
+\mathrm{MSE} _{N} (\tilde{N}) = \frac{(N - 1) (N + 1)}{3} = \frac{(N - 1) (2 N + 2)}{6} > \frac{(N - 1) (2 N - 1)}{6} = \mathrm{MSE} _{N} (\hat{N})
 $$
 
 for all  $N > 1$ . (Note that if  $N = 1$ , then both estimators have an MSE of zero.)
@@ -3457,7 +3457,7 @@ for all  $N > 1$ . (Note that if  $N = 1$ , then both estimators have an MSE of 
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde {\theta} (X) = \left\{ \begin{array}{l l} t _ {0} & \text {i f} X = 0, \\ t _ {1} & \text {i f} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{l l} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3475,15 +3475,15 @@ where  $t_0,t_1\in \mathbb{R}$
 
 5. DeGroot & Schervish 8.8.14.
 
-6. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname {Bin}(1,\theta)$  , where  $0 <   \theta <  1$  and  $\theta$  is unknown.
+6. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Bin}(1,\theta)$  , where  $0 <   \theta <  1$  and  $\theta$  is unknown.
 
 (a) Find the Fisher information  $I(\theta)$  for the sample.  
 (b) We have shown before that the maximum likelihood estimator of  $\theta$  is  $\hat{\theta} = n^{-1}\sum_{i=1}^{n}X_{i}$ . Use your answer to part (a) to state the asymptotic distribution of  $\hat{\theta}$ . Does it agree with the result obtained by using the central limit theorem?
 
-7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname {Pareto}(k,\alpha)$ , where the  $\operatorname {Pareto}(k,\alpha)$  distribution has pdf
+7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$ , where the  $\operatorname{Pareto}(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{ \begin{array}{l l} \frac {\alpha k ^ {\alpha}}{x ^ {\alpha + 1}} & \text {i f} x \geq k, \\ 0 & \text {i f} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{l l} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3500,7 +3500,7 @@ Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
 1. Let  $X \sim \operatorname{Bin}(1, \theta)$  (a single observation). Observe that any estimator  $\tilde{\theta} = \tilde{\theta}(X)$  of  $\theta$  can be expressed as
 
 $$
-\tilde {\theta} (X) = \left\{ \begin{array}{l l} t _ {0} & \text {i f} X = 0, \\ t _ {1} & \text {i f} X = 1, \end{array} \right.
+\tilde{\theta} (X) = \left\{\begin{array}{l l} t_{0} & \text{if} X = 0, \\ t_{1} & \text{if} X = 1, \end{array} \right.
 $$
 
 where  $t_0,t_1\in \mathbb{R}$
@@ -3510,7 +3510,7 @@ where  $t_0,t_1\in \mathbb{R}$
 $\triangleright$  SOLUTION TO (a): The mean squared error of  $\tilde{\theta}$  is
 
 $$
-\begin{array}{l} \mathrm {M S E} _ {\theta} (\tilde {\theta}) = E _ {\theta} \left[ (\tilde {\theta} - \theta) ^ {2} \right] = (t _ {0} - \theta) ^ {2} (1 - \theta) + (t _ {1} - \theta) ^ {2} \theta \\ = \left(t _ {0} ^ {2} - 2 t _ {0} \theta + \theta^ {2}\right) - \left(t _ {0} ^ {2} \theta - 2 t _ {0} \theta^ {2} + \theta^ {3}\right) + \left(t _ {1} ^ {2} \theta - 2 t _ {1} \theta^ {2} + \theta^ {3}\right) \\ = t _ {0} ^ {2} + \left(- 2 t _ {0} - t _ {0} ^ {2} + t _ {1} ^ {2}\right) \theta + \left(1 + 2 t _ {0} - 2 t _ {1}\right) \theta^ {2}, \\ \end{array}
+\begin{array}{l} \mathrm{MSE} _{\theta} (\tilde{\theta}) = E_{\theta} \left[ (\tilde{\theta} - \theta) ^{2} \right] = (t_{0} - \theta) ^{2} (1 - \theta) + (t_{1} - \theta) ^{2} \theta \\ = \left(t_{0} ^{2} - 2 t_{0} \theta + \theta^{2}\right) - \left(t_{0} ^{2} \theta - 2 t_{0} \theta^{2} + \theta^{3}\right) + \left(t_{1} ^{2} \theta - 2 t_{1} \theta^{2} + \theta^{3}\right) \\ = t_{0} ^{2} + \left(- 2 t_{0} - t_{0} ^{2} + t_{1} ^{2}\right) \theta + \left(1 + 2 t_{0} - 2 t_{1}\right) \theta^{2}, \\ \end{array}
 $$
 
 which is a quadratic function of  $\theta$  with coefficients that depend on  $t_0$  and/or  $t_1$ .
@@ -3520,7 +3520,7 @@ which is a quadratic function of  $\theta$  with coefficients that depend on  $t
 $\triangleright$  SOLUTION TO (b): The weighted average MSE of  $\tilde{\theta}$  with  $w(\theta) = 1$  is
 
 $$
-\begin{array}{l} \int_ {0} ^ {1} \mathrm {M S E} _ {\theta} (\tilde {\theta}) w (\theta) d \theta = \int_ {0} ^ {1} \left[ t _ {0} ^ {2} + (- 2 t _ {0} - t _ {0} ^ {2} + t _ {1} ^ {2}) \theta + (1 + 2 t _ {0} - 2 t _ {1}) \theta^ {2} \right] d \theta \\ = t _ {0} ^ {2} - t _ {0} - \frac {1}{2} t _ {0} ^ {2} + \frac {1}{2} t _ {1} ^ {2} + \frac {1}{3} + \frac {2}{3} t _ {0} - \frac {2}{3} t _ {1} \\ = \frac {1}{2} t _ {0} ^ {2} - \frac {1}{3} t _ {0} + \frac {1}{2} t _ {1} ^ {2} - \frac {2}{3} t _ {1} + \frac {1}{3}, \\ \end{array}
+\begin{array}{l} \int_{0} ^{1} \mathrm{MSE} _{\theta} (\tilde{\theta}) w (\theta) d \theta = \int_{0} ^{1} \left[ t_{0} ^{2} + (- 2 t_{0} - t_{0} ^{2} + t_{1} ^{2}) \theta + (1 + 2 t_{0} - 2 t_{1}) \theta^{2} \right] d \theta \\ = t_{0} ^{2} - t_{0} - \frac{1}{2} t_{0} ^{2} + \frac{1}{2} t_{1} ^{2} + \frac{1}{3} + \frac{2}{3} t_{0} - \frac{2}{3} t_{1} \\ = \frac{1}{2} t_{0} ^{2} - \frac{1}{3} t_{0} + \frac{1}{2} t_{1} ^{2} - \frac{2}{3} t_{1} + \frac{1}{3}, \\ \end{array}
 $$
 
 which is a function of  $t_0$  and  $t_1$  only.
@@ -3532,7 +3532,7 @@ A
 $\triangleright$  SOLUTION TO (c): Setting the partial derivatives of our answer from part (b) equal to zero yields the equations
 
 $$
-t _ {0} - \frac {1}{3} = 0, \qquad t _ {1} - \frac {2}{3} = 0,
+t_{0} - \frac{1}{3} = 0, \qquad t_{1} - \frac{2}{3} = 0,
 $$
 
 so the weighted average MSE is minimized by taking  $t_0 = 1/3$  and  $t_1 = 2/3$ .
@@ -3542,7 +3542,7 @@ so the weighted average MSE is minimized by taking  $t_0 = 1/3$  and  $t_1 = 2/3
 $\triangleright$  SOLUTION TO (d): By Theorem 5.2.6 from the notes, the weighted average MSE with weighting function  $w(\theta)$  is minimized by the posterior mean that results from a Bayesian analysis with prior  $\pi (\theta) = w(\theta)$ . Now note that  $w(\theta) = 1$  for  $0\leq \theta \leq 1$  is the pdf of a  $\operatorname{Beta}(1,1)$  distribution. Then we can simply reuse the result from Examples 4.2.1 and 4.3.1 of the notes, in which we found that the posterior mean of  $\theta$  for a  $\operatorname{Bin}(n,\theta)$  likelihood and a  $\operatorname{Beta}(a,b)$  prior on  $\theta$  is
 
 $$
-\hat {\theta} ^ {B} (X) = E (\theta \mid X) = \frac {x + a}{n + a + b} = \frac {x + 1}{3} = \left\{ \begin{array}{l l} 1 / 3 & \text {i f} X = 0, \\ 2 / 3 & \text {i f} X = 1, \end{array} \right.
+\hat{\theta} ^{B} (X) = E (\theta \mid X) = \frac{x + a}{n + a + b} = \frac{x + 1}{3} = \left\{\begin{array}{l l} 1 / 3 & \text{if} X = 0, \\ 2 / 3 & \text{if} X = 1, \end{array} \right.
 $$
 
 noting that  $n = a = b = 1$
@@ -3554,13 +3554,13 @@ A
 $\triangleright$  SOLUTION: The second derivative of the log-likelihood is
 
 $$
-\ell_ {X} ^ {\prime \prime} (p) = \frac {\partial^ {2}}{\partial p ^ {2}} [ \log p + X \log (1 - p) ] = \frac {\partial}{\partial p} \left(\frac {1}{p} - \frac {X}{1 - p}\right) = - \frac {1}{p ^ {2}} - \frac {X}{(1 - p) ^ {2}}.
+\ell_{X} ^{\prime \prime} (p) = \frac{\partial^{2}}{\partial p^{2}} [ \log p + X \log (1 - p) ] = \frac{\partial}{\partial p} \left(\frac{1}{p} - \frac{X}{1 - p}\right) = - \frac{1}{p^{2}} - \frac{X}{(1 - p) ^{2}}.
 $$
 
 Then the Fisher information is
 
 $$
-I (p) = - E _ {p} [ \ell_ {X} ^ {\prime \prime} (p) ] = - E _ {p} \left[ - \frac {1}{p ^ {2}} - \frac {X}{(1 - p) ^ {2}} \right] = \frac {1}{p ^ {2}} + \frac {1}{(1 - p) ^ {2}} \left(\frac {1 - p}{p}\right) = \frac {1}{p ^ {2} (1 - p)},
+I (p) = - E_{p} [ \ell_{X} ^{\prime \prime} (p) ] = - E_{p} \left[ - \frac{1}{p^{2}} - \frac{X}{(1 - p) ^{2}} \right] = \frac{1}{p^{2}} + \frac{1}{(1 - p) ^{2}} \left(\frac{1 - p}{p}\right) = \frac{1}{p^{2} (1 - p)},
 $$
 
 noting that  $I(p) = I_1(p)$  since there is only one observation.
@@ -3572,13 +3572,13 @@ A
 $\triangleright$  SOLUTION: The second derivative of the log-likelihood is
 
 $$
-\ell_ {X} ^ {\prime \prime} (\sigma) = \frac {\partial^ {2}}{\partial \sigma^ {2}} \biggl [ - \frac {1}{2} \log (2 \pi) - \log \sigma - \frac {X ^ {2}}{2 \sigma^ {2}} \biggr ] = \frac {\partial}{\partial \sigma} \biggl (- \frac {1}{\sigma} + \frac {X ^ {2}}{\sigma^ {3}} \biggr) = \frac {1}{\sigma^ {2}} - \frac {3 X ^ {2}}{\sigma^ {4}}.
+\ell_{X} ^{\prime \prime} (\sigma) = \frac{\partial^{2}}{\partial \sigma^{2}} \biggl [ - \frac{1}{2} \log (2 \pi) - \log \sigma - \frac{X^{2}}{2 \sigma^{2}} \biggr ] = \frac{\partial}{\partial \sigma} \biggl (- \frac{1}{\sigma} + \frac{X^{2}}{\sigma^{3}} \biggr) = \frac{1}{\sigma^{2}} - \frac{3 X^{2}}{\sigma^{4}}.
 $$
 
 Then the Fisher information is
 
 $$
-I (\sigma) = - E _ {\sigma} [ \ell_ {X} ^ {\prime \prime} (\sigma) ] = - E _ {\sigma} \left(\frac {1}{\sigma^ {2}} - \frac {3 X ^ {2}}{\sigma^ {4}}\right) = - \frac {1}{\sigma^ {2}} + \frac {3}{\sigma^ {2}} = \frac {2}{\sigma^ {2}},
+I (\sigma) = - E_{\sigma} [ \ell_{X} ^{\prime \prime} (\sigma) ] = - E_{\sigma} \left(\frac{1}{\sigma^{2}} - \frac{3 X^{2}}{\sigma^{4}}\right) = - \frac{1}{\sigma^{2}} + \frac{3}{\sigma^{2}} = \frac{2}{\sigma^{2}},
 $$
 
 noting that  $I(\sigma) = I_1(\sigma)$  since there is only one observation.
@@ -3590,49 +3590,49 @@ noting that  $I(\sigma) = I_1(\sigma)$  since there is only one observation.
 $\triangleright$  SOLUTION: Let  $\ell_X^{(0)}(\theta)$  denote the likelihood in terms of  $\theta$ , and let  $\ell_X^{(1)}(\mu)$  denote the likelihood in terms of  $\mu$ . Both likelihoods are simply equal to the pdf or pmf of  $X$ , which has the same form regardless of what the parameter is considered to be. Then
 
 $$
-\ell_ {X} ^ {(1)} (\mu) = \ell_ {X} ^ {(0)} (\theta) = \ell_ {X} ^ {(0)} [ \psi (\mu) ].
+\ell_{X} ^{(1)} (\mu) = \ell_{X} ^{(0)} (\theta) = \ell_{X} ^{(0)} [ \psi (\mu) ].
 $$
 
 It follows that
 
 $$
-\frac {\partial}{\partial \mu} \ell_ {X} ^ {(1)} (\mu) = \frac {\partial}{\partial \mu} \ell_ {X} ^ {(0)} [ \psi (\mu) ].
+\frac{\partial}{\partial \mu} \ell_{X} ^{(1)} (\mu) = \frac{\partial}{\partial \mu} \ell_{X} ^{(0)} [ \psi (\mu) ].
 $$
 
 Let  $[\ell_X^{(1)}]'(\mu)$  denote the left-hand side of the equation above. To compute the right-hand side, recall that the chain rule for taking derivatives states that
 
 $$
-\frac {d}{d t} g [ h (t) ] = g ^ {\prime} [ h (t) ] h ^ {\prime} (t).
+\frac{d}{d t} g [ h (t) ] = g^{\prime} [ h (t) ] h^{\prime} (t).
 $$
 
 Applying this result with  $g = \ell_X^{(0)}$  and  $h = \psi$  yields
 
 $$
-\frac {\partial}{\partial \mu} \ell_ {X} ^ {(0)} [ \psi (\mu) ] = \left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} [ \psi (\mu) ] \psi^ {\prime} (\mu),
+\frac{\partial}{\partial \mu} \ell_{X} ^{(0)} [ \psi (\mu) ] = \left[ \ell_{X} ^{(0)} \right] ^{\prime} [ \psi (\mu) ] \psi^{\prime} (\mu),
 $$
 
 and therefore
 
 $$
-\left[ \ell_ {X} ^ {(1)} \right] ^ {\prime} (\mu) = \psi^ {\prime} (\mu) \left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} [ \psi (\mu) ].
+\left[ \ell_{X} ^{(1)} \right] ^{\prime} (\mu) = \psi^{\prime} (\mu) \left[ \ell_{X} ^{(0)} \right] ^{\prime} [ \psi (\mu) ].
 $$
 
 Now let  $E_{\theta}^{(0)}$  denote expectation taken with a particular value of  $\theta$ , and let  $E_{\mu}^{(1)}$  denote expectation taken with a particular value of  $\mu$ , so that
 
 $$
-E _ {\psi (\mu)} ^ {(0)} [ g (X) ] = E _ {\mu} ^ {(1)} [ g (X) ]
+E_{\psi (\mu)} ^{(0)} [ g (X) ] = E_{\mu} ^{(1)} [ g (X) ]
 $$
 
 for any random quantity  $g(X)$ . Then the Fisher information in terms of  $\theta$  is
 
 $$
-I _ {0} (\theta) = E _ {\theta} ^ {(0)} \left(\left\{\left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} (\theta) \right\} ^ {2}\right).
+I_{0} (\theta) = E_{\theta} ^{(0)} \left(\left\{\left[ \ell_{X} ^{(0)} \right] ^{\prime} (\theta) \right\} ^{2}\right).
 $$
 
 Finally, the Fisher information in terms of  $\mu$  is
 
 $$
-\begin{array}{l} I _ {1} (\mu) = E _ {\mu} ^ {(1)} \left(\left\{\left[ \ell_ {X} ^ {(1)} \right] ^ {\prime} (\mu) \right\} ^ {2}\right) = E _ {\mu} ^ {(1)} \left(\left\{\psi^ {\prime} (\mu) \left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} [ \psi (\mu) ] \right\} ^ {2}\right) \\ = \left[ \psi^ {\prime} (\mu) \right] ^ {2} E _ {\mu} ^ {(1)} \left(\left\{\left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} [ \psi (\mu) ] \right\} ^ {2}\right) \\ = [ \psi^ {\prime} (\mu) ] ^ {2} E _ {\psi (\mu)} ^ {(0)} \left(\left\{\left[ \ell_ {X} ^ {(0)} \right] ^ {\prime} [ \psi (\mu) ] \right\} ^ {2}\right) = [ \psi^ {\prime} (\mu) ] ^ {2} I _ {0} [ \psi (\mu) ], \\ \end{array}
+\begin{array}{l} I_{1} (\mu) = E_{\mu} ^{(1)} \left(\left\{\left[ \ell_{X} ^{(1)} \right] ^{\prime} (\mu) \right\} ^{2}\right) = E_{\mu} ^{(1)} \left(\left\{\psi^{\prime} (\mu) \left[ \ell_{X} ^{(0)} \right] ^{\prime} [ \psi (\mu) ] \right\} ^{2}\right) \\ = \left[ \psi^{\prime} (\mu) \right] ^{2} E_{\mu} ^{(1)} \left(\left\{\left[ \ell_{X} ^{(0)} \right] ^{\prime} [ \psi (\mu) ] \right\} ^{2}\right) \\ = [ \psi^{\prime} (\mu) ] ^{2} E_{\psi (\mu)} ^{(0)} \left(\left\{\left[ \ell_{X} ^{(0)} \right] ^{\prime} [ \psi (\mu) ] \right\} ^{2}\right) = [ \psi^{\prime} (\mu) ] ^{2} I_{0} [ \psi (\mu) ], \\ \end{array}
 $$
 
 where the final equality is obtained by observing that the expectation in the next-to-last expression is precisely the result of evaluating the function  $I_0$  at the point  $\psi(\mu)$ .
@@ -3642,13 +3642,13 @@ where the final equality is obtained by observing that the expectation in the ne
 $\triangleright$  SOLUTION: We begin by finding  $I_{1}(\alpha)$ , the Fisher information per observation. The second derivative of the log-likelihood of a single observation is
 
 $$
-\begin{array}{l} \ell_ {X _ {1}} ^ {\prime \prime} (\alpha) = \frac {\partial^ {2}}{\partial \alpha^ {2}} \left[ \alpha \log \beta - \log \Gamma (\alpha) + (\alpha - 1) \log X _ {1} - \beta X _ {1} \right] = \frac {\partial}{\partial \alpha} \left[ \log \beta - \frac {\Gamma^ {\prime} (\alpha)}{\Gamma (\alpha)} + \log X _ {1} \right] \\ = - \frac {\Gamma (\alpha) \Gamma^ {\prime \prime} (\alpha) - \left[ \Gamma^ {\prime} (\alpha) \right] ^ {2}}{\left[ \Gamma (\alpha) \right] ^ {2}}, \\ \end{array}
+\begin{array}{l} \ell_{X_{1}} ^{\prime \prime} (\alpha) = \frac{\partial^{2}}{\partial \alpha^{2}} \left[ \alpha \log \beta - \log \Gamma (\alpha) + (\alpha - 1) \log X_{1} - \beta X_{1} \right] = \frac{\partial}{\partial \alpha} \left[ \log \beta - \frac{\Gamma^{\prime} (\alpha)}{\Gamma (\alpha)} + \log X_{1} \right] \\ = - \frac{\Gamma (\alpha) \Gamma^{\prime \prime} (\alpha) - \left[ \Gamma^{\prime} (\alpha) \right] ^{2}}{\left[ \Gamma (\alpha) \right] ^{2}}, \\ \end{array}
 $$
 
 and thus
 
 $$
-I _ {1} (\alpha) = - E _ {\alpha} \big [ \ell_ {X _ {1}} ^ {\prime \prime} (\alpha) \big ] = - E _ {\alpha} \bigg \{- \frac {\Gamma (\alpha) \Gamma^ {\prime \prime} (\alpha) - [ \Gamma^ {\prime} (\alpha) ] ^ {2}}{[ \Gamma (\alpha) ] ^ {2}} \bigg \} = \frac {\Gamma (\alpha) \Gamma^ {\prime \prime} (\alpha) - [ \Gamma^ {\prime} (\alpha) ] ^ {2}}{[ \Gamma (\alpha) ] ^ {2}}.
+I_{1} (\alpha) = - E_{\alpha} \big [ \ell_{X_{1}} ^{\prime \prime} (\alpha) \big ] = - E_{\alpha} \bigg \{- \frac{\Gamma (\alpha) \Gamma^{\prime \prime} (\alpha) - [ \Gamma^{\prime} (\alpha) ] ^{2}}{[ \Gamma (\alpha) ] ^{2}} \bigg \} = \frac{\Gamma (\alpha) \Gamma^{\prime \prime} (\alpha) - [ \Gamma^{\prime} (\alpha) ] ^{2}}{[ \Gamma (\alpha) ] ^{2}}.
 $$
 
 The desired result then follows immediately by Theorem 6.2.4 of the notes.
@@ -3662,13 +3662,13 @@ A
 $\triangleright$  SOLUTION TO (a): We begin by finding  $I_{1}(\theta)$ , the Fisher information per observation. The second derivative of the log-likelihood of a single observation is
 
 $$
-\ell_ {X _ {1}} ^ {\prime \prime} (\theta) = \frac {\partial^ {2}}{\partial \theta^ {2}} \left[ X \log \theta + (1 - X) \log (1 - \theta) \right] = \frac {\partial}{\partial \theta} \left(\frac {X}{\theta} - \frac {1 - X}{1 - \theta}\right) = - \frac {X}{\theta^ {2}} - \frac {1 - X}{(1 - \theta) ^ {2}},
+\ell_{X_{1}} ^{\prime \prime} (\theta) = \frac{\partial^{2}}{\partial \theta^{2}} \left[ X \log \theta + (1 - X) \log (1 - \theta) \right] = \frac{\partial}{\partial \theta} \left(\frac{X}{\theta} - \frac{1 - X}{1 - \theta}\right) = - \frac{X}{\theta^{2}} - \frac{1 - X}{(1 - \theta) ^{2}},
 $$
 
 and thus
 
 $$
-I _ {1} (\theta) = - E _ {\theta} \left[ \ell_ {X _ {1}} ^ {\prime \prime} (\theta) \right] = - E _ {\theta} \left[ - \frac {X}{\theta^ {2}} - \frac {1 - X}{(1 - \theta) ^ {2}} \right] = \frac {1}{\theta} + \frac {1}{1 - \theta} = \frac {1}{\theta (1 - \theta)}.
+I_{1} (\theta) = - E_{\theta} \left[ \ell_{X_{1}} ^{\prime \prime} (\theta) \right] = - E_{\theta} \left[ - \frac{X}{\theta^{2}} - \frac{1 - X}{(1 - \theta) ^{2}} \right] = \frac{1}{\theta} + \frac{1}{1 - \theta} = \frac{1}{\theta (1 - \theta)}.
 $$
 
 Then the Fisher information for the entire sample is  $I(\theta) = nI_{1}(\theta) = n / [\theta (1 - \theta)]$ .
@@ -3678,17 +3678,17 @@ Then the Fisher information for the entire sample is  $I(\theta) = nI_{1}(\theta
 $\triangleright$  SOLUTION TO (b): By Theorem 6.2.4 of the notes,
 
 $$
-\sqrt {n} \left(\hat {\theta} _ {n} - \theta\right)\rightarrow_ {D} N [ 0, \theta (1 - \theta) ],
+\sqrt{n} \left(\hat{\theta} _{n} - \theta\right)\rightarrow_{D} N [ 0, \theta (1 - \theta) ],
 $$
 
 which agrees with the result obtained by using the central limit theorem.
 
 A
 
-7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname {Pareto}(k,\alpha)$  , where the Pareto  $(k,\alpha)$  distribution has pdf
+7. Let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$  , where the Pareto  $(k,\alpha)$  distribution has pdf
 
 $$
-f (x) = \left\{ \begin{array}{l l} \frac {\alpha k ^ {\alpha}}{x ^ {\alpha + 1}} & \text {i f} x \geq k, \\ 0 & \text {i f} x <   k. \end{array} \right.
+f (x) = \left\{\begin{array}{l l} \frac{\alpha k^{\alpha}}{x^{\alpha + 1}} & \text{if} x \geq k, \\ 0 & \text{if} x <   k. \end{array} \right.
 $$
 
 Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
@@ -3698,19 +3698,19 @@ Suppose that  $k > 0$  is known and  $\alpha > 0$  is unknown.
 $\triangleright$  SOLUTION TO (a): The derivative of the log-likelihood (i.e., the score function) is
 
 $$
-\begin{array}{l} \ell_ {\boldsymbol {X}} ^ {\prime} (\alpha) = \frac {\partial}{\partial \alpha} \left[ n \log \alpha + n \alpha \log k - (\alpha + 1) \sum_ {i = 1} ^ {n} \log X _ {i} \right] = \frac {n}{\alpha} + n \log k - \sum_ {i = 1} ^ {n} \log X _ {i} \\ = \frac {n}{\alpha} - \sum_ {i = 1} ^ {n} \log \left(\frac {X _ {i}}{k}\right), \\ \end{array}
+\begin{array}{l} \ell_{\boldsymbol{X}} ^{\prime} (\alpha) = \frac{\partial}{\partial \alpha} \left[ n \log \alpha + n \alpha \log k - (\alpha + 1) \sum_{i=1} ^{n} \log X_{i} \right] = \frac{n}{\alpha} + n \log k - \sum_{i=1} ^{n} \log X_{i} \\ = \frac{n}{\alpha} - \sum_{i=1} ^{n} \log \left(\frac{X_{i}}{k}\right), \\ \end{array}
 $$
 
 which equal zero if and only if
 
 $$
-\alpha = \left[ \frac {1}{n} \sum_ {i = 1} ^ {n} \log \left(\frac {X _ {i}}{k}\right) \right] ^ {- 1}.
+\alpha = \left[ \frac{1}{n} \sum_{i=1} ^{n} \log \left(\frac{X_{i}}{k}\right) \right] ^{- 1}.
 $$
 
 (Note that the right-hand side of the equation above is undefined if  $X_{1} = \dots = X_{n} = k$ , but we can ignore this possibility since it occurs with probability 0 for all  $\alpha > 0$ .) Then since this is the only critical point and the log-likelihood clearly tends to  $-\infty$  as  $\alpha \to 0$  and as  $\alpha \to \infty$ , it follows that this point is indeed the maximum. Thus,
 
 $$
-\hat {\alpha} _ {n} = \left[ \frac {1}{n} \sum_ {i = 1} ^ {n} \log \left(\frac {X _ {i}}{k}\right) \right] ^ {- 1}
+\hat{\alpha} _{n} = \left[ \frac{1}{n} \sum_{i=1} ^{n} \log \left(\frac{X_{i}}{k}\right) \right] ^{- 1}
 $$
 
 is the maximum likelihood estimator of  $\alpha$ .
@@ -3722,43 +3722,43 @@ A
 $\triangleright$  SOLUTION TO (b): We begin by finding  $I_{1}(\alpha)$ , the Fisher information per observation. The second derivative of the log-likelihood of a single observation is
 
 $$
-\ell_ {X _ {1}} ^ {\prime \prime} (\alpha) = \frac {\partial}{\partial \alpha} \left(\frac {1}{\alpha} + \log k - \log X _ {1}\right) = - \frac {1}{\alpha^ {2}},
+\ell_{X_{1}} ^{\prime \prime} (\alpha) = \frac{\partial}{\partial \alpha} \left(\frac{1}{\alpha} + \log k - \log X_{1}\right) = - \frac{1}{\alpha^{2}},
 $$
 
 and thus
 
 $$
-I _ {1} (\alpha) = - E _ {\theta} \big [ \ell_ {X _ {1}} ^ {\prime \prime} (\alpha) \big ] = - E _ {\theta} \bigg (- \frac {1}{\alpha^ {2}} \bigg) = \frac {1}{\alpha^ {2}}.
+I_{1} (\alpha) = - E_{\theta} \big [ \ell_{X_{1}} ^{\prime \prime} (\alpha) \big ] = - E_{\theta} \bigg (- \frac{1}{\alpha^{2}} \bigg) = \frac{1}{\alpha^{2}}.
 $$
 
 Then
 
 $$
-\sqrt {n} \left(\hat {\alpha} _ {n} - \alpha\right)\rightarrow_ {D} N \left(0, \alpha^ {2}\right)
+\sqrt{n} \left(\hat{\alpha} _{n} - \alpha\right)\rightarrow_{D} N \left(0, \alpha^{2}\right)
 $$
 
 by Theorem 6.2.4 of the notes.
 
 A
 
-8. Again let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname {Pareto}(k,\alpha)$ , but now suppose that  $k > 0$  is unknown and  $\alpha >0$  is known. Compute  $E_{k}[\ell_{\mathbf{X}}^{\prime}(k)]$ , and explain why your answer does not contradict Lemma 6.2.1 from the notes.
+8. Again let  $X_{1},\ldots ,X_{n}\sim \mathrm{iid}\operatorname{Pareto}(k,\alpha)$ , but now suppose that  $k > 0$  is unknown and  $\alpha >0$  is known. Compute  $E_{k}[\ell_{\mathbf{X}}^{\prime}(k)]$ , and explain why your answer does not contradict Lemma 6.2.1 from the notes.
 
 $\triangleright$  SOLUTION: The score function is now
 
 $$
-\ell_ {\pmb {X}} ^ {\prime} (k) = \frac {\partial}{\partial k} \bigg [ n \log \alpha + n \alpha \log k - (\alpha + 1) \sum_ {i = 1} ^ {n} \log X _ {i} \bigg ] = \frac {n \alpha}{k},
+\ell_{\pmb{X}} ^{\prime} (k) = \frac{\partial}{\partial k} \bigg [ n \log \alpha + n \alpha \log k - (\alpha + 1) \sum_{i=1} ^{n} \log X_{i} \bigg ] = \frac{n \alpha}{k},
 $$
 
 and thus
 
 $$
-E _ {k} [ \ell_ {\pmb {X}} ^ {\prime} (k) ] = E _ {k} \left(\frac {n \alpha}{k}\right) = \frac {n \alpha}{k} \neq 0.
+E_{k} [ \ell_{\pmb{X}} ^{\prime} (k) ] = E_{k} \left(\frac{n \alpha}{k}\right) = \frac{n \alpha}{k} \neq 0.
 $$
 
 At first glance, it may appear that this result contradicts Lemma 6.2.1 of the notes, which states that the expectation of the score is zero. However, there is no contradiction since one of the regularity conditions of Section 6.4 is now violated, which means that Lemma 6.2.1 does not apply. Specifically, the set
 
 $$
-\mathcal {X} = \left\{x \in \mathbb {R}: \ell_ {X _ {1}} (k) > 0 \right\} = \left\{x \in \mathbb {R}: x \geq k \right\} = [ k, \infty)
+\mathcal{X} = \left\{x \in \mathbb{R}: \ell_{X_{1}} (k) > 0 \right\} = \left\{x \in \mathbb{R}: x \geq k \right\} = [ k, \infty)
 $$
 
 depends on the unknown parameter  $k$ , which is not permitted by the regularity conditions of Section 6.4. (Note that there would be no violation here if instead  $k$  were known, as was the case in the previous question.)
@@ -3774,7 +3774,7 @@ depends on the unknown parameter  $k$ , which is not permitted by the regularity
 Suppose  $f_{\theta}(\theta)$ , the value of the pdf at the true mean (and median), satisfies  $f_{\theta}(\theta) > 0$ . Then it can be shown that the asymptotic distribution of the sample median  $M_{n}$  is
 
 $$
-\sqrt {n} (M _ {n} - \theta) \rightarrow_ {D} N \bigg (0, \frac {1}{4 [ f _ {\theta} (\theta) ] ^ {2}} \bigg).
+\sqrt{n} (M_{n} - \theta) \rightarrow_{D} N \bigg (0, \frac{1}{4 [ f_{\theta} (\theta) ] ^{2}} \bigg).
 $$
 
 (You do not need to show this.)
@@ -3784,19 +3784,19 @@ $$
 (d) Suppose that
 
 $$
-f _ {\theta} (x) = \frac {\Gamma [ (p + 1) / 2 ]}{\sqrt {\pi p} \Gamma (p / 2)} \left[ 1 + \frac {(x - \theta) ^ {2}}{p} \right] ^ {- (p + 1) / 2},
+f_{\theta} (x) = \frac{\Gamma [ (p + 1) / 2 ]}{\sqrt{\pi p} \Gamma (p / 2)} \left[ 1 + \frac{(x - \theta) ^{2}}{p} \right] ^{- (p + 1) / 2},
 $$
 
 where  $p \geq 3$  is an integer. (This is the pdf of Student's  $t$  distribution with  $p$  degrees of freedom that has been "shifted" so that its mean is  $\theta$  instead of zero.) Compute  $\mathrm{ARE}(M_n, \overline{X}_n)$ , and use it to find an integer  $k$  such that the sample median performs better asymptotically if and only if  $p \leq k$ . Note: Under this pdf,  $\operatorname{Var}_{\theta}(X_1) = p / (p - 2)$ . Also, the gamma function takes the particular values
 
 $$
-\Gamma (3 / 2) = \frac {\sqrt {\pi}}{2}, \qquad \Gamma (2) = 1, \qquad \Gamma (5 / 2) = \frac {3 \sqrt {\pi}}{4}, \qquad \Gamma (3) = 2,
+\Gamma (3 / 2) = \frac{\sqrt{\pi}}{2}, \qquad \Gamma (2) = 1, \qquad \Gamma (5 / 2) = \frac{3 \sqrt{\pi}}{4}, \qquad \Gamma (3) = 2,
 $$
 
 and it satisfies the inequality
 
 $$
-\frac {\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \leq \sqrt {p / 2}
+\frac{\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \leq \sqrt{p / 2}
 $$
 
 for all  $p > 0$ . You may use any of these facts without proof.
@@ -3815,14 +3815,14 @@ for all  $p > 0$ . You may use any of these facts without proof.
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f _ {\lambda} (x) = \left\{ \begin{array}{l l} \lambda \exp (- \lambda x) & \text {i f} x \geq 0, \\ 0 & \text {i f} x <   0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{l l} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x <   0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
 
 (a) Find the power function of the hypothesis test that rejects  $H_0$  if and only if  $X \geq c$ .  
 (b) Let  $0 < \alpha < 1$ . Find a value of  $c$  such that the test in part (a) has size  $\alpha$ .  
-(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{type II error}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
+(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
 
 7. Let  $X_1, X_2 \sim \mathrm{iid}\operatorname{Bin}(1,\theta)$ , and consider testing  $H_0: \theta = 1/3$  versus  $H_1: \theta < 1/3$ .
 
@@ -3838,13 +3838,13 @@ Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambd
 (a) Use the central limit theorem to state the asymptotic distribution of the sample mean  $\overline{X}_n$ .
 
 $$
-\triangleright \mathrm {S O L U T I O N :} \sqrt {n} \left(\bar {X} _ {n} - \theta\right)\rightarrow_ {D} N \left(0, \sigma^ {2}\right).
+\triangleright \mathrm{SOLUTION:} \sqrt{n} \left(\bar{X} _{n} - \theta\right)\rightarrow_{D} N \left(0, \sigma^{2}\right).
 $$
 
 Suppose  $f_{\theta}(\theta)$ , the value of the pdf at the true mean (and median), satisfies  $f_{\theta}(\theta) > 0$ . Then it can be shown that the asymptotic distribution of the sample median  $M_{n}$  is
 
 $$
-\sqrt {n} (M _ {n} - \theta) \rightarrow_ {D} N \bigg (0, \frac {1}{4 [ f _ {\theta} (\theta) ] ^ {2}} \bigg).
+\sqrt{n} (M_{n} - \theta) \rightarrow_{D} N \bigg (0, \frac{1}{4 [ f_{\theta} (\theta) ] ^{2}} \bigg).
 $$
 
 (You do not need to show this.)
@@ -3860,19 +3860,19 @@ $\triangleright$  SOLUTION:  $\mathrm{ARE}(M_n,\overline{X}_n) = 4[f_\theta (\th
 (d) Suppose that
 
 $$
-f _ {\theta} (x) = \frac {\Gamma [ (p + 1) / 2 ]}{\sqrt {\pi p} \Gamma (p / 2)} \biggl [ 1 + \frac {(x - \theta) ^ {2}}{p} \biggr ] ^ {- (p + 1) / 2},
+f_{\theta} (x) = \frac{\Gamma [ (p + 1) / 2 ]}{\sqrt{\pi p} \Gamma (p / 2)} \biggl [ 1 + \frac{(x - \theta) ^{2}}{p} \biggr ] ^{- (p + 1) / 2},
 $$
 
 where  $p \geq 3$  is an integer. (This is the pdf of Student's  $t$  distribution with  $p$  degrees of freedom that has been "shifted" so that its mean is  $\theta$  instead of zero.) Compute  $\mathrm{ARE}(M_n, \overline{X}_n)$ , and use it to find an integer  $k$  such that the sample median performs better asymptotically if and only if  $p \leq k$ . Note: Under this pdf,  $\operatorname{Var}_{\theta}(X_1) = p / (p - 2)$ . Also, the gamma function takes the particular values
 
 $$
-\Gamma (3 / 2) = \frac {\sqrt {\pi}}{2}, \qquad \Gamma (2) = 1, \qquad \Gamma (5 / 2) = \frac {3 \sqrt {\pi}}{4}, \qquad \Gamma (3) = 2,
+\Gamma (3 / 2) = \frac{\sqrt{\pi}}{2}, \qquad \Gamma (2) = 1, \qquad \Gamma (5 / 2) = \frac{3 \sqrt{\pi}}{4}, \qquad \Gamma (3) = 2,
 $$
 
 and it satisfies the inequality
 
 $$
-\frac {\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \leq \sqrt {p / 2}
+\frac{\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \leq \sqrt{p / 2}
 $$
 
 for all  $p > 0$ . You may use any of these facts without proof.
@@ -3880,31 +3880,31 @@ for all  $p > 0$ . You may use any of these facts without proof.
 $\triangleright$  SOLUTION: First note that
 
 $$
-\mathrm {A R E} (M _ {n}, \overline {{X}} _ {n}) = \frac {4 [ f _ {\theta} (\theta) ] ^ {2}}{1 / \sigma^ {2}} = \frac {4}{\pi p} \left\{\frac {\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \right\} ^ {2} \frac {p}{p - 2} = \frac {4}{\pi (p - 2)} \left\{\frac {\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \right\} ^ {2}.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) = \frac{4 [ f_{\theta} (\theta) ] ^{2}}{1 / \sigma^{2}} = \frac{4}{\pi p} \left\{\frac{\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \right\} ^{2} \frac{p}{p - 2} = \frac{4}{\pi (p - 2)} \left\{\frac{\Gamma [ (p + 1) / 2 ]}{\Gamma (p / 2)} \right\} ^{2}.
 $$
 
 Then for all  $p\geq 6$
 
 $$
-\mathrm {A R E} (M _ {n}, \overline {{X}} _ {n}) \leq \frac {2 p}{\pi (p - 2)} = \frac {2}{\pi} \left(1 - \frac {2}{p}\right) ^ {- 1} \leq \frac {2}{\pi} \left(1 - \frac {2}{6}\right) ^ {- 1} = \frac {3}{\pi} <   1.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) \leq \frac{2 p}{\pi (p - 2)} = \frac{2}{\pi} \left(1 - \frac{2}{p}\right) ^{- 1} \leq \frac{2}{\pi} \left(1 - \frac{2}{6}\right) ^{- 1} = \frac{3}{\pi} <   1.
 $$
 
 For  $p = 5$ , we have
 
 $$
-\mathrm {A R E} (M _ {n}, \overline {{X}} _ {n}) = \frac {4}{\pi (5 - 2)} \left\{\frac {\Gamma [ (5 + 1) / 2 ]}{\Gamma (5 / 2)} \right\} ^ {2} = \frac {4}{3 \pi} \left(\frac {8}{3 \sqrt {\pi}}\right) ^ {2} = \frac {2 5 6}{2 7 \pi^ {2}} \approx 0. 9 6.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) = \frac{4}{\pi (5 - 2)} \left\{\frac{\Gamma [ (5 + 1) / 2 ]}{\Gamma (5 / 2)} \right\} ^{2} = \frac{4}{3 \pi} \left(\frac{8}{3 \sqrt{\pi}}\right) ^{2} = \frac{25 6}{27 \pi^{2}} \approx 0. 96.
 $$
 
 For  $p = 4$ , we have
 
 $$
-\mathrm {A R E} (M _ {n}, \overline {{X}} _ {n}) = \frac {4}{\pi (4 - 2)} \left\{\frac {\Gamma [ (4 + 1) / 2 ]}{\Gamma (4 / 2)} \right\} ^ {2} = \frac {2}{\pi} \left(\frac {3 \sqrt {\pi}}{4}\right) ^ {2} = \frac {9}{8}.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) = \frac{4}{\pi (4 - 2)} \left\{\frac{\Gamma [ (4 + 1) / 2 ]}{\Gamma (4 / 2)} \right\} ^{2} = \frac{2}{\pi} \left(\frac{3 \sqrt{\pi}}{4}\right) ^{2} = \frac{9}{8}.
 $$
 
 For  $p = 3$ , we have
 
 $$
-\mathrm {A R E} (M _ {n}, \overline {{X}} _ {n}) = \frac {4}{\pi (3 - 2)} \left\{\frac {\Gamma [ (3 + 1) / 2 ]}{\Gamma (3 / 2)} \right\} ^ {2} = \frac {4}{\pi} \left(\frac {2}{\sqrt {\pi}}\right) ^ {2} = \frac {1 6}{\pi^ {2}} \approx 1. 6 2.
+\mathrm{ARE} (M_{n}, \overline{{X}} _{n}) = \frac{4}{\pi (3 - 2)} \left\{\frac{\Gamma [ (3 + 1) / 2 ]}{\Gamma (3 / 2)} \right\} ^{2} = \frac{4}{\pi} \left(\frac{2}{\sqrt{\pi}}\right) ^{2} = \frac{16}{\pi^{2}} \approx 1. 62.
 $$
 
 Thus, the sample median performs better asymptotically if and only if  $p \leq 4$ .
@@ -3916,19 +3916,19 @@ A
 $\triangleright$  SOLUTION: We begin by finding the Fisher information per observation, taking the parameter to be  $\sigma^2$ . (The parameter can be taken to be  $\sigma$  instead, which should eventually yield the same final answer.) Then the second derivative of the log-likelihood is
 
 $$
-\begin{array}{l} \ell_ {X _ {1}} ^ {\prime \prime} (\sigma^ {2}) = \frac {\partial^ {2}}{\partial (\sigma^ {2}) ^ {2}} \ell_ {X _ {1}} (\sigma^ {2}) = \frac {\partial^ {2}}{\partial (\sigma^ {2}) ^ {2}} \left[ - \frac {1}{2} \log (2 \pi) - \frac {1}{2} \log (\sigma^ {2}) - \frac {X _ {1} ^ {2}}{2 \sigma^ {2}} \right] \\ = \frac {\partial}{\partial (\sigma^ {2})} \left[ - \frac {1}{2 \sigma^ {2}} + \frac {X _ {1} ^ {2}}{2 (\sigma^ {2}) ^ {2}} \right] = \frac {1}{2 (\sigma^ {2}) ^ {2}} - \frac {X _ {1} ^ {2}}{(\sigma^ {2}) ^ {3}}. \\ \end{array}
+\begin{array}{l} \ell_{X_{1}} ^{\prime \prime} (\sigma^{2}) = \frac{\partial^{2}}{\partial (\sigma^{2}) ^{2}} \ell_{X_{1}} (\sigma^{2}) = \frac{\partial^{2}}{\partial (\sigma^{2}) ^{2}} \left[ - \frac{1}{2} \log (2 \pi) - \frac{1}{2} \log (\sigma^{2}) - \frac{X_{1} ^{2}}{2 \sigma^{2}} \right] \\ = \frac{\partial}{\partial (\sigma^{2})} \left[ - \frac{1}{2 \sigma^{2}} + \frac{X_{1} ^{2}}{2 (\sigma^{2}) ^{2}} \right] = \frac{1}{2 (\sigma^{2}) ^{2}} - \frac{X_{1} ^{2}}{(\sigma^{2}) ^{3}}. \\ \end{array}
 $$
 
 Then
 
 $$
-I _ {1} \left(\sigma^ {2}\right) = - E _ {\sigma^ {2}} \left[ \ell_ {X _ {1}} ^ {\prime \prime} \left(\sigma^ {2}\right) \right] = - \frac {1}{2 \left(\sigma^ {2}\right) ^ {2}} + \frac {E _ {\sigma^ {2}} \left(X _ {1} ^ {2}\right)}{\left(\sigma^ {2}\right) ^ {3}} = \frac {1}{2 \left(\sigma^ {2}\right) ^ {2}}.
+I_{1} \left(\sigma^{2}\right) = - E_{\sigma^{2}} \left[ \ell_{X_{1}} ^{\prime \prime} \left(\sigma^{2}\right) \right] = - \frac{1}{2 \left(\sigma^{2}\right) ^{2}} + \frac{E_{\sigma^{2}} \left(X_{1} ^{2}\right)}{\left(\sigma^{2}\right) ^{3}} = \frac{1}{2 \left(\sigma^{2}\right) ^{2}}.
 $$
 
 Next, let  $g(\theta) = \log (\theta^{1 / 2}) = \frac{1}{2}\log \theta$ , so that  $g(\sigma^2) = \log \sigma$ . Then  $g^{\prime}(\theta) = 1 / (2\theta)$ , so
 
 $$
-\frac {\left[ g ^ {\prime} \left(\sigma^ {2}\right) \right] ^ {2}}{n I _ {1} \left(\sigma^ {2}\right)} = \frac {\left[ 1 / \left(2 \sigma^ {2}\right) \right] ^ {2}}{n / \left[ 2 \left(\sigma^ {2}\right) ^ {2} \right]} = \frac {2 \left(\sigma^ {2}\right) ^ {2}}{4 n \left(\sigma^ {2}\right) ^ {2}} = \frac {1}{2 n}.
+\frac{\left[ g^{\prime} \left(\sigma^{2}\right) \right] ^{2}}{n I_{1} \left(\sigma^{2}\right)} = \frac{\left[ 1 / \left(2 \sigma^{2}\right) \right] ^{2}}{n / \left[ 2 \left(\sigma^{2}\right) ^{2} \right]} = \frac{2 \left(\sigma^{2}\right) ^{2}}{4 n \left(\sigma^{2}\right) ^{2}} = \frac{1}{2 n}.
 $$
 
 Then by the Cramér-Rao inequality, the variance of any unbiased estimator of  $\log \sigma$  is at least  $1 / (2n)$ .
@@ -3938,7 +3938,7 @@ Then by the Cramér-Rao inequality, the variance of any unbiased estimator of  $
 $\triangleright$  SOLUTION TO (a): Note that  $Y \sim \operatorname{Poisson}(n\theta)$ , so
 
 $$
-\begin{array}{l} E _ {\theta} \left[ \exp (- c Y) \right] = \sum_ {y = 0} ^ {\infty} \exp (- c y) \frac {(n \theta) ^ {y}}{y !} \frac {\exp (- n \theta)}{y !} = \exp (- n \theta) \sum_ {y = 0} ^ {\infty} \frac {[ n \theta \exp (- c) ] ^ {y}}{y !} \\ = \exp (- n \theta) \exp [ n \theta \exp (- c) ] \\ = \exp \left\{- n \theta [ 1 - \exp (- c) ] \right\}. \\ \end{array}
+\begin{array}{l} E_{\theta} \left[ \exp (- c Y) \right] = \sum_{y=0} ^{\infty} \exp (- c y) \frac{(n \theta) ^{y}}{y !} \frac{\exp (- n \theta)}{y !} = \exp (- n \theta) \sum_{y=0} ^{\infty} \frac{[ n \theta \exp (- c) ] ^{y}}{y !} \\ = \exp (- n \theta) \exp [ n \theta \exp (- c) ] \\ = \exp \left\{- n \theta [ 1 - \exp (- c) ] \right\}. \\ \end{array}
 $$
 
 Hence,  $E_{\theta}[\exp (-cY)] = \exp (-\theta)$  if and only if  $n[1 - \exp (-c)] = 1$ , which holds if and only if  $c = \log [n / (n - 1)]$ .
@@ -3946,7 +3946,7 @@ Hence,  $E_{\theta}[\exp (-cY)] = \exp (-\theta)$  if and only if  $n[1 - \exp (
 $\triangleright$  SOLUTION TO (b): From Example 6.2.2 of the notes, the Fisher information for the sample is  $I(\theta) = n / \theta$ . Now let  $g(\theta) = \exp(-\theta)$ . Then  $g'(\theta) = -\exp(-\theta)$ , so
 
 $$
-\frac {[ g ^ {\prime} (\theta) ] ^ {2}}{I (\theta)} = \frac {[ - \exp (- \theta) ] ^ {2}}{n / \theta} = \frac {\theta \exp (- 2 \theta)}{n}.
+\frac{[ g^{\prime} (\theta) ] ^{2}}{I (\theta)} = \frac{[ - \exp (- \theta) ] ^{2}}{n / \theta} = \frac{\theta \exp (- 2 \theta)}{n}.
 $$
 
 Then by the Cramér-Rao inequality, a lower bound for the variance of the unbiased estimator found in part (a) is  $n^{-1}\theta \exp (-2\theta)$ .
@@ -3962,7 +3962,7 @@ $\triangleright$  SOLUTION: Take  $\tilde{\xi} = X_1X_2X_3$ .
 $\triangleright$  SOLUTION: We apply the Rao-Blackwell theorem. Let  $Y = \sum_{i=1}^{n} X_i$ . Then
 
 $$
-\begin{array}{l} P \left(\tilde {\xi} = 1 \mid Y = y\right) = P \left(X _ {1} = X _ {2} = X _ {3} = 1 \mid Y = y\right) \\ = \frac {P _ {\theta} \left(X _ {1} = X _ {2} = X _ {3} = 1 , Y = y\right)}{P _ {\theta} (Y = y)} \\ = \frac {P _ {\theta} \left(\sum_ {i = 1} ^ {3} X _ {i} = 3\right) P _ {\theta} \left(\sum_ {i = 4} ^ {n} X _ {i} = y - 3\right)}{P _ {\theta} (Y = y)} \\ = \frac {\theta^ {3} \frac {(n - 3) !}{(y - 3) ! (n - y) !} \theta^ {y - 3} (1 - \theta) ^ {n - y}}{\frac {n !}{y ! (n - y) !} \theta^ {y} (1 - \theta) ^ {n - y}} = \frac {(n - 3) ! y !}{n ! (y - 3) !} = \frac {y (y - 1) (y - 2)}{n (n - 1) (n - 2)}. \\ \end{array}
+\begin{array}{l} P \left(\tilde{\xi} = 1 \mid Y = y\right) = P \left(X_{1} = X_{2} = X_{3} = 1 \mid Y = y\right) \\ = \frac{P_{\theta} \left(X_{1} = X_{2} = X_{3} = 1 , Y = y\right)}{P_{\theta} (Y = y)} \\ = \frac{P_{\theta} \left(\sum_{i=1} ^{3} X_{i} = 3\right) P_{\theta} \left(\sum_{i=4} ^{n} X_{i} = y - 3\right)}{P_{\theta} (Y = y)} \\ = \frac{\theta^{3} \frac{(n - 3) !}{(y - 3) ! (n - y) !} \theta^{y - 3} (1 - \theta) ^{n - y}}{\frac{n !}{y ! (n - y) !} \theta^{y} (1 - \theta) ^{n - y}} = \frac{(n - 3) ! y !}{n ! (y - 3) !} = \frac{y (y - 1) (y - 2)}{n (n - 1) (n - 2)}. \\ \end{array}
 $$
 
 Thus,  $\tilde{\xi}^{\star} = Y(Y - 1)(Y - 2) / [n(n - 1)(n - 2)]$  is an unbiased estimator that is a function of the sufficient statistic  $\sum_{i=1}^{n} X_i$  and has smaller mean squared error than the estimator in part (a). Note: Technically we have not shown that the MSE of  $\tilde{\xi}^{\star}$  is smaller than that of  $\tilde{\xi}$ , merely that the MSE of  $\tilde{\xi}^{\star}$  is not larger than that of  $\tilde{\xi}$ . Indeed, if  $n = 3$ , then the estimators coincide. However, it is true that  $\tilde{\xi}^{\star}$  has strictly smaller MSE than  $\tilde{\xi}$  if  $n > 3$ .
@@ -3972,7 +3972,7 @@ Thus,  $\tilde{\xi}^{\star} = Y(Y - 1)(Y - 2) / [n(n - 1)(n - 2)]$  is an unbias
 $\triangleright$  SOLUTION TO (a): The power function of the test is
 
 $$
-\operatorname {P o w e r} (\theta) = P _ {\theta} \left(Y _ {n} \leq 1. 5\right) = P _ {\theta} \left(\max  _ {1 \leq i \leq n} X _ {i} \leq 1. 5\right) = \prod_ {i = 1} ^ {n} P _ {\theta} \left(X _ {i} \leq 1. 5\right) = \left[ P _ {\theta} \left(X _ {1} \leq 1. 5\right) \right] ^ {n} = \left(\frac {1 . 5}{\theta}\right) ^ {n}
+\operatorname{Power} (\theta) = P_{\theta} \left(Y_{n} \leq 1. 5\right) = P_{\theta} \left(\max_{1 \leq i \leq n} X_{i} \leq 1. 5\right) = \prod_{i=1} ^{n} P_{\theta} \left(X_{i} \leq 1. 5\right) = \left[ P_{\theta} \left(X_{1} \leq 1. 5\right) \right] ^{n} = \left(\frac{1 . 5}{\theta}\right) ^{n}
 $$
 
 for  $\theta \geq 1.5$ , and  $\operatorname{Power}(\theta) = 1$  for  $\theta < 1.5$ .
@@ -3980,7 +3980,7 @@ for  $\theta \geq 1.5$ , and  $\operatorname{Power}(\theta) = 1$  for  $\theta <
 $\triangleright$  SOLUTION TO (b):  $\operatorname{Power}(\theta)$  is a non-increasing function of  $\theta$ , so
 
 $$
-\sup _ {\theta \geq 2} \mathrm {P o w e r} (\theta) = \mathrm {P o w e r} (2) = \left(\frac {1 . 5}{2}\right) ^ {n} = \left(\frac {3}{4}\right) ^ {n}.
+\sup_{\theta \geq 2} \mathrm{Power} (\theta) = \mathrm{Power} (2) = \left(\frac{1 . 5}{2}\right) ^{n} = \left(\frac{3}{4}\right) ^{n}.
 $$
 
 Thus, the size of the test is  $(3 / 4)^n$ .
@@ -3990,7 +3990,7 @@ Thus, the size of the test is  $(3 / 4)^n$ .
 6. Let  $X$  be a single observation of an  $\operatorname{Exp}(\lambda)$  random variable, which has pdf
 
 $$
-f _ {\lambda} (x) = \left\{ \begin{array}{l l} \lambda \exp (- \lambda x) & \text {i f} x \geq 0, \\ 0 & \text {i f} x <   0. \end{array} \right.
+f_{\lambda} (x) = \left\{\begin{array}{l l} \lambda \exp (- \lambda x) & \text{if} x \geq 0, \\ 0 & \text{if} x <   0. \end{array} \right.
 $$
 
 Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambda_{0}$
@@ -3998,7 +3998,7 @@ Consider testing  $H_0:\lambda \geq \lambda_0$  versus  $H_{1}:\lambda <  \lambd
 (a) Find the power function of the hypothesis test that rejects  $H_0$  if and only if  $X \geq c$ .
 
 $$
-\triangleright \text {S O L U T I O N :} \operatorname {P o w e r} (\lambda) = P _ {\lambda} (X \geq c) = \int_ {c} ^ {\infty} f _ {\lambda} (x) d x = \exp (- \lambda c).
+\triangleright \text{SOLUTION:} \operatorname{Power} (\lambda) = P_{\lambda} (X \geq c) = \int_{c} ^{\infty} f_{\lambda} (x) d x = \exp (- \lambda c).
 $$
 
 #
@@ -4008,37 +4008,37 @@ $$
 $\triangleright$  SOLUTION:  $\operatorname{Power}(\lambda)$  is a non-increasing function of  $\lambda$ , so
 
 $$
-\sup  _ {\lambda \geq \lambda_ {0}} \operatorname {P o w e r} (\lambda) = \operatorname {P o w e r} (\lambda_ {0}) = \exp (- \lambda_ {0} c).
+\sup_{\lambda \geq \lambda_{0}} \operatorname{Power} (\lambda) = \operatorname{Power} (\lambda_{0}) = \exp (- \lambda_{0} c).
 $$
 
 Thus, the size of the test is  $\exp(-\lambda_0 c)$ . Then the test has size  $\alpha$  if and only if
 
 $$
-\exp \left(- \lambda_ {0} c\right) = \alpha \iff c = - \frac {\log \alpha}{\lambda_ {0}},
+\exp \left(- \lambda_{0} c\right) = \alpha \iff c = - \frac{\log \alpha}{\lambda_{0}},
 $$
 
 noting that  $\log \alpha$  is negative since  $0 < \alpha < 1$ .
 
 #
 
-(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{type II error}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
+(c) For what true values of  $\lambda$  is  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  for the test in part (a) with size  $\alpha$  as in (b)?
 
 $\triangleright$  SOLUTION:  $P_{\lambda}$  (type II error)  $\geq 1 / 2$  if and only if both  $\lambda < \lambda_0$  and  $\mathrm{Power}(\lambda)\leq 1 / 2$  The test in part (a) with size  $\alpha$  as in (b) has power function
 
 $$
-\operatorname {P o w e r} (\lambda) = \exp \biggl [ - \lambda \biggl (- \frac {\log \alpha}{\lambda_ {0}} \biggr) \biggr ] = \alpha^ {\lambda / \lambda_ {0}},
+\operatorname{Power} (\lambda) = \exp \biggl [ - \lambda \biggl (- \frac{\log \alpha}{\lambda_{0}} \biggr) \biggr ] = \alpha^{\lambda / \lambda_{0}},
 $$
 
 and hence
 
 $$
-\operatorname {P o w e r} (\lambda) \leq 1 / 2 \iff \lambda \geq - \frac {\lambda_ {0} \log 2}{\log \alpha},
+\operatorname{Power} (\lambda) \leq 1 / 2 \iff \lambda \geq - \frac{\lambda_{0} \log 2}{\log \alpha},
 $$
 
-again noting that  $\log \alpha$  is negative. Thus,  $P_{\lambda}(\text{type II error}) \geq 1/2$  if and only if
+again noting that  $\log \alpha$  is negative. Thus,  $P_{\lambda}(\text{typeIIerror}) \geq 1/2$  if and only if
 
 $$
-- \frac {\lambda_ {0} \log 2}{\log \alpha} \leq \lambda <   \lambda_ {0}.
+- \frac{\lambda_{0} \log 2}{\log \alpha} \leq \lambda <   \lambda_{0}.
 $$
 
 (Note that if  $\alpha \geq 1/2$ , then there are no such values of  $\lambda$ .)
@@ -4052,7 +4052,7 @@ A
 $\triangleright$  SOLUTION: Note that there are only four possible values of  $(X_{1},X_{2})$ , i.e., the sample space consists of only four points. If  $\theta = 1 / 3$ , then
 
 $$
-(X _ {1}, X _ {2}) = \left\{ \begin{array}{l l} (0, 0) & \text {w i t h p r o b a b i l i t y 4 / 9 ,} \\ (0, 1) & \text {w i t h p r o b a b i l i t y 2 / 9 ,} \\ (1, 0) & \text {w i t h p r o b a b i l i t y 2 / 9 ,} \\ (1, 1) & \text {w i t h p r o b a b i l i t y 1 / 9 .} \end{array} \right.
+(X_{1}, X_{2}) = \left\{\begin{array}{l l} (0, 0) & \text{withprobability4/9,} \\ (0, 1) & \text{withprobability2/9,} \\ (1, 0) & \text{withprobability2/9,} \\ (1, 1) & \text{withprobability1/9.} \end{array} \right.
 $$
 
 Thus, the only tests with size  $2/9$  exactly are the test that rejects  $H_0$  if and only if  $(X_1, X_2) = (0, 1)$  and the test that rejects  $H_0$  if and only if  $(X_1, X_2) = (1, 0)$ .

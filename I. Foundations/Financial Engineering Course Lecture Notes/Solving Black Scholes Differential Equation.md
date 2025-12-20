@@ -307,7 +307,7 @@ Black-Scholes and Delta
 The Black-Scholes model is given by the following:
 
 $$
-\begin{array}{l} c _ {0} = S _ {0} N (d _ {1}) - X e ^ {- r T} N (d _ {2}) \\ d _ {1} = \frac {l n \left(\frac {S _ {0}}{X}\right) + \left(r + \frac {1}{2} \sigma^ {2}\right) T}{\sigma \sqrt {T}}, \\ d _ {2} = \frac {\ln \left(\frac {S _ {0}}{X}\right) + \left(r - \frac {1}{2} \sigma^ {2}\right) T}{\sigma \sqrt {T}} \\ \end{array}
+\begin{array}{l} c_{0} = S_{0} N (d_{1}) - X e^{- r T} N (d_{2}) \\ d_{1} = \frac{l n \left(\frac{S_{0}}{X}\right) + \left(r + \frac{1}{2} \sigma^{2}\right) T}{\sigma \sqrt{T}}, \\ d_{2} = \frac{\ln \left(\frac{S_{0}}{X}\right) + \left(r - \frac{1}{2} \sigma^{2}\right) T}{\sigma \sqrt{T}} \\ \end{array}
 $$
 
 where  $\mathrm{N}(\mathrm{d}^{*})$  is the cumulative normal distribution function for  $(\mathrm{d}^{*})$ .
@@ -315,7 +315,7 @@ where  $\mathrm{N}(\mathrm{d}^{*})$  is the cumulative normal distribution funct
 Option traders find it very useful to know how the values of their option positions will change as the various factors used in the pricing model change. For example, the sensitivity of the call's value to the stock's price is given by Delta:
 
 $$
-\frac {\partial c}{\partial S} = N \left(d _ {1}\right) > 0 \quad D e l t a \quad \Delta
+\frac{\partial c}{\partial S} = N \left(d_{1}\right) > 0 \quad D e l t a \quad \Delta
 $$
 
 Applying the Chain Rule to Derive Delta
@@ -323,33 +323,33 @@ Applying the Chain Rule to Derive Delta
 We obtain this delta by first applying the Chain Rule to the Black-Scholes model as follows:
 
 $$
-\frac {\partial c}{\partial S} = N \left(d _ {1}\right) + S _ {0} \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} \frac {\partial d _ {1}}{\partial S} - X e ^ {- r T} \left(\frac {d N \left(d _ {2}\right)}{d \left(d _ {2}\right)} \frac {\partial d _ {2}}{\partial S}\right)
+\frac{\partial c}{\partial S} = N \left(d_{1}\right) + S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} \frac{\partial d_{1}}{\partial S} - X e^{- r T} \left(\frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \frac{\partial d_{2}}{\partial S}\right)
 $$
 
 $$
-\frac {\partial d _ {1}}{\partial S} = \frac {\partial d _ {2}}{\partial S} = \frac {1}{S _ {0}} \cdot \frac {1}{\sigma \sqrt {T}}
+\frac{\partial d_{1}}{\partial S} = \frac{\partial d_{2}}{\partial S} = \frac{1}{S_{0}} \cdot \frac{1}{\sigma \sqrt{T}}
 $$
 
 $$
-\frac {\partial c}{\partial S} = N \left(d _ {1}\right) + \frac {1}{S _ {0}} \cdot \frac {1}{\sigma \sqrt {T}} \left[ S _ {0} \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} - X e ^ {- r T} \frac {d N \left(d _ {2}\right)}{d \left(d _ {2}\right)} \right]
+\frac{\partial c}{\partial S} = N \left(d_{1}\right) + \frac{1}{S_{0}} \cdot \frac{1}{\sigma \sqrt{T}} \left[ S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} - X e^{- r T} \frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \right]
 $$
 
 Our expression for Delta is obtained once we demonstrate that the two terms inside the brackets offset each other:2
 
 $$
-S _ {0} \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} = X e ^ {- r T} \frac {d N \left(d _ {2}\right)}{d \left(d _ {2}\right)} \tag {3}
+S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} = X e^{- r T} \frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \tag{3}
 $$
 
 We re-write the right side of this equality as follows:
 
 $$
-X e ^ {- r T} \frac {d N (d _ {2})}{d (d _ {2})} = X e ^ {- r T} \frac {d N (d _ {1} - \sigma \sqrt {T})}{d (d _ {1})} = X e ^ {- r T} \frac {1}{\sqrt {2 \pi}} \cdot e ^ {\frac {- (d _ {1} - \sigma \sqrt {T}) ^ {2}}{2}}
+X e^{- r T} \frac{d N (d_{2})}{d (d_{2})} = X e^{- r T} \frac{d N (d_{1} - \sigma \sqrt{T})}{d (d_{1})} = X e^{- r T} \frac{1}{\sqrt{2 \pi}} \cdot e^{\frac{- (d_{1} - \sigma \sqrt{T})^{2}}{2}}
 $$
 
 We continue to re-write as follows:
 
 $$
-X e ^ {- r T} \frac {1}{\sqrt {2 \pi}} e ^ {\frac {- (d _ {1} - \sigma \sqrt {T}) ^ {2}}{2}} = X e ^ {- r T} \frac {1}{\sqrt {2 \pi}} e ^ {\frac {- d _ {1} ^ {2}}{2}} \cdot e ^ {\frac {- (- 2 d _ {1} \sigma \sqrt {T} + \sigma^ {2} T)}{2}} = X e ^ {- r T} \frac {d N (d _ {1})}{d (d _ {1})} e ^ {d _ {1} \sigma \sqrt {T}} \cdot e ^ {\frac {- \sigma^ {2} T}{2}}
+X e^{- r T} \frac{1}{\sqrt{2 \pi}} e^{\frac{- (d_{1} - \sigma \sqrt{T})^{2}}{2}} = X e^{- r T} \frac{1}{\sqrt{2 \pi}} e^{\frac{- d_{1}^{2}}{2}} \cdot e^{\frac{- (- 2 d_{1} \sigma \sqrt{T} + \sigma^{2} T)}{2}} = X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{d_{1} \sigma \sqrt{T}} \cdot e^{\frac{- \sigma^{2} T}{2}}
 $$
 
 Substituting for  $\mathrm{d}_1$  from the Black Scholes model and then canceling offsetting terms, we have
@@ -357,17 +357,17 @@ Substituting for  $\mathrm{d}_1$  from the Black Scholes model and then cancelin
 # Chapter 7 Additional Readings
 
 $$
-X e ^ {- r T} \frac {d N (d _ {1})}{d (d _ {1})} e ^ {d _ {1} \sigma \sqrt {T}} \cdot e ^ {\frac {- \sigma^ {2} T}{2}} = X e ^ {- r T} \frac {d N (d _ {1})}{d (d _ {1})} e ^ {\ln \left(S _ {0} / X\right) + \left(r + 5 \sigma^ {2}\right) T} \cdot e ^ {\frac {- \sigma^ {2} T}{2}} = X \frac {d N (d _ {1})}{d (d _ {1})} e ^ {\ln \left(S _ {0} / X\right)}
+X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{d_{1} \sigma \sqrt{T}} \cdot e^{\frac{- \sigma^{2} T}{2}} = X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right) + \left(r + 5 \sigma^{2}\right) T} \cdot e^{\frac{- \sigma^{2} T}{2}} = X \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right)}
 $$
 
 $$
-X \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} e ^ {\ln \left(S _ {0} / X\right)} = \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} S _ {0}
+X \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} e^{\ln \left(S_{0} / X\right)} = \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} S_{0}
 $$
 
 Now, it should be clear that equation (3) and the formula for delta are true:
 
 $$
-S _ {0} \frac {d N \left(d _ {1}\right)}{d \left(d _ {1}\right)} = X e ^ {- r T} \frac {d N \left(d _ {2}\right)}{d \left(d _ {2}\right)} \text {a n d} \frac {\partial c}{\partial S} = N \left(d _ {1}\right)
+S_{0} \frac{d N \left(d_{1}\right)}{d \left(d_{1}\right)} = X e^{- r T} \frac{d N \left(d_{2}\right)}{d \left(d_{2}\right)} \text { a n d} \frac{\partial c}{\partial S} = N \left(d_{1}\right)
 $$
 
 # Gamma
@@ -375,9 +375,9 @@ $$
 We can derive gamma, the derivative of delta with respect to  $S$  using the chain rule as follows:
 
 $$
-\frac {\partial^ {2} c}{\partial S ^ {2}} = \frac {\partial N (d _ {1})}{\partial S} = \frac {d N (d _ {1})}{d (d _ {1})} \frac {\partial (d _ {1})}{\partial S} = \Gamma
+\frac{\partial^{2} c}{\partial S^{2}} = \frac{\partial N (d_{1})}{\partial S} = \frac{d N (d_{1})}{d (d_{1})} \frac{\partial (d_{1})}{\partial S} = \Gamma
 $$
 
 $$
-\frac {\partial^ {2} c}{\partial S ^ {2}} = \frac {e ^ {\frac {- d _ {1} ^ {2}}{2}}}{\sqrt {2 \pi}} \cdot \frac {1}{S _ {0} \sigma \sqrt {T}} = \Gamma
+\frac{\partial^{2} c}{\partial S^{2}} = \frac{e^{\frac{- d_{1}^{2}}{2}}}{\sqrt{2 \pi}} \cdot \frac{1}{S_{0} \sigma \sqrt{T}} = \Gamma
 $$

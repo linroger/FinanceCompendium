@@ -1355,13 +1355,13 @@ Some example implementations include TRL and Hamish Ivison's Jax Code
 Another way of viewing regularization is that you may have a dataset that you want the model to remain close to, as done in InstructGPT [3] "in order to fix the performance regressions on public NLP datasets". To implement this, they modify the training objective for RLHF. Taking eq. 20, we can transform this into an objective function to optimize by sampling from the RL policy model, completions  $y$  from prompts  $x$ , which yields:
 
 $$
-J (\theta) = \mathbb {E} _ {(x, y) \sim \mathcal {D} _ {\pi_ {\theta} ^ {\mathrm {R L}}}} \left[ r _ {\theta} (y \mid x) - \lambda r _ {\mathrm {r e g .}} \right] \tag {24}
+J(\theta) = \mathbb{E}_{(x, y) \sim \mathcal{D}_{\pi_{\theta}^{\mathrm{RL}}}} \left[ r_{\theta} (y \mid x) - \lambda r_{\mathrm{reg.}} \right] \tag{24}
 $$
 
 Then, we can add an additional reward for higher probabilities on pretraining accuracy:
 
 $$
-J (\theta) = \mathbb {E} _ {(x, y) \sim \mathcal {D} _ {\pi_ {\theta} ^ {\mathrm {R L}}} [ r _ {\theta} (y \mid x) - \lambda r _ {\mathrm {r e g .}} ] + \gamma \mathbb {E} _ {x \sim \mathcal {D} _ {\mathrm {p r e t r a i n}} [ \log (\pi_ {\theta} ^ {\mathrm {R L}} (x)) ]} \tag {25}
+J(\theta) = \mathbb{E}_{(x, y) \sim \mathcal{D}_{\pi_{\theta}^{\mathrm{RL}}}} \left[ r_{\theta} (y \mid x) - \lambda r_{\mathrm{reg.}} \right] + \gamma \mathbb{E}_{x \sim \mathcal{D}_{\mathrm{pretrain}}} \left[ \log (\pi_{\theta}^{\mathrm{RL}} (x)) \right] \tag{25}
 $$
 
 Recent work proposed using a negative log likelihood term to balance the optimization of Direct Preference Optimization (DPO) [130]. Given the pairwise nature of the DPO loss, the same loss modification can be made to reward model training, constraining the model to predict accurate text (rumors from laboratories that did not publish the work).
@@ -1369,7 +1369,7 @@ Recent work proposed using a negative log likelihood term to balance the optimiz
 The optimization follows as a modification to DPO.
 
 $$
-\begin{array}{l} \mathcal {L} _ {\mathrm {D P O + N L L}} = \mathcal {L} _ {\mathrm {D P O}} \left(c _ {i} ^ {w}, y _ {i} ^ {w}, c _ {i} ^ {l}, y _ {i} ^ {l} \mid x _ {i}\right) + \alpha \mathcal {L} _ {\mathrm {N L L}} \left(c _ {i} ^ {w}, y _ {i} ^ {w} \mid x _ {i}\right) (26) \\ = - \log \sigma \left(\beta \log \frac {M _ {\theta} \left(c _ {i} ^ {w} , y _ {i} ^ {w} \mid x _ {i}\right)}{M _ {t} \left(c _ {i} ^ {w} , y _ {i} ^ {w} \mid x _ {i}\right)} - \beta \log \frac {M _ {\theta} \left(c _ {i} ^ {l} , y _ {i} ^ {l} \mid x _ {i}\right)}{M _ {t} \left(c _ {i} ^ {l} , y _ {i} ^ {l} \mid x _ {i}\right)}\right) - \alpha \frac {\log M _ {\theta} \left(c _ {i} ^ {w} , y _ {i} ^ {w} \mid x _ {i}\right)}{\left| c _ {i} ^ {w} \right| + \left| y _ {i} ^ {w} \right|}. (27) \\ \end{array}
+\begin{array}{l} \mathcal{L}_{\mathrm{DPO+NLL}} = \mathcal{L}_{\mathrm{DPO}} \left(c_{i}^{w}, y_{i}^{w}, c_{i}^{l}, y_{i}^{l} \mid x_{i}\right) + \alpha \mathcal{L}_{\mathrm{NLL}} \left(c_{i}^{w}, y_{i}^{w} \mid x_{i}\right) (26) \\ = -\log \sigma \left(\beta \log \frac{M_{\theta} \left(c_{i}^{w}, y_{i}^{w} \mid x_{i}\right)}{M_{t} \left(c_{i}^{w}, y_{i}^{w} \mid x_{i}\right)} - \beta \log \frac{M_{\theta} \left(c_{i}^{l}, y_{i}^{l} \mid x_{i}\right)}{M_{t} \left(c_{i}^{l}, y_{i}^{l} \mid x_{i}\right)}\right) - \alpha \frac{\log M_{\theta} \left(c_{i}^{w}, y_{i}^{w} \mid x_{i}\right)}{\left| c_{i}^{w} \right| + \left| y_{i}^{w} \right|}. (27) \\ \end{array}
 $$
 
 # 8.3 Other Regularization
@@ -1379,7 +1379,7 @@ Controlling the optimization is less well defined in other parts of the RLHF sta
 Llama 2 proposed a margin loss for reward model training [43]:
 
 $$
-\mathcal {L} (\theta) = - \log \left(\sigma \left(r _ {\theta} \left(y _ {c} \mid x\right) - r _ {\theta} \left(y _ {r} \mid x\right) - m \left(y _ {c}, y _ {r}\right)\right)\right) \tag {28}
+\mathcal{L}(\theta) = -\log \left(\sigma \left(r_{\theta} \left(y_{c} \mid x\right) - r_{\theta} \left(y_{r} \mid x\right) - m \left(y_{c}, y_{r}\right)\right)\right) \tag{28}
 $$
 
 where  $m(y_{c},y_{r})$  is the margin between two datapoints  $y_{c}$  and  $y_{r}$  representing numerical difference in delta between the ratings of two annotators. This is either achieved by having annotators rate the outputs on a numerical scale or by using a quantified ranking method, such as Likert scales.
@@ -1523,7 +1523,7 @@ Figure 13: Rejection sampling overview.
 Let's define a set of  $M$  prompts as a vector:
 
 $$
-X = [ x _ {1}, x _ {2}, \dots , x _ {M} ]
+X = [ x_{1}, x_{2}, \dots, x_{M} ]
 $$
 
 These prompts can come from many sources, but most popularly they come from the instruction training set.

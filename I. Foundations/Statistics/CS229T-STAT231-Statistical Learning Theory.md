@@ -8,7 +8,7 @@ primary_tags:
 - 5.7 online mirror descent
 - general loss functions
 secondary_tags:
-- (lecture 1) 4 1.2 asymptotics
+- (lecture 1) 1.2 asymptotics
 - pac-bayesian bounds
 - asymptotic expressions
 - ': remark'
@@ -41,13 +41,7 @@ These lecture notes will be updated periodically as the course goes on. The Appe
 
 # Contents
 
-# 1 Overview 4
-
-1.1 What is this course about? (Lecture 1) 4  
-1.2 Asymptotics (Lecture 1) 5  
-1.3 Uniform convergence (Lecture 1) 6  
-1.4 Kernel methods (Lecture 1) 8  
-1.5 Online learning (Lecture 1) 9
+# 1 Overview 1.1 What is this course about? (Lecture 1) 1.2 Asymptotics (Lecture 1) 1.3 Uniform convergence (Lecture 1) 1.4 Kernel methods (Lecture 1) 1.5 Online learning (Lecture 1) 9
 
 # 2 Asymptotics 10
 
@@ -456,19 +450,19 @@ Definition 1 (exponential family)
 * Example (unary and binary factors):
 
 $$
-\phi (x) = \left[ x _ {1}, x _ {2}, x _ {3}, x _ {1} x _ {2}, x _ {2} x _ {3} \right] \in \mathbb {R} ^ {5}. \tag {19}
+\phi (x) = \left[ x_{1}, x_{2}, x_{3}, x_{1} x_{2}, x_{2} x_{3} \right] \in \mathbb{R} ^{5}. \tag{19}
 $$
 
 - Define a family of distributions  $\mathcal{P}$ , where each  $p_{\theta} \in \mathcal{P}$  assigns each  $x \in \mathcal{X}$  a probability that depends on  $x$  only through  $\phi(x)$ :
 
 $$
-\boxed {\mathcal {P} \stackrel {\text {d e f}} {=} \left\{p _ {\theta}: \theta \in \mathbb {R} ^ {d} \right\}, \quad p _ {\theta} (x) \stackrel {\text {d e f}} {=} \exp \left\{\theta \cdot \phi (x) - A (\theta) \right\},} \tag {20}
+\boxed{\mathcal{P} \stackrel{\text{def}} {=} \left\{p_{\theta}: \theta \in \mathbb{R} ^{d} \right\}, \quad p_{\theta} (x) \stackrel{\text{def}} {=} \exp \left\{\theta \cdot \phi (x) - A (\theta) \right\},} \tag{20}
 $$
 
 where the log-partition function
 
 $$
-A (\theta) \stackrel {\text {d e f}} {=} \log \sum_ {x \in \mathcal {X}} \exp \left\{\theta \cdot \phi (x) \right\} \tag {21}
+A (\theta) \stackrel{\text{def}} {=} \log \sum_{x \in \mathcal{X}} \exp \left\{\theta \cdot \phi (x) \right\} \tag{21}
 $$
 
 ensures the distribution is normalized.
@@ -486,13 +480,13 @@ ensures the distribution is normalized.
 - The mean is the gradient of the log-partition function:
 
 $$
-\nabla A (\theta) = \mathbb {E} _ {\theta} [ \phi (x) ] \stackrel {\text {d e f}} {=} \sum_ {x \in \mathcal {X}} p _ {\theta} (x) \phi (x). \tag {22}
+\nabla A (\theta) = \mathbb{E} _{\theta} [ \phi (x) ] \stackrel{\text{def}} {=} \sum_{x \in \mathcal{X}} p_{\theta} (x) \phi (x). \tag{22}
 $$
 
 - The covariance is the Hessian of the log-partition function:
 
 $$
-\nabla^ {2} A (\theta) = \operatorname {C o v} _ {\theta} [ \phi (x) ] \stackrel {\text {d e f}} {=} \mathbb {E} _ {\theta} \left[ \left(\phi (x) - \mathbb {E} _ {\theta} [ \phi (x) ]\right) \left(\phi (x) - \mathbb {E} _ {\theta} [ \phi (x) ]\right) ^ {\top} \right]. \tag {23}
+\nabla^{2} A (\theta) = \operatorname{Cov} _{\theta} [ \phi (x) ] \stackrel{\text{def}} {=} \mathbb{E} _{\theta} \left[ \left(\phi (x) - \mathbb{E} _{\theta} [ \phi (x) ]\right) \left(\phi (x) - \mathbb{E} _{\theta} [ \phi (x) ]\right) ^{\top} \right]. \tag{23}
 $$
 
 - Note that since  $\nabla^2 A(\theta)$  is a covariance matrix, it is necessarily positive semidefinite, which means that  $A$  is convex.  
@@ -500,7 +494,7 @@ $$
 - One important consequence of minimality is that there is a one-to-one mapping between the canonical parameters  $\theta$  and the mean parameters  $\mu$ :
 
 $$
-\theta = (\nabla A) ^ {- 1} (\mu) \quad \mu = \nabla A (\theta). \tag {24}
+\theta = (\nabla A) ^{- 1} (\mu) \quad \mu = \nabla A (\theta). \tag{24}
 $$
 
 - FIGURE: [moment mapping diagram from  $\theta$  to  $\mu$ ]  
@@ -509,37 +503,37 @@ $$
 - Now let us turn to parameter estimation. Assume as usual that we get  $n$  i.i.d. points drawn from some member of the exponential family with parameters  $\theta^{*}$ :
 
 $$
-x ^ {(1)}, \dots , x ^ {(n)} \sim p _ {\theta^ {*}}. \tag {25}
+x^{(1)}, \dots , x^{(n)} \sim p_{\theta^{*}}. \tag{25}
 $$
 
 The classic way to estimate this distribution is maximum likelihood:
 
 $$
-\hat {p} = p _ {\hat {\theta}}, \quad \hat {\theta} = \arg \max  _ {\theta \in \mathbb {R} ^ {d}} \sum_ {i = 1} ^ {n} \log p _ {\theta} \left(x ^ {(i)}\right). \tag {26}
+\hat{p} = p_{\hat{\theta}}, \quad \hat{\theta} = \arg \max_{\theta \in \mathbb{R} ^{d}} \sum_{i = 1} ^{n} \log p_{\theta} \left(x^{(i)}\right). \tag{26}
 $$
 
 For exponential families, we can write this as succinctly as:
 
 $$
-\hat {\theta} = \arg \max  _ {\theta \in \mathbb {R} ^ {d}} \left\{\hat {\mu} \cdot \theta - A (\theta) \right\}, \tag {27}
+\hat{\theta} = \arg \max_{\theta \in \mathbb{R} ^{d}} \left\{\hat{\mu} \cdot \theta - A (\theta) \right\}, \tag{27}
 $$
 
 where
 
 $$
-\hat {\mu} \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \phi \left(x ^ {(i)}\right) \tag {28}
+\hat{\mu} \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \phi \left(x^{(i)}\right) \tag{28}
 $$
 
 are the sufficient statistics of the data. At the end of the day, estimation in exponential families is still about forming empirical averages. Let's now try to get a closed form expression for  $\hat{\theta}$  as a function of  $\hat{\mu}$ . Since  $A$  is convex and differentiable, we can differentiate the expression in (27) to get the necessary and sufficient conditions for optimality:
 
 $$
-\hat {\mu} - \nabla A (\hat {\theta}) = 0. \tag {29}
+\hat{\mu} - \nabla A (\hat{\theta}) = 0. \tag{29}
 $$
 
 Inverting, we get that  $\hat{\theta}$  and  $\hat{\mu}$  are canonical and mean parameters:
 
 $$
-\hat {\theta} = (\nabla A) ^ {- 1} (\hat {\mu}). \tag {30}
+\hat{\theta} = (\nabla A) ^{- 1} (\hat{\mu}). \tag{30}
 $$
 
 In other words, the maximum likelihood estimator  $\hat{\theta}$  for exponential families is just a non-linear transformation of the sufficient statistics  $\hat{\mu}$ .
@@ -549,7 +543,7 @@ In other words, the maximum likelihood estimator  $\hat{\theta}$  for exponentia
 - By the definition of  $\hat{\mu}$  (28) and the central limit theorem, we have:
 
 $$
-\sqrt {n} \left(\hat {\mu} - \mu^ {*}\right) \xrightarrow {d} \mathcal {N} \left(0, \operatorname {C o v} _ {\theta} (\phi (x))\right), \tag {31}
+\sqrt{n} \left(\hat{\mu} - \mu^{*}\right) \xrightarrow{d} \mathcal{N} \left(0, \operatorname{Cov} _{\theta} (\phi (x))\right), \tag{31}
 $$
 
 where  $\mu^{*} = \mathbb{E}_{\theta^{*}}[\phi (x)]$
@@ -557,19 +551,19 @@ where  $\mu^{*} = \mathbb{E}_{\theta^{*}}[\phi (x)]$
 - By the connection between  $\hat{\theta}$  and  $\hat{\mu}$  (30) and redefining  $f = (\nabla A)^{-1}$ , we can rewrite the quantity of interest as:
 
 $$
-\sqrt {n} \left(\hat {\theta} - \theta^ {*}\right) = \sqrt {n} \left(f \left(\hat {\mu}\right) - f \left(\mu^ {*}\right)\right). \tag {32}
+\sqrt{n} \left(\hat{\theta} - \theta^{*}\right) = \sqrt{n} \left(f \left(\hat{\mu}\right) - f \left(\mu^{*}\right)\right). \tag{32}
 $$
 
 What do we do with the RHS? The delta method allows us to transfer asymptotic normality results on one quantity ( $\hat{\mu}$  in this case) to a non-linear transformation of another quantity ( $f(\hat{\mu})$  in this case). The asymptotic variance is just multiplied by a linearization of the non-linear transformation. Specifically:
 
 $$
-\sqrt {n} \left(f (\hat {\mu}) - f \left(\mu^ {*}\right)\right) \stackrel {d} {\rightarrow} \mathcal {N} \left(0, \nabla f \left(\mu^ {*}\right) ^ {\top} \operatorname {C o v} _ {\theta} \left(\phi (x)\right) \nabla f \left(\mu^ {*}\right)\right). \tag {33}
+\sqrt{n} \left(f (\hat{\mu}) - f \left(\mu^{*}\right)\right) \stackrel{d} {\rightarrow} \mathcal{N} \left(0, \nabla f \left(\mu^{*}\right) ^{\top} \operatorname{Cov} _{\theta} \left(\phi (x)\right) \nabla f \left(\mu^{*}\right)\right). \tag{33}
 $$
 
 Conveniently,  $\nabla f(\mu) = \nabla^2 A(\mu)^{-1} = \mathrm{Cov}_\theta (\phi (x))^{-1}$  for  $\theta = f(\mu)$ , so we get that:
 
 $$
-\sqrt {n} \left(\hat {\theta} - \theta^ {*}\right) \xrightarrow {d} \mathcal {N} \left(0, \operatorname {C o v} _ {\theta} (\phi (x)) ^ {- 1}\right). \tag {34}
+\sqrt{n} \left(\hat{\theta} - \theta^{*}\right) \xrightarrow{d} \mathcal{N} \left(0, \operatorname{Cov} _{\theta} (\phi (x)) ^{- 1}\right). \tag{34}
 $$
 
 - Notice that the asymptotic variance is the inverse of the covariance of the features  $\phi(x)$ . Intuitively, if the features vary more, we can estimate the parameters better (smaller asymptotic variance).  
@@ -580,7 +574,7 @@ Method of moments
 - We have introduced  $\hat{\theta}$  as a maximum likelihood estimator. But we can also interpret it as a method of moments estimator. If we rewrite the optimality conditions for  $\hat{\theta}$  using the fact that  $\nabla A(\theta) = \mathbb{E}_{\theta}[\phi(x)]$ , we see that
 
 $$
-\mathbb {E} _ {\hat {\theta}} [ \phi (x) ] = \hat {\mu}. \tag {35}
+\mathbb{E} _{\hat{\theta}} [ \phi (x) ] = \hat{\mu}. \tag{35}
 $$
 
 In other words, the empirical moments  $\hat{\mu}$  are identical to those defined by the model  $p_{\hat{\theta}}$ .
@@ -600,16 +594,16 @@ In other words, the empirical moments  $\hat{\mu}$  are identical to those defin
 - Define the empirical moments to be a vector aggregating the feature function over all the  $n$  examples:
 
 $$
-\hat {\mu} \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \phi \left(x ^ {(i)}\right). \tag {36}
+\hat{\mu} \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \phi \left(x^{(i)}\right). \tag{36}
 $$
 
 - Define  $\mathcal{Q}$  to be the set of distributions with these empirical moments:
 
 $$
-\boxed {\mathcal {Q} \stackrel {\text {d e f}} {=} \{q \in \Delta_ {| \mathcal {X} |}: \mathbb {E} _ {q} [ \phi (x) ] = \hat {\mu} \},} \tag {37}
+\boxed{\mathcal{Q} \stackrel{\text{def}} {=} \{q \in \Delta_{| \mathcal{X} |}: \mathbb{E} _{q} [ \phi (x) ] = \hat{\mu} \},} \tag{37}
 $$
 
-where  $\mathbb{E}_q[\phi (x)]\stackrel {\mathrm{def}}{=}\sum_{x\in \mathcal{X}}q(x)\phi (x).$
+where  $\mathbb{E}_q[\phi (x)]\stackrel{\mathrm{def}}{=}\sum_{x\in \mathcal{X}}q(x)\phi (x).$
 
 - Since  $|\mathcal{X}|$  can be extremely large ( $2^m$  if  $\mathcal{X} = \{-1, +1\}^m$ ), there are many possible distributions  $q$  but only  $d$  constraints, so  $\mathcal{Q}$  contains tons of candidates, and the problem is clearly underconstrained. How do we break ties? Edwin Jaynes introduced the principle of maximum entropy which provides one answer:  
 Definition 2 (maximum entropy principle (Jaynes, 1957))
@@ -617,7 +611,7 @@ Definition 2 (maximum entropy principle (Jaynes, 1957))
 - Choose the distribution with the empirical moments that has the highest entropy:
 
 $$
-\boxed {\hat {q} \stackrel {\mathrm {d e f}} {=} \arg \max  _ {q \in \mathcal {Q}} H (q),} \tag {38}
+\boxed{\hat{q} \stackrel{\mathrm{def}} {=} \arg \max_{q \in \mathcal{Q}} H (q),} \tag{38}
 $$
 
 where  $H(q) \stackrel{\mathrm{def}}{=} \mathbb{E}_q[-\log q(x)]$  is the entropy of the distribution  $q$ . In other words: respect the data (by choosing  $q \in \mathcal{Q}$ ) but don't commit to more than that (by maximizing the entropy).
@@ -636,7 +630,7 @@ Theorem 1 (maximum entropy duality)
 - Then maximum entropy subject to moment constraints is equivalent to maximum likelihood in exponential families:
 
 $$
-\boxed {\arg \max  _ {q \in \mathcal {Q}} H (q) = \arg \max  _ {p \in \mathcal {P}} \sum_ {i = 1} ^ {n} \log p \left(x ^ {(i)}\right).} \tag {39}
+\boxed{\arg \max_{q \in \mathcal{Q}} H (q) = \arg \max_{p \in \mathcal{P}} \sum_{i = 1} ^{n} \log p \left(x^{(i)}\right).} \tag{39}
 $$
 
 Proof of Theorem 1:
@@ -644,43 +638,43 @@ Proof of Theorem 1:
 - This result is a straightforward application of Langrangian duality.
 
 $$
-\max  _ {q \in \mathcal {Q}} H (q) = \max  _ {q \in \Delta_ {| \mathcal {X} |}} \min  _ {\theta \in \mathbb {R} ^ {d}} H (q) - \theta \cdot (\hat {\mu} - \mathbb {E} _ {q} [ \phi (x) ]). \tag {40}
+\max_{q \in \mathcal{Q}} H (q) = \max_{q \in \Delta_{| \mathcal{X} |}} \min_{\theta \in \mathbb{R} ^{d}} H (q) - \theta \cdot (\hat{\mu} - \mathbb{E} _{q} [ \phi (x) ]). \tag{40}
 $$
 
 Since  $\mathcal{Q}$  is non-empty (Slater's condition), we can switch the min and max. Expanding:
 
 $$
-\min  _ {\theta \in \mathbb {R} ^ {d}} \max  _ {q \in \Delta_ {| \mathcal {X} |}} - \sum_ {x \in \mathcal {X}} q (x) \log q (x) - \theta \cdot \left(\hat {\mu} - \sum_ {x \in \mathcal {X}} q (x) \phi (x)\right). \tag {41}
+\min_{\theta \in \mathbb{R} ^{d}} \max_{q \in \Delta_{| \mathcal{X} |}} - \sum_{x \in \mathcal{X}} q (x) \log q (x) - \theta \cdot \left(\hat{\mu} - \sum_{x \in \mathcal{X}} q (x) \phi (x)\right). \tag{41}
 $$
 
 Next, differentiate with respect to  $q$  and set it to some constant  $c$  (because of the sum-to-one constraint): for each  $x \in \mathcal{X}$ ,
 
 $$
-c = - (1 + \log q (x)) + \theta \cdot \phi (x). \tag {42}
+c = - (1 + \log q (x)) + \theta \cdot \phi (x). \tag{42}
 $$
 
 Solving for  $q$  (which depends on  $\theta$ , so we write  $q_{\theta}$ ), we see that  $q_{\theta} \in \mathcal{P}$  is a member of the exponential family:
 
 $$
-q _ {\theta} (x) \propto \exp (\theta \cdot \phi (x)). \tag {43}
+q_{\theta} (x) \propto \exp (\theta \cdot \phi (x)). \tag{43}
 $$
 
 Plugging this choice of  $q_{\theta}$  into the original problem, we get:
 
 $$
-\min  _ {\theta \in \mathbb {R} ^ {d}} - (\theta \cdot \mathbb {E} _ {\theta} [ \phi (x) ] - A (\theta)) - \theta \cdot (\hat {\mu} - \mathbb {E} _ {\theta} [ \phi (x) ]), \tag {44}
+\min_{\theta \in \mathbb{R} ^{d}} - (\theta \cdot \mathbb{E} _{\theta} [ \phi (x) ] - A (\theta)) - \theta \cdot (\hat{\mu} - \mathbb{E} _{\theta} [ \phi (x) ]), \tag{44}
 $$
 
 which is equivalent to the maximum likelihood objective:
 
 $$
-\max  _ {\theta \in \mathbb {R} ^ {d}} \left\{\theta \cdot \hat {\mu} - A (\theta) \right\}. \tag {45}
+\max_{\theta \in \mathbb{R} ^{d}} \left\{\theta \cdot \hat{\mu} - A (\theta) \right\}. \tag{45}
 $$
 
 This completes the proof. One sanity check we can optionally perform is to differentiate the maximum likelihood objective. Using the fact that  $\nabla A(\theta) = \mathbb{E}_{\theta}[\phi (x)]$ , we see that the moment constraints indeed hold at the optimal  $\theta$ :
 
 $$
-\hat {\mu} - \mathbb {E} _ {\theta} [ \phi (x) ] = 0, \tag {46}
+\hat{\mu} - \mathbb{E} _{\theta} [ \phi (x) ] = 0, \tag{46}
 $$
 
 so that the solution is also in  $\mathcal{Q}$ .
@@ -691,7 +685,7 @@ Information geometry (digression)
 - Recall the definition of the KL divergence between two distributions  $q$  and  $p$ :
 
 $$
-\operatorname {K L} (q \| p) \stackrel {\text {d e f}} {=} \mathbb {E} _ {q} [ \log q (x) - \log p (x) ]. \tag {47}
+\operatorname{KL} (q \| p) \stackrel{\text{def}} {=} \mathbb{E} _{q} [ \log q (x) - \log p (x) ]. \tag{47}
 $$
 
 Although KL is not a distance metric (it's not even symmetric), we can still talk about the notion of projections with respect to KL.
@@ -700,13 +694,13 @@ Although KL is not a distance metric (it's not even symmetric), we can still tal
 - Just for intuition: First, observe that  $\mathcal{Q}$ , the set of distributions consistent with a set of moments is closed under convex combinations of the distributions:
 
 $$
-q _ {1}, q _ {2} \in \mathcal {Q} \quad \Rightarrow \quad \alpha q _ {1} + (1 - \alpha) q _ {2} \in \mathcal {Q} \quad \text {f o r a l l} \alpha \in [ 0, 1 ] \tag {48}
+q_{1}, q_{2} \in \mathcal{Q} \quad \Rightarrow \quad \alpha q_{1} + (1 - \alpha) q_{2} \in \mathcal{Q} \quad \text{forall} \alpha \in [ 0, 1 ] \tag{48}
 $$
 
 Second, observe that  $\mathcal{P}$ , the set of distributions in the exponential family is closed under convex combinations of the parameters:
 
 $$
-p _ {\theta_ {1}}, p _ {\theta_ {2}} \in \mathcal {P} \quad \Rightarrow \quad p _ {\alpha \theta_ {1} + (1 - \alpha) \theta_ {2}} \in \mathcal {P} \quad \text {f o r a l l} \alpha \in [ 0, 1 ] \tag {49}
+p_{\theta_{1}}, p_{\theta_{2}} \in \mathcal{P} \quad \Rightarrow \quad p_{\alpha \theta_{1} + (1 - \alpha) \theta_{2}} \in \mathcal{P} \quad \text{forall} \alpha \in [ 0, 1 ] \tag{49}
 $$
 
 So both  $\mathcal{P}$  and  $\mathcal{Q}$  are in some sense convex when viewed appropriately.
@@ -722,7 +716,7 @@ So both  $\mathcal{P}$  and  $\mathcal{Q}$  are in some sense convex when viewed
 * Then a Pythagorean identity holds:
 
 $$
-\boxed {\mathrm {K L} (q \| p) = \mathrm {K L} (q \| \hat {p}) + \mathrm {K L} (\hat {p} \| p) \quad \text {f o r a l l} q \in \mathcal {Q}, p \in \mathcal {P}.} \tag {50}
+\boxed{\mathrm{KL} (q \| p) = \mathrm{KL} (q \| \hat{p}) + \mathrm{KL} (\hat{p} \| p) \quad \text{forall} q \in \mathcal{Q}, p \in \mathcal{P}.} \tag{50}
 $$
 
 This theorem says that some of the intuitions of Euclidean geometry carry over to information geometry when restricted to certain nice families of distributions. See Figure 5 for a visualization.
@@ -768,7 +762,7 @@ Let  $\Theta$  denote the set of all valid parameters.
 - Maximum (marginal) likelihood is the standard approach to parameter estimation. For completeness, we will review the procedure, although we will not need it in the sequel, so this part can be skipped. The maximum likelihood estimator is:
 
 $$
-\hat {\theta} = \arg \min  _ {\theta \in \Theta} \sum_ {i = 1} ^ {n} - \log \sum_ {h = 1} ^ {k} p _ {\theta} (h, x ^ {(i)}). \tag {51}
+\hat{\theta} = \arg \min_{\theta \in \Theta} \sum_{i = 1} ^{n} - \log \sum_{h = 1} ^{k} p_{\theta} (h, x^{(i)}). \tag{51}
 $$
 
 A popular optimization algorithm is to use the EM algorithm, which can be shown to be either a bound optimization algorithm (which repeatedly constructs a lower bound and optimizes) or a coordinate-wise ascent on a related objective:
@@ -776,13 +770,13 @@ A popular optimization algorithm is to use the EM algorithm, which can be shown 
 * E-step: for each example  $i$ , compute the posterior
 
 $$
-q _ {i} (h) = p _ {\theta} \left(h ^ {(i)} = h \mid x ^ {(i)}\right). \tag {52}
+q_{i} (h) = p_{\theta} \left(h^{(i)} = h \mid x^{(i)}\right). \tag{52}
 $$
 
 * M-step: optimize the expected log-likelihood:
 
 $$
-\max  _ {\theta} \sum_ {i = 1} ^ {n} \sum_ {h = 1} ^ {k} q _ {i} (h) \log p _ {\theta} \left(h, x ^ {(i)}\right). \tag {53}
+\max_{\theta} \sum_{i = 1} ^{n} \sum_{h = 1} ^{k} q_{i} (h) \log p_{\theta} \left(h, x^{(i)}\right). \tag{53}
 $$
 
 The EM algorithm is widely used and can get excellent empirical results, although there are no theoretical guarantees in general that EM will converge to a global optimum, and in practice, it can get stuck in bad local optima.
@@ -804,7 +798,7 @@ Moment mapping
 - Define the moment mapping
 
 $$
-\boxed {M (\theta) \stackrel {\text {d e f}} {=} \mathbb {E} _ {x \sim p _ {\theta}} [ \phi (x) ],} \tag {54}
+\boxed{M (\theta) \stackrel{\text{def}} {=} \mathbb{E} _{x \sim p_{\theta}} [ \phi (x) ],} \tag{54}
 $$
 
 which maps each parameter vector  $\theta \in \mathbb{R}^d$  to the expected value of  $\phi(x)$  with respect to  $p_{\theta}(x)$ . This mapping is the key that links moments (which are simple functions of the observed data) with the parameters (which are quantities that we want to estimate).
@@ -815,18 +809,18 @@ which maps each parameter vector  $\theta \in \mathbb{R}^d$  to the expected val
 * Then for  $M$  defined above, the moment equations are as follows:
 
 $$
-M \left(\left(\mu , \sigma^ {2}\right)\right) = \mathbb {E} _ {x \sim \mathcal {N} \left(\mu , \sigma^ {2}\right)} \left[ \left(x, x ^ {2}\right) \right] = \left(\mu , \sigma^ {2} + \mu^ {2}\right). \tag {55}
+M \left(\left(\mu , \sigma^{2}\right)\right) = \mathbb{E} _{x \sim \mathcal{N} \left(\mu , \sigma^{2}\right)} \left[ \left(x, x^{2}\right) \right] = \left(\mu , \sigma^{2} + \mu^{2}\right). \tag{55}
 $$
 
 - Let's see how moment mappings are useful. Suppose that someone told us some moments  $m^*$  (where  $m^* = M(\theta^*)$ ). Then assuming  $M$  were invertible, we could solve for  $\theta^* = M^{-1}(m^*)$ . Existence of the inverse is known as identifiability: we say that the parameters of a model family  $\Theta$  are identifiable from the moments given by observation function  $\phi$  if  $M^{-1}$  exists. Note that for mixture models, strict identifiability never holds, because we can always permute the  $k$  cluster labels. So we say that a mixture model is identifiable if  $|M^{-1}(m)| = k!$  for all  $m \in M(\Theta)$ .  
 - Example (Gaussian distribution): We can recover the parameters  $\theta^{*} = (\mu^{*},\sigma^{2*})$  from  $m^{*} = (m_{1}^{*},m_{2}^{*})$  as follows:
 
 $$
-* \mu^ {*} = m _ {1} ^ {*}
+* \mu^{*} = m_{1} ^{*}
 $$
 
 $$
-* \sigma^ {2 *} = m _ {2} ^ {*} - m _ {1} ^ {2 *}
+* \sigma^{2 *} = m_{2} ^{*} - m_{1} ^{2 *}
 $$
 
 Thus, the parameters are identifiable given the first two moments.
@@ -836,13 +830,13 @@ Thus, the parameters are identifiable given the first two moments.
 - In practice, of course, we don't have access to the true moments  $m^*$ . However, the key behind the method of moments is that we can estimate it extremely easily using a sample average over the data points. These are the empirical moments:
 
 $$
-\hat {m} \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \phi (x ^ {(i)}). \tag {56}
+\hat{m} \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \phi (x^{(i)}). \tag{56}
 $$
 
 - Given these empirical moments, we can simply plug in  $\hat{m}$  for  $m^*$  to yield the method of moments estimator:
 
 $$
-\begin{array}{l} \widehat {\theta} \stackrel {{\text {d e f}}} {{=}} M ^ {- 1} (\hat {m}). \end{array} \tag {57}
+\begin{array}{l} \widehat{\theta} \stackrel{{\text{def}}} {{=}} M^{- 1} (\hat{m}). \end{array} \tag{57}
 $$
 
 - Asymptotic analysis
@@ -851,13 +845,13 @@ $$
 - First, since  $\hat{m}$  is just an average of i.i.d. variables, we can apply the central limit theorem:
 
 $$
-\sqrt {n} \left(\hat {m} - m ^ {*}\right) \xrightarrow {d} \mathcal {N} \left(0, \operatorname {C o v} _ {x \sim p ^ {*}} [ \phi (x) ]\right). \tag {58}
+\sqrt{n} \left(\hat{m} - m^{*}\right) \xrightarrow{d} \mathcal{N} \left(0, \operatorname{Cov} _{x \sim p^{*}} [ \phi (x) ]\right). \tag{58}
 $$
 
 - Second, assuming that  $M^{-1}$  is continuous around  $m^*$ , we can use the delta method to argue that  $\hat{\theta}$  converges  $\theta^*$ :
 
 $$
-\left. \sqrt {n} (\hat {\theta} - \theta^ {*}) \xrightarrow {d} \mathcal {N} \left(0, \nabla M ^ {- 1} \left(m ^ {*}\right) \operatorname {C o v} _ {x \sim p ^ {*}} [ \phi (x) ] \nabla M ^ {- 1} \left(m ^ {*}\right) ^ {\top}\right), \right| \tag {59}
+\left. \sqrt{n} (\hat{\theta} - \theta^{*}) \xrightarrow{d} \mathcal{N} \left(0, \nabla M^{- 1} \left(m^{*}\right) \operatorname{Cov} _{x \sim p^{*}} [ \phi (x) ] \nabla M^{- 1} \left(m^{*}\right) ^{\top}\right), \right| \tag{59}
 $$
 
 where  $\nabla M^{-1}(m^{*})\in \mathbb{R}^{d\times p}$  is the Jacobian matrix for the inverse moment mapping  $M^{-1}$ . Therefore, the parameter error depends on how sensitive  $M^{-1}$  is around  $m^{*}$ . It is also useful to note that  $\nabla M^{-1}(m^{*}) = \nabla M(\theta^{*})^{\dagger}$  (where  $\dagger$  denotes pseudoinverse).
@@ -882,7 +876,7 @@ Preliminaries
 - Let's start with the first-order moments:
 
 $$
-M _ {1} \stackrel {\text {d e f}} {=} \mathbb {E} \left[ x _ {1} \right] = \sum_ {h = 1} ^ {k} \pi_ {h} \beta_ {h} = B \pi . \tag {60}
+M_{1} \stackrel{\text{def}} {=} \mathbb{E} \left[ x_{1} \right] = \sum_{h = 1} ^{k} \pi_{h} \beta_{h} = B \pi . \tag{60}
 $$
 
 * Note that the moments require marginalizing out the latent variables, and marginalization corresponds to matrix products.  
@@ -893,7 +887,7 @@ $$
 - We can write the second-order moments:
 
 $$
-M _ {2} \stackrel {\text {d e f}} {=} \mathbb {E} \left[ x _ {1} x _ {2} ^ {\top} \right] = \sum_ {h = 1} ^ {k} \pi_ {h} \beta_ {h} \beta_ {h} ^ {\top} = B \operatorname {d i a g} (\pi) B ^ {\top}. \tag {61}
+M_{2} \stackrel{\text{def}} {=} \mathbb{E} \left[ x_{1} x_{2} ^{\top} \right] = \sum_{h = 1} ^{k} \pi_{h} \beta_{h} \beta_{h} ^{\top} = B \operatorname{diag} (\pi) B^{\top}. \tag{61}
 $$
 
 * Interpretation:  $M_2 \in \mathbb{R}^{d \times d}$  is a matrix of co-occurrence word probabilities. Specifically,  $M_2(u, v)$  is the probability of seeing word  $u$  with word  $v$ , again marginalizing out the latent variables.
@@ -903,7 +897,7 @@ $$
 - Let us proceed to third-order moments to get more information.
 
 $$
-M _ {3} (\eta) \stackrel {\mathrm {d e f}} {=} \mathbb {E} [ x _ {1} x _ {2} ^ {\top} (x _ {3} ^ {\top} \eta) ] = \sum_ {h = 1} ^ {k} \pi_ {h} \beta_ {h} \beta_ {h} ^ {\top} (\beta_ {h} ^ {\top} \eta) = B \mathrm {d i a g} (\pi) \mathrm {d i a g} (B ^ {\top} \eta) B ^ {\top}. \tag {62}
+M_{3} (\eta) \stackrel{\mathrm{def}} {=} \mathbb{E} [ x_{1} x_{2} ^{\top} (x_{3} ^{\top} \eta) ] = \sum_{h = 1} ^{k} \pi_{h} \beta_{h} \beta_{h} ^{\top} (\beta_{h} ^{\top} \eta) = B \mathrm{diag} (\pi) \mathrm{diag} (B^{\top} \eta) B^{\top}. \tag{62}
 $$
 
 Here,  $M_3(\eta)$  is a projection of a rank-3 tensor onto  $\eta \in \mathbb{R}^p$ . Think of  $M_3(\eta)$  as  $M_2$  (they have the same row and column space), but someone has come in and tweaked the diagonal entries. It turns out that this is enough to pin down the parameters. But first, a useful lemma which captures the core computation:
@@ -929,7 +923,7 @@ Then  $X$  and  $Y$  are also invertible.
 - Compute
 
 $$
-Y X ^ {- 1} = B E B ^ {\top} B ^ {- \top} D ^ {- 1} B ^ {- 1} = B \underbrace {E D ^ {- 1}} _ {\text {d i a g o n a l}} B ^ {- 1}. \tag {63}
+Y X^{- 1} = B E B^{\top} B^{- \top} D^{- 1} B^{- 1} = B \underbrace{E D^{- 1}} _{\text{diagonal}} B^{- 1}. \tag{63}
 $$
 
 - The RHS has the form of an eigendecomposition, so the eigenvectors of  $YX^{-1}$  are exactly the columns of  $B$  up to permutation and scaling. We actually know the scaling since the columns of  $B$  are probability distributions and must sum to 1.
@@ -943,11 +937,11 @@ $$
 * Then we have the following decomposition:
 
 $$
-\cdot U ^ {\top} X U = \tilde {B} D \tilde {B} ^ {\top}
+\cdot U^{\top} X U = \tilde{B} D \tilde{B} ^{\top}
 $$
 
 $$
-\cdot U ^ {\top} Y U = \tilde {B} E \tilde {B} ^ {\top}
+\cdot U^{\top} Y U = \tilde{B} E \tilde{B} ^{\top}
 $$
 
 * Now we are back in the simple case, which allows us to recover  $\tilde{B}$ . We can obtain  $B = U\tilde{B}$ .
@@ -973,7 +967,7 @@ graphical models (Chaganty and Liang, 2014), neural networks (Janzamin et al., 2
 - We assume that there is a true underlying parameter vector  $\theta^{*} \in \mathbb{R}^{d}$ , which governs the outputs. For each  $i = 1, \ldots, n$ :
 
 $$
-y _ {i} = x _ {i} \cdot \theta^ {*} + \epsilon_ {i}, \tag {64}
+y_{i} = x_{i} \cdot \theta^{*} + \epsilon_{i}, \tag{64}
 $$
 
 where we assume that the noise terms  $\epsilon_{i}$  are i.i.d. with mean  $\mathbb{E}[\epsilon_i] = 0$  and variance  $\mathrm{Var}[\epsilon_i] = \sigma^2$ . Note that  $\epsilon_1,\ldots ,\epsilon_n$  are the only source of randomness in the problem.
@@ -983,7 +977,7 @@ where we assume that the noise terms  $\epsilon_{i}$  are i.i.d. with mean  $\ma
 - At training time, we observe one realization of  $y_{1}, \ldots, y_{n}$ . For convenience, let's put the data into matrices:
 
 $$
-\begin{array}{l} * X = \left[ x _ {1}, \dots , x _ {n} \right] ^ {\top} \in \mathbb {R} ^ {n \times d} \\ * \epsilon = [ \epsilon_ {1}, \dots , \epsilon_ {n} ] ^ {\top} \in \mathbb {R} ^ {d} \\ * Y = [ y _ {1}, \ldots , y _ {n} ] ^ {\top} \in \mathbb {R} ^ {d} \\ * \Sigma = \frac {1}{n} X ^ {\top} X \in \mathbb {R} ^ {d \times d} (\text {s e c o n d m o m e n t m a t r i x}) \\ \end{array}
+\begin{array}{l} * X = \left[ x_{1}, \dots , x_{n} \right] ^{\top} \in \mathbb{R} ^{n \times d} \\ * \epsilon = [ \epsilon_{1}, \dots , \epsilon_{n} ] ^{\top} \in \mathbb{R} ^{d} \\ * Y = [ y_{1}, \ldots , y_{n} ] ^{\top} \in \mathbb{R} ^{d} \\ * \Sigma = \frac{1}{n} X^{\top} X \in \mathbb{R} ^{d \times d} (\text{secondmomentmatrix}) \\ \end{array}
 $$
 
 - FIGURE: [matrices  $X$ ,  $\theta$ ,  $Y$ ]
@@ -991,7 +985,7 @@ $$
 - Our goal is to minimize the expected risk² as defined by the squared loss:
 
 $$
-L (\theta) \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \mathbb {E} \left[ \left(x _ {i} \cdot \theta - y _ {i}\right) ^ {2} \right] = \frac {1}{n} \mathbb {E} \left[ \| X \theta - Y \| _ {2} ^ {2} \right]. \tag {65}
+L (\theta) \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \mathbb{E} \left[ \left(x_{i} \cdot \theta - y_{i}\right) ^{2} \right] = \frac{1}{n} \mathbb{E} \left[ \| X \theta - Y \| _{2} ^{2} \right]. \tag{65}
 $$
 
 Note that the expectation is over the randomness in  $Y$  (recall that  $X$  is fixed).
@@ -999,13 +993,13 @@ Note that the expectation is over the randomness in  $Y$  (recall that  $X$  is 
 - The least squares estimator is as follows:
 
 $$
-\hat {\theta} \stackrel {\text {d e f}} {=} \arg \min  _ {\theta \in \mathbb {R} ^ {d}} \frac {1}{n} \| X \theta - Y \| _ {2} ^ {2}. \tag {66}
+\hat{\theta} \stackrel{\text{def}} {=} \arg \min_{\theta \in \mathbb{R} ^{d}} \frac{1}{n} \| X \theta - Y \| _{2} ^{2}. \tag{66}
 $$
 
 By taking derivatives and setting the result to zero, we obtained the following closed form solution:
 
 $$
-\hat {\theta} = X ^ {\top} X ^ {- 1} X ^ {\top} Y = \frac {1}{n} \Sigma^ {- 1} X ^ {\top} Y, \tag {67}
+\hat{\theta} = X^{\top} X^{- 1} X^{\top} Y = \frac{1}{n} \Sigma^{- 1} X^{\top} Y, \tag{67}
 $$
 
 where we assume that the covariance matrix  $\Sigma \stackrel{\mathrm{def}}{=} \frac{1}{n} X^{\top} X \in \mathbb{R}^{d \times d}$  is invertible.
@@ -1013,7 +1007,7 @@ where we assume that the covariance matrix  $\Sigma \stackrel{\mathrm{def}}{=} \
 - Our goal is to study the expected risk of the least squares estimator:
 
 $$
-L (\hat {\theta}). \tag {68}
+L (\hat{\theta}). \tag{68}
 $$
 
 For simplicity, we will study the expectation  $\mathbb{E}[L(\hat{\theta})]$ , where the expectation is taken over the training data.
@@ -1023,7 +1017,7 @@ For simplicity, we will study the expectation  $\mathbb{E}[L(\hat{\theta})]$ , w
 - The goal will be to understand this quantity geometrically. The basic idea is to expand  $Y = X\theta^{*} + \epsilon$ ; the rest is just algebra. We have:
 
 $$
-\begin{array}{l} L (\theta) = \frac {1}{n} \mathbb {E} [ \| X \theta - Y \| _ {2} ^ {2} ] (69) \\ = \frac {1}{n} \mathbb {E} [ \| X \theta - X \theta^ {*} + \epsilon \| _ {2} ^ {2} ] \quad [ \text {b y} (70) \\ = \frac {1}{n} \mathbb {E} [ \| X \theta - X \theta^ {*} \| _ {2} ^ {2} + \| \epsilon \| _ {2} ^ {2} ] \quad [ \text {c r o s s t e r m s v a n i s h} ] (71) \\ = \frac {1}{n} \left(\theta - \theta^ {*}\right) ^ {\top} \left(X ^ {\top} X\right) \left(\theta - \theta^ {*}\right) + \sigma^ {2} \quad [ \text {a l g e b r a}, \text {d e f i n i t i o n o f} \epsilon ] (72) \\ = \| \theta - \theta^ {*} \| _ {\Sigma} ^ {2} + \sigma^ {2}. (73) \\ \end{array}
+\begin{array}{l} L (\theta) = \frac{1}{n} \mathbb{E} [ \| X \theta - Y \| _{2} ^{2} ] (69) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} + \epsilon \| _{2} ^{2} ] \quad [ \text{by} (70) \\ = \frac{1}{n} \mathbb{E} [ \| X \theta - X \theta^{*} \| _{2} ^{2} + \| \epsilon \| _{2} ^{2} ] \quad [ \text{crosstermsvanish} ] (71) \\ = \frac{1}{n} \left(\theta - \theta^{*}\right) ^{\top} \left(X^{\top} X\right) \left(\theta - \theta^{*}\right) + \sigma^{2} \quad [ \text{algebra}, \text{definitionof} \epsilon ] (72) \\ = \| \theta - \theta^{*} \| _{\Sigma} ^{2} + \sigma^{2}. (73) \\ \end{array}
 $$
 
 - Intuitively, the first term of the expected risk is the squared distance between the estimate  $\theta$  and the true parameters  $\theta^{*}$  as measured by the shape of the data. If the data does not vary much in one direction, then the discrepancy between  $\theta$  and  $\theta^{*}$  will be downweighted in that direction, because that direction doesn't matter for prediction, which depends on  $x\cdot \theta$ .
@@ -1032,7 +1026,7 @@ $$
 - In conclusion, the excess risk—how far we are from optimal—is:
 
 $$
-\boxed {L (\theta) - L \left(\theta^ {*}\right) = \left\| \theta - \theta^ {*} \right\| _ {\Sigma} ^ {2}.} \tag {74}
+\boxed{L (\theta) - L \left(\theta^{*}\right) = \left\| \theta - \theta^{*} \right\| _{\Sigma} ^{2}.} \tag{74}
 $$
 
 - Let us now analyze the excess risk  $L(\hat{\theta}) - L(\theta^{*})$  of the least squares estimate  $\hat{\theta}$ .
@@ -1040,13 +1034,13 @@ $$
 - Assume that  $X^{\top}X \succ 0$  (which means necessarily that  $n \geq d$ ). The key is to expand  $\hat{\theta}$  and  $Y$  based on their definitions and perform algebra. The expectation is over the test data now. Rewriting the excess risk:
 
 $$
-\begin{array}{l} L (\hat {\theta}) - L \left(\theta^ {*}\right) = \| \hat {\theta} - \theta^ {*} \| _ {\Sigma} ^ {2} [ \text {b y} (7 4) ] (75) \\ = \frac {1}{n} \| X \hat {\theta} - X \theta^ {*} \| _ {2} ^ {2} (76) \\ = \frac {1}{n} \| X \left(X ^ {\top} X\right) ^ {- 1} X ^ {\top} \left(X \theta^ {*} + \epsilon\right) - X \theta^ {*} \| _ {2} ^ {2} (77) \\ = \frac {1}{n} \| \Pi X \theta^ {*} + \Pi \epsilon - X \theta^ {*} \| _ {2} ^ {2} [ \text {p r o j e c t i o n} \Pi \stackrel {\text {d e f}} {=} X (X ^ {\top} X) ^ {- 1} X ^ {\top} ] (78) \\ = \frac {1}{n} \| \Pi \epsilon \| _ {2} ^ {2} [ \text {p r o j e c t i o n d o e s n ’ t c h a n g e} X \theta^ {*}, \text {c a n c e l} ] (79) \\ = \frac {1}{n} \operatorname {t r} \left(\Pi \epsilon \epsilon^ {\top}\right) [ \text {p r o j e c t i o n i s i d e m p o t e n t a n d s y m m e t r i c} ]. (80) \\ \end{array}
+\begin{array}{l} L (\hat{\theta}) - L \left(\theta^{*}\right) = \| \hat{\theta} - \theta^{*} \| _{\Sigma} ^{2} [ \text{by} (4) ] (75) \\ = \frac{1}{n} \| X \hat{\theta} - X \theta^{*} \| _{2} ^{2} (76) \\ = \frac{1}{n} \| X \left(X^{\top} X\right) ^{- 1} X^{\top} \left(X \theta^{*} + \epsilon\right) - X \theta^{*} \| _{2} ^{2} (77) \\ = \frac{1}{n} \| \Pi X \theta^{*} + \Pi \epsilon - X \theta^{*} \| _{2} ^{2} [ \text{projection} \Pi \stackrel{\text{def}} {=} X (X^{\top} X) ^{- 1} X^{\top} ] (78) \\ = \frac{1}{n} \| \Pi \epsilon \| _{2} ^{2} [ \text{p r o j e c t i o n d o e s n ’ t c h a n g e} X \theta^{*}, \text{cancel} ] (79) \\ = \frac{1}{n} \operatorname{tr} \left(\Pi \epsilon \epsilon^{\top}\right) [ \text{projectionisidempotentandsymmetric} ]. (80) \\ \end{array}
 $$
 
 - Taking expectations (over the training data), and using the fact that  $\mathbb{E}[\epsilon \epsilon^{\top}] = \sigma^{2}I$ , we get:
 
 $$
-\boxed {\mathbb {E} [ L (\hat {\theta}) - L \left(\theta^ {*}\right) ] = \frac {d \sigma^ {2}}{n}.} \tag {81}
+\boxed{\mathbb{E} [ L (\hat{\theta}) - L \left(\theta^{*}\right) ] = \frac{d \sigma^{2}}{n}.} \tag{81}
 $$
 
 Note that the complexity of the problem is completely determined by the dimensionality  $d$  and the variance of the noise  $\sigma^2$ .
@@ -1054,7 +1048,7 @@ Note that the complexity of the problem is completely determined by the dimensio
 - Intuitively, the noise  $\epsilon$  is an  $n$ -dimensional vector gets projected onto  $d$  dimensions by virtue of having to fit the data using a linear function with  $d$  degrees of freedom.
 
 $$
-[ \text {b e g i n l e c t u r e 4} ] \tag {4}
+[ \text{b e g i n l e c t u r e 4} ] \tag{4}
 $$
 
 # 2.8 General loss functions and random design (Lecture 4)
@@ -1082,13 +1076,13 @@ $$
 - Let  $\theta^{*} \in \mathbb{R}^{d}$  be the minimizer of the expected risk:
 
 $$
-\theta^ {*} \stackrel {\mathrm {d e f}} {=} \arg \min  _ {\theta \in \mathbb {R} ^ {d}} L (\theta), \quad L (\theta) \stackrel {\mathrm {d e f}} {=} \mathbb {E} _ {z \sim p ^ {*}} [ \ell (z, \theta) ] \tag {82}
+\theta^{*} \stackrel{\mathrm{def}} {=} \arg \min_{\theta \in \mathbb{R} ^{d}} L (\theta), \quad L (\theta) \stackrel{\mathrm{def}} {=} \mathbb{E} _{z \sim p^{*}} [ \ell (z, \theta) ] \tag{82}
 $$
 
 - Let  $\hat{\theta} \in \mathbb{R}^d$  be the minimizer of the empirical risk:
 
 $$
-\hat {\theta} \stackrel {\mathrm {d e f}} {=} \arg \min  _ {\theta \in \mathbb {R} ^ {d}} \hat {L} (\theta), \quad \hat {L} (\theta) \stackrel {\mathrm {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \ell \left(z ^ {(i)}, \theta\right), \tag {83}
+\hat{\theta} \stackrel{\mathrm{def}} {=} \arg \min_{\theta \in \mathbb{R} ^{d}} \hat{L} (\theta), \quad \hat{L} (\theta) \stackrel{\mathrm{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \ell \left(z^{(i)}, \theta\right), \tag{83}
 $$
 
 where  $z^{(1)},\ldots ,z^{(n)}$  are drawn i.i.d. from  $p^*$
@@ -1114,13 +1108,13 @@ where  $z^{(1)},\ldots ,z^{(n)}$  are drawn i.i.d. from  $p^*$
 - Step 1: obtain an asymptotic expression for the parameter error by Taylor expanding the gradient of the empirical risk.
 
 $$
-\begin{array}{l} \hat {\theta} - \theta^ {*}. \end{array} \tag {84}
+\begin{array}{l} \hat{\theta} - \theta^{*}. \end{array} \tag{84}
 $$
 
 - Step 2: obtain an asymptotic expression for the excess risk by Taylor expanding the expected risk.
 
 $$
-\boxed {L (\hat {\theta}) - L \left(\theta^ {*}\right).} \tag {85}
+\boxed{L (\hat{\theta}) - L \left(\theta^{*}\right).} \tag{85}
 $$
 
 While we haven't made any assumptions about the relationship between  $p^*$  and  $\ell$ , results become a lot nicer if there is. This relationship is captured by the following definition:
@@ -1130,7 +1124,7 @@ While we haven't made any assumptions about the relationship between  $p^*$  and
 - Assume that the loss function corresponds to the log-likelihood under a probabilistic model  $p_{\theta}$ :
 
 $$
-\ell ((x, y); \theta) = - \log p _ {\theta} (y \mid x), \tag {86}
+\ell ((x, y); \theta) = - \log p_{\theta} (y \mid x), \tag{86}
 $$
 
 so that  $\hat{\theta}$  is the (conditional) maximum likelihood estimate under this model.
@@ -1146,7 +1140,7 @@ so that  $\hat{\theta}$  is the (conditional) maximum likelihood estimate under 
 - In the well-specified case (conditionally, and thus also jointly), the following identity holds:
 
 $$
-\boxed {\nabla^ {2} L \left(\theta^ {*}\right) = \operatorname {C o v} \left[ \nabla \ell \left(z, \theta^ {*}\right) \right].} \tag {87}
+\boxed{\nabla^{2} L \left(\theta^{*}\right) = \operatorname{Cov} \left[ \nabla \ell \left(z, \theta^{*}\right) \right].} \tag{87}
 $$
 
 Proof of Theorem 3:
@@ -1155,13 +1149,13 @@ Proof of Theorem 3:
 - Using the fact that probability densities integrate to one:
 
 $$
-\int p ^ {*} (x) \underbrace {e ^ {- \ell (z , \theta^ {*})}} _ {p _ {\theta^ {*}} (y | x)} d z = 1. \tag {88}
+\int p^{*} (x) \underbrace{e^{- \ell (z , \theta^{*})}} _{p_{\theta^{*}} (y | x)} d z = 1. \tag{88}
 $$
 
 - Assuming regularity conditions, differentiate with respect to  $\theta^{*}$ :
 
 $$
-\int p ^ {*} (x) e ^ {- \ell \left(z, \theta^ {*}\right)} \left(- \nabla \ell \left(z, \theta^ {*}\right)\right) d z = 0. \tag {89}
+\int p^{*} (x) e^{- \ell \left(z, \theta^{*}\right)} \left(- \nabla \ell \left(z, \theta^{*}\right)\right) d z = 0. \tag{89}
 $$
 
 Note that this implies  $\mathbb{E}[\nabla \ell (z,\theta^{*})] = 0$ , which shouldn't be surprising since  $\theta^{*}$  minimizes  $L(\theta) = \mathbb{E}[\ell (z,\theta^{*})]$ .
@@ -1169,13 +1163,13 @@ Note that this implies  $\mathbb{E}[\nabla \ell (z,\theta^{*})] = 0$ , which sho
 - Differentiating again, using the product rule:
 
 $$
-\int p ^ {*} (x) \left[ - e ^ {- \ell \left(z, \theta^ {*}\right)} \nabla^ {2} \ell \left(z, \theta^ {*}\right) + e ^ {- \ell \left(z, \theta^ {*}\right)} \nabla \ell \left(z, \theta^ {*}\right) \nabla \ell \left(z, \theta^ {*}\right) ^ {\top} \right] d z = 0. \tag {90}
+\int p^{*} (x) \left[ - e^{- \ell \left(z, \theta^{*}\right)} \nabla^{2} \ell \left(z, \theta^{*}\right) + e^{- \ell \left(z, \theta^{*}\right)} \nabla \ell \left(z, \theta^{*}\right) \nabla \ell \left(z, \theta^{*}\right) ^{\top} \right] d z = 0. \tag{90}
 $$
 
 - Re-arranging:
 
 $$
-\mathbb {E} \left[ \nabla^ {2} \ell (z, \theta^ {*}) \right] = \mathbb {E} \left[ \nabla \ell (z, \theta^ {*}) \nabla \ell (z, \theta^ {*}) ^ {\top} \right]. \tag {91}
+\mathbb{E} \left[ \nabla^{2} \ell (z, \theta^{*}) \right] = \mathbb{E} \left[ \nabla \ell (z, \theta^{*}) \nabla \ell (z, \theta^{*}) ^{\top} \right]. \tag{91}
 $$
 
 - Using the fact that  $\mathbb{E}[\nabla \ell (z,\theta^{*})] = 0$  and the definition of  $L(\theta)$  yields the result.
@@ -1201,13 +1195,13 @@ Now let us analyze the parameter error (step 1) and expected risk (step 2) in th
 - Since  $\ell$  is twice differentiable, we can perform a Taylor expansion of the gradient of the empirical risk  $(\nabla \hat{L})$  around  $\theta^{*}$ :
 
 $$
-\nabla \hat {L} (\hat {\theta}) = \nabla \hat {L} (\theta^ {*}) + \nabla^ {2} \hat {L} (\theta^ {*}) (\hat {\theta} - \theta^ {*}) + O _ {p} (\| \hat {\theta} - \theta^ {*} \| _ {2} ^ {2}). \tag {92}
+\nabla \hat{L} (\hat{\theta}) = \nabla \hat{L} (\theta^{*}) + \nabla^{2} \hat{L} (\theta^{*}) (\hat{\theta} - \theta^{*}) + O_{p} (\| \hat{\theta} - \theta^{*} \| _{2} ^{2}). \tag{92}
 $$
 
 - Using the fact that the LHS  $\nabla \hat{L}(\hat{\theta}) = 0$  (by optimality conditions of the empirical risk minimizer) and rearranging:
 
 $$
-\hat {\theta} - \theta^ {*} = - \nabla^ {2} \hat {L} \left(\theta^ {*}\right) ^ {- 1} \left(\nabla \hat {L} \left(\theta^ {*}\right) + O _ {p} \left(\| \hat {\theta} - \theta^ {*} \| _ {2} ^ {2}\right)\right). \tag {93}
+\hat{\theta} - \theta^{*} = - \nabla^{2} \hat{L} \left(\theta^{*}\right) ^{- 1} \left(\nabla \hat{L} \left(\theta^{*}\right) + O_{p} \left(\| \hat{\theta} - \theta^{*} \| _{2} ^{2}\right)\right). \tag{93}
 $$
 
 - As  $n \to \infty$ :
@@ -1215,19 +1209,19 @@ $$
 * By the weak law of large numbers, we have
 
 $$
-\nabla^ {2} \hat {L} (\theta^ {*}) \stackrel {P} {\rightarrow} \nabla^ {2} L (\theta^ {*}). \tag {94}
+\nabla^{2} \hat{L} (\theta^{*}) \stackrel{P} {\rightarrow} \nabla^{2} L (\theta^{*}). \tag{94}
 $$
 
 Since the inverse is a smooth function around  $\theta^{*}$  (we assumed  $\nabla^2 L(\theta^*)\succ 0$ ), we can apply the continuous mapping theorem:
 
 $$
-\nabla^ {2} \hat {L} \left(\theta^ {*}\right) ^ {- 1} \xrightarrow {P} \nabla^ {2} L \left(\theta^ {*}\right) ^ {- 1}. \tag {95}
+\nabla^{2} \hat{L} \left(\theta^{*}\right) ^{- 1} \xrightarrow{P} \nabla^{2} L \left(\theta^{*}\right) ^{- 1}. \tag{95}
 $$
 
 *  $\hat{L}(\theta^{*})$  is a sum of mean zero i.i.d. variables, so by the central limit theorem,  $\sqrt{n} \cdot \nabla \hat{L}(\theta^{*})$  converges in distribution:
 
 $$
-\sqrt {n} \cdot \nabla \hat {L} \left(\theta^ {*}\right) \xrightarrow {d} \mathcal {N} \left(0, \operatorname {C o v} \left[ \nabla \ell \left(z, \theta^ {*}\right) \right]\right). \tag {96}
+\sqrt{n} \cdot \nabla \hat{L} \left(\theta^{*}\right) \xrightarrow{d} \mathcal{N} \left(0, \operatorname{Cov} \left[ \nabla \ell \left(z, \theta^{*}\right) \right]\right). \tag{96}
 $$
 
 An intuitive implication of this result is that  $\nabla \hat{L} (\theta^{*}) = O_{p}\left(\frac{1}{\sqrt{n}}\right)$ .
@@ -1235,13 +1229,13 @@ An intuitive implication of this result is that  $\nabla \hat{L} (\theta^{*}) = 
 * Suppose  $\hat{\theta} - \theta^{*} = O_{p}(f(n))$ . By (93),  $f(n)$  goes to zero at a rate which is the maximum of  $\frac{1}{\sqrt{n}}$  and  $f(n)^2$ . This implies that  $f(n) = \frac{1}{\sqrt{n}}$ , so we have:
 
 $$
-\sqrt {n} \cdot O _ {p} \left(\| \hat {\theta} - \theta^ {*} \| _ {2} ^ {2}\right) \stackrel {{P}} {{\rightarrow}} 0. \tag {97}
+\sqrt{n} \cdot O_{p} \left(\| \hat{\theta} - \theta^{*} \| _{2} ^{2}\right) \stackrel{{P}} {{\rightarrow}} 0. \tag{97}
 $$
 
 - By Slutsky's theorem (see Appendix), we can substitute the limits into (93) to obtain:
 
 $$
-\boxed {\sqrt {n} \cdot \underbrace {(\hat {\theta} - \theta^ {*})} _ {\text {p a r a m e t e r e r r o r}} \xrightarrow {d} \mathcal {N} \left(0, \nabla^ {2} L \left(\theta^ {*}\right) ^ {- 1} \operatorname {C o v} [ \nabla \ell (z, \theta^ {*}) ] \nabla^ {2} L \left(\theta^ {*}\right) ^ {- 1}\right),} \tag {98}
+\boxed{\sqrt{n} \cdot \underbrace{(\hat{\theta} - \theta^{*})} _{\text{parametererror}} \xrightarrow{d} \mathcal{N} \left(0, \nabla^{2} L \left(\theta^{*}\right) ^{- 1} \operatorname{Cov} [ \nabla \ell (z, \theta^{*}) ] \nabla^{2} L \left(\theta^{*}\right) ^{- 1}\right),} \tag{98}
 $$
 
 where we used the fact that if  $x_{n} \xrightarrow{d} \mathcal{N}(0, \Sigma)$ , then  $Ax_{n} \xrightarrow{d} \mathcal{N}(0, A\Sigma A^{\top})$ . This also establishes that the parameter error behaves  $\hat{\theta} - \theta^{*} = O_{p}\left(\frac{1}{\sqrt{n}}\right)$  as expected.
@@ -1255,7 +1249,7 @@ where we used the fact that if  $x_{n} \xrightarrow{d} \mathcal{N}(0, \Sigma)$ ,
 * In this case, due to (87), we have  $\operatorname{Cov}[\nabla \ell(z, \theta^*)] = \mathbb{E}[\nabla^2 \ell(z, \theta^*)] = \mathbb{E}[xx^\top]$ , so the variance factor is canceled out by one of the curvature factors.
 
 $$
-\boxed {\sqrt {n} \cdot (\hat {\theta} - \theta^ {*}) \xrightarrow {d} \mathcal {N} (0, \mathbb {E} [ x x ^ {\top} ] ^ {- 1}).} \tag {99}
+\boxed{\sqrt{n} \cdot (\hat{\theta} - \theta^{*}) \xrightarrow{d} \mathcal{N} (0, \mathbb{E} [ x x^{\top} ] ^{- 1}).} \tag{99}
 $$
 
 Intuition: the larger  $x$  is, the more stable the parameter estimates; think about wiggling a pencil by either holding it with two hands out at the ends (large  $x$ ) or near the center (small  $x$ ).
@@ -1265,14 +1259,14 @@ Intuition: the larger  $x$  is, the more stable the parameter estimates; think a
 - Perform a Taylor expansion of the expected risk around  $\theta^{*}$ :
 
 $$
-L (\hat {\theta}) = L \left(\theta^ {*}\right) + \nabla L \left(\theta^ {*}\right) ^ {\top} (\hat {\theta} - \theta^ {*}) + \frac {1}{2} (\hat {\theta} - \theta^ {*}) ^ {\top} \nabla^ {2} L \left(\theta^ {*}\right) (\hat {\theta} - \theta^ {*}) + O _ {p} \left(\| \hat {\theta} - \theta^ {*} \| _ {2} ^ {3}\right). \tag {100}
+L (\hat{\theta}) = L \left(\theta^{*}\right) + \nabla L \left(\theta^{*}\right) ^{\top} (\hat{\theta} - \theta^{*}) + \frac{1}{2} (\hat{\theta} - \theta^{*}) ^{\top} \nabla^{2} L \left(\theta^{*}\right) (\hat{\theta} - \theta^{*}) + O_{p} \left(\| \hat{\theta} - \theta^{*} \| _{2} ^{3}\right). \tag{100}
 $$
 
 - By optimality conditions of the expected risk minimizer  $\theta^{*}$ , we have  $\nabla L(\theta^{*}) = 0$ . This the key to getting  $O\left(\frac{1}{n}\right)$  rates of convergence.  
 - Multiplying by  $n$  and rearranging:
 
 $$
-n \left(L (\hat {\theta}) - L \left(\theta^ {*}\right)\right) = \frac {1}{2} \sqrt {n} \left(\hat {\theta} - \theta^ {*}\right) ^ {\top} \nabla^ {2} L \left(\theta^ {*}\right) \sqrt {n} \left(\hat {\theta} - \theta^ {*}\right) + O _ {p} \left(n \| \hat {\theta} - \theta^ {*} \| _ {2} ^ {3}\right). \tag {101}
+n \left(L (\hat{\theta}) - L \left(\theta^{*}\right)\right) = \frac{1}{2} \sqrt{n} \left(\hat{\theta} - \theta^{*}\right) ^{\top} \nabla^{2} L \left(\theta^{*}\right) \sqrt{n} \left(\hat{\theta} - \theta^{*}\right) + O_{p} \left(n \| \hat{\theta} - \theta^{*} \| _{2} ^{3}\right). \tag{101}
 $$
 
 - Substituting in the parameter error:
@@ -1280,25 +1274,25 @@ $$
 * Facts
 
 - If  $x_{n} \stackrel{d}{\to} \mathcal{N}(0, \Sigma)$ , then  $x_{n} x_{n}^{\top} \stackrel{d}{\to} \mathcal{W}(\Sigma, 1)$ , where  $\mathcal{W}(\Sigma, 1)$  is a Wishart distribution with mean  $\Sigma$  and 1 degree of freedom.  
-Taking the trace of both sides, we have that  $x_{n}^{\top}x_{n} = \operatorname{tr}(x_{n}x_{n}^{\top})\stackrel {d}{\to}\operatorname{tr}(\mathcal{W}(\Sigma ,1))$  
+Taking the trace of both sides, we have that  $x_{n}^{\top}x_{n} = \operatorname{tr}(x_{n}x_{n}^{\top})\stackrel{d}{\to}\operatorname{tr}(\mathcal{W}(\Sigma ,1))$  
 - The distribution on the RHS is a weighted sum of  $d$  chi-squared distributed variables, whose distribution is the same as  $\sum_{j=1}^{d} \Sigma_{jj} v_j^2$ , where  $v_j \sim \mathcal{N}(0,1)$  is a standard Gaussian and  $v_j^2 \sim \chi_1^2$  is a chi-squared.
 
 * In our context, let us define
 
 $$
-x _ {n} = \sqrt {n} \left(\nabla^ {2} L \left(\theta^ {*}\right)\right) ^ {\frac {1}{2}} \left(\hat {\theta} - \theta^ {*}\right). \tag {102}
+x_{n} = \sqrt{n} \left(\nabla^{2} L \left(\theta^{*}\right)\right) ^{\frac{1}{2}} \left(\hat{\theta} - \theta^{*}\right). \tag{102}
 $$
 
 Then
 
 $$
-\Sigma = \nabla^ {2} L \left(\theta^ {*}\right) ^ {- \frac {1}{2}} \operatorname {C o v} \left[ \nabla \ell \left(z, \theta^ {*}\right) \right] \nabla^ {2} L \left(\theta^ {*}\right) ^ {- \frac {1}{2}}. \tag {103}
+\Sigma = \nabla^{2} L \left(\theta^{*}\right) ^{- \frac{1}{2}} \operatorname{Cov} \left[ \nabla \ell \left(z, \theta^{*}\right) \right] \nabla^{2} L \left(\theta^{*}\right) ^{- \frac{1}{2}}. \tag{103}
 $$
 
 Therefore:
 
 $$
-\boxed {n \left(L (\hat {\theta}) - L \left(\theta^ {*}\right)\right) \xrightarrow {d} \frac {1}{2} \operatorname {t r} \mathcal {W} \left(\nabla^ {2} L \left(\theta^ {*}\right) ^ {- \frac {1}{2}} \operatorname {C o v} [ \nabla \ell (z, \theta^ {*}) ] \nabla^ {2} L \left(\theta^ {*}\right) ^ {- \frac {1}{2}}, 1\right),} \tag {104}
+\boxed{n \left(L (\hat{\theta}) - L \left(\theta^{*}\right)\right) \xrightarrow{d} \frac{1}{2} \operatorname{tr} \mathcal{W} \left(\nabla^{2} L \left(\theta^{*}\right) ^{- \frac{1}{2}} \operatorname{Cov} [ \nabla \ell (z, \theta^{*}) ] \nabla^{2} L \left(\theta^{*}\right) ^{- \frac{1}{2}}, 1\right),} \tag{104}
 $$
 
 where  $\mathcal{W}(V,n)$  is the Wishart distribution with scale matrix  $V$  and  $n$  degrees of freedom.
@@ -1308,7 +1302,7 @@ where  $\mathcal{W}(V,n)$  is the Wishart distribution with scale matrix  $V$  a
 * Since the model is well-specified, everything cancels nicely, resulting in:
 
 $$
-\boxed {n \left(L (\hat {\theta}) - L \left(\theta^ {*}\right)\right) \xrightarrow {d} \frac {1}{2} \operatorname {t r} \mathcal {W} \left(I _ {d \times d}, 1\right).} \tag {105}
+\boxed{n \left(L (\hat{\theta}) - L \left(\theta^{*}\right)\right) \xrightarrow{d} \frac{1}{2} \operatorname{tr} \mathcal{W} \left(I_{d \times d}, 1\right).} \tag{105}
 $$
 
 * The limiting distribution is half times a  $\chi_d^2$  distributed random variable, which has mean  $\frac{d}{2}$  and variance  $d$ .
@@ -1321,7 +1315,7 @@ Mean:  $\mathbb{E}[n(L(\hat{\theta}) - L(\theta^{*}))]\to \frac{d}{2}$
 In short,
 
 $$
-\boxed {L (\hat {\theta}) - L \left(\theta^ {*}\right) \sim \frac {d}{2 n}.} \tag {106}
+\boxed{L (\hat{\theta}) - L \left(\theta^{*}\right) \sim \frac{d}{2 n}.} \tag{106}
 $$
 
 Note that this recovers the result from fixed-design linear regression (81) (the factor of  $\frac{1}{2\sigma^2}$  is due to the different definition of the loss function).
@@ -1359,7 +1353,7 @@ James-Stein estimator (digression)
 - The answer is yes, surprisingly, as demonstrated by Charles Stein in 1955 in what is famously known as Stein's paradox. The James-Stein estimator (1961) is one popular estimator that improves over the sample mean estimator:
 
 $$
-\hat {\theta} _ {\mathrm {J S}} \stackrel {\text {d e f}} {=} \left(1 - \frac {(d - 2) \sigma^ {2}}{n \| \hat {\theta} \| _ {2} ^ {2}}\right) \hat {\theta}. \tag {107}
+\hat{\theta} _{\mathrm{JS}} \stackrel{\text{def}} {=} \left(1 - \frac{(d - 2) \sigma^{2}}{n \| \hat{\theta} \| _{2} ^{2}}\right) \hat{\theta}. \tag{107}
 $$
 
 In words, this estimator shrinks the sample mean  $\hat{\theta}$  by some data-dependent factor towards 0 (0 is not special--any fixed point would work). The amount of shrinkage is governed by the size of the initial estimate  $\|\hat{\theta}\|_2^2$ ; the smaller it is, the more we shrink.
@@ -1376,19 +1370,19 @@ In words, this estimator shrinks the sample mean  $\hat{\theta}$  by some data-d
 - Assume data satisfies:
 
 $$
-Y = X \theta^ {*} + \epsilon . \tag {108}
+Y = X \theta^{*} + \epsilon . \tag{108}
 $$
 
 - Now consider the regularized least squares estimator (ridge regression):
 
 $$
-\begin{array}{l} \hat {\theta} = \arg \min  _ {\theta \in \mathbb {R} ^ {d}} \frac {1}{n} \| X \theta - Y \| _ {2} ^ {2} + \lambda \| \theta \| _ {2} ^ {2} (109) \\ = \frac {1}{n} \Sigma_ {\lambda} ^ {- 1} X ^ {\top} Y. (110) \\ \end{array}
+\begin{array}{l} \hat{\theta} = \arg \min_{\theta \in \mathbb{R} ^{d}} \frac{1}{n} \| X \theta - Y \| _{2} ^{2} + \lambda \| \theta \| _{2} ^{2} (109) \\ = \frac{1}{n} \Sigma_{\lambda} ^{- 1} X^{\top} Y. (110) \\ \end{array}
 $$
 
 where
 
 $$
-\Sigma_ {\lambda} \stackrel {\text {d e f}} {=} \frac {1}{n} X ^ {\top} X + \lambda I. \tag {111}
+\Sigma_{\lambda} \stackrel{\text{def}} {=} \frac{1}{n} X^{\top} X + \lambda I. \tag{111}
 $$
 
 Here,  $\lambda \geq 0$  is the regularization strength that controls how much we want to shrink the estimate towards 0 to guard against overfitting. Intuitively, the more data points we have (larger  $n$ ), the less we should regularize (smaller  $\lambda$ ), and vice-versa. But what precisely should  $\lambda$  be and what is the resulting expected risk? The subsequent analysis will provide answers to these questions.
@@ -1396,7 +1390,7 @@ Here,  $\lambda \geq 0$  is the regularization strength that controls how much w
 - The first main insight is the bias-variance tradeoff, whose balance is determined by  $\lambda$ . Let us decompose the excess risk:
 
 $$
-\begin{array}{l} \mathbb {E} [ \| \hat {\theta} - \theta^ {*} \| _ {\Sigma} ^ {2} ] = \mathbb {E} [ \| \hat {\theta} - \mathbb {E} [ \hat {\theta} ] + \mathbb {E} [ \hat {\theta} ] - \theta^ {*} \| _ {\Sigma} ^ {2} ] (112) \\ = \underbrace {\mathbb {E} [ \| \hat {\theta} - \mathbb {E} [ \hat {\theta} ] \| _ {\Sigma} ^ {2} ]} _ {\stackrel {\text {d e f}} {=} \operatorname {V a r}} + \underbrace {\| \mathbb {E} [ \hat {\theta} ] - \theta^ {*} \| _ {\Sigma} ^ {2}} _ {\stackrel {\text {d e f}} {=} \operatorname {B i a s} ^ {2}}, (113) \\ \end{array}
+\begin{array}{l} \mathbb{E} [ \| \hat{\theta} - \theta^{*} \| _{\Sigma} ^{2} ] = \mathbb{E} [ \| \hat{\theta} - \mathbb{E} [ \hat{\theta} ] + \mathbb{E} [ \hat{\theta} ] - \theta^{*} \| _{\Sigma} ^{2} ] (112) \\ = \underbrace{\mathbb{E} [ \| \hat{\theta} - \mathbb{E} [ \hat{\theta} ] \| _{\Sigma} ^{2} ]} _{\stackrel{\text{def}} {=} \operatorname{Var}} + \underbrace{\| \mathbb{E} [ \hat{\theta} ] - \theta^{*} \| _{\Sigma} ^{2}} _{\stackrel{\text{def}} {=} \operatorname{Bias} ^{2}}, (113) \\ \end{array}
 $$
 
 where the cross terms are designed to cancel out. Note that in the unregularized case  $(\lambda = 0)$ , the bias is zero (provided  $\Sigma \succ 0$ ) since  $\mathbb{E}[\hat{\theta}] = (X^{\top}X)^{-1}X^{\top}(X\theta^{*} + \mathbb{E}[\epsilon]) = \theta^{*}$  but when  $\lambda > 0$ , the bias will be non-zero.
@@ -1407,13 +1401,13 @@ Suppose we rotate each data point  $x_{i}$  by an orthogonal matrix  $R \in \mat
 - The excess risk of the modified problem is:
 
 $$
-\mathbb {E} \left[ \| X R \left(R ^ {\top} X ^ {\top} X R + n \lambda I\right) ^ {- 1} R ^ {\top} X ^ {\top} \left(X R R ^ {\top} \theta^ {*} + \epsilon\right) - X R R ^ {\top} \theta^ {*} \| _ {2} ^ {2} \right]. \tag {114}
+\mathbb{E} \left[ \| X R \left(R^{\top} X^{\top} X R + n \lambda I\right) ^{- 1} R^{\top} X^{\top} \left(X R R^{\top} \theta^{*} + \epsilon\right) - X R R^{\top} \theta^{*} \| _{2} ^{2} \right]. \tag{114}
 $$
 
 Simplification reveals that we get back exactly the original excess risk:
 
 $$
-\mathbb {E} [ \| X (X ^ {\top} X + n \lambda I) ^ {- 1} X ^ {\top} (X \theta^ {*} + \epsilon) - X \theta^ {*} \| _ {2} ^ {2} ]. \tag {115}
+\mathbb{E} [ \| X (X^{\top} X + n \lambda I) ^{- 1} X^{\top} (X \theta^{*} + \epsilon) - X \theta^{*} \| _{2} ^{2} ]. \tag{115}
 $$
 
 This equivalence holds for any orthogonal matrix  $R$ .
@@ -1421,7 +1415,7 @@ This equivalence holds for any orthogonal matrix  $R$ .
 - If we take the SVD  $X = USV^{\top}$  and rotate by  $R = V$ , then we can see that  $X^{\top}X \mapsto (V^{\top}VSU^{\top})(USV^{\top}V) = S^{2}$ , which is diagonal. Therefore, for the purposes of analysis, we can assume that  $\Sigma$  is diagonal without loss of generality:
 
 $$
-\Sigma = \operatorname {d i a g} \left(\tau_ {1}, \dots , \tau_ {d}\right). \tag {116}
+\Sigma = \operatorname{diag} \left(\tau_{1}, \dots , \tau_{d}\right). \tag{116}
 $$
 
 Diagonal covariances have the advantage that we can analyze each component separately, turning matrix computations into independent scalar computations.
@@ -1429,7 +1423,7 @@ Diagonal covariances have the advantage that we can analyze each component separ
 - Let us compute the mean of the estimator:
 
 $$
-\begin{array}{l} \bar {\theta} _ {j} \stackrel {\text {d e f}} {=} \mathbb {E} [ \hat {\theta} _ {j} ] (117) \\ = \mathbb {E} \left[ \Sigma_ {\lambda} ^ {- 1} n ^ {- 1} X ^ {\top} \left(X \theta^ {*} + \epsilon\right) \right] _ {j} \quad [ \text {e x p a n d} Y ] (118) \\ = \mathbb {E} \left[ \Sigma_ {\lambda} ^ {- 1} \Sigma \theta^ {*} + \Sigma_ {\lambda} ^ {- 1} n ^ {- 1} X ^ {\top} \epsilon \right] _ {j} \quad [ \text {a l g e b r a} ] (119) \\ = \frac {\tau_ {j}}{\tau_ {j} + \lambda} \theta_ {j} ^ {*} [ \text {s i n c e} \mathbb {E} [ \epsilon ] = 0 ]. (120) \\ \end{array}
+\begin{array}{l} \bar{\theta} _{j} \stackrel{\text{def}} {=} \mathbb{E} [ \hat{\theta} _{j} ] (117) \\ = \mathbb{E} \left[ \Sigma_{\lambda} ^{- 1} n^{- 1} X^{\top} \left(X \theta^{*} + \epsilon\right) \right] _{j} \quad [ \text{expand} Y ] (118) \\ = \mathbb{E} \left[ \Sigma_{\lambda} ^{- 1} \Sigma \theta^{*} + \Sigma_{\lambda} ^{- 1} n^{- 1} X^{\top} \epsilon \right] _{j} \quad [ \text{algebra} ] (119) \\ = \frac{\tau_{j}}{\tau_{j} + \lambda} \theta_{j} ^{*} [ \text{since} \mathbb{E} [ \epsilon ] = 0 ]. (120) \\ \end{array}
 $$
 
 Thus, the expected value of the estimator is the true parameter value  $\theta^{*}$  shrunk towards zero by a strength that depends on  $\lambda$ .
@@ -1437,7 +1431,7 @@ Thus, the expected value of the estimator is the true parameter value  $\theta^{
 - Compute the squared bias term of the expected risk:
 
 $$
-\begin{array}{l} \text {B i a s} ^ {2} = \left\| \bar {\theta} - \theta^ {*} \right\| _ {\Sigma} ^ {2} (121) \\ = \sum_ {j = 1} ^ {d} \tau_ {j} \left(\frac {\tau_ {j}}{\tau_ {j} + \lambda} \theta_ {j} ^ {*} - \theta_ {j} ^ {*}\right) ^ {2} (122) \\ = \sum_ {j = 1} ^ {d} \frac {\tau_ {j} \lambda^ {2} \left(\theta_ {j} ^ {*}\right) ^ {2}}{\left(\tau_ {j} + \lambda\right) ^ {2}}. (123) \\ \end{array}
+\begin{array}{l} \text{Bias} ^{2} = \left\| \bar{\theta} - \theta^{*} \right\| _{\Sigma} ^{2} (121) \\ = \sum_{j = 1} ^{d} \tau_{j} \left(\frac{\tau_{j}}{\tau_{j} + \lambda} \theta_{j} ^{*} - \theta_{j} ^{*}\right) ^{2} (122) \\ = \sum_{j = 1} ^{d} \frac{\tau_{j} \lambda^{2} \left(\theta_{j} ^{*}\right) ^{2}}{\left(\tau_{j} + \lambda\right) ^{2}}. (123) \\ \end{array}
 $$
 
 If  $\lambda = 0$ , then the squared bias is zero as expected. As  $\lambda \to \infty$ , the squared bias tends to  $\| \theta^{*} \|_{2}^{2}$ , reflecting the fact that the estimator  $\hat{\theta} \to 0$ .
@@ -1445,7 +1439,7 @@ If  $\lambda = 0$ , then the squared bias is zero as expected. As  $\lambda \to 
 - Compute the variance term of the expected risk:
 
 $$
-\begin{array}{l} \operatorname {V a r} = \mathbb {E} [ \| \hat {\theta} - \bar {\theta} \| _ {\Sigma} ^ {2} ] (124) \\ = \mathbb {E} \left[ \| \Sigma_ {\lambda} ^ {- 1} n ^ {- 1} X ^ {\top} \epsilon \| _ {\Sigma} ^ {2} \right] [ \text {d e f i n i t i o n o f} \hat {\theta} ] (125) \\ = \frac {1}{n ^ {2}} \mathbb {E} \left[ \epsilon^ {\top} X \Sigma_ {\lambda} ^ {- 1} \Sigma \Sigma_ {\lambda} ^ {- 1} X ^ {\top} \epsilon \right] [ \text {e x p a n d} ] (126) \\ = \frac {1}{n ^ {2}} \operatorname {t r} \left(\Sigma_ {\lambda} ^ {- 1} \Sigma \Sigma_ {\lambda} ^ {- 1} X ^ {\top} \mathbb {E} [ \epsilon \epsilon^ {\top} ] X\right) \quad [ \text {c y c l i c t r a c e} ] (127) \\ = \frac {\sigma^ {2}}{n} \operatorname {t r} \left(\Sigma_ {\lambda} ^ {- 1} \Sigma \Sigma_ {\lambda} ^ {- 1} \Sigma\right) [ \text {s i n c e} \mathbb {E} [ \epsilon \epsilon^ {\top} ] = \sigma^ {2} I ] (128) \\ = \frac {\sigma^ {2}}{n} \sum_ {j = 1} ^ {d} \frac {\tau_ {j} ^ {2}}{(\tau_ {j} + \lambda) ^ {2}} [ \text {m a t r i c e s a r e d i a g o n a l} ]. (129) \\ \end{array}
+\begin{array}{l} \operatorname{Var} = \mathbb{E} [ \| \hat{\theta} - \bar{\theta} \| _{\Sigma} ^{2} ] (124) \\ = \mathbb{E} \left[ \| \Sigma_{\lambda} ^{- 1} n^{- 1} X^{\top} \epsilon \| _{\Sigma} ^{2} \right] [ \text{definitionof} \hat{\theta} ] (125) \\ = \frac{1}{n^{2}} \mathbb{E} \left[ \epsilon^{\top} X \Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \epsilon \right] [ \text{expand} ] (126) \\ = \frac{1}{n^{2}} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} X^{\top} \mathbb{E} [ \epsilon \epsilon^{\top} ] X\right) \quad [ \text{cyclictrace} ] (127) \\ = \frac{\sigma^{2}}{n} \operatorname{tr} \left(\Sigma_{\lambda} ^{- 1} \Sigma \Sigma_{\lambda} ^{- 1} \Sigma\right) [ \text{since} \mathbb{E} [ \epsilon \epsilon^{\top} ] = \sigma^{2} I ] (128) \\ = \frac{\sigma^{2}}{n} \sum_{j = 1} ^{d} \frac{\tau_{j} ^{2}}{(\tau_{j} + \lambda) ^{2}} [ \text{matricesarediagonal} ]. (129) \\ \end{array}
 $$
 
 If we didn't regularize, the variance would be  $\frac{d\sigma^2}{n}$ . Regularization reduces the variance since  $\frac{\tau_j^2}{(\tau_j + \lambda)^2} \leq 1$ .
@@ -1458,11 +1452,11 @@ If we didn't regularize, the variance would be  $\frac{d\sigma^2}{n}$ . Regulari
 - Upper bound the squared bias and variance by replacing the denominators with a smaller quantity:
 
 $$
-\text {B i a s} ^ {2} \leq \sum_ {j = 1} ^ {d} \frac {\lambda \left(\theta_ {j} ^ {*}\right) ^ {2}}{2} = \frac {\lambda \| \theta^ {*} \| _ {2} ^ {2}}{2} \tag {130}
+\text{Bias} ^{2} \leq \sum_{j = 1} ^{d} \frac{\lambda \left(\theta_{j} ^{*}\right) ^{2}}{2} = \frac{\lambda \| \theta^{*} \| _{2} ^{2}}{2} \tag{130}
 $$
 
 $$
-\operatorname {V a r} \leq \sum_ {j = 1} ^ {d} \frac {\tau_ {j} \frac {\sigma^ {2}}{n}}{2 \lambda} = \frac {\operatorname {t r} (\Sigma) \sigma^ {2}}{2 n \lambda}. \tag {131}
+\operatorname{Var} \leq \sum_{j = 1} ^{d} \frac{\tau_{j} \frac{\sigma^{2}}{n}}{2 \lambda} = \frac{\operatorname{tr} (\Sigma) \sigma^{2}}{2 n \lambda}. \tag{131}
 $$
 
 - Now we can minimize the sum over the upper bounds with respect to  $\lambda$ .  
@@ -1474,13 +1468,13 @@ $$
 - Optimizing yields an bound on the excess risk:
 
 $$
-\boxed {\mathbb {E} [ L (\hat {\theta}) - L \left(\theta^ {*}\right) ] \leq \sqrt {\frac {\| \theta^ {*} \| _ {2} ^ {2} \operatorname {t r} (\Sigma) \sigma^ {2}}{n}},} \tag {132}
+\boxed{\mathbb{E} [ L (\hat{\theta}) - L \left(\theta^{*}\right) ] \leq \sqrt{\frac{\| \theta^{*} \| _{2} ^{2} \operatorname{tr} (\Sigma) \sigma^{2}}{n}},} \tag{132}
 $$
 
 with the regularization strength set to:
 
 $$
-\lambda = \sqrt {\frac {\operatorname {t r} (\Sigma) \sigma^ {2}}{\| \theta^ {*} \| _ {2} ^ {2} n}}. \tag {133}
+\lambda = \sqrt{\frac{\operatorname{tr} (\Sigma) \sigma^{2}}{\| \theta^{*} \| _{2} ^{2} n}}. \tag{133}
 $$
 
 Remarks
@@ -1546,7 +1540,7 @@ Definition 4 (expected risk)
 - Let  $L(h)$  be the expected risk (test error) of a hypothesis  $h \in \mathcal{H}$ , which is the loss that  $h$  incurs on a new test example  $(x, y)$  in expectation:
 
 $$
-\boxed {L (h) \stackrel {\text {d e f}} {=} \mathbb {E} _ {(x, y) \sim p ^ {*}} [ \ell ((x, y), h) ].} \tag {134}
+\boxed{L (h) \stackrel{\text{def}} {=} \mathbb{E} _{(x, y) \sim p^{*}} [ \ell ((x, y), h) ].} \tag{134}
 $$
 
 Getting low expected risk is in some sense the definition of successful learning.
@@ -1554,7 +1548,7 @@ Getting low expected risk is in some sense the definition of successful learning
 - Define an expected risk minimizer  $h^*$  to be any hypothesis that minimizes the expected risk:
 
 $$
-h ^ {*} \in \operatorname {a r g} \min  _ {h \in \mathcal {H}} L (h). \tag {135}
+h^{*} \in \operatorname{arg} \min_{h \in \mathcal{H}} L (h). \tag{135}
 $$
 
 This is the thing that we can only aspire to.  $L(h^{*})$  is the lowest possible expected risk (which might be large if the learning problem is noisy or your hypothesis class is too small).
@@ -1562,7 +1556,7 @@ This is the thing that we can only aspire to.  $L(h^{*})$  is the lowest possibl
 - To do learning, we are given  $n$  training examples, which are a set of input-output pairs:
 
 $$
-\left(x ^ {(1)}, y ^ {(1)}\right), \dots , \left(x ^ {(n)}, y ^ {(n)}\right), \tag {136}
+\left(x^{(1)}, y^{(1)}\right), \dots , \left(x^{(n)}, y^{(n)}\right), \tag{136}
 $$
 
 where each  $(x^{(i)},y^{(i)})$  is drawn i.i.d. from  $p^*$
@@ -1575,7 +1569,7 @@ Definition 5 (empirical risk)
 - Let  $\hat{L}(h)$  be the empirical risk (training error) of a hypothesis  $h \in \mathcal{H}$  as the average loss over the training examples:
 
 $$
-\hat {L} (h) \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \ell \left(\left(x ^ {(i)}, y ^ {(i)}\right), h\right). \tag {137}
+\hat{L} (h) \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \ell \left(\left(x^{(i)}, y^{(i)}\right), h\right). \tag{137}
 $$
 
 Note that for a fixed  $h$ ,  $\hat{L}(h)$  is just an empirical average with mean  $L(h)$ . This is key.
@@ -1583,14 +1577,14 @@ Note that for a fixed  $h$ ,  $\hat{L}(h)$  is just an empirical average with me
 - Define an empirical risk minimizer (ERM) be any hypothesis that minimizes the empirical risk:
 
 $$
-\hat {h} \in \arg \min  _ {h \in \mathcal {H}} \hat {L} (h). \tag {138}
+\hat{h} \in \arg \min_{h \in \mathcal{H}} \hat{L} (h). \tag{138}
 $$
 
 - Let us pause a moment to remember what are the random variables and what the independence assumptions are:  $\hat{h}$  is a random variable that depends the training examples (in a rather complicated way), but  $h^*$  is non-random. The empirical risk  $\hat{L}(h)$  is a random variable for each  $h$ , but the expected risk  $L(h)$  is non-random.  
 - Recall that we are interested in the expected risk of the ERM:
 
 $$
-L (\hat {h}). \tag {139}
+L (\hat{h}). \tag{139}
 $$
 
 We will not study this quantity directly, but rather look at its difference with a baseline. There are two questions we can ask:
@@ -1598,7 +1592,7 @@ We will not study this quantity directly, but rather look at its difference with
 - How does the expected and empirical risks compare for the ERM?
 
 $$
-\underbrace {L (\hat {h})} \quad - \quad \underbrace {\hat {L} (\hat {h})} \quad . \tag {140}
+\underbrace{L (\hat{h})} \quad - \quad \underbrace{\hat{L} (\hat{h})} \quad . \tag{140}
 $$
 
 expected risk of ERM empirical risk of ERM
@@ -1606,7 +1600,7 @@ expected risk of ERM empirical risk of ERM
 - How well is ERM doing with respect to the best in the hypothesis class?
 
 $$
-\underbrace {L (\hat {h})} \quad - \quad \underbrace {L \left(h ^ {*}\right)} \quad . \tag {141}
+\underbrace{L (\hat{h})} \quad - \quad \underbrace{L \left(h^{*}\right)} \quad . \tag{141}
 $$
 
 expected risk of ERM lowest expected risk
@@ -1618,7 +1612,7 @@ This is known as the excess risk.
 - Fortunately, we can show that bad outcomes are not too likely. We will prove bounds of the following flavor: With probability at least  $1 - \delta$ , the excess risk is upper bounded by some  $\epsilon$  ( $L(\hat{h}) - L(h^{*}) \leq \epsilon$ ), where  $\epsilon$  is generally a function that depends on  $\delta$  (and other aspects of the learning problem). More formally, the types of statements we'd like to show can be written compactly as:
 
 $$
-\begin{array}{l} \mathbb {P} [ L (\hat {h}) - L (h ^ {*}) > \epsilon ] \leq \delta . \end{array} \tag {142}
+\begin{array}{l} \mathbb{P} [ L (\hat{h}) - L (h^{*}) > \epsilon ] \leq \delta . \end{array} \tag{142}
 $$
 
 - FIGURE: [distribution over  $L(\hat{h})$ ,  $\delta$  is area of tail,  $\epsilon$  is difference on x-axis from  $L(h^{*})$ ]
@@ -1651,7 +1645,7 @@ Assumption 2 (realizable)
 - Assume there exists a hypothesis  $h^* \in \mathcal{H}$  that obtains zero expected risk, that is:
 
 $$
-L \left(h ^ {*}\right) = \mathbb {E} _ {(x, y) \sim p ^ {*}} \left[ \ell \left(\left(x, y\right), h ^ {*}\right) \right] = 0. \tag {143}
+L \left(h^{*}\right) = \mathbb{E} _{(x, y) \sim p^{*}} \left[ \ell \left(\left(x, y\right), h^{*}\right) \right] = 0. \tag{143}
 $$
 
 - Theorem 4 (realizable finite hypothesis class)
@@ -1666,19 +1660,19 @@ $$
 * Interpretation 1: what is the error after training on  $n$  examples (expected risk)? Answer: with probability at least  $1 - \delta$ ,
 
 $$
-\boxed {L (\hat {h}) \leq \frac {\log | \mathcal {H} | + \log (1 / \delta)}{n}.} \tag {144}
+\boxed{L (\hat{h}) \leq \frac{\log | \mathcal{H} | + \log (1 / \delta)}{n}.} \tag{144}
 $$
 
 Usually, think of  $\log (1 / \delta)$  as a constant (e.g.,  $\delta = 0.01$ , then  $\log (1 / \delta) \cong 4.6$ ), so the
 
 $$
-\underbrace {L (\hat {h})} _ {\text {e x p e c t e d r i s k}} = O \left(\overbrace {\underbrace {\log | \mathcal {H} |} _ {\text {n u m b e r o f t r a i n i n g e x a m p l e s}}}\right) \tag {145}
+\underbrace{L (\hat{h})} _{\text{expectedrisk}} = O \left(\overbrace{\underbrace{\log | \mathcal{H} |} _{\text{numberoftrainingexamples}}}\right) \tag{145}
 $$
 
 * Interpretation 2: how many examples  $n$  (sample complexity) do I need to obtain expected risk at most  $\epsilon$  with confidence at least  $1 - \delta$ ? Answer: With probability at least  $1 - \delta$ :
 
 $$
-\boxed {n \geq \frac {\log | \mathcal {H} | + \log (1 / \delta)}{\epsilon} \Rightarrow L (\hat {h}) \leq \epsilon .} \tag {146}
+\boxed{n \geq \frac{\log | \mathcal{H} | + \log (1 / \delta)}{\epsilon} \Rightarrow L (\hat{h}) \leq \epsilon .} \tag{146}
 $$
 
 Remarks
@@ -1695,13 +1689,13 @@ Proof of Theorem 4
 - Let  $B \subseteq \mathcal{H}$  be the set of bad hypotheses  $h$ :  $B = \{h \in \mathcal{H} : L(h) > \epsilon\}$ . We can rewrite our goal as upper bounding the probability of selecting a bad hypothesis:
 
 $$
-\mathbb {P} [ L (\hat {h}) > \epsilon ] = \mathbb {P} [ \hat {h} \in B ]. \tag {147}
+\mathbb{P} [ L (\hat{h}) > \epsilon ] = \mathbb{P} [ \hat{h} \in B ]. \tag{147}
 $$
 
 - Recall that the empirical risk of the ERM is always zero ( $\hat{L}(\hat{h}) = 0$ ) because at least  $\hat{L}(h^*) = L(h^*) = 0$ . So if we selected a bad hypothesis ( $\hat{h} \in B$ ), then some bad hypothesis must have zero empirical risk:
 
 $$
-\mathbb {P} [ \hat {h} \in B ] \leq \mathbb {P} [ \exists h \in B: \hat {L} (h) = 0 ]. \tag {148}
+\mathbb{P} [ \hat{h} \in B ] \leq \mathbb{P} [ \exists h \in B: \hat{L} (h) = 0 ]. \tag{148}
 $$
 
 - We now get to the heart of the argument, which consists of two steps.  
@@ -1711,7 +1705,7 @@ $$
 * Since the training examples are i.i.d. and the fact that  $L(h) > \epsilon$  for  $h \in B$ :
 
 $$
-\mathbb {P} [ \hat {L} (h) = 0 ] = (1 - L (h)) ^ {n} \leq (1 - \epsilon) ^ {n} \leq e ^ {- \epsilon n}, \tag {149}
+\mathbb{P} [ \hat{L} (h) = 0 ] = (1 - L (h)) ^{n} \leq (1 - \epsilon) ^{n} \leq e^{- \epsilon n}, \tag{149}
 $$
 
 where the last step follows since  $1 - a \leq e^{-a}$ .
@@ -1723,27 +1717,27 @@ where the last step follows since  $1 - a \leq e^{-a}$ .
 * We apply the union bound to bound the probability of the event for any  $h \in B$ :
 
 $$
-\mathbb {P} \left[ \exists h \in B: \hat {L} (h) = 0 \right] \leq \sum_ {h \in B} \mathbb {P} [ \hat {L} (h) = 0 ]. \tag {150}
+\mathbb{P} \left[ \exists h \in B: \hat{L} (h) = 0 \right] \leq \sum_{h \in B} \mathbb{P} [ \hat{L} (h) = 0 ]. \tag{150}
 $$
 
 * The rest is straightforward:
 
 $$
-\sum_ {h \in B} \mathbb {P} [ \hat {L} (h) = 0 ] \leq | B | e ^ {- \epsilon n} \tag {151}
+\sum_{h \in B} \mathbb{P} [ \hat{L} (h) = 0 ] \leq | B | e^{- \epsilon n} \tag{151}
 $$
 
 $$
-\leq | \mathcal {H} | e ^ {- \epsilon n} \tag {152}
+\leq | \mathcal{H} | e^{- \epsilon n} \tag{152}
 $$
 
 $$
-\stackrel {\text {d e f}} {=} \delta . \tag {153}
+\stackrel{\text{def}} {=} \delta . \tag{153}
 $$
 
 - Taking logs of the last equality and rearranging:
 
 $$
-\epsilon = \frac {\log | \mathcal {H} | + \log (1 / \delta)}{n}. \tag {154}
+\epsilon = \frac{\log | \mathcal{H} | + \log (1 / \delta)}{n}. \tag{154}
 $$
 
 The theorem follows by substituting this expression for  $\delta$ .
@@ -1765,7 +1759,7 @@ The difference between convergence and uniform convergence is absolutely crucial
 - Breaking free of these restrictive assumptions, we will show how bounding expected risk can be reduced to one of uniform convergence. Recall that our goal is to bound the excess risk, the amount by which ERM's expected risk exceeds the lowest possible expected risk:
 
 $$
-\mathbb {P} \left[ L (\hat {h}) - L \left(h ^ {*}\right) \geq \epsilon \right] \leq \delta . \tag {155}
+\mathbb{P} \left[ L (\hat{h}) - L \left(h^{*}\right) \geq \epsilon \right] \leq \delta . \tag{155}
 $$
 
 Note that the difference between  $\geq$  and  $>$  isn't important here, and it will be more convenient to use  $\geq$ .
@@ -1776,14 +1770,14 @@ Figure 7: Uniform convergence.
 - Let us first relate expected risk to empirical risk, since that's what the ERM is defined in terms of:
 
 $$
-L (\hat {h}) - L \left(h ^ {*}\right) = \underbrace {\left[ L (\hat {h}) - \hat {L} (\hat {h}) \right]} _ {\text {c o n c e n t r a t i o n}} + \underbrace {\left[ \hat {L} (\hat {h}) - \hat {L} \left(h ^ {*}\right) \right]} _ {\leq 0} + \underbrace {\left[ \hat {L} \left(h ^ {*}\right) - L \left(h ^ {*}\right) \right]} _ {\text {c o n c e n t r a t i o n}}. \tag {156}
+L (\hat{h}) - L \left(h^{*}\right) = \underbrace{\left[ L (\hat{h}) - \hat{L} (\hat{h}) \right]} _{\text{concentration}} + \underbrace{\left[ \hat{L} (\hat{h}) - \hat{L} \left(h^{*}\right) \right]} _{\leq 0} + \underbrace{\left[ \hat{L} \left(h^{*}\right) - L \left(h^{*}\right) \right]} _{\text{concentration}}. \tag{156}
 $$
 
 - The second term is non-positive by definition of the empirical risk minimizer.  
 - The third term involves a comparison of  $\hat{L}(h^{*})$  and  $L(h^{*})$ . If we expand things, we realize that this is just a question of the difference between an average of  $n$  i.i.d. random variables and its mean:
 
 $$
-\hat {L} \left(h ^ {*}\right) = \frac {1}{n} \sum_ {i = 1} ^ {n} \ell \left(\left(x ^ {(i)}, y ^ {(i)}\right), h ^ {*}\right), \quad L \left(h ^ {*}\right) = \mathbb {E} _ {\left(x, y\right) \sim p ^ {*}} \left[ \ell \left(\left(x, y\right), h ^ {*}\right) \right]. \tag {157}
+\hat{L} \left(h^{*}\right) = \frac{1}{n} \sum_{i = 1} ^{n} \ell \left(\left(x^{(i)}, y^{(i)}\right), h^{*}\right), \quad L \left(h^{*}\right) = \mathbb{E} _{\left(x, y\right) \sim p^{*}} \left[ \ell \left(\left(x, y\right), h^{*}\right) \right]. \tag{157}
 $$
 
 We'll see how concentration inequalities can be used to control this difference.
@@ -1795,7 +1789,7 @@ something something more sophisticated: uniform convergence. Suppose we could en
 - The contrapositive can be written formally as:
 
 $$
-\mathbb {P} [ L (\hat {h}) - L \left(h ^ {*}\right) \geq \epsilon ] \leq \mathbb {P} \left[ \sup  _ {h \in \mathcal {H}} | L (h) - \hat {L} (h) | \geq \frac {\epsilon}{2} \right]. \tag {158}
+\mathbb{P} [ L (\hat{h}) - L \left(h^{*}\right) \geq \epsilon ] \leq \mathbb{P} \left[ \sup_{h \in \mathcal{H}} | L (h) - \hat{L} (h) | \geq \frac{\epsilon}{2} \right]. \tag{158}
 $$
 
 On the LHS is a statement about excess risk, and on the RHS is a statement about uniform convergence. The RHS is the probability of the event that the largest difference between the empirical and expected risk is at least  $\frac{\epsilon}{2}$ , or equivalently, the event that this difference exceeds  $\frac{\epsilon}{2}$  for at least one  $h \in \mathcal{H}$ .
@@ -1803,7 +1797,7 @@ On the LHS is a statement about excess risk, and on the RHS is a statement about
 - Note: the classic example of uniform convergence is the Glivenko-Cantelli theorem (also called the uniform law of large numbers), for estimating distribution functions. Given  $x_{1}, \ldots, x_{n}$  drawn i.i.d. from some distribution with cumulative distribution function (CDF)  $F(x)$ , we can form the empirical CDF  $F_{n}(x) = \frac{1}{n}\sum_{i=1}^{n}\mathbb{I}[x\leq x_{i}]$ . One can ask for the convergence of the CDF function in the uniform norm:
 
 $$
-\left\| F _ {n} - F \right\| _ {\infty} \stackrel {\text {d e f}} {=} \sup  _ {x \in \mathbb {R}} \left| F _ {n} (x) - F (x) \right| \stackrel {P} {\rightarrow} 0. \tag {159}
+\left\| F_{n} - F \right\| _{\infty} \stackrel{\text{def}} {=} \sup_{x \in \mathbb{R}} \left| F_{n} (x) - F (x) \right| \stackrel{P} {\rightarrow} 0. \tag{159}
 $$
 
 What we will be studying is a generalization of (159), where we have arbitrary hypotheses  $h \in \mathcal{H}$  rather than  $x \in \mathbb{R}$ .
@@ -1811,13 +1805,13 @@ What we will be studying is a generalization of (159), where we have arbitrary h
 - Note: if we look at the difference between  $\hat{L}$  and  $L$ , we can construct something called an empirical process:
 
 $$
-\left\{G _ {n} (h) \right\} _ {h \in \mathcal {H}}, \quad G _ {n} \stackrel {\text {d e f}} {=} \sqrt {n} (\hat {L} (h) - L (h)), \tag {160}
+\left\{G_{n} (h) \right\} _{h \in \mathcal{H}}, \quad G_{n} \stackrel{\text{def}} {=} \sqrt{n} (\hat{L} (h) - L (h)), \tag{160}
 $$
 
 which is a stochastic process (collection of random variables indexed by  $h \in \mathcal{H}$ ). Empirical process theory focuses on studying empirical processes. We know that for a given  $h \in \mathcal{H}$ ,  $G_{n}(h)$  converges to a normal distribution by the central limit theorem. We can think about  $G_{n}$  converging to a Gaussian process  $G$  with covariance function
 
 $$
-\operatorname {C o v} [ G (h), G \left(h ^ {\prime}\right) ] = \operatorname {C o v} [ \ell (z, h), \ell (z, h ^ {\prime}) ]. \tag {161}
+\operatorname{Cov} [ G (h), G \left(h^{\prime}\right) ] = \operatorname{Cov} [ \ell (z, h), \ell (z, h^{\prime}) ]. \tag{161}
 $$
 
 This stochastic process viewpoint allows one to talk not just about the supremum  $\sup_{h\in \mathcal{H}}G_n(h)$ , but also get distributional results, which is useful for computing confidence intervals. This is outside the scope of the class; for additional information, Pollard has an excellent book on this.
@@ -1827,11 +1821,11 @@ This stochastic process viewpoint allows one to talk not just about the supremum
 - Concentration inequalities are a very powerful set of techniques from probability theory that shows that an appropriate combination of independent random variables will concentrate around its expectation. From the point of view of learning theory, the random variables of interest are the losses of hypotheses on training examples.  
 - Mean estimation
 
-- Let  $X_{1},\ldots ,X_{n}$  be i.i.d. real-valued random variables with mean  $\mu \stackrel {\mathrm{def}}{=}\mathbb{E}[X_1]$  
+- Let  $X_{1},\ldots ,X_{n}$  be i.i.d. real-valued random variables with mean  $\mu \stackrel{\mathrm{def}}{=}\mathbb{E}[X_1]$  
 - Define the empirical mean as follows:
 
 $$
-\hat {\mu} _ {n} \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} X _ {i} \tag {162}
+\hat{\mu} _{n} \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} X_{i} \tag{162}
 $$
 
 - Question: how does  $\hat{\mu}_n$  relate to  $\mu$ ?  
@@ -1846,7 +1840,7 @@ $$
 - Consistency: by the law of large numbers,
 
 $$
-\hat {\mu} _ {n} - \mu \xrightarrow {P} 0, \tag {163}
+\hat{\mu} _{n} - \mu \xrightarrow{P} 0, \tag{163}
 $$
 
 where  $\stackrel{P}{\rightarrow}$  denotes convergence in probability. Consistency assures us that as we get more data ( $n \to \infty$ ), we will approach the correct answer, but it doesn't tell us how quickly.
@@ -1854,7 +1848,7 @@ where  $\stackrel{P}{\rightarrow}$  denotes convergence in probability. Consiste
 - Asymptotic normality: Letting  $\operatorname{Var}[X_1] = \sigma^2$ , by the central limit theorem,
 
 $$
-\sqrt {n} \left(\hat {\mu} _ {n} - \mu\right) \xrightarrow {d} \mathcal {N} \left(0, \sigma^ {2}\right), \tag {164}
+\sqrt{n} \left(\hat{\mu} _{n} - \mu\right) \xrightarrow{d} \mathcal{N} \left(0, \sigma^{2}\right), \tag{164}
 $$
 
 where  $\stackrel{d}{\rightarrow}$  denotes convergence in distribution. Asymptotic normality says that if  $n$  is large enough, then  $\hat{\mu}_n - \mu$  behaves as  $\frac{\sigma}{\sqrt{n}}$ , where the variance is decreasing at a rate of  $1/n$ . But this result is only asymptotic, it doesn't tell us anything precise for a particular value of  $n$  (say,  $n = 10$ ).
@@ -1862,7 +1856,7 @@ where  $\stackrel{d}{\rightarrow}$  denotes convergence in distribution. Asympto
 - Tail bounds: Ideally, we want a statement of the following form:
 
 $$
-\mathbb {P} \left[ \left| \hat {\mu} _ {n} - \mu \right| \geq \epsilon \right] \leq \text {S o m e F u n c t i o n} (n, \epsilon) = \delta . \tag {165}
+\mathbb{P} \left[ \left| \hat{\mu} _{n} - \mu \right| \geq \epsilon \right] \leq \text{SomeFunction} (n, \epsilon) = \delta . \tag{165}
 $$
 
 Based on the Gaussian approximation, we expect that the bounding function on the RHS would decay double exponentially in  $\epsilon$  and exponentially in  $n$ . We shall see shortly that this intuition is indeed true. In the context of learning theory,  $\epsilon$  would be the bound on the difference between empirical and expected risks, and  $1 - \delta$  would be the confidence.
@@ -1877,7 +1871,7 @@ Theorem 5 (Markov's inequality)
 - Then
 
 $$
-\mathbb {P} [ Z \geq t ] \leq \frac {\mathbb {E} [ Z ]}{t}. \tag {166}
+\mathbb{P} [ Z \geq t ] \leq \frac{\mathbb{E} [ Z ]}{t}. \tag{166}
 $$
 
 Proof:
@@ -1890,7 +1884,7 @@ Remarks
 - We can apply  $Z = (X - \mu)^{2}$  (second moment) and  $t = \epsilon^{2}$  to obtain Chebyshev's inequality:
 
 $$
-\mathbb {P} [ | X - \mu | \geq \epsilon ] \leq \frac {\operatorname {V a r} [ X ]}{\epsilon^ {2}}. \tag {167}
+\mathbb{P} [ | X - \mu | \geq \epsilon ] \leq \frac{\operatorname{Var} [ X ]}{\epsilon^{2}}. \tag{167}
 $$
 
 Applying the inequality to the average over i.i.d. variables  $(\hat{\mu}_n = \frac{1}{n}\sum_{i=1}^n X_i)$ , then  $\mathrm{Var}[\hat{\mu}_n] = \frac{\mathrm{Var}[X_1]}{n}$ . This is a very weak result, because the tail probability is decaying only at a polynomial rate  $(1/n)$ .
@@ -1902,25 +1896,25 @@ Definition 6 (moment generating function)
 - For a random variable  $X$ , the moment generating function (MGF) of  $X$  is:
 
 $$
-\boxed {M _ {X} (t) \stackrel {\text {d e f}} {=} \mathbb {E} [ e ^ {t X} ].} \tag {168}
+\boxed{M_{X} (t) \stackrel{\text{def}} {=} \mathbb{E} [ e^{t X} ].} \tag{168}
 $$
 
 - One useful way to think about the MGF is in terms of its Taylor expansion:
 
 $$
-M _ {X} (t) = 1 + t \mathbb {E} [ X ] + \frac {t ^ {2}}{2} \mathbb {E} [ X ^ {2} ] + \frac {t ^ {3}}{6} \mathbb {E} [ X ^ {3} ] + \dots . \tag {169}
+M_{X} (t) = 1 + t \mathbb{E} [ X ] + \frac{t^{2}}{2} \mathbb{E} [ X^{2} ] + \frac{t^{3}}{6} \mathbb{E} [ X^{3} ] + \dots . \tag{169}
 $$
 
 - The moment generating function receives its name because the  $k$ -th derivative evaluated at  $t = 0$  yield the  $k$ -th moment (assuming we can swap integration and differentiation):
 
 $$
-\frac {d ^ {k} M _ {X} (t)}{d t ^ {k}} \mid_ {t = 0} = \mathbb {E} [ X ^ {k} ]. \tag {170}
+\frac{d^{k} M_{X} (t)}{d t^{k}} \mid_{t = 0} = \mathbb{E} [ X^{k} ]. \tag{170}
 $$
 
 - One important property is that the MGF of a sum of independent random variables is simply the product of the MGFs. If  $X_{1}$  and  $X_{2}$  are independent random variables, then we have:
 
 $$
-M _ {X _ {1} + X _ {2}} (t) = M _ {X _ {1}} (t) M _ {X _ {2}} (t). \tag {171}
+M_{X_{1} + X_{2}} (t) = M_{X_{1}} (t) M_{X_{2}} (t). \tag{171}
 $$
 
 The distribution over  $X_{1} + X_{2}$  can be computed using a convolution, which is typically cumbersome, but MGFs (like Fourier transforms) turn convolutions into products.
@@ -1928,13 +1922,13 @@ The distribution over  $X_{1} + X_{2}$  can be computed using a convolution, whi
 - Applying Markov's inequality to  $Z = e^{tX}$ , we get that
 
 $$
-\mathbb {P} [ X \geq \epsilon ] \leq \frac {M _ {X} (t)}{e ^ {t \epsilon}} \text {f o r a l l} t > 0. \tag {172}
+\mathbb{P} [ X \geq \epsilon ] \leq \frac{M_{X} (t)}{e^{t \epsilon}} \text{forall} t > 0. \tag{172}
 $$
 
 We can apply this to the case of sample means  $(X = \hat{\mu}_n)$  by computing  $\mathbb{P}[\hat{\mu}_n\geq \epsilon ] = \mathbb{P}[X_1 + \dots +X_n\geq n\epsilon ]$ . We get that all  $t > 0$ :
 
 $$
-\mathbb {P} [ \hat {\mu} _ {n} \geq \epsilon ] \leq \left(\frac {M _ {X _ {1}} (t)}{e ^ {t \epsilon}}\right) ^ {n}. \tag {173}
+\mathbb{P} [ \hat{\mu} _{n} \geq \epsilon ] \leq \left(\frac{M_{X_{1}} (t)}{e^{t \epsilon}}\right) ^{n}. \tag{173}
 $$
 
 - Provided that  $\frac{M_{X_1}(t)}{e^{t\epsilon}} < 1$  for some  $t$ , getting  $n$  independent samples means that our tail probability will decrease exponentially. This is key.  
@@ -1951,7 +1945,7 @@ Example 5 (MGF of Gaussian variables)
 - Derivation (by completing the square):
 
 $$
-\begin{array}{l} M _ {X} (t) = \mathbb {E} \left[ e ^ {t X} \right] = \int \left(2 \pi \sigma^ {2}\right) ^ {- \frac {1}{2}} \exp \left(\frac {x ^ {2} - 2 \sigma^ {2} t x}{- 2 \sigma^ {2}}\right) d x (174) \\ = \int (2 \pi \sigma^ {2}) ^ {- \frac {1}{2}} \exp \left(\frac {(x - \sigma^ {2} t) ^ {2} - \sigma^ {4} t ^ {2}}{- 2 \sigma^ {2}}\right) d x (175) \\ = \exp \left(\frac {\sigma^ {2} t ^ {2}}{2}\right). (176) \\ \end{array}
+\begin{array}{l} M_{X} (t) = \mathbb{E} \left[ e^{t X} \right] = \int \left(2 \pi \sigma^{2}\right) ^{- \frac{1}{2}} \exp \left(\frac{x^{2} - 2 \sigma^{2} t x}{- 2 \sigma^{2}}\right) d x (174) \\ = \int (2 \pi \sigma^{2}) ^{- \frac{1}{2}} \exp \left(\frac{(x - \sigma^{2} t) ^{2} - \sigma^{4} t^{2}}{- 2 \sigma^{2}}\right) d x (175) \\ = \exp \left(\frac{\sigma^{2} t^{2}}{2}\right). (176) \\ \end{array}
 $$
 
 - Lemma 3 (Tail bound for Gaussian variables)
@@ -1959,13 +1953,13 @@ $$
 - Having control on the Gaussian MGF, we can now derive a tail bound by plugging the form of the MGF into (172). This yields:
 
 $$
-\mathbb {P} [ X \geq \epsilon ] \leq \inf  _ {t} \exp \left(\frac {\sigma^ {2} t ^ {2}}{2} - t \epsilon\right). \tag {177}
+\mathbb{P} [ X \geq \epsilon ] \leq \inf_{t} \exp \left(\frac{\sigma^{2} t^{2}}{2} - t \epsilon\right). \tag{177}
 $$
 
 The infimum on the RHS is attained by setting  $t = \epsilon/\sigma^2$ , yielding:
 
 $$
-\begin{array}{l} \mathbb {P} [ X \geq \epsilon ] \leq \exp \left(\frac {- \epsilon^ {2}}{2 \sigma^ {2}}\right). \end{array} \tag {178}
+\begin{array}{l} \mathbb{P} [ X \geq \epsilon ] \leq \exp \left(\frac{- \epsilon^{2}}{2 \sigma^{2}}\right). \end{array} \tag{178}
 $$
 
 - What about non-Gaussian variables? Note that the bounds would still hold if we replaced  $M_X(t)$  with an upper bound. This motivates the following definition:
@@ -1975,13 +1969,13 @@ Definition 7 (sub-Gaussian)
 - A mean-zero random variable  $X$  is sub-Gaussian with parameter  $\sigma^2$  if its moment generating function is bounded as follows:
 
 $$
-M _ {X} (t) \leq \exp \left(\frac {\sigma^ {2} t ^ {2}}{2}\right). \tag {179}
+M_{X} (t) \leq \exp \left(\frac{\sigma^{2} t^{2}}{2}\right). \tag{179}
 $$
 
 - It follows immediately by analogy with (178) that:
 
 $$
-\begin{array}{l} \mathbb {P} [ X \geq \epsilon ] \leq \exp \left(\frac {- \epsilon^ {2}}{2 \sigma^ {2}}\right). \end{array} \tag {180}
+\begin{array}{l} \mathbb{P} [ X \geq \epsilon ] \leq \exp \left(\frac{- \epsilon^{2}}{2 \sigma^{2}}\right). \end{array} \tag{180}
 $$
 
 Examples
@@ -2010,13 +2004,13 @@ Theorem 6 (Hoeffding's inequality)
 - Then
 
 $$
-\mathbb {P} [ \hat {\mu} _ {n} \geq \mathbb {E} [ \hat {\mu} _ {n} ] + \epsilon ] \leq \exp \left(\frac {- 2 n ^ {2} \epsilon^ {2}}{\sum_ {i = 1} ^ {n} \left(b _ {i} - a _ {i}\right) ^ {2}}\right). \tag {181}
+\mathbb{P} [ \hat{\mu} _{n} \geq \mathbb{E} [ \hat{\mu} _{n} ] + \epsilon ] \leq \exp \left(\frac{- 2 n^{2} \epsilon^{2}}{\sum_{i = 1} ^{n} \left(b_{i} - a_{i}\right) ^{2}}\right). \tag{181}
 $$
 
 - Special case ( $a_i = -B, b_i = +B$ ):
 
 $$
-\mathbb {P} \left[ \hat {\mu} _ {n} \geq \mathbb {E} \left[ \hat {\mu} _ {n} \right] + \epsilon \right] \leq \exp \left(\frac {- n \epsilon^ {2}}{2 B ^ {2}}\right). \tag {182}
+\mathbb{P} \left[ \hat{\mu} _{n} \geq \mathbb{E} \left[ \hat{\mu} _{n} \right] + \epsilon \right] \leq \exp \left(\frac{- n \epsilon^{2}}{2 B^{2}}\right). \tag{182}
 $$
 
 Proof of Theorem 6:
@@ -2030,7 +2024,7 @@ Proof of Theorem 6:
 - Furthermore, if we have an average of  $n$  independent sub-Gaussian variables, then the bound simply gets powered up by  $n$ .
 
 $$
-[ \text {b e g i n l e c t u r e} 6 ] \tag {6}
+[ \text{beginlecture} 6 ] \tag{6}
 $$
 
 # 3.6 Finite hypothesis classes (Lecture 6)
@@ -2046,7 +2040,7 @@ $$
 - Then with probability at least  $1 - \delta$ , the excess risk is bounded as follows:
 
 $$
-L (\hat {h}) - L \left(h ^ {*}\right) \leq \sqrt {\frac {2 \left(\log | \mathcal {H} | + \log (2 / \delta)\right)}{n}} = O \left(\sqrt {\frac {\log | \mathcal {H} |}{n}}\right). \tag {183}
+L (\hat{h}) - L \left(h^{*}\right) \leq \sqrt{\frac{2 \left(\log | \mathcal{H} | + \log (2 / \delta)\right)}{n}} = O \left(\sqrt{\frac{\log | \mathcal{H} |}{n}}\right). \tag{183}
 $$
 
 Proof of Theorem 7:
@@ -2062,13 +2056,13 @@ Proof of Theorem 7:
 * For a fixed  $h \in \mathcal{H}$ , note that  $\hat{L}(h)$  is an empirical average over  $n$  i.i.d. loss terms (bounded in [0, 1]) with expectation  $L(h)$ . Therefore, by Hoeffding's inequality,
 
 $$
-\mathbb {P} [ \hat {L} (h) - L (h) \geq \epsilon ] \leq \exp (- 2 n \epsilon^ {2}). \tag {184}
+\mathbb{P} [ \hat{L} (h) - L (h) \geq \epsilon ] \leq \exp (- 2 n \epsilon^{2}). \tag{184}
 $$
 
 * To bound the absolute value, we apply the bound again on the negative loss and combine using the union bound:
 
 $$
-\mathbb {P} [ | \hat {L} (h) - L (h) | \geq \epsilon ] \leq 2 \exp (- 2 n \epsilon^ {2}). \tag {185}
+\mathbb{P} [ | \hat{L} (h) - L (h) | \geq \epsilon ] \leq 2 \exp (- 2 n \epsilon^{2}). \tag{185}
 $$
 
 - Step 2 (uniform convergence)
@@ -2076,7 +2070,7 @@ $$
 * Since  $\mathcal{H}$  is finite, we can apply the union bound over  $|\mathcal{H}|$  hypotheses, obtaining:
 
 $$
-\mathbb {P} \left[ \sup  _ {h \in \mathcal {H}} | \hat {L} (h) - L (h) | \geq \frac {\epsilon}{2} \right] \leq | \mathcal {H} | \cdot 2 \exp \left(- 2 n \left(\frac {\epsilon}{2}\right) ^ {2}\right) \stackrel {\text {d e f}} {=} \delta . \tag {186}
+\mathbb{P} \left[ \sup_{h \in \mathcal{H}} | \hat{L} (h) - L (h) | \geq \frac{\epsilon}{2} \right] \leq | \mathcal{H} | \cdot 2 \exp \left(- 2 n \left(\frac{\epsilon}{2}\right) ^{2}\right) \stackrel{\text{def}} {=} \delta . \tag{186}
 $$
 
 Note that we substituted  $\frac{\epsilon}{2}$  for  $\epsilon$ , which is needed by the generalization bound (158).
@@ -2098,7 +2092,7 @@ Note that we substituted  $\frac{\epsilon}{2}$  for  $\epsilon$ , which is neede
 - Let  $f$  be a function satisfying the following bounded differences condition:
 
 $$
-\left| f \left(x _ {1}, \dots , x _ {i}, \dots , x _ {n}\right) - f \left(x _ {1}, \dots , x _ {i} ^ {\prime}, \dots , x _ {n}\right) \right| \leq c _ {i} \tag {187}
+\left| f \left(x_{1}, \dots , x_{i}, \dots , x_{n}\right) - f \left(x_{1}, \dots , x_{i} ^{\prime}, \dots , x_{n}\right) \right| \leq c_{i} \tag{187}
 $$
 
 for all  $i = 1, \ldots, n$  and all  $x_1, \ldots, x_n, x_i'$ . Intuition: modifying one coordinate doesn't change the function value too much.
@@ -2108,7 +2102,7 @@ for all  $i = 1, \ldots, n$  and all  $x_1, \ldots, x_n, x_i'$ . Intuition: modi
 - Then
 
 $$
-\mathbb {P} [ f (X _ {1}, \dots , X _ {n}) - \mathbb {E} [ f (X _ {1}, \dots , X _ {n}) ] \geq \epsilon ] \leq \exp \left(\frac {- 2 \epsilon^ {2}}{\sum_ {i = 1} ^ {n} c _ {i} ^ {2}}\right). \tag {188}
+\mathbb{P} [ f (X_{1}, \dots , X_{n}) - \mathbb{E} [ f (X_{1}, \dots , X_{n}) ] \geq \epsilon ] \leq \exp \left(\frac{- 2 \epsilon^{2}}{\sum_{i = 1} ^{n} c_{i} ^{2}}\right). \tag{188}
 $$
 
 Remarks
@@ -2122,13 +2116,13 @@ Remarks
 - A sequence of random variables  $Z_{0}, Z_{1}, \ldots, Z_{n}$  is a martingale sequence with respect to another sequence of random variables  $X_{1}, \ldots, X_{n}$  iff  $Z_{i}$  is a function of  $X_{1:i}$ ,  $\mathbb{E}[|Z_i|] < \infty$ , and
 
 $$
-\mathbb {E} \left[ Z _ {i} \mid X _ {1: i - 1} \right] = Z _ {i - 1}. \tag {189}
+\mathbb{E} \left[ Z_{i} \mid X_{1: i - 1} \right] = Z_{i - 1}. \tag{189}
 $$
 
 - Define  $D_{i} \stackrel{\mathrm{def}}{=} Z_{i} - Z_{i-1}$ . We call  $D_{1:n}$  a martingale difference sequence with respect to  $X_{1:n}$ . Another way to write (189) is
 
 $$
-\mathbb {E} \left[ D _ {i} \mid X _ {1: i - 1} \right] = 0. \tag {190}
+\mathbb{E} \left[ D_{i} \mid X_{1: i - 1} \right] = 0. \tag{190}
 $$
 
 Examples
@@ -2149,7 +2143,7 @@ Lemma 4 (sub-Gaussian martingales)
 - Suppose that each difference  $D_{i} = Z_{i} - Z_{i - 1}$  is conditionally sub-Gaussian with parameter  $\sigma_i^2$ , that is:
 
 $$
-\mathbb {E} \left[ e ^ {t D _ {i}} \mid X _ {1: i - 1} \right] \leq \exp \left(\sigma_ {i} ^ {2} t ^ {2} / 2\right). \tag {191}
+\mathbb{E} \left[ e^{t D_{i}} \mid X_{1: i - 1} \right] \leq \exp \left(\sigma_{i} ^{2} t^{2} / 2\right). \tag{191}
 $$
 
 - Then  $Z_{n} - Z_{0} = \sum_{i=1}^{n} D_{i}$  is sub-Gaussian with parameter  $\sigma^{2} \stackrel{\mathrm{def}}{=} \sum_{i=1}^{n} \sigma_{i}^{2}$ .
@@ -2159,7 +2153,7 @@ Proof of Lemma 4
 - This proof is straightforward by induction on  $n$ :
 
 $$
-\begin{array}{l} \mathbb {E} \left[ \exp \left(t \left(Z _ {n} - Z _ {0}\right)\right) \right] = \mathbb {E} \left[ \exp \left(t D _ {n}\right) \exp \left(t \left(Z _ {n - 1} - Z _ {0}\right)\right) \right] (192) \\ = \mathbb {E} [ \mathbb {E} [ \exp (t D _ {n}) \exp (t \left(Z _ {n - 1} - Z _ {0}\right)) \mid X _ {1: n - 1} ] ] (193) \\ \leq \exp \left(\sigma_ {n} ^ {2} t ^ {2} / 2\right) \mathbb {E} \left[ \exp \left(t \left(Z _ {n - 1} - Z _ {0}\right)\right) \right] (194) \\ \leq \exp \left(\sum_ {i = 1} ^ {n} \sigma_ {i} ^ {2} t ^ {2} / 2\right). (195) \\ \end{array}
+\begin{array}{l} \mathbb{E} \left[ \exp \left(t \left(Z_{n} - Z_{0}\right)\right) \right] = \mathbb{E} \left[ \exp \left(t D_{n}\right) \exp \left(t \left(Z_{n - 1} - Z_{0}\right)\right) \right] (192) \\ = \mathbb{E} [ \mathbb{E} [ \exp (t D_{n}) \exp (t \left(Z_{n - 1} - Z_{0}\right)) \mid X_{1: n - 1} ] ] (193) \\ \leq \exp \left(\sigma_{n} ^{2} t^{2} / 2\right) \mathbb{E} \left[ \exp \left(t \left(Z_{n - 1} - Z_{0}\right)\right) \right] (194) \\ \leq \exp \left(\sum_{i = 1} ^{n} \sigma_{i} ^{2} t^{2} / 2\right). (195) \\ \end{array}
 $$
 
 - The key is that conditioned on  $X_{1:i - 1}$ ,  $D_{i}$  is just a sub-Gaussian variable and  $Z_{i - 1} - Z_0$  is just a constant. The last inequality follows by repeating the argument recursively.
@@ -2169,7 +2163,7 @@ Proof of Theorem 8 (McDiarmid's inequality)
 - We construct a particular type of martingle called Doob martingale:
 
 $$
-Z _ {i} = \mathbb {E} \left[ f \left(X _ {1}, \dots , X _ {n}\right) \mid X _ {1: i} \right]. \tag {196}
+Z_{i} = \mathbb{E} \left[ f \left(X_{1}, \dots , X_{n}\right) \mid X_{1: i} \right]. \tag{196}
 $$
 
 Note the extremes:  $Z_0 = \mathbb{E}[f(X_1, \ldots, X_n)]$  and  $Z_n = f(X_1, \ldots, X_n)$ . We can think of this martingale as exposing more information about  $f(X_1, \ldots, X_n)$  over time. Using this notation, we are interested in bounding  $\mathbb{P}[Z_n - Z_0 \geq \epsilon]$ .
@@ -2177,11 +2171,11 @@ Note the extremes:  $Z_0 = \mathbb{E}[f(X_1, \ldots, X_n)]$  and  $Z_n = f(X_1, 
 - To show that we have a sub-Gaussian martingale, let's study  $D_{i} = Z_{i} - Z_{i - 1}$ : Both  $Z_{i}$  and  $Z_{i - 1}$  condition on  $X_{1:i - 1}$  and take expectations over  $X_{i + 1:n}$ . The only difference is in the treatment of  $X_{i}$ :
 
 $$
-Z _ {i - 1} = \mathbb {E} \left[ f \left(\overbrace {X _ {1} , \dots , X _ {i - 1}} ^ {\text {c o n d i t i o n}}, \overbrace {X _ {i} , X _ {i + 1} , \dots , X _ {n}} ^ {\text {m a r g i n a l i z e}}\right) \mid X _ {1: i - 1} \right] \tag {197}
+Z_{i - 1} = \mathbb{E} \left[ f \left(\overbrace{X_{1} , \dots , X_{i - 1}} ^{\text{condition}}, \overbrace{X_{i} , X_{i + 1} , \dots , X_{n}} ^{\text{marginalize}}\right) \mid X_{1: i - 1} \right] \tag{197}
 $$
 
 $$
-Z _ {i} = \mathbb {E} [ f (\underbrace {X _ {1} , \dots , X _ {i - 1} , X _ {i}} _ {\text {c o n d i t i o n}}, \underbrace {X _ {i + 1} , \dots , X _ {n}} _ {\text {m a r g i n a l i z e}}) \mid X _ {1: i} ] \tag {198}
+Z_{i} = \mathbb{E} [ f (\underbrace{X_{1} , \dots , X_{i - 1} , X_{i}} _{\text{condition}}, \underbrace{X_{i + 1} , \dots , X_{n}} _{\text{marginalize}}) \mid X_{1: i} ] \tag{198}
 $$
 
 Therefore we would expect that  $D_{i}$  is contained in some interval of length  $c_{i}$ . Of course, we need to handle the marginalization over  $X_{i + 1:n}$  properly.
@@ -2189,11 +2183,11 @@ Therefore we would expect that  $D_{i}$  is contained in some interval of length
 - To make this precise, define the lower and upper bounds which measure how large  $Z_{i}$  could get:
 
 $$
-L _ {i} = \inf  _ {x} \mathbb {E} [ f (X _ {1: n}) \mid X _ {1: i - 1}, X _ {i} = x ] - \mathbb {E} [ f (X _ {1: n}) \mid X _ {1: i - 1} ], \tag {199}
+L_{i} = \inf_{x} \mathbb{E} [ f (X_{1: n}) \mid X_{1: i - 1}, X_{i} = x ] - \mathbb{E} [ f (X_{1: n}) \mid X_{1: i - 1} ], \tag{199}
 $$
 
 $$
-U _ {i} = \sup  _ {x} \mathbb {E} [ f (X _ {1: n}) \mid X _ {1: i - 1}, X _ {i} = x ] - \mathbb {E} [ f (X _ {1: n}) \mid X _ {1: i - 1} ]. \tag {200}
+U_{i} = \sup_{x} \mathbb{E} [ f (X_{1: n}) \mid X_{1: i - 1}, X_{i} = x ] - \mathbb{E} [ f (X_{1: n}) \mid X_{1: i - 1} ]. \tag{200}
 $$
 
 Note that  $L_{i}\leq D_{i}\leq U_{i}$
@@ -2201,13 +2195,13 @@ Note that  $L_{i}\leq D_{i}\leq U_{i}$
 - Let  $x_{L}$  and  $x_{U}$  correspond to the  $x$ 's achieving  $L_{i}$  and  $U_{i}$ , respectively. By the bounded differences assumption,
 
 $$
-f \left(X _ {1: i - 1}, x _ {U}, X _ {i + 1}\right) - f \left(X _ {1: i - 1}, x _ {L}, X _ {i + 1}\right) \leq c _ {i}. \tag {201}
+f \left(X_{1: i - 1}, x_{U}, X_{i + 1}\right) - f \left(X_{1: i - 1}, x_{L}, X_{i + 1}\right) \leq c_{i}. \tag{201}
 $$
 
 - Now here's the key step: By independence of the  $X_{i}$ 's, the distribution over  $X_{i+1:n}$  is the same no matter on whether we condition on  $X_{i} = x_{L}$  or  $X_{i} = x_{U}$ . Therefore, we can take an expectation over  $X_{i+1:n}$  to get that
 
 $$
-\begin{array}{l} U _ {i} - L _ {i} = \mathbb {E} [ f (X _ {1: i - 1}, x _ {U}, X _ {i + 1}) \mid X _ {1: i - 1}, X _ {i} = x _ {U} ] (202) \\ - \mathbb {E} [ f (X _ {1: i - 1}, x _ {L}, X _ {i + 1}) \mid X _ {1: i - 1}, X _ {i} = x _ {L} ] \leq c _ {i}. (203) \\ \end{array}
+\begin{array}{l} U_{i} - L_{i} = \mathbb{E} [ f (X_{1: i - 1}, x_{U}, X_{i + 1}) \mid X_{1: i - 1}, X_{i} = x_{U} ] (202) \\ - \mathbb{E} [ f (X_{1: i - 1}, x_{L}, X_{i + 1}) \mid X_{1: i - 1}, X_{i} = x_{L} ] \leq c_{i}. (203) \\ \end{array}
 $$
 
 This means that  $D_{i} \in [L_{i}, U_{i}]$  is sub-Gaussian with parameter  $c_{i}^{2}/4$  conditioned on  $X_{1:i-1}$ .
@@ -2229,7 +2223,7 @@ This means that  $D_{i} \in [L_{i}, U_{i}]$  is sub-Gaussian with parameter  $c_
 - Consider the largest difference between the expected and the empirical risk over all possible hypotheses:
 
 $$
-\boxed {G _ {n} \stackrel {\text {d e f}} {=} \sup  _ {h \in \mathcal {H}} L (h) - \hat {L} (h).} \tag {204}
+\boxed{G_{n} \stackrel{\text{def}} {=} \sup_{h \in \mathcal{H}} L (h) - \hat{L} (h).} \tag{204}
 $$
 
 Here,  $G_{n}$  is a random variable that depends on the data points  $Z_{1},\ldots ,Z_{n}$ . An upper bound on  $G_{n}$  would ensure that if you observed empirical risk  $\hat{L} (\hat{h})$ , the expected risk  $L(\hat{h})$  will not be much higher.
@@ -2237,7 +2231,7 @@ Here,  $G_{n}$  is a random variable that depends on the data points  $Z_{1},\ld
 - In order to bound the excess risk (158), we actually need to also bound  $G_{n}^{\prime}$  defined analogously for the negative loss  $\ell'(z, h) = -\ell(z, h)$ , so that
 
 $$
-\begin{array}{l} \mathbb {P} \left[ L (\hat {h}) - L \left(h ^ {*}\right) \geq \epsilon \right] \leq \mathbb {P} \left[ \sup  _ {h \in \mathcal {H}} | L (h) - \hat {L} (h) | \geq \frac {\epsilon}{2} \right] (205) \\ \leq \mathbb {P} \left[ G _ {n} \geq \frac {\epsilon}{2} \right] + \mathbb {P} \left[ G _ {n} ^ {\prime} \geq \frac {\epsilon}{2} \right]. (206) \\ \end{array}
+\begin{array}{l} \mathbb{P} \left[ L (\hat{h}) - L \left(h^{*}\right) \geq \epsilon \right] \leq \mathbb{P} \left[ \sup_{h \in \mathcal{H}} | L (h) - \hat{L} (h) | \geq \frac{\epsilon}{2} \right] (205) \\ \leq \mathbb{P} \left[ G_{n} \geq \frac{\epsilon}{2} \right] + \mathbb{P} \left[ G_{n} ^{\prime} \geq \frac{\epsilon}{2} \right]. (206) \\ \end{array}
 $$
 
 Usually, the tail bound for  $G_{n}$  is the same as for  $G_{n}^{\prime}$ , as we'll see later.
@@ -2248,7 +2242,7 @@ Usually, the tail bound for  $G_{n}$  is the same as for  $G_{n}^{\prime}$ , as 
 - Then  $g$  satisfies the following bounded differences condition:
 
 $$
-\left| g \left(Z _ {1}, \dots , Z _ {i}, \dots , Z _ {n}\right) - g \left(Z _ {1}, \dots , Z _ {i} ^ {\prime}, \dots , Z _ {n}\right) \right| \leq \frac {1}{n}. \tag {207}
+\left| g \left(Z_{1}, \dots , Z_{i}, \dots , Z_{n}\right) - g \left(Z_{1}, \dots , Z_{i} ^{\prime}, \dots , Z_{n}\right) \right| \leq \frac{1}{n}. \tag{207}
 $$
 
 Proof:
@@ -2257,7 +2251,7 @@ Proof:
 * We have:
 
 $$
-\left| \underbrace {\sup  _ {h \in \mathcal {H}} [ L (h) - \hat {L} (h) ]} _ {g \left(Z _ {1}, \dots , Z _ {i}, \dots , Z _ {n}\right)} - \underbrace {\sup  _ {h \in \mathcal {H}} [ L (h) - \hat {L} (h) + \frac {1}{n} \left(\ell \left(Z _ {i} , h\right) - \ell \left(Z _ {i} ^ {\prime} , h\right)\right) ]} _ {g \left(Z _ {1}, \dots , Z _ {i} ^ {\prime}, \dots , Z _ {n}\right)} \right| \leq \frac {1}{n}. \tag {208}
+\left| \underbrace{\sup_{h \in \mathcal{H}} [ L (h) - \hat{L} (h) ]} _{g \left(Z_{1}, \dots , Z_{i}, \dots , Z_{n}\right)} - \underbrace{\sup_{h \in \mathcal{H}} [ L (h) - \hat{L} (h) + \frac{1}{n} \left(\ell \left(Z_{i} , h\right) - \ell \left(Z_{i} ^{\prime} , h\right)\right) ]} _{g \left(Z_{1}, \dots , Z_{i} ^{\prime}, \dots , Z_{n}\right)} \right| \leq \frac{1}{n}. \tag{208}
 $$
 
 * For each  $h \in \mathcal{H}$ , the difference between the  $G_{n}$  and the perturbed  $G_{n}$  is at most  $\frac{1}{n}$  since the loss is bounded:  $\ell(z, h) \in [0, 1]$ . Taking the supremum (which is a contraction) cannot increase the difference.
@@ -2265,7 +2259,7 @@ $$
 - Now we can apply McDiarmid's inequality (Theorem 8) to get that:
 
 $$
-\begin{array}{l} \mathbb {P} [ G _ {n} \geq \mathbb {E} [ G _ {n} ] + \epsilon ] \leq \exp (- 2 n \epsilon^ {2}). \end{array} \tag {209}
+\begin{array}{l} \mathbb{P} [ G_{n} \geq \mathbb{E} [ G_{n} ] + \epsilon ] \leq \exp (- 2 n \epsilon^{2}). \end{array} \tag{209}
 $$
 
 - Remark: Note that  $g$  is quite a non-trivial function (involving a sup over a huge hypothesis class), but because it satisfies the bounded differences condition, we can simply apply McDiarmid's inequality.
@@ -2277,37 +2271,37 @@ $$
 - Rewriting  $L(h)$  in terms of the ghost dataset:
 
 $$
-\mathbb {E} \left[ G _ {n} \right] = \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \mathbb {E} \left[ \hat {L} ^ {\prime} (h) \right] - \hat {L} (h) \right]. \tag {210}
+\mathbb{E} \left[ G_{n} \right] = \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \mathbb{E} \left[ \hat{L} ^{\prime} (h) \right] - \hat{L} (h) \right]. \tag{210}
 $$
 
 - Bring  $\hat{L}(h)$  into the inner expectation by conditioning on the original dataset  $Z_{1:n}$  (the two datasets are independent):
 
 $$
-\mathbb {E} \left[ G _ {n} \right] = \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \mathbb {E} \left[ \hat {L} ^ {\prime} (h) - \hat {L} (h) \mid Z _ {1: n} \right] \right]. \tag {211}
+\mathbb{E} \left[ G_{n} \right] = \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \mathbb{E} \left[ \hat{L} ^{\prime} (h) - \hat{L} (h) \mid Z_{1: n} \right] \right]. \tag{211}
 $$
 
 - Pushing the sup inside the expectation can only increase:
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq \mathbb {E} \left[ \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \hat {L} ^ {\prime} (h) - \hat {L} (h) \mid Z _ {1: n} \right] \right]. \tag {212}
+\mathbb{E} \left[ G_{n} \right] \leq \mathbb{E} \left[ \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \hat{L} ^{\prime} (h) - \hat{L} (h) \mid Z_{1: n} \right] \right]. \tag{212}
 $$
 
 - Apply law of iterated conditional expectation:
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \hat {L} ^ {\prime} (h) - \hat {L} (h) \right]. \tag {213}
+\mathbb{E} \left[ G_{n} \right] \leq \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \hat{L} ^{\prime} (h) - \hat{L} (h) \right]. \tag{213}
 $$
 
 - Expanding, we see that we have successfully gotten an expression that depends on  $p^*$  through  $Z_{1:n}$ , but also the ghost dataset  $Z_{1:n}'$ .
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \frac {1}{n} \sum_ {i = 1} ^ {n} \left[ \ell \left(Z _ {i} ^ {\prime}, h\right) - \ell \left(Z _ {i}, h\right) \right] \right]. \tag {214}
+\mathbb{E} \left[ G_{n} \right] \leq \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \frac{1}{n} \sum_{i = 1} ^{n} \left[ \ell \left(Z_{i} ^{\prime}, h\right) - \ell \left(Z_{i}, h\right) \right] \right]. \tag{214}
 $$
 
 - Let's try to remove the dependence on the ghost dataset  $Z_{1:n}^{\prime}$  now. To that end, introduce i.i.d. Rademacher variables  $\sigma_1, \ldots, \sigma_n$  independent of  $Z_{1:n}, Z_{1:n}^{\prime}$ , where  $\sigma_i$  is uniform over  $\{-1, +1\}$ . Since  $\ell(Z_i', h) - \ell(Z_i, h)$  is symmetric around 0, multiplying by  $\sigma_i$  doesn't change its distribution. Now expanding the definition of the empirical risk:
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} \left[ \ell \left(Z _ {i} ^ {\prime}, h\right) - \ell \left(Z _ {i}, h\right) \right] \right]. \tag {215}
+\mathbb{E} \left[ G_{n} \right] \leq \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} \left[ \ell \left(Z_{i} ^{\prime}, h\right) - \ell \left(Z_{i}, h\right) \right] \right]. \tag{215}
 $$
 
 In fact, this holds for every  $\sigma_{1:n}$  and doesn't depend on its distribution.
@@ -2315,13 +2309,13 @@ In fact, this holds for every  $\sigma_{1:n}$  and doesn't depend on its distrib
 - Pushing the sup inside  $\sup_h [a_h - b_h] \leq \sup_h [a_h] + \sup_h [-b_h]$ :
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} \ell \left(Z _ {i} ^ {\prime}, h\right) + \sup  _ {h \in \mathcal {H}} \frac {1}{n} \sum_ {i = 1} ^ {n} (- \sigma_ {i}) \ell \left(Z _ {i}, h\right) \right]. \tag {216}
+\mathbb{E} \left[ G_{n} \right] \leq \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} \ell \left(Z_{i} ^{\prime}, h\right) + \sup_{h \in \mathcal{H}} \frac{1}{n} \sum_{i = 1} ^{n} (- \sigma_{i}) \ell \left(Z_{i}, h\right) \right]. \tag{216}
 $$
 
 - By linearity of expectation, the fact that  $Z_{i}^{\prime}$  has the same distribution as  $Z_{i}$ , and the fact that  $\sigma_{i}$  and  $-\sigma_{i}$  have the same distribution, we get:
 
 $$
-\mathbb {E} \left[ G _ {n} \right] \leq 2 \mathbb {E} \left[ \sup  _ {h \in \mathcal {H}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} \ell \left(Z _ {i}, h\right) \right]. \tag {217}
+\mathbb{E} \left[ G_{n} \right] \leq 2 \mathbb{E} \left[ \sup_{h \in \mathcal{H}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} \ell \left(Z_{i}, h\right) \right]. \tag{217}
 $$
 
 The RHS motivates the following general definition of the Rademacher complexity:
@@ -2332,7 +2326,7 @@ The RHS motivates the following general definition of the Rademacher complexity:
 - Define the Rademacher complexity (or Rademacher average) of  $\mathcal{F}$  to be
 
 $$
-\boxed {R _ {n} (\mathcal {F}) \stackrel {\text {d e f}} {=} \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} f (Z _ {i}) \right],} \tag {218}
+\boxed{R_{n} (\mathcal{F}) \stackrel{\text{def}} {=} \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} f (Z_{i}) \right],} \tag{218}
 $$
 
 where
@@ -2349,7 +2343,7 @@ where
 - Define the empirical Rademacher complexity of  $\mathcal{F}$  to be:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \stackrel {\text {d e f}} {=} \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} f \left(Z _ {i}\right) \mid Z _ {1: n} \right], \tag {219}
+\hat{R} _{n} (\mathcal{F}) \stackrel{\text{def}} {=} \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} f \left(Z_{i}\right) \mid Z_{1: n} \right], \tag{219}
 $$
 
 which is a random variable depending on the data. Note that  $R_{n}(\mathcal{F}) = \mathbb{E}[\hat{R}_{n}(\mathcal{F})]$ , where the expectation is taken over the  $n$  training examples.
@@ -2359,7 +2353,7 @@ which is a random variable depending on the data. Note that  $R_{n}(\mathcal{F})
 - Define  $\mathcal{A} = \{z \mapsto \ell(z, h) : h \in \mathcal{H}\}$  to be the loss class, the composition of the loss function with each of the hypotheses. With probability at least  $1 - \delta$ ,
 
 $$
-\boxed {L (\hat {h}) - L (h ^ {*}) \leq 4 R _ {n} (\mathcal {A}) + \sqrt {\frac {2 \log (2 / \delta)}{n}}.} \tag {220}
+\boxed{L (\hat{h}) - L (h^{*}) \leq 4 R_{n} (\mathcal{A}) + \sqrt{\frac{2 \log (2 / \delta)}{n}}.} \tag{220}
 $$
 
 Proof of Theorem 9:
@@ -2369,13 +2363,13 @@ Proof of Theorem 9:
 - Let's apply the tail bound (209) on both  $G_{n}$  and  $G_{n}^{\prime}$ :
 
 $$
-\begin{array}{l} \mathbb {P} \left[ G _ {n} \geq \frac {\epsilon}{2} \right] \leq \exp \left(- 2 n \left(\frac {\epsilon}{2} - \mathbb {E} [ G _ {n} ]\right) ^ {2}\right) (221) \\ \leq \exp \left(- 2 n \left(\frac {\epsilon}{2} - 2 R _ {n} (\mathcal {A})\right) ^ {2}\right) [ \text {f o r} \epsilon \geq 4 R _ {n} (\mathcal {A}) ] (222) \\ \stackrel {\mathrm {d e f}} {=} \frac {\delta}{2}. (223) \\ \end{array}
+\begin{array}{l} \mathbb{P} \left[ G_{n} \geq \frac{\epsilon}{2} \right] \leq \exp \left(- 2 n \left(\frac{\epsilon}{2} - \mathbb{E} [ G_{n} ]\right) ^{2}\right) (221) \\ \leq \exp \left(- 2 n \left(\frac{\epsilon}{2} - 2 R_{n} (\mathcal{A})\right) ^{2}\right) [ \text{for} \epsilon \geq 4 R_{n} (\mathcal{A}) ] (222) \\ \stackrel{\mathrm{def}} {=} \frac{\delta}{2}. (223) \\ \end{array}
 $$
 
 We have an analogous inequality for  $G_{n}^{\prime}$ :
 
 $$
-\mathbb {P} \left[ G _ {n} ^ {\prime} \geq \frac {\epsilon}{2} \right] \leq \frac {\delta}{2}. \tag {224}
+\mathbb{P} \left[ G_{n} ^{\prime} \geq \frac{\epsilon}{2} \right] \leq \frac{\delta}{2}. \tag{224}
 $$
 
 Adding them and solving for  $\epsilon$  yields the result.
@@ -2428,7 +2422,7 @@ Adding them and solving for  $\epsilon$  yields the result.
 * This property is useful because if we want to compute the Rademacher of a polytope (an infinite set), it suffices to compute the Rademacher complexity of its vertices (a finite set). We will use this property when we look at  $L_{1}$  regularization.
 
 $$
-[ \text {b e g i n l e c t u r e 7} ] \tag {7}
+[ \text{b e g i n l e c t u r e 7} ] \tag{7}
 $$
 
 # 3.9 Finite hypothesis classes (Lecture 7)
@@ -2437,7 +2431,7 @@ $$
 - As a motivating example of a finite hypothesis class, consider the set of functions that take conjunctions (products) of  $k$  of  $d$  boolean features:
 
 $$
-\mathcal {F} = \left\{z \mapsto \prod_ {j \in J} z _ {j}: J \subseteq \{1, \dots , d \}, | J | = s \right\}. \tag {225}
+\mathcal{F} = \left\{z \mapsto \prod_{j \in J} z_{j}: J \subseteq \{1, \dots , d \}, | J | = s \right\}. \tag{225}
 $$
 
 Question: what should the Rademacher complexity of  $\mathcal{F}$  be? Well,  $|\mathcal{F}| = \binom{d}{s}$ , and the complexity should depend on  $\log |\mathcal{F}| = O(s\log d)$ , and also go down as  $1 / \sqrt{n}$ .
@@ -2449,13 +2443,13 @@ Question: what should the Rademacher complexity of  $\mathcal{F}$  be? Well,  $|
 - Let  $M^2$  be a bound on the second moment:
 
 $$
-\sup  _ {f \in \mathcal {F}} \frac {1}{n} \sum_ {i = 1} ^ {n} f \left(Z _ {i}\right) ^ {2} \leq M ^ {2}. \tag {226}
+\sup_{f \in \mathcal{F}} \frac{1}{n} \sum_{i = 1} ^{n} f \left(Z_{i}\right) ^{2} \leq M^{2}. \tag{226}
 $$
 
 - Then the empirical Rademacher complexity is upper bounded:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \sqrt {\frac {2 M ^ {2} \log | \mathcal {F} |}{n}}. \tag {227}
+\hat{R} _{n} (\mathcal{F}) \leq \sqrt{\frac{2 M^{2} \log | \mathcal{F} |}{n}}. \tag{227}
 $$
 
 Proof of Lemma 5:
@@ -2467,19 +2461,19 @@ Proof of Lemma 5:
 - Exponentiate and use convexity of  $x \mapsto \exp (tx)$  for  $t \geq 0$  to push the exp inside the expectation, which turns it into the moment generating function of  $\sup_{f \in \mathcal{F}} W_f$ :
 
 $$
-\exp \left(t \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} W _ {f} \mid Z _ {1: n} \right]\right) \leq \mathbb {E} \left[ \exp \left(t \sup  _ {f \in \mathcal {F}} W _ {f}\right) \mid Z _ {1: n} \right]. \tag {228}
+\exp \left(t \mathbb{E} \left[ \sup_{f \in \mathcal{F}} W_{f} \mid Z_{1: n} \right]\right) \leq \mathbb{E} \left[ \exp \left(t \sup_{f \in \mathcal{F}} W_{f}\right) \mid Z_{1: n} \right]. \tag{228}
 $$
 
 - By monotonicity, we can pull the sup out of the exponent:
 
 $$
-= \mathbb {E} [ \sup  _ {f \in \mathcal {F}} \exp (t W _ {f}) \mid Z _ {1: n} ]. \tag {229}
+= \mathbb{E} [ \sup_{f \in \mathcal{F}} \exp (t W_{f}) \mid Z_{1: n} ]. \tag{229}
 $$
 
 - The sup over non-negative terms can be upper bounded by the sum:
 
 $$
-\leq \sum_ {f \in \mathcal {F}} \mathbb {E} \left[ \exp \left(t W _ {f}\right) \mid Z _ {1: n} \right]. \tag {230}
+\leq \sum_{f \in \mathcal{F}} \mathbb{E} \left[ \exp \left(t W_{f}\right) \mid Z_{1: n} \right]. \tag{230}
 $$
 
 - Now we have to bound  $\mathbb{E}[\exp (tW_f)]$ , the moment generating function of a single  $W_{f}$ .
@@ -2491,7 +2485,7 @@ $$
 * By the definition of sub-Gaussian, we have
 
 $$
-\mathbb {E} [ \exp (t W _ {f}) ] \leq \exp \left(\frac {t ^ {2} M ^ {2}}{2 n}\right). \tag {231}
+\mathbb{E} [ \exp (t W_{f}) ] \leq \exp \left(\frac{t^{2} M^{2}}{2 n}\right). \tag{231}
 $$
 
 The important thing is that  $W_{f}$  is an average of i.i.d. variables, so its moment generating function decays exponentially fast.
@@ -2499,25 +2493,25 @@ The important thing is that  $W_{f}$  is an average of i.i.d. variables, so its 
 - Plugging this in to the overall bound and the rest is algebra:
 
 $$
-\exp \left(t \hat {R} _ {n} (\mathcal {F})\right) \leq \sum_ {f \in \mathcal {F}} \mathbb {E} \left[ \exp \left(t W _ {f}\right) \mid Z _ {1: n} \right] \leq | \mathcal {F} | \exp \left(\frac {t ^ {2} M ^ {2}}{2 n}\right). \tag {232}
+\exp \left(t \hat{R} _{n} (\mathcal{F})\right) \leq \sum_{f \in \mathcal{F}} \mathbb{E} \left[ \exp \left(t W_{f}\right) \mid Z_{1: n} \right] \leq | \mathcal{F} | \exp \left(\frac{t^{2} M^{2}}{2 n}\right). \tag{232}
 $$
 
 - Taking logs and dividing by  $t$ :
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \frac {\log | \mathcal {F} |}{t} + \frac {t M ^ {2}}{2 n}. \tag {233}
+\hat{R} _{n} (\mathcal{F}) \leq \frac{\log | \mathcal{F} |}{t} + \frac{t M^{2}}{2 n}. \tag{233}
 $$
 
 - Optimizing over  $t$  yields the result as desired (by just taking the twice the geometric average of  $\log |\mathcal{F}|$  and  $M^2/(2n)$ ):
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \sqrt {\frac {2 M ^ {2} \log | \mathcal {F} |}{n}}. \tag {234}
+\hat{R} _{n} (\mathcal{F}) \leq \sqrt{\frac{2 M^{2} \log | \mathcal{F} |}{n}}. \tag{234}
 $$
 
 - We can immediately apply Massart's finite lemma to any finite loss class  $\mathcal{A}$ . For example, for the zero-one loss, we have each  $f(Z_{i}) = \ell (Z_{i},h)\in [0,1]$  (for  $h\in \mathcal{H}$  corresponding to  $f\in \mathcal{F}$ ) so we can take  $M = 1$ . Combined with (220), this gives us
 
 $$
-L (\hat {h}) - L (h ^ {*}) \leq \sqrt {\frac {3 2 \log | \mathcal {H} |}{n}} + \sqrt {\frac {2 \log (2 / \delta)}{n}} = O \left(\sqrt {\frac {\log | \mathcal {H} |}{n}}\right), \tag {235}
+L (\hat{h}) - L (h^{*}) \leq \sqrt{\frac{2 \log | \mathcal{H} |}{n}} + \sqrt{\frac{2 \log (2 / \delta)}{n}} = O \left(\sqrt{\frac{\log | \mathcal{H} |}{n}}\right), \tag{235}
 $$
 
 which gives the same result as Theorem 7 (just with worse constants).
@@ -2527,7 +2521,7 @@ which gives the same result as Theorem 7 (just with worse constants).
 - What happens if we want to bound a class of half-spaces passing through the origin:
 
 $$
-\mathcal {F} = \left\{z \mapsto \mathbb {I} [ w \cdot z \geq 0 ]: w \in \mathbb {R} ^ {d} \right\}. \tag {236}
+\mathcal{F} = \left\{z \mapsto \mathbb{I} [ w \cdot z \geq 0 ]: w \in \mathbb{R} ^{d} \right\}. \tag{236}
 $$
 
 What should the complexity of  $\mathcal{F}$  be? Since  $\mathcal{F}$  is infinite, we can't just apply Massart's finite lemma directly. Here's some really sloppy intuition though: consider a 32-bit precision representation of the weight vector  $w$ ; then there are  $(2^{32})^d$  possible representations, so we might expect the Rademacher complexity to depend on  $d$ .
@@ -2537,7 +2531,7 @@ What should the complexity of  $\mathcal{F}$  be? Since  $\mathcal{F}$  is infin
 - For example, consider two points in 2D:  $Z_{1} = [3,0]$ ,  $Z_{2} = [-3,0]$ . Then
 
 $$
-\mathcal {F} ^ {\prime} = \left\{z \mapsto \mathbb {I} [ z \geq 0 ], z \mapsto \mathbb {I} [ - z \geq 0 ] \right\} \tag {237}
+\mathcal{F} ^{\prime} = \left\{z \mapsto \mathbb{I} [ z \geq 0 ], z \mapsto \mathbb{I} [ - z \geq 0 ] \right\} \tag{237}
 $$
 
 has the same behaviors as  $\mathcal{F}$ , namely [1, 0] and [0, 1].
@@ -2547,7 +2541,7 @@ has the same behaviors as  $\mathcal{F}$ , namely [1, 0] and [0, 1].
 More formally, if
 
 $$
-\left\{\left[ f \left(Z _ {1}\right), \dots , f \left(Z _ {n}\right) \right]: f \in \mathcal {F} \right\} = \left\{\left[ f ^ {\prime} \left(Z _ {1}\right), \dots , f ^ {\prime} \left(Z _ {n}\right) \right]: f ^ {\prime} \in \mathcal {F} ^ {\prime} \right\}, \tag {238}
+\left\{\left[ f \left(Z_{1}\right), \dots , f \left(Z_{n}\right) \right]: f \in \mathcal{F} \right\} = \left\{\left[ f^{\prime} \left(Z_{1}\right), \dots , f^{\prime} \left(Z_{n}\right) \right]: f^{\prime} \in \mathcal{F} ^{\prime} \right\}, \tag{238}
 $$
 
 then  $\hat{R}_n(\mathcal{F}) = \hat{R}_n(\mathcal{F}')$ . Therefore, all that matters as far as empirical Rademacher complexity is concerned is the behavior of a function class on  $n$  data points. This is the key observation!
@@ -2561,13 +2555,13 @@ Definition 10 (shattering coefficient (growth function))
 - The shattering coefficient of  $\mathcal{F}$  is the maximum number of behaviors over  $n$  points:
 
 $$
-s (\mathcal {F}, n) \stackrel {\text {d e f}} {=} \max  _ {z _ {1}, \dots , z _ {n} \in \mathcal {Z}} | \left\{\left[ f \left(z _ {1}\right), \dots , f \left(z _ {n}\right) \right]: f \in \mathcal {F} \right\} |. \tag {239}
+s (\mathcal{F}, n) \stackrel{\text{def}} {=} \max_{z_{1}, \dots , z_{n} \in \mathcal{Z}} | \left\{\left[ f \left(z_{1}\right), \dots , f \left(z_{n}\right) \right]: f \in \mathcal{F} \right\} |. \tag{239}
 $$
 
 - We can use Massart's finite lemma to upper bound the empirical Rademacher complexity by the shattering coefficient. If  $\mathcal{F}$  contains boolean functions, we have the bound  $M = 1$ , so that:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \sqrt {\frac {2 \log s (\mathcal {F} , n)}{n}}. \tag {240}
+\hat{R} _{n} (\mathcal{F}) \leq \sqrt{\frac{2 \log s (\mathcal{F} , n)}{n}}. \tag{240}
 $$
 
 The significance is that we can apply Massart's finite lemma to infinite function classes with finite shattering coefficient. In order to have applied this bound, it is important to condition on the data (note that the distribution over the data has disappeared completely!) After applying Massart's finite lemma, we can take expectations over the data without changing the bound. We have turned an annoying expectation over  $p^*$  into a purely combinatorial notion of complexity.
@@ -2587,13 +2581,13 @@ The significance is that we can apply Massart's finite lemma to infinite functio
 - The key point is that
 
 $$
-\boxed {s (\mathcal {H}, n) = s (\mathcal {A}, n).} \tag {241}
+\boxed{s (\mathcal{H}, n) = s (\mathcal{A}, n).} \tag{241}
 $$
 
 - The reason is as follows: for any  $(x_{1},y_{1}),\ldots ,(x_{n},y_{n})$ , there is a bijection between the behavior of the losses and the hypotheses:
 
 $$
-[ \ell ((x _ {1}, y _ {1}), h), \dots , \ell ((x _ {n}, y _ {n}), h) ] \quad \Leftrightarrow \quad [ h (x _ {1}), \dots , h (x _ {n}) ], \tag {242}
+[ \ell ((x_{1}, y_{1}), h), \dots , \ell ((x_{n}, y_{n}), h) ] \quad \Leftrightarrow \quad [ h (x_{1}), \dots , h (x_{n}) ], \tag{242}
 $$
 
 where the translation between the two sets of vectors is obtained by taking the XOR with  $[y_1, \ldots, y_n]$ . Therefore, as we range over  $h \in \mathcal{H}$ , we obtain the same number of behaviors from  $\ell$  as we do from  $h$ .
@@ -2607,7 +2601,7 @@ where the translation between the two sets of vectors is obtained by taking the 
 - The VC dimension of a family of functions  $\mathcal{H}$  with boolean outputs is the maximum number of points that can be shattered by  $\mathcal{H}$ :
 
 $$
-\boxed {\operatorname {V C} (\mathcal {H}) = \sup  \{n: s (\mathcal {H}, n) = 2 ^ {n} \}.} \tag {243}
+\boxed{\operatorname{VC} (\mathcal{H}) = \sup  \{n: s (\mathcal{H}, n) = 2^{n} \}.} \tag{243}
 $$
 
 - Intuition: the VC dimension of  $\mathcal{H}$  is the maximum number of points whose labels can be memorized perfectly by choosing some  $h \in \mathcal{H}$ .
@@ -2643,7 +2637,7 @@ $$
 - Then we have
 
 $$
-\begin{array}{l} \mathrm {V C} (\mathcal {H}) \leq \dim (\mathcal {F}). \end{array} \tag {244}
+\begin{array}{l} \mathrm{VC} (\mathcal{H}) \leq \dim (\mathcal{F}). \end{array} \tag{244}
 $$
 
 - Remark: this allows us to connect the linear algebraic properties of  $\mathcal{F}$  (dimension) with the combinatorial properties of  $\mathcal{H}$  (VC dimension).
@@ -2659,7 +2653,7 @@ Proof of Theorem 10:
 - So we have for all  $f \in \mathcal{F}$ :
 
 $$
-\sum_ {i: c _ {i} \geq 0} c _ {i} f \left(x _ {i}\right) + \sum_ {i: c _ {i} <   0} c _ {i} f \left(x _ {i}\right) = 0. \tag {245}
+\sum_{i: c_{i} \geq 0} c_{i} f \left(x_{i}\right) + \sum_{i: c_{i} <   0} c_{i} f \left(x_{i}\right) = 0. \tag{245}
 $$
 
 - For the purposes of contradiction, suppose  $\mathcal{H}$  shatters  $\{x_{1},\ldots ,x_{n}\}$ .
@@ -2672,7 +2666,7 @@ $$
 
 * The sum of the two terms couldn't equal zero, which contradicts (245).
 
-- Therefore,  $\mathcal{H}$  can't shatter  $\{x_1,\ldots ,x_n\}$  for any choice of  $x_{1},\ldots ,x_{n}$ , so  $\operatorname {VC}(\mathcal{H})\leq$ $\dim (\mathcal{F})$
+- Therefore,  $\mathcal{H}$  can't shatter  $\{x_1,\ldots ,x_n\}$  for any choice of  $x_{1},\ldots ,x_{n}$ , so  $\operatorname{VC}(\mathcal{H})\leq$ $\dim (\mathcal{F})$
 
 Here is the classic application of Theorem 10:
 
@@ -2685,15 +2679,15 @@ Here is the classic application of Theorem 10:
 - Create  $d$  points which are the basis vectors:
 
 $$
-x _ {1} = [ 1, 0, \dots , 0, 0 ] \tag {246}
+x_{1} = [ 1, 0, \dots , 0, 0 ] \tag{246}
 $$
 
 $$
-\dots \tag {247}
+\dots \tag{247}
 $$
 
 $$
-x _ {d} = [ 0, 0, \dots , 0, 1 ] \tag {248}
+x_{d} = [ 0, 0, \dots , 0, 1 ] \tag{248}
 $$
 
 - Given any subset  $I \subseteq \{1, \ldots, d\}$  (which defines a labeling of  $x_1, \ldots, x_d$ ), we can construct a  $w$  as follows to obtain that labeling:
@@ -2712,7 +2706,7 @@ Lemma 6 (Sauer's lemma)
 - Then
 
 $$
-\boxed {s (\mathcal {H}, n) \leq \sum_ {i = 0} ^ {d} \binom {n} {i} \leq \left\{ \begin{array}{l l} 2 ^ {n} & \text {i f} n \leq d \\ \left(\frac {e n}{d}\right) ^ {d} & \text {i f} n > d. \end{array} \right.} \tag {249}
+\boxed{s (\mathcal{H}, n) \leq \sum_{i = 0} ^{d} \binom{n} {i} \leq \left\{ \begin{array}{l l} 2^{n} & \text{if} n \leq d \\ \left(\frac{e n}{d}\right) ^{d} & \text{if} n > d. \end{array} \right.} \tag{249}
 $$
 
 - Intuition
@@ -2724,7 +2718,7 @@ $$
 - The ramification of Sauer's lemma is that now we have a new upper bound on the Rademacher complexity (and thus on uniform convergence):
 
 $$
-\hat {R} _ {n} (\mathcal {A}) \leq \sqrt {\frac {2 \log s (\mathcal {A} , n)}{n}} = \sqrt {\frac {2 \log s (\mathcal {H} , n)}{n}} \leq \boxed {\sqrt {\frac {2 \mathrm {V C} (\mathcal {H}) (\log n + 1)}{n}}}, \tag {250}
+\hat{R} _{n} (\mathcal{A}) \leq \sqrt{\frac{2 \log s (\mathcal{A} , n)}{n}} = \sqrt{\frac{2 \log s (\mathcal{H} , n)}{n}} \leq \boxed{\sqrt{\frac{2 \mathrm{VC} (\mathcal{H}) (\log n + 1)}{n}}}, \tag{250}
 $$
 
 where the first inequality follows from (240), the second equality follows from (241), and the final inequality follows from (249) and holds for  $n \geq d$ .
@@ -2756,7 +2750,7 @@ Here's an example table  $T$ :
 * The transformations proceed one column at a time:
 
 $$
-T \rightarrow T _ {1} \rightarrow \dots T _ {k} \stackrel {\text {t r a n s f o r m c o l u m n} j} {\rightarrow} T _ {k + 1} \rightarrow \cdot \rightarrow T ^ {\prime}. \tag {251}
+T \rightarrow T_{1} \rightarrow \dots T_{k} \stackrel{\text{transformcolumn} j} {\rightarrow} T_{k + 1} \rightarrow \cdot \rightarrow T^{\prime}. \tag{251}
 $$
 
 * Claim: After transforming any column  $j$ , if some subset  $S \subseteq \{1, \ldots, n\}$  of points is shattered (all  $2^{|S|}$  labelings exist on those columns) after transformation (in  $T_{k+1}$ ), then  $S$  was also shattered before transformation (in  $T_k$ ).  
@@ -2780,7 +2774,7 @@ $$
 - Finishing the second part of the inequality of (249) is just algebra. Observe that for  $n \geq d$ ,
 
 $$
-\begin{array}{l} \sum_ {i = 0} ^ {d} \binom {n} {i} \leq \left(\frac {n}{d}\right) ^ {d} \sum_ {i = 0} ^ {d} \binom {n} {i} \left(\frac {d}{n}\right) ^ {i} (252) \\ \leq \left(\frac {n}{d}\right) ^ {d} \sum_ {i = 0} ^ {n} \binom {n} {i} \left(\frac {d}{n}\right) ^ {i} (253) \\ = \left(\frac {n}{d}\right) ^ {d} \left(1 + \frac {d}{n}\right) ^ {n} (254) \\ \leq \left(\frac {n}{d}\right) ^ {d} e ^ {d}. (255) \\ \end{array}
+\begin{array}{l} \sum_{i = 0} ^{d} \binom{n} {i} \leq \left(\frac{n}{d}\right) ^{d} \sum_{i = 0} ^{d} \binom{n} {i} \left(\frac{d}{n}\right) ^{i} (252) \\ \leq \left(\frac{n}{d}\right) ^{d} \sum_{i = 0} ^{n} \binom{n} {i} \left(\frac{d}{n}\right) ^{i} (253) \\ = \left(\frac{n}{d}\right) ^{d} \left(1 + \frac{d}{n}\right) ^{n} (254) \\ \leq \left(\frac{n}{d}\right) ^{d} e^{d}. (255) \\ \end{array}
 $$
 
 # 3.12 Norm-constrained hypothesis classes (Lecture 7)
@@ -2789,7 +2783,7 @@ $$
 - However, combinatorial notions are not the most appropriate way to think about complexity. For example, it is common in machine learning to have a huge number of features (large  $d$ ) in a linear classifier, but where we regularize or constrain the norm of the weights, as in an SVM:
 
 $$
-\hat {w} = \arg \min  _ {w \in \mathbb {R} ^ {d}: \| w \| _ {2} \leq B _ {2}} \frac {1}{n} \sum_ {i = 1} ^ {n} \max  \{0, 1 - y ^ {(i)} w \cdot x ^ {(i)} \}. \tag {256}
+\hat{w} = \arg \min_{w \in \mathbb{R} ^{d}: \| w \| _{2} \leq B_{2}} \frac{1}{n} \sum_{i = 1} ^{n} \max  \{0, 1 - y^{(i)} w \cdot x^{(i)} \}. \tag{256}
 $$
 
 In this case,  $d$  is the VC dimension doesn't really capture the true complexity of the hypothesis class. Somehow  $B_{2}$  should play a role, no?
@@ -2808,7 +2802,7 @@ In this case,  $d$  is the VC dimension doesn't really capture the true complexi
 * Then
 
 $$
-\boxed {R _ {n} (\mathcal {F}) \leq \frac {B _ {2} C _ {2}}{\sqrt {n}}.} \tag {257}
+\boxed{R_{n} (\mathcal{F}) \leq \frac{B_{2} C_{2}}{\sqrt{n}}.} \tag{257}
 $$
 
 Proof of Theorem 11:
@@ -2817,37 +2811,37 @@ Proof of Theorem 11:
 * Expand the definition:
 
 $$
-R _ {n} (\mathcal {F}) = \frac {1}{n} \mathbb {E} \left[ \sup  _ {\| w \| _ {2} \leq B _ {2}} \sum_ {i = 1} ^ {n} \sigma_ {i} (w \cdot Z _ {i}) \right]. \tag {258}
+R_{n} (\mathcal{F}) = \frac{1}{n} \mathbb{E} \left[ \sup_{\| w \| _{2} \leq B_{2}} \sum_{i = 1} ^{n} \sigma_{i} (w \cdot Z_{i}) \right]. \tag{258}
 $$
 
 * By Cauchy-Schwartz applied to  $w$  and  $\sum_{i=1}^{n} \sigma_i Z_i$ :
 
 $$
-\leq \frac {B _ {2}}{n} \mathbb {E} \left[ \| \sum_ {i = 1} ^ {n} \sigma_ {i} Z _ {i} \| _ {2} \right]. \tag {259}
+\leq \frac{B_{2}}{n} \mathbb{E} \left[ \| \sum_{i = 1} ^{n} \sigma_{i} Z_{i} \| _{2} \right]. \tag{259}
 $$
 
 * By concavity of  $\sqrt{\cdot}$ , we can push it outside the expectation:
 
 $$
-\leq \frac {B _ {2}}{n} \sqrt {\mathbb {E} \left[ \| \sum_ {i = 1} ^ {n} \sigma_ {i} Z _ {i} \| _ {2} ^ {2} \right]}. \tag {260}
+\leq \frac{B_{2}}{n} \sqrt{\mathbb{E} \left[ \| \sum_{i = 1} ^{n} \sigma_{i} Z_{i} \| _{2} ^{2} \right]}. \tag{260}
 $$
 
 * Distribute the sum; expectation of cross terms is zero by independence of  $\sigma_{i}$  (this is the key point, which turns  $n^2$  terms into  $n$  terms):
 
 $$
-= \frac {B _ {2}}{n} \sqrt {\mathbb {E} \left[ \sum_ {i = 1} ^ {n} \| \sigma_ {i} Z _ {i} \| _ {2} ^ {2} \right]}. \tag {261}
+= \frac{B_{2}}{n} \sqrt{\mathbb{E} \left[ \sum_{i = 1} ^{n} \| \sigma_{i} Z_{i} \| _{2} ^{2} \right]}. \tag{261}
 $$
 
 * We can drop  $\sigma_{i}$  because it changes sign, not magnitude:
 
 $$
-= \frac {B _ {2}}{n} \sqrt {\mathbb {E} \left[ \sum_ {i = 1} ^ {n} \| Z _ {i} \| _ {2} ^ {2} \right]}. \tag {262}
+= \frac{B_{2}}{n} \sqrt{\mathbb{E} \left[ \sum_{i = 1} ^{n} \| Z_{i} \| _{2} ^{2} \right]}. \tag{262}
 $$
 
 * Use the bound on  $Z_{i}$ :
 
 $$
-\leq \frac {B _ {2}}{n} \sqrt {n C _ {2} ^ {2}}. \tag {263}
+\leq \frac{B_{2}}{n} \sqrt{n C_{2} ^{2}}. \tag{263}
 $$
 
 Simple algebra completes the proof.
@@ -2868,7 +2862,7 @@ Let us compute the Rademacher complexity of  $\mathcal{F} = \{z\mapsto w\cdot z:
 * Then
 
 $$
-\boxed {R _ {n} (\mathcal {F}) \leq \frac {B _ {1} C _ {\infty} \sqrt {2 \log (2 d)}}{\sqrt {n}}.} \tag {264}
+\boxed{R_{n} (\mathcal{F}) \leq \frac{B_{1} C_{\infty} \sqrt{2 \log (2 d)}}{\sqrt{n}}.} \tag{264}
 $$
 
 Proof of Theorem 12
@@ -2876,20 +2870,20 @@ Proof of Theorem 12
 * The key step is to realize that the  $L_{1}$  ball ( $\{w: \| w \|_{1} \leq B_{1}\}$ ) is the convex hull of the following 2d weight vectors:
 
 $$
-W = \cup_ {j = 1} ^ {d} \left\{B _ {1} e _ {j}, - B _ {1} e _ {j} \right\}. \tag {265}
+W = \cup_{j = 1} ^{d} \left\{B_{1} e_{j}, - B_{1} e_{j} \right\}. \tag{265}
 $$
 
 Since the Rademacher complexity of a class is the same as the Rademacher complexity of its convex hull, we just need to look at the finite class:
 
 $$
-R _ {n} (\mathcal {F}) = \mathbb {E} \left[ \sup  _ {w \in W} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} (w \cdot Z _ {i}) \right]. \tag {266}
+R_{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{w \in W} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} (w \cdot Z_{i}) \right]. \tag{266}
 $$
 
 * Apply Hölder's inequality, we have  $w \cdot Z_i \leq \|w\|_1 \|Z_i\|_\infty \leq B_1 C_\infty$ .  
 * Applying Massart's finite lemma (Lemma 5) to the function class specified by  $W$  (of size  $2d$ ) with  $M^2 = B_1^2 C_\infty^2$ , we get that
 
 $$
-R _ {n} (\mathcal {F}) \leq \sqrt {\frac {2 B _ {1} ^ {2} C _ {\infty} ^ {2} \log (2 d)}{n}}. \tag {267}
+R_{n} (\mathcal{F}) \leq \sqrt{\frac{2 B_{1} ^{2} C_{\infty} ^{2} \log (2 d)}{n}}. \tag{267}
 $$
 
 Remarks
@@ -2933,19 +2927,19 @@ Hinge loss:  $\phi(m) = \max\{0, 1 - m\}$ .
 Let  $w \in W$  be a set of weight vectors (for example,  $\{w : \| w \|_2 \leq B_2\}$ ). The loss class corresponding to these weight vectors is then:
 
 $$
-\mathcal {A} = \{(x, y) \mapsto \phi (y x \cdot w): w \in W \}. \tag {268}
+\mathcal{A} = \{(x, y) \mapsto \phi (y x \cdot w): w \in W \}. \tag{268}
 $$
 
 * Since the loss function only depends on  $(x, y)$  through their product, we can equivalently think about our data points as simply being  $z = xy$ . Recall the function class that we've bounded the Rademacher complexity for:
 
 $$
-\mathcal {F} = \{z \mapsto w \cdot z: w \in W \}. \tag {269}
+\mathcal{F} = \{z \mapsto w \cdot z: w \in W \}. \tag{269}
 $$
 
 So therefore, we can rewrite the loss class as a composition:
 
 $$
-\mathcal {A} = \phi \circ \mathcal {F}. \tag {270}
+\mathcal{A} = \phi \circ \mathcal{F}. \tag{270}
 $$
 
 * Note that we can only apply the composition rule for Rademacher complexity to  $\phi$  which are Lipschitz. The hinge loss is 1-Lipschitz, which means the Rademacher bounds for the function class  $\mathcal{F}$  directly carry over to the loss class:  $R_{n}(\mathcal{A}) = R_{n}(\mathcal{F})$ .
@@ -2954,13 +2948,13 @@ $$
 - There is still a weaker statement that we can make, however. Let us define a margin-sensitive version of the zero-one loss which penalizes us whenever we don't predict correctly by at least a margin of  $\gamma$ :
 
 $$
-\phi_ {\gamma} (m) = \mathbb {I} [ m \leq \gamma ] \tag {271}
+\phi_{\gamma} (m) = \mathbb{I} [ m \leq \gamma ] \tag{271}
 $$
 
 and
 
 $$
-L _ {\gamma} (w) = \mathbb {E} _ {z \sim p ^ {*}} [ \phi_ {\gamma} (w \cdot z) ] \tag {272}
+L_{\gamma} (w) = \mathbb{E} _{z \sim p^{*}} [ \phi_{\gamma} (w \cdot z) ] \tag{272}
 $$
 
 be the associated expected risk.
@@ -2973,7 +2967,7 @@ be the associated expected risk.
 * With probability at least  $1 - \delta$ ,
 
 $$
-L _ {0} (\hat {w}) \leq L _ {\gamma} \left(w ^ {*}\right) + \frac {4 R _ {n} (\mathcal {F})}{\gamma} + \sqrt {\frac {2 \log (2 / \delta)}{n}}. \tag {273}
+L_{0} (\hat{w}) \leq L_{\gamma} \left(w^{*}\right) + \frac{4 R_{n} (\mathcal{F})}{\gamma} + \sqrt{\frac{2 \log (2 / \delta)}{n}}. \tag{273}
 $$
 
 Important: The LHS is one the usual zero-one loss.
@@ -2989,7 +2983,7 @@ Important: The LHS is one the usual zero-one loss.
 * The problem is that  $\phi_{\gamma}$  is not Lipschitz for any value of  $\gamma$ . So the key trick is to introduce a Lipschitz version  $\tilde{\phi}_{\gamma}$  that interpolates smoothly between the two:
 
 $$
-\tilde {\phi} _ {\gamma} (m) = \min  \left\{1, \max  \left\{0, 1 - \frac {m}{\gamma} \right\} \right\}. \tag {274}
+\tilde{\phi} _{\gamma} (m) = \min  \left\{1, \max  \left\{0, 1 - \frac{m}{\gamma} \right\} \right\}. \tag{274}
 $$
 
 - FIGURE: [plot  $\tilde{\phi}_{\gamma}]$
@@ -2997,25 +2991,25 @@ $$
 * Then the Rademacher complexity of this intermediate loss class can be bounded:
 
 $$
-R _ {n} \left(\tilde {\phi} _ {\gamma} \circ \mathcal {F}\right) = \frac {R _ {n} (\mathcal {F})}{\gamma}, \tag {275}
+R_{n} \left(\tilde{\phi} _{\gamma} \circ \mathcal{F}\right) = \frac{R_{n} (\mathcal{F})}{\gamma}, \tag{275}
 $$
 
 because  $\tilde{\phi}_{\gamma}$  is  $\frac{1}{\gamma}$ -Lipschitz. Applying Theorem 9, we get that:
 
 $$
-\tilde {L} _ {\gamma} (\hat {w}) \leq \tilde {L} _ {\gamma} \left(w ^ {*}\right) + \frac {4 R _ {n} (\mathcal {F})}{\gamma} + \sqrt {\frac {2 \log (2 / \delta)}{n}}. \tag {276}
+\tilde{L} _{\gamma} (\hat{w}) \leq \tilde{L} _{\gamma} \left(w^{*}\right) + \frac{4 R_{n} (\mathcal{F})}{\gamma} + \sqrt{\frac{2 \log (2 / \delta)}{n}}. \tag{276}
 $$
 
 * Note that  $\phi_0 \leq \tilde{\phi}_{\gamma} \leq \phi_{\gamma}$ , so the same relation holds on the expected risks for all  $w \in W$ :
 
 $$
-L _ {0} (w) \leq \tilde {L} _ {\gamma} (w), \quad \tilde {L} _ {\gamma} (w) \leq L _ {\gamma} (w). \tag {277}
+L_{0} (w) \leq \tilde{L} _{\gamma} (w), \quad \tilde{L} _{\gamma} (w) \leq L_{\gamma} (w). \tag{277}
 $$
 
 The final result follows from applying these two inequalities to (276).
 
 $$
-[ \text {b e g i n l e c t u r e 8} ] \tag {8}
+[ \text{b e g i n l e c t u r e 8} ] \tag{8}
 $$
 
 # 3.13 Covering numbers (metric entropy) (Lecture 8)
@@ -3057,7 +3051,7 @@ Definition 13 (ball)
 - Then the ball with radius  $\epsilon > 0$  centered at  $f \in \mathcal{X}$  is defined as:
 
 $$
-B _ {\epsilon} (f) \stackrel {\text {d e f}} {=} \left\{f ^ {\prime} \in \mathcal {X}: \rho \left(f, f ^ {\prime}\right) \leq \epsilon \right\}. \tag {278}
+B_{\epsilon} (f) \stackrel{\text{def}} {=} \left\{f^{\prime} \in \mathcal{X}: \rho \left(f, f^{\prime}\right) \leq \epsilon \right\}. \tag{278}
 $$
 
 Definition 14 (covering number)
@@ -3068,7 +3062,7 @@ Definition 14 (covering number)
 - Define the  $\epsilon$ -covering number of  $\mathcal{F}$  with respect to  $\rho$  to be the size of the smallest cover:
 
 $$
-N (\epsilon , \mathcal {F}, \rho) \stackrel {\text {d e f}} {=} \min  \{m: \exists \left\{f _ {1}, \dots , f _ {m} \right\} \subseteq \mathcal {X}, \mathcal {F} \subseteq \cup_ {j = 1} ^ {m} B _ {\epsilon} (f _ {j}) \}. \tag {279}
+N (\epsilon , \mathcal{F}, \rho) \stackrel{\text{def}} {=} \min  \{m: \exists \left\{f_{1}, \dots , f_{m} \right\} \subseteq \mathcal{X}, \mathcal{F} \subseteq \cup_{j = 1} ^{m} B_{\epsilon} (f_{j}) \}. \tag{279}
 $$
 
 - The metric entropy of  $\mathcal{F}$  is  $\log N(\epsilon, \mathcal{F}, \rho)$ .
@@ -3085,7 +3079,7 @@ Example 7 (all functions)
 - Furthermore,  $|Y| = \frac{1}{2\epsilon}$ , so
 
 $$
-N (\epsilon , \mathcal {F}, L _ {2} (P _ {n})) \leq \left(\frac {1}{2 \epsilon}\right) ^ {n}. \tag {280}
+N (\epsilon , \mathcal{F}, L_{2} (P_{n})) \leq \left(\frac{1}{2 \epsilon}\right) ^{n}. \tag{280}
 $$
 
 The metric entropy is thus  $O(n \log(1/\epsilon))$ , which intuitively is too large. To see this, even if we ignored the discretization error  $\epsilon$  for the moment, we would see that the empirical Rademacher complexity of the cover, by Massart's finite lemma is  $O\left(\sqrt{\frac{n \log(1/\epsilon)}{n}}\right) = O(1)$ , which does not go to zero. Clearly this class of functions is too large.
@@ -3103,7 +3097,7 @@ The metric entropy is thus  $O(n \log(1/\epsilon))$ , which intuitively is too l
 - Now let's count the number of possible  $g$ 's there are. The key observation is that because each  $g$  is non-decreasing we can associate each level  $y \in Y$  with a leftmost the leftmost point  $z_i$  for which  $g(z_i) = y$ ; the choice of leftmost points ( $n$  possible values) for each level ( $|Y| = 1 / \epsilon$  values) uniquely defines  $g$ . Therefore
 
 $$
-N (\epsilon , \mathcal {F}, L _ {2} (P _ {n})) = O \left(n ^ {1 / \epsilon}\right), \tag {281}
+N (\epsilon , \mathcal{F}, L_{2} (P_{n})) = O \left(n^{1 / \epsilon}\right), \tag{281}
 $$
 
 and the metric entropy is  $O((\log n) / \epsilon)$ . This is much better than that of all functions. The main difference is that we're choosing a point for each level rather than a level for each point.
@@ -3119,7 +3113,7 @@ Having set up covering numbers with some examples, we are ready to state our mai
 - The empirical Rademacher complexity of a function class  $\mathcal{F}$  can be upper bounded using its covering number:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \inf  _ {\epsilon > 0} \left(\sqrt {\frac {2 \log N (\epsilon , \mathcal {F} , L _ {2} (P _ {n}))}{n}} + \epsilon\right). \tag {282}
+\hat{R} _{n} (\mathcal{F}) \leq \inf_{\epsilon > 0} \left(\sqrt{\frac{2 \log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} + \epsilon\right). \tag{282}
 $$
 
 Remark: the RHS involves two terms:
@@ -3134,20 +3128,20 @@ Remark: the RHS involves two terms:
 - Overloading notation, let  $\sigma : \mathcal{Z} \to \{-1, +1\}$  be defined as a function which when evaluated on  $z_i$  returns the random sign  $\sigma_i$ . This allows us to write the empirical Rademacher complexity succinctly as:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) = \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \langle \sigma , f \rangle \right]. \tag {283}
+\hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right]. \tag{283}
 $$
 
 - Note that  $\| \sigma \| = 1$  since it's just a vector of  $+1\mathrm{s}$  and  $-1\mathrm{s}$ .  
 - In summary, think about each function  $f \in \mathcal{F}$  as an  $n$ -dimensional vector
 
 $$
-\frac {1}{\sqrt {n}} [ f (z _ {1}), \dots , f (z _ {n}) ] \tag {284}
+\frac{1}{\sqrt{n}} [ f (z_{1}), \dots , f (z_{n}) ] \tag{284}
 $$
 
 and the Rademacher variables  $\sigma_1, \ldots, \sigma_n$  also as an  $n$ -dimensional vector:
 
 $$
-\frac {1}{\sqrt {n}} \left[ \sigma_ {1}, \dots , \sigma_ {n} \right]. \tag {285}
+\frac{1}{\sqrt{n}} \left[ \sigma_{1}, \dots , \sigma_{n} \right]. \tag{285}
 $$
 
 We then are just using the usual Euclidean distance on them.
@@ -3158,7 +3152,7 @@ Proof of Theorem 14:
 - The proof follows from manipulating the empirical Rademacher complexity:
 
 $$
-\begin{array}{l} \hat {R} _ {n} (\mathcal {F}) = \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \langle \sigma , f \rangle \right] (286) \\ = \mathbb {E} \left[ \sup  _ {g \in C} \sup  _ {f \in \mathcal {F} \cap B _ {\epsilon} (g)} \langle \sigma , g \rangle + \langle \sigma , f - g \rangle \right] (287) \\ = \mathbb {E} \left[ \sup  _ {g \in C} \frac {1}{n} \langle \sigma , g \rangle + \epsilon \right] \quad [ \text {C a u c h y - S c h w a r t z} ] (288) \\ = \sqrt {\frac {2 \log N (\epsilon , \mathcal {F} , L _ {2} (P _ {n}))}{n}} + \epsilon \quad [ \text {M a s s a r t ' s f i n i t e l e m m a} ]. (289) \\ \end{array}
+\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] (286) \\ = \mathbb{E} \left[ \sup_{g \in C} \sup_{f \in \mathcal{F} \cap B_{\epsilon} (g)} \langle \sigma , g \rangle + \langle \sigma , f - g \rangle \right] (287) \\ = \mathbb{E} \left[ \sup_{g \in C} \frac{1}{n} \langle \sigma , g \rangle + \epsilon \right] \quad [ \text{C a u c h y - S c h w a r t z} ] (288) \\ = \sqrt{\frac{2 \log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} + \epsilon \quad [ \text{M a s s a r t ' s f i n i t e l e m m a} ]. (289) \\ \end{array}
 $$
 
 Example 9 (non-decreasing functions (with simple discretization))
@@ -3167,13 +3161,13 @@ Example 9 (non-decreasing functions (with simple discretization))
 - Plugging the covering number of  $\mathcal{F}$  into Theorem 14:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq \inf  _ {\epsilon > 0} \left(\sqrt {\frac {2 \cdot O \left(\frac {\log n}{\epsilon}\right)}{n}} + \epsilon\right). \tag {290}
+\hat{R} _{n} (\mathcal{F}) \leq \inf_{\epsilon > 0} \left(\sqrt{\frac{2 \cdot O \left(\frac{\log n}{\epsilon}\right)}{n}} + \epsilon\right). \tag{290}
 $$
 
 The RHS is minimized when the two terms are equal. Solving for  $\epsilon$  and substituting it back yields:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) = O \left(\left(\frac {\log n}{n}\right) ^ {\frac {1}{3}}\right). \tag {291}
+\hat{R} _{n} (\mathcal{F}) = O \left(\left(\frac{\log n}{n}\right) ^{\frac{1}{3}}\right). \tag{291}
 $$
 
 - Note that this bound provides a rate which is worse than the usual  $\frac{1}{\sqrt{n}}$  rates. Is it because non-decreasing functions are just more complex than parametric function classes? Not in this case. We'll see shortly that this is just an artifact of the analysis being too weak, because it is only able to work at one level of resolution  $\epsilon$ .
@@ -3188,7 +3182,7 @@ $$
 - The empirical Rademacher complexity of a function class  $\mathcal{F}$  can be upper bounded using an integral over its covering number:
 
 $$
-\hat {R} _ {n} (\mathcal {F}) \leq 1 2 \int_ {0} ^ {\infty} \sqrt {\frac {\log N (\epsilon , \mathcal {F} , L _ {2} (P _ {n}))}{n}} d \epsilon . \tag {292}
+\hat{R} _{n} (\mathcal{F}) \leq 2 \int_{0} ^{\infty} \sqrt{\frac{\log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} d \epsilon . \tag{292}
 $$
 
 - Remark: note that compared with Theorem 14, this bound involves an integral that sweeps across different resolutions  $\epsilon$ , and importantly removes the additive  $\epsilon$  penalty.
@@ -3203,25 +3197,25 @@ Proof of Theorem 15
 - Let us decompose  $f$  as follows:
 
 $$
-f = f - g _ {m} + \underbrace {g _ {0}} _ {= 0} + \sum_ {j = 1} ^ {m} \left(g _ {j} - g _ {j - 1}\right). \tag {293}
+f = f - g_{m} + \underbrace{g_{0}} _{= 0} + \sum_{j = 1} ^{m} \left(g_{j} - g_{j - 1}\right). \tag{293}
 $$
 
 - Restating Massart's finite lemma, for a class of functions  $\mathcal{B}$ , the empirical Rademacher complexity is:
 
 $$
-\hat {R} _ {n} (\mathcal {B}) \leq \left(\sup  _ {b \in \mathcal {B}} \| b \|\right) \sqrt {\frac {2 \log | \mathcal {B} |}{n}}. \tag {294}
+\hat{R} _{n} (\mathcal{B}) \leq \left(\sup_{b \in \mathcal{B}} \| b \|\right) \sqrt{\frac{2 \log | \mathcal{B} |}{n}}. \tag{294}
 $$
 
 - Let us bound some norms:
 
 $$
-\begin{array}{l} * \| f - g _ {m} \| \leq \epsilon_ {m} \\ * \left\| g _ {j} - g _ {j - 1} \right\| \leq \left\| g _ {j} - f \right\| + \left\| f - g _ {j - 1} \right\| \leq \epsilon_ {j} + \epsilon_ {j - 1} = 3 \epsilon_ {j} (\text {s i n c e} 2 \epsilon_ {j} = \epsilon_ {j - 1}) \\ \end{array}
+\begin{array}{l} * \| f - g_{m} \| \leq \epsilon_{m} \\ * \left\| g_{j} - g_{j - 1} \right\| \leq \left\| g_{j} - f \right\| + \left\| f - g_{j - 1} \right\| \leq \epsilon_{j} + \epsilon_{j - 1} = 3 \epsilon_{j} (\text{since} 2 \epsilon_{j} = \epsilon_{j - 1}) \\ \end{array}
 $$
 
 - Now compute the empirical Rademacher complexity:
 
 $$
-\begin{array}{l} \hat {R} _ {n} (\mathcal {F}) = \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \langle \sigma , f \rangle \right] [ \text {d e f i n i t i o n} ] (295) \\ = \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \langle \sigma , f - g _ {m} \rangle + \sum_ {j = 1} ^ {m} \langle \sigma , g _ {j} - g _ {j - 1} \rangle \right] \quad [ \text {d e c o m p o s e} f ] (296) \\ \leq \epsilon_ {m} + \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \sum_ {j = 1} ^ {m} \langle \sigma , g _ {j} - g _ {j - 1} \rangle \right] \quad [ \text {C a u c h y - S c h w a r t z} ] (297) \\ \leq \epsilon_ {m} + \sum_ {j = 1} ^ {m} \mathbb {E} \left[ \sup  _ {f \in \mathcal {F}} \langle \sigma , g _ {j} - g _ {j - 1} \rangle \right] [ \text {p u s h} \\ \leq \epsilon_ {m} + \sum_ {j = 1} ^ {m} \mathbb {E} \left[ \sup  _ {g _ {j} \in C _ {j}, g _ {j - 1} \in C _ {j - 1}} \langle \sigma , g _ {j} - g _ {j - 1} \rangle \right] \quad [ \text {r e f i n e d e p e n d e n c e} ] (299) \\ \leq \epsilon_ {m} + \sum_ {j = 1} ^ {m} \left(3 \epsilon_ {j}\right) \sqrt {\frac {2 \log \left(\left| C _ {j} \right| \left| C _ {j - 1} \right|\right)}{n}} \quad [ \text {M a s s a r t ' s f i n i t e l e m m a} ] (300) \\ \leq \epsilon_ {m} + \sum_ {j = 1} ^ {m} \left(6 \epsilon_ {j}\right) \sqrt {\frac {\log | C _ {j} |}{n}} \quad [ \text {s i n c e} | C _ {j} | \geq | C _ {j - 1} | ] (301) \\ = \epsilon_ {m} + \sum_ {j = 1} ^ {m} 1 2 \left(\epsilon_ {j} - \epsilon_ {j + 1}\right) \sqrt {\frac {\log | C _ {j} |}{n}} \quad [ \text {s i n c e} \epsilon_ {j} = 2 \left(\epsilon_ {j} - \epsilon_ {j + 1}\right) ] (302) \\ \leq 1 2 \int_ {0} ^ {\infty} \sqrt {\frac {\log N (\epsilon , \mathcal {F} , L _ {2} (P _ {n}))}{n}} d \epsilon \quad [ \text {b o u n d s u m w i t h i n t e g r a l} ] (303) \\ \end{array}
+\begin{array}{l} \hat{R} _{n} (\mathcal{F}) = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f \rangle \right] [ \text{definition} ] (295) \\ = \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , f - g_{m} \rangle + \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{decompose} f ] (296) \\ \leq \epsilon_{m} + \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \sum_{j = 1} ^{m} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{C a u c h y - S c h w a r t z} ] (297) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{f \in \mathcal{F}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] [ \text{push} \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \mathbb{E} \left[ \sup_{g_{j} \in C_{j}, g_{j - 1} \in C_{j - 1}} \langle \sigma , g_{j} - g_{j - 1} \rangle \right] \quad [ \text{refinedependence} ] (299) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(3 \epsilon_{j}\right) \sqrt{\frac{2 \log \left(\left| C_{j} \right| \left| C_{j - 1} \right|\right)}{n}} \quad [ \text{M a s s a r t ' s f i n i t e l e m m a} ] (300) \\ \leq \epsilon_{m} + \sum_{j = 1} ^{m} \left(6 \epsilon_{j}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [ \text{since} | C_{j} | \geq | C_{j - 1} | ] (301) \\ = \epsilon_{m} + \sum_{j = 1} ^{m} 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) \sqrt{\frac{\log | C_{j} |}{n}} \quad [ \text{since} \epsilon_{j} = 2 \left(\epsilon_{j} - \epsilon_{j + 1}\right) ] (302) \\ \leq 2 \int_{0} ^{\infty} \sqrt{\frac{\log N (\epsilon , \mathcal{F} , L_{2} (P_{n}))}{n}} d \epsilon \quad [ \text{boundsumwithintegral} ] (303) \\ \end{array}
 $$
 
 In the last step, we took  $m\to \infty$  , which makes the additive penalty  $\epsilon_{m}\rightarrow 0$
@@ -3236,7 +3230,7 @@ Example 10 (non-decreasing functions (with chaining))
 - Plugging the covering number of  $\mathcal{F}$  into Theorem 15:
 
 $$
-\begin{array}{l} \hat {R} _ {n} (\mathcal {F}) \leq 1 2 \int_ {0} ^ {1} \left(\sqrt {\frac {O \left(\frac {\log n}{\epsilon}\right)}{n}}\right) d \epsilon (304) \\ = O \left(\sqrt {\frac {\log n}{n}}\right) \int_ {0} ^ {1} \sqrt {\frac {1}{\epsilon}} d \epsilon (305) \\ = O \left(\sqrt {\frac {\log n}{n}}\right). (306) \\ \end{array}
+\begin{array}{l} \hat{R} _{n} (\mathcal{F}) \leq 2 \int_{0} ^{1} \left(\sqrt{\frac{O \left(\frac{\log n}{\epsilon}\right)}{n}}\right) d \epsilon (304) \\ = O \left(\sqrt{\frac{\log n}{n}}\right) \int_{0} ^{1} \sqrt{\frac{1}{\epsilon}} d \epsilon (305) \\ = O \left(\sqrt{\frac{\log n}{n}}\right). (306) \\ \end{array}
 $$
 
 - Remark: compared with the bound using the simple discretization, we get a better bound  $(n^{-\frac{1}{2}}$  versus  $n^{-\frac{1}{3}})$ .
@@ -3250,7 +3244,7 @@ $$
 - Covering numbers can sometimes be more convenient; for example, the covering number of  $\mathcal{F}_1 \cup \mathcal{F}_2$  is at most that of  $\mathcal{F}_1$  plus that of  $\mathcal{F}_2$ , a property not shared by Rademacher complexity.
 
 $$
-[ \text {b e g i n l e c t u r e 9} ] \tag {9}
+[ \text{b e g i n l e c t u r e 9} ] \tag{9}
 $$
 
 # 3.14 Algorithmic stability (Lecture 9)
@@ -3260,7 +3254,7 @@ Motivation
 - Let us shelve excess risk  $L(\hat{h}) - L(h^{*})$  for the moment, and instead consider the gap between the expected and empirical risk. It is easy to see that this quantity can be upper bounded using uniform convergence:
 
 $$
-\mathbb {P} [ L (\hat {h}) - \hat {L} (\hat {h}) \geq \epsilon ] \leq \mathbb {P} [ \sup  _ {h \in \mathcal {H}} L (h) - \hat {L} (h) \geq \epsilon ]. \tag {307}
+\mathbb{P} [ L (\hat{h}) - \hat{L} (\hat{h}) \geq \epsilon ] \leq \mathbb{P} [ \sup_{h \in \mathcal{H}} L (h) - \hat{L} (h) \geq \epsilon ]. \tag{307}
 $$
 
 Colloquially, this answers the following question: if I get  $10\%$  error on my training set, what should I expect my test error to be? (The answer is no more than  $10\% + \epsilon$ .) Analyzing the excess risk has relied on  $\hat{h}$  being the ERM, but (307) actually holds for any estimator  $\hat{h}$ . It is useful to think about  $\hat{h}$  as a function of the training examples:  $\hat{h} = A(z_1, \ldots, z_n)$ , where  $A$  is an algorithm.
@@ -3270,7 +3264,7 @@ Colloquially, this answers the following question: if I get  $10\%$  error on my
 - To be more concrete, let us analyze  $\mathcal{H} = \{x \mapsto w \cdot x : w \in \mathbb{R}^d\}$ , the class of linear functions (with no bounds on the norm). Define the norm  $\|h\|_{\mathcal{H}}$  to be  $\|w\|_2^2$  of the associated weight vector. Define the regularized empirical risk minimizer as follows:
 
 $$
-\hat {h} = \arg \min  _ {h \in \mathcal {H}} \hat {L} (h) + \frac {\lambda}{2} \| h \| _ {\mathcal {H}} ^ {2}. \tag {308}
+\hat{h} = \arg \min_{h \in \mathcal{H}} \hat{L} (h) + \frac{\lambda}{2} \| h \| _{\mathcal{H}} ^{2}. \tag{308}
 $$
 
 - Of course, for a given realization of the data  $z_{1:n}$ , the solution to (308) can be gotten by finding the ERM on the constrained set  $\{h \in \mathcal{H} : \| h \|_{\mathcal{H}} \leq B\}$  for some bound  $B$ . But this connection is weak in that  $B$  would need to depend on the data to obtain an exact equivalence. How can we analyze (308) directly?
@@ -3290,7 +3284,7 @@ We start with a definition of stability:
 * We say that an algorithm  $A: \mathcal{Z}^n \to \mathcal{H}$  has uniform stability  $\beta$  (or in the context of these notes, simply  $\beta$ -stable) with respect to a loss function  $\ell$  if for all training sets  $S \in \mathcal{Z}^n$ , perturbations  $S^i \in \mathcal{Z}^n$ , and test example  $z_0 \in \mathcal{Z}$ ,
 
 $$
-\left| \ell \left(z _ {0}, A (S)\right) - \ell \left(z _ {0}, A \left(S ^ {i}\right)\right) \right| \leq \beta . \tag {309}
+\left| \ell \left(z_{0}, A (S)\right) - \ell \left(z_{0}, A \left(S^{i}\right)\right) \right| \leq \beta . \tag{309}
 $$
 
 * Note that this is a very strong condition in that the bound must hold uniformly for all  $z_0, S, S^i$  and is not reliant on the probability distribution. There are weaker notions detailed in Bosquet/Elisseff (2002).
@@ -3302,7 +3296,7 @@ $$
 * Define an algorithm that computes the regularized empirical risk minimizer:
 
 $$
-\begin{array}{l} A (S) \stackrel {\text {d e f}} {=} \arg \min  _ {h \in \mathbb {R} ^ {d}} \hat {L} (h) + \frac {\lambda}{2} \| h \| _ {2} ^ {2} (310) \\ = \frac {1}{(1 + \lambda) n} \sum_ {i = 1} ^ {n} z _ {i}. (311) \\ \end{array}
+\begin{array}{l} A (S) \stackrel{\text{def}} {=} \arg \min_{h \in \mathbb{R} ^{d}} \hat{L} (h) + \frac{\lambda}{2} \| h \| _{2} ^{2} (310) \\ = \frac{1}{(1 + \lambda) n} \sum_{i = 1} ^{n} z_{i}. (311) \\ \end{array}
 $$
 
 \* Then  $A$  has uniform stability  $\beta = \frac{6B^2}{(1 + \lambda)n}$  
@@ -3310,7 +3304,7 @@ $$
 * To derive this formally, define  $v_{1} = A(S) - z_{0}$  and  $v_{2} = \frac{1}{(1 + \lambda)n} [z_{i}' - z_{i}]$ .
 
 $$
-\begin{array}{l} \left| \ell \left(z _ {0}, A (S)\right) - \ell \left(z _ {0}, A \left(S ^ {i}\right)\right) \right| \leq \left| \frac {1}{2} \| v _ {1} \| _ {2} ^ {2} - \frac {1}{2} \| v _ {1} + v _ {2} \| _ {2} ^ {2} \right| (312) \\ \leq \left\| v _ {2} \right\| _ {2} \left(\left\| v _ {1} \right\| _ {2} + \frac {1}{2} \left\| v _ {2} \right\| _ {2}\right) (313) \\ \leq \frac {2 B}{(1 + \lambda) n} \left(2 B + \frac {B}{(1 + \lambda) n}\right) (314) \\ \leq \frac {2 B}{(1 + \lambda) n} (2 B + B). (315) \\ \end{array}
+\begin{array}{l} \left| \ell \left(z_{0}, A (S)\right) - \ell \left(z_{0}, A \left(S^{i}\right)\right) \right| \leq \left| \frac{1}{2} \| v_{1} \| _{2} ^{2} - \frac{1}{2} \| v_{1} + v_{2} \| _{2} ^{2} \right| (312) \\ \leq \left\| v_{2} \right\| _{2} \left(\left\| v_{1} \right\| _{2} + \frac{1}{2} \left\| v_{2} \right\| _{2}\right) (313) \\ \leq \frac{2 B}{(1 + \lambda) n} \left(2 B + \frac{B}{(1 + \lambda) n}\right) (314) \\ \leq \frac{2 B}{(1 + \lambda) n} (2 B + B). (315) \\ \end{array}
 $$
 
 * We can see that as we increase regularization (larger  $\lambda$ ) or amount of data (larger  $n$ ), we have more stability (smaller  $\beta$ ).
@@ -3322,7 +3316,7 @@ $$
 * Assume the loss  $\ell$  is 1-Lipschitz: for all  $z_0 \in \mathcal{Z}$  and  $h, h' \in \mathcal{H}$ :
 
 $$
-\left| \ell \left(z _ {0}, h\right) - \ell \left(z _ {0}, h ^ {\prime}\right) \right| \leq \| h - h ^ {\prime} \| _ {\infty} \stackrel {\text {d e f}} {=} \sup  _ {x \in \mathbb {R} ^ {d}} | h (x) - h ^ {\prime} (x) |. \tag {316}
+\left| \ell \left(z_{0}, h\right) - \ell \left(z_{0}, h^{\prime}\right) \right| \leq \| h - h^{\prime} \| _{\infty} \stackrel{\text{def}} {=} \sup_{x \in \mathbb{R} ^{d}} | h (x) - h^{\prime} (x) |. \tag{316}
 $$
 
 For example, for classification  $(y \in \{-1, +1\})$ , this holds for the hinge loss  $\ell((x, y), h) = \max \{1 - yh(x), 0\}$ .
@@ -3330,7 +3324,7 @@ For example, for classification  $(y \in \{-1, +1\})$ , this holds for the hinge
 * Define the regularized empirical risk minimizer:
 
 $$
-A (S) \stackrel {\text {d e f}} {=} \arg \min  _ {h \in \mathcal {H}} \hat {L} (h) + \frac {\lambda}{2} \| h \| _ {\mathcal {H}} ^ {2} \tag {317}
+A (S) \stackrel{\text{def}} {=} \arg \min_{h \in \mathcal{H}} \hat{L} (h) + \frac{\lambda}{2} \| h \| _{\mathcal{H}} ^{2} \tag{317}
 $$
 
 * Then  $A$  has uniform stability  $\boxed{\beta = \frac{C_2^2}{\lambda n}}$  with respect to  $\ell$ . Again, the stability is similar to the case of mean estimation; the difference is that  $\lambda = 0$  is very bad in regularized ERM while it's fine for mean estimation; this is because mean estimation is naturally stabilizing, whereas the ERM (with no control on the norm) is not stable. See the Bousquet/Elisseeff paper on stability for the proof.
@@ -3344,7 +3338,7 @@ Now that we have computed the stability for two examples and have a better intui
 * Then with probability at least  $1 - \delta$ ,
 
 $$
-\boxed {L (A (S)) \leq \hat {L} (A (S)) + \beta + (\beta n + M) \sqrt {\frac {2 \log (1 / \delta)}{n}}.} \tag {318}
+\boxed{L (A (S)) \leq \hat{L} (A (S)) + \beta + (\beta n + M) \sqrt{\frac{2 \log (1 / \delta)}{n}}.} \tag{318}
 $$
 
 * Remark: Due to the presence of  $\beta n$ , for this bound to be not vacuous, we must have  $\beta = o\left(\frac{1}{\sqrt{n}}\right)$ . Generally, we will have  $\beta = O\left(\frac{1}{n}\right)$ , which guarantees that  $L(A(S)) - \hat{L}(A(S)) = O\left(\frac{1}{\sqrt{n}}\right)$ .
@@ -3354,7 +3348,7 @@ $$
 * Our goal is to bound the difference between the expected and empirical risks:
 
 $$
-D (S) \stackrel {\text {d e f}} {=} L (A (S)) - \hat {L} (A (S)). \tag {319}
+D (S) \stackrel{\text{def}} {=} L (A (S)) - \hat{L} (A (S)). \tag{319}
 $$
 
 Stability tells us about  $\ell(z_0, A(S))$ , which suggests using McDiarmid's inequality. That is the heart of the proof.
@@ -3364,7 +3358,7 @@ Stability tells us about  $\ell(z_0, A(S))$ , which suggests using McDiarmid's i
 - Recall that  $S = (z_{1}, \ldots, z_{n}), (z_{1}', \ldots, z_{n}')$ ,  $z_{0}$  are all independent and therefore exchangeable. The basic trick is just to rename variables that preserve the dependency structure and therefore the expectation  $\mathbb{E}[D(S)]$ , and get it into a form where we can apply the definition of uniform stability:
 
 $$
-\begin{array}{l} \mathbb {E} [ D (S) ] = \mathbb {E} \left[ \frac {1}{n} \sum_ {i = 1} ^ {n} \left[ \ell \left(z _ {0}, A (S)\right) - \ell \left(z _ {i}, A (S)\right) \right] \right] \quad [ \text {d e f i n i t i o n} ] (320) \\ = \mathbb {E} \left[ \frac {1}{n} \sum_ {i = 1} ^ {n} \left[ \ell \left(z _ {i} ^ {\prime}, A (S)\right) - \ell \left(z _ {i} ^ {\prime}, A \left(S ^ {i}\right)\right) \right] \right. \quad [ \text {r e n a m i n g} ] (321) \\ \leq \beta \quad [ \text {d e f i n i t i o n o f u n i f o r m s t a b i l i t y} ] (322) \\ \end{array}
+\begin{array}{l} \mathbb{E} [ D (S) ] = \mathbb{E} \left[ \frac{1}{n} \sum_{i = 1} ^{n} \left[ \ell \left(z_{0}, A (S)\right) - \ell \left(z_{i}, A (S)\right) \right] \right] \quad [ \text{definition} ] (320) \\ = \mathbb{E} \left[ \frac{1}{n} \sum_{i = 1} ^{n} \left[ \ell \left(z_{i} ^{\prime}, A (S)\right) - \ell \left(z_{i} ^{\prime}, A \left(S^{i}\right)\right) \right] \right. \quad [ \text{renaming} ] (321) \\ \leq \beta \quad [ \text{definitionofuniformstability} ] (322) \\ \end{array}
 $$
 
 The point is that in the first term  $z_0$  is not in  $S$  and  $z_i$  is in  $S$ . This logic is preserved:  $z_i'$  is not in  $S$  and  $z_i'$  is in  $S^i$ .
@@ -3378,7 +3372,7 @@ The point is that in the first term  $z_0$  is not in  $S$  and  $z_i$  is in  $
 We have
 
 $$
-\begin{array}{l} \left| D (S) - D \left(S ^ {i}\right) \right| (323) \\ = \left| L (A (S)) - \hat {L} (A (S)) - L (A (S ^ {i})) + \hat {L} ^ {i} (A (S ^ {i})) \right| (324) \\ \leq | L (A (S)) - L \left(A \left(S ^ {i}\right)\right) | + \left| \hat {L} (A (S)) - \hat {L} ^ {i} \left(A \left(S ^ {i}\right)\right) \right| \quad [ \text {t r i a n g l e i n e q u a l i t y} ] (325) \\ \leq \underbrace {\left| L \left(A (S)\right) - L \left(A \left(S ^ {i}\right)\right) \right|} _ {\leq \beta} + \underbrace {\left| \hat {L} \left(A (S)\right) - \hat {L} \left(A \left(S ^ {i}\right)\right) \right|} _ {\leq \beta} + \underbrace {\left| \hat {L} \left(A \left(S ^ {i}\right)\right) - \hat {L} ^ {i} \left(A \left(S ^ {i}\right)\right) \right|} _ {\leq \frac {2 M}{n}} (326) \\ \leq 2 \beta + \frac {2 M}{n}. (327) \\ \end{array}
+\begin{array}{l} \left| D (S) - D \left(S^{i}\right) \right| (323) \\ = \left| L (A (S)) - \hat{L} (A (S)) - L (A (S^{i})) + \hat{L} ^{i} (A (S^{i})) \right| (324) \\ \leq | L (A (S)) - L \left(A \left(S^{i}\right)\right) | + \left| \hat{L} (A (S)) - \hat{L} ^{i} \left(A \left(S^{i}\right)\right) \right| \quad [ \text{triangleinequality} ] (325) \\ \leq \underbrace{\left| L \left(A (S)\right) - L \left(A \left(S^{i}\right)\right) \right|} _{\leq \beta} + \underbrace{\left| \hat{L} \left(A (S)\right) - \hat{L} \left(A \left(S^{i}\right)\right) \right|} _{\leq \beta} + \underbrace{\left| \hat{L} \left(A \left(S^{i}\right)\right) - \hat{L} ^{i} \left(A \left(S^{i}\right)\right) \right|} _{\leq \frac{2 M}{n}} (326) \\ \leq 2 \beta + \frac{2 M}{n}. (327) \\ \end{array}
 $$
 
 In the first two cases, we just used the fact that  $A$  is  $\beta$ -stable; recall that  $\hat{L}(h) = \frac{1}{n} \sum_{i=1}^{n} \ell(z_i, h)$  and  $L(h) = \mathbb{E}_{z_0 \sim p^*}[\ell(z_0, h)]$ ; here it's important that  $\beta$ -stability holds uniformly for any first argument of  $\ell$ , so that we can upper bound by  $\beta$  regardless of the dependence structure between the two arguments. In the third case,  $\hat{L}$  and  $\hat{L}^i$  just differ by one term which can differ by at most  $2M$  and is scaled by  $\frac{1}{n}$ .
@@ -3388,13 +3382,13 @@ In the first two cases, we just used the fact that  $A$  is  $\beta$ -stable; re
 - This is a straightforward application. We have
 
 $$
-\begin{array}{l} \mathbb {P} [ D (S)) - \mathbb {E} [ D (S) ] \geq \epsilon ] \leq \exp \left(\frac {- 2 \epsilon^ {2}}{n (2 \beta + \frac {2 M}{n}) ^ {2}}\right) (328) \\ = \exp \left(\frac {- n \epsilon^ {2}}{2 (\beta n + M) ^ {2}}\right) \stackrel {\text {d e f}} {=} \delta . (329) \\ \end{array}
+\begin{array}{l} \mathbb{P} [ D (S)) - \mathbb{E} [ D (S) ] \geq \epsilon ] \leq \exp \left(\frac{- 2 \epsilon^{2}}{n (2 \beta + \frac{2 M}{n}) ^{2}}\right) (328) \\ = \exp \left(\frac{- n \epsilon^{2}}{2 (\beta n + M) ^{2}}\right) \stackrel{\text{def}} {=} \delta . (329) \\ \end{array}
 $$
 
 Rewriting the bound and using the fact that  $\mathbb{E}[D(S)]\leq \beta$ , we have that with probability at least  $1 - \delta$
 
 $$
-D (S) \leq \beta + (\beta n + M) \sqrt {\frac {2 \log (1 / \delta)}{n}}. \tag {330}
+D (S) \leq \beta + (\beta n + M) \sqrt{\frac{2 \log (1 / \delta)}{n}}. \tag{330}
 $$
 
 - Application to linear functions
@@ -3402,7 +3396,7 @@ $$
 * Recall that for regularized ERM on linear functions with 1-Lipschitz losses (like hinge loss),  $\beta = \frac{C_2^2}{\lambda n}$ , where  $\lambda$  is the regularization strength and  $\| x \|_2 \leq C_2^2$ . Plugging this value of  $\beta$  into Theorem 16, we get that with probability at least  $1 - \delta$ ,
 
 $$
-L (A (S)) \leq \hat {L} (A (S)) + O \left(\frac {C _ {2} ^ {2} + M}{\lambda \sqrt {n}}\right). \tag {331}
+L (A (S)) \leq \hat{L} (A (S)) + O \left(\frac{C_{2} ^{2} + M}{\lambda \sqrt{n}}\right). \tag{331}
 $$
 
 Note that this bound has the right dependence on  $n$ , but has a worse dependence on  $C_2$  compared to the Rademacher bounds.
@@ -3422,7 +3416,7 @@ Note that this bound has the right dependence on  $n$ , but has a worse dependen
 - Recall that for finite hypothesis classes with loss bounded in  $[0,1]$ , using Hoefding's inequality plus the union bound, we have that with probability at least  $1 - \delta$ ,
 
 $$
-\forall h \in \mathcal {H}: L (h) \leq \hat {L} (h) + \sqrt {\frac {\log | \mathcal {H} | + \log (1 / \delta)}{2 n}}. \tag {332}
+\forall h \in \mathcal{H}: L (h) \leq \hat{L} (h) + \sqrt{\frac{\log | \mathcal{H} | + \log (1 / \delta)}{2 n}}. \tag{332}
 $$
 
 (This is similar to Theorem 7, but the bound is on  $L - \hat{L}$  rather than excess risk.)
@@ -3443,7 +3437,7 @@ Theorem 17 (Occam bound)
 - Then with probability at least  $1 - \delta$ ,
 
 $$
-\left. \forall h \in \mathcal {H}: L (h) \leq \hat {L} (h) + \sqrt {\frac {\log (1 / P (h)) + \log (1 / \delta)}{2 n}} \right]. \tag {333}
+\left. \forall h \in \mathcal{H}: L (h) \leq \hat{L} (h) + \sqrt{\frac{\log (1 / P (h)) + \log (1 / \delta)}{2 n}} \right]. \tag{333}
 $$
 
 - Let's try to understanding this bound with a few special cases.
@@ -3458,19 +3452,19 @@ Proof of Theorem 17:
 - By Hoeffding's inequality, we have that for any fixed  $h \in \mathcal{H}$ :
 
 $$
-\mathbb {P} [ L (h) \geq \hat {L} (h) + \epsilon ] \leq \exp (- 2 n \epsilon^ {2}). \tag {334}
+\mathbb{P} [ L (h) \geq \hat{L} (h) + \epsilon ] \leq \exp (- 2 n \epsilon^{2}). \tag{334}
 $$
 
 - If we set the RHS to  $\delta P(h)$ , then we get that with probability at most  $\delta P(h)$
 
 $$
-L (h) \geq \hat {L} (h) + \sqrt {\frac {\log (1 / (\delta P (h)))}{2 n}}. \tag {335}
+L (h) \geq \hat{L} (h) + \sqrt{\frac{\log (1 / (\delta P (h)))}{2 n}}. \tag{335}
 $$
 
 - Applying the union bound across all  $h \in \mathcal{H}$ , we have that with probability at most  $\delta$ ,
 
 $$
-\exists h \in \mathcal {H}: L (h) \geq \hat {L} (h) + \sqrt {\frac {\log (1 / (\delta P (h)))}{2 n}}. \tag {336}
+\exists h \in \mathcal{H}: L (h) \geq \hat{L} (h) + \sqrt{\frac{\log (1 / (\delta P (h)))}{2 n}}. \tag{336}
 $$
 
 - Take the contrapositive of this statement to get the statement in the theorem.
@@ -3483,7 +3477,7 @@ $$
 - Motivated by the bound, we can define an algorithm that actually uses the bound by minimizing the RHS:
 
 $$
-A (S) \stackrel {\text {d e f}} {=} \arg \min  _ {h \in \mathcal {H}} \hat {L} (h) + R (h), \quad R (h) = \sqrt {\frac {\log (1 / P (h)) + \log (1 / \delta)}{2 n}}. \tag {337}
+A (S) \stackrel{\text{def}} {=} \arg \min_{h \in \mathcal{H}} \hat{L} (h) + R (h), \quad R (h) = \sqrt{\frac{\log (1 / P (h)) + \log (1 / \delta)}{2 n}}. \tag{337}
 $$
 
 From this perspective, the bound provides a regularizer  $R(h)$  which penalizes  $h$  more if it has small prior probability  $P(h)$ . The algorithm  $A(S)$  thus balances the empirical risk  $\hat{L}(h)$  with the regularizer  $R(h)$ .
@@ -3506,7 +3500,7 @@ The following theorem generalizes the Occam bound:
 - Then with probability at least  $1 - \delta$ ,
 
 $$
-\left. \mathbb {E} _ {h \sim Q _ {S}} [ L (h) ] \leq \mathbb {E} _ {h \sim Q _ {S}} [ \hat {L} (h) ] + \sqrt {\frac {\operatorname {K L} \left(Q _ {S} \| P\right) + \log \left(4 n / \delta\right)}{2 n - 1}}. \right\rvert \tag {338}
+\left. \mathbb{E} _{h \sim Q_{S}} [ L (h) ] \leq \mathbb{E} _{h \sim Q_{S}} [ \hat{L} (h) ] + \sqrt{\frac{\operatorname{KL} \left(Q_{S} \| P\right) + \log \left(4 n / \delta\right)}{2 n - 1}}. \right\rvert \tag{338}
 $$
 
 Proof: see the McAllester paper.  
@@ -3588,19 +3582,19 @@ Realizable, finite hypothesis class:  $O\left(\frac{\log|\mathcal{H}|}{n}\right)
 of the entire hypothesis class  $\mathcal{H}$
 
 $$
-L (A (S)) - \hat {L} (A (S)) \leq \text {S o m e F u n c t i o n} (\mathcal {H}). \tag {339}
+L (A (S)) - \hat{L} (A (S)) \leq \text{SomeFunction} (\mathcal{H}). \tag{339}
 $$
 
 - Algorithmic stability allows us to obtain a bound that depends on properties of the algorithm  $A$  (i.e., its stability  $\beta$ ) rather than  $\mathcal{H}$ . We obtained bounds of the form:
 
 $$
-L (A (S)) - \hat {L} (A (S)) \leq \text {S o m e F u n c t i o n} (A). \tag {340}
+L (A (S)) - \hat{L} (A (S)) \leq \text{SomeFunction} (A). \tag{340}
 $$
 
 - PAC-Bayesian bounds allow us to incorporate the prior into the analysis without sacrificing objective rigor. We obtained bounds of the form:
 
 $$
-L (A (S)) - \hat {L} (A (S)) \leq \text {S o m e F u n c t i o n} (A (S)). \tag {341}
+L (A (S)) - \hat{L} (A (S)) \leq \text{SomeFunction} (A (S)). \tag{341}
 $$
 
 Note that the bound depends on the output of the algorithm.
@@ -3622,7 +3616,7 @@ David McAllester's notes on PAC-Bayesian bounds
 # 4 Kernel methods
 
 $$
-[ \text {b e g i n l e c t u r e 1 0} ] \tag {10}
+[ \text{b e g i n l e c t u r e 0} ] \tag{10}
 $$
 
 # 4.1 Motivation (Lecture 10)
@@ -3630,7 +3624,7 @@ $$
 - So far in this class, we have focused on studying the excess risk  $L(\hat{h}) - L(h^{*})$ , which measures how far our estimated predictor  $\hat{h}$  is away from the best possible predictor  $h^{*} \in \mathcal{H}$  in terms of expected risk. But this is only half of the story, since the expected risk that we care about is the sum of the excess risk and the best expected risk of the hypothesis class:
 
 $$
-L (\hat {h}) = L (\hat {h}) - L \left(h ^ {*}\right) + L \left(h ^ {*}\right). \tag {342}
+L (\hat{h}) = L (\hat{h}) - L \left(h^{*}\right) + L \left(h^{*}\right). \tag{342}
 $$
 
 The latter term has to do with how expressive  $\mathcal{H}$  is.
@@ -3649,25 +3643,25 @@ Note that  $x$  does not even need to be a real vector. In general, we assume th
 Suppose we are trying to minimize the average squared loss over  $n$  training examples:
 
 $$
-\hat {L} (w) = \frac {1}{n} \sum_ {i = 1} ^ {n} \frac {1}{2} \left(y ^ {(i)} - \left\langle w, \phi \left(x ^ {(i)}\right) \right\rangle\right) ^ {2}. \tag {343}
+\hat{L} (w) = \frac{1}{n} \sum_{i = 1} ^{n} \frac{1}{2} \left(y^{(i)} - \left\langle w, \phi \left(x^{(i)}\right) \right\rangle\right) ^{2}. \tag{343}
 $$
 
 Optimization algorithms typically access the function only through the gradient, which is:
 
 $$
-\nabla \hat {L} (w) = \frac {1}{n} \sum_ {i = 1} ^ {n} \left(y ^ {(i)} - \langle w, \phi \left(x ^ {(i)}\right) \rangle\right) \phi \left(x ^ {(i)}\right). \tag {344}
+\nabla \hat{L} (w) = \frac{1}{n} \sum_{i = 1} ^{n} \left(y^{(i)} - \langle w, \phi \left(x^{(i)}\right) \rangle\right) \phi \left(x^{(i)}\right). \tag{344}
 $$
 
 An algorithm that only accumulates (scaled) gradients will ultimately produce a weight vector  $w$  that can be written as a linear combination of the feature vectors of the data points (we will revisit this property in much greater generality when we study the representer theorem):
 
 $$
-w = \sum_ {i = 1} ^ {n} \alpha_ {i} \phi (x ^ {(i)}). \tag {345}
+w = \sum_{i = 1} ^{n} \alpha_{i} \phi (x^{(i)}). \tag{345}
 $$
 
 Given a weight vector of this form, we can make predictions as follows:
 
 $$
-\langle w, \phi (x) \rangle = \sum_ {i = 1} ^ {n} \alpha_ {i} \left\langle \phi \left(x ^ {(i)}\right), \phi (x) \right\rangle . \tag {346}
+\langle w, \phi (x) \rangle = \sum_{i = 1} ^{n} \alpha_{i} \left\langle \phi \left(x^{(i)}\right), \phi (x) \right\rangle . \tag{346}
 $$
 
 - The key is that predictions only depend on the inner product between the feature vectors. This suggests we can work with in high (even infinite!) dimensions as long as we can compute this inner product efficiently. The computational tradeoff is as follows: we store the  $\alpha_{i}$ 's ( $n$  numbers) rather than  $w$  ( $d$  numbers). If the number of features  $d$  is much larger than the number of training examples  $n$ , then we win on space. On the other hand, if we have a lot of data ( $n$ ), we must resort to approximations, as we'll see later.
@@ -3678,7 +3672,7 @@ $$
 * Feature map with all quadratic terms:
 
 $$
-\phi (x) = \left[ x _ {1} ^ {2}, \dots , x _ {b} ^ {2}, \sqrt {2} x _ {1} x _ {2}, \dots , \sqrt {2} x _ {1} x _ {b}, \sqrt {2} x _ {2} x _ {3}, \dots , \sqrt {2} x _ {2} x _ {b}, \dots , \sqrt {2} x _ {b - 1} x _ {b} \right], \tag {347}
+\phi (x) = \left[ x_{1} ^{2}, \dots , x_{b} ^{2}, \sqrt{2} x_{1} x_{2}, \dots , \sqrt{2} x_{1} x_{b}, \sqrt{2} x_{2} x_{3}, \dots , \sqrt{2} x_{2} x_{b}, \dots , \sqrt{2} x_{b - 1} x_{b} \right], \tag{347}
 $$
 
 There are  $O(b^{2})$  dimensions.
@@ -3711,13 +3705,13 @@ Definition 16 (kernel)
 - Linear kernel:
 
 $$
-k \left(x, x ^ {\prime}\right) = \langle x, x ^ {\prime} \rangle . \tag {348}
+k \left(x, x^{\prime}\right) = \langle x, x^{\prime} \rangle . \tag{348}
 $$
 
 - Polynomial kernel:
 
 $$
-k \left(x, x ^ {\prime}\right) = \left(1 + \langle x, x ^ {\prime} \rangle\right) ^ {p}. \tag {349}
+k \left(x, x^{\prime}\right) = \left(1 + \langle x, x^{\prime} \rangle\right) ^{p}. \tag{349}
 $$
 
 * Intuition: for boolean features  $(x \in \{0,1\}^b)$ , this corresponds to forming conjunctions of the original features.
@@ -3727,7 +3721,7 @@ $$
 Gaussian kernel:
 
 $$
-k \left(x, x ^ {\prime}\right) = \exp \left(\frac {- \| x - x ^ {\prime} \| _ {2} ^ {2}}{2 \sigma^ {2}}\right). \tag {350}
+k \left(x, x^{\prime}\right) = \exp \left(\frac{- \| x - x^{\prime} \| _{2} ^{2}}{2 \sigma^{2}}\right). \tag{350}
 $$
 
 * A Gaussian kernel puts a smooth bump at  $x$ .  
@@ -3744,7 +3738,7 @@ $$
 * Now define a kernel between two sequences  $x, x'$  to be a weighted number of common subsequences:
 
 $$
-k \left(x, x ^ {\prime}\right) = \sum_ {u \in \Sigma^ {*}} \sum_ {\left(\mathrm {i}, \mathrm {j}\right): x (\mathrm {i}) = x ^ {\prime} (\mathrm {j}) = u} \lambda^ {| \mathrm {i} | + | \mathrm {j} |}, \tag {351}
+k \left(x, x^{\prime}\right) = \sum_{u \in \Sigma^{*}} \sum_{\left(\mathrm{i}, \mathrm{j}\right): x (\mathrm{i}) = x^{\prime} (\mathrm{j}) = u} \lambda^{| \mathrm{i} | + | \mathrm{j} |}, \tag{351}
 $$
 
 for some decay parameter  $0 \leq \lambda \leq 1$ . Smaller values of  $\lambda$  discount longer subsequences more.
@@ -3774,7 +3768,7 @@ for some decay parameter  $0 \leq \lambda \leq 1$ . Smaller values of  $\lambda$
 * Since  $K_{1}, K_{2}$  are positive semidefinite, we can take their eigendecompositions:
 
 $$
-\begin{array}{l} \cdot K _ {1} = \sum_ {i = 1} ^ {n} \lambda_ {i} u _ {i} u _ {i} ^ {\top} \\ \mathbf {\nabla} \cdot \mathbf {\nabla} K _ {2} = \sum_ {j = 1} ^ {n} \tau_ {j} z _ {j} z _ {j} ^ {\top} \\ \end{array}
+\begin{array}{l} \cdot K_{1} = \sum_{i = 1} ^{n} \lambda_{i} u_{i} u_{i} ^{\top} \\ \mathbf{\nabla} \cdot \mathbf{\nabla} K_{2} = \sum_{j = 1} ^{n} \tau_{j} z_{j} z_{j} ^{\top} \\ \end{array}
 $$
 
 * Taking the elementwise product yields the following eigendecomposition, showing that  $K$  is also positive semidefinite:
@@ -3790,14 +3784,14 @@ Gaussian kernel:
 \*Rewrite
 
 $$
-k \left(x, x ^ {\prime}\right) = \exp \left(\frac {- \| x \| _ {2} ^ {2}}{2 \sigma^ {2}}\right) \exp \left(\frac {- \| x ^ {\prime} \| _ {2} ^ {2}}{2 \sigma^ {2}}\right) \exp \left(\frac {\langle x , x ^ {\prime} \rangle}{\sigma^ {2}}\right). \tag {352}
+k \left(x, x^{\prime}\right) = \exp \left(\frac{- \| x \| _{2} ^{2}}{2 \sigma^{2}}\right) \exp \left(\frac{- \| x^{\prime} \| _{2} ^{2}}{2 \sigma^{2}}\right) \exp \left(\frac{\langle x , x^{\prime} \rangle}{\sigma^{2}}\right). \tag{352}
 $$
 
 * The first two factors are handled by the base case.  
 * For the third factor, take the Taylor expansion:
 
 $$
-\exp \left(\frac {\langle x , x ^ {\prime} \rangle}{\sigma^ {2}}\right) = 1 + \frac {\langle x , x ^ {\prime} \rangle}{\sigma^ {2}} + \frac {1}{2} \frac {\langle x , x ^ {\prime} \rangle^ {2}}{\sigma^ {4}} + \frac {1}{6} \frac {\langle x , x ^ {\prime} \rangle^ {3}}{\sigma^ {6}} + \dots \tag {353}
+\exp \left(\frac{\langle x , x^{\prime} \rangle}{\sigma^{2}}\right) = 1 + \frac{\langle x , x^{\prime} \rangle}{\sigma^{2}} + \frac{1}{2} \frac{\langle x , x^{\prime} \rangle^{2}}{\sigma^{4}} + \frac{1}{6} \frac{\langle x , x^{\prime} \rangle^{3}}{\sigma^{6}} + \dots \tag{353}
 $$
 
 Each term is just a homogenous polynomial kernel. Summing a finite number of terms yields a kernel. Kernels are closed under taking limits (since the set of positive semidefinite matrices is closed).
@@ -3824,7 +3818,7 @@ Definition 17 (Hilbert space)
 * Linearity:  $\langle \alpha_{1}f_{1} + \alpha_{2}f_{2},g\rangle = \alpha_{1}\langle f_{1},g\rangle +\alpha_{2}\langle f_{2},g\rangle$  
 * Positive definiteness:  $\langle f, f \rangle  \geq  0$  with equality only if  $f = 0$  .
 
-The inner product gives us a norm:  $\| f\|_{\mathcal{H}}\stackrel {\mathrm{def}}{=}\sqrt{\langle f,f\rangle}.$
+The inner product gives us a norm:  $\| f\|_{\mathcal{H}}\stackrel{\mathrm{def}}{=}\sqrt{\langle f,f\rangle}.$
 
 - Examples
 
@@ -3848,7 +3842,7 @@ Proof:
 - To show that  $K$  is positive semidefinite, take any  $\alpha \in \mathbb{R}^n$ . We have
 
 $$
-\begin{array}{l} \alpha^ {\top} K \alpha = \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \alpha_ {i} \alpha_ {j} \left\langle \phi \left(x _ {i}\right), \phi \left(x _ {j}\right) \right\rangle (354) \\ = \left\langle \sum_ {i = 1} ^ {n} \alpha_ {i} \phi \left(x _ {i}\right), \sum_ {i = j} ^ {n} \alpha_ {j} \phi \left(x _ {j}\right) \right\rangle (355) \\ \geq 0, (356) \\ \end{array}
+\begin{array}{l} \alpha^{\top} K \alpha = \sum_{i = 1} ^{n} \sum_{j = 1} ^{n} \alpha_{i} \alpha_{j} \left\langle \phi \left(x_{i}\right), \phi \left(x_{j}\right) \right\rangle (354) \\ = \left\langle \sum_{i = 1} ^{n} \alpha_{i} \phi \left(x_{i}\right), \sum_{i = j} ^{n} \alpha_{j} \phi \left(x_{j}\right) \right\rangle (355) \\ \geq 0, (356) \\ \end{array}
 $$
 
 where we use linearity of the inner product.
@@ -3879,7 +3873,7 @@ Definition 19 (bounded functional)
 - Given a Hilbert space  $\mathcal{H}$ , a functional  $L: \mathcal{H} \to \mathbb{R}$  is bounded iff there exists an  $M < \infty$  such that
 
 $$
-| L (f) | \leq M \| f \| _ {\mathcal {H}} \text {f o r a l l} f \in \mathcal {H}. \tag {357}
+| L (f) | \leq M \| f \| _{\mathcal{H}} \text{forall} f \in \mathcal{H}. \tag{357}
 $$
 
 - Example:  $\mathcal{H} = \mathbb{R}^d$  with the usual inner product,  $L(f) = \langle c, f \rangle$  is bounded (with  $M = \|c\|_2$  by Cauchy-Schwartz)
@@ -3890,7 +3884,7 @@ $$
 - For each  $x \in \mathcal{X}$ , define the evaluation functional  $L_x: \mathcal{H} \to \mathbb{R}$  as
 
 $$
-\boxed {L _ {x} (f) \stackrel {\text {d e f}} {=} f (x).} \tag {358}
+\boxed{L_{x} (f) \stackrel{\text{def}} {=} f (x).} \tag{358}
 $$
 
 - Example: for  $\mathcal{X} = \mathbb{R}^d$  and  $\mathcal{H} = \{f_c : c \in \mathbb{R}^d\}$  where  $f_c(x) = \langle c, x \rangle$  be linear functions, then the evaluation functional is  $L_x(f_c) = \langle c, x \rangle$ .  
@@ -3923,7 +3917,7 @@ Proof (construction of the kernel)
 - Applying this theorem to the evaluation functionals  $L_{x}$ , we can conclude that for each  $x \in \mathcal{X}$ , there exists a unique representer  $R_{x} \in \mathcal{H}$  such that  $L_{x}(f) = \langle R_{x}, f \rangle$ . Recall that we also have  $L_{x}(f) = f(x)$  by definition. Combining yields the reproducing property:
 
 $$
-\boxed {f (x) = \langle R _ {x}, f \rangle \text {f o r a l l} f \in \mathcal {H}.} \tag {359}
+\boxed{f (x) = \langle R_{x}, f \rangle \text{forall} f \in \mathcal{H}.} \tag{359}
 $$
 
 This is the key property: function evaluations can be expressed as inner products.
@@ -3931,13 +3925,13 @@ This is the key property: function evaluations can be expressed as inner product
 - Now let's define a function  $k$ :
 
 $$
-\boxed {k (x, x ^ {\prime}) \stackrel {\text {d e f}} {=} R _ {x} (x ^ {\prime}).} \tag {360}
+\boxed{k (x, x^{\prime}) \stackrel{\text{def}} {=} R_{x} (x^{\prime}).} \tag{360}
 $$
 
 Applying the reproducing property one more time with  $f = R_{x}$  yields
 
 $$
-k \left(x, x ^ {\prime}\right) = R _ {x} \left(x ^ {\prime}\right) = \left\langle R _ {x}, R _ {x ^ {\prime}} \right\rangle . \tag {361}
+k \left(x, x^{\prime}\right) = R_{x} \left(x^{\prime}\right) = \left\langle R_{x}, R_{x^{\prime}} \right\rangle . \tag{361}
 $$
 
 If we define a feature map  $\phi(x) \stackrel{\mathrm{def}}{=} R_x$ , we can invoke Theorem 19 to conclude that  $k(x, x')$  is a valid kernel.
@@ -3957,7 +3951,7 @@ Proof sketch:
 - First, define  $\mathcal{H}_0$  to contain all finite linear combinations of the form
 
 $$
-f (x) = \sum_ {i = 1} ^ {n} \alpha_ {i} k \left(x _ {i}, x\right), \tag {362}
+f (x) = \sum_{i = 1} ^{n} \alpha_{i} k \left(x_{i}, x\right), \tag{362}
 $$
 
 for all  $n, \alpha_{1:n}, x_{1:n}$ . By construction,  $\mathcal{H}_0$  is a vector space (not necessarily complete though). This is a very natural class of functions: just a linear combination of basis functions centered around the points  $x_1, \ldots, x_n$ .
@@ -3965,7 +3959,7 @@ for all  $n, \alpha_{1:n}, x_{1:n}$ . By construction,  $\mathcal{H}_0$  is a ve
 - Second, define the inner product between  $f(x) = \sum_{i=1}^{n} \alpha_i k(x_i, x)$  and  $g(x) = \sum_{j=1}^{n'} \beta_j k(x_j', x)$  as follows:
 
 $$
-\langle f, g \rangle \stackrel {\text {d e f}} {=} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n ^ {\prime}} \alpha_ {i} \beta_ {j} k \left(x _ {i}, x _ {j} ^ {\prime}\right). \tag {363}
+\langle f, g \rangle \stackrel{\text{def}} {=} \sum_{i = 1} ^{n} \sum_{j = 1} ^{n^{\prime}} \alpha_{i} \beta_{j} k \left(x_{i}, x_{j} ^{\prime}\right). \tag{363}
 $$
 
 Let's check that our definition of  $\langle \cdot, \cdot \rangle$  is an actual inner product:
@@ -3979,13 +3973,13 @@ Let's check that our definition of  $\langle \cdot, \cdot \rangle$  is an actual
 Now we will show that  $\langle f, f \rangle = 0$  implies  $f = 0$ . Let  $f(x) = \sum_{i=1}^{n} \alpha_i k(x_i, x)$ . Take any  $x \in \mathcal{X}$  and define  $c = [k(x_1, x), \ldots, k(x_n, x)]^\top$ . Since
 
 $$
-\left( \begin{array}{c c} K & c \\ c ^ {\top} & k (x, x) \end{array} \right) \succeq 0, \tag {364}
+\left( \begin{array}{c c} K & c \\ c^{\top} & k (x, x) \end{array} \right) \succeq 0, \tag{364}
 $$
 
 we must have that
 
 $$
-\alpha^ {\top} K \alpha + 2 b c ^ {\top} \alpha + b ^ {2} k (x, x) \geq 0 \tag {365}
+\alpha^{\top} K \alpha + 2 b c^{\top} \alpha + b^{2} k (x, x) \geq 0 \tag{365}
 $$
 
 for all  $b$ . Note that  $\langle f, f \rangle = \alpha^\top K\alpha = 0$ . We now argue that  $c^\top \alpha = 0$ . If  $c^\top \alpha > 0$ , then as  $b$  approaches 0 from the negative side, we have that the LHS of (365) is strictly negative (since the  $b$  term will dominate the  $b^2$  term), which is a contradiction. If  $c^\top \alpha < 0$ , then as  $b$  approaches 0 from the positive side, we get a contradiction as well. Therefore,  $f(x) = c^\top \alpha = 0$ .
@@ -3993,7 +3987,7 @@ for all  $b$ . Note that  $\langle f, f \rangle = \alpha^\top K\alpha = 0$ . We 
 - So far we have a valid Hilbert space, but we need to still check that all evaluation functionals  $L_{x}$  are bounded to get an RKHS. Also, we should check that  $R_{x} \stackrel{\mathrm{def}}{=} k(x, \cdot)$  is indeed a representative of function evaluations. Take any  $f \in \mathcal{H}_0$ . Then:
 
 $$
-\begin{array}{l} f (x) = \sum_ {i = 1} ^ {n} \alpha_ {i} k \left(x _ {i}, x\right) [ \text {d e f i n i t i o n o f} f ] (366) \\ = \langle f, k (x, \cdot) \rangle \quad [ \text {d e f i n i t i o n o f i n n e r p r o d u c t} ] (367) \\ = \left\langle R _ {x}, f \right\rangle \quad [ \text {d e f i n i t i o n} R _ {x} ]. (368) \\ \end{array}
+\begin{array}{l} f (x) = \sum_{i = 1} ^{n} \alpha_{i} k \left(x_{i}, x\right) [ \text{definitionof} f ] (366) \\ = \langle f, k (x, \cdot) \rangle \quad [ \text{definitionofinnerproduct} ] (367) \\ = \left\langle R_{x}, f \right\rangle \quad [ \text{definition} R_{x} ]. (368) \\ \end{array}
 $$
 
 Boundedness of  $L_{x}$  follows from  $|L_{x}(f)| = |\langle f, k(x,\cdot)\rangle| \leq \| f\|_{\mathcal{H}} \| k(x,\cdot)\| = \| f\|_{\mathcal{H}}k(x,x)$  by Cauchy-Schwartz.
@@ -4013,7 +4007,7 @@ Boundedness of  $L_{x}$  follows from  $|L_{x}(f)| = |\langle f, k(x,\cdot)\rang
 *  $k(x, x') = \langle \phi(x), \phi(x') \rangle$ : every kernel  $k$  corresponds to some inner product (via RKHS) and vice-versa (easy)
 
 $$
-[ \text {b e g i n l e c t u r e 1 1} ] \tag {11}
+[ \text{b e g i n l e c t u r e 1} ] \tag{11}
 $$
 
 # 4.5 Learning using kernels (Lecture 11)
@@ -4022,13 +4016,13 @@ $$
 - Let's start with kernelized ridge regression, where we obtain examples  $\{(x_i, y_i)\}_{i=1}^n$ , and want to find a function  $f \in \mathcal{H}$  that fits the data, where  $\mathcal{H}$  is an RKHS. A natural objective function is to penalize the squared loss plus a penalty for the complexity of  $f$ , where the complexity is the RKHS norm:
 
 $$
-f ^ {*} \in \arg \min  _ {f \in \mathcal {H}} \sum_ {i = 1} ^ {n} \frac {1}{2} (f (x _ {i}) - y _ {i}) ^ {2} + \frac {\lambda}{2} \| f \| _ {\mathcal {H}} ^ {2}. \tag {369}
+f^{*} \in \arg \min_{f \in \mathcal{H}} \sum_{i = 1} ^{n} \frac{1}{2} (f (x_{i}) - y_{i}) ^{2} + \frac{\lambda}{2} \| f \| _{\mathcal{H}} ^{2}. \tag{369}
 $$
 
 - More generally, a learning problem can be posed as the following optimization problem:
 
 $$
-f ^ {*} \in \arg \min  _ {f \in \mathcal {H}} L \left(\left\{\left(x _ {i}, y _ {i}, f (x _ {i})\right) \right\} _ {i = 1} ^ {n}\right) + Q \left(\| f \| _ {\mathcal {H}} ^ {2}\right), \tag {370}
+f^{*} \in \arg \min_{f \in \mathcal{H}} L \left(\left\{\left(x_{i}, y_{i}, f (x_{i})\right) \right\} _{i = 1} ^{n}\right) + Q \left(\| f \| _{\mathcal{H}} ^{2}\right), \tag{370}
 $$
 
 where
@@ -4047,7 +4041,7 @@ This optimization problem may seem daunting since it is optimizing over a potent
 - Let  $V$  denote the span of the representatives of the training points:
 
 $$
-V \stackrel {\text {d e f}} {=} \operatorname {s p a n} (\{k (x _ {i}, \cdot): i = 1, \dots , n \}) = \left\{\sum_ {i = 1} ^ {n} \alpha_ {i} k (x _ {i}, \cdot): \alpha \in \mathbb {R} ^ {n} \right\}. \tag {371}
+V \stackrel{\text{def}} {=} \operatorname{span} (\{k (x_{i}, \cdot): i = 1, \dots , n \}) = \left\{\sum_{i = 1} ^{n} \alpha_{i} k (x_{i}, \cdot): \alpha \in \mathbb{R} ^{n} \right\}. \tag{371}
 $$
 
 - Then all minimizers  $f^{*}$  of (370) satisfy  $f^{*} \in V$ .
@@ -4059,13 +4053,13 @@ Proof
 - Define the orthogonal complement:
 
 $$
-V _ {\perp} = \{g \in \mathcal {H}: \langle f, g \rangle = 0 \text {f o r a l l} f \in V \}. \tag {372}
+V_{\perp} = \{g \in \mathcal{H}: \langle f, g \rangle = 0 \text{forall} f \in V \}. \tag{372}
 $$
 
 - Any  $f \in \mathcal{H}$  can be decomposed in to a part in the span of the examples and an orthogonal part:
 
 $$
-f ^ {*} = f + f _ {\perp}, \tag {373}
+f^{*} = f + f_{\perp}, \tag{373}
 $$
 
 where  $f\in V$  and  $f_{\perp}\in V_{\perp}$
@@ -4074,7 +4068,7 @@ where  $f\in V$  and  $f_{\perp}\in V_{\perp}$
 - The loss depends on  $f^*$  only through  $\{f^*(x_j) : j = 1, \ldots, n\}$ , which can be written as:
 
 $$
-f ^ {*} \left(x _ {j}\right) = f \left(x _ {j}\right) + \langle f _ {\perp}, k \left(x _ {j}, \cdot\right) \rangle . \tag {374}
+f^{*} \left(x_{j}\right) = f \left(x_{j}\right) + \langle f_{\perp}, k \left(x_{j}, \cdot\right) \rangle . \tag{374}
 $$
 
 The second term is zero, so the loss doesn't depend on  $f_{\perp}$ .
@@ -4082,7 +4076,7 @@ The second term is zero, so the loss doesn't depend on  $f_{\perp}$ .
 - The regularizer:
 
 $$
-Q \left(\| f ^ {*} \| _ {\mathcal {H}} ^ {2}\right) = Q \left(\| f \| _ {\mathcal {H}} ^ {2} + \| f _ {\perp} \| _ {\mathcal {H}} ^ {2}\right). \tag {375}
+Q \left(\| f^{*} \| _{\mathcal{H}} ^{2}\right) = Q \left(\| f \| _{\mathcal{H}} ^{2} + \| f_{\perp} \| _{\mathcal{H}} ^{2}\right). \tag{375}
 $$
 
 Since  $Q$  is strictly monotonic and  $f^{*}$  is a minimizer, we must have  $f_{\perp} = 0$
@@ -4096,37 +4090,37 @@ Example 14 (Kernelized ridge regression)
 - Recall the optimization problem for regression:
 
 $$
-\min  _ {f \in \mathcal {H}} \sum_ {i = 1} ^ {n} \frac {1}{2} \left(f \left(x _ {i}\right) - y _ {i}\right) ^ {2} + \frac {\lambda}{2} \| f \| _ {\mathcal {H}} ^ {2}. \tag {376}
+\min_{f \in \mathcal{H}} \sum_{i = 1} ^{n} \frac{1}{2} \left(f \left(x_{i}\right) - y_{i}\right) ^{2} + \frac{\lambda}{2} \| f \| _{\mathcal{H}} ^{2}. \tag{376}
 $$
 
 By the representer theorem, we have the equivalent optimization problem:
 
 $$
-\min  _ {\alpha \in \mathbb {R} ^ {n}} \sum_ {i = 1} ^ {n} \frac {1}{2} \left(\sum_ {j = 1} ^ {n} \alpha_ {j} k \left(x _ {i}, x _ {j}\right) - y _ {i}\right) ^ {2} + \frac {\lambda}{2} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \alpha_ {i} \alpha_ {j} k \left(x _ {i}, x _ {j}\right). \tag {377}
+\min_{\alpha \in \mathbb{R} ^{n}} \sum_{i = 1} ^{n} \frac{1}{2} \left(\sum_{j = 1} ^{n} \alpha_{j} k \left(x_{i}, x_{j}\right) - y_{i}\right) ^{2} + \frac{\lambda}{2} \sum_{i = 1} ^{n} \sum_{j = 1} ^{n} \alpha_{i} \alpha_{j} k \left(x_{i}, x_{j}\right). \tag{377}
 $$
 
 - Letting  $K \in \mathbb{R}^{n \times n}$  be the kernel matrix and  $Y \in \mathbb{R}^n$  denote the vector of outputs, we have:
 
 $$
-\min  _ {\alpha \in \mathbb {R} ^ {n}} \frac {1}{2} \| K \alpha - Y \| _ {2} ^ {2} + \frac {\lambda}{2} \alpha^ {\top} K \alpha . \tag {378}
+\min_{\alpha \in \mathbb{R} ^{n}} \frac{1}{2} \| K \alpha - Y \| _{2} ^{2} + \frac{\lambda}{2} \alpha^{\top} K \alpha . \tag{378}
 $$
 
 Differentiating with respect to  $\alpha$  and setting to zero:
 
 $$
-K (K \alpha - Y) + \lambda K \alpha = 0. \tag {379}
+K (K \alpha - Y) + \lambda K \alpha = 0. \tag{379}
 $$
 
 Rearranging:
 
 $$
-K (K + \lambda I) \alpha = K Y. \tag {380}
+K (K + \lambda I) \alpha = K Y. \tag{380}
 $$
 
 Solving yields a solution:
 
 $$
-\boxed {\alpha = (K + \lambda I) ^ {- 1} Y.} \tag {381}
+\boxed{\alpha = (K + \lambda I) ^{- 1} Y.} \tag{381}
 $$
 
 Note that the solution is not necessarily unique, since we could add any vector in the null space of  $K$ , but there's no reason to consider them.
@@ -4134,7 +4128,7 @@ Note that the solution is not necessarily unique, since we could add any vector 
 - To predict on a new example  $x$ , we form kernel evaluations  $c \in \mathbb{R}^n$  where  $c_i = k(x_i, x)$ , and then predict
 
 $$
-y = c ^ {\top} \alpha . \tag {382}
+y = c^{\top} \alpha . \tag{382}
 $$
 
 # Example 15 (SVM classification)
@@ -4143,13 +4137,13 @@ $$
 - Primal  $(y_{i}\in \{-1, + 1\})$
 
 $$
-\min  _ {f \in \mathcal {H}} \sum_ {i = 1} ^ {n} \max  \left\{0, 1 - y _ {i} f \left(x _ {i}\right) \right\} + \frac {\lambda}{2} \| f \| _ {\mathcal {H}} ^ {2}. \tag {383}
+\min_{f \in \mathcal{H}} \sum_{i = 1} ^{n} \max  \left\{0, 1 - y_{i} f \left(x_{i}\right) \right\} + \frac{\lambda}{2} \| f \| _{\mathcal{H}} ^{2}. \tag{383}
 $$
 
 - Dual (define  $\tilde{K}_{ij} = y_iy_jK_{ij}$ ):
 
 $$
-\min  _ {\alpha \in \mathbb {R} ^ {n}} - \mathbf {1} ^ {\top} \alpha + \alpha^ {\top} \tilde {K} \alpha \quad \text {s u b j e c t} \quad 0 \leq \alpha_ {i} \leq \frac {1}{\lambda}, Y ^ {\top} \alpha = 0. \tag {384}
+\min_{\alpha \in \mathbb{R} ^{n}} - \mathbf{1} ^{\top} \alpha + \alpha^{\top} \tilde{K} \alpha \quad \text{subject} \quad 0 \leq \alpha_{i} \leq \frac{1}{\lambda}, Y^{\top} \alpha = 0. \tag{384}
 $$
 
 The dual is computed by taking the Lagrange dual of the primal optimization problem.
@@ -4164,7 +4158,7 @@ The dual is computed by taking the Lagrange dual of the primal optimization prob
 * Define the empirical covariance matrix as follows:
 
 $$
-C \stackrel {\text {d e f}} {=} \frac {1}{n} \Phi^ {\top} \Phi , \tag {385}
+C \stackrel{\text{def}} {=} \frac{1}{n} \Phi^{\top} \Phi , \tag{385}
 $$
 
 where the  $i$ -th row of  $\Phi$  is  $\phi(x_i)$ .
@@ -4172,7 +4166,7 @@ where the  $i$ -th row of  $\Phi$  is  $\phi(x_i)$ .
 * Then PCA seeks to find the principal eigenvector of  $C$ :
 
 $$
-C v = \lambda v. \tag {386}
+C v = \lambda v. \tag{386}
 $$
 
 In practice, take the first  $r$  eigenvectors  $v_{1},\ldots ,v_{r}$  (principal components) as an approximation of the entire feature space. Note that the  $v_{i}$ 's form an orthonormal basis (have unit norm and are orthogonal).
@@ -4180,7 +4174,7 @@ In practice, take the first  $r$  eigenvectors  $v_{1},\ldots ,v_{r}$  (principa
 * The squared reconstruction error of a new point  $x$  is:
 
 $$
-\left\| \sum_ {i = 1} ^ {r} \langle \phi (x), v _ {i} \rangle v _ {i} - \phi (x) \right\| _ {2} ^ {2}. \tag {387}
+\left\| \sum_{i = 1} ^{r} \langle \phi (x), v_{i} \rangle v_{i} - \phi (x) \right\| _{2} ^{2}. \tag{387}
 $$
 
 For example, if we were doing anomaly detection, if a data point  $x$  has a large reconstruction error, then  $x$  is an anomaly.
@@ -4190,19 +4184,19 @@ For example, if we were doing anomaly detection, if a data point  $x$  has a lar
 * By the representer theorem (or even more simply, by inspecting the form of the covariance matrix), we have  $v = \sum_{i=1}^{n} \alpha_i \phi(x_i) = \Phi^\top \alpha$ , so an equivalent characterization is to project the vectors on the data points:
 
 $$
-\Phi C v = \lambda \Phi v. \tag {388}
+\Phi C v = \lambda \Phi v. \tag{388}
 $$
 
 * Using the definition of  $C$  and the fact that  $\Phi v = K\alpha$ , we have
 
 $$
-\frac {1}{n} K ^ {2} \alpha = \lambda K \alpha . \tag {389}
+\frac{1}{n} K^{2} \alpha = \lambda K \alpha . \tag{389}
 $$
 
 Again, any solution to the following is a valid solution to the above (but we can always add spurious vectors in the null space of  $K$ ):
 
 $$
-\boxed {\frac {1}{n} K \alpha = \lambda \alpha .} \tag {390}
+\boxed{\frac{1}{n} K \alpha = \lambda \alpha .} \tag{390}
 $$
 
 * In practice, we compute the eigendecomposition of  $K$  and take the first  $r$  eigenvectors as the approximation. For simplicity, let's assume we just take one principal component  $v \in \mathcal{H}$ .
@@ -4218,7 +4212,7 @@ $$
 * The squared reconstruction error of a new point  $x$  is:
 
 $$
-\left\| v (x) v - \phi (x) \right\| _ {\mathcal {H}} ^ {2} = v (x) ^ {2} - 2 v (x) ^ {2} + k (x, x) = k (x, x) - v (x) ^ {2}. \tag {391}
+\left\| v (x) v - \phi (x) \right\| _{\mathcal{H}} ^{2} = v (x) ^{2} - 2 v (x) ^{2} + k (x, x) = k (x, x) - v (x) ^{2}. \tag{391}
 $$
 
 As expected, all we need are kernel evaluations.
@@ -4257,7 +4251,7 @@ Here  $\omega \in \mathbb{R}$  is the frequency of the sinusoid.
 - Using this feature map, let's define a kernel:
 
 $$
-k \left(x, x ^ {\prime}\right) = \phi (x) \overline {{\phi \left(x ^ {\prime}\right)}} = e ^ {- i \langle \omega , x - x ^ {\prime} \rangle}, \tag {392}
+k \left(x, x^{\prime}\right) = \phi (x) \overline{{\phi \left(x^{\prime}\right)}} = e^{- i \langle \omega , x - x^{\prime} \rangle}, \tag{392}
 $$
 
 where  $\bar{a}$  denotes the complex conjugate of  $a$ . This kernel deems two points to be similar if they are close modulo  $2\pi/\omega$  (for some fixed scalar frequency  $\omega$ ); clearly this is a bit silly.
@@ -4265,13 +4259,13 @@ where  $\bar{a}$  denotes the complex conjugate of  $a$ . This kernel deems two 
 - To get more realistic kernels, we need to incorporate multiple frequencies. We can do this by simply averaging over multiple kernels (recall that the sum of kernels is a kernel). Specifically, let  $\mu(\cdot)$  be a finite non-negative measure over frequencies. Then
 
 $$
-k \left(x, x ^ {\prime}\right) = \int e ^ {- i \langle \omega , x - x ^ {\prime} \rangle} \mu (d \omega). \tag {393}
+k \left(x, x^{\prime}\right) = \int e^{- i \langle \omega , x - x^{\prime} \rangle} \mu (d \omega). \tag{393}
 $$
 
 is also a valid kernel. Or in terms of  $h$  (recall that  $t = x - x'$ ):
 
 $$
-h (t) = \int e ^ {- i \langle \omega , t \rangle} \mu (d \omega). \tag {394}
+h (t) = \int e^{- i \langle \omega , t \rangle} \mu (d \omega). \tag{394}
 $$
 
 - The corresponding feature map consists of the following basis functions:  $\{x \mapsto e^{-i\langle \omega, x \rangle} : \omega \in \mathbb{R}^b\}$  
@@ -4288,13 +4282,13 @@ Example 17 (constant)
 Suppose  $\mu$  places mass only at  $-\omega$  and  $\omega$ :
 
 $$
-\mu = \frac {1}{2} \left(\delta_ {- \omega} + \delta_ {\omega}\right). \tag {395}
+\mu = \frac{1}{2} \left(\delta_{- \omega} + \delta_{\omega}\right). \tag{395}
 $$
 
 - Then the resulting kernel is:
 
 $$
-k \left(x, x ^ {\prime}\right) = h (t) = \cos (\omega t). \tag {396}
+k \left(x, x^{\prime}\right) = h (t) = \cos (\omega t). \tag{396}
 $$
 
 - In general,  $h(t)$  defined via  $\mu$  might be complex-valued, but if  $\mu$  is symmetric (that is,  $\mu(A) = \mu(-A)$  for all measurable sets  $A$ ), then  $h(t)$  will be real-valued.
@@ -4304,19 +4298,19 @@ $$
 - Let the spectral density  $s$  be the 1 over  $[-a, a]$  (that is, we only keep frequencies below  $a$ ):
 
 $$
-s (\omega) = \mathbb {I} [ - a \leq \omega \leq a ]. \tag {397}
+s (\omega) = \mathbb{I} [ - a \leq \omega \leq a ]. \tag{397}
 $$
 
 - Then the resulting kernel is:
 
 $$
-h (t) = \frac {2 \sin (a t)}{t}. \tag {398}
+h (t) = \frac{2 \sin (a t)}{t}. \tag{398}
 $$
 
 Proof: just integrate:
 
 $$
-h (t) = \int_ {- a} ^ {a} e ^ {- i \omega t} d \omega = \frac {1}{- i t} \left(e ^ {- i a t} - e ^ {i a t}\right) = \frac {1}{- i t} (- 2 i \sin (a t)). \tag {399}
+h (t) = \int_{- a} ^{a} e^{- i \omega t} d \omega = \frac{1}{- i t} \left(e^{- i a t} - e^{i a t}\right) = \frac{1}{- i t} (- 2 i \sin (a t)). \tag{399}
 $$
 
 - Note: as  $a$  increases, we cover more frequencies. If  $a \to \infty$ , then  $h(t)$  converges to a delta function at 0, which corresponds to the degenerate kernel  $k(x, x) = \mathbb{I}[x = x']$ .
@@ -4330,13 +4324,13 @@ $$
 - Then there exists a unique finite non-negative measure  $\mu$  (called the spectral measure) on  $\mathbb{R}^b$  such that
 
 $$
-\left. \overline {{h (t) = \int e ^ {- i \langle t , \omega \rangle} \mu (d \omega)}}. \right| \tag {400}
+\left. \overline{{h (t) = \int e^{- i \langle t , \omega \rangle} \mu (d \omega)}}. \right| \tag{400}
 $$
 
 - Furthermore, if  $\mu$  has a density  $s$ ,
 
 $$
-\mu (d \omega) = s (\omega) d \omega , \tag {401}
+\mu (d \omega) = s (\omega) d \omega , \tag{401}
 $$
 
 then we call  $s$  the spectral density, and  $h$  is the Fourier transform of  $s$ .
@@ -4348,13 +4342,13 @@ Example 20 (box is not a kernel)
 - Consider the following function:
 
 $$
-h (t) = \mathbb {I} [ - 1 \leq t \leq 1 ]. \tag {402}
+h (t) = \mathbb{I} [ - 1 \leq t \leq 1 ]. \tag{402}
 $$
 
 - The inverse Fourier transform times  $1 / (2\pi)$  is
 
 $$
-s (\omega) = \frac {\sin (\omega)}{\pi \omega}, \tag {403}
+s (\omega) = \frac{\sin (\omega)}{\pi \omega}, \tag{403}
 $$
 
 reusing the result from above.
@@ -4366,19 +4360,19 @@ Example 21 (Gaussian kernel)
 - Let the spectral density  $s$  be the density of the multivariate Gaussian distribution with variance  $1 / \sigma^2$ :
 
 $$
-s (\omega) = \left(\frac {2 \pi}{\sigma^ {2}}\right) ^ {- d / 2} \exp \left(\frac {- \sigma^ {2} \| \omega \| _ {2} ^ {2}}{2}\right). \tag {404}
+s (\omega) = \left(\frac{2 \pi}{\sigma^{2}}\right) ^{- d / 2} \exp \left(\frac{- \sigma^{2} \| \omega \| _{2} ^{2}}{2}\right). \tag{404}
 $$
 
 - Then the resulting kernel is the Gaussian kernel with variance  $\sigma^2$  (note the inverting of the variance):
 
 $$
-h (t) = \exp \left(\frac {- \| t \| _ {2} ^ {2}}{2 \sigma^ {2}}\right). \tag {405}
+h (t) = \exp \left(\frac{- \| t \| _{2} ^{2}}{2 \sigma^{2}}\right). \tag{405}
 $$
 
 Proof:
 
 $$
-h (t) = \int \left(\frac {2 \pi}{\sigma^ {2}}\right) ^ {- d / 2} \exp \left(\frac {\left(- \sigma^ {2} \| \omega \| _ {2} ^ {2} - 2 i \langle \omega , t \rangle - \sigma^ {- 2} i ^ {2} \| t \| _ {2} ^ {2}\right) + \sigma^ {- 2} i ^ {2} \| t \| _ {2} ^ {2}}{2}\right) d \omega . \tag {406}
+h (t) = \int \left(\frac{2 \pi}{\sigma^{2}}\right) ^{- d / 2} \exp \left(\frac{\left(- \sigma^{2} \| \omega \| _{2} ^{2} - 2 i \langle \omega , t \rangle - \sigma^{- 2} i^{2} \| t \| _{2} ^{2}\right) + \sigma^{- 2} i^{2} \| t \| _{2} ^{2}}{2}\right) d \omega . \tag{406}
 $$
 
 Complete the square and note that the Gaussian distribution (with mean  $it / \sigma$ ) integrates to 1.
@@ -4393,7 +4387,7 @@ Motivation: with Gaussian kernels, how do we set the variance  $\sigma^2$ ?
 - Recalling that the sum of kernels is a kernel, we have that
 
 $$
-\int k _ {\tau} \left(x, x ^ {\prime}\right) p (\tau) d \tau \tag {407}
+\int k_{\tau} \left(x, x^{\prime}\right) p (\tau) d \tau \tag{407}
 $$
 
 is also a kernel for any  $p(\tau)$ .
@@ -4403,13 +4397,13 @@ is also a kernel for any  $p(\tau)$ .
 - Ignoring normalization constants, the kernel is the rational quadratic kernel (derivation omitted):
 
 $$
-h (t) = \left(1 + \frac {\beta t ^ {2}}{2 \alpha}\right) ^ {- \alpha}. \tag {408}
+h (t) = \left(1 + \frac{\beta t^{2}}{2 \alpha}\right) ^{- \alpha}. \tag{408}
 $$
 
 - When  $\alpha = 1$  and  $\beta = 2$ , we have:
 
 $$
-h (t) = \frac {1}{1 + t ^ {2}}. \tag {409}
+h (t) = \frac{1}{1 + t^{2}}. \tag{409}
 $$
 
 - Compared with the Gaussian kernel:
@@ -4422,7 +4416,7 @@ This flexibility comes from integrating over values of  $\sigma^2$ .
 - Note that as  $\alpha, \beta \to \infty$  with  $\alpha = \beta$ , the rational quadratic approaches the Gaussian kernel with  $\sigma^2 = 1$ .
 
 $$
-[ \text {b e g i n l e c t u r e 1 2} ] \tag {12}
+[ \text{b e g i n l e c t u r e 2} ] \tag{12}
 $$
 
 # 4.7 Efficient computation (Lecture 12)
@@ -4439,7 +4433,7 @@ $$
 - Let's get some intuition about when approximations might be a sensible thing to do on a concrete scenario. Recall the Gaussian kernel:
 
 $$
-k \left(x, x ^ {\prime}\right) = \exp \left(\frac {- \| x - x ^ {\prime} \| _ {2} ^ {2}}{2 \sigma^ {2}}\right). \tag {410}
+k \left(x, x^{\prime}\right) = \exp \left(\frac{- \| x - x^{\prime} \| _{2} ^{2}}{2 \sigma^{2}}\right). \tag{410}
 $$
 
 - If the points  $x_{1}, \ldots, x_{n}$  are far apart (relative to the bandwidth of  $\sigma^2$ ), then the kernel matrix  $K$  will be roughly the identity matrix. In this case, we can't possibly hope for a low-rank approximation to capture everything.  
@@ -4451,7 +4445,7 @@ $$
 - Our starting point is Bochner's theorem (Theorem 24), which allows us to write shift-invariant kernels in terms of an integral over some spectral measure  $\mu$ :
 
 $$
-k \left(x, x ^ {\prime}\right) = \int \phi_ {\omega} (x) \overline {{\phi_ {\omega} \left(x ^ {\prime}\right)}} \mu (d \omega), \tag {411}
+k \left(x, x^{\prime}\right) = \int \phi_{\omega} (x) \overline{{\phi_{\omega} \left(x^{\prime}\right)}} \mu (d \omega), \tag{411}
 $$
 
 where  $\phi_{\omega}(x) = e^{-i\langle \omega ,x\rangle}$  is a single (Fourier) feature.
@@ -4459,23 +4453,23 @@ where  $\phi_{\omega}(x) = e^{-i\langle \omega ,x\rangle}$  is a single (Fourier
 - The key idea is to replace the integral with a finite sum over  $m$  elements. For simplicity, assume that  $\mu$  is a probability distribution. If it is not, then we can normalize it and then multiply the result by  $\mu(\mathbb{C}^b)$ . Let  $\omega_1, \ldots, \omega_m$  be drawn i.i.d. from  $\mu$ . Then, define the approximate kernel as:
 
 $$
-\hat {k} \left(x, x ^ {\prime}\right) = \frac {1}{m} \sum_ {i = 1} ^ {m} \phi_ {\omega_ {i}} (x) \overline {{\phi_ {\omega_ {i}} (x)}}. \tag {412}
+\hat{k} \left(x, x^{\prime}\right) = \frac{1}{m} \sum_{i = 1} ^{m} \phi_{\omega_{i}} (x) \overline{{\phi_{\omega_{i}} (x)}}. \tag{412}
 $$
 
 This kernel corresponds to having the following random feature map:
 
 $$
-\hat {\phi} (x) = \frac {1}{\sqrt {m}} \left[ \phi_ {\omega_ {1}} (x), \dots , \phi_ {\omega_ {m}} (x) \right] \in \mathbb {C} ^ {m}. \tag {413}
+\hat{\phi} (x) = \frac{1}{\sqrt{m}} \left[ \phi_{\omega_{1}} (x), \dots , \phi_{\omega_{m}} (x) \right] \in \mathbb{C} ^{m}. \tag{413}
 $$
 
 - As a concrete example, consider the Gaussian kernel, which has a Gaussian spectral density (recall  $\mu(d\omega) = s(\omega)d\omega$ ) with the inverse variance:
 
 $$
-k \left(x, x ^ {\prime}\right) = \exp \left(\frac {- \| x - x ^ {\prime} \| _ {2} ^ {2}}{2 \sigma^ {2}}\right), \tag {414}
+k \left(x, x^{\prime}\right) = \exp \left(\frac{- \| x - x^{\prime} \| _{2} ^{2}}{2 \sigma^{2}}\right), \tag{414}
 $$
 
 $$
-s (\omega) = \left(\frac {2 \pi}{\sigma^ {2}}\right) ^ {- b / 2} \exp \left(\frac {- \sigma^ {2} \| \omega \| _ {2} ^ {2}}{2}\right). \tag {415}
+s (\omega) = \left(\frac{2 \pi}{\sigma^{2}}\right) ^{- b / 2} \exp \left(\frac{- \sigma^{2} \| \omega \| _{2} ^{2}}{2}\right). \tag{415}
 $$
 
 This means that each  $\omega_{i}\sim \mathcal{N}(0,\sigma^{-2}I)$  is drawn from a Gaussian.
@@ -4495,7 +4489,7 @@ This means that each  $\omega_{i}\sim \mathcal{N}(0,\sigma^{-2}I)$  is drawn fro
 \* Let
 
 $$
-\mathcal {F} \stackrel {\text {d e f}} {=} \left\{x \mapsto \int \alpha (\omega) \phi_ {\omega} (x) \mu (d \omega): \forall \omega , | \alpha (\omega) | \leq C \right\} \tag {416}
+\mathcal{F} \stackrel{\text{def}} {=} \left\{x \mapsto \int \alpha (\omega) \phi_{\omega} (x) \mu (d \omega): \forall \omega , | \alpha (\omega) | \leq C \right\} \tag{416}
 $$
 
 be the subset of functions in the RKHS  $\mathcal{H}$  with bounded Fourier coefficients  $\alpha (\omega)$ .
@@ -4503,7 +4497,7 @@ be the subset of functions in the RKHS  $\mathcal{H}$  with bounded Fourier coef
 \* Let
 
 $$
-\hat {\mathcal {F}} \stackrel {\text {d e f}} {=} \left\{x \mapsto \frac {1}{m} \sum_ {i = 1} ^ {m} \alpha \left(\omega_ {i}\right) \phi_ {\omega_ {i}} (x): \forall \omega , | \alpha (\omega) | \leq C \right\} \tag {417}
+\hat{\mathcal{F}} \stackrel{\text{def}} {=} \left\{x \mapsto \frac{1}{m} \sum_{i = 1} ^{m} \alpha \left(\omega_{i}\right) \phi_{\omega_{i}} (x): \forall \omega , | \alpha (\omega) | \leq C \right\} \tag{417}
 $$
 
 be the subset that is spanned by the random feature functions, where  $\omega_{1:k}$  be drawn i.i.d. from  $\mu$ .
@@ -4512,14 +4506,14 @@ be the subset that is spanned by the random feature functions, where  $\omega_{1
 * Define the inner product with respect to the data-generating distribution (this is not the RKHS inner product):
 
 $$
-\langle f, g \rangle \stackrel {\text {d e f}} {=} \mathbb {E} _ {x \sim p ^ {*}} [ f (x) g (x) ]. \tag {418}
+\langle f, g \rangle \stackrel{\text{def}} {=} \mathbb{E} _{x \sim p^{*}} [ f (x) g (x) ]. \tag{418}
 $$
 
 * Let  $f^* \in \mathcal{F}$  be any true function.  
 * Then with probability at least  $1 - \delta$ , there exists  $\hat{f} \in \hat{\mathcal{F}}$  that
 
 $$
-\left\| \hat {f} - f ^ {*} \right\| \leq \frac {C}{\sqrt {m}} \left(1 + \sqrt {2 \log (1 / \delta)}\right). \tag {419}
+\left\| \hat{f} - f^{*} \right\| \leq \frac{C}{\sqrt{m}} \left(1 + \sqrt{2 \log (1 / \delta)}\right). \tag{419}
 $$
 
 Proof of Theorem 25:
@@ -4530,13 +4524,13 @@ Proof of Theorem 25:
 * Define
 
 $$
-D \left(\omega_ {1: m}\right) = \| \hat {f} - f ^ {*} \|. \tag {420}
+D \left(\omega_{1: m}\right) = \| \hat{f} - f^{*} \|. \tag{420}
 $$
 
 Note that  $D$  satisfies the bounded differences inequality: letting  $\omega_{1:m}^{i} = \omega_{1:m}$  except on the  $i$ -th component, where it is  $\omega_{i}'$ :
 
 $$
-\begin{array}{l} D \left(\omega_ {1: m}\right) - D \left(\omega_ {1: m} ^ {i}\right) \leq \| \hat {f} - f ^ {*} \| - \| \hat {f} ^ {i} - f ^ {*} \| (421) \\ \leq \left\| \hat {f} - \hat {f} ^ {i} \right\| \quad [ \text {t r i a n g l e i n e q u a l i t y} ] (422) \\ \leq \frac {1}{m} \left\| \alpha \left(\omega_ {i}\right) \phi_ {\omega_ {i}} - \alpha \left(\omega_ {i} ^ {\prime}\right) \phi_ {\omega_ {i} ^ {\prime}} \right\| (423) \\ \leq \frac {2 C}{m}. (424) \\ \end{array}
+\begin{array}{l} D \left(\omega_{1: m}\right) - D \left(\omega_{1: m} ^{i}\right) \leq \| \hat{f} - f^{*} \| - \| \hat{f} ^{i} - f^{*} \| (421) \\ \leq \left\| \hat{f} - \hat{f} ^{i} \right\| \quad [ \text{triangleinequality} ] (422) \\ \leq \frac{1}{m} \left\| \alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - \alpha \left(\omega_{i} ^{\prime}\right) \phi_{\omega_{i} ^{\prime}} \right\| (423) \\ \leq \frac{2 C}{m}. (424) \\ \end{array}
 $$
 
 Note that the last line follows because  $|\alpha(\omega_i)| \leq C$  and  $\phi_{\omega_i}(x) = e^{-i\langle \omega_i, x \rangle}$  and  $|e^{-ia}| = 1$  for all  $a$ .
@@ -4544,13 +4538,13 @@ Note that the last line follows because  $|\alpha(\omega_i)| \leq C$  and  $\phi
 * We can bound the mean by passing to the variance:
 
 $$
-\begin{array}{l} \mathbb {E} \left[ D \left(\omega_ {1: m}\right) \right] \leq \sqrt {\mathbb {E} \left[ D \left(\omega_ {1 : m}\right) ^ {2} \right]} \quad [ \text {J e n s e n ' s i n e q u a l i t y} ] (425) \\ = \sqrt {\mathbb {E} \left[ \left\| \frac {1}{m} \sum_ {i = 1} ^ {m} \left(\alpha \left(\omega_ {i}\right) \phi_ {\omega_ {i}} - f ^ {*}\right) \right\| ^ {2} \right]} \quad [ \text {e x p a n d} ] (426) \\ = \sqrt {\frac {1}{m ^ {2}} \sum_ {i = 1} ^ {m} \mathbb {E} \left[ \left\| \alpha \left(\omega_ {i}\right) \phi_ {\omega_ {i}} - f ^ {*} \right\| ^ {2} \right]} \quad [ \text {v a r i a n c e o f i . i . d . s u m} ] (427) \\ \leq \frac {C}{\sqrt {m}} \quad [ \text {u s e} | \alpha (\omega_ {i}) | \leq C ]. (428) \\ \end{array}
+\begin{array}{l} \mathbb{E} \left[ D \left(\omega_{1: m}\right) \right] \leq \sqrt{\mathbb{E} \left[ D \left(\omega_{1 : m}\right) ^{2} \right]} \quad [ \text{J e n s e n ' s i n e q u a l i t y} ] (425) \\ = \sqrt{\mathbb{E} \left[ \left\| \frac{1}{m} \sum_{i = 1} ^{m} \left(\alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*}\right) \right\| ^{2} \right]} \quad [ \text{expand} ] (426) \\ = \sqrt{\frac{1}{m^{2}} \sum_{i = 1} ^{m} \mathbb{E} \left[ \left\| \alpha \left(\omega_{i}\right) \phi_{\omega_{i}} - f^{*} \right\| ^{2} \right]} \quad [ \text{v a r i a n c e o f i . i . d . s u m} ] (427) \\ \leq \frac{C}{\sqrt{m}} \quad [ \text{use} | \alpha (\omega_{i}) | \leq C ]. (428) \\ \end{array}
 $$
 
 * Applying McDiarmid's inequality (Theorem 8), we get that
 
 $$
-\mathbb {P} \left[ D \left(\omega_ {1: m}\right) \geq \frac {C}{\sqrt {m}} + \epsilon \right] \leq \exp \left(\frac {- 2 \epsilon^ {2}}{\sum_ {i = 1} ^ {m} (2 C / m) ^ {2}}\right). \tag {429}
+\mathbb{P} \left[ D \left(\omega_{1: m}\right) \geq \frac{C}{\sqrt{m}} + \epsilon \right] \leq \exp \left(\frac{- 2 \epsilon^{2}}{\sum_{i = 1} ^{m} (2 C / m) ^{2}}\right). \tag{429}
 $$
 
 Rearranging yields the theorem.
@@ -4561,25 +4555,25 @@ Remark: the definition of  $\alpha$  here differs from the Rahimi/Recht paper.
 * Suppose we had a loss function  $\ell(y, v)$  which is 1-Lipschitz in the second argument. (e.g., the hinge loss). Define the expected risk in the usual way:
 
 $$
-L (f) \stackrel {\text {d e f}} {=} \mathbb {E} _ {(x, y) \sim p ^ {*}} [ \ell (y, f (x)) ]. \tag {430}
+L (f) \stackrel{\text{def}} {=} \mathbb{E} _{(x, y) \sim p^{*}} [ \ell (y, f (x)) ]. \tag{430}
 $$
 
 Then the approximation ratio is bounded:
 
 $$
-\begin{array}{l} L (\hat {f}) - L \left(f ^ {*}\right) \leq \mathbb {E} \left[ \left| \ell (y, \hat {f} (x)) - \ell (y, f ^ {*} (x)) \right| \right] [ \text {d e f i n i t i o n}, \operatorname {a d d} | \cdot | ] (431) \\ \leq \mathbb {E} [ | \hat {f} (x) - f ^ {*} (x) | ] \quad [ \text {f i x} y, \ell \text {i s L i p s c h i t z} ] (432) \\ \leq \| \hat {f} - f ^ {*} \| \quad [ \text {c o n c a v i t y o f} \sqrt {\cdot} ]. (433) \\ \end{array}
+\begin{array}{l} L (\hat{f}) - L \left(f^{*}\right) \leq \mathbb{E} \left[ \left| \ell (y, \hat{f} (x)) - \ell (y, f^{*} (x)) \right| \right] [ \text{definition}, \operatorname{add} | \cdot | ] (431) \\ \leq \mathbb{E} [ | \hat{f} (x) - f^{*} (x) | ] \quad [ \text{fix} y, \ell \text{isLipschitz} ] (432) \\ \leq \| \hat{f} - f^{*} \| \quad [ \text{concavityof} \sqrt{\cdot} ]. (433) \\ \end{array}
 $$
 
 - So far, we have analyzed approximation error due to having a finite  $m$ , but assuming an infinite amount of data. Separately, there is the estimation error due to having  $n$  data points:
 
 $$
-L \left(\hat {f} _ {\mathrm {E R M}}\right) - L (\hat {f}) \leq O _ {p} \left(\frac {C}{\sqrt {n}}\right), \tag {434}
+L \left(\hat{f} _{\mathrm{ERM}}\right) - L (\hat{f}) \leq O_{p} \left(\frac{C}{\sqrt{n}}\right), \tag{434}
 $$
 
 where  $\hat{f}_{\mathrm{ERM}}$  minimizes the empirical risk over the random hypothesis class  $\hat{\mathcal{F}}$ . So, the total error, which includes approximation error and estimation error is
 
 $$
-L \left(\hat {f} _ {\mathrm {E R M}}\right) - L \left(f ^ {*}\right) = O _ {p} \left(\frac {C}{\sqrt {n}} + \frac {C}{\sqrt {m}}\right). \tag {435}
+L \left(\hat{f} _{\mathrm{ERM}}\right) - L \left(f^{*}\right) = O_{p} \left(\frac{C}{\sqrt{n}} + \frac{C}{\sqrt{m}}\right). \tag{435}
 $$
 
 This bound suggests that the approximation and estimation errors are balanced when  $m$  and  $n$  are on the same order. One takeaway is that we shouldn't over-optimize one without the other. But one might also strongly object and say that if  $m \cong n$ , then we aren't really getting any savings! This is indeed a valid complaint, and in order to get stronger results, we would need to impose more structure on the problem.
@@ -4589,13 +4583,13 @@ Dot product kernels (Kar/Karnick, 2012)
 - We have seen that shift-invariant kernels admit an integral representation, which allows us to use Monte Carlo to approximate it. What about non-shift invariant kernels such as polynomial kernels, such as the following?
 
 $$
-k \left(x, x ^ {\prime}\right) = \left\langle x, x ^ {\prime} \right\rangle^ {p}. \tag {436}
+k \left(x, x^{\prime}\right) = \left\langle x, x^{\prime} \right\rangle^{p}. \tag{436}
 $$
 
 - Although random Fourier features will not work, we can still try to write the kernel as an expectation. The key is that if we draw a Rademacher variable  $\omega \in \{-1, +1\}^b$  (uniform), randomly projecting  $x$  onto  $\omega$  yields an unbiased estimate of the inner product:
 
 $$
-\langle x, x ^ {\prime} \rangle = \mathbb {E} [ \langle \omega , x \rangle \langle \omega , x ^ {\prime} \rangle ]. \tag {437}
+\langle x, x^{\prime} \rangle = \mathbb{E} [ \langle \omega , x \rangle \langle \omega , x^{\prime} \rangle ]. \tag{437}
 $$
 
 Of course, this isn't useful by itself, but it does reduce  $x$  to a scalar  $\langle \omega, x \rangle$ , which is useful.
@@ -4603,7 +4597,7 @@ Of course, this isn't useful by itself, but it does reduce  $x$  to a scalar  $\
 - To generalize to polynomial kernels, we simply do the above construction  $p$  times and multiply it all together. For the quadratic kernel, let  $\omega_{1}$  and  $\omega_{2}$  be two independent Rademacher vectors. Then:
 
 $$
-\begin{array}{l} \left\langle x, x ^ {\prime} \right\rangle^ {2} = \mathbb {E} \left[ \left\langle \omega_ {1}, x \right\rangle \left\langle \omega_ {1}, x ^ {\prime} \right\rangle \right] \mathbb {E} \left[ \left\langle \omega_ {2}, x \right\rangle \left\langle \omega_ {2}, x ^ {\prime} \right\rangle \right] (438) \\ = \mathbb {E} [ \left\langle \omega_ {1}, x \right\rangle \left\langle \omega_ {2}, x \right\rangle \left\langle \omega_ {1}, x ^ {\prime} \right\rangle \left\langle \omega_ {2}, x ^ {\prime} \right\rangle ], (439) \\ \end{array}
+\begin{array}{l} \left\langle x, x^{\prime} \right\rangle^{2} = \mathbb{E} \left[ \left\langle \omega_{1}, x \right\rangle \left\langle \omega_{1}, x^{\prime} \right\rangle \right] \mathbb{E} \left[ \left\langle \omega_{2}, x \right\rangle \left\langle \omega_{2}, x^{\prime} \right\rangle \right] (438) \\ = \mathbb{E} [ \left\langle \omega_{1}, x \right\rangle \left\langle \omega_{2}, x \right\rangle \left\langle \omega_{1}, x^{\prime} \right\rangle \left\langle \omega_{2}, x^{\prime} \right\rangle ], (439) \\ \end{array}
 $$
 
 where the first line follows from the earlier calculation, and the second line follows from independence of  $\omega_{1}$  and  $\omega_{2}$ . Note that  $\langle \omega_1,x\rangle \langle \omega_2,x\rangle$  is still just a number.
@@ -4611,7 +4605,7 @@ where the first line follows from the earlier calculation, and the second line f
 - More generally, if the kernel is a analytic function of the dot product, then it admits the following Taylor expansion around 0:
 
 $$
-k \left(x, x ^ {\prime}\right) = f \left(\left\langle x, x ^ {\prime} \right\rangle\right), \quad f (z) = \sum_ {j = 0} ^ {\infty} a _ {j} z ^ {j}. \tag {440}
+k \left(x, x^{\prime}\right) = f \left(\left\langle x, x^{\prime} \right\rangle\right), \quad f (z) = \sum_{j = 0} ^{\infty} a_{j} z^{j}. \tag{440}
 $$
 
 - To construct a random feature,
@@ -4621,7 +4615,7 @@ $$
 * Choose  $\omega_1, \ldots, \omega_J$  Rademacher vectors, and let
 
 $$
-\phi_ {\omega_ {1: J}} (x) = \prod_ {j = 1} ^ {J} \left\langle \omega_ {j}, x \right\rangle . \tag {441}
+\phi_{\omega_{1: J}} (x) = \prod_{j = 1} ^{J} \left\langle \omega_{j}, x \right\rangle . \tag{441}
 $$
 
 - If we do this  $m$  times to form a  $m$ -dimensional feature vector, then we have a Monte Carlo estimate of the kernel  $k$ . Note that in the process, we have to draw an expected  $mb\mathbb{E}[J]$  Rademacher variables.  
@@ -4632,7 +4626,7 @@ $$
 - The random features perspective is very suggestive of the computation in neural networks. A one layer neural network computes a function
 
 $$
-f (x) = \sum_ {j = 1} ^ {m} \alpha_ {j} \sigma \left(\omega_ {j} \cdot x\right), \tag {442}
+f (x) = \sum_{j = 1} ^{m} \alpha_{j} \sigma \left(\omega_{j} \cdot x\right), \tag{442}
 $$
 
 where the parameters  $\alpha_{1:m}$  and  $\omega_{1:m}$  are optimized via (stochastic) gradient descent (backpropagation), and  $\sigma$  is a non-linear function such as a hard-threshold  $(\sigma(z) = \mathbb{I}[z \geq 0])$  or rectified linear unit  $(\sigma(z) = \mathbb{I}[z \geq 0]z)$ .
@@ -4642,7 +4636,7 @@ where the parameters  $\alpha_{1:m}$  and  $\omega_{1:m}$  are optimized via (st
 - Define the random basis function:
 
 $$
-\phi_ {\omega} (x) = \mathbb {I} [ \omega \cdot x \geq 0 ] (\omega \cdot x) ^ {q}. \tag {443}
+\phi_{\omega} (x) = \mathbb{I} [ \omega \cdot x \geq 0 ] (\omega \cdot x) ^{q}. \tag{443}
 $$
 
 * For  $q = 0$ , we obtain the threshold function.  
@@ -4651,19 +4645,19 @@ $$
 - As  $m \to \infty$ , we obtain the following kernel:
 
 $$
-k (x, x ^ {\prime}) = 2 \int \phi_ {\omega} (x) \phi_ {\omega} \left(x ^ {\prime}\right) p (\omega) \omega . \tag {444}
+k (x, x^{\prime}) = 2 \int \phi_{\omega} (x) \phi_{\omega} \left(x^{\prime}\right) p (\omega) \omega . \tag{444}
 $$
 
 - This kernel can be shown to have the following closed form solution:
 
 $$
-k \left(x, x ^ {\prime}\right) = \frac {1}{\pi} \| x \| ^ {q} \| x ^ {\prime} \| ^ {q} J _ {q} (\theta), \tag {445}
+k \left(x, x^{\prime}\right) = \frac{1}{\pi} \| x \| ^{q} \| x^{\prime} \| ^{q} J_{q} (\theta), \tag{445}
 $$
 
 where
 
 $$
-\theta = \arccos  \left(\frac {x \cdot x ^ {\prime}}{\| x \| \| x ^ {\prime} \|}\right) \tag {446}
+\theta = \arccos  \left(\frac{x \cdot x^{\prime}}{\| x \| \| x^{\prime} \|}\right) \tag{446}
 $$
 
 is the angle between  $x$  and  $x'$  and  $J_{q}(\theta)$  captures the angular dependence. In other words, this arc-cosine kernel decouples the magnitude from the angle.
@@ -4671,11 +4665,11 @@ is the angle between  $x$  and  $x'$  and  $J_{q}(\theta)$  captures the angular
 - In general  $J_{q}$  is a complex function, but we can consider two simple cases:
 
 $$
-J _ {0} (\theta) = \pi - \theta \tag {447}
+J_{0} (\theta) = \pi - \theta \tag{447}
 $$
 
 $$
-J _ {1} (\theta) = \sin (\theta) + (\pi - \theta) \cos (\theta). \tag {448}
+J_{1} (\theta) = \sin (\theta) + (\pi - \theta) \cos (\theta). \tag{448}
 $$
 
 - The punchline is that even if we are using neural networks, we can use kernel methods to better understand them from a representational point of view.
@@ -4686,13 +4680,13 @@ $$
 - Given a kernel matrix  $K \in \mathbb{R}^{n \times n}$ , we will sample a subset of the indices  $I \subseteq \{1, \ldots, n\}$  with  $|I| = m$ , and let  $J = \{1, \ldots, n\} \backslash I$  be the other indices. We then evaluate the kernel on points in  $I$  paired with all other points, for a total of  $O(|I|n)$  evaluations. Then we can define the approximate kernel matrix:
 
 $$
-K = \left( \begin{array}{l l} K _ {I I} & K _ {I J} \\ K _ {J I} & K _ {J J} \end{array} \right) \approx \left( \begin{array}{l l} K _ {I I} & K _ {I J} \\ K _ {J I} & K _ {J I} K _ {I I} ^ {\dagger} K _ {I J}, \end{array} \right) = \tilde {K} \tag {449}
+K = \left( \begin{array}{l l} K_{I I} & K_{I J} \\ K_{J I} & K_{J J} \end{array} \right) \approx \left( \begin{array}{l l} K_{I I} & K_{I J} \\ K_{J I} & K_{J I} K_{I I} ^{\dagger} K_{I J}, \end{array} \right) = \tilde{K} \tag{449}
 $$
 
 or more compactly:
 
 $$
-\tilde {K} \stackrel {\text {d e f}} {=} K _ {I} K _ {I I} ^ {\dagger} K _ {I}. \tag {450}
+\tilde{K} \stackrel{\text{def}} {=} K_{I} K_{I I} ^{\dagger} K_{I}. \tag{450}
 $$
 
 Note that the difference  $K_{JJ} - K_{JI}K_{II}^{\dagger}K_{IJ}$  is the Schur complement of  $K_{JJ}$ . If we interpret  $K$  as a covariance matrix of a Gaussian  $Z$ , then this is the conditional variance  $\mathrm{Var}[Z_J\mid Z_I]$ .
@@ -4709,7 +4703,7 @@ Note that the difference  $K_{JJ} - K_{JI}K_{II}^{\dagger}K_{IJ}$  is the Schur 
 * Then with probability at least  $1 - \delta$ ,
 
 $$
-\| K - \tilde {K} \| _ {F} ^ {2} \leq \| K - \tilde {K} _ {m} \| _ {F} ^ {2} + 4 (1 + \sqrt {8 \log (1 / \delta)}) \operatorname {t r} (K) ^ {2} \sqrt {\frac {m}{| I |}}. \tag {451}
+\| K - \tilde{K} \| _{F} ^{2} \leq \| K - \tilde{K} _{m} \| _{F} ^{2} + 4 (1 + \sqrt{8 \log (1 / \delta)}) \operatorname{tr} (K) ^{2} \sqrt{\frac{m}{| I |}}. \tag{451}
 $$
 
 - Proof: follows from algebraic manipulation and concentration. Note that the theorem statement is a correct version of Drineas and Mahoney's Theorem 3, where we just combined equation 31 with Lemma 9.  
@@ -4746,7 +4740,7 @@ Intuition: in order to represent any  $C_0(\mathcal{X})$  function, we must not 
 - More generally, assume  $P$  and  $Q$  are defined on some locally compact Hausdorff space  $\mathcal{X}$  (e.g.,  $\mathbb{R}^b$ ). Define the maximum mean discrepancy (MMD) as follows:
 
 $$
-D (P, Q, \mathcal {F}) \stackrel {\text {d e f}} {=} \sup  _ {f \in \mathcal {F}} \left(\mathbb {E} _ {x \sim P} [ f (x) ] - \mathbb {E} _ {x \sim Q} [ f (x) ]\right), \tag {452}
+D (P, Q, \mathcal{F}) \stackrel{\text{def}} {=} \sup_{f \in \mathcal{F}} \left(\mathbb{E} _{x \sim P} [ f (x) ] - \mathbb{E} _{x \sim Q} [ f (x) ]\right), \tag{452}
 $$
 
 for some set of functions  $\mathcal{F}$ . Shorthand:  $\mathbb{E}_P[f]$  means  $\mathbb{E}_{x\sim P}[f(x)]$ .
@@ -4754,7 +4748,7 @@ for some set of functions  $\mathcal{F}$ . Shorthand:  $\mathbb{E}_P[f]$  means 
 - Can we find  $\mathcal{F}$  so that
 
 $$
-D (P, Q, \mathcal {F}) = 0 \Leftrightarrow P = Q? \tag {453}
+D (P, Q, \mathcal{F}) = 0 \Leftrightarrow P = Q? \tag{453}
 $$
 
 Note that  $P = Q$  always implies  $D(P, Q, \mathcal{F})$ , but the other direction requires some work.
@@ -4779,7 +4773,7 @@ Proof:
 - Since  $\mathcal{H}$  is universal (i.e.,  $\mathcal{H}$  is dense in  $\mathcal{C}_0(\mathcal{X})$  with respect to the uniform norm), there exists  $g\in \mathcal{H}$  with  $g\neq 0$  such that
 
 $$
-\| f - g \| _ {\infty} \stackrel {\text {d e f}} {=} \sup  _ {x \in \mathcal {X}} | f (x) - g (x) | \leq \epsilon / 3. \tag {454}
+\| f - g \| _{\infty} \stackrel{\text{def}} {=} \sup_{x \in \mathcal{X}} | f (x) - g (x) | \leq \epsilon / 3. \tag{454}
 $$
 
 - This means  $|\mathbb{E}_P[f] - \mathbb{E}_P[g]| \leq \epsilon / 3$  and  $|\mathbb{E}_Q[f] - \mathbb{E}_Q[g]| \leq \epsilon / 3$ .  
@@ -4793,7 +4787,7 @@ Computing  $D(P,Q,\mathcal{F})$
 - First, a general statement. By the reproducing property and linearity of the inner product, we can express expected function value as an inner product:
 
 $$
-\mathbb {E} _ {x \sim P} [ f (x) ] = \mathbb {E} _ {x \sim P} [ \langle k (\cdot , x), f \rangle ] = \left\langle \underbrace {\mathbb {E} _ {x \sim P} [ k (x , \cdot) ]} _ {\stackrel {\text {d e f}} {=} \mu_ {P}}, f \right\rangle . \tag {455}
+\mathbb{E} _{x \sim P} [ f (x) ] = \mathbb{E} _{x \sim P} [ \langle k (\cdot , x), f \rangle ] = \left\langle \underbrace{\mathbb{E} _{x \sim P} [ k (x , \cdot) ]} _{\stackrel{\text{def}} {=} \mu_{P}}, f \right\rangle . \tag{455}
 $$
 
 Here,  $\mu_P \in \mathcal{H}$  is the RKHS embedding of the probability distribution  $P$ .
@@ -4801,7 +4795,7 @@ Here,  $\mu_P \in \mathcal{H}$  is the RKHS embedding of the probability distrib
 - We can now write the MMD solution as follows:
 
 $$
-D (P, Q, \mathcal {F}) = \sup  _ {f \in \mathcal {F}} \left\langle \mu_ {P} - \mu_ {Q}, f \right\rangle = \| \mu_ {P} - \mu_ {Q} \| _ {\mathcal {H}}, \tag {456}
+D (P, Q, \mathcal{F}) = \sup_{f \in \mathcal{F}} \left\langle \mu_{P} - \mu_{Q}, f \right\rangle = \| \mu_{P} - \mu_{Q} \| _{\mathcal{H}}, \tag{456}
 $$
 
 where the sup is obtained by setting  $f$  to be a unit vector in the direction of  $\mu_P - \mu_Q$ .
@@ -4809,14 +4803,14 @@ where the sup is obtained by setting  $f$  to be a unit vector in the direction 
 - Unpacking the square of the last expression and rewriting in terms of kernel evaluations:
 
 $$
-\left\| \mu_ {P} - \mu_ {Q} \right\| _ {\mathcal {H}} ^ {2} = \mathbb {E} _ {P \times P} [ k (x, x ^ {\prime}) ] - \mathbb {E} _ {P \times Q} [ k (x, y) ] - \mathbb {E} _ {Q \times P} [ k (y, x) ] + \mathbb {E} _ {Q \times Q} [ k (y, y ^ {\prime}) ]. \tag {457}
+\left\| \mu_{P} - \mu_{Q} \right\| _{\mathcal{H}} ^{2} = \mathbb{E} _{P \times P} [ k (x, x^{\prime}) ] - \mathbb{E} _{P \times Q} [ k (x, y) ] - \mathbb{E} _{Q \times P} [ k (y, x) ] + \mathbb{E} _{Q \times Q} [ k (y, y^{\prime}) ]. \tag{457}
 $$
 
 - Of course, in practice, we only have samples from  $P, Q$ : let  $x_{1}, \ldots, x_{n} \sim P$  and  $y_{1}, \ldots, y_{n} \sim Q$  all be drawn independently.  
 - We can obtain an empirical estimate of  $D(P, Q, \mathcal{F})$  as a U-statistic (a U-statistic is a function which is an average over some function applied to all pairs of points):
 
 $$
-\hat {D} _ {n} (P, Q, \mathcal {F}) = \frac {1}{\binom {n} {2}} \sum_ {i <   j} [ k (x _ {i}, x _ {j}) - k (x _ {i}, y _ {j}) - k (y _ {i}, x _ {j}) + k (y _ {i}, y _ {j}) ]. \tag {458}
+\hat{D} _{n} (P, Q, \mathcal{F}) = \frac{1}{\binom{n} {2}} \sum_{i <   j} [ k (x_{i}, x_{j}) - k (x_{i}, y_{j}) - k (y_{i}, x_{j}) + k (y_{i}, y_{j}) ]. \tag{458}
 $$
 
 This estimate is unbiased, since the expectation of each term is  $D(P,Q,\mathcal{F})$ .
@@ -4848,7 +4842,7 @@ This estimate is unbiased, since the expectation of each term is  $D(P,Q,\mathca
 - Kar/Karnick, 2012: Random Feature Maps for Dot Product Kernels
 
 $$
-[ \text {b e g i n l e c t u r e 1 3} ] \tag {13}
+[ \text{b e g i n l e c t u r e 3} ] \tag{13}
 $$
 
 # 5 Online learning
@@ -4881,7 +4875,7 @@ Figure 9: Online learning game.
 - More formally, the learner is a function  $\mathcal{A}$  that returns the current prediction given the full history: $^{15}$
 
 $$
-p _ {t + 1} = \mathcal {A} \left(x _ {1: t}, p _ {1: t}, y _ {1: t}, x _ {t + 1}\right). \tag {459}
+p_{t + 1} = \mathcal{A} \left(x_{1: t}, p_{1: t}, y_{1: t}, x_{t + 1}\right). \tag{459}
 $$
 
 Nature can be defined similarly.
@@ -4906,7 +4900,7 @@ Nature can be defined similarly.
 - The first attempt is to just write down the cumulative loss of the learner:
 
 $$
-\sum_ {t = 1} ^ {T} \ell \left(y _ {t}, p _ {t}\right). \tag {460}
+\sum_{t = 1} ^{T} \ell \left(y_{t}, p_{t}\right). \tag{460}
 $$
 
 However, if we are in the adversarial setting, no algorithm can do better than the maximum regret  $T$  (for the zero-one loss) since the adversary can always choose  $y_{t} \neq p_{t}$ . What do you do when your performance is awful? You show that others are doing even worse than you.
@@ -4918,7 +4912,7 @@ However, if we are in the adversarial setting, no algorithm can do better than t
 * The regret of a learner with respect to an expert  $h$  is the cumulative difference between the loss incurred by the learner and the loss incurred by expert  $h$ :
 
 $$
-\operatorname {R e g r e t} (h) \stackrel {\text {d e f}} {=} \sum_ {t = 1} ^ {T} \left[ \ell \left(y _ {t}, p _ {t}\right) - \ell \left(y _ {t}, h \left(x _ {t}\right)\right) \right]. \tag {461}
+\operatorname{Regret} (h) \stackrel{\text{def}} {=} \sum_{t = 1} ^{T} \left[ \ell \left(y_{t}, p_{t}\right) - \ell \left(y_{t}, h \left(x_{t}\right)\right) \right]. \tag{461}
 $$
 
 Note that  $\operatorname{Regret}(h)$  depends on  $\mathcal{H}$ ,  $T$ , the sequences  $x_{1:T}, y_{1:T}$ , and of course the algorithm  $\mathcal{A}$  itself; but we're eliding the dependence on all of these things in the notation.
@@ -4926,13 +4920,13 @@ Note that  $\operatorname{Regret}(h)$  depends on  $\mathcal{H}$ ,  $T$ , the se
 * The regret with respect to a class of experts  $\mathcal{H}$  is the maximum regret
 
 $$
-\operatorname {R e g r e t} \stackrel {\text {d e f}} {=} \max  _ {h \in \mathcal {H}} \operatorname {R e g r e t} (h). \tag {462}
+\operatorname{Regret} \stackrel{\text{def}} {=} \max_{h \in \mathcal{H}} \operatorname{Regret} (h). \tag{462}
 $$
 
 Equivalently, we can write:
 
 $$
-\operatorname {R e g r e t} = \underbrace {\sum_ {t = 1} ^ {T} \ell \left(y _ {t} , p _ {t}\right)} _ {\text {l e a r n e r}} - \underbrace {\min  _ {h \in \mathcal {H}} \sum_ {t = 1} ^ {T} \ell \left(y _ {t} , h \left(x _ {t}\right)\right)} _ {\text {b e s t e x p e r t}}. \tag {463}
+\operatorname{Regret} = \underbrace{\sum_{t = 1} ^{T} \ell \left(y_{t} , p_{t}\right)} _{\text{learner}} - \underbrace{\min_{h \in \mathcal{H}} \sum_{t = 1} ^{T} \ell \left(y_{t} , h \left(x_{t}\right)\right)} _{\text{bestexpert}}. \tag{463}
 $$
 
 - The best expert is a role model for the learner. While it is technically possible for the learner to do better than all the experts since it can adapt over time (leading to negative regret), this generally won't happen, and therefore, we will be content with trying to achieve small positive regret.  
@@ -4942,7 +4936,7 @@ $$
 - In the next few lectures, we will prove results of the following form for various online learning algorithms  $\mathcal{A}$ : for all  $\mathcal{H}, T, x_{1:T}, y_{1:T}$ , we have:
 
 $$
-\operatorname {R e g r e t} \leq \operatorname {S o m e F u n c t i o n} (\mathcal {H}, T). \tag {464}
+\operatorname{Regret} \leq \operatorname{SomeFunction} (\mathcal{H}, T). \tag{464}
 $$
 
 Usually, we want the regret to be sublinear in  $T$ , which means that the average regret per example goes to zero.
@@ -4959,7 +4953,7 @@ Example 24 (negative result)
 - Claim: for all learners  $\mathcal{A}$ , there exists an  $\mathcal{H}$  and input/output sequence  $x_{1:T}, y_{1:T}$  such that:
 
 $$
-\boxed {\mathrm {R e g r e t} \geq T / 2} \quad [ \text {a w f u l} ] \tag {465}
+\boxed{\mathrm{Regret} \geq T / 2} \quad [ \text{awful} ] \tag{465}
 $$
 
 - **Key point:** adversary (having full knowledge of learner) can choose  $y_{t}$  to be always different from  $p_{t}$ .  
@@ -4995,7 +4989,7 @@ Assume the best expert  $h^* \in \mathcal{H}$  obtains zero cumulative loss  $(\
 * Take logs and rearrange:
 
 $$
-\boxed {\operatorname {R e g r e t} \leq \log_ {2} | \mathcal {H} |.} \tag {466}
+\boxed{\operatorname{Regret} \leq \log_{2} | \mathcal{H} |.} \tag{466}
 $$
 
 Notes:
@@ -5017,7 +5011,7 @@ Definition 25 (convexity)
 A function  $f: S \to \mathbb{R}$  is convex iff for all points  $w \in S$ , there is some vector  $z \in \mathbb{R}^d$  such that
 
 $$
-\boxed {f (u) \geq f (w) + z \cdot (u - w) \quad \text {f o r a l l} u \in S.} \tag {467}
+\boxed{f (u) \geq f (w) + z \cdot (u - w) \quad \text{forall} u \in S.} \tag{467}
 $$
 
 This says that at any point  $w \in S$ , we can find a linear approximation (RHS of (467)) that lower bounds the function  $f$  (LHS of (467)).
@@ -5027,7 +5021,7 @@ Definition 26 (subgradient)
 For each  $w \in S$ , the set of all  $z$  satisfying (467) are known as the subgradients at  $w$ :
 
 $$
-\left| \partial f (w) \stackrel {\text {d e f}} {=} \{z: f (u) \geq f (w) + z \cdot (u - w) \text {f o r a l l} u \in S \}. \right| \tag {468}
+\left| \partial f (w) \stackrel{\text{def}} {=} \{z: f (u) \geq f (w) + z \cdot (u - w) \text{forall} u \in S \}. \right| \tag{468}
 $$
 
 If  $f$  is differentiable at  $w$ , then there is one subgradient equal to the gradient:  $\partial f(w) = \{\nabla f(w)\}$ .
@@ -5065,17 +5059,17 @@ $\partial f(w) = \{-yx\alpha :\alpha \in [0,1]\}$  if  $y(w\cdot x) = 1$
 Formally, the learner  $\mathcal{A}$  chooses  $w_{t + 1}$  depending on the past:
 
 $$
-w _ {t + 1} = \mathcal {A} \left(w _ {1: t}, f _ {1: t}\right). \tag {469}
+w_{t + 1} = \mathcal{A} \left(w_{1: t}, f_{1: t}\right). \tag{469}
 $$
 
 - Regret is defined in the way you would expect (cumulative difference of losses):
 
 $$
-\operatorname {R e g r e t} (u) \stackrel {\text {d e f}} {=} \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right]. \tag {470}
+\operatorname{Regret} (u) \stackrel{\text{def}} {=} \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right]. \tag{470}
 $$
 
 $$
-\operatorname {R e g r e t} \stackrel {\text {d e f}} {=} \max  _ {u \in S} \operatorname {R e g r e t} (u). \tag {471}
+\operatorname{Regret} \stackrel{\text{def}} {=} \max_{u \in S} \operatorname{Regret} (u). \tag{471}
 $$
 
 - The set  $S$  plays two roles: it is the set of experts with which we define our regret, and it is also the set of parameters that our learner is going to consider. For simplicity, we assume these two are the same, although in general, they do not have to be.
@@ -5096,7 +5090,7 @@ $$
 - OL relays the feedback to OCO via the loss function
 
 $$
-f _ {t} (w) = \left(w \cdot x _ {t} - y _ {t}\right) ^ {2}. \tag {472}
+f_{t} (w) = \left(w \cdot x_{t} - y_{t}\right) ^{2}. \tag{472}
 $$
 
 Note that  $(x_{t},y_{t})$  is baked into  $f_{t}$ , which changes each iteration. Since the squared loss is convex,  $f_{t}$  is convex. One can check easily based on matching definitions that the regret of OCO is exactly the same as regret of OL.
@@ -5107,7 +5101,7 @@ Note that  $(x_{t},y_{t})$  is baked into  $f_{t}$ , which changes each iteratio
 * Assume we have a finite number (this is important) of experts  $\mathcal{H}$ , which the learner can query. Let
 
 $$
-\mathcal {H} = \{h _ {1}, \dots , h _ {d} \}. \tag {473}
+\mathcal{H} = \{h_{1}, \dots , h_{d} \}. \tag{473}
 $$
 
 * Assume we are doing binary classification with the zero-one loss (this is not important—any bounded loss function will do),  $\ell(y_t, p_t) = \mathbb{I}[y_t \neq p_t]$ .  
@@ -5122,13 +5116,13 @@ $$
 - OL relays the feedback to OCO via the loss function
 
 $$
-f _ {t} (w) = w \cdot z _ {t}, \tag {474}
+f_{t} (w) = w \cdot z_{t}, \tag{474}
 $$
 
 where  $z_{t}$  is the vector of losses incurred by each expert:
 
 $$
-z _ {t} = \left[ \ell \left(y _ {t}, h _ {1} \left(x _ {t}\right)\right), \dots , \ell \left(y _ {t}, h _ {d} \left(x _ {t}\right)\right) \right] \in \{0, 1 \} ^ {d}. \tag {475}
+z_{t} = \left[ \ell \left(y_{t}, h_{1} \left(x_{t}\right)\right), \dots , \ell \left(y_{t}, h_{d} \left(x_{t}\right)\right) \right] \in \{0, 1 \} ^{d}. \tag{475}
 $$
 
 Again,  $f_{t}$  bakes the loss and the data into the same function, and one can check that the expected regret of OL is the same as the regret of OCO. Note that we assume no structure on  $x_{t}$  and  $y_{t}$  — they could be arbitrarily complicated; we are only exposed to them via the experts and the loss function.
@@ -5146,7 +5140,7 @@ We first start out with a natural algorithm called follow the leader (FTL), whic
 - The learner chooses the weight vector  $w_{t} \in S$  that minimizes the cumulative loss so far on the previous  $t - 1$  iterations:
 
 $$
-\boxed {w _ {t} \in \arg \min  _ {w \in S} \sum_ {i = 1} ^ {t - 1} f _ {i} (w).} \tag {476}
+\boxed{w_{t} \in \arg \min_{w \in S} \sum_{i = 1} ^{t - 1} f_{i} (w).} \tag{476}
 $$
 
 (If there are multiple minima, choose any one of them. This is not important.)
@@ -5162,7 +5156,7 @@ $$
 - Let  $w_{1}, \ldots, w_{T}$  be produced by FTL according to (476). For any  $u \in S$ :
 
 $$
-\operatorname {R e g r e t} (u) \stackrel {\text {d e f}} {=} \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right] \leq \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) \right]. \tag {477}
+\operatorname{Regret} (u) \stackrel{\text{def}} {=} \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right] \leq \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) \right]. \tag{477}
 $$
 
 - Note: This is saying our regret against the best fixed  $u$  is no worse than comparing against the one-step lookahead  $w_{t+1}$  that peeks at the current function  $f_t$  (which is cheating!).  
@@ -5173,7 +5167,7 @@ Proof of Lemma 7:
 - Subtracting  $\sum_{t} f_{t}(w_{t})$  from both sides, it suffices to show
 
 $$
-\sum_ {t = 1} ^ {T} f _ {t} \left(w _ {t + 1}\right) \leq \sum_ {t = 1} ^ {T} f _ {t} (u) \tag {478}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T} f_{t} (u) \tag{478}
 $$
 
 for all  $u \in S$ . Intuitively, this says that  $w_{t+1}$  (which takes the minimum over the first  $t$  functions) is better than using a fixed  $u$  for all time.
@@ -5183,25 +5177,25 @@ Proof by induction:
 * Assume the inductive hypothesis on  $T - 1$ :
 
 $$
-\sum_ {t = 1} ^ {T - 1} f _ {t} \left(w _ {t + 1}\right) \leq \sum_ {t = 1} ^ {T - 1} f _ {t} (u) \quad \text {f o r a l l} u \in S. \tag {479}
+\sum_{t = 1} ^{T - 1} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) \quad \text{forall} u \in S. \tag{479}
 $$
 
 * Add  $f_{T}(w_{T + 1})$  to both sides:
 
 $$
-\sum_ {t = 1} ^ {T} f _ {t} \left(w _ {t + 1}\right) \leq \sum_ {t = 1} ^ {T - 1} f _ {t} (u) + f _ {T} \left(w _ {T + 1}\right) \text {f o r a l l} u \in S. \tag {480}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T - 1} f_{t} (u) + f_{T} \left(w_{T + 1}\right) \text{forall} u \in S. \tag{480}
 $$
 
 * In particular, this holds for  $u = w_{T + 1}$ , so we have:
 
 $$
-\sum_ {t = 1} ^ {T} f _ {t} \left(w _ {t + 1}\right) \leq \sum_ {t = 1} ^ {T} f _ {t} \left(w _ {T + 1}\right). \tag {481}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T} f_{t} \left(w_{T + 1}\right). \tag{481}
 $$
 
 * Since  $w_{T + 1} \in \arg \min_u \sum_{t = 1}^T f_t(u)$  by definition of FTL, we have:
 
 $$
-\sum_ {t = 1} ^ {T} f _ {t} \left(w _ {t + 1}\right) \leq \sum_ {t = 1} ^ {T} f _ {t} (u) \text {f o r a l l} u \in S, \tag {482}
+\sum_{t = 1} ^{T} f_{t} \left(w_{t + 1}\right) \leq \sum_{t = 1} ^{T} f_{t} (u) \text{forall} u \in S, \tag{482}
 $$
 
 which is the inductive hypothesis for  $T$ .
@@ -5213,7 +5207,7 @@ Example 28 (quadratic optimization: FTL works)
 - Assume nature always chooses quadratic functions:
 
 $$
-f _ {t} (w) = \frac {1}{2} \| w - z _ {t} \| _ {2} ^ {2}, \tag {483}
+f_{t} (w) = \frac{1}{2} \| w - z_{t} \| _{2} ^{2}, \tag{483}
 $$
 
 where the points are bounded:  $\| z_t\| _2\leq L$  for all  $t = 1,\ldots ,T$ .
@@ -5221,25 +5215,25 @@ where the points are bounded:  $\| z_t\| _2\leq L$  for all  $t = 1,\ldots ,T$ .
 - FTL (minimizing over  $S = \mathbb{R}^d$ ) has a closed form solution, which is just the average of the previous points:
 
 $$
-w _ {t} = \frac {1}{t - 1} \sum_ {i = 1} ^ {t - 1} z _ {i}. \tag {484}
+w_{t} = \frac{1}{t - 1} \sum_{i = 1} ^{t - 1} z_{i}. \tag{484}
 $$
 
 - Bound one term of the RHS of Lemma 7 (intuitively the difference is only one term):
 
 $$
-\begin{array}{l} f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) = \frac {1}{2} \left\| w _ {t} - z _ {t} \right\| _ {2} ^ {2} - \frac {1}{2} \left\| (1 - 1 / t) w _ {t} + (1 / t) z _ {t} - z _ {t} \right\| _ {2} ^ {2} (485) \\ = \frac {1}{2} (1 - (1 - 1 / t) ^ {2}) \| w _ {t} - z _ {t} \| _ {2} ^ {2} (486) \\ \leq (1 / t) \| w _ {t} - z _ {t} \| _ {2} ^ {2} (487) \\ \leq (1 / t) 4 L ^ {2}. (488) \\ \end{array}
+\begin{array}{l} f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) = \frac{1}{2} \left\| w_{t} - z_{t} \right\| _{2} ^{2} - \frac{1}{2} \left\| (1 - 1 / t) w_{t} + (1 / t) z_{t} - z_{t} \right\| _{2} ^{2} (485) \\ = \frac{1}{2} (1 - (1 - 1 / t) ^{2}) \| w_{t} - z_{t} \| _{2} ^{2} (486) \\ \leq (1 / t) \| w_{t} - z_{t} \| _{2} ^{2} (487) \\ \leq (1 / t) 4 L^{2}. (488) \\ \end{array}
 $$
 
 - Side calculation: summing  $1 / t$  yields  $\log T$ :
 
 $$
-\sum_ {t = 1} ^ {T} (1 / t) \leq 1 + \int_ {1} ^ {T} (1 / t) d t = \log (T) + 1. \tag {489}
+\sum_{t = 1} ^{T} (1 / t) \leq 1 + \int_{1} ^{T} (1 / t) d t = \log (T) + 1. \tag{489}
 $$
 
 - Summing over  $t$  yields:
 
 $$
-\left. \operatorname {R e g r e t} \leq \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) \right] \leq 4 L ^ {2} (\log (T) + 1). \right. \tag {490}
+\left. \operatorname{Regret} \leq \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) \right] \leq 4 L^{2} (\log (T) + 1). \right. \tag{490}
 $$
 
 - The important thing here is that the difference between  $w_{t}$  and  $w_{t + 1}$  (measured in terms of loss) is really small (only  $1 / t$ ), which means that FTL for quadratic functions is really stable. This makes sense because averages are stable: adding an extra data point should only affect the running average by  $O(1 / t)$ .
@@ -5252,13 +5246,13 @@ Example 29 (linear optimization: FTL fails)
 - Consider linear functions  $f_{t}(w) = wz_{t}$  in  $d = 1$  dimension, where
 
 $$
-\left(z _ {1}, z _ {2}, \dots\right) = (- 0. 5, 1, - 1, 1, - 1, 1, - 1, \dots). \tag {491}
+\left(z_{1}, z_{2}, \dots\right) = (- 0. 5, 1, - 1, 1, - 1, 1, - 1, \dots). \tag{491}
 $$
 
 - The minimizer computed by FTL will be attained at an extreme point, causing oscillating behavior.
 
 $$
-\left(w _ {1}, w _ {2}, \dots\right) = (0, 1, - 1, 1, - 1, 1, - 1, 1, \dots). \tag {492}
+\left(w_{1}, w_{2}, \dots\right) = (0, 1, - 1, 1, - 1, 1, - 1, 1, \dots). \tag{492}
 $$
 
 - FTL obtains  $T - 1$  cumulative loss (get loss 1 on every single example except the first).  
@@ -5266,7 +5260,7 @@ $$
 - Therefore, the regret is pretty depressing:
 
 $$
-\boxed {\text {R e g r e t} \geq T - 1}. \tag {493}
+\boxed{\text{Regret} \geq T - 1}. \tag{493}
 $$
 
 What's the lesson?
@@ -5277,7 +5271,7 @@ What's the lesson?
 - We will reveal the more general principle (strong convexity) later work.
 
 $$
-[ \text {b e g i n l e c t u r e 1 4} ] \tag {14}
+[ \text{b e g i n l e c t u r e 4} ] \tag{14}
 $$
 
 # 5.5 Follow the regularized leader (FTRL) (Lecture 14)
@@ -5290,7 +5284,7 @@ $$
 - On iteration  $t$ , the learner chooses the weight vector that minimizes the regularizer plus the losses on the first  $t - 1$  examples:
 
 $$
-\boxed {w _ {t} \in \arg \min  _ {w \in S} \psi (w) + \sum_ {i = 1} ^ {t - 1} f _ {i} (w).} \tag {494}
+\boxed{w_{t} \in \arg \min_{w \in S} \psi (w) + \sum_{i = 1} ^{t - 1} f_{i} (w).} \tag{494}
 $$
 
 - Note: FTL is just FTRL with  $\psi = 0$ .
@@ -5300,19 +5294,19 @@ $$
 - For the remainder of the section, just to build the right intuition in a transparent way, let's specialize to quadratic regularizers  $\psi$  and linear loss functions  $f_{t}$ :
 
 $$
-\psi (w) = \frac {1}{2 \eta} \| w \| _ {2} ^ {2}, \quad f _ {t} (w) = w \cdot z _ {t}. \tag {495}
+\psi (w) = \frac{1}{2 \eta} \| w \| _{2} ^{2}, \quad f_{t} (w) = w \cdot z_{t}. \tag{495}
 $$
 
 - Then the FTRL optimization problem (494) is:
 
 $$
-w _ {t} = \arg \min  _ {w \in S} \left\{\frac {1}{2 \eta} \| w \| _ {2} ^ {2} - w \cdot \theta_ {t} \right\}, \tag {496}
+w_{t} = \arg \min_{w \in S} \left\{\frac{1}{2 \eta} \| w \| _{2} ^{2} - w \cdot \theta_{t} \right\}, \tag{496}
 $$
 
 where
 
 $$
-\theta_ {t} = - \sum_ {i = 1} ^ {t - 1} z _ {i} \tag {497}
+\theta_{t} = - \sum_{i = 1} ^{t - 1} z_{i} \tag{497}
 $$
 
 is the negative sum of the gradients  $z_{t}$ . Interpret  $\theta_{t}$  as the direction that we want to move in to reduce the loss, but now, unlike in FTL, we're held back by the quadratic regularizer.
@@ -5320,13 +5314,13 @@ is the negative sum of the gradients  $z_{t}$ . Interpret  $\theta_{t}$  as the 
 - If  $S = \mathbb{R}^d$ , then FTRL has a closed form solution:
 
 $$
-w _ {t} = \eta \theta_ {t}, \tag {498}
+w_{t} = \eta \theta_{t}, \tag{498}
 $$
 
 a scaled down version of  $\theta_{t}$ . We can write  $w_{t} = -\eta z_{1} - \eta z_{2} - \dots - \eta z_{t-1}$  and equivalently think of the weights as being updated incrementally according to the following recurrence:
 
 $$
-\boxed {w _ {t + 1} = w _ {t} - \eta z _ {t}.} \tag {499}
+\boxed{w_{t + 1} = w_{t} - \eta z_{t}.} \tag{499}
 $$
 
 From this perspective, the recurrence in (499) looks awfully like an online subgradient update where  $z_{t}$  is the gradient and  $\eta$  is the step size.
@@ -5334,7 +5328,7 @@ From this perspective, the recurrence in (499) looks awfully like an online subg
 - If  $S \neq \mathbb{R}^d$ , then FTRL requires a projection onto  $S$ . We rewrite (496) by completing the square (add  $\frac{\eta}{2}\|\theta_t\|_2^2$ ):
 
 $$
-\left| w _ {t} \in \arg \min  _ {w \in S} \frac {1}{2 \eta} \| w - \eta \theta_ {t} \| _ {2} ^ {2} = \Pi_ {S} (\eta \theta_ {t}), \right| \tag {500}
+\left| w_{t} \in \arg \min_{w \in S} \frac{1}{2 \eta} \| w - \eta \theta_{t} \| _{2} ^{2} = \Pi_{S} (\eta \theta_{t}), \right| \tag{500}
 $$
 
 which is a Euclidean projection of  $\eta \theta_{t}$  onto set  $S$ . This is called a lazy projection since  $\theta_{t}$  still accumulates unprojected gradients, and we only project when we need to obtain a weight vector  $w_{t}$  for prediction. This is also known as Nesterov's dual averaging algorithm.
@@ -5356,7 +5350,7 @@ which is a Euclidean projection of  $\eta \theta_{t}$  onto set  $S$ . This is c
 - Then the regret of FTRL (as defined in Algorithm 3) with respect to any  $u \in S$  is as follows:
 
 $$
-\left| \operatorname {R e g r e t} (u) \leq \frac {1}{2 \eta} \| u \| _ {2} ^ {2} + \frac {\eta}{2} \sum_ {t = 1} ^ {T} \| z _ {t} \| _ {2} ^ {2}. \right| \tag {501}
+\left| \operatorname{Regret} (u) \leq \frac{1}{2 \eta} \| u \| _{2} ^{2} + \frac{\eta}{2} \sum_{t = 1} ^{T} \| z_{t} \| _{2} ^{2}. \right| \tag{501}
 $$
 
 - Interpretation: the step size  $\eta$  allows us to trade off two terms:
@@ -5375,7 +5369,7 @@ Corollary:
 Now (501) can be rewritten as:
 
 $$
-\operatorname {R e g r e t} (u) \leq \frac {B ^ {2}}{2 \eta} + \frac {\eta T L ^ {2}}{2}. \tag {502}
+\operatorname{Regret} (u) \leq \frac{B^{2}}{2 \eta} + \frac{\eta T L^{2}}{2}. \tag{502}
 $$
 
 - Side calculation:
@@ -5386,7 +5380,7 @@ $$
 - Letting  $a = B^2 / 2$  and  $b = TL^2 / 2$ , we get  $\eta = \frac{B}{L\sqrt{T}}$  and
 
 $$
-\boxed {\operatorname {R e g r e t} \leq B L \sqrt {T}.} \tag {503}
+\boxed{\operatorname{Regret} \leq B L \sqrt{T}.} \tag{503}
 $$
 
 Note that the average regret goes to zero as desired, even though not as fast as for quadratic functions  $(\log T)$ .
@@ -5396,26 +5390,26 @@ Proof of weakened version of Theorem 30
 - We will prove Theorem 30 later using Bregman divergences, but just to give some intuition without requiring too much technical machinery, we will instead prove a slightly weaker result (note that the second term is looser by a factor of 2):
 
 $$
-\boxed {R e g r e t (u) \leq \frac {1}{2 \eta} \| u \| _ {2} ^ {2} + \eta \sum_ {t = 1} ^ {T} \| z _ {t} \| _ {2} ^ {2}.} \tag {504}
+\boxed{R e g r e t (u) \leq \frac{1}{2 \eta} \| u \| _{2} ^{2} + \eta \sum_{t = 1} ^{T} \| z_{t} \| _{2} ^{2}.} \tag{504}
 $$
 
 - The key idea is to reduce FTRL to FTL. Observe that FTRL is the same as FTL where the first function is the regularizer.  
 - Let us then apply Lemma 7 to the sequence of functions  $\psi, f_1, \ldots, f_T$  (when applying the theorem, note that the indices are shifted by 1). This results in the bound:
 
 $$
-\left[ \psi \left(w _ {0}\right) - \psi (u) \right] + \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right] \leq \left[ \psi \left(w _ {0}\right) - \psi \left(w _ {1}\right) \right] + \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) \right]. \tag {505}
+\left[ \psi \left(w_{0}\right) - \psi (u) \right] + \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right] \leq \left[ \psi \left(w_{0}\right) - \psi \left(w_{1}\right) \right] + \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) \right]. \tag{505}
 $$
 
 - Canceling  $\psi(w_0)$ , noting that  $\psi(w_1) \geq 0$ , and rearranging, we get:
 
 $$
-\operatorname {R e g r e t} (u) \stackrel {\text {d e f}} {=} \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right] \leq \frac {1}{2 \eta} \| u \| _ {2} ^ {2} + \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) \right]. \tag {506}
+\operatorname{Regret} (u) \stackrel{\text{def}} {=} \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right] \leq \frac{1}{2 \eta} \| u \| _{2} ^{2} + \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) \right]. \tag{506}
 $$
 
 - Now let's bound one term of the RHS sum:
 
 $$
-\begin{array}{l} f _ {t} \left(w _ {t}\right) - f _ {t} \left(w _ {t + 1}\right) = z _ {t} \cdot \left(w _ {t} - w _ {t + 1}\right) [ \text {s i n c e} f _ {t} (w) = w \cdot z _ {t} ] (507) \\ \leq \left\| z _ {t} \right\| _ {2} \left\| w _ {t} - w _ {t + 1} \right\| _ {2} \quad [ \text {C a u c h y - S c h w a r t z} ] (508) \\ = \| z _ {t} \| _ {2} \| \Pi_ {S} (\eta \theta_ {t}) - \Pi_ {S} (\eta \theta_ {t + 1}) \| _ {2} [ \text {s i n c e} w _ {t} = \Pi_ {S} (\eta \theta_ {t}) ] (509) \\ \leq \left\| z _ {t} \right\| _ {2} \left\| \eta \theta_ {t} - \eta \theta_ {t + 1} \right\| _ {2} \quad [ \text {p r o j e c t i o n d e c r e a s e s d i s t a n c e} ] (510) \\ = \eta \| z _ {t} \| _ {2} ^ {2} [ \text {s i n c e} \theta_ {t + 1} = \theta_ {t} - z _ {t} ]. (511) \\ \end{array}
+\begin{array}{l} f_{t} \left(w_{t}\right) - f_{t} \left(w_{t + 1}\right) = z_{t} \cdot \left(w_{t} - w_{t + 1}\right) [ \text{since} f_{t} (w) = w \cdot z_{t} ] (507) \\ \leq \left\| z_{t} \right\| _{2} \left\| w_{t} - w_{t + 1} \right\| _{2} \quad [ \text{C a u c h y - S c h w a r t z} ] (508) \\ = \| z_{t} \| _{2} \| \Pi_{S} (\eta \theta_{t}) - \Pi_{S} (\eta \theta_{t + 1}) \| _{2} [ \text{since} w_{t} = \Pi_{S} (\eta \theta_{t}) ] (509) \\ \leq \left\| z_{t} \right\| _{2} \left\| \eta \theta_{t} - \eta \theta_{t + 1} \right\| _{2} \quad [ \text{projectiondecreasesdistance} ] (510) \\ = \eta \| z_{t} \| _{2} ^{2} [ \text{since} \theta_{t + 1} = \theta_{t} - z_{t} ]. (511) \\ \end{array}
 $$
 
 Plugging this bound back into (506) completes the proof.
@@ -5438,13 +5432,13 @@ Plugging this bound back into (506) completes the proof.
 * If  $S = \mathbb{R}^d$ , perform the update:
 
 $$
-w _ {t + 1} = w _ {t} - \eta z _ {t}. \tag {512}
+w_{t + 1} = w_{t} - \eta z_{t}. \tag{512}
 $$
 
 * If  $S \subseteq \mathbb{R}^d$ , project cumulative gradients onto  $S$ :
 
 $$
-w _ {t + 1} = \Pi_ {S} \left(\eta \theta_ {t + 1}\right), \quad \theta_ {t + 1} = \theta_ {t} - z _ {t}. \tag {513}
+w_{t + 1} = \Pi_{S} \left(\eta \theta_{t + 1}\right), \quad \theta_{t + 1} = \theta_{t} - z_{t}. \tag{513}
 $$
 
 - To emphasize: OGD on  $f_{t}$  is nothing more than FTRL on quadratic regularizers and linear subgradient approximations of  $f_{t}$ .  
@@ -5453,26 +5447,26 @@ $$
 - From our earlier analysis of FTRL (Theorem 30), we already have a bound on the regret on the linearized losses:
 
 $$
-\sum_ {t = 1} ^ {T} \left[ w _ {t} \cdot z _ {t} - u \cdot z _ {t} \right]. \tag {514}
+\sum_{t = 1} ^{T} \left[ w_{t} \cdot z_{t} - u \cdot z_{t} \right]. \tag{514}
 $$
 
 - We are interested on controlling the actual regret with respect to  $f_{t}$ :
 
 $$
-\sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f (u) \right]. \tag {515}
+\sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f (u) \right]. \tag{515}
 $$
 
 - How do we relate these two? Here's where convexity comes in a crucial way.  
 - Since  $z_{t} \in \partial f_{t}(w_{t})$  is a subgradient, we have by the definition of subgradient:
 
 $$
-f _ {t} (u) \geq f _ {t} \left(w _ {t}\right) + z _ {t} \cdot \left(u - w _ {t}\right). \tag {516}
+f_{t} (u) \geq f_{t} \left(w_{t}\right) + z_{t} \cdot \left(u - w_{t}\right). \tag{516}
 $$
 
 Rearranging, we get a direct comparison for each term of the regret:
 
 $$
-\boxed {f _ {t} \left(w _ {t}\right) - f _ {t} (u) \leq \left(w _ {t} \cdot z _ {t}\right) - \left(u \cdot z _ {t}\right).} \tag {517}
+\boxed{f_{t} \left(w_{t}\right) - f_{t} (u) \leq \left(w_{t} \cdot z_{t}\right) - \left(u \cdot z_{t}\right).} \tag{517}
 $$
 
 - The upshot is that the bounds we got for linear losses apply without modification to general losses! Intuitively, linear functions are the hardest to optimize using online convex optimization.  
@@ -5491,7 +5485,7 @@ Example 30 (Online SVM)
 - We will just apply OGD on the hinge loss for classification  $(x_{t} \in \mathbb{R}^{d}, y_{t} \in \{+1, -1\})$ :
 
 $$
-f _ {t} (w) = \max  \{0, 1 - y _ {t} (w \cdot x _ {t}) \}. \tag {518}
+f_{t} (w) = \max  \{0, 1 - y_{t} (w \cdot x_{t}) \}. \tag{518}
 $$
 
 The algorithm (assume  $S = \mathbb{R}^d$ , so we don't need to project):
@@ -5506,7 +5500,7 @@ The algorithm (assume  $S = \mathbb{R}^d$ , so we don't need to project):
 * The regret bound from Theorem 30 is as follows:
 
 $$
-\left. \operatorname {R e g r e t} \leq B L \sqrt {T}. \right| \tag {519}
+\left. \operatorname{Regret} \leq B L \sqrt{T}. \right| \tag{519}
 $$
 
 Example 31 (Learning with expert advice)
@@ -5518,7 +5512,7 @@ Example 31 (Learning with expert advice)
 * The loss function is linear:  $f_{t}(w_{t}) = w_{t} \cdot z_{t}$ , where
 
 $$
-z _ {t} = \left[ \ell \left(y _ {t}, h _ {1} \left(x _ {t}\right)\right), \dots , \ell \left(y _ {t}, h _ {d} \left(x _ {t}\right)\right) \right] \in \{0, 1 \} ^ {d} \tag {520}
+z_{t} = \left[ \ell \left(y_{t}, h_{1} \left(x_{t}\right)\right), \dots , \ell \left(y_{t}, h_{d} \left(x_{t}\right)\right) \right] \in \{0, 1 \} ^{d} \tag{520}
 $$
 
 is the loss vector.
@@ -5531,7 +5525,7 @@ is the loss vector.
 * Therefore, the regret bound we get is
 
 $$
-\boxed {\operatorname {R e g r e t} \leq B L \sqrt {T} = \sqrt {d T}.} \tag {521}
+\boxed{\operatorname{Regret} \leq B L \sqrt{T} = \sqrt{d T}.} \tag{521}
 $$
 
 - Note that we are depending on the square root of the number of experts  $d$  rather than the log of the number of experts in our first online learning bound for learning with expert advice. Can we obtain a  $\log d$  dependence without assuming realizability? We will find out in the next section.
@@ -5549,7 +5543,7 @@ So far, we have analyzed FTRL for quadratic regularizers, which leads to (lazy p
 - On each iteration  $t = 1, \ldots, T$ , the learner chooses weights  $w_{t}$  to minimize the regularized (linearized) loss:
 
 $$
-w _ {t} \in \arg \min  _ {w \in \mathbb {R} ^ {d}} \left\{\psi (w) - w \cdot \theta_ {t} \right\}, \tag {522}
+w_{t} \in \arg \min_{w \in \mathbb{R} ^{d}} \left\{\psi (w) - w \cdot \theta_{t} \right\}, \tag{522}
 $$
 
 where  $z_{t} \in \partial f_{t}(w_{t})$  is the  $t$ -th subgradient, and  $\theta_{t} = -\sum_{i=1}^{t-1} z_{i}$  is the negative sum of the first  $t-1$  subgradients.
@@ -5575,7 +5569,7 @@ Examples of regularizers:
 * The Fenchel conjugate<sup>18</sup> of a function (not necessarily convex)  $\psi : \mathbb{R}^d \to \mathbb{R}$  is
 
 $$
-\psi^ {*} (\theta) \stackrel {\text {d e f}} {=} \sup  _ {w \in \mathbb {R} ^ {d}} \{w \cdot \theta - \psi (w) \}. \tag {523}
+\psi^{*} (\theta) \stackrel{\text{def}} {=} \sup_{w \in \mathbb{R} ^{d}} \{w \cdot \theta - \psi (w) \}. \tag{523}
 $$
 
 - Intuition
@@ -5597,13 +5591,13 @@ $$
 *  $\psi^{**} = \psi$  iff  $\psi$  is convex (and lower semi-continuous). In this case, we have
 
 $$
-\psi (w) = \psi^ {* *} (w) = \sup  _ {\theta \in \mathbb {R} ^ {d}} \left\{w \cdot \theta - \psi^ {*} (\theta) \right\}. \tag {524}
+\psi (w) = \psi^{* *} (w) = \sup_{\theta \in \mathbb{R} ^{d}} \left\{w \cdot \theta - \psi^{*} (\theta) \right\}. \tag{524}
 $$
 
 * If  $\psi$  is differentiable, then
 
 $$
-\nabla \psi^ {*} (\theta) = \arg \max  _ {w \in \mathbb {R} ^ {d}} \{w \cdot \theta - \psi (w) \}. \tag {525}
+\nabla \psi^{*} (\theta) = \arg \max_{w \in \mathbb{R} ^{d}} \{w \cdot \theta - \psi (w) \}. \tag{525}
 $$
 
 This is because the gradient of the supremum of a collection of functions at  $\theta$  is the gradient of the function that attains the max at  $\theta$ .
@@ -5617,7 +5611,7 @@ This is because the gradient of the supremum of a collection of functions at  $\
 * We have a one-to-one mapping between weights  $w$  and negative cumulative subgradients  $\theta$ , linked via the gradients of  $\psi$  and  $\psi^*$ , which are inverses of one another:
 
 $$
-\boxed {w _ {t} = \nabla \psi^ {*} (\theta_ {t}), \quad \theta_ {t} = \nabla \psi (w _ {t}).} \tag {526}
+\boxed{w_{t} = \nabla \psi^{*} (\theta_{t}), \quad \theta_{t} = \nabla \psi (w_{t}).} \tag{526}
 $$
 
 * This provides a very elegant view of what online mirror descent is doing. OMD takes a series of gradient updates  $\theta_{t+1} = \theta_t - z_t$ , generating  $\theta_1, \theta_2, \ldots, \theta_T$ . These steps are mirrored via Fenchel duality in the sequence  $w_1, w_2, \ldots, w_T$ .
@@ -5653,7 +5647,7 @@ $$
 * The Bregman divergence between  $w$  and  $u$  is the difference at  $w$  between  $f$  and a linear approximation around  $u$ :
 
 $$
-\boxed {D _ {f} (w \| u) \stackrel {\text {d e f}} {=} f (w) - f (u) - \nabla f (u) \cdot (w - u).} \tag {527}
+\boxed{D_{f} (w \| u) \stackrel{\text{def}} {=} f (w) - f (u) - \nabla f (u) \cdot (w - u).} \tag{527}
 $$
 
 * Intuitively, the divergence captures the error of the linear approximation of  $f$  based on the gradient  $\nabla f(u)$ .  
@@ -5679,7 +5673,7 @@ $$
 - OMD (Algorithm 5) obtains the following regret bound:
 
 $$
-\boxed {\operatorname {R e g r e t} (u) \leq [ \psi (u) - \psi \left(w _ {1}\right) ] + \sum_ {t = 1} ^ {T} D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right).} \tag {528}
+\boxed{\operatorname{Regret} (u) \leq [ \psi (u) - \psi \left(w_{1}\right) ] + \sum_{t = 1} ^{T} D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right).} \tag{528}
 $$
 
 - Furthermore, if all  $f_{t}$ 's are linear, the inequality is actually an equality if  $u$  is the best expert. So this bound is pretty air tight.
@@ -5697,7 +5691,7 @@ Proof of Theorem 31:
 - The expert:
 
 $$
-\begin{array}{l} \psi^ {*} \left(\theta_ {T + 1}\right) \geq u \cdot \theta_ {T + 1} - \psi (u) (529) \\ = \sum_ {t = 1} ^ {T} \left[ - u \cdot z _ {t} \right] - \psi (u) (530) \\ \end{array}
+\begin{array}{l} \psi^{*} \left(\theta_{T + 1}\right) \geq u \cdot \theta_{T + 1} - \psi (u) (529) \\ = \sum_{t = 1} ^{T} \left[ - u \cdot z_{t} \right] - \psi (u) (530) \\ \end{array}
 $$
 
 by the Fenchel-Young inequality. Note that we have equality if  $u$  is the best expert, by definition of  $\psi^*$ .
@@ -5705,7 +5699,7 @@ by the Fenchel-Young inequality. Note that we have equality if  $u$  is the best
 - The learner:
 
 $$
-\begin{array}{l} \psi^ {*} \left(\theta_ {T + 1}\right) = \psi^ {*} \left(\theta_ {1}\right) + \sum_ {t = 1} ^ {T} \left[ \psi^ {*} \left(\theta_ {t + 1}\right) - \psi^ {*} \left(\theta_ {t}\right) \right] \quad [ \text {t e l e s c o p i n g s u m s} ] (531) \\ = \psi^ {*} \left(\theta_ {1}\right) + \sum_ {t = 1} ^ {T} \left[ \nabla \psi^ {*} \left(\theta_ {t}\right) \cdot \left(\theta_ {t + 1} - \theta_ {t}\right) + D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) \right] \quad \text {[ B r e g m a n d e f i n i t i ]} (532) \\ = \psi^ {*} \left(\theta_ {1}\right) + \sum_ {t = 1} ^ {T} \left[ - w _ {t} \cdot z _ {t} + D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) \right] \quad [ \text {d e f i n i t i o n o f O M D (5 2 6) a n d} \theta_ {t} ]. (533) \\ \end{array}
+\begin{array}{l} \psi^{*} \left(\theta_{T + 1}\right) = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescopingsums} ] (531) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ \nabla \psi^{*} \left(\theta_{t}\right) \cdot \left(\theta_{t + 1} - \theta_{t}\right) + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad \text{[ B r e g m a n d e f i n i t i ]} (532) \\ = \psi^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} \left[ - w_{t} \cdot z_{t} + D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \right] \quad [ \text{d e f i n i t i o n o f O M D (6) a n d} \theta_{t} ]. (533) \\ \end{array}
 $$
 
 Note that  $\psi^{*}(\theta_{1}) = -\psi (w_{1})$  since  $\theta_{1} = 0$
@@ -5721,14 +5715,14 @@ Note that  $\psi^{*}(\theta_{1}) = -\psi (w_{1})$  since  $\theta_{1} = 0$
 -  $L_{p}$  norms decrease as  $p$  increases:
 
 $$
-\| w \| _ {1} \geq \| w \| _ {2} \geq \| w \| _ {\infty}. \tag {534}
+\| w \| _{1} \geq \| w \| _{2} \geq \| w \| _{\infty}. \tag{534}
 $$
 
 - The difference between the norms can be huge. For example, take  $w = (1, \ldots, 1) \in \mathbb{R}^d$ . Then  $\| w \|_1 = d$ ,  $\| w \|_2 = \sqrt{d}$ ,  $\| w \|_\infty = 1$ .  
 - Recall that the dual norm of a norm  $\| \cdot \|$  is
 
 $$
-\left\| x \right\| _ {*} = \sup  _ {\| y \| \leq 1} (x \cdot y). \tag {535}
+\left\| x \right\| _{*} = \sup_{\| y \| \leq 1} (x \cdot y). \tag{535}
 $$
 
 Thinking of  $y$  as a linear operator on  $x$ , the dual norm measures the gain when we measure perturbations in  $x$  using  $\| \cdot \|$ .
@@ -5736,11 +5730,11 @@ Thinking of  $y$  as a linear operator on  $x$ , the dual norm measures the gain
 - The norms  $\| \cdot \|_p$  and  $\| \cdot \|_q$  are dual to each other when  $\frac{1}{p} + \frac{1}{q} = 1$ . Two common examples are:
 
 $$
-\| \cdot \| _ {1} \quad \text {i s d u a l t o} \quad \| \cdot \| _ {\infty}. \tag {536}
+\| \cdot \| _{1} \quad \text{isdualto} \quad \| \cdot \| _{\infty}. \tag{536}
 $$
 
 $$
-\| \cdot \| _ {2} \quad \text {i s d u a l t o} \quad \| \cdot \| _ {2}. \tag {537}
+\| \cdot \| _{2} \quad \text{isdualto} \quad \| \cdot \| _{2}. \tag{537}
 $$
 
 - We will now use these squared norms to control Bregman divergences provided the Bregman divergences have an important special structure called strong convexity:  
@@ -5749,13 +5743,13 @@ Definition 29 (strong convexity/smoothness)
 - A function  $f$  is  $\alpha$ -strongly convex with respect to a norm  $\| \cdot \|$  iff for all  $w, u$ :
 
 $$
-D _ {f} (w \| u) \geq \frac {\alpha}{2} \| w - u \| ^ {2}. \tag {538}
+D_{f} (w \| u) \geq \frac{\alpha}{2} \| w - u \| ^{2}. \tag{538}
 $$
 
 - A function  $f$  is  $\alpha$ -strongly smooth with respect to a norm  $\| \cdot \|$  iff for all  $w, u$ :
 
 $$
-D _ {f} (w \| u) \leq \frac {\alpha}{2} \| w - u \| ^ {2}. \tag {539}
+D_{f} (w \| u) \leq \frac{\alpha}{2} \| w - u \| ^{2}. \tag{539}
 $$
 
 - Intuitions
@@ -5781,7 +5775,7 @@ Suppose  $\psi$  is a  $\frac{1}{\eta}$ -strongly convex regularizer.
 - Then the regret of online mirror descent is
 
 $$
-\boxed {\operatorname {R e g r e t} (u) \leq [ \psi (u) - \psi (w _ {1}) ] + \frac {\eta}{2} \sum_ {t = 1} ^ {T} \| z _ {t} \| _ {*} ^ {2}.} \tag {540}
+\boxed{\operatorname{Regret} (u) \leq [ \psi (u) - \psi (w_{1}) ] + \frac{\eta}{2} \sum_{t = 1} ^{T} \| z_{t} \| _{*} ^{2}.} \tag{540}
 $$
 
 Proof of Theorem 32
@@ -5790,7 +5784,7 @@ Proof of Theorem 32
 - By definition of strong smoothness and the fact that  $\theta_{t + 1} = \theta_t - z_t$
 
 $$
-\boxed {D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) \leq \frac {\eta}{2} \| z _ {t} \| _ {*} ^ {2}.} \tag {541}
+\boxed{D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \leq \frac{\eta}{2} \| z_{t} \| _{*} ^{2}.} \tag{541}
 $$
 
 - Plugging this bound into (528) gives us the result.
@@ -5811,7 +5805,7 @@ Remarks:
 - Failure: the quadratic regularizer  $\psi(w) = \frac{1}{2\eta} \|w\|_2^2$  is only  $\frac{1}{\eta d}$ -strongly convex with respect to the  $L_1$  norm:
 
 $$
-D _ {\psi} (w \| u) \geq \frac {1}{2 \eta} \| w - u \| _ {2} ^ {2} \geq \frac {1}{2 \eta d} \| w - u \| _ {1} ^ {2}. \tag {542}
+D_{\psi} (w \| u) \geq \frac{1}{2 \eta} \| w - u \| _{2} ^{2} \geq \frac{1}{2 \eta d} \| w - u \| _{1} ^{2}. \tag{542}
 $$
 
 Sanity check:  $\| (1, \ldots, 1) \|_2^2 = d$  but  $\| (1, \ldots, 1) \|_1^2 = d^2$ . So if we try to use this in the regret bound, we get  $\frac{1}{2\eta} + \frac{T\eta d}{2}$ , which is still  $\sqrt{dT}$  (for optimal  $\eta$ ).
@@ -5827,13 +5821,13 @@ Sanity check:  $\| (1, \ldots, 1) \|_2^2 = d$  but  $\| (1, \ldots, 1) \|_1^2 = 
 - OMD updates:
 
 $$
-\left| w _ {t, j} \propto e ^ {\eta \theta_ {t, j}} \right|. \tag {543}
+\left| w_{t, j} \propto e^{\eta \theta_{t, j}} \right|. \tag{543}
 $$
 
 The equivalent recursive formula:
 
 $$
-\begin{array}{l} \hline w _ {t + 1, j} \propto w _ {t, j} e ^ {- \eta z _ {t, j}}. \end{array} \tag {544}
+\begin{array}{l} \hline w_{t + 1, j} \propto w_{t, j} e^{- \eta z_{t, j}}. \end{array} \tag{544}
 $$
 
 Interpretation: we maintain a distribution over the  $d$  experts. We use the gradient  $z_{t}$  to reweight the experts, normalizing afterwards to ensure a proper distribution.
@@ -5853,13 +5847,13 @@ $\ast \min_{w}\psi (w) = \frac{\log(1 / d)}{\eta} = \frac{-\log d}{\eta}$  (maxi
 - Then
 
 $$
-\operatorname {R e g r e t} = \frac {\log (d)}{\eta} + \frac {\eta T}{2}. \tag {545}
+\operatorname{Regret} = \frac{\log (d)}{\eta} + \frac{\eta T}{2}. \tag{545}
 $$
 
 - Setting  $\eta = \sqrt{\frac{2\log d}{T}}$  yields:
 
 $$
-\boxed {\operatorname {R e g r e t} = \sqrt {2 \log (d) T}.} \tag {546}
+\boxed{\operatorname{Regret} = \sqrt{2 \log (d) T}.} \tag{546}
 $$
 
 - To compare with quadratic regularization (OGD):
@@ -5880,13 +5874,13 @@ Discussion
 - Recall that the general online mirror descent (OMD) analysis (Theorem 31) yields:
 
 $$
-\operatorname {R e g r e t} (u) \leq [ \psi (u) - \psi (w _ {1}) ] + \sum_ {t = 1} ^ {T} D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right). \tag {547}
+\operatorname{Regret} (u) \leq [ \psi (u) - \psi (w_{1}) ] + \sum_{t = 1} ^{T} D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right). \tag{547}
 $$
 
 Using the fact that  $\psi$  is  $1 / \eta$ -strongly convex with respect to some norm  $\| \cdot \|$ , we can upper bound the Bregman divergence by the following (540):
 
 $$
-D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) \leq \frac {\eta}{2} \| z _ {t} \| _ {*} ^ {2}. \tag {548}
+D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) \leq \frac{\eta}{2} \| z_{t} \| _{*} ^{2}. \tag{548}
 $$
 
 - If we use the entropic regularizer for  $\psi$  with norm  $\| \cdot \| = \| \cdot \|_1$  and dual norm  $\| \cdot \|_* = \| \cdot \|_{\infty}$ , we get our key  $\sqrt{2\log(d)T}$  regret bound for EG.  
@@ -5901,7 +5895,7 @@ $$
 - The EG algorithm will quickly downweight the bad expert exponentially fast:
 
 $$
-w _ {t, 1} \propto 1 \quad w _ {t, 2} \propto e ^ {- \eta (t - 1)}. \tag {549}
+w_{t, 1} \propto 1 \quad w_{t, 2} \propto e^{- \eta (t - 1)}. \tag{549}
 $$
 
 - So as  $t \to \infty$ , we have basically put all our weight on the first expert, and should be suffering no loss.  
@@ -5914,13 +5908,13 @@ $$
 - Then the exponentiated gradient (EG) algorithm (Example 37) achieves the following regret bound:
 
 $$
-\boxed {R e g r e t (u) \leq [ \psi (u) - \psi (w _ {1}) ] + \eta \sum_ {t = 1} ^ {T} \sum_ {j = 1} ^ {d} w _ {t, j} z _ {t, j} ^ {2}.} \tag {550}
+\boxed{R e g r e t (u) \leq [ \psi (u) - \psi (w_{1}) ] + \eta \sum_{t = 1} ^{T} \sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2}.} \tag{550}
 $$
 
 - This bound (550) is better than the bound in Theorem 32 because we are taking an average (with respect to the distribution  $w_{t} \in \Delta_{d}$ ) instead of a max:
 
 $$
-\sum_ {j = 1} ^ {d} w _ {t, j} z _ {t, j} ^ {2} \leq \max  _ {1 \leq j \leq d} z _ {t, j} ^ {2} \stackrel {\text {d e f}} {=} \| z _ {t} \| _ {\infty} ^ {2}. \tag {551}
+\sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2} \leq \max_{1 \leq j \leq d} z_{t, j} ^{2} \stackrel{\text{def}} {=} \| z_{t} \| _{\infty} ^{2}. \tag{551}
 $$
 
 This allows some components of the loss subgradients  $z_{t,j}$  to be large provided that the corresponding weights  $w_{t,j}$  are small.
@@ -5932,20 +5926,20 @@ Example 38 (exponentiated gradient in the realizable setting)
 - Recall the regret bound from using local norms:
 
 $$
-\operatorname {R e g r e t} (u) \stackrel {\text {d e f}} {=} \sum_ {t = 1} ^ {T} \left(w _ {t} \cdot z _ {t}\right) - \underbrace {\sum_ {t = 1} ^ {T} \left(u \cdot z _ {t}\right)} _ {= 0} \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \underbrace {\sum_ {j = 1} ^ {d} w _ {t , j} z _ {t , j} ^ {2}} _ {\leq w _ {t} \cdot z _ {t}} \tag {552}
+\operatorname{Regret} (u) \stackrel{\text{def}} {=} \sum_{t = 1} ^{T} \left(w_{t} \cdot z_{t}\right) - \underbrace{\sum_{t = 1} ^{T} \left(u \cdot z_{t}\right)} _{= 0} \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \underbrace{\sum_{j = 1} ^{d} w_{t , j} z_{t , j} ^{2}} _{\leq w_{t} \cdot z_{t}} \tag{552}
 $$
 
 - Note that  $\sum_{j=1}^{d} w_{t,j} z_{t,j}^2 \leq w_t \cdot z_t$ , because all quantities are non-negative and  $a^2 \leq a$  for  $a \in [0,1]$ .  
 - Rearranging, we get:
 
 $$
-\operatorname {R e g r e t} (u) \leq \frac {\log d}{\eta (1 - \eta)}. \tag {553}
+\operatorname{Regret} (u) \leq \frac{\log d}{\eta (1 - \eta)}. \tag{553}
 $$
 
 - Minimize the bound with  $\eta = \frac{1}{2}$  to obtain:
 
 $$
-\boxed {\operatorname {R e g r e t} (u) \leq 4 \log d.} \tag {554}
+\boxed{\operatorname{Regret} (u) \leq 4 \log d.} \tag{554}
 $$
 
 - Recall that the majority algorithm (which aggressively zeros out the weights of components as soon as they err) also obtained the very low  $O(\log d)$  regret (see Example 25), so it's really nice to see that EG obtains the same regret guarantee.  
@@ -5963,23 +5957,23 @@ Proof of Theorem 33:
 - Recall the Fenchel conjugate of the entropic regularizer is the log-partition function:
 
 $$
-\psi^ {*} (\theta) = \frac {1}{\eta} \log \sum_ {j = 1} ^ {d} e ^ {\eta \theta_ {j}}. \tag {555}
+\psi^{*} (\theta) = \frac{1}{\eta} \log \sum_{j = 1} ^{d} e^{\eta \theta_{j}}. \tag{555}
 $$
 
 - By the definition of Bregman divergences (this was used in the proof of Theorem 31), we have:
 
 $$
-D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) = \psi^ {*} \left(\theta_ {t + 1}\right) - \psi^ {*} \left(\theta_ {t}\right) - \underbrace {\nabla \psi^ {*} \left(\theta_ {t}\right)} _ {w _ {t}} \cdot \underbrace {\left(\theta_ {t + 1} - \theta_ {t}\right)} _ {- z _ {t}}. \tag {556}
+D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) = \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) - \underbrace{\nabla \psi^{*} \left(\theta_{t}\right)} _{w_{t}} \cdot \underbrace{\left(\theta_{t + 1} - \theta_{t}\right)} _{- z_{t}}. \tag{556}
 $$
 
 - The rest is just applying the two facts and watching stuff cancel:
 
 $$
-\begin{array}{l} D _ {\psi^ {*}} \left(\theta_ {t + 1} \| \theta_ {t}\right) = \psi^ {*} \left(\theta_ {t + 1}\right) - \psi^ {*} \left(\theta_ {t}\right) + w _ {t} \cdot z _ {t} (557) \\ = \frac {1}{\eta} \log \left(\frac {\sum_ {j = 1} ^ {d} e ^ {\eta \theta_ {t + 1 , j}}}{\sum_ {j = 1} ^ {d} e ^ {\eta \theta_ {t , j}}}\right) + w _ {t} \cdot z _ {t} \quad [ \text {d e f i n i t i o n o f} \psi^ {*} ] (558) \\ = \frac {1}{\eta} \log \left(\sum_ {j = 1} ^ {d} w _ {t, j} e ^ {- \eta z _ {t, j}}\right) + w _ {t} \cdot z _ {t} [ \text {d e f i n i t i o n o f} \theta_ {t} ] (559) \\ \leq \frac {1}{\eta} \log \left(\sum_ {j = 1} ^ {d} w _ {t, j} [ 1 - (\eta z _ {t, j} - \eta^ {2} z _ {t, j} ^ {2}) ]\right) + w _ {t} \cdot z _ {t} \quad [ \mathrm {f a c t 1} ] \quad (5 6 0) \\ = \frac {1}{\eta} \log \left(1 - \sum_ {j = 1} ^ {d} w _ {t, j} (\eta z _ {t, j} - \eta^ {2} z _ {t, j} ^ {2})\right) + w _ {t} \cdot z _ {t} [ w _ {t} \in \Delta_ {d} ] (5 6 1) \\ \leq \frac {1}{\eta} \sum_ {j = 1} ^ {d} w _ {t, j} \left(- \eta z _ {t, j} + \eta^ {2} z _ {t, j} ^ {2}\right) + w _ {t} \cdot z _ {t} [ \text {f a c t} 2 ] (562) \\ = \eta \sum_ {j = 1} ^ {d} w _ {t, j} z _ {t, j} ^ {2} [ \text {a l g e b r a} ]. (563) \\ \end{array}
+\begin{array}{l} D_{\psi^{*}} \left(\theta_{t + 1} \| \theta_{t}\right) = \psi^{*} \left(\theta_{t + 1}\right) - \psi^{*} \left(\theta_{t}\right) + w_{t} \cdot z_{t} (557) \\ = \frac{1}{\eta} \log \left(\frac{\sum_{j = 1} ^{d} e^{\eta \theta_{t + 1 , j}}}{\sum_{j = 1} ^{d} e^{\eta \theta_{t , j}}}\right) + w_{t} \cdot z_{t} \quad [ \text{definitionof} \psi^{*} ] (558) \\ = \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} e^{- \eta z_{t, j}}\right) + w_{t} \cdot z_{t} [ \text{definitionof} \theta_{t} ] (559) \\ \leq \frac{1}{\eta} \log \left(\sum_{j = 1} ^{d} w_{t, j} [ 1 - (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2}) ]\right) + w_{t} \cdot z_{t} \quad [ \mathrm{f a c t 1} ] \quad (0) \\ = \frac{1}{\eta} \log \left(1 - \sum_{j = 1} ^{d} w_{t, j} (\eta z_{t, j} - \eta^{2} z_{t, j} ^{2})\right) + w_{t} \cdot z_{t} [ w_{t} \in \Delta_{d} ] (1) \\ \leq \frac{1}{\eta} \sum_{j = 1} ^{d} w_{t, j} \left(- \eta z_{t, j} + \eta^{2} z_{t, j} ^{2}\right) + w_{t} \cdot z_{t} [ \text{fact} 2 ] (562) \\ = \eta \sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2} [ \text{algebra} ]. (563) \\ \end{array}
 $$
 
 $$
-[ \text {b e g i n l e c t u r e 1 6} ] \tag {16}
+[ \text{b e g i n l e c t u r e 6} ] \tag{16}
 $$
 
 # 5.11 Adaptive optimistic mirror descent (Lecture 16)
@@ -5989,7 +5983,7 @@ Motivation
 - Recall that the local norm bound technique for exponentiated gradient (EG) yields the following bound (550):
 
 $$
-\operatorname {R e g r e t} (u) \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \sum_ {j = 1} ^ {d} w _ {t, j} z _ {t, j} ^ {2}, \tag {564}
+\operatorname{Regret} (u) \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \sum_{j = 1} ^{d} w_{t, j} z_{t, j} ^{2}, \tag{564}
 $$
 
 improving the  $\| z_t\|_\infty^2$  from the standard mirror descent analysis (Example 37) to the local norm  $\| z_t\|_{\mathrm{diag}(w_t)}^2$ . (Note that this was just an improvement in the analysis, not the algorithm.)
@@ -6007,7 +6001,7 @@ improving the  $\| z_t\|_\infty^2$  from the standard mirror descent analysis (E
 * However, the EG algorithm does not:
 
 $$
-w _ {t} \propto \left\{ \begin{array}{l l} {[ 1, 1 ]} & {\text {i f} t \text {i s o d d}} \\ {[ 1, \exp (- \eta) ]} & {\text {i f} t \text {i s e v e n}.} \end{array} \right. \tag {565}
+w_{t} \propto \left\{ \begin{array}{l l} {[ 1, 1 ]} & {\text{if} t \text{isodd}} \\ {[ 1, \exp (- \eta) ]} & {\text{if} t \text{iseven}.} \end{array} \right. \tag{565}
 $$
 
 EG doesn't penalize expert 2 on the odd rounds at all and barely penalizes it on the even rounds, because expert 2 redeems itself on the even rounds.
@@ -6017,7 +6011,7 @@ EG doesn't penalize expert 2 on the odd rounds at all and barely penalizes it on
 a regret bound) of:
 
 $$
-\begin{array}{l} \operatorname {E G} \operatorname {r e g r e t} = \frac {T}{2} \left(\frac {1}{2} (1) + \frac {\exp (- \eta)}{1 + \exp (- \eta)} (- 1)\right) (566) \\ = \frac {T}{2} \left(\frac {1}{2} - \frac {1}{1 + \exp (\eta)}\right) (567) \\ \geq \frac {T}{2} \left(\frac {1}{2} - \frac {1}{2 + 2 \eta}\right) [ \exp (\eta) \leq 1 + 2 \eta \text {f o r} \eta \leq 1 ] (568) \\ \geq \frac {T}{2} \eta . (569) \\ \end{array}
+\begin{array}{l} \operatorname{EG} \operatorname{regret} = \frac{T}{2} \left(\frac{1}{2} (1) + \frac{\exp (- \eta)}{1 + \exp (- \eta)} (- 1)\right) (566) \\ = \frac{T}{2} \left(\frac{1}{2} - \frac{1}{1 + \exp (\eta)}\right) (567) \\ \geq \frac{T}{2} \left(\frac{1}{2} - \frac{1}{2 + 2 \eta}\right) [ \exp (\eta) \leq 1 + 2 \eta \text{for} \eta \leq 1 ] (568) \\ \geq \frac{T}{2} \eta . (569) \\ \end{array}
 $$
 
 * Typically,  $\eta = \Theta\left(\frac{1}{\sqrt{T}}\right)$ , in which case, the regret is  $\Omega(T)$ .  
@@ -6032,7 +6026,7 @@ $$
 Using these two ideas, we define an algorithm called adaptive optimistic mirror descent (AOMD), which obtain the following regret bound for learning with expert advice (for  $\eta \leq \frac{1}{4}$ ):
 
 $$
-\operatorname {R e g r e t} (u) \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \sum_ {j = 1} ^ {d} u _ {j} \left(z _ {t, j} - m _ {t, j}\right) ^ {2}. \tag {570}
+\operatorname{Regret} (u) \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \sum_{j = 1} ^{d} u_{j} \left(z_{t, j} - m_{t, j}\right) ^{2}. \tag{570}
 $$
 
 Compared to (564), (570) depends on the expert  $u_{j}$  rather than the learner  $w_{t,j}$ ; and it also depends on the squared errors  $(z_{t,j} - m_{t,j})^2$  rather than  $z_{t,j}^2$ . Unlike local norms, this requires an actual change to the algorithm—a change which is inspired by the theory.
@@ -6040,13 +6034,13 @@ Compared to (564), (570) depends on the expert  $u_{j}$  rather than the learner
 - Recall that the normal mirror descent updates are given as follows:
 
 $$
-w _ {t} = \arg \min  _ {w \in \mathbb {R} ^ {d}} \left\{\psi (w) + \sum_ {i = 1} ^ {t - 1} w \cdot z _ {i} \right\} = \nabla \psi^ {*} (\theta_ {t}). \tag {571}
+w_{t} = \arg \min_{w \in \mathbb{R} ^{d}} \left\{\psi (w) + \sum_{i = 1} ^{t - 1} w \cdot z_{i} \right\} = \nabla \psi^{*} (\theta_{t}). \tag{571}
 $$
 
 - Define the following adaptive mirror descent updates:
 
 $$
-w _ {t} = \arg \min  _ {w \in \mathbb {R} ^ {d}} \left\{\psi_ {t} (w) + \sum_ {i = 1} ^ {t - 1} w \cdot z _ {i} \right\} = \nabla \psi_ {t} ^ {*} (\theta_ {t}), \tag {572}
+w_{t} = \arg \min_{w \in \mathbb{R} ^{d}} \left\{\psi_{t} (w) + \sum_{i = 1} ^{t - 1} w \cdot z_{i} \right\} = \nabla \psi_{t} ^{*} (\theta_{t}), \tag{572}
 $$
 
 where all we've done is replaced  $\psi$  with  $\psi_t$ .
@@ -6054,16 +6048,16 @@ where all we've done is replaced  $\psi$  with  $\psi_t$ .
 - To put optimism in, suppose we have a sequence of hints
 
 $$
-m _ {1}, \dots , m _ {T}, \tag {573}
+m_{1}, \dots , m_{T}, \tag{573}
 $$
 
 which are guesses of  $z_{1},\ldots ,z_{T}$ . These have the property that  $m_t$  only depends on  $z_{1:t - 1}$ . For example, the simplest one could be  $m_{t} = z_{t - 1}$  (recency bias), which means that we believe the subgradients do not change very much. Note that if  $m_{t} = z_{t}$ , then we would be cheating and using the one-step lookahead. The adaptive optimistic mirror descent updates are as follows:
 
 $$
-\boxed {w _ {t} = \arg \min  _ {w \in \mathbb {R} ^ {d}} \left\{\psi (w) + \sum_ {i = 1} ^ {t - 1} w \cdot z _ {i} + w \cdot m _ {t} \right\} = \nabla \psi^ {*} (\tilde {\theta} _ {t}),} \tag {574}
+\boxed{w_{t} = \arg \min_{w \in \mathbb{R} ^{d}} \left\{\psi (w) + \sum_{i = 1} ^{t - 1} w \cdot z_{i} + w \cdot m_{t} \right\} = \nabla \psi^{*} (\tilde{\theta} _{t}),} \tag{574}
 $$
 
-where  $\tilde{\theta}_t\stackrel {\mathrm{def}}{=}\theta_t - m_t$  is the guess of  $\theta_{t + 1}$
+where  $\tilde{\theta}_t\stackrel{\mathrm{def}}{=}\theta_t - m_t$  is the guess of  $\theta_{t + 1}$
 
 - Theorem 34 (regret of adaptive optimistic mirror descent)
 
@@ -6071,13 +6065,13 @@ where  $\tilde{\theta}_t\stackrel {\mathrm{def}}{=}\theta_t - m_t$  is the guess
 - Suppose we have a sequence of regularizers  $\psi_1, \ldots, \psi_T$  satisfying the following loss-bounding property:
 
 $$
-\psi_ {t + 1} ^ {*} \left(\theta_ {t + 1}\right) \leq \psi_ {t} ^ {*} \left(\tilde {\theta} _ {t}\right) - w _ {t} \cdot \left(z _ {t} - m _ {t}\right). \tag {575}
+\psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) \leq \psi_{t} ^{*} \left(\tilde{\theta} _{t}\right) - w_{t} \cdot \left(z_{t} - m_{t}\right). \tag{575}
 $$
 
 - Then
 
 $$
-\operatorname {R e g r e t} (u) \leq \psi_ {T + 1} (u) - \psi \left(w _ {1}\right). \tag {576}
+\operatorname{Regret} (u) \leq \psi_{T + 1} (u) - \psi \left(w_{1}\right). \tag{576}
 $$
 
 - Note: in our previous mirror descent analysis, we had two terms, one coming from the regularizer, and one coming from the stability of our estimates. In contrast, (575) "pushes the loss into the regularizer", which gives us a bit more flexibility.
@@ -6085,7 +6079,7 @@ $$
 Proof of Theorem 34:
 
 $$
-\begin{array}{l} u \cdot \theta_ {T + 1} - \psi_ {T + 1} (u) \leq \psi_ {T + 1} ^ {*} \left(\theta_ {T + 1}\right) \quad [ \text {F e n c h e l - Y o u n g} ] (577) \\ = \psi_ {1} ^ {*} (\theta_ {1}) + \sum_ {t = 1} ^ {T} \left[ \psi_ {t + 1} ^ {*} \left(\theta_ {t + 1}\right) - \psi_ {t} ^ {*} \left(\theta_ {t}\right) \right] \quad [ \text {t e l e s c o p i n g} ] (578) \\ = \psi_ {1} ^ {*} (\theta_ {1}) + \sum_ {t = 1} ^ {T} \left[ \psi_ {t + 1} ^ {*} \left(\theta_ {t + 1}\right) - \psi_ {t} ^ {*} \left(\tilde {\theta} _ {t}\right) - \underbrace {\nabla \psi^ {*} \left(\tilde {\theta} _ {t}\right)} _ {w _ {t}} \cdot m _ {t} \right] \quad [ \text {c o n v e x i t y o f} \psi_ {t} ^ {*} ] (579) \\ = \psi_ {1} ^ {*} \left(\theta_ {1}\right) + \sum_ {t = 1} ^ {T} - w _ {t} \cdot z _ {t} [ \text {l o s s - b o u n d i n g p r o p e r t y} ] (580) \\ = - \psi_ {1} \left(w _ {1}\right) + \sum_ {t = 1} ^ {T} - w _ {t} \cdot z _ {t} [ \text {s i n c e} m _ {1} = 0 ]. (581) \\ \end{array}
+\begin{array}{l} u \cdot \theta_{T + 1} - \psi_{T + 1} (u) \leq \psi_{T + 1} ^{*} \left(\theta_{T + 1}\right) \quad [ \text{F e n c h e l - Y o u n g} ] (577) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\theta_{t}\right) \right] \quad [ \text{telescoping} ] (578) \\ = \psi_{1} ^{*} (\theta_{1}) + \sum_{t = 1} ^{T} \left[ \psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) - \psi_{t} ^{*} \left(\tilde{\theta} _{t}\right) - \underbrace{\nabla \psi^{*} \left(\tilde{\theta} _{t}\right)} _{w_{t}} \cdot m_{t} \right] \quad [ \text{convexityof} \psi_{t} ^{*} ] (579) \\ = \psi_{1} ^{*} \left(\theta_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [ \text{l o s s - b o u n d i n g p r o p e r t y} ] (580) \\ = - \psi_{1} \left(w_{1}\right) + \sum_{t = 1} ^{T} - w_{t} \cdot z_{t} [ \text{since} m_{1} = 0 ]. (581) \\ \end{array}
 $$
 
 Recall that  $\theta_{T + 1} = -\sum_{t = 1}^{T}z_{t}$ . Algebra completes the proof.
@@ -6095,13 +6089,13 @@ Recall that  $\theta_{T + 1} = -\sum_{t = 1}^{T}z_{t}$ . Algebra completes the p
 - First attempt: let's try just using a fixed regularizer  $\psi_t(w) = \psi(w)$ . This means that we need
 
 $$
-\psi^ {*} \left(\theta_ {t + 1}\right) \leq \psi^ {*} \left(\tilde {\theta} _ {t}\right) - w _ {t} \cdot \left(z _ {t} - m _ {t}\right). \tag {582}
+\psi^{*} \left(\theta_{t + 1}\right) \leq \psi^{*} \left(\tilde{\theta} _{t}\right) - w_{t} \cdot \left(z_{t} - m_{t}\right). \tag{582}
 $$
 
 But in fact, since  $\psi^{*}$  is convex, and recalling  $w_{t} = \nabla \psi^{*}(\tilde{\theta}_{t})$  and  $\theta_{t + 1} - \tilde{\theta}_t = -(z_t - m_t)$  we actually have:
 
 $$
-\psi^ {*} \left(\theta_ {t + 1}\right) \geq \psi^ {*} \left(\tilde {\theta} _ {t}\right) - w _ {t} \cdot \left(z _ {t} - m _ {t}\right), \tag {583}
+\psi^{*} \left(\theta_{t + 1}\right) \geq \psi^{*} \left(\tilde{\theta} _{t}\right) - w_{t} \cdot \left(z_{t} - m_{t}\right), \tag{583}
 $$
 
 which is the opposite of what we want!
@@ -6110,7 +6104,7 @@ which is the opposite of what we want!
 - Second attempt: let's try to provide a second-order correction:
 
 $$
-\psi^ {*} \left(\theta_ {t + 1} - \eta \left(z _ {t} - m _ {t}\right) ^ {2}\right) \leq \psi^ {*} \left(\tilde {\theta} _ {t}\right) - w _ {t} \cdot \left(z _ {t} - m _ {t}\right). \tag {584}
+\psi^{*} \left(\theta_{t + 1} - \eta \left(z_{t} - m_{t}\right) ^{2}\right) \leq \psi^{*} \left(\tilde{\theta} _{t}\right) - w_{t} \cdot \left(z_{t} - m_{t}\right). \tag{584}
 $$
 
 The  $\eta (z_{t} - m_{t})^{2}$  term makes the LHS smaller. However, condition doesn't look like the loss-bounding precondition we need for Theorem 34. To make the condition match, the key is to fold the second-order term into the regularizer.
@@ -6118,13 +6112,13 @@ The  $\eta (z_{t} - m_{t})^{2}$  term makes the LHS smaller. However, condition 
 - To that end, define the vector  $a_{t}$  to be the squared magnitude deviations between  $z_{t}$  and  $m_{t}$ :
 
 $$
-a _ {t} \stackrel {\text {d e f}} {=} (a _ {t, 1}, \dots , a _ {t, d}), \quad \boxed {a _ {t, j} \stackrel {\text {d e f}} {=} (z _ {t, j} - m _ {t, j}) ^ {2}.} \tag {585}
+a_{t} \stackrel{\text{def}} {=} (a_{t, 1}, \dots , a_{t, d}), \quad \boxed{a_{t, j} \stackrel{\text{def}} {=} (z_{t, j} - m_{t, j}) ^{2}.} \tag{585}
 $$
 
 This motivates us to consider the following adaptive regularizer:
 
 $$
-\boxed {\psi_ {t} (w) \stackrel {\text {d e f}} {=} \psi (w) + \eta \sum_ {i = 1} ^ {t - 1} w \cdot a _ {i}.} \tag {586}
+\boxed{\psi_{t} (w) \stackrel{\text{def}} {=} \psi (w) + \eta \sum_{i = 1} ^{t - 1} w \cdot a_{i}.} \tag{586}
 $$
 
 In the expert advice setting where  $w$  is a distribution over experts, we are penalizing experts that have large deviations from the hints, which is in line with our intuitions that we want experts which match our hints (kind of like our prior).
@@ -6132,13 +6126,13 @@ In the expert advice setting where  $w$  is a distribution over experts, we are 
 - Algorithmically, AOMD with this choice of  $\psi_t$  is:
 
 $$
-\begin{array}{l} w _ {t} = \arg \min  _ {w} \left\{\psi (w) + \eta \sum_ {i = 1} ^ {t - 1} w \cdot a _ {i} - w \cdot \tilde {\theta} _ {t} \right\} (587) \\ = \arg \min  _ {w} \left\{\psi (w) - w \cdot \tilde {\beta} _ {t} \right\} (588) \\ = \nabla \psi^ {*} (\tilde {\beta} _ {t}), (589) \\ \end{array}
+\begin{array}{l} w_{t} = \arg \min_{w} \left\{\psi (w) + \eta \sum_{i = 1} ^{t - 1} w \cdot a_{i} - w \cdot \tilde{\theta} _{t} \right\} (587) \\ = \arg \min_{w} \left\{\psi (w) - w \cdot \tilde{\beta} _{t} \right\} (588) \\ = \nabla \psi^{*} (\tilde{\beta} _{t}), (589) \\ \end{array}
 $$
 
 where we define the second-corrected vectors (without and with  $m_t$ -lookahead):
 
 $$
-\beta_ {t} \stackrel {\text {d e f}} {=} \theta_ {t} - \eta \sum_ {i = 1} ^ {t - 1} a _ {i}, \quad \tilde {\beta} _ {t} \stackrel {\text {d e f}} {=} \beta_ {t} - m _ {t}. \tag {590}
+\beta_{t} \stackrel{\text{def}} {=} \theta_{t} - \eta \sum_{i = 1} ^{t - 1} a_{i}, \quad \tilde{\beta} _{t} \stackrel{\text{def}} {=} \beta_{t} - m_{t}. \tag{590}
 $$
 
 Recall that  $\tilde{\theta}_t = \theta_t - m_t$ .
@@ -6149,13 +6143,13 @@ Recall that  $\tilde{\theta}_t = \theta_t - m_t$ .
 - Assume the second-order-corrected loss-bounding property holds:
 
 $$
-\psi^ {*} \left(\beta_ {t + 1}\right) \leq \psi^ {*} \left(\tilde {\beta} _ {t}\right) - w _ {t} \cdot \left(z _ {t} - m _ {t}\right). \tag {591}
+\psi^{*} \left(\beta_{t + 1}\right) \leq \psi^{*} \left(\tilde{\beta} _{t}\right) - w_{t} \cdot \left(z_{t} - m_{t}\right). \tag{591}
 $$
 
 - Then we have the following regret bound:
 
 $$
-\left. \operatorname {R e g r e t} (u) \leq \psi (u) - \psi \left(w _ {1}\right) + \eta \sum_ {t = 1} ^ {T} u \cdot a _ {t}. \right| \tag {592}
+\left. \operatorname{Regret} (u) \leq \psi (u) - \psi \left(w_{1}\right) + \eta \sum_{t = 1} ^{T} u \cdot a_{t}. \right| \tag{592}
 $$
 
 Proof of Theorem 35
@@ -6165,7 +6159,7 @@ Proof of Theorem 35
 * Since  $\psi_t(w) = \psi(w) + w \cdot (\eta \sum_{i=1}^{t-1} a_i)$  by definition, Fenchel conjugacy yields:
 
 $$
-\psi_ {t} ^ {*} (x) = \psi^ {*} \left(x - \eta \sum_ {i = 1} ^ {t - 1} a _ {i}\right). \tag {593}
+\psi_{t} ^{*} (x) = \psi^{*} \left(x - \eta \sum_{i = 1} ^{t - 1} a_{i}\right). \tag{593}
 $$
 
 In other words,  $\psi_t^*$  is just  $\psi^*$  shifted by the second-order corrections.
@@ -6173,18 +6167,18 @@ In other words,  $\psi_t^*$  is just  $\psi^*$  shifted by the second-order corr
 * Therefore,
 
 $$
-\psi_ {t + 1} ^ {*} \left(\theta_ {t + 1}\right) = \psi^ {*} \left(\beta_ {t + 1}\right), \quad , \psi_ {t} ^ {*} \left(\tilde {\theta} _ {t}\right) = \psi^ {*} \left(\tilde {\beta} _ {t}\right). \tag {594}
+\psi_{t + 1} ^{*} \left(\theta_{t + 1}\right) = \psi^{*} \left(\beta_{t + 1}\right), \quad , \psi_{t} ^{*} \left(\tilde{\theta} _{t}\right) = \psi^{*} \left(\tilde{\beta} _{t}\right). \tag{594}
 $$
 
 - Note that  $\beta_{1} = 0$ , so  $\psi^{*}(\beta_{1}) = -\psi(w_{1})$ .  
 - Then:
 
 $$
-\operatorname {R e g r e t} (u) \leq \psi_ {T + 1} (u) - \psi \left(w _ {1}\right) [ \text {f r o m T h e o r e m 3 4} ] \tag {595}
+\operatorname{Regret} (u) \leq \psi_{T + 1} (u) - \psi \left(w_{1}\right) [ \text{f r o m T h e o r e m 4} ] \tag{595}
 $$
 
 $$
-\leq \psi (u) + \eta \sum_ {t = 1} ^ {T} u \cdot a _ {t} - \psi \left(w _ {1}\right) [ \text {d e f i n i t i o n o f} \psi_ {t} ]. \tag {596}
+\leq \psi (u) + \eta \sum_{t = 1} ^{T} u \cdot a_{t} - \psi \left(w_{1}\right) [ \text{definitionof} \psi_{t} ]. \tag{596}
 $$
 
 - Now let us apply this result to the expert advice setting.  
@@ -6194,14 +6188,14 @@ $$
 - Let  $\psi(w) = \frac{1}{\eta} \sum_{j=1}^{d} w_j \log w_j$  be the standard entropic regularizer, which corresponds to the following algorithm:
 
 $$
-w _ {t, j} \propto \exp (\tilde {\beta} _ {t, j}) = \exp \left(\eta \theta_ {t, j} - \underbrace {\eta m _ {t , j}} _ {\text {o p t i m i s m}} - \underbrace {\eta^ {2} \sum_ {i = 1} ^ {t - 1} (z _ {i , j} - m _ {i , j}) ^ {2}} _ {\text {a d a p t i v i t y}}\right). \tag {597}
+w_{t, j} \propto \exp (\tilde{\beta} _{t, j}) = \exp \left(\eta \theta_{t, j} - \underbrace{\eta m_{t , j}} _{\text{optimism}} - \underbrace{\eta^{2} \sum_{i = 1} ^{t - 1} (z_{i , j} - m_{i , j}) ^{2}} _{\text{adaptivity}}\right). \tag{597}
 $$
 
 Assume  $0 < \eta \leq \frac{1}{4}$ .  
 - Then adaptive optimistic mirror descent (AOMD) obtains the following regret bound:
 
 $$
-\boxed { \begin{array}{l} \operatorname {R e g r e t} (u) \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \sum_ {j = 1} ^ {d} u _ {j} \left(z _ {t, j} - m _ {t, j}\right) ^ {2}. \end{array} } \tag {598}
+\boxed{ \begin{array}{l} \operatorname{Regret} (u) \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \sum_{j = 1} ^{d} u_{j} \left(z_{t, j} - m_{t, j}\right) ^{2}. \end{array} } \tag{598}
 $$
 
 - Proof sketch: do algebra on  $\psi^{*}(\beta_{t + 1})$  to show the condition of Theorem 35; see Steinhardt and Liang (2014).  
@@ -6214,7 +6208,7 @@ Example 40 (path length bound)
 - We obtain
 
 $$
-\operatorname {R e g r e t} \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \left(z _ {t, j ^ {*}} - z _ {t - 1, j ^ {*}}\right) ^ {2}, \tag {599}
+\operatorname{Regret} \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \left(z_{t, j^{*}} - z_{t - 1, j^{*}}\right) ^{2}, \tag{599}
 $$
 
 where  $j^{*} \in [d]$  is best expert (the one with the lowest cumulative loss).
@@ -6222,13 +6216,13 @@ where  $j^{*} \in [d]$  is best expert (the one with the lowest cumulative loss)
 - On Example 39, expert 1 is a best expert (obtains cumulative loss 0). We have that the path length for expert 1 is  $(z_{t,1} - z_{t - 1,1})^2 = 0$ , so we obtain:
 
 $$
-\operatorname {R e g r e t} \leq \frac {\log d}{\eta}. \tag {600}
+\operatorname{Regret} \leq \frac{\log d}{\eta}. \tag{600}
 $$
 
 The bound only holds for  $\eta \leq \frac{1}{4}$ . By setting  $\eta = \frac{1}{4}$ , we that the regret is a mere constant:
 
 $$
-\operatorname {R e g r e t} \leq 4 \log d. \tag {601}
+\operatorname{Regret} \leq 4 \log d. \tag{601}
 $$
 
 - Note that unlike EG (which had  $\Omega(\sqrt{T})$  regret), we don't get distracted by expert 2, who has very low loss as well, but has longer path length and is thus discounted.
@@ -6250,13 +6244,13 @@ $$
 - The expected risk of a weight vector  $w \in S$  is defined as follows:
 
 $$
-\boxed {L (w) = \mathbb {E} _ {z \sim p ^ {*}} [ \ell (z, w) ].} \tag {602}
+\boxed{L (w) = \mathbb{E} _{z \sim p^{*}} [ \ell (z, w) ].} \tag{602}
 $$
 
 - Define the weight vector that minimizes the expected risk:
 
 $$
-w ^ {*} \in \underset {w \in S} {\arg \min } L (w). \tag {603}
+w^{*} \in \underset{w \in S} {\arg \min } L (w). \tag{603}
 $$
 
 - The batch learner gets  $T$  i.i.d. training examples  $(z_{1},\ldots ,z_{T})$ , where each  $z_{t}\sim p^{*}$ . The goal is to output some estimate  $w\in S$  that hopefully has low  $L(w)$ .
@@ -6285,13 +6279,13 @@ Assuming we have an online learner as a black box, we will construct a batch lea
 - Recall the usual definition of regret (which depends on  $z_{1:T}$ ):
 
 $$
-\operatorname {R e g r e t} (u) = \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right]. \tag {604}
+\operatorname{Regret} (u) = \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right]. \tag{604}
 $$
 
 - Online-to-batch conversion obtains the following expected expected risk:
 
 $$
-\mathbb {E} [ L (\bar {w}) ] \leq L \left(w ^ {*}\right) + \frac {\mathbb {E} [ \operatorname {R e g r e t} \left(w ^ {*}\right) ]}{T}. \tag {605}
+\mathbb{E} [ L (\bar{w}) ] \leq L \left(w^{*}\right) + \frac{\mathbb{E} [ \operatorname{Regret} \left(w^{*}\right) ]}{T}. \tag{605}
 $$
 
 - Interpretation: the expected expected risk of the online-to-batch conversion  $L(\bar{w})$  is bounded by the best possible expected risk (attained by  $w^{*} \in S$ ) plus the online regret.
@@ -6303,7 +6297,7 @@ Proof:
 - The first key insight is that  $f_{t}(w_{t})$  provides an unbiased estimate of the expected risk of  $w_{t}$ .
 
 $$
-\mathbb {E} \left[ f _ {t} \left(w _ {t}\right) \mid w _ {t} \right] = L \left(w _ {t}\right). \tag {606}
+\mathbb{E} \left[ f_{t} \left(w_{t}\right) \mid w_{t} \right] = L \left(w_{t}\right). \tag{606}
 $$
 
 This is true because all the examples are independent, so  $w_{t}$  (deterministic function of  $z_{1:t-1}$ ) is independent of  $f_{t}$  (deterministic function of  $z_{t}$ ).
@@ -6311,31 +6305,31 @@ This is true because all the examples are independent, so  $w_{t}$  (determinist
 - The second key insight is that averaging can only reduce loss. Since  $\ell(z, \cdot)$  is convex, and an average of convex functions is convex,  $L$  is convex. By Jensen's inequality:
 
 $$
-L (\bar {w}) \leq \frac {1}{T} \sum_ {t = 1} ^ {T} L \left(w _ {t}\right). \tag {607}
+L (\bar{w}) \leq \frac{1}{T} \sum_{t = 1} ^{T} L \left(w_{t}\right). \tag{607}
 $$
 
 - Now, the rest is just putting the pieces together. Putting (607) and (606) together:
 
 $$
-L (\bar {w}) \leq \frac {1}{T} \sum_ {t = 1} ^ {T} \mathbb {E} \left[ f _ {t} \left(w _ {t}\right) \mid w _ {t} \right]. \tag {608}
+L (\bar{w}) \leq \frac{1}{T} \sum_{t = 1} ^{T} \mathbb{E} \left[ f_{t} \left(w_{t}\right) \mid w_{t} \right]. \tag{608}
 $$
 
 Adding and subtracting  $L(w^{*})$  to the RHS, noting that  $L(w^{*}) = \mathbb{E}[f_t(w^*)]$ :
 
 $$
-L (\bar {w}) \leq L \left(w ^ {*}\right) + \frac {1}{T} \sum_ {t = 1} ^ {T} \left(\mathbb {E} \left[ f _ {t} \left(w _ {t}\right) \mid w _ {t} \right] - \mathbb {E} \left[ f _ {t} \left(w ^ {*}\right) \right]\right). \tag {609}
+L (\bar{w}) \leq L \left(w^{*}\right) + \frac{1}{T} \sum_{t = 1} ^{T} \left(\mathbb{E} \left[ f_{t} \left(w_{t}\right) \mid w_{t} \right] - \mathbb{E} \left[ f_{t} \left(w^{*}\right) \right]\right). \tag{609}
 $$
 
 - Taking expectations on both sides:
 
 $$
-\mathbb {E} [ L (\bar {w}) ] \leq L \left(w ^ {*}\right) + \frac {1}{T} \sum_ {t = 1} ^ {T} \left(\mathbb {E} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} \left(w ^ {*}\right) \right]\right). \tag {610}
+\mathbb{E} [ L (\bar{w}) ] \leq L \left(w^{*}\right) + \frac{1}{T} \sum_{t = 1} ^{T} \left(\mathbb{E} \left[ f_{t} \left(w_{t}\right) - f_{t} \left(w^{*}\right) \right]\right). \tag{610}
 $$
 
 - The second term of the RHS is upper bounded by the regret, so we have:
 
 $$
-\mathbb {E} [ L (\bar {w}) ] \leq L \left(w ^ {*}\right) + \frac {\mathbb {E} [ \operatorname {R e g r e t} \left(w ^ {*}\right) ]}{T}. \tag {611}
+\mathbb{E} [ L (\bar{w}) ] \leq L \left(w^{*}\right) + \frac{\mathbb{E} [ \operatorname{Regret} \left(w^{*}\right) ]}{T}. \tag{611}
 $$
 
 Remarks
@@ -6365,7 +6359,7 @@ Remarks
 - The expected regret with respect to an expert  $u \in \Delta_d$  is defined in the same way as it was for online learning with expert advice:
 
 $$
-\mathbb {E} [ \operatorname {R e g r e t} (u) ] = \sum_ {t = 1} ^ {T} \left[ w _ {t} \cdot z _ {t} - u \cdot z _ {t} \right]. \tag {612}
+\mathbb{E} [ \operatorname{Regret} (u) ] = \sum_{t = 1} ^{T} \left[ w_{t} \cdot z_{t} - u \cdot z_{t} \right]. \tag{612}
 $$
 
 Note that taking the max over randomized experts  $u \in \Delta_d$  is equivalent to taking the max over single actions  $a \in [d]$ , since the maximum over a linear function is attained at one of the vertices.
@@ -6376,13 +6370,13 @@ Note that taking the max over randomized experts  $u \in \Delta_d$  is equivalen
 - In the bandit setting, we don't observe  $z_{t}$ , so what can we do? Let's try to estimate it with some  $\hat{z}_{t}$  that (i) we can observe and (ii) is equal to  $z_{t}$  in expectation (unbiased) in that for all  $a = 1, \ldots, d$ :
 
 $$
-\mathbb {E} _ {a _ {t} \sim w _ {t}} [ \hat {z} _ {t, a} \mid w _ {t} ] = z _ {t, a}. \tag {613}
+\mathbb{E} _{a_{t} \sim w_{t}} [ \hat{z} _{t, a} \mid w_{t} ] = z_{t, a}. \tag{613}
 $$
 
 - Given these two constraints, it's not hard to see that the only choice for  $\hat{z}_t$  is:
 
 $$
-\hat {z} _ {t, a} = \left\{ \begin{array}{l l} \frac {z _ {t , a}}{w _ {t , a}} & \text {i f} a = a _ {t} \\ 0 & \text {o t h e r w i s e .} \end{array} \right. \tag {614}
+\hat{z} _{t, a} = \left\{ \begin{array}{l l} \frac{z_{t , a}}{w_{t , a}} & \text{if} a = a_{t} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{614}
 $$
 
 Note that dividing  $w_{t,a}$  compensates for sampling  $a_t \sim w_t$ .
@@ -6396,7 +6390,7 @@ Theorem 38 (Bandit-EG analysis)
 - Bandit-EG obtains expected regret (expectation taken over learner's randomness) of
 
 $$
-\boxed {\mathbb {E} [ \operatorname {R e g r e t} (u) ] \leq 2 \sqrt {d \log (d) T}.} \tag {615}
+\boxed{\mathbb{E} [ \operatorname{Regret} (u) ] \leq 2 \sqrt{d \log (d) T}.} \tag{615}
 $$
 
 - Comparison of Bandit-EG (bandit setting) and EG (online learning setting):
@@ -6411,7 +6405,7 @@ Proof of Theorem 38:
 - If EG is run with the unbiased estimate  $\hat{z}_t$  ( $z_t = \mathbb{E}[\hat{z}_t \mid w_t]$ ), then the expected regret is simply:
 
 $$
-\mathbb {E} [ \operatorname {R e g r e t} (u) ] \leq \frac {\log d}{\eta} + \eta \sum_ {t = 1} ^ {T} \mathbb {E} _ {a _ {t} \sim w _ {t}} \left[ \sum_ {a = 1} ^ {d} w _ {t, a} \hat {z} _ {t, a} ^ {2} \mid w _ {t} \right]. \tag {616}
+\mathbb{E} [ \operatorname{Regret} (u) ] \leq \frac{\log d}{\eta} + \eta \sum_{t = 1} ^{T} \mathbb{E} _{a_{t} \sim w_{t}} \left[ \sum_{a = 1} ^{d} w_{t, a} \hat{z} _{t, a} ^{2} \mid w_{t} \right]. \tag{616}
 $$
 
 Note that the random variable  $\hat{z}_t$  only depends on the previous actions through the random variable  $w_t$ .
@@ -6419,7 +6413,7 @@ Note that the random variable  $\hat{z}_t$  only depends on the previous actions
 - So now, we just have to compute the expected local norm:
 
 $$
-\mathbb {E} _ {a _ {t} \sim w _ {t}} \left[ \sum_ {a = 1} ^ {d} w _ {t, a} \hat {z} _ {t, a} ^ {2} \mid w _ {t} \right] = \sum_ {a = 1} ^ {d} w _ {t, a} ^ {2} \left(\frac {z _ {t , a} ^ {2}}{w _ {t , a} ^ {2}}\right) \leq d, \tag {617}
+\mathbb{E} _{a_{t} \sim w_{t}} \left[ \sum_{a = 1} ^{d} w_{t, a} \hat{z} _{t, a} ^{2} \mid w_{t} \right] = \sum_{a = 1} ^{d} w_{t, a} ^{2} \left(\frac{z_{t , a} ^{2}}{w_{t , a} ^{2}}\right) \leq d, \tag{617}
 $$
 
 since  $z_{t}\in [0,1]^{d}$
@@ -6437,7 +6431,7 @@ since  $z_{t}\in [0,1]^{d}$
 - For a function  $f$ , define a smoothed version of  $f$  as follows:
 
 $$
-\tilde {f} (w) = \mathbb {E} _ {v \sim U _ {<   1}} [ f (w + \delta v) ], \tag {618}
+\tilde{f} (w) = \mathbb{E} _{v \sim U_{<   1}} [ f (w + \delta v) ], \tag{618}
 $$
 
 where  $U_{\leq 1}$  is the uniform distribution over the unit ball (the set of vectors  $v$  with  $\| v \|_2 = 1$ ). There are two important properties:
@@ -6445,19 +6439,19 @@ where  $U_{\leq 1}$  is the uniform distribution over the unit ball (the set of 
 - We can compute the gradient of  $\tilde{f}$  (this is the key step):
 
 $$
-\boxed {\nabla \tilde {f} (w) = \mathbb {E} _ {v \sim U _ {1}} \left[ \frac {d}{\delta} f (w + \delta v) v \right].} \tag {619}
+\boxed{\nabla \tilde{f} (w) = \mathbb{E} _{v \sim U_{1}} \left[ \frac{d}{\delta} f (w + \delta v) v \right].} \tag{619}
 $$
 
 This is due to Stokes' theorem, but the intuition can be seen in 1D due to the Fundamental Theorem of calculus:
 
 $$
-\tilde {f} (w) = \mathbb {E} [ f (w + \delta v) ] = \frac {\int_ {- \delta} ^ {\delta} f (w + t) d t}{2 \delta} = \frac {F (w + \delta) - F (w - \delta)}{2 \delta}, \tag {620}
+\tilde{f} (w) = \mathbb{E} [ f (w + \delta v) ] = \frac{\int_{- \delta} ^{\delta} f (w + t) d t}{2 \delta} = \frac{F (w + \delta) - F (w - \delta)}{2 \delta}, \tag{620}
 $$
 
 where  $F$  is the antiderivative of  $f$  and thus
 
 $$
-\tilde {f} ^ {\prime} (w) = \frac {f (w + \delta) - f (w - \delta)}{2 \delta}. \tag {621}
+\tilde{f} ^{\prime} (w) = \frac{f (w + \delta) - f (w - \delta)}{2 \delta}. \tag{621}
 $$
 
 In the general setting, if we draw  $v \sim U_1$  from the unit sphere, then  $\frac{d}{\delta} f(w + \delta v)v$  is an unbiased estimate of  $\nabla \tilde{f}(w)$ .
@@ -6465,7 +6459,7 @@ In the general setting, if we draw  $v \sim U_1$  from the unit sphere, then  $\
 - We have that  $\tilde{f}$  well approximates  $f$ :
 
 $$
-| \tilde {f} (w) - f (w) | \leq | \mathbb {E} [ f (w + \delta v) - f (w) ] | \leq L \delta , \tag {622}
+| \tilde{f} (w) - f (w) | \leq | \mathbb{E} [ f (w + \delta v) - f (w) ] | \leq L \delta , \tag{622}
 $$
 
 where  $L$  is the Lipschitz constant of  $f$ .
@@ -6478,7 +6472,7 @@ Algorithm 8 (Bandit-OGD)
 
 * Set  $w_{t} = \arg \min_{w\in S}\| w - \eta \theta_{t}\|_{2}$  (same as OGD)  
 * Pick random noise  $v_{t} \sim U_{1}$  
-* Predict  ${\widetilde{w}}_{t} = {w}_{t} + \delta {v}_{t}$  
+* Predict  ${\widetilde{w}}_{t} = {w}_{t} + \delta{v}_{t}$  
 * Compute  $z_{t} = \frac{d}{\delta} f_{t}(\tilde{w}_{t})v_{t}$  
 * Update  ${\theta }_{t + 1} = {\theta }_{t} - {z}_{t}$
 
@@ -6491,7 +6485,7 @@ Algorithm 8 (Bandit-OGD)
 - Then Bandit-OGD obtains the following regret bound:
 
 $$
-\begin{array}{l} \mathbb {E} [ \operatorname {R e g r e t} (u) ] = \mathbb {E} \left[ \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(\tilde {w} _ {t}\right) - f _ {t} (u) \right] \right] (623) \\ \leq 3 L \delta T + \frac {B ^ {2}}{2 \eta} + \frac {\eta}{2} T d ^ {2} (F / \delta + L) ^ {2}, (624) \\ \end{array}
+\begin{array}{l} \mathbb{E} [ \operatorname{Regret} (u) ] = \mathbb{E} \left[ \sum_{t = 1} ^{T} \left[ f_{t} \left(\tilde{w} _{t}\right) - f_{t} (u) \right] \right] (623) \\ \leq 3 L \delta T + \frac{B^{2}}{2 \eta} + \frac{\eta}{2} T d^{2} (F / \delta + L) ^{2}, (624) \\ \end{array}
 $$
 
 where the expectation is over the learner's random choice (nature is still adversarial).
@@ -6501,13 +6495,13 @@ where the expectation is over the learner's random choice (nature is still adver
 - First, we optimize the step size  $\eta$ : setting  $\eta = \frac{B}{d(F / \delta + L)\sqrt{T}}$  yields a regret bound of
 
 $$
-3 L \delta T + B d (F / \delta + L) \sqrt {T}. \tag {625}
+3 L \delta T + B d (F / \delta + L) \sqrt{T}. \tag{625}
 $$
 
 - Second, we optimize the amount of smoothing  $\delta$ : setting  $\delta = \sqrt{\frac{BdF}{3L}} T^{-1/4}$  yields a final regret bound of
 
 $$
-\begin{array}{l} \mathbb {E} [ \text {R e g r e t} ] \leq \sqrt {1 2 B d F L T ^ {3 / 4} + B d L \sqrt {T}} (626) \\ = \boxed {O (\sqrt {B d F L} T ^ {3 / 4}),} (627) \\ \end{array}
+\begin{array}{l} \mathbb{E} [ \text{Regret} ] \leq \sqrt{2 B d F L T^{3 / 4} + B d L \sqrt{T}} (626) \\ = \boxed{O (\sqrt{B d F L} T^{3 / 4}),} (627) \\ \end{array}
 $$
 
 where in the last equality, we're thinking of the dependence on  $T$  as primary.
@@ -6519,31 +6513,31 @@ Proof of Theorem 39
 - Our analysis of plain OGD Theorem 30 yields the following regret bound when applied to  $w_{t}$  and linear functions  $x \mapsto x \cdot z_{t}$ :
 
 $$
-\sum_ {t = 1} ^ {T} \left[ w _ {t} \cdot z _ {t} - u \cdot z _ {t} \right] \leq \frac {1}{2 \eta} \| u \| _ {2} ^ {2} + \frac {\eta}{2} \sum_ {t = 1} ^ {T} \| z _ {t} \| _ {2} ^ {2}. \tag {628}
+\sum_{t = 1} ^{T} \left[ w_{t} \cdot z_{t} - u \cdot z_{t} \right] \leq \frac{1}{2 \eta} \| u \| _{2} ^{2} + \frac{\eta}{2} \sum_{t = 1} ^{T} \| z_{t} \| _{2} ^{2}. \tag{628}
 $$
 
 - First, taking expectations on both sides, using the fact that  $\tilde{f}_t$  is convex with  $\nabla \tilde{f}_t(w_t) = \mathbb{E}[z_t]$  for the LHS, expanding the definition of  $z_{t}$  on the RHS:
 
 $$
-\sum_ {t = 1} ^ {T} \mathbb {E} \left[ \tilde {f} _ {t} \left(w _ {t}\right) - \tilde {f} _ {t} (u) \right] \leq \frac {1}{2 \eta} \| u \| _ {2} ^ {2} + \frac {\eta}{2} \sum_ {t = 1} ^ {T} \mathbb {E} \left[ \| (d / \delta) f _ {t} \left(\tilde {w} _ {t}\right) v _ {t} \| _ {2} ^ {2} \right]. \tag {629}
+\sum_{t = 1} ^{T} \mathbb{E} \left[ \tilde{f} _{t} \left(w_{t}\right) - \tilde{f} _{t} (u) \right] \leq \frac{1}{2 \eta} \| u \| _{2} ^{2} + \frac{\eta}{2} \sum_{t = 1} ^{T} \mathbb{E} \left[ \| (d / \delta) f_{t} \left(\tilde{w} _{t}\right) v_{t} \| _{2} ^{2} \right]. \tag{629}
 $$
 
 - Second, let's handle the gradient: Since  $f_{t}$  is  $L$ -Lipschitz, we have that
 
 $$
-f _ {t} \left(\tilde {w} _ {t}\right) \leq f _ {t} \left(w _ {t}\right) + L \delta \leq F + L \delta . \tag {630}
+f_{t} \left(\tilde{w} _{t}\right) \leq f_{t} \left(w_{t}\right) + L \delta \leq F + L \delta . \tag{630}
 $$
 
 Plugging this inequality into (629):
 
 $$
-\sum_ {t = 1} ^ {T} \mathbb {E} \left[ \tilde {f} _ {t} \left(w _ {t}\right) - \tilde {f} _ {t} (u) \right] \leq \frac {B ^ {2}}{2 \eta} + \frac {\eta}{2} \frac {d ^ {2}}{\delta^ {2}} (F + L \delta) ^ {2}. \tag {631}
+\sum_{t = 1} ^{T} \mathbb{E} \left[ \tilde{f} _{t} \left(w_{t}\right) - \tilde{f} _{t} (u) \right] \leq \frac{B^{2}}{2 \eta} + \frac{\eta}{2} \frac{d^{2}}{\delta^{2}} (F + L \delta) ^{2}. \tag{631}
 $$
 
 - Finally, we need to relate  $\tilde{f}_t(w_t)$  to  $f_{t}(\tilde{w}_{t})$ . Using the Lipschitz property of  $f_{t}$ , we have:
 
 $$
-f _ {t} \left(\tilde {w} _ {t}\right) - f _ {t} (u) \leq f _ {t} \left(w _ {t}\right) - f _ {t} (u) + L \delta \leq \tilde {f} _ {t} \left(w _ {t}\right) - \tilde {f} _ {t} (u) + 3 L \delta . \tag {632}
+f_{t} \left(\tilde{w} _{t}\right) - f_{t} (u) \leq f_{t} \left(w_{t}\right) - f_{t} (u) + L \delta \leq \tilde{f} _{t} \left(w_{t}\right) - \tilde{f} _{t} (u) + 3 L \delta . \tag{632}
 $$
 
 Plugging this into (631) completes the proof.
@@ -6565,7 +6559,7 @@ Plugging this into (631) completes the proof.
 - We are interested in minimizing the expected regret:
 
 $$
-\begin{array}{l} \mathbb {E} [ \text {R e g r e t} ] = \sum_ {t = 1} ^ {T} \mathbb {E} \left[ r _ {t, j ^ {*}} - r _ {t, a _ {t}} \right] (633) \\ = \sum_ {j = 1} ^ {d} \mathbb {E} \left[ N _ {j} (T) \right] \Delta_ {j}, (634) \\ \end{array}
+\begin{array}{l} \mathbb{E} [ \text{Regret} ] = \sum_{t = 1} ^{T} \mathbb{E} \left[ r_{t, j^{*}} - r_{t, a_{t}} \right] (633) \\ = \sum_{j = 1} ^{d} \mathbb{E} \left[ N_{j} (T) \right] \Delta_{j}, (634) \\ \end{array}
 $$
 
 where in the last inequality, we've rewritten the regret to sum over all possible actions; each of the  $N_{j}(T)$  times we take action  $j$ , we add  $\Delta_{j}$  to the regret. Note that at each time step  $t$ ,  $r_t$  is independent of  $a_t$ , which is a function of the past.
@@ -6573,7 +6567,7 @@ where in the last inequality, we've rewritten the regret to sum over all possibl
 - Now let's design an algorithm for solving the stochastic bandits problem. The way to think about it is that we're just estimating the mean  $\mu$  in an online manner. At each time step  $t$ , we have  $N_{j}(t)$  i.i.d. draws of action  $j$ , from which we can form the empirical estimate
 
 $$
-\hat {\mu} _ {j} (t) = \frac {1}{| S _ {j} (t) |} \sum_ {i \in S _ {j} (t)} r _ {i, j}. \tag {635}
+\hat{\mu} _{j} (t) = \frac{1}{| S_{j} (t) |} \sum_{i \in S_{j} (t)} r_{i, j}. \tag{635}
 $$
 
 Provided that  $S_{j}(t)$  grows to infinity, we can estimate the means:  $\hat{\mu}_j(t)\xrightarrow{P}\mu_j$ .
@@ -6582,13 +6576,13 @@ Provided that  $S_{j}(t)$  grows to infinity, we can estimate the means:  $\hat{
 - By Hoeffding's inequality,
 
 $$
-\mathbb {P} [ \hat {\mu} _ {j} (t) \leq \mu_ {j} - \epsilon ] \leq \exp \left(- 2 N _ {j} (t) \epsilon^ {2}\right). \tag {636}
+\mathbb{P} [ \hat{\mu} _{j} (t) \leq \mu_{j} - \epsilon ] \leq \exp \left(- 2 N_{j} (t) \epsilon^{2}\right). \tag{636}
 $$
 
 In other words, with probability at least  $1 - \delta$
 
 $$
-\mu_ {j} \leq \hat {\mu} _ {j} (t) + \sqrt {\frac {\log (1 / \delta)}{2 N _ {j} (t)}}. \tag {637}
+\mu_{j} \leq \hat{\mu} _{j} (t) + \sqrt{\frac{\log (1 / \delta)}{2 N_{j} (t)}}. \tag{637}
 $$
 
 This motivates the following algorithm:
@@ -6602,7 +6596,7 @@ This motivates the following algorithm:
 * Choose action
 
 $$
-a _ {t} = \arg \max  _ {1 \leq j \leq d} \left\{\hat {\mu} _ {j} (t - 1) + \sqrt {\frac {2 \log t}{N _ {j} (t - 1)}} \right\}, \tag {638}
+a_{t} = \arg \max_{1 \leq j \leq d} \left\{\hat{\mu} _{j} (t - 1) + \sqrt{\frac{2 \log t}{N_{j} (t - 1)}} \right\}, \tag{638}
 $$
 
 - Theorem 40 (regret of upper confidence bound (UCB))
@@ -6610,7 +6604,7 @@ $$
 - The UCB algorithm obtains the following expected regret bound:
 
 $$
-\boxed {\mathbb {E} [ \text {R e g r e t} ] \leq \frac {8 d \log T}{\Delta} + 5 d.} \tag {639}
+\boxed{\mathbb{E} [ \text{Regret} ] \leq \frac{8 d \log T}{\Delta} + 5 d.} \tag{639}
 $$
 
 Proof sketch:
@@ -6618,7 +6612,7 @@ Proof sketch:
 - The main idea is to upper bound the number of times an suboptimal action  $j \neq j^{*}$  was taken. This happens when the following event  $A$  happens:
 
 $$
-\hat {\mu} _ {j} + \epsilon_ {j} \geq \hat {\mu} _ {j ^ {*}} + \epsilon_ {j ^ {*}}. \tag {640}
+\hat{\mu} _{j} + \epsilon_{j} \geq \hat{\mu} _{j^{*}} + \epsilon_{j^{*}}. \tag{640}
 $$
 
 - FIGURE:  $[\hat{\mu}_j, \mu_j, \hat{\mu}_{j*}, \mu_{j*}$  on a line with  $\Delta_j$  gap]  
@@ -6626,7 +6620,7 @@ $$
 - The probability of that not happening after  $m$  rounds is  $e^{-O(m\Delta^2)}$  as given by Hoeffding's inequality. If we wait  $m$  rounds and look at the expected number of times  $j$  was chosen:
 
 $$
-m + \sum_ {t = 1} ^ {T} t ^ {2} e ^ {- O \left(m \Delta_ {j} ^ {2}\right)}, \tag {641}
+m + \sum_{t = 1} ^{T} t^{2} e^{- O \left(m \Delta_{j} ^{2}\right)}, \tag{641}
 $$
 
 where the  $t^2$  comes from taking a sloppy union bound over pairs of time steps (because we don't know which time steps we're comparing so just try all pairs). If we set  $m = O\left(\frac{\log T}{\Delta_j^2}\right)$ , then we can make the second term be a constant. Summing the first term over  $j$  and multiplying  $\Delta_j$  yields the result.
@@ -6673,7 +6667,7 @@ Despite its long history, Thompson sampling was not very popular until recently,
 - For any  $\epsilon > 0$ , the expected regret of Thompson sampling us upper bounded by:
 
 $$
-\mathbb {E} [ \text {R e g r e t} ] \leq (1 + \epsilon) \sum_ {j: \Delta_ {j} > 0} \frac {\Delta_ {j} \log T}{\operatorname {K L} \left(\mu_ {j} \| \mu^ {*}\right)} + O \left(\frac {d}{\epsilon^ {2}}\right). \tag {642}
+\mathbb{E} [ \text{Regret} ] \leq (1 + \epsilon) \sum_{j: \Delta_{j} > 0} \frac{\Delta_{j} \log T}{\operatorname{KL} \left(\mu_{j} \| \mu^{*}\right)} + O \left(\frac{d}{\epsilon^{2}}\right). \tag{642}
 $$
 
 - One strength of Thompson sampling is that it's a principle that allows one to easily generalize the algorithm to structured settings such as reinforcement learning.
@@ -6744,19 +6738,19 @@ This makes neural networks an important but challenging area to do new theoretic
 We will extend  $\sigma$  to operate on vectors elementwise:
 
 $$
-\sigma (x) \stackrel {\text {d e f}} {=} [ \sigma (x _ {1}), \dots , \sigma (x _ {d}) ]. \tag {643}
+\sigma (x) \stackrel{\text{def}} {=} [ \sigma (x_{1}), \dots , \sigma (x_{d}) ]. \tag{643}
 $$
 
 - An artificial neural network (not to be confused with and completely different from the thing that's in your brain) can be described by a function  $f: \mathbb{R}^d \mapsto \mathbb{R}$  which has the following form:
 
 $$
-f _ {\theta} (x) = \sum_ {i = 1} ^ {m} \alpha_ {i} \sigma \left(w _ {i} \cdot x + b _ {i}\right). \tag {644}
+f_{\theta} (x) = \sum_{i = 1} ^{m} \alpha_{i} \sigma \left(w_{i} \cdot x + b_{i}\right). \tag{644}
 $$
 
 Here, the parameters are  $\theta = (\alpha_{1:m}, w_{1:m}, b_{1:m})$ . In matrix notation:
 
 $$
-f _ {\theta} (x) = \alpha \cdot \sigma (W x + b), \tag {645}
+f_{\theta} (x) = \alpha \cdot \sigma (W x + b), \tag{645}
 $$
 
 where the  $i$ -th row of  $W$  is  $w_{i}\in \mathbb{R}^{d}$ .
@@ -6767,7 +6761,7 @@ where the  $i$ -th row of  $W$  is  $w_{i}\in \mathbb{R}^{d}$ .
 - In practice, people use many layers (for example, in speech recognition, seven is not uncommon). A three-layer neural network looks like this:
 
 $$
-f _ {\theta} (x) = \sigma \left(W _ {2} \sigma \left(W _ {1} x + b _ {1}\right) + b _ {2}\right). \tag {646}
+f_{\theta} (x) = \sigma \left(W_{2} \sigma \left(W_{1} x + b_{1}\right) + b_{2}\right). \tag{646}
 $$
 
 People also use convolutional neural networks in which  $W$  has additional low-dimensional structure. Recurrent neural networks are good for representing time series. We will not discuss these here and focus on the two-layer neural networks in this lecture.
@@ -6776,7 +6770,7 @@ People also use convolutional neural networks in which  $W$  has additional low-
 - We can use  $\mathcal{F}$  for regression or classification in the usual way by minimizing the loss on the training set. For regression:
 
 $$
-\hat {f} _ {\mathrm {E R M}} = \arg \min  _ {\hat {f} _ {\theta}} \hat {L} (\theta), \quad \hat {L} (\theta) \stackrel {\text {d e f}} {=} \frac {1}{n} \sum_ {i = 1} ^ {n} \left(f _ {\theta} \left(x ^ {(i)}\right) - y ^ {(i)}\right) ^ {2}. \tag {647}
+\hat{f} _{\mathrm{ERM}} = \arg \min_{\hat{f} _{\theta}} \hat{L} (\theta), \quad \hat{L} (\theta) \stackrel{\text{def}} {=} \frac{1}{n} \sum_{i = 1} ^{n} \left(f_{\theta} \left(x^{(i)}\right) - y^{(i)}\right) ^{2}. \tag{647}
 $$
 
 - The surprising thing about neural networks is that people use stochastic gradient descent (online gradient descent where we choose  $i \in \{1, \dots, n\}$  at each step randomly), which converges to  $\hat{f}_{\mathrm{SGD}}$ . Since the objective function  $\hat{L}$  is non-convex,  $\hat{f}_{\mathrm{SGD}}$  will be different from  $\hat{f}_{\mathrm{ERM}}$ . So there is an additional optimization error in addition to the usual approximation and estimation errors. The decomposition must be taken with a grain of salt, because having suboptimal optimization effectively restricts the hypothesis class, which actually improves estimation error (a simple example is early stopping). So approximation and optimization error are perhaps difficult to tease apart in methods whose success is tied to an algorithm not just an optimization problem.
@@ -6791,13 +6785,13 @@ Figure 10: Cartoon showing error decomposition into approximation, estimation, a
 - Functions defined by (Gaussain) kernels can be represented in terms of the partial kernel evaluations
 
 $$
-f (x) = \sum_ {i = 1} ^ {n} \alpha_ {i} k \left(x _ {i}, x\right). \tag {648}
+f (x) = \sum_{i = 1} ^{n} \alpha_{i} k \left(x_{i}, x\right). \tag{648}
 $$
 
 or using Fourier features:
 
 $$
-f (x) = \sum_ {i = 1} ^ {m} \alpha_ {i} e ^ {- i \langle w _ {i}, x \rangle}. \tag {649}
+f (x) = \sum_{i = 1} ^{m} \alpha_{i} e^{- i \langle w_{i}, x \rangle}. \tag{649}
 $$
 
 Note that these expressions resemble neural networks (644). All of these are linear combinations of some non-linear basis functions. So we might expect that neural networks would be universal. The following theorem answers affirmatively, which is not hard to show:
@@ -6816,7 +6810,7 @@ Proof of Theorem 42:
 - Let us construct  $3d$  hidden units for each  $R_{j}$ . For  $d = 1$ , let  $R_{j} = [x_{j} - \delta, x_{j} + \delta] = [a_{j}, b_{j}]$ .
 
 $$
-f ^ {*} \left(x _ {j}\right) \sigma \left(C \left(x - a _ {j}\right)\right) + f ^ {*} \left(x _ {j}\right) \sigma \left(C \left(b _ {j} - x\right)\right) - f ^ {*} \left(x _ {j}\right) \sigma (0). \tag {650}
+f^{*} \left(x_{j}\right) \sigma \left(C \left(x - a_{j}\right)\right) + f^{*} \left(x_{j}\right) \sigma \left(C \left(b_{j} - x\right)\right) - f^{*} \left(x_{j}\right) \sigma (0). \tag{650}
 $$
 
 This function is approximately  $f^{*}(x_{j})$  on  $R_{j}$  and zero elsewhere, So we we do this for all regions, then we can approximate  $f^{*}$  uniformly well.
@@ -6825,7 +6819,7 @@ This function is approximately  $f^{*}(x_{j})$  on  $R_{j}$  and zero elsewhere,
 - Depth: One argument made in favor of deep neural networks is that they more compactly represent the data compared to a shallower one. To get intuition, let us think about networks that perform arithmetic operations on the raw inputs via addition and multiplication. Such networks define polynomial functions in a compact way, since internal nodes represent factors. For example, the polynomial
 
 $$
-\begin{array}{l} f (x) = x _ {1} x _ {2} ^ {2} x _ {3} + x _ {1} x _ {2} x _ {3} x _ {4} + x _ {2} ^ {2} x _ {3} ^ {3} + x _ {2} x _ {3} ^ {3} x _ {4} (651) \\ = (a + b) (b + c), (652) \\ \end{array}
+\begin{array}{l} f (x) = x_{1} x_{2} ^{2} x_{3} + x_{1} x_{2} x_{3} x_{4} + x_{2} ^{2} x_{3} ^{3} + x_{2} x_{3} ^{3} x_{4} (651) \\ = (a + b) (b + c), (652) \\ \end{array}
 $$
 
 where  $a = x_{1}x_{2}$ ,  $b = x_{2}x_{3}$ , and  $c = x_{3}x_{4}$  correspond to internal nodes.
@@ -6846,19 +6840,19 @@ where  $a = x_{1}x_{2}$ ,  $b = x_{2}x_{3}$ , and  $c = x_{3}x_{4}$  correspond 
 - For each set of weights  $(w, \alpha)$ , define the predictor:
 
 $$
-f _ {w, \alpha} (x) = \sum_ {j = 1} ^ {m} v _ {j} h \left(w _ {j} \cdot x\right). \tag {653}
+f_{w, \alpha} (x) = \sum_{j = 1} ^{m} v_{j} h \left(w_{j} \cdot x\right). \tag{653}
 $$
 
 - Let  $\mathcal{F}$  be the class of prediction functions where the weights are bounded:
 
 $$
-\mathcal {F} = \left\{f _ {w, \alpha}: \| \alpha \| _ {2} \leq B _ {2} ^ {\prime}, \| w _ {j} \| _ {2} \leq B _ {2} \text {f o r} j = 1, \dots , m \right\}. \tag {654}
+\mathcal{F} = \left\{f_{w, \alpha}: \| \alpha \| _{2} \leq B_{2} ^{\prime}, \| w_{j} \| _{2} \leq B_{2} \text{for} j = 1, \dots , m \right\}. \tag{654}
 $$
 
 - Then
 
 $$
-R _ {n} (\mathcal {F}) \leq \frac {2 B _ {2} B _ {2} ^ {\prime} C _ {2} \sqrt {m}}{\sqrt {n}}. \tag {655}
+R_{n} (\mathcal{F}) \leq \frac{2 B_{2} B_{2} ^{\prime} C_{2} \sqrt{m}}{\sqrt{n}}. \tag{655}
 $$
 
 Proof of Theorem 43:
@@ -6867,49 +6861,49 @@ Proof of Theorem 43:
 - The function mapping the input layer to a hidden unit is just a linear function:
 
 $$
-R _ {n} \left(\left\{x \mapsto w \cdot x: \| w \| _ {2} \leq B _ {2} \right\}\right) \leq \frac {B _ {2} C _ {2}}{\sqrt {n}}. \tag {656}
+R_{n} \left(\left\{x \mapsto w \cdot x: \| w \| _{2} \leq B_{2} \right\}\right) \leq \frac{B_{2} C_{2}}{\sqrt{n}}. \tag{656}
 $$
 
 - Sending each of these through the 1-Lipschitz non-linearity does not change the upper bound on the complexity:
 
 $$
-R _ {n} \left(\left\{x \mapsto h (w \cdot x): \| w \| _ {2} \leq B _ {2} \right\}\right) \leq \frac {B _ {2} C _ {2}}{\sqrt {n}}. \tag {657}
+R_{n} \left(\left\{x \mapsto h (w \cdot x): \| w \| _{2} \leq B_{2} \right\}\right) \leq \frac{B_{2} C_{2}}{\sqrt{n}}. \tag{657}
 $$
 
 For convenience, define  $\mathcal{G}$  as the set of vector-valued functions mapping the input to the hidden activations, as  $w$  ranges over different values:
 
 $$
-g (x) = \left[ h \left(w _ {1} \cdot x\right), \dots , h \left(w _ {m} \cdot x\right) \right]. \tag {658}
+g (x) = \left[ h \left(w_{1} \cdot x\right), \dots , h \left(w_{m} \cdot x\right) \right]. \tag{658}
 $$
 
 - Now let us handle the second layer:
 
 $$
-R _ {n} (\mathcal {F}) \leq \mathbb {E} \left[ \sup  _ {\| \alpha \| _ {2} \leq B _ {2} ^ {\prime}, g \in \mathcal {G}} \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} \left(\alpha \cdot g \left(Z _ {i}\right)\right). \right] \tag {659}
+R_{n} (\mathcal{F}) \leq \mathbb{E} \left[ \sup_{\| \alpha \| _{2} \leq B_{2} ^{\prime}, g \in \mathcal{G}} \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} \left(\alpha \cdot g \left(Z_{i}\right)\right). \right] \tag{659}
 $$
 
 - Applying Cauchy-Schwartz:
 
 $$
-R _ {n} (\mathcal {F}) \leq B _ {2} ^ {\prime} \mathbb {E} \left[ \sup  _ {g \in \mathcal {G}} \left\| \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} g \left(Z _ {i}\right) \right\| _ {2} \right]. \tag {660}
+R_{n} (\mathcal{F}) \leq B_{2} ^{\prime} \mathbb{E} \left[ \sup_{g \in \mathcal{G}} \left\| \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} g \left(Z_{i}\right) \right\| _{2} \right]. \tag{660}
 $$
 
 - Using the fact that if  $a \in \mathbb{R}^m$  then  $\|a\|_2 \leq \sqrt{m} \max_{1 \leq j \leq m} |a_j|$ :
 
 $$
-R _ {n} (\mathcal {F}) \leq B _ {2} ^ {\prime} \sqrt {m} \mathbb {E} \left[ \max  _ {1 \leq j \leq m} \sup  _ {\| w _ {j} \| _ {2} \leq B _ {2}} \left| \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} h \left(w _ {j} \cdot Z _ {i}\right) \right| \right]. \tag {661}
+R_{n} (\mathcal{F}) \leq B_{2} ^{\prime} \sqrt{m} \mathbb{E} \left[ \max_{1 \leq j \leq m} \sup_{\| w_{j} \| _{2} \leq B_{2}} \left| \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} h \left(w_{j} \cdot Z_{i}\right) \right| \right]. \tag{661}
 $$
 
 - This is the same as taking the sup over a single generic  $w$  subject to  $\| w \|_2 \leq B_2$ :
 
 $$
-R _ {n} (\mathcal {F}) \leq B _ {2} ^ {\prime} \sqrt {m} \mathbb {E} \left[ \sup  _ {\| w \| _ {2} \leq B _ {2}} \left| \frac {1}{n} \sum_ {i = 1} ^ {n} \sigma_ {i} h (w \cdot Z _ {i}) \right| \right]. \tag {662}
+R_{n} (\mathcal{F}) \leq B_{2} ^{\prime} \sqrt{m} \mathbb{E} \left[ \sup_{\| w \| _{2} \leq B_{2}} \left| \frac{1}{n} \sum_{i = 1} ^{n} \sigma_{i} h (w \cdot Z_{i}) \right| \right]. \tag{662}
 $$
 
 Note that the expectation on the RHS is almost the Rademacher complexity of a single unit (657), but with absolute values. In some parts of the literature, Rademacher complexity is actually defined with absolute values (including the original Bartlett/Mendelson (2002) paper), but the absolute value version is a bit harder to work with in general. For that definition, the Lipschitz composition property still holds with an additional factor of 2 but requires that  $h(0) = 0$  (see point 4 of Theorem 12 of Bartlett/Mendelson (2002)). So therefore we can adapt (657) and plug it into (662) to obtain:
 
 $$
-R _ {n} (\mathcal {F}) \leq B _ {2} ^ {\prime} \sqrt {m} \left(\frac {2 B _ {2} C _ {2}}{\sqrt {n}}\right). \tag {663}
+R_{n} (\mathcal{F}) \leq B_{2} ^{\prime} \sqrt{m} \left(\frac{2 B_{2} C_{2}}{\sqrt{n}}\right). \tag{663}
 $$
 
 - Interpretation: the bottom line of this theorem is that neural networks with nonlinearities which are smooth (Lipschitz) will generalize regardless of convexity.
@@ -6938,11 +6932,11 @@ $$
 - Define the inner product over functions and the associated norm:
 
 $$
-\langle f, g \rangle_ {p ^ {*}} \stackrel {\text {d e f}} {=} \mathbb {E} _ {x \sim p ^ {*}} [ f (x) \overline {{g (x)}} ] \tag {664}
+\langle f, g \rangle_{p^{*}} \stackrel{\text{def}} {=} \mathbb{E} _{x \sim p^{*}} [ f (x) \overline{{g (x)}} ] \tag{664}
 $$
 
 $$
-\| f \| _ {p ^ {*}} \stackrel {\text {d e f}} {=} \sqrt {\left\langle f , f \right\rangle_ {p ^ {*}}}. \tag {665}
+\| f \| _{p^{*}} \stackrel{\text{def}} {=} \sqrt{\left\langle f , f \right\rangle_{p^{*}}}. \tag{665}
 $$
 
 - Neural network as an infinite polynomial
@@ -6953,7 +6947,7 @@ $$
 - For  $w \in \mathbb{C}^d$ , we define the basis function, which can be written as a weighted combination of monomials  $x^J$ :
 
 $$
-\phi^ {w} (x) \stackrel {\text {d e f}} {=} \sigma (w \cdot x) = \sum_ {j \geq 0} a _ {j} \left(\sum_ {k = 1} ^ {d} w _ {k} x _ {k}\right) ^ {j} \stackrel {\text {d e f}} {=} \sum_ {J} a _ {J} w ^ {J} x ^ {J}. \tag {666}
+\phi^{w} (x) \stackrel{\text{def}} {=} \sigma (w \cdot x) = \sum_{j \geq 0} a_{j} \left(\sum_{k = 1} ^{d} w_{k} x_{k}\right) ^{j} \stackrel{\text{def}} {=} \sum_{J} a_{J} w^{J} x^{J}. \tag{666}
 $$
 
 Here,  $w^{J} = \prod_{k=1}^{d} w^{J_{k}}$  is the product of the base weights.
@@ -6961,13 +6955,13 @@ Here,  $w^{J} = \prod_{k=1}^{d} w^{J_{k}}$  is the product of the base weights.
 - The neural network is
 
 $$
-f (x) = \sum_ {i = 1} ^ {m} \alpha_ {i} \phi^ {w _ {i}} (x). \tag {667}
+f (x) = \sum_{i = 1} ^{m} \alpha_{i} \phi^{w_{i}} (x). \tag{667}
 $$
 
 - Note that weights  $\{w^J\}$  are orthogonal in the following sense:
 
 $$
-\mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}} \left[ w ^ {J} \overline {{w ^ {J ^ {\prime}}}} \right] = \left\{ \begin{array}{l l} R ^ {2 | J |} & \text {i f} J = J ^ {\prime} \\ 0 & \text {o t h e r w i s e .} \end{array} \right. \tag {668}
+\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} \left[ w^{J} \overline{{w^{J^{\prime}}}} \right] = \left\{ \begin{array}{l l} R^{2 | J |} & \text{if} J = J^{\prime} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{668}
 $$
 
 This stems from the fact that each  $w_{j}\sim \mathbb{C}(R)$  means  $w_{j} = e^{it}$  where  $t\sim$  Uniform([0, 2π]); and  $\mathbb{E}_{t\sim \mathrm{Uniform}([0,2\pi])}[e^{iat}\overline{e^{ibt}}] = \mathbb{I}[a = b]$ .
@@ -6978,7 +6972,7 @@ This stems from the fact that each  $w_{j}\sim \mathbb{C}(R)$  means  $w_{j} = e
 - For any polynomial  $f^*$  of degree  $q$  and norm  $\| f^* \| = 1$ , exists  $\alpha_{1:m}$  with  $\| \alpha_{1:m} \|_2 = \sum_{i=1}^{m} |\alpha_i|^2 = O(d^{2q}/m)$  such that
 
 $$
-\left\| \sum_ {i = 1} ^ {m} \alpha_ {i} \phi^ {w _ {i}} - f ^ {*} \right\| _ {p ^ {*}} = O _ {p} \left(\sqrt {\frac {d ^ {2 q}}{m}}\right). \tag {669}
+\left\| \sum_{i = 1} ^{m} \alpha_{i} \phi^{w_{i}} - f^{*} \right\| _{p^{*}} = O_{p} \left(\sqrt{\frac{d^{2 q}}{m}}\right). \tag{669}
 $$
 
 Proof of Theorem 44:
@@ -6986,7 +6980,7 @@ Proof of Theorem 44:
 - Let the target function be:
 
 $$
-f ^ {*} (x) = \sum_ {J} b _ {J} x ^ {J}. \tag {670}
+f^{*} (x) = \sum_{J} b_{J} x^{J}. \tag{670}
 $$
 
 - Construct an unbiased estimate of  $f^{*}$ :
@@ -6994,7 +6988,7 @@ $$
 * For any  $x \in \mathbb{C}^d$  and  $J \in \mathbb{N}^d$ ,
 
 $$
-\mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}} \left[ \phi^ {w} (x) \overline {{w ^ {J}}} \right] = a _ {J} R ^ {2 | J |} x ^ {J}, \tag {671}
+\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} \left[ \phi^{w} (x) \overline{{w^{J}}} \right] = a_{J} R^{2 | J |} x^{J}, \tag{671}
 $$
 
 which follows from applying (668) to the expansion (666) and noting that all random coefficients except  $w^{J}$  drop out.
@@ -7002,13 +6996,13 @@ which follows from applying (668) to the expansion (666) and noting that all ran
 * Define the coefficients
 
 $$
-T (w) = \sum_ {J} \frac {b _ {J} \overline {{w ^ {J}}}}{a _ {J} R ^ {2 | J |}}. \tag {672}
+T (w) = \sum_{J} \frac{b_{J} \overline{{w^{J}}}}{a_{J} R^{2 | J |}}. \tag{672}
 $$
 
 * Then by construction, we have an unbiased estimate of the target polynomial:
 
 $$
-\mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}} [ T (w) \phi^ {w} (x) ] = f ^ {*} (x). \tag {673}
+\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} [ T (w) \phi^{w} (x) ] = f^{*} (x). \tag{673}
 $$
 
 - Now we would like to control the variance of the estimator.
@@ -7016,13 +7010,13 @@ $$
 * First, define the error:
 
 $$
-\eta (x) \stackrel {\text {d e f}} {=} \frac {1}{m} \sum_ {i = 1} ^ {m} T \left(w _ {i}\right) \phi^ {w _ {i}} (x) - f ^ {*} (x). \tag {674}
+\eta (x) \stackrel{\text{def}} {=} \frac{1}{m} \sum_{i = 1} ^{m} T \left(w_{i}\right) \phi^{w_{i}} (x) - f^{*} (x). \tag{674}
 $$
 
 * We can show that the variance falls as  $1 / m$  due to independence of  $w_{1},\ldots ,w_{m}$ :
 
 $$
-\mathbb {E} _ {w _ {1}, \dots , w _ {m} \sim \mathbb {C} (R) ^ {d}} [ \| \eta \| _ {p ^ {*}} ^ {2} ] \leq \frac {1}{m} \mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}} [ | T (w) | ^ {2} \| \phi^ {w} \| _ {p ^ {*}} ^ {2} ]. \tag {675}
+\mathbb{E} _{w_{1}, \dots , w_{m} \sim \mathbb{C} (R) ^{d}} [ \| \eta \| _{p^{*}} ^{2} ] \leq \frac{1}{m} \mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} [ | T (w) | ^{2} \| \phi^{w} \| _{p^{*}} ^{2} ]. \tag{675}
 $$
 
 * To bound the coefficients:
@@ -7034,23 +7028,23 @@ Assume  $R\leq 1$
 Then
 
 $$
-\begin{array}{l} | T (w) | \leq \sum_ {J} \left| \frac {b _ {J} \overline {{w ^ {J}}}}{a _ {J} R ^ {2 | J |}} \right| (676) \\ \leq \sum_ {J} \left| \frac {b _ {J}}{a _ {J} R ^ {| J |}} \right| [ \text {s i n c e} | \overline {{w ^ {J}}} | \leq R ^ {| J |} ] (677) \\ \leq \frac {\sum_ {J} | b _ {J} |}{a (q) R ^ {q}} \quad [ \text {s i n c e} | J | \leq q, a (q) \leq | a _ {J} | ] (678) \\ = \frac {\left\| f ^ {*} \right\| _ {1}}{a (q) R ^ {q}}. (679) \\ \end{array}
+\begin{array}{l} | T (w) | \leq \sum_{J} \left| \frac{b_{J} \overline{{w^{J}}}}{a_{J} R^{2 | J |}} \right| (676) \\ \leq \sum_{J} \left| \frac{b_{J}}{a_{J} R^{| J |}} \right| [ \text{since} | \overline{{w^{J}}} | \leq R^{| J |} ] (677) \\ \leq \frac{\sum_{J} | b_{J} |}{a (q) R^{q}} \quad [ \text{since} | J | \leq q, a (q) \leq | a_{J} | ] (678) \\ = \frac{\left\| f^{*} \right\| _{1}}{a (q) R^{q}}. (679) \\ \end{array}
 $$
 
 * Define the following bounds on the variance of the basis functions  $\phi^w$  and the 1-norm of the target function  $f^*$ , respectively:
 
 $$
-\beta (q, R) \stackrel {\text {d e f}} {=} \mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}} \left[ \frac {\| \phi^ {w} \| _ {p ^ {*}} ^ {2}}{R ^ {2 q}} \right], \tag {680}
+\beta (q, R) \stackrel{\text{def}} {=} \mathbb{E} _{w \sim \mathbb{C} (R) ^{d}} \left[ \frac{\| \phi^{w} \| _{p^{*}} ^{2}}{R^{2 q}} \right], \tag{680}
 $$
 
 $$
-\gamma (q) \stackrel {\text {d e f}} {=} \max  _ {\| f ^ {*} \| _ {p ^ {*}} = 1} \| f ^ {*} \| _ {1}. \tag {681}
+\gamma (q) \stackrel{\text{def}} {=} \max_{\| f^{*} \| _{p^{*}} = 1} \| f^{*} \| _{1}. \tag{681}
 $$
 
 Then we have the following result (by plugging quantities in and applying concavity of  $\sqrt{\cdot}$ ):
 
 $$
-\mathbb {E} _ {w _ {1}, \dots , w _ {m} \sim \mathbb {C} (R) ^ {d}} [ \| \eta \| _ {p ^ {*}} ] \leq \sqrt {\frac {\gamma (q) ^ {2} \beta (q , R)}{a (q) ^ {2} m}}. \tag {682}
+\mathbb{E} _{w_{1}, \dots , w_{m} \sim \mathbb{C} (R) ^{d}} [ \| \eta \| _{p^{*}} ] \leq \sqrt{\frac{\gamma (q) ^{2} \beta (q , R)}{a (q) ^{2} m}}. \tag{682}
 $$
 
 - Finally, we specialize to  $\sigma(z) = e^z$  and  $p^* = \mathbb{C}(1)^d$ .
@@ -7064,11 +7058,11 @@ $$
 We have that
 
 $$
-\mathbb {E} _ {w \sim \mathbb {C} (R) ^ {d}, x \sim \mathbb {C} (1) ^ {d}} \left[ \phi^ {w} (x) \overline {{\phi^ {w} (x)}} \right] = \sum_ {J} a _ {J} ^ {2} R ^ {2 | J |} \tag {683}
+\mathbb{E} _{w \sim \mathbb{C} (R) ^{d}, x \sim \mathbb{C} (1) ^{d}} \left[ \phi^{w} (x) \overline{{\phi^{w} (x)}} \right] = \sum_{J} a_{J} ^{2} R^{2 | J |} \tag{683}
 $$
 
 $$
-= O \left(e ^ {2 \sqrt {d} R}\right). \tag {684}
+= O \left(e^{2 \sqrt{d} R}\right). \tag{684}
 $$
 
 Finally,  $\beta (q,R) = O(e^{2\sqrt{d} R} / R^{2q}) = O(d^q)$  by definition of  $R$ . Note that we need  $R$  to be small to fight the explosion stemming from  $e^{2\sqrt{d}}$ .
@@ -7078,7 +7072,7 @@ Finally,  $\beta (q,R) = O(e^{2\sqrt{d} R} / R^{2q}) = O(d^q)$  by definition of
 * Claim: the coefficients are bounded:
 
 $$
-\sum_ {i = 1} ^ {m} \left| \alpha_ {i} \right| ^ {2} = \frac {1}{m ^ {2}} \sum_ {i = 1} ^ {m} \left| T \left(w _ {i}\right) \right| ^ {2} \leq \frac {\left\| f ^ {*} \right\| _ {1} ^ {2}}{m a (q) ^ {2} R ^ {2 q}} = O \left(d ^ {2 q} / m\right). \tag {685}
+\sum_{i = 1} ^{m} \left| \alpha_{i} \right| ^{2} = \frac{1}{m^{2}} \sum_{i = 1} ^{m} \left| T \left(w_{i}\right) \right| ^{2} \leq \frac{\left\| f^{*} \right\| _{1} ^{2}}{m a (q) ^{2} R^{2 q}} = O \left(d^{2 q} / m\right). \tag{685}
 $$
 
 See the paper for more details.
@@ -7092,7 +7086,7 @@ See the paper for more details.
 - Schmidhuber, 2014: Deep Learning in Neural Networks: An Overview
 
 $$
-[ \text {b e g i n l e c t u r e 1 8} ] \tag {18}
+[ \text{b e g i n l e c t u r e 8} ] \tag{18}
 $$
 
 # 7 Conclusions and outlook
@@ -7114,13 +7108,13 @@ Sometimes approximation and optimization error are hard to distinguish. For exam
 - In the batch setting, we wish to study the generalization ability of learning algorithms. The key quantity was excess risk
 
 $$
-L (\hat {h}) - L \left(h ^ {*}\right). \tag {686}
+L (\hat{h}) - L \left(h^{*}\right). \tag{686}
 $$
 
 - We could use uniform convergence, which studies
 
 $$
-\sup  _ {h \in \mathcal {H}} | L (h) - \hat {L} (h) |. \tag {687}
+\sup_{h \in \mathcal{H}} | L (h) - \hat{L} (h) |. \tag{687}
 $$
 
 * FIGURE: [empirical and expected risk, convergence]  
@@ -7132,11 +7126,11 @@ $$
 - We could also use asymptotic statistics to get
 
 $$
-L (\hat {\theta}) = L \left(\theta^ {*}\right) + \left(\hat {\theta} - \theta^ {*}\right) ^ {\top} \nabla L ^ {2} \left(\theta^ {*}\right) \left(\hat {\theta} - \theta^ {*}\right) + \dots \tag {688}
+L (\hat{\theta}) = L \left(\theta^{*}\right) + \left(\hat{\theta} - \theta^{*}\right) ^{\top} \nabla L^{2} \left(\theta^{*}\right) \left(\hat{\theta} - \theta^{*}\right) + \dots \tag{688}
 $$
 
 $$
-\hat {\theta} - \theta^ {*} = - \nabla^ {2} \hat {L} \left(\theta^ {*}\right) \nabla \hat {L} \left(\theta^ {*}\right) + \dots , \tag {689}
+\hat{\theta} - \theta^{*} = - \nabla^{2} \hat{L} \left(\theta^{*}\right) \nabla \hat{L} \left(\theta^{*}\right) + \dots , \tag{689}
 $$
 
 which vastly simplifies the calculations needed.
@@ -7144,13 +7138,13 @@ which vastly simplifies the calculations needed.
 - In online learning, nature adversarily chooses convex loss functions  $f_{1}, \ldots, f_{T}$ . The online mirror descent learner produces
 
 $$
-w _ {t} = \arg \min  _ {w \in S} \left\{\psi (w) + \sum_ {i = 1} ^ {t - 1} w \cdot z _ {i} \right\}, \tag {690}
+w_{t} = \arg \min_{w \in S} \left\{\psi (w) + \sum_{i = 1} ^{t - 1} w \cdot z_{i} \right\}, \tag{690}
 $$
 
 We analyze the regret:
 
 $$
-\operatorname {R e g r e t} (u) = \sum_ {t = 1} ^ {T} \left[ f _ {t} \left(w _ {t}\right) - f _ {t} (u) \right]. \tag {691}
+\operatorname{Regret} (u) = \sum_{t = 1} ^{T} \left[ f_{t} \left(w_{t}\right) - f_{t} (u) \right]. \tag{691}
 $$
 
 The decomposition into approximation, estimation, and optimization errors is not perfect here.
@@ -7203,7 +7197,7 @@ Example: Google Flu Trends
 \* Estimator:
 
 $$
-\hat {\theta} = \arg \min  _ {\theta} \hat {L} (\theta), \quad \hat {L} (\theta) = \frac {1}{n} \sum_ {i = 1} ^ {n} \hat {w} (x) \ell ((x, y); \theta). \tag {692}
+\hat{\theta} = \arg \min_{\theta} \hat{L} (\theta), \quad \hat{L} (\theta) = \frac{1}{n} \sum_{i = 1} ^{n} \hat{w} (x) \ell ((x, y); \theta). \tag{692}
 $$
 
 * If we had infinite unlabeled data, we could use the weights  $\hat{w}(x) = p^{*}(x) / q^{*}(x)$ , from which it's easy to check that  $\hat{\theta}$  is an unbiased estimator of the expected risk at test time.
@@ -7244,7 +7238,7 @@ Assume weight vectors are similar in Euclidean distance:  $\sum_{i\neq j}\| w_i 
 - This paper shows that one can take a high-accuracy neural network for object recognition, perturb the input by a very small adversarial amount to make the predictor incorrect. The perturbation is imperceptible to the naked eye and is obtained via an optimization problem like this:
 
 $$
-\min  _ {r \in \mathbb {R} ^ {d}} \left(f (x + r) - y _ {\text {w r o n g}}\right) ^ {2} + \lambda \| r \| ^ {2}, \tag {693}
+\min_{r \in \mathbb{R} ^{d}} \left(f (x + r) - y_{\text{wrong}}\right) ^{2} + \lambda \| r \| ^{2}, \tag{693}
 $$
 
 where  $r$  is the perturbation,  $f$  is the trained neural network, and  $x$  is the input.
@@ -7296,7 +7290,7 @@ Motivation: labeled data is expensive, unlabeled data is cheap
 
 - Graphical models (partition function): pseudolikelihood
 
-* Suppose  $x \in  {\{ 0,1{\} }^{d}}$  .  
+* Suppose  $x \in{\{ 0,1{\} }^{d}}$  .  
 *  $p_{\theta}(x) = W_{\theta}(x) / Z(\theta)$  
 * The partition function  $Z(\theta) = \sum_{x} W_{\theta}(x)$  is computationally expensive, taking in the worst case  $O(2^d)$  time.  
 * However, we can maximize the pseudolikelihood  $\prod_{i=1}^{d} p_{\theta}(x_i \mid x_{-i})$ , which takes  $O(d)$  time.  
@@ -7338,19 +7332,19 @@ $$
 - Indicator (one-zero) function:
 
 $$
-\mathbb {I} [ \text {c o n d i t i o n} ] \stackrel {\text {d e f}} {=} \left\{ \begin{array}{l l} 1 & \text {i f c o n d i t i o n i s t r u e} \\ 0 & \text {o t h e r w i s e .} \end{array} \right. \tag {694}
+\mathbb{I} [ \text{condition} ] \stackrel{\text{def}} {=} \left\{ \begin{array}{l l} 1 & \text{ifconditionistrue} \\ 0 & \text{o t h e r w i s e .} \end{array} \right. \tag{694}
 $$
 
 - Probability simplex:
 
 $$
-\Delta_ {d} \stackrel {\mathrm {d e f}} {=} \left\{w \in \mathbb {R} ^ {d}: w \succeq 0 \text {a n d} \sum_ {i = 1} ^ {d} w _ {i} = 1 \right\}. \tag {695}
+\Delta_{d} \stackrel{\mathrm{def}} {=} \left\{w \in \mathbb{R} ^{d}: w \succeq 0 \text{and} \sum_{i = 1} ^{d} w_{i} = 1 \right\}. \tag{695}
 $$
 
 -Euclidean projection:
 
 $$
-\Pi_ {S} (w) \stackrel {\text {d e f}} {=} \arg \min  _ {u \in S} \| u - w \| _ {2} \tag {696}
+\Pi_{S} (w) \stackrel{\text{def}} {=} \arg \min_{u \in S} \| u - w \| _{2} \tag{696}
 $$
 
 is the closest point (measured using Euclidean distance) to  $w$  that's in  $S$ .
@@ -7380,7 +7374,7 @@ is the closest point (measured using Euclidean distance) to  $w$  that's in  $S$
 # A.2 Linear algebra
 
 - Inner (dot) product: given two vectors  $u, v \in \mathbb{R}^n$ , the dot product is  $u^\top v = u \cdot v = \langle u, v \rangle = \sum_{i=1}^{n} u_i v_i$ .  
-- Outer product: for a vector  $v \in  {\mathbb{R}}^{n}$  ,let  ${v}^{\otimes } = v{v}^{\top }$
+- Outer product: for a vector  $v \in{\mathbb{R}}^{n}$  ,let  ${v}^{\otimes } = v{v}^{\top }$
 
 - Positive semidefinite (PSD) matrix: a symmetric square matrix  $A \in \mathbb{R}^{n \times n}$  is PSD iff  $v^{\top}Av \geq 0$  for all vectors  $v \in \mathbb{R}^n$ . Note: in this class, whenever we say a matrix is PSD, we implicitly assume that the matrix is symmetric.  
 - Eigenvalues: for a PSD matrix  $A \in \mathbb{R}^{n \times n}$ , let  $\lambda_1(A), \ldots, \lambda_n(A)$  be the eigenvalues of  $A$ , sorted in non-increasing order.  
@@ -7395,7 +7389,7 @@ is the closest point (measured using Euclidean distance) to  $w$  that's in  $S$
 - For any real vectors  $u, v \in \mathbb{R}^d$ ,
 
 $$
-| u \cdot v | \leq \| u \| _ {p} \| v \| _ {q}, \tag {697}
+| u \cdot v | \leq \| u \| _{p} \| v \| _{q}, \tag{697}
 $$
 
 for  $1/p + 1/q = 1$ , where  $\| u \|_p = \left( \sum_{j=1}^d |u_j|^p \right)^{1/p}$  is the  $p$ -norm.
@@ -7422,7 +7416,7 @@ for  $1/p + 1/q = 1$ , where  $\| u \|_p = \left( \sum_{j=1}^d |u_j|^p \right)^{
 
 - We say that a sequence of distributions  $(P_n)$  converges in distribution (weak convergence) to a distribution  $P$  (written  $P_n \xrightarrow{d} P$ ) if for all bounded continuous functions  $f, \lim_{n \to \infty} \int f(x) P_n(dx) = \int f(x) P(dx)$ .  
 - When we write  $Y_{n} \stackrel{d}{\to} P$  for a sequence of random variables  $(Y_{n})$ , we mean that the sequence of distribution of those random variables converges in distribution.  
-- Example:  $\sqrt{n} (\hat{\mu} -\mu)\stackrel {d}{\to}\mathcal{N}(0,\Sigma)$  (central limit theorem)
+- Example:  $\sqrt{n} (\hat{\mu} -\mu)\stackrel{d}{\to}\mathcal{N}(0,\Sigma)$  (central limit theorem)
 
 - Continuous mapping theorem
 
@@ -7438,13 +7432,13 @@ for  $1/p + 1/q = 1$ , where  $\| u \|_p = \left( \sum_{j=1}^d |u_j|^p \right)^{
 - If  $\nabla f: \mathbb{R}^d \to (\mathbb{R}^d \times \mathbb{R}^k)$  is continuous and  $\sqrt{n}(\hat{\mu} - \mu) \xrightarrow{d} \mathcal{N}(0, \Sigma)$ , then
 
 $$
-\sqrt {n} (f (\hat {\mu}) - f (\mu)) \xrightarrow {d} \mathcal {N} (0, \nabla f (\mu) ^ {\top} \Sigma \nabla f (\mu)). \tag {698}
+\sqrt{n} (f (\hat{\mu}) - f (\mu)) \xrightarrow{d} \mathcal{N} (0, \nabla f (\mu) ^{\top} \Sigma \nabla f (\mu)). \tag{698}
 $$
 
 - The key intuition here is a Taylor approximation (valid because  $\hat{\mu}$  is converging to  $\mu$ ):
 
 $$
-f (\hat {\mu}) = f (\mu) + \nabla f (\mu) ^ {\top} (\hat {\mu} - \mu) + \dots . \tag {699}
+f (\hat{\mu}) = f (\mu) + \nabla f (\mu) ^{\top} (\hat{\mu} - \mu) + \dots . \tag{699}
 $$
 
 Then apply the continuous mapping theorem.
@@ -7467,7 +7461,7 @@ Then apply the continuous mapping theorem.
 - For any convex function  $f: \mathbb{R}^d \to \mathbb{R}$  and random variable  $X \in \mathbb{R}^d$ ,
 
 $$
-f (\mathbb {E} [ X ]) \leq \mathbb {E} [ f (X) ]. \tag {700}
+f (\mathbb{E} [ X ]) \leq \mathbb{E} [ f (X) ]. \tag{700}
 $$
 
 # A.4 Functional analysis
@@ -7483,7 +7477,7 @@ A complete metric space  $(X,\rho)$  is one where every Cauchy sequence  $(x_{i}
 -  $L^p(\mathcal{X})$  is the space of all measurable functions  $f$  with finite  $p$ -norm:
 
 $$
-\| f \| _ {p} \stackrel {\text {d e f}} {=} \left(\int | f (x) | ^ {p} d x\right) ^ {1 / p} <   \infty . \tag {701}
+\| f \| _{p} \stackrel{\text{def}} {=} \left(\int | f (x) | ^{p} d x\right) ^{1 / p} <   \infty . \tag{701}
 $$
 
 - Example: if  $\mathcal{X} = \mathbb{R}$ ,  $f(x) = 1$  is not in  $L^p$  for any  $p < \infty$ .  

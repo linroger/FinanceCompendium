@@ -2871,13 +2871,13 @@ So  $sQ$  is the distribution of  $X_{n+1}$ . More generally, we have that  $sQ^
 We can also compute the two-step transition probability:
 
 $$
-\begin{array}{l} P \left(X_{n + 2} = j \mid X_{n} = i\right) \\ = \sum_{k} P \left(X_{n + 2} = j \mid X_{n + 1} = k, X_{n} = i\right) \\ P \left(X_{n + 1} = k \mid X_{n} = i\right) \\ = \sum_{k} P \left(X_{n + 2} = j \mid X_{n + 1} = k\right) P \left(X_{n + 1} = k \mid X_{n} = i\right) \\ = \sum_{k} q_{k j} q_{i k} \\ = \sum_{k} q_{i k} q_{k j} \\ = (Q^{2}) _ {i j} \\ \end{array}
+\begin{array}{l} P \left(X_{n + 2} = j \mid X_{n} = i\right) \\ = \sum_{k} P \left(X_{n + 2} = j \mid X_{n + 1} = k, X_{n} = i\right) \\ P \left(X_{n + 1} = k \mid X_{n} = i\right) \\ = \sum_{k} P \left(X_{n + 2} = j \mid X_{n + 1} = k\right) P \left(X_{n + 1} = k \mid X_{n} = i\right) \\ = \sum_{k} q_{k j} q_{i k} \\ = \sum_{k} q_{i k} q_{k j} \\ = (Q^{2})_{i j} \\ \end{array}
 $$
 
 More generally, we have
 
 $$
-P \left(X_{n + m} = j \mid X_{n} = i\right) = \left(Q^{m}\right) _ {i j}
+P \left(X_{n + m} = j \mid X_{n} = i\right) = \left(Q^{m}\right)_{i j}
 $$
 
 Definition 32.3. Let  $s$  be some probability vector for a Markov chain with transition matrix  $Q$ . We say that  $s$  is stationary for the chain if

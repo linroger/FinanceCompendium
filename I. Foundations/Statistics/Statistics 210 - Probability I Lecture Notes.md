@@ -617,13 +617,13 @@ Figure 1: Derivation path of distribution representations.
 Example 6.4 (Logistic distribution). The logistic distribution has representation  $\log \left(\frac{U}{1 - U}\right)$ , where we sample  $U \sim \mathrm{Unif}$ . The quantile function of the distribution is called the logit function, which is
 
 $$
-\operatorname {l o g i t} (p) = \log \left(\frac {p}{1 - p}\right).
+\operatorname{logit}(p) = \log \left(\frac{p}{1 - p}\right).
 $$
 
 This maps a probability  $(0,1)\mapsto \mathbb{R}$ , and it can be thought of as the log-odds of a probability. For example, you can imagine predicting logits with a linear model (logistic regression), or a neural network (softmax and cross entropy). The CDF is the sigmoid function,
 
 $$
-\sigma (y) = \operatorname {l o g i t} ^ {- 1} (y) = \frac {e ^ {y}}{1 + e ^ {y}},
+\sigma(y) = \operatorname{logit}^{-1}(y) = \frac{e^{y}}{1 + e^{y}},
 $$
 
 which can also be used as a nonlinearity in neural networks!
@@ -655,13 +655,13 @@ Example 6.11. Find the expected value of  $|T|$ , where  $T \sim T_{n}$ .
 Proof. We can write the representation of  $T$  as
 
 $$
-| T | \sim \left| \frac {\mathcal {N} (0 , 1)}{\sqrt {\chi_ {n} ^ {2} / n}} \right| \sim \frac {\chi_ {1}}{\chi_ {n}} \sqrt {n}.
+|T| \sim \left| \frac{\mathcal{N}(0, 1)}{\sqrt{\chi_{n}^{2} / n}} \right| \sim \frac{\chi_{1}}{\chi_{n}} \sqrt{n}.
 $$
 
 From here, since the numerator and denominator are independent (sorry for the sloppy notation), we end up with a simpler expression:
 
 $$
-\mathbf {E} \left[ | T | \right] = \mathbf {E} \left[ \chi_ {1} \right] \cdot \mathbf {E} \left[ \frac {1}{\chi_ {n}} \right] \cdot \sqrt {n}.
+\mathbf{E} \left[|T| \right] = \mathbf{E} \left[\chi_{1} \right] \cdot \mathbf{E} \left[\frac{1}{\chi_{n}} \right] \cdot \sqrt{n}.
 $$
 
 This is still kind of messy, but it's broken down into much more manageable parts. For example, we can find  $\mathbf{E}[\chi_1]$  by a quick search on Wikipedia.
@@ -681,7 +681,7 @@ Here's an interesting fact that turns out to be a key property of the beta distr
 Proposition 7.1 (Beta-Gamma). Suppose that you have independent random variables  $G_{\alpha} \sim \mathrm{Gamma}(\alpha)$  and  $G_{\beta} \sim \mathrm{Gamma}(\beta)$ . Then by representations, we have that  $G_{\alpha} + G_{\beta} \sim \mathrm{Gamma}(\alpha + \beta)$ , and  $\frac{G_{\alpha}}{G_{\alpha} + G_{\beta}} \sim \mathrm{Beta}(\alpha, \beta)$ . The interesting fact is that
 
 $$
-\frac {G _ {\alpha}}{G _ {\alpha} + G _ {\beta}} \perp \perp G _ {\alpha} + G _ {\beta}.
+\frac{G_{\alpha}}{G_{\alpha} + G_{\beta}} \perp \perp G_{\alpha} + G_{\beta}.
 $$
 
 Proof. This fact comes from a straightforward calculation with Jacobians. Alternatively, you can also reason about this by relating both variables to a Poisson process and order statistics, which might help provide additional intuition.  $\square$

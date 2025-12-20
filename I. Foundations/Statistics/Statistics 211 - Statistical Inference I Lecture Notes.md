@@ -411,7 +411,7 @@ Definition 3.5 (Unbiased estimator). For an estimated quantity  $g(\theta)$ , we
 Unbiased estimators tend to be "good" in terms of mean-squared error, since we can decompose the error into a bias and variance term like
 
 $$
-\begin{array}{l} \mathbf {E} _ {\theta} \left[ (T (Y) - g (\theta)) ^ {2} \right] = \mathbf {E} _ {\theta} \left[ (T (Y) - \mathbf {E} _ {\theta} [ T (y) ]) ^ {2} \right] + \left(\mathbf {E} _ {\theta} [ T (Y) ] - g (\theta)\right) ^ {2} \\ = \operatorname {V a r} _ {\theta} [ T (Y) ] + \operatorname {B i a s} ^ {2}. \\ \end{array}
+\begin{array}{l} \mathbf{E}_{\theta} \left[ (T (Y) - g (\theta))^2 \right] = \mathbf{E}_{\theta} \left[ (T (Y) - \mathbf{E}_{\theta} [ T (y) ])^2 \right] + \left(\mathbf{E}_{\theta} [ T (Y) ] - g (\theta)\right)^2 \\ = \operatorname{Var}_{\theta} [ T (Y) ] + \operatorname{Bias}^2. \\ \end{array}
 $$
 
 Now, we introduce a famous theorem that connects sufficient statistics to unbiased estimation.
@@ -424,13 +424,13 @@ Theorem 3.6 (Rao-Blackwell). Let  $W(Y)$  be an unbiased estimator of  $g(\theta
 Proof. The first part follows directly from the law of iterated expectation, since
 
 $$
-g (\theta) = \mathbf {E} _ {\theta} [ W (Y) ] = \mathbf {E} _ {\theta} [ \mathbf {E} _ {\theta} [ W (Y) \mid T ] ] = \mathbf {E} _ {\theta} [ \psi (T) ].
+g (\theta) = \mathbf{E}_{\theta} [ W (Y) ] = \mathbf{E}_{\theta} [ \mathbf{E}_{\theta} [ W (Y) \mid T ] ] = \mathbf{E}_{\theta} [ \psi (T) ].
 $$
 
 The second part follows from the law of total variance, since
 
 $$
-\mathbf {V a r} _ {\theta} [ W (Y) ] = \mathbf {E} _ {\theta} [ \mathbf {V a r} _ {\theta} [ W (Y) \mid T ] ] + \mathbf {V a r} _ {\theta} [ \mathbf {E} _ {\theta} [ W (Y) \mid T ] ] \geq \mathbf {V a r} _ {\theta} [ \psi (T) ].
+\mathbf{Var}_{\theta} [ W (Y) ] = \mathbf{E}_{\theta} [ \mathbf{Var}_{\theta} [ W (Y) \mid T ] ] + \mathbf{Var}_{\theta} [ \mathbf{E}_{\theta} [ W (Y) \mid T ] ] \geq \mathbf{Var}_{\theta} [ \psi (T) ].
 $$
 
 Intuitively, this theorem means that if we average the value of our unbiased estimator across fibers of a sufficient statistic, we can essentially uniformly reduce the variance of that estimator.
@@ -446,7 +446,7 @@ We present some examples below, although we do not have time to justify them:
 - If  $Y_{1},\ldots ,Y_{n}\sim \mathcal{N}(\mu ,\sigma^{2})$  , then
 
 $$
-\left(\sum_ {i = 1} ^ {n} Y _ {i}, \sum_ {i = 1} ^ {n} Y _ {i} ^ {2}\right)
+\left(\sum_{i = 1}^{n} Y_i, \sum_{i = 1}^{n} Y_i^2\right)
 $$
 
 is a minimal sufficient statistic. Equivalently, this means that the empirical mean and standard deviations (without the  $n - 1$  correction) are minimal sufficient.

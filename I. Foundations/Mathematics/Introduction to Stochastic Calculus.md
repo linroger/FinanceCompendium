@@ -297,13 +297,13 @@ $$
 Then we can use the substitution,  $Y_{t} = \log (S_{t})$  and Ito's Lemma applied to the function  $f(x) := \log (x)$  to obtain
 
 $$
-S _ {t} = S _ {0} \exp \left(\int_ {0} ^ {t} \left(\mu_ {s} - \sigma_ {s} ^ {2} / 2\right) d s + \int_ {0} ^ {t} \sigma_ {s} d W _ {s}\right). \tag {12}
+S_{t} = S_{0} \exp \left(\int_{0}^{t} \left(\mu_{s} - \sigma_{s}^{2} / 2\right) d s + \int_{0}^{t} \sigma_{s} d W_{s}\right). \tag{12}
 $$
 
 Note that  $S_{t}$  does not appear on the right-hand-side of (12) so that we have indeed solved the SDE. When  $\mu_{s} = \mu$  and  $\sigma_{s} = \sigma$  are constants we obtain
 
 $$
-S _ {t} = S _ {0} \exp \left(\left(\mu - \sigma^ {2} / 2\right) t + \sigma d W _ {t}\right) \tag {13}
+S_{t} = S_{0} \exp \left(\left(\mu - \sigma^{2} / 2\right) t + \sigma d W_{t}\right) \tag{13}
 $$
 
 so that  $\log (S_t)\sim \mathsf{N}\left((\mu -\sigma^2 /2)t,\sigma^2 t\right)$
@@ -313,7 +313,7 @@ so that  $\log (S_t)\sim \mathsf{N}\left((\mu -\sigma^2 /2)t,\sigma^2 t\right)$
 Let  $S_{t}$  be a security price and suppose  $X_{t} = \log (S_{t})$  satisfies the SDE
 
 $$
-d X _ {t} = \left[ - \gamma \left(X _ {t} - \mu t\right) + \mu \right] d t + \sigma d W _ {t}.
+d X_{t} = \left[ - \gamma \left(X_{t} - \mu t\right) + \mu \right] d t + \sigma d W_{t}.
 $$
 
 Then we can apply Itô's Lemma to  $Y_{t} \coloneqq \exp (\gamma t)X_{t}$  to obtain
