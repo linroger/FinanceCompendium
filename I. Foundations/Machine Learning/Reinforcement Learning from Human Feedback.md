@@ -1555,7 +1555,7 @@ To formalize the process of selecting the best completions based on our reward m
 10.1.2.1 Top Per Prompt The first potential selection function takes the max per prompt.
 
 $$
-S (R) = \left[ \operatorname {a r g} \max  _ {j} r _ {1, j}, \operatorname {a r g} \max  _ {j} r _ {2, j}, \dots , \operatorname {a r g} \max  _ {j} r _ {M, j} \right]
+S(R) = \left[ \arg \max_{j} r_{1,j}, \arg \max_{j} r_{2,j}, \dots, \arg \max_{j} r_{M,j} \right]
 $$
 
 This function  $S$  returns a vector of indices, where each index corresponds to the column with the maximum reward for each row in  $R$ . We can then use these indices to select our chosen completions:
