@@ -713,13 +713,17 @@ Short-term portion of long-term borrowing, representing the portion of the long-
 
 Of all the items in the balance sheet, absent outright fraud, current liabilities should be the one for which the accounting estimates of book value and financial estimates of market value are closest.
 
-Long-Term Debt Long-term debt for firms can take one of two forms. It can be a long-term loan from a bank or other financial institution, or it can be a long-term bond issued to financial markets, in which case the creditors are the investors in the bond. Accountants measure the value of long-term debt by looking at the present value of payments due on the loan or bond at the time of the borrowing. For bank loans, this will be equal to the nominal value of the loan. With bonds, however, there are three possibilities: When bonds are issued at par value, for instance, the value of the long-term debt is generally measured in terms of the nominal obligation created (i.e., principal due on the borrowing). When bonds are issued at a premium or a discount on par value, the bonds are recorded at the issue price, but the premium or discount is amortized over the life of the bond. As an extreme example, companies that issue zero coupon debt have to record the debt at the issue price, which will be significantly below the principal (face value) due at maturity. The difference between the issue price and the face value is amortized each period and is treated as a noncash interest expense that is tax deductible.
+# Long-Term Debt
+
+Long-term debt for firms can take one of two forms. It can be a long-term loan from a bank or other financial institution, or it can be a long-term bond issued to financial markets, in which case the creditors are the investors in the bond. Accountants measure the value of long-term debt by looking at the present value of payments due on the loan or bond at the time of the borrowing. For bank loans, this will be equal to the nominal value of the loan. With bonds, however, there are three possibilities: When bonds are issued at par value, for instance, the value of the long-term debt is generally measured in terms of the nominal obligation created (i.e., principal due on the borrowing). When bonds are issued at a premium or a discount on par value, the bonds are recorded at the issue price, but the premium or discount is amortized over the life of the bond. As an extreme example, companies that issue zero coupon debt have to record the debt at the issue price, which will be significantly below the principal (face value) due at maturity. The difference between the issue price and the face value is amortized each period and is treated as a noncash interest expense that is tax deductible.
 
 In all these cases, the value of debt is unaffected by changes in interest rates during the life of the loan or bond. Note that as market interest rates rise or fall, the present value of the loan obligations should decrease or increase. This updated market value for debt is not shown on the balance sheet. If debt is retired prior to maturity, the difference between book value and the amount paid at retirement is treated as an extraordinary gain or loss in the income statement.
 
 Finally, companies that have long-term debt denominated in nondomestic currencies have to adjust the book value of debt for changes in exchange rates. Since exchange rate changes reflect underlying changes in interest rates, it does imply that this debt is likely to be valued much nearer to market value than is debt in the domestic currency.
 
-Other Long-Term Liabilities Firms often have long-term obligations that are not captured in the long-term debt item. These include obligations to lessors on assets that firms have leased, to employees in the form of pension fund and health care benefits yet to be paid, and to the government in the form of taxes deferred. In the past two decades accountants have increasingly moved toward quantifying these liabilities and showing them as long-term liabilities.
+# Other Long-Term Liabilities
+
+Firms often have long-term obligations that are not captured in the long-term debt item. These include obligations to lessors on assets that firms have leased, to employees in the form of pension fund and health care benefits yet to be paid, and to the government in the form of taxes deferred. In the past two decades accountants have increasingly moved toward quantifying these liabilities and showing them as long-term liabilities.
 
 Leases Firms often choose to lease long-term assets rather than buy them. Lease payments create the same kind of obligation that interest payments on debt create, and they must be viewed in a similar light. If a firm is allowed to lease a significant portion of its assets and keep it off its financial statements, a perusal of the statements will give a very misleading view of the company's financial strength. Consequently, accounting rules have been devised to force firms to reveal the extent of their lease obligations on their books.
 
@@ -785,7 +789,7 @@ One final point needs to be made about the Home Depot's liabilities. The Home De
 
 How profitable is a firm? What did it earn on the assets that it invested in? These are fundamental questions we would like financial statements to answer. Accountants use the income statement to provide information about a firm's operating activities over a specific time period. The income statement is designed to measure the earnings from assets in place. This section examines the principles underlying earnings and return measurement in accounting, and the way they are put into practice.
 
-# Accounting Principles Underlying Measurement of Earnings and Profitability
+## Accounting Principles Underlying Measurement of Earnings and Profitability
 
 Two primary principles underlie the measurement of accounting earnings and profitability. The first is the principle of accrual accounting. In accrual accounting, the revenue from selling a good or service is recognized in the period in which the good is sold or the service is performed (in whole or substantially). A corresponding effort is made on the expense side to match expenses to revenues. This is in contrast to a cash-based system of accounting, where revenues are recognized when payment is received and expenses are recorded when paid.
 
@@ -793,7 +797,7 @@ The second principle is the categorization of expenses into operating, financing
 
 Operating expenses are subtracted from revenues in the current period to arrive at a measure of operating earnings of the firm. Financing expenses are subtracted from operating earnings to estimate earnings to equity investors or net income. Capital expenses are written off over their useful lives (in terms of generating benefits) as depreciation or amortization.
 
-# Measuring Accounting Earnings and Profitability
+## Measuring Accounting Earnings and Profitability
 
 Since income can be generated from a number of different sources, generally accepted accounting principles (GAAP) require that income statements be classified into four sections—income from continuing operations, income from discontinued operations, extraordinary gains or losses, and adjustments for changes in accounting principles.
 
@@ -808,7 +812,7 @@ Much of financial analysis is built around the expected future earnings of a fir
 
 Unusual or infrequent items, such as gains or losses from the divestiture of an asset or division, and write-offs or restructuring costs. Companies sometimes include such items as part of operating expenses. As an example, Boeing in 1997 took a write-off of 1,400 million to adjust the value of assets it acquired in its acquisition of McDonnell Douglas, and it showed this as part of operating expenses.
 Extraordinary items, which are defined as events that are unusual in nature, infrequent in occurrence, and material in impact. Examples include the accounting gain associated with refinancing high-coupon debt with lower-coupon debt, and gains or losses from marketable securities that are held by the firm.
-■ Losses associated with discontinued operations, which measure both the loss from the phaseout period and any estimated loss on sale of the operations. To qualify, however, the operations have to be separable from the firm.
+- Losses associated with discontinued operations, which measure both the loss from the phaseout period and any estimated loss on sale of the operations. To qualify, however, the operations have to be separable from the firm.
 
 Gains or losses associated with accounting changes, which measure earnings changes created by both accounting changes made voluntarily by the firm (such as a change in inventory valuation) and accounting changes mandated by new accounting standards.
 
@@ -822,7 +826,9 @@ Boeing's operating income is reduced by the research and development expense, wh
 
 Measures of Profitability While the income statement allows us to estimate how profitable a firm is in absolute terms, it is just as important that we gauge the profitability of the firm in terms of percentage returns. Two basic ratios measure profitability. One examines the profitability relative to the capital employed to get a rate of return on investment. This can be done either from the viewpoint of just the equity investors or by looking at the entire firm. Another examines profitability relative to sales, by estimating a profit margin.
 
-Return on Assets and Return on Capital The return on assets (ROA) of a firm measures its operating efficiency in generating profits from its assets, prior to the effects of financing.
+### Return on Assets and Return on Capital
+
+The return on assets (ROA) of a firm measures its operating efficiency in generating profits from its assets, prior to the effects of financing.
 
 Return on assets = Earnings before interest and taxes(1 - Tax rate)/Total assets
 
@@ -1019,7 +1025,9 @@ Boeing, based on its operating income in 1998, looks riskier than the Home Depot
 
 # finratio.xls: This spreadsheet allows you to compute the interest coverage and fixed charges coverage ratios for a firm based on financial statement data.
 
-Debt Ratios Interest coverage ratios measure the capacity of the firm to meet interest payments, but do not examine whether it can pay back the principal on outstanding debt. Debt ratios attempt to do this, by relating debt to total capital or to equity:
+# Debt Ratios
+
+Interest coverage ratios measure the capacity of the firm to meet interest payments, but do not examine whether it can pay back the principal on outstanding debt. Debt ratios attempt to do this, by relating debt to total capital or to equity:
 
 $$
 \text {D e b t} = \text {D e b t} / (\text {D e b t} + \text {E q u i t y})
@@ -1067,7 +1075,7 @@ In 2008, Boeing has a much higher book value debt ratio, considering either long
 
 There are significant differences in accounting standards and practices across countries and these differences may color comparisons across companies.
 
-# Differences in Accounting Standards and Practices
+## Differences in Accounting Standards and Practices
 
 Differences in accounting standards across countries affect the measurement of earnings. These differences, however, are not so great as they are made out to be by some analysts, and they cannot explain away radical departures from fundamental principles of valuation. Choi and Levich, in a 1990 survey of accounting standards across developed markets, note that most countries subscribe to basic accounting notions of consistency, realization, and historical cost principles in preparing accounting statements. As countries increasingly move toward international financial reporting standards (IFRS), it is worth noting that IFRS and U.S. GAAP are more similar than dissimilar on many issues. It is true that there are areas of differences that still remain, and we note some of them in Table 3.1.
 
@@ -1086,60 +1094,3 @@ The first question relates to the nature and the value of the assets owned by a 
 The second issue is the measurement of profitability. The two principles that govern how profits are measured are accrual accounting—in which revenues and expenses are shown in the period in which transactions occur rather than when the cash is received or paid—and the categorization of expenses into operating, financing, and capital expenses. While operating and financing expenses are shown in income statements, capital expenditures are spread over several time periods and take the form of depreciation and amortization. Accounting standards miscategorize operating leases and research and development expenses as operating expenses (when the former should be categorized as financing expenses and the latter as capital expenses).
 
 Financial statements also deal with short-term liquidity risk and long-term default risk. While the emphasis in accounting statements is on examining the risk that firms may be unable to make payments that they have committed to make, there is very little focus on risk to equity investors.
-
-# QUESTIONS AND SHORT PROBLEMS
-
-In the problems following, use an equity risk premium of 5.5 percent if none is specified.
-
-Coca-Cola's balance sheet for December 1998 is summarized (in millions of dollars) for problems 1 through 9:
-
-<table><tr><td>Cash and near-cash</td><td>\$ 1,648</td><td>Accounts payable</td><td>\$ 3,141</td></tr><tr><td>Marketable securities</td><td>1,049</td><td>Short-term borrowings</td><td>4,462</td></tr><tr><td>Accounts receivable</td><td>1,666</td><td>Other short-term liabilities</td><td>1,037</td></tr><tr><td>Other current assets</td><td>2,017</td><td>Current liabilities</td><td>8,640</td></tr><tr><td>Current assets</td><td>6,380</td><td>Long-term borrowings</td><td>687</td></tr><tr><td>Long-term investments</td><td>1,863</td><td>Other long-term liabilities</td><td>1,415</td></tr><tr><td>Depreciable fixed assets</td><td>5,486</td><td>Noncurrent liabilities</td><td>2,102</td></tr><tr><td>Nondepreciable fixed assets</td><td>199</td><td></td><td></td></tr><tr><td>Accumulated depreciation</td><td>2,016</td><td>Share capital (paid-in)</td><td>3,060</td></tr><tr><td>Net fixed assets</td><td>3,669</td><td>Retained earnings</td><td>5,343</td></tr><tr><td>Other assets</td><td>7,233</td><td>Shareholder&#x27;s equity</td><td>8,403</td></tr><tr><td>Total Assets</td><td>\$19,145</td><td>Total Liabilities and Equity</td><td>\$19,145</td></tr></table>
-
-1. Consider the assets on Coca-Cola's balance sheet and answer the following questions: a. Which assets are likely to be assessed closest to market value? Explain.
-
-b. Coca-Cola has net fixed assets of 3,669 million. Can you estimate how much Coca-Cola paid for these assets? Is there any way to know the age of these assets?
-
-c. Coca-Cola seems to have far more invested in current assets than in fixed assets. Is this significant? Explain.
-
-d. In the early 1980s, Coca-Cola sold off its bottling operations, and the bottlers became independent companies. How would this action have impacted the assets on Coca-Cola's balance sheet? (The manufacturing plants are most likely to be part of the bottling operations.)
-
-2. Examine the liabilities on Coca-Cola's balance sheet.
-
-a. How much interest-bearing debt does Coca-Cola have outstanding? (You can assume that other short-term liabilities represent sundry payables, and other long-term liabilities represent health care and pension obligations.) b. How much did Coca-Cola obtain in equity capital when it issued stock originally to the financial markets?
-
-c. Is there any significance to the fact that the retained earnings amount is much larger than the original paid-in capital?
-
-d. The market value of Coca-Cola's equity is 140 billion. What is the book value of equity in Coca-Cola? Why is there such a large difference between the market value of equity and the book value of equity?
-
-3. Coca-Cola's most valuable asset is its brand name. Where in the balance sheet do you see its value? Is there any way to adjust the balance sheet to reflect the value of this asset?
-4. Assume that you have been asked to analyze Coca-Cola's working capital management.
-
-a. Estimate the net working capital and noncash working capital for Coca-Cola.
-
-b. Estimate the firm's current ratio.
-
-c. Estimate the firm's quick ratio.
-
-d. Would you draw any conclusions about the riskiness of Coca-Cola as a firm by looking at these numbers? Why or why not?
-
-Coca-Cola's income statements for 1997 and 1998 are summarized (in millions of dollars) for problems 5 through 9:
-
-<table><tr><td></td><td>1997</td><td>1998</td></tr><tr><td>Net revenues</td><td>$18,868</td><td>$18,813</td></tr><tr><td>Cost of goods sold</td><td>6,015</td><td>5,562</td></tr><tr><td>Selling, general, and administrative expenses</td><td>7,852</td><td>8,284</td></tr><tr><td>Earnings before interest and taxes</td><td>5,001</td><td>4,967</td></tr><tr><td>Interest expenses</td><td>258</td><td>277</td></tr><tr><td>Nonoperating gains</td><td>1,312</td><td>508</td></tr><tr><td>Income tax expenses</td><td>1,926</td><td>1,665</td></tr><tr><td>Net income</td><td>4,129</td><td>3,533</td></tr><tr><td>Dividends</td><td>1,387</td><td>1,480</td></tr></table>
-
-The following questions relate to Coca-Cola's income statements.
-
-5. How much operating income did Coca-Cola earn, before taxes, in 1998? How does this compare to how much Coca-Cola earned in 1997? What are the reasons for the difference?
-6. The biggest expense for Coca-Cola is advertising, which is part of the selling, generals and administrative (G&A) expenses. A large portion of these expenses is designed to build up Coca-Cola's brand name. Should advertising expenses be treated as operating expenses or are they really capital expenses? If they are to be treated as capital expenses, how would you capitalize them? (Use the capitalization of R&D as a guide.)
-7. What effective tax rate did Coca-Cola have in 1998? How does it compare with what the company paid in 1997 as an effective tax rate? What might account for the difference?
-8. You have been asked to assess the profitability of Coca-Cola as a firm. To that end, estimate the pretax operating and net margins in 1997 and 1998 for the firm. Are there any conclusions you would draw from the comparisons across the two years?
-9. The book value of equity at Coca-Cola in 1997 was \$7,274 million. The book value of interest-bearing debt was \$3,875 million. Estimate: a. The return on equity (beginning of the year) in 1998.
-
-b. The pretax return on capital (beginning of the year) in 1998.
-
-c. The after-tax return on capital (beginning of the year) in 1998, using the effective tax rate in 1998.
-
-10. SeeSaw Toys reported that it had a book value of equity of \$1.5 billion at the end of 1998 and 100 million shares outstanding. During 1999, it bought back 10 million shares at a market price of \$40 per share. The firm also reported a net income of \$150 million for 1999, and paid dividends of \$50 million. Estimate: a. The book value of equity at the end of 1999.
-
-b. The return on equity, using beginning book value of equity.
-
-c. The return on equity, using the average book value of equity.

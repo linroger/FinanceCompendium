@@ -1,13 +1,19 @@
 ---
-parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
 title: "Lecture 02: A Simple Quantitative Trading Example - Spread Trading"
-tags:
-aliases:
-  - Spread Trading
-  - Simple Quantitative Trading Example
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
+formatted: 2025-12-21 12:30:00 PM
+formatter_agent: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - spread trading
+   - quantitative trading
+   - pairs trading
+secondary_tags:
+   - mean reversion
+   - treasury futures
+   - hedge ratios
+   - stop loss levels
+   - market spreads
 cssclasses: academia
 ---
 
@@ -22,7 +28,7 @@ Spread trading strategies have a long history and many current forms. Because th
 1.1. What Is A Spread? Let's say we monitor prices or returns on a pair of securities. For sake of argument, we will say we are monitoring the prices  $f_{t}^{(2)}, f_{t}^{(5)}$  of 2 and 5 year CME treasury note futures<sup>1</sup>. We can construct a new variable consisting of the difference between them
 
 $$
-s _ {t} := f _ {t} ^ {(5)} - f _ {t} ^ {(2)}
+s_{t} := f_{t}^{(5)} - f_{t}^{(2)}
 $$
 
 This value  $s_t$  is called the spread or difference spread between the 2 and 5 year note futures, and we often think in terms of trading spreads, even when in practice the trades are expressed in underlying securities such as futures contracts.
@@ -34,6 +40,59 @@ This value  $s_t$  is called the spread or difference spread between the 2 and 5
 It probably does not make sense to make bets when the current  $s_t$  is very close to 8.5. So, for example, if  $s_t = 8.499$  or  $s_t = 8.501$  we should not hold a position. On the other hand, if  $s_t = 4.0$  this looks like a good opportunity to bet that  $s$  will soon rise. We do not necessarily know if  $f_t^{(2)}$  will fall or  $f_t^{(5)}$  will rise, but we think some combination of those things will happen. So it makes sense to both short some 2 year note futures and buy some 5 year note futures. We call this "buying" the spread because we are trading securities in such a way that we think the spread will rise.
 
 For similar reasons, if we see  $s_t = 12.0$  then we ought to buy some 2 year note futures and short some 5 year note futures. We call this "shorting" the spread.
+
+```d2
+direction: right
+
+classes: {
+  signal: {
+    shape: rectangle
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+    style.border-radius: 8
+  }
+  action: {
+    shape: rectangle
+    style.fill: "#c8e6c9"
+    style.stroke: "#388e3c"
+    style.border-radius: 8
+  }
+}
+
+spread_check: "Check Current Spread (s_t)" {
+  class: signal
+}
+
+mean_level: "Historical Mean = 8.5" {
+  class: signal
+}
+
+buy_signal: "s_t < 8.5\n(Buy Spread)" {
+  class: signal
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+sell_signal: "s_t > 8.5\n(Short Spread)" {
+  class: signal
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+buy_action: "Short 2Y Futures\nBuy 5Y Futures" {
+  class: action
+}
+
+sell_action: "Buy 2Y Futures\nShort 5Y Futures" {
+  class: action
+}
+
+spread_check -> mean_level
+mean_level -> buy_signal: "Spread too low"
+mean_level -> sell_signal: "Spread too high"
+buy_signal -> buy_action: "Bet on convergence"
+sell_signal -> sell_action: "Bet on convergence"
+```
 
 Now, if  $s_t = 14.0$ , it is easy to argue that the opportunity is greater and we should be shorting even more of the spread. But remember, it probably only got to 14.0 by going through 12.0 at some point. We are likely already short the spread and, since it has risen further, have lost money on the position. Are we prepared to lose more?
 

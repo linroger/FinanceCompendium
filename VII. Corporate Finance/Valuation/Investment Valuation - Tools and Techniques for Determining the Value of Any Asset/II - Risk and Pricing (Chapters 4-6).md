@@ -1,20 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "II - Risk and Pricing (Chapters 4-6)"
+parent_directory: Investment Valuation - Tools and Techniques for Determining the Value of Any Asset
+formatted: 2025-12-21 12:40:00 PM
+formatter_agent: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - risk and return models
+   - capital asset pricing model
+   - market efficiency
+secondary_tags:
+   - equity risk measurement
+   - default risk assessment
+   - arbitrage pricing theory
+   - multifactor models
+   - behavioral finance
 cssclasses: academia
-title: Investment Valuation
-linter-yaml-title-alias: Investment Valuation
 ---
 
-# Investment Valuation
+# II - Risk and Pricing (Chapters 4-6)
 
-## II - Risk and Pricing (Chapters 4-6)
-
----
-
-# The Basics of Risk
+## The Basics of Risk
 
 When valuing assets and firms, we need to use discount rates that reflect the riskiness of the cash flows. In particular, the cost of debt has to incorporate a default spread for the default risk in the debt, and the cost of equity has to include a risk premium for equity risk. But how do we measure default and equity risk? More importantly, how do we come up with the default and equity risk premiums?
 
@@ -22,7 +27,66 @@ This chapter lays the foundations for analyzing risk in valuation. It presents a
 
 The final part of this chapter considers default risk and how it is measured by ratings agencies. By the end of the chapter, we should have a way of estimating the equity risk and default risk for any firm.
 
-# WHAT IS RISK?
+```d2
+direction: down
+
+classes: {
+  model: {
+    shape: rectangle
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+    style.border-radius: 8
+  }
+  concept: {
+    shape: oval
+    style.fill: "#fff3e0"
+    style.stroke: "#f57c00"
+  }
+}
+
+risk_concepts: Risk Concepts {
+  class: concept
+}
+
+firm_specific_risk: Firm-Specific Risk {
+  class: concept
+}
+
+market_risk: Market Risk {
+  class: concept
+}
+
+capm: Capital Asset Pricing Model (CAPM) {
+  class: model
+}
+
+apt: Arbitrage Pricing Theory (APT) {
+  class: model
+}
+
+multifactor: Multifactor Models {
+  class: model
+}
+
+proxy_models: Proxy Models {
+  class: model
+}
+
+risk_concepts -> firm_specific_risk: Diversifiable
+risk_concepts -> market_risk: Non-diversifiable
+
+market_risk -> capm: Single factor (market portfolio)
+market_risk -> apt: Multiple factors
+market_risk -> multifactor: Economic factors
+market_risk -> proxy_models: Size, value, momentum
+
+capm -> expected_returns: E(R) = Rf + β(Rm - Rf)
+apt -> expected_returns: E(R) = Rf + ∑βi(RFi - Rf)
+multifactor -> expected_returns: E(R) = Rf + ∑βj(ERPj)
+proxy_models -> expected_returns: Regression-based
+```
+
+## What Is Risk?
 
 Risk, for most of us, refers to the likelihood that in life's games of chance we will receive an outcome that we will not like. For instance, the risk of driving a car too fast is getting a speeding ticket or, worse still, getting into an accident. Merriam-Webster's Collegiate Dictionary, in fact, defines the verb to risk as "to expose to hazard or danger." Thus risk is perceived almost entirely in negative terms.
 
@@ -38,11 +102,9 @@ What makes the measurement of risk and expected return so challenging is that it
 
 We argue that risk in an investment has to be perceived through the eyes of investors in the firm. Since firms often have thousands of investors, often with very different perspectives, it can be asserted that risk has to be measured from the perspective of not just any investor in the stock, but of the marginal investor, defined to be the investor most likely to be trading on the stock at any given point in time. The objective in valuation is to measure the value of an asset to those who will be pricing it. If we want to stay true to this objective, we have to consider the viewpoint of those who set the stock prices, and they are the marginal investors.
 
-# EQUITY RISK AND EXPECTED RETURN
+## Equity Risk and Expected Return
 
-To demonstrate how risk is viewed in finance, risk analysis is presented here in three steps: first, defining risk in terms of the distribution of actual returns around an expected return; second, differentiating between risk that is specific to one or a few investments and risk that affects a much wider cross section of investments (in a market where the marginal investor is well diversified, it is only the latter risk, called market risk, that will be rewarded); and third, alternative models for measuring this market risk and the expected returns that go with it.
-
-# Defining Risk
+### Defining Risk
 
 Investors who buy an asset expect to earn returns over the time horizon that they hold the asset. Their actual returns over this holding period may be very different from the expected returns, and it is this difference between actual and expected returns that is a source of risk. For example, assume that you are an investor with a one-year time horizon buying a one-year Treasury bill (or any other default-free one-year bond) with a 5 percent expected return. At the end of the one-year holding period, the actual return on this investment will be 5 percent, which is equal to the expected return. The return distribution for this investment is shown in Figure 4.1. This is a riskless investment.
 
@@ -74,7 +136,7 @@ In closing, it should be noted that the expected returns and variances that we r
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/6d064fa5bfb854f0d499deae3f7caba8291b3ea7fb6d15b4f6b5502bfeda95dc.jpg) optvar.xls: This is a dataset on the Web that summarizes standard deviations and variances of stocks in various sectors in the United States.
 
-# Diversifiable and Nondiversifiable Risk
+## Diversifiable and Nondiversifiable Risk
 
 Although there are many reasons why actual returns may differ from expected returns, we can group the reasons into two categories: firm-specific and marketwide. The risks that arise from firm-specific actions affect one or a few investments, while the risks arising from marketwide reasons affect many or all investments. This distinction is critical to the way we assess risk in finance.
 
@@ -90,7 +152,7 @@ Finally, there are risks that fall in a gray area, depending on how many assets 
 
 FIGURE 4.4 Breakdown of Risk
 
-# Why Diversification Reduces or Eliminates Firm-Specific Risk: An Intuitive Explanation
+### Why Diversification Reduces or Eliminates Firm-Specific Risk: An Intuitive Explanation
 
 As an investor, you could invest all your portfolio in one asset. If you do so, you are exposed to both firm-specific and market risk. If, however, you expand your portfolio to include other assets or stocks, you are diversifying, and by doing so you can reduce your exposure to firm-specific risk. There are two reasons why diversification reduces or, at the limit, eliminates firm-specific risk. The first is that each investment in a diversified portfolio is a much smaller percentage of that portfolio than would be the case if you were not diversified. Any action that increases or decreases the value of only that investment or a small group of investments will have only a small impact on your overall portfolio, whereas undiversified investors are much more exposed to changes in the values of the investments in their portfolios. The second reason is that the effects of firm-specific actions on the prices of individual assets in a portfolio can be either positive or negative for each asset for any period. Thus, in very large portfolios this risk will average out to zero and will not affect the overall value of the portfolio.
 

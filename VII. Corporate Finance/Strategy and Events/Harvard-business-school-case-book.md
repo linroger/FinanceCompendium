@@ -1,15 +1,21 @@
 ---
-aliases:
-  - Harvard Business School Case Book
-tags:
-  - case_interview
-  - business_strategy
-  - management_consulting
-key_concepts:
-parent_directory: Strategy and Events
-cssclasses: academia
 title: Harvard Business School Case Book
-linter-yaml-title-alias: Harvard Business School Case Book
+parent_directory: Strategy and Events
+formatted: 2025-12-21 12:15:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - management consulting case interviews
+  - business strategy frameworks
+  - porter five forces analysis
+secondary_tags:
+  - case interview preparation
+  - marketing strategy concepts
+  - operations management frameworks
+  - profitability analysis techniques
+  - market sizing methods
+  - competitive analysis tools
+cssclasses: academia
 ---
 
 # Harvard Business School Management Consulting Club
@@ -20,42 +26,43 @@ Cases contributed by Management Consulting Club and consulting companies.
 
 Note: Case guide is strictly for the use of current HBS Management Consulting Club members. No part of this document may be reproduced or transmitted in any form or by any means—electronic, mechanical, photocopying, recording, or otherwise—without the permission of HBS Management Consulting Club.
 
-# TABLE OF CONTENTS
-- INTRODUCTION: OVERVIEW OF THE CASE
-- OVERVIEW OF CASE FRAMEWORKS
-- PORTER'S FIVE FORCES
-- MARKETING/STRATEGY CONCEPTS REVIEW - OVERVIEW
-- MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 CS.
-- MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 PS
-- MARKETING/STRATEGY CONCEPTS REVIEW - CONTRIBUTION ANALYSIS
-- MARKETING/STRATEGY CONCEPTS REVIEW - MARKET SIZING AND SEGMENTATION
-- OPERATIONS CONCEPTS REVIEW
-- PROFITABILITY FRAMEWORK
-- PRACTICE CASES
-- PRACTICE CASE 1 (RETAILER)
-- PRACTICE CASE 2 (BUTCHER SHOP)
-- PRACTICE CASE 3 (JUICE PRODUCER)
-- PRACTICE CASE 4 (CHEMICAL MANUFACTURER)
-- PRACTICE CASE 5 (ViETIRE)
-- PRACTICE CASE 6 (WORLD VIEW)
-- PRACTICE CASE 7 (LE SEINE)
-- PRACTICE CASE 8 (BEER BREW)
-- PRACTICE CASE 9 (WHEELER DEALER)
-- PRACTICE CASE 10 (TRAVEL AGENCY)
-- PRACTICE CASE 11 (HOSPITAL)
-- PRACTICE CASE 12 (E-GROCERY)
-- PRACTICE CASE 13 (FORMULA PRODUCER)
-- PRACTICE CASE 14 (PHARMACEUTICAL COMPANY)
-- PRACTICE CASE 15 (SCOTCH MANUFACTURER)
-- PRACTICE CASE 16 (REGIONAL JET CORPORATION)
-- PRACTICE CASE 17 (BRITISH TIMES)
-- PRACTICE CASE 18 (CHILDREN CLOTHES E-RETAILER)
-- PRACTICE CASE 19 (CONSUMER PRODUCTS)
-- PRACTICE CASE 20 (THE VIDEO STORE)
-- PRACTICE CASE 21 (THE ENGLISH CHURCH)
-- PRACTICE CASE 22 (HBS AS A BUSINESS)
-- PRACTICE CASE 23 (FAST FOOD RESTAURANT)
-- PRACTICE CASE 24 (AUTOMOBILE PRODUCER)
+# Table of Contents
+
+- Introduction: Overview of the Case
+- Overview of Case Frameworks
+- Porter's Five Forces
+- Marketing/Strategy Concepts Review - Overview
+- Marketing/Strategy Concepts Review - The 4 Cs
+- Marketing/Strategy Concepts Review - The 4 Ps
+- Marketing/Strategy Concepts Review - Contribution Analysis
+- Marketing/Strategy Concepts Review - Market Sizing and Segmentation
+- Operations Concepts Review
+- Profitability Framework
+- Practice Cases
+- Practice Case 1 (Retailer)
+- Practice Case 2 (Butcher Shop)
+- Practice Case 3 (Juice Producer)
+- Practice Case 4 (Chemical Manufacturer)
+- Practice Case 5 (Vietire)
+- Practice Case 6 (World View)
+- Practice Case 7 (Le Seine)
+- Practice Case 8 (Beer Brew)
+- Practice Case 9 (Wheeler Dealer)
+- Practice Case 10 (Travel Agency)
+- Practice Case 11 (Hospital)
+- Practice Case 12 (E-Grocery)
+- Practice Case 13 (Formula Producer)
+- Practice Case 14 (Pharmaceutical Company)
+- Practice Case 15 (Scotch Manufacturer)
+- Practice Case 16 (Regional Jet Corporation)
+- Practice Case 17 (British Times)
+- Practice Case 18 (Children Clothes E-Retailer)
+- Practice Case 19 (Consumer Products)
+- Practice Case 20 (The Video Store)
+- Practice Case 21 (The English Church)
+- Practice Case 22 (HBS as a Business)
+- Practice Case 23 (Fast Food Restaurant)
+- Practice Case 24 (Automobile Producer)
 # Introduction: Overview of the Case
 
 The first question that might pop into your mind is why do management consulting firms give cases during their interviews? What is the point of these cases? Contrary to what some might think, cases are not just another tool used by firms to weed people out of the burgeoning volume of applicants. They are in fact an excellent indicator of how good you will be as a consultant, pure and simple. Almost everyday, consultants face the kinds of problems and questions often presented in these cases. Often times, tough problem-solving questions are asked face-to-face by their clients, under pressure, with the expectations of receiving some answers.
@@ -88,16 +95,15 @@ Michael Porter's Five Forces is probably the most famous framework used in prepa
 
 Competitive advantage in an industry is dependent on five primary forces:
 
-The threat of new entrants  
-
-- The bargaining power of buyers/customers  
-The bargaining power of suppliers  
-The threat of substitute products  
-Rivalry with competitors
+- The threat of new entrants
+- The bargaining power of buyers/customers
+- The bargaining power of suppliers
+- The threat of substitute products
+- Rivalry with competitors
 
 The degree of these threats determines the attractiveness of the market:
 
-- Intense competition allows minimal profit margins  
+- Intense competition allows minimal profit margins
 - Mild competition allows wider profit margins
 
 The goal is to assess whether a company should enter/exit the industry or find a position in the industry where it can best defend itself against these forces or can influence them in its favor.
@@ -109,62 +115,58 @@ Substitute Products
 
 Source: Michael E. Porter, Competitive Strategy: Techniques for Analyzing Industries and Competitors
 
-# Barriers to Entry:
+# Barriers to Entry
 
 There are a number of factors that determine the degree of difficulty in entering an industry:
 
-Economies of scale  
-Product differentiation  
-Capital requirements vs. switching costs  
+- Economies of scale
+- Product differentiation
+- Capital requirements vs. switching costs
+- Access to distribution channels
+- Cost advantages independent of scale
+- Proprietary product technology
+- Favorable access to raw materials
+- Favorable location
+- Government subsidies
+- Learning curve
+- Government policy
 
-- Access to distribution channels  
-Cost advantages independent of scale  
-- Proprietary product technology  
-- Favorable access to raw materials  
-Favorable location  
-Government subsidies  
-Learning curve  
-Government policy
-
-# Relationship with Buyers:
+# Relationship with Buyers
 
 A buyer group is powerful if:
 
-It is concentrated or purchases large volumes relative to seller's sales  
+- It is concentrated or purchases large volumes relative to seller's sales
+- The products it purchases from the industry are standard or undifferentiated
+- It faces few switching costs
+- Buyers pose a credible threat of backward integration
+- The industry's product is unimportant to the quality of the buyer's products or services
+- The buyer has full information
 
-- The products it purchases front the industry are standard or undifferentiated  
-It faces few switching costs  
-- Buyers pose a credible threat of backward integration  
-- The industry's product is unimportant to the quality of the buyer's products or services  
-The buyer has full information
-
-# Relationship with Suppliers:
+# Relationship with Suppliers
 
 A supplier group is powerful if:
 
-It is not obliged to contend with other substitute products for sales in the industry  
-
-- The industry is not an important customer of the supplier group  
-- The supplier group is an important input to the buyer's business  
-- The supplier group's products are differentiated or it has built up switching costs  
+- It is not obliged to contend with other substitute products for sales in the industry
+- The industry is not an important customer of the supplier group
+- The supplier group is an important input to the buyer's business
+- The supplier group's products are differentiated or it has built up switching costs
 - The supplier group poses a credible threat of forward integration
 
-# Substitute Products:
+# Substitute Products
 
 Substitute products that deserve the most attention are those that:
 
-- Compete in price with the industry's products  
+- Compete in price with the industry's products
 - Are produced by industries earning high profits
 
-# Rivalry:
+# Rivalry
 
 Rivalry among existing competitors increases if:
 
-Numerous or equally balanced competitors exist  
-Industry growth is slow  
-Fixed costs are high  
-There is lack of differentiation or switching costs  
-
+- Numerous or equally balanced competitors exist
+- Industry growth is slow
+- Fixed costs are high
+- There is lack of differentiation or switching costs
 - Capacity is augmented in large increments
 
 # Marketing/Strategy Concepts Review - Overview
@@ -397,24 +399,24 @@ Source: Michael E. Porter, Competitive Strategy: Techniques for Analyzing Indust
 - You must determine how the next phase in the evolution will affect the mobility barriers and bargaining position with suppliers and buyers  
 The product life cycle is limited in a number of ways:
 
-the duration varies from industry to industry  
-industry growth does not always go through the S-shape  
-○ companies can affect the curve through innovation
+the duration varies from industry to industry
+industry growth does not always go through the S-shape
+- companies can affect the curve through innovation
 
 - You must look at the evolutionary processes that drive life cycles  
 - Every industry begins with an initial structure - the evolutionary processes work to push the industry toward its potential structure - which is rarely known completely as an industry evolves  
 - Because of technological change, innovation and identities of the firms, it is very difficult to predict evolutionary stages  
 - There are some predictable and interacting dynamic processes that occur in every industry in one form or another and at different speeds:
 
-demographics  
-trends in needs  
-$\mathrm{O}$  substitute products  
-complementary products  
-penetration of customer group  
-product change  
-○ product innovation  
-changes in buyer segments served  
-process innovation
+- demographics
+- trends in needs
+- substitute products
+- complementary products
+- penetration of customer group
+- product change
+- product innovation
+- changes in buyer segments served
+- process innovation
 
 Industry consolidation and mobility barriers move together  
 
@@ -644,10 +646,10 @@ When it comes to buyers and suppliers, one of the key issues to keep in mind is 
 - Buyer selection, the choice of target buyers, becomes an important strategic variable  
 There are four broad criteria that determine the quality of buyers from a strategic standpoint:
 
-Purchasing potential  
-Growth potential  
-$\bigcirc$  Structural position: intrinsic bargaining power and propensity to use it  
-Cost of servicing
+- Purchasing potential
+- Growth potential
+- Structural position: intrinsic bargaining power and propensity to use it
+- Cost of servicing
 
 Good buyers can be created through strategy:
 
@@ -658,8 +660,8 @@ High-cost buyers can and should be eliminated
 
 Key issues in purchasing strategy from a structural standpoint are as follows:
 
-$\bigcirc$  Stability and competitiveness of the supplier pool  
-$\mathrm{O}$  Optimal degree of vertical integration  
+- Stability and competitiveness of the supplier pool
+- Optimal degree of vertical integration  
 Allocation of purchases among qualified suppliers  
 Creation of maximum leverage with chosen suppliers - avoid switching cost, threat of backward integration
 
