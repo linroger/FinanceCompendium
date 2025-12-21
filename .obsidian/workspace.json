@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters/Chapter 27 - Cross-Border Valuation.md",
+                "file": "VII. Corporate Finance/Valuation/Lecture Notes/Lectures on Valuation and Security Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 27 - Cross-Border Valuation"
+              "title": "Lectures on Valuation and Security Analysis"
             }
           },
           {
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 539.5
   },
   "right": {
     "id": "4bcd7846abe7e2d4",
@@ -244,6 +244,8 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/8. Credit Modeling and Credit Derivatives.md",
+    "VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters/Chapter 27 - Cross-Border Valuation.md",
     "Untitled.md",
     "Untitled 1.md",
     "VI. Derivatives/Reference/BUSN Financial Instruments/Financial Instruments Lecture Notes/all_open_issues.json",
@@ -277,7 +279,6 @@
     "I. Foundations/Financial Engineering Course Lecture Notes/Solving Black Scholes Differential Equation.md",
     "I. Foundations/Machine Learning/Reinforcement Learning from Human Feedback.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/10. Other Topics in Quantitative Finance.md",
-    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/8. Credit Modeling and Credit Derivatives.md",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/notification.json",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"

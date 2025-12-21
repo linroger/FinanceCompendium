@@ -12,7 +12,6 @@ title: Lectures on Valuation and Security Analysis
 
 # Lectures on Valuation and Security Analysis
 
-<toc>
 # Table of Contents
 
 Lecture Note 1 - Discounted Cash Flow Valuation: Computing Free Cash Flows
@@ -39,7 +38,6 @@ Lecture Note 11 - Accruals, Asset Growth and External Financing
 
 Lecture Note 12 - Quality and Stock Returns
 
-</toc>
 
 # Lecture Note 1 Discounted Cash Flow Valuation: Computing Free Cash Flows
 
