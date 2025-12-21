@@ -103,3 +103,60 @@ matrix_a -> generator: "Logarithm (approx)"
 generator -> exp_map
 exp_map -> result_matrix: "Arbitrary time t"
 ```
+
+## Additional D2 Diagrams for Credit Transition Matrices
+
+### Credit Rating Migration Process
+```d2
+# Credit Rating Migration
+rating_AAA: "AAA Rating"
+rating_AA: "AA Rating"
+rating_A: "A Rating"
+rating_BBB: "BBB Rating"
+rating_BB: "BB Rating"
+rating_B: "B Rating"
+rating_CC: "CC Rating"
+rating_D: "D Rating (Default)"
+
+rating_AAA -> rating_AA: "Transition probability"
+rating_AAA -> rating_A: "Transition probability"
+rating_AA -> rating_A: "Transition probability"
+rating_AA -> rating_BBB: "Transition probability"
+rating_A -> rating_BBB: "Transition probability"
+rating_A -> rating_BB: "Transition probability"
+rating_BBB -> rating_BB: "Transition probability"
+rating_BBB -> rating_B: "Transition probability"
+rating_BB -> rating_B: "Transition probability"
+rating_BB -> rating_CC: "Transition probability"
+rating_B -> rating_CC: "Transition probability"
+rating_B -> rating_D: "Default probability"
+rating_CC -> rating_D: "Default probability"
+```
+
+### Matrix Decomposition Process
+```d2
+# Matrix Decomposition Process
+original_matrix: "Original Matrix A"
+eigenvectors: "Eigenvectors X"
+eigenvalues: "Eigenvalues Λ"
+inverse_matrix: "Inverse X⁻¹"
+
+original_matrix -> eigenvectors: "Calculate"
+original_matrix -> eigenvalues: "Calculate"
+eigenvectors -> inverse_matrix: "Invert"
+eigenvectors -> original_matrix: "A = X Λ X⁻¹"
+eigenvalues -> original_matrix: "A = X Λ X⁻¹"
+inverse_matrix -> original_matrix: "A = X Λ X⁻¹"
+```
+
+### Time Scaling Methods
+```d2
+# Time Scaling Methods Comparison
+eigenvalue_method: "Eigenvalue Method"
+generator_method: "Generator Matrix Method"
+direct_powers: "Direct Matrix Powers"
+
+eigenvalue_method -> "Good for fractional periods"
+generator_method -> "Good for continuous time"
+direct_powers -> "Good for integer periods"
+```

@@ -6001,19 +6001,19 @@ B = 2 \left[ \mu_ {1} \sigma_ {2} ^ {2} + \mu_ {2} \sigma_ {1} ^ {2} - \rho_ {1,
 $$
 
 $$
-C = \mu_ {1} ^ {2} \sigma_ {2} ^ {2} + \mu_ {2} ^ {2} \sigma_ {1} ^ {2} - 2 \mu_ {1} \mu_ {2} \rho_ {1, 2} \sigma_ {1} \sigma_ {2}
+C = \mu_{1}^{2} \sigma_{2}^{2} + \mu_{2}^{2} \sigma_{1}^{2} - 2 \mu_{1} \mu_{2} \rho_{1,2} \sigma_{1} \sigma_{2}
 $$
 
 We have:
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \frac {1}{\left(\mu_ {2} - \mu_ {1}\right) ^ {2}} \left[ \mathrm {A} \mu_ {\mathrm {P}} ^ {2} - \mathrm {B} \mu_ {\mathrm {P}} + \mathrm {C} \right] \tag {5.50}
+\sigma_{\mathrm{P}}^{2} = \frac{1}{\left(\mu_{2} - \mu_{1}\right)^{2}} \left[ \mathrm{A} \mu_{\mathrm{P}}^{2} - \mathrm{B} \mu_{\mathrm{P}} + \mathrm{C} \right] \tag{5.50}
 $$
 
 and in terms of standard deviation, we have:
 
 $$
-\sigma_ {\mathrm {P}} = \frac {1}{\left(\mu_ {2} - \mu_ {1}\right)} \sqrt {\mathrm {A} \mu_ {\mathrm {P}} ^ {2} - \mathrm {B} \mu_ {\mathrm {P}} + \mathrm {C}} \tag {5.51}
+\sigma_{\mathrm{P}} = \frac{1}{\left(\mu_{2} - \mu_{1}\right)} \sqrt{\mathrm{A} \mu_{\mathrm{P}}^{2} - \mathrm{B} \mu_{\mathrm{P}} + \mathrm{C}} \tag{5.51}
 $$
 
 In the plane  $\left(\mu_P;\sigma_P^2\right)$  Eq. (5.50) draws a parabola with its axis parallel to the axis of ordinates and concave upwards (Saltari 2011).
@@ -6070,25 +6070,25 @@ Moving from the portfolio's variance  $\left(\sigma_P^2\right)$  to its standard
 Note that the portfolio  $R$  can be obtained as follows:
 
 $$
-\alpha_ {R} = \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \tag {5.52}
+\alpha_{R} = \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \tag{5.52}
 $$
 
 On the basis of the  $\alpha_{\mathrm{R}}$  the expected return of the portfolio  $R$  can be achieved, as follows:
 
 $$
-\mu_ {R} = (1 - \alpha_ {R}) \mu_ {1} + \alpha_ {R} \mu_ {2}
+\mu_{R} = (1 - \alpha_{R}) \mu_{1} + \alpha_{R} \mu_{2}
 $$
 
 $$
-\mu_ {R} = \left(1 - \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}}\right) \mu_ {1} + \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \mu_ {2}
+\mu_{R} = \left(1 - \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}}\right) \mu_{1} + \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \mu_{2}
 $$
 
 $$
-\mu_ {R} = \left(\frac {\sigma_ {1} + \sigma_ {2} - \sigma_ {1}}{\sigma_ {1} + \sigma_ {2}}\right) \mu_ {1} + \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \mu_ {2}
+\mu_{R} = \left(\frac{\sigma_{1} + \sigma_{2} - \sigma_{1}}{\sigma_{1} + \sigma_{2}}\right) \mu_{1} + \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \mu_{2}
 $$
 
 $$
-\mu_ {R} = \frac {\sigma_ {2}}{\sigma_ {1} + \sigma_ {2}} \mu_ {1} + \frac {\sigma_ {1}}{\sigma_ {1} + \sigma_ {2}} \mu_ {2} \tag {5.53}
+\mu_{R} = \frac{\sigma_{2}}{\sigma_{1} + \sigma_{2}} \mu_{1} + \frac{\sigma_{1}}{\sigma_{1} + \sigma_{2}} \mu_{2} \tag{5.53}
 $$
 
 # Case 2) N Risky Assets in Portfolio
@@ -6105,13 +6105,13 @@ If the short selling is permitted (it is the most relevant situation) there are 
 In this context, definition of the efficient portfolio can be defined as a constrained optimization problem, as follows (Castellani et al. 2005):
 
 $$
-\left\{ \begin{array}{l} \min  _ {\boldsymbol {\alpha} \in \mathbb {R} ^ {n}} \sigma_ {P} ^ {2} (\boldsymbol {\alpha}) \\ \mu_ {P} (\boldsymbol {\alpha}) = \mu_ {0} \\ \sum_ {k = 1} ^ {n} \alpha_ {k} = 1 \end{array} \right. \tag {5.54}
+\left\{ \begin{array}{l} \min_{\boldsymbol{\alpha} \in \mathbb{R}^{n}} \sigma_{P}^{2} (\boldsymbol{\alpha}) \\ \mu_{P} (\boldsymbol{\alpha}) = \mu_{0} \\ \sum_{k=1}^{n} \alpha_{k} = 1 \end{array} \right. \tag{5.54}
 $$
 
 Or alternatively:
 
 $$
-\left\{ \begin{array}{l} \max  _ {\boldsymbol {\alpha} \in \mathbb {R} ^ {n}} \mu_ {P} (\boldsymbol {\alpha}) \\ \sigma_ {P} ^ {2} (\boldsymbol {\alpha}) = \sigma_ {0} ^ {2} \\ \sum_ {k = 1} ^ {n} \alpha_ {k} = 1 \end{array} \right. \tag {5.55}
+\left\{ \begin{array}{l} \max_{\boldsymbol{\alpha} \in \mathbb{R}^{n}} \mu_{P} (\boldsymbol{\alpha}) \\ \sigma_{P}^{2} (\boldsymbol{\alpha}) = \sigma_{0}^{2} \\ \sum_{k=1}^{n} \alpha_{k} = 1 \end{array} \right. \tag{5.55}
 $$
 
 where in Eq. (5.54) the first is the equation to be minimized and the second and the third are the constraints, and also in Eq. (5.55) the first is the equation to be maximized and the second and third are the constraints. In both cases,  $\alpha$  is a vector:  $\alpha = \{\alpha_{1},\alpha_{2},\ldots ,\alpha_{k}\}$ .
@@ -6121,7 +6121,7 @@ Considering that investors are characterized by the risk aversion, the constrain
 In the extensive form, Eq. (5.54) can be rewritten as follows:
 
 $$
-\left\{ \begin{array}{l} \min  _ {\alpha \in \mathbb {R} ^ {n}} \sum_ {k = 1} ^ {n} \sum_ {j = 1} ^ {n} \alpha_ {k} \alpha_ {j} \rho_ {k, j} \sigma_ {k} \sigma_ {j} \\ \sum_ {k = 1} ^ {n} \alpha_ {k} \mu_ {k} = \mu_ {0} \\ \sum_ {k = 1} ^ {n} \alpha_ {k} = 1 \end{array} \right. \tag {5.56}
+\left\{ \begin{array}{l} \min_{\alpha \in \mathbb{R}^{n}} \sum_{k=1}^{n} \sum_{j=1}^{n} \alpha_{k} \alpha_{j} \rho_{k,j} \sigma_{k} \sigma_{j} \\ \sum_{k=1}^{n} \alpha_{k} \mu_{k} = \mu_{0} \\ \sum_{k=1}^{n} \alpha_{k} = 1 \end{array} \right. \tag{5.56}
 $$
 
 Equation (5.56) can be solved by using the Lagrangian  $(\mathcal{L})$  as follows (Castellani et al. 2005):
@@ -6129,43 +6129,43 @@ Equation (5.56) can be solved by using the Lagrangian  $(\mathcal{L})$  as follo
 # 5.2 Efficient Frontier
 
 $$
-\mathcal {L} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \alpha_ {\mathrm {j}} \rho_ {\mathrm {k}, \mathrm {j}} \sigma_ {\mathrm {k}} \sigma_ {\mathrm {j}} - \lambda^ {\prime} \left(\sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \mu_ {\mathrm {k}} - \mu_ {0}\right) - \lambda^ {\prime \prime} \left(\sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} - 1\right) \tag {5.57}
+\mathcal{L} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \alpha_{\mathrm{j}} \rho_{\mathrm{k},\mathrm{j}} \sigma_{\mathrm{k}} \sigma_{\mathrm{j}} - \lambda^{\prime} \left(\sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \mu_{\mathrm{k}} - \mu_{0}\right) - \lambda^{\prime\prime} \left(\sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} - 1\right) \tag{5.57}
 $$
 
 Remembering that in Eqs. (5.45), (5.46) and (5.48), we have:
 
 $$
-\frac {\partial \mu_ {\mathrm {P}}}{\partial \alpha_ {\mathrm {k}}} = \frac {\partial}{\partial \alpha_ {\mathrm {k}}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {j}} \mu_ {\mathrm {j}} = \mu_ {\mathrm {k}}
+\frac{\partial \mu_{\mathrm{P}}}{\partial \alpha_{\mathrm{k}}} = \frac{\partial}{\partial \alpha_{\mathrm{k}}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{j}} \mu_{\mathrm{j}} = \mu_{\mathrm{k}}
 $$
 
 $$
-\frac {\partial \sigma_ {P} ^ {2}}{\partial \alpha_ {k}} = \frac {\partial}{\partial \alpha_ {k}} \sum_ {j = 1} ^ {n} \sum_ {h = 1} ^ {n} \alpha_ {j} \alpha_ {h} \sigma_ {j, h} = 2 \sum_ {j = 1} ^ {n} \alpha_ {j} \sigma_ {k, j}
+\frac{\partial \sigma_{P}^{2}}{\partial \alpha_{k}} = \frac{\partial}{\partial \alpha_{k}} \sum_{j=1}^{n} \sum_{h=1}^{n} \alpha_{j} \alpha_{h} \sigma_{j,h} = 2 \sum_{j=1}^{n} \alpha_{j} \sigma_{k,j}
 $$
 
 $$
-\frac {\partial \sigma_ {P}}{\partial \alpha_ {k}} = \frac {1}{2 \sigma_ {P}} \frac {\partial \sigma_ {P} ^ {2}}{\partial \alpha_ {k}} = \frac {\sum_ {j = 1} ^ {n} \alpha_ {j} \sigma_ {k j}}{\sigma_ {P}}
+\frac{\partial \sigma_{P}}{\partial \alpha_{k}} = \frac{1}{2 \sigma_{P}} \frac{\partial \sigma_{P}^{2}}{\partial \alpha_{k}} = \frac{\sum_{j=1}^{n} \alpha_{j} \sigma_{kj}}{\sigma_{P}}
 $$
 
 and by considering the Legrangian first derivative:
 
 $$
-\frac {\partial \mathcal {L}}{\partial \alpha_ {k}} = 2 \sum_ {j = 1} ^ {n} \alpha_ {j} \rho_ {k, j} \sigma_ {j} - \lambda^ {\prime} \mu_ {k} - \lambda^ {\prime \prime} = \sum_ {j = 1} ^ {n} \alpha_ {j} \rho_ {k, j} \sigma_ {j} - \frac {1}{2} \lambda^ {\prime} \mu_ {k} - \frac {1}{2} \lambda^ {\prime \prime} \tag {5.58}
+\frac{\partial \mathcal{L}}{\partial \alpha_{k}} = 2 \sum_{j=1}^{n} \alpha_{j} \rho_{k,j} \sigma_{j} - \lambda^{\prime} \mu_{k} - \lambda^{\prime\prime} = \sum_{j=1}^{n} \alpha_{j} \rho_{k,j} \sigma_{j} - \frac{1}{2} \lambda^{\prime} \mu_{k} - \frac{1}{2} \lambda^{\prime\prime} \tag{5.58}
 $$
 
 and placing first derivatives first, we have:
 
 $$
-\left\{ \begin{array}{l} \sum_ {j = 1} ^ {n} \alpha_ {j} \rho_ {k, j} \sigma_ {j} - \frac {1}{2} \lambda^ {\prime} \mu_ {k} - \frac {1}{2} \lambda^ {\prime \prime} = 0 \quad p e r \quad k = 1, 2, \dots , n \\ \sum_ {k = 1} ^ {n} \alpha_ {k} \mu_ {k} = \mu_ {0} \\ \sum_ {k = 1} ^ {n} w _ {k} = 1 \end{array} \right. \tag {5.59}
+\left\{ \begin{array}{l} \sum_{j=1}^{n} \alpha_{j} \rho_{k,j} \sigma_{j} - \frac{1}{2} \lambda^{\prime} \mu_{k} - \frac{1}{2} \lambda^{\prime\prime} = 0 \quad per \quad k = 1, 2, \dots , n \\ \sum_{k=1}^{n} \alpha_{k} \mu_{k} = \mu_{0} \\ \sum_{k=1}^{n} w_{k} = 1 \end{array} \right. \tag{5.59}
 $$
 
 Equation (5.59) are linear. Denoting by  $\alpha_{1}(\mu_{0}),\alpha_{2}(\mu_{0}),\ldots ,\alpha_{n}(\mu_{0})$  the solutions obtained at the fixed value of the portfolio's expected return  $(\mu_0)$ , we have the coordinates of the minimum variance portfolio as follows (Castellani et al. 2005):
 
 $$
-\mu_ {0} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \left(\mu_ {0}\right) \mu_ {\mathrm {k}} \tag {5.60}
+\mu_{0} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \left(\mu_{0}\right) \mu_{\mathrm{k}} \tag{5.60}
 $$
 
 $$
-\sigma_ {0} ^ {2} = \sum_ {\mathrm {k} = 1} ^ {\mathrm {n}} \sum_ {\mathrm {j} = 1} ^ {\mathrm {n}} \alpha_ {\mathrm {k}} \left(\mu_ {0}\right) \alpha_ {\mathrm {j}} \left(\mu_ {0}\right) \rho_ {\mathrm {k}, \mathrm {j}} \sigma_ {\mathrm {k}} \sigma_ {\mathrm {j}} \tag {5.61}
+\sigma_{0}^{2} = \sum_{\mathrm{k}=1}^{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \alpha_{\mathrm{k}} \left(\mu_{0}\right) \alpha_{\mathrm{j}} \left(\mu_{0}\right) \rho_{\mathrm{k},\mathrm{j}} \sigma_{\mathrm{k}} \sigma_{\mathrm{j}} \tag{5.61}
 $$
 
 The coordinates of the minimum variance portfolio are obtained by solving the constrained optimization problem through the Lagrangian without any constraint on the expected return.
@@ -6178,7 +6178,7 @@ Fig. 5.11 The opportunity frontier for n risky assets in portfolio and short sel
 delimited by the parabola. The curve represents the opportunity frontier  $(\mathcal{B})$  in case of n risky assets and when short selling is permitted. The parabola's vertex indicates the minimum variance portfolio, as follows (Castellani et al. 2005):
 
 $$
-\sigma_ {*} ^ {2} = \min  _ {\mathrm {w} \in \mathcal {B}} \sigma_ {\mathrm {p}} ^ {2} (\alpha) \tag {5.62}
+\sigma_{*}^{2} = \min_{\mathrm{w} \in \mathcal{B}} \sigma_{\mathrm{p}}^{2} (\alpha) \tag{5.62}
 $$
 
 where  $\pmb{\alpha}$  is a vector as follows:  $\pmb {\alpha} = \{a_{1},a_{2},\dots ,a_{n}\}$

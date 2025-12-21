@@ -1,9 +1,33 @@
-title: "Chapter 19 - How Countries Go Broke - Big Debt Cycle by Ray Dalio"
-primary_tags: [big_debt_cycle, debt_monetization, reserve_currency]
-secondary_tags: [economic_cycles, ray_dalio, bridgewater_associates, debt_crisis, monetary_policy]
-parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates"
+---
+title: How Countries Go Broke - Big Debt Cycle by Ray Dalio
+primary_tags:
+  - big_debt_cycle
+  - debt_monetization
+  - reserve_currency
+  - economic_cycles
+  - ray_dalio
+secondary_tags:
+  - bridgewater_associates
+  - debt_crisis
+  - monetary_policy
+  - big_debt_cycles
+  - currency_debasement
+  - central_bank_policy
+  - fiscal_policy
+  - debt_bubbles
+  - deleveraging
+  - financial_crisis
+  - monetary_system
+  - credit_cycle
+  - sovereign_debt
+  - debt_sustainability
+  - inflation_deflation
+  - currency_reserves
+  - gold_standard
+  - fiat_money
+  - interest_rates
+  - asset_bubbles
 cssclasses: academia
-aliases: ["Big Debt Cycle", "How Countries Go Broke"]
 ---
 # How Countries Go Broke
 ## The Big Cycle
@@ -3554,6 +3578,71 @@ Hopefully, this picture makes people worry and motivates them to do what is stil
 I hope you find good principles to prepare for the interesting times ahead.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/ece9d152b02fbd6303de8d0e3d78dcba38940dcf6f22725b1916f8895c6a9e60.jpg)
+
+## Additional D2 Diagrams for Big Debt Cycle
+
+### Big Debt Cycle Stages
+```d2
+# Big Debt Cycle Stages
+sound_money: "Sound Money Stage"
+credit_expansion: "Credit Expansion"
+debt_bubble: "Debt Bubble"
+top_crisis: "Top/Crisis"
+deleveraging: "Deleveraging"
+new_equilibrium: "New Equilibrium"
+
+sound_money -> credit_expansion: "Credit creation incentivized"
+credit_expansion -> debt_bubble: "Debt rises faster than income"
+debt_bubble -> top_crisis: "Bubble peaks, crisis begins"
+top_crisis -> deleveraging: "Debt reduction process"
+deleveraging -> new_equilibrium: "New balance achieved"
+new_equilibrium -> sound_money: "Cycle restarts"
+```
+
+### Big Cycle Forces
+```d2
+# The Five Forces of the Big Cycle
+debt_cycle: "Big Debt Cycle"
+internal_order: "Internal Political Order"
+external_order: "External Geopolitical Order"
+nature: "Acts of Nature"
+technology: "Technology Development"
+
+debt_cycle <-> internal_order: "Interconnected"
+debt_cycle <-> external_order: "Interconnected"
+internal_order <-> external_order: "Interconnected"
+nature <-> all: "Affects all cycles"
+technology <-> all: "Affects all cycles"
+```
+
+### Debt Monetization Process
+```d2
+# Debt Monetization Process
+gov_borrowing: "Government Borrowing"
+central_bank: "Central Bank"
+money_creation: "Money Creation"
+bond_purchases: "Bond Purchases"
+inflation: "Potential Inflation"
+
+gov_borrowing -> central_bank: "Issues bonds"
+central_bank -> bond_purchases: "Purchases bonds"
+bond_purchases -> money_creation: "Creates money"
+money_creation -> inflation: "Risk of inflation"
+```
+
+### Reserve Currency Lifecycle
+```d2
+# Reserve Currency Lifecycle
+emergence: "Currency Emergence"
+reserve_status: "Reserve Currency Status"
+overextension: "Overextension"
+decline: "Reserve Status Decline"
+
+emergence -> reserve_status: "Economic dominance"
+reserve_status -> overextension: "Privilege abuse"
+overextension -> decline: "Loss of confidence"
+decline -> "New reserve currency emerges"
+```
 
 # ABOUT THE AUTHOR
 

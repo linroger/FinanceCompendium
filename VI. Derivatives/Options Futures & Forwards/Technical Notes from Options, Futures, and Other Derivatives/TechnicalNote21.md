@@ -149,3 +149,47 @@ weights -> summation
 problem -> summation: "Transform variable"
 summation -> approx
 ```
+
+## Additional D2 Diagrams for Hermite Polynomials
+
+### Hermite Polynomial Properties
+```d2
+# Hermite Polynomial Properties
+orthogonality: "Orthogonality Property"
+recurrence: "Recurrence Relation"
+differential: "Differential Equation"
+roots: "Roots Properties"
+
+orthogonality -> "∫ H_m(x) H_n(x) e^(-x²) dx = 0 if m ≠ n"
+recurrence -> "H_{n+1}(x) = 2x H_n(x) - 2n H_{n-1}(x)"
+differential -> "H_n'(x) = 2n H_{n-1}(x)"
+roots -> "n distinct real roots for H_n(x)"
+```
+
+### Gaussian Quadrature Process
+```d2
+# Gaussian Quadrature Process
+function: "Function g(F)"
+gaussian_weight: "Gaussian Weight e^(-F²/2)"
+integration: "Integration Process"
+gauss_quad: "Gaussian Quadrature"
+accuracy: "High Accuracy"
+
+function -> integration: "Multiply by weight"
+gaussian_weight -> integration: "Apply to function"
+integration -> gauss_quad: "Approximate with nodes"
+gauss_quad -> accuracy: "Exact for polynomials up to degree 2M-1"
+```
+
+### Applications in Finance
+```d2
+# Applications in Finance
+credit_derivatives: "Credit Derivatives"
+gaussian_copula: "Gaussian Copula Model"
+numerical_methods: "Numerical Integration"
+option_pricing: "Option Pricing"
+
+credit_derivatives -> gaussian_copula: "Requires normal integration"
+gaussian_copula -> numerical_methods: "Uses Hermite polynomials"
+numerical_methods -> option_pricing: "Accurate pricing methods"
+```
