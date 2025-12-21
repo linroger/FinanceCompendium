@@ -1,4 +1,24 @@
 
+---
+title: Moving Average Models for Volatility and Correlation, and Covariance Matrices
+parent_directory: Volume III/Risk Measures
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+- volatility modeling
+- correlation analysis
+- covariance matrices
+- risk measurement
+secondary_tags:
+- moving average models
+- time series analysis
+- portfolio risk
+- financial econometrics
+- statistical forecasting
+cssclasses: academia
+---
+
 # Moving Average Models for Volatility and Correlation, and Covariance Matrices
 
 CAROL ALEXANDER, PhD
@@ -92,6 +112,76 @@ In the following, for simplicity, we assume that the mean return is zero and tha
 
 Equal weighting of historical data was the first widely accepted statistical method for forecasting volatility and correlation of financial asset returns. For many years, it was the market standard to forecast average volatility over the next  $h$  days by taking an equally weighted average of squared returns over the previous  $h$  days. This method was called the historical volatility forecast. Nowadays, many different statistical forecasting techniques can be applied to historical time series data so it is confusing to call this equally weighted method the historical method. However, this rather confusing terminology remains standard.
 
+```d2
+direction: right
+
+Moving Average Volatility Estimation {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+
+  historical_returns: Historical Returns {
+    shape: rectangle
+    label: "Time series of past returns\nr_{t-1}, r_{t-2}, ..., r_{t-T}"
+    style.fill: "#4caf50"
+    style.stroke: "#2e7d32"
+  }
+
+  square_returns: Square Returns {
+    shape: rectangle
+    label: "Calculate squared returns\n(r_{t-1})², (r_{t-2})², ..., (r_{t-T})²"
+    style.fill: "#2196f3"
+    style.stroke: "#0d47a1"
+  }
+
+  average_variance: Average Variance {
+    shape: rectangle
+    label: "Take equally weighted average\nσ² = (1/T) Σ (r_{t-i})² for i=1 to T"
+    style.fill: "#ff9800"
+    style.stroke: "#e65100"
+  }
+
+  volatility: Annualized Volatility {
+    shape: rectangle
+    label: "Annualize volatility\nσ = √(σ² × 250)"
+    style.fill: "#f44336"
+    style.stroke: "#b71c1c"
+  }
+
+  forecast: Forecast {
+    shape: rectangle
+    label: "Use as forecast for future periods\n(assuming constant volatility)"
+    style.fill: "#9c27b0"
+    style.stroke: "#6a1b9a"
+  }
+
+  historical_returns -> square_returns: "Square each return"
+  square_returns -> average_variance: "Average squared returns"
+  average_variance -> volatility: "Take square root and annualize"
+  volatility -> forecast: "Apply to future risk horizons"
+
+  assumptions: Key Assumptions {
+    shape: rectangle
+    label: "• Zero mean returns\n• Constant volatility\n• Independent returns\n• Square root of time rule"
+    style.fill: "#ffebee"
+    style.stroke: "#d32f2f"
+    style.font-size: 12
+  }
+
+  limitations: Limitations {
+    shape: rectangle
+    label: "• Ignores recent market changes\n• Sensitive to extreme events\n• No time-varying volatility\n• Ghost effects from old data"
+    style.fill: "#fff3e0"
+    style.stroke: "#e65100"
+    style.font-size: 12
+  }
+
+  forecast -> assumptions: "Based on"
+  forecast -> limitations: "Subject to"
+}
+
+Note: Equally weighted moving averages provide simple but often misleading volatility forecasts
+```
 
 Perceived changes in volatility and correlation have important consequences for all types of risk management decisions, whether to do with capitalization, resource allocation, or hedging strategies. Indeed it is these parameters of the returns distributions that are the fundamental building blocks of market risk assessment models. It is therefore essential to understand what type of variability in returns the model has measured. The model assumes that an independently and identically distributed process generates returns. That is, both volatility and correlation are constant and the "square root of time rule" applies. This assumption has important ramifications and we shall take care to explain these very carefully.
 

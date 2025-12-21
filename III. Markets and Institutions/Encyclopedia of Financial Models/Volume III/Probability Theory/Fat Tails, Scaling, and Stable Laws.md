@@ -1,24 +1,32 @@
 ---
 title: "Fat Tails, Scaling, and Stable Laws"
 parent_directory: "Probability Theory"
-formatted: "2025-12-21 11:08:00 AM"
+formatted: "2025-12-21 07:13:00 AM"
 formatter_model: "claude-sonnet-4"
 cli_tool: "claude-code"
 primary_tags:
   - fat tailed distributions
   - stable distributions
   - extreme value theory
+  - hill estimator
+  - order statistics
+  - scaling self similarity
 secondary_tags:
   - power law distributions
   - central limit theorem
   - maximum domain of attraction
   - subexponential distributions
   - point process exceedances
-  - hill estimator
-  - pickands estimator
+  - quantile transformation
+  - empirical distribution function
+  - moment ratio estimator
+  - heavy tailed arma processes
   - arch garch processes
-  - heavy tailed arma
   - subordinated processes
+  - markov switching models
+  - tail index estimation
+  - domain of attraction
+  - glivenko-cantelli theorem
   - markov switching models
   - self similar processes
   - scaling laws finance
@@ -195,7 +203,7 @@ $$ is approximately verified. The well-known Zipf's law is an example of this ra
 Many properties of power-law distributions are distinctly different in the three following ranges of  $\alpha$ :  $0 < \alpha \leq 1$ ,  $1 < \alpha \leq 2$ ,  $\alpha > 2$ . The threshold  $\alpha = 2$  for the tail index is important as it marks the separation between the applicability of the standard central limit theorem (CLT); the threshold  $\alpha = 1$  is important as it separates variables with a finite mean from those with infinite mean. Let's take a closer look at the law of large numbers and the CLT.
 
 
-# The Law of Large Numbers and the Central Limit Theorem
+## The Law of Large Numbers and the Central Limit Theorem
 
 There are four basic versions of the law of large numbers (LLN), two weak laws of large numbers (WLLN), and two strong laws of large numbers (SLLN).
 
@@ -786,7 +794,7 @@ Subordinated processes allow the time scale to vary. Subordinated models are, in
 
 Subordinated models can be applied quite naturally in the context of trading. Individual trades are randomly spaced. In modern electronic exchanges, the time and size of trades are individually recorded, thus allowing for accurate estimates of the distributional properties of inter-trades intervals. Consideration of random spacings between trades naturally leads to the consideration of subordinated models. Subordinated models generate unconditional fat-tailed distributions.
 
-# Markov Switching Models
+## Markov Switching Models
 
 The GARCH family of models is not the only family of serially correlated models able to produce fat tails starting from normally distributed innovations. State-space models and Markov-switching models present the same feature. The basic ideas of state-space models and Markov switching models is to split the model into two parts: (1) a regressive model that regresses the model variable over a hidden variable and (2) an autoregressive model that describes the hidden variables.
 
@@ -809,7 +817,7 @@ If the second equation is a Markov chain, the model is called a Markov-switching
 
 Purely linear state-space models exhibit fat tails only if innovations are fat-tailed. However, multiplicative state-space models and Markov-switching models can exhibit fat tails even if innovations are normally distributed. There is a growing literature on Markov-switching and multiplicative state-space models and a relatively large number of different models, univariate as well as multivariate, have been proposed. Stochastic volatility models are the continuous-time version of multiplicative statespace models.
 
-# Estimation
+## Estimation
 
 Let's now go back to the question of model estimation in a non-IID framework. Suppose that we want to estimate the tail index of the unconditional distribution of a set of empirical observations in the general setting of non-IID variables. Note that if variables are fat-tailed, we cannot say that they are serially autocorrelated as moments of second order generally do not exist. Therefore we have to make some hypothesis on the DGP.
 
@@ -819,7 +827,7 @@ Often only simulation results are available. A fairly ample set of results are a
 
 GARCH(1,1) models. For these models Resnick and Starica (1998) showed that the Hill estimator is a consistent estimator of the tail index. Wagner and Marsh compared the performance of the Hill estimator and of the moment ratio estimator for three model classes: IID  $\alpha$ -stable returns, IID symmetric Student, and GARCH(1,1) with Student-t innovation. They found that, in an adoptive framework, the moment ratio estimator generally yields results superior to the Hill estimator.
 
-# Scaling and Self-Similarity
+## Scaling and Self-Similarity
 
 The concept of scaling is now quite frequently evoked in economics and finance. Let's begin by making a distinction between scaling and self-similarity and some of the properties associated with inverse power laws within or outside the Levy-stable scaling regime. These concepts have different, and not equivalent, definitions.
 
@@ -868,16 +876,16 @@ A stationary sequence is called asymptotically self-similar if the above relatio
 
 When we apply the notion of scaling to stochastic processes—the natural setting for economics and finance—we have to abandon the simple characterization of scaling as inverse power laws. Though the scaling property is in itself characterized through simple power laws, the scaling processes are complex and rich mathematical structures entailing a variety of distributions and correlation functions. In particular, the long-range correlation structure of the process plays a role as important as the distribution of its variables.
 
-
-# Key points
+ 
+ ## Key points
 
 - Fat-tailed laws have been found in many economic variables.
 - Fully approximating a finite economic system with fat-tailed laws depends on an accurate statistical analysis of the phenomena, but also on a number of the theoretical implications of subexponentiality and scaling.
 - Modeling financial variables with stable laws implies the assumption of infinite variance, which seems to contradict empirical observations.
 - Scaling laws might still be an appropriate modeling paradigm given the complex interaction of distributional shape and correlations in price processes.
-- Scaling laws might help in understanding not only the sheer size of economic fluctuations but also the complexity of economic cycles.
+ - Scaling laws might help in understanding not only the sheer size of economic fluctuations but also the complexity of economic cycles.
 
-# NOTES
+ ## NOTES
 
 1. See Bamberg and Dorfleitner (2001).
 2. See, for example, Sigman (1999).
@@ -890,9 +898,9 @@ When we apply the notion of scaling to stochastic processes—the natural settin
 8. Diebold, Schuermann, and Stroughair (2000).
 9. See Embrechts, Kluppelberg, and Mikosch (1999).
 10. For an introduction to fractals, see Falconer (1990).
-11. See Samorodnitsky and Taqqu (1994).
+ 11. See Samorodnitsky and Taqqu (1994).
 
-# REFERENCES
+ ## REFERENCES
 
 Anderson, R. W. (1997). Some thoughts about distribution in economics. In W. B. Arthur, S. N. Durlaf, and D. A. Lane (eds.), The Economy as an Evolving Complex System II. Reading, MA: Addison-Wesley.
 Bamberg, G., and Dorfleitner, D. (2001). Fat tails and traditional capital market theory. Working Paper, University of Augsburg, August.

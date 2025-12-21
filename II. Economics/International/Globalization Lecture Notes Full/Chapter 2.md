@@ -184,7 +184,7 @@ It can be hard to measure opportunity costs. Later in this chapter, we will intr
 
 A good's relative price in a closed economy is equal to its opportunity costs. The problem is, of course, that hardly any economy is truly closed to foreign transactions and then opens up. One of the few exceptions is perhaps Japan, which in 1639 formally prohibited all contact and trade between its residents and outsiders. The arrangement lasted for more than 200 years. Daniel M. Bernhofen and John C. Brown (2004) used Japan's far-reaching opening to international trade in the 1860s to test the principle of comparative advantage. Utilizing data on prices in the closed economy and on later trade flows, Bernhofen and Brown found that prices and trade satisfied the predictions of the theory in every year.
 
-# 2.3 Fundamentals of the Model
+ ## 2.3 Fundamentals of the Model
 
 Economics is a social science that follows a specific method. To make sure all of the statements and their origins are clear, we first set forth the basic assumptions that underlie an explanation or theory. This book calls those basic assumptions the fundamentals of the economy. The fundamentals are the main "ingredients" of the model. By design, no model is complete. A complete model would be like a map of the world with a scale of 1:1. Such a map would be comprehensive but quite useless to you as a guide. A model simplifies the set of ingredients and omits many aspects, just as a map is drawn at a scale of 1:1,000 or 1:24,000.
 
@@ -194,8 +194,8 @@ The fundamentals of the Ricardian model, which is a classical model of trade use
 
 There are two industries in the model, agriculture and manufacturing, and two countries. The industries produce with constant returns to scale. Under constant returns to scale, doubling an industry's inputs doubles the output, tripling all inputs triples output, reducing all inputs by half cuts output in half, and the like. Under perfect competition, firms will not play a relevant role in such a world. Perfect competition means that no seller or buyer gets to strategically set prices; otherwise another seller or buyer could come in and outbid the manipulator with a better price. All that matters then is the industry as a whole. (We will relax this assumption in Part I when we discuss protecting infant industries, and in Part II when we consider individual firms with an entry and exit choice.)
 
-
-# Fundamentals.
+ 
+ ### Fundamentals.
 
 Key force: Differences in technology (constant labor productivity by local industry)
 - Factors of production: 1 (labor  $L$ )

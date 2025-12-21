@@ -1,30 +1,26 @@
 ---
-aliases:
-- The Crisis Spills over to the Central Bank
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: '10 - Chapter 6: The Crisis Spills over to the Central Bank (Stages 5-6)'
+title: 10 - Chapter 6: The Crisis Spills over to the Central Bank (Stages 5-6)
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
+- central bank intervention
+- debt crisis management
+- quantitative easing
 - money printing
-- interest rates
 secondary_tags:
-- debt crisis
-- print money
-- very short-term interest rate
-- central bank
-tags_extracted: '2025-12-18T18:02:44.859856'
-tags_method: max_quality_v1
+- interest rate policy
+- balance sheet expansion
+- currency devaluation risk
+- inflation dynamics
+- monetary policy
+cssclasses: academia
 ---
 
-# 10_6_The_Crisis_Spills_over_to_the_Central_Bank_Stage
-## THE CRISIS SPILLS OVER
+# 10 - Chapter 6: The Crisis Spills over to the Central Bank (Stages 5-6)
 
-### TO THE CENTRAL BANK
-
-### (STAGES 5-6)
+## The Crisis Spills Over to the Central Bank (Stages 5-6)
 
 This chapter continues to go through the dynamics I laid out in my archetype of a big debt crisis. Here, we will focus on Stages 5-6, when problems spill over to the central bank.
 
@@ -56,9 +52,69 @@ More specifically, when the central bank buys the bond (say, from a bank), it pa
 
 ### Stage 6: If Interest Rates Rise, the Central Bank Loses Money Because the Interest Rate That It Has to Pay on Its Liabilities Is Greater than the Interest Rate It Receives on the Debt Assets It Bought
 
-When that happens, that is notable but not a big red flag until the central bank has a significant negative net worth and is forced to print more money to cover the negative cash flow that it experiences due to less money coming in on its assets than has to go out to service its debt liabilities. That is a big red flag because it signals the central bank's death spiral (i.e., the dynamic in which rising interest rates cause problems that creditors see, which leads them not to hold the debt assets, which leads to higher interest rates or the need to print more money, which devalues the money, which leads to more selling).
+When that happens, that is notable but not a big red flag until the central bank has a significant negative net worth and is forced to print more money to cover the negative cash flow that it experiences due to less money coming in on its assets than has to go out to service its debt liabilities. That is a big red flag because it signals the central bank's death spiral (i.e., the dynamic in which rising interest rates cause problems that creditors see, which leads them not to hold the debt assets, which leads to higher interest rates or the need to print more money, which devalues the money, which leads to more selling of the debt assets and the currency, and so on). That is what I mean when I say the central bank goes broke: it can't make its debt service payments, though it doesn't default on its debts because it prints money. When done in large amounts, that devalues the money and creates inflationary recessions or depressions.
 
-Of the debt assets and the currency, and so on). That is what I mean when I say the central bank goes broke: it can't make its debt service payments, though it doesn't default on its debts because it prints money. When done in large amounts, that devalues the money and creates inflationary recessions or depressions.
+```d2
+direction: right
+
+Central Bank Death Spiral {
+  shape: circle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+
+  rising_rates: Rising Interest Rates {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  creditor_concerns: Creditor Concerns {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  sell_debt: Sell Debt Assets {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  higher_rates: Higher Rates Needed {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  print_money: Print More Money {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  currency_devalues: Currency Devalues {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  more_selling: More Selling {
+    shape: hexagon
+    style.fill: "#ffcdd2"
+    style.stroke: "#d32f2f"
+  }
+
+  rising_rates -> creditor_concerns: "Cause problems that"
+  creditor_concerns -> sell_debt: "Lead to"
+  sell_debt -> higher_rates: "Requires"
+  higher_rates -> print_money: "Or need to"
+  print_money -> currency_devalues: "Which"
+  currency_devalues -> more_selling: "Leads to"
+  more_selling -> rising_rates: "And back to"
+}
+
+Note: The central bank's death spiral creates a self-reinforcing cycle of monetary instability
+```
 
 At this stage, the central bank typically ends up in a difficult situation, caught between the need to maintain policy that is at once easy enough to support a weak economy and a fiscally weak government but also tight enough to discourage savers and investors from fleeing the currency. This is a hallmark of an unsustainable situation, and it typically manifests in the following ways:
 
