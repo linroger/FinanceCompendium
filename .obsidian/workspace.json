@@ -244,6 +244,8 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/subagent_stop.json",
+    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Greeks MasterSlides (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Generate RVars (1).md",
@@ -274,12 +276,10 @@
     "logs/aea0aab5-d1d1-447a-859e-e2385aa771f2/subagent_stop.json",
     "logs/aea0aab5-d1d1-447a-859e-e2385aa771f2",
     "styleguide/Untitled.txt",
-    "update_beads_instructions.py",
     "styleguide/subagent-formatting-instructions.md",
     "I. Foundations/Machine Learning/Foundations of Language Models.md",
     "IV. Fixed Income/Fundamentals/Bond Markets, Analysis, and Strategies Processed.md",
     "tags_log.md",
-    "processing_log_finance.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]
