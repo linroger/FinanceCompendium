@@ -1,39 +1,44 @@
 ---
+title: "International Economics"
+parent_directory: International
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: claude-haiku-4-5-20251001
+cli_tool: claude-code
 primary_tags:
-- purchasing power parity principle
-- trade equilibrium trade triangle
-- effect export subsidy
-- determining labor capital
-- financial instability
-- tariffs quotas assumption
-- example european direct investment
-- markup charged shanghai gm
-- labor abundance share gdp
+  - purchasing power parity principle
+  - trade equilibrium trade triangle
+  - effect export subsidy
+  - determining labor capital
+  - financial instability
+  - tariffs quotas assumption
+  - example european direct investment
+  - markup charged shanghai gm
+  - labor abundance share gdp
 secondary_tags:
-- economics introduction international trade
-- exports exchange computers equilibrium
-- tariffs quotas reduce welfare
-- world used gold standard
-- demand exchange rate effects
-- wages countries higher labor
-- mattel engaging foreign outsourcing
-- nominal anchor faced economic
-- trade technology ricardian model
-- international trade goods assumption
-- effect fdi rentals wages
-- capital income volatility country
-- trade equilibrium foreign relative
-- shoes point trade equilibrium
-- international nonmarket transfers goods
-- ranking terms wages countries
-- effect export quota home
-- figures trade triangles countries
-- capital 1947 labor abundance
-- determination real wage
-- budget constraint open economy
-- hyperinflation adopt dollarization
-- reason tariffs used deadweight
-tags_extracted: '2025-12-18T01:27:35.863368'
+  - economics introduction international trade
+  - exports exchange computers equilibrium
+  - tariffs quotas reduce welfare
+  - world used gold standard
+  - demand exchange rate effects
+  - wages countries higher labor
+  - mattel engaging foreign outsourcing
+  - nominal anchor faced economic
+  - trade technology ricardian model
+  - international trade goods assumption
+  - effect fdi rentals wages
+  - capital income volatility country
+  - trade equilibrium foreign relative
+  - shoes point trade equilibrium
+  - international nonmarket transfers goods
+  - ranking terms wages countries
+  - effect export quota home
+  - figures trade triangles countries
+  - capital 1947 labor abundance
+  - determination real wage
+  - budget constraint open economy
+  - hyperinflation adopt dollarization
+  - reason tariffs used deadweight
+cssclasses: academia
 ---
 
 # International Economics
@@ -106,7 +111,7 @@ Preface xxvi
 
 # Chapter 1 Trade in the Global Economy 1
 
-# 1 International Trade 3
+#### 1 International Trade 3
 
 The Basics of World Trade 3
 
@@ -126,13 +131,13 @@ Barriers to Trade 12
 
 HEADLINES A Sea Change in Shipping 50 Years Ago 15
 
-# 2 Migration and Foreign Direct Investment 16
+#### 2 Migration and Foreign Direct Investment 16
 
 Map of Migration 16
 
 Map of Foreign Direct Investment 19
 
-# 3 Conclusions 23
+#### 3 Conclusions 23
 
 Key Points, Key Terms, and Problems
 
@@ -142,7 +147,7 @@ Patterns of International Trade
 
 # Chapter 2 Trade and Technology: the Ricardian Model 27
 
-# 1 Reasons for Trade 29
+#### 1 Reasons for Trade 29
 
 Proximity 29
 
@@ -156,7 +161,7 @@ Comparative Advantage 32
 
 SIDE BAR David Ricardo and Mercantilism 32
 
-# 2 Ricardian Model 33
+#### 2 Ricardian Model 33
 
 The Home Country 33
 
@@ -164,13 +169,13 @@ The Foreign Country 37
 
 APPLICATION Comparative Advantage in Apparel, Textiles, and Wheat 38
 
-# 3 Determining the Pattern of International Trade 40
+#### 3 Determining the Pattern of International Trade 40
 
 International Trade Equilibrium 41
 
 APPLICATION Labor Productivity and Wages 46
 
-# 4 Solving for International Prices 47
+#### 4 Solving for International Prices 47
 
 Home Export Supply Curve 47
 
@@ -178,13 +183,13 @@ International Trade Equilibrium 51
 
 APPLICATION The Terms of Trade for Primary Commodities 52
 
-# 5 Conclusions 53
+#### 5 Conclusions 53
 
 Key Points, Key Terms, and Problems
 
 # Chapter 3 Gains and Losses from Trade in the Specific-factors Model 59
 
-# 1 Specific-factors Model 61
+#### 1 Specific-factors Model 61
 
 The Home Country 61
 
@@ -194,7 +199,7 @@ Overall Gains from Trade 64
 
 APPLICATION How Large Are the Gains from Trade? 65
 
-# 2 Earnings of Labor 66
+#### 2 Earnings of Labor 66
 
 Determination of Wages 66
 
@@ -204,7 +209,7 @@ APPLICATION Manufacturing and Services in the United States: Employment and Wage
 
 APPLICATION Trade Adjustment Assistance Programs: Financing the Adjustment Costs of Trade 73
 
-# 3 Earnings of Capital and Land 74
+#### 3 Earnings of Capital and Land 74
 
 Determining the Payments to Capital and Land 74
 
@@ -216,7 +221,7 @@ What It All Means 80
 
 APPLICATION Prices in Agriculture 80
 
-# 4 Conclusions 82
+#### 4 Conclusions 82
 
 HEADLINES Rise in Coffee Prices—Great for Farmers, Tough on Co-ops 83
 
@@ -224,7 +229,7 @@ Key Points, Key Terms, and Problems
 
 # Chapter 4 Trade and Resources: the Heckscher-ohlin Model 87
 
-# 1 Heckscher-ohlin Model 88
+#### 1 Heckscher-ohlin Model 88
 
 Assumptions of the Heckscher-Ohlin Model 89
 
@@ -234,7 +239,7 @@ No-Trade Equilibrium 92
 
 Free-Trade Equilibrium 94
 
-# 2 Testing the Heckscher-ohlin Model 98
+#### 2 Testing the Heckscher-ohlin Model 98
 
 Leontief's Paradox 99
 
@@ -248,7 +253,7 @@ U.S. 105
 
 Leontief's Paradox Once Again 107
 
-# 3 Effects of Trade on Factor Prices 110
+#### 3 Effects of Trade on Factor Prices 110
 
 Effect of Trade on the Wage and Rental of Home 110
 
@@ -258,7 +263,7 @@ Changes in the Real Wage and Rental: A Numerical Example 115
 
 APPLICATION Opinions toward Free Trade 117
 
-# 4 Conclusions 119
+#### 4 Conclusions 119
 
 Key Points, Key Terms, and Problems
 
@@ -266,7 +271,7 @@ Key Points, Key Terms, and Problems
 
 Countries 123
 
-# 1 Movement of Labor Between Countries: Migration 125
+#### 1 Movement of Labor Between Countries: Migration 125
 
 Effects of Immigration in the Short Run: Specific-Factors Model 125
 
@@ -292,7 +297,7 @@ APPLICATION The Effects of the Mariel Boat Lift on Industry Output in Miami 140
 
 APPLICATION Immigration and U.S. Wages, 1990-2006 142
 
-# 2 Movement of Capital Between Countries: Foreign Direct Investment 144
+#### 2 Movement of Capital Between Countries: Foreign Direct Investment 144
 
 Greenfield Investment 145
 
@@ -302,7 +307,7 @@ FDI in the Long Run 147
 
 APPLICATION The Effect of FDI on Rentals and Wages in Singapore 149
 
-# 3 Gains from Labor and Capital Flows 151
+#### 3 Gains from Labor and Capital Flows 151
 
 HEADLINES The Myth of Asia's Miracle 151
 
@@ -314,25 +319,25 @@ APPLICATION Gains from Migration 156
 
 Gains from Foreign Direct Investment 159
 
-# 4 Conclusions 160
+#### 4 Conclusions 160
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
+## CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
 
-# 1 Basics of Imperfect Competition 168
+##### 1 Basics of Imperfect Competition 168
 
 Monopoly Equilibrium 168
 
 Demand with Duopoly 169
 
-# 2 Trade Under Monopolistic Competition 170
+##### 2 Trade Under Monopolistic Competition 170
 
 Equilibrium without Trade 172
 
 Equilibrium with Free Trade 174
 
-# 3 the North American Free Trade Agreement 178
+##### 3 the North American Free Trade Agreement 178
 
 Gains and Adjustment Costs for Canada Under NAFTA 178
 
@@ -346,7 +351,7 @@ HEADLINES Nearly 20 Years After NAFTA, First Mexican Truck Arrives In U.S. Inter
 
 Gains and Adjustment Costs for the United States Under NAFTA 184
 
-# 4 Intra-industry Trade and the Gravity Equation 187
+##### 4 Intra-industry Trade and the Gravity Equation 187
 
 Index of Intra-Industry Trade 188
 
@@ -354,7 +359,7 @@ The Gravity Equation 189
 
 APPLICATION The Gravity Equation for Canada and the United States 190
 
-# 5 Conclusions 193
+##### 5 Conclusions 193
 
 Key Points, Key Terms, and Problems
 
@@ -362,11 +367,11 @@ Key Points, Key Terms, and Problems
 
 New Explanations for International Trade
 
-CHAPTER 7 Offshoring of Goods and Services 197
+## CHAPTER 7 Offshoring of Goods and Services 197
 
 SIDE BAR "Foreign Outsourcing" Versus "Offshoring" 199
 
-1 A Model of Offshoring 200
+##### 1 A Model of Offshoring 200
 
 Value Chain of Activities 200
 
@@ -378,7 +383,7 @@ Change in Relative Wages in the United States 206
 
 Change in Relative Wages in Mexico 211
 
-2 The Gains from Offshoring 212
+##### 2 The Gains from Offshoring 212
 
 Simplified Offshoring Model 213
 
@@ -388,7 +393,7 @@ Terms of Trade 216
 
 APPLICATION U.S. Terms of Trade and Service Exports 219
 
-3 The Politics and Future of Offshoring 222
+##### 3 The Politics and Future of Offshoring 222
 
 HEADLINES How to Destroy American Jobs 224
 
@@ -396,7 +401,7 @@ HEADLINES Caterpillar Joins "Onshoring" Trend 225
 
 The Future of U.S. Comparative Advantage 225
 
-4 Conclusions 226
+##### 4 Conclusions 226
 
 Key Points, Key Terms, and Problems
 
@@ -404,13 +409,13 @@ PART 4
 
 International Trade Policies
 
-CHAPTER 8 Import Tariffs and Quotas Under Perfect
+## CHAPTER 8 Import Tariffs and Quotas Under Perfect
 
 Competition 233
 
-1 A Brief History of the World Trade Organization 235
+##### 1 A Brief History of the World Trade Organization 235
 
-2 The Gains from Trade 236
+##### 2 The Gains from Trade 236
 
 Consumer and Producer Surplus 236
 
@@ -420,7 +425,7 @@ Home Welfare 239
 
 Home Import Demand Curve 241
 
-3 Import Tariffs for a Small Country 242
+##### 3 Import Tariffs for a Small Country 242
 
 Free Trade for a Small Country 242
 
@@ -432,7 +437,7 @@ SIDE BAR Safeguard Tariffs 247
 
 APPLICATION U.S. Tariffs on Steel and Tires 248
 
-4 Import Tariffs for a Large Country 256
+##### 4 Import Tariffs for a Large Country 256
 
 Foreign Export Supply 256
 
@@ -440,7 +445,7 @@ Effect of the Tariff 257
 
 APPLICATION U.S. Tariffs on Steel Once Again 261
 
-# 5 Import Quotas 263
+##### 5 Import Quotas 263
 
 Import Quota in a Small Country 263
 
@@ -450,13 +455,13 @@ HEADLINES Sugar Could Sweeten U.S. Australia Trans-Pacific Trade Talks 266
 
 APPLICATION China and the Multifibre Arrangement 269
 
-# 6 Conclusions 272
+##### 6 Conclusions 272
 
 Key Points, Key Terms, and Problems
 
-# Chapter 9 Import Tariffs and Quotas Under Imperfect Competition 279
+## Chapter 9 Import Tariffs and Quotas Under Imperfect Competition 279
 
-# 1 Tariffs and Quotas With Home Monopoly 281
+##### 1 Tariffs and Quotas With Home Monopoly 281
 
 No-Trade Equilibrium 282
 
@@ -468,7 +473,7 @@ Effect of a Home Quota 286
 
 APPLICATION U.S. Imports of Japanese Automobiles 288
 
-# 2 Tariffs With Foreign Monopoly 291
+##### 2 Tariffs With Foreign Monopoly 291
 
 Foreign Monopoly 291
 
@@ -476,11 +481,11 @@ APPLICATION Import Tariffs on Japanese Trucks 293
 
 HEADLINES The Chickens Have Come Home to Roost 295
 
-# 3dumping 296
+##### 3 Dumping 296
 
 Numerical Example of Dumping 298
 
-# 4 Policy Response to Dumping 298
+##### 4 Policy Response to Dumping 298
 
 Antidumping Duties 299
 
@@ -490,13 +495,9 @@ China 299
 
 APPLICATION Antidumping Duties Versus Safeguard Tariffs 302
 
-# 5 Infant Industry Protection 304
+##### 5 Infant Industry Protection 304
 
 Free-Trade Equilibrium 306
-
-Tariff Equilibrium 306
-
-APPLICATION Examples of Infant Industry Protection 308
 
 Government Policies in the Solar Panel Industry 308
 
@@ -512,23 +513,23 @@ HEADLINES Milestone for China Car Output 316
 
 HEADLINES Shanghai Tie-Up Drives Profits for GM 318
 
-# 6 Conclusions 320
+##### 6 Conclusions 320
 
 Key Points, Key Terms, and Problems
 
-# Chapter 10 Export Subsidies in Agriculture and High-technology Industries 327
+## Chapter 10 Export Subsidies in Agriculture and High-technology Industries 327
 
-# 1 Wto Goals on Agricultural Export Subsidies 329
+##### 1 WTO Goals on Agricultural Export Subsidies 329
 
 Agricultural Export Subsidies 329
 
 Other Matters from the Hong Kong WTO Meeting 330
 
-# 2 Export Subsidies in a Small Home Country 331
+##### 2 Export Subsidies in a Small Home Country 331
 
 Impact of an Export Subsidy 332
 
-# 3 Export Subsidies in a Large Home Country 334
+##### 3 Export Subsidies in a Large Home Country 334
 
 Effect of the Subsidy 334
 
@@ -538,23 +539,23 @@ HEADLINES G8 Shifts Focus from Food Aid to Farming 339
 
 HEADLINES Hunger and Food Security Back on Political Agenda 340
 
-# 4 Production Subsidies 340
+##### 4 Production Subsidies 340
 
 Effect of a Production Subsidy in a Small Home Country 341
 
 Effect of the Production Subsidy in a Large Home Country 343
 
-# 5 Export Tariffs 343
+##### 5 Export Tariffs 343
 
 Impact of an Export Tariff in a Small Country 344
 
 Impact of an Export Tariff in a Large Country 345
 
-# 6 Export Quotas 347
+##### 6 Export Quotas 347
 
 APPLICATION Chinese Export Policies in Mineral Products 349
 
-# 7 High-technology Export Subsidies 351
+##### 7 High-technology Export Subsidies 351
 
 HEADLINES China Signals Support for Rare Earths 352
 
@@ -566,15 +567,15 @@ Subsidy with Cost Advantage for Boeing 357
 
 APPLICATION Subsidies to Commercial Aircraft 358
 
-# 8 Conclusions 361
+##### 8 Conclusions 361
 
 HEADLINES EU Seeks \$ 12 billion from US over Boeing Aid 362
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 11 International Agreements: Trade, Labor, and the Environment 367
+## CHAPTER 11 International Agreements: Trade, Labor, and the Environment 367
 
-# 1 International Trade Agreements 370
+##### 1 International Trade Agreements 370
 
 The Logic of Multilateral Trade Agreements 370
 
@@ -592,7 +593,7 @@ Trade Diversion in a Graph 377
 
 APPLICATION Trade Creation and Diversion for Canada 380
 
-# 2 International Agreements on Labor Issues 380
+##### 2 International Agreements on Labor Issues 380
 
 Labor Side Agreement Under NAFTA 381
 
@@ -604,7 +605,7 @@ HEADLINES American Tariffs, Bangladesh Deaths 386
 
 HEADLINES U.S. Suspends Bangladesh's Preferential Trade Status 387
 
-# 3 International Agreements on the Environment 388
+##### 3 International Agreements on the Environment 388
 
 Environmental Issues in the GATT and WTO 388
 
@@ -618,15 +619,15 @@ International Agreements on Pollution 400
 
 APPLICATION The Kyoto Protocol and the Copenhagen Accord 402
 
-# 4 Conclusions 404
+##### 4 Conclusions 404
 
 HEADLINES Dismal Outcome at Copenhagen Fiasco 405
 
 Key Points, Key Terms, and Problems
 
-# Chapter 12 the Global Macroeconomy 411
+## Chapter 12 The Global Macroeconomy 411
 
-# 1 Foreign Exchange: Currencies and Crises 412
+##### 1 Foreign Exchange: Currencies and Crises 412
 
 How Exchange Rates Behave 413
 
@@ -638,7 +639,7 @@ Summary and Plan of Study 416
 
 HEADLINES Economic Crisis in Iceland 417
 
-# 2 Globalization of Finance: Debts and Deficits 418
+##### 2 Globalization of Finance: Debts and Deficits 418
 
 Deficits and Surpluses: The Balance of Payments 418
 
@@ -656,7 +657,7 @@ Darlings and Deadbeats: Defaults and Other Risks 422
 
 Summary and Plan of Study 423
 
-# 3 Government and Institutions: Policies and Performance 424
+##### 3 Government and Institutions: Policies and Performance 424
 
 Integration and Capital Controls: The Regulation of International Finance 424
 
@@ -668,7 +669,7 @@ Summary and Plan of Study 429
 
 HEADLINES The Wealth of Nations 429
 
-# 4 Conclusions 431
+##### 4 Conclusions 431
 
 Key Points, Key Terms, and Problems
 
@@ -676,11 +677,11 @@ Key Points, Key Terms, and Problems
 
 # Exchange Rates
 
-# Chapter 13 Introduction to Exchange Rates and the Foreign
+## Chapter 13 Introduction to Exchange Rates and the Foreign
 
-# Exchange Market 435
+Exchange Market 435
 
-# 1 Exchange Rate Essentials 436
+##### 1 Exchange Rate Essentials 436
 
 Defining the Exchange Rate 436
 
@@ -692,13 +693,13 @@ Example: Using Exchange Rates to Compare Prices in a Common
 
 Currency 441
 
-# 2 Exchange Rates in Practice 443
+##### 2 Exchange Rates in Practice 443
 
 Exchange Rate Regimes: Fixed Versus Floating 443
 
 APPLICATION Recent Exchange Rate Experiences 444
 
-# 3 the Market for Foreign Exchange 449
+##### 3 The Market for Foreign Exchange 449
 
 The Spot Contract 449
 
@@ -712,7 +713,7 @@ Private Actors 452
 
 Government Actions 452
 
-# 4 Arbitrage and Spot Exchange Rates 453
+##### 4 Arbitrage and Spot Exchange Rates 453
 
 Arbitrage with Two Currencies 454
 
@@ -720,7 +721,7 @@ Arbitrage with Three Currencies 455
 
 Cross Rates and Vehicle Currencies 456
 
-# 5 Arbitrage and Interest Rates 457
+##### 5 Arbitrage and Interest Rates 457
 
 Riskless Arbitrage: Covered Interest Parity 457
 
@@ -736,13 +737,13 @@ Uncovered Interest Parity: A Useful Approximation 464
 
 Summary 466
 
-# 6 Conclusions 466
+##### 6 Conclusions 466
 
 Key Points, Key Terms, and Problems
 
-# Chapter 14 Exchange Rates I: the Monetary Approach in the Long Run 473
+## Chapter 14 Exchange Rates I: The Monetary Approach in the Long Run 473
 
-# 1 Exchange Rates and Prices in the Long Run: Purchasing Power Parity and Goods Market Equilibrium 474
+##### 1 Exchange Rates and Prices in the Long Run: Purchasing Power Parity and Goods Market Equilibrium 474
 
 The Law of One Price 475
 
@@ -772,7 +773,7 @@ Undervalued or Overvalued 483
 
 HEADLINES The Big Mac Index 484
 
-# 2 Money, Prices, and Exchange Rates in the Long Run: Money Market Equilibrium in a Simple Model 486
+##### 2 Money, Prices, and Exchange Rates in the Long Run: Money Market Equilibrium in a Simple Model 486
 
 What Is Money? 486
 
@@ -790,7 +791,7 @@ A Simple Monetary Model of the Exchange Rate 490
 
 Money Growth, Inflation, and Depreciation 491
 
-# 3 the Monetary Approach: Implications and Evidence 492
+##### 3 The Monetary Approach: Implications and Evidence 492
 
 Exchange Rate Forecasts Using the Simple Model 492
 
@@ -800,7 +801,7 @@ APPLICATION Hyperinflations 496
 
 SIDE BAR Currency Reform 497
 
-4 Money, Interest Rates, and Prices in the Long Run: A General Model 499
+##### 4 Money, Interest Rates, and Prices in the Long Run: A General Model 499
 
 HEADLINES The First Hyperinflation of the Twenty-First Century 500
 
@@ -820,19 +821,19 @@ The Fundamental Equation Under the General Model 506
 
 Exchange Rate Forecasts Using the General Model 507
 
-5 Monetary Regimes and Exchange Rate Regimes 509
+##### 5 Monetary Regimes and Exchange Rate Regimes 509
 
 The Long Run: The Nominal Anchor 510
 
 APPLICATION Nominal Anchors in Theory and Practice 512
 
-6 Conclusions 514
+##### 6 Conclusions 514
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 15 Exchange Rates II: The Asset Approach in the Short Run 521
+## CHAPTER 15 Exchange Rates II: The Asset Approach in the Short Run 521
 
-1 Exchange Rates and Interest Rates in the Short Run: UIP and FX Market Equilibrium 522
+##### 1 Exchange Rates and Interest Rates in the Short Run: UIP and FX Market Equilibrium 522
 
 Risky Arbitrage 522
 
@@ -844,7 +845,7 @@ Changes in Domestic and Foreign Returns and FX Market Equilibrium 526
 
 Summary 528
 
-2 Interest Rates in the Short Run: Money Market Equilibrium 528
+##### 2 Interest Rates in the Short Run: Money Market Equilibrium 528
 
 Money Market Equilibrium in the Short Run: How Nominal Interest Rates Are Determined 528
 
@@ -864,7 +865,7 @@ Changes in Real Income and the Nominal Interest Rate 534
 
 The Monetary Model: The Short Run Versus the Long Run 534
 
-3 The Asset Approach: Applications and Evidence 535
+##### 3 The Asset Approach: Applications and Evidence 535
 
 The Asset Approach to Exchange Rates: Graphical Solution 535
 
@@ -872,7 +873,7 @@ Short-Run Policy Analysis 537
 
 APPLICATION The Rise and Fall of the Dollar, 1999-2004 540
 
-# 4 a Complete Theory: Unifying the Monetary and Asset Approaches 541
+##### 4 A Complete Theory: Unifying the Monetary and Asset Approaches 541
 
 Long-Run Policy Analysis 542
 
@@ -882,7 +883,7 @@ Overshooting 548
 
 SIDE BAR Overshooting in Practice 550
 
-# 5 Fixed Exchange Rates and the Trilemma 551
+##### 5 Fixed Exchange Rates and the Trilemma 551
 
 What Is a Fixed Exchange Rate Regime? 551
 
@@ -896,21 +897,21 @@ SIDE BAR Intermediate Regimes 556
 
 APPLICATION The Trilemma in Europe 557
 
-# 6 Conclusions 558
+##### 6 Conclusions 558
 
 APPLICATION News and the Foreign Exchange Market in Wartime 558
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 16 National and International Accounts: Income, Wealth, and the Balance of Payments 567
+## CHAPTER 16 National and International Accounts: Income, Wealth, and the Balance of Payments 567
 
-# 1 Measuring Macroeconomic Activity: an Overview 568
+##### 1 Measuring Macroeconomic Activity: An Overview 568
 
 The Flow of Payments in a Closed Economy: Introducing the National Income and Product Accounts 568
 
 The Flow of Payments in an Open Economy: Incorporating the Balance of Payments Accounts 570
 
-# 2 Income, Product, and Expenditure 573
+##### 2 Income, Product, and Expenditure 573
 
 Three Approaches to Measuring Economic Activity 573
 
@@ -930,13 +931,7 @@ Understanding the Data for the National Economic Aggregates 580
 
 What the Current Account Tells Us 582
 
-# Part 7
-
-The Balance of Payments
-
-APPLICATION Global Imbalances 583
-
-# 3 the Balance of Payments 588
+##### 3 The Balance of Payments 588
 
 Accounting for Asset Transactions: The Financial Account 588
 
@@ -954,7 +949,7 @@ Understanding the Data for the Balance of Payments Account 593
 
 What the Balance of Payments Account Tells Us 595
 
-# 4 External Wealth 596
+##### 4 External Wealth 596
 
 The Level of External Wealth 597
 
@@ -964,7 +959,7 @@ Understanding the Data on External Wealth 599
 
 What External Wealth Tells Us 601
 
-# 5 Conclusions 601
+##### 5 Conclusions 601
 
 SIDE BAR Beware of Greeks Bearing Statistics 601
 
@@ -972,9 +967,9 @@ Key Points, Key Terms, and Problems
 
 # Appendix to Chapter 16 607
 
-# Chapter 17 Balance of Payments I: the Gains from Financial Globalization 609
+## Chapter 17 Balance of Payments I: The Gains from Financial Globalization 609
 
-# 1 the Limits on How Much a Country Can Borrow: the Long-run Budget Constraint 611
+##### 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint 611
 
 How The Long-Run Budget Constraint Is Determined 612
 
@@ -992,7 +987,7 @@ APPLICATION The Favorable Situation of the United States 617
 
 APPLICATION The Difficult Situation of the Emerging Markets 620
 
-# 2 Gains from Consumption Smoothing 622
+##### 2 Gains from Consumption Smoothing 622
 
 The Basic Model 623
 
@@ -1006,7 +1001,7 @@ APPLICATION Consumption Volatility and Financial Openness 628
 
 APPLICATION Precautionary Saving, Reserves, and Sovereign Wealth Funds 629
 
-# 3 Gains from Efficient Investment 630
+##### 3 Gains from Efficient Investment 630
 
 The Basic Model 630
 
@@ -1026,7 +1021,7 @@ SIDE BAR What Does the World Bank Do? 645
 
 HEADLINES A Brief History of Foreign Aid 645
 
-# 4 Gains from Diversification of Risk 646
+##### 4 Gains from Diversification of Risk 646
 
 Diversification: A Numerical Example and Generalization 647
 
@@ -1034,15 +1029,15 @@ APPLICATION The Home Bias Puzzle 652
 
 Summary: Don't Put All Your Eggs in One Basket 654
 
-# 5 Conclusions 655
+##### 5 Conclusions 655
 
 Key Points, Key Terms, and Problems
 
 # Appendix to Chapter 17 661
 
-CHAPTER 18 Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run 663
+## CHAPTER 18 Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run 663
 
-# 1 Demand in the Open Economy 664
+##### 1 Demand in the Open Economy 664
 
 Preliminaries and Assumptions 664
 
@@ -1064,7 +1059,7 @@ SIDE BAR Barriers to Expenditure Switching: Pass-Through and the J Curve 673
 
 Exogenous Changes in Demand 675
 
-# 2 Goods Market Equilibrium: the Keynesian Cross 676
+##### 2 Goods Market Equilibrium: The Keynesian Cross 676
 
 Supply and Demand 676
 
@@ -1074,7 +1069,7 @@ Factors That Shift the Demand Curve 677
 
 Summary 679
 
-# 3 Goods and Forex Market Equilibria: Deriving the is Curve 680
+##### 3 Goods and Forex Market Equilibria: Deriving the IS Curve 680
 
 Equilibrium in Two Markets 680
 
@@ -1086,7 +1081,7 @@ Factors That Shift the IS Curve 683
 
 Summing Up the IS Curve 685
 
-# 4 Money Market Equilibrium: Deriving the Lm Curve 686
+##### 4 Money Market Equilibrium: Deriving the LM Curve 686
 
 Money Market Recap 686
 
@@ -1096,7 +1091,7 @@ Factors That Shift the LM Curve 687
 
 Summing Up the LM Curve 688
 
-# 5 the Short-run Is-lm-fx Model of an Open Economy 689
+##### 5 The Short-run IS-LM-FX Model of an Open Economy 689
 
 Macroeconomic Policies in the Short Run 689
 
@@ -1110,7 +1105,7 @@ Fiscal Policy Under Fixed Exchange Rates 694
 
 Summary 696
 
-# 6 Stabilization Policy 697
+##### 6 Stabilization Policy 697
 
 APPLICATION The Right Time for Austerity? 697
 
@@ -1120,7 +1115,7 @@ APPLICATION Poland Is Not Latvia 700
 
 APPLICATION Macroeconomic Policies in the Liquidity Trap 702
 
-# 7 Conclusions 706
+##### 7 Conclusions 706
 
 Key Points, Key Terms, and Problems
 
@@ -1132,11 +1127,11 @@ Appendix 2 to Chapter 18 713
 
 Applications and Policy Issues
 
-# Chapter 19 Fixed Versus Floating: International Monetary
+## Chapter 19 Fixed Versus Floating: International Monetary
 
 Experience 715
 
-# 1 Exchange Rate Regime Choice: Key Issues 717
+##### 1 Exchange Rate Regime Choice: Key Issues 717
 
 APPLICATION Britain and Europe: The Big Issues 717
 
@@ -1154,7 +1149,7 @@ APPLICATION Do Fixed Exchange Rates Diminish Monetary
 
 Autonomy and Stability? 727
 
-# 2 Other Benefits of Fixing 730
+##### 2 Other Benefits of Fixing 730
 
 Fiscal Discipline, Seigniorage, and Inflation 730
 
@@ -1166,7 +1161,7 @@ Depreciations 733
 
 Summary 739
 
-# 3 Fixed Exchange Rate Systems 740
+##### 3 Fixed Exchange Rate Systems 740
 
 Cooperative and Noncooperative Adjustments to Interest Rates 740
 
@@ -1174,19 +1169,19 @@ Cooperative and Noncooperative Adjustments to Exchange Rates 743
 
 APPLICATION The Gold Standard 745
 
-# 4 International Monetary Experience 747
+##### 4 International Monetary Experience 747
 
 The Rise and Fall of the Gold Standard 747
 
 Bretton Woods to the Present 750
 
-# 5 Conclusions 753
+##### 5 Conclusions 753
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 20 Exchange Rate Crises: How Pegs Work and How They Break 757
+## CHAPTER 20 Exchange Rate Crises: How Pegs Work and How They Break 757
 
-# 1 Facts About Exchange Rate Crises 758
+##### 1 Facts About Exchange Rate Crises 758
 
 What Is an Exchange Rate Crisis? 758
 
@@ -1196,7 +1191,7 @@ SIDE BAR The Political Costs of Crises 761
 
 Summary 762
 
-# 2 How Pegs Work: the Mechanics of a Fixed Exchange Rate 764
+##### 2 How Pegs Work: The Mechanics of a Fixed Exchange Rate 764
 
 Preliminaries and Assumptions 764
 
@@ -1228,7 +1223,7 @@ SIDE BAR The Great Reserve Accumulation in Emerging Markets 786
 
 Summary 788
 
-3 How Pegs Break I: Inconsistent Fiscal Policies 789
+##### 3 How Pegs Break I: Inconsistent Fiscal Policies 789
 
 The Basic Problem: Fiscal Dominance 789
 
@@ -1238,7 +1233,7 @@ APPLICATION The Peruvian Crisis of 1986 792
 
 Summary 796
 
-4 How Pegs Break II: Contingent Monetary Policies 797
+##### 4 How Pegs Break II: Contingent Monetary Policies 797
 
 The Basic Problem: Contingent Commitment 797
 
@@ -1248,15 +1243,15 @@ APPLICATION The Man Who Broke the Bank of England 803
 
 Summary 804
 
-5 Conclusions 804
+##### 5 Conclusions 804
 
 Can We Prevent Crises? 804
 
 Key Points, Key Terms, and Problems
 
-# Chapter 21 the Euro 811
+## Chapter 21 The Euro 811
 
-1 The Economics of the Euro 814
+##### 1 The Economics of the Euro 814
 
 The Theory of Optimum Currency Areas 814
 
@@ -1274,13 +1269,13 @@ Summary 824
 
 HEADLINES Currency Unions and Trade 825
 
-2 The History and Politics of the Euro 826
+##### 2 The History and Politics of the Euro 826
 
 A Brief History of Europe 826
 
 Summary 832
 
-3 Eurozone Tensions in Tranquil Times, 1999-2007 833
+##### 3 Eurozone Tensions in Tranquil Times, 1999-2007 833
 
 The European Central Bank 834
 
@@ -1288,15 +1283,15 @@ The Rules of the Club 838
 
 Sticking to the Rules 842
 
-4 The Eurozone in Crisis, 2008-2013 843
+##### 4 The Eurozone in Crisis, 2008-2013 843
 
-# 5 Conclusions: Assessing the Euro 851
+##### 5 Conclusions: Assessing the Euro 851
 
 HEADLINES A Bad Marriage? 852 Key Points, Key Terms, and Problems
 
-# Chapter 22 Topics in International Macroeconomics 859
+## Chapter 22 Topics in International Macroeconomics 859
 
-# 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity 860
+##### 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity 860
 
 Limits to Arbitrage 860
 
@@ -1310,7 +1305,7 @@ APPLICATION Real Exchange Rates in Emerging Markets 869
 
 Conclusion 871
 
-# 2 Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity 871
+##### 2 Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity 871
 
 APPLICATION The Carry Trade 871
 
@@ -1324,7 +1319,7 @@ Limits to Arbitrage 880
 
 Conclusion 884
 
-# 3 Debt and Default 884
+##### 3 Debt and Default 884
 
 A Few Peculiar Facts About Sovereign Debt 885
 
@@ -1340,7 +1335,7 @@ Conclusion 899
 
 APPLICATION The Argentina Crisis of 2001-2002 900
 
-# 4 the Global Macroeconomy and the 2007-2013 Crisis 903
+##### 4 The Global Macroeconomy and the 2007-2013 Crisis 903
 
 Backdrop to the Crisis 903
 

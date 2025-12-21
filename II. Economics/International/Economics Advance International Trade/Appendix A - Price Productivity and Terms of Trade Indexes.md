@@ -1,20 +1,24 @@
 ---
+title: "Appendix A: Price, Productivity and Terms of Trade Indexes"
+parent_directory: "Economics Advance International Trade"
+formatted: "2025-12-21 10:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- family indexed theoretical gdp
-- productivity terms trade indexes
-- cost function indexed period
-- appendix price productivity
+  - price productivity indexes
+  - terms of trade measurement
+  - theoretical input pricing
+  - gdp price deflation
 secondary_tags:
-- theoretical price indexes laspeyres
-- paasche quantity index empirical
-- index formula depending prices
-- factor productivity geometric
-- price index total factor
-- formula like econometrics understanding
-- appendix measuring countries bilateral
-- book relied index numbers
-- geometric mean price ratios
-tags_extracted: '2025-12-18T00:14:09.517219'
+  - laspeyres paasche indexes
+  - fisher ideal formula
+  - tornqvist price index
+  - cost function analysis
+  - productivity decomposition
+  - welfare measurement
+  - international trade economics
+  - index number theory
+cssclasses: academia
 ---
 
 # Appendix A: Price, Productivity and Terms of Trade Indexes
@@ -62,7 +66,7 @@ How can we choose between these various formulas? The economic approach to index
 Let  $\mathfrak{p} = (\mathfrak{p}_1, \ldots, \mathfrak{p}_{\mathrm{N}})$  denote a positive vector of input prices that producers face in period t, and let y denote an M dimensional vector of nonnegative outputs that the production sector might be asked to produce in period t. Then the cost function using period t technology is defined as:
 
 $$
-C^{t} (p, y) \equiv \min_{q} \left\{p^{\prime} q: (q, y) \text{be lo ng st o} S^{t} \right\}, \tag {A5}
+C^{t} (p, y) \equiv \min_{q} \left\{p^{\prime} q: (q, y) \text{belongs to} S^{t} \right\}, \tag {A5}
 $$
 
 where  $S^t$  denotes the period  $t$  technology set. Thus  $C^t(p, y)$  is the minimum cost that the economy can achieve in period  $t$ , given that the vector of outputs  $y$  must be produced. Productivity improvements are reflected in an expansion of the technology set  $S^t$ , and this is why the cost function  $C^t(p, y)$  is also indexed by the period  $t = 0, 1$ .
@@ -88,13 +92,13 @@ $$
 Under these cost minimizing assumptions, we can adapt the arguments of Fisher and Shell (1972, pp. 57-58) and Archibald (1977, p. 66) to show that the two theoretical indexes,  $\mathrm{P}^0 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^0)$  and  $\mathrm{P}^1 (\mathfrak{p}^0,\mathfrak{p}^1,\mathfrak{y}^1)$  satisfy the following inequalities:
 
 $$
-\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{0}\right) \equiv \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{C}^{0} \left(\mathrm{p}^{0}, \mathrm{y}^{0}\right) \quad \text{us in gd ef in it io n (A6)} \\ = \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{p}^{0} \mathrm{q}^{0} \quad \text{us in g (A7)} \\ \begin{array}{l l} \leq p^{1} q^{0} / p^{0} q^{0} & \text{si nc e} q^{0} \text{is fe as ib le fo rt he mi ni mi za ti on pr ob le m} \\ & \text{wh ic hd ef in es C^{0} (p^{1} , y^{0}) a n d s o C^{0} (p^{1} , y^{0}) \leq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{0}\right) \equiv \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{C}^{0} \left(\mathrm{p}^{0}, \mathrm{y}^{0}\right) \quad \text{using definition (A6)} \\ = \mathrm{C}^{0} \left(\mathrm{p}^{1}, \mathrm{y}^{0}\right) / \mathrm{p}^{0} \mathrm{q}^{0} \quad \text{using (A7)} \\ \begin{array}{l l} \leq p^{1} q^{0} / p^{0} q^{0} & \text{since} q^{0} \text{is feasible for the minimization problem} \\ & \text{which defines C^{0} (p^{1} , y^{0}) and so C^{0} (p^{1} , y^{0}) \leq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_L}$  is the Laspeyres price index. Similarly, we have:
 
 $$
-\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{1}\right) \equiv \mathrm{C}^{1} \left(\mathrm{p}^{1}, \mathrm{y}^{1}\right) / \mathrm{C}^{1} \left(\mathrm{p}^{0}, \mathrm{y}^{1}\right) \quad \text{us in gd ef in it io n (A6)} \\ = p^{1} \prime q^{1} / C^{1} \left(p^{0}, y^{1}\right) \quad \text{us in g (A7)} \\ \geq p^{1} q^{1} / p^{0} q^{1} \qquad \text{si nc e} q^{1} \text{is fe as ib le fo rt he mi ni mi za ti on pr ob le m} \\ \text{wh ic hd ef in es C^{1} (p^{0} , y^{1}) a n d s o C^{1} (p^{0} , y^{1}) \leq p^{0} q^{1}} \\ \equiv \mathrm{P}_{\mathrm{P}} (\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{y}^{1}\right) \equiv \mathrm{C}^{1} \left(\mathrm{p}^{1}, \mathrm{y}^{1}\right) / \mathrm{C}^{1} \left(\mathrm{p}^{0}, \mathrm{y}^{1}\right) \quad \text{using definition (A6)} \\ = p^{1} \prime q^{1} / C^{1} \left(p^{0}, y^{1}\right) \quad \text{using (A7)} \\ \geq p^{1} q^{1} / p^{0} q^{1} \qquad \text{since} q^{1} \text{is feasible for the minimization problem} \\ \text{which defines C^{1} (p^{0} , y^{1}) and so C^{1} (p^{0} , y^{1}) \leq p^{0} q^{1}} \\ \equiv \mathrm{P}_{\mathrm{P}} (\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{q}^{0}, \mathrm{q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_P}$  is the Paasche price index. So we find that the Laspeyres index of input prices  $\mathrm{P_L}$  is an upper bound to the theoretical price index  $\mathrm{P^0(p^0,p^1,y^0)}$ , and that the Paasche index of input prices  $\mathrm{P_P}$  is a lower bound to the theoretical price index  $\mathrm{P^1(p^0,p^1,y^1)}$ . To further explore these bounds, we separately discuss the cases of constant and changing technology.
@@ -140,7 +144,7 @@ With technology changing over time, the situation is more difficult. We are in t
 and 1 as the reference technology, and that uses an  $\alpha$ -weighted average of the period 0 and period 1 net output vectors  $y^0$  and  $y^1$ :
 
 $$
-C (p, \alpha) \equiv \min_{q} \left\{p^{\prime} q: (q, [ 1 - \alpha ] y^{0} + \alpha y^{1}) \text{be lo ng st o} (1 - \alpha) S^{0} + \alpha S^{1} \right\}. \tag {A11}
+C (p, \alpha) \equiv \min_{q} \left\{p^{\prime} q: (q, [ 1 - \alpha ] y^{0} + \alpha y^{1}) \text{belongs to} (1 - \alpha) S^{0} + \alpha S^{1} \right\}. \tag {A11}
 $$
 
 We can now use this cost function to define the following family of theoretical price indexes:
@@ -228,7 +232,7 @@ Our results above can be readily extended to the GDP price index for an economy.
 Let  $\mathfrak{p} = (\mathfrak{p}_1, \ldots, \mathfrak{p}_{\mathrm{N}})$  denote a positive vector of net output prices that producers face in period t. Then the revenue or GDP function using period t technology is defined as:
 
 $$
-\mathrm{G}^{\mathrm{t}} (\mathrm{p}, \mathrm{v}) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: (\mathrm{q}, \mathrm{v}) \text{be lo ng st oS}^{\mathrm{t}} \right\}. \tag {A22}
+\mathrm{G}^{\mathrm{t}} (\mathrm{p}, \mathrm{v}) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: (\mathrm{q}, \mathrm{v}) \text{belongs to} S^{\mathrm{t}} \right\}. \tag {A22}
 $$
 
 Thus  $\mathbf{G}^{\dagger}(\mathbf{p},\mathbf{v})$  is the maximum value of (net) output that the economy can produce, given that the vector of net inputs  $\mathbf{v}$  is available for use, using the period  $t$  technology.
@@ -250,13 +254,13 @@ $$
 Then we can use these results of Fisher and Shell (1972, p. 57-58) and Archibald (1977, p. 66) to again develop a series of inequalities on the theoretical price indexes:
 
 $$
-\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{0}\right) \equiv \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{G}^{0} \left(\mathrm{p}^{0}, \mathrm{v}^{0}\right) \quad \text{us in gd ef in it io n (A2 3)} \\ = \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{p}^{0}, \mathrm{q}^{0} \quad \text{us in g (A2 4)} \\ \begin{array}{l l} \geq p^{1} q^{0} / p^{0} q^{0} & \text{si nc e} q^{0} \text{is fe as ib le fo rt he ma xi mi za ti on pr ob le m} \\ & \text{th at de fi ne sG^{0} (p^{1} , v^{0}) a n d s o G^{0} (p^{1} , v^{0}) \geq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{0} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{0}\right) \equiv \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{G}^{0} \left(\mathrm{p}^{0}, \mathrm{v}^{0}\right) \quad \text{using definition (A23)} \\ = \mathrm{G}^{0} \left(\mathrm{p}^{1}, \mathrm{v}^{0}\right) / \mathrm{p}^{0}, \mathrm{q}^{0} \quad \text{using (A24)} \\ \begin{array}{l l} \geq p^{1} q^{0} / p^{0} q^{0} & \text{since} q^{0} \text{is feasible for the maximization problem} \\ & \text{that defines G^{0} (p^{1} , v^{0}) and so G^{0} (p^{1} , v^{0}) \geq p^{1} q^{0}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P}_{\mathrm{L}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathbf{P_L}$  is the Laspeyres price index. Similarly, we have:
 
 $$
-\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{1}\right) \equiv \mathrm{G}^{1} \left(\mathrm{p}^{1}, \mathrm{v}^{1}\right) / \mathrm{G}^{1} \left(\mathrm{p}^{0}, \mathrm{v}^{1}\right) \quad \text{us in gd ef in it io n (A2 3)} \\ = p^{1} q^{1} / G^{1} \left(p^{0}, v^{1}\right) \quad \text{us in g (A2 4)} \\ \begin{array}{l l} \leq p^{1} q^{1} / p^{0} q^{1} & \text{si nc eq^{1} i s f e a s i b l e f o r t h e m a x i m i z a t i o n p r o b l e m} \\ & \text{th at de fi ne sG^{1} (p^{0} , v^{1}) a n d s o G^{1} (p^{0} , v^{1}) \geq p^{0} q^{1}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P_{P}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
+\begin{array}{l} \mathrm{P}^{1} \left(\mathrm{p}^{0}, \mathrm{p}^{1}, \mathrm{v}^{1}\right) \equiv \mathrm{G}^{1} \left(\mathrm{p}^{1}, \mathrm{v}^{1}\right) / \mathrm{G}^{1} \left(\mathrm{p}^{0}, \mathrm{v}^{1}\right) \quad \text{using definition (A23)} \\ = p^{1} q^{1} / G^{1} \left(p^{0}, v^{1}\right) \quad \text{using (A24)} \\ \begin{array}{l l} \leq p^{1} q^{1} / p^{0} q^{1} & \text{since q^{1} is feasible for the maximization problem} \\ & \text{that defines G^{1} (p^{0} , v^{1}) and so G^{1} (p^{0} , v^{1}) \geq p^{0} q^{1}} \end{array} \\ \mathbf {\nabla} \equiv \mathrm{P_{P}} (\mathbf {p}^{0}, \mathbf {p}^{1}, \mathbf {q}^{0}, \mathbf {q}^{1}), \\ \end{array}
 $$
 
 where  $\mathrm{P_P}$  is the Paasche price index. Note that these inequalities are in the opposite direction compared to their counterparts for the input index, which reflects that fact that revenue is maximized in (A22) whereas costs are minimized in (A5).
@@ -264,7 +268,7 @@ where  $\mathrm{P_P}$  is the Paasche price index. Note that these inequalities 
 As with the input index, it is possible to define a theoretical GDP price index that falls between the observable Paasche and Laspeyres price indexes. To do this, we first define a hypothetical GDP function,  $\mathrm{G}(\mathrm{p},\alpha)$ , that corresponds to the use of an  $\alpha$ -weighted average of the technology sets  $\mathbf{S}^0$  and  $\mathbf{S}^1$  for periods 0 and 1 as the reference technology, and that uses an  $\alpha$ -weighted average of the period 0 and period 1 input vectors  $\mathbf{v}^0$  and  $\mathbf{v}^1$ :
 
 $$
-\mathrm{G} (\mathrm{p}, \alpha) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: \left(\mathrm{q}, [ 1 - \alpha ] \mathrm{v}^{0} + \alpha \mathrm{v}^{1}\right) \text{be lo ng st o} (1 - \alpha) \mathrm{S}^{0} + \alpha \mathrm{S}^{1} \right\}. \tag {A25}
+\mathrm{G} (\mathrm{p}, \alpha) \equiv \max_{\mathrm{q}} \left\{\mathrm{p}^{\prime} \mathrm{q}: \left(\mathrm{q}, [ 1 - \alpha ] \mathrm{v}^{0} + \alpha \mathrm{v}^{1}\right) \text{belongs to} (1 - \alpha) \mathrm{S}^{0} + \alpha \mathrm{S}^{1} \right\}. \tag {A25}
 $$
 
 Then we can define the following family (indexed by  $\alpha$ ) of theoretical GDP price indexes:

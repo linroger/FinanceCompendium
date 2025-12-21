@@ -1,46 +1,25 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Chapter 4
-linter-yaml-title-alias: Chapter 4
+title: "Chapter 4: Logic: The Mathematical Language"
+parent_directory: "Everything You Always Wanted to Know About Mathematics"
+formatted: "2025-12-21 09:40:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- even natural numbers
-- more complicated statements
-- own truth value
-- proof techniques
-- specific examples
+- mathematical statements
+- variable propositions
 - quantifier notation
-- all subsets
+- logical connectives
+- proof techniques
 secondary_tags:
-- some statements
-- then and proof
-- individual statements
-- some examples
-- mathematical induction
-- specific example
-- two types
-- either all even natural numbers
-- formal definitions
-- fellow mathematician
-- some templates
-- truth value
-- other connectives
-- well-defined yet false mathematical statement
-- some more examples
-- (demorgan's laws
-- only such a quantification
-- other examples
-- any fundamental mathematical claim
-tags_extracted: '2025-12-18T17:56:53.063780'
-tags_method: max_quality_v1
+- universal quantifiers
+- existential quantifiers
+- logical equivalence
+- truth values
+- mathematical logic
+cssclasses: academia
 ---
 
-# Chapter 4
-
-# Logic: The Mathematical Language
+# Chapter 4: Logic: The Mathematical Language
 
 # 4.1 Introduction
 
@@ -65,7 +44,7 @@ We introduced sets to have some standard, fundamental mathematical objects to wo
 
 # 4.1.3 Motivation
 
-In mathematics, we are interested in identifying True claims and subsequently explaining to others how and why we know those claims are True. Thus far, we have already presumed some familiarity with logical terminology and truth. For instance, look back at the assumptions of the PMI (Principle of Mathematical Induction, Theorem 3.8.5). We needed to know that if  $P(k)$  is true then  $P(k + 1)$  is true. What does this mean? What does this say about how the statements  $P(k)$  and  $P(k + 1)$  are connected? What does it even mean for something to be True?!!!
+In mathematics, we are interested in identifying True claims and subsequently explaining to others how and why we know those claims are True. Thus far, we have already presumed some familiarity with logical terminology and truth. For instance, look back at the assumptions of the PMI (Principle of Mathematical Induction, Theorem 3.8.5). We needed to know that if $P(k)$ is true then $P(k + 1)$ is true. What does this mean? What does this say about how the statements  $P(k)$  and  $P(k + 1)$  are connected? What does it even mean for something to be True?!!!
 
 Our goals for this section are many, but the major emphasis is on defining and identifying what types of statements in mathematics are meaningful and interesting. Once we do that, we can figure out how to express those statements in concise and precise terms. Ultimately, we will learn how to apply general techniques to prove that those statements are True (or False, as the case may be).
 
@@ -87,9 +66,7 @@ In the meantime, we will be much more formal and pedantic with our language. If 
 
 # 4.2 Mathematical Statements
 
-Our first step is to discuss what types of sentences are even reasonable to consider as mathematical truths that need to be proven or disproven. Completing this step is actually quite difficult! Many authors tend to gloss over this subject
-
-or offer a simple definition that ignores the many subtleties of mathematical language and logic. We feel tied, as well, because the time and space provided in this book/course are not sufficient to properly study the field of abstract logical theory. We encourage you to investigate some books or websites that contain relevant information. For the current context, we will have to sweep many details under the rug, so to speak. Suffice it to say, though, there is a very deep, rich, and fruitful field of mathematical research concerning exactly what we will be discussing here in a more heuristic way.
+Our first step is to discuss what types of sentences are even reasonable to consider as mathematical truths that need to be proven or disproven. Completing this step is actually quite difficult! Many authors tend to gloss over this subject or offer a simple definition that ignores the many subtleties of mathematical language and logic. We feel tied, as well, because the time and space provided in this book/course are not sufficient to properly study the field of abstract logical theory. We encourage you to investigate some books or websites that contain relevant information. For the current context, we will have to sweep many details under the rug, so to speak. Suffice it to say, though, there is a very deep, rich, and fruitful field of mathematical research concerning exactly what we will be discussing here in a more heuristic way.
 
 Remember that we mentioned we will have to assume the existence of the real numbers  $\mathbb{R}$  and their usual arithmetic properties. Likewise, we will assume many of the results and concepts of mathematical logic, often without even realizing it (until we point it out for you). These details can be studied more in-depth later on in your mathematical careers.
 
@@ -115,9 +92,7 @@ Let  $S = \{1,2,3\}$  and  $T = \{2,3,4\}$  and  $U = \{2,3,5\}$ .
 
 Observe that  $S \cap T = \{2,3\} \subseteq U$  but  $S \nsubseteq U$  and  $T \nsubseteq U$ .
 
-Why does this example disprove the statement? Do you understand? Can you explain it? We will discuss that in more detail later on in this chapter, but we
-
-hope that, for now, we all somehow recognize that this example accomplishes exactly that.
+Why does this example disprove the statement? Do you understand? Can you explain it? We will discuss that in more detail later on in this chapter, but we hope that, for now, we all somehow recognize that this example accomplishes exactly that.
 
 We can also agree that a sentence like
 
@@ -176,9 +151,7 @@ This cannot work! This sentence is somehow both True and False at the same time,
 
 In general, self-referential sentences like the one above (that is, sentences that make reference to themselves) are quite bizarre and can produce some paradoxes that we want to disallow.
 
-A variant of the above paradoxical claim is given in a cartoon drawing, wherein Pinocchio says, "My nose will grow now!" Does it then grow? If he's telling the truth, then it will grow, but that only happens when he's lying! If
-
-he's lying, then his nose will grow (by definition), but then his statement is actually true! Yikes!
+A variant of the above paradoxical claim is given in a cartoon drawing, wherein Pinocchio says, "My nose will grow now!" Does it then grow? If he's telling the truth, then it will grow, but that only happens when he's lying! If he's lying, then his nose will grow (by definition), but then his statement is actually true! Yikes!
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/f2c8fefcf0b26089a6d585a597f3fe8a1d85add60f3d8147dd5de27a0c7329c8.jpg)  
 Source: http://www.the-drone.com/magazine/wp-content/uploads/2010/04/BLA6.jpg
@@ -194,7 +167,7 @@ We'll let you think about that one on your own. Suffice it to say that paradoxic
 Other examples of sentences that are not mathematical statements are sentences that involve unquantified variables. For instance, take the sentence
 
 $$
-“ x^{2} - 1 = 0 ”
+" x^{2} - 1 = 0 "
 $$
 
 This is certainly grammatically correct and we can make sense of it, but what is its truth value? We don't know! If  $x = 1$ , then the sentence is True, but if  $x = 8$ , it is False, and if  $x = \mathbb{N}$  or  $x = \text{Brendan}$ , then the sentence doesn't even make sense! As such, we want to disallow sentences like this, as well. These types of sentences are useful and common, though; we will call them variable propositions because they make a claim that depends on some variable.
@@ -239,9 +212,7 @@ Reason: Does the writer of this sentence want to assert that  $x^2 \geq 0$ , no 
 
 If we interpret this to mean that  $P(x)$  is defined as " $x^2 \geq 0$ ", and this definition is made for every  $x \in \mathbb{R}$ , then … okay, that might be reasonable.
 
-However, if we interpret this to mean that  $P(x)$  is defined as " $x^2 \geq 0$  for every  $x \in \mathbb{R}$ " then … well, this is certainly different. In fact, it's not even
-
-a properly-defined proposition! The proposition  $P(x)$  should depend on the input value  $x$ , but it shouldn't be allowed to change or further quantify that variable inside the proposition!
+However, if we interpret this to mean that  $P(x)$  is defined as " $x^2 \geq 0$  for every  $x \in \mathbb{R}$ " then … well, this is certainly different. In fact, it's not even a properly-defined proposition! The proposition  $P(x)$  should depend on the input value  $x$ , but it shouldn't be allowed to change or further quantify that variable inside the proposition!
 
 The way this proposition was originally written, there are two possible interpretations and they are very different. Accordingly, this is a poor definition.
 

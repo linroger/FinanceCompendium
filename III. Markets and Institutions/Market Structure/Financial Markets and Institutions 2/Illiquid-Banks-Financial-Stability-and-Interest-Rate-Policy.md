@@ -1,21 +1,31 @@
 ---
 title: Illiquid Banks, Financial Stability, and Interest Rate Policy
 parent_directory: Financial Markets and Institutions 2
-formatted: 2025-12-21 05:15:00 AM
-formatter_model: claude-sonnet-4
-cli_tool: opencode
+formatted: 2025-12-21 09:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
 primary_tags:
-  - financial stability analysis
   - interest rate policy
+  - financial stability analysis
   - bank liquidity management
+  - constrained optimal contracts
   - central bank intervention
 secondary_tags:
   - demand deposit contracts
+  - banking sector fragility
   - systemic financial risk
   - monetary policy effects
-  - banking sector fragility
   - macroeconomic stabilization
   - lender of last resort
+  - deposit contract frictions
+  - banker commitment problems
+  - state-contingent deposits
+  - social planner intervention
+  - producer-friendly central bank
+  - ex ante liquidity choice
+  - intervention rate effects
+  - financial crisis 2008-9
 cssclasses: academia
 ---
 
@@ -186,12 +196,12 @@ Knowing only what is public information, the planner can levy a tax  $\tau_t^s$ 
 
 How much will the banker extract? First suppose the social planner can tax only at date 1. The social planner will internalize not just the utility loss to depositors from a run but the entire loss in value of projects that should be continued at the prevailing interest rate. If the value of saving them is high, as we have assumed, the banker can extract everything the social planner can obtain in taxes from households. The banker will demand and obtain  $e_1$  at date 1.<sup>8</sup> In states where the bank is insolvent without intervention, some of that  $e_1$  will go to depositors. In states where the bank is solvent, all the  $e_1$  will go to the banker.
 
-Knowing that he will get a direct additional rent in the future, each banker will promise it away in the ex ante competition for deposits. If  $D$  is the optimal level of deposits when there is no expectation of in-
+Knowing that he will get a direct additional rent in the future, each banker will promise it away in the ex ante competition for deposits. If  $D$  is the optimal level of deposits when there is no expectation of intervention,
 
 <sup>7</sup> The planner's taxation authority plays a similar role in our model as the deposit insurance in Diamond and Dybvig (1983) and the government in Holmstrom and Tirole (1998) by making available for contracting household endowments that are inaccessible to the banking sector. However, our focus is very different from these models where the government provides new sources of collateral or explicit transfers of value. While the planner can alter household consumption decisions and influence interest rates in our model, it can also undo ex post private commitment and thereby alter ex ante decisions.  
 One can consider cases where the banker's threat is less potent, and he extracts less than the taxation capacity of the social planner. This will require additional assumptions on relative bargaining power and outside options, and we do not pursue it further in this paper.
 
-tervention,  $D^{I} = D + e_{1}$  is the optimal level of deposits once the social planner is expected to intervene—the banker pays for the rents he expects to get by increasing the face value of promises to depositors. As a result, outcomes with lump sum taxes are exactly the same with intervention as without—indeed, now ex ante promised payments are so high that even after the maximum intervention, the social planner cannot save the banks. The bank is run in the same states as it was without intervention; the social planner taxes households and transfers to banks but the households withdraw an equivalent additional amount from their higher deposit holdings, so net withdrawals from the bank in each state do not change, nor does household consumption.[9]
+ $D^{I} = D + e_{1}$  is the optimal level of deposits once the social planner is expected to intervene—the banker pays for the rents he expects to get by increasing the face value of promises to depositors. As a result, outcomes with lump sum taxes are exactly the same with intervention as without—indeed, now ex ante promised payments are so high that even after the maximum intervention, the social planner cannot save the banks. The bank is run in the same states as it was without intervention; the social planner taxes households and transfers to banks but the households withdraw an equivalent additional amount from their higher deposit holdings, so net withdrawals from the bank in each state do not change, nor does household consumption.[9]
 
 If the banker can extract more from the planner in high  $\theta$  states than in low  $\theta$  states, then his postintervention net worth is more positively correlated with optimistic states than his net worth in the absence of intervention. Households are better off because the banker will promise them more ex ante (net of taxes) and/or fail in fewer states. The reverse is true if the banker can extract less in high  $\theta$  states than in low  $\theta$  states.
 
@@ -251,9 +261,7 @@ In figures 2-4, we also plot the promised deposit payments, household utility, a
 
 Thus far, we have assumed that the central bank is household friendly—it maximizes household utility provided a (low) minimum threshold utility is met for producers. What if the central bank could become producer-friendly at date 1—for example, if it is leaned on by producer-friendly politicians?
 
-The producer-friendly central bank will want to deliver the lowest
-
-date 1 rate possible, which both banks and entrepreneurs prefer. However, if restricted to lending with nonpecuniary penalties, it will be unable to guide the market rate lower than what a household-friendly central bank would achieve. Thus when the central bank is constrained to lend only when the market will, and with penalties, the lowest rate it achieves does not depend on its preferences. If, however, it is not required to impose the nonpecuniary penalty while lending, it will intervene to push down the interest rate to the maximum extent possible, and this will be the unique equilibrium rate.
+The producer-friendly central bank will want to deliver the lowest date 1 rate possible, which both banks and entrepreneurs prefer. However, if restricted to lending with nonpecuniary penalties, it will be unable to guide the market rate lower than what a household-friendly central bank would achieve. Thus when the central bank is constrained to lend only when the market will, and with penalties, the lowest rate it achieves does not depend on its preferences. If, however, it is not required to impose the nonpecuniary penalty while lending, it will intervene to push down the interest rate to the maximum extent possible, and this will be the unique equilibrium rate.
 
 Ex ante though, a permanently producer-friendly central bank, unlike the household-friendly central bank in similar circumstances, will want to curb ex ante bank liquidity promises drastically, since it recognizes that higher promises result in higher date 1 liquidation and higher rates that entrepreneurs and banks dislike.[14] Thus it might try to reduce deposit promises through some kind of ex ante leverage limit or, equivalently, a capital requirement. In our model, such regulations could hurt households. However, there are many ways banks can hide liquidity promises—raising funding through off-balance sheet vehicles that come back on balance sheet in times of stress, for example. If the extent of ex ante promises is hard to observe, ex ante regulation may not be effective. We now describe one more way ex ante liquidity promises may be hard to regulate before suggesting a potential resolution.
 
@@ -311,7 +319,7 @@ $$
 
 Thus the two weak inequalities imply equality, and the demandable claim determines the present value of what depositors get. Also feasibility requires  $w_{1}^{H,s} \geq -e_{1}$ ,  $w_{1}^{L,s} \geq -e_{1}$ . It is clear then that with a state-contingent date 0 deposit contract that results in date 1 household-type-specific state-contingent deposit contracts  $D^{H,s} = V_{1}^{H,s} + (V_{2}^{H,s} / r_{12}^{s})$  and  $D^{L,s} = V_{1}^{L,s} + (V_{2}^{L,s} / r_{12}^{s})$ , the first-best allocation can be attained, even with limited banker commitment.
 
-Here is why: each household with deposit claims will maximize utility when it withdraws enough that its marginal rate of substitution is equal to the marginal rate of transformation  $r_{12}^{s}$  in that state. But a withdrawal by the  $H$  household of  $w_{1}^{H,s} = V_{1}^{H,s}$  will achieve precisely the required marginal rate of substitution (since its date 2 demandable claim will then be  $(D^{H,s} - w_{1}^{H,s})r_{12}^{s}$ , which equals  $V_{2}^{H,s}$  by construction, and payments of  $V_{1}^{H,s}, V_{2}^{H,s}$  achieve the required marginal rate of substitution).<sup>17</sup> Therefore, if we have demandable stateand type-contingent deposits, we can address the banker's inability to commit to a stream of payments
+Here is why: each household with deposit claims will maximize utility when it withdraws enough that its marginal rate of substitution is equal to the marginal rate of transformation  $r_{12}^{s}$  in that state. But a withdrawal by the  $H$  household of  $w_{1}^{H,s} = V_{1}^{H,s}$  will achieve precisely the required marginal rate of substitution (since its date 2 demandable claim will then be  $(D^{H,s} - w_{1}^{H,s})r_{12}^{s}$ , which equals  $V_{2}^{H,s}$  by construction, and payments of  $V_{1}^{H,s}, V_{2}^{H,s}$  achieve the required marginal rate of substitution).<sup>17</sup> Therefore, if we have demandable state- and type-contingent deposits, we can address the banker's inability to commit to a stream of payments
 
 and still achieve the first best. Note that the demandable deposits, by allowing flexibility in withdrawals, offer a certain amount of type and state contingency.
 
@@ -333,7 +341,7 @@ interest rates—given a choice, households will pick the highest present value 
 
 # Proof of Theorem 1
 
-(i) The right-hand side of (1) is strictly increasing in  $r_{12}^{S}$ . The left-hand side is weakly decreasing—withdrawals decrease in the interest rate, but when  $D$  is withdrawn, the household cannot withdraw more. Thus there is a unique interest rate and withdrawals at which the supply of goods at date 1 equals demand, and the depositors do not want to, or cannot, withdraw more.
+(i) The right-hand side of (1) is strictly increasing in  $r_{12}^{s}$ . The left-hand side is weakly decreasing—withdrawals decrease in the interest rate, but when  $D$  is withdrawn, the household cannot withdraw more. Thus there is a unique interest rate and withdrawals at which the supply of goods at date 1 equals demand, and the depositors do not want to, or cannot, withdraw more.
 
 Suppose not. Can there, for instance, be another equilibrium with the same interest rate and different withdrawal levels? If the households are on their first-order conditions at the equilibrium interest rate, there is a unique withdrawal level consistent with the interest rate. If they are off their first-order condition, they have to withdraw  $D$ . So there cannot be another equilibrium with the same interest rate and different withdrawal levels. Can there be another equilibrium with a higher interest rate? No, because withdrawals would be (weakly) lower while liquidation would be strictly higher, so (1) would not hold. Similarly for a lower interest rate.
 
@@ -341,10 +349,10 @@ Suppose not. Can there, for instance, be another equilibrium with the same inter
 
 # Proof of Corollary 1
 
-When both households are on their first-order condition, the  $H$  household withdraws more than the  $L$  household. The  $H$  household withdraws  $D$  fully before the  $L$  household withdraws. Hence it (weakly) withdraws more and  $w_{1}^{H,S} \geq w_{1}^{L,S}$ . (i) Totally differentiating (1) with respect to  $\theta^S$ , we get
+When both households are on their first-order condition, the  $H$  household withdraws more than the  $L$  household. The  $H$  household withdraws  $D$  fully before the  $L$  household withdraws. Hence it (weakly) withdraws more and  $w_{1}^{H,s} \geq w_{1}^{L,s}$ . (i) Totally differentiating (1) with respect to  $\theta^s$ , we get
 
 $$
-\left(w_{1}^{H, S} - w_{1}^{L, S}\right) + \theta^{s} \frac{d w_{1}^{H , S}}{d \theta^{s}} + \left(1 - \theta^{s}\right) \frac{d w_{1}^{L , S}}{d \theta^{s}} - \frac{X_{1}^{2}}{\gamma (\bar {Y}_{2})} \frac{d r_{1 2}^{S}}{d \theta^{s}} = 0.
+\left(w_{1}^{H, s} - w_{1}^{L, s}\right) + \theta^{s} \frac{d w_{1}^{H , s}}{d \theta^{s}} + \left(1 - \theta^{s}\right) \frac{d w_{1}^{L , s}}{d \theta^{s}} - \frac{X_{1}^{2}}{\gamma (\bar {Y}_{2})} \frac{d r_{1 2}^{s}}{d \theta^{s}} = 0.
 $$
 
 Now
@@ -353,28 +361,28 @@ $$
 \frac{d w_{1}^{H , S}}{d \theta^{S}} = \frac{\partial w_{1}^{H , S}}{\partial r_{1 2}^{S}} \frac{d r_{1 2}^{S}}{d \theta^{S}},
 $$
 
-where  $\partial w_1^{H,S} / \partial r_{12}^S\leq 0$  from the expressions for  $w_{1}^{H,S}$ . Similarly for  $dw_{1}^{L,S} / d\theta^{S}$ . Thus
+where  $\partial w_1^{H,s} / \partial r_{12}^s\leq 0$  from the expressions for  $w_{1}^{H,s}$ . Similarly for  $dw_{1}^{L,s} / d\theta^{s}$ . Thus
 
 $$
-\frac{d r_{1 2}^{S}}{d \theta^{S}} = \frac{\left(w_{1}^{H , S} - w_{1}^{L , S}\right)}{\left[ X_{1}^{2} / \gamma (\tilde {Y}_{2}) \right] - \theta^{S} \left(\partial w_{1}^{H , S} / \partial r_{1 2}^{S}\right) - \left(1 - \theta^{S}\right) \left(\partial w_{1}^{L , S} / \partial r_{1 2}^{S}\right)} \geq 0
+\frac{d r_{12}^{s}}{d \theta^{s}} = \frac{\left(w_{1}^{H , s} - w_{1}^{L , s}\right)}{\left[ X_{1}^{2} / \gamma (\tilde {Y}_{2}) \right] - \theta^{s} \left(\partial w_{1}^{H , s} / \partial r_{12}^{s}\right) - \left(1 - \theta^{s}\right) \left(\partial w_{1}^{L , s} / \partial r_{12}^{s}\right)} \geq 0
 $$
 
-because  $w_{1}^{H,S}\geq w_{1}^{L,S}$
+because  $w_{1}^{H,s}\geq w_{1}^{L,s}$
 
-Because  $dr_{12}^{S} / d\theta^{S}\geq 0$  , it must be that the right-hand side of (1) increases in  $\theta^S$  , so the left-hand side must also increase. Hence  $\theta^S w_1^{H,S} + (1 - \theta^S)w_1^{L,S}$  increases
+Because  $dr_{12}^{s} / d\theta^{s}\geq 0$  , it must be that the right-hand side of (1) increases in  $\theta^s$  , so the left-hand side must also increase. Hence  $\theta^s w_1^{H,s} + (1 - \theta^s)w_1^{L,s}$  increases
 
 in  $\theta^s$ . Finally, the fraction liquidated increases in  $r_{12}^s$ ; hence it must increase in  $\theta^s$ .
 
 Turning to the effect of  $D$ , we have on totally differentiating (1)
 
 $$
-\theta^{s} \frac{d w_{1}^{H , S}}{d D} + (1 - \theta^{s}) \frac{d w_{1}^{L , S}}{d D} - \frac{X_{1}^{2}}{\gamma (\tilde {Y}_{2})} \frac{d r_{1 2}^{S}}{d D} = 0.
+\theta^{s} \frac{d w_{1}^{H , s}}{d D} + (1 - \theta^{s}) \frac{d w_{1}^{L , s}}{d D} - \frac{X_{1}^{2}}{\gamma (\tilde {Y}_{2})} \frac{d r_{12}^{s}}{d D} = 0.
 $$
 
 Now either  $\frac{dw_1^s}{dD} = 1$  if the household is off its first-order condition and has withdrawn everything, or it is given by
 
 $$
-\frac{1}{2} \left[ 1 - \dot {e_{2}} \left(\frac{1}{r_{1 2}^{s}}\right)^{2} \frac{d r_{1 2}^{s}}{d D} \right].
+\frac{1}{2} \left[ 1 - \dot {e_{2}} \left(\frac{1}{r_{12}^{s}}\right)^{2} \frac{d r_{12}^{s}}{d D} \right].
 $$
 
 Substituting and simplifying, we get  $dr_{12}^{s} / dD \geq 0$ . Given  $r_{12}^{s}$  increases in  $D$ , the other comparative statics follow for the same reasons as above.
@@ -416,7 +424,7 @@ Therefore, the change in probabilities makes the previous optimal deposit promis
 First, it is clear that both types of households are better off in state  $s$  if promised deposits are raised without precipitating a run, that is, to  $D^{\mathrm{Max}}(s)$ . We then have
 
 $$
-\frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s}} \left(\frac{d w_{1}^{L , s}}{d D}\right) - \frac{r_{1 2}^{S}}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{1 2}^{S}} \left(\frac{d w_{1}^{L , s}}{d D}\right) + \frac{r_{1 2}^{S} + (D - w_{1}^{L , s}) (d r_{1 2}^{S} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{1 2}^{S}}.
+\frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s}} \left(\frac{d w_{1}^{L , s}}{d D}\right) - \frac{r_{12}^{s}}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{12}^{s}} \left(\frac{d w_{1}^{L , s}}{d D}\right) + \frac{r_{12}^{s} + (D - w_{1}^{L , s}) (d r_{12}^{s} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s}) r_{12}^{s}}.
 $$
 
 Because
@@ -429,28 +437,28 @@ the first two terms are zero. The last term is positive. So  $dU^{L_s / s} / dD 
 
 Suppose now that we increase  $D$  from  $D^{\mathrm{Max}}(s)$  while lowering  $r_{12}^{s}$  to keep the bank solvent.
 
-Post intervention,  $U^{L,s} = \log (e_1 + w_1^{L,s} - t) + \log (e_2^L +(D - w_1^{L,s} + t)r_{12}^S)$  such that  $V(r_{12}^{S}) = D$ , where  $V$  is the value of the bank at date 1 (before withdrawals). We then have
+Post intervention,  $U^{L,s} = \log (e_1 + w_1^{L,s} - t) + \log (e_2^L +(D - w_1^{L,s} + t)r_{12}^{s})$  such that  $V(r_{12}^{s}) = D$ , where  $V$  is the value of the bank at date 1 (before withdrawals). We then have
 
 $$
-\begin{array}{l} \frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s} - t} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ - \frac{r_{1 2}^{S}}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ + \frac{r_{1 2}^{S} + (D - w_{1}^{L , s} + t) (d r_{1 2}^{S} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}}. \\ \end{array}
+\begin{array}{l} \frac{d U^{L , s}}{d D} = \frac{1}{e_{1} + w_{1}^{L , s} - t} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ - \frac{r_{12}^{s}}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{12}^{s}} \left(\frac{d w_{1}^{L , s}}{d D} - \frac{d t}{d D}\right) \\ + \frac{r_{12}^{s} + (D - w_{1}^{L , s} + t) (d r_{12}^{s} / d D)}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{12}^{s}}. \\ \end{array}
 $$
 
 Because the  $L$  households are on their first-order condition, the first two terms sum to zero again. We also have from the requirement of solvency that
 
 $$
-\frac{d r_{1 2}^{S}}{d D} = \frac{- 1}{d V / d r_{1 2}^{S}}.
+\frac{d r_{12}^{s}}{d D} = \frac{- 1}{d V / d r_{12}^{s}}.
 $$
 
 Simple algebra suggests that
 
 $$
-\begin{array}{l} \frac{d V}{d r_{1 2}^{s}} = \frac{1}{(\bar {Y}_{2})} \left(\frac{(X_{1})^{2}}{2 \gamma} - \frac{\bar {Y}^{2} \gamma}{2 (r_{1 2}^{s})^{2}}\right) \\ = \frac{- 1}{r_{1 2}^{s}} (\text{Pr es en tv al ue of ba nk (af te rw it dr aw al s)}). \\ \end{array}
+\begin{array}{l} \frac{d V}{d r_{12}^{s}} = \frac{1}{(\bar {Y}_{2})} \left(\frac{(X_{1})^{2}}{2 \gamma} - \frac{\bar {Y}^{2} \gamma}{2 (r_{12}^{s})^{2}}\right) \\ = \frac{- 1}{r_{12}^{s}} (\text{Pr es en tv al ue of ba nk (af te rw it dr aw al s)}). \\ \end{array}
 $$
 
 This then means that
 
 $$
-\frac{d U^{L , s}}{d D} = \frac{r_{1 2}^{S} (1 - [ (D - w_{1}^{L , s} + t) / \text{Pr es en tv al ue of ba nk} ])}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{1 2}^{S}} <   0
+\frac{d U^{L , s}}{d D} = \frac{r_{12}^{s} (1 - [ (D - w_{1}^{L , s} + t) / \text{Pr es en tv al ue of ba nk} ])}{e_{2}^{L} + (D - w_{1}^{L , s} + t) r_{12}^{s}} <   0
 $$
 
 because if the bank is just solvent after withdrawals, the present value of the bank  $= (1 - \theta)(D - w_{1}^{L,s}) + t < D - w_{1}^{L,s} + t$ . What about the  $H$  household? With lower  $D$ , and compensation for taxes at a rate that is less than its marginal rate of substitution, it is worse off. So households are worse off if  $D$  is set above  $D^{\mathrm{Max}}(s)$  and the planner intervenes to restore solvency.
