@@ -1,29 +1,22 @@
 ---
+title: "Optimum Currency Areas and the Euro"
+parent_directory: "Part 4 - International Macroeconomic Policy"
+formatted: "2025-12-21 09:20:00 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
 primary_tags:
-- fear maastricht treaty
-- europe experience monetary unification
-- member countries monetary
-- optimum currency areas
-- emu member countries deciding
-- circumstances country public debt
+  - optimum currency areas
+  - european monetary union
+  - euro currency adoption
 secondary_tags:
-- hypothesis eu optimum currency
-- optimum currency area critical
-- currency area integration factor
-- eu adopted common currency
-- maastricht fiscal rules sgp
-- monetary union emu european
-- banks euro area measures
-- centralized euro crisis
-- euro area banks ssm
-- fiscal restraint feared euro
-- federal reserve intra european
-- broader european financial stability
-- carry trade understanding eurozone
-- earlier created currency area
-- ecb harmonized multilateral competitiveness
-- regarding banking policy unification
-tags_extracted: '2025-12-18T00:55:08.699301'
+  - fixed exchange rates
+  - monetary policy autonomy
+  - fiscal federalism
+  - european central bank
+  - maastricht treaty
+  - stability growth pact
+  - eurozone crisis
+cssclasses: academia
 ---
 
 # OPTIMUM CURRENCY AREAS AND THE EURO
@@ -599,50 +592,6 @@ monetary efficiency gain, p. 705
 optimum currency areas, p. 705
 
 Stability and Growth Pact (SGP), p. 703
-
-# PROBLEMS
-
-1. Why might EMS provisions for the extension of central bank credits from strong-to-weak-currency members have increased the stability of EMS exchange rates?
-2. In the EMS before September 1992, the Italian lira/DM exchange rate could fluctuate by up to 2.25 percent up or down. Assume that the lira/DM central parity and band were set in this way and could not be changed. What would have been the maximum possible difference between the interest rates on one-year lira and DM deposits? What would have been the maximum possible difference between the interest rates on six-month lira and DM deposits? On three-month deposits? Do the answers surprise you? Give an intuitive explanation.
-3. Continue with problem 2. Imagine that in Italy, the interest rate on five-year government bonds was 11 percent per annum and that in Germany, the rate on five-year government bonds was 8 percent per annum. What would have been the implications for the credibility of the current lira/DM exchange parity?
-4. Do your answers to problems 2 and 3 require an assumption that interest rates and expected exchange rate changes are linked by interest parity? Why or why not?
-5. Suppose that soon after Norway pegs to the euro, EMU benefits from a favorable shift in the world demand for non-Norwegian EMU exports. What happens to the exchange rate of the Norwegian krone against noneuro currencies? How is Norway affected? How does the size of this effect depend on the volume of trade between Norway and the euro zone economies?
-
-6. Use the  $GG$ - $LL$  diagram to show how an increase in the size and frequency of unexpected shifts in a country's money demand function affects the level of economic integration with a currency area at which the country will wish to join.
-
-7. During the speculative pressure on the EMS exchange rate mechanism (ERM) shortly before Britain allowed the pound to float in September 1992, The Economist, a London weekly news magazine, opined as follows:
-
-The [British] government's critics want lower interest rates, and think this would be possible if Britain devalued sterling, leaving the ERM if necessary. They are wrong. Quitting the ERM would soon lead to higher, not lower, interest rates, as British economic management lost the degree of credibility already won through ERM membership. Two years ago British government bonds yielded three percentage points more than German ones. Today the gap is half a point, reflecting investors' belief that British inflation is on its way down—permanently. (See "Crisis? What Crisis?" The Economist, August 29, 1992, p. 51.)
-
-a. Why might the British government's critics have thought it possible to lower interest rates after taking sterling out of the ERM? (Britain was in a deep recession at the time the article appeared.)
-b. Why did The Economist think the opposite would occur soon after Britain exited the ERM?
-c. In what way might ERM membership have gained credibility for British policy makers? (Britain entered the ERM in October 1990.)
-d. Why would a high level of British nominal interest rates relative to German rates have suggested an expectation of high future British inflation? Can you think of other explanations?
-e. Suggest two reasons why British interest rates might have been somewhat higher than German rates at the time of writing, despite the alleged "belief that British inflation is on its way down—permanently."
-
-8. Imagine that the EMS had become a monetary union with a single currency but that it had created no European Central Bank to manage this currency. Imagine instead that the task had been left to the various national central banks, each of which was allowed to issue as much of the European currency as it liked and to conduct open-market operations. What problems can you see arising from such a scheme?
-
-9. Why would the failure to create a unified EU labor market be particularly harmful to the prospects for a smoothly functioning EMU, if at the same time capital is completely free to move among EU countries?
-
-10. Before Brexit Britain was firmly within the EU, but it didn't adopt the euro, and fierce debate raged over the issue.
-
-a. Find macro data on the British economy's performance since 1998 (inflation, unemployment, real GDP growth) and compare these with euro zone data.
-b. What were nominal interest rates in Britain and the euro zone after 1998? How would Britain have fared if the ECB had been setting Britain's nominal interest rate at the euro zone level and the pound sterling's euro exchange rate had been fixed?
-
-11. Movements in the euro's external exchange rate can be seen as goods-market shocks that have asymmetric effects on different euro zone members. When the euro appreciated against China's currency in 2007, which country suffered the greater fall in aggregate demand, Finland, which does not compete directly with China in its export markets, or Spain, which does? What would have happened had Spain retained its old currency, the peseta?
-
-12. In the United States' currency union, we seem never to worry if a state has a big current account deficit. Have you ever seen such data in the newspaper? Can you even find the data in any U.S. government statistical sources? For example, one would guess that the state of Louisiana ran large current account deficits after it was devastated by Hurricane Katrina in 2005. But Louisiana's possible current account deficit was not deemed worthy of coverage by the financial press. We do know, however, that in 2008, Greece had a current account deficit of 14.6 percent of GDP, Portugal had a deficit of 12 percent of GDP, and Spain had a deficit of 9.8 percent of GDP (Table 21-4). Should the governments of these countries worry about such large deficits? (Hint: Relate your answer to the debate over the need for the SGP.)
-
-13. Go to the IMF website at www.imf.org and find the World Economic Outlook database; then download data on the current account balance (as a percent of GDP) for Greece, Spain, Portugal, Italy, and Ireland. What happens to the current accounts of these countries after 2009 during the euro crisis? Can you explain what you see?
-
-14. Suppose it is possible for a country to leave the euro zone and begin printing its own currency. Suppose also that there is some point at which the ECB (perhaps it is worried about financial losses) will stop lending to the country's banks. What would happen if creditors suddenly begin to flee from the country's banks?
-
-15. In the spring of 2013 Cyprus followed Greece, Ireland, and Portugal in agreeing to an emergency loan from the troika of the EU, ECB, and IMF. The cause was big losses in the Cypriot banking system. After imposing losses on some Cypriot bank deposits, the government, with EU approval, imposed capital controls to prevent residents from taking money abroad. Why do you think this step (which violated the EU's single-market philosophy) was taken? (Greece was forced to follow a similar approach in mid-2015, as deposits fled the country fearing a possible exit from the euro. So far, however, Greece's creditors have remained willing to extend enough credit to keep the country afloat.)
-
-16. Imagine that a single large country within the euro area, for example, Germany, carries out a fiscal expansion, in which its government purchases more of its own country's output. What would be the effect on the other members of the euro area?
-
-a. Start by using the  $DD-AA$  model, considering the euro area to be a single economy with an exchange rate that floats against the rest of the world. Then consider the channels through which the German policy change could affect other currency union members if the change is permanent. What if it is temporary?
-b. Now imagine that the euro area is in a liquidity trap, with the ECB policy rate fixed at zero (recall Chapter 17). Referring to Figure 17-19, how do you think a temporary German fiscal expansion affects other currency union members? What about a permanent expansion?
 
 # FURTHER READINGS
 

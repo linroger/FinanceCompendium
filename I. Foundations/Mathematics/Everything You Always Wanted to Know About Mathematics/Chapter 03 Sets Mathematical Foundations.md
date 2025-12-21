@@ -1,40 +1,25 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Chapter 3
-linter-yaml-title-alias: Chapter 3
+title: Chapter 03 Sets Mathematical Foundations
+parent_directory: Everything You Always Wanted to Know About Mathematics
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- careful reading
-- every such set
-- repeated application
-- is, the sets
-- mathematical induction
-- following questions
+  - set theory
+  - mathematical foundations
+  - set operations
+  - mathematical induction
 secondary_tags:
-- some fundamental objects
-- formal, written proof
-- oh hey, the definition
-- all possible counterexamples
-- some notation
-- one concise form
-- more significant theorems
-- just a few definitions
-- set builder notation
-- optional reading
-- typical mathematics course
-- formal statement
-- some universal set
-- set-theoretic ways
-- first set
-- another set
-tags_extracted: '2025-12-18T17:56:45.771245'
-tags_method: max_quality_v1
+  - set builder notation
+  - cartesian product
+  - power set
+  - equivalence relations
+  - set cardinality
+  - axiom of choice
+cssclasses: academia
 ---
 
-# Chapter 3
+# Chapter 03 Sets Mathematical Foundations
 
 # Sets: Mathematical Foundations
 

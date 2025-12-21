@@ -24,7 +24,6 @@ secondary_tags:
   - credit expansion
 cssclasses: academia
 ---
----
 
 # Why We Care About Financial Crises: Silicon Valley Bank
 
@@ -64,7 +63,7 @@ p 33 [?: quote re following the crowd
 
 ## This Time Is Not Different
 
-Shocking and disruptive they may be, but financial crises are not new or di erent or unusual The essence of the this-time-is-di erent syndrome is simple. It is rooted in the firmly held belief that financial crises are things that happen to other people in other countries at other times. (Reinhart&Rogo p 1)
+Shocking and disruptive they may be, but financial crises are not new or different or unusual The essence of the this-time-is-different syndrome is simple. It is rooted in the firmly held belief that financial crises are things that happen to other people in other countries at other times. (Reinhart&Rogo p 1)
 
 Examine what happens to other people, at other times, in other countries
 
@@ -72,13 +71,13 @@ Examine what happens to other people, at other times, in other countries
 - What are the causes of financial crises? Mania and irrationality? Monetary policy mistakes? Too much debt? Political structure?
 - What does a financial crisis look like?
 I. Financial and liquidity crises like 2008
-II. Whenever one of these happens, we always say "this time is di erent"
-(A) In the run-up to the crisis we say that the borrowing or the debt or the stock-market prices or whatever is not too much or too high, that it will not lead to a crisis like it did in 1999 or 1929 or whenever. Because the world is di erent now than it used to be.
+II. Whenever one of these happens, we always say "this time is different"
+(A) In the run-up to the crisis we say that the borrowing or the debt or the stock-market prices or whatever is not too much or too high, that it will not lead to a crisis like it did in 1999 or 1929 or whenever. Because the world is different now than it used to be.
 1. And maybe this is true, because the world does change - electricity and cars in the 1920s fundamentally changed the world and made everyone richer and better-o. Everyone, both the wealthy in the wealthy nations and the poor in the poor nations. We are immensely richer and better o today than in 1900 - Things like life expectancy have increased immensely - in 1910 the average life expectancy (across the world) was only 33 years. By 1992 it rose to 61 years and is even higher today. (Bourgignon & Morrison table 1). And the internet changed our world in the 1990s and continues to do so.
-(B) In the aftermath, during the crisis itself, we always say "this time is di erent", that it has never happened before. That this crisis is uniquely disastrous and unlike anything that has happened before.
+(B) In the aftermath, during the crisis itself, we always say "this time is different", that it has never happened before. That this crisis is uniquely disastrous and unlike anything that has happened before.
 2. Because, for most of us, it is disastrous and unique - we have never lived through a crisis like this.
-III. My primary purpose in this course is to convince you that, new and exciting as the boom is and shocking and disruptive as the crisis, such events are not new nor di erent - we have seen this all before.
-The essence of the this-time-is-di erent syndrome is simple. It is rooted in the firmly held belief that financial crises are things that happen to other people in other countries at other times. (Reinhart & Rogoff p 1)
+III. My primary purpose in this course is to convince you that, new and exciting as the boom is and shocking and disruptive as the crisis, such events are not new nor different - we have seen this all before.
+The essence of the this-time-is-different syndrome is simple. It is rooted in the firmly held belief that financial crises are things that happen to other people in other countries at other times. (Reinhart & Rogoff p 1)
 IV. I want to examine what it is that happens to other people, at other times, in other countries
 (A) What are financial crises? Banking failures? Sovereign debt default? Inflation?
 (B) What are the causes of financial crises? Mania and irrationality? Monetary policy mistakes? Too much debt? Political structure?
@@ -101,7 +100,6 @@ III. Theory Behind Banking Crisis
 - Calomiris & Haber: Financial system structure & property rights
 - Mortgage crises of 2008: Gov't & Policy decisions and mis-pricing risk
 # Outline
-# Contents
 
 1 Procedural 4
 
@@ -170,13 +168,13 @@ Page of references and links on Canvas (under "Pages")
 # Contents
 # Why Are Financial Crises Important?
 
-Important in themselves - Large and long-lasting e ects
+Important in themselves - Large and long-lasting effects
 
 Output and employment
 
 Bank failures
 
-Regulatory e cts
+Regulatory effects
 
 - Debt
 "Natural Experiments"
@@ -193,68 +191,52 @@ Calomiris & Haber have data for 117 countries
 - Only a minority (34/117) have no crisis
 Some have 2 or more
 
-```latex
-\begin{document}
-\begin{tabular}{|c|c|c|c|}
-\hline
-117 countries & 0 & 1 & 2+ \\ \hline actual count & 34 & 62 & 21 \\ \hline actual % & 29% & 53% & 18% \\ \hline
-\end{tabular}
-\end{document}
-```
+| 117 countries | 0 | 1 | 2+ |
+|---------------|---|---|----|
+| actual count  | 34| 62| 21 |
+| actual %      | 29%| 53%| 18%|
 
 United States - Long Period
 
 US from 1840 to present, Calomiris & Haber count 12 crises
 
-```latex
-\begin{document}
-\begin{tabular}{|c|c|c|}
-\hline
-Year & Crisis & Notes \\ \hline
-1792-93 & US Banking Crisis & \\ \hline
-1797 & UK Banking Crisis & \\ \hline
-1814 & US Banking Crisis & \\ \hline
-1819 & US Banking Crisis & \\ \hline
-1825 & UK Banking Crisis & \\ \hline
-1837 & US Banking Crisis & \\ \hline
-1839 & US Banking Crisis & \\ \hline
-1847 & UK Banking Crisis & \\ \hline
-1857 & US \& UK Banking Crisis & \\ \hline
-1866 & UK Banking Crisis (Overend Gurney) & \\ \hline
-1873 & US Banking Crisis & \\ \hline
-1890 & Barings Crisis (UK/Argentina) & \\ \hline
-1893 & US Banking Crisis & \\ \hline
-1907-08 & US Banking Crisis & \\ \hline
-1914-15 & US Banking Crisis & \\ \hline
-1920-21 & US Banking Crisis & \\ \hline
-1929-33 & Great Depression & \\ \hline
-1982-87 & US S\&L Crisis & \\ \hline
-2007-09 & Global Financial Crisis & \\ \hline
-\end{tabular}
-\end{document}
-```
+| Year    | Crisis                    | Notes |
+|---------|---------------------------|-------|
+| 1792-93 | US Banking Crisis         |       |
+| 1797    | UK Banking Crisis         |       |
+| 1814    | US Banking Crisis         |       |
+| 1819    | US Banking Crisis         |       |
+| 1825    | UK Banking Crisis         |       |
+| 1837    | US Banking Crisis         |       |
+| 1839    | US Banking Crisis         |       |
+| 1847    | UK Banking Crisis         |       |
+| 1857    | US & UK Banking Crisis    |       |
+| 1866    | UK Banking Crisis (Overend Gurney) |       |
+| 1873    | US Banking Crisis         |       |
+| 1890    | Barings Crisis (UK/Argentina) |       |
+| 1893    | US Banking Crisis         |       |
+| 1907-08 | US Banking Crisis         |       |
+| 1914-15 | US Banking Crisis         |       |
+| 1920-21 | US Banking Crisis         |       |
+| 1929-33 | Great Depression          |       |
+| 1982-87 | US S&L Crisis             |       |
+| 2007-09 | Global Financial Crisis   |       |
 
-# Crises Have Long-Lasting E Ccts
-# Output And Employment E Cts - Crisis Recessions Much Worse Than Non-Crisis.
+# Crises Have Long-Lasting Effects
+# Output And Employment Effects - Crisis Recessions Much Worse Than Non-Crisis.
 
-```latex
-\begin{document}
-\begin{tabular}{|c|c|c|}
-\hline
-Recessions during crises & Number & Ch Inc \\ \hline
-Crises 1870-1929 & 4 & -6.0% \\ \hline
-Non-crises 1870-1929 & 11 & -0.9% \\ \hline
-1929-1933 & & -11.1% \\ \hline
-Non-crises 1981-2002 & 3 & -1.2% \\ \hline
-2007:IV - 2009:III & & -3.0% \\ \hline
-\end{tabular}
-\end{document}
-```
+| Recessions during crises | Number | Ch Inc |
+|---------------------------|--------|--------|
+| Crises 1870-1929         | 4      | -6.0%  |
+| Non-crises 1870-1929     | 11     | -0.9%  |
+| 1929-1933                |        | -11.1% |
+| Non-crises 1981-2002     | 3      | -1.2%  |
+| 2007:IV - 2009:III       |        | -3.0%  |
 
 Banking failures - one definition of a "crisis"
 
 - "between 1930 and 1933 more than 9,100 banks (38 percent of all banks) suspended operations."
-(US) Regulatory e ects often follow
+(US) Regulatory effects often follow
 US Federal Reserve founded in 1913 in response to 1907-08 crisis
 - Glass-Steagall and FDIC deposit insurance in the 1930s
 Dodd-Frank after the 2008 crisis

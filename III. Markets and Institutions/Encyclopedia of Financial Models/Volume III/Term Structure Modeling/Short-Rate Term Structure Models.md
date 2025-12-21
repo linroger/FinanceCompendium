@@ -2,28 +2,21 @@
 ---
 title: "Short-Rate Term Structure Models"
 parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Term Structure Modeling"
-formatted: "2025-12-21 09:15:00 AM"
-formatter_model: "claude-sonnet-4-5-20250929"
-cli_tool: "claude-code"
+formatted: "2025-12-21 11:30:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
   - short rate models
   - term structure modeling
+secondary_tags:
   - interest rate derivatives
   - stochastic rate processes
-secondary_tags:
   - hull white model
   - cox ingersoll ross
   - arbitrage free pricing
-  - calibration methods
   - multifactor models
   - affine term structure
-  - jump diffusion models
   - volatility skew
-  - swaption pricing
-  - zero coupon bonds
-  - forward rate agreements
-  - bond option valuation
-  - risk neutral pricing
 cssclasses: academia
 ---
 

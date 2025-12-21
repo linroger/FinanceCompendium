@@ -918,46 +918,7 @@ stagflation,p.625
 
 sudden stop, p. 593
 
-# PROBLEMS
 
-1. If you were in charge of macroeconomic policies in a small open economy, what qualitative effect would each of the following events have on your target for external balance?
-
-a. Large deposits of uranium are discovered in the interior of your country.
-b. The world price of your main export good, copper, rises permanently.
-c. The world price of copper rises temporarily.
-d. There is a temporary rise in the world price of oil.
-
-2. Under a gold standard of the kind Hume analyzed, describe how balance of payments equilibrium between two countries, A and B, would be restored after a transfer of income from B to A.
-3. Despite the flaws of the pre-1914 gold standard, exchange rate changes were rare for the "core" countries (including the richer European countries and the United States). In contrast, such changes became frequent in the interwar period. Can you think of reasons for this contrast?
-4. Under a gold standard, countries may adopt excessively contractionary monetary policies as all countries scramble in vain for a larger share of the limited supply of world gold reserves. Can the same problem arise under a reserve currency standard when bonds denominated in different currencies are all perfect substitutes?
-5. A central bank that adopts a fixed exchange rate may sacrifice its autonomy in setting domestic monetary policy. It is sometimes argued that when this is the case, the central bank also gives up the ability to use monetary policy to combat the wage-price spiral. The argument goes like this: "Suppose workers demand higher wages and employers give in, but the employers then raise output prices to cover their higher costs. Now the price level is higher and real balances are momentarily lower, so to prevent an interest rate rise that would appreciate the currency, the central bank must buy foreign exchange currencies and expand the money supply. This action accommodates the initial wage demands with monetary growth, and the economy moves permanently to a higher level of wages and prices. With a fixed exchange rate, there is thus no way of keeping wages and prices down." What is wrong with this argument?
-
-6. Suppose the central bank of a small country with a fixed exchange rate is faced by a rise in the world interest rate,  $R^{*}$ . What is the effect on its foreign reserve holdings? On its money supply? Can it offset either of these effects through domestic open-market operations?
-7. How might restrictions on private financial account transactions alter the problem of attaining internal and external balance with a fixed exchange rate? What costs might such restrictions involve?
-8. In the box on New Zealand, we derived an equation showing how the  $IIP$  changes over time:  $IIP_{t+1} = (1 + r)IIP_t + NX_t$ . Show that if  $g = (GDP_{t+1} - GDP_t) / GDP_t$  is the growth rate of nominal output (GDP), and lowercase variables denote ratios to nominal GDP (as in the chapter), we can express this same equation in the form:
-
-$$
-i i p_{t + 1} = \frac{(1 + r) i i p_{t} + n x_{t}}{1 + g}.
-$$
-
-Use this expression to find the ratio of net exports to GDP that holds the  $IIP$  to GDP ratio  $iip$  constant over time.
-
-9. You are an economic adviser to the government of China in 2008. The country has a current account surplus and is facing gathering inflationary pressures.
-
-a. Show the location of the Chinese economy on a diagram like Figure 19-2.
-b. What would be your advice on how the authorities should move the yuan ren-minbi's exchange rate?
-c. What would be your advice about fiscal policy? In that regard, you have three pieces of data: First, the current account surplus is big, in excess of 9 percent of GDP. Second, China currently provides a rather low level of government services to its people. Third, China's government would like to attract workers from the rural countryside into manufacturing employment, so Chinese officials would prefer to soften any negative impact of their policy package on urban employment.
-
-10. Use the  $DD$ - $AA$  model to examine the effects of a one-time rise in the foreign price level,  $P^{*}$ . If the expected future exchange rate  $E^{e}$  falls immediately in proportion to  $P^{*}$  (in line with PPP), show that the exchange rate will also appreciate immediately in proportion to the rise in  $P^{*}$ . If the economy is initially in internal and external balance, will its position be disturbed by such a rise in  $P^{*}$ ?
-11. If the foreign inflation rate rises permanently, would you expect a floating exchange rate to insulate the domestic economy in the short run? What would happen in the long run? In answering the latter question, pay attention to the long-run relationship between domestic and foreign nominal interest rates.
-12. Imagine that domestic and foreign currency bonds are imperfect substitutes and that investors suddenly shift their demand toward foreign currency bonds, raising the risk premium on domestic assets (Chapter 18). Which exchange rate regime minimizes the effect on output—fixed or floating?
-13. The Case Study "Transformation and Crisis in the World Economy" discussed the big global imbalances of the 2000s and suggested that one can analyze factors determining world real interest rates in terms of the balance between the world demand for saving (in order to finance investment) and the world supply of saving (just as in a closed economy—which the world is). As a first step in formalizing such an analysis, assume there are no international differences in real interest rates due to expected real exchange rate changes. (For example, you might suppose that yours is a long-run analysis in which real exchange rates are expected to remain at their long-run levels.) As a second step, assume that a higher real interest rate reduces desired investment and raises desired saving throughout the world. Can you then devise a simple supply-demand picture of equilibrium in the world capital
-
-market in which quantities (saved or invested) are on the horizontal axis and the real interest rate is on the vertical axis? In such a setting, how would an increase in world saving, defined in the usual way as an outward shift in the entire supply-of-saving schedule, affect equilibrium saving, investment, and the real interest rate? Relate your discussion to the Case Study "Transformation and Crisis in the World Economy" and to the paper by Ben S. Bernanke in Further Readings. (For a classic exposition of a similar model, see Lloyd A. Metzler, "The Process of International Adjustment under Conditions of Full Employment: A Keynesian View," in Richard E. Caves and Harry G. Johnson, eds., Readings in International Economics [Homewood, IL: Richard D. Irwin, Inc. for the American Economic Association, 1968], pp. 465-486.)
-
-14. The chapter suggested that the developing world recovered more robustly from the financial crisis of 2007-2009 than the industrial world. Using the World Outlook Economic databases (can be accessed directly on www.imf.org) select the following groups of countries: the advanced economies (AE), the emerging market (EM), and the Sub-Saharan Africa (SSA)—as a representative of the developing countries and the following subjects: GDP growth, inflation, exports, current account, FDI, for the year 2006 to 2010. Comment on the results with respect to the impact of the financial crisis on international relationship and national economies.
-15. Suppose that some central banks sell large amounts of their reserves in U.S. dollars on the foreign exchange market to buy an equivalent amount of Euro. Is this action equivalent to a sterilized sale of U.S. dollars in the foreign exchange market? What might be the effects on the European Central Bank? Explain your assumption about perfect versus imperfect asset substitutability.
-16. Like its neighbor New Zealand, Australia has had a long string of current account deficits and is an international debtor. Go to the Australian Bureau of Statistics website at www.abs.gov.au/statistics and find the data you need to carry out an "external sustainability" analysis of the current account such as the one for New Zealand in the chapter. You will need data starting in 1992 for nominal GDP, the IIP, the current account, and the balance on goods and services  $NX$  (from the "time series spreadsheets" after clicking on "Data Downloads"). The goal of the exercise is to find the interest rate  $r$  on the IIP that stabilizes the ratio  $IIP / GDP$  at its most recent value given the historical average of  $NX$  and the historical average of nominal GDP growth (all since 1992). Warning: This challenging exercise requires you to navigate the Australian data system and judge the most appropriate data to use in light of what you learned in Chapter 13.
 
 # FURTHER READINGS
 

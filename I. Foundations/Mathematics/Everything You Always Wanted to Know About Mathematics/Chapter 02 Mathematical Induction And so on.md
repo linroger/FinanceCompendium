@@ -1,38 +1,42 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Chapter 2
-linter-yaml-title-alias: Chapter 2
+parent_directory: Everything You Always Wanted to Know About Mathematics
+formatted: 2025-12-21 10:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-  - different proofs
-  - induction puzzle
-  - some equations
-  - mathematical rigor
-  - fibonacci numbers
-  - following questions
+   - mathematical induction
+   - inductive arguments
+   - sum of squares
+   - domino analogy
+   - regions on plane
+   - tower of hanoi
+   - fibonacci numbers
 secondary_tags:
-  - mathematical induction
-  - puzzles learning
-  - mathematically inductive definition
-  - inductive structure
-  - recursive program inductive
-  - geometric puzzle
-tags_extracted: 2025-12-18T17:56:39.144721
-tags_method: max_quality_v1
+   - recursive programming
+   - winning strategy
+   - cubic numbers
+   - inductive process
+   - proof technique
+   - geometric puzzles
+   - summation notation
+   - inductive proof
+   - takeaway game
+   - domino tilings
+   - inductive game
+   - chapter exercises
+cssclasses: academia
 ---
 
 # Chapter 2
 
-# Mathematical Induction: "And so on …"
+## Mathematical Induction: "And so on …"
 
-# 2.1 Introduction
+## 2.1 Introduction
 
 This chapter marks our first big step toward investigating mathematical proofs more thoroughly and learning to construct our own. It is also an introduction to the first significant proof technique we will see. As we describe below, this chapter is meant to be an appetizer, a first taste, of what mathematical induction is and how to use it. A couple of chapters from now, we will be able to rigorously define induction and prove that this technique is mathematically valid. That's right, we'll actually prove how and why it works! For now, though, we'll continue our investigation of some interesting mathematical puzzles, with these particular problems hand-picked by us for their use of inductive techniques.
 
-# 2.1.1 Objectives
+## 2.1.1 Objectives
 
 The following short sections in this introduction will show you how this chapter fits into the scheme of the book. They will describe how our previous work will be helpful, they will motivate why we would care to investigate the topics that appear in this chapter, and they will tell you our goals and what you should keep in mind while reading along to achieve those goals. Right now, we will summarize the main objectives of this chapter for you via a series of statements. These describe the skills and knowledge you should have gained by the conclusion of this chapter. The following sections will reiterate these ideas in more detail, but this will provide you with a brief list for future reference. When you finish working through this chapter, return to this list and see if you understand all of these objectives. Do you see why we outlined them here as being important? Can you define all the terminology we use? Can you apply the techniques we describe?
 
@@ -43,13 +47,13 @@ By the end of this chapter, you should be able to …
 Heuristically describe mathematical induction via an analogy.  
 - Identify and describe different kinds of inductive arguments by comparing and contrasting them, as well as identify the underlying structures of the corresponding problems that would yield these similarities and differences.
 
-# 2.1.2 Segue from previous chapter
+## 2.1.2 Segue from previous chapter
 
-As in the previous chapter, we won't assume any familiarity with more advanced mathematics beyond basic algebra and arithmetic, and perhaps some visual, geometric intuition. We will, however, make use of summation and product notation fairly often, so if you feel like your notational skills are, go back and review Section 1.3.5.
+As in the previous chapter, we won't assume any familiarity with more advanced mathematics beyond basic algebra and arithmetic, and perhaps some visual, geometric intuition. We will, however, make use of summation and product notation fairly often, so if you feel like your notational skills are rusty, go back and review Section 1.3.5.
 
-# 2.1.3 Motivation
+## 2.1.3 Motivation
 
-Look back at the Puzzle in Section 1.4.3, where we proved that the sum of the first  $n$  odd natural numbers is exactly  $n^2$ . We first observed this pattern geometrically, by arranging the terms of the sums (odd integers) as successively larger "corner pieces" of a square. The first way we proved the result, though, didn't seem to depend on that observation and merely utilized a previous result (about sums of even and odd integers) in an algebraic way; that is, we did some tricky manipulation of some equations (muliplying and subtracting and what have you) and then-voilà!-out popped the result we expected. What did you think about that approach? Did it feel satisfying? In a way, it didn't quite match the geometric interpretation we had, at first, so it might be surprising that it worked out so nicely. (Perhaps there is a different geometric interpretation of this approach. Can you find one?)
+Look back at the Puzzle in Section 1.4.3, where we proved that the sum of the first  $n$  odd natural numbers is exactly  $n^2$ . We first observed this pattern geometrically, by arranging the terms of the sums (odd integers) as successively larger "corner pieces" of a square. The first way we proved the result, though, didn't seem to depend on that observation and merely utilized a previous result (about sums of even and odd integers) in an algebraic way; that is, we did some tricky manipulation of some equations (multiplying and subtracting and what have you) and then-voilà!-out popped the result we expected. What did you think about that approach? Did it feel satisfying? In a way, it didn't quite match the geometric interpretation we had, at first, so it might be surprising that it worked out so nicely. (Perhaps there is a different geometric interpretation of this approach. Can you find one?)
 
 Our second approach was to model that initial geometric observation. We transformed visual pieces into algebraic pieces; specifically, a sum was related to the area of a square, and the terms of the sum were related to particular pieces of that square. We established a correspondence between different interpretations of the same problem, finding a way to relate one to the other so that we could work with either interpretation and know that we were proving something about the overall result. The benefit of the visual interpretation is that it allowed us to take advantage of a general proof strategy known as mathematical induction, or sometimes just induction, for short. (The word induction has some nonmathematical meanings, as well, such as in electromagnetism or in philosophical arguments, but within the context of this book, when we say induction, we mean
 
@@ -59,19 +63,19 @@ The first topic we'd like to address is a question that we didn't just ask in th
 
 We hope to motivate these points through some illustrative examples first, after which we will provide a reasonably thorough definition of mathematical induction that will show how the method works, in generality. (A completely rigorous definition will have to be put off until a little bit later, after we have defined and investigated some relevant concepts, like set theory and logical statements and implications. For now, though, the definition we give will suffice to work on some interesting puzzles and allow us to discuss induction as a general proof strategy.)
 
-# 2.1.4 Goals andWarnings for the Reader
+## 2.1.4 Goals and Warnings for the Reader
 
 Do keep in mind that we are still building towards our goal of mathematical rigor, or as much as is possible within the scope and timing of this book and course. Some of the claims we make in this Chapter will be clarified and technically proven later on, once we have properly discussed the natural numbers and some basic mathematical logic. All in due time!
 
 That said, this chapter is still very important, since we are continuing to introduce you to the process of solving mathematical problems, applying our existing knowledge and techniques to discover new facts and explain them to others. In addition, mathematical induction is a fundamental proof technique that will likely appear in every other mathematics course you take! This is because of its usefulness and the prevalence of inductive properties throughout the mathematical world.
 
-# 2.2 Examples and Discussion
+## 2.2 Examples and Discussion
 
-# 2.2.1 Turning Cubes Into Bigger Cubes
+## 2.2.1 Turning Cubes Into Bigger Cubes
 
 To motivate the overall method of mathematical induction, let's examine a geometric puzzle and solve it together. This example has been chosen carefully to illustrate how mathematical induction is relevant when a puzzle has a particular type of structure; specifically, some truth or fact or observation depends or relies or can be derived from a "previous" fact. This dependence on a previous case (or cases) is what makes a process inductive, and when we observe this phenomenon, applying induction is almost always a good idea.
 
-# 1-Cube into a 2-Cube
+## 1-Cube into a 2-Cube
 
 Let's examine cubic numbers and, specifically, let's try to describe a cubic number in terms of the previous cubic number. Imagine a  $1 \times 1 \times 1$  cube, just one building block. How can we build the "next biggest" cube, of size  $2 \times 2 \times 2$ , by adding  $1 \times 1 \times 1$  building blocks? How many do we need to add? Arithmetically, we know the answer:  $2^3 = 8$  and  $1^3 = 1$ , so we need to add 7 blocks to have the correct volume. Okay, that's a specific answer, but it doesn't quite tell us how to arrange those 7 blocks to make a cube, nor does it give us any insight into how to answer this question for larger cubes. Ultimately, we would like to say how many blocks are required to build a  $100 \times 100 \times 100$  cube into a  $101 \times 101 \times 101$  cube without having to perform a lot of tedious arithmetic; that is, we are hoping to eventually find an answer to the question: given an  $n \times n \times n$  cube, how many blocks must we add to build it into a  $(n + 1) \times (n + 1) \times (n + 1)$  cube? With that in mind, let's think carefully about this initial case and try to answer it with a general argument.
 
@@ -97,7 +101,7 @@ $$
 2^{3} = 1 + 3 + 3 + 1
 $$
 
-# 2-Cube into a 3-Cube
+## 2-Cube into a 3-Cube
 
 Okay, we might now have a better idea of how to describe this process in general, but let's examine another case or two just to make sure we have the full idea.
 
@@ -137,7 +141,7 @@ $$
 3^{3} = 2^{3} + 3 \cdot 2^{2} + 3 \cdot 2 + 1
 $$
 
-$n$ -Cube into an  $(n + 1)$ -Cube
+## $n$ -Cube into an  $(n + 1)$ -Cube
 
 Do you see now how this process will generalize? What if we started with an  $n$ -cube? How could we construct an  $(n + 1)$ -cube? Let's follow the same steps we used in the previous two cases. First, we would enlarge the three exposed faces by adding three squares of blocks. How big is each square? Well, we want each square to be the same size as the exposed faces, so they will be  $n \times n$  squares, accounting for  $n^2$  blocks for each face:
 
@@ -239,7 +243,7 @@ $$
 \sum_{k = 1}^{n} k^{2} = \frac{1}{6}n(n + 1)(2n + 1)
 $$
 
-# "And so on" is not rigorous!
+## "And so on" is not rigorous!
 
 There are a couple of "morals" that we'd like to point out, based on all of this work. The first moral is that generalizing an argument is a good method for discovering new and interesting mathematical ideas and results. Did you think about how this puzzle is related to the sums of odd natural numbers? If not, we encourage you strongly to try that now, as well as think about generalizing this even further to four or five dimensional "cubes" and so on. In addition to giving you some other interesting results, it will also be incredibly instructive for learning to think abstractly and apply inductive processes. The second moral is more like an admission: we have not technically proven the formula above for the sum of the first  $n$  square natural numbers. It seems like our derivation is valid and tells us the "correct answer" but there is a glaring issue: ellipses! In expanding the equation for  $(n + 1)^3$  and obtaining those columns of terms
 
@@ -263,7 +267,7 @@ The point is this: when talking with a friend, and verbalizing some ideas, it mi
 
 It may seem to you now like we're nit-picking, but the larger point is that there is a mathematical way of making this argument more precise, so that it constitutes a completely valid proof. Everything we have done so far is useful in guiding our intuition, but we will have to do a little more work to be sure our arguments are completely convincing. There are a few other concepts required to make this type of argument rigorous, in general, and we will investigate those in the next chapter and return to this subject immediately after that. However, in the meantime, let's examine one more example to practice this intuitive argument style and recognizing when induction is an applicable technique.
 
-# 2.2.2 Lines On The Plane
+## 2.2.2 Lines On The Plane
 
 Take a clean sheet of paper and a pen and a ruler. How many regions are on your sheet? Just one, right? Draw a line all the way across the paper. Now there are two regions. Draw another straight line that intersects your first line. How many regions are there? You should count four in total. Draw a third line that intersects both of the first two, but not at the point where the first two intersect. (That is, there should be three intersection points, in total.) How many regions are there? Can you predict the answer before counting? What happens when there are 4 lines? Or 5? Or 100? How do we approach this puzzle and, ultimately, solve it? Let's give a more formal statement to be sure we're thinking the same way:
 
@@ -275,7 +279,7 @@ Let's start with a small case, say  $n = 2$ . We know one line divides a plane i
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/44fa662e-a015-46fb-8608-ecf0fb518d19/701e77411d15be0c16e02124edc6a3efb6cb5790697d121c2672183191abb4dc.jpg)
 
-However, we are only looking at one specific case of two intersecting lines. How do we know that we will always find four regions, no matter how we draw those two lines appropriately? That is, can we describe how this happens in a way that somehow incorporates the fact that the number of liens is  $n = 2$ ? Think about it!
+However, we are only looking at one specific case of two intersecting lines. How do we know that we will always find four regions, no matter how we draw those two lines appropriately? That is, can we describe how this happens in a way that somehow incorporates the fact that the number of lines is  $n = 2$ ? Think about it!
 
 Here's our approach. Notice that each of the already existing regions is split into two when we add a second line, and that this is true no matter how you choose to draw the lines; as long as we make sure the two lines aren't parallel, they will always behave this way. That is, if we take one line that splits the plane into two regions,
 
@@ -357,9 +361,9 @@ We want to point out, again, that the derivation we followed and the observation
 
 We will, in the next two chapters, learn the necessary tools to fully describe a rigorous way of doing what we have done so far, and in the chapter after that, we will employ those tools to make mathematical induction officially rigorous. For now, though, we want to give a heuristic definition of induction and continue to examine interesting puzzles and observations that rely on inductive techniques. Practicing with these types of puzzles-learning when to recognize an inductive process, how to work with it, how to use that structure to solve a problem, and so on-will be extremely helpful in the future, and we have no need to delve into technical mathematical detail. (At least, not just yet!)
 
-# 2.2.3 Questions & Exercises
+### 2.2.3 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -375,7 +379,7 @@ $$
 (5) Try to recall the argument that adding the  $(n + 1)$ -th line on the plane created exactly  $n + 1$  new regions. Can you work through the argument for a friend and convince him/her that it is valid?  
 (6) To find the sum of the first  $n$  squares, why couldn't we just square the formula for the sum of the first  $n$  numbers? Why is that wrong?
 
-# Try It
+#### Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -387,7 +391,7 @@ Try answering the following short-answer questions. They require you to actually
 
 (4) Challenge: Let's bump the "lines in the plane" puzzle up one dimension! Think about having  $n$  planes in three-dimensional space. How many regions are created? Assume that no two planes are parallel, and no three of them intersect in one line. (Think about how these two conditions are directly analogous to the specified conditions for the "lines" puzzle.)
 
-# 2.3 Defining Induction
+## 2.3 Defining Induction
 
 To properly motivate the forthcoming definition of mathematical induction as a proof technique, we want to emphasize that the above examples used some intuitive notions of the structure of the puzzle to develop a "solution", where we use quotation marks around solution to indicate that we haven't officially proven it yet. In that sense, we ask the following question: What if we had been given the formula that we derived and asked to verify it? What if we had not gone through any intuitive steps to derive the formula and someone just told us that it is correct? How could we check their claim? The reason we ask this is because we are really facing that situation now, except the person telling us the formula is …the very same intuitive argument we discovered above!
 
@@ -403,15 +407,15 @@ $$
 1^{2} + 2^{2} + 3^{2} = 1 4 = \frac{1}{6} (3) (4) (7)
 $$
 $$
-1^{2} + 2^{2} + 3^{2} + 4^{2} = 3 0 = \frac{1}{6} (4) (5) (9)
+1^{2} + 2^{2} + 3^{2} + 4^{2} = 30 = \frac{1}{6} (4) (5) (9)
 $$
 and so on. We could even check, by hand, a large value of  $n$ , if we wanted to:
 $$
-1^{2} + 2^{2} + 3^{2} + 4^{2} + 5^{2} + 6^{2} + 7^{2} + 8^{2} + 9^{2} + 1 0^{2} = 3 8 5 = \frac{1}{6} (1 0) (1 1) (2 1)
+1^{2} + 2^{2} + 3^{2} + 4^{2} + 5^{2} + 6^{2} + 7^{2} + 8^{2} + 9^{2} + 10^{2} = 385 = \frac{1}{6} (10) (11) (21)
 $$
 Remember, though, that this formula is claimed to be valid for any value of  $n$ . Checking individual results by hand would take forever, because there are an infinite number of natural numbers. No matter how many individual values of  $n$  we check, there will always be larger values, and how do we know that the formula doesn't break down for some large value? We need a far more efficient procedure, mathematically and temporally speaking, to somehow verify the formula for all values of  $n$  in just a few steps. We have an idea in mind, of course (it's the upcoming rigorous version of mathematical induction), and here we will explain how the procedure works, in a broad sense.
 
-# 2.3.1 The Domino Analogy
+## 2.3.1 The Domino Analogy
 
 Pretend that we have a set of dominoes. This is a special set of dominoes because we have an infinite number of them (!) and we can imagine anything we want
 
@@ -452,7 +456,7 @@ $$
 Now, this may seem a little silly because the only "work" we have saved is not having to "do the arithmetic" to write  $1^2 = 1$ . Let's use this procedure on a case with larger numbers so we can more convincingly illustrate the benefit of this method. Let's assume that Domino 10 has fallen. (In case you are worried about this assumption, we wrote the full sum a few paragraphs ago and you can verify it there.) This means we know that
 
 $$
-\sum_{k = 1}^{1 0} k^{2} = \frac{1}{6} (1 0) (1 1) (2 1) = 3 8 5
+ \sum_{k = 1}^{10} k^{2} = \frac{1}{6} (10) (11) (21) = 385
 $$
 
 is a true statement. Let's use this to verify the statement written on Domino 11, which is
@@ -466,7 +470,7 @@ The sum written on Domino 11 has 11 terms, and the first 10 are exactly the sum 
 terms:
 
 $$
-\begin{array}{l} \sum_{k = 1}^{1 1} k^{2} = \left(1^{2} + 2^{2} + \dots + 1 0^{2}\right) + 1 1^{2} \\ = \left(\sum_{k = 1}^{1 0} k^{2}\right) + 1 1^{2} \\ = 3 8 5 + 1 2 1 \\ = 5 0 6 \\ = \frac{1}{6} 3 0 3 6 = \frac{1}{6} (1 1) (1 2) (2 3) \\ \end{array}
+\begin{array}{l} \sum_{k = 1}^{11} k^{2} = \left(1^{2} + 2^{2} + \dots + 10^{2}\right) + 11^{2} \\ = \left(\sum_{k = 1}^{10} k^{2}\right) + 11^{2} \\ = 385 + 121 \\ = 506 \\ = \frac{1}{6} 3036 = \frac{1}{6} (11) (12) (23) \\ \end{array}
 $$
 
 Look at all of the effort we saved! Why bother reading the first 10 terms of the sum if we know something about them already?
@@ -556,7 +560,7 @@ Look at that; they're identical! Thus, we have shown that Domino  $n$  is guaran
 
 Think about the differences between what we have done with this "domino technique" and what we did before to derive the expressions we just proved. Did we use any ellipses in this section? Why is it better to prove a formula this way? Could we have used the domino induction technique to derive the formulas themselves?
 
-# 2.3.2 Other Analogies
+## 2.3.2 Other Analogies
 
 The Domino Analogy is quite popular, but it's not the only description of how induction works. Depending on what you read, or who you talk to, you might learn of a different analogy, or some other kind of description altogether. Here, we'll describe a couple that we've heard of before. It will help solidify your understanding of induction (at least as far as we've developed it) to think about how these analogies are all equivalent, fundamentally.
 
@@ -576,7 +580,7 @@ backyard, too! Doug heads that way, his tummy rumbling. He doesn't find any brea
 
 If we were keeping track of Doug's progress, we might wonder whether he eventually gets to every yard. Let's say we also knew ahead of time that nobody has any bread. This means that whenever he's in someone's yard, he will definitely go to the next house, still searching for a meal. This means that he will definitely get to every house! That is, no matter which house we live in, no matter how large the number on our front door might be, at some point we will see Doug wandering around our backyard. (Unfortunately, he will go hungry all this time, though! Poor Doug.)
 
-# 2.3.3 Summary
+## 2.3.3 Summary
 
 Let's reconsider what we've accomplished with the two example puzzles we've seen thus far, and the analogies we've given. In our initial consideration of each puzzle, we identified some aspect of the structure of the puzzle where a "fact" depended on a "previous fact". In the case of the cubic numbers, we found a way to express  $(n + 1)^3$  in terms of  $n^3$ ; in the case of the lines in the plane, we described how many regions were added when an extra line was added to a diagram with  $n$  lines. From these observations, we applied this encapsulated knowledge over and over until we arrived at a "fact" that we knew, for a "small" value of  $n$  (in both cases, here,  $n = 1$ ). This allowed us to derive a formula or equation or expression for a general fact that should hold for any value of  $n$ .
 
@@ -596,9 +600,9 @@ Think of it this way: pretend you have a vested interest in some particular fact
 
 Think about this in terms of the Domino Analogy, as well. Do we care whether or not there is some "ending point" of the line of dominoes, so that they all fall into a wall somewhere? Of course not; the line goes on forever. Every domino will eventually fall over, and we don't even care how "long" that takes. Likewise, we know Doug will get to everyone's yard; we don't care "when" he gets to any individual yard, just that he gets to all of them.
 
-# 2.3.4 Questions & Exercises
+### 2.3.4 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -608,7 +612,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (3) Why is it the case that our work with the cubes didn't prove the summation formula? Why did we still need to go through all that work?  
 (4) Think about the Domino Analogy. Is it a problem that the line of dominoes goes on forever? Does this mean that there are some dominoes that will never fall down? Try to describe what this means in terms of the analogy.
 
-# Try It
+### Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -635,11 +639,11 @@ $$
 - (b) What if we want to prove that only every even value of  $n$  makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?  
 - (c) What if we want to prove that only every value of  $n$  greater than or equal to 4 makes a True statement? Can we do this? Can you come up with a modification of one of the analogies we gave that would describe your method?
 
-# 2.4 Two More (Different) Examples
+## 2.4 Two More (Different) Examples
 
 This short section serves a few purposes. For one, we don't want you to get the idea, right away, that induction is all about proving a numerical formula with numbers and polynomials. Induction is so much more useful than that! One of the following examples, in particular, will be about proving some abstract property is true for any "size" of the given situation. You will see how it still falls under the umbrella of "induction", but you will also notice how it is different from the previous examples. Furthermore, these examples will illustrate that sometimes we need to know "more information" to knock over some dominoes. In the previous examples, we only needed to know that Domino  $n$  fell to guarantee that Domino  $n + 1$  will fall. Here, though, we might have to know about several previous dominoes. After these two examples, we will summarize how this differs from the domino definition given above, and preview a broader definition of the technique of induction, as it applies to these examples.
 
-# 2.4.1 Dominos and Tilings
+## 2.4.1 Dominos and Tilings
 
 This next example is a little more complicated than the first two. We will still end up proving a certain numerical formula, but the problem is decidedly more visual than just manipulating algebraic expressions. Furthermore, we'll notice an interesting "kink" in the starting steps, where we have to solve a couple of "small cases" before being able to generalize our approach. This will be our first consideration of how the technique of induction can be generalized and adapted to other situations.
 
@@ -718,7 +722,7 @@ about these issues for a bit and then read on. We'll talk about them more in-dep
 
 By the way, did you notice something interesting about our solution to this example? Do you know any other sequences of numbers that behave similarly? Think about it …
 
-# 2.4.2 Winning Strategies
+## 2.4.2 Winning Strategies
 
 This example will be our first induction puzzle that doesn't prove a numerical formula! It might seem strange to think about that, but it's true, as you'll see. This is actually more common in mathematics than you might think, too: a problem or mathematical object might have some underlying inductive structure without depending on something algebraic or arithmetic.
 
@@ -770,9 +774,9 @@ How might we prove this? How does this even fit into this chapter on induction? 
 
 Read back through these four examples from this chapter and think about how they are similar and how they are different. Try to come up with a more precise, mathematical description of mathematical induction using some better terminology, perhaps of your own invention. (By this, we mean something better than our intuitive analogy. You'd be surprised at how well you might be able to describe induction without really knowing what you "ought" to say, and you'll actually learn a lot, in the process!) In due time, we will have a rigorous statement to make, and prove, about mathematical induction and its various forms. In the meantime, we need to take a trip through some other areas of mathematics to build up the necessary language, notation, and knowledge to come back and tackle this problem. Before we go, though, we should mention a few useful applications of mathematical induction.
 
-# 2.4.3 Questions & Exercises
+### 2.4.3 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -781,7 +785,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (3) What is the difference between writing  $T(n) = T(n - 1) + T(n - 2)$  and  $T(n + 2) = T(n + 1) + T(n)$ ?  
 (4) What is the winning strategy in the Takeaway game? Try playing with a friend who doesn't know the game, and use that strategy as player  $P_{2}$ . How frustrated do they get every time you win? Do they start to catch on?
 
-# Try It
+#### Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -790,9 +794,9 @@ Try answering the following short-answer questions. They require you to actually
 (3) Challenge: What happens if you play Takeaway with three piles of equal sizes? Can you find a winning strategy for either player? Try playing with a friend and see what happens!  
 (4) Look up the Fibonacci numbers. How are they related to the sequence of numbers  $T(n)$  we found in the domino tiling example?
 
-# 2.5 Applications
+## 2.5 Applications
 
-# 2.5.1 Recursive Programming
+## 2.5.1 Recursive Programming
 
 The concepts behind mathematical induction are employed heavily in computer science, as well. Think back to how we first derived the formula for  $\sum_{k=1}^{n} k^2$ .
 
@@ -841,7 +845,7 @@ This follows the same idea as the factorial program above (let the program call 
 
 Try to compare the programs Fibonacci and factorial, especially in regards to the inductive processes we have been investigating in this chapter. Do they use similar ideas? How do they relate to the "domino" analogy of mathematical induction that we outlined? Think of the "fact" written on Domino  $n$  as being the computation of the correct value of  $n!$  or  $F(n)$ . How does the analogy work in each case? Will all the dominos fall? Keep these questions in mind as you read on. There is some very powerful mathematics underlying all of these ideas.
 
-# 2.5.2 The Tower of Hanoi
+## 2.5.2 The Tower of Hanoi
 
 Let's take a short break and play a game. Well, it's not exactly a break because this is, in a sense, an inductive game, so it's completely relevant. But it is a
 
@@ -893,7 +897,7 @@ This shows that the way to solve the 3-disk puzzle involves two iterations of so
 Now that we have some insight into how to optimally solve the puzzle, let's identify how many moves that procedure requires. Recognizing that solving this puzzle uses a recursive algorithm, we realize that proving anything about the optimal solution will require induction. Accordingly, we would need to identify a "starting point" for our line of dominos, and it should correspond to the "smallest" or "simplest" version of the puzzle. For the Tower of Hanoi, this is the 1-disk puzzle. Of course, this is hardly a "puzzle" because we can solve it in one move, by simply shifting the only disk from one rod to any other rod. If we let  $M(n)$  represent the number of moves required to optimally solve the  $n$ -disk puzzle, then we've just identified  $M(1) = 1$ . To identify  $M(2)$ , we can use our observation from the previous paragraph and say that
 
 $$
-\underbrace {M (2)}_{\text{so lv e2 -d is k}} = \underbrace {M (1)}_{\text{so lv e1 -d is k}} + \underbrace {1}_{\text{sh if tl ar ge st di sk}} + \underbrace {M (1)}_{\text{so lv e1 -d is k}} = 1 + 1 + 1 = 3
+\underbrace {M (2)}_{\text{solve 2-disk}} = \underbrace {M (1)}_{\text{solve 1-disk}} + \underbrace {1}_{\text{shift largest disk}} + \underbrace {M (1)}_{\text{solve 1-disk}} = 1 + 1 + 1 = 3
 $$
 
 and then it must be that
@@ -914,22 +918,22 @@ $$
 M (n) = 2 M (n - 1) + 1 \quad \text{an d} \quad M (1) = 1
 $$
 
-# 2.5. APPLICATIONS
+## 2.5. Applications
 
 and see if you can derive the formula  $M(n) = 2^n - 1$ . The reason such a formula is nicer than the above relationship is that, now,  $M(n)$  depends only on  $n$ , and not on previous terms (like  $M(n - 1)$ , for example). This relationship and others like it are known as recurrence relations, and they can be rather difficult to solve, in general!
 
 We know how to solve this one, though, and it yields  $M(n) = 2^n - 1$ . We will leave it to you to verify this. You can do so by checking a few values in the equation above, but we all know that isn't a proof. Try working through the inductive steps to actually prove it! We have already done most of the work, but it will be up to you to arrange everything carefully and clearly. Remember that you should identify what the "fact" on each domino is, ensure that Domino 1 falls, and then make a general argument about Domino  $n$  toppling into Domino  $(n + 1)$ . Try to write that proof. Do the details make sense to you? Try showing your proof to a friend and see if they understand it. Did you need to tell them anything else or guide them through it? Think about the best way to explain your method and steps so that the written version suffices and you don't have to add any verbal explanations.
 
-# 2.5.3 Questions & Exercises
+### 2.5.3 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
 (1) How is a recursive program inductive?  
 (2) What is the inductive structure of the Tower of Hanoi? Where did we solve the 2-disk puzzle while solving the 3-disk puzzle?
 
-# Try It
+### Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -937,11 +941,11 @@ Try answering the following short-answer questions. They require you to actually
 (2) Follow the steps of the psuedocode Fibonacci to compute  $F(5)$ .  
 (3) Solve the Tower of Hanoi puzzle with 4 disks. Make sure that you can do it in the optimal number of moves,  $2^4 - 1 = 15$ .
 
-# 2.6 Summary
+## 2.6 Summary
 
 We have now seen some examples of inductive arguments. We realized that some of the puzzles we were solving used similar argument styles, and explored several examples to get a flavor for the different issues that might come up in such arguments. Specifically, we saw how inductive arguments are not always about proving a summation formula or an equation: inductive arguments can apply to any situation where a fact depends on a "previous instance" of that fact. This led us into developing an analogy for how induction works, mathematically speaking. We are comfortable with thinking of induction in terms of the "Domino Analogy" for now, but one of our main goals in moving forwards is rigorously stating and proving a principle of induction. For now, let's get lots of practice working with these kinds of arguments. This is what this chapter's exercises are meant to achieve. Later on, once we've formalized induction, we'll be better off for it, and we'll have a thorough understanding of the concept!
 
-# 2.7 Chapter Exercises
+## 2.7 Chapter Exercises
 
 Here are some problems to get you comfortable working with inductive-style arguments. We aren't looking for fully rigorous proofs here, just a good description of what is going on and a write-up of your steps. We'll come back to some of these later and rigorously prove them, once we've established the Principle of Mathematical Induction (PMI) and a corresponding proof strategy.
 
@@ -1062,7 +1066,7 @@ However, not knowing the customs, the foreigner makes the mistake of mentioning 
 
 What effect, if anything, does this faux pas have on the tribe?
 
-# 2.8 Lookahead
+## 2.8 Lookahead
 
 In this chapter, we have introduced you to the concept of mathematical induction. We looked at a few examples of puzzles where an inductive process guided our solution, and then we described how a proof by induction would follow to rigorously verify that solution. With the mathematical techniques and concepts we have at hand thus far, we had to rely on a non-technical analogy to describe this process to you. Thinking of an infinite line of dominos with "facts" written on them knocking into each other is a perfectly reasonable interpretation of this process, but it fails to represent the full mathematical extent of induction. In a way, it's like having a friend describe to you how to swing a golf club, even though you've never played golf before. Sure, they can provide you with some mental imagery of what a swing "feels like", but without getting out there and practicing yourself, how will you truly understand the mechanics of the golf swing? How will you learn how to adapt your swing, or tell the differences between using a driver and a five iron and a sand wedge? By investigating the underlying mechanics and practicing with those concepts, we hope to gain a better understanding of mathematical induction so that, in the future, we can use it appropriately, identify situations where it would be useful, and, eventually, learn how to adapt it to other situations. Of course, it will help to have that domino analogy in mind to guide our intuition, but we should also remember that it is not rigorous mathematics. It also doesn't perfectly describe the other examples we discussed, where a falling domino depended on not only the one immediately behind it, but several others before it.
 

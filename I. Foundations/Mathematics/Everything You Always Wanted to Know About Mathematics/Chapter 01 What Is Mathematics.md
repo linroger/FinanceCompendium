@@ -1,26 +1,26 @@
 ---
 title: Chapter 01 What Is Mathematics
-parent_directory: I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics
-formatted: 2025-12-21 09:20:00 AM
+parent_directory: Everything You Always Wanted to Know About Mathematics
+formatted: 2025-12-21 12:00:00 PM
 formatter_model: grok-code-fast-1
 cli-tool: opencode
 primary_tags:
-- mathematical proofs
-- pythagorean theorem
-- mathematical reasoning
-- mathematical arguments
-- mathematical truth
+  - mathematical proofs
+  - mathematical reasoning
+  - mathematical definitions
+  - axioms postulates
+  - godel incompleteness theorems
 secondary_tags:
-- mathematical induction
-- mathematical discoveries
-- triangle geometry
-- mathematical proof examples
-- mathematical problem solving
-- mathematical thinking
-- mathematical creativity
-- mathematical verification
-- mathematical explanations
-- mathematical foundations
+  - pythagorean theorem
+  - mathematical arguments
+  - mathematical truth
+  - mathematical algorithms
+  - philosophy of mathematics
+  - mathematical language
+  - pattern recognition
+  - theorem proof structure
+  - mathematical consistency
+  - mathematical completeness
 cssclasses: academia
 ---
 
@@ -48,7 +48,7 @@ Have you ever wondered why it's true? How would you explain it to a skeptical fr
 
 Now, what exactly constitutes a proof? How do we know that an explanation is sufficiently clear and concise? Answering this question is, in general, rather difficult and is part of the reason why mathematics can be viewed as an art as much as it is a science. We deal with cold, hard facts, yes, but being able to reason with these facts and satisfactorily explain them to others is an art form in itself.
 
-## Examples of "Proofs"
+###### Examples of "Proofs"
 
 Let's look at some sample "proofs" and see whether they work well enough. (We say "proof" for now until we come up with a more precise definition for it, later on.) Here's the first one:
 
@@ -112,7 +112,7 @@ Did that make any sense to you? Finally, here's one last "proof" to consider.
 
 "Proof" 4. The Pythagorean Theorem must be true, otherwise my teachers have been lying to me.  $\square$
 
-## Discussion
+#### Discussion
 
 ### Clarity
 
@@ -148,7 +148,7 @@ This discussion shows that "Proof" 1 is actually a good proof. Amongst all four,
 
 ## Definition, Examples, and Uses
 
-### Theorem and Proof
+##### Theorem and Proof
 
 Theorem 1.1.3 (Infinitude of the Primes). There are infinitely-many prime numbers.
 
@@ -170,9 +170,9 @@ What do you think of this "proof"? Are you convinced? It feels a little differen
 
 Let's talk about a different type of number, now: rational numbers. You might know rational numbers as "fractions" or "quotients" or "ratios".
 
-### Definition and Examples
+##### Definition and Examples
 
-### Questions
+##### Questions
 
 Given this definition of rational/irrational, we might wonder how we can combine irrational numbers to produce a rational number. Try to answer the following questions on your own. If your answer is "yes", try to find an example, and if your answer is "no", try to explain why the desired situation is not possible.
 
@@ -206,9 +206,9 @@ There are plenty of other concrete examples that answer this question, though. C
 
 # 1.2.1 Simply Symbols
 
-## Mathematics is a Language
+### Mathematics is a Language
 
-### Choosing Definitions Properly
+##### Choosing Definitions Properly
 
 As a concrete example, let's return to Definition 1.1.2 of a prime number that we saw in the previous subsection. It said:
 
@@ -238,9 +238,9 @@ There is a special property about these factorizations, too: in general, a prime
 
 that definitions should be driven by both logic and usefulness, and this can change over time and stir some debate.
 
-## Mathematicians Study Patterns
+### Mathematicians Study Patterns
 
-### Bad "Proof" 1
+##### Bad "Proof" 1
 
 First, we have a "proof" that  $1 = 2$ , so we know there must be something wrong with this one. Can you find the error? Which standard does it violate? Precision, logic, or clarity?
 
@@ -292,9 +292,9 @@ divide both sides by  $y$
 
 The issue here is precision. After factoring in line four, it seems convenient and wise to divide by the common factor  $(x - y)$  to obtain line five; however, line one tells us that  $x = y$  so  $x - y = 0$ , and division by zero is not allowed! Working with the variables  $x$  and  $y$  was just a way to throw you off the scent and disguise the division by zero. (While we're on the topic, why is division by zero not allowed? Can you think of a reasonable explanation? Think about it in terms of multiplication.)
 
-### Bad "Proof" 2
+##### Bad "Proof" 2
 
-## Mathematics Uses the "Inclusive Or"
+### Mathematics Uses the "Inclusive Or"
 
 Since this word just arose, let's mention the use of  $or$  in the sentence above. When we say " $a = b$  or  $a = -b$ ", we mean that at least one of the two statements must be true, possibly both. Now, if both  $a \neq 0$  and  $b \neq 0$ , then only one of the concluding statements can be true; that is, in that context, only one of the roots (positive or negative) will be the correct one and not both. If  $b = 0$ , though, then both of the concluding statements say the same thing,  $a = 0$ , so it would be illogical to dictate that  $or$  means only one of the statements can be true and doesn't allow both of them to be true, simultaneously. In other situations, this distinction makes a more marked difference.
 

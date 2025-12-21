@@ -23,13 +23,13 @@ DAVID SCHARFSTEIN
 
 # Oaktree and the Restructuring of CIT Group (B)
 
-On Wednesday, July 15, 2009, CIT announced the termination of its talks with the U.S. government, in which it had attempted to receive a guarantee of newly issued debt under the Temporary Liquidity Guarantee Program (TLGP). On Monday, July 20th, a group of six CIT creditors stepped in with a  \$3 billion rescue loan package.\(^{1}$  Over the weekend, CIT rejected a private offer from General Electric of over \)2 billion in secured loans. While GE's offer was less costly and required less collateral than the loans from bondholders, CIT rejected the offer because loan funds would not have been available until July 31. $^{2}$
+On Wednesday, July 15, 2009, CIT announced the termination of its talks with the U.S. government, in which it had attempted to receive a guarantee of newly issued debt under the Temporary Liquidity Guarantee Program (TLGP). On Monday, July 20th, a group of six CIT creditors stepped in with a $3 billion rescue loan package.^{1}$ Over the weekend, CIT rejected a private offer from General Electric of over $2 billion in secured loans. While GE's offer was less costly and required less collateral than the loans from bondholders, CIT rejected the offer because loan funds would not have been available until July 31. $^{2}$
 
 ## Terms of the Rescue Loan
 
-The loan package consisted of a  \$2 billion term-loan facility, available immediately, and a\$ 1 billion delay-draw term loan facility, available at the end of the month. Other CIT unsecured creditors could participate in the syndication of the \$1 billion delay-draw facility. Both facilities matured on January 20, 2012, and both facilities set interest at LIBOR plus 1,000 basis points, with a 3% LIBOR floor, payable monthly. The facility also included a variety of fees: (i) a commitment fee of 5%; (ii) an undrawn commitment fee of 1% per annum; (iii) a 2% exit fee on amounts prepaid or repaid; and (iv) a prepayment premium of 6.5% percent on the loan amount CIT might want to reduce.
+The loan package consisted of a $2 billion term-loan facility, available immediately, and a $1 billion delay-draw term loan facility, available at the end of the month. Other CIT unsecured creditors could participate in the syndication of the \$1 billion delay-draw facility. Both facilities matured on January 20, 2012, and both facilities set interest at LIBOR plus 1,000 basis points, with a 3% LIBOR floor, payable monthly. The facility also included a variety of fees: (i) a commitment fee of 5%; (ii) an undrawn commitment fee of 1% per annum; (iii) a 2% exit fee on amounts prepaid or repaid; and (iv) a prepayment premium of 6.5% percent on the loan amount CIT might want to reduce.
 
-The \(3 billion loan was secured by all unencumbered CIT assets. The loan included a minimum collateral coverage covenant requiring the ratio of the book value of the collateral securing the loan to exceed a 5:1 ratio on a quarterly basis, and for fair value to exceed a 3:1 ratio as of the end of each fiscal year. On July 31, 2009, the ratio of the book value of the collateral securing the credit facility to the outstanding loans was estimated to be greater than 8:1. Through contractual mechanisms (see Exhibit 1), fee schedule, and collateral requirements, the creditors effectively made any third-party follow-up financing unattractive, and preserved the option of debtor-in-possession (DIP) financing for themselves.
+The $3 billion loan was secured by all unencumbered CIT assets. The loan included a minimum collateral coverage covenant requiring the ratio of the book value of the collateral securing the loan to exceed a 5:1 ratio on a quarterly basis, and for fair value to exceed a 3:1 ratio as of the end of each fiscal year. On July 31, 2009, the ratio of the book value of the collateral securing the credit facility to the outstanding loans was estimated to be greater than 8:1. Through contractual mechanisms (see Exhibit 1), fee schedule, and collateral requirements, the creditors effectively made any third-party follow-up financing unattractive, and preserved the option of debtor-in-possession (DIP) financing for themselves.
 
 The credit facility was arranged by Barclays, and included among its lenders California-based Oaktree Capital Management, Pacific Investment Management Co. (PIMCO), Capital Research & Management, New York-based Centerbridge Partners, Boston-based Baupost Group, and Greenwich, Connecticut-based Silver Point Capital. These six creditors collectively comprised the Lenders Steering Committee. Members of Steering Committee were restricted from changing their positions in CIT unsecured debt, and would not be allowed to buy CIT assets in a direct sale.
 
@@ -42,19 +42,19 @@ The loan contained provisions requiring CIT to develop a restructuring plan that
 "Guarantors" means Company and each Subsidiary Guarantor.  
 "Subsidiary Guarantor" means each Wholly-Owned Domestic Subsidiary of Company.
 
-# SECTION 5. AFFIRMATIVE COVENANTS
+### SECTION 5. AFFIRMATIVE COVENANTS
 
 […]
 
 5.17 Approved Restructuring Plan. Company will use its best efforts (subject to the directors' fiduciary duties and Lenders Steering Committee's obligation to negotiate in good faith) to have an Approved Restructuring Plan (which shall not require the sale of any assets to one or more of the Lenders Steering Committee) acceptable to Company adopted by August 14, 2009 and shall comply with such plan in all material respects at all times thereafter. Unless extended by the Lenders Steering Committee, Company shall adopt such an Approved Restructuring Plan by October 1, 2009 and shall comply with such plan at all times thereafter.
 
-# SECTION 7. GUARANTY
+### SECTION 7. GUARANTY
 
 7.1 Guaranty of the Obligations. Subject to the provisions of Section 7.2, Guarantors jointly and severally hereby irrevocably and unconditionally guaranty to Administrative Agent for the ratable benefit of the Beneficiaries the due and punctual payment in full of all Obligations when the same shall become due, whether at stated maturity, by required prepayment, declaration, acceleration, demand or otherwise (including amounts that would become due but for the operation of the automatic stay under Section 362(a) of the Bankruptcy Code, 11 U.S.C. §362(a)) (collectively, the "Guaranteed Obligations"). […]
 
 […]
 
-# 7.11 Bankruptcy, etc.
+#### 7.11 Bankruptcy, etc.
 
 (a) So long as any Guaranteed Obligations remain outstanding, no Guarantor shall, without the prior written consent of Administrative Agent acting pursuant to the instructions of Requisite Lenders, commence or join with any other Person in commencing any bankruptcy, reorganization or insolvency case or proceeding against Borrowers or any other Guarantor. The obligations of Guarantors hereunder shall not be reduced, limited, impaired, discharged, deferred, suspended or terminated by any case or proceeding, voluntary or involuntary, involving the bankruptcy, insolvency, receivership, reorganization, liquidation or arrangement of Borrowers or any other Guarantor or by any defense which Borrowers or any other Guarantor may have by reason of the order, decree or decision of any court or administrative body resulting from any such proceeding.  
 (b) Each Guarantor acknowledges and agrees that any interest on any portion of the Guaranteed Obligations which accrues after the commencement of any case or proceeding referred to in clause (a) above (or, if interest on any portion of the Guaranteed Obligations ceases to accrue by operation of law by reason of the commencement of such case or proceeding, such interest as would have accrued on such portion of the Guaranteed Obligations if such case or proceeding had not been commenced) shall be included in the Guaranteed Obligations because it is the intention of Guarantors and Beneficiaries that the Guaranteed Obligations which are guaranteed by Guarantors pursuant hereto
@@ -63,15 +63,15 @@ should be determined without regard to any rule of law or order which may reliev
 
 […]
 
-# SECTION 9. AGENTS
+### SECTION 9. AGENTS
 
 […]
 
-# 9.11 Lenders Steering Committee.
+#### 9.11 Lenders Steering Committee.
 
 (a) The "Lenders Steering Committee" shall be a committee which shall initially consist of the six members identified on Schedule 9.11 hereof, and shall from time to time include Persons that become a member of the Lenders Steering Committee pursuant to this Section 9.11 (each a "Steering Lender") and shall not include any other Person, except as set forth below.  
-(b) Any additional Person may be added to the Lenders Steering Committee with the consent of not fewer than a majority of the existing Steering Lenders, provided that such additional Person (together with its affiliates) holds (i) Exposure of not less than  \$100,000,000 in principal amount of the Loans and (ii) not less than\$ 250,000,000 in aggregate principal amount of bond Indebtedness of Company, after which such Person shall constitute a "Steering Lender" for all purposes hereunder (each of the foregoing (i) and (ii) together, the "Initial Eligibility Criteria"); provided, however, that in no event shall the aggregate number of members of the Lenders Steering Committee at any time exceed seven (7) members.  
-(c) Any Steering Lender may resign from the Lenders Steering Committee at any time, and any member of the Lenders Steering Committee that, at any time, ceases to meet each of the Continuing Eligibility Criteria (as defined below) other than solely as a result of tendering into the Tender Offer will automatically be deemed to have resigned from the Lenders Steering Committee. As used herein, "Continuing Eligibility Criteria" means, with respect to any Steering Lender, (i) that such Steering Lender (or its affiliates) holds Exposure of not less than \(100,000,000 in principal amount of the Loans and (ii) that such Steering Lender (together with its affiliates) retains ownership of at least \(50.0\%\) of the aggregate bond Indebtedness of Company (other than Loans) that such Steering Lender and its affiliates held as of the date that such Steering Lender became a member of the Lenders Steering Committee.
+(b) Any additional Person may be added to the Lenders Steering Committee with the consent of not fewer than a majority of the existing Steering Lenders, provided that such additional Person (together with its affiliates) holds (i) Exposure of not less than $100,000,000 in principal amount of the Loans and (ii) not less than $250,000,000 in aggregate principal amount of bond Indebtedness of Company, after which such Person shall constitute a "Steering Lender" for all purposes hereunder (each of the foregoing (i) and (ii) together, the "Initial Eligibility Criteria"); provided, however, that in no event shall the aggregate number of members of the Lenders Steering Committee at any time exceed seven (7) members.  
+(c) Any Steering Lender may resign from the Lenders Steering Committee at any time, and any member of the Lenders Steering Committee that, at any time, ceases to meet each of the Continuing Eligibility Criteria (as defined below) other than solely as a result of tendering into the Tender Offer will automatically be deemed to have resigned from the Lenders Steering Committee. As used herein, "Continuing Eligibility Criteria" means, with respect to any Steering Lender, (i) that such Steering Lender (or its affiliates) holds Exposure of not less than $100,000,000 in principal amount of the Loans and (ii) that such Steering Lender (together with its affiliates) retains ownership of at least $50.0\%$ of the aggregate bond Indebtedness of Company (other than Loans) that such Steering Lender and its affiliates held as of the date that such Steering Lender became a member of the Lenders Steering Committee.
 
 […]
 

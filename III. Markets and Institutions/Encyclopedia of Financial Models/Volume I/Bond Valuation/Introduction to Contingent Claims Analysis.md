@@ -1,16 +1,22 @@
 ---
 title: "Introduction to Contingent Claims Analysis"
 parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
-formatted: 2025-12-21 09:17:25 AM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: 2025-12-21 09:25:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
   - contingent claims analysis
-  - bond valuation
-secondary_tags:
+  - financial instrument valuation
   - states of the world
+  - option pricing theory
+  - risk management strategies
+secondary_tags:
   - arrow-debreu securities
+  - utility maximization
   - incomplete markets
+  - derivative instruments
+  - convertible securities
+  - market completeness
 cssclasses: academia
 ---
 
@@ -77,7 +83,7 @@ $$
 We can use the same reasoning to find the risk-free rate of return that must obtain in this market. Since a risk-free instrument is one that offers the same payoff irrespective of which state of the world obtains, we wish to find a combination of the two stocks that gives the same time 1 payoff, here denoted  $k$ , in either state of the world. That is, the following equation must be solved for  $\alpha$ :
 
 $$
-\alpha \left( \begin{array}{c} 1 0 \\ 8 \end{array} \right) + (1 - \alpha) \left( \begin{array}{c} 7 \\ 9 \end{array} \right) = \left( \begin{array}{c} k \\ k \end{array} \right)
+\alpha \left( \begin{array}{c} 10 \\ 8 \end{array} \right) + (1 - \alpha) \left( \begin{array}{c} 7 \\ 9 \end{array} \right) = \left( \begin{array}{c} k \\ k \end{array} \right)
 $$
 
 We can write the payoff  $k$  as equal to either of the following payoffs:
@@ -130,7 +136,7 @@ Figure 1 Market Opportunity Line, Showing Implied Prices of Unit Claims. Note:  
 To illustrate, consider point  w_{1} = \1,457 ,  w_{2} = 0 . Let  n_{A}  be the number of shares of stock  A  and  n_{B}  the number of shares of stock  B  purchased. If state 1 occurs, the terminal wealth will be
 
 $$
-1 0 n_{A} + 7 n_{B} = \$ 1, 4 5 7
+10 n_{A} + 7 n_{B} = \$ 1,457
 $$ while if state 2 occurs, we must have
 
 

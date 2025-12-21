@@ -1,17 +1,36 @@
 
+---
+title: "Managing Credit Spread Risk Using Duration Times Spread (DTS)"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: "2025-12-21 09:18:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
+primary_tags:
+  - credit spread risk
+  - duration times spread
+  - credit risk management
+  - spread duration
+  - fixed income risk
+secondary_tags:
+  - credit securities
+  - spread volatility
+  - relative spread changes
+  - portfolio risk management
+  - credit default swaps
+  - systematic risk
+  - idiosyncratic risk
+  - beta adjusted duration
+  - spread level dependence
+  - risk projection
+  - hedging strategies
+  - portfolio construction
+cssclasses: academia
+---
+
 # Managing Credit Spread Risk Using Duration Times Spread (DTS)
 
-ARIK BEN DOR, PhD
-
-Managing Director, Barclays
-
-LEV DYNKIN, PhD
-
-Managing Director, Barclays
-
-JAYHYMAN, PhD
-
-Managing Director, Barclays, Tel Aviv
+**Authors:** Arik Ben Dor, PhD; Lev Dynkin, PhD; Jay Hyman, PhD  
+**Affiliation:** Managing Directors, Barclays
 
 Abstract: Extensive empirical research has shown that the spread volatility of credit securities is linearly proportional to their level of spread. This finding holds true across corporate and sovereign issuers, for both cash and credit default swaps. A superior measure of spread risk for credit securities is the product of spread duration and spread, a measure referred to as duration times spread (DTS). DTS measures the sensitivity of the price of a bond to relative changes in spread, which are much more stable through time and cross-sectionally than absolute spread volatilities. DTS allows for better risk projection, hedging, replication, and portfolio construction.
 
@@ -27,18 +46,18 @@ The shift from spread duration exposures to DTS exposures as the measure of mark
 
 The DTS concept has many implications for portfolio managers, both in terms of the way they manage exposures to industry and credit quality factors (systematic risk) and in terms of their approach to issuer exposures (nonsystematic risk). After a short review of the DTS concept and the empirical evidence supporting it, we discuss how it can help investors improve projected risk estimates, hedging, replication, and portfolio construction.
 
-# THE DTS CONCEPT
+## The DTS Concept
 
 To understand the intuition behind DTS, consider the return,  $R_{\mathrm{spread}}$ , due strictly to change in spread. Let  $D$  denote the spread duration of a bond and  $s$  its spread; the spread change return is then:
 
 $$
-R_{\text{sp re ad}} = - D \cdot \Delta s \tag {1}
+R_{\text{spread}} = -D \cdot \Delta s \tag{1}
 $$
 
 Or, equivalently,
 
 $$
-R_{\text{sp re ad}} = - D \cdot s \cdot \frac{\Delta s}{s} \tag {2}
+R_{\text{spread}} = -D \cdot s \cdot \frac{\Delta s}{s} \tag{2}
 $$
 
 That is, just as spread duration is the sensitivity to an absolute change in spread (e.g., spreads widen by 5 bps), DTS  $(D\cdot s)$  is the sensitivity to a relative change in spread (e.g., spreads widen by  $5\%$ ). Note that this notion of relative spread change provides for a formal expression of the idea mentioned earlier—that credits with wider spreads are riskier since they tend to experience greater spread changes.
@@ -47,12 +66,12 @@ That is, just as spread duration is the sensitivity to an absolute change in spr
 In the absolute spread change approach shown in equation (1), we can see that the volatility of excess returns can be approximated by
 
 $$
-\sigma_{\text{re tu rn}} \cong D \cdot \sigma_{\text{sp re ad}}^{\text{ab so lu te}} \tag {3}
+\sigma_{\text{return}} \cong D \cdot \sigma_{\text{spread}}^{\text{absolute}} \tag{3}
 $$ while in the relative spread change approach of equation (2), excess return volatility follows
 
 
 $$
-\sigma_{\text{re tu rn}} \cong D \cdot s \cdot \sigma_{\text{sp re ad}}^{\text{re la ti ve}} \tag {4}
+\sigma_{\text{return}} \cong D \cdot s \cdot \sigma_{\text{spread}}^{\text{relative}} \tag{4}
 $$
 
 Given that the two representations above are equivalent, why should one of them be preferable to another? The key advantage of modeling changes in spreads in relative terms is the resulting stability. The above equations, for simplicity, present returns and volatilities as idealized concepts. We have not added subscripts to specify whether we are referring to specific securities or sectors, or over what time period. Yet the way spread changes of different securities relate to each other, or the way volatilities in one time period relate to those in another, can be of critical importance in measuring and controlling portfolio risk.
@@ -62,7 +81,7 @@ For example, to determine a portfolio's exposure to a systematic widening of spr
 Similarly, volatility can be measured or projected in many different ways. Historically realized volatilities can be measured using observed spread changes at a specified frequency over a given sample period. Projections of forward-looking volatilities are the key building blocks of risk management systems. The accuracy with which historically re alized volatilities can project future volatilities is therefore of fundamental importance. If relative spread volatilities can be predicted with greater accuracy than absolute spread volatilities, then equation (4) should be preferred over (3). We found this to be the case, based on extensive empirical evidence from credit markets.
 
 
-# DTS AS BETA-ADJUSTED SPREAD DURATION
+## DTS as Beta-Adjusted Spread Duration
 
 What are the dynamics of credit spread changes? Do spreads tend to widen in parallel, or do wider spreads widen by more? Figure 1 shows a specific example in which spread changes show a clear dependence on spread. The figure shows the changes in spreads experienced by key issuers in the Communications sector of the Barclays Capital Corporate Index in January 2001, during a temporary rally in the midst of the dot-com crisis. It is clear that this sector-wide rally was not characterized by a purely parallel shift; rather, issuers with wider spreads tightened by more.
 
@@ -75,7 +94,7 @@ This idea may strike investors as reminiscent of the idea of "market beta" that 
 
 To demonstrate this, we carried out head-to-head tests of DTS versus empirical betas using weekly spread change data from the credit default swap (CDS) market. In the first test, we measured the empirical betas of each issuer's CDS with respect to its industry peer group. We then tested two different predictors for this beta—either the empirical beta from the prior period, or the ratio of issuer DTS to the industry average DTS as of the beginning of the period. In the second test, we set up long-short CDS trades between two issuers from within the same industry and investigated different approaches to setting up the hedge ratios so as to minimize the systematic risk exposures of the trades. The DTS approach was found to be superior to empirical betas for both tasks.
 
-# THE RELATIONSHIP BETWEEN SPREAD VOLATILITY AND SPREAD LEVEL
+## The Relationship Between Spread Volatility and Spread Level
 
 We now turn our attention to the dependence of spread change behavior on spread level. Figure 2 plots the relation between systematic spread volatility and spread level using over 15 years of monthly spread change data from
 
@@ -85,7 +104,7 @@ Figure 2 Systematic Spread Volatility versus Spread Level Note: Based on monthly
 U.S. credit markets, spanning investment-grade and high-yield rated bonds. The bonds in the Barclays Capital indexes for these markets were partitioned each month by sector, quality, and spread level. The average spread level for each market cell is plotted against the timeseries volatility of the average absolute spread changes in each month. The results suggest that spread volatility can be closely approximated by a simple linear model of the form
 
 $$
-\sigma_{\text{sp re ad}}^{\text{ab so lu te}} (s) \cong \theta \cdot s \tag {5}
+\sigma_{\text{spread}}^{\text{absolute}}(s) \cong \theta \cdot s \tag{5}
 $$
 
 This simple model provides an excellent fit to the data shown in Figure 2, with  $\theta$  equal to  $9.4\%$  irrespective of sector or maturity. Hence, the results suggest that the historical volatility of systematic spread movements can be expressed quite compactly, in terms of a relative spread change volatility of about  $9\%$  per month. That is, spread volatility for a market segment trading at 50 bps should be about 4.5 bps/month, while that of a market segment at 200 bps should be about 18 bps/month. Ben Dor et al. (2007) documented a similar pattern for idiosyncratic volatility: The cross-sectional volatility of credit spread changes across a sec tor also exhibits a linear dependence on spread with about the same slope.
@@ -104,7 +123,7 @@ The results in Figure 3 exhibit the sharp discontinuity in credit market volatil
 
 These results clearly indicate that absolute spread volatility is highly unstable and tends to rise with increasing spread. Computing volatilities based on relative spread change generates a more stable time series. These findings have important implications for the appropriate way of measuring credit exposures and projecting excess return volatility, which we discuss next.
 
-# DTS AND EXCESS RETURN VOLATILITY
+## DTS and Excess Return Volatility
 
 If the volatility of both systematic and idiosyncratic spread changes is proportional to the level of spread, then equation (4) suggests two assertions regarding excess returns. First, excess return volatility should increase linearly with
 
@@ -116,7 +135,7 @@ Our results confirmed that the DTS-based estimator was superior. A further indic
 
 Our understanding of these results is that the approach based on relative spread change volatility is able to give a more timely risk projection since it can react almost instantaneously to a change in market conditions reflected in the spread of the security. This should help the model react more quickly both to increase risk estimates at the onset of a crisis and to relax them once the turbulence subsides. Any significant widening or tightening of spreads will immediately flow through the DTS into the projection of excess return volatility.
 
-# IMPLICATIONS OF DTS FOR PORTFOLIO MANAGERS
+## Implications of DTS for Portfolio Managers
 
 We have highlighted above the key points that emerge from the empirical evidence supporting the DTS paradigm. Spread changes are proportional to the level of spread. Systematic changes in spread across a sector tend to follow a pattern of relative spread change, in which bonds trading at wider spreads experience larger spread changes. The systematic spread volatility of a given sector (if viewed in terms of absolute spread changes) is proportional to the average spread in the sector; the nonsystematic spread volatility of a particular bond or issuer is proportional to its spread as well. Those findings hold irrespective of sector, duration, or time period.
 
@@ -137,11 +156,10 @@ Perhaps one of the most useful applications of DTS is in the management of core-
 
 The introduction of the DTS paradigm has had wide-ranging effects. It changed portfolio management practices across the industry and has been incorporated into some of the leading portfolio management analytics systems. We view it as a fundamental insight into the behavior of credit markets.
 
-# KEY POINTS
+## Key Points
 
 Changes in credit spreads tend to be proportional to spread levels.
 - Volatility of relative spread changes is more stable than volatility of absolute spread changes. This applies to all credit securities with a default component including corporate and sovereign issuers in developed and emerging market countries for both cash and derivatives.
 - Whereas spread duration measures sensitivity to a parallel shift in spreads, DTS measures sensitivity to a relative change in spreads.
 - The risk associated with credit spread exposures can therefore be managed more effectively using contributions to DTS than contributions to spread duration. This is true at the level of asset classes, industries, and individual issuers.
 - Including spread in the estimation of risk can reduce the need to rely on credit ratings, allowing risk models to provide greater industry detail.
-

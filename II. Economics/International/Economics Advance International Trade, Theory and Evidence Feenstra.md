@@ -1,38 +1,26 @@
 ---
-aliases:
-- Advanced International Trade
-- Feenstra Trade Theory
-tags: null
-key_concepts: null
-parent_directory: II. Economics/International
-cssclasses: academia
-title: 'Advanced International Trade: Theory and Evidence'
-linter-yaml-title-alias: 'Advanced International Trade: Theory and Evidence'
+title: "Advanced International Trade: Theory and Evidence"
+parent_directory: "International"
+formatted: "2025-12-21 09:20:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- goods factors assume away
-- goods produced countries argued
-- trade equilibrium
-- specific price increases regression
-- advanced international trade theory
-- analysis similar sector model
+- international trade theory
+- comparative advantage models
+- heckscher ohlin theorem
+- factor price equalization
+- trade equilibrium analysis
+- monopolistic competition trade
 secondary_tags:
-- trade theory evidence
-- trade theory empirical
-- recent research international trade
-- handbook international trade
-- countries differing factor endowments
-- international trade equilibrium relative
-- trade pattern ho model
-- course international trade assume
-- interpreted slope marginal revenue
-- differentiated product sector produced
-- hedonic regression japanese cars
-- trade factors substitute trade
-- inverse demand curve right
-- panel equilibrium foreign
-- autarky equilibrium abroad assumption
-- discussed chapter trade policy
-tags_extracted: '2025-12-18T00:16:00.597556'
+- ricardian trade model
+- gravity equation applications
+- increasing returns trade
+- endogenous growth trade
+- trade liberalization effects
+- multinational firm theory
+- trade policy instruments
+- dumping and subsidies
+cssclasses: academia
 ---
 
 # Advanced International Trade: Theory and Evidence
@@ -45,9 +33,9 @@ National Bureau of Economic Research
 
 August 2002
 
-# Contents:
+## Contents
 
-# Forward
+### Forward
 
 1. Preliminaries: Two-Sector Models
 2. The Heckscher-Ohlin Model
@@ -67,7 +55,7 @@ Appendix B. Discrete Choice Models
 
 References
 
-# Foreword
+## Foreword
 
 This book is intended for a graduate course in international trade. I assume that all readers have completed graduate courses in microeconomics and econometrics. My goal is to bring the reader from that common point up to the most recent research in international trade: in both theory and empirical work. This is not intended to be a difficult book, and the mathematics used should be accessible to any graduate student. The material covered will give the reader the skills needed to understand the latest articles and working papers in the field.
 
@@ -79,13 +67,13 @@ depend on the context. The symbol “c” is used for both costs and consumption
 
 The contents of several chapters included here have been previously published. Chapters 4 and 5 are revisions from articles appearing in Kwan Choi and James Harrigan, eds., Handbook of International Trade (Basil Blackwell, 2003) and the Scottish Journal of Economics, respectively. Some material from chapters 7 - 9 has appeared in articles published in the Journal of International Economics and the Quarterly Journal of Economics, and material from chapter 10 has appeared in the Journal of Development Economics and the American Economic Review.
 
-# Chapter 1: Preliminaries: Two-Sector Models
+## Chapter 1: Preliminaries: Two-Sector Models
 
 We begin our study of international trade with the classic Ricardian model, which has two goods and one factor (labor). The Ricardian model introduces us to the idea that technological differences across countries matter. In comparison, the Heckscher-Ohlin model dispenses with the notion of technological differences and instead show how factor endowments form the basis for trade. While this may be fine in theory, it performs very poorly in practice: as we show in the next chapter, the Heckscher-Ohlin model is hopelessly inadequate as an explanation for historical or modern trade patterns unless we allow for technological differences across countries. For this reason, the Ricardian model is as relevant today as it has always been. Our treatment of it in this chapter is a simple review of undergraduate material, but we will have the opportunity to refer to this model again at various places throughout the book.
 
 After reviewing the Ricardian model, we turn to the two-good, two-factor model which occupies most of this chapter and forms the basis of the Heckscher-Ohlin model. We shall suppose that the two goods are traded on international markets, but do not allow for any movements of factors across borders. This reflects the fact that the movement of labor and capital across countries is often subject to controls at the border and generally much less free than the movement of goods. Our goal in the next chapter will be to determine the pattern of international trade between countries. In this chapter, we simplify things by focusing primarily on one country, treating world prices as given, and examine the properties of this two-by-two model. The student who understands all the properties of this model has already come a long way in his or her study of international trade.
 
-# Ricardian Model
+### Ricardian Model
 
 Indexing goods by the subscript i, let  $a_i$  denote the labor needed per unit of production of each good at home, while  $a_i^*$  is the labor need per unit of production in the foreign country,  $i = 1,2$ . The total labor force at home is  $L$  and abroad is  $L^*$ . Labor is perfectly mobile between the industries in each country, but immobile across countries. This means that both goods are produced in the home country only if the wages earned in the two industries are the same. Since the marginal product of labor in each industry is  $1 / a_i$ , wages are equalized across industries if and only if  $p_1 / a_1 = p_2 / a_2$ , where  $p_i$  is the price in each industry. Letting  $p = p_1 / p_2$  denote the relative price of good 1 (using good 2 as the numeraire), this condition is  $p = a_1 / a_2$ .
 
@@ -112,7 +100,7 @@ country is fully specialized in the production of good 2 at point  $\mathbf{B}^*
 
 Notice that the home country exports good 1, which is in keeping with its comparative advantage in the production of that good,  $\mathsf{a}_1 / \mathsf{a}_2 < \mathsf{a}_1^* / \mathsf{a}_2^*$ . Thus, trade patterns are determined by comparative advantage, which is a deep insight from the Ricardian model. This occurs even if one country has an absolute disadvantage in both goods, such as  $\mathsf{a}_1 > \mathsf{a}_1^*$  and  $\mathsf{a}_2 > \mathsf{a}_2^*$ , so that more labor is needed per unit of production of either good at home than abroad. The reason that it is still possible for the home country to export is that its wages will adjust to reflect its productivities: under free trade, its wages are lower than those abroad. Thus, while trade patterns in the Ricardian model are determined by comparative advantage, the level of wages across countries is determined by absolute advantage.
 
-# Two-Good, Two-Factor Model
+### Two-Good, Two-Factor Model
 
 Focusing now on a single country, we will suppose that it produces two goods with the production functions  $y_{i} = f_{i}(L_{i}, K_{i})$ ,  $i = 1,2$ , where  $y_{i}$  is the output produced using labor  $L_{i}$  and capital  $K_{i}$ . These production functions are assumed to be increasing, concave, and homogeneous of degree one in the inputs  $(L_{i}, K_{i})$ . The last assumption means that there is constant returns to
 
@@ -121,7 +109,7 @@ scale in the production of each good. This will be a maintained assumption for t
 We will assume that labor and capital are assumed to be fully mobile between the two industries, so we are taking a "long run" point of view. Of course, the amount of factors employed in each industry is constrained by the endowments found in the economy. These resource constraints are stated as:
 
 $$
-\begin{array}{l} \mathrm{L}_{1} + \mathrm{L}_{2} \leq \mathrm{L}, \tag {1.1} \\ \mathrm{K}_{1} + \mathrm{K}_{2} \leq \mathrm{K}, \\ \end{array}
+\begin{array}{l} \mathrm{L}_{1} + \mathrm{L}_{2} \leq \mathrm{L}, \tag{1.1} \\ \mathrm{K}_{1} + \mathrm{K}_{2} \leq \mathrm{K}, \\ \end{array}
 $$
 
 where the endowments  $\mathrm{L}$  and  $\mathrm{K}$  are fixed. Maximizing the amount of good 2,  $y_{2} = f_{2}(L_{2}, K_{2})$ , subject to a given amount of good 1,  $y_{1} = f_{1}(L_{1}, K_{1})$ , and the resource constraints in (1.1) gives us  $y_{2} = h(y_{1}, L, K)$ . The graph of  $y_{2}$  as a function of  $y_{1}$  is shown as the PPF in Figure 1.3. As drawn,  $y_{2}$  is a concave function of  $y_{1}$ ,  $\partial^{2}h(y_{1}, L, K) / \partial y_{1}^{2} < 0$ . This familiar result follows from the fact that the production functions  $f_{i}(L_{i}, K_{i})$  are assumed to be concave. Another way to express this is to consider all points  $S = (y_{1}, y_{2})$  that are feasible to produce given the resource constraints in (1.1). This production possibilities set  $S$  is convex, meaning that if  $y^{a} = (y_{1}^{a}, y_{2}^{a})$
@@ -136,18 +124,18 @@ and  $y^b = (y_1^b, y_2^b)$  are both elements of  $S$ , then any point between 
 
 The production possibilities frontier summarizes the technology of the economy, but in order to determine where the economy produces on the PPF we need to add some assumptions about the market structure. We will assume perfect competition in the product markets and factor markets. Furthermore, we will suppose that product prices are given exogenously: we can think of these prices as established on world markets, and outside the control of the "small" country being considered.
 
-# Gdp Function
+#### GDP Function
 
 With the assumption of perfect competition, the amounts produced in each industry will maximize gross domestic product (GDP) for the economy: this is Adam Smith's "invisible hand" in action. That is, the industry outputs of the competitive economy will be chosen to maximize GDP:
 
 $$
-\mathrm{G} \left(\mathrm{p}_{1}, \mathrm{p}_{2}, \mathrm{L}, \mathrm{K}\right) = \max_{\mathrm{y}_{1}, \mathrm{y}_{2}} \mathrm{p}_{1} \mathrm{y}_{1} + \mathrm{p}_{2} \mathrm{y}_{2} \quad \text{s .t .} \quad \mathrm{y}_{2} = \mathrm{h} \left(\mathrm{y}_{1}, \mathrm{L}, \mathrm{K}\right). \tag {1.2}
+ \mathrm{G} \left(\mathrm{p}_{1}, \mathrm{p}_{2}, \mathrm{L}, \mathrm{K}\right) = \max_{\mathrm{y}_{1}, \mathrm{y}_{2}} \mathrm{p}_{1} \mathrm{y}_{1} + \mathrm{p}_{2} \mathrm{y}_{2} \quad \text{s .t .} \quad \mathrm{y}_{2} = \mathrm{h} \left(\mathrm{y}_{1}, \mathrm{L}, \mathrm{K}\right). \tag{1.2}
 $$
 
 To solve this problem, we can substitute the constraint into the objective function and write it as choosing  $y_1$  to maximize  $p_1y_1 + p_2h(y_1,L,K)$ . The first-order condition for this problem is  $p_1 + p_2(\partial h / \partial y_1) = 0$ , or,
 
 $$
-p = \frac{p_{1}}{p_{2}} = - \frac{\partial h}{\partial y_{1}} = - \frac{\partial y_{2}}{\partial y_{1}}. \tag {1.3}
+p = \frac{p_{1}}{p_{2}} = - \frac{\partial h}{\partial y_{1}} = - \frac{\partial y_{2}}{\partial y_{1}}. \tag{1.3}
 $$
 
 Thus, the economy will produce where the relative price of good 1,  $p = p_1 / p_2$ , is equal to the slope of the production possibilities frontier. This is illustrated by the point A in Figure 1.4, where the line tangent through point A has the slope of (negative)  $p$ . An increase in this price will raise the slope of this line, leading to a new tangency at point B. As illustrated, then, the economy will produce more of good 1 and less of good 2.
@@ -155,19 +143,19 @@ Thus, the economy will produce where the relative price of good 1,  $p = p_1 / p
 The GDP function introduced in (1.2) has many convenient properties, and we will make use of it throughout this book. To show just one property, suppose that we differentiate the GDP function with respect to the price of good  $i$ , obtaining:
 
 $$
-\frac{\partial \mathbf {G}}{\partial p_{i}} = \mathbf {y}_{i} + \left(p_{1} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}} + p_{2} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}}\right). \tag {1.4}
+ \frac{\partial \mathbf {G}}{\partial p_{i}} = \mathbf {y}_{i} + \left(p_{1} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}} + p_{2} \frac{\partial \mathbf {y}_{1}}{\partial p_{i}}\right). \tag{1.4}
 $$
 
 It turns out that the terms in parentheses on the right of (1.4) sum to zero, so that  $\partial G / \partial p_i = y_i$ . In other words, the derivative of the GDP function with respect to prices equals the outputs of the economy. The fact that the terms in parentheses sum to zero is an application of the "envelope theorem," which states that when we differentiate a function that has been maximized (such as GDP) with respect to an exogenous variable (such as  $p_i$ ), then we can ignore the changes in the endogenous variables ( $y_1$  and  $y_2$ ) in this derivative. To prove that these terms sum to zero, totally differentiate  $y_2 = h(y_1, L, K)$  with respect to  $y_1$  and  $y_2$  and use (1.3) to obtain  $p_1 dy_1 = -p_2 dy_2$ , or  $p_1 dy_1 + p_2 dy_2 = 0$ . This equality must hold for any small movement in  $y_1$  and  $y_2$  around the PPF, and in particular, for the small movement in outputs induced by the
 
 change in  $\mathfrak{p}_{\mathrm{i}}$ . In other words,  $\mathrm{p}_1(\partial \mathrm{y}_1 / \partial \mathrm{p}_{\mathrm{i}}) + \mathrm{p}_2(\partial \mathrm{y}_2 / \partial \mathrm{p}_{\mathrm{i}}) = 0$ , so the terms in parentheses on the right of (1.4) vanish and it follows that  $\partial \mathrm{G} / \partial \mathrm{p}_{\mathrm{i}} = \mathrm{y}_{\mathrm{i}}$ .
 
-# Equilibrium Conditions
+#### Equilibrium Conditions
 
 We now want to state succinctly the equilibrium conditions to determine factor prices and outputs. It will be convenient to work with the unit-cost functions that are dual to the production functions  $\mathrm{f_i(L_i,K_i)}$ . These are defined by:
 
 $$
-c_{i} (w, r) = \min_{L_{i}, K_{i} \geq 0} \left\{w L_{i} + r K_{i} \mid f_{i} \left(L_{i}, K_{i}\right) \geq 1 \right\}. \tag {1.5}
+c_{i} (w, r) = \min_{L_{i}, K_{i} \geq 0} \left\{w L_{i} + r K_{i} \mid f_{i} \left(L_{i}, K_{i}\right) \geq 1 \right\}. \tag{1.5}
 $$
 
 In words,  $c_{i}(w,r)$  is the minimum cost to produce one unit of output. Because of our assumption of constant returns to scale, these unit-costs are equal to both marginal costs and average costs. It is easily demonstrated that the unit-cost functions  $c_{i}(w,r)$  are non-decreasing and concave in  $(w,r)$ . We will write the solution to the minimization in (1.5) as  $c_{i}(w,r) = w a_{iL} + r a_{iK}$ , where  $a_{iL}$  is optimal choice for  $L_{i}$ , and  $a_{iK}$  is optimal choice for  $K_{i}$ . It should be stressed that these optimal choices for labor and capital depend on the factor prices, so that they should be written in full as  $a_{iL}(w,r)$  and  $a_{iK}(w,r)$ . However, we will usually not make these arguments explicit.
@@ -175,7 +163,7 @@ In words,  $c_{i}(w,r)$  is the minimum cost to produce one unit of output. Beca
 Differentiating the unit-cost function with respect to the wage, we obtain:
 
 $$
-\frac{\partial c_{i}}{\partial w} = a_{i L} + \left(w \frac{\partial a_{i L}}{\partial w} + r \frac{\partial a_{i K}}{\partial w}\right). \tag {1.6}
+ \frac{\partial c_{i}}{\partial w} = a_{i L} + \left(w \frac{\partial a_{i L}}{\partial w} + r \frac{\partial a_{i K}}{\partial w}\right). \tag{1.6}
 $$
 
 As we found with differentiating the GDP function, it turns out that the terms in parentheses on the right of (1.6) sum to zero, which is again an application of the “envelope theorem.” It follows that the derivative of the unit-costs with respect to the wage equals the labor needed for one unit of production,  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$ . Similarly,  $\partial c_{\mathrm{i}} / \partial \mathrm{r} = a_{\mathrm{iK}}$ .
@@ -185,7 +173,7 @@ To prove this result, notice that the constraint in the cost-minimization proble
 The first set of equilibrium conditions for the two-by-two economy is that profits equal zero. This follows from free entry under perfect competition. The zero-profit conditions are stated as:
 
 $$
-\begin{array}{l} p_{1} = c_{1} (\mathrm{w}, \mathrm{r}), \tag {1.7} \\ \mathrm{p}_{2} = \mathrm{c}_{2} (\mathrm{w}, \mathrm{r}). \\ \end{array}
+ \begin{array}{l} p_{1} = c_{1} (\mathrm{w}, \mathrm{r}), \tag{1.7} \\ \mathrm{p}_{2} = \mathrm{c}_{2} (\mathrm{w}, \mathrm{r}). \\ \end{array}
 $$
 
 The second set of equilibrium conditions is full-employment of both resources. These are the same as the resource constraints (1.1), except that now we express them as equalities. In addition, we will re-write the labor and capital used in each industry in terms of the derivatives of the unit-cost function. Since  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$  is the labor used for one unit of production, it
@@ -193,7 +181,7 @@ The second set of equilibrium conditions is full-employment of both resources. T
 follows that the total labor used in  $\mathrm{L_i =y_ia_{iL}}$ , and similarly the total capital used is  $\mathrm{K_i =y_ia_{iK}}$ . Substituting these into (1.1), the full-employment conditions for the economy are written as:
 
 $$
-\underbrace {a_{1 \mathrm{L}} y_{1}}_{\mathrm{L}_{1}} + \underbrace {a_{2 \mathrm{L}} y_{2}}_{\mathrm{L}_{2}} = \mathrm{L}, \tag {1.8}
+ \underbrace {a_{1 \mathrm{L}} y_{1}}_{\mathrm{L}_{1}} + \underbrace {a_{2 \mathrm{L}} y_{2}}_{\mathrm{L}_{2}} = \mathrm{L}, \tag{1.8}
 $$
 
 $$
@@ -204,7 +192,7 @@ Notice that (1.7) and (1.8) together are four equations in four unknowns, namely
 
 To guide us in this investigation, there are three key questions that we can ask: (i) what is the solution for factor prices; (ii) if prices change, how do factor prices change; (iii) if endowments change, how do outputs change? Each of these questions are taken up in the sections that follow. The methods we shall use follow the "dual" approach of Woodland (1977, 1982), Mussa (1979), and Dixit and Norman (1980).
 
-# Determination of Factor Prices
+#### Determination of Factor Prices
 
 Notice that our four equation system above can be decomposed into the zero-profit conditions as two equations in two unknowns – the wage and rental – and then the full-employment conditions, which involve both the factor prices (which affect  $a_{iL}$  and  $a_{iK}$ ) and the outputs. It would be especially convenient if we could uniquely solve for the factor prices from
 

@@ -661,7 +661,7 @@ to test PPP using the price indices governments publish. For some products, incl
 - The long-run determination of nominal exchange rates can be analyzed by combining two theories: the theory of the long-run real exchange rate and the theory of how domestic monetary factors determine long-run price levels. A stepwise increase in a country's money stock ultimately leads to a proportional increase in its price level and a proportional fall in its currency's foreign exchange value, just as relative PPP predicts. Changes in monetary growth rates also have long-run effects consistent with PPP. Supply or demand changes in output markets, however, result in exchange rate movements that do not conform to PPP.
 - The interest parity condition equates international differences in nominal interest rates to the expected percentage change in the nominal exchange rate. If interest parity holds in this sense, a real interest parity condition equates international differences in expected real interest rates to the expected change in the real exchange rate. Real interest parity also implies that international differences in nominal interest rates equal the difference in expected inflation plus the expected percentage change in the real exchange rate.
 
-# KEY TERMS
+## KEY TERMS
 
 absolute PPP, p. 455
 
@@ -688,48 +688,9 @@ real interest rate, p. 481
 
 relative PPP, p. 455
 
-# PROBLEMS
 
-1. Suppose Russia's inflation rate is 100 percent over one year but the inflation rate in Switzerland is only 5 percent. According to relative PPP, what should happen over the year to the Swiss franc's exchange rate against the Russian ruble?
-2. Discuss why it is often asserted that exporters suffer when their home currencies appreciate in real terms against foreign currencies and prosper when their home currencies depreciate in real terms.
-3. Other things equal, how would you expect the following shifts to affect a currency's real exchange rate against foreign currencies?
 
-a. The overall level of spending doesn't change, but domestic residents decide to spend more of their income on nontraded products and less on tradables.
-b. Foreign residents shift their demand away from their own goods and toward the home country's exports.
-
-4. The Eurozone was created in 1999 with countries including Austria, Belgium, France, Germany, and Ireland. New participant countries have joined since—Slovenia (2007), Cyprus (2008), Malta (2008), Slovakia (2009), Estonia (2011), Latvia (2014), and Lithuania (2015). To become a member of the European Monetary Union, the candidate country has to first participate in a "testing phase," known as the Exchange rate mechanism (ERMII), which lasts for two years; the country also needs to fulfill certain "convergence criteria" like inflation, debt, and exchange rate stability. The central exchange rate chosen between the candidate currency and the euro is based on a range of economic indicators.
-
-Comment on this procedure and discuss, according to what is said in this chapter, why the PPP appreciation is not included in the process?
-
-5. The following chart shows the numbers on the average nominal rate (NER) and real exchange rate (REER) of the Japanese Yen against several foreign currencies (such average index numbers are called real effective exchange rates):
-
-<table><tr><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016Q3</td><td></td></tr><tr><td>105.7</td><td>105.2</td><td>87.1</td><td>81.5</td><td>76.6</td><td>93</td><td>NER</td></tr><tr><td>101.3</td><td>100.0</td><td>79.7</td><td>75.1</td><td>70.3</td><td>83.6</td><td>REER</td></tr></table>
-
-Base 100 in 2010.
-Source: http://www.bis.org/statistics/tables_i.pdf
-
-Since December 2012, Japan has a new Prime Minister, Shinzō Abe, who has introduced a new economic policy ("the Abenomics") advocating, besides structural reforms, an aggressive monetary easing to foster the economic growth that has been very low for several years. Explain the evolution of the exchange rate of the Yen in this context.
-
-6. Explain how permanent shifts in national real money demand functions affect real and nominal exchange rates in the long run.
-7. At the end of World War I, the Treaty of Versailles imposed an indemnity on Germany, a large annual payment from it to the victorious Allies. (Many historians believe this indemnity played a role in destabilizing financial markets in the interwar period and even in bringing on World War II.) In the 1920s, economists John Maynard Keynes and Bertil Ohlin had a spirited debate in the Economic Journal over the possibility that the transfer payment would impose a "secondary burden" on Germany by worsening its terms of trade. Use the theory developed in this chapter to discuss the mechanisms through which a permanent transfer from Poland to the Czech Republic would affect the real zloty/koruna exchange rate in the long run.
-8. Continuing with problem 7, discuss how the transfer would affect the long-run nominal exchange rate between the two currencies.
-9. A country imposes a tariff on imports from abroad. How does this action change the long-run real exchange rate between the home and foreign currencies? How does it affect the long-run nominal exchange rate?
-10. Imagine two identical countries have restricted imports to identical levels, but one has done so using tariffs while the other has done so using quotas. After these policies are in place, both countries experience identical, balanced expansions of domestic spending. Where should the demand expansion cause a greater real currency appreciation, in the tariff-using country or in the quota-using country?
-
-11. Explain how the nominal euro/RMB exchange rate would be affected (all else equal) by permanent changes in the expected rate of real appreciation of the RMB against the euro.
-12. Can you suggest an event that would cause a country's nominal interest rate to rise and its currency to appreciate simultaneously, in a world of perfectly flexible prices?
-13. Suppose the expected real interest rate in Hong Kong is 5 percent per year while that in Singapore is 2 percent per year. What do you expect to happen to the real HK$/SNG exchange rate over the next year?
-14. In the short run of a model with sticky prices, a reduction in the money supply raises the nominal interest rate and appreciates the currency (see Chapter 15). What happens to the expected real interest rate? Explain why the subsequent path of the real exchange rate satisfies the real interest parity condition.
-15. Discuss the following statement: "When a change in a country's nominal interest rate is caused by a rise in the expected real interest rate, the domestic currency appreciates. When the change is caused by a rise in expected inflation, the currency depreciates." (It may help to refer back to Chapter 15.)
-16. In 2006, an ECB report stated that despite an overall increase in euro area long term bond yields, the euro area yield curve flattened during the year. This is mirrored in the decline of the "term spread," which is measured by the difference between the yield on a ten-year government bond and a three-month EURIBOR. During 2006, there was almost a 50 basis point decline in the term spread, reaching to almost 30 basis points by the end of the year. Typically, long-term interest rates are above short-term rates. In terms of the Fisher effect, what would that pattern say about expected inflation and/or the expected future real interest rate?
-17. Between 2002 and 2004, when the 1-year interest rate in the euro zone was 120 basis points higher than the U.S. rate, on an average, economists expected a depreciation of the euro based on the interest parity; however, it appreciated by 46 percent against the U.S. How would you explain this deviation from the interest parity?
-18. Why might it be true that relative PPP holds better in the long run than the short run? (Think about how international trading firms might react to large and persistent cross-border differences in the prices of a tradable good.)
-19. Suppose residents of the Euro area consume relatively more of Eurozone countries' export goods than residents of foreign countries. In other words, Eurozone countries export goods have a higher weight in the Eurozone HCPI (the HCPI is the "Harmonized" CPI created specially in order to be able to compare European countries' inflation) than they do in other countries. Conversely, foreign exports have a lower weight in the Eurozone HCPI than they do abroad. What would be the effect on the euro's real exchange rate with a rise in the European terms of trade (the relative price of European exports in terms of European imports)?
-20. The Economist magazine has observed that the price of Big Macs is systematically positively related to a country's income level, just as is the general price level. If you go to The Economist's Big Mac standard website, at http://www.economist.com/ content/big-mac-index, you will find the data on under/overvaluation for June 2020 (as well as for previous years' surveys). Go to the World Bank's World Development Indicators website, http://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD, and find the most recent data on GNI (Gross National Income) per capita, PPP,
-
-for all countries. Use these data, together with The Economist data on Big Mac dollar prices, to make a graph of income per capita (horizontal axis) versus dollar Big Mac price (vertical axis). What do you find?
-
-# FURTHER READINGS
+## FURTHER READINGS
 
 James E. Anderson and Eric van Wincoop. "Trade Costs." Journal of Economic Literature 42 (September 2004), pp. 691-751. Comprehensive survey of the nature and effects of costs of international trade.
 Ariel Burstein and Gita Gopinath. "International Prices and Exchange Rates," in Gita Gopinath, Elhanan Helpman, and Kenneth Rogoff, eds., Handbook of International Economics, volume 4. Amsterdam: Elsevier, 2014. Valuable advanced survey of pricing to market and related topics.
@@ -748,7 +709,7 @@ Kenneth Rogoff. "The Purchasing Power Parity Puzzle." Journal of Economic Litera
 Alan C. Stockman. "The Equilibrium Approach to Exchange Rates." *Federal Reserve Bank of Richmond Economic Review* 73 (March/April 1987), pp. 12-30. Theory and evidence on an equilibrium exchange rate model similar to the long-run model of this chapter.
 Alan M. Taylor and Mark P. Taylor. "The Purchasing Power Parity Debate." Journal of Economic Perspectives 18 (Fall 2004), pp. 135-158. Surveys recent research on PPP.
 
-# The Fisher Effect, the Interest Rate, and the Exchange Rate under the Flexible-Price Monetary Approach
+## The Fisher Effect, the Interest Rate, and the Exchange Rate under the Flexible-Price Monetary Approach
 
 The monetary approach to exchange rates—which assumes the prices of goods are perfectly flexible—implies that a country's currency depreciates when its nominal interest rates rise because of higher expected future inflation. This appendix supplies a detailed analysis of that important result.
 
@@ -771,7 +732,7 @@ The 45-degree line in the upper-left quadrant of Figure 16A-1 allows you to tran
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/52971ed2-f993-4611-9c28-dd416948cd16/4f0935450c839fa1dee9d8e62fc48020eb054791306aab9029e6b284617c71c4.jpg)
 FIGURE 16A-1
 
-# How a Rise in U.S. Monetary Growth Affects Dollar Interest Rates and the Dollar/Euro Exchange Rate When Goods Prices Are Flexible
+## How a Rise in U.S. Monetary Growth Affects Dollar Interest Rates and the Dollar/Euro Exchange Rate When Goods Prices Are Flexible
 
 When goods prices are perfectly flexible, the money market equilibrium diagram (southeast quadrant) shows two effects of an increase,  $\Delta \pi$ , in the future rate of U.S. money supply growth. The change (i) raises the dollar interest rate from  $R_{\S}^{1}$  to  $R_{\S}^{2} = R_{\S}^{1} + \Delta \pi$ , in line with the Fisher effect, and (ii) causes the U.S. price level to jump upward, from  $P_{\mathrm{US}}^{1}$  to  $P_{\mathrm{US}}^{2}$ . Money market equilibrium therefore moves from point 1 to point 2. (Because  $M_{\mathrm{US}}^{1}$  doesn't change immediately, the real U.S. money supply falls to  $M_{\mathrm{US}}^{1} / P_{\mathrm{US}}^{2}$ , bringing the real money supply into line with reduced money demand.) The PPP relationship in the southwest quadrant shows that the price level jump from  $P_{\mathrm{US}}^{1}$  to  $P_{\mathrm{US}}^{2}$  requires a depreciation of the dollar against the euro (the dollar/euro exchange rate moves up, from  $E_{\S/\in}^{1}$  to  $E_{\S/\in}^{2}$ ). In the foreign exchange market diagram (northeast quadrant), this dollar depreciation is shown as the move from point 1' to point 2'. The dollar depreciates despite a rise in  $R_{\S}$  because heightened expectations of future dollar depreciation against the euro cause an outward shift of the locus measuring the expected dollar return on euro deposits.
 

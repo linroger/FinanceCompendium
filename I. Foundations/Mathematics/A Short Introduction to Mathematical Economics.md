@@ -521,11 +521,11 @@ $$
 In practice, to find a partial derivative we just treat the other variable as a constant or a parameter. For example, if  $U(x,y) = xy$ , then
 
 $$
-M U _{x} = \frac{\partial U}{\partial x} = y
+MU_{x} = \frac{\partial U}{\partial x} = y
 $$
 
 $$
-M U _{y} = \frac{\partial U}{\partial y} = x
+MU_{y} = \frac{\partial U}{\partial y} = x
 $$
 
 ##### 3.6.4 Marginal Rate of Substitution
@@ -535,10 +535,10 @@ The next important bit is the marginal rate of substitution. As the name suggest
 In other words:
 
 $$
-M R S = - \frac{d y}{d x}
+MRS = -\frac{dy}{dx}
 $$
 
-so that  $dU = 0$
+so that $dU = 0$
 
 The minus sign before the  $dy/dx$  component arises from the fact that  $dy/dx$  will be negative most of the time, yet MRS is a positive rate.
 
@@ -601,7 +601,7 @@ $$
 By making  $\triangle x, \triangle y$  infinitely small:
 
 $$
-\frac{d y}{d x} = \lim _{\triangle x, \triangle y \to 0} \frac{\triangle y}{\triangle x} = - \frac{M U _{x}}{M U _{y}}
+\frac{dy}{dx} = \lim_{\triangle x, \triangle y \to 0} \frac{\triangle y}{\triangle x} = -\frac{MU_{x}}{MU_{y}}
 $$
 
 Since
@@ -613,25 +613,25 @@ $$
 we get that
 
 $$
-M R S = - \lim _{\triangle y, \triangle x \to 0} \frac{\triangle y}{\triangle x} = - - \frac{M U _{x}}{M U _{y}} = \frac{M U _{x}}{M U _{y}}
+MRS = -\lim_{\triangle y, \triangle x \to 0} \frac{\triangle y}{\triangle x} = --\frac{MU_{x}}{MU_{y}} = \frac{MU_{x}}{MU_{y}}
 $$
 
 Note that in some textbooks authors will write
 
 $$
-M R S = \frac{d y}{d x} = - \frac{M U _{x}}{M U _{y}}
+MRS = \frac{dy}{dx} = -\frac{MU_{x}}{MU_{y}}
 $$
 
 This depends on the interpretation and as long as you are consistent, you will be okay.
 
-# 3.6.5 The slope of indifference curves
+##### 3.6.5 The slope of indifference curves
 
 Let's reconcile the definition of MRS:
 
 The marginal rate of substitution of  $x$  for  $y$  is the amount by which  $x$  must change in response to a change in  $y$ , in order to keep utility constant.
 
 $$
-M R S = \frac{M U _{x}}{M U _{y}}
+MRS = \frac{MU_{x}}{MU_{y}}
 $$
 
 At the same time, the indifference curve represents all the bundles of  $x$  and  $y$  which represent the same utility. In other words, when we move across the utility curve, we are changing both variables in such a way that  $dU = 0$ .
@@ -639,14 +639,14 @@ At the same time, the indifference curve represents all the bundles of  $x$  and
 Combining those two facts, we deduce that the slope of the derivative function is:
 
 $$
-\frac{d y}{d x} = - M R S = - \frac{M U _{x}}{M U _{y}}
+\frac{dy}{dx} = -MRS = -\frac{MU_{x}}{MU_{y}}
 $$
 
-# 3.6.6 Indifference curves are convex (in general)
+##### 3.6.6 Indifference curves are convex (in general)
 
 In general, indifference curves are convex. This comes from two facts.
 
-# 1. Diminishing marginal utility
+1. Diminishing marginal utility
 
 The law of diminishing marginal utility in Economics tells us that utility gained from consuming an extra unit of a certain good will usually be lower than from consuming the previous extra unit of this good.
 
@@ -657,17 +657,17 @@ Initially it might be easy to substitute one tea for a cake. However, as we cons
 that means that:
 
 $$
-\frac{d}{d x} M R S <   0
+\frac{d}{dx} MRS < 0
 $$
 
 $$
-\frac{d}{d x} (- \frac{d y}{d x}) = - \frac{d ^{2} y}{d x ^{2}} <   0
+\frac{d}{dx} \left( -\frac{dy}{dx} \right) = -\frac{d^{2} y}{dx^{2}} < 0
 $$
 
 so
 
 $$
-\frac{d ^{2} y}{d x ^{2}} > 0
+\frac{d^{2} y}{dx^{2}} > 0
 $$
 
 meaning that the function is convex by definition.
@@ -675,7 +675,7 @@ meaning that the function is convex by definition.
 That said, we can imagine a utility function whose indifference curves are concave. For example:
 
 $$
-U = x ^{2} + y
+U = x^{2} + y
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/207ec7ef907b78d30209ad43d0b9b0ed6f10c9c22307dc32e53726398dfb9d38.jpg)
@@ -686,72 +686,72 @@ $$
 
 This shows that while at points A and B  $U = U_{1}$ , utility at the midpoint - the arithmetic mean between bundles A and B - is higher. In fact, any point on the line AB would have higher utility, called the weighted average. This is linked to the previous point, when, due to the law of diminishing marginal utility, extreme quantities of one good are less preferred. For a concave function this will be otherwise.
 
-# 3.7 Utility maximisation
+#### 3.7 Utility maximisation
 
 The next logical step for our utility analysis is utility maximisation.
 
-# 3.7.1 Budget constraint
+##### 3.7.1 Budget constraint
 
 As we said before, consumers want to receive the highest utility from their consumption. To do so, they choose different quantities of goods - bundles which will give them the highest satisfaction. However, if a consumer did not encounter any costs associated with their consumption, they would just choose an infinite bundle of goods. In reality, there is always a cost. While we could imagine a cost being time or any other abstract thing, we usually say that each good has its own price -  $P_{i}$  - while a person has a limited budget  $M$ . Together, they are called a budget constraint. Mathematically, it is represented as:
 
 $$
-P _{1} * x _{1} + P _{2} * x _{2} + \dots + P _{n} * x _{n} \leq M
+P_{1} x_{1} + P_{2} x_{2} + \cdots + P_{n} x_{n} \leq M
 $$
 
-Less-or-equal-to sign arises from the fact that in some problems consuming less is less preferable (monotonicity does not hold), for example, for  $U = 8x - x^2 - y : \frac{\partial U}{\partial x} = 8 - 2x < 0$  for  $x > 4$  and  $\frac{\partial U}{\partial y} = -1 < 0$  for all  $y$ . This means that after  $x = 4$  and  $y = 0$  the consumer will not consume. However, if monotonicity holds, then the budget constraint becomes
+Less-or-equal-to sign arises from the fact that in some problems consuming less is less preferable (monotonicity does not hold), for example, for $U = 8x - x^{2} - y : \frac{\partial U}{\partial x} = 8 - 2x < 0$ for $x > 4$ and $\frac{\partial U}{\partial y} = -1 < 0$ for all $y$. This means that after  $x = 4$  and  $y = 0$  the consumer will not consume. However, if monotonicity holds, then the budget constraint becomes
 
 $$
-P _{1} * x _{1} + P _{2} * x _{2} + \dots + P _{n} * x _{n} = M
+P_{1} x_{1} + P_{2} x_{2} + \cdots + P_{n} x_{n} = M
 $$
 
 In general, such a step - when a budget constraint goes from inequality to equality - should be explained. For our two-good example, a budget constraint would look like:
 
 $$
-P _{x} * x + P y * y \leq M
+P_{x} x + P_{y} y \leq M
 $$
 
 As you can see, it is just a region below the curve  $P_x * x + Py * y = M$ :
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/049c84b567ce56e313b9dd6b098bd138ab08a80d1e1acc40d494955ccaa6a341.jpg)
 
-# 3.7.2 Maximisation Method 1: Brute Force
+##### 3.7.2 Maximisation Method 1: Brute Force
 
 Example 1: The first method of optimisation is brute force. Imagine the following conditions:
 
 $$
-U = x y \rightarrow m a x
+U = xy \to \max
 $$
 
 $$
-P _{x} = 2, P y = 4, M = 4 0
+P_{x} = 2, P_{y} = 4, M = 40
 $$
 
 First, let's write the budget constraint properly:
 
 $$
-2 x + 4 y \leq 4 0
+2x + 4y \leq 40
 $$
 
 Now, in general you do not need to find partial derivatives in order to establish whether inequality is transformed to equality if it's obvious, and so it's enough just to state something like: "In this example, any increment in  $x$  or  $y$  increases utility". Hence:
 
 $$
-2 x + 4 y = 4 0
+2x + 4y = 40
 $$
 
 By dividing both sides by 2:
 
 $$
-x + 2 y = 2 0
+x + 2y = 20
 $$
 
 Now, the brute-force method includes expressing  $x$  or  $y$  as a function of the other variable from the budget constraint, substituting it into the utility function, and then maximising as a function of one variable:
 
 $$
-x = 2 0 - 2 y
+x = 20 - 2y
 $$
 
 $$
-U = (2 0 - 2 y) * y = 2 0 y - 2 y ^{2}
+U = (20 - 2y) y = 20y - 2y^{2}
 $$
 
 As you could've noticed, this is a parabola that opens down:
@@ -763,15 +763,15 @@ As we can clearly see, there is a maximum of that function. Now, there are gener
 1. Find a derivative As we know from A-Level Maths, at the vertex  $\frac{dU}{dy} = 0$ . Thus:
 
 $$
-\frac{d U}{d y} = 2 0 - 4 y = 0
+\frac{dU}{dy} = 20 - 4y = 0
 $$
 
-Which gives us  $y$  optimal  $= 5$ , or in proper notation  $y^{*} = 5$ . From the budget constraint then  $x = 20 - 2 * 5 = 10$ . 2. Completing the square This is a standard A-Level method,
+Which gives us $y^{*} = 5$. From the budget constraint then $x = 20 - 2 \times 5 = 10$. 2. Completing the square This is a standard A-Level method,
 
 although the longest one, so I do not recommend using it. Nevertheless:
 
 $$
-U = - 2 (- 1 0 y + y ^{2} + 2 5 - 2 5) = - 2 (y - 5) ^{2} + 5 0
+U = -2 (-10y + y^{2} + 25 - 25) = -2 (y - 5)^{2} + 50
 $$
 
 As we can clearly see, the vertex is at  $y = 5$ , and from the budget constraint we get  $x = 10$  again. 3. The formula Even though I'm not a big fan of formulas, this one is very simple.
@@ -785,16 +785,16 @@ $$
 the vertex  $x$ -coordinate will be:
 
 $$
-x ^{*} = \frac{- b}{2 a}
+y^{*} = \frac{-20}{2 \times (-2)} = 5
 $$
 
 Which might be derived again from taking a derivative or completing the square for a general function  $y = ax^{2} + bx + c$ .
 
 So, for  $U = 20y - 2y^2$ :  $y^{*} = \frac{-20}{2*(-2)} = 5$ . Again, from the budget constraint  $x = 10$ . Example 2:
 
-However, the brute-force method works only with simple functions. If you had a utility function like  $U = \sqrt{x} * y$ , it would be significantly harder to apply it here. Thus, we can use other methods.
+However, the brute-force method works only with simple functions. If you had a utility function like $U = \sqrt{x} y$, it would be significantly harder to apply it here. Thus, we can use other methods.
 
-# 3.7.3 Indifference curves
+##### 3.7.3 Indifference curves
 
 The next method is to look at the indifference curves and the budget constraint on the same graph. Let's work with  $U = \sqrt{x} * y$ :
 
