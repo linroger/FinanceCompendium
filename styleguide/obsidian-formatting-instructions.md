@@ -1829,12 +1829,135 @@ $$
 	•	Inside $...$ or $$...$$, normalize:
 	•	\operatorname {V a r} → \operatorname{Var}
 	•	\operatorname {C o v} → \operatorname{Cov}
-	•	Remove spaces between digits: 1 0 0 → 100, . 0 0 0 1 → .0001.
+	•	Remove spaces between digits: 1 0 0 → 100, . 0 0 0 1 → 0.0001.
 	•	Do not attempt more aggressive reconstruction that might change meaning.
 	5.	Stray superscripts
 	•	Pattern X $^2$ → $X^2$:
 	•	Join letter/number before $^2$ into a single inline math token.
 	•	A bare $^2$ with no preceding symbol should be flagged for manual review (or left as-is).
+	6.
+	- Fix decimals missing leave leading zeros. Replace .2 with 0.2, Replace .5 with 0.5, etc.
+	- Always use \frac{1}{2} to show fractions in latex block equations instead of “1/2”
+
+	Find incorrect parapgraph or sentence breaks.
+
+
+	Here is a comprehensive breakdown of the **Misplaced Paragraph/Sentence Break Problem**, structured specifically for an AI agent's logic processing. This explanation defines the error patterns, the detection heuristics, and the algorithmic resolution, including the complex edge cases we encountered in your text (figures/captions interrupting sentences).
+
+---
+
+### **1. The Core Problem: "False Hard Returns"**
+
+**Definition:**
+The input text contains "hard" line breaks (`\n`) or paragraph breaks (`\n\n`) where there should be continuous flow. This typically occurs during Optical Character Recognition (OCR) or PDF text extraction, where the software interprets the visual end of a line on a page as the semantic end of a paragraph.
+
+**The Goal:**
+Transform a fragmented stream of text lines into coherent, semantic paragraphs by identifying and healing "false" breaks while preserving "true" paragraph endings.
+
+---
+
+### **2. Detection Logic: The "Split" Heuristics**
+
+To determine if a break is **False** (needs joining) or **True** (leave alone), an agent must analyze the **Tail** of the first segment and the **Head** of the second segment.
+
+#### **Signal A: The "Unfinished" Tail (Line )**
+
+The agent looks at the last non-whitespace character of the current line.
+
+* **Strong Continuation Signal:** Ends with a hyphen (`-`) or a comma (`,`).
+* **Weak Continuation Signal:** Ends with an alphanumeric character (a-z, 0-9).
+* **Stop Signal (Do Not Join):** Ends with terminal punctuation: Period (`.`), Question mark (`?`), Exclamation point (`!`), or any of these followed by a closing quote (`”`, `’`, `"`).
+
+#### **Signal B: The "continuation" Head (Line )**
+
+The agent looks at the first non-whitespace character of the *next* text block.
+
+* **Strong Continuation Signal:** Starts with a **lowercase letter**. This is the primary trigger for a join.
+* **Ambiguous Signal:** Starts with an Uppercase letter. (Could be a proper noun continuing the sentence, or a new sentence. *Rule of thumb: Default to "New Sentence" to avoid merging independent paragraphs.*)
+
+---
+
+### **3. The Algorithmic Fix: Basic Scenario**
+
+If **Signal A** indicates "Unfinished" AND **Signal B** indicates "Continuation":
+
+1. **Action:** Remove the intervening newline(s) (`\n` or `\n\n`).
+2. **Replacement:**
+* If Tail ended in a hyphen (`-`), delete the hyphen and close the gap (e.g., `pre-` + `dictable` = `predictable`).
+* Otherwise, replace the newline with a single **space**.
+
+
+
+**Example:**
+
+> *Input:*
+> "raising the inflation target by even 1 percentage"
+> "point, to 3 percent,"
+> *Logic:* Line 1 ends in "e" (Unfinished). Line 2 starts with "p" (Lowercase).
+> *Output:* "raising the inflation target by even 1 percentage point, to 3 percent,"
+
+---
+
+### **4. Edge Case: The "Interruption" Block (Figures & Artifacts)**
+
+This is the complex scenario from your PDF data. A sentence is physically interrupted by a figure, a caption, a source note, or an image link, creating a "sandwich" effect.
+
+**The Structure:**
+
+1. **Segment A:** Start of sentence (Ends with no terminal punctuation).
+2. **Interruption:** Figure Image, Caption text, Source citations, or Table data.
+3. **Segment B:** Remainder of sentence (Starts with lowercase).
+
+**The Agent Protocol: "Buffer and Float"**
+The agent cannot simply look at  and . It must employ a **Lookahead Buffer**.
+
+#### **Step 1: Detect the "Unfinished" State**
+
+The agent identifies Line  has no terminal punctuation (e.g., ends in "And when"). It enters a **"Pending Join"** state.
+
+#### **Step 2: Scan for Interruptions**
+
+The agent analyzes Line . Does it match "Interruption" criteria?
+
+* **Keywords:** Starts with `Figure`, `Table`, `Source`, `Note`, `Graph`, `Chart`.
+* **Patterns:** Contains markdown image syntax `![](...)`, HTML `<img>`, or looks like disjointed data.
+* **Empty Lines:** Blank space is treated as neutral "air" to be skipped.
+
+#### **Step 3: The Float Operation**
+
+If Line  is an interruption:
+
+1. **Do not output it yet.** Push it into a temporary memory list (`Buffer`).
+2. **Look ahead** to Line .
+3. Repeat until a text line is found that starts with a **lowercase letter**.
+
+#### **Step 4: The Surgical Join**
+
+Once the lowercase line (Segment B) is found:
+
+1. **Join:** Segment A + [Space] + Segment B.
+2. **Flush Buffer:** Output the joined sentence, *then* append the contents of the `Buffer` (the figure/caption) immediately after the completed paragraph.
+
+**Visualizing the Fix:**
+
+| Original Input Order | Agent Logic | Final Output Order |
+| --- | --- | --- |
+| 1. "The neutral rate is low." | Complete sentence. Output. | 1. "The neutral rate is low." |
+| 2. "And when" | **Unfinished.** Hold in memory. |  |
+| 3. `![IMAGE]` | **Interruption.** Buffer it. |  |
+| 4. "Figure 2.1: Rates" | **Interruption.** Buffer it. |  |
+| 5. "the unemployment rises." | **Lowercase Start.** Join with held line. | 2. "And when the unemployment rises." |
+|  | **Flush Buffer.** | 3. `[IMAGE]`<br>
+
+<br>4. "Figure 2.1: Rates" |
+
+### **Summary of Rules for the Agent**
+
+1. **Never join** if the first line ends in `.`, `?`, `!`, `."`, `?"`, `!"`.
+2. **Always join** if the first line ends in a character/comma AND the next *text* line starts with `[a-z]`.
+3. **Identify "Non-Text" lines:** If a line starts with `Figure`, `Source`, or is an image tag, it is not a continuation. It is an obstacle.
+4. **Leapfrog:** If holding an unfinished sentence, skip over "Non-Text" lines until you find the lowercase continuation. Join the text, then append the skipped obstacles at the end.
+
 ⸻
 IV. Tables (New Policy)
 	1.	General rule
@@ -1893,7 +2016,7 @@ VIII. Bullets & List Cleanup
   - Subitem
 	2.	Normalize malformed bullets
 	•	Replace any bullet-like prefix at line start with - :
-	•	LaTeX bullets: $\circ$, $\bullet$, $^{\circ}$.
+	•	LaTeX bullets: $\circ$, $\bullet$, \dagger,$^{\circ}$.
 	•	Raw tokens: \circ, \bullet.
 	•	Unicode symbols: ■, ●, °, ◦, •.
 	•	[*], [?] used as ad-hoc bullets.

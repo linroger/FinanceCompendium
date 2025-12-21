@@ -6265,18 +6265,18 @@ body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-con
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container,
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container {
-  gap: 4px !important;
-  padding: 0 !important;
-  background-color: transparent !important;
+  gap: 6px;
+  padding: 0;
+  background-color: transparent;
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button,
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button {
-  padding: 2px !important;
-  width: 0 !important;
-  flex: 0;
-  background-color: var(--background-modifier-hover);
-  box-shadow: none !important;
-  min-width: 0;
+  padding: 4px;
+  width: auto;
+  flex: 0 0 auto;
+  background-color: transparent;
+  box-shadow: none;
+  min-width: 24px;
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button::after,
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button::after {
@@ -6285,7 +6285,7 @@ body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-con
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button.is-active,
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button.is-active {
-  background-color: var(--background-modifier-hover) !important;
+  background-color: var(--background-modifier-hover);
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button.clickable-icon[aria-disabled=true],
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button.clickable-icon[aria-disabled=true] {
@@ -6293,15 +6293,15 @@ body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-con
 }
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container svg,
 body:not(.compact-actions-off) .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container svg {
-  width: 0px;
-  height: 0px;
+  width: var(--icon-s);
+  height: var(--icon-s);
 }
 
 body.compact-actions-indicator .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container,
 body.compact-actions-indicator .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container {
-  background-color: var(--background-modifier-hover) !important;
+  background-color: transparent;
   border-radius: 100vh;
-  width: 48px;
+  width: auto;
 }
 body.compact-actions-indicator .mod-sidedock .workspace-leaf-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button,
 body.compact-actions-indicator .mod-sidedock .workspace-leaf-content > .view-content > .nav-header:not(:hover) .nav-buttons-container .nav-action-button {

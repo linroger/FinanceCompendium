@@ -1,0 +1,6 @@
+{
+  "model": "gpt-4o-mini",
+  "lowerCaseMode": false,
+  "useCustomBaseUrl": true,
+  "customBaseUrl": "http://localhost:8317"
+}
