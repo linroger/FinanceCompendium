@@ -1,12 +1,22 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Building FX Data from FRED"
+parent_directory: "VIII. Portfolio Management/FINM Markets Foundation"
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "claude-code"
+primary_tags:
+  - "forex data collection"
+  - "fred api integration"
+secondary_tags:
+  - "python pandas"
+  - "currency exchange rates"
+  - "cryptocurrency prices"
+  - "interest rate data"
+  - "data alignment"
 cssclasses: academia
-title: Save to Excel
-linter-yaml-title-alias: Save to Excel
 ---
+
+# Building FX Data from FRED
 
 ```python
 import pandas as pd
@@ -136,14 +146,25 @@ sns.heatmap(currency.resample('M').last().diff().corr(),annot=True)
 
     <AxesSubplot:>
 
-
-
-
-    
-
 ![png](output_6_1.png)
 
-# Save to Excel
+## Data Flow Diagram
+
+```d2
+direction: right
+
+FRED API -> "Data Sources" {
+  FX Rates
+  Interest Rates
+  Cryptocurrency
+}
+
+"Data Sources" -> Processing: Collect and align data
+Processing -> Analysis: Correlation heatmaps
+Analysis -> Export: Excel workbook with multiple sheets
+```
+
+## Save to Excel
 
 ```python
 fx, rf = fx.align(rf,join='inner',axis=0)

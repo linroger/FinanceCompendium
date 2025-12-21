@@ -1,9 +1,19 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "Building Midterm 1 Data"
+parent_directory: "VIII. Portfolio Management/FINM Markets Foundation"
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "claude-code"
+primary_tags:
+  - "futures data processing"
+  - "pandas data manipulation"
+secondary_tags:
+  - "commodity futures"
+  - "equity index futures"
+  - "data resampling"
+  - "return calculation"
+  - "excel export"
 cssclasses: academia
-title: Build Midterm 1 Data
 ---
 
 # Build Midterm 1 Data
@@ -238,6 +248,19 @@ px = pd.read_excel(RAWFILE,sheet_name=SHEET).set_index('date')
 </table>
 <p>5850 rows × 12 columns</p>
 </div>
+
+## Data Processing Flow
+
+```d2
+direction: right
+
+"Excel File" -> "Load Data": Read futures prices
+"Load Data" -> "Clean Data": Drop unused columns
+"Clean Data" -> "Resample": Monthly last prices
+"Resample" -> "Calculate Returns": Percentage change
+"Calculate Returns" -> "Filter Period": From 2009 onwards
+"Filter Period" -> "Export to Excel": Save processed data
+```
 
 ```python
 p = px.drop(columns=['BTC1','LA1','LC1','LH1','C','NK1','NG1'])

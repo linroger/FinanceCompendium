@@ -679,10 +679,10 @@ body.mod-macos.is-frameless:not(.is-popout-window) .workspace .mod-root .sidebar
 }
 
 body {
-  --nav-item-padding: 4px 10px 4px 16px;
+  --nav-item-padding: 4px 10px 4px 14px;
   --nav-indentation-guide-width: 0px;
   --nav-header-align: center;
-  --nav-item-children-padding-left: 20px;
+  --nav-item-children-padding-left: 16px;
   --nav-item-radius: 6px;
   --nav-item-transition: all var(--anim-duration-fast) var(--anim-motion-cupertino);
   --ribbon-background: var(--surface-sidebar);
