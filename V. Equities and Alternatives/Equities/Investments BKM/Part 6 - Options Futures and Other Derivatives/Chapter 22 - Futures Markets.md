@@ -93,7 +93,6 @@ Figure 22.2 Profits to buyers and sellers of futures and options contracts
 
 Figure 22.2, Panel B, is a plot of the profits realized by an investor who enters the short side of a futures contract. It is the mirror image of the profit diagram for the long position.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/732bc2d90a14ec147adb43052299bd0d67419b1742666bb156b3d2e8b9171c02.jpg)
 
 # Concept Check 22.1 a. Compare the profit diagram in Figure 22.2, Panel B, to the payoff diagram for a long position in a put option. Assume the exercise price of the option equals the initial futures price.
 
@@ -174,7 +173,6 @@ The profit on Day 1 is the increase in the futures price from the previous day, 
 
 Marking to market is the major way in which futures and forward contracts differ, besides contract standardization. Futures follow this pay-(or receive-)as-you-go method. Forward contracts are simply held until maturity, and no funds are transferred until that date.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/815435f8701bee34147bd1b004cde0a1b66b585f513f184fbd1a690df6239bcb.jpg)
 
 # Concept Check 22.2
 
@@ -261,7 +259,6 @@ To generalize Example 22.5, note that oil will sell for  $P_T$  per barrel at th
 
 The oil distributor in Example 22.5 engaged in a short hedge, entering a short futures position to offset risk in the sales price of a particular asset. A long hedge is the analogous hedge for someone who wishes to eliminate the risk of an uncertain purchase price. For example, a petrochemical processor planning to purchase oil may be afraid that prices might rise by the time of the purchase. As Concept Check 22.3 illustrates, the firm might buy oil futures to lock in the net purchase price at the time of the transaction.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7dc6026888b5dc3cbb86ba0194094be3f5c3be9670f010157fd5f08401137d0b.jpg)
 
 # Concept Check 22.3
 
@@ -269,7 +266,6 @@ As in Example 22.5, suppose that oil will be selling in February for 71, 72, or 
 
 Exact futures hedging may be impossible for some goods because the necessary futures contract is not traded. For example, a portfolio manager might want to hedge the value of a diversified, actively managed portfolio for a period of time. However, futures contracts are listed only on indexed portfolios. Nevertheless, because returns on the manager's diversified portfolio will have a high correlation with returns on broad-based indexed portfolios, an effective hedge may be established by selling index futures contracts. Hedging a position using futures on another asset is called cross-hedging.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/284160b236897c4bddb9f9bac4f43488100ecb3c416fedb2aff04bcf903615e4.jpg)
 
 # Concept Check 22.4
 
@@ -360,7 +356,6 @@ The net initial investment of this strategy is zero. Moreover, its cash flow in 
 
 If an arbitrage opportunity like the one in Example 22.9 existed, market participants would rush to take advantage of it. The results? The stock price would be bid up, and/or the futures price offered down, until Equation 22.1 were satisfied. A similar analysis applies to the possibility that  $F_0$  is less than \$3,960. In this case, you simply reverse the strategy above to earn riskless profits. We conclude, therefore, that in a well-functioning market in which arbitrage opportunities are competed away,  $F_0 = S_0(1 + r_f) - D$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7b715389cd67629d60159804adb90cb2ad942d7f32f0ad63f6b433b742b4fa7b.jpg)
 
 # Concept Check 22.5
 
@@ -515,7 +510,6 @@ You can see immediately from Equation 22.6 that  $F_{0}$  will be less than the 
 Why should this be? A long future's position will provide a profit (or loss) of  $P_T - F_0$ . If the ultimate value of  $P_T$  entails positive systematic risk, so will the profit to the long position. Speculators with well-diversified portfolios will be willing to enter long futures positions only if they receive compensation for bearing that risk in the form of positive expected profits. Their expected profits will be positive only if  $E(P_T)$  is greater than  $F_0$ . Conversely, the short position's profit is the negative of the long position's and will have negative systematic risk. Diversified investors in the short position will be willing to suffer an expected loss to reduce portfolio risk and will be willing to enter the contract even when  $F_0$  is less than  $E(P_T)$ . We conclude that if  $P_T$  has positive beta,  $F_0$  must be less than the expectation of  $P_T$ , while the analysis is reversed for negative-beta assets.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/383509756a66a75ed917be8bc1a4ce45b7cff7bd6f8d3abe6cdc63b4d893cbcd.jpg)
 
 # Concept Check 22.6
 
@@ -641,7 +635,6 @@ Go to the Chicago Mercantile Exchange site at www.cmegroup.com. From the Markets
 3. For what months are the futures contracts available?
 4. What are the price limits (minimum price fluctuations) for the contract?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/12caec12d59c0970ccb470470feddabcea794a0b44f30197079fd20ab6bd6444.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

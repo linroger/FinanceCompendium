@@ -559,7 +559,6 @@ $$
 \text{Holding - period return} = \frac {\mathbb {S} 80 + (\mathbb {S} 1, 050 - \mathbb {S} 1, 000)}{\mathbb {S} 1, 000} = . 1 3, \text {or} 13 \%
 $$
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/05fe4327f17915cce15606ecc5ea08fe5a7c8d826981851b224f9f2189a82434.jpg)
 
 # Concept Check 14.6
 
@@ -687,7 +686,6 @@ $$
 $$ where  $\mathrm{EBIT} =$  earnings before interest and taxes. $^{11}$  Z-scores below 1.23 indicate vulnerability to bankruptcy, scores between 1.23 and 2.90 are a gray area, and scores above 2.90 are considered safe.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d6a4419ed98b4018ff7430d2b610f0ddec95ba82d462119d4faf487fb393fb80.jpg)
 
 # Concept Check 14.8
 
@@ -791,7 +789,6 @@ When a bond becomes more subject to default risk, its price will fall, and there
 
 Suppose that the condition of the firm in Example 14.13 deteriorates further, and investors now believe that the bond will pay off only  $55\%$  of face value at maturity. Because of the higher risk, investors now demand an expected yield to maturity of  $12\%$  (i.e.,  $6\%$  semiannually), which is  $4\%$  higher than in Example 14.13. But the price of the bond will fall from  $750 to$ 688  $[n = 20; i = 6; \mathrm{FV} = 550; \mathrm{PMT} = \$45]$ . At this price, the stated yield to maturity based on promised cash flows is  $15.2\%$ . While the expected yield to maturity has increased by  $4\%$ , the drop in price has caused the promised yield to maturity to rise by  $1.5\%$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d872fa10c133fb6f457bd5b7349ce8b86bcc9d9493929c616d41d255ba60b672.jpg)
 
 # Concept Check 14.9
 

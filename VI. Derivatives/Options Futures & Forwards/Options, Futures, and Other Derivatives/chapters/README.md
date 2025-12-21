@@ -1,18 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Hull Options, Futures, and Other Derivatives - Chapters
-linter-yaml-title-alias: Hull Options, Futures, and Other Derivatives - Chapters
+parent_directory: Options, Futures, and Other Derivatives/chapters
+formatted: 2025-12-21 02:50:00 AM
+formatter_agent: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - hull options futures
+  - chapter organization
+  - textbook split
+secondary_tags:
+  - options markets
+  - futures markets
+  - derivatives textbook
+  - john hull
+cssclasses: academia
 ---
 
 # Hull Options, Futures, and Other Derivatives - Chapters
 
 This directory contains the textbook split into individual chapter files for easier navigation and reference.
 
-## Chapter List
+### Chapter List
 
 - [00 Front Matter.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/00%20Front%20Matter.md) - Front Matter
 - [01 Introduction.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/01%20Introduction.md) - Chapter 1: Introduction
@@ -34,7 +42,7 @@ This directory contains the textbook split into individual chapter files for eas
 - [17 Options Indices Currencies.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/17%20Options%20Indices%20Currencies.md) - Chapter 17: Options on Stock Indices and Currencies
 - [18 Futures Options Black.md](18%20Futures%20Options%20Black.md) - Chapter 18: Futures Options and Black's Model
 
-## Source
+### Source
 
 Original file: `Options, Futures, and Other Derivatives.md`
 
@@ -44,14 +52,14 @@ Original file: `Options, Futures, and Other Derivatives.md`
 - Edition: 11th Edition
 - Publisher: Pearson (2021)
 
-## Notes
+### Notes
 
 - Each chapter file contains all content from the chapter start to the beginning of the next chapter
 - Front matter (title page, table of contents, preface) is in `00_Front_Matter.md`
 - Original file preserved as backup
 - Total chapters: 18 (plus front matter)
 
-## File Naming Convention
+### File Naming Convention
 
 - `00_Front_Matter.md` - Book front matter (title, TOC, etc.)
 - `01-37_*.md` - Individual chapter files

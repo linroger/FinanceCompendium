@@ -223,20 +223,40 @@ Under the Dodd-Frank Act, the legal liability of CRAs has been elevated. Whether
 
 ## CONCLUSION
 
-We have emphasized the three-dimensional interaction - competition, complementarity, and coevolution - between banks and financial markets. And the recent financial innovations have possibly strengthened these relationships. As a final observation, note that traditionally the financial systems were either bank-based (continental Europe) or financial market driven (US, UK). In the former, bank financing is dominant while direct funding from the financial market plays a more important role in the latter. The dichotomy between a bank-based system and a financial market-driven economy appears to have weakened in recent years, and the proposed changes in Europe (e.g. the Capital Markets Union Proposal) may move the EU financial system closer to the Anglo-Saxon model. In particular, innovations like securitization have made banks' assets more marketable and increased the sensitivity of banks to financial market developments. Banks have thus become an extension of rather than a substitute for the financial markets.
+We have emphasized the three-dimensional interaction - competition, complementarity, and coevolution - between banks and financial markets.
 
-# REVIEW QUESTIONS
+```d2
+direction: right
 
-1. Explain the difference between bank-based and financial-based economies.  
-2. Compare recent trends in financial markets and banking systems across the world.  
-3. Describe the relationship between financial development and economic growth.  
-4. Compare relationship banking to transaction banking.  
-5. Describe the advantages and disadvantages of relationship banking.  
-6. Describe the benefits and drawbacks of financial innovations.  
-7. Explain how a financial innovation, such as a commercial letter of credit, helps facilitate trade.  
-8. Explain the role of CRAs in today's financial markets.
+competition: Competition {
+  shape: hexagon
+  style.fill: "#ff9999"
+}
 
-# REFERENCES
+complementarity: Complementarity {
+  shape: hexagon
+  style.fill: "#99ff99"
+}
+
+coevolution: Coevolution {
+  shape: hexagon
+  style.fill: "#9999ff"
+}
+
+banks: Banks
+markets: Markets
+
+banks -> competition: Compete
+markets -> competition: Compete
+
+banks -> complementarity: Complement
+markets -> complementarity: Complement
+
+banks -> coevolution: Coevolve
+markets -> coevolution: Coevolve
+``` And the recent financial innovations have possibly strengthened these relationships. As a final observation, note that traditionally the financial systems were either bank-based (continental Europe) or financial market driven (US, UK). In the former, bank financing is dominant while direct funding from the financial market plays a more important role in the latter. The dichotomy between a bank-based system and a financial market-driven economy appears to have weakened in recent years, and the proposed changes in Europe (e.g. the Capital Markets Union Proposal) may move the EU financial system closer to the Anglo-Saxon model. In particular, innovations like securitization have made banks' assets more marketable and increased the sensitivity of banks to financial market developments. Banks have thus become an extension of rather than a substitute for the financial markets.
+
+## REFERENCES
 
 Akerlof, G.A., 1970. The market for lemons: quality uncertainty and the market mechanism. Q. J. Econ. 84, 488-500.  
 Allen, F., Gale, D., 1997. Financial markets, intermediaries and intertemporal smoothing. J. Polit. Econ. 105, 523-546.  
@@ -273,7 +293,7 @@ Thakor, A.V., 2015. Lending booms, smart bankers, and financial crises. Ame. Eco
 U.S. Senate, 2002. Hearings before the Senate Committee on Governmental Affairs: Rating the Raters: Enron and the Credit Rating Agencies.  
 White, L.J., 2010. Markets: the credit rating agencies. J. Econ. Perspect. 24, 211-226.
 
-# The Future
+## The Future
 
 "It is always wise to look ahead, but difficult to look further than you can see."
 

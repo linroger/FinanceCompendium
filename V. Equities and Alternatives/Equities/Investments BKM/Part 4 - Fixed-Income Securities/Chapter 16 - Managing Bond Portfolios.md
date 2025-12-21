@@ -164,8 +164,6 @@ Now compute the price change of each bond directly. The coupon bond, which initi
 
 We conclude that bonds with equal durations do in fact have equal interest rate sensitivity and that (at least for small changes in yields) the percentage price change is the modified duration times the change in yield.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/79f7750557557c31762c36ae54c080e00fec08fb08e95b3bc4d7a93403f70da5.jpg)
-
 # Concept Check 16.2 a. In Concept Check 16.1, you calculated the price and duration of a 2-year-maturity,  $8\%$  coupon bond making semiannual coupon payments when the market interest rate is  $9\%$ . Now suppose the interest rate increases to  $9.05\%$ . Calculate the new value of the bond and the percentage change in the bond's price.
 
 b. Calculate the percentage change in the bond's price predicted by the duration formula in Equation 16.2 or 16.3. Compare this value to your answer for part (a).
@@ -210,7 +208,6 @@ $$
 
 For example, at a 10\% yield, the duration of a perpetuity that pays \100 once a year forever is 1.10 / .10 = 11 years, but at an 8\% yield it is 1.08 / .08 = 13.5 years.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0c8a212f8c3eec6ea701ce6521623cf3608c732d0fb9c55439935cab8e70d1c5.jpg)
 
 # Concept Check 16.3
 
@@ -236,7 +233,6 @@ Bond durations (yield to maturity  $= 8\%$  bond equivalent yield; semiannual co
 
 The settlement date (i.e., today's date) and maturity date are entered in cells B2 and B3 using Excel's date function, DATE(year, month, day). The coupon and maturity rates are entered as decimals in cells B4 and B5, and the payment periods per year are entered in cell B6. Macaulay and modified duration appear in cells B9 and B10. The spreadsheet confirms that the duration of the bond we looked at in Spreadsheet 16.1 is indeed 1.8852 years. For this 2-year-maturity bond, we don't have a specific settlement date. We arbitrarily set the settlement date to January 1, 2000, and use a maturity date precisely two years later.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/41f23529fbd049e23f2ccb25e51e6600b17ccdc0d3ba0603c80008ce22eac46b.jpg)
 
 # Concept Check 16.4
 
@@ -355,7 +351,6 @@ Effective duration  $= -\frac{\Delta P / P}{\Delta r} = -\frac{-\80 / \$ 980}{.0
 
 In other words, the bond price changes by  $8.16\%$  for a 1 percentage point swing in rates around current values.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8a0ecac5a18654a27fabf8a9ad17a9acab8a01a0f34753436265bf0054025620.jpg)
 
 # Concept Check 16.5
 
@@ -553,7 +548,6 @@ $$ which implies that  $w = 5 \frac{1}{2}$ . To rebalance the portfolio and main
 
 Of course, rebalancing entails transaction costs. In practice, an appropriate compromise must be established between the desire for perfect immunization, which requires continual rebalancing, and the need to control trading costs, which dictates less frequent rebalancing.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/5aac4f792ac3fce49c8723bac2379f95425020c3e01e1028e5f3dd5737a52962.jpg)
 
 # Concept Check 16.6
 
@@ -570,7 +564,6 @@ Cash flow matching is not more widely pursued probably because of the constraint
 Sometimes, cash flow matching is simply not possible. For example, a pension fund that wishes to cash flow match a perpetual flow of benefits paid to current and future retirees would need to purchase fixed-income securities with maturities ranging up to hundreds of years. Such securities do not exist, making exact dedication infeasible.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/7aa7664a52b9af4fa478d9fac5acaa8f9e89c9410cada811078e810eb614efa3.jpg)
 
 # Concept Check 16.7
 
@@ -636,7 +629,6 @@ $$
 
 The annualized rate of return over the 2-year period would then be  $1.278^{1/2} - 1 = 0.13$ , or  $13\%$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/23959fb89176dbf3ad739da93383cb46825fd4ae49839b017b4d3a16db3f0c4d.jpg)
 
 # Concept Check 16.8
 

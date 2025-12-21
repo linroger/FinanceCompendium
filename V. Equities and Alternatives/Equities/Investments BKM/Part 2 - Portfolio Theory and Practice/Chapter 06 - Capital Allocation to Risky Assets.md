@@ -75,7 +75,6 @@ Utility scores of alternative portfolios for investors with varying degrees of r
 
 A portfolio is desirable only if its certainty equivalent return exceeds that of the risk-free alternative. If risk aversion is high enough, any risky portfolio, even one with a positive risk premium, will be assigned a certainty equivalent below the risk-free rate and will be rejected by the investor. At the same time, a less risk-averse investor may assign the same portfolio a certainty equivalent rate greater than the risk-free rate and thus will prefer it to the risk-free alternative. If the risk premium is zero or negative to begin with, any downward adjustment to utility only makes the portfolio look worse. Its certainty equivalent rate will be below that of the risk-free alternative for any risk-averse investor.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/bad1a69b793f0079df9b2bf704e800dd0f418a1e3252fcf2f32d83bf24978016.jpg)
 
 # Concept Check 6.1
 
@@ -186,7 +185,6 @@ Utility values of possible portfolios for investor with risk aversion  $A = 4$ p
 
 To determine some of the points that appear on the indifference curve, examine the utility values of several possible portfolios for an investor with  $A = 4$ , presented in Table 6.3. Each portfolio offers identical utility because the portfolios with higher expected return also have higher risk (standard deviation).
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c22efc370752f70cadae082fb467cdfd0141cbf6871fb3d60524f58eb520225c.jpg)
 
 # Concept Check 6.2 a. How will the indifference curve of a less risk-averse investor compare to the indifference curve drawn in Figure 6.2?
 
@@ -272,7 +270,6 @@ Therefore, rather than thinking of our risky holdings as  $E$  and  $B$  separat
 
 With this simplification, we turn to the desirability of reducing risk by changing the risky/risk-free asset mix, that is, reducing risk by decreasing the proportion  $y$ . As long as we do not alter the weights of each security within the risky portfolio, the probability distribution of the rate of return on the risky portfolio remains unchanged by the asset reallocation. What will change is the probability distribution of the rate of return on the complete portfolio that consists of the risky asset and the risk-free asset.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/dac2af67030907cc96a15b1187f514b3b9b218ec5abb5608c2a416dfefc9c8f9.jpg)
 
 # Concept Check 6.3
 
@@ -347,7 +344,6 @@ Figure 6.3 shows the investment opportunity set, the set of feasible expected re
 
 A portfolio equally divided between the risky asset and the risk-free asset, that is, where  $y = .5$ , will have an expected rate of return of  $E(r_{C}) = 2 + .5 \times 8 = 6\%$ , implying a risk premium of  $4\%$ , and a standard deviation of  $\sigma_{C} = .5 \times 22 = 11\%$ . It will plot on the line  $FP$  midway between  $F$  and  $P$ . Its Sharpe ratio is  $S = 4 / 11 = .36$ , precisely the same as that of portfolio  $P$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/59f78773a775f7d3d53110dc6f9f11a753806190caf1098e2001deb4a7f0c064.jpg)
 
 # Concept Check 6.4
 
@@ -385,7 +381,6 @@ In practice, borrowing to invest in the risky portfolio is straightforward if yo
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/fe0a154cb6156c5130049940d57fa53170ba0619590a6862c79532e8746f2257.jpg)
 Figure 6.4 The investment opportunity set with different borrowing and lending rates
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/01ceef58106e97d52e9c902944f3576a6c8d2861f249bdb4070541dbee567fa2.jpg)
 
 # Concept Check 6.5
 
@@ -498,7 +493,6 @@ Expected returns on four indifference curves and the CAL (Investor's risk aversi
 
 <table><tr><td rowspan="2">σ</td><td colspan="4">Utility level</td><td rowspan="2">E(rC) on the CAL</td></tr><tr><td>0.02</td><td>0.028</td><td>0.03653</td><td>0.044</td></tr><tr><td>0</td><td>0.0200</td><td>0.0280</td><td>0.0365</td><td>0.0440</td><td>0.0200</td></tr><tr><td>0.02</td><td>0.0208</td><td>0.0288</td><td>0.0373</td><td>0.0448</td><td>0.0273</td></tr><tr><td>0.04</td><td>0.0232</td><td>0.0312</td><td>0.0397</td><td>0.0472</td><td>0.0345</td></tr><tr><td>0.06</td><td>0.0272</td><td>0.0352</td><td>0.0437</td><td>0.0512</td><td>0.0418</td></tr><tr><td>0.08</td><td>0.0328</td><td>0.0408</td><td>0.0493</td><td>0.0568</td><td>0.0491</td></tr><tr><td>0.0902</td><td>0.0363</td><td>0.0443</td><td>0.0528</td><td>0.0603</td><td>0.0528</td></tr><tr><td>0.10</td><td>0.0400</td><td>0.0480</td><td>0.0565</td><td>0.0640</td><td>0.0564</td></tr><tr><td>0.12</td><td>0.0488</td><td>0.0568</td><td>0.0653</td><td>0.0728</td><td>0.0636</td></tr><tr><td>0.14</td><td>0.0592</td><td>0.0672</td><td>0.0757</td><td>0.0832</td><td>0.0709</td></tr><tr><td>0.18</td><td>0.0848</td><td>0.0928</td><td>0.1013</td><td>0.1088</td><td>0.0855</td></tr><tr><td>0.22</td><td>0.1168</td><td>0.1248</td><td>0.1333</td><td>0.1408</td><td>0.1000</td></tr><tr><td>0.26</td><td>0.1552</td><td>0.1632</td><td>0.1717</td><td>0.1792</td><td>0.1145</td></tr><tr><td>0.30</td><td>0.2000</td><td>0.2080</td><td>0.2165</td><td>0.2240</td><td>0.1291</td></tr></table>
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/a7c17d01d9aec34185301b766b4593752c655212e25b64353c38cd8121a1af3a.jpg)
 
 # Concept Check 6.6 a. If an investor's coefficient of risk aversion is  $A = 3$ , how does the optimal asset mix change? What are the new values of  $E(r_{C})$  and  $\sigma_{C}$ ?
 
@@ -554,7 +548,6 @@ $$
 
 Of course, this calculation is highly speculative. We have assumed that the average investor holds the naïve view that historical average rates of return and standard deviations are the best estimates of expected rates of return and risk, looking to the future. To the extent that the average investor takes advantage of contemporary information in addition to simple historical data, our estimate of  $A = 3.12$  would be unjustified. Nevertheless, a broad range of studies, taking into account the full range of available assets, places the degree of risk aversion for the representative investor in the range of 2.0 to 4.0.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c92848ff4ae02535396f01c63969f3cf04b895a06e375e10e94f6c51b7bcff5f.jpg)
 
 # Concept Check 6.7
 
@@ -791,8 +784,6 @@ There is a difference between investors' willingness to take risk and their abil
 https://personal.vanguard.com/us/FundsInvQuestionnaire https://njaes.rutgers.edu/money/assessment-tools/
 https://www.schwab.com/resource/investment-questionnaire
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/fadd1e11751767a63f0ea2517dc05a07e88e11800880537c28547be9c54be7f0.jpg)
-
 # SOLUTIONS TO CONCEPT CHECKS
 
 1. For the  $A = 4$  investor, the utility of the risky portfolio is
@@ -976,7 +967,6 @@ $$
 
 This investor views \$86,681.87 for certain as being equal in utility value as \$100,000 at risk. Therefore, the investor would be indifferent between the two.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/4c488265f664cf44fc7661961bba88decd7c556f4cb4a7373f25779d2928ba61.jpg)
 
 # Concept Check 6A.1
 

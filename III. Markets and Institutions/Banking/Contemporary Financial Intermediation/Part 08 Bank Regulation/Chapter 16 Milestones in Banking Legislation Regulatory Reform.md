@@ -1,14 +1,42 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 16 Milestones in Banking Legislation Regulatory Reform
+parent_directory: III. Markets and Institutions/Banking/Contemporary Financial Intermediation/Part 08 Bank Regulation
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - banking legislation
+  - regulatory reform
+  - financial crises
+  - deposit insurance
+  - dodd-frank act
+secondary_tags:
+  - glass-steagall act
+  - fdicia
+  - gramm-leach-bliley act
+  - federal reserve
+  - thrift industry
+  - bank holding companies
+  - international banking act
+  - eu regulatory reform
+  - de larosière report
+  - vickers report
+  - liikanen report
+  - volcker rule
+  - banking union
+  - capital requirements
+  - deposit insurance reform
+  - bank resolution
+  - systemic risk
+  - too big to fail
+  - prompt corrective action
+  - market value accounting
+  - expanded banking powers
+  - universal banking
 cssclasses: academia
-title: GLOSSARY OF TERMS
-linter-yaml-title-alias: GLOSSARY OF TERMS
 ---
 
-# GLOSSARY OF TERMS
+## GLOSSARY OF TERMS
 
 BIF Bank Insurance Fund.
 
@@ -44,11 +72,11 @@ TBTF Too Big to Fail.
 
 Universal Bank A financial intermediary that performs services usually associated with commercial banks, investment banks, and insurance companies.
 
-# INTRODUCTION
+## INTRODUCTION
 
 In this chapter, we discuss milestones in banking legislation and review bank regulatory reform proposals. This chapter is complementary to Chapter 15, which primarily looked at the objectives of regulation and how these have been translated in various regulatory measures around the world. Here we examine first what has happened from a more historic point of view and include a more complete description of key banking acts (the legislative milestones in banking). Subsequently, we will review major problems of bank regulation, and examine the causes of and possible cures for these problems. In particular, we will discuss extensively the Federal Deposit Insurance Corporation Improvement Act (FDICIA) of 1991 and the Dodd-Frank Act of 2010 in the United States, and the recent European Union (EU) legislative agenda. The Dodd-Frank Act and the recent European legislative agenda are largely responses to the global financial crisis; FDICIA was a response to the massive Savings & Loans crisis in the 1980s. We will contrast these responses that followed crises to the deregulation agenda of the 1999 Financial Services Modernization Act ("the Gramm-Leach-Bliley Act"). The Basel Capital Accords (I, II, and III) have been discussed in Chapter 15.
 
-# MILESTONES OF BANKING LEGISLATION
+## MILESTONES OF BANKING LEGISLATION
 
 Banking legislation has shaped the relationship between government and privately owned banking institutions from the earliest history of the United States. The first banks were chartered by the states, but the federal government reserved to itself the control of interstate commerce and the production of coin and currency.
 
@@ -57,13 +85,13 @@ FIGURE 16.1 The Major Eras of U.S. Bank Regulation.
 
 With growing governmental responsibility for stabilizing economic activity came increasing involvement with the banks. Failures and financial panics linked to banks preceded recessions, and many believed that banks were instrumental in producing financial panics and business cycles. Seven major eras of U.S. banking regulation are summarized in Figure 16.1.
 
-# Early Bank Regulation
+## Early Bank Regulation
 
-# Eighteenth and Nineteenth Century Banking
+## Eighteenth and Nineteenth Century Banking
 
 The creation of the Bank of North America in 1781 was driven by the fledgling government's need for a fiscal agent. Soon after the colonies won their independence, the Continental Congress gave a perpetual charter to the Bank of North America. Later, other banks emerged. However, criticism of lending policies and the ability to issue paper currency led to a repeal of the charter given to the Bank of North America.
 
-# The First and Second Banks of the United States
+## The First and Second Banks of the United States
 
 With the active support of Alexander Hamilton, then Secretary of the Treasury, the First Bank of the United States was chartered in 1791 for a 20-year period. The bank was an embryonic central bank in that it issued notes, accepted deposits, transferred government funds through its eight branches, made public disbursements, and granted credit to the government as well as the private sector. However, the First Bank did not serve as a depository of bank funds, or as a clearinghouse, or as a creator of bank reserves. Nor did it act as an LLR. The bank was severely criticized for its "anti-South" bias, its inattention to agrarian interests, and its growing English ownership. With Congress not renewing its charter, the bank expired in 1811.
 
@@ -71,7 +99,7 @@ In 1816, Congress chartered the Second Bank of the United States. This bank, ini
 
 The period from 1837 to 1864 is commonly referred to as the era of free banking. It was a period of minimal federal government involvement in banking. The states had virtual free rein. Colorful stories of "wildcat banking" circulated along with bank notes of heterogeneous value. These banks would open in remote locales in order to frustrate note redemption efforts.
 
-# National Bank Act of 1864
+## National Bank Act of 1864
 
 The National Bank Act of 1864 marked the return of the federal government to banking. With the  $5\%$  tax on state bank notes and licensing of national banks, the era of free banking was brought to a close. The National Bank Act established the Office
 
@@ -81,7 +109,7 @@ The National Bank Act probably had more to do with financing the Civil War than 
 
 The period following the Civil War was characterized by periodic financial disruptions as banks' liquidity would be tested by skittish note and deposit holders. Inevitably, some banks would be found wanting and contagious panics would occasionally ensue. Systemic risk arose from provisions that allowed banks to hold their reserves in the form of deposits at other banks. This pyramiding of reserves and attendant panics eventually led to the creation of the Federal Reserve System in 1913. In addition, the pre-Federal Reserve monetary system was inefficient with the notes of thousands of individual banks circulating as imperfect substitutes for one another. This was an era of not only private deposits, but also privately produced currency. There were as many media of exchange as there were banks.
 
-# The Federal Reserve Act
+## The Federal Reserve Act
 
 Following a particularly disruptive financial panic in 1907, the Congress created the National Monetary Commission to recommend reform of the banking system. Their work led to the Federal Reserve Act in 1913 that established the Federal Reserve System.
 
@@ -89,9 +117,9 @@ The United States was the last major western country to establish a central bank
 
 Originally, the Federal Reserve had note-issuing authority, LLR powers, and performed clearing services. But with time, the Federal Reserve took on increasing responsibilities for monetary policy and bank regulation. Perhaps most important among the latter are its responsibilities for oversight of bank holding company (BHC) activities.
 
-# Legislation During 1920-1980
+## Legislation During 1920-1980
 
-# The McFadden Act of 1927
+## The McFadden Act of 1927
 
 The McFadden Act addressed the question of geographic expansion of national banks. Each of the states retained the power to determine the basis on which state-chartered banks could expand their facilities or branches. Thus, states like Illinois limited banks to having only one office (hence the term unit banking). Others, like California, placed no limits on the branching powers of their banks; California banks could establish offices anywhere in the state. Still others like New York permitted limited-area branching. Similarly, some states permitted multibank holding companies whereas others explicitly forbade BHCs.
 
@@ -104,7 +132,7 @@ The McFadden Act and its litigation of interstate bank expansion was eventually 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/ea5e7d404c46d08fdffedf172b8c3fd94baa91ff178e0a8c87c20143ba6048db.jpg)  
 FIGURE 16.2 Significant Provisions of the Banking Act of 1933.
 
-# Glass-Steagall Act of 1933
+## Glass-Steagall Act of 1933
 
 From 1919 to 1929, 6000 banks were suspended or liquidated, and another 4,000 merged with other banks. From 1929 to 1933, another 10,000 banks failed, as the number of banks declined from 25,000 to 15,000. In the depths of the nation's worst economic recession (GNP dropped by  $50\%$ , the money supply fell by  $33\%$  and the unemployment rate reached  $25\%$  in 1932), failing banks were a focal point of discontent. There was no more potent force transforming ordinary folk into revolutionaries than the loss of one's liquid assets in some ostensibly mismanaged bank. (Recall there were no readily available risk-free assets other than currency. Mutual funds came much later and government securities were available only in large denominations.)
 
@@ -116,7 +144,7 @@ This legislation was lauded as one of the most successful governmental intrusion
 
 Two years after Glass-Steagall, the Banking Act of 1935 became law. It renamed the Federal Reserve Board as the Board of Governors of the Federal Reserve System and extended its powers to regulate the discount rates of the district Federal Reserve banks and cash-asset reserve requirements, and impose margin requirements on securities lending. The committee coordinating open-market operations was renamed the Federal Open Market Committee (FOMC).
 
-# Banking During 1940-1980
+## Banking During 1940-1980
 
 The U.S. banking system came out of World War II with immense holdings of U.S. government securities and cash-asset reserves. Banks were well capitalized and credit risk was a minor problem. Indeed banks' loan portfolios had grown very little during the greatest wartime mobilization in U.S. history. Much of the build-up was directly financed by government with the banks serving the secondary role of accumulating government debt. (Recall that the banking industry was still emerging from the trauma of the Great Depression.)
 
@@ -126,7 +154,7 @@ their bomb-shelter mentality and the development of methods to prudently process
 
 Thus, the postwar period saw banks that had emerged from World War II with over  $74\%$  of their assets in government securities replace government securities with business loans. Balance sheets grew, capital ratios fell, and so did cash-asset reserve ratios. It was in this climate that banks expanded their branch systems and began holding company powers more aggressively.
 
-# Bank Holding Company Act (BHCA) of 1956 and the Douglas Amendments of 1970
+## Bank Holding Company Act (BHCA) of 1956 and the Douglas Amendments of 1970
 
 Although group (holding company) banking grew little from 1933 to 1948, activity picked up considerably from 1948 through 1956.3 Concern about the use of the BHC to expand geographically and functionally prompted the BHC legislation of 1956 and the Douglas Amendments of 1970. Prior to this legislation, the federal government had little power to regulate or supervise BHCs, the corporate parents of the banks. This was viewed as a loophole that needed to be addressed. The BHCA defined a BHC as any entity that owns or controls  $25\%$  or more of the voting shares and controls the board of directors of two or more affiliated banks. The 1956 law required BHCs to: (i) divest ownership of businesses other than banking or furnishing services to affiliated banks, (ii) register with the board of Governors of the Federal Reserve, and (iii) seek approval of the board for any bank acquisitions.
 
@@ -134,23 +162,23 @@ Although the Federal Reserve was charged with primary responsibility for regulat
 
 The importance of the BHC regulation, both extant and prospective, is clear in the current debate on reform. First, existing legislation clearly lodges almost boundless power in the Federal Reserve. Second, virtually all proposals to expand banking powers rely on the holding company and its questionable "fire walls" to protect the bank and its insured deposits. Almost certainly, the role of the BHC will expand as banking legislation is liberalized, and the Federal Reserve will be the regulatory focal point.
 
-# International Banking Act of 1978
+## International Banking Act of 1978
 
 The International Banking Act of 1978 was designed to provide a more "level playing field" between U.S. banks and their foreign-bank competitors operating in the U.S. market. Foreign-bank branches were compelled to select one state as domicile for McFadden purposes. They also were required to satisfy capital and liquidity requirements comparable to those of their U.S. competitors.
 
 Incidental to this complex exercise in defining equivalence came the first explicit continuous capital requirement for banks. This was another testimony to the success of the 1930s legislation. The  $5.5\%$  capital requirement of the 1978 legislation was almost an afterthought to defining equivalence between U.S. and foreign banks competing in U.S. markets.
 
-# Problems of the Thrift Industry
+## Problems of the Thrift Industry
 
 The 1970s saw a significant increase in interest rate levels and volatility owing to high and volatile inflation rates. In addition, information technology improved dramatically. These two developments profoundly affected banks and thrifts. Interest-rate surprises led to crippling losses for financial institutions with mismatched balance sheets. The thrifts that were legally locked into long-term, fixed-rate mortgages suffered worse than banks that had gradually substituted floating-rate loans for fixed-rate term loans. Advances in information technology weakened barriers to entry and invited competition
 
 from a wide variety of nonbank providers of financial services, such as mutual funds, finance companies, and the capital markets. By 1980, the thrift industry was on the brink of insolvency, and banking failures were increasing in size as well as frequency.
 
-# Legislation of the 1980s
+## Legislation of the 1980s
 
 The legislative developments in the 1980s have a distinct importance because they sought to address the cracks that had started to appear in the rather stable banking environment that had characterized the United States in the years after the Second World War. The more competitive environment of banking and the thrift crisis needed answers.
 
-# Depository Institutions Deregulation and Monetary Control Act (DIDMCA) of 1980
+## Depository Institutions Deregulation and Monetary Control Act (DIDMCA) of 1980
 
 DIDMCA addressed two major issues: the disintermediation of deposits that was exacerbated by deposit interest-rate ceilings, and the attrition of Federal Reserve membership as more banks sought to avoid the cost of maintaining cash-asset reserve requirements.
 
@@ -158,7 +186,7 @@ Deposit interest-rate ceilings introduced by the Glass-Steagall legislation had 
 
 This problem might have been addressed by indexing the deposit interest-rate ceilings to market interest rates, but this was never done. The regulators seemed to prefer unlimited discretion, but their efforts to make timely adjustments in the ceilings could not keep up with the fast-moving capital markets.
 
-DIDMCA addressed this problem by providing for the gradual elimination of all deposit interest-rate ceilings, except those on demand deposits. Banks became free to compete in deposit markets as they saw fit. Even the demand deposit interest-rate restriction was circumvented with consumer NOW accounts. What was not too clearly understood was how important the earlier deposit subsidies had been in discouraging high-risk strategies of banks. DIDMCA also raised the ceiling on federally insured deposits from  $40,000 to$ 100,000 per account. This reduced the incentive of depositors to monitor their banks, further encouraging risk-taking by banks.
+DIDMCA addressed this problem by providing for the gradual elimination of all deposit interest-rate ceilings, except those on demand deposits. Banks became free to compete in deposit markets as they saw fit. Even the demand deposit interest-rate restriction was circumvented with consumer NOW accounts. What was not too clearly understood was how important the earlier deposit subsidies had been in discouraging high-risk strategies of banks. DIDMCA also raised the ceiling on federally insured deposits from  $40,000 to $100,000 per account. This reduced the incentive of depositors to monitor their banks, further encouraging risk-taking by banks.
 
 The second major initiative of DIDMCA was to subject all insured banks to Federal Reserve cash-asset reserve requirements. This addressed the Federal Reserve's problem of membership attrition. The opportunity cost of satisfying the Federal Reserve's cash-asset reserve requirements increased with the level of market interest rates and declining Federal Reserve membership was yet another piece of the syndrome of the 1970s. Thus, DIDMCA eliminated an opportunity for regulatory arbitrage. Interestingly, since 1980 the Federal Reserve has lowered demand deposit reserve requirements from a maximum of over  $16\%$  to  $10\%$ . Thus, regulatory hegemony has been accompanied by a transference of the taxpayer's seigniorage to the banks. A summary of the major provisions of DIDMCA appears in the box below.
 
@@ -175,7 +203,7 @@ All depository institutions were permitted to issue interest-bearing checking ac
 - Earlier geographical limits on S&L lending – loans could only be made within a 50-mile radius of an office – were eliminated.  
 - Authority of federal S&Ls to make acquisition, development, and construction (ADC) loans was expanded.
 
-# Garn-St. Germain Depository Institutions Act of 1982
+## Garn-St. Germain Depository Institutions Act of 1982
 
 The Garn-St. Germain Act was directed at thrifts exclusively and sought to enhance their earnings potential by expanding their powers. The initiative was a response to the huge losses suffered by the industry due to the 1980-1981 spike in interest rates.
 
@@ -194,7 +222,7 @@ Up to  $10\%$  of assets in commercial leases.
 - Elimination of the previous statutory limit on the loan-to-value ratio, allowing S&Ls to lend more relative to the appraised value of a project.  
 - Authorization of the FDIC and the FSLIC to issue "net worth certificates" that could increase an institution's capital for regulatory purposes without any real infusion of capital.
 
-# Financial Institutions and Regulatory Reform Enforcement Act (FIRREA) of 1989
+## Financial Institutions and Regulatory Reform Enforcement Act (FIRREA) of 1989
 
 FIRREA was the sequel to Garn-St. Germain. It created the machinery and procedures to dispose of insolvent and near-insolvent thrifts. The regulatory agency for thrifts, the FHLBB, was disenfranchised. A new thrift regulator was created, the Office of Thrift Supervision (OTS), within the Treasury Department. The thrift insurer, the FSLIC, was also reorganized and placed within the FDIC as the Savings Association Insurance Fund (SAIF). The legislation also created the Resolution Trust Corporation (RTC) to dispose of failed thrifts and their assets.
 
@@ -211,13 +239,13 @@ proposals were aimed at reducing the taxpayer liability, facilitating a better a
 
 The Treasury's bold reform proposals were rejected in favor of the FDICIA that we discuss later in this chapter.
 
-# PROBLEMS OF BANK REGULATION
+## PROBLEMS OF BANK REGULATION
 
-# The Problems
+## The Problems
 
 In Table 16.1 we summarize prominent problems among deposit-taking financial institutions, along with possible causes and commonly suggested remedies. Our perspective here is that of a taxpayer desiring a globally competitive banking system in which taxpayer exposure is minimized.
 
-# Causes and Possible Cures
+## Causes and Possible Cures
 
 In this subsection, we briefly discuss each of the major issues and possible remedies listed in Table 16.1. Our discussion is organized around four issues: deposit insurance, regulatory uncertainty, market value accounting (MVA), and expanded banking powers.
 

@@ -279,7 +279,6 @@ $$
 
 Here, too, Excel's Solver or similar software can be used to maximize utility subject to the constraints of Equations 7.2 and 7.3, plus the portfolio constraint that  $w_{D} + w_{E} = 1$  (i.e., that portfolio weights sum to 1).
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ea684a31e55072d0532aec004c03cf42975e5f73bd45418769493ac3c4024f9c.jpg)
 
 # Concept Check 7.2
 
@@ -424,7 +423,6 @@ b. Calculate the share of the complete portfolio invested in each asset and in T
 
 Recall that our two risky assets, the bond and stock mutual funds, are already diversified portfolios. The diversification within each of these portfolios must be credited for a good deal of the risk reduction compared to undiversified single securities. For example, the standard deviation of the rate of return on an average stock in the last 10 years has been about  $28\%$  (see Figure 7.2). In contrast, the standard deviation of the S&P 500 in this period was considerably lower, around  $17\%$ . This is evidence of the importance of diversification within each asset class.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/b48ba84f44bbc6cff0801817578070ca2a4baaa8d14c5f3af2d6a1488dabccc0.jpg)
 
 # Concept Check 7.3
 
@@ -540,7 +538,6 @@ Consider a stock with an annual standard deviation of  $30\%$ . Even if one were
 
 As we have seen, optimal risky portfolios for different clients also may vary because of portfolio constraints such as dividend-yield requirements, tax considerations, or other client preferences. Nevertheless, this analysis suggests that a limited number of portfolios may be sufficient to serve the demands of a wide range of investors. This is the theoretical basis of the mutual fund industry.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ece8f2b9d419d3347641811e5aca01c2ba2bf30796fb6533bfb1256d84b46860.jpg)
 
 # Concept Check 7.4
 
@@ -610,7 +607,6 @@ For a 100-security portfolio (see the last two lines of Table 7.4), the standard
 
 Perhaps the most important insight from the exercise is this: When we hold diversified portfolios, the contribution to portfolio risk of a particular security will depend on the covariance of that security's return with those of other securities, and not on the security's variance. As we shall see in Chapter 9, this implies that equilibrium risk premiums will depend on covariances rather than total variability of returns.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d1436a259a13f9363bc2ab43904eb4d42940e0b25dda03bb87bc876da82f4556.jpg)
 
 # Concept Check 7.5
 

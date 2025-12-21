@@ -82,7 +82,6 @@ Determinants of call option values
 
 When the share price increases, however, the call will expire in the money, and will be more profitable the higher the stock price. Thus, extremely good stock outcomes improve the option payoff without limit, but extremely poor outcomes cannot worsen the payoff below zero. This asymmetry means that volatility in the underlying stock price increases the expected payoff to the option, thereby enhancing its value.[2]
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/6217786b5f63732199b18cee8e0a61d3ad7b9f2a70494d36bc54b54961a3e384.jpg)
 
 # Concept Check 21.1
 
@@ -92,7 +91,6 @@ Similarly, longer time to expiration increases the value of a call option. For m
 
 Finally, the dividend payout policy of the firm affects option values. A high-dividend payout policy puts a drag on the rate of growth of the stock price. For any expected total rate of return on the stock, a higher dividend yield must imply a lower expected rate of capital gain. This drag decreases the potential payoff from the call option, thereby reducing its value. Table 21.1 summarizes these relationships.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/85393518f2a6a2d0c464457969ff3133106d0236ccb1c0109782a4164d0fc285.jpg)
 
 # Concept Check 21.2
 
@@ -164,7 +162,6 @@ Figure 21.4, Panel A, illustrates the value of an American put option as a funct
 
 In contrast, the value of the European put, which is graphed in Figure 21.4, Panel B, is not asymptotic to the intrinsic value line. Because early exercise is prohibited, the maximum value of the European put is  $\mathrm{PV}(X)$ , which occurs at the point  $S_0 = 0$ . Obviously, for a long enough horizon,  $\mathrm{PV}(X)$  can be made arbitrarily small.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/081c3b22ac28d16f1907fa583e1aeabb5ba0d0241e77d2eb818d87cfa1bccd2c.jpg)
 
 # Concept Check 21.3
 
@@ -257,7 +254,6 @@ What if the option is overpriced, perhaps selling for 6.50? Then you can make ar
 
 Although the net initial investment is zero, the payoff in one year is positive and riskless. If the option were underpriced, one would simply reverse this arbitrage strategy: Buy the option and sell the stock short to eliminate price risk. By the way, the present value of the profit to this arbitrage strategy exactly equals three times the amount by which the option is overpriced. The present value of the risk-free profit of  \$1.45 at a 10\% interest rate is\$ 1.318. With three options written in the strategy above, this translates to a profit of $.44 per option, exactly the amount by which the option was overpriced: \$6.50 versus the "fair value" of 6.06.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7eeab1b0397b642142f5ea4d960740d7a6d353644e2aed646a54dd3033a4d978.jpg)
 
 # Concept Check 21.4
 
@@ -301,7 +297,6 @@ Next we find the value of C_d. It is easy to see that this value must be zero. I
 
 Finally, we solve for  $C_0$  using the values of  $C_u$  and  $C_d$ . Concept Check 21.5 leads you through the calculations that show the option value to be 4.434.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/3366f4a23aa329f971e31b8aa49c0aeccba37f5a54f877232157d5962ce4d56e.jpg)
 
 # Concept Check 21.5
 
@@ -393,7 +388,6 @@ resembles a lognormal distribution. $^6$  Thus, the apparent oversimplification 
 At any node, one still can set up a portfolio that is perfectly hedged over the next tiny time interval. Then, at the end of that interval, on reaching the next node, a new hedge ratio can be computed and the portfolio composition could be revised to remain hedged over the coming small interval. By continuously revising the hedge position, the portfolio remains hedged and earns a riskless rate of return over each interval. This is called dynamic hedging, the continued updating of the hedge ratio as time passes. As the dynamic hedge becomes ever finer, the resulting option-valuation procedure becomes more precise. The nearby box offers further refinements on the use of the binomial model.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/c7dc4fd6dc3b55c236515c373c0784eff04be5b973dd4a945ad1ac11e4eaa344.jpg)
 
 # Concept Check 21.6
 
@@ -495,7 +489,6 @@ $$
 \begin{array}{l} C _ {0} = 1 0 0 \times . 6 6 6 4 - 9 5 e ^ {-. 1 0 \times . 2 5} \times . 5 7 1 4 \\ = 6 6. 6 4 - 5 2. 9 4 = \$ 1 3. 7 0 \\ \end{array}
 $$
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/fad32e0b8350e6e5da748fc3db19119628b01d053a0d38ad119a98f29f70a497.jpg)
 
 # Concept Check 21.7
 
@@ -568,7 +561,6 @@ Figure 21.8 reveals an awkward empirical fact. While the Black-Scholes formula i
 
 The fact that volatility changes unpredictably means that it can be difficult to choose the proper volatility input to use in any option-pricing model. A considerable amount of research has been devoted to techniques to predict changes in volatility. These techniques, known as ARCH and stochastic volatility models, posit that changes in volatility are partially predictable and that by analyzing recent levels and trends in volatility, one can improve predictions of future volatility.[11]
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/e810304b04d40962c8982ee95c60e015f2a3a8671ee372413aac230177d9e38b.jpg)
 
 # Concept Check 21.8
 
@@ -665,7 +657,6 @@ Each option changes in value by  $H$  dollars for each dollar change in stock pr
 
 This is not to say, however, that the first portfolio is less risky. The first portfolio is worth less than the second, so despite its lower sensitivity in terms of dollar value, it actually has greater rate of return sensitivity.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b139f3f2b70aa6bfdd954f150db3299acb9a45a08844d267e4084e927c3f89a2.jpg)
 
 # Concept Check 21.9
 
@@ -834,7 +825,6 @@ Profit (= Value - Cost from Panel A) 306 290 305
 
 Profit on hedged put portfolio
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/9a239f57a576d944d934d1587b33f516e693ff80325b052ea14e14c96a2441f4.jpg)
 
 # Concept Check 21.10
 
@@ -1318,7 +1308,6 @@ Using daily price data (available from finance.yahoo.com), calculate the annuali
 
 Which sample period for calculating historical standard deviation seems most correlated with implied volatility?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b2563b5e31f03d0e46ce1a9759a7e4ecf241dba5cc67a09e0537989716fb2231.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

@@ -52,7 +52,6 @@ $\sigma^2 (e_i) =$  Estimates of the variance of the residuals for each of the 1
 
 The sample average excess returns on each stock and the market portfolio are taken as estimates of expected excess returns, and the values of  $b_{i}$  are estimates of the true beta coefficients for the 100 stocks during the sample period.  $\sigma^2 (e_i)$  estimates the nonsystematic risk of each of the 100 stocks. It is understood that all these statistics are subject to estimation error.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c923c55d61841bde26392b3af4f31745a2eafecc84487c320dd9e9f6728b5222.jpg)
 
 # Concept Check 13.1 a. How many regression estimates of the SCL do we have from the sample?
 
@@ -143,7 +142,6 @@ Risk and return in the Fama-MacBeth study. All rates are in basis points per mon
 Source: Eugene F. Fama and James D. MacBeth, "Risk, Return, and Equilibrium: Empirical Tests," Journal of Political Economy 81 (May-June 1973), pp. 607-36.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/9bc5b91947c559445946edfc1192b0834719cc81123589cf0baba5b3d02131ca.jpg)
 
 # Concept Check 13.2 a. What are the implications of the empirical SML being “too flat” compared to the predictions of the CAPM? Specifically, how will average returns on high- versus low-beta stocks compare to the predictions of the SML?
 
@@ -593,9 +591,6 @@ e. Although conceding the possible problem with benchmark errors as set forth by
 
 3. Bart Campbell, CFA, is a portfolio manager who has recently met with a prospective client, Jane Black. After conducting a survey market line (SML) performance analysis using the Dow Jones Industrial Average as her market proxy, Black claims that her portfolio has experienced superior performance. Campbell uses the capital asset pricing model as an investment performance measure and finds that Black's portfolio plots below the SML. Campbell concludes that Black's apparent superior performance is a function of an incorrectly specified market proxy, not superior investment management. Justify Campbell's conclusion by addressing the likely effects of an incorrectly specified market proxy on both beta and the slope of the SML.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8a67b6bc023054e2827d05d4f222c25d9b5a0717ab7d9702594b01df4988f3ab.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/a06fc74c0fd275292867bf97600b999730d6fad883b5546fa52b2cece585ced5.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

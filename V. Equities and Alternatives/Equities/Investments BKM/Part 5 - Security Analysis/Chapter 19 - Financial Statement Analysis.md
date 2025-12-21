@@ -319,7 +319,6 @@ As Table 19.8 shows, the discount chain has a "low" profit margin of  $2\%$  and
 
 Differences between profit margin and asset turnover across industries
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f6d6d840da45fca1af63fabc70728af3bb7ff7c76169633938aabb0254240d4e.jpg)
 
 # Concept Check 190.2
 
@@ -441,7 +440,6 @@ Wall Street often distinguishes between "good firms" and "good investments." A g
 
 Table 19.10 summarizes the ratios reviewed in this section.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5439c7eafb8c029f1a2fe6171e2c2426802c1fa07e9f065aa86d1cb054bf4d7b.jpg)
 
 # Concept Check 19.3
 
@@ -522,7 +520,6 @@ The source of the difficulty is GI's enormous amount of short-term borrowing. In
 
 At this point, GI stock might be an attractive investment. Table 19.12 shows that its market price is only  $5\%$  of its book value. GI is a likely candidate for a takeover by another firm that might replace its management and build shareholder value through a radical change in policy.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f926f5fcb9b59c758e21526b1f7fe00e4271f14c4d59689d2b3025bfd672d089.jpg)
 
 # Concept Check 19.4
 
@@ -580,7 +577,6 @@ Suppose Generic Products has debt outstanding with a face value of 10 million at
 
 Mismeasurement of real interest means inflation results in an underestimate of real income. The effects of inflation on the reported values of inventories and depreciation that we have discussed work in the opposite direction.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/577bffc82b529ecd739093987572f63e7dffc9f2cd2ca333090156fae1d3e001.jpg)
 
 # Concept Check 19.5
 

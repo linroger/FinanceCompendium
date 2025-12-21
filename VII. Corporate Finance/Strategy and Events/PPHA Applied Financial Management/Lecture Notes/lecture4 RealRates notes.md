@@ -18,7 +18,7 @@ Thomas S. Coleman
 
 29 March 2023; Draft April 3, 2023
 
-# Outline
+## Outline
 
 # Contents
 
@@ -48,7 +48,7 @@ Thomas S. Coleman
 - Shorter: 73 days (0.2yrs) later: yield  $= 6.60\% \rightarrow \mathrm{PV} = 100.940$
 
 $$
-9 9. 6 5 8 = \frac {6 . 5}{(1 + . 0 6 6) ^ {1}} + \frac {6 . 5}{(1 + . 0 6 6) ^ {2}} + \dots + \frac {1 0 0}{(1 + . 0 6 6) ^ {4}}
+99.658 = \frac{6.5}{(1 + 0.066)^1} + \frac{6.5}{(1 + 0.066)^2} + \dots + \frac{100}{(1 + 0.066)^4}
 $$
 
 $$

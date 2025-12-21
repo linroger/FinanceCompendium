@@ -102,8 +102,6 @@ $$
 
 The dollar-weighted average is less than the time-weighted average in this example because the return in the second year, when more money was invested, is lower.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5b255b7be21814949d2b46b448fe1da6f7c4b7fc0c74733b68483d42187cd7ce.jpg)
-
 # Concept Check 24.1
 
 Shares of XYZ Corp. pay a \$2 dividend at the end of every year on December 31. An investor buys two shares of the stock on January 1 at a price of \$20 each, sells one of those shares for \$22 a year later on the next January 1, and sells the second share an additional year later for \$19. Find the dollar- and time-weighted rates of return on the 2-year investment.
@@ -157,8 +155,6 @@ We place bars over  $r_f$  as well as  $r_P$  to denote the fact that because th
 The information ratio divides the alpha of the portfolio by nonsystematic risk, called "tracking error" in the industry. It measures abnormal return per unit of risk that in principle could be diversified away by holding a market index portfolio. (We should note that industry jargon tends to be a little loose concerning this topic. Some define the information ratio as excess return—rather than alpha—per unit of nonsystematic risk, using appraisal ratio to refer to the ratio of alpha to nonsystematic risk. Unfortunately, terminology is not fully uniform, and you may well encounter both of these definitions. We will consistently define the information ratio as we have done here, specifically as the ratio of alpha to the standard deviation of residual returns.)
 
 Each performance measure has some appeal. But as Concept Check 24.2 shows, these competing measures do not necessarily provide consistent assessments of performance because the risk measures used to adjust returns differ substantially. Therefore, we need to consider the circumstances in which each of these measures is appropriate.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/afd2e5831d238b1b38c4281f098dcc46ee7bbf92d9e41c244dd86b6bcfb87eda.jpg)
 
 # Concept Check 24.2
 
@@ -342,7 +338,6 @@ What have we shown? Here is an analyst who has very substantial ability. The exa
 
 Now add to the imprecision of performance estimates the fact that the typical tenure of a fund manager is generally less than five years. By the time you are lucky enough to find a fund whose historic superior performance you are confident of, its manager is likely ready to move, or has already moved elsewhere. The nearby box explores this topic further.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/95dbc24eb1dbe578aea29e0b1a7271a209da8fc6ef08d24280776101e66286e4.jpg)
 
 # Concept Check 24.3
 
@@ -558,7 +553,6 @@ A weather forecaster in Tucson, Arizona, who always predicts no rain may be righ
 
 If we call  $P_{1}$  the proportion of the correct forecasts of bull markets and  $P_{2}$  the proportion for bear markets, then  $P_{1} + P_{2} - 1$  is the correct measure of timing ability. For example, a forecaster who always guesses correctly will have  $P_{1} = P_{2} = 1$ , and will show ability of  $P_{1} + P_{2} - 1 = 1$  (100\%). An analyst who always bets on a bear market will mispredict all bull markets ( $P_{1} = 0$ ), will correctly "predict" all bear markets ( $P_{2} = 1$ ), and will end up with timing ability of  $P_{1} + P_{2} - 1 = 0$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/2a173e98c3af02f627a407bce3ce4e5df66396c3e67dfa2f856f225fa5be23e5.jpg)
 
 # Concept Check 24.4
 
@@ -645,7 +639,6 @@ In this particular month, all facets of the portfolio selection process were suc
 
 The sector and security allocation of 106 basis points can be partitioned further. Sector allocation within the equity market results in excess performance of 129 basis points, and security selection within sectors contributes 18 basis points. (The total equity excess performance of 147 basis points is multiplied by the  $70\%$  weight in equity to obtain contribution to portfolio performance.) Similar partitioning could be done for the fixed-income sector.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/ade5c19cd91a71af6076e6189cd4c17ba2dd0f366f12324aad15975fabdc856c.jpg)
 
 # Concept Check 24.5 a. Suppose the benchmark weights in Table 24.7 had been set at  $70\%$  equity,  $25\%$  fixed-income, and  $5\%$  cash equivalents. What would have been the contributions of the manager's asset allocation choices?
 

@@ -1,63 +1,27 @@
 ---
-aliases:
-- The Foreign Exchange Market
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 19: The Foreign Exchange Market'
-linter-yaml-title-alias: 'Chapter 19: The Foreign Exchange Market'
+title: "Chapter 19: The Foreign Exchange Market"
+parent_directory: "Foundations of Global Financial Markets"
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- derivatives described chapter 38
-- rate market foreign exchange
-- foreign currency example
+    - foreign exchange market
+    - exchange rate determination
+    - fx quotation conventions
+    - purchasing power parity
 secondary_tags:
-- foreign exchange market contents
-- market foreign exchange risk
-- composition foreign exchange
-- market derivatives markets role
-- fx risk specify
-- turnover market participants fx
-tags_extracted: '2025-12-18T00:20:48.858498'
+    - cross rates calculation
+    - triangular arbitrage
+    - fx turnover statistics
+    - market participants fx
+    - fx risk management
+    - currency appreciation depreciation
+cssclasses: academia
 ---
 
-# 19
+# Chapter 19: The Foreign Exchange Market
 
-# The Foreign Exchange Market
-
-# CONTENTS
-
-# Learning Objectives
-
-# Foreign Exchange Rates
-
-FX Rate Quotation Conventions
-
-International Organization for Standardization Currency Code
-
-FX Rate Determination
-
-Cross Rates
-
-# FX Turnover
-
-# Market Participants in the FX Market
-
-Central Banks of Governments
-
-Dealers
-
-Nondealer Private Entities
-
-Settlement in FX Markets
-
-# FX Risk and Derivative Instruments
-
-# Key Points
-
-# Questions
-
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -76,26 +40,20 @@ After reading this chapter, you will understand:
 - the dominant role of financing transactions in the foreign exchange market; and
 - what foreign exchange risk is.
 
-The fundamental fact of international finance is that different countries issue different currencies, and the relative values of those currencies may change quickly, substantially, and without warning. Moreover, the change may either reflect economic developments or be a response to political events that make no economic sense. As a result, the risk that a currency's value may change adversely, which is called foreign exchange risk or currency risk, is an important consideration for all participants in the international financial markets. Investors who purchase securities denominated in a currency different from their own must worry about the rate of return on those securities after adjusting for changes in the exchange rate. Firms that issue obligations denominated in a foreign currency face the risk of the uncertain value of the cash payments they owe to investors.
-
-In this chapter, we provide a review of foreign exchange rates and the foreign exchange rate market. The foreign exchange rate market includes the cash market (or spot market) and the derivatives market. The cash market or spot market is the market for settlement of a foreign exchange transaction within two business days. The derivatives market includes currency futures and forward contracts, currency options, and currency swaps. All these derivatives are described in chapter 38.
-
-# Foreign Exchange Rates
+## Foreign Exchange Rates
 
 An exchange rate is defined as the amount of one currency that can be exchanged for a unit of another currency. In fact, the foreign exchange (FX) rate is the price of one currency in terms of another currency. And, depending on circumstances, one could define either currency as the price for the other. So FX rates can be quoted "in either direction." For example, the FX rate between the U.S. dollar and the euro could be quoted in one of two ways:
 
 1. The number of U.S. dollars necessary to acquire one euro; this is the dollar price of one euro.
 2. The number of euros necessary to acquire one U.S. dollar; this is the euro price of one dollar.
 
-# FX Rate Quotation Conventions
+## FX Rate Quotation Conventions
 
 FX rate quotations can be either direct or indirect. The difference lies in identifying one currency as a local currency and the other as a foreign currency. For example, from the perspective of a U.S. participant, the local currency would be U.S. dollars, and any other currency, such as the Swiss franc, would be the foreign currency. From the perspective of a Swiss participant, the local currency would be the Swiss franc, and other currencies, such as the U.S. dollar, would be the foreign currency. A direct quotation is the number of units of a local currency exchangeable for one unit of a foreign currency.
 
-An indirect quotation is the number of units of a foreign currency that can be exchanged for one unit of the local currency. Looking at it from a U.S. participant's perspective, we see that a quotation indicating the number of dollars exchangeable for one unit of a foreign currency is a direct quotation. An indirect quotation from the same participant's perspective would be the number of units of the foreign currency that can be exchanged for one U.S. dollar. Obviously, from the point of view of a non-U.S. participant, the number of U.S. dollars exchangeable for one unit of a non-
+An indirect quotation is the number of units of a foreign currency that can be exchanged for one unit of the local currency. Looking at it from a U.S. participant's perspective, we see that a quotation indicating the number of dollars exchangeable for one unit of a foreign currency is a direct quotation. An indirect quotation from the same participant's perspective would be the number of units of the foreign currency that can be exchanged for one U.S. dollar. Obviously, from the point of view of a non-U.S. participant, the number of U.S. dollars exchangeable for one unit of a non-U.S. currency is an indirect quotation; the number of units of a non-U.S. currency exchangeable for a U.S. dollar is a direct quotation.
 
-U.S. currency is an indirect quotation; the number of units of a non-U.S. currency exchangeable for a U.S. dollar is a direct quotation.
-
-Given a direct quotation, we can obtain an indirect quotation (which is simply the reciprocal of the direct quotation) and vice versa. For example, on October 25, 2013, a U.S. investor received a direct quotation of 1.3805 U.S. dollars for one euro. That is, the price of a euro was  \$1.3805. The reciprocal of the direct quotation is 0.7244, which would have been the indirect quotation for the U.S. investor; that is, one U.S. dollar could be exchanged for\$ 0.7244 euros, which was the euro price of a U.S. dollar.
+Given a direct quotation, we can obtain an indirect quotation (which is simply the reciprocal of the direct quotation) and vice versa. For example, on October 25, 2013, a U.S. investor received a direct quotation of 1.3805 U.S. dollars for one euro. That is, the price of a euro was $1.3805. The reciprocal of the direct quotation is 0.7244, which would have been the indirect quotation for the U.S. investor; that is, one U.S. dollar could be exchanged for $0.7244 euros, which was the euro price of a U.S. dollar.
 
 If the number of units of a foreign currency that can be obtained for one dollar—the price of a dollar in that currency, or the indirect quotation—rises, the dollar is said to appreciate relative to the currency, and the currency is said to depreciate. Thus, appreciation means a decline in the direct quotation.
 
@@ -109,33 +67,46 @@ Table 19.1 ISO 4217 currency codes for selected countries.
 
 <table><tr><td>Country, Currency Unit</td><td>ISO 4217 Code</td><td>Country, Currency Unit</td><td>ISO 4217 Code</td></tr><tr><td>Argentina, peso</td><td>ARS</td><td>Iran, rial</td><td>IRR</td></tr><tr><td>Australia, dollar</td><td>AUD</td><td>Iraq, dinar</td><td>IQD</td></tr><tr><td>Bolivia, boliviano</td><td>BOB</td><td>Israel, new shekel</td><td>ILS</td></tr><tr><td>Brazil, real</td><td>BRL</td><td>Japan, yen</td><td>JPY</td></tr><tr><td>Britain (United Kingdom), pound</td><td>GBP</td><td>Korea (North), won</td><td>KPW</td></tr><tr><td>Bulgaria, lev</td><td>BN</td><td>Korea (South), won</td><td>KRW</td></tr><tr><td>Canada, dollar</td><td>CAD</td><td>Kuwait, dinar</td><td>KWD</td></tr><tr><td>Chile, peso</td><td>CLP</td><td>Latvia, lats</td><td>LVL</td></tr><tr><td>China, yuan renminbi</td><td>CNY</td><td>Lebanon, pound</td><td>LBP</td></tr><tr><td>Colombia, peso</td><td>COP</td><td>Malaysia, ringgit</td><td>MYR</td></tr><tr><td>Cyprus, pound</td><td>CYP</td><td>Mexico, peso</td><td>MXN</td></tr><tr><td>Czech Republic, koruna</td><td>CZK</td><td>New Zealand, dollar</td><td>NZD</td></tr><tr><td>Denmark, krone</td><td>DKK</td><td>Norway, krone</td><td>NOK</td></tr><tr><td>Egypt, pound</td><td>EGP</td><td>Pakistan, rupee</td><td>PKR</td></tr><tr><td>El Salvador, dollar</td><td>SVC</td><td>Russia, ruble</td><td>RUB</td></tr><tr><td>Euro member countries, euro</td><td>EUR</td><td>Switzerland, franc</td><td>CHF</td></tr><tr><td>Hong Kong, dollar</td><td>HKD</td><td>Thailand, baht</td><td>THB</td></tr><tr><td>Hungarian, forint</td><td>HUK</td><td>Turkey, new lira</td><td>TRY</td></tr><tr><td>Iceland, krona</td><td>ISK</td><td>United Arab Emirates, dirham</td><td>AED</td></tr><tr><td>India, rupee</td><td>INR</td><td>United Kingdom, pound</td><td>GBP</td></tr><tr><td>Indonesia, rupiah</td><td>IDR</td><td>United States of America, dollar</td><td>USD</td></tr></table>
 
-# FX Rate Determination
+## FX Rate Determination
 
 Since the early 1970s, exchange rates among major currencies have been free to float, with market forces determining the relative value of a currency. Thus, each day a currency's price relative to that of another freely floating currency may stay the same, increase, or decrease.
 
 A key factor affecting the expectation of changes in a country's exchange rate with another currency is the relative expected inflation rate of the two countries. Spot exchange rates adjust to compensate for the relative inflation rate. This adjustment reflects the so-called purchasing power parity relationship, which posits that the exchange rate—the domestic price of the foreign currency—is proportional to the domestic inflation rate and inversely proportional to foreign inflation.
 
-Let's look at what happens when the spot exchange rate changes between two currencies. Suppose that on day 1, the spot exchange rate between the U.S. dollar and country X's currency is  \$0.7966, and on the next day (day 2), it changes to\$ 0.8011. Consequently, on day 1, one currency unit of country X costs \$0.7966. On day 2, it costs more U.S. dollars (\$0.8011) to buy one currency unit of country X. Thus, the currency unit of country X appreciated relative to the U.S. dollar from day 1 to day 2, or, what amounts to the same thing, the U.S. dollar depreciated relative to the currency of country X from day 1 to day 2. Suppose further that on day 3, the spot exchange rate for one currency unit of country X is 0.8000. Relative to day 2, the U.S. dollar appreciated relative to the currency of country X, or, equivalently, the currency of country X depreciated relative to the U.S. dollar.
+Let's look at what happens when the spot exchange rate changes between two currencies. Suppose that on day 1, the spot exchange rate between the U.S. dollar and country X's currency is $0.7966, and on the next day (day 2), it changes to $0.8011. Consequently, on day 1, one currency unit of country X costs $0.7966. On day 2, it costs more U.S. dollars ($0.8011) to buy one currency unit of country X. Thus, the currency unit of country X appreciated relative to the U.S. dollar from day 1 to day 2, or, what amounts to the same thing, the U.S. dollar depreciated relative to the currency of country X from day 1 to day 2. Suppose further that on day 3, the spot exchange rate for one currency unit of country X is 0.8000. Relative to day 2, the U.S. dollar appreciated relative to the currency of country X, or, equivalently, the currency of country X depreciated relative to the U.S. dollar.
 
-# Cross Rates
+## Cross Rates
 
 Barring any government restrictions, riskless arbitrage will ensure that the exchange rate between two countries will be the same in both countries. The theoretical exchange rate between two countries other than the United States can be inferred from their exchange rates with the U.S. dollar. Rates computed in this way are referred to as theoretical cross rates. They would be computed as follows for two countries, X and Y:
 
 $$
-\text{Th eo te ri ca lc ro ss ra te} = \frac{\text{Qu ot ei nA me ri ca nt er ms of cu rr en cy X}}{\text{Qu ot ei nA me ri ca nt er ms of cu rr en cy Y}}
+\text{Theoretical cross rate} = \frac{\text{Quoted in American terms of currency X}}{\text{Quoted in American terms of currency Y}}
 $$
 
-To illustrate, let's calculate the theoretical cross rate between Japanese yen and British pound on August 11, 2018. The spot exchange rate for the two currencies in American terms was 1.27691 per British pound and 0.00902 per Japanese yen. Then the number of units of yen (currency Y) per unit of British points (currency X) is
+To illustrate, let's calculate the theoretical cross rate between Japanese yen and British pound on August 11, 2018. The spot exchange rate for the two currencies in American terms was 1.27691 per British pound and 0.00902 per Japanese yen. Then the number of units of yen (currency Y) per unit of British pound (currency X) is
 
 $$
-\frac{\mathbb {S} 1 . 2 7 6 9 1}{\mathbb {S} 0 . 0 0 9 0 2} = 1 4 1. 5 6 4 3 \text{ye np er Br it hi po un d}.
+\frac{\$1.27691}{\$0.00902} = 141.5643 \text{yen per British pound}.
 $$
 
 That is, it would take 141.5643 yen to obtain one British pound. Taking the reciprocal gives the number of British pounds exchangeable for one Japanese yen. In our example, it is 0.0071.
 
 In the real world, it is rare that the theoretical cross rate, as computed from actual dealer dollar exchange rate quotations, will differ from the actual cross rate quoted by dealers. When the discrepancy is large compared to the transaction costs of buying and selling the currencies, a riskless arbitrage opportunity arises. Arbitrating to take advantage of cross-rate mispricing is called triangular arbitrage, so named because it involves positions in three currencies—the U.S. dollar and the two foreign currencies. The arbitrage keeps actual cross rates in line with theoretical cross rates.
 
-# FX Turnover
+```d2
+direction: right
+USD: USD
+EUR: EUR
+JPY: JPY
+
+USD -> EUR: Direct Rate
+USD -> JPY: Direct Rate
+EUR -> JPY: Cross Rate
+
+note: Triangular arbitrage ensures cross rates align with direct rates
+```
+
+## FX Turnover
 
 Trading volume (or market turnover) statistics for the FX market is reported every three years by the Bank of International Settlements (BIS) in its Triennial Survey on Foreign Exchange and OTC Derivatives. The 2016 survey found that the average daily market turnover in the FX market (spot and derivatives) as of April 2016 was US5.067 trillion. Of that amount, spot market trading was 1.652 trillion per day or 33\% of all trading. The balance, 3.415 trillion or 67\%, was therefore turnover attributable to FX derivative instruments.
 
@@ -163,9 +134,22 @@ Source: Taken from Bank for International Settlements, "Triennial Central Bank S
 
 Note: Shown are the average daily turnover values in April 2016, in billions of U.S. dollars and percentages.
 
-# Market Participants in the FX Market
+## Market Participants in the FX Market
 
 The FX market is an OTC market that operates 24 hours a day. Market participants in the FX market include the central banks of governments, dealers, nondealer private market entities, and clearinghouses for FX trading.
+
+```d2
+shape: flowchart
+Central Banks: Central Banks
+Dealers: Dealers
+Nondealer Entities: Nondealer Private Entities
+Clearinghouses: Clearinghouses
+
+Central Banks -> Dealers: Intervention
+Dealers -> Nondealer Entities: Trading
+Dealers -> Clearinghouses: Settlement
+Nondealer Entities -> Clearinghouses: Settlement
+```
 
 Although major currencies are allowed to float, in practice, national monetary authorities can intervene in the foreign market for their currency for a variety of economic reasons. Consequently, the current FX system is sometimes referred to as a "managed" floating-rate system.
 
@@ -175,7 +159,7 @@ In 1978, the FRBNY formed the Foreign Exchange Committee (FXC). Individuals from
 
 Other countries have entities that play the same role as the FXC. For example, in 1973, the United Kingdom formed The London Foreign Exchange Joint Standing Committee, which is chaired and administered by the Bank of England.
 
-# Dealers
+### Dealers
 
 Because the FX market is an OTC market that operates 24 hours a day, market participants who want to buy or sell a currency must search among different dealers to get the best exchange rate on a specific currency. Alternatively, market participants who want to transact can refer to various widely available bank/broker screens, such as Bloomberg Financial Markets and Reuters. The prices cited on those screens are for indicative pricing only (i.e., a quote which is neither a firm bid nor a binding bid).
 
@@ -187,7 +171,7 @@ FX dealers realize revenue from one or more sources: (1) the bid-ask spread (bid
 
 The geographical distribution of FX trading by dealers has been concentrated in the global financial centers in the five countries responsible for  $75\%$  of market activity, according to the Triennial Central Bank Surveys. As of 2016, by far the dominant financial center is in the United Kingdom with a share of  $36.9\%$ , followed by the United States  $(19.5\%)$ , Singapore  $(7.9\%)$ , Hong Kong  $(16.7\%)$ , and Japan  $(6.1\%)$ .
 
-# Nondealer Private Entities
+### Nondealer Private Entities
 
 FX dealers in the FX market are acting on behalf of clients for their own accounts. It is the clients who drive the supply and demand for a country's
 
@@ -207,7 +191,7 @@ The Society for Worldwide Interbank Financial Telecommunications is a cooperativ
 
 The major clearinghouses include Clearing House Interbank Payment System (CHIPS) and Clearing House Automated Payment System (CHAPS). CHIPS is owned by the 12 commercial banks constituting the New York Clearing House Association. Started in 1971, CHIPS is the world's largest electronic payment system (including FX transactions) for settlement among banks in New York; that is, there is no need for physical exchange of checks or funds to settle transactions. The funds are then transferred via the Fedwire, a communication network linking more than 7,000 banks to the Federal Reserve Banks. Similar to CHIPS, CHAPS is a mechanism for clearing in London.
 
-# FX Risk and Derivative Instruments
+## FX Risk and Derivative Instruments
 
 Our major focus in this chapter has been on one sector of the FX market: the spot market. Yet, as emphasized in this chapter when describing FX trading activities, transactions in the FX market involve FX derivatives because of the need for market participants to protect against adverse movements in the FX rate. FX derivatives are used to control FX risk. Consequently, to appreciate the need for FX derivatives, we describe FX risk.
 
@@ -217,7 +201,7 @@ Any investor who purchases an asset denominated in a currency that is not the me
 
 FX risk is a consideration for the issuer, too. Suppose that IBM issues bonds denominated in euros. IBM's FX risk is that, at the time the coupon interest payments must be made and the principal repaid, the U.S. dollar will have depreciated relative to the euro, requiring that IBM pay more dollars to satisfy its obligation.
 
-# Key Points
+## Key Points
 - An FX rate is defined as the amount of one currency that can be exchanged for another currency.
 - A direct exchange rate quotation is the domestic price of a foreign currency. An indirect quotation is the foreign price of the domestic currency.
 - Exchange rates can be quoted in either American terms (i.e., in terms of U.S. dollars per unit of foreign currency) or European terms (i.e., in terms of the number of units of the foreign currency per U.S. dollar). With a few exceptions, the market convention is to use European terms.
@@ -230,44 +214,4 @@ FX risk is a consideration for the issuer, too. Suppose that IBM issues bonds de
 - In the FX market, the dominant form of trading is financial transactions.
 - An investor or issuer whose cash flows are denominated in a foreign currency is exposed to FX risk.
 
-# Questions
 
-1. a. What is the ISO 4237 currency code?
-b. What does the following exchange rate mean: CAD/MXN?
-
-2. The following are quotes on August 19, 2016, for four currencies with the quote in terms of U.S. dollars per unit. Complete the values in the second column.
-
-<table><tr><td></td><td>Currency Unit</td><td>Units per U.S. Dollar</td><td>U.S. Dollars per Unit</td></tr><tr><td>EUR</td><td>(euro)</td><td>?</td><td>1.1325477382</td></tr><tr><td>GBP</td><td>(British pound)</td><td>?</td><td>1.3077000000</td></tr><tr><td>INR</td><td>(Indian rupee)</td><td>?</td><td>0.0148968912</td></tr><tr><td>AUD</td><td>(Australian dollar)</td><td>?</td><td>0.7626350000</td></tr></table>
-
-3. The following are quotes on August 19, 2016, for four currencies with the quote in terms of units per U.S. dollar. Complete the values in the last column.
-
-<table><tr><td></td><td>Currency Unit</td><td>Units per U.S. Dollar</td><td>U.S. Dollars per Unit</td></tr><tr><td>MYR</td><td>(Malaysian ringgit)</td><td>4.0154996681</td><td>?</td></tr><tr><td>JPY</td><td>(Japanese yen)</td><td>100.2160000000</td><td>?</td></tr><tr><td>CNY</td><td>(Chinese yuan renminbi)</td><td>6.6507000000</td><td>?</td></tr><tr><td>NZD</td><td>(New Zealand dollar)</td><td>1.3743059755</td><td>?</td></tr></table>
-
-4. The following spot FX rates were reported on October 25, 2013.
-
-<table><tr><td rowspan="2">U.S. dollar</td><td>Japanese Yen</td><td>British Pound</td><td>Australian Dollar</td></tr><tr><td>0.010267</td><td>1.616500</td><td>0.957900</td></tr></table> a. From the perspective of a U.S. investor, are the preceding FX rates direct or indirect quotations?
-
-Note: The exchange rates indicate the number of U.S. dollars necessary to purchase one unit of the foreign currency.
-
-b. How much of each of the foreign currencies is needed to buy one U.S. dollar?
-
-5. For the exchange rates in question 4, calculate the theoretical cross rates between: a. the Australian dollar and the Japanese yen,
-
-b. the Australian dollar and the British pound, and c. the Japanese yen and the British pound.
-
-6. Below are quotes for FX rates between the euro and other currencies on August 19, 2015, and one year later (August 19, 2016). The quote is in terms of the number of units of the currency per euro.
-
-<table><tr><td>Currency Code</td><td>Currency Name</td><td>Units per EUR (August 19, 2015)</td><td>Units per EUR (August 19, 2016)</td></tr><tr><td>GBP</td><td>British pound</td><td>0.70712814</td><td>0.867300414</td></tr><tr><td>INR</td><td>Indian rupee</td><td>72.09718253</td><td>76.04223967</td></tr><tr><td>AUD</td><td>Australian dollar</td><td>1.511989135</td><td>1.486415575</td></tr><tr><td>CAD</td><td>Canadian dollar</td><td>1.455905913</td><td>1.458507691</td></tr><tr><td>SGD</td><td>Singapore dollar</td><td>1.554966916</td><td>1.525800563</td></tr><tr><td>CHF</td><td>Swiss franc</td><td>1.073200586</td><td>1.086794982</td></tr><tr><td>MYR</td><td>Malaysian ringgit</td><td>4.539774144</td><td>4.548440709</td></tr><tr><td>JPY</td><td>Japanese yen</td><td>137.2743242</td><td>113.5447394</td></tr><tr><td>CNY</td><td>Chinese yuan renminbi</td><td>7.075979567</td><td>7.53592369</td></tr><tr><td>NZD</td><td>New Zealand dollar</td><td>1.685256522</td><td>1.558592403</td></tr><tr><td>THB</td><td>Thai baht</td><td>39.37040071</td><td>39.22792237</td></tr><tr><td>HUF</td><td>Hungarian forint</td><td>310.1395155</td><td>310.1571238</td></tr></table> a. Which of the currencies appreciated relative to the euro?
-
-b. Which of the currencies depreciated relative to the euro?
-
-7. Explain the meaning of triangular arbitrage, and show how it is related to cross rates.
-8. Why is the primary factor impacting the short-term movements in FX rates the supply and demand for a currency by importers and exporters?
-9. In the second quarter of 2016, the British pound depreciated sharply against the U.S. dollar immediately following the outcome of the U.K. referendum to exit the European Union (nicknamed "Brexit"). This resulted in a  $7.3\%$  decline in the British pound-U.S. dollar exchange rate over the second quarter. Why did the U.K. pound depreciate relative to the U.S. dollar?
-10. A U.S. life insurance company that buys British government bonds faces FX risk. Specify the nature of that risk in terms of the company's expected return in U.S. dollars.
-11. According to the Bank for International Settlements, "Triennial Central Bank Survey," in recent years, facilitated by Internet-based trading platforms, retail investors (private individuals trading on their own behalf) have increased their participation in the FX market.
-12. As reported in Bank for International Settlements, "Triennial Central Bank Survey," 12, table 4.
-
-# V
-
-GLOBAL GOVERNMENT DEBT MARKETS

@@ -1,13 +1,25 @@
 ---
-parent_directory:
 title: "TVM & Bonds: PV, FV, Discounting"
-tags:
-aliases:
-parent_folder: Lecture Notes Advanced Financial Analysis and Valuation
-subfolder:
-key_concepts:
+parent_directory: "Lecture Notes"
+formatted: 2025-12-21 03:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - time value money
+  - bond valuation
+  - present value
+  - yield calculation
+  - discounting
+secondary_tags:
+  - future value
+  - coupon bonds
+  - yield to maturity
+  - cash flow diagrams
+  - interest rates
+  - tvm solver
+  - bond pricing
+  - internal rate return
 cssclasses: academia
-linter-yaml-title-alias: "TVM & Bonds: PV, FV, Discounting"
 ---
 
 # TVM & Bonds: PV, FV, Discounting
@@ -18,7 +30,7 @@ Thomas S. Coleman
 
 27 March 2023, Draft March 31, 2023
 
-# Procedural
+## Procedural
 
 I. Groups
 
@@ -28,7 +40,7 @@ II. Assignment
 
 - Due next Monday at 11:59pm
 
-# Four Ideas - All About Yield
+## Four Ideas - All About Yield
 
 # Contents
 
@@ -57,7 +69,7 @@ II. Assignment
 
 # Remember: The Budget Line: PV, FV, Discounting
 
-Budget line - Start with 2 periods linked by savings: put in  $1, get$ 1(1+y)
+Budget line - Start with 2 periods linked by savings: put in $1, get $1(1+y)
 
 - Start with no borrow / lend:  $s = 0$  - single point  
 - Next allow lending:  $s > 0$ , extend line upper left (eliminate  $s$ )  
@@ -500,7 +512,7 @@ Yield-to-maturity isn't perfect, because generally there will be a "term-structu
 But YTM is pretty good, and for now we will use YTM, ignoring any issues about term structure  
 - Later in the course we will introduce "term structure of interest rates" or "yield curve"
 
-# 3.3 Where Do We Get Yield?
+## 3.3 Where Do We Get Yield?
 
 # 3.3.1 Bonds - Markets give us Yield (Discount Rate, Expected Return)
 

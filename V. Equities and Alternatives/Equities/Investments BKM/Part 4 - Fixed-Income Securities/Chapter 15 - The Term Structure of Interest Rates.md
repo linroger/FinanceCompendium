@@ -54,8 +54,6 @@ What then do we mean by "the" yield curve? In fact, in practice, traders refer t
 
 Treasuries. In contrast, the on-the-run yield curve refers to the plot of yield as a function of maturity for recently issued coupon bonds selling at or near par value. As we've just seen, these curves may differ significantly. The yield curves published in the financial press, like those, in Figure 15.1, are typically on-the-run curves. On-the-run Treasuries have the greatest liquidity, so traders have keen interest in their yield curve.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d1f3e7ff9d07b70bf66893f97bb63d3bb7caf186d9b491a476daecc190b6d7d2.jpg)
-
 # Concept Check 15.1
 
 Using the data in Table 15.1, calculate the price and yield to maturity of a 3-year bond with a coupon rate of  $4\%$  making annual coupon payments. Does its yield match that of either the 3-year zero or the  $10\%$  coupon bond considered in Example 15.1? Why is the yield spread between the  $4\%$  bond and the zero smaller than the yield spread between the  $10\%$  bond and the zero?
@@ -129,8 +127,6 @@ $$
 
 We conclude that the yield or spot rate on a long-term bond reflects the anticipated path of short rates over the life of the bond.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/fe1ca7ccfa22e321d4019c807a6d86015f79c2090ed1cbbd29b4be9c3dfed2cc.jpg)
-
 # Concept Check 15.2
 
 Use Table 15.1 to find the short rate in the fourth year. Confirm that the discount factor on the 4-year zero is a geometric average of  $1 +$  the short rates in the next four years.
@@ -146,7 +142,7 @@ We've argued that the multiyear cumulative returns on all of our competing bonds
 The 1-year bond in Table 15.1 can be bought today for 1,000/1.05 = \952.38 and will mature to its par value in one year. It pays no coupons, so total investment income is just its price appreciation, and its rate of return is (\1,000 - \952.38)/\952.38 = .05 The 2-year bond can be bought for 1,000 / 1.06^2 = \890.00. Next year, the bond will have a remaining maturity of one year and the 1-year interest rate will be 7.01\%. Therefore, its price next year will be \$ 1,000 / 1.0701 = \934.49, and its 1-year holding-period rate of return will be (\934.49 - \890.00)/\890.00 = .05, for an identical 5\% rate of return.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/5f5fd231f222e3d81e9367e01c99276acdebfb5e4bbcbdf9bd85b5d399862647.jpg)
+
 
 # Concept Check 15.3
 
@@ -198,7 +194,6 @@ Therefore, the forward rate is  $f_{4} = .1106$ , or  $11.06\%$ .
 
 We emphasize again that the interest rate that actually will prevail in the future need not equal the forward rate, which is calculated from today's data. Indeed, the forward rate may not even equal the expected value of the future short interest rate. We address this issue in the next section. For now, however, we note that forward rates equal future short rates in the special case of interest rate certainty.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/2c2c806d3dcd20157d876c1a477e13b72e626db9a64f8f227c8052945eca8fbd.jpg)
 
 # Concept Check 15.4
 
@@ -253,7 +248,6 @@ The result in Example 15.5—that the forward rate exceeds the expected short ra
 
 Therefore, if most individuals are short-term investors,  $f_{2}$  must be greater than  $E(r_{2})$ . The forward rate will embody a premium compared with the expected future short-interest rate. This liquidity premium compensates short-term investors for the uncertainty about the price at which they will be able to sell their long-term bonds at the end of the year.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/e24a56f470debf5966c85b801491eb8a2feffbc190d9a30309581d9ac02f902d.jpg)
 
 # Concept Check 15.5
 
@@ -280,7 +274,6 @@ For example, suppose that in fact  $E(r_2) = 8\%$ . The liquidity premium theref
 
 The simplest theory of the term structure is the expectations hypothesis. A common version states that the forward rate equals the market consensus expectation of the future short interest rate; that is,  $f_{2} = E(r_{2})$ , and liquidity premiums are zero. If  $f_{2} = E(r_{2})$ , yields on long-term bonds depend only on expectations of future short rates. Therefore, we can use forward rates to infer market expectations of future short rates. For example, with  $(1 + y_{2})^{2} = (1 + r_{1}) \times (1 + f_{2})$  from Equation 15.5, the expectations hypothesis would imply that  $(1 + y_{2})^{2} = (1 + r_{1}) \times [1 + E(r_{2})]$ . The yield to maturity would thus be determined solely by current and expected future one-period interest rates. An upward-sloping yield curve would be clear evidence that investors anticipate increases in interest rates.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/a4ece8a5b662d7e4685ef5e28d79e30c8e629cdc22fe810e3afe501485281e49.jpg)
 
 # Concept Check 15.6
 
@@ -301,7 +294,6 @@ By the way, nothing limits us to nominal bonds when using the expectations hypot
 
 We've seen that short-term investors will be unwilling to hold long-term bonds unless the forward rate exceeds the expected short interest rate,  $f_{2} > E(r_{2})$ , whereas long-term investors will be unwilling to hold short bonds unless  $E(r_{2}) > f_{2}$ . In other words, both groups of investors require a premium to hold bonds with maturities different from their investment horizons. Advocates of the liquidity preference theory of the term structure believe that short-term investors dominate the market so that the forward rate will generally exceed the expected short rate. The excess of  $f_{2}$  over  $E(r_{2})$ , the liquidity premium, is predicted to be positive.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/77e1f02cb91e04093a052488682302ecce6b2cce452ef86c27c6f0dc131536ef.jpg)
 
 # Concept Check 15.7
 
@@ -380,7 +372,6 @@ $$
 
 If  $f_4 = .07$ , then  $y_4$  also will equal .07. (Confirm this!) If  $f_4$  is greater than  $7\%$ ,  $y_4$  will exceed  $7\%$ , and the yield curve will slope upward. For example, if  $f_4 = .08$ , then  $(1 + y_4)^4 = (1.07)^3 (1.08) = 1.3230$ , and  $y_4 = .0725$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ddd2217c2f34b5ad42f84020fead439b66705e4d1c8fb220fa1c68ba6e7f09ea.jpg)
 
 # Concept Check 15.8
 
@@ -471,7 +462,6 @@ B: For a General Forward Rate. The short rates in the two periods are  $r_1$  (w
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/13a9be5b0f0842f23fce93b507a53204d8f693a1a3df7e52ebb325f333a5cd15.jpg)
 Figure 15.7 Engineering a synthetic forward loan
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ecd96db36e45ca6215ab97d4c8b38fab326e3d00f90fb19ecef4316e6d60c478.jpg)
 
 # Concept Check 15.9
 

@@ -220,8 +220,6 @@ A warning: Even hedged market-neutral positions can go very wrong. This is not t
 
 Even market-neutral bets result in considerable volatility because most hedge funds use significant leverage. Incidents of relative mispricing are fairly minor, and the hedged nature of these long-short strategies make the volatility of the pure play low. Hedge funds respond by scaling up their bets. This amplifies gains when their bets work out, but also amplifies losses. In the end, the volatility of the funds is not small.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0c23910e9ee6cd556ff5f6db0b48da46adb82e652616fb8859c830497350bca2.jpg)
-
 # Concept Check 26.2
 
 What would be the dollar value and rate of return on the market-neutral position from Example 26.2 if the value of the residual, e, turns out to be  $-4\%$
@@ -331,8 +329,6 @@ $$
 
 This implies that the value of the firm net of your \\$2 million investment (i.e., the pre-round valuation) must be \\$4.5 million – \\$2.0 million = \\$2.5 million.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0fe260a4f5b722eb7fb488cfff3afa31a8d8cc2f7c5f62befe9f83ac4bca7afa.jpg)
-
 # Concept Check 26.3
 
 # Return to Example 26.3.
@@ -426,7 +422,6 @@ $$
 
 Use financial calculator or spreadsheet
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/270d0df7da15d1cd8b89e23d70ee3897cebd00f0dcf8ce7f83e1f785a32dfcae.jpg)
 
 # Concept Check 26.4
 
@@ -577,7 +572,6 @@ Distressed-firm funds have significant exposure to credit conditions (more posit
 
 We conclude that, by and large, most hedge funds are making very explicit directional bets on a wide array of economic factors.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7a6578960f231278fd6743d54b6b61d7761364066efb7ca384ec5b7361e37113.jpg)
 
 # Concept Check 26.5
 
@@ -861,7 +855,6 @@ hedge fund classes. How does the variability of performance results in different
 
 Private Equity: Go to www.preqin.com, which also maintains a database of the performance of multiple alternative asset classes including hedge funds, venture capital, and leveraged buyouts (which it classifies as private equity). Register free: https://www.preqin.com/registerinterest/ free-account and login. Click the Charts and League Tables tab, then select Private Capital Performance. From here you can access the PreQin Quarterly Index on each of the private equity subclasses (e.g., venture capital, leveraged buyouts, real estate, natural resources, etc.). Copy/paste five years of quarterly returns for three subclasses and copy/paste returns as well on the S&P 500 for the same period (calculated in PreQin using quarterly data). Calculate the beta and Sharpe ratio of each of these subclasses. Do the results seem reasonable in terms of the performance expectations of these funds? Private equity has been described as an engine for portfolio growth. Do the data support this?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/e0fad83da0bdd53a0ad9864ed0ebb19ecb5cf12dc329e51c5ca8419ca73a9649.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

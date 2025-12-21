@@ -107,7 +107,7 @@ $$
 P _ {0} (0, 3) = \frac {1}{1 . 0 3 8 9 6} \times \frac {1}{1 . 0 5 3 4 1} \times \frac {1}{1 . 0 6 4 3 0} = 0. 8 5 8 5
 $$
 
-# Options on Bonds and Rates
+## Options on Bonds and Rates
 
 We now define the payoffs on bond and interest rate options, and demonstrate the equivalence between a put option on a bond and a call option on an interest rate.
 
@@ -135,7 +135,7 @@ Floorlet  $(P_T(T, T + s), T) = \frac{1}{1 + R_T(T, T + s)}$  max[0,  $K_R P_T(T
 
 Note that we are using the market rate at time  $T$  to discount the payment.
 
-# Equivalence of a Bond Put and an Interest Rate Call
+## Equivalence of a Bond Put and an Interest Rate Call
 
 Options on bonds can be converted into options on interest rates. A borrower who is hedging wants a contract that makes a payment when interest rates rise. Intuitively, either a call option on the interest rate or a put option on a bond will accomplish this. In fact, we can transform one into the other.
 
@@ -149,7 +149,7 @@ The right-hand side of equation (8) is the payoff of  $1 + K_{R}$  put options o
 
 Example 2. Consider a caplet with a strike of  $6\%$ , paying  $\max(0, R_T - 0.06) / (1 + R_T(T, T + s))$ . This is equivalent to 1.06 bond put options with a strike of  $K = 1/1.06$ , paying  $1.06 \times \max[0, 1/1.06 - P_T(T, T + s)]$ , where  $P_T(T, T + s) \equiv 1 / (1 + R_T(T, T + s))$ .
 
-# Taxonomy of Interest Rate Models
+## Taxonomy of Interest Rate Models
 
 All of the pricing models in this chapter fall into one of two categories: short-rate models and market models. Here we will briefly explain each pricing model.
 
@@ -197,7 +197,7 @@ As another example, suppose that a specific forward interest rate satisfies equa
 
 The theoretical justification for equation (11) arises from the choice of a zero-coupon bond,  $P_{t}(t,T)$ , as numeraire. An asset price divided by  $P_{t}(t,T)$  is a forward price, so the result that all such price ratios are martingales means that all forward prices with maturity  $T$  are martingales. Such a price ratio can represent the forward price for bonds (when the numerator is  $P_{t}(t,T + s)$ ) or for nonannualized interest rates (when the numerator is  $P_{t}(t,T - s)$ ).
 
-# 2. INTEREST RATE DERIVATIVES AND THE BLACK-SCHOLES-MERTON APPROACH
+## 2. INTEREST RATE DERIVATIVES AND THE BLACK-SCHOLES-MERTON APPROACH
 
 In this section we see how the Black-Scholes-Merton approach can be applied to price bonds and interest rate derivatives. The Black-Scholes-Merton derivation characterizes the fair option price for a delta-hedging market-maker. Vasicek (1977) used the same approach for pricing bonds, assuming that the short-term interest rate followed an Ito process.
 
@@ -224,7 +224,7 @@ This is the physical process for the bond. For this equation to be reasonable,  
 
 The logic of the Vasicek approach to pricing bonds is identical to the Black-Scholes approach to analyzing options: We think about the problem faced by a market-maker and see what it tells us about bond price behavior. We will focus on pricing zero-coupon bonds since they are a building block for all fixed-income products.
 
-# An Equilibrium Equation for Bonds
+## An Equilibrium Equation for Bonds
 
 We now consider how to price a bond given that the interest rate follows equation (13). One approach would be to start with a risk-neutral version of equation (13) and then compute equation (10). Instead, however, we will treat equation (13) as the physical interest rate process and work through the hedging argument. We will end up with the same pricing formula and we will have a better appreciation for the role of the risk premium in bond pricing.
 
@@ -347,11 +347,11 @@ To summarize, we can compute the price of a bond by assuming a model for the int
 
 The derivation of equation (25) assumes that bond prices are a function of a single-state variable, the short-term interest rate  $r(t)$ . It is possible to allow bond prices to depend on additional state variables, and there is empirical support for having bond prices depend on more than one state variable. Litterman and Scheinkman (1991) estimate a factor model for Treasury bond returns and find that a three-factor model typically explains more than  $95\%$  of the variability in a bond's return. They identify the three factors as level, steepness, and curvature of the yield curve. The single most important factor, the level of interest rates, accounts for almost  $90\%$  of the movement in bond returns. The overwhelming importance of the level of interest rates explains why duration-based hedging, despite its conceptual problems, is widely used. We will focus in this chapter on models with a single state variable.
 
-# 3. CONTINUOUS-TIME SHORT-RATE MODELS
+## 3. CONTINUOUS-TIME SHORT-RATE MODELS
 
 In this section we discuss several bond pricing models in which the instantaneous shortterm interest rate,  $r(t)$ , follows a form of equation (13) and bond prices are determined by equation (25). The three pricing models we discuss—Rendleman-Bartter, Vasicek, and Cox-Ingersoll-Ross—differ in their specification of  $\alpha(r)$ ,  $\sigma(r)$ , and  $\phi(r)$ . These differences can result in very different pricing implications.
 
-# The Rendelman-Bartter Model
+## The Rendelman-Bartter Model
 
 The simplest models of the short-term interest rate are those in which the interest rate follows arithmetic or geometric Brownian motion. For example, we could write
 
@@ -371,7 +371,7 @@ $$
 
 While interest rates can never be negative in this model, they can be arbitrarily high. In practice we would expect rates to exhibit mean reversion; if rates are high, we expect them on average to decrease. The Rendleman-Bartter model, on the other hand, says that the probability of rates going up or down is the same whether rates are  $100\%$  or  $1\%$ .
 
-# The Vasicek Model
+## The Vasicek Model
 
 The Vasicek model incorporates mean reversion:
 
@@ -426,7 +426,7 @@ $$
 
 $$ with  $\bar{r}$  being the yield to maturity on an infinitely lived bond. $^{10}$
 
-# The Cox-Ingersoll-Ross Model
+## The Cox-Ingersoll-Ross Model
 
 The Cox-Ingersoll-Ross (CIR) model (Cox et al., 1985b) assumes a short-term interest rate model of the form
 
@@ -479,7 +479,7 @@ $$
 
 With the CIR process, the yield on a long-term bond approaches the value  $\bar{r} = 2ab / (a - \bar{\phi} +\gamma)$  as time to maturity goes to infinity.
 
-# Comparing Vasicek and CIR
+## Comparing Vasicek and CIR
 
 How different are the prices generated by the CIR and Vasicek models? What is the role of the different variance specifications in the two models?
 
@@ -489,7 +489,7 @@ The two models can exhibit very different behavior. The bottom panel has a relat
 
 What accounts for the difference in medium to long-term bonds? As discussed earlier, the pricing formulas are based on averages of interest rate paths, as in equation (9). Some of the interest rate paths in the Vasicek model will be negative. Although the typical path will be positive because of mean reversion—rates will be pulled toward  $10\%$ —there will be paths on which rates are negative. Because of Jensen's inequality, these paths will be disproportionately important. Over sufficiently long horizons, large negative interest rates become more likely and this leads to negative yields. In the CIR model, this effect results
 
-# FIGURE I
+**FIGURE I**
 
 Yield curves implied by the Vasicek and CIR models, assuming that  $r = 0.05$ ,  $a = 0.2$ ,  $b = 0.1$ . In the top panel,  $\sigma = 0.02$  in the Vasicek model and  $\sigma = 0.02 / \sqrt{0.05} = 0.0894$  in the CIR model. In the bottom panel,  $\sigma = 0.10$  in the Vasicek model and  $\sigma = 0.10 / \sqrt{0.05} = 0.447$  in the CIR model. In all cases,  $\phi = 0$ .
 

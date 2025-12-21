@@ -132,7 +132,6 @@ Equation 10.4 tells us that as diversification progresses, that is, as the weigh
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ae5f4a5c50068ed3fded88d6a7475ade1ad1351e497b51057649f717772b1120.jpg)
 Figure 10.1 Scatter diagram for a single stock (Intel) and a diversified mutual fund (Vanguard Growth and Income). The fund exhibits much smaller scatter around the regression line.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/050e49f388452d7caf7e9f95117264636144b68493bd6244599386e03034d6a8.jpg)
 
 # Concept Check 10.2 a. A portfolio is invested in a very large number of shares (  $n$  is large). However, one-half of the portfolio is invested in stock 1, and the rest of the portfolio is equally divided among the other  $n - 1$  shares. Is this portfolio well diversified?
 

@@ -1,16 +1,95 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Contemporary Financial Intermediation
-linter-yaml-title-alias: Contemporary Financial Intermediation
+parent_directory: Banking
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - contemporary financial intermediation
+secondary_tags:
+  - banking risks management
+  - financial crises analysis
+  - bank regulation
+  - financial innovation
+cssclasses: academia
 ---
 
 # Contemporary Financial Intermediation
 
 This directory contains the split chapters of "Contemporary Financial Intermediation" by Stuart I. Greenbaum, Anjan V. Thakor, and Arnoud Boot.
+
+## Book Structure Overview
+
+```d2
+direction: right
+
+Book: Contemporary Financial Intermediation {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+  style.stroke-width: 2
+}
+
+Introduction: Introduction {
+  shape: circle
+  style.fill: "#4caf50"
+  style.stroke: "#2e7d32"
+}
+
+Background: Part I\nThe Background {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Intermediation: Part II\nWhat is Financial Intermediation? {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Risks: Part III\nIdentification and Management of\nMajor Banking Risks {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+BalanceSheet: Part IV\n"On Balance Sheet"\nBanking Activities {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+OffBalanceSheet: Part V\nOff the Bank's\nBalance Sheet {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+Funding: Part VI\nThe Funding of the Bank {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+Crises: Part VII\nFinancial Crises {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+Regulation: Part VIII\nBank Regulation {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Innovation: Part IX\nFinancial Innovation {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Future: Part X\nThe Future {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+Book -> Introduction -> Background -> Intermediation -> Risks -> BalanceSheet -> OffBalanceSheet -> Funding -> Crises -> Regulation -> Innovation -> Future
+```
 
 ## Document Structure
 

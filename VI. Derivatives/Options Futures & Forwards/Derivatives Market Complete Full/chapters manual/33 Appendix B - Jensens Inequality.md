@@ -1,21 +1,20 @@
 ---
-aliases:
-tags:
-  - jensens-inequality
-  - convexity
-  - probability
-  - mathematics
-  - options-pricing
-key_concepts:
-  - Jensen's inequality
+title: Appendix B - Jensens Inequality
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:42:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - jensens inequality
   - convex functions
   - concave functions
+secondary_tags:
+  - probability theory
   - expected value
+  - mathematical inequality
+  - function convexity
   - call option pricing
-parent_directory:
 cssclasses: academia
-title: Appendix B - Jensens Inequality
-linter-yaml-title-alias: Appendix B - Jensens Inequality
 ---
 
 # Appendix B - Jensens Inequality
@@ -45,7 +44,7 @@ If  $f(x)$  is concave, the inequality is reversed.
 
 In order to understand this result we first need some definitions. A function is convex if it is curved like the cross-section of a bowl; a function is concave if it is curved like the cross-section of an upside-down bowl. We will provide some examples illustrating Jensen's inequality, and then we will provide a proof (including a more precise definition of convexity).
 
-# I. EXAMPLE: THE EXPONENTIAL FUNCTION
+### I. EXAMPLE: THE EXPONENTIAL FUNCTION
 
 Figure 1 shows a graph of the exponential function,  $f(x) = e^{x}$ . Note that  $e^x$  is convex. Let  $x \sim \mathrm{Binomial}(-1, 1; 0.5)$ . We have
 
@@ -63,7 +62,7 @@ $$
 
 Thus,
 
-# FIGURE I
+**FIGURE I**
 
 Graph of  $e^x$  showing that it is convex, and that  $[(0.5\times f(-1)) + (0.5\times f(1))] > f(0)$
 
@@ -83,7 +82,7 @@ $$ which is consistent with Jensen's inequality.
 
 Graphically, the average of  $f(1)$  and  $f(-1)$  lies on the chord connecting those points, which is the straight line in Figure 1.  $f(0)$  is below the chord, which is what Jensen's inequality states.
 
-# 2. EXAMPLE: THE PRICE OF A CALL
+### 2. EXAMPLE: THE PRICE OF A CALL
 
 Here is an example of Jensen's inequality. Consider a call option with a strike price of \$40. Suppose that  $x$  is the stock price, and that  $x \sim \text{Binomial}(35, 45; 0.5)$ . Then
 
@@ -100,7 +99,7 @@ $$
 
 When we evaluate the call price at the expected stock price,  $f[\mathrm{E}(x)]$ , we have
 
-# FIGURE 2
+**FIGURE 2**
 
 Illustration of Jensen's inequality with a call option. The line labeled  $f(x)$  depicts the call payoff at expiration. The option evaluated at the expected stock price lies on this line. The expected value of the call, on the other hand, lies on the line connecting the points labeled (35, 0) and (45, 5). That line is always above the call payoff at expiration.
 
@@ -120,7 +119,7 @@ Since  $2.5 > 0$ ,  $\operatorname{E}\left[f(x)\right] \geq f[\operatorname{E}(x
 
 Figure 2 displays this example graphically. The straight line connecting  $f(35)$  and  $f(45)$  represents  $\operatorname{E}\left[f(x)\right]$ ; this line always exceeds the payoff to the call option. This example illustrates in a purely mechanical fashion why uncertainty makes an option more valuable.
 
-# 3. PROOF OF JENSEN'S INEQUALITY²
+### 3. PROOF OF JENSEN'S INEQUALITY²
 
 A mathematical way to state the definition of convexity is that  $f(x)$  is convex if for any two points  $x$  and  $y$ ,  $0 \leq \lambda \leq 1$ , and  $z = \lambda x + (1 - \lambda)y$ ,
 

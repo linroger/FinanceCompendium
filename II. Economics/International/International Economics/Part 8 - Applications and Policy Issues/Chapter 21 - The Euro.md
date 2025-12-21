@@ -1,4 +1,9 @@
 ---
+title: "The Euro"
+parent_directory: "Part 8 - Applications and Policy Issues"
+formatted: "2025-12-21 12:00:00 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
 - european currency unit precursor
 - collective burden sharing eurozone
@@ -23,7 +28,7 @@ secondary_tags:
 - ec entered 1990s
 - eurozone people born different
 - transition took place euros
-tags_extracted: '2025-12-18T00:44:40.587724'
+cssclasses: academia
 ---
 
 # The Euro
@@ -84,7 +89,7 @@ Most of the "outs" want to be "in." The official procedure to join the Eurozone 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/9115b76c15b1443f370c02874ae7f1feee69ad3ece7be622c1303c432ae8ce2c.jpg)
 Euro notes and coins.
 
-# 1 the Economics of the Euro
+## 1 the Economics of the Euro
 
 In the nineteenth century, economist John Stuart Mill thought it a "barbarism" that all countries insisted on "having, to their inconvenience and that of their neighbors, a peculiar currency of their own." Barbaric or not, national currencies have always been the norm, while currency unions are rare. Economists presume that such outcomes reflect a deeper logic. A common currency may be more convenient and provide other benefits, but it also has some costs. For the "barbarism" of national currencies to persist, the costs must outweigh the benefits.
 
@@ -116,6 +121,38 @@ Summing up, the OCA theory says that if either market integration or symmetry in
 Figure 21-2 illustrates the OCA theory graphically, using the same symmetry-integration diagrams used in the previous chapter on fixed and floating exchange rates. The horizontal axis measures market integration for the Home-Foreign pair. The vertical axis measures the symmetry of the shocks experienced by the Home-Foreign pair. If the Home-Foreign pair moves up and to the right in the diagram, then the benefits increase, the costs fall, and so the net benefit of a currency union rises. At some point, the pair crosses a threshold, the OCA line, and enters a region in which it will be optimal for them to form a currency union based on their economic interests.
 
 The figure looks familiar. The derivation of the OCA line here is identical to the derivation of the FIX line in a previous chapter, which raises an important question.
+
+```d2
+direction: right
+Market Integration: {
+  label: "Market Integration"
+  shape: rectangle
+}
+Symmetry of Shocks: {
+  label: "Symmetry of Shocks"
+  shape: rectangle
+}
+OCA Line: {
+  label: "OCA Threshold"
+  shape: diamond
+  style.fill: "#FF9800"
+}
+Efficiency Benefits: {
+  label: "Efficiency Benefits\n(Lower transaction costs,\nReduced uncertainty)"
+  shape: rectangle
+  style.fill: "#4CAF50"
+}
+Stability Costs: {
+  label: "Stability Costs\n(Loss of monetary autonomy)"
+  shape: rectangle
+  style.fill: "#F44336"
+}
+Market Integration -> Efficiency Benefits
+Symmetry of Shocks -> Stability Costs: "Higher symmetry reduces costs"
+Efficiency Benefits -> OCA Line
+Stability Costs -> OCA Line
+```
+
 
 FIGURE 21-2
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/4f27656b518af5addc61b57003e7c4825e935207532e316961e87145dada4ca8.jpg)
@@ -290,7 +327,7 @@ candidates for a currency union. Other countries also had strong criteria for jo
 
 So if the EU is not an OCA, then why does the euro exist? The euro project was seen as something bigger. This was a currency designed to unify a whole continent of disparate economies, to include France and Germany, Italy and the United Kingdom, to run from west to east, from Scandinavia to the Mediterranean—and it developed with very little reference to the OCA criteria. To understand why the euro happened, we need to study political logic, the topic of the next section.
 
-# 2 the History and Politics of the Euro
+## 2 the History and Politics of the Euro
 
 The political origins of the European Union and the euro project can be found in the past. As long ago as 1861, the eminent French writer and statesman Victor Hugo could imagine that "a day will come in which markets open to commerce and minds open to ideas will be the sole battlefields." The timeline in Table 21-1 provides a summary of some of the most important events that have shaped European economic history since 1870. The course of events reveals a European project guided by politics as well as economics.
 
@@ -487,11 +524,11 @@ No more than 2 percentage points above the level in the three member states with
 
 Government deficit
 
-No more than  $ 3\% $  of GDP in previous financial year.1
+No more than $3\%$ of GDP in previous financial year.1
 
 Government debt
 
-No more than  $ 60\% $  of GDP in previous financial year.2
+No more than $60\%$ of GDP in previous financial year.2
 
 Notes:
 
@@ -505,7 +542,7 @@ What is the economic sense for these rules? They appear, in some ways, superfluo
 
 The way the rules were written forces countries to converge on the lowest inflation rates in the zone. We have argued that this outcome is needed for low-inflation countries to sign up, although it will require possibly painful policy change in the high-inflation countries. The Maastricht criteria ensure that high-inflation countries go through this pain and attain credibility by demonstrating their commitment to low inflation before they are allowed in. This process supposedly prevents governments with a preference for high inflation from entering the Eurozone and then trying to persuade the ECB to go soft on inflation. These three rules can thus be seen as addressing the credibility problem in a world of inflation bias. All current euro members successfully satisfied these rules to gain membership, and the end result was marked inflation convergence as shown in Figure 21-7. Current and future ERM members are required to go through the same test.
 
-Fiscal Discipline The Maastricht Treaty wasn't just tough on inflation, it was tough on the causes of inflation, and it saw the fundamental and deep causes of inflation as being not monetary, but fiscal. The other two Maastricht rules are openly aimed at constraining fiscal policy. They are applied not just as a condition for admission but also to all member states once they are in. The rules say that government debts and deficits cannot be above certain reference levels (although the treaty allows some exceptions). These levels were chosen somewhat arbitrarily: a deficit level of  $ 3\% $ of GDP and a debt level of $ 60\% $  of GDP. However arbitrary these reference levels are, there still exist economic rationales for having some kinds of fiscal rules in a monetary union in which the member states maintain fiscal sovereignty.
+Fiscal Discipline The Maastricht Treaty wasn't just tough on inflation, it was tough on the causes of inflation, and it saw the fundamental and deep causes of inflation as being not monetary, but fiscal. The other two Maastricht rules are openly aimed at constraining fiscal policy. They are applied not just as a condition for admission but also to all member states once they are in. The rules say that government debts and deficits cannot be above certain reference levels (although the treaty allows some exceptions). These levels were chosen somewhat arbitrarily: a deficit level of  $3\%$ of GDP and a debt level of $60\%$  of GDP. However arbitrary these reference levels are, there still exist economic rationales for having some kinds of fiscal rules in a monetary union in which the member states maintain fiscal sovereignty.
 
 Why might inflation ultimately be a fiscal problem? Consider two countries negotiating the treaty, one with low debt levels (e.g., Germany) and one with high debt levels
 
@@ -619,6 +656,29 @@ Key Macroeconomic Data for the Eurozone Crisis These six charts cover the Eurozo
 Sources: IMF, Eurostat, OECD.
 
 turmoil continued, however, and the troika announced further measures for Greece on May 7, 2010.
+
+```d2
+direction: right
+Global Crisis: Global Financial Crisis 2008 {
+  shape: hexagon
+  style.fill: "#FF5722"
+}
+Eurozone Boom: Asymmetric Boom (2000-2007) {
+  shape: rectangle
+}
+Eurozone Bust: Asymmetric Bust (2008-) {
+  shape: rectangle
+}
+Peripheral Crisis: Greece, Ireland, Portugal, Spain {
+  shape: diamond
+  style.fill: "#F44336"
+}
+Troika Response: EU/ECB/IMF Bailouts {
+  shape: rectangle
+  style.fill: "#2196F3"
+}
+Global Crisis -> Eurozone Boom -> Eurozone Bust -> Peripheral Crisis -> Troika Response
+```
 
 To help other troubled nations (Ireland, Spain, Portugal, and Italy were all at risk), all EU countries established a fund to provide loans of up to €440 billion. This fund, now known as the European Stability Mechanism (ESM), was founded on the good credit of the other EU members and was backed by a once unimaginable bond-buying commitment from the ECB. In addition, funds of up to €60 billion from the EU budget provided a theoretical credit line of up to €500 billion. A further sum of €250 billion was pledged by the IMF. The troika believed that these funds would be large enough to cope with any financing problems that might arise in Ireland and Portugal. If financing problems had occurred in larger countries like Spain (or, even worse, Italy), the troika would have had to come up with more resources.
 
@@ -799,37 +859,5 @@ convergence criteria, p. 838
 
 Stability and Growth Pact (SGP), p. 842
 
-# Problems
 
-1. One could view the United States as a currency union of 50 states. Compare and contrast the Eurozone and the United States in terms of the optimum currency area (OCA) criteria.
-2. After German reunification and the disintegration of Communist rule in Eastern Europe, several countries sought to join the European Union (EU) and later the Economic and Monetary Union (EMU). Why do you believe these countries were eager to integrate with Western Europe? Do you think policy makers in these countries believe that OCA criteria are self-fulfilling? Explain.
-3. The Maastricht Treaty places strict requirements on government budgets and national debt. Why do you think the Maastricht Treaty called for fiscal discipline? If it is the central bank that is responsible for maintaining the fixed exchange rate, then why does fiscal discipline matter? How might this affect the gains/ losses for joining a currency union?
-4. The following figure shows some hypothetical OCA criteria with the Eurozone for selected countries. Assume that these are based solely on economic criteria—that is, without reference to other political considerations. Refer to the diagram in responding to the questions that follow.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/8f2de21583c0b4ff23f3fada31dd78a8f515c5b52e69eb4e2cd09eba4c59b104.jpg)
-Symmetry-Integration Diagram
-Symmetry of shocks
-
-a. Which of the countries satisfy the OCA criteria for joining a monetary union?
-b. Compare Poland and the United Kingdom in terms of the OCA criteria regarding market integration with the Eurozone. Discuss one possible source of differences in integration (with the EU) in the two countries.
-c. Compare Poland and the United Kingdom in terms of the OCA criteria regarding symmetric versus asymmetric shocks (relative to the Eurozone). Discuss one possible source of differences in symmetry (with the EU) in the two countries.
-d. Suppose that policy makers in both Poland and the United Kingdom care only about being able to use policy in response to shocks. Which is more likely to seek membership in the EMU and why?
-
-e. What did the ERM crises reveal about the preferences of the United Kingdom? Why has the United Kingdom sought membership only in the EU without seeking membership in the Eurozone? Consider other costs and benefits not in the diagram, both economic and political.
-f. What did membership in the Eurozone reveal about the preferences of Greece? Consider other costs and benefits not in the diagram, both economic and political.
-
-5. Congress established the Federal Reserve System in 1914. Up to this point, the United States did not have a national currency; Federal Reserve notes are still the paper currency in circulation today. Earlier attempts at establishing a central bank were opposed on the grounds that a central bank would give the federal government monopoly over money. This was a reflection of the historic debate between maintaining states' rights versus establishing a strong centralized authority in the United States. That is, the creation of the Fed and a national currency would mean that states would no longer have the authority to control the money supply on a regional level. Discuss the debate between states' rights versus centralized authority in the context of the EMU and the European Central Bank.
-6. In recent years there have been reports that a group of six Gulf countries (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates) were considering the introduc
-
-tion of a single currency. Currently, these countries use currencies that are effectively pegged to the U.S. dollar. These countries rely heavily on oil exports to the rest of the world, and political leaders in these countries are concerned about diversifying trade. Based on this information, discuss the OCA criteria for this group of countries. What are the greatest potential benefits? What are the potential costs?
-
-7. Before taking office as the new Federal Reserve chairman, Ben Bernanke advocated for the adoption of an inflation target to promote price stability in the United States. Compare and contrast the Fed and the European Central Bank in terms of their commitment to price stability and economic stability. Which central bank has more independence to pursue price stability as a primary objective? Explain.
-8. Why do countries with less independent central banks tend to have higher inflation rates? Is it possible for the central bank to increase output and reduce unemployment in the long run? In the long run, is the German model a good one? Explain why or why not.
-9. Compare the Maastricht Treaty convergence criteria with the OCA criteria. How are these convergence criteria related to the potential benefits and costs associated with joining a currency union? If you were a policy maker in a country seeking to join the EMU, which criterion would you eliminate and why?
-
-# Net Work
-
-Do some research on the Internet to construct an updated version of the map in Figure 21-1. You can find membership information on the websites of the European Union (europa.eu) and the European Central Bank (www.ecb.int). Since 2014, have any new countries joined the European Union, or applied to join? Have any countries entered the Exchange Rate Mechanism, or exited from it? Have any new countries adopted the euro?
-
-This page intentionally left blank.
 

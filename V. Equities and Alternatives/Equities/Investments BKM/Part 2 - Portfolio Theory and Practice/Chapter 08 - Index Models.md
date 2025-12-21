@@ -134,7 +134,6 @@ $$
 
 Equations 8.6 and 8.7 imply that the set of parameter estimates needed for the single-index model consists of only  $\alpha_{i}$ ,  $\beta_{i}$ , and  $\sigma(e_{i})$  for each individual security, plus the risk premium and variance of the market index.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/330a30a635ab4d249ce5f23516d0fdb4267c585891a1488da95572a465b5622c.jpg)
 
 # Concept Check 8.1
 
@@ -174,7 +173,6 @@ This last point is potentially important. Imagine that the single-index model is
 
 The optimal portfolio derived from the single-index model therefore can be significantly inferior to that of the full-covariance (Markowitz) model when stocks with correlated residuals account for a large fraction of the portfolio. If many pairs of the covered stocks exhibit residual correlation, it is possible that a multi-index model, which includes additional factors to capture those extra sources of cross-security correlation, would be better suited for portfolio analysis and construction. We will demonstrate the effect of correlated residuals in the spreadsheet example in this chapter, leaving our discussion of multi-index models to later chapters.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/91d5d4075c9c96b60f2d4fa2a9190d159acf44839bd24d5a590c9cc1ddd0626b.jpg)
 
 # Concept Check 8.2
 
@@ -263,7 +261,6 @@ Figure 8.2 shows that as more and more securities are combined into a portfolio,
 
 This analysis is borne out by empirical evidence. We saw the effect of portfolio diversification on portfolio standard deviations in Figure 7.2. These empirical results are similar to the theoretical graph presented here in Figure 8.2.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/dc232dcc22a7777a1de70c2a138b7dc4c603e899734dccea4bae218ae867a7b4.jpg)
 
 # Concept Check 8.3
 
@@ -383,7 +380,6 @@ Comparing Equations 8.16 and 8.18, you can see that if  $r_f$  is constant over 
 
 However, the intercept that most providers call ALPHA is really an estimate of  $\alpha + r_f(1 - \beta)$ . On a monthly basis,  $r_f(1 - \beta)$  is small and is likely to be swamped by the volatility of actual stock returns. But it is worth noting that for  $\beta \neq 1$ , the regression intercept in Equation 8.16 will not equal the index model  $\alpha$  as it does when excess returns are used, as in Equation 8.17.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/08255e01f8afab4cb320033fa7b82ee09290a8c05653be7d023187cab77cd732.jpg)
 
 # Concept Check 8.4
 
@@ -452,7 +448,6 @@ They also found that even after controlling for a firm's financial characteristi
 
 Table 8.3 presents beta estimates and adjustment factors for a subset of firms in the Rosenberg and Guy study.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/b220425048a3edb2eeb500fea1dc31fb47a9d96a6d606fdd189304e01d1d36bb.jpg)
 
 # Concept Check 8.5
 
@@ -863,7 +858,6 @@ $d$ . Both systematic and unsystematic risk, while standard deviation measures o
 
 Go to http://finance.yahoo.com and click on Screeners and then Equity Screeners. If you click on Add Another Filter you will find an extensive list of potential characteristics. Choose beta, and search for firms with betas less than 0.2. In what industries do these firms tend to operate? Now repeat and select firms with betas above 1.2. Do the industries containing high-versus low-beta firms match up with your intuition about which industries would be likely to be more cyclical?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/4d3ebb6fe2c6b57018f5103444a95c995d9ca610aad1425eb76f1ab040f474f4.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

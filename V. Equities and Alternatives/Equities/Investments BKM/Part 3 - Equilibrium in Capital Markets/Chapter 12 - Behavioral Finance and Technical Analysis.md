@@ -63,7 +63,6 @@ While confirmation bias is not his focus, Shiller makes a point related to it in
 
 Extrapolation and Pattern Recognition People are adept at discerning patterns, sometimes even perceiving patterns that may be illusory. They also are overly prone to believe, even when employing only limited evidence, that these patterns are likely to characterize an entire population, especially if the small sample exhibits other (even possibly irrelevant) similarities with a broad population. This sort of error is called representativeness bias, and it holds that people commonly act as if a small sample is just as informative about a population as a large one. They therefore infer a pattern too quickly based on a small sample and extrapolate apparent trends too far into the future. It is easy to see how such a pattern would be consistent with momentum and reversal anomalies. A short-lived run of good earnings reports or high stock returns leads such investors to revise their assessments of likely future performance and thus generate buying pressure that exaggerates the price run-up. Eventually, the gap between price and intrinsic value becomes glaring and the market corrects its initial error. Interestingly, stocks with the best recent performance suffer reversals precisely in the few days surrounding management earnings forecasts or actual earnings announcements, suggesting that the correction occurs just as investors learn that their initial beliefs were too extreme.[9]
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/efbd009bd9d4f4358d51b60781920dd86549b9fe953b7b27362a68550d1d5c91.jpg)
 
 # Concept Check 12.1
 
@@ -96,7 +95,6 @@ $^{12}$ H. Shefrin and M. Statman, “The Disposition to Sell Winners Too Early 
 
 cause less regret. De Bondt and Thaler argue that such regret avoidance is consistent with both the size and book-to-market effects. Higher book-to-market firms tend to have depressed stock prices. These firms are "out of favor" and more likely to be in a financially precarious position. Similarly, smaller, less well-known firms are also less conventional investments. Such firms require more "courage" on the part of the investor, which increases the required rate of return. Mental accounting can add to this effect. If investors focus on the gains or losses of individual stocks, rather than on broad portfolios, they can become more risk averse concerning stocks with recent poor performance, discount their cash flows at a higher rate, and thereby create a value-stock risk premium.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/654f4516cbd4c7ab07a01a54ab47d5064bc836823a877452f4874b1197389ba1.jpg)
 
 # Concept Check 12.2
 
@@ -172,7 +170,6 @@ If the fund manager's performance more than compensates for expenses (i.e., if  
 
 This analysis might explain the pattern of premiums and discounts in closed-end funds; if investors expect a sufficiently large  $\alpha$ , they will purchase shares at a premium. But the fact that most premiums eventually turn into discounts indicates how difficult it is for management to fulfill these expectations.[23]
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/7bc2684aa3699d9d997cd830c0cf90916408f047f6996f50fa816a789c8e4055.jpg)
 
 # Concept Check 12.3
 
@@ -317,7 +314,6 @@ Confidence Index Barron's computes a confidence index using data from the bond m
 
 The confidence index is the ratio of the average yield on 10 top-rated corporate bonds divided by the average yield on 10 intermediate-grade corporate bonds. The ratio will always be below 1 because higher-rated bonds will offer lower promised yields to maturity. When bond traders are optimistic about the economy, however, they might require smaller default premiums on lower-rated debt. Hence, the yield spread will narrow, and the confidence index will approach 1. Therefore, higher values of the confidence index are bullish signals.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8e0fc6f727f9b93991e6a71749597fcb9ea803a36841f9233d2eab6330e2b4ff.jpg)
 
 # Concept Check 12.4
 
@@ -551,7 +547,6 @@ a. Which, if either, of the companies is priced above its 25- and 50-day average
 b. Would you consider their charts as bullish or bearish? Why?
 c. What are the short interest ratios for the two companies?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/2b2ec0fd9c221a14f7071e4c56e73f718cb1d321d67b8dd2f5d9b73a118ce7a2.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 
