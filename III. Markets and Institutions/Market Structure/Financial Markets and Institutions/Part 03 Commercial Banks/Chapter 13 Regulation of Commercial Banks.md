@@ -1,70 +1,86 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Types of Regulations and the Regulators"
+parent_directory: "Part 03 Commercial Banks"
+formatted: "2025-12-21 10:55:30 AM"
+formatter_model: "claude-opus-4-5-20251101"
+cli_tool: "claude-code"
+primary_tags:
+  - bank regulation types
+  - safety and soundness regulation
+  - deposit insurance systems
+  - capital adequacy requirements
+  - monetary policy regulation
+  - credit allocation regulation
+  - consumer protection regulation
+  - investor protection regulation
+  - entry and chartering regulation
+secondary_tags:
+  - federal deposit insurance corporation
+  - glass-steagall act
+  - financial services modernization act
+  - basel accord
+  - prompt corrective action
+  - deposit insurance premiums
+  - reserve requirements
+  - risk-based capital ratios
+  - regulatory burden
+  - net regulatory burden
+  - fdic improvement act
+  - wall street reform act
+  - dodd-frank act
+  - economic growth regulatory relief act
+  - non-bank banks
+  - shadow banking
+  - universal financial institutions
+  - foreign bank supervision
+  - international banking act
 cssclasses: academia
-title: TYPES OF REGULATIONS AND THE REGULATORS
-linter-yaml-title-alias: TYPES OF REGULATIONS AND THE REGULATORS
 ---
 
-Specialness and Regulation: Chapter Overview
+## Specialness and Regulation: Chapter Overview
 
-Types of Regulations and the Regulators
+### Types of Regulations and the Regulators
 
-Safety and Soundness Regulation
+- Safety and Soundness Regulation
+- Monetary Policy Regulation
+- Credit Allocation Regulation
+- Consumer Protection Regulation
+- Investor Protection Regulation
+- Entry and Chartering Regulation
 
-Monetary Policy Regulation
+### Regulators
 
-Credit Allocation Regulation
+### Regulation of Product and Geographic Expansion
 
-Consumer Protection Regulation
+- Product Segmentation in the U.S. Commercial Banking Industry
+- Geographic Expansion in the U.S. Commercial Banking Industry
 
-Investor Protection Regulation
+### Bank and Savings Institution Guarantee Funds
 
-Entry and Chartering Regulation
+- The Federal Deposit Insurance Corporation (FDIC)
+- The Demise of the Federal Savings and Loan Insurance Corporation (FSLIC)
+- Reform of Deposit Insurance
+- Non-U.S. Deposit Insurance Systems
 
-Regulators
+### Balance Sheet Regulations
 
-Regulation of Product and Geographic Expansion
+- Regulations on Commercial Bank Liquidity
+- Regulations on Capital Adequacy (Leverage)
 
-Product Segmentation in the U.S. Commercial Banking Industry
+### Foreign versus Domestic Regulation of Commercial Banks
 
-Geographic Expansion in the U.S. Commercial Banking Industry
+- Product Diversification Activities
+- Global or International Expansion Activities
 
-Bank and Savings Institution Guarantee Funds
+### Appendices
 
-The Federal Deposit Insurance Corporation (FDIC)
+- Appendix 13A: Calculating Deposit Insurance Premium Assessments
+- Appendix 13B: Calculating Minimum Required Reserves at U.S. Depository Institutions
+- Appendix 13C: Primary Regulators of Depository Institutions
+- Appendix 13D: Deposit Insurance Coverage for Commercial Banks in Various Countries
+- Appendix 13E: Calculating Risk-Based Capital Ratios
 
-The Demise of the Federal Savings and Loan Insurance Corporation (FSLIC)
-
-Reform of Deposit Insurance
-
-Non-U.S. Deposit Insurance Systems
-
-Balance Sheet Regulations
-
-Regulations on Commercial Bank Liquidity
-
-Regulations on Capital Adequacy (Leverage)
-
-Foreign versus Domestic Regulation of Commercial Banks
-
-Product Diversification Activities Global or International Expansion Activities
-
-Appendix 13A: Calculating Deposit Insurance Premium Assessments
-
-Appendix 13B: Calculating
-
-Minimum Required Reserves at U.S. Depository Institutions
-
-Appendix 13C: Primary Regulators of Depositary Institutions
-
-Appendix 13D: Deposit Insurance Coverage for Commercial Banks in Various Countries
-
-Appendix 13E: Calculating Risk-Based Capital Ratios
-
-(Appendixes 13C-13E are available through Connect or your course instructor)
+*(Appendixes 13C-13E are available through Connect or your course instructor)*
 
 # TYPES OF REGULATIONS AND THE REGULATORS
 
@@ -76,26 +92,22 @@ Six types of regulations seek to enhance the net social benefits of commercial b
 
 To protect depositors and borrowers against the risk of CB failure—for example, due to a lack of diversification in asset portfolios—regulators have developed layers of protective mechanisms that balance a CB's profitability against its solvency, liquidity, and other types of risk (see Chapter 20). They are illustrated in Figure 13-1. These mechanisms are intended to ensure the safety and soundness of the CB and thus to maintain the credibility of the CB in the eyes of its borrowers and lenders. Indeed, even during the worst of the financial crisis, deposit runs at banks, savings institutions, and credit unions did not occur. This is because the safety and soundness regulations in place protected virtually all depositors from losing their money. Thus, while depository institution failures increased significantly during the crisis, depositors felt little need to run. Included in these mechanisms are requirements encouraging CBs to diversify their assets (the first layer of protection). The most obvious way to prevent CB failure is to prevent CBs from investing in an asset portfolio that produces cash flows that are insufficient to make the promised payments to the CB's liability
 
-# TABLE 13-1 Areas of CB Specialness in Regulation
+**Table 13-1: Areas of CB Specialness in Regulation**
 
-Safety and soundness regulation—layers of regulation have been imposed on CBs to protect depositors and borrowers against the risk of failure.
-
-Monetary policy regulation—regulators control and implement monetary policy by requiring minimum levels of cash reserves to be held against commercial bank deposits.
-
-Credit allocation regulation—regulations support the CB's lending to socially important sectors such as housing and farming.
-
-Consumer protection regulation—regulations are imposed to prevent the CB from discriminating unfairly in lending.
-
-Investor protection regulation—laws protect investors who directly purchase securities and/or indirectly purchase securities by investing in mutual or pension funds managed directly or indirectly by CBs (as well as other FIs).
-
-Entry and chartering regulation—entry and activity regulations limit the number of CBs in any given financial services sector, thus impacting the charter values of CBs operating in that sector.
+| Regulation Type | Description |
+|-----------------|-------------|
+| Safety and soundness regulation | Layers of regulation have been imposed on CBs to protect depositors and borrowers against the risk of failure. |
+| Monetary policy regulation | Regulators control and implement monetary policy by requiring minimum levels of cash reserves to be held against commercial bank deposits. |
+| Credit allocation regulation | Regulations support the CB's lending to socially important sectors such as housing and farming. |
+| Consumer protection regulation | Regulations are imposed to prevent the CB from discriminating unfairly in lending. |
+| Investor protection regulation | Laws protect investors who directly purchase securities and/or indirectly purchase securities by investing in mutual or pension funds managed directly or indirectly by CBs (as well as other FIs). |
+| Entry and chartering regulation | Entry and activity regulations limit the number of CBs in any given financial services sector, thus impacting the charter values of CBs operating in that sector. |
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/f89fd3a3232fbcc84304864d3ed1d894687e0a49f9fcd7011ca3e6de580ed3eb.jpg) www.fdic.gov
 
-Figure 13-1 Layers of Regulation
+**Figure 13-1: Layers of Regulation**
 
-# net regulatory burden
-
+**net regulatory burden**  
 The difference between the private costs of regulations and the private benefits for the producers of financial services.
 
 holders. Thus, banks are prohibited from making loans exceeding 15 percent of their own equity capital funds to any one company or borrower. A bank that has 10 percent of its assets funded by its own capital (and therefore 90 percent by liabilities) can lend no more than 1.5 percent of its assets to any one borrower (i.e., 15 percent of 10 percent). Although these regulations may result in lower profitability, they also lower credit and liquidity risk and ultimately lower the risk of insolvency.
@@ -120,14 +132,10 @@ Regulators have utilized the new authority given to them. For example, as part o
 
 However, six years after the passage of the Wall Street Reform and Consumer Protection Act, only about 70 percent of the rules required by the act had been written into law. As of July 2016, of the 390 total rulemaking requirements, 274 (70.3 percent) had been met with finalized rules, 36 (9.2 percent) had been proposed that would meet requirements, and 80 (20.5 percent) had yet seen a proposal to meet rulemaking requirements. Soon after taking office in January 2017, President Trump pledged to dismantle the 2010 Wall Street Reform and Consumer Protection (Dodd-Frank) Act. To deliver on this
 
-# www.federalreserve.gov
-
-# outside money
-
+**outside money**  
 That part of the money supply directly produced by the government or central bank, such as notes and coin.
 
-# inside money
-
+**inside money**  
 That part of the money supply produced by the private banking system.
 
 promise, House Republicans passed the Creating Hope and Opportunity for Investors, Consumers, and Entrepreneurs (CHOICE) Act in May 2017. The CHOICE Act was meant to repeal and replace the Dodd-Frank Act, but the core of the legislation was rejected by the Senate. On May 22, 2018, Congress passed the Economic Growth, Regulatory Relief, and Consumer Protection Act, a partial rollback of some of the Dodd-Frank rules.
@@ -160,16 +168,12 @@ An example of investor protection occurred in 2016, when the Labor Department is
 
 Entry into the commercial banking industry is regulated, as are activities once a CB has been established. Increasing or decreasing the cost of entry into a financial sector affects the profitability of firms already competing in that industry. Thus, the industries heavily protected against new entrants by high direct costs (e.g., through capital requirements) and
 
-# DO YOU UNDERSTAND?
+### Do You Understand?
 
-1. The six major types of regulation CBs face?
-2. What the layers of protection provided by safety and soundness regulations are? Describe each.
-3. What the difference is between inside and outside money?
-4. Who the key regulators of commercial banks are?
-
-www.fdic.gov www.occ.treas.gov
-
-www.federalreserve.gov high indirect costs (e.g., by restricting the type of individuals who can establish CBs) of entry produce larger profits for existing firms than those in which entry is relatively easy. In addition, regulations define the scope of permitted activities under a given charter. For example, current regulations allow commercial banks to perform activities traditionally performed only by insurance companies and investment banks. The broader the set of financial service activities permitted under a charter, the more valuable that charter is likely to be. Thus, barriers to entry and regulations pertaining to the scope of permitted activities affect a CB's charter value and the size of its net regulatory burden.
+1. What are the six major types of regulation CBs face?
+2. What are the layers of protection provided by safety and soundness regulations? Describe each.
+3. What is the difference between inside and outside money?
+4. Who are the key regulators of commercial banks? (e.g., by restricting the type of individuals who can establish CBs) of entry produce larger profits for existing firms than those in which entry is relatively easy. In addition, regulations define the scope of permitted activities under a given charter. For example, current regulations allow commercial banks to perform activities traditionally performed only by insurance companies and investment banks. The broader the set of financial service activities permitted under a charter, the more valuable that charter is likely to be. Thus, barriers to entry and regulations pertaining to the scope of permitted activities affect a CB's charter value and the size of its net regulatory burden.
 
 # Regulators
 
@@ -179,20 +183,13 @@ In the sections that follow, we describe four facets of the regulatory structure
 
 # REGULATION OF PRODUCT AND GEOGRAPHIC EXPANSION
 
-LG 13-2
-
-# universal FI
-
+**universal FI**  
 An FI that can engage in a broad range of financial service activities.
 
-LG 13-3
-
-# commercial banking
-
+**commercial banking**  
 Banking activity of deposit taking and lending.
 
-# investment banking
-
+**investment banking**  
 Banking activity of underwriting, issuing, and distributing securities.
 
 Historically, commercial banks have been among the most regulated firms in the United States. Because of the inherent special nature of banking and banking contracts, regulators have imposed numerous restrictions on their products and geographic activities. Table 13-2 lists the major laws, from the McFadden Act of 1927 to the Economic Growth, Regulatory Relief, and Consumer Protection Act of 2018, and briefly describes the key features of each act.
@@ -205,88 +202,21 @@ Commercial and Investment Banking Activities. The United States has experienced 
 
 After the 1929 stock market crash, the United States entered a major recession, and approximately 10,000 banks failed between 1930 and 1933. A commission of inquiry (the Pecora Commission) established in 1932 began investigating the causes of the crash. Its findings included concerns about the riskiness and conflicts of interest that arise when commercial and investment banking activities are linked (affiliated) in one organization. This resulted in new
 
-TABLE 13-2 Major Bank Laws, Major Features
+**Table 13-2: Major Bank Laws, Major Features**
 
-# 1927: The McFadden Act
-
-1. Made branching of nationally chartered banks subject to the same branching regulations as state-chartered banks.
-2. Liberalized national banks' securities underwriting activities, which previously had to be conducted through state-chartered affiliates.
-
-# 1933: The Banking Act of 1933
-
-1. The Glass-Steagall Act generally prohibited commercial banks from underwriting securities with four exceptions: a. Municipal general obligation bonds.
-
-b. U.S. government bonds.
-
-c. Private placements.
-
-d. Real estate loans.
-
-2. The act established the FDIC to insure bank deposits.
-3. The Glass-Steagall Act prohibited banks from paying interest on demand deposits.
-
-# 1956: The Bank Holding Company Act
-
-1. Restricted the banking and nonbanking acquisition activities of multibank holding companies.
-2. Empowered the Federal Reserve to regulate multibank holding companies by: a. Determining permissible activities.
-
-b. Exercising supervisory authority.
-
-c. Exercising chartering authority.
-
-d. Conducting bank examinations.
-
-# 1970: Amendments to the Bank Holding Company Act of 1956
-
-1. Extended the BHC Act of 1956 to one-bank holding companies.
-2. Restricted permissible BHC activities to those "closely related to banking."
-
-# 1978: International Banking Act
-
-1. Regulated foreign bank branches and agencies in the United States.
-2. Subjected foreign banks to the McFadden and Glass-Steagall Acts.
-3. Gave foreign banks access to Fedwire, the discount window, and deposit insurance.
-
-# 1980: Depository Institutions Deregulation and Monetary Control Act (DIDMCA)
-
-1. Set a six-year phaseout for Regulation Q interest rate ceilings on small time and savings deposits.
-2. Authorized NOW accounts nationwide.
-3. Introduced uniform reserve requirements for state-chartered and nationally chartered banks.
-4. Increased the ceiling on deposit insurance coverage from  $40,000 to$ 100,000.
-5. Allowed federally chartered thrifts to make consumer and commercial loans (subject to size restrictions).
-
-# 1982: Garn-St. Germain Depository Institutions Act (DIA)
-
-1. Introduced money market deposit accounts (MMDAs) and super NOW accounts as interest rate-bearing savings accounts with limited check-writing features.
-2. Allowed federally chartered thrifts more extensive lending powers and demand deposit-taking powers.
-3. Allowed sound commercial banks to acquire failed savings institutions.
-4. Reaffirmed limitations on bank powers to underwrite and distribute insurance.
-
-# 1987: Competitive Equality in Banking Act (CEBA)
-
-1. Redefined the definition of a bank to limit the growth of nonbank banks.
-2. Sought to recapitalize the Federal Savings and Loan Insurance Corporation (FSLIC).
-
-# 1989: Financial Institutions Reform, Recovery, and Enforcement Act (FIRREA)
-
-1. Limited savings banks' investments in nonresidential real estate, required divestiture of junk bond holdings (by 1994), and imposed a restrictive asset test for qualifications as a savings institution (the qualified thrift lender [QTL] test).
-2. Equalized the capital requirements of thrifts and banks.
-3. Replaced the FSLIC with the FDIC-SAIF.
-4. Replaced the Federal Home Loan Bank Board as the charterer of federal savings and loans with the Office of Thrift Supervision (OTS), an agency of the Treasury.
-5. Created the Resolution Trust Corporation (RTC) to resolve failed and failing savings institutions.
-
-TABLE 13-2 Major Bank Laws, Major Features (Continued)
-
-# 1991: Federal Deposit Insurance Corporation Improvement Act (FDICIA)
-
-1. Introduced prompt corrective action (PCA), requiring mandatory interventions by regulators whenever a bank's capital falls.
-2. Introduced risk-based deposit insurance premiums beginning in 1993.
-3. Limited the use of too-big-to-fail bailouts by federal regulators for large banks.
-4. Extended federal regulation over foreign bank branches and agencies in the Foreign Bank Supervision and Enhancement Act (FBSEA).
-
-# 1994: Riegle-Neal Interstate Banking and Branching Efficiency Act
-
-1. Permitted bank holding companies to acquire banks in other states, starting September 1995.
+| Year | Law | Key Features |
+|------|-----|--------------|
+| 1927 | The McFadden Act | 1. Made branching of nationally chartered banks subject to the same branching regulations as state-chartered banks.<br>2. Liberalized national banks' securities underwriting activities, which previously had to be conducted through state-chartered affiliates. |
+| 1933 | The Banking Act of 1933 | 1. The Glass-Steagall Act generally prohibited commercial banks from underwriting securities with four exceptions: a. Municipal general obligation bonds, b. U.S. government bonds, c. Private placements, d. Real estate loans.<br>2. The act established the FDIC to insure bank deposits.<br>3. The Glass-Steagall Act prohibited banks from paying interest on demand deposits. |
+| 1956 | The Bank Holding Company Act | 1. Restricted the banking and nonbanking acquisition activities of multibank holding companies.<br>2. Empowered the Federal Reserve to regulate multibank holding companies by: a. Determining permissible activities, b. Exercising supervisory authority, c. Exercising chartering authority, d. Conducting bank examinations. |
+| 1970 | Amendments to the Bank Holding Company Act of 1956 | 1. Extended the BHC Act of 1956 to one-bank holding companies.<br>2. Restricted permissible BHC activities to those "closely related to banking." |
+| 1978 | International Banking Act | 1. Regulated foreign bank branches and agencies in the United States.<br>2. Subjected foreign banks to the McFadden and Glass-Steagall Acts.<br>3. Gave foreign banks access to Fedwire, the discount window, and deposit insurance. |
+| 1980 | Depository Institutions Deregulation and Monetary Control Act (DIDMCA) | 1. Set a six-year phaseout for Regulation Q interest rate ceilings on small time and savings deposits.<br>2. Authorized NOW accounts nationwide.<br>3. Introduced uniform reserve requirements for state-chartered and nationally chartered banks.<br>4. Increased the ceiling on deposit insurance coverage from $40,000 to $100,000.<br>5. Allowed federally chartered thrifts to make consumer and commercial loans (subject to size restrictions). |
+| 1982 | Garn-St. Germain Depository Institutions Act (DIA) | 1. Introduced money market deposit accounts (MMDAs) and super NOW accounts as interest rate-bearing savings accounts with limited check-writing features.<br>2. Allowed federally chartered thrifts more extensive lending powers and demand deposit-taking powers.<br>3. Allowed sound commercial banks to acquire failed savings institutions.<br>4. Reaffirmed limitations on bank powers to underwrite and distribute insurance. |
+| 1987 | Competitive Equality in Banking Act (CEBA) | 1. Redefined the definition of a bank to limit the growth of nonbank banks.<br>2. Sought to recapitalize the Federal Savings and Loan Insurance Corporation (FSLIC). |
+| 1989 | Financial Institutions Reform, Recovery, and Enforcement Act (FIRREA) | 1. Limited savings banks' investments in nonresidential real estate, required divestiture of junk bond holdings (by 1994), and imposed a restrictive asset test for qualifications as a savings institution (the qualified thrift lender [QTL] test).<br>2. Equalized the capital requirements of thrifts and banks.<br>3. Replaced the FSLIC with the FDIC-SAIF.<br>4. Replaced the Federal Home Loan Bank Board as the charterer of federal savings and loans with the Office of Thrift Supervision (OTS), an agency of the Treasury.<br>5. Created the Resolution Trust Corporation (RTC) to resolve failed and failing savings institutions. |
+| 1991 | Federal Deposit Insurance Corporation Improvement Act (FDICIA) | 1. Introduced prompt corrective action (PCA), requiring mandatory interventions by regulators whenever a bank's capital falls.<br>2. Introduced risk-based deposit insurance premiums beginning in 1993.<br>3. Limited the use of too-big-to-fail bailouts by federal regulators for large banks.<br>4. Extended federal regulation over foreign bank branches and agencies in the Foreign Bank Supervision and Enhancement Act (FBSEA). |
+| 1994 | Riegle-Neal Interstate Banking and Branching Efficiency Act | 1. Permitted bank holding companies to acquire banks in other states, starting September 1995.
 2. Invalidated the laws of states that allowed interstate banking only on a regional or reciprocal basis.
 3. Beginning in June 1997, bank holding companies were permitted to convert out-of-state subsidiary banks into branches of a single interstate bank.
 4. Newly chartered branches also permitted interstate if allowed by state law.
@@ -374,7 +304,7 @@ Activities of nonfinancial services firms that perform banking services.
 8. What a shadow bank is?
 9. How the Financial Services Modernization Act of 1999 has opened the doors for the establishment of full-service financial institutions in the United States?
 
-following the amendment. $^{7}$  The 1956 Bank Holding Company Act also effectively restricted acquisitions of banks by commercial firms (as was true for insurance companies before 1999). The major vehicle for a commercial firm's entry into commercial banking has been through nonbank banks (such as EnerBank USA owned by Home Depot) or nonbank financial service firms that offer banking-type services by divesting a subsidiary "bank" of its commercial loans and/or its demand deposits (as well as any deposit insurance coverage).
+following the amendment.^[7] The 1956 Bank Holding Company Act also effectively restricted acquisitions of banks by commercial firms (as was true for insurance companies before 1999). The major vehicle for a commercial firm's entry into commercial banking has been through nonbank banks (such as EnerBank USA owned by Home Depot) or nonbank financial service firms that offer banking-type services by divesting a subsidiary "bank" of its commercial loans and/or its demand deposits (as well as any deposit insurance coverage).
 
 The Financial Services Modernization Act of 1999 changed restrictions on ownership limits imposed on financial services holding companies. Commercial banks belonging to a financial service holding company can now take a controlling interest in a nonfinancial enterprise provided that two conditions are met. First, the investment cannot be made for an indefinite period of time. The act did not provide an explicit time limit, but simply states that the investment can be "held for a period of time to enable the sale or disposition thereof on a reasonable basis consistent with the financial viability of the [investment]." Second, the bank cannot become actively involved in the management of the corporation in which it invests. Nevertheless, corporate stocks or equities are still conspicuously absent from most bank balance sheets (see Chapter 12).
 
@@ -394,26 +324,22 @@ Geographic expansions can have a number of dimensions. In particular, they can b
 
 Restrictions on Intrastate Banking by Commercial Banks. For most of the 1900s, most U.S. banks were unit banks with a single office. Improving communications and customer needs resulted in a rush to branching. This movement ran into increasing opposition from the smallest unit banks and the largest money center banks. The smallest unit banks perceived a competitive threat to their retail business from the larger branching banks; money center banks feared a loss of valuable correspondent business such as check-clearing and other payment services. As a result, several states restricted banks' ability to branch within the state. Indeed, some states prohibited intrastate (or within-state) branching per se, effectively constraining a bank to unit bank status. Over the years and in a very piecemeal fashion, states liberalized their restrictions on within-state branching. By 1994, only one state (Iowa) had not deregulated intrastate banking.
 
-# de novo office
-
+**de novo office**  
 A newly established office.
 
-# unit bank
-
+**unit bank**  
 A bank with a single office.
 
-# multibank holding company (MBHC)
-
+**multibank holding company (MBHC)**  
 A parent banking organization that owns a number of individual bank subsidiaries.
 
-# interstate banking pact
-
+**interstate banking pact**  
 An agreement among states describing the conditions for entrance of out-of-state banks by acquisition.
 
-# DO YOU UNDERSTAND?
+### Do You Understand?
 
-10. The reason for the passage of the Douglas Amendment to the Bank Holding Company Act?
-11. How the Riegle-Neal Act affected the geographic expansion opportunities of banks?
+10. What was the reason for the passage of the Douglas Amendment to the Bank Holding Company Act?
+11. How did the Riegle-Neal Act affect the geographic expansion opportunities of banks?
 
 Restrictions on Interstate Banking by Commercial Banks. The defining piece of legislation affecting interstate branching up until 1994 was the McFadden Act, passed in 1927 and amended in 1933. The McFadden Act and its amendments restricted nationally chartered banks' branching abilities to the same extent allowed to state-chartered banks, which essentially prevented all U.S. banks from branching across state lines. Given the McFadden prohibition on interstate branching, bank organizations expanding across state lines between 1927 and 1956 relied on establishing subsidiaries rather than branches. Some of the largest banking organizations established multibank holding companies (MBHCs) for this purpose. An MBHC is a parent company that acquires more than one bank as a direct subsidiary (e.g., First Interstate).
 
@@ -431,14 +357,10 @@ A key component of the regulatory structure of CBs is deposit insurance and fina
 
 www.fdic.gov
 
-LG 13-4
-
-# disintermediation
-
+**disintermediation**  
 The withdrawal of deposits from depository institutions and their reinvestment elsewhere.
 
-# regulator forbearance
-
+**regulator forbearance**  
 A policy of not closing economically insolvent depository institutions, but allowing them to continue in operation.
 
 # The Federal Deposit Insurance Corporation (FDIC)
@@ -447,25 +369,25 @@ The Federal Deposit Insurance Corporation (FDIC) was created in 1933 in the wake
 
 Partly to overcome the effects of rising interest rates and disintermediation on the DIs, Congress passed regulations that expanded depository institutions' deposit-taking and asset investment powers. For many DIs, the new powers created safer and more diversified institutions. For a small but significant group whose earnings and shareholders' capital were being eroded in traditional lines of business, however, it meant the opportunity to take more risks in an attempt to return to profitability. As discussed below, this risk-taking or moral hazard behavior was accentuated by the policies of depository institution insurers. They chose not to close capital-depleted, economically insolvent DIs (a policy of regulator forbearance) and to maintain deposit insurance premium assessments independent of the risk of the institution. As a result, beginning in 1980, the number of bank failures increased, with more than 1,170 from 1980 to 1990 (peaking at 205 in 1989). This number of failures was actually higher than that in the entire 1934-1979 period. Moreover, the costs of each of these failures were often larger than those of the mainly small bank failures that occurred in the 1934-1979 period. As the number and costs of these failures mounted in the 1980s, the FDIC fund was rapidly drained. In response to this crisis, Congress passed the FDIC Improvement Act (FDICIA) in December 1991 to restructure the bank insurance fund and to prevent its potential insolvency.
 
-Figure 13-3 Number of Failed Banks by Year, 1934-2019
+**Figure 13-3: Number of Failed Banks by Year, 1934-2019**
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/2a73e0e4d37c55330e9b3fac9f4c342cd1d56a64557ac8b6cb58341ceb924a58.jpg)
 
-Sources: FDIC annual reports and Statistics on Banking, www.fdic.gov
+*Sources: FDIC annual reports and Statistics on Banking, www.fdic.gov*
 
 After 1991 there was a dramatic turnaround in the fund's finances and a drop in DI failures—partially in response to record profit levels in DIs. Specifically, in 2007 there were 3 DI failures; in 2005 and 2006 there were no DI failures. As of March 2008, the FDIC's Depositors Insurance Fund (DIF) had reserves of  \$52.8 billion. However, the financial market crisis hit the banking industry very badly. In 2008, 26 DIs failed (at a cost to the FDIC of\$ 15.7 billion), in 2009 an additional 140 failures occurred (at a cost of over \$36.4 billion), in 2010, 157 failures occurred (at a cost of \$22.4 billion), and in 2011, 92 failures occurred (at a cost of \$7.2 billion). Thus, during the worst of the financial crisis (2008-2011), 414 DIs failed at a total cost to the FDIC of  \$81.7 billion. By September 2009, the FDIC's DIF reserves had fallen to$ -8.2 billion, less than zero for only the second time since its founding in 1933. The deficit peaked in the first quarter of 2010 at -\$20.86 billion. However, unlike the near bankruptcy of the FDIC in 1991, the negative balance in the FDIC's DI insurance fund did not result in talk of the insurer's possible failure. Rather, the FDIC and the federal government took several steps to ensure the fund would have sufficient resources to deal with any and all DI failures. To address the falling balance in the fund, the FDIC levied one special assessment in early 2009 and a second in the fall of 2009, in addition to raising the rates banks were charged for deposit insurance (see below). Further, the agency took the unprecedented step of requiring banks to prepay  \$45 billion of insurance premiums by the end of 2009. The premiums covered the fourth quarter of 2009 and all of 2010 through 2012. Finally, the FDIC was given approval to tap\$ 500 billion in additional funding from the Treasury Department through the end of 2010. The actions of regulators (and the end of the crisis) proved successful as only 92 banks failed in 2011 (costing \$6.89 billion) and 51 banks in 2012 (at a cost of \$2.78 billion). From 2013 to 2019, the number of bank failures continued to drop, reaching a low of zero failures in 2018 and only four in 2019. Further, FDIC reserves became positive ( \$3.9 billion) in the first quarter of 2011 and rose to\$ 110.3 billion by December 31, 2019.
 
-# The Denise of the Federal Savings and Loan
+# The Demise of the Federal Savings and Loan
 
 # Insurance Corporation (FSLIC)
 
 The Federal Savings and Loan Insurance Corporation (FSLIC) insured the deposits of savings institutions from 1934 to 1989. Like the FDIC, this insurance fund was in relatively good shape until the end of the 1970s. Beginning in 1980, its resources began to be depleted as more and more savings institutions failed. Between 1980 and 1988, 581 savings institutions failed at an estimated cost of 42.3 billion. By 1989, the FSLIC fund had been depleted and the present value of its liabilities exceeded that of its assets. Lacking the resources to close or resolve failing savings institutions, the FSLIC followed a policy of forbearance (or leniency) toward remaining weak and failing savings institutions. This meant that it allowed many badly run savings institutions to stay open and continue to accumulate losses. In August 1989, Congress passed the Financial Institutions Reform, Recovery, and Enforcement Act (FIRREA), largely in response to the deepening crisis in the savings institution industry and the growing insolvency of the FSLIC. This act restructured the savings association fund and transferred its management to the FDIC. At that time, the FSLIC ceased to exist. At the same time, the restructured savings association insurance fund was renamed the Savings Association Insurance Fund (SAIF) and the restructured bank insurance fund was renamed the Bank Insurance Fund (BIF). (In March 2006, the FDIC merged the BIF and the SAIF to form the Depositors Insurance Fund [DIF]. Currently, the FDIC manages the DIF, which provides deposit insurance for both commercial banks and savings institutions.) See Figure 13-4 for the organizational structure of the FDIC and the number of commercial banks and savings institutions insured by the DIF.
 
-Figure 13-4 The Structure of the FDIC-DIF in 2019
+**Figure 13-4: The Structure of the FDIC-DIF in 2019**
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/78b500ce4449ddd5c32cb451406ab7e20a6f7768e21f59dafd60691f87ed55d0.jpg)
 
-Source: FDIC, Quarterly Banking Profile, December 2019, www.fdic.gov
+*Source: FDIC, Quarterly Banking Profile, December 2019, www.fdic.gov*
 
 # Reform of Deposit Insurance
 
@@ -484,9 +406,7 @@ Despite the apparent strong health of the deposit insurance funds, in the early 
 
 (on April 1, 2009) a restoration plan for the DIF which would restore the DIF reserve ratio to 1.15 percent. The details of the approach, including the 2009 restoration plan and the 2011 and 2016 adjustments to the plan, are described in Appendix 13A to this chapter.
 
-# LG 13-5
-
-# Non-U.S. Deposit Insurance Systems
+# # Non-U.S. Deposit Insurance Systems
 
 Most European countries have historically operated without explicit deposit insurance programs. Despite this, European countries have not seen the 1930s type of bank run and panic experienced in the United States. This is because European governments have often given implicit deposit guarantees at no cost to the largest banks in their countries. This has been possible as the result of the higher degree of concentration of deposits among the largest banks in European countries. However, deposit insurance systems are being increasingly adopted worldwide. One view of this trend toward implementation of explicit deposit programs is that governments are now simply collecting premiums as a fee to offset an obligation (implicit deposit insurance) that they previously offered for free.
 
@@ -496,9 +416,7 @@ Many of these systems offer quite different degrees of protection to depositors 
 
 A further form of regulation of CBs pertains to various assets and liabilities on their balance sheets.
 
-# LG 13-6
-
-# Regulations on Commercial Bank Liquidity
+# # Regulations on Commercial Bank Liquidity
 
 Holding relatively small amounts of liquid assets exposes a CB to increased illiquidity and insolvency risk. Excessive illiquidity can result in a CB's inability to meet required payments on liability claims (such as deposit withdrawals) and, at the extreme, its insolvency. Moreover, it can even lead to contagious effects that negatively impact other CBs. Consequently, regulators impose minimum liquid asset reserve requirements on CBs. In general, these requirements differ in nature and scope for various CBs. The requirements depend on the illiquidity risk exposure perceived for the CB's type and other regulatory objectives that relate to minimum liquid asset requirements (see Chapter 4). Currently, in accordance with Federal Reserve Regulation D of the Federal Reserve Act of 1913, banks in the United States are required to hold the following "target" minimum reserves against net transaction accounts (transaction accounts minus demand deposit balances due from U.S. commercial banks and cash items in process of collection):
 
@@ -516,12 +434,9 @@ www.bis.org
 
 During the financial crisis, many DIs struggled to maintain adequate liquidity. Indeed, extraordinary levels of liquidity assistance were required from central banks in order to maintain the financial system. Even with this extensive support, a number of DIs failed or were forced into mergers. Recognizing the need for DIs to improve their liquidity risk management and control their liquidity risk exposure, the Bank for International Settlement's (BIS) Basel Committee on Banking Supervision developed two new regulatory standards for liquidity risk supervision. The standards are intended to "enhance tools, metrics, and benchmarks that supervisors can use to assess the resilience of banks' liquidity cushions and constrain any weakening in liquidity maturity profiles, diversity of funding sources, and stress testing practices." The two new liquidity ratios to be maintained by DIs are the liquidity coverage ratio and the net stable funding ratio. We discuss these ratios in detail in Chapter 22.
 
-LG 13-7
-
 # Regulations on Capital Adequacy (Leverage)
 
-# Basel Agreement
-
+**Basel Agreement**  
 The requirement to impose risk-based capital ratios on banks in major industrialized countries.
 
 The FDIC Improvement Act (FDICIA) of 1991 required that banks and thrifts adopt risk-based capital requirements. Consistent with this act, U.S. DI regulators formally agreed with other member countries of the Bank for International Settlements (BIS) to implement new risk-based capital ratios for all depository institutions under their jurisdiction. The BIS phased in and fully implemented these risk-based capital ratios on January 1, 1993, under what has become known as the Basel Agreement (or Basle; now called Basel I). The 1993 Basel Agreement explicitly incorporated the different credit risks of assets (both on and off the balance sheet) into capital adequacy measures. This was followed with a revision in 1998 in which market risk was incorporated into risk-based capital in the form of an add-on to the 8 percent ratio for credit risk exposure. In 2001, the BIS issued a consultative document, "The New Basel Capital Accord," that proposed the incorporation of operational risk into capital requirements and updated the credit risk assessments in the 1993 agreement.
@@ -532,24 +447,19 @@ The financial crisis of 2008-2009 revealed weaknesses with Basel II. For example
 
 In response to these issues, Basel 2.5 was passed in 2009 (effective in 2013) and Basel III was passed in 2010 (fully effective in 2019). Basel 2.5 updated capital requirements on market risk from banks' trading operations. The goal of Basel III is to raise the quality, consistency, and transparency of the capital base of banks to withstand credit risk and to strengthen the risk coverage of the capital framework. Under Basel III, advanced (IRB) approaches may be used by institutions that have consolidated assets of  \$250 billion or more or consolidated on-balance-sheet foreign exposures of\$ 10 billion or
 
-# common equity Tier I risk-based capital ratio
-
+**common equity Tier I risk-based capital ratio**  
 The ratio of the common equity Tier I capital to the risk-weighted assets of the DI.
 
-# Tier I risk-based capital ratio
+**Tier I risk-based capital ratio**  
+The ratio of the Tier I capital to the risk-weighted assets of the DI.
 
-The ratio of the Tier I capital to the risk-weighted assets of the Dl.
+**total risk-based capital ratio**  
+The ratio of the total capital to the risk-weighted assets of the DI.
 
-# total risk-based capital ratio
-
-The ratio of the total capital to the risk-weighted assets of the  $Dl$ .
-
-# Tier I leverage ratio
-
+**Tier I leverage ratio**  
 The ratio of the Tier I capital to the DI's total exposure.
 
-# prompt corrective action
-
+**prompt corrective action**  
 Mandatory actions to be taken by regulators as a DI's capital ratio falls.
 
 more (approximately 20 of the largest U.S. banking organizations). All other depository institutions must use the Standardized Approach for calculating capital adequacy.
@@ -557,30 +467,37 @@ more (approximately 20 of the largest U.S. banking organizations). All other dep
 Under Basel III, depository institutions must calculate and monitor four capital ratios: common equity Tier I (CET1) risk-based capital ratio, Tier I risk-based capital ratio, total risk-based capital ratio, and Tier I leverage ratio. A DI's capital adequacy is assessed according to where its capital ratios place in one of five target zones.
 
 $$
-\begin{array}{l l} \text{Co mm on eq ui ty Ti er I} & = \quad \text{Co mm on eq ui ty Ti er Ic ap it al /R is k -} \\ \text{ri sk -b as ed ca pi ta lr at io} & \text{we ig ht ed as se ts} \end{array}
+\begin{array}{ll}
+\text{Common equity Tier I} & = \quad \text{Common equity Tier I capital / Risk-} \\
+\text{risk-based capital ratio} & \text{weighted assets}
+\end{array}
 $$
 
 $$
-\text{Ti er Ir is k -b as ed ca pi ta lr at io} = \begin{array}{l} \text{Ti er Ic ap it al (Co mm on eq ui ty Ti er I} \\ \text{ca pi ta l +A dd it io na lT ie rI ca pi ta l) /} \\ \text{Ri sk -w ei gh te da ss et s} \end{array}
+\text{Tier I risk-based capital ratio} = \begin{array}{l}
+\text{Tier I capital (Common equity Tier I} \\
+\text{capital + Additional Tier I capital) /} \\
+\text{Risk-weighted assets}
+\end{array}
 $$
 
 $$
-\text{To ta l} = \text{To ta l} \quad \text{(Ti er I +T ie rI I) /R is k -}
+\text{Total} = \text{Total (Tier I + Tier II) / Risk-}
 $$
 
 $$
-\text{Ti er Il ev er ga re ra ti o} = \text{Ti er Ic ap it al /T ot al ex po su re}
+\text{Tier I leverage ratio} = \text{Tier I capital / Total exposure}
 $$
 
 The calculation of these capital adequacy measures is quite complex. Their major innovation is to distinguish among the different credit risks of assets on the balance sheet and to identify the credit risk inherent in instruments off the balance sheet by using a risk-weighted assets denominator in these capital adequacy ratios. In a very rough fashion, these capital ratios mark to market a DI's onand off-balance-sheet positions to reflect its credit risk. Further, additional capital charges must be held against market risk and operational risk. To be adequately capitalized, a DI must meet the following requirements: (1) hold a minimum ratio of common equity Tier I capital to credit risk-weighted assets of 4.5 percent, (2) maintain a ratio of Tier I capital to credit risk-weighted assets of 6 percent, (3) hold a ratio of total capital to credit risk-weighted assets of 8 percent, and (4) maintain a ratio of Tier I leverage ratio of 4 percent.
 
 In addition to their use in defining adequately capitalized DIs, these capital ratios also define well capitalized, undercapitalized, significantly undercapitalized, and critically undercapitalized as part of the prompt corrective action program under the FDICIA. These five zones—specified in Table 13-3—assess capital adequacy and the actions regulators are mandated to take and those they have the discretion to take. Since December 18, 1992, under the FDICIA legislation, regulators must take specific actions—prompt corrective action (PCA)—when a DI falls outside the zone 1, or well-capitalized, category. Table 13-4
 
-TABLE 13-3 Specifications of Capital Categories for Prompt Corrective Action
+**Table 13-3: Specifications of Capital Categories for Prompt Corrective Action**
 
 <table><tr><td>Zone</td><td>(1)Common Equity Tier I Risk-Based Ratio</td><td colspan="2">(2)Tier I Risk-Based Ratio</td><td colspan="2">(3)Total Risk-Based Ratio</td><td>(4)Tier I Leverage Ratio</td></tr><tr><td>1. Well capitalized</td><td>6.5\% or above and above</td><td>8\% or above</td><td>and above</td><td>10\% or above</td><td>and above</td><td>5\% or above</td></tr><tr><td>2. Adequately capitalized</td><td>4.5\% or above and above</td><td>6\% or above</td><td>and above</td><td>8\% or above</td><td>and above</td><td>4\% or above</td></tr><tr><td>3. Undercapitalized</td><td>Under 4.5\% or</td><td>Under 6\%</td><td>or</td><td>Under 8\%</td><td>or</td><td>Under 4\%</td></tr><tr><td>4. Significantly undercapitalized</td><td>Under 3\% or</td><td>Under 4\%</td><td>or</td><td>Under 6\%</td><td>or</td><td>Under 3\%</td></tr><tr><td>5. Critically undercapitalized</td><td colspan="6">Tangible equity/Total assets ≤2\%</td></tr></table>
 
-TABLE 13-4 Summary of Prompt Corrective Action Provisions
+**Table 13-4: Summary of Prompt Corrective Action Provisions**
 
 <table><tr><td>Zone</td><td>Mandatory Provisions</td><td>Discretionary Provisions</td></tr><tr><td>1. Well capitalized</td><td></td><td></td></tr><tr><td>2. Adequately capitalized</td><td>1. Prohibit brokered deposits, except with FDIC approval</td><td></td></tr><tr><td>3. Undercapitalized</td><td>1. Suspend dividends and management fees2. Require capital restoration plan3. Restrict asset growth4. Require approval for acquisitions5. Prohibit brokered deposits</td><td>1. Order recapitalization2. Restrict inter affiliate transactions3. Restrict deposit interest rates4. Restrict certain other activities5. Allow any other action that would better carry out prompt corrective action</td></tr><tr><td>4. Significantly undercapitalized</td><td>1. Same as for Zone 32. Order recapitalization*3. Restrict inter affiliate transactions*4. Restrict deposit interest rates*5. Restrict pay of officers</td><td>1. Enforce any Zone 3 discretionary actions2. Appoint conservatorship or receivership if bank fails to submit or implement plan or recapitalize pursuant to order3. Enforce any other Zone 5 provision, if such action is necessary to carry out prompt corrective action</td></tr><tr><td>5. Critically undercapitalized</td><td>1. Same as for Zone 42. Appoint receiver/conservator within 90 days*3. Appoint receiver if still in Zone 5 four quarters after becoming critically undercapitalized4. Suspend payments on subordinated debt*5. Restrict certain other activities</td><td></td></tr></table>
 
@@ -601,9 +518,8 @@ as part of the stress test range from baseline to severely adverse, with the mos
 
 Capital. In the measurement of a DI's capital adequacy, its capital is the standard by which each of these risks is measured. Under Basel III, a DI's capital is divided into common equity Tier I (CET1), additional Tier I, and Tier II. CET1 is primary or core capital of the DI; Tier I capital is the primary capital of the DI plus additional capital elements; and Tier II capital is supplementary capital. The total capital that the DI holds is defined as the sum of Tier I and Tier II capital. The definitions of CET1, additional Tier I capital, and Tier II supplementary capital are listed in Appendix 13E to this chapter (available through Connect or your course instructor).
 
-# risk-weighted assets
-
-Onand off-balance-sheet assets whose values are adjusted for approximate credit risk.
+**risk-weighted assets**  
+On- and off-balance-sheet assets whose values are adjusted for approximate credit risk.
 
 Risk-Weighted Assets. Under Basel III capital adequacy rules, risk-weighted assets represent the denominator of the risk-based capital ratios. Two components make up risk-weighted assets: (1) risk-weighted on-balance-sheet assets, and (2) risk-weighted off-balance-sheet assets. In Appendix 13E to the chapter (available through Connect or your course instructor), we discuss the details of how to calculate a CB's risk-based capital ratios.
 
@@ -634,22 +550,19 @@ Source: Financial Stability Board, www.fsb.org
 
 Table 13-6 provides a list of the 30 G-SIBs and the capital surcharge for each as of 2019. The number of G-SIBs can change over time, reflecting changes in the systemic importance of banks. The sample of banks to be assessed will be reviewed every three years, and the BIS also anticipates eventually expanding the surcharge to a wider group of financial institutions, including insurance companies and other nonbank financial institutions.[13]
 
-# FOREIGN VERSUS DOMESTIC REGULATION OF COMMERCIAL BANKS
+# Foreign versus Domestic Regulation of Commercial Banks
 
 As discussed earlier in this chapter, many of the product and geographic expansion barriers on U.S. commercial banks have recently been lowered. Despite the loosening of regulations, however, U.S. CBs are still subject to stricter regulations than CBs in many foreign countries.
 
-# Product Diversification Activities
+## Product Diversification Activities
 
 With the passage of the Financial Services Modernization Act of 1999, the range of non-bank product activities that U.S. banks are permitted to engage in is now more comparable to bank activities allowed in the major industrialized countries.
 
-# LG 13-5
-
-# Global or International Expansion Activities
+# ## Global or International Expansion Activities
 
 U.S. CBs have expanded into foreign countries through branches and subsidiaries; this has been reciprocated by the increased entrance of foreign CBs into U.S. financial service markets.
 
-# Eurodollar transaction
-
+**Eurodollar transaction**  
 Any transaction involving dollars that takes place outside the United States.
 
 Regulations of U.S. Banks in Foreign Countries. Although some U.S. banking organizations such as Citigroup and JPMorgan Chase have had foreign offices since the beginning of the 20th century, the major phase of expansion began in the early 1960s following passage of the Overseas Direct Investment Control Act of 1964. This law restricted U.S. banks' ability to lend to U.S. corporations that wanted to make foreign investments. This law was eventually repealed, but it created incentives for U.S. banks to establish foreign offices to service the funding and other business needs of their U.S. clients in other countries. This offshore funding and lending in dollars created the beginning of a market we now call the Eurodollar market. The term Eurodollar transaction denotes any transaction involving dollars that takes place outside the United States. For example, a banking transaction booked externally to the boundaries of the United States, often through an overseas branch or subsidiary, qualifies as a Eurodollar.[14]
@@ -658,7 +571,7 @@ As a result of these changes, U.S. banks have been accelerating their foreign bu
 
 Political risk concerns among savers in emerging market countries have led to enormous outflows of dollars from those countries, often to U.S. branches and subsidiaries in the Cayman Islands and the Bahamas, which have very stringent bank secrecy rules. Because of the secrecy rules in some foreign countries and the possibility that these rules may result in money laundering and the financing of terrorist activities, the U.S. government enacted the USA Patriot Act of 2001, which amended the Bank Secrecy Act in establishing standards for screening customers who open accounts at financial institutions. Title III of the act prohibits U.S. banks from providing banking services to foreign banks that have no physical presence in any country (so-called shell banks). The bill also added foreign corruption offenses to the list of crimes that can trigger a U.S. money-laundering prosecution. Also, federal authorities have the power to subpoena the records of a foreign bank's U.S. correspondent account. Further, the bill makes a depositor's funds in a foreign bank's U.S. correspondent account subject to the same civil forfeiture rules that apply to depositors' funds in other U.S. accounts. Finally, the act requires U.S. banks to improve their due diligence review in order to guard against money laundering.
 
-TABLE 13-7 U.S. Bank Claims Held Outside the United States*
+**Table 13-7: U.S. Bank Claims Held Outside the United States***
 
 <table><tr><td></td><td>1990</td><td>1995</td><td>2000</td><td>2005</td><td>2010</td><td>2013</td><td>2018</td></tr><tr><td>Total</td><td>$320.1</td><td>$551.7</td><td>$904.6</td><td>$1,864.8</td><td>$3,252.0</td><td>$2,764.2</td><td>2,825.6</td></tr><tr><td>United Kingdom</td><td>60.9</td><td>82.4</td><td>144.9</td><td>487.5</td><td>998.5</td><td>813.0</td><td>770.4</td></tr><tr><td>Offshore banking centers†</td><td>44.7</td><td>99.0</td><td>369.1</td><td>606.5</td><td>1,149.6</td><td>612.4</td><td>593.9</td></tr></table>
 
@@ -668,7 +581,7 @@ TABLE 13-7 U.S. Bank Claims Held Outside the United States*
 
 Sources: Federal Reserve Bulletin, Table 3.18, various issues, www.federalreserve.gov
 
-# national treatment
+**national treatment**
 
 Regulation of foreign banks in the same fashion as domestic banks, or the creation of a level playing field.
 
@@ -694,58 +607,112 @@ These events and related concerns led to the passage of the FBSEA in 1991. The o
 
 Overall, the FBSEA considerably increased the Federal Reserve's authority over foreign banks and added to the regulatory burden or costs of entry into the United States for foreign banks. This has made the post-FBSEA U.S. banking market much less attractive to foreign banks than it was over the period 1980-1992.
 
-# SUMMARY
+# Summary
 
 Commercial banks provide services that are vital to all sectors of the economy. Failure to efficiently provide these services can be costly to both the suppliers and users of funds. Consequently, CBs are regulated to protect against a breakdown in the provision of CB services. In this chapter, we reviewed the regulations imposed on CBs. We provided an overview of historic and current regulations on CBs' product offerings and geographic expansion opportunities. The recent loosening of regulations in these areas has resulted in the emergence of many large U.S. CBs as globally oriented universal banks. We also described regulations on the asset and liability portfolios of CBs. The chapter concluded with a look at foreign CB regulations and the regulation of foreign CBs in the United States.
 
-# QUESTIONS
+# Questions
 
-1. What forms of protection and regulation are imposed by regulators of CBs to ensure their safety and soundness? (LG 13-1)
-2. How has the separation of commercial banking and investment banking activities evolved through time? How does this differ from banking activities in other countries? (LG 13-2, LG 13-3)
-3. A Section 20 subsidiary of a major U.S. bank is planning to underwrite corporate securities and expects to generate  \$5 million in revenues. It currently underwrites U.S. Treasury securities and general obligation municipal bonds and earns annual fees of\$ 40 million. (LG 13-3) a. Is the bank in compliance with the laws regulating Section 20 subsidiaries?
-b. If it plans to increase underwriting of corporate securities and generate 11 million in revenues, is it in compliance? Would it have been in compliance prior to passage of the Financial Services Modernization Act of 1999?
-4. What insurance activities are permitted for U.S. commercial bank holding companies? (LG 13-2)
-5. What is shadow banking? How does the shadow banking system differ from the traditional banking system? (LG 13-2)
-6. What are the provisions on interstate banking in the Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994? (LG 13-2)
-7. What changes did the Federal Deposit Insurance Reform Act of 2005 make to the deposit insurance premium calculations? (LG 13-4)
-8. Why are commercial banks subject to reserve requirements? (LG 13-6)
-9. What is the Basel Agreement? (LG 13-7)
-10. What is the major feature in the estimation of credit risk under the Basel capital requirements? (LG 13-7)
-11. What is the difference between Basel I, Basel II, and Basel III? (LG 13-7)
-12. What is the significance of prompt corrective action as specified by the FDICIA legislation? (LG 13-7)
-13. Under Basel III, what four capital ratios must DIs calculate and monitor? (LG 13-7)
-14. How is the Tier I leverage ratio for an FI defined under Basel III? (LG 13-7)
-15. Identify the five zones of capital adequacy and explain the mandatory regulatory actions corresponding to each zone. (LG 13-7)
-16. What are the definitional differences between Common Equity Tier I, Tier I, and Tier II capital? (LG 13-7)
-17. What components are used in the calculation of risk-weighted assets? (LG 13-7)
-18. How have the International Banking Act of 1978 and the FDICIA of 1991 been detrimental to foreign banks in the United States? (LG 13-5)
-19. What are some of the main features of the Foreign Bank Supervision Enhancement Act of 1991? (LG 13-5)
+1. What forms of protection and regulation are imposed by regulators of CBs to ensure their safety and soundness?
+2. How has the separation of commercial banking and investment banking activities evolved through time? How does this differ from banking activities in other countries?
+3. A Section 20 subsidiary of a major U.S. bank is planning to underwrite corporate securities and expects to generate $5 million in revenues. It currently underwrites U.S. Treasury securities and general obligation municipal bonds and earns annual fees of $40 million. 
+   a. Is the bank in compliance with the laws regulating Section 20 subsidiaries?
+   b. If it plans to increase underwriting of corporate securities and generate 11 million in revenues, is it in compliance? Would it have been in compliance prior to passage of the Financial Services Modernization Act of 1999?
+4. What insurance activities are permitted for U.S. commercial bank holding companies?
+5. What is shadow banking? How does the shadow banking system differ from the traditional banking system?
+6. What are the provisions on interstate banking in the Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994?
+7. What changes did the Federal Deposit Insurance Reform Act of 2005 make to the deposit insurance premium calculations?
+8. Why are commercial banks subject to reserve requirements?
+9. What is the Basel Agreement?
+10. What is the major feature in the estimation of credit risk under the Basel capital requirements?
+11. What is the difference between Basel I, Basel II, and Basel III?
+12. What is the significance of prompt corrective action as specified by the FDICIA legislation?
+13. Under Basel III, what four capital ratios must DIs calculate and monitor?
+14. How is the Tier I leverage ratio for an FI defined under Basel III?
+15. Identify the five zones of capital adequacy and explain the mandatory regulatory actions corresponding to each zone.
+16. What are the definitional differences between Common Equity Tier I, Tier I, and Tier II capital?
+17. What components are used in the calculation of risk-weighted assets?
+18. How have the International Banking Act of 1978 and the FDICIA of 1991 been detrimental to foreign banks in the United States?
+19. What are some of the main features of the Foreign Bank Supervision Enhancement Act of 1991?
 
-The following questions are related to Appendix 13A, 13B, and 13E material.
+*The following questions are related to Appendix 13A, 13B, and 13E material.*
 
-20. What changes did the FDIC make to the deposit insurance assessment scheme for DIs in 2007? (LG 13-4)
-21. Under the FDIC's 2007 rulemaking, how is a Category I deposit insurance premium determined? (LG 13-4)
-22. Webb Bank has a composite CAMELS rating of 2, a total risk-based capital ratio of 10.2 percent, a Tier I risk-based capital ratio of 7.2 percent, a CET1 capital ratio of 6.4 percent, and a leverage ratio of 4.8 percent. Assuming the DIF reserve ratio is 1.20 percent, what deposit insurance risk category does the bank fall into, and what is the bank's deposit insurance assessment rate? (LG 13-4)
-23. Under Basel III, how are residential oneto four-family mortgages assigned to a credit risk class? (LG 13-7)
-24. Under Basel III, how are risk weights for sovereign exposures determined? (LG 13-7)
-25. What is the capital conservation buffer? What is the countercyclical capital buffer? (LG 13-7)
-26. If the reserve computation period extends from May 18 through May 31, what is the corresponding reserve maintenance period? What accounts for the difference? (LG 13-4)
+20. What changes did the FDIC make to the deposit insurance assessment scheme for DIs in 2007?
+21. Under the FDIC's 2007 rulemaking, how is a Category I deposit insurance premium determined?
+22. Webb Bank has a composite CAMELS rating of 2, a total risk-based capital ratio of 10.2 percent, a Tier I risk-based capital ratio of 7.2 percent, a CET1 capital ratio of 6.4 percent, and a leverage ratio of 4.8 percent. Assuming the DIF reserve ratio is 1.20 percent, what deposit insurance risk category does the bank fall into, and what is the bank's deposit insurance assessment rate?
+23. Under Basel III, how are residential one- to four-family mortgages assigned to a credit risk class?
+24. Under Basel III, how are risk weights for sovereign exposures determined?
+25. What is the capital conservation buffer? What is the countercyclical capital buffer?
+26. If the reserve computation period extends from May 18 through May 31, what is the corresponding reserve maintenance period? What accounts for the difference?
 
-# PROBLEMS
+# Problems
 
-The following problems are related to Appendix 13A, 13B, and 13E material.
+*The following problems are related to Appendix 13A, 13B, and 13E material.*
 
 1. Two depository institutions have composite CAMELS ratings of 1 or 2 and are "well capitalized." Thus, each institution falls into the FDIC Risk Category I deposit insurance assessment scheme. Further, the institutions have the following financial ratios and CAMELS ratings:
 
-Institution A Institution B
-
-<table><tr><td colspan="3">Financial Ratios:</td></tr><tr><td>Leverage Ratio</td><td>8.25</td><td>7.58</td></tr><tr><td>Nonperforming Loans and Leases/Gross Assets</td><td>0.25</td><td>4.55</td></tr><tr><td>Other Real Estate Owned/ Gross Assets</td><td>0.54</td><td>0.75</td></tr><tr><td>Net Income Before Taxes/ Total Assets</td><td>2.15</td><td>1.85</td></tr><tr><td>Brokered Deposit Ratio</td><td>84.56</td><td>79.68</td></tr><tr><td>One-Year Asset Growth</td><td>5.66</td><td>7.75</td></tr><tr><td colspan="3">Loans as a Percent of Total Assets:</td></tr><tr><td>Construction &amp; Development</td><td>0.40</td><td>0.30</td></tr><tr><td>Commercial &amp; Industrial</td><td>11.35</td><td>15.66</td></tr><tr><td>Leases</td><td>0.45</td><td>1.05</td></tr><tr><td>Other Consumer</td><td>16.50</td><td>16.80</td></tr><tr><td>Loans to Foreign Government</td><td>0.00</td><td>0.60</td></tr><tr><td>Real Estate Loans Residual</td><td>0.00</td><td>0.00</td></tr><tr><td>Multifamily Residential</td><td>0.50</td><td>1.25</td></tr><tr><td>Nonfarm Nonresidential</td><td>0.00</td><td>0.00</td></tr><tr><td>1-4 Family Residential Loans to Depository</td><td>38.85</td><td>40.15</td></tr><tr><td>Banks</td><td>0.00</td><td>2.80</td></tr><tr><td>Agricultural Real Estate</td><td>4.55</td><td>0.00</td></tr><tr><td>Agriculture</td><td>7.40</td><td>0.00</td></tr><tr><td colspan="3">CAMELS Components:</td></tr><tr><td>C</td><td>1</td><td>1</td></tr><tr><td>A</td><td>2</td><td>2</td></tr><tr><td>M</td><td>1</td><td>2</td></tr><tr><td>E</td><td>2</td><td>3</td></tr><tr><td>L</td><td>1</td><td>1</td></tr><tr><td>S</td><td>2</td><td>1</td></tr></table>
+| Ratio/Metric | Institution A | Institution B |
+|--------------|---------------|---------------|
+| **Financial Ratios:** | | |
+| Leverage Ratio | 8.25 | 7.58 |
+| Nonperforming Loans and Leases/Gross Assets | 0.25 | 4.55 |
+| Other Real Estate Owned/Gross Assets | 0.54 | 0.75 |
+| Net Income Before Taxes/Total Assets | 2.15 | 1.85 |
+| Brokered Deposit Ratio | 84.56 | 79.68 |
+| One-Year Asset Growth | 5.66 | 7.75 |
+| **Loans as a Percent of Total Assets:** | | |
+| Construction & Development | 0.40 | 0.30 |
+| Commercial & Industrial | 11.35 | 15.66 |
+| Leases | 0.45 | 1.05 |
+| Other Consumer | 16.50 | 16.80 |
+| Loans to Foreign Government | 0.00 | 0.60 |
+| Real Estate Loans Residual | 0.00 | 0.00 |
+| Multifamily Residential | 0.50 | 1.25 |
+| Nonfarm Nonresidential | 0.00 | 0.00 |
+| 1-4 Family Residential Loans to Depository Banks | 38.85 | 40.15 |
+| Agricultural Real Estate | 4.55 | 0.00 |
+| Agriculture | 7.40 | 0.00 |
+| **CAMELS Components:** | | |
+| C | 1 | 1 |
+| A | 2 | 2 |
+| M | 1 | 2 |
+| E | 2 | 3 |
+| L | 1 | 1 |
+| S | 2 | 1 |
 
 Calculate the initial deposit insurance assessment for each institution.
 
 2. Two depository institutions have composite CAMELS ratings of 1 or 2 and are "well capitalized." Thus, each institution falls into the FDIC Risk Category I deposit insurance assessment scheme. Further, the institutions have the following financial ratios and CAMELS ratings:
 
-<table><tr><td></td><td>Institution A</td><td>Institution B</td></tr><tr><td>Financial Ratios:</td><td></td><td></td></tr><tr><td>Leverage Ratio</td><td>8.55</td><td>8.25</td></tr><tr><td>Nonperforming Loans and Leases/Gross Assets</td><td>0.35</td><td>5.12</td></tr><tr><td>Other Real Estate Owned/ Gross Assets</td><td>0.42</td><td>0.75</td></tr><tr><td>Net Income Before Taxes/ Total Assets</td><td>2.00</td><td>1.65</td></tr><tr><td>Brokered Deposit Ratio</td><td>82.20</td><td>76.50</td></tr><tr><td>One-Year Asset Growth</td><td>4.35</td><td>6.80</td></tr><tr><td>Loans as a Percent of Total Assets:</td><td></td><td></td></tr><tr><td>Construction &amp; Development</td><td>0.00</td><td>0.00</td></tr><tr><td>Commercial &amp; Industrial</td><td>10.56</td><td>18.68</td></tr><tr><td>Leases</td><td>0.65</td><td>2.15</td></tr><tr><td>Other Consumer</td><td>17.55</td><td>18.95</td></tr><tr><td>Loans to Foreign Government</td><td>0.00</td><td>0.60</td></tr><tr><td>Real Estate Loans Residual</td><td>0.00</td><td>0.00</td></tr><tr><td>Multifamily Residential</td><td>0.00</td><td>1.10</td></tr><tr><td>Nonfarm Nonresidential</td><td>0.00</td><td>0.00</td></tr><tr><td>1-4 Family Residential</td><td>41.10</td><td>37.41</td></tr><tr><td>Loans to Depository Banks</td><td>0.00</td><td>0.50</td></tr><tr><td>Agricultural Real Estate</td><td>1.10</td><td>0.35</td></tr><tr><td>Agriculture</td><td>0.40</td><td>0.40</td></tr><tr><td>CAMELS Components:</td><td></td><td></td></tr><tr><td>C</td><td>1</td><td>2</td></tr><tr><td>A</td><td>1</td><td>1</td></tr><tr><td>M</td><td>1</td><td>1</td></tr><tr><td>E</td><td>2</td><td>1</td></tr><tr><td>L</td><td>1</td><td>3</td></tr><tr><td>S</td><td>2</td><td>3</td></tr></table>
+| Ratio/Metric | Institution A | Institution B |
+|--------------|---------------|---------------|
+| **Financial Ratios:** | | |
+| Leverage Ratio | 8.55 | 8.25 |
+| Nonperforming Loans and Leases/Gross Assets | 0.35 | 5.12 |
+| Other Real Estate Owned/Gross Assets | 0.42 | 0.75 |
+| Net Income Before Taxes/Total Assets | 2.00 | 1.65 |
+| Brokered Deposit Ratio | 82.20 | 76.50 |
+| One-Year Asset Growth | 4.35 | 6.80 |
+| **Loans as a Percent of Total Assets:** | | |
+| Construction & Development | 0.00 | 0.00 |
+| Commercial & Industrial | 10.56 | 18.68 |
+| Leases | 0.65 | 2.15 |
+| Other Consumer | 17.55 | 18.95 |
+| Loans to Foreign Government | 0.00 | 0.60 |
+| Real Estate Loans Residual | 0.00 | 0.00 |
+| Multifamily Residential | 0.00 | 1.10 |
+| Nonfarm Nonresidential | 0.00 | 0.00 |
+| 1-4 Family Residential | 41.10 | 37.41 |
+| Loans to Depository Banks | 0.00 | 0.50 |
+| Agricultural Real Estate | 1.10 | 0.35 |
+| Agriculture | 0.40 | 0.40 |
+| **CAMELS Components:** | | |
+| C | 1 | 2 |
+| A | 1 | 1 |
+| M | 1 | 1 |
+| E | 2 | 1 |
+| L | 1 | 3 |
+| S | 2 | 3 |
 
 Calculate the initial deposit insurance assessment for each institution.
 
@@ -883,16 +850,16 @@ A bank's balance sheet information is shown below (in 000).
 15. Disregarding the capital conservation buffer, what is the bank's capital adequacy level (under Basel III) if the par value of its equity is  \$225,000, surplus value of equity is\$ 200,000, retained earnings is \$565,545, qualifying perpetual preferred stock is \$50,000, subordinate debt is \$50,000, and loan loss reserve is \$85,000? Does the bank meet Basel (CET1, Tier I, and Tier II) adequately capitalized standards? Does the bank comply with the well-capitalized leverage ratio requirement? (LG 13-7)
 16. Does the bank have enough capital to meet the Basel requirements, including the capital conservation buffer requirement? (LG 13-7)
 
-# SEARCH THE SITE
+# Search the Site
 
 Go to the FDIC website at www.fdic.gov. Find the most recent reserve balance and reserve ratios held by DIF using the following steps. Once at the website, click on "Industry Analysis," and on "Research & Analysis." Click on "FDIC Quarterly Banking Profile." Click on "Quarterly Banking Profile." Under "Report Date:" select the most recent date, then click on "Access QBP." Click on "List of Data Tables." Then click on "Table I-C Insurance Fund Balances and Selected Indicators." This will bring up a file that contains the relevant data.
 
-# Questions
+## Questions
 
 1. How have these values changed since 2019 as reported in the chapter?
 2. What is the total reserve funds held by DIF and the reserve ratio?
 
-# APPENDIX 13A: Calculation of Deposit Insurance Premiums
+# Appendix 13A: Calculation of Deposit Insurance Premiums
 
 The Federal Deposit Insurance Corporation Improvement Act of 1991 (FDICIA) required that the FDIC establish a risk-based assessment system. To implement this requirement, the FDIC introduced a system in 1993 that placed institutions into risk categories based on two criteria: capital levels and supervisory ratings. Three capital groups—well capitalized, adequately capitalized, and undercapitalized, which are numbered 1, 2, and 3, respectively—were based on leverage ratios and risk-based capital ratios for regulatory capital purposes. Three supervisory subgroups, termed A, B, and C, were based upon the FDIC's consideration of evaluations provided by the institution's primary federal regulator and other information the FDIC deemed relevant. Subgroup A consisted of financially sound institutions with only a few minor weaknesses; subgroup B consisted of institutions that demonstrated weaknesses that, if not corrected, could result in significant deterioration of the institution and increased risk of loss to the insurance fund; and subgroup C consisted of institutions that posed a substantial probability of loss to the insurance fund unless effective corrective action is taken.
 
@@ -934,9 +901,16 @@ TABLE 13-12
 
 * In basis points
 
-TABLE 13-13
+**Table 13-13: Risk Measures and Pricing Multipliers (2006 Rule)**
 
-<table><tr><td>Risk Measures</td><td>Pricing Multipliers</td></tr><tr><td>Tier 1 leverage ratio</td><td>(0.042)</td></tr><tr><td>Loans past due 30–89 days/gross assets</td><td>0.372</td></tr><tr><td>Nonperforming assets/gross assets</td><td>0.719</td></tr><tr><td>Net loan charge-offs/gross assets</td><td>0.841</td></tr><tr><td>Net income before taxes/risk-weighted assets</td><td>(0.420)</td></tr><tr><td>Weighted average CAMELS rating</td><td>0.534</td></tr></table>
+| Risk Measures | Pricing Multipliers |
+|---------------|---------------------|
+| Tier 1 leverage ratio | (0.042) |
+| Loans past due 30–89 days/gross assets | 0.372 |
+| Nonperforming assets/gross assets | 0.719 |
+| Net loan charge-offs/gross assets | 0.841 |
+| Net income before taxes/risk-weighted assets | (0.420) |
+| Weighted average CAMELS rating | 0.534 |
 
 TABLE 13-14
 
@@ -1044,14 +1018,12 @@ TABLE 13-24
 
 <table><tr><td>Model Measures in 2016 Rule</td><td>Pricing Multiplier</td></tr><tr><td>Uniform amount</td><td>7.352</td></tr><tr><td>Leverage ratio</td><td>(1.264)</td></tr><tr><td>Nonperforming loans and leases/gross assets</td><td>0.942</td></tr><tr><td>Other real estate owned/gross assets</td><td>0.533</td></tr><tr><td>Net income before taxes/total assets</td><td>(0.720)</td></tr><tr><td>Brokered deposit ratio</td><td>0.264</td></tr><tr><td>One-year asset growth</td><td>0.061</td></tr><tr><td>Weighted average CAMELS rating</td><td>1.519</td></tr><tr><td>Loan mix index</td><td>0.081</td></tr></table>
 
-# APPENDIX 13B: Calculating Minimum Required Reserves at U.S. Depository Institutions
+# Appendix 13B: Calculating Minimum Required Reserves at U.S. Depository Institutions
 
-# cash reserves
-
+**cash reserves**  
 Vault cash and cash deposits held at the Federal Reserve.
 
-# transaction accounts
-
+**transaction accounts**  
 Deposits that permit the account holders to make multiple withdrawals.
 
 This appendix presents a detailed example of U.S. bank liquidity management under the current minimum reserve requirements imposed by the Federal Reserve. Many of the issues and trade-offs are readily generalizable, however, to any FI facing liability withdrawal risk under conditions in which regulators impose minimum liquid asset reserve ratios. The issues involved in the optimal management of a liquid asset portfolio are illustrated using problems faced by the money desk manager in charge of a U.S. bank's cash reserve position. In the context of U.S. bank regulation, we concentrate on a bank's management of its cash reserves, defined as vault cash and cash deposits held at the Federal Reserve.
@@ -1060,26 +1032,16 @@ Transaction accounts include all deposits on which an account holder may make wi
 
 To calculate the target amount of reserves and to determine whether the bank is holding too many or too few reserves, the bank reserve manager requires two additional pieces of information to manage the position. First, which period's deposits does the manager use to compute the bank's reserve requirement? Second, over which period or periods must the bank maintain the target reserve requirement just computed? The U.S. system is complicated by the fact that the period for which the bank manager computes the required reserve target differs from the period during which the reserve target is maintained or achieved. We describe the computation and maintenance periods for bank reserves next.
 
-# reserve computation period
-
+**reserve computation period**  
 Period over which required reserves are calculated.
 
-# Computation Period
+## Computation Period
 
 For the purposes of bank reserve management, a U.S. bank reserve manager must think of the year as being divided into two-week periods. The reserve computation period always begins on a Tuesday and ends on a Monday 14 days later.
 
-# EXAMPLE 13-2 Computation of Daily Average Required Reserves
+### Example 13-2: Computation of Daily Average Required Reserves
 
-Consider ABC Bank's reserve manager, who wants to assess the bank's minimum cash reserve requirement target. The manager knows the bank's net transaction accounts balance at the close of the banking day on each of the 14 days over the period Tuesday, June 30, to Monday, July 13. Consider the realized net transaction account positions of ABC Bank in Table 13-25.
-
-The minimum daily average reserves that a bank must maintain is computed as a percentage of the daily average net transaction accounts held by the bank over the two-week computation period, where Friday's balances are carried over for Saturday and Sunday. The minimum daily average for ABC Bank to hold against the daily average of 1,350.70 million in net transaction accounts is calculated as follows (amounts in millions):
-
-Daily average net transaction accounts  $\times$  Reserve percentage  $=$  Daily average reserves required
-
-<table><tr><td>$15.2</td><td>0\%</td><td>$ 0.000</td></tr><tr><td>$110.2-$15.2</td><td>3</td><td>2.850</td></tr><tr><td>$1,350.7-$110.2</td><td>10</td><td>124.050</td></tr><tr><td colspan="2">Minimum average reserves to be held</td><td>126.900</td></tr></table>
-
-# weekend game
-
+**weekend game**  
 Name given to the policy of lowering deposit balances on Fridays, since that day's figures count three times for reserve accounting purposes.
 
 Note that the daily average target in Example 13-2 is calculated by taking a 14-day average of net transaction accounts even though the bank is closed for 4 of the 14 days (two Saturdays and two Sundays). Effectively, Friday's deposit figures count three times compared to those of other days in the business week. This means that the bank manager who can engage in a strategy in which deposits are lower on Fridays can, on average, lower the bank's reserve requirements. This may be important if required liquid asset reserve holdings are above the optimal level from the bank's perspective to handle liquidity drains due to expected and unexpected deposit withdrawals.
@@ -1094,11 +1056,10 @@ TABLE 13-25 Net Transaction Accounts and Vault Cash Balances of ABC Bank
 
 <table><tr><td></td><td>Transaction Accounts</td><td>Less Demand Balances Due from U.S. Depository Institutions</td><td>Less Cash Items in Process of Collection</td><td>Net Transaction Accounts</td><td>Vault Cash</td></tr><tr><td>Tuesday, June 30</td><td>$1,850</td><td>$240</td><td>$140</td><td>$1,470</td><td>\$30</td></tr><tr><td>Wednesday, July 1</td><td>1,820</td><td>235</td><td>135</td><td>1,450</td><td>28</td></tr><tr><td>Thursday, July 2</td><td>1,770</td><td>250</td><td>120</td><td>1,400</td><td>24</td></tr><tr><td>Friday, July 3</td><td>1,610</td><td>260</td><td>100</td><td>1,250</td><td>21</td></tr><tr><td>Saturday, July 4</td><td>1,610</td><td>260</td><td>100</td><td>1,250</td><td>21</td></tr><tr><td>Sunday, July 5</td><td>1,610</td><td>260</td><td>100</td><td>1,250</td><td>21</td></tr><tr><td>Monday, July 6</td><td>1,655</td><td>250</td><td>125</td><td>1,280</td><td>24</td></tr><tr><td>Tuesday, July 7</td><td>1,650</td><td>230</td><td>130</td><td>1,290</td><td>26</td></tr><tr><td>Wednesday, July 8</td><td>1,690</td><td>240</td><td>130</td><td>1,320</td><td>25</td></tr><tr><td>Thursday, July 9</td><td>1,770</td><td>275</td><td>135</td><td>1,360</td><td>25</td></tr><tr><td>Friday, July 10</td><td>1,820</td><td>280</td><td>140</td><td>1,400</td><td>27</td></tr><tr><td>Saturday, July 11</td><td>1,820</td><td>280</td><td>140</td><td>1,400</td><td>27</td></tr><tr><td>Sunday, July 12</td><td>1,820</td><td>280</td><td>140</td><td>1,400</td><td>27</td></tr><tr><td>Monday, July 13</td><td>1,785</td><td>260</td><td>135</td><td>1,390</td><td>29</td></tr><tr><td>Total</td><td>$24,280</td><td>$3,600</td><td>$1,770</td><td>$18,910</td><td>\$355</td></tr><tr><td colspan="4">Daily average net transaction accounts</td><td>$1,350.7</td><td>$25.357</td></tr></table>
 
-# reserve maintenance period
-
+**reserve maintenance period**  
 Period over which deposits at the Federal Reserve Bank must meet or exceed the required reserve target.
 
-# Maintenance Period
+## Maintenance Period
 
 We have computed a daily average minimum cash reserve requirement for ABC Bank, but have yet to delineate the exact period over which the bank manager must maintain this 126.900 million daily average reserve target. Reserves may be held either as vault cash or as deposits held by the bank at the Federal Reserve. Under the current set of regulations, the average daily vault cash held during the reserve computation period (June 30 through July 13 in our example) is deducted from the institution's required reserves to determine the reserve balance to be maintained at the Federal Reserve. In addition, a lag of 30 days exists between the beginning of the reserve computation period and the beginning of the reserve maintenance period (over which deposits at the Federal Reserve Bank must meet or exceed the required reserve target). For ABC Bank, this reserve maintenance period is from July 30 through August 12 (see Figure 13-5). Thus, the bank's reserve manager knows the value of its target reserves with perfect certainty throughout the reserve maintenance period. However, the reserve manager still has a challenge in maintaining sufficient reserves at the Fed to hit the reserve target, while still minimizing these low interest rate balances and maintaining the liquidity position of the bank.
 
@@ -1112,84 +1073,20 @@ TABLE 13-26 ABC Bank's Daily Reserve Position over the July 30-August 12 Reserve
 
 <table><tr><td>Date</td><td>Deposits at the Federal Reserve</td></tr><tr><td>Thursday, July 30</td><td>\$ 98</td></tr><tr><td>Friday, July 31</td><td>100</td></tr><tr><td>Saturday, August 1</td><td>100</td></tr><tr><td>Sunday, August 2</td><td>100</td></tr><tr><td>Monday, August 3</td><td>98</td></tr><tr><td>Tuesday, August 4</td><td>91</td></tr><tr><td>Wednesday, August 5</td><td>102</td></tr><tr><td>Thursday, August 6</td><td>101</td></tr><tr><td>Friday, August 7</td><td>99</td></tr><tr><td>Saturday, August 8</td><td>99</td></tr><tr><td>Sunday, August 9</td><td>99</td></tr><tr><td>Monday, August 10</td><td>107</td></tr><tr><td>Tuesday, August 11</td><td>124</td></tr><tr><td>Wednesday, August 12</td><td>103.602</td></tr><tr><td>Total</td><td>\$1,421.602</td></tr><tr><td>Daily average</td><td>101.543</td></tr></table>
 
-# lagged reserve accounting system
-
+**lagged reserve accounting system**  
 An accounting system in which the reserve computation and reserve maintenance periods do not overlap.
 
-# contemporaneous reserve accounting system
-
+**contemporaneous reserve accounting system**  
 An accounting system in which the reserve computation and reserve maintenance periods overlap.
 
 computation period is shown (in Table 13-25) at  \$25.357 million, the average daily target balance for deposits at the Federal Reserve are\$ 101.543 million (i.e., \$25.357 million + \$101.543 million = \$126.900 million). Essentially, since the vault cash component of the reserve target is based on vault cash held over the reserve computation period, the bank's active target during the maintenance period itself is its reserve position at the Fed (in this case, it seeks to hold an average of \$101.543 million per day over the 14-day maintenance period).
 
 As discussed earlier, currently the reserve maintenance period for meeting the reserve target begins 30 days after the start of the reserve computation period—the reserve maintenance period does not begin until 17 days after the end of the computation period. Regulators introduced this lagged reserve accounting system to make it easier for bank reserve managers to calculate their required reserve balances and to increase the accuracy of information on aggregate required reserve balances. Prior to July 1998, regulators used a contemporaneous reserve accounting system in which the two-week reserve maintenance period for meeting the reserve target began only two days (as opposed to the current 30 days) after the start of the reserve computation period. This contemporaneous reserve system resulted in only a two-day window during which required reserves were known with certainty—in the previous example, the reserve maintenance period would have been from Thursday, July 2, through Wednesday, July 15, for a reserve computation period beginning Tuesday, June 30, and ending Monday, July 13.
 
-# APPENDIX 13C: Primary Regulators of Depository Institutions
+# Appendix 13C: Primary Regulators of Depository Institutions
 
-# APPENDIX 13D: Deposit Insurance Coverage for Commercial Banks in Various Countries
+# Appendix 13D: Deposit Insurance Coverage for Commercial Banks in Various Countries
 
-# APPENDIX 13E: Calculating Risk-Based Capital Ratios
+# Appendix 13E: Calculating Risk-Based Capital Ratios
 
 Appendixes 13C, 13D, and 13E are available through Connect or your course instructor.
-
-Chapter
-
-# 14
-
-OUTLINE
-
-Other Lending Institutions:
-
-Chapter Overview
-
-Savings Institutions
-
-Size, Structure, and
-
-Composition of the
-
-Industry
-
-Balance Sheets and
-
-Recent Trends
-
-Regulators
-
-Savings Institution Recent
-
-Performance
-
-Credit Unions
-
-Size, Structure, and
-
-Composition of the
-
-Industry
-
-Balance Sheets and
-
-Recent Trends
-
-Regulators
-
-Industry Performance
-
-Finance Companies
-
-Size, Structure, and
-
-Composition of the
-
-Industry
-
-Balance Sheets and
-
-Recent Trends
-
-Industry Performance
-
-Regulation
-
-Global Issues

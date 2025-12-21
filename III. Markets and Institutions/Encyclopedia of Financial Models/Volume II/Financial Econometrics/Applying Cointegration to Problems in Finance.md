@@ -1,4 +1,33 @@
 
+---
+title: "Applying Cointegration to Problems in Finance"
+parent_directory: "Financial Econometrics"
+formatted: "2025-12-21 11:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - cointegration analysis
+  - stochastic trends
+  - johansen-juselius tests
+  - market linkages
+  - asset price bubbles
+secondary_tags:
+  - engle-granger tests
+  - market efficiency testing
+  - present value model
+  - european stock markets
+  - housing market bubbles
+  - error correction models
+  - autoregressive models
+  - unit root processes
+  - spurious regression
+  - long-run relationships
+  - short-run dynamics
+  - financial time series
+  - econometric methods
+cssclasses: academia
+---
+
 # Applying Cointegration to Problems in Finance
 
 BALA ARSHANAPALLI, PhD
@@ -13,7 +42,6 @@ Abstract: Financial time series data tend to exhibit stochastic trends. To uncov
 
 The long-term relationships among economic variables, such as short-term versus long-term interest rates, or stock prices versus dividends, have long interested finance practitioners. For certain types of trends, multiple regression analysis needs modification to uncover these relationships. A trend represents a long-term movement in the variable. One type of trend, a deterministic trend, has a straightforward solution. Since a deterministic trend is a function of time, we merely include this time function in the regression. For example, if the variables are increasing or decreasing as a linear function of time, we may simply include time as a variable in the regression equation. The issue becomes more complex when the trend is stochastic. A stochastic trend is defined (Stock and Watson, 2003) as "a persistent but random long-term movement of the variable over time." Thus a variable with a stochastic trend may exhibit prolonged long-run increases followed by prolonged long-run declines and perhaps another period of long-term increases.
 
-
 Most financial theorists believe stochastic trends better describe the behavior of financial variables than deterministic trends. For example, if stock prices are rising, there is no reason to believe they will continue to do so in the future. Or, even if they continue to increase in the future, they may not do so at the same rate as in the past. This is because stock prices are driven by a variety of economic factors and the impact of these factors may change over time. One way of capturing these common stochastic trends is by using an econometric technique usually referred to as cointegration.
 
 In this entry, we explain the concept of cointegration. There are two major ways of testing for cointegration. We outline both econometric methods and the underlying theory for each method. We illustrate the first technique with an example of the first type of cointegration problem, testing market efficiency. Specifically, we examine the present value model of stock prices. We illustrate the second technique with an example of the second type of cointegration problem, examining market linkages. In particular, we test the linkage and the dynamic interactions among stock market indexes of three European countries. Finally, we also use cointegration to test for the presence of an asset price bubble. Specifically, we test for the possibility of bubbles in the real estate markets.
@@ -23,7 +51,7 @@ In this entry, we explain the concept of cointegration. There are two major ways
 
 The presence of stochastic trends may lead a researcher to conclude that two economic variables are related over time when in fact they are not. This problem is referred to as spurious regression. For example, during the 1980s the U.S. stock market and the Japanese stock market were both rising. An ordinary least squares (OLS) regression of the U.S. Morgan Stanley Stock Index on the Japanese Morgan Stanley Stock Index (USD) for the time period 1980-1990 using monthly data yields
 
-Japanese Stock Index  $= 76.74 + 19$  U.S.
+Japanese Stock Index $= 76.74 + 19$ U.S.
 
 Stock Index
 
@@ -31,7 +59,7 @@ $t$ -statistic  $(-13.95)$  (26.51) R-square  $= 0.86$
 
 The  $t$ -statistic on the slope coefficient (26.51) is quite large, indicating a strong positive relationship between the two stock markets. This strong relationship is reinforced with a very high R-square value. However, estimating the same regression over a different time period, 1990-2007, reveals
 
-Japanese Stock Index  $= 2905.67 - 0.29$  U.S.
+Japanese Stock Index $= 2905.67 - 0.29$ U.S.
 
 Stock Index
 
@@ -43,17 +71,16 @@ The reason behind these contradictory results is the presence of stochastic tren
 
 Another problem is that when the variables contain a stochastic trend, the  $t$ -values of the regressors no longer follow a normal distribution, even for large samples. Standard hypothesis tests are no longer valid for these nonnormal distributions.
 
-At first, researchers attempted to deal with these problems by removing the trend through differencing these variables. That is, they focused on the change in these variables,  $X_{t} - X_{t-1}$ , rather than the level of these variables,  $X_{t}$ . Although this technique was successful for univariate Box-Jenkins analysis, there are two problems with this approach in a multivariate scenario. First, we can only make statements about the changes in the variables rather than the level of the variables. This will be particularly troubling if our major interest is the level of the variable. Second, if the variables are subject to a stochastic trend, then focusing on the changes in the variables will lead to a specification error in our regressions.
+At first, researchers attempted to deal with these problems by removing the trend through differencing these variables. That is, they focused on the change in these variables, $X_{t} - X_{t-1}$, rather than the level of these variables, $X_{t}$. Although this technique was successful for univariate Box-Jenkins analysis, there are two problems with this approach in a multivariate scenario. First, we can only make statements about the changes in the variables rather than the level of the variables. This will be particularly troubling if our major interest is the level of the variable. Second, if the variables are subject to a stochastic trend, then focusing on the changes in the variables will lead to a specification error in our regressions.
 
 The cointegration technique allows researchers to investigate variables that share the same stochastic trend and at the same time avoid the spurious regression problem. Cointegration analysis uses regression analysis to study the long-run linkages among economic variables and allows us to consider the short-run adjustments to deviations from the long-run equilibrium.
-
 
 The use of cointegration in finance has grown significantly. Surveying this vast literature would take us beyond the scope of this entry. To narrow our focus, we note that cointegration analysis has been used mainly for two types of problems in finance. First, it has been used to evaluate the efficiency of financial markets in a wide variety of contexts. For example, it was used to evaluate the purchasing power parity theory (see Enders, 1988), the rational expectations theory of the term structure, the present value model of stock prices (Campbell and Shiller, 1987), and the relationship between the forward and spot exchange rates (Liu and Maddala, 1992). The second type of cointegration study investigates market linkages. For example, Hendry and Juselius (2000) examine how gasoline prices at different stations are linked to the world price of oil. Arshanapalli and Doukas (1993) investigate the linkages and dynamic interactions among stock market indexes of several countries.
 
 Before explaining cointegration it is first necessary to distinguish between stationary and nonstationary variables. A variable is said to be stationary (more formally, weakly stationary) if its mean and variance are constant and its autocorrelation depends on the lag length, that is
 
 $$
-\begin{array}{l} \operatorname{E} (X_{t}) = \mu , \quad \operatorname{Va r} (X_{t}) = \sigma^{2}, \text{an d} \\ \operatorname{Co v} \left(X_{t}, X_{t - 1}\right) = \gamma (1) \\ \end{array}
+\begin{array}{l} \operatorname{E}(X_{t}) = \mu, \quad \operatorname{Var}(X_{t}) = \sigma^{2}, \text{and} \\ \operatorname{Cov}\left(X_{t}, X_{t-1}\right) = \gamma(1) \\ \end{array}
 $$
 
 Stationary means that the variable fluctuates about its mean with constant variation. Another way to put it is that the variable exhibits mean reversion and so displays no stochastic trend. In contrast, nonstationary variables may wander arbitrarily far from the mean. Thus, only nonstationary variables exhibit a stochastic trend.
@@ -64,7 +91,7 @@ The simplest example of a nonstationary variable is a random walk. A variable is
 Nonstationary time series are often referred to as a unit root series. The unit root reflects the coefficient of the  $X_{t-1}$  term in an autoregressive relationship of order one. In higher-order autoregressive models, the condition of nonstationarity is more complex. Consider the  $p$  order autoregressive model where the  $a_i$  terms are coefficients and the  $L^i$  is the lag operator. If the sum of polynomial coefficients equals 1, then the  $X_t$  series are nonstationary and again are referred to as a unit root process.
 
 $$
-(1 - a_{1} L^{1} - \dots - a_{\mathrm{p}} L^{\mathrm{p}}) X_{\mathrm{t}} = e_{t} + a_{0} \tag {1}
+(1 - a_{1} L^{1} - \dots - a_{\mathrm{p}} L^{\mathrm{p}}) X_{\mathrm{t}} = e_{t} + a_{0} \tag{1}
 $$
 
 If all the variables under consideration are stationary, then there is no spurious regression problem and standard OLS applies. If some of the variables are stationary, and some are nonstationary, then no economically significant relationships exist. Since nonstationary variables contain a stochastic trend, they will not exhibit any relationship with the stationary variables that lack this trend. The spurious regression problem occurs only when all the variables in the system are nonstationary.
@@ -271,7 +298,7 @@ ADF statistic), and the Phillips-Perron statistic. For reasons of space, we will
 
 $$
 \mathrm{y}_{\mathrm{t}} = \mathrm{A}_{0} + \mathrm{A}_{1} \mathrm{y}_{\mathrm{t} - 1} + \mathrm{u}_{\mathrm{t}} \tag {11}
-$$ where  $y_{t}$  is the  $n \times 3$  vector  $(y_{1t}, y_{2t}, y_{3t})'$  of the logs of the stock market index for France, Germany, and the Netherlands (i.e., element  $y_{1t}$  is the log of the French index at time  $t$ ;  $y_{2t}$  is the log of the German index at time  $t$ ; and  $y_{3t}$  is the log of the Netherlands index at time  $t$ ). We use logs of the stock market indexes to smooth the series.  $A_{0}$  and  $A_{1}$  are  $n \times n$  matrices of parameters and  $u_{t}$  is the  $n \times n$  error matrix.
+$$ where $y_{t}$ is the $n \times 3$ vector $(y_{1t}, y_{2t}, y_{3t})'$ of the logs of the stock market index for France, Germany, and the Netherlands (i.e., element $y_{1t}$ is the log of the French index at time $t$; $y_{2t}$ is the log of the German index at time $t$; and $y_{3t}$ is the log of the Netherlands index at time $t$). We use logs of the stock market indexes to smooth the series. $A_{0}$ and $A_{1}$ are $n \times n$ matrices of parameters and $u_{t}$ is the $n \times n$ error matrix.
 
 
 The next step is to estimate the model. This means fitting equation (8). We incorporated a linear time trend, hence the inclusion of the matrix  $A_0$ . Since there are restrictions across the equations, the procedure uses a maximum likelihood estimation procedure and not OLS. The focus of this estimation is not on the parameters of the  $A$  matrices. Few software programs present these estimates; rather, the emphasis is on the characteristic roots of the matrix  $B$ , which are estimated to determine the rank of the matrix.
@@ -281,7 +308,7 @@ The estimates of the characteristic roots are presented in Table 6. We want to e
 We have 96 usable observations.
 
 $$
-\begin{array}{l} \lambda \operatorname{tr ac e} (0) = - \mathrm{T} [ \ln \left(1 - \lambda_{\mathrm{i}}^{*}\right) + \ln \left(1 - \lambda_{2}^{*}\right) \\ + \ln (1 - \lambda_{3}^{*}) ] = - 9 6 [ \ln (1 - 0. 2 2 7) \\ + \ln (1 - 0. 0 5 7) + \ln (1 - 0. 0 2 8) ] \\ = 3 3. 0 5 \\ \end{array}
+\begin{array}{l} \lambda_{\text{trace}}(0) = -T [\ln(1 - \lambda_{1}^{*}) + \ln(1 - \lambda_{2}^{*}) \\ + \ln(1 - \lambda_{3}^{*})] = -96 [\ln(1 - 0.227) \\ + \ln(1 - 0.057) + \ln(1 - 0.028)] \\ = 33.05 \\ \end{array}
 $$
 
 Table 6 Cointegration Test
@@ -293,7 +320,7 @@ As reported in Table 6, this exceeds the critical value for  $5\%$  significance
 The  $\lambda_{\mathrm{max}}$  statistic reinforces our conclusion. We can use  $\lambda_{\mathrm{max}}(0,1)$  to test the null hypothesis that the variables lack cointegration against the alternative that they are cointegrated with one cointegrating vector. Table 6 presents the value of  $\lambda_{\mathrm{max}}(0,1)$ . Again, for pedagogic reasons we outline the calculation of  $\lambda_{\mathrm{max}}(0,1)$ .
 
 $$
-\begin{array}{l} \lambda_{\max } (0, 1) = (- \mathrm{Tl n} (1 - \lambda_{\mathrm{i}}^{*}) = - 9 6 \ln (1 - 0. 2 2 7) \\ = 2 4. 7 2 \\ \end{array}
+\begin{array}{l} \lambda_{\max}(0,1) = (-T\ln(1 - \lambda_{1}^{*})) = -96\ln(1 - 0.227) \\ = 24.72 \\ \end{array}
 $$
 
 The computed value of 24.72 exceeds the critical value of 21.13 at the  $5\%$  significance level and has a  $p$ -value of 0.01. Once again, this leads us to reject the null hypothesis that the indexes lack cointegration and conclude that there exists at least one cointegrating vector.
@@ -302,7 +329,7 @@ The next step requires a presentation of the cointegrating equation and an analy
 
 
 $$
-\begin{array}{l} \Delta \mathrm{y}_{\mathrm{t}} = \mathrm{b}_{1 0} + \sum_{i = 1}^{n} b_{1 i} \Delta y_{t - i} + \sum_{j =}^{n} c_{1 j} \Delta x_{t - j} \\ + d_{1} \left(\mathrm{y}_{\mathrm{t} - 1} - \mathrm{ax}_{\mathrm{t} - 1}\right) + \mathrm{e}_{1 \mathrm{t}} \tag {12} \\ \end{array}
+\begin{array}{l} \Delta \mathrm{y}_{\mathrm{t}} = \mathrm{b}_{1 0} + \sum_{i = 1}^{n} b_{1 i} \Delta y_{t - i} + \sum_{j =}^{n} c_{1 j} \Delta x_{t - j} \\ + d_{1} \left(\mathrm{y}_{\mathrm{t} - 1} - \mathrm{ax}_{\mathrm{t} - 1}\right) + \mathrm{e}_{1 \mathrm{t}} \tag{12} \\ \end{array}
 $$
 
 The notation of equation (12) differs somewhat from the notation of equations (5) and (6). The notation used in equation (12) reflects the matrix notation adopted for the Johansen-Juselius method in equation (8). Nevertheless, for expositional convenience, we did not use the matrix notation for the error-correction term. Again, the  $\Delta$  means the first difference of the variable; thus  $\Delta y_{1t - 1}$  means the change in the log of the French stock index in period  $t - 1$ ,  $(y_{1t - 1} - y_{1t - 2})$ . Equation (12) claims that changes in the log of the French stock index are due to changes in the French stock index during the last two (2) periods; changes in the German stock index during the last two periods; changes in the Netherlands stock index during the last two periods; and finally deviations of the French stock index from its stochastic trend with Germany and the Netherlands. An analogous equation could be written for both Germany and the Netherlands.
@@ -315,7 +342,7 @@ Table 7 Cointegrating Equation and Error Correction Equations 1999-2007 Panel A:
 
 <table><tr><td>Country</td><td>Δ(France)</td><td>Δ(Germany)</td><td>Δ(Netherlands)</td></tr><tr><td rowspan="2">Zt-1</td><td>-0.151477</td><td>-0.057454</td><td>-0.179129</td></tr><tr><td>[-2.21470]</td><td>[-0.66835]</td><td>[-2.52373]</td></tr><tr><td rowspan="2">Δ(France(-1))</td><td>0.087360</td><td>0.245750</td><td>0.225357</td></tr><tr><td>[0.27222]</td><td>[0.60927]</td><td>[0.67667]</td></tr><tr><td rowspan="2">Δ(France(-2))</td><td>-0.200773</td><td>-0.218331</td><td>-0.324250</td></tr><tr><td>[-0.68179]</td><td>[-0.58990]</td><td>[-1.06105]</td></tr><tr><td rowspan="2">Δ(Germany(-1))</td><td>-0.189419</td><td>-0.024306</td><td>-0.094891</td></tr><tr><td>[-0.82197]</td><td>[-0.08392]</td><td>[-0.39680]</td></tr><tr><td rowspan="2">Δ(Germany(-2))</td><td>-0.155386</td><td>-0.109070</td><td>-0.127301</td></tr><tr><td>[-0.67237]</td><td>[-0.37551]</td><td>[-0.53081]</td></tr><tr><td rowspan="2">Δ(Netherlands(-1))</td><td>0.079881</td><td>-0.189775</td><td>-0.188295</td></tr><tr><td>[0.34284]</td><td>[-0.64805]</td><td>[-0.77875]</td></tr><tr><td rowspan="2">Δ(Netherlands(-2))</td><td>0.439569</td><td>0.446368</td><td>0.483929</td></tr><tr><td>[1.89288]</td><td>[1.52936]</td><td>[2.00810]</td></tr><tr><td rowspan="2">C</td><td>0.005967</td><td>0.002575</td><td>0.002688</td></tr><tr><td>[1.02860]</td><td>[0.35321]</td><td>[0.44641]</td></tr></table>
 
-France  $(-1)$  represents the log return of the French stock index one month ago. Germany  $(-1)$  and Netherlands  $(-1)$  have a similar interpretation the [] represent the  $t$ -statistic.
+France $(-1)$ represents the log return of the French stock index one month ago. Germany $(-1)$ and Netherlands $(-1)$ have a similar interpretation. The [] represent the $t$-statistic.
 
 It should be noted that in contrast to the two-step procedure of the Engle-Granger approach, the Johansen-Juselius approach estimates the speed of adjustment coefficient in one step. It provides insight into the short-run dynamics. This coefficient is insignificant (at the  $5\%$  level) for Germany. This means that stock prices in Germany do not change in response to deviations from their stochastic trend with France and the Netherlands. Because the variables are cointegrated, we are guaranteed that at least one speed of adjustment coefficient will be significant. In fact, the speed of adjustment coefficients of both France and the Netherlands attain statistical significance (at the  $5\%$  level) and are about the same size. This shows that when the economies of France and the Netherlands deviate from the common stochastic trend, they adjust. In France about  $15\%$  and in the Netherlands about  $17\%$  of the last-period deviation is corrected during this period.
 
@@ -325,7 +352,7 @@ The changes in the lagged values of both indexes lack statistical significance. 
 
 To see this, we turn to an examination of Granger causality in the error-correction models. Granger causality helps us to classify the variables into dependent and independent. A variable Granger causes another variable when past values of that variable improve our ability to forecast the original variable. To test for Granger causality, an  $F$ -test is employed to verify whether the lagged changes in, say, the stock index of France jointly zero in the German equation. Table 8 reports the results of pairwise Granger causality tests. We find that France and Germany do not Granger cause each other
 
-Table 8 Cointegration Test Results 1975-2000
+Table 8 Cointegration Tests: Home Prices vs. Economic Fundamentals 1975-2000
 
 <table><tr><td>Cointegration between</td><td>Hypothesized No. of CE(s)</td><td>Eigenvalue</td><td>Trace Statistic</td><td>0.05 Critical Value</td><td>Prob. **</td></tr><tr><td rowspan="2">Home Prices vs. Household Debt Ratio</td><td>None</td><td>0.09</td><td>14.72</td><td>25.87</td><td>0.60</td></tr><tr><td>At most 1</td><td>0.05</td><td>5.28</td><td>12.52</td><td>0.56</td></tr><tr><td rowspan="2">Home Prices vs. Housing Affordability Index</td><td>None</td><td>0.13</td><td>20.34</td><td>25.87</td><td>0.21</td></tr><tr><td>At most 1</td><td>0.07</td><td>7.06</td><td>12.52</td><td>0.34</td></tr><tr><td rowspan="2">Home Prices vs. Mortgage Rate</td><td>None</td><td>0.10</td><td>18.16</td><td>25.87</td><td>0.33</td></tr><tr><td>At most 1</td><td>0.08</td><td>7.73</td><td>12.52</td><td>0.27</td></tr><tr><td rowspan="2">Home Prices vs. Homebuilders Stock Index</td><td>None</td><td>0.15</td><td>25.69</td><td>25.87</td><td>0.05</td></tr><tr><td>At most 1</td><td>0.09</td><td>9.49</td><td>12.52</td><td>0.15</td></tr><tr><td rowspan="2">Home Prices vs. Unemployment Rate</td><td>None *</td><td>0.15</td><td>25.90</td><td>25.87</td><td>0.05</td></tr><tr><td>At most 1</td><td>0.09</td><td>9.66</td><td>12.52</td><td>0.14</td></tr><tr><td rowspan="2">Home Prices vs. Mean of Middle Fifth of Income</td><td>None *</td><td>0.20</td><td>32.58</td><td>25.87</td><td>0.01</td></tr><tr><td>At most 1</td><td>0.10</td><td>9.90</td><td>12.52</td><td>0.13</td></tr><tr><td rowspan="2">Home Prices vs. Mean of Top Fifth of Income</td><td>None *</td><td>0.21</td><td>32.29</td><td>25.87</td><td>0.01</td></tr><tr><td>At most 1</td><td>0.08</td><td>8.70</td><td>12.52</td><td>0.20</td></tr></table>
 

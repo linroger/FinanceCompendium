@@ -1,7 +1,7 @@
 ---
 title: Commercial Paper Funding Facility: Program Terms and Conditions
 parent_directory: Federal Reserve Funding Facilities
-formatted: 2025-12-21 08:45:00 AM
+formatted: 2025-12-21 11:30:00 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:

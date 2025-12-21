@@ -1,36 +1,21 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Increasing Returns to Scale and Monopolistic Competition
-linter-yaml-title-alias: Increasing Returns to Scale and Monopolistic Competition
 primary_tags:
-- equilibrium trade exit
-- international trade increasing returns
-- monopolistic competition model did
-- nafta estimate gain consumers
-- scale monopolistic competition foreign
-- golf clubs countries answer
+- monopolistic competition model
+- increasing returns scale
+- intra industry trade
+- gravity equation trade
+- nafta productivity gains
 secondary_tags:
-- increasing returns scale monopolistic
-- competition foreign trade highly
-- competition equilibrium trade long
-- trade equilibrium point firm
-- imports exports industry monopolistic
-- states nafta source gains
-- effects trade monopolistic
-- figure long run monopolistic
-- import variety beneficial impact
-- equilibrium trade figure shifted
-- growth export variety mexico
-- gains trade expansion varieties
-- demand figure free trade
-- trade equilibrium country use
-- goods explain countries import
-- continue grow year nafta
-tags_extracted: '2025-12-18T00:33:37.001740'
+- product differentiation
+- firm exit trade
+- export variety expansion
+- consumer surplus gains
+- border effects trade
+- trade liberalization costs
+- imperfect competition
+- comparative advantage
+cssclasses: academia
 ---
 
 # Increasing Returns to Scale and Monopolistic Competition
@@ -45,17 +30,17 @@ Professor Daniel Trefler, University of Toronto, 2005
 
 In Chapter 2, we looked at data for U.S. snowboard imports and considered the reasons why the United States imports this product from so many different countries. Now we look at another sporting good that the United States imports and exports in large quantities to illustrate how a country can both buy a product and sell it to other countries. In 2012 the United States imported golf clubs from 25 countries and exported them to 74 countries. In Table 6-1, we list the 12 countries that sell the most golf clubs to the United States and the 12 countries to which the United States sells the most golf clubs. The table also lists the amounts bought or sold and their average wholesale prices.
 
-In panel (a), we see that China sells the most clubs to the United States, providing  \$385 million worth of golf clubs at an average price of\$ 27 each. Next is Mexico, selling \$45 million of clubs at an average wholesale price of \$70 each. Vietnam comes next, exporting \$26 million of clubs at an average price of \$51, followed by Japan, Taiwan, and Thailand, each of which sells golf clubs to the United States with an
+In panel (a), we see that China sells the most clubs to the United States, providing \$385 million worth of golf clubs at an average price of \$27 each. Next is Mexico, selling \$45 million of clubs at an average wholesale price of \$70 each. Vietnam comes next, exporting \$26 million of clubs at an average price of \$51, followed by Japan, Taiwan, and Thailand, each of which sells golf clubs to the United States with an
 
-1 Basics of Imperfect Competition
+## 1 Basics of Imperfect Competition
 
-2 Trade Under Monopolistic Competition
+## 2 Trade Under Monopolistic Competition
 
-3 The North American Free Trade Agreement
+## 3 The North American Free Trade Agreement
 
-4 Intra-Industry Trade and the Gravity Equation
+## 4 Intra-Industry Trade and the Gravity Equation
 
-5 Conclusions
+## 5 Conclusions
 
 # TABLE 6-1
 
@@ -141,16 +126,16 @@ FIGURE 6-3
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/63f1db7a850adb38cbb0d903247fe731ef9476a5878624638e498d737957e492.jpg)
 
-Increasing Returns to Scale This diagram shows the average cost,  $AC$ , and marginal cost,  $MC$ , of a firm. Increasing returns to scale cause average costs to fall as the quantity produced increases. Marginal cost is below average cost and is drawn as constant for simplicity.
+Increasing Returns to Scale. This diagram shows the average cost,  $AC$ , and marginal cost,  $MC$ , of a firm. Increasing returns to scale cause average costs to fall as the quantity produced increases. Marginal cost is below average cost and is drawn as constant for simplicity.
 
 Numerical Example As an example of the cost curves in Figure 6-3, suppose that the firm has the following cost data:
 
 $$
-\text{Fi xe dc os ts} = \$ 1 0 0
+\text{Fixed costs} = \$100
 $$
 
 $$
-\text{Ma rg in al} = \$ 10 \text{pe ru ni t}
+\text{Marginal} = \$10 \text{per unit}
 $$
 
 Given these costs, the average costs for this firm for various quantities are as shown in Table 6-2.
@@ -177,11 +162,11 @@ FIGURE 6-4
 
 Short-Run Monopolistic Competition Equilibrium without Trade The short-run equilibrium under monopolistic competition is the same as a monopoly equilibrium. The firm chooses to produce the quantity  $Q_{0}$  at which the firm's marginal revenue,  $mr_{0}$ , equals its marginal cost,  $MC$ . The price charged is  $P_{0}$ . Because price exceeds average cost, the firm makes a monopoly profit.
 
-curve faced by each firm is labeled  $d_0$ , the marginal revenue curve is labeled  $mr_0$ , and the marginal cost curve of each firm is shown by  $MC$ . Each firm maximizes profit by producing  $Q_0$ , the quantity at which marginal revenue equals marginal cost. Tracing up from this quantity to the demand curve shows that the price charged by the firms is  $P_0$ . Because the price exceeds average costs at the quantity  $Q_0$ , the firm earns monopoly profit.
+curve faced by each firm is labeled $d_0$, the marginal revenue curve is labeled $mr_0$, and the marginal cost curve of each firm is shown by $MC$. Each firm maximizes profit by producing $Q_0$, the quantity at which marginal revenue equals marginal cost. Tracing up from this quantity to the demand curve shows that the price charged by the firms is $P_0$. Because the price exceeds average costs at the quantity $Q_0$, the firm earns monopoly profit.
 
-Long-Run Equilibrium In a monopolistically competitive market, new firms continue to enter the industry as long as they can earn monopoly profits. In the long run, the entry of new firms draws demand away from existing firms, causing demand curve  $d_0$  to shift to the left until no firm in the industry earns positive monopoly profits (Figure 6-5). Moreover, when new firms enter and there are more product varieties available to consumers, the  $d_0$  curve faced by each firm becomes more elastic, or flatter. We expect the  $d_0$  curve to become more elastic as more firms enter because each product is similar to the other existing products; therefore, as the number of close substitutes increases, consumers become more price sensitive.
+Long-Run Equilibrium In a monopolistically competitive market, new firms continue to enter the industry as long as they can earn monopoly profits. In the long run, the entry of new firms draws demand away from existing firms, causing demand curve $d_0$ to shift to the left until no firm in the industry earns positive monopoly profits (Figure 6-5). Moreover, when new firms enter and there are more product varieties available to consumers, the $d_0$ curve faced by each firm becomes more elastic, or flatter. We expect the $d_0$ curve to become more elastic as more firms enter because each product is similar to the other existing products; therefore, as the number of close substitutes increases, consumers become more price sensitive.
 
-New firms continue to enter the industry until the price charged by each firm is on the average cost curve and monopoly profit is zero. At this point, the industry is in a long-run equilibrium, with no reason for any further entry or exit. The long-run equilibrium without trade is shown in Figure 6-5. Again, the demand curve for the firm is labeled  $d$ , with the short-run demand curve denoted  $d_0$  and the long-run demand curve denoted  $d_1$  (with corresponding marginal revenue curve  $mr_1$ ). Marginal revenue equals marginal cost at quantity  $Q_1$ . At this quantity, all firms in the industry charge price  $P^A$ . The price  $P^A$  equals average cost at point  $A$ , where the demand curve  $d_1$  is tangent to the average cost curve. Because the price equals average costs, the firm is earning zero monopoly profit and there is no incentive for firms to enter or exit the industry. Thus, point  $A$  is the firm's (and the industry's) long-run equilibrium without trade. Notice that the long-run equilibrium curve  $d_1$  is to the left of and more elastic (flatter) than the short-run curve  $d_0$ .
+New firms continue to enter the industry until the price charged by each firm is on the average cost curve and monopoly profit is zero. At this point, the industry is in a long-run equilibrium, with no reason for any further entry or exit. The long-run equilibrium without trade is shown in Figure 6-5. Again, the demand curve for the firm is labeled $d$, with the short-run demand curve denoted $d_0$ and the long-run demand curve denoted $d_1$ (with corresponding marginal revenue curve $mr_1$). Marginal revenue equals marginal cost at quantity $Q_1$. At this quantity, all firms in the industry charge price $P^A$. The price $P^A$ equals average cost at point $A$, where the demand curve $d_1$ is tangent to the average cost curve. Because the price equals average costs, the firm is earning zero monopoly profit and there is no incentive for firms to enter or exit the industry. Thus, point $A$ is the firm's (and the industry's) long-run equilibrium without trade. Notice that the long-run equilibrium curve $d_1$ is to the left of and more elastic (flatter) than the short-run curve $d_0$.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/331e13693ddaa536e95fd49157ad58cb740032f1fd2aac92faaab24d2ea68870.jpg)
 
@@ -189,9 +174,9 @@ FIGURE 6-5
 
 Long-Run Monopolistic Competition Equilibrium Without Trade Drawn by the possibility of making profits in the short-run equilibrium, new firms enter the industry and the firm's demand curve,  $d_0$ , shifts to the left and becomes more elastic (i.e., flatter), shown by  $d_1$ . The long-run equilibrium under monopolistic competition occurs at the quantity  $Q_1$  where the marginal revenue curve,  $mr_1$  (associated with demand curve  $d_1$ ), equals marginal cost. At that quantity, the no-trade price,  $P^A$ , equals average costs at point  $A$ . In the long-run equilibrium, firms earn zero monopoly profits and there is no entry or exit. The quantity produced by each firm is less than that in short-run equilibrium (Figure 6-4).  $Q_1$  is less than  $Q_0$  because new firms have entered the industry. With a greater number of firms and hence more varieties available to consumers, the demand for each variety  $d_1$  is less than  $d_0$ . The demand curve  $D / N^A$  shows the no-trade demand when all firms charge the same price.
 
-Before we allow for international trade, we need to introduce another curve into Figure 6-5. The firm's demand curve  $d_{1}$  shows the quantity demanded depending on the price charged by that firm, holding the price charged by all other firms fixed. In contrast, there is another demand curve that shows the quantity demanded from each firm when all firms in the industry charge the same price. This other demand curve is the total market demand  $D$  divided by the number of firms in the absence of trade  $N^{\mathcal{A}}$ . In Figure 6-5, we label the second demand curve as  $D / N^{\mathcal{A}}$ . We omit drawing total industry demand  $D$  itself so we do not clutter the diagram.
+Before we allow for international trade, we need to introduce another curve into Figure 6-5. The firm's demand curve $d_{1}$ shows the quantity demanded depending on the price charged by that firm, holding the price charged by all other firms fixed. In contrast, there is another demand curve that shows the quantity demanded from each firm when all firms in the industry charge the same price. This other demand curve is the total market demand $D$ divided by the number of firms in the absence of trade $N^{\mathcal{A}}$. In Figure 6-5, we label the second demand curve as $D / N^{\mathcal{A}}$. We omit drawing total industry demand $D$ itself so we do not clutter the diagram.
 
-The demand curve  $d_{1}$  is flatter, or more elastic, than the demand curve  $D / N^{\mathcal{A}}$ . We discussed why that is the case under duopoly (see Figure 6-2) and can review the reason again now. Starting at point  $A$ , consider a drop in the price by just one firm, which increases the quantity demanded along the  $d_{1}$  curve for that firm. The demand curve  $d_{1}$  is quite elastic, meaning that the drop in price leads to a large increase in the quantity purchased because customers are attracted away from other firms. If instead all firms drop their price by the same amount, along the curve  $D / N^{\mathcal{A}}$ , then each firm will not attract as many customers away from other firms. When all firms drop their prices equally, then the increase in quantity demanded from each firm along the curve  $D / N^{\mathcal{A}}$  is less than the increase along the firm's curve  $d_{1}$ . Thus, demand is less elastic along the demand curve  $D / N^{\mathcal{A}}$ , which is why it is steeper than the  $d_{1}$  curve. As we proceed with our analysis of opening trade under monopolistic competition, it will be helpful to keep track of both of these demand curves.
+The demand curve $d_{1}$ is flatter, or more elastic, than the demand curve $D / N^{\mathcal{A}}$. We discussed why that is the case under duopoly (see Figure 6-2) and can review the reason again now. Starting at point $A$, consider a drop in the price by just one firm, which increases the quantity demanded along the $d_{1}$ curve for that firm. The demand curve $d_{1}$ is quite elastic, meaning that the drop in price leads to a large increase in the quantity purchased because customers are attracted away from other firms. If instead all firms drop their price by the same amount, along the curve $D / N^{\mathcal{A}}$, then each firm will not attract as many customers away from other firms. When all firms drop their prices equally, then the increase in quantity demanded from each firm along the curve $D / N^{\mathcal{A}}$ is less than the increase along the firm's curve $d_{1}$. Thus, demand is less elastic along the demand curve $D / N^{\mathcal{A}}$, which is why it is steeper than the $d_{1}$ curve. As we proceed with our analysis of opening trade under monopolistic competition, it will be helpful to keep track of both of these demand curves.
 
 # Equilibrium with Free Trade
 
@@ -528,19 +513,15 @@ increasing returns to scale, p. 167 intra-industry trade, p. 168
 gravity equation, p. 168 free-trade agreements, p. 168
 
 
-duopoly,p.168 marginal revenue, p. 168
-
+duopoly, p. 168 marginal revenue, p. 168
 
 marginal cost, p. 169 monopoly profit, p. 172
 
-
 Trade Adjustment Assistance (TAA), p. 186 index of intra-industry trade, p. 188
 
+border effects, p. 193 tariffs, p. 193
 
-border effects, p. 193 tariffs,p.193
-
-
-quotas,p.193
+quotas, p. 193
 
 # PROBLEMS
 
@@ -550,14 +531,14 @@ quotas,p.193
 3. Starting from the long-run equilibrium without trade in the monopolistic competition model, as illustrated in Figure 6-5, consider what happens when the Home country begins trading with two other identical countries. Because the countries are all the same, the number of consumers in the world is three times larger than in a single country, and the number of firms in the world is three times larger than in a single country.
 
 
-a. Compared with the no-trade equilibrium, how much does industry demand  $D$  increase? How much does the number of firms (or product varieties) increase? Does the demand curve  $D / \mathcal{N}^A$  still apply after the opening of trade? Explain why or why not.
-b. Does the  $d_{1}$  curve shift or pivot due to the opening of trade? Explain why or why not.
-c. Compare your answer to (b) with the case in which Home trades with only one other identical country. Specifically, compare the elasticity of the demand curve  $d_{1}$  in the two cases.
+a. Compared with the no-trade equilibrium, how much does industry demand $D$ increase? How much does the number of firms (or product varieties) increase? Does the demand curve $D / \mathcal{N}^A$ still apply after the opening of trade? Explain why or why not.
+b. Does the $d_{1}$ curve shift or pivot due to the opening of trade? Explain why or why not.
+c. Compare your answer to (b) with the case in which Home trades with only one other identical country. Specifically, compare the elasticity of the demand curve $d_{1}$ in the two cases.
 d. Illustrate the long-run equilibrium with trade, and compare it with the long-run equilibrium when Home trades with only one other identical country.
 
 4. Starting from the long-run trade equilibrium in the monopolistic competition model, as illustrated in Figure 6-7, consider what happens when industry demand  $D$  increases. For instance, suppose that this is the market for cars, and lower gasoline prices generate higher demand  $D$ .
 
-a. Redraw Figure 6-7 for the Home market and show the shift in the  $D / N^T$  curve and the new short-run equilibrium.
+a. Redraw Figure 6-7 for the Home market and show the shift in the $D / N^T$ curve and the new short-run equilibrium.
 b. From the new short-run equilibrium, is there exit or entry of firms, and why?
 c. Describe where the new long-run equilibrium occurs, and explain what has happened to the number of firms and the prices they charge.
 
@@ -569,7 +550,7 @@ c. Describe where the new long-run equilibrium occurs, and explain what has happ
 
 The gravity equation relationship does not hold in the Heckscher-Ohlin model. Explain how the logic of the gravity equation breaks down in the Heckscher-Ohlin model; that is, which of the statements just listed is no longer true in the Heckscher-Ohlin model?
 
-6. The United States, France, and Italy are among the world's largest producers. To answer the following questions, assume that their markets are monopolistically competitive, and use the gravity equation with  $B = 93$  and  $n = 1.25$ .
+6. The United States, France, and Italy are among the world's largest producers. To answer the following questions, assume that their markets are monopolistically competitive, and use the gravity equation with $B = 93$ and $n = 1.25$.
 
 <table><tr><td></td><td>GDP in 2012 ($ billions)</td><td>Distance from the United States (miles)</td></tr><tr><td>France</td><td>2,776</td><td>5,544</td></tr><tr><td>Italy</td><td>2,196</td><td>6,229</td></tr><tr><td>United States</td><td>14,991</td><td>—</td></tr></table> a. Using the gravity equation, compare the expected level of trade between the United States and France and between the United States and Italy.
 
@@ -583,7 +564,7 @@ b. The distance between Paris and Rome is 694 miles. Would you expect more Frenc
 
 b. Notice that the fraction of workers finding a job each year (column 2) has the formula
 
-Fraction finding job  $= \frac{1}{3} \cdot \left(\frac{2}{3}\right)^{\text{Year-1}}$
+Fraction finding job $= \frac{1}{3} \cdot \left(\frac{2}{3}\right)^{\text{Year-1}}$
 
 Using this formula, fill in six more values for the fraction of workers finding a job (column 2), up to year 10.
 

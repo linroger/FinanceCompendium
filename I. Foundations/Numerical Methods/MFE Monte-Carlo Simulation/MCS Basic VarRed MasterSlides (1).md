@@ -1,31 +1,28 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'IEOR E4703: Monte-Carlo Simulation'
-linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+title: IEOR E4703 Monte Carlo Simulation
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 10:59:31 PM
+formatter_model: claude-opus-4.1
+cli-tool: claude-code
 primary_tags:
-- conditional monte carlo algorithm
-- other variance reduction methods
-- simulation variates efficiency
+  - monte carlo simulation
+  - variance reduction techniques
+  - simulation efficiency
 secondary_tags:
-- outline simulation variates efficiency
-- standard simulation algorithm
-- control variate simulation algorithm
-- following antithetic variate simulation algorithm
-- good simulation algorithm
-- usual simulation algorithm
-tags_extracted: '2025-12-18T17:59:17.124315'
-tags_method: max_quality_v1
+  - control variates
+  - antithetic variates
+  - conditional monte carlo
+  - asian option pricing
+  - barrier option pricing
+  - portfolio credit risk
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
 
-# Simulation Efficiency and an Introduction to Variance Reduction Methods
+## Simulation Efficiency and an Introduction to Variance Reduction Methods
 
-# Martin Haugh
+## Martin Haugh
 
 Department of Industrial Engineering and Operations Research
 
@@ -33,7 +30,7 @@ Columbia University
 
 Email: martin.b.haugh@gmail.com
 
-# Outline
+## Outline
 
 Simulation Efficiency
 
@@ -47,7 +44,7 @@ Non-Uniform Antithetic Variates
 
 Conditional Monte Carlo
 
-# Simulation Efficiency
+## Simulation Efficiency
 
 As usual we wish to estimate  $\theta \coloneqq \mathbb{E}[h(\mathbf{X})]$ . Standard simulation algorithm is:
 
@@ -69,7 +66,7 @@ Would like  $HW$  to be small but sometimes this is difficult to achieve.
 
 So often imperative to address the issue of simulation efficiency. There are a number of things we can do:
 
-# Simulation Efficiency
+## Simulation Efficiency
 
 1. Develop a good simulation algorithm.  
 2. Program carefully to minimize storage requirements.
@@ -83,7 +80,7 @@ Will now study some of the simplest variance reduction techniques, and assume we
 
 But first we should first discuss a measure of simulation efficiency.
 
-# Measuring Simulation Efficiency
+### Measuring Simulation Efficiency
 
 Suppose there are two r.vars,  $W$  and  $Y$ , such that  $\mathbb{E}[W] = \mathbb{E}[Y] = \theta$ .
 
@@ -94,17 +91,21 @@ Question: Which method is more efficient,  $M_w$  or  $M_y$ ?
 To answer this, let  $n_w$  and  $n_y$  be the number of samples of  $W$  and  $Y$ , respectively, that are needed to achieve a half-width,  $HW$ . Then
 
 $$
+n_{w} = \left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \operatorname{Va r} (W)
+$$
+
+$$
 \begin{array}{l} n_{w} = \left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \operatorname{Va r} (W) \\ {n_{y}} = {\left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \mathsf {V a r} (Y).} \\ \end{array}
 $$
 
 Let  $E_w$  and  $E_y$  denote the amount of computational effort required to produce one sample of  $W$  and  $Y$ , respectively.
 
-# Measuring Simulation Efficiency
+### Measuring Simulation Efficiency
 
 Then the total effort expended by  $M_w$  and  $M_y$ , respectively, to achieve  $HW$  are
 
 $$
-\begin{array}{l} T E_{w} = \left(\frac{z_{1 - \alpha / 2}}{H W}\right)^{2} \mathsf {V a r} (W) E_{w} \\ { T E_{ y } } { = } { \left( \frac{ z_{ 1 - \alpha / 2 } } { H W } \right)^{ 2 } \mathsf { V a r } ( Y ) ~ E_{ y } . } \\ \end{array}
+\begin{array}{l} TE_{w} = \left(\frac{z_{1 - \alpha / 2}}{HW}\right)^{2} \operatorname{Var}(W) E_{w} \\ TE_{y} = \left(\frac{z_{1 - \alpha / 2}}{HW}\right)^{2} \operatorname{Var}(Y) E_{y}. \end{array}
 $$
 
 Say  $M_w$  is more efficient than  $M_y$  if  $TE_w < TE_y$ . This occurs if and only if
@@ -121,7 +122,7 @@ But often the case that  $E_w \approx E_y$  and  $\operatorname{Var}(W) < \opera
 
 In such cases it is clear that using  $M_w$  provides a substantial improvement over using  $M_y$ .
 
-# Control variates
+## Control Variates
 
 We wish to estimate  $\theta \coloneqq \mathbb{E}[Y]$  where  $Y = h(\mathbf{X})$  is the output of a simulation experiment.
 
@@ -146,7 +147,7 @@ $$
 c^{*} = - \frac{\operatorname{Co v} (Y , Z)}{\operatorname{Va r} (Z)}.
 $$
 
-# Control variates
+### Control Variates
 
 Minimized variance satisfies
 
@@ -170,7 +171,7 @@ $$
 \widehat {\operatorname{Co v}} (Y, Z) = \frac{\sum_{j = 1}^{p} \left(Y_{j} - \overline {{Y}}_{p}\right) \left(Z_{j} - \mathbb {E} [ Z ]\right)}{p - 1}.
 $$
 
-# Control variates
+### Control Variates
 
 If it is also the case that  $\operatorname{Var}(Z)$  is unknown, then can also estimate it with
 
@@ -191,13 +192,13 @@ Our control variate simulation algorithm is as follows:
 for  $i = 1$  to  $p$
 
 $$
-\text{ge ne ra te} \left(Y_{i}, Z_{i}\right)
+\text{generate} \left(Y_{i}, Z_{i}\right)
 $$
 
 end for
 
 $$
-\text{co mp ut e} \hat {c}^{*}
+\text{compute} \hat{c}^{*}
 $$
 
 /\* Now do main simulation \*/
@@ -207,7 +208,7 @@ for  $i = 1$  to  $n$
 generate  $(Y_{i},Z_{i})$
 
 $$
-\operatorname{se t} V_{i} = Y_{i} + \hat {c}^{*} (Z_{i} - \mathbb {E} [ Z ])
+\text{set} V_{i} = Y_{i} + \hat{c}^{*} (Z_{i} - \mathbb{E}[Z])
 $$
 
 end for
@@ -222,7 +223,7 @@ $$
 \mathsf {C I} = \left[ \hat {\theta}_{\hat {c}^{*}} - z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n , v}}{\sqrt{n}}, \hat {\theta}_{\hat {c}^{*}} + z_{1 - \alpha / 2} \frac{\hat {\sigma}_{n , v}}{\sqrt{n}} \right]
 $$
 
-# e.g. Pricing an Asian Call Option
+## e.g. Pricing an Asian Call Option
 
 Payoff of an Asian call option given by
 
@@ -246,7 +247,7 @@ $$
 \hat {C}_{a} = \frac{\sum_{i = 1}^{n} Y_{i}}{n}.
 $$
 
-# e.g. Pricing an Asian Call Option
+## e.g. Pricing an Asian Call Option
 
 But could also estimate  $C_a$  using control variates and there are many possible choices:
 
@@ -268,7 +269,7 @@ $$
 
 as a control variate. Do you think it would result in a substantial variance reduction?
 
-# e.g. The Barbershop
+## e.g. The Barbershop
 
 A barbershop opens for business every day at 9am and closes at 6pm.
 
@@ -288,7 +289,7 @@ $$
 Y := \sum_{j = 1}^{N (T)} W_{j}.
 $$
 
-# e.g. The Barbershop
+## e.g. The Barbershop
 
 Assume the service times of customers are IID with CDF,  $F(.)$ , and that they are also independent of the arrival process,  $N(t)$ .
 
@@ -314,7 +315,7 @@ $$
 
 Intuition suggests that  $Z$  would be a good candidate to use as a control variate.
 
-# Multiple Control variates
+## Multiple Control Variates
 
 No reason why we should not use more than one control variate.
 
@@ -336,7 +337,7 @@ $$
 
 Can easily minimize  $\mathsf{Var}(\hat{\theta}_c)$  w.r.t the  $c_{i}$ 's.
 
-# Multiple Control variates
+## Multiple Control variates
 
 As before, however, optimal solutions  $c_{i}^{*}$  will involve unknown covariances (and possibly variances of the  $Z_{i}$ 's) that will need to be estimated using a pilot simulation.
 
@@ -354,7 +355,7 @@ $$
 
 The simulation algorithm with multiple control variates is exactly analogous to the simulation algorithm with just a single control variate.
 
-# Antithetic Variates
+## Antithetic Variates
 
 As usual would like to estimate  $\theta = \mathbb{E}[h(\mathbf{X})] = \mathbb{E}[Y]$ .
 
@@ -378,7 +379,7 @@ However, we could reduce  $\mathsf{Var}(\hat{\theta})$  if we could arrange it s
 
 We will begin with the case where  $Y$  is a function of IID  $U(0,1)$  random variables so that  $\theta = \mathbb{E}[h(\mathbf{U})]$  where  $\mathbf{U} = (U_1,\dots ,U_m)$  and the  $U_{i}$ 's are IID  $\sim U(0,1)$ .
 
-# Usual Simulation Algorithm for Estimating  $\theta$  (with  $2n$  Samples)
+### Usual Simulation Algorithm for Estimating  $\theta$  (with  $2n$  Samples)
 
 for  $i = 1$  to  $2n$
 
@@ -394,7 +395,7 @@ set  $\hat{\sigma}_{2n}^{2} = \sum_{i=1}^{2n}(Y_{i} - \overline{Y}_{2n})^{2} / (
 
 set approx.  $100(1 - \alpha)\%$  CI =  $\hat{\theta}_{2n}\pm z_{1 - \alpha /2}\frac{\hat{\sigma}_{2n}}{\sqrt{2n}}$
 
-# Antithetic Variates
+### Antithetic Variates
 
 In above algorithm, however, could also have used the  $1 - U_{i}$ 's to generate sample  $Y$  values.
 

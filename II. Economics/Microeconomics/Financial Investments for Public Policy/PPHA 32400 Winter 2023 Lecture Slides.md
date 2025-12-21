@@ -1,66 +1,82 @@
 ---
-parent_directory:
-title: Three Cases
-tags:
-aliases:
-parent_folder: Microeconomics for Public Policy II
-subfolder:
-key_concepts:
+title: PPHA 32400 Winter 2023 Lecture Slides
+parent_directory: II. Economics/Microeconomics/Financial Investments for Public Policy
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - oligopoly entry deterrence
+  - nash equilibrium concepts
+  - market collusion cartels
+  - intertemporal choice theory
+  - uncertainty risk insurance
+secondary_tags:
+  - limit pricing strategies
+  - subgame perfect equilibrium
+  - airline market competition
+  - antitrust law enforcement
+  - present discounted value
+  - bond valuation pricing
+  - portfolio diversification
+  - efficient market hypothesis
+  - banking maturity transformation
+  - risk aversion preferences
 cssclasses: academia
-linter-yaml-title-alias: Three Cases
 ---
 
-# Three Cases
+# PPHA 32400 Winter 2023 Lecture Slides
+
+## Three Cases
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/723c7cb907a48cb38d402136eec054a000a70d9ce74b6d30d894e581206fa828.jpg)
 
-$F > 4$  
-□ no entry,  $b > 0$  is not paid  
-$F \leq 4, b \leq 6$  
-□ no entry,  $b$  is paid  
-$F \leq 4, b > 6$  
-□ entry,  $b$  is not paid
+$F > 4$
+- no entry, $b > 0$ is not paid
+$F \leq 4, b \leq 6$
+- no entry, $b$ is paid
+$F \leq 4, b > 6$
+- entry, $b$ is not paid
 
-# Limit Pricing
+## Limit Pricing
 
 - Limit Pricing - a firm sets its price (or its output) so that another firm cannot enter the market profitably  
 Example: the incumbent could set a price below the potential rival's marginal cost so entry would be unprofitable.  
 Limit pricing is one of many strategies of entry deterrence.
 
-# Limit Pricing through Quantity
+#### Limit Pricing through Quantity
 
 First stage: incumbent builds a production plant
 
-□ Inflexible technology: plant produces either 0 or a large quantity  
-□ Flexible technology: plant produces 0, or a small, or a large quantity
+- Inflexible technology: plant produces either 0 or a large quantity
+- Flexible technology: plant produces 0, or a small, or a large quantity
 
-Second stage: a potential rival decides whether to enter or not  
-□ If the incumbent has chosen inflexible technology, the market will be flooded with incumbent's output  
-What if the incumbent has chosen the flexible technology instead?  
+Second stage: a potential rival decides whether to enter or not
+- If the incumbent has chosen inflexible technology, the market will be flooded with incumbent's output
+What if the incumbent has chosen the flexible technology instead?
 What strategy (technology) maximizes the incumbent's profit?
 
-# Entry Deterrence
+### Entry Deterrence
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/2caee07d4de256ee8c6ecd853f28b92f87d4d71b37ed82516db18cb206e1050f.jpg)
 
-# PPHA 32400 (Winter 2023)
+## PPHA 32400 (Winter 2023)
 
-# Lecture 8: Nash Equilibrium v. SPNE
+## Lecture 8: Nash Equilibrium v. SPNE
 
-# Definitions
+### Definitions
 
 - Nash Equilibrium (NE) is a strategy profile in which each player's strategy is a best response to the other players' strategies. In this case, no player has a unilateral incentive to change behavior.  
 - Subgame Perfect Nash Equilibrium (SPNE) is a Nash Equilibrium solved by backward induction. SPNE is also a Nash Equilibrium in every subgame. In light of that, SPNE has a stricter definition than NE. That is, all SPNE must be NE, but not all NE are SPNE.
 
-# Example from Lecture 8, slide 18
+### Example from Lecture 8, slide 18
 
 Let's see an example which illustrates the difference between SPNE and NE (Lecture 8, slide 18):
 
-# Other Nash Equilibria: SPNE?
+#### Other Nash Equilibria: SPNE?
 
 ${NE} : \left( {L,{MHM}}\right)$
 
-but it's not subgame Profits perfect!
+but it's not subgame perfect!
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/5dc04a94cc08b1ebb5bfaa01c2106df2967e6201fa9c8d590a04070e0bfe71c6.jpg)  
 Figure 1: Lecture 8, slide 18
@@ -484,18 +500,18 @@ If the firms collude, they will produce the monopoly output.
 Equate marginal revenue and marginal cost:  $MR = 20 - 2Q = MC = 4$ .
 
 $$
-\Rightarrow Q = 8, P = 2 0 - 8 = 1 2
+\Rightarrow Q = 8, P = 20 - 8 = 12
 $$
 
 The price will be  \$12, and total profit will be\$ 64.
 
-□ Assuming firms split production, each will produce 4 units, and each firm will earn \$32 in profit.
+- Assuming firms split production, each will produce 4 units, and each firm will earn \$32 in profit.
 
 $$
-\pi = (p - M C) Q = (1 2 - 4) 8 = 6 4
+\pi = (p - MC) Q = (12 - 4) 8 = 64
 $$
 
-# A Simple Example, ctd.
+## A Simple Example, ctd.
 
 The problem is that each firm has an incentive to defect.
 
@@ -508,9 +524,9 @@ Firm B's profit decreases:  $\pi_{B} = (11 - 4) \times 4 = 28 < 32$
 
 This incentive to defect makes it difficult to maintain collusive agreements.
 
-# Long-term Collusion
+## Long-term Collusion
 
-# What Makes Collusion Easier?
+### What Makes Collusion Easier?
 
 When it easy to detect and punish cheaters.
 
@@ -522,7 +538,7 @@ Long time horizon makes defection more costly.
 
 Future monopoly profits are given more weight, which makes it easier to punish violators of the cartel agreement.
 
-# The Airlines Dilemma [Yet Again]
+### The Airlines Dilemma [Yet Again]
 
 United
 
@@ -530,21 +546,21 @@ American
 
 <table><tr><td></td><td>48,000</td><td>64,000</td></tr><tr><td>48,000</td><td>4.6, 4.6</td><td>3.8, 5.1</td></tr><tr><td>64,000</td><td>5.1, 3.8</td><td>4.1, 4.1</td></tr></table>
 
-# Repeated Game
+#### Repeated Game
 
 In each period, the airlines
 
-choose how much to fly;  
-□ receive profits.
+choose how much to fly;
+- receive profits.
 
-# Strategy and Equilibrium
+##### Strategy and Equilibrium
 
 A player's strategy in a repeated game describes what to do in any circumstances.  
 In Nash equilibrium, each player's strategy is a best-response to the other player's strategy.  
 In a Subgame-Perfect Nash Equilibrium, each player's strategy is not only a best-response to the other player's strategy, but this property is satisfied in every subgame.  
 NB: Unlike finite games, this game cannot be solved by backward induction as there is no last period.
 
-# Cooperation Strategies
+###### Cooperation Strategies
 
 "Grim Trigger"  
 
@@ -553,12 +569,12 @@ If you cooperate, I will cooperate;
 If you deviate today, I will deviate starting next period.  
 There are other cooperation strategies.
 
-# Discounting the Future
+####### Discounting the Future
 
 What is better for American
 
-□ 5.1,4.1,4.1,4.1,… or  
-□ 4.6, 4.6, 4.6, 4.6, …?
+- 5.1,4.1,4.1,4.1,… or
+- 4.6, 4.6, 4.6, 4.6, …?
 
 United
 
@@ -568,16 +584,16 @@ American
 
 The answer depends on the discount factor  $\delta$ :
 
-□ \$1 tomorrow is equivalent to $δ today.  
-□ since tomorrow money worth less,  $\delta < 1$ . (Time Value of Money)
+- \$1 tomorrow is equivalent to $δ today.
+- since tomorrow money worth less, $\delta < 1$. (Time Value of Money)
 
 $\delta$  large: patient; value future profits more
 
 δ small : impatient ; value future profits less
 
-# Calculating the Present Value
+######## Calculating the Present Value
 
-■ With discount factor  $\delta$ , we can calculate the present value of a stream of income:  
+■ With discount factor $\delta$, we can calculate the present value of a stream of income:  
 □ for example, if we receive \$1 from now, on the present value is
 
 $$

@@ -1,4 +1,26 @@
 
+---
+title: "Nonlinearity and Nonlinear Econometric Models in Finance"
+primary_tags:
+  - nonlinear econometric models
+  - financial time series analysis
+  - threshold autoregressive models
+secondary_tags:
+  - markov switching models
+  - bilinear models
+  - smooth transition models
+  - nonparametric regression methods
+  - neural networks
+  - nonlinearity tests
+  - volatility modeling
+  - time series forecasting
+cssclasses: academia
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Financial Econometrics"
+---
+
 # Nonlinearity and Nonlinear Econometric Models in Finance
 
 RUEY S. TSAY, PhD
@@ -19,7 +41,7 @@ $$ x_{t} = \mu + \sum_{i = 0}^{\infty} \psi_{i} a_{t - i} \tag {1}
 $$ where  $\mu$  is a constant,  $\psi_{i}$  are real numbers with  $\psi_0 = 1$ , and  $\{a_t\}$  is a sequence of independent and identically distributed (IID) random variables with a well-defined distribution function. We assume that the distribution of  $a_{t}$  is
 
 
-continuous and  $E(a_{t}) = 0$ . In many cases, we further assume that  $\mathrm{Var}(a_t) = \sigma_a^2$  or, even stronger, that  $a_{t}$  is Gaussian. If  $\sigma_{a}^{2}\sum_{i = 1}^{\infty}\psi_{i}^{2} < \infty$ , then  $X_{t}$  is weakly stationary (i.e., the first two moments of  $x_{t}$  are time-invariant). The well-known autoregressive moving-average (ARMA) process of Box et al. (2008) is linear because it has an moving-average (MA) representation in equation (1). Any stochastic process that does not satisfy the condition of equation (1) is said to be nonlinear. The prior definition of nonlinearity is for purely stochastic time series. One may extend the definition by allowing the mean of  $x_{t}$  to be a linear function of some exogenous variables, including the time index and some periodic functions. But such a mean function can be handled easily by using a regression model with time series errors discussed in Tsay (2010, Chapter 2), and we shall not consider the extension here. Mathematically, a purely stochastic time series model for  $x_{t}$  is a function of an IID sequence consisting of the current and past shocks—that is,
+continuous and $E(a_{t}) = 0$. In many cases, we further assume that $\mathrm{Var}(a_t) = \sigma_a^2$ or, even stronger, that $a_{t}$ is Gaussian. If $\sigma_{a}^{2}\sum_{i = 1}^{\infty}\psi_{i}^{2} < \infty$, then $X_{t}$ is weakly stationary (i.e., the first two moments of $x_{t}$ are time-invariant). The well-known autoregressive moving-average (ARMA) process of Box et al. (2008) is linear because it has an moving-average (MA) representation in equation (1). Any stochastic process that does not satisfy the condition of equation (1) is said to be nonlinear. The prior definition of nonlinearity is for purely stochastic time series. One may extend the definition by allowing the mean of $x_{t}$ to be a linear function of some exogenous variables, including the time index and some periodic functions. But such a mean function can be handled easily by using a regression model with time series errors discussed in Tsay (2010, Chapter 2), and we shall not consider the extension here. Mathematically, a purely stochastic time series model for $x_{t}$ is a function of an IID sequence consisting of the current and past shocks—that is,
 
 $$ x_{t} = f \left(a_{t}, a_{t - i}, \dots\right) \tag {2}
 $$
@@ -46,11 +68,11 @@ Many nonlinear time series models have been proposed in the statistical literatu
 
 Apart from the development of various nonlinear models, there is substantial interest in studying test statistics that can discriminate linear series from nonlinear ones. Both parametric and nonparametric tests are available. Most parametric tests employ either the Lagrange multiplier or likelihood ratio statistics. Nonparametric tests depend on either higher order spectra of  $x_{t}$  or the concept of dimension correlation developed for chaotic time series. We review some nonlinearity tests, discuss modeling and forecasting of nonlinear models, and provide an application of nonlinear models.
 
-# NONLINEAR MODELS
+## NONLINEAR MODELS
 
 Most nonlinear models developed in the statistical literature focus on the conditional mean equation in equation (3); see Priestley (1988) and Tong (1990) for summaries of nonlinear models. Our goal here is to introduce some nonlinear models that are useful in finance.
 
-# Bilinear Model
+### Bilinear Model
 
 The linear model in equation (1) is simply the first-order Taylor series expansion of the  $f(.)$  function in equation (2). As such, a natural extension to nonlinearity is to employ the second-order terms in the expansion to improve the approximation. This is the basic idea of bilinear models, which can be defined as
 

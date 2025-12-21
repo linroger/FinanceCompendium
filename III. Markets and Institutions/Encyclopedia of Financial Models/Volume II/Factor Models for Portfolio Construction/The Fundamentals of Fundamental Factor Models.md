@@ -54,6 +54,40 @@ Similarly, the goal of a fundamental factor model is to identify traits that are
 
 The first task when building a fundamental factor model is to identify microeconomic traits. These include characteristics from industry membership and financial ratios to technical indicators like price momentum and recent volatility that explain return variation across a relevant security universe. The next step is to determine the impact certain events may have on individual stocks, such as the sensitivity or weight of an individual security to a change in a given fundamental factor. Finally, the remaining part of the returns needs to be modeled, which is the company-specific behavior of stocks.
 
+```d2
+direction: right
+
+Fundamental Factors: Fundamental Factors {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+
+  Industry: Industry Membership
+  Size: Company Size
+  Value: Book-to-Market Ratio
+  Growth: Earnings Growth
+  Leverage: Debt-to-Equity
+  Volatility: Price Volatility
+}
+
+Stock Returns: Stock Returns {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Company Specific: Company-Specific Returns {
+  shape: circle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+Fundamental Factors -> Stock Returns: Factor Exposures × Factor Returns
+Company Specific -> Stock Returns: Unique firm effects
+
+note: Total stock return = Factor contributions + Company-specific return
+```
+
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/cfb463a1-2282-4dad-842c-22b6b264a8a9/542d882330b1c9cb7e42f695e860a82db14c2ef405c1babc24ecb363ed71b9a0.jpg)
 Figure 1 Industry Membership Drives Similarities between Stocks
 
@@ -199,7 +233,7 @@ Styles can contribute significantly to a manager's performance. In our example, 
 
 In summary, portfolio performance can be strongly impacted by unintended bets. The manager may be taking major risks without adequate compensation. The factor model helps uncover these issues.
 
-# KEY POINTS
+## KEY POINTS
 
 - Fundamental analysis is the process of determining a security's future value by analyzing a combination of macro- and microeconomic events and company-specific characteristics.
 - Though fundamental analysis focuses on the valuation of individual companies, most institutional investors recognize that there are common factors affecting all stocks. Common factors are shared characteristics between firms that affect their returns.
@@ -213,7 +247,7 @@ In summary, portfolio performance can be strongly impacted by unintended bets. T
 - Managers can use the model to analyze past performance, attributing realized portfolio return to its various sources. Portfolio performance can be strongly impacted by unintended bets. The manager may be taking major risks without adequate compensation. The factor model helps uncover these issues.
 - The distribution of exposures may be important. For example, a portfolio of companies with a leverage exposure of zero has a very different economic profile than a portfolio with a barbell distribution where half the companies are leveraged and potentially vulnerable to a collapse in credit conditions.
 
-# NOTES
+## NOTES
 
 1. In the Barra U.S. equity model, for example, we allow companies to be split up into five different industries, depending on their business structure.
 2. All existing Barra models focus on a particular market, using an equity universe that includes all sectors and large to mid-caps with some small-caps.
@@ -223,7 +257,7 @@ In summary, portfolio performance can be strongly impacted by unintended bets. T
 5. Specifically, the effects of other factors as well as specific returns remain the same, and the risk-free rate is unchanged.
 6. Details of the model construction are available in The Barra Risk Model Handbook or Barra U.S. Equity Model Handbook.
 
-# REFERENCES
+## REFERENCES
 
 Carhart, M.M. (1997). On persistence in mutual fund performance. Journal of Finance 52, 1: 57-82.
 Fama, E. F., and French, K. R. (1992). The cross-section of expected stock returns. Journal of Finance 47, 2: 427-465.

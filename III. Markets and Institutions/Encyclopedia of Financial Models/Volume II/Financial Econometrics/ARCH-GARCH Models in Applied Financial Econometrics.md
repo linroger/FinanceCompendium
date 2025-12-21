@@ -1,11 +1,39 @@
 
+---
+title: "ARCH/GARCH Models in Applied Financial Econometrics"
+parent_directory: "Encyclopedia of Financial Models/Volume II/Financial Econometrics"
+formatted: "2025-12-21 11:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - "arch garch models"
+  - "volatility modeling"
+  - "financial econometrics"
+  - "conditional heteroskedasticity"
+secondary_tags:
+  - "time series analysis"
+  - "risk management"
+  - "value at risk"
+  - "multivariate garch"
+  - "high frequency data"
+  - "stochastic volatility"
+  - "autoregressive models"
+  - "heteroskedasticity"
+  - "market volatility"
+  - "econometric modeling"
+  - "asset pricing"
+  - "portfolio management"
+  - "return forecasting"
+cssclasses: academia
+---
+
 # ARCH/GARCH Models in Applied Financial Econometrics
 
 ROBERT F. ENGLE, PhD
 
 Michael Armellino Professorship in the Management of Financial Services and Director of the Volatility Institute, Leonard N. Stern School of Business, New York University
 
-SERGIO M. FOCARDL, PhD
+SERGIO M. FOCARDI, PhD
 
 Partner, The Intertek Group
 
@@ -26,11 +54,14 @@ In this entry, we show how the average error size can be modeled as an autoregre
 Let's first discuss two examples of basic econometric models, the linear regression model and the autoregressive model, and illustrate the meaning of homoskedasticity or heteroskedasticity in each case.
 
 The linear regression model is the workhorse of economic modeling. A univariate linear regression represents a proportionality relationship between two variables:
-The preceding linear regression model states that the expectation of the variable  $y$  is  $\beta$  times the expectation of the variable  $x$  plus a constant  $\alpha$ . The proportionality relationship between  $y$  and  $x$  is not exact but subject to an error  $\varepsilon$ .
 
-In standard regression theory, the error  $\varepsilon$  is assumed to have a zero mean and a constant standard deviation  $\sigma$ . The standard deviation is the square root of the variance, which is the expectation of the squared error:  $\sigma^2 = E(\varepsilon^2)$ . It is a positive number that measures the size of the error. We call homoskedasticity the assumption that the expected size of the error is constant and does not depend on the size of the variable  $x$ . We call heteroskedasticity the assumption that the expected size of the error term is not constant.
+$$ y = \alpha + \beta x + \varepsilon $$
 
-The assumption of homoskedasticity is convenient from a mathematical point of view and is standard in regression theory. However, it is an assumption that must be verified empirically. In many cases, especially if the range of variables is large, the assumption of homo skedasticity might be unreasonable. For example, assuming a linear relationship between consumption and household income, we can expect that the size of the error depends on the size of household income. In fact, high-income households have more freedom in the allocation of their income.
+The preceding linear regression model states that the expectation of the variable $y$ is $\beta$ times the expectation of the variable $x$ plus a constant $\alpha$. The proportionality relationship between $y$ and $x$ is not exact but subject to an error $\varepsilon$.
+
+In standard regression theory, the error $\varepsilon$ is assumed to have a zero mean and a constant standard deviation $\sigma$. The standard deviation is the square root of the variance, which is the expectation of the squared error: $\sigma^2 = E(\varepsilon^2)$. It is a positive number that measures the size of the error. We call homoskedasticity the assumption that the expected size of the error is constant and does not depend on the size of the variable $x$. We call heteroskedasticity the assumption that the expected size of the error term is not constant.
+
+The assumption of homoskedasticity is convenient from a mathematical point of view and is standard in regression theory. However, it is an assumption that must be verified empirically. In many cases, especially if the range of variables is large, the assumption of homoskedasticity might be unreasonable. For example, assuming a linear relationship between consumption and household income, we can expect that the size of the error depends on the size of household income. In fact, high-income households have more freedom in the allocation of their income.
 
 
 In the preceding household-income example, the linear regression represents a cross-sectional model without any time dimension. However, in finance and economics in general, we deal primarily with time series, that is, sequences of observations at different moments of time. Let's call  $X_{t}$  the value of an economic time series at time  $t$ . Since the groundbreaking work of Haavelmo (1944), economic time series are considered to be realizations of stochastic processes. That is, each point of an economic time series is considered to be an observation of a random variable.
@@ -84,11 +115,9 @@ ARCH/GARCH effects are important because they are very general. It has been foun
 
 # ARCH/GARCH MODELS
 
-In this section, we discuss univariate ARCH and GARCH models. Because in this entry we focus on financial applications, we will use finan cial notation. Let the dependent variable, which might be the return on an asset or a portfolio, be labeled  $r_t$ . The mean value  $m$  and the variance  $h$  will be defined relative to a past information set. Then the return  $r$  in the present will be equal to the conditional mean value of  $r$  (that is, the expected value of  $r$  based on past information) plus the conditional standard deviation of  $r$  (that is, the square root of the variance) times the error term for the present period:
+In this section, we discuss univariate ARCH and GARCH models. Because in this entry we focus on financial applications, we will use financial notation. Let the dependent variable, which might be the return on an asset or a portfolio, be labeled $r_t$. The mean value $m$ and the variance $h$ will be defined relative to a past information set. Then the return $r$ in the present will be equal to the conditional mean value of $r$ (that is, the expected value of $r$ based on past information) plus the conditional standard deviation of $r$ (that is, the square root of the variance) times the error term for the present period:
 
-
-$$ r_{t} = m_{t} + \sqrt{h_{t}} z_{t}
-$$
+$$ r_{t} = m_{t} + \sqrt{h_{t}} z_{t} $$
 
 The econometric challenge is to specify how the information is used to forecast the mean and variance of the return conditional on the past information. While many specifications have been considered for the mean return and used in efforts to forecast future returns, rather simple specifications have proven surprisingly successful in predicting conditional variances.
 
@@ -105,18 +134,15 @@ The idea behind the use of a rolling window is that the variance changes slowly 
 
 In the ARCH model proposed by Engle (1982), these weights are parameters to be estimated. Engle's ARCH model thereby allows the data to determine the best weights to use in forecasting the variance. In the original formulation of the ARCH model, the variance is forecasted as a moving average of past error terms:
 
-$$ h_{t} = \omega + \sum_{i = 1}^{p} \alpha_{i} \varepsilon_{t - i}^{2}
-$$ where the coefficients  $\alpha_{i}$  must be estimated from empirical data. The errors themselves will have the form
+$$ h_{t} = \omega + \sum_{i = 1}^{p} \alpha_{i} \varepsilon_{t - i}^{2} $$
 
+where the coefficients $\alpha_{i}$ must be estimated from empirical data. The errors themselves will have the form:
 
-$$
-\varepsilon_{t} = \sqrt{h_{t}} z_{t}
-$$ where the  $z$  terms are independent, standard normal variables (that is, zero-mean, unit-variance, normal variables). In order to ensure that the variance is nonnegative, the constants  $(\omega ,\alpha_{i})$  must be nonnegative. If  $\sum_{i = 1}^{p}\alpha_{i} < 1$ , the ARCH process is weakly stationary with constant unconditional variance:
+$$ \varepsilon_{t} = \sqrt{h_{t}} z_{t} $$
 
+where the $z$ terms are independent, standard normal variables (that is, zero-mean, unit-variance, normal variables). In order to ensure that the variance is nonnegative, the constants $(\omega, \alpha_{i})$ must be nonnegative. If $\sum_{i = 1}^{p} \alpha_{i} < 1$, the ARCH process is weakly stationary with constant unconditional variance:
 
-$$
-\sigma^{2} = \frac{\omega}{1 - \sum_{i = 1}^{p} \alpha_{i}}
-$$
+$$ \sigma^{2} = \frac{\omega}{1 - \sum_{i = 1}^{p} \alpha_{i}} $$
 
 Two remarks should be made. First, ARCH is a forecasting model insofar as it forecasts the error variance at time  $t$  on the basis of information known at time  $t - 1$ . Second, forecasting is conditionally deterministic, that is, the ARCH model does not leave any uncertainty on the expectation of the squared error at time  $t$  knowing past errors. This must always be true of a forecast, but, of course, the squared error that occurs can deviate widely from this forecast value.
 
@@ -125,12 +151,11 @@ A useful generalization of this model is the GARCH parameterization introduced b
 The most widely used GARCH specification asserts that the best predictor of the variance in the next period is a weighted average of the long-run average variance, the variance predicted for this period, and the new information in this period that is captured by the most recent squared residual. Such an updating rule is a simple description of adaptive or learning behavior and can be thought of as Bayesian updating. Consider the trader who knows that the long-run average daily standard deviation of the Standard and Poor's 500 is  $1\%$ , that the forecast he made yesterday was  $2\%$ , and the unexpected return observed today is  $3\%$ . Obviously, this is a high-volatility period, and today is especially volatile, suggesting that the volatility forecast for tomorrow could be even higher. However, the fact that the long-term average is only  $1\%$  might lead the forecaster to lower his forecast. The best strategy depends on the dependence between days. If these three numbers are each squared and weighted equally, then the new forecast would be  $2.16 = \sqrt{(1 + 4 + 9) / 3}$ . However, rather than weighting these equally, for daily data it is generally found that weights such as those in the empirical example of (0.02, 0.9, 0.08) are much more accurate. Hence, the forecast is  $2.08 = \sqrt{0.02 \times 1 + 0.9 \times 4 + 0.08 \times 9}$ . To be precise, we can use  $h_t$  to define the variance of the residuals of a regression  $r_t = m_t + \sqrt{h_t} \varepsilon_t$ . In this definition, the variance of  $\varepsilon_t$  is one. Therefore, a GARCH(1,1) model for variance looks like this:
 
 
-$$ h_{t + 1} = \omega + \alpha (r_{t} - m_{t})^{2} + \beta h_{t} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \beta h_{t}
-$$
+$$ h_{t + 1} = \omega + \alpha (r_{t} - m_{t})^{2} + \beta h_{t} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \beta h_{t} $$
 
-This model forecasts the variance of date  $t$  return as a weighted average of a constant, yesterday's forecast, and yesterday's squared error. If we apply the previous formula recursively, we obtain an infinite weighted moving average. Note that the weighting coefficients are different from those of a standard exponentially weighted moving average (EWMA). The econometrician must estimate the constants  $\omega, \alpha, \beta$ ; updating simply requires knowing the previous forecast  $h$  and the residual.
+This model forecasts the variance of date $t$ return as a weighted average of a constant, yesterday's forecast, and yesterday's squared error. If we apply the previous formula recursively, we obtain an infinite weighted moving average. Note that the weighting coefficients are different from those of a standard exponentially weighted moving average (EWMA). The econometrician must estimate the constants $\omega, \alpha, \beta$; updating simply requires knowing the previous forecast $h$ and the residual.
 
-The weights are  $(1 - \alpha -\beta ,\beta ,\alpha)$  and the long-run average variance is  $\sqrt{\omega / (1 - \alpha - \beta)}$  .It should be noted that this works only if  $\alpha +\beta < 1$  and it really makes sense only if the weights are positive, requiring  $\alpha >0,\beta >0,\omega >0$  .In fact, the GARCH(1,1) process is weakly stationary if  $\alpha +\beta < 1$  .If  $E[\log (\beta +\alpha z^2)] <   0$  ,the process is strictly stationary. The GARCH model with  $\alpha +\beta = 1$  is called an integrated GARCH or IGARCH. It is a strictly stationary process with infinite variance.
+The weights are $(1 - \alpha - \beta, \beta, \alpha)$ and the long-run average variance is $\sqrt{\omega / (1 - \alpha - \beta)}$. It should be noted that this works only if $\alpha + \beta < 1$ and it really makes sense only if the weights are positive, requiring $\alpha > 0, \beta > 0, \omega > 0$. In fact, the GARCH(1,1) process is weakly stationary if $\alpha + \beta < 1$. If $E[\log(\beta + \alpha z^2)] < 0$, the process is strictly stationary. The GARCH model with $\alpha + \beta = 1$ is called an integrated GARCH or IGARCH. It is a strictly stationary process with infinite variance.
 
 The GARCH model described above and typically referred to as the GARCH(1,1) model derives its name from the fact that the 1,1 in parentheses is a standard notation in which the first number refers to the number of autoregressive lags (or ARCH terms) that appear in the equation and the second number refers to the number of moving average lags specified (often called the number of GARCH terms). Models with more than one lag are sometimes needed to find good variance forecasts. Although this model is directly set up to forecast for just one period, it turns out that, based on the one-period forecast, a two-period forecast can be made. Ultimately, by repeating this step, long-horizon forecasts can be constructed. For the GARCH(1,1), the two-step forecast is a little closer to the long-run average variance than is the one-step forecast, and, ultimately, the distant-horizon forecast is the same for all time periods as long as  $\alpha +\beta < 1$ . This is just the unconditional variance. Thus, GARCH models are mean reverting and conditionally heteroskedastic but have a constant unconditional variance.
 
@@ -149,9 +174,7 @@ Figure 1 Nasdaq, Dow Jones, and Bond Returns
 
 # Application to Value at Risk
 
-Applications of the ARCH/GARCH approach are widespread in situations where the volatility of returns is a central issue. Many banks and other financial institutions use the idea of value at risk (VaR) as a way to measure the risks in their portfolios. The  $1\%$  VaR is defined as the number of dollars that one can be  $99\%$  certain exceeds any losses for the next day. Let's use the GARCH(1,1) tools to estimate the  $1\%$  VaR of a \$1 million portfolio on March 23, 2000. This portfolio consists of  $50\%$  Nasdaq,  $30\%$  Dow
-
-Jones, and  $20\%$  long bonds. We chose this date because, with the fall of equity markets in the spring of 2000, it was a period of high volatility. First, we construct the hypothetical historical portfolio. (All calculations in this example were done with the EViews software program.) Figure 1 shows the pattern of the Nasdaq, Dow Jones, and long Treasury bonds. In Table 1, we present some illustrative statistics for each of these three investments separately and, in
+Applications of the ARCH/GARCH approach are widespread in situations where the volatility of returns is a central issue. Many banks and other financial institutions use the idea of value at risk (VaR) as a way to measure the risks in their portfolios. The $1\%$ VaR is defined as the number of dollars that one can be $99\%$ certain exceeds any losses for the next day. Let's use the GARCH(1,1) tools to estimate the $1\%$ VaR of a \$1 million portfolio on March 23, 2000. This portfolio consists of $50\%$ Nasdaq, $30\%$ Dow Jones, and $20\%$ long bonds. We chose this date because, with the fall of equity markets in the spring of 2000, it was a period of high volatility. First, we construct the hypothetical historical portfolio. (All calculations in this example were done with the EViews software program.) Figure 1 shows the pattern of the Nasdaq, Dow Jones, and long Treasury bonds. In Table 1, we present some illustrative statistics for each of these three investments separately and, in the final column, for the portfolio as a whole.
 
 Table 1 Portfolio Data
 
@@ -167,11 +190,34 @@ Bollerslev-Wooldrige robust standard errors and covariance</td></tr><tr><td></td
 
 Consider first the quantiles of the historical portfolio at these three different time horizons. Over the full 10-year sample, the  $1\%$  quantile times  $\$ 1$  million produces a VaR of  $22,477$ . Over the last year, the calculation produces a VaR of  $\$ 24,653$ —somewhat higher, but not significantly so. However, if the first quantile is calculated based on the data from January 1, 2000, to March 23, 2000, the VaR is  $\$ 35,159$ . Thus, the level of risk has increased significantly over the last quarter.
 
-The basic GARCH(1,1) results are given in Table 2. Notice that the coefficients sum up to a number slightly less than one. The forecasted standard deviation for the next day is 0.014605, which is almost double the average standard deviation of 0.0083 presented in the last column of Table 1. If the residuals were normally distributed, then this would be multiplied by 2.326348, giving a VaR equal to 33,977. As it turns out, the standardized residuals, which are the estimated values of \{\varepsilon_t\}, have a 1\% quantile of 2.8437, which is well above the normal quantile. The estimated 1\% VaR is \$39,996. Notice that this VaR has risen to reflect the increased risk in 2000.
+The basic GARCH(1,1) results are given in Table 2. Notice that the coefficients sum up to a number slightly less than one. The forecasted standard deviation for the next day is 0.014605, which is almost double the average standard deviation of 0.0083 presented in the last column of Table 1. If the residuals were normally distributed, then this would be multiplied by 2.326348, giving a VaR equal to 33,977. As it turns out, the standardized residuals, which are the estimated values of $\{\varepsilon_t\}$, have a 1\% quantile of 2.8437, which is well above the normal quantile. The estimated 1\% VaR is \$39,996. Notice that this VaR has risen to reflect the increased risk in 2000.
 
-Finally, the VaR can be computed based solely on estimation of the quantile of the forecast distribution. This has been proposed by Engle and Manganelli (2001), adapting the quantile regression methods of Koenker and Basset (1978). Application of their method to this dataset delivers a VaR of 38,228. Instead of assuming the distribution of return series, Engle and Manganelli (2004) propose a new VaR modeling approach, conditional autoregressive value at risk (CAViaR), to directly compute the quantile of an individual financial asset. On a theoretical level, due to structural changes of the return series, the constant-parameter CAViaR model can be extended. Huang et al. (2010) formulate a time-varying CAViaR model, which they call an index-exciting time-varying CAViaR model. The model incorporates the market index information to deal with the unobservable structural break points for the individual risky asset.
+Finally, the VaR can be computed based solely on estimation of the quantile of the forecast distribution. This has been proposed by Engle and Manganelli (2001), adapting the quantile regression methods of Koenker and Bassett (1978). Application of their method to this dataset delivers a VaR of 38,228. Instead of assuming the distribution of return series, Engle and Manganelli (2004) propose a new VaR modeling approach, conditional autoregressive value at risk (CAViaR), to directly compute the quantile of an individual financial asset. On a theoretical level, due to structural changes of the return series, the constant-parameter CAViaR model can be extended. Huang et al. (2010) formulate a time-varying CAViaR model, which they call an index-exciting time-varying CAViaR model. The model incorporates the market index information to deal with the unobservable structural break points for the individual risky asset.
 
 # WHY ARCH/GARCH?
+
+```d2
+direction: right
+
+volatility_clustering: Volatility Clustering {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+}
+
+news_intensity: News Intensity {
+  shape: hexagon
+  style.fill: "#fff3e0"
+}
+
+market_uncertainty: Market Uncertainty {
+  shape: hexagon
+  style.fill: "#fce4ec"
+}
+
+volatility_clustering -> news_intensity: drives
+news_intensity -> market_uncertainty: creates
+market_uncertainty -> volatility_clustering: reinforces
+```
 
 The ARCH/GARCH framework proved to be very successful in predicting volatility changes. Empirically, a wide range of financial and economic phenomena exhibit the clustering of volatilities. As we have seen, ARCH/GARCH models describe the time evolution of the average size of squared errors, that is, the evolution of the magnitude of uncertainty. Despite the empirical success of ARCH/GARCH models, there is no real consensus on the economic reasons why uncertainty tends to cluster. That is why models tend to perform better in some periods and worse in other periods.
 
@@ -199,19 +245,19 @@ In the ARCH/GARCH models considered thus far, returns are assumed to be normally
 Let's first consider asymmetries in volatility forecasts. There is convincing evidence that the direction does affect volatility. Particularly for broad-based equity indexes and bond market indexes, it appears that market declines forecast higher volatility than do comparable market increases. There are now a variety of asymmetric GARCH models, including the exponential GARCH (EGARCH) model of Nelson (1991), the threshold ARCH (TARCH) model attributed to Rabemananjara and Zakoian (1993) and Glosten, Jagannathan, and Runkle (1993), and a collection and comparison by Engle and Ng (1993).
 
 
-In order to illustrate asymmetric GARCH, consider, for example, the asymmetric GARCH(1,1) model of Glosten, Jagannathan, and Runkle (1993). In this model, we add a term  $\gamma$  ( $I_{\{\varepsilon_t < 0\}}$ )  $\varepsilon_t^2$  to the basic GARCH:
+In order to illustrate asymmetric GARCH, consider, for example, the asymmetric GARCH(1,1) model of Glosten, Jagannathan, and Runkle (1993). In this model, we add a term $\gamma$ $(I_{\{\varepsilon_t < 0\}})$ $\varepsilon_t^2$ to the basic GARCH:
 
-$$ h_{t + 1} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \gamma \left(I_{\{\varepsilon_{t} <   0 \}}\right) \varepsilon_{t}^{2} + \beta h_{t}.
-$$
+$$ h_{t + 1} = \omega + \alpha h_{t} \varepsilon_{t}^{2} + \gamma \left(I_{\{\varepsilon_{t} < 0\}}\right) \varepsilon_{t}^{2} + \beta h_{t} $$
 
-The term  $(I_{\{\varepsilon_t < 0\}})$  is an indicator function that is zero when the error is positive and 1 when it is negative. If  $\gamma$  is positive, negative errors are leveraged. The parameters of the model are assumed to be positive. The relationship  $\alpha + \beta + \gamma / 2 < 1$  is assumed to hold.
+The term $(I_{\{\varepsilon_t < 0\}})$ is an indicator function that is zero when the error is positive and 1 when it is negative. If $\gamma$ is positive, negative errors are leveraged. The parameters of the model are assumed to be positive. The relationship $\alpha + \beta + \gamma / 2 < 1$ is assumed to hold.
 
 In addition to asymmetries, it has been empirically found that residuals of ARCH/GARCH models fitted to empirical financial data exhibit excess kurtosis. One way to handle this problem is to consider non-normal distributions of errors. Non-normal distributions of errors were considered by Bollerslev (1987), who introduced a GARCH model where the variable  $z$  follows a Student- $t$  distribution.
 
 Let's now discuss the integration of first and second moments through the GARCH-M model. ARCH/GARCH models imply that the risk inherent in financial markets varies over time. Given that financial markets implement a risk-return trade-off, it is reasonable to ask whether changing risk entails changing returns. Note that, in principle, predictability of returns in function of predictability of risk is not a violation of market efficiency. To correlate changes in volatility with changes in returns, Engle, Lilien, and Robins (1987) proposed the GARCH-M model (not to be confused with the multivariate MGARCH model that will be described shortly). The GARCH-M model, or GARCH in mean model, is a complete nonlinear model of asset returns and not only a specification of the error behavior. In the GARCH-M model, returns are assumed to be a constant plus a term proportional to the conditional variance:
 
-$$ r_{t + 1} = \mu_{t} + \sigma_{t} z_{t}, \quad \mu_{t} = \mu_{0} + \mu_{1} \sigma_{t}^{2}
-$$ where  $\sigma_t^2$  follows a GARCH process and the  $z$  terms are independent and identically distributed (IID) normal variables. Alternatively, the GARCH-M process can be specified making the mean linear in the standard deviation but not in the variance.
+$$ r_{t + 1} = \mu_{t} + \sigma_{t} z_{t}, \quad \mu_{t} = \mu_{0} + \mu_{1} \sigma_{t}^{2} $$
+
+where $\sigma_t^2$ follows a GARCH process and the $z$ terms are independent and identically distributed (IID) normal variables. Alternatively, the GARCH-M process can be specified making the mean linear in the standard deviation but not in the variance.
 
 
 The integration of volatilities and expected returns, that is the integration of risk and returns, is a difficult task. The reason is that not only volatilities but also correlations should play a role. The GARCH-M model was extended by Bollerslev (1986) in a multivariate context. The key challenge of these extensions is the explosion in the number of parameters to estimate; we will see this when discussing multivariate extensions in the following sections.
@@ -232,7 +278,7 @@ Let's begin by reviewing some facts about the temporal aggregation of models. Th
 Time aggregation can also be explored from a purely theoretical point of view. Suppose that a time series is characterized by a given data-generating process (DGP). We want to investigate what DGPs are closed under temporal aggregation; that is, we want to investigate what DGPs, eventually with different parameters, can represent the same series sampled at different time intervals.
 
 
-The question of time aggregation for GARCH processes was explored by Drost and Nijman (1993). Consider an infinite series  $\{x_{t}\}$  with given fixed-time intervals  $\Delta x_{t} = x_{t + 1} - x_{t}$ . Suppose that the series  $\{x_{t}\}$  follows a GARCH  $(p,q)$  process. Suppose also that we sample this series at intervals that are multiples of the basic intervals:  $\Delta y_{t} = h\Delta x_{t} = x_{t + h} - x_{t}$ . We obtain a new series  $\{y_t\}$ . Drost and Nijman found that the new series  $\{y_t\}$  does not, in general, follow another GARCH  $(p',q')$  process. The reason is that, in the standard GARCH definition presented in the previous sections, the series  $\{x_{t} = \sigma_{t}z_{t}\}$  is supposed to be a martingale difference sequence (that is, a process with zero conditional mean). This property is not conserved at longer time horizons.
+The question of time aggregation for GARCH processes was explored by Drost and Nijman (1993). Consider an infinite series $\{x_{t}\}$ with given fixed-time intervals $\Delta x_{t} = x_{t + 1} - x_{t}$. Suppose that the series $\{x_{t}\}$ follows a GARCH $(p,q)$ process. Suppose also that we sample this series at intervals that are multiples of the basic intervals: $\Delta y_{t} = h\Delta x_{t} = x_{t + h} - x_{t}$. We obtain a new series $\{y_t\}$. Drost and Nijman found that the new series $\{y_t\}$ does not, in general, follow another GARCH $(p',q')$ process. The reason is that, in the standard GARCH definition presented in the previous sections, the series $\{x_{t} = \sigma_{t}z_{t}\}$ is supposed to be a martingale difference sequence (that is, a process with zero conditional mean). This property is not conserved at longer time horizons.
 
 To solve this problem, Drost and Nijman introduced weak GARCH processes, processes that do not assume the martingale difference condition. They were able to show that weak  $\mathrm{GARCH}(p,q)$  models are closed under temporal aggregation and established the formulas to obtain the parameters of the new process after aggregation. One consequence of their formulas is that the fluctuations of volatility tend to disappear when the time interval becomes very large. This conclusion is quite intuitive given that conditional volatility is a mean-reverting process.
 
@@ -251,11 +297,11 @@ Ghysel and Jasiak (1997) introduced a class of approximate ARCH models of return
 
 The models described thus far are models of single assets. However, in finance, we are also interested in the behavior of portfolios of assets. If we want to forecast the returns of portfolios of assets, we need to estimate the correlations and covariances between individual assets. We are interested in modeling correlations not only to forecast the returns of portfolios but also to respond to important theoretical questions. For example, we are interested in understanding if there is a link between the magnitude of correlations and the magnitude of variances and how correlations propagate between different markets. Questions like these have an important bearing on investment and risk management strategies.
 
-Conceptually, we can address covariances in the same way as we addressed variances. Consider a vector of  $N$  return processes:  $r_t = \{r_{i,t}\}, i = 1,\dots,N, t = 1,\dots,T$ . At every moment  $t$ , the vector  $r_t$  can be represented as:  $r_t = m_t(\vartheta) + \varepsilon_t$ , where  $m_t(\vartheta)$  is the vector of conditional means that depend on a finite vector of parameters  $\vartheta$  and the term  $\varepsilon_t$  is written as:
+Conceptually, we can address covariances in the same way as we addressed variances. Consider a vector of $N$ return processes: $r_t = \{r_{i,t}\}, i = 1,\dots,N, t = 1,\dots,T$. At every moment $t$, the vector $r_t$ can be represented as: $r_t = m_t(\vartheta) + \varepsilon_t$, where $m_t(\vartheta)$ is the vector of conditional means that depend on a finite vector of parameters $\vartheta$ and the term $\varepsilon_t$ is written as:
 
-$$
-\varepsilon_{t} = H_{t}^{\gamma_{2}} (\vartheta) z_{t}
-$$ where  $H_{t}^{1 / 2}(\vartheta)$  is a positive definite matrix that depends on the finite vector of parameters  $\vartheta$ . We also assume that the  $N$ -vector  $z_{t}$  has the following moments:  $E(z_{t}) = 0$ ,  $\operatorname{Var}(z_t) = I_N$  where  $I_N$  is the  $N\times N$  identity matrix.
+$$ \varepsilon_{t} = H_{t}^{1/2}(\vartheta) z_{t} $$
+
+where $H_{t}^{1/2}(\vartheta)$ is a positive definite matrix that depends on the finite vector of parameters $\vartheta$. We also assume that the $N$-vector $z_{t}$ has the following moments: $E(z_{t}) = 0$, $\operatorname{Var}(z_t) = I_N$ where $I_N$ is the $N\times N$ identity matrix.
 
 
 To explain the nature of the matrix  $H_t^{1/2}(\vartheta)$ , consider that we can write:

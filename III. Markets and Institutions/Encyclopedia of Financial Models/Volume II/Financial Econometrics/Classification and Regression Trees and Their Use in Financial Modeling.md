@@ -1,3 +1,22 @@
+---
+title: Classification and Regression Trees and Their Use in Financial Modeling
+primary_tags:
+  - classification regression trees
+  - nonparametric modeling techniques
+  - financial data analysis
+  - stock selection models
+  - recursive partitioning
+secondary_tags:
+  - cart algorithm implementation
+  - tree pruning methods
+  - financial market applications
+  - predictive modeling finance
+  - nonlinear regression analysis
+  - machine learning finance
+  - decision tree algorithms
+  - quantitative asset management
+cssclasses: academia
+---
 
 # Classification and Regression Trees and Their Use in Financial Modeling
 
@@ -20,7 +39,7 @@ Classification and regression trees (CART) are nonparametric and nonlinear model
 Although the approach is not widely utilized within the investment community, the applications of CART to financial markets nevertheless include the classification of financially distressed firms by Frydman, Altman, and Kao (1985), asset allocation by Sorensen, Mezrich, and Miller (1998), equity style timing by Kao and Shumaker (1999), and stock selection by Sorensen, Miller, and Ooi (2000). In this entry we provide an introduction to the CART framework and contrast it to more traditional modeling methods. We then illustrate the technique by applying it to stock selection across the North American equity markets.
 
 
-# TECHNICAL DETAILS
+## TECHNICAL DETAILS
 
 We begin by introducing the standard tree terminology. The root is the top node, which includes all observations in the learning sample. The splitting condition at each node is expressed as an "if-then-else" rule that is determined by a specific splitting criterion. The splitting node is also called the parent and the two descendant subnodes are called children. A node keeps splitting until a terminal node or leaf is reached.
 
@@ -28,7 +47,7 @@ The fundamental idea behind CART is to recursively partition the space until all
 
 There are two major steps in the CART analysis: (1) Build a tree using a recursive splitting of nodes, and (2) prune the tree in order to obtain the optimal tree size so as to prevent overfitting. Each of these two steps will be discussed in more detail below. Breiman et al. (1984) provide a detailed overview of the theory and methodology of CART, including a number of examples from many disciplinary areas. There are also many software packages that implement the CART algorithm. Popular ones include R packages such as rpart and tree and the Matlab function classregtree.
 
-# Binary Recursive Partitioning
+### Binary Recursive Partitioning
 
 Let  $\mathcal{L}$  be a learning sample,  $\mathcal{L} = \{(x_1,y_1),\dots ,$ $(x_{n},y_{n})\}$  , where  $x_{i}$  is a vector of attributes;  $y_{i}$  is the response, which can be categorical or continuous; and  $n$  is the number of observations. The attribute vector  $x_{i}$  belongs to  $X$  , the attribute space. The tree-building algorithm involves repeatedly splitting subsets of  $\mathcal{L}$  into two descendant subsets, beginning with  $\mathcal{L}$  itself. For a continuous variable  $x_{i}$ , the allowed splits are of the form  $x_{i} < c$  versus  $x_{i} \geq c$ . For categorical variables the levels are divided into two classes. Therefore, for a categorical variable with  $K$  levels, there are  $2^{K - 1} - 1$  possible splits, disallowing the empty split and ignoring the order.
 
@@ -71,7 +90,7 @@ $$ i (t) = \sum_{j = 1}^{n_{t}} \left(y_{t j} - \mu_{t}\right)^{2}
 $$ where the constant  $\mu_t$  for node  $t$  is estimated by the mean of the values of the training data falling into node  $t$ .
 
 
-# TRE PRUNING
+## TREE PRUNING
 
 However, the use of partitioning rules alone cannot guarantee a useful tree model. If reducing impurity is the only goal in tree induction, we will eventually end up with a maximal tree, which has one observation or one class in each leaf, whichever reaches first. This kind of tree adapts too well to the features of the learning sample and has a very high risk of being overfitted. Tree pruning is a way to improve the robustness of the model by trading off in-sample fitting against out-of-sample accuracy. This is particularly important if the model is being used to make predictions.
 
@@ -83,7 +102,7 @@ R_{\alpha} (T) = R (T) + \alpha \operatorname{si ze} (T)
 $$ where  $\alpha$  is a complexity parameter to penalize the tree size, and  $R$  is the cost, which is commonly taken as misclassification errors in classification cases and deviance in regression cases. For a given value of the complexity parameter  $\alpha$ , an optimal tree can be determined. In general, finding the optimal value for  $\alpha$  would require an independent set of data (i.e., a testing sample). This requirement is often avoided in practice by using a cross validation procedure.
 
 
-# STRENGTHS AND WEAKNESSES OF CART
+## STRENGTHS AND WEAKNESSES OF CART
 
 Compared to classical parametric models, CART offers a number of benefits in data exploration. In particular, it has a very high degree of interpretability. CART efficiently compresses a large volume of data into an easy-to-understand graphical form that identifies the essential characteristics. It is also very flexible in terms of the structure of the input variables, as either categorical or continuous factors or a combination can be used as inputs. Furthermore, CART is quite robust in the presence of outliers and well suited to noisy datasets, both of which tend to be features of financial data.
 
@@ -96,7 +115,7 @@ Another possible benefit for financial modelers using CART is the diversificatio
 One potential weakness of the recursive partitioning tree construction process is local optimization instead of global optimization. That is, the sequential node-splitting process chooses the next split without attempting to optimize the performance of the whole tree. The resulting tree structure therefore does not guarantee global optimization. Instability is another possible problem in CART solutions. This refers to perturbing a small proportion of the learning sample or resampling the learning sample, which often results in a solution with a very different tree structure. Several alternatives to CART have been developed to address these problems, such as random forests (see Brieman, 2001) and a hybrid approach that combines CART with logistic regression (see Zhu et al., 2011).
 
 
-# APPLICATION OF CART IN STOCK SELECTION
+## APPLICATION OF CART IN STOCK SELECTION
 
 In this section, we provide a detailed example of the CART algorithm as applied to the problem of identifying profitable stocks. This example was specifically chosen so as to provide a contrast with the vast majority of the linear modeling techniques used by financial practitioners. The model was built with monthly stock data from December 1986 to August 2010 covering all liquid stocks listed on the North American equity markets but excluding financial stocks because they would require their own specific model. The number of total observations is 279,188 (or 980 stocks per month on average).
 
@@ -124,39 +143,38 @@ The first observation to note is that the primary split is valuation based. More
 
 The tree is able to identify the exception to the rule. For example, while identifying that value was the most important driver of stock returns, the tree also suggests that more expensive stocks still have a good chance of outperforming the market providing that they are blessed with profitability, stability in earnings, strong momentum, and are also associated with strong earnings revisions (Node 10).
 
-Similarly, the decision tree framework also highlights the nonlinear behavior of the stock returns to the underlying predictor variables. For example, stocks in Nodes 3 and 5 have similar outperforming probabilities but are of opposite preference with regard to leverage. Conditional on above-average debt cover, Node 3 actually prefers some degree of leverage and more significantly penalizes overly
+Similarly, the decision tree framework also highlights the nonlinear behavior of the stock returns to the underlying predictor variables. For example, stocks in Nodes 3 and 5 have similar outperforming probabilities but are of opposite preference with regard to leverage. Conditional on above-average debt cover, Node 3 actually prefers some degree of leverage and more significantly penalizes overly conservative firms (with too low leverage). In contrast, leverage is a characteristic to be avoided among firms that cannot service their debts (Node 5).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/92b2897d6605ba6cc2e967595e8d4487a1069f140ef0476ece5efc809180bcfd.jpg)
 Figure 2 Decision Tree for North American stocks built using data from December 1986 to April 2007 to model the chance of a stock outperforming the overall market. The dependent variable is set as an "outperformer" (Out) if a stock subsequently achieves a higher return than the market, and "underperformer" (Und) otherwise. The outperforming probabilities are reported in percentages at each terminal node along with the splitting criteria.
 
 Table 2 Out-of-Sample Performance (May 2007-August 2010). Portfolios were rebalanced monthly and transaction costs were not taken into account.
 
-<table><tr><td>Portfolio</td><td>Excess Return (\%)</td><td>Tracking Error (\%)</td><td>IR</td><td>Monthly Win Rate</td></tr><tr><td>Long</td><td>2.6</td><td>2.9</td><td>0.89</td><td>0.57</td></tr><tr><td>Short</td><td>-2.8</td><td>3.4</td><td>-0.82</td><td>0.43</td></tr></table> conservative firms (with too low leverage). In contrast, leverage is a characteristic to be avoided among firms that cannot service their debts (Node 5).
+<table><tr><td>Portfolio</td><td>Excess Return (\%)</td><td>Tracking Error (\%)</td><td>IR</td><td>Monthly Win Rate</td></tr><tr><td>Long</td><td>2.6</td><td>2.9</td><td>0.89</td><td>0.57</td></tr><tr><td>Short</td><td>-2.8</td><td>3.4</td><td>-0.82</td><td>0.43</td></tr></table>
 
 
 Table 2 is an out-of-sample test of the model. Each month from May 2007 until August 2010, we ranked all stocks based upon the predicted outperforming probabilities by the tree model and formed two portfolios. One portfolio is an equal weighting of stocks with the highest half of outperforming probabilities (long), and the second is an equal weighting of the rest expected to underperform (short). Table 2 reports the annualized excess return, the tracking error, the information ratio, and the monthly win rate of the two portfolios. The long portfolio outperformed the benchmark by  $2.6\%$  with a similar relative risk. The short portfolio underperformed by  $2.8\%$  with a slightly higher tracking error. The monthly win rate is the proportion of months that a portfolio outperformed the benchmark out-of-sample. The tree model achieved a monthly win rate of  $57\%$ .
 
-# KEY POINTS
+## KEY POINTS
 
 - CART is a flexible modeling technique that offers significant potential to assist in financial decision making.
 - CART is a nonparametric modeling technique that does not impose the stringent assumptions required by classical regression analysis, and therefore sidesteps many of the known issues associated with traditional parametric models.
 - CART is well suited to identifying nonlinearities and complex interactions in the data. It is minimally affected by missing values, outliers, or multicollinearity.
-
 
 - Unlike many other methods, CART can be easily visualized, which helps financial decision makers to assess the theoretical support behind the resulting investment insights.
 - The hierarchical structure of a tree model may more closely resemble how the human brain makes decisions. In particular, the "if-then-else" nature of the rules in the model emulates an expert system that is able to incorporate the exception to the rule.
 - CART also embraces the important feature of conditional relevance, which is widespread in financial data. In the CART framework, input variables are allowed to interact and have different influences under varying conditions.
 - As with any other quantitative model development process, care must be taken to ensure the integrity of the input data and that the intended application makes intuitive sense.
 
-# NOTE
+## NOTE
 
 1. Financial stocks were excluded due to their different accounting structure, which makes comparisons with nonfinancials troublesome, although similarly structured stock selection models can also be applied within the sector.
 
-# ACKNOWLEDGMENT
+## ACKNOWLEDGMENT
 
 Min Zhu gratefully acknowledges financial support from the Capital Market Cooperative Research Centre (CMCRC).
 
-# REFERENCES
+## REFERENCES
 
 Breiman, L. (2001). Random forests. Machine Learning 45: 5-32.
 Breiman, L., Friedman, J., Olshen, R., and Stone, C. (1984). Classification and Regression Trees. Belmont, CA: Wadsworth.
@@ -164,7 +182,7 @@ Frydman, H., Altman, E. I., and Kao, D. L. (1985). Introducing recursive partiti
 
 Kao, D. L., and Shumaker, D. L. (1999). Equity style timing. *Financial Analysts Journal* 55: 37-48.
 Philpotts, D., Zhu, M., and Stevenson, M. J. (2011). The benefits of tree-based models for stock selection. Working paper.
-Sorensen, E. H., Mezrich, J. J., and Miller, K. L. (1998). A new technique for tactical asset allo cation. In F. J. Fabozzi, ed., Active Equity Portfolio Management, Chapter 12. New Hope, PA: Frank J. Fabozzi Associates.
+Sorensen, E. H., Mezrich, J. J., and Miller, K. L. (1998). A new technique for tactical asset allocation. In F. J. Fabozzi, ed., Active Equity Portfolio Management, Chapter 12. New Hope, PA: Frank J. Fabozzi Associates.
 
 Sorensen, E. H., Miller, K. L., and Ooi, C. K. (2000). The decision tree approach to stock selection. Journal of Portfolio Management, Fall: 42-52.
 Zhu, M., Philpotts, D., and Stevenson, M. J. (2011). A hybrid approach to combining CART and logistic regression for stock ranking. Journal of Portfolio Management, Fall: 100-109.

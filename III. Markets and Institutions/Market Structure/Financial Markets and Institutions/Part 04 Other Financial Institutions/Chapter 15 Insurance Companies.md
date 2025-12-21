@@ -1,22 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Insurance Companies
-linter-yaml-title-alias: Insurance Companies
+parent_directory: Part 04 Other Financial Institutions
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - insurance industry overview
+  - life insurance companies
+  - property casualty insurance
+secondary_tags:
+  - insurance regulation
+  - insurance balance sheets
+  - global insurance trends
+  - adverse selection problem
+  - underwriting risk
+  - reinsurance markets
+cssclasses: academia
 ---
 
 # Insurance Companies
 
-Chapter
-
-# 15
-
-OUTLINE
-
-# Learning Goals
+## Learning Goals
 
 LG 15-1 Describe the two types of insurance companies.
 
@@ -34,9 +38,7 @@ LG 15-7 Recognize the main regulators of property-casualty insurance companies.
 
 LG 15-8 Describe the major trends occurring in the global insurance market.
 
-Two Categories of Insurance
-
-Companies: Chapter Overview
+## Two Categories of Insurance Companies: Chapter Overview
 
 Life Insurance Companies
 
@@ -70,9 +72,53 @@ Regulation
 
 Global Issues
 
-# TWO CATEGORIES OF INSURANCE COMPANIES: CHAPTER OVERVIEW
+## Two Categories of Insurance Companies: Chapter Overview
 
 Insurance services offered by financial institutions (FIs) compensate individuals and corporations (policyholders) if a prespecified adverse event occurs, in exchange for premiums paid to the insurer by the policyholder. The insurance provider can act either as an insurance underwriter or an insurance broker. An insurance underwriter assesses the risk of an applicant for coverage or for a policy. An insurance broker simply sells insurance contracts for coverage or for a policy. Thus, a broker acts more as an intermediary between the insurance underwriter and the applicant. Insurance services are classified into two major groups: (1) life and (2) property-casualty. Life insurance provides protection in the event of untimely death, illnesses, and retirement. Property-casualty insurance protects against personal injury and liability due to accidents, theft, fire, and other catastrophes. Many FIs (e.g., MetLife and Allstate) offer both life and property-casualty services. Further, many FIs that offer insurance services also sell a variety of investment products in a similar fashion to other financial service firms, such as mutual funds (Chapter 17) and commercial banks (Chapter 11).
+
+```d2
+direction: right
+
+life: Life Insurance {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+property_casualty: Property-Casualty Insurance {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+life -> property_casualty: Some FIs offer both types
+
+death_protection: Death Protection {
+  shape: oval
+  style.fill: "#f3e5f5"
+}
+
+illness_protection: Illness & Retirement Protection {
+  shape: oval
+  style.fill: "#f3e5f5"
+}
+
+personal_liability: Personal Injury & Liability {
+  shape: oval
+  style.fill: "#fff8e1"
+}
+
+property_damage: Property Damage Protection {
+  shape: oval
+  style.fill: "#fff8e1"
+}
+
+life -> death_protection
+life -> illness_protection
+property_casualty -> personal_liability
+property_casualty -> property_damage
+```
+
 
 LG 15-1
 
@@ -86,7 +132,7 @@ Life insurance allows individuals and their beneficiaries to protect against los
 
 # Size, Structure, and Composition of the Industry
 
-In 2018, the United States had approximately 740 life insurance companies, compared to over 2,300 in 1988. The aggregate assets of life insurance companies were  \$7.0 trillion in 2018, compared to\$ 1.12 trillion in 1988. The 10 largest life insurers in terms of total assets (listed in Table 15-1) wrote 32.7 percent of the industry's over 606.2 billion new life insurance premiums in 2018. Although not to the extent seen in the banking industry, the life insurance industry has experienced major mergers in recent years (e.g., Anthem and Signa, Hartford Life and Mass Mutual, and Metlife and American Life Insurance) as competition within the industry and with other FIs has increased. Like consolidation in commercial banking, the consolidation of the insurance industry has mainly occurred to take advantage of economies of scale and scope and other synergies (see Chapter 11).
+In 2018, the United States had approximately 740 life insurance companies, compared to over 2,300 in 1988. The aggregate assets of life insurance companies were $7.0 trillion in 2018, compared to $1.12 trillion in 1988. The 10 largest life insurers in terms of total assets (listed in Table 15-1) wrote 32.7 percent of the industry's over 606.2 billion new life insurance premiums in 2018. Although not to the extent seen in the banking industry, the life insurance industry has experienced major mergers in recent years (e.g., Anthem and Signa, Hartford Life and Mass Mutual, and Metlife and American Life Insurance) as competition within the industry and with other FIs has increased. Like consolidation in commercial banking, the consolidation of the insurance industry has mainly occurred to take advantage of economies of scale and scope and other synergies (see Chapter 11).
 
 TABLE 15-1 Largest Life Insurers
 
@@ -119,6 +165,76 @@ As the various types of insurance policies and services offered are described be
 # LG 15-2
 
 Life Insurance. The four basic classes or lines of life insurance are distinguished by the manner in which they are sold or marketed to purchasers. These classes are (1) ordinary life, (2) group life, (3) credit life, and (4) other activities. Of the 19.1 trillion life insurance policies in force in the United States, ordinary life accounts for 53.6 percent, group life for 45.6 percent, and credit life for less than 1 percent.
+
+```d2
+direction: down
+
+ordinary_life: Ordinary Life\n(53.6%) {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+group_life: Group Life\n(45.6%) {
+  shape: hexagon
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+}
+
+credit_life: Credit Life\n(<1%) {
+  shape: hexagon
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+other_activities: Other Activities {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+term_life: Term Life {
+  shape: rectangle
+}
+
+whole_life: Whole Life {
+  shape: rectangle
+}
+
+endowment_life: Endowment Life {
+  shape: rectangle
+}
+
+variable_life: Variable Life {
+  shape: rectangle
+}
+
+universal_life: Universal Life {
+  shape: rectangle
+}
+
+ordinary_life -> term_life
+ordinary_life -> whole_life
+ordinary_life -> endowment_life
+ordinary_life -> variable_life
+ordinary_life -> universal_life
+
+annuities: Annuities {
+  shape: rectangle
+}
+
+pension_plans: Pension Plans {
+  shape: rectangle
+}
+
+health_insurance: Health Insurance {
+  shape: rectangle
+}
+
+other_activities -> annuities
+other_activities -> pension_plans
+other_activities -> health_insurance
+```
 
 Ordinary Life. Ordinary life insurance policies are marketed on an individual basis, usually in units of 1,000; policyholders make periodic premium payments in return for insurance coverage. Despite the enormous variety of contractual forms, there are essentially five basic contractual types. The first three are traditional forms of ordinary life insurance, and the last two are newer contracts that originated in the 1970s and 1980s when competition for savings from other segments of the financial services industry, such as mutual funds, increased. The three traditional contractual forms are term life, whole life, and endowment life. The two newer forms are variable life and universal life. The key features of each of these contractual forms are identified as follows:
 
@@ -154,7 +270,7 @@ Annuities. Annuities represent the reverse of life insurance principles. While l
 # CALCULATOR HINTS
 
 $$
-\begin{array}{l} N = 2 5 \\ P M T = 1 5, 0 0 0 \\ F V = 0 \\ I = 5.00\% \\ C P T P V = - \$ 2 1 1, 4 0 9 \\ \end{array}
+\begin{array}{l} N = 25 \\ PMT = 15,000 \\ FV = 0 \\ I = 5.00\% \\ CPT PV = -\$211,409 \\ \end{array}
 $$
 
 # EXAMPLE 15-2 Calculation of the Fair Value of an Annuity Policy
@@ -162,7 +278,7 @@ $$
 Suppose that a person wants to purchase an annuity today that would pay 15,000 after taxes per year until the end of that person's life. The insurance company expects the person to live for 25 more years and can invest the amount received for the annuity at a guaranteed interest rate of 5 percent. The fair price for the annuity policy today can be calculated as follows:
 
 $$
-\begin{array}{l} \text{Fa ir va lu e} = \frac{1 5 , 0 0 0}{1 + r} + \frac{1 5 , 0 0 0}{(1 + r)^{2}} + \dots + \frac{1 5 , 0 0 0}{(1 + r)^{2 5}} \\ = 1 5, 0 0 0 \left[ \frac{1}{1 + r} + \frac{1}{(1 + r)^{2}} + \dots + \frac{1}{(1 + r)^{2 5}} \right] \\ = 1 5, 0 0 0 \left[ \frac{1 - \frac{1}{(1 + 0 . 0 5)^{2 5}}}{0 . 0 5} \right] \\ = 1 5, 0 0 0 [ 1 4. 0 9 3 9 ] \\ = \$ 2 1 1, 4 0 9 \\ \end{array}
+\begin{array}{l} \text{Fair value} = \frac{15,000}{1 + r} + \frac{15,000}{(1 + r)^{2}} + \dots + \frac{15,000}{(1 + r)^{25}} \\ = 15,000 \left[ \frac{1}{1 + r} + \frac{1}{(1 + r)^{2}} + \dots + \frac{1}{(1 + r)^{25}} \right] \\ = 15,000 \left[ \frac{1 - \frac{1}{(1 + 0.05)^{25}}}{0.05} \right] \\ = 15,000 [14.0939] \\ = \$211,409 \\ \end{array}
 $$
 
 Thus, the cost of purchasing this annuity today would be 211,409.
@@ -363,7 +479,7 @@ A common measure of the overall underwriting profitability of a line, which incl
 A property-casualty insurer brings in \$8.72 million in premiums on its private passenger auto physical damage (PD) line of insurance. The line's losses amount to \$5,859,840 and expenses are 2,485,200. The insurer's dividend ratio is 5 percent. Calculate the line's loss ratio, expense ratio, and combined ratio after dividends.
 
 $$
-\begin{array}{l} \text{Lossratio} \quad = \5,859,840 / \8,720,000 = 67.2\% \\ \text{Expenseratio} = \ 2,485,200 / \ 8,720,000 = 28.5\% \\ \text{Combinedratio} = 67.2 \% + 28.5 \% + 5.0 \% = 100.7 \% \\ \end{array}
+\begin{array}{l} \text{Loss ratio} = \$5,859,840 / \$8,720,000 = 67.2\% \\ \text{Expense ratio} = \$2,485,200 / \$8,720,000 = 28.5\% \\ \text{Combined ratio} = 67.2\% + 28.5\% + 5.0\% = 100.7\% \\ \end{array}
 $$
 
 If premiums are insufficient and the combined ratio exceeds 100 percent, the P&C insurer must rely on investment income on premiums for overall profitability. For example, in 2001 the combined ratio after dividend payments was 116.0 percent, indicating that
@@ -381,11 +497,11 @@ Investment Yield/Return Risk. As discussed previously, when the combined ratio i
 Suppose that an insurance company's loss ratio is 79.8 percent, its expense ratio is 27.9 percent, and the company pays 2 percent of its premiums earned to policyholders as dividends. The combined ratio (after dividends) for this insurance company is equal to:
 
 $$
-\text{Lo ss ra ti o} + \text{Ex pe ns er at io} + \text{Di vi de nd ra ti o} = \text{Co mb in ed ra ti oa ft er di vi de nd s}
+\text{Loss ratio} + \text{Expense ratio} + \text{Dividend ratio} = \text{Combined ratio after dividends}
 $$
 
 $$
-7 9. 8 \quad + \quad 2 7. 9 \quad + \quad 2. 0 \quad = \quad 1 0 9. 7
+79.8 + 27.9 + 2.0 = 109.7
 $$
 
 Thus, expected losses on all P&C lines, expenses, and dividends exceeded premiums earned by 9.7 percent. As a result, without considering investment income, the P&C insurer is not profitable.
@@ -393,15 +509,15 @@ Thus, expected losses on all P&C lines, expenses, and dividends exceeded premium
 Suppose, however, that the company's investment portfolio yielded 12 percent. The operating ratio and overall profitability of the P&C insurer would then be:
 
 $$
-\text{Op er at in g} = \text{Co mb in ed ra ti oa fe rd iv id en ds -I nv es tm en ty ie ld}
+\text{Operating ratio} = \text{Combined ratio after dividends} - \text{Investment yield}
 $$
 
 $$
-= 1 0 9. 7 \text{pe rc en t} - 1 2. 0 \text{pe rc en t}
+= 109.7\% - 12.0\%
 $$
 
 $$
-= 9 7. 7 \text{pe rc en t}
+= 97.7\%
 $$
 
 As can be seen, the high investment returns (12 percent) make the P&C insurer profitable overall.
@@ -412,13 +528,53 @@ A pattern that the profits in the P&C industry tend to follow.
 
 www.iso.com
 
-Given the importance of investment returns to P&C insurers' profitability, combined with the need for a predictable stream of cash flows to meet required payouts on their insurance policies, the balance sheet in Table 15-5 indicates that bonds—both treasury and corporate—dominate the asset portfolios of P&C insurers. For example, bonds represented 51.8 percent of total assets and 60.2 percent ( $1,052.7/$ 1,749.1) of financial assets (invested assets) in 2018.
+Given the importance of investment returns to P&C insurers' profitability, combined with the need for a predictable stream of cash flows to meet required payouts on their insurance policies, the balance sheet in Table 15-5 indicates that bonds—both treasury and corporate—dominate the asset portfolios of P&C insurers. For example, bonds represented 51.8 percent of total assets and 60.2 percent ($1,052.7/$1,749.1) of financial assets (invested assets) in 2018.
 
 Finally, if losses, LAE, and other expenses are higher and investment yields are lower than expected, resulting in operating losses, P&C insurers carry a significant amount of surplus reserves (policyholder surplus) to reduce the risk of insolvency. In 2018, the ratio of policyholder surplus to assets was 38.3 percent.
 
 Recent Trends While catastrophes should be random, much of the 1985-2016 period was characterized by a number of catastrophes of historically high severity, as shown in Figure 15-3. In contrast, the period from 1950 to 1984 experiences relatively fewer and lower severity catastrophes. In the terminology of P&C insurers, the industry was in the trough of an underwriting cycle—that is, underwriting conditions were difficult. These cycles are characterized by periods of rising premiums leading to increased profitability. Following a period of solid but not spectacular rates of return, the industry enters a down phase in which premiums soften as the supply of insurance products increases. As a result, most of the period 1985-2018 was not entirely profitable for the P&C industry. In particular, the combined ratio (the measure of loss plus expense risk) was 116.2 in 1985, 115.7 in 1992, and 116.0 in 2001. (Remember that a combined ratio higher than 100 is bad in that it means that losses, expenses, and dividends totaled more than premiums earned.) The major reason for these losses was a succession of catastrophes including Hurricane Hugo in 1989, the San Francisco earthquake in 1991, the Oakland fires of 1991, and the almost 20 billion in losses incurred in Florida as a result of Hurricane Andrew in 1991.
 
-In 1993, the industry showed signs of improvement, with the combined ratio after dividends falling to 106.9. In 1994, however, the ratio rose again to 108.4, partly as a result of the Northridge earthquake, with estimated losses of  \$7 billion to\$ 10 billion. A drop in disaster-related losses caused the industry ratio to fall back to 101.6 in 1997. However, major losses associated with El Nino (e.g., Hurricane Georges and Midwest storms) drove the combined ratio after dividends back to 105.6 in 1998. The combined ratio after dividends increased even further to 107.9 in 1999 and 110.5 in 2000. Part of these increases is attributable to an increase in amounts paid on asbestos claims. In 1999, 3.4 billion was paid out on these claims, the largest payout ever. The Insurance Services Office Inc. estimates that the combined ratio for 1999, 107.9, would have been one percentage point lower without these claims.
+```d2
+direction: right
+
+high_catastrophes: High Catastrophe\nFrequency/Severity {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+premiums_rise: Premiums Rise\n(Profitability Increases) {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+competition_increases: Competition Increases\n(Premiums Soften) {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+low_profitability: Low Profitability\n(Underwriting Cycle Trough) {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+high_catastrophes -> premiums_rise: Insurers respond\nto losses
+premiums_rise -> competition_increases: Attracts more\ninsurers to market
+competition_increases -> low_profitability: Excess capacity\nleads to price wars
+low_profitability -> high_catastrophes: Weak firms exit,\nconsolidation occurs
+
+cycle_label: Underwriting Cycle {
+  shape: oval
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+  near: top-center
+}
+```
+
+In 1993, the industry showed signs of improvement, with the combined ratio after dividends falling to 106.9. In 1994, however, the ratio rose again to 108.4, partly as a result of the Northridge earthquake, with estimated losses of $7 billion to $10 billion. A drop in disaster-related losses caused the industry ratio to fall back to 101.6 in 1997. However, major losses associated with El Niño (e.g., Hurricane Georges and Midwest storms) drove the combined ratio after dividends back to 105.6 in 1998. The combined ratio after dividends increased even further to 107.9 in 1999 and 110.5 in 2000. Part of these increases is attributable to an increase in amounts paid on asbestos claims. In 1999, $3.4 billion was paid out on these claims, the largest payout ever. The Insurance Services Office Inc. estimates that the combined ratio for 1999, 107.9, would have been one percentage point lower without these claims.
 
 The year 2001 saw yet another blow to the insurance industry and the world with terrorist attacks on the World Trade Center and the Pentagon. Estimates of the costs of these attacks to insurance companies were as high as  \$19 billion. It was estimated that only 10 percent of the September 11 losses were reported in 2001, and yet the losses attributed to the terrorist attacks added an estimated 4 percentage points to the combined ratio after dividends of 116.0. Because of the tremendous impact these attacks had on the health of the U.S. insurance industry, the Bush administration proposed that the U.S. government pay the majority of the losses of the insurance industry due to the attacks. The proposal capped insurers' liabilities at 10 percent of claims over\$ 1 billion (the federal government would pay the other 90 percent) for as many as three years after a terrorist-related event. Despite this bailout of the industry, many insurers did not survive 2001 and those that did were forced to increase premiums significantly.
 
@@ -493,7 +649,7 @@ In particular, Hurricanes Michael and Florence in the Atlantic, and Typhoons Jeb
 
 Roughly 50 percent of global macroeconomic losses from natural catastrophes in 2018 were insured, a significantly higher percentage than the long-term average of 28 percent. North America accounted for 68 percent of insured losses, Asia for 23 percent and Europe for 8 percent. The remaining losses of less than 1 percent were divided between South America, Africa, Australia, and Oceania.
 
-# SUMMARY
+## Summary
 
 This chapter examined the activities and regulation of insurance companies. The first part of the chapter described the various classes of life insurance and recent trends in this sector. The second part discussed property-casualty companies. The various lines that comprise property-casualty insurance are becoming increasingly blurred as multiple activity line coverages are offered. Both life and property-casualty insurance companies are regulated at the state rather than the federal level.
 
@@ -525,71 +681,5 @@ b. Long-tail versus short-tail lines.
 21. How is the combined ratio defined? What does it measure? (LG 15-6)
 22. What is the investment yield on premiums earned? Why has this ratio become so important to property-casualty insurers? (LG 15-6)
 
-# PROBLEMS
 
-1. Calculate the following: (LG 15-2) a. What is the amount of the annuity purchase required if you wish to receive a fixed payment of 200,000 for 20 years? Assume that the annuity will earn 10 percent per year.
-
-b. Calculate the annual cash flows (annuity payments) from a fixed-payment annuity if the present value of the 20-year annuity is 1 million and the annuity earns a guaranteed annual return of 10 percent. The payments are to begin at the end of the current year.
-
-c. Calculate the annual cash flows (annuity payments) from a fixed-payment annuity if the present value of the 20-year annuity is 1 million and the annuity earns a guaranteed annual return of 10 percent. The payments are to begin at the end of five years.
-
-2. Calculate the following: (LG 15-2) a. What is the amount of the annuity purchase required if you wish to receive a fixed payment of 240,000 for 20 years? Assume that the annuity will earn 7 percent per year.
-
-b. Calculate the annual cash flows from a 2.5 million, 20-year fixed-payment annuity earning a guaranteed return of 7 percent per year if payments are to begin at the end of the current year.
-
-c. Calculate the annual cash flows from a 2.5 million, 20-year fixed-payment annuity earning a guaranteed return of 7 percent per year if payments are to begin at the end of year 6.
-
-3. You deposit 10,000 annually into a life insurance fund for the next 10 years, at which time you plan to retire. Instead of a lump sum, you wish to receive annuities for the next 20 years. What is the annual payment you expect to receive beginning in year 11 if you assume an interest rate of 8 percent for the whole time period? (LG 15-2)
-4. You deposit 10,000 annually into a life insurance fund for the next 10 years, after which time you plan to retire. (LG 15-2) a. If the deposits are made at the beginning of the year and earn an interest rate of 8 percent, what will be the amount in the retirement fund at the end of year 10?
-
-b. Instead of a lump sum, you wish to receive annuities for the next 20 years (years 11 through 30). What is the constant annual payment you expect to receive at the beginning of each year if you assume an interest rate of 8 percent during the distribution period?
-
-c. Repeat parts (a) and (b) assuming earning rates of 7 percent and 9 percent during the deposit period and earning rates of 7 percent and 9 percent during the distribution period.
-
-5. You deposit 12,000 annually into a life insurance fund for the next 30 years, after which time you plan to retire. (LG 15-2) a. If the deposits are made at the beginning of the year and earn an interest rate of 7 percent, what will be the amount of retirement funds at the end of year 30?
-
-b. Instead of a lump sum, you wish to receive annuities for the next 20 years (years 31 through 50). What is the constant annual payment you expect to receive at the beginning of each year if you assume an interest rate of 7 percent during the distribution period?
-
-c. Repeat parts (a) and (b) assuming earning rates of 6 percent and 8 percent during the deposit period and earning rates of 6 percent and 8 percent during the distribution period. During which period does the change in the earning rate have the greatest impact?
-
-6. Calculate the following: (LG 15-2) a. Suppose a 65-year-old person wants to purchase an annuity from an insurance company that would pay 20,000 per year until the end of that person's life. The insurance company expects this person to live for 15 more years and would be willing to pay 6 percent on the annuity. How much should the insurance company ask this person to pay for the annuity?
-
-b. A second 65-year-old person wants the same 20,000 annuity, but this person is healthier and is expected to live for 20 more years. If the same 6 percent interest rate applies, how much should this healthier person be charged for the annuity?
-
-c. In each case, what is the new purchase price of the annuity if the distribution payments are made at the beginning of the year?
-
-7. Calculate the following: (LG 15-2) a. Suppose a 60-year-old person wants to purchase an annuity from an insurance company that would pay 15,000 per year until the end of that person's life. The insurance company expects this person to live for 20 more years and would be willing to pay 5 percent on the annuity. How much should the insurance company ask this person to pay for the annuity?
-
-b. A second 60-year-old person wants the same 15,000 annuity, but this person is much healthier and is expected to live for 30 more years. If the same 5 percent interest rate applies, how much should this healthier person be charged for the annuity?
-
-c. In each case, what is the difference in the purchase price of the annuity if the distribution payments are made at the beginning of the year?
-
-8. Calculate the following: (LG 15-6) a. If the loss ratio on a line of property insurance is 73 percent, the loss adjustment expense is 12.5 percent, and the ratio of commissions and other acquisitions expenses is 18 percent, is this line profitable?
-
-b. How does your answer to part (a) change if investment yields of 8 percent are added?
-
-9. An insurance company's projected loss ratio is 77.5 percent, and its expense ratio is 23.9 percent. It estimates that dividends to policyholders will add another 5 percent. What is the minimum yield on investments required in order to maintain a positive operating ratio? (LG 15-6)
-10. An insurance company's projected loss ratio is 64.8 percent and its expense ratio is 25.6 percent. The company estimates that dividends to policyholders will be 6 percent. What must be the minimum yield on investments to achieve a positive operating ratio? (LG 15-6)
-11. An insurance company collected  \$3.6 million in premiums and disbursed\$ 1.96 million in losses. Loss adjustment expenses amounted to 6.6 percent and dividends paid to policyholders totaled 1.2 percent. The total income generated from their investments was 170,000 after all expenses were paid. What is the net profitability in dollars? (LG 15-6)
-12. An insurance company collected  \$12.75 million in premiums and disbursed\$ 9.18 million in losses. Loss adjustment expenses amounted to 20.1 percent and dividends paid to policyholders totaled 5 percent. The total income generated from the company's investments was 1,420,000 after all expenses were paid. What is the net profitability in dollars? (LG 15-6)
-13. A property-casualty insurer brings in \$6.25 million in premiums on its homeowners MP line of insurance. The line's losses amount to \$4,343,750, expenses are \$1,593,750, and dividends are \$156,250. The insurer earns 218,750 in the investment of its premiums. Calculate the line's loss ratio, expense ratio, dividend ratio, combined ratio, investment ratio, operating ratio, and overall profitability. (LG 15-6)
-14. A property-casualty insurer brings in \$5.55 million in premiums on its homeowners multiple line of insurance. The line's losses amount to \$3,962,700, expenses are \$1,526,250, and dividends are \$333,000. The insurer earns 349,650 in the investment of its premiums. Calculate the line's loss ratio, expense ratio, dividend ratio, combined ratio, investment ratio, operating ratio, and overall profitability. (LG 15-6)
-
-# SEARCH THE SITE
-
-Go to the American Council of Life Insurers website at www.acli.com and find the most recent distribution of life insurance industry assets for Table 15-2. Click on "Industry Facts." Click on "Life Insurers Fact Book." Click on the latest available issue. This will bring the file onto your computer that contains the relevant data.
-
-# Questions
-
-1. How have the values of government securities, corporate securities, mortgages, and policy loans changed since 2018?
-2. What are the likely reasons for these changes?
-
-# SEARCH THE SITE
-
-Go to the Insurance Information Institute's website at www.iii.org and use the following steps to find the most recent data on the world's largest life insurance companies by total revenue. Click on "Publications." Click on "Commercial Insurance." Click on "Rankings." This will bring the file onto your computer that contains the relevant data.
-
-# Questions
-
-1. What are total revenues of the top 10 global insurance companies?
-2. How have these values changed since 2018 as reported in Table 15-8?
 

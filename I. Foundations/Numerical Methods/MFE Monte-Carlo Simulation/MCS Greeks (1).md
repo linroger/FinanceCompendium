@@ -1,36 +1,27 @@
 ---
-aliases:
-- Estimating the Greeks
-tags: null
-key_concepts: null
-parent_directory: '[[MFE Monte-Carlo Simulation]]'
-cssclasses: academia
-title: Monte Carlo Greeks Estimation
-linter-yaml-title-alias: Monte Carlo Greeks Estimation
+title: Estimating the Greeks
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4-5-thinking
+cli-tool: opencode
 primary_tags:
 - monte carlo methods
 - unbiased estimators
 - black scholes framework
 - pathwise derivative
 secondary_tags:
-- first approach
-- carlo methods
-- unbiased pathwise estimator
 - finite differences
-- sensitivities results
-- following example
-- each approach
-- such securities
-- simple example
-tags_extracted: '2025-12-18T17:59:26.826138'
-tags_method: max_quality_v1
+- likelihood ratio method
+- option sensitivities
+- derivative pricing
+cssclasses: academia
 ---
 
 # Estimating the Greeks
 
 In these lecture notes we discuss the use of Monte-Carlo simulation for the estimation of sensitivities of expectations to various parameters. Such sensitivities are of interest in many domains including finance where they are typically refereed to as the Greeks. We will consider three different methods for estimating the Greeks of derivative securities. The first approach is based on finite difference approximations and results in biased estimators. The other two approaches, namely the pathwise and likelihood ratio methods result (when applicable) in unbiased estimators. All three approaches are often used in practice and Chapter 7 of Glasserman's "Monte Carlo Methods in Financial Engineering" (2004) should be consulted for further details. We follow Glasserman very closely in our discussion and all of our examples are drawn from that source with the exception of Example 1 which is in fact a queuing example.
 
-# 1 Finite Difference Approximations
+## 1 Finite Difference Approximations
 
 To begin, let  $\alpha(\theta) \coloneqq \operatorname{E}[Y(\theta)]$  be the price of a particular derivative security when the value of some parameter is  $\theta$ . Then  $\alpha'(\theta)$  is the derivative price's sensitivity to changes in the parameter  $\theta$ . For example, if  $Y$  is the discounted payoff of a standard European call option in the Black-Scholes framework and  $\theta = S_0$ , the initial underlying security price, then  $\alpha'(\theta)$  is the delta of the option and it can be calculated explicitly. In general, however, we will not have an explicit expression for  $\alpha'(\theta)$  and in such circumstances we might instead use Monte-Carlo methods to estimate it.
 
@@ -66,7 +57,7 @@ $$
 
 which is superior to the  $O(h)$  bias of  $\widehat{\Delta}_F$  in (1). While the central difference estimator requires a little extra work in practice because of the need<sup>1</sup> to estimate  $\alpha (\theta - h)$  in addition to  $\alpha (\theta + h)$  we prefer it to the forward-difference estimator on account of the superior convergence of its bias to zero.
 
-# Variance of the Finite Difference Estimators
+## Variance of the Finite Difference Estimators
 
 It is very reasonable to assume that the pairs  $(Y(\theta + h), Y(\theta - h))$  and  $(Y_i(\theta + h), Y_i(\theta - h))$  for  $i = 1, \ldots, n$  are IID. In that case it follows from (2) that
 
@@ -90,21 +81,13 @@ under the minor assumption that  $\operatorname{Var}(Y(\theta))$  is continuous 
 
 In order for case (iii) to apply $^2$  we again need to use common random numbers with the additional condition that the output  $Y(\cdot)$  is continuous in  $\theta$  almost surely. This last condition is often not met which is why case (ii) is the typical case when common random numbers are used. We will return to case (iii) when we discuss the pathwise estimator of Section 2.3.
 
-# Trading Off Bias and Variance
+## Trading Off Bias and Variance
 
-For small  $h$ , the variance reduction from using common random numbers can be dramatic. That said, there is a tradeoff between bias and variance in our selection of  $h$  in cases (i) and (ii). If the goal is to minimize the mean square error, i.e. the sum of the bias squared and the variance, then in general it can be shown that we should choose  $h = O(n^{-1/5})$  in (2) when we use common random numbers. In that case convergence of the estimator in (2) is  $O(n^{-2/5})$  although  $O(n^{-1/2})$  convergence can be obtained if  $Y$  is continuous in  $\theta$  and case (iii) applies so that  $h$  can be taken as small as possible. See Section 7.1.2 of Glasserman (2004) for further details.
+## Estimation of Second-Order Sensitivities
 
-Note that when case (ii) applies and the goal is to minimize mean-squared error then the fact that we should take  $h = O(n^{-1/5})$  is mainly of theoretical interest only since we don't know the constant in front of the  $n^{-1/5}$  term. This means it is often necessary to choose  $h$  by trial and error and it is often surprising to see quite a large value of  $h$  being optimal. For example, Figure 7.2 of Glasserman shows the results of using the forward-difference estimator to estimate the delta of a particular digital call option in the Black-Schoels framework. Using parameters  $S_0 = K = 100$ ,  $\sigma = 0.3$ ,  $T = .25$  and  $r = .05$  he finds an optimal value of  $h \approx 4$ .
+## 1.1 System Comparison and Common Random Numbers
 
-# Estimation of Second-Order Sensitivities
-
-Similar results are available for estimating second-order derivatives such as gamma, vanna and volga but the convergence rates are not as good and estimating these quantities is fundamentally harder than estimating first order derivatives such as delta and vega. See Section 7.1 of Glasserman (2004) for further details.
-
-# 1.1 System Comparison and Common Random Numbers
-
-The method of common random numbers should always be applied when estimating Greeks using finite difference estimators. More generally, common random numbers can be very useful whenever we are interested in comparing the performance of similar systems. While the following example does not involve the estimation of a sensitivity (and is a non-financial example) it is clearly in the same spirit as the problem of estimating finite differences via Monte-Carlo.
-
-# Example 1 (Comparing Two Queueing Systems)
+### Example 1 (Comparing Two Queueing Systems)
 
 Consider a queueing system where customers arrive according to a Poisson process,  $N(t)$ . The operator of the system needs to install a server to service the arrivals and he has a choice of two possible servers,  $M$  and  $N$ . In the event that  $M$  is chosen, let  $S_{i}^{m}$  denote the service time of the  $i^{th}$  customer, and let  $X^{m}$  denote the total time in the system of all the customers who arrive before time  $T$ . That is,
 
@@ -152,17 +135,9 @@ So to reduce  $\operatorname{Var}(\widehat{\theta})$ , we would like to make  $\
 
 This example clearly demonstrates the value of using common random numbers. While in general it cannot always be guaranteed to work, i.e. decrease the variance, it is often very effective, sometimes decreasing the variance by orders of magnitude. The philosophy of the method is that comparisons of the two systems should be made "under similar experimental conditions".
 
-# 2 The Pathwise Method
+## 2 The Pathwise Method
 
-Recalling that  $\alpha (\theta)\coloneqq \operatorname{E}\left[Y(\theta)\right]$ , the pathwise estimator is calculated by interchanging the order of differentiation and integration to obtain
-
-$$
-\alpha^{\prime} (\theta) = \frac{\partial}{\partial \theta} \operatorname{E} [ Y (\theta) ] = \operatorname{E} \left[ \frac{\partial Y (\theta)}{\partial \theta} \right]. \tag {5}
-$$
-
-Assuming the interchange of differentiation and integration in (5) can be justified, we could therefore use  $\frac{\partial Y(\theta)}{\partial\theta}$  as an unbiased estimator of  $\alpha (\theta)$ . In order to operationalize (5), however, one must first explicitly state the relationship between  $Y$  and the parameter  $\theta$ . We do this by assuming there is a collection of random variables  $\{Y(\theta):\theta \in \Theta \}$  defined on a single probability space  $(\Omega ,\mathcal{F},P)$ . If we fix  $\omega \in \Omega$  then we can consider  $\theta \mapsto Y(\theta ,\omega)$  as a random function on  $\Theta$  so that  $Y^{\prime}(\theta) = \partial Y(\theta) / \partial \theta = Y^{\prime}(\theta ,\omega)$  is the derivative of this random function with respect to  $\theta$ , taking  $\omega$  as fixed. This is what we mean by the pathwise derivative of  $Y$  at  $\theta$  and when we are implicitly assuming that it exists with probability 1. This is usually the case and if so then the rightmost expectation in (5) is then defined. All that then remains is justifying the interchange of differentiation and integration but before addressing this issue we consider various examples from Glasserman.
-
-# Example 2 (Estimating the Black-Scholes Delta)
+### Example 2 (Estimating the Black-Scholes Delta)
 
 Consider the case of a European call option with strike  $K$  and maturity  $T$  in the Black-Scholes framework. While an explicit expression for the option delta is available, we can also estimate it via the pathwise method as follows. We first write the option payoff as
 
@@ -188,47 +163,11 @@ $$
 \begin{array}{l} \frac{\partial Y}{\partial \sigma} = e^{- r T} (- \sigma T + \sqrt{T} Z) S_{T} 1_{\{S_{T} > K \}} \\ = e^{- r T} \left(\frac{\log \left(S_{T} / S_{0}\right) - \left(r + \sigma^{2} / 2\right) T}{\sigma}\right) S_{T} 1_{\left\{S_{T} > K \right\}}. \tag {9} \\ \end{array}
 $$
 
-# Example 3 (Path-Dependent Deltas)
+### Example 3 (Path-Dependent Deltas)
 
-Consider an Asian option with payoff
+## 2.1 The Pathwise Method for SDEs
 
-$$
-Y = e^{- r T} \left[ \bar {S} - K \right]^{+}, \quad \bar {S} := \frac{1}{m} \sum_{i = 1}^{m} S_{t_{i}}
-$$
-
-for some fixed dates  $0 < t_1 < \dots < t_m \leq T$ . Assuming as before the Black-Scholes framework, we would like to construct the pathwise estimator for the delta of this option. We have
-
-$$
-\begin{array}{l} \frac{\partial Y}{\partial S_{0}} = \frac{\partial Y}{\partial \bar {S}} \frac{\partial \bar {S}}{\partial S_{0}} = e^{- r T} 1_{\{\bar {S} > K \}} \frac{\partial \bar {S}}{\partial S_{0}} \\ = e^{- r T} 1_{\{\bar {S} > K \}} \frac{1}{m} \sum_{i = 1}^{m} \frac{\partial S_{t_{i}}}{\partial S_{0}} \\ = e^{- r T} 1_{\{\bar {S} > K \}} \frac{1}{m} \sum_{i = 1}^{m} \frac{S_{t_{i}}}{S_{0}} \\ = e^{- r T} 1_{\{\bar {S} > K \}} \frac{\bar {S}}{S_{0}}. \\ \end{array}
-$$
-
-While we haven't justified interchanging the order of differentiation and integration as in (5) to show that the estimators in Examples 2 and 3 (and Exercise 9) are unbiased, a general rule of thumb is that this interchange can be justified when the payoff  $Y$  is (almost surely) continuous in  $\theta$ . This is clearly the case in the examples above. In contrast, the interchange is generally invalid when  $Y$  is not continuous in  $\theta$ . This means in particular that the pathwise method does not work in general for barrier and digital options. We will return to this in Section 2.3.
-
-Exercise 2 Show that the pathwise estimator of the vega of the Asian option in Example 3 is given by
-
-$$
-\frac{\partial Y}{\partial \sigma} = e^{- r T} 1_{\{\bar {S} > K \}} \frac{1}{m} \sum_{i = 1}^{m} \frac{\partial S_{t_{i}}}{\partial \sigma} \tag {10}
-$$
-
-where  $\partial S_{t_i} / \partial \sigma$  is given by the term in parentheses in (9) with  $T = t_i$  times  $S_{t_i}$ .
-
-# 2.1 The Pathwise Method for SDEs
-
-While we have only considered GBM models to date the pathwise method can be applied to considerably more general models. Suppose for example that a security price  $S_{t}$  satisfies the SDE
-
-$$
-d S_{t} = \mu_{t} S_{t} d t + \sigma_{t} S_{t} d W_{t}
-$$
-
-where  $\mu_t$  and  $\sigma_t$  could be stochastic but do not depend on  $S_0$ . Then Ito's Lemma implies
-
-$$
-S_{T} = S_{0} \exp \left(\int_{0}^{T} \left(\mu_{t} - \sigma_{t}^{2} / 2\right) d t + \int_{0}^{T} \sigma_{t} d W_{t}\right) \tag {11}
-$$
-
-and so we still have  $\partial S_T / \partial S_0 = S_T / S_0$ . Indeed this expression holds more generally for any model in which  $S_{t} = S_{0}\exp (X_{t})$  as long as the process  $X_{t}$  does not depend on  $S_{0}$ . Note that  $X$  could be a jump-diffusion or pure jump process and is not limited to being a diffusion. The following example, which can be interpreted as Heston's stochastic volatility model or the CIR short rate model, is one where the process is not linear in its state. Nonetheless we can still find  $\partial X_{t_i} / \partial X_0$ .
-
-# Example 4 (Square-Root Diffusions)
+### Example 4 (Square-Root Diffusions)
 
 Suppose  $X_{t}$  satisfies the SDE
 
@@ -262,15 +201,11 @@ $$
 
 where  $Z_{i+1} \sim \mathsf{N}(0,1)$  is used to generate  $X_{t_{i+1}}$  from  $X_{t_i}$ . The constants  $c_{1,i}$  and  $c_{2,i}$  depend on the time increment  $t_{i+1} - t_i$ .
 
-# Euler Schemes
+### Euler Schemes
 
-In general of course, we cannot solve SDE's explicitly or somehow isolate the dependence of the solution,  $S_{t}$ , of an SDE on  $S_{0}$  as we did in (11) or (12) above. In that case Euler (or other discretization) schemes can be used. Indeed it is possible to represent the pathwise sensitivity of an SDE as the solution to a related SDE which could then be solved numerically via an Euler scheme. Alternatively we could use an Euler scheme for the original SDE and then compute its pathwise derivative. Subject to technical conditions it is easy to see that the two approaches are equivalent. In particular, the differentiated Euler scheme is the Euler scheme for the differentiated SDE. Hence there is no theoretical difficulty in applying the pathwise method to general diffusions. But practical problems in terms of computational costs can arise, however. We also note that the various improvements to Euler schemes including variance reduction methods, multilevel sampling etc. can also be applied when applying the pathwise approach to diffusions. See Section 7.2.3 of Glasserman for further details.
+## 2.2 Inapplicability of Pathwise Method for Digital and Barrier Options
 
-# 2.2 Inapplicability of Pathwise Method for Digital and Barrier Options
-
-As mentioned earlier, the pathwise method generally fails to apply when the payoff is not an almost surely continuous function of the parameter in question (with only finitely many points of non-differentiability). Consider the following example.
-
-# Example 5 (Digital options and gamma)
+### Example 5 (Digital options and gamma)
 
 Consider a digital call option which has discounted payoff
 
@@ -296,51 +231,11 @@ The interchange of the order of expectation and differentiation in (15) is justi
 
 Note that the payoff  $Y$  in (14) (and inside the expectation in (16)) is not almost surely continuous in  $S_0$ . In fact for any  $Z \sim \mathsf{N}(0,1)$  in (7),  $Y$  will be discontinuous in  $S_0$  (albeit at just a single point) and so the rule of thumb justifying the interchange of expectation and differentiability will not hold. It's worth noting, however, that all is not lost as various smoothing tricks can be applied to smooth out the troublesome discontinuities; see Section 7.2.3 of Glasserman for further details and examples.
 
-# 2.3 Justifying the Interchange of Expectation and Differentiation in (5)
+## 2.3 Justifying the Interchange of Expectation and Differentiation in (5)
 
-As stated earlier, justifying the unbiasedness of the pathwise estimator (assuming the pathwise derivative actually exists) requires interchanging the order of expectation and differentiation in (5). More specifically, interchanging a limit and an expectation is required since the goal is to justify
+## 3 The Likelihood Ratio Method
 
-$$
-\mathrm{E} \left[ \lim_{h \rightarrow 0} \frac{Y (\theta + h) - Y (\theta)}{h} \right] = \lim_{h \rightarrow 0} \mathrm{E} \left[ \frac{Y (\theta + h) - Y (\theta)}{h} \right]. \tag {17}
-$$
-
-Various sufficient conditions are provided in Section 7.2.2 of Glasserman to justify (17) when the payoff  $Y(\theta)$  can be written as
-
-$$
-Y (\theta) = f (X_{1} ((\theta), \dots , X_{m} (\theta))
-$$
-
-for some function  $f: \mathbb{R}^m \mapsto \mathbb{R}$  whose form will depend on the specific security in question. The key condition which often fails to hold is the Lipschitz continuity of  $f$  which requires the existence of a constant,  $k_f$ , satisfying
-
-$$
-| f (x) - f (y) | \leq k_{f} \| x - y \| \tag {18}
-$$
-
-for all  $x, y \in \mathbb{R}^m$ . This condition (18) is our rule of thumb in mathematical form. It is perhaps also worth mentioning that the scope of the pathwise method is essentially the same as the scope of case (iii) in (4) for the finite difference estimators.
-
-# 3 The Likelihood Ratio Method
-
-In contrast to the pathwise method, the likelihood ratio method differentiates a probability density (rather than a discounted payoff  $Y$ ) with respect to the parameter of interest,  $\theta$ . It provides a good potential alternative to the pathwise method when  $Y$  is not continuous in  $\theta$ . In order to develop the method we now write the payoff  $Y = f(X_{1},\ldots ,X_{m})$  as a function of the random vector  $X = (X_{1},\dots,X_{m})$  whose components could for example represent the price of an underlying security at different dates, or the prices of several underlying securities at the same date. We assume that  $X$  has a density  $g$  and that  $\theta$  is a parameter of this density. We will therefore write  $g_{\theta}$  for this density and use  $\mathrm{E}_{\theta}$  to denote that expectations are taken with respect to  $g_{\theta}$ . We can therefore write
-
-$$
-\mathrm{E}_{\theta} [ Y ] = \int_{\mathbb {R}^{m}} f (x) g_{\theta} (x) d x. \tag {19}
-$$
-
-We can now differentiate across (19) to obtain
-
-$$
-\begin{array}{l} \alpha^{\prime} (\theta) = \frac{\partial}{\partial \theta} \mathrm{E}_{\theta} [ Y ] \\ = \int_{\mathbb {R}^{m}} f (x) \frac{\partial}{\partial \theta} g_{\theta} (x) d x \tag {20} \\ \end{array}
-$$
-
-where we have assumed the interchange of the order of differentiation and integration is again justified. Writing  $\dot{g}_{\theta}$  for  $\partial g_{\theta} / \partial \theta$  we can multiply and divide the integrand in (20) by  $g_{\theta}$  to obtain
-
-$$
-\begin{array}{l} \alpha^{\prime} (\theta) = \int_{\mathbb {R}^{m}} f (x) \frac{\dot {g}_{\theta} (x)}{g_{\theta} (x)} g_{\theta} (x) d x \\ = \mathrm{E}_{\theta} \left[ f (X) \frac{\dot {g}_{\theta} (X)}{g_{\theta} (X)} \right]. \tag {21} \\ \end{array}
-$$
-
-The ratio  $\dot{g}_{\theta}(X) / g_{\theta}(X)$  is known as the score function. While the interchange of the order of differentiation and integration needs to be justified this is typically not a problem since (unlike option payoffs with the pathwise approach) density functions are usually smooth functions of their parameters. It's also worth noting that there is considerable flexibility in whether we choose to view  $\theta$  as a parameter of the payoff  $Y$  or of the density  $g$ . In (7), for example, it is clear that  $S_0$  is a parameter of the path and not of the density which is  $\mathsf{N}(0,1)$  there. But we could also have written the density as a function of  $S_0$  as we now do below in Example 6.
-
-# Example 6 (Black-Scholes Delta)
+### Example 6 (Black-Scholes Delta)
 
 The lognormal density of  $S_{T}$  is given by
 
@@ -370,59 +265,11 @@ $$
 
 This is a particular advantage of the likelihood ratio method: once we have the score (which does not depend on the payoff) we immediately have estimators for other payoffs.
 
-# Example 7 (Path-Dependent Delta)
+### Example 7 (Path-Dependent Delta)
 
-Consider the Asian option of Example 3 where the payoff is a function of  $S_{t_1}, \ldots, S_{t_m}$ . The Markov property of GBM implies that we can factor the joint density of  $(S_{t_1}, \ldots, S_{t_m})$  as
+### Example 8 (Path-Dependent Vega)
 
-$$
-g \left(x_{1}, \dots , x_{m}\right) = g_{1} \left(x_{1} \mid S_{0}\right) g_{2} \left(x_{2} \mid x_{1}\right) \dots g_{m} \left(x_{m} \mid x_{m - 1}\right) \tag {23}
-$$
-
-where each  $g_{j}(x_{j} \mid x_{j-1})$  is the (lognormal) transition density from time  $t_{j-1}$  to time  $t_{j}$  and satisfies
-
-$$
-g_{j} (x_{j} \mid x_{j - 1}) = \frac{1}{x_{j} \sigma \sqrt{t_{j} - t_{j - 1}}} \phi (\zeta_{j} (x_{j} | x_{j - 1}))
-$$
-
-with
-
-$$
-\zeta_{j} (x_{j} | x_{j - 1}) := \frac{\log (x_{j} / x_{j - 1}) - (r - \sigma^{2} / 2) (t_{j} - t_{j - 1})}{\sigma \sqrt{t_{j} - t_{j - 1}}}.
-$$
-
-Note that  $S_0$  is a parameter of the first factor  $g_1$  but not of the other factors. From (23) it therefore follows that the score satisfies
-
-$$
-\frac{\partial \log (g (S_{t_{1}} , \ldots , S_{t_{m}}))}{\partial S_{0}} = \frac{\partial \log (g_{1} (S_{t_{1}} | S_{0}))}{\partial S_{0}} = \frac{\zeta_{1} (S_{1} | S_{0})}{S_{0} \sigma \sqrt{t_{1}}}.
-$$
-
-This last expression can be written as
-
-$$
-\frac{Z_{1}}{S_{0} \sigma \sqrt{t_{1}}}
-$$
-
-where  $Z_{1}$  is the standard normal used to generate  $S_{t_1}$  from  $S_{0}$  as in (7). The likelihood ratio estimator of the Asian option delta is therefore given by
-
-$$
-e^{- r T} \left(\bar {S} - K\right)^{+} \frac{Z_{1}}{S_{0} \sigma \sqrt{t_{1}}}.
-$$
-
-Note the similarity between the calculations here and those in Example 6.
-
-# Example 8 (Path-Dependent Vega)
-
-If we wish to estimate the vega for the same Asian option of Example 7 then we first note that the parameter  $\sigma$  appears in every transition density  $g_{j}$  rather than only the first one,  $g_{1}$ . Omitting some of the calculations, this implies the score takes the form
-
-$$
-\begin{array}{l} \frac{\partial \log \left(g \left(S_{t_{1}} , \dots , S_{t_{m}}\right)\right)}{\partial \sigma} = \sum_{j = 1}^{m} \frac{\partial \log \left(g_{j} \left(S_{t_{j}} \mid S_{t_{j - 1}}\right)\right)}{\partial \sigma} \\ = - \sum_{j = 1}^{m} \left(\frac{1}{\sigma} + \zeta_{j} \left(S_{t_{j}} \mid S_{t_{j - 1}}\right) \frac{\partial \zeta_{j}}{\partial \sigma}\right) \\ = \sum_{j = 1}^{m} \left(\frac{Z_{j}^{2} - 1}{\sigma} - Z_{j} \sqrt{t_{j} - t_{j - 1}}\right) \tag {24} \\ \end{array}
-$$
-
-with the  $Z_{j}$ 's IID normal and each  $Z_{j}$  used to generate  $S_{t_j}$  from  $S_{t_{j - 1}}$ .
-
-There is also no difficulty computing the score function (and therefore unbiased likelihood ratio estimators) for basket derivatives driven by multivariate geometric Brownian motions. In general of course, GBM is not a good model for security price processes and more complex processes are used in practice. Very often the obstacle to using the method is the non-availability of an explicit form for the density  $g_{\theta}$ . This is often the case, for example, with general diffusion processes but this issue can then typically be overcome by working with a discretized scheme such as an Euler scheme where the densities (are normal and) are available explicitly. See Section 7.3.4 of Glasserman. Another important problem that often renders the likelihood ratio method impractical is the variance of the corresponding estimators. We discuss this in Section 3.1 below.
-
-# 3.1 Bias, Absolute Continuity and Variance
+## 3.1 Bias, Absolute Continuity and Variance
 
 As stated earlier, justifying the interchange of the order of differentiation and integration in (20) needs to be justified mathematically in order to guarantee that the LR estimator in (21) is unbiased. This is rarely an issue, however, since density functions are usually smooth functions of their parameters and such smoothness is generally sufficient to justify the interchange. Nonetheless, it is worth considering the issue as it will help shed some light on why the variance of LR estimators can be very large. Recall that the goal is to compute
 
@@ -457,23 +304,9 @@ Figure 1: Pathwise versus likelihood ratio method for estimating the vega of an 
 
 The results are displayed in Figure 1 and are based on 500k samples. In Figure 1(a) the estimated variances are plotted on a log-scale and we see that the pathwise estimator has a much lower variance than the LR estimator for all values of  $m$  with the discrepancy between the two increasing with  $m$ . In Figure 1(b), we plot the estimated vegas from each method and we can see clearly that the pathwise estimator is a much smoother function of  $m$  than the LR estimator. These results are consistent with our earlier observations.
 
-# 3.2 Estimating Second Derivatives
+## 3.2 Estimating Second Derivatives
 
-A similar argument to the one that lead to (21) can be used to show that
-
-$$
-f (X) \frac{\ddot {g}_{\theta} (X)}{g_{\theta} (X)} \tag {26}
-$$
-
-is an unbiased estimator of the second derivative
-
-$$
-\alpha^{\prime \prime} (\theta) := \frac{\partial^{2}}{\partial \theta^{2}} \mathrm{E}_{\theta} [ f (X) ].
-$$
-
-Of course the correctness of (26) relies as usual on the interchange of the order of expectation and differentiation being justified (which is typically the case with the LR method as discussed earlier). Even more so than the score, however, the estimator in (26) can often lead to very large variances. There are various possible solutions to this problem. One approach is to combine the pathwise and LR methods by using the pathwise estimator to estimate the first derivative and then applying the LR estimator to the pathwise estimator to obtain an estimator of the second derivative. Alternatively, we could start first with the LR estimator and then apply the pathwise estimator. Some success has also been had combining one of these estimators with finite difference estimators. Section 7.3.3 of Glasserman contains some details and numerical examples.
-
-# 4 Combining the Pathwise and Likelihood Ratio Methods
+## 4 Combining the Pathwise and Likelihood Ratio Methods
 
 We can combine the pathwise and LR estimators in order to leverage the strengths of each approach. Consider for example the problem of estimating the delta of a digital call option with strike  $K$ . We know from Example 14 that the pathwise approach cannot be used directly here. Nonetheless we can proceed by writing the digital payoff as
 

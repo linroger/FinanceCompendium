@@ -1,11 +1,35 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: COMMERCIAL BANKS AS A SECTOR OF THE FINANCIAL INSTITUTIONS INDUSTRY: CHAPTER OVERVIEW
+parent_directory: Part 03 Commercial Banks
+formatted: 2025-12-21 10:55:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - commercial banks
+  - financial institutions
+  - bank regulation
+  - balance sheets
+secondary_tags:
+  - recent trends
+  - assets
+  - liabilities
+  - equity
+  - off-balance-sheet activities
+  - fee-generating activities
+  - size structure composition
+  - bank size concentration
+  - industry performance
+  - regulators
+  - federal deposit insurance
+  - office comptroller currency
+  - federal reserve system
+  - state authorities
+  - global issues
+  - international expansion
+  - global banking performance
+  - european debt crisis
+  - brexit
 cssclasses: academia
-title: "COMMERCIAL BANKS AS A SECTOR OF THE FINANCIAL INSTITUTIONS INDUSTRY: CHAPTER OVERVIEW"
-linter-yaml-title-alias: "COMMERCIAL BANKS AS A SECTOR OF THE FINANCIAL INSTITUTIONS INDUSTRY: CHAPTER OVERVIEW"
 ---
 
 Industry: Chapter Overview
@@ -540,59 +564,3 @@ cooperation to smooth border checks. The outcome would be effectively same as a 
 
 This chapter provided an overview of the major activities of commercial banks and recent trends in the banking industry. Commercial banks rely heavily on deposits to fund their activities, although borrowed funds are becoming increasingly important for the largest institutions. Historically, commercial banks have concentrated on commercial or business lending and on investing in securities. Differences between the asset and liability portfolios of commercial banks and other financial institutions, however, are being eroded due to competitive forces, consolidation, and regulation. Indeed, in the 2000s, the largest group of assets in commercial bank portfolios were mortgage related. The chapter examined recent financial statements for the commercial banking industry, as well as industry trends in size and activities. Finally, the chapter provided an overview of this industry's performance over the last decade and discussed several global issues in commercial banking.
 
-# QUESTIONS
-
-1. What is meant by the term depository institution? How does a depository institution differ from an industrial corporation? (LG 11-1)
-2. What are the major sources of funds for commercial banks in the United States? What are the major uses of funds for commercial banks in the United States? For each of your answers, specify where the item appears on the balance sheet of a typical commercial bank. (LG 11-2, LG 11-3)
-3. What are the principal types of financial assets for commercial banks? How has the relative importance of these assets changed over the past several decades? What are some of the forces that have caused these changes? What are the primary types of risk associated with these types of assets? (LG 11-2)
-4. Why do commercial banks hold investment securities? (LG 11-2)
-5. What are the principal liabilities for commercial banks? What does this liability structure tell us about the maturity of the liabilities of banks? What types of risks does this liability structure entail for commercial banks? (LG 11-3)
-6. What type of transaction accounts do commercial banks issue? Which type of accounts have dominated the transaction accounts of banks? (LG 11-3)
-7. What are the three major segments of deposit funding? How are these segments changing over time? Why? What strategic impact do these changes have on the profitable operation of a bank? (LG 11-3)
-8. How does the liability maturity structure of a bank's balance sheet compare with the maturity structure of the asset portfolio? What risks are created or intensified by these differences? (LG 11-2, LG 11-3)
-9. What is meant by an off-balance-sheet activity? What are some of the forces responsible for them? (LG 11-4)
-10. How does one distinguish between an off-balance-sheet asset and an off-balance-sheet liability? (LG 11-4)
-11. What types of activities are normally classified as off-balance-sheet (OBS) activities? (LG 11-4) a. How does an OBS activity move onto the balance sheet as an asset or liability?
-
-b. What are the benefits of OBS activities to a bank?
-
-c. What are the risks of OBS activities to a bank?
-
-12. What are the main off-balance-sheet activities undertaken by commercial banks? (LG 11-4)
-13. The following balance sheet accounts (in millions of dollars) have been taken from the annual report for a U.S. bank. Arrange the accounts in balance sheet order and determine the value of total assets. Based on the balance sheet structure, would you classify this bank as a community bank, regional bank, or a money center bank? (LG 11-6)
-
-<table><tr><td>Premises</td><td>\$1,078</td><td>Net loans</td><td>\$29,981</td></tr><tr><td>Savings deposits</td><td>3,292</td><td>Short-term borrowing</td><td>2,080</td></tr><tr><td>Cash</td><td>2,660</td><td>Other liabilities</td><td>778</td></tr><tr><td>NOW accounts</td><td>12,816</td><td>Equity</td><td>3,272</td></tr><tr><td>Long-term debt</td><td>1,191</td><td>Investment securities</td><td>5,334</td></tr><tr><td>Other assets</td><td>1,633</td><td>Demand deposits</td><td>5,939</td></tr><tr><td></td><td></td><td>Certificates of deposit</td><td></td></tr><tr><td>Intangible assets</td><td>758</td><td>(under 100,000)</td><td>9,853</td></tr><tr><td>Other time deposits</td><td>2,333</td><td>Federal funds sold</td><td>110</td></tr></table>
-
-14. What has been the recent trend in the number of commercial banks in the United States? What factors account for this trend? (LG 11-5)
-15. What challenges have been made to the commercial banking industry by nonbanks? (LG 11-5)
-16. What is a money center bank and a regional bank? (LG 11-5)
-17. What are the differences between community banks, regional banks, and money center banks? Contrast the business activities, locations, and markets of each of these bank groups. (LG 11-6)
-18. How do small bank activities differ from large bank activities? (LG 11-5)
-19. Compare and contrast the profitability ratios (ROE and ROA) of banks with assets below and above  $\$ {100}$  million in Figure 11-7 from 1990 through 2016. What conclusions can you derive from those numbers? (LG 11-6)
-20. How has the performance of the commercial banking industry changed in the last 30 years? (LG 11-6)
-21. Which commercial banks are experiencing the highest profitability? Which commercial banks are experiencing the lowest profitability? (LG 11-6)
-22. Who are the major regulators of commercial banks? Which banks does each agency regulate? (LG 11-7)
-23. What are the major functions performed by the FDIC? (LG 11-7)
-24. What are the main advantages of being a member of the Federal Reserve System? (LG 11-7)
-25. For each of the following banking organizations, identify which regulatory agencies (OCC, FRB, FDIC, or state banking commission) may have some regulatory supervision responsibility. (LG 11-7) a. State-chartered, nonmember, non-holding company bank
-
-b. State-chartered, nonmember, holding company bank c. State-chartered member bank
-
-d. Nationally chartered non-holding company bank e. Nationally chartered holding company bank
-
-26. What are the advantages and disadvantages of international expansion? (LG 11-8)
-
-# SEARCH THE SITE
-
-Go to the Federal Deposit Insurance Corporation website at www.fdic.gov and find the latest balance sheet information available for commercial banks. Click on "Industry Analysis." Click on "Bank Data & Statistics," and then on "Reporting Tools." Under "Standard Industry Reports," and "Standard Report 1," click on "Run Report." This will download a file onto your computer that will contain the most recent balance sheet information for commercial banks.
-
-# Questions
-
-1. Calculate the percentage change in total assets for the commercial bank industry since 2019 reported in Table 11-1.
-2. Calculate the percentage of investment securities to total assets, loans to total assets, deposits to total assets, and equity to total assets. How have these changed since 2019?
-
-Chapter
-
-# 12
-
-OUTLINE

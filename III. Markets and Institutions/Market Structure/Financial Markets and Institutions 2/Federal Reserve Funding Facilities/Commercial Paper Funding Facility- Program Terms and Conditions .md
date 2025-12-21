@@ -1,13 +1,22 @@
 ---
-parent_directory:
-title: "Commercial Paper Funding Facility: Program Terms and Conditions"
-tags:
-aliases:
-parent_folder: Federal Reserve Funding Facilities
-subfolder:
-key_concepts:
+title: Commercial Paper Funding Facility: Program Terms and Conditions
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/Federal Reserve Funding Facilities
+formatted: 2025-12-21 10:55:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- commercial paper funding
+- federal reserve facilities
+- credit facility terms
+- special purpose vehicle
+secondary_tags:
+- term commercial paper
+- eligible issuers
+- asset-backed commercial paper
+- credit rating requirements
+- facility pricing
+- termination conditions
 cssclasses: academia
-linter-yaml-title-alias: "Commercial Paper Funding Facility: Program Terms and Conditions"
 ---
 
 # Commercial Paper Funding Facility: Program Terms and Conditions

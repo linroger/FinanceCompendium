@@ -1,12 +1,25 @@
 ---
-aliases:
-  - The impossibility of the impossible trinity? The case of Indonesia
-tags:
-key_concepts:
-parent_directory: Financial Investments for Public Policy
-cssclasses: academia
 title: The impossibility of the impossible trinity? The case of Indonesia
-linter-yaml-title-alias: The impossibility of the impossible trinity? The case of Indonesia
+parent_directory: Financial Investments for Public Policy
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - impossible trinity
+  - capital flow management
+  - monetary policy independence
+  - exchange rate regimes
+  - emerging market economics
+secondary_tags:
+  - indonesia economic policy
+  - quantitative easing effects
+  - taper tantrum analysis
+  - commodity supercycle
+  - fiscal procyclicality
+  - macroprudential policy
+  - institutional quality
+  - balance sheet effects
+cssclasses: academia
 ---
 
 # The impossibility of the impossible trinity? The case of Indonesia
@@ -16,7 +29,7 @@ M. Chatib Basri* and Luqman Sumartono**
 * University of Indonesia, Indonesia, e-mail: mcbasri@icloud.com
 ** Harvard Kennedy School, USA, e-mail: lsumartono@hks.harvard.edu
 
-# Abstract
+## Abstract
 
 The impossible trinity suggests that an economy cannot simultaneously achieve a fixed exchange rate, high capital mobility, and independent monetary policy without abandoning one of these. However, This paper looks at Indonesia's experiences from the 2009 QE and the 2013 taper tantrum, considering why Indonesian policy-makers were unable to use policies as per the trilemma, and the policy implications of this. There are three possible reasons why Indonesia found it difficult to implement this trilemma policy choice: differing monetary policy objectives, volatile floating exchange rates, and balance sheet effects. The commodity supercycle also plays an exogenous role, unable to be overcome by monetary or exchange rate policy while at the same time impacting fiscal policy, income redistribution, trade balance, and the exchange rate. Overall, this paper argues that monetary policy on its own is likely to be insufficient to manage the economy adequately. Other levers and factors, such as macroprudential policy, fiscal policy, capital flow management, and institutional quality, are critical to make the policy choices more effective.
 
@@ -24,13 +37,11 @@ Keywords: macroeconomics, impossible trinity, trilemma, monetary policy, fiscal 
 
 JEL classification: E52, E58, E62, F41, F42, G15, G18
 
-# I. Introduction
+## I. Introduction
 
 Capital flow is like a double-edged sword. It is perceived to benefit both recipient countries and investors, who can diversify their risks and increase their returns. However, large capital flow disruptions also create significant challenges and issues for policy-makers in emerging markets and developing economies (EMDEs). The potential vulnerabilities that arise from capital inflows are a topic that has received much attention in crisis literature (Calvo et al. (1993); Kaminsky et al. (2003); and Reinhart and Rogoff (2009b)). This topic is especially relevant today as economies worldwide are still reeling from the most significant global economic shock in the twenty-first century: the Covid-19 pandemic. There is widespread concern that the Federal Reserve (Fed)'s exit strategy from its stimulus policy will increase uncertainty in EMDE's financial markets. This uncertainty is exacerbated further by the inflationary pressures in the US, brought on by increasing demand and supply shocks stemming from supply chain disruptions and rising energy and commodity prices. High inflation in the US and other nations puts significant pressure on the Fed to raise interest rates. An increase in US interest rates increases the possibility of capital outflows, raising concerns that a 'taper tantrum (TT) 2.0' will take place.
 
-In preparing for a potential TT 2.0, lessons from the 2013 taper tantrum highlight that US tapering talk induced capital outflows for EMDEs, particularly for the so-called 'Fragile Five' that had sizeable current account deficits (Aizenman et al., 2014). A large current account deficit is not always harmful, especially one financed by long-term, productive foreign direct investment (FDI) from an export-oriented sector (Basri, 2017). However, it may exacerbate a country's vulnerabilities if financed by portfolio investment, as the 'Fragile Five' were. The 2013
-
-TT illustrated that financial markets become anxious when the current account deficit exceeds 3 per cent, though this varies by country. Because of this anxiety, short-term portfolio investment, considered riskier than FDI, flows out of EMDEs.
+In preparing for a potential TT 2.0, lessons from the 2013 taper tantrum highlight that US tapering talk induced capital outflows for EMDEs, particularly for the so-called 'Fragile Five' that had sizeable current account deficits (Aizenman et al., 2014). A large current account deficit is not always harmful, especially one financed by long-term, productive foreign direct investment (FDI) from an export-oriented sector (Basri, 2017). However, it may exacerbate a country's vulnerabilities if financed by portfolio investment, as the 'Fragile Five' were. The 2013 TT illustrated that financial markets become anxious when the current account deficit exceeds 3 per cent, though this varies by country. Because of this anxiety, short-term portfolio investment, considered riskier than FDI, flows out of EMDEs.
 
 Short-term capital outflows to which EMDEs are prone are indicative of policy credibility, legal certainty, or investment climate issues that affect the riskiness of short-term portfolios and are not fully covered by monetary policy. The lack of FDI, as opposed to short-term capital, can potentially be explained by the 'Lucas Paradox', which finds that, because of poor institutional quality and contrary to neoclassical economic theory, the capital flow does not flow from developed to developing countries. If a country can improve its institutions and overcome the risks associated with the volatility of its investment portfolio, investors will be more inclined to enter through FDI. Thus, it is crucial to consider the role of institutions when discussing attempts to reduce capital flow volatility (this is covered in section VI).
 
@@ -48,7 +59,7 @@ This paper looks at Indonesia's experiences from the 2009 QE and the 2013 taper 
 
 This paper is divided into sections. Section I serves as an introduction. Section II discusses the concept of the trilemma and managing capital flows. Section III highlights Indonesia's lessons from dealing with the 2009 Global Financial Crisis and the 2013 taper tantrum. Section IV explains why the trilemma policy choice is difficult to implement. Section V discusses why the Task was complicated by the commodity supercycle and procyclical fiscal policy. Section VI discusses the role of capital flow management and institutions. Finally, Section VII discusses the way ahead.
 
-# II. Impossible trinity (trilemma) and managing capital flows: a conceptual framework
+## II. Impossible trinity (trilemma) and managing capital flows: a conceptual framework
 
 In international macroeconomics and finance, Mundell's trilemma framework provides a powerful tool to analyse the links between exchange rates, capital flows, and monetary autonomy. As previously mentioned, with a fixed exchange rate, there is a case for interfering with the free movement of international capital flows by imposing capital controls to regain monetary autonomy (Farhi and Werning, 2012). By contrast, with a flexible exchange rate, monetary policy is already independent, and there is no prima facie case for restricting international capital mobility.
 
@@ -60,7 +71,7 @@ In the event of capital inflows, the IMF (2011) also provides a macroeconomic fr
 
 In the event of managing capital outflows, Figure 2 depicts policy alternatives based on conditions of reserves, exchange rate, and the economy. When the exchange rate is undervalued, the policy option is to raise interest rates. In the lack of adequate reserves, the policy options available are to depreciate the currency or raise interest rates. Both the frameworks in Figures 1 and 2 can help policy-makers figure out how to handle the flow of capital and will be used to talk about Indonesia's experience with the 2009 QE episode and the 2013 taper tantrum.
 
-# III. Why the trilemma has limitations: lessons learned from Indonesia's response to the 2009 QE and taper tantrum 2013
+## III. Why the trilemma has limitations: lessons learned from Indonesia's response to the 2009 QE and taper tantrum 2013
 
 (i) The 2009 QE
 
@@ -70,7 +81,7 @@ The 2009 quantitative easing (QE) episode induced capital inflows to various cou
 
 $^{2}$  Diaz-Alejandro (1983), Calvo et al. (1996), Eichengreen and Portes (1987), Reinhart and Rogoff  $(2009a)$ , and Lane and McQuade (2013) among many others.
 
-such as bonds, equities, and loans, increased from  \$24.7 billion in 2010 to\$ 32.6 billion in 2013, peaking in the second quarter of 2013 (and then declining due to the taper tantrum). Sahay et al. (2014) show that portfolios dominated capital inflows into Emerging Markets in Asia (excluding China). The dominance of portfolio capital inflows in EM Asia poses a much greater risk of capital outflows than FDI. At the same time, some resource-rich
+such as bonds, equities, and loans, increased from \$24.7 billion in 2010 to \$32.6 billion in 2013, peaking in the second quarter of 2013 (and then declining due to the taper tantrum). Sahay et al. (2014) show that portfolios dominated capital inflows into Emerging Markets in Asia (excluding China). The dominance of portfolio capital inflows in EM Asia poses a much greater risk of capital outflows than FDI. At the same time, some resource-rich
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/30f4b66a-328f-4964-b6ff-c67a0ce2d80b/1f33fd73c26a64917af3ba5c5762420122a9dcfc19a463e34525d4e9056ab3b6.jpg)  
 Figure 1: Coping with capital inflows: policy considerations. Notes: Each circle represents cases where the relevant condition is met. For example, the top-most circle ('Exchange rate not undervalued') represents cases where the exchange rate is assessed to be broadly in line with fundamentals or overvalued. The intersection of all three circles (the area marked (c))—where use of capital flow management measures may be appropriate—reflects cases where the exchange rate is not undervalued, reserves are judged to be adequate, and the economy is overheating. Other intersections similarly represent other confluences of factors. For example, the top left intersection (area (b)) represents cases where the exchange rate is not undervalued, reserves are judged to be adequate, and the economy is not overheating (since the case is outside the 'Economy overheating' circle). Areas of no intersection represent cases where one of the circles—but not the other two—is applicable. For example, the bottom right area ((g)) represents cases where the economy is overheating, the exchange rate is assessed to be undervalued, and reserves are judged to be inadequate. 'Lower rates/Rebalance policy mix' refers to loosening monetary policy; to the extent that fiscal policy is tightened, there would be more room to lower policy rates. Source: IMF (2011).

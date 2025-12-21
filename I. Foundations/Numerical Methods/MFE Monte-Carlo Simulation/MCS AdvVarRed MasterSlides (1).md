@@ -1,43 +1,39 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'IEOR E4703: Monte-Carlo Simulation'
-linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+title: "IEOR E4703: Monte-Carlo Simulation"
+parent_directory: "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation"
+formatted: "2025-12-21 02:00:00 PM"
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- variance reductions
-- set approx
-- stratified sampling algorithm
-- independent variables
+  - monte carlo simulation
+  - variance reduction methods
+  - importance sampling
+  - stratified sampling
 secondary_tags:
-- carlo simulation
-- estimating conditional expectations importance
-- tilted density
-- importance sampling density
-- original simulation method
-- carlo approaches
-- sampling algorithm
-- original and importance sampling densities
-- significant variance reduction
-tags_extracted: '2025-12-18T17:59:12.452841'
-tags_method: max_quality_v1
+  - rare event simulation
+  - tilted densities
+  - conditional expectations
+  - portfolio credit risk
+  - ruin probabilities
+  - bernoulli mixture models
+  - asian option pricing
+  - dependent default indicators
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
 
-# Further Variance Reduction Methods
+## Further Variance Reduction Methods
 
-# Martin Haugh
+### Martin Haugh
 
 Department of Industrial Engineering and Operations Research
 
 Columbia University
 
-Email: martin.b.baugh@gmail.com
+Email: martin.b.b.baugh@gmail.com
 
-# Outline
+## Outline
 
 Importance Sampling Introduction and Main Results Tilted Densities Estimating Conditional Expectations
 
@@ -45,7 +41,7 @@ An Application to Portfolio Credit Risk Independent Default Indicators Dependent
 
 Stratified Sampling The Stratified Sampling Algorithm Some Applications to Option Pricing
 
-# Just How Unlucky is a 25 Standard Deviation Return?
+## Just How Unlucky is a 25 Standard Deviation Return?
 
 Suppose we wish to estimate  $\theta \coloneqq P(X\geq 25) = \mathsf{E}[I_{\{X\geq 25\}}]$  where  $X\sim \mathsf{N}(0,1)$ .
 
@@ -57,14 +53,14 @@ Standard Monte-Carlo approach proceeds as follows:
 4. Compute approximate  $95\%$  CI as
 
 $$
-\hat {\theta}_{n} \pm 1. 9 6 \times \hat {\sigma}_{n} / \sqrt{n}.
+\hat{\theta}_{n} \pm 1.96 \times \hat{\sigma}_{n} / \sqrt{n}.
 $$
 
 Question: Why is this a bad idea?
 
 Question: Beyond knowing that  $\theta$  is very small, do we even care about estimating  $\theta$  accurately?
 
-# The Importance Sampling Estimator
+## The Importance Sampling Estimator
 
 Suppose we wish to estimate  $\theta = \mathsf{E}_f[h(X)]$  where  $X$  has PDF  $f$ .
 
@@ -84,7 +80,7 @@ $$
 \hat {\theta}_{n, i s} = \sum_{j = 1}^{n} \frac{h (X_{j}) f (X_{j})}{n g (X_{j})}.
 $$
 
-# The Importance Sampling Estimator
+## The Importance Sampling Estimator
 
 $\hat{\theta}_{n,is}$  is then an unbiased estimator of  $\theta$
 
@@ -105,7 +101,11 @@ Also refer to  $f / g$  as the likelihood ratio.
 Recall we want to estimate  $\theta = P(X\geq 25) = \mathsf{E}[I_{\{X\geq 25\}}]$  when  $X\sim \mathsf{N}(0,1)$ . We write
 
 $$
-\begin{array}{l} \theta = \mathsf {E} [ I_{\{X \geq 2 5 \}} ] = \int_{- \infty}^{\infty} I_{\{X \geq 2 5 \}} \frac{1}{\sqrt{2 \pi}} e^{- \frac{x^{2}}{2}} d x \\ = \int_{- \infty}^{\infty} I_{\{X \geq 2 5 \}} \left(\frac{\frac{1}{\sqrt{2 \pi}} e^{- \frac{x^{2}}{2}}}{\frac{1}{\sqrt{2 \pi}} e^{- \frac{(x - \mu)^{2}}{2}}}\right) \frac{1}{\sqrt{2 \pi}} e^{- \frac{(x - \mu)^{2}}{2}} d x \\ = \mathsf {E}_{\mu} \left[ I_{\{X \geq 2 5 \}} e^{- \mu X + \mu^{2} / 2} \right] \\ \end{array}
+\begin{array}{l}
+\theta = \mathsf{E}[I_{\{X \geq 25\}}] = \int_{-\infty}^{\infty} I_{\{X \geq 25\}} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^{2}}{2}} dx \\
+= \int_{-\infty}^{\infty} I_{\{X \geq 25\}} \left(\frac{\frac{1}{\sqrt{2\pi}} e^{-\frac{x^{2}}{2}}}{\frac{1}{\sqrt{2\pi}} e^{-\frac{(x - \mu)^{2}}{2}}}\right) \frac{1}{\sqrt{2\pi}} e^{-\frac{(x - \mu)^{2}}{2}} dx \\
+= \mathsf{E}_{\mu}[I_{\{X \geq 25\}} e^{-\mu X + \mu^{2}/2}]
+\end{array}
 $$
 
 and where now  $X\sim \mathsf{N}(\mu ,1)$
@@ -128,7 +128,7 @@ $$
 
 where  $h^{*}(\mathbf{X}) \coloneqq h(\mathbf{X})f(\mathbf{X}) / g(\mathbf{X})$ .
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 We wish to estimate  $\theta = \mathsf{E}_f[h(\mathbf{X})]$  where  $\mathbf{X}$  is a random vector with joint PDF,  $f$ .
 
@@ -147,7 +147,7 @@ and this gives rise to two estimators:
 1. $h(\mathbf{X})$  where  $\mathbf{X}\sim f$  
 2. $h^* (\mathbf{X})$  where  $\mathbf{X}\sim g$
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 The variance of importance sampling estimator is given by
 
@@ -169,7 +169,7 @@ $$
 
 - would like this reduction to be positive.
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 For this to happen, we would like
 
@@ -185,7 +185,7 @@ But by the above observation, would like to choose  $g$  so that  $f(\mathbf{x})
 
 When  $h$  involves a rare event so that  $h(\mathbf{x}) = 0$  over "most" of the state space, it can then be particularly valuable to choose  $g$  so that we sample often from that part of the state space where  $h(\mathbf{x}) \neq 0$ .
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 This is why importance sampling is most useful for simulating rare events.
 
@@ -462,7 +462,7 @@ $$
 P (Y_{i} = 1 \mid \Psi = \psi) = p_{i} (\psi).
 $$
 
-# An Application to Portfolio Credit Risk
+## An Application to Portfolio Credit Risk
 
 We consider a portfolio loss of the form  $L = \sum_{i=1}^{m} e_i Y_i$
 
@@ -477,7 +477,7 @@ Note that a good importance sampling distribution for  $\theta$  should also wor
 
 We begin with the case where the default indicators are independent …
 
-# Case 1: Independent Default Indicators
+## Case 1: Independent Default Indicators
 
 Define  $\Omega$  to be the state space of  $\mathbf{Y}$  so that  $\Omega = \{0,1\}^{m}$ .
 
@@ -496,12 +496,15 @@ $$
 Let  $Q_{t}$  be the corresponding tilted probability measure so that
 
 $$
-\begin{array}{l} Q_{t} (\{\mathbf {y} \}) = \frac{e^{t \sum_{i = 1}^{m} e_{i} y_{i}}}{M_{L} (t)} P (\{\mathbf {y} \}) = \prod_{i = 1}^{m} \frac{e^{t e_{i} y_{i}}}{(p_{i} e^{t e_{i}} + 1 - p_{i})} p_{i}^{y_{i}} (1 - p_{i})^{1 - y_{i}} \\ = \prod_{i = 1}^{m} q_{t, i}^{y_{i}} (1 - q_{t, i})^{1 - y_{i}} \\ \end{array}
+\begin{array}{l}
+Q_{t}(\{\mathbf{y}\}) = \frac{e^{t \sum_{i=1}^{m} e_{i} y_{i}}}{M_{L}(t)} P(\{\mathbf{y}\}) = \prod_{i=1}^{m} \frac{e^{t e_{i} y_{i}}}{(p_{i} e^{t e_{i}} + 1 - p_{i})} p_{i}^{y_{i}} (1 - p_{i})^{1 - y_{i}} \\
+= \prod_{i=1}^{m} q_{t,i}^{y_{i}} (1 - q_{t,i})^{1 - y_{i}}
+\end{array}
 $$
 
 where  $q_{t,i} \coloneqq p_i e^{te_i} / (p_i e^{te_i} + 1 - p_i)$  is the  $Q_t$  probability of the  $i^{th}$  credit defaulting.
 
-# Case 1: Independent Default Indicators
+## Case 1: Independent Default Indicators
 
 Note that the default indicators remain independent Bernoulli random variables under  $Q_{t}$ .
 
@@ -515,7 +518,7 @@ $$
 
 This value can be found easily using numerical methods.
 
-# Case 2: Dependent Default Indicators
+## Case 2: Dependent Default Indicators
 
 Suppose now that there is a  $p$ -dimensional factor vector,  $\Psi$ .
 
@@ -529,7 +532,7 @@ Can apply importance sampling to the second step using our discussion of indepen
 
 However, can also apply importance sampling to the first step, i.e. the simulation of  $\Psi$ .
 
-# Case 2: Dependent Default Indicators
+## Case 2: Dependent Default Indicators
 
 A natural way to do this is to simulate  $\Psi$  form the  $\mathrm{MVN}_p(\boldsymbol{\mu},\boldsymbol{\Sigma})$  distribution for some  $\boldsymbol{\mu} \in \mathbb{R}^p$ .
 
@@ -538,10 +541,13 @@ Corresponding likelihood ratio,  $r_{\mu}(\Psi)$ , is given by ratio of the two 
 It satisfies
 
 $$
-\begin{array}{l} {r_{\boldsymbol {\mu}} (\boldsymbol {\Psi})} = {\frac{\exp \left(- \frac{1}{2} \boldsymbol {\Psi}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\Psi}\right)}{\exp \left(- \frac{1}{2} (\boldsymbol {\Psi} - \boldsymbol {\mu})^{\top} \boldsymbol {\Sigma}^{- 1} (\boldsymbol {\Psi} - \boldsymbol {\mu})\right)}} \\ = \exp (- \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\Psi} + \frac{1}{2} \boldsymbol {\mu}^{\top} \boldsymbol {\Sigma}^{- 1} \boldsymbol {\mu}). \\ \end{array}
+\begin{array}{l}
+r_{\boldsymbol{\mu}}(\boldsymbol{\Psi}) = \frac{\exp\left(-\frac{1}{2} \boldsymbol{\Psi}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{\Psi}\right)}{\exp\left(-\frac{1}{2} (\boldsymbol{\Psi} - \boldsymbol{\mu})^{\top} \boldsymbol{\Sigma}^{-1} (\boldsymbol{\Psi} - \boldsymbol{\mu})\right)} \\
+= \exp\left(-\boldsymbol{\mu}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{\Psi} + \frac{1}{2} \boldsymbol{\mu}^{\top} \boldsymbol{\Sigma}^{-1} \boldsymbol{\mu}\right).
+\end{array}
 $$
 
-# Case 2: How Do We Choose  $\mu$ ?
+## Case 2: How Do We Choose $\mu$?
 
 Recall the quantity of interest is  $\theta \coloneqq P(L\geq c) = \mathsf{E}[P(L\geq c\mid \Psi)]$
 
@@ -560,7 +566,7 @@ Not possible to solve this problem exactly as we do not know  $P(L \geq c \mid \
 - but numerical methods can be used to find good approximate solutions  
 - See Glasserman and Li (2005) for further details.
 
-# The Algorithm for Estimating  $\theta = P(L \geq c)$
+## The Algorithm for Estimating $\theta = P(L \geq c)$
 
 1. Generate  $\Psi_{1},\ldots ,\Psi_{n}$  independently from the  $\mathsf{MVN}_p(\pmb {\mu},\pmb {\Sigma})$  distribution.  
 2. For each  $\Psi_{i}$  estimate  $P(L\geq c\mid \Psi = \Psi_{i})$  using the importance sampling distribution that we described in our discussion of independent default indicators.
@@ -573,7 +579,7 @@ $$
 \hat {\theta}_{n}^{I S} = \frac{1}{n} \sum_{i = 1}^{n} r_{\boldsymbol {\mu}} (\boldsymbol {\Psi}_{i}) \hat {\theta}_{n_{1}}^{I S} (\boldsymbol {\Psi}_{i}).
 $$
 
-# Stratified Sampling: A Motivating Example
+### Stratified Sampling: A Motivating Example
 
 Consider a game show where contestants first pick a ball at random from an urn and then receive a payoff,  $Y$ .
 
@@ -585,7 +591,7 @@ The producer of the game show would like to know how much a contestant will win 
 
 To answer this question, she decides to simulate the payoffs of  $n$  contestants and take their average payoff as her estimate.
 
-# Stratified Sampling: A Motivating Example
+### Stratified Sampling: A Motivating Example
 
 Payoff,  $Y$ , of each contestant is simulated as follows:
 
@@ -606,7 +612,7 @@ Question: What if  $f_{g}$  tended to produce very high payoffs and  $f_{b}$  te
 
 Question: Is there anything that we could have done to avoid this type of problem occurring?
 
-# Stratified Sampling: A Motivating Example
+### Stratified Sampling: A Motivating Example
 
 Know each ball color should be selected  $\frac{1}{4}$  of the time so we could force this to hold by conducting four separate simulations, one each to estimate  $\mathsf{E}[X|I = c]$  for  $c = r, g, b, y$ .
 
@@ -628,7 +634,7 @@ Question: How does  $\operatorname{Var}\left(\hat{\theta}_{st,n}\right)$  compar
 
 To answer this we assume (for now) that  $n_c = n / 4$  for each  $c$ , and that  $Y_c$  is a sample from the density,  $f_c$ .
 
-# Stratified Sampling: A Motivating Example
+### Stratified Sampling: A Motivating Example
 
 Then a fair comparison of  $\mathsf{Var}(\hat{\theta}_n)$  with  $\mathsf{Var}(\hat{\theta}_{st,n})$  should compare
 
@@ -651,7 +657,7 @@ $$
 \begin{array}{l} \operatorname{Va r} (Y) \geq \operatorname{E} [ \operatorname{Va r} (Y | I) ] \\ = \frac{1}{4} \mathsf {V a r} (Y | I = r) + \frac{1}{4} \mathsf {V a r} (Y | I = g) + \frac{1}{4} \mathsf {V a r} (Y | I = b) + \frac{1}{4} \mathsf {V a r} (Y | I = y) \\ = \frac{\operatorname{Va r} \left(Y_{r} + Y_{g} + Y_{b} + Y_{y}\right)}{4}. \\ \end{array}
 $$
 
-# Stratified Sampling
+## Stratified Sampling
 
 This implies
 
@@ -667,7 +673,7 @@ Note also that computational requirements for computing  $\hat{\theta}_{st,n}$  
 
 We call  $\hat{\theta}_{st,n}$  a stratified sampling estimator of  $\theta$  and say that  $I$  is the stratification variable.
 
-# The Stratified Sampling Algorithm
+## The Stratified Sampling Algorithm
 
 Want to estimate  $\theta \coloneqq \mathsf{E}[Y]$  where  $Y$  is a random variable.
 
@@ -681,7 +687,7 @@ Condition 2: It is easy to generate  $(Y|W\in \Delta)$ , i.e.,  $Y$  given  $W\i
 
 Now divide  $\mathbb{R}$  into  $m$  non-overlapping subintervals,  $\Delta_1,\ldots ,\Delta_m$ , such that  $\sum_{j = 1}^{m}p_{j} = 1$  where  $p_j\coloneqq P(W\in \Delta_j) > 0$
 
-# Notation
+## Notation
 
 1. Let  $\theta_{j} := \mathsf{E}[Y|W \in \Delta_{j}]$  and  $\sigma_{j}^{2} := \mathsf{Var}(Y|W \in \Delta_{j})$ .  
 2. Define the random variable  $I$  by setting  $I \coloneqq j$  if  $W \in \Delta_j$ .  
@@ -699,7 +705,7 @@ $$
 \sigma_{j}^{2} = \mathsf {V a r} (Y | I = j) = \mathsf {V a r} (Y^{(j)}).
 $$
 
-# Stratified Sampling
+## Stratified Sampling
 
 In particular obtain
 
@@ -719,7 +725,7 @@ $$
 
 Clear that  $\hat{\theta}_{st,n}$  will be unbiased if each  $\hat{\theta}_{i,n_i}$  is unbiased.
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 Would like to compare  $\operatorname{Var}(\hat{\theta}_n)$  with  $\operatorname{Var}(\hat{\theta}_{st,n})$ .
 
@@ -735,7 +741,7 @@ $$
 \begin{array}{l} \mathsf {V a r} (\hat {\theta}_{s t, n}) = \mathsf {V a r} (p_{1} \hat {\theta}_{1, n_{1}} + \ldots + p_{m} \hat {\theta}_{m, n_{m}}) \\ { = } { p_{ 1 }^{ 2 } \frac{ \sigma_{ 1 }^{ 2 } } { n_{ 1 } } + \ldots + p_{ m }^{ 2 } \frac{ \sigma_{ m }^{ 2 } } { n_{ m } } } \\ = \frac{\sum_{j = 1}^{m} p_{j} \sigma_{j}^{2}}{n}. \\ \end{array}
 $$
 
-# Obtaining a Variance Reduction
+## Obtaining a Variance Reduction
 
 But the usual simulation estimator has variance  $\sigma^2 /n$  where  $\sigma^2 \coloneqq \operatorname{Var}(Y)$ .
 
@@ -749,7 +755,7 @@ $$
 
 and the proof is complete!
 
-# Optimizing the Stratified Estimator
+## Optimizing the Stratified Estimator
 
 We know
 
@@ -771,7 +777,7 @@ $$
 \min_{n_{j}} \sum_{j = 1}^{m} \frac{p_{j}^{2} \sigma_{j}^{2}}{n_{j}} \quad \text{su bj ec t} n_{1} + \dots + n_{m} = n. \tag {8}
 $$
 
-# Optimizing the Stratified Estimator
+## Optimizing the Stratified Estimator
 
 Can easily solve (8) using a Lagrange multiplier to obtain
 
@@ -790,7 +796,7 @@ Note that the solution (9) makes intuitive sense:
 - If  $p_j$  large then (other things being equal) makes sense to expend more effort simulating from stratum  $j$ .  
 - If  $\sigma_j^2$  is large then (other things being equal) makes sense to simulate more often from stratum  $j$  so as to get a more accurate estimate of  $\theta_j$ .
 
-# Stratification Simulation Algorithm for Estimating  $\theta$
+## Stratification Simulation Algorithm for Estimating $\theta$
 
 set  $\hat{\theta}_{n,st} = 0$ ;  $\hat{\sigma}_{n,st}^2 = 0$ ;
 
@@ -820,7 +826,7 @@ end for
 
 set approx.  $100(1 - \alpha)\%$  CI =  $\hat{\theta}_{n,st} \pm z_{1 - \alpha / 2} \hat{\sigma}_{n,st}$
 
-# Example: Pricing a European Call Option
+## Example: Pricing a European Call Option
 
 Wish to price a European call option where we assume  $S_{t} \sim GBM(r, \sigma^{2})$ .
 
@@ -841,7 +847,7 @@ Let  $W = X$  be our stratification variable. To see that we can stratify using 
 
 Therefore clear that we can estimate  $C_0$  using  $X$  as a stratification variable.
 
-# Example: Pricing an Asian Call Option
+## Example: Pricing an Asian Call Option
 
 The discounted payoff of an Asian call option is given by
 
@@ -861,7 +867,7 @@ where the  $X_{i}$  's are IID  $\mathsf{N}(0,1)$
 
 Can therefore write  $C_a = \mathsf{E}[h(X_1, \ldots, X_m)]$  where  $h(.)$  given implicitly by (10) and (11).
 
-# Example: Pricing an Asian Call Option
+## Example: Pricing an Asian Call Option
 
 Can estimate  $C_a$  using stratified sampling but must first choose a stratification variable,  $W$ .
 
@@ -890,7 +896,7 @@ And if  $\Delta = (-\infty, a]$ , then  $P(W \in \Delta) = \Phi\left(\frac{a}{\s
 
 Need two results from the theory of multivariate normal random variables:
 
-# Result 1:
+## Result 1
 
 - Suppose  $\mathbf{X} = (X_{1},\dots,X_{m})\sim \mathsf{MVN}(\mathbf{0},\boldsymbol {\Sigma})$  
 - If we wish to generate a sample vector  $\mathbf{X}$ , we first generate  $\mathbf{Z} \sim \mathrm{MVN}(\mathbf{0}, \mathbf{I}_{\mathbf{m}})$  and then set
@@ -926,7 +932,7 @@ That is,  $\pmb{\Sigma}^{\top}\pmb{\Sigma} = \pmb{\Sigma}$  where  $\pmb {\Sigma
 
 - so we can take  $\mathbf{C} = \boldsymbol{\Sigma}$  in (12).
 
-# Back to Generating  $(Y|W\in \Delta)$
+## Back to Generating $(Y|W\in \Delta)$
 
 Can now return to the problem of generating  $(Y\mid W\in \Delta)$
 
@@ -942,7 +948,7 @@ $$
 
 Now we can generate  $\left[(X_1,\ldots ,X_m)\mid \sum_{i = 1}^{m}X_i\in \Delta \right]$  in two steps:
 
-# Back to Generating  $(Y|W\in \Delta)$
+## Back to Generating $(Y|W\in \Delta)$
 
 Step 1: Generate  $\left[\frac{1}{\sqrt{m}}\sum_{i=1}^{m}X_{i}\right|\left[\frac{1}{\sqrt{m}}\sum_{i=1}^{m}X_{i}\right] \in\left[\frac{a}{\sqrt{m}},\frac{b}{\sqrt{m}}\right]$ .
 
@@ -954,7 +960,7 @@ $$
 
 Let  $w$  be the generated value.
 
-# Step 2:
+## Step 2
 
 Now generate
 

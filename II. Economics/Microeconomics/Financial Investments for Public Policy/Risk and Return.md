@@ -1,58 +1,63 @@
 ---
-parent_directory:
-title: "RISK AND RETURN: PAST AND PROLOGUE"
-tags:
-aliases:
-parent_folder: Financial Investments for Public Policy
-subfolder:
-key_concepts:
+title: Risk and Return: Past and Prologue
+parent_directory: Financial Investments for Public Policy
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - risk return relationship
+  - investment performance measurement
+  - inflation adjusted returns
+secondary_tags:
+  - holding period returns
+  - arithmetic vs geometric averages
+  - dollar weighted returns
+  - nominal vs real rates
+  - fisher equation
 cssclasses: academia
-linter-yaml-title-alias: "RISK AND RETURN: PAST AND PROLOGUE"
 ---
 
 # RISK AND RETURN: PAST AND PROLOGUE
 
-# Rates of Return
+## Rates of Return
 
 - Holding-period return (HPR)—the rate of return that is earned on an investment over a particular period of time.
 
 $$
-\mathrm{HP R} = \frac{\text{En di ng va lu e -B eg in ni ng va lu e +C as hr ec ei ve d}}{\text{Be gi nn in gv al ue}}
+\mathrm{HPR} = \frac{\text{Ending value - Beginning value + Cash received}}{\text{Beginning value}}
 $$
 
 The equation provides the ex post (historical) return for an investment. If the investment is a stock, the return can be computed as follows:
 
 $$
-\mathrm{HP R}_{\text{St oc k}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right) + \mathrm{D}_{1}}{\mathrm{P}_{0}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right)}{\mathrm{P}_{0}} + \frac{\mathrm{D}_{1}}{\mathrm{P}_{0}} = \binom {\text{Ca pi ta lg ai ns}} {\text{yi el d}} + \binom {\text{Di vi de nd}} {\text{yi el d}}
+\mathrm{HPR}_{\text{Stock}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right) + \mathrm{D}_{1}}{\mathrm{P}_{0}} = \frac{\left(\mathrm{P}_{1} - \mathrm{P}_{0}\right)}{\mathrm{P}_{0}} + \frac{\mathrm{D}_{1}}{\mathrm{P}_{0}} = \binom {\text{Capital gains}} {\text{yield}} + \binom {\text{Dividend}} {\text{yield}}
 $$
 
 where  $\mathrm{P_1}$  is the per share value of the stock at the end of the investment period,  $\mathrm{P_0}$  is the per share value of the stock at the beginning of the investment period, and  $\mathrm{D_1}$  is the total cash dividend paid per share during the investment period. Although the investment period over which HPR is measured can be any length (e.g., one month, one quarter, one year, five years, and so forth), often HPR is computed for one year.
 
 - Measuring average returns over multiple periods—generally investors want to know the annual (or other period) rate of return that is earned during an investment period that covers a number of years (periods). Following are the methods used to determine the average return per period:
 
-$\circ$  Arithmetic average (simple average)—computation of the arithmetic average does not consider the effects of interest/return compounding.
+- Arithmetic average (simple average)—computation of the arithmetic average does not consider the effects of interest/return compounding.
 
 $$
-\frac{\text{Ar it hm et ic}}{\text{av er ag er et ur n}} = \mathrm{r}_{\mathrm{a}} = \frac{\mathrm{r}_{1} + \mathrm{r}_{2} + \cdots + \mathrm{r}_{\mathrm{n}}}{\mathrm{n}}
+\frac{\text{Arithmetic}}{\text{average return}} = \mathrm{r}_{\mathrm{a}} = \frac{\mathrm{r}_{1} + \mathrm{r}_{2} + \cdots + \mathrm{r}_{\mathrm{n}}}{\mathrm{n}}
 $$
 
 where  $\mathbf{r}_{\mathrm{t}} =$  the return that was earned in Period t and n is the total number of periods (months, quarters, years, etc.).
 
-$\circ$  Geometric average (time-weighted return)—considers compounding.
+- Geometric average (time-weighted return)—considers compounding.
 
 $$
-\frac{\text{Geometric}}{\text{averagereturn}} = \mathrm{r}_{\mathrm{g}} = \sqrt [ n ]{(1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}})} = \left[ (1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}}) \right]^{\left(\frac{1}{n}\right)}
+\frac{\text{Geometric}}{\text{average return}} = \mathrm{r}_{\mathrm{g}} = \sqrt [ n ]{(1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}})} = \left[ (1 + \mathrm{r}_{1}) (1 + \mathrm{r}_{2}) \dots (1 + \mathrm{r}_{\mathrm{n}}) \right]^{\left(\frac{1}{n}\right)}
 $$
 
 - Dollar-weighted average (internal rate of return, IRR)—considers variations in cash flows throughout the investment period.
 
 $$
-\frac{\text{Do ll ar} - \text{we ig ht ed}}{\text{av er ag er et ur n (IR R)}} = \text{In it ia lc as hf lo w} = \frac{\mathrm{CF}_{1}}{(1 + \mathrm{IR R})^{1}} + \frac{\mathrm{CF}_{2}}{(1 + \mathrm{IR R})^{2}} + \dots + \frac{\mathrm{CF}_{\mathrm{n}}}{(1 + \mathrm{IR R})^{\mathrm{n}}}
+\frac{\text{Dollar-weighted}}{\text{average return (IRR)}} = \text{Initial cash flow} = \frac{\mathrm{CF}_{1}}{(1 + \mathrm{IRR})^{1}} + \frac{\mathrm{CF}_{2}}{(1 + \mathrm{IRR})^{2}} + \dots + \frac{\mathrm{CF}_{\mathrm{n}}}{(1 + \mathrm{IRR})^{\mathrm{n}}}
 $$
 
-where the Initial cash flow represents the amount originally invested and  $\mathrm{CF_t} =$  the cash flow that occurs in Period t;  $\mathrm{CF_t}$  can be positive (e.g., when a dividend is received and it is not reinvested in the stock) or it can be negative (e.g., when more funds are invested in the stock);  $\mathrm{CF_n}$  is the terminal value of the investment, which is the total value of the investment at the
-
-end of the investment period.
+where the Initial cash flow represents the amount originally invested and  $\mathrm{CF_t} =$  the cash flow that occurs in Period t;  $\mathrm{CF_t}$  can be positive (e.g., when a dividend is received and it is not reinvested in the stock) or it can be negative (e.g., when more funds are invested in the stock);  $\mathrm{CF_n}$  is the terminal value of the investment, which is the total value of the investment at the end of the investment period.
 
 Annualized returns
 
@@ -60,7 +65,7 @@ Annual percentage rate, or APR—represents the simple, or non-compounded, inter
 
 APR = Rate per period × Number of periods in the year
 
-$\mathrm{O}$  Effective annual rate, or EAR—represents the compounded rate of return earned during the year.
+- Effective annual rate, or EAR—represents the compounded rate of return earned during the year.
 
 $$
 \mathrm{EA R} = \left(1 + \frac{\mathrm{AP R}}{\mathrm{n}}\right)^{\left(\frac{1}{\mathrm{n}}\right)} - 1. 0
@@ -68,16 +73,16 @@ $$
 
 where  $n$  is the number of periods in the year (e.g.,  $n = 12$  if monthly returns are used).
 
-# Inflation and the Real Rate of Interest
+## Inflation and the Real Rate of Interest
 
 - Inflation affects the purchasing power associated with the return that is earned on an investment: In general,
 
 $$
-R \approx R e a l r a t e + i
+R \approx \text{Real rate} + i
 $$
 
 $$
-\text{Re al ra te} \approx \mathrm{R} - \mathrm{i}
+\text{Real rate} \approx \mathrm{R} - \mathrm{i}
 $$
 
 where  $R$  is the nominal rate of return and  $i$  is the inflation rate during the investment period.
@@ -85,11 +90,11 @@ where  $R$  is the nominal rate of return and  $i$  is the inflation rate during
 More exactly,
 
 $$
-(1 + R) = (1 + \text{Re al ra te}) (1 + i)
+(1 + R) = (1 + \text{Real rate}) (1 + i)
 $$
 
 $$
-\text{Re al ra te} = (1 + \mathrm{R}) / (1 + \mathrm{i}) - 1 = (\mathrm{R} - \mathrm{i}) / (1 + \mathrm{i})
+\text{Real rate} = (1 + \mathrm{R}) / (1 + \mathrm{i}) - 1 = (\mathrm{R} - \mathrm{i}) / (1 + \mathrm{i})
 $$
 
 - The equilibrium nominal rate of interest; Fisher equation:
@@ -100,16 +105,16 @@ $$
 
 E(i) is the expected inflation rate
 
-# Risk and Risk Premiums
+## Risk and Risk Premiums
 
 Risk
 
-$\mathrm{O}$  Definition—variability (both upside and downside) of returns; more than one possible outcome  
+- Definition—variability (both upside and downside) of returns; more than one possible outcome  
 
 - Risk exists if there is a possibility the actual outcome could be something other than expected—the outcome could be better than expected or worse than expected.
 - Risk attitudes
 
-o aversion-an investor requires (demand) higher returns (greater rewards) for taking greater risk  
+- aversion-an investor requires (demand) higher returns (greater rewards) for taking greater risk  
 seeker—an investor requires lower returns for taking greater risk (will pay to take risk)  
 
 - neutral—risk doesn't matter—that is, doesn't care about risk; an investor considers return only; If all investors were considered truly risk neutral, eventually market mechanisms would cause all financial assets to yield the same expected return—the risk-free rate.
@@ -118,7 +123,7 @@ seeker—an investor requires lower returns for taking greater risk (will pay to
 Expected return—the average (mean) value of a probability distribution
 
 $$
-\underset {\text{re tu rn}} {\text{Ex pe ct ed}} = \mathrm{E} (\mathrm{r}) = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) \mathrm{r}_{\mathrm{s}}
+\underset {\text{return}} {\text{Expected}} = \mathrm{E} (\mathrm{r}) = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) \mathrm{r}_{\mathrm{s}}
 $$
 
 where  $\mathrm{p}(\mathrm{s})$  represents the probability that Scenario  $\mathrm{s}$  will occur and  $\mathbf{r}_{\mathrm{s}}$  is the return that will be earned when Scenario  $\mathrm{s}$  occurs.  $\mathrm{E}(\mathrm{r})$  is the expected return, which represents the weighted average of the possible payoffs (weighted by the probabilities).
@@ -126,11 +131,11 @@ where  $\mathrm{p}(\mathrm{s})$  represents the probability that Scenario  $\mat
 - Variance and standard deviation—provide an indication of the scatter, or variability, of the observations contained in a probability distribution; measure the total risk associated with an investment.
 
 $$
-\mathrm{Va ri an ce} = \sigma_{\mathrm{r}}^{2} = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}
+\mathrm{Variance} = \sigma_{\mathrm{r}}^{2} = \sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}
 $$
 
 $$
-\frac{\mathrm{S} \tan \mathrm{da rd}}{\text{de vi at io n}} = \sigma_{\mathrm{r}} = \sqrt{\sigma_{\mathrm{r}}^{2}} = \sqrt{\sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}}
+\frac{\mathrm{Standard}}{\text{deviation}} = \sigma_{\mathrm{r}} = \sqrt{\sigma_{\mathrm{r}}^{2}} = \sqrt{\sum_{\mathrm{s} = 1}^{\mathrm{n}} \mathrm{p} (\mathrm{s}) [ \mathrm{r}_{\mathrm{s}} - \mathrm{E} (\mathrm{R}) ]^{2}}
 $$
 
 - Normal distribution—stock returns generally exhibit kurtosis, which means the chances of large positive returns or large negative returns are greater than for returns that are normally distributed.  
@@ -139,7 +144,7 @@ $$
 Price of risk—the relationship between an investment's risk premium and its total risk
 
 $$
-\frac{\text{Pr ic eo f}}{\text{ri sk}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{S}}^{2}} = \frac{\text{Ri sk pr em iu m}}{\text{Ri sk me as ur e}} = \mathrm{A}
+\frac{\text{Price of}}{\text{risk}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{S}}^{2}} = \frac{\text{Risk premium}}{\text{Risk measure}} = \mathrm{A}
 $$
 
 $\mathrm{E}(\mathrm{r_s})$  is the expected return on Stock S and  $\sigma_{s}^{2}$  is the variance of returns on Stock S. The equation gives the amount of risk premium an investor requires for each "unit" of risk associated with an investment. For example, if the price of risk is 4.0, the investor demands a risk premium equal to at least 4 percent for every 1 unit of risk (measured as variance of returns) associated with any investment, which means an investment with a variance equal to  $0.04(\sigma = .2)$  must earn a risk premium equal to 16 percent for the investor to consider investing in it.
@@ -147,12 +152,12 @@ $\mathrm{E}(\mathrm{r_s})$  is the expected return on Stock S and  $\sigma_{s}^{
 Sharpe ratio-risk premium divided by standard deviation of returns
 
 $$
-\frac{\text{Sh ar pe}}{\text{ra ti o}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{s}}} = \frac{\text{Ri sk pr em iu m}}{\text{Ri sk me as ur e}}
+\frac{\text{Sharpe}}{\text{ratio}} = \frac{\mathrm{E} \left(\mathrm{r}_{\mathrm{S}}\right) - \mathrm{r}_{\mathrm{f}}}{\sigma_{\mathrm{s}}} = \frac{\text{Risk premium}}{\text{Risk measure}}
 $$
 
 Mean-variance analysis—evaluation of investments based on both their expected returns and risk; ranking stocks based on their Sharpe ratios would be mean-variance analysis.
 
-# Asset Allocation across Risky and Risk-Free Portfolios
+## Asset Allocation across Risky and Risk-Free Portfolios
 
 - Asset allocation—proportion of total funds invested in different types of securities.
 
@@ -168,7 +173,7 @@ Complete portfolio-combination of risky assets and "risk-free" assets
 
 * To form this portfolio, 50 percent of the total funds invested will be borrowed at the risk-free rate of return (i.e., the borrowed funds would cost 5 percent). The borrowed funds will be invested in the risky assets.
 
-$\bigcirc$  Following is information about the riskiness of the three portfolios shown in the CAL graph:
+- Following is information about the riskiness of the three portfolios shown in the CAL graph:
 
 <table><tr><td>Portfolio</td><td>Expected Return</td><td colspan="2">Risk Premium</td><td>σ</td><td>Sharpe Ratio</td></tr><tr><td>A</td><td>8.5%</td><td>3.5%</td><td>= 8.5% - 5.0%</td><td>9.0%</td><td>0.39 = 3.5%/9.0%</td></tr><tr><td>P</td><td>12.0%</td><td>7.0%</td><td>= 12.0% - 5.0%</td><td>18.0%</td><td>0.39 = 7.0%/18.0%</td></tr><tr><td>Q</td><td>15.5%</td><td>10.5%</td><td>= 15.5% - 5.0%</td><td>27.0%</td><td>0.39 = 10.5%/27.0%</td></tr></table>
 

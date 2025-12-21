@@ -1,16 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Investment Companies
-linter-yaml-title-alias: Investment Companies
+primary_tags:
+  - mutual fund industry
+  - investment company regulation
+  - hedge fund management
+  - asset management firms
+  - financial intermediary services
+secondary_tags:
+  - open end mutual funds
+  - money market funds
+  - fund performance analysis
+  - securities exchange commission
+  - investor protection laws
+  - retirement fund management
+  - financial market regulation
+  - institutional investment vehicles
+cssclasses: academia
 ---
 
 # Investment Companies
 
-# Learning Goals
+## Learning Goals
 
 LG 17-1 Examine how and why the mutual fund industry has grown through time.
 
@@ -28,17 +38,17 @@ LG 17-7 Examine trends in the dollar value of mutual funds outstanding globally.
 
 LG 17-8 Know what a hedge fund is.
 
-# INVESTMENT COMPANIES: CHAPTER OVERVIEW
+## INVESTMENT COMPANIES: CHAPTER OVERVIEW
 
 Investment companies are financial institutions that pool the financial resources of individuals and companies and invest those resources in (diversified) portfolios of assets. Open-end mutual funds (the largest portion of investment company business) sell new shares to investors and redeem outstanding shares on demand at their fair market values. They provide opportunities for small investors to invest in a liquid and diversified portfolio of financial securities at a lower price per unit of risk than could be achieved by investing in individual securities. A single share of a mutual fund could represent ownership in over a thousand different companies. Whereas the investment in the mutual fund might cost  \$100, buying over a thousand individual shares of stock could cost over\$ 100,000 dollars. Further, since mutual funds can buy and sell securities in large blocks, their trading costs are much lower than those of the individual investor buying a few shares at a time.
 
 Hedge funds are a type of investment pool that solicits funds from (wealthy) individuals and other investors (e.g., commercial banks) and invests these funds on their behalf. Hedge funds are similar to mutual funds in that they are pooled investment vehicles that accept investors' money and generally invest it on a collective basis. Investments in hedge funds, however, are restricted to more wealthy clients. This chapter presents an overview of the services offered by investment companies and highlights their rapid growth in the last several decades.
 
-# SIZE, STRUCTURE, AND COMPOSITION OF THE MUTUAL FUND INDUSTRY
+## SIZE, STRUCTURE, AND COMPOSITION OF THE MUTUAL FUND INDUSTRY
 
 LG 17-1
 
-# Historical Trends
+### Historical Trends
 
 The first mutual fund was established in Boston in 1924. The industry grew very slowly at first, so that by 1970, 361 funds held about 50 billion in assets. Since then, the number of funds and the asset size of the industry have increased dramatically. This growth is attributed to the advent of money market mutual funds in 1972 (as investors looked for ways to earn market rates on short-term funds when regulatory ceilings constrained the interest rates they earned on bank deposits), to tax-exempt money market mutual funds first established in 1979, and to an explosion of special-purpose equity, bond, emerging market, and derivative funds (as capital market values soared in the 1990s). Money market mutual funds invest in securities with an original maturity under one year, while long-term funds invest in securities with an original maturity generally over one year.
 
@@ -56,17 +66,17 @@ As Figure 17-1 illustrates, in terms of asset size, the mutual fund (money marke
 
 Low barriers to entry in the U.S. mutual fund industry have allowed new entrants to offer funds to compete for investor attention. Despite this, the share of industry assets held by the largest mutual fund sponsors has changed little since 1990. For example, the largest 25 companies that sponsor mutual funds managed 80 percent of the industry's assets in 2019, slightly larger than 76 percent in 1990.
 
-# equity funds
+### equity funds
 
 Funds consisting of common and preferred stock securities.
 
-# LG 17-2
+#### LG 17-2
 
-# bond funds
+### bond funds
 
 Funds consisting of fixed-income capital market debt securities.
 
-# hybrid funds
+### hybrid funds
 
 Funds consisting of both stock and bond securities.
 

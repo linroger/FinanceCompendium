@@ -1,32 +1,32 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Offshoring of Goods and Services
-linter-yaml-title-alias: Offshoring of Goods and Services
+parent_directory: III - New Trade Explanations
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
 primary_tags:
-- offshore subsidiaries mattel
-- american sold cell
-- offshoring ways differs trade
+- offshoring goods services
+- foreign outsourcing
+- value chain activities
+- skill biased technological change
 secondary_tags:
-- services trade increased
-- offshoring conclusions general electric
-- americans perceive offshoring actual
-- chapter suggests offshoring
-- overseas firms does outsourcing
-- phone produced likely countries
-tags_extracted: '2025-12-18T00:33:47.617836'
+- international trade theory
+- labor market effects
+- comparative advantage
+- production fragmentation
+- terms of trade
+- business services offshoring
+- manufacturing offshoring
+cssclasses: academia
 ---
 
 # Offshoring of Goods and Services
 
-One facet of increased services trade is the increased use of offshore outsourcing in which a company relocates labor-intensive service-industry functions to another country… . When a good or service is produced more cheaply abroad, it makes more sense to import it than to make or provide it domestically.
+One facet of increased services trade is the increased use of offshore outsourcing in which a company relocates labor-intensive service-industry functions to another country…. When a good or service is produced more cheaply abroad, it makes more sense to import it than to make or provide it domestically.
 
 Economic Report of the President, 2004, p. 229
 
-Increasing numbers of Americans … perceive offshoring … as an actual or potential threat to their jobs or to their wages even if they bold onto their jobs.
+Increasing numbers of Americans … perceive offshoring … as an actual or potential threat to their jobs or to their wages even if they hold onto their jobs.
 
 Jagdish Bhagwati and Alan S. Blinder, 2007, Offshoring of American Jobs
 
@@ -36,13 +36,13 @@ President Barack Obama, State of the Union address, February 12, 2013
 
 If you take the battery out of your cell phone to see where the phone was produced, you will likely see several countries listed inside. Motorola, for example, is a U.S. company that produces some of its cell phones in Singapore using batteries and a battery charger made in China. Nokia is a Finnish company that produces some of its American-sold cell phones in the United States using batteries made in Japan and software that was written in India. Apple produces its iPhone in facilities found in China, Taiwan, Thailand, Malaysia, Singapore, South Korea, the Czech Republic, Philippines, and the United States. A vast array of products, including simple toys like the Barbie doll and sophisticated items like airplanes and personal computers, consist of materials, parts, components, and services that are produced in numerous countries. The following excerpt from a New York Times article illustrates this observation:
 
-1 A Model of Offshoring
+## A Model of Offshoring
 
-2 The Gains from Offshoring
+## The Gains from Offshoring
 
-3 The Politics and Future of Offshoring
+## The Politics and Future of Offshoring
 
-4 Conclusions
+## Conclusions
 
 General Electric in the United States and Snechma of France … jointly manufacture the jet engine for Boeing's 737 and Airbus's 320. G.E. makes the "hot section" at its plant in Cincinnati, while Snechma manufactures the giant fans in France. They ship these components to each other and each partner does the final assembly of the engines for its customers. In addition, G.E. makes smaller jet engines for the commuter planes that Bombardier makes in Canada and Embraer makes in Brazil. The engines are exported to those countries, but 24 percent of the value of the engines comes from components imported from Japan.
 
@@ -52,9 +52,9 @@ Offshoring is a type of international trade that differs from the type of trade 
 
 Is offshoring different from the type of trade examined in the Ricardian and Heckscher-Ohlin models? From one point of view, the answer is no. Offshoring allows a company to purchase inexpensive goods or services abroad, just as consumers can purchase lower-priced goods from abroad in the Ricardian and Heckscher-Ohlin models. This is what the quote from the Economic Report of the President at the beginning of the chapter suggests: with offshoring we import those goods and services that are cheaper to produce abroad. From another point of view, however, offshoring is different. Companies now have the opportunity to send a portion of their activities to other countries. The jobs associated with those activities leave the United States, and by paying lower wages abroad, U.S. firms lower their costs and pass on these savings to consumers. Offshoring results in lower prices but changes the mix of jobs located in the United States. Higher-skilled workers in the United States, engaged in activities
 
-# SIDE BAR
+### SIDE BAR
 
-# "Foreign Outsourcing" Versus "Offshoring"
+### "Foreign Outsourcing" Versus "Offshoring"
 
 In discussions of foreign outsourcing, we often hear the term "offshoring." The quote from the Economic Report of the President at the beginning of the chapter combined these terms as "offshore outsourcing." Is there a difference between "foreign outsourcing" and "offshoring"?
 
@@ -76,13 +76,13 @@ A second goal of the chapter is to discuss the gains from offshoring. We argue t
 
 A third goal of the chapter is to examine the response to offshoring in the United States. The final quotation at the beginning of the chapter, from the 2013 State of the Union address by President Obama, indicates that he proposes to limit tax breaks to companies engaged in offshoring. Many economists would disagree with this proposal, and argue instead that offshoring has overall benefits. We examine these arguments and also discuss the newest trend of "inshoring" activities back into the United States.
 
-# 1 A Model of Offshoring
+## 1 A Model of Offshoring
 
 To develop a model of offshoring, we need to identify all the activities involved in producing and marketing a good or service. These activities are illustrated in Figure 7-1. Panel (a) describes the activities in the order in which they are performed (starting with research and development [R&D] and ending with marketing and after-sales service). For instance, in producing a television, the design and engineering are developed first; components such as wiring, casing, and screens are manufactured next; and finally the television is assembled into its final version and sold to consumers.
 
 For the purpose of building a model of offshoring, however, it is more useful to line up the activities according to the ratio of high-skilled/low-skilled labor used, as in panel (b). We start with the less skilled activities, such as the manufacture and assembly of simple components (like the case or the electric cord for the television), then move to more complex components (like the screen). Next are the supporting service activities such as accounting, order processing, and product service (sometimes called "back-office" activities because the customer does not see them). Finally, we come to activities that use more skilled labor, such as marketing and sales ("front-office" activities), and those that use the most skilled labor such as R&D.
 
-# Value Chain of Activities
+### Value Chain of Activities
 
 The whole set of activities that we have illustrated in Figures 7-1(a) and 7-1(b) is sometimes called the value chain for the product, with each activity adding more
 
@@ -116,7 +116,7 @@ Relative Demand for Skilled Labor Now that we know the division of activities be
 
 In Foreign, we add up the demand for high-skilled labor  $H^{*}$  and for low-skilled labor  $L^{*}$  for all the activities to the left of line  $A^{*}$ . Panel (b) graphs the relative demand for skilled labor in Foreign  $H^{*} / L^{*}$  against the relative wage  $W_{H}^{*} / W_{L}^{*}$ . Again, this curve slopes downward because a higher relative wage for skilled labor would cause Foreign firms to substitute less skilled labor in some activities. In each country, we can add a relative supply curve to the diagram, which is upward-sloping because a higher relative wage for skilled labor causes more skilled individuals to enter this industry. For instance, if the high-skilled wage increases relative to the low-skilled wage in either
 
-# FIGURE 7-2
+### FIGURE 7-2
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/7b93bd75fd14b170df31426f02b7ae6093fe1f48084baf332ce73add2ccc71a9.jpg)
 
@@ -126,7 +126,7 @@ In Foreign, we add up the demand for high-skilled labor  $H^{*}$  and for low-sk
 
 (b) Foreign Country
 
-# Relative Demand and Supply for High-Skilled/Low-Skilled
+#### Relative Demand and Supply for High-Skilled/Low-Skilled
 
 Labor In panel (a), we show the relative demand and supply for skilled labor at Home,  $H / L$ , depending on the relative wage,  $W_{H} / W_{L}$ .
 
@@ -138,7 +138,7 @@ country, then individuals will invest more in schooling to equip themselves with
 
 The intersection of the relative demand and relative supply curves, at points  $A$  and  $A^{*}$ , gives the equilibrium relative wage in this industry in each country and the equilibrium relative employment of high-skilled/low-skilled workers. Starting at these points, next we study how the equilibrium changes as Home offshores more activities to Foreign.
 
-# Changing the Costs of Trade
+### Changing the Costs of Trade
 
 Suppose now that the costs of capital or trade in Foreign fall. For example, the North American Free Trade Agreement (NAFTA) lowered tariffs charged on goods crossing the U.S.-Mexico border. This fall in trade costs made it easier for U.S. firms to offshore to Mexico. And even before NAFTA, Mexico had liberalized the rules concerning foreign ownership of capital there, thereby lowering the cost of capital for U.S. firms. Another example is India, which in 1991 eliminated many regulations that had been hindering businesses, communications, and foreign investment. Before 1991 it was difficult for a new business to start, or even to secure a phone or fax line in India; after 1991 the regulations on domestic and foreign-owned business were simplified, and communication technology improved dramatically with cell phones and fiber-optic cables. These policy changes made India more attractive to foreign investors and firms interested in offshoring.
 
@@ -180,13 +180,13 @@ It might seem surprising that a shift of activities from one country to the othe
 
 This result is just like the logic of the offshoring model: as activities in the middle of the value chain are shifted from Home to Foreign, they raise the relative demand for skilled labor in both countries because these activities are the least skill-intensive of those formerly done at Home but the most skill-intensive of tasks done in Foreign. That is why the relative demand for skilled labor increases in both countries, along with the relative wage of skilled labor. This result is one of the most important predictions from our offshoring model and it would not occur in our earlier models of trade, such as the Heckscher-Ohlin model. We now turn to evidence from the United States and Mexico to see whether this prediction is borne out.
 
-# APPLICATION
+### APPLICATION
 
-# Change in Relative Wages Across Countries
+#### Change in Relative Wages Across Countries
 
 Since the early 1980s, the wages of high-skilled workers have risen relative to those of low-skilled workers in many countries. The relative wage of skilled workers in industrial countries (such as the United States, Australia, Canada, Japan, Sweden, and the United Kingdom) and in developing countries (such as Hong Kong, Chile, and Mexico) has increased. Our offshoring model predicts that the relative wage of skilled workers will rise in both the country doing the offshoring and the country receiving the new activities. At first glance, that prediction seems to be consistent with the change in wages that has actually occurred. Let us dig more deeply, however, using evidence from the United States and Mexico, to see what the change in wages has been and whether it is due to offshoring.
 
-# Change in Relative Wages in the United States
+##### Change in Relative Wages in the United States
 
 To measure the wages of skilled and low-skilled workers, we can use data from the manufacturing sector on "production" and "nonproduction" workers. As their name suggests, production workers are involved in the manufacture and assembly of goods, whereas nonproduction workers are involved in supporting service activities. Firms are required to report wages for both types of workers. We could also call these two types of workers "blue collar" and "white collar." Generally, nonproduction workers require more education, and so we will treat these workers as "high-skilled," whereas the production workers are treated here as "low-skilled" workers.
 
@@ -402,7 +402,7 @@ Service Prices For trade in services, such as finance, insurance, and R&D, it is
 
 Service Trade What about other traded services? Although standard prices are not available, data on the amount of service exports and imports for the United States are collected annually. These data are shown in Table 7-2 for 2011. The
 
-United States runs a substantial surplus in services trade, with exports of  \$587 billion and imports of\$ 393 billion. Categories of service exports that exceed imports include several types of business, professional, and technical services (but in computer and information services, the United States now runs a deficit); education (which is exported when a foreign student studies in the United States); financial services; travel; and royalties and license fees (which are collected from foreign firms when they use U.S. patents and trademarks or are paid abroad when we use foreign patents). The fact that exports exceed imports in many categories in Table 7-2 means that the United States has a comparative advantage in traded services. Indeed, the U.S. surplus in business, professional, and technical services is among the highest in the world, similar to that of the United Kingdom and higher than that of Hong Kong and India. London is a world financial center and competes with New York and other U.S. cities, which explains the high trade surplus of the United Kingdom, whereas Hong Kong is a regional hub for transportation and offshoring to China. The combined trade balance in computer and information services, insurance and financial services for the United
+United States runs a substantial surplus in services trade, with exports of $587 billion and imports of $393 billion. Categories of service exports that exceed imports include several types of business, professional, and technical services (but in computer and information services, the United States now runs a deficit); education (which is exported when a foreign student studies in the United States); financial services; travel; and royalties and license fees (which are collected from foreign firms when they use U.S. patents and trademarks or are paid abroad when we use foreign patents). The fact that exports exceed imports in many categories in Table 7-2 means that the United States has a comparative advantage in traded services. Indeed, the U.S. surplus in business, professional, and technical services is among the highest in the world, similar to that of the United Kingdom and higher than that of Hong Kong and India. London is a world financial center and competes with New York and other U.S. cities, which explains the high trade surplus of the United Kingdom, whereas Hong Kong is a regional hub for transportation and offshoring to China. The combined trade balance in computer and information services, insurance and financial services for the United
 
 States, the United Kingdom, and India since 1970 are graphed in Figure 7-14.
 
@@ -410,7 +410,7 @@ The U.S. surplus in these categories of services has been growing since about 19
 
 What will these surpluses look like a decade or two from now? It is difficult to project, but notice in Figure 7-14 that in approximately 2000, as the Indian surplus began growing, the U.S. surplus dipped to become more similar to that of the United Kingdom. The Indian trade surplus is entirely due to its exports of computer and information services—a category in which the United States also has strong net exports. So even though the Indian trade surplus is still much smaller than that of the United States, it appears to pose a competitive challenge to the United States. It is at least possible that in a decade or two, India's overall surplus in service exports could overtake that of the United States. Only time will tell whether the United States will eventually face the same type of competition from India in its service exports that it has already faced for many years from the United Kingdom.
 
-# TABLE 7-2
+### TABLE 7-2
 
 U.S. Trade in Services, 2011 (\$ millions) This table shows U.S. exports and imports in the major categories of services trade for 2011.
 
@@ -430,7 +430,7 @@ United Kingdom, its chief competitor, up until about 2000. Since then the surplu
 
 Source: World Bank World Development Indicators.
 
-# 3 The Politics and Future of Offshoring
+## 3 The Politics and Future of Offshoring
 
 Offshoring is controversial and is often the topic of political debate. In February 2004 the first quote at the beginning of this chapter appeared in the Economic Report of the President. The writer of that sentence, Harvard economist N. Gregory Mankiw, who was chairman of the Council of Economic Advisors, also said that "outsourcing is just a new way of doing international trade. More things are tradable than were tradable in the past, and that's a good thing." Those comments were widely criticized by the Democrats and Republicans alike, and Professor Mankiw later apologized in a letter to the House of Representatives, writing, "My lack of clarity left the wrong impression that I praised the loss of U.S. jobs."
 
@@ -450,9 +450,9 @@ Direct evidence on the positive impact of offshoring on productivity comes from 
 
 On the other hand, changes in economic conditions that lead firms to voluntarily bring some activities back home would be viewed favorably by most economists. There is some evidence that economic conditions have changed in that direction, as
 
-# HEADLINES
+### HEADLINES
 
-# How to Destroy American Jobs
+#### How to Destroy American Jobs
 
 This article argues that offshoring by multinational companies supports an increase in jobs at home, and that these jobs would be lost by policies to restrict offshoring.
 
@@ -546,18 +546,6 @@ total wage payments, p. 209 isoquants,p.214
 
 business services, p. 219
 
-# PROBLEMS
-
-1. Consider an offshoring model in which the hours of labor used in four activities in the United States and Mexico are as follows: Note that labor hours in Mexico are twice those in the United States, reflecting Mexico's lower productivity. Also note that the ratio of high-skilled to low-skilled labor used in each activity increases as we move to the right, from 1/5 in assembly, to 10/1 in R&D. Suppose that the wage of U.S.
-
-low-skilled workers is  \$10 per hour and that of high-skilled workers is\$ 25 per hour, and that the wage of Mexican low-skilled workers is \$1 per hour and that of high-skilled workers is \$5 per hour (these values are made up to be convenient, not realistic). Also suppose that the trade costs are 25\%, 30\%, or 50\%, which means that an additional 25\%, 30\%, or 50\% is added to the costs of offshoring to Mexico.
-
-Hours of Labor Used in Each Activity (per unit of output):
-
-<table><tr><td></td><td>Assembly</td><td>Component Production</td><td>Office Services</td><td>R&amp;D</td></tr><tr><td rowspan="2">Low-skilled labor</td><td>Mexico: 20</td><td>Mexico: 12</td><td>Mexico: 8</td><td>Mexico: 4</td></tr><tr><td>U.S.: 5</td><td>U.S.: 3</td><td>U.S.: 2</td><td>U.S.: 1</td></tr><tr><td rowspan="2">High-skilled labor</td><td>Mexico: 4</td><td>Mexico: 4</td><td>Mexico: 8</td><td>Mexico: 40</td></tr><tr><td>U.S.: 1</td><td>U.S.: 1</td><td>U.S.: 2</td><td>U.S.: 10</td></tr><tr><td>High-skilled/low-skilled ratio</td><td>1/5</td><td>1/3</td><td>1/1</td><td>10/1</td></tr></table> a. Fill in the blank cells in the following table by computing the costs of production of each activity in each country (two cells are filled in for you):
-
-<table><tr><td></td><td>Assembly</td><td>Component Production</td><td>Office Services</td><td>R&amp;D</td></tr><tr><td>Mexico</td><td>\$40</td><td></td><td></td><td></td></tr><tr><td>United States</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 25\%</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 30\%</td><td>\$52</td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 50\%</td><td></td><td></td><td></td><td></td></tr></table> b. With trade costs of  $50\%$ , where is the value chain sliced? That is, which activities are cheaper to import from Mexico and which are cheaper to produce in the United States?
-
 c. With trade costs of  $30\%$ , and then  $25\%$ , where is the value chain sliced?
 
 2. Consider an offshoring model in which Home's skilled labor has a higher relative wage than Foreign's skilled labor and in which the costs of capital and trade are uniform across production activities.
@@ -590,7 +578,7 @@ Share of total costs paid to high-skilled labor  $= 10 / 100 = 10\%$
 
 Share of total costs paid to low-skilled labor  $= 40 / 100 = 40\%$
 
-$R\dot{\otimes} D$  : Total costs of R&D  $P_{R}\cdot Q_{R} = 100$
+$R\&D$  : Total costs of R&D  $P_{R}\cdot Q_{R} = 100$
 
 Earnings of high-skilled labor  $= W_{H} \cdot H_{R} = 40$
 
@@ -616,13 +604,13 @@ Because we assume that  $50\%$  of costs in either components or R&D is always p
 
 $0.5(P_{C}\cdot Q_{C}) = W_{H}\cdot H_{C} + W_{L}\cdot L_{G},$  for components
 
-$0.5(P_{R}\bullet Q_{R}) = W_{H}\bullet H_{R} + W_{L}\bullet L_{R},$  for R&D
+$0.5(P_{R} \cdot Q_{R}) = W_{H} \cdot H_{R} + W_{L} \cdot L_{R},$  for R\&D
 
 Taking the change in these equations:
 
 $0.5(\Delta P_{C}\cdot Q_{C}) = \Delta W_{H}\cdot H_{C} + \Delta W_{L}\cdot L_{C};$  for components
 
-$0.5(\Delta P_{R}\bullet Q_{R}) = \Delta W_{H}\bullet H_{R} + \Delta W_{L}\bullet L_{R},$  for R&D
+$0.5(\Delta P_{R} \cdot Q_{R}) = \Delta W_{H} \cdot H_{R} + \Delta W_{L} \cdot L_{R},$  for R\&D
 
 Dividing the equations by  $(\Delta P_{C} \cdot Q_{C})$  and  $(\Delta P_{R} \cdot Q_{R})$ , respectively, we can rewrite the equations as
 
@@ -669,7 +657,7 @@ Share of total costs paid to high-skilled labor  $= 25 / 100 = 25\%$
 
 Share of total costs paid to low-skilled labor  $= 25 / 100 = 25\%$
 
-$R\mathcal{O}D$  : Total costs of R&D  $P_{R}\cdot Q_{R} = 100$
+$R\&D$  : Total costs of R&D  $P_{R}\cdot Q_{R} = 100$
 
 Earnings of high-skilled labor  $= W_{H} \cdot H_{R} = 30$
 
@@ -699,7 +687,7 @@ Sudhakar Shenoy, chief executive of Information Management Consultants (IMC) in 
 Several years ago IMC saw a market developing for software that would allow biotech companies to make better and faster use of the new human genome research. Doing it here, Shenoy calculated, would cost several million dollars, which he figured would have priced the product too high for most customers. But by having a small group of engineers at IMC's Indian subsidiary do much of the coding work, he was able to bring the project in at 500,000. The result: IMC now has a thriving line of business in bioinformatics, with major clients and a growing payroll of six-figure PhDs here. And there are more engineers than ever—six here for every one in India.
 
 
-But that's only part of the good-news story. In Pune, where IMC's Indian operations are located, an airport under construction will require lots of U.S. engineering, design and electronics. At the same time, IMC's Indian engineers, who earned annual salaries of  \$3,500 a decade ago, now command up to\$ 12,000—enough to buy all manner of imported consumer goods.
+But that's only part of the good-news story. In Pune, where IMC's Indian operations are located, an airport under construction will require lots of U.S. engineering, design and electronics. At the same time, IMC's Indian engineers, who earned annual salaries of $3,500 a decade ago, now command up to $12,000—enough to buy all manner of imported consumer goods.
 
 Source: Excerpted from Steven Pearlstein, "Still Short of the Offshoring Ideal," Washington Post, March 12, 2004.
 

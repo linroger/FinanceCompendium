@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Topic 1 - Optimizing Risk and Return"
+parent_directory: "Financial Investments for Public Policy"
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4.5
+cli-tool: opencode
+primary_tags:
+  - portfolio optimization
+  - risk return tradeoff
+  - diversification benefits
+  - mean variance theory
+  - sharpe ratio
+secondary_tags:
+  - excess returns
+  - alpha measurement
+  - information ratio
+  - value at risk
+  - covariance matrix
+  - tangency portfolio
+  - two fund separation
+  - portfolio variance
+  - marginal risk
+  - subadditive risk measures
 cssclasses: academia
-title: Topic 1 - Optimizing Risk and Return
-linter-yaml-title-alias: Topic 1 - Optimizing Risk and Return
 ---
 
 # Topic 1 - Optimizing Risk and Return
@@ -62,176 +78,198 @@ retsx = rets.sub(rets['SHV'],axis=0)
 FREQ = 252
 ```
 
-$$\newcommand{\E}{E}$$
+$$
+\newcommand{\E}{E}
+$$
+
+$$
+\newcommand{\rbar}{\bar{r}}
+$$
+
+$$
+\newcommand{\rvec}{\boldsymbol{r}}
+$$
+
+$$
+\newcommand{\rvecbar}{\boldsymbol{\bar{r}}}
+$$
+
+$$
+\newcommand{\Ntime}{N}
+$$
+
+$$
+\newcommand{\Nt}{N}
+$$
+
+$$
+\newcommand{\rmat}{\boldsymbol{R}}
+$$
+
+$$
+\newcommand{\riskmeasure}{\varrho}
+$$
+
+$$
+\newcommand{\wt}{w}
+$$
+
+$$
+\newcommand{\Nassets}{K}
+$$
+
+$$
+\newcommand{\muvec}{\boldsymbol{\mu}}
+$$
+
+$$
+\newcommand{\onevecNt}{\boldsymbol{1}_{\Ntime\times 1}}
+$$
+
+$$
+\newcommand{\covest}{\hat{\boldsymbol{\Sigma}}}
+$$
+
+$$
+\newcommand{\meanest}{\hat{\mu}}
+$$
+
+$$
+\newcommand{\meanestvec}{\hat{\boldsymbol{\mu}}}
+$$
+
+$$
+\newcommand{\covmat}{\boldsymbol{\Sigma}}
+$$
+
+$$
+\newcommand{\rf}{r_f}
+$$
+
+$$
+\newcommand{\VaR}{\text{VaR}}
+$$
+
+$$
+\newcommand{\VaRqtau}{\VaR_{q,\tau}}
+$$
+
+$$
+\newcommand{\pnlVaR}{\pnl^{\VaR}}
+$$
+
+$$
+\newcommand{\pnlVaRqtau}{\pnl^{\VaR_{q,\tau}}}
+$$
+
+$$
+\newcommand{\rVaR}{r^{\VaR}}
+$$
+
+$$
+\newcommand{\rVaRqtau}{r^{\VaR_{q,\tau}}}
+$$
+
+$$
+\newcommand{\loss}{L}
+$$
 
-$$\newcommand{\rbar}{\bar{r}}$$
+$$
+\newcommand{\Pr}{\mathbb{P}}
+$$
 
-$$\newcommand{\rvec}{\boldsymbol{r}}$$
+$$
+\newcommand{\quant}{q}
+$$
 
-$$\newcommand{\rvecbar}{\boldsymbol{\bar{r}}}$$
+$$
+\newcommand{\port}{\Pi}
+$$
 
-$$\newcommand{\Ntime}{N}$$
+$$
+\newcommand{\pnl}{\Gamma}
+$$
 
-$$\newcommand{\Nt}{N}$$
+$$
+\newcommand{\cdf}{\Phi}
+$$
 
-$$\newcommand{\rmat}{\boldsymbol{R}}$$
+$$
+\newcommand{\pdf}{\phi}
+$$
 
-$$\newcommand{\riskmeasure}{\varrho}$$
+$$
+\newcommand{\zscore}{\texttt{z}}
+$$
 
-$$\newcommand{\wt}{w}$$
+$$
+\newcommand{\cdfz}{\cdf_{\zscore}}
+$$
 
-$$\newcommand{\Nassets}{K}$$
+$$
+\newcommand{\pdfz}{\pdf_{\zscore}}
+$$
 
-$$\newcommand{\muvec}{\boldsymbol{\mu}}$$
+$$
+\newcommand{\rlog}{\texttt{r}}
+$$
 
-$$\newcommand{\onevecNt}{\boldsymbol{1}_{\Ntime\times 1}}$$
+$$
+\newcommand{CVaR}{\text{CVaR}}
+$$
 
-$$\newcommand{\covest}{\hat{\boldsymbol{\Sigma}}}$$
+$$
+\newcommand{CVaRqtau}{\CVaR_{q,\tau}}
+$$
 
-$$\newcommand{\meanest}{\hat{\mu}}$$
+$$
+\newcommand{\pnlCVaR}{\pnl^\CVaR}
+$$
 
-$$\newcommand{\meanestvec}{\hat{\boldsymbol{\mu}}}$$
+$$
+\newcommand{\pnlCVaRqtau}{\pnl^{\CVaR_{q,\tau}}}
+$$
 
-$$\newcommand{\covmat}{\boldsymbol{\Sigma}}$$
+$$
+\newcommand{\rCVaR}{r^\CVaR}
+$$
 
-$$\newcommand{\rf}{r_f}$$
+$$
+\newcommand{\rCVaRqtau}{r^{\CVaR_{q,\tau}}}
+$$
 
-$$\newcommand{\VaR}{\text{VaR}}$$
+$$
+\newcommand{\rx}{\tilde{r}}
+$$
 
-$$\newcommand{\VaRqtau}{\VaR_{q,\tau}}$$
+$$
+\newcommand{\mux}{\tilde{\mu}}
+$$
 
-$$\newcommand{\pnlVaR}{\pnl^{\VaR}}$$
+$$
+\newcommand{\sigx}{\tilde{\sigma}}
+$$
 
-$$\newcommand{\pnlVaRqtau}{\pnl^{\VaR_{q,\tau}}}$$
+$$
+\newcommand{\Nsec}{K}
+$$
 
-$$\newcommand{\rVaR}{r^{\VaR}}$$
+$$
+\newcommand{\avg}{\text{avg}}
+$$
 
-$$\newcommand{\rVaRqtau}{r^{\VaR_{q,\tau}}}$$
+$$
+\newcommand{\wtvec}{\boldsymbol{\wt}}
+$$
 
-$$\newcommand{\loss}{L}$$
+$$
+\newcommand{\muxvec}{\boldsymbol{\mux}}
+$$
 
-$$\newcommand{\Pr}{\mathbb{P}}$$
+$$
+\newcommand{\tan}{\text{tan}}
+$$
 
-$$\newcommand{\quant}{q}$$
-
-$$\newcommand{\port}{\Pi}$$
-
-$$\newcommand{\pnl}{\Gamma}$$
-
-$$\newcommand{\cdf}{\Phi}$$
-
-$$\newcommand{\pdf}{\phi}$$
-
-$$\newcommand{\zscore}{\texttt{z}}$$
-
-$$\newcommand{\cdfz}{\cdf_{\zscore}}$$
-
-$$\newcommand{\pdfz}{\pdf_{\zscore}}$$
-
-$$\newcommand{\rlog}{\texttt{r}}$$
-
-$$\newcommand{CVaR}{\text{CVaR}}$$
-
-$$\newcommand{CVaRqtau}{\CVaR_{q,\tau}}$$
-
-$$\newcommand{\pnlCVaR}{\pnl^\CVaR}$$
-
-$$\newcommand{\pnlCVaRqtau}{\pnl^{\CVaR_{q,\tau}}}$$
-
-$$\newcommand{\rCVaR}{r^\CVaR}$$
-
-$$\newcommand{\rCVaRqtau}{r^{\CVaR_{q,\tau}}}$$
-
-$$\newcommand{\rx}{\tilde{r}}$$
-
-$$\newcommand{\mux}{\tilde{\mu}}$$
-
-$$\newcommand{\sigx}{\tilde{\sigma}}$$
-
-$$\newcommand{\Nsec}{K}$$
-
-$$\newcommand{\avg}{\text{avg}}$$
-
-$$\newcommand{\wtvec}{\boldsymbol{\wt}}$$
-
-$$\newcommand{\muxvec}{\boldsymbol{\mux}}$$
-
-$$\newcommand{\tan}{\text{tan}}$$
-
-# Performance Measures
-
-We have discussed various measures of risk.
-
-Of course, we care about return as well as risk. 
-
-We might be willing to take more risk for more return.
-
-Below are measures of return and the risk-return tradeoff.
-
-## Excess Returns
-
-Many performance measures, as well as optimizations, will focus on **excess returns**. That is, the return on the portfolio /security beyond the risk-free rate.
-
-We use tilde notation for excess returns to avoid writing the risk-free rate everywhere. That is,
-
-$$\rx_{i,t} \equiv r_{i,t} - \rf$$
-
-$$\mux \equiv \mu - \rf$$
-
-## Mean Return
-
-Mean (total or excess) return is the most utilized measure of ex-ante reward in an investment.
-
-Most allocation and risk measures will consider mean return against some form of risk.
-
-If we are focusing on USD, not returns, then we might label this as **expected value (EV)**.
-
-## Alpha
-
-The second widely used measure of "reward" is alpha.
-
-Consider a regression of the portfolio (or security) return against a benchmark, in this case, SPY.
-
-$$\rx_{i,t} = \alpha + \beta \rx_{\text{SPY},t} + \epsilon_t$$
-
-Note that we might be interested in a decomposition against several factors, $\boldsymbol{x}_t$. 
-
-$$\rx_{i,t} = \alpha + \boldsymbol{\beta}'\boldsymbol{x}_t + \epsilon_t$$
-
-We will have more to say about these decompositions.
-
-### Alpha as a measure of performance
-
-Alpha is measuring the mean return of the portfolio (security) beyond what can be explained by the regressors.
-
-* We may have a high mean return simply due to loading up on lots of factor risk.
-* Consider UPRO, the 3x levered S\&P500 ETF.
-
-For this reason, alpha is widely cited in judging (hedge / mutual) fund performance.
-
-* Did the fund earn high mean returns beyond what we would expect from their broad factor exposures?
-* In a sense, did we get any mean return beyond what we would have received from holding an (few?) index funds?
-
-```python
-doEXCESS = True
-COMP = 'SPY'
-
-
-if doEXCESS:
-    data = retsx
-else:
-    data = rets
-    
-    
-regs = pd.DataFrame(dtype=float, columns=['mean','alpha','beta'], index=rets.columns)
-for sec in rets.columns:
-    est = LinearRegression().fit(data[[COMP]],data[[sec]])
-    regs.loc[sec,'alpha'] = est.intercept_
-    regs.loc[sec,'beta'] = est.coef_[0]
-
-regs['mean'] = retsx.mean()
-regs[['mean','alpha']] *= FREQ
-regs.style.format({'mean':'{:.2%}','alpha':'{:.2%}','beta':'{:.2f}'})
 ```
 
 ## Sharpe
@@ -494,7 +532,7 @@ This is known as two-fund separation.
 
 ## No cash (weights add to one)
 
-We could optimize the space of total (not excess) returns for a situatoin where there is no cash asset.
+We could optimize the space of total (not excess) returns for a situation where there is no cash asset.
 
 Then, the weights need to add to one.
 

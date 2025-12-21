@@ -1,36 +1,21 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Import Tariffs and Quotas Under Perfect Competition
-linter-yaml-title-alias: Import Tariffs and Quotas Under Perfect Competition
+title: "Import Tariffs and Quotas Under Perfect Competition"
+parent_directory: "II. Economics/International/International Economics/IV - Trade Policies"
+formatted: "2025-12-21 11:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- supply effect tariff import
-- tariffs united states countries
-- quotas chinese exports
-- tires exporting countries
-- supply curve home firms
-- countries restrict imports textile
+- import tariffs perfect competition
+- trade policy economics
+- international trade barriers
 secondary_tags:
-- tariff tires applied china
-- free trade equilibrium
-- tires applied china discriminatory
-- tariffs steel tires international
-- tariff panel result equilibrium
-- steel tire tariffs focuses
-- steel elected tariffs
-- supply home import demand
-- tariffs quotas perfect competition
-- mfa free trade
-- import quotas conclusions steel
-- export supply curve shifts
-- declined apply tariffs cases
-- import demand curves point
-- tariff applied country explain
-- apparel products china expiration
-tags_extracted: '2025-12-18T00:34:31.270156'
+- consumer producer surplus
+- home welfare effects
+- foreign export supply
+- safeguard tariffs
+- wto trade rules
+- quota vs tariff comparison
+cssclasses: academia
 ---
 
 # Import Tariffs and Quotas Under Perfect Competition
@@ -91,15 +76,15 @@ The steel tariff of 2002-2004 is an example of a tariff that was applied by the 
 
 6. Regional trade agreements are permitted under Article XXIV of the GATT. The GATT recognizes the ability of blocs of countries to form two types of regional trade agreements: (i) free-trade areas, in which a group of countries voluntarily agrees to remove trade barriers between themselves, and (ii) customs unions, which are free-trade areas in which the countries also adopt identical tariffs between themselves and the rest of the world. We discuss regional trade agreements in a later chapter.
 
-# 2 The Gains from Trade
+## 2 The Gains from Trade
 
 In earlier chapters, we demonstrated the gains from trade using a production possibilities frontier and indifference curves. We now instead demonstrate the gains from trade using Home demand and supply curves, together with the concepts of consumer surplus and producer surplus. You may already be familiar with these concepts from an earlier economics course, but we provide a brief review here.
 
-# Consumer and Producer Surplus
+### Consumer and Producer Surplus
 
 Suppose that Home consumers have the demand curve  $D$  in panel (a) of Figure 8-1 and face the price of  $P_{1}$ . Then total demand is  $D_{1}$  units. For the last unit purchased, the consumer buying it values that unit at close to its purchase price of  $P_{1}$ , so he or
 
-# SIDE BAR
+#### SIDE BAR
 
 # Key Provisions of the GATT
 

@@ -1,28 +1,24 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Generating Random Variables and Stochastic Processes
-linter-yaml-title-alias: Generating Random Variables and Stochastic Processes
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:00:45 PM
+formatter_model: claude-sonnet-4-5-thinking
+cli-tool: claude-code
 primary_tags:
-- other approaches
-- multivariate normal distributions
-- composition method
-- cholesky decomposition method
+- monte carlo simulation
+- random variable generation
+- stochastic processes
+- variance reduction techniques
 secondary_tags:
-- random variables
-- random variable
+- inverse transform method
+- composition method
 - acceptance rejection method
-- brownian motions
-- some random variables
-- random vector
-- poisson variable
-- monte carlo integration
-- poisson process a
-tags_extracted: '2025-12-18T17:59:21.904229'
-tags_method: max_quality_v1
+- brownian motion simulation
+- geometric brownian motion
+- poisson process simulation
+- multivariate normal distribution
+- cholesky decomposition
+cssclasses: academia
 ---
 
 # Generating Random Variables and Stochastic Processes

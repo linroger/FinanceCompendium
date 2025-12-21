@@ -1,16 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 16 Securities Firms and Investment Banks
+parent_directory: Part 04 Other Financial Institutions
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - securities firms operations
+  - investment banking activities
+  - financial intermediation services
+secondary_tags:
+  - underwriting debt equity
+  - market making trading
+  - mergers acquisitions advisory
+  - venture capital funding
+  - regulatory oversight framework
+  - global securities markets
+  - balance sheet management
+  - risk management strategies
 cssclasses: academia
-title: Securities Firms and Investment Banks
-linter-yaml-title-alias: Securities Firms and Investment Banks
 ---
 
 # Securities Firms and Investment Banks
 
-# 16
+## 16
 
 Learning Goals
 
@@ -30,13 +42,13 @@ LG 16-4
 
 Know the main regulators of securities firms and investment banks.
 
-# SERVICES OFFERED BY SECURITIES FIRMS VERSUS INVESTMENT BANKS: CHAPTER OVERVIEW
+## SERVICES OFFERED BY SECURITIES FIRMS VERSUS INVESTMENT BANKS: CHAPTER OVERVIEW
 
 Securities firms and investment banks primarily help net suppliers of funds (e.g., households) transfer funds to net users of funds (e.g., businesses) at a low cost and with a maximum degree of efficiency. Unlike other types of FIs, securities firms and investment banks do not transform the securities issued by the net users of funds into claims that may be "more" attractive to the net suppliers of funds (e.g., banks and their creation of bank deposits). Rather, they serve as brokers intermediating between fund suppliers and users.
 
 Investment banking involves transactions such as the raising of debt and equity securities for corporations or governments. This includes the origination, underwriting, and placement of securities in money and capital markets for corporate or government issuers. Securities services involve assistance in the trading of securities in the secondary markets (brokerage services or market making). Together these services are performed by securities firms and investment banks. The largest companies in this industry perform multiple services (e.g., underwriting and brokerage services). These full-line firms are generally called investment banks. Many other firms concentrate their services in one area only (either securities trading or securities underwriting). That is, some firms in the industry specialize in the purchase, sale, and brokerage of existing securities (the retail side of the business) and are called securities firms, while other firms specialize in originating, underwriting, and distributing issues of new securities (the commercial side of the business) and are called investment banks. Both segments have undergone substantial structural changes in recent years. Some of the notable consolidations include the acquisition of Bear Stearns by JPMorgan Chase, the bankruptcy of Lehman Brothers, and the acquisition of Merrill Lynch by Bank of America. Indeed, as discussed later in the chapter, the investment
 
-# OUTLINE
+## OUTLINE
 
 Services Offered by Securities
 
@@ -88,7 +100,7 @@ Investment banking also includes corporate finance activities such as advising o
 
 This chapter presents an overview of (1) the size, structure, and composition of the industry; (2) the key activities of securities firms and investment banks; (3) the industry's balance sheet and recent trends; and (4) its regulation.
 
-# SIZE, STRUCTURE, AND COMPOSITION OF THE INDUSTRY
+## SIZE, STRUCTURE, AND COMPOSITION OF THE INDUSTRY
 
 Because of the emphasis on securities trading and underwriting rather than longer-term investment in securities, the size of the industry is usually measured by the equity capital of the firms participating in the industry rather than by "asset size." Securities trading and underwriting is a financial service that requires relatively little investment in assets or liability funding (such as the issuance of loans funded through deposits or payments on insurance contracts funded through insurance premiums). Rather, securities trading and underwriting is a profit- (equity-) generating activity that does not require that FIs actually hold or invest in the securities they trade or issue for their customers. Accordingly, asset value is not traditionally the main measure of the size of a firm in this industry. According to Securities Industry Financial Markets Association (SIFMA), equity capital in the industry amounted to  \$263.2 billion in 2018, supporting total assets of\$ 4.32 trillion.
 
@@ -123,14 +135,14 @@ as broker-dealers—assisting in the trading of existing securities, or secondar
 
 With the changes in the past few years, national full-service firms now fall into three subgroups. First are the commercial bank or financial services holding companies that are the largest of the full-service investment banks. They have extensive domestic and international operations and offer advice, underwriting, brokerage, trading, and asset management services. The largest of these firms include Bank of America (through its acquisition of Merrill Lynch), Morgan Stanley, and JPMorgan (through its many acquisitions, including that of Bear Stearns, for 236 million in 2008). Second are the national full-service firms
 
-# DO YOU UNDERSTAND?
+## DO YOU UNDERSTAND?
 
 1. How securities firms and investment banks fit into the intermediation process?
 2. The trend in the number of securities firms and investment banks since 1980?
 3. What categories of firms exist in the securities firm and investment banking industry?
 4. What the difference is between brokerage services and underwriting services?
 
-# discount broker
+## discount broker
 
 A stockbroker that conducts trades for customers but does not offer investment advice.
 
@@ -196,15 +208,15 @@ If the investment bank sells the stock for \$14.75 per share, Murray Constructio
 
 A difficulty for new and small firms in obtaining debt financing from commercial banks is that CBs are generally not willing or able to make loans to new companies with no assets and business history. In this case, new and small firms often turn to investment banks (and other firms) that make venture capital investments to get capital financing as well as advice. Venture capital is a professionally managed pool of money used to finance new and often high-risk firms. Venture capital is generally provided to back an untried company and its managers in return for an equity investment in the firm. Venture capital firms do not make outright loans. Rather, they purchase an equity interest in the firm that gives them the same rights and privileges associated with an equity investment made by the firm's other owners. As equity holders, venture capital firms are not generally passive investors. They provide valuable expertise to the firm's managers and sometimes even help in recruiting senior
 
-# venture capital
+## venture capital
 
 A professionally managed pool of money used to finance new and often high-risk firms.
 
-# institutional venture capital firms
+## institutional venture capital firms
 
 Business entities whose sole purpose is to find and fund the most promising new firms.
 
-# angel venture capitalists (angels)
+## angel venture capitalists (angels)
 
 Wealthy individuals who make equity investments.
 

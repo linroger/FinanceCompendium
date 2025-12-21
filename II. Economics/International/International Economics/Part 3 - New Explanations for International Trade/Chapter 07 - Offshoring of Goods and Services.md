@@ -1,20 +1,27 @@
 ---
+title: Offshoring of Goods and Services
+parent_directory: Part 3 - New Explanations for International Trade
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
 primary_tags:
-- suppose opening trade relative
-- firms countries produce higher
-- offshoring creates
-- formulas left frac delta
+  - offshoring goods services
+  - international trade theory
+  - value chain analysis
+  - labor market effects
+  - comparative advantage
 secondary_tags:
-- left frac cdot cdot
-- service offshoring possible country
-- service offshoring gains compared
-- offshoring conclusions general electric
-- price change data formulas
-- americans perceive offshoring actual
-- cost shares price
-- foreign outsourcing versus
-- right solve equations
-tags_extracted: '2025-12-18T00:38:42.456272'
+  - foreign outsourcing
+  - skill biased technological change
+  - terms of trade
+  - productivity gains
+  - service offshoring
+  - manufacturing offshoring
+  - wage inequality
+  - trade liberalization
+  - business services
+  - multinational corporations
+cssclasses: academia
 ---
 
 # Offshoring of Goods and Services
@@ -23,7 +30,7 @@ One facet of increased services trade is the increased use of offshore outsourci
 
 Economic Report of the President, 2004, p. 229
 
-Increasing numbers of Americans . . . perceive offshoring . . . as an actual or potential threat to their jobs or to their wages even if they bold onto their jobs.
+Increasing numbers of Americans . . . perceive offshoring . . . as an actual or potential threat to their jobs or to their wages even if they hold onto their jobs.
 
 Jagdish Bhagwati and Alan S. Blinder, 2007, Offshoring of American Jobs
 
@@ -33,10 +40,10 @@ President Barack Obama, State of the Union address, February 12, 2013
 
 If you take the battery out of your cell phone to see where the phone was produced, you will likely see several countries listed inside. Motorola, for example, is a U.S. company that produces some of its cell phones in Singapore using batteries and a battery charger made in China. Nokia is a Finnish company that produces some of its American-sold cell phones in the United States using batteries made in Japan and software that was written in India. Apple produces its iPhone in facilities found in China, Taiwan, Thailand, Malaysia, Singapore, South Korea, the Czech Republic, Philippines, and the United States. A vast array of products, including simple toys like the Barbie doll and sophisticated items like airplanes and personal computers, consist of materials, parts, components, and services that are produced in numerous countries. The following excerpt from a New York Times article illustrates this observation:
 
-1 A Model of Offshoring
-2 The Gains from Offshoring
-3 The Politics and Future of Offshoring
-4 Conclusions
+1. A Model of Offshoring
+2. The Gains from Offshoring
+3. The Politics and Future of Offshoring
+4. Conclusions
 
 General Electric in the United States and Snechma of France . . . jointly manufacture the jet engine for Boeing's 737 and Airbus's 320. G.E. makes the "hot section" at its plant in Cincinnati, while Snechma manufactures the giant fans in France. They ship these components to each other and each partner does the final assembly of the engines for its customers. In addition, G.E. makes smaller jet engines for the commuter planes that Bombardier makes in Canada and Embraer makes in Brazil. The engines are exported to those countries, but 24 percent of the value of the engines comes from components imported from Japan.
 
@@ -70,7 +77,7 @@ A second goal of the chapter is to discuss the gains from offshoring. We argue t
 
 A third goal of the chapter is to examine the response to offshoring in the United States. The final quotation at the beginning of the chapter, from the 2013 State of the Union address by President Obama, indicates that he proposes to limit tax breaks to companies engaged in offshoring. Many economists would disagree with this proposal, and argue instead that offshoring has overall benefits. We examine these arguments and also discuss the newest trend of "inshoring" activities back into the United States.
 
-# 1 a Model of Offshoring
+## 1 A Model of Offshoring
 
 To develop a model of offshoring, we need to identify all the activities involved in producing and marketing a good or service. These activities are illustrated in Figure 7-1. Panel (a) describes the activities in the order in which they are performed (starting with research and development [R&D] and ending with marketing and after-sales service). For instance, in producing a television, the design and engineering are developed first; components such as wiring, casing, and screens are manufactured next; and finally the television is assembled into its final version and sold to consumers.
 
@@ -87,7 +94,7 @@ FIGURE 7-1
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/1b61eabada4b54a9cb156afbdd8d18bdc7ea0740d4f3f0e135016c865f2d6792.jpg)
 (b) Activities Ranked by High-skilled/Low-skilled Labor
 
-The Value Chain of a Product Any product has many different activities involved in its manufacture. Panel (a) lists some of these activities for a given product in the order in which they occur. The value chain in (b) lists these same activities in order of the amount of high-skilled/low-skilled labor used in each. In panel (b), the assembly activity, on the left, uses the least skilled labor, and R&D, on the right, uses the most skilled labor. Because we assume that the relative wage of skilled labor is higher at Home and that trade and capital costs are uniform across activities, there is a point on the value chain, shown by line A, below which all activities are offshored to Foreign and above which all activities are performed at Home.
+**The Value Chain of a Product** Any product has many different activities involved in its manufacture. Panel (a) lists some of these activities for a given product in the order in which they occur. The value chain in (b) lists these same activities in order of the amount of high-skilled/low-skilled labor used in each. In panel (b), the assembly activity, on the left, uses the least skilled labor, and R&D, on the right, uses the most skilled labor. Because we assume that the relative wage of skilled labor is higher at Home and that trade and capital costs are uniform across activities, there is a point on the value chain, shown by line A, below which all activities are offshored to Foreign and above which all activities are performed at Home.
 
 value to the combined product. All these activities do not need to be done in one country—a firm can transfer some of these activities abroad by offshoring them when it is more economical to do so. By lining up the activities in terms of the relative amount of skilled labor they require, we can predict which activities are likely to be transferred abroad. This prediction depends on several assumptions, which follow.
 
@@ -107,7 +114,7 @@ Relative Demand for Skilled Labor Now that we know the division of activities be
 
 In Foreign, we add up the demand for high-skilled labor  $ H^{*} $ and for low-skilled labor $ L^{*} $ for all the activities to the left of line $ A^{*} $. Panel (b) graphs the relative demand for skilled labor in Foreign $ H^{*} / L^{*} $ against the relative wage $ W_{H}^{*} / W_{L}^{*} $ . Again, this curve slopes downward because a higher relative wage for skilled labor would cause Foreign firms to substitute less skilled labor in some activities. In each country, we can add a relative supply curve to the diagram, which is upward-sloping because a higher relative wage for skilled labor causes more skilled individuals to enter this industry. For instance, if the high-skilled wage increases relative to the low-skilled wage in either
 
-# Figure 7-2
+**Figure 7-2**
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/7b93bd75fd14b170df31426f02b7ae6093fe1f48084baf332ce73add2ccc71a9.jpg)
 (a) Home Country
@@ -115,13 +122,9 @@ In Foreign, we add up the demand for high-skilled labor  $ H^{*} $ and for low-s
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/ab7a6187700d411d1c930f1717bfa7381fddacc5be03b6de66e95a3fd44aa7be.jpg)
 (b) Foreign Country
 
-# Relative Demand and Supply for High-skilled/low-skilled
+**Relative Demand and Supply for High-skilled/Low-skilled Labor** In panel (a), we show the relative demand and supply for skilled labor at Home, $H/L$, depending on the relative wage, $W_{H}/W_{L}$.
 
-Labor In panel (a), we show the relative demand and supply for skilled labor at Home,  $ H / L $, depending on the relative wage, $ W_{H} / W_{L} $ .
-
-The equilibrium relative wage at Home is determined at  $ A $ . In panel
-
-(b), we show the relative demand and supply for skilled labor in Foreign,  $ H^{*} / L^{*} $, depending on the relative wage, $ W_{H}^{*} / W_{L}^{*} $. The Foreign equilibrium is at point $ A^{*} $ .
+The equilibrium relative wage at Home is determined at $A$. In panel (b), we show the relative demand and supply for skilled labor in Foreign, $H^{*}/L^{*}$, depending on the relative wage, $W_{H}^{*}/W_{L}^{*}$. The Foreign equilibrium is at point $A^{*}$.
 
 country, then individuals will invest more in schooling to equip themselves with the skills necessary to earn the higher relative wage.
 
@@ -295,14 +298,12 @@ Suppose that the firm has a certain amount of high-skilled (H) and low-skilled (
 
 Now that we have the PPF for the firm, we can analyze an equilibrium for the firm, just as we have previously done for an entire economy. Suppose initially that the firm cannot engage in offshoring of its activities. This assumption means that the component production and R&D done at Home are used to manufacture a final product at
 
-# Figure 7-9
+**Figure 7-9**
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/e21fa65047ff9f85764780cd4278f14c9c87ad9bf0f1388658139d7c46558270.jpg)
 R&D
 
-# No-trade Equilibrium for the Home
-
-Firm The PPF shows the combinations of components and R&D that can be undertaken by a firm with a given amount of labor and capital. In the absence of offshoring, the firm produces at  $ A $, using quantities $ Q_{C} $ of components and $ Q_{R} $ of R&D to produce amount $ Y_{0} $ of the final good. The line tangent to the isoquant through point $ A $ measures the value that the firm puts on components relative to R&D, or their relative price, $ (P_{C} / P_{R})^{A} $. Amount $ Y_{1} $  of the final good cannot be produced in the absence of offshoring because it lies outside the PPF for the firm.
+**No-trade Equilibrium for the Home Firm** The PPF shows the combinations of components and R&D that can be undertaken by a firm with a given amount of labor and capital. In the absence of offshoring, the firm produces at $A$, using quantities $Q_{C}$ of components and $Q_{R}$ of R&D to produce amount $Y_{0}$ of the final good. The line tangent to the isoquant through point $A$ measures the value that the firm puts on components relative to R&D, or their relative price, $(P_{C}/P_{R})^{A}$. Amount $Y_{1}$ of the final good cannot be produced in the absence of offshoring because it lies outside the PPF for the firm.
 
 Home: it cannot assemble any components in Foreign, and likewise, it cannot send any of its R&D results abroad to be used in a Foreign plant.
 
@@ -316,9 +317,9 @@ We refer to the relative price of the two activities that the Home firm has avai
 
 The Home equilibrium with offshoring is illustrated in Figure 7-10. The world relative price of components is tangent to the PPF at point  $ B $ . Notice that the world
 
-FIGURE 7-10
+**Figure 7-10**
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/dac306c6f9d9af4720b48f90cfcc14ec0c4654b0ce620fb66dacea67d3b21d44.jpg)
-Offshoring Equilibrium for the Home Firm In the presence of offshoring, the Home firm will do more R&D and less component production, at point  $ B $. The Home firm then exports R&D activities and imports components at the world relative price of components, which allows it to produce the amount $ Y_{1} $ of the final good. The difference between $ Y_{0} $ and $ Y_{1} $  represents the gains to the Home firm from offshoring.
+**Offshoring Equilibrium for the Home Firm** In the presence of offshoring, the Home firm will do more R&D and less component production, at point $B$. The Home firm then exports R&D activities and imports components at the world relative price of components, which allows it to produce the amount $Y_{1}$ of the final good. The difference between $Y_{0}$ and $Y_{1}$ represents the gains to the Home firm from offshoring.
 
 relative price line is flatter than the no-trade relative price line at Home. The flattening of the price line reflects the lower world relative price of components as compared with the no-trade relative price at Home. As a result of this fall in the relative price of components, the Home firm undertakes more R&D and less component production, moving from point  $ A $ to point $ B $  on its PPF.
 
@@ -340,18 +341,18 @@ Fall in the Price of Components Turning to Figure 7-11, let the Home country sta
 
 Because of the fall in the relative price of components, the world price line shown in Figure 7-11 becomes flatter. Production will shift to point  $ B' $, and by exporting R&D and importing components along the world price line, the firm ends up at point $ C' $. Production of the final good at point $ C' $ is $ Y_{2} $, which exceeds the production $ Y_{1} $  in the initial equilibrium with offshoring.[12] Thus, the Home firm enjoys greater gains from offshoring when the price of components falls. This is the first case considered by Samuelson, and it reinforces our conclusions that offshoring leads to overall gains.
 
-FIGURE 7-11
+**Figure 7-11**
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/69d09f087f98dbba97500660ba428de5df0b2eebe8fcff810cf600ecb87f1bb6.jpg)
-Fall in the Price of Component If the relative price of components falls from  $ (P_{C} / P_{R})^{W1} $ to $ (P_{C} / P_{R})^{W2} $, then the Home firm will do even more R&D and less components production, at point $ B' $ rather than $ B $. The increase in the terms of trade allows the Home firm to produce output $ Y_{2} $ at point $ C' $, and the gains from trade are higher than in the initial offshoring equilibrium (points $ B $ and $ C $ ).
+**Fall in the Price of Component** If the relative price of components falls from $(P_{C}/P_{R})^{W1}$ to $(P_{C}/P_{R})^{W2}$, then the Home firm will do even more R&D and less components production, at point $B'$ rather than $B$. The increase in the terms of trade allows the Home firm to produce output $Y_{2}$ at point $C'$, and the gains from trade are higher than in the initial offshoring equilibrium (points $B$ and $C$).
 
 Fall in the Price of R&D We also need to consider the second case identified by Samuelson, and that is when there is a fall in the price of R&D services rather than components. This is what Samuelson has in mind when he argues that offshoring might allow developing countries, such as India, to gain a comparative advantage in those activities in which the United States formerly had comparative advantage. As Indian companies like Wipro (an information technology services company headquartered in Bangalore) engage in more R&D activities, they are directly competing with American companies exporting the same services. So this competition can lower the world price of R&D services.
 
 In Figure 7-12, we reproduce Figure 7-10, including the Home no-trade equilibrium at point  $ A $ and the Home production point $ B $ with offshoring. Starting at point $ B $, a fall in the world relative price of R&D will lead to a steeper price line (because the slope of the price line is the world relative price of components, which increases when $ P_R $ falls). At the new price $ (P_C / P_R)^{W3} $, Home shifts production to point $ B'' $ and, by exporting R&D and importing components, moves to point $ C'' $. Notice that final output has fallen from $ Y_{1} $ to $ Y_{3} $ . Therefore, the fall in the price of R&D services leads to losses for the Home firm. To explain where the losses are coming from, notice that
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/1816a02f9652c11c01c34fce9143928f3bc5bbf0b17dfcb63df653d6e30f9c7e.jpg)
-FIGURE 7-12
+**Figure 7-12**
 
-A Fall in the Price of R&D A fall in the relative price of R&D makes the world price line steeper,  $ (P_{C} / P_{R})^{W3} $. As a result, the Home firm reduces its R&D activities and increases its components activities, moving from $ B $ to $ B'' $  along the PPF. At the new world relative price, the Home firm faces a terms-of-trade loss and can no longer export each unit of R&D for as many components as it could in the initial offshoring
+**A Fall in the Price of R&D** A fall in the relative price of R&D makes the world price line steeper, $(P_{C}/P_{R})^{W3}$. As a result, the Home firm reduces its R&D activities and increases its components activities, moving from $B$ to $B''$ along the PPF. At the new world relative price, the Home firm faces a terms-of-trade loss and can no longer export each unit of R&D for as many components as it could in the initial offshoring
 
 equilibrium. The final good output is reduced from  $ Y_{1} $ to $ Y_{3} $ at point $ C'' $. Notice that the final good output, $ Y_{3} $, is still higher than output without trade, $ Y_{0} $ . After the fall in the relative price of R&D, there are still gains from trade relative to no-trade (point A) but losses relative to the initial offshoring equilibrium (points B and C).
 
@@ -407,7 +408,7 @@ United Kingdom, its chief competitor, up until about 2000. Since then the surplu
 
 Source: World Bank World Development Indicators.
 
-# 3 the Politics and Future of Offshoring
+## 3 The Politics and Future of Offshoring
 
 Offshoring is controversial and is often the topic of political debate. In February 2004 the first quote at the beginning of this chapter appeared in the Economic Report of the President. The writer of that sentence, Harvard economist N. Gregory Mankiw, who was chairman of the Council of Economic Advisors, also said that "outsourcing is just a new way of doing international trade. More things are tradable than were tradable in the past, and that's a good thing." Those comments were widely criticized by the Democrats and Republicans alike, and Professor Mankiw later apologized in a letter to the House of Representatives, writing, "My lack of clarity left the wrong impression that I praised the loss of U.S. jobs."
 
@@ -427,9 +428,9 @@ Direct evidence on the positive impact of offshoring on productivity comes from 
 
 On the other hand, changes in economic conditions that lead firms to voluntarily bring some activities back home would be viewed favorably by most economists. There is some evidence that economic conditions have changed in that direction, as
 
-# Headlines
+**Headlines**
 
-# How to Destroy American Jobs
+**How to Destroy American Jobs**
 
 This article argues that offshoring by multinational companies supports an increase in jobs at home, and that these jobs would be lost by policies to restrict offshoring.
 
@@ -457,9 +458,9 @@ Source: Matthew J. Slaughter, "How to Destroy American Jobs," Wall Street Journa
 
 described in Headlines: Caterpillar Joins "Onshoring" Trend. In 2010, General Electric joined this trend by moving the manufacturing of a water heater from China to Louisville, Kentucky, and in late 2012 Apple Computer announced that it would be bringing some jobs back to the United States by building some Macintosh computers locally.[16] A combination of higher wages in China, higher transportation costs
 
-# Headlines
+**Headlines**
 
-# Caterpillar Joins "onshoring" Trend
+**Caterpillar Joins "Onshoring" Trend**
 
 Some American companies have found it advantageous to take activities they had previously shifted overseas and move them back home, in what is called "onshoring."
 
@@ -493,7 +494,7 @@ Radiology is under no imminent threat from outsourcing because the profession in
 
 In every profession there will always be jobs that cannot be performed by someone who is not on-site. For many of the service activities listed in Table 7-2, the United States will continue to have comparative advantage even while facing foreign competition. In many manufacturing industries, the United States will continue to maintain some activities at home, such as R&D and marketing, even while shifting a portion of the production process abroad. Finally, we should recognize that the ability to offshore to Mexico or India ultimately makes the U.S. companies involved more profitable and therefore better able to withstand foreign competition.
 
-# 4 Conclusions
+## 4 Conclusions
 
 In this chapter, we have studied a type of trade that is becoming increasingly important: offshoring, by which we mean the shifting of some production activities to another country, while other production activities are kept at Home. Rather than
 
@@ -519,18 +520,9 @@ The fact that it is not only possible to shift these activities to India but eco
 
 a potential reduction in their wages, just as low-skilled labor bore the brunt of the impact from offshoring in the 1980s. Nevertheless, it is still the case that the United States, like the United Kingdom and other European countries, continues to have a comparative advantage in exporting various types of business services. Although India is making rapid progress in the area of computer and information services, there are still many types of service activities that need be done locally and cannot be outsourced. One likely prediction is that the activities in the United States that cannot be codified in written rules and procedures, and that benefit from face-to-face contact as well as proximity to other highly skilled individuals in related industries, will continue to have comparative advantage.
 
-# Key Points
+**Key Points**
 
-1. The provision of a service or the production of various parts of a good in different countries for assembly into a final good in another location is called foreign outsourcing or offshoring.
-2. We can apply the same ideas that we developed for trade in final goods among countries to the trade of intermediate offshored activities. For instance, if low-skilled labor is relatively inexpensive in the Foreign country, then the activities that are least skill-intensive will be offshored there, and Home will engage in the activities that are more skill-intensive.
-3. We can also predict what happens to relative wages of skilled labor when there is a change in trading costs and more offshoring. Our model predicts that the relative demand for skilled labor increases in both countries. This result helps to explain the observation that relative wages
-
-have been increasing in the United States and in other countries at the same time.
-
-4. In an overall sense, there are gains from offshoring, because the specialization of countries in different production activities allows firms in both countries to produce a higher level of final goods. That increase in output represents a productivity gain, and the gains from trade.
-5. With service offshoring, it is possible that a country like India will have rising productivity in activities in which the United States has comparative advantage, such as R&D. Rising productivity in India would lead to a fall in the price of R&D, which is a terms-of-trade loss for the United States. For that reason, the United States could lose due to service offshoring, though it still gains as compared with a situation of no offshoring at all.
-
-# Key Terms
+**Key Terms**
 
 foreignoutsourcing,p.198
 
@@ -548,7 +540,7 @@ isoquants,p.214
 
 business services, p. 219
 
-# Problems
+**Problems**
 
 1. Consider an offshoring model in which the hours of labor used in four activities in the United States and Mexico are as follows: Note that labor hours in Mexico are twice those in the United States, reflecting Mexico's lower productivity. Also note that the ratio of high-skilled to low-skilled labor used in each activity increases as we move to the right, from 1/5 in assembly, to 10/1 in R&D. Suppose that the wage of U.S.
 
@@ -583,7 +575,7 @@ c. Does the U.S. firm gain from advances in research and development abroad? Exp
 
 4. Consider the model of a firm that produces final goods using R&D and components as inputs, with cost data as follows:
 
-Components: Total costs of production  $ = P_{C} \cdot Q_{C} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{C} = 10 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{C} = 40 $ Earnings of capital $ = R \cdot K_{C} = 50 $ Share of total costs paid to high-skilled labor $ = 10 / 100 = 10\% $ Share of total costs paid to low-skilled labor $ = 40 / 100 = 40\% $ $R\dot{\otimes} D $  : Total costs of R&D $ P_{R}\cdot Q_{R} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{R} = 40 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{R} = 10 $ Earnings of capital $ = R\cdot K_{R} = 50 $ Share of total costs paid to high-skilled labor $ = 40 / 100 = 40\% $ Share of total costs paid to low-skilled labor $ = 10 / 100 = 10\% $
+Components: Total costs of production  $ = P_{C} \cdot Q_{C} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{C} = 10 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{C} = 40 $ Earnings of capital $ = R \cdot K_{C} = 50 $ Share of total costs paid to high-skilled labor $ = 10 / 100 = 10\% $ Share of total costs paid to low-skilled labor $ = 40 / 100 = 40\% $ $R\&D$  : Total costs of R&D $ P_{R}\cdot Q_{R} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{R} = 40 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{R} = 10 $ Earnings of capital $ = R\cdot K_{R} = 50 $ Share of total costs paid to high-skilled labor $ = 40 / 100 = 40\% $ Share of total costs paid to low-skilled labor $ = 10 / 100 = 10\% $
 
 a. In which factor(s) is components intensive? In which factor(s) is R&D intensive?
 b. Suppose that due to the opening of trade, the price of components fall by  $ \Delta P_{C} / P_{C} = -10\% $ while the price of R&D remains unchanged, $ \Delta P_{R} / P_{R} = 0 $ . Using the hint below, calculate the change in the wage of skilled and low-skilled labor.
@@ -594,7 +586,7 @@ First, write the total costs in each activity as consisting of the payments to l
 
 $ P_{C} \cdot Q_{C} = R \cdot K_{C} + W_{H} \cdot H_{C} + W_{L} \cdot L_{C}, $ for components $ P_{R} \cdot Q_{R} = R \cdot K_{R} + W_{H} \cdot H_{R} + W_{L} \cdot L_{R}, $  for R&D
 
-Because we assume that  $ 50\% $ of costs in either components or R&D is always paid to capital, then $ R \cdot K_{C} = 0.5(P_{C} \cdot Q_{C}) $ and $ R \cdot K_{R} = 0.5(P_{R} \cdot Q_{R}) $, so we can rewrite the above two equations as $ 0.5(P_{C}\cdot Q_{C}) = W_{H}\cdot H_{C} + W_{L}\cdot L_{G}, $ for components $ 0.5(P_{R}\bullet Q_{R}) = W_{H}\bullet H_{R} + W_{L}\bullet L_{R}, $  for R&D
+Because we assume that  $ 50\% $ of costs in either components or R&D is always paid to capital, then $ R \cdot K_{C} = 0.5(P_{C} \cdot Q_{C}) $ and $ R \cdot K_{R} = 0.5(P_{R} \cdot Q_{R}) $, so we can rewrite the above two equations as $ 0.5(P_{C}\cdot Q_{C}) = W_{H}\cdot H_{C} + W_{L}\cdot L_{G}, $ for components $0.5(P_{R}\cdot Q_{R}) = W_{H}\cdot H_{R} + W_{L}\cdot L_{R},$ for R\&D
 
 Taking the change in these equations:
 
@@ -608,19 +600,19 @@ $ $
 for components
 $ $
 
-\begin{array}{l} 0. 5 \Big [ \frac{\Delta P_{R}}{P_{R}} \Big ] = \Big (\frac{\Delta W_{H}}{W_{H}} \Big) \Big (\frac{W_{H} \cdot H_{R}}{P_{R} \cdot Q_{R}} \Big) + \Big (\frac{\Delta W_{L}}{W_{L}} \Big) \Big (\frac{W_{L} \cdot L_{R}}{P_{R} \cdot Q_{R}} \Big), \\ \text{fo rR \&D} \end{array}
+\begin{array}{l} 0.5 \left[ \frac{\Delta P_{R}}{P_{R}} \right] = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{W_{H} \cdot H_{R}}{P_{R} \cdot Q_{R}}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{W_{L} \cdot L_{R}}{P_{R} \cdot Q_{R}}\right), \\ \text{for R\&D} \end{array}
 
 $ $
 Use the cost shares and price change data in these formulas to get
 $ $
 
--5\% = \left(\frac{\Delta W_{H}}{W_{H}}\right)\left(\frac{10}{100}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right)\left(\frac{40}{100}\right),
+$-5\% = \left(\frac{\Delta W_{H}}{W_{H}}\right)\left(\frac{10}{100}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right)\left(\frac{40}{100}\right),$
 
 $ $
 for components
 $ \$
 
-0 = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{4 0}{1 0 0}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{1 0}{1 0 0}\right),
+$0 = \left(\frac{\Delta W_{H}}{W_{H}}\right) \left(\frac{40}{100}\right) + \left(\frac{\Delta W_{L}}{W_{L}}\right) \left(\frac{10}{100}\right),$
 
 $ $
 for R&D
@@ -631,7 +623,7 @@ c. What has happened to the relative wage of high-skilled/low-skilled labor? Doe
 
 5. Consider the model of a firm that produces final goods using R&D and components as inputs, with cost data as follows:
 
-Components: Total costs of production  $ = P_{C} \cdot Q_{C} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{C} = 25 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{C} = 25 $ Earnings of capital $ = R \cdot K_{C} = 50 $ Share of total costs paid to high-skilled labor $ = 25 / 100 = 25\% $ Share of total costs paid to low-skilled labor $ = 25 / 100 = 25\% $ $R\mathcal{O}D $  : Total costs of R&D $ P_{R}\cdot Q_{R} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{R} = 30 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{R} = 20 $ Earnings of capital $ = R \cdot K_{R} = 50 $ Share of total costs paid to high-skilled labor $ = 30 / 100 = 30\% $ Share of total costs paid to low-skilled labor $ = 20 / 100 = 20\% $
+Components: Total costs of production  $ = P_{C} \cdot Q_{C} = 100 $ Earnings of high-skilled labor $ = W_{H} \cdot H_{C} = 25 $ Earnings of low-skilled labor $ = W_{L} \cdot L_{C} = 25 $ Earnings of capital $ = R \cdot K_{C} = 50 $ Share of total costs paid to high-skilled labor $ = 25 / 100 = 25\% $ Share of total costs paid to low-skilled labor $ = 25 / 100 = 25\% $ $R\&D$: Total costs of R\&D $P_{R}\cdot Q_{R} = 100$ Earnings of high-skilled labor $= W_{H} \cdot H_{R} = 30$ Earnings of low-skilled labor $= W_{L} \cdot L_{R} = 20$ Earnings of capital $= R \cdot K_{R} = 50$ Share of total costs paid to high-skilled labor $= 30 / 100 = 30\%$ Share of total costs paid to low-skilled labor $= 20 / 100 = 20\%$
 
 a. In which factor(s) is components intensive? In which factor(s) is research intensive?
 b. Suppose that due to the opening of trade, the relative price of R&D increases,  $ \Delta P_R / P_R = 10\% $, whereas the price of components stays unchanged, $ \Delta P_C / P_C = 0 $  Calculate the change in the relative wage of high-skilled and low-skilled labor.

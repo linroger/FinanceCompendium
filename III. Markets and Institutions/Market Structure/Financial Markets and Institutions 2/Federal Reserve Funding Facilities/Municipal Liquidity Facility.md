@@ -1,14 +1,23 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Municipal Liquidity Facility
+parent_directory: Federal Reserve Funding Facilities
+formatted: 2025-12-21 10:55:25 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - municipal liquidity facility
+  - federal reserve lending
+secondary_tags:
+  - covid 19 response
+  - municipal bond market
+  - short term financing
+  - treasury stabilization fund
+cssclasses: academia
 ---
 
 # Municipal Liquidity Facility
 
-Effective August 11,  $2020^{1}$
+Effective August 11, 2020¹
 
 Facility: The Municipal Liquidity Facility ("Facility"), which has been authorized under Section 13(3) of the Federal Reserve Act, will support lending to each:
 
@@ -18,15 +27,13 @@ U.S. county that (i) has a population exceeding 500,000 residents<sup>3</sup> or
 Multi-State Entity, and  
 Revenue Bond Issuers that are designated below ("Designated RBIs").
 
-Under the Facility, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The SPV will purchase Eligible Notes directly from Eligible Issuers at the time of issuance. The Reserve Bank will be secured by all the assets of the SPV. The Department of the Treasury, using funds appropriated to the Exchange Stabilization Fund under section 4027 of the Coronavirus Aid, Relief, and Economic Security Act, will make an initial equity investment of  \$35 billion in the SPV in connection with the Facility. The SPV will have the ability to purchase up to\$ 500 billion of Eligible Notes.
+Under the Facility, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The SPV will purchase Eligible Notes directly from Eligible Issuers at the time of issuance. The Reserve Bank will be secured by all the assets of the SPV. The Department of the Treasury, using funds appropriated to the Exchange Stabilization Fund under section 4027 of the Coronavirus Aid, Relief, and Economic Security Act, will make an initial equity investment of $35 billion in the SPV in connection with the Facility. The SPV will have the ability to purchase up to $500 billion of Eligible Notes.
 
 Eligible Notes: Eligible Notes are tax anticipation notes (TANs), tax and revenue anticipation notes (TRANs), bond anticipation notes (BANs), revenue anticipation notes (RANs), and other similar short-term notes issued by Eligible Issuers, provided that such notes mature no later than 36 months from the date of issuance. In each case, a note's eligibility is subject to review by the Federal Reserve. Relevant legal opinions and disclosures will be required as determined by the Federal Reserve prior to purchase.
 
 Eligible Issuer: An Eligible Issuer is a State, City, or County (or, subject to Federal Reserve review and approval, an entity that issues securities on behalf of the State, City, or County for the purpose of managing its cash flows), or a Multi-State Entity or Designated RBI.
 
-An Eligible Issuer that is not a Multi-State Entity or Designated RBI must have been rated at least BBB-/Baa3 as of April 8, 2020, by two or more major nationally recognized statistical rating organizations ("NRSROs"). An Eligible Issuer that is not a Multi-State Entity or Designated RBI and that was rated at least BBB-/Baa3 as of April 8, 2020, but is subsequently downgraded, must be rated at least BB-/Ba3 by two or more major NRSROs at the time the Facility makes a purchase. An Eligible Issuer that is a Multi-State Entity or Designated RBI must have been rated at least A-/A3 as of April 8, 2020, by two or more major NRSROs. A Multi-State Entity or Designated RBI that was rated at least A-/A3 as of April 8, 2020, but is subsequently downgraded, must be rated at least BBB-/Baa3 by two or more major NRSROs at the time the Facility makes a purchase. Notwithstanding the foregoing, if a State, City, County, Multi-State Entity, or Designated RBI was rated by
-
-only one major NRSRO as of April 8, 2020, it may be an Eligible Issuer under the Facility if (i) the rating was at least BBB-/Baa3 (for a State, City, or County) or A-/A3 (for a Multi-State Entity or Designated RBI); (ii) the State, City, County, Multi-State Entity, or Designated RBI is rated by at least two major NRSROs at the time the Facility makes a purchase; and (iii) such ratings are at least BB-/Ba3 (for a State, City, or County) or BBB-/Baa3 (for a Multi-State Entity or Designated RBI).
+An Eligible Issuer that is not a Multi-State Entity or Designated RBI must have been rated at least BBB-/Baa3 as of April 8, 2020, by two or more major nationally recognized statistical rating organizations ("NRSROs"). An Eligible Issuer that is not a Multi-State Entity or Designated RBI and that was rated at least BBB-/Baa3 as of April 8, 2020, but is subsequently downgraded, must be rated at least BB-/Ba3 by two or more major NRSROs at the time the Facility makes a purchase. An Eligible Issuer that is a Multi-State Entity or Designated RBI must have been rated at least A-/A3 as of April 8, 2020, by two or more major NRSROs. A Multi-State Entity or Designated RBI that was rated at least A-/A3 as of April 8, 2020, but is subsequently downgraded, must be rated at least BBB-/Baa3 by two or more major NRSROs at the time the Facility makes a purchase. Notwithstanding the foregoing, if a State, City, County, Multi-State Entity, or Designated RBI was rated by only one major NRSRO as of April 8, 2020, it may be an Eligible Issuer under the Facility if (i) the rating was at least BBB-/Baa3 (for a State, City, or County) or A-/A3 (for a Multi-State Entity or Designated RBI); (ii) the State, City, County, Multi-State Entity, or Designated RBI is rated by at least two major NRSROs at the time the Facility makes a purchase; and (iii) such ratings are at least BB-/Ba3 (for a State, City, or County) or BBB-/Baa3 (for a Multi-State Entity or Designated RBI).
 
 Only one issuer per State, City, County, Multi-State Entity, or Designated RBI is eligible; provided that the Federal Reserve may approve one or more additional issuers per State, City, or County to facilitate the provision of assistance to political subdivisions and other governmental entities of the relevant State, City, or County.
 
@@ -48,11 +55,9 @@ Designated RBIs: Each Governor of a U.S. state may designate up to two Designate
 
 Multi-State Entity: A Multi-State Entity is an entity that was created by a compact between two or more States, which compact has been approved by the United States Congress, acting pursuant to its power under the Compact Clause of the United States Constitution.
 
-Security for Eligible Notes: Note security will be subject to review and approval by the Federal Reserve. The source of repayment and security for Eligible Notes will depend on the applicable constitutional and statutory
+Security for Eligible Notes: Note security will be subject to review and approval by the Federal Reserve. The source of repayment and security for Eligible Notes will depend on the applicable constitutional and statutory provisions governing the Eligible Issuer and should be generally consistent with the source of repayment and strongest security typically pledged to repay publicly offered obligations of the Eligible Issuer. Eligible Notes issued by Eligible Issuers that are not Multi-State Entities or Designated RBIs will generally be expected to represent general obligations of the Eligible Issuer, or be backed by tax or other specified governmental revenues of the applicable State, City, or County. If the Eligible Issuer is an authority, agency, or other entity of a State, City, or County, such Eligible Issuer must either commit the credit of, or pledge revenues of, the State, City, or County, or the State, City, or County must guarantee the Eligible Notes issued by such issuer. If the Eligible Issuer is a Multi-State Entity or Designated RBI, the Eligible Notes will be expected to be parity obligations of existing debt secured by a senior lien on the gross or net revenues of the Multi-State Entity or Designated RBI.
 
-provisions governing the Eligible Issuer and should be generally consistent with the source of repayment and strongest security typically pledged to repay publicly offered obligations of the Eligible Issuer. Eligible Notes issued by Eligible Issuers that are not Multi-State Entities or Designated RBIs will generally be expected to represent general obligations of the Eligible Issuer, or be backed by tax or other specified governmental revenues of the applicable State, City, or County. If the Eligible Issuer is an authority, agency, or other entity of a State, City, or County, such Eligible Issuer must either commit the credit of, or pledge revenues of, the State, City, or County, or the State, City, or County must guarantee the Eligible Notes issued by such issuer. If the Eligible Issuer is a Multi-State Entity or Designated RBI, the Eligible Notes will be expected to be parity obligations of existing debt secured by a senior lien on the gross or net revenues of the Multi-State Entity or Designated RBI.
-
-Limit per State, City, County, Multi-State Entity, and Designated RBI: The SPV may purchase Eligible Notes issued by or on behalf of a State, City, or County in one or more issuances of up to an aggregate amount of  $20\%$  of the general revenue from own sources and utility revenue of the applicable State, City, or County government for fiscal year 2017.5 The SPV may purchase Eligible Notes issued by a Multi-State Entity or Designated RBI in one or more issuances of up to an aggregate amount of  $20\%$  of the gross revenue of the Multi-State Entity or Designated RBI, as reported in its audited financial statements for fiscal year 2019. States may request that the SPV purchase Eligible Notes in excess of the applicable limit in order to assist political subdivisions and other governmental entities that are not eligible for the Facility.
+Limit per State, City, County, Multi-State Entity, and Designated RBI: The SPV may purchase Eligible Notes issued by or on behalf of a State, City, or County in one or more issuances of up to an aggregate amount of $20\%$ of the general revenue from own sources and utility revenue of the applicable State, City, or County government for fiscal year 2017.<sup>5</sup> The SPV may purchase Eligible Notes issued by a Multi-State Entity or Designated RBI in one or more issuances of up to an aggregate amount of $20\%$ of the gross revenue of the Multi-State Entity or Designated RBI, as reported in its audited financial statements for fiscal year 2019. States may request that the SPV purchase Eligible Notes in excess of the applicable limit in order to assist political subdivisions and other governmental entities that are not eligible for the Facility.
 
 Pricing: The methodology for pricing is set forth in the attached Appendix B. An Eligible Issuer that has issued Eligible Notes to the SPV may elect to reprice such Eligible Notes based on pricing revisions to Appendix B. The new pricing will be based on the applicable ratings at the time of the repricing.
 
@@ -64,13 +69,13 @@ Eligible Use of Proceeds: An Eligible Issuer may use the proceeds of Eligible No
 
 Termination Date: The SPV will cease purchasing Eligible Notes on December 31, 2020, unless the Board and the Treasury Department extend the Facility. The Reserve Bank will continue to fund the SPV after such date until the SPV's underlying assets mature or are sold.
 
-# Municipal Liquidity Facility – Appendix A
+## Municipal Liquidity Facility – Appendix A
 
 <table><tr><td>State</td><td>Designated Cities and 
 Counties</td><td>State</td><td>Designated Cities and 
 Counties</td></tr><tr><td>Alabama</td><td>1</td><td>Montana</td><td>2</td></tr><tr><td>Alaska</td><td>1</td><td>Nebraska</td><td>0</td></tr><tr><td>Arizona</td><td>0</td><td>Nevada</td><td>0</td></tr><tr><td>Arkansas</td><td>2</td><td>New Hampshire</td><td>2</td></tr><tr><td>California</td><td>0</td><td>New Jersey</td><td>0</td></tr><tr><td>Colorado</td><td>0</td><td>New Mexico</td><td>0</td></tr><tr><td>Connecticut</td><td>2</td><td>New York</td><td>0</td></tr><tr><td>Delaware</td><td>1</td><td>North Carolina</td><td>0</td></tr><tr><td>Florida</td><td>0</td><td>North Dakota</td><td>2</td></tr><tr><td>Georgia</td><td>0</td><td>Ohio</td><td>0</td></tr><tr><td>Hawaii</td><td>1</td><td>Oklahoma</td><td>0</td></tr><tr><td>Idaho</td><td>2</td><td>Oregon</td><td>0</td></tr><tr><td>Illinois</td><td>0</td><td>Pennsylvania</td><td>0</td></tr><tr><td>Indiana</td><td>0</td><td>Rhode Island</td><td>2</td></tr><tr><td>Iowa</td><td>2</td><td>South Carolina</td><td>1</td></tr><tr><td>Kansas</td><td>0</td><td>South Dakota</td><td>2</td></tr><tr><td>Kentucky</td><td>0</td><td>Tennessee</td><td>0</td></tr><tr><td>Louisiana</td><td>1</td><td>Texas</td><td>0</td></tr><tr><td>Maine</td><td>2</td><td>Utah</td><td>0</td></tr><tr><td>Maryland</td><td>0</td><td>Vermont</td><td>2</td></tr><tr><td>Massachusetts</td><td>0</td><td>Virginia</td><td>0</td></tr><tr><td>Michigan</td><td>0</td><td>Washington</td><td>0</td></tr><tr><td>Minnesota</td><td>0</td><td>West Virginia</td><td>2</td></tr><tr><td>Mississippi</td><td>2</td><td>Wisconsin</td><td>0</td></tr><tr><td>Missouri</td><td>0</td><td>Wyoming</td><td>2</td></tr></table>
 
-# Municipal Liquidity Facility - Appendix B
+## Municipal Liquidity Facility - Appendix B
 
 Tax-Exempt Eligible Notes: If interest on the Eligible Notes is excluded from gross income for federal income tax purposes, pricing will be at a fixed interest rate based on a comparable maturity overnight index swap ("Is") rate plus the applicable spread based on the long-term rating of the security for the Eligible Notes as follows:
 

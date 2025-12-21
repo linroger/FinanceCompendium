@@ -1,11 +1,11 @@
 ---
 aliases:
-  - Optimizing Risk and Return
-tags:
-key_concepts:
+   - Optimizing Risk and Return
 parent_directory: Financial Investments for Public Policy
 cssclasses: academia
 title: Topic 1 - Optimizing Risk and Return
+primary_tags:
+secondary_tags:
 ---
 
 # Topic 1 - Optimizing Risk and Return

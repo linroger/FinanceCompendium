@@ -1,97 +1,99 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'IEOR E4703: Monte-Carlo Simulation'
-linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+title: IEOR E4703: Monte-Carlo Simulation
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
 primary_tags:
-- exponential distributions
-- bayesian theorem
-- bayesian modeling additional references
-- matteson's statistics and data analysis
-- output analysis
-secondary_tags:
-- bayesian models
-- conjugate priors
+- monte carlo methods
+- markov chain monte carlo
+- bayesian inference
+- statistical simulation
 - metropolis hastings algorithm
-- mcmc diagnostics
-- gibbs sampler markov chain
-- bayes's theorem
-- mcmc important
-- bayesian versions
-- hamiltonian monte-carlo
-- data analysis
+- gibbs sampling
+secondary_tags:
+- acceptance rejection method
+- proposal distribution
+- stationary distribution
+- detailed balance equation
+- data augmentation
+- binary response regression
+- black litterman model
+- topic modeling
+- latent dirichlet allocation
+- graphical models
+- bayesian networks
+- directed acyclic graphs
+- hamiltonian monte carlo
 - empirical bayes
-- simulated samples
-tags_extracted: '2025-12-18T17:59:07.528519'
-tags_method: max_quality_v1
+- mcmc convergence diagnostics
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
 
-# MCMC and Bayesian Modeling
+## MCMC and Bayesian Modeling
 
-Additional References: Ruppert and Matteson's Statistics and Data Analysis for FE, Christoper Bishop's PRML, David Barber's BRML, Gelman et al.'s Bayesian Data Analysis, Efron and Hastie's Computer Age Statistical Inference
+### Additional References
+Ruppert and Matteson's Statistics and Data Analysis for FE, Christoper Bishop's PRML, David Barber's BRML, Gelman et al.'s Bayesian Data Analysis, Efron and Hastie's Computer Age Statistical Inference
 
-Bayesian Modeling
+### Bayesian Modeling
 
-Conjugate Priors
+### Conjugate Priors
 
-Computational Issues in Bayesian Modeling
+### Computational Issues in Bayesian Modeling
 
-The Sampling Problem
+### The Sampling Problem
 
-One Approach: Acceptance-Rejection Algorithm
+### One Approach: Acceptance-Rejection Algorithm
 
-Another Approach: Markov Chain Monte-Carlo (MCMC)
+### Another Approach: Markov Chain Monte-Carlo (MCMC)
 
-Markov Chains
+### Markov Chains
 
-Metropolis-Hastings
+### Metropolis-Hastings
 
-Examples
+### Examples
 
-MCMC: Gibbs Sampling
+### MCMC: Gibbs Sampling
 
-Examples
+### Examples
 
-Difficulties With Gibbs Sampling
+### Difficulties With Gibbs Sampling
 
-MCMC Convergence Analysis and Output Analysis
+### MCMC Convergence Analysis and Output Analysis
 
-MCMC Output Analysis
+### MCMC Output Analysis
 
-MCMC Convergence Diagnostics
+### MCMC Convergence Diagnostics
 
-Some Applications of Bayesian Modeling & MCMC
+### Some Applications of Bayesian Modeling & MCMC
 
-Data Augmentation for Binary Response Regression
+### Data Augmentation for Binary Response Regression
 
-Asset Allocation with Views
+### Asset Allocation with Views
 
-A Novel Application of MCMC: Optimization and Code-Breaking
+### A Novel Application of MCMC: Optimization and Code-Breaking
 
-Topic Modeling and LDA
+### Topic Modeling and LDA
 
-A Brief Detour on Graphical Models
+### A Brief Detour on Graphical Models
 
-Appendix
+### Appendix
 
-Bayesian Model Checking
+### Bayesian Model Checking
 
-Bayesian Model Selection
+### Bayesian Model Selection
 
-Hamiltonian Monte-Carlo
+### Hamiltonian Monte-Carlo
 
-Empirical Bayes
+### Empirical Bayes
 
-# Bayes Theorem
+## Bayes Theorem
 
 Not surprisingly, Bayes's Theorem is the key result that drives Bayesian modeling and statistics.
 
-Let  $S$  be a sample space and let  $B_{1},\ldots ,B_{K}$  be a partition of  $S$  so that (i)  $\bigcup_{k}B_{k} = S$  and (ii)  $B_{i}\cap B_{j} = \emptyset$  for all  $i\neq j$ .
+Let $S$ be a sample space and let $B_{1},\ldots ,B_{K}$ be a partition of $S$ so that (i) $\bigcup_{k}B_{k} = S$ and (ii) $B_{i}\cap B_{j} = \emptyset$ for all $i\neq j$.
 
 Bayes's Theorem: Let  $A$  be any event. Then for any  $1 \leq k \leq K$  we have
 
@@ -103,12 +105,12 @@ Of course there is also a continuous version of Bayes's Theorem with sums replac
 
 Bayes's Theorem provides us with a simple rule for updating probabilities when new information appears
 
-- in Bayesian modeling and statistics this new information is the observed data  
+- in Bayesian modeling and statistics this new information is the observed data
 - and it allows us to update our prior beliefs about parameters of interest which are themselves assumed to be random variables.
 
 # The Prior and Posterior Distributions
 
-Let  $\pmb{\theta}$  be some unknown parameter vector of interest. We assume  $\pmb{\theta}$  is random with some distribution,  $\pi (\pmb {\theta})$
+Let $\pmb{\theta}$ be some unknown parameter vector of interest. We assume $\pmb{\theta}$ is random with some distribution, $\pi (\pmb {\theta})$
 
 - this is our prior distribution which captures our prior uncertainty regarding  $\theta$ .
 
@@ -453,13 +455,13 @@ Suppose we want to sample from a distribution  $p(\mathbf{x}) \coloneqq \tilde{p
 
 We can construct a (reversible) Markov chain as follows. Let  $\mathbf{X}_t = \mathbf{x}$  be the current state:
 
-- Generate  $\mathbf{Y} \sim Q(\cdot \mid \mathbf{x})$  for some Markov transition matrix  $Q$ .
+- Generate $\mathbf{Y} \sim Q(\cdot \mid \mathbf{x})$ for some Markov transition matrix $Q$.
 
-Let  $\mathbf{y}$  be the generated value.
+Let $\mathbf{y}$ be the generated value.
 
-- Set  $\mathbf{X}_{t + 1} = \mathbf{y}$  with probability  $\alpha (\mathbf{y}\mid \mathbf{x})\coloneqq \min \left\{\frac{\tilde{p}(\mathbf{y})}{\tilde{p}(\mathbf{x})}\cdot \frac{Q(\mathbf{x}|\mathbf{y})}{Q(\mathbf{y}|\mathbf{x})},1\right\}$ .
+- Set $\mathbf{X}_{t + 1} = \mathbf{y}$ with probability $\alpha (\mathbf{y}\mid \mathbf{x})\coloneqq \min \left\{\frac{\tilde{p}(\mathbf{y})}{\tilde{p}(\mathbf{x})}\cdot \frac{Q(\mathbf{x}|\mathbf{y})}{Q(\mathbf{y}|\mathbf{x})},1\right\}$.
 
-Otherwise set  $\mathbf{X}_{t + 1} = \mathbf{x}$
+Otherwise set $\mathbf{X}_{t + 1} = \mathbf{x}$
 
 Claim: The resulting Markov chain is reversible with stationary distribution  $p(\mathbf{x}) = \tilde{p}(\mathbf{x}) / Z_p$ .
 
@@ -469,7 +471,7 @@ Note also that if  $\mathbf{Y} = \mathbf{y}$  is rejected then the current state
 
 Can therefore sample from  $p(\mathbf{x})$  by running the algorithm until stationarity is achieved and then using generated points as our samples.
 
-# The Metropolis-Hastings Algorithm
+## The Metropolis-Hastings Algorithm
 
 Proof of Claim: We just check that  $p(\mathbf{x})$  satisfies the detailed balance equations:
 
@@ -488,7 +490,7 @@ Question: There are many possible choices of  $Q(\cdot \mid \cdot)$ . What shoul
 
 Question: Are the samples independent?
 
-# Example: Sampling from a 2-D Gaussian
+## Example: Sampling from a 2-D Gaussian
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1f734246-7026-481c-b3ab-2f675f614081/ac0b014e0c645e1daab7f8dcfa7a260d2eeffd4df7864426d6228ffd04d0e2b9.jpg)  
 Figure 11.9 from Bishop: A simple illustration using Metropolis algorithm to sample from a Gaussian distribution whose one standard-deviation contour is shown by the ellipse. The proposal distribution is an isotropic Gaussian distribution whose standard deviation is 0.2. Steps that are accepted are shown as green lines, and rejected steps are shown in red. A total of 150 candidate samples are generated, of which 43 are rejected.
@@ -497,6 +499,8 @@ Figure 11.9 from Bishop: A simple illustration using Metropolis algorithm to sam
 Figure 27.8 from Barber: Metropolis-Hastings samples from a bi-variate distribution  $p(x_1, x_2)$  using a proposal  $\tilde{q}(\mathbf{x}'|\mathbf{x}) = N(\mathbf{x}'|\mathbf{x}, \mathbf{l})$ . We also plot the iso-probability contours of  $p$ . Although  $p(\mathbf{x})$  is multi-modal, the dimensionality is low enough and the modes sufficiently close such that a simple Gaussian proposal distribution is able to bridge the two modes. In higher dimensions, such multi-modality is more problematic.
 
 Question: Why do you think it might sometimes be difficult to sample from a multi-modal distribution?
+
+## Gibbs Sampling
 
 Gibbs sampling is an MCMC sampler introduced by Geman and Geman in 1984
 
@@ -534,7 +538,7 @@ If not possible to simulate directly from one or more of the conditional distrib
 
 -sometimescalledMetropolis-with-Gibbs.
 
-# A Simple Example
+## A Simple Example
 
 Consider the distribution
 
@@ -554,7 +558,7 @@ Question: Given one of our earlier examples, can you identify a situation where 
 
 The marginal distribution of  $x$  is the beta-binomial distribution.
 
-# Hierarchical Models
+## Hierarchical Models
 
 <table><tr><td>Diet</td><td>Measurements</td></tr><tr><td>A</td><td>62, 60, 63, 59</td></tr><tr><td>B</td><td>63, 67, 71, 64, 65, 66</td></tr><tr><td>C</td><td>68, 66, 71, 67, 68, 68</td></tr><tr><td>D</td><td>56, 62, 60, 61, 63, 64, 63, 59</td></tr></table>
 
@@ -562,10 +566,10 @@ Table 11-2 taken from Bayesian Data Analysis,  ${2}^{nd}$  edition by Gelman et 
 
 Gibbs sampling is particularly suited for hierarchical modeling
 
-- we will consider an example from Bayesian Data Analysis by Gelman et al.  
+- we will consider an example from Bayesian Data Analysis by Gelman et al.
 - the data is in Table 11-2 above.
 
-# The Hierarchical Normal Model
+### The Hierarchical Normal Model
 
 Data  $y_{ij}$ , for  $i = 1, \dots, n_j$  and  $j = 1, \dots, J$  are assumed to be independently normally distributed within each of  $J$  groups with means  $\theta_j$  and common variance  $\sigma^2$ . That is,  $y_{ij} \mid \theta_j \sim N(\theta_j, \sigma^2)$ .
 
@@ -652,7 +656,7 @@ $$
 
 To start the Gibbs sampler we need starting points for  $\theta$  and  $\mu$  - but not (why?) for  $\tau$  or  $\sigma$ .
 
-# Difficulties With Gibbs Sampling
+## Difficulties With Gibbs Sampling
 
 Gibbs sampling is a very popular MCMC technique that is widely used.
 
@@ -931,7 +935,7 @@ $$
 
 where  $\phi (\cdot ;\mu ,\sigma^2)$  denotes the PDF for a normal random variable with mean  $\mu$  and variance  $\sigma^2$
 
-# Data Augmentation for Binary Response Regression
+## Data Augmentation for Binary Response Regression
 
 Posterior in (8) is in a particularly convenient form for Gibbs sampling.
 
@@ -949,7 +953,7 @@ Question: How would you justify (9)?
 
 Question: How can we simulate from  $g(\mathbf{z} \mid \boldsymbol{\beta}, \mathbf{y})$ ?
 
-# An Application to the Donner Party Wagon Trail Dataset
+## An Application to the Donner Party Wagon Trail Dataset
 
 Consider the data-set on the Donner party, a group of wagon trail emigrants who struggled to cross the Sierra Nevada mountains in California in 1846-47.
 
@@ -969,7 +973,7 @@ Figure on next slide displays estimated percentile survival rates for men of var
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1f734246-7026-481c-b3ab-2f675f614081/525b35b79e07ec52295f3d165d5210ad7631fd8d6791c331e341d8ddb014fea5.jpg)
 
-# Example: Asset Allocation with Views
+## Example: Asset Allocation with Views
 
 In finance one can use sophisticated statistical / time series techniques to construct an objective model of security returns or risk factors.
 
@@ -1003,7 +1007,7 @@ We obtain the famous Black-Litterman model when  $\mathbf{X}_{t + 1}$  is the ve
 
 - in this case the posterior can be calculated analytically.
 
-# A Novel Application: Optimization and Code-Breaking
+## A Novel Application: Optimization and Code-Breaking
 
 One day a psychologist from California's state prison system showed up at the consulting service of Stanford's Statistics department.
 
@@ -1366,7 +1370,7 @@ But we could also use auxiliary variable MCMC methods such as Hamiltonian Monte-
 
 - they've become very popular in recent years and (with Gibbs sampling) have begun to render (basic) Metropolis-Hastings almost obsolete!
 
-# Appendix: Hamiltonian Monte-Carlo
+## Appendix: Hamiltonian Monte-Carlo
 
 Hamiltonian Monte-Carlo is an MCMC method for continuous variables. It makes non-local jumps possible so we can jump from one mode to another.
 
@@ -1485,7 +1489,7 @@ Figure 27.9 from Barber: Hybrid Monte Carlo. (a): Multi-modal distribution  $p(x
 
 $\exp (H(x',y') - H(x,y'))$  . If rejected the new sample  $x^{\prime}$  is taken as a copy of  $x$
 
-# Empirical Bayes
+## Empirical Bayes
 
 <table><tr><td>Claims x</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>Counts yx</td><td>7840</td><td>1317</td><td>239</td><td>42</td><td>14</td><td>4</td><td>4</td><td>1</td></tr><tr><td>Formula (19)</td><td>.168</td><td>.363</td><td>.527</td><td>1.33</td><td>1.43</td><td>6.00</td><td>1.25</td><td>-</td></tr><tr><td>Gamma MLE</td><td>.164</td><td>.398</td><td>.633</td><td>.87</td><td>1.10</td><td>1.34</td><td>1.57</td><td>-</td></tr></table>
 

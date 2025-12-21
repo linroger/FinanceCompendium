@@ -1985,7 +1985,9 @@ Readings: Casella & Berger, Chapter 7.3, and these notes.
 
 One of the many things we've learned in the previous sections is that, even for a given statistical model  $X_{1},\ldots ,X_{n}$  iid  $P_{\theta}$ ,  $\theta \in \Theta$ , there are lots of estimators of  $\theta$ . We need a way to distinguish between them. The main one is mean squared error.
 
-11.1. Mean Squared Error (MSE). I'd like to give three really stupid estimators,  $\hat{\theta}_{rs}$ ,  $\hat{\theta}_{rs}^{\prime}$ , and  $\hat{\theta}_{rs}^{\prime\prime}$ , and one pretty good one,  $\hat{\theta}_{MLE}$ , to indicate the kinds of things we'd like to be able to rule out. We'll then look at how MSE works for these estimators.
+### 11.1. Mean Squared Error (MSE)
+
+I'd like to give three really stupid estimators, $\hat{\theta}_{rs}$, $\hat{\theta}_{rs}^{\prime}$, and $\hat{\theta}_{rs}^{\prime\prime}$, and one pretty good one, $\hat{\theta}_{MLE}$, to indicate the kinds of things we'd like to be able to rule out. We'll then look at how MSE works for these estimators.
 
 Three really stupid estimators, and one pretty good one:
 
@@ -2015,7 +2017,9 @@ Do this calculation.
 
 Draw a graph of the MSE's of the four estimators as a function of  $\theta$ , see what you see, in formal terms,  $\leq$  is only a partial order on the set of functions.
 
-11.2. Desirable properties for estimators. Some of the properties we might like, but will not insist on, for estimators include:
+### 11.2. Desirable properties for estimators
+
+Some of the properties we might like, but will not insist on, for estimators include:
 
 1. Unbiased estimators. If for all  $\theta \in \Theta$
 
@@ -2045,9 +2049,11 @@ $$
 
 $\beta$  and  $\sigma^2$  unknown. Notice that the  $\varepsilon_{i}$  are iid but the  $Y_{i}$  are not (unless the  $x_{i}$  are all equal to each other). Another way to write this is that the independent  $Y_{i}$  satisfy  $Y_{i} \sim N(\beta x_{i}, \sigma^{2})$ . The essential intuition is when  $|x_{i}|$  is large, the  $i$ 'th observation tells one more about the value of  $\beta$ . Here are three unbiased estimators of  $\beta$ , compare their variances:  $\hat{\beta}_{MLE}$  (find it, it's the obvious one);  $\hat{\beta}' = (\sum_{i} Y_{i}) / (\sum_{i} X_{i})$ ; and  $\hat{\beta}'' = \frac{1}{n} \sum_{i} (Y_{i} / X_{i})$ .
 
-11.3. The Cramér-Rao lower bound. Re-examine this. It is a lower bound on the possible variance of any unbiased estimator, linear, non-linear. This means that if you've found an unbiased estimator with this variance, you've done the best you possibly can. The only drawback is that, quite often, you cannot do this well, quite often, no estimator can achieve the bound.
+### 11.3. The Cramér-Rao lower bound
 
-# 11.4. Problems.
+Re-examine this. It is a lower bound on the possible variance of any unbiased estimator, linear, non-linear. This means that if you've found an unbiased estimator with this variance, you've done the best you possibly can. The only drawback is that, quite often, you cannot do this well, quite often, no estimator can achieve the bound.
+
+### 11.4. Problems
 
 Problem 11.1. Casella & Berger, 7.37.
 
@@ -2065,13 +2071,15 @@ $$
 
 This is a quadratic in  $s$  that opens upwards. Find its minimum and show that it happens for  $s < 1$ . \[The "s" is a "shrinkage factor," this problem tells us that unbiased estimators do not minimize MSE.]
 
-# 12. HYPOTHESIS TESTING
+## 12. HYPOTHESIS TESTING
 
 Say not "I have found the truth," but rather, "I have found a truth." (Kahlil Gibran, The Prophet)
 
 Readings: Casella & Berger, Chapter 8, and these notes.
 
-12.1. Overview. We're still working with the basic statistical model, the data  $\mathbf{X} = (X_{1},\ldots ,X_{n})$  are iid  $f(x|\theta)$ , and whenever it's convenient, I'll use  $f(\mathbf{x}|\theta)$  or  $L(\mathbf{x}|\theta)$  for the likelihood function evaluated at  $\mathbf{X} = \mathbf{x}$ .
+### 12.1. Overview
+
+We're still working with the basic statistical model, the data $\mathbf{X} = (X_{1},\ldots ,X_{n})$ are iid $f(x|\theta)$, and whenever it's convenient, I'll use $f(\mathbf{x}|\theta)$ or $L(\mathbf{x}|\theta)$ for the likelihood function evaluated at $\mathbf{X} = \mathbf{x}$.
 
 The useful estimators  $\hat{\theta}(\mathbf{X})$  are, typically, non-degenerate random variables. This means that they have a real spread, e.g. strictly positive variance. This in turn depends on the true  $\theta$ . The essential intuitive idea behind hypothesis testing is that we can use this spread to tell how likely or unlikely it is that we would have seen the data that we did see if the true  $\theta$  belonged to some pre-specified set of interest, call it  $\Theta_0$ . In particular, we could form a rule "we'll say that the true  $\theta$  does not belong to  $\Theta_0$ , that is, we'll reject  $\Theta_0$ , if the data belong to the set  $\mathbb{X}_r$  which is unlikely to show up unless the true  $\theta$  is outside of  $\Theta_0$ .
 
@@ -2084,7 +2092,9 @@ The essential ingredients are then
 
 We can then examine the probabilistic properties of the decision rule using the power function,  $\beta (\theta) = P(\mathbb{X}_r|\theta)$ .
 
-12.2. The perfect power function and types of errors. The perfect power function is  $\beta (\theta) = 1_{\Theta_0^c}(\theta)$ , that is, reject if and only if the null hypothesis is false. (Sing a bar of "To dream the impossible dream.") However, the idea behind the basic statistical model is that we do not observe  $\theta$  directly, rather we observe the data  $\mathbf{X}$ , and the data contains probabilistic information about  $\theta$ . In statistics, we don't expect to see perfect power functions, they correspond to having positive proof or disproof of a null hypothesis. $^3$
+### 12.2. The perfect power function and types of errors
+
+The perfect power function is $\beta (\theta) = 1_{\Theta_0^c}(\theta)$, that is, reject if and only if the null hypothesis is false. (Sing a bar of "To dream the impossible dream.") However, the idea behind the basic statistical model is that we do not observe $\theta$ directly, rather we observe the data $\mathbf{X}$, and the data contains probabilistic information about $\theta$. In statistics, we don't expect to see perfect power functions, they correspond to having positive proof or disproof of a null hypothesis. $^3$
 
 Here's a (contrived) example where the data does entirely distinguish between the null and the alternative.
 
@@ -2109,7 +2119,9 @@ Example:  $\Theta = [0,1]$ ,  $X_{1},\ldots ,X_{n}$  are iid Bernoulli  $(\theta
 
 Before we do any calculations, we should think through
 
-12.3. Some generalities about the probabilities of the different types of errors. The power function will help us look at the probabilities of the different kinds of errors. It should be intuitively clear that, if we're using sensible procedures, lowering the probability of false rejection entails raising the overall probability of acceptance, including the probability of making a false acceptance.
+### 12.3. Some generalities about the probabilities of the different types of errors
+
+The power function will help us look at the probabilities of the different kinds of errors. It should be intuitively clear that, if we're using sensible procedures, lowering the probability of false rejection entails raising the overall probability of acceptance, including the probability of making a false acceptance.
 
 The number  $\alpha = \sup_{\theta \in \Theta_0} \beta(\theta)$  gives the highest probability of a Type I error. This is called the size of the test  $\mathbb{X}_r$ .  $1 - \alpha$  is the confidence level of the test. Confidence is good, we'd like our confidence to be close to 1. We'd also like a powerful test. Follow through the logic of the next two:
 
@@ -2124,7 +2136,9 @@ In tabular form
 
 Go through the Wonnacott and Wonnacott Gaussian one-sided hypothesis testing pictures identifying confidence and power as areas under curves.
 
-12.4. The Likelihood Ratio Tests. The number
+### 12.4. The Likelihood Ratio Tests
+
+The number
 
 $$
 \lambda (\mathbf {x}) = \frac {\sup _ {\theta \in \Theta_ {0}} L (\mathbf {x} | \theta)}{\sup _ {\theta \in \Theta} L (\mathbf {x} | \theta)}
@@ -2172,7 +2186,9 @@ Example: We see iid  $X_{1}, \ldots, X_{n}$  and iid  $Y_{1}, \ldots, Y_{m}$ , b
 
 Example: We see iid  $X_{1}, \ldots, X_{n}$  and iid  $Y_{1}, \ldots, Y_{m}$ , both from populations with the same variance. The null hypothesis is that the means of the two populations are the same. Now, provided  $n$  and  $m$  are large enough for the CLT, what do the tests look like?
 
-12.5. Confidence intervals,  $p$ -values, and hypothesis testing. Let  $X_{1},\ldots ,X_{n}$  be iid with unknown mean  $\mu$  and unknown variance  $\sigma^2$ . The  $(1 - \alpha)$  confidence interval around  $\mu$  was calculated as  $[\overline{X} -t_{\alpha /2,n}S,\overline{X} -t_{\alpha /2,n}S]$  where  $\overline{X}$  is our estimator of  $\mu$  and  $S$  is our estimator of  $\sigma$ .
+### 12.5. Confidence intervals, $p$-values, and hypothesis testing
+
+Let $X_{1},\ldots ,X_{n}$ be iid with unknown mean $\mu$ and unknown variance $\sigma^2$. The $(1 - \alpha)$ confidence interval around $\mu$ was calculated as $[\overline{X} -t_{\alpha /2,n}S,\overline{X} -t_{\alpha /2,n}S]$ where $\overline{X}$ is our estimator of $\mu$ and $S$ is our estimator of $\sigma$.
 
 The null hypothesis is  $\mu = \mu_0$ , that is,  $\Theta_0 = \{\mu_0\} \subset \mathbb{R}$ . We accept  $H_0$  at the confidence level  $(1 - \alpha)$  if
 
@@ -2198,7 +2214,7 @@ $$
 
 and this is the  $p$ -value.
 
-# 12.6. Problems.
+### 12.6. Problems
 
 Problem 12.1. Casella & Berger, 8.1.
 

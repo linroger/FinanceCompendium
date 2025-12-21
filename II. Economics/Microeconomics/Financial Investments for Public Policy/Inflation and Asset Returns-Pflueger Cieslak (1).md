@@ -1,7 +1,7 @@
 ---
 title: Inflation and Asset Returns
 parent_directory: II. Economics/Microeconomics/Financial Investments for Public Policy
-formatted: 2025-12-21 10:00:00 AM
+formatted: 2025-12-21 11:00:00 AM
 formatter_model: grok-code-fast-1
 cli_tool: open code
 primary_tags:
@@ -41,22 +41,58 @@ The recent surge in inflation has spurred renewed questions about what drives in
 
 Not surprisingly, the recent reemergence of inflation is awakening the memories of the past. Figure 1 displays major macro-finance trends since the early 1950s, superimposing the price-to-earnings ratio for the S&P 500 index as a measure of stock valuation, the 10-year nominal Treasury yield, which is inversely related to bond prices, and the annualized 10-year consumer price inflation rate. Panel A presents the data in levels, and Panel B in changes. In Panel A, the high and persistent inflation of the 1970s and 1980s was accompanied not only by high nominal yields and, thus, low prices of nominal bonds, but also by depressed stock market valuations, otherwise not seen since the time of the Great Depression of the 1930s.<sup>1</sup> The following decades erased part of that Great Inflation experience, being hallmarked by gradually declining inflation expectations, low nominal yields, and historically high stock market valuations. As these generational trends unfolded, the properties of how stocks and yields comove with each other at higher frequencies changed as well. Panel B shows that the correlation between stock returns and yield changes switched sign from negative to positive around the turn of the 21st century. With nominal bonds hedging downturns in the stock market in recent decades, these shifts have had profound implications for long-term investors' ability to diversify risks.
 
-What economic forces underlie these major shifts? How can they be linked to investors'
+What economic forces underlie these major shifts? How can they be linked to investors' expectations of macroeconomic fundamentals and to the risk compensation that investors require for bearing fundamental risks? Fortunately, macro-finance research has made significant forays into understanding these questions. In this review, we combine different strands of research to take stock of the answers that we currently have. The guiding theme of our discussion is that inflation comes in different flavors. We highlight the asset pricing implications of "good" and "bad" inflation, depending on when inflation occurs over the business cycle, whether inflation is supply-or demand-driven, and whether it persists.
 
-expectations of macroeconomic fundamentals and to the risk compensation that investors require for bearing fundamental risks? Fortunately, macro-finance research has made significant forays into understanding these questions. In this review, we combine different strands of research to take stock of the answers that we currently have. The guiding theme of our discussion is that inflation comes in different flavors. We highlight the asset pricing implications of "good" and "bad" inflation, depending on when inflation occurs over the business cycle, whether inflation is supplyor demand-driven, and whether it persists.
+```d2
+direction: right
+
+good_inflation: Good Inflation {
+  shape: rectangle
+  style.fill: "#4CAF50"
+  style.stroke: "#2E7D32"
+  style.font-color: white
+}
+
+bad_inflation: Bad Inflation {
+  shape: rectangle
+  style.fill: "#F44336"
+  style.stroke: "#B71C1C"
+  style.font-color: white
+}
+
+demand_shocks: Demand Shocks {
+  style.fill: "#81C784"
+}
+
+supply_shocks: Supply Shocks {
+  style.fill: "#EF5350"
+}
+
+expansions: Expansions
+recessions: Recessions
+
+good_inflation -> demand_shocks: Linked to
+bad_inflation -> supply_shocks: Linked to
+
+demand_shocks -> expansions: Occurs during
+supply_shocks -> recessions: Occurs during
+
+expansions -> good_inflation: Leads to
+recessions -> bad_inflation: Leads to
+```
 
 ## 2 Economic channels linking inflation and asset prices
 
 To introduce the notion of the "good" and "bad" inflation varieties, we start by reviewing the basic theory linking inflation and asset prices. We assume that all assets are priced by a representative investor, i.e., there exists a stochastic discount factor (SDF),  $M_{t+1}$ , such that for any asset with a real time- $(t+1)$  payoff  $X_{t+1}$  the time- $t$  price of the asset is given by  $P_t = E_t[M_{t+1}X_{t+1}]$ .
 
-Inflation is particularly relevant for assets whose payoffs are fixed in dollars, such as nominal Treasury bonds. Let  $i_t$  and  $i_t^{(2)}$  denote the interest rates on oneand two-period default-free nominal bonds, i.e., bonds that promise to pay one dollar one or two periods in the future. The corresponding bond prices are then given by  $\exp(-i_t)$  and  $\exp\left(-2i_t^{(2)}\right)$ . Similarly, let  $r$  denote the real risk-free rate, or the interest rate on a default-free bond that promises to pay one unit of real consumption next period. The real risk-free rate is assumed to be constant for simplicity. We use  $\pi_t$  to denote log inflation from time  $t - 1$  to time  $t$ , and use lower-case letters to denote logs throughout. Using the notation  $\pi_t^e \equiv E_t\pi_{t + 1}$  and assuming that inflation and the SDF are jointly log-normal, the oneand two-period nominal interest rates can be written as
+Inflation is particularly relevant for assets whose payoffs are fixed in dollars, such as nominal Treasury bonds. Let  $i_t$  and  $i_t^{(2)}$  denote the interest rates on one- and two-period default-free nominal bonds, i.e., bonds that promise to pay one dollar one or two periods in the future. The corresponding bond prices are then given by  $\exp(-i_t)$  and  $\exp\left(-2i_t^{(2)}\right)$ . Similarly, let  $r$  denote the real risk-free rate, or the interest rate on a default-free bond that promises to pay one unit of real consumption next period. The real risk-free rate is assumed to be constant for simplicity. We use  $\pi_t$  to denote log inflation from time  $t - 1$  to time  $t$ , and use lower-case letters to denote logs throughout. Using the notation  $\pi_t^e \equiv E_t\pi_{t + 1}$  and assuming that inflation and the SDF are jointly log-normal, the one- and two-period nominal interest rates can be written as
 
 $$
-i_{t} = \underbrace {r + E_{t} \pi_{t + 1}}_{\text{Fi sh er Eq ua ti on}} + \underbrace {C o v_{t} \left(m_{t + 1} , \pi_{t + 1}\right)}_{\text{Ri sk Pr em iu m}} - \frac{1}{2} \sigma_{\pi}^{2}, \tag {1}
+i_{t} = \underbrace {r + E_{t} \pi_{t + 1}}_{\text{Fisher Equation}} + \underbrace {Cov_{t} \left(m_{t + 1} , \pi_{t + 1}\right)}_{\text{Risk Premium}} - \frac{1}{2} \sigma_{\pi}^{2}, \tag {1}
 $$
 
 $$
-i_{t}^{(2)} - \underbrace {\frac{i_{t} + E_{t} i_{t + 1}}{2}}_{\text{Ex pe ct at io ns Hy po th es is}} = \underbrace {\frac{1}{2} C o v_{t} \left(m_{t + 1} , \pi_{t + 1}^{e}\right)}_{\text{Ri sk Pr em iu m}} - \left(\frac{1}{2} C o v_{t} \left(\pi_{t + 1}, \pi_{t + 1}^{e}\right) + \frac{1}{4} V a r \left(\pi_{t + 1}^{e}\right)\right) (2)
+i_{t}^{(2)} - \underbrace {\frac{i_{t} + E_{t} i_{t + 1}}{2}}_{\text{Expectations Hypothesis}} = \underbrace {\frac{1}{2} Cov_{t} \left(m_{t + 1} , \pi_{t + 1}^{e}\right)}_{\text{Risk Premium}} - \left(\frac{1}{2} Cov_{t} \left(\pi_{t + 1}, \pi_{t + 1}^{e}\right) + \frac{1}{4} Var \left(\pi_{t + 1}^{e}\right)\right) (2)
 $$
 
 We call inflation dynamics that lead to positive long-term bond risk premia "bad" inflation, and inflation dynamics that lead to negative bond risk premia "good" inflation. Equation (2) shows that "bad" inflation corresponds to the case where  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) > 0$  and "good" inflation corresponds to  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) < 0$ .<sup>2</sup>
@@ -77,12 +113,10 @@ Equation (2) develops the inflation risk premium for the two-period bond as a st
 Can we express the notion of "good" and "bad" inflation in terms of the business cycle properties of inflation? Under constant relative risk aversion (CRRA) preferences over aggregate consumption, utility of the representative agent is given by  $U(C_{t}) = \frac{C_{t}^{1 - \gamma}}{1 - \gamma}$ , with risk aversion parameter  $\gamma$ . The log SDF specializes to  $m_{t + 1} = \log \left(\beta \frac{U'(C_{t + 1})}{U'(C_t)}\right) = \log \beta -\gamma (c_{t + 1} - c_t)$ , where  $\beta$  is a constant discount rate and  $c_{t + 1}$  denotes log real consumption at time  $t + 1$ . This SDF implies that a financial asset is more valuable to investors if real payouts are high in states of the world when future consumption is low, and additional consumption is valuable. The risk premium for the two-period nominal bond then becomes
 
 $$
-C o v_{t} \left(m_{t + 1}, \pi_{t + 1}^{e}\right) = - \gamma C o v_{t} \left(c_{t + 1}, \pi_{t + 1}^{e}\right). \tag {3}
+Cov_{t} \left(m_{t + 1}, \pi_{t + 1}^{e}\right) = - \gamma Cov_{t} \left(c_{t + 1}, \pi_{t + 1}^{e}\right). \tag {3}
 $$
 
-The risk premium in equation (3) shows that inflation is of the "bad" variety if inflation expectations rise when consumption growth is low, giving rise to the so-called "stagflation." As a result, in recessions, prices of nominal Treasury bonds fall together with risky consumption claims such as stocks. Thus, bonds also become risky, and investors require a positive risk
-
-premium to be willing to hold them. "Good" inflation, on the other hand, corresponds to the case where expected inflation rises when consumption and economic activity are high. In this case, real payoffs of nominal Treasury bonds become more valuable during recessions, making nominal Treasury bonds desirable hedges.
+The risk premium in equation (3) shows that inflation is of the "bad" variety if inflation expectations rise when consumption growth is low, giving rise to the so-called "stagflation." As a result, in recessions, prices of nominal Treasury bonds fall together with risky consumption claims such as stocks. Thus, bonds also become risky, and investors require a positive risk premium to be willing to hold them. "Good" inflation, on the other hand, corresponds to the case where expected inflation rises when consumption and economic activity are high. In this case, real payoffs of nominal Treasury bonds become more valuable during recessions, making nominal Treasury bonds desirable hedges.
 
 How should stocks depend on inflation? The early literature hypothesized that since dividends are a claim to firms' real profits, stocks should preserve their real value in the face of inflation. Subsequently, empirical research found that during the 1970s and 1980s, stocks also tended to return poorly when inflation was high, providing no protection against inflation in investors' portfolios (Fama and Schwert (1977), Kaul (1987)). This led to an interest in understanding which fundamental shocks might drive the value of stocks down and erode the value of long-term bonds through higher inflation expectations at the same time.
 
@@ -91,15 +125,15 @@ How should stocks depend on inflation? The early literature hypothesized that si
 To understand which fundamental economic shocks generate "good" vs. "bad" inflation, we revisit the workhorse three-equation New Keynesian model from macroeconomics. The traditional New Keynesian model can be summarized by the following three log-linearized equations<sup>4</sup>
 
 $$
-\textbf {E u l e r E q u a t i o n :} x_{t} = (1 - \rho^{x}) E_{t} x_{t + 1} + \rho^{x} x_{t - 1} - \psi (i_{t} - E_{t} \pi_{t + 1}) + v_{x, t}, \quad (4)
+\textbf {Euler Equation:} x_{t} = (1 - \rho^{x}) E_{t} x_{t + 1} + \rho^{x} x_{t - 1} - \psi (i_{t} - E_{t} \pi_{t + 1}) + v_{x, t}, \quad (4)
 $$
 
 $$
-\text{Ph il li ps Cu rv e :} \quad \pi_{t} = \kappa x_{t} + \left(1 - \rho^{\pi}\right) E_{t} \pi_{t + 1} + \rho^{\pi} \pi_{t - 1} + v_{\pi , t}, \tag {5}
+\text{Phillips Curve:} \quad \pi_{t} = \kappa x_{t} + \left(1 - \rho^{\pi}\right) E_{t} \pi_{t + 1} + \rho^{\pi} \pi_{t - 1} + v_{\pi , t}, \tag {5}
 $$
 
 $$
-\text{Mo ne ta ry Po li cy Ru le :} \quad i_{t} = \rho^{i} i_{t - 1} + \left(1 - \rho^{i}\right) \left(\gamma^{x} x_{t} + \gamma^{\pi} \pi_{t}\right). \tag {6}
+\text{Monetary Policy Rule:} \quad i_{t} = \rho^{i} i_{t - 1} + \left(1 - \rho^{i}\right) \left(\gamma^{x} x_{t} + \gamma^{\pi} \pi_{t}\right). \tag {6}
 $$
 
 Because we are interested in comovements between inflation and output, a constant risk premium is suppressed along with all other constants without loss of generality. Here,  $x_{t}$  denotes the output gap, or log real output relative to a frictionless price benchmark, and is the main indicator of whether the economy is in an expansion or a recession. The simplest models also assume that consumption equals output, so  $x_{t}$  should be thought of as closely linked to the real consumption that determines the SDF in consumption-based models of asset prices.
@@ -113,6 +147,70 @@ The Phillips curve (5) follows from firms' optimal price-setting and production 
 How do the endogenous inflation and output dynamics from the New Keynesian model determine asset prices? The basic intuition is that higher inflation expectations reduce the real value of long-term nominal bonds, and stock prices rise with the output gap.5 The left column of Figure 2 shows that a positive demand shock moves inflation and the output gap up together along a stable Phillips curve, which in turn leads to a decline in long-term nominal bonds just as the output gap and stock prices rise. Demand shocks therefore induce a negative bond-stock correlation. Inflation is of the "good" variety, rising during expansions and being mostly transitory, as observed empirically during the 2000s. Equation (3) makes clear that this "good" type of inflation induced by demand shocks is predicted to lead to a negative inflation risk premium in a broad set of consumption-based models.
 
 Conversely, the right column of Figure 2 suggests that an inflationary supply shock drives down the real value of long-term nominal bonds, just as the output gap and stocks also fall. Supply shocks therefore tend to induce a positive correlation between nominal long-term bonds and stocks, inflation is of the "bad" variety, nominal bonds are "risky", and the consumption-based inflation risk premium in equation (3) is positive.
+
+```d2
+direction: down
+
+new_keynesian_model: New Keynesian Model {
+  shape: rectangle
+  style.fill: "#E3F2FD"
+  style.stroke: "#1976D2"
+}
+
+euler_equation: Euler Equation {
+  shape: oval
+  style.fill: "#FFF3E0"
+}
+
+phillips_curve: Phillips Curve {
+  shape: oval
+  style.fill: "#FFF3E0"
+}
+
+monetary_policy: Monetary Policy Rule {
+  shape: oval
+  style.fill: "#FFF3E0"
+}
+
+demand_shock: Demand Shock {
+  shape: diamond
+  style.fill: "#4CAF50"
+}
+
+supply_shock: Supply Shock {
+  shape: diamond
+  style.fill: "#F44336"
+}
+
+inflation: Inflation
+output_gap: Output Gap
+
+new_keynesian_model -> euler_equation
+new_keynesian_model -> phillips_curve
+new_keynesian_model -> monetary_policy
+
+euler_equation -> demand_shock: Affected by
+phillips_curve -> supply_shock: Affected by
+
+euler_equation -> output_gap
+phillips_curve -> inflation
+monetary_policy -> inflation
+
+demand_shock -> good_inflation: Generates
+supply_shock -> bad_inflation: Generates
+
+good_inflation: Good Inflation {
+  shape: rectangle
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+bad_inflation: Bad Inflation {
+  shape: rectangle
+  style.fill: "#F44336"
+  style.font-color: white
+}
+```
 
 In summary, we have seen that supply shocks tend to induce the "bad" variety of inflation, while demand shocks tend to induce the "good" variety. While Figure 2 provides a qualitative
 
@@ -207,7 +305,7 @@ We have reviewed the theoretical and empirical progress made towards understandi
 
 It is too early to draw definitive conclusions about the sources and consequences of the post-Covid-19 pandemic surge inflation. For now, evidence from the inflation swap market and long-term inflation forecasts from surveys indicates that inflation risk premia have remained very narrow. An optimist may feel a relief that inflation risk continues to be small, a pessimist may worry that, given that beliefs take time to adjust, financial markets may be too optimistic.
 
-# References
+## References
 
 Andersen, T. G., T. Bollerslev, F. X. Diebold, and C. Vega (2007). Real-time price discovery in global stock, bond and foreign exchange markets. Journal of International Economics 73(2), 251-277.  
 Auclert, A., M. Rognlie, and L. Straub (2020). Micro jumps, macro humps: Monetary policy and business cycles in an estimated hank model. Technical report, National Bureau of Economic Research.  
@@ -280,16 +378,16 @@ Taylor, J. B. (1993). Discretion versus policy rules in practice. In *Carnegie-R
 Viceira, L. M. (2012). Bond risk, bond return volatility, and the term structure of interest rates. International Journal of Forecasting 28(1), 97-117.  
 Woodford, M. (2003). Interest and Prices. Princeton University Press.
 
-# APPENDIX
+## APPENDIX
 
 (Not for publication)
 
-# Two-period bond and the pricing of expected inflation shocks
+### Two-period bond and the pricing of expected inflation shocks
 
 The real log SDF  $(m_{t + 1})$  is assumed to be conditionally normal. The one-period real bond price satisfies
 
 $$
-e x p \left(- r_{t}\right) = E_{t} \left[ e x p \left(m_{t + 1}\right) \right] = e x p \left(E_{t} m_{t + 1} + \frac{1}{2} V a r_{t} m_{t + 1}\right). \tag {A.7}
+exp \left(- r_{t}\right) = E_{t} \left[ exp \left(m_{t + 1}\right) \right] = exp \left(E_{t} m_{t + 1} + \frac{1}{2} Var_{t} m_{t + 1}\right). \tag {A.7}
 $$
 
 The real risk-free rate is

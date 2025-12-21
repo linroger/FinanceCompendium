@@ -1,11 +1,21 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Other Lending Institutions
-linter-yaml-title-alias: Other Lending Institutions
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 04 Other Financial Institutions
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+  - savings institutions
+  - credit unions
+  - finance companies
+secondary_tags:
+  - thrift industry
+  - depository institutions
+  - mortgage lending
+  - consumer lending
+  - business credit
+  - regulatory oversight
+cssclasses: academia
 ---
 
 # Other Lending Institutions
@@ -14,57 +24,55 @@ Savings Institutions, Credit Unions, and Finance Companies
 
 # Learning Goals
 
-# LG 14-1
+## LG 14-1
 
 Recognize the differences among a savings institution, a credit union, and a finance company.
 
-# LG 14-2
+## LG 14-2
 
 Identify the main assets and liabilities held by savings institutions.
 
-# LG 14-3
+## LG 14-3
 
 Know who regulates savings institutions.
 
-# LG 14-4
+## LG 14-4
 
 Discuss how savings institutions performed in the 2000s.
 
-# LG 14-5
+## LG 14-5
 
 Describe how credit unions are different from other depository institutions.
 
-# LG 14-6
+## LG 14-6
 
 Identify the main assets and liabilities held by credit unions.
 
-# LG 14-7
+## LG 14-7
 
 Define the major types of finance companies.
 
-# LG 14-8
+## LG 14-8
 
-Identify the major assets and liabilities held by finance companies.
+Identify the main assets and liabilities held by finance companies.
 
-# LG 14-9
+## LG 14-9
 
 Examine the extent to which finance companies are regulated.
 
-# OTHER LENDING INSTITUTIONS: CHAPTER OVERVIEW
+## OTHER LENDING INSTITUTIONS: CHAPTER OVERVIEW
 
-Like commercial banks, the main financial service provided by savings institutions, credit unions, and finance companies is lending. Savings institutions (SIs) were created in the early 1800s in response to commercial banks' concentration on serving the needs of business (commercial) enterprises rather than the needs of individuals requiring borrowed funds to purchase homes. Thus, the first SIs pooled individual savings and invested them mainly in mortgages and other securities. While today's SIs generally perform services similar to commercial banks, they are still grouped separately because they provide important residential mortgage lending and other financial services to households. That is, savings institutions concentrate primarily on residential mortgage lending. However, these institutions
+Like commercial banks, the main financial service provided by savings institutions, credit unions, and finance companies is lending. Savings institutions (SIs) were created in the early 1800s in response to commercial banks' concentration on serving the needs of business (commercial) enterprises rather than the needs of individuals requiring borrowed funds to purchase homes. Thus, the first SIs pooled individual savings and invested them mainly in mortgages and other securities. While today's SIs generally perform services similar to commercial banks, they are still grouped separately because they provide important residential mortgage lending and other financial services to households. That is, savings institutions concentrate primarily on residential mortgage lending. However, these institutions LG 14-1 have recently operated in a slightly more diversified way, with a large concentration of residential mortgage assets but holding commercial loans, corporate bonds, and corporate stock as well. Credit unions are nonprofit depository institutions mutually organized and owned by their members (depositors). Credit unions have historically focused on consumer loans funded with member deposits. Savings institutions and credit unions together are often referred to as thrifts.
 
-LG 14-1 have recently operated in a slightly more diversified way, with a large concentration of residential mortgage assets but holding commercial loans, corporate bonds, and corporate stock as well. Credit unions are nonprofit depository institutions mutually organized and owned by their members (depositors). Credit unions have historically focused on consumer loans funded with member deposits. Savings institutions and credit unions together are often referred to as thrifts.
-
-The primary function of finance companies is also to make loans to both individuals and businesses. Finance companies provide such services as consumer lending, business lending, and mortgage financing. Some finance company loans (e.g., commercial and auto loans) are similar to commercial bank loans, but others are aimed at relatively specialized areas such as high-risk (low credit quality) loans to small businesses and consumers. As we discuss in the chapter, finance companies are often willing to lend to riskier customers than are commercial banks and thrifts, and they sometimes offer rates well below those offered by depository institutions. Thus, they compete directly with depository institutions for loan customers. However, unlike banks and thrifts, finance companies do not accept deposits; instead, they rely on shortand long-term debt for funding.
+The primary function of finance companies is also to make loans to both individuals and businesses. Finance companies provide such services as consumer lending, business lending, and mortgage financing. Some finance company loans (e.g., commercial and auto loans) are similar to commercial bank loans, but others are aimed at relatively specialized areas such as high-risk (low credit quality) loans to small businesses and consumers. As we discuss in the chapter, finance companies are often willing to lend to riskier customers than are commercial banks and thrifts, and they sometimes offer rates well below those offered by depository institutions. Thus, they compete directly with depository institutions for loan customers. However, unlike banks and thrifts, finance companies do not accept deposits; instead, they rely on short- and long-term debt for funding.
 
 The first major finance company was originated during the Depression when General Electric Corp. created General Electric Capital Corp. (GECC) to finance appliance sales to cash-strapped customers unable to obtain installment credit from banks. By the late 1950s, banks had become more willing to make installment loans, so finance companies began looking outside their parent companies for business. GE Capital was a cash cow to GE throughout much of the 1990s and 2000s. At its peak in 2008, it contributed nearly 60 percent of GE's overall profits and had more than  \$600 billion in assets ranging from commercial real estate to Thai auto loans. GE Capital's exposure to the financial crisis resulted in General Electric Corp.'s market value falling by more than half during 2008. The parent company's stock price fell to\$ 14.58 in November 2008, its lowest level since January 1997. In order to reassure investors and help the GE Capital unit compete with banks that already had government protection behind their debt, on November 12, 2008, the FDIC approved GE Capital's application for designation as an eligible entity under the FDIC's Temporary Liquidity Guarantee Program (TLGP). Granting this finance company access to the FDIC program was possible because GE Capital also owns a federal savings bank and an industrial loan company, both of which qualified for FDIC assistance. However, the move to operate as a Federal Reserve-regulated bank proved to be a burden to GECC. In April 2015, GE announced the GE Capital Exit Plan to reduce the size of its financial services businesses through the sale of most of the assets of GECC over the following 24 months. Under the GE Capital Exit Plan, GE retained only certain GECC businesses, principally its vertical financing businesses—GE Capital Aviation Services (GECAS), Energy Financial Services (EFS), and Healthcare Equipment Finance—that directly relate to GE's core industrial domain and other operations (together referred to as GE Capital Verticals or Verticals). The assets planned for disposition included real estate, most of commercial lending and leasing (CLL), and all consumer platforms (including all U.S. banking assets). GE completed the Capital Exit Plan in March 2017 by closing the sale of its consumer finance business in France. As of December 2019, GE Capital assets total \$118 billion, down from over \$600 billion in 2008.
 
 This chapter discusses the size, structure, and composition of the savings institution, credit union, and finance company industries, the services they provide, their competitive and financial position, and their regulation.
 
-# SAVINGS INSTITUTIONS
+## SAVINGS INSTITUTIONS
 
-# Size, Structure, and Composition of the Industry
+### Size, Structure, and Composition of the Industry
 
 Savings institutions comprise two groups of depository institutions: savings associations and savings banks. Historically, the industry consisted of only savings associations (referred to as savings and loan [S&L] associations). However, in the 1980s, federally
 
@@ -86,7 +94,7 @@ Sources: Federal Deposit Insurance Corporation, Quarterly Banking Profile, vario
 
 2. The term savings association has replaced S&L to capture the change in the structure of the industry. In 1978, the Federal Home Loan Bank Board (FHLBB), at the time the main regulator of savings associations, began chartering federal savings banks insured by the Federal Savings and Loan Insurance Corporation (FSLIC). In 1982, the FHLBB allowed S&Ls to convert to federal savings banks with bank (rather than S&L) names. As more and more S&Ls converted to savings banks, the title associated with this sector of the thrift industry was revised to reflect this change.
 
-# QTL test
+### QTL test
 
 Qualified thrift lender test that sets a floor on the mortgage-related assets that thrifts can hold (currently, 65 percent).
 
@@ -94,7 +102,7 @@ Qualified thrift lender test that sets a floor on the mortgage-related assets th
 
 As a result of closing weak savings institutions and strengthening their capital requirements, the industry is now significantly smaller in terms of both numbers and asset size. Specifically, the number of savings institutions decreased from 3,677 in 1989 to 2,262 in 1993 (by 38 percent) and assets decreased from  \$1.427 trillion to\$ 1.001 trillion (by 30 percent) over the same period. By 2019, the number of savings institutions continued to decrease to 659 and the industry's assets had slightly increased to 1.154 trillion.
 
-# Balance Sheets and Recent Trends
+### Balance Sheets and Recent Trends
 
 LG 14-2
 
@@ -112,7 +120,7 @@ Source: Federal Deposit Insurance Corporation, Quarterly Banking Profile, Fourth
 
 An institution in which the liability holders are also the owners—for example, in a mutual savings bank, depositors also own the bank.
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 1. Why the savings institution industry was created?
 2. Why the performance of savings institutions deteriorated in the 1980s?
@@ -125,7 +133,7 @@ On the liability side of the balance sheet, transaction accounts (equivalent to 
 
 Finally, net worth is the book value of the equity holders' capital contribution; it amounted to 10.8 percent in 2019. This compares to 11.3 percent at commercial banks. Historically, most savings institutions were established as mutual organizations (in which the depositors are the legal owners of the institution and no stock is issued). As a mutual organization, member deposits represent the equity of the savings institution. Since they have no stockholders, and thus no demand for equity investment returns, mutual organizations are generally less risky than stock-chartered organizations—mutual savings institution managers can concentrate on low-risk investments and the prevention of failure rather than higher-risk investments needed to produce higher required returns on stockholders' investments. However, through time many savings institutions have switched from mutual to stock charters (in which the holders of the stock or equity are the legal owners of the institution rather than depositors as under the mutual charter). This is mainly because stock ownership allows savings institutions to attract capital investment from outside stockholders beyond levels achievable at a mutual institution. As of 2019, 53.0 percent of all savings institutions were stock chartered, comprising 88.5 percent of industry assets.
 
-# Regulators
+### Regulators
 
 LG 14-3
 
@@ -137,7 +145,7 @@ The Office of the Comptroller of the Currency (OCC). In 1989, FIRREA established
 
 # www.fdic.gov
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 5. Who the regulators of savings institutions are?
 
@@ -145,7 +153,7 @@ The FDIC. Also established in 1989 under FIRREA and in the wake of the FSLIC ins
 
 Other Regulators. State-chartered savings institutions are regulated by state agencies—for example, the Office of Banks and Real Estate in Illinois—rather than the OCC.
 
-# Savings Institution Recent Performance
+### Savings Institution Recent Performance
 
 LG 14-4
 
@@ -157,7 +165,7 @@ TABLE 14-2 Selected Indicators for U.S. Savings Institutions, 1989-2019
 
 Sources: FDIC, Quarterly Banking Profile, various issues; and Historical Statistics, 1989, www.fdic.gov
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 6. The recent performance of savings institutions?
 7. The ways that profit trends for savings institutions have been similar to those of commercial banks in the 1990s and 2000s?
@@ -168,7 +176,7 @@ In the late 2000s, as the U.S. economy experienced its strongest recession since
 
 Also like commercial banks, the savings institution industry experienced substantial consolidation in the 1990s and 2000s. Figure 14-2 shows the industry consolidation in number and asset size over the period 1992-2019. Over this period, the biggest savings institutions (over 10 billion) grew in number from 0.3 percent to 2.3 percent of the industry and their control of industry assets grew from 17.9 percent to 58.8 percent.
 
-# CREDIT UNIONS
+## CREDIT UNIONS
 
 LG 14-5
 
@@ -221,7 +229,7 @@ TABLE 14-3 Comparison of Average Savings, Deposits, and Loan Rates at Credit Uni
 
 Source: S&P Global Market Intelligence databases, https://www.spglobal.com/marketintelligence, accessed January 10, 2020.
 
-# Size, Structure, and Composition of the Industry
+### Size, Structure, and Composition of the Industry
 
 Credit unions are the most numerous of the institutions (5,236 in 2019) that compose the depository institutions segment of the FI industry. Moreover, CUs were less affected by the crisis that affected commercial banks and savings institutions in the 1980s and late 2000s. This is because traditionally more than 40 percent of their assets have been in small consumer loans, often for amounts less than 10,000, which are funded mainly by member deposits. This combination of relatively matched credit risk and maturity in the asset and liability portfolios left credit unions less exposed to credit and interest rate risk than commercial banks and savings institutions. CUs' lending activities are funded mainly by deposits contributed by their over 120.4 million members.
 
@@ -231,11 +239,11 @@ In recent years, to attract and keep customers, CUs have expanded their services
 
 As CUs have expanded in membership, size, and services, bankers claim that CUs unfairly compete with small banks that have historically been the major lender in small towns and local communities. In 1997, the banking industry filed two lawsuits in its push to restrict the growing competitive threat from credit unions. The first lawsuit (filed by four North Carolina banks and the American Bankers Association) challenged an occupation-based credit union's (the AT&T Family Credit Union based in North Carolina) ability to accept members from companies unrelated to the firm that originally sponsored the credit union. In the second lawsuit, the American Bankers Association asked the courts to bar the federal government from allowing occupation-based credit unions to convert to community-based charters. Bankers argued in both lawsuits that such actions, broadening the membership base of credit unions, would further exploit an unfair advantage allowed through the credit union tax-exempt status. In February 1998, the Supreme Court sided with the banks in its decision that credit unions could no longer accept members that were not a part of the "common bond" of membership. In April 1998, however, the U.S. House of Representatives overwhelmingly passed a bill that allowed all existing members to keep their credit union accounts. The bill was passed by the Senate in July 1998 and signed into law by the president in August 1998. This legislation allowed CUs not only to keep their existing members but also to accept new groups of members—including small businesses and low-income communities—that were not considered part of the "common bond" of membership by the Supreme Court ruling.
 
-Credit unions provide a public service by offering loans to those who might not otherwise have access to credit through commercial banks and savings institutions: lowand moderate-income individuals within a specific group—the credit union's common bond. Further, credit union profits are distributed back to members in the form of better rates on deposits and loans as well as lower and fewer fees on services. It is these services that have justified credit unions' tax-exempt status. However, throughout the 2000s, many credit unions pursued regional charters and expanded their fields of membership. The result has been a blurring of credit unions' common bond membership. Consequently, credit unions have become more like banks, but with tax-exempt status. As credit unions have grown in size, some are again questioning their protected status. Indeed, in a recent report from the President's Economic Recovery Advisory Board, elimination of the credit union tax exemption was included in a list of recommendations addressing the nation's budget deficit. Yet, despite the renewed discussion, credit unions continue to operate as nonprofit, tax-exempt depository institutions.
+Credit unions provide a public service by offering loans to those who might not otherwise have access to credit through commercial banks and savings institutions: low- and moderate-income individuals within a specific group—the credit union's common bond. Further, credit union profits are distributed back to members in the form of better rates on deposits and loans as well as lower and fewer fees on services. It is these services that have justified credit unions' tax-exempt status. However, throughout the 2000s, many credit unions pursued regional charters and expanded their fields of membership. The result has been a blurring of credit unions' common bond membership. Consequently, credit unions have become more like banks, but with tax-exempt status. As credit unions have grown in size, some are again questioning their protected status. Indeed, in a recent report from the President's Economic Recovery Advisory Board, elimination of the credit union tax exemption was included in a list of recommendations addressing the nation's budget deficit. Yet, despite the renewed discussion, credit unions continue to operate as nonprofit, tax-exempt depository institutions.
 
 In another hit to commercial banks, credit unions saw record increases in membership in late 2011 and early 2012, with most of the increase coming from commercial bank customers. For the year ending June 30, 2012, credit union membership increased by nearly 2.2 million new members: almost twice the 1.2 million average annual growth experienced in similar 12-month periods over the previous 10 years and four times greater than the 550,000 new members over that same period the prior year. Much of the growth in membership occurred as a part of nationwide campaigns, such as Bank Transfer Day on November 5, 2011, that encouraged consumers to leave their "big" banks for credit unions and community banks, which tend to incur fewer fees. Among the catalysts for these campaigns was Bank of America's plan to impose a monthly fee for debit card use. That plan was scrapped in response to consumers' strong negative reactions.
 
-# Balance Sheets and Recent Trends
+### Balance Sheets and Recent Trends
 
 LG 14-6
 
@@ -255,7 +263,7 @@ Credit union funding comes mainly from member deposits (84.2 percent of total fu
 
 www.ncua.gov
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 8. How credit unions differ from commercial banks and savings institutions?
 9. Why credit unions have prospered in recent years in comparison to savings institutions?
@@ -263,13 +271,13 @@ www.ncua.gov
 11. Why commercial banks and savings institutions claim that credit unions have an unfair advantage in providing bank services?
 12. The main assets and liabilities credit unions hold?
 
-# Regulators
+### Regulators
 
 Like commercial banks and savings institutions, credit unions can be federally or state chartered. As of 2019, 63.7 percent of the 5,236 CUs were federally chartered and subject to National Credit Union Administration (NCUA) regulation, accounting for 51.5 percent of the total membership and 49.9 percent of total assets. The NCUA is an independent federal agency that charters, supervises, examines, and insures the nation's credit unions. In addition, through its insurance fund (the National Credit Union Share Insurance Fund, or NCUSIF), the NCUA provides deposit insurance guarantees of up to 250,000 for insured state and federal credit unions. Currently, the NCUSIF covers 98 percent of all credit union deposits. The fund's reserves come entirely from premiums paid by member credit unions.
 
-# Industry Performance
+### Industry Performance
 
-Like other depository institutions, the credit union industry has grown in asset size in the 1990s and 2000s. Asset growth from 1999 to 2019 was more than 6.9 percent annually. In addition, CU membership increased from 77.5 million to over 107.6 million 120.4 million over the 1999-2019 period. Asset growth was especially pronounced among the largest CUs (with assets of over 100 million) as their assets increased by almost 20 percent annually from 1999 through 2019. Figure 14-4 shows the trend in ROA for CUs from 1993 through 2016. ROA for the industry was 0.94 in 2019. Larger CUs generally outperform small CUs. For example, the largest credit unions experienced an ROA of 1.04 percent in 2019, while ROA for the smallest credit unions was 0.30 percent. Smaller CUs generally have a smaller and less diversified customer base and have higher overhead expenses per dollar of assets. Thus, their ROAs have been hurt.
+Like other depository institutions, the credit union industry has grown in asset size in the 1990s and 2000s. Asset growth from 1999 to 2019 was more than 6.9 percent annually. In addition, CU membership increased from 77.5 million to over 120.4 million over the 1999-2019 period. Asset growth was especially pronounced among the largest CUs (with assets of over 100 million) as their assets increased by almost 20 percent annually from 1999 through 2019. Figure 14-4 shows the trend in ROA for CUs from 1993 through 2016. ROA for the industry was 0.94 in 2019. Larger CUs generally outperform small CUs. For example, the largest credit unions experienced an ROA of 1.04 percent in 2019, while ROA for the smallest credit unions was 0.30 percent. Smaller CUs generally have a smaller and less diversified customer base and have higher overhead expenses per dollar of assets. Thus, their ROAs have been hurt.
 
 Figure 14-3 Composition of Credit Union Deposits
 
@@ -291,27 +299,27 @@ As information about the financial conditions of these corporate credit unions b
 
 As a first step in its effort to resolve the crisis, in March 2009 the NCUA placed two corporates, U.S. Central and WesCorp, into conservatorship. Further, the NCUA purchased many of the toxic assets of the corporates. As of the third quarter 2010, the NCUA held roughly 70 percent of the assets of the corporate credit union system, which included \$50 billion in toxic assets. The NCUA also took several actions to address long-term issues surrounding corporate credit unions. Capital standards were increased and minimum retained earnings levels were established. Further, prompt corrective action requirements were increased. Investments in private label residential mortgage-backed securities and subordinated securities were prohibited, and concentration limits were set on investments. Ultimately, five of the largest corporate credit unions in the United States (Constitution Corporate, Members of United Corporate, Western Corporate, Southwest Corporate, and U.S. Central Corporate) were declared insolvent. The NCUA joined the U.S. Department of Justice and other governmental plaintiffs in litigation against several financial institutions, alleging they sold faulty mortgage-backed securities to four corporate credit unions. A number of settlement agreements were reached and the NCUA was the first federal financial institutions regulator to recover losses from investments in these securities on behalf of failed financial institutions. As of June 30, 2017, the NCUA's recoveries from the five failed corporate credit unions reached more than \$5.1 billion. The Federal Credit Union Act and the NCUA's Rules and Regulations require that net proceeds from these recoveries are used to pay claimants against the liquidated corporate credit unions, including the Temporary Corporate Credit Union Stabilization Fund. These payments to the Stabilization Fund have permitted repayment of the NCUA's outstanding U.S. Treasury borrowings and have decreased the amount credit unions ultimately pay for costs of resolving the five failed corporate credit unions. Repayment of borrowed amounts with interest also ensures no cost to U.S. taxpayers. The NCUA repaid the Treasury in full on October 31, 2016.
 
-# FINANCE COMPANIES
+## FINANCE COMPANIES
 
 LG 14-7
 
-# sales finance institutions
+### Sales Finance Institutions
 
 Finance companies specializing in loans to customers of a particular retailer or manufacturer.
 
-# personal credit institutions
+### Personal Credit Institutions
 
 Finance companies specializing in installment and other loans to consumers.
 
-# business credit institutions
+### Business Credit Institutions
 
 Finance companies specializing in business loans.
 
-# factoring
+### Factoring
 
 The process of purchasing accounts receivable from corporations (often at a discount), usually with no recourse to the seller should the receivables go bad.
 
-# Size, Structure, and Composition of the Industry
+### Size, Structure, and Composition of the Industry
 
 In 2019, the finance company industry assets stood at 1,503.6 billion (see Table 14-5). The three major types of finance companies are (1) sales finance institutions, (2) personal credit institutions, and (3) business credit institutions. Sales finance institutions (e.g., Ford Motor Credit and Toyota Motor Credit) specialize in making loans to customers of a specific retailer or manufacturer. Because sales finance institutions can frequently process loans faster and more conveniently (generally at the location of purchase) than depository institutions, this sector of the industry competes directly with depository institutions for consumer loans. Personal credit institutions (e.g., HSBC Finance Corp. and Synchrony Financial) specialize in making installment and other loans to consumers. Personal credit institutions will make loans to customers with low income or a bad credit history, in contrast to depository institutions, which find these customers too risky to lend to. These institutions compensate for the additional risk by charging higher interest rates than depository institutions and/or accepting collateral (e.g., used cars) that depository institutions do not find acceptable. Business credit institutions (e.g., IBM Global Financing and GE Capital Global Holdings) provide financing to corporations, especially through equipment leasing and factoring, in which the finance company purchases accounts receivable from corporate customers at a discount from face value and the finance company assumes the responsibility for collecting the accounts receivable. As a result, the corporate customer no longer has the worry of whether the accounts receivable may be delayed and thus receives cash for sales faster than the time it takes customers to pay their bills. Many large finance companies perform all three services.
 
@@ -321,11 +329,11 @@ TABLE 14-5 Assets and Liabilities of U.S. Finance Companies (December 2019)
 
 <table><tr><td>Total Assets ($ billions)</td><td>\$1,503.6</td><td>100.0\%</td></tr><tr><td>Accounts receivable, gross</td><td>1,232.5</td><td>82.0\%</td></tr><tr><td>Consumer loans</td><td>728.3</td><td>48.4\%</td></tr><tr><td>Business loans</td><td>387.0</td><td>25.7\%</td></tr><tr><td>Real estate loans</td><td>117.2</td><td>7.8\%</td></tr><tr><td>Less reserves for unearned income</td><td>17.9</td><td>1.2\%</td></tr><tr><td>Less reserves for losses</td><td>24.1</td><td>1.6\%</td></tr><tr><td>Accounts receivable, net</td><td>1,190.5</td><td>79.2\%</td></tr><tr><td>Other assets</td><td>313.0</td><td>20.8\%</td></tr><tr><td>Cash</td><td>54.6</td><td>3.6\%</td></tr><tr><td>Securities</td><td>60.5</td><td>4.0\%</td></tr><tr><td>All other assets</td><td>198.0</td><td>13.2\%</td></tr><tr><td>Total Liabilities and Equity Capital ($ billions)</td><td>1,503.6</td><td>100.0\%</td></tr><tr><td>Total liabilities</td><td>1,246.6</td><td>82.9\%</td></tr><tr><td>Bank Loans</td><td>153.6</td><td>10.2\%</td></tr><tr><td>Commercial paper</td><td>62.8</td><td>4.2\%</td></tr><tr><td>Debt due to parent</td><td>121.5</td><td>8.1\%</td></tr><tr><td>Notes, bonds and dependures</td><td>788.6</td><td>52.4\%</td></tr><tr><td>All other liabilities</td><td>120.0</td><td>8.0\%</td></tr><tr><td>Equity capital</td><td>257.0</td><td>17.1\%</td></tr></table>
 
-# captive finance company
+### Captive Finance Company
 
 A finance company wholly owned by a parent corporation.
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 13. What the three major types of finance companies are? What types of customers does each serve?
 14. What a captive finance company is?
@@ -336,7 +344,7 @@ Table 14-6 lists some of the top finance companies (in terms of receivables, or 
 
 LG 14-8
 
-# Balance Sheets and Recent Trends
+### Balance Sheets and Recent Trends
 
 Assets. Finance companies provide three basic types of loans: real estate, consumer, and business. The assets and liabilities of finance companies in 2019 are presented in Table 14-5. Business and consumer loans (called accounts receivable) are major assets held by finance companies; they represent 79.2 percent of total assets. In 1975, 92.3 percent of total assets were consumer and business loans (see Figure 14-5). Compared to depository institutions, which hold a large percentage of longer-term real estate loans, finance companies historically held shorter-term consumer and business loans. Over the last 40 years, however, finance companies have replaced consumer and business loans with increasing amounts of real estate loans and other assets, although these loans have not become dominant, as is the case with many depository institutions. Real estate loans are 7.8 percent of total assets of finance companies.
 
@@ -376,11 +384,11 @@ Sources: Federal Reserve Board, Consumer Credit-G.19, various issues, www.federa
 
 1.67 and 0.79 percent higher than those of commercial banks. Because new car sales by U.S. firms in 1997 through 1999 were lower than normal, finance companies owned by the major auto manufacturers slashed the interest rates charged on new car loans (some as low as 0.9 percent) over this period. Moreover, after the terrorist attacks in September 2001, the major auto manufacturers lowered new car rates to 0.0 percent in an attempt to boost sales. Some of these 0.0 percent rates continued to be offered into 2005 as the general level of interest rates remained low. The 2008-2009 financial crisis saw a resurrection of 0.0 percent car loan rates as auto manufacturers tried to boost slumping car sales. Notice that the difference between new car loans at commercial banks and finance companies continued to widen throughout the early 2000s. By 2003 finance companies were charging more than 3.53 percent less on new car loans than commercial banks, mainly due to the zero interest rates offered by the major auto manufacturers' captive finance company loans to new car buyers. It was not until 2013 that the historical trend returned
 
-# subprime lender
+### Subprime Lender
 
 A finance company that lends to high-risk customers.
 
-# loan sharks
+### Loan Sharks
 
 Subprime lenders that charge unfairly exorbitant rates to desperate, subprime borrowers.
 
@@ -396,15 +404,15 @@ To help ensure borrowers were not getting sucked into a debt trap, the Consumer 
 
 In February 2019, the CFPB announced that it had finished its review and found the "ability to pay" requirements would restrict access to credit. Therefore, the new leadership
 
-# home equity loans
+### Home Equity Loans
 
 Loans that let customers borrow on a line of credit secured with a second mortgage on their home.
 
-# securitized mortgage assets
+### Securitized Mortgage Assets
 
 Mortgages packaged and used as assets backing secondary market securities.
 
-# mortgage servicing
+### Mortgage Servicing
 
 A fee-related business whereby the flow of mortgage repayments is collected and passed on to investors in whole mortgage loan packages or securitization vehicles.
 
@@ -422,27 +430,27 @@ The major subcategories of business loans are retail and wholesale motor vehicle
 
 Business-lending activities of finance companies also include equipment loans, with the finance company either owning or leasing the equipment directly to its industrial customer or providing the financial backing for a working capital loan or a loan to purchase or remodel the customer's facility. Finance companies often prefer to lease equipment rather than sell and finance the purchase of equipment. One reason for this is that repossession of the equipment in the event of default is less complicated when the finance company retains its title (by leasing). Further, a lease agreement generally requires no down payment, making a lease more attractive to the business customer. Finally, when the finance company retains ownership of the equipment (by leasing), it receives a tax deduction in the form of depreciation expense on the equipment. Other business loans include loans to businesses to finance or purchase accounts receivable at a discount (factoring), small farm loans, and wholesale loans and leases for mobile homes, campers, and trailers.
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 15. How the major assets held by finance companies have changed in the last 35 years?
 16. How subprime lender finance company customers differ from consumer loan customers at commercial banks?
 17. What advantages finance companies offer over commercial banks to small-business customers?
 
-Liabilities and Equity. As mentioned earlier, unlike commercial banks and thrifts, finance companies cannot accept deposits. Rather, to finance assets, finance companies rely primarily on bank loans, short-term commercial paper, and other debt instruments (longer-term notes and bonds). As data in Table 14-5 indicate, in 2019 bank loans amounted to  \$153.6 billion (10.2 percent of total assets), commercial paper was\$ 62.8 billion (4.2 percent), and other debt (due to parent holding companies and notes, bonds, and debentures) totaled \$1,030.1 billion (68.5 percent). Debt due to parent includes all shortand long-term debt owed to the parent company of the finance company (e.g., debt Ford Motor Credit Corp. owes to Ford Motor Corp.). If the finance company subsidiary has a bad year and cannot make promised payments on its debt, the parent company is less likely than external fund providers to initiate legal proceedings against the finance company. However, given its large percentage funding, the parent to a finance company is susceptible to large losses of its own if the finance company subsidiary has a bad year. Total capital comprised \$257.0 billion (17.1 percent of total assets). In comparison, commercial banks financed 78.0 percent of their assets with deposits, 10.7 with other liabilities, and 11.3 percent with equity.
+Liabilities and Equity. As mentioned earlier, unlike commercial banks and thrifts, finance companies cannot accept deposits. Rather, to finance assets, finance companies rely primarily on bank loans, short-term commercial paper, and other debt instruments (longer-term notes and bonds). As data in Table 14-5 indicate, in 2019 bank loans amounted to  \$153.6 billion (10.2 percent of total assets), commercial paper was\$ 62.8 billion (4.2 percent), and other debt (due to parent holding companies and notes, bonds, and debentures) totaled \$1,030.1 billion (68.5 percent). Debt due to parent includes all short- and long-term debt owed to the parent company of the finance company (e.g., debt Ford Motor Credit Corp. owes to Ford Motor Corp.). If the finance company subsidiary has a bad year and cannot make promised payments on its debt, the parent company is less likely than external fund providers to initiate legal proceedings against the finance company. However, given its large percentage funding, the parent to a finance company is susceptible to large losses of its own if the finance company subsidiary has a bad year. Total capital comprised \$257.0 billion (17.1 percent of total assets). In comparison, commercial banks financed 78.0 percent of their assets with deposits, 10.7 with other liabilities, and 11.3 percent with equity.
 
-# Industry Performance
+### Industry Performance
 
-In the early 2000s, the outlook for the finance company industry as a whole was quite bright. Interest rates remained near historical lows. Mortgage refinancing grew. Loan demand among lowerand middle-income consumers was strong. The largest finance companies—those that lend to less risky individual and business customers and with few subprime borrowers (e.g., HSBC Finance)—experienced strong profits and loan growth.
+In the early 2000s, the outlook for the finance company industry as a whole was quite bright. Interest rates remained near historical lows. Mortgage refinancing grew. Loan demand among lower- and middle-income consumers was strong. The largest finance companies—those that lend to less risky individual and business customers and with few subprime borrowers (e.g., HSBC Finance)—experienced strong profits and loan growth.
 
-In the midand late 2000s, problems for industry participants that specialized in loans to relatively lower-quality customers created large losses in the industry and a problem for the U.S. economy as a whole. As home prices began to fall in 2005 through 2007 and borrowers faced rising interest rates, more people defaulted on their mortgages. At the end of 2006, the percentage of subprime mortgage loans on which payments were at least 60 days late was 14 percent, up from 6 percent in early 2005. With delinquencies and defaults by borrowers rising, finance companies experienced large losses. The results were sharply lower equity values for finance companies. For example, Countrywide Financial, the country's leading mortgage lender, lost over half its market value in the summer and fall of 2007 as it announced continued losses in its subprime mortgage portfolio. Only a 2 billion equity investment by Bank of America in 2007 and then an acquisition offer in 2008 kept this finance company alive. In March 2008, the FBI announced a probe of Countrywide for possible securities fraud. The inquiry involved whether company officials made misrepresentations about the company's financial position and the quality of its mortgage loans in securities filings.
+In the mid- and late 2000s, problems for industry participants that specialized in loans to relatively lower-quality customers created large losses in the industry and a problem for the U.S. economy as a whole. As home prices began to fall in 2005 through 2007 and borrowers faced rising interest rates, more people defaulted on their mortgages. At the end of 2006, the percentage of subprime mortgage loans on which payments were at least 60 days late was 14 percent, up from 6 percent in early 2005. With delinquencies and defaults by borrowers rising, finance companies experienced large losses. The results were sharply lower equity values for finance companies. For example, Countrywide Financial, the country's leading mortgage lender, lost over half its market value in the summer and fall of 2007 as it announced continued losses in its subprime mortgage portfolio. Only a 2 billion equity investment by Bank of America in 2007 and then an acquisition offer in 2008 kept this finance company alive. In March 2008, the FBI announced a probe of Countrywide for possible securities fraud. The inquiry involved whether company officials made misrepresentations about the company's financial position and the quality of its mortgage loans in securities filings.
 
 This crash in the subprime mortgage market led to serious problems for the U.S. and worldwide economies as a whole. As noted earlier, the crisis resulted in the failure of Countrywide Financial and the forced conversion of GMAC Financial Services to a bank holding company in order to prevent its failure. Another notable failure was that of CIT Group, which filed for Chapter 11 bankruptcy in November 2009. In 2008, CIT was a lender to nearly 1 million mostly small and midsized businesses. As the financial crisis hit, many of its borrowers became delinquent or defaulted on their loans. While CIT's failure would not have affected financial markets to the same extent as the failure of a large commercial bank such as Citigroup, it could have hurt the flow of credit to many businesses to which banks traditionally do not lend. As a result, in December 2008 the Federal Reserve approved CIT Group as a bank holding company, clearing a key hurdle for the firm to bolster its resources with loans and support from the government's financial rescue fund. However, as the financial crisis wore on, losses mounted and CIT was forced to file for bankruptcy protection. At the time of bankruptcy, CIT had assets of  \$71 billion and liabilities of\$ 65 billion. The bankruptcy eliminated \$10 billion of this debt, including \$2.3 billion extended to CIT in 2008 as part of the taxpayer bailout of the finance company. The bankruptcy of CIT Group was one of the largest filings ever of a U.S. company—trailing only the likes of Lehman Brothers, Washington Mutual, and General Motors.
 
 As was true with depository institutions, as the U.S. economy improved in the late 2000s and early 2010s, the finance company industry improved as well. In the mid-2010s, industry median ROE rose to 9.33 percent, up from 6.61 percent during the height of the crisis. For business credit institutions ROE rose to 13.73 percent, up from 5.31 percent during the height of the crisis. Further, industry assets were  \$1.82 trillion in the mid-2010s, up from\$ 1.59 trillion during the crisis. However, in the late 2010s, industry assets have been declining back to the \$1.4 trillion to \$1.5 trillion range.
 
-# LG 14-9
+### LG 14-9
 
-# Regulation
+### Regulation
 
 The Federal Reserve defines a finance company as a firm whose primary assets are loans to individuals and businesses. Finance companies, like depository institutions, are financial intermediaries that borrow funds so as to profit on the difference between the rates paid on borrowed funds and those charged on loans. Also like depository institutions, finance companies may be subject to state-imposed usury ceilings on the maximum loan rates assigned to individual customers and are regulated to the extent to which they can collect on delinquent loans (e.g., the legal mechanisms to be followed, such as Chapter 7 and 11 bankruptcy regulations). However, because finance companies do not accept deposits, they are not subject to extensive oversight by federal and state regulators, as are banks or thrifts—even though they offer services that compete directly with those of depository institutions (e.g., consumer installment loans and mortgages). The lack of regulatory oversight for these companies enables them to offer a wide scope of "bank-like" services and yet avoid the expense of regulatory compliance and the same "net regulatory burden" imposed on banks and thrifts (see Chapter 13).
 
@@ -452,7 +460,7 @@ As a result, as part of the Wall Street Reform and Consumer Protection Act of 20
 
 By the mid-2010s, some of these companies realized the burden of increased regulation was extensive and took steps to get out from under them. For example, to escape stricter regulations, in June 2016 GE Capital signed agreements for the sale of about  \$180 billion of businesses and closed about\$ 156 billion of those transactions. The company had \$500 billion in assets at the end of 2014. The goal was to sell around \$260 billion in total assets by the end of 2017. Because GE Capital had shrunk and restructured the business, the U.S. Financial Stability Oversight Council removed GE Capital's designation as a "systemically important" financial institution, a label that had
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 18. Why finance companies are not subject to the same regulations as banks even though they seem to compete in the same lending markets as banks?
 19. How finance companies signal solvency and safety to investors?
@@ -461,7 +469,7 @@ required the company to submit to stricter rules and supervision by the Federal 
 
 Since finance companies are heavy borrowers in the capital markets and do not enjoy the same regulatory "safety net" as banks, they need to signal their safety and solvency to investors. Such signals are usually sent by holding much higher equity or capital-to-assets ratios—and therefore, lower leverage ratios—than banks. For example, the 2019 aggregate balance sheet for finance companies (Table 14-5) shows a capital-to-assets ratio of 17.1 percent. This compares to the capital-to-assets ratio of 11.3 percent for commercial banks. Larger captive finance companies also use default protection guarantees from their parent companies and/or other guarantees, such as letters of credit or lines of credit purchased for a fee from high-quality commercial or investment banks, as additional protection against insolvency risk and as a device to increase their ability to raise additional funds in the capital and money markets. Thus, this group will tend to operate with lower capital-to-assets ratios than smaller finance companies. Given that regulatory oversight of this industry is relatively light, having sufficient capital and access to financial guarantees are critical to their continued ability to raise funds. Thus, finance companies operate more like nonfinancial, nonregulated companies than the other types of financial institutions examined in this text.
 
-# GLOBAL ISSUES
+## GLOBAL ISSUES
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/46ace190514e8e430d47d3d67cbdfd2e40c2abbf5d4e37c8395953f3b17acedb.jpg)
 
@@ -473,11 +481,11 @@ While commercial banks are the most important source of credit supply in many fo
 
 While the financial crisis affected the operations of finance companies, they still remained a major part of the financial sector in countries worldwide. For example, in New Zealand the financial crisis led to the consolidation, collapse, and restructuring of many of the country's finance companies. Further, in Russia significant finance company staff reductions occurred during the financial crisis. Because regulations in most foreign countries are not as restrictive as those in the United States, finance companies in foreign countries are generally subsidiaries of commercial banks or industrial firms. For those finance companies owned by commercial banks, as the bank goes, so does the finance company.
 
-# SUMMARY
+## SUMMARY
 
 This chapter provided an overview of the major activities of savings institutions, credit unions, and finance companies. Savings institutions and credit unions rely heavily on deposits to fund loans, whereas finance companies do not accept deposits but fund themselves mainly with commercial paper and long-term security issues. Historically, while commercial banks have concentrated on commercial or business lending and on investing in securities, savings institutions have concentrated on mortgage lending and credit unions on consumer lending. Finance companies also compete directly with depository institutions for high-quality (prime) loan customers. Further, this industry services those subprime (high-risk) borrowers deemed too risky for depository institutions. These differences are being eroded due to competitive forces, regulation, and the changing nature of financial and business technology, so that the types of interest rate, credit, liquidity, and operational risks faced by commercial banks, savings institutions, credit unions, and finance companies are becoming increasingly similar.
 
-# QUESTIONS
+## QUESTIONS
 
 1. How do the balance sheets of savings institutions differ from those of commercial banks? How do their sizes compare? (LG 14-1)
 2. What were the reasons for the crisis of the savings institutions industry in the mid-1980s? (LG 14-1)
@@ -508,16 +516,16 @@ This chapter provided an overview of the major activities of savings institution
 27. What is a wholesale motor vehicle loan? (LG 14-8)
 28. What signal does a low debt-to-assets ratio for a finance company send to the capital markets? (LG 14-8)
 
-# SEARCH THE SITE
+### SEARCH THE SITE
 
 Go to the FDIC website at www.fdic.gov. Find the most recent breakdown of U.S. savings institution asset concentrations using the following steps. Click on "Industry Analysis" and then on "Research & Analysis." From there click on "FDIC Quarterly Banking Profile." In the "Report Date:" box, click on the most recent date, then click on "Access QBP." Click on "List of Data Tables," and go to Savings Institution section. Then click on "TABLE III-B. 20XX, FDIC-Insured Savings Institutions." This will bring up the files that contain the relevant data.
 
-# Questions
+### Questions
 
 1. How has the number of savings institutions and the dollar value of assets held by savings institutions changed since 2019 as reported in Figure 14-2?
  2. Calculate the percentage of total industry assets held by savings institutions with asset size under \$100 million, between \$100 million and \$1 billion, between \$1 billion and \$10 billion, and over \$10 billion.
 
-# SEARCH THE SITE
+### SEARCH THE SITE
 
 Go to the Credit Union National Association website at ncua.gov to collect the most recent information on the number of credit unions, assets of credit unions, and membership in credit unions using the following steps. Under "Analysis," click on "Credit Union and Corporate Call Report Data." Click on "Industry at a Glance." This will download a file onto your computer that will contain the necessary data.
 

@@ -1,29 +1,22 @@
 ---
-aliases:
-- Estimating the Greeks
-tags: null
-key_concepts: null
-parent_directory: '[[MFE Monte-Carlo Simulation]]'
-cssclasses: academia
 title: Monte Carlo Greeks Estimation - MasterSlides
-linter-yaml-title-alias: Monte Carlo Greeks Estimation - MasterSlides
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:02:55 PM
+formatter_model: claude-sonnet-4-5-thinking
+cli-tool: claude-code
 primary_tags:
-- likelihood methods approximations
-- black-scholes framework
+- monte carlo greeks
 - pathwise estimator
-- likelihood ratio method bias
+- likelihood ratio method
+- finite difference approximations
+- option sensitivity estimation
 secondary_tags:
-- greeks martin haugh department
-- method bias
-- carlo simulation
-- methods approximations
-- absolute continuity
-- pathwise and lr methods
-- ratio method
-- ratio bias
-- pathwise approach
-tags_extracted: '2025-12-18T17:59:31.511965'
-tags_method: max_quality_v1
+- black scholes framework
+- variance reduction techniques
+- stochastic differential equations
+- barrier option pricing
+- digital option pricing
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

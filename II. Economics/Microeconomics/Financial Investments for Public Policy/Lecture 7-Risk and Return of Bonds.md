@@ -1,58 +1,24 @@
 ---
-parent_directory:
 title: Lecture 7 - Risk and Return of Bonds
-tags:
-aliases:
-parent_folder: Lecture Notes Advanced Financial Analysis and Valuation
-subfolder:
-key_concepts:
+parent_directory: II. Economics/Microeconomics/Financial Investments for Public Policy
+formatted: 2025-12-21 10:55:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - risk and return of bonds
+  - yield curve
+  - expectations hypothesis
+  - monetary policy
+  - bond duration
+secondary_tags:
+  - default-free bonds
+  - treasury bonds
+  - interest rate risk
+  - term structure
+  - bond-stock correlation
+  - taylor rule
+  - asset allocation with bonds
 cssclasses: academia
-linter-yaml-title-alias: Lecture 7 - Risk and Return of Bonds
----
-
----
-
-title: Lecture 7 - Risk and Return of Bonds
-
-cssclasses:
-
-  - academia
-  - finance
-tags:
-  - default_free_bonds
-  - fixed_income
-  - treasury_bonds
-  - yield_to_maturity
-  - zero_coupon_bonds
-  - yield_curve
-  - expectations_hypothesis
-  - monetary_policy
-  - bond_stock_correlation
-  - term_structure
-  - interest_rate_risk
-  - duration
-  - taylor_rule
-  - business_cycle
-aliases:
-  - Nominal Bonds
-  - Risk and Return
-  - Bond Risk Analysis
-  - Fixed Income Risk
-key_concepts:
-  - Default-free bonds
-  - Fixed-income instruments
-  - U.S. Treasury bonds
-  - Yield to maturity
-  - Zero-coupon bonds
-  - Yield curve factors (level, slope, curvature)
-  - Expectations hypothesis
-  - Bond duration
-  - Bond-stock beta correlation
-  - Monetary policy transmission
-  - Taylor rule
-  - Predictability of bond returns
-  - Asset allocation with bonds
-  - Fed put phenomenon
 ---
 # Lecture 7 - Risk and Return of Bonds
 

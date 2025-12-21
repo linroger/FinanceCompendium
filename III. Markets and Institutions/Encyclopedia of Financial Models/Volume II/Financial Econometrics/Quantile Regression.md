@@ -1,4 +1,23 @@
 
+---
+title: Quantile Regression
+parent_directory: Financial Econometrics
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - quantile regression
+  - statistical methods
+  - financial econometrics
+secondary_tags:
+  - ordinary least squares
+  - value at risk
+  - robust estimation
+  - conditional distribution
+  - outlier analysis
+cssclasses: academia
+---
+
 # Quantile Regression
 
 CHRIS GOWLLAND, CFA
@@ -10,12 +29,14 @@ Abstract: Many of the statistical methods that are most commonly used by researc
 Many investors use regression methods to gauge the relative attractiveness of different firms, the risks inherent in active or passive portfolios, the historical performance of investment factors, and similar topics. Such research often focuses on understanding the "central tendency" within a data set, and for this purpose perhaps the most commonly used tool is regression based on ordinary least squares (OLS) approaches. OLS methods are designed to find the "line of best fit" by minimizing the sum of squared errors from individual data points. OLS analysis generally does a good job of describing the central tendency within a data set, but typically will be much less effective at describing the behavior of data points that are distant from the line of best fit. Quantile regressions, however, can be useful in such investigations. This statistical approach can be viewed conceptually as a logical extension of ordinary least squares methods. We present a brief overview of quantile regression approaches, together with some examples of how such methods can be applied in practical situations.
 
 
-# COMPARING QUANTILE AND OLS APPROACHES
+## COMPARING QUANTILE AND OLS APPROACHES
 
 Conceptually, OLS statistical analysis can be summarized by the following equation, as expressed in a univariate context where a single independent variable is being used to explain or predict a single dependent variable:
 
 $$
-zero),  $\beta$  represents the slope of the relationship between  $X$  and  $Y$ , and  $\varepsilon$  is an error term with an expected mean value of zero.
+Y_i = \alpha + \beta X_i + \varepsilon
+$$
+where $\alpha$ represents the intercept (expected value when $X = 0$), $\beta$ represents the slope of the relationship between $X$ and $Y$, and $\varepsilon$ is an error term with an expected mean value of zero.
 
 As a hypothetical example, suppose that  $X$  reflects the expected dividend in dollars for a universe of firms, and  $Y$  represents the stock price for each of those firms. Then the value of  $\beta$  will reflect the value that the market is assigning to each $1 of dividend payment, while the value of  $\alpha$  will reflect the expected price of a stock that does not pay a dividend. (Please note that we are not proposing that such an equation would provide a usable investment thesis.) It is possible to adapt this simple OLS equation to a multivariate context, in which several different independent variables are being used together to explain or predict the value of the dependent variable.
 
@@ -29,19 +50,13 @@ $$ where  $\alpha^p$  represents the intercept for a specified quantile,  $\beta
 In this context, what is a quantile? It is a generalized form of a percentile, in other words a measure of spread between the highest and lowest values in a particular range. A quantile can conveniently be expressed in terms of percentages, so that the median will be the 50th quantile. But the same method can be used for any quantile, not just the 50th quantile. In this sense, quantile methods are somewhat similar to value-at-risk (VaR) approaches, which seek to measure the "95th percentile" or "99th percentile" of potential losses in a portfolio.
 
 
-# REASONS FOR USING QUANTILE METHODS
+## REASONS FOR USING QUANTILE METHODS
 
 If a data set is distributed in an approximately normal fashion, and if the analysis focuses specifically on the 50th quantile, then the results will often be quite similar to those derived from conventional OLS analysis. However, OLS methods tend to provide unreliable results if a data set is skewed, has "fat tails," or has some extreme outliers—any or all of which can exist when the relevant data are drawn from economics or finance (Koenker and Hallock, 2001). In such circumstances, quantile regression focusing on the 50th quantile will often provide a more robust estimate of the central tendency than would be available from OLS approaches. Figure 1 provides a hypothetical example of a situation where quantile regression might be useful.
 
 Figure 1 shows a scatter plot of a hypothetical relationship that has three main traits: (1) positive slope, (2) higher dispersion of results when the independent variable is small, and (3) a single outlier toward the top end of the range. The graph shows that the outlier exerts considerable influence on the OLS analysis by tending to skew the relationship upward. A conventional OLS approach might decide to exclude the outlier, but this would effectively mean throwing away the information contained in that data point. By contrast, the quantile analysis includes the outlier, but is less affected by its presence. As a consequence, quantile regression does a better job of identifying the "central tendency" within this data set—in exactly the same way as an analyst might choose to use the median rather than the mean when describing a distribution that has a heavy weight in the left or right tail.
 
-The above analysis shows that quantile regression is more robust than OLS methods in the presence of outliers and other potentially distorting influences. Another useful feature of quantile approaches is that they allow analysis of areas away from the middle of the distribution. Conventional regression techniques focus on the "central tendency" of the data, and thus tend to prioritize describing the relationship that is most representative of the average. However, from the perspective of an active investor or a risk manager, the most interesting information may well be in the tails of the dis
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/58850501d16496039d1ac70dbb32846fc53891fb55a477670e9b576d65ded626.jpg)
-Figure 1 Effect of Outliers on OLS and Quantile Analysis Note: Data are hypothetical and based on a simulated relationship.
-
-
-ribution, where the standard OLS approaches are not generally very informative, but where quantile methods can be readily applied.
+The above analysis shows that quantile regression is more robust than OLS methods in the presence of outliers and other potentially distorting influences. Another useful feature of quantile approaches is that they allow analysis of areas away from the middle of the distribution. Conventional regression techniques focus on the "central tendency" of the data, and thus tend to prioritize describing the relationship that is most representative of the average. However, from the perspective of an active investor or a risk manager, the most interesting information may well be in the tails of the distribution, where the standard OLS approaches are not generally very informative, but where quantile methods can be readily applied.
 
 Figure 2 shows the same scatter plot as Figure 1, but instead of showing the quantile median, it shows estimated lines for the 10th and 90th quantiles. The lines form a funnel-like shape, indicating that there is greater variation on the left of the distribution than the right. From the perspective of an investor, this suggests that the range of possible outcomes from investing in companies on the left of the distribution may be larger, and thus require more careful analysis. From the perspective of a risk manager, the difference in slope between the 10th and 90th percentiles might suggest that greater provisioning would be appropriate if a portfolio tends to have greater weight in the left of the distribution. Once again, the outlier is included in the analysis, but its impact on the estimated intercept and slope for the 10th and 90th percentiles is considerably muted by comparison with what would be expected using OLS-like methods.
 
@@ -49,7 +64,7 @@ Figure 2 shows the same scatter plot as Figure 1, but instead of showing the qua
 Figure 2 Effect of Outliers on OLS and Quantile Analysis: Estimated Lines for the 10th and 90th Quantiles Note: Data are hypothetical and based on a simulated relationship.
 
 
-# BACKGROUND AND FURTHER EXAMPLES
+## BACKGROUND AND FURTHER EXAMPLES
 
 Quantile regression methods were first developed in the 1970s in the discipline of statistics (Koenker and Bassett, 1978). Koenker (2005) provides a comprehensive overview of quantile regression in general, with numerous examples drawn from finance and from other subject areas. The statistical packages R, S-Plus, Stata, SAS, and SPSS all have quantile regression capabilities, either as part of their base distribution or as separate modules. These packages typically focus on linear quantile regression, but extensions to nonlinear applications are also feasible (Koenker and Hallock, 2001).
 
@@ -62,7 +77,7 @@ As shown above, quantile regression provides a more complete picture than OLS ap
 Quantile methods can also be used to test whether the quantile-specific parameters are stable over different quantiles and over time, as noted by Koenker and Xiao (2006). Quantile models can thus demonstrate how different variables affect the location, scale, and shape of the conditional distribution of the response. Such methods therefore constitute a significant extension of classical constant coefficient time series models, in which the effect of conditioning is typically confined to a shift of the intercept and/or the slope of the central tendency. Fattouh, Scaramozzino, and Harris (2005) used quantile methods to analyze how the capital structure of firms in Korea had changed over time. Billett and Xue (2008) used quantile approaches to analyze the motivations behind open market share repurchases, and found that firms are generally more likely to repurchase shares when they are at higher risk of being taken over. Pires, Pereira, and Martins (2010) use quantile methods to analyze the determinants of credit default swap spreads over time, and report that some previously reported anomalous results may have occurred due to the emphasis on the conditional mean of the distribution, rather than on the upper and lower tails.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - Quantile regression methods are well established in the statistical literature, and are increasingly being used in finance.
 - Quantile regression methods are more robust than conventional OLS approaches to skewed distributions, fat tails, and the presence of outliers—all of which are frequently encountered in real-world financial data.
@@ -70,9 +85,9 @@ Quantile methods can also be used to test whether the quantile-specific paramete
 - For active investors and risk managers, the upper or lower tails of a distribution may well be more interesting than the central tendency, and quantile regression is an appropriate tool for such work.
 - Quantile regression methods can be applied to data from a single period, but can also be applied in a time-series context. Such methods can help in analyzing how relationships may have changed over time.
 
-# REFERENCES
+## REFERENCES
 
-Bassett, G. W., Jr., and Chen, H.-L. (2001). Portfolio style: Return-based attribution using quant tile regression. Empirical Economics 26, 1: 293-305.
+Bassett, G. W., Jr., and Chen, H.-L. (2001). Portfolio style: Return-based attribution using quantile regression. Empirical Economics 26, 1: 293-305.
 
 Billett, M. T., and Xue, H. (2008). The takeover deterrent effect of open market share repurchases. Journal of Finance 62, 4: 1827-1850.
 Carhart, M. M. (1997). On persistence in mutual fund performance. Journal of Finance 52, 1: 57-82.

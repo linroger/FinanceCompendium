@@ -1,24 +1,49 @@
 ---
-aliases:
-  - The impossibility of the impossible trinity? The case of Indonesia
-tags:
-key_concepts:
-parent_directory: Financial Investments for Public Policy
+title: "The impossibility of the impossible trinity? The case of Indonesia-Basri"
+primary_tags:
+  - impossible trinity
+  - monetary policy
+  - capital flows
+  - emerging markets
+  - indonesia economy
+secondary_tags:
+  - trilemma framework
+  - quantitative easing
+  - taper tantrum
+  - exchange rate policy
+  - macroprudential policy
+  - fiscal policy
+  - commodity supercycle
+  - capital controls
+  - balance sheet effects
+  - policy credibility
+  - institutional quality
+  - current account deficit
+  - foreign direct investment
+  - portfolio investment
+  - asian financial crisis
 cssclasses: academia
-title: The impossibility of the impossible trinity? The case of Indonesia
-linter-yaml-title-alias: The impossibility of the impossible trinity? The case of Indonesia
+---
+  - commodity supercycle
+  - fiscal policy procyclicality
+  - macroprudential policy
+  - exchange rate volatility
+  - balance sheet effects
+  - institutional quality
+  - emerging markets
+cssclasses: academia
 ---
 
-# The impossibility of the impossible trinity? The case of Indonesia
+# The impossibility of the impossible trinity? The case of Indonesia-Basri
 
 M. Chatib Basri* and Luqman Sumartono**
 
 * University of Indonesia, Indonesia, e-mail: mcbasri@icloud.com
 ** Harvard Kennedy School, USA, e-mail: lsumartono@hks.harvard.edu
 
-# Abstract
+## Abstract
 
-The impossible trinity suggests that an economy cannot simultaneously achieve a fixed exchange rate, high capital mobility, and independent monetary policy without abandoning one of these. However, This paper looks at Indonesia's experiences from the 2009 QE and the 2013 taper tantrum, considering why Indonesian policy-makers were unable to use policies as per the trilemma, and the policy implications of this. There are three possible reasons why Indonesia found it difficult to implement this trilemma policy choice: differing monetary policy objectives, volatile floating exchange rates, and balance sheet effects. The commodity supercycle also plays an exogenous role, unable to be overcome by monetary or exchange rate policy while at the same time impacting fiscal policy, income redistribution, trade balance, and the exchange rate. Overall, this paper argues that monetary policy on its own is likely to be insufficient to manage the economy adequately. Other levers and factors, such as macroprudential policy, fiscal policy, capital flow management, and institutional quality, are critical to make the policy choices more effective.
+The impossible trinity suggests that an economy cannot simultaneously achieve a fixed exchange rate, high capital mobility, and independent monetary policy without abandoning one of these. However, this paper looks at Indonesia's experiences from the 2009 QE and the 2013 taper tantrum, considering why Indonesian policy-makers were unable to use policies as per the trilemma, and the policy implications of this. There are three possible reasons why Indonesia found it difficult to implement this trilemma policy choice: differing monetary policy objectives, volatile floating exchange rates, and balance sheet effects. The commodity supercycle also plays an exogenous role, unable to be overcome by monetary or exchange rate policy while at the same time impacting fiscal policy, income redistribution, trade balance, and the exchange rate. Overall, this paper argues that monetary policy on its own is likely to be insufficient to manage the economy adequately. Other levers and factors, such as macroprudential policy, fiscal policy, capital flow management, and institutional quality, are critical to make the policy choices more effective.
 
 Keywords: macroeconomics, impossible trinity, trilemma, monetary policy, fiscal policy, macroprudential policy, capital flow management, institutions, commodity supercycle, Indonesia.
 
@@ -28,9 +53,7 @@ JEL classification: E52, E58, E62, F41, F42, G15, G18
 
 Capital flow is like a double-edged sword. It is perceived to benefit both recipient countries and investors, who can diversify their risks and increase their returns. However, large capital flow disruptions also create significant challenges and issues for policy-makers in emerging markets and developing economies (EMDEs). The potential vulnerabilities that arise from capital inflows are a topic that has received much attention in crisis literature (Calvo et al. (1993); Kaminsky et al. (2003); and Reinhart and Rogoff (2009b)). This topic is especially relevant today as economies worldwide are still reeling from the most significant global economic shock in the twenty-first century: the Covid-19 pandemic. There is widespread concern that the Federal Reserve (Fed)'s exit strategy from its stimulus policy will increase uncertainty in EMDE's financial markets. This uncertainty is exacerbated further by the inflationary pressures in the US, brought on by increasing demand and supply shocks stemming from supply chain disruptions and rising energy and commodity prices. High inflation in the US and other nations puts significant pressure on the Fed to raise interest rates. An increase in US interest rates increases the possibility of capital outflows, raising concerns that a 'taper tantrum (TT) 2.0' will take place.
 
-In preparing for a potential TT 2.0, lessons from the 2013 taper tantrum highlight that US tapering talk induced capital outflows for EMDEs, particularly for the so-called 'Fragile Five' that had sizeable current account deficits (Aizenman et al., 2014). A large current account deficit is not always harmful, especially one financed by long-term, productive foreign direct investment (FDI) from an export-oriented sector (Basri, 2017). However, it may exacerbate a country's vulnerabilities if financed by portfolio investment, as the 'Fragile Five' were. The 2013
-
-TT illustrated that financial markets become anxious when the current account deficit exceeds 3 per cent, though this varies by country. Because of this anxiety, short-term portfolio investment, considered riskier than FDI, flows out of EMDEs.
+In preparing for a potential TT 2.0, lessons from the 2013 taper tantrum highlight that US tapering talk induced capital outflows for EMDEs, particularly for the so-called 'Fragile Five' that had sizeable current account deficits (Aizenman et al., 2014). A large current account deficit is not always harmful, especially one financed by long-term, productive foreign direct investment (FDI) from an export-oriented sector (Basri, 2017). However, it may exacerbate a country's vulnerabilities if financed by portfolio investment, as the 'Fragile Five' were. The 2013 TT illustrated that financial markets become anxious when the current account deficit exceeds 3 per cent, though this varies by country. Because of this anxiety, short-term portfolio investment, considered riskier than FDI, flows out of EMDEs.
 
 Short-term capital outflows to which EMDEs are prone are indicative of policy credibility, legal certainty, or investment climate issues that affect the riskiness of short-term portfolios and are not fully covered by monetary policy. The lack of FDI, as opposed to short-term capital, can potentially be explained by the 'Lucas Paradox', which finds that, because of poor institutional quality and contrary to neoclassical economic theory, the capital flow does not flow from developed to developing countries. If a country can improve its institutions and overcome the risks associated with the volatility of its investment portfolio, investors will be more inclined to enter through FDI. Thus, it is crucial to consider the role of institutions when discussing attempts to reduce capital flow volatility (this is covered in section VI).
 
@@ -68,9 +91,9 @@ Background
 
 The 2009 quantitative easing (QE) episode induced capital inflows to various countries, including EMDEs. EMDEs received half of the global capital flows from 2009 to 2012, with 90 per cent of capital flows into EMDEs concentrated in just eight countries (Sahay et al., 2014). According to the IMF (2014), total market external financing,
 
-$^{2}$  Diaz-Alejandro (1983), Calvo et al. (1996), Eichengreen and Portes (1987), Reinhart and Rogoff  $(2009a)$ , and Lane and McQuade (2013) among many others.
+$^{2}$ Diaz-Alejandro (1983), Calvo et al. (1996), Eichengreen and Portes (1987), Reinhart and Rogoff $(2009a)$, and Lane and McQuade (2013) among many others.
 
-such as bonds, equities, and loans, increased from  \$24.7 billion in 2010 to\$ 32.6 billion in 2013, peaking in the second quarter of 2013 (and then declining due to the taper tantrum). Sahay et al. (2014) show that portfolios dominated capital inflows into Emerging Markets in Asia (excluding China). The dominance of portfolio capital inflows in EM Asia poses a much greater risk of capital outflows than FDI. At the same time, some resource-rich
+such as bonds, equities, and loans, increased from \$24.7 billion in 2010 to \$32.6 billion in 2013, peaking in the second quarter of 2013 (and then declining due to the taper tantrum). Sahay et al. (2014) show that portfolios dominated capital inflows into Emerging Markets in Asia (excluding China). The dominance of portfolio capital inflows in EM Asia poses a much greater risk of capital outflows than FDI. At the same time, some resource-rich
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/30f4b66a-328f-4964-b6ff-c67a0ce2d80b/1f33fd73c26a64917af3ba5c5762420122a9dcfc19a463e34525d4e9056ab3b6.jpg)  
 Figure 1: Coping with capital inflows: policy considerations. Notes: Each circle represents cases where the relevant condition is met. For example, the top-most circle ('Exchange rate not undervalued') represents cases where the exchange rate is assessed to be broadly in line with fundamentals or overvalued. The intersection of all three circles (the area marked (c))—where use of capital flow management measures may be appropriate—reflects cases where the exchange rate is not undervalued, reserves are judged to be adequate, and the economy is overheating. Other intersections similarly represent other confluences of factors. For example, the top left intersection (area (b)) represents cases where the exchange rate is not undervalued, reserves are judged to be adequate, and the economy is not overheating (since the case is outside the 'Economy overheating' circle). Areas of no intersection represent cases where one of the circles—but not the other two—is applicable. For example, the bottom right area ((g)) represents cases where the economy is overheating, the exchange rate is assessed to be undervalued, and reserves are judged to be inadequate. 'Lower rates/Rebalance policy mix' refers to loosening monetary policy; to the extent that fiscal policy is tightened, there would be more room to lower policy rates. Source: IMF (2011).
@@ -84,7 +107,7 @@ The commodity boom and capital inflows have impacted Indonesia, Brazil, and Sout
 
 While the EMDEs benefitted in the short term, this positive impact did not last long because this economic improvement in EMDEs was driven by external factors: capital inflows and commodity booms (Rodrik, 2015). For Indonesia, one of the concerns at the time was the low level of investment in the export-oriented sector. There was also a risk of currency mismatch in the case of FDI oriented to the domestic market because revenue was earned in Rupiah while repatriation was paid in US dollars. In addition, the FDI that was focused on natural resources was highly vulnerable to the commodity supercycle, particularly during commodity price declines.
 
-# Bank Indonesia's response
+## Bank Indonesia's response
 
 Bank Indonesia lowered interest rates to anticipate capital inflows caused by QE. This was in response to lower interest rates in the US and consistent with the framework discussed in section II. As previously stated, the combination of capital inflows, commodity boom, and low interest rates propelled economic growth to above 6 per cent. The commodity super-cycle also caused a significant improvement in Indonesia's current account position.
 
@@ -92,18 +115,13 @@ While the economy was strong, Bank Indonesia was facing a policy conundrum. Lowe
 
 As previously stated, Bank Indonesia chose to lower interest rates and use foreign exchange reserves to stabilize the Rupiah. Two opposing effects were at work here. First, intervention in the forex market, and a reduction in interest rates to moderate exchange rate appreciation, led to an increase in Indonesia's current account surplus. Second, the low interest rates stimulated aggregate demand, reducing the current account surplus. Over the medium term the second effect exceeded the first. The commodity supercycle's boom phase had also served to significantly improve Indonesia's current account position. But the combination of increased aggregate demand and exchange rate appreciation (due to the Bank of Indonesia's inability to completely sterilize capital inflows), led to a widening current account deficit by the second quarter of 2011. This situation was then greatly worsened by the end of the upward phase of the commodity supercycle which happened by 2012.
 
-When the tapering talks began in 2013, the widening current account deficit and declining foreign exchange reserves (Figure 3) resulted in massive capital outflows. These dynamic capital flows have reduced monetary policy's independence and caused Bank Indonesia to shift its focus from monetary policy to controlling inflation and maintaining the exchange rate (Juhro, 2010; Goeltom and Juhro, 2013). To mitigate the capital outflow, Bank Indonesia implemented various policy responses by allowing the exchange rate to appreciate and accumulating reserve assets. In addition, Bank Indonesia installed different macroprudential policies, including implementing reserve requirements, mitigating the impact of the US dollar flowing into the economy, and creating a 6-month holding period for investors buying central bank bills, among other levers (Agung et al., 2022)
+When the tapering talks began in 2013, the widening current account deficit and declining foreign exchange reserves (Figure 3) resulted in massive capital outflows. These dynamic capital flows have reduced monetary policy's independence and caused Bank Indonesia to shift its focus from monetary policy to controlling inflation and maintaining the exchange rate (Juhro, 2010; Goeltom and Juhro, 2013). To mitigate the capital outflow, Bank Indonesia implemented various policy responses by allowing the exchange rate to appreciate and accumulating reserve assets. In addition, Bank Indonesia installed different macroprudential policies, including implementing reserve requirements, mitigating the impact of the US dollar flowing into the economy, and creating a 6-month holding period for investors buying central bank bills, among other levers (Agung et al., 2022).
 
-# The role of fiscal policy
+## The role of fiscal policy
 
 Fiscal policy is one tool for managing capital flows and commodity super-cycles. However, there is a risk that fiscal policy will become procyclical to capital flows and commodity super-cycles, particularly in developing countries.
 
-Fiscal policy, low interest rate policy, and capital flows: The low interest rate policy has resulted in capital inflows to emerging or developing economies and affects fiscal policy in developing countries. Gavin and Perotti (1997) and Kaminsky et al. (2003) demonstrate that, in bad times, the governments of many developing countries are unable
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/30f4b66a-328f-4964-b6ff-c67a0ce2d80b/3dd268b167a7e78662df108eb1f6481c16ad093e33599f52770b3894e3ef5d9a.jpg)  
-Figure 3: Indonesia: GDP growth, exchange rate, current account/GDP, and foreign reserves. Source: Basri (2017).
-
-to borrow due to very high interest rates. As a result, developing countries find it challenging to increase their fiscal deficits. In good times, the opposite is true. The QE case demonstrates that low interest rates enabled the government to increase its fiscal deficits. The implication was that when capital inflows occurred as a result of QE, developing-country deficits did not fall because low interest rates allowed developing-country governments to borrow money to finance their fiscal deficits. Furthermore, increased tax revenues as a result of the commodity boom enabled emerging-market governments to increase their spending (this is discussed separately in the following section). Conversely, when interest rates were high, as they were during the taper tantrum, developing countries reduced their deficits.
+Fiscal policy, low interest rate policy, and capital flows: The low interest rate policy has resulted in capital inflows to emerging or developing economies and affects fiscal policy in developing countries. Gavin and Perotti (1997) and Kaminsky et al. (2003) demonstrate that, in bad times, the governments of many developing countries are unable to borrow due to very high interest rates. As a result, developing countries find it challenging to increase their fiscal deficits. In good times, the opposite is true. The QE case demonstrates that low interest rates enabled the government to increase its fiscal deficits. The implication was that when capital inflows occurred as a result of QE, developing-country deficits did not fall because low interest rates allowed developing-country governments to borrow money to finance their fiscal deficits. Furthermore, increased tax revenues as a result of the commodity boom enabled emerging-market governments to increase their spending (this is discussed separately in the following section). Conversely, when interest rates were high, as they were during the taper tantrum, developing countries reduced their deficits.
 
 Fiscal policy and the commodity super-cycle: Frankel (2006) argued that expansive monetary policy in the US contributed to increased commodity and energy prices. Consistent with this, Saghaian and Reed (2015) and Kim (2022) show that QE impacted commodity and energy prices. Of course, QE is not the only explanation for the commodity super-cycle; China's high economic growth has also pushed up energy and commodity prices. This commodity boom affects a country's terms-of-trade and fiscal position because commodity super-cycle terms-of-trade increases induce real exchange rate appreciation. Corden and Neary (1982) argue the spending effect drives this real exchange rate appreciation. In resource-rich developing countries, governments receive energy and commodity revenues, initiating a spending effect.
 
@@ -115,7 +133,7 @@ Another option is to cut fuel subsidies and use the savings to help the poor. Ho
 
 # (ii) The 2013 taper tantrum
 
-# Background
+### Background
 
 In May 2013, Fed Chairman Ben Bernanke considered tapering QE to end the programme. These comments resulted in a fall in EMDE stock markets and currency rates, especially in countries with current account deficits (Aizenman et al., 2014). Eichengreen and Gupta (2014) argue taper tantrums were far worse in countries with significant currency appreciation and widening current account deficits. Here we see how QE policies caused the currency to appreciate, widening the current account deficit in the following period (the taper tantrum period).
 
@@ -131,9 +149,7 @@ Higher interest rates, exchange rate depreciation, and sterilized intervention a
 
 As previously stated, Bank Indonesia chose to raise interest rates to moderate the depreciation of the exchange rate and intervene in the currency market to prevent excessive volatility. However, there was a cost here: the slowdown of economic growth and full employment (Figure 3). As stated earlier, these dynamic capital flows have reduced monetary policy's independence and caused Bank Indonesia to shift the focus of its monetary policy from the safeguarding of employment to the control inflation and the stabilization of the exchange rate (Juhro, 2010). Bank Indonesia also took multiple steps, including several macroprudential measures, such as tightening loan-to-value rules. In addition, it imposed a penalty if the loan-to-deposit ratio fell below 80 per cent or exceeded 92 per cent. Finally, Bank Indonesia attempted to address the growing private foreign debt by requiring non-financial enterprises to hedge their foreign exchange exposure in 2014 (Agung et al., 2019).
 
-Interestingly, despite the Rupiah's significant depreciation during the 2013 taper tantrum, Indonesia did not encounter a currency crisis. Basri (2017) argues that, unlike at the time of the Asian Financial Crisis, there was not a fundamental problem in Indonesia's banking sector at this time. It is true that the taper tantrum took place when there was a large current account deficit. Nevertheless a combination of monetary tightening, budget cuts, and a
-
-depreciating exchange rate worked well. In particular, because Indonesian banking conditions in 2013 were so much better than in 1998, an increase in interest rates by 175 bps did not greatly affect the banking sector.
+Interestingly, despite the Rupiah's significant depreciation during the 2013 taper tantrum, Indonesia did not encounter a currency crisis. Basri (2017) argues that, unlike at the time of the Asian Financial Crisis, there was not a fundamental problem in Indonesia's banking sector at this time. It is true that the taper tantrum took place when there was a large current account deficit. Nevertheless, a combination of monetary tightening, budget cuts, and a depreciating exchange rate worked well. In particular, because Indonesian banking conditions in 2013 were so much better than in 1998, an increase in interest rates by 175 bps did not greatly affect the banking sector.
 
 # The role of fiscal policy
 
