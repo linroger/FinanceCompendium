@@ -1,14 +1,64 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Build Final Exam Data"
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
+formatted: 2025-12-21 12:20:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - exam data construction
+  - gold price analysis
+  - treasury bill rates
+secondary_tags:
+  - financial data processing
+  - return calculations
+  - forecasting models
 cssclasses: academia
-title: Much of the exam was built outside this notebook
-linter-yaml-title-alias: Much of the exam was built outside this notebook
 ---
 
-# Much of the exam was built outside this notebook
+# Build Final Exam Data
+
+```d2
+direction: right
+
+data_collection: Data Collection {
+  shape: cylinder
+}
+
+gold_prices: Gold ETF Data {
+  shape: rectangle
+  label: GLD prices
+}
+
+treasury_rates: Treasury Bill Rates {
+  shape: rectangle
+  label: ^IRX rates
+}
+
+weekly_resampling: Weekly Resampling {
+  shape: rectangle
+}
+
+return_calculation: Return Calculation {
+  shape: rectangle
+}
+
+rate_changes: Rate Change Analysis {
+  shape: rectangle
+}
+
+data_export: Data Export {
+  shape: rectangle
+  label: Excel export
+}
+
+data_collection -> gold_prices: Download GLD
+data_collection -> treasury_rates: Download ^IRX
+gold_prices -> weekly_resampling: Resample to weekly
+treasury_rates -> weekly_resampling
+weekly_resampling -> return_calculation: Calculate percentage changes
+return_calculation -> rate_changes: Add T-bill rate changes
+rate_changes -> data_export: Export for forecasting exam
+```
 
 ```python
 import pandas as pd

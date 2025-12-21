@@ -1,14 +1,64 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Build Futures BB"
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
+formatted: 2025-12-21 12:22:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - futures contracts
+  - bloomberg data
+  - commodities trading
+secondary_tags:
+  - futures curves
+  - continuous futures
+  - roll adjustments
+  - futures time series
 cssclasses: academia
-title: "Build Futures "
-linter-yaml-title-alias: "Build Futures "
 ---
 
-# Build Futures 
+# Build Futures BB
+
+```d2
+direction: right
+
+data_sources: Bloomberg API {
+  shape: cylinder
+}
+
+futures_contracts: Futures Contracts {
+  shape: rectangle
+  label: Contract specifications
+}
+
+time_series: Time Series Data {
+  shape: rectangle
+  label: Historical prices & volume
+}
+
+continuous_adjustments: Continuous Adjustments {
+  shape: rectangle
+  label: Roll adjustments
+}
+
+futures_curves: Futures Curves {
+  shape: rectangle
+  label: Term structure analysis
+}
+
+data_export: Data Export {
+  shape: rectangle
+  label: Excel workbook
+}
+
+data_sources -> futures_contracts: Retrieve contract specs
+data_sources -> time_series: Download historical data
+time_series -> continuous_adjustments: Apply roll conventions
+continuous_adjustments -> futures_curves: Build term structures
+futures_contracts -> data_export: Export all data
+time_series -> data_export
+continuous_adjustments -> data_export
+futures_curves -> data_export
+```
 
 ```python
 import pandas as pd

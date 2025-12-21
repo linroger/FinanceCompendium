@@ -1,3 +1,37 @@
+You are the Obsidian Formatting Agent for the FinanceCompendium vault.
+
+MANDATORY FIRST STEP
+1) Read and follow the instructions in this document carefully.
+
+WORK LOOP (repeat until no eligible issues remain)
+A) Find an unassigned open bead issue that no other agent is working on:
+   1) Run: bd ready --json
+   2) If empty, run: bd list --status open
+   3) Select ONE issue that is not in_progress (and clearly not being handled by someone else).
+
+B) Claim it:
+   - bd update <id> --status in_progress
+
+C) Read the document:
+   - Read the FULL document referenced by the issue (iterate in 300–500 line chunks if needed, but ensure full coverage).
+
+D) Perform HIGH-TOUCH MANUAL remediation:
+   - Use targeted edits only. Use the Edit tool for changes.
+   - Do NOT write scripts (Python/Bash/sed/awk) to apply bulk changes.
+   - Do NOT run blanket regex replacements across the entire document.
+   - Apply ALL rules from @obsidian-formatting-instructions.md including YAML, headings, paragraphs, lists, math, tables, media rules, TOC cleanup, removals, and required additions (e.g., D2 diagrams if required by the instructions).
+
+E) After EACH chunk, update the bead issue:
+   - bd comment <id> "<incremental progress log>"
+   Include: line ranges, what was changed (before/after snippets where helpful), skipped ambiguities, and extracted key phrases/tags per the instructions.
+
+F) Finalize:
+   - Verify the document renders correctly per the instructions.
+   - Post a final bead update summarizing total changes and final tags.
+   - Close the issue: bd close <id> --reason "<concise completion summary>"
+
+Then return to step A and continue with the next eligible open issue.
+
 # Comprehensive Subagent Instructions: Obsidian Vault Formatting Remediation
 
 **Version:** 1.0

@@ -1,12 +1,60 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Build FX Carry Data FRED"
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
+formatted: 2025-12-21 12:23:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - fx carry trade
+  - fred data
+  - currency trading
+secondary_tags:
+  - risk free rates
+  - exchange rates
+  - carry strategies
+  - fred api
 cssclasses: academia
-title: Save to Excel
-linter-yaml-title-alias: Save to Excel
 ---
+
+# Build FX Carry Data FRED
+
+```d2
+direction: right
+
+fred_api: FRED API {
+  shape: cylinder
+}
+
+fx_rates: FX Rates {
+  shape: rectangle
+  label: Exchange rates (DEXUSUK, DEXUSEU, etc.)
+}
+
+risk_free_rates: Risk-Free Rates {
+  shape: rectangle
+  label: LIBOR rates (USD1MTD156N, etc.)
+}
+
+data_processing: Data Processing {
+  shape: rectangle
+}
+
+carry_calculation: Carry Calculation {
+  shape: rectangle
+}
+
+data_export: Data Export {
+  shape: rectangle
+  label: Excel workbook
+}
+
+fred_api -> fx_rates: Download spot FX rates
+fred_api -> risk_free_rates: Download LIBOR rates
+fx_rates -> data_processing: Resample to monthly
+risk_free_rates -> data_processing
+data_processing -> carry_calculation: Calculate interest differentials
+carry_calculation -> data_export: Export for carry trade analysis
+```
 
 ```python
 import pandas as pd

@@ -1,17 +1,56 @@
 ---
-tags:
-key_concepts:
+title: "Build Data Multi-Asset ETFs"
 parent_directory: VIII. Portfolio Management/FINM Markets Foundation
+formatted: 2025-12-21 12:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - multi-asset etfs
+  - portfolio construction
+  - data analysis
+secondary_tags:
+  - asset allocation
+  - etf analysis
+  - return calculations
+  - risk management
 cssclasses: academia
-title: Build Data Multi-Asset ETFs
-formatted: "2025-12-20 07:52:00 PM"
-formatter_model: "claude-sonnet-4"
-cli-tool: "opencode"
-primary_tags: [build data, multi-asset etfs, portfolio management]
-secondary_tags: [etfs, asset allocation, data analysis]
 ---
 
 ## Build Data Multi-Asset ETFs
+
+```d2
+direction: right
+
+data_sources: Data Sources {
+  shape: cylinder
+}
+
+etf_selection: ETF Selection {
+  shape: rectangle
+}
+
+price_download: Price Download {
+  shape: rectangle
+}
+
+return_calculation: Return Calculation {
+  shape: rectangle
+}
+
+excess_returns: Excess Returns {
+  shape: rectangle
+}
+
+data_export: Data Export {
+  shape: rectangle
+}
+
+data_sources -> etf_selection: Select 12 ETFs across asset classes
+etf_selection -> price_download: Download historical prices (2009-2022)
+price_download -> return_calculation: Calculate monthly returns
+return_calculation -> excess_returns: Subtract treasury bill returns
+excess_returns -> data_export: Export to Excel
+```
 
 ```python
 import pandas as pd
