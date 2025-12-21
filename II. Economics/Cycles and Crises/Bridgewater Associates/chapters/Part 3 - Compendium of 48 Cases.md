@@ -219,6 +219,40 @@ This section goes through each of the 48 debt crises we examined, so that you ca
 
 Each case includes a simple computer-generated text analysis of what happened along with a bunch of charts showing the basic stats. These "auto-text" comments are observations of the basic stats and they present a very simplified version of our algorithmic analysis. I am providing you with these to show you how, by viewing cases through a simplified lens (based on the even more simplified template explained in Part 1), the important things pop. Note how the perspective you gain by seeing these situations in a simple way contrasts with the perspective you get when viewing the more complete blizzard of details described in Part 2. I hope seeing the cases at this level helps you more easily see the principle-level commonalities and differences explained in the "Archetypal Big Debt Crisis" template.
 
+```d2
+# Deleveraging Cycle Phases
+direction: right
+
+Bubble: Bubble Phase {
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Shock: External Shock {
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+  shape: diamond
+}
+
+Depression: Depression Phase {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Reflation: Reflation Phase {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Bubble -> Shock: Debt accumulation leads to vulnerability
+Shock -> Depression: Self-reinforcing decline
+Depression -> Reflation: Policy intervention enables recovery
+
+Bubble.tooltip: Rising debt, strong growth, asset bubbles
+Depression.tooltip: Falling GDP, deflation, bank failures
+Reflation.tooltip: Monetary easing, fiscal stimulus, recovery
+```
+
 ## United States 1926-1936 Case Auto-Summary
 
 As shown in the charts to the right, the United States experienced a classic deflationary deleveraging cycle between 1926 and 1936.
@@ -435,7 +469,7 @@ Deleveraging Attribution: Depression Period
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/acd377df0a71d731ede37d403e4b1e9b82d6efc9670e57e4cf12a0a5d58d554e.jpg)
 
-# Japan 1925-1936 Case Auto-Summary (cont.)
+## Japan 1925-1936 Case Auto-Summary (cont.)
 
 ### The Reflation Phase
 
@@ -447,7 +481,7 @@ The crisis had a notable impact on the politics of Japan, as it helped set the s
 
 Deleveraging Attribution: Reflation Period
 
-# Japan 1925-1936 Chart Deck Appendix
+### Japan 1925-1936 Chart Deck Appendix
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/c6cca884b3be01a4a1f8441e6bf4facf4fa374a2e635f7509dd0eba8a5a20c6a.jpg)
 
@@ -479,7 +513,7 @@ Economic Conditions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/cb1de3f23208145c1aa2aa97e969c1cc6127af38d2523b4f3be703fa4df51fbb.jpg)
 
-# Japan 1925-1936 Chart Deck Appendix (cont.)
+### Japan 1925-1936 Chart Deck Appendix (cont.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/26d3888ef14df69cc6fb13985f8835dcf1d50e83f5e564c4e602410bf43e249e.jpg)
 
@@ -577,7 +611,7 @@ Economic Conditions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/b108a15936ba7ab67eb98eeec3507352291f0f26fb801a22e31f5869cb15b7c4.jpg)
 
-# France 1926-1938 Chart Deck Appendix (cont.)
+### France 1926-1938 Chart Deck Appendix (cont.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/99ffb9a9b5b0d43091a91088672fa78e2aad629def2715eb16bc3c2445140a80.jpg)
 
@@ -607,15 +641,15 @@ External Position
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/8ed0d29b3c51463deffe842df2ddc393b5f3956aee0d969c6c5cb2e7ca5ffb60.jpg)
 
-# United Kingdom 1941-1967 Case Auto-Summary
+## United Kingdom 1941-1967 Case Auto-Summary
 
 As shown in the charts to the right, the United Kingdom experienced a classic wartime deflationary deleveraging cycle between 1941 and 1967. As is typical for winners of big wars, the United Kingdom experienced a brief postwar recession as the economy transitioned away from war production, and a more orderly deleveraging.
 
-# The War Phase
+### The War Phase
 
 Unlike the typical case that entails a bubble, this debt crisis had its roots in WW2. During the war, the United Kingdom borrowed a lot of money to finance its big fiscal deficit, shifted much of its economy to war production, and shifted much of its workforce to the armed services and war production. For these reasons, the economic stats are not reflective of typical economic linkages. Through the war, debts rose sharply. In this case, the debt was in the United Kingdom's domestic currency, and the majority was owned domestically, too. Aided by wartime spending, growth was strong through this period (at  $6\%$ ), while levels of economic activity were high (the GDP gap peaked at  $10\%$ ). Meanwhile, strong asset returns (equities averaged  $16\%$  annualized returns over the war period) helped to stimulate growth.
 
-# The Post-War Phase
+### The Post-War Phase
 
 As the war neared an end, the United Kingdom entered a postwar recession, which ran from 1943 to 1947. Since the United Kingdom won the war, its post-war slump was less bad than it was for the losers. Nevertheless, the United Kingdom suffered from self-reinforcing declines in GDP (falling by  $15\%$ ). As shown in the attribution chart to the right, even though the United Kingdom needed a deleveraging, its debt as a  $\%$  GDP went up by  $102\%$  (25\% annualized) as incomes declined and as the government continued to shoulder war-related costs (with a peak fiscal deficit of  $31\%$  of GDP during the ugly period).
 
@@ -631,7 +665,7 @@ Deleveraging Attribution: Depression Period
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/ac418f1012197294e6afe973b1fe318c07b307f9450160639d5988c7d587bc16.jpg)
 
-# United Kingdom 1941-1967 Case Auto-Summary (cont.)
+## United Kingdom 1941-1967 Case Auto-Summary (cont.)
 
 ### The Reflation Phase
 
@@ -641,7 +675,7 @@ After a slightly longer than average bust phase, policy makers were able to prov
 
 Deleveraging Attribution: Reflation Period
 
-# United Kingdom 1941-1967 Chart Deck Appendix
+### United Kingdom 1941-1967 Chart Deck Appendix
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/912a7a04710504c0370f8e8ca60125521b681e20a03e0e93555342af71f7045c.jpg)
 
@@ -673,7 +707,7 @@ Economic Conditions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/311a2214e437e621cb348c0ccae2737444a41b1f8025105b87894b90075ff5bf.jpg)
 
-# United Kingdom 1941-1967 Chart Deck Appendix (cont.)
+### United Kingdom 1941-1967 Chart Deck Appendix (cont.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/82a452870fd8516072ea7dcd904505ac7f75e6c567794e0b1bf01dfec8b2ac1e.jpg)
 
@@ -703,7 +737,7 @@ External Position
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/a7ea8ec29ea0b8aacfdabaaa4b536ad1b017aa73e7cb70fda395f1c9b51394e1.jpg)
 
-# United Kingdom 1941-1967 Chart Deck Appendix (cont.)
+### United Kingdom 1941-1967 Chart Deck Appendix (cont.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/e70cb70cb9e9ebca858ccf4c273d2b1187509e5b41bf28f57c33c14d80b267cf.jpg)
 
@@ -717,11 +751,11 @@ Government and Military
 
 As shown in the charts to the right, the United States experienced a classic wartime deflationary deleveraging cycle between 1943 and 1951. As is typical for winners of big wars, the United States experienced a brief postwar recession as the economy transitioned away from war production, and a more orderly deleveraging.
 
-# The War Phase
+### The War Phase
 
 Unlike the typical case that entails a bubble, this debt crisis had its roots in WW2. During the war, the United States borrowed a lot of money to finance its big fiscal deficit, shifted much of its economy to war production, and shifted much of its workforce to the armed services and war production. For these reasons, the economic stats are not reflective of typical economic linkages. Through the war, debts rose to  $150\%$  of GDP. In this case, the debt was in the United States's domestic currency, and the majority was owned domestically, too. Aided by wartime spending, growth was strong through this period (at  $13\%$ ), while levels of economic activity were high (the GDP gap peaked at  $19\%$ ). Meanwhile, strong asset returns (equities averaged  $15\%$  annualized returns over the war period) helped to stimulate growth.
 
-# The Post-War Phase
+### The Post-War Phase
 
 When the fighting ended, the United States entered a postwar recession, which ran from 1945 to 1950. Since the United States won the war, its post-war slump was less bad than it was for the losers. Nevertheless, the United States suffered from self-reinforcing declines in GDP (falling by  $13\%$ ). Unemployment rates increased by  $5\%$ . As shown in the attribution chart to the right, even though the United States needed a deleveraging, its debt as a  $\%$  GDP was roughly flat through this period.
 
@@ -2257,11 +2291,11 @@ External Position
 
 As shown in the charts to the right, Germany experienced a classic wartime hyperinflationary deleveraging cycle between 1918 and 1925. As is typical for losers of big wars, Germany experienced a prolonged postwar depression (given widespread damage to its industrial base), and a more painful deleveraging.
 
-# The War Phase
+### The War Phase
 
 Unlike the typical case that entails a bubble, this debt crisis had its roots in WW1. During the war, Germany borrowed a lot of money to finance its big fiscal deficit, shifted much of its economy to war production, and shifted much of its workforce to the armed services and war production. For these reasons, the economic stats are not reflective of typical economic linkages. Through the war, debts rose to  $158\%$  of GDP. In this case, a high share of the debt was in foreign currencies (64\% of GDP). Hampered by wartime losses, growth was weak through this period (at  $-6\%$ ).
 
-# The Post-War Phase
+### The Post-War Phase
 
 When the fighting ended, Germany entered a postwar depression and balance of payments crisis, which ran from 1918 to 1923. Since Germany lost the war and was saddled with very large foreign currency debts, its post-war depression was far worse than it was for the winners. Germany suffered from self-reinforcing declines in GDP (falling by  $5\%$ ), and in stock prices (falling by  $97\%$ ). Unemployment rates increased by  $16\%$ . Germany's financial institutions also came under considerable pressure. As shown in the attribution chart to the right, even though Germany needed a deleveraging, its debt as a  $\%$  GDP went up by  $165\%$  (31\% annualized) as incomes declined and as the government continued to shoulder war-related costs (with a peak fiscal deficit of  $11\%$  of GDP during the ugly period).
 
