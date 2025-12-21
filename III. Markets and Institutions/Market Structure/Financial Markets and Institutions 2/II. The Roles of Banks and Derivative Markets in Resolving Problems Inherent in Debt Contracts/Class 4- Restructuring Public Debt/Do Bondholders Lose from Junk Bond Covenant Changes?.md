@@ -34,7 +34,7 @@ Your use of the JSTOR archive indicates your acceptance of the Terms & Condition
 
 # Do Bondholders Lose from Junk Bond Covenant Changes?*
 
-# I. Introduction
+## I. Introduction
 
 It has long been recognized that financial debt covenants can reduce the agency costs of debt and thereby increase the value of the firm. But there is no guarantee that covenants which were optimal when the debt was issued remain optimal over time. As a firm's economic environment changes and as its investment opportunities vary, the renegotiation of covenants may be desirable. Most researchers have assumed that it is not cost-effective to renegotiate the covenants of diffusely held public debt securities and, as a result, have focused on the renegotiation of bank or privately placed debt.
 
@@ -68,7 +68,7 @@ The conclusion that firms cannot dispose of covenants without compensating bondh
 
 Section VI summarizes the article and briefly concludes.
 
-# II. The Mechanics of Consent Solicitations: Description and Summary Statistics
+## II. The Mechanics of Consent Solicitations: Description and Summary Statistics
 
 The Trust Indenture Act of 1939 and most indentures prohibit the alteration of interest or principal provisions without the consent of each bondholder affected by the changes. Other terms of the indenture, however, may be changed with less than unanimous approval. In fact,
 
@@ -113,7 +113,7 @@ Note. -Issuers in the sample asked bondholders to modify protective covenants in
 
 long as the terms of the solicitation adequately compensate bondholders for the loss of covenant protection, bondholders will not experience losses and shareholders will seek only modifications that increase firm value. However, as shown in the next section, the structure of consent solicitations may coerce bondholders into consenting even if they are not adequately compensated. Consequently, shareholders may seek modifications that reduce the value of the firm as a whole so long as enough value can be expropriated from the bondholders.
 
-# III. A Game-theoretic Analysis of Consent Solicitations
+## III. A Game-theoretic Analysis of Consent Solicitations
 
 If bondholders can coordinate their actions, the analysis of consent solicitations is simple: bondholders will accept an issuer's proposal if and only if they benefit from the changes. Consequently, firms will propose only those changes that increase the value of the firm as a whole and share at least some of this increased value with the bondholders. This section, therefore, focuses on situations in which bondholders cannot coordinate their actions.[9]
 
@@ -166,9 +166,9 @@ Note. Theoretical analysis shows that paying only those bondholders who consent 
 
 information was available, 44 either made consent payments available only to consenting bondholders, required exit consents, or did both.
 
-# IV. Bond and Stock Returns around Solicitation Events
+## IV. Bond and Stock Returns around Solicitation Events
 
-# A. Hypotheses
+### A. Hypotheses
 
 When a firm announces a proposed transaction and consent solicitation, three kinds of information are revealed: (1) the change in expected firm value due to the anticipated transaction, (2) the change in the expected division of firm value across equity and debt claims due to the terms of the solicitation, and (3) the change in firm value signaled through the transaction and solicitation proposal. Consider, for example, an announcement to sell assets subject to bondholder approval. To the extent that the sale allows cash and managerial effort to flow toward more profitable endeavors, firm value will tend to rise. To the extent that the terms of the solicitation fail to compensate bondholders adequately for the removal of assets from their reach, debt claims will tend to fall in value. Finally, to the extent that the announcement of a sale price reveals that investors had previously misestimated the value of the assets to be sold, firm value would change to reflect this news about asset values.
 
@@ -178,7 +178,7 @@ The theory of Section II showed that bondholders who cannot coordinate their act
 
 Despite these theoretical predictions with respect to bondholder returns, there are grounds to doubt that issuers will, or even can, in practice, exploit coercion. First, proposals at unfair terms may result in litigation with and liability to injured bondholders (see Coffee and Klein 1991). Second, such proposals may hurt the issuer's reputation and increase its future costs of raising capital. Third, contrary to the assumptions of the theoretical model, it may be the case that bondholders can coordinate their actions. Absent a signaling effect, the first two considerations imply zero abnormal bond returns: firms will not expropriate bondholder wealth, but they need not share any gains which result from the ensuing transaction. The third consideration, conversely, implies abnormally positive returns since bondholder coordination, actual or threatened, would force stockholders to give up some of their gains in exchange for bondholder consents.
 
-# B. Data and Methodology
+### B. Data and Methodology
 
 To examine the hypotheses outlined above empirically, stock and bond price data were collected for as many of the solicitation events as possible. The event dates, isolated from press releases, were the announcements of transactions which required bondholder consents. Because many firms in the sample were either privately owned or were subsidiaries of public companies, stock price data were available for only 29 of the 54 coercively structured solicitations. Returns from the day before to the day after the event date were adjusted by subtracting, alternately, the return on the S&P 500 Index and on the Nasdaq Composite Index over the same time period. Stock and index prices were collected from the Center for Research in Security Prices data base and the New York Stock Exchange, American Stock Exchange, and Over-the-Counter Daily Stock Price Record.
 
@@ -218,7 +218,7 @@ which controls only for interest rate changes. Since the window around the event
 
 If a solicitation event involved more than one debt issue, the abnormal return for the event was taken as the average of the abnormal returns over the issues. Since the abnormal returns of different issues over the same event are likely to be highly correlated, the standard deviations of the abnormal returns from these conglomerate issues are comparable to those from individual issues. To the extent that the abnormal returns across issues for a given event are less than perfectly correlated, the tests of significance reported below would be conservative.
 
-# C. Results
+### C. Results
 
 Table 3, panel A, reports that the average abnormal bond return around event dates was  $2.34\%$  for the monthly data and  $75\%$  for the daily data.[13] The null hypothesis that these averages are negative can be rejected at the  $5\%$  level. These results are not driven by a few positive outliers; 29 of the 42, or  $69\%$ , of the abnormal returns are positive. Furthermore, one can easily reject the hypothesis that the median of these returns is negative.
 
@@ -226,11 +226,11 @@ Table 3, panel B, presents the results with respect to stock prices. The average
 
 Positive abnormal stock and bond returns are consistent with the hypothesis that bondholders are able to act in concert and vote in blocks. In that case, the main results of Section II do not apply: bondholder coordination limits the ability of shareholders to expropriate bondholder wealth. Furthermore, bondholders can demand a share of any gains which arise from the covenant modifications.
 
-# V. Direct Evidence against the Coercion Hypothesis
+## V. Direct Evidence against the Coercion Hypothesis
 
 Abnormally positive stock and bond returns provide only indirect evidence in favor of the bondholder coordination hypothesis. This section reports direct evidence in support of this hypothesis. Direct evidence also serves to allay fears that the signaling effect, introduced in the previous section, dominates returns around the event dates. For if, on average, the signaling effect is positive and sufficiently large, abnormally positive bondholder returns are not inconsistent with the coercion hypothesis; abnormal returns might be positive but less than they would have been in the absence of coercion. This possibility can be refuted by direct evidence against the coercion hypothesis.
 
-# A. The Magnitude of Consent Payments
+### A. The Magnitude of Consent Payments
 
 According to the theory of Section II, consent payments of any magnitude can generate outcomes in which bondholders approve harmful indenture modifications. Therefore, "large" consent payments are more indicative of compensation for lost covenant protection and of
 
@@ -256,19 +256,13 @@ As evident from the statistics reported in the previous paragraph, the size of t
 
 16. The sample contained 30 solicitations that made consent payments. For three of them, the size of the consent payment could not be ascertained. Another four were made in combination with tender offers subject to the restriction that bondholders could not consent without agreeing to tender. It follows that, in those cases, bondholders receive compensation for covenant changes both through the tender price and through the consent payment. Therefore, these consent payments were omitted from the calculations reported in the text.
 
-# B. The Emergence of Bondholder Groups
+### B. The Emergence of Bondholder Groups
 
-The mechanics of coercion require that bondholders not be able to coordinate their votes. Yet for 12 of the sample events, press releases indicated that bondholder groups did form in reaction to consent solicitations. To the extent that press releases do not cover all bondholder meetings, this number might underestimate the true number of meetings generated by the solicitations in the sample. And furthermore, by establishing that bondholders can collude, it is not unreasonable to suppose that less formal communication among bondholders, or the possibility of such communication and coordination, tends to dissuade firms from launching solicitations at unfair terms.
+### C. The Effectiveness of Bondholder Groups
 
-# C. The Effectiveness of Bondholder Groups
+### D. The Modification of Issuer Proposals
 
-Of the 12 solicitations which were followed by the formation of bondholder groups, 11 either failed or had their terms modified before being approved. The fate of the remaining solicitation could not be ascertained. It seems clear, therefore, that colluding bondholders have a great deal to say about the terms of any successful covenant modification.
-
-# D. The Modification of Issuer Proposals
-
-In 55 events for which data were available, 23, or  $42\%$ , of the issuers modified solicitation terms after an initial failure to obtain a sufficient number of bondholder consents. Of these modified solicitations, the following data were available about the changes proposed by the firms: 17 increased payment terms (i.e., the consent payment, the tender price, the promised interest rate, etc.), 3 requested more moderate covenant changes than initially sought, and 2 both increased payment terms and requested more moderate covenant changes. The relatively frequent improvement of terms supports the view that bondholders and stockholders arrive at a mutually satisfactory division of the gains which would result from the proposed transaction.
-
-# E. Magnitude of Payment Term Modifications
+### E. Magnitude of Payment Term Modifications
 
 Across 19 increases in payment terms after an initial unsuccessful solicitation, the average and median increases were  \$40.28 and$ 18.40 per $1,000 face amount, respectively. The range of the increases was  $5 -$ 160. It seems highly unlikely that a median initial consent payment of \$15 could not induce coercion while an addition of \$18.40 could. And the coercion hypothesis cannot explain the wide range of improvement in payment terms. The bondholder coordination hypothesis, however, easily explains these increases as efforts, in each particular instance, to satisfy bondholders.
 
@@ -276,129 +270,19 @@ In summary, the empirical evidence is inconsistent with the hypothesis that firm
 
 modifications at disadvantageous terms. This evidence also supports the hypothesis that actual or potential coordination allows bondholders to realize some of the gains expected from covenant modifications.
 
-# VI. Conclusion
+## VI. Conclusion
 
 The structure of consent solicitations seems to enable firms to coerce bondholders into accepting detrimental covenant modifications. If so, why don't bondholders demand covenants that prohibit coercive consent solicitations? This could easily be done by requiring that any consent payment be made to all bondholders and by prohibiting firms from requiring exit consents as a condition for participating in an exchange or tender offer. Evidence from abnormal bondholder returns provides an answer to this question: firms have not systematically abused the coercive nature of these solicitations. But this answer raises another question. Why don't firms use their coercive power to transfer wealth from bondholders to their stockholders? The answer provided by more direct evidence of the solicitation process is that bondholders can coordinate their actions when faced with a disadvantageous proposal. Indeed, far from being taken advantage of, bondholders can extract a portion of the gains created by successful modifications. Thus, the empirical evidence does not demonstrate the need for the kind of protective measures that have been recently proposed.
 
 The practice of consent solicitations also indicates that the terms of public debt can be renegotiated more easily than has been assumed in the academic literature. This has important implications for models of optimal security design that may not have incorporated the ability to modify the covenants of public debt after issuance.
 
-# Appendix A
+## Appendix A
 
-# List of Issuers
+### List of Issuers
 
-Alleco
+## Appendix B
 
-Ambassador General
-
-American Medical International
-
-Andrews Group/Compact Video
-
-Astrex
-
-Bally Manufacturing
-
-Beatrice
-
-Best Products
-
-Borg-Warner
-
-BT Acquisition
-
-Bucyrus-Erie
-
-Cain Chemical
-
-Catalyst Energy
-
-Charter Medical
-
-Circus Circus
-
-Color Tile
-
-Container Corp. of North America
-
-Continental Cablevision
-
-Cooper Companies
-
-Days Inns of America
-
-Dr Pepper/Seven Up
-
-E-II Holdings
-
-E. F. Hutton Group
-
-Farley
-
-Fiber Industries
-
-Foodmaker
-
-Forstmann
-
-GAF
-
-Hammond
-
-Harvard Industries
-
-Holiday
-
-Lamson & Sessions
-
-Lear Petroleum
-
-Levi Strauss Associates
-
-Magma Copper
-
-Memorex Telex International
-
-Nichols (S.E.)
-
-NRM Energy
-
-P&C Food Markets
-
-Pay'n Save/PNS
-
-Peebles
-
-Ramada
-
-Revlon
-
-SCI Holdings
-
-Servico
-
-Sterling Software
-
-Tele-Communications
-
-Texstyrene
-
-Thermadyne Industries
-
-Triangle Industries/Trian Holdings
-
-Triangle Pacific
-
-Union Bancorp
-
-Union Valley
-
-U.S. West
-
-Western Co. of North America
-
-# Appendix B
-
-# Proofs of Propositions 1 and 2
+### Proofs of Propositions 1 and 2
 
 There are  $N + 1$  players with an approval threshold of  $M + 1$ . From the point of view of any player, the strategies of other players can be described by the number who plan to consent,  $Y$ , and the number who plan to withhold consent,  $N - Y$ . Let  $q$  be the probability that a particular player errs, that is, that he does not play his Nash strategy. Let  $\lambda$  be the probability that at least  $M + 1$  of the other  $N$  holders consent. Let  $\theta$  be the probability that exactly  $M$  of the other  $N$  holders consent. Let  $\mu$  be the probability that at most  $M - 1$  of the other  $N$  players consent.
 

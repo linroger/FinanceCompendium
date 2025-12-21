@@ -1,13 +1,20 @@
 ---
+title: Case Study of Bear Stearns
 parent_directory: Class 7-CP, Repo, and the Crisis
-title: Class 7 - Case Study of Bear Stearns
-tags:
-aliases:
-  - Case Study of Bear Stearns
-  - Bear Stearns
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - bear stearns collapse
+  - financial crisis 2008
+  - securitization risks
+  - leverage and liquidity
+secondary_tags:
+  - investment banking failure
+  - repo market crisis
+  - mortgage backed securities
+  - counterparty risk
+  - federal reserve intervention
 cssclasses: academia
 ---
 
@@ -15,13 +22,13 @@ cssclasses: academia
 
 From a forthcoming book:
 
-# Basel III: Proposals for a Better Banking Regime (The Wiley Finance Series) [Hardcover]
+## Basel III: Proposals for a Better Banking Regime (The Wiley Finance Series) [Hardcover]
 
 By Adrian Docherty and Franck Viort (ChicagoBooth MBA)
 
 © Adrian Docherty and Franck Viort
 
-# 4.5 Bear Stearns
+## 4.5 Bear Stearns
 
 Bear Stearns may not have been the largest investment bank on Wall Street, but it was probably one of the most leveraged. The taste for innovation and risk-taking led Bear Stearns to embrace earlier than others the development of securitization and repackaging techniques, which created new opportunities in asset management for investment banks in the post-dotcom era. Bear Stearns was one of the first to identify the potential of securitizing risky mortgages after arranging the first public securitization in 1997 for Community Reinvestment Act Loans (mortgage loans into poor neighborhoods). The expertise built in this field, allowed Bear Stearns to become a major player in the CDO market in the years 2000s. Bear Stearns was present in all the stages of the value chain: it structured, managed and invested in CDOs. Bear Stearns was known for its aggressive trading strategies, but was well respected at the time, even by rating agencies who praised its "relatively conservative risk profile" and "strong management oversight".
 
@@ -33,7 +40,7 @@ Source: Bear Stearns 10K filings 2004
 
 Ironically, it is through its Asset Management that came the losses that would hurt Bear Stearns in March 2008, when the plunge in value of these funds eventually triggered a liquidity squeeze.
 
-# Subprime and high leverage puts Bear Stearns funds under pressure
+## Subprime and high leverage puts Bear Stearns funds under pressure
 
 In the years 2000s, Bear Stearns Asset Management, created in 1985, had become a large player in CDOs via two highly leveraged mortgage hedge funds worth USD 18bn, the High-Grade Structured Credit Strategies Fund (2003) and the High-Grade Structured Credit Strategies
 
@@ -55,7 +62,7 @@ Source: Bear Stearns 10K filings 2007
 
 The return of the two funds started to suffer in 2006 as the housing market started to turn, leading to investors' nervousness.
 
-# Bear Stearns's reputation weakened by the collapse of the funds
+## Bear Stearns's reputation weakened by the collapse of the funds
 
 Given the size of its exposure, compounded by the leverage in the fund, Bear Stearns options to face this confidence crisis were limited. Bear Stearns managers initially tried to sell the most risky securities, but this only depressed the price of what were already illiquid assets, harming the performance of the funds even further. They had no other alternative but to convince investors to remain in the fund.
 
@@ -69,7 +76,7 @@ Performance of High-Grade Structured Credit Strategies Enhanced Leverage Fund
 
 <table><tr><td>29/06/2007</td><td>0</td></tr><tr><td>01/06/2007</td><td>308.17</td></tr><tr><td>04/05/2007</td><td>945.32</td></tr><tr><td>30/03/2007</td><td>1011.8</td></tr><tr><td>02/03/2007</td><td>1069.67</td></tr><tr><td>02/02/2007</td><td>1070.52</td></tr><tr><td>29/12/2006</td><td>1063.4</td></tr><tr><td>01/12/2006</td><td>1044.39</td></tr><tr><td>03/11/2006</td><td>1027.44</td></tr><tr><td>29/09/2006</td><td>1016.16</td></tr><tr><td>01/09/2006</td><td>1006.5</td></tr><tr><td>04/08/2006</td><td>1000</td></tr></table>
 
-# Deteriorating asset quality threatens access to liquidity
+## Deteriorating asset quality threatens access to liquidity
 
 What the collapse of Bear Stearns' funds revealed to the market was the highly uncertain value of otherwise deemed "safe" securities and the huge vulnerability of the financial system in a declining scenario:
 
@@ -82,7 +89,7 @@ As shown on the chart below, concerns on the quality of the assets (1) has count
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/a76fbc7c-933c-486a-9a10-f073c199b654/3beca8b85986c5f3c4562b0282452b5c4ddf7ec97daa5fdb81c8bdaa18f365c2.jpg)
 
-# Contagion hits Bear Stearns itself
+## Contagion hits Bear Stearns itself
 
 Beyond the specific case of Bear Stearns, all the dealers in securities lending started to revise their assumption on the value of assets lent to them or used as collateral, leading to systemic consequences on the repo market. Volume continued to drop, as all lenders became more restrictive collateral criteria, asking either for more or even accepting only US Treasuries.
 
@@ -90,18 +97,18 @@ Naturally, after Bear Stearns reported a USD 1.9bn write-down in November 2007, 
 
 An increasingly difficult access to liquidity and perceived weakness also began to hurt the prime brokerage business, another important pillar of the business, with the direct effect of reducing assets under management from USD160bn in April 2007 to USD90bn in January 2008. At this point, with limited scope to reduce risk and secure access to funding, the future of Bear Stearns seemed bleak.
 
-# The collapse and Fed rescue
+## The collapse and Fed rescue
 
 Moody's downgrading of 15 mortgage-backed securities issued by Bear Stearns Alt-A Trust on  $10^{\text{th}}$  March 2008 triggered another liquidity squeeze. Rumors on Bear Stearns' ability to settle its own trades sent the stock further down. Investor fear and loss of confidence had entered into spiral:
 
 - withdrawals of funds (USD 5bn moved in 1 day by a hedge fund)  
-- – reassignment of swaps with Bear Stearns to other banks  
+- reassignment of swaps with Bear Stearns to other banks  
 - cancellation of banking lines (USD500mn pulled by a single bank on March  $11^{th}$ )
 
 At this point, Bear Stearns was starting to run out of cash and the Fed, conscious of the damages for other securities firms that a collapse of Bear Stearns would create responded through an extraordinary lending of USD 200bn, the Term Securities Lending Facility designed to give breathing space to the repo market and restore confidence. Bear Stearns with only USD 2bn of liquidity left on  $13^{\text{th}}$  March received a USD 12.9bn lifeline form the Fed through JP Morgan the next day. JP Morgan ended buying Bear Stearns for USD 10 per share and as part of the transaction, USD 29.97bn worth of Bear Stearns troubled assets were transferred into a vehicle called Maiden Lane LLC owned by the Fed, to which JP Morgan had extended USD 1.15bn of subordinated debt.
 
 The fall of Bear Stearns not only directly put into question the weaknesses and risk behind the investment banking model as it developed in the 2000s, but also increased the fragility of the financial system when repo market shuts and counterparty risk rises. Pressure on liquidity can start a vicious circle when asset liquidations exacerbates their valuations and increases the losses.
 
-# Lessons to be drawn from this case study:
+## Lessons to be drawn from this case study:
 
 Bear Stearns operated a fairly undiversified business model, which became lethal to it when the housing market turned. The high level of risk in its balance sheet made any strategic turns and risk reduction difficult to implement. Instead, the management hoped to rebuild confidence by claiming its confidence in the operations. Stuck between a rock and hard place, Bear Stearns only chance of preserving its reputation as a market counterparty was to rescue its funds, but as markets were deteriorating, it revealed the weaknesses of its own business model. Bear Stearns became the victim of its own expansion into CDOs and securities lending, which had been at the source of its success in the years 2000s.

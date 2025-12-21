@@ -1,3 +1,29 @@
+---
+title: "The Term Structure of Interest Rates"
+parent_directory: Part 4 - Fixed-Income Securities
+formatted: 2025-12-21 12:40:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - term structure models
+   - yield curve dynamics
+   - interest rate expectations
+   - spot rate derivation
+   - forward interest rates
+secondary_tags:
+   - bond pricing
+   - arbitrage free pricing
+   - holding period returns
+   - short rate models
+   - term structure theory
+   - yield curve shapes
+   - interest rate risk
+   - forward rate agreements
+   - zero coupon bonds
+   - treasury securities
+cssclasses: academia
+---
+
 # The Term Structure of Interest Rates
 
 IN CHAPTER 14 we assumed for the sake of simplicity that the same interest rate is appropriate to discount cash flows of any maturity. In reality, however, this is rarely the case. For example, Figure 14.1 showed that in mid-2021, short-term Treasury bonds and notes carried yields to maturity around $.4\%$, while the longest-term bonds offered yields of about $1.9\%$. At the time that these bond prices were quoted, anyway, the longer-term securities had higher yields. This, in fact, is a typical pattern, but as we shall see below, the relationship between time to maturity and yield to maturity can vary dramatically from one period to another. In this chapter, we explore the pattern of interest rates for different-term assets. We attempt to identify the factors that account for that pattern and determine what information may be gleaned from an analysis of the so-called term structure of interest rates, the structure of interest rates for discounting cash flows of different maturities.
@@ -42,12 +68,12 @@ What if it weren't? Then there would be easy profits to be made. For example, if
 
 To value each cash flow, we simply look up its appropriate discount rate in the stripped Treasury market. Because each coupon payment matures at a different time, we discount by using the yield appropriate to its particular maturity—this is the yield on a Treasury strip maturing at the time of that cash flow. We can illustrate with an example.
 
-# Example 15.1 Valuing Coupon Bonds
+### Example 15.1 Valuing Coupon Bonds
 
 Suppose the yields on stripped Treasuries are as given in Table 15.1, and we wish to value a  $10\%$  coupon bond with a maturity of three years. For simplicity, assume the bond makes its payments annually. Then the first cash flow, the  $\$ 100$ coupon paid at the end of the first year, is discounted at  $5\%$ ; the second cash flow, the  $\$ 100$ coupon at the end of the second year, is discounted for two years at  $6\%$ ; and the final cash flow consisting of the final coupon plus par value, or  $\$ 1,100$ , is discounted for three years at  $7\%$ . The value of the coupon bond is therefore
 
 $$
-\frac {1 0 0}{1 . 0 5} + \frac {1 0 0}{1 . 0 6 ^ {2}} + \frac {1 , 1 0 0}{1 . 0 7 ^ {3}} = 9 5. 2 3 8 + 8 9. 0 0 0 + 8 9 7. 9 2 8 = \$ 1, 0 8 2. 1 7
+\frac{100}{1.05} + \frac{100}{1.06^{2}} + \frac{1,100}{1.07^{3}} = 95.238 + 89.000 + 897.928 = \$1,082.17
 $$
 
 Calculate the yield to maturity of the coupon bond in Example 15.1, and you may be surprised. It is  $6.88\%$ ; so while the bond's maturity matches that of the 3-year zero in Table 15.1, its yield is a bit lower. This reflects the fact that the 3-year coupon bond may usefully be thought of as a portfolio of three implicit zero-coupon bonds, one corresponding to each cash flow. The yield on the coupon bond therefore reflects the yields on each of the three components of the "portfolio." Think about what this means: If their coupon rates differ, bonds of the same maturity generally will not have the same yield to maturity.
@@ -56,17 +82,17 @@ What then do we mean by "the" yield curve? In fact, in practice, traders refer t
 
 Treasuries. In contrast, the on-the-run yield curve refers to the plot of yield as a function of maturity for recently issued coupon bonds selling at or near par value. As we've just seen, these curves may differ significantly. The yield curves published in the financial press, like those, in Figure 15.1, are typically on-the-run curves. On-the-run Treasuries have the greatest liquidity, so traders have keen interest in their yield curve.
 
-# Concept Check 15.1
+### Concept Check 15.1
 
 Using the data in Table 15.1, calculate the price and yield to maturity of a 3-year bond with a coupon rate of  $4\%$  making annual coupon payments. Does its yield match that of either the 3-year zero or the  $10\%$  coupon bond considered in Example 15.1? Why is the yield spread between the  $4\%$  bond and the zero smaller than the yield spread between the  $10\%$  bond and the zero?
 
-# 15.2 The Yield Curve and Future Interest Rates
+## 15.2 The Yield Curve and Future Interest Rates
 
 We've told you what the yield curve is, but we haven't yet had much to say about where it comes from. For example, why is the curve sometimes upward-sloping and other times downward-sloping? How do expectations for the evolution of interest rates affect the shape of today's yield curve?
 
 These questions do not have simple answers, so we will begin with an admittedly idealized framework, and then extend the discussion to more realistic settings. To start, consider a world with no uncertainty, specifically, one in which all investors already know the path of future interest rates.
 
-# The Yield Curve under Certainty
+### The Yield Curve under Certainty
 
 If interest rates are certain, what should we make of the fact that the yield on the 2-year zero coupon bond in Table 15.1 is greater than that on the 1-year zero? It can't be that one bond is expected to provide a higher rate of return than the other. This would not be possible in a certain world—with no risk, all bonds (in fact, all securities!) must offer identical returns, or investors will bid up the price of the high-return bond until its rate of return is no longer superior to that of other bonds.
 
@@ -81,7 +107,7 @@ $$
 $$
 
 $$
-\$ 8 9 0 \times 1. 0 6 ^ {2} = \$ 8 9 0 \times 1. 0 5 \times (1 + r _ {2})
+\$890 \times 1.06^{2} = \$890 \times 1.05 \times (1 + r_{2})
 $$
 
 We find next year's interest rate by solving  $1 + r_{2} = 1.06^{2} / 1.05 = 1.0701$ , or  $r_2 = 7.01\%$ . So while the 1-year bond offers a lower yield to maturity than the 2-year bond (5\% versus 6\%), we see that it has a compensating advantage: It allows you to roll over your funds into another short-term bond next year when rates will be higher. Next year's interest rate is higher than today's by just enough to make rolling over 1-year bonds equally attractive as investing in the 2-year bond.

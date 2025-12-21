@@ -1,30 +1,19 @@
 ---
-parent_directory:
 title: "Moody's Bank Loan Ratings: Pricing Implications and Approach"
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+parent_directory: "III. Liquidity of Assets/Class 7-CP, Repo, and the Crisis"
+primary_tags:
+  - moody's ratings
+  - bank loan pricing
+  - credit risk assessment
+  - loan market convergence
+secondary_tags:
+  - syndicated loan ratings
+  - expected loss approach
+  - risk adjusted pricing
+  - institutional investors
+  - collateralized loan obligations
 cssclasses: academia
-linter-yaml-title-alias: "Moody's Bank Loan Ratings: Pricing Implications and Approach"
 ---
-
-Contact
-
-Phone
-
-New York
-
-Joel Lustig
-
-(212) 553-1653
-
-Catherine L. Guinée
-
-Michael Dommermuth
-
-M. Douglas Watson, Jr.
 
 # Moody's Bank Loan Ratings: Pricing Implications and Approach
 
@@ -59,9 +48,7 @@ Chart 1: Convergence: A Blurring of Distinctions
 
 There are many contributors to convergence, but some of the key drivers are: (a) a concern on the part of regulators and others that loans may be mispriced, thereby weakening the U.S. banking system and contributing to disintermediation of the banks to the securities markets*; (b) a strong desire on the part of the commercial banks to mitigate risk through active portfolio management techniques; and (c) a generalized relaxation of Glass-Steagall.
 
-In deciding how Moody's could best serve the needs of the marketplace during this time of change, we spoke with a number of market participants. The consensus view expressed to us was that they wanted a more efficient market. They wanted the ability to identify pricing anomalies between the loan and securities markets. Once identified, they wanted the ability to exploit these anomalies. That
-
-meant that they also needed a more liquid market. They generally embraced the notion of convergence, believing that deeper participation in the market would be helpful in promoting market liquidity. What is more, they felt that overlapping participation between the securities and loan markets on the part of institutional investors was inevitable, as well as beneficial. They also wanted a more stable environment. By that, they meant that they wanted to raise the level of transparency as to the risk elements contained in credit facilities, and they wanted a framework for discussion of these risk elements. To be fair, not everyone in the banking community shares these views. Strong divisions of opinion exist not only between banks but within banks. Moody's believes that these divisions are to be expected for a market that is changing so dramatically.
+In deciding how Moody's could best serve the needs of the marketplace during this time of change, we spoke with a number of market participants. The consensus view expressed to us was that they wanted a more efficient market. They wanted the ability to identify pricing anomalies between the loan and securities markets. Once identified, they wanted the ability to exploit these anomalies. That meant that they also needed a more liquid market. They generally embraced the notion of convergence, believing that deeper participation in the market would be helpful in promoting market liquidity. What is more, they felt that overlapping participation between the securities and loan markets on the part of institutional investors was inevitable, as well as beneficial. They also wanted a more stable environment. By that, they meant that they wanted to raise the level of transparency as to the risk elements contained in credit facilities, and they wanted a framework for discussion of these risk elements. To be fair, not everyone in the banking community shares these views. Strong divisions of opinion exist not only between banks but within banks. Moody's believes that these divisions are to be expected for a market that is changing so dramatically.
 
 # The Role of Ratings
 
@@ -126,9 +113,7 @@ Graph 3: Bank Loan vs. Subordinated Bond Ratings of the Same Company
 
 A more accurate means of pricing is on a same rating (same risk) basis. Instead of grouping all companies whose bonds are rated Ba2, for example, it is more accurate to quote pricing based upon all facilities that are rated Ba2.
 
-Using this new approach to loan pricing, Graph 4 shows drawn LIBOR spreads for facilities Moody's has rated compared to historical expected loss experience over an 18 month duration. As the
-
-graphs show, drawn LIBOR spreads exceed expected loss experience for facilities rated Baa3 to Ba3. It is not clear why expected losses exceed drawn LIBOR spreads for lower-rated facilities, although there are at least two possible explanations. First, it is possible that the results are a statistical aberration due to small sample size. There are only about 20 facilities that Moody's rates B2, for example. Some market participants, however, suggest that there is an implicit glass ceiling to LIBOR spreads, above which bankers are reluctant to go. If this hypothesis is in fact correct, it would suggest that participants in B1 and B2 rated bank loans are being inadequately compensated for risk.
+Using this new approach to loan pricing, Graph 4 shows drawn LIBOR spreads for facilities Moody's has rated compared to historical expected loss experience over an 18 month duration. As the graphs show, drawn LIBOR spreads exceed expected loss experience for facilities rated Baa3 to Ba3. It is not clear why expected losses exceed drawn LIBOR spreads for lower-rated facilities, although there are at least two possible explanations. First, it is possible that the results are a statistical aberration due to small sample size. There are only about 20 facilities that Moody's rates B2, for example. Some market participants, however, suggest that there is an implicit glass ceiling to LIBOR spreads, above which bankers are reluctant to go. If this hypothesis is in fact correct, it would suggest that participants in B1 and B2 rated bank loans are being inadequately compensated for risk.
 
 Of course, this comparison of LIBOR spreads and expected loss assumes that loans have, on average, an 18 month duration. Cumulative expected losses are higher for longer durations. What is more, this comparison assumes that all loans have an equal propensity to prepay. This is, of course, not the case. It is more accurate to say that loans of more creditworthy borrowers are more likely to be prepaid than is true of less creditworthy borrowers or the loans that are more likely to experience default. This logic suggests that longer durations should be used in comparing drawn LIBOR spreads to expected loss.
 

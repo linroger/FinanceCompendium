@@ -2,7 +2,7 @@
 aliases:
   - Subject Index
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
-formatted: 2025-12-21 12:30:00 PM
+formatted: 2025-12-21 12:40:00 PM
 formatter_model: obsidian-formatting-agent
 cli_tool: claude-code
 primary_tags:
@@ -1103,27 +1103,23 @@ Equity funds, 105
 Equity premium puzzle behavioral explanations of, 435
 
 
-consumption-based asset pricing and, 429-435 expected vs. realized returns, 431-432
+consumption-based asset pricing and, 429-435; expected vs. realized returns, 431-432
 
-
-extensions to CAPM, 433-434 liquidity and, 434
-
+extensions to CAPM, 433-434; liquidity and, 434
 
 survivorship bias, 432-433
 
 Equity securities, 44-47 asset allocation with, 211-216
 
 
-characteristics of, 45 common stock as ownership shares, 44-45
+characteristics of, 45; common stock as ownership shares, 44-45
+
+depository receipts, 47; description of, 4
 
 
-depository receipts, 47 description of, 4
+developed countries, 868-869; emerging markets, 869
 
-
-developed countries, 868-869 emerging markets, 869
-
-
-global markets for, 867-871 home-country bias, 870-871
+global markets for, 867-871; home-country bias, 870-871
 
 
 preferred stock, 46-47 stock market listings, 45-46
@@ -1133,17 +1129,15 @@ Equity trusts, 103
 
 Equity valuation models aggregate stock market, 615-616
 
-
-by comparables, 583-585 comparison of models, 613-614
-
-
-discounted cash flow, problem with, 614-615 dividend discount models, 587-600, 609
+by comparables, 583-585; comparison of models, 613-614
 
 
-free cash flow valuation approaches, 611-615 intrinsic value vs. market price, 585-587
+discounted cash flow, problem with, 614-615; dividend discount models, 587-600, 609
+
+free cash flow valuation approaches, 611-615; intrinsic value vs. market price, 585-587
 
 
-limitations of book value, 584-585 price-earnings ratio, 601-610
+limitations of book value, 584-585; price-earnings ratio, 601-610
 
 
 Equivalent taxable yield, 41
@@ -1154,7 +1148,7 @@ ESTER (Euro short-term rate), 36
 
 Ethics
 
-CFA standards of professional conduct, 91 corporate, 9-10
+CFA standards of professional conduct, 91; corporate, 9-10
 
 
 Euribor (European interbank offer rate), 35
@@ -1167,7 +1161,7 @@ European interbank offer rate (Euribor), 35
 
 European options, 676
 
-Europe,Australasia, Far East (EAFE) index,886
+Europe, Australasia, Far East (EAFE) index, 886
 
 Euro short-term rate (ESTER), 36
 
@@ -1662,7 +1656,7 @@ basis risk and hedging, 776-777 cash vs. actual delivery, 772-773
 clearinghouse, 769-770 commodity futures pricing, 813-817
 
 
-convergence property, 771-772 currencyfutures,792
+convergence property, 771-772 currency futures, 792
 
 
 description of, 763 exchange rate risk, 871-882
@@ -1759,7 +1753,7 @@ home-country bias, 870-871 market capitalization and GDP, 869-870
 
 stock market return (2018), 552
 
-U.S.dollarvs.major currencies,553
+U.S. dollar vs. major currencies, 553
 
 Global funds, 105
 
@@ -1835,7 +1829,7 @@ Hedge ratio calculation of, 805
 call option value and, 739 definition of, 738
 
 
-dynamichedging,730,742 example of, 740
+dynamic hedging, 730, 742 example of, 740
 
 
 formula, 797
@@ -1846,7 +1840,7 @@ Hedging, 318 basis risk and, 776-777
 cross-hedging, 806 description of, 791
 
 
-dynamichedging,730,742 exchange rate risk and, 874
+dynamic hedging, 730, 742 exchange rate risk and, 874
 
 
 futures markets, 773-776 hedged put portfolio, 747
@@ -1879,7 +1873,7 @@ High-yield bonds, 4. See also Junk bonds
 Historic returns on risky portfolios, 147-157 excess monthly returns, market index and style portfolios, 150-152
 
 
-globalviewof,154-155 major asset classes
+global view of, 154-155 major asset classes
 
 
 (1927-2021), 150
@@ -1917,7 +1911,7 @@ cash flows in mortgage passthrough security, 22 conforming mortgages, 22
 
 securitization, 22
 
-Hurdlerate,293,927
+Hurdle rate, 293, 927
 
 # I
 
@@ -1994,7 +1988,7 @@ Individual assets, 292 arbitrage pricing theory and, 324-325
 Individual investors, 962-965 assumption of risk, 975-976
 
 
-banks, 964-9645 description of, 962-963
+banks, 964-965 description of, 962-963
 
 
 endowment funds, 964 investment in residence, 975
@@ -2125,7 +2119,7 @@ Intangibles, 657
 
 Intercommodity spread, 777n
 
-Interestburden,648
+Interest burden, 648
 
 Interest-burden ratio, 640
 
@@ -2196,7 +2190,7 @@ benchmark portfolio of foreign assets, 885-886 correlation matrix, 878
 correlation structure among securities, 878 developed countries, 868-869
 
 
-efficientfrontierandCAL,880 emerging markets, 869
+efficient frontier and CAL, 880 emerging markets, 869
 
 
 exchange rate risk and, 871-882 global equity markets, 867-871
@@ -2228,7 +2222,7 @@ International investing benchmark portfolio of foreign assets, 885-886
 cash/bond selection, 888 country selection, 888
 
 
-currencyselection,887
+currency selection, 887
 
 Excel application, 887 exchange rate risk, 871-882
 
@@ -2245,7 +2239,7 @@ International portfolio performance attribution, 885-889 benchmark of foreign as
 cash/bond selection, 888 country selection, 888
 
 
-currencyselection,887 efficientfrontier(Excel),887
+currency selection, 887 efficient frontier (Excel), 887
 
 
 stock selection, 888
@@ -2325,7 +2319,7 @@ Investment opportunity set, 178
 Investment performance international investments, 885-889
 
 
-mutual funds, 115-116 time-weighted vs.dollar-weighted return,828-829
+mutual funds, 115-116 time-weighted vs. dollar-weighted return, 828-829
 
 
 Investmentpolicies,104-106 asset allocation and flexible funds, 105
@@ -2387,7 +2381,7 @@ regulations of, 967 tax considerations, 967
 
 unique needs, 967-968
 
-Investor objectives, 962-965 banks, 964-9645
+Investor objectives, 962-965 banks, 964-965
 
 
 description of, 962-963 endowment funds, 964
@@ -3249,7 +3243,7 @@ Performance attribution procedures, 850-855 asset allocation decisions, 851-852
 cash/bond selection, 888 component contributions, 854
 
 
-country selection, 888 currencyselection,887
+country selection, 888 currency selection, 887
 
 
 Excel application for, 853, 887 international investing and, 885-889

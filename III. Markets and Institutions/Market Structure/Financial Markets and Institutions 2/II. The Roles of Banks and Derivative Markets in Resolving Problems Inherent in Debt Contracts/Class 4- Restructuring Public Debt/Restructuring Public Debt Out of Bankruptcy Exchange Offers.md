@@ -1,13 +1,24 @@
 ---
-parent_directory:
-title: "Class Note 6: Restructuring public debt out of bankruptcy: Exchange Offers Includes Note 6A: Coercive exchange offers and exit consents at the end"
-tags:
-aliases:
-parent_folder: Class 4- Restructuring Public Debt
-subfolder:
-key_concepts:
+title: "Restructuring Public Debt Out of Bankruptcy Exchange Offers"
+parent_directory: "Class 4- Restructuring Public Debt"
+formatted: "2025-12-21 04:40:00 AM"
+formatter_model: "obsidian-formatting-agent"
+cli-tool: "claude-code"
+primary_tags:
+   - debt restructuring
+   - exchange offers
+   - bankruptcy reorganization
+   - coercive restructuring
+   - exit consents
+secondary_tags:
+   - public debt restructuring
+   - bond exchange offers
+   - trust indenture act
+   - creditor coordination
+   - senior junior securities
+   - holdout problems
+   - consent solicitation
 cssclasses: academia
-linter-yaml-title-alias: "Class Note 6: Restructuring public debt out of bankruptcy: Exchange Offers Includes Note 6A: Coercive exchange offers and exit consents at the end"
 ---
 
 # Class Note 6: Restructuring public debt out of bankruptcy: Exchange Offers Includes Note 6A: Coercive exchange offers and exit consents at the end
@@ -16,7 +27,7 @@ The primary way that borrowers and banks try to get concessions from the public 
 
 Because the public consists of many small holders, each holder may assume that he is so small that his decision to tender his bond for exchange will not influence the outcome of the exchange offer. As a result, each decides by comparing the value of the new security with the value of the old security that is expected to prevail after the exchange offer. This evaluation of the future value is made by making a forecast of how much of the issue will be exchanged by other holders.
 
-# Example 3: Public exchanges for junior securities tend to fail.
+**Example 3: Public exchanges for junior securities tend to fail.**
 
 Keep everything from example 1: going concern value of  $\mathrm{V}_{\mathrm{GO}} = 1$ , bankruptcy value of  $\mathrm{L} = .4$ . The Bank is owed  $\mathrm{B} = .3$  and the Public is owed  $\mathrm{P} = 1.6$ . The public is junior and long-term. If the public does not make a concession, we saw in example 1 that the bank will force bankruptcy, and the public will then get  $\mathrm{L} - \mathrm{B} = .4 - .3 = .1$ . Suppose that the public is offered the chance to exchange for a bond with face  $\mathrm{P}' = 1$ , and the bank agrees not to force bankruptcy if the exchange succeeds. Suppose that the offer succeeds if 99% of the bonds are exchanged. Let "f" denote the fraction of the total bond issue that you expect to be exchanged by other holders.
 
@@ -46,7 +57,7 @@ Exchange offers for junior securities with lower face value will always fail if 
 
 If, instead, the bonds you exchange for are equal in priority to the original bonds, the same arguments apply. If the offer succeeds, or if it does not, you are better off with an equal priority claim of higher promised payment (which you get by holding out and not tendering), because when there is equal priority the payment is proportional to the amount promised. You would only tender for a junior security if you though that your bond would tip the balance between the bank forcing bankruptcy and not forcing bankruptcy.
 
-# Example 4: Public exchanges for Senior securities are more successful, if allowed.
+**Example 4: Public exchanges for Senior securities are more successful, if allowed.**
 
 Keep everything from the last example, except let the bonds with face  $\mathrm{P}^{\prime} = 1$  offered to the public in exchange for their bonds with face  $\mathrm{P} = 1.6$  be senior to the original 1.6 bonds. This means that if you exchange for the new bond, you will be paid prior to those who hold out. This added priority is not relevant when the firm is worth 0 (all bonds are worthless) or when the firm is worth 2 (both the bonds
 
@@ -62,7 +73,7 @@ When the new security offered in exchange is senior to the old, there is a lower
 
 Now consider what happens when the offer is expected to fail (less than  $98\%$  of the bonds are tendered:  $\mathbf{f} < .98$ ). If the exchange offer is expected to fail (leading to bankruptcy), you will want to exchange. The reason follows. If you exchange you divide L-B  $(= .4 - .3 = .1)$  with the others who exchange (a positive number). For example, if others representing less than  $9\%$  exchange, and you exchange too (a total of  $10\%$  or less exchange), then those who exchange are paid in full (because those who exchange and are senior are owed less than .1). You get  $1\%$  of  $1 = .01$  if you exchange. If you hold out, those who exchange get paid first, and you divide L-B- $\mathrm{fP}' = .1 - \mathrm{f}$ , among the other holdouts (unless  $\mathrm{f} > .1$  and this is a negative number, and holdouts get nothing). The other holdouts represent a fraction 1-f of the bond issue, and you represent a fraction .01. If you hold out, you then get a fraction .01/(1-f) of L-B- $\mathrm{fP}' = .1 - \mathrm{f}$ . If  $\mathrm{f} = 0$ , this is exactly .001 (1% of .1), and it is less than .001 for all greater values of f. Therefore, you will exchange. If you expect that f will exceed .1, you get nothing if you hold out, and something positive if you exchange. For all values of f, you are better off exchanging.
 
-# Note 5A:
+## Note 5A:
 
 Coercive exchange offers and exit consents.
 

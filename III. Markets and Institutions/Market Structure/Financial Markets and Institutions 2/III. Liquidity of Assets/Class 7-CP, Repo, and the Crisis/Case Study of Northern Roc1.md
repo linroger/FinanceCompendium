@@ -1,13 +1,18 @@
 ---
-parent_directory:
-title: Case Study of Northern Rock
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: "Case Study of Northern Rock"
+parent_directory: "III. Liquidity of Assets/Class 7-CP, Repo, and the Crisis"
+primary_tags:
+  - northern rock case study
+  - bank run analysis
+  - securitization risk
+  - liquidity crisis
+secondary_tags:
+  - wholesale funding model
+  - mortgage securitization
+  - financial stability
+  - regulatory supervision
+  - deposit insurance
 cssclasses: academia
-linter-yaml-title-alias: Case Study of Northern Rock
 ---
 
 # Case Study of Northern Rock

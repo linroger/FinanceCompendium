@@ -1,20 +1,28 @@
 ---
-parent_directory: Class 7-CP, Repo, and the Crisis
 title: "Class 7 - Asset-Backed Commercial Paper: Understanding The Risks"
-tags:
-aliases:
-  - Asset-Backed Commercial Paper
-  - ABCP
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+   - asset backed commercial paper
+   - credit risk analysis
+   - liquidity risk management
+   - structured finance programs
+secondary_tags:
+   - multiseller conduits
+   - credit enhancement facilities
+   - bankruptcy remoteness
+   - receivables financing
+   - moody's rating methodology
+   - trade receivables securitization
+   - dilution risk analysis
 cssclasses: academia
-linter-yaml-title-alias: "Class 7 - Asset-Backed Commercial Paper: Understanding The Risks"
 ---
 
 # Asset-Backed Commercial Paper: Understanding The Risks
 
-# AUTHOR:
+## AUTHOR:
 
 Mark H. Adelson
 
@@ -22,7 +30,7 @@ Managing Director
 
 (212) 553-4454
 
-# CONTACTS:
+## CONTACTS:
 
 Noel Kirnon
 
@@ -36,23 +44,22 @@ Investor Relations
 
 (212) 553-7941
 
-# CONTENTS
+### CONTENTS
 
-Introduction  
-Why ABCP Programs Developed  
-The Basic Types of ABCP Programs  
-
-- Operations and Legal Relationships in a Typical Multiseller ABCP Program  
-- The Issuer Seller Relationship  
-- Analysis of Credit Risk in a Typical Partially Supported ABCP Program  
-- Variations on the Basic Theme  
-Conclusion  
-- Appendix 1  
+- Introduction
+- Why ABCP Programs Developed
+- The Basic Types of ABCP Programs
+- Operations and Legal Relationships in a Typical Multiseller ABCP Program
+- The Issuer Seller Relationship
+- Analysis of Credit Risk in a Typical Partially Supported ABCP Program
+- Variations on the Basic Theme
+- Conclusion
+- Appendix 1
 - Appendix 2
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/9aad00cb-8a4c-4c3e-8d54-2c0231485f6a/348ccca7fc4031352f649daa24933054ed1ef6134ee5f3f43984d1dba9b7f0df.jpg)
 
-# EXECUTIVE SUMMARY
+## EXECUTIVE SUMMARY
 
 Asset-backed commercial paper (ABCP) programs provide a valuable, flexible alternative for companies seeking short-term financing. ABCP programs first appeared in the early 1980s and have grown since then to constitute a significant segment of the entire commercial paper market. An ABCP program is essentially a limited purpose finance company. Many of the largest ABCP programs were established by major commercial banks as a means of providing trade receivables financing services to their customers. Other ABCP programs were established by banks and certain retailers as a means of financing their credit-card portfolios. Still other ABCP programs have been established with a view toward specializing in financing other types of receivables, such as equipment leases.
 
@@ -84,18 +91,33 @@ The rating of a partially supported ABCP program depends on the performance of t
 
 Moody's presently rates nearly all ABCP programs and publishes special reports when appropriate. Investors are invited to call Moody's with any questions concerning ABCP.
 
-# INTRODUCTION
+## INTRODUCTION
 
 The term commercial paper is used to describe virtually any high-quality, negotiable note having an original maturity of not more than 270 days. Traditional commercial paper has been present in the U.S. capital markets since the 1800s and over the past century has become an increasingly important financing alternative for companies, municipalities and foreign governments.<sup>1</sup> Traditional commercial paper provides issuers with direct access to investors, and certain commercial paper has the additional advantage of being exempt from the registration requirements of the U.S. securities laws.<sup>2</sup> Nevertheless, commercial paper was not widely known or understood until a series of credit crunches in the 1960s led to an explosive growth in issuance.
 
 The explosive growth in commercial paper issuance has not been confined to the U.S. capital markets. Indeed, in the past decade, the U.S. market's share of global commercial paper outstanding has actually begun to decline, despite the fact that the total commercial paper
 
-Commercial Paper Markets, 1986-1991  
- (U.S. $, billions)  
+Commercial Paper Markets, 1986-1991
+(U.S. $, billions)
 
-<table><tr><td></td><td>1986</td><td>19911</td><td>CAGR2(%)</td></tr><tr><td>United States</td><td>$326</td><td>$527</td><td>10.1</td></tr><tr><td>Japan</td><td>-</td><td>82</td><td>-</td></tr><tr><td>France</td><td>4</td><td>53</td><td>67.7</td></tr><tr><td>Canada</td><td>12</td><td>28</td><td>18.5</td></tr><tr><td>Sweden</td><td>4</td><td>23</td><td>41.9</td></tr><tr><td>Australia</td><td>4</td><td>13</td><td>26.6</td></tr><tr><td>United Kingdom</td><td>1</td><td>9</td><td>55.2</td></tr><tr><td>Spain</td><td>3</td><td>10</td><td>27.2</td></tr><tr><td>Finland</td><td>-</td><td>7</td><td>-</td></tr><tr><td>Germany</td><td>-</td><td>5</td><td>-</td></tr><tr><td>Netherlands</td><td>-</td><td>2</td><td>-</td></tr><tr><td>Total National Markets</td><td>354</td><td>759</td><td>16.4</td></tr><tr><td>Eurocommercial Paper</td><td>14</td><td>80</td><td>41.7</td></tr><tr><td>Total CP</td><td>$368</td><td>$839</td><td>17.9</td></tr></table>
+|  | 1986 | 1991 | CAGR (%) |
+|---|---|---|---|
+| United States | $326 | $527 | 10.1 |
+| Japan | - | 82 | - |
+| France | 4 | 53 | 67.7 |
+| Canada | 12 | 28 | 18.5 |
+| Sweden | 4 | 23 | 41.9 |
+| Australia | 4 | 13 | 26.6 |
+| United Kingdom | 1 | 9 | 55.2 |
+| Spain | 3 | 10 | 27.2 |
+| Finland | - | 7 | - |
+| Germany | - | 5 | - |
+| Netherlands | - | 2 | - |
+| Total National Markets | 354 | 759 | 16.4 |
+| Eurocommercial Paper | 14 | 80 | 41.7 |
+| Total CP | $368 | $839 | 17.9 |
 
-1 Sources: Bank for International Settlements, national authorities, Euroclear, and Moody's estimates.  
+1 Sources: Bank for International Settlements, national authorities, Euroclear, and Moody's estimates.
 2 Compound annual growth rate.
 
 outstanding in the U.S. market continued to grow significantly throughout the period. In fact, the amount of commercial paper outstanding in non-U.S. markets grew more than thirty-fold in the 1980s.<sup>3</sup>
@@ -117,9 +139,9 @@ Moody's analysis of an ABCP program focuses on the ability of the Issuer to make
 
 timely payments on maturing ABCP by using funds derived from sources available to the Issuer other than the sale of new ABCP.
 
-Since its introduction in the early 1980s, the ABCP market has grown rapidly to the point where total ABCP outstanding by year-end 1992 was roughly  \$50 billion-\$ 60 billion and total authorized program capacity was over \$100 billion.
+Since its introduction in the early 1980s, the ABCP market has grown rapidly to the point where total ABCP outstanding by year-end 1992 was roughly $50 billion-$60 billion and total authorized program capacity was over $100 billion.
 
-# WHY ABCP PROGRAMS DEVELOPED
+## WHY ABCP PROGRAMS DEVELOPED
 
 The emergence of ABCP programs is primarily attributable to competitive and regulatory factors affecting the banking industry.
 
@@ -135,13 +157,9 @@ Other factors, relating primarily to Sellers rather than to Sponsors, have also 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/9aad00cb-8a4c-4c3e-8d54-2c0231485f6a/7c2ae67eddfcb5a4fc082210aaa08d9c468ed839b6091f057c1e0f669820149d.jpg)
 
-# Moody's Short Term Debt Ratings
+## Moody's Short Term Debt Ratings
 
-Moody's short-term debt ratings are opinions of the ability of issuers to repay punctually senior debt obligations that have an original maturity not exceeding one year. Obligations relying upon support mechanisms such as letters-of-credit and bonds of indemnity are excluded unless explicitly rated.
-
-Moody's employs the following three designations, all judged to be investment grade, to indicate the relative repayment ability of rated issuers:
-
-# Prime-1
+### Prime-1
 
 Issuers rated Prime-1 (or supporting institutions) have a superior ability for repayment of senior short-term debt obligations. Prime-1 repayment ability will often be evidenced by many of the following characteristics:
 
@@ -151,19 +169,19 @@ High rates of return on funds employed.
 - Broad margins in earnings coverage of fixed financial charges and high internal cash generation.  
 - Well-established access to a range of financial markets and assured sources of alternate liquidity.
 
-# Prime-2
+### Prime-2
 
 Issuers rated Prime-2 (or supporting institutions) have a strong ability for repayment of senior short-term debt obligations. This will normally be evidenced by many of the characteristics cited above but to a lesser degree. Earnings trends and coverage ratios, while sound, may be more subject to variation. Capitalization characteristics, while still appropriate, may be more affected by external conditions. Ample alternate liquidity is maintained.
 
-# Prime-3
+### Prime-3
 
 Issuers rated Prime-3 (or supporting institutions) have an acceptable ability for repayment of senior short-term obligations. The effect of industry characteristics and market compositions may be more pronounced. Variability in earnings and profitability may result in changes in the level of debt protection measurements and may require relatively high financial leverage. Adequate alternate liquidity is maintained.
 
-# Not Prime
+### Not Prime
 
 Issuers rated Not Prime do not fall within any of the Prime rating categories.
 
-# THE BASIC TYPES OF ABCP PROGRAMS
+## THE BASIC TYPES OF ABCP PROGRAMS
 
 There are several approaches that can be used in classifying ABCP programs. One focuses on the number of Sellers served by a program. A common form of ABCP program is one that acquires receivables from numerous Sellers and that is sponsored by a large commercial bank. Such a program is referred to here as a bank-sponsored, multiseller ABCP program. In contrast, other ABCP programs are created and administered by a single Seller as a means of financing its own receivables portfolio. Such a program is referred to as a single-seller ABCP program.
 
@@ -173,7 +191,7 @@ Fully supported programs can be divided into two types. In the first type, the A
 
 The following discussion focuses on distinguishing characteristics of fully and partially supported programs and introduces the various kinds of risks Moody's analyzes in ABCP programs.
 
-# Direct Fully Supported ABCP Programs
+### Direct Fully Supported ABCP Programs
 
 The earliest ABCP programs included a support facility that directly and fully ensured the full and timely payment of maturing ABCP. In such a program, the support facility often consists of a letter of credit issued by a highly rated bank (the Support Provider), which, in effect, directly guarantees the ABCP. Holders of ABCP issued under such an arrangement have the right to seek payment directly from the Support Provider if the Issuer fails to fully retire ABCP at its maturity.
 
@@ -183,7 +201,7 @@ The fact that the Support Provider bears both the credit risk and the liquidity 
 
 The concepts of credit risk and liquidity risk are fundamental to an understanding of ABCP programs. To reiterate, credit risk is the risk that the receivables will suffer losses and ultimately not be fully collectible. In contrast, liquidity risk is merely the risk that collections on receivables will not be received quickly enough to provide funds for the payment of maturing ABCP. An analysis of liquidity risk must start with the assumption that new ABCP cannot be issued to provide funds for the repayment of maturing ABCP. If it is assumed that ABCP can always be "rolled over," then there is no liquidity risk. However, an assumption that ABCP can always be rolled over is not consistent with a Prime-1 rating in light of the many factors that might trigger a disruption in the commercial paper markets in general or in the markets for ABCP in particular. Moody's analysis of an ABCP program encompasses the credit risk, the liquidity risk, and other factors discussed below.
 
-# Indirect Fully Supported ABCP Programs
+### Indirect Fully Supported ABCP Programs
 
 The first variation on the original form of ABCP program altered the support facility so that the Support Provider fully ensured the timely payment of maturing ABCP but only on an indirect basis. In such a program, the Support Provider does not directly guarantee maturing ABCP, and holders of maturing ABCP do not have direct recourse to the Support Provider. Instead, the Support Provider agrees either (1) to purchase receivables from the Issuer for a price sufficient to permit the Issuer to repay maturing  $\mathsf{ABCP}^6$  or (2) to make secured loans to the Issuer in an amount sufficient to permit the Issuer to repay maturing ABCP. The Support Provider's obligation to purchase receivables or to make loans secured by the receivables is not dependent on the value of the receivables. Regardless of the value of the receivables, the Support Provider will always pay par on a purchase or lend at  $100\%$  of the face amount of the receivables pledged as collateral. Because the amount of receivables included in the program should always equal or exceed the outstanding amount of ABCP, the coverage furnished by the Support Provider's commitment should always equal or exceed the amount of ABCP outstanding.[7]
 
@@ -195,7 +213,7 @@ Support Provider to obtain payment. $^{8}$  Of course, Moody's analyzes the stru
 
 <table><tr><td colspan="4">Idealized Allocation of Risks in Different Types of ABCP Programs</td></tr><tr><td>Program type→Risks↓</td><td>Direct fully supported</td><td>Indirect fully supported</td><td>Partially supported</td></tr><tr><td>Credit risk</td><td rowspan="3">Support facility</td><td rowspan="2">Support facility</td><td>Credit enhancement facility</td></tr><tr><td>Liquidity risk</td><td>Liquidity facility</td></tr><tr><td>Structural risk</td><td>Program structure and support facility</td><td>Program structure and credit enhancement facility</td></tr></table>
 
-# Partially Supported ABCP Programs
+### Partially Supported ABCP Programs
 
 The rise of bank risk-based capital standards around the world in the past several years has imposed significant costs on Support Providers in fully supported ABCP programs. Risk-based capital standards have required Support Providers to maintain capital for the entire face amount of ABCP outstanding under certain ABCP programs because the support facility has been viewed as a "direct credit substitute" and not merely as a loan commitment. Naturally, Support Providers sought to pass their increased costs over to Sponsors, and, together, Sponsors and Support Providers created partially supported ABCP programs intended to achieve more advantageous treatment under the risk-based capital standards (and correspondingly more advantageous funding costs for Sellers). The primary distinguishing feature of a partially supported ABCP program is that investors bear a portion of the credit risk; the supporting facilities are not intended to fully insulate investors from the credit risk associated with the receivables. That is, investors must rely, to some degree, on the performance of the receivables in which the Issuer has acquired an interest. However, if a partially supported ABCP program has been assigned a rating of Prime-1, the magnitude of the credit risk borne by investors should be extremely small and consistent with that rating.
 
@@ -217,7 +235,7 @@ The allocation of risks between a credit enhancement facility and its companion 
 
 In general, for a partially supported ABCP program to receive a Prime-1 rating, both the credit enhancement facility and the liquidity facility must provide a Prime-1 level of protection. In the simplest case, the credit enhancement facility providers (each, a Credit Enhancement Provider) and the liquidity facility providers (each, a Liquidity Provider) all have Prime-1 ratings. However, when large syndicates of providers act collectively and provide relatively high levels of coverage (e.g., more than  $100\%$  of the total ABCP outstanding under the program), an overall Prime-1 level of protection theoretically may be achieved even if some of the Credit Enhancement Providers or Liquidity Providers have ratings lower than Prime-1.
 
-# The Credit Enhancement Facility
+#### The Credit Enhancement Facility
 
 The role of the credit enhancement facility in a partially supported ABCP program is to be the last line of defense protecting investors from losses or delays in payment. Before the credit enhancement facility is used, other measures should have been exhausted in attempting to prevent a loss or delay. For example, with respect to the credit risk of receivables, an Issuer will frequently
 
@@ -233,7 +251,7 @@ Generally, the size of the credit enhancement facility is  $10\%$  to  $15\%$  o
 
 10 In some existing ABCP programs, the credit enhancement facility is not available for liquidity purposes.
 
-# The Liquidity Facility
+#### The Liquidity Facility
 
 In contrast to the credit enhancement facility, the liquidity facility is generally relatively large in size but is subject to significant restrictions concerning its availability and use. For example, in certain partially supported ABCP programs, the size of the liquidity facility equals the difference of the total program size minus the size of the credit enhancement facility. Accordingly, if the size of the credit enhancement facility is  $10\%$  of the program size, the size of the liquidity facility might be  $90\%$  of the program size. The most common approach is to provide total liquidity coverage equal to the size of the program. If the credit enhancement facility is available to cover liquidity risk, the separate liquidity facility need only cover the portion of liquidity risk not covered by the credit enhancement facility.[11]
 
@@ -283,7 +301,7 @@ After a Liquidity Provider makes an advance against given receivables, the Liqui
 
 In nearly all ABCP programs, the liquidity facility covers risks associated with cash collected but not remitted. That expression refers to collections received by a Seller (in its role as servicer of receivables) which have not been transferred by the Seller to the Issuer. A delay in the transfer of collections can occur in the ordinary course of business because Sellers may not transmit cash to the Issuer on a daily basis. A delay also can occur upon the bankruptcy of a Seller, in which case collections in the possession of the Seller might be subject to the Bankruptcy Code's automatic stay.[14]
 
-# Structural Risk: Bankruptcy-Remoteness
+## Structural Risk: Bankruptcy-Remoteness
 
 In indirectly supported ABCP programs and partially supported ABCP programs, Moody's analyzes the structural risk to determine that it is consistent with the rating assigned to the Issuer. The key structural risk is that an Issuer will become entangled in a bankruptcy proceeding. Ideally, the Issuer's affairs should be arranged so that the Issuer neither (1) will be drawn into another entity's bankruptcy proceeding (under the theory of substantive consolidation) nor (2) will become the subject of its own bankruptcy proceeding.
 
@@ -314,13 +332,13 @@ In all cases, Moody's considers the risk of potential unforeseen liabilities and
 
 As a further protection against the risk of an involuntary bankruptcy proceeding, it is highly desirable for all entities that enter into contracts with the Issuer to make "nonpetition covenants" in which they agree not to commence (or join in commencing) an involuntary bankruptcy proceeding against the Issuer. However, there remains some doubt concerning whether a nonpetition covenant would survive the bankruptcy of the maker of the covenant – that is, a bankruptcy trustee of the covenant maker arguably might not be bound by the nonpetition covenant. If reliance is placed solely on nonpetition covenants, the strength of the Issuer's bankruptcy-remoteness may be linked to the financial condition or credit strength of each maker of a nonpetition covenant. Accordingly, nonpetition covenants generally should not be the primary means for addressing the risk of involuntary bankruptcy.[19]
 
-# Sellers' Preferential Transfers
+## Sellers' Preferential Transfers
 
 Another aspect of the structural risk present in an indirect fully supported program or a partially supported program is the possibility that a trustee in bankruptcy of a bankrupt Seller might have a preference claim against the Issuer and, therefore, might be able to force the Issuer into bankruptcy. For example, in some cases, the Seller-Issuer relationship is essentially that of debtor to creditor, with the Issuer making loans to the Seller secured by the Seller's receivables portfolio. If the Seller goes into bankruptcy shortly after repayment of the loan and if the value of the collateral is determined (after the fact) to have been less than the amount of the loan, the Seller's trustee in bankruptcy may be able to assert that a portion of the repayment of the loan by the Seller constitutes a voidable preferential transfer by the Seller.[20] The Issuer then may be liable to the Seller's trustee in bankruptcy for the amount of the voidable preferential transfer. If the Issuer lacks the funds to satisfy that liability (and assuming the support facility is not available to pay miscellaneous liabilities), the Seller's trustee in bankruptcy might be able attack the Issuer and impair the Issuer's bankruptcy-remoteness.
 
 An ABCP program must address the risk of a Seller's trustee in bankruptcy claiming that a past payment by the Seller constitutes a voidable preferential transfer. One way is for the Issuer to use collections on other receivables to pay the Seller's trustee in bankruptcy the amount of the voidable preferential transfer and to treat the resulting claim against the Seller's bankruptcy estate as a new receivable that can be sold to the Support Provider (in an indirect fully supported program) or the Liquidity Provider (in a partially supported program).[21] Under such an approach, the structural risk is effectively shifted to the Support or Liquidity Provider, in all cases except for those in which the claim by a Seller's trustee in bankruptcy exceeds the total amount of the Support or Liquidity Provider's commitment to purchase (or make loans against) receivables.
 
-# OPERATIONS AND LEGAL RELATIONSHIPS IN A TYPICAL MULTISELLER ABCP PROGRAM
+## OPERATIONS AND LEGAL RELATIONSHIPS IN A TYPICAL MULTISELLER ABCP PROGRAM
 
 The dramatis personae of a bank-sponsored, multiseller ABCP program includes many players. The two main entities involved in an ABCP program are the Issuer and its Sponsor. However, as noted above, those two entities often are not affiliated – the Issuer may be established as a so-called orphan subsidiary.[22]
 
@@ -341,7 +359,7 @@ In addition to an Issuer, a Sponsor, and a commercial paper dealer, an ABCP prog
 22 In some programs, the Issuer is a subsidiary of a trust, the beneficiaries of which are either directors and officers of an unaffiliated commercial paper dealer or members of the directors' and officers' families.  
 23 If the Sponsor has an affiliated commercial paper dealer, that entity may serve as a second commercial paper dealer for the program.
 
-# THE ISSUER-SELLER RELATIONSHIP
+## THE ISSUER-SELLER RELATIONSHIP
 
 In addition to the participants described above, every ABCP program has Sellers. Most Sellers are customers of the Sponsor, but Sellers may also be referred by Credit Enhancement or Liquidity Providers for the program. The Issuer either purchases receivables from a Seller according to a receivables purchase agreement or extends loans (secured by the Seller's receivables) to a Seller according to a receivables financing agreement. Because Sellers have differing needs (and because of competition among Sponsors), receivables purchase agreements and receivables financing agreements can vary substantially from one Seller to another in the same ABCP program. However, virtually all these agreements employ the concept of "eligible receivables."
 
@@ -363,19 +381,15 @@ As the receivables are paid off by the underlying obligors, the Seller generally
 
 25 For trade receivables, a typical approach is to apply a discount factor equal to the greater of a specified percentage of the receivables balance or a multiple of the historical level of losses (measured by the loss-to-liquidation ratio) on the Seller's receivables over the past six months. 26 The use of recourse in lieu of a discount factor is appropriate only if the Seller has a relatively strong rating.
 
-# ANALYSIS OF CREDIT RISK IN A TYPICAL PARTIALLY SUPPORTED ABCP PROGRAM
+## ANALYSIS OF CREDIT RISK IN A TYPICAL PARTIALLY SUPPORTED ABCP PROGRAM
 
 In a partially supported ABCP program, Moody's analyzes each Seller's credit strength, the relationship between the Seller and the Issuer, and the Seller's receivables. In addition, Moody's analyzes the effect of the possible correlation of risk across Sellers in an ABCP program. Finally, Moody's considers relative Seller size limits, if any, and the program's level of Seller diversification. Based on the results of that analysis, Moody's can assess whether the levels of protection from a proposed credit enhancement facility and a proposed liquidity facility, together with any proposed operational restrictions on the Issuer, are consistent with the desired rating of the Issuer.
 
-# The Seller's Credit Strength and Relationship with the Issuer
+### The Seller's Credit Strength and Relationship with the Issuer
 
-The Seller's credit strength is important because it is unlikely that the Issuer will suffer any losses relating to the Seller's receivables as long as the Seller remains solvent. Even when a discount factor is used as the method of Seller-level credit enhancement, the Issuer customarily has recourse to the Seller for losses attributable to dilution.[27] In addition, the solvency of the Seller may determine whether the Issuer has access to a continually replenished revolving pool of receivables or merely to a static liquidating pool of receivables.
+#### Revolving Pool
 
-# Revolving Pool
-
-In many instances, the Issuer acquires an interest in all present and future receivables of the Seller. Therefore, even if a particular batch of receivables experiences losses in excess of the discount factor, the Issuer ultimately can recover the entire amount advanced from the Seller's future receivables; that is, the Issuer has access to a continually replenished revolving pool of receivables.
-
-# Liquidating Pool
+#### Liquidating Pool
 
 On the other hand, if the Seller becomes insolvent, the opportunity for recoveries from future receivables may be eliminated. That could occur if the Seller ceases its operations in connection with its insolvency or if it ceases transferring receivables to the Issuer. Also, the Seller-Issuer relationship might not give the Issuer an interest in all the Seller's future receivables in the event that the Seller voluntarily withdraws from the program. In each such case, the Issuer would have access only to a liquidating pool of receivables.
 
@@ -413,7 +427,7 @@ The solvency of the Seller may also have a significant effect on the expected pa
 
 If a Seller is rated by Moody's, the Seller's rating is used for the determination of the probability of the Seller's bankruptcy or insolvency. If a Seller is not rated, it is treated as having a low noninvestment-grade $^{32}$  rating unless substantial evidence indicates that a higher rating level is more appropriate.
 
-# Credit Quality of a Seller's Receivables
+### Credit Quality of a Seller's Receivables
 
 The analysis of a Seller's receivables uses the Seller's historical loss experience on its receivables portfolio as a basis for estimating future losses. That approach requires explaining why losses occur. One obvious reason is that an underlying obligor (i.e., a Seller's customer liable for payment on a receivable) may become insolvent or otherwise unable to fulfill its payment obligation. However, obligor insolvencies are only one reason for losses on receivables. With regard to trade receivables, other factors, such as returns of sold goods, disputes, offsets, credits, rebates and warranty claims, can significantly dilute the value of outstanding receivables. The nature, degree, and effect of both obligor credit quality and dilution can vary markedly across industries and even across Sellers within a particular industry. Also, fluctuations in the value of underlying collateral can affect the level of losses on longer-term, secured receivables.
 
@@ -427,7 +441,7 @@ To protect against a deterioration in the credit quality of an individual Seller
 
 Moody's approach to rating a partially supported ABCP program is to focus primarily on the Sellers and on the obligors to which the Issuer has the greatest risk exposure. Indeed, with regard to any particular Seller, the receivables of which constitute only a small amount compared to the size of the program's credit enhancement facility, an abbreviated analysis may be all that is necessary. If the credit enhancement facility is sufficiently large, the negative impact that such a Seller could have on the program would be minimal. On the other hand, if an ABCP program is just starting up and has only a small number of Sellers, or if the credit enhancement facility is sized near the minimum level necessary to achieve the desired rating, every Seller must be closely and thoroughly scrutinized.
 
-# Trade Receivables
+#### Trade Receivables
 
 Trade receivables arise from transactions between business entities. They are distinguishable from consumer receivables in that the underlying obligor is a business rather than a consumer. In general, the term trade receivables encompasses only those business-to-business receivables that are due and payable in less than one year. A typical Seller's portfolio of trade receivables has an average life and a turnover period of 30 to 60 days.
 
@@ -510,7 +524,7 @@ $BA =$  the outstanding balance of the Seller's receivables portfolio
 
 $TU =$  the turnover interval for the receivables, expressed in days.
 
-# Longer-Term Receivables
+#### Longer-Term Receivables
 
 Moody's analysis of longer-term obligations (term receivables) differs significantly from its analysis of short-term trade receivables. A trade receivable is either collected within a short period or it reveals any problems that reasonably would draw into question its ultimate collectibility. In contrast, a term receivable may stay current, and thereby conceal increasing risk, even though the underlying obligor is suffering a gradual but continuous deterioration in its financial condition.
 
@@ -535,11 +549,11 @@ In other cases, a Sponsor facing the prospect of a downgrade of its ABCP Issuer 
 
 Moody's views the ratings of ABCP Issuers that finance novel types of term receivables as being inherently more susceptible to downgrade risk than the ratings of Issuers that finance only trade receivables or the types of term receivables that have previously been included in many securitization transactions.
 
-# Consumer Receivables
+#### Consumer Receivables
 
 Apart from several major ABCP programs established specifically to finance credit card receivables, ABCP programs generally do not include a significant amount of consumer receivables. To the extent that an Issuer accepts transfers of consumer receivables, those receivables are analyzed in the same way as they would be for traditional long-term mortgageand asset-backed securitization structures. Common types of consumer receivables include conventional first-lien residential mortgage loans, closed-end second-lien mortgage loans, auto loans, recreational vehicle loans, boat loans, revolving home equity loans, and revolving credit card accounts. Moody's has developed approaches for analyzing the various common types of consumer receivables. For further information on Moody's approach to analyzing consumer receivables, please refer to previously published Moody's Special Reports.[44]
 
-# Health Care Receivables
+#### Health Care Receivables
 
 Health care receivables arise when a doctor or a hospital provides a patient with health care services. The bill for the services rendered may be payable entirely by the patient, entirely by some form of insurance, or partially by the patient and partially by insurance. The insured portion of a health care receivable may be payable by a government program, such as Medicare, Medicaid, or CHAMPUS; a Blue Cross/Blue Shield insurance company, or another private insurance company. Moody's has received a variety of proposals for partially supported ABCP programs intended solely to finance health care receivables constituting the insured portion of medical bills.
 
@@ -563,7 +577,7 @@ Set-Offs Asserted by an Insurer against the Health Care Provider: Medicare and M
 
 Health care receivables also present further issues, such as the requirement of direct payment under Medicare to health care providers. A consequence of the direct payment requirement is that Medicare payments paid to a bankrupt Seller might be trapped by the Bankruptcy Code's automatic stay.
 
-# Program Termination Triggers
+## Program Termination Triggers
 
 Beyond the analysis of the credit strength of each Seller and the credit quality of each Seller's portfolio, Moody's approach to analyzing an ABCP program includes an evaluation of structural safeguards intended to protect the program as a whole from deterioration of credit quality over time. Because the credit enhancement facility in a partially supported ABCP program covers credit losses on receivables up to a limited amount, it is customary for such programs to include a feature that will cause the program to wind down in an orderly fashion after a specified portion of the total credit enhancement facility has been used. Typically, the trigger level is set at roughly  $20\%$  to  $50\%$  of the total amount of the credit enhancement facility. Investors should note that by the time losses on the receivables underlying an ABCP program have reached the applicable trigger level, the rating of the Issuer may have already been lowered from its original level.
 
@@ -575,7 +589,7 @@ Another common type of program termination trigger is the loss of the Issuer's P
 
 Other program termination triggers are commonly included in ABCP programs. Some of those triggers are intended to protect investors from events that could compromise the bankruptcy-remoteness of the Issuer; others may address the risk of deteriorating operations or administration.
 
-# Additional Factors Affecting the Rating Analysis
+## Additional Factors Affecting the Rating Analysis
 
 Certain ABCP programs can achieve relatively lower levels of total credit enhancement or liquidity enhancement by placing operating restrictions on the Issuer. For example, the program documents may limit the Issuer to acquiring interests in receivables only from Sellers that have investment-grade ratings (i.e., Baa3 or higher).
 
@@ -583,7 +597,7 @@ Alternatively, a program might limit the types of receivables in which the Issue
 
 The skill and experience of the Sponsor are also important factors in the rating analysis. The Sponsor of an ABCP program should be able to demonstrate that it can (1) reasonably evaluate its customers' (i.e., the Seller's) ability and willingness to perform on their obligations and (2) effectively manage the operations of the program. In addition, the Sponsor should be able to demonstrate that it has the systems and operational capacity to adhere to any timing constraints and clearance and settlement procedures required for the operation of the program.
 
-# Assessing Overall Program Risk
+## Assessing Overall Program Risk
 
 Assessing the overall credit risk of an ABCP program entails combining the evaluations of each Seller and each Seller's receivables. Moody's uses a Monte Carlo simulation technique. The simulation process generally indicates the need for relatively high levels of credit enhancement for ABCP programs that are not well diversified. This reflects Moody's view that a high concentration of risk in any single Seller, obligor, or industry, can be a negative factor. In other words, Moody's views diversification of risk across many Seller, obligors, and industries as contributing significantly toward reducing the level of credit enhancement required to achieve a Prime-1 rating.
 
@@ -631,11 +645,11 @@ Notwithstanding the extensive use of traditional statistics, modeling and simula
 
 Therefore, the preceding discussion simply highlights the major elements considered by Moody's in the rating process, and it is necessarily limited to general aspects of existing programs. For most features of most programs, the rating process emphasizes the issues and relies on the approaches described. However, any transaction can present special or unique issues that defy quantification and that cannot be addressed through reliance on precedent. In those circumstances, the analysis can proceed only through the informed judgment of the analyst and the rating committee.
 
-# VARIATIONS ON THE BASIC THEM
+## VARIATIONS ON THE BASIC THEM
 
 Although the types of ABCP programs discussed above are the most useful for illustrative purposes, they are not the only forms of ABCP programs. Two other forms of ABCP programs merit separate discussion: single-seller ABCP programs and unsupported ABCP programs.
 
-# Single-Seller ABCP Programs
+### Single-Seller ABCP Programs
 
 As the term implies, a single-seller ABCP program is one that is created to finance the receivables of a single Seller. In a multiseller ABCP program the risk of a single Seller's deterioration or bankruptcy may be addressed primarily through diversification; a single seller ABCP program must use other means to address the possibility of the Seller's deterioration or bankruptcy.
 
@@ -649,7 +663,7 @@ In a single-seller program, it is also important to consider the effects of seas
 
 In other aspects, the analysis of a single-seller ABCP program is generally similar to that of a multiseller program. Any new ABCP program intended ultimately to be a diversified multiseller program may go through a phase in which it has only one participating Seller. The appropriate analysis then reverts to the single-seller approach.
 
-# Unsupported ABCP Programs
+### Unsupported ABCP Programs
 
 An unsupported ABCP program is one with neither a credit enhancement facility nor a liquidity facility. Under Moody's published standards, an ABCP Issuer can receive a Prime-1 rating with neither a credit enhancement facility nor a liquidity facility if (1) the Issuer's assets consist of loans to ten or fewer borrowers, each of which is rated Prime-1 and (2) the Issuer's liabilities consist of ABCP that is maturity-matched to the loans.[46] This rating standard follows from the fundamental meaning of Moody's short-term ratings: a short-term rating is an expression only of the probability of a default, not an indication of the expected severity of any such default. Although the default probability corresponding to the Prime-1 rating classification is extremely small, it is not zero. When assessing a portfolio of Prime-1-rated obligations, one naturally would perceive an overall reduction in risk as the holdings in the portfolio become increasingly diversified. In other words, diversification is generally viewed as reducing overall risk by limiting the relative severity of portfolio losses resulting from a single default. However, as a portfolio
 
@@ -677,7 +691,7 @@ $$
 
 If  $n$  is very large, the Poisson distribution may serve as an appropriate probability model and simplifies calculations. However, if  $n$  is small, occurrences of defaults arguably should not be viewed as an approximation of Bernoulli trials. In that case, the technically more correct approach would be to view occurrences of defaults as a process of sampling without replacement and, accordingly, the hypergeometric distribution would be the more appropriate probability model.
 
-# CONCLUSION
+## CONCLUSION
 
 ABCP programs provide a valuable and flexible alternative for companies seeking short-term financing. The dominant forms of ABCP programs now in existence are single-seller programs and bank-sponsored, multiseller programs. Either type of ABCP program can be structured to be either fully or partially supported. However, regulatory and accounting policies are driving programs increasingly toward the partially supported mode of operation.
 
@@ -691,11 +705,19 @@ The rating of a partially supported ABCP program depends on multiple factors, in
 
 A Prime-1 rating on a ABCP issuer expresses Moody's opinion that it is highly probable that investors will receive full and timely payment on the ABCP. Moody's plans to continue its present practice of rating nearly all ABCP issuers and of publishing special reports when appropriate. Investors are invited to call Moody's with any questions concerning ABCP.
 
-# APPENDIX I
+## APPENDIX I
 
 Consider a hypothetical Seller called Acme Company that begins business operations on January 2, 1992. Assume that Acme has sales of \(100 each month starting in January 1992. Collections with respect to each month's sales are received according to the following pattern:
 
-<table><tr><td>Month of sale</td><td>\$20.00</td></tr><tr><td>First month following sale</td><td>45.00</td></tr><tr><td>Second month following sale</td><td>15.00</td></tr><tr><td>Third month following sale</td><td>10.00</td></tr><tr><td>Fourth month following sale</td><td>5.00</td></tr><tr><td>Fifth month following sale</td><td>2.50</td></tr><tr><td>Sixth month following sale</td><td>1.00</td></tr><tr><td>TOTAL</td><td>\$98.50</td></tr></table>
+| Month of sale | $20.00 |
+|---|---|
+| First month following sale | 45.00 |
+| Second month following sale | 15.00 |
+| Third month following sale | 10.00 |
+| Fourth month following sale | 5.00 |
+| Fifth month following sale | 2.50 |
+| Sixth month following sale | 1.00 |
+| TOTAL | $98.50 |
 
 Acme employs a writeoff policy that calls for writing off any receivable that has aged beyond 180 days. Therefore, because Acme collects only  \$98.50 through the end of the sixth month following each month of sales, Acme ultimately will write off\$ 1.50 with respect to each month of sales in the sixth following month (e.g., in July 1992 Acme writes off \$1.50 for the sales made in January 1992).
 
@@ -709,7 +731,7 @@ To consider the case of the CP Issuer's recovery from a liquidating pool, assume
 
 48 The CP Issuer's discounting approach calls for applying a discount equal to the greater of  $5\%$  or three times the loss-to-liquidation ratio. The loss to liquidation ratio is approximately  $1.52\%$ . The discount used is  $5\%$  because  $5\% > 3x1.52\%$ .
 
-Now suppose that following Acme's bankruptcy on January 2, 1993, the level of writeoffs on the outstanding receivables doubles, so that in each month from January 1993 through June 1993, writeoffs increase to \(3.00 from \)1.50, and collections are reduced by \(1.50 per month (also assume that collections slow down so that at least \)3.00 remains outstanding at the end of each month through May 1993). In that event, the loss suffered by the CP Issuer would be \(10.38, consisting of the \)1.38 suffered in the previous scenario and an additional loss of \$1.50 relating to each of the six months from January 1993 through June 1993 (i.e., \)1.38 + 6x \)1.50 = \$10.38). The credit enhancement facility in the CP Issuer's ABCP program would have to be able to absorb a loss of \$10.38 in order to prevent the CP Issuer from defaulting. The effect of doubling writeoffs following the Seller's bankruptcy is to increase more than sevenfold the total losses suffered by the CP Issuer.
+Now suppose that following Acme's bankruptcy on January 2, 1993, the level of writeoffs on the outstanding receivables doubles, so that in each month from January 1993 through June 1993, writeoffs increase to \(3.00 from \)1.50, and collections are reduced by \(1.50 per month (also assume that collections slow down so that at least \)3.00 remains outstanding at the end of each month through May 1993). In that event, the loss suffered by the CP Issuer would be \(10.38, consisting of the \)1.38 suffered in the previous scenario and an additional loss of \$1.50 relating to each of the six months from January 1993 through June 1993 (i.e., \)1.38 + 6x \)1.50 = \$10.38). The credit enhancement facility in the CP Issuer's ABCP program would have to be able to absorb a loss of $10.38 in order to prevent the CP Issuer from defaulting. The effect of doubling writeoffs following the Seller's bankruptcy is to increase more than sevenfold the total losses suffered by the CP Issuer.
 
 ACME Company: Receivables Portfolio  
 

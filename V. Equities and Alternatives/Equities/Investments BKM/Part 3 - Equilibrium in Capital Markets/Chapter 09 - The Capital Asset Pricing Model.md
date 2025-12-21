@@ -516,7 +516,7 @@ These results are important. While we might expect realized alpha values of indi
 
 From the standpoint of the industry, an index portfolio that can be beaten by only a tiny fraction of professional managers over a 10-year period may well be taken as ex-ante efficient for all practical purposes, that is, to be used as (1) a diversification vehicle to mix with an active portfolio from security analysis (discussed in Chapter 8); (2) a benchmark for performance evaluation and compensation (discussed in Chapter 24); (3) a means to adjudicate lawsuits about fair compensation to various risky enterprises; and (4) a means to determine proper prices in regulated industries, allowing shareholders to earn a fair rate of return on their investments, but no more.
 
-# SUMMARY
+## SUMMARY
 
 1. The CAPM assumes that investors are single-period planners who agree on a common input list from security analysis and seek mean-variance optimal portfolios.
 2. The CAPM assumes that security markets are ideal in the sense that:

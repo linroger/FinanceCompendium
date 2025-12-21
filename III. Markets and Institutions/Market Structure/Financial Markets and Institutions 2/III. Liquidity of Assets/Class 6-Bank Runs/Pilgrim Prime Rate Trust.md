@@ -1,15 +1,22 @@
 ---
-parent_directory: Class 6-Bank Runs
 title: Class 6 - Pilgrim Prime Rate Trust
-tags:
-aliases:
-  - Pilgrim Prime Rate Trust
-  - THE FILGRIMGROUP
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+parent_directory: Class 6-Bank Runs
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - prime rate trust
+  - senior loan participations
+  - closed-end funds
+  - floating rate investments
+secondary_tags:
+  - bank loan portfolios
+  - corporate debt securities
+  - investment fund prospectus
+  - tender offers
+  - collateralized loans
+  - leveraged buyouts
 cssclasses: academia
-linter-yaml-title-alias: Class 6 - Pilgrim Prime Rate Trust
 ---
 
 Class Note
@@ -27,6 +34,47 @@ Prospectus
 Pilgrim Prime Rate Trust (the "Trust") is a diversified closed-end management investment company which seeks as high a level of current income as is consistent with the preservation of capital by acquiring, as banks and other financial institutions currently do, interests in senior collateralized corporate loans ("Participation Interests"). Each of these loans will be fully collateralized and will pay interest at a rate which floats primarily with the Prime Rate of a U.S. bank specified in the loan agreement or at the London Inter-Bank Offered Rate.
 
 The shares of the Trust are offered continuously at a price equal to its net asset value which, as of the date of this Prospectus, is \$10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased from the underwriter, which will be paid to Pilgrim Distributors Corp., the principal underwriter of the shares.
+
+```d2
+direction: right
+
+investors: Investors {
+  shape: person
+  label: "Individual & Institutional Investors"
+}
+
+trust: Pilgrim Prime Rate Trust {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+
+  label: "Closed-End Fund\nNet Asset Value: $10/share\nQuarterly Tender Offers"
+}
+
+loans: Senior Corporate Loans {
+  shape: stored_data
+  label: "Portfolio of Senior\nCollateralized Corporate Loans\nFloating Rate (Prime + spread)"
+}
+
+corporations: Corporations {
+  shape: rectangle
+  label: "Borrowing Corporations\n(LBOs, Growth, Acquisitions)"
+}
+
+investors -> trust: "Buy shares at NAV + sales load\nMinimum $5,000 ($2,000 IRA)"
+trust -> loans: "Invests in loan participations\nFully collateralized, senior liens"
+loans -> corporations: "Loan proceeds for business activities"
+corporations -> loans: "Interest payments\n(Prime rate + spread)"
+loans -> trust: "Floating interest income"
+trust -> investors: "Monthly distributions\nQuarterly tender redemption option"
+
+note: "Hybrid structure: Continuous offering like open-end fund, but quarterly redemptions like closed-end fund" {
+  shape: callout
+  near: trust
+}
+```
+
+
 
 If your shares are purchased by the Trust pursuant to a quarterly tender offer, an "Early Withdrawal Charge" will be assessed if you have held your shares for less than one year. The Early Withdrawal Charge does not apply to shares held of record by persons other than the original purchasers from the Trust. The Early Withdrawal Charge plus the sales charge deducted from purchase payments will not exceed  $8\%$  of the original purchase amount (net asset value times the number of shares purchased).
 
@@ -223,9 +271,7 @@ That's pretty much the idea of the seven-month-old fund. Investors get rates tha
 
 It would appear that, by investing in the typical assets of banks, the Pilgrim Prime Rate is a mirror image of money-market funds, which invest in such bank liabilities as CDs and commercial paper. But Pilgrim officials are quick to emphasize that the Prime Rate Trust is totally different from money funds, whose main aim is instant liquidity rather than yield.
 
-The fund's structure is unique and complicated. Unlike other closed-end funds, which offer a set number of shares in an initial underwriting, shares of the Pilgrim Prime Rate Trust are offered on a continuous basis in a manner similar to an open-end fund-at net-asset value, plus a sales load
-
-of  $3 \%$  for purchases under  $\$ 100, - 000$ . But there is no secondary market in the shares, as there is with a typical closedend fund. Nor does Pilgrim redeem shares on a daily basis at NAV, as do openend funds.
+The fund's structure is unique and complicated. Unlike other closed-end funds, which offer a set number of shares in an initial underwriting, shares of the Pilgrim Prime Rate Trust are offered on a continuous basis in a manner similar to an open-end fund-at net-asset value, plus a sales load of  $3 \%$  for purchases under  $\$100,000$ . But there is no secondary market in the shares, as there is with a typical closedend fund. Nor does Pilgrim redeem shares on a daily basis at NAV, as do openend funds.
 
 Pilgrim instead makes quarterly tender offers to provide Prime Rate Trust holders the opportunity to redeem their shares. That gets around problems inherent in both the closedand open-end structures.
 
@@ -235,7 +281,7 @@ Closed-end funds don't suffer withdrawal pangs but tend to succumb to another ma
 
 The Byzantine arrangement so far has worked. The NAV, and hence the price, has held at the initial \$10 per share. The first two tender offers have gone smoothly, with \$364,000 redeemed at the one ended last week and \$296,500 last August. The fund's assets have grown to over \$130 million. Weingarten says they're increasing at a rate of \$2 million-\$3 million a day
 
-and easily could accommodate withdrawals. Interest and amortization also provide cash flow, and the fund can tap a credit line equal to one-third of the funds, she adds. "We could redeem  $50\% - 60\%$  of the trust without selling one loan participation," she insists.
+and easily could accommodate withdrawals. Interest and amortization also provide cash flow, and the fund can tap a credit line equal to one-third of the funds, she adds. "We could redeem  $50\%-60\%$  of the trust without selling one loan participation," she insists.
 
 The Pilgrim Prime Rate Trust clearly has benefited from the rising prime, which has been raised four times since the fund debuted last spring. Its immunity from price fluctuations probably also has attracted investors, including disgruntled holders of government bond funds who have left en masse after discovering that rising interest rates meant lower prices on their "riskless" investment.
 
@@ -323,9 +369,7 @@ of controversy," said a spokeswoman for the Washington organization.
 
 The N.A.S.D. plans to meet with brokers in the next few weeks to determine how these funds are being sold and whether they are explaining the potential pitfalls, the spokeswoman said. Merrill Lynch declined to comment.
 
-The prime-plus mutual funds are among this year's best sellers on Wall Street. In July, an underwriting syndicate raised  \$900 million for the Eaton Vance Prime Rate Reserves Fund, and in the last two months investors have directed\$ 600 million more into the fund. "It's safe to say
-
-that it's our best-selling fund ever," said James B. Hawkes, president of the Boston fund.
+The prime-plus mutual funds are among this year's best sellers on Wall Street. In July, an underwriting syndicate raised  \$900 million for the Eaton Vance Prime Rate Reserves Fund, and in the last two months investors have directed \$600 million more into the fund. "It's safe to say that it's our best-selling fund ever," said James B. Hawkes, president of the Boston fund.
 
 As a result of this reception, Merrill Lynch and Dean Witter Reynolds Inc. have filed prospectuses for similar funds with the Securities and Exchange Commission and hope to offer shares this month. An official at one mutual fund company predicted Wall Street brokers could raise \$5 billion from individuals by the year's end.
 
@@ -359,9 +403,7 @@ The market value of the loan participations is unimportant, she added, because s
 
 Other prime-plus fund managers argued that the market value was probably equal to the loans' par value. They said that if they needed to raise cash they could sell the participations at or near par value to the banks that syndicated the loans.
 
-"I think the market for these loans
-
-is sound," said Dennis J. McDonnell, president of the Van Kampen Merritt Investment Advisory Corporation, which manages the \$185 million Van Kampen Merritt Prime Rate Income Trust Fund. "I think we could get full value for the loans today."
+"I think the market for these loans is sound," said Dennis J. McDonnell, president of the Van Kampen Merritt Investment Advisory Corporation, which manages the \$185 million Van Kampen Merritt Prime Rate Income Trust Fund. "I think we could get full value for the loans today."
 
 That may not be the case if any of these companies runs into trouble, however. According to Barron's, an official at the Manufacturers Hanover Corporation told securities analysts last week that the New York bank would not buy back debt of troubled companies. "We do not buy back pieces of troubled deals," the newspaper quoted Mark Solow, the bank's chief of leveraged buyout transactions, as saying.
 
@@ -381,13 +423,9 @@ Consequently, the price investors pay to buy shares in some of these funds could
 
 Because these closed-end mutual funds invest in short-term floating-rate bank loans, their daily value, like that of a money market fund, is supposed to remain constant. But at some of these prime funds, the net asset values — or the prices investors pay to buy new shares — have begun to fluctuate. The value of the  \$670 million Van Kampen Merritt Prime Rate Income Trust, for instance, has risen slightly above\$ 10 a share because some of its loans have appreciated in value, said Jeffrey W. Maillet, the fund's portfolio manager.
 
-But on occasion the net asset value of the \$1.1 billion Pilgrim Prime Rate Trust has dropped slightly below \$10 for two reasons, a spokesman for
+But on occasion the net asset value of the \$1.1 billion Pilgrim Prime Rate Trust has dropped slightly below \$10 for two reasons, a spokesman for the Pilgrim Group said. Pilgrim executives wrote down a \$5 million loan to the Amdura Corporation in March after the company filed for bankruptcy protection. At the same time, the firm changed its accounting method, but executives would not discuss the reason for the change.
 
-the Pilgrim Group said. Pilgrim executives wrote down a \$5 million loan to the Amdura Corporation in March after the company filed for bankruptcy protection. At the same time, the firm changed its accounting method, but executives would not discuss the reason for the change.
-
-This year, the five prime rate funds have been among the fastest growing of all funds and their investment returns have been the highest of all closed-end bond funds, according to Lipper Analytical Services Inc. For example, after shutting the doors to new business last winter, executives for the \$1.7 billion Eaton
-
-Vance Prime Rate Reserves Fund in Boston reopened the fund to investors on July 31 and promptly raised an additional \$100 million in one week.
+This year, the five prime rate funds have been among the fastest growing of all funds and their investment returns have been the highest of all closed-end bond funds, according to Lipper Analytical Services Inc. For example, after shutting the doors to new business last winter, executives for the \$1.7 billion Eaton Vance Prime Rate Reserves Fund in Boston reopened the fund to investors on July 31 and promptly raised an additional \$100 million in one week.
 
 At the end of July, according to Lipper, the five funds had \$5.5 billion in assets. The current yield was 10 percent for Van Kampen Merritt; 9.98 percent for the Merrill Lynch Prime Fund Inc.;
 
@@ -395,11 +433,7 @@ At the end of July, according to Lipper, the five funds had \$5.5 billion in ass
 
 As the name implies, the goal of these funds is a yield that matches the prime lending rate, the benchmark rate that banks charge their highest-rated customers, currently at 10 percent. But to earn such a high yield after fees and expenses, the fund managers invest in bank loans to many low-rated, heavily indebted companies like Black & Decker, Hospital Corporation of America and Stone Container.
 
-Executives concede that pricing the loans can be a problem. James B. Hawkes, president of the \$1.7 billion Eaton Vance fund, compared the task to
-
-The prices investors pay could be more than some funds' investments are worth.
-
-pricing real estate every day. "The concept of a price today and a price tomorrow is not a helpful concept," he said. "They don't trade every day."
+Executives concede that pricing the loans can be a problem. James B. Hawkes, president of the \$1.7 billion Eaton Vance fund, compared the task to pricing real estate every day. "The concept of a price today and a price tomorrow is not a helpful concept," he said. "They don't trade every day."
 
 Nevertheless, because these funds sell shares daily to the public, the Securities and Exchange Commission has warned them to monitor the pricing of these loans carefully. So the funds have had to improvise. Executives of Van Kampen Merritt, for instance, use the services of a Wall Street firm that trades bank loans to price the 70 loans in their fund. "We wanted an arms-length procedure that is similar to pricing securities," Mr. Maillet said.
 
@@ -409,6 +443,4 @@ Executives at Eaton Vance and Allstate, however, calculate the daily values them
 
 As in any market, of course, changes in supply and demand determine these loan prices. And even in this thinly traded market some loans command a premium while others sell at a discount. These days, some loans made to RJR Nabisco Inc. at the time of the 1989 leveraged buyout are considered "cool" and are less attractively priced than others, Mr. Snyder of the Loan Pricing Corporation said. "Hot" bank loans — those in high demand — include Gulfstream Aerospace, he said.
 
-Because some funds' holdings are substantial, any discrepancies between a loan's market value and the price a fund uses to calculate its net asset value could be significant. For instance, Merrill Lynch has about  \$90 million invested in a short-term loan to Scotsman Manufacturing, which makes commercial prefabricated buildings. And Eaton Vance has\$ 125 million, or about 7 percent of its portfolio, in one of the cool loans to RJR
-
-Because of their unusually strict policy on redemptions, though, it is unlikely that these fund managers will have to liquidate loans at market prices. But the price investors pay to buy new shares in these funds may not be exactly accurate.
+Because some funds' holdings are substantial, any discrepancies between a loan's market value and the price a fund uses to calculate its net asset value could be significant. For instance, Merrill Lynch has about  \$90 million invested in a short-term loan to Scotsman Manufacturing, which makes commercial prefabricated buildings. And Eaton Vance has \$125 million, or about 7 percent of its portfolio, in one of the cool loans to RJR Nabisco. Because of their unusually strict policy on redemptions, though, it is unlikely that these fund managers will have to liquidate loans at market prices. But the price investors pay to buy new shares in these funds may not be exactly accurate.

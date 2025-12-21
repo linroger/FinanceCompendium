@@ -1,13 +1,23 @@
 ---
-parent_directory:
-title: "Banks and Liquidity Creation: A Simple Exposition of the Diamond-Dybvig Model"
-tags:
-aliases:
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+title: Banks and Liquidity Creation: A Simple Exposition of the Diamond-Dybvig Model
+parent_directory: Class 6-Bank Runs
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - diamond dybvig model
+  - bank runs
+  - liquidity creation
+  - deposit insurance
+secondary_tags:
+  - financial intermediation
+  - demand deposits
+  - self-fulfilling prophecies
+  - bank liquidity
+  - financial crises
+  - risk sharing
+  - suspension of convertibility
 cssclasses: academia
-linter-yaml-title-alias: "Banks and Liquidity Creation: A Simple Exposition of the Diamond-Dybvig Model"
 ---
 
 # Banks and Liquidity Creation: A Simple Exposition of the Diamond-Dybvig Model
@@ -16,9 +26,41 @@ Douglas W. Diamond
 
 Banks make loans that cannot be sold quickly at a high price. Banks issue demand deposits that allow depositors to withdraw at any time. This mismatch of liquidity, in which a bank's liabilities are more liquid than its assets, has caused problems for banks when too many depositors attempt to withdraw at once (a situation referred to as a bank run). Banks have followed policies to stop runs, and governments have instituted deposit insurance to prevent runs. Diamond and Dybvig (1983) develop a model to explain why banks choose to issue deposits that are more liquid than their assets and to understand why banks are subject to runs. The model has been widely used to understand bank runs and other types of financial crises, as well as ways to prevent such crises. This article uses narrative and numerical examples to provide a straightforward explanation of the ideas in Diamond and Dybvig (1983).
 
-Diamond and Dybvig (1983) argue that an important function of banks is to create liquidity, that is, to offer deposits that are more liquid than the assets that they hold. Investors who have a demand for liquidity will prefer to invest via a bank, rather than hold assets directly. Before discussing the
+```d2
+direction: right
 
-methods by which banks might create liquidity, it is important to understand why there is a demand for liquidity by consumers or producers. I begin with the consumer demand for liquidity. Investors demand liquidity because they are uncertain about when they need to consume and, thus, how long they wish to hold assets. As a result, they care about the value of liquidating their assets on several possible dates, rather than on a single date.
+investors: Investors {
+  shape: person
+  label: "Investors with uncertain consumption timing"
+}
+
+bank: Bank {
+  shape: hexagon
+  label: "Bank creates liquidity"
+}
+
+illiquid_assets: Illiquid Assets {
+  shape: stored_data
+  label: "Illiquid investments\n(high return, but costly early liquidation)"
+}
+
+liquid_deposits: Liquid Deposits {
+  shape: queue
+  label: "Demand deposits\n(liquid, withdraw anytime)"
+}
+
+investors -> bank: "Deposit funds"
+bank -> illiquid_assets: "Invest in illiquid assets"
+bank -> liquid_deposits: "Issue liquid deposits"
+liquid_deposits -> investors: "Allow withdrawals at any time"
+
+note: "Bank transforms illiquid assets into liquid liabilities" {
+  shape: callout
+  near: bank
+}
+```
+
+Diamond and Dybvig (1983) argue that an important function of banks is to create liquidity, that is, to offer deposits that are more liquid than the assets that they hold. Investors who have a demand for liquidity will prefer to invest via a bank, rather than hold assets directly. Before discussing the methods by which banks might create liquidity, it is important to understand why there is a demand for liquidity by consumers or producers. I begin with the consumer demand for liquidity. Investors demand liquidity because they are uncertain about when they need to consume and, thus, how long they wish to hold assets. As a result, they care about the value of liquidating their assets on several possible dates, rather than on a single date.
 
 Creating deposits that are more liquid than the assets held by banks can be viewed as an insurance arrangement in which depositors share the risk of liquidating an asset early at a loss. This model explains an important function of banks. It also shows that offering these demand deposits subjects the banks to bank runs if too many depositors withdraw.
 
@@ -34,9 +76,7 @@ Consider the following asset on three dates,  $T = 0$ ,  $T = 1$ , and  $T = 2$ 
 
 # The Uncertain Horizon of Investors
 
-Investors face an uncertain horizon to hold the asset. Each will need to consume either at date  $T = 1$  or  $T = 2$ . However, as of date 0, an investor does not know at which date he will need to consume. Each begins with 1 with which to invest on date  $T = 0$ . An investor cannot buy direct insurance against his need for liquidity, because the need is private information and, thus, is not due to some observable event such as a hurricane. However, contracts can be designed that indirectly provide this insurance. Liquid assets that offer a
-
-smaller loss when liquidated early can provide indirect insurance. As a result, for some risks, investors can save and liquidate the liquid assets as needed. I will call an investor a "type 1" if he needs to liquidate at  $T = 1$  and a "type 2" if he can wait until  $T = 2$ . For this example, this means he will consume only at  $T = 1$  if of type 1, and only at  $T = 2$  if of type 2 (or he can store date 1 consumption goods and consume them at date 2).
+Investors face an uncertain horizon to hold the asset. Each will need to consume either at date  $T = 1$  or  $T = 2$ . However, as of date 0, an investor does not know at which date he will need to consume. Each begins with 1 with which to invest on date  $T = 0$ . An investor cannot buy direct insurance against his need for liquidity, because the need is private information and, thus, is not due to some observable event such as a hurricane. However, contracts can be designed that indirectly provide this insurance. Liquid assets that offer a smaller loss when liquidated early can provide indirect insurance. As a result, for some risks, investors can save and liquidate the liquid assets as needed. I will call an investor a "type 1" if he needs to liquidate at  $T = 1$  and a "type 2" if he can wait until  $T = 2$ . For this example, this means he will consume only at  $T = 1$  if of type 1, and only at  $T = 2$  if of type 2 (or he can store date 1 consumption goods and consume them at date 2).
 
 As of date 0, an investor does not know which type he will be, but each investor has a probability  $t$  of being of type 1 and  $1 - t$  of being of type 2. There is no aggregate uncertainty, and there will be a fraction  $t$  of investors of type 1. To be concrete, suppose that  $t = \frac{1}{4}$  and that there are 100 investors. As a result, 25 will be of type 1 and 75 will be of type 2, but it is not known at date 0 which investors will be of each type.
 
@@ -53,13 +93,13 @@ I assume that the investor has the risk-averse utility function of  $U(c) = \fra
 Consider the following two assets, both of which cost 1 at date 0. The illiquid asset has  $(r_1 = 1, r_2 = R)$  and a more liquid asset has  $(r_1 > 1, r_2 < R)$ . Investors have access only to the illiquid asset. Later, I will show how banks can create the more liquid asset, although there is no physical asset with its payoffs, but for now I simply illustrate the demand for liquidity with the following numerical example for the case where the probability of being of type 1 is  $t = \frac{1}{4}$  and the illiquid asset has  $(r_1 = 1, r_2 = R = 2)$ . As a comparison, consider a hypothetical more liquid asset that has  $(r_1 = 1.28, r_2 = 1.813)$ . Section 2 explains why these particular numerical values are used. The expected utility from holding the illiquid asset is
 
 $$
-\frac{1}{4} U (1) + \frac{3}{4} U (2) = 0. 3 7 5.
+\frac{1}{4} U (1) + \frac{3}{4} U (2) = 0.375.
 $$
 
 The expected utility from holding the more liquid asset is
 
 $$
-\frac{1}{4} U (1. 2 8) + \frac{3}{4} U (1. 8 1 3) = 0. 3 9 1 > 0. 3 7 5.
+\frac{1}{4} U (1.28) + \frac{3}{4} U (1.813) = 0.391 > 0.375.
 $$
 
 Each investor prefers the more liquid asset. A risk-averse investor prefers this smoother pattern of returns; holding the illiquid asset is risky because it delivers a low amount when liquidated early, on date 1.
@@ -67,13 +107,13 @@ Each investor prefers the more liquid asset. A risk-averse investor prefers this
 Note that if investors were not risk averse and had constant marginal utility of consumption, they would not prefer this particular liquid asset. That is, if  $U(c) = c$ , then the expected utility of holding any asset is equal to its expected payoff given the policy of liquidating when of type 1. For the illiquid asset, the expected payoff is
 
 $$
-\frac{1}{4} (1) + \frac{3}{4} (2) = 1. 7 5.
+\frac{1}{4} (1) + \frac{3}{4} (2) = 1.75.
 $$
 
 The more liquid asset gives an expected payoff of:
 
 $$
-\frac{1}{4} (1. 2 8) + \frac{3}{4} (1. 8 1 3) = 1. 6 8 <   1. 7 5.
+\frac{1}{4} (1.28) + \frac{3}{4} (1.813) = 1.68 < 1.75.
 $$
 
 The more liquid asset has a lower expected rate of return. Sufficiently risk-averse investors, but not risk-neutral investors, are willing to give up some expected return to get a more liquid asset.
@@ -99,12 +139,12 @@ If the bank receives \$1 from each of the 100 investors, it receives \$100 in de
 At  $T = 1$ , the bank's entire portfolio is worth \$100. Suppose 25 depositors withdraw 1.28 each, then  $25(1.28) = 32$  assets must be liquidated: 32 percent of the portfolio must be liquidated. If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth  $R = 2$  each. On date 2, there remain 75 depositors, each will receive
 
 $$
-\frac{[ 1 0 0 - 3 2 ] 2}{7 5} = \frac{[ 6 8 ] 2}{7 5} = 1. 8 1 3.
+\frac{[100 - 32] \times 2}{75} = \frac{[68] \times 2}{75} = 1.813.
 $$
 
 Depositors prefer the more liquid asset to the illiquid asset. A bank can provide the more liquid deposit which has a smaller loss from early liquidation than is available from holding the illiquid assets directly. This liquidity transformation service is one of the most important functions of banks. If the bank offers the more liquid deposits and invests in the illiquid assets, it can create liquidity. It is an equilibrium (a Nash equilibrium) for 25 depositors to withdraw at  $T = 1$ , because if all depositors expect 25 to withdraw at  $T = 1$ , only type 1 depositors will withdraw because the 75 type 2 depositors prefer the 1.813 available at  $T = 2$  to the 1.28 available at  $T = 1$ .
 
-When assets are illiquid and risk-averse investors do not know when they will need to liquidate, the bank can create a more liquid asset that allows investors to share the risk of liquidation losses. The bank can give a fraction  $t$  of investors  $r_1$  at date 1 and a fraction  $1 - t$  of investors  $r_2 = \frac{[1 - tr_1]R}{1 - t}$  at date 2, because if a fraction  $t$  of the depositors get  $r_1$  in period  $T = 1$ , this will leave a fraction  $[1 - tr_1]$  of the assets unliquidated and in place until date 2. Each of the remaining fraction  $(1 - t)$  of depositors can receive  $r_2 = \frac{[1 - tc_1]R}{1 - t}$  in period 2. Note that for the illiquid asset,  $r_1 = 1$  and  $r_2 = R$ .
+When assets are illiquid and risk-averse investors do not know when they will need to liquidate, the bank can create a more liquid asset that allows investors to share the risk of liquidation losses. The bank can give a fraction  $t$  of investors  $r_1$  at date 1 and a fraction  $1 - t$  of investors  $r_2 = \frac{[1 - tr_1]R}{1 - t}$  at date 2, because if a fraction  $t$  of the depositors get  $r_1$  in period  $T = 1$ , this will leave a fraction  $[1 - tr_1]$  of the assets unliquidated and in place until date 2. Each of the remaining fraction  $(1 - t)$  of depositors can receive  $r_2 = \frac{[1 - tr_1]R}{1 - t}$  in period 2. Note that for the illiquid asset,  $r_1 = 1$  and  $r_2 = R$ .
 
 # The Optimal Amount of Liquidity
 
@@ -120,13 +160,49 @@ Investors holding the assets directly cannot perform as well as the bank. One po
 
 # Bank Runs
 
-Banks can create liquidity by offering deposits that are more liquid than their assets. If only the proper depositors withdraw, it works very well. However, creating this liquidity subjects the bank to bank runs. The bank may have liquidity problems. If a depositor's need for liquidity (the depositor's type) were a verifiable characteristic that could be written into contracts, the contract
-
-could specify that a type 1 be given  $r_1$  at date 1, and a type 2 be given  $r_2$  at date 2. However, on date 1 when each depositor learns his type, this is unverifiable private information. If a bank offers liquid deposits that offer each depositor the opportunity to withdraw  $r_1$  on date 1 or  $r_2$  on date 2, the depositors may select the appropriate withdrawal date for their type. That is, the type 1s take  $r_1$  and the type 2s take  $r_2$ , and if all are expected to do this, each will choose the option that is best for him. It turns out, however, that there are multiple equilibria. That is, there is more than one self-fulfilling prophecy about who withdraws at date 1. There is a good equilibrium in which only the type 1 depositors withdraw and a bad equilibrium (a bank run) in which all withdraw at date 1 because they all expect each other to do the same.
+Banks can create liquidity by offering deposits that are more liquid than their assets. If only the proper depositors withdraw, it works very well. However, creating this liquidity subjects the bank to bank runs. The bank may have liquidity problems. If a depositor's need for liquidity (the depositor's type) were a verifiable characteristic that could be written into contracts, the contract could specify that a type 1 be given  $r_1$  at date 1, and a type 2 be given  $r_2$  at date 2. However, on date 1 when each depositor learns his type, this is unverifiable private information. If a bank offers liquid deposits that offer each depositor the opportunity to withdraw  $r_1$  on date 1 or  $r_2$  on date 2, the depositors may select the appropriate withdrawal date for their type. That is, the type 1s take  $r_1$  and the type 2s take  $r_2$ , and if all are expected to do this, each will choose the option that is best for him. It turns out, however, that there are multiple equilibria. That is, there is more than one self-fulfilling prophecy about who withdraws at date 1. There is a good equilibrium in which only the type 1 depositors withdraw and a bad equilibrium (a bank run) in which all withdraw at date 1 because they all expect each other to do the same.
 
 To see why there are multiple equilibria, consider how much is left to pay depositors who wait until date 2 to withdraw if a fraction  $f$  of initial depositors withdraw at date 1. Because each asset is worth 1 at date 1, a fraction  $fr_{1}$  of the total assets must be liquidated at date 1. This leaves  $r_{2}(f) = \frac{\{1 - [f \times r_{1}]\}R}{1 - f}$  for each of the fraction  $1 - f$  who wait until date 2. In any equilibrium, at least a fraction  $t$  of deposits will be withdrawn, or  $f \geq t$ , because type 1s always withdraw at date 1. The type 2 depositors will choose to withdraw at date 1 as well if  $r_{2}(f) < r_{1}$ . In the example with 100 depositors,  $t = \frac{1}{4}$ , or 25 are of type 1. If just the type 1 depositors withdraw, or  $f = t = \frac{1}{4}$ , and  $r_{1} = 1.28$ , then  $r_{2} = 1.813 > r_{1}$ , and the type 2 depositors will choose to wait until date 2 to withdraw. Depositors must choose simultaneously, before they know the actions of others. Each needs a forecast of  $f$ , denoted by  $\hat{f}$ . Given a borrower's forecast, he chooses whether to withdraw at date 1. A Nash equilibrium is a self-fulfilling prophecy of  $\hat{f} = f$ , and in the good equilibrium,  $f = \hat{f} = t = \frac{1}{4}$ .
 
 However, suppose all depositors forecast that everybody else will withdraw (i.e., 99 depositors, so  $\hat{f} \geq 0.99$ ). Then the bank will fail before  $T = 2$ . If 79 depositors or more are expected to withdraw, then the bank will be worthless at date 2: the bank can be liquidated for at most 100 at  $T = 1$ , and if 79 depositors were to each receive 1.28, at  $T = 1$ , the bank would not have sufficient assets, because  $79 \times 1.28 = 101.12 > 100$ . Note that a prophecy of  $\hat{f} = 0.99$  is not self-fulfilling, because if it is believed by all, then every depositor will withdraw. The self-fulfilling prophecy of a bank run is  $f = \hat{f} = 1$ , where all rush to withdraw. Providing liquidity subjects the bank to runs. If a run is feared, it becomes a self-fulfilling prophecy.
+
+```d2
+direction: down
+
+good_equilibrium: Good Equilibrium {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  label: "Only type 1 depositors withdraw (25%)\nBank survives, type 2s get full return"
+}
+
+bad_equilibrium: Bad Equilibrium {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+
+  label: "All depositors withdraw (100%)\nBank fails, all lose money"
+}
+
+self_fulfilling: Self-Fulfilling Prophecy {
+  shape: diamond
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  label: "Depositors' beliefs determine outcome"
+}
+
+good_equilibrium -> self_fulfilling: "If depositors believe bank is safe"
+bad_equilibrium -> self_fulfilling: "If depositors believe bank will fail"
+self_fulfilling -> good_equilibrium: "Reinforces safety"
+self_fulfilling -> bad_equilibrium: "Causes failure"
+
+note: "Multiple equilibria: Both outcomes are possible depending on depositors' expectations" {
+  shape: callout
+  near: self_fulfilling
+}
+```
 
 The first paragraph of Diamond and Dybvig (1983) follows: "Bank runs are a common feature of the extreme crises that have played a prominent role in monetary history. During a bank run, depositors rush to withdraw their deposits because they expect the bank to fail. In fact, the sudden withdrawals can force the bank to liquidate many of its assets at a loss and to fail. In a panic with many bank failures, there is a disruption of the monetary system and a reduction in production."
 
@@ -142,9 +218,7 @@ When all depositors do not observe the same news or other information sources, t
 
 # Suspension of Convertibility
 
-In this simple model, a bank can suspend convertibility of deposits to cash in order to stop a run. That is, suppose the bank does not allow more than a fraction  $t$  of deposits to be withdrawn (does not allow  $f > t$ , or in the example, allows only 25 to withdraw). Then no matter how many depositors attempt to withdraw at date 1, a type 2 will get  $r_2(t) = \frac{\{1 - [t \times r_1]\}R}{1 - t} > r_1$  at date 2. In
-
-the example, the type 2 would get 1.813 at date 2. As a result, the depositors would never panic and a run would never start. In this case, the suspension is a threat that need not actually be carried out. The problem lies in convincing potential participants in a run that convertibility will be suspended at the proper time. In the days before deposit insurance, banks regularly suspended convertibility to stop runs (see Friedman and Schwartz 1963). In a more general model, in which the fraction of type 1 depositors fluctuates sufficiently (and the realized fraction cannot be written into contracts), suspension cannot be used only as a threat. Some suspension would actually occur and would be unpopular. If suspension occurred regularly, depositors would desire another way of stopping runs caused by panics. In practice, government-provided deposit insurance has been instituted following many financial crises. Its effects are described in the next section.
+In this simple model, a bank can suspend convertibility of deposits to cash in order to stop a run. That is, suppose the bank does not allow more than a fraction  $t$  of deposits to be withdrawn (does not allow  $f > t$ , or in the example, allows only 25 to withdraw). Then no matter how many depositors attempt to withdraw at date 1, a type 2 will get  $r_2(t) = \frac{\{1 - [t \times r_1]\}R}{1 - t} > r_1$  at date 2. In the example, the type 2 would get 1.813 at date 2. As a result, the depositors would never panic and a run would never start. In this case, the suspension is a threat that need not actually be carried out. The problem lies in convincing potential participants in a run that convertibility will be suspended at the proper time. In the days before deposit insurance, banks regularly suspended convertibility to stop runs (see Friedman and Schwartz 1963). In a more general model, in which the fraction of type 1 depositors fluctuates sufficiently (and the realized fraction cannot be written into contracts), suspension cannot be used only as a threat. Some suspension would actually occur and would be unpopular. If suspension occurred regularly, depositors would desire another way of stopping runs caused by panics. In practice, government-provided deposit insurance has been instituted following many financial crises. Its effects are described in the next section.
 
 # Deposit Insurance
 

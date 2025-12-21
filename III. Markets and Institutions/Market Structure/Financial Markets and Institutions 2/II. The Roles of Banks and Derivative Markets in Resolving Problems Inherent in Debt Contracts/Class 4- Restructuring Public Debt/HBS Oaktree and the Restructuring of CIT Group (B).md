@@ -1,11 +1,20 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Oaktree and the Restructuring of CIT Group (B)
-linter-yaml-title-alias: Oaktree and the Restructuring of CIT Group (B)
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 4- Restructuring Public Debt
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - debt restructuring
+  - cit group
+  - oaktree capital
+  - creditor rescue loan
+secondary_tags:
+  - temporary liquidity guarantee program
+  - lenders steering committee
+  - debtor-in-possession financing
+  - bankruptcy restructuring
+cssclasses: academia
 ---
 
 VICTORIA IVASHINA
@@ -16,7 +25,7 @@ DAVID SCHARFSTEIN
 
 On Wednesday, July 15, 2009, CIT announced the termination of its talks with the U.S. government, in which it had attempted to receive a guarantee of newly issued debt under the Temporary Liquidity Guarantee Program (TLGP). On Monday, July 20th, a group of six CIT creditors stepped in with a  \$3 billion rescue loan package.\(^{1}$  Over the weekend, CIT rejected a private offer from General Electric of over \)2 billion in secured loans. While GE's offer was less costly and required less collateral than the loans from bondholders, CIT rejected the offer because loan funds would not have been available until July 31. $^{2}$
 
-# Terms of the Rescue Loan
+## Terms of the Rescue Loan
 
 The loan package consisted of a  \$2 billion term-loan facility, available immediately, and a\$ 1 billion delay-draw term loan facility, available at the end of the month. Other CIT unsecured creditors could participate in the syndication of the \$1 billion delay-draw facility. Both facilities matured on January 20, 2012, and both facilities set interest at LIBOR plus 1,000 basis points, with a 3% LIBOR floor, payable monthly. The facility also included a variety of fees: (i) a commitment fee of 5%; (ii) an undrawn commitment fee of 1% per annum; (iii) a 2% exit fee on amounts prepaid or repaid; and (iv) a prepayment premium of 6.5% percent on the loan amount CIT might want to reduce.
 
@@ -26,7 +35,7 @@ The credit facility was arranged by Barclays, and included among its lenders Cal
 
 The loan contained provisions requiring CIT to develop a restructuring plan that was acceptable to the majority (in number) of the Steering Committee by August 14, 2009. The plan would need to be adopted by October 1, 2009.
 
-# Exhibit 1 Extract from CIT Restated Credit Agreement
+## Exhibit 1 Extract from CIT Restated Credit Agreement
 
 "Borrowers" means Company and Subsidiary Borrowers (each, individually, a "Borrower").  
 "Beneficiary" means each Agent and Lender.  

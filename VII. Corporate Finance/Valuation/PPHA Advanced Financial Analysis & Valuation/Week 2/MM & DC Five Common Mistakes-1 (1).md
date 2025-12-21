@@ -1,5 +1,5 @@
 ---
-title: "Methods to Improve Decisions"
+title: "Five Common Mistakes and How to Address Them"
 parent_directory: "Week 2"
 formatted: 2025-12-21 11:03:25 PM
 formatter_model: claude-sonnet-4-5-20250929
@@ -28,9 +28,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# Methods to Improve Decisions
-
-**Five Common Mistakes and How to Address Them**
+# Five Common Mistakes and How to Address Them
 
 February 24, 2014
 
@@ -307,6 +305,64 @@ A journal that chronicles your decisions allows you to get honest feedback about
 
 **Solution: Be mindful of your surroundings and work to improve them.**
 
+```d2
+direction: right
+
+stress_types: Stress Types {
+  shape: hexagon
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+physical_stress: "Physical Stress\nFight-or-Flight\nShort-term" {
+  style.fill: "#ffcdd2"
+}
+
+psychological_stress: "Psychological Stress\nChronic\nLong-term" {
+  style.fill: "#ffcdd2"
+}
+
+effects: Negative Effects {
+  shape: hexagon
+  style.fill: "#fff3e0"
+  style.stroke: "#ef6c00"
+}
+
+short_term_focus: "Short-term Focus\nPoor Long-term Thinking" {
+  style.fill: "#ffcc02"
+}
+
+health_issues: "Health Problems\nUlcers, Immune Issues" {
+  style.fill: "#ffcc02"
+}
+
+solutions: Stress Solutions {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+}
+
+lifestyle: "Lifestyle Changes\nSleep, Exercise, Diet" {
+  style.fill: "#c8e6c9"
+}
+
+mindfulness: "Mindfulness\nPresent Awareness" {
+  style.fill: "#c8e6c9"
+}
+
+leadership: "Leadership\nEmotional Balance" {
+  style.fill: "#c8e6c9"
+}
+
+stress_types -> effects: Causes
+physical_stress -> psychological_stress: Leads to
+effects -> solutions: Addressed by
+
+short_term_focus -> lifestyle
+health_issues -> mindfulness
+health_issues -> leadership
+```
+
 One idea that is well established in social psychology is the fundamental attribution error, or correspondence bias. This idea says that when we observe the behavior of others, we attribute that behavior to the individual's disposition and not to the situation. As important, there is substantial evidence that shows that the situation exerts a very powerful influence on the decisions that people make.
 
 The Stanford Prison Experiment, conducted by a psychologist named Philip Zimbardo in the summer of 1971, is one of the most chilling experimental demonstrations of this point. Zimbardo converted part of the building housing the psychology department at Stanford University into a prison. He then found 24 physically and
@@ -374,7 +430,7 @@ $^{14}$  Phil Rosenzweig, Left Brain, Right Stuff: How Leaders Make Winning Deci
 22 Roger Z. George, "Fixing the Problem of Analytical Mind-Sets: Alternative Analysis," International Journal of Intelligence and Counterintelligence, Vol. 17, No. 3, 2004, 385-404.  
 23 Richards J. Heuer, Jr., Psychology of Intelligence Analysis (Washington, D.C: Center for the Study of Intelligence, 1999), 5.  
 24 George, 391.  
-[25] Sam Arbesman argues that facts have a half-life, which differs by field. Awareness of how rapidly facts can change is very useful. See Samuel Arbesman, The Half-life of Facts: Why Everything We Know Has an Expiration Date (New York: Current, 2012).  
+<sup>25</sup> Sam Arbesman argues that facts have a half-life, which differs by field. Awareness of how rapidly facts can change is very useful. See Samuel Arbesman, The Half-life of Facts: Why Everything We Know Has an Expiration Date (New York: Current, 2012).  
 26 James V Stone, Bayes' Rule: A Tutorial Introduction to Bayesian Analysis (Sebel Press, 2013).  
 27 Chetan Dave and Katherine W. Wolfe, "On Confirmation Bias and Deviations From Bayesian Updating," Working Paper, March 21, 2003.  
 28 Michael I. Handle, War, Strategy, and Intelligence (New York: Frank Cass and Company, 1989), 270.  

@@ -1,11 +1,31 @@
 ---
-parent_directory:
 title: Bank Runs, Deposit Insurance, and Liquidity
-tags:
-aliases:
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+parent_directory: Class 6-Bank Runs
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - bank runs
+  - deposit insurance
+  - liquidity provision
+  - financial intermediation
+  - risk sharing
+secondary_tags:
+  - demand deposits
+  - suspension of convertibility
+  - multiple equilibria
+  - illiquid assets
+  - lender of last resort
+  - federal reserve
+  - banking crises
+  - asset liquidation
+  - confidence effects
+  - moral hazard
+  - sequential service
+  - private information
+  - consumption timing
+  - production technology
+  - welfare implications
 cssclasses: academia
 ---
 
@@ -35,11 +55,11 @@ Yale University
 
 This paper shows that bank deposit contracts can provide allocations superior to those of exchange markets, offering an explanation of how banks subject to runs can attract deposits. Investors face privately observed risks which lead to a demand for liquidity. Traditional demand deposit contracts which provide liquidity have multiple equilibria, one of which is a bank run. Bank runs in the model cause real economic damage, rather than simply reflecting other problems. Contracts which can prevent runs are studied, and the analysis shows that there are circumstances when government provision of deposit insurance can produce superior contracts.
 
-# I. Introduction
+## I. Introduction
 
 Bank runs are a common feature of the extreme crises that have played a prominent role in monetary history. During a bank run, depositors rush to withdraw their deposits because they expect the bank to fail. In fact, the sudden withdrawals can force the bank to liquidate many of its assets at a loss and to fail. In a panic with many bank failures, there is a disruption of the monetary system and a reduction in production.
 
-Institutions in place since the Great Depression have successfully prevented bank runs in the United States since the 1930s. Nonetheless
+Institutions in place since the Great Depression have successfully prevented bank runs in the United States since the 1930s. Nonetheless, current deregulation and the dire financial condition of savings and loans make bank runs and institutions to prevent them a current policy issue, as shown by recent aborted runs. $^{1}$  (Internationally, Eurodollar deposits tend to be uninsured and are therefore subject to runs, and this is true in the United States as well for deposits above the insured amount.) It is good that deregulation will leave banking more competitive, but we must ensure that banks will not be left vulnerable to runs.
 
 We are grateful for helpful comments from Milt Harris, Burt Malkiel, Mike Mussa, Art Raviv, and seminar participants at Chicago, Northwestern, Stanford, and Yale.
 
@@ -47,17 +67,13 @@ We are grateful for helpful comments from Milt Harris, Burt Malkiel, Mike Mussa,
 
 © 1983 by The University of Chicago. All rights reserved. 0022-3808/83/9103-0004\$01.50
 
-less, current deregulation and the dire financial condition of savings and loans make bank runs and institutions to prevent them a current policy issue, as shown by recent aborted runs. $^{1}$  (Internationally, Eurodollar deposits tend to be uninsured and are therefore subject to runs, and this is true in the United States as well for deposits above the insured amount.) It is good that deregulation will leave banking more competitive, but we must ensure that banks will not be left vulnerable to runs.
-
 Through careful description and analysis, Friedman and Schwartz (1963) have provided substantial insight into the properties of past bank runs in the United States. Existing theoretical analysis has neglected to explain why bank contracts are less stable than other types of financial contracts or to investigate the strategic decisions that depositors face. The model we present has an explicit economic role for banks to perform: the transformation of illiquid assets into liquid liabilities. The analyses of Patinkin (1965, chap. 5), Tobin (1965), and Niehans (1978) provide insights into characterizing the liquidity of assets. This paper gives the first explicit analysis of the demand for liquidity and the "transformation" service provided by banks. Uninsured demand deposit contracts are able to provide liquidity but leave banks vulnerable to runs. This vulnerability occurs because there are multiple equilibria with differing levels of confidence.
 
 Our model demonstrates three important points. First, banks issuing demand deposits can improve on a competitive market by providing better risk sharing among people who need to consume at different random times. Second, the demand deposit contract providing this improvement has an undesirable equilibrium (a bank run) in which all depositors panic and withdraw immediately, including even those who would prefer to leave their deposits in if they were not concerned about the bank failing. Third, bank runs cause real economic problems because even "healthy" banks can fail, causing the recall of loans and the termination of productive investment. In addition, our model provides a suitable framework for analysis of the devices traditionally used to stop or prevent bank runs, namely, suspension of convertibility and demand deposit insurance (which works similarly to a central bank serving as "lender of last resort").
 
-The illiquidity of assets enters our model through the economy's riskless production activity. The technology provides low levels of output per unit of input if operated for a single period but high levels
+The illiquidity of assets enters our model through the economy's riskless production activity. The technology provides low levels of output per unit of input if operated for a single period but high levels of output if operated for two periods.<sup>1</sup>
 
-<sup>1</sup> The aborted runs on Hartford Federal Savings and Loan (Hartford, Conn., February 1982) and on Abilene National Bank (Abilene, Texas, July 1982) are two recent examples. The large amounts of uninsured deposits in the recently failed Penn Square Bank (Oklahoma City, July 1982) and its repercussions are another symptom of banks' current problems.
-
-of output if operated for two periods. The analysis would be the same if the asset were illiquid because of selling costs: one receives a low return if unexpectedly forced to "liquidate" early. In fact, this illiquidity is a property of the financial assets in the economy in our model, even though they are traded in competitive markets with no transaction costs. Agents will be concerned about the cost of being forced into early liquidation of these assets and will write contracts which reflect this cost. Investors face private risks which are not directly insurable because they are not publicly verifiable. Under optimal risk sharing, this private risk implies that agents have different time patterns of return in different private information states and that agents want to allocate wealth unequally across private information states. Because only the agent ever observes the private information state, it is impossible to write insurance contracts in which the payoff depends directly on private information, without an explicit mechanism for information flow. Therefore, simple competitive markets cannot provide this liquidity insurance.
+<sup>1</sup> The aborted runs on Hartford Federal Savings and Loan (Hartford, Conn., February 1982) and on Abilene National Bank (Abilene, Texas, July 1982) are two recent examples. The large amounts of uninsured deposits in the recently failed Penn Square Bank (Oklahoma City, July 1982) and its repercussions are another symptom of banks' current problems. The analysis would be the same if the asset were illiquid because of selling costs: one receives a low return if unexpectedly forced to "liquidate" early. In fact, this illiquidity is a property of the financial assets in the economy in our model, even though they are traded in competitive markets with no transaction costs. Agents will be concerned about the cost of being forced into early liquidation of these assets and will write contracts which reflect this cost. Investors face private risks which are not directly insurable because they are not publicly verifiable. Under optimal risk sharing, this private risk implies that agents have different time patterns of return in different private information states and that agents want to allocate wealth unequally across private information states. Because only the agent ever observes the private information state, it is impossible to write insurance contracts in which the payoff depends directly on private information, without an explicit mechanism for information flow. Therefore, simple competitive markets cannot provide this liquidity insurance.
 
 Banks are able to transform illiquid assets by offering liabilities with a different, smoother pattern of returns over time than the illiquid assets offer. These contracts have multiple equilibria. If confidence is maintained, there can be efficient risk sharing, because in that equilibrium a withdrawal will indicate that a depositor should withdraw under optimal risk sharing. If agents panic, there is a bank run and incentives are distorted. In that equilibrium, everyone rushes in to withdraw their deposits before the bank gives out all of its assets. The bank must liquidate all its assets, even if not all depositors withdraw, because liquidated assets are sold at a loss.
 
@@ -75,7 +91,7 @@ Our results have far-reaching policy implications, because they imply that the r
 
 The paper proceeds as follows. In the next section, we analyze a simple economy which shows that banks can improve the risk sharing of simple competitive markets by transforming illiquid assets. We show that such banks are always vulnerable to runs. In Section III, we analyze the optimal bank contracts that prevent runs. In Section IV, we analyze bank contracts, dropping the previous assumption that the volume of withdrawals is deterministic. Deposit insurance is analyzed in Section V. Section VI concludes the paper.
 
-# II. The Bank's Role in Providing Liquidity
+## II. The Bank's Role in Providing Liquidity
 
 Banks have issued demand deposits throughout their history, and economists have long had the intuition that demand deposits are a vehicle through which banks fulfill their role of turning illiquid assets into liquid assets. In this role, banks can be viewed as providing insurance that allows agents to consume when they need to most. Our simple model shows that asymmetric information lies at the root of liquidity demand, a point not explicitly noted in the previous literature.
 
@@ -94,7 +110,7 @@ All consumers are identical as of period 0. Each faces a privately observed, uni
 that each agent has a state-dependent utility function (with the state private information), which we assume has the form
 
 $$
-U (c_{1}, c_{2}; \Theta) = \left\{ \begin{array}{l l} u (c_{1}) & \text{if ji so ft yp e1 in st at e} \Theta \\ \rho u (c_{1} + c_{2}) & \text{if ji so ft yp e2 in st at e} \Theta , \end{array} \right.
+U (c_{1}, c_{2}; \Theta) = \left\{ \begin{array}{l l} u (c_{1}) & \text{if type 1 in state} \Theta \\ \rho u (c_{1} + c_{2}) & \text{if type 2 in state} \Theta , \end{array} \right.
 $$
 
 where  $1 \geqslant \mathfrak{p} > R^{-1}$  and  $u: R_{++} \to R$  is twice continuously differentiable, increasing, strictly concave, and satisfies Inada conditions  $u'(0) = \infty$  and  $u'(\infty) = 0$ . Also, we assume that the relative risk-aversion coefficient  $-cu''(c)/u'(c) > 1$  everywhere. Agents maximize expected utility,  $E[u(c_1, c_2; \Theta)]$ , conditional on their information (if any).
@@ -135,9 +151,7 @@ $$
 
 as  $u' > 0$  and  $(\forall \gamma) - u''(\gamma)\gamma / u'(\gamma) > 1$ . Because  $u'(\cdot)$  is decreasing and the resource constraint (1c) trades off  $c_1^{1*}$  against  $c_2^{2*}$ , the solution to (1) must have  $c_1^{1*} > 1$  and  $c_2^{2*} < R$ .
 
-4 The self-selection constraints state that no agent envies the treatment by the market of other indistinguishable agents. In our model, agents' utilities depend on only their consumption vectors across time and all have identical endowments. Therefore, the self-selection constraints are satisfied if no agent envies the consumption bundle of any other agent. This can be shown for optimal risk sharing using the properties described after (1). Because  $c_{1}^{1*} > 1$  and  $c_{1}^{2*} = 0$ , type 1 agents do not envy type 2 agents. Furthermore, because  $c_{1}^{2*} + c_{2}^{2*} = c_{2}^{2*} > c_{1}^{1*} = c_{1}^{1*} + c_{2}^{1*}$ , type 2 agents do not envy type 1 agents. Because the optimal contract satisfies the self-selection constraints, there is necessarily a contract structure which implements it as a Nash equilibrium—the ordinary demand deposit is a contract which will work. However, the optimal allocation is not the unique Nash equilibrium under the ordinary demand deposit contract. Another inferior equilibrium is what we identify as a bank run. Our model gives a real-world example of a situation in which the distinction between implementation as a Nash equilibrium and implementation as a unique Nash equilibrium is crucial (see also Dybvig and Spatt, in press, and Dybvig and Jaynes 1980).
-
-ing liquidity, banks guarantee a reasonable return when the investor cashes in before maturity, as is required for optimal risk sharing. To illustrate how banks provide this insurance, we first examine the traditional demand deposit contract, which is of particular interest because of its ubiquitous use by banks. Studying the demand deposit contract in our framework also indicates why banks are susceptible to runs.
+4 The self-selection constraints state that no agent envies the treatment by the market of other indistinguishable agents. In our model, agents' utilities depend on only their consumption vectors across time and all have identical endowments. Therefore, the self-selection constraints are satisfied if no agent envies the consumption bundle of any other agent. This can be shown for optimal risk sharing using the properties described after (1). Because  $c_{1}^{1*} > 1$  and  $c_{1}^{2*} = 0$ , type 1 agents do not envy type 2 agents. Furthermore, because  $c_{1}^{2*} + c_{2}^{2*} = c_{2}^{2*} > c_{1}^{1*} = c_{1}^{1*} + c_{2}^{1*}$ , type 2 agents do not envy type 1 agents. Because the optimal contract satisfies the self-selection constraints, there is necessarily a contract structure which implements it as a Nash equilibrium—the ordinary demand deposit is a contract which will work. However, the optimal allocation is not the unique Nash equilibrium under the ordinary demand deposit contract. Another inferior equilibrium is what we identify as a bank run. Our model gives a real-world example of a situation in which the distinction between implementation as a Nash equilibrium and implementation as a unique Nash equilibrium is crucial (see also Dybvig and Spatt, in press, and Dybvig and Jaynes 1980). Providing liquidity, banks guarantee a reasonable return when the investor cashes in before maturity, as is required for optimal risk sharing. To illustrate how banks provide this insurance, we first examine the traditional demand deposit contract, which is of particular interest because of its ubiquitous use by banks. Studying the demand deposit contract in our framework also indicates why banks are susceptible to runs.
 
 In our model, the demand deposit contract gives each agent withdrawing in period 1 a fixed claim of  $r_1$  per unit deposited at time 0. Withdrawal tenders are served sequentially in random order until the bank runs out of assets. This approach allows us to capture the flavor of continuous time (in which depositors deposit and withdraw at different random times) in a discrete model. Note that the demand deposit contract satisfies a sequential service constraint, which specifies that a bank's payoff to any agent can depend only on the agent's place in line and not on future information about agents behind him in line.
 
@@ -177,7 +191,7 @@ directly. This could happen if the selection between the bank run equilibrium an
 
 The pure demand deposit contract is feasible, and we have seen that it can attract deposits even if the perceived probability of a run is positive. This explains why the contract has actually been used by banks in spite of the danger of runs. Next, we examine a closely related contract that can help to eliminate the problem of runs.
 
-# III. Improving on Demand Deposits: Suspension of Convertibility
+## III. Improving on Demand Deposits: Suspension of Convertibility
 
 The pure demand deposit contract has a good equilibrium that achieves the full-information optimum when  $t$  is not stochastic. However, in its bank run equilibrium, it is worse than direct ownership of assets. It is illuminating to begin the analysis of optimal bank contracts by demonstrating that there is a simple variation on the demand deposit contract which gives banks a defense against runs: suspension of allowing withdrawal of deposits, referred to as suspension of convertibility (of deposits to cash). Our results are consistent with the claim by Friedman and Schwartz (1963) that the newly organized Federal Reserve Board may have made runs in the 1930s worse by preventing banks from suspending convertibility: the total week-long banking "holiday" that followed was more severe than any of the previous suspensions.
 
@@ -199,7 +213,7 @@ Convertibility is suspended when  $f_{j} = \hat{f}$ , and then no one else "in l
 
 A policy of suspension of convertibility at  $\hat{f}$  guarantees that it will never be profitable to participate in a bank run because the liquidation of the bank's assets is terminated while type 2's still have an incentive not to withdraw. This contract works perfectly only in the case where the normal volume of withdrawals,  $t$ , is known and not stochastic. The more general case, where  $t$  can vary, is analyzed next.
 
-# IV. Optimal Contracts with Stochastic Withdrawals
+## IV. Optimal Contracts with Stochastic Withdrawals
 
 The suspension of convertibility contract achieves optimal risk sharing when  $t$  is known ex ante because suspension never occurs in equilibrium and the bank can follow the optimal asset liquidation policy. This is possible because the bank knows exactly how many withdrawals will occur when confidence is maintained. We now allow the fraction of type 1's to be an unobserved random variable,  $\tilde{t}$ . We consider a general class of bank contracts where payments to those who withdraw at  $T = 1$  are any function of  $f_{j}$  and payments to those who withdraw at  $T = 2$  are any function of  $f$ . Analyzing this general class will show the shortcomings of suspension of convertibility.
 
@@ -217,7 +231,7 @@ Proposition 1 implies that no bank contract, including suspension convertibility
 
 convertibility is suspended in equilibrium, that is, when the point  $\hat{f}$  where suspension occurs is less than the largest possible realization of  $\hat{t}$ . In that case, some type 1 agents cannot withdraw, which is inefficient ex post. This can be desirable ex ante, however, because the threat of suspension prevents runs and allows a relatively high value of  $r_1$ . This result is consistent with contemporary views about suspension in the United States in the period before deposit insurance. Although suspensions served to short-circuit runs, they were "regarded as anything but a satisfactory solution by those who experienced them, which is why they produced so much strong pressure for monetary and banking reform" (Friedman and Schwartz 1963, p. 329). The most important reform that followed was federal deposit insurance. Its impact is analyzed in Section V.
 
-# V. Government Deposit Insurance
+## V. Government Deposit Insurance
 
 Deposit insurance provided by the government allows bank contracts that can dominate the best that can be offered without insurance and never do worse. We need to introduce deposit insurance into the analysis in a way that keeps the model closed and assures that no aggregate resource constraints are violated. Deposit insurance guarantees that the promised return will be paid to all who withdraw. If this is a guarantee of a real value, the amount that can be guaranteed is constrained: the government must impose real taxes to honor a deposit guarantee. If the deposit guarantee is nominal, the tax is the (inflation) tax on nominal assets caused by money creation. (Such taxation occurs even if no inflation results; in any case the price level is higher than it would have been otherwise, so some nominally denominated wealth is appropriated.) Because a private insurance company is constrained by its reserves in the scale of unconditional guarantees which it can offer, we argue that deposit insurance probably ought to be governmental for this reason. Of course, the deposit guarantee could be made by a private organization with some authority to tax or create money to pay deposit insurance claims, although we would usually think of such an organization as being a branch of government. However, there can be a small competitive fringe of commercially insured deposits, limited by the amount of private collateral.
 
@@ -269,7 +283,7 @@ Proposition 2 highlights the key social benefit of government deposit insurance.
 
 Deposit insurance can be provided costlessly in the simpler case where  $t$  is nonstochastic, for the same reason that there need not be a suspension of convertibility in equilibrium. The deposit insurance guarantees that type 2 agents will never participate in a run; without runs, withdrawals are deterministic and this feature is never used. In particular, so long as the government can impose some tax to finance the insurance, no matter how distortionary, there will be no runs and the distorting tax need never be imposed. This feature is shared by a model of adoption externalities (see Dybvig and Spatt, in press) in which a Pareto-inferior equilibrium can be averted by an insurance policy which is costless in equilibrium. In both models, the credible promise to provide the insurance means that the promise will not need to be fulfilled. This is in contrast to privately provided deposit insurance. Because insurance companies do not have the power of taxation, they must hold reserves to make their promise credible. This illustrates a reason why the government may have a natural advantage in providing deposit insurance. The role of government policy in our model focuses on providing an institution to prevent a bad equilibrium rather than a policy to move an existing equilibrium. Generally, such a policy need not cause distortion.
 
-# VI. Conclusions and Implications
+## VI. Conclusions and Implications
 
 The model serves as a useful framework for analyzing the economics of banking and associated policy issues. It is interesting that the problems of runs and the differing effects of suspension of convertibility and deposit insurance manifest themselves in a model which does not introduce currency or risky technology. This demonstrates that many of the important problems in banking are not necessarily related to those factors, although a general model will require their introduction.
 
@@ -285,13 +299,11 @@ If the technology is risky, the lender of last resort can no longer be as credib
 
 If the lender of last resort is not required to bail out banks unconditionally, a bank run can occur in response to changes in depositor expectations about the bank's credit worthiness. A run can even occur in response to expectations about the general willingness of the lender of last resort to rescue failing banks, as illustrated by the unfortunate experience of the 1930s when the Federal Reserve misused its discretion and did not allow much discounting. In contrast, deposit insurance is a binding commitment which can be structured to retain punishment of the bank's owners, board of directors, and officers in the case of a failure.
 
-The potential for multiple equilibria when a firm's liabilities are
-
-more liquid than its assets applies more generally, not simply to banks. Consider a firm with illiquid technology which issues very short-term bonds as a large part of its capital structure. Suppose one lender expects all other lenders to refuse to roll over their loans to the firm. Then, it may be his best response to refuse to roll over his loans even if the firm would be solvent if all loans were rolled over. Such liquidity crises are similar to bank runs. The protection from creditors provided by the bankruptcy laws serves a function similar to the suspension of convertibility. The firm which is viable but illiquid is guaranteed survival. This suggests that the "transformation" could be carried out directly by firms rather than by financial intermediaries. Our focus on intermediaries is supported by the fact that banks directly hold a substantial fraction of the short-term debt of corporations. Also, there is frequently a requirement (or custom) that a firm issuing short-term commercial paper obtain a bank line of credit sufficient to pay off the issue if it cannot "roll it over." A bank with deposit insurance can provide "liquidity insurance" to a firm, which can prevent a liquidity crisis for a firm with short-term debt and limit the firm's need to use bankruptcy to stop such crises. This suggests that most of the aggregate liquidity risk in the U.S. economy is channeled through its insured financial intermediaries, to the extent that lines of credit represent binding commitments.
+The potential for multiple equilibria when a firm's liabilities are more liquid than its assets applies more generally, not simply to banks. Consider a firm with illiquid technology which issues very short-term bonds as a large part of its capital structure. Suppose one lender expects all other lenders to refuse to roll over their loans to the firm. Then, it may be his best response to refuse to roll over his loans even if the firm would be solvent if all loans were rolled over. Such liquidity crises are similar to bank runs. The protection from creditors provided by the bankruptcy laws serves a function similar to the suspension of convertibility. The firm which is viable but illiquid is guaranteed survival. This suggests that the "transformation" could be carried out directly by firms rather than by financial intermediaries. Our focus on intermediaries is supported by the fact that banks directly hold a substantial fraction of the short-term debt of corporations. Also, there is frequently a requirement (or custom) that a firm issuing short-term commercial paper obtain a bank line of credit sufficient to pay off the issue if it cannot "roll it over." A bank with deposit insurance can provide "liquidity insurance" to a firm, which can prevent a liquidity crisis for a firm with short-term debt and limit the firm's need to use bankruptcy to stop such crises. This suggests that most of the aggregate liquidity risk in the U.S. economy is channeled through its insured financial intermediaries, to the extent that lines of credit represent binding commitments.
 
 We hope that this model will prove to be useful in understanding issues in banking and corporate finance.
 
-# References
+## References
 
 Azariadis, Costas. "Self-fulfilling Prophecies." J. Econ. Theory 25 (December 1980): 380-96.  
 Bernanke, Ben. "Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression." A.E.R. (in press).  

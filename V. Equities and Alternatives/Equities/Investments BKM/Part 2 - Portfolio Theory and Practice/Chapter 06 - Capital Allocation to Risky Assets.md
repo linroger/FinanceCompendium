@@ -8,11 +8,17 @@ primary_tags:
   - capital allocation to risky assets
   - risk and risk aversion
   - utility functions
+  - capital market line
+  - passive strategies
 secondary_tags:
   - speculation and gambling
   - indifference curves
   - mean-variance criterion
   - Sharpe ratio
+  - st. petersburg paradox
+  - expected utility
+  - certainty equivalent
+  - decreasing marginal utility
 cssclasses: academia
 ---
 

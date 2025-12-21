@@ -1,16 +1,29 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "HBS Note on LBO Capital Structure, Module Note"
+parent_directory: "Class 4- Restructuring Public Debt"
+formatted: "2025-12-21 04:38:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - leveraged buyouts
+  - capital structure
+  - lbo financing
+  - debt layers
+  - senior secured debt
+secondary_tags:
+  - asset-backed loans
+  - leveraged loans
+  - high-yield bonds
+  - mezzanine financing
+  - junior debt
+  - institutional tranche
+  - pro-rata tranche
 cssclasses: academia
-title: MODULE NOTE
-linter-yaml-title-alias: MODULE NOTE
 ---
 
-# MODULE NOTE
+# HBS Note on LBO Capital Structure, Module Note
 
-# Note on LBO Capital Structure
+## Note on LBO Capital Structure
 
 Leveraged buyouts (LBOs) are characterized by a high degree of debt ("leverage"). Exhibit 1 and Exhibit 2 show that over the past decade LBO debt was between  $50 - 70\%$  of total funding sources, and debt-to-EBITDA was between  $3.2x - 6.3x$ .
 
@@ -18,19 +31,19 @@ The specifics of each capital structure vary case by case; however, in any given
 
 This note focuses on the debt structure of larger buyouts at the deal closing. However, apart from debt, every LBO includes common equity and often equity-like facilities such as preferred equity. Equity holds the most junior position in the capital structure and has the residual claim on all of the firm's cash flows.
 
-# Types of Debt
+## Types of Debt
 
 For a typical LBO, debt can be divided in two broad layers: senior secured debt and junior debt. Senior secured debt holds the first claim in case of a liquidation of the company, before junior debt. As shown in Exhibit 2, senior debt-to-EBITDA levels range between  $2.4\mathrm{x} - 5.6\mathrm{x}$  and junior debt-to-EBITDA levels are between  $0.2\mathrm{x} - 2.1\mathrm{x}$  for large and middle-market LBOs over time. Within each of these debt layers there are notable sub-categories that are discussed below.
 
-# Senior Secured Debt
+## Senior Secured Debt
 
-# 1. Asset-backed Loans
+### 1. Asset-backed Loans
 
 Asset-backed loans (ABLs) and leveraged loans are the most senior claims in the capital structure. They are both senior secured debt, the difference between these loans is the type of collateral. Asset-backed lending is focused on the liquidation value of the collateral and in that sense they are similar to a mortgage or car loan. The most frequent users of ABLs are manufacturers, distributors, and retailers. Firms owning unpledged real estate, credit cards receivable, heavy machinery or any other type of relatively liquid assets would typically get an ABL before any other form of financing. (Similarly, an individual who wants to finance a small business might get better terms on a home-equity loan than a business loan.)
 
 Since ABLs rely on the value and quality of the underlying collateral, ABL lenders need a dedicated infrastructure to track collateral value and its movement over time. Historically ABLs were predominantly issued by banks and financial companies. For this reason, ABLs and leveraged loans share several characteristics such as their private nature and floating-rate pricing structure (more on this below). Because of the nature of collateral, ABLs have simple covenant structure. ABL lenders mainly want to ensure that a safety margin remains, so ABL covenants tend to include a fixed-charge ratio, which measures borrower's ability to pay fixed financing expenses.
 
-# 2. Leveraged Loans
+### 2. Leveraged Loans
 
 As an ABL, a leveraged loan is typically senior secured debt. But contrary to an ABL, a leveraged loan is cash-flow based, that is, its credit quality is primarily determined by the cash-flow generation ability of the company and not by the value of the collateral. While a lien to collateral is frequently added to leveraged loans to make them secured, the quality and market liquidity of collateral are much harder to assess and therefore are typically less of a focus point than with ABLs.
 
@@ -42,13 +55,13 @@ loans are characterized by being callable (i.e., they can be prepaid at any time
 
 A leveraged loan package can contain several facilities. As with capital structure more broadly, the structure of the loan package depends on the deal size and market conditions. Small and medium-sized leveraged loans, like the ones backing middle-market transactions, tend to be funded by one or a few banks. Loan financing backing a large LBO would typically include a revolving line, an amortizing term loan (together these are called "pro-rata" tranche), and term facilities syndicated to institutional investors (including collateralized loan obligations (Close), hedge funds, mutual funds, and insurance companies).
 
-# 2.1 Pro-rata Tranche
+#### 2.1 Pro-rata Tranche
 
 The "pro-rata" tranche is comprised of facilities syndicated primarily to banks. This typically includes a revolving credit facility (RCF) and an amortizing term loan (TLa). A term loan is an installment loan, drawn at issuance for a specific purpose and canceled once it is repaid. An RCF acts like a corporate credit carda company can draw down on its RCF and pay back multiple times based on its needs up until the maturity of the line.  ${}^{f}$  RCF borrowers are charged a commitment fee for amounts not drawn down with the spread on the drawn portion of the line matching the spread on a TLa.  ${}^{g}$  Whereas term loan facilities are the core part of the financing of the buyout, RCFs are often used for working capital and periodic capital expenditure needs.
 
 Pricing of the pro-rata tranche factors in the broader customer relationship and the associated revenue stream. According to Ivashina and Kovner (2011), LBO firms' repeated interactions with banks create the opportunity to reduce the borrowing costs and improve the contractual terms more broadly. LBO firms that are roughly in the top  $15\%$  of the bank's repeat clients with cross-selling potential have over 17 basis point lower spread and 0.38 point higher maximum debt-to-EBITDA. From the private equity prospective, this could translate to a potential increase in equity returns of  $4\%$  to  $9\%$  (on a non-risk adjusted basis).<sup>h</sup>
 
-# 2.2 Institutional Tranche
+#### 2.2 Institutional Tranche
 
 At least in the past ten years, the largest part of the leverage loan backing an LBO was the institutional tranche. In 2006 and 2007, the peak of the leveraged loan cycle, institutional tranche on average was between  $75\% -80\%$  of the loan package. (Exhibit 5 shows the breakdown between the different leveraged loan facilities.) The institutional debt tranche can include a term loan (TLb) and a second-lien facility, which is a term loan with a junior claim on the collateral. Institutional facilities are structured to mimic bonds so they tend to have bullet payments, without the amortization
 
@@ -60,11 +73,11 @@ The institutional tranche sometimes also includes a delay-draw special purpose f
 
 Given that all first-lien tranches have the same seniority and claim over the collateral, the pricing of the institutional tranche is similar to the pricing of the pro-rata tranche. (See Exhibit 7.) However, the spread on the "B" tranche tends to be more volatile than the spread on the pro-rata tranches. Whereas, given the credit risk of the loan, the pro-rata spread is mainly driven by long-term regulatory bank requirements, and TLb terms are driven by market conditions, compressing when institutional investors' appetite for leveraged loans is high. According to Ivashina and Sun (2011), at the peak of the leveraged loan boom, institutional tranches of the same seniority were priced roughly 50 basis points below pro-rata tranches.
 
-# Junior Debt
+## Junior Debt
 
 Junior debt is a broad layer of the capital structure which is junior to senior secured debt, but senior to equity. Typically these are unsecured classes, which means these classes have claim on the assets of the firm that is junior to senior secured classes. Similar to a leveraged loan, it groups multiple sub-categories of debt. The important difference is that components of the junior debt are typically stand-alone issues: they are completely independent contracts, with different maturities, terms and pricing.
 
-# 1. High-Yield Public Bonds and Notes
+### 1. High-Yield Public Bonds and Notes
 
 High-yield bonds form a long-established asset class in the U.S., and are becoming increasingly popular in Europe and other markets. As Exhibit 8 illustrates, public bonds have been a particularly important source of financing in the U.S. and Europe since the collapse of securitization in 2007, followed by the severe contraction of the leveraged loan market in 2008. In 2012, a record \$358 billion was raised in the bond market in the U.S., corresponding to nearly 3,000 different bond issues. Although the scale is significantly smaller, bond issuance in Europe was following a similar pattern reaching \$95 billion and over 350 different issues in 2012.
 
@@ -74,7 +87,7 @@ There are several characteristics that are specific to high-yield bonds. First, 
 
 Bonds typically have longer maturity than leveraged loans, with the average maturity around 8-10 years (as compared to 5-6 years for leveraged loans). In contrast to leveraged loans, bonds are usually not callable for up to half of their term. Once they become callable, the call premiums are levied. In terms of pricing, high-yield bonds—and especially bonds offered through a public placement—tend to be standardized with a fixed cash coupon rate and bond repayment at the end of the maturity.<sup>1</sup> Depending on the market conditions, some characteristics can change over time. For example, the fixed cash rate is sometimes (partially) replaced with a non-cash payment-in-kind (PIK) rate. Of course, the bond yields also depend heavily on the market conditions. (See Exhibit 9.)
 
-# 2. Mezzanine
+### 2. Mezzanine
 
 Mezzanine financing is a less well-defined part of the LBO capital structure, used opportunistically as a residual part of the financing package. As the name suggests, mezzanine is a layer of financing between senior debt and equity. Historically, mezzanine was predominantly used in Europe as junior debt because of the less active high-yield bond market. In the U.S., it was used as the only available subordinated debt source in smaller transactions, where high-yield bonds were unavailable.
 
@@ -86,7 +99,7 @@ important type of a mezzanine financing that emerged was the "unitranche debt". 
 
 Pricing of mezzanine is commonly based on a floating base rate, plus spread basis. Regularly, the cash-interest component of mezzanine is supplemented with a PIK component. $^{\mathrm{m}}$  Additionally, the terms of mezzanine debt can be sweetened with warrants, allowing the mezzanine investors to co-share in a possible equity upside of the private equity investor.
 
-# Geographic Differences: U.S. versus Europe
+## Geographic Differences: U.S. versus Europe
 
 As illustrated in Exhibit 8, there are important differences between the U.S. and Europe in terms of LBO debt financing. U.S. LBO capital structures rely more on public markets (or quasi-public markets) as sources of capital. European structures rely more on banks for their financing needs, which has to do with the historical development of the debt markets in each region. This explains several differences between U.S. and European capital structures, including the higher prevalence of TLb and high-yield bonds in the U.S., versus a higher share of TLa, mezzanine and other private junior debt in Europe.
 
@@ -100,7 +113,7 @@ Exhibit 1 U.S. LBO Financing Sources, 2000-2012
 
 Source: Standard & Poor's, Leveraged Commentary & Data.
 
-# Exhibit 2 Leverage Levels over Time across Deal-Sizes (1997-2012, USA)
+## Exhibit 2 Leverage Levels over Time across Deal-Sizes (1997-2012, USA)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/526522ad-6a05-49b9-8a8c-3d75abb8b782/97e5e87c8cf28065a1599260592ad5dad980862854f1208a916e467bd833deb2.jpg)  
 a. Large LBO
@@ -136,7 +149,7 @@ Exhibit 9 High Yield Bond Spread over Treasury, 1997-2012, U.S. Market
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/526522ad-6a05-49b9-8a8c-3d75abb8b782/5d5a5e0063e7bf1399b2f71e12520015add83a800c09b4478ec0237a6a9e4ad3.jpg)  
 Source: Bank of America Merrill Lynch and Federal Reserve Bank of St. Louis.
 
-# Appendix: Glossary of Often-used LBO Capital Structure Terms
+## Appendix: Glossary of Often-used LBO Capital Structure Terms
 
 - Amend and Extend (A&E): Is a loan amendment that allows a company to extend its debt maturities, typically in exchange for a fee and an increase in spread. This type of amendment became popular in 2009.  
 - Club Deal: This is a smaller syndicated loan, which is only distributed among a group of relationship lenders, usually banks. Club Deals are common forms of financing for debt facilities of  $50-$ 150 million (maximum of up to \$300 million) in the U.S. and in Europe.  

@@ -29,11 +29,7 @@ cssclasses: academia
 
 "Even if they are a bit livid at us, how should we weigh their enmity against the dollars we save by offset. Wouldn't they think of themselves first and foremost if the tables were turned? Isn't our first obligation to ourselves, the Erie stockholders, even if it means a lot of unpleasantness for us personally?"
 
-"Of course, if we can't muster a good case for ourselves, offsetting could sour our whole relationship with Steel City and Knickerbocker and we are in several other participations with them and may need them for other
-
-This case was prepared as the basis for class discussion and is not intended to illustrate either effective or ineffective handling of an administrative situation.
-
-overline line deals. But we do have a lot more in our correspondent balances with them than they do with us. In the last analysis, if they get too nasty, I guess we could find new correspondents in New York and Pittsburgh.
+"Of course, if we can't muster a good case for ourselves, offsetting could sour our whole relationship with Steel City and Knickerbocker and we are in several other participations with them and may need them for other overline line deals. But we do have a lot more in our correspondent balances with them than they do with us. In the last analysis, if they get too nasty, I guess we could find new correspondents in New York and Pittsburgh.
 
 "Another angle we ought not to overlook is that a Chapter 11 proceeding might be the best thing for Gordon in the long run. The shelter of the court will give them time to do the cutting back that just has to be done. Maybe they can work out a program of slimming down that, however painful short run, will be best for management and the shareholders over time.
 
@@ -92,9 +88,9 @@ Position as of June 10, 1984
 
 (in millions of dollars)
 
-# ASSETS
+### ASSETS
 
-# LIABILITIES
+### LIABILITIES
 
 Cash \$27.8
 
@@ -134,9 +130,9 @@ Deferred Taxes 2.0
 
 #
 
-# EXHIBIT 6
+## EXHIBIT 6
 
-# GORDON BARGAIN STORES, INC. (B)
+### GORDON BARGAIN STORES, INC. (B)
 
 Selected Interest Rates in the U.S., 1981 through mid-1984
 

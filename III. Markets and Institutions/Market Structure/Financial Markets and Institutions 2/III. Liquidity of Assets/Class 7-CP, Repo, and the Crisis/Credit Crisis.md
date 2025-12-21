@@ -1,13 +1,25 @@
 ---
-parent_directory:
-title: "The Credit Crisis: Conjectures about Causes and Remedies"
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: The Credit Crisis: Conjectures about Causes and Remedies
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 04:44:30 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - credit crisis causes
+  - financial crisis remedies
+  - mortgage securitization
+secondary_tags:
+  - subprime lending
+  - bank risk taking
+  - short term debt
+  - illiquidity fears
+  - fire sale prevention
+  - troubled asset relief
+  - federal reserve intervention
+  - diamond dybvig model
+  - originate securitize model
+  - lehman brothers bankruptcy
 cssclasses: academia
-linter-yaml-title-alias: "The Credit Crisis: Conjectures about Causes and Remedies"
 ---
 
 # The Credit Crisis: Conjectures about Causes and Remedies
@@ -18,7 +30,7 @@ What caused the financial crisis that is sweeping across the world? What keeps a
 
 There is some consensus on the proximate causes of the crisis: (i) the US financial sector misallocated resources to real estate, financed through the issuance of exotic new financial instruments; (ii) a significant portion of these instruments found their way, directly or indirectly, into commercial and investment bank balance sheets; (iii) these investments were largely financed with short-term debt. Let us first dig deeper into the more fundamental reasons for these proximate causes.
 
-# I. Misallocation of Investment
+## I. Misallocation of Investment
 
 This is a crisis born in some ways of previous financial crises, which swept through the emerging markets in the late 1990s: East Asian economies collapsed, Russia defaulted, and Argentina, Brazil, and Turkey faced severe stress. In response to these crises, emerging markets became far more circumspect about borrowing from abroad. Their corporations, governments, and households cut back on investment and reduced consumption. From net absorbers of financial capital from the rest of the world, a number of these countries became net exporters of financial capital.
 
@@ -40,7 +52,7 @@ they could process only hard information such as the credit score of the homeown
 
 Moreover, the slicing and dicing through repeated securitization of the original package of mortgages created very complicated securities. The problems in valuing these securities were not obvious when house prices were rising and defaults were few. But as the house prices stopped rising and defaults started increasing, the valuation of these securities became very complicated.
 
-# II. Why Did Banks Hold These Instruments?
+## II. Why Did Banks Hold These Instruments?
 
 Given that originators would have understood the deterioration of the underlying quality of mortgages, it is surprising that they held on to so many of the mortgage-backed securities (MBS) in their own portfolios. These were not just the low-rated equity portions that would have signaled their faith in the packages, but also the high-rated tranches that found a ready market around the world.
 
@@ -50,11 +62,11 @@ Investment in MBS seemed to be part of a culture of excessive risk taking that h
 
 A key factor contributing to this culture is that, over short periods of time, it is very hard, especially in the case of new products, to tell whether a financial manager is generating true excess returns adjusting for risk, or whether the current returns are simply compensation for a risk that has not yet shown itself but that will eventually materialize. Consider the following specific manifestations of the problem.
 
-# A. Incentives at the Top
+### A. Incentives at the Top
 
 The performance of CEOs is evaluated based in part on the earnings they generate relative to their peers. To the extent that some leading banks can generate legitimately high returns, this puts pressure on other banks to keep up. Follower-bank bosses may end up taking excessive risks in order to boost various observable measures of performance. Indeed, even if managers recognize that this type of strategy is not truly value-creating, a desire to pump up their stock prices and their personal reputations may nevertheless make it the most attractive option for them. There is anecdotal evidence of such pressure on top management.[2]
 
-# B. Flawed Internal Compensation and Control
+### B. Flawed Internal Compensation and Control
 
 Even if top management wants to maximize long-term bank value, it may find it difficult to create incentives and control systems that steer subordinates in this direction. Given the competition for talent, traders have to be paid generously based on performance. But, many of the compensation schemes paid for short-term risk-adjusted performance. This gave traders an incentive to take risks that were not recognized by the system, so they could generate income that appeared to stem from their superior abilities, even though it was in fact only a market-risk premium. The classic case of such behavior is
 
@@ -62,7 +74,7 @@ to write insurance on infrequent events such as defaults, taking on what is term
 
 This is not to say that risk managers in a bank are unaware of such incentives. However, they may be unable to fully control them, because tail risks are by nature rare, and therefore hard to quantify with precision before they occur. While they could try to impose crude limits on the activities of the traders taking maximum risk, these traders are likely to have been very profitable (before the risk actually is realized), and such actions are unlikely to sit well with a top management that is being pressured for profits.
 
-# III. Short-Term Debt
+## III. Short-Term Debt
 
 Given the complexity of bank risk-taking, and the potential breakdown in internal control processes, investors would have demanded a very high premium for financing the bank long term. By contrast, they would have been far more willing to hold short-term claims on the bank, since that would give them the option to exit—or get a higher premium—if the bank appeared to be getting into trouble. So, investors would have demanded lower premia for holding short-term secured debt in light of potential agency problems at banks (as shown in Diamond and Rajan 2001).
 
@@ -72,7 +84,7 @@ Federal Reserve emphasizing its willingness to pump in liquidity and cut interes
 
 The more general point is that in good times, short-term debt seems relatively cheap compared to long-term capital and the costs of illiquidity seem remote. Markets favor a bank capital structure that is heavy on short-term leverage. In bad times, though, the costs of illiquidity seem to be more salient, while risk-averse (and burnt) bankers are unlikely to take on excessive risk. The markets then encourage a capital structure that is heavy on capital.[4]
 
-# IV. The Crisis Unfolds
+## IV. The Crisis Unfolds
 
 Given the proximate causes of high bank holdings of mortgage-backed securities (as well as other risky loans, such as those to private equity), financed with a capital structure heavy on short-term debt, the crisis had a certain degree of inevitability. As house prices stopped rising, and indeed started falling, mortgage defaults started increasing. MBS fell in value, became more difficult to price, and their prices became more volatile. They became hard to borrow against, even short term. Banks became illiquid, the canonical example being Bear Stearns, which was taken over by JP Morgan in March of 2008.
 
@@ -80,7 +92,7 @@ The Federal Reserve opened new facilities that allowed banks to borrow against i
 
 panic. Interbank lending froze up, with banks resuming lending to one another overnight only after a variety of interventions by central banks and finance ministries, including guarantees of bank debt and bank recapitalizations. But, even well-capitalized banks still seem unwilling to lend.
 
-# V. The Credit Crunch
+## V. The Credit Crunch
 
 As we write this, only overnight credit seems to be available, except for the most unimpeachable credit risks. Why are banks so reluctant to lend? One possibility is that they worry about borrower credit risk, though worries need to be extreme to justify the complete cessation of term lending. A second is that they may worry about having enough liquidity of their own, if their creditors demand funds. Yet, the many Federal Reserve facilities that have been opened should assuage these concerns.
 
@@ -90,7 +102,7 @@ This may also explain why markets for some assets have dried up completely. Some
 
 buyers feel they could get better prices down the line. While there is a price today that reflects those expectations, it is not a price at which the distressed banks want to sell.
 
-# VI. Dealing with the Crunch
+## VI. Dealing with the Crunch
 
 Banks still fear threats, as well as see opportunities, from future episodes of illiquidity. Illiquid assets still compose significant portions of bank balance sheets, as well as nonbank balance sheets. To the extent that they could be unloaded on the market if other institutions have financing difficulties or become insolvent, price volatility is still a concern. For some, low prices would render them insolvent. And for others, low prices would be a tremendous buying opportunity. A resumption of lending will necessitate reducing both fears and potential opportunities. Note that, in this view, central bank intervention to lend against all manner of collateral may not be an unmitigated blessing, because it may have allowed weak entities to continue holding illiquid assets, serving as an overhang on the market.
 
@@ -102,7 +114,7 @@ The third approach is some mix of the first two, where the authorities buy illiq
 
 We have offered some conjectures on the causes of the crisis and suggested some potential remedies to the current credit crunch. Time will certainly offer more data allowing us to sharpen these views.
 
-# REFERENCES
+## REFERENCES
 
 Benmelech, Efraim, and Jennifer Dlugosz. 2008. "The Alchemy of CDOs' Credit Ratings." Unpublished.  
 Diamond, Douglas W., and Raghuram G. Rajan. 2001. "Liquidity Risk, Liquidity Creation and Financial Fragility: A Theory of Banking." Journal of Political Economy, 109(2): 287-327.  

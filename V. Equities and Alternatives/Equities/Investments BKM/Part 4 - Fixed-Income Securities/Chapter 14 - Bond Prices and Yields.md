@@ -804,7 +804,7 @@ Figure 14.11 Yield spreads between corporate and 10-year Treasury bonds Source: 
 
 The pattern of default premiums offered on risky bonds is sometimes called the risk structure of interest rates. The greater the default risk, the higher the default premium. Figure 14.11 shows spreads between yields to maturity of bonds of different risk classes. You can see here clear evidence of credit-risk premiums on promised yields. Note, for example, the incredible run-up of credit spreads during the financial crisis of 2008-2009.
 
-# Credit Default Swaps
+**Credit Default Swaps**
 
 A credit default swap (CDS) is, in effect, an insurance policy on the default risk of a bond or loan. To illustrate, the annual premium in early 2010 on a 5-year Greek sovereign CDS was about  $3\%$ , meaning that the CDS buyer would pay the seller an annual "insurance premium" of \$3 for each \$100 of bond principal. The CDS seller collects these annual payments for the term of the contract but must compensate the buyer for loss of bond value in the event of a default.[13]
 
@@ -826,7 +826,7 @@ Source: Bloomberg, August 1, 2012, http://www.bloomberg.com/quote/CDBR1U5:IND.ch
 
 We say "approximate" because there are some differences between highly rated bonds and bonds synthetically enhanced with credit default swaps. For example, the term of the swap may not match the maturity of the bond. Tax treatment of coupon payments versus swap payments may differ, as may the liquidity of the bonds. Finally, some CDSs may entail one-time up-front payments in addition to annual premiums.
 
-# Credit Default Swaps, Systemic Risk, and the Financial Crisis of 2008-2009
+**Credit Default Swaps, Systemic Risk, and the Financial Crisis of 2008-2009**
 
 The credit crisis of 2008-2009, when lending among banks and other financial institutions effectively seized up, was in large measure a crisis of transparency. The biggest problem was a widespread lack of confidence in the financial standing of counterparties to a trade. If one institution could not be confident that another would remain solvent, it would understandably be reluctant to offer it a loan. When doubt about the credit exposure of customers and trading partners spiked to levels not seen since the Great Depression, the market for loans dried up.
 
@@ -837,7 +837,7 @@ Counterparty risk and lax reporting requirements made it effectively impossible 
 
 In the aftermath of the credit crisis, the Dodd-Frank Act called for new regulation and reforms. One reform is a central clearinghouse for credit derivatives such as CDS contracts. Such a system fosters transparency of positions and allows the clearinghouse to replace traders' offsetting long and short positions with a single net position. It also requires daily recognition of gains or losses on positions through a margin or collateral account. If losses mount, positions have to be unwound before growing to unsustainable levels. Allowing traders to accurately assess counterparty risk, and limiting such risk through margin accounts and the extra back-up of the clearinghouse, can go a long way in limiting systemic risk.
 
-# Credit Risk and Collateralized Debt Obligations
+**Credit Risk and Collateralized Debt Obligations**
 
 Collateralized debt obligations (CDOs) emerged in the last decade as a major mechanism to reallocate credit risk in the fixed-income markets. To create a CDO, a financial institution, commonly a bank, first would establish a legally distinct entity to buy and later resell a portfolio of bonds or other loans. A common vehicle for this purpose was the so-called Structured Investment Vehicle (SIV). An SIV raises funds, often by issuing short-term commercial paper, and uses the proceeds to buy corporate bonds or other forms of debt such as mortgage loans or credit card debt. These loans are first pooled together and then split into a series of classes known as tranches. (Tranche is the French word for "slice.")
 
@@ -865,7 +865,7 @@ Not surprisingly, the rating agencies that had certified these tranches as inves
 
 While CDO issuance fell dramatically in the wake of the financial crisis, they have more recently enjoyed a comeback. However, newer CDOs generally appear to be safer than their pre-crisis cousins. The Dodd-Frank Act requires CDO issuers to retain a material portion of the credit risk of the underlying portfolio. This requirement provides an incentive for issuers to limit credit risk rather than simply off-load it onto another investor. Moreover, banks under the Basel III accord are obligated to hold more capital against the risk of losses. Finally, CDOs today are less likely to hold subprime residential mortgages and more likely to hold higher-rated securities with less leverage.
 
-# SUMMARY
+## SUMMARY
 
 1. Fixed-income securities are distinguished by their promise to pay a fixed or specified stream of income to their holders. The coupon bond is a typical fixed-income security.
 2. Treasury notes and bonds have original maturities greater than one year. They are issued at or near par value, with their prices quoted net of accrued interest.
@@ -881,7 +881,7 @@ While CDO issuance fell dramatically in the wake of the financial crisis, they h
 12. Credit default swaps provide insurance against the default of a bond or loan. The swap buyer pays an annual premium to the swap seller but collects a payment equal to lost value if the loan later goes into default.
 13. Collateralized debt obligations are used to reallocate the credit risk of a pool of loans. The pool is sliced into tranches, with each tranche assigned a different level of seniority in terms of its claims on the cash flows from the underlying loans. High seniority tranches are usually quite safe, with credit risk concentrated on the lower-level tranches. Each tranche can be sold as a stand-alone security.
 
-# KEY TERMS debt securities
+## KEY TERMS debt securities
 
 bond par value
 face value coupon rate

@@ -1,14 +1,21 @@
 ---
+title: Class 6 - Investor Size, Liquidity and Prime Money Market Fund Stress
 parent_directory: Class 6-Bank Runs
-title: Class 6 - Investor size, liquidity and prime money market fund stress
-tags:
-aliases:
-  - Investor size, liquidity and prime money market fund stress
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: claude-haiku-4-5-20251001
+primary_tags:
+  - money market funds
+  - investor behavior
+  - liquidity management
+  - financial crisis 2020
+secondary_tags:
+  - prime institutional funds
+  - redemption runs
+  - federal reserve intervention
+  - asset liquidity
+  - market microstructure
+  - covid 19 impact
 cssclasses: academia
-linter-yaml-title-alias: Class 6 - Investor size, liquidity and prime money market fund stress
 ---
 
 # Investor size, liquidity and prime money market fund stress<sup>1</sup>
@@ -17,7 +24,7 @@ Massive redemptions at money market funds (MMFs) investing primarily in high-qua
 
 JEL classification: G23, G28, E58.
 
-# Key takeaways
+## Key Takeaways
 
 - In March 2020, prime institutional money market funds serving large investors experienced withdrawals irrespective of the liquidity of underlying assets.  
 - During the massive withdrawals, fund managers mostly disposed of less liquid assets, which may have exacerbated market-wide liquidity shortages.  
@@ -25,9 +32,7 @@ JEL classification: G23, G28, E58.
 
 As the Covid-19 shock gathered momentum in March 2020, large withdrawals beset money market mutual funds (MMFs) investing primarily in high-quality short-term private debt securities (prime MMFs). Since these funds are major global providers of short-term dollar funding to banks and non-financial corporates, their stress had system-wide repercussions (Eren, Schrimpf and Sushko (2020a,b)).
 
-This run on prime MMFs was different from other prominent financial runs in history. The bank runs during the Great Depression and the 2008 run on the very
-
-same MMF sector were triggered by concerns about the credit quality of the intermediaries' portfolio of assets. In March 2020, credit quality was not an obvious concern, partly reflecting the strengthened requirements introduced by MMF regulatory reforms in the aftermath of the 2008 crisis.
+This run on prime MMFs was different from other prominent financial runs in history. The bank runs during the Great Depression and the 2008 run on the very same MMF sector were triggered by concerns about the credit quality of the intermediaries' portfolio of assets. In March 2020, credit quality was not an obvious concern, partly reflecting the strengthened requirements introduced by MMF regulatory reforms in the aftermath of the 2008 crisis.
 
 Previous studies of MMF stress have pointed to concerns over funds' liquidity. Li et al (2020) find that prime institutional funds with relatively weaker liquidity positions suffered more pronounced outflows.[2] Cipriani and La Spada (2020) note that the funds' investor base also played a role: while funds' liquidity was relevant for prime institutional funds, it was not for their retail counterparts. One complicating factor in these assessments is that prime institutional and retail funds are subject to different regulatory rules, making it hard to disentangle the effect of the investor base from that of regulation.
 
@@ -39,9 +44,9 @@ In the second part of this feature, we shift the focus from the behaviour of inv
 
 This feature proceeds as follows. In the next section, we present a brief introduction to the MMF sector and survey attendant developments during the March 2020 stress, both at the sector and the fund levels. In the second section, we focus on liquidity positions and investor size as potential drivers of the March stress at US prime institutional MMFs. The third section studies such MMFs' liquidity management before, during and after the stress episode. The last section concludes.
 
-# An overview of MMFs in the March market turmoil
+## An Overview of MMFs in the March Market Turmoil
 
-# Institutional background
+## Institutional Background
 
 MMFs are mutual funds that invest in short-term assets of high credit quality. Their function as intermediaries is to offer a cash management tool to investors, while providing short-term funding to governments, financial institutions and corporates (Aldasoro, Eren and Huang (2021)). As of the end of 2019, the MMF sector had assets under management (AUM) in excess of \$7 trillion globally, mainly in the United States (57%) and the euro area (20%) (FSB (2020b)).<sup>3</sup>
 
@@ -55,7 +60,7 @@ In Europe, shares in MMFs are almost exclusively held by institutional investors
 
 portfolio composition, only LVNAV funds are subject to MMF regulatory guidelines on gates and fees on investor redemptions.<sup>7</sup>
 
-# Developments in the MMF sector in March 2020
+## Developments in the MMF Sector in March 2020
 
 In early March 2020, the initial sanguine reaction of investors to the threat posed by Covid-19 gave way to a frantic "dash-for-cash".<sup>8</sup> Prime institutional MMFs saw 20 consecutive days of outflows between 6 and 26 March 2020 (henceforth, the run or stress period). The redemption dynamics in the midst of this acute market turmoil diverged widely across MMF types.
 
@@ -69,7 +74,7 @@ In response to the market strains, a number of programmes were rolled out to pro
 
 eased the stress by making banks willing buyers of illiquid assets, thus providing liquidity to MMFs to meet redemptions. In so doing, it reduced investors' pre-emptive withdrawals.
 
-# Overview of the March 2020 MMF run<sup>1</sup>
+## Overview of the March 2020 MMF Run<sup>1</sup>
 
 Graph 1
 
@@ -98,11 +103,9 @@ AUM = assets under management; CNAV = constant NAV; LVNAV = low-volatility NAV; 
 
 Sources: CRANE; Informa iMoneyNet; authors' calculations.
 
-Likewise, the ECB announced on 12 March a new instalment of long-term refinancing operations that provided immediate liquidity to the European financial system. The ECB's US dollar operations, anchored to the swap lines with the Federal Reserve announced on 15 March, provided dollar liquidity support. Moreover, on 18 March the ECB's Governing Council included non-financial commercial paper in its
+Likewise, the ECB announced on 12 March a new instalment of long-term refinancing operations that provided immediate liquidity to the European financial system. The ECB's US dollar operations, anchored to the swap lines with the Federal Reserve announced on 15 March, provided dollar liquidity support. Moreover, on 18 March the ECB's Governing Council included non-financial commercial paper in its Pandemic Emergency Purchase Programme. As in the United States, these measures contributed to easing the stress of European funds.
 
-Pandemic Emergency Purchase Programme. As in the United States, these measures contributed to easing the stress of European funds.
-
-# Liquidity and investor size as drivers of the run
+## Liquidity and Investor Size as Drivers of the Run
 
 What characteristics of US prime institutional MMFs influenced the run in March?
 
@@ -145,18 +148,16 @@ More importantly, we find that large and small investors differed starkly in the
 
 A panel regression analysis quantifies more formally the above results (Box A). Funds with larger investors experienced  $1.7\%$  higher daily outflows – that is,  $26\%$  higher cumulative run outflows over the stress period. Further, large investors' daily outflows did not differ materially  $(0.3\%)$  between highand low-liquidity funds, either in terms of economic or statistical significance. Finally, small investors did withdraw more forcefully from low-liquidity funds, to the tune of  $0.8\%$  higher daily outflows (or more than  $10\%$  higher cumulative run outflows).
 
-# Funds' liquidity management over the episode
+## Funds' Liquidity Management Over the Episode
 
-MMF managers could respond to the large redemptions in two alternative ways. They could sell off their most liquid assets, in an attempt to minimise transaction costs, particularly under conditions of acute market illiquidity. But by so doing, they would
-
-# Quantifying the role of liquidity and investor size in MMF run risk
+MMF managers could respond to the large redemptions in two alternative ways. They could sell off their most liquid assets, in an attempt to minimise transaction costs, particularly under conditions of acute market illiquidity. But by so doing, they would weaken their liquidity positions, bringing them closer to the regulatory thresholds and potentially triggering further withdrawals.
 
 We employ panel regression to formally study the role of liquidity and investor size in runs on US prime institutional funds. We first examine the effects of each factor separately and then turn to joint effects.
 
 We start by estimating the following equation over the run period 6-26 March 2020:
 
 $$
-o u t f l o w_{i, t} = \beta_{W L A} \times 1_{l o w W L A, i} + \beta_{M I} \times 1_{h i g h M I, i} + \gamma \times X_{i, t - 1} + a_{t} + u_{i, t},
+outflow_{i,t} = \beta_{WLA} \times 1_{lowWLA,i} + \beta_{MI} \times 1_{highMI,i} + \gamma \times X_{i,t-1} + a_t + u_{i,t},
 $$
 
 where  $outflow_{i,t}$  is the daily outflow from fund  $i$  at time  $t$  calculated as the daily percentage change of AUM; and  $1_{lowWLA,i}$  and  $1_{highMI,i}$  are dummy binary variables, the first one taking value 1 if the fund  $i$ 's average WLA during January–February 2020 was less than the cross-sectional median, and 0 otherwise, and the second taking the value 1 if the minimum investment for fund  $i$  was higher than the cross-sectional median, and 0 otherwise.  $X_{i,t-1}$  are control variables that include lagged AUM (in logarithms) and the gross 30-day yield of each fund, and  $a_t$  is a time fixed effect. In this context,  $\beta_{WLA}$  and  $\beta_{MI}$  measure how the intensity of the run varied on average with the pre-stress fund characteristics.
@@ -188,7 +189,7 @@ Thus, the asset managers of prime institutional MMFs may have added to the liqui
 
 yield. These trades were procyclical, as they took place when private debt was already under selling pressure and cash-like government instruments were in high demand.
 
-# Liquidity management at prime institutional MMFs during the March turmoil<sup>1</sup>
+## Liquidity Management at Prime Institutional MMFs During the March Turmoil
 
 Graph 3
 
@@ -208,7 +209,7 @@ After the Federal Reserve unveiled the MMLF on 18 March 2020, market conditions 
 
 Formal econometric analysis confirms the picture painted by the graphs, providing some additional quantitative insights (Box B). In particular, managers of funds that had seen larger outflows prior to the announcement of the MMLF increased WLA at a faster pace on average. Specifically, a fund experiencing  $22\%$  (or one standard deviation) larger outflows tended to raise its WLA by  $0.8\%$  more in a day, or by  $8\%$  more over the rest of March.
 
-# Conclusions
+## Conclusions
 
 The inability of prime institutional MMFs to provide liquidity on demand in March 2020 called for central bank intervention (FSB (2020a)). Unlike banks, which proved to be useful elastic nodes during the pandemic-induced turmoil (Shin (2020)), the funds' dash for liquidity added to the stress across financial markets. Thus, the provision of central bank liquidity was pivotal in restoring calm (CGFS (2011)).
 
@@ -216,7 +217,7 @@ The events of March 2020 have left an indelible mark. They echoed those during t
 
 Box B
 
-# Assessing the response of liquidity measures to redemptions
+## Assessing the Response of Liquidity Measures to Redemptions
 
 In this box, we conduct panel regressions to assess MMFs' liquidity management in response to the run, differentiating pre-stress behaviour from behaviour during the initial stress phase, before the MMLF and post-MMLF.
 
@@ -245,7 +246,7 @@ $t$ -statistic calculated with robust standard errors in parentheses;  $\ast \as
 1 Includes the lagged logarithm of AUM and the lagged level of the liquidity metric.  
 Sources: CRANE; authors' calculations.
 
-# References
+## References
 
 Aldasoro, I, C Cabanilla, P Disyatat, T Ehlers, P McGuire and G von Peter (2020): "Central bank swap lines and cross-border bank flows", BIS Bulletin, no 34, December.  
 Aldasoro, I, E Eren, and W Huang (2021): "Dollar funding of non-US Banks through Covid-19", BIS Quarterly Review, March, pp 33-42.  

@@ -1,9 +1,9 @@
 ---
-title: Runs on Money Market Mutual Funds
-parent_directory: Class 6-Bank Runs
-formatted: 2025-12-21 05:00:00 AM
-formatter_model: kimi-k2-turbo
-cli-tool: claude-code
+title: "Runs on Money Market Mutual Funds"
+parent_directory: "Class 6-Bank Runs"
+formatted: 2025-12-21 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
   - money market mutual funds
   - financial crisis 2008
@@ -87,7 +87,7 @@ More broadly, our analysis contributes to several empirical literatures on finan
 
 Our analysis proceeds as follows. Section I provides details of the institutional background to our analysis. Section II presents our simple theoretical model, while Section III introduces our data and tests the predictions from the theoretical model. Section IV compares the run on MMMFs to that experienced by ultra-short bond funds during the financial crisis. Section V analyzes the dynamic interactions between investor types through vector autoregressions fitted to daily flows, Section VI quantifies the effect of different factors on the cross-sectional distribution of flows, while Section VII concludes.
 
-# I. Institutional Background
+## I. Institutional Background
 
 Traditional commercial bank deposit accounts and MMMFs are similar in some respects (e.g., the presumption of dollar-in-dollar-out), but quite different in others (e.g., no explicit deposit guarantees and vastly different regulatory structures, including disclosure requirements). Like other mutual funds, MMMFs are regulated under the Investment Company Act of 1940 and its various amendments (henceforth, ICA). However, they operate under a special provision of the ICA, Rule 2a-7, which allows them to value investor shares at the amortized cost or book value of assets—an accounting-based rather than a market-based principle—that is, shares
 
@@ -97,7 +97,7 @@ Like banks, MMMFs seek to offer highly liquid liabilities, while holding less li
 
 Due to the presence of significant fixed costs of operating, it is common for multiple share classes with different levels of expense ratios to coexist in a single MMMF: a feature which we exploit heavily in our empirical tests to follow. Apart from potentially different expense ratios, these share classes always enjoy identical (pro rata) claims on the fund's assets. Thus, redemptions in one share class—should they result in a reduction in portfolio liquidity for a fund—negatively impact remaining investors in all share classes of that fund equally. Those share classes with low expense ratios require high investment minimums, which allow only large-scale (and, presumably, more sophisticated and attentive) investors to buy them; those with high expense ratios are populated with smaller-scale investors. Thus, funds with multiple share classes enable us to compare the behavior of players who differ in the precision of their information about fundamentals and/or the behavior of other investors, holding constant all fund characteristics: notably portfolio quality and fund management company characteristics (e.g., the ability to subsidize fund losses to prevent a run).
 
-# II. A Simple Theoretical Model
+## II. A Simple Theoretical Model
 
 Next, we develop a set of robust predictions using a theoretical setting which captures several of the features of the MMMF market described above. We do so in
 
@@ -107,7 +107,7 @@ Over the years prior to 2008, the provisions of Rule 2a-7 have been tightened to
 
 the context of a simple coordination game with regime change, then discuss several testable implications for investor redemption behavior in funds with multiple share classes. Our model introduces a simple form of heterogeneity—uninformed versus informed investors—into a representative example from the class of global games models which have been used to study run-like behavior.
 
-# A. Basic Structure
+### A. Basic Structure
 
 Our setup and exposition follows studies such as Morris and Shin (2001) and Angeles and Werning (2006), except that we will allow for a fraction of uninformed agents that monitor the market less closely, and, as such, are unaware of a potential run as it is developing. The model's status quo—maintaining a NAV of \$1 per share—will be abandoned if a sufficiently large fraction of agents withdraw from the fund.
 
@@ -159,7 +159,7 @@ When  $\sqrt{2\pi\alpha_x} < (\alpha_z + \alpha_0)\mu$ , there exist values of  
 
 Our setup is intentionally kept simple. In the online Appendix we discuss how similar comparative statics emerge in versions of the bank run games of Goldstein and Pauzner (2005) and He and Manela (2016) when they are augmented with a measure of uninformed agents. Alternative models such as Hellwig and Veldkamp (2009) endogenize the acquisition of information but involve similar trade-offs and will imply similar comparative statics results, i.e., adding a fraction of investors who maintain the status quo weakens the complementarities and thus makes it easier for the strategic investors to coordinate on the status quo.
 
-# B. Testable Predictions
+### B. Testable Predictions
 
 For purposes of solving the model, it is sufficient to know the fraction of investors who receive informative signals each period. Accordingly, we introduce a simple way of interpreting the flows from funds with multiple share classes, which generates several testable predictions. As a simple illustration, assume there are two types of investors, and each fund has two share classes. Large, sophisticated investors invest in share class S, and smaller, unsophisticated investors invest in share class U. If monitoring money market conditions largely involves fixed costs, then type S investors will face lower monitoring costs per dollar invested. As such, we would expect them to monitor conditions more frequently. Accordingly, we will assume that type S and U investors receive informative signals with probabilities  $p$  and  $q$ , respectively, where  $0 \leq q < p \leq 1$ .
 
@@ -175,11 +175,11 @@ Our model makes three key predictions which are testable at the share class leve
 
 Since these comparative statics hold conditional on  $\theta$  and  $z$ , they also hold unconditionally. Note that predictions (i) and (iii) hold within funds and are, therefore, identifiable in regressions with fund fixed effects.
 
-# III. Testing the Theory: Evidence of Strategic Behavior from Investor Share Class Flows
+## III. Testing the Theory: Evidence of Strategic Behavior from Investor Share Class Flows
 
 Compared with commercial banks, our data on money market mutual funds (MMMFs) are unique in several dimensions that allow unprecedented insights into the mechanism of runs through a high level of granularity in both the cross-sectional and time domains.[11] This section first introduces our data, before proceeding with a set of cross-sectional empirical tests of the predictions from the simple model of Section II.
 
-# A. Data
+### A. Data
 
 Our data are purchased from iMoneyNet, a company that collects daily information from over 2,000 US registered MMMFs that invest primarily in US short-term, dollar-denominated debt obligations, and cover the period from February to December 2008. A comparison with statistics from the Investment Company
 
@@ -191,7 +191,7 @@ Also, since the Reserve Primary Fund is widely viewed by market participants as 
 
 Further information on our dataset, including univariate summary statistics, are available in the online Appendix.
 
-# B. Expense Ratios and Account Sizes
+### B. Expense Ratios and Account Sizes
 
 Our empirical analysis uses the expense ratio charged to a given share class as a proxy for the level of sophistication of investors in that share class. Table 1 empirically documents that lower expense ratio share classes are generally only available to investors with larger amounts of money to invest. Specifically, for each institutional share class,  $i$ , for which data on the minimum required investment amount is available as of September 12, 2008 (the Friday prior to the Lehman default), we regress the log of minimum dollar investment on expense ratio ( $ER$ ). These coefficients are reported in panel A of Table 1. The specifications in panel B replace the continuous measure  $ER$  with a dummy variable which equals 1 when the expense ratio is less than 35 basis points, and 0, otherwise. We report results separately for prime share
 
@@ -212,7 +212,7 @@ FIGURE 2. SUMMARY OF TESTS OF THEORETICAL PREDICTIONS
 
 Notes: This graph shows net outflows (the percentage change in total fund assets under management multiplied by  $-1$ ) by share class type, across all prime MMMFs from September 15 to September 19. First, each share class within each prime fund is placed in one of three bins: (i) retail share classes, and institutional share classes having an expense ratio (ii) above or (iii) no more than  $35~\mathrm{bps /yr}$ . Next, each of these three bins is subdivided, according to whether or not the share class is a claim on a prime fund with a high fraction—at least 75 percent—of its investment dollars (across all share classes, retail and institutional) represented by institutional share classes with an expense ratio no more than  $35~\mathrm{bps /yr}$ . Value-weighted average net outflows with 95 percent confidence intervals (CI), are shown for each of the six bins.
 
-# C. Cross-Sectional Tests
+### C. Cross-Sectional Tests
 
 Expanding our analysis to use the share class expense ratio  $(ER)$ —which, unlike investment minimums, is available for all share classes in iMoneyNet—as a (negatively signed) proxy for investor sophistication, we next conduct a set of simple tests of the theoretical predictions of our model. To this end, we compute value-weighted percentage outflows (investor redemptions minus purchases divided by total net assets) of all share classes within one of three bins (retail share classes, and institutional share classes with an  $ER$  above or less than or equal to 35 bps/year) in individual prime funds during September 15–19, 2008. Then, Figure 2 plots the average of these bin values across all prime funds, separately for funds having a high versus low fraction of large institutional share classes relative to total prime fund assets (with the threshold at 75 percent, by value, of large institutional share classes),  $\omega$ .[15] For purposes of generating the figure, we classify all institutional share classes with expense ratios less than or equal to 35 bps/year (essentially the cross-sectional mean of 34 bps/year) as sophisticated, while the remaining are classified as unsophisticated.[16]
 
@@ -284,7 +284,7 @@ A caveat is in order before proceeding. Our analysis uses investor clientele for
 
 yield and liquidity) or unobserved investor characteristics (beyond our proxy of expense ratio). For instance, it is plausible that investors are more likely to receive a bad signal about the quality of asset holdings in funds with high fractions of sophisticated investors, and, so, redeem more aggressively from such funds—versus our hypothesis that sophisticated investors are reacting strategically to each other. We note, however, that such increased information, under this mechanism, would have to be available to sophisticated investors, and not to the unsophisticated—otherwise, our within-fund tests would still control for the information environment. Moreover, this alternative mechanism does not explain why (as we will show shortly) sophisticated investor flows should depend on unsophisticated investor actions. Thus, we believe that our hypotheses regarding strategic complementarities are more reasonable, given our empirical results, than this alternative hypothesis.
 
-# IV. The Role of Fixed NAV: Comparison with Ultra-Short (Variable NAV) Bond Funds
+## IV. The Role of Fixed NAV: Comparison with Ultra-Short (Variable NAV) Bond Funds
 
 The cross-sectional tests of Table 3 explore strategic complementarities by changing the type of investor (large-scale sophisticated versus smaller-scale unsophisticated institutional investors), while controlling for portfolio fundamentals (quality of assets), as proxied by the lagged 7-day portfolio gross yield. A current issue of contention among academics, regulators, and the investment management industry is whether the fixed share price of MMMFs is a significant contributor to the potential for investor runs.[25] Indeed, the latest round of SEC regulatory changes, effective October 2016, requires all prime institutional share classes to be offered for purchase and sale (by the management company) at a floating NAV, defined as a per-share price that reflects an assessment by the management company of the daily market valuation of portfolio assets.[26]
 
@@ -328,7 +328,7 @@ By October 2008, MMMF shares were backstopped through several programs initiated
 
 Differences between MMMFs and ultra-short bond funds prevent us from drawing too strong conclusions from these results about the role of a variable share price in reducing the importance of payoff complementarities. While ultra-short funds normally hold riskier assets than MMMFs (thus, the variable share price), they might not have participated as heavily in the degradation of asset quality in the financial commercial paper market during September 2008. With this caveat, our results point to fixed share prices as likely amplifying the run on prime MMMFs triggered by the deterioration in the fundamentals during the Lehman week. Further, as is studied in greater detail for corporate bond funds by Goldstein, Jiang, and Ng (2015), there is still scope for complementarities even with a floating NAV. Investors still have an incentive to redeem early given the low degree of secondary market liquidity and the potential lack of reliable market prices for use in NAV calculations. Moreover, the new regulations will effectively segment the MMMF market between institutional and retail investors, which, according to our model above, will potentially strengthen complementarities among institutional investors.
 
-# V. Dynamic Interactions between Investor Types
+## V. Dynamic Interactions between Investor Types
 
 As noted earlier, a unique feature of our data is that we observe the daily flows of share classes associated with investor types of different levels of sophistication. In this section, we use our data to study whether the actions of unsophisticated investors affect the actions of sophisticated investors in a dynamic setting.
 
@@ -375,7 +375,7 @@ some evidence that sophisticated investors are more likely to run in larger fund
 
 Finally, we recognize that low  $ER$  investors could also respond to the same-day behavior of high  $ER$  investors.[38] Redemption requests at MMMFs are placed throughout the day. While most funds redeem all shares at the end of the day, some institutional share classes allow redemptions at various points during the day. Regardless, investors submit redemption requests throughout the day, even if their redemptions are not honored until 4 PM eastern standard time. Thus, it is plausible that large investors could be tipped off about the behavior of small investors in plenty of time to redeem their own shares on the same day.[39] Columns 4-6 in Table 6 account for this effect by adding contemporaneous flows from small-scale investors,  $High_{i,t}$ , along with an interaction term,  $High_{i,t} \times \% High_{i,t-1}$ . We find only a modest effect of the contemporaneous value of  $High_{it}$  on  $Low_{it}$ .[40] In contrast, the contemporaneous interaction term  $High_{i,t} \times \% High_{i,t-1}$  is significant and economically large. Sophisticated and unsophisticated investor actions are apparently more likely to be coordinated precisely when our model predicts that they have the strongest incentives to coordinate.
 
-# VI. Nonlinearities and Magnitudes: Evidence from Dynamic Quantile Regressions
+## VI. Nonlinearities and Magnitudes: Evidence from Dynamic Quantile Regressions
 
 We next adopt a panel quantile regression approach that further allows us to identify the fundamental characteristics of a fund that may make it more susceptible to run-like behavior by investors and helps identify what role the size and/or sophistication level of a fund's investor base play in increasing its exposure to run-like risk. Our quantile approach may also be more robust to potential multiplicity of equilibria.[41] We see the primary purpose of this analysis as helping to uncover the magnitude of cross-sectional heterogeneity, both before and after controlling for observable characteristics. Second, in the absence of a liquid secondary market, optimal policy and welfare calculations are likely to be sensitive to the ex post distribution of outflows across funds.[42]
 
@@ -402,7 +402,7 @@ way, we can determine whether fund and/or investor characteristics differentiall
 
 We use our fitted model to simulate the impact of perturbations in initial observable characteristics on one-week (cumulative) flow distributions.47 Table 7 presents a summary of this simulation, which provides two primary insights. First, as shown in the first row of Table 7, regardless of fund characteristics, there is substantial heterogeneity in fund flows even for funds with similar observable characteristics. Second, we find much stronger evidence (statistically and economically) of a nonlinear dependency of flows on investor characteristics in left-tail quantiles (1 percent and 5 percent), relative to the median or right tail quantiles (50 percent and 90 percent). For example, at the one percentile of flows (the largest outflows), a one standard deviation perturbation upward in the percentage of a prime institutional fund owned by sophisticated investors is expected to produce an outflow that is 20 percent of assets greater than that of a one standard deviation perturbation downward; at the median, this sensitivity is a much lower 9 percent of assets; a statistical test that the difference between the impact of  $\% S\phi h$  between these two quantiles is zero exhibits a  $p$ -value of 2 percent. Compared to these effects, the nonlinear impact of the yield and fund total asset variables are somewhat muted. Given the backward-looking nature of the reported yield, it is likely that such information quickly became stale during the fast-moving Lehman week. Finally, the (lagged) flow standard deviation has a modest effect on the median  $(-5\mathrm{percent})$ , but increases the spread of the distribution.
 
-# VII. Conclusion
+## VII. Conclusion
 
 This paper studies prime MMMF run-like behavior during the crisis period following the Lehman default of September 2008. We find that run behavior was especially pronounced among prime MMMF share classes that cater predominantly to very large-scale institutional investors. We use data on different share classes within
 

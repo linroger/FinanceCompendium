@@ -1,11 +1,23 @@
 ---
-parent_directory:
-title: Greece Faces Bond-Swap Holdouts
-tags:
-aliases:
-parent_folder: Class 4- Restructuring Public Debt
-subfolder:
-key_concepts:
+title: "Greece Faces Bond-Swap Holdouts"
+parent_directory: Class 4- Restructuring Public Debt
+formatted: 2025-12-21 04:38:30 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - greek debt crisis
+  - sovereign debt restructuring
+  - bond swap agreements
+  - collective action clauses
+secondary_tags:
+  - eurozone debt crisis
+  - debt burden reduction
+  - creditor holdouts
+  - debt exchange offers
+  - foreign law bonds
+  - greek government bonds
+  - debt maturity extension
+  - bailout agreements
 cssclasses: academia
 ---
 
@@ -27,7 +39,7 @@ The official said \(97 \%\)of the bonds involved in Greece's debt restructuring 
 
 "We want to achieve a maximum participation from the remaining [euro]6.4 billion still outstanding," the official said.
 
-His comments come after investors holding 16 foreign-laws bonds last week agreed to key changes allowing amendments in bond contracts to force the remaining investors into the plan.
+His comments come after investors holding 16 foreign-law bonds last week agreed to key changes allowing amendments in bond contracts to force the remaining investors into the plan.
 
 The foreign-law bond swap is part of Greece's debt restructuring deal that saw more than [euro]100 billion knocked off its debt burden, and which aims to reduce the country's debt burden from more than  $165\%$  of gross domestic product to a more sustainable  $120.5\%$  by 2020.
 

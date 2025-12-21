@@ -65,7 +65,7 @@ Summary of Financial and Non-"Boiler-Plate" Covenants and Other Contingencies
 
 ## DETAILS FROM COVENANTS
 
-## Covenants from Pre-downgrade Agreement (1999)
+### Covenants from Pre-downgrade Agreement (1999)
 
 SELECTED COVENANTS OF THE BORROWER
 

@@ -1,3 +1,24 @@
+---
+title: "Behavioral Finance and Technical Analysis"
+parent_directory: "Part 3 - Equilibrium in Capital Markets"
+formatted: "2025-12-21 04:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - behavioral finance
+  - technical analysis
+  - efficient market hypothesis
+secondary_tags:
+  - information processing errors
+  - behavioral biases
+  - limits to arbitrage
+  - prospect theory
+  - disposition effect
+  - momentum strategies
+  - sentiment indicators
+cssclasses: academia
+---
+
 # Behavioral Finance and Technical Analysis
 
 ## Chapter 12
@@ -534,7 +555,7 @@ Once that shift is accomplished, my investments will be in great shape. The sole
 
 Identify three behavioral finance concepts illustrated in Pierce's comments and describe each of the three concepts. Discuss how an investor practicing standard or traditional finance would challenge each of the three concepts.
 
-# E-INVESTMENTS EXERCISES
+## E-Investments Exercises
 
 1. Log on to finance.yahoo.com to find the monthly dividend-adjusted closing prices for the most recent 4 years for Abercrombie & Fitch (ANF). Also collect the closing level of the S&P 500 Index over the same period.
 
@@ -548,7 +569,7 @@ b. Would you consider their charts as bullish or bearish? Why?
 c. What are the short interest ratios for the two companies?
 
 
-# SOLUTIONS TO CONCEPT CHECKS
+## Solutions to Concept Checks
 
 1. Conservatism implies that investors will at first respond too slowly to new information, leading to trends in prices. Representativeness can lead them to extrapolate trends too far into the future and overshoot intrinsic value. Eventually, when the pricing error is corrected, we observe a reversal.
 2. Out-of-favor stocks will exhibit low prices relative to various proxies for intrinsic value such as earnings. Because of regret avoidance, these stocks will need to offer a more attractive rate of return to induce investors to hold them. Thus, low P/E stocks might on average offer higher rates of return.

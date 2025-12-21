@@ -1,13 +1,23 @@
 ---
+title: Money Market Mutual Fund Liquidity Facility
 parent_directory: Class 6-Bank Runs
-title: Class 6 - Money Market Mutual Fund Liquidity Facility
-tags:
-aliases:
-  - Money Market Mutual Fund Liquidity Facility
-  - MMLF
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - money market funds
+  - liquidity facility
+  - federal reserve
+  - financial crisis
+  - asset backed securities
+secondary_tags:
+  - commercial paper
+  - credit protection
+  - treasury support
+  - regulatory capital
+  - non-recourse lending
+  - collateral valuation
+  - advance maturity
 cssclasses: academia
 ---
 
@@ -17,8 +27,8 @@ Facility: To provide liquidity to Money Market Mutual Funds ("Funds"), the Feder
 
 Timing: The Facility will open on March 23, 2020. The Facility will generally take eligible collateral that:
 
-NaN. If purchased after March 23, 2020, is pledged concurrently with the borrowing; or  
-NaN. If purchased on or after March 18, 2020, but on or before March 23, 2020, is pledged expeditiously starting on March 23, 2020.
+1. If purchased after March 23, 2020, is pledged concurrently with the borrowing; or
+2. If purchased on or after March 18, 2020, but on or before March 23, 2020, is pledged expeditiously starting on March 23, 2020.
 
 For negotiable certificates of deposit and variable rate demand notes, a borrower may purchase these assets on or after March 23, 2020, and pledge them on or after March 25, 2020.1
 
@@ -30,23 +40,24 @@ Advance Maturity: The maturity date of an advance will equal the maturity date o
 
 Eligible Collateral: Collateral that is eligible for pledge under the Facility must be one of the following types:
 
-NaN. U.S. Treasuries & Fully Guaranteed Agencies;  
-NaN. Securities issued by U.S. Government Sponsored Entities;  
-NaN. Asset-backed commercial paper, unsecured commercial paper, or a negotiable certificate of deposit that is issued by a U.S. issuer, $^{2}$  and that has a short-term rating at the time purchased from the Fund or pledged to the Reserve Bank in the top rating category (e.g., not lower than A1, F1, or P1, as applicable) from at least two major nationally recognized statistical rating organizations ("NRSRO") or, if rated by only one major NRSRO, is rated within the top rating category by that NRSRO;  
-NaN. U.S. municipal short-term debt (excluding variable rate demand notes) that:
+1. U.S. Treasuries & Fully Guaranteed Agencies;
+2. Securities issued by U.S. Government Sponsored Entities;
+3. Asset-backed commercial paper, unsecured commercial paper, or a negotiable certificate of deposit that is issued by a U.S. issuer, $^{2}$ and that has a short-term rating at the time purchased from the Fund or pledged to the Reserve Bank in the top rating category (e.g., not lower than A1, F1, or P1, as applicable) from at least two major nationally recognized statistical rating organizations ("NRSRO") or, if rated by only one major NRSRO, is rated within the top rating category by that NRSRO;
+4. U.S. municipal short-term debt (excluding variable rate demand notes) that:
 
-i. Has a maturity that does not exceed 12 months; and  
-ii. At the time purchased from the Fund or pledged to the Reserve Bank:
+   - Has a maturity that does not exceed 12 months; and
+   - At the time purchased from the Fund or pledged to the Reserve Bank:
 
-1. Is rated in the top short-term rating category (e.g., rated SP1, MIG1, or F1, as applicable) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top rating category by that NRSRO; or  
-2. If not rated in a short-term rating category, is rated in one of the top two long-term rating categories (e.g., AA or equivalent or above) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top two rating categories by that NRSRO.
+     1. Is rated in the top short-term rating category (e.g., rated SP1, MIG1, or F1, as applicable) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top rating category by that NRSRO; or
+     2. If not rated in a short-term rating category, is rated in one of the top two long-term rating categories (e.g., AA or equivalent or above) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top two rating categories by that NRSRO.
 
-NaN. Variable rate demand note that:
+5. Variable rate demand note that:
 
-i. Has a demand feature that allows holders to tender the note at their option within 12 months; and ii. At the time purchased from the Fund or pledged to the Reserve Bank:
+   - Has a demand feature that allows holders to tender the note at their option within 12 months; and
+   - At the time purchased from the Fund or pledged to the Reserve Bank:
 
-1. Is rated in the top short-term rating category (e.g., rated SP1, VMIG1, or F1, as applicable) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top rating category by that NRSRO; or  
-2. If not rated in a short-term rating category, is rated in one of the top two long-term rating categories (e.g., AA or equivalent or above) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top two rating categories by that NRSRO.
+     1. Is rated in the top short-term rating category (e.g., rated SP1, VMIG1, or F1, as applicable) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top rating category by that NRSRO; or
+     2. If not rated in a short-term rating category, is rated in one of the top two long-term rating categories (e.g., AA or equivalent or above) by at least two major NRSROs or if rated by only one major NRSRO, is rated within the top two rating categories by that NRSRO.
 
 In addition, the facility may accept receivables from certain repurchase agreements. The feasibility of adding these and other asset classes to the facility will be considered in the future.
 

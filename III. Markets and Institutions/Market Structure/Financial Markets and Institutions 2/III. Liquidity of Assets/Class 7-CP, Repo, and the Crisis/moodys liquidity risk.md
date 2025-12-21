@@ -1,26 +1,47 @@
 ---
-parent_directory:
-title: RATING METHODOLOGY
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: "Moody's Approach to Assessing Liquidity Risk Insurance"
+parent_directory: "Class 7-CP, Repo, and the Crisis"
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+   - liquidity risk analysis
+   - commercial paper ratings
+   - alternate liquidity provisions
+   - moody's rating methodology
+secondary_tags:
+   - cashflow analysis
+   - stress scenario testing
+   - contingency funding plans
+   - bank backstop facilities
+   - systemic risk assessment
+   - confidence sensitivity
 cssclasses: academia
-linter-yaml-title-alias: RATING METHODOLOGY
 ---
 
-<table><tr><td>Contact</td><td>Phone</td></tr><tr><td>New York</td><td></td></tr><tr><td>Pamela M. Stumpp</td><td>1.212.553.1653</td></tr><tr><td>Daniel Gates</td><td></td></tr><tr><td>Dan Curry</td><td></td></tr><tr><td>George Meyers</td><td></td></tr><tr><td>Annika Sandback</td><td></td></tr><tr><td>Robert Young</td><td></td></tr><tr><td>Farisa Zarin</td><td></td></tr><tr><td>London</td><td></td></tr><tr><td>Andrew Cunningham</td><td></td></tr><tr><td>Carlos Winzer</td><td></td></tr></table>
+| Contact | Phone |
+|---|---|
+| New York |  |
+| Pamela M. Stumpp | 1.212.553.1653 |
+| Daniel Gates |  |
+| Dan Curry |  |
+| George Meyers |  |
+| Annika Sandback |  |
+| Robert Young |  |
+| Farisa Zarin |  |
+| London |  |
+| Andrew Cunningham |  |
+| Carlos Winzer |  |
 
 # RATING METHODOLOGY
 
-# Moody's Approach to Assessing the Adequacy of "Liquidity Risk Insurance"
+## Moody's Approach to Assessing the Adequacy of "Liquidity Risk Insurance"
 
 Reduced Availability of Traditional Backstop Heightens Need for Systemic Analysis
 
-# Product of the Standing Committee on Liquidity and Confidence Sensitivity
+## Product of the Standing Committee on Liquidity and Confidence Sensitivity
 
-# Summary Opinion
+## Summary Opinion
 
 This report describes Moody's approach to assessing the adequacy of a corporate issuer's alternate liquidity provisions. The process outlined below is our recommended best practices for such analysis. The extent of its usage has depended and will continue to depend on the depth of dialogue and understanding of the relevant issues between Moody's analysts and management of the rated issuers. As the supply of traditional bank-provided backstop for commercial paper contracts relative to the expanding volume of commercial paper, this subject has become increasingly important.
 
@@ -34,7 +55,7 @@ We note that liquidity profiles vary significantly for issuers across different 
 
 To accommodate this diversity, Moody's uses an issuer-by-issuer approach to assess the adequacy of liquidity insurance arrangements. Moody's avoids the use of pre-determined target liquidity levels.
 
-# What Moody's is Doing to Address the Changing Landscape of Alternate Liquidity
+## What Moody's is Doing to Address the Changing Landscape of Alternate Liquidity
 
 In response to the current squeeze in available backstop arrangements – and the potential for increased systemic risk – Moody's has stepped up our outreach program around this issue. Over the course of the past year, the Standing Committee on Confidence Sensitivity and Liquidity has been in active contact with issuers, investors, and intermediaries regarding alternate liquidity issues. Our outreach program is an iterative process, and further refinement to our approach is likely as a result of our active dialogue.
 
@@ -52,22 +73,22 @@ The new environment requires a more refined and systematic analysis. In short, t
 
 The cornerstone of our approach is based on the fact that the issuer's individual circumstances will always transcend general criteria. This approach is essential to our proper governance and ultimately to the value we deliver to the market.
 
-# Authors
+## Authors
 
 Pamela M. Stumpp  
 Daniel Gates
 
-# Editor
+## Editor
 
 Dale Wagner
 
-# Production Associate
+## Production Associate
 
 Irina Apostolova
 
-# Market Developments
+## Market Developments
 
-# Rising CP Issuance but Less Backstop may Signal Systemic Risk
+## Rising CP Issuance but Less Backstop may Signal Systemic Risk
 
 CP issuance is on the rise and the demand for alternate liquidity coverage is growing rapidly. At the same time that there is a reduction and concentration in the supply of traditional bank backstop arrangements. A host of new providers and products – ECNs, Money Market Notes and Revolving Commitment Vehicles (RCVs) – have entered the market, but have failed to fill the gap, leading to rising costs for issuers. Some issuers are responding with reduced coverage, which could lead to increased risk system-wide.
 
@@ -85,15 +106,15 @@ Some issuers are responding to the squeeze by shifting their approach to liquidi
 
 As the cost of backstop arrangements moves up, there is a concomitant pressure to reduce "insurance coverage" causing concern about an increase in systemic risks.
 
-# Moody's Step-By-Step Approach
+## Moody's Step-By-Step Approach
 
-# ISSUER SPECIFIC ANALYSIS IS KEY
+## ISSUER SPECIFIC ANALYSIS IS KEY
 
 In evaluating an issuer's liquidity risk insurance, we consider the potential near term claims on the issuer, and compare our findings to all likely near-term sources of cash. Commercial paper is considered to be one component of near-term claims, and bank facilities are viewed as just one component of the potential near-term sources of cash.
 
 Moody's analysis begins with a critical evaluation of an issuer's sources and uses of cash. We then analyze a series of reasonable stress scenarios, and assess the company's ability to meet both its operating needs and its debt obligations under these scenarios. This is followed by a close examination of the company's contingency funding plans for a period of stress caused by either company-specific concerns or by a general market disruption.
 
-# Step I: Liquidity Composition Analysis
+### Step I: Liquidity Composition Analysis
 
 Our starting point is an assessment of the issuer's potential sources of liquidity.
 
@@ -108,140 +129,62 @@ Relatively few Prime rated commercial paper issuers have defaulted in Moody's lo
 
 Since 1972, 11 issuers with Moody's ratings have defaulted on commercial paper. Exhibit 2 lists these issuers along with details of their defaults and their ratings before default. Moody's short-term debt ratings emphasize default risk, rather than the emphasis on expected loss for long term ratings. It is noteworthy that most defaults eventually resulted in full recovery for commercial paper holders. This illustrates the importance of immediacy in considering various sources of cash. For all sources of cash we consider immediacy (critical), quality, and diversity.
 
-# The following considerations apply for various liquidity sources:
+### The following considerations apply for various liquidity sources:
 
-# INTERNAL SOURCES OF LIQUIDITY
+#### INTERNAL SOURCES OF LIQUIDITY
 
-# Cash on Hand
+#### Cash on Hand
 
 In evaluating an issuer's cash on-hand we consider:
 
 - Currencies in which an issuer invests  
 - Possible complications related to cross border repatriation, currency conversion and tax issues.
 
-# Near Term Cash Assets
+#### Near Term Cash Assets
 
-- The likely timing for conversion to cash/immediacy of availability  
-Possible value implications for liquidation in a stress situation  
-Strength and availability of cash flow
+#### Management of Working Capital and Capital Expenditures
 
-# Management of Working Capital and Capital Expenditures
+#### EXTERNAL SOURCES OF LIQUIDITY
 
-- Feasibility under a stress scenario
+#### Commercial Paper
 
-# EXTERNAL SOURCES OF LIQUIDITY
+#### Revolving Commitment Vehicles
 
-# Commercial Paper
+#### Money Market Notes
 
-- Committed backstop arrangements  
-- The current commercial paper maturity schedule  
-- Uncommitted backup (consider that these are likely to be extremely confidence sensitive)/no backup  
-- Bank lines vs. peak commercial paper outstanding by month (as applicable) – historical and projected
+#### ECNs
 
-# Revolving Commitment Vehicles
+#### Capital Markets - (MTN's, Shelf, Asset Securitization, etc.)
 
-# Money Market Notes
+#### Proceeds from Asset Sales
 
-# ECNs
-
-- Ascertain whether documentation ensures that ECNs are extendible under all circumstances
-
-# Capital Markets - (MTN's, Shelf, Asset Securitization, etc.)
-
-Assess counterparty risk, if applicable
-
-# Proceeds from Asset Sales
-
-- Assess liquidity, timing and value when there could be a strong need to sell quickly
-
-# Bank Credit Facilities
+#### Bank Credit Facilities
 
 In looking at an issuer's bank credit facilities, we consider both quantity and quality. Moody's is particularly watchful for provisions that could provide lenders with a basis not to fund. These include covenants, material adverse change (MAC) clauses, level of bank lenders' financial strength, relationship factors, facility maturity dates, and renewal procedures for multi-year and/or 364 day revolving credits with/without a term option. For example, Moody's places greater value on relationship based committed bank facilities in comparison to transactional or arms-length arrangements (see Moody's Assessing the Strength of a Liquidity Facility – June 1999).
 
 In addition, we consider the mechanics for loan draws, as well as the geographic market in which the funds are delivered. (For example, an issuer with a Euro-CP program may need cash available in London to refund maturing commercial paper). Time zones and differing holiday schedules are also factored into the analysis. These are often addressed through the use of swing lines.
 
-# EVALUATING TOTAL CASHFLOWS
+### EVALUATING TOTAL CASHFLOWS
 
-The analysis of total cash inflows and outflows is the foundation for our assessment of an issuer's financial flexibility, and is performed based on monthly or quarterly projections. Our analysis, which starts with potential claims on cash, looks at how much surplus cashflow an issuer has to meet maturing CP, particularly at "highpoint". The analysis also includes operating uses of cash, the maturity profile of debt obligations or other financial claims that could become payable, and contingencies.
+### MATURITY PROFILE ANALYSIS
 
-# MATURITY PROFILE ANALYSIS
+#### Potential Near-Term Claims on Cash
 
-As part of our cashflow analysis we conduct a review of the issuer's maturity profile. This analysis considers the amounts and dates for payment of direct obligations along with the maturity dates of credit facilities, and possible contingent obligations. We start with a broad look at all potential claims on cash. Our analysis looks at the following:
+##### Direct Obligations
 
-# Potential Near-Term Claims on Cash
+##### Contingent Obligations
 
-# Direct Obligations
+##### Other Claims on Cash
 
-Short-term debt  
+### ASSESSING THE CHARACTERISTICS OF EXPECTED CASHFLOW
 
-- Long-term debt (current portion)  
-Capitalized lease obligations
+#### Cash Inflows
 
-# Contingent Obligations
+#### Cash Outflows
 
-Funding arrangements with put features  
-Variable rate re-marketed securities  
-Financial and commodity derivatives contracts  
-Make-whole (true-up) arrangements for losses on securitization portfolios  
+### Step II: Sensitivity Analysis and Scenario Analysis
 
-- Off-balance-sheet financing obligations  
-Litigation/judgements  
-License arrangements  
-- Earn-out obligations for acquisitions  
-Warranty obligations  
-Product liability  
-Joint venture funding requirements  
-- Margin requirements
-
-# Other Claims on Cash
-
-- Working capital:
-
-How absorbing is working capital in a liquidity squeeze? How confidence sensitive is trade credit?
-
-Capital spending commitments  
-Stock buybacks
-
-# ASSESSING THE CHARACTERISTICS OF EXPECTED CASHFLOW
-
-In assessing likely sources of cash, considerations include: the strength and stability of cashflow, the liquidity of the issuer's assets, the issuer's flexibility to make adjustments in cash uses such as capital spending and working capital, and vulnerability to reduced access to capital markets.
-
-We also look at the level of necessary or committed capital spending and funding needs to support working capital.
-
-In our analysis of a company's ability to adjust its uses of cash, we consider the potential long-term implications of such a move in light of the company's need to sustain and protect its business franchise.
-
-Overall, we look at the following flow-related issues:
-
-# Cash Inflows
-
-- Operating receipts (focus is on stability, degree of certainty, vulnerability to loss of confidence)  
-- Asset sale proceeds (focus is on timing, certainty, value under a stress scenario)  
-Securitization proceeds (focus is on timing, certainty, value)  
-- Reduction in working capital (how realistic under a stress scenario)
-
-# Cash Outflows
-
-- Operating disbursements  
-- All other cash expenses – including insurance; pension; employee benefit plans; taxes – focus on timing and amount  
-- Increase in working capital - consider degree to which trade credit is confidence sensitive  
-Acquisitions - Earn-Outs - committed or necessary to business  
-Capital expenditures - consider commitments, flexibility to reduce the pace of spending  
-Contingencies (see "Maturity Profile")  
-- Debt service – long term obligations that have put or re-marketing features  
-- Interest  
-Principal  
-Capitalized lease obligations  
-Stock buybacks
-
-Net Cashflow is determined by subtracting Cash Outflows from Cash Inflows. Thereafter, we measure how net cashflow covers CP maturities.
-
-- Plus: Beginning Cash  
-Less: CP Maturities  
-- Equals: Net Cash After CP Maturities
-
-# Step II: Sensitivity Analysis and Scenario Analysis
-
-# SENSITIVITY ANALYSIS/STRESS SCENARIO ANALYSIS
+### SENSITIVITY ANALYSIS/STRESS SCENARIO ANALYSIS
 
 Once we have the framework of all baseline cashflow giving effect to all short-term obligations, (both direct and contingent), we perform a sensitivity analysis on the issuer's sources and uses of cash for use in stress case analysis of cash in-flows and out-flows.
 
@@ -251,82 +194,23 @@ Our analysis tests the issuer's ability to cover its cash needs by testing its a
 
 There is no formulaic linkage between the outcome of the stress case analysis and the perceived adequacy of the issuer's liquidity risk insurance. Moody's analysis considers the severity of the assumptions relative to each issuer's individual circumstances, including differences in confidence sensitivity and the ability to access internal and external sources of liquidity in a reasonable stress scenario.
 
-# Cash Inflow Sensitivities
+#### Cash Inflow Sensitivities
 
-Our sensitivity analysis begins with a review of the sources of potential cashflow sensitivities. We start with cash inflows, considering the possible adverse impact on operating receipts from:
+#### Cash Outflow Sensitivities
 
-- Potential for revenue decline considering the nature of the business (for example, utilities generally experience little decline, whereas declines for cyclical industries are steeper)  
-- Slow paying customers – customers remit more slowly in a turmoil situation  
-Higher default rates - customers don't pay in crisis  
-- Supplier risk - possible shortages of critical raw materials, stocks (e.g. retailers); supply chain imbalances  
-Foreign currency conversion  
-Cross border issues  
-- General business disruption risks
+#### STRESS CASE SENSITIVITIES FOR STRESS TESTING
 
-# Cash Outflow Sensitivities
+##### Bank Funding
 
-We then apply the same sensitivity analysis to cash outflows for needs which might include:
+##### Asset Securitization
 
-- Maturing CP, debt and puttable securities  
-- Payments due at scheduled maturity  
-- Likelihood that put provisions on long term debt are exercised  
-Other Obligations
+##### Debt Issuance
 
-We question whether any operating disbursements can be deferred, and if so, for how long. We also question whether, under this stress case, interest expense will increase as a result of higher debt levels or higher effective interest rates.
+##### Sale of Equity or Assets
 
-Working Capital
+##### DURATION ANALYSIS
 
-We question whether working capital can be reduced, and if so, by how much and how long it will it take. Alternatively, we determine the minimal amount of growth in working capital that should be expected without having an adverse effect on revenues.
-
-Capital Expenditures
-
-The amount of committed capital expenditures
-
-Ability to defer capital expenditures
-
-Amount of time that capital expenditures can be maintained at a reduced level without having an adverse effect on the business
-
-Contingencies
-
-The effect, if any, on contingent payments as a result of the assumptions used in the stress case
-
-# STRESS CASE SENSITIVITIES FOR STRESS TESTING
-
-Stress case cashflows are compared to maturities, including commercial paper. The result of the stress analysis is useful in understanding a specific issuer's sensitivity to unforeseen adverse events and its vulnerability to a restriction of external funding. The analysis gives us helpful insight into the time period over which an issuer could withstand a stressed environment.
-
-The following are some of the critical variables that play a role in the evaluation of an issuer's cashflow in a stress analysis:
-
-# Bank Funding
-
-- The level of commitment of the issuer's committed credit facilities (principal focus)  
-- Ramifications if the banks don't fund, or if a sizable portion of the banks do not fund  
-- The strength, depth and durability of the bank group and its relationship with the issuer together with terms of the credit agreements including covenants
-
-# Asset Securitization
-
-- Issuer's experience, asset quality  
-Operations and systems capacity  
-- Commitment of conduit purchase arrangements  
-Timeliness of market access
-
-# Debt Issuance
-
-- Likelihood of issuer access given a market disruption or other credit event
-
-# Sale of Equity or Assets
-
-- Ramifications if asset or equity sales don't occur
-
-# DURATION ANALYSIS
-
-Critical to the assessment of an issuer's liquidity risk insurance is its ability to cover maturing commercial paper, at highpoint, from stressed cashflow. Given the stressed cashflow, we determine how many days of maturing commercial paper an issuer can cover. While there is no formulaic "right" result, this analysis helps to define more accurately the individual issuer's circumstances with regard to alternate liquidity.
-
-Some of the tests for adequacy of coverage under the stress scenario include:
-
-(1) At highpoint, how many days of maturing commercial paper can be covered by stressed cashflow without requiring additional funding?  
-(2) If additional funding is required, what are the alternative sources that will provide the cash? How quickly can cash be obtained?
-
-# Step III: Analysis of the Issuer's Contingency Plans
+### Step III: Analysis of the Issuer's Contingency Plans
 
 Last, we review the stress scenarios that the issuer has considered and look at its planning for adverse events. The sensitivity and stress testing enable us to establish a framework in which to have an in-depth dialogue with each issuer. This dialogue will cover the issuer's contingency plans for responding to a market disruption or to an issuer-specific event that could cause a loss of market confidence. This discussion is likely to include:
 

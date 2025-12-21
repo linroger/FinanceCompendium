@@ -1,44 +1,42 @@
 ---
-parent_directory:
-title: QUARTERLY JOURNAL
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: Fear of Fire Sales, Illiquidity Seeking, and Credit Freezes
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: claude-haiku-4-5-20251001
+primary_tags:
+  - fire sales
+  - illiquidity seeking
+  - credit freezes
+  - financial crisis
+secondary_tags:
+  - asset pricing
+  - liquidity risk
+  - bank runs
+  - market microstructure
+  - diamond rajan model
 cssclasses: academia
-linter-yaml-title-alias: QUARTERLY JOURNAL
 ---
 
 THE
 
-# QUARTERLY JOURNAL
+# Fear of Fire Sales, Illiquidity Seeking, and Credit Freezes
 
-# OF ECONOMICS
+## Authors
+Douglas W. Diamond and Raghuram G. Rajan
 
-Vol. CXXVI
-
-May 2011
-
-Issue 2
-
-# FEAR OF FIRE SALES, ILLIQUIDITY SEEKING, AND CREDIT FREEZES*
-
-# DOUGLAS W. DIAMOND AND RAGHURAM G. RAJAN
+*Quarterly Journal of Economics, Vol. CXXVI, May 2011, Issue 2
 
 Is there any need to clean up a banking system by closing some banks and forcing others to sell assets if the risk of a crisis becomes high? Impaired banks that may be forced to sell illiquid assets in the future have private incentives to hold, rather than sell, those assets Anticipating a potential fire sale, liquid buyers expect high returns, reducing their incentive to lend. Privately optimal trading decisions therefore lead to a worse fire sale and a larger drop in lending than is necessary. We discuss alternative ways of cleaning up the system and the associated costs and benefits. JEL Codes: G21, G01, G028.
 
-# I. INTRODUCTION
+## I. Introduction
 
-A financial crisis, especially one that embeds fears of a potential future liquidity shock, in which highly leveraged financial institutions will be forced to sell illiquid assets at fire sale prices, can lead to a variety of seemingly perverse behaviors, including a halt in the sale of illiquid assets by potentially impaired institutions, an increased concentration of these institutions in assets exposed to liquidity risk, an increase in their short-term leverage, and a reduction in lending by healthy financial institutions. Indeed, owners of the highly leveraged institutions could hold on to
+A financial crisis, especially one that embeds fears of a potential future liquidity shock, in which highly leveraged financial institutions will be forced to sell illiquid assets at fire sale prices, can lead to a variety of seemingly perverse behaviors, including a halt in the sale of illiquid assets by potentially impaired institutions, an increased concentration of these institutions in assets exposed to liquidity risk, an increase in their short-term leverage, and a reduction in lending by healthy financial institutions. Indeed, owners of the highly leveraged institutions could hold on to illiquid assets, causing such institutions to fail conditional on the liquidity shock, even when early sales could prevent them failing.
 
 *Both authors are from the University of Chicago's Booth School of Business. We thank the Center for Research in Security Prices and the National Science Foundation for research support. Rajan thanks the Initiative on Global Markets and the Stigler Center for research support. We thank anonymous referees, Viral Acharya, Franklin Allen, Denis Gromb, Larry Katz (the editor), Amit Seru, Jeremy Stein, and Robert Vishny for helpful discussions, as well as participants in seminars at the Federal Reserve Banks of Richmond and New York, Harvard University, Northwestern University, MIT, Princeton University, the University of Chicago, the University of Minnesota, and Washington University for useful comments.
 
 © The Author(s) 2011. Published by Oxford University Press on behalf of the President and Fellows of Harvard College. All rights reserved. For Permissions, please email: journals.permissions@oup.com.
 
-The Quarterly Journal of Economics (2011) 126, 557-591. doi:10.1093/qje/qjr012.
-
-illiquid assets, causing such institutions to fail conditional on the liquidity shock, even when early sales could prevent them failing. We argue that interventions may be helpful in avoiding the worst consequences of the financial crisis as well as in increasing the level of lending and discuss the costs and benefits of alternative methods.
+The Quarterly Journal of Economics (2011) 126, 557-591. doi:10.1093/qje/qjr012. We argue that interventions may be helpful in avoiding the worst consequences of the financial crisis as well as in increasing the level of lending and discuss the costs and benefits of alternative methods.
 
 Let us start with a quick description of our model. Let a set of financial institutions with substantial short-term liabilities (henceforth called "banks") have a significant quantity of assets that have a limited set of potential buyers. One example of such an asset is a mortgage-backed security that in an environment where some mortgages have defaulted, can be valued accurately only by some specialized firms. Furthermore, let us assume that with some probability, the banks will need to realize cash quickly in the future. Such a need for liquidity might stem from unusual demands of the banks' customers, who draw on committed lines of credit or on their demandable deposits. It might also stem from panic, as depositors and customers, fearing a bank could fail, pull their deposits and accounts from the bank. Regardless of where the demand for liquidity comes from, it would force banks to sell assets quickly or, equivalently, raise money. Given that the potential buyers for the banks' assets have limited resources, the assets would have to be sold at fire sale prices (Shleifer and Vishny 1992; Allen and Gale 1994).
 
@@ -64,7 +62,7 @@ To unfreeze asset and credit markets, the authorities will have to move potentia
 
 In Section II, we present the model. In Section III, we examine the sources of illiquidity; in Section IV we explore extensions to the model to show how the possibility of a market freeze is general. In Section V we explore the effects of several government interventions, especially forced sales. In Section VI, we relate the paper to the literature. We then conclude.
 
-# II. THE MODEL
+## II. The Model
 
 We will present the model in two steps: First, we will present a stripped-down version that makes the basic point about the private incentive to retain exposure to liquidity risk. In Section III, we will present a more detailed extension that endogenizes prices.
 
@@ -77,17 +75,17 @@ At date 1, banks face a common liquidity shock with probability  $q$ , in which 
 
 The bank can raise money in anticipation of the shock by selling assets at date 0 for  $P_0$  per unit of date-2 face value, or it can sell assets after the shock has been realized at date 1 for  $P_1$  per unit of date-2 face value. Note that if the liquidity shock does not hit at date 1, the bank will not part with assets at that date for a per unit price less than 1.
 
-# II.A. Prices That Buyers Are Willing to Pay for Illiquid Financial Assets
+### II.A. Prices That Buyers Are Willing to Pay for Illiquid Financial Assets
 
 We will describe how the price that buyers are willing to pay at date 0 is determined, given the date-1 price. Let us assume there are buyers who are not subject to liquidity shocks (such as banks with more liquid assets or longer-term liabilities, private equity, or Warren Buffet) who can buy at either date paying cash. The buyer is indifferent between buying at either date if the price gives him the same expected date 2 payoff per dollar spent, as long as the return is greater than the return on cash (so  $P_0 \leq 1$  and  $P_1 \leq 1$ ). If he buys at date 0, he gets  $\frac{1}{P_0}$  at date 2, while if he holds on to the dollar to buy the asset at date 1, he will get  $\frac{1}{P_1}$  at date 2 if the liquidity shock hits at date 1, and 1 at date 2 if it does not. Therefore, the date-0 bid price of the buyer solves  $\frac{1}{P_0} = q \frac{1}{P_1} + (1 - q)$ , or
 
 $$
-P_{0}^{b i d} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag {1}
+P_{0}^{bid} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag{1}
 $$
 
 We will now determine the price that banks are willing to sell for at date 0, given the date-1 price, first when the bank remains solvent when the liquidity shock hits and second, when it becomes insolvent upon the shock but has limited liability. We will show that trading can dry up at date 0 in the latter case.
 
-# II.B. Reservation Prices When Banks Are Solvent Given the Shock
+### II.B. Reservation Prices When Banks Are Solvent Given the Shock
 
 Now consider the always-solvent bank's decision on when to sell. If the bank postpones any sale until after the shock has hit at date 1, it will have to sell a fraction  $\eta_{1}$  of the asset such that  $\eta_{1}ZP_{1} = fD$ , or  $\eta_{1} = \frac{fD}{ZP_{1}}$ . If it is solvent,  $\eta_{1} \leq 1$ , and it can raise the necessary amounts to pay withdrawing depositors and the depositors who stay until date 2. The date-0 expected value of the payoff from selling at date 1 with probability  $q$  is  $q[(1 - \eta_{1})Z - (1 - f)D] + (1 - q)[Z - D]$ , which on substituting for  $\eta_{1}$  simplifies to  $Z - D - qfD(\frac{1}{P_{1}} - 1)$ .
 
@@ -96,14 +94,14 @@ In words, the bank foregoes an implicit return of  $\left( \frac{1}{P_1} - 1 \ri
 The bank is indifferent between selling at date 0 and date 1 when  $fD\left( {1 - \frac{1}{{P}_{0}}}\right)  = {qfD}\left( {1 - \frac{1}{{P}_{1}}}\right)$  or
 
 $$
-P_{0}^{A s k} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag {2}
+P_{0}^{Ask} = \frac{1}{q \frac{1}{P_{1}} + (1 - q)}. \tag{2}
 $$
 
 This is also the bid price (see [1]), so both buyers and sellers are willing to trade on both dates as long as the date-0 price bears this relationship to the (yet-to-be-determined) date-1 price.
 
 Note that we do not model any idiosyncratic reason for either buyer or seller to trade at date 0 as opposed to date 1. If we did, there would be active trading on both dates.
 
-# II.C. Limited Liability, Fire Sales, and No Trade
+### II.C. Limited Liability, Fire Sales, and No Trade
 
 We assumed above that the bank was solvent when it had to sell to meet the liquidity shock. What if the bank becomes insolvent conditional on the liquidity shock at date 1, and the banker has limited liability? Clearly, the banker would never sell at date 0 if he would fail at date 1 conditional on the shock, even after selling. The intuition is simple. The banker, in maximizing the value of equity, will want to maximize the value of the bank's assets conditional on survival. Since the bank survives only in the state with no liquidity shock, and because an asset pays off most when the banker holds it to maturity rather than selling it prematurely for a discounted price  $P_0 < 1$ , the banker prefers to hold the asset rather than sell it.
 
@@ -127,7 +125,7 @@ Note that from the banker's perspective, when the bank holds a single asset, a s
 
 In sum then, as expectations of date-1 liquidity fall so that the bank is insolvent conditional on the future shock, date-0 trading spontaneously dries up. Our model suggests then that distressed banks hold on to illiquid assets instead of selling them because they believe the price of the asset will be much higher in the future, conditional on their own survival. Indeed, they would want to buy more of the illiquid asset from unleveraged entities if they had spare cash.
 
-# III. THE SOURCES OF ILLIQUIDITY
+## III. The Sources of Illiquidity
 
 Thus far, we have not described how the price  $P_{1}$  is determined. Clearly, this is critical to our analysis, for without a low  $P_{1}$  there would be no illiquidity or potential insolvency at date 1 and no market freeze at date 0. Let the weight of the potentially "illiquid" banks we have described so far be normalized to 1. We will now distinguish between securities that can be sold and loans on the banks' portfolios that can be recalled but not sold. This will add more detail to our analysis and will not qualitatively affect our previous analysis.
 
@@ -146,7 +144,7 @@ Loans and securities pay off.
 Banker consumes proceeds after paying deposits.
 Buyers consume.</td></tr></table>
 
-# III.A. Fire Sales and Lending
+### III.A. Fire Sales and Lending
 
 Let us now derive prices. If  $\theta - \bar{I} \geq fD$ , then liquidity is plentiful. All industrial projects are funded, and no loans are liquidated. The asset will trade for full face value  $Z$ , so  $P_0 = P_1 = 1$ .
 
@@ -188,13 +186,13 @@ Proof. Lending increases in  $P_0$ .  $P_0$  decreases in  $f, D$ , and  $q$  an
 
 As the returns to buying illiquid assets increases, date-0 lending shrinks. Indeed, if date-0 trading in the financial asset halts completely, liquid buyers may have plenty of cash on their balance sheet that they do not lend in anticipation of buying assets cheaply at a date-1 fire sale (Acharya, Shin, and Yorulmazer 2009). To the outsider politician, this might seem excessive caution; after all, the liquid buyers have no fear of liquidity shocks. Politicians might want to mandate more date-0 lending for the liquid buyer. However, the behavior of potential buyers could well be a rational choice as they demand a premium for locking up their money in term loans.
 
-# III.B. Illiquid Banks
+### III.B. Illiquid Banks
 
 We assumed thus far that the price of securities is high enough that the bank sells only some fraction of the securities it holds to attract all the available cash in the market, that is,  $P_{1}\beta Z > \left[\theta - I\left(\frac{1}{P_{0}}\right)\right]$ . The demand for liquidity could be so high that even if the bank sells all the securities it has for all the cash buyers have (so that the security price  $P_{1}^{C}$  is such that  $P_{1}^{C}\beta Z = \left[\theta - I\left(\frac{1}{P_{0}}\right)\right]$ ), the amount obtained from liquidating loans (down to those with liquidation value  $P_{1}^{C}$ ) falls short of the amount demanded by depositors, that is,  $\left[\theta - I\left(\frac{1}{P_{0}}\right)\right] + (1 - \beta)\frac{Z}{2}[1 - (P_{1}^{C})^{2}] < fD$ .
 
 If the bank continued to hold all its securities to date 1, it will now have to recall loans whose liquidation value per unit of face value liquidated is lower than  $P_1^C$  so as to meet withdrawals. If  $P_1$  solves (3), the solvent bank is now better off selling some of its securities at date 0 rather than waiting until date 1 and liquidating loans. Indeed, all banks will have this incentive until the price of date-1 securities is pushed down to the  $P_1$  that solves (3). Note that although individually banks will have the incentive to sell earlier, collectively they will not be better off because the cash in the market limits what they can get for securities. Indeed, by attempting to sell securities at date 0 for what the market will pay, the banks could collectively reduce their value considerably, perhaps even to the point of insolvency. We will not explore such adverse attempts to corner liquidity in what follows, leaving them to future research.
 
-# III.C. Bank Runs and Inefficiency
+### III.C. Bank Runs and Inefficiency
 
 Our focus thus far has been on explaining why the market for specialized financial assets can freeze and how this affects other lending. We have ignored any efficiency consequences of
 

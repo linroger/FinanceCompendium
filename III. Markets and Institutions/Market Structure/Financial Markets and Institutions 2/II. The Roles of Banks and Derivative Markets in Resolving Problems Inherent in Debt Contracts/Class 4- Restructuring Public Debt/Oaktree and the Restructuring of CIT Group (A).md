@@ -1,11 +1,23 @@
 ---
-parent_directory:
-title: Oaktree and the Restructuring of CIT Group (A)
-tags:
-aliases:
-parent_folder: Class 4- Restructuring Public Debt
-subfolder:
-key_concepts:
+title: "Oaktree and the Restructuring of CIT Group (A)"
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 4- Restructuring Public Debt
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+  - cit group restructuring
+  - oaktree capital management
+  - distressed debt investing
+  - chapter 11 bankruptcy
+secondary_tags:
+  - temporary liquidity guarantee program
+  - unsecured debt financing
+  - creditor committee
+  - prepackaged bankruptcy
+  - federal deposit insurance corporation
+  - capital purchase program
+  - troubled asset relief program
 cssclasses: academia
 ---
 
@@ -21,7 +33,7 @@ CIT's performance had started to deteriorate in mid-2007 when financial markets 
 
 With over  \$2 billion of debt due before the end of the year and over\$ 4 billion due in the first half of 2010 (see Exhibit 3), CIT badly needed funding. As a result, CIT was negotiating with the investor group for a \$3 billion credit facility to meet short term funding needs. This would help CIT stay afloat until it could restructure the company. However, a more substantial restructuring of the company would require additional financing. The creditors had to decide whether to extend the loan and, if so, the terms on which they would do so.
 
-# CIT Group
+## CIT Group
 
 For much of the century since its founding in 1908, CIT provided loans and leases for heavy machinery, technology equipment, and other manufacturing durables.1 CIT pioneered consumer automobile financing in 1916, and then expanded into consumer installment loans for furniture and electric appliances.2 In 1928, CIT entered the factoring business.3 After World War II CIT continued to grow, acquiring not only financial services firms such as banks and insurers, but also manufacturers of greeting cards and office furniture.4 The ensuing decades were somewhat tumultuous for CIT, which in 1969 exited the auto financing business, emphasizing personal and home equity loans as well as equipment leasing. By 1977, CIT operated over 1,000 consumer finance offices. In 1980, RCA
 
@@ -31,7 +43,7 @@ In 2003, Wall Street veteran Jeffrey M. Peek joined CIT as CEO after missing out
 
 At the start of 2009, CIT divided its loan portfolio into five primary customer categories: corporate  $(32.2\%)$ , transportation  $(20.9\%)$ , vendor  $(19.1\%)$ , consumer  $(18.5\%)$ , and trade finance  $(8.9\%)$ . (Exhibit 5 shows managed assets by segment.) Most of these loans were secured by hard assets or receivables. Corporate finance consisted primarily of lending and leasing to small and medium-sized businesses. CIT's transportation financing included the third-largest U.S. railcar and third-largest global aircraft leasing operations. CIT's vendor financing partnered with Original Equipment Manufacturers (OEMs), dealers, and distributors to finance their office equipment leasing. CIT's trade financing operation was the leading provider of factoring services for both manufacturers and importers with roughly one million customers. These customers were as diverse as daycare centers, Dunkin' Donuts, and several National Hockey League teams, spanning 50 countries, though U.S. and Canadian customers accounted for  $80\%$  of CIT's assets.[9] It was roughly the size of the  $25^{\text{th}}$ -largest bank holding company in the United States. It also provided financing to a wide variety of industries.
 
-# Response to the Credit Crisis
+## Response to the Credit Crisis
 
 Unlike commercial banks, which were largely financed by customer deposits, CIT was a finance company, and as such, it primarily relied on capital markets to raise funds. Historically, nearly  $80\%$  of CIT's debt financing was mediumto long-term unsecured debt, with commercial paper issuance and secured non-recourse borrowing accounting for another  $15\%$ . Deposits at its Utah-based bank represented less than  $5\%$  of the company's funding. (See Exhibit 2.)
 
@@ -49,9 +61,9 @@ As a major lender to small businesses—a part of the economy considered crucial
 
 In April 2009, the Federal Reserve authorized CIT to transfer  \$5.7 billion of government-guaranteed student loans to its Utah bank subsidiary; in return, the bank paid\$ 1.6 billion in cash to its parent company. At the bank level, this transaction provided collateral with which it could access the Federal Reserve discount window. However, after reporting losses for two years straight, CIT shares had lost  $98\%$  of their value[17] as delinquencies on its loan portfolio rose to  $4.7\%$  for the quarter ending June 30, 2009, compared to  $2.8\%$  for other U.S. lenders. (See Exhibit 6 for CIT stock performance.) For the same period, CIT delinquencies on consumer loans (excluding credit cards) were  $9.6\%$ , compared to a national average of  $4.5\%$ .[18] By summer 2009, each of the major rating agencies had downgraded CIT's credit ratings (see Exhibit 7) and its capitalization ratio fell to  $12.8\%$  of its risk-weighted assets.
 
-# Oaktree's Investment in CIT
+## Oaktree's Investment in CIT
 
-Oaktree Capital was formed in 1995 and in a short time, became a leading global alternative investment firm. As part of its investment philosophy Oaktree pursued opportunities exclusively in what it called "less efficient markets,"<sup>c</sup> focusing on distressed debt and control investments.
+Oaktree Capital was formed in 1995 and in a short time, became a leading global alternative investment firm. As part of its investment philosophy Oaktree pursued opportunities exclusively in what it called "less efficient markets,"[^c] focusing on distressed debt and control investments.
 
 The financial turmoil of 2008 brought many such investment opportunities. In particular, in late 2008, Rajath Shourie and his team at Oaktree developed the view that the market was undervaluing the recovery that CIT's unsecured creditors would realize if the firm filed for bankruptcy. This assessment was built on Oaktree's experience as one of the investors in FINOVA Capital Corporation, a finance company that filed for Chapter 11 bankruptcy in 2001. While acquiring a position in CIT's publicly-traded debt would not allow Shourie to perform a formal due diligence process, a deep understanding of the kind of assets held by CIT and the process of bankruptcy gave Shourie confidence in his investment thesis. To realize this investment opportunity, it was in Oaktree's interest to try to accumulate a position in CIT's unsecured debt, without leaking this information to the market.[d]
 
@@ -59,7 +71,7 @@ All CIT notes were trading at a discount, but there was a significant dispersion
 
 Debt investors typically had no influence over managerial decisions as long as the debt continued performing. This generated significant uncertainty around potential outcomes for distressed debt investors. Indeed, in Shourie's experience, it was not uncommon to expect to gain control in a restructuring and instead to be paid at par; or to take a company that seemed headed toward liquidation, and then to see it somehow survive. But for investors like Oaktree, this uncertainty was not a bad thing. Shourie recalled that some of the most successful transactions he had seen tended to be opportunistic follow-on investments like the one they were evaluating for CIT. To take advantage of these new opportunities, "one had to stay active and informed and had to have the necessary liquidity to act."
 
-# Denial of Access to TLGP and Its Aftermath
+## Denial of Access to TLGP and Its Aftermath
 
 On July 15, 2009 CIT announced that, "(d)discussions with government agencies have ceased. There is no appreciable likelihood of additional government support being provided over the near term."19 This led to further credit downgrades of CIT, and its annual CDS spread jumped to 6,429 basis points from 1,780 the week before (see Exhibit 9).
 
@@ -69,7 +81,7 @@ In addition to Oaktree, the group of large investors included Pacific Investment
 
 In principle, outside of a bankruptcy, restructuring could be done through voluntary exchanges. There was also a possibility of a middle ground, whereby the company would get pre-approval of a bankruptcy reorganization plan before filing for Chapter 11. This was known as a pre-packaged bankruptcy or "prepack." A pre-approved reorganization plan would substantially reduce the uncertainty, time, and expenses typically associated with a bankruptcy. In a typical bankruptcy, all claims would be sorted into separate "classes". For example, secured debtholders would be in a separate class from unsecured debtholders. For the "prepack" plan to be approved by the bankruptcy court, it would need to be approved by claimholders of at least two-thirds of the face value of the outstanding claims, representing at least one-half of the claimholders in each partially-impaired class. This voting would need to happen before the bankruptcy filing.
 
-While a successful restructuring was not implausible, the reality was that, to date, there had not been a single successful reorganization of a major financial firm. Shourie's team had to decide whether the \(3 billion credit facility was a good investment, and if so, on what terms? With CIT barely surviving, the decision had to be made quickly.
+While a successful restructuring was not implausible, the reality was that, to date, there had not been a single successful reorganization of a major financial firm. Shourie's team had to decide whether the \$3 billion credit facility was a good investment, and if so, on what terms? With CIT barely surviving, the decision had to be made quickly.
 
 Exhibit 1 CIT Group, Quarterly Income Statement Data, 2007-Q2 2009 (in $ millions)  
 
@@ -118,7 +130,7 @@ Exhibit 7 CIT Group, Standard and Poor's Credit Ratings, November 1970-July 2009
 
 Source: CapitalIQ, accessed October 2010.
 
-# Exhibit 8 Average Transaction Price, 01/01/2009-07/15/2009 (in cents per \$1)
+## Exhibit 8 Average Transaction Price, 01/01/2009-07/15/2009 (in cents per \$1)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d2a87551-13b5-47a7-959b-a2fcbbc93424/b98912549784b38bb617dd0dc9fda16d125de2e649729f736c7c793eecd4bd17.jpg)  
 Floating Rate Notes Due 06/08/2009
@@ -126,7 +138,7 @@ Floating Rate Notes Due 06/08/2009
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d2a87551-13b5-47a7-959b-a2fcbbc93424/23ef573181d2951ed208aad1621c7c33180fba8a768f88cd8c95f7057dfa4212.jpg)  
 Floating Rate Notes Due 08/17/2009
 
-# Exhibit 8 (continued)
+## Exhibit 8 (continued)
 
 Floating Rate Notes Due 11/30/2012  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d2a87551-13b5-47a7-959b-a2fcbbc93424/541636afca2f8d078068d799caa7c1a9e36b87e753991719bdf627c8267895ba.jpg)  
@@ -136,11 +148,11 @@ Exhibit 9 CIT Group, Daily CDS Quotes, July 2007-July 2009 (in basis points)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d2a87551-13b5-47a7-959b-a2fcbbc93424/67b8f9ebfa74188980aa4d50c9adce0bf60761976ebfbb0a70e70e32008141d0.jpg)  
 Source: DataStream, accessed September 2010.
 
-# Endnotes
+## Endnotes
 
 1 Julie Creswell and Stephen Labaton, "A Test Case for How Small Is Too Big to Fail," The New York Times, July 15, 2009, via Factiva, accessed September 2010.  
 $^{2}$ CIT Group, "Our History: A New Venture (1908-1924)," www.cit.com/about-cit/our-history/the-citstory/a-new-venture/index.htm, accessed September 2010.  
-<sup>3</sup>CIT Group, "Our History: Standing Firm (1925-1945)," www.cit.com/about-cit/our-history/the-cit-story/standing-firm/index.htm, accessed September 2010.  
+[^3]CIT Group, "Our History: Standing Firm (1925-1945)," www.cit.com/about-cit/our-history/the-cit-story/standing-firm/index.htm, accessed September 2010.  
 $^{4}$  CIT Group, "Our History: Postwar Prosperity (1946-1965)," www.cit.com/about-cit/our-history/the-cit-story/post-war-posperity/index.htm, accessed September 2010.  
 $^{5}$  CIT Group, "Our History: Adapting to Change (1966-1985)," www.cit.com/about-cit/our-history/the-cit-story/adapting-to-change/index.htm, accessed September 2010.  
 $^{6}$  CIT Group, "Our History: A New Economy (1986-2008)," www.cit.com/about-cit/our-history/the-cit-story/a-new-economy/index.htm, accessed September 2010.  
@@ -150,7 +162,7 @@ $^{9}$  CIT Group, 2008 10-K report (New York: CIT Group, 2008).
 10 Standard & Poor's, Research Update, March 17, 2008.  
 $^{11}$  CIT Group, June 2009 10-Q report (New York: CIT Group, 2009).  
 $^{12}$  CIT Group, June 2009 10-Q Report (New York: CIT Group, 2009).  
-<sup>13</sup> Federal Deposit Insurance Corporation, "Temporary Liquidity Guarantee Program," www.fdic.gov/regulations/resources/tlgp/index.html, accessed October 2010.  
+[^13] Federal Deposit Insurance Corporation, "Temporary Liquidity Guarantee Program," www.fdic.gov/regulations/resources/tlgp/index.html, accessed October 2010.  
 $^{14}$  CIT Group, June 2009 10-Q report (New York: CIT Group, 2009).  
 15 Jeff Gerth and Brady Dennis, "How a Loophole Benefits GE in Bank Rescue," The Washington Post, July 29, 2009, via washingtonpost.com, accessed September 2010; Jeffrey McCracken and Serena Ng, "Major Lender Faces Crunch," The Wall Street Journal, July 11, 2009, via Factiva, accessed September 2010.  
 16 Pierre Paulden and Caroline Salas, "CIT Group Says Its Failure Risks Demise of Customers," July 13, 2009, via Bloomberg.com, accessed September 2010; Ari Levy and Linda Shen, " Peek Battles for CIT's Life as 'Storm' Pummels Bonds (Update 2)," Bloomberg, July 14, 2009, via Bloomberg.com, accessed October 2010.  

@@ -1,12 +1,22 @@
 ---
-aliases:
-  - Note on the Leveraged Loan Market
-tags:
-key_concepts:
-parent_directory: Class 6-Bank Runs
+title: "Class 6 - Note on the Leveraged Loan Market (HBS)"
+parent_directory: "III. Liquidity of Assets/Class 6-Bank Runs"
+formatted: 2025-12-21 04:45:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+   - leveraged loans
+   - loan syndication
+   - collateralized loan obligations
+   - institutional investors
+secondary_tags:
+   - syndicated lending
+   - bank origination
+   - credit cycles
+   - loan mutual funds
+   - leveraged finance
+   - CLO structures
 cssclasses: academia
-title: Class 6 - Note on the Leveraged Loan Market (HBS)
-linter-yaml-title-alias: Class 6 - Note on the Leveraged Loan Market (HBS)
 ---
 
 VICTORIA IVASHINA
@@ -35,7 +45,7 @@ Collecting and assessing information about a borrower is costly, so the lead ban
 
 Loan syndication is a form of the so-called "originate-to-distribute" model of lending and, as such, is sensitive to information asymmetry due to imperfect alignment of incentives between the originating lender and the syndicate participants. For example, the lead lender could have an incentive to originate
 
-a high-risk loan in order to build a relationship with a particular borrower or in order to collect the underwriting fees charged directly to the borrower at the origination of the loan. $^{f}$
+a high-risk loan in order to build a relationship with a particular borrower or in order to collect the underwriting fees charged directly to the borrower at the origination of the loan.<sup>f</sup>
 
 In view of the above, while a traditional bank loan spread is determined by borrower characteristics and the nature of the collateral, in a syndication loan the private content of the information collected by the lead bank induces an additional premium driven by the degree of information asymmetry between the lead and participant banks. The lead's reputation and the implicit requirement that it retains a share of the loan on its balance sheet (the so-called "skin in the game") help to mitigate this cost. This is one explanation for why the arrangers market is so concentrated and is dominated by very large banks. (See Exhibit 3.) More broadly, due to information asymmetry, a bank's ability to originate syndicated loans is closely connected to its reputation, the strength of its balance sheet, and its capacity to retain a share of the loan on its balance.
 
@@ -77,7 +87,7 @@ Institutional investors that actively participate in the syndicate include colla
 
 # Collateralized Loan Obligations
 
-Close were the largest investors in – and arguably the largest driving force behind – the credit boom in leveraged loans preceding the 2007-2008 financial crisis. Close differ from other institutions that participate in the high-yield loan market in several ways, giving CLO managers different incentives from those of other syndicate participants.
+Close were the largest investors in – and arguably the largest driving force behind – the credit boom in leveraged loans preceding the 2007-2008 financial crisis. CLOs differ from other institutions that participate in the high-yield loan market in several ways, giving CLO managers different incentives from those of other syndicate participants.
 
 Exhibit 7 illustrates the structure of a typical CLO. To structure a CLO, a collateral manager—typically an investment management company—sets up a bankruptcy-remote special purpose vehicle (SPV). The collateral manager then assembles a collateral portfolio by acquiring pieces of syndicated corporate loans, engages with the underwriter and credit rating agency to structure and rate the deal, and issues securities to investors backed by the principal and interest payments from the loans. A CLO manager's compensation is only weakly tied to deal performance. CLO managers used to receive a base fee on the order of 40-50 basis points per year, typically senior to all notes, but this is likely to change with the risk retention for securitized products, required by the Dodd-Frank Act. CLO managers are not required to hold equity in the deal, but most often do own a share of the equity, receive an incentive fee that is subordinate to equity, or have a partial claim on the residual interest. CLO decisions are made by the CLO managers, so the fact that their incentives are tied to the equity tranche and not to the whole overall structure—as they would be for any other lender—is important.
 

@@ -1,13 +1,22 @@
 ---
-parent_directory:
-title: "Syndicated Bank Loans: 2006 Default Review and 2007 Outlook"
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: Syndicated Bank Loans: 2006 Default Review and 2007 Outlook
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 12:20:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - syndicated bank loans
+  - default rates
+  - recovery rates
+  - credit analysis
+secondary_tags:
+  - moody's ratings
+  - corporate bonds
+  - speculative grade
+  - loan defaults
+  - bond defaults
+  - automotive industry
 cssclasses: academia
-linter-yaml-title-alias: "Syndicated Bank Loans: 2006 Default Review and 2007 Outlook"
 ---
 
 <table><tr><td>Contact</td><td>Phone</td></tr><tr><td>New York</td><td></td></tr><tr><td>Kenneth Emery</td><td>1.212.553.1653</td></tr><tr><td>Richard Cantor</td><td></td></tr><tr><td>Sharon Ou</td><td></td></tr></table>
@@ -19,15 +28,80 @@ linter-yaml-title-alias: "Syndicated Bank Loans: 2006 Default Review and 2007 Ou
 - Twenty-eight issuers defaulted on approximately  \$6.0 billion of syndicated bank loans in 2006, down from thirty issuers that defaulted on roughly\$ 13.4 billion in 2005. Of the twenty-eight loan defaulters, eight were rated by Moody's and they accounted for approximately \$2.6 billion in dollar volume.  
 Distress in the automobile industry accounted for over one-third of 2006 defaulting loan volume, as seven automotive companies defaulted on approximately \$2.3 billion in loans.  
 - Mirroring the credit environment for syndicated bank loans, the dollar volume of Moody's-rated corporate bond defaults also decreased in 2006. A total of twenty-eight Moody's-rated issuers defaulted on  \$7.8 billion in debt in 2006 compared with twenty-nine corporate issuers that defaulted on\$ 28.3 billion in 2005.  
-- Speculative-grade loan and bond default rates declined substantially in 2006. At the end of 2006, the loan default rate had fallen to  $0.6\%$  from  $1.8\%$  at the beginning of the year, while the bond default rate had declined to  $1.9\%$  from  $2.3\%$ .  
-- Recovery rates on defaulted bonds declined during 2006, while loan recovery rates were relatively steady. The issue-weighted average senior unsecured bond recovery rate for defaulting issuers fell to  \$43.4 in 2006 from\$ 61.0 in 2005 (relative to par of \$100), while the average loan recovery rate was roughly unchanged in 2006 at approximately \$88.0.  
+- Speculative-grade loan and bond default rates declined substantially in 2006. At the end of 2006, the loan default rate had fallen to  $0.6\%$  from  $1.8\%$  at the beginning of the year, while the bond default rate had declined to  $1.9\%$  from  $2.3\%$ .
+
+```d2
+direction: right
+
+default_rates: Default Rate Trends {
+  shape: rectangle
+  style.fill: "#f5f5f5"
+  style.stroke: "#333"
+
+  loan_rate_2005: 2005 Loan Rate: 1.8% {
+    shape: hexagon
+    style.fill: "#ff6b6b"
+  }
+
+  loan_rate_2006: 2006 Loan Rate: 0.6% {
+    shape: hexagon
+    style.fill: "#4ecdc4"
+  }
+
+  bond_rate_2005: 2005 Bond Rate: 2.3% {
+    shape: hexagon
+    style.fill: "#ff9f43"
+  }
+
+  bond_rate_2006: 2006 Bond Rate: 1.9% {
+    shape: hexagon
+    style.fill: "#45b7d1"
+  }
+}
+
+recovery_rates: Recovery Rates {
+  shape: rectangle
+  style.fill: "#f0f8ff"
+  style.stroke: "#333"
+
+  bond_recovery_2005: 2005 Bond Recovery: $61.0 {
+    shape: circle
+    style.fill: "#ff9f43"
+  }
+
+  bond_recovery_2006: 2006 Bond Recovery: $43.4 {
+    shape: circle
+    style.fill: "#ff6b6b"
+  }
+
+  loan_recovery_2005: 2005 Loan Recovery: $80 {
+    shape: circle
+    style.fill: "#45b7d1"
+  }
+
+  loan_recovery_2006: 2006 Loan Recovery: $88 {
+    shape: circle
+    style.fill: "#4ecdc4"
+  }
+}
+
+default_rates -> recovery_rates: "Lower defaults correlate with higher recoveries"
+
+note: "2006 showed declining default rates but mixed recovery performance" {
+  shape: callout
+  near: recovery_rates
+}
+```
+
+  
+- Recovery rates on defaulted bonds declined during 2006, while loan recovery rates were relatively steady. The issue-weighted average senior unsecured bond recovery rate for defaulting issuers fell to  \$43.4 in 2006 from \$61.0 in 2005 (relative to par of \$100), while the average loan recovery rate was roughly unchanged in 2006 at approximately \$88.0.  
 Moody's forecasting model for its global speculative-grade bond default rate predicts that the global speculative-grade default rate will rise from its current  $1.7\%$  level to  $2.6\%$  by the end of 2007. Given the strong historical correlation between speculative-grade bond and loan default rates, Moody's expects the speculative-grade loan default rate to increase to  $2.1\%$  from its current  $0.6\%$  by the end of 2007. Although credit quality remained relatively steady in 2006, slower expected economic growth in 2007 and the large amounts of low-quality bonds issued in 2004 are expected to lead to climbing default rates during 2007.
 
 # LOAN DEFAULTS
 
-As reflected in a benign corporate credit environment, in 2006 the dollar volume of syndicated bank loan defaults declined more than  $50\%$  from 2005 levels. Exhibit 1 shows that twenty-eight issuers defaulted on approximately  $6.0$  billion of bank loans in 2006, down from thirty issuers that defaulted on roughly \)13.4 \$billion in 2005. Of the twenty-eight 2006 loan defaulters, eight were rated by Moody's and they accounted for approximately\$ 2.6\( billion in volume. Among these eight, six were based in the US while there was one defaulter based in France and one in Germany. In 2005 there were eleven Moody's-rated loan defaults, all by US issuers. The Appendix includes summary descriptions of the eight 2006 loan default events.
+As reflected in a benign corporate credit environment, in 2006 the dollar volume of syndicated bank loan defaults declined more than  $50\%$  from 2005 levels. Exhibit 1 shows that twenty-eight issuers defaulted on approximately  $6.0$  billion of bank loans in 2006, down from thirty issuers that defaulted on roughly \$13.4 billion in 2005. Of the twenty-eight 2006 loan defaulters, eight were rated by Moody's and they accounted for approximately \$2.6 billion in volume. Among these eight, six were based in the US while there was one defaulter based in France and one in Germany. In 2005 there were eleven Moody's-rated loan defaults, all by US issuers. The Appendix includes summary descriptions of the eight 2006 loan default events.
 
-Distress in the automotive parts industry accounted for almost one-third of 2006 defaulting loan volume, as seven automobile issuers defaulted on  \$2.3 billion in auto loans (see Exhibit 2). The largest 2006 loan defaulter was LG Philips Displays Holding BV with\$ 1.4 billion in bank debt. Loan defaults were relatively small in 2006 as the average size of loan defaults decreased to  \$213 million per issuer from\$ 447 million per issuer in 2005.
+Distress in the automotive parts industry accounted for almost one-third of 2006 defaulting loan volume, as seven automobile issuers defaulted on  \$2.3 billion in auto loans (see Exhibit 2). The largest 2006 loan defaulter was LG Philips Displays Holding BV with \$1.4 billion in bank debt. Loan defaults were relatively small in 2006 as the average size of loan defaults decreased to  \$213 million per issuer from\$ 447 million per issuer in 2005.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/bc39e59d-2d5b-4254-90b8-02f81c3cb036/1a2821b27bd0eb89e5a817d753be4955d62c53994d090983eb50dfa7b629b751.jpg)  
 Exhibit 1 Global Loan Defaults Remained Low in 2006
@@ -44,7 +118,7 @@ Note: Eurotunnel default amounts not yet available
 
 # CORPORATE BOND DEFAULTS
 
-Mirroring the credit environment for syndicated bank loans, the dollar volume of Moody's-rated corporate bond defaults also decreased substantially in 2006. A total of twenty-eight Moody's-rated issuers defaulted on  \$7.8 billion in bonds in 2006 debt in 2006 compared with twenty-nine corporate issuers that defaulted on\$ 28.3 billion in bonds in 2005 (see Exhibit 3). Similar to the loan market, distress in the automotive parts industry led to \$2.5 billion in bond defaults in this industry, contributing roughly one-third of total 2006 global bond default volume (see Exhibit 4).
+Mirroring the credit environment for syndicated bank loans, the dollar volume of Moody's-rated corporate bond defaults also decreased substantially in 2006. A total of twenty-eight Moody's-rated issuers defaulted on  \$7.8 billion in bonds in 2006 debt in 2006 compared with twenty-nine corporate issuers that defaulted on \$28.3 billion in bonds in 2005 (see Exhibit 3). Similar to the loan market, distress in the automotive parts industry led to \$2.5 billion in bond defaults in this industry, contributing roughly one-third of total 2006 global bond default volume (see Exhibit 4).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/bc39e59d-2d5b-4254-90b8-02f81c3cb036/f77dcd2e859ec585906541b4aa880181be71de76da6f15e7a40ce47b21b29ff4.jpg)  
 Exhibit 3  

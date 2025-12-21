@@ -1,13 +1,25 @@
 ---
-parent_directory:
-title: HYLights
-tags:
-aliases:
-parent_folder: Class 4- Restructuring Public Debt
-subfolder:
-key_concepts:
+title: "Merrill Coercive Exchange"
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 4- Restructuring Public Debt
+formatted: 2025-12-21 11:55:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+  - coercive exchange offers
+  - high yield bonds
+  - debt restructuring
+  - exit consent
+secondary_tags:
+  - bondholder coercion
+  - holdout problem
+  - distressed debt
+  - bankruptcy alternatives
+  - covenant amendments
+  - advancepcs company update
+  - junk bond markets
+  - investment banking research
 cssclasses: academia
-linter-yaml-title-alias: HYLights
 ---
 
 31 January 2002
@@ -18,19 +30,19 @@ High Yield Securities Research
 
 United States
 
-# High Yield
+## High Yield
 
-# Highlights of This Issue
+## Highlights of This Issue
 
-# MARKET MEASURE
+## MARKET MEASURE
 
 "Coercive" Exchange Offers
 
-# COMPANY UPDATE
+## COMPANY UPDATE
 
 AdvancePCS: Proven To Be True — Overweight Maintained
 
-# Trading Post
+## Trading Post
 
 Martin S. Fridson, CFA (212) 449-1102/Martin_Fridson@ml.com
 
@@ -44,9 +56,9 @@ Increased distress is spawning exchange offers
 
 # "Coercive" Exchange Offers
 
-The greatly increased incidence of corporate financial distress over the past two years<sup>1</sup> has produced a corresponding surge in restructuring activity. Through exchange offers, a number of issuers are attempting to renegotiate the terms of their bonds to avoid bankruptcy. To high yield market veterans, the environment is reminiscent of the early 1990s.<sup>2</sup>
+The greatly increased incidence of corporate financial distress over the past two years[^1] has produced a corresponding surge in restructuring activity. Through exchange offers, a number of issuers are attempting to renegotiate the terms of their bonds to avoid bankruptcy. To high yield market veterans, the environment is reminiscent of the early 1990s.[^2]
 
-In contrast to that period, the current downturn in credit conditions has witnessed no widespread allegations of "abusive" and "coercive" exchange offers. The latter term does not refer to literal use of force, which is the dictionary's definition. Rather, the finance literature characterizes an exchange offer as coercive if it treats bondholders who reject the offer less favorably than bondholders who accept it.<sup>3</sup>
+In contrast to that period, the current downturn in credit conditions has witnessed no widespread allegations of "abusive" and "coercive" exchange offers. The latter term does not refer to literal use of force, which is the dictionary's definition. Rather, the finance literature characterizes an exchange offer as coercive if it treats bondholders who reject the offer less favorably than bondholders who accept it.[^3]
 
 One likely reason for today's comparative lack of rancor over exchange offers is that the great wave of early-stage telecom financings of the late Nineties spawned many "airballs," i.e., defaulted bonds for which there are no material assets worth fighting over. Additionally, the architects of some of this cycle's attempted restructuring have begun by acquiring the greater part of companies' capital structures at steep discounts to face value. With control of the liabilities already in hand, the restructurers do not need to impose draconian reductions in interest payments on other holders.
 
@@ -66,7 +78,7 @@ Who would invest new equity to create a windfall for creditors?
 
 Misleading financial information is a legitimate basis for complaint
 
-be to admit a mistake, $^{4}$  the most self-benefiting response to the comment, "I don't want to insult you with a low bid," is: "Go ahead, insult me." One market participant's throwaway bid may be another's found money.
+be to admit a mistake, $^4$ the most self-benefiting response to the comment, "I don't want to insult you with a low bid," is: "Go ahead, insult me." One market participant's throwaway bid may be another's found money.
 
 Even among bondholders who face up to the fact that their loss occurred before anybody came in offering them 50 cents on the dollar, a deep-discount offer may ruffle some feathers. In a hypothetical case, the complaint may run along the following lines: "Billionaire Byron Bigwheel is taking advantage of a temporary downturn to scoop up this great company at a fraction of its long-run value," complains the aggrieved bondholder. "Not content with grabbing these assets at a bargain-basement price, he expects me to take a haircut on my bonds. I'm the one who has stuck with the company through the fat times and the lean times, yet Bigwheel is offering me only a five-point premium to the market value of my bonds. His self-serving proposition doesn't share the benefits fairly."
 
@@ -84,23 +96,23 @@ In the preceding case of an offer by Byron Bigwheel, bondholders face a simple c
 
 for each dollar of face value. Bondholders who reject Bigwheel's offer continue on the same terms as formerly, collecting interest at the originally contracted rate and enjoying the protection of the original covenants.
 
-Complaints of "coercion" arise from a more complex decision, in which rejection entails adverse consequences. By way of illustration, suppose Walking Wounded Corporation's widely owned  $10 - 1 / 2\%$  debentures are trading at 45. The financially distressed company attempts to lower its fixed charges by offering to exchange the outstanding issue for a like face amount of new  $9\%$  debentures maturing in the same year, and with covenant protection equivalent to that of, the 10-1/2s. Pro forma analysis indicates that if all bondholders accept the exchange, the resulting credit quality improvement will more than offset the coupon reduction, causing the  $9\%$  debentures to trade at 50. On the face of it, bondholders have a collective interest in Walking Wounded's offer being accepted. If the deal succeeds, their holdings will rise in market value, while their risk of default will decline.
+Complaints of "coercion" arise from a more complex decision, in which rejection entails adverse consequences. By way of illustration, suppose Walking Wounded Corporation's widely owned $10 - 1/2\%$ debentures are trading at 45. The financially distressed company attempts to lower its fixed charges by offering to exchange the outstanding issue for a like face amount of new $9\%$ debentures maturing in the same year, and with covenant protection equivalent to that of, the 10-1/2s. Pro forma analysis indicates that if all bondholders accept the exchange, the resulting credit quality improvement will more than offset the coupon reduction, causing the $9\%$ debentures to trade at 50. On the face of it, bondholders have a collective interest in Walking Wounded's offer being accepted. If the deal succeeds, their holdings will rise in market value, while their risk of default will decline.
 
-From the standpoint of a single bondholder, however, there is a powerful incentive to reject the company's offer. Suppose Cagey Fund, which owns  $1\%$  of the outstanding face amount of Walking Wounded 10-1/2s were to hold out, while owners of the remaining  $99\%$  exchanged their bonds for the 9s. The improvement in credit quality resulting from  $99\%$  acceptance would not be materially less than the improvement resulting from  $100\%$  acceptance. Cagey Fund's 10-1/2s would be worth considerably more than 50, however, by virtue of having a much higher coupon than the 9s. By opting out, in short, Cagey Fund would gain more than the bondholders who accepted the offer and thereby raised Walking Wounded's credit quality.
+From the standpoint of a single bondholder, however, there is a powerful incentive to reject the company's offer. Suppose Cagey Fund, which owns $1\%$ of the outstanding face amount of Walking Wounded 10-1/2s were to hold out, while owners of the remaining $99\%$ exchanged their bonds for the 9s. The improvement in credit quality resulting from $99\%$ acceptance would not be materially less than the improvement resulting from $100\%$ acceptance. Cagey Fund's 10-1/2s would be worth considerably more than 50, however, by virtue of having a much higher coupon than the 9s. By opting out, in short, Cagey Fund would gain more than the bondholders who accepted the offer and thereby raised Walking Wounded's credit quality.
 
 # Bondholders may reject an offer that is in their interest
 
-Each of the other bondholders has the same incentive as Cagey Fund to hold out. Therefore, contrary to the outcome just suggested, in which  $99\%$  accept the offer, all of the holders, it turns out, reject it. One by one, the bondholders turn down a proposal that would make them collectively better off. To boot, Walking Wounded's shareholders fail to achieve their aim of reduced bankruptcy risk. Surely, these results must be judged to be unfortunate.
+Each of the other bondholders has the same incentive as Cagey Fund to hold out. Therefore, contrary to the outcome just suggested, in which $99\%$ accept the offer, all of the holders, it turns out, reject it. One by one, the bondholders turn down a proposal that would make them collectively better off. To boot, Walking Wounded's shareholders fail to achieve their aim of reduced bankruptcy risk. Surely, these results must be judged to be unfortunate.
 
 Fortunately, there is a solution to the holdout problem, known as an exit consent. Suppose that in lieu of the exchange offer described above, Walking Wounded makes the following proposal:
 
-- The company exchanges old  $10 - 1 / 2\%$  debentures for a like face amount of new  $9\%$  debentures maturing in the same year, and with covenant protection equivalent to that of the  $10 - 1 / 2s$ .  
+- The company exchanges old $10 - 1/2\%$ debentures for a like face amount of new $9\%$ debentures maturing in the same year, and with covenant protection equivalent to that of the $10 - 1/2s$.  
 - Consumption of the exchange is contingent on acceptance by holders of two-thirds of the face amount of outstanding 10-1/2s.  
 - To accept the exchange, the exiting bondholders must consent to a removal of protective covenants from the 10-1/2s. (Note that the effect of this change will be felt not by the exiting bondholders, but rather by those who reject the offer.)
 
 # Exiting bondholders must consent to evisceration of the covenants
 
-The significance of the two-thirds threshold is that it is the percentage required, under the indenture of the 10-1/2s, for amendment (or in this case, rescinding) of a covenant. If holders of at least two-thirds of the issue accept the exchange offer, holdouts will be left with a  $10 - 1 / 2\%$  debenture stripped of protective covenants. Furthermore, the issue's outstanding face amount of the 10-1/2s will decline by two-thirds or more, resulting in a drastic reduction in secondary market liquidity. Credit analysis indicates that holdouts will then own bonds with a market value lower than that of the new 9s and even lower than the previous trading price of the 10-1/2s. The exit consent, in short, makes holding out unattractive by ensuring that if the deal succeeds, holdouts will be worse off, rather than better off, than bondholders who accept the exchange offer.<sup>5</sup>
+The significance of the two-thirds threshold is that it is the percentage required, under the indenture of the 10-1/2s, for amendment (or in this case, rescinding) of a covenant. If holders of at least two-thirds of the issue accept the exchange offer, holdouts will be left with a $10 - 1/2\%$ debenture stripped of protective covenants. Furthermore, the issue's outstanding face amount of the 10-1/2s will decline by two-thirds or more, resulting in a drastic reduction in secondary market liquidity. Credit analysis indicates that holdouts will then own bonds with a market value lower than that of the new 9s and even lower than the previous trading price of the 10-1/2s. The exit consent, in short, makes holding out unattractive by ensuring that if the deal succeeds, holdouts will be worse off, rather than better off, than bondholders who accept the exchange offer.[^5]
 
 A 1995 study finds no harm to bondholders from "coercive" exchanges
 
@@ -108,9 +120,9 @@ The court has refused to read fiduciary duties into a contract
 
 # Draconian Exchanges: Immoral? Unlawful? Neither?
 
-Is an exit consent coercive? The finance literature has characterized the mechanism in that way<sup>6</sup>.
+Is an exit consent coercive? The finance literature has characterized the mechanism in that way[^6].
 
-Consider an analogy from the realm of romance. The recipient of an ultimatum ("Agree to marry me or I will break off our five-year relationship") may consider it coercive, yet we doubt that many would favor outlawing such tactics.<sup>7</sup> Indeed, observers who perceive a social benefit in family formation may applaud the forcing of a decision.
+Consider an analogy from the realm of romance. The recipient of an ultimatum ("Agree to marry me or I will break off our five-year relationship") may consider it coercive, yet we doubt that many would favor outlawing such tactics.[^7] Indeed, observers who perceive a social benefit in family formation may applaud the forcing of a decision.
 
 In a similar vein, Chatterjee, Dhillon, and Ramirez (1995) argue, based on empirical analysis of public workouts of distressed debt, that the so-called coercion does not hurt bondholders on the whole. These types of offers may even benefit security holders, they contend, by increasing the likelihood of companies restructuring their debt outside of court, rather than through the more costly bankruptcy process. If the conclusions of Chatterjee et al. are correct, it seems to us that the state should proceed cautiously, rather than leap into intervention in the free contracting of bond indentures and amendments.[8]
 
@@ -129,7 +141,7 @@ If the black letter of the debt instrument in question gives each lender the rig
 
 # Communication may solve the prisoner's dilemma
 
-Regardless of existing court decisions and legal arguments, the use of "coercive" exchange offers remain controversial. Critics contend that bondholders may agree to an offer that does not improve their position, simply out of fear that two-thirds of holders will accept the proposition and leave those who fail to participate with bonds much reduced in value. Defenders of exit consents counter that bondholders can escape this classic prisoner's dilemma<sup>10</sup> by communicating with one another before deciding to accept or reject the offer. Kahan and Tuckman (1993) comment:
+Regardless of existing court decisions and legal arguments, the use of "coercive" exchange offers remain controversial. Critics contend that bondholders may agree to an offer that does not improve their position, simply out of fear that two-thirds of holders will accept the proposition and leave those who fail to participate with bonds much reduced in value. Defenders of exit consents counter that bondholders can escape this classic prisoner's dilemma[^10] by communicating with one another before deciding to accept or reject the offer. Kahan and Tuckman (1993) comment:
 
 If bondholders can coordinate their actions, the analysis of consent solicitations is simple: bondholders will accept an issuer's proposal if and only if they benefit from the changes. Consequently, firms will propose only those changes that increase the value of the firm as a whole and share at least some of the increased value with the bondholders.
 
@@ -174,7 +186,7 @@ Table 1: AdvancePCS — Current Bond Prices
 
 Source: Merrill Lynch.
 
-After a full year of operating as a combined entity under its belt, AdvancePCS has proven that it can successfully integrate the acquisition of PCS and more importantly, can win new contracts to provide a healthy basis for claims growth. Furthermore with Merck's recent announcement of its plan to spin off Medco, we believe the playing field for PBMs has been leveled and competitive pricing pressures might ease. Although the  $8.5\%$  senior notes are trading at levels that yield less than  $7.5\%$ , it still offers a slight premium to Express Scripts and Caremark Rx bonds. As such, we are reiterating our Overweight recommendation at current levels.
+After a full year of operating as a combined entity under its belt, AdvancePCS has proven that it can successfully integrate the acquisition of PCS and more importantly, can win new contracts to provide a healthy basis for claims growth. Furthermore with Merck's recent announcement of its plan to spin off Medco, we believe the playing field for PBMs has been leveled and competitive pricing pressures might ease. Although the $8.5\%$ senior notes are trading at levels that yield less than $7.5\%$, it still offers a slight premium to Express Scripts and Caremark Rx bonds. As such, we are reiterating our Overweight recommendation at current levels.
 
 AdvancePCS reported a 15.4% increase in revenue to  \$3.4 billion for its third fiscal quarter ended Dec. 31, 2001 compared to the year ago period. EBITDA grew 29.7% to\$ 75.4 million, slightly ahead of our estimate of \$72.7 million. New contract wins and increased number of lives under management drove revenue and earnings. Since the PCS acquisition, the company has added 10 million lives and increased the number of claims processed. For the third quarter, the number of pharmacy network claims processed increased 5.4% and the number of prescriptions filled grew 19.9%. With the first nine months running ahead of our expectations, we are confident that the company should be able to beat our full year EBITDA estimate of \$287.5 million, perhaps by as much as \$10 million.
 
@@ -184,7 +196,7 @@ Table 2: AdvancePCS — Selected Financial and Operating Data (as of Dec. 31, 20
 
 (1) Capital expenditures for three and nine months ended Dec. 31, 2001 are estimated. NM = Not meaningful. Sources: Company reports; Merrill Lynch.
 
-Size proves to provide operational strength. Both gross and EBITDA margins improved on a sequential and year-over-year basis. Gross margin per adjusted claim jumped to  \$0.93 in the third fiscal 2002 quarter from\$ 0.80 in the same period a year ago. EBITDA per adjusted claim increase 17.4% to \$0.62.
+Size proves to provide operational strength. Both gross and EBITDA margins improved on a sequential and year-over-year basis. Gross margin per adjusted claim jumped to \$0.93 in the third fiscal 2002 quarter from \$0.80 in the same period a year ago. EBITDA per adjusted claim increase 17.4% to \$0.62.
 
 Although these measures are below that of Express Scripts and Caremark Rx, continued benefits from the company's sheer size may provide additional room for improvement.
 
@@ -196,9 +208,9 @@ Sources: Company reports; Merrill Lynch.
 
 AdvancePCS has maintained a strong credit profile and liquidity. Total debt at quarter end stood at
 
-\$501.2 million, essentially unchanged from the previous quarter but\$ 308.8 million lower than a year ago, resulting in LTM debt/EBITDA of 1.8x. With quarterly net interest expense of  \$11.8 million (\$ 13.6 million on a gross basis), LTM interest coverage was 4.0x.
+\$501.2 million, essentially unchanged from the previous quarter but \$308.8 million lower than a year ago, resulting in LTM debt/EBITDA of 1.8x. With quarterly net interest expense of \$11.8 million (\$13.6 million on a gross basis), LTM interest coverage was 4.0x.
 
-Strong cash flow generation has provided AdvancePCS with liquidity. During the quarter, AdvancePCS generated approximately  \$40 million in cash flow from operations and spent slightly over\$ 14 million in capital expenditure. With cash balance of \$129.2 million and full availability under its \$175 million revolver facility, the company has sufficient liquidity to meet its financial obligations.
+Strong cash flow generation has provided AdvancePCS with liquidity. During the quarter, AdvancePCS generated approximately \$40 million in cash flow from operations and spent slightly over \$14 million in capital expenditure. With cash balance of \$129.2 million and full availability under its \$175 million revolver facility, the company has sufficient liquidity to meet its financial obligations.
 
 [MRK] One or more analysts responsible for covering the securities in this report owns such securities.
 
