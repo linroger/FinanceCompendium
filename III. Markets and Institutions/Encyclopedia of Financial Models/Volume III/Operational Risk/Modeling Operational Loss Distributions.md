@@ -2,31 +2,31 @@
 ---
 title: "Modeling Operational Loss Distributions"
 parent_directory: "Operational Risk"
-formatted: "2025-12-21 07:30:00 AM"
+formatted: "2025-12-21 07:15:00 AM"
 formatter_model: "kimi-k2-turbo"
 cli-tool: "claude-code"
 primary_tags:
-  - operational risk modeling
-  - loss distribution analysis
-  - parametric distributions
-  - tail behavior analysis
+   - operational risk modeling
+   - loss distribution analysis
+   - parametric distributions
+   - tail behavior analysis
+   - mixture distributions
 secondary_tags:
-  - nonparametric approach
-  - empirical distribution
-  - exponential distribution
-  - lognormal distribution
-  - weibull distribution
-  - gamma distribution
-  - beta distribution
-  - pareto distribution
-  - burr distribution
-  - mixture distributions
-  - goodness of fit tests
-  - empirical studies
-  - kolmogorov-smirnov test
-  - anderson-darling test
-  - extreme value theory
-  - generalized pareto distribution
+   - nonparametric approach
+   - empirical distribution
+   - exponential distribution
+   - lognormal distribution
+   - weibull distribution
+   - gamma distribution
+   - beta distribution
+   - pareto distribution
+   - burr distribution
+   - goodness of fit tests
+   - empirical studies
+   - kolmogorov-smirnov test
+   - anderson-darling test
+   - extreme value theory
+   - generalized pareto distribution
 cssclasses: academia
 ---
 
@@ -356,16 +356,16 @@ Figure 10 Illustration of Burr Density
 Examples of the density are depicted in Figure 10. The MLE estimators for the parameters can generally be evaluated only numerically. The raw moments are estimated as:
 
 $$
-\begin{array}{l} \mathbb {E} (X^{k}) = \frac{\beta^{k / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{k}{\gamma}\right) \Gamma \left(\alpha - \frac{k}{\gamma}\right), \\ - \gamma <   k <   \gamma \alpha \\ \end{array}
+\begin{array}{l} \mathbb{E}(X^{k}) = \frac{\beta^{k / \gamma}}{\Gamma(\alpha)} \Gamma\left(1 + \frac{k}{\gamma}\right) \Gamma\left(\alpha - \frac{k}{\gamma}\right), \\ -\gamma < k < \gamma \alpha \\ \end{array}
 $$ from which the population mean and variance are calculated as:
 
 
 $$
-\begin{array}{l} \operatorname{me an} (X) = \frac{\beta^{1 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{1}{\gamma}\right) \Gamma \left(\alpha - \frac{1}{\gamma}\right) \\ \gamma \alpha > 1 \\ \end{array}
+\begin{array}{l} \operatorname{mean}(X) = \frac{\beta^{1 / \gamma}}{\Gamma(\alpha)} \Gamma\left(1 + \frac{1}{\gamma}\right) \Gamma\left(\alpha - \frac{1}{\gamma}\right) \\ \gamma \alpha > 1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \operatorname{va r} (X) = \frac{\beta^{2 / \gamma}}{\Gamma (\alpha)} \Gamma \left(1 + \frac{2}{\gamma}\right) \Gamma \left(\alpha - \frac{2}{\gamma}\right) \\ - \frac{\beta^{2 / \gamma}}{\Gamma^{2} (\alpha)} \Gamma^{2} \left(1 + \frac{1}{\gamma}\right) \Gamma^{2} \left(\alpha - \frac{1}{\gamma}\right), \\ \gamma \alpha > 2 \\ \end{array}
+\begin{array}{l} \operatorname{var}(X) = \frac{\beta^{2 / \gamma}}{\Gamma(\alpha)} \Gamma\left(1 + \frac{2}{\gamma}\right) \Gamma\left(\alpha - \frac{2}{\gamma}\right) \\ - \frac{\beta^{2 / \gamma}}{\Gamma^{2}(\alpha)} \Gamma^{2}\left(1 + \frac{1}{\gamma}\right) \Gamma^{2}\left(\alpha - \frac{1}{\gamma}\right), \\ \gamma \alpha > 2 \\ \end{array}
 $$
 
 The mode is equal to  $\frac{1}{\beta^{1 / \gamma}}\left(\frac{\gamma - 1}{\alpha\gamma + 1}\right)^{1 / \gamma}$  for  $\gamma >1$  and zero otherwise.
@@ -382,7 +382,8 @@ Histograms of the operational loss data often reveal a very high peak close to z
 
 The density and distribution of a  $m$ -point mixture distribution can be expressed as
 
-$$ f (x) = \sum_{j = 1}^{m} w_{j} f_{j} (x), \quad F (x) = \sum_{j = 1}^{m} w_{j} F_{j} (x)
+$$
+f(x) = \sum_{j = 1}^{m} w_{j} f_{j}(x), \quad F(x) = \sum_{j = 1}^{m} w_{j} F_{j}(x)
 $$ where  $w_{j}, j = 1,2,\dots,m$ , are the positive weights attached to each member distribution, adding up to 1. It is possible to have a mixture of different types of distributions, such as exponential and Weibull, or of the same type of distribution but with different parameters.
 
 
@@ -433,14 +434,14 @@ Figure 11 Illustration of 2-Point Lognormal Mixture Density
 
 
 $$
-\operatorname{mean} (X) = \sum_{j = 1}^{m} w_{j} \mathbb {E}_{j} (X), \quad \operatorname{var} (X) = \sum_{j = 1}^{m} w_{j}^{2} \sigma_{j}^{2} (X)
+\operatorname{mean}(X) = \sum_{j = 1}^{m} w_{j} \mathbb{E}_{j}(X), \quad \operatorname{var}(X) = \sum_{j = 1}^{m} w_{j}^{2} \sigma_{j}^{2}(X)
 $$ where the subscripts  $j$  refer to each member density. The right tail follows  $\bar{F} (x) = \sum_{j = 1}^{m}w_{j}\bar{F}_{j}(x)$
 
 
 The advantage of using mixture distributions is that they can be fitted to practically all shapes of loss distributions. On the other hand, the models may lack reliability due to a large number of parameters that need to be estimated (in particular, when the available loss data set is not large enough). For example, a 2-point mixture of exponential distributions requires only three parameters, but a 4-point mixture of exponential distributions requires seven parameters. In some cases, this problem may be overcome when certain simplifications are applied to the model. For example, it is possible to achieve a 2-point mixture of Pareto distributions with four, instead of five, unknown parameters; the following distribution has been successfully applied to liability insurance:
 
 $$
-F (x) = 1 - a \left(\frac{\beta_{1}}{\beta_{1} + x}\right)^{\alpha} + (1 - a) \left(\frac{\beta_{2}}{\beta_{2} + x}\right)^{\alpha + 2}
+F(x) = 1 - a \left(\frac{\beta_{1}}{\beta_{1} + x}\right)^{\alpha} + (1 - a) \left(\frac{\beta_{2}}{\beta_{2} + x}\right)^{\alpha + 2}
 $$ with the first distribution covering smaller magnitude events and having a higher weight  $a$  attached, and the second distribution covering infrequent large-magnitude events.[13]
 
 
@@ -455,7 +456,9 @@ Operational risk managers are concerned with finding a model that would capture 
 In operational risk modeling, thin-tailed distributions should be used with caution. The following example illustrates the danger of fitting a light-tailed distribution to the data whose true distribution is heavy-tailed.[15] We generated 5,000 points from the Pareto distribution (heavy-tailed) with parameters  $\alpha = 1.67$  and  $\beta = 0.6$ . We then fitted an exponential distribution (light-tailed) to the data. The MLE procedure resulted in the exponential parameter of  $\lambda = 1.61$ . Figure 12 demonstrates the difference in the behavior of the tails of both distributions. In the far right, the probability of exceeding any high point is significantly lower (roughly, by $5\%$ ) under the exponential fit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/2ee52964346c45492ab0946f8d682deb619e162dc7aebdacc9b14b0dac2c35f7.jpg)
-Figure 12 Tails of Pareto and Exponential Distributions Fitted to Simulated Pareto Random Variable This indicates that the probability of high-value events (and exceeding them) will be underestimated if one commits the mistake of fitting a thin-tailed loss distribution to the loss data. Such mistakes may be costly and lead to serious consequences in the operational risk management, if the potential for high-magnitude losses is being inadequately assessed.
+Figure 12 Tails of Pareto and Exponential Distributions Fitted to Simulated Pareto Random Variable
+
+This indicates that the probability of high-value events (and exceeding them) will be underestimated if one commits the mistake of fitting a thin-tailed loss distribution to the loss data. Such mistakes may be costly and lead to serious consequences in the operational risk management, if the potential for high-magnitude losses is being inadequately assessed.
 
 In Table 1 common distributions are classified into two categories depending on the heaviness of the right tail. Note that the Weibull distribution can be thin-tailed or heavy-tailed depending on the value of the shape parameter. Regarding the lognormal distribution, some literature refers to it as a thin-tailed distribution, but we follow Embrechts, Kluppelberg, and Mikosch (1997), who put it in the class of medium-tailed distributions. The beta distribution has a bounded support, which makes it a thin-tailed distribution.
 
@@ -558,9 +561,7 @@ BL and LT data sets, the models failed the  $\chi^2$  goodness-of-fit test for a
 
 # Lewis Study of Legal Liability Loss Data
 
-Lewis (2004) reports his findings for a sample (in British pounds) of legal liability losses (from an undisclosed source), consisting of 140 points.[23] He fits the normal, exponential, and Weibull distributions[24] to the data and compares the fit. Table 5 shows the descriptive statistics for the sample, the MLE parameters for three fitted distributions, and the values of the AD goodness-of-fit statistic. The data are highly leptokurtic and significantly right-skewed. As expected, the normal distribution results in a very poor fit, and the Weibull distribution seems the most reasonable assumption.
-
-tion, based on the lowest value of the AD test statistic.
+Lewis (2004) reports his findings for a sample (in British pounds) of legal liability losses (from an undisclosed source), consisting of 140 points.[23] He fits the normal, exponential, and Weibull distributions[24] to the data and compares the fit. Table 5 shows the descriptive statistics for the sample, the MLE parameters for three fitted distributions, and the values of the AD goodness-of-fit statistic. The data are highly leptokurtic and significantly right-skewed. As expected, the normal distribution results in a very poor fit, and the Weibull distribution seems the most reasonable assumption, based on the lowest value of the AD test statistic.
 
 # Studies with Simulated Data
 

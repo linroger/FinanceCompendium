@@ -1,7 +1,7 @@
 ---
 title: "Market for Collective Investment Vehicles"
 parent_directory: "Foundations of Global Financial Markets"
-formatted: "2025-12-21 11:03:25 PM"
+formatted: "2025-12-21 02:15:00 PM"
 formatter_model: "grok-code-fast-1"
 cli_tool: "opencode"
 primary_tags:
@@ -21,6 +21,10 @@ secondary_tags:
   - portfolio diversification
   - liquidity management
   - professional investment management
+  - authorized participants
+  - market directional
+  - convergence trading
+  - systemic risk
 cssclasses: academia
 ---
 
@@ -234,6 +238,40 @@ Only an agent is authorized to create ETF shares by providing the ETF sponsor wi
 
 The arbitrage process just described becomes more difficult for an actively managed ETF. The reason is that the authorized professional does not know what the underlying portfolio is, because the portfolio is permitted to deviate from the benchmark index.
 
+```d2
+direction: right
+
+ETF Creation/Redemption Process {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  Authorized Participant: Authorized\nParticipant {
+    shape: person
+  }
+
+  ETF Sponsor: ETF\nSponsor
+
+  Basket of Securities: Basket of\nSecurities
+
+  ETF Shares: ETF\nShares
+
+  Authorized Participant -> ETF Sponsor: Provides basket\nof securities {
+    label: Creation
+  }
+
+  ETF Sponsor -> Authorized Participant: Issues ETF shares
+
+  Authorized Participant -> ETF Sponsor: Returns ETF shares {
+    label: Redemption
+  }
+
+  ETF Sponsor -> Authorized Participant: Delivers basket\nof securities
+}
+
+Note: This in-kind exchange avoids taxable events for investors
+```
+
 ## Tracking the Performance of ETFs
 
 The task of the authorized professional is critical and may seem simple enough. However, a fundamental requirement must be met for the arbitrage process to work: The composition and the NAV of the ETF portfolio must be known accurately, and the securities in the portfolio must be continuously traded throughout the trading day. An obvious example of such a portfolio would be the S&P 500 index portfolio. The 500 stocks in the index are very liquid, and their prices and the value of the index are quoted continuously throughout the trading day.
@@ -242,13 +280,13 @@ A study by Buetow and Henderson analyzed a broad sample of ETFs traded on U.S. e
 
 They found that daily returns for the majority of the ETFs in their study closely tracked returns for the respective indexes and exhibited high correlations with the index. However, some ETFs did exhibit significant tracking error and had lower correlations with the returns of their benchmark index. This poorer performance in terms of tracking error and correlation with index returns tended to be larger when the benchmark index for an ETF was composed of less liquid assets.
 
-Uses of ETFs
+### Uses of ETFs
 
 In this book, we describe different asset classes and different investment strategies. ETFs provide a cost-effective means for retail and institutional investors to gain exposure to asset classes and sectors through either passively or actively managed ETFs.
 
 ETFs can be used to alter exposure to asset classes of the U.S. market. Similarly, by using ETFs that have a non-U.S. benchmark index, the investor can avoid the custodian and transaction costs associated with creating an exposure to non-U.S. markets. An active portfolio manager who wants to alter exposure to a sector of the market can do so by using an ETF that is passively managed. For example, consider an active equity portfolio manager who is seeking to outperform the S&P 500 index and wants to do so by increasing exposure to a sector of the equity market that he or she believes will outperform the other sectors. That is, the manager wants to overweight exposure to that sector. This can be done by using an appropriate ETF. To make the example more concrete, suppose that the portfolio manager wants to overweight the telecommunications sector of the S&P 500 index. This can be done by purchasing shares of, say, the Vanguard Telecom Services ETF. Shorting that ETF would reduce exposure to the telecommunications sector.
 
-Hedge Funds
+## Hedge Funds
 
 It would be nice to be able to define what a hedge fund is by, say, pointing to its definition in the federal securities law. However, no such legal definition exists; nor is there any universally accepted definition to describe the 9,000 privately pooled investment entities in the United States called "hedge funds," which in aggregate, invest more than 1.3 trillion in assets.
 
@@ -296,6 +334,58 @@ Finally, when evaluating hedge funds, investors are interested in the absolute r
 ## Types of Hedge Funds
 
 The different types of hedge funds can be categorized in various ways. Mark Anson uses the following four broad categories: market directional, corporate restructuring, convergence trading, and opportunistic.[10]
+
+```d2
+Hedge Fund Categories {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  Market Directional: Market Directional {
+    shape: hexagon
+    style.fill: "#e3f2fd"
+    style.stroke: "#2196f3"
+
+    Equity Long/Short: Equity\nLong/Short
+    Equity Market Timing: Equity Market\nTiming
+    Short Selling: Short\nSelling
+  }
+
+  Corporate Restructuring: Corporate\nRestructuring {
+    shape: hexagon
+    style.fill: "#f3e5f5"
+    style.stroke: "#9c27b0"
+
+    Merger Arbitrage: Merger\nArbitrage
+    Bankruptcy Investing: Bankruptcy\nInvesting
+    Spin-off Investing: Spin-off\nInvesting
+  }
+
+  Convergence Trading: Convergence\nTrading {
+    shape: hexagon
+    style.fill: "#e8f5e9"
+    style.stroke: "#4caf50"
+
+    Statistical Arbitrage: Statistical\nArbitrage
+    Fixed Income Arbitrage: Fixed Income\nArbitrage
+    Convertible Arbitrage: Convertible\nArbitrage
+  }
+
+  Opportunistic: Opportunistic {
+    shape: hexagon
+    style.fill: "#fff8e1"
+    style.stroke: "#ff9800"
+
+    Global Macro: Global\nMacro
+    Funds of Funds: Funds\nof Funds
+    Multi-Strategy: Multi-\nStrategy
+  }
+
+  Market Directional -> Convergence Trading: Some exposure\nto systematic risk
+  Corporate Restructuring -> Convergence Trading: Capitalizes on\ncorporate events
+  Convergence Trading -> Opportunistic: Broadest mandate
+}
+```
 
 A market directional hedge fund is one in which the asset manager retains some exposure to "systematic risk." In the category of market directional hedge funds are those funds that pursue the following strategies: equity long/short strategies, equity market timing, and short selling.
 
@@ -375,6 +465,56 @@ A venture capital fund is typically structured as a limited partnership.[13] A l
 The fees received by a venture capital firm when managing a venture capital fund are the management fee and the profit-sharing or incentive fee. The management fee for most venture capital funds is in the  $2\%$  to  $2.5\%$  range and is used to pay the expenses of the venture capital firm. The profit-sharing or incentive fee, the primary source of revenue for a venture capital firm, provides the firm with a share of the profits generated by the fund and typically is  $20\%$ , although incentive fees as high as  $35\%$  exist.
 
 Here are the stages that a venture capital firm goes through in setting up a venture capital fund. Fundraising from outside investors is the first stage. Although the duration of this stage varies with the reputation of the venture capital firm and the state of the economy, fundraising typically takes from six months to a year.
+
+```d2
+direction: right
+
+Venture Capital Fund Stages {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+
+  Fundraising: Fundraising {
+    shape: circle
+    style.fill: "#e1f5fe"
+    style.stroke: "#0277bd"
+    label: 6-12 months
+  }
+
+  Due Diligence: Due Diligence\n&\nInvestment\nSelection {
+    shape: circle
+    style.fill: "#fff3e0"
+    style.stroke: "#f57c00"
+    label: Up to 5 years
+  }
+
+  Investment: Initial\nInvestments\n&\nCapital Calls {
+    shape: circle
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+    label: Ongoing
+  }
+
+  Portfolio Management: Portfolio\nManagement\n&\nValue Creation {
+    shape: circle
+    style.fill: "#fff8e1"
+    style.stroke: "#fbc02d"
+    label: 5-10 years
+  }
+
+  Exit: Exit &\nLiquidation {
+    shape: circle
+    style.fill: "#fce4ec"
+    style.stroke: "#c2185b"
+    label: Final stage
+  }
+
+  Fundraising -> Due Diligence: Fund closes
+  Due Diligence -> Investment: Capital calls begin
+  Investment -> Portfolio Management: Active management
+  Portfolio Management -> Exit: IPO/Acquisition/Liquidation
+}
+```
 
 Once the funds are raised, the fund is said to be "closed," and the second stage begins. This stage involves the firm's management team performing due diligence to assess the potential attractiveness of candidate startup firms in which to invest. This stage can take up to five years, during which time no profits are generated by the venture capital fund. Instead, losses are realized owing to the management fees that must be paid based on the amount committed by the limited partners.
 

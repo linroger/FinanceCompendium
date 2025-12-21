@@ -529,7 +529,6 @@ The density function is defined by
 $$ f (x) = \left\{ \begin{array}{c c} \frac{1}{B (c , d)} x^{c - 1} (1 - x)^{d - 1}, & 0 \leq x \leq 1 \\ 0 & \text{el se} \end{array} \right.
 $$ where  $B(c,d)$  denotes the beta function with parameters  $c$  and  $d$ . The density function may assume various different shapes depending on  $c$  and  $d$ . For a few exemplary values, we present the plots in Figure 12. As we can see, for  $c = d$ , the density function is symmetric about  $x = 0.5$ .
 
-
 # LOG-NORMAL DISTRIBUTION
 
 Another important distribution in finance is the log-normal distribution. It is connected to the normal distribution via the following relationship. Let  $Y$  be a normal random variable with mean  $\mu$  and variance  $\sigma^2$ . Then the random variable
@@ -546,7 +545,6 @@ Since the exponential function  $e^{Y} = \exp(Y)$  only yields positive values, 
 
 $$ f (x) = \left\{ \begin{array}{c c} \frac{1}{x \sigma \sqrt{2 \pi}} e^{\frac{(\ln x - \mu)^{2}}{2 \sigma^{2}}}, & x > 0 \\ 0 & \text{el se} \end{array} \right. \tag {16}
 $$ which looks strikingly similar to the normal density function given by (2). Figure 13 depicts the density function for several parameter values.
-
 
 This density function results in the log-normal distribution function
 

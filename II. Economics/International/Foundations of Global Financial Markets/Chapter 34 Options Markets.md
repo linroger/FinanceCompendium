@@ -96,7 +96,7 @@ Here we illustrate the risk and return characteristics of the four basic option 
 
 ### Buying Call Options
 
-Assume that there is a call option on Asset XYZ that expires in one month and has a strike price of  \$100. The option price is\$ 3. Suppose that the current price of Asset XYZ is 100. What is the profit or loss for the investor who purchases this call option and holds it to the expiration date?
+Assume that there is a call option on Asset XYZ that expires in one month and has a strike price of \$100. The option price is \$3. Suppose that the current price of Asset XYZ is 100. What is the profit or loss for the investor who purchases this call option and holds it to the expiration date?
 
 The profit and loss from the strategy will depend on the price of Asset XYZ at the expiration date. Several outcomes are possible:
 
@@ -179,7 +179,7 @@ Figure 34.2 Profit/loss profile for a short call position.
 
 ### Buying Put Options
 
-To illustrate the position of the buyer of a put option, we assume a hypothetical put option on one unit of Asset XYZ with one month to maturity and a strike price of  \$100. Assume that the put option is selling for\$ 2 and that the current price of Asset XYZ is 100. The profit or loss for this position at the expiration date depends on the market price of Asset XYZ. The possible outcomes are:
+To illustrate the position of the buyer of a put option, we assume a hypothetical put option on one unit of Asset XYZ with one month to maturity and a strike price of \$100. Assume that the put option is selling for \$2 and that the current price of Asset XYZ is 100. The profit or loss for this position at the expiration date depends on the market price of Asset XYZ. The possible outcomes are:
 
 1. If Asset XYZ's price is greater than \$100, the buyer of the put option will not exercise it, because exercising would mean selling Asset XYZ to the writer for a price that is less than the market price. In this case, a loss of \$2 (the original price of the option) will result from buying the put option. Once again, the option price represents the maximum loss to which the buyer of the put option is exposed.
  2. If Asset XYZ's price at expiration is equal to \$100, the put will not be exercised, leaving the put buyer with a loss equal to the option price of \$2.
@@ -199,7 +199,7 @@ Option price = 2
 
 Strike price = 100
 
-Time to expiration  $= 1$  month
+Time to expiration $= 1$ month
 
 Table 34.3
 
@@ -298,7 +298,7 @@ The expiration dates are standardized. Each stock is assigned an option cycle, t
 
 In addition, the practice is to trade options with an expiration date of the current calendar month, the next calendar month, and the next two expiration months in the cycle. For example, suppose a stock is assigned the January option cycle. In February, options with the following expiration months would be traded: February (the current calendar month), March (the next calendar month), April (the next expiration month in the January option cycle), and July (the last option cycle month in the January option cycle). In May, the following expiration months would be traded for a stock assigned to the January option cycle: May (the current calendar month), April (the next calendar month), July (the next expiration month in the January option cycle), and October (the last option cycle month in the January option cycle).
 
-Stock Index Options
+### Stock Index Options
 
 In March 1983, a revolution in stock options and investments in general occurred. At that time, trading an option whose underlying instrument was a stock index, the S&P 100 (originally called the "CBOE 100"), began on the CBOE. Reflecting the trading needs of global investors for tools to more efficiently manage portfolios, the number of stock index options traded throughout the world exploded. There are currently options on all the major stock market indexes and on narrow sectors in those indexes.
 
@@ -320,7 +320,7 @@ Each stock index option has a contract multiple. For example, for the S&P 100 St
 
 For a stock option, the price at which the buyer of the option can buy or sell the stock is the strike price. For an index option, the strike index is the index value at which the buyer of the option can buy or sell the underlying stock index. The strike index is converted into a dollar value by multiplying the strike index by the multiple for the contract. For example, if the strike index is 1,750 for an S&P 100 Index option, the strike value is $175,000 (1,750 × $100). If an investor purchases a call option on the S&P 100 with a strike index of 1,750 and exercises the option when the index value is 1,800, then the investor has the right to purchase the index for \$175,000 when the dollar value of the index is \$180,000. The buyer of the call option would then receive $5,000 (= $180,000—175,000) from the option writer.
 
-# Long-Term Equity Anticipation Securities
+### Long-Term Equity Anticipation Securities
 
 For an individual stock and a stock index, only the next two expiration months are traded on an exchange. Consequently, the longest time before expiration of a standard exchange-traded option is six months. Long-term equity anticipation securities (LEAPS) are options contracts designed to offer longer maturities. These contracts are available on individual stocks and some indexes. Stock option LEAPS are comparable to standard stock options except that the maturities can range up to 39 months from the origination date. Index options LEAPS differ in size compared with standard index options, having a multiplier of 10 rather than 100.
 
@@ -330,7 +330,7 @@ Market participants have made increasingly greater use of OTC options on Treasur
 
 Besides options on fixed-income securities, investors can obtain OTC options on a yield spread (such as the spread between mortgage pass-through securities and Treasuries or between double-A corporates and Treasuries).
 
-# FLEX Options
+### FLEX Options
 
 A FLEX option is an option contract with some terms that have been customized. It is traded on an options exchange and cleared and guaranteed by the associated clearinghouse for the exchange. The need for customization of certain terms is a result of the wide range of portfolio strategy needs of institutional investors that cannot be satisfied by standard exchange-traded options.
 
@@ -338,7 +338,7 @@ A FLEX option can be created for individual stocks, stock indexes, and Treasury 
 
 The development of the FLEX option is a response to the growing OTC market. The exchanges seek to make the FLEX option attractive by providing price discovery through a competitive auction market, an active secondary market, daily price valuations, and the virtual elimination of counterparty risk. The FLEX option represents a link between listed options and OTC products.
 
-# Exotic Options
+### Exotic Options
 
 OTC options can be customized in any manner sought by an institutional investor. Basically, if a dealer can reasonably hedge the risk associated with the opposite side of the option sought, it will create the option desired by a customer. OTC options are not limited to European or American types. An option can be created in which the option can be exercised at several specified dates as well as the expiration date of the option. As noted earlier, such options are referred to as "Bermuda options."
 
@@ -363,7 +363,7 @@ Market value of Portfolio B - Market value of Portfolio A.
 
 At the expiration date, if the market value of Portfolio A is greater than the market value of Portfolio B, then there is no value to this option, and it will expire worthless. The option will be exercised if the market value of Portfolio B exceeds the market value of Portfolio A at the expiration date.
 
-# Futures Options
+## Futures Options
 
 An option on a futures contract, commonly referred to as a futures option, gives the buyer the right to buy from or sell to the writer a designated futures contract at a designated price at any time during the life of the option. If the futures option is a call option, the buyer has the right to purchase one designated futures contract at the exercise price. That is, the buyer has the right to acquire a long futures position in the designated futures contract. If the buyer exercises the call option, the writer (seller) acquires a corresponding short position in the futures contract.
 
@@ -383,7 +383,7 @@ The exchange imposes no margin requirements for the buyer of a futures option on
 
 Because the writer (seller) of an option has agreed to accept all the risk (and none of the reward) of the position in the underlying instrument, the writer (seller) is required to deposit not only the margin required on the interest rate futures contract position if that is the underlying instrument, but also (with certain exceptions) the option price that is received for writing the option. In addition, if prices for the underlying futures contract adversely affect the writer's position, the writer would be required to deposit variation margin as it is marked to market.
 
-# Reasons for the Popularity of Futures Options
+## Reasons for the Popularity of Futures Options
 
 Futures options on fixed-income securities have largely supplanted options on physicals as the options vehicle used by institutional investors for three reasons.⁵ First, unlike options on fixed-income securities, futures options on Treasury coupon futures do not require payments to be made for accrued interest. Consequently, when a futures option is exercised, the call buyer and the put writer need not compensate the other party for accrued interest.
 
@@ -391,7 +391,7 @@ Second, futures options are believed to be "cleaner" instruments because of the 
 
 Finally, to price any option, it is imperative to know at all times the price of the underlying instrument. As mentioned in our discussions of the various bond markets, current bond prices are not easily available. In contrast, futures prices are readily available.
 
-# Key Points
+## Key Points
 - An option is a contract in which the writer of the option grants the buyer the right, but not the obligation, to purchase from or sell to the writer something at the exercise (or strike) price in a specified period of time (until the expiration date).
 - The price paid by the option buyer is called the "option price" or "option premium."
 - A call option grants the option buyer the right to buy something from the option writer, and a put option grants the option buyer the right to sell something to the option writer.
@@ -416,7 +416,7 @@ Finally, to price any option, it is imperative to know at all times the price of
 - There has been increased use by institutional investors of OTC options on Treasury and mortgage-backed securities.
 - Complex OTC options are called "exotic options," two examples being alternative options and outperformance options.
 
-# Questions
+## Questions
 
 1. Identify and explain the key features of an options contract.
 2. What is the difference between a put option and a call option?
@@ -452,7 +452,7 @@ b. Why was the FLEX option introduced by exchanges?
 
 a. What is the payoff from this option if at the expiration date, the price of Asset G is \$125 and the price of Asset H is \$135?
 
-b. What is the payoff from this option if at the expiration date, the price of Asset G is  \$90 and the price of Asset H is\$ 125?
+b. What is the payoff from this option if at the expiration date, the price of Asset G is \$90 and the price of Asset H is \$125?
 
 c. What is the payoff from this option if at the expiration date, the price of Asset G is \$90 and the price of Asset H is \$105?
 

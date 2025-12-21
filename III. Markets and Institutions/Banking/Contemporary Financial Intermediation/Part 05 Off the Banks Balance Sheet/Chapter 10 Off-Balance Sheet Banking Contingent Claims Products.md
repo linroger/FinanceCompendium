@@ -560,7 +560,7 @@ There are two common types of currency swaps: traditional fixed/fixed currency s
 - Caps: A cap is a swap contract in which the interest payments themselves have option characteristics. That is, the exercise (strike) price is set at particular interest rate levels. For example, suppose party A goes to a swap broker and buys a cap based on the 3-month LIBOR from a "cap writer" (party B), who represents the other party to the contract. Party A pays a premium (the price of the options) to the swap broker who subtracts his fee and passes along the remainder to party B. Now, party B is obliged to periodically (on each reset date) pay party A an amount equal to:
 
 $$
-\text{no ti on al pr in ci pa l} \times \max  \{0, 3 - \text{mo nt hs po tL IB OR} - \text{st ik er at e} \},
+\text{notional principal} \times \max \{0, 3 - \text{months spot LIBOR} - \text{strike rate}\},
 $$
 
 where  $\max(x, y)$  means the greater of  $x$  and  $y$ . Suppose the strike rate is  $10\%$ . Then if the 3-month spot LIBOR is  $12\%$ , party B must pay party A an amount equal to  $2\%$  of the notional principal, whereas if the 3-month spot LIBOR is  $9\%$ , party B pays nothing on the reset date. Thus, a cap is simply a sequence of consecutive expiration options. These options can be viewed as call options on the specified interest rate or put options on the underlying security. When rates rise, the security's price falls and the option becomes more valuable. As with a standard common stock option, the value of a cap (and hence the initial option premium) increases as the interest rate rises.
@@ -594,7 +594,7 @@ Interest rate futures are standardized contracts with specific delivery dates an
 
 ### Swaps Versus Refinancing
 
-# How do you Hedge Risk by Refinancing?
+#### How do you Hedge Risk by Refinancing?
 
 One simple way for a firm to adjust its interest rate exposure is to directly refinance. That is, suppose a firm has fixed-rate liabilities and desires floating-rate liabilities. It could simply repurchase its fixed-rate liabilities, financing the repurchase by issuing floating-rate liabilities. Why is this simple approach not always preferred to swaps and futures?
 

@@ -227,13 +227,13 @@ With defeasance, the borrower provides sufficient funds for the servicer to inve
 
 Another feature of commercial mortgage loans is that they are typically balloon loans, requiring substantial principal payment at the end of the loan's term. If the borrower fails to make the balloon payment, the borrower is in default. The lender may extend the loan and in so doing will typically modify the original loan terms. During the workout period for the loan, a higher interest rate will be charged—the default interest rate. The risk that a borrower will not be able to make the balloon payment because the borrower either cannot arrange for refinancing at the balloon payment date or cannot sell the property to generate sufficient funds to pay off the balloon balance is called balloon risk. Because the term of the loan will be extended by the lender during the workout period, balloon risk is also referred to as extension risk.
 
-# Public Commercial Real Estate Debt
+## Public Commercial Real Estate Debt
 
 Public commercial real estate debt includes such structures as CMBSs and REITs that invest in mortgage debt. The latter are discussed in chapter 32, where we explain that REITs that invest in mortgage debt constitute a small part of the REIT market. Below we describe CMBSs.
 
 In discussions about the CMBS market, participants distinguish between the types of CMBSs issued (i.e., the structure of the transactions, as described below). The pre-global financial crisis is referred to as "CMBS 1.0" and the years to follow as "CMBS 2.0."
 
-# Commercial Mortgage-Backed Securities
+## Commercial Mortgage-Backed Securities
 
 Many types of commercial loans can be sold by the loan's originator as a commercial whole loan or structured into a CMBS transaction. A CMBS is a security backed by one or more commercial mortgage loans described earlier in this chapter. In CMBSs, loans of virtually any size (from as small as \$1 million to single property transactions as large as \$200 million) can be securitized.
 
@@ -243,7 +243,7 @@ CMBSs are backed by either newly originated or seasoned commercial mortgage loan
 
 In Europe, one of the consequences of the global financial crisis has been the simplification of the transactions by only including a single large commercial loan rather than multiple commercial loans of varying size. An example of a single large loan backing a CMBS is the £263 million issued in July 2013 backed by the retail stores of Toys R Us, a privately owned retailer. (This company declared bankruptcy in September 2017.) The problem in Europe is that a single large loan CMBS is not sustainable, given that there may not be enough issuers of sufficient size to back a CMBS.
 
-# CMBS Structure
+## CMBS Structure
 
 We explained in chapter 30 how private-label RMBS transactions are structured to redistribute credit risk. The structure of a CMBS deal is much the same. Different bond classes or tranches are created, and waterfall rules are in place for the distribution of interest, principal, and losses. The structure of a CMBS transaction is the same as for a private-label RMBS in that most structures have multiple bond classes (branches) with different ratings, and rules exist for the distribution of interest and principal to the bond classes. However, three major differences arise from the features of the underlying loans.[10]
 
@@ -281,7 +281,7 @@ Figure 31.1 Subordination (credit support), priority of payment, and order of lo
 
 One might think that because CMBSs and RMBSs are backed by mortgage loans, they would trade in a similar manner in the marketplace. That is not the case. The primary reason has to do with the greater prepayment protection given to investors in CMBSs compared to RMBSs. We described that protection at the loan level. At the structure level (i.e., when the commercial mortgage loans are pooled to create a CMBS), certain bond classes can be created that give even greater prepayment protection. We described how this is done for certain RMBS tranches in collateralized mortgage obligations. As a result, CMBSs trade much like corporate bonds than RMBS.
 
-# Investors in the Commercial Real Estate Market
+## Investors in the Commercial Real Estate Market
 
 The 1980s witnessed increased interest in commercial real estate as an asset class by institutional investors. However, the difficulties arising from the crash of property values in the early 1990s led to a massive retreat by institutional investors from this asset class. It took many years to persuade institutional investors that real estate would not fall apart in every recession. With any class asset, there are two components to returns: a cyclical component and a secular component. It was the downturn in the market—a cyclical component—that scared off institutional investors, resulting in a decline in the allocation to commercial real estate.
 
@@ -299,7 +299,7 @@ Another major change in the real estate market is the growth in cross-border tra
 
 Our discussion thus far has been on the impact on the real estate market of the participation of nontraditional institutional investors as new sources of capital that is likely to continue to grow in influence. However, some market observers believe it may be small investors who will create the largest changes in the commercial property market. Individual (retail) investors are able to access the private market for private equity real estate via one or more of collective vehicles described in chapter 32. These alternatives for individual investors are relatively new. It is argued that because individual investors may have different investment objectives and constraints (such as liquidity) for their real estate investments than traditional institutional investors, individual investors could alter not only the demand for real estate but also the characteristics of the market in the long term.
 
-# Key Points
+## Key Points
 - Commercial mortgage loans are nonrecourse loans for the purchase of income-producing properties.
 - The major commercial property types are multifamily housing, apartment buildings, office buildings, industrial properties (including warehouses), shopping centers, hotels, health care facilities (e.g., senior housing care facilities), and timberlands.
 - Today commercial real estate investments include four categories: (1) private commercial real estate equity, (2) public commercial real estate equity, (2) private commercial real estate debt, and (4) public commercial real estate debt.

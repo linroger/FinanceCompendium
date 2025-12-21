@@ -5,19 +5,22 @@ formatted: 2025-12-21 12:00:00 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
-- financial derivatives
+- financial futures markets
+- derivatives
 - futures contracts
 - risk transfer vehicles
 - clearinghouse
-- margin requirements
 secondary_tags:
-- leverage in futures
+- margin requirements
+- leverage
 - forward contracts
-- risk-sharing arrangements
-- insurance arrangements
 - stock index futures
 - interest rate futures
 - currency futures
+- risk-sharing arrangements
+- insurance arrangements
+- price discovery
+- volatility management
 cssclasses: academia
 ---
 

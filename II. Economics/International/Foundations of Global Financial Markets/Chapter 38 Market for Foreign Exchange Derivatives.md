@@ -1,11 +1,12 @@
 ---
-aliases: Market for Foreign Exchange Derivatives
-tags: null
-key_concepts: null
-parent_directory: '[[Foundations of Global Financial Markets]]'
+title: "Market for Foreign Exchange Derivatives"
+parent_directory: "Foundations of Global Financial Markets"
+formatted: "2025-12-21 07:15:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+secondary_tags:
 cssclasses: academia
-title: 'Chapter 38: Market for Foreign Exchange Derivatives'
-linter-yaml-title-alias: Market for Foreign Exchange Derivatives
 primary_tags:
 - explains spot exchange rate
 - fx market includes spot
@@ -26,35 +27,9 @@ tags_extracted: '2025-12-18T00:28:36.992602'
 
 # Market for Foreign Exchange Derivatives
 
-# CONTENTS
 
-Learning Objectives
 
-FX Forward Contracts
-
-Pricing FX Forward Contracts
-
-Link between Eurocurrency Market and Forward Prices
-
-FX Futures Contracts
-
-Currency Option Contracts
-
-FX Swaps and Currency Swaps
-
-FX Swaps
-
-Currency Swaps
-
-Currency coupon swap
-
-Reasons for development of the currency swap market
-
-Key Points
-
-Questions
-
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -71,7 +46,7 @@ The foreign exchange (FX) market includes the spot (cash) market and the derivat
 
 Chapter 19 covered the FX spot market. FX derivatives are the subject of this chapter. These instruments include forward contracts, futures contracts, options, and swaps. An important theoretical relationship, referred to as "interest rate parity," explains how the spot exchange rate and the interest rates in two countries determine the forward exchange rate of their currencies. We do not review here FX risk, because this topic was covered at the end of chapter 19.
 
-# FX Forward Contracts
+## FX Forward Contracts
 
 As explained in chapter 33, forward contracts require one party to buy the underlying and the counterparty agreeing to sell that underlying for a specific price at a designated date in the future. Here we consider forward contracts in which the underlying is FX. In the FX market, such forward contracts are also referred to as outright forwards. In chapter 34, we explained that unlike a futures contract, which is traded on an exchange, a forward contract is an over-the-counter (OTC) derivative.
 
@@ -87,7 +62,7 @@ Table 38.1 Global FX derivative daily turnover, 2016 (billions of U.S. dollars).
 
 <table><tr><td>Type of FX Transaction</td><td>Daily Turnover</td></tr><tr><td>All FX transactions</td><td>5,067</td></tr><tr><td>Spot transactions</td><td>1,652</td></tr><tr><td>Outright forwards</td><td>600</td></tr><tr><td>FX swaps</td><td>2,378</td></tr><tr><td>Currency swaps</td><td>82</td></tr><tr><td>FX Options</td><td>254</td></tr></table>
 
-# Pricing FX Forward Contracts
+## Pricing FX Forward Contracts
 
 In chapter 35, we showed the relationship between spot prices and forward prices and explained how arbitrage ensures that the relationship holds. We now apply similar considerations to the pricing of FX futures contracts on the basis of the spot exchange rate using an extended example.
 
@@ -222,7 +197,7 @@ To derive the interest rate parity, we looked at the interest rates in both coun
 
 The largest sector of the Eurocurrency market involves bank deposits and bank loans in U.S. dollars and is called the "Eurodollar market." The seed for the Eurocurrency market was, in fact, the Eurodollar market. As international capital market transactions increased, the market for bank deposits and bank loans in other currencies developed.
 
-# FX Futures Contracts
+## FX Futures Contracts
 
 As explained in chapter 35, futures contracts are exchange-traded products, as opposed to forward contracts, which are OTC contracts. In the case of FX futures contracts, the major exchange is the Chicago Mercantile Exchange (CME). The FX rates traded are those between the U.S. dollar and the currencies of the following countries: Australia, Belgium, Canada, Japan, New Zealand, Norway, Switzerland, the United Kingdom, and Sweden. In addition, there are futures contracts in which the underlying is a cross-rate pair (i.e., an FX rate that does involve the local currency). For example, for a U.S. investor, the FX rate between the euro and Japanese yen would be a cross-rate pair. There are futures contracts on the following cross-rates: the Swiss franc/Japanese yen exchange rate, the euro/Canadian dollar exchange rate, and the British pound/Japanese yen exchange rate. Futures contracts are also available for emerging market currency pairs with the U.S. dollar and the following four currencies: the Brazilian real, the Czech koruna, the
 
@@ -230,7 +205,7 @@ Israeli shekel, and the Hungarian forint. Cross-rate pairs are also available wi
 
 The amount of each foreign currency that must be delivered for a contract varies by currency. For example, the British pound futures contract calls for delivery of 62,500 pounds, the Japanese yen futures contract calls for delivery of 12.5 million yen, and the euro futures contract calls for delivery of €125,000. "E-micro" contracts provide for one-tenth of the contract size. The maturity cycle for currency futures is March, June, September, and December. The longest maturity is one year. Consequently, as in the case of a currency forward contract, currency futures do not provide a good vehicle for hedging long-dated FX risk exposure.
 
-# Currency Option Contracts
+## Currency Option Contracts
 
 In contrast to a forward or futures contract, an option gives the option buyer the opportunity to benefit from favorable exchange-rate movements but establishes a maximum loss. The option price is the cost of arranging such a risk/return profile.
 
@@ -241,11 +216,11 @@ Options on foreign currencies have been traded on the Nasdaq QMX. The foreign cu
 The factors that affect the price of any option are discussed in chapter 35. One key factor is the expected volatility of the underlying over the life of the option. In the case of currency options, the underlying is the foreign currency specified by the option contract. So, the volatility that affects the option's value is the expected volatility of the exchange rate between the two currencies from the present time to the expiration of the option. The strike price also is an exchange rate, and it affects the option's value: the higher the strike price is, the lower the value of a call will be, and the higher the value of a put. Another factor that influences the option price is the relative risk-free interest rate in the two countries.
 
 
-# FX Swaps and Currency Swaps
+## FX Swaps and Currency Swaps
 
 In chapter 37 we discussed interest rate swaps—a transaction in which two counterparties agree to exchange interest payments with no exchange of principal. The FX market has two types of swaps: FX swaps and currency swaps. As can be seen from table 38.1, currency swaps are a small part of the derivatives market. In contrast, FX swaps are the largest part of the derivatives market. Moreover, FX swap transactions exceed spot transactions in number.
 
-# FX Swaps
+## FX Swaps
 
 To see how a company may use an FX swap, assume the following:
 - A U.S. manufacturing firm operating primarily in the United States has generated revenue of €1 million.
@@ -266,7 +241,7 @@ Suppose that the company can enter into one agreement that covers both transacti
 
 Note that an FX swap still involves risk, because we are dealing with an OTC derivative. That is, although the FX risk may be hedged, there is counterparty risk.
 
-# Currency Swaps
+## Currency Swaps
 
 In a currency swap, both interest and principal are exchanged. The best way to explain a currency swap is with an illustration.
 
@@ -323,7 +298,7 @@ As the currency swap market developed, the arbitrage opportunities for reduced f
 
 As another motivation for currency swaps, some companies seek to raise funds in foreign countries as a means of increasing their recognition by foreign investors, even though the cost of funding is the same as in the United States. The U.S. company in our illustration might be seeking to expand its potential sources of future funding by issuing bonds today in Switzerland.
 
-# Key Points
+## Key Points
 - FX derivative instruments include forward contracts (outright forward contracts), futures contracts, options, and swaps.
 - Nondeliverable forwards are cash settlement at the settlement date rather than physical delivery.
 - Most FX forward contracts have a maturity of less than two years.

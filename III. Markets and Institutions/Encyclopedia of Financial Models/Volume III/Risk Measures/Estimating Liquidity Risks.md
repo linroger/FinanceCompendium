@@ -1,4 +1,27 @@
 
+---
+title: Estimating Liquidity Risks
+parent_directory: Risk Measures
+formatted: 2025-12-21 07:15:35 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - liquidity risk measurement
+  - value at risk
+  - liquidity adjusted var
+  - liquidity at risk
+  - market liquidity
+secondary_tags:
+  - bid ask spread
+  - market impact
+  - cash flow risk
+  - crisis liquidity
+  - exogenous liquidity
+  - endogenous liquidity
+  - liquidity discount
+cssclasses: academia
+---
+
 # Estimating Liquidity Risks
 
 KEVIN DOWD, PhD
@@ -20,7 +43,7 @@ This entry looks at liquidity issues and how they affect the estimation of marke
 For convenience, and to be faithful to the literature, we focus on the (discredited, but computationally convenient) VaR risk measure, but we should note that any of the approaches suggested here can be adapted to estimate superior risk measures such as coherent risk measures (see, e.g., Artzner et al., 1999) or any other quantile-based risk measures. For example, estimates of these alternative risk measures can be obtained using the "average tail VaR" approach set out in Dowd (2005, Chapter 3): This is based on the idea that, since the VaR is a quantile, any of these other quantile-based risk measurements can be estimated as a weighted average of VaRs predicated on a suitable range of confidence levels.
 
 
-# LIQUIDITY AND LIQUIDITY RISKS
+# Liquidity and Liquidity Risks
 
 The notion of liquidity refers to the ability of a trader to execute a trade or liquidate a position with little or no cost, risk, or inconvenience. Liquidity is a function of the market, and depends on such factors as the number of traders in the market, the frequency and size of trades, the time it takes to carry out a trade, and the cost (and sometimes risk) of transacting. It also depends on the commodity or instrument traded, and more standardized instruments (e.g., such as FX or equities) tend to have more liquid markets than nonstandardized or tailor-made instruments (e.g., such as over-the-counter [OTC] derivatives). Markets vary greatly in their liquidity: Markets such as the FX market and the big stock markets are (generally) highly liquid; but other markets are less so, particularly those for many OTC instruments and instruments that are usually held to maturity and, hence, are rarely traded once initially bought. However, even the "big" standardized markets are not perfectly liquid—their liquidity fluctuates over time and can fall dramatically in a crisis—so we cannot take their liquidity for granted.
 
@@ -33,7 +56,7 @@ We should also take account of a further distinction. If our position is small r
 In sum, we are concerned with both liquidity costs and liquidity risks, and we need to take account of the difference between exogenous and endogenous liquidity. We now consider some of the approaches available to adjust our estimates of VaR to take account of these factors.
 
 
-# ESTIMATING LIQUIDITY-ADJUSTED VaR
+# Estimating Liquidity-Adjusted VaR
 
 There are many ways we could estimate liquidity-adjusted VaR. These vary in their degrees of sophistication and in their ease (or otherwise) of implementation, and there is no single "best" method. However, sophisticated approaches are not necessarily more useful than more basic ones, and the best method, even if we could establish what it is, is not necessarily better than a collection of inferior ones. Instead, what we really seek are simple-to-implement (i.e., spreadsheet-executable) approaches that are transparent in terms of their underlying assumptions; in effect, we are looking for liquidity "add-ons" that allow us to modify original VaR estimates that were obtained without any consideration for liquidity. We can then easily assess the impact of our assumptions on our estimates of VaR. Moreover, there is a premium on compatibility, because different methods look at different aspects of illiquidity, and it can be helpful to combine them to get some sense of an overall liquidity adjustment. Because of this, a really good method might not always be as useful as two inferior methods that actually work well together.
 
@@ -47,25 +70,25 @@ Ideally, if we had actual transaction prices, we could infer the actual returns 
 However, practitioners often lack such data and have to work with market prices that are averages of bid and ask prices. They might then attempt to take account of liquidity factors by working with the bid-ask spread, and the simplest way to incorporate liquidity risk into a VaR calculation is in terms of a spread that is assumed to be constant. If we make this assumption, the liquidity cost is then equal to half the spread times the size of the position liquidated. Using obvious notation, this means that we add the following liquidity cost (LC) to a "standard" VaR:
 
 $$
-L C = \frac{1}{2} s p r e a d^{*} P \tag {1}
+LC = \frac{1}{2} spread^{*} P \tag{1}
 $$ where spread is expressed as actual spread divided by the midpoint. For the sake of comparison and using obvious notation, let us compare
 
 
 this to a benchmark conventional lognormal VaR with no adjustment for liquidity risk:
 
 $$
-V a R = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right] \tag {2}
+VaR = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right] \tag{2}
 $$ where the returns have been calculated using prices that are the midpoints of the bid-ask spread. The liquidity-adjusted VaR,  $LVaR$ , is then given by:
 
 
 $$
-\begin{array}{l} L V a R = V a R + L C = P [ 1 - \exp (\mu_{R} - \sigma_{R} z_{\alpha}) \\ + \frac{1}{2} s p r e a d ] \tag {3} \\ \end{array}
+\begin{array}{l} LVaR = VaR + LC = P [ 1 - \exp (\mu_{R} - \sigma_{R} z_{\alpha}) \\ + \frac{1}{2} spread ] \tag{3} \\ \end{array}
 $$
 
 Setting  $\mu_{R} = 0$  to clarify matters, the ratio of  $LVaR$  to  $VaR$  is then
 
 $$
-\frac{L V a R}{V A R} = 1 + \frac{\text{sp re ad}}{2 \left[ 1 - \exp \left(- \sigma_{R} z_{\alpha}\right) \right]} \tag {4}
+\frac{LVaR}{VaR} = 1 + \frac{\text{spread}}{2 \left[ 1 - \exp \left(- \sigma_{R} z_{\alpha}\right) \right]} \tag{4}
 $$
 
 It is easy to show that the liquidity adjustment (a) rises in proportion with the assumed spread, (b) falls as the confidence level increases, and (c) falls as the holding periods each increase. The first and third of these are obviously correct, but the second implication is one that may or may not be compatible with one's prior expectations.
@@ -76,7 +99,7 @@ This approach is easy to implement and requires only minimal information, but th
 
 A superior alternative is to assume that traders face random spreads. If our position is sufficiently small relative to the market, we can also regard our spread risk as exogenous to us (i.e., independent of our own trading), for any given holding period. We could assume any process for the spread that we believe to be empirically plausible. For example, we might believe that the spread is normally distributed:
 
-$$ s p r e a d \sim N \left(\mu_{s p r e a d}, \sigma_{s p r e a d}^{2}\right) \tag {5}
+$$ spread \sim N \left(\mu_{spread}, \sigma_{spread}^{2}\right) \tag{5}
 $$ where  $\mu_{\text{spread}}$  is the mean spread and  $\sigma_{\text{spread}}$  is the spread volatility. Alternatively, we might use some heavy-tailed distribution to accommodate excess kurtosis in the spread.
 
 
@@ -85,18 +108,18 @@ We could now estimate the LVaR using Monte Carlo simulation: We could simulate b
 However, in practice, we might take a shortcut suggested by Bangia et al. (1999). They suggest that we specify the liquidity cost (LC) as:
 
 $$
-L C = \frac{P}{2} \left(\mu_{\text{sp re ad}} + k \sigma_{\text{sp re ad}}\right) \tag {6}
+LC = \frac{P}{2} \left(\mu_{\text{spread}} + k \sigma_{\text{spread}}\right) \tag{6}
 $$ where  $k$  is some parameter whose value is to be determined. The value of  $k$  could be determined by a suitably calibrated Monte Carlo exercise, but they suggest that a particular value  $(k = 3)$  is plausible (e.g., because it reflects the empirical facts that spreads appear to have excess kurtosis and are negatively correlated with returns, etc.). The liquidity-adjusted VaR, LVaR, is then equal to the conventional VaR plus the liquidity adjustment (6):
 
 
 $$
-\begin{array}{l} L V a R = V a R + L C = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right. \\ + \frac{P}{2} \left(\mu_{\text{sp re ad}} + 3 \sigma_{\text{sp re ad}} \right] \tag {7} \\ \end{array}
+\begin{array}{l} LVaR = VaR + LC = P \left[ 1 - \exp \left(\mu_{R} - \sigma_{R} z_{\alpha}\right) \right. \\ + \frac{P}{2} \left(\mu_{\text{spread}} + 3 \sigma_{\text{spread}} \right] \tag{7} \\ \end{array}
 $$
 
 Observe that this LVaR incorporates (3) as a special case when  $\sigma_{\text{spread}} = 0$ . It therefore retains many of the properties of (3), but generalizes from (3) in allowing for the spread volatility as well. The ratio of LVaR to VaR is then:
 
 $$
-\frac{L V a R}{V a R} = 1 + \frac{L C}{V a R} = 1 + \frac{1}{2} \frac{\left(\mu_{s p r e a d} + 3 \sigma_{s p r e a d}\right)}{\left[ 1 - \exp \left(- \sigma_{r} z_{\alpha}\right) \right]} \tag {8}
+ \frac{LVaR}{VaR} = 1 + \frac{LC}{VaR} = 1 + \frac{1}{2} \frac{\left(\mu_{spread} + 3 \sigma_{spread}\right)}{\left[ 1 - \exp \left(- \sigma_{r} z_{\alpha}\right) \right]} \tag{8}
 $$
 
 This immediately tells us that the spread volatility  $\sigma_{\text{spread}}$  serves to increase the liquidity adjustment relative to the earlier case. The Bangia et al. framework was also further developed by Erwan (2002), who presented empirical results that are similar to the illustrative ones presented here in suggesting that the liquidity adjustment can make a big difference to our VaR estimates.
@@ -119,12 +142,12 @@ $$
 We can therefore estimate  $\Delta P / P$  on the basis of information about  $\eta$  and  $\Delta N / N$ , and both of these can be readily guessed at using a combination of economic and market judgement. The LVaR is then:
 
 $$
-L V a R = \operatorname{Va R} \left(1 - \frac{\Delta P}{P}\right) = \operatorname{Va R} \left(1 - \eta \frac{\Delta N}{N}\right) \tag {11}
+LVaR = \operatorname{VaR} \left(1 - \frac{\Delta P}{P}\right) = \operatorname{VaR} \left(1 - \eta \frac{\Delta N}{N}\right) \tag{11}
 $$ bearing in mind that the change in price is negative. The ratio of LVaR to VaR is therefore:
 
 
 $$
-\frac{L V a R}{V a R} = 1 - \eta \frac{\Delta N}{N} \tag {12}
+\frac{LVaR}{VaR} = 1 - \eta \frac{\Delta N}{N} \tag{12}
 $$
 
 This gives us a very simple liquidity adjustment that depends on only two easily calibrated parameters. It is even independent of the VaR itself: The adjustment is the same regardless of whether the VaR is normal, lognormal, etc.
@@ -136,7 +159,7 @@ This type of approach is easy to implement, and it is of considerable use in sit
 On the other hand, the fact that this approach focuses only on endogenous liquidity and the earlier ones focus on exogenous liquidity means that this last approach can easily be combined with one of the others; in effect, we can add one adjustment to the other. Thus, two very simple approaches can be added to produce an adjustment that addresses both exogenous and endogenous liquidity risk. This combined adjustment is given by
 
 $$
-\left. \frac{L V a R}{V a R} \right|_{\text{co mb in ed}} = \left. \frac{L V a R}{V a R} \right|_{\text{ex og en ou s}} + \left. \frac{L V a R}{V a R} \right|_{\text{en do ge no us}} \tag {13}
+\left. \frac{LVaR}{VaR} \right|_{\text{combined}} = \left. \frac{LVaR}{VaR} \right|_{\text{exogenous}} + \left. \frac{LVaR}{VaR} \right|_{\text{endogenous}} \tag{13}
 $$
 
 # The Liquidity Discount Approach
@@ -149,7 +172,7 @@ Their analysis suggests that we should modify the traditional VaR in three ways.
 To spell out their approach more formally, assume that prices between trades follow a geometric Brownian motion with parameters  $\mu$  and  $\sigma$ . The current time is 0 and the price at time  $t$  is  $p(t)$ , so that geometric returns  $\log(p(t) / p(0))$  are normally distributed. However, the prices actually obtained from trading are discounted from  $p(t)$ ; more specifically, the prices obtained are  $p(t)c(s)$ , where  $c(s)$  is a random quantity-dependent proportional discount factor,  $s$  is the amount traded,  $0 \leq c(s) \leq 1$  and, other things being equal,  $c(s)$  falls as  $s$  rises. Any order placed at time  $t$  will be also subject to a random execution lag  $\Delta(s)$ , and therefore take place at time  $t + \Delta(s)$ . Other things again being equal, the execution lag  $\Delta(s)$  rises with  $s$ : Bigger orders usually take longer to carry out. Our trader has  $S$  shares and wishes to maximize the present value of his or her current position, assuming that it is liquidated by the end of some horizon  $t$ , taking account of all relevant factors, including both the quantity discount  $c(s)$  and the execution lag  $\Delta(s)$ . After solving for this problem, they produce the following expression for the liquidity-adjusted VaR:
 
 $$
-\begin{array}{l} L V a R = P \left\{E [ \ln (p (\Delta (S)) c (S) / p (0) ] \right. \\ + \operatorname{st d} \left[ \ln (p (\Delta (S)) c (S) / p (0) ] z_{\alpha} \right\} \tag {14} \\ = P \left\{\left(\mu - \frac{\sigma^{2}}{2}\right) \mu_{\Delta (S)} + \mu_{\ln c (S)} \right. \\ \left. + \left[ \sigma \sqrt{\mu_{\Delta (S)}} + \left(\mu - \frac{\sigma^{2}}{2}\right) \sigma_{\Delta (S)} + \sigma_{\ln c (S)} \right] z_{\alpha} \right\} \\ \end{array}
+\begin{array}{l} LVaR = P \left\{E [ \ln (p (\Delta (S)) c (S) / p (0) ] \right. \\ + \operatorname{std} \left[ \ln (p (\Delta (S)) c (S) / p (0) ] z_{\alpha} \right\} \tag{14} \\ = P \left\{\left(\mu - \frac{\sigma^{2}}{2}\right) \mu_{\Delta (S)} + \mu_{\ln c (S)} \right. \\ \left. + \left[ \sigma \sqrt{\mu_{\Delta (S)}} + \left(\mu - \frac{\sigma^{2}}{2}\right) \sigma_{\Delta (S)} + \sigma_{\ln c (S)} \right] z_{\alpha} \right\} \\ \end{array}
 $$ where all parameters have the obvious interpretations. This expression differs from the conventional VaR in three ways. First, the liquidation horizon  $t$  in the conventional VaR is replaced by the expected execution lag  $\mu_{\Delta(S)}$  in selling  $S$  shares. Clearly, the bigger is  $S$ , the longer the expected execution lag. Second, the LVaR takes account of the expected discount  $\mu_{\ln c(s)}$  on the shares to be sold. And, third, the volatility  $\sigma$  in the conventional VaR is supplemented by additional terms related to  $\sigma_{\Delta(s)}$  and  $\sigma_{\ln c(s)}$ , which reflect the volatilities of the execution time and the quantity discount. Note, too, that if our liquidity imperfections disappear, then  $\mu_{\Delta(S)} = t$ ,  $\sigma_{\Delta(S)} = 0$ , and  $c(S) = 1$  (which in turn implies  $\mu_{\ln c(s)} = \sigma_{\ln c(s)} = 0$ ) and our LVaR (14) collapses to a conventional VaR as a special case—which is exactly as it should be.
 
 
@@ -190,7 +213,7 @@ Once we specify these factors, we can then construct an appropriate engine to ca
 
 Another alternative is to use scenario analysis. We can specify liquidity scenarios, such as those arising from large changes in interest rates, default by counterparties, the redemption of putable debt, calls for collateral on repos and derivatives, margin calls on swaps or futures positions, and so forth. We would then (as best we could) work through the likely/possible ramifications of each scenario, and so get an idea of the liquidity consequences associated with each scenario. Such exercises can be very useful, but, as with all scenario analyses, they might give us an indication of what could happen if the scenario occurs, but don't as such tell us anything about the probabilities associated with those scenarios or the LaR itself.
 
-# ESTIMATING LIQUIDITY IN CRISES
+# Estimating Liquidity in Crises
 
 We now consider liquidity in crisis situations. As we all know, financial markets occasionally experience major crises—these include, for example, the stock market crash of 1987, the ERM crisis of 1992, the Russian default crisis of the summer of 1998, and, of course, the many liquidity problems experienced since the onset of the financial crisis in August 2007. Typically, some event occurs that leads to a large price fall. This event triggers a huge number of sell orders, traders become reluctant to buy, and the bid-ask spread rises dramatically. At the same time, the flood of sell orders can overwhelm the market and drastically slow down the time it takes to get orders executed. Selling orders that would take minutes to execute in normal times instead take hours, and the prices eventually obtained are often much lower than sellers had anticipated. Market liquidity dries up, and does so at the very time market operators need it most. Assumptions about the market—and in particular, about market liquidity—that hold in "normal" market conditions can thus break down when markets experience crises. This means that estimating crisis liquidity is more than just a process of extrapolation from LaR under more normal market conditions: We need to estimate crisis-liquidity risks using methods that take into account the distinctive features of a crisis—large losses, high bid-ask spreads, and so forth.
 

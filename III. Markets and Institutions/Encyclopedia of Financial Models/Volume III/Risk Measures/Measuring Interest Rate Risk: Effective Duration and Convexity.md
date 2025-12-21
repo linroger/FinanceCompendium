@@ -1,15 +1,35 @@
 
+---
+title: "Measuring Interest Rate Risk: Effective Duration and Convexity"
+parent_directory: "Risk Measures"
+formatted: "2025-12-21 02:45:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - effective duration
+  - effective convexity
+  - interest rate risk
+  - fixed income securities
+secondary_tags:
+  - modified duration
+  - bond valuation
+  - embedded options
+  - callable bonds
+  - putable bonds
+  - black derman toy
+  - price yield relationship
+  - convexity measures
+  - risk management
+cssclasses: academia
+---
+
 # Measuring Interest Rate Risk: Effective Duration and Convexity
 
-GERALD W. BUETOW Jr., PhD, CFA
+**Authors:** GERALD W. BUETOW Jr., PhD, CFA; ROBERT R. JOHNSON, PhD, CFA, CAIA
 
-President and Founder, BFRC Services, LLC
+## Abstract
 
-ROBERT R. JOHNSON, PhD, CFA, CAIA
-
-Independent Financial Consultant, Charlottesville, VA
-
-Abstract: Modified duration and effective duration are two ways to measure the price sensitivity of a fixed income security. Both measure the percentage price change of a security from an absolute change in yields. Effective duration is a more complete measure of price sensitivity since it incorporates embedded optionality while modified duration does not. Combining effective duration with effective convexity is a superior risk management and measurement approach than using modified duration and convexity. In general, for fixed income securities with embedded options, numerical approaches (effective) to risk measurement are superior to analytic (modified) approaches.
+Modified duration and effective duration are two ways to measure the price sensitivity of a fixed income security. Both measure the percentage price change of a security from an absolute change in yields. Effective duration is a more complete measure of price sensitivity since it incorporates embedded optionality while modified duration does not. Combining effective duration with effective convexity is a superior risk management and measurement approach than using modified duration and convexity. In general, for fixed income securities with embedded options, numerical approaches (effective) to risk measurement are superior to analytic (modified) approaches.
 
 Modified duration ignores any effect on cash flows that might take place as a result of changes in interest rates. Effective duration does not ignore the potential for such changes in cash flows. For example, bonds with embedded options will have very different cash flow properties as interest rates (or yields) change. Modified duration ignores these effects completely. In order to apply effective duration, an available interest rate model and corresponding pricing model are needed. The example in this entry shows how to compute the effective duration of securities with cash flows that are dependent on changes in either the level or dynamics of the term structure of interest rates.
 
@@ -18,14 +38,17 @@ There is no difference between modified and effective duration for option-free o
 
 Convexity and effective convexity measure the curvature of the price/yield relationship. Convexity (sometimes referred to as standard convexity) suffers the same limitations as modified duration and is therefore not generally useful for securities with embedded options. However, similar to the duration measures, in ranges of rates (or yields) where the cash flows are not materially affected by small changes in yields, the two convexity measures are almost identical.
 
+## Example Analysis
 
-1. A 5-year,  $6.70\%$  coupon straight (noncallable and nonputable) semiannual coupon bond, with a current price of  $102.75\%$  of par.
-2. A 5-year,  $6.25\%$  coupon bond, callable at par in years 2 through 5 on the semiannual coupon dates, with a current price of  $99.80\%$  of par.
-3. A 5-year,  $5.75\%$  coupon bond, putable at par in years 2 through 5 on the semiannual coupon dates, with a current price of  $100.11\%$  of par.
+The following three bonds are used to illustrate the concepts:
+
+1. A 5-year, $6.70\%$ coupon straight (noncallable and nonputable) semiannual coupon bond, with a current price of $102.75\%$ of par.
+2. A 5-year, $6.25\%$ coupon bond, callable at par in years 2 through 5 on the semiannual coupon dates, with a current price of $99.80\%$ of par.
+3. A 5-year, $5.75\%$ coupon bond, putable at par in years 2 through 5 on the semiannual coupon dates, with a current price of $100.11\%$ of par.
 
 The cash flows of these securities are very different as interest rates change. Consequently, the sensitivities to changes in interest rates are also very different.
 
-Using the Black-Derman-Toy interest rate model that is based on the existing term structure, the term structure of interest rates is shifted up and down by 10 basis points (bps) and the resulting price changes are recorded.  $P_{-}$  corresponds to the price after a downward shift in interest rates,  $P_{+}$  corresponds to the price after an upward shift in interest rates,  $P$  is the current price, and  $S$  is the assumed shift in the term structure. (Note that shifting the term structure in a parallel manner will result in a change in yields equal to the shift for option-free bonds.) Table 1 shows these prices for each bond. The
+Using the Black-Derman-Toy interest rate model that is based on the existing term structure, the term structure of interest rates is shifted up and down by 10 basis points (bps) and the resulting price changes are recorded. $P_{-}$ corresponds to the price after a downward shift in interest rates, $P_{+}$ corresponds to the price after an upward shift in interest rates, $P$ is the current price, and $S$ is the assumed shift in the term structure. (Note that shifting the term structure in a parallel manner will result in a change in yields equal to the shift for option-free bonds.) Table 1 shows these prices for each bond.
 
 Table 1 Original Prices and Resulting Prices from a Downward and Upward 10 Basis Point Interest Rate Shift and the Corresponding Effective Duration and Effective Convexity for Three Bonds Based on the Black-Derman-Toy Model
 
@@ -33,31 +56,29 @@ Table 1 Original Prices and Resulting Prices from a Downward and Upward 10 Basis
 
 Table 2 Effective Duration and Effective Convexity for Various Shifts in the Term Structure for Three Bonds
 
-<table><tr><td rowspan="2">Term Structure Shift (bps)</td><td colspan="2">Straight Bond</td><td colspan="2">Callable Bond</td><td colspan="2">Putable Bond</td></tr><tr><td>Effective Duration</td><td>Effective Convexity</td><td>Effective Duration</td><td>Effective Convexity</td><td>Effective Duration</td><td>Effective Convexity</td></tr><tr><td>-500</td><td>4.40</td><td>23.00</td><td>1.91</td><td>4.67</td><td>4.46</td><td>23.46</td></tr><tr><td>-250</td><td>4.30</td><td>22.19</td><td>1.88</td><td>4.55</td><td>4.37</td><td>22.66</td></tr><tr><td>0</td><td>4.21</td><td>21.39</td><td>3.08</td><td>-41.72</td><td>2.70</td><td>64.49</td></tr><tr><td>250</td><td>4.12</td><td>20.62</td><td>4.15</td><td>20.85</td><td>1.87</td><td>7.07</td></tr><tr><td>500</td><td>4.03</td><td>19.87</td><td>4.07</td><td>20.10</td><td>1.81</td><td>4.23</td></tr><tr><td>1000</td><td>3.85</td><td>18.42</td><td>3.89</td><td>18.66</td><td>1.77</td><td>4.03</td></tr></table> formulas for calculating effective duration and effective convexity are as follows:
-
-
-$$
-\text{Ef fe ct iv e} = \frac{\left(P_{-}\right) - \left(P_{+}\right)}{2 P S} \tag {1}
-$$
-
-$$
-\text{Ef fe ct iv e} = \frac{\left(P_{-}\right) - \left(P_{+}\right) - 2 P}{P S^{2}} \tag {2}
-$$
+<table><tr><td rowspan="2">Term Structure Shift (bps)</td><td colspan="2">Straight Bond</td><td colspan="2">Callable Bond</td><td colspan="2">Putable Bond</td></tr><tr><td>Effective Duration</td><td>Effective Convexity</td><td>Effective Duration</td><td>Effective Convexity</td><td>Effective Duration</td><td>Effective Convexity</td></tr><tr><td>-500</td><td>4.40</td><td>23.00</td><td>1.91</td><td>4.67</td><td>4.46</td><td>23.46</td></tr><tr><td>-250</td><td>4.30</td><td>22.19</td><td>1.88</td><td>4.55</td><td>4.37</td><td>22.66</td></tr><tr><td>0</td><td>4.21</td><td>21.39</td><td>3.08</td><td>-41.72</td><td>2.70</td><td>64.49</td></tr><tr><td>250</td><td>4.12</td><td>20.62</td><td>4.15</td><td>20.85</td><td>1.87</td><td>7.07</td></tr><tr><td>500</td><td>4.03</td><td>19.87</td><td>4.07</td><td>20.10</td><td>1.81</td><td>4.23</td></tr><tr><td>1000</td><td>3.85</td><td>18.42</td><td>3.89</td><td>18.66</td><td>1.77</td><td>4.03</td></tr></table>
 
 It is critical to understand the importance of the pricing model in this exercise. The model must account for the change in cash flows of the securities as interest rates change. The callable and putable bonds have very different cash flow characteristics that depend on the level of interest rates. The pricing model used must account for this property.4
 
-# Straight Bond
+## Straight Bond
 
 The effective duration for the straight bond is found by recording the price changes from shifting the term structure up  $(P_{+})$  and down  $(P_{-})$  by 10 bps and then substituting these values into equation (1). The prices are shown in Table 1. Consequently, the computation is:
 
 $$
-\begin{array}{r l} \text{Ef fe ct iv ed ur at io n} & = \frac{1 0 3 . 1 8 4 8 8 0 5 - 1 0 2 . 3 1 9 1 2 3 5}{2 (1 0 2 . 7 5 0 9 0 2 9) (0 . 0 0 1)} \\ & = 4. 2 1 \end{array}
+\begin{array}{rl}
+\text{Effective duration} &= \frac{103.1848805 - 102.3191235}{2 \times (102.7509029) \times (0.001)} \\
+&= 4.21
+\end{array}
 $$
 
 Similarly, the calculation for effective convexity is found by substituting the corresponding prices into equation (2):
 
 $$
-\begin{array}{l} \text{Ef fe ct iv e} \\ = \frac{1 0 3 . 1 8 4 8 8 0 5 + 1 0 2 . 3 1 9 1 2 3 5 - 2 (1 0 2 . 7 5 0 9 0 2 9)}{1 0 2 . 7 5 0 9 0 2 9 (0 . 0 0 1)^{2}} \\ = 2 1. 3 9 \\ \end{array}
+\begin{array}{l}
+\text{Effective convexity} \\
+= \frac{103.1848805 + 102.3191235 - 2 \times (102.7509029)}{102.7509029 \times (0.001)^{2}} \\
+= 21.39
+\end{array}
 $$
 
 For the straight bond, the modified duration is 4.21 and the convexity is 21.40. These are very close to the effective measures shown in Table 1. This demonstrates that, for option-free bonds, the two measures are almost the same for small changes in yields.
@@ -71,7 +92,7 @@ As the term structure shifts up (that is, as rates rise), the yield to maturity 
 
 These are both well-documented properties of option-free bonds. The modified duration and convexity numbers for the straight bond are almost identical to the effective measures for the straight bond shown in Table 2.
 
-# Callable Bond
+## Callable Bond
 
 The effective duration for the callable bond is found by recording the price changes from shifting the term structure up  $(P_{+})$  and down  $(P_{-})$  by 10 bps and then substituting these values into equation (1). The prices are shown in Table 1. Note that these prices take into account the changing cash flows resulting from the embedded call option. Consequently, the computation is:
 
@@ -81,10 +102,12 @@ $$
 
 Similarly, the calculation for effective convexity is found by substituting the corresponding prices into equation (2):
 
-Effective convexity
-
 $$
-\begin{array}{l} = \frac{1 0 0 . 1 0 8 5 6 2 4 + 9 9 . 4 9 3 2 1 7 1 8 - 2 (9 9 . 8 0 2 9 7 1 7 6)}{9 9 . 8 0 2 9 7 1 7 6 (0 . 0 0 1)^{2}} \\ = - 4 1. 7 2 \\ \end{array}
+\begin{array}{l}
+\text{Effective convexity} \\
+= \frac{100.1085624 + 99.49321718 - 2 \times (99.80297176)}{99.80297176 \times (0.001)^{2}} \\
+= -41.72
+\end{array}
 $$
 
 The relationship between the shift in rates and effective duration is shown in Table 2 and in Figure 2. As rates increase, the effective duration of the callable bond becomes larger. For example, the effective duration at very low yields  $(-500\mathrm{bp}$  shift) is 1.91 and increases to 3.89 at very high rates  $(+1,000$  bps). This reflects the fact that as rates increase the likelihood of the bond being called decreases and, as a result, the bond behaves more like a straight bond; hence, its effective duration increases. Conversely, as rates drop, this likelihood increases and the bond and its effective duration behave more like a bond with a two-year maturity because of the call option becoming effective in two years. As rates decrease significantly, the likelihood of the issuer calling the bond in two years increases. Consequently, at very low and intermediate rates the difference between the effective duration measure and modified duration is large and at very high rates the difference is small.
@@ -98,18 +121,26 @@ As explained above, effective convexity measures the curvature of the price/yiel
 
 Table 2 shows that for large positive yield curve shifts (that is, for the  $+250$ -bp,  $+500$ -bp, and  $+1,000$ -bp shifts in the term structure), the effective convexity of the callable bond becomes positive and very close to the effective convexity values of the straight bond. For example, the effective convexity at the  $+250$ -bp shift is 20.85 for the callable bond and 20.62 for the straight bond. The only reason they are not the same is because the coupon rates of the bonds are not equal. Consequently, at very low and intermediate rates the difference between effective convexity and the standard convexity is large and at very high rates the difference is small. The intuition behind these findings is straightforward. At low rates, the cash flows of the callable bond are severely affected by the likelihood of the embedded call option being exercised by the issuer. At high rates, the embedded call option is so far out-of-the-money that it has almost no effect on the cash flows of the callable bond and so the callable bond behaves like a straight bond.
 
-# ifiable Bond
+## Putable Bond
 
 The effective duration for the putable bond is found by recording the price changes from shifting the term structure up  $(P_{+})$  and down  $(P_{-})$  by 10 bps and then substituting these values into equation (1). The prices are shown in Table 1. Note that these prices take into account the changing cash flows resulting from the embedded put option. Consequently, the computation is:
 
 $$
-\begin{array}{l} \text{Ef fe ct iv e} = \frac{1 0 0 . 3 8 1 9 0 5 9 - 9 9 . 8 4 2 3 7 6 0 4}{2 (1 0 0 . 1 0 8 9 1 3 1) (0 . 0 0 1)} \\ = 2. 7 0 \\ \end{array}
+\begin{array}{l}
+\text{Effective duration} \\
+= \frac{100.3819059 - 99.84237604}{2 \times (100.1089131) \times (0.001)} \\
+= 2.70
+\end{array}
 $$
 
 Similarly, the calculation for effective convexity is found by substituting the corresponding prices into equation (2):
 
 $$
-\begin{array}{l} \text{Ef fe ct iv e} \\ = \frac{1 0 0 . 3 8 1 9 0 5 9 + 9 9 . 8 4 2 3 7 6 0 4 - 2 (1 0 0 . 1 0 8 9 1 3 1)}{1 0 0 . 1 0 8 9 1 3 1 (0 . 0 0 1)^{2}} \\ = 6 4. 4 9 \\ \end{array}
+\begin{array}{l}
+\text{Effective convexity} \\
+= \frac{100.3819059 + 99.84237604 - 2 \times (100.1089131)}{100.1089131 \times (0.001)^{2}} \\
+= 64.49
+\end{array}
 $$
 
 Because the putable bond behaves so differently from the other two bonds, the effective duration and effective convexity values are very different. As rates increase, the bond behaves more like a two-year bond because the owner will, in all likelihood, exercise the right to put the bond back at the put price as soon as possible. As a result, effective duration of the putable bond is expected to decrease as rates increase. This is due to the embedded put option severely affecting the cash flows of the putable bond. Conversely, as rates fall, the putable bond behaves more like a five-year straight bond since the embedded put option is so far out-of-the-money and has little effect on the cashflows of the putable bond. Effective duration should reflect these properties. Table 2 shows that this is indeed the case. For example, the effective duration at very low yields  $(-500\mathrm{-bp}$  shift) is 4.46 and decreases to 1.77 at very high rates  $(+1,000$  bps). Consequently, at very high rates and intermediate rates the difference between the effective duration and modified duration measures is large and at low rates the difference is small.
@@ -125,7 +156,7 @@ At very low rates (that is, for the 250-bp and 500-bp downward shifts in the ter
 
 Figure 2 illustrates these properties. Also notice how the transition from low yields to high yields forces the price/yield relationship to have a very high convexity at intermediate levels of yields. For example, the current effective convexity of the putable bond is 64.49 compared to 21.39 for the straight bond and -41.72 for the callable bond. This is because of the price truncation of the putable bond resulting from the embedded put option moving from out-of-the-money and having little influence over the cash flows to in-the-money and having a significant impact on cash flows.
 
-# PUTTING IT ALL TOGETHER
+## Putting It All Together
 
 Notice in Table 2 how effective duration changes much more across yields for the callable and putable bonds than it does for the straight bond. This is to be expected because the embedded options have such a significant influence over cash flows as yields change over a wide spectrum. Interestingly, at high (low) yields the callable (putable) bond's effective duration is very close to the straight bond. This is where the embedded call (put) option is so far out-of-the-money that the two securities behave similarly. The same intuition holds for the effective convexity measures.
 

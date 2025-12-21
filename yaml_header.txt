@@ -1,0 +1,24 @@
+---
+title: "The Active-Passive Decomposition Model for MBS"
+parent_directory: "Encyclopedia of Financial Models/Volume III/Mortgage-Backed Securities Analysis and Valuation"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - active-passive decomposition model
+  - mortgage-backed securities valuation
+  - prepayment burnout modeling
+  - refinancing incentives
+secondary_tags:
+  - partial differential equations
+  - backward induction pricing
+  - path-dependent valuation
+  - turnover speed modeling
+  - refinancing speed modeling
+  - mortgage pool heterogeneity
+  - interest rate risk measures
+  - monte carlo simulation alternative
+  - universal refinancing modeling
+  - fixed-rate mortgage analysis
+cssclasses: academia
+---

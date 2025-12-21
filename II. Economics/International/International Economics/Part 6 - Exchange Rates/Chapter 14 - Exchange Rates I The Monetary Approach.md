@@ -128,7 +128,7 @@ For example, if a European basket costs  $ E_{\mathbb{S} / \mathbb{E}}P_{\text{E
 
 Finally, just as we did with the law of one price, we can rearrange the no-arbitrage equation for the equality of price levels,  $ E_{\mathbb{S} / \epsilon}P_{EUR} = P_{US} $, to allow us to solve for the exchange rate that would be implied by absolute PPP: $ $
 
-\text{Ab so lu te PP P :} \underbrace {E_{\mathbb {S} / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {P_{U S} / P_{E U R}}_{\text{Ra ti oo fp ri ce le ve ls}} \tag {14-1}
+\text{Absolute PPP:} \underbrace{E_{\$/ \epsilon}}_{\text{Exchange rate}} = \underbrace{P_{US}/P_{EUR}}_{\text{Ratio of price levels}} \tag{14-1}
 
 $ $
 This is one of the most important equations in our course of study because it shows how PPP (or absolute PPP) makes a clear prediction about exchange rates: Purchasing power parity implies that the exchange rate at which two currencies trade equals the relative price levels of the two countries.

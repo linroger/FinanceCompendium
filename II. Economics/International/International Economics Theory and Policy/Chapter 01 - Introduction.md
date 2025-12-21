@@ -1,23 +1,24 @@
 ---
-aliases: Introduction
-tags: null
-key_concepts: null
-parent_directory: '[[International Economics  Theory and Policy]]'
-cssclasses: academia
-title: 'Chapter 01: Introduction'
-linter-yaml-title-alias: Introduction
+title: "Chapter 01: Introduction"
+parent_directory: International Economics Theory and Policy
+formatted: 2025-12-21 07:10:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- finance discipline economics
-- economies international trade
-- world economy time
+- international economics introduction
+- gains from trade
+- pattern of trade
+- international economic relations
+- globalization economic impacts
 secondary_tags:
-- study international trade finance
-- united states international economics
-- global economy created linkages
-- 19th century trade theory
-- unprecedented importance international economic
-- trade theorists pointed international
-tags_extracted: '2025-12-18T00:48:36.164807'
+- trade theory fundamentals
+- international trade statistics
+- economic policy coordination
+- balance of payments
+- exchange rate determination
+- international capital markets
+- protectionism trade policies
+cssclasses: academia
 ---
 
 # INTRODUCTION
@@ -50,7 +51,7 @@ International trade is even more important to most other countries than it is to
 
 Source: World Bank.
 
-# LEARNING GOALS
+## LEARNING GOALS
 
 After reading this chapter, you will be able to:
 
@@ -58,7 +59,7 @@ Distinguish between international and domestic economic issues.
 - Explain why seven themes recur in international economics and discuss their significance.
 Distinguish between the trade and monetary aspects of international economics.
 
-# What Is International Economics About?
+## What Is International Economics About?
 
 International economics uses the same fundamental methods of analysis as other branches of economics because the motives and behavior of individuals are the same in international trade as they are in domestic transactions. Gourmet food shops in Florida sell coffee beans from both Mexico and Hawaii; the sequence of events that brought those beans to the shop is not very different, and the imported beans traveled a much shorter distance than the beans shipped within the United States! Yet international economics involves new and different concerns because international trade and investment occur between independent nations. The United States and Mexico are sovereign states; Florida and Hawaii are not. Mexico's coffee shipments to Florida could be disrupted if the U.S. government imposed a quota that limits imports; Mexican coffee could suddenly become cheaper to U.S. buyers if the peso were to fall in value
 
@@ -66,7 +67,7 @@ against the dollar. By contrast, neither of those events can happen in commerce 
 
 The subject matter of international economics, then, consists of issues raised by the special problems of economic interaction between sovereign states. Seven themes recur throughout the study of international economics: (1) the gains from trade, (2) the pattern of trade, (3) protectionism, (4) the balance of payments, (5) exchange rate determination, (6) international policy coordination, and (7) the international capital market.
 
-# The Gains from Trade
+## The Gains from Trade
 
 Everybody knows that some international trade is beneficial—for example, nobody thinks that Norway should grow its own oranges. Many people are skeptical, however, about the benefits of trading for goods that a country could produce for itself. Shouldn't Americans buy American goods whenever possible to help create jobs in the United States?
 
@@ -86,13 +87,13 @@ Trade can also alter the distribution of income between broad groups, such as wo
 
 These concerns have moved from the classroom into the center of real-world policy debate as it has become increasingly clear that the real wages of less-skilled workers in the United States have been declining—even though the country as a whole is continuing to grow richer. Many commentators attribute this development to growing international trade, especially the rapidly growing exports of manufactured goods from low-wage countries. Assessing this claim has become an important task for international economists and is a major theme of Chapters 4 through 6.
 
-# The Pattern of Trade
+## The Pattern of Trade
 
 Economists cannot discuss the effects of international trade or recommend changes in government policies toward trade with any confidence unless they know their theory is good enough to explain the international trade that is actually observed. As a result, attempts to explain the pattern of international trade—who sells what to whom—have been a major preoccupation of international economists.
 
 Some aspects of the pattern of trade are easy to understand. Climate and resources clearly explain why Brazil exports coffee and Saudi Arabia exports oil. Much of the pattern of trade is more subtle, however. Why does Japan export automobiles while the United States exports aircraft? In the early 19th century, English economist David Ricardo offered an explanation of trade in terms of international differences in labor productivity, an explanation that remains a powerful insight (Chapter 3). In the 20th century, however, alternative explanations also were proposed. One of the most influential explanations links trade patterns to an interaction between the relative supplies of national resources such as capital, labor, and land on one side and the relative use of these factors in the production of different goods on the other. We present this theory in Chapter 5. We then discuss how this basic model must be extended in order to generate accurate empirical predictions for the volume and pattern of trade. Also, some international economists have proposed theories that suggest a substantial random component, along with economies of scale, in the pattern of international trade, theories that are developed in Chapters 7 and 8.
 
-# How Much Trade?
+## How Much Trade?
 
 If the idea of gains from trade is the most important theoretical concept in international economics, the seemingly eternal debate over how much trade to allow is its most important policy theme. Since the emergence of modern nation-states in the 16th century, governments have worried about the effect of international competition on the prosperity of domestic industries and have tried either to shield industries from foreign competition by placing limits on imports or to help them in world competition by subsidizing exports. The single most consistent mission of international economics has been to analyze the effects of these so-called protectionist policies—and
 
@@ -106,7 +107,7 @@ As befits both the historical importance and the current relevance of the protec
 
 In the real world, however, governments do not necessarily do what the cost-benefit analysis of economists tells them they should. This does not mean that analysis is useless. Economic analysis can help make sense of the politics of international trade policy by showing who benefits and who loses from such government actions as quotas on imports and subsidies to exports. The key insight of this analysis is that conflicts of interest within nations are usually more important in determining trade policy than conflicts of interest between nations. Chapters 4 and 5 show that trade usually has very strong effects on income distribution within countries, whereas Chapters 10 through 12 reveal that the relative power of different interest groups within countries, rather than some measure of overall national interest, is often the main determining factor in government policies toward international trade.
 
-# Balance of Payments
+## Balance of Payments
 
 In 1998, both China and South Korea ran large trade surpluses of about \$40 billion each. In China's case, the trade surplus was not out of the ordinary—the country had been running large surpluses for several years, prompting complaints from other countries, including the United States, that China was not playing by the rules. So is it good to run a trade surplus and bad to run a trade deficit? Not according to the South Koreans: Their trade surplus was forced on them by an economic and financial crisis, and they bitterly resented the necessity of running that surplus.
 
@@ -114,7 +115,7 @@ This comparison highlights the fact that a country's balance of payments must be
 
 monetary policy (Chapters 17 through 22). Like the problem of protectionism, the balance of payments has become a central issue for the United States because the nation has run huge trade deficits every year since 1982.
 
-# Exchange Rate Determination
+## Exchange Rate Determination
 
 In September 2010, Brazil's finance minister, Guido Mantegna, made headlines by declaring that the world was "in the midst of an international currency war." The occasion for his remarks was a sharp rise in the value of Brazil's currency, the real, which was worth less than 45 cents at the beginning of 2009 but had risen to almost 60 cents when he spoke (and would rise to 65 cents over the next few months). Mantegna accused wealthy countries—the United States in particular—of engineering this rise, which was devastating to Brazilian exporters. However, the surge in the real proved short-lived; the currency began dropping in mid-2011, and by the summer of 2013 it was back down to only 45 cents.
 

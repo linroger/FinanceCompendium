@@ -2,7 +2,7 @@
 ---
 title: "Discrete Probability Distributions"
 parent_directory: "Probability Theory"
-formatted: "2025-12-21 08:15:00 AM"
+formatted: "2025-12-21 08:45:00 AM"
 formatter_model: "claude-haiku-4-5-20251001"
 cli-tool: "claude-code"
 primary_tags:
@@ -403,7 +403,7 @@ $$ either equal to
 
 
 $$
-S_{1} = \$ 2 0 \cdot 1. 1 = \$ 2 2
+S_{1} = \$20 \cdot 1.1 = \$22
 $$ or
 
 
@@ -414,33 +414,31 @@ $$
 At the end of the second period, that is, (1,2], we have
 
 $$
-S_{2} = S_{1} \cdot Y_{2} = \ 2 2 \cdot 1. 1 = \ 2 4. 2 0
+S_{2} = S_{1} \cdot Y_{2} = \$22 \cdot 1.1 = \$24.20
 $$ or
 
 
 $$
-S_{2} = S_{1} \cdot Y_{2} = \ 2 2 \cdot 0. 9 = \$ 1 9. 8 0
+S_{2} = S_{1} \cdot Y_{2} = \$22 \cdot 0.9 = \$19.80
 $$ in the case where S₁ = 22, and
 
 
 $$
-S_{2} = S_{1} \cdot Y_{2} = \ 1 8 \cdot 1. 1 = \$ 1 9. 8 0
+S_{2} = S_{1} \cdot Y_{2} = \$18 \cdot 1.1 = \$19.80
 $$ or
 
 
 $$
-S_{2} = S_{1} \cdot Y_{2} = \ 1 8 \cdot 0. 9 = \$ 1 6. 2 0
+S_{2} = S_{1} \cdot Y_{2} = \$18 \cdot 0.9 = \$16.20
 $$ in the case where S1 = 18.
 
 
 That is, at time  $t + 1 = T = 2$ , we have three possible values for  $S_{2}$ , namely,  $\24.20$ ,  $\$ 19.80 , and 16.20. Hence, we have a new state space
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/deb3cedbcf4114bfe7f0ddd27b3d7fff533456d6e6cd7d63fac11f2ff1188963.jpg)
-Figure 3 Binomial Stock Price Model with Two Periods Note: Starting price S_0 = \20. Upward factor u = 1.1, downward d = 0.9
+Figure 3 Binomial Stock Price Model with Two Periods Note: Starting price S_0 = \$20. Upward factor u = 1.1, downward d = 0.9
 
-that we will denote by Ω'S' = {{$16.2, $19.8,
-\$24.2}}. Note that S2 = \$19.80 can be achieved in two different ways: (1) S1 = S0 · 1.1 · 0.9 and
-(2) S1 = S0 · 0.9 1.1. The evolution of this pricing process, between time 0 and T = 2, can be
+that we will denote by Ω'S' = {\$16.2, \$19.8, \$24.2}. Note that S2 = \$19.80 can be achieved in two different ways: (1) S1 = S0 · 1.1 · 0.9 and (2) S1 = S0 · 0.9 · 1.1. The evolution of this pricing process, between time 0 and T = 2, can be
 demonstrated using the binomial tree given in
 Figure 3.
 
@@ -449,27 +447,27 @@ As  $\sigma$ -algebra, we use  $\mathbb{A} = 2^{\Omega_S'}$ , which is the power
 The probability distribution of  $S_{2}$  is given by the following
 
 $$
-\begin{array}{l} P \left(S_{2} = \$ 2 4. 2 0\right) = P \left(Y_{1} = 1. 1\right) \cdot P \left(Y_{2} = 1. 1\right) \\ = \left( \begin{array}{c} 2 \\ 2 \end{array} \right) p^{2} = 0. 6^{2} = 0. 3 6 \\ \end{array}
+\begin{array}{l} P\left(S_{2} = \$24.20\right) = P\left(Y_{1} = 1.1\right) \cdot P\left(Y_{2} = 1.1\right) \\ = \left( \begin{array}{c} 2 \\ 2 \end{array} \right) p^{2} = 0.6^{2} = 0.36 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P \left(S_{2} = \$ 1 9. 8 0\right) = P \left(Y_{1} = 0. 9\right) \cdot P \left(Y_{2} = 1. 1\right) \\ + P \left(Y_{1} = 1. 1\right) \cdot P \left(Y_{2} = 0. 9\right) \\ = 2 (1 - p) p = \left( \begin{array}{c} 2 \\ 1 \end{array} \right) \cdot 0. 4 \cdot 0. 6 \\ = 0. 4 8 \\ \end{array}
+\begin{array}{l} P\left(S_{2} = \$19.80\right) = P\left(Y_{1} = 0.9\right) \cdot P\left(Y_{2} = 1.1\right) \\ + P\left(Y_{1} = 1.1\right) \cdot P\left(Y_{2} = 0.9\right) \\ = 2(1 - p)p = \left( \begin{array}{c} 2 \\ 1 \end{array} \right) \cdot 0.4 \cdot 0.6 \\ = 0.48 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P \left(S_{2} = \$ 1 6. 2 0\right) = P \left(Y_{1} = 0. 9\right) \cdot P \left(Y_{2} = 0. 9\right) \\ = \left( \begin{array}{c} 2 \\ 0 \end{array} \right) (1 - p)^{2} = 0. 4^{2} = 0. 1 6 \\ \end{array}
+\begin{array}{l} P\left(S_{2} = \$16.20\right) = P\left(Y_{1} = 0.9\right) \cdot P\left(Y_{2} = 0.9\right) \\ = \left( \begin{array}{c} 2 \\ 0 \end{array} \right)(1 - p)^{2} = 0.4^{2} = 0.16 \\ \end{array}
 $$
 
 We now have the complete probability space of the random variable  $S_{2}$ . One can see the connection between  $S_{2}$  and  $X$  by the congruency of the probabilities of the individual outcomes, that is,
 
 $$
-\begin{array}{l} P \left(S_{2} = \$ 2 4. 2 0\right) = P (X = 2) \\ P (S_{2} = \$ 1 9. 8 0) = P (X = 1) \\ P (S_{2} = \$ 1 6. 2 0) = P (X = 0) \\ \end{array}
+\begin{array}{l} P\left(S_{2} = \$24.20\right) = P(X = 2) \\ P\left(S_{2} = \$19.80\right) = P(X = 1) \\ P\left(S_{2} = \$16.20\right) = P(X = 0) \\ \end{array}
 $$
 
 From this, we derive, again, the relationship
 
 $$
-S_{2} = S_{0} \cdot 1. 1^{X} \cdot 0. 9^{2 - X}
+S_{2} = S_{0} \cdot 1.1^{X} \cdot 0.9^{2 - X}
 $$
 
 Thus, even though  $S_{2}$ , or, generally  $S_{T}$ , is not distributed binomial itself, its probability distribution can be derived from the related binomial random variable  $X$ .
@@ -503,7 +501,7 @@ Even if we had drawn first a black ball and then a white ball, the chances would
 Suppose now that we are interested in the sum  $X$  of black balls drawn in a total of  $n$  trials. Let's look at this situation. We begin our reasoning with some illustration given specific values, that is,
 
 $$
-N = 1 0
+N = 10
 $$
 
 $$
@@ -523,7 +521,7 @@ Note:  $N = 10$ ,  $K = 4$  (black),  $n = 5$ , and  $k = 3$  (black).
 The urn containing the black and white balls is depicted in Figure 5. Let's first compute the number of different outcomes we have to consider when we draw  $n = 5$  out of  $N = 10$  balls regardless of any color. We have 10 different options to draw the first ball; that is, b1 through w6 in Figure 5. After the first ball has been drawn without replacement, the second ball can be drawn from the urn consisting of the remaining nine balls. After that, the third ball is one out of the remaining eight, and so on until five balls have been successively removed. In total, we have
 
 $$
-1 0 \times 9 \times 8 \times 7 \times 6 = 1 0! / 5! = 3 0, 2 4 0
+10 \times 9 \times 8 \times 7 \times 6 = 10! / 5! = 30,240
 $$ alternative ways to withdraw the five balls. For example, we may draw  $b4$ ,  $b2$ ,  $b1$ ,  $w3$ , and  $w6$ . However, this is the same as  $w6$ ,  $w3$ ,  $b4$ ,  $b2$ , and  $b1$  or any other combination of these five balls. Since we do not care about the exact order of the balls drawn, we have to account for that in that we divide the total number of possibilities (i.e., 30,240) by the number of possible combinations of the very same balls drawn. The latter is equal to
 
 
@@ -536,13 +534,13 @@ Thus, we have  $30,240 / 120 = 252$  different nonredundant outcomes if we draw 
 10 balls. Alternatively, this can be written as
 
 $$
-2 5 2 = \frac{1 0 !}{5 ! \times 5 !} = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) \tag {9}
+252 = \frac{10!}{5! \times 5!} = \left( \begin{array}{c} 10 \\ 5 \end{array} \right) \tag{9}
 $$
 
 Consequently, the chance of obtaining exactly this set of balls (i.e.,  $\{b1,b2,b4,w3,w6\}$ ) in any order is given by the inverse of equation (9) which is
 
 $$
-\frac{1}{2 5 2} = \frac{1}{\left( \begin{array}{c} 1 0 \\ 5 \end{array} \right)} = 0. 0 0 4 \tag {10}
+\frac{1}{252} = \frac{1}{\left( \begin{array}{c} 10 \\ 5 \end{array} \right)} = 0.004 \tag{10}
 $$
 
 Now recall that we are interested in the chance of obtaining a certain number  $k$  of black balls in our sample. So, we have to narrow down the number of possible outcomes given by equation (9) to all samples of size 5 that yield that number  $k$  which, here, is equal to 3. How do we do this?
@@ -556,7 +554,7 @@ $$
 Hence, the number of combinations of drawing  $k = 3$  black balls out of four is
 
 $$
-2 4 / 6 = 4! / 3! = 4
+24 / 6 = 4! / 3! = 4
 $$
 
 Next we need to consider the previous number of possibilities of drawing  $k = 3$  black balls in combination with drawing  $n - k = 2$  white balls. We apply the same reasoning as before to obtain two white balls from the collection of six (i.e.,  $\{w1, w2, w3, w4, w5, w6\}$ ). That gives us  $6 \times 5/2 = 6! / (2! \times 4!) = 15$  nonredundant options to recover two white balls, in our example.
@@ -564,24 +562,24 @@ Next we need to consider the previous number of possibilities of drawing  $k = 3
 In total, we have
 
 $$
-\begin{array}{l} 4 \times 1 5 = \frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} \times \frac{6 \times 5 \times 4 \times 3 \times 2 \times 1}{2 \times 1 \times 4 \times 3 \times 2 \times 1} \\ = \frac{4 !}{3 ! \times 1 !} \times \frac{6 !}{2 ! \times 4 !} = \left( \begin{array}{c} 4 \\ 3 \end{array} \right) \times \left( \begin{array}{c} 6 \\ 2 \end{array} \right) = 6 0 \\ \end{array}
+\begin{array}{l} 4 \times 15 = \frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1} \times \frac{6 \times 5 \times 4 \times 3 \times 2 \times 1}{2 \times 1 \times 4 \times 3 \times 2 \times 1} \\ = \frac{4!}{3! \times 1!} \times \frac{6!}{2! \times 4!} = \left( \begin{array}{c} 4 \\ 3 \end{array} \right) \times \left( \begin{array}{c} 6 \\ 2 \end{array} \right) = 60 \\ \end{array}
 $$ different possibilities to obtain three black and two white balls in a sample of five balls. All these 60 samples have the same implication for us (i.e.,  $k = 3$ ). Combining these 60 possibilities with a probability of 0.004 as given by equation (10), we obtain as the probability for a sum of  $k = 3$  black balls in a sample of  $n = 5$
 
 
 $$
-6 0 / 2 5 2 = 0. 2 3 8 1
+60 / 252 = 0.2381
 $$
 
 Formally, we have
 
 $$
-P (X = 3) = \frac{\binom {4} {3} \binom {6} {2}}{\binom {1 0} {5}} = 0. 2 3 8 1
+P(X = 3) = \frac{\binom{4}{3} \binom{6}{2}}{\binom{10}{5}} = 0.2381
 $$
 
 Then, for our example, the probability distribution of  $X$  is
 
 $$
-P (X = k) = \frac{\binom {4} {k} \binom {6} {n - k}}{\binom {1 0} {5}}, k = 1, 2, 3, 4 \tag {11}
+P(X = k) = \frac{\binom{4}{k} \binom{6}{n - k}}{\binom{10}{5}}, k = 1, 2, 3, 4 \tag{11}
 $$
 
 (Note that we cannot draw more than four black balls from  $b1$ ,  $b2$ ,  $b3$ , and  $b4$ .)
@@ -611,7 +609,7 @@ $$ different nonredundant choices for choosing  $n - k$  white balls out of  $N 
 Finally, all we need to do is to combine equations (12), (13), and (14) in the same fashion as equation (11). By doing so, we obtain
 
 $$
-P (X = k) = \frac{\binom {K} {k} \binom {N - K} {n - k}}{\binom {N} {n}}, \quad k = 1, 2, \dots , n \tag {15}
+P(X = k) = \frac{\binom{K}{k} \binom{N - K}{n - k}}{\binom{N}{n}}, \quad k = 1, 2, \dots, n \tag{15}
 $$ as the probability to obtain a total of  $X = k$  black balls in the sample of length  $n$  without replacement.
 
 
@@ -653,7 +651,7 @@ Again, let  $X$  be the hypergeometric random variable describing successful int
 So, the probability for this particular outcome  $k = 51$  for the number of successes  $X$  given  $n = 138$  trials is
 
 $$
-P (X = 5 1) = \frac{\left( \begin{array}{c} 1 5 4 6 \\ 5 1 \end{array} \right) \left( \begin{array}{c} 1 5 0 8 \\ 8 7 \end{array} \right)}{\left( \begin{array}{c} 3 0 7 2 \\ 1 3 8 \end{array} \right)} = 0. 0 0 0 1 3 4 2 9
+P(X = 51) = \frac{\left( \begin{array}{c} 1546 \\ 51 \end{array} \right) \left( \begin{array}{c} 1508 \\ 87 \end{array} \right)}{\left( \begin{array}{c} 3072 \\ 138 \end{array} \right)} = 0.00013429
 $$ which is an extremely small probability.
 
 
@@ -666,22 +664,22 @@ For our next distribution, the multinomial distribution, we return to the realm 
 We extend the illustration where we used an urn containing black and white balls. In our extension, we have a total of  $N$  balls with three colors:  $K_{w}$  white balls,  $K_{b}$  black balls, and  $K_{r} = N - K_{w} - K_{b}$  red balls. The probability of each of these colors is denoted by
 
 $$
-P (Y = \text{wh it e}) = p_{w}
+P(Y = \text{white}) = p_{w}
 $$
 
 $$
-P (Y = \text{bl ac k}) = p_{b}
+P(Y = \text{black}) = p_{b}
 $$
 
 $$
-P (Y = \mathrm{re d}) = p_{r}
+P(Y = \text{red}) = p_{r}
 $$ with each of these probabilities representing the population share of the respective color:  $p_i = K_i / N$ , for  $i = \text{white}$ , black, and red. Since all shares combined have to account for all  $N$ , we set
 
 
 $$ p_{r} = 1 - p_{b} - p_{w}
 $$
 
-For purposes of this illustration, let  $p_w = p_b = 0.3$  and  $p_r = 0.4$ . Suppose that in a sample of  $n = 10$  trials, we obtain the following result:  $n_w = 3$  white,  $n_b = 4$  black, and  $n_r = n - n_w - n_b = 3$  red. Furthermore, suppose that the balls were drawn in the following order
+For purposes of this illustration, let $p_w = p_b = 0.3$ and $p_r = 0.4$. Suppose that in a sample of  $n = 10$  trials, we obtain the following result:  $n_w = 3$  white,  $n_b = 4$  black, and  $n_r = n - n_w - n_b = 3$  red. Furthermore, suppose that the balls were drawn in the following order
 
 <table><tr><td>Y1</td><td>Y2</td><td>Y3</td><td>Y4</td><td>Y5</td><td>Y6</td><td>Y7</td><td>Y8</td><td>Y9</td><td>Y10</td></tr><tr><td>r</td><td>w</td><td>b</td><td>b</td><td>w</td><td>r</td><td>r</td><td>b</td><td>w</td><td>b</td></tr></table> where the random variable  $Y_{i}$  represents the outcome of the  $i$ -th trial. (We denote  $w = \text{white}$ ,
 
@@ -697,19 +695,19 @@ The last equality indicates that the order of appearance of the individual value
 We introduce the random variable  $X$  representing the number of the individual colors occurring in the sample. That is,  $X$  consists of the three components  $X_w$ ,  $X_b$ , and  $X_r$  or, alternatively,  $X = (X_w, X_b, X_r)$ . Analogous to the binomial case of two colors, we are not interested in the order of appearance, but only in the respective numbers of occurrences of the different colors (i.e.,  $n_w$ ,  $n_b$ , and  $n_r$ ). Note that several different sample outcomes may lead to  $X = (n_w, n_b, n_r)$ . The total number of different nonredundant samples with  $n_w$ ,  $n_b$ , and  $n_r$  is given by the multinomial coefficient introduced in Appendix B, which here yields
 
 $$
-\left( \begin{array}{c c c} & n \\ n_{w} & n_{b} & n_{r} \end{array} \right) = \left( \begin{array}{c c c} & 1 0 \\ 3 & 3 & 4 \end{array} \right) = 4, 2 0 0
+\left( \begin{array}{c c c} & n \\ n_{w} & n_{b} & n_{r} \end{array} \right) = \left( \begin{array}{c c c} & 10 \\ 3 & 3 & 4 \end{array} \right) = 4,200
 $$
 
 Hence, the probability for this value of  $X = (k_w, k_b, k_r) = (3,4,3)$  is then
 
 $$
-\begin{array}{l} P (X = (3, 4, 3)) = \left( \begin{array}{c c c} & 1 0 & \\ 3 & 3 & 4 \end{array} \right) \cdot p_{w}^{3} \cdot p_{b}^{4} \cdot p_{r}^{3} \\ = 4, 2 0 0 \cdot 0. 3^{3} \cdot 0. 3^{4} \cdot 0. 4^{3} \\ = 0. 0 5 8 8 \\ \end{array}
+\begin{array}{l} P(X = (3, 4, 3)) = \left( \begin{array}{c c c} & 10 & \\ 3 & 3 & 4 \end{array} \right) \cdot p_{w}^{3} \cdot p_{b}^{4} \cdot p_{r}^{3} \\ = 4,200 \cdot 0.3^{3} \cdot 0.3^{4} \cdot 0.4^{3} \\ = 0.0588 \\ \end{array}
 $$
 
 In general, the probability distribution of a multinomial random variable  $X$  with  $k$  components  $X_{1}, X_{2}, \ldots, X_{k}$  is given by
 
 $$
-\begin{array}{l} P \left(X_{1} = n_{1}, X_{2} = n_{2}, \dots , X_{k} = n_{k}\right) \\ = \left( \begin{array}{c c} & n \\ n_{1} & n_{2} \dots n_{k} \end{array} \right) \cdot p_{1}^{n_{1}} \cdot p_{2}^{n_{2}} \cdot \dots \cdot p_{k}^{n_{k}} \tag {16} \\ \end{array}
+\begin{array}{l} P\left(X_{1} = n_{1}, X_{2} = n_{2}, \dots, X_{k} = n_{k}\right) \\ = \left( \begin{array}{c c} & n \\ n_{1} & n_{2} \dots n_{k} \end{array} \right) \cdot p_{1}^{n_{1}} \cdot p_{2}^{n_{2}} \cdot \dots \cdot p_{k}^{n_{k}} \tag{16} \\ \end{array}
 $$ where, for  $j = 1,2,\dots ,k,n_{j}$  denotes the outcome of component  $j$  and the  $p_j$  the corresponding probability.
 
 
@@ -759,29 +757,29 @@ $$
 Let the three possible outcomes be a  $10\%$  increase in price  $(u = 1.1)$ , no change in price  $(l = 1.0)$ , and a  $10\%$  decline in price  $(d = 0.9)$ . That is, the price either goes up by some factor, remains steady, or drops by some factor. Therefore,
 
 $$
-S_{1}^{(u)} = S_{0} \cdot 1. 1
+S_{1}^{(u)} = S_{0} \cdot 1.1
 $$
 
 $$
-S_{1}^{(l)} = S_{0} \cdot 1. 0
+S_{1}^{(l)} = S_{0} \cdot 1.0
 $$
 
 $$
-S_{1}^{(d)} = S_{0} \cdot 0. 9
+S_{1}^{(d)} = S_{0} \cdot 0.9
 $$
 
 Thus, we have three different outcomes of the price change in the first period. Suppose the price change behaved the same in the second period, from  $t = 1$  until  $t = 2$ . So, we have
 
 $$
-S_{2}^{(u)} = S_{1} \cdot 1. 1
+S_{2}^{(u)} = S_{1} \cdot 1.1
 $$
 
 $$
-S_{2}^{(l)} = S_{1} \cdot 1. 0
+S_{2}^{(l)} = S_{1} \cdot 1.0
 $$
 
 $$
-S_{2}^{(d)} = S_{1} \cdot 0. 9
+S_{2}^{(d)} = S_{1} \cdot 0.9
 $$ at time  $t = 2$  depending on
 
 
@@ -806,7 +804,7 @@ $$
 Note that since  $Y_{1} \cdot Y_{2}$  is a product, we do not consider, for example,  $(Y_{1} = u, Y_{2} = d)$  and  $(Y_{1} = d, Y_{2} = u)$  separately. With
 
 $$
-\begin{array}{l} P (Y_{i} = u) = p^{u} = 0. 2 5 \\ P (Y_{i} = l) = p^{l} = 0. 5 0 \\ P (Y_{i} = d) = p^{d} = 0. 2 5 \\ \end{array}
+\begin{array}{l} P(Y_{i} = u) = p^{u} = 0.25 \\ P(Y_{i} = l) = p^{l} = 0.50 \\ P(Y_{i} = d) = p^{d} = 0.25 \\ \end{array}
 $$ the corresponding probability distribution of  $X$  is given in the first two columns of Table 1. We use the multinomial coefficient
 
 
@@ -823,7 +821,7 @@ $n_l =$  number of zero movements
 
 $n_d =$  number of down-movements
 
-Now, if  S_0 = \20 , then we obtain the probability distribution of the stock price in  t = 2  as shown in columns 2 and 3 in Table 1. Note that
+Now, if S_0 = \$20, then we obtain the probability distribution of the stock price in t = 2 as shown in columns 2 and 3 in Table 1. Note that
 
 Table 1 Probability Distribution of the Two-Period Stock Price Model
 
@@ -834,11 +832,11 @@ In the first and second columns, we have the probability distribution of the two
 the probabilities of the values of  $S_{2}$  are associated with the corresponding price changes  $X$  and, hence, listed on the same lines of Table 1. It is now possible to evaluate the probability of events such as, "a stock price  $S_{2}$  of, at most, \$22," from the  $\sigma$ -algebra  $\mathbb{A}'$  of the multinomial probability space of  $X$ . This is given by
 
 $$
-\begin{array}{l} P (S_{2} \leq \$ 2 2) \\ = P \left(S_{2} = \$ 16. 2\right) + P \left(S_{2} = \$ 1 8\right) + P \left(S_{2} = \$ 1 9. 8\right) \\ + P (S_{2} = \$ 2 0) + P (S_{2} = \$ 2 2) \\ \end{array}
+\begin{array}{l} P(S_{2} \leq \$22) \\ = P\left(S_{2} = \$16.2\right) + P\left(S_{2} = \$18\right) + P\left(S_{2} = \$19.8\right) \\ + P(S_{2} = \$20) + P(S_{2} = \$22) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} = 0. 2 5 + 0. 1 2 5 + 0. 2 5 + 0. 2 5 + 0. 0 6 2 5 \\ = 1 - P \left(S_{2} = \$ 2 4. 2\right) \\ = 0. 9 3 7 5 \\ \end{array}
+\begin{array}{l} = 0.25 + 0.125 + 0.25 + 0.25 + 0.0625 \\ = 1 - P\left(S_{2} = \$24.2\right) \\ = 0.9375 \\ \end{array}
 $$ where the second line is the result of the fact that the sum of the probabilities of all disjoint events has to add up to one. That follows since any event and its complement account for the entire state space  $\Omega^{\prime}$ .
 
 
@@ -850,7 +848,7 @@ Figure 6 Multinomial Stock Price Model: Stock Price  $S_{2}$ , in  $t = 2$
 From equation (1), the expected stock price in  $t = 2$  is computed as
 
 $$
-\begin{array}{l} E \left(S_{2}\right) = \sum_{s \in \Omega^{\prime}} s \cdot P \left(S_{2} = s\right) \\ = \$ 16.2 \cdot 0.0625 + \$ 18 \cdot 0.25 + \$ 19.8 \cdot 0.125 \\ + \mathbb {S} 2 0 \cdot 0. 2 5 + \mathbb {S} 2 2 \cdot 0. 2 5 + \mathbb {S} 2 4. 2 \cdot 0. 0 6 2 5 \\ = \$ 20 \\ \end{array}
+\begin{array}{l} E\left(S_{2}\right) = \sum_{s \in \Omega^{\prime}} s \cdot P\left(S_{2} = s\right) \\ = \$16.2 \cdot 0.0625 + \$18 \cdot 0.25 + \$19.8 \cdot 0.125 \\ + \$20 \cdot 0.25 + \$22 \cdot 0.25 + \$24.2 \cdot 0.0625 \\ = \$20 \\ \end{array}
 $$
 
 So, on average, the stock price will remain unchanged.
@@ -875,7 +873,7 @@ $$ which is the set  $\mathbb{N}$  of the nonnegative integer numbers.
 The probability measure of a Poisson random variable  $N$  for nonnegative integers  $k = 0,1,$  2,... is defined as
 
 $$
-P (N = k) = \frac{\lambda^{k}}{k !} e^{- \lambda} \tag {17}
+P(N = k) = \frac{\lambda^{k}}{k!} e^{-\lambda} \tag{17}
 $$ where  $e = 2.7183$  is the Euler constant. Here, we have unit period length.
 
 
@@ -887,7 +885,7 @@ $$ while its variance is given by
 
 
 $$
-V a r (N) = \sigma^{2} = \lambda \tag {18}
+\operatorname{Var}(N) = \sigma^{2} = \lambda \tag{18}
 $$
 
 So, both parameters, mean and variance, of  $N\sim Poi(\lambda)$  are given by the parameter  $\lambda$
@@ -895,18 +893,18 @@ So, both parameters, mean and variance, of  $N\sim Poi(\lambda)$  are given by t
 For a period of general length  $t$ , equation (17) becomes
 
 $$
-P (N = k) = \frac{(\lambda t)^{k}}{k !} e^{- \lambda t} \tag {19}
+P(N = k) = \frac{(\lambda t)^{k}}{k!} e^{-\lambda t} \tag{19}
 $$
 
 We can see that the new parameter is now  $\lambda_{t}$ , accounting for the time proportionality of the distribution of  $N$ , that is,  $N = N(t)$  is the number of jumps of size 1 in the interval  $(0, t)$ . The mean changes to
 
 $$
-E N (t) = \lambda t \tag {20}
+EN(t) = \lambda t \tag{20}
 $$ and analogous to the variance given by (18) is now
 
 
 $$
-\operatorname{Va r} (N (t)) = \sigma^{2} (t) = \lambda t \tag {21}
+\operatorname{Var}(N(t)) = \sigma^{2}(t) = \lambda t \tag{21}
 $$
 
 We can see by equation (20) that the average number of occurrences is the average per unit of time,  $\lambda$ , times the length of the period,  $t$ , in units of time. The same holds for the variance given by equation (21).
@@ -918,14 +916,14 @@ The Poisson distribution serves as an approximation of the hypergeometric distri
 The Poisson distribution is typically used in finance for credit risk modeling. For example, suppose we have a pool of 100 bonds issued by different corporations. By experience or empirical evidence, we may know that each quarter of a year the expected number to default is two; that is,  $\lambda = 2$ . Moreover, from prior research, we can approximate the distribution of  $N$  by the Poisson distribution, even though, theoretically, the Poisson distribution admits values  $k$  greater than 100. What is the number of bonds to default within the next year, on average? According to equation (3), since the mean is  $E_{\text{quarter}}(N) = \lambda = 2$  per quarter, the mean per year  $(t = 4)$  is
 
 $$
-E_{y e a r} (N) = \lambda t = 2 \cdot 4 = 8
+E_{year}(N) = \lambda t = 2 \cdot 4 = 8
 $$
 
 By equation (20), the variance is 8, from equation (19), the probability of, at most, 10 bonds to default is given by
 
 
 $$
-\begin{array}{l} P (N \leq 1 0) = P (N = 0) + P (N = 1) + \dots \\ + P (N = 1 0) \\ = e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{0}}{0 !} + e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{1}}{1 !} + \dots \\ + e^{- 2 \times 4} \cdot \frac{(2 \times 4)^{1 0}}{1 0 !} \\ = 0. 8 1 5 9 \\ \end{array}
+\begin{array}{l} P(N \leq 10) = P(N = 0) + P(N = 1) + \dots \\ + P(N = 10) \\ = e^{-2 \times 4} \cdot \frac{(2 \times 4)^{0}}{0!} + e^{-2 \times 4} \cdot \frac{(2 \times 4)^{1}}{1!} + \dots \\ + e^{-2 \times 4} \cdot \frac{(2 \times 4)^{10}}{10!} \\ = 0.8159 \\ \end{array}
 $$
 
 # DISCRETE UNIFORM DISTRIBUTION
@@ -937,20 +935,20 @@ So far we have explained how drawings from this  $\Omega^{\prime}$  may be model
 The mean of a discrete, uniformly distributed random variable  $X$  on the state space  $\Omega^{\prime} = \{x_{1}, x_{2}, \ldots, x_{n}\}$  is given by
 
 $$
-E (X) = \sum_{i = 1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i = 1}^{n} x_{i} \tag {22}
+E(X) = \sum_{i=1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i=1}^{n} x_{i} \tag{22}
 $$
 
 Note that equation (22) is equal to the arithmetic mean. The variance is
 
 $$
-\begin{array}{l} \operatorname{Va r} (X) = \sum_{i: x_{i} \in \Omega^{\prime}} p_{i} \cdot \left(x_{i} - E (X)\right)^{2} \\ = \frac{1}{n} \sum_{i: x_{i} \in \Omega^{\prime}} (x_{i} - E (X))^{2} \\ \end{array}
+\begin{array}{l} \operatorname{Var}(X) = \sum_{i: x_{i} \in \Omega^{\prime}} p_{i} \cdot \left(x_{i} - E(X)\right)^{2} \\ = \frac{1}{n} \sum_{i: x_{i} \in \Omega^{\prime}} (x_{i} - E(X))^{2} \\ \end{array}
 $$ with  $E(X)$  from equation (22).
 
 
 A special case of a discrete uniform probability space is given when  $\Omega' = \{1, 2, \ldots, n\}$ . The resulting mean, according to equation (22), is then,
 
 $$
-\begin{array}{l} E (X) = \sum_{i = 1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i = 1}^{n} i \\ = \frac{1}{n} \times \frac{n (n + 1)}{2} = \frac{n + 1}{2} \tag {23} \\ \end{array}
+\begin{array}{l} E(X) = \sum_{i=1}^{n} p_{i} \cdot x_{i} = \frac{1}{n} \sum_{i=1}^{n} i \\ = \frac{1}{n} \times \frac{n(n + 1)}{2} = \frac{n + 1}{2} \tag{23} \\ \end{array}
 $$
 
 For this special case of discrete uniform distribution of a random variable  $X$ , we use the notation  $X \sim DU(n)$  with parameter  $n$ .
@@ -960,7 +958,7 @@ Let's once more consider the outcome of a toss of a dice. The random variable nu
 Next, we want to consider several independent trials, say  $n = 10$ , of throwing the dice. By  $n_1, n_2, n_3, n_4, n_5$ , and  $n_6$ , we denote the number of occurrence of the values 1, 2, 3, 4, 5, and 6, respectively. With constant probability  $p_1 = p_2 = \ldots = p_6 = 1/6$ , we have a discrete uniform distribution, that is,  $X \sim DU(6)$ . Thus, the probability of obtaining  $n_1 = 1$ ,  $n_2 = 2$ ,  $n_3 = 1$ ,  $n_4 = 3$ ,  $n_5 = 1$ , and  $n_6 = 2$ , for example, is
 
 $$
-\begin{array}{l} P \left(X_{1} = 1, X_{2} = 1, \dots , X_{6} = 2\right) \\ = \left( \begin{array}{c c} & 1 0 \\ 1 & 2 \ldots 2 \end{array} \right) \left(\frac{1}{6}\right)^{1 0} \\ = \frac{1 0 !}{1 ! \times 2 ! \times \dots \times 2 !} \cdot \left(\frac{1}{6}\right)^{1 0} \\ = 1 5 1 2 0 0 \cdot 0. 0 0 0 0 0 0 1 6 5 3 8 \\ = 0. 0 0 2 5 \\ \end{array}
+\begin{array}{l} P\left(X_{1} = 1, X_{2} = 1, \dots, X_{6} = 2\right) \\ = \left( \begin{array}{c c} & 10 \\ 1 & 2 \ldots 2 \end{array} \right) \left(\frac{1}{6}\right)^{10} \\ = \frac{10!}{1! \times 2! \times \dots \times 2!} \cdot \left(\frac{1}{6}\right)^{10} \\ = 151200 \cdot 0.000016538 \\ = 0.0025 \\ \end{array}
 $$
 
 # Application to the Multinomial Stock Price Model
@@ -971,12 +969,12 @@ Let us resume the stock price model where in  t = 0  we have a given stock price
 $$
 S_{1} = S_{0} \cdot 1.1 = \$22
 $$
-S_{1}^{(l)} = S_{0} \cdot 1. 0 = \$ 2 0
+S_{1}^{(l)} = S_{0} \cdot 1.0 = \$20
 $$ or decreases to
 
 
 $$
-S_{1}^{(d)} = S_{0} \cdot 0. 9 = \$ 1 8
+S_{1}^{(d)} = S_{0} \cdot 0.9 = \$18
 $$ each with probability  $1 / 3$ . Again, we introduce the random variable  $Y$  assuming the values  $u = 1.1$ ,  $l = 1.0$ , and  $d = 0.9$  and, thus, representing the percentage change of the stock price between  $t = 0$  and  $t + 1 = 1$ . The stock price in  $t + 1 = 1$  is given by the random variable  $S_{1}$  on the corresponding state space
 
 
@@ -993,7 +991,7 @@ $$
 This probability corresponds to a stock price in  $t = 10$  of
 
 $$
-S_{1 0} = S_{0} \cdot u^{3} \cdot l^{3} \cdot d^{4} = \\ \2 0 \cdot 1. 1^{3} \cdot 1 \cdot 0. 9^{4} = \\ \ 17. 4 7
+S_{10} = S_{0} \cdot u^{3} \cdot l^{3} \cdot d^{4} = \\ \$20 \cdot 1.1^{3} \cdot 1 \cdot 0.9^{4} = \\ \$17.47
 $$
 
 This stock price is a random variable given by
@@ -1107,7 +1105,7 @@ We extend the prior case to the case where the random variable  $X$  is the sum 
 To begin, let us consider the case  $k = 0$ . As in the prior case  $n = 3$ , we have only one possibility (i.e., all four  $Y_{i}$  equal to 0, that is,  $Y_{1} = Y_{2} = Y_{3} = Y_{4} = 0$ ). This can be seen from the following. Technically, we have four positions to place the first 0. Then, we have three choices to place the second 0. For the third 0, we have two positions available, and one for the last 0. In total, we have
 
 $$
-4 \times 3 \times 2 \times 1 = 2 4
+6 \times 5/2 = 6! / (2! \times 4!) = 15
 $$
 
 Table B.1 Different Choices to Obtain  $X = k$  when  $n = 3$
@@ -1251,7 +1249,7 @@ $$ different orders of assignment. Now, we are indifferent with respect to which
 
 
 $$
-\binom {n!} {n_{1} n_{2} \ldots n_{k}} = \frac{n !}{n_{1} ! \times n_{2} ! \times \ldots \times n_{k} !}
+\left( \begin{array}{c} n \\ n_{1} n_{2} \ldots n_{k} \end{array} \right) = \frac{n!}{n_{1}! \times n_{2}! \times \ldots \times n_{k}!}
 $$ which is exactly the multinomial coefficient equation given above.
 
 
@@ -1266,7 +1264,7 @@ $$ which is exactly the multinomial coefficient equation given above.
 
 # NOTE
 
-1. Note that the successive prices  $S_{1},\ldots ,S_{T}$  depend on their respective predecessors. They are said to be path-dependent. Only the changes, or factors  $Y_{t + 1}$ , for each period are independent. In this case, the price  $S_{t + 1}$  depends only on  $S_{t}$ , however, and not the en tire past. This is referred to as the Markov property.
+1. Note that the successive prices $S_{1},\ldots,S_{T}$ depend on their respective predecessors. They are said to be path-dependent. Only the changes, or factors $Y_{t+1}$, for each period are independent. In this case, the price $S_{t+1}$ depends only on $S_{t}$, however, and not the entire past. This is referred to as the Markov property.
 
 
 # REFERENCE

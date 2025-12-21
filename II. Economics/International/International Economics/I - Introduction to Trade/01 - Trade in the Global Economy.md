@@ -70,7 +70,7 @@ In the first part of this book, we develop a number of models that help us under
 
 This section begins our study of international economics by defining some important terms and summarizing the overall trends in world trade.
 
-# The Basics of World Trade
+## The Basics of World Trade
 
 Countries buy and sell goods and services from one another constantly. An export is a product sold from one country to another, and an import is a product bought by one country from another. We normally think of exports and imports as goods that are shipped between countries, but for services that is not necessarily the case. Construction services, for example, are performed on-site in the importing country rather than being shipped. Travel and tourism are large categories of service exports that also occur on-site: the money spent by a U.S. visitor to the Eiffel Tower is a service export of France, and a Chinese visitor to the Grand Canyon adds to U.S. service exports.
 
@@ -84,9 +84,9 @@ In 2010, the iPhone 3GS was valued at about  \$179 when it was shipped from Chin
 
 The iPhone example illustrates how the manufacturing required for a single final product is often spread across many countries. That so many countries can be involved in manufacturing a final product and its components is a new phenomenon that illustrates the drop in transportation and communication costs in the modern world economy. In the past, trade occurred in more standardized goods (such as raw materials) that were shipped long distances, but were not shipped back-and-forth between countries during the manufacturing process. This new feature of world trade and production, often called offshoring, is discussed later in the book; here, we present the idea by looking at how trade patterns have changed over time.
 
-# HEADLINES
+### HEADLINES
 
-# Sum of iPhone Parts: Trade Distortion
+#### Sum of iPhone Parts: Trade Distortion
 
 Although the iPhone sold in the United States is assembled in China, most of its value comes from parts made in other countries. Counting its full value as a U.S. import from China therefore exaggerates the size of the U.S. trade deficit with China.
 
@@ -104,9 +104,9 @@ means, he argued, that political tensions over trade deficits are probably large
 
 Source: Excerpted from Andrew Batson, "Sum of iPhone Parts: Trade Distortion," The Wall Street Journal, December 16, 2010, p. 3. Reprinted with permission of The Wall Street Journal, Copyright © 2010 Dow Jones & Company, Inc. All Rights Reserved Worldwide.
 
-# APPLICATION
+### APPLICATION
 
-# Is Trade Today Different from the Past?
+#### Is Trade Today Different from the Past?
 
 Is the type of trade today different from that in the past? The answer to this question is yes. Not only is there more international trade today than in the past, but the type of trade has also changed. We can see the changes in the type of trade by organizing imports and exports into four categories, depending on their use in the economy: (1) foods, feeds, and beverages; (2) industrial supplies and materials (raw materials like chemicals and petroleum and basic processed goods, such as steel, newsprint, and textiles); (3) capital goods (durable goods including aircraft, cars, computers, machinery, and so forth); (4) finished consumer goods (all finished household goods, except cars and computers, but including the iPhone). The percentage of U.S. imports and exports accounted for by these four categories from 1925 to 2010 is shown in Figure 1-1, with U.S. imports in panel (a) and exports in panel (b).
 
@@ -128,17 +128,9 @@ in 2010. Figure 1-1(b) shows that the export share of these same categories also
 
 Figure 1-1(a) also shows that the imports of capital goods plus consumer goods have increased from  $10\%$  in 1925 to  $60\%$  in 2010. In Figure 1-1(b), we see that the export of capital plus consumer goods has likewise increased from about  $20\%$  of exports in 1925 to about  $60\%$  of exports in 2010. Capital goods and consumer products (including the iPhone) are the types of goods that are most likely to have a portion of their production process sent overseas through offshoring. The fact that the share of trade in these products has increased shows that the type of trade today has changed greatly from the past.
 
-# Map of World Trade
+## Map of World Trade
 
-To show the flow of exports and imports around the world, we use the map in Figure 1-2, which shows trade in billions of dollars for 2010. That year about 16.8 trillion in goods crossed international borders. (Because trade in services is harder to measure between countries, we do not include it in Figure 1-2.) The amount
-
-FIGURE 1-2
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/f4a44bc1db995e65cc6050e9675d394e0bcd24034794581eda7181d03f7617b4.jpg)
-
-Total world trade flows in 2010: 16,800 billion
-
-# World Trade in Goods
+### World Trade in Goods
 
 <\$50 billion
 
@@ -158,7 +150,7 @@ European and U.S. Trade The largest amount of trade shown in Figure 1-2 is the f
 
 In addition to large trade flows among the European countries, there are also large trade flows between the United States and Europe. The United States exported  \$303 billion of goods to Europe in 2010 and imported\$ 377 billion of goods from Europe. If we add those flows to the trade flow within Europe, we find that Europe and the United States account for about \$4.6 trillion, or 27\%, of the \$16.8 trillion in world trade flows. This fact is also recorded in Table 1-1, and it shows that a large amount
 
-# TABLE 1-1
+#### TABLE 1-1
 
 Shares of World Trade, Accounted for by Selected Regions, 2010 This table shows the share of trade within each region, or the share of exports from each region, as a percentage of total world trade in 2010. Europe and the Americas combined account for about one-half (51\%) of world exports, and Asia accounts for another one-third (34\%) of world exports.
 
@@ -189,15 +181,9 @@ In the quote at the start of the chapter, Kofi Annan, former secretary general o
 
 The export percentages shown in Table 1-1 add up to  $100\%$  (being careful not to add Europe and the Americas twice), once we include trade at the bottom of the world: Australia and New Zealand export \$270 billion (accounting for  $1.6\%$ of world exports) and import 242 billion. You do not need to know all the specific percentages shown in Table 1-1, but an understanding of the broad picture (such as which regions trade the most) will be useful as we undertake our study of international trade.
 
-# Trade Compared with GDP
+## Trade Compared with GDP
 
-So far, we have discussed the value of trade crossing international borders. But there is a second way that trade is often reported, and that is as a ratio of trade to a country's gross domestic product (GDP), the value of all final goods produced in a year. For the United States, the average value of imports and exports (for goods and services) expressed relative to GDP was  $15\%$  in 2010. Most other countries have a higher ratio of trade to GDP, as shown in Table 1-2.
-
-At the top of the list are Hong Kong (China) and Singapore, where the amount of trade exceeds their GDP! These two countries are important shipping and processing centers, so they are importing goods, processing them, and then exporting the final product to other countries. As in our iPhone example, the value-added involved in the exports ( \$6.50 for each iPhone) can be much less than the total value of exports (\$ 179). That explains why the total amount that countries trade can be greater than their GDP. At the bottom of the list are the United States and Japan, which are very large in economic size; Pakistan, which is only starting to engage in international trade; and Brazil and Argentina, which are far away from other importing countries.
-
-So even though the United States is among the world's largest exporters and importers, it is nearly the smallest trading nation of the countries shown in Table 1-2 when trade is measured as a percent of a country's GDP. What is the reason for this inverse relationship? Very large countries tend to have a lot of trade among states or provinces within their borders, but that trade is not counted as part of international trade. Other countries that are not quite as large as the United States but are close to their major trading partners, such as Germany, the United Kingdom, Italy, and Spain, and Canada and Mexico, tend to appear in the middle of the list in Table 1-2. Smaller countries with close neighbors, such as Hong Kong, Singapore, Malaysia, and the smaller European nations, will have more trade spilling across their borders and have the highest ratios of trade to GDP.
-
-# TABLE 1-2
+#### TABLE 1-2
 
 Trade/GDP Ratio in 2010 This table shows the ratio of total trade to GDP for each country, where trade is calculated as (Imports + Exports)/2, including both merchandise goods and services. Countries with the highest ratios of trade to GDP tend to be small in economic size and are often important centers for shipping goods, like Hong Kong (China) and Singapore. Countries with the lowest ratios of trade to GDP tend to be very large in economic size, like Japan and the United States, or are not very open to trade because of trade barriers or their distance from other countries.
 
@@ -205,7 +191,7 @@ Trade/GDP Ratio in 2010 This table shows the ratio of total trade to GDP for eac
 
 Source: World Development Indicators, The World Bank.
 
-# Barriers to Trade
+## Barriers to Trade
 
 Table 1-2 shows the differences across countries in the amount of trade relative to GDP, but this ratio changes over time. There are many reasons, aside from country size, for the amount of trade to change. Those reasons include import tariffs, taxes that countries charge on imported goods; transportation costs of shipping from one country to another; events, such as wars and natural disasters, that lead to reduced trade; and so on. The term trade barriers refers to all factors that influence the amount of goods and services shipped across international borders. To see how these trade barriers have changed over time, Figure 1-3 graphs the ratio of trade in goods and services to GDP for a selection of countries for which historical data are available: Australia, Canada, Japan, the United Kingdom, the United States, and an average of countries in continental Europe (Denmark, France, Germany, Italy, Norway, and Sweden).
 
@@ -247,9 +233,9 @@ keep tariffs low, such as the General Agreement on Tariffs and Trade, now known 
 
 It took many years for the world economy to regain the same level of global integration that existed before World War I. From Figure 1-3, we can see that some countries (the United Kingdom, Europe, and Australia) began increasing trade immediately after the end of World War II in 1945, so their ratio of trade to GDP was much higher in 1950 than it was in 1940. Some countries did not show an increase until after 1950 and others not until after 1960. In addition to the end of World War II and tariff reductions under the General Agreement on Tariffs and Trade, improved transportation costs contributed to the growth in trade. The shipping container, invented in 1956, allowed goods to be moved by ship, rail, and truck more cheaply than before (see Headlines: A Sea Change in Shipping 50 Years Ago). As a result of all these factors, world trade grew steadily after 1950 in dollar terms and as a ratio to GDP. For this reason, the period after 1950 is called the "second golden age" of trade and globalization.
 
-# HEADLINES
+### HEADLINES
 
-# A Sea Change in Shipping 50 Years Ago
+#### A Sea Change in Shipping 50 Years Ago
 
 The following article discusses the invention of the shipping container 50 years ago, which allowed goods to be shipped between countries at a much lower cost.
 
@@ -279,19 +265,9 @@ Near the end of the decade, in the years just before 2010, we see a fall in the 
 
 In addition to examining the reasons for and effects of international trade (the flow of goods and services between countries), we will also analyze migration, the movement of people across borders, and foreign direct investment, the movement of capital across borders. All three of these flows affect the economy of a nation that opens its borders to interact with other nations.
 
-# Map of Migration
+## Map of Migration
 
-In Figure 1-5, we show a map of the number of migrants around the world. The values shown are the number of people in 2005 (this is the most recent year for which these data are available) who were living (legally or illegally) in a country other than the one in which they were born. For this map, we combine two different sources of data: (1) the movement of people from one country to another, reported for just the Organisation for Economic Co-operation and Development (OECD) countries and shown by arrows from one country to another, and (2) the number of foreign-born located in each region (but without data on their country of origin), shown by the bold arrows from World into Asia, Africa, and Latin America.
-
-In 2005 there were 62 million foreign-born people living in the OECD countries. But that was less than one-third of the total number of foreign-born people worldwide, which was 195 million. These figures show that unlike trade (much of which occurs between the OECD countries), the majority of immigration occurs outside the OECD between countries that are less wealthy. Asia, for example, was home to 53.1 million migrants in 2005, and Africa was home to 17.1 million migrants. Latin America has 6.9 million foreign-born people living there. We expect that many of
-
-FIGURE 1-5
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/55eab0cd0ebdadce21cba7443adad9198c365bb85435d59543325af57f5c446d.jpg)
-
-Total world migrants in 2005: 195 million
-
-# World Migration
+### World Migration
 
 <1 million
 
@@ -323,15 +299,9 @@ There is a widespread perception among policy makers in the United States that t
 
 Congress. During his first term as president, Barack Obama also promised to pursue immigration reform. But that promise had to wait for other policy actions, most notably the health-care reform bill and the reform of the financial system following the 2008-2009 crisis, both of which delayed the discussion of immigration. As President Obama began his second term in 2013, he again promised action on immigration reform, and that idea is supported by members of both parties in the United States. As of the time of writing, it remains to be seen what type of immigration bill will be enacted during President Obama's administration.
 
-# Map of Foreign Direct Investment
+## Map of Foreign Direct Investment
 
-As mentioned earlier in the chapter, foreign direct investment (FDI) occurs when a firm in one country owns (in part or in whole) a company or property in another country. Figure 1-6 shows the principal stocks of FDI in 2010, with the magnitude of the stocks illustrated by the width of the lines. As we did for migration, we again combine two sources of information: (1) stocks of FDI found in the OECD countries
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/bd23c787690f94386bad5fe1b37ac81ffcb6fe4200a45341a234520ed69b11d9.jpg)
-
-FIGURE 1-6
-
-# Stock of Foreign Direct Investment, 2010 (\$ billions)
+### Stock of Foreign Direct Investment, 2010 ($ billions)
 
 This figure shows the stock of foreign direct investment between selected countries and regions of the world for 2010 in billions of dollars. The stock of investment is illustrated by the width of the lines, with the largest stocks having the heaviest lines and the smallest having dashed lines.
 
@@ -379,7 +349,7 @@ Globalization means many things: the flow of goods and services across borders, 
 
 Migration across countries is not as free as international trade, and all countries have restrictions on immigration because of the fear that the inflow of workers will drive down wages. That fear is not necessarily justified. We argue in a later chapter that immigrants can sometimes be absorbed into a country with no change in wages. FDI is largely unrestricted in the industrial countries but often faces some restrictions in developing countries. China, for example, requires approval of all foreign investments and until recently, required that foreign firms have a local partner. Typically, firms invest in developing countries to take advantage of lower wages in those countries. Investments in developing countries and industrial countries enable firms to spread their business and knowledge of production processes across borders. Migration and FDI are further aspects of the globalization that has become so widespread today.
 
-# KEY POINTS
+## KEY POINTS
 
 1. The trade balance of a country is the difference between the value of its exports and the value of its imports, and is determined by macroeconomic conditions in the country.
 2. The type of goods being traded between countries has changed from the period before World War I, when standardized goods (raw materials and basic processed goods like steel) were predominant. Today, the majority of trade occurs in highly processed consumer and capital goods, which might cross borders several times during the manufacturing process.
@@ -390,7 +360,7 @@ Migration across countries is not as free as international trade, and all countr
 7. International trade in goods and services acts as a substitute for migration and allows workers to improve their standard of living through working in export industries, even when they cannot migrate to earn higher incomes.
 8. The majority of world FDI occurs between industrial countries. In 2010 more than one-third of the world stock of FDI was within Europe or between Europe and the United States, and  $85\%$  of the world stock of FDI was into or out of the OECD countries.
 
-# KEY TERMS international trade, p. 1
+## KEY TERMS
 
 migration, p. 3 foreign direct investment (FDI), p. 3
 
@@ -408,7 +378,7 @@ trade barriers, p. 12 import quotas, p. 12
 
 horizontal FDI, p. 20 vertical FDI, p. 20
 
-# PROBLEMS
+## PROBLEMS
 
 1. Figures 1-2 and 1-6 rely on data from 2010, and Figure 1-5 relies on data from 2005, to map worldwide trade, migration, and FDI. Updated data for migration and FDI were not available at the time this chapter was written, but it is available for worldwide trade. In this question, you are asked to update the numbers for world trade shown in Table 1-1.
 
@@ -442,7 +412,7 @@ Intraand Inter-Regional Merchandise Trade, 2011 (\$ billions)
 
 <table><tr><td>Region of Origin</td><td>North America</td><td>South and Central America</td><td>Europe</td><td>CIS</td><td>Africa</td><td>Middle East</td><td>Asia</td><td>World</td></tr><tr><td>World</td><td>2,923</td><td>749</td><td>6,881</td><td>530</td><td>538</td><td>672</td><td>5,133</td><td>17,816</td></tr><tr><td>North America</td><td>1,103</td><td>201</td><td>382</td><td>15</td><td>37</td><td>63</td><td>476</td><td>2,282</td></tr><tr><td>South and Central America</td><td>181</td><td>200</td><td>138</td><td>8</td><td>21</td><td>18</td><td>169</td><td>750</td></tr><tr><td>Europe</td><td>480</td><td>119</td><td>4,667</td><td>234</td><td>199</td><td>194</td><td>639</td><td>6,612</td></tr><tr><td>Commonwealth of Independent States (CIS)</td><td>43</td><td>11</td><td>409</td><td>154</td><td>12</td><td>24</td><td>117</td><td>789</td></tr><tr><td>Africa</td><td>102</td><td>19</td><td>205</td><td>2</td><td>77</td><td>21</td><td>146</td><td>594</td></tr><tr><td>Middle East</td><td>107</td><td>10</td><td>158</td><td>6</td><td>38</td><td>110</td><td>660</td><td>1,251</td></tr><tr><td>Asia</td><td>906</td><td>189</td><td>922</td><td>110</td><td>152</td><td>242</td><td>2,926</td><td>5,538</td></tr><tr><td colspan="9">Source: WTO, International Trade Statistics 2012.</td></tr></table>
 
-# NET WORK
+## NET WORK
 
 The World Trade Organization is a good source for international trade statistics. Go to its website at http://www.wto.org, and look for trade data under "Documents and resources." Look for the most recent edition of its International Trade Statistics publication, and find the value for world trade in goods and in services for the most recent year provided.
 

@@ -1,35 +1,32 @@
 ---
-aliases:
-- Properties and Pricing of Financial Assets
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 11: Properties and Pricing of Financial Assets'
-linter-yaml-title-alias: 'Chapter 11: Properties and Pricing of Financial Assets'
+title: "Chapter 11 Properties and Pricing of Financial Assets"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
+formatted: "2025-12-21 07:25:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- assets moneyness divisibility denomination
-- asset discount rate
-- cash flow term
+  - financial asset properties
+  - asset pricing principles
+  - interest rate sensitivity
 secondary_tags:
-- financial assets effect maturity
-- reversibility affects asset value
-- change rates financial assets
-- price sensitivity financial asset
-- determining duration financial asset
-- asset value
-tags_extracted: '2025-12-18T00:19:15.282886'
+  - duration measurement
+  - coupon rate effects
+  - maturity impact
+  - liquidity characteristics
+  - return predictability
+  - tax status effects
+  - discount rate components
+  - basis point calculations
+cssclasses: academia
 ---
 
-# 11
+# Chapter 11 Properties and Pricing of Financial Assets
 
-# Properties and Pricing of Financial Assets
+### CONTENTS
 
-# CONTENTS
+## Learning Objectives
 
-# Learning Objectives
-
-# Properties of Financial Assets
+## Properties of Financial Assets
 
 Moneyness
 
@@ -53,17 +50,17 @@ Complexity
 
 Tax Status
 
-# Principles of Pricing Financial Assets
+## Principles of Pricing Financial Assets
 
-The Appropriate Discount Rate
+### The Appropriate Discount Rate
 
 Illustration
 
 Price and Asset Properties
 
-# Price Volatility of Financial Assets
+## Price Volatility of Financial Assets
 
-The Effect of Maturity
+### The Effect of Maturity
 
 The Effect of the Coupon Rate
 
@@ -75,11 +72,11 @@ Importance of Measuring Price Sensitivity to Interest Rate Changes
 
 Macaulay Duration
 
-# Key Points
+## Key Points
 
-# Questions
+## Questions
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -95,7 +92,7 @@ After reading this chapter, you will understand:
 
 Financial assets have certain properties that determine or influence their attractiveness to different classes of investors and issuers. This chapter introduces these properties in preparation for a more detailed exposition in later chapters. The chapter also provides the basic principles of the valuation or pricing of financial assets and illustrates how several of the properties of financial assets affect their value.
 
-# Properties of Financial Assets
+## Properties of Financial Assets
 
 The 11 properties of financial assets are (1) moneyness, (2) divisibility and denomination, (3) reversibility, (4) cash flow, (5) term to maturity, (6) convertibility, (7) currency, (8) liquidity, (9) return predictability, (10) complexity, and (11) tax status.
 
@@ -117,13 +114,13 @@ The second determining factor of the bid-ask spread charged by a market maker is
 
 Thickness, too, varies from market to market. A three-month U.S. Treasury bill is easily the thickest market in the world. In contrast, trading in stock of small companies is not thick but thin. Because Treasury bills dominate other instruments both in price stability and thickness, their bid-ask spread tends to be the smallest in the market. A low turnaround cost is clearly a desirable property of a financial asset, and as a result, thickness itself is a valuable property. This explains the potential advantage of larger over smaller markets (economies of scale), along with a market's tendency to standardize the instruments offered to the public.
 
-# Cash Flow
+### Cash Flow
 
 The return that an investor will realize by holding a financial asset depends on all the cash distributions that the financial asset will pay its owners; this includes dividends on shares and coupon payments on bonds. The return also considers the repayment of principal for a debt security and the expected sale price of a stock. When computing the expected return, noncash payments—such as stock dividends and options to purchase additional stock, or the distribution of other securities—must also be accounted for.
 
 In a world of nonnegligible inflation, it is also important to distinguish between nominal expected return and real expected return. The expected return that we described above is the nominal expected return. That is, it considers the dollars that are expected to be received but does not adjust those dollars to take into consideration changes in their purchasing power. The net real expected return is the nominal expected return after adjustment for the loss of purchasing power of the financial asset as a result of anticipated inflation. For example, if the nominal expected return for a one-year investment of  \$1,000 is 6\%$ , then at the end of one year, the investor expects to realize 1,060, consisting of interest of \$60 and the repayment of the \$1,000 investment. However, if the inflation rate over the same period of time is  $4\%$ , then the purchasing power of \$1,060 is only $1,019.23 ($1,060 divided by 1.04). Thus, the return in terms of purchasing power, or the real return, is  $1.923\%$ . In general, the expected real return can be approximated by subtracting the expected inflation rate from the expected nominal return. In our example, it is approximately  $2\%$  (6\% minus  $4\%$ ).
 
-# Term to Maturity
+### Term to Maturity
 
 Term to maturity is the length of the period until the date at which the instrument is scheduled to make its final payment or the owner is entitled to demand liquidation. Instruments for which the creditor can ask for repayment at any time, such as checking accounts and many savings accounts, are called "demand instruments." Maturity is an important characteristic of financial assets (such as bonds) and can range from one day to more than a half of a century. Bonds with no maturity date, called "perpetual bonds," have been issued to lock-in law interest rates. In the United Kingdom, there is one well-known type of bond issued by the Bank of England called a "consul." Many other instruments, including equities, have no maturity and are thus a form of perpetual instrument.
 
@@ -161,19 +158,19 @@ What has been said so far relates to the predictability of nominal returns, alth
 
 (which is usually the case with high inflation), real returns may be drastically harder to predict than nominal returns.
 
-# Complexity
+### Complexity
 
-Some financial assets are complex in the sense that they are actually combinations of two or more simpler assets. To find the true value of such an asset, one must break it down into its component parts and price each separately. The sum of those prices is the value of the complex asset. A good example of a complex asset is the callable bond, that is, a bond whose issuer is entitled to repay the debt prior to the maturity date. When investors buy such a bond, they in effect buy a bond and sell to the issuer an option that allows the issuer to redeem the bond at a set price prior to the issue's scheduled maturity. Therefore, the correct or true price of a callable bond is equal to the price of a similar noncallable bond less the value of the issuer's right to retire the bond early.
+Some financial assets are complex in the sense that they are actually combinations of two or more simpler assets. To find the true value of such an asset, one must break it down into its component parts and price each separately. The sum of those prices is the value of the complex asset. A good example of a complex asset is the callable bond, that is, a bond whose issuer is entitled to repay the debt prior to the maturity date. When investors buy such a bond, they in effect buy a bond and sell to the issuer an option that allows the issuer to redeem the bond early.
 
 A complex asset can be viewed as a bundle or package of cash flows and options belonging to either the issuer or the holder, or both. Other examples of a complex asset include a convertible bond, a bond that has payments that can be made in a different currency at the option of the bondholder, and a bond that can be sold back to the issuer at a fixed price (that is, a putable bond).
 
 In some cases, the degree of complexity is high: Many convertible bonds are also callable, and some bonds give their issuers the right either to extend the asset's maturity or to redeem it early. Also, some Japanese firms have issued bonds that are convertible into Japanese stock (denominated in yen, of course) but that are sold for, and make coupon and principal payments in, another currency, such as U.S. dollars.
 
-# Tax Status
+### Tax Status
 
 An important feature of any asset is its tax status. Governmental regulations for taxing the income from the ownership or sale of financial assets vary widely, if not wildly. Tax rates differ from year to year, from country to country, and even among regional and local governments (states and municipalities in the United States) within a country. Moreover, tax rates may differ across financial assets, depending on the type of issuer, the length of time the asset is held, the nature of the owner, and so on. For example, in the United States, pension funds are exempt from income taxes (see chapter 4 for more details), and coupon payments on municipal bonds are generally free of taxation by the federal government (see chapter 21).
 
-# Principles of Pricing Financial Assets
+## Principles of Pricing Financial Assets
 
 The fundamental principle of finance is that the true or correct price of an asset equals the present value of all cash flows that the owner of the asset expects to receive during its life. In general, the correct price for a financial asset can be expressed as follows:
 
@@ -188,9 +185,9 @@ $CF_{t} =$  the cash flow in year  $t$ $(t = 1,\dots \dots ,N)$
 
 $N =$  maturity of the financial asset, and
 
-$r =$  appropriate discount rate.
+ $r =$  appropriate discount rate.
 
-# The Appropriate Discount Rate
+### The Appropriate Discount Rate
 
 The appropriate discount rate,  $r$ , is the return that the market or the consensus of investors requires on the asset. A convenient (but approximate) expression for the appropriate discount rate is:
 
@@ -212,7 +209,7 @@ $EP =$  the exchange-rate risk premium, which is the reward for investing in an 
 
 Obviously, the price of an asset is inversely related to its discount rate: If the discount rate rises, the price falls; and if the rate declines, the price increases.
 
-# Illustration
+### Illustration
 
 Let us construct a simple example to illustrate the pricing of a financial asset. We can then use the hypothetical financial asset to illustrate some of the properties explained earlier in this chapter.
 

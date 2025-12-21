@@ -1,4 +1,30 @@
 
+---
+title: Estimate of Downside Risk with Fat-Tailed and Skewed Models
+parent_directory: Risk Measures
+formatted: 2025-12-21 07:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - fat tailed distributions
+  - downside risk
+  - risk management
+  - truncated levy flight
+  - students t distribution
+secondary_tags:
+  - value at risk
+  - conditional value at risk
+  - stable distributions
+  - garch models
+  - mixture distributions
+  - volatility clustering
+  - tail index estimation
+  - volatility models
+  - risk measures
+  - financial risk management
+cssclasses: academia
+---
+
 # Estimate of Downside Risk with Fat-Tailed and Skewed Models
 
 JAMES X. XIONG, PhD, CFA
@@ -23,13 +49,13 @@ Many statistical models have been put forth to account for the heavy tails. We d
 Along the way, we introduce a relatively new fat-tailed and skewed model: the truncated Lévy flight (TLF). Another name for the TLF is the tempered stable distribution. The TLF model has a few interesting properties that we will illustrate later, such as possessing fat tails, skewness, finite moments, and time scaling. Of course, these quantitative models are not the only tool, and they need to be integrated with judgmental analyses and other estimates, but they represent a good starting point for the management of downside risk.
 
 
-# DOWNSIDE RISK MEASURE
+## DOWNSIDE RISK MEASURE
 
 Before we dive into the discussions of fat-tailed models, we need to specify an appropriate downside risk measure. A popular downside risk measure is value-at-risk (VaR), which is an estimate of the loss that we expect to be exceeded with a given level of probability (e.g.,  $5\%$ ) over a specified time period. VaR has been recommended as a way of measuring risk by regulators and various financial industry advisory committees.
 
 Conditional value-at-risk (CVaR), a closely related measure to VaR, is derived by taking a weighted average between the VaR and losses exceeding the VaR. Other terms for CVaR include mean shortfall, tail VaR, and expected tail loss. Studies such as Rockafellar and Uryasev (2000), for example, have shown that CVaR has more attractive properties than VaR. Specifically, CVaR is a coherent measure of risk as proved by Pflug (2000) in the sense of Artzner et al. (1999). One of the coherent measures is subadditivity; that is, the risk of a combination of investments is at most as large as the sum of the individual risks. VaR is not always subadditive, which means that the VaR of a portfolio with two instruments may be greater than the sum of individual VaRs of these two instruments. In contrast, CVaR is subadditive. Therefore, CVaR is a more appropriate measure of downside risk.
 
-# LEVY STABLE DISTRIBUTION
+## LEVY STABLE DISTRIBUTION
 
 Lévy distributions are stable; that is, the sum of two independent random variables, characterized by the same Lévy distribution of tail index  $\alpha$ , is itself characterized by a Lévy distribution of the same index. In other words, the functional form of the distribution is maintained, if we sum up independent, identically distributed Lévy stable random variables. The characteristic function of the Lévy stable distribution is (Lévy, 1925):
 
@@ -58,7 +84,7 @@ Figure 2 illustrates the log-stable and lognormal distributions in fitting the d
 
 The infinite variance associated with the stable distribution induces a challenging problem in risk estimation. In practice, what is needed is a model with a distribution falling between the normal and stable distributions so that its tail is appropriately fat, but finite. By truncating the extreme tails of the stable distribution, a model named the truncated Lévy flight has such properties.
 
-# Truncated Lévy Flight
+## Truncated Lévy Flight
 
 The TLF model was first introduced by Mantegna and Stanley (1994) in the physics literature, and it has drawn widespread attention since then. Koponen (1995) modified it in such a way as to allow an analytical calculation of the characteristic function and determination of the complete probability density distribution. Another name for the TLF is the tempered stable distribution—introduced and extended by Boyarchenko and Levendorskii (2000), Carr et al. (2002), Rosinski (2007), and Kim et al. (2008, 2010). Another application is the so-called smoothly truncated stable distribution introduced by Menn and Rachev (2009).
 
@@ -103,7 +129,7 @@ On the drawback side, like the normal or Lévy stable distribution model, the TL
 An attempt to address this drawback is to assume TLF innovations instead of Gaussian innovations in GARCH models. A few stud ies have investigated the option pricing problem with GARCH dynamics and non-Gaussian innovations. For example, Menn and Rachev (2009) considered smoothly truncated stable innovations in order to provide a practical framework to extend option pricing theory to the Lévy stable model. Kim et al. (2010) studied parametric models based on tempered stable innovations, and they showed that the GARCH model with tempered stable innovations explains both asset price behavior and European option prices better than the normal GARCH model.
 
 
-# STUDENT t-DISTRIBUTION
+## STUDENT t-DISTRIBUTION
 
 The Student's  $t$ -distribution is well documented in the literature. Its probability density function is given by:
 
@@ -126,7 +152,7 @@ Table 3 Parameter Estimates with the Log Student's  $t$  and Log Skewed Student'
 
 <table><tr><td colspan="3">Log Student&#x27;s t</td></tr><tr><td></td><td>ν</td><td>MLE-ν</td></tr><tr><td>S&amp;P 500 Monthly</td><td>4.1</td><td>3.6</td></tr><tr><td>MSCI EM Weekly</td><td>4.1</td><td>4.0</td></tr><tr><td>MSCI EAFE Weekly</td><td>4.4</td><td>4.4</td></tr><tr><td colspan="3">Log Skewed t</td></tr><tr><td></td><td>ν</td><td>λ</td></tr><tr><td>S&amp;P 500 Monthly</td><td>4.1</td><td>-0.13</td></tr><tr><td>MSCI EM Weekly</td><td>4.1</td><td>-0.25</td></tr><tr><td>MSCI EAFE Weekly</td><td>4.4</td><td>-0.09</td></tr></table>
 
-# MIXTURE OF NORMAL DISTRIBUTIONS
+## MIXTURE OF NORMAL DISTRIBUTIONS
 
 In the mixture of normal distributions model, the fat tails are obtained through subordination. The model considered for the log-returns is:
 
@@ -147,7 +173,7 @@ Table 4 Parameter Estimates with the Mixture Distribution for Monthly S&P 500, W
 
 The mixture of normal distributions is intuitively appealing because it is directly linked to market microstructure such as information flow, trading volume, and number of transactions. The subordinated process premise has also evolved into stochastic volatility that now receives vigorous attention in the finance literature (see Andersen, 1996). In general, mixture of normal distributions has fat tails but does not obey time scaling. A generalized mixture of normal distributions, however, can describe volatility clustering.
 
-# GARCH Models
+## GARCH Models
 
 General autoregressive conditional heteroscedasticity (GARCH) models, first introduced by Bollerslev (1986), are now widely employed in financial time-series analyses. In particular, they are used to predict short horizon volatilities (ranging from one day to one month).
 
@@ -168,7 +194,7 @@ The most popular GARCH model is GARCH (1,1). The scaling properties of GARCH(1,1
 
 GARCH(1,1) processes are unconditionally stationary with finite variance if  $1 - \alpha_{1} - \beta_{1} > 0$ , and have finite kurtosis if  $1 - \beta_{1}^{2} - 2\alpha_{1}\beta_{1} - 3\alpha_{1}^{2} > 0$ .
 
-# MODELING RETURN DISTRIBUTIONS FOR MAJOR INDEXES
+## MODELING RETURN DISTRIBUTIONS FOR MAJOR INDEXES
 
 Applications of the Lévy stable, Student's  $t$ , and mixture of normal distribution models in modeling market indexes are well documented (see, for example, Mandelbrot [1963], Clark [1973], Blattberg and Gonedes [1974], Markowitz and Usmen [1996], Hurst and Platen [1997], Martin, Rachev and Siboulet [2003], Platen and Sidorowicz [2007], etc.). The literature offered detailed methodology on how the model parameters are estimated. In some cases, they performed comparisons for these models.
 
@@ -216,7 +242,7 @@ Table 7 Underestimated CVaRs in Relative Percentage for the Six Models
 
 GARCH(1,1) with Gaussian innovations perform better than the lognormal model but appear to underestimate the CVaR by about  $6\%$ ,  $10\%$ , and  $12\%$ , respectively. In contrast, both the log-TLF and log skewed  $t$ -distribution did a better job in modeling the CVaR.
 
-# KEY POINTS
+## KEY POINTS
 
 - It is well known that asset returns often exhibit fat tails, negative skewness, time scaling, and volatility clustering. Fat-tailed and skewed models can be used to estimate the downside risk of assets. It is important that the selected models are able to capture fat tails and skewness, among others.
 - The lognormal distribution is the fundamental assumption of many important financial models, but it has thin tails and thus can significantly underestimate the downside risk. On the other side, the Lévy stable distribution exhibits time scaling and fat tails, but it tends to overestimate the downside risk due to its infinite variance.
@@ -227,11 +253,11 @@ GARCH(1,1) with Gaussian innovations perform better than the lognormal model but
 - The truncated Lévy flight model can describe the asymptotic return distributions measured at all frequencies and the scaling properties (self-similarities). More specifically, for a small time interval (e.g., a minute), this distribution approximates a Lévy stable distribution with Lévy stable scaling; while for a significantly large but finite time interval (e.g., a year), the truncated Lévy flight distribution slowly converges to a Gaussian distribution. It has finite four moments and can model both fat tails and negative skewness.
 - The truncated Lévy flight or tempered stable distribution model cannot describe volatility clustering. In contrast, GARCH with Gaussian innovations can model volatility clustering but it is often found that the tail is not fat enough. Recent studies show that a GARCH with truncated Lévy flight innovations appears to be able to describe most of the stylized empirical facts: fat tails, skewness, and volatility clustering.
 
-# NOTE
+## NOTE
 
 1. For details, see http://academic2.american.edu/\~jpnolan/stable/stable.html/
 
-# REFERENCES
+## REFERENCES
 
 Akgiray, V., and Booth, G. G. (1988). The stable-law model of stock returns. Journal of Business & Economic Statistics 6: 51-57.
 

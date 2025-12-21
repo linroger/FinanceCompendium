@@ -256,7 +256,7 @@ Source: http://www.euronext.com
 First the investor has to calculate the number of option contracts needed to hedge the underlying. With the index at 5,902 on 20 December 2010 and each point of that index settled at £10, one contract has a value of  $5,902 \times £10 = £59,020$ . To cover an £1,175,000 portfolio (£1,175,000 ÷ £59,020 = 19.9) twenty contracts are needed (investors can trade in whole contracts only). The investor opts to buy 20 January 5,850 puts for 71.50 points per contract – see Exhibit 11.11. The premium payable is:
 
 $$
-7 1. 5 0 \text{po in ts} \times £ 1 0 \times 2 0 = £ 1 4, 3 0 0
+71.50 \text{points} \times £10 \times 20 = £14,300
 $$
 
 This amounts to a 1.2 per cent 'insurance premium' (£14,300/£1,175,000) against a downturn in the market.
@@ -264,7 +264,7 @@ This amounts to a 1.2 per cent 'insurance premium' (£14,300/£1,175,000) agains
 Consider what happens if the market does fall by a large amount, say 15 per cent, between 20 December and the third Friday in January (when the option matures). The index falls from 5,902 to 5,016, and the loss on the portfolio is
 
 $$
-\mathbb {1}, 1 7 5, 0 0 0 \times 0. 1 5 = \mathbb {1} 1 7 6, 2 5 0
+£1,175,000 \times 0.15 = £176,250
 $$
 
 If the portfolio is unhedged, the investor suffers from a market fall. However, in this case the put options gain in value as the index falls because they carry the right to sell at 5,850. If the investor closed the option position by buying at a level of 5,016, with the right to sell at 5,850, a 834-point difference, a gain is made :
@@ -826,12 +826,12 @@ C = S N (d_{1}) - X e^{- \mathrm{r}_{\mathrm{f}} t} N (d_{2})
 $$ where:
 
 
-$\mathrm{N}(.) =$  cumulative normal distribution function of  $d_{1}$  and  $d_{2}$
+$N(.) =$ cumulative normal distribution function of $d_{1}$ and $d_{2}$
 
 $$ d_{1} = \frac{\ln (S / X) + \left(r_{f} + \sigma^{2} / 2\right) t}{\sigma \sqrt{t}}
 $$
 
-$\operatorname{In} =$  natural log
+$\ln =$ natural log
 
 $$ d_{2} = d_{1} - \sigma \sqrt{t}
 $$
@@ -1001,125 +1001,3 @@ $\bullet$  intrinsic value; time value;
 9 What is a currency swap?
 
 10 Explain credit default swaps.
-
-# Questions and problems
-
-1 You hold 20,000 shares in ABC plc which are currently priced at 500p. ABC has developed a revolutionary flying machine. If trials prove successful the share price will rise significantly. If the government bans the use of the machine, following a trial failure, the share price will collapse.
-
-# Required
-
-(a) Explain and illustrate how you could use the traded options market to hedge your position.
-
-Further information
-
-Current time: 30 January.
-
-Traded option quotes on ABC plc on 30 January:
-
-<table><tr><td rowspan="2"></td><td rowspan="2">Option</td><td colspan="3">Calls</td><td colspan="3">Puts</td></tr><tr><td>March</td><td>June</td><td>Sept.</td><td>March</td><td>June</td><td>Sept.</td></tr><tr><td rowspan="3">ABC plc</td><td>450</td><td>62</td><td>88</td><td>99</td><td>11</td><td>19</td><td>27</td></tr><tr><td>500</td><td>30</td><td>50</td><td>70</td><td>30</td><td>42</td><td>57</td></tr><tr><td>550</td><td>9</td><td>20</td><td>33</td><td>70</td><td>85</td><td>93</td></tr></table>
-
-(b) What is meant by intrinsic value, time value, in-the-money, at-the-money and out-of-the-money?
-
-Use the above table to illustrate.
-
-2 Palm's share price stands at £4.80. You purchase one March 500p put on Palm's shares for 52p. What is your profit or loss on the option if you hold the option to maturity under each of the following share prices?
-
-(a)  $550\mathrm{p}$
-
-(b) 448p
-
-(c)  $420\mathrm{p}$
-
-3 What is the intrinsic and time value on each of the following options given a share price of 732p?
-
-<table><tr><td>Exercise price</td><td>Calls</td><td>Puts</td></tr><tr><td></td><td>Feb.</td><td>Feb.</td></tr><tr><td>700</td><td>55½</td><td>17½</td></tr><tr><td>750</td><td>28</td><td>40</td></tr></table>
-
-Which options are in-the-money and which are out-of-the-money?
-
-4 On 14 August British Biotech traded options were quoted on NYSE Liffe as follows:
-
-<table><tr><td rowspan="2"></td><td rowspan="2">Option</td><td colspan="3">Calls</td><td colspan="3">Puts</td></tr><tr><td>Sept.</td><td>Dec.</td><td>March</td><td>Sept.</td><td>Dec.</td><td>March</td></tr><tr><td rowspan="2">British Biotech (177½)</td><td>160</td><td>30½</td><td>40</td><td>53</td><td>7½</td><td>16½</td><td>23½</td></tr><tr><td>180</td><td>20½</td><td>31</td><td>45½</td><td>16½</td><td>27</td><td>34½</td></tr></table>
-
-Assume: No transaction costs.
-
-# Required
-
-(a) Imagine you write a December 180 put on 14 August. Draw a graph showing your profit and loss at share prices ranging from  $100\mathrm{p}$  to  $250\mathrm{p}$ .
-
-(b) Add to the graph the profit or loss on the purchase of 1,000 shares in British Biotech held until late December at share prices between 100p and 250p. (Current share price = 177.5p)
-
-(c) Show the profit or loss of the combination of (a) and (b) on the graph.
-
-(a) Black plc has a £50 million ten-year floating-rate loan from Bank A at LIBOR +150 basis points. The treasurer is worried that interest rates will rise to a level that will put the firm in a dangerous position. White plc is willing to swap its fixed-interest commitment for the next ten years. White currently pays 9 per cent to Bank B. Libor is currently 8 per cent. Show the interest-rate payment flows in a diagram under a swap arrangement in which each firm pays the other's interest payments.
-
-(b) What are the drawbacks of this swap arrangement for Black?
-
-(c) Black can buy a ten-year interest-rate cap set at a Libor of 8.5 per cent. This will cost 4 per cent of the amount covered. Show the annual payment flows if in the fourth year Libor rises to 10 per cent.
-
-(d) Describe a 'floor' and show how it can be used to alleviate the cost of a cap.
-
-6 'The derivatives markets destroy wealth rather than help create it; they should be made illegal.' Explain your reasons for agreeing or disagreeing with this speaker.
-
-7 Invent examples to demonstrate the different hedging qualities of options, futures and forwards.
-
-8 Describe what is meant by a swap agreement and explain why some of the arrangements are entered into.
-
-9 Describe the credit default market and illustrate its use for lenders exposed to credit risk.
-
-10 Shares in the oil company, Georgia plc, are currently priced at  $560\mathrm{p} - 561\mathrm{p}$  by market makers. News is coming through about the failure to find oil in a field it has been exploring for the past year. You do not hold any shares in Georgia but you are convinced that the share price will fall significantly when the failure is finally confirmed on the last test well.
-
-A spread betting company is offering the following spread on Georgia's shares: 555p-565p. The notional trading margin required is 10 per cent.
-
-A contract for difference company is quoting prices on Georgia of '556p bid and 566p offer'. It requires a margin of 10 per cent.
-
-You have £20,000 to set aside for either a spread bet deal or a CFD deal in Georgia's shares, of which £12,000 is to be used as initial margin. The remaining £8,000 will be held in reserve in case of margin calls.
-
-# Required:
-
-(a) Use the case of Georgia to describe and illustrate spread betting and contracts for difference.
-
-(b) What profits/losses will be made on the spread bet if the spread bet prices move to 640p-650p? What is that as a percentage of initial notional trading margin?
-
-(c) What profits/losses will be made on the spread bet if the spread bet prices move to  $480\mathrm{p -490p}$ ? What is that as a percentage of initial notional trading margin?
-
-(d) What profits/losses will be made on the contract for difference if the contract for difference prices move to  $620\mathrm{p} - 630\mathrm{p}$ ? What is that as a percentage of initial margin?
-
-(e) What profits/losses will be made on the contract for difference if the contract for difference prices move to  $475\mathrm{p} - 485\mathrm{p}$ ? What is that as a percentage of initial margin?
-
-11 Attik Inc. will shortly embark on a major project which will require \$100 million of borrowing for five years. The Corporate Treasurer has obtained a number of quotes from potential lenders of the \$100 million. The best fixed interest rate deal is at a rate of 8 per cent per year. The best floating rate deal is at LIBOR plus 2.5 per cent. The directors have stated a preference for floating rate borrowing for this project to better balance the overall borrowing profile of the firm.
-
-Battik Inc. also needs to borrow 100 million for five years. The best offers it has had from lenders is for it to pay 7 per cent per annum for fixed rate debt and to pay LIBOR plus 1.2 per cent for floating rate debt. It would like to borrow fixed rate debt given the likely pattern of its future cash flows.
-
-Describe a possible swap arrangement that will improve on the position for each firm compared with what they would pay if they simply borrowed in their preferred market (fixed or floating).
-
-12 Describe and explain the similarities and differences between a series of forward rate agreements covering a three-year period and a swap for the same period. Include a discussion of how the rates charged in each market will be linked.
-
-13 The current interest swap rates quoted by dealers are shown in the table:
-
-<table><tr><td rowspan="2"></td><td colspan="2">Euro-€ \%</td><td colspan="2">£ Stlg.\%</td></tr><tr><td>Bid</td><td>Offer</td><td>Bid</td><td>Offer</td></tr><tr><td>1 year</td><td>2.70</td><td>2.75</td><td>3.50</td><td>3.55</td></tr><tr><td>2 years</td><td>3.10</td><td>3.15</td><td>3.67</td><td>3.72</td></tr><tr><td>3 years</td><td>3.78</td><td>3.83</td><td>4.01</td><td>4.06</td></tr><tr><td>4 years</td><td>4.20</td><td>4.25</td><td>4.56</td><td>4.61</td></tr><tr><td>5 years</td><td>4.32</td><td>4.37</td><td>4.78</td><td>4.83</td></tr></table>
-
-Your firm currently has a €400 million five-year floating rate loan obligation paying 230 basis points over LIBOR. Currently, euro three-month LIBOR stands at 2.60 per cent.
-
-It also has a four-year £230 million fixed rate loan at 6.2 per cent per annum.
-
-It would suit its cash flows and risk profile better if the euro loan was swapped into a fixed rate obligation and the sterling obligation was swapped into a floating rate obligation. Describe how the company could achieve these objectives using the prices quoted in the table which have been obtained from swap market intermediaries.
-
-Note: the rates in the table are for AAA rated banks; your firm will have to pay 20 basis points over these rates given its greater counterparty risk.
-
-14 Your financial institution has lent €500 million to the State of Italy. Italy already has national debt amounting to more than 110 per cent of its annual GDP, and this concerns you greatly – it might default. The €500 million was lent through the purchase of a bond with a 5 per cent coupon maturing in five years (the reference obligation).
-
-You have asked credit default swap market participants the spread you would have to pay to receive a payout of par value should Italy default on this reference obligation. Answer: 212 basis points.
-
-Use this information to describe, explain and illustrate how credit default swaps can be used to reduce risk for your firm.
-
-# Assignments
-
-1 Describe as many uses of options by a firm you know well as you can. These can include exchange-traded options, currency options, index options and other OTC options.
-
-2 Investigate the extent of derivatives use by the treasury department of a firm you know well. Explain the purpose of derivatives use and consider alternative instruments to those used in the past.
-
-# Web-based exercises
-
-1 Visit the website www_markit.com and download the prices of the credit default swap spreads for a number of bonds issued by countries and companies. Also visit www.standardandpoors.com to obtain credit ratings for the same bonds. Analyse the relationship between credit rating and size of the credit default spread, and present in a report.
-
-2 Go to the traded option section of www.ft.com and download the prices of an in-the-money option for each day for a period of one month prior to expiry. Draw a graph of the underlying share price, intrinsic value and time value over that month.

@@ -2,14 +2,35 @@
 ---
 title: "Stable and Tempered Stable Distributions"
 parent_directory: "Probability Theory"
-formatted: "2025-12-21 11:30:00 AM"
+formatted: "2025-12-21 11:45:00 AM"
 formatter_model: "kimi-k2-turbo"
 cli-tool: "claude-code"
 primary_tags:
   - stable distributions
   - tempered stable distributions
   - infinitely divisible distributions
-  - levy processes
+  - levy-khinchine formula
+secondary_tags:
+  - alpha-stable distribution
+  - characteristic function
+  - skewness parameter
+  - tail decay property
+  - classical tempered stable distribution
+  - generalized tempered stable distribution
+  - modified tempered stable distribution
+  - normal tempered stable distribution
+  - kim-rachev tempered stable distribution
+  - rapidly decreasing tempered stable distribution
+  - tempering function
+  - exponential moments
+  - log-laplace transform
+  - hypergeometric function
+  - levy measures
+  - normal inverse gaussian distribution
+  - volatility clustering
+  - heavy-tailed data
+  - scale parameter
+  - cumulants
 cssclasses: academia
 ---
 
@@ -603,44 +624,38 @@ $$ on  $u\in [-\lambda_{-},\lambda_{+}]$  where  $C$  satisfies (7).
 - Standard NTS distribution:
 
 $$
-L_{N T S} (u; \alpha , \lambda , \beta) = \log \phi_{N T S} (- i u; \alpha , C, \lambda , \beta , 0)
-$$ on  $u\in [-\lambda -\beta ,\lambda -\beta ]$  where  $C$  satisfies (9).
-
+L_{NTS} (u; \alpha , \lambda , \beta) = \log \phi_{NTS} (- i u; \alpha , C, \lambda , \beta , 0)
+$$ on $u\in [-\lambda -\beta ,\lambda -\beta ]$ where $C$ satisfies (9).
 
 - Standard NIG distribution:
 
 $$
-L_{N I G} (u; \lambda , \beta) = \log \phi_{N I G} (- i u; C, \lambda , \beta , 0)
-$$ on  $u\in [-\lambda -\beta ,\lambda -\beta ]$  where  $C$  satisfies (11).
-
+L_{NIG} (u; \lambda , \beta) = \log \phi_{NIG} (- i u; C, \lambda , \beta , 0)
+$$ on $u\in [-\lambda -\beta ,\lambda -\beta ]$ where $C$ satisfies (11).
 
 - Standard KRTS distribution:
 
 $$
-\begin{array}{l} L_{K R T S} (u; \alpha , r_{+}, r_{-}, p_{+}, p_{-}) \\ = \log \phi_{K R T S} (- i u; \alpha , k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0) \\ \end{array}
-$$ on  $u\in [-\lambda_{-},\lambda_{+}]$  where  $k_{+}$  and  $k_{-}$  satisfy (13).
-
+\begin{array}{l} L_{KRTS} (u; \alpha , r_{+}, r_{-}, p_{+}, p_{-}) \\ = \log \phi_{KRTS} (- i u; \alpha , k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0) \\ \end{array}
+$$ on $u\in [-1/r_{-}, 1/r_{+}]$ where $k_{+}$ and $k_{-}$ satisfy (13).
 
 - Standard RDTS distribution:
 
 $$
-\begin{array}{l} L_{R D T S} (u; \alpha , \lambda_{+}, \lambda_{-}) \\ = \log \phi_{R D T S} (- i u; \alpha , C, \lambda_{+}, \lambda_{-}, 0) \\ \end{array}
-$$ on  $u\in \mathbb{R}$  where  $C$  satisfies (15).
+\begin{array}{l} L_{RDTS} (u; \alpha , \lambda_{+}, \lambda_{-}) \\ = \log \phi_{RDTS} (- i u; \alpha , C, \lambda_{+}, \lambda_{-}, 0) \\ \end{array}
+$$ on $u\in \mathbb{R}$ where $C$ satisfies (15).
 
 
 # HYPERGEOMETRIC FUNCTION AND CONFLUENT HYPERGEOMETRIC FUNCTION
 
-In this entry, we referred to the hypergeometric function and the confluent hypergeometric function. Here we describe these two special functions. (For more details, see Andrews,
-
-1998.) We begin by introducing the following notation
+In this entry, we referred to the hypergeometric function and the confluent hypergeometric function. Here we describe these two special functions. (For more details, see Andrews, 1998.) We begin by introducing the following notation
 
 $$
 (a)_{0} = 1, \quad (a)_{n} = a (a + 1) \dots (a + n - 1)
 $$
 
-$$ n = 1, 2, 3, \dots , a \in \mathbb {R} \tag {19}
+$$ n = 1, 2, 3, \dots , a \in \mathbb{R} \tag{19}
 $$ and we refer to the notation as the Pochhammer symbol. By properties of the gamma function, the Pochhammer symbol can also be defined by
-
 
 $$
 (a)_{n} = \frac{\Gamma (a + n)}{\Gamma (a)}, \quad n = 0, 1, 2, 3, \dots .
@@ -657,12 +672,11 @@ $$
 The function
 
 $$
-{ }_{ 2 } F_{ 1 } ( a , b ; c ; x ) = \sum_{ n = 0 }^{ \infty } \frac{ ( a )_{ n } ( b )_{ n } } { ( c )_{ n } } \frac{ x^{ n } } { n ! } , \quad | x | <   1 \tag {21}
-$$ is called the hypergeometric function. If  $c \neq 0, -1, -2, \dots$ , the function  $F(a, b; c; x)$  is a solution to the linear second-order differential equation
+{}_{2} F_{1} ( a , b ; c ; x ) = \sum_{ n = 0 }^{ \infty } \frac{ ( a )_{ n } ( b )_{ n } } { ( c )_{ n } } \frac{ x^{ n } } { n ! } , \quad | x | < 1 \tag{21}
+$$ is called the hypergeometric function. If $c \neq 0, -1, -2, \dots$, the function $F(a, b; c; x)$ is a solution to the linear second-order differential equation
 
-
-$$ x (1 - x) y^{\prime \prime} + (c - (a + b + 1) x) y^{\prime} - a b y = 0 \tag {22}
-$$ referred to as the hypergeometric equation. Moreover, if  $c\neq 0,\pm 1,\pm 2,\dots$
+$$ x (1 - x) y^{\prime \prime} + (c - (a + b + 1) x) y^{\prime} - a b y = 0 \tag{22}
+$$ referred to as the hypergeometric equation. Moreover, if $c\neq 0,\pm 1,\pm 2,\dots$
 
 
 $$
@@ -679,18 +693,16 @@ $$
 The function
 
 $$
-M (a; c; x) = \sum_{n = 0}^{\infty} \frac{(a)_{n} x^{n}}{(c)_{n} n !}, - \infty <   x <   \infty \tag {24}
+M (a; c; x) = \sum_{n = 0}^{\infty} \frac{(a)_{n} x^{n}}{(c)_{n} n !}, - \infty < x < \infty \tag{24}
 $$ is called the confluent hypergeometric function and is obtained by the limit of the hypergeometric function as follows:
-
 
 $$
 M (a; c; x) = \lim_{b \rightarrow \infty} F (a, b; c; x / b)
 $$
 
-The function  $M(a; c; x)$  is a solution of the linear second-order differential equation
-
-$$ x y^{\prime \prime} + (c - x) y^{\prime} - a y = 0 \tag {25}
-$$ referred to as the confluent hypergeometric equation. Moreover, if  $c \neq 0, \pm 1, \pm 2, \dots$ ,
+The function $M(a; c; x)$ is a solution of the linear second-order differential equation
+$$ x y^{\prime \prime} + (c - x) y^{\prime} - a y = 0 \tag{25}
+$$ referred to as the confluent hypergeometric equation. Moreover, if $c \neq 0, \pm 1, \pm 2, \dots$,
 
 
 $$ y = C_{1} M (a; c; x) + C_{2} x^{1 - c} F (1 + a - c; 2 - c; x)
@@ -704,7 +716,7 @@ $$
 # KEY POINTS
 
 - The distribution assumed in financial models for asset returns is the normal or Gaussian distribution. Real-world asset returns, however, have been observed to be skewed and nonsymmetric, two features that are inconsistent with the normal distribution.
-- Although the non-Gaussian alpha-stable distribution is superior to the normal distribution because it allows for skewness and fat tails, it is not suitable in certain modeling applications such as in modeling option prices. This is because the mean, variance, and exponential moments of the return distribution have to exist. The smoothly truncated sta ble distribution, obtained by tempering the tail properties of the alpha-stable distribution, have been proposed for modeling in such instances.
+- Although the non-Gaussian alpha-stable distribution is superior to the normal distribution because it allows for skewness and fat tails, it is not suitable in certain modeling applications such as in modeling option prices. This is because the mean, variance, and exponential moments of the return distribution have to exist. The smoothly truncated stable distribution, obtained by tempering the tail properties of the alpha-stable distribution, have been proposed for modeling in such instances.
 
 
 - There are six tempered stable distributions: classical tempered stable distribution, generalized classical tempered stable distribution, modified tempered stable distribution, normal tempered stable distribution, Kim-Rachev tempered stable distribution, and rapidly decreasing tempered stable distribution. All six tempered stable distributions and the alpha-stable distribution are defined by their characteristic functions.
@@ -712,13 +724,13 @@ $$
 
 # NOTES
 
-1. Extensive analysis of  $\alpha$ -stable distributions and their properties can be found in Samorodnitsky and Taqqu (1994), Rachev and Mittnik (2000), and Stoyanov and Racheva-Iotova (2004a, 2004b).
-2. The KoBoL distribution (see Boyarchenko and Levendorskii, 2000) is obtained by substituting  $\alpha = \alpha_{+} = \alpha_{-}$ , the truncated Lévy flight is obtained by substituting  $\lambda = \lambda_{+} = \lambda_{-}$  and  $\alpha = \alpha_{+} = \alpha_{-}$ , while the CGMY distribution (see Carr et al., 2002) is obtained by substituting  $C = C_{+} = C_{-}$ ,  $G = \lambda_{-}$ ,  $M = X_{+}$  and  $Y = \alpha_{+} = \alpha_{-}$ .
+1. Extensive analysis of $\alpha$-stable distributions and their properties can be found in Samorodnitsky and Taqqu (1994), Rachev and Mittnik (2000), and Stoyanov and Racheva-Iotova (2004a, 2004b).
+2. The KoBoL distribution (see Boyarchenko and Levendorskii, 2000) is obtained by substituting $\alpha = \alpha_{+} = \alpha_{-}$, the truncated Lévy flight is obtained by substituting $\lambda = \lambda_{+} = \lambda_{-}$ and $\alpha = \alpha_{+} = \alpha_{-}$, while the CGMY distribution (see Carr et al., 2002) is obtained by substituting $C = C_{+} = C_{-}$, $G = \lambda_{-}$, $M = \lambda_{+}$ and $Y = \alpha_{+} = \alpha_{-}$.
 3. The NTS distribution was originally obtained using a time-changed Brownian motion with a tempered stable subordinator by Barndorff-Nielsen and Levendorskii (2001). Later, Kim, Rachev, Chung, and Bianchi (2008c) define the NTS distribution by the exponential tilting for the symmetric MTS distribution.
 4. The NIG distribution has been used for financial modeling by Barndorff-Nielsen (1998, 1997) and Rydberg (1997).
 
 5. More details about the calculation can be found in Samorodnitsky and Taqqu (1994) and Sato (1999).
-6. The tempered stable distribution has been generalized by Rosinski (2007) and Bianchi et al. (2010). Rosinski (2007) defined the tempering function as the completely monotone function. The complete monotonicity of the tempering function  $q(x)$  means that  $(-1)^n\frac{d^n}{dx^n} q(x) > 0$  for all  $n = 0, 1, 2, \ldots$  and  $x \in \mathbb{R}$  with  $x \neq 0$ . The CTS and the KRTS distributions are included in Rosinski's generalization. In Bianchi et al. (2010), the tempering function is defined by the positive definite radial function. The RDTS and the MTS distributions are subclasses of the class of the TID distributions.
+6. The tempered stable distribution has been generalized by Rosinski (2007) and Bianchi et al. (2010). Rosinski (2007) defined the tempering function as the completely monotone function. The complete monotonicity of the tempering function $q(x)$ means that $(-1)^n\frac{d^n}{dx^n} q(x) > 0$ for all $n = 0, 1, 2, \ldots$ and $x \in \mathbb{R}$ with $x \neq 0$. The CTS and the KRTS distributions are included in Rosinski's generalization. In Bianchi et al. (2010), the tempering function is defined by the positive definite radial function. The RDTS and the MTS distributions are subclasses of the class of the TID distributions.
 
 # REFERENCES
 

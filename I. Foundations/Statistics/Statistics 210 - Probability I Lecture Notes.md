@@ -1,30 +1,31 @@
 ---
+title: "Statistics 210: Probability I"
+parent_directory: "I. Foundations/Statistics"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- 10.2 convergence theorems
-- 12.1 conditional covariance
-- lindeberg clt
-- unpublished draft
-- graduate level probability class
-- october 13th
+  - probability theory foundations
+  - graduate level statistics
+  - convergence theorems
+  - central limit theorems
+  - measure theoretic probability
 secondary_tags:
-- level probability classes
-- measure theoretic details
-- infinite monkey theorem
-- convergence theorem yields
-- if , then proof
-- bounded stopping time
-- formal mathematical proof
-- last collector's item
-- exponential distributions
-- illustrative example
-- first real lecture
-- other order statistics
-- riemann integral
-- ssrw example
-- special notation
-- problem exercise
-tags_extracted: '2025-12-18T18:01:04.964753'
-tags_method: max_quality_v1
+  - random variables
+  - conditional expectation
+  - martingale theory
+  - multivariate normal distributions
+  - law of large numbers
+  - stochastic processes
+  - distribution families
+  - conditional distributions
+  - mixture distributions
+  - order statistics
+  - stopping times
+  - brownian motion
+  - markov chains
+  - poisson processes
+cssclasses: academia
 ---
 
 # Statistics 210: Probability I
@@ -33,121 +34,121 @@ Eric K. Zhang ekzhang@college.harvard.edu
 
 Fall 2020
 
-# Abstract
+## Abstract
 
 These are notes for Harvard's *Statistics* 210, a graduate-level probability class providing foundational material for statistics PhD students, as taught by Joe Blitzstein<sup>1</sup> in Fall 2020. It has a history as a long-running statistics requirement at Harvard. We will focus on probability topics applicable to statistics, with a lesser focus on measure theory.
 
 Course description: Random variables, measure theory, reasoning by representation. Families of distributions: Multivariate Normal, conjugate, marginals, mixtures. Conditional distributions and expectation. Convergence, laws of large numbers, central limit theorems, and martingales.
 
-# Contents
+## Contents
 
-1 September 3rd, 2020
+## 1 September 3rd, 2020
 
-1.1 Course Logistics 4  
-1.2 Breakout Puzzle: Random Walks 4  
+1.1 Course Logistics 4
+1.2 Breakout Puzzle: Random Walks 4
 1.3 Representations of Distributions 5
 
-2 September 8th, 2020
+## 2 September 8th, 2020
 
-2.1 Measure Theory 6  
+2.1 Measure Theory 6
 2.2 Uncountable  $\sigma$ -Algebras 7
 
-3 September 10th, 2020
+## 3 September 10th, 2020
 
-3.1 The Borel Measure 8  
-3.2 Random Variables 8  
+3.1 The Borel Measure 8
+3.2 Random Variables 8
 3.3 Properties of Random Variables 9
 
-4 September 15th, 2020 11
+## 4 September 15th, 2020
 
-4.1 A Couple Notes on Proofs 11  
+4.1 A Couple Notes on Proofs 11
 4.2 Working with  $\pi -\lambda$  11
 
-5 September 17th, 2020 13
+## 5 September 17th, 2020
 
-5.1 Proof of the  $\pi$ - $\lambda$  Theorem 13  
+5.1 Proof of the  $\pi$ - $\lambda$  Theorem 13
 5.2 Representations of Random Variables 13
 
-6 September 22nd, 2020 15
+## 6 September 22nd, 2020
 
-6.1 Probability Integral Transform 15  
+6.1 Probability Integral Transform 15
 6.2 Reasoning By Representation 16
 
-# 7 September 24th, 2020 18
+## 7 September 24th, 2020
 
-7.1 The Beta-Gamma Calculus 18  
-7.2 The Normal Distribution and Box-Muller 19  
+7.1 The Beta-Gamma Calculus 18
+7.2 The Normal Distribution and Box-Muller 19
 7.3 Order Statistics 19
 
-# 8 September 24th, 2020 21
+## 8 September 24th, 2020
 
-8.1 Poisson Processes 21  
+8.1 Poisson Processes 21
 8.2 The Broken Stick Problem 22
 
-# 9 October 1st, 2020 23
+## 9 October 1st, 2020
 
-9.1 General Poisson Point Processes 23  
-9.2 Properties of the Poisson Distribution 23  
+9.1 General Poisson Point Processes 23
+9.2 Properties of the Poisson Distribution 23
 9.3 Defining Integration and Expectation 24
 
-# 10 October 6th, 2020 26
+## 10 October 6th, 2020
 
-10.1 Riemann-Stieltjes and Lebesgue Integration 26  
+10.1 Riemann-Stieltjes and Lebesgue Integration 26
 10.2 Convergence Theorems in Analysis 27
 
-# 11 October 8th, 2020 29
+## 11 October 8th, 2020
 
-11.1 Proof of Bounded Convergence 29  
+11.1 Proof of Bounded Convergence 29
 11.2 Conditional Expectation 30
 
-# 12 October 13th, 2020 32
+## 12 October 13th, 2020
 
-12.1 Conditional Covariance: ECCE 32  
+12.1 Conditional Covariance: ECCE 32
 12.2 Moment Generating Functions 33
 
-# 13 October 15th, 2020 35
+## 13 October 15th, 2020
 
-13.1 Cumulants 35  
-13.2 Characteristic Functions 36  
+13.1 Cumulants 35
+13.2 Characteristic Functions 36
 13.3 The Multivariate Normal Distribution 37
 
-# 14 October 21st, 2020 39
+## 14 October 21st, 2020
 
-14.1 More on the Multivariate Normal 39  
+14.1 More on the Multivariate Normal 39
 14.2 Example Problem: Socks in aDrawer 40
 
-# 15 October 27th, 2020 42
+## 15 October 27th, 2020
 
-15.1 Intro to Inequalities 42  
-15.2 Concentration Inequalities 43  
+15.1 Intro to Inequalities 42
+15.2 Concentration Inequalities 43
 15.3 More Basic Inequalities 44
 
-# 16 October 29th, 2020 46
+## 16 October 29th, 2020
 
-16.1 Hölder's Inequality and Nonnegative Covariance 46  
+16.1 Hölder's Inequality and Nonnegative Covariance 46
 16.2 Convergence and the Borel-Cantelli Lemma 47
 
-# 17 November 3rd, 2020 48
+## 17 November 3rd, 2020
 
-17.1 More on Convergence 48  
+17.1 More on Convergence 48
 17.2 Building a Hierarchy of Convergence 49
 
-# 18 November 5th, 2020 51
+## 18 November 5th, 2020
 
-18.1 Major Tools in Asymptotics 51  
+18.1 Major Tools in Asymptotics 51
 18.2 Natural Exponential Families 52
 
-# 19 November 10th, 2020 53
+## 19 November 10th, 2020
 
-19.1 Example of the Delta Method in Asymptotics 53  
+19.1 Example of the Delta Method in Asymptotics 53
 19.2 The Law of Large Numbers 53
 
-# 20 November 12th, 2020 56
+## 20 November 12th, 2020
 
-20.1 The Central Limit Theorem 56  
+20.1 The Central Limit Theorem 56
 20.2 More Central Limit Theorems 57
 
-# 21 November 17th, 2020 60
+## 21 November 17th, 2020
 
 21.1 Examples of the Central Limit Theorem 60  
 21.2 The Replacement Method 61

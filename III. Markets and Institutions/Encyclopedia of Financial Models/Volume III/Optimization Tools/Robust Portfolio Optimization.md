@@ -31,7 +31,7 @@ Sixty years after Markowitz's seminal work, substantial advances have been made 
 Consider the classical mean-variance portfolio allocation problem:
 
 $$
-\begin{array}{l} \max_{\mathbf {w}} \quad \boldsymbol {\mu}^{\prime} \mathbf {w} - \lambda \mathbf {w}^{\prime} \Sigma \mathbf {w} \\ s. t. \quad \mathbf {w}^{\prime} \iota = 1 \\ \end{array}
+\begin{array}{l} \max_{\mathbf{w}} \quad \boldsymbol {\mu}^{\prime} \mathbf{w} - \lambda \mathbf{w}^{\prime} \Sigma \mathbf{w} \\ s. t. \quad \mathbf{w}^{\prime} \iota = 1 \\ \end{array}
 $$ where  $\mu$  is the vector of expected returns (alphas) for  $N$  assets in the investment universe,  $\pmb{\Sigma}$  is the asset-asset covariance matrix,  $\mathbf{w}$  is the  $N$ -dimensional vector of portfolio weights,  $\lambda$  is the risk aversion coefficient, and  $\iota$  is a vector of ones. This optimization problem simply states that the optimal portfolio weights should be chosen so that the expected portfolio return less the portfolio risk (scaled by the risk aversion coefficient) is as large as possible. The equality constraint ensures that the portfolio weights add up to one.
 
 
@@ -46,10 +46,35 @@ $$
 
 In words, the set  $U_{\delta}(\hat{\mu})$  contains all vectors  $\boldsymbol{\mu} = (\mu_1, \dots, \mu_N)$  such that each component  $\mu_i$  is in the interval  $[\hat{\mu}_i - \delta_i, \hat{\mu}_i + \delta_i]$ , and is often referred to as a "box" uncertainty set. From a statistical point of view, these intervals can be chosen to be certain confidence intervals around each point estimate  $\hat{\mu}_i$ .
 
+```d2
+direction: right
+
+Estimated Returns: Estimated Expected Returns {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+}
+
+Box Uncertainty Set: Box Uncertainty Set {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+  style.stroke-width: 2
+}
+
+Worst Case Scenario: Worst-Case Realization {
+  shape: diamond
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+Estimated Returns -> Box Uncertainty Set: Contains possible\ntrue expected returns
+Box Uncertainty Set -> Worst Case Scenario: Robust optimization\nconsiders worst-case\nwithin uncertainty set
+```
+
 We solve a modification of the original optimization problem such that even if  $\mu$  takes its worst possible value within the uncertainty set, the allocation remains optimal. Namely, we solve the max-min portfolio optimization problem
 
 $$
-\begin{array}{l l} \max_{\mathbf {w}} & \left\{\min_{\mu \in U_{\delta} (\hat {\boldsymbol {\mu}})} \left\{\boldsymbol {\mu}^{\prime} \mathbf {w} \right\} - \lambda \mathbf {w}^{\prime} \Sigma \mathbf {w} \right\} \\ s. t. & \mathbf {w}^{\prime} \mathfrak {t} = 1 \end{array}
+\begin{array}{l l} \max_{\mathbf{w}} & \left\{\min_{\mu \in U_{\delta} (\hat {\boldsymbol {\mu}})} \left\{\boldsymbol {\mu}^{\prime} \mathbf{w} \right\} - \lambda \mathbf{w}^{\prime} \Sigma \mathbf{w} \right\} \\ s. t. & \mathbf{w}^{\prime} \iota = 1 \end{array}
 $$
 
 At first sight, this optimization problem looks complicated, as we have to minimize the objective function with respect to  $\mu$  over the specified uncertainty set and, simultaneously, maximize the objective function with respect to  $\mathbf{w}$  to find the optimal allocation. However, as we will see shortly, this problem can be reformulated into an equivalent maximization problem with respect to only  $\mathbf{w}$ . First, let us understand what this model implies from an intuitive perspective.
@@ -60,7 +85,7 @@ Observe that this model incorporates the notion of aversion to estimation error 
 The robust version of the classical portfolio optimization problem is obtained by solving the max-min problem above, and for this model is easy to derive without any involved mathematics. Namely, it is
 
 $$
-\begin{array}{l} \max_{\mathbf {w}} \quad \hat {\mathbf {u}}^{\prime} \mathbf {w} - \delta^{\prime} | \mathbf {w} | - \lambda \mathbf {w}^{\prime} \Sigma \mathbf {w} \\ s. t. \quad \mathbf {w}^{\prime} \iota = 1 \\ \end{array}
+\begin{array}{l} \max_{\mathbf{w}} \quad \hat{\boldsymbol{\mu}}^{\prime} \mathbf{w} - \delta^{\prime} | \mathbf{w} | - \lambda \mathbf{w}^{\prime} \Sigma \mathbf{w} \\ s. t. \quad \mathbf{w}^{\prime} \iota = 1 \\ \end{array}
 $$ where  $|\mathbf{w}|$  denotes the absolute value of the entries of the vector of weights  $\mathbf{w}$ . To gain some intuition, notice that if the weight of asset  $i$  in the portfolio is negative, the worst-case expected return for asset  $i$  is  $\hat{\mu}_i + \delta_i$  (we lose the largest amount possible). If the weight of asset  $i$  in the portfolio is positive, then the worst-case expected return for asset  $i$  is  $\hat{\mu}_i - \delta_i$  (we gain the smallest amount possible). Observe that  $\hat{\mu}_i w_i - \delta_i |w_i|$  equals  $(\hat{\mu}_i - \delta_i) w_i$  if the weight  $w_i$  is positive and  $(\hat{\mu}_i + \delta_i) w_i$  if the weight  $w_i$  is negative. Hence, the mathematical expression in the objective agrees with our intuition: It minimizes the worst-case expected portfolio return. In this robust version of the mean-variance formulation, assets whose mean return estimates are less accurate (have a larger estimation error  $\delta_i$ ) are therefore penalized in the objective function, and will tend to have a smaller weight in the optimal portfolio allocation.
 
 
@@ -68,7 +93,7 @@ This optimization problem has the same computational complexity as the nonrobust
 
 
 $$
-\begin{array}{l} \max_{\mathbf {w}, \psi} \quad \hat {\boldsymbol {\mu}}^{\prime} \mathbf {w} - \delta^{\prime} \boldsymbol {\psi} - \lambda \mathbf {w}^{\prime} \Sigma \mathbf {w} \\ \begin{array}{l l} \text{s .t .} & \mathbf {w}^{\prime} \iota = 1 \end{array} \\ \psi_{i} \geq w_{i}; \psi_{i} \geq - w_{i}, i = 1, \dots , N \\ \end{array}
+\begin{array}{l} \max_{\mathbf{w}, \psi} \quad \hat {\boldsymbol {\mu}}^{\prime} \mathbf{w} - \delta^{\prime} \boldsymbol {\psi} - \lambda \mathbf{w}^{\prime} \Sigma \mathbf{w} \\ \begin{array}{l l} \text{s .t .} & \mathbf{w}^{\prime} \iota = 1 \end{array} \\ \psi_{i} \geq w_{i}; \psi_{i} \geq - w_{i}, i = 1, \dots , N \\ \end{array}
 $$
 
 Therefore, incorporating considerations about the uncertainty in the estimates of the expected returns in this example has virtually no computational cost.

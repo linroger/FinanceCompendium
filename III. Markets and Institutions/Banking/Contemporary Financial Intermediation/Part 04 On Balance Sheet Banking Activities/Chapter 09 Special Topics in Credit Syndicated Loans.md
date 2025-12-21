@@ -19,7 +19,9 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# GLOSSARY OF TERMS
+# Chapter 09 Special Topics in Credit Syndicated Loans
+
+## GLOSSARY OF TERMS
 
 Syndicated Loan A loan in which multiple lenders participate.
 
@@ -27,15 +29,15 @@ Loan Sale A sale of an existing loan, or part of it.
 
 Project Finance Financing provided for large projects that are separately incorporated from the sponsoring firm.
 
-# INTRODUCTION
+## INTRODUCTION
 
 In the previous two chapters, we examined a variety of issues related to bank lending. There are, however, three important topics that we did not cover. These are syndicated lending, loan sales, and project finance. Syndicated lending occurs when multiple lenders participate in making a single large loan. There is a lead lender, typically a commercial bank, in the syndicate that originates the loan and the other lenders participate by providing varying amounts of the loan. A variant of syndicated lending is loan sales, which we will also discuss. Project financing occurs when the sponsoring firm for a project decides to incorporate the project as a stand-alone entity outside the firm and seeks financing that has a direct claim on the project cash flows rather than the cash flows of the sponsoring firm. In this chapter, we will describe these practices and explain the underlying economic forces at work that make these practices efficient in some circumstances.
 
-# SYNDICATED LENDING
+## SYNDICATED LENDING
 
 In this section, we first discuss what a syndicated loan is and the economic functions syndication serves. We then discuss the syndicated loan market, both in domestic and international lending.<sup>1</sup>
 
-# What Is Syndicated Lending?
+### What Is Syndicated Lending?
 
 A syndicated loan is a credit granted by a group of lenders, typically banks, to a borrower. Every lender has a separate claim on the borrower, even though there is a single loan agreement. There is typically an originating bank (or group of originating banks) that conducts the credit analysis prior to granting the loan and also negotiates the pricing structure of the loan. These originating banks, called the senior syndicate members, are appointed by the borrower and provide the key financial intermediation services of resolving precontract informational asymmetries and designing the loan contract. The others in the syndicate, called the junior banks, provide a portion of the funding. The numbers and identities of the juniors vary depending on the size, complexity, and pricing of the loan, as well as the borrower's willingness to expand its banking relationships.
 
@@ -48,7 +50,7 @@ For the junior lenders in the syndicate, syndication enables participation witho
 
 An example of a syndicated loan structure is provided in Figure 9.1. This syndicated loan took the form of a loan commitment (a topic discussed in greater depth in the next chapter) from a syndicate of banks to Starwood Hotels and Resorts Worldwide, Inc. in 2001. In this syndication, Deutsche Bank AG is the senior bank in the syndicate and Bank One NA, Citibank NA, Credit Lyonnais SA, and UBS AG are the juniors.
 
-# The Market for Syndicated Loans
+### The Market for Syndicated Loans
 
 Syndicated lending has been very popular in United States domestic lending for many decades. However, since the 1970s, the practice has become an important part of the international lending as well.
 
@@ -73,7 +75,7 @@ Participants in the secondary market include: (i) market makers, (ii) active tra
 
 institutional investors, called vulture funds, which trade distressed debt. Less active traders include insurance companies and nonfinancial corporations. Finally, there are also occasional participants who are either buyers or sellers of syndicated loans.[5]
 
-# The Brady Plan
+### The Brady Plan
 
 The Brady Plan, first announced by U.S. Treasury Secretary Nicholas F. Brady in March 1989, was designed to address the debt crisis of the 1980s, which plagued some developing countries. The debt crisis began in 1982, when a number of countries, primarily in Latin America, confronted by high interest rates and low commodity prices, were on the verge of defaulting on their commercial bank loans. This caused credit flows to these countries to dry up, leading to economic stagnation.
 
@@ -83,7 +85,7 @@ Because rescheduling occurred on a case-by-case basis, each Brady issue is uniqu
 
 The Brady Plan was successful in many respects. First, it allowed the participating countries to negotiate substantial reductions in their debt service obligations. Second, it helped commercial banks to diversify sovereign risk. Third, it encouraged many developing countries to adopt and pursue ambitious economic reforms. Finally, it has enabled many developing countries to regain access to international capital markets.
 
-# The Pricing of Syndicated Loans
+### The Pricing of Syndicated Loans
 
 Syndicated lending, in terms of the closeness of the relationship between the bank and the borrower, is somewhere between a relationship loan and a transaction loan (see Chapter 7).
 
@@ -95,7 +97,7 @@ In addition to the fees and the spread between the lending rate and the lender's
 
 Banks have traditionally sold loans to other banks. Over time the volume has increased substantially.<sup>6</sup> An increasing number of banks are becoming involved in loan sales as buyers and sellers. Banks commonly employ asset sales specialists. Moreover, the number of banks selling loans through syndication has increased, and unlike traditional loan sales, an increasing number of loans (about  $60\%$ ) are now being sold to buyers outside the U.S. correspondent banking network, mainly to foreign banks, other intermediaries, and nonfinancial firms. Maturities of loans sold range from 1 day to 2 years, with roughly  $80\%$  having maturities of 90 days or less.
 
-# What Is a Loan Sale?
+## What Is a Loan Sale?
 
 A loan sale is similar to a loan syndication in that the originating bank is able to ensure that part of the funding for the loan comes from other lenders. There are two kinds of commercial loan sales: loan strips and loan participations. A loan strip
 
@@ -109,7 +111,7 @@ is a short-term share of a long-term loan. When the strip comes due at the end o
 
 A loan sale without recourse removes the loan from the seller's books and thus does not require reserves or capital to be held against it. In the 2007-2009 financial crisis, substantial grey areas were discovered where recourse arrangements (via guarantees and other assurances) continued to expose the original seller to the risks that many had assumed had been shed by the seller. These issues are not new. For example, it had been argued earlier that strips could expose banks to refunding risk. In January 1988, FASB determined that loan strips could be recorded as sales if: (i) the buyer of the strip assumes the full risk of loss, and (ii) the lender has no contractual obligation to repurchase the loan strip. The banking committee of the American Institute of Certified Public Accounts announced that it would treat a strip as a sale if, at the strip's maturity the original lender can refuse to lend because either: (i) the borrower violates a covenant in the loan contract, or (ii) a material adverse change (MAC) in the borrower's financial condition is discovered. Note that (ii) is the same as the standard MAC clause in loan commitments.
 
-# Loan Participation
+### Loan Participation
 
 Like syndicated lending, loan participation is a multilender financing arrangement. It differs from a loan strip in that it is an outright sale of a loan. Participations are loans where the lead lender ("Lead") sells a participation in a loan to one or more participation lenders.<sup>7</sup> The Lead continues to manage the loan on behalf of the participants. The relationship among the lenders is typically formalized in a participation agreement, which stipulates that the participant receives an undivided interest in the loan. The sale of the loan to participants typically occurs after the loan documentation has been executed by the Lead and the borrower. Unlike a syndicated loan, the participants do not contract directly with the borrower. The Lead negotiates the loan terms with the borrower, receives all the payments from the borrower, and collateral is maintained by the Lead in its own name. Participants make advances to the Lead, and these take the form of purchases of participation interests.
 
@@ -119,11 +121,11 @@ The other is that the junior lender in a syndicate can hope to develop a relatio
 
 From the standpoint of the Lead, one advantage of a loan participation relative to a syndication is that it retains exclusive control over its relationship with the borrower and does not invite potential future competition for relationship lending from the junior lender in the syndicate. The advantage of a syndication for the senior lender is that, because the juniors have direct relationships with the borrowers, the senior lender can free up its own capital in an amount of credit extended by the junior lenders.
 
-# Choice Between Loan Syndication and Loan Sales
+### Choice Between Loan Syndication and Loan Sales
 
 The syndicated loan market and the market for loan participations have developed because they offer distinct economic advantages for borrowers as well as lenders. For the borrowers, syndicated and participation loans offer some of the advantages of relationship borrowing along with some of the advantages of transaction borrowing (such as liquidity and hence a lower borrowing cost). For the senior lenders, loan syndication permits exploitation of their origination expertise in resolving precontract informational asymmetries and negotiating pricing terms, while also enables them to diversify their credit risk exposure. The same is true for the Lead in a participation loan. For junior lenders, the benefits of loan syndication include the ability to diversify into sectors in which they lack origination expertise and to possibly develop a relationship with the borrower which could be deepened in the future. For participants, the benefit of loan participation lies in the ability to diversify into credits where they lack relationship and/or origination expertise.
 
-# Moral Hazard and Reputation in Loan Sales and Syndicated Lending
+### Moral Hazard and Reputation in Loan Sales and Syndicated Lending
 
 In loan sales and syndicated lending, screening and monitoring of borrowers continues to be important. So very much in the spirit of the "banks are special" discussion in Chapter 3, banks need to have sufficient incentives to invest in screening and monitoring borrowers. However, since the lead bank in a syndicate has only a portion of the loan on its books, its incentives to engage in costly credit screening and monitoring of its loans are weaker than when the whole loan stays on its books. The same is true in loan sales. So, how can participating lenders be reassured that the lead bank will do adequate screening to ensure that only creditworthy borrowers are receiving loans?
 
@@ -131,11 +133,11 @@ One mechanism for this is reputation. Syndicated lending is a repeated game, wit
 
 There is empirical evidence of such reputational effects in the syndicated market. In a study of the effect of large-scale bankruptcies among the borrowers of lead arrangers in loan syndicates, it was documented that such lead arrangers – who had demonstrably made poor loans that subsequently defaulted – suffered reputational damage and were less likely to subsequently syndicate loans. If they did succeed in subsequently syndicating loans, they were compelled to retain larger fractions of the loans and were less likely to attract other lenders to participate.[9]
 
-# PROJECT FINANCE
+## PROJECT FINANCE
 
 In this section, we first define project finance, the economic functions it serves, and why it has grown so much recently. We then examine the characteristics of the project financing market.
 
-# What Is Project Finance?
+### What Is Project Finance?
 
 Project financing is a technique for financing large-scale infrastructure projects, including those in the natural-resource sectors, like energy and mining. Project financing is different in many respects from conventional financing. With project finance, the firm or public sponsor wishes to invest in a large project, and this is achieved by incorporating the
 
@@ -174,11 +176,11 @@ With such developments, the market for project finance could well begin to becom
 
 To summarize, project financing has grown in response to two market forces: (i) the need for borrowers to be able to obtain financing that is exclusively tied to the characteristics of the project and divorced from the sponsor's other cash flows, so as to reduce informational and agency costs, and permit higher leverage; and (ii) the need for lenders to reduce their credit risk exposure by breaking up the loan for a large project into smaller pieces that are financed by numerous lenders, with the possibility of "private-public partnerships" that involve participation by the local government. Project financing is an example of collaboration between commercial projects and investment projects to provide a variety of brokerage and qualitative asset-transformation services, such as resolution of precontract informational asymmetries, reduction of agency costs, and designing the loan contract so as to permit the borrower to obtain more leverage than would be otherwise possible.
 
-# CONCLUSION
+## CONCLUSION
 
 In this chapter, we examined three special topics in lending: syndicated lending, loan sales, and project financing. One element that connects them is that project financing usually involves loan syndication as well. Loan syndication creates a loan that combines features of a relationship loan and a transaction loan, whereas project financing permits borrowers to undertake large infrastructure projects with significantly higher leverage than would be otherwise possible and with potential for risk sharing with governmental entities. Both syndicated lending and project financing involve loan commitments by lenders, a topic we will turn to in the next chapter.
 
-# REVIEW QUESTIONS
+## REVIEW QUESTIONS
 
 1. What is syndicated lending and what economic functions does it serve?  
 2. Why is a syndicated loan like a relationship loan and why is it like a transaction loan?  
@@ -188,7 +190,7 @@ In this chapter, we examined three special topics in lending: syndicated lending
 6. Why is project financing typically used only for very large projects?  
 7. Why would securitization emerge in project financing? What are the parallels between this and the development of secondary market trading for syndicated loans?
 
-# REFERENCES
+## REFERENCES
 
 Allen, T., 1990. Developments in the International Syndicated Loan Market in the 1980s. Q. Bull. Bank England 30, 71-77.  
 Altman, A., 2012. Hide that syndicated junk in the closet! A case for credit risk retention in the CLO market. Chicago-Kent Law Rev. 87, 935-963.  

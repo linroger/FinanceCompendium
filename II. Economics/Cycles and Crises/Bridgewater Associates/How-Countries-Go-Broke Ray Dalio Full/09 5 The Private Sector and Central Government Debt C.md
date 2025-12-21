@@ -1,46 +1,30 @@
 ---
-aliases:
-- The Private Sector and Central Government Debt Crisis
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: '09 - Chapter 5: The Private Sector and Central Government Debt Crisis (Stages
-  1-4)'
+title: The Private Sector and Central Government Debt Crisis
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
+formatted: 2025-12-21 07:20:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- debt crisis
-- big cycle
-- future cuts
-- most importantly banks
-- global geopolitical orders
+  - debt crisis
+  - private sector debt
+  - government debt crisis
+  - central bank crisis
+  - debt cycle stages
 secondary_tags:
-- domestic political orders
-- country's central bank
-- two big types
-- private sector
-- last 100 years
-- archetypical sequence
-- government's debt
-- greater detail
-- even more borrowing
-- another currency
-- i.e., too much debt
-- several years
-tags_extracted: '2025-12-18T18:02:32.076693'
-tags_method: max_quality_v1
+  - big debt cycle
+  - monetary policy
+  - fiscal policy
+  - currency devaluation
+  - reserve selling
+  - inflation dynamics
+cssclasses: academia
 ---
 
-# 09_5_The_Private_Sector_and_Central_Government_Debt_C
-## AND CENTRAL
-
-### BANKS GOING
-
-### BROKE
+## The Private Sector and Central Government Debt Crisis
 
 The same basic sequence of events that leads central governments and central banks to go broke has happened repeatedly throughout history, and it isn't well understood. The purpose of Part II is to describe it so that it is well understood. In it, I provide a template of the typical case and the most important reasons for the two major types of cases: 1) those in which the debt is denominated in currency that the country's central bank can print and 2) those in which the debt is denominated in currency that the central bank can't print. Then I devote Chapter 8 to providing an overview of the five forces that make up what I call the Big Cycle, which drives all major changes in monetary systems, domestic political orders, and global geopolitical orders. After I make that clear, in Part III, I will review how this Big Cycle, starting in 1865 and continuing until now, has transpired relative to the archetypal timeless and universal template.
 
-### CHAPTER 4
+## CHAPTER 4
 
 ### THE ARCHETYPICAL SEQUENCE
 
@@ -50,7 +34,7 @@ T
 
 There is one important determinant that I'd like to explain that affects how the cases transpire. That is between cases with a hard money versus fiat money.
 
-### HARD MONEY VERSUS FIAT MONEY
+## HARD MONEY VERSUS FIAT MONEY
 
 The cases I am about to describe come in two broad types that typically behave differently in ways that you should understand. The two big types are the hard currency cases and fiat currency cases. In brief, the way the hard currency cases work is that the governments have made promises to deliver money that they can't print (e.g., gold, silver, or another currency that the parties view as relatively hard, like the dollar). Throughout history, when coming up with these hard currencies that they can't print to pay debts becomes tough, the governments almost always reneged on their promises to pay in the currency that they can't print, and the value of their money and the debt payments denominated in it tumble at the moment the promise is broken.
 
@@ -64,7 +48,7 @@ In the charts in this part, you will see three lines—the blue line shows the a
 
 By the way, the Big Debt Cycles through history have typically included currency regimes going back and forth between being hard and fiat because they each led to extreme consequences and required movements to the opposite—the hard currency regimes broke down with big devaluations because the governments couldn't maintain debt growth in line with their monetary constraints, and the fiat monetary systems broke down because of the loss of faith in the debt/money being a safe storehouse of wealth.
 
-### NINE STAGES OF THE FINAL CRISIS
+## NINE STAGES OF THE FINAL CRISIS
 
 In the introduction to this book, I summarized the whole archetypal debt cycle. I am now going to focus on the final phase of the Big Debt Cycle, when the central government and the central bank both go broke. This final phase typically transpires in nine steps. While this sequence is the archetypal one, there are very big variations in what happens and when it happens, and the stages don't necessarily transpire in the exact sequence I describe. So, the things I am referring to here can be viewed as the unhealthy things that lead to the crisis and the steps that are classically taken to get out of the crisis. The more of these unhealthy things exist, the greater the risk of a "heart attack" where the central government and the central bank go broke. Said differently, there are many reasons a country goes broke—e.g., chronic overspending and debt accumulations; costly wars; costly shocks like droughts, floods, and pandemics; some mix of these things; etc. Whatever the causes, this checklist adds up to a risk gauge because the more of the unhealthy things that exist, the higher the probability of a debt/currency crisis. Here is the sequence of unhealthy conditions that typifies the last stages of the Big Debt Cycle:
 
@@ -85,13 +69,13 @@ That stage is easy to see in the market action via interest rates rising, led by
 
 ## 9. The deleveraging process inevitably reduces the debt burdens and creates the return to equilibrium. One way or another, the debt and debt service levels are brought back in line with the incomes that exist to service the debts. Quite often, there are inflationary depressions, so the debt is devalued at the end of the cycle, government reserves are raised through asset sales, and a strictly enforced transition from a rapidly declining currency to a relatively stable currency is simultaneously achieved by the central bank linking the currency to a hard currency or a hard asset (e.g., gold) and central government and private sector finances being brought back in line to a sustainable level. At the early stage of this phase, it is imperative that the rewards of holding the currency and the debt denominated in it, and the penalties of owing money, are great in order to re-establish the creditability of the money and credit by rewarding the lender-creditors and penalizing the borrower-debtors. In this phase of the cycle, there is very tight money and a very high real interest rate, which is very painful but required for a while. If it persists, the supply and demand for money, credit, debt, spending, and savings will inevitably fall back into line. How exactly this happens largely depends on whether the debt is denominated in a currency that the central bank can create and whether the debtors and creditors are primarily domestic so that the central government and the central bank have more flexibility and control over the process. If so, that makes the process less painful, and, if not, it is inevitably much more painful. Also, whether the currency is a widely used reserve currency matters a lot.
 
-### THE ARCHETYPICAL SEQUENCE
+## THE ARCHETYPICAL SEQUENCE
 
 Because when it is there will be greater marginal inclinations to buy it and the debt that it is stored in. Having said that, it should be noted that throughout history there has been a strong tendency for governments with such currencies to abuse that privilege by doing more than enough borrowing to lose that privilege, which makes their decline more abrupt and painful.
 
 In the next few chapters, I will show you all this happening in charts.
 
-### CHAPTER 5
+## CHAPTER 5
 
 ### THE PRIVATE SECTOR AND
 
@@ -105,7 +89,7 @@ In the pages that follow, I will show the dynamics of the archetypal debt crisis
 
 You will note that the timing and the distinctiveness of these events is clearer in the cases where exchange rates are fixed (in which case they more clearly intensify and then break) than in the fiat currency cases (in which the adjustments are more fluid). That is because in fixed rate cases you can see the pressures build up until there is a clear break, whereas in the variable exchange rate cases you will see these changes occur more gradually.
 
-### Stage 1: The Private Sector and Government Get Deep in Debt
+## Stage 1: The Private Sector and Government Get Deep in Debt
 
 We see this in classic ways, such as:
 
@@ -162,7 +146,7 @@ LIQUID IIP ASSETS VS IIP DEBT LIABILITIES (\% GDP)
 
 DEBT HELD BY FOREIGNERS (\% GDP)
 
-### Stage 2: The Private Sector Suffers a Debt Crisis, and the Central Government Gets Deeper in Debt to Help the Private Sector
+## Stage 2: The Private Sector Suffers a Debt Crisis, and the Central Government Gets Deeper in Debt to Help the Private Sector
 
 Typically, this occurs at the stage of the cycle when the government's balance sheet goes from being moderately stretched in the years ahead of the devaluation to extremely stretched when the government is forced to step in to address debt problems that emerge in the private sector. When the private sector has financial problems, the government typically plays an increased role because it can get money and credit much more easily than the private sector can. During these difficult times, it is easier for governments to borrow because there is much more willingness to lend to them because everyone knows that their central banks can print money and get it to governments to repay the debt and because governments have the power to tax. Having this greater ability to borrow is especially true for those governments that have the most established reserve currencies because there is high demand to hold that debt/currency.
 

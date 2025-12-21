@@ -125,6 +125,85 @@ One conclusion that can be drawn is that investors in private-label MBS must hav
 
 As discussed previously, the actions and decisions taken by both borrowers and servicers, along with outside environmental factors, determine both the amount and timing of cash flows received by the trust. This behavior can be conceptualized through the use of transition matrices. Such matrices show the probability of loans moving from one credit status (or "state") to another in any month. This technique is often used as a foundation for formally modeling voluntary and involuntary speeds. We address it here, however, to help conceptualize the "life cycle" of a transaction's credit profile. The methodology offers useful techniques for demonstrating how the credit problems of obligors evolve into delinquencies and defaults and flow through a transaction over time. It is also useful in describing and quantifying how changes in the overall credit environment might impact the performance of a loan population.
 
+```d2
+direction: right
+
+Current: Current {
+  style.fill: "#4caf50"
+}
+
+D30: 30 Days Delinquent {
+  style.fill: "#ff9800"
+}
+
+D60: 60 Days Delinquent {
+  style.fill: "#ff5722"
+}
+
+D90: 90+ Days Delinquent {
+  style.fill: "#f44336"
+}
+
+Bk: Bankruptcy {
+  style.fill: "#9c27b0"
+}
+
+Fcl: Foreclosure {
+  style.fill: "#673ab7"
+}
+
+REO: Real Estate Owned {
+  style.fill: "#3f51b5"
+}
+
+Liq: Liquidated {
+  style.fill: "#2196f3"
+}
+
+Payoff: Voluntary Prepayment {
+  style.fill: "#00bcd4"
+}
+
+Current -> Current: 94.6%
+Current -> D30: 4.6%
+Current -> Payoff: 0.6%
+Current -> Fcl: 0.1%
+
+D30 -> Current: 20.0%
+D30 -> D30: 42.4%
+D30 -> D60: 36.9%
+D30 -> Fcl: 0.4%
+D30 -> Payoff: 0.2%
+
+D60 -> D30: 8.9%
+D60 -> D60: 34.1%
+D60 -> D90: 52.8%
+D60 -> Fcl: 0.5%
+D60 -> Payoff: 0.1%
+
+D90 -> Current: 1.9%
+D90 -> D60: 0.7%
+D90 -> D90: 85.7%
+D90 -> Bk: 3.7%
+D90 -> Fcl: 0.7%
+D90 -> REO: 8.3%
+D90 -> Payoff: 0.1%
+
+Bk -> Bk: 86.8%
+Bk -> Fcl: 8.3%
+Bk -> REO: 8.3%
+
+Fcl -> Fcl: 88.7%
+Fcl -> REO: 3.4%
+Fcl -> Liq: 10.1%
+
+REO -> REO: 82.3%
+REO -> Liq: 16.3%
+
+style.stroke-width: 1
+style.font-size: 12
+```
+
 Table 1 contains a hypothetical example of a roll matrix for a loan population, which can be defined either narrowly (e.g., for a single
 
 Table 1 Hypothetical Transition Matrix

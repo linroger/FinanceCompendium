@@ -1,6 +1,6 @@
 ---
 title: "Pricing Futures and Options Contracts"
-parent_directory: "Foundations of Global Financial Markets"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
 formatted: "2025-12-21 07:15:00 AM"
 formatter_model: "claude-sonnet-4-5-20250929"
 cli-tool: "claude-code"
@@ -26,82 +26,6 @@ cssclasses: academia
 
 # Pricing Futures and Options Contracts
 
-## CONTENTS
-
-## Learning Objectives
-
-## Pricing of Futures Contracts
-
-Theoretical Futures Price Based on Arbitrage Model
-
-Price Convergence at the Delivery Date
-
-A Closer Look at the Theoretical Futures Price
-
-Interim Cash Flows
-
-Differences between Lending and Borrowing Rates
-
-Transaction Costs
-
-Short Selling
-
-Known Deliverable Asset and Settlement Date
-
-The Deliverable Is a Basket of Securities
-
-Different Tax Treatment of Cash and Futures Transactions
-
-## Pricing of Options
-
-Basic Components of the Option Price
-
-Intrinsic Value
-
-Time Premium
-
-Put-Call Parity Relationship
-
-Factors That Influence the Option Price
-
-Current Price of the Underlying Asset
-
-Strike Price
-
-Time to Expiration of the Option
-
-Expected Price Volatility of the Underlying Asset over the Life of the Option
-
-Short-Term, Risk-Free Interest Rate over the Life of the Option
-
-Anticipated Cash Payments on the Underlying Asset over the Life of the Option
-
-Option Pricing Models
-
-Deriving the Binomial Option Pricing Model
-
-Deriving the Hedge Ratio
-
-Deriving the Price of a Call Option
-
-Fixed-Income Option Pricing Models
-
-## Key Points
-
-## Questions
-
-After reading this chapter, you will understand:
-
-- the theory of pricing a futures contract;
-- how arbitrage between the futures market and the cash or spot market links the prices of those markets;
-- the meaning of the terms "cost of carry" and "net financing cost":
-- the convergence of the futures and cash prices for a particular asset at the settlement date of the futures contract;
-- why the actual futures price may differ from the theoretical futures price;
-- how the market price of an option can be broken down into an intrinsic value and a time premium;
-- why arbitrage ensures that the prices of calls and puts on the same underlying asset with the same exercise price and expiration date have a certain relationship to each other;
-- the factors that affect the price of an option: the underlying asset's current price and expected price volatility, the contract's expiration date and exercise price, the short-term rate of interest, and any cash flows from the underlying asset; and
-- the principles of the binomial option pricing model and how the model is derived.
-
 In chapters 33 and 34, we described the various types of futures and options contracts. In this chapter, we explain how to determine the theoretical price of these contracts using arbitrage arguments. A close examination of the underlying assumptions necessary to derive the theoretical price indicates how it must be modified to price the specific contracts described in the previous two chapters.
 
 ## Pricing of Futures Contracts
@@ -111,7 +35,7 @@ To understand what determines the futures price, consider once again the futures
 1. Asset XYZ is selling for 100 in the cash market.
  2. Asset XYZ pays the holder (with certainty) \$12 per year in four quarterly payments of \$3, and the next quarterly payment is exactly three months from now.
 3. The futures contract requires delivery three months from now.
-4. The current three-month interest rate at which funds can be lent or borrowed is  $8\%$  per year.
+4. The current three-month interest rate at which funds can be lent or borrowed is $8\%$ per year.
 
 What should the price of this futures contract be? Suppose the price of the futures contract is 107. Consider this strategy:
 
@@ -119,7 +43,7 @@ Sell the futures contract at 107.
 
 Purchase Asset XYZ in the cash market for 100.
 
-Borrow 100 for three months at 8 \%per year.
+Borrow 100 for three months at 8\% per year.
 
 The borrowed funds are used to purchase Asset XYZ, resulting in no initial cash outlay for this strategy. At the end of three months, 3 will be received from holding Asset XYZ. Three months from now, Asset XYZ must be delivered to settle the futures contract, and the loan must be repaid. This strategy produces an outcome as follows:
 
@@ -181,31 +105,31 @@ According to the arbitrage arguments we have just presented, we see that the equ
 
 1. The price of the asset in the cash market.
  2. The cash yield earned on the asset until the settlement date. In our example, the cash yield on Asset XYZ is $3 on a $100 investment or 3\% quarterly (12\% annual cash yield).
-3. The financing cost, which is the interest rate for borrowing and lending until the settlement date. In our example, the financing cost is  $2\%$  for the three months.
+3. The financing cost, which is the interest rate for borrowing and lending until the settlement date. In our example, the financing cost is $2\%$ for the three months.
 
 To develop a theory of futures pricing, we will use the following notation:
 
 $$
-F = \text{Fu tu re sp ri ce} (\mathbb {S})
+F = \text{Future price} (\mathbb{S})
 $$
 
 $$
-P = \text{Ca sh ma rk et pr ic e} (\mathbb {S})
+P = \text{Cash market price} (\$)
 $$
 
-$$ r = \text{Financingcost} (\%)
+$$ r = \text{Financing cost} (\%)
 $$
 
-$$ y = \text{Cashyield} (\%)
+$$ y = \text{Cash yield} (\%)
 $$
 
 Now, consider the cash and carry trade:
 
-Sell (or take a short position in) the futures contract at  $F$ .
+Sell (or take a short position in) the futures contract at $F$.
 
-Purchase Asset XYZ for  $P$
+Purchase Asset XYZ for $P$
 
-Borrow  $P$  at a rate of  $r$  until the settlement date.
+Borrow $P$ at a rate of $r$ until the settlement date.
 
 The outcome at the settlement date would be:
 
@@ -258,13 +182,13 @@ $$
 It is instructive to apply this equation to our previous example to determine the theoretical futures price. In that example, the key variables have these values:
 
 $$
-\begin{array}{l} r = 0. 0 2 \\ y = 0. 0 3 \\ P = \$ 100 \\ \end{array}
+\begin{array}{l} r = 0.02 \\ y = 0.03 \\ P = \$100 \\ \end{array}
 $$
 
 Then the theoretical futures price is
 
 $$
-\begin{array}{l} F = \$ 100 - \$ 100 (0. 0 3 - 0. 0 2) \\ = \$ 1 0 0 - \$ 1 = \$ 9 9. \\ \end{array}
+\begin{array}{l} F = \$100 - \$100 (0.03 - 0.02) \\ = \$100 - \$1 = \$99. \\ \end{array}
 $$
 
 This agrees with the equilibrium futures price we proposed earlier.
@@ -291,10 +215,10 @@ It is important to note that, in the absence of initial and variation margins, t
 
 When deriving the theoretical futures price, we assumed that the investor's borrowing and lending rates are equal. Typically, however, the borrowing rate is higher than the lending rate. The impact of this inequality is important and easy to identify. We begin by adopting these symbols for the two rates:
 
-$$ r_{B} = \text{Bo rr ow in gr at e},
+$$ r_{B} = \text{Borrowing rate},
 $$
 
-$$ r_{L} = \text{Le nd in gr at e}.
+$$ r_{L} = \text{Lending rate}.
 $$
 
 Now, consider the cash and carry trade:
@@ -343,7 +267,7 @@ Thus, equilibrium is achieved if the futures price takes on any value between th
 
 When deriving the theoretical futures price, we ignored transaction costs of the elements in the arbitrage strategies. In reality, the costs of entering into and closing the cash position as well as round-trip transaction costs for the futures contract do affect the futures price. It is easy to show, as we did previously for borrowing and lending rates, that transaction costs widen the boundaries for the equilibrium futures price. The details need not concern us here.
 
-# Short Selling
+### Short Selling
 
 In the strategy involving short selling of Asset XYZ when the futures price is below its theoretical value, we explicitly assumed in the reverse cash and carry trade that the proceeds from the short sale are received and reinvested. In practice, for individual investors, the proceeds are not received, and, in fact, the individual investor is required to put up margin (securities margin, not futures margin) to short sell. For institutional investors, the asset may be borrowed, but there is a cost to borrowing. This cost of borrowing can be incorporated into the model by reducing the yield on the asset.
 
@@ -357,7 +281,7 @@ The Deliverable Is a Basket of Securities
 
 Some futures contracts involve a single asset, but other contracts apply to a basket of assets or an index. Stock index futures and municipal bond index futures contracts are examples. The problem in arbitrating these two futures contracts is that it is too expensive to buy or sell every security included in the index. Instead, a portfolio containing a smaller number of assets may be constructed to track the index (which means having price movements that are very similar to changes in the index). Nonetheless, arbitrage based on this tracking portfolio is no longer risk-free, because of the risk that the portfolio will not track the index exactly. Clearly, then, the actual price of futures based on baskets of assets may diverge from the theoretical price because of transactions costs as well as uncertainty about the outcome of the arbitrage.
 
-# Different Tax Treatment of Cash and Futures Transactions
+### Different Tax Treatment of Cash and Futures Transactions
 
 The basic arbitrage model presented in this chapter ignores not only taxes but also different tax treatment of cash market transactions and futures transactions. Obviously, these factors can keep the actual futures price from being equal to the theoretical price.
 
@@ -365,11 +289,11 @@ The basic arbitrage model presented in this chapter ignores not only taxes but a
 
 The theoretical price of an option is also derived from arbitrage arguments. However, the pricing of options is not as simple as the pricing of futures contracts.
 
-# Basic Components of the Option Price
+### Basic Components of the Option Price
 
 The option price is the sum of the option's intrinsic value and a premium over intrinsic value that is often referred to as the "time value" or "time premium." Although the former term is more common, we will use the term time premium to avoid confusion between the time value of money and the time value of the option.
 
-# Intrinsic Value
+#### Intrinsic Value
 
 The intrinsic value of an option at any time is its economic value if it is exercised immediately. If no positive economic value would result from exercising immediately, the intrinsic value is zero.
 
@@ -379,7 +303,7 @@ When an option has intrinsic value, it is said to be in the money. When the stri
 
 For a put option, the intrinsic value is equal to the amount by which the current asset price is below the strike price. For example, if the strike price of a put option is \$100, and the current asset price is \$92, the intrinsic value is \$8. That is, the buyer of the put option who simultaneously buys the underlying asset and exercises the put option will net \$8 by exercising. The asset will be sold to the writer for \$100 and purchased in the market for \$92. For our put option with a strike price of \$100, the option would be: (1) in the money when the current asset price is less than \$100, (2) out of the money when the current asset price exceeds \$100, and (3) at the money when the current asset price is equal to \$100.
 
-# Time Premium
+#### Time Premium
 
 The time premium of an option is the amount by which the option's market price exceeds its intrinsic value. The option buyer hopes that, at some time prior to expiration, changes in the market price of the underlying asset will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of \$100 is \$9 when the current asset price is \$105, then the time premium of this option is \$4 (9 minus its intrinsic value of \$5). Had the current asset price been \$90 instead of \$105, then the time premium of this option would be the entire \$9, because the option has no intrinsic value. Clearly, other things being equal, the time premium of an option will increase with the amount of time remaining to expiration.
 
@@ -451,7 +375,7 @@ Table 35.2 Summary of factors that affect the price of an option.
 
 The option price will change as the price of the underlying asset changes. For a call option, as the price of the underlying asset increases (all other factors constant), the option price increases. The opposite holds for a put option: As the price of the underlying asset increases, the price of a put option decreases.
 
-# Strike Price
+#### Strike Price
 
 The strike price is fixed for the life of the option. All other factors equal, the lower the strike price is, the higher will be the price for a call option. For put options, the higher the exercise price is, the higher will be the option price. Table 35.3 shows this for the price of Apple Inc. (APPL) call and put options on August 15, 2016, expiring on March 17, 2017. Option prices shown in this way are referred to as an "option chain." On August 15, 2016, the closing price for Apple Inc. (traded on the Nasdaq) was 109.48.
 
@@ -463,7 +387,7 @@ Source: Prices obtained from Nasdaq.
 
 Note: Last Sale is the most recent trade. Open Interest is the total number of derivatives contracts traded that have not yet been liquidated either by an offsetting derivative transaction or by delivery.
 
-# Time to Expiration of the Option
+#### Time to Expiration of the Option
 
 An option is a wasting asset. That is, after the expiration date, the option has no value. All other factors equal, the longer the time to expiration of the option is, the higher the option price will be. This is because, as the time to expiration decreases, less time remains for the underlying asset's price to rise (for a call buyer) or fall (for a put buyer), and therefore the probability of a favorable price movement decreases. Consequently, for American options, as the time remaining until expiration decreases, the option price approaches its intrinsic value.
 
@@ -543,11 +467,11 @@ $H =$  hedge ratio (that is, the amount of the asset purchased per call sold).
 
 In our illustration,  $u$  and  $d$  are
 
-$$ u = 1. 2 5 0 (\$ 1 0 0 / \$ 8 0),
+$$ u = 1.250 (\$100 / \$80),
 
 $$
 
-$$ d = 0. 8 7 5 (\$ 7 0 / \$ 8 0),
+$$ d = 0.875 (\$70 / \$80),
 $$
 
 Furthermore, State 1 in our illustration means that the asset's price goes up, and State 2 means that the asset's price goes down.
@@ -568,7 +492,7 @@ In our illustration, we have these payoffs:
 
 If the asset's price goes up: 1.250H \$80 - C_u, or \$100H - C_u;
 
-If the asset's price falls: 0.875 H \$80 - C_d, or \$70H - C_d.
+If the asset's price falls: 0.875H \$80 - C_d, or \$70H - C_d.
 
 If the hedge is riskless, the payoffs must be the same. Thus,
 
@@ -581,22 +505,22 @@ $$
 H = \frac{C_{u} - C_{d}}{(u - d) S}. \tag {35.2}
 $$
 
-To determine the value of the hedge ratio  $H$ , we must know  $Cu$  and  $Cd$ . These two values are equal to the difference between the price of the asset and the strike price in the two possible states. Of course, the minimum value of the call option in any state is zero. Mathematically, the differences can be expressed as follows:
+To determine the value of the hedge ratio  $H$ , we must know  $C_u$  and  $C_d$ . These two values are equal to the difference between the price of the asset and the strike price in the two possible states. Of course, the minimum value of the call option in any state is zero. Mathematically, the differences can be expressed as follows:
 
 If the asset's price goes up:  $C_u = \operatorname{Max}[0, (uS - E)]$ ;
 
 If the asset's price goes down:  $C_d = \max [0, (dS - E)]$ .
 
-As the strike price in our illustration is  \$80, the value of uS is\$ 100, and the value of dS is 70. Then,
+As the strike price in our illustration is  \$80, the value of uS is \$100, and the value of dS is 70. Then,
 
-If the asset's price goes up:  $C_u = \text{Max} [0, ($ 100 - $80)] = $20;
+If the asset's price goes up:  $C_u = \text{Max} [0, (\$100 - \$80)] = \$20;
 
-If the asset's price goes down:  $C_d = \text{Max} [0, ($ 70 - $80)] = $0.
+If the asset's price goes down:  $C_d = \text{Max} [0, (\$70 - \$80)] = \$0.
 
 To continue with our illustration, we substitute the values of  $u, d, S, C_u,$  and  $C_d$  into equation (35.2) to obtain the hedge ratio's value:
 
 $$
-H = \frac{\mathbb {S} 20 - \mathbb {S} 0}{(1 . 2 5 - 0 . 8 7 5) \mathbb {S} 8 0} =
+H = \frac{20 - 0}{(1.25 - 0.875) \times 80} =
 $$
 
 This value for  $H$  agrees with the amount of the asset purchased when we introduced this illustration.
@@ -671,7 +595,7 @@ $$
 The approach we present for pricing options may seem oversimplified, given that we assume only two possible future states for the price of the underlying asset. In fact, we can extend the procedure by making the period shorter and shorter, and in that way calculate a fair value for an option. Note that extended and comprehensive versions of the binomial pricing model are in wide use throughout the world of finance. Moreover, the other popular option pricing model, the Black-Scholes model mentioned earlier, is in reality the mathematical equivalent of the binomial approach as the periods become very short. Thus, the approach we have described in detail here provides the conceptual framework for much of the analysis of option prices that today's financial market participants regularly perform.
 
 
-# Fixed-Income Option Pricing Models
+### Fixed-Income Option Pricing Models
 
 Because of the assumptions required for the binomial model described above, such models may have limited applicability to the pricing of options on fixed-income securities. More specifically, the binomial model assumes that (1) the price of the security can take on any positive value with some probability—no matter how small, (2) the short-term interest rate is constant over the life of the option, and (3) the volatility of the price of the security is constant over the life of the option.
 
@@ -707,109 +631,5 @@ The most elaborate models that take the yield curve into consideration, and as a
 - The theoretical option price can be calculated with the binomial option pricing model, which also employs arbitrage arguments.
 - Application of the binomial model to the pricing of options on fixed-income securities poses problems because of the model's underlying assumptions.
 
-## Questions
 
-1. Models for pricing futures and options are said to be based on arbitrage arguments.
-
-a. What does arbitrage mean?
-b. What is the investor's incentive to engage in arbitrage?
-2. Suppose that financial Asset ABC is the underlying asset for a futures contract with settlement six months from now. You know the following about this financial asset and the futures contract:
- (i) In the cash market, ABC is selling for 80.
- (ii) ABC pays \$8 per year in two semiannual payments of \$4, and the next semiannual payment is due exactly six months from now.
-(iii) The current six-month interest rate at which funds can be loaned or borrowed is  $6\%$ .
-
-a. What is the theoretical (or equilibrium) futures price?
-b. What action would you take if the futures price is 83?
- c. What action would you take if the futures price is 76?
-d. Suppose that ABC pays interest quarterly instead of semiannually. If you know that you can reinvest any funds you receive three months from now at  $1\%$  for three months, what would be the theoretical futures price for six-month settlement?
-
-e. Suppose that the borrowing rate and lending rate are not equal. Instead, suppose that the current six-month borrowing rate is  $8\%$  and the six-month lending rate is  $6\%$ . What are the boundaries for the theoretical futures price?
-3. a. Explain why restrictions on short selling of stocks would cause the actual price of a stock index futures contract to diverge from its theoretical price.
-b. Explain why creating a portfolio of stocks in which the number of stocks is less than the number of stocks in the index underlying a stock index futures contract would result in an arbitrage that is not riskless.
-4. Why do the delivery options in a Treasury bond futures contract cause the actual futures price to diverge from its theoretical price?
-5. “Of course, the futures are more expensive than the cash price—there’s positive carry.” Do you agree with this statement? Explain your answer.
-6. Consider the following call option with three months to expiration:
-
-Strike price = 72,
-
-Current price of underlying assets = \ 87
-
-Market price of option = \ 6 a. What is the intrinsic value for this call option?
-
-b. What is the time premium for this call option?
-
-7. Suppose the option in the previous question is a put option rather than a call option.
-
-a. What is the intrinsic value for this put option?
-b. What is the time premium for this put option?
- 8. You obtain the following price quotes for call options on Asset ABC. It is now December, with the near contract maturing in one month's time. Asset ABC's price is currently trading at 50.
-
-<table><tr><td>Strike Price ($)</td><td>March Quote ($)</td><td>January Quote ($)</td><td>June Quote ($)</td></tr><tr><td>40</td><td>11</td><td>12</td><td>11.50</td></tr><tr><td>50</td><td>6</td><td>7</td><td>8.50</td></tr><tr><td>60</td><td>7</td><td>8</td><td>9.00</td></tr></table>
-
-Glancing at the figures, you note that two of these quotes seem to violate some of the rules you learned regarding options pricing.
-
-a. What are these discrepancies?
-
-b. How could you take advantage of the discrepancies? What is the minimum profit you would realize by arbitrating based on these discrepancies?
-
-9. Explain why you agree or disagree with the following statements: a. "To determine the theoretical value of an option, we will need some measure of the price volatility of the underlying asset. Because financial theorists tell us that the appropriate measure of risk is beta (that is, systematic risk), then we should use this value."
-
-
-b. "If the expected price volatility of an option increases, the theoretical value of an option decreases."
-
-c. "It does not make sense that the price of a call option should rise in value if the price of the underlying asset falls."
-
-10. Consider two options with the same expiration date and for the same underlying asset. The two options differ only in the strike price. Option 1's strike price is greater than that of Option 2.
-
-a. If the two options are call options, which option will have a higher price?
-
-b. If the two options are put options, which option will have a higher price?
-
-11. Consider two options with the same strike price and for the same underlying asset. The two options differ only with respect to the time to expiration. Option A expires in three months, and Option B expires in six months.
-
-a. If the two options are call options, which option will have the higher intrinsic value (assuming the options are in the money)?
-
-b. If the two options are call options, which option will have a higher time premium?
-
-c. Would your answers to (a) and (b) be different if the option is a put rather than a call?
-
-12. In an option pricing model, what statistical measure is used as a measure of the price volatility of the underlying asset?
-
-13. For an asset that does not make cash distributions over the life of an option, it does not pay to exercise a call option prior to the expiration date. Why?
-
-14. Consider two strategies:
-
-Strategy 1: Purchase one unit of Asset M currently selling for  \$103. A distribution of\$ 10 is expected one year from now.
-
-Strategy 2: (a) Purchase a call option on Asset M with an expiration date one year from now and a strike price of 100; and (b) place sufficient funds in a 10 \%interest- bearing bank account to exercise the option at expiration (100) and to pay the cash distribution that would be paid by Asset M (10).
-
-a. What is the investment required under Strategy 2?
-b. Give the payoffs of Strategy 1 and Strategy 2, assuming that the price of Asset M one year from now is
-
-(i) 120,
-(ii) 103,
-(iii) 100,
-(iv) 80.
-
-c. For the four prices of Asset M one year from now listed in part (b), demonstrate that the following relationship holds: Call option price  $\geq$  Max [0, (Price of underlying asset - Present value of strike price - resent value of cash distribution)].
-
-15. What is meant by a hedge ratio in developing an option pricing model?
-16. a. Calculate the option value for a two-period European call option with the following terms:
-
-Current price of underlying asset = \ 100
-
-Strike price = 10,
-
-One-period, risk-free rate  $= 5\%$ .
-
-The stock price can either go up or down by  $10\%$  at the end of one period.
-
-b. Recalculate the value for the option when the stock price can move either up or down by  $50\%$  at the end of one period. Compare your answer with the calculated value in part (a).
-
-# 17. What is the problem with applying the binomial pricing model to the pricing of options on fixed-income securities?
-
-1. Consider the first strategy (cash and carry trade), which had these elements: Technically, a short seller may not be entitled to the full use of the proceeds resulting from the sale. We will discuss this later in this section.
-2. Fischer Black and Myron Scholes, "The Pricing of Corporate Liabilities," Journal of Political Economy 81 (1973): 637-659.
-3. John C. Cox, Stephen A. Ross, and Mark Rubinstein, "Option Pricing: A Simplified Approach," Journal of Financial Economics 7 (1979): 229-263; Richard J. Rendleman and Brit J. Bartter, "Two-State Option Pricing," Journal of Finance 34 (1979): 1093-1110; William F. Sharpe, Investments (Englewood Cliffs, NJ: Prentice Hall, 1981), chapter 16.
-4. For a discussion of yield curve or arbitrage-free option pricing models, see Mark Pitts and Frank J. Fabozzi, Interest Rate Futures and Options (Chicago: Probus Publishing, 1989), chapter 9.
 

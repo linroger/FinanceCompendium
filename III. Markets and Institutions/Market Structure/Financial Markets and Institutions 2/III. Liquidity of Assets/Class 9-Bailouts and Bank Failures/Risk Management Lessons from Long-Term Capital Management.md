@@ -25,7 +25,7 @@ cssclasses: academia
 
 Philippe Jorion
 
-Current version: January 2000  
+Current version: January 2000
 Published in: European Financial Management 6 (September 2000): 277-300.
 
 This paper has won the Best Paper Award for 2000 in the EFM Journal.
@@ -47,8 +47,6 @@ Irvine, CA 92697-3125,
 E-mail: pjorion@uci.edu
 
 $\langle \widehat{\mathbb{C}}\rangle$  2000 P. Jorion
-
-## Risk Management Lessons from Long-Term Capital Management
 
 ## ABSTRACT
 
@@ -76,7 +74,9 @@ This paper is structured as follows. Section 1 first presents an overview of the
 
 This application, however, is fraught with danger. VAR has been primarily developed to measure and control risks. Optimizing a portfolio risk/return profile and using the resulting VAR
 
-VAR to measure risk leads to serious optimization biases, which are illustrated in Section 4. Section 5 also shows that the nature of the bets taken by LTCM was singularly unidirectional. Finally, the last section provides some concluding comments.
+VAR to measure risk leads to serious optimization biases, which are illustrated in Section 4.
+
+Section 5 also shows that the nature of the bets taken by LTCM was singularly unidirectional. Finally, the last section provides some concluding comments.
 
 ## 1 How LTCM Lost its Capital
 
@@ -90,9 +90,7 @@ Meriwether took with him a group of traders and academics, who had been part of 
 
 A hedge fund is a private investment partnership fund that can take long and short positions in various markets and is accessible only to large investors. As such, hedge funds are not regulated by the SEC. Of course, the term "hedge" is somewhat of a misnomer, if not misleading, since these investment vehicles are leveraged and can be quite risky.
 
-The core strategy of LTCM can be described as "relative-value", or "convergence-arbitrage" trades, trying to take advantage of small differences in prices among closely related securities. Compare, for instance, an off-the-run Treasury bond yielding  $6.1\%$  versus  $6.0\%$  for the more recently issued on-the-run. The yield spread represents some compensation for liquidity risk. Over a year, a trade that is long the off-the-run and short the on-the-run would be expected to return 10bp for every dollar invested. The key is that eventually the two bonds must converge to the same value. This strategy was used in a variety of markets,
-
-long swap-government spreads, long mortgage-backed securities versus short government, long high-yielding versus short low-yielding European bonds, Japanese convertible bond arbitrage, equity pairs (stocks with different share classes) and so on. The firm also dabbled in non-arbitrage strategies, such as short positions in equity options, bets on takeover stocks, emerging market debt, and even catastrophe bonds.<sup>5</sup> Most of the time, these trades should be profitable—barring default or market disruption.
+The core strategy of LTCM can be described as "relative-value", or "convergence-arbitrage" trades, trying to take advantage of small differences in prices among closely related securities. Compare, for instance, an off-the-run Treasury bond yielding  $6.1\%$  versus  $6.0\%$  for the more recently issued on-the-run. The yield spread represents some compensation for liquidity risk. Over a year, a trade that is long the off-the-run and short the on-the-run would be expected to return 10bp for every dollar invested. The key is that eventually the two bonds must converge to the same value. This strategy was used in a variety of markets, long swap-government spreads, long mortgage-backed securities versus short government, long high-yielding versus short low-yielding European bonds, Japanese convertible bond arbitrage, equity pairs (stocks with different share classes) and so on. The firm also dabbled in non-arbitrage strategies, such as short positions in equity options, bets on takeover stocks, emerging market debt, and even catastrophe bonds.<sup>5</sup> Most of the time, these trades should be profitable—barring default or market disruption.
 
 The problem with such strategies is that they generate tiny profits, so that leverage has to be used to create attractive returns. To control risk, the target ceiling risk level was set to the volatility of an unleveraged position in U.S. equities (and the fund was advertised to investors as such). In essence, positions were obtained by an optimization with a constraint on volatility (with presumably some additional constraints such as the liquidity and concentration of positions). Thus, leverage had to be quite large, unusually so, as LTCM ended up with four times the asset size of the next largest hedge fund.
 
@@ -101,6 +99,60 @@ Initially, the new venture was eminently profitable. Capital grew from  \$1 bill
 Much has been said about LTCM's positions in the press. LTCM's balance sheet was about \$125 billion. This represents the total assets of the fund, most of it borrowed.6 Compared to equity of about \$5 billion only, this represents an astonishing leverage ratio of 25-to-1.
 
 Even more astonishing was the off-balance-sheet position, including swaps, options, and other derivatives, that added up to a notional principal amount of \$1.25 trillion.<sup>7</sup> Many of these trades, however, were offsetting each other, so that this notional amount is practically meaningless. What mattered was the total risk of the fund.
+
+```d2
+direction: right
+
+LTCM Leverage Structure {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+
+  equity: Equity Capital {
+    shape: rectangle
+    label: "$5B Equity"
+    style.fill: "#4caf50"
+    style.stroke: "#2e7d32"
+  }
+
+  assets: Total Assets {
+    shape: rectangle
+    label: "$125B Assets"
+    style.fill: "#2196f3"
+    style.stroke: "#0d47a1"
+  }
+
+  derivatives: Derivatives Exposure {
+    shape: rectangle
+    label: "$1.25T Notional"
+    style.fill: "#ff9800"
+    style.stroke: "#e65100"
+  }
+
+  leverage_ratio: Leverage Ratio {
+    shape: diamond
+    label: "25:1 Ratio"
+    style.fill: "#f44336"
+    style.stroke: "#b71c1c"
+  }
+
+  equity -> assets: "Supports" {
+    style.stroke: "#4caf50"
+    style.stroke-width: 3
+  }
+
+  assets -> derivatives: "Plus" {
+    style.stroke: "#ff9800"
+    style.stroke-dash: 5
+  }
+
+  assets -> leverage_ratio: "Creates" {
+    style.stroke: "#f44336"
+  }
+}
+
+Note: LTCM's extreme leverage amplified both returns and risks
+```
 
 LTCM was able to leverage its balance sheet through sale-repurchase agreements (repos) with commercial and investment banks. Under "repo" agreements, the fund sold some of its assets in exchange for cash and a promise to repurchase them back at a fixed price on some future date. Normally, brokers require collateral that is worth slightly more than the cash
 
@@ -175,6 +227,79 @@ This explains why the Basle Committee has chosen a high confidence level of  $99
 For LTCM, the choice of the horizon is more delicate than the 10-day period required the Basle Committee. Commercial banks are closely supervised by their regulator, who can step in at the first sign of trouble. Thus the 10-day period can be interpreted as the normal reaction time should a commercial bank run into difficulties. For a hedge fund, the horizon
 
 should correspond to the period required to raise additional funds. This may be no easy matter, as additional capital will be needed precisely after the fund has suffered a large loss.
+
+```d2
+direction: down
+
+VAR Framework {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#e65100"
+
+  definition: VAR Definition {
+    shape: rectangle
+    label: "Worst loss under normal conditions\nover specified horizon at confidence level"
+    style.fill: "#4caf50"
+    style.stroke: "#2e7d32"
+  }
+
+  parameters: Key Parameters {
+    shape: rectangle
+    style.fill: "#2196f3"
+    style.stroke: "#0d47a1"
+
+    confidence: Confidence Level {
+      label: "99% (Basle)\nProbability of exceeding VAR is very low"
+    }
+
+    horizon: Time Horizon {
+      label: "10 days (Banks)\nLonger for hedge funds"
+    }
+  }
+
+  applications: Applications {
+    shape: rectangle
+    style.fill: "#ff9800"
+    style.stroke: "#e65100"
+
+    communication: Risk Communication {
+      label: "Report/compare risk to stakeholders"
+    }
+
+    control: Risk Control {
+      label: "Benchmark across business units"
+    }
+
+    capital: Capital Adequacy {
+      label: "Determine equity capital requirements"
+    }
+  }
+
+  limitations: LTCM Issues {
+    shape: rectangle
+    style.fill: "#f44336"
+    style.stroke: "#b71c1c"
+
+    history: Short History {
+      label: "Reliance on recent data"
+    }
+
+    optimization: Same Data Bias {
+      label: "Using same covariance for optimization and risk measurement"
+    }
+
+    tails: Fat Tails {
+      label: "Extreme events beyond normal distribution"
+    }
+  }
+
+  definition -> parameters: "Depends on"
+  parameters -> applications: "Enables"
+  applications -> limitations: "But faces"
+}
+
+Note: VAR provides framework for risk management but requires careful parameter selection and awareness of limitations
+```
 
 Indeed, by the end of August, LTCM had  \$2.3 billion of equity capital and\$ 1 billion excess liquidity. The firm could either reduce risk or raise fresh capital. Due to the enormous size of its positions, it could not cut its risk exposure fast enough. Similarly, it was unable to attract new investors. As the markets continued to slide in September, it became clear that the firm had grossly underestimated its capital needs.
 

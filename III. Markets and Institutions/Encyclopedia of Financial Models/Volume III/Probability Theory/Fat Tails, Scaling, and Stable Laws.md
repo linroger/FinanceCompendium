@@ -1,23 +1,29 @@
 ---
-title: Fat Tails, Scaling, and Stable Laws
-parent_directory: Probability Theory
-formatted: 2025-12-21 07:15:25 PM
-formatter_model: claude-sonnet-4
-cli_tool: opencode
+title: "Fat Tails, Scaling, and Stable Laws"
+parent_directory: "Probability Theory"
+formatted: "2025-12-21 11:08:00 AM"
+formatter_model: "claude-sonnet-4"
+cli_tool: "claude-code"
 primary_tags:
   - fat tailed distributions
   - stable distributions
   - extreme value theory
-  - power law distributions
-  - scaling laws
-  - self similarity
 secondary_tags:
-  - heavy tailed processes
-  - levy stable distributions
+  - power law distributions
+  - central limit theorem
+  - maximum domain of attraction
   - subexponential distributions
-  - tail index estimation
+  - point process exceedances
   - hill estimator
   - pickands estimator
+  - arch garch processes
+  - heavy tailed arma
+  - subordinated processes
+  - markov switching models
+  - self similar processes
+  - scaling laws finance
+cssclasses: academia
+---
   - maximum domain attraction
   - garch processes
   - subordinated processes
@@ -256,7 +262,7 @@ $$
 $$ where  $G$  are stable distributions as defined below. Note that the case  $\alpha = 2$  is somewhat special: variables with this tail index have infinite variance but fall nevertheless in the domain of attraction of a normal variable, that is,  $G_{2}$ . Below the threshold 1, distributions have neither finite variance nor finite mean. There is a sharp change in the normalization behavior at this tail-index threshold.
 
 
-# Stable Distributions
+## Stable Distributions
 
 Stable distributions are not, in their generality, a subset of fat-tailed distributions as they include the normal distribution. There are different, equivalent ways to define stable distributions. Let's begin with a key property: the equality in distribution between a random variable and the (normalized) independent sum of any number of identical replicas of the same variable. This is a different property than the closure property of the tail insofar as (1) it involves not only the tail but the entire distribution and (2) equality in distribution means that distributions have the same functional form but, possibly, with different parameters. Normal distributions have this property: The sum of two or more normally distributed variables is again a normally distributed variable. But this property holds for a more general class of distributions called stable distributions or Levy-stable distributions.5 Normal distributions are thus a special type of stable distributions.
 
@@ -291,11 +297,11 @@ Even if stable distributions cannot be written as simple formulas, the asymptoti
 For stable distributions, the CLT holds in the same form as for inverse power-law distributions. In addition, the functions in the domain of attraction of a stable law of index  $\alpha < 2$  are characterized by the same tail index. This means that a distribution  $G$  belongs to the domain of attraction of a stable law of parameter  $\alpha < 2$  if and only if its tail decays as  $\alpha$ . In particular, Pareto's law belongs to the domain of attraction of stable laws of the same tail index.
 
 
-# Extreme Value Theory for IID Processes
+## Extreme Value Theory for IID Processes
 
 In this section we introduce a number of important probabilistic concepts that form the conceptual basis of extreme value theory (EVT). The objective of EVT is to estimate the entire tail of a distribution from a finite sample by fitting to an appropriate distribution those values of the sample that fall in the tail. Two concepts play a crucial role in EVT: (1) the behavior of the upper order statistics (i.e., the largest  $k$  values in a sample) and, in particular, of the sample maxima; and (2) the behavior of the points where samples exceed a given threshold. We will explore the limit distributions of maxima and the distribution of the points of exceedances of a high threshold. Based on these concepts a number of estimators of the tail index in sequences of independent and identically distributed (IID) variables are presented.
 
-# Maxima
+## Maxima
 
 In the previous sections we explored the behavior of sums. The key result of the theory of sums is that the behavior of sums simplifies in the limit of properly scaled and centered infinite sums regardless of the shape of individual summands. If sums converge, their limit distributions can only be stable distributions. In addition, the normalized sums of finite-mean, finite-variance variables always converge to a normal variable.
 
@@ -380,9 +386,9 @@ Let's first define the quantile function. Given a distribution function  $F$ , t
 
 $$
 F^{\leftarrow} (x) = \inf  [ s \in R: F (s) \geq x ], 0 <   x <   1
-$$
+ $$
 
-# The MDA of the Frechet Distribution
+ ## The MDA of the Frechet Distribution
 
 The Frechet distribution is written as  $\Phi_{\alpha}(x) = \exp (-x^{-\alpha})$ . Let's start by observing that the tail of the Frechet distribution decays as an inverse power law. In fact, we can write  $1 - \Phi_{\alpha}(x) = 1 - \exp (-x^{-\alpha}) \approx x^{-\alpha}$  for  $x \to \infty$ .
 
@@ -399,7 +405,7 @@ $$
 
 From the above definitions it can be demonstrated that the following five distributions belong to the MDA of the Frechet distribution: (1) Pareto; (2) Cauchy; (3) Burr; (4) stable laws with exponent  $\alpha < 2$ ; or (5) log-gamma distribution.
 
-# The MDA of the Weibull Distribution
+## The MDA of the Weibull Distribution
 
 The Weibull distribution is written as follows:
 
@@ -436,14 +442,14 @@ $$
 
 The MDA of the Weibull distribution includes important distributions such as the distribution uniform in (0,1), power laws truncated to the right, and beta distributions.
 
-# The MDA of the Gumbel Distribution
+## The MDA of the Gumbel Distribution
 
 The Gumbel distribution is written as  $\Lambda(x) = \exp[-\exp(-x)]$ . Observe that the Gumbel distribution has exponential tails. This fact can be easily ascertained through Taylor expansion. There is no simple characterization of the MDA of the Gumbel distribution.
 
 The MDA of a Gumbel distribution encompasses a large class of distributions that includes the exponential distribution, the normal distribution, and the lognormal distribution. Though the Gumbel distribution has exponential tails, its MDA includes subexponential distributions such as the Berktander distribution, as explained in Goldie and Resnick (1988).
 
 
-# Max-Stable Distributions
+## Max-Stable Distributions
 
 Stable distributions remain unchanged after summation; max-stable distributions remain unchanged after taking maxima. A nondegenerate random variable  $X$  and the relative distribution is called max-stable if there are constants  $c_{n} > 0$ ,  $d_{n} \in R$  such that the following conditions are satisfied
 
@@ -454,7 +460,7 @@ $$ where  $X, X_1, \ldots, X_n$  are IID variables.
 
 It can be demonstrated that the class of max-stable distributions coincides with the class of possible limit laws for normalized and centered maxima. In view of the previous discussions, the max-stable laws are the three possible limit laws: Frechet, Weibull, and Gumbel.
 
-# Generalized Extreme Value Distributions
+## Generalized Extreme Value Distributions
 
 The three extreme value distributions, Frechet, Weibull, and Gumbel, can be represented as a one-parameter family of distributions through the standard generalized extreme value distribution (GEV) of Jenkinson and Von Mises. Define the distribution function  $H_{\xi}$  as follows:
 
@@ -463,7 +469,7 @@ H_{\xi} = \left\{ \begin{array}{l l} \exp [ - (1 + \xi x)^{- 1 / \xi} ] & \text{
 $$ where  $1 + \xi x > 0$ . One can see from the definition that  $\xi = \alpha^{-1} > 0$  corresponds to the Frechet distribution,  $\xi = 0$  corresponds to the Gumbel distribution, and  $\xi = -\alpha^{-1} < 0$  corresponds to the Weibull distribution. We can now introduce the related location-scale dependent family  $H_{\xi ;\mu ,\psi}$  by replacing the argument  $x$  with  $(x - \mu) / \psi$ .
 
 
-# Order Statistics
+## Order Statistics
 
 The behavior of order statistics is a useful tool for characterizing fat-tailed distributions. For instance, the famous Zipf's law is an example of the behavior of order statistics. Consider a sample  $X_{1},\ldots ,X_{n}$  made of  $n$  independent draws from the same distribution  $F$ . Let's arrange the sample in decreasing order:
 
@@ -499,7 +505,7 @@ $$
 It can be demonstrated that the following results hold:
 
 $F\leftarrow (U_1)\stackrel {D}{=}X_1$
-$\cdot (X_{1,n},\ldots ,X_{n,n})\stackrel {D}{=}[F\leftarrow (U_{1,n}),\ldots ,F\leftarrow (U_{n,n})]$
+- $(X_{1,n},\ldots ,X_{n,n})\stackrel {D}{=}[F\leftarrow (U_{1,n}),\ldots ,F\leftarrow (U_{n,n})]$
 - The random variable  $F(X_{1})$  has a uniform distribution on (0,1) if and only if  $F$  is a continuous function.
 
 To appreciate the importance of the quantile transformation, let's introduce first the notion of empirical distribution function and second the Glivenko-Cantelli theorem. The empirical distribution function  $F_{n}$  of a sample  $X_{1},\ldots ,X_{n}$  is defined as follows:
@@ -529,7 +535,7 @@ $$
 \frac{X_{k , n}}{X_{k + 1 , n}} = 1, \frac{k}{n} \rightarrow 0
 $$
 
-# Point process of exceedances or peaks over threshold
+## Point process of exceedances or peaks over threshold
 
 We have now reviewed the behavior of sums, maxima, and upper order statistics of continuous random variables. Yet another approach to EVT is based on point processes; herein we will use point processes only to define the point process of exceedances.
 
@@ -573,7 +579,7 @@ $$
 
 Note that in this case the state space specifies the size of the sample.
 
-# Estimation
+## Estimation
 
 In the previous sections we presented some key topics related to the probability structure of the tails of distributions, be they light- or fat-tailed. Let's now turn to the problem of estimation, which is the key practical task. The problem of estimation for EVT is essentially the problem of estimating the tail of a distribution from a finite sample. The key statistical idea of EVT from the point of view of estimation is to use only those sample data that belong to the tail and not the entire sample. This notion has to be made precise by finding criteria that allow one to separate the tail from the bulk of the distribution. Therefore, the estimation problem of EVT distribution can be broken down into three separate subproblems:
 
@@ -616,7 +622,7 @@ $$
 $$ where  $L$  is a slowly varying function as described earlier in this entry. For this reason, estimation under this weaker assumption is semiparametric in nature. We will now introduce a number of estimators of the shape parameter  $\xi$ .
 
 
-# The Pickands Estimator
+## The Pickands Estimator
 
 The Pick and estimator  $\hat{\xi}_{k,n}^{(P)}$  for an  $n$ -sample of independent draws from a distribution  $F \in \mathrm{MDA}(H_{\xi})$  is defined as
 
@@ -643,7 +649,7 @@ $$
 
 The Pickand estimator is an estimator of the parameter  $\xi$  that does not require any assumption on the type of limit distribution. Let's now examine the Hill estimator, which requires the prior knowledge that sample data are independent draws from a Frechet distribution. Later in this entry we will see that the assumption of independence can be weakened.
 
-# The Hill Estimator
+## The Hill Estimator
 
 Suppose that  $X_{1},\ldots ,X_{n}$  are independent draws from a distribution  $F\in \mathrm{MDA}(\Phi_{\alpha}),\alpha >0$  so that  $\bar{F} = x^{-\alpha}L(x)$  where  $L$  is a slowly varying function. The Hill estimator can be obtained as an MLE based on the  $k$  upper order statistics. The Hill estimator takes the following form:
 
@@ -675,7 +681,7 @@ The Hill estimator was extended by Dekkers and de Haan (1989) to cover the entir
 The estimation methods reviewed above are based on the behavior of maxima and upper order statistics; another methodology uses the points of exceedances of high thresholds. Estimation methodologies based on the points of exceedances require an appropriate model for the point process of exceedances that was defined in general terms previously in this entry.
 
 
-# Eliminating the assumption of IID sequences
+## Eliminating the assumption of IID sequences
 
 In the previous sections we reviewed a number of mathematical tools that are used to describe fat-tailed processes under the key assumption of IID sequences. In this section we discuss the implications of eliminating this assumption. However, in finance theory the assumption of stationary sequences of independent variables is only a first approximation; it has been challenged in several instances. Consider individual price time series. The autocorrelation function of returns decays exponentially and goes to near zero at very short-time horizons while the autocorrelation function of volatility decays only hyperbolically and remains different from zero for long periods. In addition, if we consider portfolios made of many securities, price processes exhibit patterns of cross correlations at different time-lags and, possibly, cointegrating relationships. These findings offer additional reasons to consider the assumption of serial independence as only a first approximation.
 
@@ -707,7 +713,7 @@ Before doing this, however, let's go back to the question of estimation. As obse
 
 From a practical standpoint, this question is quite important as one wants to estimate the tails even if one does not know exactly what model generated the sequence. Clearly, there is no general answer to this problem. However, the behavior of a number of estimators under different DGPs has been explored through simulation as explained in the following section.
 
-# Heavy-Tailed ARMA Processes
+## Heavy-Tailed ARMA Processes
 
 Let's first consider the infinite moving average representation of a univariate stationary series:
 
@@ -741,7 +747,7 @@ $$
 In the case of fat-tailed innovations, covariances and autocovariances lose their meaning. It can also be demonstrated, however, that the empirical autocorrelation function is meaningful and is asymptotically normal. It can be demonstrated that maximum likelihood estimates can be extended to the infinite variance case, though through a number of ad hoc processes.
 
 
-# ARCH/GARCH Processes
+## ARCH/GARCH Processes
 
 The simplest ARCH model can be written as follows. Suppose that  $X$  is the random variable to be modeled,  $Z$  is a sequence of independent standard normal variables, and  $\sigma$  is a hidden variable. The ARCH(1) model is written as
 
@@ -774,7 +780,7 @@ P (X > x) \approx \frac{c}{2} x^{- 2 \kappa}
 $$ where  $\kappa$  is the solution of an integral equation. In the generic  $p, q$  case, the return process is still fat-tailed but no practical way to compute the index from model parameter is known.
 
 
-# Subordinated Processes
+## Subordinated Processes
 
 Subordinated processes allow the time scale to vary. Subordinated models are, in a sense, the counterpart of stochastic volatility models insofar as they model the change in volatility by contracting and expanding the time scale. The first model was proposed by Clark (1973). Subordinated models have been extensively studied by Ghysels, Gourieroux, and Josiak (1995).
 
