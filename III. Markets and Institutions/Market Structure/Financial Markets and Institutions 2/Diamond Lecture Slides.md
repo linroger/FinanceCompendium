@@ -1,57 +1,61 @@
 ---
+title: The Details of Debt Contracts and Bankruptcy
 parent_directory: Financial Markets and Institutions 2
-title: "1. The Details of Debt Contracts and Bankruptcy"
-tags:
-aliases:
-  - The Details of Debt Contracts and Bankruptcy
-parent_folder: Financial Markets and Institutions
-subfolder:
-key_concepts:
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - debt contracts
+  - bankruptcy
+  - capital structure
+secondary_tags:
+  - debt renegotiation
+  - distressed debt investing
+  - bankruptcy reorganization
+  - securitization structures
+  - liquidity provision
 cssclasses: academia
-linter-yaml-title-alias: "1. The Details of Debt Contracts and Bankruptcy"
 ---
 
-# 1. The details of debt contracts and bankruptcy:.
+# The Details of Debt Contracts and Bankruptcy
 
 - Strategic effects of debt. How much is too much?  
 - Bankruptcy & Reorganization: bargaining and strategy.  
 - Debt contract renegotiation.  
-- Debt exchange offers when bankruptcy is the alternative  
-Distressed Debt Investing (especially during a financial crisis).  
+- Debt exchange offers when bankruptcy is the alternative. Distressed Debt Investing (especially during a financial crisis).
 - Capital structure is more than debt versus equity: it is a choice of source of funds: who holds and enforces the terms of securities that a firm issues.
 
-# 2. How the problems and benefits of DEBT contracts are related to banking.
+## 2. How the Problems and Benefits of Debt Contracts Are Related to Banking
 
 - Banks as the original form of "financial engineering." Pooling and Tranching.
 
-# 3. Securitization Structures
+## 3. Securitization Structures
 
 - The structure of some securitizations and why they are that way.
 
-4. Liquidity (what is it?)
+## 4. Liquidity (What Is It?)
 
-- Liquidity provided by markets  
+- Liquidity provided by markets
 - Liquidity provided by institutions.
 
 How are banks and financial panics related to liquidity?
 
-5. Panics and meltdown (their relation to debt and to liquidity)
+## 5. Panics and Meltdown (Their Relation to Debt and to Liquidity)
 
-- Bank runs (US and other, in history)  
-The Asian Debt Crisis  
-- Long-Term Capital Management (one possible explanation)  
-- Subprime and securitization panic (2007-2008)  
-- Restructuring financial institutions out of bankruptcy (CIT finance company)  
-1980s run on Continental Bank. Similarities to SVB run in 2023.  
-- Runs on Money Market Funds  
+- Bank runs (US and other, in history)
+- The Asian Debt Crisis
+- Long-Term Capital Management (one possible explanation)
+- Subprime and securitization panic (2007-2008)
+- Restructuring financial institutions out of bankruptcy (CIT finance company)
+- 1980s run on Continental Bank. Similarities to SVB run in 2023.
+- Runs on Money Market Funds
 - Runs on Stable Coins (Terra and Luna) in 2022.
 
-6. Bailouts and the role of Government in Crises
+## 6. Bailouts and the Role of Government in Crises
 
-1980s run on Continental Bank. Similarities to SVB run in 2023.  
-
-- Bear Sterns, Lehman Brothers and the Federal Reserve (if time)  
-COVID-19 (if time)
+- 1980s run on Continental Bank. Similarities to SVB run in 2023.
+- Bear Stearns, Lehman Brothers and the Federal Reserve (if time)
+- COVID-19 (if time)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/541ae871df24999597074d70bdcba3317adab9a8c59460f687e6d1662091a2bf.jpg)  
 US versus OECD Countries, external funds  
@@ -101,7 +105,7 @@ F.103 Nonfinancial Corporate Business
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/c4a0875ac7e417c3b906c63795eb893d2e9c73bbea5040293c978978f42e2f26.jpg)
 
-# Introduction to Topic 1: Capital structure and the choice of the sources of funds.
+## Introduction to Topic 1: Capital structure and the choice of the sources of funds.
 
 What are the consequences of capital structure choice? What might change?
 
@@ -122,27 +126,27 @@ Large institutional investors = Financial Intermediaries
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/01436641ce54d1203abfcaa3637a4c1b63a1bdf7d3be33945e83c274cab52f09.jpg)
 
-# 1. No debt
+### 1. No debt
 
 Two projects, the riskier one also has a lower expected return.
 
 Each has only two possible outcomes, one if a depression (D), one if prosperity (P).
 
-The probability of each outcome is  $1 / 2$ .
+The probability of each outcome is $1/2$.
 
-Each project requires an initial outlay of \$800.
+Each project requires an initial outlay of $800.
 
 <table><tr><td>Project</td><td>Value in D</td><td>Value in P</td><td>Expected value</td><td>Expected return</td></tr><tr><td>1</td><td>500</td><td>1500</td><td>1000</td><td>200/800 = 25%</td></tr><tr><td>2</td><td>0</td><td>1551</td><td>775.5</td><td>-24.5/800 = -3.06%</td></tr></table>
 
 An unlevered firm will choose Project 1
 
-# 2. What about a firm with debt with face \$600 in place?
+### 2. What about a firm with debt with face $600 in place?
 
 The fixed payment of \$600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
 
 Equity gets the residual claim in excess of 600, or zero if the firm value is less than 600.
 
-# Contingent cash flows to equity when debt of \$600 is in place
+### Contingent cash flows to equity when debt of $600 is in place
 
 <table><tr><td>Project</td><td>Value if D</td><td>Value if P</td><td>Expected Value</td></tr><tr><td>1</td><td>0</td><td>1500-600 = 900</td><td>450</td></tr><tr><td>2</td><td>0</td><td>1551-600 = 951</td><td>475.5</td></tr></table>
 
@@ -155,33 +159,33 @@ What is the debt capacity of the firm? What is the highest face value, F, that t
 The borrower's equity payoff from Project 1 with debt of face  $\mathbf{F}$  is:
 
 $$
-\frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (5 0 0 - F) = 1 0 0 0 - F
+\frac{1}{2} (1500 - F) + \frac{1}{2} (500 - F) = 1000 - F
 $$
 
 $$
-\frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (0)
+\frac{1}{2} (1500 - F) + \frac{1}{2} (0)
 $$
 
 $$
-0 \mathrm{fo r} F > 1 5 0 0.
+0 \text{for} F > 1500.
 $$
 
 $$
-(\mathrm{fo r} \mathrm{F} \leq 5 0 0)
+(\text{for} F \leq 500)
 $$
 
 $$
-(\mathrm{fo r} F \mathrm{be tw ee n5 00 an d1 50 0}),
+(\text{for} F \text{between} 500 \text{and} 1500),
 $$
 
 The borrower's equity payoff from Project 2 with debt of face F is:
 
 $$
-\frac{1}{2} (1 5 5 1 - F) + \frac{1}{2} (0) \text{fo r} F <   1 5 5 1
+\frac{1}{2} (1551 - F) + \frac{1}{2} (0) \text{for} F < 1551
 $$
 
 $$
-0 \mathrm{fo r} \mathrm{F} > 1 5 5 1.
+0 \text{for} F > 1551.
 $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in prosperity.

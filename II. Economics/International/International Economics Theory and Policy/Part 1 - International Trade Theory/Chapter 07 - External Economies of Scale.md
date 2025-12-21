@@ -1,23 +1,27 @@
 ---
+title: "External Economies of Scale and the International Location of Production"
+parent_directory: "International Economics Theory and Policy"
 primary_tags:
-- reason difference external economies
-- industries characterized economies
-- presence external economies scale
-- scale production numbers advantage
+- external economies scale
+- international trade patterns
+- industrial location theory
+- economies of scale trade
+- comparative advantage dynamics
 secondary_tags:
-- external economies scale trade
-- advantage economies scale countries
-- advantage versus external economies
-- external advantages large firms
-- chapter internal economies theory
-- advantage international trade patterns
-- scale analysis trade
-- trade countries differ resources
-- roles external economies knowledge
-tags_extracted: '2025-12-18T00:51:41.276518'
+- specialized suppliers clustering
+- labor market pooling
+- knowledge spillovers effects
+- forward falling supply
+- historical contingency trade
+- dynamic increasing returns
+- economic geography principles
+- infant industry protection
+- interregional trade forces
+- market structure implications
+cssclasses: academia
 ---
 
-# EXTERNAL ECONOMIES OF SCALE AND THE INTERNATIONAL LOCATION OF PRODUCTION
+# External Economies of Scale and the International Location of Production
 
 In Chapter 3, we pointed out that there are two reasons why countries specialize and trade. First, countries differ either in their resources or in their technology and specialize in the things they do relatively well; second, economies of scale (or increasing returns) make it advantageous for each country to specialize in the production of only a limited range of goods and services. Chapters 3 through 6 considered models in which all trade is based on comparative advantage; that is, differences between countries are the only reason for trade. This chapter introduces the role of economies of scale.
 
@@ -25,7 +29,7 @@ The analysis of trade based on economies of scale presents certain problems that
 
 However, economies of scale need not lead to imperfect competition if they take the form of external economies, which apply at the level of the industry rather than at the level of the individual firm. In this chapter, we will focus on the role of such external economies of scale in trade, reserving the discussion of internal economies for Chapter 8.
 
-# LEARNING GOALS
+## Learning Goals
 
 After reading this chapter, you will be able to:
 
@@ -34,7 +38,7 @@ After reading this chapter, you will be able to:
 - Discuss the sources of external economies.
 - Discuss the roles of external economies and knowledge spillovers in shaping comparative advantage and international trade patterns.
 
-# Economies of Scale and International Trade: An Overview
+## Economies of Scale and International Trade: An Overview
 
 The models of comparative advantage already presented were based on the assumption of constant returns to scale. That is, we assumed that if inputs to an industry were doubled, industry output would double as well. In practice, however, many industries are characterized by economies of scale (also referred to as increasing returns), so that production is more efficient the larger the scale at which it takes place. Where there are economies of scale, doubling the inputs to an industry will more than double the industry's production.
 
@@ -56,7 +60,7 @@ Our example, then, suggests how mutually beneficial trade can arise as a result 
 
 Unfortunately, to go from this suggestive story to an explicit model of trade based on economies of scale is not that simple. The reason is that economies of scale may lead to a market structure other than that of perfect competition, and we need to be careful about analyzing this market structure.
 
-# Economies of Scale and Market Structure
+## Economies of Scale and Market Structure
 
 In the example in Table 7-1, we represented economies of scale by assuming the labor input per unit of production is smaller the more units produced; this implies that at a given wage rate per hour, the average cost of production falls as output rises. We did not say how this production increase was achieved—whether existing firms simply produced more or whether there was instead an increase in the number of firms. To analyze the effects of economies of scale on market structure, however, one must be clear about what kind of production increase is necessary to reduce average cost. External economies of scale occur when the cost per unit depends on the size of the industry but not necessarily on the size of any one firm. Internal economies of scale occur when the cost per unit depends on the size of an individual firm but not necessarily on that of the industry.
 
@@ -70,7 +74,7 @@ perfectly competitive. Internal economies of scale, by contrast, give large firm
 
 Both external and internal economies of scale are important causes of international trade. Because they have different implications for market structure, however, it is difficult to discuss both types of scale economy-based trade in the same model. We will therefore deal with them one at a time. In this chapter, we focus on external economies; in Chapter 8, on internal economies.
 
-# The Theory of External Economies
+## The Theory of External Economies
 
 As we have already pointed out, not all scale economies apply at the level of the individual firm. For a variety of reasons, it is often the case that concentrating production of an industry in one or a few locations reduces the industry's costs even if the individual firms in the industry remain small. When economies of scale apply at the level of the industry rather than at the level of the individual firm, they are called external economies. The analysis of external economies goes back more than a century to the British economist Alfred Marshall, who was struck by the phenomenon of "industrial districts"—geographical concentrations of industry that could not be easily explained by natural resources. In Marshall's time, the most famous examples included such concentrations of industry as the cluster of cutlery manufacturers in Sheffield and the cluster of hosiery firms in Northampton.
 
@@ -78,7 +82,7 @@ There are many modern examples of industries where there seem to be powerful ext
 
 Marshall argued that there are three main reasons why a cluster of firms may be more efficient than an individual firm in isolation: the ability of a cluster to support specialized suppliers, the way that a geographically concentrated industry allows labor market pooling, and the way that a geographically concentrated industry helps foster knowledge spillovers. These same factors continue to be valid today.
 
-# Specialized Suppliers
+### Specialized Suppliers
 
 In many industries, the production of goods and services—and, to an even greater extent, the development of new products—requires the use of specialized equipment or support services; yet an individual company does not provide a large enough market for these services to keep the suppliers in business. A localized industrial cluster can solve this problem by bringing together many firms that collectively provide a large enough market to support a wide range of specialized suppliers. This phenomenon has been extensively documented in Silicon Valley: A 1994 study recounts how, as the local industry grew,
 
@@ -90,7 +94,7 @@ As the quote suggests, the availability of this dense network of specialized sup
 
 A company that tried to enter the industry in another location—for example, in a country that did not have a comparable industrial cluster—would be at an immediate disadvantage because it would lack easy access to Silicon Valley's suppliers and would either have to provide them for itself or be faced with the task of trying to deal with Silicon Valley-based suppliers at long distance.
 
-# Labor Market Pooling
+### Labor Market Pooling
 
 A second source of external economies is the way that a cluster of firms can create a pooled market for workers with highly specialized skills. Such a pooled market is to the advantage of both the producers and the workers, as the producers are less likely to suffer from labor shortages and the workers are less likely to become unemployed.
 
@@ -104,7 +108,7 @@ be offset by high demand from the other. As a result, workers will have a lower 
 
 Again, these advantages have been documented for Silicon Valley, where it is common both for companies to expand rapidly and for workers to change employers. The same study of Silicon Valley that was quoted previously notes that the concentration of firms in a single location makes it easy to switch employers. One engineer is quoted as saying that "it wasn't that big a catastrophe to quit your job on Friday and have another job on Monday. . . . You didn't even necessarily have to tell your wife. You just drove off in another direction on Monday morning." This flexibility makes Silicon Valley an attractive location both for highly skilled workers and for the companies that employ them.
 
-# Knowledge Spillovers
+### Knowledge Spillovers
 
 It is by now a cliché that in the modern economy, knowledge is at least as important an input as are factors of production like labor, capital, and raw materials. This is especially true in highly innovative industries, where being even a few months behind the cutting edge in production techniques or product design can put a company at a major disadvantage.
 
@@ -120,19 +124,19 @@ Every year there was some place, the Wagon Wheel, Chez Yvonne, Rickey's, the Rou
 
 This kind of informal information flow means it is easier for companies in the Silicon Valley area to stay near the technological frontier than it is for companies elsewhere; indeed, many multinational firms have established research centers and even factories in Silicon Valley simply in order to keep up with the latest technology.
 
-# External Economies and Market Equilibrium
+## External Economies and Market Equilibrium
 
 As we've just seen, a geographically concentrated industry is able to support specialized suppliers, provide a pooled labor market, and facilitate knowledge spillovers in a way that a geographically dispersed industry cannot. But the strength of these economies presumably depends on the industry's size: Other things equal, a bigger industry will generate stronger external economies. What does this say about the determination of output and prices?
 
 While the details of external economies in practice are often quite subtle and complex (as the example of Silicon Valley shows), it can be useful to abstract from the details and represent external economies simply by assuming that the larger the industry, the lower the industry's costs. If we ignore international trade for the moment, then market equilibrium can be represented with a supply-and-demand diagram like Figure 7-1, which illustrates the market for widgets. In an ordinary picture of market equilibrium, the demand curve is downward sloping, while the supply curve is upward sloping. In the presence of external economies of scale, however, there is a forward-falling supply curve: the larger the industry's output, the lower the price at which firms are willing to sell, because their average cost of production falls as industry output rises.
 
-In the absence of international trade, the unusual slope of the supply curve in Figure 7-1 doesn't seem to matter much. As in a conventional supply-and-demand analysis, the equilibrium price,  $P_{1}$ , and output,  $Q_{1}$ , are determined by the intersection of the demand curve and the supply curve. As we'll see next, however, external economies of scale make a huge difference to our view of the causes and effects of international trade.
+In the absence of international trade, the unusual slope of the supply curve in Figure 7-1 doesn't seem to matter much. As in a conventional supply-and-demand analysis, the equilibrium price, $P_{1}$, and output, $Q_{1}$, are determined by the intersection of the demand curve and the supply curve. As we'll see next, however, external economies of scale make a huge difference to our view of the causes and effects of international trade.
 
 # FIGURE 7-1
 
 # External Economies and Market Equilibrium
 
-When there are external economies of scale, the average cost of producing a good falls as the quantity produced rises. Given competition among many producers, the downward-sloping average cost curve  $AC$  can be interpreted as a forward-falling supply curve. As in ordinary supply-and-demand analysis, market equilibrium is at point 1, where the supply curve intersects the demand curve,  $D$ . The equilibrium level of output is  $Q_{1}$ , the equilibrium price  $P_{1}$ .
+When there are external economies of scale, the average cost of producing a good falls as the quantity produced rises. Given competition among many producers, the downward-sloping average cost curve $AC$ can be interpreted as a forward-falling supply curve. As in ordinary supply-and-demand analysis, market equilibrium is at point 1, where the supply curve intersects the demand curve, $D$. The equilibrium level of output is $Q_{1}$, the equilibrium price $P_{1}$.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/3afd685b6fa4c1ed60c6200d619d26316f3b276537fe09e1b9bd28653310d3ed.jpg)
 
@@ -159,13 +163,13 @@ production and consumption
 
 # External Economies before Trade
 
-In the absence of trade, the price of buttons in China,  $P_{\text{CHINA}}$ , is lower than the price of buttons in the United States,  $P_{\text{US}}$ .
+In the absence of trade, the price of buttons in China, $P_{\text{CHINA}}$, is lower than the price of buttons in the United States, $P_{\text{US}}$.
 
 # FIGURE 7-3
 
 # Trade and Prices
 
-When trade is opened, China ends up producing buttons for the world market, which consists both of its own domestic market and of the U.S. market. Output rises from  $Q_{1}$  to  $Q_{2}$ , leading to a fall in the price of buttons from  $P_{1}$  to  $P_{2}$ , which is lower than the price of buttons in either country before trade.
+When trade is opened, China ends up producing buttons for the world market, which consists both of its own domestic market and of the U.S. market. Output rises from $Q_{1}$ to $Q_{2}$, leading to a fall in the price of buttons from $P_{1}$ to $P_{2}$, which is lower than the price of buttons in either country before trade.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/3bab7d2abce4949f8dbd1a3ffac0379c98fb89482f1a6d2c37f355e0866b5dbf.jpg)
 Price, cost (per button)
@@ -198,34 +202,32 @@ Often sheer accident plays a key role in creating an industrial concentration. G
 
 One consequence of the role of history in determining industrial location is that industries aren't always located in the "right" place: Once a country has established an advantage in an industry, it may retain that advantage even if some other country could potentially produce the goods more cheaply.
 
-Figure 7-4, which shows the cost of producing buttons as a function of the number of buttons produced annually, illustrates this point. Two countries are shown: China and Vietnam. The Chinese cost of producing a button is shown as  $AC_{\mathrm{CHINA}}$ , the Vietnamese cost as  $AC_{\mathrm{VIETNAM}}$ .  $D_{\mathrm{WORLD}}$  represents the world demand for buttons, which we assume can be satisfied either by China or by Vietnam.
+Figure 7-4, which shows the cost of producing buttons as a function of the number of buttons produced annually, illustrates this point. Two countries are shown: China and Vietnam. The Chinese cost of producing a button is shown as $AC_{\mathrm{CHINA}}$, the Vietnamese cost as $AC_{\mathrm{VIETNAM}}$. $D_{\mathrm{WORLD}}$ represents the world demand for buttons, which we assume can be satisfied either by China or by Vietnam.
 
 Suppose the economies of scale in button production are entirely external to firms. Since there are no economies of scale at the level of the firm, the button industry in each country consists of many small, perfectly competitive firms. Competition therefore drives the price of buttons down to its average cost.
 
 We assume the Vietnamese cost curve lies below the Chinese curve because, say, Vietnamese wages are lower than Chinese wages. This means that at any given level of production, Vietnam could manufacture buttons more cheaply than China. One might hope that this would always imply that Vietnam will in fact supply the world market. Unfortunately, this need not be the case. Suppose China, for historical reasons, establishes its button industry first. Then, initially, world button equilibrium will be
 
-# FIGURE 7-4
+**FIGURE 7-4: The Importance of Established Advantage**
 
-# The Importance of Established Advantage
-
-The average cost curve for Vietnam,  $AC_{VIETNAM}$ , lies below the average cost curve for China,  $AC_{CHINA}$ . Thus Vietnam could potentially supply the world market more cheaply than China. If the Chinese industry gets established first, however, it may be able to sell buttons at the price  $P_1$ , which is below the cost  $C_0$  that an individual Vietnamese firm would face if it began production on its own. So a pattern of specialization established by historical accident may persist even when new producers could potentially have lower costs.
+The average cost curve for Vietnam, $AC_{VIETNAM}$, lies below the average cost curve for China, $AC_{CHINA}$. Thus Vietnam could potentially supply the world market more cheaply than China. If the Chinese industry gets established first, however, it may be able to sell buttons at the price $P_1$, which is below the cost $C_0$ that an individual Vietnamese firm would face if it began production on its own. So a pattern of specialization established by historical accident may persist even when new producers could potentially have lower costs.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/4037cc9496ef4d8038b73b52d24ea19a4c79133b8ae4c6dfc67818e2f7020111.jpg)
 Price, cost (per button)
 
-established at point 1 in Figure 7-4, with Chinese production of  $Q_{1}$  units per year and a price of  $P_{1}$ . Now introduce the possibility of Vietnamese production. If Vietnam could take over the world market, the equilibrium would move to point 2. However, if there is no initial Vietnamese production ( $Q = 0$ ), any individual Vietnamese firm considering manufacture of buttons will face a cost of production of  $C_{0}$ . As we have drawn it, this cost is above the price at which the established Chinese industry can produce buttons. So although the Vietnamese industry could potentially make buttons more cheaply than China's industry, China's head start enables it to hold on to the industry.
+established at point 1 in Figure 7-4, with Chinese production of $Q_{1}$ units per year and a price of $P_{1}$. Now introduce the possibility of Vietnamese production. If Vietnam could take over the world market, the equilibrium would move to point 2. However, if there is no initial Vietnamese production ($Q = 0$), any individual Vietnamese firm considering manufacture of buttons will face a cost of production of $C_{0}$. As we have drawn it, this cost is above the price at which the established Chinese industry can produce buttons. So although the Vietnamese industry could potentially make buttons more cheaply than China's industry, China's head start enables it to hold on to the industry.
 
 As this example shows, external economies potentially give a strong role to historical accident in determining who produces what, and may allow established patterns of specialization to persist even when they run counter to comparative advantage.
 
-# Trade and Welfare with External Economies
+## Trade and Welfare with External Economies
 
 In general, we can presume that external economies of scale lead to gains from trade over and above those from comparative advantage. The world is more efficient and thus richer because international trade allows nations to specialize in different industries and thus reap the gains from external economies as well as from comparative advantage.
 
 However, there are a few possible qualifications to this presumption. As we saw in Figure 7-4, the importance of established advantage means that there is no guarantee that the right country will produce a good subject to external economies. In fact, it is possible that trade based on external economies may actually leave a country worse off than it would have been in the absence of trade.
 
-An example of how a country can actually be worse off with trade than without is shown in Figure 7-5. In this example, we imagine that Thailand and Switzerland could both manufacture watches, that Thailand could make them more cheaply, but that Switzerland has gotten there first.  $D_{\mathrm{WORLD}}$  is the world demand for watches, and, given that Switzerland produces the watches, the equilibrium is at point 1. However, we now add to the figure the Thai demand for watches,  $D_{\mathrm{THAI}}$ . If no trade in watches were allowed and Thailand were forced to be self-sufficient, then the Thai equilibrium would be at point 2. Because of its lower average cost curve, the price of Thai-made watches at point 2,  $P_2$ , is actually lower than the price of Swiss-made watches at point 1,  $P_1$ .
+An example of how a country can actually be worse off with trade than without is shown in Figure 7-5. In this example, we imagine that Thailand and Switzerland could both manufacture watches, that Thailand could make them more cheaply, but that Switzerland has gotten there first. $D_{\mathrm{WORLD}}$ is the world demand for watches, and, given that Switzerland produces the watches, the equilibrium is at point 1. However, we now add to the figure the Thai demand for watches, $D_{\mathrm{THAI}}$. If no trade in watches were allowed and Thailand were forced to be self-sufficient, then the Thai equilibrium would be at point 2. Because of its lower average cost curve, the price of Thai-made watches at point 2, $P_2$, is actually lower than the price of Swiss-made watches at point 1, $P_1$.
 
-# HOLDING THE WORLD TOGETHER
+### Holding the World Together
 
 If you are reading this while fully clothed, the odds are that crucial parts of your outfit—specifically, the parts that protect you from a wardrobe malfunction—came from the Chinese town of Qiaotou, which produces 60 percent of the world's buttons and a large proportion of its zippers.
 
@@ -237,11 +239,9 @@ many small towns, not even worthy of a speck on most maps, have also become worl
 
 At a broad level, China's role as a huge exporter of labor-intensive products reflects comparative advantage: China is clearly labor-abundant compared with advanced economies. Many of those labor-intensive goods, however, are produced by highly localized industries, which benefit strongly from external economies of scale.
 
-# FIGURE 7-5
+**FIGURE 7-5: External Economies and Losses from Trade**
 
-# External Economies and Losses from Trade
-
-When there are external economies, trade can potentially leave a country worse off than it would be in the absence of trade. In this example, Thailand imports watches from Switzerland, which is able to supply the world market  $(D_{\mathrm{WORLD}})$  at a price  $(P_1)$  low enough to block entry by Thai producers, who must initially produce the watches at cost  $C_0$ . Yet if Thailand were to block all trade in watches, it would be able to supply its domestic market  $(D_{\mathrm{THAI}})$  at the lower price,  $P_2$ .
+When there are external economies, trade can potentially leave a country worse off than it would be in the absence of trade. In this example, Thailand imports watches from Switzerland, which is able to supply the world market $(D_{\mathrm{WORLD}})$ at a price $(P_1)$ low enough to block entry by Thai producers, who must initially produce the watches at cost $C_0$. Yet if Thailand were to block all trade in watches, it would be able to supply its domestic market $(D_{\mathrm{THAI}})$ at the lower price, $P_2$.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/8fa3f3d471dec241951dcb43c750915112a1f58ea90ad0bec643ff7219388a89.jpg)
 Quantity of watches produced and demanded
@@ -252,17 +252,15 @@ There is an incentive in this case for Thailand to protect its potential watch i
 
 It is also worth pointing out that while external economies can sometimes lead to disadvantageous patterns of specialization and trade, it's virtually certain that it is still to the benefit of the world economy to take advantage of the gains from concentrating industries. Canada might be better off if Silicon Valley were near Toronto instead of San Francisco; Germany might be better off if the City (London's financial district, which, along with Wall Street, dominates world financial markets) could be moved to Frankfurt. But overall, it's better for the world that each of these industries be concentrated somewhere.
 
-# Dynamic Increasing Returns
+## Dynamic Increasing Returns
 
 Some of the most important external economies probably arise from the accumulation of knowledge. When an individual firm improves its products or production techniques through experience, other firms are likely to imitate the firm and benefit from its knowledge. This spillover of knowledge gives rise to a situation in which the production costs of individual firms fall as the industry as a whole accumulates experience.
 
 Notice that external economies arising from the accumulation of knowledge differ somewhat from the external economies considered so far, in which industry costs depend on current output. In this alternative situation, industry costs depend on experience, usually measured by the cumulative output of the industry to date. For example, the cost of producing a ton of steel might depend negatively on the total number of tons of steel produced by a country since the industry began. This kind of relationship is often summarized by a learning curve that relates unit cost to cumulative output. Such learning curves are illustrated in Figure 7-6. They are downward sloping because of
 
-# FIGURE 7-6
+**FIGURE 7-6: The Learning Curve**
 
-# The Learning Curve
-
-The learning curve shows that unit cost is lower the greater the cumulative output of a country's industry to date. A country that has extensive experience in an industry  $(L)$  may have a lower unit cost than a country with little or no experience, even if that second country's learning curve  $(L^{*})$  is lower for example, because of lower wages.
+The learning curve shows that unit cost is lower the greater the cumulative output of a country's industry to date. A country that has extensive experience in an industry $(L)$ may have a lower unit cost than a country with little or no experience, even if that second country's learning curve $(L^{*})$ is lower for example, because of lower wages.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/010f6f43084fcf57923c69d478d657d27565a44d69cfc88817e31e728bbc5e4d.jpg)
 
@@ -272,7 +270,7 @@ Like ordinary external economies, dynamic external economies can lock in an init
 
 Dynamic scale economies, like external economies at a point in time, potentially justify protectionism. Suppose a country could have low enough costs to produce a good for export if it had more production experience, but given the current lack of experience, the good cannot be produced competitively. Such a country might increase its long-term welfare either by encouraging the production of the good by a subsidy or by protecting it from foreign competition until the industry can stand on its own feet. The argument for temporary protection of industries to enable them to gain experience is known as the infant industry argument; this argument has played an important role in debates over the role of trade policy in economic development. We will discuss the infant industry argument at greater length in Chapter 10, but for now, we simply note that situations like that illustrated in Figure 7-6 are just as hard to identify in practice as those involving nondynamic increasing returns.
 
-# Interregional Trade and Economic Geography
+## Interregional Trade and Economic Geography
 
 External economies play an important role in shaping the pattern of international trade, but they are even more decisive in shaping the pattern of interregional trade—trade that takes place between regions within countries.
 
@@ -298,7 +296,7 @@ A question you might ask is whether the forces driving interregional trade are r
 
 role as Europe's financial capital similar to the role played by New York as America's financial capital. Indeed, there has been a growing movement among economists to model interregional and international trade, as well as such phenomena as the rise of cities, as different aspects of the same phenomenon—economic interaction across space. Such an approach is often referred to as economic geography.
 
-# THE CITY AND THE STREET
+### The City and the Street
 
 Tens of trillions of dollars' worth of goods and services flow across national borders every year. What keeps these products flowing? Transportation—all those container ships and cargo aircraft—is only part of the story. Information—all the data zipping along the fiber-optic cables that run under the world's oceans—is another part of the story. But the whole enterprise also runs on money. Businesses need to raise funds and transfer them, often to players literally on the other side of the world.
 
@@ -316,13 +314,13 @@ Will London and New York retain their special roles in the years ahead? At the t
 
 If it turns out that much of the business formerly conducted in urban high-rises can be done equally well from home offices, the great financial centers, which are in a way monuments to the power of external economies of scale, may emerge much diminished. Most observers remain skeptical—there are early indications that online interaction is losing some of its initial attractions, and management is eager to get people back in personal contact. But we'll know more in a couple of years.
 
-# SUMMARY
+## Summary
 
 - Trade need not be the result of comparative advantage. Instead, it can result from increasing returns or economies of scale, that is, from a tendency of unit costs to be lower with larger output. Economies of scale give countries an incentive to specialize and trade even in the absence of differences in resources or technology between countries. Economies of scale can be internal (depending on the size of the firm) or external (depending on the size of the industry).
 Economies of scale can lead to a breakdown of perfect competition, unless they take the form of external economies, which occur at the level of the industry instead of the firm.
 - External economies give an important role to history and accident in determining the pattern of international trade. When external economies are important, a country starting with a large advantage may retain that advantage even if another country could potentially produce the same goods more cheaply. When external economies are important, countries can conceivably lose from trade.
 
-# KEY TERMS
+## Key Terms
 
 average cost of production, p. 183
 
@@ -349,46 +347,5 @@ learning curve, p. 189
 
 specialized suppliers, p. 180
 
-# PROBLEMS
 
-1. For each of the following examples, explain whether it is a case of external or internal economies of scale:
-
-a. Almost all Hermes products are manufactured in France.
-b. Apple has its displays mainly made in Japan, and some made in Korea.
-c. All Toyota Land Cruiser and Prius sold in the United States market are assembled in Japan.
-d. Gerber used to be an American-owned company, now a subsidiary of the Nestlé Group, headquartered in Fremont, Michigan.
-
-2. It is often argued that the existence of increasing returns is a source of conflict between countries, since each country is better off if it can increase its production in those industries characterized by economies of scale. Evaluate this view in terms of the external economy model.
-
-3. Give two examples of products that are traded on international markets for which there are dynamic increasing returns. In each of your examples, show how innovation and learning-by-doing are important to the dynamic increasing returns in the industry.
-
-4. Evaluate the relative importance of economies of scale and comparative advantage in causing the following:
-
-a. Most of the world's gold is produced in South Africa or Tanzania.
-b. Half of the world's production of uranium comes from just ten mines in six countries.
-c. Most beef meat comes from either Australia or Argentina.
-d. Most Champagne comes from France.
-e. Much of the world's coffee beans come from Brazil.
-
-5. Consider a situation similar to that in Figure 7-3, in which two countries that can produce a good are subject to forward-falling supply curves. In this case, however, suppose the two countries have the same costs, so that their supply curves are identical.
-
-a. What would you expect to be the pattern of international specialization and trade? What would determine who produces the good?
-b. What are the benefits of international trade in this case? Do they accrue only to the country that gets the industry?
-
-6. It is fairly common for an industrial cluster to break up and for production to move to locations with lower wages when the technology of the industry is no longer rapidly improving—when it is no longer essential to have the absolutely most modern machinery, when the need for highly skilled workers has declined, and when being at the cutting edge of innovation conveys only a small advantage. Explain this tendency of industrial clusters to break up in terms of the theory of external economies.
-7. Recently, a growing labor shortage has been causing Chinese wages to rise. If this trend continues, what would you expect to see happen to external economy industries currently dominated by China? Consider, in particular, the situation illustrated in Figure 7-4. How would change take place?
-8. In our discussion of labor market pooling, we stressed the advantages of having two firms in the same location: If one firm is expanding while the other is contracting, it's to the advantage of both workers and firms that they be able to draw on a single labor pool. But it might happen that both firms want to expand or contract at the same time. Does this constitute an argument against geographical concentration? (Think through the numerical example carefully.)
-9. As we saw in the text, the Chinese town of Qiaotou produces 60 percent of the world's buttons. One problem is that Qiaotou is a relatively small village and its production is carried out by small, family-owned businesses. What does this tell you about the comparative advantage versus the external economies in the production of buttons?
-
-# FURTHER READINGS
-
-Frank Graham. "Some Aspects of Protection Further Considered." Quarterly Journal of Economics 37 (1923), pp. 199-227. An early warning that international trade may be harmful in the presence of external economies of scale.
-
-Li & Fung Research Centre. Industrial Cluster Series, 2006-2010. Li & Fung, a Hong Kong-based trading group, has published a series of reports on rising industrial concentrations in Chinese manufacturing.
-
-Staffan Burenstam Linder. An Essay on Trade and Transformation. New York: John Wiley and Sons, 1961. An early and influential statement of the view that trade in manufactures among advanced countries mainly reflects forces other than comparative advantage.
-
-Michael Porter. The Competitive Advantage of Nations. New York: Free Press, 1990. A bestselling book that explains national export success as the result of self-reinforcing industrial clusters, that is, external economies.
-Annalee Saxenian. Regional Advantage. Cambridge: Harvard University Press, 1994. A fascinating comparison of two high-technology industrial districts, California's Silicon Valley and Boston's Route 128.
-World Bank. World Development Report 2009. A huge survey of the evidence on economic geography, with extensive discussion of industrial clusters in China and other emerging economies.
 

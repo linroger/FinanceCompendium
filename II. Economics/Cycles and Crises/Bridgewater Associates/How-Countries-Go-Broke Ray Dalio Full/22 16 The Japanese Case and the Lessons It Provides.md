@@ -1,30 +1,34 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 22_16_The_Japanese_Case_and_the_Lessons_It_Provides
+title: "22 16 The Japanese Case and the Lessons It Provides"
+parent_directory: Bridgewater Associates
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- excess reserves
-- heavily indebted reserve currency country
-- domestic deflationary pressures
-- japan's debt service
+- japanese debt cycle
+- reserve currency deleveraging
+- monetary policy impacts
+- currency depreciation effects
+- debt monetization
 secondary_tags:
-- debt cycle transpiring
-- both the big debt cycle
-- big cycle
-- debt level japan
-- very interesting one
-- debt problem
-- huge debt burden
-- debt ex-cb (jpy, tin
-- debt components
-tags_extracted: '2025-12-18T18:04:27.910893'
-tags_method: max_quality_v1
+- bank of japan policy
+- yen depreciation
+- government debt management
+- private sector deleveraging
+- big debt cycle dynamics
+- economic stagnation
+- fiscal stimulus
+- central bank balance sheet
+- interest rate policy
+- deflationary pressures
+- competitive devaluation
+- asset price declines
+- household savings
+- export competitiveness
+cssclasses: academia
 ---
 
-# 22_16_The_Japanese_Case_and_the_Lessons_It_Provides
-## THE JAPANESE CASE AND THE LESSONS IT PROVIDES
+# 22 16 The Japanese Case and the Lessons It Provides
 
 This chapter shows how a heavily indebted reserve currency country, Japan, handled its debts with reference to the earlier-described template. It shows the Big Debt Cycle transpiring in the very classic way, with the cause/effect relationships working as I described, but it is especially interesting because for more than two decades Japanese policymakers did the exact opposite of what should be done to execute a beautiful deleveraging—i.e., they did not restructure the debts for nine years and they didn't drive interest rates below inflation rates and nominal growth rates for 23 years. While this Japanese case study tells a very interesting story for those who are interested in seeing how the economic machine works, it does get a little technical. Those who don't want the technical details can skip them by just reading the highlights in bold, which will take only about 10 minutes.
 
@@ -62,9 +66,7 @@ The Japanese government's handling of its debt problem from 1990 until 2013 exem
 
 Fiscal and monetary policies changed greatly and appropriately when Bank of Japan Governor Kuroda and Prime Minister Abe came to power in late 2012/early 2013 and initiated their "three arrows" policy to 1) increase the money supply, 2) boost central government spending, and 3) enact economic and regulatory reforms to make the Japanese economy more competitive, which, as previously described, are classically the best policies to negate deflationary, depressionary forces. As a result, from 2013 through 2019, there was no deflation and there was low positive growth (0.9\% per year) and the beginning of a healing period, though the deflationary and depressing psychological conditions lingered. The psychological overhang of 23 years of debt depression has had lasting negative effects on the strength and vibrancy that characterized Japan prior to 1990 and many times throughout history.
 
-During this period, extremely large debt monetization and fiscal deficit stimulus (5\% of GDP deficits on average) and extremely large central bank buying of Japanese yen debt (the BoJ now holds government bonds worth more than 90\% of GDP) took place, which pushed interest rates 0.9\% below the nominal growth rate and 1\% below the inflation rate on average, and depreciated the yen, all of which were very stimulative. The combined lower interest rates and currency depreciation led to Japanese government bonds being a terrible storehold of wealth, losing 45\% relative to US bonds and 60\% relative to gold. These and other actions provided
-
-An average interest rate that was about $2.2\%$ below the US rate and depreciated the currency by an average rate of $5.5\%$ per year in real terms versus the dollar. More specifically, the $-45\%$ cumulative return of a Japanese government bond versus a US government bond was almost entirely attributable to currency depreciation, since the lower carry/accrual from Japanese bonds was entirely offset by price gains (roughly $20\%$) due to falling Japanese yields. At the same time, Japanese inflation averaged only $1.1\%$ per year relative to US inflation of $2.7\%$ per year because of domestic deflationary pressures. The principle should resonate: don't own government bonds when there are extreme amounts of debt monetization.
+During this period, extremely large debt monetization and fiscal deficit stimulus (5\% of GDP deficits on average) and extremely large central bank buying of Japanese yen debt (the BoJ now holds government bonds worth more than 90\% of GDP) took place, which pushed interest rates 0.9\% below the nominal growth rate and 1\% below the inflation rate on average, and depreciated the yen, all of which were very stimulative. The combined lower interest rates and currency depreciation led to Japanese government bonds being a terrible storehold of wealth, losing 45\% relative to US bonds and 60\% relative to gold. These and other actions provided an average interest rate that was about $2.2\%$ below the US rate and depreciated the currency by an average rate of $5.5\%$ per year in real terms versus the dollar. More specifically, the $-45\%$ cumulative return of a Japanese government bond versus a US government bond was almost entirely attributable to currency depreciation, since the lower carry/accrual from Japanese bonds was entirely offset by price gains (roughly $20\%$) due to falling Japanese yields. At the same time, Japanese inflation averaged only $1.1\%$ per year relative to US inflation of $2.7\%$ per year because of domestic deflationary pressures. The principle should resonate: don't own government bonds when there are extreme amounts of debt monetization.
 
 Let's look at what happened more closely.
 
@@ -76,9 +78,9 @@ While there has been modest inflation of $0.8\%$ per year in average worker comp
 
 WAGES VS FX (INDEXED TO 2013)
 
-Low interest rates reduced debt service costs a lot—since 2013, Japanese interest debt service has fallen over  \$50\%  (and has fallen over  \$65\%  since 2001), making it much easier to service the debt.
+Low interest rates reduced debt service costs a lot—since 2013, Japanese interest debt service has fallen over $50\%$ (and has fallen over $65\%$ since 2001), making it much easier to service the debt.
 
-Still, the Japanese debt relative to the size of the economy has increased by almost  10\% . To neutralize its effects, the Bank of Japan bought over half of all the government debt and absorbed the debt service costs, which it monetized. The declines in interest rates engineered by the BoJ also contributed to the debt relief (though more of that benefit occurred even before Governor Kuroda took the helm, as short rates had already hit zero).
+Still, the Japanese debt relative to the size of the economy has increased by almost $10\%$. To neutralize its effects, the Bank of Japan bought over half of all the government debt and absorbed the debt service costs, which it monetized. The declines in interest rates engineered by the BoJ also contributed to the debt relief (though more of that benefit occurred even before Governor Kuroda took the helm, as short rates had already hit zero).
 
 HOW JAPAN MANAGED BIG INCREASES IN TOTAL GOVT DEBT AND BIG DECLINES IN INTEREST PAYMENTS
 
@@ -103,7 +105,7 @@ PUBLIC DEBT SERVICE COMPONENTS (\% GDP)
 
 DEBT SERVICE PAYMENTS AS A \% OF GOVT DEBT
 
-Remarkably, the massive increase in debt that occurred in this period was concurrent with an improvement in Japan's central government balance sheet. Net assets (government assets minus government liabilities) are now  20\%  better in dollar terms compared to 2013 because the Bank of Japan accumulated dollar reserves (primarily in the 2001-12 period) and Japan's debts as measured in dollars are not up as much due to the yen depreciation.
+Remarkably, the massive increase in debt that occurred in this period was concurrent with an improvement in Japan's central government balance sheet. Net assets (government assets minus government liabilities) are now $20\%$ better in dollar terms compared to 2013 because the Bank of Japan accumulated dollar reserves (primarily in the 2001-12 period) and Japan's debts as measured in dollars are not up as much due to the yen depreciation.
 
 HOW JAPAN MANAGED BIG INCREASES IN GOVT DEBT AND BIG IMPROVEMENTS IN ITS BALANCE SHEET
 
@@ -147,12 +149,12 @@ That said, Japan has seen dramatically lower dollar incomes, meaning purchases o
 
 For a different angle of who the winners and losers were, it's helpful to take a look at how prices have changed in Japan at a very granular level because it provides a window into what it's like to earn, spend, and save there. The following table provides a lot of details, but to summarize:
 
-- Since 2000, the yen is down \$30\% . If you were a US investor who kept their money in yen versus dollars earning the dollar interest rate, you'd be down \$84\% .
-- Your returns for holding unhedged Japanese bonds versus US bonds were slightly better (but still very bad, down roughly $70\%$) and slightly better (but still very bad) for unhedged Japanese equities versus US equities (down around 67\% ).
+- Since 2000, the yen is down $30\%$. If you were a US investor who kept their money in yen versus dollars earning the dollar interest rate, you'd be down $84\%$.
+- Your returns for holding unhedged Japanese bonds versus US bonds were slightly better (but still very bad, down roughly $70\%$) and slightly better (but still very bad) for unhedged Japanese equities versus US equities (down around $67\%$).
 - Meanwhile, prices in Japan (aggregate CPI) are up $10\%$ —much less than in the US, where prices are up $90\%$.
 - At the same time, all fiat currencies have devalued versus goods. The dollar has depreciated about $50\%$ in the last 25 years.
 - Whereas total average inflation is similar across major categories, the composition of inflation is very different. In Japan, there has been deflation in non-tradables—housing and labor especially—while prices of tradable goods (i.e., things you can purchase from abroad like electronics, toys, oil, etc.) have soared with some key tradable commodities up more than 3x in yen terms.
-- Non-tradables are about flat in price while tradable commodities are up $2 - 10\mathrm{x}$ (3x on average).
+- Non-tradables are about flat in price while tradable commodities are up $2-10x$ (3x on average).
 
 <table><tr><td rowspan="2"></td><td colspan="3">JPY</td><td colspan="3">USD</td></tr><tr><td>Price in 2000</td><td>Price Today</td><td>\% Chg in FX Buying Power</td><td>Price in 2000</td><td>Price Today</td><td>\% Chg in FX Buying Power</td></tr><tr><td>FX vs USD</td><td>107</td><td>156</td><td>-31\%</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Aggregate CPI</td><td>1</td><td>1.11</td><td>-10\%</td><td>1</td><td>1.95</td><td>-49\%</td></tr><tr><td>Non-Tradables</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Housing</td><td>1</td><td>0.98</td><td>2\%</td><td>1</td><td>2.14</td><td>-53\%</td></tr><tr><td>Services</td><td>1</td><td>1.07</td><td>-6\%</td><td>1</td><td>2.08</td><td>-52\%</td></tr><tr><td>Tradables</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Goods (CPI Indices)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Food/Beverage</td><td>1</td><td>1.32</td><td>-24\%</td><td>1</td><td>1.84</td><td>-46\%</td></tr><tr><td>HH Durables</td><td>1</td><td>0.86</td><td>16\%</td><td>1</td><td>1.16</td><td>-14\%</td></tr><tr><td>Clothes/Footwear</td><td>1</td><td>1.14</td><td>-12\%</td><td>1</td><td>1.04</td><td>-4\%</td></tr><tr><td>Commodities</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Soybeans</td><td>52,318</td><td>174,594</td><td>-70\%</td><td>488</td><td>1,122</td><td>-57\%</td></tr><tr><td>Wheat</td><td>27,650</td><td>85,725</td><td>-68\%</td><td>258</td><td>551</td><td>-53\%</td></tr><tr><td>Oil</td><td>2,933</td><td>12,637</td><td>-77\%</td><td>27</td><td>81</td><td>-66\%</td></tr><tr><td>Natural Gas</td><td>288</td><td>328</td><td>-12\%</td><td>3</td><td>2</td><td>28\%</td></tr><tr><td>Coal</td><td>2,254</td><td>20,961</td><td>-89\%</td><td>21</td><td>135</td><td>-84\%</td></tr><tr><td>Aluminum</td><td>184,000</td><td>353,235</td><td>-48\%</td><td>1,715</td><td>2,270</td><td>-24\%</td></tr><tr><td>Copper</td><td>194,410</td><td>1,395,822</td><td>-86\%</td><td>1,812</td><td>8,970</td><td>-80\%</td></tr><tr><td>Lean Hogs</td><td>6,375</td><td>13,971</td><td>-54\%</td><td>59</td><td>90</td><td>-34\%</td></tr><tr><td>Live Cattle</td><td>7,390</td><td>30,137</td><td>-75\%</td><td>69</td><td>194</td><td>-64\%</td></tr><tr><td>Gold</td><td>30,436</td><td>377,104</td><td>-92\%</td><td>284</td><td>2,423</td><td>-88\%</td></tr><tr><td>Silver</td><td>568</td><td>4,561</td><td>-88\%</td><td>5</td><td>29</td><td>-82\%</td></tr><tr><td>Avg of CMDs</td><td>1</td><td>3.2</td><td>-69\%</td><td>1</td><td>2.23</td><td>-55\%</td></tr></table>
 
@@ -168,7 +170,7 @@ PRICE INDICES (1980=1)
 
 JAPAN SPOT FX VS USD (IN MARKET CONVENTION)
 
-- All of this is largely the inverse of what happened in the lead-up to the bubble (1980-90), when overheating growth and strong capital inflows led to both significant non-tradables inflation  ($+40\%$)  and yen strength  ($+70\%$) . These changes reflect the changes in the Big Cycle in Japan.
+- All of this is largely the inverse of what happened in the lead-up to the bubble (1980-90), when overheating growth and strong capital inflows led to both significant non-tradables inflation ($+40\%$) and yen strength ($+70\%$). These changes reflect the changes in the Big Cycle in Japan.
 
 The following charts convey the picture for a Japanese worker. As shown, in the past 25 years, typical worker wages were relatively flat in yen terms, just shy of 400,000 yen a month, but fell significantly in dollar and world currency terms. In other words, while the average Japanese worker used to make the equivalent of \$3,500 a month, they now make about \$2,500. In gold terms, they used to earn 13 ounces of gold-equivalent a month; now it's 1 ounce.
 
@@ -190,7 +192,7 @@ TYPICAL APARTMENT MONTHLY RENT (ABOUT 700 SQ FT)
 
 Source: ARES JP
 
-You can also see the impact by looking at some real prices of items that mix commodities with heavy doses of domestic labor. The data on costs of vehicles tends to wiggle a lot, but roughly speaking a domestically made car used to cost eight months of labor, and now it's nine months. A convenience store boxed lunch used to take 10 minutes of work to afford, now it's 16 minutes (up more than 60\% ). Going to a theme park used to cost a third of a day of labor, now it's a half a day.
+You can also see the impact by looking at some real prices of items that mix commodities with heavy doses of domestic labor. The data on costs of vehicles tends to wiggle a lot, but roughly speaking a domestically made car used to cost eight months of labor, and now it's nine months. A convenience store boxed lunch used to take 10 minutes of work to afford, now it's 16 minutes (up more than $60\%$). Going to a theme park used to cost a third of a day of labor, now it's a half a day.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/92d54008a8db8d168b118126604a0b5775f5e12b6f348c016ba43912500d979d.jpg)
 

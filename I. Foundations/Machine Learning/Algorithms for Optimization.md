@@ -1,40 +1,24 @@
 ---
-parent_directory: Machine Learning
 title: Algorithms for Optimization
-tags: null
-aliases:
-- Algorithms for Optimization
-cssclasses: academia
+parent_directory: Machine Learning
 primary_tags:
-- design index
-- pricing scheme
-- some basic operations
-- simplest approaches
-- second copy
-- any local minima
-- domain specialization
+- optimization algorithms
+- engineering design optimization
+- mathematical optimization methods
+- computational optimization techniques
+- gradient based methods
+- direct search methods
+- stochastic optimization
 secondary_tags:
-- any constraints
-- contents preface
-- local rounding errors
-- bracketing process
-- robust optimization
-- a.1.2 julia
-- certain directions
-- level optimizer
-- simple two-dimensional function
-- search algorithm
-- start type
-- complex-step derivative approximation
-- truncated gaussian distribution
-- region approach
-- solving discrete programming problems
-- algorithm 4.5
-- node probabilities
-- two types
-- commonly used method
-tags_extracted: '2025-12-18T17:55:06.386043'
-tags_method: max_quality_v1
+- unconstrained optimization
+- constrained optimization
+- derivative free methods
+- line search algorithms
+- trust region methods
+- multiobjective optimization
+- surrogate model optimization
+- uncertainty quantification
+cssclasses: academia
 ---
 
 # Algorithms for Optimization
@@ -62,42 +46,6 @@ Copyright in this monograph has been licensed exclusively to The MIT Press, http
 This book was set in  $\mathrm{T_{E}X}$  Gyre Pagella by the authors in LATEX.
 
 To our families.
-
-# Contents
-
-Preface XV
-
-Acknowledgments XVII
-
-1 Introduction 11.1 A History 21.2 Optimization Process 41.3 Mathematical Formulation 51.4 Applications 71.5 Minima 101.6 Optimality Conditions 101.7 Overview 151.8 Summary 191.9 Exercises 202 Derivatives and Gradients 232.1 Derivatives 232.2 Derivatives in Multiple Dimensions 252.3 Numerical Differentiation 262.4 Automatic Differentiation 292.5 Regression Gradient 352.6 Simultaneous Perturbation Stochastic Gradient Approximation 362.7 Summary 372.8 Exercises 38
-
-# 3 Bracketing 433.1 Unimodality 433.2 Finding an Initial Bracket 433.3 Fibonacci Search 453.4 Golden Section Search 473.5 Quadratic Fit Search 513.6 Shubert-Piyavskii Method 533.7 Bisection Method 573.8 Summary 593.9 Exercises 59
-
-# 4 Local Descent 614.1 Descent Direction Iteration 614.2 Step Factors 624.3 Line Search 634.4 Approximate Line Search 634.5 Trust Region Methods 704.6 Termination Conditions 724.7 Summary 734.8 Exercises 73
-
-# 5 First-Order Methods 755.1 Gradient Descent 755.2 Conjugate Gradient 775-3 Momentum 795.4 Nesterov Momentum 805.5 AdaGrad 805.6 RMSProp 825.7 Adadelta 825.8 Adam 845.9 Hypergradient Descent 845.10 Summary 875.11 Exercises 87
-
-# 6 Second-Order Methods 916.1 Newton's Method 916.2 Secant Method 936.3 Levenberg-Marquardt Algorithm 966.4 Levenberg-Marquardt for Sum of Squares 986.5 Quasi-Newton Methods 996.6 Summary 1026.7 Exercises 102
-
-# 7 Direct Methods 1097.1 Cyclic Coordinate Search 1097.2 Powell's Method 1117.3 Hooke-Jeeves 1127.4 Generalized Pattern Search 1137.5 Nelder-Mead Simplex Method 1157.6 Divided Rectangles 1207.7 Summary 1277.8 Exercises 127
-
-# 8 Stochastic Methods 1318.1 Noisy Descent 1318.2 Mesh Adaptive Direct Search 1328.3 Memory-Efficient Zeroth-Order Optimization 1348.4 Simulated Annealing 1368.5 Cross-Entropy Method 1408.6 Natural Evolution Strategies 1448.7 Covariance Matrix Adaptation 1458.8 Summary 1498.9 Exercises 152
-
-# 9 Population Methods 1579.1 Population Iteration 1579.2 Genetic Algorithms 1589.3 Differential Evolution 1669.4 Particle Swarm Optimization 1669.5 Firefly Algorithm 1689.6 Cuckoo Search 1719.7 Hybrid Methods 1739.8 Summary 1739.9 Exercises 175
-
-# 10Constraints 17710.1 Constrained Optimization 17710.2 Constraint Types 17810.3 Transformations to Remove Constraints 17910.4 Removing Affine Equality Constraints 18110.5 Lagrange Multipliers 18210.6 InequalityConstraints 18510.7 Slack Variables 18810.8 Penalty Methods 18810.9 Method of Multipliers 19110.10 Interior Point Methods 19110.11 Summary 19410.12 Exercises 194
-
-# 11 Duality 20111.1 Dual Problem 20111.2 Primal-Dual Methods 20511.3 Dual Ascent 20811.4 Alternating Direction Method of Multipliers 21111.5 ADMM Applications 21511.6 Distributed Methods 22611.7 Summary 23111.8 Exercises 231
-
-# 12 Linear Programming 24112.1 Problem Formulation 24112.2 Simplex Algorithm 24712.3 Dual Certificates 25812.4 Summary 26112.5 Exercises 261
-
-# 13 Quadratic Programming 26513.1 Problem Formulation 26513.2 Unconstrained Least Squares Problems 26613.3 Least Squares with Linear Inequalities 27013.4 Least Distance Programming 27313.5 Nonnegative Least Squares 27413.6 Solving Least Distance Programs 27613.7 Dual Certificates 28013.8 Summary 28213.9 Exercises 283
-
-# 14 Disciplined Convex Programming 28914.1 Canonical Form 28914.2 Verification 29014.3 Canonicalization 29914.4 Solving 30614.5 Summary 30914.6 Exercises 309
-
-# 15 Multiobjective Optimization 31715.1 Pareto Optimality 31715.2 Constraint Methods 32215.3 Weight Methods 32415.4 Multiobjective Population Methods 32715.5 Preference Elicitation 33315.6 Summary 33715.7 Exercises 338
-
-# 16 Sampling Plans 34316.1 Full Factorial 34316.2 Random Sampling 34416.3 Uniform Projection Plans 34516.4 Stratified Sampling 34616.5 Space-Filling Metrics 34616.6 Space-Filling Subsets 35016.7 Quasi-Random Sequences 35316.8 Summary 35516.9 Exercises 35717 Surrogate Models 35917.1 Fitting Surrogate Models 35917.2 Linear Models 36017.3 Basis Functions 36117.4 Fitting Noisy Objective Functions 36617.5 Model Selection 36917.6 Multifidelity Surrogate Models 37817.7 Summary 37917.8 Exercises 37918 Probabilistic Surrogate Models 38318.1 Gaussian Distribution 38318.2 Gaussian Processes 38518.3 Prediction 38818.4 Gradient Measurements 39018.5 Noisy Measurements 39318.6 Fitting Gaussian Processes 39518.7 Summary 39518.8 Exercises 39619 Surrogate Optimization 40519.1 Prediction-Based Exploration 40519.2 Error-Based Exploration 40619.3 Lower Confidence Bound Exploration 40719.4 Probability of Improvement Exploration 40719.5 Expected Improvement Exploration 40819.6 Safe Optimization 41019.7 Summary 41819.8 Exercises 41820 Optimization under Uncertainty 42120.1 Uncertainty 42120.2 Set-Based Uncertainty 42320.3 Probabilistic Uncertainty 42620.4 Summary 43320.5 Exercises 43321 Uncertainty Propagation 43721.1 Sampling Methods 43721.2 Taylor Approximation 43821.3 Polynomial Chaos 43921.4 Bayesian Monte Carlo 44921.5 Summary 45121.6 Exercises 45322 Discrete Optimization 45722.1 Integer Programs 45822.2 Rounding 45922.3 Cutting Planes 46022.4 Branch and Bound 46522.5 Dynamic Programming 46822.6 Ant Colony Optimization 47122.7 Summary 47522.8 Exercises 47523 Expression Optimization 48323.1 Grammars 48323.2 Genetic Programming 48723.3 Grammatical Evolution 49123.4 Probabilistic Grammars 49523.5 Probabilistic Prototype Trees 49623.6 Summary 50323.7 Exercises 50424 Multidisciplinary Optimization 50924.1 Disciplinary Analyses 50924.2 Interdisciplinary Compatibility 51124.3 Architectures 51524.4 Multidisciplinary Design Feasible 51524.5 Sequential Optimization 51824.6 Individual Discipline Feasible 52024.7 Collaborative Optimization 52524.8 Simultaneous Analysis and Design 52824.9 Summary 52924.10 Exercises 530
 
 # APPENDICES
 

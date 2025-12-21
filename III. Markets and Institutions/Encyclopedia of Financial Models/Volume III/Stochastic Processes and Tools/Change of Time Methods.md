@@ -1,4 +1,35 @@
 
+---
+title: "Change of Time Methods"
+parent_directory: "Stochastic Processes and Tools"
+formatted: "2025-12-21 04:50:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - change of time methods
+  - stochastic volatility modeling
+  - levy processes
+  - geometric brownian motion
+  - mean reverting processes
+secondary_tags:
+  - subordinators
+  - time changed brownian motion
+  - black scholes formula
+  - option pricing theory
+  - stochastic differential equations
+  - garch processes
+  - martingale theory
+  - business time
+  - risk neutral pricing
+  - commodity pricing models
+  - embedding problem
+  - semimartingale theory
+  - variance gamma process
+  - leverage effect
+  - long term skew
+cssclasses: academia
+---
+
 # Change of Time Methods
 
 ANATOLIY SWISHCHUK, PhD
@@ -20,9 +51,9 @@ We present two applications of CTM:
 - Black-Scholes formula
 - Explicit option pricing formula for a mean-reverting asset
 
-# CHANGE OF TIME METHOD
+## CHANGE OF TIME METHOD
 
-The main idea of the change of time method is to change time from  $t$  to a nonnegative process  $T(t)$  with nondecreasing sample paths. One example is subordinator: If  $X(t)$  and  $T(t) > 0$  are some processes, then  $X(T(t))$  is subordinated to
+The main idea of the change of time method is to change time from $t$ to a nonnegative process $T(t)$ with nondecreasing sample paths. One example is subordinator: If  $X(t)$  and  $T(t) > 0$  are some processes, then  $X(T(t))$  is subordinated to
 
 $X(t);T(t)$  is a change of time. Another example is time-changed Brownian motion:  $M(t) = B(T(t))$  where  $B(t)$  is a Brownian motion and  $T(t)$  is a subordinator (e.g., variance-gamma process  $V(t) = B(T(t)$ , where  $T(t)$  is a gamma process).
 
@@ -35,11 +66,11 @@ Rosinski and Woyczyński (1986) considered time changes for integrals over stabl
 
 Levy processes can also be used as a time change for other Lévy processes (subordinators). Madan and Seneta (1990) introduced the variance gamma (VG) process (Brownian motion with drift time changed by a gamma process). Geman, Madan, and Yor (2001) considered time changes for Lévy processes (business time). Carr, Geman, Madan, and Yor (2003) used change of time to introduce stochastic volatility into a Lévy model to achieve leverage effect and a long-term skew. Kallsen and Shiryaev (2001) showed that the Rosinski-Woyczyński-Kallenberg statement cannot be extended to any other Lévy process but symmetric  $\alpha$ -stable. Swishchuk (2004, 2007) applied change of time method for options and swaps pricing for Gaussian models.
 
-# The General Theory of Time Changes
+## The General Theory of Time Changes
 
 The general theory of change of time for martingale and semimartingale theories is well known. In this entry we give a brief description of the change of time method in the following settings: martingales and stochastic differential equations.
 
-# Martingale and Semimartingale Settings of Change of Time
+## Martingale and Semimartingale Settings of Change of Time
 
 Let  $(\Omega, \mathcal{F}, P)$  be a given probability space with a right continuous filtration  $(\mathcal{F}_t)_{t \geq 0}$ . Suppose  $M_t$  is a square integrable local continuous martingale such that  $\lim_{t \to +\infty} \langle M \rangle(t) = +\infty$ almost sure (a.s.), where  $\tau_t \coloneqq \inf \{\mu : \langle M \rangle(u) > t\}$  and  $\tilde{\mathcal{F}}_t = \mathcal{F}_{\tau_t}$ . Then the time-changed process  $B(t) \coloneqq M(\tau_t)$  is an  $\tilde{\mathcal{F}}_t$ -Brownian motion. Also,  $M(t) = B(<M > (t))$ . Here,  $\langle \cdot \rangle$  defines predictable quadratic variation.
 
@@ -48,7 +79,7 @@ If  $\phi_t$  is a change of time process (i.e., any continuous  $\mathcal{F}_t$
 
 Geman, Madan, and Yor (2001) consider pure jump Lévy processes (which are semimartingales) of finite variation with an infinite arrival rate of jumps as models for the logarithm of asset prices. These processes also may be written as time-changed Brownian motion. Their paper exhibits the explicit time change for each of a wide class of Lévy processes and shows that the time change is a weighted price move measure of time.
 
-# Stochastic Differential Equations Setting of Change of Time
+## Stochastic Differential Equations Setting of Change of Time
 
 The change of time method is used to solve the following SDE:
 
@@ -60,37 +91,37 @@ $$ d X_{t} = \beta (t, X_{t}) d t + \gamma (t, X_{t}) d B (t)
 $$ with drift  $\beta (t,X_{t})$  using the method of transformation of drift (the Girsanov transformation).5
 
 
-# Subordinators as Time Changes
+## Subordinators as Time Changes
 
-# Subordinators
+### Subordinators
 
 Feller (1966) introduced a subordinated process  $X_{\tau_t}$  for a Markov process  $X_{t}$  and  $\tau_{t}$  a process with independent increments.  $\tau_{t}$  was called a randomized operational time. Increasing Lévy processes can also be used as a time change for other Lévy processes. $^6$  Lévy processes of this kind are called subordinators. They are very important ingredients for building Lévy-based models in finance. $^7$  If  $S_{t}$  is a subordinator, then its trajectories are almost surely increasing, and  $S_{t}$  can be interpreted as a "time deformation" and used to "time change" other Lévy processes. Roughly, if  $(X_{t})_{t\geq 0}$  is a Lévy process and  $(S_{t})_{t\geq 0}$  is a subordinator independent of  $X_{t}$ , then the process  $(Y_{t})_{t\geq 0}$  defined by  $Y_{t}:= X_{S_{t}}$  is a Lévy process. $^8$  This time scale has the financial interpretation of business time, $^9$  that is, the integrated rate of information arrival.
 
 
-# Subordinators and Stochastic Volatility
+### Subordinators and Stochastic Volatility
 
 The time change method was used to introduce stochastic volatility into a Lévy model to achieve the leverage effect and a long-term skew. In the Bates (1996) model the leverage effect and long-term skew were achieved using correlated sources of randomness in the price process and the instantaneous volatility. The sources of randomness are thus required to be Brownian motions. In the Barndorff-Nielsen et al. (2001, 2002) model the leverage effect and long-term skew are generated using the same jumps in the price and volatility without a requirement for the sources of randomness to be Brownian motions. Another way to achieve the leverage effect and long-term skew is to make the volatility govern the time scale of the Lévy process driving jumps in the price. Carr et al. (2003) suggested the introduction of stochastic volatility into an exponential-Lévy model via a time change. The generic model here is  $S_{t} = \exp(X_{t}) = \exp(Y_{\nu_{t}})$ , where  $\nu_{t} \coloneqq \int_{0}^{t} \sigma_{s}^{2} ds$ . The volatility process should be positive and mean-reverting (i.e., an Ornstein-Uhlenbeck or Cox-Ingersoll-Ross process). Barndorff-Nielsen et al. (2003) reviewed and placed in context some of their recent work on stochastic volatility models including the relationship between subordination and stochastic volatility.
 
 The main difference between the change of time method and the subordinator method is that in the former case the change of time process  $\phi_t$  depends on the process  $X_{t}$ , but in the latter case, the subordinator  $S_{t}$  and Lévy process  $X_{t}$  are independent.
 
-# APPLICATIONS OF CHANGE OF TIME METHOD
+## APPLICATIONS OF CHANGE OF TIME METHOD
 
 The change of time method may be applied to get Black-Scholes formula for GBM, explicit option pricing formula for a mean-reverting asset, and to price swaps in financial models with stochastic volatility.
 
-# Black-Scholes by Change of Time Method
+## Black-Scholes by Change of Time Method
 
 In the early 1970s, Black et al. (1973) made a major breakthrough by deriving a pricing formula for vanilla option written on a stock. Their model and its extensions assume that the probability distribution of the underlying cash flow at any given future time is lognormal. There are many proofs of their result, including partial differential equation and the martingale approach.[11]
 
 One of the aims of this entry is to give an idea of how to get the Black-Scholes result by the change of time method.
 
-# An Option Pricing Formula for a Mean-Reverting Asset Model Using a Change of Time Method
+## An Option Pricing Formula for a Mean-Reverting Asset Model Using a Change of Time Method
 
 Some commodity prices, like oil and gas, exhibit mean reversion. This means that they tend over time to return to some long-term mean. This mean-reverting model is a one-factor version of the two-factor model made popular in the context of energy modeling by Pilipovic (1997). Black's model (1976) and Schwartz's model (1997) have become standard tools to price options on commodities. These models have the advantage that they give rise to closed- form solutions for some types of option. $^{12}$  We note that the recent book by Geman (2005) discusses hard and soft commodities (that is, energy, agriculture, and metals) and also presents an analysis of economic and geopolitical issues in commodities markets. Here, we show how to get an explicit option pricing formula for a continuous-time GARCH asset price model using change of time.
 
 
 One of the aims of this entry is to get an explicit option pricing formula for a mean-reverting asset using change of time method.
 
-# Swaps by Change of Time Method: Heston Model
+## Swaps by Change of Time Method: Heston Model
 
 One of the applications of change of time method is to value variance, volatility, covariance, and correlation swaps for Heston's (1993) model. Change of time method for pricing of different types of swaps for Heston's model and pricing of options has been considered in Swishchuk (2004, 2007, 2008c). Applications of change of time method to Lévy-based stochastic volatility models, interest rates, and energy derivatives have been considered in Swishchuk (2008a, 2008b, 2010a, 2010b).
 

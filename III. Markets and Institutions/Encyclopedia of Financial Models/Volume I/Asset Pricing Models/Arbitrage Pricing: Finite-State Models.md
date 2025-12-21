@@ -1,4 +1,21 @@
 
+# ---
+title: Arbitrage Pricing: Finite-State Models
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Asset Pricing Models
+formatted: 2025-12-21 08:45:00 AM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+  - arbitrage pricing theory
+  - finite state models
+  - no arbitrage principle
+  - state price deflators
+  - risk neutral valuation
+  - complete markets
+  - multiperiod arbitrage
+cssclasses: academia
+---
+
 # Arbitrage Pricing: Finite-State Models
 
 Partner, The Intertek Group
@@ -36,7 +53,7 @@ We create a portfolio consisting of A and B that will reproduce the payoff of C 
 We also know that  $w_{A} + w_{B} = 1$ . If we solved for the weights for  $w_{A}$  and  $w_{B}$  that would simultaneously satisfy the above equations, we would find that the portfolio should have  $40\%$  in asset A (i.e.,  $w_{A} = 0.4$ ) and  $60\%$  in asset B (i.e.,  $w_{B} = 0.6$ ). The cost of that portfolio will be equal to
 
 $$
-(0. 4) (\$ 7 0) + (0. 6) (\$ 6 0) = \$ 6 4
+(0.4) (\$70) + (0.6) (\$60) = \$64
 $$
 
 Our portfolio (i.e., package of assets) comprised of assets A and B has the same payoff in State 1 and State 2 as the payoff of asset C. The cost of asset C is  \$80 while the cost of the portfolio is only\$ 64. This is an arbitrage opportunity that can be exploited by buying assets A and B in the proportions given above and shorting (selling) asset C.
@@ -215,31 +232,31 @@ $$ which demonstrates that  $\mathbf{S} = E[\mathbf{D}\pi ]$
 We can now specialize the above calculations in the numerical case of the previous section. Recall that in the previous section we gave the example of three securities with the following prices and payoffs expressed in dollars:
 
 $$
-\mathbf {S} = \left[ \begin{array}{c} 7 0 \\ 6 0 \\ 8 0 \end{array} \right]
+\mathbf {S} = \left[ \begin{array}{c} 70 \\ 60 \\ 80 \end{array} \right]
 $$
 
 $$
-\mathbf {D} = \left[ \begin{array}{c c} 5 0 & 1 0 0 \\ 3 0 & 1 2 0 \\ 3 8 & 1 1 2 \end{array} \right]
+\mathbf {D} = \left[ \begin{array}{c c} 50 & 100 \\ 30 & 120 \\ 38 & 112 \end{array} \right]
 $$
 
 We first compute the relative state prices:
 
 $$
-5 0 \psi_{1} + 1 0 0 \psi_{2} = 7 0
+50 \psi_{1} + 100 \psi_{2} = 70
 $$
 
 $$
-3 0 \psi_{1} + 1 2 0 \psi_{2} = 6 0
+30 \psi_{1} + 120 \psi_{2} = 60
 $$
 
 $$
-3 8 \psi_{1} + 1 1 2 \psi_{2} = 8 0
+38 \psi_{1} + 112 \psi_{2} = 80
 $$
 
 Solving the first two equations, we obtain
 
 $$
-\left[ \begin{array}{c} \psi_{1} \\ \psi_{2} \end{array} \right] = \left[ \begin{array}{c} 4 / 5 \\ 3 / 1 0 \end{array} \right]
+\left[ \begin{array}{c} \psi_{1} \\ \psi_{2} \end{array} \right] = \left[ \begin{array}{c} 4/5 \\ 3/10 \end{array} \right]
 $$
 
 However, the third equation is not satisfied by these values for the state prices. As a consequence, there does not exist a state-price vector, which confirms that there are arbitrage opportunities as observed in the first section.
@@ -247,24 +264,24 @@ However, the third equation is not satisfied by these values for the state price
 Now suppose that the price of security C is  \$64 and not\$ 80. In this case, the third equation is satisfied and the state-price vector is the one shown above. Risk-neutral probabilities can now be easily computed. Here is how. First sum the two state prices:  $\frac{4}{5} + \frac{3}{10} = \frac{11}{10}$  to obtain
 
 $$
-\psi_{0} = \psi_{1} + \psi_{2} =^{1 1} /_{1 0}
+\psi_{0} = \psi_{1} + \psi_{2} = 11/10
 $$ and consequently the risk-neutral probabilities:
 
 
 $$
-\boldsymbol {\psi} = \left[ \begin{array}{l} \psi_{1} \\ \psi_{2} \end{array} \right] = \left[ \begin{array}{l} \psi_{1} / \psi_{0} \\ \psi_{2} / \psi_{0} \end{array} \right] = \left[ \begin{array}{l}^{8} /_{1 1} \\^{3} /_{1 1} \end{array} \right]
+\boldsymbol {\psi} = \left[ \begin{array}{l} \psi_{1} \\ \psi_{2} \end{array} \right] = \left[ \begin{array}{l} \psi_{1} / \psi_{0} \\ \psi_{2} / \psi_{0} \end{array} \right] = \left[ \begin{array}{l} 8/11 \\ 3/11 \end{array} \right]
 $$
 
 Risk-neutral probabilities sum to one while state prices do not. We can now check if our market is complete. Write the following equations:
 
 $$
-\begin{array}{l} 5 0 \theta_{1} + 3 0 \theta_{2} + 3 8 \theta_{3} = \xi_{1} \\ 1 0 0 \theta_{1} + 1 2 0 \theta_{2} + 1 1 2 \theta_{3} = \xi_{2} \\ \end{array}
+\begin{array}{l} 50 \theta_{1} + 30 \theta_{2} + 38 \theta_{3} = \xi_{1} \\ 100 \theta_{1} + 120 \theta_{2} + 112 \theta_{3} = \xi_{2} \\ \end{array}
 $$
 
 The rank of the coefficient matrix is clearly 2 as the determinant of the first minor is different from zero:
 
 $$
-\left[ \begin{array}{c c} 5 0 & 3 0 \\ 1 0 0 & 1 2 0 \end{array} \right] = 5 0 \times 1 2 0 - 1 0 0 \times 3 0 = 3 0 0 \neq 0
+\left[ \begin{array}{c c} 50 & 30 \\ 100 & 120 \end{array} \right] = 50 \times 120 - 100 \times 30 = 3000 \neq 0
 $$
 
 Our sample market is therefore complete and arbitrage-free. A portfolio composed of the first two securities can replicate any payoff and the third security can be replicated as a portfolio of the first two.
@@ -330,7 +347,7 @@ $$
 As we defined  $P(\{\omega\}) \equiv p_{\omega}$ , the previous equation becomes
 
 $$
-\begin{array}{l} P (\{\omega \} | A_{k t}) = \frac{P (\{\omega \} \cap A_{k t})}{P (A_{k t})} = \frac{P (\{\omega \})}{P (A_{k t})} \\ = \frac{p_{\omega}}{\left(\sum_{\omega \in A_{k t}} p_{\mathbf {t} 0}\right)} \\ \end{array}
+\begin{array}{l} P (\{\omega \} | A_{k t}) = \frac{P (\{\omega \} \cap A_{k t})}{P (A_{k t})} = \frac{P (\{\omega \})}{P (A_{k t})} \\ = \frac{p_{\omega}}{\left(\sum_{\omega \in A_{k t}} p_{\omega}\right)} \\ \end{array}
 $$ if  $\omega \in A_{kt}$  , 0 if  $\omega \notin A_{kt}$
 
 
@@ -484,7 +501,7 @@ Table 1 Conditional Probabilities
 We will assume that the state-price deflator is the following given process:
 
 $$
-\{\pi_{t (\omega) \} \equiv \left[ \begin{array}{c c c} 1 & 0. 8 & 0. 7 \\ 1 & 0. 8 & 0. 7 5 \\ 1 & 0. 9 & 0. 7 5 \\ 1 & 0. 9 & 0. 8 \end{array} \right]
+\{\pi_{t}(\omega)\} \equiv \left[ \begin{array}{c c c} 1 & 0.8 & 0.7 \\ 1 & 0.8 & 0.75 \\ 1 & 0.9 & 0.75 \\ 1 & 0.9 & 0.8 \end{array} \right]
 $$
 
 Each price is computed according to the previous equations. For example, calculations related to asset 1 are as follows:
@@ -494,15 +511,15 @@ S_{2}^{1} (1) = S_{2}^{1} (2) = S_{2}^{1} (3) = S_{2}^{1} (4) = 0
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 1}}^{1} = \frac{1}{0 . 8} (0. 5 \times 0. 7 \times 5 0 + 0. 5 \times 0 7 5 \times 1 0 0) \\ = 6 8. 7 5 \\ \end{array}
+\begin{array}{l} S_{A_{1,1}}^{1} = \frac{1}{0.8} (0.5 \times 0.7 \times 50 + 0.5 \times 0.75 \times 100) \\ = 68.75 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{2, 1}}^{1} = \frac{1}{0 . 9} (0. 5 \times 0. 7 5 \times 7 0 + 0. 5 \times 0. 8 \times 1 1 0) \\ = 7 8. 0 5 \\ \end{array}
+\begin{array}{l} S_{A_{2,1}}^{1} = \frac{1}{0.9} (0.5 \times 0.75 \times 70 + 0.5 \times 0.8 \times 110) \\ = 78.05 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 0}}^{1} = \frac{1}{1} [ 0. 2 5 (0. 8 \times 1 5 + 0. 7 \times 5 0) \\ + 0. 2 5 (0. 8 \times 1 5 + 0. 7 5 \times 1 0 0) \\ + 0. 2 5 (0. 9 \times 2 0 + 0. 7 5 \times 7 0) \\ \left. + 0. 2 5 \left(0. 9 \times 2 0 + 0. 8 \times 1 1 0\right) \right] \\ = 6 8. 7 5 \\ \end{array}
+\begin{array}{l} S_{A_{1,0}}^{1} = \frac{1}{1} [ 0.25 (0.8 \times 15 + 0.7 \times 50) \\ + 0.25 (0.8 \times 15 + 0.75 \times 100) \\ + 0.25 (0.9 \times 20 + 0.75 \times 70) \\ \left. + 0.25 (0.9 \times 20 + 0.8 \times 110) \right] \\ = 68.75 \\ \end{array}
 $$
 
 $$
@@ -510,15 +527,15 @@ S_{2}^{2} (1) = S_{2}^{2} (2) = S_{2}^{2} (3) = S_{2}^{2} (4) = 0
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 1}}^{2} = \frac{1}{0 . 8} (0. 5 \times 0. 7 \times 3 0 + 0. 5 \times 0. 7 5 \times 1 2 0) \\ = 6 9. 3 7 \\ \end{array}
+\begin{array}{l} S_{A_{1,1}}^{2} = \frac{1}{0.8} (0.5 \times 0.7 \times 30 + 0.5 \times 0.75 \times 120) \\ = 69.37 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{2, 1}}^{2} = \frac{1}{0 . 9} (0. 5 \times 0. 7 5 \times 4 0 + 0. 5 \times 0. 8 \times 1 4 0) \\ = 7 8. 8 8 \\ \end{array}
+\begin{array}{l} S_{A_{2,1}}^{2} = \frac{1}{0.9} (0.5 \times 0.75 \times 40 + 0.5 \times 0.8 \times 140) \\ = 78.88 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 0}}^{2} = \frac{1}{1} [ 0. 2 5 (0. 8 \times 8 + 0. 7 \times 3 0) \\ + 0. 2 5 (0. 8 \times 8 + 0. 7 5 \times 1 2 0) \\ + 0. 2 5 (0. 9 \times 1 5 + 0. 7 5 \times 4 0) \\ \left. + 0. 2 5 \left(0. 9 \times 1 5 + 0. 8 \times 1 4 0\right) \right] \\ = 7 3. 2 \\ \end{array}
+\begin{array}{l} S_{A_{1,0}}^{2} = \frac{1}{1} [ 0.25 (0.8 \times 8 + 0.7 \times 30) \\ + 0.25 (0.8 \times 8 + 0.75 \times 120) \\ + 0.25 (0.9 \times 15 + 0.75 \times 40) \\ \left. + 0.25 (0.9 \times 15 + 0.8 \times 140) \right] \\ = 73.2 \\ \end{array}
 $$
 
 $$
@@ -526,51 +543,51 @@ S_{2}^{3} (1) = S_{2}^{3} (2) = S_{2}^{3} (3) = S_{2}^{3} (4) = 0
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 1}}^{3} = \frac{1}{0 . 8} (0. 5 \times 0. 7 \times 3 8 + 0. 5 \times 0. 7 5 \times 1 1 2) \\ = 6 9. 1 2 \\ \end{array}
+\begin{array}{l} S_{A_{1,1}}^{3} = \frac{1}{0.8} (0.5 \times 0.7 \times 38 + 0.5 \times 0.75 \times 112) \\ = 69.12 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{2, 1}}^{3} = \frac{1}{0 . 9} (0. 5 \times 0. 7 5 \times 4 2 + 0. 5 \times 0. 8 \times 1 3 0) \\ = 7 5. 2 7 \\ \end{array}
+\begin{array}{l} S_{A_{2,1}}^{3} = \frac{1}{0.9} (0.5 \times 0.75 \times 42 + 0.5 \times 0.8 \times 130) \\ = 75.27 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S_{A_{1, 0}}^{3} = \frac{1}{1} [ 0. 2 5 (0. 8 \times 5 + 0. 7 \times 3 8) \\ + 0. 2 5 (0. 8 \times 5 + 0. 7 5 \times 1 1 2) \\ + 0. 2 5 (0. 9 \times 8 + 0. 7 5 \times 4 2) \\ \left. + 0. 2 5 \left(0. 9 \times 8 + 0. 8 \times 1 3 0\right) \right] \\ = 6 7. 1 2 5 \\ \end{array}
+\begin{array}{l} S_{A_{1,0}}^{3} = \frac{1}{1} [ 0.25 (0.8 \times 5 + 0.7 \times 38) \\ + 0.25 (0.8 \times 5 + 0.75 \times 112) \\ + 0.25 (0.9 \times 8 + 0.75 \times 42) \\ \left. + 0.25 (0.9 \times 8 + 0.8 \times 130) \right] \\ = 67.125 \\ \end{array}
 $$
 
 With the above equations we computed prices from payoffs and state-price deflators. If prices and payoffs were given, we could compute state-price deflators from the homogeneous system for state prices established above. Suppose that the following price processes were given:
 
 $$
-\{S_{t}^{1} (\omega) \} = \left[ \begin{array}{c c c} 6 8. 7 5 & 6 8. 7 5 & 0 \\ 6 8. 7 5 & 6 8. 7 5 & 0 \\ 6 8. 7 5 & 7 8. 0 5 & 0 \\ 6 8. 7 5 & 7 8. 0 5 & 0 \end{array} \right]
+\{S_{t}^{1}(\omega)\} = \left[ \begin{array}{c c c} 68.75 & 68.75 & 0 \\ 68.75 & 68.75 & 0 \\ 68.75 & 78.05 & 0 \\ 68.75 & 78.05 & 0 \end{array} \right]
 $$
 
 $$
-\{S_{t}^{2} (\omega) \} = \left[ \begin{array}{l l l} 7 3. 2 & 6 9. 3 7 & 0 \\ 7 3. 2 & 6 9. 3 7 & 0 \\ 7 3. 2 & 7 8. 8 8 & 0 \\ 7 3. 2 & 7 8. 8 8 & 0 \end{array} \right]
+\{S_{t}^{2}(\omega)\} = \left[ \begin{array}{l l l} 73.2 & 69.37 & 0 \\ 73.2 & 69.37 & 0 \\ 73.2 & 78.88 & 0 \\ 73.2 & 78.88 & 0 \end{array} \right]
 $$
 
 $$
-\{S_{t}^{3} (\omega) \} = \left[ \begin{array}{c c c} 6 7. 1 2 5 & 6 9. 1 2 & 0 \\ 6 7. 1 2 5 & 6 9. 1 2 & 0 \\ 6 7. 1 2 5 & 7 5. 2 7 & 0 \\ 6 7. 1 2 5 & 7 5. 2 7 & 0 \end{array} \right]
+\{S_{t}^{3}(\omega)\} = \left[ \begin{array}{c c c} 67.125 & 69.12 & 0 \\ 67.125 & 69.12 & 0 \\ 67.125 & 75.27 & 0 \\ 67.125 & 75.27 & 0 \end{array} \right]
 $$
 
 We could then write the following system of equations to compute state-price deflators:
 
 $$
-\begin{array}{l} 0. 2 5 \times 5 0 \times \pi_{2} (1) + 0. 2 5 \times 1 0 0 \times \pi_{2} (2) \\ - 6 8. 7 5 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ \end{array}
+\begin{array}{l} 0.25 \times 50 \times \pi_{2}(1) + 0.25 \times 100 \times \pi_{2}(2) \\ - 68.75 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 0. 2 5 \times 7 0 \times \pi_{2} (1) + 0. 2 5 \times 1 1 0 \times \pi_{2} (2) \\ - 7 8. 0 5 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ \end{array}
+\begin{array}{l} 0.25 \times 70 \times \pi_{2}(1) + 0.25 \times 110 \times \pi_{2}(2) \\ - 78.05 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} (5 5 \times 0. 5 + 0. 5 \times 1 5) \times \pi_{A_{1, 1}} + (7 0. 2 5 \times 0. 5 \\ + 0. 5 \times 2 0) \times \pi_{A_{2, 1}} - 6 8. 7 5 \times \pi_{A_{1, 0}} = 0 \\ \end{array}
+\begin{array}{l} (55 \times 0.5 + 0.5 \times 15) \times \pi_{A_{1,1}} + (70.25 \times 0.5 \\ + 0.5 \times 20) \times \pi_{A_{2,1}} - 68.75 \times \pi_{A_{1,0}} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 0. 2 5 \times 3 0 \times \pi_{2} (1) + 0. 2 5 \times 1 2 0 \times \pi_{2} (2) \\ - 6 9. 3 7 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ \end{array}
+\begin{array}{l} 0.25 \times 30 \times \pi_{2}(1) + 0.25 \times 120 \times \pi_{2}(2) \\ - 69.37 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 0. 2 5 \times 4 0 \times \pi_{2} (1) + 0. 2 5 \times 1 4 0 \times \pi_{2} (2) \\ - 7 8. 8 8 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ \end{array}
+\begin{array}{l} 0.25 \times 50 \times \pi_{2}(1) + 0.25 \times 100 \times \pi_{2}(2) \\ - 68.75 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ \end{array}
 $$
 
 $$
@@ -578,7 +595,7 @@ $$
 $$
 
 $$
-\begin{array}{l} 0. 2 5 \times 3 8 \times \pi_{2} (1) + 0. 2 5 \times 1 1 5 \times \pi_{2} (2) \\ - 6 9. 1 2 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ 0. 2 5 \times 4 2 \times \pi_{2} (1) + 0. 2 5 \times 1 3 0 \times \pi_{2} (2) \\ - 7 5. 2 7 \times 0. 5 \times \pi_{A_{1, 1}} = 0 \\ (5 5 \times 0. 5 + 0. 5 \times 1 5) \times \pi_{A_{1, 1}} + (7 0. 2 5 \times 0. 5 \\ + 0. 5 \times 2 0) \times \pi_{A_{2, 1}} - 6 7. 1 2 5 \times \pi_{A_{1, 0}} = 0 \\ \end{array}
+\begin{array}{l} 0.25 \times 30 \times \pi_{2}(1) + 0.25 \times 120 \times \pi_{2}(2) \\ - 69.37 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ 0.25 \times 40 \times \pi_{2}(1) + 0.25 \times 140 \times \pi_{2}(2) \\ - 78.88 \times 0.5 \times \pi_{A_{1,1}} = 0 \\ (55 \times 0.5 + 0.5 \times 8) \times \pi_{A_{1,1}} + (71 \times 0.5 \\ + 0.5 \times 15) \times \pi_{A_{2,1}} - 73.2 \times \pi_{A_{1,0}} = 0 \\ \end{array}
 $$
 
 It can be verified that this system, obviously, is solvable and returns the same state-price deflators as in the previous example.

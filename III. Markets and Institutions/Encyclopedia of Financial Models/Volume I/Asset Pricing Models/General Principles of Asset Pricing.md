@@ -1,4 +1,24 @@
 
+---
+title: "General Principles of Asset Pricing"
+parent_directory: "Asset Pricing Models"
+formatted: "2025-12-21 08:40:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - asset pricing theory
+  - state pricing
+  - arbitrage pricing
+secondary_tags:
+  - stochastic discount factor
+  - risk neutral pricing
+  - market completeness
+  - law of one price
+  - linear pricing
+  - fundamental theorem
+cssclasses: academia
+---
+
 # General Principles of Asset Pricing
 
 Frederick Bierman and James E. Spears Professor of Finance, Olin Business School, Washington University in St. Louis
@@ -9,7 +29,7 @@ Abstract: Asset pricing is mainly about transforming asset payoffs into prices. 
 
 In this entry, we discuss the general principles of asset pricing. Our focus here is to analyze asset pricing in a more general setup. Due to its generality, this entry is inevitably more abstract and challenging, but important for understanding the foundations of modern asset pricing theory. First, by extending the state-dependent contingent claims with two possible states allowing for an arbitrary number of states, we introduce the economic notions of complete market, the law of one price, and arbitrage. Then, we provide the fundamental theorem of asset pricing that ties these concepts to asset pricing relations. Subsequently, we discuss stochastic discount factor models, which is the unified framework of various asset pricing theories that include the capital asset pricing model (CAPM) (see Sharpe, 1964; Lintner, 1965; Mossin, 1966) and arbitrage pricing theory (APT) (see Ross, 1976) as special cases.
 
-# ONE-PERIOD FINITE STATE ECONOMY
+## ONE-PERIOD FINITE STATE ECONOMY
 
 If a security has payoffs, denoted by  $x$ ,
 
@@ -45,7 +65,7 @@ $$
 
 As it turns out, simple economic principles imply many useful properties for the mapping, which comprises the general principles of asset pricing to be discussed below.
 
-# PORTFOLIOS AND MARKET COMPLETENESS
+## PORTFOLIOS AND MARKET COMPLETENESS
 
 In evaluating securities, a key principle is to evaluate them as a whole, and not in isolation. To do so, consider a portfolio of the  $N$  securities
 
@@ -100,7 +120,7 @@ $$
 
 Note that the payoff of the portfolio is negative, -\$ 1, in the down state. This means that when the economy is down, one has to buy back the second security at a price of 1 (its value in the down state) to cover the short position. The net cost is \$ 1, the payoff of the portfolio in the down state. In contrast to the portfolio where equal dollar amounts are invested in both securities, this portfolio with short sales permitted has a higher payoff of \$ 2 in the up state, which compensates for the loss in the down state.
 
-# Redundant Assets
+### Redundant Assets
 
 A portfolio is uniquely determined by its portfolio weights, which can be summarized by the  $N$ -vector
 
@@ -143,7 +163,7 @@ $$
 
 The primitive asset  $x_{2}$  is redundant here because its payoff is simply double the payoff of the first asset.
 
-# Complete Market
+### Complete Market
 
 In an economy with  $N$  risky securities and  $s$  states, a security market is formed if arbitrary buying and shorting are allowed, which creates infinitely many possible portfolios. We say the market is complete and is hence referred to as a complete market, if, for any possible payoff, there is a portfolio of the primitive securities to replicate it. That is, for any desired payoff  $\tilde{x}$ , we can find portfolio weights such that
 
@@ -184,11 +204,11 @@ $$
 
 Consequently, for  $s$  possible states, we should have at least  $N \geq s$  primitive assets for the market to be complete. One can verify that the rank condition holds for the two securities in our first example, but not in our second example.
 
-# THE LAW OF ONE PRICE AND LINEAR PRICING
+## THE LAW OF ONE PRICE AND LINEAR PRICING
 
 In this section, we first discuss the law of one price and its relation to the linear pricing rule, and then introduce the concept of state price and relate it to the law of one price.
 
-# Linear Pricing
+### Linear Pricing
 
 The law of one price (LOP) says that two assets with identical payoffs must have the same price. In international trade, in the absence of tariffs and transportation costs, an apple sold in New York City must have the same price as an apple sold in London after converting the money into the same currency. This provides an economic channel through which to tie the currencies together. In the financial markets, the LOP says that we should not be able to profit from buying the same security at a higher price and selling it at a lower one.
 
@@ -220,7 +240,7 @@ The linear pricing rule clearly implies the LOP. The price mapping is uniquely d
 
 Linear Pricing Rule: The law of one price is valid if and only if the linear pricing rule is true.
 
-# State Price
+### State Price
 
 In asset pricing, the concept of a state price is fundamental. In our states economy, there are  $s$  states. The state price in state  $i$  is the price investors are willing to pay today to obtain one unit of payoff in that state, and nothing in other states. The state price is also known as the Arrow-Debreu price, named in honor of the originators. A state price vector will then be an  $s$ -vector of all the prices in all the states. If there exists a state price vector  $q = (q_{1}, q_{2}, \ldots, q_{s})'$ , then we can write the asset price for each primitive security as
 
@@ -299,7 +319,7 @@ $$
 
 It can be verified that these prices indeed work for pricing the two primitive securities.
 
-# ARBITRAGE AND POSITIVE STATE PRICING
+## ARBITRAGE AND POSITIVE STATE PRICING
 
 The assumption of the absence of arbitrage is the foundation upon which asset pricing theories rely. When there are any free lunches or what economists refer to as arbitrage opportunities, asset prices are not rational. Investors are likely to be able to correct the prices by exploiting the arbitrage opportunities, and eventually these opportunities will disappear, and the prices will reflect their true values. Asset pricing theory is largely concerned with these equilibrium true values.
 
@@ -377,7 +397,7 @@ Note that the pricing operator is to map the payoffs of an asset to its price, a
 
 Arbitrage is also related to the LOP. If there is no arbitrage, the LOP must be true. This is because if two portfolios with two identical payoffs were sold at different prices, a "buy low and sell high" strategy will result in the construction of a portfolio with zero payoffs in the future, but with positive proceeds today. This is an arbitrage of the first type. Thus, the no-arbitrage condition is stronger than the LOP. In finance, the assumption of no arbitrage is crucial, as explained next by the fundamental theorem of asset pricing.
 
-# THE FUNDAMENTAL THEOREM OF ASSET PRICING
+## THE FUNDAMENTAL THEOREM OF ASSET PRICING
 
 Consider now an investor's utility maximization problem. Assume the investor prefers more to less, so that the utility function is monotonic in the consumption level. Given an initial wealth  $W_0$ , and given the trading opportunities, the investor's future consumption, as a vector in the  $s$  states, will be
 
@@ -419,7 +439,7 @@ To see how the existence of a positive linear pricing rule implies the existence
 
 An important insight from the fundamental theorem is what we need for rational pricing. In deriving pricing formulas, many theoretical equilibrium asset pricing models assume all investors behave rationally and have identical information sets. The theorem says that, to rationally price assets or to ensure market pricing efficiency, we do not need to assume that all investors are smart. What we need is a few smart ones who can capitalize on any arbitrage opportunities. Then, the prices should be in line with their payoffs in the economy.
 
-# The Discount Factor
+### The Discount Factor
 
 Related to the fundamental theorem is the concept of the discount factor. As it turns out, this is the common feature of almost all asset pricing models, a point that will become evident in the next section. Let  $\theta_{i} > 0$  be the probability for state  $i$  to occur. The linear pricing rule given by equation (15) can be rewritten as
 
@@ -483,7 +503,7 @@ $$
 
 The discount factor prices the assets by taking the expectation under the true probabilities.
 
-# Pricing Using Risk-Neutral Probabilities
+### Pricing Using Risk-Neutral Probabilities
 
 Alternatively, one can also price the assets under a probability measure known as the risk-neutral probabilities. The approach is especially useful for pricing derivatives. The reason is that the risk-neutralized payoffs are easier to determine, while the solution of the discount factor is more complex.
 

@@ -1,32 +1,61 @@
 
+---
+title: "Conditional Expectation and Change of Measure"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Stochastic Processes and Tools"
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - conditional expectation
+  - change of measure
+  - risk-neutral pricing
+  - martingale properties
+  - markov processes
+  - tempered stable processes
+secondary_tags:
+  - stochastic processes
+  - probability measures
+  - filtration theory
+  - esscher transform
+  - girsanov theorem
+  - levy processes
+  - option pricing
+  - no-arbitrage pricing
+  - black-scholes model
+  - mathematical finance
+  - probability theory
+  - measure theory
+  - financial mathematics
+cssclasses: academia
+---
+
 # Conditional Expectation and Change of Measure
 
-SVETLOZAR T. RACHEV, PhD, Dr Sci
+## Authors
 
+SVETLOZAR T. RACHEV, PhD, Dr Sci  
 Frey Family Foundation Chair-Professor, Department of Applied Mathematics and Statistics, Stony Brook University, and Chief Scientist, FinAnalytica
 
-YOUNG SHIN KIM, PhD
-
+YOUNG SHIN KIM, PhD  
 Research Assistant Professor, School of Economics and Business Engineering, Karlsruhe Institute of Technology, Germany
 
-MICHELE LEONARDO BIANCHI, PhD
-
+MICHELE LEONARDO BIANCHI, PhD  
 Research Analyst, Specialized Intermediaries Supervision Department, Bank of Italy
 
-FRANK J. FABOZZI, PhD, CFA, CPA, CFA
-
+FRANK J. FABOZZI, PhD, CFA, CPA, CFA  
 Professor of Finance, EDHEC Business School
 
-Abstract: The current price of an option is obtained by the conditional expectation of the payoff function under the risk-neutral measure. The risk-neutral measure is the measure equivalent to the real market measure under which the discounted price process of the underlying stock becomes a martingale. In the Black-Scholes model, the risk-neutral measure can be obtained by the Girsanov theorem. The Esscher transform has been used to find the risk-neutral measure for the continuous Lévy process models. The general theory of the Esscher transform is applied to find the risk-neutral measure under tempered stable Lévy process models.
+## Abstract
+
+The current price of an option is obtained by the conditional expectation of the payoff function under the risk-neutral measure. The risk-neutral measure is the measure equivalent to the real market measure under which the discounted price process of the underlying stock becomes a martingale. In the Black-Scholes model, the risk-neutral measure can be obtained by the Girsanov theorem. The Esscher transform has been used to find the risk-neutral measure for the continuous Lévy process models. The general theory of the Esscher transform is applied to find the risk-neutral measure under tempered stable Lévy process models.
 
 In this entry, we present some issues in stochastic processes. We begin by defining events of a probability space mathematically, and then discuss the concept of conditional expectation. We then explain two important notions for stochastic processes: martingale properties and Markov properties. The former relates to the fair price in a market and the latter describes the efficiency of a market. Finally, "change of measures" for processes are discussed. Change of measures for tempered stable processes are important for determining no-arbitrage pricing for assets. Further details about no-arbitrage pricing with the change of measure is discussed in Rachev et al. (2011).
 
-
-# EVENTS,  $\sigma$ -FIELDS, AND FILTRATION
+## Events, $\sigma$-Fields, and Filtration
 
 A set of possible outcomes in a given sample space  $\Omega$  is called an event. An event is mathematically defined as a subset of  $\Omega$ . If we have one event  $A$ , then the set of outcomes that are not included in  $A$  is also an event. For example, if we consider an event that the return of the stock of Disney tomorrow will be positive, then the set of outcomes that Disney's return tomorrow will be negative is also an event. Moreover, if we have two events  $A$  and  $B$ , then a set of outcomes included in both  $A$  and  $B$  is also an event. For instance, consider two events, the first event being that Disney's stock return tomorrow will be positive, and the other event that IBM's stock return tomorrow will be positive. Then a set of outcomes that both stock returns will be positive tomorrow is an event.
 
-The class of events is described mathematically by the  $\sigma$ -field. The  $\sigma$ -field, denoted by  $\mathcal{F}$ , is the class of the subsets of  $\Omega$  that satisfy the following properties:
+The class of events is described mathematically by the $\sigma$-field. The $\sigma$-field, denoted by $\mathcal{F}$, is the class of the subsets of $\Omega$ that satisfy the following properties:
 
 Property 1.  $\emptyset \in \mathcal{F}$  and  $\Omega \in \mathcal{F}$ .
 
@@ -35,209 +64,231 @@ Let  $\mathcal{G}$  denote a class of subsets contained in  $\Omega$ . Then the 
 The probability  $\mathbf{P}$  is a map from a given  $\sigma$ -field  $\mathcal{F}$  to the unit interval [0, 1]. If  $A \subseteq N \in \mathcal{F}$  and  $P(N) = 0$ , then the set  $A$  is referred to as a null set with respect to  $(\Omega, \mathcal{F}, \mathbf{P})$ . Let  $\mathcal{N}$  be the class of all null sets with respect to  $(\Omega, \mathcal{F}, \mathbf{P})$ . The space  $(\Omega, \tilde{\mathcal{F}}, \tilde{\mathbf{P}})$  is referred to as a comple- tion of  $(\Omega, \mathcal{F}, \mathbf{P})$  if  $\tilde{\mathcal{F}} = \sigma(\mathcal{F} \cup \mathcal{N})$  and  $\tilde{\mathbf{P}}(A \cup N) = \mathbf{P}(A)$  for all  $A \in \mathcal{F}$  and  $N \in \mathcal{N}$ . All probability spaces in this entry are assumed to be completions of spaces, that is, all null sets are contained in given  $\sigma$ -fields, and probabilities are defined on completed  $\sigma$ -fields.
 
 
-Let  $(\mathcal{F}_t)_{t\geq 0}$  be a sequence of  $\sigma$  -field with continuous index  $t\geq 0$  (or discrete index  $t = 0,1,2,$  ...). If  $\mathcal{F}_s\subseteq \mathcal{F}_t$  for all  $0\leq s\leq t$  , then  $(\mathcal{F}_t)_{t\geq 0}$  is referred to as a filtration.  $\mathcal{F}_t$  can be interpreted as the "information" available to all market agents at time  $t$  . The filtration describes increasing information for time  $t$
+Let $(\mathcal{F}_t)_{t\geq 0}$ be a sequence of $\sigma$-field with continuous index $t\geq 0$ (or discrete index $t = 0,1,2,\dots$). If $\mathcal{F}_s\subseteq \mathcal{F}_t$ for all $0\leq s\leq t$, then $(\mathcal{F}_t)_{t\geq 0}$ is referred to as a filtration. $\mathcal{F}_t$ can be interpreted as the "information" available to all market agents at time $t$. The filtration describes increasing information for time $t$.
 
-Consider a stochastic process  $X = (X_{t})_{t\geq 0}$  .If  $X_{t}$  is  $\mathcal{F}_t$  -measurable for all  $t\geq 0$  , then  $X$  is referred to as a  $(\mathcal{F}_t)_{t\geq 0}$  -adapted process. If  $X_{t}$  is  $\mathcal{F}_{t - 1}$  measurable for all discrete index  $t = 0,1,2,\ldots$  then  $X$  is referred to as a  $(\mathcal{F}_t)_{t\geq 0}$  -predictable process.
+Consider a stochastic process $X = (X_{t})_{t\geq 0}$. If $X_{t}$ is $\mathcal{F}_t$-measurable for all $t\geq 0$, then $X$ is referred to as a $(\mathcal{F}_t)_{t\geq 0}$-adapted process. If $X_{t}$ is $\mathcal{F}_{t-1}$ measurable for all discrete index $t = 0,1,2,\dots$ then $X$ is referred to as a $(\mathcal{F}_t)_{t\geq 0}$-predictable process.
 
-For a given process  $X = (X_{t})_{t\geq 0}$  we can generate a filtration  $(\mathcal{F}_t)_{t\geq 0}$  by
-
-$$
-\mathcal {F}_{t} = \sigma \left(X_{s}; 0 \leq s \leq t\right)
-$$ where  $\sigma(X_s; 0 \leq s \leq t)$  is the smallest  $\sigma$ -field containing all  $\sigma(X_s)$  with  $0 \leq s \leq t$ . Then the process  $X$  is  $(\mathcal{F}_t)_{t \geq 0}$ -adapted and this filtration is referred to as a filtration generated by  $X$ .
-
-
-# CONDITIONAL EXPECTATION
-
-The conditional expectation is a value of the expectation of a random variable under some restricted events. Let  $g$  be a Borel function,  $X$  be a random variable on a space  $(\Omega, \mathbf{P})$  with  $E[g(X)] < \infty$ , and  $A$  be an event. The conditional expectation  $E[g(X)|A]$  is defined by
+For a given process $X = (X_{t})_{t\geq 0}$ we can generate a filtration $(\mathcal{F}_t)_{t\geq 0}$ by
 
 $$
-E [ g (X) | A ] = \frac{E [ g (X) 1_{A} ]}{P (A)}
-$$ where
-
-
-$$
-1_{A} (\omega) = \left\{ \begin{array}{l l} 0 & \text{if } \omega \notin A \\ 1 & \text{if } \omega \not \in A. \end{array} \right.
+\mathcal{F}_{t} = \sigma(X_{s}; 0 \leq s \leq t)
 $$
 
-Consider a Borel function  $g$ , a stochastic process  $X = (X_{t})_{t\geq 0}$  adapted to filtration  $(\mathcal{F}_t)_{t\geq 0}$ . We can define the conditional expectation on  $\mathcal{F}_t$  as a random variable. That is, the conditional expectation  $E[g(X_T) | \mathcal{F}_t]$  for  $t \leq T$  is a random variable, such that
+where $\sigma(X_s; 0 \leq s \leq t)$ is the smallest $\sigma$-field containing all $\sigma(X_s)$ with $0 \leq s \leq t$. Then the process $X$ is $(\mathcal{F}_t)_{t\geq 0}$-adapted and this filtration is referred to as a filtration generated by $X$.
 
 
-$$
-E [ g (X_{T}) | \mathcal {F}_{t} ] (\omega) = E [ g (X_{T}) | A_{\omega} ], \quad \omega \in \Omega
-$$ where  $A_{\omega}$  is the smallest event in  $\mathcal{F}_t$  with  $\omega \in A_{\omega}$ , or  $A_{\omega} = \cap_{\omega \in B_{\omega} \in \mathcal{F}_t} B_{\omega}$ . Moreover, if  $g$  and  $h$  are Borel functions, and  $0 \leq s \leq t \leq T \leq T^*$ , then we have the following properties:
+## Conditional Expectation
 
-
--  $E[g(X_{t})|\mathcal{F}_{0}] = E[g(X_{t})]$  where  $\mathcal{F}_0 = \{\emptyset, \Omega\}$ .
--  $E[E[g(X_T) | \mathcal{F}_t] | \mathcal{F}_s] = E[g(X_T) | \mathcal{F}_s]$ .
--  $E[g(X_{t})h(X_{T})|F_{t}] = g(X_{t})E[h(X_{T})|F_{t}]$ .
--  $E[ag(X_T) + bh(X_{T^*})|\mathcal{F}_t] = aE[g(X_T)\left|\mathcal{F}_t\right| + bE[h(X_{T^*})|\mathcal{F}_t]$ , for  $a, b \in \mathbb{R}$ .
-
-We write  $E[g(X_{T})|X_{t}]$  instead of  $E[g(X_{T})|\mathcal{F}_{t}]$  when  $\mathcal{F}_t = \sigma (X_t)$ . Hence we have:
-
--  $E[E[g(X_T) | X_t] | X_s] = E[g(X_T) | X_s]$ .
--  $E[g(X_{t})h(X_{T})|X_{t}] = g(X_{t})E[h(X_{T})|X_{t}]$ .
--  $E[ag(X_T) + bh(X_{T^*})|X_t] = aE[g(X_T)|X_t] + bE[h(X_{T^*})|X_t]$ , for  $a, b \in \mathbb{R}$ .
-
-If a  $(\mathcal{F}_t)$ -adapted process  $X = (X_{t})_{t\geq 0}$  satisfies the condition
+The conditional expectation is a value of the expectation of a random variable under some restricted events. Let $g$ be a Borel function, $X$ be a random variable on a space $(\Omega, \mathbf{P})$ with $E[g(X)] < \infty$, and $A$ be an event. The conditional expectation $E[g(X)|A]$ is defined by
 
 $$
-E \left[ g \left(X_{T}\right) \mid \mathcal {F}_{t} \right] = E \left[ g \left(X_{T}\right) \mid X_{t} \right]
-$$ for all  $0 \geq t \geq T$  and Borel function  $g$ , then the process  $X$  is referred to as a Markov process.
+E[g(X)|A] = \frac{E[g(X) 1_A]}{P(A)}
+$$
+
+where
+
+$$
+1_A(\omega) = \left\{ \begin{array}{l l} 0 & \text{if } \omega \notin A \\ 1 & \text{if } \omega \in A. \end{array} \right.
+$$
+
+Consider a Borel function $g$, a stochastic process $X = (X_{t})_{t\geq 0}$ adapted to filtration $(\mathcal{F}_t)_{t\geq 0}$. We can define the conditional expectation on $\mathcal{F}_t$ as a random variable. That is, the conditional expectation $E[g(X_T)|\mathcal{F}_t]$ for $t \leq T$ is a random variable, such that
+
+$$
+E[g(X_T)|\mathcal{F}_t](\omega) = E[g(X_T)|A_{\omega}], \quad \omega \in \Omega
+$$
+
+where $A_{\omega}$ is the smallest event in $\mathcal{F}_t$ with $\omega \in A_{\omega}$, or $A_{\omega} = \cap_{\omega \in B_{\omega} \in \mathcal{F}_t} B_{\omega}$. Moreover, if $g$ and $h$ are Borel functions, and $0 \leq s \leq t \leq T \leq T^{*}$, then we have the following properties:
+
+
+- $E[g(X_t)|\mathcal{F}_0] = E[g(X_t)]$ where $\mathcal{F}_0 = \{\emptyset, \Omega\}$.
+- $E[E[g(X_T)|\mathcal{F}_t]|\mathcal{F}_s] = E[g(X_T)|\mathcal{F}_s]$.
+- $E[g(X_t)h(X_T)|\mathcal{F}_t] = g(X_t)E[h(X_T)|\mathcal{F}_t]$.
+- $E[ag(X_T) + bh(X_{T^*})|\mathcal{F}_t] = aE[g(X_T)|\mathcal{F}_t] + bE[h(X_{T^*})|\mathcal{F}_t]$ for $a, b \in \mathbb{R}$.
+
+We write $E[g(X_T)|X_t]$ instead of $E[g(X_T)|\mathcal{F}_t]$ when $\mathcal{F}_t = \sigma(X_t)$. Hence we have:
+
+- $E[E[g(X_T)|X_t]|X_s] = E[g(X_T)|X_s]$.
+- $E[g(X_t)h(X_T)|X_t] = g(X_t)E[h(X_T)|X_t]$.
+- $E[ag(X_T) + bh(X_{T^*})|X_t] = aE[g(X_T)|X_t] + bE[h(X_{T^*})|X_t]$ for $a, b \in \mathbb{R}$.
+
+If a $(\mathcal{F}_t)$-adapted process $X = (X_{t})_{t\geq 0}$ satisfies the condition
+
+$$
+E[g(X_T)|\mathcal{F}_t] = E[g(X_T)|X_t]
+$$
+
+for all $0 \leq t \leq T$ and Borel function $g$, then the process $X$ is referred to as a Markov process.
 
 
 In finance, a Markov process is used to explain the efficient market hypothesis. Suppose  $X$  is a price process of an asset, and consider a forward contract on the asset with maturity  $T$ . The  $\sigma$ -field  $\mathcal{F}_t$  contains all market information until time  $t$ . Hence,  $F_t = E[X_T | \mathcal{F}_t]$  is the expected price of the forward contract based on the information up to  $t$ . If the market is efficient, all information until  $t$  is impounded into the current price  $X_t$ . Hence, the expected price of the forward contract can be obtained by  $F_t = E[X_T | X_t]$ .
 
-If a  $(\mathcal{F}_t)$ -adapted process  $X = (X_{t})_{t\geq 0}$  satisfies the condition
+If a $(\mathcal{F}_t)$-adapted process $X = (X_{t})_{t\geq 0}$ satisfies the condition
 
 $$
-X_{t} = E [ X_{T} | \mathcal {F}_{t} ]
-$$ for all  $0 \leq t \leq T$ , then the process  $X$  is referred to as a martingale process. The process  $X = (X_{t})_{t \geq 0}$
-
-
-with  $X_{t} = \sigma W_{t}$  is a martingale process, where  $\sigma >0$  and  $(W_{t})_{t\geq 0}$  is the standard Brownian motion. Since  $X_{t}$  is  $\mathcal{F}_t$  -measurable, we have
-
-$$
-\begin{array}{l} E \left[ X_{T} \mid \mathcal {F}_{t} \right] = E \left[ X_{T} - X_{t} + X_{t} \mid \mathcal {F}_{t} \right] \\ = E \left[ X_{T} - X_{t} \mid \mathcal {F}_{t} \right] + X_{t} \\ \end{array}
+X_t = E[X_T|\mathcal{F}_t]
 $$
 
-Since  $X$  has stationary and independent increments,
+for all $0 \leq t \leq T$, then the process $X$ is referred to as a martingale process. The process $X = (X_t)_{t\geq 0}$ with $X_t = \sigma W_t$ is a martingale process, where $\sigma > 0$ and $(W_t)_{t\geq 0}$ is the standard Brownian motion. Since $X_t$ is $\mathcal{F}_t$-measurable, we have
 
 $$
-\begin{array}{l} E \left[ X_{T} - X_{t} \mid \mathcal {F}_{t} \right] = E \left[ X_{T} - X_{t} \right] = E \left[ X_{T - t} \right] \\ = E [ \sigma W_{T - t} ] = 0 \\ \end{array}
+E[X_T|\mathcal{F}_t] = E[X_T - X_t + X_t|\mathcal{F}_t] = E[X_T - X_t|\mathcal{F}_t] + X_t
 $$
 
-Hence the process  $X$  is a martingale.
+Since $X$ has stationary and independent increments,
+
+$$
+E[X_T - X_t|\mathcal{F}_t] = E[X_T - X_t] = E[X_{T-t}] = E[\sigma W_{T-t}] = 0
+$$
+
+Hence the process $X$ is a martingale.
 
 In finance, a martingale process describes the fair price or no-arbitrage price for an asset. For example, consider one share of a stock and a forward contract that required delivery of one share of that stock to the forward contract holder at the maturity date. Suppose  $(S_{t})_{t\geq 0}$  is a stock price process and  $(F_{t})_{0\leq t\leq T}$  is the price process for the forward contract with maturity  $T$ . The forward price at time  $t < T$  is given by the conditional expectation of  $S_{T}$  based on the information until time  $t$ , that is,  $F_{t} = E[S_{T}|\mathcal{F}_{t}]$ . Moreover, we can see that  $F_{t} = S_{t}$  for all  $t$  with  $0\leq t\leq T$  by the following argument. Suppose  $F_{t} > S_{t}$ . Then we obtain the difference  $F_{t} - S_{t} > 0$  at time  $t$  by purchasing one share of the stock at price  $S_{t}$  and selling the forward contract at price  $F_{t}$ . We invest the proceeds in a money market account with interest rate  $r$ . At time  $T$ , by delivering the stock to the holder of the forward contract, we will then have  $e^{r(T - t)}(F_t - S_t)$ , which is an arbitrage profit. If  $F_{t} > S_{t}$ , then another arbitrage opportunity can be found by selling (i.e., shorting) one share of the stock and purchasing the forward contract. Therefore, to eliminate arbitrage opportunities,  $F_{t}$  should be equal to  $S_{t}$ ; that is, the stock price process should be a martingale.
 
-# CHANGE OF MEASURES
+## Change of Measures
 
 In this section, we will present change of measure for random variables and Lévy processes. Change of measure is an important method to determine no-arbitrage prices of assets and derivatives.
 
 
-# Equivalent Probability Measure
+### Equivalent Probability Measure
 
-Consider two probability measures  $\mathbf{P}$  and  $\mathbf{Q}$  on a sample space  $\Omega$  and  $\sigma$ -field  $\mathcal{F}$ . If they satisfy the condition
-
-$$
-\mathbf {Q} (A) = 0 \Rightarrow \mathbf {P} (A) = 0,
-$$ then we say that  $\mathbf{P}$  is absolutely continuous with respect to  $\mathbf{Q}$ , and denote  $\mathbf{P} \ll \mathbf{Q}$ . Moreover, if  $\mathbf{P} \ll \mathbf{Q}$  and  $\mathbf{Q} \ll \mathbf{P}$ , that is,
-
+Consider two probability measures $\mathbf{P}$ and $\mathbf{Q}$ on a sample space $\Omega$ and $\sigma$-field $\mathcal{F}$. If they satisfy the condition
 
 $$
-\mathbf {Q} (A) = 0 \Leftrightarrow \mathbf {P} (A) = 0,
-$$ then we say that  $\mathbf{P}$  and  $\mathbf{Q}$  are equivalent.
-
-
-If  $\mathbf{Q} \ll \mathbf{P}$ , then there exists a positive random variable  $\xi$  with  $\int_{\Omega} \xi d\mathbf{P} = 1$  and
-
-$$
-\mathbf {Q} (A) = \int_{A} \xi \mathrm{d} \mathbf {P} \tag {1}
-$$ for any  $A\in \mathcal{F}$  . In this case,  $\xi$  is referred to as the Radon-Nikodym derivative, and denotes
-
-
-$$
-\xi = \frac{d \mathbf {Q}}{d \mathbf {P}}
+\mathbf{Q}(A) = 0 \Rightarrow \mathbf{P}(A) = 0,
 $$
 
-Conversely, if there is a positive random variable  $\xi$  with  $\int_{\Omega} \xi d\mathbf{P} = 1$  and  $\mathbf{Q}$  is defined by equation (1), then  $\mathbf{Q}$  is also a probability measure and  $\mathbf{Q} \ll \mathbf{P}$ .
-
-Let  $X$  be a random variable on a probability measure  $\mathbf{P}$ , and  $f(x) = \frac{\partial}{\partial x} \mathbf{P}(X \leq x)$  be the probability density function (p.d.f.) of  $X$ . Suppose  $\mathbf{Q}$  is a probability measure and the probability density function of  $X$  on  $\mathbf{Q}$  is given by  $g(x) = \frac{\partial}{\partial x} \mathbf{Q}(X \leq x)$ . If  $\mathbf{P}$  and  $\mathbf{Q}$  are equivalent, then the Radon-Nikodym derivative is equal to
+then we say that $\mathbf{P}$ is absolutely continuous with respect to $\mathbf{Q}$, and denote $\mathbf{P} \ll \mathbf{Q}$. Moreover, if $\mathbf{P} \ll \mathbf{Q}$ and $\mathbf{Q} \ll \mathbf{P}$, that is,
 
 $$
-\frac{d \mathbf {Q}}{d \mathbf {P}} = \frac{g (X)}{f (X)}
+\mathbf{Q}(A) = 0 \Leftrightarrow \mathbf{P}(A) = 0,
 $$
 
-For example,  $X \sim N(0, 1)$  is normally distributed on  $\mathbf{P}$ . If we take the Radon-Nikodym derivative by
+then we say that $\mathbf{P}$ and $\mathbf{Q}$ are equivalent.
+
+
+If $\mathbf{Q} \ll \mathbf{P}$, then there exists a positive random variable $\xi$ with $\int_{\Omega} \xi d\mathbf{P} = 1$ and
 
 $$
-\xi_{1} = \frac{e^{\frac{- (x - \mu)^{2}}{2 \sigma^{2}}} / \sqrt{2 \pi \sigma^{2}}}{e^{- \frac{\chi^{2}}{2}} / \sqrt{2 \pi}},
-$$ then the measure  $\mathbf{Q}_1$  defined by  $\mathbf{Q}_1(A) = \int_A\xi_1d\mathbf{P}$  for  $A\in \mathcal{F}$  is equivalent to  $\mathbf{P}$  and  $X\sim N(\mu ,\sigma^2)$  on the measure  $\mathbf{Q}_1$ . On the other hand, if we take the Radon-Nikodym derivative by
+\mathbf{Q}(A) = \int_{A} \xi \, d\mathbf{P} \tag{1}
+$$
 
+for any $A \in \mathcal{F}$. In this case, $\xi$ is referred to as the Radon-Nikodym derivative, and denotes
 
 $$
-\xi_{2} = \frac{h (X)}{e^{- \frac{X^{2}}{2}} / \sqrt{2 \pi}}
-$$ where
+\xi = \frac{d\mathbf{Q}}{d\mathbf{P}}
+$$
 
+Conversely, if there is a positive random variable $\xi$ with $\int_{\Omega} \xi d\mathbf{P} = 1$ and $\mathbf{Q}$ is defined by equation (1), then $\mathbf{Q}$ is also a probability measure and $\mathbf{Q} \ll \mathbf{P}$.
 
-$$ h (x) = \frac{\sigma}{\pi ((x - \mu)^{2} + \sigma^{2})}
-$$ which is the probability density function of the Cauchy distribution, then the measure  $\mathbf{Q}_2$ , defined by  $\mathbf{Q}_2(A) = \int_A \xi_2 d\mathbf{P}$  for  $A \in \mathcal{F}$  is equivalent to  $\mathbf{P}$  and  $X \sim S_1(\sigma, 0, \mu)$  on the measure  $\mathbf{Q}_2$ .
-
-
-Consider a finite discrete process  $(X_{t})_{t\in \{1,2,\dots,T\}}$  of independent and identically distributed (IID) real random variables on both probability measures  $\mathbf{P}$  and  $\mathbf{Q}$ , where  $T$  is a positive integer. By the independent property of the process on  $\mathbf{P}$ , we have
+Let $X$ be a random variable on a probability measure $\mathbf{P}$, and $f(x) = \frac{\partial}{\partial x} \mathbf{P}(X \leq x)$ be the probability density function (p.d.f.) of $X$. Suppose $\mathbf{Q}$ is a probability measure and the probability density function of $X$ on $\mathbf{Q}$ is given by $g(x) = \frac{\partial}{\partial x} \mathbf{Q}(X \leq x)$. If $\mathbf{P}$ and $\mathbf{Q}$ are equivalent, then the Radon-Nikodym derivative is equal to
 
 $$
-\begin{array}{l} \mathbf {P} \left[ X_{1} \in \mathbb {R}, \dots , X_{t - 1} \in \mathbb {R}, X_{t} <   x, \right. \\ X_{t + 1} \in \mathbb {R}, \dots , X_{T} \in \mathbb {R} ] \\ = \mathbf {P} [ X_{1} \in \mathbb {R} ] \dots \mathbf {P} [ X_{t - 1} \in \mathbb {R} ] \cdot \mathbf {P} [ X_{t} <   x ] \\ \cdot \mathbf {P} \left[ X_{t + 1} \in \mathbb {R} \right] \dots \mathbf {P} \left[ X_{T} \in \mathbb {R} \right] \\ = \mathbf {P} [ X_{t} <   x ] \\ \end{array}
+\frac{d\mathbf{Q}}{d\mathbf{P}} = \frac{g(X)}{f(X)}
+$$
+
+For example, $X \sim N(0, 1)$ is normally distributed on $\mathbf{P}$. If we take the Radon-Nikodym derivative by
+
+$$
+\xi_{1} = \frac{e^{\frac{-(x - \mu)^{2}}{2\sigma^{2}}} / \sqrt{2\pi\sigma^{2}}}{e^{-\frac{x^{2}}{2}} / \sqrt{2\pi}},
+$$
+
+then the measure $\mathbf{Q}_1$ defined by $\mathbf{Q}_1(A) = \int_A \xi_1 d\mathbf{P}$ for $A \in \mathcal{F}$ is equivalent to $\mathbf{P}$ and $X \sim N(\mu,\sigma^2)$ on the measure $\mathbf{Q}_1$. On the other hand, if we take the Radon-Nikodym derivative by
+
+$$
+\xi_{2} = \frac{h(X)}{e^{-\frac{X^{2}}{2}} / \sqrt{2\pi}}
+$$
+
+where
+
+$$
+h(x) = \frac{\sigma}{\pi ((x - \mu)^{2} + \sigma^{2})}
+$$
+
+which is the probability density function of the Cauchy distribution, then the measure $\mathbf{Q}_2$, defined by $\mathbf{Q}_2(A) = \int_A \xi_2 d\mathbf{P}$ for $A \in \mathcal{F}$ is equivalent to $\mathbf{P}$ and $X \sim S_1(\sigma, 0, \mu)$ on the measure $\mathbf{Q}_2$.
+
+
+Consider a finite discrete process $(X_{t})_{t\in \{1,2,\dots,T\}}$ of independent and identically distributed (IID) real random variables on both probability measures $\mathbf{P}$ and $\mathbf{Q}$, where $T$ is a positive integer. By the independent property of the process on $\mathbf{P}$, we have
+
+$$
+\mathbf{P}[X_{1} \in \mathbb{R}, \dots, X_{t-1} \in \mathbb{R}, X_{t} < x, X_{t+1} \in \mathbb{R}, \dots, X_{T} \in \mathbb{R}] = \mathbf{P}[X_{1} \in \mathbb{R}] \dots \mathbf{P}[X_{t-1} \in \mathbb{R}] \cdot \mathbf{P}[X_{t} < x] \cdot \mathbf{P}[X_{t+1} \in \mathbb{R}] \dots \mathbf{P}[X_{T} \in \mathbb{R}] = \mathbf{P}[X_{t} < x]
 $$
 
 By the same argument, we have
 
 $$
-\begin{array}{l} \mathbf {Q} \left[ X_{1} \in \mathbb {R}, \dots , X_{t - 1} \in \mathbb {R}, X_{t} <   x, \right. \\ X_{t + 1} \in \mathbb {R}, \dots , X_{T} \in \mathbb {R} ] = \mathbf {Q} [ X_{t} <   x ] \\ \end{array}
+\mathbf{Q}[X_{1} \in \mathbb{R}, \dots, X_{t-1} \in \mathbb{R}, X_{t} < x, X_{t+1} \in \mathbb{R}, \dots, X_{T} \in \mathbb{R}] = \mathbf{Q}[X_{t} < x]
 $$
 
-Since  $X_{t}$ 's are identically distributed on  $\mathbf{P}$  and  $\mathbf{Q}$ , respectively, we have  $\mathbf{P}[X_t < x] = \mathbf{P}[X_s < x]$  and  $\mathbf{Q}[X_t < x] = \mathbf{Q}[X_s < x]$  for all  $t, s \in \{1, 2, \dots, T\}$ . Suppose that for all  $t \in \{1, 2, \dots, T\}$  the probability density functions of  $X_t$  are given by  $f(x)$  and  $g(x)$  on probability measures  $\mathbf{P}$  and  $\mathbf{Q}$ , respectively. That is
-
-$$ f (x) = \frac{\partial}{\partial x} \mathbf {P} \left[ X_{t} <   x \right]
-$$ and
-
-
-$$ g (x) = \frac{\partial}{\partial x} \mathbf {Q} \left[ X_{t} <   x \right]
-$$
-
-If the domain of the function  $f$  is the same as the domain of the function  $g$ , then  $\mathbf{P}$  and  $\mathbf{Q}$  are equivalent and the Radon-Nikodym derivative is equal to
-
+Since $X_{t}$'s are identically distributed on $\mathbf{P}$ and $\mathbf{Q}$, respectively, we have $\mathbf{P}[X_t < x] = \mathbf{P}[X_s < x]$ and $\mathbf{Q}[X_t < x] = \mathbf{Q}[X_s < x]$ for all $t, s \in \{1, 2, \dots, T\}$. Suppose that for all $t \in \{1, 2, \dots, T\}$ the probability density functions of $X_t$ are given by $f(x)$ and $g(x)$ on probability measures $\mathbf{P}$ and $\mathbf{Q}$, respectively. That is
 
 $$
-\frac{d \mathbf {Q}}{d \mathbf {P}} = \frac{g (X_{1}) g (X_{2}) \cdots g (X_{T})}{f (X_{1}) f (X_{2}) \cdots f (X_{T})}
+f(x) = \frac{\partial}{\partial x} \mathbf{P}[X_{t} < x]
+$$
+
+and
+
+$$
+g(x) = \frac{\partial}{\partial x} \mathbf{Q}[X_{t} < x]
+$$
+
+If the domain of the function $f$ is the same as the domain of the function $g$, then $\mathbf{P}$ and $\mathbf{Q}$ are equivalent and the Radon-Nikodym derivative is equal to
+
+$$
+\frac{d\mathbf{Q}}{d\mathbf{P}} = \frac{g(X_{1}) g(X_{2}) \cdots g(X_{T})}{f(X_{1}) f(X_{2}) \cdots f(X_{T})}
 $$
 
 However, that method cannot be used for either continuous-time processes or infinite-discrete processes. In the next section, we discuss the change of measure for continuous-time processes using Girsanov's theorem and the extended Girsanov's theorem.
 
-# Change of Measure for Continuous-Time Processes
+## Change of Measure for Continuous-Time Processes
 
 A continuous-time process is a function from the sample space to the set of appropriate functions. Hence, the change of measure for processes is more complex than the change of measure for a random variable.
 
 Brownian motion is a function from the sample space to the set of continuous functions. For Brownian motion, we can find an equivalent measure using the following theorem, which is referred to as Girsanov's theorem:
 
-Theorem 1. Let  $W = (W_{t})_{t\geq 0}$  be a standard Brownian motion under measure  $\mathbf{P}$  and  $(\mathcal{F}_t)_{t\geq 0}$  be a filtration generated by  $W$ . Consider a process  $(\xi_{t})_{t\geq 0}$  defined by
+**Theorem 1.** Let $W = (W_{t})_{t\geq 0}$ be a standard Brownian motion under measure $\mathbf{P}$ and $(\mathcal{F}_t)_{t\geq 0}$ be a filtration generated by $W$. Consider a process $(\xi_{t})_{t\geq 0}$ defined by
 
 $$
-\xi_{t} = e^{- \theta W_{t} - \frac{\theta^{2}}{2} t}
+\xi_{t} = e^{-\theta W_{t} - \frac{\theta^{2}}{2} t}
 $$
 
-Then the probability measure  $\mathbf{Q}$  given by
+Then the probability measure $\mathbf{Q}$ given by
 
 $$
-\mathbf {Q} (A) \left|_{\mathcal {F}_{t}} \right. = \int_{A} \xi_{t} d \mathbf {P}, \quad A \in \mathcal {F}_{t}
-$$ is equivalent to  $\mathbf{P}|\mathcal{F}_t$  for all  $t\geq 0$ , and the process  $\tilde{W} = (\tilde{W}_t)_{t\geq 0}$  with  $\tilde{W}_{t} = \theta t + W_{t}$  is a standard Brownian motion under the measure  $\mathbf{Q}$ .
+\mathbf{Q}(A)|_{\mathcal{F}_{t}} = \int_{A} \xi_{t} d\mathbf{P}, \quad A \in \mathcal{F}_{t}
+$$
+
+is equivalent to $\mathbf{P}|_{\mathcal{F}_t}$ for all $t\geq 0$, and the process $\tilde{W} = (\tilde{W}_t)_{t\geq 0}$ with $\tilde{W}_{t} = \theta t + W_{t}$ is a standard Brownian motion under the measure $\mathbf{Q}$.
 
 
-Girsanov's theorem shows how stochastic processes change under the change of measure. For example, let a process  $X = (X_{t})_{t\geq 0}$  be an arithmetic Brownian motion under measure  $\mathbf{P}$  such that
+Girsanov's theorem shows how stochastic processes change under the change of measure. For example, let a process $X = (X_{t})_{t\geq 0}$ be an arithmetic Brownian motion under measure $\mathbf{P}$ such that
 
 $$
 X_{t} = \mu t + \sigma W_{t}
-$$ where  $(W_{t})_{t\geq 0}$  is the standard Brownian motion. The process  $X$  is not martingale on the measure  $\mathbf{P}$ , but we can obtain a measure where  $X$  is a martingale by Girsanov's theorem. Indeed, we define a measure  $\mathbf{Q}$  equivalent to  $\mathbf{P}$  such that
-
-
-$$
-\mathbf {Q} (A) \mid_{\mathcal {F}_{t}} = \int_{A} e^{- \frac{\mu W_{t}}{\sigma} - \frac{\mu^{2}}{2 \sigma^{2}} t} d \mathbf {P}, A \in \mathcal {F}_{t}
 $$
 
-Then the process  $X$  becomes  $X_{t} = \sigma \tilde{W}_{t}$  with  $\tilde{W}_t = \frac{\mu t}{\sigma} + W_t$  and the process  $(\tilde{W}_t)_{t \geq 0}$  is a standard Brownian motion on the measure  $\mathbf{Q}$ . Therefore, the process  $X$  is a martingale on the measure  $\mathbf{Q}$ .
-
-A Lévy process is a function from the sample space to the set of right continuous functions with left limits at any point of the domain.2 Girsanov's theorem can be extended for Lévy processes by the following theorem:
-
-Theorem 2. Suppose a process  $X = (X_{t})_{t\geq 0}$  is a Lévy process with Lévy triplets  $(\sigma^2,\nu ,\gamma)$  under measure  $\mathbf{P}$ . If there is a real number  $\theta$  satisfying  $\int_{|x|\geq 1}e^{\theta x}\nu (dx) < \infty$ , then we can find the equivalent measure  $\mathbf{Q}$  whose Radon-Nikodym derivative is given by
+where $(W_{t})_{t\geq 0}$ is the standard Brownian motion. The process $X$ is not martingale on the measure $\mathbf{P}$, but we can obtain a measure where $X$ is a martingale by Girsanov's theorem. Indeed, we define a measure $\mathbf{Q}$ equivalent to $\mathbf{P}$ such that
 
 $$
-\frac{d \mathbf {Q}}{d \mathbf {P}} \big |_{\mathcal {F}_{t}} = \xi_{t} = \frac{e^{\theta X_{t}}}{E_{\mathbf {P}} [ e^{\theta X_{t}} ]} = e^{\theta X_{t} - l (\theta) t}
-$$ where  $l(\theta) = \log E_{\mathbf{P}}[e^{\theta X_1}]$ . That is,
+\mathbf{Q}(A)|_{\mathcal{F}_{t}} = \int_{A} e^{-\frac{\mu W_{t}}{\sigma} - \frac{\mu^{2}}{2\sigma^{2}} t} d\mathbf{P}, \quad A \in \mathcal{F}_{t}
+$$
 
+Then the process $X$ becomes $X_{t} = \sigma \tilde{W}_{t}$ with $\tilde{W}_t = \frac{\mu t}{\sigma} + W_t$ and the process $(\tilde{W}_t)_{t\geq 0}$ is a standard Brownian motion on the measure $\mathbf{Q}$. Therefore, the process $X$ is a martingale on the measure $\mathbf{Q}$.
+
+A Lévy process is a function from the sample space to the set of right continuous functions with left limits at any point of the domain.[^2] Girsanov's theorem can be extended for Lévy processes by the following theorem:
+
+**Theorem 2.** Suppose a process $X = (X_{t})_{t\geq 0}$ is a Lévy process with Lévy triplets $(\sigma^2,\nu,\gamma)$ under measure $\mathbf{P}$. If there is a real number $\theta$ satisfying $\int_{|x|\geq 1} e^{\theta x} \nu(dx) < \infty$, then we can find the equivalent measure $\mathbf{Q}$ whose Radon-Nikodym derivative is given by
 
 $$
-\left. \mathbf {Q} (A) \right|_{\mathcal {F}_{t}} = \int_{A} \xi_{t} d \mathbf {P}, \quad A \in \mathcal {F}_{t}
-$$ is equivalent to  $\mathbf{P}|\mathcal{F}_t$  for all  $t\geq 0$ . Moreover, the process  $X$  is a Lévy process with Lévy triplets  $(\sigma^2,\tilde{\nu},\tilde{\gamma})$  under the measure  $\mathbf{Q}$ , where  $\tilde{\nu} (dx) = e^{\theta x}\nu (dx)$  and  $\tilde{\gamma} = \gamma +\int_{|x|\leq 1}x(e^{\theta x} - 1)\nu (dx)$ .
+\frac{d\mathbf{Q}}{d\mathbf{P}}|_{\mathcal{F}_{t}} = \xi_{t} = \frac{e^{\theta X_{t}}}{E_{\mathbf{P}}[e^{\theta X_{t}}]} = e^{\theta X_{t} - l(\theta) t}
+$$
+
+where $l(\theta) = \log E_{\mathbf{P}}[e^{\theta X_1}]$. That is,
+
+$$
+\mathbf{Q}(A)|_{\mathcal{F}_{t}} = \int_{A} \xi_{t} d\mathbf{P}, \quad A \in \mathcal{F}_{t}
+$$
+
+is equivalent to $\mathbf{P}|_{\mathcal{F}_t}$ for all $t\geq 0$. Moreover, the process $X$ is a Lévy process with Lévy triplets $(\sigma^2,\tilde{\nu},\tilde{\gamma})$ under the measure $\mathbf{Q}$, where $\tilde{\nu}(dx) = e^{\theta x} \nu(dx)$ and $\tilde{\gamma} = \gamma + \int_{|x|\leq 1} x(e^{\theta x} - 1) \nu(dx)$.
 
 
 The change of measure using Theorem 2 is referred to as the Esscher transform. The most general theorem of change of measure for Lévy processes is given by the following theorem (see Sato, 1999):

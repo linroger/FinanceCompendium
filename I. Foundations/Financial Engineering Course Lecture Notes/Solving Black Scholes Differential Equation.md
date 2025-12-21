@@ -1,22 +1,20 @@
 ---
 aliases:
 - Solving the Black-Scholes Differential Equation
-tags: null
-key_concepts: null
 parent_directory: Financial Engineering Course Lecture Notes
 cssclasses: academia
 title: Solving the Black-Scholes Differential Equation
-linter-yaml-title-alias: Solving the Black-Scholes Differential Equation
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
-- following derivatives
-- special case
-secondary_tags:
 - black scholes equation
-- black-scholes equation
-- scholes equation
-- classic heat equation
-tags_extracted: '2025-12-18T17:54:58.312626'
-tags_method: max_quality_v1
+- differential equations
+secondary_tags:
+- heat equation solution
+- change of variables
+- boundary conditions
+- european call options
 ---
 
 # Solving the Black-Scholes Differential Equation
@@ -27,13 +25,13 @@ $$
 \frac{\partial V}{\partial t} = r V - r S \frac{\partial V}{\partial S} - \frac{1}{2} \sigma^{2} S^{2} \frac{\partial^{2} V}{\partial S^{2}},
 $$
 
-where  $V$  denotes the value of the portfolio that replicates the derivative such as a call. In order to solve for  $V = V(S, t)$ , one also needs to be given a boundary value. This means that the value of the derivative must be known at some fixed time  $T$ ; that is,  $V(S, T)$  is a given function of  $S$  and  $T$ . With this information, one can solve for the value  $V(S, t)$  at any time  $t$ . Here are the ideas of the proof in a nutshell. One changes variables from  $V, S$ , and  $t$  to the new variables  $u, y$ , and  $\tau$  in two separate procedures so that the Black-Scholes Differential Equation simplifies to the differential equation:
+where $V$ denotes the value of the portfolio that replicates the derivative such as a call. In order to solve for $V = V(S, t)$, one also needs to be given a boundary value. This means that the value of the derivative must be known at some fixed time $T$; that is, $V(S, T)$ is a given function of $S$ and $T$. With this information, one can solve for the value $V(S, t)$ at any time $t$. Here are the ideas of the proof in a nutshell. One changes variables from $V, S$, and $t$ to the new variables $u, y$, and $\tau$ in two separate procedures so that the Black-Scholes Differential Equation simplifies to the differential equation:
 
 $$
 \frac{\partial u}{\partial \tau} = \frac{\partial^{2} u}{\partial y^{2}}.
 $$
 
-This equation is the classical heat equation, whose solution is well-known. One then changes back to the original variables to obtain the solution. This solution will be in integral form. We will then solve for the special case of a European call. In this case, it will turn out that the integral solution will be able to be expressed in terms of the cumulative normal density function. Now for the details. We start the solution process by first changing variables to replace t, S and V with  $\tau$ ,  $y$ , and  $\nu$ :
+This equation is the classical heat equation, whose solution is well-known. One then changes back to the original variables to obtain the solution. This solution will be in integral form. We will then solve for the special case of a European call. In this case, it will turn out that the integral solution will be able to be expressed in terms of the cumulative normal density function. Now for the details. We start the solution process by first changing variables to replace t, S and V with $\tau$, $y$, and $v$:
 
 $$
 \tau = \frac{1}{2} \sigma^{2} (T - t); t = T - \frac{\tau}{\frac{1}{2} \sigma^{2}}
@@ -53,7 +51,7 @@ $$
 \frac{\partial \tau}{\partial t} = - \frac{1}{2} \sigma^{2}; \frac{\partial \tau}{\partial S} = 0; \frac{\partial y}{\partial t} = 0; \frac{\partial y}{\partial S} = \frac{1}{S}
 $$
 
-Next, we use the Chain Rule to rewrite the Black-Scholes equation in terms of  $\nu$  and its partial derivatives with respect to  $y$  and  $\tau$ :
+Next, we use the Chain Rule to rewrite the Black-Scholes equation in terms of $v$ and its partial derivatives with respect to $y$ and $\tau$:
 
 $$
 \frac{\partial V}{\partial S} = \frac{\partial (X v)}{\partial y} \frac{\partial y}{\partial S} + \frac{\partial (X v)}{\partial \tau} \frac{\partial \tau}{\partial S} = X \frac{\partial v}{\partial y} \frac{1}{S} + 0 = \frac{X}{S} \frac{\partial v}{\partial y}
@@ -73,7 +71,7 @@ $$
 - \frac{1}{2} \sigma^{2} X \frac{\partial v}{\partial \tau} = r X v - r S \frac{X}{S} \frac{\partial v}{\partial y} - \frac{1}{2} \sigma^{2} S^{2} \frac{X}{S^{2}} \left(\frac{\partial^{2} v}{\partial y^{2}} - \frac{\partial v}{\partial y}\right)
 $$
 
-Simplify and divide both sides by  $\frac{1}{2}\sigma^2 X$ :
+Simplify and divide both sides by $\frac{1}{2}\sigma^2 X$:
 
 $$
 - \frac{\partial v}{\partial \tau} = \frac{2 r}{\sigma^{2}} v - \frac{2 r}{\sigma^{2}} \frac{\partial v}{\partial y} - \left(\frac{\partial^{2} v}{\partial y^{2}} - \frac{\partial v}{\partial y}\right)
@@ -83,13 +81,13 @@ $$
 \frac{\partial v}{\partial \tau} = \frac{- 2 r}{\sigma^{2}} v + \left(\frac{2 r}{\sigma^{2}} - 1\right) \frac{\partial v}{\partial y} + \frac{\partial^{2} v}{\partial y^{2}}
 $$
 
-However, our equation still includes terms involving  $\nu$  and  $\partial \nu / \partial y$ , and we still need to employ an additional changes of variables in order to obtain the desired classic heat equation. We will again employ a change of variables, writing  $\nu$  as a function of  $u$ :
+However, our equation still includes terms involving $v$ and $\partial v / \partial y$, and we still need to employ an additional changes of variables in order to obtain the desired classic heat equation. We will again employ a change of variables, writing $v$ as a function of $u$:
 
 $$
 v (y, \tau) = e^{\alpha y + \beta \tau} u (y, \tau),
 $$
 
-where  $\alpha$  and  $\beta$  are constants to be chosen shortly. We differentiate as follows:
+where $\alpha$ and $\beta$ are constants to be chosen shortly. We differentiate as follows:
 
 $$
 \frac{\partial v}{\partial \tau} = \beta e^{\alpha y + \beta \tau} u + e^{\alpha y + \beta \tau} \frac{\partial u}{\partial \tau}
@@ -103,7 +101,7 @@ $$
 \frac{\partial^{2} v}{\partial y^{2}} = \alpha^{2} e^{\alpha y + \beta \tau} u + 2 \alpha e^{\alpha y + \beta \tau} \frac{\partial u}{\partial y} + e^{\alpha y + \beta \tau} \frac{\partial^{2} u}{\partial y^{2}}
 $$
 
-We will substitute these three derivatives and the expression for  $\nu$  into our already transformed Black-Scholes equation:
+We will substitute these three derivatives and the expression for $v$ into our already transformed Black-Scholes equation:
 
 $$
 \begin{array}{l} \beta e^{\alpha y + \beta \tau} u + e^{\alpha y + \beta \tau} \frac{\partial u}{\partial \tau} \\ = \frac{- 2 r_{f}}{\sigma^{2}} e^{\alpha y + \beta \tau} u + \left(\frac{2 r}{\sigma^{2}} - 1\right) \left(\alpha e^{\alpha y + \beta \tau} u + e^{\alpha y + \beta \tau} \frac{\partial u}{\partial y}\right) + \alpha^{2} e^{\alpha y + \beta \tau} u \\ + 2 \alpha e^{\alpha y + \beta \tau} \frac{\partial u}{\partial y} + e^{\alpha y + \beta \tau} \frac{\partial^{2} u}{\partial y^{2}} \\ \end{array}
@@ -145,7 +143,7 @@ $$
 u (y, 0) = \frac{V (X e^{y} , T)}{X e^{\alpha y}}.
 $$
 
-The solution of the heat equation  $u(y,\tau)$  in terms of the boundary condition  $u(y,0)$  is
+The solution of the heat equation $u(y,\tau)$ in terms of the boundary condition $u(y,0)$ is
 
 $$
 u (y, \tau) = \frac{1}{\sqrt{4 \pi \tau}} \int_{- \infty}^{\infty} u (x, 0) e^{- \frac{(y - x)^{2}}{4 \tau}} d x. \tag{1}
@@ -184,7 +182,7 @@ $$
 The quantity  $y + z\sqrt{2\tau}$  will vary from  $y - N\sqrt{2\tau}$  to  $y + N\sqrt{2\tau}$  as  $s$  ranges over the limits of integration from  $-N$  to  $N$ . As  $\tau \to 0$  and eventually gets much smaller than  $1/N^2$ , the quantity  $y + z\sqrt{2\tau}$  will be approximately equal to  $y$  as  $z$  ranges over the limits of integration from  $-N$  to  $N$ . Thus,  $u(y + z\sqrt{2\tau}) \approx u(y)$  over this range of integration as long as  $u$  is a continuous function. This means that
 
 $$
-\frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} u (y + z \sqrt{2 \tau}) e^{- \frac{z^{2}}{2}} d s \approx \frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} u (y) e^{- \frac{z^{2}}{2}} d z = u (y) \left[ \frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} e^{- \frac{z^{2}}{2}} d z \right].
+\frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} u (y + z \sqrt{2 \tau}) e^{- \frac{z^{2}}{2}} d z \approx \frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} u (y) e^{- \frac{z^{2}}{2}} d z = u (y) \left[ \frac{1}{\sqrt{2 \pi}} \int_{- N}^{N} e^{- \frac{z^{2}}{2}} d z \right].
 $$
 
 But, the integral
@@ -201,9 +199,9 @@ $$
 
 as we wished to show.
 
-Our result allows us to find the value of any derivative that is based on an underlying security  $S$  that follows a Brownian motion process with drift. One only needs to substitute the specific boundary conditions for the derivative, to obtain its value at any time  $t$ . As an illustration, we will price a European call option. For a call option, it is customary to denote its value at time  $t$  in terms of the price of the stock  $S$  by  $c(S,t)$  rather than  $V(S,t)$ . Suppose that  $X$  is its exercise price, and  $T$  is its expiration date. If  $S > X$  at expiration time  $T$ , then the call option will be worth  $S - X$ , since the option holder can buy the stock for  $X$  and sell it for  $S$ . If  $S \leq X$  at time  $T$ , then the option holder should not exercise the option, making the value of the option
+Our result allows us to find the value of any derivative that is based on an underlying security $S$ that follows a Brownian motion process with drift. One only needs to substitute the specific boundary conditions for the derivative, to obtain its value at any time $t$. As an illustration, we will price a European call option. For a call option, it is customary to denote its value at time $t$ in terms of the price of the stock $S$ by $c(S,t)$ rather than $V(S,t)$. Suppose that $X$ is its exercise price, and $T$ is its expiration date. If $S > X$ at expiration time $T$, then the call option will be worth $S - X$, since the option holder can buy the stock for $X$ and sell it for $S$. If $S \leq X$ at time $T$, then the option holder should not exercise the option, making the value of the option
 
-simply equal to 0. This shows that the boundary condition for the call option at time  $T$  is  $c(S, T) = MAX(S - X, 0)$ . In order to value the price of the option at any other time  $t$ , it turns out that it is easier to first solve the problem for  $u$  as a function of  $y$  and  $\tau$ . Afterwards, one can convert the solution to  $c$  as a function of  $S$  and  $t$ . We will need to find the boundary condition for the function  $u$ . Since  $u(y, 0) = \frac{c(Xe^{y}, T)}{Xe^{ay}}$  as we showed earlier, then
+simply equal to 0. This shows that the boundary condition for the call option at time $T$ is $c(S, T) = MAX(S - X, 0)$. In order to value the price of the option at any other time $t$, it turns out that it is easier to first solve the problem for $u$ as a function of $y$ and $\tau$. Afterwards, one can convert the solution to $c$ as a function of $S$ and $t$. We will need to find the boundary condition for the function $u$. Since $u(y, 0) = \frac{c(Xe^{y}, T)}{Xe^{\alpha y}}$ as we showed earlier, then
 
 $$
 u (y, 0) = \frac{\mathrm{MAX} (X e^{y} - X , 0)}{X e^{\alpha y}} = \mathrm{MAX} \big (e^{(1 - \alpha) y} - e^{- \alpha y}, 0 \big).
@@ -215,7 +213,7 @@ $$
 u (y, \tau) = \frac{1}{\sqrt{4 \pi \tau}} \int_{- \infty}^{\infty} \max \bigl (e^{(1 - \alpha) x} - e^{- \alpha x}, 0 \bigr) e^{- \frac{(y - x)^{2}}{4 \tau}} d x.
 $$
 
-Observe that  $e^{(I - \alpha)x} - e^{-\alpha x} \geq 0$  means  $e^{-\alpha x}(e^x - 1) \geq 0$ , or  $e^x - 1 \geq 0$ , or  $e^x \geq 1$ , or  $x \geq 0$ . So, the solution becomes:
+Observe that $e^{(1 - \alpha)x} - e^{-\alpha x} \geq 0$ means $e^{-\alpha x}(e^x - 1) \geq 0$, or $e^x - 1 \geq 0$, or $e^x \geq 1$, or $x \geq 0$. So, the solution becomes:
 
 $$
 u (y, \tau) = \frac{1}{\sqrt{4 \pi \tau}} \int_{0}^{\infty} [ e^{(1 - \alpha) x} - e^{- \alpha x} ] e^{- \frac{(y - x)^{2}}{4 \tau}} d x.
@@ -257,7 +255,7 @@ $$
 u (y, \tau) = e^{(1 - \alpha) y + (1 - \alpha)^{2} \tau} N \left(\frac{1}{\sqrt{2 \tau}} [ y + 2 (1 - \alpha) \tau ]\right) - e^{- \alpha y + \alpha^{2} \tau} N \left(\frac{1}{\sqrt{2 \tau}} [ y - 2 \alpha \tau ]\right).
 $$
 
-We are now ready to obtain the solution for price of the option  $c(S, t)$ . Since  $c(S, t) = X\nu(y, \tau) = Xe^{\alpha y + \beta \tau}u(y, \tau)$ ,  $S = Xe^{y}$ , and  $y = \ln(S / X)$ , then
+We are now ready to obtain the solution for price of the option $c(S, t)$. Since $c(S, t) = Xv(y, \tau) = Xe^{\alpha y + \beta \tau}u(y, \tau)$, $S = Xe^{y}$, and $y = \ln(S / X)$, then
 
 $$
 c = S e^{\left[ \beta + (1 - \alpha)^{2} \right] \tau} N \left(\frac{1}{\sqrt{2 \tau}} \Big [ l n \left(\frac{S}{X}\right) + 2 (1 - \alpha) \tau) \Big ]\right) - X e^{\left(\beta + \alpha^{2}\right) \tau} N \left(\frac{1}{\sqrt{2 \tau}} \Big [ l n \left(\frac{S}{X}\right) + 2 \alpha \tau) \Big ]\right).
@@ -272,7 +270,7 @@ $$
 Using the customary notation:
 
 $$
-d_{1} = \frac{l n \left(\frac{S_{0}}{X}\right) + (r + \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}}
+d_{1} = \frac{\ln \left(\frac{S_{0}}{X}\right) + (r + \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}}
 $$
 
 $$
@@ -285,7 +283,7 @@ $$
 c_{0} = S_{0} N (d_{1}) - X e^{- r T} N (d_{2}).
 $$
 
-# More on the Self-Financing Replicating Portfolio and the Black-Scholes Derivation
+## More on the Self-Financing Replicating Portfolio and the Black-Scholes Derivation
 
 Recall in the text that we were required to construct a self-financing replicating portfolio in order to obtain arbitrage-free pricing of the call. The portfolio consisted of taking the positions  $\gamma_{\mathrm{s,t}}$  of the stock and  $\gamma_{\mathrm{b,t}}$  of the riskless bond at time  $t$ . The value of the portfolio at time  $t$  was then  $V_{t} = \gamma_{\mathrm{s,t}}S_{t} + \gamma_{\mathrm{b,t}}B_{t}$ . The two conditions to be a self-financing replicating portfolio are:
 
@@ -295,12 +293,12 @@ II.  $c_{T} = \gamma_{s,T}S_{T} + \gamma_{b,T}B_{T}$
 Using Ito's Lemma and the choosing  $\gamma_{s,t} = \frac{\partial V}{\partial S}$ , we saw that condition I reduced to the equation:
 
 $$
-\frac{\partial V}{\partial t} = r V - r S \frac{\partial V}{\partial S} - \frac{1}{2} \sigma^{2} S^{2} \frac{\partial^{2} V}{d S^{2}}.
+\frac{\partial V}{\partial t} = r V - r S \frac{\partial V}{\partial S} - \frac{1}{2} \sigma^{2} S^{2} \frac{\partial^{2} V}{\partial S^{2}}.
 $$
 
 This equation is the Black-Scholes differential equation. Since  $B_{\mathrm{t}} = e^{rt}$ ,  $\gamma_{s,t} = \frac{\partial V}{\partial S}$ , and  $V_{t} = \gamma_{\mathrm{s,t}}S_{t} + \gamma_{\mathrm{b,t}}B_{t}$ , then  $\gamma_{b,t} = e^{-rt}\left(V_t - \frac{\partial V}{\partial S} S_t\right)$ . This means that our two choices for the positions in the portfolio will give us a self-financing replicating portfolio as long as there is a solution to the Black-Scholes differential equation such that condition II is also satisfied. But condition II simply states that the value of the portfolio must equal the value of the call at expiration date T; that is,  $V_{T} = c_{T}$ . We derived in the previous topic of the additional reading for this chapter the solution to the Black-Scholes differential equation with the boundary condition  $V_{T} = c_{T}$ . Thus, we can conclude that we have a self-financing portfolio, and that the solution to the Black-Scholes differential equation and its boundary value condition gives us an arbitrage-free pricing for the call.
 
-# Deriving Black-Scholes Delta and Gamma
+## Deriving Black-Scholes Delta and Gamma
 
 Black-Scholes and Delta
 
@@ -354,10 +352,10 @@ $$
 
 Substituting for  $\mathrm{d}_1$  from the Black Scholes model and then canceling offsetting terms, we have
 
-# Chapter 7 Additional Readings
+## Chapter 7 Additional Readings
 
 $$
-X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{d_{1} \sigma \sqrt{T}} \cdot e^{\frac{- \sigma^{2} T}{2}} = X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right) + \left(r + 5 \sigma^{2}\right) T} \cdot e^{\frac{- \sigma^{2} T}{2}} = X \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right)}
+X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{d_{1} \sigma \sqrt{T}} \cdot e^{\frac{- \sigma^{2} T}{2}} = X e^{- r T} \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right) + \left(r + \frac{1}{2} \sigma^{2}\right) T} \cdot e^{\frac{- \sigma^{2} T}{2}} = X \frac{d N (d_{1})}{d (d_{1})} e^{\ln \left(S_{0} / X\right)}
 $$
 
 $$

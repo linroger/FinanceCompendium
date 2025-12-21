@@ -1,28 +1,28 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 26_18_My_3__3-Part_Solution
+title: 26.18 My 3-Part Solution
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- democrats reached question
-- different outcomes government debt
-- changes deficit achieving goal
-- rate changes deficit
+- fiscal policy solution
+- government debt reduction
+- budget deficit cuts
+- monetary fiscal coordination
+- debt stabilization plan
 secondary_tags:
-- 2618my33 partsolution solution chapter
-- solution make government debt
-- baseline scenario government debt
-- cut deficit rectify problem
-- government debt income ratio
-- effects different spending
-- rate stabilize debt change
-- goal stabilizing government debts
-- spending tax rate changes
-tags_extracted: '2025-12-18T00:02:42.215415'
+- spending cuts strategy
+- tax revenue increases
+- interest rate reductions
+- bipartisan fiscal policy
+- economic growth balance
+- deficit reduction goals
+- government spending reform
+- tax policy changes
+cssclasses: academia
 ---
 
-# 26_18_My_3__3-Part_Solution
+# 26.18 My 3-Part Solution
 ## SOLUTION
 
 This chapter is a quick and easy read for those who want to get the key points without spending too much time. It also provides thoughts and numbers that those who are analytical might want to spend some time pondering, so I recommend it for everyone.
@@ -71,9 +71,7 @@ Let's now play around with the numbers and these three levers to see what specif
 
 ### WHAT IF THE FED DOESN'T GO ALONG WITH THIS?
 
-Of course, the Fed can't openly say that it will go along with this plan (though deals between the Fed keeping interest rates low while the government was cutting the deficit have been made in the past), so let's look at the possibility that Congress and the
-
-President will have to make the changes come only from spending cuts and raising tax revenue by the same percentages. That percentage would be about $6\%$ (i.e., cutting spending by $6\%$ and raising taxes by $6$), which would also equal about a $3\%$ of GDP deficit reduction. While those amounts of adjustments would be large by historical standards, I know that they can occur without problems if balanced well, and I know that if they are too depressing to economic growth, the Fed will respond by lowering interest rates because that's what the central bank does when the economy and inflation are too depressed. For these reasons, I know that if this $3\%$ 3-part plan is followed, it would be worlds better than if it is not followed.
+Of course, the Fed can't openly say that it will go along with this plan (though deals between the Fed keeping interest rates low while the government was cutting the deficit have been made in the past), so let's look at the possibility that Congress and the President will have to make the changes come only from spending cuts and raising tax revenue by the same percentages. That percentage would be about $6\%$ (i.e., cutting spending by $6\%$ and raising taxes by $6$), which would also equal about a $3\%$ of GDP deficit reduction. While those amounts of adjustments would be large by historical standards, I know that they can occur without problems if balanced well, and I know that if they are too depressing to economic growth, the Fed will respond by lowering interest rates because that's what the central bank does when the economy and inflation are too depressed. For these reasons, I know that if this $3\%$ 3-part plan is followed, it would be worlds better than if it is not followed.
 
 ### MY PROPOSED DEFICIT CUT COMPARED WITH PAST DEFICIT CUTS
 

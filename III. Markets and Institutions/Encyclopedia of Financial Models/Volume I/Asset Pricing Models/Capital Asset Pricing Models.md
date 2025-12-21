@@ -1,9 +1,32 @@
 
+---
+title: "Capital Asset Pricing Models"
+parent_directory: "Encyclopedia of Financial Models/Volume I/Asset Pricing Models"
+formatted: "2025-12-21 12:15:00 PM"
+formatter_model: "obsidian-formatting-agent"
+cli_tool: "claude-code"
+primary_tags:
+  - capital asset pricing model
+  - market portfolio theory
+  - beta coefficient
+  - risk return tradeoffs
+secondary_tags:
+  - mean variance analysis
+  - sharpe lintner model
+  - roy capital asset pricing
+  - systematic risk
+  - security market line
+  - portfolio efficiency
+  - arbitrage pricing
+  - asset valuation
+cssclasses: academia
+---
+
 # Capital Asset Pricing Models
 
 Abstract: Risk-return analysis in finance is a "normative" theory: It does not purport to describe, rather it offers advice. Specifically, it offers advice to an investor regarding how to manage a portfolio of securities. The investor may be an institution, such as a pension fund or endowment; or it may be an asset management firm with multiple portfolios to manage (e.g., managing various mutual funds and funds for institutional clients). The focus of risk-return analysis is on advice for each individual portfolio. This contrasts with capital asset pricing models, which are hypotheses concerning capital markets as a whole. They are "positive" models, that is, they are hypotheses about that which is—as opposed to "normative" models, which advise on what should be or, more precisely, advise on what an investor should do.
 
-# INTRODUCTION
+## INTRODUCTION
 
 Asset pricing theory seeks to explain how the price or value of a claim from ownership of a financial asset is determined. The pricing or valuation of an asset must take into account the timing of the payments expected to be received and the risk associated with receiving the expected payments. The major challenge in asset pricing theory is often not the timing issue but the treatment of risk. The formulation of an asset pricing theory that has empirically proven to have good predictive value offers investors the opportunity to capitalize on mispriced assets. Moreover, the theory provides investors with a tool for pricing new financial instruments and nonpublicly traded assets.
 
@@ -15,7 +38,7 @@ Most asset pricing models used in practice today are the result of a blend of bo
 
 In this entry, we focus on the basic CAPM first formulated in the 1960s by several academicians. There have been numerous extensions of the basic CAPM that have been proposed in the decades that followed but these will not be covered in this entry. However, because there is considerable confusion regarding certain aspects of the theory, in addition to describing the basic CAPM in this entry we explain the sources of the confusion and their implications.
 
-# SHARPE-LINTNER CAPM
+## SHARPE-LINTNER CAPM
 
 The first CAPM was that of Sharpe (1964) and Lintner (1965). The Sharpe-Lintner CAPM (SL-CAPM) assumes the following:
 
@@ -23,7 +46,7 @@ The first CAPM was that of Sharpe (1964) and Lintner (1965). The Sharpe-Lintner 
 - All investors have mean-variance efficient portfolios.
 - All investors can lend all they have or can borrow all they want at the same risk-free interest rate that the U.S. federal government pays to borrow money.
 
-By the mean it is meant the expected value of the return of a security or portfolio. Thus, throughout this entry, we use the terms "mean return" and "expected return" interchangeably. By variance, we mean the variance of the returns of a security or portfolio. This is the square of the standard deviation, the most commonly used measure in statistics to quantify the dispersion of the possible outcomes of some random variable. Standard deviation is the more intuitively meaningful measure: Most of any probability distribution is between its mean mi nus two standard deviations and mean plus two distributions. It is not true that most of a distribution is between the mean and plus or minus two variances, or any other number of variances. While standard deviation is the more intuitive measure, formulas are more conveniently expressed in terms of variance. One can most easily compute the variance of a portfolio and then take its square root to obtain its standard deviation.
+By the mean it is meant the expected value of the return of a security or portfolio. Thus, throughout this entry, we use the terms "mean return" and "expected return" interchangeably. By variance, we mean the variance of the returns of a security or portfolio. This is the square of the standard deviation, the most commonly used measure in statistics to quantify the dispersion of the possible outcomes of some random variable. Standard deviation is the more intuitively meaningful measure: Most of any probability distribution is between its mean minus two standard deviations and mean plus two distributions. It is not true that most of a distribution is between the mean and plus or minus two variances, or any other number of variances. While standard deviation is the more intuitive measure, formulas are more conveniently expressed in terms of variance. One can most easily compute the variance of a portfolio and then take its square root to obtain its standard deviation.
 
 
 By mean-variance efficient portfolios, we mean that of all the possible portfolios that can be created from all of the securities in the market, the ones that have highest mean for a given variance.
@@ -43,7 +66,7 @@ $$
 Each holding of a security is proportional to its part of the total market capitalization. That is,
 
 $$
-X_{i}^{M} = \frac{\text{Ma rk et va lu eo f} i - \text{th se cu ri ty}}{\text{To ta lm ar ke tv al ue of al ls ec ur it ie s}} \tag {2}
+X_{i}^{M} = \frac{\text{Market value of i-th security}}{\text{Total market value of all securities}} \tag {2}
 $$
 
 CAPM Conclusion 1 is that this "market portfolio" is on the mean-variance efficient frontier.
@@ -81,8 +104,8 @@ $$ without regard to the sign of the variables. Positive  $X_{i}^{I}$  is interp
 However, a negative  $X_{i}^{I}$  is far from a realistic model of real-world constraints on shorting. For example, equation (6) would consider feasible a portfolio with
 
 $$
-\begin{array}{l} X_{1} = - 1, 0 0 0 \\ X_{2} = 1, 0 0 1 \\ X_{i} = 0 \quad i = 3, \dots , n \\ \end{array}
-$$ since the above sums to one. This would correspond to an investor depositing  \$1,000 with a broker; shorting\$ 1,000,000 of stock 1; then using the proceeds of the sale, plus the \$1,000 deposited with the broker to buy \$1,001,000 worth of stock 2. In fact, in this example, Treasury Regulation T (Reg T) would require that the sum of long positions, plus the value of the stocks sold short, not exceed 2,000.
+\begin{array}{l} X_{1} = -1,000 \\ X_{2} = 1,001 \\ X_{i} = 0 \quad i = 3, \dots , n \\ \end{array}
+$$ since the above sums to one. This would correspond to an investor depositing \$1,000 with a broker; shorting \$1,000,000 of stock 1; then using the proceeds of the sale, plus the \$1,000 deposited with the broker to buy \$1,001,000 worth of stock 2. In fact, in this example, Treasury Regulation T (Reg T) would require that the sum of long positions, plus the value of the stocks sold short, not exceed 2,000.
 
 
 Equation (6), as the only constraint on portfolio choice, was first proposed by Roy (1952), albeit not in a CAPM context. Since it is difficult to pin down who first used this constraint set in a CAPM (more than one did so almost simultaneously), we refer to this as the Roy CAPM as distinguished from the SL-CAPM.

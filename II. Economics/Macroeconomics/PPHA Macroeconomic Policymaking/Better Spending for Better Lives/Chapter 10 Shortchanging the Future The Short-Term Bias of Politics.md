@@ -1,21 +1,33 @@
 ---
-aliases:
-  - Shortchanging the Future The Short-Term Bias of Politics
-tags:
-key_concepts:
-parent_directory: "[[Better Spending for Better Lives]]"
+title: "Chapter 10 Shortchanging the Future The Short-Term Bias of Politics"
+parent_directory: Better Spending for Better Lives
+formatted: 2025-12-21 09:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - short-term political bias
+  - institutional constraints
+  - citizen policy preferences
+  - trust in government
+secondary_tags:
+  - electoral systems
+  - congressional institutionalization
+  - public investment
+  - long-term benefits
+  - redistribution policies
+  - education spending
+  - policing policies
+  - collective action
+  - political parties
+  - patience and discounting
 cssclasses: academia
-title: "Chapter 10 - Shortchanging the Future: The Short-Term Bias of Politics"
-linter-yaml-title-alias: "Chapter 10 - Shortchanging the Future: The Short-Term Bias of Politics"
 ---
 
 # 10 Shortchanging the Future: The Short-Term Bias of Politics
 
 This volume documents a pattern of spending policies in Latin America and the Caribbean in which governments leave money on the table: spending inefficiencies that, if removed, would allow governments to provide more and better services to more citizens. These inefficiencies pose a difficult puzzle: since citizens in these countries elect their governments, these governments might be expected to pursue policies that improve citizen welfare, and citizens to choose politicians who promise and deliver efficient policies. Unfortunately, this is not what happens. The pressures of competition in the political and electoral marketplaces of Latin America and the Caribbean—as in democracies the world over—do not necessarily drive public policy toward the social optimum. Governments neglect public investments in physical and human capital that would yield economic growth rewards far exceeding their cost, and tolerate gross spending inefficiencies that reduce the value of services that citizens receive. Across the region, there is a systematic bias against policies that would bring substantial benefits in the future or whose fruits are more difficult to observe. Why do democracies, and specifically those of Latin America, exhibit such biases?
 
-This chapter tries to answer this question. One explanation is that the institutions that structure political and electoral marketplaces distort the incentives of politicians to respond to citizen demands—to "supply" efficient, development-promoting policies. Every form of government has rules that establish who elects which politicians and how those politicians make decisions about public policy. No rules are perfect; none give politicians perfect incentives to translate citizen preferences into public policy. However, some are less perfect than others. In Latin America, the formal rules of elections and legislative decision-making favor lower capital
-
-spending; they do not encourage the long-term agreements necessary to implement policies with long-run benefits.
+This chapter tries to answer this question. One explanation is that the institutions that structure political and electoral marketplaces distort the incentives of politicians to respond to citizen demands—to "supply" efficient, development-promoting policies. Every form of government has rules that establish who elects which politicians and how those politicians make decisions about public policy. No rules are perfect; none give politicians perfect incentives to translate citizen preferences into public policy. However, some are less perfect than others. In Latin America, the formal rules of elections and legislative decision-making favor lower capital spending; they do not encourage the long-term agreements necessary to implement policies with long-run benefits.
 
 Another class of explanations is that citizens do not "demand" policies that would make them better off. New evidence from surveys across Latin America and the Caribbean reveals that citizens are reluctant to embrace policies that deliver future benefits, even in areas of significant concern to them, such as education and crime. Despite high inequality in the region, support for taxes to pay for redistribution is also low.
 
@@ -23,9 +35,7 @@ There are three possible reasons for these policy preferences: mistrust, lack of
 
 Why is mistrust so embedded in the region? At a broad, aggregate level, citizens do not feel represented by political parties; lacking large organizations to solve the collective action problems they face in holding governments accountable, citizens have little trust in government. At a more local level, citizens doubt whether their neighbors would work together to demand that local government improve neighborhood infrastructure. The greater their doubts, the less trust they express in government.
 
-Citizens might also express little demand for "good" policies because they are uninformed about what governments can do for them, what governments are doing for them, or what political candidates promise to do for them. If people do not know what governments are capable of, they will not ask the right questions. Lacking information about what governments have done in the past, citizens have no way to hold officials accountable. And if they do not know the policy promises that candidates make, they can neither support the candidate whose promises best align with their preferences nor hold politicians accountable. Ignorance can, therefore, introduce a significant wedge between citizens and politicians, discouraging the emergence of beneficial policies. Capital spending is particularly vulnerable to this problem since its benefits are often indirect and informationally-demanding. Infrastructure—ports and highways, for
-
-example—delivers large indirect benefits in the form of faster economic growth, but it is difficult even for analysts, much less citizens, to quantify those benefits.
+Citizens might also express little demand for "good" policies because they are uninformed about what governments can do for them, what governments are doing for them, or what political candidates promise to do for them. If people do not know what governments are capable of, they will not ask the right questions. Lacking information about what governments have done in the past, citizens have no way to hold officials accountable. And if they do not know the policy promises that candidates make, they can neither support the candidate whose promises best align with their preferences nor hold politicians accountable. Ignorance can, therefore, introduce a significant wedge between citizens and politicians, discouraging the emergence of beneficial policies. Capital spending is particularly vulnerable to this problem since its benefits are often indirect and informationally-demanding. Infrastructure—ports and highways, for example—delivers large indirect benefits in the form of faster economic growth, but it is difficult even for analysts, much less citizens, to quantify those benefits.
 
 Information and trust are related. Citizens who cannot verify government claims of policy achievement have less reason to trust government assurances that stated policies will be pursued. However, even fully informed citizens may have reason to worry that governments will renegel on their future commitments. Infrastructure is vulnerable to lack of information: citizens cannot easily verify the efficiency with which their tax dollars are turned into infrastructure projects, nor the technical merits of the infrastructure projects that governments choose to build. At the same time, informed citizens may question whether future administrations will continue construction of the infrastructure projects begun by their predecessors.
 
@@ -41,21 +51,17 @@ Compared to countries with plurality electoral systems (i.e., winner-take-all, s
 
 Milesi-Ferretti, Perotti, and Rostagno (2002) look at a sample of 20 OECD countries and find that expenditures on transfers and total spending are higher in more proportional electoral systems. In Italy, when the electoral system became less proportional, transfers to families declined (Santolini, 2017). In a sample of Brazilian states, the more disproportional the electoral system and the smaller the fragmentation of state assemblies, the greater was the allocation to public goods and the smaller the allocation to transfers (Lledo, 2003).
 
-Latin America and the Caribbean stands out with respect to the fraction of countries that exhibit proportional electoral systems (see Figure 10.1). The region is also an outlier when it comes to the institutionalization of congress (see Figure 10.2), with significant implications for legislators' ability to make intertemporal agreements. The measures of congressional institutionalization consider members' degree of technical expertise, the average experience, the relevance of committees, the effectiveness of legislative bodies, and the confidence of people in congress, among other measures (Saiegh, 2010; Palanza, Scartascini, and Tommasi, 2016). One important characteristic of institutionalized congresses is that legislators tend to
+Latin America and the Caribbean stands out with respect to the fraction of countries that exhibit proportional electoral systems (see Figure 10.1). The region is also an outlier when it comes to the institutionalization of congress (see Figure 10.2), with significant implications for legislators' ability to make intertemporal agreements. The measures of congressional institutionalization consider members' degree of technical expertise, the average experience, the relevance of committees, the effectiveness of legislative bodies, and the confidence of people in congress, among other measures (Saiegh, 2010; Palanza, Scartascini, and Tommasi, 2016). One important characteristic of institutionalized congresses is that legislators tend to view them as places to build a career.
 
 Figure 10.1 Countries with Proportional Representation, by Region, 2017  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/2d74cd675df946b2d6b571def9b0aed9c366e91cdc4dd90bc54727598f0dcad3.jpg)  
-Source: Authors' elaboration based on the Database of Political Institutions 2017.
+Source: Authors' elaboration based on the Database of Political Institutions 2017. Becoming a professional politician depends on becoming a professional legislator. Professional legislators invest in their careers in congress, participate in relevant committees, and cultivate seniority and experience. These features of institutionalized congresses tend to facilitate intertemporal cooperation (Stein et al., 2005; Stein and Tommasi, 2008; Scartascini, Stein, and Tommasi, 2013; Franco Chuaire and Scartascini, 2014; Palanza, Scartascini, and Tommasi, 2016).
 
-view them as places to build a career. Becoming a professional politician depends on becoming a professional legislator. Professional legislators invest in their careers in congress, participate in relevant committees, and cultivate seniority and experience. These features of institutionalized congresses tend to facilitate intertemporal cooperation (Stein et al., 2005; Stein and Tommasi, 2008; Scartascini, Stein, and Tommasi, 2013; Franco Chuaire and Scartascini, 2014; Palanza, Scartascini, and Tommasi, 2016).
-
-Professional legislators with long-term horizons are more willing to enter into long-term agreements because they can reap the political rewards of spending projects that yield large benefits only in the future. The institutionalization of the legislature affects those horizons. For example, some legislatures
+Professional legislators with long-term horizons are more willing to enter into long-term agreements because they can reap the political rewards of spending projects that yield large benefits only in the future. The institutionalization of the legislature affects those horizons. For example, some legislatures have unpredictable rules for assigning individuals to key committee and leadership roles.
 
 Figure 10.2 Degree of Congressional Institutionalization across Regions  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/5f4d9ffb4639aac88932ee5fea00ab0592b6ab98e3ac860c16ba9d68fed21362.jpg)  
-Source: Authors' elaboration based on Chuaire and Scartascini (2014).
-
-have unpredictable rules for assigning individuals to key committee and leadership roles. Hence, current legislators are more uncertain about the incentives of future legislators to preserve intertemporal agreements. Large investments in infrastructure, for example, yield high future payoffs only to the extent that future legislators approve funding for maintenance. If they do not, infrastructure decays and promised benefits do not materialize.
+Source: Authors' elaboration based on Chuaire and Scartascini (2014). Hence, current legislators are more uncertain about the incentives of future legislators to preserve intertemporal agreements. Large investments in infrastructure, for example, yield high future payoffs only to the extent that future legislators approve funding for maintenance. If they do not, infrastructure decays and promised benefits do not materialize.
 
 Long-run policies are also complex. Infrastructure spending entails decisions about where to place it, what type of infrastructure to prioritize, whether it should be built by private or public agencies, and whether it should be partially funded with user fees. However, legislatures frequently do not allocate internal decision-making power to legislators with expertise, leaving legislators with weak incentives to acquire expertise. Since identifying welfare-optimizing public policies requires expertise, systems that do not reward it yield lower-quality policies, including policies that substitute lower current for higher future payoffs.
 
@@ -315,9 +321,7 @@ The willingness to make trade-offs between consumption today and tomorrow exhibi
 
 The data also reveal substantial differences across countries in the value placed on future benefits. On a 32-point scale, where 1 signifies an unwillingness to ever sacrifice current for future benefits and 32 a willingness to always accept this sacrifice, an unemployed Mexican respondent was 1.16 points less willing to accept this sacrifice than the average respondent. In contrast, unemployed Panamanians were 5.57 points less willing and unemployed Chilean respondents 1.32 points less willing to sacrifice current for future benefits. The percentage of respondents who always preferred current over future benefits ranged from 45 percent in Chile to 57 percent in Honduras.
 
-Why might large country-level differences exist? No research addresses this question. However, in countries where the future is more
-
-uncertain, citizens would likely value future benefits less. $^{10}$  Either political or economic volatility might create these feelings of uncertainty. For example, one indicator of economic volatility is the extent to which inflation fluctuates from year to year. In the seven countries where inflation varies the most, the willingness to make current sacrifices for future benefits is low. $^{11}$  Political and economic volatility could similarly explain why Hondurans were significantly less likely to make this trade-off than Chileans. However, these factors cannot explain why Panamanians were even less likely to prefer these trade-offs than Hondurans, and Uruguayans' reluctance to embrace future benefits more closely resembled that of Hondurans than Chileans.
+Why might large country-level differences exist? No research addresses this question. However, in countries where the future is more uncertain, citizens would likely value future benefits less. $^{10}$  Either political or economic volatility might create these feelings of uncertainty. For example, one indicator of economic volatility is the extent to which inflation fluctuates from year to year. In the seven countries where inflation varies the most, the willingness to make current sacrifices for future benefits is low. $^{11}$  Political and economic volatility could similarly explain why Hondurans were significantly less likely to make this trade-off than Chileans. However, these factors cannot explain why Panamanians were even less likely to prefer these trade-offs than Hondurans, and Uruguayans' reluctance to embrace future benefits more closely resembled that of Hondurans than Chileans.
 
 Can differences in the willingness to accept lower current over larger future benefits account for public policy preferences? The IDB-LAPOP survey presented respondents with several policy choices that forced them to make tradeoffs between current and future benefits. In general, the more willing they were to accept larger future benefits over current benefits, the more likely respondents were to prefer public policies with large future benefits for society. The fact that most respondents were almost always unwilling to make this trade-off helps explain why public policy in the region consistently favors lower current over larger future benefits.
 
@@ -333,9 +337,7 @@ Respondents who expressed greater trust in congress (though not government overa
 
 # Toward a Long-Term Vision
 
-Latin America confronts difficult policy challenges, from the low quality of education to the weakness of infrastructure and the public demand for integrity and transparency. Across sectors and countries, governments choose policies that increase citizen welfare less than other policies they could have chosen. In particular, they under-provide public services that require long-term investments or that are more complex to deliver. This is perplexing; in all cases, these governments are popularly elected and, in
-
-many, they are also popular. This chapter has proposed two answers to this question. First, although they elect their representatives, the electoral and legislative institutions of these countries create incentives for these representatives to pursue short-term over long-term, and simple over complex, policies. Second, citizens do not demand these policies, because they do not trust government to provide them, and because they excessively discount future benefits and prefer policies with lower, immediate benefits, over greater, long-term benefit investments.
+Latin America confronts difficult policy challenges, from the low quality of education to the weakness of infrastructure and the public demand for integrity and transparency. Across sectors and countries, governments choose policies that increase citizen welfare less than other policies they could have chosen. In particular, they under-provide public services that require long-term investments or that are more complex to deliver. This is perplexing; in all cases, these governments are popularly elected and, in many, they are also popular. This chapter has proposed two answers to this question. First, although they elect their representatives, the electoral and legislative institutions of these countries create incentives for these representatives to pursue short-term over long-term, and simple over complex, policies. Second, citizens do not demand these policies, because they do not trust government to provide them, and because they excessively discount future benefits and prefer policies with lower, immediate benefits, over greater, long-term benefit investments.
 
 Lack of trust and heavy discounting of future benefits go hand in hand with preferences for precisely the inefficient policies that politicians have provided. Why the low trust? Why the low value attached to future benefits? The characteristics of electoral competition in Latin America—the weakness, for example, of political parties and the historical and economic legacies of the region, marked by cycles of economic boom and collapse and by episodes of government predation on citizens—would seem to be sufficient to account for the low levels of trust and high discount rates in the region.
 

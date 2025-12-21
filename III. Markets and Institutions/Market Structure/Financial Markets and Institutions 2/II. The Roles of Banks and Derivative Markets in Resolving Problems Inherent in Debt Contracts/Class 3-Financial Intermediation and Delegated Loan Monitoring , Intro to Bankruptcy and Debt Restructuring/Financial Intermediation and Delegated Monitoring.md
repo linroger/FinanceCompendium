@@ -31,7 +31,7 @@ University of Chicago
 
 This paper develops a theory of financial intermediation based on minimizing the cost of monitoring information which is useful for resolving incentive problems between borrowers and lenders. It presents a characterization of the costs of providing incentives for delegated monitoring by a financial intermediary. Diversification within an intermediary serves to reduce these costs, even in a risk neutral economy. The paper presents some more general analysis of the effect of diversification on resolving incentive problems. In the environment assumed in the model, debt contracts with costly bankruptcy are shown to be optimal. The analysis has implications for the portfolio structure and capital structure of intermediaries.
 
-# INTRODUCTION
+## INTRODUCTION
 
 This paper develops a theory of financial intermediation based on minimum cost production of information useful for resolving incentive problems. An intermediary (such as a bank) is delegated the task of costly monitoring of loan contracts written with firms who borrow from it. It has a gross cost advantage in collecting this information because the alternative is either duplication of effort if each lender monitors directly, or a free-rider problem, in which case no lender monitors. Financial intermediation theories are generally based on some cost advantage for the intermediary. Schumpeter assigned such a "delegated monitoring" role to banks,
 
@@ -63,7 +63,7 @@ Diversification is key to this theory, and it is interesting that because of the
 
 The basic model is outlined in Section 2. Delegated monitoring by a financial intermediary in the context of the basic model is analysed in Section 3. Section 4 explores the extension of the basic model to risk averse agents. Section 5 applies the analysis of section 4 to the model of Leland-Pyle. Section 6 concludes the paper.
 
-# 2. A SIMPLE MODEL OF FIRM BORROWING
+## 2. A SIMPLE MODEL OF FIRM BORROWING
 
 A model of risk neutral entrepreneurs who need to raise capital to operate a large investment project is used to capture many of the aspects of the agency relationship between commercial borrowers and lenders. We specify a simple environment, and characterize optimal direct contracts between borrower and lender.
 
@@ -147,7 +147,7 @@ $$
 
 The costs of delegation are analysed when the monitor is a financial intermediary who receives payments from entrepreneurs and makes payments to principals.
 
-# 3. DELEGATED MONITORING BY A FINANCIAL INTERMEDIARY
+## 3. DELEGATED MONITORING BY A FINANCIAL INTERMEDIARY
 
 A financial intermediary obtains funds from lenders and lends them to entrepreneurs. Economists have tried to explain this intermediary role by arguing that the financial
 
@@ -185,7 +185,7 @@ $$
 
 With this contract in place, the expected return of the intermediary is  $E_{\tilde{G}_N}[\tilde{G}_N] - H_N$ ; therefore the intermediary chooses monitoring expenditure to maximize  $E_{\tilde{G}_N}[\tilde{G}_N]$ . The intermediary uses the same decision rule in the decision to monitor as it would if its expenditure on monitoring were freely observable. This implies that it contracts only with entrepreneurs for whom the value of monitoring exceeds its physical and delegation costs, and chooses to monitor them. The minimum cost contract which provides incentives for payment to depositors also provides incentives for monitoring. This implies that the optimal contract between the intermediary and depositors is also a debt contract.
 
-# Diversification and the viability of intermediation
+### Diversification and the viability of intermediation
 
 For a financial intermediary to be viable, three conditions must be fulfilled. The depositors must receive an expected return of  $R$  per unit deposited. The intermediary must receive an expected return net of monitoring costs and any deadweight penalties incurred which is at least zero. Finally, each entrepreneur must retain an expected return at least as high as he would by contracting directly with depositors.
 
@@ -259,7 +259,7 @@ The incentive contract is debt with bankruptcy penalties and high leverage. Asym
 
 The importance of the diversification is not simply a way for principals to hold well-diversified portfolios. Principals are risk neutral, and are not made directly better off by the diversification. Diversification within the financial intermediary organization is important, and cannot be replaced by diversification across intermediaries by principals.
 
-# Correlated returns of entrepreneurs
+### Correlated returns of entrepreneurs
 
 The assumption of independently distributed project returns across entrepreneurs is quite strong. It can be weakened somewhat. Instead of independence, assume that entrepreneur's project returns depend on several common factors which are observable. Factors might include GNP, interest rates, input prices, etc. Since these are observable, they can be used as the basis for contingent contracts. There might exist futures markets for these variables, and the financial intermediary could hedge changes in these factors in those markets. An example is a bank's hedging of interest rate risk using interest rate futures. If there are not active futures markets, then the intermediary can write contracts with depositors which depend on the values of these factors, rather than taking responsibility for all risks. An example of this is matching the maturity of assets and liabilities by banks, which places all interest rate risk on depositors. In either case, the intermediary retains responsibility for (and potentially fails as a result of) all risks which are not observable.
 
@@ -309,7 +309,7 @@ We focus again on delegated monitoring by a financial intermediary. A financial 
 
 For a financial intermediary in an economy where everyone is risk averse to viably provide delegated monitoring services, it must have lower delegation costs than an entrepreneur. Equivalently, since risk sharing is the issue here, a viable financial intermediary which monitors many entrepreneurs with independently distributed projects must charge a lower Arrow-Pratt risk premium for bearing the risk of an entrepreneur's project than does the entrepreneur. This will carry over to more general settings, because if the intermediary can bear risks at a lower risk premium it will generally face a less severe trade-off between risk sharing and incentives, and can thus efficiently be delegated a monitoring task.
 
-# Two types of diversification
+### Two types of diversification
 
 There are two ways in which an intermediary in an economy of risk averse agents might use diversification. They correspond to two different models of an intermediary. One model increases the number of agents working together within the intermediary organization as the intermediary monitors a larger number of entrepreneurs. The second model assumes that the intermediary consists of a single agent who monitors a large number of entrepreneurs with independent projects.
 
@@ -397,7 +397,7 @@ will be just acceptable; that is  $E_{\tilde{x}_1}[U(100 + \tilde{x}_1)] = 0$ . 
 
 In contrast to diversification by subdividing risk, the value of diversification by adding risks depends critically on the form of agent's utility function. Given the lack of observability of preferences in practice, this limits the testability of this result on diversification when there is no binding wealth constraint. The results in Section 3, where the value of diversification arises only from binding wealth constraints, provide strong and testable results.
 
-# 5. COMPARISON WITH LELAND-PYLE (1977) RESULTS
+## 5. COMPARISON WITH LELAND-PYLE (1977) RESULTS
 
 Leland-Pyle (1977) (L-P hereafter) develops an interesting model of costly signalling by entrepreneurs selling shares to the public. In contrast to the ex-post information asymmetry analysed in this paper, they focus on an ex-ante information asymmetry, where entrepreneurs know more than investors. This gives rise to an adverse selection problem, because if entrepreneurs of different types cannot be distinguished, all must sell securities at the same price, and there would be a large supply of securities by entrepreneurs with worthless projects. The model allows the entrepreneur an endogenous choice of investing
 
@@ -417,7 +417,7 @@ Diversification by subdividing risks occurs if there are  $N$  bankers working i
 
 The results of our delegated monitoring intermediation model are consistent with the extension of the L-P analysis to intermediation. In particular, if the ex-ante information about the  $N$  entrepreneurs who contract with the intermediary is observed by the  $N$  bankers who as a team are the intermediary (diversification by subdividing risks), then the "delegated signalling" costs approach zero. The implication of this is an intermediary with primarily debt (deposits) in its capital structure and very little outside equity.
 
-# 6. CONCLUSION
+## 6. CONCLUSION
 
 Diversification within the financial intermediary is the key to understanding why there is a benefit from delegating monitoring to an intermediary which is not monitored by its depositors. The intuitive reason for the value of diversification is slightly different in the model with risk neutral agents from the one with risk averse agents. In the risk neutral model, diversification is important because it increases the probability that the intermediary has sufficient loan proceeds to repay a fixed debt claim to depositors; in the limit, this probability is one, and the probability of incurring necessary bankruptcy costs goes to zero. In the model with risk aversion, but no binding constraints on non-negative consumption, diversification increases the intermediary's risk tolerance toward each loan, allowing the risk bearing necessary for incentive prôposes to be less costly. The general importance of diversification in financial intermediary theories is demonstrated by the similar results obtained from our analysis of a Leland-Pyle signalling model of intermediation.
 
@@ -431,7 +431,7 @@ An interesting implication of the delegated monitoring model is that intermediar
 
 Many "markets" for information services induce the delegated private information production analysed in this paper. Further study of the implications of this arrangement should produce new insights into financial markets and institutions, and possibly other types of markets and organizations.
 
-# APPENDIX
+## APPENDIX
 
 To focus on the role of diversification in reducing the signalling costs of an intermediary below those of individual entrepreneurs, we compare signalling costs for  $N = 1$  and  $N = 2$ . We view the intermediary as equivalent to an entrepreneur with 2 projects. We assume that the projects of entrepreneurs monitored by the intermediary are mutually independent and uncorrelated with the "market portfolio", the one other traded risky asset in the L-P model. We follow L-P and assume that projects are so small that we can neglect the effect of adding them to the market. This implies we can alternatively assume that
 

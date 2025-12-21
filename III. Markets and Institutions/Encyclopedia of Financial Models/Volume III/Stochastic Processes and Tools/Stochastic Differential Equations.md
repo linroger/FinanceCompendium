@@ -1,4 +1,24 @@
 
+---
+title: "Stochastic Differential Equations"
+parent_directory: "Stochastic Processes and Tools"
+formatted: "2025-12-21 08:40:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - stochastic differential equations
+  - ito calculus
+  - brownian motion
+  - geometric brownian motion
+secondary_tags:
+  - ito formula
+  - stochastic integrals
+  - ornstein uhlenbeck process
+  - arithmetic brownian motion
+  - ito processes
+cssclasses: academia
+---
+
 # Stochastic Differential Equations
 
 

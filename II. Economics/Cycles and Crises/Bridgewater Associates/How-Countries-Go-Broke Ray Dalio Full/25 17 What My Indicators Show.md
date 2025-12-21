@@ -1,27 +1,27 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 25_17_What_My_Indicators_Show
+title: What My Indicators Show
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 12:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- 15 world debt external
-- fx reserves reduces risk
-- risks view like measuring
+  - debt risk indicators
+  - central government debt
+  - reserve currency status
+  - sovereign wealth assets
 secondary_tags:
-- shows indicators major countries
-- 2517whatmyindicatorsshow indicators making assessments
-- debts denominated currency risk
-- risk rating central bank
-- indicators risks central governments
-- government debt risks chart
-tags_extracted: '2025-12-18T00:02:33.160588'
+  - government debt projections
+  - foreign exchange reserves
+  - central bank risk assessment
+  - long term debt risks
+  - short term debt risks
+  - debt service capacity
+  - currency denomination risk
+  - financial stability indicators
+cssclasses: academia
 ---
 
-# 25_17_What_My_Indicators_Show
-## WHAT MY
-
-### INDICATORS SHOW
+# What My Indicators Show
 
 In making my assessments of risks, I weigh a number of factors, many of which I have described and the most important of which are shown in the following table. The table shows these indicators across major countries as of my writing this in March 2025.
 
@@ -85,13 +85,11 @@ Also, as shown in the table, the United States has the world's dominant reserve 
 
 Having said that, it should be noted that these supports can deteriorate very quickly as they did for prior world powers and their currencies. For a review of the declines of the British pound and the Dutch guilder before it, please reference my book Principles for Dealing with the Changing World Order at economicprinciples.org.
 
-LONG-TERM RISK GAUGE CONSTRUCTION
+### LONG-TERM RISK GAUGE CONSTRUCTION
 
 $(\mathsf{UP} = \mathsf{MORE} \ \text{  VULNERABLE})$
 
-<table><tr><td></td><td></td><td>Reading Today</td></tr><tr><td>Central Bank Long-Term Risk</td><td>-</td><td>1.0z</td></tr><tr><td>Central Bank Income Statement</td><td>-</td><td>0.2z</td></tr><tr><td>Current Central Bank Profitability (\% GDP)</td><td>-0.2\%</td><td>0.1z</td></tr><tr><td>Central Bank Profitability If Rates Rise (\% GDP)</td><td>-0.4\%</td><td>0.2z</td></tr><tr><td>Central Bank Balance Sheet</td><td>-</td><td>1.0z</td></tr><tr><td>Unbacked Money (\% GDP)</td><td>71\%</td><td>0.3z</td></tr><tr><td>Reserves/Money</td><td>-</td><td>1.5z</td></tr><tr><td>Months of Reserve Sales Before Running Out</td><td>-</td><td>0.0z</td></tr><tr><td>Currency Is a Bad Storehold of Wealth Gauge</td><td>-</td><td>-2.0z</td></tr><tr><td>Reserve FX/Financial Center</td><td>-</td><td>-3.3z</td></tr><tr><td>Share of Reserves in Currency</td><td>57\%</td><td>-1.9z</td></tr><tr><td>Financial Center Status (Z)</td><td>-</td><td>-2.7z</td></tr><tr><td>Safety and Stability for Investors</td><td>-</td><td>-0.8z</td></tr><tr><td>InInstitutional Quality
-
-<td>-</td><td>-1.2z</td></tr><tr><td>Rule of Law (Z)</td><td>-</td><td>-1.1z</td></tr><tr><td>Internal Conflict (Z)</td><td>-</td><td>0.3z</td></tr><tr><td>Macroeconomic Track Record</td><td>-</td><td>-1.2z</td></tr><tr><td>Volatility of Growth (Ann)</td><td>2.2\%</td><td>-0.8z</td></tr><tr><td>Volatility of Inflation (Ann)</td><td>1.4\%</td><td>-2.1z</td></tr><tr><td>Long-Term GDP Per Capita Growth</td><td>1.5\%</td><td>0.0z</td></tr><tr><td>History of Losses for Savers</td><td>-</td><td>1.1z</td></tr><tr><td>Long-Term Real Cash Return (Ann)</td><td>-1.4\%</td><td>0.7z</td></tr><tr><td>Long-Term Gold Return (Ann)</td><td>9.8\%</td><td>0.8z</td></tr></table>
+<table><tr><td></td><td></td><td>Reading Today</td></tr><tr><td>Central Bank Long-Term Risk</td><td>-</td><td>1.0z</td></tr><tr><td>Central Bank Income Statement</td><td>-</td><td>0.2z</td></tr><tr><td>Current Central Bank Profitability (\% GDP)</td><td>-0.2\%</td><td>0.1z</td></tr><tr><td>Central Bank Profitability If Rates Rise (\% GDP)</td><td>-0.4\%</td><td>0.2z</td></tr><tr><td>Central Bank Balance Sheet</td><td>-</td><td>1.0z</td></tr><tr><td>Unbacked Money (\% GDP)</td><td>71\%</td><td>0.3z</td></tr><tr><td>Reserves/Money</td><td>-</td><td>1.5z</td></tr><tr><td>Months of Reserve Sales Before Running Out</td><td>-</td><td>0.0z</td></tr><tr><td>Currency Is a Bad Storehold of Wealth Gauge</td><td>-</td><td>-2.0z</td></tr><tr><td>Reserve FX/Financial Center</td><td>-</td><td>-3.3z</td></tr><tr><td>Share of Reserves in Currency</td><td>57\%</td><td>-1.9z</td></tr><tr><td>Financial Center Status (Z)</td><td>-</td><td>-2.7z</td></tr><tr><td>Safety and Stability for Investors</td><td>-</td><td>-0.8z</td></tr><tr><td>Institutional Quality</td><td>-</td><td>-1.2z</td></tr><tr><td>Rule of Law (Z)</td><td>-</td><td>-1.1z</td></tr><tr><td>Internal Conflict (Z)</td><td>-</td><td>0.3z</td></tr><tr><td>Macroeconomic Track Record</td><td>-</td><td>-1.2z</td></tr><tr><td>Volatility of Growth (Ann)</td><td>2.2\%</td><td>-0.8z</td></tr><tr><td>Volatility of Inflation (Ann)</td><td>1.4\%</td><td>-2.1z</td></tr><tr><td>Long-Term GDP Per Capita Growth</td><td>1.5\%</td><td>0.0z</td></tr><tr><td>History of Losses for Savers</td><td>-</td><td>1.1z</td></tr><tr><td>Long-Term Real Cash Return (Ann)</td><td>-1.4\%</td><td>0.7z</td></tr><tr><td>Long-Term Gold Return (Ann)</td><td>9.8\%</td><td>0.8z</td></tr></table>
 
 Please keep in mind that these indicators only reflect the debt/ financial part of the picture and not the complete picture, and that the other big forces will have a great impact on this picture just as this picture will have a big impact on the other forces (i.e., domestic conflict, international conflict, acts of nature, and technology changes), so what we don't know is very large relative to what we do know.
 

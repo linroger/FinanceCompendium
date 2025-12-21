@@ -1,8 +1,9 @@
 ---
 title: Fear of Fire Sales, Illiquidity Seeking, and Credit Freezes
 parent_directory: Class 7-CP, Repo, and the Crisis
-formatted: 2025-12-21 05:00:00 AM
-formatter_model: claude-haiku-4-5-20251001
+formatted: 2025-12-21 08:45:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
   - fire sales
   - illiquidity seeking
@@ -17,8 +18,6 @@ secondary_tags:
 cssclasses: academia
 ---
 
-THE
-
 # Fear of Fire Sales, Illiquidity Seeking, and Credit Freezes
 
 ## Authors
@@ -27,6 +26,53 @@ Douglas W. Diamond and Raghuram G. Rajan
 *Quarterly Journal of Economics, Vol. CXXVI, May 2011, Issue 2
 
 Is there any need to clean up a banking system by closing some banks and forcing others to sell assets if the risk of a crisis becomes high? Impaired banks that may be forced to sell illiquid assets in the future have private incentives to hold, rather than sell, those assets Anticipating a potential fire sale, liquid buyers expect high returns, reducing their incentive to lend. Privately optimal trading decisions therefore lead to a worse fire sale and a larger drop in lending than is necessary. We discuss alternative ways of cleaning up the system and the associated costs and benefits. JEL Codes: G21, G01, G028.
+
+```d2
+direction: right
+
+paper_structure: Diamond-Rajan Paper Structure {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+introduction: "Introduction\nFire Sales & Illiquidity" {
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+model: "Model\nIlliquid Assets & Bank Runs" {
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+illiquidity_sources: "Illiquidity Sources\nAsset Pricing & Lending" {
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+extensions: "Extensions\nRisky vs Illiquid Assets" {
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+interventions: "Interventions\nGovernment Policy Options" {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+literature: "Literature Review\n& Evidence" {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+conclusion: "Conclusion" {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+introduction -> model -> illiquidity_sources -> extensions -> interventions -> literature -> conclusion
+```
 
 ## I. Introduction
 
@@ -44,9 +90,7 @@ One consequence of the fire sale is that it may depress asset values so much tha
 
 The prospect of a future fire sale of a bank's assets can depress its current value—investors need to be enticed through a discount to buy the assets today, otherwise they have an incentive to hold back because of the prospect of buying the assets cheaper in the future. More generally, the high returns potentially available in the future to those who hold cash can cause them to demand a high return for parting with that cash today.
 
-This is similar to standard dynamic asset pricing in financial markets and in markets with imperfect arbitrage such as Gromb and Vayanos (2002) or Kondor (2009), where future returns influence current required returns. But the elevated required rate of return now extends to the entire segment of the financial market
-
-that has the expertise to trade the security. If this segment also accounts for a significant fraction of the funding for potential new loans, the elevated required rate of return will be contagious and will depress lending. Moreover, the institutional overhang will affect lending not only by distressed banks but also by healthy potential lenders, a feature that distinguishes this explanation from those where the reluctance to lend is based on the poor health of either a bank or its potential borrowers. Note that the adverse effect of future illiquidity on current lending is absent in models where future asset values are low for other reasons, such as reduced future payoffs. In such cases, low asset values do not lead to an elevated rate of return to buyers.
+This is similar to standard dynamic asset pricing in financial markets and in markets with imperfect arbitrage such as Gromb and Vayanos (2002) or Kondor (2009), where future returns influence current required returns. But the elevated required rate of return now extends to the entire segment of the financial market that has the expertise to trade the security. If this segment also accounts for a significant fraction of the funding for potential new loans, the elevated required rate of return will be contagious and will depress lending. Moreover, the institutional overhang will affect lending not only by distressed banks but also by healthy potential lenders, a feature that distinguishes this explanation from those where the reluctance to lend is based on the poor health of either a bank or its potential borrowers. Note that the adverse effect of future illiquidity on current lending is absent in models where future asset values are low for other reasons, such as reduced future payoffs. In such cases, low asset values do not lead to an elevated rate of return to buyers.
 
 More surprising though, a bank's management, knowing that a bank could fail in some states in the future, does not have strong incentives to sell the illiquid asset today, even though such sales could save the bank. The reason is simple. By selling the asset today, the bank will raise cash that will bolster the value of its outstanding debt by making it safer. But in doing so, the bank will sacrifice the returns that it would get if the currently depressed value of the asset recovers. Since the states in which the depressed asset value recovers are precisely the states in which the bank survives, bank management would much rather prefer holding on to the illiquid assets and risking a fire sale and insolvency than selling the assets and ensuring its own stability in the future. Indeed, the bank would prefer to spend its cash to load up more on securities that are exposed to the liquidity risk because its private valuation for those securities exceeds the market's valuation. Banks become "illiquidity seekers."
 

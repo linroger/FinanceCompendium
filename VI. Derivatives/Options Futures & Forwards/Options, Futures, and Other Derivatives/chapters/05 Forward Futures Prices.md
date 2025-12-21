@@ -475,7 +475,7 @@ Consider a 1-year futures contract on an investment asset that provides no incom
 
 $$
 
-U = 2 e ^ {- 0. 0 7 \times 1} = 1. 8 6 5
+U = 2e^{-0.07 \times 1} = 1.865
 
 $$
 
@@ -620,7 +620,7 @@ As we have just discussed, the returns investors require on an investment depend
 
 $$
 
-F _ {0} = E (S _ {T})
+F_{0} = E(S_{T})
 
 $$
 

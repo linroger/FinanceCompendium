@@ -1,24 +1,26 @@
 ---
+title: "FIRMS IN THE GLOBAL ECONOMY: EXPORT AND FOREIGN SOURCING DECISIONS AND MULTINATIONAL ENTERPRISES"
+parent_directory: "Part 1 - International Trade Theory"
+formatted: 2025-12-21 08:40:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
-- demand curve foreign home
-- market firm marginal cost
-- firms produce goods differentiated
-- markets effects trade cost
-- world market firms produce
+  - monopolistic competition
+  - internal economies scale
+  - product differentiation
+  - intra-industry trade
+  - multinational enterprises
 secondary_tags:
-- explain firms engage global
-- firms internal economies
-- differentiation lead international trade
-- firms respond differently international
-- figure equilibrium automobile market
-- economy exporting sourcing intermediate
-- effects larger market
-- production decisions monopolistic firm
-- foreign sourcing decisions multinational
-- produced monopolistically competitive
-- foreign direct investment economies
-- integrating markets creates market
-tags_extracted: '2025-12-18T00:51:59.920248'
+  - firm performance differences
+  - export decisions
+  - foreign direct investment
+  - horizontal FDI
+  - vertical FDI
+  - trade costs
+  - dumping
+  - offshoring
+  - outsourcing
+cssclasses: academia
 ---
 
 # FIRMS IN THE GLOBAL ECONOMY: EXPORT AND FOREIGN SOURCING DECISIONS AND MULTINATIONAL ENTERPRISES
@@ -29,7 +31,7 @@ Modeling imperfect competition means that we will explicitly consider the behavi
 
 We will then introduce differences across firms so that we can analyze how firms respond differently to international forces. We will see how economic integration generates both winners and losers among different types of firms. The better-performing firms thrive and expand, while the worse-performing firms contract. This generates one additional source of gain from trade: As production is concentrated toward better-performing firms, the overall efficiency of the industry improves. Lastly, we will study why those better-performing firms have a greater incentive to engage in the global economy, either by exporting, by sourcing some of their intermediate production processes abroad, or by becoming multinationals and operating in multiple countries.
 
-# LEARNING GOALS
+## LEARNING GOALS
 
 After reading this chapter, you will be able to:
 
@@ -44,9 +46,7 @@ After reading this chapter, you will be able to:
 
 In a perfectly competitive market—a market in which there are many buyers and sellers, none of whom represents a large part of the market—firms are price takers. That is, they are sellers of products who believe they can sell as much as they like at the current price but cannot influence the price they receive for their product. For example, a wheat farmer can sell as much wheat as she likes without worrying that if she tries to sell more wheat, she will depress the market price. The reason she need not worry about the effect of her sales on prices is that any individual wheat grower represents only a tiny fraction of the world market.
 
-When only a few firms produce a good, however, the situation is different. To take perhaps the most dramatic example, the aircraft manufacturing giant Boeing shares the market for large jet aircraft with only one major rival, the European firm Airbus. As a result, Boeing knows that if it produces more aircraft, it will have a significant effect on the total supply of planes in the world and will therefore significantly drive down the price of airplanes. Or to put it another way, Boeing knows that if it wants to sell more airplanes, it can do so only by significantly reducing its price. In imperfect competition, then, firms are aware that they can influence the prices of their products and that they can sell more only by reducing their price. This situation occurs in one
-
-of two ways: when there are only a few major producers of a particular good, or when each firm produces a good that is differentiated (in the eyes of the consumer) from that of rival firms. As we mentioned in the introduction, this type of competition is an inevitable outcome when there are economies of scale at the level of the firm: The number of surviving firms is forced down to a small number and/or firms must develop products that are clearly differentiated from those produced by their rivals. Under these circumstances, each firm views itself as a price setter, choosing the price of its product, rather than a price taker.
+When only a few firms produce a good, however, the situation is different. To take perhaps the most dramatic example, the aircraft manufacturing giant Boeing shares the market for large jet aircraft with only one major rival, the European firm Airbus. As a result, Boeing knows that if it produces more aircraft, it will have a significant effect on the total supply of planes in the world and will therefore significantly drive down the price of airplanes. Or to put it another way, Boeing knows that if it wants to sell more airplanes, it can do so only by significantly reducing its price. In imperfect competition, then, firms are aware that they can influence the prices of their products and that they can sell more only by reducing their price. This situation occurs in one of two ways: when there are only a few major producers of a particular good, or when each firm produces a good that is differentiated (in the eyes of the consumer) from that of rival firms. As we mentioned in the introduction, this type of competition is an inevitable outcome when there are economies of scale at the level of the firm: The number of surviving firms is forced down to a small number and/or firms must develop products that are clearly differentiated from those produced by their rivals. Under these circumstances, each firm views itself as a price setter, choosing the price of its product, rather than a price taker.
 
 When firms are not price takers, it is necessary to develop additional tools to describe how prices and outputs are determined. The simplest imperfectly competitive market structure to examine is that of a pure monopoly, a market in which a firm faces no competition; the tools we develop for this structure can then be used to examine more complex market structures.
 
@@ -64,18 +64,18 @@ A monopolistic firm chooses an output at which marginal revenue, the increase in
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/8b6a9fe0eebaeda041d3ea8e6c48e74cda2ef8429ec69153dc829243e3899de8.jpg)
 
-price depends on two things. First, it depends on how much output the firm is already selling: A firm not selling very many units will not lose much by cutting the price it receives on those units. Second, the gap between price and marginal revenue depends on the slope of the demand curve, which tells us how much the monopolist has to cut his price to sell one more unit of output. If the curve is very flat, then the monopolist can sell an additional unit with only a small price cut. As a result, he will not have to lower the price by very much on the units he would otherwise have sold, so marginal revenue will be close to the price per unit. On the other hand, if the demand curve is very steep, selling an additional unit will require a large price cut, implying that marginal revenue will be much less than the price.
+Price depends on two things. First, it depends on how much output the firm is already selling: A firm not selling very many units will not lose much by cutting the price it receives on those units. Second, the gap between price and marginal revenue depends on the slope of the demand curve, which tells us how much the monopolist has to cut his price to sell one more unit of output. If the curve is very flat, then the monopolist can sell an additional unit with only a small price cut. As a result, he will not have to lower the price by very much on the units he would otherwise have sold, so marginal revenue will be close to the price per unit. On the other hand, if the demand curve is very steep, selling an additional unit will require a large price cut, implying that marginal revenue will be much less than the price.
 
 We can be more specific about the relationship between price and marginal revenue if we assume that the demand curve the firm faces is a straight line. When this is the case, the dependence of the monopolist's total sales on the price it charges can be represented by an equation of the form
 
 $$
-Q = A - B \times P, \tag {8-1}
+Q = A - B \times P, \tag{8-1}
 $$
 
 where  $Q$  is the number of units the firm sells,  $P$  is the price it charges per unit, and  $A$  and  $B$  are constants. We show in the appendix to this chapter that in this case, marginal revenue is
 
 $$
-\text{Ma rg in al} = M R = P - Q / B, \tag {8-2}
+\text{Marginal} = M R = P - Q / B, \tag{8-2}
 $$
 
 implying that
@@ -91,13 +91,13 @@ Average and Marginal Costs Returning to Figure 8-1,  $AC$  represents the firm's
 If we denote  $c$  as the firm's marginal cost and  $F$  as the fixed cost, then we can write the firm's total cost  $(C)$  as
 
 $$
-C = F + c \times Q, \tag {8-3}
+C = F + c \times Q, \tag{8-3}
 $$
 
 where  $Q$  is once again the firm's output. Given this linear cost function, the firm's average cost is
 
 $$
-A C = C / Q = (F / Q) + c. \tag {8-4}
+A C = C / Q = (F / Q) + c. \tag{8-4}
 $$
 
 # FIGURE 8-2 Average versus Marginal Cost
@@ -110,7 +110,7 @@ As we have discussed, this average cost is always greater than the marginal cost
 
 If, for example,  $F = 5$  and  $c = 1$ , the average cost of producing 10 units is  $(5/10) + 1 = 1.5$ , and the average cost of producing 25 units is  $(5/25) + 1 = 1.2$ . These numbers may look familiar because they were used to construct Table 7-1 in Chapter 7. (However, in this case, we assume a unit wage cost for the labor input, and that the technology now applies to a firm instead of an industry.) The marginal and average cost curves for this specific numeric example are plotted in Figure 8-2. Average cost approaches infinity at zero output and approaches marginal cost at very large output.
 
-The profit-maximizing output of a monopolist is that at which marginal revenue (the revenue gained from selling an extra unit) equals marginal cost (the cost of producing an extra unit), that is, at the intersection of the  $MC$  and  $MR$  curves. In Figure 8-1, we can see that the price at which the profit-maximizing output  $Q_{M}$  is demanded is  $P_{M}$  which is greater than average cost. When  $P > AC$ , the monopolist is earning some monopoly profits, as indicated by the shaded box.2
+The profit-maximizing output of a monopolist is that at which marginal revenue (the revenue gained from selling an extra unit) equals marginal cost (the cost of producing an extra unit), that is, at the intersection of the  $MC$  and  $MR$  curves. In Figure 8-1, we can see that the price at which the profit-maximizing output  $Q_{M}$  is demanded is  $P_{M}$  which is greater than average cost. When  $P > AC$ , the monopolist is earning some monopoly profits, as indicated by the shaded box.
 
 # Monopolistic Competition
 
@@ -122,10 +122,12 @@ The incentive for additional new competitors persists so long as such entry is p
 
 Let's focus on a much simpler case of imperfect competition known as monopolistic competition. This market structure arises when the equilibrium number of competing firms is large and no firm attains a substantial market share. Then, the pricing decision of any given firm will not affect market aggregates and the demand conditions for the other firms, so the pricing decisions of the firms are no longer interrelated. Each firm sets its price given those market aggregates, knowing that the response of any other individual firm would be inconsequential. We next develop such a model of monopolistic competition. We then introduce trade under this market structure in the following section.
 
-Assumptions of the Model We begin by describing the demand facing a typical monopolistically competitive firm. In general, we would expect a firm to sell more, the larger the total demand for its industry's product and the higher the prices charged by its rivals. On the other hand, we would expect the firm to sell less the greater the number of firms in the industry and the higher its own price. A particular equation for the demand facing a firm that has these properties is<sup>4</sup>
+# Assumptions of the Model
+
+We begin by describing the demand facing a typical monopolistically competitive firm. In general, we would expect a firm to sell more, the larger the total demand for its industry's product and the higher the prices charged by its rivals. On the other hand, we would expect the firm to sell less the greater the number of firms in the industry and the higher its own price. A particular equation for the demand facing a firm that has these properties is<sup>4</sup>
 
 $$
-Q = S \times [ 1 / n - b \times (P - \bar {P}) ], \tag {8-5}
+Q = S \times [ 1 / n - b \times (P - \bar{P}) ], \tag{8-5}
 $$
 
 where  $Q$  is the quantity of output demanded,  $S$  is the total output of the industry,  $n$  is the number of firms in the industry,  $b$  is a positive constant term representing the responsiveness of a firm's sales to its price,  $P$  is the price charged by the firm itself, and  $\overline{P}$  is the average price charged by its competitors. Equation (8-5) may be given the following intuitive justification: If all firms charge the same price, each will have a market share  $1/n$ . A firm charging more than the average of other firms will have a smaller market share, whereas a firm charging less will have a larger share.<sup>5</sup>
@@ -134,14 +136,16 @@ It is helpful to assume that total industry output  $S$  is unaffected by the av
 
 Next, we turn to the costs of a typical firm. Here we simply assume that total and average costs of a typical firm are described by equations (8-3) and (8-4). Note that in this initial model, we assume all firms are symmetric even though they produce differentiated products: They all face the same demand curve (8-5) and have the same cost function (8-3). We will relax this assumption in the next section.
 
-Market Equilibrium When the individual firms are symmetric, the state of the industry can be described without describing any of the features of individual firms: All we really need to know to describe the industry is how many firms there are and what price the typical firm charges. To analyze the industry—for example, to assess the effects of international trade—we need to determine the number of firms  $n$  and the average price they charge  $\overline{P}$ . Once we have a method for determining  $n$  and  $\overline{P}$ , we can ask how they are affected by international trade.
+# Market Equilibrium
+
+When the individual firms are symmetric, the state of the industry can be described without describing any of the features of individual firms: All we really need to know to describe the industry is how many firms there are and what price the typical firm charges. To analyze the industry—for example, to assess the effects of international trade—we need to determine the number of firms  $n$  and the average price they charge  $\overline{P}$ . Once we have a method for determining  $n$  and  $\overline{P}$ , we can ask how they are affected by international trade.
 
 Our method for determining  $n$  and  $\overline{P}$  involves three steps. (1) First, we derive a relationship between the number of firms and the average cost of a typical firm. We show that this relationship is upward sloping; that is, the more firms there are, the lower the output of each firm—and thus the higher each firm's cost per unit of output. (2) We next show the relationship between the number of firms and the price each firm charges, which must equal  $\overline{P}$  in equilibrium. We show that this relationship is downward sloping: The more firms there are, the more intense is the competition among firms, and as a result the lower the prices they charge. (3) Finally, we introduce firm entry and exit decisions based on the profits that each firm earns. When price exceeds average cost, firms earn positive profits and additional firms will enter the industry; conversely, when the price is less than average cost, profits are negative and those losses induce some firms to exit. In the long run, this entry and exit process drives profits to zero. So the price  $\overline{P}$  set by each firm must equal the average cost from step (1).
 
 1. The number of firms and average cost. As a first step toward determining  $n$  and  $\overline{P}$ , we ask how the average cost of a typical firm depends on the number of firms in the industry. Since all firms are symmetric in this model, in equilibrium they all will charge the same price. But when all firms charge the same price, so that  $P = \overline{P}$ , equation (8-5) tells us that  $Q = S / n$ ; that is, each firm's output  $Q$  is a  $1 / n$  share of the total industry sales  $S$ . But we saw in equation (8-4) that average cost depends inversely on a firm's output. We therefore conclude that average cost depends on the size of the market and the number of firms in the industry:
 
 $$
-A C = F / Q + c = (n \times F / S) + c. \tag {8-6}
+A C = F / Q + c = (n \times F / S) + c. \tag{8-6}
 $$
 
 Equation (8-6) tells us that other things equal, the more firms there are in the industry, the higher is average cost. The reason is that the more firms there are, the less each firm produces. For example, imagine an industry with total sales of 1 million widgets annually. If there are five firms in the industry, each will sell 200,000
@@ -153,7 +157,7 @@ annually. If there are 10 firms, each will sell only 100,000, and therefore each
 First recall that in the monopolistic competition model, firms are assumed to take each other's prices as given; that is, each firm ignores the possibility that if it changes its price, other firms will also change theirs. If each firm treats  $\overline{P}$  as given, we can rewrite the demand curve (8-5) in the form
 
 $$
-Q = \left[ (S / n) + S \times b \times \bar {P} \right] - S \times b \times P, \tag {8-7}
+Q = \left[ (S / n) + S \times b \times \bar{P} \right] - S \times b \times P, \tag{8-7}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/c76f39f50d8894a80e92c1aae7882a18286105611b1c9a368d37c2cbb9fbc829.jpg)
@@ -166,7 +170,7 @@ The number of firms in a monopolistically competitive market, and the prices the
 where  $b$  is the parameter in equation (8-5) that measured the sensitivity of each firm's market share to the price it charges. Now this equation is in the same form as (8-1), with  $(S / n) + S \times b \times \overline{P}$  in place of the constant term  $A$  and  $S \times b$  in place of the slope coefficient  $B$ . If we plug these values back into the formula for marginal revenue, (8-2), we obtain the marginal revenue for a typical firm of
 
 $$
-M R = P - Q / (S \times b). \tag {8-8}
+M R = P - Q / (S \times b). \tag{8-8}
 $$
 
 Profit-maximizing firms will set marginal revenue equal to their marginal cost,  $c$ , so that
@@ -178,13 +182,13 @@ $$
 which can be rearranged to give the following equation for the price charged by a typical firm:
 
 $$
-P = c + Q / (S \times b). \tag {8-9}
+P = c + Q / (S \times b). \tag{8-9}
 $$
 
 We have already noted, however, that if all firms charge the same price, each will sell an amount  $Q = S / n$ . Plugging this back into (8-9) gives us a relationship between the number of firms and the price each firm charges:
 
 $$
-P = c + 1 / (b \times n). \tag {8-10}
+P = c + 1 / (b \times n). \tag{8-10}
 $$
 
 Equation (8-10) says algebraically that the more firms there are in an industry, the lower the price each firm will charge. This is because each firm's markup over marginal cost,  $P - c = 1 / (b \times n)$ , decreases with the number of competing firms. Equation (8-10) is shown in Figure 8-3 as the downward-sloping curve  $PP$ .
@@ -245,13 +249,13 @@ International trade can create a larger market. We can illustrate the effects of
 Suppose automobiles are produced by a monopolistically competitive industry. The demand curve facing any given producer of automobiles is described by equation (8-5), with  $b = 1/30,000$  (this value has no particular significance; it was chosen to make the example come out neatly). Thus, the demand facing any one producer is given by
 
 $$
-Q = S \times [ (1 / n) - (1 / 3 0, 0 0 0) \times (P - \bar {P}) ],
+Q = S \times [ (1 / n) - (1 / 300000) \times (P - \bar{P}) ],
 $$
 
-where  $Q$  is the number of automobiles sold per firm,  $S$  is the total number sold for the industry,  $n$  is the number of firms,  $P$  is the price that a firm charges, and  $\overline{P}$  is the average price of other firms. We also assume that the cost function for producing automobiles is described by equation (8-3), with a fixed cost  $F = \\(750,000,000$  and a marginal cost  $c = \$ 5,000 \) per automobile (again, these values were chosen to give nice results). The total cost is
+where  $Q$  is the number of automobiles sold per firm,  $S$  is the total number sold for the industry,  $n$  is the number of firms,  $P$  is the price that a firm charges, and  $\overline{P}$  is the average price of other firms. We also assume that the cost function for producing automobiles is described by equation (8-3), with a fixed cost  $F = \$750,000,000$  and a marginal cost  $c = \$5,000$ per automobile (again, these values were chosen to give nice results). The total cost is
 
 $$
-C = 7 5 0, 0 0 0, 0 0 0 + (5, 0 0 0 \times Q).
+C = 750,000,000 + (5,000 \times Q).
 $$
 
 The average cost curve is therefore
@@ -347,7 +351,7 @@ Also note that Home consumers gain more than Foreign consumers from trade integr
 To be more precise, the standard formula for calculating the importance of intra-industry trade within a given industry is
 
 $$
-I = \frac{\min  \left\{\text{ex po rt s} , \text{im po rt s} \right\}}{\left(\text{ex po rt s} + \text{im po rt s}\right) / 2},
+I = \frac{\min  \left\{\text{exports} , \text{imports} \right\}}{\left(\text{exports} + \text{imports}\right) / 2},
 $$
 
 where min  $\{\mathrm{exports,imports}\}$  refers to the smallest value between exports and imports. This is the amount of two-way exchanges of goods reflected in both exports and imports. This number is measured as a proportion of the average trade flow (average of exports and imports). If trade in an industry flows in only one direction, then  $I = 0$  since the smallest trade flow is zero: There is no intra-industry trade. On the other hand, if a country's exports and imports within an industry are equal, we get the opposite extreme of  $I = 1$ .
@@ -777,13 +781,13 @@ Marc J. Melitz and Daniel Trefler. "Gains from Trade When Firms Matter." Journal
 In our exposition of monopoly and monopolistic competition, we found it useful to have an algebraic statement of the marginal revenue faced by a firm given the demand curve it faced. Specifically, we asserted that if a firm faces the demand curve
 
 $$
-Q = A - B \times P, \tag {8A-1}
+Q = A - B \times P, \tag{8A-1}
 $$
 
 its marginal revenue is
 
 $$
-M R = P - (1 / B) \times Q. \tag {8A-2}
+M R = P - (1 / B) \times Q. \tag{8A-2}
 $$
 
 In this appendix, we demonstrate why this is true.
@@ -791,31 +795,31 @@ In this appendix, we demonstrate why this is true.
 Notice first that the demand curve can be rearranged to state the price as a function of the firm's sales rather than the other way around. By rearranging (8A-1), we get
 
 $$
-P = (A / B) - (1 / B) \times Q. \tag {8A-3}
+P = (A / B) - (1 / B) \times Q. \tag{8A-3}
 $$
 
 The revenue of a firm is simply the price it receives per unit multiplied by the number of units it sells. Letting  $R$  denote the firm's revenue, we have
 
 $$
-R = P \times Q = [ (A / B) - (1 / B) \times Q ] \times Q. \tag {8A-4}
+R = P \times Q = [ (A / B) - (1 / B) \times Q ] \times Q. \tag{8A-4}
 $$
 
 Let us next ask how the revenue of a firm changes if it changes its sales. Suppose the firm decides to increase its sales by a small amount,  $dX$ , so that the new level of sales is  $Q = Q + dQ$ . Then the firm's revenue after the increase in sales,  $R$ , will be
 
 $$
-\begin{array}{l} R^{\prime} = P^{\prime} \times Q^{\prime} = [ (A / B) - (1 / B) \times (Q + d Q) ] \times (Q + d Q) \\ = \left[ (A / B) - (1 / B) \times Q \right] \times Q + \left[ (A / B) - (1 / B) \times Q \right] \times d Q \\ - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag {8A-5} \\ \end{array}
+\begin{array}{l} R^{\prime} = P^{\prime} \times Q^{\prime} = [ (A / B) - (1 / B) \times (Q + d Q) ] \times (Q + d Q) \\ = \left[ (A / B) - (1 / B) \times Q \right] \times Q + \left[ (A / B) - (1 / B) \times Q \right] \times d Q \\ - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag{8A-5} \\ \end{array}
 $$
 
 Equation (8A-5) can be simplified by substituting in from (8A-1) and (8A-4) to get
 
 $$
-R^{\prime} = R + P \times d Q - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag {8A-6}
+R^{\prime} = R + P \times d Q - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag{8A-6}
 $$
 
 When the change in sales  $dQ$  is small, however, its square  $(dQ)^2$  is very small (e.g., the square of 1 is 1, but the square of 1/10 is 1/100). So for a small change in  $Q$ , the last term in (8A-6) can be ignored. This gives us the result that the change in revenue from a small change in sales is
 
 $$
-R^{\prime} = R = [ P - (1 / B) \times Q ] \times d Q. \tag {8A-7}
+R^{\prime} = R = [ P - (1 / B) \times Q ] \times d Q. \tag{8A-7}
 $$
 
 So the increase in revenue per unit of additional sales—which is the definition of marginal revenue—is

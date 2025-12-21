@@ -1,31 +1,39 @@
 ---
-aliases:
-  - A basic Central Bank model
-tags:
-key_concepts:
-parent_directory: "[[PPHA Macroeconomic Policymaking]]"
+title: "A basic Central Bank model"
+parent_directory: "PPHA Macroeconomic Policymaking"
+formatted: "2025-12-21 08:35:16 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - "central bank modeling"
+  - "monetary policy"
+  - "inflation targeting"
+  - "macroeconomic policymaking"
+  - "taylor rule"
+secondary_tags:
+  - "phillips curve"
+  - "is lm model"
+  - "solow growth model"
+  - "monetary transmission mechanism"
+  - "central bank independence"
+  - "inflation expectations"
+  - "output gap"
+  - "interest rate policy"
+  - "economic forecasting"
+  - "policy rules"
 cssclasses: academia
-title: A basic Central Bank model
-linter-yaml-title-alias: A basic Central Bank model
 ---
 
 # A basic Central Bank model
 
 # The core model consists of 4 equations:
 
-1. "stochastic" trend for potential output growth,  
-2. Phillips-Curve relating inflation to (i) inflation expectations and (ii) lagged output gap,  
-3. IS curve relating the output gap to lagged output gap and lagged interest rates.  
+1. "stochastic" trend for potential output growth,
+2. Phillips-Curve relating inflation to (i) inflation expectations and (ii) lagged output gap,
+3. IS curve relating the output gap to lagged output gap and lagged interest rates.
 4. Expectations equation which is a convex combination between future and past inflation.
 
-# The core model consists of 4 equations:
-
-1. "stochastic" trend for potential output growth,  
-2. Phillips-Curve relating inflation to (i) inflation expectations and (ii) lagged output gap,  
-3. IS curve relating the output gap to lagged output gap and lagged interest rates.  
-4. Expectations equation which is a convex combination between future and past inflation.
-
-# Quick macro review..
+## Quick macro review..
 
 Solow model: explaining economic growth
 

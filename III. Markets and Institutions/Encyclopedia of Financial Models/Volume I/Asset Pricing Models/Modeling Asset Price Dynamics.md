@@ -1,4 +1,27 @@
 
+---
+title: "Modeling Asset Price Dynamics"
+parent_directory: "Encyclopedia of Financial Models"
+formatted: "2025-12-21 08:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - asset price modeling
+  - stochastic processes
+  - binomial trees
+  - random walks
+secondary_tags:
+  - geometric brownian motion
+  - mean reversion
+  - volatility modeling
+  - time series analysis
+  - financial time series
+  - parameter estimation
+  - price simulation
+  - arbitrage pricing
+cssclasses: academia
+---
+
 # Modeling Asset Price Dynamics
 
 
@@ -26,8 +49,8 @@ Finally, we talk about the continuity of the time series—is the time series sm
 
 For the remainder of this entry, we will use the following notation:
 
--  $S_{t}$ : value of underlying variable (price, interest rate, index level, etc.) at time  $t$ .
--  $S_{t + 1}$ : value of underlying variable (price, interest rate, etc.) at time  $t + 1$ .
+- $S_{t}$: value of underlying variable (price, interest rate, index level, etc.) at time $t$.
+- $S_{t + 1}$: value of underlying variable (price, interest rate, etc.) at time $t + 1$.
 -  $\omega_{t}$ : a random error term observed at time  $t$ . (For the applications in this entry, it will follow a normal distribution with mean equal to 0 and standard deviation equal to  $\sigma$ .)
 -  $\varepsilon_{t}$ : a realization of a normal random variable with mean equal to 0 and standard deviation equal to 1 at time  $t$ .
 

@@ -1,12 +1,23 @@
 ---
-aliases:
-  - Public Infrastructure Less Waste for Better Building
-tags:
-key_concepts:
-parent_directory: "[[Better Spending for Better Lives]]"
-cssclasses: academia
 title: "Chapter 05 - Public Infrastructure: Less Waste for Better Building"
-linter-yaml-title-alias: "Chapter 05 - Public Infrastructure: Less Waste for Better Building"
+parent_directory: "Better Spending for Better Lives"
+formatted: "2025-12-21 08:35:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - infrastructure efficiency
+  - public investment optimization
+  - latin america infrastructure
+secondary_tags:
+  - cost overruns reduction
+  - project selection optimization
+  - infrastructure delivery streamlining
+  - asset utilization improvement
+  - infrastructure planning
+  - procurement efficiency
+  - maintenance accountability
+  - infrastructure governance
+cssclasses: academia
 ---
 
 # 5 Public Infrastructure: Less Waste for Better Building
@@ -15,13 +26,7 @@ The decrepit state of infrastructure in Latin America and the Caribbean is well 
 
 Why is infrastructure so subpar in the region? To begin with, countries in Latin America and the Caribbean do not invest enough in infrastructure. Public and private investment in infrastructure in Latin America and the Caribbean reached an average of 2.75 percent of GDP between 1992 and 2015 and an average of 3.8 percent from 2008 to 2015 (Figure 5.1). This level of spending is low compared with, for example, China (8.5 percent), Japan and India (5 percent), and the average in industrial countries (4 percent) (Powell, 2016). Moreover, as noted in Chapter 2, current investment figures have even dipped below those prevailing in the 1980s. To fill the infrastructure gap, the region would need to invest about 5 percent of its GDP over the next 20-30 years, which is equivalent to an additional \$100 billion a year (Perrotti and Sánchez, 2011; Barbero, 2013; Serebrisky, 2014).<sup>1</sup>
 
-Not surprisingly, low investment in infrastructure has led to poor infrastructure services. The quality of infrastructure in most Latin American and Caribbean countries—particularly in Argentina, Brazil, Paraguay, and Venezuela—is considerably lower than it should be given their income levels (World Bank, 2017). Only a few exceptions in the region—mostly in
-
-Figure 5.1 Investment in Infrastructure (Average between 2008 and 2015)  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/354f53a59ff84cb745e121a279871aa234834edd02f1804b1a3fdf87fe1e7227.jpg)  
-Source: Authors' calculation based on 2017 data from INFRALATAM, http://infralatam.info/.
-
-Central America (Guatemala, Panama, and El Salvador)—have better-than-expected infrastructure quality (Figure 5.2).
+Not surprisingly, low investment in infrastructure has led to poor infrastructure services. The quality of infrastructure in most Latin American and Caribbean countries—particularly in Argentina, Brazil, Paraguay, and Venezuela—is considerably lower than it should be given their income levels (World Bank, 2017). Only a few exceptions in the region—mostly in Central America (Guatemala, Panama, and El Salvador)—have better-than-expected infrastructure quality (Figure 5.2).
 
 Positive relationship between the quality of infrastructure and a country's level of development
 
@@ -30,7 +35,7 @@ Figure 5.2 Relationship between Quality of Overall Infrastructure and Income Lev
 Source: Authors' calculation based on the World Bank World Development Indicators Database and the World Economic Forum's Global Competitiveness Index dataset 2007-2017.  
 Note: Quality of overall infrastructure index ranges from 0 (worst infrastructure quality) to 7 (best infrastructure quality).
 
-Policy reforms to attract private sector investment in infrastructure began in the mid-1990s, and increased private investment from a negligible amount to 1 percent of GDP by 2015 (Serebrisky et al., 2015). Despite the growing role of the private sector, the public sector however, accounts for more than two-thirds of total infrastructure investment in Latin America and the Caribbean (Figure 5.1). Private investment in infrastructure has varied across countries and sectors, and more can be done to mobilize it through policies supported by multilateral development banks (MDBs) in the region (UNDP, 2016).<sup>2</sup> But the experience of recent decades in Latin America and the Caribbean shows that the public sector may still play a substantial role in the funding of infrastructure.
+Policy reforms to attract private sector investment in infrastructure began in the mid-1990s, and increased private investment from a negligible amount to 1 percent of GDP by 2015 (Serebrisky et al., 2015). Despite the growing role of the private sector, the public sector, however, accounts for more than two-thirds of total infrastructure investment in Latin America and the Caribbean (Figure 5.1). Private investment in infrastructure has varied across countries and sectors, and more can be done to mobilize it through policies supported by multilateral development banks (MDBs) in the region (UNDP, 2016).<sup>2</sup> But the experience of recent decades in Latin America and the Caribbean shows that the public sector may still play a substantial role in the funding of infrastructure.
 
 The role of the public sector in infrastructure is important not only because the sector makes up the lion's share of total investment but also because infrastructure investment has public good characteristics, including strong externalities and network effects. Providing electricity requires an efficient transmission and distribution network; urban transport systems need both trunk routes and feeders to provide adequate access to jobs and housing. If infrastructure development is not properly planned, the efficiency of services provided by the assets will be low. In addition, global agreements like the Paris Accord and the Sustainable Development Goals require governments to plan and set standards in order to create infrastructure that is resilient and meets mitigation targets.
 
@@ -38,7 +43,7 @@ Growth in Latin America and the Caribbean is declining and the region's macroeco
 
 While this bias is resolved (see Chapter 9 on public expenditure composition rules to protect public investment), having fewer resources to invest forces countries to find ways to provide infrastructure services more efficiently. A study by the McKinsey Global Institute (Dobbs et al., 2013) concludes that countries could satisfy future demand for infrastructure services by investing just 60 percent of what demand forecasts indicate they should—that is, just by investing resources more efficiently, countries could save up to 40 percent on infrastructure expenditure (Figure 5.3). McKinsey's report identifies three components and processes of the project cycle of infrastructure service delivery that need to be improved to reach the 40 percent in efficiency gains: 1) improving project selection and optimizing infrastructure portfolios, 2) streamlining service delivery, and 3) making the most of existing assets. Each of them explains, respectively, 20 percent, 40 percent, and 40 percent of potential efficiency gains. This chapter adopts McKinsey's analytical structure and attempts to provide quantitative estimates of Latin America and the Caribbean's potential efficiency gains in public investment in infrastructure (Figure 5.3).
 
-# Making the Right Choices
+## Making the Right Choices
 
 Picking the right projects and optimizing infrastructure portfolios can go a long way toward improving the efficiency of infrastructure spending. Project selection can be improved in several areas. Proper planning can help countries take advantage of network effects and avoid expensive changes during implementation. Early-stage planning and design can offer key savings by reducing the need to make changes after construction begins.
 
@@ -48,11 +53,11 @@ Figure 5.3 Potential Efficiency Gains in Infrastructure Spending
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/3c1877e4a6d1d72ddb669f801d9edead066bb9d3a0e4c6a288b53af98eaa36a5.jpg)  
 Source: Authors' elaboration adapted from Dobbs et al. (2013).
 
-investment process can raise returns on both public and private investment and ensure that investment generates the required growth dividends while maintaining fiscal and debt sustainability (Collier and Venables, 2008). Choosing the right combination of projects and eliminating wasteful ones could save \$200 billion a year globally (McKinsey Global Institute, 2017). When upstream planning is done properly, countries select the projects with the highest social rates of return, avoiding white elephants (e.g., "bridges to nowhere").
+The investment process can raise returns on both public and private investment and ensure that investment generates the required growth dividends while maintaining fiscal and debt sustainability (Collier and Venables, 2008). Choosing the right combination of projects and eliminating wasteful ones could save \$200 billion a year globally (McKinsey Global Institute, 2017). When upstream planning is done properly, countries select the projects with the highest social rates of return, avoiding white elephants (e.g., "bridges to nowhere").
 
 The Public Investment Management Index (PIMI) developed by the International Monetary Fund (IMF) assesses the institutional environment underpinning public investment management systems at four project stages: appraisal, selection, implementation, and evaluation. Its sample of 71 countries includes 10 countries from Latin America and the Caribbean. The index—which ranges from 0 (least efficient) to 4 (most efficient)—indicates that while Latin America and the Caribbean performs well relative to other regions, it still has a long way to go in terms of efficiency. Its average (1.83) is slightly lower than the average for Eastern European countries (1.91) but relatively higher than the lowest-scoring region, Africa (1.56).<sup>3</sup> Brazil, Colombia, Peru, and Bolivia score above the average of the 10 Latin American and Caribbean countries included (Table 5.1). Nonetheless, the region is far from the best performer in the sample, South Africa, which has an efficiency score of 3.53.
 
-The PIMI includes only 10 countries in Latin America and the Caribbean. To overcome this limitation, Contreras et al. (2016) of the IDB revised this methodology and used it to assess all countries in the Network of National Public Investment Systems (SNIP). They added one new dimension and two subdimensions to the PIMI. A new dimension, labeled as "general characterization of the public investment cycle," captures operational characteristics with respect to all stages of the public investment cycle. The subdimension
+The PIMI includes only 10 countries in Latin America and the Caribbean. To overcome this limitation, Contreras et al. (2016) of the IDB revised this methodology and used it to assess all countries in the Network of National Public Investment Systems (SNIP). They added one new dimension and two subdimensions to the PIMI. A new dimension, labeled as "general characterization of the public investment cycle," captures operational characteristics with respect to all stages of the public investment cycle. The subdimension "methodologies on project preparation and evaluation/social pricing" is included in the "strategic guidance and project appraisal" dimension and the subdimension "selection criteria" is included in the "project section" dimension.
 
 Table 5.1 Public Investment Management Index, 2015  
 
@@ -115,13 +120,13 @@ Note: Values range from "very weak" (cells colored by red) to "very strong" (cel
 - Group 3 (weak): Argentina, Costa Rica, Guatemala, Honduras, and Uruguay  
 - Group 4 (very weak): El Salvador, Panama, and Paraguay.
 
-# Streamlining Infrastructure Delivery
+## Streamlining Infrastructure Delivery
 
 Streamlining the delivery of infrastructure requires action in several project-related areas and can account for 40 percent of the total potential efficiency gains in infrastructure delivery, according to Dobbs et al. (2013) (Figure 5.3). A variety of bottlenecks raises infrastructure construction costs. Land acquisition processes, environmental permits, and resettlement agreements usually lack institutional coordination and involve lengthy bureaucratic processes that delay project implementation. Failure
 
 to use advanced construction techniques, the high incidence of informal labor, and weak incentives to implement lean supervision systems all increase construction costs. This section focuses on providing quantitative estimates of potential gains in public investment in infrastructure in order to avoid cost overruns and project implementation delays.
 
-# Trimming Construction Cost Overruns
+## Trimming Construction Cost Overruns
 
 Cost overruns are common in infrastructure (Box 5.1). In practical terms, cost overruns in an infrastructure project imply that the assets in the project could be built using fewer financial resources. There is a caveat, however: cost overruns are not always necessarily bad, or the result of inexperience, ineptitude, or corruption. Building infrastructure is a difficult endeavor, and cost overruns are often to be expected. Investment in infrastructure is large, lumpy, and involves high construction risks, mostly driven by the impossibility of anticipating contingencies. Complex geology, archeological remains, natural disasters, and physical and social constraints (for instance, resettlement processes that might trigger legal disputes) are among some of the variables that cause unavoidable cost overruns.<sup>8</sup> Other overruns are avoidable, though, and reducing or eliminating them can yield substantial savings.
 
@@ -133,13 +138,13 @@ and Europe (for Africa and Oceania there were no statistically significant trend
 
 Is there a good benchmark against which cost overruns in Latin America can be compared? For this report, a novel dataset was built and analyzed on cost overruns on public infrastructure projects financed by multilateral development banks (MDBs), which usually provide 10-12 percent of public infrastructure investment funds in Latin America and the Caribbean (more than 20 percent in small economies, mostly in Central America) (Serebrisky et al., 2015). The working hypothesis is that infrastructure projects
 
-# BOX 5.1 COST OVERRUNS IN INFRASTRUCTURE: WHY THE PRICE IS NEVER RIGHT
+**BOX 5.1 COST OVERRUNS IN INFRASTRUCTURE: WHY THE PRICE IS NEVER RIGHT**
 
 The development of infrastructure projects takes time. Combining this fact with incomplete information sets the scene for cost overruns. First, contractors may have less incentive to minimize costs as projects are in more advanced stages because the threat of downsizing and removal is less credible as the project progresses (Arvan and Leite, 1990; Lewis, 1985). Secondly, the complexity of infrastructure projects often makes designs imperfect. This complexity, coupled with the impossibility of writing complete contracts, incentivize contractors to present lower costs for getting the contract, and then renegotiate a higher price later (hold-up) (Ganuza, 2007).
 
 The literature points out four dimensions of cost overruns in infrastructure projects: technical, economic, political, and sociological (Flyvbjerg, Skamris Holm, and Buhl, 2002, 2003, 2007, 2008, 2016). Among the technical factors, the most important are forecast errors and risks, which in infrastructure projects are complex and difficult to specify (and quantify). Economic grounds include principal-agent problems among the public officials who assign the projects and the members of society who benefit (in principle) from them. The objectives of public agents and the public may differ. Thus, incentives are not always aligned, and the decision of public agents may not in fact maximize social welfare. Third, competition between cities or regions frequently leads to proposals with underestimated costs, with the aim of gaining the chance of developing the project in their territory and taking political advantage of it. Once the work is assigned to one city, reassigning it to another one is costly, especially once construction has begun. Finally, beyond strategic reasons, there is "appraisal optimism." This means that agents tend to think that the costs, the risks, and the execution time of the projects are smaller than is realistically possible. There is a bias toward
 
-# BOX 5.1 COST OVERRUNS IN INFRASTRUCTURE: WHY THE PRICE IS NEVER RIGHT (continued)
+**BOX 5.1 COST OVERRUNS IN INFRASTRUCTURE: WHY THE PRICE IS NEVER RIGHT (continued)**
 
 overestimating one's own capacity to carry out complex projects, which is reflected in underestimating costs and risks, and overestimating the benefits associated with projects (Flyvbjerg, Skamris Holm, and Buhl, 2002, 2004). Table B5.1 summarizes causes and explanations based on Flyvbjerg's categorization.
 
@@ -170,12 +175,7 @@ and supervision, than do national systems. These projects must also comply with 
 
 The sample includes 231 infrastructure projects financed in Latin America and the Caribbean by the IDB (83 projects) and the World Bank (148 projects) between 1985 and 2012. It includes 142 transport projects (road construction, maintenance, and rehabilitation); 73 water and sanitation projects (treatment plants, improvement and expansion of distribution networks); and 16 energy projects (generation and transmission).
 
-Among projects financed by the IDB, 82 percent suffered cost overruns. In 5 percent of cases, the country asked for additional financing from the IDB; in the remaining 95 percent of cases, national counterparts assumed the cost. Cost overruns were, on average, 22 percent of the total costs of the projects. Among projects financed by the World Bank, 53 percent suffered cost overruns. In 20 percent of those cases, the World Bank covered those costs. Cost overruns accounted for 17 percent of the total costs of the projects on average.[10] A first look at the data can lead to the conclusion that cost overruns are generalized because most of the
-
-9 The IDB sample is distributed as follows: 35 percent of projects were in Brazil, 7 percent in Colombia, 6 percent in Haiti, 6 percent in Peru, 6 percent in Uruguay, and 5 percent in Bolivia. The remaining 35 percent was distributed among Argentina, the Bahamas, Barbados, Belize, Costa Rica, Ecuador, El Salvador, Guatemala, Guyana, Honduras, Jamaica, Mexico, Panama, Paraguay, and Trinidad and Tobago. The World Bank sample is distributed as follows: 26 percent of projects were implemented in Brazil, 10 percent in Argentina, 7 percent in Colombia, 6 percent in Peru, 5 percent in Honduras, 4 percent in Haiti, and 4 percent in Mexico. The remaining 28 percent was distributed among Belize, Bolivia, Chile, Costa Rica, the Dominican Republic, Ecuador, El Salvador, Guatemala, Guyana, Jamaica, Nicaragua, Panama, Paraguay, St. Lucia, Uruguay, and Venezuela.  
-10 Awojobi and Jenkins (2015) seem to be the only other researchers to have estimated cost overruns in World Bank infrastructure projects. They found that cost overruns on hydroelectric dams financed by the World Bank were 27 percent.
-
-projects have them. However, when the size of cost overruns is studied in more detail, less than 15 percent of IDB and World Bank projects have cost overruns of more than 50 percent, while 74 percent of IDB projects and 79 percent of World Bank projects have cost overruns of less than 20 percent.
+Among projects financed by the IDB, 82 percent suffered cost overruns. In 5 percent of cases, the country asked for additional financing from the IDB; in the remaining 95 percent of cases, national counterparts assumed the cost. Cost overruns were, on average, 22 percent of the total costs of the projects. Among projects financed by the World Bank, 53 percent suffered cost overruns. In 20 percent of those cases, the World Bank covered those costs. Cost overruns accounted for 17 percent of the total costs of the projects on average.[10] A first look at the data can lead to the conclusion that cost overruns are generalized because most of the projects have them. However, when the size of cost overruns is studied in more detail, less than 15 percent of IDB and World Bank projects have cost overruns of more than 50 percent, while 74 percent of IDB projects and 79 percent of World Bank projects have cost overruns of less than 20 percent.
 
 Regarding the relationship between cost overruns and specific infrastructure sectors, on average, transport projects present slightly higher overruns than water and sanitation and energy projects (Table 5.4). However, the difference is not statistically significant.
 
@@ -195,7 +195,7 @@ In summary, cost overruns do not seem to vary substantially by infrastructure se
 
 In sum, cost overruns on projects financed by MDBs in Latin America and the Caribbean averaged 17-22 percent—less than half the 48 percent estimated for all infrastructure projects in the region. Assuming that cost overruns of projects financed by MDBs represent a lower bound for cost overruns in the region, the potential for substantial cost overrun reductions is in the 26-31 percent range.[11] As public expenditure on infrastructure accounts for about 2.5 percent of regional GDP, reducing overruns to the lower bound could result in cost savings of more than 0.65 percent of regional GDP.
 
-# Avoiding Delays in Construction
+## Avoiding Delays in Construction
 
 Delays in the construction of infrastructure receive much less attention than cost overruns, but they can increase a project's financial costs significantly. Delays immobilize physical and financial capital. During the delay, unit prices can increase, trained staff can leave the project, and the needs and priorities of beneficiaries can change (Leurs, 2005).
 
@@ -239,13 +239,7 @@ Only limited data are available on the financial costs of delays, however, becau
 
 To better understand the costs of delays, a theoretical project disbursement curve was built based on information on programmed disbursements for more than 100 project documents prepared for approval by the Board of Directors of the IDB between 2003 and 2016. This curve is compared against a curve based on data on actual disbursements for 317 infrastructure projects.
 
-The leftmost line in Figure 5.12 shows the disbursements that should have been made, according to program documents (i.e., the theoretical
-
-Figure 5.12 Theoretical and Actual Cumulative Disbursements of IDB-Financed Infrastructure Loans (by year)  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/a5d60e3a414e3fc4f973738fd8d5bfb98042c40ccee2013a28fa23dea29dbb93.jpg)  
-Source: Authors' calculation based on IDB and World Bank project databases.
-
-disbursement curve). The other lines show actual disbursements over the years. Although performance improved between 2008 and 2016—that is, a larger share of loans was disbursed according to schedule, indicating that a learning process was taking place as projects approached the theoretical disbursement curve—delays remain and there is some additional room for improvement.
+The leftmost line in Figure 5.12 shows the disbursements that should have been made, according to program documents (i.e., the theoretical disbursement curve). The other lines show actual disbursements over the years. Although performance improved between 2008 and 2016—that is, a larger share of loans was disbursed according to schedule, indicating that a learning process was taking place as projects approached the theoretical disbursement curve—delays remain and there is some additional room for improvement.
 
 Moreover, no significant differences in disbursements seem to exist across project sizes (Figure 5.13A) or infrastructure subsectors (Figure 5.13B). However, disbursements of infrastructure projects vary across sectors (that is, among purely infrastructure projects and those in social sectors such as health and education). As shown in Figure 5.14, the disbursement gap is larger in infrastructure than in social sectors.
 
@@ -267,7 +261,7 @@ Source: Authors' calculation based on IDB and World Bank project databases.
 
 increase efficiency, and if disbursements follow the stipulated schedule, savings could account for up to 19.7 percent of the total of the project. Since public expenditure on infrastructure is about 2.5 percent of regional GDP, savings from an improved disbursements schedule could reach up to 0.5 percent of regional GDP.[16]
 
-# Making the Most of Existing Assets
+## Making the Most of Existing Assets
 
 According to Dobbs et al. (2013), making the most of existing assets could save about 40 percent of infrastructure spending (see Figure 5.3). And what about improving the efficiency of the existing stock of infrastructure? By increasing the efficiency of supply (that is, the capacity of service providers to supply more services with the same assets), savings could be obtained by avoiding construction of new infrastructure to respond to demand growth.
 
@@ -301,7 +295,7 @@ Lack of proper maintenance increases costs to infrastructure providers. It also 
 
 There are several reasons for the bias against maintenance. They include limited resources; poor execution capacity; and corruption, favoritism, and rent-seeking opportunities during the bidding process, which create incentives to ignore maintenance. Construction is more politically attractive than maintenance, and citizens seem to value maintenance projects less, while the press focuses on new projects or waits until tragedies occur to call attention to deferred maintenance (Jaffe, 2015). Proper maintenance could help the region make the most of its existing assets. Improving maintenance accountability in national accounts, as well as in utilities' balance sheets, could help shield maintenance costs in times of fiscal constraints.
 
-# Paving the Way to a Brighter Future
+## Paving the Way to a Brighter Future
 
 The state of infrastructure in Latin America and the Caribbean is well below what it should be for a region at its level of development—and the consequences are devastating. Thirty million people in the region lack access to electricity, 34 million lack access to drinking water, and 106 million lack access to improved sanitation (Serebrisky et al., 2017).
 

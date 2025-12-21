@@ -1,9 +1,37 @@
 
+---
+title: "Arbitrage Pricing: Continuous-State, Continuous-Time Models"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Asset Pricing Models"
+formatted: 2025-12-21 08:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - arbitrage pricing theory
+  - continuous time finance
+  - stochastic calculus
+  - equivalent martingale measures
+  - black scholes model
+secondary_tags:
+  - ito processes
+  - brownian motion
+  - option pricing
+  - state price deflators
+  - risk neutral valuation
+  - girsanov theorem
+  - filtration theory
+  - hedging strategies
+  - derivative securities
+  - market completeness
+  - stochastic differential equations
+  - diffusion processes
+cssclasses: academia
+---
+
 # Arbitrage Pricing: Continuous-State, Continuous-Time Models
 
-Partner, The Intertek Group
+**Partner, The Intertek Group**
 
-Professor of Finance, EDHEC Business School
+**Professor of Finance, EDHEC Business School**
 
 Abstract: The principle of absence of arbitrage is perhaps the most fundamental principle of finance theory. In the presence of arbitrage opportunities, there is no trade-off between risk and returns because it is possible to make unbounded risk-free gains. The principle of absence of arbitrage is fundamental for understanding asset valuation in a competitive market. Arbitrage pricing can be developed in a finite-state, discrete-time setting and a continuous-time, continuous-state setting.
 
@@ -15,18 +43,17 @@ Let's start with the definition of basic concepts. The economy is represented by
 
 Each security  $i$  is characterized by a payoff rate process  $\delta_t^i$  and by a price process  $S_{t}^{i}$ . In this continuous-state setting,  $\delta_t^i$  and  $S_{t}^{i}$  are real variables with a continuous range such that  $\delta_t^i (\omega)$  and  $S_{t}^{i}(\omega)$  are, respectively, the payoff-rate and the price of the  $i$ -th asset at time  $t$ ,  $0\leq t\leq T$ and in state  $\omega \in \Omega$ . Note that  $\delta_t^i$  represents a rate of payoff and not a payoff as was the case in the discrete-time setting. The payoff-rate process must be interpreted in the sense that the cumulative payoff of each individual asset is
 
-
 $$
-D_{t}^{i} = \int_{0}^{t} \delta_{\mathrm{s}}^{i} d s
+D_{t}^{i} = \int_{0}^{t} \delta_{s}^{i} \, ds
 $$
 
-We assume that the number of assets is finite. We can therefore use the vector notation to indicate a set of processes. For example, we write  $\delta_t$  and  $S_t$  to indicate the vector process of payoff rates and prices respectively. All payoff-rates and prices are stochastic processes adapted to the filtration  $\Im$ . One can make assumptions about the price and the payoff-rate processes. For example, it can be assumed that price and payoff-rate processes satisfy a set of stochastic differential equations or that they exhibit finite jumps. Later in this entry we will explore a number of these processes.
+We assume that the number of assets is finite. We can therefore use the vector notation to indicate a set of processes. For example, we write  $\delta_t$  and  $S_t$  to indicate the vector process of payoff rates and prices respectively. All payoff-rates and prices are stochastic processes adapted to the filtration $\Im_t$. One can make assumptions about the price and the payoff-rate processes. For example, it can be assumed that price and payoff-rate processes satisfy a set of stochastic differential equations or that they exhibit finite jumps. Later in this entry we will explore a number of these processes.
 
-Conditional expectations are defined as partial averaging. In fact, given a variable  $X_{s}, s > t$ , its conditional expectation  $E_{t}[X_{s}]$  is defined as a variable that is  $\Im_t$ -measurable and whose average on each set  $A \in \mathfrak{I}_t$  is the same as that of  $X$ :
+Conditional expectations are defined as partial averaging. In fact, given a variable $X_{s}$, $s > t$, its conditional expectation $E_{t}[X_{s}]$ is defined as a variable that is $\Im_t$-measurable and whose average on each set $A \in \mathfrak{I}_t$ is the same as that of $X$:
 
 $$
 Y_{t} = E_{t} \left[ X_{s} \right] \Leftrightarrow E \left[ Y_{t} (\omega) \right] = E \left[ X_{s} (\omega) \right]
-$$ for  $\omega \in A, \forall A \in \mathfrak{I}_t$  and  $Y$  is  $\mathfrak{I}_t$ -measurable.
+$$ for $\omega \in A, \forall A \in \mathfrak{I}_t$ and $Y$ is $\mathfrak{I}_t$-measurable.
 
 
 The law of iterated expectations applies as in the finite-state case:
@@ -38,14 +65,14 @@ $$
 In a continuous-state setting, conditional expectations are variables that assume constant values on the sets of infinite partitions. Imagine the evolution of a variable  $X$ . At the initial date,  $X_0$  identifies the entire space  $\Omega$ . At each subsequent date  $t$ , the space  $\Omega$  is partitioned into an infinite number of sets, each determined by one of the infinite values of  $X_t$ . However, these sets have measure zero. In fact, they are sets of the type:  $\{A : \omega \in A \Leftrightarrow X_t(\omega) = x\}$  determined by specific values of the variable  $X_t$ . These sets have probability zero as there is an infinite number of values  $X_{t}$ . As a consequence, we cannot define conditional expectation as expectation under the usual definition of conditional probabilities the same way we did in the case of finite-state setting.
 
 
-# Trading Strategies and Trading Gains
+## Trading Strategies and Trading Gains
 
-We have to define the meaning of trading strategies in the continuous-state, continuous-time setting; this requires the notion of continuous trading. Mathematically, continuous trading means that the composition of portfolios changes continuously at every instant and that these changes are associated with trading gains or losses. A trading strategy is a (vector-valued) process  $\theta = \{\theta^i\}$  such that  $\theta_t = \{\theta_t^t\}$  is the portfolio held at time  $t$ . To ensure that there is no anticipation of information, each trading strategy  $\theta$  must be an adapted process.
+We have to define the meaning of trading strategies in the continuous-state, continuous-time setting; this requires the notion of continuous trading. Mathematically, continuous trading means that the composition of portfolios changes continuously at every instant and that these changes are associated with trading gains or losses. A trading strategy is a (vector-valued) process $\theta = \{\theta^i\}$ such that $\theta_t = \{\theta_t^i\}$ is the portfolio held at time $t$. To ensure that there is no anticipation of information, each trading strategy  $\theta$  must be an adapted process.
 
 Given a trading strategy, we have to define the gains or losses associated with it. In discrete time, the trading gains equal the sum of payoffs plus the change of a portfolio's value
 
 $$
-\sum_{t = 0}^{T} \left(\sum_{t} d_{t}^{i} \theta_{t}^{i}\right) + \sum_{i} S_{T}^{i} \theta_{T}^{i} - \sum_{i} S_{0}^{i} \theta_{0}^{i}
+\sum_{t = 0}^{T} \left(\sum_{i} d_{t}^{i} \theta_{t}^{i}\right) + \sum_{i} S_{T}^{i} \theta_{T}^{i} - \sum_{i} S_{0}^{i} \theta_{0}^{i}
 $$ over a finite interval  $[0, T]$ .
 
 
@@ -83,14 +110,14 @@ $$
 \theta_{t} S_{t} = \sum_{i} \theta_{t}^{i} S_{t}^{i} = \sum_{i} \left(\theta_{0}^{i} S_{0}^{i} + \int_{0}^{t} \theta_{t}^{i} d S_{t}^{i}\right), t \in [ 0, T ]
 $$
 
-We first define arbitrage in the absence of a payoff-rate process. An arbitrage is a self-financing trading strategy such that:  $\theta_0S_0 < 0$  and  $\theta_T S_T \geq 0$ , or  $\theta_0S_0 \leq 0$  and  $\theta_T S_T > 0$ . If there is a payoff-rate process, a self-financing trading strategy is a trading strategy such that the following relationships hold:
+We first define arbitrage in the absence of a payoff-rate process. An arbitrage is a self-financing trading strategy such that: $\theta_0 S_0 < 0$ and $\theta_T S_T \geq 0$, or $\theta_0 S_0 \leq 0$ and $\theta_T S_T > 0$. If there is a payoff-rate process, a self-financing trading strategy is a trading strategy such that the following relationships hold:
 
 $$
 \theta_{t} S_{t} = \sum_{i} \theta_{t}^{i} S_{t}^{i} = \sum_{i} \left(\theta_{0}^{i} S_{0}^{i} + \int_{0}^{t} \theta_{t}^{i} d G_{t}^{i}\right), t \in [ 0, T ]
-$$ where  $G_{t}^{i} = S_{t}^{i} + D_{t}^{i}$  is the gain process as previously defined. An arbitrage is a self-financing trading strategy such that:  $\theta_0S_0 < 0$  and  $\theta_{\mathrm{T}}S_{T}\geq 0$ , or  $\theta_0S_0\leq 0$  and  $\theta_{\mathrm{T}}S_{T} > 0$ .
+$$ where $G_{t}^{i} = S_{t}^{i} + D_{t}^{i}$ is the gain process as previously defined. An arbitrage is a self-financing trading strategy such that: $\theta_0 S_0 < 0$ and $\theta_T S_T \geq 0$, or $\theta_0 S_0 \leq 0$ and $\theta_T S_T > 0$.
 
 
-# ARBITRAGE PRICING IN CONTINUOUS-STATE, CONTINUOUS-TIME
+## ARBITRAGE PRICING IN CONTINUOUS-STATE, CONTINUOUS-TIME
 
 The abstract principles of arbitrage pricing are the same in a discrete-state, discrete-time setting as in a continuous-state, continuous-time setting. Arbitrage pricing is relative pricing. In the absence of arbitrage, the price and payoff-rate processes of a set of basic assets fix the prices of other assets given the payoff-rate process of the latter. If markets are complete, every price process can be computed in this way. In a discrete-state, discrete-time setting, the computation of arbitrage pricing is done with matrix algebra. In fact, in the absence of arbitrage, every price process can be expressed in two alternative ways:
 
@@ -115,7 +142,7 @@ The theory of arbitrage pricing in a continuous-state, continuous-time setting u
 
 In the following sections we will develop the theory of arbitrage pricing in steps. First, we will illustrate the principles of arbitrage pricing in the case of options, arriving at the Black-Scholes option pricing formula. We will then extend this theory to more general derivative securities. Subsequently, we will state arbitrage pricing theory in the context of equivalent martingale measures and of state-price deflators.
 
-# OPTION PRICING
+## OPTION PRICING
 
 We will now apply the concepts of arbitrage pricing to option pricing in a continuous-state, continuous-time setting. Suppose that a market consists of three assets: a risk-free asset (which allows risk-free borrowing and lending at the risk-free rate of interest), a stock, and a European option. We will show that the price processes of a stock and of a risk-free asset fix the price process of an option on that stock.
 
@@ -131,7 +158,7 @@ $$
 $$ which admits the solution  $V_{t} = V_{0}e^{rt}$  where  $V_{0}$  is the initial value of the bank account. This formula can also be interpreted as the price process of a risk-free bond with deterministic rate  $r$ .
 
 
-# Stock Price Processes
+## Stock Price Processes
 
 Let's now examine the price process of the stock. Consider the process  $y = \alpha t + \sigma B_{t}$  where  $B_{t}$  is a standard Brownian motion. From the definition of Ito integrals, it can be seen that this process, which is called an arithmetic Brownian motion, is the solution of the following diffusion equation:
 
@@ -156,7 +183,7 @@ In fact, the option can be rationally exercised only if the price of the stock e
 
 How can we compute the option price at every other date? We can arrive at the solution in two different but equivalent ways: (1) through hedging arguments and (2) the equivalent martingale measures. In the following sections we will introduce hedging arguments and equivalent martingale measures.
 
-# Hedging
+## Hedging
 
 To hedge means to protect against an adverse movement. The seller of an option is subject to a liability as, from his point of view, the option has a negative payoff in some states. In our context, hedging this option means to form a self-financing trading strategy formed with the stock plus the risk-free asset in appropriate proportions such that the option plus this hedging portfolio is risk free. Hedging the option implies that the hedging portfolio perfectly replicates the option payoff in every possible state.
 
@@ -170,14 +197,14 @@ To avoid arbitrage, the price of the option at any moment must be equal to the v
 
 
 $$
-\theta_{t}^{1} V_{t} + \theta_{t}^{2} S_{t} <   Y_{t}
+\theta_{t}^{1} V_{t} + \theta_{t}^{2} S_{t} < Y_{t}
 $$
 
 An investor could then sell the option for  $Y_{t}$ , make an investment  $\theta_t^1 V_t + \theta_t^2 S_t$  in the trading strategy, and at time  $T$  liquidate both the option and the trading strategy. As  $\theta_T^1 V_T + \theta_T^2 S_T = Y_T$  the final liquidation has value zero in every state of the world, so that the initial profit  $Y_{t} - \theta_{t}^{1}V_{T} + \theta_{t}^{2}S_{T}$  is a risk-free profit. A similar reasoning could be applied if, at any time  $t < T$ , the strategy  $(\theta_t^1,\theta_t^2)$  had a value higher than the option. Therefore, we can conclude that if there is a self-financing trading strategy that replicates the option's payoff, the value of the strategy must coincide with the option's price at every instant prior to the expiry date.
 
 Observe that the above reasoning is an instance of the law of one price. If two portfolios have the same payoffs at every moment and in every state of the world, their price must be the same. In particular, if a trading strategy has the same payoffs of an asset, its value must coincide with the price of that asset.
 
-# The Black-Scholes Option Pricing Formula
+## The Black-Scholes Option Pricing Formula
 
 Let's now see how the price of the option can be computed. Assume that the price of the option is a function of time and of the price of the underlying stock:  $Y_{t} = C(S_{t}, t)$ . This assumption is reasonable but needs to be justified; for the moment it is only a hint as to how to proceed with the calculations. It will be justified later by verifying that the pricing formula produces the correct final payoff.
 
@@ -253,11 +280,9 @@ If the above assumptions are true, we can write a stochastic differential equati
 
 Note that the above is neither a demonstration that there is an option pricing function, nor a demonstration that there is a replicating trading strategy. However, if both a pricing function and a replicating trading strategy exist, the above process allows one to determine both by solving a partial differential equation. After determining a solution to the PDE, one can verify if it provides a pricing function and if it allows the creation of a self-financing trading strategy. Ultimately, the justification of the existence of an option's pricing function and of a replicating self-financing trading strategy resides in the possibility of actually determining both. Absence of arbitrage ensures that this solution is unique.
 
-# Generalizing the Pricing of European Options
+## Generalizing the Pricing of European Options
 
-We can now generalize the above pricing methodology to a generic European option and to more general price processes for the bond and for the underlying stock. In the most general case, the process underlying a derivative need not be a stock price process. However, we
-
-Suppose that the underlying is a stock price process so that replicating portfolios can be formed. We generalize in three ways:
+We can now generalize the above pricing methodology to a generic European option and to more general price processes for the bond and for the underlying stock. In the most general case, the process underlying a derivative need not be a stock price process. However, we suppose that the underlying is a stock price process so that replicating portfolios can be formed. We generalize in three ways:
 
 - The option's payoff is an arbitrary finite-variance random variable.
 - The stock price process is an Itô process.
@@ -392,7 +417,7 @@ $$
 If
 
 $$
-\begin{array}{l} \theta_{T} S_{T}^{\pi} \geq 0 \quad \text{th en} \quad \theta_{0} S_{0}^{\pi} \geq 0 \\ \text{an di f} \quad \theta_{T} S_{T}^{\pi} > 0 \quad \text{th en} \quad \theta_{0} S_{0}^{\pi} > 0 \\ \end{array}
+\begin{array}{l} \theta_{T} S_{T}^{\pi} \geq 0 \quad \text{then} \quad \theta_{0} S_{0}^{\pi} \geq 0 \\ \text{and if} \quad \theta_{T} S_{T}^{\pi} > 0 \quad \text{then} \quad \theta_{0} S_{0}^{\pi} > 0 \\ \end{array}
 $$ which shows that there cannot be any arbitrage.
 
 
@@ -400,7 +425,7 @@ We have now stated that the existence of state-price deflators ensures the absen
 
 # EQUIVALENT MARTINGALE MEASURES
 
-In the previous section we saw that if there is a regular state-price deflator then there is no arbitrage. A state-price deflator transforms every price process and every self-financing trading strategy into a martingale. We will now see that, after discounting by an appropriate process, price processes become martingales through a transformation of the real probability measure into an equivalent martingale measure.2 This theory parallels the theory of equivalent martingale measures developed in the discrete-state, discrete-time setting in the entry "Arbitrage Pricing: Finite-State Models." First some definitions must be discussed.
+In the previous section we saw that if there is a regular state-price deflator then there is no arbitrage. A state-price deflator transforms every price process and every self-financing trading strategy into a martingale. We will now see that, after discounting by an appropriate process, price processes become martingales through a transformation of the real probability measure into an equivalent martingale measure. This theory parallels the theory of equivalent martingale measures developed in the discrete-state, discrete-time setting in the entry "Arbitrage Pricing: Finite-State Models." First some definitions must be discussed.
 
 
 Given a probability measure  $P$ , the probability measure  $Q$  is said to be equivalent to  $P$  if both assign probability zero to the same events, that is, if  $P(A) = 0$  if and only if  $Q(A) = 0$  for every event  $A$ . The equivalent probability measure  $Q$  is said to be an equivalent martingale measure for the process  $X$  if  $X$  is a martingale with respect to  $Q$  and if the Radon-Nikodym derivative
@@ -456,17 +481,17 @@ $$
 X_{t} = x + \int_{0}^{t} \mu_{s} d s + \int_{0}^{t} \sigma_{s} d B_{s}
 $$
 
-In this process,  $\mu_{S}$  is an  $N$ -vector process and  $\sigma_{s}$  is an  $N\times D$  matrix. Suppose that there are both a vector process  $\nu = (\nu^{1},\dots,\nu^{\mathrm{N}})$  and a vector process  $\theta = (\theta^{1},\dots,\theta^{\mathrm{N}})$  such that  $\sigma_t\theta_t = \mu_t - \nu_t$  where the product  $\sigma_t\theta_t$  is not a scalar product but is performed component by component. Suppose, in addition, that the process  $\theta$  satisfies the Novikov condition:
+In this process, $\mu_s$ is an $N$-vector process and $\sigma_s$ is an $N\times D$ matrix. Suppose that there are both a vector process  $\nu = (\nu^{1},\dots,\nu^{\mathrm{N}})$  and a vector process  $\theta = (\theta^{1},\dots,\theta^{\mathrm{N}})$  such that  $\sigma_t\theta_t = \mu_t - \nu_t$  where the product  $\sigma_t\theta_t$  is not a scalar product but is performed component by component. Suppose, in addition, that the process  $\theta$  satisfies the Novikov condition:
 
 $$
 E \left[_{e} \left(\frac{1}{2} \int_{0}^{t} \theta \cdot \theta d s\right) \right] <   \infty
 $$
 
-Then there is a probability measure  $Q$  equivalent to  $P$  such that the following integral
+Then there is a probability measure $Q$ equivalent to $P$ such that the following integral
 
 $$
 \hat {B}_{t} = B_{t} + \int_{0}^{t} \theta_{s} d s
-$$ defines a standard Brownian motion  $\hat{B}_t$  in  $R^D$  on  $(\Omega, \Im, Q)$  with the same standard filtration of the original Brownian motion  $B_t$ . In addition, under  $Q$  the process  $X$  becomes
+$$ defines a standard Brownian motion $\hat{B}_t$ in $R^D$ on $(\Omega, \Im_t, Q)$ with the same standard filtration of the original Brownian motion $B_t$. In addition, under  $Q$  the process  $X$  becomes
 
 
 $$
@@ -474,6 +499,46 @@ X_{t} = x + \int_{0}^{t} v_{s} d s + \int_{0}^{t} \sigma_{s} d \hat {B}_{s}
 $$
 
 Girsanov's theorem essentially states that under technical conditions (the Novikov condition) by changing the probability measure, it is possible to transform an Itô process into another Itô process with arbitrary drift. Prima facie, this result might seem unreasonable. In the end the drift of a process seems to be a fundamental feature of the process as it defines, for example, the average of the process. Consider, however, that a stochastic process can be thought as the set of all its possible paths. In the case of an Itô process, we can identify the process with the set of all continuous and square integrable functions. As observed above, the drift is an average, and it is determined by the probability measure on which the process is defined. Therefore, it should not be surprising that by changing the probability measure it is possible to change the drift.
+
+```d2
+direction: right
+
+real_measure: Real Probability Measure P {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  brownian_motion: Brownian Motion B_t
+  drift_mu: Drift μ_t
+  process: Itô Process X_t
+}
+
+girsanov_transform: Girsanov Transform {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  theta_process: θ_t process
+  novikov: Novikov Condition
+}
+
+risk_neutral_measure: Risk-Neutral Measure Q {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  adjusted_brownian: Adjusted B̂_t
+  new_drift: New Drift ν_t
+  martingale_process: Martingale X̂_t
+}
+
+real_measure -> girsanov_transform: "Apply θ_t to change measure"
+girsanov_transform -> risk_neutral_measure: "Creates equivalent martingale measure"
+
+note: |md
+  **Girsanov's Theorem:**
+  - Changes probability measure to make processes martingales
+  - Adjusts Brownian motion: B̂_t = B_t + ∫θ_s ds
+  - Transforms drift from μ_t to ν_t under new measure Q
+|
+```
 
 # The Diffusion Invariance Principle
 
@@ -487,9 +552,9 @@ If  $X$  is a martingale with respect to an equivalent probability measure  $Q$ 
 $$ d X_{t} = \sigma_{t} d \hat {B}_{t}
 $$
 
-Let's now apply the previous results to a price process  $X = (V, S^1, \ldots, S^{N-1})$  where
+Let's now apply the previous results to a price process $X = (V, S^1, \ldots, S^{N-1})$ where
 
-$$ d S_{t} = \mu_{t} d t + \sigma_{l} d B_{t}
+$$ d S_{t} = \mu_{t} d t + \sigma_{t} d B_{t}
 $$ and
 
 
@@ -510,7 +575,7 @@ $$
 Suppose there is an equivalent martingale measure  $Q$ . Under the equivalent martingale measure  $Q$ , the discounted price process
 
 $$
-Z_{t} = S_{t} \mathrm{V}_{t}^{- 1}
+Z_{t} = S_{t} V_{t}^{-1}
 $$ is a martingale. In addition, by the diffusion invariance principle there is a standard Brownian motion  $\hat{B}_t$  in  $R^D$  under  $Q$  such that:
 
 
@@ -539,19 +604,19 @@ $$
 
 In this setting, therefore, the following three equations hold:
 
-$$ d S_{t} = \mu_{t}^{S} d t + \sigma S_{t}^{S} d B_{t}
+$$ d S_{t} = \mu_{t} d t + \sigma S_{t} d B_{t}
 $$
 
-$$ d C_{t}^{2} = \mu_{t}^{c} d t + \sigma_{t}^{c} d B_{t}
+$$ d C_{t} = \mu_{t}^{c} d t + \sigma_{t}^{c} d B_{t}
 $$
 
 $$ d V_{t} = r V_{t} d t
 $$
 
-Given that  $C_t V_t^{-1}$  is a martingale, we can write
+Given that $C_t V_t^{-1}$ is a martingale, we can write
 
 $$
-C_{t} = V_{t} E_{t}^{Q} \left[ \frac{C_{T}^{2}}{V_{t}} \right] = E_{t}^{Q} \left[ e^{- r (T - t)} \max  \left(S_{T} - K\right) \right]
+C_{t} = V_{t} E_{t}^{Q} \left[ \frac{C_{T}}{V_{t}} \right] = E_{t}^{Q} \left[ e^{- r (T - t)} \max  \left(S_{T} - K\right) \right]
 $$
 
 It can be demonstrated by direct computation that the above formula is equal to the Black-Scholes option pricing formula presented earlier in this entry.

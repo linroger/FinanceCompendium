@@ -1,19 +1,32 @@
 ---
-parent_directory: Financial Markets and Institutions 2
 title: "Class Note 1: Borrower-Lender Conflicts and Debt Contracts"
-tags:
-aliases:
-  - Borrower-Lender Conflicts and Debt Contracts
-parent_folder: Financial Markets and Institutions
-subfolder:
-key_concepts:
+parent_directory: Financial Markets and Institutions 2
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: opencode
+primary_tags:
+   - borrower lender conflicts
+   - debt contracts
+   - asset substitution theory
+   - financial contracting
+   - capital structure theory
+secondary_tags:
+   - agency problems
+   - debt covenants
+   - bankruptcy costs
+   - monitoring incentives
+   - risk shifting
+   - financial distress
+   - leverage incentives
+   - capital budgeting distortions
+   - bankruptcy law
+   - lender monitoring
 cssclasses: academia
-linter-yaml-title-alias: "Class Note 1: Borrower-Lender Conflicts and Debt Contracts"
 ---
 
-# Class Note 1
+# Class Note 1: Borrower-Lender Conflicts and Debt Contracts
 
-# Borrower-Lender conflicts and implied agency problems.
+## Borrower-Lender conflicts and implied agency problems.
 
 The amount of leverage has an impact on the incentives of someone who maximizes the value of the residual equity claim. This "asset substitution theory" is a popular theory of capital structure, but it is not too plausible for large firms. It makes the most sense for owner managed firms, where the manager is the stockholder. If the owner and manager differ, one needs to examine the manager's incentive contract to learn his/her incentives. We will see later that the owner's and manager's incentives are naturally aligned for nearly insolvent firms and for some financial institutions that have government deposit insurance.
 
@@ -21,9 +34,9 @@ The example illustrates how divided ownership of different parts of the cash flo
 
 Debt holders own the lower tail of the distribution of firm value, and equity owners the upper tail. This is the cause of the conflict of interest because some decisions hurt the lower tail and help the upper tail (and can help or hurt the overall value of the firm).
 
-# 1. No debt
+## 1. No Debt
 
-Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is  $\frac{1}{2}$ . Each project requires the an initial outlay of \$800.
+Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is  $\frac{1}{2}$ . Each project requires an initial outlay of \$800.
 
 <table><tr><td>Project</td><td>Value in D</td><td>Value in P</td><td>Expected value</td><td>Expected return</td></tr><tr><td>1</td><td>500</td><td>1500</td><td>1000</td><td>200/800 = 25%</td></tr><tr><td>2</td><td>0</td><td>1551</td><td>775.5</td><td>-24.5/800 = -3.06%</td></tr></table>
 
@@ -31,11 +44,11 @@ We could get fancy and use the states model to take account of the positive "bet
 
 Clearly, project 1 is the best investment. An owner-managed firm with no debt would select it, since all require the same initial outlay.
 
-# 2. What about a firm with debt with face \$600 in place?
+## 2. What about a firm with debt with face \$600 in place?
 
 The fixed payment of \$600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
 
-# Cash flows to equity when debt of \$600 is in place
+## Cash flows to equity when debt of \$600 is in place
 
 <table><tr><td>Project #</td><td>Cash flow if D</td><td>Cash flow if P</td><td>Expected value</td></tr><tr><td>1</td><td>0</td><td>1500-600=900</td><td>450</td></tr><tr><td>2</td><td>0</td><td>1551-600=951</td><td>475.5</td></tr></table>
 
@@ -48,13 +61,13 @@ What is the debt capacity of the firm? What is the highest face value, F, that t
 The borrower's equity payoff from Project 1 with debt of face F is:
 
 $$
-\begin{array}{l} 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (5 0 0 - F) = 1 0 0 0 - F \quad (\text{fo r} F \leq 5 0 0) \\ 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (0) \quad (\text{fo r} F \text{be tw ee n} 5 0 0 \text{an d} 1 5 0 0), \\ 0 \text{fo r} F > 1 5 0 0. \\ \end{array}
+\begin{array}{l} \frac{1}{2} (1500 - F) + \frac{1}{2} (500 - F) = 1000 - F \quad (\text{for} F \leq 500) \\ \frac{1}{2} (1500 - F) + \frac{1}{2} (0) \quad (\text{for} F \text{between} 500 \text{and} 1500), \\ 0 \text{for} F > 1500. \\ \end{array}
 $$
 
 The borrower's equity payoff from Project 2 with debt of face F is:
 
 $$
-\begin{array}{l} 1 / 2 (1 5 5 1 - F) + 1 / 2 (0) \quad (f o r F <   1 5 5 1) \\ 0 \quad (\text{fo r} F > 1 5 5 1) \\ \end{array}
+\begin{array}{l} \frac{1}{2} (1551 - F) + \frac{1}{2} (0) \quad (\text{for} F < 1551) \\ 0 \quad (\text{for} F > 1551) \\ \end{array}
 $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in Prosperity.
@@ -65,34 +78,32 @@ Suppose lenders require an expected return of  $r$  for investing in any securit
 
 Risky debt (debt with a positive probability of bankruptcy) distorts capital budgeting decisions. It provides incentives to make tradeoffs between cash in bankruptcy and not in bankruptcy that differ from the ones that maximize the value of the firm.
 
-The potential bondholders will require a high enough interest rate to give themselves a competitive rate of return, for example  $10\%$ . Thus, any reductions in the value of the capital budgeting program of the firm will come out of the owner's pockets. If the firm selected too high a leverage ratio, it would be giving itself a perverse incentive contract. It would not do this in
-
-the first place, if it had alternatives. Thus, we might not expect a firm to choose a capital structure with as much debt as our example if it faced an unobservable choice between these projects.
+The potential bondholders will require a high enough interest rate to give themselves a competitive rate of return, for example  $10\%$ . Thus, any reductions in the value of the capital budgeting program of the firm will come out of the owner's pockets. If the firm selected too high a leverage ratio, it would be giving itself a perverse incentive contract. It would not do this in the first place, if it had alternatives. Thus, we might not expect a firm to choose a capital structure with as much debt as our example if it faced an unobservable choice between these projects.
 
 This leaves us with some unanswered questions:
 
-AHow can these bad effects of debt be reduced?
+How can these bad effects of debt be reduced?
 
-BHow do bank asset services help reduce these bad effects?
+How do bank asset services help reduce these bad effects?
 
-CIf debt is so bad, why is it so common, especially for smaller firms?
+If debt is so bad, why is it so common, especially for smaller firms?
 
 Why not use another financial contract?
 
 Beginning with question a, we examine problems with bond covenants, contractual provisions in bond or loan indentures. See the Wruck paper in the packet for a description of typical covenants.
 
--Just prohibiting an action in a bond covenant does not prevent it from happening. The lender needs to know about the violation before it happens or soon thereafter. In addition, the lender must have some bargaining power over the borrower in order to stop a "crime in progress."
+- Just prohibiting an action in a bond covenant does not prevent it from happening. The lender needs to know about the violation before it happens or soon thereafter. In addition, the lender must have some bargaining power over the borrower in order to stop a "crime in progress."
 
 - Enforcement requires effort and monitoring of the borrower. Without substantial monitoring, the contract cannot depend on anything except the grossest public information.
 
--If not all contingencies are spelled out, contracts must be renegotiated over time. This too requires the lender to have lots of information about the borrower's situation.
+- If not all contingencies are spelled out, contracts must be renegotiated over time. This too requires the lender to have lots of information about the borrower's situation.
 
--If the lender is not one individual, but many small bondholders, the covenants can be difficult to enforce. There can be either duplication of effort if each lender monitors the situation carefully, or more likely, a "free rider" problem, where none of the small bondholders find it worthwhile to bother to monitor. Without monitoring, covenants will not be renegotiated or contain much detail. If there is no monitoring, covenants will be written contingent only on the grossest public information.
+- If the lender is not one individual, but many small bondholders, the covenants can be difficult to enforce. There can be either duplication of effort if each lender monitors the situation carefully, or more likely, a "free rider" problem, where none of the small bondholders find it worthwhile to bother to monitor. Without monitoring, covenants will not be renegotiated or contain much detail. If there is no monitoring, covenants will be written contingent only on the grossest public information.
 
 - This gives an advantage to having a single lender, rather than many lenders. We will see that this is a part of the argument why asset services of banks and other intermediaries are important.
 - The US Federal Trust Indenture Act prohibits majority voting to restructure debt contracts that reduce principal or interest or extend the debt maturity. A  $100\%$  vote required to change these "key covenants." Thus, even if public bondholders had the information, they probably could not use it. Changes to other covenants in bonds require a 2/3 vote in dollar value, and  $50\%$  measured in the fraction of bondholders (not weighted by dollar value).
 
-# Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
+## Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
 
 This is our initial view of the role of debt in corporate control. This is simple but abstract. This will not be our only view of this issue.
 
@@ -100,9 +111,9 @@ Consider a borrower who needs to raise a large quantity of capital. All lenders 
 
 Outside investors do not observe the borrower's operations directly, not even its sales or cash flows. How can the lenders write a contract where they do not need to monitor this information?
 
-The firm needs to raise 1 ( \$1 million), and investors require an expected return of$ r=5\%$.
+The firm needs to raise 1 (\$1 million), and investors require an expected return of $r=5\%$.
 
-# What is the best financial contract without monitoring?
+### What is the best financial contract without monitoring?
 
 All lenders and the borrower agree that the borrower has a profitable (positive net present value) project to fund. However, only the borrower will observe how profitable it turns out to be. The borrower can consume any part of the project's return that he does not pay out to the investor. The interpretation is that the borrower can appropriate the return to himself, since no one else observes how successful is the project. If the project is a retail store, the borrower can take some sales in cash to himself. More generally, the borrower can inflate costs. The net cash flows to the firm are very unobservable in practice for many firms. In addition, most other conflicts of interest faced by borrowers can be reinterpreted as equivalent to the borrower's ability to retain under reported cash. The ability to retain under reported cash is simply the most extreme example of a conflict of interest.
 
@@ -112,19 +123,19 @@ is: H=1.4 million with probability P=.8
 
 L=1 million with probability  $1 - P = .2$ .
 
-# A simple candidate for a financial contract is equity.
+### A simple candidate for a financial contract is equity
 
 An equity contract in this context is a profit-sharing agreement, where the profit shared depends on the profits reported by the borrower.
 
 Let the fraction of reported profits that goes to the outside investor be a, while the borrower retains the fraction 1!a, plus any under reported profits. Suppose that the borrower's contract is just to pay a fraction of reported profits, with no other details or penalties specified. The borrower's payoff given the true value of V and the reported value, denoted by Z, is  $V - aZ$ .
 
-# What profit will the borrower report if he is supposed to pay out a fraction of it?
+### What profit will the borrower report if he is supposed to pay out a fraction of it?
 
 The borrower will choose the smallest value of  $Z$ . Supposing that the borrower can't make the lender take a share of a reported loss (by reporting  $Z < 0$ ), the borrower will report  $Z = 0$ .
 
 No matter what is the true value of V, the most profitable choice for the borrower is to pay the lowest possible value. If there is no cost to the borrower of understating the amount, the borrower always does. Even if the lender knew the value of V, if the borrower obtains it first and thus controls it, the lender will not be paid unless the borrower suffers some consequence of not paying.
 
-# What can the lender do if the borrower claims a low amount?
+### What can the lender do if the borrower claims a low amount?
 
 The lender would like to impose a penalty for low payments to give incentives for higher payments. There are two interpretations. The lender can liquidate the project if the borrower pays too little, preventing the borrower from absconding with it, or the lender can impose a non-monetary penalty on the borrower. Bankruptcy in the world is some combination of these two effects. In ancient history, the non-monetary penalties were very common, i.e., debtors' prisons and physical penalties. Such sanctions are now illegal, but the loss of reputation of a borrower of a bankrupt firm is similar.
 
@@ -489,7 +500,7 @@ need to be liquidated in this case, because the face value of the bank's debt mu
 
 # Can the banker use diversification to reduce delegation costs?
 
-# The two-loan bank
+### The two-loan bank
 
 Suppose the banker monitored not one loan, but a diversified portfolio of loans. A very simple way to show the value of diversification is to examine the two-loan bank.
 
@@ -508,7 +519,7 @@ Assume that liquidating the bank yields nothing to depositors or to the banker, 
 
 If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and the other does not default (paying F), then  $1 + F$  must be at least 2.1875, and the face value of each loan must satisfy  $F \geq 1.1875$ . If the bank made loans with this face value, it could avoid liquidation with probability .96. In summary, if the bank monitors its loans, it will have the cash and the incentives to pay bank deposits in full with probability .96 so long as  $F \geq 1.1875$ , or the interest rate on bank loans is at least  $18.75\%$ .
 
-# Will the bank monitor?
+### Will the bank monitor?
 
 Without monitoring, the bank would not be able to offer to take 1 when only 1 is available, and would instead liquidate the borrower's asset. Monitoring provides no benefit to the banker when all loans pay in full (monitoring is not needed to force a borrower to pay F) nor when all loans default (because the bank fails and is liquidated). If the banker obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to
 
@@ -532,7 +543,7 @@ $= 0.0608$
 
 The delegation cost per borrower, D, equals the cost of financial distress of the bank or .04(1)=.04, plus control rent to the banker of .0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at  $18.875\%$  from the bank, versus  $31.25\%$  direct. The investors get a  $5\%$  expected return in either situation. The banker is happy with any claim with an expected payment above  \$400, and ends up with an expected payment of\$ 122,000.
 
-# Summary of Financial Intermediation and Diversification
+### Summary of Financial Intermediation and Diversification
 
 We considered three types of contracting arrangements:
 

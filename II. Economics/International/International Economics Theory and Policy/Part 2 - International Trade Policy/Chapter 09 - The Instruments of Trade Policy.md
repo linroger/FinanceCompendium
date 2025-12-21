@@ -14,7 +14,6 @@ secondary_tags:
 - trade policy usefully summarized
 - country setting tariff welfare
 - tariffs quotas instruments trade
-tags_extracted: '2025-12-18T00:52:15.257844'
 ---
 
 # THE INSTRUMENTS OF TRADE POLICY
@@ -83,7 +82,7 @@ The equilibrium world price is where Home import demand (MD curve) equals Foreig
 
 # Effects of a Tariff
 
-From the point of view of someone shipping goods, a tariff is just like a cost of transportation. If Home imposes a tax of  \$2 on every bushel of wheat imported, shippers will be unwilling to move the wheat unless the price difference between the two markets is at least\$ 2.
+From the point of view of someone shipping goods, a tariff is just like a cost of transportation. If Home imposes a tax of  \\$2 on every bushel of wheat imported, shippers will be unwilling to move the wheat unless the price difference between the two markets is at least\\$ 2.
 
 Figure 9-4 illustrates the effects of a specific tariff of  $t$  per unit of wheat (shown as  $t$  in the figure). In the absence of a tariff, the price of wheat would be equalized at  $P_W$  in both Home and Foreign, as seen at point 1 in the middle panel, which illustrates the world market. With the tariff in place, however, shippers are not willing to move wheat from Foreign to Home unless the Home price exceeds the Foreign price by at least  $t$ .
 
@@ -120,13 +119,13 @@ However, there are two problems with trying to calculate the rate of protection 
 
 The second problem is that tariffs may have very different effects on different stages of production of a good. A simple example illustrates this point.
 
-Suppose an automobile sells on the world market for  \$8,000, and the parts out of which that automobile is made sell for\$ 6,000. Let's compare two countries: one that wants to develop an auto assembly industry and one that already has an assembly industry and wants to develop a parts industry.
+Suppose an automobile sells on the world market for  \\$8,000, and the parts out of which that automobile is made sell for\\$ 6,000. Let's compare two countries: one that wants to develop an auto assembly industry and one that already has an assembly industry and wants to develop a parts industry.
 
-To encourage a domestic auto industry, the first country places a 25 percent tariff on imported autos, allowing domestic assemblers to charge  \$10,000 instead of\$ 8,000. In this case, it would be wrong to say that the assemblers receive only 25 percent protection. Before the tariff, domestic assembly would take place only if it could be done for \$2,000 (the difference between the \$8,000 price of a completed automobile and the \$6,000 cost of parts) or less; now it will take place even if it costs as much as \$4,000 (the difference between the \$10,000 price and the cost of parts). That is, the 25 percent tariff rate provides assemblers with an effective rate of protection of 100 percent.
+To encourage a domestic auto industry, the first country places a 25 percent tariff on imported autos, allowing domestic assemblers to charge  \\$10,000 instead of\\$ 8,000. In this case, it would be wrong to say that the assemblers receive only 25 percent protection. Before the tariff, domestic assembly would take place only if it could be done for \\$2,000 (the difference between the \\$8,000 price of a completed automobile and the \\$6,000 cost of parts) or less; now it will take place even if it costs as much as \\$4,000 (the difference between the \\$10,000 price and the cost of parts). That is, the 25 percent tariff rate provides assemblers with an effective rate of protection of 100 percent.
 
-Now suppose the second country, to encourage domestic production of parts, imposes a 10 percent tariff on imported parts, raising the cost of parts of domestic assemblers from  $6,000 to$ 6,600. Even though there is no change in the tariff on
+Now suppose the second country, to encourage domestic production of parts, imposes a 10 percent tariff on imported parts, raising the cost of parts of domestic assemblers from  \\$6,000 to\\$ 6,600. Even though there is no change in the tariff on
 
-assembled automobiles, this policy makes it less advantageous to assemble domestically. Before the tariff, it would have been worth assembling a car locally if it could be done for \(2,000 (\)8,000 - \$6,000); after the tariff, local assembly takes place only if it can be done for \)1,400 (\(8,000 - \)6,600). The tariff on parts, then, while providing positive protection to parts manufacturers, provides negative effective protection to assembly at the rate of -30 percent (-600/2,000).
+assembled automobiles, this policy makes it less advantageous to assemble domestically. Before the tariff, it would have been worth assembling a car locally if it could be done for \\(2,000 (\\)8,000 - \\$6,000); after the tariff, local assembly takes place only if it can be done for \\)1,400 (\\(8,000 - \\)6,600). The tariff on parts, then, while providing positive protection to parts manufacturers, provides negative effective protection to assembly at the rate of -30 percent (-600/2,000).
 
 Reasoning similar to that seen in this example has led economists to make elaborate calculations to measure the degree of effective protection actually provided to particular industries by tariffs and other trade policies. Trade policies aimed at promoting economic development, for example (Chapter 11), often lead to rates of effective protection much higher than the tariff rates themselves.<sup>1</sup>
 
@@ -136,7 +135,7 @@ A tariff raises the price of a good in the importing country and lowers it in th
 
 # Consumer and Producer Surplus
 
-Consumer surplus measures the amount a consumer gains from a purchase by computing the difference between the price he actually pays and the price he would have been willing to pay. If, for example, a consumer would have been willing to pay  \$8 for a bushel of wheat but the price is only\$ 3, the consumer surplus gained by the purchase is \$5.
+Consumer surplus measures the amount a consumer gains from a purchase by computing the difference between the price he actually pays and the price he would have been willing to pay. If, for example, a consumer would have been willing to pay  \\$8 for a bushel of wheat but the price is only\\$ 3, the consumer surplus gained by the purchase is \\$5.
 
 Consumer surplus can be derived from the market demand curve (Figure 9-6). For example, suppose the maximum price at which consumers will buy 10 units of a good is  \$10. Then the 10th unit of the good purchased must be worth\$ 10 to consumers. If it were worth less, they would not purchase it; if it were worth more, they would have been willing to purchase it even if the price were higher. Now suppose that in order to get consumers to buy 11 units, the price must be cut to \$9. Then the 11th unit must be worth only \$9 to consumers.
 
@@ -156,7 +155,7 @@ FIGURE 9-7 Geometry of Consumer Surplus
 
 $Q$  from the area under the demand curve up to  $Q$  (Figure 9-7). If the price is  $P^1$ , the quantity demanded is  $D^1$  and the consumer surplus is measured by the areas labeled  $a$  plus  $b$ . If the price rises to  $P^2$ , the quantity demanded falls to  $D^2$  and consumer surplus falls by  $b$  to equal just  $a$ .
 
-Producer surplus is an analogous concept. A producer willing to sell a good for \$2 but receiving a price of \$5 gains a producer surplus of \$3. The same procedure used to derive consumer surplus from the demand curve can be used to derive producer surplus
+Producer surplus is an analogous concept. A producer willing to sell a good for \\$2 but receiving a price of \\$5 gains a producer surplus of \\$3. The same procedure used to derive consumer surplus from the demand curve can be used to derive producer surplus
 
 # FIGURE 9-8 Geometry of Producer Surplus
 
